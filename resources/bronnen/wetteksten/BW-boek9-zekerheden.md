@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:30Z'
+    confirmed_at: '2026-05-13T13:34:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 pass: 23 headings, max sectie 875 chars. Kleine wijzigingswet, volledig intact.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:30Z'
+      run_at: '2026-05-13T13:34:29Z'
       rationale: 'L1 pass: 23 headings, max sectie 875 chars. Kleine wijzigingswet, volledig intact.'
       concrete_problemen: []
 ---

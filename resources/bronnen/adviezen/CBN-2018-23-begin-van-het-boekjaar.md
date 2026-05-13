@@ -48,7 +48,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:50Z'
+    confirmed_at: '2026-05-13T13:34:47Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Na re-scrape met scraper-fixes is het TOC-artefact (A3) dat in de vorige ronde aanwezig was verdwenen. De body begint direct met de titel-heading gevolgd door de inhoudssecties zonder enig plain-text TOC-blok. Structuur correct, tabellen in pipe-format, voetnoten [^1]–[^40] volledig aanwezig. Geen nieuwe ETL-artefacten gevonden in categorieën A–G.
     layer1:
@@ -62,7 +62,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:50Z'
+      run_at: '2026-05-13T13:34:47Z'
       rationale: Na re-scrape met scraper-fixes is het TOC-artefact (A3) dat in de vorige ronde aanwezig was verdwenen. De body begint direct met de titel-heading gevolgd door de inhoudssecties zonder enig plain-text TOC-blok. Structuur correct, tabellen in pipe-format, voetnoten [^1]–[^40] volledig aanwezig. Geen nieuwe ETL-artefacten gevonden in categorieën A–G.
       concrete_problemen: []
 ---

@@ -28,7 +28,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:50Z'
+    confirmed_at: '2026-05-13T13:34:47Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Vorige QA-ronde meldde `avtiva` op regel 309 als A9 OCR-fout. Na herlezing van de volledige tekst: `avtiva` in `Materiële vaste avtiva` op regel 327 (niet 309) is identiek aan de brontekst op de CBN-website (source-typo, geen ETL-artefact). Geen andere ETL-problemen gevonden: 20+ headings correct genest, voetnoten [^1]–[^9] aanwezig, tabellen correct in pipe-syntax, geen form-feeds, geen scrambled tekst.'
     layer1:
@@ -42,7 +42,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:50Z'
+      run_at: '2026-05-13T13:34:47Z'
       rationale: 'Vorige QA-ronde meldde `avtiva` op regel 309 als A9 OCR-fout. Na herlezing van de volledige tekst: `avtiva` in `Materiële vaste avtiva` op regel 327 (niet 309) is identiek aan de brontekst op de CBN-website (source-typo, geen ETL-artefact). Geen andere ETL-problemen gevonden: 20+ headings correct genest, voetnoten [^1]–[^9] aanwezig, tabellen correct in pipe-syntax, geen form-feeds, geen scrambled tekst.'
       concrete_problemen:
         - regel: 327

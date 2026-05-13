@@ -30,7 +30,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:47Z'
+    confirmed_at: '2026-05-13T13:34:45Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen voetnootverwijzingen in body (verwijzing naar advies 148/1 is gewone tekst). Geen PDF-artefacten. Inhoud volledig: definitie, voorbeeld, boekhoudkundige behandeling, onderscheid voorschot vs overlopende rekening, matching principle.'
     layer1:
@@ -44,7 +44,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:47Z'
+      run_at: '2026-05-13T13:34:45Z'
       rationale: 'Geen voetnootverwijzingen in body (verwijzing naar advies 148/1 is gewone tekst). Geen PDF-artefacten. Inhoud volledig: definitie, voorbeeld, boekhoudkundige behandeling, onderscheid voorschot vs overlopende rekening, matching principle.'
       concrete_problemen: []
 ---

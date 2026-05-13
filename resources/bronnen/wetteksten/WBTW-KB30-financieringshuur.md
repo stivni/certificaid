@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f4076ba-dirty
+    pipeline_version: 63c556a3-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:28:58Z'
+  generated_at: '2026-05-13T13:34:00Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:53Z'
+    confirmed_at: '2026-05-13T13:34:50Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Compact KB (4 artikelen). Heldere heading-hierarchie (H1 + ## Art. 1-4), elke artikel-heading gevolgd door wijzigingstoelichting tussen haakjes en daarna de wetstekst. Lijstmarkers 1°-4° consistent. Geen footers, geen TOC-leaders, geen scrambled tekst. Eén minimale source-glitch ('nieteigendomsoverdragend' samengevoegd) maar dit is geen ETL-artefact maar source-typo."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:53Z'
+      run_at: '2026-05-13T13:34:50Z'
       rationale: "Compact KB (4 artikelen). Heldere heading-hierarchie (H1 + ## Art. 1-4), elke artikel-heading gevolgd door wijzigingstoelichting tussen haakjes en daarna de wetstekst. Lijstmarkers 1°-4° consistent. Geen footers, geen TOC-leaders, geen scrambled tekst. Eén minimale source-glitch ('nieteigendomsoverdragend' samengevoegd) maar dit is geen ETL-artefact maar source-typo."
       concrete_problemen: []
 ---

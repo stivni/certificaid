@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f4076ba-dirty
+    pipeline_version: 63c556a3-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:28:59Z'
+  generated_at: '2026-05-13T13:34:00Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:53Z'
+    confirmed_at: '2026-05-13T13:34:50Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Langere tekst (11 art, 13kB) met § §-structuur. Markdown is volledig en logisch: H1, ## Art. 1-11, met wijzigingsblok + wetstekst per artikel. Lijstmarkers consistent (1°, 2°, etc.), § §-paragrafen netjes. De openingsparen zonder afsluitende ')' op meerdere plekken (Art. 3, 4, 5, 7) zijn source-glitches uit Fisconet en kunnen blijven onder de '(source)'-uitzondering."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:53Z'
+      run_at: '2026-05-13T13:34:50Z'
       rationale: "Langere tekst (11 art, 13kB) met § §-structuur. Markdown is volledig en logisch: H1, ## Art. 1-11, met wijzigingsblok + wetstekst per artikel. Lijstmarkers consistent (1°, 2°, etc.), § §-paragrafen netjes. De openingsparen zonder afsluitende ')' op meerdere plekken (Art. 3, 4, 5, 7) zijn source-glitches uit Fisconet en kunnen blijven onder de '(source)'-uitzondering."
       concrete_problemen:
         - Meerdere openingsparen zonder afsluiter in wijzigingsbloks (Art. 3/4/5/7) — source-glitch, niet ETL

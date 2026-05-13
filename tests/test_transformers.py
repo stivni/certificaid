@@ -2494,3 +2494,40 @@ class TestStripDuplicateTocHeadings:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "strip_duplicate_toc_headings" in TRANSFORMERS
+
+
+class TestPromoteRomanRubrieken:
+    def test_basic_rubriek(self):
+        from tools.etl.transformers.promote_roman_rubrieken import promote_roman_rubrieken
+        body = "## GOEDEREN\n\nI. Levende dieren.\n\n1° Runderen, varkens.\n"
+        result, _ = promote_roman_rubrieken(body, {})
+        assert "### I. Levende dieren." in result
+
+    def test_amendment_annotation_after(self):
+        from tools.etl.transformers.promote_roman_rubrieken import promote_roman_rubrieken
+        body = "## GOEDEREN\n\nI. Levende dieren.\n(De tekst is van toepassing met ingang van 01.07.2003.)\n"
+        result, _ = promote_roman_rubrieken(body, {})
+        assert "### I. Levende dieren." in result
+
+    def test_opgeheven(self):
+        from tools.etl.transformers.promote_roman_rubrieken import promote_roman_rubrieken
+        body = "\n\nXI. (Opgeheven bij KB 11.08.1972)\n\nBody.\n"
+        result, _ = promote_roman_rubrieken(body, {})
+        assert "### XI. (Opgeheven bij KB 11.08.1972)" in result
+
+    def test_no_promotion_inline(self):
+        from tools.etl.transformers.promote_roman_rubrieken import promote_roman_rubrieken
+        body = "Zie I. Levende dieren voor details.\n"
+        result, _ = promote_roman_rubrieken(body, {})
+        assert result == body
+
+    def test_idempotent(self):
+        from tools.etl.transformers.promote_roman_rubrieken import promote_roman_rubrieken
+        body = "## GOEDEREN\n\nI. Levende dieren.\n\n1° Runderen.\n"
+        once, _ = promote_roman_rubrieken(body, {})
+        twice, _ = promote_roman_rubrieken(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "promote_roman_rubrieken" in TRANSFORMERS

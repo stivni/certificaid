@@ -40,7 +40,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:49Z'
+    confirmed_at: '2026-05-13T13:34:47Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Kort advies (2054 tekens, geen headings want één doorlopende teksteenheid). Eén correcte pipe-tabel, twee voetnoten correct opgemaakt. Geen PDF-artefacten, geen structuurproblemen, geen OCR-issues. Inhoud volledig en consistent met de titel.
     layer1:
@@ -54,7 +54,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:49Z'
+      run_at: '2026-05-13T13:34:47Z'
       rationale: Kort advies (2054 tekens, geen headings want één doorlopende teksteenheid). Eén correcte pipe-tabel, twee voetnoten correct opgemaakt. Geen PDF-artefacten, geen structuurproblemen, geen OCR-issues. Inhoud volledig en consistent met de titel.
       concrete_problemen: []
 ---

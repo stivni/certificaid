@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:30Z'
+    confirmed_at: '2026-05-13T13:34:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 pass: 105 headings, max sectie 929 chars. Wijzigingswet volledig. Lege headings (Art. 60, 62 zonder body) zijn bron-stijl (intrekking), geen ETL-bug.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:30Z'
+      run_at: '2026-05-13T13:34:29Z'
       rationale: 'L1 pass: 105 headings, max sectie 929 chars. Wijzigingswet volledig. Lege headings (Art. 60, 62 zonder body) zijn bron-stijl (intrekking), geen ETL-bug.'
       concrete_problemen: []
 ---

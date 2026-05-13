@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:30Z'
+    confirmed_at: '2026-05-13T13:34:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 pass: 55 headings, max sectie 1767 chars. Wijzigingswet met correct headings. Body start is ongebruikelijk (§2 midden in een wijzigingsbepaling) maar dit is een bron-artefact (de PDF bevat de wetstekst zo). Inhoud volledig.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:30Z'
+      run_at: '2026-05-13T13:34:29Z'
       rationale: 'L1 pass: 55 headings, max sectie 1767 chars. Wijzigingswet met correct headings. Body start is ongebruikelijk (§2 midden in een wijzigingsbepaling) maar dit is een bron-artefact (de PDF bevat de wetstekst zo). Inhoud volledig.'
       concrete_problemen:
         - regel: 47

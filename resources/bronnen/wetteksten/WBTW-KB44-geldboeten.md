@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f4076ba-dirty
+    pipeline_version: 63c556a3-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:28:59Z'
+  generated_at: '2026-05-13T13:34:00Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:29:51Z'
+    confirmed_at: '2026-05-13T13:34:48Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Net als KB41 zware kolom-bleed in de hele bijlage: 2-koloms PDF-tabel (overtreding | boete) is in plain text gemerged. Voorbeelden: 'B. Laattijdig indienen 100 EUR per aangifte en per maand vertraging1 met een maximum...' (regel 89). De boete-bedragen kleven aan de overtredingsbeschrijving. Geen pipe-syntax. Bijlage is daardoor onbruikbaar voor retrieval als gestructureerde data."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:51Z'
+      run_at: '2026-05-13T13:34:48Z'
       rationale: "Net als KB41 zware kolom-bleed in de hele bijlage: 2-koloms PDF-tabel (overtreding | boete) is in plain text gemerged. Voorbeelden: 'B. Laattijdig indienen 100 EUR per aangifte en per maand vertraging1 met een maximum...' (regel 89). De boete-bedragen kleven aan de overtredingsbeschrijving. Geen pipe-syntax. Bijlage is daardoor onbruikbaar voor retrieval als gestructureerde data."
       concrete_problemen:
         - 'Hele bijlage (regels 81-351) is kolom-bleed: overtreding en bijhorende boete staan zonder scheiding op zelfde regel'
@@ -86,7 +86,7 @@ De Minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.
 
 ## AFDELING 1 : AANGIFTEVERPLICHTING
 
-I. Aangifte bedoeld in artikel 53, § 1 , eerste lid, 2°, van het Wetboek
+### I. Aangifte bedoeld in artikel 53, § 1 , eerste lid, 2°, van het Wetboek
 
 A. Niet indienen 1.000 EUR per aangifte
 
@@ -114,11 +114,11 @@ C. Niet correct ingevuld Per aangifte:
 - Andere onregelmatigheden:
 500 EUR
 
-D. Niet naleven van de procedure van indienen 400 EUR per aangifte
+### D. Niet naleven van de procedure van indienen 400 EUR per aangifte
 
 E. Niet gebruiken van het door de administratie 50 EUR per betaling verstrekte betalingsformulier of van de door haar ter kennis gebrachte gestructureerde mededeling
 
-III. Andere aangiften
+### III. Andere aangiften
 
 A. Niet indienen 500 EUR per aangifte
 
@@ -129,11 +129,11 @@ C. Niet correct ingevuld Per aangifte:
 - Andere onregelmatigheden:
 300 EUR
 
-D. Niet naleven van de procedure van indienen 200 EUR per aangifte
+### D. Niet naleven van de procedure van indienen 200 EUR per aangifte
 
 E. Niet gebruiken van het door de administratie 50 EUR per betaling verstrekte betalingsformulier of van de door haar ter kennis gebrachte gestructureerde mededeling
 
-IV. Lijsten en opgaven
+### IV. Lijsten en opgaven
 
 1. Jaarlijkse lijst van de btw-belastingplichtige afnemers bedoeld in artikel 53quinquies van het Wetboek
 
@@ -213,11 +213,11 @@ B. Laattijdig indienen 50 EUR per document en per maand vertraging (1) met een m
 
 C. Ontbrekende of verkeerde gegevens 50 EUR per ontbrekend of verkeerd gegeven met een maximum van 200 EUR
 
-D. Niet naleven van de procedure van indienen 200 EUR per document
+### D. Niet naleven van de procedure van indienen 200 EUR per document
 
 ## AFDELING 2 : FACTUREN EN ANDERE STUKKEN VOORZIEN DOOR OF KRACHTENS DE REGELGEVING
 
-I. Factuur en als zodanig geldend stuk
+### I. Factuur en als zodanig geldend stuk
 
 A. Niet opgemaakt of uitgereikt binnen de termijn Per factuur of als zodanig geldend voorzien door of krachtens de regelgeving stuk: - 1ste overtreding: 50 EUR met een maximum van 500 EUR - 2de overtreding: 125 EUR met een maximum van 1.250 EUR - volgende overtredingen: 250 EUR met een maximum van 5.000 EUR
 
@@ -233,7 +233,7 @@ EUR
 EUR met een maximum van
 5.000 EUR
 
-II. Kasticket en rekening of ontvangstbewijs
+### II. Kasticket en rekening of ontvangstbewijs
 
 A. Het niet houden van een kassasysteem dat voldoet - 1ste overtreding: 1.500 EUR aan het koninklijk besluit van 30 december 2009 tot - 2de overtreding: 3.000 EUR het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem in de - volgende overtredingen: horecasector moet voldoen 5.000 EUR
 
@@ -256,7 +256,7 @@ E. Gebrek aan rechtvaardiging van de bestemming van - 1ste overtreding: 500 EUR 
 
 F. Overtredingen van verplichtingen die door of - 1ste overtreding: 1.000 EUR krachtens de regelgeving worden opgelegd aan de - volgende overtredingen: erkende drukkers 2.000 EUR
 
-III. Andere door of krachtens de regelgeving voorziene stukken en rapporten
+### III. Andere door of krachtens de regelgeving voorziene stukken en rapporten
 
 Niet opgemaakt binnen de termijn voorzien door of Per stuk of rapport : krachtens de regelgeving of niet conform de regelgeving - 1ste overtreding: 50 EUR met een maximum van 250 EUR - 2de overtreding: 100 EUR met een maximum van 1.000 EUR - volgende overtredingen: 250 EUR met een maximum van 2.500 EUR
 
@@ -282,7 +282,7 @@ E. Een verrichte inschrijving of rechtzetting is niet Per inschrijving : conform
 EUR met een maximum van
 1.250 EUR
 
-II. De in artikel 8 van het koninklijk besluit nr. 1 bedoelde dubbels van stukken
+### II. De in artikel 8 van het koninklijk besluit nr. 1 bedoelde dubbels van stukken
 
 Niet opgemaakt Per dubbel:
 - 1ste overtreding: 50 EUR met een maximum van 500 EUR
@@ -292,7 +292,7 @@ EUR
 EUR met een maximum van
 5.000 EUR
 
-III. Andere door of krachtens de regelgeving op te maken/te houden stukken en gegevens
+### III. Andere door of krachtens de regelgeving op te maken/te houden stukken en gegevens
 
 Niet opgemaakt of niet gehouden Per overtreding:
 - 1ste overtreding: 250 EUR
@@ -310,7 +310,7 @@ II. Verplichtingen tot het verstrekken van inlichtingen aan de Administratie voo
 
 Niet naleven 250 EUR per overtreding
 
-III. Verplichting bedoeld in artikel 60 van het Wetboek
+### III. Verplichting bedoeld in artikel 60 van het Wetboek
 
 A. Gebrek aan bewaring - 1ste overtreding: 1.000 EUR
 - 2de overtreding: 2.000 EUR
@@ -322,7 +322,7 @@ B. Niet-conforme bewaring - 1ste overtreding: 500 EUR
 - volgende overtredingen:
 2.500 EUR
 
-IV. Verplichtingen bedoeld in de artikelen 61, 62, 62bis en 63 van het Wetboek
+### IV. Verplichtingen bedoeld in de artikelen 61, 62, 62bis en 63 van het Wetboek
 
 Niet naleven - 1ste overtreding: 1.000 EUR
 - 2de overtreding: 2.000 EUR
@@ -337,7 +337,7 @@ A. Onregelmatigheden met betrekking tot stukken en Per stuk of document document
 
 B. Overtredingen met betrekking tot de toekenning of - 1ste overtreding: 250 EUR het gebruik van de door de regelgeving voorziene - 2de overtreding: 500 EUR vergunning - volgende overtredingen: 1.000 EUR
 
-II. Artikel 52 van het Wetboek
+### II. Artikel 52 van het Wetboek
 
 Andere overtredingen dan deze bedoeld in artikel 70, §§ 1 125 EUR per overtreding en 3, van het Wetboek, voor wat betreft de verplichting tot het aangeven van de goederen onder de door artikel 52, § 1, van het Wetboek, voorgeschreven voorwaarden
 

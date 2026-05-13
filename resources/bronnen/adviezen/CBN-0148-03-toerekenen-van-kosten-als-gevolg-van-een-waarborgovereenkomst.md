@@ -29,7 +29,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:47Z'
+    confirmed_at: '2026-05-13T13:34:45Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: probleem, twee methodieken, standpunt Commissie. Geen artefacten, geen structuurfouten.'
     layer1:
@@ -43,7 +43,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:47Z'
+      run_at: '2026-05-13T13:34:45Z'
       rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: probleem, twee methodieken, standpunt Commissie. Geen artefacten, geen structuurfouten.'
       concrete_problemen: []
 ---

@@ -33,7 +33,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:38Z'
+    confirmed_at: '2026-05-13T13:34:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Bug D4 (gebroken italic '*Kredietinstellingen *') is opgelost: body regel 56 toont correct gesloten '*Kredietinstellingen*'. Het advies is inhoudelijk volledig (één kernparagraaf), geen artefacten zichtbaar. Schoon genoeg om voor mens-geschreven door te gaan."
     layer1:
@@ -47,7 +47,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:38Z'
+      run_at: '2026-05-13T13:34:36Z'
       rationale: "Bug D4 (gebroken italic '*Kredietinstellingen *') is opgelost: body regel 56 toont correct gesloten '*Kredietinstellingen*'. Het advies is inhoudelijk volledig (één kernparagraaf), geen artefacten zichtbaar. Schoon genoeg om voor mens-geschreven door te gaan."
       concrete_problemen: []
 ---

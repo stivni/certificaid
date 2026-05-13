@@ -33,7 +33,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:49Z'
+    confirmed_at: '2026-05-13T13:34:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen PDF-artefacten zichtbaar. Heading-hiërarchie correct (# → ## → ###). Alle voetnoten [^2]-[^24] hebben een corresponderende definitie onderaan; [^1] staat als consultatie-noot enkel onderaan (CBN-conventie, geen bug). Inhoud volledig: inleiding, (I)VZW-sectie, stichtingen-sectie, voorbeelden.'
     layer1:
@@ -47,7 +47,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:49Z'
+      run_at: '2026-05-13T13:34:46Z'
       rationale: 'Geen PDF-artefacten zichtbaar. Heading-hiërarchie correct (# → ## → ###). Alle voetnoten [^2]-[^24] hebben een corresponderende definitie onderaan; [^1] staat als consultatie-noot enkel onderaan (CBN-conventie, geen bug). Inhoud volledig: inleiding, (I)VZW-sectie, stichtingen-sectie, voorbeelden.'
       concrete_problemen: []
 ---

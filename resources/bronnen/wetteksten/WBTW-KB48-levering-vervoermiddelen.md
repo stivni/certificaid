@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f4076ba-dirty
+    pipeline_version: 63c556a3-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:28:59Z'
+  generated_at: '2026-05-13T13:34:00Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:52Z'
+    confirmed_at: '2026-05-13T13:34:49Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "fix_pdftotext_glue_bugs heeft 'van hetWetboek' op regel 66 niet ondubbelzinnig gecorrigeerd (zie regel 66: 'van hetWetboek' staat er nog), maar dit is één geïsoleerde concat-bug en marginaal. De eerder gevlagde linewraps zijn opgelost. Hoofdtekst leest natuurlijk, alle artikelen 1-9 (incl. Art. 4bis als opgeheven-stub) consistent geformatteerd, lijst-structuur a)-c) in Art. 3 §1 correct. De lege witregel tussen 'a) voor de landvoertuigen' en 'b) voor schepen' (regel 74-75) blijft een kleine cosmetic. Net trusted: één resterende concat-bug niet voldoende voor needs-rework."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:52Z'
+      run_at: '2026-05-13T13:34:49Z'
       rationale: "fix_pdftotext_glue_bugs heeft 'van hetWetboek' op regel 66 niet ondubbelzinnig gecorrigeerd (zie regel 66: 'van hetWetboek' staat er nog), maar dit is één geïsoleerde concat-bug en marginaal. De eerder gevlagde linewraps zijn opgelost. Hoofdtekst leest natuurlijk, alle artikelen 1-9 (incl. Art. 4bis als opgeheven-stub) consistent geformatteerd, lijst-structuur a)-c) in Art. 3 §1 correct. De lege witregel tussen 'a) voor de landvoertuigen' en 'b) voor schepen' (regel 74-75) blijft een kleine cosmetic. Net trusted: één resterende concat-bug niet voldoende voor needs-rework."
       concrete_problemen:
         - "Regel 66: 'van hetWetboek' (ontbrekende spatie) — fix_pdftotext_glue_bugs heeft deze specifieke variant niet gevangen"

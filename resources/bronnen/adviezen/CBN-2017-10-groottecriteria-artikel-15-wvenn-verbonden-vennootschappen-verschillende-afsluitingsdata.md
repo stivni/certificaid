@@ -36,7 +36,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:49Z'
+    confirmed_at: '2026-05-13T13:34:47Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen significante artefacten gevonden. Structuur schoon (Algemeen / In aanmerking te nemen balansdata / Wijziging verbondenheid als ## headings). Voetnoten volledig. Bold-italic combinaties correct gesloten. Inhoud volledig.'
     layer1:
@@ -50,7 +50,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:49Z'
+      run_at: '2026-05-13T13:34:47Z'
       rationale: 'Geen significante artefacten gevonden. Structuur schoon (Algemeen / In aanmerking te nemen balansdata / Wijziging verbondenheid als ## headings). Voetnoten volledig. Bold-italic combinaties correct gesloten. Inhoud volledig.'
       concrete_problemen: []
 ---

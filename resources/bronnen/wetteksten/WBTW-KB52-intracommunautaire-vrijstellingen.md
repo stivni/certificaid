@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f4076ba-dirty
+    pipeline_version: 63c556a3-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:28:59Z'
+  generated_at: '2026-05-13T13:34:00Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:52Z'
+    confirmed_at: '2026-05-13T13:34:49Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Hoofdtekst is schoon: alle ## HOOFDSTUK 1/2/3 hebben consistente ### Art. N children, alle 8 artikelen aanwezig. Resterende issues zijn klein: (1) leading whitespace voor hoofdstuk-subtitels (regels 59, 109, 118) is een visuele indentation-artefact maar tast retrieval niet aan; (2) regel 80 split een opsomming midden in zin ('...documenten waarvan de inhoud niet strijdig is met die van de documenten bedoeld in artikel 2: - een bestemmingsdocument...') — onnatuurlijk maar leesbaar; (3) mid-zin breaks regel 74-76 ('omvatten onder meer de\\n\\nvervoerdocumenten') zijn PDF-pagina-overgangen. Frontmatter en body B.S.-datum '23.12.2009' bij KB van 2019 lijkt source-typo (waarschijnlijk 23.12.2019). Body/content-ratio hoog, structuur consistent. Marginaal trusted — alle 4 punten zijn cosmetisch."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:52Z'
+      run_at: '2026-05-13T13:34:49Z'
       rationale: "Hoofdtekst is schoon: alle ## HOOFDSTUK 1/2/3 hebben consistente ### Art. N children, alle 8 artikelen aanwezig. Resterende issues zijn klein: (1) leading whitespace voor hoofdstuk-subtitels (regels 59, 109, 118) is een visuele indentation-artefact maar tast retrieval niet aan; (2) regel 80 split een opsomming midden in zin ('...documenten waarvan de inhoud niet strijdig is met die van de documenten bedoeld in artikel 2: - een bestemmingsdocument...') — onnatuurlijk maar leesbaar; (3) mid-zin breaks regel 74-76 ('omvatten onder meer de\\n\\nvervoerdocumenten') zijn PDF-pagina-overgangen. Frontmatter en body B.S.-datum '23.12.2009' bij KB van 2019 lijkt source-typo (waarschijnlijk 23.12.2019). Body/content-ratio hoog, structuur consistent. Marginaal trusted — alle 4 punten zijn cosmetisch."
       concrete_problemen:
         - 'Regels 59, 109, 118: leading double-space voor hoofdstuk-subtitel (pdftotext-indentation)'

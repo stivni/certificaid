@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:52Z'
+    confirmed_at: '2026-05-13T13:34:50Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Frontmatter volledig (wet, bron_rol itaa_lex, bijgewerkt 03.04.2026, provenance met SHA-256 + pipeline 7b2b73e). Hiërarchie correct: TITEL/Hoofdstuk/Afdeling/Art. met juiste heading-levels. Bilingue-detectie door uitgebreide strip_french_bilingue_bleed gereduceerd van 173 naar 6 tool-gedetecteerde fragmenten — valt binnen de uitzondering 'FR-fragmenten <10 in file >100k chars: cosmetisch'. Inhoud is overwegend bruikbare NL wettekst (12k regels, 921 KB). Resterende issues zijn niet-blokkerend voor RAG-retrieval: ze leiden hoogstens tot verdunde embeddings in specifieke artikels, niet tot foute juridische content."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:52Z'
+      run_at: '2026-05-13T13:34:50Z'
       rationale: "Frontmatter volledig (wet, bron_rol itaa_lex, bijgewerkt 03.04.2026, provenance met SHA-256 + pipeline 7b2b73e). Hiërarchie correct: TITEL/Hoofdstuk/Afdeling/Art. met juiste heading-levels. Bilingue-detectie door uitgebreide strip_french_bilingue_bleed gereduceerd van 173 naar 6 tool-gedetecteerde fragmenten — valt binnen de uitzondering 'FR-fragmenten <10 in file >100k chars: cosmetisch'. Inhoud is overwegend bruikbare NL wettekst (12k regels, 921 KB). Resterende issues zijn niet-blokkerend voor RAG-retrieval: ze leiden hoogstens tot verdunde embeddings in specifieke artikels, niet tot foute juridische content."
       concrete_problemen:
         - "Resterende NL+FR interleaving in body-paragrafen die FR-markers ontwijken: regels zoals 1031 (Pour les camionnettes...), 937 (Les fractions de décilitres...), 1121 (d'essieux et de la MMA...) — zuivere FR-zinnen die in NL-paragrafen verschijnen. Strikte tool-telling (6) onderschat het aantal feitelijk gemengde paragrafen."

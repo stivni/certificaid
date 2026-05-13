@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f4076ba-dirty
+    pipeline_version: 63c556a3-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:28:58Z'
+  generated_at: '2026-05-13T13:33:59Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:29:51Z'
+    confirmed_at: '2026-05-13T13:34:48Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Grootste bron in batch (108k chars) met meerdere structuurproblemen die de ETL moet oplossen. Layer1 vlagt al max_section_size (>24k). Tabel A/B/C-rubrieken (Romeinse cijfers I.–XL.) staan als plain text in plaats van als sub-headings, waardoor één enorme sectie ontstaat. TOC-fragmenten met dotted leaders ('Goederen aan 6 pct. ......... II/1') zijn niet opgeschoond. Structuurlabels 'TABEL A', 'TABEL B', 'TABEL C', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling' staan als plain text zonder ##-prefix. Recap-blok aan het einde dupliceert de rubriekenlijst en lijkt op TOC-residu."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:51Z'
+      run_at: '2026-05-13T13:34:48Z'
       rationale: "Grootste bron in batch (108k chars) met meerdere structuurproblemen die de ETL moet oplossen. Layer1 vlagt al max_section_size (>24k). Tabel A/B/C-rubrieken (Romeinse cijfers I.–XL.) staan als plain text in plaats van als sub-headings, waardoor één enorme sectie ontstaat. TOC-fragmenten met dotted leaders ('Goederen aan 6 pct. ......... II/1') zijn niet opgeschoond. Structuurlabels 'TABEL A', 'TABEL B', 'TABEL C', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling' staan als plain text zonder ##-prefix. Recap-blok aan het einde dupliceert de rubriekenlijst en lijkt op TOC-residu."
       concrete_problemen:
         - "Dotted-leader TOC-residu op regel 158: 'Goederen aan 6 pct. ......... II/1 Diensten aan 6 pct. ......... III/1'"
@@ -165,7 +165,7 @@ Goederen en diensten onderworpen aan het tarief van 6 pct.
 
 ## GOEDEREN
 
-I. Levende dieren.
+### I. Levende dieren.
 
 (De tekst van KB nr. 20, TABEL A, I, 1°, is van toepassing met ingang van 01.07.2003.
 (Art. 1 t/m 7, KB 11.07.2003, B.S. 24.07.2003))
@@ -173,12 +173,12 @@ I. Levende dieren.
 1° Runderen, varkens, schapen, geiten, ezels, muildieren en muilezels; paarden van de rassen die gewoonlijk als trekpaard, zwaar of halfzwaar, worden gebruikt; herten; paarden verkocht, intracommunautair verworven of ingevoerd om te worden geslacht.
 2° Pluimvee; tamme duiven; tamme konijnen.
 
-II. Vlees en slachtafvallen.
+### II. Vlees en slachtafvallen.
 
 1° Vlees en eetbare slachtafvallen van alle soorten, ook indien bereid of verduurzaamd.
 2° Darmen, blazen en magen van dieren, in hun geheel of in stukken.
 
-III. Vis, schaal-, schelp- en weekdieren.
+### III. Vis, schaal-, schelp- en weekdieren.
 
 (De tekst van KB nr. 20, TABEL A, III, is van toepassing met ingang van 01.07.2003.
 (Art. 1 t/m 7, KB 11.07.2003, B.S. 24.07.2003))
@@ -188,22 +188,22 @@ a) kaviaar en kaviaarsurrogaten;
 b) langoesten, zeekreeften, krabben, rivierkreeften en oesters, vers (zowel levend als dood), gekookt in water, gekoeld, bevroren, gedroogd, gezouten, gepekeld, ook indien zij ontdaan zijn van de schaal of de schelp;
 c) bereidingen en gebruiksklare gerechten van langoesten, zeekreeften, krabben, rivierkreeften en oesters, in de schaal of de schelp, al dan niet in gehele staat.
 
-IV. Melk en zuivelprodukten; eieren; honig.
+### IV. Melk en zuivelprodukten; eieren; honig.
 
 1° Melk en zuivelprodukten (yoghurt, room, boter, kaas, wrongel melkdranken, enz.).
 2° Vogeleieren en eigeel.
 3° Natuurhonig.
 
-V. Groenten, planten, wortels en knollen, voor voedingsdoeleinden.
+### V. Groenten, planten, wortels en knollen, voor voedingsdoeleinden.
 
 Groenten, planten, wortels en knollen, voor voedingsdoeleinden, ook indien bereid of verduurzaamd, en plantgoed daarvan.
 
-VI. Fruit; schillen van citrusvruchten en van meloenen.
+### VI. Fruit; schillen van citrusvruchten en van meloenen.
 
 1° Fruit, ook indien bereid of verduurzaamd.
 2° Schillen van citrusvruchten en van meloenen, ook indien bereid of verduurzaamd.
 
-VII. Plantaardige produkten.
+### VII. Plantaardige produkten.
 
 (De tekst van KB nr. 20, TABEL A, VII, bepalingen 13. en 14., werd vervangen met ingang van 01.04.2019 (Art. 2, W 27.02.2019, B.S. 14.03.2019, pg.26797))
 
@@ -225,21 +225,21 @@ VII. Plantaardige produkten.
 15° Vlas.
 Van deze rubriek zijn uitgezonderd de goederen te koop aangeboden als voedsel voor honden, katten, kooivogels zoals papegaaien en zangvogels, voor aquariumvissen, voor hamsters, guinese biggetjes en andere troeteldiertjes.
 
-VIII. Produkten van de meelindustrie; mout; zetmeel.
+### VIII. Produkten van de meelindustrie; mout; zetmeel.
 
 1° Meel, grutten, gries, griesmeel en vlokken, van granen, van zaden van peulgroenten, van vruchten, van aardappelen of van andere wortels en knollen; gort en parelgort en andere gepelde, geparelde, gebroken of geplette granen; graankiemen, ook indien gemalen.
 2° Mout, ook indien gebrand.
 3° Zetmeel, met uitzondering van oplosbare, gerooste of tot lijm verwerkte produkten, alsmede van produkten die verwerkt zijn tot of opgemaakt zijn als parfumerie of toiletartikel en van preparaten voor het appreteren.
 Van deze rubriek zijn uitgezonderd de goederen te koop aangeboden als voedsel voor honden, katten, kooivogels zoals papegaaien en zangvogels, voor aquariumvissen, voor hamsters, guinese biggetjes en andere troeteldiertjes.
 
-IX. Vetten en oliën.
+### IX. Vetten en oliën.
 
 1° Dierlijke vetten en oliën, ruw, gesmolten, geperst of geraffineerd.
 2° Plantaardige vette oliën, ruw, gezuiverd of geraffineerd.
 3° Dierlijke en plantaardige oliën en vetten, gehydrogeneerd, gehard of in vaste toestand gebracht, ook indien gezuiverd, doch niet verder bereid.
 4° Bereide spijsvetten met uitzondering van margarine.
 
-X. Andere voedingsmiddelen.
+### X. Andere voedingsmiddelen.
 
 (De tekst van KB nr. 20, TABEL A, X, tweede lid, is van toepassing met ingang van 01.04.2004. (Art. 371, W 22.12.2003, B.S. 31.12.2003))
 
@@ -263,9 +263,9 @@ X. Andere voedingsmiddelen.
 17° Produkten voor menselijke consumptie niet hierboven genoemd.
 Van deze rubriek zijn uitgezonderd de bieren met een effectief alcoholvolumegehalte van meer dan 0,5 % vol. en andere dranken met een effectief alcoholvolumegehalte van meer dan 1,2 % vol.
 
-XI. (Opgeheven bij KB 11.08.1972)
+### XI. (Opgeheven bij KB 11.08.1972)
 
-XII. Voedsel voor dieren; meststoffen; dierlijke produkten.
+### XII. Voedsel voor dieren; meststoffen; dierlijke produkten.
 
 1° Gedroogd bloed.
 2° Meel en poeder van vlees, van slachtafvallen, van vis of van schaal-, schelp- of weekdieren; kanen.
@@ -279,17 +279,17 @@ XII. Voedsel voor dieren; meststoffen; dierlijke produkten.
 10° Wol, niet gekaard en niet gekamd.
 Van deze rubriek zijn uitgezonderd de goederen te koop aangeboden als voedsel voor honden, katten, kooivogels zoals papegaaien en zangvogels, voor aquariumvissen, voor hamsters, guinese biggetjes en andere troeteldiertjes.
 
-XIII. Waterdistributie
+### XIII. Waterdistributie
 
 Gewoon natuurlijk water geleverd door middel van waterdistributie.
 
-XIV. (Opgeheven bij KB 17.03.1992)
+### XIV. (Opgeheven bij KB 17.03.1992)
 
-XV. (opgeheven bij KB 29.12.1992)
+### XV. (opgeheven bij KB 29.12.1992)
 
-XVI. (Opgeheven bij KB 17.03.1992)
+### XVI. (Opgeheven bij KB 17.03.1992)
 
-XVII. Geneesmiddelen en medische hulpmiddelen
+### XVII. Geneesmiddelen en medische hulpmiddelen
 
 (De tekst van KB nr. 20, TABEL A, XVII, 1, 2, 3 en 5, is van toepassing met ingang van 01.07.2003 (Art. 1 t/m 7, KB 11.07.2003, B.S. 24.07.2003))
 
@@ -306,9 +306,9 @@ c) Geneesmiddelen voor menselijk en diergeneeskundig gebruik die door de apothek
 7° Botcement dat antibiotica met een bijkomende activiteit ten opzichte van het hulpmiddel bevat.
 8° Steriele visco-elastische substanties uitsluitend bestemd voor humane of veterinaire medische of chirurgische doeleinden.
 
-XVIII. (Opgeheven bij KB 17.03.1992)
+### XVIII. (Opgeheven bij KB 17.03.1992)
 
-XIX. Kranten, tijdschriften en boeken
+### XIX. Kranten, tijdschriften en boeken
 
 (De tekst van KB 20, Tabel A, rubriek XIX, werd vervangen met ingang van 01.04.2019 (Art. 3, W 13.04.2019, B.S. 26.04.2019, pg. 40552))
 
@@ -324,9 +324,9 @@ Van deze rubriek zijn uitgesloten, de publicaties die:
 1° uitsluitend of hoofdzakelijk bestaan uit reclamemateriaal;
 2° uitsluitend of hoofzakelijk bestaan uit video-inhoud of beluisterbare muziek.
 
-XX. (opgeheven bij KB 29.12.1992)
+### XX. (opgeheven bij KB 29.12.1992)
 
-XXI. Kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten.
+### XXI. Kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten.
 
 (De tekst van KB nr. 20, TABEL A, XXI, is van toepassing met ingang van 01.11.1995 (Art. 2, A t/m C, KB 20.10.1995))
 
@@ -398,7 +398,7 @@ De te storten belasting wordt betaald binnen een maand te rekenen vanaf de datum
 Het verlaagd tarief van 6 pct., is van toepassing op onderdelen, uitrustingsstukken en toebehoren die ingevoerd, intracommunautair verworven of hier te lande verkregen worden door in de eerste afdeling hierboven aangewezen personen ten behoeve van de aldaar bedoelde automobielen.
 Het voordeel van het verlaagd tarief van 6 pct. is afhankelijk van de uitreiking van een factuur aan de koper en van de voorlegging door deze laatste, aan de douane of aan de verkoper, van een attest opgesteld in de vorm bepaald door of vanwege de Minister van Financiën, dat het voertuig identificeert waarvoor de gunstregeling wordt ingeroepen. Daarenboven dienen het invoerdocument of de factuur en het dubbel ervan, de datum en het referentienummer van het bovengenoemde attest en het controlekantoor dat dit attest heeft uitgereikt te vermelden.
 
-XXIII. Diversen
+### XXIII. Diversen
 
 (De tekst van KB nr. 20, Tabel A, XXIII, 5°, werd gewijzigd, met ingang van 01.01.2019 (Art. 175, Decr.Vl. 18.05.2018, B.S. 17.08.2018, pg. 65011).
 Voorwaardelijk toekomstig recht beschikbaar (Art. 2, W 13.04.2019, B.S. 29.04.2019, pg. 41032) – zie de historiek in de html-versie.)
@@ -449,18 +449,18 @@ Hoofdstuk 3, Afdeling 3.5, van het besluit van de Vlaamse regering, van 17 decem
 
 ## DIENSTEN
 
-XXIV. Landbouwdiensten.
+### XXIV. Landbouwdiensten.
 
 Bebouwingswerkzaamheden, oogstwerkzaamheden en teeltwerkzaamheden, met uitzondering van:
 a) diensten met betrekking tot dieren, andere dan die bedoeld in rubriek I;
 b) aanleg en onderhoud van tuinen.
 De goederen die ter gelegenheid van die werkzaamheden worden geleverd worden belast tegen het tarief dat erop van toepassing zou geweest zijn waren ze afzonderlijk geleverd.
 
-XXV. Vervoer.
+### XXV. Vervoer.
 
 Personenvervoer, alsmede vervoer van niet geregistreerde bagage en van dieren welke de reizigers vergezellen.
 
-XXVI. Onderhoud en herstelling.
+### XXVI. Onderhoud en herstelling.
 
 (De tekst van KB nr. 20, Tabel A, rubriek XXVI, eerste lid, werd gewijzigd met ingang van 01.01.2018 (Art. 2, KB 10.12.2017, B.S. 22.12.2017, pg. 114228))
 
@@ -468,9 +468,9 @@ Onderhouds- en herstellingswerken aan de goederen bedoeld in de rubrieken XXII e
 Het tarief van 6 pct. is eveneens van toepassing op de benodigdheden, de onderdelen en het toebehoren gebruikt bij de uitvoering van die werken.
 Voor onderhouds- en herstellingswerken aan automobielen verricht voor rekening van in rubriek XXII, eerste afdeling, aangewezen personen, ten behoeve van de aldaar bedoelde automobielen, is het voordeel van het verlaagd tarief afhankelijk van de uitreiking van een factuur aan de klant en van de voorlegging door deze laatste aan de dienstverrichter van een attest, opgesteld in de vorm bepaald door of vanwege de Minister van Financiën, dat het voertuig identificeert waarvoor de gunstregeling wordt ingeroepen. Daarenboven dienen de factuur en het dubbel ervan de datum en het referentienummer van het bovengenoemde attest en het controlekantoor dat dit attest heeft uitgereikt te vermelden.
 
-XXVII. (Opgeheven bij KB 25.03.1977)
+### XXVII. (Opgeheven bij KB 25.03.1977)
 
-XXVIII. Inrichtingen voor cultuur, sport of vermaak.
+### XXVIII. Inrichtingen voor cultuur, sport of vermaak.
 
 (De tekst van KB nr. 20, TABEL A, XXVIII, is van toepassing met ingang van 01.04.1998 (Art. 1, A en B, KB 25.03.1998 en art. 1, A en B, KB 30.03.1998))
 
@@ -478,7 +478,7 @@ De toekenning van het recht op toegang tot inrichtingen voor cultuur, sport of v
 a) de toekenning van het recht gebruik te maken van automatische ontspanningstoestellen;
 b) de terbeschikkingstelling van roerende goederen;
 
-XXIX. Auteursrechten; uitvoeren van concerten en voorstellingen.
+### XXIX. Auteursrechten; uitvoeren van concerten en voorstellingen.
 
 (De tekst van KB nr. 20, TABEL A, XXIX, is van toepassing met ingang van 01.04.1998 (Art. 1, A en B, KB 25.03.1998 en art. 1, A en B, KB 30.03.1998))
 
@@ -486,12 +486,12 @@ XXIX. Auteursrechten; uitvoeren van concerten en voorstellingen.
 2° De diensten die bestaan in het uitvoeren van toneelwerken, balletten, muziekstukken, circus-, variété- of cabaretvoorstellingen en soortgelijke activiteiten en die behoren tot de normale werkzaamheid van acteurs, orkestleiders, muzikanten en andere artiesten, ook indien deze diensten verstrekt worden door een rechtspersoon of een feitelijke vereniging of groepering.
 Van deze rubriek worden uitgesloten de diensten die betrekking hebben op reclame.
 
-XXX. Hotels, camping.
+### XXX. Hotels, camping.
 
 1° Het verschaffen van gemeubeld logies met of zonder ontbijt.
 2° De terbeschikkingstelling van plaats om te kamperen.
 
-XXXI. Werk in onroerende staat met betrekking tot privé-woningen.
+### XXXI. Werk in onroerende staat met betrekking tot privé-woningen.
 
 (De tekst van KB nr. 20, Tabel A, rubriek XXXI, § 1, werd gewijzigd met ingang van 01.01.2013. (Art. 24, KB 30.04.2013, B.S. 08.05.2013))
 
@@ -529,7 +529,7 @@ f) van luiken, rolluiken en rolgordijnen die aan de buitenkant van het gebouw wo
 1° werk in onroerende staat en andere onroerende handelingen die geen betrekking hebben op de eigenlijke woning, zoals bebouwingswerkzaamheden, tuinaanleg en oprichten van afsluitingen;
 2° werk in onroerende staat en andere onroerende handelingen die tot voorwerp hebben de bestanddelen of een gedeelte van de bestanddelen van zwembaden, sauna's, midgetgolfbanen, tennisterreinen en dergelijke installaties.
 
-XXXII. Privé-woningen voor gehandicapten.
+### XXXII. Privé-woningen voor gehandicapten.
 
 (De tekst van KB nr. 20, Tabel A, rubriek XXXII, § 1, 1°, c en 3°, werd gewijzigd met ingang van 01.05.2019 (Art. 27, KB 29.08.2019, B.S. 13.09.2019, pg. 86195).
 Artikel 27 heeft uitwerking met ingang van 1 mei 2019 en is van toepassing op de erin vermelde vennootschappen vanaf de dag waarop de bepalingen van het Wetboek van vennootschappen en verenigingen die betrekking hebben op deze vennootschappen op hen van toepassing worden (Art. 39 KB 29.08.2019))
@@ -553,7 +553,7 @@ c) een vereniging zonder winstoogmerk of een coöperatieve vennootschap erkend a
 
 § 4. Het verlaagd tarief is eveneens van toepassing op de onroerende financieringshuur of onroerende leasing bedoeld in artikel 44, § 3, 2°, b), van het Wetboek en op de onroerende verhuur bedoeld in artikel 44, § 3, 2°, d), van het Wetboek, die betrekking hebben op gebouwen die specifiek aangepast zijn om door een gehandicapte als privéwoning te worden gebruikt, wanneer de afnemer een in § 1, 1°, genoemde maatschappij of instelling is die deze gebouwen verhuurt aan de in § 1, 3°, genoemde gehandicapten.
 
-XXXIII. Instellingen voor gehandicapten.
+### XXXIII. Instellingen voor gehandicapten.
 
 (De tekst van KB nr. 20, Tabel A, rubriek XXXIII, § 4, werd vervangen met ingang van 01.01.2019 (Art. 10, W 14.10.2018, B.S. 25.10.2018, pg. 81448. Erratum B.S. 30.11.2018, pg. 91362))
 
@@ -571,7 +571,7 @@ XXXIII. Instellingen voor gehandicapten.
 § 4. Het verlaagd tarief is eveneens van toepassing op de onroerende financieringshuur of onroerende leasing bedoeld in artikel 44, § 3, 2°, b), van het Wetboek en op de onroerende verhuur bedoeld in artikel 44, § 3, 2°, d), van het Wetboek, die betrekking hebben op woningcomplexen bestemd om te worden gebruikt voor de huisvesting van gehandicapten, wanneer de afnemer een in
 § 1, 2°, genoemde publiekrechtelijke of privaatrechtelijke persoon is.
 
-XXXIV. Diversen.
+### XXXIV. Diversen.
 
 (De tekst van KB nr. 20, Tabel A, rubriek XXXIV, cijfer 1, werd gewijzigd met ingang van 01.01.2018 (Art. 3, KB 10.12.2017, B.S. 22.12.2017, pg. 114288). Voorwaardelijk toekomstig recht beschikbaar (Art. 2, W 06.06.2019, B.S. 26.06.2019, pg. 65569) – zie de historiek in de html-versie.)
 
@@ -583,7 +583,7 @@ c) de diensten met betrekking tot de levering met plaatsing van grafkelders of -
 3° De opleiding van assistentiehonden, bedoeld in cijfer 9 van rubriek XXIII door een assistentiehondenschool die door de bevoegde overheid is erkend en de diensten verstrekt door dierenartsen aan deze assistentiehonden.
 4° (opgeheven).
 
-XXXV. Diensten verricht door instellingen met sociaal oogmerk
+### XXXV. Diensten verricht door instellingen met sociaal oogmerk
 
 (De tekst van KB nr. 20, TABEL A, XXXV, is van toepassing met ingang van 01.10.2000 (Art. 1 en 2, KB 20.09.2000))
 
@@ -614,7 +614,7 @@ Hoofdstuk 3, Afdeling 3.5, van het besluit van de Vlaamse regering, van 17 decem
 
 § 5. De Minister van Financiën informeert zich bij de in § 2, 5° beoogde bevoegde overheden naar de door deze overheden verleende, ingetrokken of opgeschorte erkenningen. Hij licht diezelfde overheden in van gedane vaststellingen waarbij de toepassingen van het verlaagd tarief vervalt of is komen te vervallen wegens het niet naleven van één of meerdere in § 3 bepaalde voorwaarden.
 
-XXXVI. Huisvesting in het kader van het sociaal beleid
+### XXXVI. Huisvesting in het kader van het sociaal beleid
 
 (De tekst van KB nr. 20, Tabel A, rubriek XXXVI, § 1, 3°, werd vervangen met ingang van 01.01.2019 (Art. 11, W 14.10.2018, B.S. 25.10.2018, pg. 81448. Erratum Nederlandse tekst B.S. 30.11.2018, pg. 91362))
 
@@ -632,7 +632,7 @@ c) privé-woningen die worden geleverd en gefactureerd door de gewestelijke huis
 1° werk in onroerende staat en andere onroerende handelingen die geen betrekking hebben op de eigenlijke woning, zoals bebouwingswerkzaamheden, tuinaanleg en oprichten van afsluitingen;
 2° werk in onroerende staat en andere onroerende handelingen die tot voorwerp hebben de bestanddelen of een gedeelte van de bestanddelen van zwembaden, sauna's, midgetgolfbanen, tennisterreinen en dergelijke installaties.
 
-XXXVII. Afbraak en heropbouw van gebouwen in stadsgebieden
+### XXXVII. Afbraak en heropbouw van gebouwen in stadsgebieden
 
 (De tekst van KB nr. 20, Tabel A, rubriek XXXVII, tweede lid, 4°, a), en 5°, werd gewijzigd met ingang van 01.01.2013 (Art. 27, KB 30.04.2013, B.S. 08.05.2013))
 
@@ -654,7 +654,7 @@ Het verlaagd tarief is in geen geval van toepassing op:
 2° werk in onroerende staat en andere onroerende handelingen die tot voorwerp hebben de bestanddelen of een gedeelte van de bestanddelen van zwembaden, sauna's, midgetgolfbanen, tennisterreinen en dergelijke installaties;
 3° gehele of gedeeltelijke reiniging van een woning.
 
-XXXVIII. Renovatie en herstel van privéwoningen
+### XXXVIII. Renovatie en herstel van privéwoningen
 
 (KB nr. 20, Tabel A, rubriek XXXVIII, § 1, 3°, werd gewijzigd met ingang van 12.02.2016 (Art. 1, KB 26.01.2016, B.S. 02.02.2016. Het KB 26.01.2016 werd bekrachtigd bij art. 16, 1°, W 22.10.2017, B.S. 10.11.2017, pg. 98213))
 
@@ -693,7 +693,7 @@ f) van luiken, rolluiken en rolgordijnen die aan de buitenkant van het gebouw wo
 2° werk in onroerende staat en andere onroerende handelingen, die tot voorwerp hebben de bestanddelen of een gedeelte van de bestanddelen van zwembaden, sauna’s, midgetgolfbanen, tennisterreinen en dergelijke installaties;
 3° het gedeelte van de prijs met betrekking tot de levering van verwarmingsketels in appartementsgebouwen alsook op de levering van de bestanddelen of een gedeelte van de bestanddelen van liftinstallaties.
 
-XXXIX. Kleine hersteldiensten
+### XXXIX. Kleine hersteldiensten
 
 (KB nr. 20, Tabel A, rubriek XXXIX, werd ingevoegd met ingang van 01.07.2011 (Art. 27, W 04.07.2011, B.S. 19.07.2011))
 
@@ -701,7 +701,7 @@ XXXIX. Kleine hersteldiensten
 2. De herstelling van schoeisel en lederwaren.
 3. De herstelling en het vermaken van kleding en huishoudlinnen.
 
-XL. Gebouwen bestemd voor onderwijs en leerlingenbegeleiding
+### XL. Gebouwen bestemd voor onderwijs en leerlingenbegeleiding
 
 (De tekst van KB nr. 20, Tabel A, rubriek XL, 4°, werd vervangen met ingang van 01.01.2019 (Art. 12, W 14.10.2018, B.S. 25.10.2018, pg. 81448. Erratum B.S. 30.11.2018, pg. 91362))
 
@@ -715,40 +715,40 @@ Het verlaagd tarief van zes pct. is van toepassing op:
 
 Goederen en diensten onderworpen aan het tarief van 12 pct.
 
-I. Restaurant- en cateringdiensten
+### I. Restaurant- en cateringdiensten
 
 (De tekst van KB nr. 20, Tabel B, I, werd hersteld met ingang van 01.01.2010 (Art. 4, KB 09.12.2009, B.S. 14.12.2009, bekrachtigd bij art. 14, W 19.05.2010, B.S. 28.05.2010))
 
 Restaurant- en cateringdiensten, met uitsluiting van het verschaffen van dranken.
 
-II. (Opgeheven bij KB 29.12.1992)
+### II. (Opgeheven bij KB 29.12.1992)
 
-III. Fytofarmacie.
+### III. Fytofarmacie.
 
 De fytofarmaceutische produkten erkend door de Minister die de Landbouw onder zijn bevoegdheid heeft.
 
-IV. (opgeheven bij KB 24.06.1993)
+### IV. (opgeheven bij KB 24.06.1993)
 
-V. (opgeheven bij KB 24.06.1993)
+### V. (opgeheven bij KB 24.06.1993)
 
-VI. Margarine
+### VI. Margarine
 
 Margarine
 
-VII. Banden en binnenbanden.
+### VII. Banden en binnenbanden.
 
 Banden en binnenbanden voor wielen van landbouwmachines en -tractors, met uitsluiting van banden of binnenbanden voor bosbouwtractors en motoculteurs.
 Het voordeel van het verlaagd tarief van 12 pct. is afhankelijk van de afgifte door de verkrijger of invoerder, aan de leverancier of aan de douane, van een schriftelijke verklaring waarin hij zijn registratienummer voor de belasting over de toegevoegde waarde vermeldt en bevestigt dat hij landbouwondernemer is en dat hij de goederen werkelijk zal gebruiken voor de behoeften van zijn landbouwbedrijf.
 
-VIII. Brandstoffen
+### VIII. Brandstoffen
 
 Steenkool en van steenkool vervaardigde vaste brandstoffen; bruinkool en geperste bruinkool, met uitzondering van git; cokes en halfcokes van steenkool, van bruinkool of van turf; niet-gecalcineerde petroleumcokes, als brandstof gebruikt.
 
-IX. Betaaltelevisie.
+### IX. Betaaltelevisie.
 
 (De tekst van KB nr. 20, Tabel B, IX, werd opgeheven met ingang van 01.01.2012 (Art. 55,W 28.12.2011, B.S. 30.12.2011))
 
-X. Huisvesting in het kader van het sociaal beleid
+### X. Huisvesting in het kader van het sociaal beleid
 
 (De tekst van KB nr. 20, Tabel B, rubriek X, § 1, C), werd vervangen met ingang van 01.01.2019 (Art. 13, W 14.10.2018, B.S. 25.10.2018, pg. 81448. Erratum B.S. 30.11.2018, pg. 91362))
 
@@ -772,7 +772,7 @@ C) de onroerende financieringshuur of onroerende leasing bedoeld in artikel 44, 
 1° werk in onroerende staat en de andere onroerende handelingen die geen betrekking hebben op de eigenlijke woning, zoals bebouwingswerkzaamheden, tuinaanleg en oprichten van afsluitingen;
 2° werk in onroerende staat en andere onroerende handelingen die tot voorwerp hebben de bestanddelen of een gedeelte van de bestanddelen van zwembaden, sauna's, midgetgolfbanen, tennisterreinen en dergelijke installaties.
 
-XI. Huisvesting in het kader van het sociaal beleid - Privé-initiatief
+### XI. Huisvesting in het kader van het sociaal beleid - Privé-initiatief
 
 (De tekst van KB nr. 20, Tabel B, rubriek XI, § 3, werd vervangen met ingang van 01.01.2019 (Art. 14, W 14.10.2018, B.S. 25.10.2018, pg. 81448. Erratum 30.11.2018, pg. 91362))
 
@@ -849,7 +849,7 @@ Goederen en diensten onderworpen aan het tarief van 0 pct.
 (Tabel C, werd ingevoegd met ingang van 01.04.2019,
 (Art. 4, W 13.04.2019, B.S. 26.04.2019, pg. 40552))
 
-I. Periodieke publicaties
+### I. Periodieke publicaties
 
 (De tekst van KB nr. 20, Bijlage, Tabel C, rubriek I, werd ingevoegd met ingang van 01.04.2019 (Art. 4, W 13.04.2019, B.S. 26.04.2019, pg. 40552)
 

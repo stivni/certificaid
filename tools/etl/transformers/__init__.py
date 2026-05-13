@@ -46,6 +46,7 @@ from tools.etl.transformers.strip_toc_headings_with_art_range import strip_toc_h
 from tools.etl.transformers.strip_inline_footnote_block import strip_inline_footnote_block
 from tools.etl.transformers.strip_concord_table_headings import strip_concord_table_headings
 from tools.etl.transformers.strip_duplicate_toc_headings import strip_duplicate_toc_headings
+from tools.etl.transformers.promote_roman_rubrieken import promote_roman_rubrieken
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -84,6 +85,7 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "strip_inline_footnote_block": strip_inline_footnote_block,
     "strip_concord_table_headings": strip_concord_table_headings,
     "strip_duplicate_toc_headings": strip_duplicate_toc_headings,
+    "promote_roman_rubrieken": promote_roman_rubrieken,
 }
 
 

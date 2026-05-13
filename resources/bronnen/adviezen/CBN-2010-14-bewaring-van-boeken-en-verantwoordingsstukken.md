@@ -38,7 +38,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:48Z'
+    confirmed_at: '2026-05-13T13:34:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks. Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk juist, geen artefact.'
     layer1:
@@ -52,7 +52,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:48Z'
+      run_at: '2026-05-13T13:34:46Z'
       rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks. Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk juist, geen artefact.'
       concrete_problemen: []
 ---

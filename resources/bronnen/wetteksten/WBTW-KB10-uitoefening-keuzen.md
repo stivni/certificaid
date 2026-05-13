@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f4076ba-dirty
+    pipeline_version: 63c556a3-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:28:57Z'
+  generated_at: '2026-05-13T13:33:59Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:29:52Z'
+    confirmed_at: '2026-05-13T13:34:50Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "ETL-fix merge_broken_sentences heeft de eerder gerapporteerde spurious linebreaks gefixt: 'koninklijk besluit nr. 4' staat nu op één regel (regels 65, 80, 84), en 'artikel 51, § 2, eerste lid, 1°' is volledig samengevoegd op regel 105. De enige resterende afwijking is 'belasting over de toegevoegde waaronder' op regel 61 — dit is een echte source-typo in de PDF (ontbrekend woord 'waarde'), waarvoor de instructies expliciet zeggen dat status trusted blijft met (source) markering. Structuur (10 artikelen, amendment-blokken correct geplaatst) leest als een van-nul-geschreven wettekst."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:52Z'
+      run_at: '2026-05-13T13:34:50Z'
       rationale: "ETL-fix merge_broken_sentences heeft de eerder gerapporteerde spurious linebreaks gefixt: 'koninklijk besluit nr. 4' staat nu op één regel (regels 65, 80, 84), en 'artikel 51, § 2, eerste lid, 1°' is volledig samengevoegd op regel 105. De enige resterende afwijking is 'belasting over de toegevoegde waaronder' op regel 61 — dit is een echte source-typo in de PDF (ontbrekend woord 'waarde'), waarvoor de instructies expliciet zeggen dat status trusted blijft met (source) markering. Structuur (10 artikelen, amendment-blokken correct geplaatst) leest als een van-nul-geschreven wettekst."
       concrete_problemen:
         - "Regel 61: 'belasting over de toegevoegde waaronder' — source-typo, ontbrekend 'waarde' in originele PDF (geen ETL-bug)"

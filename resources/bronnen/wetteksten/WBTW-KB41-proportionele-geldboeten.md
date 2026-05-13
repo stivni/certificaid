@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f4076ba-dirty
+    pipeline_version: 63c556a3-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:28:59Z'
+  generated_at: '2026-05-13T13:34:00Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:29:51Z'
+    confirmed_at: '2026-05-13T13:34:48Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Zware kolom-bleed door de hele bijlage (Tabellen A-J). Originele PDF heeft een 2-koloms structuur: links de overtredingsbeschrijving, rechts het percentage/boete. De extractie heeft kolomstrooien afwisselend gemerged, met als resultaat scrambled zinnen zoals 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van kwartaalaangiften en belasting waarvan de de nalatigheidsinterest dat is opeisbaarheid blijkt uit de jaaraangiften bepaald in artikel 91, § 1, van het...' (regel 143). Dat is onbruikbaar voor retrieval en evident niet-mens-geschreven. Dit is veruit het zwaarste geval van de batch."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:51Z'
+      run_at: '2026-05-13T13:34:48Z'
       rationale: "Zware kolom-bleed door de hele bijlage (Tabellen A-J). Originele PDF heeft een 2-koloms structuur: links de overtredingsbeschrijving, rechts het percentage/boete. De extractie heeft kolomstrooien afwisselend gemerged, met als resultaat scrambled zinnen zoals 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van kwartaalaangiften en belasting waarvan de de nalatigheidsinterest dat is opeisbaarheid blijkt uit de jaaraangiften bepaald in artikel 91, § 1, van het...' (regel 143). Dat is onbruikbaar voor retrieval en evident niet-mens-geschreven. Dit is veruit het zwaarste geval van de batch."
       concrete_problemen:
         - 'Kolom-bleed in heel TABEL A (regels 137-408): elke rij heeft beschrijving + tarief door elkaar gehusseld zonder pipe-syntax'
@@ -173,7 +173,7 @@ Het bedrag van de verschuldigde belasting voor een controleperiode van één jaa
 
 III. Ten onrechte toepassen van artikel 17bis van het in rubriek II 20 pct. van de verschuldigde hierboven genoemd koninklijk besluit nr. 1 belasting
 
-IV. Onjuistheden vastgesteld bij het nazicht van de boekhouding met betrekking tot de inhoud ervan ;
+### IV. Onjuistheden vastgesteld bij het nazicht van de boekhouding met betrekking tot de inhoud ervan ;
 
 niet-betaling van de belasting vastgesteld naar aanleiding van een controle bij belastingplichtigen die hun periodieke btw-aangiften niet indienen.
 
@@ -185,7 +185,7 @@ Het bedrag van de verschuldigde belasting voor een controleperiode van één jaa
 
 V. Terug te storten belasting wegens het niet overleggen van 10 pct. van de terug te storten het teruggaafregister of het niet inschrijven in dat register belasting van een verbeterend stuk
 
-VI. Vrijstellingen beoogd door artikel 42, §§ 1, 2 en 3, 1° tot 6°, van het Wetboek.
+### VI. Vrijstellingen beoogd door artikel 42, §§ 1, 2 en 3, 1° tot 6°, van het Wetboek.
 
 1. Vrijstelling ten onrechte toegepast of erop aanspraak gemaakt.
 
@@ -215,7 +215,7 @@ A. Louter toevallige vergissingen ten aanzien van 10 pct. van de aanvullende de 
 
 B. Andere vergissingen ten aanzien van de zie tabel D, 2 vermelding van de prijs of de bij de prijs te voegen kosten
 
-C. Andere vergissingen, inzonderheid betreffende :
+### C. Andere vergissingen, inzonderheid betreffende :
 
 - de omrekening in Belgische frank of in euro van de elementen die tot de maatstaf van heffing behoren ;
 
@@ -256,7 +256,7 @@ B. Niet-tijdige betaling van de vooruit te betalen belasting :
 
 IX. Overtredingen met betrekking tot de vrijstellingen beoogd 10 pct. van de verschuldigde door artikel 42, §§ 1, 2 en 3, 1° tot 6°, van het Wetboek belasting
 
-X. Overtredingen op het stuk van de tijdelijke invoer van vervoermiddelen.
+### X. Overtredingen op het stuk van de tijdelijke invoer van vervoermiddelen.
 
 1. Vervoermiddel regelmatig ingevoerd met tijdelijke vrijstelling en uitzonderlijk ter beschikking gesteld van een persoon met normale verblijfplaats in België; misbruik van vrijstelling.
 
@@ -268,7 +268,7 @@ A. Eerste overtreding :
 
 B. Tweede overtreding 20 pct. van de verschuldigde belasting
 
-C. Volgende overtredingen 100 pct. van de verschuldigde belasting
+### C. Volgende overtredingen 100 pct. van de verschuldigde belasting
 
 2. Vervoermiddel dat niet kan worden ingevoerd met tijdelijke vrijstelling.
 
@@ -331,7 +331,7 @@ C. De opgelegde formaliteiten om de verlenging te verkrijgen van de termijn van 
 
 2° de vergunninghouder heeft op het 10 pct. van de verschuldigde tijdstip van de controle de verplicht belasting met een maximum geworden regularisatie nog niet van 5.000 F per oorzaak van uitgevoerd verschuldigdheid van de belasting in geval de goederen zijn uitgevoerd
 
-XII. Overtredingen inzake de toepassing van artikel 40, § 1, 3°, b, van het Wetboek.
+### XII. Overtredingen inzake de toepassing van artikel 40, § 1, 3°, b, van het Wetboek.
 
 1. Overtredingen in verband met de uitreiking van de vergunning.
 
@@ -359,7 +359,7 @@ b) heeft op het tijdstip van de 3 pct. van de belasting controle nog niet de ver
 
 b) heeft op het tijdstip van de 20 pct. van de belasting controle nog niet de verplicht waarvan de vrijstelling bij geworden regularisatie uitgevoerd invoer is verkregen
 
-XIII. Overtredingen inzake de toepassing van artikel 42, § 3, 8°, van het Wetboek.
+### XIII. Overtredingen inzake de toepassing van artikel 42, § 3, 8°, van het Wetboek.
 
 1. Een vergunning is verleend op grond van door de 20 pct. van de belasting aanvrager verstrekte verkeerde inlichtingen waarvan de vrijstelling is verkregen
 
@@ -369,13 +369,13 @@ A. Op de vergunning is aanspraak gemaakt voor 10 pct. van de belasting handeling
 
 B. Het vergelijkingsregister of de boekhouding die 20 pct. van de belasting ter controle van de vrijstelling wordt waarvan de vrijstelling is voorgeschreven is niet gehouden of is verkregen gehouden op zodanige wijze dat deze controle zeer moeilijk is. De vergunninghouder voldoet niet aan het verzoek van de controlerende ambtenaar om het register of de boekhouding binnen een redelijke termijn aan te leggen of aan te passen
 
-C. De goederen worden niet uitgevoerd binnen de in de vergunning bepaalde termijn en
+### C. De goederen worden niet uitgevoerd binnen de in de vergunning bepaalde termijn en
 
 1° de vergunninghouder heeft de daarvoor 10 pct. van de te regulariseren voorgeschreven regularisatie uitgevoerd belasting in overeenstemming met de voorwaarden van de vergunning
 
 2° op het tijdstip van de controle heeft de 20 pct. van de te regulariseren vergunninghouder de verplicht geworden belasting regularisatie nog niet uitgevoerd
 
-XIV. Overtredingen in verband met de toepassing van artikel 43 van het Wetboek.
+### XIV. Overtredingen in verband met de toepassing van artikel 43 van het Wetboek.
 
 1. Overtredingen in verband met de uitreiking van de vergunning.
 
@@ -419,7 +419,7 @@ Het bedrag van de verkeerdelijk in aftrek gebrachte belasting voor een controlep
 GELDBOETEN VAN TOEPASSING VOOR DE OVERTREDINGEN
 BEOOGD IN ARTIKEL 70, § 2, VAN HET WETBOEK
 
-I. Niet-uitreiken van facturen of van als zodanig geldende stukken :
+### I. Niet-uitreiken van facturen of van als zodanig geldende stukken :
 
 1) dat geen verschuldigdheid van btw tot gevolg heeft 60 pct. van de op de handelingen verschuldigde belasting
 
@@ -520,7 +520,7 @@ Ten onrechte toepassen van :
 
 - artikel 20 van het koninklijk besluit nr. 1 van 29 20 pct. van de verschuldigde december 1992 met betrekking tot de regeling voor de belasting voldoening van de belasting over de toegevoegde waarde
 
-V. Onjuistheden vastgesteld bij het nazicht van de boekhouding met betrekking tot de inhoud ervan ;
+### V. Onjuistheden vastgesteld bij het nazicht van de boekhouding met betrekking tot de inhoud ervan ;
 
 belastbare handelingen zijn niet, slechts gedeeltelijk, of zijn laattijdig opgenomen in de daartoe bestemde aangifte ;
 
@@ -633,7 +633,7 @@ IX. Overtredingen met betrekking tot de vrijstellingen bedoeld in 10 pct. van de
 
 X. Onregelmatigheden met betrekking tot de vrijstellingen 10 pct. van de verschuldigde bedoeld in artikel 40, § 1, 1°, a, van het Wetboek, voor de belasting invoer van goederen bedoeld in artikel 42, §§ 1 en 2, van het Wetboek, en onregelmatigheden met betrekking tot de vrijstellingen bedoeld in artikel 42, § 3, 1° tot 6°, van het Wetboek
 
-XI. Overtredingen op het stuk van de tijdelijke invoer van vervoermiddelen.
+### XI. Overtredingen op het stuk van de tijdelijke invoer van vervoermiddelen.
 
 1. Vervoermiddel regelmatig ingevoerd met tijdelijke vrijstelling en uitzonderlijk ter beschikking gesteld van een persoon met normale verblijfplaats in België ;
 
@@ -667,7 +667,7 @@ A) De opschorting van de betaling van de belasting 10 pct. van de belasting werd
 
 B) De goederen krijgen een andere bestemming 10 pct. van de verschuldigde dan die voorzien onder het stelsel van belasting opschorting, waarvoor de belasting opeisbaar is, en de belastingplichtige die de opschorting heeft toegepast heeft de daarvoor voorziene regularisatie niet uitgevoerd op het tijdstip waarop de wijziging in bestemming plaatsvond
 
-XIII. (opgeheven)
+### XIII. (opgeheven)
 
 XIV. Overtredingen inzake de toepassing van artikel 42, § 3, 8°, en van artikel 40, § 1, 1°, a, van het Wetboek, voor wat betreft de invoer en de intracommunautaire verwervingen van goederen bedoeld in artikel 42, § 3, 8°, van het Wetboek.
 
