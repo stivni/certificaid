@@ -8,10 +8,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 133 | 109 | — | 17 | 7 | — |
+| Wetteksten | 133 | 110 | — | 16 | 7 | — |
 | Normen | 19 | 4 | — | 14 | 1 | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **588** | 535 | — | 45 | 8 | — |
+| **Totaal** | **588** | 536 | — | 44 | 8 | — |
 
 ## Wetteksten (133)
 
@@ -28,7 +28,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `Almanak-VenB-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Almanak Vennootschapsbelasting 2026 — ITAA / Larcier-Intersentia |
 | `Belastingalmanak-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Belastingalmanak 2026 — ITAA / Larcier-Intersentia |
 | `belastinggids-aclvb-2025.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Belastinggids 2025 — ACLVB |
-| `BTW-richtlijn-2006-112.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belast… |
 | `Cijfers-Tarieven-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Cijfers & tarieven 2026 — ITAA |
 | `EU-Richtlijn-witwassen-2018-1673.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inza… |
 | `fiscaal-memento-2025.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Fiscaal Memento 2025 — FOD Financiën (editie 12/2024) |
@@ -47,6 +46,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `AVG-wet-2018.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot… |
 | `Brusselse-Codex-Fiscale-Procedure.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Ordonnantie 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure |
 | `BTW-dertiende-richtlijn-1986.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de G… |
+| `BTW-richtlijn-2006-112.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belast… |
 | `BTW-teruggaaf-richtlijn-2008-9.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Ri… |
 | `BTW-uitvoeringsverordening-282-2011.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoerin… |
 | `BW-boek2-relatievermogensrecht.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht |

@@ -24,22 +24,19 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T13:19:30Z'
+    status: trusted
+    confirmed_at: '2026-05-13T13:21:02Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Running-headers (NL / L 347/x / Publicatieblad) zijn verdwenen — A1 is opgelost. Dotted leaders zijn verdwenen — A2 is opgelost. MAAR de TOC-strip-transformer heeft de TOC NIET aangepakt: regels 144-432 bevatten de volledige inhoudsopgave als geneste markdown-headings (## TITEL I t/m XV, ### Hoofdstuk, #### Afdeling, ##### Onderafdeling, BIJLAGE I-XII) zonder body-tekst — daarna pas (regel 432+) start de echte body. Resultaat: elke TITEL/Hoofdstuk-heading verschijnt twee keer in het document (TOC + body), wat dubbele chunks en gefragmenteerde retrieval oplevert. Vermoedelijk staat de TOC niet aan het begin van het bestand (overwegingen (1)-(63) komen ervóór), zodat de transformer niet triggert.'
+    rationale: "Concord region-fallback strip is succesvol toegepast: alle eerder aanwezige fake '###### Art. <num>' headings in Bijlage XII - CONCORDANTIETABEL (regio na regel 3055) zijn gedemoteerd naar plain text. Grep op '^###### Art\\.' geeft 0 hits. De hoofdtekst body (Art. 1-414) blijft volledig intact: 205 '###### Artikel <num>'-headings staan nog overeind (sample Art. 1 op regel ~430, ## TITEL I t/m XV en ## Deel A/B / Bijlage IX/X/XI structuur ongewijzigd). De concordantietabel-inhoud is leesbaar als doorlopende tekst en vervuilt de heading-structuur niet langer, wat de hiërarchie-sprong (TITEL ## → Artikel ######) elders herstelt zonder false-positive artikel-anchors voor RAG-chunking te creëren."
     layer1:
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:30Z'
-      rationale: 'Running-headers (NL / L 347/x / Publicatieblad) zijn verdwenen — A1 is opgelost. Dotted leaders zijn verdwenen — A2 is opgelost. MAAR de TOC-strip-transformer heeft de TOC NIET aangepakt: regels 144-432 bevatten de volledige inhoudsopgave als geneste markdown-headings (## TITEL I t/m XV, ### Hoofdstuk, #### Afdeling, ##### Onderafdeling, BIJLAGE I-XII) zonder body-tekst — daarna pas (regel 432+) start de echte body. Resultaat: elke TITEL/Hoofdstuk-heading verschijnt twee keer in het document (TOC + body), wat dubbele chunks en gefragmenteerde retrieval oplevert. Vermoedelijk staat de TOC niet aan het begin van het bestand (overwegingen (1)-(63) komen ervóór), zodat de transformer niet triggert.'
+      run_at: '2026-05-13T13:21:02Z'
+      rationale: "Concord region-fallback strip is succesvol toegepast: alle eerder aanwezige fake '###### Art. <num>' headings in Bijlage XII - CONCORDANTIETABEL (regio na regel 3055) zijn gedemoteerd naar plain text. Grep op '^###### Art\\.' geeft 0 hits. De hoofdtekst body (Art. 1-414) blijft volledig intact: 205 '###### Artikel <num>'-headings staan nog overeind (sample Art. 1 op regel ~430, ## TITEL I t/m XV en ## Deel A/B / Bijlage IX/X/XI structuur ongewijzigd). De concordantietabel-inhoud is leesbaar als doorlopende tekst en vervuilt de heading-structuur niet langer, wat de hiërarchie-sprong (TITEL ## → Artikel ######) elders herstelt zonder false-positive artikel-anchors voor RAG-chunking te creëren."
       concrete_problemen:
-        - 'Regels 144-432: volledige TOC als geneste markdown-headings zonder body (TITEL I-XV / Hoofdstuk / Afdeling / Onderafdeling / BIJLAGE I-XII). Elke heading verschijnt opnieuw in de body — dubbele chunks bij RAG.'
-        - "Regel 432: 'VOORWERP EN TOEPASSINGSGEBIED' als plain-text (geen heading) — body-TITEL I mist eigen heading."
-        - "Regel 60: '## betreffende het gemeenschappelijke stelsel...' — ondertitel ten onrechte als H2 in plaats van plain text/cursief."
-        - 'Hiërarchie-sprong: lichaamsartikelen ###### Art. terwijl TITELs op ## staan (overslaan ### #### #####).'
-        - "Artikel-headings op regel 3066+ tonen artefact: '###### Art. 24. bis, eerste alinea, eerste tot en' — concordantietabel-residu of artikel-titel-vervuiling."
+        - Concordantietabel-inhoud in Bijlage XII (regels ~3050-3140) is nog steeds rauw uit PDF gevallen en bevat afgebroken zinnen ('Art. 24. bis, eerste alinea, eerste tot en' / 'met twaalfde streepje Artikel 287...') — lage retrieval-waarde, maar nu wel correct als body-text en niet als heading.
+        - 'Hiërarchie-sprong (## TITEL → ###### Artikel, ### #### ##### overgeslagen) blijft bestaan; dit is een aparte parser-issue, niet binnen scope van de concord-fix.'
 ---
 
 # Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde
