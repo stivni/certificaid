@@ -151,12 +151,16 @@ Art. 2.  Tweede artikel.
         assert "_chunk_level" in fm
         assert "_chunk_type" in fm
 
-    def test_sub_strategy_consumed(self):
+    def test_sub_strategy_geconsumeerd_en_genegeerd(self):
+        """ADR-006 §4.2 Phase 2: _sub_strategy wordt geconsumeerd maar is altijd None.
+
+        De adaptive chunker detecteert sub-structuur automatisch; de ETL-pipeline
+        geeft sub_strategy niet meer door vanuit source_config.yaml.
+        """
         fm = {"_sub_strategy": "per_definitieblok"}
         _, result_fm = inject_headings_wettekst(self._SIMPLE_BODY, fm)
-        # _sub_strategy wordt geconsumeerd en als nieuw intern veld opgeslagen
-        # (inject_headings_wettekst schrijft het terug als intern veld voor emit_frontmatter)
-        assert result_fm.get("_sub_strategy") == "per_definitieblok"
+        # _sub_strategy wordt geconsumeerd en altijd als None teruggegeven
+        assert result_fm.get("_sub_strategy") is None
 
     def test_empty_body(self):
         body, fm = inject_headings_wettekst("", {})

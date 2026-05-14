@@ -8,7 +8,7 @@ bijgewerkt: "28.05.2024"
 bron: "onbekend"
 chunk:
   level: 3
-  type: "Art."
+  type: "Artikel"
   sub_strategy:
 provenance:
   inputs:

@@ -132,16 +132,9 @@ def resolve_method(cfg: dict) -> str:
     return cfg.get("type", "")
 
 
-def _get_sub_strategy(cfg: dict) -> str | None:
-    """Lees `extract.params.sub_strategy` (ADR-006 §4.2) of None.
-
-    Wordt doorgegeven aan `process_wettekst` zodat het chunk-blok in de
-    staging-frontmatter correct geschreven wordt.
-    """
-    extract = cfg.get("extract") or {}
-    params = extract.get("params") or {}
-    val = params.get("sub_strategy")
-    return val if isinstance(val, str) and val else None
+# _get_sub_strategy verwijderd (ADR-006 §4.2 Phase 2): sub_strategy wordt niet meer
+# doorgegeven vanuit source_config.yaml. De adaptive chunker (rag_index.py)
+# detecteert sub-structuur automatisch op basis van threshold-tiers.
 
 
 # ─── Frontmatter ──────────────────────────────────────────────────────────────
@@ -431,14 +424,10 @@ def convert_one(source_name: str, *, dry_run: bool = False,
                 elif "extra_metadata" in split_meta and k in split_meta["extra_metadata"]:
                     overrides[k] = split_meta["extra_metadata"][k]
 
-            # ADR-006 §4.2: split-niveau sub_strategy override of bron-niveau
-            split_sub = (split_meta or {}).get("sub_strategy")
-            sub_strategy = split_sub or _get_sub_strategy(cfg)
-
             # Bouw frontmatter-dict + voeg interne orchestrator-velden toe
             frontmatter = _build_frontmatter_dict(cfg, source_name, method, overrides=overrides)
             frontmatter["_cleanup_steps"] = _cleanup_steps_for(cfg, method)
-            frontmatter["_sub_strategy"] = sub_strategy
+            frontmatter["_sub_strategy"] = None  # sub_strategy niet meer doorgegeven (ADR-006 §4.2)
 
             # Voer de transformer-chain uit; emit_frontmatter produceert de volledige tekst
             text, _ = apply_chain(body, frontmatter, chain)
@@ -473,7 +462,7 @@ def convert_one(source_name: str, *, dry_run: bool = False,
     # inject_headings_wettekst lezen deze en verwijderen ze daarna).
     frontmatter = _build_frontmatter_dict(cfg, source_name, method)
     frontmatter["_cleanup_steps"] = _cleanup_steps_for(cfg, method)
-    frontmatter["_sub_strategy"] = _get_sub_strategy(cfg)
+    frontmatter["_sub_strategy"] = None  # sub_strategy niet meer doorgegeven (ADR-006 §4.2)
 
     print(f"  → Transform-chain: {chain}")
 

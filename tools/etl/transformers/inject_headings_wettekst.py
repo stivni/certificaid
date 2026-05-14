@@ -9,8 +9,8 @@ Verantwoordelijkheid:
   - Injecteer markdown-headings op de juiste niveaus.
   - Schrijf het chunk:-blok in de frontmatter.
 
-De `sub_strategy`-parameter (ADR-006 §4.2) wordt gelezen uit de
-`_sub_strategy` sleutel in frontmatter (ingesteld door de orchestrator).
+Sub_strategy wordt niet meer doorgegeven (ADR-006 §4.2 Phase 2); de adaptive
+chunker in rag_index.py detecteert sub-structuur automatisch.
 
 Signature: (body: str, frontmatter: dict) -> tuple[str, dict]
 """
@@ -36,13 +36,15 @@ def inject_headings_wettekst(body: str, frontmatter: dict) -> tuple[str, dict]:
     """Injecteer Belgische wettekst-headings in de body en schrijf chunk-config.
 
     De chunk-configuratie wordt opgeslagen als `_chunk_info` in frontmatter
-    (intern veld) en als platte sleutels `chunk_level`, `chunk_type` en
-    `sub_strategy` voor gebruik door `emit_frontmatter`.
+    (intern veld) en als platte sleutels `chunk_level` en `chunk_type`
+    voor gebruik door `emit_frontmatter`.
 
     De orchestrator leest het info-resultaat achteraf terug via `_chunk_info`
     om het in logging te gebruiken.
     """
-    sub_strategy = frontmatter.pop("_sub_strategy", None)
+    # _sub_strategy wordt geconsumeerd maar genegeerd (ADR-006 §4.2 Phase 2):
+    # de adaptive chunker detecteert sub-structuur automatisch.
+    frontmatter.pop("_sub_strategy", None)
 
     ranks = detect_hierarchy(body)
     reduced_ranks, merge_parent = apply_conditional_flattening(ranks)
@@ -54,7 +56,7 @@ def inject_headings_wettekst(body: str, frontmatter: dict) -> tuple[str, dict]:
     # Sla chunk-info op als intern frontmatter-veld voor emit_frontmatter.
     frontmatter["_chunk_level"] = chunk_level
     frontmatter["_chunk_type"] = "Art."
-    frontmatter["_sub_strategy"] = sub_strategy  # kan None zijn
+    frontmatter["_sub_strategy"] = None  # altijd None — adaptive chunker neemt het over
 
     # Logging-info voor de orchestrator
     frontmatter["_chunk_info"] = {

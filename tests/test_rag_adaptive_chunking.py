@@ -552,6 +552,10 @@ def test_adaptive_auto_detectie_eu_leden():
 
     Elk lid is 3000 chars zodat ze in aparte bins landen (2 × 3000 < 8000
     maar 3 × 3000 > 8000 → 2 bins).
+
+    EU-bronnen gebruiken `Artikel N` als heading-type (geen `Art.`). Na Phase 2
+    is de _ARTICLE_TYPE_SET-fallback verwijderd: de bron MOET type: "Artikel"
+    hebben én de headings moeten `Artikel N` zijn.
     """
     lid_tekst = "op alle lidstaten die deel uitmaken van de Europese Unie " * 55  # ~3000 chars
     eu_body = (
@@ -562,7 +566,8 @@ def test_adaptive_auto_detectie_eu_leden():
     assert len(eu_body) >= SOFT_THRESHOLD, (
         f"EU-fixture te klein: {len(eu_body)} chars"
     )
-    tekst = _maak_wettekst_met_artikelen([("9", eu_body)])
+    # Gebruik Artikel-headings (EU-stijl) i.p.v. Art. (BE-stijl)
+    tekst = "# EU-Richtlijn\n\n###### Artikel 9\n\n" + eu_body
     fm = {"wet": "EU-Richtlijn", "chunk": {"level": 6, "type": "Artikel", "sub_strategy": None}}
     chunks = split_wettekst(tekst, "eu-richtlijn", fm)
     ids = [c["id"] for c in chunks]

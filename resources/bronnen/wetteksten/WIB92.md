@@ -9,7 +9,7 @@ bron: "Fisconet (officieuze gecoördineerde versie)"
 chunk:
   level: 6
   type: "Art."
-  sub_strategy: "per_definitieblok"
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/WIB92.pdf

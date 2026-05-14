@@ -949,12 +949,16 @@ def split_wettekst(text: str, source_id: str, fm: dict) -> list[dict]:
     art_counter: dict[str, int] = {}  # voor duplicate art-nrs (bis/ter)
 
     def _is_chunk_boundary(parsed: dict) -> bool:
-        """Geeft True als deze heading een chunk-grens is (data-driven via frontmatter)."""
-        # Default ("Art.") en aliassen voor andere article-types: alle is_article-headings
-        # zijn chunk-grenzen. Dat is wat we willen voor EU-bronnen met "Artikel" en MAR
-        # met "Klasse" — telkens één chunk per artikel/klasse.
-        if chunk_type in _ARTICLE_TYPE_SET:
-            return parsed["is_article"]
+        """Geeft True als deze heading een chunk-grens is (data-driven via frontmatter).
+
+        Exacte match op chunk_type — geen fallback naar _ARTICLE_TYPE_SET.
+        Elke bron MOET een expliciete chunk.type hebben die overeenkomt met
+        de daadwerkelijke artikel-heading in de markdown:
+          - Art.    : Belgische wetteksten (Art. N)
+          - Par.    : paragraaf-genummerde wetten (Par. N)
+          - Artikel : EU-richtlijnen en -verordeningen (Artikel N)
+          - Klasse  : MAR-rekeningplannen (Klasse N)
+        """
         return parsed["type"] == chunk_type
 
     def flush():

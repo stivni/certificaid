@@ -9,7 +9,7 @@ bron: "onbekend"
 chunk:
   level: 6
   type: "Art."
-  sub_strategy: "per_definitieblok"
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Antiwitwaswet-2017.pdf

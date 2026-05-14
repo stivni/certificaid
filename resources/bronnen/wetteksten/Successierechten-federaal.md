@@ -9,7 +9,7 @@ bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 5
   type: "Art."
-  sub_strategy: "per_definitieblok"
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/successie-federaal.pdf

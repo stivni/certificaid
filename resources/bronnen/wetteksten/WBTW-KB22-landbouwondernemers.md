@@ -9,7 +9,7 @@ bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
 chunk:
   level: 2
   type: "Art."
-  sub_strategy: "per_definitieblok"
+  sub_strategy:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf

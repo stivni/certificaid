@@ -8,7 +8,7 @@ bijgewerkt: "2018"
 bron: "onbekend"
 chunk:
   level: 2
-  type: "Art."
+  type: "Klasse"
   sub_strategy:
 provenance:
   inputs:
