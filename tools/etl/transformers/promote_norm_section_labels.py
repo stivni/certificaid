@@ -15,6 +15,12 @@ Whitelist gebaseerd op de 6 needs-rework normen (B4-patronen uit L2-pass):
 - 'Conclusie'
 - N-eerste/tweede/derde principe (`Eerste principe` etc.)
 
+Uitbreiding extensie 3 (ADR-005 Fase 1 fix):
+- 'CABINET Doelstelling' — compound uppercase label uit intern-kwaliteitsmanagement
+  (regel 142 in de norm: structuurlabel met kantoor-scope-aanduiding)
+- 'KANTOORNIVEAU' — standalone uppercase sectie-indicator uit intern-kwaliteitsmanagement
+  (regel 149 in de norm)
+
 Conform ADR-005 §1: format-agnostische tekst-transformatie.
 """
 from __future__ import annotations
@@ -33,6 +39,9 @@ _NORM_SECTION_LABELS = [
     "Conclusie",
     "Inleiding",
     "OPDRACHTBRIEF",
+    # Extensie 3: structuurlabels uit ITAA-norm-intern-kwaliteitsmanagement
+    "CABINET Doelstelling",
+    "KANTOORNIVEAU",
 ]
 
 # Eerste/Tweede/.../Tiende + principe

@@ -25,44 +25,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 65c3c97f-dirty
+    pipeline_version: 15302c50
     model:
     prompt_version:
-  generated_at: '2026-05-14T19:45:02Z'
+  generated_at: '2026-05-14T20:17:52Z'
   stale: false
   stale_reason:
   trust:
     status: unreviewed
-    confirmed_at: '2026-05-14T19:57:47Z'
-    confirmed_by: human
-    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     caveat:
     layer1:
-      status: pass
-      run_id: 20260514-194808
-      run_at: '2026-05-14T19:48:09Z'
-      heading_count: 4
-      max_section_chars: 6607
-      file_size_chars: 11825
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-l2-qa-a70b27c2
-      run_at: '2026-05-14T19:55:09Z'
-      rationale: "Was needs-rework wegens inline voetnoot-residu. Inline voetnoot-fragment op regel 111 ('Conform de wet van 29 maart 2018 tot registratie van dienstenverleners aan vennootschappen.') is losstaande verwijzing zonder context. Erger: running page-footer 'goedgekeurd door de raad van 2 juli 2024.' verschijnt 3x als standalone tekstlijn (regels 113, 164, 216) — niet verwijderd door de transformer. Body is verder goed leesbaar (4 headings, 11825 chars). Inhoud inhoudelijk volledig bruikbaar."
-      concrete_problemen:
-        - regel: 113
-          type: page-footer-residu
-          voorbeeld: goedgekeurd door de raad van 2 juli 2024.
-        - regel: 164
-          type: page-footer-residu
-          voorbeeld: goedgekeurd door de raad van 2 juli 2024.
-        - regel: 216
-          type: page-footer-residu
-          voorbeeld: goedgekeurd door de raad van 2 juli 2024.
-        - regel: 111
-          type: inline-voetnoot-fragment
-          voorbeeld: Conform de wet van 29 maart 2018 tot registratie van dienstenverleners aan vennootschappen.
 ---
                ITAA
         INSTITUTE FOR TAX
@@ -127,7 +103,6 @@ maken van technische normen en aanbevelingen, specifiek voor de uitoefening van 
 
 Conform de wet van 29 maart 2018 tot registratie van dienstenverleners aan vennootschappen.
 
-goedgekeurd door de raad van 2 juli 2024.
 Dergelijke normen zijn bindend en worden in het Nederlands, het Frans en zo mogelijk in het Duits
 openbaar gemaakt op de website van het Instituut.
 Onderhavige norm heeft tot doel om de bijzondere voorwaarden vast te leggen omtrent de uitoefening
@@ -178,7 +153,6 @@ voortvloeiende uit de antiwitwaswetgeving en haar uitvoeringsbesluiten.
 juridische bijstand in het kader hiervan. 3 Artikel 2,12° van de wet van 17 maart 2019 betreffende de beroepen van accountant
 en belastingadviseur. 4 Artikel 2,3° van de wet van 17 maart 2019 betreffende de beroepen van accountant en belastingadviseur.
 
-goedgekeurd door de raad van 2 juli 2024.
 3) Voorwaarden eigen aan de domiciliëringsopdracht zoals omschreven in de definities onder 2°
 b) en c)
 3.1. De beroepsbeoefenaar houdt, op duidelijk afzonderlijke wijze, de goederen en documenten
@@ -229,5 +203,3 @@ adres van een accountant of belastingconsulent wordt opgeheven op de datum van d
 treding van deze norm.
 
 Conform artikel III.16 Wetboek van Economisch Recht.
-
-goedgekeurd door de raad van 2 juli 2024.

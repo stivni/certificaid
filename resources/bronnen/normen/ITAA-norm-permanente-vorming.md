@@ -27,47 +27,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 65c3c97f-dirty
+    pipeline_version: 15302c50
     model:
     prompt_version:
-  generated_at: '2026-05-14T19:45:03Z'
+  generated_at: '2026-05-14T20:17:54Z'
   stale: false
   stale_reason:
   trust:
     status: unreviewed
-    confirmed_at: '2026-05-14T19:57:47Z'
-    confirmed_by: human
-    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     caveat:
     layer1:
-      status: pass
-      run_id: 20260514-194808
-      run_at: '2026-05-14T19:48:09Z'
-      heading_count: 15
-      max_section_chars: 11346
-      file_size_chars: 29729
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-l2-qa-a70b27c2
-      run_at: '2026-05-14T19:55:09Z'
-      rationale: "Was needs-rework wegens page-headers/footers. Na re-conversie: running page-footer 'goedgekeurd door de Raad van 1 december 2020.' verschijnt 15x als standalone tekstlijn verspreid door de volledige norm (regels 56, 115, 174, 233, 293, 347, 398, 414, 459, 503, 560, 591, 614). Dit zijn duidelijke page-footer residuen die de `strip_itaa_norm_footers` transformer NIET verwijderd heeft (variante formulering zonder hoofdletter 'van'). Body is verder goed leesbaar (15 headings, 29729 chars). Inhoudelijk volledig."
-      concrete_problemen:
-        - regel: 115
-          type: page-footer-residu
-          voorbeeld: goedgekeurd door de Raad van 1 december 2020.
-        - regel: 174
-          type: page-footer-residu
-          voorbeeld: goedgekeurd door de Raad van 1 december 2020.
-        - regel: 233
-          type: page-footer-residu
-          voorbeeld: goedgekeurd door de Raad van 1 december 2020.
 ---
       Norm met betrekking tot
-      de permanente vorming goedgekeurd door de Raad van 1 december 2020.
+      de permanente vorming
+
 INHOUDSTAFEL
 
-goedgekeurd door de Raad van 1 december 2020.
 Gezien artikel 39, vierde lid van de wet van 17 maart 2019 betreffende de beroepen van accountant
 en belastingadviseur, dat bepaalt dat de inhoud en het minimumaantal uren permanente vorming
 worden vastgelegd in een norm, als bedoeld in artikel 72, eerste lid 2° van de Wet;
@@ -126,7 +105,6 @@ SAMEN MET DE BIJLAGEN.
  personen die de beroepsactiviteiten als bedoeld in artikel 6, §1 van de Beroepenwet uitoefenen,
  zonder het voeren van de beroepstitel.
 
-goedgekeurd door de Raad van 1 december 2020.
  Hij zet daartoe op regelmatige basis en op continue wijze een permanente vorming voort om zijn
  beroepskennis en -bekwaamheid en zijn beroepsethiek op voldoende peil te houden.
 
@@ -185,7 +163,6 @@ goedgekeurd door de Raad van 1 december 2020.
      13. Belasting over de toegevoegde waarde;
      14. Fiscale procedure;
 
-goedgekeurd door de Raad van 1 december 2020.
        15. Registratie- en successierechten;
        16. Regionale en lokale belastingen;
        17. Europees en internationaal fiscaal recht;
@@ -244,7 +221,6 @@ goedgekeurd door de Raad van 1 december 2020.
  -     zij duren minimaal 45 minuten;
  -     zij hebben duidelijke opleidingsdoelen ten aanzien van de relevante vakgebieden.
 
-goedgekeurd door de Raad van 1 december 2020.
  §2. Een seminarie, een studiedag, een vormingscyclus of een vorming op afstand over een relevant
  vakgebied die in België of in het buitenland heeft plaatsgevonden, die niet georganiseerd werd door
  een erkende vormingsoperator en waarvoor de organisator geen aanvraag tot erkenning heeft
@@ -304,7 +280,6 @@ goedgekeurd door de Raad van 1 december 2020.
  Elk jaar brengt het lid van het Instituut verslag uit over de gevolgde permanente vorming, op de wijze
  bepaald door de Raad van het Instituut.
 
-goedgekeurd door de Raad van 1 december 2020.
  Dat verslag wordt waarheidsgetrouw ingevuld en wordt ten laatste twee maanden na het afsluiten
  van het kalenderjaar afgesloten.
 
@@ -358,7 +333,6 @@ c) voor de vormingsactiviteiten voorzien in artikel 6, §1, 2° van deze norm, m
  van de Beroepenwet, beschouwd als een inbreuk tegen het wettelijk, reglementair en normatief kader
  waarbinnen de beroepsactiviteiten worden uitgeoefend.
 
-goedgekeurd door de Raad van 1 december 2020.
  Overeenkomstig artikel 92 van de Beroepenwet kan een of meerdere tuchtstraffen worden opgelegd
  aan personen ingeschreven in het openbaar register wanneer inbreuken zijn vastgesteld tegen het
  wettelijk, reglementair
@@ -409,7 +383,6 @@ goedgekeurd door de Raad van 1 december 2020.
  2020 worden in aanmerking genomen voor de berekening van het minimum aantal uren van de
  driejarige periode, voorzien in artikel 3 van deze norm.
 
-goedgekeurd door de Raad van 1 december 2020.
  In afwijking van artikel 1, voorlaatste en laatste lid van deze norm, wordt de berekening van het aantal
  uren vormingsactiviteiten van categorie A en van categorie B in de kalenderjaren 2021 en 2022 op
  jaarlijkse basis uitgevoerd.
@@ -425,7 +398,6 @@ goedgekeurd door de Raad van 1 december 2020.
  -   de richtlijn betreffende de permanente vorming van de Raad van de erkende boekhouders
      (- fiscalisten) en de stagiairs boekhouders (-fiscalisten)van 19 mei 2006.
 
-goedgekeurd door de Raad van 1 december 2020.
      BIJLAGE 1: Administratieve erkenningsprocedure van vormingsoperatoren en
                                 vormingsactiviteiten
 
@@ -470,7 +442,6 @@ erkend.
             - elke andere aanwijzing die borg staat voor de kwaliteit en het professionalisme van
               de vormingen.
 
-goedgekeurd door de Raad van 1 december 2020.
                           Punt 3 - Erkenning vormingsoperatoren
 
  De aanvraag tot erkenning als vormingsoperator, moet bij het Instituut worden ingediend en vergezeld
@@ -514,7 +485,6 @@ goedgekeurd door de Raad van 1 december 2020.
 
  De erkenning geldt voor een periode van drie jaar en is hernieuwbaar op eenvoudig verzoek.
 
-goedgekeurd door de Raad van 1 december 2020.
                 Punt 4 - Procedure tot erkenning van vormingsactiviteiten
 
  1) Elke vormingsactiviteit die een relevant vakgebied behandelt, kan als vormingsactiviteit worden
@@ -571,7 +541,6 @@ erkend, onder de volgende voorwaarden:
  van de erkende vorming zelf op de website www.itaa.be geplaatst worden nadat hij een paswoord
  ontving vanwege het Instituut.
 
-goedgekeurd door de Raad van 1 december 2020.
                          Punt 7 - Controle op de vormingsactiviteit
 
  De controle door het Instituut, houdt in dat de vertegenwoordiger(s) die door de Raad van het Instituut
@@ -602,7 +571,6 @@ goedgekeurd door de Raad van 1 december 2020.
  verbintenissen aangegaan ten aanzien van de erkenning van vormingsactiviteiten en de erkenning
  van vormingsoperatoren, dit ten belope van de duurtijd van de verbintenis.
 
-goedgekeurd door de Raad van 1 december 2020.
      BIJLAGE 2: Schema administratieve procedure erkenning vormingsactiviteiten
 
      Erkende                           Geregistreerde
@@ -624,5 +592,3 @@ goedgekeurd door de Raad van 1 december 2020.
                                                                           Erkenning door
           NEEN                               NEEN
                                                                               RAAD
-
-goedgekeurd door de Raad van 1 december 2020.

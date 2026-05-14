@@ -25,38 +25,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 65c3c97f-dirty
+    pipeline_version: 15302c50
     model:
     prompt_version:
-  generated_at: '2026-05-14T19:45:03Z'
+  generated_at: '2026-05-14T20:17:54Z'
   stale: false
   stale_reason:
   trust:
     status: unreviewed
-    confirmed_at: '2026-05-14T19:57:47Z'
-    confirmed_by: human
-    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     caveat:
     layer1:
-      status: pass
-      run_id: 20260514-194808
-      run_at: '2026-05-14T19:48:09Z'
-      heading_count: 27
-      max_section_chars: 6056
-      file_size_chars: 45437
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-l2-qa-a70b27c2
-      run_at: '2026-05-14T19:55:09Z'
-      rationale: "Was needs-rework wegens TOC + col-header. Na re-conversie: TOC-residu op regels 142-144: '## Inhoudstafel' heading gevolgd door 1 TOC-entry '## Communicatie met het management... . 34 Het'. Verder geen systematische column-bleed of TOC-vervuiling. Norm (27 headings, 45437 chars) is goed gestructureerd en volledig leesbaar. ISRS-vertalingswijze tekst met Par. Ax verwijzingen is inhoudelijk intact."
-      concrete_problemen:
-        - regel: 142
-          type: toc-residu-heading
-          voorbeeld: '## Inhoudstafel'
-        - regel: 144
-          type: toc-residu-paginanummer
-          voorbeeld: '## Communicatie met het management en de met governance belaste personen . 34 Het'
 ---
 ## Norm inzake de Samenstellingsopdrachten
 
@@ -149,10 +131,6 @@ Belastingadviseurs en de Accountants het gevraagde advies heeft uitgebracht, wor
 voor de Economische Beroepen overeenkomstig artikel 80 van de wet van 17 maart 2019 betreffende
 de beroepen van accountant en belastingadviseur geacht een gunstig advies uitgebracht te hebben.
 Deze norm treedt in werking op 3 oktober 2025.
-
-## Inhoudstafel
-
-## Communicatie met het management en de met governance belaste personen . 34 Het
 
 (volgens Overeenkomst van 12 maart 2019 tussen IBR en IFAC)
 

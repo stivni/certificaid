@@ -18,6 +18,13 @@ pdftotext midden in de body terechtkomen:
 6. **Standalone `Inhoud`-header**: het residu van een TOC-pagina waarin alleen
    het woord `Inhoud` op een eigen regel staat (zonder volgende TOC-items).
    Bona-fide kopjes als `## Inhoud van de opdracht` blijven onaangetast.
+7. **Goedkeuring-door-raad-footer**: `goedgekeurd door de [Rr]aad van <dag>
+   <maand> <jaar>` als standalone regel, verspreid door de volledige norm als
+   running page-footer. Raakt ITAA-norm-permanente-vorming (15×) en
+   ITAA-norm-domiciliering (3×). Case-insensitive op 'raad' (beide varianten
+   komen voor). Vereist dat de regel *volledig* uit dit patroon bestaat —
+   'goedgekeurd' als onderdeel van een langere zin of als bullet-item valt
+   er niet onder.
 
 Conform ADR-005 §1: format-agnostische tekst-transformatie.
 """
@@ -72,6 +79,17 @@ _STANDALONE_INHOUD_RE = re.compile(
     re.M,
 )
 
+# Goedkeuring-door-raad running page-footer. Standalone regel die volledig
+# bestaat uit `goedgekeurd door de [Rr]aad van <dag> <maand> <jaar>` met
+# optionele afsluitende punt. Case-insensitive zodat zowel 'Raad' (permanente-
+# vorming) als 'raad' (domiciliering) worden gevangen.
+# Negatieve lookahead/lookbehind is niet nodig: de volledige-regel-anchor (`^...$`)
+# met vereiste dag+maand+jaar-structuur is al voldoende specifiek.
+_GOEDGEKEURD_RAAD_RE = re.compile(
+    r"^\s*goedgekeurd\s+door\s+de\s+[Rr]aad\s+van\s+\d{1,2}\s+\w+\s+\d{4}\.?\s*$",
+    re.M | re.I,
+)
+
 
 def strip_itaa_norm_footers(body: str, frontmatter: dict) -> tuple[str, dict]:
     """Strip ITAA-norm page-footer-regels uit body."""
@@ -81,6 +99,7 @@ def strip_itaa_norm_footers(body: str, frontmatter: dict) -> tuple[str, dict]:
     new_body = _HEADING_WITH_PAGE_MARKER_RE.sub("", new_body)
     new_body = _STANDALONE_PAGENUM_RE.sub("", new_body)
     new_body = _STANDALONE_INHOUD_RE.sub("", new_body)
+    new_body = _GOEDGEKEURD_RAAD_RE.sub("", new_body)
     # Collapse opeenvolgende lege regels
     new_body = re.sub(r"\n{3,}", "\n\n", new_body)
     return new_body, frontmatter

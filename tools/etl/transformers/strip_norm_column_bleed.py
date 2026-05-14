@@ -24,6 +24,12 @@ Patronen die deze transformer aanpakt:
 4. **Pure FR-heading** — bv. ``## Fin des relations clients``. Bestaat
    enkel uit FR-woorden, restant van rechterkolom-bleed. Volledig strippen.
 
+5. **Standalone FR-lek als plain-tekst** (niet als heading) — een losse
+   FR-woordrij die als standalone tekstregel verschijnt, bv. ``demande.``
+   (residu van een FR-pagina-header in een tweetalig document). Alleen
+   een beperkte whitelist van herkenbare kortste FR-lekken wordt gestript;
+   de context moet een geïsoleerde standalone regel zijn.
+
 WAT DEZE TRANSFORMER NIET DOET: de correcte kolom-volgorde van de
 body-tekst reconstrueren. Daarvoor zou column-aware PDF-extractie
 (bv. pymupdf met blocks) nodig zijn. Buiten scope.
@@ -88,6 +94,20 @@ _PURE_FR_HEADING_PATTERNS = (
     re.compile(r"^Fin\s+des?\s+\S+", re.IGNORECASE),
     re.compile(r"^Acceptation\s+de\s+\S+", re.IGNORECASE),
     re.compile(r"^Continuité?\s+de\s+\S+", re.IGNORECASE),
+)
+
+# Patroon 5: standalone FR-lekken als plain-tekst (geen heading).
+# Whitelist van herkenbare korte FR-lekresten die als standalone regel voorkomen.
+# Bewust heel beperkt om false-positives te vermijden. Een "standalone" regel is
+# een regel die volledig uit de whitelisted string bestaat (optioneel met
+# interpunctie aan het einde), dus GEEN langere zin.
+#
+# 'demande.' — FR-equivalent van 'verzoek', residu uit NL/FR tweetalig document
+#   (ITAA-norm-intern-kwaliteitsmanagement, regel 237 in de MD).
+# 'du', 'de', 'des' — FR-voorzetsels die soms als losstaand fragment overblijven.
+_STANDALONE_FR_LEK_RE = re.compile(
+    r"^\s*(?:demande|du|des?)\s*\.?\s*$",
+    re.IGNORECASE,
 )
 
 
@@ -182,6 +202,10 @@ def strip_norm_column_bleed(body: str, frontmatter: dict) -> tuple[str, dict]:
             if stripped != text and stripped:
                 out_lines.append(f"{level} {stripped}")
                 continue
+
+        # Patroon 5: standalone FR-lek als plain-tekst (niet als heading).
+        if _STANDALONE_FR_LEK_RE.match(line):
+            continue
 
         out_lines.append(line)
 

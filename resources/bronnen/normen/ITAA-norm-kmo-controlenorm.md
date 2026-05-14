@@ -27,39 +27,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 65c3c97f-dirty
+    pipeline_version: 15302c50
     model:
     prompt_version:
-  generated_at: '2026-05-14T19:45:02Z'
+  generated_at: '2026-05-14T20:17:53Z'
   stale: false
   stale_reason:
   trust:
     status: unreviewed
-    confirmed_at: '2026-05-14T19:57:47Z'
-    confirmed_by: human
-    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     caveat:
     layer1:
-      status: warn
-      run_id: 20260514-194808
-      run_at: '2026-05-14T19:48:09Z'
-      heading_count: 74
-      max_section_chars: 43426
-      file_size_chars: 145654
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 43426 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-l2-qa-a70b27c2
-      run_at: '2026-05-14T19:55:09Z'
-      rationale: 'Was needs-rework wegens doorlopende tekst zonder alinea-scheiding. Na re-conversie heeft de norm 74 headings voor 145654 chars — goede structuur. Layer-1 warn wegens max_section_chars 43426 (>24000), maar chunker splitst automatisch op alinea-grenzen. Inspectie van de body toont dat de inhoudstafel als plain-tekst inlineblok aanwezig is (regels 86-153) zonder ## headings, maar dit is TOC-context voor de lezer en geen body-content verlies. Lange paragrafen (regels 168-172, 177-183) zijn juridisch doorlopende tekst, niet een formatering-probleem. Inhoudelijk volledig bruikbaar.'
-      concrete_problemen:
-        - regel: 86
-          type: toc-inline-zonder-headings
-          voorbeeld: '# INHOUDSTAFEL / ## 1. INLEIDING / 1.1 Toepassingsgebied / ...'
 ---
 # KMO controle norm
 
@@ -88,8 +69,6 @@ De Instituten zullen een algemeen voorbeeld van een opdrachtbrief (§41) en van 
 HEBBEN OP HUN ZITTINGEN VAN 18 DECEMBER 2018 DE HIERNAVOLGENDE NORM AANGENOMEN.
 Goedkeuring van onderhavige norm
 Deze norm werd op 21 december 2018 door de Hoge Raad voor de Economische Beroepen en op 26 februari 2019 door de Minister die bevoegd is voor Economie goedgekeurd. Deze goedkeuring heeft het voorwerp uitgemaakt van een bericht door de minister die bevoegd is voor Economie, gepubliceerd in het Belgisch Staatsblad van 12 maart 2019, p. 25928.
-
-# INHOUDSTAFEL
 
 ## 1. INLEIDING
 
@@ -430,7 +409,6 @@ bekende actuele of mogelijke niet-naleving van de wetgeving inzake de strijd teg
 
 # 3. CONTROLE VAN DE HISTORISCHE FINANCIËLE INFORMATIE (REDELIJKE ZEKERHEID)
 
-## 3.1. Risico’s    op    een    afwijking    van    materieel belang identificeren en inschatten & planning
 ### 3.1.1. Planning
 §70. De beroepsbeoefenaar plant de controle zodat de opdracht efficiënt kan worden uitgevoerd.
 §71. De planning van een controle omvat het vaststellen van de algehele controleaanpak voor de opdracht alsmede het ontwikkelen van een controleprogramma ter zake.
@@ -911,9 +889,6 @@ Vooringenomenheid bij het management of de met governance belaste personen: het 
 
 # BIJLAGE 3 : Voorbeeld verslag (assurance met een redelijke mate van zekerheid)
 
-VERSLAG [VAN DE ACCOUNTANT of DE BEDRIJFSREVISOR] AAN HET BESTUURSORGAAN VAN (NAAM VAN DE KMO OF KLEINE VZW) OP DE CONTRACTUELE12 CONTROLE VAN DE FINANCIËLE OVERZICHTEN13 VAN DE VENNOOTSCHAP   _______VAN HET BOEKJAAR AFGESLOTEN OP                                     20
-
-Overeenkomstig onze opdracht zoals hierna omschreven en die werd bevestigd door de opdrachtbrief van_____ /_____ /_____ [gehecht aan dit verslag], brengen wij u verslag uit over de controle van de financiële overzichten van het boekjaar afgesloten op      ___20_____ . Onze opdracht bestaat uit___________________ . De beoogde gebruiker is _________________________.
 Wij hebben de controle uitgevoerd van de financiële overzichten van de vennootschap                                                                              over het boekjaar afgesloten op                   20 , opgesteld op grond van de in België van toepassing zijnde boekhoudkundige wetgeving, met een balanstotaal van €                                                            en waarvan de resultatenrekening afsluit met een winst [verlies] van het boekjaar van €                                                               .
 Het bestuursorgaan is verantwoordelijk voor het opstellen van financiële overzichten die een getrouw beeld geven in overeenstemming met de in België van toepassing zijnde boekhoudkundige wetgeving, alsook voor het implementeren van de interne beheersing die het bestuursorgaan noodzakelijk acht voor het opstellen van financiële overzichten die geen afwijking van materieel belang bevatten.
 Overeenkomstig onze opdrachtbrief, is het onze verantwoordelijkheid een oordeel over deze financiële overzichten tot uitdrukking te brengen op basis van onze controle. Wij hebben onze controle volgens de norm met betrekking tot de contractuele controle van KMO’s en kleine (i)vzw’s en stichtingen en de gedeelde wettelijk voorbehouden opdrachten bij KMO’s en kleine (i)vzw’s en stichtingen uitgevoerd. Deze norm vereist dat wij de controle plannen en uitvoeren teneinde ervoor te zorgen dat de financiële overzichten geen afwijkingen van materieel belang bevatten. Wij hebben alle deontologische vereisten die relevant zijn voor de contractuele controle van de financiële overzichten in België nageleefd, met inbegrip van deze met betrekking tot de onafhankelijkheid zoals voorzien door voormelde norm.

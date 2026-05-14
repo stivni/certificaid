@@ -129,9 +129,10 @@ class TestStripPureFrenchHeadings:
         )
         result, _ = strip_norm_column_bleed(body, {})
         assert "Fin des relations clients" not in result
-        # Omliggende body-tekst blijft.
+        # NL-body-tekst blijft.
         assert "Beëindigen van cliëntenrelaties" in result
-        assert "demande." in result
+        # 'demande.' is een FR-lek (geen NL-tekst) en wordt ook gestript.
+        assert "demande." not in result
 
 
 class TestNegativeCasesGeenWijziging:

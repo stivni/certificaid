@@ -28,38 +28,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 65c3c97f-dirty
+    pipeline_version: 15302c50
     model:
     prompt_version:
-  generated_at: '2026-05-14T19:45:02Z'
+  generated_at: '2026-05-14T20:17:52Z'
   stale: false
   stale_reason:
   trust:
     status: unreviewed
-    confirmed_at: '2026-05-14T19:57:47Z'
-    confirmed_by: human
-    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     caveat:
     layer1:
-      status: pass
-      run_id: 20260514-194808
-      run_at: '2026-05-14T19:48:09Z'
-      heading_count: 17
-      max_section_chars: 8077
-      file_size_chars: 41087
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-l2-qa-a70b27c2
-      run_at: '2026-05-14T19:55:09Z'
-      rationale: "Was needs-rework wegens TOC + minor issues. Regel 135: TOC-entry 'Organisatie van de beroepsbeoefenaar... . 7' met paginanummer onverwijderd. Regel 138: TOC-entry 'Nakoming    van       de         waakzaamheidsverplichtingen...' met leader-spaties onverwijderd. Dit zijn 2 TOC-restanten. De norm zelf (17 headings, 41087 chars) is goed gestructureerd en leesbaar. Geen body-level column-bleed."
-      concrete_problemen:
-        - regel: 135
-          type: toc-residu-paginanummer
-          voorbeeld: Organisatie van de beroepsbeoefenaar wat de compliancefuncties betreft . 7
-        - regel: 138
-          type: toc-residu-leaderspaties
-          voorbeeld: Nakoming    van       de         waakzaamheidsverplichtingen                              door           derde
 ---
 Richtlijn van het Beroepsinstituut van erkende Boekhouders en Fiscalisten
  van 31 maart 2020 inzake de toepassing van de wet van 18 september
@@ -146,7 +128,6 @@ de Hoge Raad voor de Economische Beroepen voorgelegd.
 Organisatie van de beroepsbeoefenaar wat de compliancefuncties betreft . 7
 
 ## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar
-Nakoming    van       de         waakzaamheidsverplichtingen                              door           derde
 
 ## Bijlage I. Variabelen ten minste in overweging te nemen in de integrale
 

@@ -221,6 +221,189 @@ class TestNegativePreservation:
         assert "............ euro" in new_body
 
 
+# ─── Extensie 2a — standalone Inhoudstafel-labels zonder leaders ─────────────
+
+
+class TestStandaloneInhoudstafelLabel:
+    """Sub-patroon 2a: standalone 'Inhoudstafel'/'INHOUDSTAFEL' zonder dotted-leaders
+    erna. De huidige transformer strippet dit label ALLEEN als er een leader-cluster
+    is. Zonder cluster moet het label ook worden gestript (+ eventuele TOC-fragmenten
+    erna tot de eerste echte ## heading)."""
+
+    def test_strip_standalone_inhoudstafel_zonder_leaders(self):
+        """aww-reglement patroon: 'Inhoudstafel' als plain text, direct gevolgd door
+        1 losse TOC-entry zonder leaders, daarna een echte ## heading."""
+        body = (
+            "Aanhef van het document.\n"
+            "\n"
+            "Inhoudstafel\n"
+            "\n"
+            "BIJLAGE I: Variabelen ten minste in overweging te nemen\n"
+            "\n"
+            "## 1. Algemene bepalingen\n"
+            "\n"
+            "1.1 Tekst van de norm.\n"
+        )
+        new_body, _ = strip_norm_toc_residue(body, {})
+        assert "Inhoudstafel" not in new_body
+        assert "BIJLAGE I: Variabelen" not in new_body
+        assert "## 1. Algemene bepalingen" in new_body
+        assert "Aanhef van het document." in new_body
+
+    def test_strip_inhoudstafel_uppercase_sans_leaders(self):
+        """ontbinding-vereffening patroon: 'INHOUDSTAFEL' caps, gevolgd door
+        losse Romein-nummers en een Bijlage-entry met paginanummer."""
+        body = (
+            "Voorgaande tekst.\n"
+            "\n"
+            "INHOUDSTAFEL\n"
+            "\n"
+            "I.\n"
+            "II.\n"
+            "III.\n"
+            "Bijlage 1 – Voorbeeld van opdrachtbrief te verkrijgen . 33\n"
+            "\n"
+            "## Toepassingsgebied\n"
+            "\n"
+            "1. Onderhavige norm.\n"
+        )
+        new_body, _ = strip_norm_toc_residue(body, {})
+        assert "INHOUDSTAFEL" not in new_body
+        assert "I.\n" not in new_body
+        assert "II.\n" not in new_body
+        assert "III.\n" not in new_body
+        assert "Bijlage 1 – Voorbeeld" not in new_body
+        assert "## Toepassingsgebied" in new_body
+        assert "Voorgaande tekst." in new_body
+
+    def test_strip_markdown_inhoudstafel_heading_met_toc_entry(self):
+        """samenstellingsopdrachten patroon: '## Inhoudstafel' (al als heading),
+        gevolgd door 1 TOC-entry met paginanummer: '## Communicatie ... . 34 Het'."""
+        body = (
+            "ACCOUNTANTS OP ZIJN ZITTING.\n"
+            "\n"
+            "## Inhoudstafel\n"
+            "\n"
+            "## Communicatie met het management en de met governance belaste personen . 34 Het\n"
+            "\n"
+            "## Inleiding\n"
+            "\n"
+            "Norm-body begint hier.\n"
+        )
+        new_body, _ = strip_norm_toc_residue(body, {})
+        assert "## Inhoudstafel" not in new_body
+        assert "## Communicatie met het management" not in new_body
+        assert "## Inleiding" in new_body
+        assert "Norm-body begint hier." in new_body
+
+    def test_geen_false_positive_echte_bijlage_sectie(self):
+        """Een echte '## Bijlage' sectie na content MAG NIET gestript worden.
+        Alleen TOC-fragmenten tussen Inhoudstafel-label en eerste echte heading."""
+        body = (
+            "## Toepassingsgebied\n"
+            "\n"
+            "Norm-inhoud hier.\n"
+            "\n"
+            "## Bijlage 1\n"
+            "\n"
+            "Bijlage-inhoud.\n"
+        )
+        new_body, _ = strip_norm_toc_residue(body, {})
+        assert new_body == body
+
+
+# ─── Extensie 2b — leaderless TOC-entries met spatie-paginanummer ─────────────
+
+
+class TestLeaderlessTocEntries:
+    """Sub-patroon 2b: TOC-entries die eindigen op een spatie-punt-getal
+    (` . 7`) of multi-spatie-leaders, zonder klassieke dotted-leaders."""
+
+    def test_strip_toc_entry_met_spatie_punt_paginanummer_na_inhoudstafel(self):
+        """aww-richtlijn-bibf patroon: 'Organisatie ... . 7' staat NA een
+        Inhoudstafel-label (nog aanwezig in het venster). Wordt gestript via
+        het leaderless-TOC-blok algoritme."""
+        body = (
+            "Voorgaande alinea.\n"
+            "\n"
+            "Inhoudstafel\n"
+            "\n"
+            "Organisatie van de beroepsbeoefenaar wat de compliancefuncties betreft . 7\n"
+            "\n"
+            "## 1. Algemene bepalingen\n"
+            "\n"
+            "Tekst.\n"
+        )
+        new_body, _ = strip_norm_toc_residue(body, {})
+        assert "Organisatie van de beroepsbeoefenaar" not in new_body
+        assert "## 1. Algemene bepalingen" in new_body
+
+    def test_strip_toc_entry_met_multispatie_leaders(self):
+        """aww-richtlijn-bibf patroon: 'Nakoming    van       de...' met veel
+        opeenvolgende spaties (multi-spatie leader). Staat vlak na een echte heading,
+        dus ALLEEN gestript als er een Inhoudstafel-label aan voorafgaat binnen
+        het detectievenster."""
+        body = (
+            "Voorgaande alinea.\n"
+            "\n"
+            "Inhoudstafel\n"
+            "\n"
+            "Nakoming    van       de         waakzaamheidsverplichtingen                    door derde\n"
+            "\n"
+            "## 1. Algemene bepalingen\n"
+            "\n"
+            "Tekst.\n"
+        )
+        new_body, _ = strip_norm_toc_residue(body, {})
+        assert "Nakoming    van" not in new_body
+        assert "## 1. Algemene bepalingen" in new_body
+
+    def test_geen_false_positive_normale_paragraaf(self):
+        """Een normale zin met meerdere woorden en een getal aan het einde is
+        GEEN TOC-entry als er geen Inhoudstafel-label aan voorafgaat."""
+        body = (
+            "## Toepassingsgebied\n"
+            "\n"
+            "De wet bepaalt in artikel 5 dat de beroepsbeoefenaar voldoet aan eis 7\n"
+            "\n"
+            "Meer tekst hier.\n"
+        )
+        new_body, _ = strip_norm_toc_residue(body, {})
+        assert "De wet bepaalt in artikel 5" in new_body
+
+    def test_strip_wees_toc_entry_omringd_door_headings(self):
+        """Zonder Inhoudstafel-label wordt een leaderless TOC-entry (paginanummer-
+        suffix) die omringd is door headings/blanks (geen body-tekst) toch gestript.
+        Dit dekt het richtlijn-bibf patroon waarbij de Inhoudstafel-header al
+        gestript is maar de TOC-entries nog aanwezig zijn."""
+        body = (
+            "## Sectie A\n"
+            "\n"
+            "Organisatie van de beroepsbeoefenaar betreft de compliancefuncties . 7\n"
+            "\n"
+            "## Sectie B\n"
+        )
+        new_body, _ = strip_norm_toc_residue(body, {})
+        assert "Organisatie van de beroepsbeoefenaar" not in new_body
+        assert "## Sectie A" in new_body
+        assert "## Sectie B" in new_body
+
+    def test_behoud_leaderless_toc_patroon_in_body_context(self):
+        """Een regel die lijkt op een TOC-entry (paginanummer-suffix) maar
+        omringd is door echte body-paragrafen, mag NIET gestript worden.
+        Falsepositief-bescherming: body-tekst die toevallig een cijfer aan het
+        einde heeft via '. 7' (bv. een bijlage-verwijzing)."""
+        body = (
+            "## Toepassingsgebied\n"
+            "\n"
+            "De norm geldt voor alle beroepsbeoefenaars. Zie bijlage . 7\n"
+            "\n"
+            "Nadere toelichting volgt in de volgende alinea.\n"
+        )
+        new_body, _ = strip_norm_toc_residue(body, {})
+        assert "De norm geldt voor alle beroepsbeoefenaars" in new_body
+
+
 # ─── IDEMPOTENTIE ────────────────────────────────────────────────────────────
 
 

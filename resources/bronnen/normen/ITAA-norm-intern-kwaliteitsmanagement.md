@@ -24,41 +24,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 65c3c97f-dirty
+    pipeline_version: 15302c50
     model:
     prompt_version:
-  generated_at: '2026-05-14T19:45:02Z'
+  generated_at: '2026-05-14T20:17:53Z'
   stale: false
   stale_reason:
   trust:
     status: unreviewed
-    confirmed_at: '2026-05-14T19:57:47Z'
-    confirmed_by: human
-    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     caveat:
     layer1:
-      status: pass
-      run_id: 20260514-194808
-      run_at: '2026-05-14T19:48:09Z'
-      heading_count: 7
-      max_section_chars: 3781
-      file_size_chars: 13097
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-l2-qa-a70b27c2
-      run_at: '2026-05-14T19:55:09Z'
-      rationale: "Was needs-rework wegens NL+FR bilingue. Na re-conversie is de tekst overwegend Nederlands. Slechts 1 Frans woord overgebleven: 'demande.' op regel 223 als losstaande tekstlijn (fragment van French page-header of tweetalig document). Vermoedelijk residu van de originele NL/FR lay-out. Norm zelf (7 headings, 13097 chars) is inhoudelijk volledig en goed leesbaar. De doorlopende tekst met 'CABINET Doelstelling' (regel 142) en 'KANTOORNIVEAU' (regel 149) zijn herkennelijke uppercase-structuurlabels uit de originele PDF, niet ideaal maar leesbaar als plain text."
-      concrete_problemen:
-        - regel: 223
-          type: taalbleed-fr
-          voorbeeld: demande.
-        - regel: 142
-          type: structuurlabel-plaintext
-          voorbeeld: CABINET Doelstelling
-        - regel: 149
-          type: structuurlabel-plaintext
-          voorbeeld: KANTOORNIVEAU
 ---
 ## NORM ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT
 
@@ -153,14 +132,14 @@ deze beroepsbeoefenaar deontologisch de eindverantwoordelijkheid en de verantwoo
 
 ## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP
 
-CABINET Doelstelling
+## CABINET Doelstelling
 
 4. De doelstelling van het kantoor is het opzetten, implementeren en in werking
 stellen van een kwaliteitsmanagementsysteem dat aan het kantoor een redelijke
 mate van zekerheid verschaft dat het kantoor en zijn personeel de
 beroepsactiviteiten uitoefenen in overeenstemming met het van toepassing zijnde wettelijk, reglementair en normatief kader.
 
-KANTOORNIVEAU
+## KANTOORNIVEAU
 
 Vereisten
 
@@ -234,7 +213,6 @@ mate van zekerheid geeft dat alle boeken, documenten en elektronische of andere
 gegevens die toebehoren aan de cliënt onverwijld uit handen worden gegeven, wanneer deze erom verzoekt.
 
 
-demande.
 Verzekering burgerlijke beroepsaansprakelijkheid
 13. Het kantoor richt zijn kwaliteitsmanagementsysteem zo in dat dit een redelijke mate van zekerheid geeft dat:
 

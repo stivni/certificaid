@@ -237,3 +237,108 @@ class TestFalsePositiveBescherming:
         # Footer-detectie vereist dat na de em-dash een herkenbare footer-vorm
         # ('Norm ...', een paginanummer of vergelijkbaar) volgt.
         assert "Het ITAA – het Instituut" in out
+
+
+# ─── Extensie 1 — running goedkeurings-footer (POSITIVE) ─────────────────────
+
+class TestGoedgekeurdRaadFooter:
+    """Tests voor de nieuwe _GOEDGEKEURD_RAAD_RE — variant-footer uit
+    permanente-vorming (15×) en domiciliering (3×)."""
+
+    def test_strip_hoofdletter_raad_met_punt(self):
+        # Patroon uit ITAA-norm-permanente-vorming: 'Raad' met hoofdletter + punt
+        body = (
+            "Einde van een paragraaf.\n"
+            "\n"
+            "goedgekeurd door de Raad van 1 december 2020.\n"
+            "\n"
+            "Begin van de volgende paragraaf.\n"
+        )
+        out = _run(body)
+        assert "goedgekeurd door de Raad van 1 december 2020." not in out
+        assert "Einde van een paragraaf." in out
+        assert "Begin van de volgende paragraaf." in out
+
+    def test_strip_kleine_letter_raad_zonder_punt(self):
+        # Patroon uit ITAA-norm-domiciliering: 'raad' met kleine letter, geen punt
+        body = (
+            "Paragraaf voor de footer.\n"
+            "\n"
+            "goedgekeurd door de raad van 2 juli 2024.\n"
+            "\n"
+            "Paragraaf na de footer.\n"
+        )
+        out = _run(body)
+        assert "goedgekeurd door de raad van 2 juli 2024." not in out
+        assert "Paragraaf voor de footer." in out
+        assert "Paragraaf na de footer." in out
+
+    def test_strip_multiple_footer_instanties(self):
+        # 15× in permanente-vorming — alle instanties moeten weg.
+        footer = "goedgekeurd door de Raad van 1 december 2020.\n"
+        body = (
+            "Paragraaf 1.\n\n" + footer + "\n"
+            "Paragraaf 2.\n\n" + footer + "\n"
+            "Paragraaf 3.\n\n" + footer + "\n"
+            "Paragraaf 4.\n"
+        )
+        out = _run(body)
+        assert "goedgekeurd door de Raad van 1 december 2020." not in out
+        for i in range(1, 5):
+            assert f"Paragraaf {i}." in out
+
+    def test_strip_footer_met_voorloop_whitespace(self):
+        # pdftotext kan leading whitespace meegeven.
+        body = (
+            "Normale tekst.\n"
+            "   goedgekeurd door de Raad van 15 april 2019.\n"
+            "Volgende zin.\n"
+        )
+        out = _run(body)
+        assert "goedgekeurd door de Raad van 15 april 2019." not in out
+        assert "Normale tekst." in out
+        assert "Volgende zin." in out
+
+    def test_strip_footer_zonder_punt_aan_einde(self):
+        # Variant zonder afsluitende punt.
+        body = (
+            "Tekst.\n"
+            "goedgekeurd door de Raad van 3 september 2018\n"
+            "Volgende.\n"
+        )
+        out = _run(body)
+        assert "goedgekeurd door de Raad van 3 september 2018" not in out
+        assert "Tekst." in out
+        assert "Volgende." in out
+
+
+class TestGoedgekeurdRaadFooterNegative:
+    """False-positive-bescherming voor de nieuwe goedkeurings-footer regex."""
+
+    def test_behoud_goedgekeurd_in_normale_zin(self):
+        # 'goedgekeurd' in een lopende zin (niet standalone) mag niet weg.
+        body = (
+            "De norm werd officieel goedgekeurd door de Raad van het Instituut.\n"
+            "Zie ook het besluit goedgekeurd door de raad van bestuur op 1 april 2020.\n"
+        )
+        out = _run(body)
+        # Eerste zin: begint met 'De norm' — geen standalone regel
+        assert "officieel goedgekeurd door de Raad van het Instituut" in out
+
+    def test_behoud_bullet_met_goedgekeurd(self):
+        # Een opsomming-item met 'goedgekeurd' mag niet weg.
+        body = (
+            "- de norm permanente vorming, goedgekeurd door de Raad van het IAB "
+            "van 3 september 2010;\n"
+        )
+        out = _run(body)
+        assert "goedgekeurd door de Raad van het IAB" in out
+
+    def test_behoud_goedgekeurd_als_inline_woord(self):
+        # 'goedgekeurd' als deel van een grotere zin blijft.
+        body = (
+            "Het bestuursorgaan heeft de rekeningen goedgekeurd door de Raad van "
+            "commissarissen van 31 december 2023.\n"
+        )
+        out = _run(body)
+        assert "goedgekeurd door de Raad van commissarissen" in out

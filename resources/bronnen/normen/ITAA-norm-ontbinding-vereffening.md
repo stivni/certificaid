@@ -27,38 +27,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 65c3c97f-dirty
+    pipeline_version: 15302c50
     model:
     prompt_version:
-  generated_at: '2026-05-14T19:45:03Z'
+  generated_at: '2026-05-14T20:17:54Z'
   stale: false
   stale_reason:
   trust:
     status: unreviewed
-    confirmed_at: '2026-05-14T19:57:47Z'
-    confirmed_by: human
-    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     caveat:
     layer1:
-      status: pass
-      run_id: 20260514-194808
-      run_at: '2026-05-14T19:48:09Z'
-      heading_count: 46
-      max_section_chars: 5416
-      file_size_chars: 62361
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-l2-qa-a70b27c2
-      run_at: '2026-05-14T19:55:09Z'
-      rationale: "Was needs-rework wegens TOC + page-footers. Na re-conversie: TOC-residu aanwezig op regels 127-135 ('INHOUDSTAFEL' + 5 fragmentarische TOC-items met paginanummer op regel 134). Page-footers: geen aanwezig. Norm zelf (46 headings, 62361 chars) is goed gestructureerd en volledig leesbaar. De TOC-restanten zijn beperkt (8 regels) en verschijnen vóór de eerste echte heading (regel 138 '## Toepassingsgebied')."
-      concrete_problemen:
-        - regel: 127
-          type: toc-residu
-          voorbeeld: INHOUDSTAFEL
-        - regel: 134
-          type: toc-residu-paginanummer
-          voorbeeld: Bijlage 1 – Voorbeeld van opdrachtbrief te verkrijgen door de bedrijfsrevisor/commissaris . 33
 ---
 Ontwerp
 
@@ -134,17 +116,6 @@ Overeenkomstig artikel 31, § 2 van de wet van 7 december 2016 tot organisatie v
 
 Economische Beroepen en op […] door de minister die bevoegd is voor Economie goedgekeurd. Deze
 goedkeuring heeft het voorwerp uitgemaakt van een bericht door de minister die bevoegd is voor Economie, gepubliceerd in het Belgisch Staatsblad van […], p. […].
-
-INHOUDSTAFEL
-
-I.
-II.
-II.4. Specifieke bepalingen betreffende de commissaris opdracht (controle van de
-III.
-IV.
-Bijlage 1 – Voorbeeld van opdrachtbrief te verkrijgen door de bedrijfsrevisor/commissaris . 33
-
-Bijlage 3 - Model van verslag van de commissaris / bedrijfsrevisor / gecertificeerd
 
 ## Toepassingsgebied
 

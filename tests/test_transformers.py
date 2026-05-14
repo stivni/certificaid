@@ -1585,6 +1585,99 @@ class TestPromoteNormSectionLabels:
         from tools.etl.transformers import TRANSFORMERS
         assert "promote_norm_section_labels" in TRANSFORMERS
 
+    # ─── Extensie 3 — CABINET/KANTOORNIVEAU labels (intern-kwaliteitsmanagement) ──
+
+    def test_cabinet_doelstelling_gepromoveerd(self):
+        """'CABINET Doelstelling' als standalone paragraph-isolated regel →
+        gepromoveerd naar ## heading. Patroon uit ITAA-norm-intern-kwaliteitsmanagement
+        regel 142."""
+        from tools.etl.transformers.promote_norm_section_labels import promote_norm_section_labels
+        body = (
+            "## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP\n"
+            "\n"
+            "CABINET Doelstelling\n"
+            "\n"
+            "4. De doelstelling van het kantoor.\n"
+        )
+        result, _ = promote_norm_section_labels(body, {})
+        assert "## CABINET Doelstelling" in result
+        # Geen enkele regel mag nog plain-tekst 'CABINET Doelstelling' zijn (zonder ##)
+        assert not any(
+            ln.strip() == "CABINET Doelstelling" for ln in result.split("\n")
+        )
+        assert "4. De doelstelling van het kantoor." in result  # body bewaard
+
+    def test_kantoorniveau_gepromoveerd(self):
+        """'KANTOORNIVEAU' als standalone paragraph-isolated uppercase label →
+        gepromoveerd naar ## heading. Patroon uit ITAA-norm-intern-kwaliteitsmanagement
+        regel 149."""
+        from tools.etl.transformers.promote_norm_section_labels import promote_norm_section_labels
+        body = (
+            "Voorgaande tekst.\n"
+            "\n"
+            "KANTOORNIVEAU\n"
+            "\n"
+            "Vereisten\n"
+        )
+        result, _ = promote_norm_section_labels(body, {})
+        assert "## KANTOORNIVEAU" in result
+        # Geen enkele regel mag nog plain-tekst 'KANTOORNIVEAU' zijn (zonder ##)
+        assert not any(
+            ln.strip() == "KANTOORNIVEAU" for ln in result.split("\n")
+        )
+
+    def test_cabinet_doelstelling_niet_gepromoveerd_inline(self):
+        """'CABINET Doelstelling' midden in een zin (niet standalone) blijft."""
+        from tools.etl.transformers.promote_norm_section_labels import promote_norm_section_labels
+        body = "Zie de CABINET Doelstelling voor meer info.\n"
+        result, _ = promote_norm_section_labels(body, {})
+        assert "## CABINET Doelstelling" not in result
+        assert "Zie de CABINET Doelstelling voor meer info." in result
+
+
+class TestStripFrLekNormColumnBleed:
+    """Extensie 3b — standalone FR-lekken die geen heading zijn.
+
+    'demande.' op een eigen regel als losstaande tekstregel (niet als heading).
+    Dit is een FR-residufragment uit de originele NL/FR lay-out van
+    ITAA-norm-intern-kwaliteitsmanagement."""
+
+    def test_strip_standalone_demande_punt(self):
+        """'demande.' als standalone tekstregel (niet als ## heading) → gestript."""
+        from tools.etl.transformers.strip_norm_column_bleed import strip_norm_column_bleed
+        body = (
+            "Normale NL-tekst die eindigt met een zin.\n"
+            "\n"
+            "\n"
+            "demande.\n"
+            "Verzekering burgerlijke beroepsaansprakelijkheid\n"
+        )
+        result, _ = strip_norm_column_bleed(body, {})
+        assert "demande." not in result
+        assert "Verzekering burgerlijke beroepsaansprakelijkheid" in result
+
+    def test_behoud_demande_in_normale_zin(self):
+        """'demande' als deel van een normale NL-zin blijft."""
+        from tools.etl.transformers.strip_norm_column_bleed import strip_norm_column_bleed
+        body = "De cliënt heeft een demande ingediend bij het kantoor.\n"
+        result, _ = strip_norm_column_bleed(body, {})
+        assert "De cliënt heeft een demande ingediend" in result
+
+    def test_strip_andere_korte_fr_lekken(self):
+        """Andere korte standalone FR-lekken worden ook gestript."""
+        from tools.etl.transformers.strip_norm_column_bleed import strip_norm_column_bleed
+        body = (
+            "NL-tekst hier.\n"
+            "\n"
+            "du\n"
+            "\n"
+            "Meer NL-tekst.\n"
+        )
+        result, _ = strip_norm_column_bleed(body, {})
+        assert "\ndu\n" not in result
+        assert "NL-tekst hier." in result
+        assert "Meer NL-tekst." in result
+
 
 # ─── strip_running_page_headers ───────────────────────────────────────────────
 

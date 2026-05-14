@@ -28,41 +28,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 65c3c97f-dirty
+    pipeline_version: 15302c50
     model:
     prompt_version:
-  generated_at: '2026-05-14T19:45:01Z'
+  generated_at: '2026-05-14T20:17:52Z'
   stale: false
   stale_reason:
   trust:
     status: unreviewed
-    confirmed_at: '2026-05-14T19:57:46Z'
-    confirmed_by: human
-    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     caveat:
     layer1:
-      status: pass
-      run_id: 20260514-194808
-      run_at: '2026-05-14T19:48:08Z'
-      heading_count: 5
-      max_section_chars: 11376
-      file_size_chars: 21096
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-l2-qa-a70b27c2
-      run_at: '2026-05-14T19:55:09Z'
-      rationale: "Was needs-rework wegens zware col-bleed in body. Heading-merge artefacten zijn weg (Layer-1 pass). Body-tekst toont echter nog aantoonbare paragraaf-discontinuïteiten: abrupte zinsfragmenten zonder context (bv. regel 64: 'om een nieuwe norm, maar een samensmelting...'; regel 98: 'een andere entiteit...' als losse zin; regel 117: 'bedoelde functie door die persoon zelf uitgeoefend'). Dit zijn resten van body-niveau kolom-interleaving die niet door de text-transformer opgelost worden. Heading-count: 5 voor 21096 chars — te weinig structuur voor grote body. Content inhoudelijk bruikbaar voor RAG maar met fragmentarische paragrafen."
-      concrete_problemen:
-        - regel: 64
-          type: paragraaf-fragment
-          voorbeeld: om een nieuwe norm, maar een samensmelting van beide documenten als gevolg van de oprichting
-        - regel: 98
-          type: paragraaf-fragment
-          voorbeeld: een andere entiteit met om het even welke rechtsvorm, andere dan een natuurlijk persoon...
-        - regel: 117
-          type: paragraaf-fragment
-          voorbeeld: bedoelde functie door die persoon zelf uitgeoefend.
 ---
 Geconsolideerde tekst door het Instituut van de Belastingadviseurs en de Accountants (ITAA) van de norm van het IAB en de richtlijn van het BIBF inzake de toepassing van de wet van 18 september 2017 tot
 
