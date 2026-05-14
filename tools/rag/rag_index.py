@@ -271,13 +271,21 @@ STRUCTURAL_TYPES = (
     r"AFDELING|Afdeling|ONDERAFDELING|Onderafdeling|"
     r"SECTIE|Sectie|ONDERDEEL|Onderdeel|PARAGRAAF|Paragraaf"
 )
-ARTICLE_TYPES = r"Art\.|Par\."
+# EU-richtlijnen, verordeningen en internationale verdragen gebruiken voluit
+# "Artikel N" (geen punt) i.p.v. de Belgische "Art. N". Beide worden als chunk-grens
+# behandeld zodat één regex-set werkt voor zowel BE-wetteksten als EU-bronnen.
+# Klasse = MAR (Minimum Algemeen Rekeningstelsel): "Klasse 1" t/m "Klasse 7".
+ARTICLE_TYPES = r"Art\.|Par\.|Artikel|Klasse"
+_ARTICLE_TYPE_SET = {"Art.", "Par.", "Artikel", "Klasse"}
 
 HEADING_RE = re.compile(
     rf"^(#{{1,6}})\s+"
     rf"(?P<type>{STRUCTURAL_TYPES}|{ARTICLE_TYPES})"
     rf"\s*"
-    rf"(?P<nr>[IVXLCDM]+|\d+(?:bis|ter|quater)?)?"
+    # Nummer: Romein, of decimale/slash-genummerd (4, 4.1, 4/1, 4/1.2) met optionele
+    # bis/ter/quater-suffix. Slash komt voor in BE-wetteksten bij ingelaste artikelen
+    # zoals "Onderafdeling 4/1" of "Art. 5/3" (gewijzigde versie).
+    rf"(?P<nr>[IVXLCDM]+|\d+(?:[\./]\d+)*(?:bis|ter|quater)?)?"
     rf"\s*\.?\s*"
     rf"(?:[-—:]\s*)?"
     rf"(?P<naam>.*?)\s*\.?\s*$"
@@ -292,12 +300,15 @@ def parse_heading(line: str) -> dict | None:
     if not m:
         return None
     type_raw = m.group("type")
+    # Article-types blijven gespeld zoals in de bron ("Art.", "Par.", "Artikel", "Klasse");
+    # structural types worden geupperased voor consistentie ("HOOFDSTUK", "TITEL", ...).
+    type_normalised = type_raw if type_raw in _ARTICLE_TYPE_SET else type_raw.upper().rstrip(".")
     return {
         "level": len(m.group(1)),
-        "type": type_raw.upper().rstrip(".") if type_raw not in ("Art.", "Par.") else type_raw,
+        "type": type_normalised,
         "nr": (m.group("nr") or "").strip(),
         "naam": (m.group("naam") or "").strip(),
-        "is_article": type_raw in ("Art.", "Par."),
+        "is_article": type_raw in _ARTICLE_TYPE_SET,
         "raw": line.strip(),
     }
 
@@ -307,7 +318,7 @@ def build_breadcrumb(path: list[dict]) -> str:
     for level in path:
         if level["type"] == "wet":
             parts.append(level["naam"])
-        elif level["type"] in ("Art.", "Par."):
+        elif level["type"] in _ARTICLE_TYPE_SET:
             continue
         else:
             naam = level["naam"]
@@ -582,8 +593,11 @@ def split_wettekst(text: str, source_id: str, fm: dict) -> list[dict]:
 
     def _is_chunk_boundary(parsed: dict) -> bool:
         """Geeft True als deze heading een chunk-grens is (data-driven via frontmatter)."""
-        if chunk_type == "Art.":
-            return parsed["is_article"]  # Art. of Par.
+        # Default ("Art.") en aliassen voor andere article-types: alle is_article-headings
+        # zijn chunk-grenzen. Dat is wat we willen voor EU-bronnen met "Artikel" en MAR
+        # met "Klasse" — telkens één chunk per artikel/klasse.
+        if chunk_type in _ARTICLE_TYPE_SET:
+            return parsed["is_article"]
         return parsed["type"] == chunk_type
 
     def flush():
@@ -803,12 +817,57 @@ def _fetch_existing_shas(collection, ids: list[str]) -> dict[str, str]:
         return {}
 
 
+def _sweep_orphans_per_bron(collection, ids: list[str], metadatas: list[dict]) -> int:
+    """Verwijder chunks van bronnen in deze run die niet meer in de nieuwe set zitten.
+
+    Bij re-conversie van een bron kan de chunk-structuur wijzigen (extra artikel,
+    hernoemde ##-heading, andere sub_strategy). Dan ontstaan orphans: oude
+    chunk-ids voor `bestand == X` die niet meer in de huidige run gegenereerd
+    worden. De sha-skip in `_batch_upsert` ziet dit niet — die kijkt alleen
+    naar ids die nog steeds bestaan.
+
+    Scope: alleen bronnen die in deze run voorkomen (per `metadatas[i]["bestand"]`).
+    Bronnen die nu door de trust-filter geweerd worden krijgen GEEN automatische
+    cleanup hier — daarvoor is `tools/etl/remove_bron.py` of de mark_trusted-cascade.
+
+    Returnt het aantal verwijderde orphan-chunks.
+    """
+    if not ids:
+        return 0
+    from collections import defaultdict
+    new_by_bestand: dict[str, set[str]] = defaultdict(set)
+    for chunk_id, meta in zip(ids, metadatas):
+        bestand = meta.get("bestand", "")
+        if bestand:
+            new_by_bestand[bestand].add(chunk_id)
+
+    total_orphans = 0
+    for fname, new_ids in new_by_bestand.items():
+        try:
+            existing = collection.get(where={"bestand": fname}, include=[])
+            existing_ids = set(existing.get("ids", []))
+        except Exception:
+            continue
+        orphans = existing_ids - new_ids
+        if orphans:
+            try:
+                collection.delete(ids=list(orphans))
+                total_orphans += len(orphans)
+                print(f"    {fname}: {len(orphans)} orphan-chunk(s) verwijderd "
+                      f"(structuur gewijzigd t.o.v. vorige indexering)")
+            except Exception as e:
+                print(f"    {fname}: WARN orphan-delete faalde: {e}")
+    return total_orphans
+
+
 def _batch_upsert(collection, ids, texts, metadatas, batch_size: int = 200):
     """
     Embed en upsert chunks — sla chunks over waarvan de tekst niet veranderd is
     (chunk_sha-vergelijking, ADR-004).
 
     Algoritme:
+      0. Per bron (bestand) orphan-sweep: chunks die in een vorige run bestonden
+         maar nu niet meer gegenereerd worden, worden verwijderd
       1. Bereken SHA voor elke chunk-tekst
       2. Haal bestaande SHA's op uit ChromaDB (één batch-get)
       3. Filter: alleen nieuwe of gewijzigde chunks doorsturen naar het embedding-model
@@ -817,6 +876,8 @@ def _batch_upsert(collection, ids, texts, metadatas, batch_size: int = 200):
     n = len(ids)
     if n == 0:
         return
+
+    _sweep_orphans_per_bron(collection, ids, metadatas)
 
     shas = [_chunk_sha(t) for t in texts]
     existing = _fetch_existing_shas(collection, ids)
@@ -1088,7 +1149,13 @@ def index_adviezen(
 
         breadcrumb = f"[CBN-advies {nummer} — {onderwerp}]" if onderwerp else f"[CBN-advies {nummer}]"
 
-        if len(content) <= 40_000 or not re.search(r"^#{2,4} ", content, re.MULTILINE):
+        # ADR-006 §4: prefereer heading-driven chunking als de bron `##`-secties heeft,
+        # ongeacht totale lengte. Alleen bronnen zonder ##-structuur worden als
+        # één-blok-+-paragraph-cut behandeld. Vorige logica (`or` i.p.v. `and`) zorgde
+        # ervoor dat 40% van advies-chunks paragraph-cuts werden, ook waar logische
+        # heading-grenzen beschikbaar waren.
+        has_headings = bool(re.search(r"^#{2,4} ", content, re.MULTILINE))
+        if not has_headings:
             full_text = f"{breadcrumb}\n\n{content}"
             base_chunk = {
                 "id": f"{source_id}__volledig",
