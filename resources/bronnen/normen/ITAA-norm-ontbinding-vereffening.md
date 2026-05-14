@@ -27,55 +27,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 66b51a5-dirty
+    pipeline_version: 65c3c97f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T00:08:09Z'
+  generated_at: '2026-05-14T19:45:03Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:27:03Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Laag-1 warn: 23 TOC-stippelregels. Twee systematische extractie-defecten: (1) page-footers 'Goedgekeurd HREB (02-03-2026)- ter goedkeuring van de minister voorgelegd X/47' zijn herhaaldelijk als ## headings gepromoveerd (15+ keer), wat de heading-hiërarchie ernstig vervuilt; (2) column-header 'VEREISTEN TOEPASSINGSMODALITEITEN' eveneens herhaaldelijk als ## heading (16x). Daarnaast worden body-paragrafen zoals '## 11. Alvorens deze opdracht...' en '## 19. Om te kunnen overgaan...' als heading gepromoveerd terwijl ze mid-sentence afkappen. De echte sectiestructuur (I, I.1, I.2, II, III, IV, IV.1, IV.2) is grotendeels aanwezig maar doorkruist door de spurious headings."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260513-000913
-      run_at: '2026-05-13T00:09:13Z'
-      heading_count: 62
-      max_section_chars: 5416
-      file_size_chars: 62953
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:27:03Z'
-      rationale: "Laag-1 warn: 23 TOC-stippelregels. Twee systematische extractie-defecten: (1) page-footers 'Goedgekeurd HREB (02-03-2026)- ter goedkeuring van de minister voorgelegd X/47' zijn herhaaldelijk als ## headings gepromoveerd (15+ keer), wat de heading-hiërarchie ernstig vervuilt; (2) column-header 'VEREISTEN TOEPASSINGSMODALITEITEN' eveneens herhaaldelijk als ## heading (16x). Daarnaast worden body-paragrafen zoals '## 11. Alvorens deze opdracht...' en '## 19. Om te kunnen overgaan...' als heading gepromoveerd terwijl ze mid-sentence afkappen. De echte sectiestructuur (I, I.1, I.2, II, III, IV, IV.1, IV.2) is grotendeels aanwezig maar doorkruist door de spurious headings."
-      concrete_problemen:
-        - regel: 82
-          categorie: A1
-          type: form-feed
-          voorbeeld: "'## Goedgekeurd HREB (02-03-2026)- ter goedkeuring van de minister voorgelegd 1/47' — page-footer als ## heading (15+ herhalingen)"
-        - regel: 144
-          categorie: A8
-          type: column-bleed
-          voorbeeld: "'## VEREISTEN TOEPASSINGSMODALITEITEN' als heading (16x herhaald in document)"
-        - regel: 281
-          categorie: B1
-          type: abrupt-cutoff
-          voorbeeld: "'## 11. Alvorens deze opdracht te aanvaarden en in het kader van de' — paragraaf als heading, kapt af mid-zin"
-        - regel: 349
-          categorie: B1
-          type: abrupt-cutoff
-          voorbeeld: "'## 19. Om te kunnen overgaan tot het verzoeken om inlichtingen en om zijn' — idem"
-        - regel: 199
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: "'Toepassingsgebied ..............................................................................................................................  4'"
-        - regel: 79
-          categorie: B5
-          type: other
-          voorbeeld: "'## Norm inzake de opdracht van de \\nberoepsbeoefenaar bij de ontbinding en\\n\\nvereffening van vennootschappen' — norm-titel als ## met spurious line-breaks"
 ---
 Ontwerp
 
@@ -165,7 +130,6 @@ Bijlage 3 - Model van verslag van de commissaris / bedrijfsrevisor / gecertifice
 
 ## Toepassingsgebied
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 1. Onderhavige norm is van toepassing op de opdracht die door de
 
@@ -181,7 +145,6 @@ bepaald in artikel 2:100 van het Wetboek van vennootschappen en verenigingen (sl
 
 ## Datum van inwerkingtreding en opheffingsbepaling
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 3. Deze norm treedt in werking een maand na de datum van publicatie in
 
@@ -191,7 +154,6 @@ het Belgisch Staatsblad van het bericht tot goedkeuring door de minister die bev
 
 ## Definities
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 5. Voor de toepassing van onderhavige norm wordt verstaan onder:
 
@@ -236,7 +198,6 @@ identificeren en inschatten door inzicht te verwerven in de entiteit en haar omg
 
 ## Doelstellingen
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 6. Deze norm heeft tot doel de bijzondere aspecten met betrekking tot de controleopdracht van de beroepsbeoefenaar te behandelen, met name:
 
@@ -257,7 +218,6 @@ Dat oordeel op duidelijke wijze tot uiting brengen door middel van een verslag w
 
 ## I. Algemene bepalingen I.1. Deontologische beginselen
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 7. De bedrijfsrevisor dient de deontologische beginselen na te leven zoals vastgesteld door de wet van 7 december 2016.
 
@@ -302,7 +262,6 @@ De op elke beroepsgroep van toepassing zijnde wettelijke en regelgevende bepalin
 
 ## I.2. Aard van de opdracht
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 15. In het kader van artikel 2:71, §2, derde lid van het WVV, bestaat de opdracht van de beroepsbeoefenaar erin:
 
@@ -340,7 +299,6 @@ accountant en wordt uitgevoerd bij een vennootschap die valt onder de definitie 
 
 ## I.3. Opdrachtbrief
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 20. Voorafgaand aan de uitvoering van de opdracht dient de beroepsbeoefenaar van het bestuursorgaan een opdrachtbrief te verkrijgen (par. 8, A3-A4 en A10-A11).
 
@@ -357,7 +315,6 @@ verschaffen tot alle informatie en personen die voor de uitvoering van de opdrac
 
 ## I.4. Termijnen in acht te nemen bij de uitvoering van de opdracht
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 21. Bij een ontbinding of een onmiddellijke sluiting van de vereffening van een
 
@@ -373,7 +330,6 @@ melding, in voorkomend geval, van de wijze waarop zijn werkzaamheden daardoor zi
 
 ## I.5. Documentatie
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 22. Bij de uitvoering van zijn opdracht dient de beroepsbeoefenaar van het bestuursorgaan de nodige gegevens te verkrijgen en te documenteren, die kunnen dienen om de werkzaamheden die hij heeft verricht te onderbouwen (par. A12).
 
@@ -395,7 +351,6 @@ bevestigingen van de schuldeisers dat zij instemmen met de toepassing van artike
 
 ## II. Uit te voeren werkzaamheden II.1. Bepalingen die gemeen zijn aan alle door deze norm beoogde verrichtingen
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 24. De beroepsbeoefenaar voert zijn opdracht uit volgens een gepast controleprogramma (par. A14).
 
@@ -441,7 +396,6 @@ passiva, met inbegrip van de daarmee verband houdende toelichtingen (par. A25-A2
 
 ## II.2. Staat van activa en passiva opgesteld in continuïteit
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 32. Wanneer, in uitzondering op artikel 3:6, § 2 van het KB/WVV, de staat van activa en passiva wordt opgesteld in continuïteit, dient de beroepsbeoefenaar:
 
@@ -450,7 +404,6 @@ verslag van het bestuursorgaan dat het voorstel tot ontbinding toelicht is genom
 - deze aangelegenheid met het bestuursorgaan te bespreken, alsmede bij het bestuursorgaan inlichtingen in te winnen over de vraag of er gebeurtenissen of omstandigheden bestaan die,
 afzonderlijk of collectief, significante twijfel kunnen doen ontstaan over de mogelijkheid van de vennootschap om de continuïteitsveronderstelling te hanteren (par. A32).
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 33. In het kader van de procedure bedoeld in artikel 2:80 WVV, controleert de beroepsbeoefenaar de betaling of consignatie van de schulden die voorkomen op de staat van activa en passiva (par. A33).
 
@@ -461,7 +414,6 @@ schriftelijk hebben bevestigd in te stemmen met de toepassing van de procedure v
 
 II.4. Specifieke bepalingen betreffende de commissaris opdracht (controle van de jaarrekening en sluiting van de vereffening)
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 34. Overeenkomstig artikel 2:70, in fine WVV, heeft de ontbinding de afsluiting van het boekjaar tot gevolg. Wanneer een commissaris is benoemd,
 controleert hij de door het bestuursorgaan opgestelde jaarrekening over
@@ -481,7 +433,6 @@ gecontroleerd en vermeldt in zijn oordeel of het cijfermatig verslag over de ver
 
 ## III. Schriftelijke bevestigingen
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 39. De beroepsbeoefenaar dient de nodige schriftelijke bevestigingen van het bestuursorgaan te verkrijgen.
 
@@ -510,7 +461,6 @@ Het bestuursorgaan geen enkele van de gevraagde bevestigingen heeft verschaft.
 
 ## IV. Oordeel en verslag IV.1. Het vormen van het oordeel
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 43. De beroepsbeoefenaar dient naar aanleiding van zijn werkzaamheden een inbegrip van de daarmee verband houdende toelichtingen,  in alle van
 materieel belang zijnde opzichten, een getrouw beeld van de toestand van
@@ -586,7 +536,6 @@ zowel van materieel belang zijn voor, als een diepgaande invloed hebben op het c
 
 ## IV.2. Verslag
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 57. De beroepsbeoefenaar dient een schriftelijk verslag op te stellen naar aanleiding van zijn werkzaamheden door gebruik te maken van het
 modelverslag gehecht aan onderhavige norm (bijlagen 3 en 4).

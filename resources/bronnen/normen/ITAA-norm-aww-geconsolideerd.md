@@ -28,55 +28,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 66b51a5-dirty
+    pipeline_version: 65c3c97f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T00:08:07Z'
+  generated_at: '2026-05-14T19:45:01Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:27:04Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Ernstige column-extractie-artefacten door het hele document: de tweekoloms PDF-layout is niet correct afgehandeld. De inhoudstafel (regels 108-166) staat als dotted-leader plain-text midden in de body. Definitie-items 1° t/m 20° zijn door kolom-extractie door elkaar geschud (bv. 1° staat op r186, dan 12° op r191, dan 2° op r196 — volgorde is 1°, 12°, 2°, 13°, 3°, 14°, ... i.p.v. sequentieel). Body-alinea's zijn gefragmenteerd over losse regels met witruimte (A6/A7). Secties 2-8 hebben geen ## headings — ze staan als plain-text sectietitel (B4/B5). Laag 1 bevestigt: 0 ## headings, max_section_chars = 43060, status = fail."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260513-000913
-      run_at: '2026-05-13T00:09:13Z'
-      heading_count: 6
-      max_section_chars: 11376
-      file_size_chars: 25083
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:27:04Z'
-      rationale: "Ernstige column-extractie-artefacten door het hele document: de tweekoloms PDF-layout is niet correct afgehandeld. De inhoudstafel (regels 108-166) staat als dotted-leader plain-text midden in de body. Definitie-items 1° t/m 20° zijn door kolom-extractie door elkaar geschud (bv. 1° staat op r186, dan 12° op r191, dan 2° op r196 — volgorde is 1°, 12°, 2°, 13°, 3°, 14°, ... i.p.v. sequentieel). Body-alinea's zijn gefragmenteerd over losse regels met witruimte (A6/A7). Secties 2-8 hebben geen ## headings — ze staan als plain-text sectietitel (B4/B5). Laag 1 bevestigt: 0 ## headings, max_section_chars = 43060, status = fail."
-      concrete_problemen:
-        - regel: 108
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: "Inhoudstafel: 'ALGEMENE BEPALINGEN ----------------------------------------------------------------------------------------------------------- 4'"
-        - regel: 191
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: 'Definitie-volgorde door kolom-extractie: 1° (r186) → 12° (r191) → 2° (r196) → 13° (r199) — niet sequentieel'
-        - regel: 375
-          categorie: B4
-          type: other
-          voorbeeld: "'2. Organisatie en interne controle' als plain-text zonder ## prefix (sectie-heading ontbreekt)"
-        - regel: 548
-          categorie: B4
-          type: other
-          voorbeeld: "'3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar' over 4 regels als plain-text"
-        - regel: 619
-          categorie: A6
-          type: other
-          voorbeeld: "Alinea gefragmenteerd: 'risicobeoordeling nog actueel is. Hij deelt zijn\\nbevindingen, en de desgevallend te verrichten\\nbijwerkingen\\nmee\\naan\\nhet\\nwettelijk\\nbestuursorgaan' — PDF-kolom-regelbreuk"
-        - regel: 1397
-          categorie: B5
-          type: other
-          voorbeeld: "'8. Toezicht en controle' als plain-text; zin eindigt abrupt: 'de toepassing van de Wet en de bepalingen van'"
 ---
 Geconsolideerde tekst door het Instituut van de Belastingadviseurs en de Accountants (ITAA) van de norm van het IAB en de richtlijn van het BIBF inzake de toepassing van de wet van 18 september 2017 tot
 
@@ -92,65 +57,6 @@ fusie tussen beide Instituten en de daaruit volgende oprichting van het ITAA op 
 om een nieuwe norm, maar een samensmelting van beide documenten als gevolg van de oprichting
 van het ITAA. Deze samensmelting ligt volledig in lijn met het optreden in rechten en plichten van de
 vroegere IAB en BIBF, als toezichthoudend orgaan inzake antiwitwas (overeenkomstig artikel 85,7° van de wet van 18 september 2017).
-
-## Inhoudstafel
-
-1.
-ALGEMENE BEPALINGEN ----------------------------------------------------------------------------------------------------------- 4
-
-DEFINITIES ------------------------------------------------------------------------------------------------------------------------------------ 4
-TOEPASSINGSGEBIED RATIONE PERSONAE --------------------------------------------------------------------------------------------------- 5
-
-2.
-ORGANISATIE EN INTERNE CONTROLE ----------------------------------------------------------------------------------------- 5
-
-ORGANISATIE VAN DE BEROEPSBEOEFENAAR WAT DE COMPLIANCEFUNCTIES BETREFT -------------------------------------------------- 5
-INTERNE PROCEDURES ------------------------------------------------------------------------------------------------------------------------ 7
-
-3.
-ALGEMENE RISICOBEOORDELING OP TE MAKEN DOOR DE BEROEPSBEOEFENAAR ------------------------------ 7
-
-EEN ALGEMENE RISICOBEOORDELING UITVOEREN ------------------------------------------------------------------------------------------ 7
-VASTSTELLEN VAN RISICOCATEGORIEËN ----------------------------------------------------------------------------------------------------- 8
-ACTUALISERING ------------------------------------------------------------------------------------------------------------------------------- 8
-
-4.
-
-CLIENTACCEPTATIEBELEID -------------------------------------------------------------------------------------------------------------------- 8
-IDENTIFICATIEVERPLICHTING EN VERIFICATIE VAN DE IDENTIFICATIEGEGEVENS ----------------------------------------------------------- 9
-DOORLOPENDE WAAKZAAMHEID ------------------------------------------------------------------------------------------------------------ 9
-VERHOOGDE WAAKZAAMHEID -------------------------------------------------------------------------------------------------------------- 10
-NAKOMING VAN DE WAAKZAAMHEIDSVERPLICHTINGEN DOOR DERDE ZAAKAANBRENGERS -------------------------------------------- 10
-PRESTATIES BINNEN EEN NETWERK --------------------------------------------------------------------------------------------------------- 10
-
-5.
-ONDERZOEK VAN DE VERRICHTINGEN ---------------------------------------------------------------------------------------- 11
-
-ONDERKENNEN VAN ATYPISCHE VERRICHTINGEN ------------------------------------------------------------------------------------------ 11
-ANALYSE VAN DE ATYPISCHE VERRICHTINGEN ---------------------------------------------------------------------------------------------- 11
-MELDING VAN VERMOEDENS --------------------------------------------------------------------------------------------------------------- 11
-
-6.
-DOCUMENTATIE EN BEWARING VAN DOCUMENTEN -------------------------------------------------------------------- 11
-
-7.
-BEPERKINGEN VAN HET GEBRUIK VAN CONTANTEN --------------------------------------------------------------------- 12
-
-8.
-TOEZICHT EN CONTROLE ---------------------------------------------------------------------------------------------------------- 12
-
-9.
-OVERGANGSBEPALINGEN (NIET MEER VAN TOEPASSING) ------------------------------------------------------------- 12
-
-10.
-SLOTBEPALINGEN ---------------------------------------------------------------------------------------------------------------- 12
-
-BIJLAGEN -------------------------------------------------------------------------------------------------------------------------------------- 13
-
-BIJLAGE I: VARIABELEN TEN MINSTE IN OVERWEGING TE NEMEN IN DE INTEGRALE RISICOBEOORDELING ---------------------------- 13
-BIJLAGE II: DE INDICATIEVE FACTOREN VAN EEN POTENTIEEL LAGER RISICO ----------------------------------------------------------- 13
-BIJLAGE III: DE INDICATIEVE FACTOREN VAN EEN POTENTIEEL HOGER RISICO ---------------------------------------------------------- 14
-BIJLAGE IV: BESLISSINGSBOMEN TER ILLUSTRATIE --------------------------------------------------------------------------------------- 15
 
 ## 1. Algemene bepalingen
 

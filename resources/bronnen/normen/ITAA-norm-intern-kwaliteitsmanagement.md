@@ -24,55 +24,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 66b51a5-dirty
+    pipeline_version: 65c3c97f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T00:08:08Z'
+  generated_at: '2026-05-14T19:45:02Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:27:03Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie categorieën zware artefacten: A8 (tweetalige NL+FR headings door column-bleed: 'Aanvaarding van opdrachten Acceptation de missions', 'Fin des relations clients', 'Documentatie Documentation'), B1/B7 (heading kapt mid-woord af: '## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' zonder 'KANTOORNIVEAU'), en D1 (zin L80 is broken: 'dient cliëntenbestand en evenredig...' — mist de tussenliggende zin). Bovendien staat 'KANTOORNIVEAU' als plain-text-vervolg van de gebroken heading en bevat '## Fin des relations clients' een heading zonder NL-tegenhanger die losse FR-body-content bevat ('demande.') zonder context."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260513-000913
-      run_at: '2026-05-13T00:09:13Z'
-      heading_count: 8
-      max_section_chars: 3781
-      file_size_chars: 13164
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:27:03Z'
-      rationale: "Drie categorieën zware artefacten: A8 (tweetalige NL+FR headings door column-bleed: 'Aanvaarding van opdrachten Acceptation de missions', 'Fin des relations clients', 'Documentatie Documentation'), B1/B7 (heading kapt mid-woord af: '## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' zonder 'KANTOORNIVEAU'), en D1 (zin L80 is broken: 'dient cliëntenbestand en evenredig...' — mist de tussenliggende zin). Bovendien staat 'KANTOORNIVEAU' als plain-text-vervolg van de gebroken heading en bevat '## Fin des relations clients' een heading zonder NL-tegenhanger die losse FR-body-content bevat ('demande.') zonder context."
-      concrete_problemen:
-        - regel: 172
-          categorie: B1
-          type: abrupt-cutoff
-          voorbeeld: "'## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' — heading kapt af; vervolg 'CABINET Doelstelling' op r174 als plain text"
-        - regel: 260
-          categorie: A8
-          type: column-bleed
-          voorbeeld: "'## Aanvaarding van opdrachten Acceptation de missions' — NL+FR samengeplakt"
-        - regel: 284
-          categorie: A8
-          type: column-bleed
-          voorbeeld: "'## Fin des relations clients' — losse FR-sectie-heading zonder NL-equivalent"
-        - regel: 323
-          categorie: A8
-          type: column-bleed
-          voorbeeld: "'## Documentatie Documentation' — bilingual heading"
-        - regel: 80
-          categorie: D1
-          type: abrupt-cutoff
-          voorbeeld: "'dient cliëntenbestand en evenredig met de complexiteit...' — mist 'organiseren in functie van de aard en de omvang van het'"
-        - regel: 71
-          categorie: B4
-          type: other
-          voorbeeld: "'Inleiding RAAD VAN HET INSTITUUT VAN DE BELASTINGADVISEURS EN DE ACCOUNTANTS,' als plain-text-regel — had heading moeten zijn"
 ---
 ## NORM ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT
 
@@ -232,7 +197,7 @@ mate van zekerheid geeft dat de beroepsbeoefenaars aan wie activiteiten of opdra
 (i) over de nodige beroepsbekwaamheid beschikken;
 (ii) op regelmatige basis en op continue wijze een permanente vorming voortzetten om hun beroepskennis en -bekwaamheid en hun beroepsethiek op voldoende peil te houden, in overeenstemming met de Wet en met de Norm Permanente Vorming.
 
-## Aanvaarding van opdrachten Acceptation de missions
+## Aanvaarding van opdrachten
 
 11. Het kantoor richt zijn kwaliteitsmanagementsysteem zo in dat dit een redelijke mate van zekerheid geeft dat:
 
@@ -247,7 +212,6 @@ Beëindigen van cliëntenrelaties
 mate van zekerheid geeft dat alle boeken, documenten en elektronische of andere
 gegevens die toebehoren aan de cliënt onverwijld uit handen worden gegeven, wanneer deze erom verzoekt.
 
-## Fin des relations clients
 
 demande.
 Verzekering burgerlijke beroepsaansprakelijkheid
@@ -275,7 +239,7 @@ Proces van monitoren en remediëren
 (a) relevante, betrouwbare en tijdige informatie te verstrekken over de opzet, implementatie en werking van het kwaliteitsmanagementsysteem;
 (b) passende maatregelen te nemen om te reageren op geïdentificeerde tekortkomingen, zodat tekortkomingen tijdig worden geremedieerd en
 
-## Documentatie Documentation
+## Documentatie
 
 16.
 Het kantoor dient documentatie op te stellen over zijn kwaliteitsmanagementsysteem die voldoende is:

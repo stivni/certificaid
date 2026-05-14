@@ -25,47 +25,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 66b51a5-dirty
+    pipeline_version: 65c3c97f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T00:08:09Z'
+  generated_at: '2026-05-14T19:45:03Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:27:03Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Laag-1 warn: 21 TOC-stippelregels. Drie structurele problemen: (1) column-header 'VEREISTEN TOEPASSINGSMODALITEITEN' is 16x als ## heading geëxtraheerd, verspreid door het hele document, waardoor de heading-boomstructuur ernstig vervuild is; (2) TOC-regel met dot-leader '## Communicatie met het management en de met governance belaste personen . 34 Het' is als ## heading overgenomen inclusief paginanummer en eerste woord van de volgende regel (B7/A2); (3) een zin breekt af mid-woord: '...naar aanleiding van \\n IBA.' waarna de zin eindigt zonder logische conclusie (A6). De inhoudelijke structuur (Toepassingsgebied, Definities, Doelstellingen, Vereisten) is grotendeels aanwezig maar doorkruist door de spurious column-headers."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260513-000913
-      run_at: '2026-05-13T00:09:13Z'
-      heading_count: 43
-      max_section_chars: 5513
-      file_size_chars: 46222
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:27:03Z'
-      rationale: "Laag-1 warn: 21 TOC-stippelregels. Drie structurele problemen: (1) column-header 'VEREISTEN TOEPASSINGSMODALITEITEN' is 16x als ## heading geëxtraheerd, verspreid door het hele document, waardoor de heading-boomstructuur ernstig vervuild is; (2) TOC-regel met dot-leader '## Communicatie met het management en de met governance belaste personen . 34 Het' is als ## heading overgenomen inclusief paginanummer en eerste woord van de volgende regel (B7/A2); (3) een zin breekt af mid-woord: '...naar aanleiding van \\n IBA.' waarna de zin eindigt zonder logische conclusie (A6). De inhoudelijke structuur (Toepassingsgebied, Definities, Doelstellingen, Vereisten) is grotendeels aanwezig maar doorkruist door de spurious column-headers."
-      concrete_problemen:
-        - regel: 238
-          categorie: B7
-          type: dotted-leader
-          voorbeeld: "'## Communicatie met het management en de met governance belaste personen . 34 Het' — TOC-regel met paginanummer als ## heading"
-        - regel: 180
-          categorie: A8
-          type: column-bleed
-          voorbeeld: "'## VEREISTEN TOEPASSINGSMODALITEITEN' als heading (16x herhaald), soms met '(Zie Par. 22)' suffix"
-        - regel: 148
-          categorie: A6
-          type: other
-          voorbeeld: "'Deze norm wordt van toepassing gemaakt voor de verslagen uitgebracht naar aanleiding van \\n IBA.' — zin breekt af na 'aanleiding van', vervolgt met 'IBA.' op volgende regel"
-        - regel: 209
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: "'Inleiding ............................................................................................................................................................... 6' in INHOUDSTAFEL-blok in body"
 ---
 ## Norm inzake de Samenstellingsopdrachten
 
@@ -163,8 +136,6 @@ Deze norm treedt in werking op 3 oktober 2025.
 
 ## Communicatie met het management en de met governance belaste personen . 34 Het
 
-Model 3: Samenstellingsverslag bij een liquiditeitsprognose/begroting/cashflow projectie ... 49
-
 (volgens Overeenkomst van 12 maart 2019 tussen IBR en IFAC)
 
 Deze Internationale standaard inzake aanverwante diensten (ISRS) werd in 2018 in de Engelse taal
@@ -186,7 +157,6 @@ Related Services Pronouncements, 2018 Edition - ISBN number: 978-1-60815-389-3.
 
 ## Toepassing van ISRS 4410 (herzien) Samenstellingsopdrachten in België
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 1. Deze norm beoogt de International Standards on Related Services 4410 (ISRS
 4410 (herzien)) van toepassing te maken in België in de vertaling naar het
@@ -195,7 +165,6 @@ aanpassingen aan de Belgische specificiteiten (hierna “deze norm”).
 
 ## Toepassingsgebied van deze norm
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 2. Deze norm behandelt de verantwoordelijkheden van de beroepsbeoefenaar –
 niet stagiair wanneer deze de opdracht heeft gekregen om het management bij te
@@ -238,7 +207,6 @@ respectieve normen die van toepassing zijn binnen elk instituut en die zijn goed
 
 ## De samenstellingsopdracht
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 6. Het management kan een beroepsbeoefenaar – niet stagiair werkzaam in een
 kantoor verzoeken om hem bij te staan bij het opstellen en weergeven van
@@ -294,7 +262,6 @@ financiële informatie op te stellen en weer te geven, zal afhankelijk zijn van 
 
 ## Autoriteit van deze norm
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 12. Deze norm bevat de doelstellingen van de beroepsbeoefenaar – niet stagiair
 deze norm zijn vastgesteld en zijn erop gericht de beroepsbeoefenaar – niet
@@ -313,14 +280,12 @@ behandeld, die een hulpmiddel vormt bij het toepassen van de vereisten.
 
 ## Ingangsdatum
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 16. Deze norm is van toepassing op verslagen over samenstellingsopdrachten die
 gedateerd zijn vanaf drie maanden na de inwerkingtreding van deze norm.
 
 ## Doelstellingen
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 17. De doelstellingen van de beroepsbeoefenaar – niet stagiair bij een samenstellingsopdracht onder deze norm zijn om:
 
@@ -332,7 +297,6 @@ basis van informatie die door het management wordt verschaft; en
 
 (b) in overeenstemming met de vereisten van deze norm te rapporteren.
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 18. De verklarende woordenlijst3 bevat de termen die in deze norm worden
 gedefinieerd en bevat ook beschrijvingen van andere in deze norm voorkomende termen ter bevordering van een consistente interpretatie.
@@ -423,7 +387,6 @@ verslaggeving, maar kan ook verwijzen naar één enkel financieel overzicht of e
 
 ## Het uitvoeren van een samenstellingsopdracht
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 19. De beroepsbeoefenaar – niet stagiair dient inzicht te hebben in de gehele tekst
 van deze norm, met inbegrip van de toepassingsgerichte en overige verklarende passen.
@@ -438,21 +401,18 @@ vermelden tenzij hij alle vereisten van deze norm heeft nageleefd die voor de sa
 
 ## Ethische voorschriften
 
-## VEREISTEN TOEPASSINGSMODALITEITEN (Zie Par. 22)
 
 22. De beroepsbeoefenaar – niet stagiair dient alle op hem van toepassing zijnde
 relevante ethische voorschriften na te leven. (Zie Par. A13–A20)
 
 ## Professionele oordeelsvorming
 
-## VEREISTEN TOEPASSINGSMODALITEITEN (Zie Par. 23, 25(e)(iii))
 
 23. De beroepsbeoefenaar – niet stagiair dient professionele oordeelsvorming toe
 te passen bij het uitvoeren van een samenstellingsopdracht. (Zie Par. A21–A23)
 
 ## Kwaliteitsmanagement op het niveau van de opdracht
 
-## VEREISTEN TOEPASSINGSMODALITEITEN (Zie Par. 24)
 
 24. De opdrachtpartner dient verantwoordelijkheid te nemen voor:
 
@@ -476,7 +436,6 @@ professionele standaarden en de van toepassing zijnde door wet- en regelgeving g
 
 ## Aanvaarding en continuering van de opdracht
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 Continuering van cliëntrelaties, opdrachtaanvaarding en het overeenkomen van de opdrachtvoorwaarden
 25. De beroepsbeoefenaar – niet stagiair dient de opdracht niet te aanvaarden
@@ -518,7 +477,6 @@ herinneren aan de bestaande opdrachtvoorwaarden. (Zie Par. A27)
 
 ## Communicatie met het management en de met governance belaste personen
 
-## VEREISTEN TOEPASSINGSMODALITEITEN (Zie Par. 28)
 
 28. De beroepsbeoefenaar – niet stagiair dient met het management of, in voorkomend geval, de met governance belaste personen tijdens de samenstellingsopdracht tijdig aangelegenheden betreffende de samenstellingsopdracht te communiceren. Dit betreft de aangelegenheden die, op
 grond van professionele oordeelsvorming van de beroepsbeoefenaar – niet
@@ -528,7 +486,6 @@ A40–A41)
 
 ## Het uitvoeren van de opdracht
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 Inzicht van de beroepsbeoefenaar – niet stagiair Inzicht van de beroepsbeoefenaar – niet stagiair (Zie Par. 29)
 29. De beroepsbeoefenaar – niet stagiair dient voldoende inzicht in de volgende
@@ -606,7 +563,6 @@ voorkomend geval, de met governance belaste personen een bevestiging te versie v
 
 ## Documentatie
 
-## VEREISTEN TOEPASSINGSMODALITEITEN (Zie Par. 39)
 
 39. De  beroepsbeoefenaar  –  niet  stagiair  dient  het  volgende  in de opdrachtdocumentatie op te nemen: (Zie Par. A53–A55)
 
@@ -619,7 +575,6 @@ en het verslag van de beroepsbeoefenaar – niet stagiair. (Zie Par. A72)
 
 ## Het verslag van de beroepsbeoefenaar - niet-stagiair
 
-## VEREISTEN TOEPASSINGSMODALITEITEN (Zie Par. 41)
 
 40. Een belangrijk doel van het verslag van de beroepsbeoefenaar – niet stagiair is
 en de verantwoordelijkheden van de beroepsbeoefenaar – niet stagiair tijdens de

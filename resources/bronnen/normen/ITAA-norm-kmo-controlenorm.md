@@ -27,43 +27,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 66b51a5-dirty
+    pipeline_version: 65c3c97f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T00:08:08Z'
+  generated_at: '2026-05-14T19:45:02Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:26:25Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'A6: goedkeuringsblok (regels 59–79) is één doorlopende tekst zonder alinea-scheiding. Laag 1 meldt max_section_chars=43684 wat de RAG-chunker dwingt op alinea-grenzen te splitsen. Inhoud groot (74 headings, 145915 chars) maar structureel intact. Dubbele # heading op regel 55 en 57 (twee # H1s). Tekst in goedkeuringsblok is aaneengesloten op lange regels zonder puntkomma-grenzen.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
-      status: warn
-      run_id: 20260513-000913
-      run_at: '2026-05-13T00:09:13Z'
-      heading_count: 74
-      max_section_chars: 43682
-      file_size_chars: 145910
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 43682 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:26:25Z'
-      rationale: 'A6: goedkeuringsblok (regels 59–79) is één doorlopende tekst zonder alinea-scheiding. Laag 1 meldt max_section_chars=43684 wat de RAG-chunker dwingt op alinea-grenzen te splitsen. Inhoud groot (74 headings, 145915 chars) maar structureel intact. Dubbele # heading op regel 55 en 57 (twee # H1s). Tekst in goedkeuringsblok is aaneengesloten op lange regels zonder puntkomma-grenzen.'
-      concrete_problemen:
-        - regel: 55
-          categorie: B3
-          type: other
-          voorbeeld: '# KMO controle norm\n# Norm met betrekking... (dubbele H1)'
-        - regel: 59
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: DE RAAD VAN HET INSTITUUT... Gezien... Gelet op... Gezien... (aaneengesloten)
 ---
 # KMO controle norm
 
@@ -935,7 +912,6 @@ Accountant / Bedrijfsrevisor
 13 Het gaat over financiële overzichten of over de jaarrekening in functie van de opdracht: indien nodig in het verslag aan te passen door duidelijk het financieel overzicht dat werd of de financiële overzichten die werden gecontroleerd aan te geven.
 
 # BIJLAGE 4 : Voorbeeldverslag (beoordeling)
-VERSLAG [VAN DE ACCOUNTANT of DE BEDRIJFSREVISOR] AAN HET BESTUURSORGAAN VAN (NAAM VAN DE KMO OF KLEINE VZW) OP DE CONTRACTUELE14 BEOORDELING VAN FINANCIËLE OVERZICHTEN15 VAN DE VENNOOTSCHAP  ___    VAN HET BOEKJAAR AFGESLOTEN OP       _____            20
 
 Overeenkomstig onze opdracht zoals hierna omschreven en die werd bevestigd door de opdrachtbrief van ___    /___    /___________ [gehecht aan dit verslag], hebben wij de beoordeling van de financiële overzichten van de vennootschap                                                                                                           uitgevoerd, voor de periode afgesloten op                                 20 , opgesteld in overeenstemming met het in België van toepassing zijnde stelsel inzake financiële verslaggeving, met een balanstotaal van €                                            en waarvan de resultatenrekening zich afsluit met een winst (verlies) van €                          over het boekjaar van. Onze opdracht bestaat uit  _____________________     . De beoogde gebruiker is_______________ .
 Het bestuursorgaan is verantwoordelijk voor het opstellen en de getrouwe weergave van deze financiële overzichten in overeenstemming met het in België van toepassing zijnde stelsel inzake financiële verslaggeving. Onze verantwoordelijkheid bestaat erin een conclusie over de financiële overzichten te formuleren op basis van de door ons uitgevoerde beoordeling.

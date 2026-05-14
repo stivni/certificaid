@@ -46,6 +46,33 @@ class TestStripStandaloneVereistenToepassingsmodaliteiten:
         assert "tekst 1" in result
         assert "tekst 2" in result
 
+    def test_standalone_met_trailing_zie_par_referentie(self):
+        """REGRESSIE: ISA/ISRS-normen hebben vaak trailing `(Zie Par. N)`-referentie
+        achter de gemergde kolomtitel. Die referentie hoort bij de marker, niet bij body.
+        Voorbeeld uit ITAA-norm-samenstellingsopdrachten-isrs4410:
+            `## VEREISTEN TOEPASSINGSMODALITEITEN (Zie Par. 22)`
+        """
+        from tools.etl.transformers.strip_norm_column_bleed import strip_norm_column_bleed
+        body = (
+            "## VEREISTEN TOEPASSINGSMODALITEITEN (Zie Par. 22)\n"
+            "echte body 1\n"
+            "## VEREISTEN TOEPASSINGSMODALITEITEN (Zie Par. 23, 25(e)(iii))\n"
+            "echte body 2\n"
+        )
+        result, _ = strip_norm_column_bleed(body, {})
+        assert "VEREISTEN TOEPASSINGSMODALITEITEN" not in result
+        assert "(Zie Par." not in result
+        assert "echte body 1" in result
+        assert "echte body 2" in result
+
+    def test_legitieme_heading_met_zie_par_blijft_behouden(self):
+        """NEGATIVE: een echte heading met `(Zie Par. X)` maar zonder bleed-marker
+        moet ongemoeid blijven."""
+        from tools.etl.transformers.strip_norm_column_bleed import strip_norm_column_bleed
+        body = "## Documentatie (Zie Par. 22)\n"
+        result, _ = strip_norm_column_bleed(body, {})
+        assert "## Documentatie (Zie Par. 22)" in result
+
 
 class TestStripCompoundVereistenToepassingsmodaliteiten:
     """Pattern 2: ``## <heading> VEREISTEN TOEPASSINGSMODALITEITEN`` → trailing strippen."""

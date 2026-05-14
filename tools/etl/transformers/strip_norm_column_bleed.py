@@ -39,8 +39,13 @@ import re
 _BLEED_MARKER = r"VEREISTEN\s+TOEPASSINGSMODALITEITEN"
 
 # Standalone gemergde kolomtitel-heading (alleen de twee woorden).
+# Optioneel met trailing parenthetical-referentie zoals ``(Zie Par. 22)`` of
+# ``(Zie Par. 23, 25(e)(iii))`` (zoals voorkomt in ISA/ISRS-normen). De
+# trailing-suffix is geen body-content maar deel van de kolom-marker. Match
+# greedy tot einde regel zodat geneste parens (bv. ``25(e)(iii)``) meegaan.
 _STANDALONE_BLEED_HEADING_RE = re.compile(
-    rf"^#{{1,6}}\s+{_BLEED_MARKER}\s*$"
+    rf"^#{{1,6}}\s+{_BLEED_MARKER}(?:\s+\(\s*(?:Zie|Ref\.?)\b.*)?\s*$",
+    re.IGNORECASE,
 )
 
 # Compound heading: ## <iets> VEREISTEN TOEPASSINGSMODALITEITEN

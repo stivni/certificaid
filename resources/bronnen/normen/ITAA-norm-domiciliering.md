@@ -25,43 +25,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 66b51a5-dirty
+    pipeline_version: 65c3c97f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T00:08:07Z'
+  generated_at: '2026-05-14T19:45:02Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:26:25Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "G3: Inline voetnoten op regels 162–169: '2', '© ITAA...', '3', '© ITAA...' zijn pagina-header/footer en voetnoot-content van de bron-PDF die midden in de body-tekst terecht zijn gekomen. Concrete nummers (2, 3, 4) plus copyright-footer door de body. Dit is een ETL-artefact (pagina-overgang niet gefilterd)."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260513-000913
-      run_at: '2026-05-13T00:09:13Z'
-      heading_count: 4
-      max_section_chars: 6607
-      file_size_chars: 11825
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:26:25Z'
-      rationale: "G3: Inline voetnoten op regels 162–169: '2', '© ITAA...', '3', '© ITAA...' zijn pagina-header/footer en voetnoot-content van de bron-PDF die midden in de body-tekst terecht zijn gekomen. Concrete nummers (2, 3, 4) plus copyright-footer door de body. Dit is een ETL-artefact (pagina-overgang niet gefilterd)."
-      concrete_problemen:
-        - regel: 162
-          categorie: G3
-          type: other
-          voorbeeld: 2\n  Hieronder wordt verstaan... 3 Artikel 2,12°... 4 Artikel 2,3°...
-        - regel: 167
-          categorie: A1
-          type: form-feed
-          voorbeeld: 3\n© ITAA – Norm betreffende... (pagina-footer midden in body)
-        - regel: 219
-          categorie: A1
-          type: form-feed
-          voorbeeld: 5\n    Conform artikel III.16... (pagina-footer)
 ---
                ITAA
         INSTITUTE FOR TAX

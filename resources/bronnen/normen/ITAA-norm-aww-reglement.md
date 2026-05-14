@@ -28,43 +28,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 66b51a5-dirty
+    pipeline_version: 65c3c97f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T00:08:07Z'
+  generated_at: '2026-05-14T19:45:01Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:26:25Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A2/B6: Inhoudstafel op regel 127–128 is een onvolledig TOC-fragment ('Inhoudstafel' + enkel bijlage-verwijzing, geen paginanummers of dotted-leaders maar wel TOC-rest in de body). Sectietitels binnen §§ (bijv. 'Definities', 'Toepassingsgebied ratione personae', 'Interne procedures') staan als plain-text op regel 133/257/347 in plaats van als ##/###-headings. Inhoud inhoudelijk volledig."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260513-000913
-      run_at: '2026-05-13T00:09:13Z'
-      heading_count: 15
-      max_section_chars: 8119
-      file_size_chars: 40778
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:26:25Z'
-      rationale: "A2/B6: Inhoudstafel op regel 127–128 is een onvolledig TOC-fragment ('Inhoudstafel' + enkel bijlage-verwijzing, geen paginanummers of dotted-leaders maar wel TOC-rest in de body). Sectietitels binnen §§ (bijv. 'Definities', 'Toepassingsgebied ratione personae', 'Interne procedures') staan als plain-text op regel 133/257/347 in plaats van als ##/###-headings. Inhoud inhoudelijk volledig."
-      concrete_problemen:
-        - regel: 127
-          categorie: A3
-          type: other
-          voorbeeld: 'Inhoudstafel\n\nBIJLAGE I: Variabelen... (onvolledig TOC-fragment)'
-        - regel: 133
-          categorie: B5
-          type: other
-          voorbeeld: 'Definities (plain text, geen ## heading)'
-        - regel: 257
-          categorie: B5
-          type: other
-          voorbeeld: 'Toepassingsgebied ratione personae (plain text, geen ## heading)'
 ---
   Norm van het Instituut van de Accountants en de Belastingconsulenten d.d. 31
 maart 2020 inzake de toepassing van de wet van 18 september 2017 tot voorkoming

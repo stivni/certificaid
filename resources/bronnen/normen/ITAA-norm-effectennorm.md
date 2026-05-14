@@ -26,51 +26,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 66b51a5-dirty
+    pipeline_version: 65c3c97f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T00:08:08Z'
+  generated_at: '2026-05-14T19:45:02Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:27:04Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Ernstige tweekoloms-extractie-fout door het hele document. Het kernprobleem: vereisten (linkerkolom) en toepassingsmodaliteiten (rechterkolom) zijn niet geïntegreerd maar door elkaar gemengd — telkens wisselen paragrafen met nummers (5., 6., 7., ...) af met A-paragrafen (A3., A4., A5., ...) die op willekeurige plaatsen zijn ingevoegd. De inhoudstafel (regels 192-268) staat als dotted-leader plain-text body midden in het document. Titel (regels 75-83) is gesplitst over 7 alinea's met blanco regels (A7). Toepassingsgebied-paragraaf 1 (regels 271-315) toont ernstige kolom-bleed met A-paragrafen die de lopende tekst doorbreken. Laag 1 meldt 31 TOC-stippenregels."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260513-000913
-      run_at: '2026-05-13T00:09:13Z'
-      heading_count: 64
-      max_section_chars: 5808
-      file_size_chars: 69299
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:27:04Z'
-      rationale: "Ernstige tweekoloms-extractie-fout door het hele document. Het kernprobleem: vereisten (linkerkolom) en toepassingsmodaliteiten (rechterkolom) zijn niet geïntegreerd maar door elkaar gemengd — telkens wisselen paragrafen met nummers (5., 6., 7., ...) af met A-paragrafen (A3., A4., A5., ...) die op willekeurige plaatsen zijn ingevoegd. De inhoudstafel (regels 192-268) staat als dotted-leader plain-text body midden in het document. Titel (regels 75-83) is gesplitst over 7 alinea's met blanco regels (A7). Toepassingsgebied-paragraaf 1 (regels 271-315) toont ernstige kolom-bleed met A-paragrafen die de lopende tekst doorbreken. Laag 1 meldt 31 TOC-stippenregels."
-      concrete_problemen:
-        - regel: 75
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "Titelpagina gesplitst over 7 alinea's: 'Norm inzake de opdracht van de\\nberoepsbeoefenaar in het kader van de\\nbeoordeling van het getrouw en voldoende\\n\\nzijn van de financiële...'"
-        - regel: 192
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: "Inhoudstafel: 'Toepassingsgebied .............................................................................................................................. 6'"
-        - regel: 271
-          categorie: A8
-          type: column-bleed
-          voorbeeld: "§1 tekst onderbroken door A1-paragraaf: 'onderhavige norm is van toepassing op...' → 'A1. In het geval van een BV laat artikel 5:120...' → 'A. vennootschappen en verenigingen expliciet'"
-        - regel: 585
-          categorie: A6
-          type: other
-          voorbeeld: "Lopende tekst §7 onderbroken: '...na te leven die van toepassing is in het kader van zijn opdracht. (par. A3-A4)\\n\\nA3. De beroepsbeoefenaar handelt in volledige onafhankelijkheid...'"
-        - regel: 186
-          categorie: D1
-          type: other
-          voorbeeld: "Goedkeuringsparagraaf eindigt: '...gepubliceerd in het Belgisch Staatsblad van XXX, p. XXX.' — placeholder XXX-waarden"
 ---
 Norm inzake de opdracht van de beroepsbeoefenaar in het kader van de beoordeling van het getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens opgenomen in het verslag van het
 
@@ -156,7 +125,6 @@ Bijlage 3 – Voorbeeld van opdrachtbrief te verkrijgen door de bedrijfsrevisor/
 Bijlage 5 - Modelverslag van de commissaris / bedrijfsrevisor / gecertificeerd accountant art.
 ## Toepassingsgebied
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 1. Onderhavige norm is van toepassing op de opdracht van de beroepsbeoefenaar met betrekking tot:
 
@@ -170,7 +138,6 @@ Bijlage 5 - Modelverslag van de commissaris / bedrijfsrevisor / gecertificeerd a
 
 ## Datum van inwerkingtreding en wijzigingsbepaling
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 2. Deze norm treedt in werking een maand na de datum van publicatie in het
 
@@ -223,7 +190,6 @@ beroepsbeoefenaar in het kader van de beoordeling van het getrouw en
 voldoende zijn van de financiële en boekhoudkundige gegevens opgenomen
 in het verslag van het bestuursorgaan (Wetboek van vennootschappen en verenigingen).”
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 4. Voor de toepassing van deze norm heeft de volgende term de hieronder weergegeven betekenis:
 
@@ -286,7 +252,6 @@ de federale minister van Economie en waarvoor een bericht in het Belgisch Staats
 
 ## I. Doelstellingen
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 5. De doelstellingen van de beroepsbeoefenaar zijn:
 
@@ -295,7 +260,7 @@ opzichten getrouw en voldoende zijn om de algemene vergadering voor te en lidmaa
 
 (b) Om overeenkomstig onderhavige norm te rapporteren.
 
-## II. Algemene bepalingen die van toepassing zijn op alle verrichtingen II.1. Deontologische beginselen VEREISTEN TOEPASSINGSMODALITEITEN
+## II. Algemene bepalingen die van toepassing zijn op alle verrichtingen II.1. Deontologische beginselen
 
 6. De bedrijfsrevisor dient de deontologische beginselen na te leven zoals vastgesteld door de wet van 7 december 2016.
 
@@ -336,7 +301,7 @@ bepalingen regelen de opvolging tussen leden van eenzelfde Instituut.
 bestuursorgaan. (par. A9-A10) Indien de vastgestelde inbreuk verband houdt boekhoudkundige gegevens opgenomen in het verslag van het
 bestuursorgaan, dient de beroepsbeoefenaar dit te vermelden in zijn verslag.
 
-## II.2. Aard van de opdracht VEREISTEN TOEPASSINGSMODALITEITEN
+## II.2. Aard van de opdracht
 
 13. De opdracht van de beroepsbeoefenaar met betrekking tot het getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens in het kader
 van de door onderhavige norm beoogde verrichtingen is een opdracht met het oog op geïnformeerde toestemming (Informed consent).
@@ -372,7 +337,7 @@ In het geval van een gecombineerde transactie en mits deze ook op dezelfde
 algemene vergadering worden geagendeerd, kan de beroepsbeoefenaar ervoor opteren om de bedoelde verslagen te combineren in eenzelfde verslag.
 (zie ook par. 58) (par. A14-A15)
 
-## II.3. Opdrachtbrief VEREISTEN TOEPASSINGSMODALITEITEN
+## II.3. Opdrachtbrief
 
 17. De beroepsbeoefenaar dient van het bestuursorgaan, of een persoon die hiertoe gedelegeerd werd, een opdrachtbrief te verkrijgen. (par. 7, A3-A4 en A16-A17)
 
@@ -388,7 +353,7 @@ een verwijzing naar de verplichting om toegang te verschaffen tot alle
 informatie en personen die voor de uitvoering van de opdracht relevante is/zijn;
 -
 
-## II.4. Documentatie VEREISTEN TOEPASSINGSMODALITEITEN
+## II.4. Documentatie
 
 18. Bij de uitvoering van zijn opdracht dient de beroepsbeoefenaar alle stukken en gegevens samen te brengen, die kunnen dienen om de verificaties die hij heeft verricht te onderbouwen.
 
@@ -398,7 +363,7 @@ vermogensrechten als op de lidmaatschapsrechten, zodanig dat elk verwacht
 
 III. Uit te voeren werkzaamheden teneinde de verslagen omtrent de beoogde verrichtingen op te stellen
 
-## III.1. Van toepassing op alle beoogde verrichtingen VEREISTEN TOEPASSINGSMODALITEITEN
+## III.1. Van toepassing op alle beoogde verrichtingen
 
 20. De beroepsbeoefenaar dient om de opdracht met het oog op geïnformeerde toestemming (“informed consent”) (zie par. 5) uit te voeren, te beoordelen, in alle van materieel belang zijnde opzichten, of de financiële en
 boekhoudkundige gegevens in het verslag van het bestuursorgaan:
@@ -409,7 +374,7 @@ boekhoudkundige gegevens in het verslag van het bestuursorgaan:
 
 verrichting op de vermogens- en lidmaatschapsrechten van de aandeelhouders. (par. A18-A19)
 
-## III.1.1. Financiële en boekhoudkundige gegevens VEREISTEN TOEPASSINGSMODALITEITEN
+## III.1.1. Financiële en boekhoudkundige gegevens
 
 21. Boekhoudkundige gegevens betreffen de cijfers die voortvloeien uit de boekhouding. Deze boekhoudkundige gegevens dienen te worden opgesteld
 overeenkomstig het van toepassing zijnde boekhoudkundig referentiestelsel.
@@ -417,7 +382,7 @@ overeenkomstig het van toepassing zijnde boekhoudkundig referentiestelsel.
 
 22. Financiële gegevens betreffen kwantificerende informatie die niet gegevens kunnen bestaan uit historische en/of toekomstgerichte financiële informatie. (par. A20-A21)
 
-## III.1.2. Toekomstgerichte financiële informatie VEREISTEN TOEPASSINGSMODALITEITEN
+## III.1.2. Toekomstgerichte financiële informatie
 
 23. In bepaalde gevallen kunnen de financiële gegevens ook toekomstgerichte financiële informatie bevatten.
 Een van de eigenschappen van toekomstgerichte financiële informatie is dat ze verwijzen naar acties en
@@ -430,7 +395,7 @@ is verantwoordelijk voor de veronderstellingen die moeten opgenomen worden in he
 
 (par. A22)
 
-## III.1.3. Uit te voeren werkzaamheden VEREISTEN TOEPASSINGSMODALITEITEN
+## III.1.3. Uit te voeren werkzaamheden
 
 24. Teneinde de getrouwheid van de financiële en boekhoudkundige gegevens te beoordelen dient de beroepsbeoefenaar na te gaan of deze zijn opgesteld in
 het kader van een boekhoudkundig referentiestelsel en overeenstemmen met,
@@ -447,7 +412,7 @@ gesteld van een redelijk geïnformeerde aandeelhouder opdat deze een beslissing 
 
 26. De beroepsbeoefenaar dient het voldoende zijn van de financiële en boekhoudkundige informatie verstrekt door het bestuursorgaan te beoordelen
 
-## III.1.3.1. Historische financiële en boekhoudkundige gegevens VEREISTEN TOEPASSINGSMODALITEITEN
+## III.1.3.1. Historische financiële en boekhoudkundige gegevens
 
 27. De beroepsbeoefenaar dient, rekening houdend met de specifieke omstandigheden van de entiteit, onder meer volgende werkzaamheden uit te voeren: (par. A27-A29)
 
@@ -483,7 +448,6 @@ van de informatie die hij heeft verkregen in het kader van zijn opdracht.
 
 ## III.1.3.2. Toekomstgerichte financiële informatie
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 29. Wanneer het verslag van het bestuursorgaan toekomstgerichte financiële informatie bevat, dient de beroepsbeoefenaar de veronderstellingen van het
 bestuursorgaan te onderzoeken op basis van hun best mogelijke
@@ -541,7 +505,7 @@ materieel belang zijn en die in hoge mate onzeker zijn, is het vereist dat deze 
 
 III.2. Specifieke bepalingen inzake de uitgifte van nieuwe aandelen en van converteerbare obligaties en inschrijvingsrechten
 
-## III.2.1. Uitgifte van nieuwe aandelen VEREISTEN TOEPASSINGSMODALITEITEN
+## III.2.1. Uitgifte van nieuwe aandelen
 
 35. Onverminderd paragraaf 19 van onderhavige norm, in geval van uitgifte van nieuwe aandelen (art. 5:121 en 7:179 WVV), dient de beroepsbeoefenaar van
 het bestuursorgaan het verslag over de verrichting te verkrijgen dat:
@@ -556,7 +520,6 @@ algemene vergadering die over het voorstel moet stemmen, voor te lichten (art. 5
 
 (Par. A37-A38)
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 36. In geval van wijziging van de rechten verbonden aan de soorten van aandelen
 
@@ -577,7 +540,7 @@ voorkomend geval, dient hij de paragrafen 99 tot en met 101 van de bijkomende no
 
 1 Het gaat hier over het recht tot voordracht van een kandidaat voor de benoeming als bestuurder.
 
-## III.2.3. Uitgifte van converteerbare obligaties en inschrijvingsrechten VEREISTEN TOEPASSINGSMODALITEITEN
+## III.2.3. Uitgifte van converteerbare obligaties en inschrijvingsrechten
 
 38. In geval van uitgifte van converteerbare obligaties en inschrijvingsrechten,
 
@@ -596,7 +559,7 @@ het bestuursorgaan opgenomen financiële en boekhoudkundige gegevens in
 alle van materieel belang zijnde opzichten getrouw en voldoende zijn om de
 algemene vergadering die over het voorstel moet stemmen, voor te lichten (art. 5:122, 2de lid WVV).
 
-## III.2.4. Beperking of opheffing van het voorkeurrecht VEREISTEN TOEPASSINGSMODALITEITEN
+## III.2.4. Beperking of opheffing van het voorkeurrecht
 
 39. In geval van beperking of opheffing van het voorkeurrecht (artikel 5:130, §3, tweede lid (BV) of artikel 7:191, tweede lid (NV) WVV) dient de
 beroepsbeoefenaar de conclusie over de beoordeling op te nemen in het in
@@ -611,7 +574,6 @@ voorkeurrecht verantwoordt; en
 
 III.2.5. Beperking of opheffing van het voorkeurrecht ten gunste van een of meer bepaalde personen die niet behoren tot het personeel
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 41. Wanneer het voorkeurrecht wordt beperkt of opgeheven ten gunste van een of meer bepaalde personen die niet behoren tot het personeel, dient de
 beroepsbeoefenaar een omstandige beoordeling over de verantwoording van
@@ -619,7 +581,6 @@ de uitgifteprijs te verstrekken, overeenkomstig artikelen 5:131 (BV) en 7:193 (N
 
 ## IV. Schriftelijke bevestigingen
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 42. Onverminderd paragraaf 19, dient de beroepsbeoefenaar van het
 schriftelijke bevestigingen te verkrijgen met minstens volgende elementen:
@@ -651,7 +612,6 @@ van diens verantwoordelijkheid voor de toekomstgerichte financiële informatie, 
 
 ## V. Beoordelingsverslag V.1. Het vormen van de conclusie
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 45. De beroepsbeoefenaar dient naar aanleiding van zijn werkzaamheden een conclusie te vormen over het voldoende en getrouw zijn van de financiële en boekhoudkundige gegevens opgenomen in het verslag van het bestuursorgaan.
 
@@ -685,7 +645,6 @@ getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens (par. A
 
 ## V.2. Verslag
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 51. De beroepsbeoefenaar dient een schriftelijk verslag op te stellen naar aanleiding van zijn werkzaamheden door gebruik te maken van het modelverslag gehecht aan onderhavige norm (bijlage 5).
 

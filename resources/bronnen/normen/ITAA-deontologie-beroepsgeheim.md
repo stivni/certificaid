@@ -34,31 +34,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 66b51a5-dirty
+    pipeline_version: 65c3c97f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T00:08:07Z'
+  generated_at: '2026-05-14T19:45:01Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T15:23:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen ETL-artefacten aangetroffen. 24 headings correct genest (###/####/#####). Voetnoten [1]–[67] volledig correct als markdown-links onderaan. Inhoud compleet: alle 13 vragen behandeld. Body clean, geen form-feeds, geen column-bleed.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260513-000913
-      run_at: '2026-05-13T00:09:13Z'
-      heading_count: 24
-      max_section_chars: 23480
-      file_size_chars: 39047
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T15:23:18Z'
-      rationale: 'Geen ETL-artefacten aangetroffen. 24 headings correct genest (###/####/#####). Voetnoten [1]–[67] volledig correct als markdown-links onderaan. Inhoud compleet: alle 13 vragen behandeld. Body clean, geen form-feeds, geen column-bleed.'
-      concrete_problemen: []
 ---
 # Het beroepsgeheim van de accountant en de belastingadviseur
 

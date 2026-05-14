@@ -28,55 +28,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 66b51a5-dirty
+    pipeline_version: 65c3c97f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T00:08:07Z'
+  generated_at: '2026-05-14T19:45:02Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:27:04Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Laag 1 pass (16 headings, max_section 8493), maar meerdere PDF-artefacten aanwezig. Drie kritieke problemen: (1) Regel 153-154: TOC-fragment '## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar' gevolgd door 'Nakoming    van       de         waakzaamheidsverplichtingen...' met extreme whitespace — kolom-bleed als ## heading vóór sectie 1 begint. (2) Regel 156: '## Bijlage I. Variabelen...' ook als TOC-fragment-heading vóór sectie 1. (3) Regel 425: '## 3. Algemene    risicobeoordeling beroepsbeoefenaar' — scrambled heading (meerdere spaties, ontbrekende woorden 'op te maken door de'). (4) Regel 344: extra whitespace in zin '...noch als       AMLCO.' (kolom-spreading). Overige 13 secties (1, 2, 4-10 + bijlagen II-IV) zijn correct als ## headings aanwezig en inhoudelijk compleet."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260513-000913
-      run_at: '2026-05-13T00:09:13Z'
-      heading_count: 17
-      max_section_chars: 8077
-      file_size_chars: 41093
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:27:04Z'
-      rationale: "Laag 1 pass (16 headings, max_section 8493), maar meerdere PDF-artefacten aanwezig. Drie kritieke problemen: (1) Regel 153-154: TOC-fragment '## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar' gevolgd door 'Nakoming    van       de         waakzaamheidsverplichtingen...' met extreme whitespace — kolom-bleed als ## heading vóór sectie 1 begint. (2) Regel 156: '## Bijlage I. Variabelen...' ook als TOC-fragment-heading vóór sectie 1. (3) Regel 425: '## 3. Algemene    risicobeoordeling beroepsbeoefenaar' — scrambled heading (meerdere spaties, ontbrekende woorden 'op te maken door de'). (4) Regel 344: extra whitespace in zin '...noch als       AMLCO.' (kolom-spreading). Overige 13 secties (1, 2, 4-10 + bijlagen II-IV) zijn correct als ## headings aanwezig en inhoudelijk compleet."
-      concrete_problemen:
-        - regel: 153
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "'## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar' als TOC-duplicate heading vóór ## 1"
-        - regel: 154
-          categorie: A8
-          type: column-bleed
-          voorbeeld: "'Nakoming    van       de         waakzaamheidsverplichtingen                              door           derde' — extreme kolom-spreading"
-        - regel: 156
-          categorie: A3
-          type: other
-          voorbeeld: "'## Bijlage I. Variabelen ten minste in overweging te nemen in de integrale' als TOC-fragment heading vóór sectie 1"
-        - regel: 425
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "'## 3. Algemene    risicobeoordeling beroepsbeoefenaar' — ontbrekend 'op te maken door de' + multi-spatie"
-        - regel: 344
-          categorie: A8
-          type: column-bleed
-          voorbeeld: "'...noch als       AMLCO.' — kolom-spreading in punt 2.3"
-        - regel: 502
-          categorie: A8
-          type: column-bleed
-          voorbeeld: "'1° aan de door deze uitgeoefende               beroepsactiviteiten   van    de' — kolom-spreading in 4.1"
 ---
 Richtlijn van het Beroepsinstituut van erkende Boekhouders en Fiscalisten
  van 31 maart 2020 inzake de toepassing van de wet van 18 september
@@ -159,7 +124,7 @@ De Raad van het Beroepsinstituut van erkende Boekhouders en Fiscalisten heeft
 op 23 november 2018, 8 juli 2019, 12 december 2019 en 31 maart 2020 de
 hiernavolgende richtlijn aangenomen. Deze werd op 3 april 2020 voor advies aan
 de Hoge Raad voor de Economische Beroepen voorgelegd.
-Inhoud
+
 Organisatie van de beroepsbeoefenaar wat de compliancefuncties betreft . 7
 
 ## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar

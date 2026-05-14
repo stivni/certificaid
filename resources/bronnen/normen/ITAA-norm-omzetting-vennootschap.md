@@ -25,55 +25,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 66b51a5-dirty
+    pipeline_version: 65c3c97f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T00:08:09Z'
+  generated_at: '2026-05-14T19:45:03Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:27:03Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Laag-1 warn: 29 TOC-stippelregels aanwezig — geconfirmeerd in body (INHOUDSTAFEL L199-281 met dotted-leaders). Tweekoloms-extract leidt tot structurele problemen: kolom 'A.' (toepassingsmodaliteiten) en de vereiste-kolom lopen door elkaar, waardoor alinea's beginnen met 'A.' of 'A1.' als aparte regels (B4/A7). Sectie IV ('Uit te voeren werkzaamheden teneinde de verslaggeving bij de grensoverschrijdende omzetting') staat niet als ## heading (alleen IV.1, IV.2, IV.3 staan in body als plain-text). Page-footers 'OPENBARE RAADPLEGING JUNI 2025 X/64' herhaald in body. Ondanks de grote omvang (153k chars) is de inhoud grotendeels compleet."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260513-000913
-      run_at: '2026-05-13T00:09:13Z'
-      heading_count: 58
-      max_section_chars: 7165
-      file_size_chars: 91313
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:27:03Z'
-      rationale: "Laag-1 warn: 29 TOC-stippelregels aanwezig — geconfirmeerd in body (INHOUDSTAFEL L199-281 met dotted-leaders). Tweekoloms-extract leidt tot structurele problemen: kolom 'A.' (toepassingsmodaliteiten) en de vereiste-kolom lopen door elkaar, waardoor alinea's beginnen met 'A.' of 'A1.' als aparte regels (B4/A7). Sectie IV ('Uit te voeren werkzaamheden teneinde de verslaggeving bij de grensoverschrijdende omzetting') staat niet als ## heading (alleen IV.1, IV.2, IV.3 staan in body als plain-text). Page-footers 'OPENBARE RAADPLEGING JUNI 2025 X/64' herhaald in body. Ondanks de grote omvang (153k chars) is de inhoud grotendeels compleet."
-      concrete_problemen:
-        - regel: 201
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: "'Toepassingsgebied .............................................................................................................  6'"
-        - regel: 1237
-          categorie: A1
-          type: form-feed
-          voorbeeld: "'OPENBARE RAADPLEGING JUNI 2025  36/64' embedded in body (herhaald meerdere keren)"
-        - regel: 1023
-          categorie: B4
-          type: other
-          voorbeeld: "'III. Uit te voeren werkzaamheden teneinde het verslag bij de omzetting op te stellen' — als plain text, geen ## prefix"
-        - regel: 1323
-          categorie: B4
-          type: other
-          voorbeeld: "'IV. Uit te voeren werkzaamheden teneinde de verslaggeving bij de grensoverschrijdende omzetting te doen' — plain text, niet als ##"
-        - regel: 297
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "'A. omzettingen mogelijk:\\nA. –\\neen vennootschap...' — kolom-prefix 'A.' verspreid door opsommingen"
-        - regel: 360
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "'A. getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens\\nopgenomen in het verslag van het bestuursorgaan (Wetboek van\\nvennootschappen\\nen\\nverenigingen)\\ndienen\\ntoe\\nte\\npassen.' — kolom-extract"
 ---
 Ontwerp
 
@@ -181,7 +146,6 @@ grensoverschrijdende omzetting van een [rechtsvorm entiteit A ()] naar een [rech
 
 ## Toepassingsgebied
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 1. Onderhavige norm is van toepassing op de opdracht die door de
 
@@ -213,14 +177,12 @@ een CV erkend als SO (artikel 14:38, tweede lid, 3° WVV), en dit minstens totda
 
 ## Datum van inwerkingtreding en opheffingsbepaling
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 4. Deze norm treedt in werking voor de verslagen die drie maanden na de datum van publicatie in het Belgisch Staatsblad van het bericht tot goedkeuring van de minister die bevoegd is voor Economie zijn uitgebracht.
 
 5. Vanaf deze datum van inwerkingtreding worden de normen van 4 oktober
 2002 inzake het verslag op te stellen bij de omzetting van een entiteit opgeheven.
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 6. Voor de toepassing van deze norm wordt verstaan onder:
 
@@ -287,7 +249,6 @@ federale minister van Economie en waarvoor een bericht in het Belgisch Staatsbla
 
 ## I. Doelstellingen
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 7. De doelstellingen van de beroepsbeoefenaar zijn:
 
@@ -299,7 +260,7 @@ federale minister van Economie en waarvoor een bericht in het Belgisch Staatsbla
 betreft, om te verklaren of, naar zijn mening, de geldelijke vergoeding al dan niet relevant en redelijk is; en
 (d) om overeenkomstig onderhavige norm te rapporteren.
 
-## II. Algemene bepalingen II.1. Deontologische beginselen VEREISTEN TOEPASSINGSMODALITEITEN
+## II. Algemene bepalingen II.1. Deontologische beginselen
 
 8. De bedrijfsrevisor dient de deontologische beginselen na te leven zoals vastgesteld door de wet van 7 december 2016.
 
@@ -339,7 +300,7 @@ bepalingen regelen de opvolging tussen leden van eenzelfde Instituut.
 
 14. Op uitdrukkelijke vraag van het bestuursorgaan en met de toelating van de algemene vergadering, dient de beroepsbeoefenaar, die niet de commissaris stichting het bestuursorgaan, bij te wonen.
 
-## II.2. Aard van de opdracht VEREISTEN TOEPASSINGSMODALITEITEN
+## II.2. Aard van de opdracht
 
 15. De opdracht van de beroepsbeoefenaar bestaat erin de staat van activa en passiva, opgesteld door en onder verantwoordelijkheid van het bestuursorgaan,
 in alle van materieel belang zijnde opzichten, te beoordelen en verslag uit te
@@ -369,7 +330,7 @@ overeenkomstig de ISA’s gecontroleerd heeft in het kader van zijn mandaat als 
 - beoordelingsopdrachten betreft, indien de opdracht wordt toevertrouwd
 aan een bedrijfsrevisor of een gecertificeerd accountant en uitgevoerd wordt bij een entiteit die valt onder de definitie van KMO.
 
-## II.3. Opdrachtbrief VEREISTEN TOEPASSINGSMODALITEITEN
+## II.3. Opdrachtbrief
 
 19. Voorafgaand aan de uitvoering van de opdracht dient de beroepsbeoefenaar van het bestuursorgaan een opdrachtbrief te verkrijgen. (par. A12)
 
@@ -404,7 +365,7 @@ Zoals bepaald in paragraaf A6 van onderhavige norm is de algemene norm van
 toepassing op alle opdrachten toevertrouwd door een onderneming aan de
 bedrijfsrevisor van toepassing voor bedrijfsrevisoren, die onder meer vereisten bevat.
 
-## II.4. Documentatie VEREISTEN TOEPASSINGSMODALITEITEN
+## II.4. Documentatie
 
 20. Bij de uitvoering van zijn opdracht dient de beroepsbeoefenaar van het bestuursorgaan de nodige gegevens te verkrijgen en te documenteren, die
 kunnen dienen om de werkzaamheden die hij heeft verricht te onderbouwen.
@@ -456,7 +417,7 @@ vermeldingen zou vaststellen die een inbreuk betekenen op het WVV, dient hij
 in het kader van zijn commissarismandaat ook de paragrafen 99 tot en met
 101 van de bijkomende norm bij de in België van toepassing zijnde ISA’s toe te passen.
 
-## III.1. Uit te voeren werkzaamheden betreffende de staat van activa en passiva VEREISTEN TOEPASSINGSMODALITEITEN
+## III.1. Uit te voeren werkzaamheden betreffende de staat van activa en passiva
 
 26. De beroepsbeoefenaar dient na te gaan of het bestuursorgaan een staat van activa en passiva heeft opgesteld overeenkomstig het van toepassing zijnde
 
@@ -472,7 +433,6 @@ kan gebeuren. Hierbij dient de beroepsbeoefenaar rekening te houden met het mate
 
 IV. Uit te voeren werkzaamheden teneinde de verslaggeving bij de grensoverschrijdende omzetting te doen
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 28. Teneinde verslag uit te brengen over het grensoverschrijdende omzetting dient de beroepsbeoefenaar de werkzaamheden uit te voeren zoals voorzien voor de
 opdracht bij omzetting (zie sectie III van onderhavige norm met betrekking tot
@@ -488,7 +448,7 @@ WVV), kosteloos beschikbaar te stellen op haar website gedurende een
 ononderbroken periode van ten minste drie maanden vóór de datum van
 de algemene vergadering die over het omzettingsvoorstel moet besluiten.
 
-## IV.1. Nazicht van het omzettingsvoorstel VEREISTEN TOEPASSINGSMODALITEITEN
+## IV.1. Nazicht van het omzettingsvoorstel
 
 29. De beroepsbeoefenaar dient na te gaan of in het omzettingsvoorstel alle door
 het toepasselijke wetsartikel vereiste informatie is vermeld. Hij dient tevens na
@@ -521,7 +481,6 @@ laten boeken en hem een nieuwe staat te bezorgen. Wordt er geen nieuwe staat act
 
 IV.2. Specifieke uit te voeren werkzaamheden betreffende de geldelijke vergoeding
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 36. In het geval van een grensoverschrijdende omzetting, naast de beoordeling van
 sectie III van onderhavige norm met betrekking tot de uit te voeren
@@ -554,7 +513,6 @@ met als doel te concluderen dat de geldelijke vergoeding relevant en redelijk is
 
 IV. 3. Specifieke uit te voeren werkzaamheden wanneer er toekomstgerichte financiële informatie is gehanteerd
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 42. In bepaalde gevallen kan het bestuursorgaan gebruikgemaakt hebben van toekomstgerichte financiële informatie bij het vaststellen van de geldelijke
 vergoeding. Een van de eigenschappen van toekomstgerichte financiële
@@ -641,7 +599,6 @@ moet bevestigen dat de veronderstellingen tot op die datum aanvaardbaar zijn, ze
 
 ## V. Schriftelijke bevestigingen
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 51. De beroepsbeoefenaar dient de nodige schriftelijke bevestigingen van het bestuursorgaan te verkrijgen. De te verkrijgen bevestigingen zijn afhankelijk
 van de omstandigheden en worden aangepast aan de aard van de opdracht.
@@ -662,7 +619,6 @@ schriftelijke bevestigingen niet betrouwbaar zijn (par. A54); of
 
 ## VI. Conclusie en beoordelingsverslag
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 54. Bij het vormen van de conclusie over de staat van activa en passiva dient de beroepsbeoefenaar, naar aanleiding van zijn werkzaamheden, een beperkte mate van zekerheid te verkrijgen over de vraag of:
 
@@ -709,7 +665,6 @@ beïnvloeden, zodat hij geen conclusie kan vormen betreffende het nettoactief.
 
 overschrijdende omzetting
 
-## VEREISTEN TOEPASSINGSMODALITEITEN
 
 63. Wanneer de beroepsbeoefenaar op grond van zijn werkzaamheden een conclusie zonder voorbehoud formuleert, dient hij aan te geven dat niets
 onder zijn aandacht is gekomen dat hem ertoe aanzet van mening te zijn dat:
@@ -736,7 +691,7 @@ geldelijke vergoeding, voor zover deze onzekerheid tevens van materieel belang i
 de onzekerheden een te groot deel van deze informatie beïnvloeden of
 waarmee wegens het aleatoir karakter ervan geen rekening kon worden gehouden, zodat hij geen conclusie kan vormen. (par. A56).
 
-## VI.3. Verslag VEREISTEN TOEPASSINGSMODALITEITEN
+## VI.3. Verslag
 
 69. De beroepsbeoefenaar dient een schriftelijk verslag op te stellen naar aanleiding van zijn werkzaamheden door gebruik te maken van de modelverslagen gehecht aan onderhavige norm (bijlage 3).
 

@@ -27,39 +27,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 66b51a5-dirty
+    pipeline_version: 65c3c97f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T00:08:09Z'
+  generated_at: '2026-05-14T19:45:03Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:26:25Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A1: pagina-headers/footers door de body: paginanummers '1' (regel 54) en '2' (regel 60) + copyright-footers '© ITAA – Norm permanente vorming...' (regels 56, 62) als standalone regels midden in het document vóór de echte body. Dit zijn PDF-pagina-resten die niet gefilterd zijn. Eigenlijke norm start op regel 64. 15 headings correct."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260513-000913
-      run_at: '2026-05-13T00:09:13Z'
-      heading_count: 15
-      max_section_chars: 11346
-      file_size_chars: 29729
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:26:25Z'
-      rationale: "A1: pagina-headers/footers door de body: paginanummers '1' (regel 54) en '2' (regel 60) + copyright-footers '© ITAA – Norm permanente vorming...' (regels 56, 62) als standalone regels midden in het document vóór de echte body. Dit zijn PDF-pagina-resten die niet gefilterd zijn. Eigenlijke norm start op regel 64. 15 headings correct."
-      concrete_problemen:
-        - regel: 54
-          categorie: A1
-          type: form-feed
-          voorbeeld: 1\n© ITAA – Norm permanente vorming... (pagina-resten vóór body)
-        - regel: 60
-          categorie: A1
-          type: form-feed
-          voorbeeld: 2\n© ITAA – Norm permanente vorming... (tweede pagina-rest)
 ---
       Norm met betrekking tot
       de permanente vorming goedgekeurd door de Raad van 1 december 2020.

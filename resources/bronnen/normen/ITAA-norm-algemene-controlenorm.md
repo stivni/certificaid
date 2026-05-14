@@ -26,31 +26,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 66b51a5-dirty
+    pipeline_version: 65c3c97f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T00:08:07Z'
+  generated_at: '2026-05-14T19:45:01Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T15:23:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten. 7 headings correct, inhoud volledig. Opsommingen als plain-text (zonder bullets) zijn conform de bronopmaak van deze beknopte 1991-norm. Geen form-feeds, OCR-fouten of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260513-000913
-      run_at: '2026-05-13T00:09:13Z'
-      heading_count: 7
-      max_section_chars: 1978
-      file_size_chars: 7565
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T15:23:18Z'
-      rationale: Geen ETL-artefacten. 7 headings correct, inhoud volledig. Opsommingen als plain-text (zonder bullets) zijn conform de bronopmaak van deze beknopte 1991-norm. Geen form-feeds, OCR-fouten of column-bleed.
-      concrete_problemen: []
 ---
 # Algemene controlenorm (Besl. Raad d.d. 30 september 1991)
 

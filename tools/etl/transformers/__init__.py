@@ -41,6 +41,7 @@ from tools.etl.transformers.strip_leading_toc_heading_block import strip_leading
 from tools.etl.transformers.fix_pdf_slash_loss_in_article_headings import fix_pdf_slash_loss_in_article_headings
 from tools.etl.transformers.strip_french_bilingue_bleed import strip_french_bilingue_bleed
 from tools.etl.transformers.strip_norm_column_bleed import strip_norm_column_bleed
+from tools.etl.transformers.strip_norm_toc_residue import strip_norm_toc_residue
 from tools.etl.transformers.strip_opgeheven_kb_appendix import strip_opgeheven_kb_appendix
 from tools.etl.transformers.merge_wrapped_headings import merge_wrapped_headings
 from tools.etl.transformers.strip_toc_headings_with_art_range import strip_toc_headings_with_art_range
@@ -83,6 +84,7 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "fix_pdf_slash_loss_in_article_headings": fix_pdf_slash_loss_in_article_headings,
     "strip_french_bilingue_bleed": strip_french_bilingue_bleed,
     "strip_norm_column_bleed": strip_norm_column_bleed,
+    "strip_norm_toc_residue": strip_norm_toc_residue,
     "strip_opgeheven_kb_appendix": strip_opgeheven_kb_appendix,
     "merge_wrapped_headings": merge_wrapped_headings,
     "strip_toc_headings_with_art_range": strip_toc_headings_with_art_range,
