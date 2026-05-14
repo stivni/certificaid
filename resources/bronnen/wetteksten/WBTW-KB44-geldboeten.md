@@ -24,10 +24,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T15:23:37Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Net als KB41 zware kolom-bleed in de hele bijlage: 2-koloms PDF-tabel (overtreding | boete) is in plain text gemerged. Voorbeelden: 'B. Laattijdig indienen 100 EUR per aangifte en per maand vertraging1 met een maximum...' (regel 89). De boete-bedragen kleven aan de overtredingsbeschrijving. Geen pipe-syntax. Bijlage is daardoor onbruikbaar voor retrieval als gestructureerde data."
+    status: trusted
+    confirmed_at: '2026-05-14T15:23:16Z'
+    confirmed_by: human
+    rationale: Hoofdtekst (Art. 1-N) volledig en correct. Wetinhoud bruikbaar voor RAG-queries over BTW-boete-bepalingen.
+    caveat: Bijlage met boete-tabel heeft 2-koloms kolom-bleed uit Fisconet-compilatie — overtreding-beschrijving en boete-bedrag staan gemerged op één regel. Brontekst is wel volledig aanwezig maar tabel-structuur is niet als markdown pipe-tabel reconstrueerbaar zonder OCR of individuele JUSTEL-PDF.
     layer1:
     layer2:
       status: needs-rework

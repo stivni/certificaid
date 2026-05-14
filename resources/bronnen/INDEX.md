@@ -8,10 +8,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 132 | 121 | — | 11 | — | — |
+| Wetteksten | 132 | 123 | — | 9 | — | — |
 | Normen | 18 | 4 | — | 14 | — | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **586** | 547 | — | 39 | — | — |
+| **Totaal** | **586** | 549 | — | 37 | — | — |
 
 ## Wetteksten (132)
 
@@ -26,8 +26,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `toelichting-PB-2025-deel1-VG.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Vlaams Gewest |
 | `toelichting-PB-2025-deel2.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Deel 2 |
 | `toelichting-VenB-2025.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de vennootschapsbelasting — AJ 2025 |
-| `WBTW-KB41-proportionele-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele f… |
-| `WBTW-KB44-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 44 van 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele … |
 | `aangifte-PB-2025-bezoldigingen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-bezoldigingen |
 | `aangifte-PB-2025-stopzetting.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-stopzetting |
 | `Antiwitwaswet-2017.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van … |
@@ -104,6 +102,8 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-KB35-reisbureaus.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatstaf van heffin… |
 | `WBTW-KB39-regeling-93duodecies.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artike… |
 | `WBTW-KB4-teruggaven.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over… |
+| `WBTW-KB41-proportionele-geldboeten.md` | ✅ trusted ⚠️[^WBTW-KB41-proportionele-geldboeten.md] | — | needs-rework | human | K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele f… |
+| `WBTW-KB44-geldboeten.md` | ✅ trusted ⚠️[^WBTW-KB44-geldboeten.md] | — | needs-rework | human | K.B. nr. 44 van 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele … |
 | `WBTW-KB45-vrijstelling-diplomaten.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 45 van 14 april 1993, met betrekking tot de vrijstelling op het stuk van de be… |
 | `WBTW-KB46-intracommunautaire-aangifte.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 46 van 29 december 1992, tot regeling van de aangifte van de intracommunautair… |
 | `WBTW-KB47-controle-vervoermiddelen-1996.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 47 van 25 februari 1996, tot regeling van de controle van de voldoening van de… |
@@ -149,6 +149,11 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WIB92.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | WIB92 |
 | `WVV.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek van vennootschappen en verenigingen 23/03/2019 |
 | `X-oeso-model-verdrag.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | X-oeso-model-verdrag |
+
+**Caveats** (bekende beperkingen van trusted-bronnen):
+
+[^WBTW-KB41-proportionele-geldboeten.md]: `WBTW-KB41-proportionele-geldboeten.md` — Bijlage met TABEL A-J (boete-percentages) heeft 2-koloms kolom-bleed uit Fisconet-compilatie — overtreding-beschrijving en boete-percentage staan gemerged op één regel. Brontekst is wel volledig aanwezig maar tabel-structuur is niet als markdown pipe-tabel reconstrueerbaar zonder OCR of individuele JUSTEL-PDF.
+[^WBTW-KB44-geldboeten.md]: `WBTW-KB44-geldboeten.md` — Bijlage met boete-tabel heeft 2-koloms kolom-bleed uit Fisconet-compilatie — overtreding-beschrijving en boete-bedrag staan gemerged op één regel. Brontekst is wel volledig aanwezig maar tabel-structuur is niet als markdown pipe-tabel reconstrueerbaar zonder OCR of individuele JUSTEL-PDF.
 
 ## Normen (18)
 

@@ -127,6 +127,7 @@ def build_index() -> list[dict]:
                 "tags": list(fm.get("tags") or []),
                 "trust_status": trust_status,
                 "trust_confirmed_by": trust.get("confirmed_by"),
+                "trust_caveat": trust.get("caveat"),
                 # layer1_status: lees .status; fallback op .verdict (pre-migratie bronnen)
                 "layer1_status": layer1.get("status") or layer1.get("verdict"),
                 # layer2_status: lees .status; fallback op .verdict (pre-migratie bronnen)
@@ -207,7 +208,11 @@ def _verdict_short(v: str | None) -> str:
 
 
 def _render_rol_table(rol: str, entries: list[dict]) -> str:
-    """Tabel per type, gesorteerd op trust-status (problemen bovenaan)."""
+    """Tabel per type, gesorteerd op trust-status (problemen bovenaan).
+
+    Bronnen met een `trust.caveat` krijgen een ⚠️-indicator in de Trust-
+    kolom en hun caveat-tekst verschijnt onderaan de tabel in een footnote.
+    """
     sorted_entries = sorted(
         entries,
         key=lambda e: (
@@ -218,6 +223,7 @@ def _render_rol_table(rol: str, entries: list[dict]) -> str:
     header = "| Bestand | Trust | L1 | L2 | Confirmed-by | Titel |"
     sep = "|---|---|---|---|---|---|"
     rows = [header, sep]
+    caveats: list[tuple[str, str]] = []  # (bestand, caveat-tekst)
     for e in sorted_entries:
         titel = e["titel"]
         if len(titel) > 90:
@@ -225,15 +231,32 @@ def _render_rol_table(rol: str, entries: list[dict]) -> str:
         # Pipes in titel ontsnappen voor markdown-tabel.
         titel = titel.replace("|", r"\|")
         confirmed = e.get("trust_confirmed_by") or "—"
+        caveat = (e.get("trust_caveat") or "").strip()
+        trust_cell = _trust_badge(e["trust_status"])
+        if caveat:
+            # Voeg caveat-marker toe met footnote-style indicator
+            trust_cell = f"{trust_cell} ⚠️[^{e['bestand']}]"
+            caveats.append((e["bestand"], caveat))
         rows.append(
             f"| `{e['bestand']}` "
-            f"| {_trust_badge(e['trust_status'])} "
+            f"| {trust_cell} "
             f"| {_verdict_short(e.get('layer1_status'))} "
             f"| {_verdict_short(e.get('layer2_status'))} "
             f"| {confirmed} "
             f"| {titel} |"
         )
-    return "\n".join(rows)
+    table = "\n".join(rows)
+    if caveats:
+        notes = [
+            "",
+            "**Caveats** (bekende beperkingen van trusted-bronnen):",
+            "",
+        ]
+        for bestand, caveat in caveats:
+            # Pipes in caveat-tekst ontsnappen niet nodig — footnote is buiten tabel.
+            notes.append(f"[^{bestand}]: `{bestand}` — {caveat}")
+        return table + "\n" + "\n".join(notes)
+    return table
 
 
 def render_markdown(entries: list[dict]) -> str:

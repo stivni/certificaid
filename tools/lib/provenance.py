@@ -102,6 +102,11 @@ class Trust:
     confirmed_at: Optional[str] = None
     confirmed_by: Optional[str] = None   # "human" | "<agent-naam>" | None
     rationale: Optional[str] = None
+    # Caveat: bekende beperking van een als-trusted-gemarkeerde bron. Wordt in
+    # de INDEX.md getoond met een ⚠️-icoon zodat RAG-gebruikers en
+    # examenkandidaten weten dat het bestand bruikbaar is maar met een
+    # bekende beperking (bv. tabel-bijlage met kolom-bleed).
+    caveat: Optional[str] = None
     # Per-laag QA-detail (ADR-005 §5, ADR-004 §trust).
     layer1: Optional[dict] = None  # qa_bron.py output — status: not_run|pass|warn|fail
     layer2: Optional[dict] = None  # agent content-judgment — status: not_run|trusted|needs-rework|rejected
@@ -336,6 +341,7 @@ def mark_trust(
     *,
     confirmed_by: str = "human",
     rationale: Optional[str] = None,
+    caveat: Optional[str] = None,
 ) -> Trust:
     """Update het trust-blok op een bron-MD. Schrijft naar provenance.trust.
 
@@ -357,12 +363,16 @@ def mark_trust(
             f"Run eerst convert.py of tools/etl/add_provenance.py."
         )
     # Behoud bestaande layer1/layer2-data; update alleen top-level trust-velden.
+    # Caveat: behoud bestaande caveat als de caller er geen meegeeft (zodat
+    # re-applies van verdicts de bekende limitatie niet wissen).
     existing = prov.trust or Trust()
+    effective_caveat = caveat if caveat is not None else existing.caveat
     new_trust = Trust(
         status=status,
         confirmed_at=now_iso(),
         confirmed_by=confirmed_by,
         rationale=rationale,
+        caveat=effective_caveat,
         layer1=existing.layer1,
         layer2=existing.layer2,
     )

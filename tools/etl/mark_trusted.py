@@ -123,23 +123,32 @@ def apply_one(
     confirmed_by: str,
     rationale: Optional[str],
     dry_run: bool,
+    caveat: Optional[str] = None,
 ) -> str:
     """Pas trust toe op één bestand. Returnt status-string voor rapport.
 
     Trust-regel (ADR-004): status=trusted vereist confirmed_by="human" of
     layer2.status="trusted". mark_trusted.py is de mens-override-tool:
     --confirmed-by default "human". layer2 wordt NIET aangeraakt door dit script.
+
+    Caveat: bekende beperking van een trusted-bron (bv. tabel-bijlage met
+    kolom-bleed). Wordt in INDEX.md getoond met ⚠️.
     """
     try:
         existing = read_trust(path)
     except Exception as exc:
         return f"error: {exc}"
 
-    if existing.status == status:
+    # Caveat-update detecteren: zelfde status maar caveat-wijziging is OK
+    caveat_changed = caveat is not None and caveat != (existing.caveat or "")
+    if existing.status == status and not caveat_changed:
         return "unchanged"
 
     if dry_run:
-        return f"would-change ({existing.status} -> {status})"
+        change_desc = f"{existing.status} -> {status}"
+        if caveat_changed:
+            change_desc += f" (+caveat)"
+        return f"would-change ({change_desc})"
 
     try:
         mark_trust(
@@ -147,8 +156,12 @@ def apply_one(
             status,
             confirmed_by=confirmed_by,
             rationale=rationale,
+            caveat=caveat,
         )
-        return f"changed ({existing.status} -> {status})"
+        change_desc = f"{existing.status} -> {status}"
+        if caveat_changed:
+            change_desc += " (+caveat)"
+        return f"changed ({change_desc})"
     except ValueError as exc:
         return f"error: {exc}"
 
@@ -162,6 +175,7 @@ def cmd_single(args: argparse.Namespace) -> None:
         confirmed_by=confirmed_by,
         rationale=args.rationale,
         dry_run=args.dry_run,
+        caveat=args.caveat,
     )
     print(f"{path.relative_to(ROOT)}: {result}")
 
@@ -302,6 +316,9 @@ def main() -> None:
     p.add_argument("--status", choices=TRUST_VALID_STATUSES,
                    help="te zetten trust-status (vereist behalve bij --apply-from-verdicts)")
     p.add_argument("--rationale", help="optionele toelichting bij de status-wijziging")
+    p.add_argument("--caveat", default=None,
+                   help="optionele bekende-beperking voor een trusted bron "
+                        "(wordt in INDEX.md getoond met ⚠️)")
     p.add_argument("--confirmed-by", default=None,
                    help="wie bevestigt: 'human' (default bij CLI) of '<agent-naam>' bij verdicts. "
                         "Alleen 'human' of een agent-naam zijn geldig (ADR-004).")

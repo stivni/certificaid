@@ -24,10 +24,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T15:23:37Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Zware kolom-bleed door de hele bijlage (Tabellen A-J). Originele PDF heeft een 2-koloms structuur: links de overtredingsbeschrijving, rechts het percentage/boete. De extractie heeft kolomstrooien afwisselend gemerged, met als resultaat scrambled zinnen zoals 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van kwartaalaangiften en belasting waarvan de de nalatigheidsinterest dat is opeisbaarheid blijkt uit de jaaraangiften bepaald in artikel 91, § 1, van het...' (regel 143). Dat is onbruikbaar voor retrieval en evident niet-mens-geschreven. Dit is veruit het zwaarste geval van de batch."
+    status: trusted
+    confirmed_at: '2026-05-14T15:23:16Z'
+    confirmed_by: human
+    rationale: Hoofdtekst (Art. 1-6) volledig en correct. Wetinhoud bruikbaar voor RAG-queries over BTW-boete-bepalingen.
+    caveat: Bijlage met TABEL A-J (boete-percentages) heeft 2-koloms kolom-bleed uit Fisconet-compilatie — overtreding-beschrijving en boete-percentage staan gemerged op één regel. Brontekst is wel volledig aanwezig maar tabel-structuur is niet als markdown pipe-tabel reconstrueerbaar zonder OCR of individuele JUSTEL-PDF.
     layer1:
     layer2:
       status: needs-rework
