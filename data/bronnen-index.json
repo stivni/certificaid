@@ -2160,10 +2160,10 @@
         "beroepsgeheim"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-norm-algemene-controlenorm.md",
@@ -2176,10 +2176,10 @@
         "itaa"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-norm-aww-geconsolideerd.md",
@@ -2191,11 +2191,11 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": "default",
       "trust_caveat": null,
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-norm-aww-procedurereglement.md",
@@ -2208,10 +2208,10 @@
         "itaa"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-norm-aww-reglement.md",
@@ -2224,10 +2224,10 @@
         "itaa"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-norm-aww-richtlijn-bibf.md",
@@ -2240,10 +2240,10 @@
         "itaa"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-norm-domiciliering.md",
@@ -2256,10 +2256,10 @@
         "itaa"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-norm-effectennorm.md",
@@ -2271,11 +2271,11 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": "default",
       "trust_caveat": null,
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-norm-fusie-splitsing.md",
@@ -2303,11 +2303,11 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": "default",
       "trust_caveat": null,
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-norm-intern-kwaliteitsmanagement.md",
@@ -2320,10 +2320,10 @@
         "itaa"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-norm-kmo-controlenorm.md",
@@ -2336,10 +2336,10 @@
         "itaa"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
-      "layer1_status": "warn",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-norm-omzetting-vennootschap.md",
@@ -2351,11 +2351,11 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": "default",
       "trust_caveat": null,
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-norm-ontbinding-vereffening.md",
@@ -2368,10 +2368,10 @@
         "itaa"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-norm-opdrachtbrief.md",
@@ -2384,10 +2384,10 @@
         "itaa"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-norm-permanente-vorming.md",
@@ -2400,10 +2400,10 @@
         "itaa"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-norm-samenstellingsopdrachten-isrs4410.md",
@@ -2416,10 +2416,10 @@
         "itaa"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-l2-qa-a70b27c2",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "CBN-0003-01-tijdstip-waarop-de-aan-of-verkoop-van-een-onroerend-goed-in-de-boekhouding-dient.md",

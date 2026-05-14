@@ -41,10 +41,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-14T20:27:09Z'
+    confirmed_by: human
+    rationale: 'L2 QA agent (a70b27c2) verdict: clean trusted (geen caveat). Re-conversie met ETL-fixes 1c16610b heeft geen content-loss veroorzaakt.'
     caveat:
     layer1:
     layer2:

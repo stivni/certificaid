@@ -34,10 +34,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-14T20:26:42Z'
+    confirmed_by: human
+    rationale: ETL-fixes hebben alle gerapporteerde artefacten opgelost (zie commit 1c16610b). Re-converted + verifieerd.
     caveat:
     layer1:
     layer2:
