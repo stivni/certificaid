@@ -1,7 +1,7 @@
 # ADR-006: RAG-strategie
 
 **Status**: Draft
-**Datum**: 2026-05-07 (gewijzigd 2026-05-09: §4 frontmatter-driven chunking + per-wet hiërarchie-detectie)
+**Datum**: 2026-05-07 (gewijzigd 2026-05-09: §4 frontmatter-driven chunking + per-wet hiërarchie-detectie; 2026-05-14: §4.2 adaptive sub-chunking + definitie-detectie)
 **Vervangt**: archive/ADR-001 (embedding model), ADR-002 (chunk-strategie), ADR-003 (reranking), ADR-005 (query-strategie), ADR-010 (ChromaDB)
 
 ## Context
@@ -64,7 +64,7 @@ De chunker is **data-driven** (leest frontmatter), niet **convention-driven** (h
 | ITAA-norm | per sectie | uit `heading_stats.py` | null |
 | Praktijkgids | heading-fallback | uit `heading_stats.py` | null |
 
-**Hard max chunk-grootte**: 24.000 chars (~6.000 tokens, bge-m3-marge). Boven die grens: `split_long_chunk` splitst op alinea-grenzen, identieke `path` en breadcrumb, suffix `__partN` op `id`.
+**Hard max chunk-grootte**: 8.000 chars (gelijk aan HARD_THRESHOLD, zie §4.2). Boven die grens: adaptive sub-split of `split_long_chunk` als fallback, identieke `path` en breadcrumb, suffix `__partN` op `id`.
 
 #### 4.1 Wettekst — hiërarchie afgeleid uit het document
 
@@ -103,13 +103,47 @@ WVV-voorbeeld (7 niveaus → 2 merges → 5 niveaus):
 
 Niet-samenhangende merges (bv. TITEL+HOOFDSTUK) worden **niet** automatisch toegepast — informatieverlies te groot. Wetten met overflow zonder bruikbare merge-group vereisen handmatige beslissing per wet.
 
-#### 4.2 Sub-artikel chunking — toekomstige opt-in
+#### 4.2 Sub-artikel chunking — adaptive (2026-05-14)
 
-Sub-artikel granulariteit (definitieblokken `1°`, paragrafen `§`) wordt **niet** als MD-heading geforceerd. Dat zou H6 reserveren en structurele labels uitknijpen op deep-genest wetten.
+Sub-artikel granulariteit wordt **niet** als MD-heading geforceerd. De chunker detecteert sub-grenzen automatisch via `detect_sub_markers()` **na** chunken op artikel-niveau.
 
-In plaats daarvan: opt-in via `chunk.sub_strategy: "per_definitieblok"` in frontmatter. De chunker detecteert sub-grenzen via regex (`^\s*\d+°`, `^\s*§\s+\d+`) **na** chunken op artikel-niveau, en split-er artikelen in deelchunks met behoud van artikel-context in breadcrumb.
+**Threshold-tiers** (constants `SOFT_THRESHOLD=4000`, `HARD_THRESHOLD=8000`):
 
-Toepasselijke bronnen (kandidaten): WIB92 art. 2 (definities WIB), Antiwitwaswet art. 4 (~50 definities AML), WVV art. 1:35 (UBO-definities). Niet aangezet voor andere wetten — `split_long_chunk` (paragraph-split bij >24K) blijft fallback voor onverwacht grote artikelen.
+| Chunk-grootte | Actie |
+|---|---|
+| `< SOFT_THRESHOLD` (4000 chars) | Nooit sub-splitsen |
+| `SOFT ≤ size ≤ HARD` (4000–8000) | Sub-splitsen ALS markers gevonden; anders ongewijzigd |
+| `> HARD_THRESHOLD` (>8000 chars) | Sub-splitsen verplicht; `split_long_chunk` als fallback als geen markers |
+
+**Marker-detectie** — geordend op prioriteit (eerste marker die ≥3 keer voorkomt wint):
+
+1. `N°` (BE definitieblok): `^\s*\d+°(bis|ter|...)[\s.]` — 10.466 occurrences
+2. `§ N` (BE paragraaf): `^\s*§\s*\d+` — 4.576 occurrences
+3. `N.` (EU lid): `^\d+\.\s+[A-ZÀ-ÿ]` — 1.391 occurrences
+4. `a) b) c)` (lettered): `^\s*[a-z]\)\s+\S` — 4.013 occurrences
+5. `N)` (haak-genummerd): `^\d+\)\s+\S` — 351 occurrences
+6. `i) ii) iii)` (Romein-klein): optioneel, diep genest — 220 occurrences
+
+Streepje (`-`) is bewust **niet** geïmplementeerd als marker: 30%+ valse vrienden (tabelcellen, historiekregels).
+
+**Definitie-blok-modus** (auto-detect via `is_definitie_blok()`):
+Triggert als artikel bevat:
+- Intro-patroon: `wordt verstaan onder :`, `gelden de volgende definities :`, etc. — **OF** heading-naam bevat `definit`/`begrip`/`interpretat`/`terminolog`
+- **EN** ≥3 `N°`-items of letter-items
+
+Bij trigger: **één chunk per item** (geen bin-pack). Bin-pack-modus is standaard voor paragraaf/EU-leden.
+
+**Chunk-id-formaat sub-chunks**:
+- Definitie-item `1°` → `__sub_1deg`
+- Definitie-item `4°bis` → `__sub_4deg_bis`
+- Paragraaf `§1`–`§3` in 1 bin → `__sub_par1-par3`
+- EU lid `3.` → `__sub_lid3`
+- Letter `a)` → `__sub_a`
+- Haak `2)` → `__sub_n2`
+
+**Backwards-compat (Phase 1)**: `chunk.sub_strategy: "per_definitieblok"` in frontmatter blijft werken via het bestaande `_split_chunk_by_sub` pad. Wordt verwijderd in Phase 2.
+
+Empirische basis: `data/qa/sub-marker-onderzoek.md` + `data/qa/definitie-blokken-onderzoek.md`.
 
 ### 5. Chunking — concepten-RAG
 

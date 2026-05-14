@@ -83,6 +83,13 @@ MIN_CHUNK_CHARS = 100
 # maar dan wordt de tail van lange chunks niet ge-embed bij max_seq_length=2048.
 MAX_CHUNK_CHARS = 8_000
 
+# Threshold-tiers voor adaptive sub-chunking (ADR-006 §4.2 herzien):
+#   chunk_size < SOFT_THRESHOLD            → nooit sub-splitsen
+#   SOFT_THRESHOLD ≤ size ≤ HARD_THRESHOLD → sub-splitsen ALS markers gevonden
+#   chunk_size > HARD_THRESHOLD             → MOET splitsen (paragraph-cut als fallback)
+SOFT_THRESHOLD = 4_000
+HARD_THRESHOLD = 8_000  # gelijk aan MAX_CHUNK_CHARS
+
 
 # ---------------------------------------------------------------------------
 # Device detectie
@@ -382,37 +389,387 @@ def split_long_chunk(chunk: dict, max_chars: int) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# Sub-artikel chunking (ADR-006 §4.2) — opt-in via chunk.sub_strategy
+# Sub-artikel chunking (ADR-006 §4.2) — adaptive modus + opt-in backwards-compat
 # ---------------------------------------------------------------------------
 
-# Sub-grens-regex: definitieblokken (1°, 2°, ...) en paragrafen (§ 1, § 2, ...).
-# We accepteren leading whitespace zodat ingesprongen items ("   1°") matchen.
-# Het label kan optioneel een suffix `/N` of ` /N` hebben (bv. "5° /1") voor
-# Belgische ingelaste definities — die krijgen elk een eigen deelchunk.
-_SUB_DEFBLOK_RE = re.compile(r"^\s*(\d+°(?:\s*/\d+)?)\s")
+# ─── Marker-regex per type (geordend op prioriteit) ─────────────────────────
+
+# Patroon 1 — N° (definitieblok, Belgische stijl): 10.466 occurrences
+# Uitgebreid met °bis/ter/quater-suffixen t.o.v. de vorige versie (131 extra hits in Oud-BW).
+# Spatie of punt NA het token: "1° tekst" (spatie) en "4°bis. tekst" (punt) zijn beide geldig.
+# Onderscheidt echte markers van inline-verwijzingen "in lid 3°, ..." (gevolgd door komma).
+_SUB_DEFBLOK_RE = re.compile(
+    r"^\s*(\d+°(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies)?(?:\s*/\d+)?)[\s.]"
+)
+
+# Multiline-versie voor is_definitie_blok's findall (zoekt op elke regel, niet alleen begin string).
+_SUB_DEFBLOK_ML_RE = re.compile(
+    r"^\s*(\d+°(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies)?(?:\s*/\d+)?)[\s.]",
+    re.MULTILINE,
+)
+
+# Patroon 2 — § N (paragraaf, Belgische stijl): 4.576 occurrences
+# Vangt alle varianten: "§ 1.", "§ 1", "§1.", "§1" (incl. geplakt VCF-stijl).
+# De bestaande regex had 0 misses op het volledige corpus van 118 wetteksten.
 _SUB_PARAGRAAF_RE = re.compile(r"^\s*(§\s*\d+(?:bis|ter|quater)?)")
+
+# Patroon 3 — N. (EU lid-stijl, NIEUW): 1.391 occurrences
+# Exclusief in EU-teksten (richtlijnen, verordeningen). Structureel equivalent
+# van § N in BE-teksten. Detectie-vereiste: eerste teken NA de punt-spatie moet
+# een hoofdletter zijn — artikelverwijzingen zijn altijd gevolgd door kleine letter.
+_SUB_LID_EU_RE = re.compile(r"^(\d+)\.\s+([A-ZÀ-ÿ])")
+
+# Patroon 4 — a) b) c) (lettered sub-items, NIEUW): 4.013 occurrences
+# Treedt op als sub-niveau onder N° (BE) of N. (EU). Vereist niet-leeg karakter
+# na de haak om lege regels of artefacten uit te sluiten.
+_SUB_LETTER_RE = re.compile(r"^\s*([a-z])\)\s+\S")
+
+# Patroon 5 — N) (haak-genummerd, NIEUW): 351 occurrences
+# EU-richtlijnen (BTW-richtlijn) en VCF/WIB92. Onderscheidt zich van N. door haak.
+_SUB_HAAK_N_RE = re.compile(r"^(\d+)\)\s+\S")
+
+# Patroon 6 — i) ii) iii) (Romein-haak, OPTIONEEL): 220 occurrences
+# Sub-niveau onder a) in EU-bronnen. Aanvullend op bovenstaande vijf patronen.
+_SUB_ROMAN_LC_RE = re.compile(r"^\s*(i{1,3}|iv|vi{0,3}|ix|xi{0,3})\)\s+\S")
+
 # Minimum aantal sub-headers om sub-splitting toe te passen — onder die drempel
 # levert het geen retrieval-winst op en zou het de chunk-set onnodig versnipperen.
 _SUB_SPLIT_MIN_HEADERS = 3
 
+# ─── Definitie-blok intro-patronen ──────────────────────────────────────────
+
+# Intro-patronen die een definitie-blok aanduiden (empirisch gevalideerd op 133 wetteksten).
+# Geordend op frequentie (120, 12, 7, 2, 1 matches).
+_DEFINITIE_INTRO_PATRONEN = [
+    re.compile(r"\bwordt verstaan onder\s*[;:]?\s*$", re.MULTILINE),
+    re.compile(r"gelden de volgende definitie[s]?\s*[;:]?\s*$", re.MULTILINE | re.IGNORECASE),
+    re.compile(r"hebben de volgende termen\b", re.MULTILINE | re.IGNORECASE),
+    re.compile(r"worden de volgende termen als volgt gedefinieerd", re.MULTILINE | re.IGNORECASE),
+    re.compile(r"\bEr wordt verstaan onder\s*[;:]?\s*$", re.MULTILINE),
+]
+
+# Keyword-patronen in heading-naam die een definitie-sectie aanduiden (zwak signaal,
+# vereist combinatie met N°-items).
+# Woordgrens alleen aan het BEGIN van de prefix (niet na): "Definities" bevat
+# "definit" maar \b aan het einde zou niet matchen. We eisen een woordgrens vóór
+# de prefix en accepteren elk volgend teken (suffix zoals "-ies", "-ie", "-ief").
+_DEFINITIE_HEADING_RE = re.compile(
+    r"\b(definit|begrip|interpretat|terminolog)", re.IGNORECASE
+)
+
+# ─── Publieke functies ───────────────────────────────────────────────────────
+
+
+def detect_sub_markers(text: str) -> list[tuple[int, str, str]]:
+    """Detecteer sub-grenzen in een stuk tekst (artikel-body of volledige chunk).
+
+    Geeft een lijst terug van (regel_index, marker_type, label), waarbij
+    marker_type één van de volgende waarden heeft:
+      - "definitieblok" : N° (Belgische stijl, incl. bis/ter-suffixen)
+      - "paragraaf"     : § N (Belgische stijl)
+      - "eu_lid"        : N. gevolgd door hoofdletter (EU-richtlijn stijl)
+      - "letter"        : a) b) c) (sub-items)
+      - "haak_genummerd": N) (EU/Vlaamse stijl)
+      - "roman_lc"      : i) ii) iii) (Romein klein, diep genest)
+
+    Prioriteitsvolgorde per regel: definitieblok → paragraaf → eu_lid →
+    letter → haak_genummerd → roman_lc. Zodra een patroon matcht, worden
+    overige patronen voor diezelfde regel niet meer getoetst.
+
+    Enkel markers die aan het BEGIN van een regel staan (na optionele
+    whitespace) worden herkend — inline verwijzingen (zoals "artikel 37, § 2")
+    produceren geen vals-positieven.
+    """
+    regels = text.split("\n")
+    grenzen: list[tuple[int, str, str]] = []
+
+    for i, regel in enumerate(regels):
+        # Prioriteit 1: N° definitieblok
+        m = _SUB_DEFBLOK_RE.match(regel)
+        if m:
+            grenzen.append((i, "definitieblok", m.group(1).strip()))
+            continue
+
+        # Prioriteit 2: § N paragraaf
+        m = _SUB_PARAGRAAF_RE.match(regel)
+        if m:
+            grenzen.append((i, "paragraaf", m.group(1).replace(" ", "")))
+            continue
+
+        # Prioriteit 3: N. EU lid (hoofdletter vereist)
+        m = _SUB_LID_EU_RE.match(regel)
+        if m:
+            grenzen.append((i, "eu_lid", f"{m.group(1)}."))
+            continue
+
+        # Prioriteit 4: a) letter sub-item
+        m = _SUB_LETTER_RE.match(regel)
+        if m:
+            grenzen.append((i, "letter", f"{m.group(1)})"))
+            continue
+
+        # Prioriteit 5: N) haak-genummerd
+        m = _SUB_HAAK_N_RE.match(regel)
+        if m:
+            grenzen.append((i, "haak_genummerd", f"{m.group(1)})"))
+            continue
+
+        # Prioriteit 6: i)/ii)/iii) Romein klein
+        m = _SUB_ROMAN_LC_RE.match(regel)
+        if m:
+            grenzen.append((i, "roman_lc", f"{m.group(1)})"))
+
+    return grenzen
+
+
+def is_definitie_blok(text: str, heading: str = "") -> bool:
+    """Geeft True als de tekst een definitie-blok bevat.
+
+    Detectie-logica (beide voorwaarden moeten voldaan zijn):
+      1. Sterk signaal: intro-patroon ("wordt verstaan onder", "gelden de
+         volgende definities", ...) aanwezig in de tekst — OF heading-naam
+         bevat een definitie-keyword (zwak signaal, vereist ook ≥3 items).
+      2. ≥3 N°-items aanwezig binnen de tekst (om proza-definities te
+         onderscheiden van echte opsommingen).
+
+    Empirisch gevalideerd op 133 wetteksten (data/qa/definitie-blokken-onderzoek.md).
+    """
+    # Tel N°-items in de volledige tekst (multiline: ^ = begin van elke regel)
+    items_in_tekst = _SUB_DEFBLOK_ML_RE.findall(text)
+    heeft_genoeg_items = len(items_in_tekst) >= _SUB_SPLIT_MIN_HEADERS
+
+    if not heeft_genoeg_items:
+        # Ook letter-items (a)/b)/c)) tellen mee als alternatieve definitie-structuur
+        # (bv. "Er wordt verstaan onder: a) ... b) ... c) ...")
+        letter_items = re.findall(r"^\s*([a-z])\)\s+\S", text, re.MULTILINE)
+        heeft_genoeg_items = len(letter_items) >= _SUB_SPLIT_MIN_HEADERS
+
+    if not heeft_genoeg_items:
+        return False
+
+    # Controleer intro-patroon (sterk signaal)
+    for patroon in _DEFINITIE_INTRO_PATRONEN:
+        if patroon.search(text):
+            return True
+
+    # Controleer heading-naam (zwak signaal)
+    if heading and _DEFINITIE_HEADING_RE.search(heading):
+        return True
+
+    return False
+
+
+def _kies_primaire_marker(grenzen: list[tuple[int, str, str]]) -> str | None:
+    """Kies de primaire marker-type: de eerste die ≥ _SUB_SPLIT_MIN_HEADERS keer voorkomt.
+
+    Terug in de volgorde: definitieblok → paragraaf → eu_lid → letter →
+    haak_genummerd → roman_lc. Geeft None als geen enkel type de drempel haalt.
+    """
+    volgorde = ["definitieblok", "paragraaf", "eu_lid", "letter", "haak_genummerd", "roman_lc"]
+    tellingen: dict[str, int] = {}
+    for _, marker_type, _ in grenzen:
+        tellingen[marker_type] = tellingen.get(marker_type, 0) + 1
+
+    for marker_type in volgorde:
+        if tellingen.get(marker_type, 0) >= _SUB_SPLIT_MIN_HEADERS:
+            return marker_type
+    return None
+
+
+def _label_naar_id_suffix(marker_type: str, label: str) -> str:
+    """Zet een marker-label om naar een stabiel chunk-id-suffix.
+
+    Voorbeelden:
+      definitieblok "1°"    → "1deg"
+      definitieblok "4°bis" → "4deg_bis"
+      paragraaf     "§1"    → "par1"
+      eu_lid        "3."    → "lid3"
+      letter        "a)"    → "a"
+      haak_genummerd "2)"   → "n2"
+      roman_lc      "iii)"  → "iii"
+    """
+    if marker_type == "definitieblok":
+        # "1°" → "1deg", "4°bis" → "4deg_bis", "3°/1" → "3deg_1"
+        label_clean = label.replace("°", "deg").replace("/", "_").replace(" ", "")
+        return label_clean
+    if marker_type == "paragraaf":
+        # "§1" of "§1." → "par1"
+        cijfer = re.sub(r"[^\d]", "", label)
+        suffix_m = re.search(r"(bis|ter|quater)", label, re.IGNORECASE)
+        suffix = f"_{suffix_m.group(1).lower()}" if suffix_m else ""
+        return f"par{cijfer}{suffix}"
+    if marker_type == "eu_lid":
+        # "3." → "lid3"
+        cijfer = re.sub(r"[^\d]", "", label)
+        return f"lid{cijfer}"
+    if marker_type == "letter":
+        # "a)" → "a"
+        return label.rstrip(")")
+    if marker_type == "haak_genummerd":
+        # "2)" → "n2"
+        cijfer = re.sub(r"[^\d]", "", label)
+        return f"n{cijfer}"
+    if marker_type == "roman_lc":
+        # "iii)" → "iii"
+        return label.rstrip(")")
+    return re.sub(r"[^a-z0-9]", "", label.lower()) or "sub"
+
+
+def _split_chunk_adaptief(chunk: dict, is_definitie_modus: bool = False) -> list[dict]:
+    """Splits één artikel-chunk adaptief op basis van gedetecteerde markers.
+
+    Werkt op het bestaande chunk-formaat dat flush() produceert:
+      "<breadcrumb>\\n\\n<heading>\\n\\n<body>"
+
+    Twee modi:
+      - Definitie-modus (is_definitie_modus=True): één chunk per N°-item.
+        Elke chunk bevat de volledige intro-zin als context in de breadcrumb.
+      - Bin-pack-modus: segmenten worden samengevoegd tot ≤ HARD_THRESHOLD.
+        Sub-chunk-ID: <basis>__sub_<suffix> (suffix afgeleid via _label_naar_id_suffix).
+
+    Behoudt artikel-context: breadcrumb wordt verlengd met sub-positie.
+    Intro-tekst vóór de eerste marker krijgt de basis-id (anker voor art-retrieval).
+    """
+    tekst = chunk["text"]
+    basis_breadcrumb = chunk.get("breadcrumb", "")
+    heading = chunk.get("heading", "")
+    basis_pad = chunk.get("path", [])
+
+    # Splits chunk in (breadcrumb-blok, heading-blok, body)
+    delen = tekst.split("\n\n", 2)
+    if len(delen) < 3:
+        return [chunk]
+    prefix_blok, heading_blok, body = delen[0], delen[1], delen[2]
+
+    body_regels = body.split("\n")
+    grenzen = detect_sub_markers(body)
+
+    if not grenzen:
+        return [chunk]
+
+    primaire_marker = _kies_primaire_marker(grenzen)
+    if primaire_marker is None:
+        return [chunk]
+
+    # Filter op primaire marker-type
+    primaire_grenzen = [(idx, mtype, label) for idx, mtype, label in grenzen
+                        if mtype == primaire_marker]
+
+    if len(primaire_grenzen) < _SUB_SPLIT_MIN_HEADERS:
+        return [chunk]
+
+    # Splitst body in intro + segmenten
+    eerste_idx = primaire_grenzen[0][0]
+    intro_regels = body_regels[:eerste_idx]
+    intro_tekst = "\n".join(intro_regels).strip()
+
+    segmenten: list[dict] = []
+
+    # Intro-chunk: behoud basis-id (anker voor artikel-retrieval)
+    if intro_tekst:
+        intro_full = f"{prefix_blok}\n\n{heading_blok}\n\n{intro_tekst}"
+        intro_chunk = dict(chunk)
+        intro_chunk["text"] = intro_full
+        segmenten.append(intro_chunk)
+
+    if is_definitie_modus:
+        # Definitie-modus: één chunk per item
+        for i, (lijn_idx, _, label) in enumerate(primaire_grenzen):
+            eind_idx = primaire_grenzen[i + 1][0] if i + 1 < len(primaire_grenzen) else len(body_regels)
+            item_body = "\n".join(body_regels[lijn_idx:eind_idx]).strip()
+            if not item_body:
+                continue
+
+            suffix = _label_naar_id_suffix(primaire_marker, label)
+            if basis_breadcrumb.endswith("]"):
+                sub_breadcrumb = f"{basis_breadcrumb[:-1]} → {heading} → {label}]"
+            else:
+                sub_breadcrumb = f"{basis_breadcrumb} → {heading} → {label}"
+
+            sub_tekst = f"{sub_breadcrumb}\n\n{heading_blok} — {label}\n\n{item_body}"
+            sub_pad = list(basis_pad) + [{"type": "sub", "nr": label, "naam": ""}]
+            sub_chunk = dict(chunk)
+            sub_chunk["id"] = f"{chunk['id']}__sub_{suffix}"
+            sub_chunk["text"] = sub_tekst
+            sub_chunk["heading"] = f"{heading} — {label}"
+            sub_chunk["path"] = sub_pad
+            sub_chunk["breadcrumb"] = sub_breadcrumb
+            segmenten.append(sub_chunk)
+    else:
+        # Bin-pack-modus: groepeer segmenten tot ≤ HARD_THRESHOLD
+        item_teksten: list[tuple[str, str]] = []  # (label, tekst)
+        for i, (lijn_idx, _, label) in enumerate(primaire_grenzen):
+            eind_idx = primaire_grenzen[i + 1][0] if i + 1 < len(primaire_grenzen) else len(body_regels)
+            item_body = "\n".join(body_regels[lijn_idx:eind_idx]).strip()
+            if item_body:
+                item_teksten.append((label, item_body))
+
+        # Bin-pack: vul bins tot HARD_THRESHOLD
+        bin_labels: list[str] = []
+        bin_teksten: list[str] = []
+        bin_grootte = 0
+        bins: list[tuple[list[str], list[str]]] = []
+
+        for label, item_body in item_teksten:
+            item_len = len(item_body) + 2
+            if bin_labels and bin_grootte + item_len > HARD_THRESHOLD:
+                bins.append((list(bin_labels), list(bin_teksten)))
+                bin_labels, bin_teksten, bin_grootte = [], [], 0
+            bin_labels.append(label)
+            bin_teksten.append(item_body)
+            bin_grootte += item_len
+
+        if bin_labels:
+            bins.append((bin_labels, bin_teksten))
+
+        for bin_lbl, bin_txt in bins:
+            eerste_label = bin_lbl[0]
+            laatste_label = bin_lbl[-1]
+            eerste_suffix = _label_naar_id_suffix(primaire_marker, eerste_label)
+            laatste_suffix = _label_naar_id_suffix(primaire_marker, laatste_label)
+
+            if len(bin_lbl) == 1:
+                id_suffix = eerste_suffix
+            else:
+                id_suffix = f"{eerste_suffix}-{laatste_suffix}"
+
+            gecombineerd_body = "\n\n".join(bin_txt)
+            range_label = (f"{eerste_label}–{laatste_label}"
+                           if len(bin_lbl) > 1 else eerste_label)
+
+            if basis_breadcrumb.endswith("]"):
+                sub_breadcrumb = f"{basis_breadcrumb[:-1]} → {heading} → {range_label}]"
+            else:
+                sub_breadcrumb = f"{basis_breadcrumb} → {heading} → {range_label}"
+
+            sub_tekst = f"{sub_breadcrumb}\n\n{heading_blok} — {range_label}\n\n{gecombineerd_body}"
+            sub_pad = list(basis_pad) + [{"type": "sub", "nr": range_label, "naam": ""}]
+            sub_chunk = dict(chunk)
+            sub_chunk["id"] = f"{chunk['id']}__sub_{id_suffix}"
+            sub_chunk["text"] = sub_tekst
+            sub_chunk["heading"] = f"{heading} — {range_label}"
+            sub_chunk["path"] = sub_pad
+            sub_chunk["breadcrumb"] = sub_breadcrumb
+            segmenten.append(sub_chunk)
+
+    return segmenten if len(segmenten) > 1 else [chunk]
+
 
 def _detect_sub_boundaries(text_lines: list[str]) -> list[tuple[int, str, str]]:
-    """Vind sub-grenzen in een lijst regels.
+    """Vind sub-grenzen in een lijst regels (legacy-interface, gebruikt door _split_chunk_by_sub).
 
-    Returns: lijst van (line_idx, kind, label), bv. (12, "definitieblok", "1°").
-    Eerste-match wins per regel: "1°" overrulet "§" (ze komen niet samen voor in
-    Belgische wetstructuur).
+    Geeft (line_idx, kind, label) terug voor compatibiliteit met de bestaande
+    _split_chunk_by_sub die nog door `sub_strategy: per_definitieblok` wordt aangeroepen.
     """
-    boundaries: list[tuple[int, str, str]] = []
-    for i, line in enumerate(text_lines):
-        m = _SUB_DEFBLOK_RE.match(line)
-        if m:
-            boundaries.append((i, "definitieblok", m.group(1)))
-            continue
-        m = _SUB_PARAGRAAF_RE.match(line)
-        if m:
-            boundaries.append((i, "paragraaf", m.group(1).replace(" ", "")))
-    return boundaries
+    tekst = "\n".join(text_lines)
+    grenzen = detect_sub_markers(tekst)
+    resultaat = []
+    for idx, marker_type, label in grenzen:
+        if marker_type == "definitieblok":
+            resultaat.append((idx, "definitieblok", label))
+        elif marker_type == "paragraaf":
+            resultaat.append((idx, "paragraaf", label))
+    return resultaat
 
 
 def _split_chunk_by_sub(chunk: dict) -> list[dict]:
@@ -655,16 +1012,45 @@ def split_wettekst(text: str, source_id: str, fm: dict) -> list[dict]:
     flush()
     merged = _merge_bis_ter(chunks, MAX_CHUNK_CHARS)
 
-    # ADR-006 §4.2: opt-in sub-artikel-chunking (per_definitieblok).
+    # ADR-006 §4.2 herzien: adaptive sub-artikel-chunking met threshold-tiers.
     # Wordt na bis/ter-merge toegepast, zodat een merged 458/458bis/458ter-chunk
-    # in één keer in deelchunks gaat indien het echt iets oplevert. Daarna
-    # past split_long_chunk eventuele restjes >MAX_CHUNK_CHARS aan.
+    # in één keer in deelchunks gaat. Twee modi:
+    #
+    # 1. Expliciete `sub_strategy: per_definitieblok` (backwards-compat, Phase 1):
+    #    Roept de bestaande _split_chunk_by_sub aan (OUD gedrag behouden).
+    #
+    # 2. Adaptive modus (geen sub_strategy of sub_strategy=null):
+    #    Per chunk: threshold-tiers bepalen of en hoe gesplitst wordt.
+    #      < SOFT_THRESHOLD: nooit sub-splitsen
+    #      SOFT ≤ size ≤ HARD: split IF markers gevonden (adaptive)
+    #      > HARD: split verplicht (adaptive + paragraph-cut als fallback)
     pre_long: list[dict] = []
+
     if sub_strategy == "per_definitieblok":
+        # Backwards-compat pad (Phase 1): bestaand gedrag ongewijzigd
         for c in merged:
             pre_long.extend(_split_chunk_by_sub(c))
     else:
-        pre_long = merged
+        # Adaptive modus: threshold-tiers
+        for c in merged:
+            chunk_grootte = len(c["text"])
+            if chunk_grootte < SOFT_THRESHOLD:
+                # Klein genoeg — niet sub-splitsen
+                pre_long.append(c)
+            elif chunk_grootte <= HARD_THRESHOLD:
+                # In de soft-hard range: split IF markers gevonden
+                definitie_modus = is_definitie_blok(c["text"], c.get("heading", ""))
+                gesplitst = _split_chunk_adaptief(c, is_definitie_modus=definitie_modus)
+                pre_long.extend(gesplitst)
+            else:
+                # Boven HARD: verplicht splitsen
+                definitie_modus = is_definitie_blok(c["text"], c.get("heading", ""))
+                gesplitst = _split_chunk_adaptief(c, is_definitie_modus=definitie_modus)
+                if len(gesplitst) > 1:
+                    pre_long.extend(gesplitst)
+                else:
+                    # Geen markers gevonden — paragraph-cut als fallback
+                    pre_long.append(c)
 
     final: list[dict] = []
     for c in pre_long:
