@@ -17,24 +17,20 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 4eaec39e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:25:15Z'
+  generated_at: '2026-05-14T18:54:21Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T15:23:25Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Laag-1 meldt max_section_size warn (32357 chars in één sectie), maar dat is een chunker-attentie, geen inhoudelijk ETL-defect. De markdown zelf is structureel correct: ## DEEL / ### TITEL / #### HOOFDSTUK / ###### Art. gelaagd en consistent. Structuurlabels als 'Doel', 'Toepassingsgebied', 'Definities' staan als **bold** (niet als plain text), wat acceptabel is als stylistisch alternatief voor sub-headings in een definitie-zware wet. Geen TOC-residu, geen form-feeds, geen OCR-artefacten, geen spurious line-breaks. Amendment-brackets [ ... ] zijn open-en-dicht. Inhoud volledig: Deel 1–4 aanwezig, definities Art. 5 volledig met 60+ genummerde items. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien."
+    confirmed_at: '2026-05-14T18:56:24Z'
+    confirmed_by: human
+    rationale: 'Re-converteerd na ETL-fixes: split_merged_headings volgorde + _NR_RE slash-support + normalize_artikel_to_art markdown-prefix. Afdeling+Onderafdeling correct gemerged op L5, Art. alleen op L6 (BE-wetteksten) of Artikel-headings correct gepromoveerd (EU-bronnen).'
+    caveat:
     layer1:
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T15:23:25Z'
-      rationale: "Laag-1 meldt max_section_size warn (32357 chars in één sectie), maar dat is een chunker-attentie, geen inhoudelijk ETL-defect. De markdown zelf is structureel correct: ## DEEL / ### TITEL / #### HOOFDSTUK / ###### Art. gelaagd en consistent. Structuurlabels als 'Doel', 'Toepassingsgebied', 'Definities' staan als **bold** (niet als plain text), wat acceptabel is als stylistisch alternatief voor sub-headings in een definitie-zware wet. Geen TOC-residu, geen form-feeds, geen OCR-artefacten, geen spurious line-breaks. Amendment-brackets [ ... ] zijn open-en-dicht. Inhoud volledig: Deel 1–4 aanwezig, definities Art. 5 volledig met 60+ genummerde items. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien."
-      concrete_problemen: []
 ---
 
 # Wet 4 april 2014 betreffende de verzekeringen
@@ -1037,7 +1033,6 @@ De bepalingen van dit deel zijn van dwingend recht, tenzij uit de bewoordingen z
 
 #### HOOFDSTUK 1. — Bepalingen betreffende alle verzekeringsovereenkomsten
 
-
 **Verzekeringsvoorstel, voorafgetekende polis en verzekeringsaanvraag**
 
 ##### Afdeling I. — Het sluiten van de overeenkomst
@@ -1123,10 +1118,7 @@ Mits de verzekeraar aantoont de voorafgaande toestemming van de verzekerde te be
 
 Wanneer er geen risico meer bestaat voor de verzekeraar, bezorgt de adviserend arts de geneeskundige verklaringen, op hun verzoek, terug aan de verzekerde of, in geval van overlijden, aan zijn rechthebbenden.
 
-
-##### Afdeling Ibis. — [ - Recht om vergeten te worden.]
-
-###### Onderafdeling 1. — [ - "Toepassingsgebied"]
+##### Afdeling Ibis. — [ - Recht om vergeten te worden.] - Onderafdeling 1. — [ - "Toepassingsgebied"]
 
 ###### Art. 61/1
 
@@ -1142,7 +1134,7 @@ b) van een beroepskrediet;
 
 [ 3° de reisannulatieverzekering, die verzekerde personen geheel of gedeeltelijk vergoedt in geval van annulering van een reis wegens medische, familiale of beroepsredenen.]
 
-###### Onderafdeling 1/1. — [ Informatiedocument ]
+##### Afdeling Ibis. — [ - Recht om vergeten te worden.] - Onderafdeling 1/1. — [ Informatiedocument ]
 
 ###### Art. 61/1/1
 
@@ -1150,9 +1142,7 @@ b) van een beroepskrediet;
 
 De Koning kan, na advies van het Federaal Kenniscentrum voor de Gezondheidszorg, de vorm en de nadere inhoudelijke richtlijnen bepalen van het gestandaardiseerd informatiedocument. ]
 
-##### Afdeling Ibis. — [ - Recht om vergeten te worden.]
-
-###### Onderafdeling 2. — [ - Schuldsaldoverzekering]
+##### Afdeling Ibis. — [ - Recht om vergeten te worden.] - Onderafdeling 2. — [ - Schuldsaldoverzekering]
 
 ###### Art. 61/2
 
@@ -1210,9 +1200,7 @@ Voor zover het medisch en verzekeringstechnisch objectief en redelijk verantwoor
 
 De financiering van de adviserende opdracht van het Opvolgingsbureau voor de tarifering inzake geschillen zoals bedoeld in het eerste lid, is ten laste van de overeenkomstig artikel 220 erkende Compensatiekas.]
 
-##### Afdeling Ibis. — [ - Recht om vergeten te worden.]
-
-###### Onderafdeling 3. — [ - arbeidsongeschiktheidsverzekering]
+##### Afdeling Ibis. — [ - Recht om vergeten te worden.] - Onderafdeling 3. — [ - arbeidsongeschiktheidsverzekering]
 
 ###### Art. 61/8
 
@@ -1288,9 +1276,7 @@ De Koning kan deze afdeling van het Opvolgingsbureau voor de tarifering belasten
 
 Tweejaarlijks, te rekenen vanaf de datum van inwerkingtreding van dit artikel, wordt de financiering opnieuw geëvalueerd op basis van een verslag van de ombudsdienst inzake verzekeringen aan de minister bevoegd voor Verzekeringen. De Koning kan bepalen dat een Compensatiekas "ziekte" moet voorzien in de financiering van deze taak.]
 
-##### Afdeling Ibis. — [ - Recht om vergeten te worden.]
-
-###### Onderafdeling 4. — [ Reisannulatieverzekering ]
+##### Afdeling Ibis. — [ - Recht om vergeten te worden.] - Onderafdeling 4. — [ Reisannulatieverzekering ]
 
 ###### Art. 61/14
 
@@ -1303,7 +1289,6 @@ Tweejaarlijks, te rekenen vanaf de datum van inwerkingtreding van dit artikel, w
 § 4. De Koning kan nadere regels bepalen betreffende de toepassing van dit artikel, waaronder de administratieve modaliteiten en procedures voor het verifiëren van een stabiele aandoening. ]
 
 De financiering van de adviserende opdracht van het Opvolgingsbureau voor de tarifering inzake geschillen zoals bedoeld in het eerste lid, is ten laste van de overeenkomstig artikel 220 erkende Compensatiekas. ]
-
 
 **Bedrog en schuld**
 
@@ -1325,7 +1310,6 @@ Tenzij anders is bedongen, dekt de verzekeraar geen schade veroorzaakt door oorl
 De verzekeraar moet het bewijs leveren van het feit dat hem van het verlenen van dekking bevrijdt.
 
 De Koning kan echter regels vaststellen die de bewijslast van het feit dat de verzekeraar bevrijdt van het verlenen van dekking verlichten.
-
 
 **Bewijs en inhoud van de overeenkomst**
 
@@ -1355,7 +1339,6 @@ Artikel [ 8.22] van het Burgerlijk Wetboek is niet van toepassing op de verzeker
 7° het bedrag van de premie of de wijze waarop de premie kan worden bepaald.
 
 § 3. De verzekeraar is ertoe gehouden uiterlijk bij het sluiten van de overeenkomst aan de verzekeringnemer een afschrift te verstrekken van de inlichtingen die deze laatste schriftelijk heeft medegedeeld over het te dekken risico.
-
 
 **Geheel of gedeeltelijk verval van het recht op verzekeringsprestatie**
 
@@ -1512,7 +1495,6 @@ Bij elke verzekering tot vergoeding van schade moet de verzekerde alle redelijke
 
 § 2. De verzekeraar kan zijn dekking weigeren, indien de verzekerde de in de artikelen 74 en 75 bedoelde verplichtingen met bedrieglijk opzet niet is nagekomen.
 
-
 **Beding ten behoeve van derden**
 
 ##### Afdeling V. — Beding ten behoeve van derden
@@ -1529,7 +1511,6 @@ De Koning kan, na advies van de FSMA, nadere regels bepalen waaraan bedingen ten
 ###### Art. 78
 
 Iedere begunstigde die onder bezwarende titel recht heeft op de dekking van een verzekering, heeft het recht van de verzekeringnemer of, zo nodig, van de verzekeraar mededeling te krijgen van de voorwaarden van de dekking.
-
 
 **Niet-bestaan van het risico**
 
@@ -1576,7 +1557,6 @@ Zo de verzekeraar evenwel het bewijs aanbrengt dat hij het verzwaarde risico in 
 
 c) zo de verzekeringnemer met bedrieglijk opzet gehandeld heeft, kan de verzekeraar zijn dekking weigeren. De premies, vervallen tot op het ogenblik waarop de verzekeraar kennis heeft gekregen van het bedrieglijk verzuim, komen hem toe als schadevergoeding.
 
-
 **Medeverzekering**
 
 ##### Afdeling VII. — Medeverzekering en taak van de eerste verzekeraar
@@ -1591,7 +1571,6 @@ Medeverzekering houdt geen hoofdelijkheid in, tenzij anders is bedongen.
 Bij medeverzekering dient een eerste verzekeraar te worden aangewezen in de overeenkomst. Deze wordt geacht de lasthebber te zijn van de overige verzekeraars voor het ontvangen van de kennisgevingen bepaald in de overeenkomst en om het nodige te doen om de schadegevallen te regelen, met inbegrip van de vaststelling van het bedrag van de schadevergoeding.
 
 Dientengevolge kan de verzekerde hem alle betekeningen en kennisgevingen doen, met uitzondering van deze die betrekking hebben op rechtsvorderingen ingesteld tegen de andere medeverzekeraars. Indien er in de overeenkomst geen eerste verzekeraar was aangeduid dan kan de verzekerde om het even wie van de medeverzekeraars als eerste verzekeraar beschouwen voor de toepassing van dit artikel. Niettemin moet de verzekerde zich steeds wenden tot dezelfde medeverzekeraar als eerste verzekeraar.
-
 
 **Opzeggingswijzen**
 
@@ -1611,7 +1590,6 @@ De termijn bedoeld in het eerste lid moet worden vermeld in de overeenkomst en h
 De verzekeraar bezorgt de verzekeringnemer onverwijld, op een duurzame gegevensdrager, een ontvangstmelding van de opzegging met vermelding van het nummer van de overeenkomst.
 
 Onverminderd paragraaf 2 heeft de opzegging pas uitwerking na het verstrijken van een termijn van een maand te rekenen van de dag volgend op de datum van de elektronische handtekening.]
-
 
 **Duur van de verplichtingen**
 
@@ -1722,7 +1700,6 @@ Niettemin hebben de verzekeraar en de curator van het faillissement het recht de
 
 Dit artikel is niet van toepassing op de persoonsverzekeringen.
 
-
 **Verjaringstermijn**
 
 ##### Afdeling X. — Verjaring
@@ -1755,7 +1732,6 @@ Indien de benadeelde evenwel bewijst dat hij pas op een later tijdstip kennis he
 § 4. Stuiting of schorsing van de verjaring van de rechtsvordering van de benadeelde tegen een verzekerde heeft stuiting of schorsing van de verjaring van zijn rechtsvordering tegen de verzekeraar tot gevolg. Stuiting of schorsing van de verjaring van de rechtsvordering van de benadeelde tegen de verzekeraar heeft stuiting of schorsing van de verjaring van zijn rechtsvordering tegen de verzekerde tot gevolg.
 
 § 5. De verjaring van de vordering bedoeld in artikel 88, § 2, wordt gestuit zodra de verzekeraar kennis krijgt van de wil van de benadeelde om een vergoeding te bekomen voor de door hem geleden schade. De stuiting eindigt op het ogenblik dat de verzekeraar aan de benadeelde schriftelijk kennis geeft van zijn beslissing om te vergoeden of van zijn weigering.
-
 
 **Scheidsrechterlijke uitspraken**
 
@@ -1908,10 +1884,7 @@ Voor de aansprakelijkheidsverzekeringen, andere dan die bedoeld in de wet van 21
 
 #### HOOFDSTUK 2. — Zaakverzekeringsovereenkomsten
 
-
-##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen
-
-###### Onderafdeling 1. — Verzekerbare waarde
+##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen - Onderafdeling 1. — Verzekerbare waarde
 
 **Wijze van waardebepaling**
 
@@ -1935,9 +1908,7 @@ Partijen kunnen bij een uitdrukkelijk beding aan bepaalde goederen een getaxeerd
 
 Wanneer een goed waarvoor een getaxeerde waarde is bedongen een aanzienlijke waardevermindering ondergaat, kan elke partij het bedrag van de getaxeerde waarde verminderen of een einde maken aan de overeenkomst.
 
-##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen
-
-###### Onderafdeling 2. — Verplichtingen van de verzekerde
+##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen - Onderafdeling 2. — Verplichtingen van de verzekerde
 
 **Gesteldheid van de plaats**
 
@@ -1949,9 +1920,7 @@ Indien de verzekerde de in het eerste lid bedoelde verplichting niet nakomt en e
 
 Komt de verzekerde de in het eerste lid bedoelde verplichting met bedrieglijk opzet niet na, dan kan de verzekeraar zijn dekking weigeren.
 
-##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen
-
-###### Onderafdeling 3. — Overdracht onder de levenden
+##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen - Onderafdeling 3. — Overdracht onder de levenden
 
 **Overdracht onder de levenden van een verzekerde zaak**
 
@@ -1963,9 +1932,7 @@ Tot het verstrijken van de in het eerste lid bedoelde termijn, blijft de aan de 
 
 § 2. In geval van overdracht onder de levenden van een roerend goed, eindigt de verzekering van rechtswege zodra de verzekerde het goed niet meer in zijn bezit heeft, tenzij de partijen bij de verzekeringsovereenkomst een andere datum hebben bedongen.
 
-##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen
-
-###### Onderafdeling 4. — Betaling van de schadevergoeding en voorrecht van de verzekeraar.
+##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen - Onderafdeling 4. — Betaling van de schadevergoeding en voorrecht van de verzekeraar.
 
 **Betaling van een verzoek tot schadevergoeding en sancties**
 
@@ -2041,10 +2008,7 @@ Het voorrecht geldt slechts op de verzekerde zaak voor de premie die betrekking 
 
 Dat voorrecht heeft niet te worden ingeschreven. Het volgt in rang onmiddellijk na dat van de gerechtskosten.
 
-
-##### Afdeling II. — Nadere bepalingen betreffende sommige zaakverzekeringen
-
-###### Onderafdeling 1. — Brandverzekering
+##### Afdeling II. — Nadere bepalingen betreffende sommige zaakverzekeringen - Onderafdeling 1. — Brandverzekering
 
 **Normale dekking**
 

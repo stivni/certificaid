@@ -17,28 +17,20 @@ provenance:
       version: 25.11.2009
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 4eaec39e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:25:12Z'
+  generated_at: '2026-05-14T18:54:26Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T15:23:24Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Geen EUR-Lex markers. De ## headings voor Richtlijnfragmenten (bijv. '## RICHTLIJN 2009/133/EG VAN DE RAAD' op r68-70) zijn ruis-headings uit de preambuletekst maar verstoren de structuur minimaal. Definities, artikelen en bijlagen volledig aanwezig. Kleine PDF-koppeltekensplits (bv. 'vennootschap- pen') zijn source-kenmerken."
+    confirmed_at: '2026-05-14T18:56:25Z'
+    confirmed_by: human
+    rationale: 'Re-converteerd na ETL-fixes: split_merged_headings volgorde + _NR_RE slash-support + normalize_artikel_to_art markdown-prefix. Afdeling+Onderafdeling correct gemerged op L5, Art. alleen op L6 (BE-wetteksten) of Artikel-headings correct gepromoveerd (EU-bronnen).'
+    caveat:
     layer1:
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T15:23:24Z'
-      rationale: "Geen EUR-Lex markers. De ## headings voor Richtlijnfragmenten (bijv. '## RICHTLIJN 2009/133/EG VAN DE RAAD' op r68-70) zijn ruis-headings uit de preambuletekst maar verstoren de structuur minimaal. Definities, artikelen en bijlagen volledig aanwezig. Kleine PDF-koppeltekensplits (bv. 'vennootschap- pen') zijn source-kenmerken."
-      concrete_problemen:
-        - regel: 68
-          categorie: B4
-          type: other
-          voorbeeld: '## RICHTLIJN 2009/133/EG VAN DE RAAD'
 ---
 
 # Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)
@@ -297,7 +289,7 @@ nemen de lidstaten de nodige maatregelen om ervoor te zorgen  dat voorzieningen 
 
 2.  De toepassing van lid 1 belet de lidstaten niet belasting te  heffen over de winst die voortvloeit uit de latere vervreemding  van de bewijzen van deelgerechtigdheid in het kapitaal van de  SE of de SCE die haar statutaire zetel verplaatst.
 
-SLOTBEPALINGEN
+## SLOTBEPALINGEN
 
 ###### Artikel 15
 
@@ -559,21 +551,21 @@ Artikel 7, lid 2, tweede alinea, tweede zin  Artikel 7, lid 2, tweede alinea
 
 Artikelen 8, 9 en 10  Artikelen 8, 9 en 10
 
-## Art. 10. bis
+Art. 10. bis
 
-## Art. 11
+Art. 11
 
-## Art. 10. ter
+Art. 10. ter
 
-## Art. 12
+Art. 12
 
-## Art. 10. quater
+Art. 10. quater
 
-## Art. 13
+Art. 13
 
-## Art. 10. quinquies
+Art. 10. quinquies
 
-## Art. 14
+Art. 14
 
 Artikel 11  Artikel 15
 

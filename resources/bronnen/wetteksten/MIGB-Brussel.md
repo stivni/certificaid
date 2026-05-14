@@ -17,24 +17,20 @@ provenance:
       version: 12.05.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 4eaec39e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:25:05Z'
+  generated_at: '2026-05-14T18:54:27Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T15:23:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "L1 pass: 189 headings, max sectie 10694 chars. ###### Artikel-headings correct, TITEL/HOOFDSTUK-structuur aanwezig. Wijzigingsmarkers '(gewijzigd bij art...)' zijn Fisconet-stijl, OK. Inhoud volledig."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T15:23:18Z'
-      rationale: "L1 pass: 189 headings, max sectie 10694 chars. ###### Artikel-headings correct, TITEL/HOOFDSTUK-structuur aanwezig. Wijzigingsmarkers '(gewijzigd bij art...)' zijn Fisconet-stijl, OK. Inhoud volledig."
-      concrete_problemen: []
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest
@@ -133,7 +129,7 @@ De artikelen 460 tot 463 van het Wetboek van de inkomstenbelastingen 1992 zijn v
 
 overtredingen van de bepalingen van dit Wetboek en de ter uitvoering ervan genomen besluiten.
 
-#### Art. 2. bis
+Art. 2. bis
 
 (ingevoegd bij art. 65 van de wet van 04.08.1986 (B.S., 20.08.1986 – Numac: 1986003953). Tekst van toepassing vanaf
 
@@ -145,7 +141,7 @@ vastgesteld in dit Wetboek of in de ter uitvoering ervan genomen besluiten, bepa
 
 waarvan de trappen door de Koning worden vastgesteld.
 
-#### Art. 2. ter
+Art. 2. ter
 
 (ingevoegd bij art. 21 van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van
 
@@ -559,11 +555,11 @@ niet overschrijdt
 
 De belasting is vastgesteld op 19,32 EUR per 500 kilogram maximaal toegelaten massa.
 
-C. Motorfietsen
+### C. Motorfietsen
 
 De belasting is eenvormig vastgesteld op 36,24 EUR.
 
-D. Autobussen en autocars
+### D. Autobussen en autocars
 
 Wanneer het belastbaar vermogen 10 paardekracht niet te boven gaat, is de belasting vastgesteld op
 
@@ -967,7 +963,7 @@ Nota:
 
 vereniging zonder winstgevend doel met leasingactiviteiten zijn (art. 17).
 
-#### Art. 9. bis
+Art. 9. bis
 
 (ingevoegd bij art. 3 van de ordonnantie van 24.03.2016 (B.S., 31.03.2016 – ed. 3 – Numac: 2016031253) err. (B.S.,
 
@@ -1235,7 +1231,7 @@ Wanneer de voorwaarden tot vrijstelling in de loop van een aanslagjaar niet meer
 
 verschuldigd naar verhouding van de niet verstreken maanden.
 
-#### Art. 23. bis
+Art. 23. bis
 
 (gewijzigd in de Franse versie bij art. 11 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688).
 
@@ -1249,7 +1245,7 @@ in dezelfde mate, aangerekend op de belasting die door de belastingschuldige voo
 
 verschuldigd.
 
-#### Art. 23. ter
+Art. 23. ter
 
 (gewijzigd bij art. 77 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019). Tekst van toepassing vanaf 01.01.2020 (art.
 
@@ -1455,7 +1451,7 @@ januari 1989 betreffende de financiering van de Gemeenschappen en de Gewesten (a
 
 #### HOOFDSTUK X bis - Bijzondere bepalingen
 
-#### Art. 36. bis
+Art. 36. bis
 
 (gewijzigd bij art. 22 van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing
 
@@ -1485,7 +1481,7 @@ Nota:
 
 waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-#### Art. 36. ter
+Art. 36. ter
 
 (opgeheven bij art. 25, 3° van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van
 
@@ -1501,7 +1497,7 @@ Nota:
 
 waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-#### Art. 36. quater
+Art. 36. quater
 
 (gewijzigd bij art. 23 van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van toepassing
 
@@ -1709,7 +1705,7 @@ sommen of inleggelden worden gelijkgesteld, de rechten of retributies die moeten
 
 inschrijving voor of deelname aan een spel of weddenschap.
 
-#### Art. 44. bis
+Art. 44. bis
 
 (ingevoegd bij art. 4 van de ordonnantie van 17.03.2011 (B.S., 01.04.2011 – Numac: 2011031159). Tekst van toepassing
 
@@ -3053,7 +3049,7 @@ worden geacht in het verkeer te zijn gesteld door vennootschappen, autonome over
 
 verenigingen zonder winstgevend doel, met leasingactiviteiten.
 
-C. Boten zoals omschreven in artikel 94.
+### C. Boten zoals omschreven in artikel 94.
 
 De belasting wordt vastgesteld op 2.478 EUR voor de boten.
 
@@ -3135,7 +3131,7 @@ eerstvolgende zitting, een ontwerp van wet indienen tot bekrachtiging van de ter
 
 genomen besluiten.
 
-#### Art. 98. bis
+Art. 98. bis
 
 (ingevoegd bij art. 3 van de ordonnantie van 25.04.2024 (B.S., 15.05.2024 – Numac: 2024004157). Tekst van toepassing
 
@@ -3239,7 +3235,7 @@ De belasting is verbonden aan een aanslagjaar dat begint op de eerste dag van de
 
 verschuldigd is. Deze aanslagjaren worden genoemd naar het jaar waarin de belasting verschuldigd is.
 
-#### Art. 103. bis
+Art. 103. bis
 
 (opgeheven bij art. 25, 8° van de ordonnantie van 17.12.2019 (B.S., 07.01.2020 – Numac: 2019015880). Tekst van
 
@@ -3363,7 +3359,7 @@ van toepassing vanaf aanslagjaar 2008 (art. 14))
 
 (…)
 
-#### Art. 109. bis
+Art. 109. bis
 
 (opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183). Tekst
 

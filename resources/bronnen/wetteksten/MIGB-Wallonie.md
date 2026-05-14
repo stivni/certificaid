@@ -17,24 +17,20 @@ provenance:
       version: 30.05.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 4eaec39e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:25:05Z'
+  generated_at: '2026-05-14T18:54:29Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T15:23:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'L1 pass: 208 headings, max sectie 22853 chars. ###### Artikel-headings correct. Wijzigingsmarkers Fisconet-stijl OK. Inhoud volledig.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T15:23:18Z'
-      rationale: 'L1 pass: 208 headings, max sectie 22853 chars. ###### Artikel-headings correct. Wijzigingsmarkers Fisconet-stijl OK. Inhoud volledig.'
-      concrete_problemen: []
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest
@@ -133,7 +129,7 @@ De artikelen 460 tot 463 van het Wetboek van de inkomstenbelastingen 1992 zijn v
 
 overtredingen van de bepalingen van dit Wetboek en de ter uitvoering ervan genomen besluiten.
 
-#### Art. 2. bis
+Art. 2. bis
 
 (ingevoegd bij art. 65 van de wet van 04.08.1986 (B.S., 20.08.1986 – Numac: 1986003953). Tekst van toepassing vanaf
 
@@ -145,7 +141,7 @@ vastgesteld in dit Wetboek of in de ter uitvoering ervan genomen besluiten, bepa
 
 waarvan de trappen door de Koning worden vastgesteld.
 
-#### Art. 2. ter
+Art. 2. ter
 
 (gewijzigd bij art. 12 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van
 
@@ -585,11 +581,11 @@ niet overschrijdt, met inbegrip van de kampeerwagens die 3500 kilogram niet over
 
 De belasting is vastgesteld op 19,32 EUR per 500 kilogram maximaal toegelaten massa.
 
-C. Motorfietsen
+### C. Motorfietsen
 
 De belasting is eenvormig vastgesteld op 36,24 EUR.
 
-D. Autobussen en autocars
+### D. Autobussen en autocars
 
 Wanneer het belastbaar vermogen 10 fiscale paardenkracht niet te boven gaat, is de belasting vastgesteld op
 
@@ -1387,7 +1383,7 @@ Wanneer de voorwaarden tot vrijstelling in de loop van een aanslagjaar niet meer
 
 verschuldigd naar verhouding van de niet verstreken maanden.
 
-#### Art. 23. bis
+Art. 23. bis
 
 (ingevoegd bij art. 11 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf
 
@@ -1401,7 +1397,7 @@ in dezelfde mate, aangerekend op de belasting die door de belastingschuldige voo
 
 verschuldigd.
 
-#### Art. 23. ter
+Art. 23. ter
 
 (gewijzigd bij art. 16 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van
 
@@ -1559,7 +1555,7 @@ Voertuigen.
 
 #### HOOFDSTUK X bis - Bijzondere bepalingen
 
-#### Art. 36. bis
+Art. 36. bis
 
 (gewijzigd bij art. 151 van de programmawet van 23.12.2009 (B.S., 30.12.2009 – ed. 1 – Numac: 2009021133). Tekst
 
@@ -1583,7 +1579,7 @@ De voormelde voertuigen zijn daarentegen onderworpen aan de respectievelijke bep
 
 en 36 quater.
 
-#### Art. 36. ter
+Art. 36. ter
 
 (gewijzigd bij art. 1 van het decreet van 30.11.2023 (B.S., 11.01.2024 – Numac: 2023206945). Tekst van toepassing
 
@@ -1667,7 +1663,7 @@ In het geval van de in paragraaf 4 bedoelde aanhangwagen is de voormalige houder
 
 belasting zolang er geen aangifte is gedaan van de verandering betreffende het houden ervan.
 
-#### Art. 36. quater
+Art. 36. quater
 
 (gewijzigd bij art. 2 van het decreet van 30.11.2023 (B.S., 11.01.2024 – Numac: 2023206945). Tekst van toepassing
 
@@ -1803,7 +1799,7 @@ voor de exploitatie van autocardiensten, ter uitvoering van de besluitwet van 30
 
 3° voertuigen waarvan de belasting verminderd werd overeenkomstig artikel 15.
 
-#### Art. 42. bis
+Art. 42. bis
 
 (gewijzigd bij art. 48 van het decreet van 22.12.2021 (B.S., 12.01.2022 – Numac: 2022020006). Tekst van toepassing
 
@@ -1919,7 +1915,7 @@ automatische ontspanningstoestellen, interesten en fiscale geldboeten met betrek
 
 betreffende het belastingjaar 2010 en volgende.
 
-#### Art. 44. bis
+Art. 44. bis
 
 (hersteld bij art. 2 van het decreet van 22.07.2010 (B.S., 09.08.2010 – Numac: 2010204226). Tekst van toepassing de
 
@@ -2633,7 +2629,7 @@ dit decreet via informatiemaatschappij-instrumenten in de zin van de wet van 7 m
 
 weddenschappen, de kansspelinrichtingen en de bescherming van de spelers (art. 12, § 2).
 
-#### Art. 63. bis
+Art. 63. bis
 
 (ingevoegd bij art. 14 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
@@ -2667,7 +2663,7 @@ toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun ge
 
 en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-#### Art. 63. ter
+Art. 63. ter
 
 (3°bis, ingevoegd bij art. 9 van het decreet van 22.07.2010 (B.S., 09.08.2010 – Numac: 2010204226). Tekst van
 
@@ -2719,7 +2715,7 @@ dit decreet via informatiemaatschappij-instrumenten in de zin van de wet van 7 m
 
 weddenschappen, de kansspelinrichtingen en de bescherming van de spelers (art. 12, § 2).
 
-#### Art. 63. quater
+Art. 63. quater
 
 (ingevoegd bij art. 14 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
@@ -2751,7 +2747,7 @@ toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun ge
 
 en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-#### Art. 63. quinquies
+Art. 63. quinquies
 
 (ingevoegd bij art. 14 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
@@ -2933,7 +2929,7 @@ voorwaarden betreffende de vermindering van de belasting, wordt de belasting ver
 
 heeft uitgemaakt van definitief afgesloten strafvervolgingen.
 
-#### Art. 68. bis
+Art. 68. bis
 
 (ingevoegd bij art. 18 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
@@ -2949,7 +2945,7 @@ De bij dit artikel bedoelde boete is niet verschuldigd, wanneer het daartoe aanl
 
 voorwerp heeft uitgemaakt van definitief afgesloten strafvervolgingen.
 
-#### Art. 68. ter
+Art. 68. ter
 
 (gewijzigd bij art. 20 van het decreet van 01.06.2017 (B.S., 10.07.2017 – Numac: 2017030429). Tekst van toepassing
 
@@ -3143,7 +3139,7 @@ In geen enkel geval schorst het verzoek om advies de strafvordering.
 
 slechts als getuige worden gehoord in het kader van de in § 1 bedoelde strafvordering.
 
-#### Art. 73. bis
+Art. 73. bis
 
 (ingevoegd bij art. 23 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
@@ -3163,7 +3159,7 @@ maatregelen waarover ze beschikken, te hebben genomen om te voorkomen dat het ma
 
 van de overtreding werkelijkheid wordt.
 
-#### Art. 73. ter
+Art. 73. ter
 
 (ingevoegd bij art. 24 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
@@ -3197,7 +3193,7 @@ gemeentebelasting mogen ieder, per agentschap, niet meer bedragen dan respectiev
 
 62 EUR per maand bedrijvigheid of per gedeelte daarvan.
 
-#### Art. 74. bis
+Art. 74. bis
 
 (opgeheven bij art. 1 van het decreet van 06.08.1992 (B.S., 29.09.1992). Tekst van toepassing vanaf 01.03.1993 (art. -))
 
@@ -3723,7 +3719,7 @@ voorwaarden betreffende de vermindering van de belasting, wordt de belasting ver
 
 heeft uitgemaakt van definitief afgesloten strafvervolgingen.
 
-#### Art. 89. bis
+Art. 89. bis
 
 (ingevoegd bij art. 36 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
@@ -3793,7 +3789,7 @@ invordering en de geschillen inzake de directe gewestelijke belastingen, gestraf
 
 bepalingen van de artikelen 220 tot 224 van het Strafwetboek.
 
-#### Art. 90. bis
+Art. 90. bis
 
 (ingevoegd bij art. 38 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
@@ -3805,7 +3801,7 @@ wetten van 22 december 1989 en 20 juli 1991 is niet van toepassing op de overtre
 
 90.
 
-#### Art. 90. ter
+Art. 90. ter
 
 (ingevoegd bij art. 39 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
@@ -3843,7 +3839,7 @@ In geen enkel geval schorst het verzoek om advies de strafvordering.
 
 slechts als getuige worden gehoord in het kader van de in § 1 bedoelde strafvordering.
 
-#### Art. 90. quater
+Art. 90. quater
 
 (ingevoegd bij art. 40 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
@@ -3859,7 +3855,7 @@ en kosten die het gevolg zijn van de veroordelingen welke krachtens artikel 90 t
 
 bedrijfsleiders zijn uitgesproken.
 
-#### Art. 90. quinquies
+Art. 90. quinquies
 
 (ingevoegd bij art. 41 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
@@ -4371,7 +4367,7 @@ overeenkomstig artikel 10, § 3;
 
 2° 50,00 euro voor het voertuig dat uitsluitend op elektriciteit of waterstof rijdt.
 
-C. Kampeerwagens
+### C. Kampeerwagens
 
 Voor kampeerwagens die onderworpen zijn aan een verkeersbelasting ingesteld krachtens artikel 10, § 4, met
 
@@ -4471,7 +4467,7 @@ a) voor de voertuigen onderworpen aan een forfaitair verkeersbelasting van 100 e
 
 10, § 3.
 
-D. Luchtvaartuigen zoals omschreven in artikel 94. De belasting wordt vastgesteld op:
+### D. Luchtvaartuigen zoals omschreven in artikel 94. De belasting wordt vastgesteld op:
 
 1° 0,00 euro voor de op afstand bestuurde luchtvaartuigen bedoeld in artikel 1, eerste lid, 4° en 5°, van het
 
@@ -4887,7 +4883,7 @@ overeenkomstig artikel 10, § 3;
 
 2° 50,00 euro voor het voertuig dat uitsluitend op elektriciteit of waterstof rijdt.
 
-C. Kampeerwagens
+### C. Kampeerwagens
 
 Voor kampeerwagens die onderworpen zijn aan een verkeersbelasting ingesteld krachtens artikel 10, § 4, met
 
@@ -4987,7 +4983,7 @@ a) voor de voertuigen onderworpen aan een forfaitair verkeersbelasting van 100 e
 
 10, § 3.
 
-D. Luchtvaartuigen zoals omschreven in artikel 94. De belasting wordt vastgesteld op:
+### D. Luchtvaartuigen zoals omschreven in artikel 94. De belasting wordt vastgesteld op:
 
 1° 0,00 euro voor de op afstand bestuurde luchtvaartuigen bedoeld in artikel 1, eerste lid, 4° en 5°, van het
 
@@ -5099,7 +5095,7 @@ Nota:
 
 (2) Lees “artikel 94°, 1°“ (zie Franse tekst).
 
-#### Art. 98. bis
+Art. 98. bis
 
 (ingevoegd bij art. 3 van het decreet van 30.05.2025 (B.S., 12.06.2025 – Numac: 2025004290). Tekst van toepassing vanaf
 
@@ -5327,7 +5323,7 @@ De belasting is verbonden aan een aanslagjaar dat begint op de eerste dag van de
 
 verschuldigd is. Deze aanslagjaren worden genoemd naar het jaar waarin de belasting verschuldigd is.
 
-#### Art. 103. bis
+Art. 103. bis
 
 (opgeheven bij art. 39 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van
 
@@ -5413,7 +5409,7 @@ van toepassing vanaf aanslagjaar 2008 (art. 14))
 
 (…)
 
-#### Art. 109. bis
+Art. 109. bis
 
 (opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183). Tekst
 
@@ -5672,3 +5668,4 @@ De stortingswijze, de vestiging en de inning van de belasting en van de aanvulle
 overeenkomstig de regels toepasselijk op de wijze van de storting, van de vestiging en van de inning van de
 
 roerende voorheffing.
+

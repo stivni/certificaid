@@ -8,10 +8,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 132 | 123 | — | 9 | — | — |
+| Wetteksten | 132 | 118 | 5 | 9 | — | — |
 | Normen | 18 | 4 | — | 14 | — | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **586** | 549 | — | 37 | — | — |
+| **Totaal** | **586** | 544 | 5 | 37 | — | — |
 
 ## Wetteksten (132)
 
@@ -26,6 +26,11 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `toelichting-PB-2025-deel1-VG.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Vlaams Gewest |
 | `toelichting-PB-2025-deel2.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Deel 2 |
 | `toelichting-VenB-2025.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de vennootschapsbelasting — AJ 2025 |
+| `Decr-Waals-Directe-Belastingen.md` | ◻️ unreviewed | — | — | default | Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de … |
+| `MIGB-Brussel.md` | ◻️ unreviewed | — | — | default | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofds… |
+| `MIGB-Vlaanderen.md` | ◻️ unreviewed | — | — | default | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest |
+| `MIGB-Wallonie.md` | ◻️ unreviewed | — | — | default | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest |
+| `Wet-beroepskwalificaties-2008.md` | ◻️ unreviewed | — | — | default | Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van … |
 | `aangifte-PB-2025-bezoldigingen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-bezoldigingen |
 | `aangifte-PB-2025-stopzetting.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-stopzetting |
 | `Antiwitwaswet-2017.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van … |
@@ -42,10 +47,9 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `BW-boek5-verbintenissen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 5 — Verbintenissen |
 | `BW-boek8-bewijs.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 8 — Bewijs |
 | `BW-boek9-zekerheden.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 9 — Zekerheden |
-| `Decr-Waals-Directe-Belastingen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de … |
-| `EU-AVG-Verordening-2016-679.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betre… |
+| `EU-AVG-Verordening-2016-679.md` | ✅ trusted | — | — | human | Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betre… |
 | `EU-IFRS-verordening-1606-2002.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 b… |
-| `EU-Richtlijn-fusie-2009-133.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke… |
+| `EU-Richtlijn-fusie-2009-133.md` | ✅ trusted | — | — | human | Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke… |
 | `EU-Richtlijn-interest-royalties-2003-49.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke bel… |
 | `EU-Richtlijn-moeder-dochter-2011-96.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke… |
 | `EU-Richtlijn-witwassen-2018-1673.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inza… |
@@ -55,19 +59,16 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `KB-voorafgaande-beslissingen-art22-2003.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 decem… |
 | `KB-voorafgaande-beslissingen-art26-2003.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002 tot … |
 | `KB-WIB92.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen 1992 (KB/… |
-| `KB-WVV-2019.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen… |
+| `KB-WVV-2019.md` | ✅ trusted | — | — | human | Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen… |
 | `Klokkenluiderswet-2022.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- … |
 | `MAR-ondernemingen.md` | ✅ trusted | — | — | human | Minimum Algemeen Rekeningstelsel voor boekhoudplichtige ondernemingen (KB 21.10.2018 Bi… |
 | `MAR-vzw.md` | ✅ trusted | — | — | human | Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW) |
-| `MIGB-Brussel.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofds… |
-| `MIGB-Vlaanderen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest |
-| `MIGB-Wallonie.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest |
-| `Oud-BW.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019) |
+| `Oud-BW.md` | ✅ trusted | — | — | human | Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019) |
 | `Registratierechten-Brussel.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk Gewest |
 | `Registratierechten-federaal.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal |
 | `Registratierechten-Waals.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest |
 | `Richtlijn-2013-34-EU.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende… |
-| `Strafwetboek-1867.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Strafwetboek 8 juni 1867 (Oud Strafwetboek) |
+| `Strafwetboek-1867.md` | ✅ trusted | — | — | human | Strafwetboek 8 juni 1867 (Oud Strafwetboek) |
 | `Strafwetboek2024-boek1.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 1 |
 | `Strafwetboek2024-boek2.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2 |
 | `Successierechten-Brussel.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek der Successierechten — Brussels Hoofdstedelijk Gewest |
@@ -138,16 +139,15 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-MB6-uitstel-invoer.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de t… |
 | `WBTW.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoegde waar… |
 | `WDRT.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek Diverse Rechten en Taksen |
-| `WER.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek van Economisch Recht |
+| `WER.md` | ✅ trusted | — | — | human | Wetboek van Economisch Recht |
 | `Wet-arbeidsovereenkomsten-1978.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 3 juli 1978 betreffende de arbeidsovereenkomsten |
-| `Wet-beroepskwalificaties-2008.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van … |
 | `Wet-betalingsachterstand-2002.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelst… |
 | `Wet-ITAA-2019.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Acco… |
-| `Wet-verzekeringen-2014.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 4 april 2014 betreffende de verzekeringen |
+| `Wet-verzekeringen-2014.md` | ✅ trusted | — | — | human | Wet 4 april 2014 betreffende de verzekeringen |
 | `Wet-voorafgaande-beslissingen-2002.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelasti… |
 | `Wetboek-Invordering.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvo… |
 | `WIB92.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | WIB92 |
-| `WVV.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek van vennootschappen en verenigingen 23/03/2019 |
+| `WVV.md` | ✅ trusted | — | — | human | Wetboek van vennootschappen en verenigingen 23/03/2019 |
 | `X-oeso-model-verdrag.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | X-oeso-model-verdrag |
 
 **Caveats** (bekende beperkingen van trusted-bronnen):

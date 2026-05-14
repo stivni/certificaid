@@ -17,24 +17,20 @@ provenance:
       version: 13.04.2019
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 4eaec39e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:25:06Z'
+  generated_at: '2026-05-14T18:54:23Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T15:23:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "L1 pass: 402 headings, max sectie 6938 chars. ###### Artikel-headings correct, concordantietabel VCF-VCF als plain-text tabel OK. Opgeheven bepalingen als '(...)' zijn bron-stijl. Inhoud volledig."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T15:23:18Z'
-      rationale: "L1 pass: 402 headings, max sectie 6938 chars. ###### Artikel-headings correct, concordantietabel VCF-VCF als plain-text tabel OK. Opgeheven bepalingen als '(...)' zijn bron-stijl. Inhoud volledig."
-      concrete_problemen: []
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest
@@ -163,7 +159,7 @@ Zie ook de artikelen 3.2.1.0.1, 3.2.1.0.2, 3.2.3.0.1, 3.2.5.0.1, 3.4.1.0.1, 3.4.
 
 Fiscaliteit.
 
-##### Art. 2. bis
+Art. 2. bis
 
 (gewijzigd bij art. 16 van het decreet van 9 jul. 2010 (B.S., 28.07.2010). Tekst van toepassing door art. 26 van
 
@@ -189,7 +185,7 @@ automatische ontspanningstoestellen wat betreft het Vlaamse Gewest, wordt opgehe
 
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 2. bis
+Art. 2. bis
 
 Opgeheven
 
@@ -297,7 +293,7 @@ de Vlaamse Codex Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB  Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 7, eerste lid  Art. 2.2.3.0.1
+Art. 7, eerste lid  Art. 2.2.3.0.1
 
 ###### Artikel 8
 
@@ -547,7 +543,7 @@ Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
 ##### Art. 23  Art. 2.2.6.0.3, eerste lid
 
-##### Art. 23. bis
+Art. 23. bis
 
 (het Wetboek van 23 november 1965 van de met inkomstenbelastingen gelijkgestelde belastingen voor wat betreft de bepalingen
 
@@ -561,11 +557,11 @@ Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 23. bis
+Art. 23. bis
 
 ##### Art. 3.4.7.0.3
 
-##### Art. 23. ter
+Art. 23. ter
 
 (het Wetboek van 23 november 1965 van de met inkomstenbelastingen gelijkgestelde belastingen voor wat betreft de bepalingen
 
@@ -579,7 +575,7 @@ Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 23. ter
+Art. 23. ter
 
 ##### Art. 2.2.6.0.4
 
@@ -735,7 +731,7 @@ Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
 ##### Art. 33/1  Art. 3.13.2.0.5
 
-##### Art. 33. bis
+Art. 33. bis
 
 (het Wetboek van 23 november 1965 van de met inkomstenbelastingen gelijkgestelde belastingen voor wat betreft de bepalingen
 
@@ -749,11 +745,11 @@ Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB  Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 33. bis , eerste lid
+Art. 33. bis , eerste lid
 
 ##### Art. 3.10.3.2.1
 
-##### Art. 33. bis , tweede lid
+Art. 33. bis , tweede lid
 
 ##### Art. 3.10.2.0.1
 
@@ -815,7 +811,7 @@ vanaf aanslagjaar 2014 (art. 7.0.0.0.1))
 
 #### HOOFDSTUK X bis - Bijzondere bepalingen
 
-##### Art. 36. bis
+Art. 36. bis
 
 (het Wetboek van 23 november 1965 van de met inkomstenbelastingen gelijkgestelde belastingen voor wat betreft de bepalingen
 
@@ -829,33 +825,33 @@ Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB  Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 36. bis
+Art. 36. bis
 
 ##### Art. 3.13.2.0.4
 
-##### Art. 36. bis
+Art. 36. bis
 
 ##### Art. 3.13.2.0.5
 
-##### Art. 36. bis , eerste lid
+Art. 36. bis , eerste lid
 
 ##### Art. 2.2.2.0
 
 1, § 2, tweede lid
 
-##### Art. 36. bis , eerste lid
+Art. 36. bis , eerste lid
 
 ##### Art. 2.2.6.0
 
 3, tweede lid
 
-##### Art. 36. bis , tweede lid
+Art. 36. bis , tweede lid
 
 ##### Art. 2.2.7.0
 
 2, § 1
 
-##### Art. 36. ter
+Art. 36. ter
 
 (het Wetboek van 23 november 1965 van de met inkomstenbelastingen gelijkgestelde belastingen voor wat betreft de
 
@@ -881,39 +877,39 @@ Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB  Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 36. quater
+Art. 36. quater
 
 ##### Art. 3.3.2.0.1
 
-##### Art. 36. quater , § 1
+Art. 36. quater , § 1
 
 ##### Art. 2.2.7.0
 
 2, § 1
 
-##### Art. 36. quater , § 2, tweede zin
+Art. 36. quater , § 2, tweede zin
 
 ##### Art. 3.3.1.0.1
 
-##### Art. 36. quater , § 3
+Art. 36. quater , § 3
 
 ##### Art. 2.2.7.0
 
 2, § 2
 
-##### Art. 36. quater , § 5
+Art. 36. quater , § 5
 
 ##### Art. 2.2.7.0
 
 2, § 3
 
-##### Art. 36. quater , § 6
+Art. 36. quater , § 6
 
 ##### Art. 2.2.7.0
 
 2, § 4
 
-##### Art. 36. quater , § 7
+Art. 36. quater , § 7
 
 ##### Art. 3.3.1.0.1
 
@@ -999,11 +995,11 @@ Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB  Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 40, eerste lid  Art. 3.3.1.0.2
+Art. 40, eerste lid  Art. 3.3.1.0.2
 
-##### Art. 40, tweede lid  Art. 3.13.2.0.4
+Art. 40, tweede lid  Art. 3.13.2.0.4
 
-##### Art. 40, tweede lid, eerste zin  Art. 3.18.0.0.4
+Art. 40, tweede lid, eerste zin  Art. 3.18.0.0.4
 
 ###### Artikel 41
 
@@ -1069,7 +1065,7 @@ Vlaamse Gewest wordt opgeheven met uitzondering van artikel 42 (art. 5.0.0.0.1, 
 
 Fiscaliteit van 13.12.2013 (B.S., 23.12.2013)).
 
-##### Art. 42. bis
+Art. 42. bis
 
 (het Wetboek van 23 november 1965 van de met inkomstenbelastingen gelijkgestelde belastingen voor wat betreft de bepalingen
 
@@ -1083,7 +1079,7 @@ Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 42. bis
+Art. 42. bis
 
 ##### Art. 3.1.0.0.4
 
@@ -1111,7 +1107,7 @@ Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
 ##### Art. 43  Art. 2.12.6.0.1
 
-##### Art. 43. bis
+Art. 43. bis
 
 (het wetboek van 23 november 1965 van de met Inkomstenbelastingen Gelijkgestelde Belastingen, zoals van toepassing op de
 
@@ -1125,25 +1121,25 @@ bepalingen (bijlage 1, concordantietabel van de van de Vlaamse Codex Fiscaliteit
 
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 43. bis , § 1
+Art. 43. bis , § 1
 
 ##### Art. 2.12.3.0
 
 1, § 1, eerste lid
 
-##### Art. 43. bis , § 1
+Art. 43. bis , § 1
 
 ##### Art. 2.12.4.0
 
 1, § 2, eerste lid, 1°
 
-##### Art. 43. bis , § 2
+Art. 43. bis , § 2
 
 ##### Art. 2.12.3.0
 
 1, § 1, eerste lid
 
-##### Art. 43. ter
+Art. 43. ter
 
 (het wetboek van 23 november 1965 van de met Inkomstenbelastingen Gelijkgestelde Belastingen, zoals van toepassing op de
 
@@ -1157,7 +1153,7 @@ bepalingen (bijlage 1, concordantietabel van de van de Vlaamse Codex Fiscaliteit
 
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 43. ter
+Art. 43. ter
 
 ##### Art. 2.12.3.0
 
@@ -1373,9 +1369,9 @@ bepalingen (bijlage 1, concordantietabel van de van de Vlaamse Codex Fiscaliteit
 
 Bepaling WIGB  Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 58, eerste deel  Art. 3.13.1.2.6
+Art. 58, eerste deel  Art. 3.13.1.2.6
 
-##### Art. 58, tweede deel  Art. 3.13.1.2.2
+Art. 58, tweede deel  Art. 3.13.1.2.2
 
 ###### Artikel 59
 
@@ -1575,9 +1571,9 @@ bepalingen (bijlage 1, concordantietabel van de van de Vlaamse Codex Fiscaliteit
 
 Bepaling WIGB  Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 70, eerste lid, 1°  Art. 3.15.3.0.13
+Art. 70, eerste lid, 1°  Art. 3.15.3.0.13
 
-##### Art. 70, eerste lid, 2° en tweede tot vierde lid  Art. 3.16.0.0.5
+Art. 70, eerste lid, 2° en tweede tot vierde lid  Art. 3.16.0.0.5
 
 ###### Artikel 71
 
@@ -1719,9 +1715,9 @@ bepalingen (bijlage 1, concordantietabel van de van de Vlaamse Codex Fiscaliteit
 
 Bepaling WIGB  Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 78, eerste zin  Art. 2.13.2.0.1
+Art. 78, eerste zin  Art. 2.13.2.0.1
 
-##### Art. 78, tweede zin  Art. 3.10.4.4.6
+Art. 78, tweede zin  Art. 3.10.4.4.6
 
 ### HOOFDSTUK III - Bedrag van de belasting
 
@@ -1853,7 +1849,7 @@ Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
 (art. 46))
 
-##### Art. 84. bis
+Art. 84. bis
 
 (opgeheven bij art. 42 van het decreet van 27 jun. 2003 (B.S., 12.09.2003). Tekst van toepassing vanaf 1 jul. 2003
 
@@ -1937,13 +1933,13 @@ bepalingen (bijlage 1, concordantietabel van de van de Vlaamse Codex Fiscaliteit
 
 Bepaling WIGB  Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 89, eerste lid  Art. 2.13.7.0.1
+Art. 89, eerste lid  Art. 2.13.7.0.1
 
-##### Art. 89, tweede lid  Art. 3.18.0.0.15/2
+Art. 89, tweede lid  Art. 3.18.0.0.15/2
 
-##### Art. 89, derde lid  Art. 3.18.0.0.3
+Art. 89, derde lid  Art. 3.18.0.0.3
 
-##### Art. 89, vierde lid  Art. 3.3.3.0.1, § 2
+Art. 89, vierde lid  Art. 3.3.3.0.1, § 2
 
 ###### Artikel 90
 
@@ -1985,15 +1981,15 @@ bepalingen (bijlage 1, concordantietabel van de van de Vlaamse Codex Fiscaliteit
 
 Bepaling WIGB  Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 92, eerste lid  Art. 3.18.0.0.15/2, tweede lid
+Art. 92, eerste lid  Art. 3.18.0.0.15/2, tweede lid
 
-##### Art. 92, tweede lid  Art. 2.13.2.0.1
+Art. 92, tweede lid  Art. 2.13.2.0.1
 
-##### Art. 92, tweede lid  Art. 3.10.4.4.6
+Art. 92, tweede lid  Art. 3.10.4.4.6
 
-##### Art. 92, derde lid  Art. 3.3.3.0.1, § 2
+Art. 92, derde lid  Art. 3.3.3.0.1, § 2
 
-##### Art. 92, derde lid  Art. 3.18.0.0.3
+Art. 92, derde lid  Art. 3.18.0.0.3
 
 ### HOOFDSTUK VIII – Bevoegdheid van de provincies en gemeenten
 
@@ -2135,7 +2131,7 @@ Bepaling WIGB  Bepaling Vlaamse Codex Fiscaliteit
 
 artikel 94, punt 1°, die worden geacht in het verkeer te zijn gesteld in het Vlaamse Gewest
 
-##### Art. 97. bis
+Art. 97. bis
 
 (het Wetboek van 23 nov. 1965 van de met inkomstenbelastingen gelijkgestelde belastingen voor wat betreft de bepalingen van de
 
@@ -2149,11 +2145,11 @@ Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 97. bis
+Art. 97. bis
 
 ##### Art. 2.3.4.1.1
 
-##### Art. 97. ter
+Art. 97. ter
 
 (het Wetboek van 23 nov. 1965 van de met inkomstenbelastingen gelijkgestelde belastingen voor wat betreft de bepalingen van de
 
@@ -2167,11 +2163,11 @@ Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 97. ter
+Art. 97. ter
 
 ##### Art. 2.3.4.1.2
 
-##### Art. 97. quater
+Art. 97. quater
 
 (het Wetboek van 23 nov. 1965 van de met inkomstenbelastingen gelijkgestelde belastingen voor wat betreft de bepalingen van de
 
@@ -2185,11 +2181,11 @@ Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 97. quater
+Art. 97. quater
 
 ##### Art. 2.3.4.1.2
 
-##### Art. 97. quinquies
+Art. 97. quinquies
 
 (het Wetboek van 23 nov. 1965 van de met inkomstenbelastingen gelijkgestelde belastingen voor wat betreft de bepalingen van de
 
@@ -2203,11 +2199,11 @@ Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB  Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 97. quinquies
+Art. 97. quinquies
 
 ##### Art. 2.3.4.1.3
 
-##### Art. 97. sexies
+Art. 97. sexies
 
 (het Wetboek van 23 nov. 1965 van de met inkomstenbelastingen gelijkgestelde belastingen voor wat betreft de bepalingen van de
 
@@ -2221,11 +2217,11 @@ Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 97. sexies
+Art. 97. sexies
 
 ##### Art. 2.3.4.1.4
 
-##### Art. 97. septies
+Art. 97. septies
 
 (het Wetboek van 23 nov. 1965 van de met inkomstenbelastingen gelijkgestelde belastingen voor wat betreft de bepalingen van de
 
@@ -2239,11 +2235,11 @@ Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 97. septies
+Art. 97. septies
 
 ##### Art. 2.3.4.1.5
 
-##### Art. 97. octies
+Art. 97. octies
 
 (het Wetboek van 23 nov. 1965 van de met inkomstenbelastingen gelijkgestelde belastingen voor wat betreft de bepalingen van de
 
@@ -2257,7 +2253,7 @@ Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 97. octies
+Art. 97. octies
 
 ##### Art. 2.3.4.1.6
 
@@ -2279,7 +2275,7 @@ Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
 ##### Art. 2.3.4.1.7
 
-##### Art. 97. decies
+Art. 97. decies
 
 (het Wetboek van 23 nov. 1965 van de met inkomstenbelastingen gelijkgestelde belastingen voor wat betreft de bepalingen van de
 
@@ -2293,7 +2289,7 @@ Fiscaliteit (art. 7.0.0.0.1))
 
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
-##### Art. 97. decies
+Art. 97. decies
 
 ##### Art. 2.3.6.0.2
 
@@ -2397,7 +2393,7 @@ Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 
 ##### Art. 103  Art. 3.3.2.0.1
 
-##### Art. 103. bis
+Art. 103. bis
 
 (het Wetboek van 23 nov. 1965 van de met inkomstenbelastingen gelijkgestelde belastingen voor wat betreft de bepalingen van de
 
@@ -2509,7 +2505,7 @@ aanslagjaar 2008 (art. 14))
 
 (…)
 
-##### Art. 109. bis
+Art. 109. bis
 
 (opgeheven bij art. 13 van de programmawet van 5 aug. 2003 (B.S., 07.08.2003). Tekst van toepassing vanaf
 

@@ -17,29 +17,20 @@ provenance:
       version: gecoördineerd
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 4eaec39e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:25:09Z'
+  generated_at: '2026-05-14T18:54:18Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T15:23:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Laag-1 meldt geen flags (status: pass). Body is inhoudelijk volledig: Boek 1 (Art. 1-100ter) en Boek 2 (Art. 101-566) aanwezig, correct als ###### Art. N headings, met wetgevingshistoriek in <W ...>-noten per artikel. Geen kolom-bleed, geen OCR-verwarringen, geen form-feed resten. Wijzigingsnotities zoals <W 2003-01-23/42, art. 89> zijn consistent en opzettelijk onderdeel van de Fisconet-coördinatie. Art. 7bis, 30bis, 34bis, 34quinquies, 37bis, 41bis, 50bis, 100ter en andere lege headings (enkel het Art.-nummer, geen body) zijn conformEen een kenmerk van de wetsbron zelf waar de artikelinhoud volledig opgeheven is — dit is source-eigenaardigheid, geen ETL-bug.'
+    confirmed_at: '2026-05-14T18:56:24Z'
+    confirmed_by: human
+    rationale: 'Re-converteerd na ETL-fixes: split_merged_headings volgorde + _NR_RE slash-support + normalize_artikel_to_art markdown-prefix. Afdeling+Onderafdeling correct gemerged op L5, Art. alleen op L6 (BE-wetteksten) of Artikel-headings correct gepromoveerd (EU-bronnen).'
+    caveat:
     layer1:
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T15:23:28Z'
-      rationale: 'Laag-1 meldt geen flags (status: pass). Body is inhoudelijk volledig: Boek 1 (Art. 1-100ter) en Boek 2 (Art. 101-566) aanwezig, correct als ###### Art. N headings, met wetgevingshistoriek in <W ...>-noten per artikel. Geen kolom-bleed, geen OCR-verwarringen, geen form-feed resten. Wijzigingsnotities zoals <W 2003-01-23/42, art. 89> zijn consistent en opzettelijk onderdeel van de Fisconet-coördinatie. Art. 7bis, 30bis, 34bis, 34quinquies, 37bis, 41bis, 50bis, 100ter en andere lege headings (enkel het Art.-nummer, geen body) zijn conformEen een kenmerk van de wetsbron zelf waar de artikelinhoud volledig opgeheven is — dit is source-eigenaardigheid, geen ETL-bug.'
-      concrete_problemen:
-        - regel: 103
-          categorie: B1
-          type: other
-          voorbeeld: '###### Art. 7bis (heading zonder body — opgeheven artikel, source-conform)'
-          extra: source-typo
 ---
 
 # Strafwetboek 8 juni 1867 (Oud Strafwetboek)
@@ -70,11 +61,6 @@ bevoegde dienst van de gemeenschappen] 2 .  In dit geval kan het openbaar minist
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-10/80, art. 11, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W 2014-05-08/55, art. 6, gewijzigd zichzelf bij W 2015-11-23/02, art. 13)>   ( 2 )<W 2024-01-18/06, art. 16, 157; Inwerkingtreding : 05-02-2024>
 
-
-##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN.
-
-###### Onderafdeling I. - (De geldboete op natuurlijke personen toepasselijk). <Ingevoegd bij W 1999-05-04/60, art. 7; Inwerkingtreding : 02-07-1999>
-
 ###### Art. 38
 
 De geldboete wegens overtreding bedraagt ten minste een [euro] en ten hoogste vijfentwintig [euro], behoudens de bij de wet uitgezonderde gevallen.  De geldboete wegens misdaad of wanbedrijf bedraagt ten minste zesentwintig [euro].  De geldboeten worden geïnd ten bate van de Staat.
@@ -87,15 +73,11 @@ Wanneer verscheidene personen wegens een zelfde misdrijf worden veroordeeld, wor
 
 In alle gevallen kan de veroordeelde zich van die gevangenisstraf bevrijden door de geldboete te betalen; hij kan zich niet onttrekken aan het verhaal op zijn goederen door aan te bieden de gevangenisstraf te ondergaan.
 
-##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN.
-
-###### Onderafdeling II. - (De geldboete op rechtspersonen toepasselijk). <Ingevoegd bij W 1999-05-04/60, art. 8; Inwerkingtreding : 02-07-1999>
+##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN. - Onderafdeling II. - (De geldboete op rechtspersonen toepasselijk). <Ingevoegd bij W 1999-05-04/60, art. 8; Inwerkingtreding : 02-07-1999>
 
 ###### Art. 41bis
 
-##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN.
-
-###### Onderafdeling III. - (Bijzondere verbeurdverklaring). <Ingevoegd bij W 1999-05-04/60, art. 9; Inwerkingtreding : 02-07-1999>
+##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN. - Onderafdeling III. - (Bijzondere verbeurdverklaring). <Ingevoegd bij W 1999-05-04/60, art. 9; Inwerkingtreding : 02-07-1999>
 
 ###### Art. 42
 
@@ -131,9 +113,13 @@ Wanneer de wet de schadevergoeding niet regelt, bepaalt het hof of de rechtbank 
 
 ----------  ( 1 )<hersteld door W 2012-12-10/14, art. 42, 088; Inwerkingtreding : 21-01-2013>   ( 2 )<W 2022-03-21/01, art. 90, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 47. (Opgeheven) <W 31-01-1980, art. 4, 1°>
+###### Art. 47
 
-###### Art. 48. (Opgeheven) <W 31-01-1980, art. 4, 1°>
+(Opgeheven) <W 31-01-1980, art. 4, 1°>
+
+###### Art. 48
+
+(Opgeheven) <W 31-01-1980, art. 4, 1°>
 
 ###### Art. 49
 
@@ -249,17 +235,29 @@ De straf tegen medeplichtigen aan een wanbedrijf zal niet hoger zijn dan twee de
 
 [ 1 Er is geen misdrijf wanneer de beschuldigde of de beklaagde op het tijdstip van de feiten leed aan een geestesstoornis die zijn oordeelsvermogen of de controle over zijn daden heeft tenietgedaan [ 2 ...] 2 of wanneer hij gedwongen werd door een macht die hij niet heeft kunnen weerstaan.] 1
 
-###### Art. 72. (Opgeheven) <W 15-05-1912, art. 64>
+###### Art. 72
 
-###### Art. 73. (Opgeheven) <W 15-05-1912, art. 64>
+(Opgeheven) <W 15-05-1912, art. 64>
 
-###### Art. 74. (Opgeheven) <W 15-05-1912, art. 64>
+###### Art. 73
 
-###### Art. 75. (Opgeheven) <W 15-05-1912, art. 64>
+(Opgeheven) <W 15-05-1912, art. 64>
 
-###### Art. 76. (Opgeheven) <W 09-04-1930, art. 32>
+###### Art. 74
 
-###### Art. 77. (Opgeheven) <W 1996-07-10/42, art. 21, 018; Inwerkingtreding : 11-08-1996>
+(Opgeheven) <W 15-05-1912, art. 64>
+
+###### Art. 75
+
+(Opgeheven) <W 15-05-1912, art. 64>
+
+###### Art. 76
+
+(Opgeheven) <W 09-04-1930, art. 32>
+
+###### Art. 77
+
+(Opgeheven) <W 1996-07-10/42, art. 21, 018; Inwerkingtreding : 11-08-1996>
 
 ###### Art. 78
 
@@ -325,7 +323,9 @@ Straffen, uitgesproken bij onherroepelijk geworden arresten of vonnissen, gaan t
 
 Onbekwaamheden, door de rechter uitgesproken of door de wet aan sommige veroordelingen verbonden, houden op door kwijtschelding, die de Koning daarvan kan verlenen krachtens het recht van genade.
 
-###### Art. 88. (Opgeheven) <W 09-04-1930, art. 32>
+###### Art. 88
+
+(Opgeheven) <W 09-04-1930, art. 32>
 
 ###### Art. 90
 
@@ -553,7 +553,9 @@ Hij die door vijandelijke handelingen, door de Regering niet goedgekeurd, de Sta
 
 (Zie NOTA 1 onder TITEL) <W 19-07-1934, art. 1> De samenspanning om een misdaad of een wanbedrijf tegen personen of eigendommen te plegen, gesmeed met het oogmerk om in oorlogstijd hetzij de verdediging van het grondgebied, hetzij de mobilisatie, hetzij de wapen-, munitie- of levensmiddelenvoorziening van het leger te belemmeren, wordt, onverminderd de toepassing van strengere bepalingen, gestraft met de straffen, in artikel 123bis bepaald.  Wordt de samenspanning in oorlogstijd gesmeed, dan wordt zij met (opsluiting van vijf jaar tot tien jaar) gestraft. <W 2003-01-23/42, art. 32, 040; Inwerkingtreding : 13-03-2003>
 
-###### Art. 123quinquies. <W 19-07-1934, art. 1> De verbeurdverklaring van de zaken die gediend hebben of
+###### Art. 123quinquies
+
+<W 19-07-1934, art. 1> De verbeurdverklaring van de zaken die gediend hebben of
 
 bestemd waren om het misdrijf te plegen, wordt altijd uitgesproken, evenals de verbeurdverklaring van de plans, kaarten, geschriften, bescheiden, afschriften, opmetingen, fotografische opnamen, gezichten, reprodukties en alle andere door het misdrijf verkregen zaken.  (In de gevallen van de artikelen 119, 120, 120bis, 121bis, 122bis en 123quater, kunnen de tot gevangenisstraf veroordeelden verwezen worden tot levenslange of tijdelijke ontzetting van de rechten, genoemd in [ 1 artikel 31, eerste lid] 1 .) <B 31-12-1939, art. 2>  ----------  ( 1 )<W 2009-04-14/01, art. 8, 073; Inwerkingtreding : 15-04-2009>
 
@@ -611,7 +613,9 @@ Ingeval de oproerige bijeenkomst niet een van de misdaden, in de artikelen 101, 
 
 In alle gevallen van overtreding van deze bepaling worden de ontvangen zaken verbeurd verklaard [ 2 ...] 2 .  De ontzetting van de uitoefening van de rechten, genoemd in [ 1 artikel 31, eerste lid] 1 , of van sommige van die rechten kan worden uitgesproken voor een termijn van vijf jaar tot tien jaar.  ----------  ( 1 )<W 2009-04-14/01, art. 9, 073; Inwerkingtreding : 15-04-2009>   ( 2 )<W 2014-05-05/09, art. 10, 106; Inwerkingtreding : 18-07-2014>   ( 3 )<W 2024-03-28/60, art. 77, 158; Inwerkingtreding : 08-04-2024>
 
-###### Art. 135ter. (Opgeheven) <W 01-08-1979, art. 7>
+###### Art. 135ter
+
+(Opgeheven) <W 01-08-1979, art. 7>
 
 ###### Art. 135quater
 
@@ -757,9 +761,13 @@ Ieder openbaar officier of ambtenaar, ieder drager of agent van het openbaar gez
 
 Ieder ambtenaar van de administratieve of de rechterlijke orde, ieder officier van justitie of van politie, ieder bevelhebber of agent van de openbare macht, die, in die hoedanigheid optredend, in de woning van een ingezetene tegen diens wil binnendringt buiten de gevallen die de wet bepaalt en zonder inachtneming van de vormen die zij voorschrijft, wordt gestraft met gevangenisstraf van acht dagen tot zes maanden en met geldboete van zesentwintig [euro] tot tweehonderd [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01- 2002>
 
-###### Art. 149. (Opgeheven) <W 26-12-1956, art. 36>
+###### Art. 149
 
-###### Art. 150. (Opgeheven) <W 13-10-1930, art. 31>
+(Opgeheven) <W 26-12-1956, art. 36>
+
+###### Art. 150
+
+(Opgeheven) <W 13-10-1930, art. 31>
 
 ###### Art. 151
 
@@ -813,13 +821,21 @@ Met dezelfde straf worden gestraft de ambtenaren van het openbare ministerie, de
 
 <W 2001-04-04/39, art. 3, 031; Inwerkingtreding : 03-07-2001> Verandering van zulke munten wordt gestraft met opsluiting van vijf jaar tot tien jaar.
 
-###### Art. 164. (Opgeheven) <W 12-07-1932, art. 1, 3°>
+###### Art. 164
 
-###### Art. 165. (Opgeheven) <W 12-07-1932, art. 1, 3°>
+(Opgeheven) <W 12-07-1932, art. 1, 3°>
 
-###### Art. 166. (Opgeheven) <W 12-07-1932, art. 1, 3°>
+###### Art. 165
 
-###### Art. 167. (Opgeheven) <W 12-07-1932, art. 1, 3°>
+(Opgeheven) <W 12-07-1932, art. 1, 3°>
+
+###### Art. 166
+
+(Opgeheven) <W 12-07-1932, art. 1, 3°>
+
+###### Art. 167
+
+(Opgeheven) <W 12-07-1932, art. 1, 3°>
 
 ###### Art. 168
 
@@ -997,7 +1013,6 @@ Hij die op fabrikaten de naam van een andere fabrikant dan de voortbrenger, of d
 
 Valsheid in (geschriften, informatica of in telegrammen), met bedrieglijk opzet of met het oogmerk om te schaden, wordt gestraft overeenkomstig de volgende artikelen. <W 2000-11-28/34, art. 3, 028; Inwerkingtreding : 13-02-2001>
 
-
 ##### AFDELING I. - VALSHEID IN AUTHENTIEKE EN OPENBARE GESCHRIFTEN, IN HANDELS- OF BANKGESCHRIFTEN EN IN PRIVATE GESCHRIFTEN.
 ###### Art. 194
 
@@ -1010,7 +1025,6 @@ Valsheid in (geschriften, informatica of in telegrammen), met bedrieglijk opzet 
 ###### Art. 197
 
 In alle gevallen in deze afdeling vermeld, wordt hij die gebruik maakt van de valse akte of van het valse stuk, gestraft alsof hij de dader van de valsheid was.
-
 
 ##### AFDELING II. - VALSHEID IN REISPASSEN, MACHTIGINGEN OM WAPENS TE DRAGEN, ARBEIDSBOEKJES, REISORDERS EN GETUIGSCHRIFTEN.
 ###### Art. 198
@@ -1065,10 +1079,8 @@ Zij die als getuige meewerken om door een openbare overheid een vals getuigschri
 
 <W 17-12-1963, art. 3> Hij die bij de wet krachtens deze wet gelast is betreffende het herbergen van reizigers een register of kaarten te houden en deze personen wetens op valse namen inschrijft, of dit register of deze kaarten op enige andere wijze vervalst, wordt gestraft met gevangenisstraf van acht dagen tot drie maanden.
 
-
 ##### AFDELING IIbis. - Valsheid in informatica. <ingevoegd bij W 2000-11-28/34, art. 4; Inwerkingtreding : 13-02- 2001>
 ###### Art. 210bis
-
 
 ##### AFDELING III. - VALSHEID IN TELEGRAMMEN.
 ###### Art. 211
@@ -1157,7 +1169,9 @@ Hij die zich inmengt in openbare ambten, hetzij burgerlijke of militaire, wordt 
 
 ----------  ( 1 )<Ingevoegd bij W 2018-06-18/03, art. 238, 130; Inwerkingtreding : 12-07-2018>
 
-###### Art. 227quinquies. [ 1  Hij die in het openbaar de titel van gerechtsdeurwaarder of kandidaat-
+###### Art. 227quinquies
+
+[ 1  Hij die in het openbaar de titel van gerechtsdeurwaarder of kandidaat-
 
 gerechtsdeurwaarder voert of het beroep van gerechtsdeurwaarder of kandidaat-gerechtsdeurwaarder uitoefent indien hij niet voorkomt op de lijst bedoeld in artikel 555/1, § 1, 15° van het Gerechtelijk Wetboek, wordt gestraft met een geldboete van tweehonderd euro tot duizend euro.] 1
 
@@ -1223,7 +1237,9 @@ Met gevangenisstraf van een maand tot twee jaar en met geldboete van vijftig [eu
 
 <W 1999-02-10/39, art. 3, 023; Inwerkingtreding : 02-04-1999> Iedere persoon die een openbaar ambt uitoefent, die zich schuldig maakt aan knevelarij, door bevel te geven om rechten, taksen, belastingen, gelden, inkomsten of interesten, lonen of wedden te innen, of door die te vorderen of te ontvangen, wetende dat zij niet verschuldigd zijn of het verschuldigde te boven gaan, wordt gestraft met gevangenisstraf van zes maanden tot vijf jaar en met geldboete van 100 [euro] tot 50 000 [euro] of met één van die straffen, en hij kan bovendien, overeenkomstig artikel 33, worden veroordeeld tot ontzetting van het recht om openbare ambten, bedieningen of betrekkingen te vervullen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  De straf is opsluiting van vijf jaar tot tien jaar en een geldboete van 500 [euro] tot 100 000 [euro], indien de knevelarij met behulp van geweld of van bedreiging is gepleegd. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
-###### Art. 244. (Opgeheven) <W 1999-02-10/39, art. 3, 023; Inwerkingtreding : 02-04-1999>
+###### Art. 244
+
+(Opgeheven) <W 1999-02-10/39, art. 3, 023; Inwerkingtreding : 02-04-1999>
 
 (. ..). <W 1999-02-10/39, art. 3, 023; Inwerkingtreding : 02-04-1999>
 
@@ -1247,13 +1263,17 @@ Met gevangenisstraf van een maand tot twee jaar en met geldboete van vijftig [eu
 
 ----------  ( 1 )<W 2016-02-05/11, art. 22, 114; Inwerkingtreding : 29-02-2016>
 
-###### Art. 251. (Opgeheven) <W 2007-05-11/42, art. 6, 066; Inwerkingtreding : 08-06/2007>
+###### Art. 251
+
+(Opgeheven) <W 2007-05-11/42, art. 6, 066; Inwerkingtreding : 08-06/2007>
 
 ###### Art. 252
 
 <W 1999-02-10/39, art. 4, 023; Inwerkingtreding : 02-04-1999> Zij die op grond van de bepalingen van dit hoofdstuk worden gestraft, kunnen ook worden veroordeeld tot ontzetting van rechten, overeenkomstig artikel 33 en onverminderd de artikelen 31 en 32.
 
-###### Art. 253. (Opgeheven) <W 1999-02-10/39, art. 4, 023; Inwerkingtreding : 02-04-1999>
+###### Art. 253
+
+(Opgeheven) <W 1999-02-10/39, art. 4, 023; Inwerkingtreding : 02-04-1999>
 
 #### HOOFDSTUK V. - MISBRUIK VAN GEZAG.
 
@@ -1339,7 +1359,9 @@ Met gevangenisstraf van acht dagen tot drie maanden en met geldboete van zesentw
 
 Weerspannigheid wordt genoemd elke aanval, elk verzet met geweld of bedreiging tegen ministeriële ambtenaren, veld- of boswachters, dragers of agenten van de openbare macht, personen aangesteld om taksen en belastingen te innen, brengers van dwangbevelen, aangestelden van de douane, gerechtelijke bewaarders, officieren of agenten van de administratieve of de gerechtelijke politie, wanneer zij handelen ter uitvoering van de wetten, van de bevelen of de beschikkingen van het openbaar gezag, van rechterlijke bevelen of van vonnissen.
 
-###### Art. 270. (Opgeheven) <W 13-10-1930, art. 31>
+###### Art. 270
+
+(Opgeheven) <W 13-10-1930, art. 31>
 
 ###### Art. 271
 
@@ -1493,7 +1515,9 @@ Met gevangenisstraf van acht dagen tot een maand en met geldboete van zesentwint
 
 Van de straffen, in het vorige artikel bepaald, blijven vrij de omroepers en de aanplakkers die de persoon doen kennen van wie zij de voormelde briefjes of geschriften gekregen hebben.
 
-###### Art. 305. (Opgeheven) <W 1999-05-07/77, art. 73, 027; Inwerkingtreding : 30-12-2000>
+###### Art. 305
+
+(Opgeheven) <W 1999-05-07/77, art. 73, 027; Inwerkingtreding : 30-12-2000>
 
 ###### Art. 306
 
@@ -1509,7 +1533,9 @@ Met gevangenisstraf van acht dagen tot drie maanden en met geldboete van zesentw
 
 #### HOOFDSTUK VIII. - MISDRIJVEN BETREFFENDE NIJVERHEID, KOOPHANDEL EN OPENBARE VEILINGEN.
 
-###### Art. 310. (Opgeheven) <W 24-05-1921, enig art.>
+###### Art. 310
+
+(Opgeheven) <W 24-05-1921, enig art.>
 
 ###### Art. 311
 
@@ -1543,12 +1569,10 @@ gevangenisstraf van zes maanden tot twee jaar] 2 en met geldboete van tweehonder
 
 #### HOOFDSTUK IX. - ENIGE ANDERE MISDRIJVEN TEGEN DE OPENBARE ORDE.
 
-
 ##### AFDELING I. - OVERTREDING VAN DE BEGRAFENISWETTEN.
 ###### Art. 315
 
 Met gevangenisstraf van acht dagen tot twee maanden of met geldboete van zesentwintig tot driehonderd [euro] worden gestraft : <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  Zij die, zonder voorafgaand verlof van de openbare ambtenaar, een begraving verrichten of doen verrichten;  Zij die op enigerlei wijze de wetten en verordeningen betreffende de begraafplaatsen en de vervroegde begravingen overtreden.
-
 
 ##### AFDELING II. - (BELEMMERING VAN DE UITOEFENING VAN DE RECHTSPREKENDE FUNCTIE). <W 10-10-1967, art. 140>
 ###### Art. 316
@@ -1559,17 +1583,26 @@ Met gevangenisstraf van acht dagen tot twee maanden of met geldboete van zesentw
 
 <W 10-10-1967, art. 140> Wordt gestraft met een geldboete van vijftig [euro] tot duizend [euro] : <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  1° de niet vrijgestelde gezworene die zich niet aanmeldt bij het hof van assisen op de dag en het uur die voor de opening van de debatten zijn gesteld, op de dagvaarding die hem is betekend of op de oproeping die hij heeft ontvangen;  2° de gezworene die de dagvaarding of de oproeping heeft beantwoord en zich terugtrekt zonder verlof van de voorzitter, voordat zijn ambt voleindigd is.
 
-###### Art. 317. (Opgeheven) <W 03-03-1933, art. 28>
+###### Art. 317
 
-###### Art. 318. (Opgeheven) <W 03-03-1933, art. 28>
+(Opgeheven) <W 03-03-1933, art. 28>
 
+###### Art. 318
+
+(Opgeheven) <W 03-03-1933, art. 28>
 
 ##### AFDELING III. - MISDRIJVEN BETREFFENDE VEEZIEKTEN.
-###### Art. 319. (Opgeheven) <W 24-03-1987, art. 32, § 1>
+###### Art. 319
 
-###### Art. 320. (Opgeheven) <W 24-03-1987, art. 32, § 1>
+(Opgeheven) <W 24-03-1987, art. 32, § 1>
 
-###### Art. 321. (Opgeheven) <W 24-03-1987, art. 32, § 1>
+###### Art. 320
+
+(Opgeheven) <W 24-03-1987, art. 32, § 1>
+
+###### Art. 321
+
+(Opgeheven) <W 24-03-1987, art. 32, § 1>
 
 ### TITEL VI. - MISDADEN EN WANBEDRIJVEN TEGEN DE OPENBARE VEILIGHEID.
 
@@ -1657,9 +1690,13 @@ In de gevallen van artikel 327 kan de schuldige bovendien worden veroordeeld tot
 
 ----------  ( 1 )<W 2025-12-19/73, art. 6, 164; Inwerkingtreding : 16-01-2026>
 
-###### Art. 336. <Opgeheven bij W 2025-12-19/73, art. 7, 164; Inwerkingtreding : 16-01-2026>
+###### Art. 336
 
-###### Art. 337. <Opgeheven bij W 2025-12-19/73, art. 8, 164; Inwerkingtreding : 16-01-2026>
+<Opgeheven bij W 2025-12-19/73, art. 7, 164; Inwerkingtreding : 16-01-2026>
+
+###### Art. 337
+
+<Opgeheven bij W 2025-12-19/73, art. 8, 164; Inwerkingtreding : 16-01-2026>
 
 ###### Art. 337bis
 
@@ -1669,7 +1706,9 @@ In de gevallen van artikel 327 kan de schuldige bovendien worden veroordeeld tot
 
 #### HOOFDSTUK IV. - BANBREUK EN ENIGE GEVALLEN VAN VERBERGING.
 
-###### Art. 338. (Opgeheven) <W 09-04-1930, art. 32>
+###### Art. 338
+
+(Opgeheven) <W 09-04-1930, art. 32>
 
 ###### Art. 339
 
@@ -1685,17 +1724,29 @@ De twee vorige bepalingen zijn niet van toepassing op de bloedverwanten in de op
 
 #### HOOFDSTUK V. - WANBEDRIJVEN TEGEN DE OPENBARE VEILIGHEID GEPLEEGD DOOR LANDLOPERS OF DOOR BEDELAARS.
 
-###### Art. 342. (Opgeheven) <W 1993-01-12/34, art. 28, 007; Inwerkingtreding : 01-03-1993>
+###### Art. 342
 
-###### Art. 343. (Opgeheven) <W 1993-01-12/34, art. 28, 007; Inwerkingtreding : 01-03-1993>
+(Opgeheven) <W 1993-01-12/34, art. 28, 007; Inwerkingtreding : 01-03-1993>
 
-###### Art. 344. (Opgeheven) <W 1993-01-12/34, art. 28, 007; Inwerkingtreding : 01-03-1993>
+###### Art. 343
 
-###### Art. 345. (Opgeheven) <W 1993-01-12/34, art. 28, 007; Inwerkingtreding : 01-03-1993>
+(Opgeheven) <W 1993-01-12/34, art. 28, 007; Inwerkingtreding : 01-03-1993>
 
-###### Art. 346. (Opgeheven) <W 09-04-1930, art. 32>
+###### Art. 344
 
-###### Art. 347. (Opgeheven) <W 1993-01-12/34, art. 28, 007; Inwerkingtreding : 01-03-1993>
+(Opgeheven) <W 1993-01-12/34, art. 28, 007; Inwerkingtreding : 01-03-1993>
+
+###### Art. 345
+
+(Opgeheven) <W 1993-01-12/34, art. 28, 007; Inwerkingtreding : 01-03-1993>
+
+###### Art. 346
+
+(Opgeheven) <W 09-04-1930, art. 32>
+
+###### Art. 347
+
+(Opgeheven) <W 1993-01-12/34, art. 28, 007; Inwerkingtreding : 01-03-1993>
 
 § 3. Behalve in de in § 4 bedoelde gevallen is de straf opsluiting van vijftien jaar tot twintig jaar tot twintig jaar indien binnen vijf dagen na de aanhouding, de gevangenhouding of de ontvoering, de gijzelaar vrijwillig wordt vrijgelaten zonder dat aan het bevel of aan de voorwaarde is voldaan.  § 4. De straf is levenslange opsluiting in de volgende gevallen :  1° indien de aanhouding, de gevangenhouding of de ontvoering van de gijzelaar, hetzij een ongeneeslijk lijkende ziekte, hetzij [ 2 ongeschiktheid tot het verrichten van persoonlijke arbeid van meer dan vier maanden] 2 , hetzij het volledige verlies van het gebruik van een orgaan, hetzij zware verminking, hetzij de dood ten gevolge heeft;  2° (indien de gijzelaars zijn onderworpen aan de handelingen bedoeld [ 3 in artikel 417/2] 3 , eerste lid.) <W 2002- 06-14/42, art. 2, 036; Inwerkingtreding : 24-08-2002>  ----------  ( 1 )<W 2011-11-26/19, art. 4, 084; Inwerkingtreding : 02-02-2012>   ( 2 )<W 2016-02-05/11, art. 23, 114; Inwerkingtreding : 29-02-2016>   ( 3 )<W 2022-03-21/01, art. 92, 148; Inwerkingtreding : 01-06-2022>
 
@@ -1727,21 +1778,35 @@ Wanneer de vruchtafdrijving wordt veroorzaakt door geweld, opzettelijk gepleegd,
 
 ----------  ( 1 )<W 2018-10-15/03, art. 6, 136; Inwerkingtreding : 08-11-2018>   ( 2 )<W 2024-01-18/06, art. 25, 157; Inwerkingtreding : 05-02-2024>
 
-###### Art. 353. (Opgeheven) <W 1990-04-03/30, art. 5, 002, Inwerkingtreding : 15-04-1990>
+###### Art. 353
+
+(Opgeheven) <W 1990-04-03/30, art. 5, 002, Inwerkingtreding : 15-04-1990>
 
 #### HOOFDSTUK II. - (opgeheven) <W 2000-11-28/35, art. 51; Inwerkingtreding : 27-03-2001>
 
-###### Art. 356. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+###### Art. 356
 
-###### Art. 357. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
 
-###### Art. 358. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+###### Art. 357
 
-###### Art. 359. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
 
-###### Art. 360. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+###### Art. 358
 
-###### Art. 360bis. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+
+###### Art. 359
+
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+
+###### Art. 360
+
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+
+###### Art. 360bis
+
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
 
 #### HOOFDSTUK III. - MISDADEN EN WANBEDRIJVEN STREKKENDE TOT HET VERHINDEREN OF VERNIETIGEN VAN HET BEWIJS VAN DE BURGERLIJKE STAAT VAN KINDEREN.
 
@@ -1759,25 +1824,43 @@ Deze bepaling is niet toepasselijk op hem die erin heeft toegestemd het kind te 
 
 <W 2000-11-28/35, art. 5, 029; Inwerkingtreding : 27-03-2001> Met opsluiting van vijf jaar tot tien jaar wordt gestraft hij die een kind met een ander kind verwisselt of aan een vrouw een kind toeschrijft waarvan zij niet is bevallen.  Met gevangenisstraf van zes maanden tot vijf jaar wordt gestraft hij die het bewijs van de burgerlijke staat van een kind vernietigt of het opmaken ervan verhindert.  Dezelfde straf wordt toegepast op hen die opdracht geven om de in de vorige leden vermelde feiten te plegen, indien die opdracht is uitgevoerd.
 
-###### Art. 364. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+###### Art. 364
 
-###### Art. 365. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
 
-###### Art. 366. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+###### Art. 365
 
-###### Art. 367. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+
+###### Art. 366
+
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+
+###### Art. 367
+
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
 
 #### HOOFDSTUK IV. - (opgeheven) <W 2000-11-28/35, art. 51; Inwerkingtreding : 27-03-2001>
 
-###### Art. 368. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+###### Art. 368
 
-###### Art. 369. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
 
-###### Art. 369bis. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+###### Art. 369
 
-###### Art. 370. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
 
-###### Art. 371. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+###### Art. 369bis
+
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+
+###### Art. 370
+
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+
+###### Art. 371
+
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
 
 ###### Art. 371/1 .  <Opgeheven bij W 2022-03-21/01, art. 117, 148; Inwerkingtreding : 01-06-2022>
 
@@ -1787,7 +1870,9 @@ Deze bepaling is niet toepasselijk op hem die erin heeft toegestemd het kind te 
 
 ###### Art. 372 .  <Opgeheven bij W 2022-03-21/01, art. 117, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 372bis. (Opgeheven) <W 18-06-1985, art. 1>
+###### Art. 372bis
+
+(Opgeheven) <W 18-06-1985, art. 1>
 
 ###### Art. 373 .  <Opgeheven bij W 2022-03-21/01, art. 117, 148; Inwerkingtreding : 01-06-2022>
 
@@ -1867,7 +1952,9 @@ Deze bepaling is niet toepasselijk op hem die erin heeft toegestemd het kind te 
 
 #### HOOFDSTUK VIII. - (DUBBEL HUWELIJK.) <W 2000-11-28/35, art. 27; Inwerkingtreding : 27-03-2001>
 
-###### Art. 390. (Opgeheven) <W 20-05-1987, art. 1>
+###### Art. 390
+
+(Opgeheven) <W 20-05-1987, art. 1>
 
 ###### Art. 391
 
@@ -1885,11 +1972,15 @@ Deze bepaling is niet toepasselijk op hem die erin heeft toegestemd het kind te 
 
 #### HOOFDSTUK X. - Misdrijven en wanbedrijven inzake adoptie. <ingevoegd bij W 2003-04-24/32, art. 7; Inwerkingtreding : onbepaald>
 
-###### Art. 391quater. <ingevoegd bij W 2003-04-24/32, art. 7; Inwerkingtreding : 01-09-2005> Met een
+###### Art. 391quater
+
+<ingevoegd bij W 2003-04-24/32, art. 7; Inwerkingtreding : 01-09-2005> Met een
 
 gevangenisstraf van een maand tot een jaar en met geldboete van zesentwintig euro tot vijfhonderd euro of met een van die straffen alleen wordt gestraft hij die voor zichzelf, met bedrieglijk inzicht, een adoptie heeft verkregen of proberen te verkrijgen die strijdig is met de bepalingen van de wet.  Bij herhaling binnen drie jaar te rekenen van een in kracht van gewijsde gegaan vonnis van veroordeling wegens overtreding van het bepaalde in het eerste lid kunnen deze straffen worden verdubbeld.
 
-###### Art. 391quinquies. <ingevoegd bij W 2003-04-24/32, art. 7; Inwerkingtreding : 01-09-2005> Met een
+###### Art. 391quinquies
+
+<ingevoegd bij W 2003-04-24/32, art. 7; Inwerkingtreding : 01-09-2005> Met een
 
 gevangenisstraf van een jaar tot vijf jaar en met geldboete van vijfhonderd euro tot vijfentwintigduizend euro of met een van die straffen alleen wordt gestraft hij die bij een adoptie als tussenpersoon is opgetreden en voor een derde een adoptie heeft verkregen of proberen te verkrijgen zonder lid te zijn van een daartoe vooraf door de bevoegde gemeenschap erkende adoptiedienst of die als lid van een erkende adoptiedienst voor een derde een adoptie heeft verkregen of proberen te verkrijgen die strijdig is met de bepalingen van de wet.
 
@@ -1927,7 +2018,6 @@ Opzettelijk worden genoemd het doden en het toebrengen van letsel met het oogmer
 
 ----------  ( 1 )<W 2024-01-18/06, art. 28, 157; Inwerkingtreding : 05-02-2024>
 
-
 ##### AFDELING I. - DOODSLAG EN VERSCHILLENDE SOORTEN VAN DOODSLAG.
 ###### Art. 393
 
@@ -1961,7 +2051,6 @@ Vergiftiging wordt genoemd de doodslag gepleegd door middel van stoffen die min 
 
 ----------  ( 1 )<Ingevoegd bij W 2024-01-18/06, art. 30, 157; Inwerkingtreding : 05-02-2024>
 
-
 ##### AFDELING II. - OPZETTELIJK DODEN, NIET DOODSLAG GENOEMD, EN OPZETTELIJK TOEBRENGEN VAN LICHAMELIJK LETSEL.
 ###### Art. 399
 
@@ -1975,7 +2064,9 @@ Indien de slagen of verwondingen een ziekte of ongeschiktheid tot het verrichten
 
 (Zie NOTA 1 onder TITEL) <W 2003-01-23/42, art. 67, 041; Inwerkingtreding : 13-03-2003> Wanneer de slagen of verwondingen opzettelijk worden toegebracht, maar zonder het oogmerk om te doden, en toch de dood veroorzaken, wordt de schuldige gestraft met opsluiting van vijf jaar tot tien jaar.  Hij wordt gestraft met opsluiting van tien jaar tot vijftien jaar indien hij die gewelddaden met voorbedachten rade pleegt.
 
-###### Art. 401bis. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+###### Art. 401bis
+
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
 
 ###### Art. 402
 
@@ -2035,7 +2126,6 @@ Poging om iemand stoffen als bedoeld in artikel 402 toe te dienen, zonder het oo
 
 ----------  ( 1 )<Ingevoegd bij W 2012-07-05/07, art. 2, 086; Inwerkingtreding : 29-07-2012>
 
-
 ##### AFDELING III. - VERSCHOONBARE DOODSLAG, VERSCHOONBARE VERWONDINGEN EN VERSCHOONBARE SLAGEN.
 ###### Art. 411
 
@@ -2045,7 +2135,9 @@ Doodslag, verwondingen en slagen zijn verschoonbaar, indien zij onmiddellijk uit
 
 De misdaden en wanbedrijven, in het vorige artikel genoemd, zijn eveneens verschoonbaar, indien zij gepleegd worden bij het afweren overdag van de beklimming of de braak van de afsluitingen, muren of toegangen van een bewoond huis of appartement of de aanhorigheden ervan, behalve wanneer blijkt dat de dader niet kon geloven aan een aanranding van personen, hetzij als rechtstreeks doel van hem die poogt in te klimmen of in te breken, hetzij als gevolg van de weerstand welke diens voornemen mocht ontmoeten.
 
-###### Art. 413. (Opgeheven) <W 1997-11-24/51, art. 3, 020; Inwerkingtreding : 16-02-1998>
+###### Art. 413
+
+(Opgeheven) <W 1997-11-24/51, art. 3, 020; Inwerkingtreding : 16-02-1998>
 
 ###### Art. 414
 
@@ -2053,14 +2145,14 @@ De misdaden en wanbedrijven, in het vorige artikel genoemd, zijn eveneens versch
 
 ----------  ( 1 )<W 2016-02-05/11, art. 25, 114; Inwerkingtreding : 29-02-2016>
 
-###### Art. 415. (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
+###### Art. 415
 
+(opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
 
 ##### AFDELING IV. - GERECHTVAARDIGDE DOODSLAG, GERECHTVAARDIGDE VERWONDINGEN EN GERECHTVAARDIGDE SLAGEN.
 ###### Art. 416
 
 Er is noch misdaad, noch wanbedrijf, wanneer de doodslag, de verwondingen en de slagen geboden zijn door de ogenblikkelijke noodzaak van de wettige verdediging van zich zelf of van een ander.
-
 
 ##### Afdeling V. - Foltering, onmenselijke behandeling en onterende behandeling. <ingevoegd bij W 2002-06-14/42, art. 5; Inwerkingtreding : 24-08-2002>
 ###### Art. 417/1
@@ -2085,28 +2177,27 @@ Er is noch misdaad, noch wanbedrijf, wanneer de doodslag, de verwondingen en de 
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 3, 148; Inwerkingtreding : 01-06-2022>
 
-
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 3, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1
-
-###### Onderafdeling 1. [ 1 - Toestemming met betrekking tot het seksueel zelfbeschikkingsrecht.] 1
+##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1 - Onderafdeling 1. [ 1 - Toestemming met betrekking tot het seksueel zelfbeschikkingsrecht.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 5, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/6. [ 1  Beperkingen aan de mogelijkheid tot toestemming door de minderjarige
+###### Art. 417/6
+
+[ 1  Beperkingen aan de mogelijkheid tot toestemming door de minderjarige
 
 § 1. Onder voorbehoud van paragraaf 2 wordt een minderjarige die de volle leeftijd van zestien jaar niet heeft bereikt, niet geacht uit vrije wil te kunnen toestemmen.  § 2. Een minderjarige die de volle leeftijd van veertien jaar heeft bereikt, maar niet de volle leeftijd van zestien jaar, kan uit vrije wil toestemmen indien het leeftijdsverschil met de andere persoon niet meer dan drie jaar bedraagt.  Er is geen misdrijf tussen minderjarigen die de volle leeftijd van veertien jaar hebben bereikt en die met wederzijdse toestemming handelen wanneer het onderlinge leeftijdsverschil meer dan drie jaar bedraagt.  § 3. Een minderjarige kan nooit uit vrije wil toestemmen indien:  1° de dader een bloedverwant of aanverwant is in de rechte opgaande lijn of een adoptant of een bloedverwant of aanverwant in de zijlijn tot en met de derde graad of ieder ander persoon die een soortgelijke positie heeft in het gezin of ongeacht welke persoon die gewoonlijk of occasioneel met de minderjarige samenwoont en die over die minderjarige gezag heeft, of  2° de daad mogelijk is gemaakt doordat de dader gebruik heeft gemaakt van een erkende positie van vertrouwen, gezag of invloed ten aanzien van de minderjarige, of  3° de daad wordt beschouwd als een daad van ontucht of prostitutie als bedoeld in onderafdeling 2 van afdeling 2, luidende "Seksuele uitbuiting van minderjarigen met het oog op prostitutie".] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 6, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1
-
-###### Onderafdeling 2. [ 1 - Basismisdrijven.] 1
+##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1 - Onderafdeling 2. [ 1 - Basismisdrijven.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 7, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/7. [ 1  Aantasting van de seksuele integriteit
+###### Art. 417/7
+
+[ 1  Aantasting van de seksuele integriteit
 
 Aantasting van de seksuele integriteit is het stellen van een seksuele handeling op een persoon die daar niet in toestemt, al dan niet met behulp van een derde persoon die daar niet in toestemt, dan wel het laten stellen van een seksuele handeling door een persoon die daar niet in toestemt. Dit misdrijf wordt bestraft met gevangenisstraf van zes maanden tot vijf jaar.  Wordt met aantasting van de seksuele integriteit gelijkgesteld het bewerkstelligen dat een persoon die daarmee niet instemt, getuige is van seksuele handelingen, of van seksueel misbruik, ook zonder dat deze daaraan hoeft deel te nemen.  Aantasting bestaat zodra er een begin van uitvoering is.] 1
 
@@ -2114,7 +2205,9 @@ Aantasting van de seksuele integriteit is het stellen van een seksuele handeling
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 9, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/9. [ 1  Niet-consensuele verspreiding van seksueel getinte inhoud
+###### Art. 417/9
+
+[ 1  Niet-consensuele verspreiding van seksueel getinte inhoud
 
 Niet-consensuele verspreiding van seksueel getinte inhoud is het tonen, toegankelijk maken of verspreiden van visuele of geluidsinhoud van een ontblote persoon of een persoon die een expliciete seksuele daad stelt zonder diens toestemming of buiten diens medeweten, ook al heeft die persoon ingestemd met het maken ervan.  Dit misdrijf wordt bestraft met gevangenisstraf van zes maanden tot vijf jaar.  Niet-consensuele verspreiding van seksueel getinte inhoud bestaat, zodra er begin van uitvoering is.] 1
 
@@ -2132,13 +2225,13 @@ Verkrachting is elke gestelde daad die bestaat of mede bestaat uit een seksuele 
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 12, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1
-
-###### Onderafdeling 3. [ 1 - Verzwaarde misdrijven.] 1
+##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1 - Onderafdeling 3. [ 1 - Verzwaarde misdrijven.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 13, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/12. [ 1  Niet-consensuele seksuele handelingen met de dood tot gevolg
+###### Art. 417/12
+
+[ 1  Niet-consensuele seksuele handelingen met de dood tot gevolg
 
 Niet-consensuele seksuele handelingen die de dood tot gevolg hebben, zonder dat de dader handelde met het oogmerk te doden, worden als volgt bestraft:  - aantasting van de seksuele integriteit wordt bestraft met opsluiting van twintig jaar tot dertig jaar;  - verkrachting wordt bestraft met opsluiting van twintig jaar tot dertig jaar.] 1
 
@@ -2172,7 +2265,9 @@ Niet-consensuele seksuele handelingen die de dood tot gevolg hebben, zonder dat 
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 20, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/19. [ 1  Niet-consensuele intrafamiliale seksuele handelingen
+###### Art. 417/19
+
+[ 1  Niet-consensuele intrafamiliale seksuele handelingen
 
 Onder niet-consensuele intrafamiliale seksuele handelingen worden begrepen de niet-consensuele seksuele handelingen gepleegd door een bloedverwant of aanverwant in de rechte opgaande of neerdalende lijn, door een bloedverwant of aanverwant in de zijlijn tot de derde graad, door een partner of ieder ander persoon die een soortgelijke positie heeft in het gezin van voornoemde personen.  Niet-consensuele intrafamiliale seksuele handelingen worden als volgt bestraft:  - aantasting van de seksuele integriteit wordt bestraft met opsluiting van tien jaar tot vijftien jaar;  - voyeurisme wordt bestraft met opsluiting van vijf jaar tot tien jaar;  - niet-consensuele verspreiding van seksueel getinte inhoud wordt bestraft met opsluiting van tien jaar tot vijftien jaar;  - niet-consensuele verspreiding, met kwaadwillig opzet of uit winstbejag, van seksueel getinte inhoud wordt bestraft met opsluiting van tien jaar tot vijftien jaar en met geldboete van tweehonderd euro tot tienduizend euro;  - verkrachting wordt bestraft met opsluiting van vijftien jaar tot twintig jaar.  Onder partner wordt begrepen de persoon waarmee het slachtoffer is gehuwd of een duurzame affectieve en intieme lichamelijke relatie heeft, alsook de persoon waarmee het slachtoffer gehuwd is geweest of een duurzame affectieve en intieme lichamelijke relatie heeft gehad indien de strafbare feiten enigszins verband houden met dit ontbonden huwelijk of de beëindigde relatie.] 1
 
@@ -2190,36 +2285,33 @@ Onder niet-consensuele intrafamiliale seksuele handelingen worden begrepen de ni
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 24, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1
-
-###### Onderafdeling 4. [ 1 - Algemene bepaling.] 1
+##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1 - Onderafdeling 4. [ 1 - Algemene bepaling.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 25, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/23. [ 1  Verzwarende factoren
+###### Art. 417/23
+
+[ 1  Verzwarende factoren
 
 Bij de keuze van de straf of de maatregel en de zwaarte ervan voor feiten die niet-consensuele seksuele handelingen uitmaken, houdt de rechter in het bijzonder rekening met het feit dat:  - de dader een bloedverwant in de zijlijn tot de derde graad is van het slachtoffer, dan wel een aanverwant in de rechte lijn of in de zijlijn tot de derde graad, dat hij gezag heeft over het slachtoffer, hem onder zijn bewaring heeft of occasioneel of gewoonlijk met het slachtoffer samenwoont of heeft samengewoond;  - het misdrijf werd gepleegd door een persoon met een openbare functie in het kader van de uitoefening van deze functie;  - het misdrijf werd gepleegd door een arts of een andere gezondheidswerker in de uitoefening van zijn functie;  - het misdrijf werd gepleegd op een minderjarige beneden de volle leeftijd van tien jaar;  - het misdrijf werd gepleegd op een minderjarige beneden de volle leeftijd van zestien jaar en is voorafgegaan door een benadering van deze minderjarige vanwege de dader met het oogmerk op een later tijdstip de in deze afdeling bepaalde feiten te plegen;  - het misdrijf werd gepleegd in aanwezigheid van een minderjarige;  - het misdrijf werd gepleegd omwille van culturele drijfveren, gewoontes, tradities, religie of de zogenaamde "eer".] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 26, 148; Inwerkingtreding : 01-06-2022>
 
-
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 27, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1
-
-###### Onderafdeling 1. [ 1 - Benaderen van een minderjarige voor seksuele doeleinden.] 1
+##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1 - Onderafdeling 1. [ 1 - Benaderen van een minderjarige voor seksuele doeleinden.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 28, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/24. [ 1  Benaderen van een minderjarige voor seksuele doeleinden
+###### Art. 417/24
+
+[ 1  Benaderen van een minderjarige voor seksuele doeleinden
 
 Benaderen van een minderjarige voor seksuele doeleinden is het aan een minderjarige een voorstel tot ontmoeting doen, op welke manier dan ook, met het oogmerk om een misdrijf te plegen bedoeld in dit hoofdstuk, voor zover dit voorstel is gevolgd door materiële handelingen die tot een dergelijke ontmoeting kunnen leiden.  Dit misdrijf wordt bestraft met gevangenisstraf van drie jaar tot vijf jaar.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 29, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1
-
-###### Onderafdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen met het oog op prostitutie.] 1
+##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1 - Onderafdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen met het oog op prostitutie.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 31, 148; Inwerkingtreding : 01-06-2022>
 
@@ -2229,7 +2321,9 @@ Benaderen van een minderjarige voor seksuele doeleinden is het aan een minderjar
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 32, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/27. [ 1  Werven van een minderjarige voor ontucht of prostitutie
+###### Art. 417/27
+
+[ 1  Werven van een minderjarige voor ontucht of prostitutie
 
 Werven van een minderjarige voor ontucht of prostitutie is het, onverminderd de in artikel 433quinquies bedoelde gevallen, rechtstreeks of via een tussenpersoon, aanwerven, meenemen, wegbrengen of bij zich houden van een minderjarige met het oog op het plegen van ontucht of prostitutie.  Dit misdrijf wordt bestraft met opsluiting van tien jaar tot vijftien jaar en met geldboete van vijfhonderd euro tot vijftigduizend euro.  De geldboete wordt zo veel keer toegepast als er slachtoffers zijn.] 1
 
@@ -2261,7 +2355,9 @@ Werven van een minderjarige voor ontucht of prostitutie is het, onverminderd de 
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 38, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/33. [ 1  Exploitatie van de ontucht of prostitutie van een minderjarige
+###### Art. 417/33
+
+[ 1  Exploitatie van de ontucht of prostitutie van een minderjarige
 
 Exploitatie van de ontucht of prostitutie van een minderjarige is het, onverminderd de in artikel 433quinquies bedoelde gevallen, op welke manier ook, exploiteren van de ontucht of prostitutie van een minderjarige.  Dit misdrijf wordt bestraft met opsluiting van tien jaar tot vijftien jaar en met geldboete van vijfhonderd euro tot vijftigduizend euro.  De geldboete wordt zo veel keer toegepast als er slachtoffers zijn.] 1
 
@@ -2273,7 +2369,9 @@ Exploitatie van de ontucht of prostitutie van een minderjarige is het, onvermind
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 40, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/35. [ 1  Verkrijgen van de ontucht of de prostitutie van een minderjarige
+###### Art. 417/35
+
+[ 1  Verkrijgen van de ontucht of de prostitutie van een minderjarige
 
 Verkrijgen van de ontucht of de prostitutie van een minderjarige is het verkrijgen van de ontucht of de prostitutie van een minderjarige door de overhandiging, het aanbod of de belofte van een materieel of financieel voordeel.  Dit misdrijf wordt bestraft met opsluiting van tien jaar tot vijftien jaar en met geldboete van duizend euro tot honderdduizend euro.  De geldboete wordt zo veel keer toegepast als er slachtoffers zijn.] 1
 
@@ -2287,19 +2385,25 @@ Verkrijgen van de ontucht of de prostitutie van een minderjarige is het verkrijg
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 43, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/38. [ 1  Bijwonen van ontucht of prostitutie van een minderjarige
+###### Art. 417/38
+
+[ 1  Bijwonen van ontucht of prostitutie van een minderjarige
 
 Bijwonen van ontucht of prostitutie van een minderjarige is het rechtstreeks, inbegrepen door middel van informatie- en communicatietechnologie, bijwonen van ontucht of prostitutie van een minderjarige.  Dit misdrijf wordt bestraft met gevangenisstraf van drie jaar tot vijf jaar en met geldboete van vijfhonderd euro tot tienduizend euro.  De geldboete wordt zo veel keer toegepast als er slachtoffers zijn.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 44, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/39. [ 1  Reclame maken voor ontucht en prostitutie van een minderjarige
+###### Art. 417/39
+
+[ 1  Reclame maken voor ontucht en prostitutie van een minderjarige
 
 Reclame maken voor ontucht en prostitutie van een minderjarige is:  - het met welk middel ook op enigerlei wijze, direct of indirect, reclame maken, uitgeven, verdelen of verspreiden voor een aanbod van diensten van seksuele aard, indien die reclame specifiek gericht is op een minderjarige of indien zij gewag maakt van diensten aangeboden door een minderjarige of door een persoon van wie wordt beweerd dat hij minderjarig is, zelfs indien het aanbod wordt verhuld onder bedekte bewoordingen;  - het door enig reclamemiddel, zowel expliciet als impliciet, kenbaar maken dat een minderjarige zich aan prostitutie overgeeft, dat men de prostitutie van een minderjarige vergemakkelijkt of dat men wenst in contact te komen met een minderjarige die zich aan ontucht overgeeft.  Dit misdrijf wordt bestraft met gevangenisstraf van zes maanden tot drie jaar en met geldboete van tweehonderd euro tot tweeduizend euro.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 45, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/40. [ 1  Verzwaard reclame maken voor ontucht en prostitutie van een minderjarige
+###### Art. 417/40
+
+[ 1  Verzwaard reclame maken voor ontucht en prostitutie van een minderjarige
 
 Indien het reclame maken voor ontucht en prostitutie van een minderjarige tot doel of tot gevolg heeft, direct of indirect, dat ontucht of prostitutie van een minderjarige of zijn exploitatie wordt vergemakkelijkt, wordt dit misdrijf bestraft met gevangenisstraf van drie jaar tot vijf jaar en met geldboete van driehonderd euro tot drieduizend euro.] 1
 
@@ -2313,13 +2417,13 @@ Indien het reclame maken voor ontucht en prostitutie van een minderjarige tot do
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 48, 148; Inwerkingtreding : 01-06-2022>   ( 2 )<W 2022-07-30/03, art. 4, 150; Inwerkingtreding : 18-08-2022>
 
-##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1
-
-###### Onderafdeling 3. [ 1 - Beelden van seksueel misbruik van minderjarigen.] 1
+##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1 - Onderafdeling 3. [ 1 - Beelden van seksueel misbruik van minderjarigen.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 49, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/43. [ 1  Definitie van beelden van seksueel misbruik van minderjarigen
+###### Art. 417/43
+
+[ 1  Definitie van beelden van seksueel misbruik van minderjarigen
 
 Onder beelden van seksueel misbruik van minderjarigen moet worden begrepen:  - elk materiaal dat de visuele weergave op welke wijze dan ook behelst van een minderjarige die deelneemt aan echte of gesimuleerde expliciete seksuele gedragingen, of dat de weergave behelst van de geslachtsorganen van een minderjarige voor primair seksuele doeleinden;  - elk materiaal dat de visuele weergave op welke wijze dan ook behelst van een persoon die er als een minderjarige uitziet en die deelneemt aan echte of gesimuleerde expliciete seksuele gedragingen, of dat de weergave behelst van de geslachtsorganen van deze persoon voor primair seksuele doeleinden;  - realistische afbeeldingen die de weergave behelzen van een niet-bestaande minderjarige die deelneemt aan expliciete seksuele gedragingen, of die de weergave behelzen van de geslachtsorganen van deze minderjarige voor primair seksuele doeleinden.] 1
 
@@ -2337,7 +2441,9 @@ Onder beelden van seksueel misbruik van minderjarigen moet worden begrepen:  - e
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 52, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/46. [ 1  Bezitten en verwerven van beelden van seksueel misbruik van minderjarigen
+###### Art. 417/46
+
+[ 1  Bezitten en verwerven van beelden van seksueel misbruik van minderjarigen
 
 Bezitten en verwerven van beelden van seksueel misbruik van minderjarigen is het bezitten of verwerven, al dan niet voor een derde, van beelden van seksueel misbruik van minderjarigen.  Dit misdrijf wordt bestraft met [ 2 ...] 2 gevangenisstraf van een jaar tot vijf jaar en met geldboete van vijfhonderd euro tot tienduizend euro.] 1
 
@@ -2357,20 +2463,19 @@ Bezitten en verwerven van beelden van seksueel misbruik van minderjarigen is het
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 56, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1
-
-###### Onderafdeling 4. [ 1 - Algemene bepaling.] 1
+##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1 - Onderafdeling 4. [ 1 - Algemene bepaling.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 57, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/50. [ 1  Verzwarende factoren
+###### Art. 417/50
+
+[ 1  Verzwarende factoren
 
 Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf bedoeld in deze afdeling houdt de rechter in het bijzonder rekening met het feit dat:  - [ 2 ...] 2
 
 - het misdrijf werd gepleegd door een persoon met een openbare functie in het kader van de uitoefening van deze functie;  - het misdrijf werd gepleegd door een persoon die zich in een erkende positie van vertrouwen, gezag of invloed ten aanzien van de minderjarige bevindt;  - het misdrijf werd gepleegd op een minderjarige beneden de volle leeftijd van tien jaar;  - het misdrijf werd gepleegd op een minderjarige beneden de volle leeftijd van zestien jaar en is voorafgegaan door een benadering van deze minderjarige vanwege de dader met het oogmerk om op een later tijdstip de in die afdeling bepaalde feiten te plegen;  - het misdrijf werd gepleegd omwille van culturele drijfveren, gewoontes, tradities, religie of de zogenaamde "eer".] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 58, 148; Inwerkingtreding : 01-06-2022>   ( 2 )<W 2022-12-06/02, art. 29, 152; Inwerkingtreding : 31-12-2022>
-
 
 ##### Afdeling 3. [ 1 - Openbare zedenschennis.] 1
 ###### Art. 417/51
@@ -2397,14 +2502,15 @@ Exhibitionisme is het opdringen aan andermans zicht van de eigen ontblote geslac
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 63, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/55. [ 1  Verzwarende factoren
+###### Art. 417/55
+
+[ 1  Verzwarende factoren
 
 Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf bedoeld in deze afdeling houdt de rechter in het bijzonder rekening met het feit dat:  - [ 2 ...] 2
 
 - het misdrijf werd gepleegd door een persoon met een openbare functie in het kader van de uitoefening van deze functie;  - het misdrijf werd gepleegd door een persoon die zich in een gezags- of vertrouwenspositie bevindt ten opzichte van het slachtoffer;  - het misdrijf werd gepleegd op een minderjarige beneden de volle leeftijd van zestien jaar;  - het misdrijf werd gepleegd op een minderjarige beneden de volle leeftijd van zestien jaar en is voorafgegaan door een benadering van deze minderjarige vanwege de dader met het oogmerk om op een later tijdstip de in deze afdeling bepaalde feiten te plegen;  - het misdrijf werd gepleegd omwille van culturele drijfveren, gewoontes, tradities, religie of de zogenaamde "eer".] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 64, 148; Inwerkingtreding : 01-06-2022>   ( 2 )<W 2022-12-06/02, art. 30, 152; Inwerkingtreding : 31-12-2022>
-
 
 ##### Afdeling 4. [ 1 - Gemeenschappelijke bepalingen.] 1
 ###### Art. 417/56
@@ -2413,13 +2519,17 @@ Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf 
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 66, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/57. [ 1  Sluiting van de inrichting
+###### Art. 417/57
+
+[ 1  Sluiting van de inrichting
 
 Onverminderd andere wettelijke bepalingen, kan de rechter in de in dit hoofdstuk bedoelde gevallen, ongeacht de hoedanigheid van natuurlijke- of rechtspersoon, van de uitbater, eigenaar, huurder of zaakvoerder, de sluiting van de inrichting bevelen waar de inbreuken werden gepleegd, voor een termijn van één maand tot drie jaar.  Wanneer de veroordeelde niet de eigenaar, uitbater, huurder of zaakvoerder van de inrichting is, kan de sluiting slechts worden bevolen indien de ernst van de specifieke omstandigheden dit vereist, en dit voor een periode van ten hoogste twee jaar, na dagvaarding op verzoek van het openbaar ministerie, de eigenaar, de uitbater, de huurder of de zaakvoerder van de inrichting.  De dagvaarding voor de rechtbank wordt op verzoek van de gerechtsdeurwaarder die de dagvaarding heeft uitgebracht, overgeschreven in het bevoegde kantoor van de Algemene Administratie van de Patrimoniumdocumentatie van de plaats waar het goed zich bevindt.  De dagvaarding bevat de gegevens van het betrokken onroerend goed bedoeld in artikel 141 van de Hypotheekwet van 16 december 1851 en de identificatiegegevens van de eigenaar ervan zoals bepaald in de artikelen 139 en 140 van de Hypotheekwet.  Elke beslissing wordt op de kant van de overschrijving van het proces-verbaal van de dagvaarding vermeld overeenkomstig de procedure van artikel 84 van de Hypotheekwet. De griffier van het gerecht zendt de uittreksels en de verklaring dat geen hoger beroep werd ingesteld toe aan het bevoegde kantoor van de Algemene Administratie van de Patrimoniumdocumentatie.  De sluiting van de inrichting houdt het verbod in hierin enige activiteit uit te oefenen die verband houdt met diegene die geleid heeft tot het plegen van het misdrijf. De sluiting gaat in vanaf de dag waarop de veroordeling in kracht van gewijsde is getreden. Bij gebreke aan vrijwillige sluiting gebeurt deze op initiatief van het openbaar ministerie op kosten van de veroordeelde.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 67, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/58. [ 1  Verblijfs-, plaats- of contactverbod
+###### Art. 417/58
+
+[ 1  Verblijfs-, plaats- of contactverbod
 
 Onverminderd andere wettelijke bepalingen, kan de rechter in de in dit hoofdstuk bedoelde gevallen de veroordeelde, voor een termijn van een jaar tot ten hoogste twintig jaar, de ontzetting opleggen van het recht te wonen, te verblijven of zich op te houden in het door de rechter bepaalde gebied of contact te hebben met de personen die hij individueel aanwijst.  De oplegging van deze straf moet met bijzondere redenen worden omkleed en rekening houden met de ernst van de feiten en met de reclasseringsmogelijkheden voor de veroordeelde.  Het verblijfs-, plaats- of contactverbod gaat in vanaf de dag waarop de veroordeling in kracht van gewijsde is getreden. De termijn wordt evenwel verlengd met de duur van de periode waarin de vrijheidsstraf wordt uitgevoerd, met uitzondering van de periode van vervroegde invrijheidstelling.  Indien daartoe grond bestaat, kan de strafuitvoeringsrechtbank beslissen een in kracht van gewijsde getreden veroordeling waarbij een verblijfs-, plaats- of contactverbod is opgelegd, te wijzigen teneinde de duur of de omvang van het verbod te beperken, de nadere regels of de voorwaarden ervan aan te passen, het op te schorten of het te beëindigen.] 1
 
@@ -2427,7 +2537,9 @@ Onverminderd andere wettelijke bepalingen, kan de rechter in de in dit hoofdstuk
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 69, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/60. [ 1  Niet-naleving van een straf bestaande uit een verbod
+###### Art. 417/60
+
+[ 1  Niet-naleving van een straf bestaande uit een verbod
 
 Niet-naleving van een straf bestaande uit een verbod is het overtreden van een van de volgende straffen:  1° de sluiting van de inrichting, zoals bedoeld in artikel 417/57;  2° het verblijfs-, plaats- of contactverbod, zoals bedoeld in artikel 417/58;  3° specifieke verboden en ontzettingen, zoals bedoeld in artikel 417/59.  Dit misdrijf wordt bestraft met gevangenisstraf van een jaar tot drie jaar en met geldboete van duizend euro tot vijfduizend euro of met een van die straffen alleen.] 1
 
@@ -2439,13 +2551,17 @@ De straffen bedoeld in de [ 2 artikelen 417/57 tot 417/59] 2 kunnen ook worden u
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 71, 148; Inwerkingtreding : 01-06-2022>   ( 2 )<W 2024-03-28/60, art. 81, 158; Inwerkingtreding : 08-04-2024>
 
-###### Art. 417/62. [ 1  Overzending van een rechterlijke beslissing
+###### Art. 417/62
+
+[ 1  Overzending van een rechterlijke beslissing
 
 De rechter kan in de in dit hoofdstuk bedoelde gevallen de overzending bevelen van het strafrechtelijk gedeelte van het beschikkend gedeelte van de rechterlijke beslissing aan de desbetreffende werkgever, rechtspersoon of tuchtrechtelijke overheid wanneer de dader wegens zijn hoedanigheid of beroep contact heeft met minderjarigen en er een werkgever, rechtspersoon of een overheid die over hem het tuchtrechtelijk gezag uitoefent, bekend is.  Die maatregel wordt hetzij ambtshalve genomen, hetzij op verzoek van de burgerlijke partij of van het openbaar ministerie, bij een met bijzondere redenen omklede rechterlijke beslissing wegens de ernst van de feiten, het vermogen tot reclassering of het risico op recidive.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 72, 148; Inwerkingtreding : 01-06-2022>
 
-###### Art. 417/63. [ 1  Bescherming van de identiteit van het slachtoffer
+###### Art. 417/63
+
+[ 1  Bescherming van de identiteit van het slachtoffer
 
 § 1. Het publiceren en verspreiden door middel van boeken, pers, film, radio, televisie of op enige andere wijze, van teksten, tekeningen, foto's, enigerlei beelden of geluidsfragmenten waaruit de identiteit kan blijken van het slachtoffer van een in dit hoofdstuk bedoeld misdrijf zijn verboden, tenzij met schriftelijke toestemming van het slachtoffer of met toestemming, ten behoeve van het opsporingsonderzoek of het gerechtelijk onderzoek, van de procureur des Konings of van de met het onderzoek belaste magistraat.  Indien het slachtoffer minderjarig is, kan deze, noch de personen aan wie het ouderlijk gezag over de betrokkene is toevertrouwd, toestemming geven.  § 2. Het overtreden van dit artikel wordt bestraft met gevangenisstraf van twee maanden tot twee jaar en met geldboete van driehonderd euro tot drieduizend euro of met een van die straffen alleen.] 1
 
@@ -2463,13 +2579,17 @@ Hij die onopzettelijk iemands dood veroorzaakt, wordt gestraft met gevangenisstr
 
 ----------  ( 1 )<W 2024-01-18/06, art. 38, 157; Inwerkingtreding : 05-02-2024>
 
-###### Art. 419bis. (Opgeheven) <W 2005-07-20/52, art. 30, 052; Inwerkingtreding : 31-03-2006>
+###### Art. 419bis
+
+(Opgeheven) <W 2005-07-20/52, art. 30, 052; Inwerkingtreding : 31-03-2006>
 
 ###### Art. 420
 
 Indien het gebrek aan voorzichtigheid of voorzorg alleen slagen of verwondingen ten gevolge heeft, wordt de schuldige gestraft (met gevangenisstraf van acht dagen tot zes maanden) en met geldboete van vijftig [euro] tot vijfhonderd [euro] of met een van die straffen alleen. <W 31-03-1936, art. 1> <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  (Wanneer de slagen of verwondingen het gevolg zijn van een verkeersongeval dan bedraagt de gevangenisstraf acht dagen tot een jaar en de geldboete 50 euro tot 1000 euro.) <W 2005-07-20/52, art. 29, 052; Inwerkingtreding : 31-03-2006>
 
-###### Art. 420bis. (Opgeheven) <W 2005-07-20/52, art. 30, 052; Inwerkingtreding : 31-03-2006>
+###### Art. 420bis
+
+(Opgeheven) <W 2005-07-20/52, art. 30, 052; Inwerkingtreding : 31-03-2006>
 
 ###### Art. 421
 
@@ -2493,12 +2613,10 @@ ENKELE GEVALLEN VAN SCHULDIG VERZUIM.
 
 #### HOOFDSTUK III. - (Aantasting van de persoon van minderjarigen, [ 1 van kwetsbare personen] 1 en van het gezin.) <W 2000-11-28/35, art. 31; Inwerkingtreding : 27-03-2001>  ----------  ( 1 )<W 2011-11-26/19, art. 17, 084; Inwerkingtreding : 02-02-2012>
 
-
 ##### Afdeling I. - <W 2000-11-28/35, art. 31; Inwerkingtreding : 27-03-2001> Verlaten of in behoeftige toestand achterlaten van kinderen of [ 1 kwetsbare personen] 1 .  ----------  ( 1 )<W 2011-11-26/19, art. 17, 084; Inwerkingtreding : 02-02-2012>
 ###### Art. 423
 
 <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> § 1. Zij die een minderjarige of een persoon [ 1 van wie de kwetsbare toestand ten gevolge van de leeftijd, zwangerschap, een ziekte dan wel een lichamelijk of geestelijk gebrek of onvolwaardigheid duidelijk was of de dader bekend was] 1 , op om het even welke plaats verlaten of doen verlaten, worden gestraft met gevangenisstraf van een maand tot drie jaar en met geldboete van zesentwintig [euro] tot driehonderd [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01- 2002>  § 2. Indien de verlating een ernstige verminking van de in § 1 bedoelde persoon of een ongeneeslijk lijkende ziekte of het volledig verlies van het gebruik van een orgaan ten gevolge heeft, worden de schuldigen gestraft met gevangenisstraf van zes maanden tot vijf jaar en met geldboete van vijftig [euro] tot driehonderd [euro] of met een van die straffen alleen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  § 3. Indien de verlating de dood van de in § 1 bedoelde persoon ten gevolge heeft, worden de schuldigen gestraft met opsluiting van vijf jaar tot tien jaar.  ----------  ( 1 )<W 2011-11-26/19, art. 18, 084; Inwerkingtreding : 02-02-2012>
-
 
 ##### Afdeling II. - <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Onthouden van voedsel of verzorging aan minderjarigen en [ 1 aan kwetsbare personen] 1 .  ----------  ( 1 )<W 2011-11-26/19, art. 20, 084; Inwerkingtreding : 02-02-2012>
 ###### Art. 425
@@ -2511,14 +2629,12 @@ een persoon van wie de kwetsbare toestand ten gevolge van de leeftijd, zwangersc
 
 <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> § 1. Met gevangenisstraf van acht dagen tot twee maanden en met geldboete van vijftig [euro] tot vijfhonderd [euro] of met een van die straffen alleen, onverminderd, indien daartoe grond bestaat, de toepassing van strengere strafbepalingen, worden gestraft zij die de bewaring hebben van een minderjarige of van [ 1 een persoon die kwetsbaar was ten gevolge van zijn leeftijd, zwangerschap, een ziekte, dan wel een lichamelijk of geestelijk gebrek of onvolwaardigheid en die] 1 niet in staat is om in zijn onderhoud te voorzien, het onderhoud van het kind of van de persoon in dusdanige mate nagelaten hebben dat zijn gezondheid in het gedrang wordt gebracht. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  § 2. Indien de nalatigheid de dood veroorzaakt van de minderjarige of [ 1 van een in § 1 bedoelde persoon en die] 1 niet in staat is in zijn onderhoud te voorzien, wordt de schuldige gestraft met gevangenisstraf van drie maanden tot twee jaar en met geldboete van vijftig [euro] tot duizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  ----------  ( 1 )<W 2011-11-26/19, art. 22, 084; Inwerkingtreding : 02-02-2012>
 
-
 ##### Afdeling III. - <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Bepaling aan de afdelingen I en II gemeen.
 ###### Art. 427
 
 <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> In de gevallen omschreven in de artikelen 423, 425 en 426, wordt de minimumstraf gesteld in die artikelen verdubbeld in geval van gevangenisstraf en met twee jaar verhoogd in geval van opsluiting indien de schuldige de daden tegen zijn vader, moeder, adoptanten of andere bloedverwanten in de opgaande lijn heeft gepleegd.  Hetzelfde geldt indien de schuldige, de vader, de moeder of de adoptant is van het slachtoffer dan wel elke andere persoon die gezag over het slachtoffer heeft of de bewaring ervan heeft.  [ 1 Daarenboven kan de in artikel 33 bepaalde straf worden toegepast.] 1
 
 ----------  ( 1 )<W 2011-11-26/19, art. 23, 084; Inwerkingtreding : 02-02-2012>
-
 
 ##### Afdeling IV. - <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Ontvoering en verberging van minderjarigen [ 1 en van kwetsbare personen] 1 .  ----------  ( 1 )<W 2011-11-26/19, art. 24, 084; Inwerkingtreding : 02-02-2012>
 ###### Art. 428
@@ -2533,22 +2649,18 @@ een persoon van wie de kwetsbare toestand ten gevolge van de leeftijd, zwangersc
 
 <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> In de gevallen bedoeld in de artikelen 428 en 429, met uitzondering van de gevallen bedoeld in [ 2 artikel 428, §§ 4 en 5] 2 , is de straf gevangenisstraf van twee jaar tot vijf jaar en geldboete van tweehonderd [euro] tot vijfhonderd [euro] indien, binnen vijf dagen na de ontvoering, de ontvoerder of de persoon bedoeld in artikel 429 [ 1 de ontvoerde minderjarige of de ontvoerde kwetsbare persoon] 1 vrijwillig heeft teruggegeven. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  ----------  ( 1 )<W 2011-11-26/19, art. 27, 084; Inwerkingtreding : 02-02-2012>   ( 2 )<W 2014-05-05/09, art. 15, 106; Inwerkingtreding : 18-07-2014>
 
-
 ##### Afdeling V. - <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Niet-afgeven van kinderen.
 ###### Art. 431
 
 <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Met gevangenisstraf van acht dagen tot een jaar en met geldboete van zesentwintig [euro] tot honderd [euro] of met een van die straffen alleen worden gestraft zij aan wie een minderjarige beneden de leeftijd van twaalf jaar is toevertrouwd en hem niet afgeven aan de personen die het recht hebben hem op te eisen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  Indien de schuldige deze minderjarige meer dan vijf dagen verborgen houdt voor degenen die het recht hebben hem op te eisen of deze minderjarige onrechtmatig buiten het grondgebied van het Koninkrijk vasthoudt, wordt hij gestraft met gevangenisstraf van een jaar tot vijf jaar en met geldboete van zesentwintig [euro] tot tweehonderd [euro] of met een van die straffen alleen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01- 2002>
-
 
 ##### Afdeling VI. - Gebruik van minderjarigen [ 1 en van kwetsbare personen] 1 met het oog op het plegen van een misdaad of een wanbedrijf. <ingevoegd bij W 2005-08-10/62, art. 3 ; Inwerkingtreding : 02-09-2005>  ----------  ( 1 )<W 2011-11-26/19, art. 28, 084; Inwerkingtreding : 02-02-2012>
 ###### Art. 433
 
 <W 2005-08-10/62, art. 4, 054 ; Inwerkingtreding : 02-09-2005> Onder voorbehoud van de toepassing van artikel 433quinquies, wordt eenieder die een minderjarige [ 1 of een persoon van wie de kwetsbare toestand ten gevolge van de leeftijd, zwangerschap, een ziekte dan wel een lichamelijk of geestelijk gebrek of onvolwaardigheid, duidelijk was of de dader bekend was,] 1 rechtstreeks of via een tussenpersoon, aantrekt of gebruikt om, op één van de in artikel 66 bepaalde wijzen, een misdaad of een wanbedrijf te plegen, gestraft met de straffen bepaald voor die misdaad of dat wanbedrijf, waarvan het minimum van de vrijheidsstraf verhoogd wordt met één maand ingeval het maximum van de bepaalde gevangenisstraf één jaar is, met twee maanden wanneer het maximum twee jaar is, met drie maanden wanneer het maximum drie jaar is, met vijf maanden wanneer het maximum vijf jaar is en met twee jaar in het geval van tijdelijke opsluiting, en waarvan, in voorkomend geval, het minimum van de geldboete verdubbeld wordt.  Het minimum van de in het eerste lid bepaalde straffen wordt nogmaals, en in dezelfde verhouding verhoogd ingeval :  1° de minderjarige jonger is dan zestien jaar, of  2° de persoon bedoeld in het eerste lid misbruik maakt van de bijzonder kwetsbare positie waarin de minderjarige verkeert, of  3° de persoon bedoeld in het eerste lid, de vader, de moeder of een andere bloedverwant in de opgaande lijn is, de adoptant, of enige andere persoon die gezag heeft over de minderjarige, of een persoon die hem onder zijn bewaring heeft, of  4° een gewoonte wordt gemaakt van het aantrekken of gebruiken van minderjarigen om een misdaad of een wanbedrijf te plegen.  ----------  ( 1 )<W 2011-11-26/19, art. 29, 084; Inwerkingtreding : 02-02-2012>
 
-
 ##### Afdeling VII. - Aantasting van de persoonlijke levenssfeer van minderjarigen. <ingevoegd bij W 2005-08-10/62, art. 5 ; Inwerkingtreding : 02-09-2005>
 ###### Art. 433bis
-
 
 ----------  ( 1 )<W 2016-02-05/11, art. 26, 114; Inwerkingtreding : 29-02-2016>
 
@@ -2701,7 +2813,9 @@ Indien de wederrechtelijke en willekeurige vrijheidsberoving langer dan een maan
 
 (Zie NOTA 1 onder TITEL) (Opsluiting van vijf jaar tot tien jaar) wordt uitgesproken, indien de aanhouding verricht wordt, hetzij op een vals bevel van het openbaar gezag, hetzij in de kledij of onder de naam van een van zijn agenten, of indien de aangehouden of gevangen gehouden persoon met de dood bedreigd wordt. <W 2003-01-23/42, art. 74, 041; Inwerkingtreding : 13-03-2003>
 
-###### Art. 438. (Opgeheven) <W 2002-06-14/42, art. 7, 036; Inwerkingtreding : 24-08-2002>
+###### Art. 438
+
+(Opgeheven) <W 2002-06-14/42, art. 7, 036; Inwerkingtreding : 24-08-2002>
 
 ###### Art. 438bis
 
@@ -2755,7 +2869,9 @@ aan het bevel tot ontruiming bedoeld in artikel 12, § 1, van de wet van 18 okto
 
 ----------  ( 1 )<Ingevoegd bij W 2023-07-31/15, art. 2, 154; Inwerkingtreding : 28-10-2023>
 
-###### Art. 442quinquies. [ 1  Conversiepraktijken
+###### Art. 442quinquies
+
+[ 1  Conversiepraktijken
 
 Onder conversiepraktijk wordt begrepen elke praktijk die bestaat uit een fysieke interventie of het uitoefenen van psychische druk, waarvan door de dader wordt aangenomen of voorgehouden dat die erop gericht is de seksuele oriëntatie, de genderidentiteit of de genderexpressie van een persoon te onderdrukken of te wijzigen, ongeacht of dit kenmerk daadwerkelijk aanwezig is of slechts vermeend is door de dader.  Worden niet als conversiepraktijken beschouwd: de hulp- en dienstverlening aangeboden in het kader van de geestelijke en fysieke gezondheidszorg in verband met de verkenning en de ontplooiing van de seksuele oriëntatie, de genderidentiteit of de genderexpressie van een persoon.  Worden evenmin als conversiepraktijk beschouwd: de behandelingen of ingrepen in het kader van een sociale of medische transitie die worden aangeboden door beroepsbeoefenaars in het kader van de gezondheidszorg, overeenkomstig de voorwaarden en binnen het kader van de wet van 22 augustus 2002 betreffende de rechten van de patiënt.] 1
 
@@ -2763,7 +2879,9 @@ Onder conversiepraktijk wordt begrepen elke praktijk die bestaat uit een fysieke
 
 ----------  ( 1 )<Ingevoegd bij W 2023-07-31/15, art. 4, 154; Inwerkingtreding : 28-10-2023>
 
-###### Art. 442septies. [ 1  De bestraffing van het aanbieden van conversiepraktijken
+###### Art. 442septies
+
+[ 1  De bestraffing van het aanbieden van conversiepraktijken
 
 Het aanbieden van conversiepraktijken, direct of indirect wordt bestraft met gevangenisstraf van acht dagen tot zes maanden en met geldboete van 26 euro tot 100 euro of met een van die straffen alleen.] 1
 
@@ -2879,7 +2997,6 @@ Diefstallen gepleegd door een gehuwde ten nadele van zijn echtgenoot, door een w
 
 Ieder ander persoon die aan deze diefstallen deelneemt of die de gestolen voorwerpen of een gedeelte ervan heeft, wordt gestraft alsof [ 1 het eerste lid] 1 niet bestond.  ----------  ( 1 )<W 2011-11-26/19, art. 37, 084; Inwerkingtreding : 02-02-2012>
 
-
 ##### AFDELING I. - DIEFSTAL ZONDER GEWELD OF BEDREIGING.
 ###### Art. 463
 
@@ -2902,7 +3019,6 @@ Poging tot een van de diefstallen, in de vorige artikelen vermeld, wordt gestraf
 ###### Art. 467
 
 (Zie NOTA 1 onder TITEL) Diefstal wordt gestraft met (opsluiting van vijf jaar tot tien jaar) : <W 2003- 01-23/42, art. 75, 041; Inwerkingtreding : 13-03-2003>  Indien hij gepleegd wordt door middel van braak, inklimming of valse sleutels;  Indien hij gepleegd wordt door een openbaar ambtenaar door middel van zijn ambtsbediening;  Indien de schuldigen of een van hen de titel of de kentekens van een openbaar ambtenaar aannemen of een vals bevel van het openbaar gezag inroepen.
-
 
 ##### AFDELING II. - DIEFSTAL DOOR MIDDEL VAN GEWELD OF BEDREIGING GEPLEEGD EN AFPERSING.
 ###### Art. 468
@@ -2939,7 +3055,6 @@ Doodslag, gepleegd om diefstal of afpersing te vergemakkelijken of om de straffe
 
 De straffen, bij de [ 1 artikelen 473 tot 475] 1 bepaald, worden zelfs dan toegepast wanneer de voltooiing van de diefstal of van de afpersing wordt verhinderd door omstandigheden, onafhankelijk van de wil van de schuldigen.  ----------  ( 1 )<W 2016-02-05/11, art. 28, 114; Inwerkingtreding : 29-02-2016>
 
-
 ##### AFDELING IIbis. - (DIEFSTAL EN AFPERSING VAN KERNMATERIAAL). <W 17-04-1986, art. 2>
 ###### Art. 477
 
@@ -2953,14 +3068,15 @@ De straffen, bij de [ 1 artikelen 473 tot 475] 1 bepaald, worden zelfs dan toege
 
 <W 17-04-1986, art. 2> Met diefstal of afpersing van kernmateriaal, gepleegd door middel van geweld of bedreiging, wordt gelijkgesteld het geval waarin de dief of de afperser op heterdaad betrapt, geweld heeft gepleegd of bedreigingen heeft geuit, ofwel om het ontvreemde kernmateriaal in zijn bezit te houden, ofwel om zijn vlucht te dekken.
 
-###### Art. 477quinquies. (Zie NOTA 1 onder TITEL) <W 17-04-1986, art. 2> De diefstal of de afpersing van
+###### Art. 477quinquies
+
+(Zie NOTA 1 onder TITEL) <W 17-04-1986, art. 2> De diefstal of de afpersing van
 
 kernmateriaal gepleegd door middel van geweld of bedreiging, alsmede het feit bedoeld in artikel 477quater; worden gestraft met (opsluiting) van vijftien tot twintig jaar : <W 2003-01-23/42, art. 78, 041; Inwerkingtreding : 13-03-2003>  1° indien zij gepleegd worden door middel van braak, inklimming of valse sleutels;  2° indien zij gepleegd worden door een openbaar ambtenaar door middel van zijn ambtsbediening;  3° indien de schuldigen of een van hen de titel of de kentekens van een openbaar ambtenaar aannemen of een vals bevel van het openbaar gezag inroepen;  4° indien zij gepleegd worden bij nacht;  5° indien zij gepleegd worden door twee of meer personen;  6° indien de schuldige, om de afpersing te vergemakkelijken of zijn vlucht te verzekeren, gebruik maakt van een voertuig of enig ander al dan niet met een motor aangedreven tuig.
 
 ###### Art. 477sexies
 
 (Zie NOTA 1 onder TITEL) <W 17-04-1986, art. 2> § 1. De diefstal of de afpersing van kernmateriaal met behulp van geweld of bedreiging alsmede het feit bedoeld in artikel 477quater, worden gestraft met (opsluiting van twintig jaar tot dertig jaar) : <W 2003-01-23/42, art. 79, 041; Inwerkingtreding : 13- 03-2003>  1° indien zij gepleegd worden onder twee van de omstandigheden vermeld in artikel 477quinquies;  2° indien wapens of op wapens gelijkende voorwerpen worden gebruikt of getoond, of indien de schuldige doet geloven dat hij gewapend is;  3° indien de schuldige, om het feit te plegen of zijn vlucht te verzekeren, gebruik maakt van weerloosmakende of giftige stoffen;  4° indien de schuldige, om het feit te vergemakkelijken of zijn vlucht te verzekeren, gebruik maakt van een gestolen voertuig of enig ander al dan niet met een motor aangedreven gestolen tuig;  5° indien de schuldige, om het feit te vergemakkelijken of zijn vlucht te verzekeren, gebruik maakt van een motorvoertuig of enig ander met een motor aangedreven tuig voorzien van kentekens of toestellen waardoor de verwarring kan ontstaan met een motorvoertuig of enig ander met een motor aangedreven tuig van de ordediensten.  § 2. Dezelfde feiten worden gestraft met dezelfde straf :  1° indien het geweld of de bedreiging, hetzij een ongeneeslijk lijkende ziekte, hetzij een [ 1 ongeschiktheid tot het verrichten van persoonlijke arbeid van meer dan vier maanden] 1 , hetzij het volledig verlies van het gebruik van een orgaan of een zware verminking heeft veroorzaakt;  2° (indien de boosdoeners de personen aan de handelingen bedoeld [ 2 in artikel 417/2] 2 , eerste lid, hebben onderworpen); <W 2002-06-14/42, art. 9, 036; Inwerkingtreding : 24-08-2002>  3° indien het geweld of de bedreiging gepleegd zonder het oogmerk te doden, toch de dood heeft veroorzaakt.  § 3. De straf bepaald bij § 2 wordt zelfs dan toegepast wanneer de voltooiing van de diefstal of van de afpersing wordt verhinderd door omstandigheden, onafhankelijk van de wil van de schuldigen.  ----------  ( 1 )<W 2016-02-05/11, art. 23, 114; Inwerkingtreding : 29-02-2016>   ( 2 )<W 2022-03-21/01, art. 92, 148; Inwerkingtreding : 01-06-2022>
-
 
 ##### AFDELING III. - (BETEKENIS VAN SOMMIGE IN DIT WETBOEK VOORKOMENDE UITDRUKKINGEN). <W 02-07- 1975, art. 5>
 ###### Art. 478
@@ -3031,7 +3147,6 @@ BIJZONDERE BEPALING.
 
 #### HOOFDSTUK II. - BEDROG.
 
-
 ----------  ( 1 )<W 2017-08-11/14, art. 4, 128; Inwerkingtreding : 01-05-2018>
 
 ##### AFDELING I. [ 1 - Misdrijven die verband houden met insolventie] 1
@@ -3063,7 +3178,6 @@ BIJZONDERE BEPALING.
 
 ----------  ( 1 )<Ingevoegd bij W 2017-08-11/14, art. 11, 128; Inwerkingtreding : 01-05-2018>
 
-
 ##### AFDELING II. - MISBRUIK VAN VERTROUWEN.
 ###### Art. 491
 
@@ -3090,7 +3204,6 @@ Hij die, na in een rechtsgeding enige titel, enig stuk of enige memorie te hebbe
 ###### Art. 495bis
 
 <W 10-10-1967, art. 144> Met gevangenisstraf van acht dagen tot twee jaar en met geldboete van zesentwintig [euro] tot duizend [euro], of met een van die straffen alleen, wordt gestraft hij die een stuk dat hij onder zich heeft en waarvan de overlegging in rechte bij een vonnis wordt bevolen, bedrieglijk vernietigt, verandert of verbergt. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
-
 
 (Poging tot het wanbedrijf omschreven in het eerste lid wordt gestraft met gevangenisstraf van acht dagen tot drie jaar en met geldboete van zesentwintig [euro] tot tweeduizend [euro].) <W 1993-06-16/35, art. 1, 1°, 009; Inwerkingtreding : 03-08-1993> <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  (In de gevallen in de vorige leden omschreven kan de schuldige bovendien worden veroordeeld tot ontzetting van rechten overeenkomstig artikel 33. ) <W 1993-06-16/35, art. 1, 2°, 009; Inwerkingtreding : 03-08-1993>  ----------  ( 1 )<W 2011-11-26/19, art. 41, 084; Inwerkingtreding : 02-02-2012>   ( 2 )<W 2023-07-12/10, art. 16, 153; Inwerkingtreding : 18-09-2023>
 
@@ -3127,12 +3240,10 @@ Met gevangenisstraf van acht dagen tot zes maanden en met geldboete van zesentwi
 
 De bepaling van artikel 462 is toepasselijk op de misdrijven, in de artikelen 496, 498 en 499 omschreven.
 
-
 ##### AFDELING IIIBIS. <Ingevoegd bij W 1999-02-10/39, art. 5; Inwerkingtreding : 02-04-1999>
 ###### Art. 504bis
 
 ###### Art. 504ter
-
 
 ----------  ( 1 )<Ingevoegd bij W 2024-01-18/06, art. 40, 157; Inwerkingtreding : 05-02-2024>
 
@@ -3144,7 +3255,6 @@ vergunningsplichtige wapens of geld met een illegale herkomst in bezit heeft.  �
 ###### Art. 504quater
 
 § 1. (Hij die, met bedrieglijk opzet, beoogt een onrechtmatig economisch voordeel voor zichzelf of voor een ander te verwerven), door gegevens die worden opgeslagen, verwerkt of overgedragen door middel van een informaticasysteem, in een informaticasysteem in te voeren, te wijzigen, te wissen of met enig ander technologisch middel (de normale aanwending) van gegevens in een informaticasysteem te veranderen, wordt gestraft met gevangenisstraf van zes maanden tot vijf jaar en met geldboete van zesentwintig [euro] tot honderdduizend [euro] of met een van die straffen alleen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01- 2002> <W 2006-05-15/46, art. 4, 059; Inwerkingtreding : 22-09-2006>  § 2. Poging tot het plegen van het misdrijf bedoeld in § 1 wordt gestraft met gevangenisstraf van zes maanden tot drie jaar en met geldboete van zesentwintig [euro] tot vijftigduizend [euro], of met een van die straffen alleen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  § 3. De straffen bepaald in de §§ 1 en 2 worden verdubbeld indien een overtreding van een van die bepalingen wordt begaan binnen vijf jaar na de uitspraak houdende veroordeling wegens een van die strafbare feiten of wegens een van de strafbare feiten bedoeld in de artikelen 210bis, 259bis, 314bis of in titel IXbis.
-
 
 ##### AFDELING IV. - (Heling en andere verrichtingen met betrekking tot zaken die uit een misdrijf voortkomen.) <W 1990-07-17/30, art. 4, 004; Inwerkingtreding : 25-08-1990>
 ###### Art. 505
@@ -3162,7 +3272,6 @@ vergunningsplichtige wapens of geld met een illegale herkomst in bezit heeft.  �
 ###### Art. 506
 
 <W 2003-01-23/42, art. 81, 041; Inwerkingtreding : 13-03-2003> Ingeval de straf, toepasselijk op de daders van de misdaad, levenslange opsluiting of opsluiting van twintig jaar tot dertig jaar is, worden (de in de artikelen 505 en 505bis bedoelde helers) veroordeeld tot opsluiting van vijf jaar tot tien jaar indien bevonden wordt dat zij ten tijde van de heling kennis droegen van de omstandigheden waaraan de wet levenslange opsluiting of opsluiting van twintig jaar tot dertig jaar verbindt. <W 2005-08-10/62, art. 8, 054 ; Inwerkingtreding : 02-09-2005>
-
 
 ##### AFDELING V. - ENIGE ANDERE SOORTEN VAN BEDROG.
 ###### Art. 507
@@ -3196,7 +3305,6 @@ Met gevangenisstraf van een maand tot twee jaar en met geldboete van zesentwinti
 <W 2007-05-15/62, art. 33, 072; Inwerkingtreding : 01-09-2007> Met gevangenisstraf van acht dagen tot drie maanden en met geldboete van tweehonderd euro tot vijftienhonderd euro of met een van die straffen alleen wordt gestraft de deskundige die, wetende dat een rechtstreekse betaling niet toegelaten is, deze toch aanvaardt van een partij in het geding.
 
 #### HOOFDSTUK III. - VERNIELING, BESCHADIGING, AANRICHTING VAN SCHADE.
-
 
 ##### AFDELING I. - BRANDSTICHTING.
 ###### Art. 510
@@ -3237,7 +3345,6 @@ Wanneer de brand overslaat van de zaak die de schuldige wilde verbranden, op een
 
 <W 07-06-1963, art. 7> Wanneer de brand verwondingen heeft veroorzaakt aan een of meer personen en de dader van het feit moest vermoeden dat zij zich in de in brand gestoken plaatsen bevonden op het ogenblik van de misdaad of van het wanbedrijf, wordt de schuldige veroordeeld alsof die verwondingen met voorbedachten rade waren toegebracht en wordt de door de wet hierop gestelde straf toegepast, indien deze zwaarder is dan de straf die wegens brandstichting op hem toepasselijk is.  In het tegenovergestelde geval wordt de laatstbedoelde straf tot twee jaar boven het maximum verhoogd, indien zij in opsluiting (van vijftien jaar tot twintig jaar of gedurende een kortere tijd) bestaat. <W 2003-01-23/42, art. 84, 041; Inwerkingtreding : 13-03-2003>  Indien het feit de dood ten gevolge heeft, wordt de (levenslange opsluiting) toegepast. <W 1996-07-10/42, art. 15, 018; Inwerkingtreding : 11-08-1996>
 
-
 ##### AFDELING II. - VERNIELING VAN BOUWWERKEN, STOOMMACHINES EN TELEGRAAFTOESTELLEN.
 ###### Art. 521
 
@@ -3251,7 +3358,9 @@ De bepaling van artikel 518 is toepasselijk op het geval in het vorige artikel o
 
 <W 07-06-1963, art. 10> Hij die een machine vernielt, die aan een ander toebehoort en bestemd is voor voortbrenging, omzetting of verdeling van drijfkracht of voor het verbruik ervan voor andere dan louter huishoudelijke doeleinden, wordt veroordeeld tot gevangenisstraf van vijftien dagen tot drie jaar en tot geldboete van vijfhonderd [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  Vernieling bestaat zodra de werking van de machine geheel of ten dele verhinderd is, onverschillig of het feit de aandrijvende dan wel de aangedreven toestellen betreft.
 
-###### Art. 524. (Opgeheven) <W 13-10-1930, art. 31>
+###### Art. 524
+
+(Opgeheven) <W 13-10-1930, art. 31>
 
 ###### Art. 525
 
@@ -3260,7 +3369,6 @@ De bepaling van artikel 518 is toepasselijk op het geval in het vorige artikel o
 ###### Art. 525bis
 
 ----------  ( 1 )<W 2009-12-30/01, art. 116, 074; Inwerkingtreding : 31-12-2009>   ( 2 )<W 2022-12-06/02, art. 31, 152; Inwerkingtreding : 31-12-2022>
-
 
 ##### AFDELING III. - VERNIELING OF BESCHADIGING VAN GRAVEN, MONUMENTEN, KUNSTVOORWERPEN, TITELS, BESCHEIDEN OF ANDERE PAPIEREN.
 ###### Art. 526
@@ -3301,14 +3409,12 @@ Hij die koopwaren of stoffen dienende om verwerkt te worden, kwaadwillig of bedr
 
 Hij die de banden of de hindernissen waarmee een vaartuig, een wagon of een voertuig is vastgelegd, kwaadwillig wegneemt, doorsnijdt of vernielt, wordt gestraft met gevangenisstraf van acht dagen tot twee jaar.
 
-
 ##### Afdeling IVbis. - Graffiti en beschadiging van onroerende eigendommen. <ingevoegd bij W 2007-01-25/39, art. 3, Inwerkingtreding : 02-03-2007>
 ###### Art. 534bis
 
 ###### Art. 534quater
 
 ----------  ( 1 )<W 2009-12-30/01, art. 118, 074; Inwerkingtreding : 31-12-2009>   ( 2 )<W 2022-12-06/02, art. 31, 152; Inwerkingtreding : 31-12-2022>
-
 
 ##### AFDELING V. - VERNIELING EN VERWOESTING VAN VELDVRUCHTEN, PLANTEN, BOMEN, ENTEN, GRANEN EN VOEDER, VERNIELING VAN LANDBOUWGEREEDSCHAPPEN.
 ###### Art. 535
@@ -3322,7 +3428,6 @@ Met gevangenisstraf van een maand tot twee jaar en met geldboete van zesentwinti
 ###### Art. 537
 
 Hij die kwaadwillig een of meer bomen omhakt of zodanig snijdt, verminkt of ontschorst dat zij vergaan, of een of meer enten vernielt, wordt gestraft :  Voor elke boom, met gevangenisstraf van acht dagen tot drie maanden en met geldboete van zesentwintig [euro] tot honderd [euro]; <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  Voor elke ent, met gevangenisstraf van acht dagen tot vijftien dagen en met geldboete van zesentwintig [euro] tot vijftig [euro] of met een van die straffen alleen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  In geen geval mag de gezamenlijke straf hoger zijn dan drie jaar wat de gevangenisstraf en vijfhonderd [euro] wat de geldboete betreft.
-
 
 ##### AFDELING VI. - OMBRENGEN VAN DIEREN.
 ###### Art. 538
@@ -3341,14 +3446,14 @@ Zij die buiten noodzaak een van de in artikel 538 vermelde dieren doden of zwaar
 
 Indien er in de gevallen van de vorige artikelen schending van afsluiting heeft plaatsgehad, wordt het minimum van de straf verhoogd overeenkomstig artikel 266.
 
-
 ##### AFDELING VII. - BEPALINGEN AAN DE VORIGE AFDELINGEN GEMEEN.
 ###### Art. 543
 
 Indien de feiten, in de afdelingen V en VI van dit hoofdstuk omschreven, gepleegd worden hetzij uit haat tegen een openbaar ambtenaar en uit hoofde van zijn bediening, hetzij bij nacht, wordt het minimum van de straf verhoogd overeenkomstig artikel 266.
 
-###### Art. 544. (Opgeheven) <W 09-04-1930, art. 32>
+###### Art. 544
 
+(Opgeheven) <W 09-04-1930, art. 32>
 
 ##### AFDELING VIII. - VERNIELING VAN AFSLUITINGEN, VERPLAATSING OF VERWIJDERING VAN GRENSPALEN EN HOEKBOMEN.
 ###### Art. 545
@@ -3358,7 +3463,6 @@ Met gevangenisstraf van acht dagen tot zes maanden en met geldboete van zesentwi
 ###### Art. 546
 
 Wanneer de feiten, in het vorige artikel omschreven, gepleegd worden met het oogmerk om een bezitsaanmatiging op een erf te plegen, is de straf gevangenisstraf van een maand tot een jaar en geldboete van vijftig [euro] tot tweeduizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
-
 
 ----------  ( 1 )<Ingevoegd bij W 2016-05-20/04, art. 2, 117; Inwerkingtreding : 12-06-2016>
 
@@ -3376,7 +3480,6 @@ Wanneer de feiten, in het vorige artikel omschreven, gepleegd worden met het oog
 § 2. Poging tot het plegen van het in § 1 van dit artikel bedoelde misdrijf wordt gestraft met gevangenisstraf van acht dagen tot zes maanden en met een geldboete van zesentwintig euro tot vijfhonderd euro of met een van die straffen alleen.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2016-05-20/04, art. 4, 117; Inwerkingtreding : 12-06-2016>   ( 2 )<W 2025-12-19/94, art. 61, 165; Inwerkingtreding : 19-01-2026>
-
 
 ##### AFDELING IX. - VERNIELING EN SCHADE DOOR OVERSTROMING VEROORZAAKT.
 ###### Art. 547
@@ -3405,25 +3508,43 @@ Met geldboete van vijftig [euro] tot vijfhonderd [euro] worden gestraft de eigen
 
 #### HOOFDSTUK I. - OVERTREDINGEN VAN DE EERSTE KLASSE. (Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
 
-###### Art. 551. (Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
+###### Art. 551
 
-###### Art. 552. (Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
+(Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
 
-###### Art. 553. (Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
+###### Art. 552
 
-###### Art. 554. (Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
+(Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
+
+###### Art. 553
+
+(Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
+
+###### Art. 554
+
+(Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
 
 #### HOOFDSTUK II. - OVERTREDINGEN VAN DE TWEEDE KLASSE. (Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
 
-###### Art. 555. (Opgeheven) <B 31-01-1946, art. 4>
+###### Art. 555
 
-###### Art. 556. (Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
+(Opgeheven) <B 31-01-1946, art. 4>
 
-###### Art. 557. (Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
+###### Art. 556
 
-###### Art. 558. (Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
+(Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
 
-###### Art. 560. (Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
+###### Art. 557
+
+(Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
+
+###### Art. 558
+
+(Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
+
+###### Art. 560
+
+(Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
 
 ###### Art. 561
 

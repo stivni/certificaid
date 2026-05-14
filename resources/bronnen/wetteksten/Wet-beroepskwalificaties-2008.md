@@ -17,24 +17,20 @@ provenance:
       version: 12.02.2008
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 4eaec39e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:25:07Z'
+  generated_at: '2026-05-14T18:54:25Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T15:23:19Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'L1 pass: 72 headings, max sectie 7781 chars. #### Art.-headings correct, GEWESTELIJKE varianten correct als Art. 10_WAALS_GEWEST. Inhoud volledig.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    caveat:
     layer1:
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T15:23:19Z'
-      rationale: 'L1 pass: 72 headings, max sectie 7781 chars. #### Art.-headings correct, GEWESTELIJKE varianten correct als Art. 10_WAALS_GEWEST. Inhoud volledig.'
-      concrete_problemen: []
 ---
 
 # Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van beroepskwalificaties
@@ -111,7 +107,9 @@ Gevolgen van de erkenning.
 
 ----------  ( 1 )<DWG 2017-07-12/16, art. 9, 004; Inwerkingtreding : 22-09-2017>
 
-#### Art. 5/2. [ 1  Indiening van de aanvraag van Europese beroepskaart
+#### Art. 5/2
+
+[ 1  Indiening van de aanvraag van Europese beroepskaart
 
 § 1. De houder van een in artikel 5/1 bedoelde beroepskwalificatie die een beroepsactiviteit in andere lidstaten wil uitoefenen, kan zijn aanvraag van een Europese beroepskaart indienen middels het door de Europese Commissie ter beschikking gestelde online-instrument, dat voor de betrokken aanvrager automatisch een IMI- bestand aanmaakt.  De aanvrager ondersteunt zijn aanvraag met alle documenten die zijn voorgeschreven in de door de Europese Commissie genomen uitvoeringshandeling.  § 2. De bevoegde Belgische autoriteit bevestigt binnen een week na ontvangst van de aanvraag dat deze is ontvangen en deelt de aanvrager mee welke documenten ontbreken.  De bevoegde Belgische autoriteit verstrekt in voorkomend geval alle uit hoofde van de door de Europese Commissie genomen uitvoeringshandeling benodigde attesten. Ze gaat eveneens na of de aanvrager wettig gevestigd is in België en of alle benodigde documenten die voor het opmaken van een Europese beroepskaart zijn afgeleverd geldig en authentiek zijn.  Indien hierover gegronde twijfel bestaat, raadpleegt de bevoegde Belgische autoriteit de instantie die de documenten heeft afgeleverd. Zij kan eveneens de aanvrager verzoeken voor eensluidend gewaarmerkte afschriften van de documenten voor te leggen.  Indien eenzelfde aanvrager nadien andere aanvragen doet, mag de Belgische bevoegde autoriteit niet opnieuw vragen documenten voor te leggen die al in het IMI-bestand zijn opgenomen en nog steeds geldig zijn.] 1
 
@@ -133,7 +131,9 @@ Gevolgen van de erkenning.
 
 ----------  ( 1 )<DWG 2017-07-12/16, art. 12, 004; Inwerkingtreding : 22-09-2017>
 
-#### Art. 5/4. [ 1  Actualisatie van de Europese beroepskaart
+#### Art. 5/4
+
+[ 1  Actualisatie van de Europese beroepskaart
 
 De houder van een Europese beroepskaart die andere diensten wenst te leveren dan diegene vermeld in zijn oorspronkelijke aanvraag of die diensten wenst te blijven leveren na de oorspronkelijke periode van achttien maanden, stelt de bevoegde Belgische autoriteit hiervan in kennis. Hij verschaft eveneens alle door deze autoriteit, in toepassing van de uitvoeringshandeling aangenomen door de Europese Commissie, vereiste informatie omtrent wezenlijke veranderingen in de in het IMI-bestand vastgelegde situatie.  De bevoegde Belgische autoriteit zendt de geactualiseerde Europese beroepskaart naar alle betrokken ontvangende lidstaten.] 1
 
@@ -345,7 +345,9 @@ Werkzaamheden van lijst III van bijlage IV.
 
 ----------  ( 1 )<DWG 2017-07-12/16, art. 28, 004; Inwerkingtreding : 22-09-2017>
 
-#### Art. 21/2. [ 1  Gemeenschappelijke opleidingsproeven
+#### Art. 21/2
+
+[ 1  Gemeenschappelijke opleidingsproeven
 
 § 1. Voor de toepassing van dit artikel wordt onder een gemeenschappelijke opleidingsproef verstaan een gestandaardiseerde proeve van bekwaamheid die in alle deelnemende lidstaten beschikbaar is en voorbehouden is voor houders van bepaalde beroepskwalificaties.  § 2. De houder van een beroepskwalificatie die onderworpen wordt aan een gemeenschappelijke opleidingsproef vastgelegd door een gedelegeerde handeling van de Europese Commissie en die aan de in artikel 49ter, § 2, van de richtlijn vastgestelde voorwaarden voldoet, mag, indien hij slaagt voor deze proef in een lidstaat, het beroep in België onder dezelfde voorwaarden uitoefenen als de houders van de in België verworven beroepskwalificaties.  § 3. Een Belgische beroepsorganisatie of een bevoegde Belgische autoriteit kan de inrichting van een gemeenschappelijke opleidingsproef overeenkomstig artikel 49ter, §§ 2 en 3, van de richtlijn voorstellen.  § 4. Een bevoegde Belgische autoriteit wordt vrijgesteld van de verplichting om de gemeenschappelijke opleidingsproef te organiseren en van de verplichting om automatische erkenning te verlenen aan beroepsbeoefenaars die geslaagd zijn voor de gemeenschappelijke opleidingsproef indien aan een van de volgende voorwaarden is voldaan :  1° het betrokken beroep is niet gereglementeerd in België;  2° de inhoud van de gemeenschappelijke opleidingsproef beperkt in onvoldoende mate ernstige risico's voor de volksgezondheid of de veiligheid van de afnemers van de diensten die op zijn grondgebied van belang zijn;  3° de inhoud van de gemeenschappelijke opleidingsproef zou de toegang tot het beroep aanzienlijk minder aantrekkelijk maken in vergelijking met de nationale eisen.] 1
 
@@ -389,7 +391,9 @@ Talenkennis.
 
 Voeren van de academische titels.
 
-#### Art. 26/1. [ 1  Erkenning van beroepsstages
+#### Art. 26/1
+
+[ 1  Erkenning van beroepsstages
 
 § 1. Indien voor de toegang tot een gereglementeerd beroep in België een beroepsstage moet worden volbracht, erkent de bevoegde Belgische autoriteit, wanneer zij een verzoek onderzoekt om toelating om het gereglementeerde beroep uit te oefenen met het oog op de vestiging, beroepsstages die in een andere lidstaat gevolgd zijn, mits de stage in overeenstemming is met de in § 2 bedoelde gepubliceerde richtsnoeren, en houdt zij rekening met in een derde land gevolgde beroepsstages.  De duur van het deel van de beroepsstage die in het buitenland mag worden gevolgd, mag tot een redelijke periode beperkt worden.  § 2. De erkenning van de beroepsstage komt niet in de plaats van een van de voorwaarden opgelegd voor het slagen in een proef om toegang te krijgen tot het beroep in kwestie.  De bevoegde Belgische autoriteiten publiceren richtsnoeren voor de organisatie en de erkenning van beroepsstages die in een andere lidstaat of in een derde land worden gevolgd, met name betreffende de rol van de supervisor van de beroepsstage.] 1
 
@@ -411,7 +415,9 @@ Bevoegde autoriteiten.
 
 ----------  ( 1 )<W 2016-12-25/44, art. 32, 002; Inwerkingtreding : 10-02-2017>   ( 2 )<DWG 2017-07-12/16, art. 33, 004; Inwerkingtreding : 22-09-2017>
 
-#### Art. 27/1. [ 1  Waarschuwingsmechanismes
+#### Art. 27/1
+
+[ 1  Waarschuwingsmechanismes
 
 § 1. De bevoegde Belgische autoriteit stelt de bevoegde autoriteiten van alle andere lidstaten binnen drie dagen nadat de rechtbank het besluit heeft genomen, door middel van een waarschuwing via het IMI in kennis van de identiteit van beroepsbeoefenaars die krachtens deze wet een aanvraag tot erkenning van een kwalificatie hebben ingediend en die daarna in dit verband door een rechtbank schuldig zijn bevonden aan het gebruik van valse bewijzen voor het bewijs van hun beroepskwalificaties.  § 2. De verwerking van persoonsgegevens bedoeld in § 1 vindt plaats met inachtneming van de regels inzake de bescherming van persoonsgegevens en in het bijzonder de bepalingen van of genomen in uitvoering van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en de wet van 24 augustus 2005 tot omzetting van verschillende bepalingen van de richtlijn financiële diensten op afstand en van de richtlijn privacy en elektronische communicatie.  § 3. De beroepsbeoefenaars over wie een waarschuwing naar de andere lidstaten is verzonden, worden onmiddellijk zelf schriftelijk in kennis gesteld van het waarschuwingsbesluit alsook van elke beslissing die hiermee in verband staat en van hun recht tegen deze beslissing beroep aan te tekenen bij de voorzitter van de rechtbank van eerste aanleg. Ze worden ook in kennis gesteld van hun recht om toegang te vragen tot de beslissingen of om een verzoek om rechtzetting van de beslissing in te dienen en om herstel van de overeenkomstig artikel 14 van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens opgelopen schade te bekomen. Als de beroepsbeoefenaar beroep aantekent, moet die informatie opgenomen worden in de waarschuwing.  § 4. Gegevens met betrekking tot waarschuwingen mogen worden verwerkt zolang zij van kracht zijn.] 1
 

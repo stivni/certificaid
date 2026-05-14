@@ -17,24 +17,20 @@ provenance:
       version: 27.04.2016
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 4eaec39e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:24:25Z'
+  generated_at: '2026-05-14T18:54:26Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T15:23:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'L1 pass. EU-verordening met correcte ###### Art.-headings. Inhoud volledig aanwezig.'
+    confirmed_at: '2026-05-14T18:56:25Z'
+    confirmed_by: human
+    rationale: 'Re-converteerd na ETL-fixes: split_merged_headings volgorde + _NR_RE slash-support + normalize_artikel_to_art markdown-prefix. Afdeling+Onderafdeling correct gemerged op L5, Art. alleen op L6 (BE-wetteksten) of Artikel-headings correct gepromoveerd (EU-bronnen).'
+    caveat:
     layer1:
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T15:23:18Z'
-      rationale: 'L1 pass. EU-verordening met correcte ###### Art.-headings. Inhoud volledig aanwezig.'
-      concrete_problemen: []
 ---
 
 # AVG — Algemene Verordening Gegevensbescherming 2016/679
@@ -427,7 +423,7 @@ HEBBEN DE VOLGENDE VERORDENING VASTGESTELD:
 
 Algemene bepalingen
 
-## Artikel 1
+### Art. 1
 
 Onderwerp en doelstellingen
 1.
@@ -437,7 +433,7 @@ Deze verordening beschermt de grondrechten en de fundamentele vrijheden van natu
 3.
 Het vrije verkeer van persoonsgegevens in de Unie wordt noch beperkt noch verboden om redenen die verband houden met de bescherming van natuurlijke personen ten aanzien van de verwerking van persoonsgegevens.
 
-## Artikel 2
+### Art. 2
 
 Materieel toepassingsgebied
 1.
@@ -455,7 +451,7 @@ Op de verwerking van persoonsgegevens door de instellingen, organen en instantie
 4.
 Deze verordening laat de toepassing van Richtlijn 2000/31/EG, en met name van de regels in de artikelen 12 tot en met 15 van die richtlijn betreffende de aansprakelijkheid van als tussenpersoon optredende dienstverleners onverlet.
 
-## Artikel 3
+### Art. 3
 
 Territoriaal toepassingsgebied
 1.
@@ -468,7 +464,7 @@ b) het monitoren van hun gedrag, voor zover dit gedrag in de Unie plaatsvindt.
 3.
 Deze verordening is van toepassing op de verwerking van persoonsgegevens door een verwerkingsverantwoor­ delijke die niet in de Unie is gevestigd, maar op een plaats waar krachtens het internationaal publiekrecht het lidstatelijke recht van toepassing is.
 
-## Artikel 4
+### Art. 4
 
 Definities
 Voor de toepassing van deze verordening wordt verstaan onder:
@@ -513,7 +509,7 @@ b) verwerking van persoonsgegevens in het kader van de activiteiten van één ve
 
 Beginselen
 
-## Artikel 5
+### Art. 5
 
 Beginselen inzake verwerking van persoonsgegevens
 1.
@@ -531,7 +527,7 @@ f) door het nemen van passende technische of organisatorische maatregelen op een
 2.
 De verwerkingsverantwoordelijke is verantwoordelijk voor de naleving van lid 1 en kan deze aantonen („verant­ woordingsplicht”).
 
-## Artikel 6
+### Art. 6
 
 Rechtmatigheid van de verwerking
 1.
@@ -562,7 +558,7 @@ c) de aard van de persoonsgegevens, met name of bijzondere categorieën van pers
 d) de mogelijke gevolgen van de voorgenomen verdere verwerking voor de betrokkenen;
 e) het bestaan van passende waarborgen, waaronder eventueel versleuteling of pseudonimisering.
 
-## Artikel 7
+### Art. 7
 
 Voorwaarden voor toestemming
 1.
@@ -574,7 +570,7 @@ De betrokkene heeft het recht zijn toestemming te allen tijde in te trekken. Het
 4.
 Bij de beoordeling van de vraag of de toestemming vrijelijk kan worden gegeven, wordt onder meer ten sterkste rekening gehouden met de vraag of voor de uitvoering van een overeenkomst, met inbegrip van een dienstenover­ eenkomst, toestemming vereist is voor een verwerking van persoonsgegevens die niet noodzakelijk is voor de uitvoering van die overeenkomst.
 
-## Artikel 8
+### Art. 8
 
 Voorwaarden voor de toestemming van kinderen met betrekking tot diensten van de informatie­ maatschappij
 1.
@@ -586,7 +582,7 @@ Met inachtneming van de beschikbare technologie doet de verwerkingsverantwoordel
 3.
 Lid 1 laat het algemene overeenkomstenrecht van de lidstaten, zoals de regels inzake de geldigheid, de totstand­ koming of de gevolgen van overeenkomsten ten opzichte van kinderen, onverlet.
 
-## Artikel 9
+### Art. 9
 
 Verwerking van bijzondere categorieën van persoonsgegevens
 1.
@@ -611,11 +607,11 @@ De in lid 1 bedoelde persoonsgegevens mogen worden verwerkt voor de in lid 2, pu
 4.
 De lidstaten kunnen bijkomende voorwaarden, waaronder beperkingen, met betrekking tot de verwerking van genetische gegevens, biometrische gegevens of gegevens over gezondheid handhaven of invoeren.
 
-## Artikel 10
+### Art. 10
 
 Verwerking van persoonsgegevens betreffende strafrechtelijke veroordelingen en strafbare feiten Persoonsgegevens betreffende strafrechtelijke veroordelingen en strafbare feiten of daarmee verband houdende veilig­ heidsmaatregelen mogen op grond van artikel 6, lid 1, alleen worden verwerkt onder toezicht van de overheid of indien de verwerking is toegestaan bij Unierechtelijke of lidstaatrechtelijke bepalingen die passende waarborgen voor de rechten en vrijheden van de betrokkenen bieden. Omvattende registers van strafrechtelijke veroordelingen mogen alleen worden bijgehouden onder toezicht van de overheid.
 
-## Artikel 11
+### Art. 11
 
 Verwerking waarvoor identificatie niet is vereist
 1.
@@ -629,7 +625,7 @@ Rechten van de betrokkene
 Afde li ng 1
 Tr a n sp a ra nti e e n r e ge ling en
 
-## Artikel 12
+### Art. 12
 
 Transparante informatie, communicatie en nadere regels voor de uitoefening van de rechten van de betrokkene
 1.
@@ -656,7 +652,7 @@ De Commissie is bevoegd overeenkomstig artikel 92 gedelegeerde handelingen vast 
 Af del in g 2
 I n fo r m a t ie e n to eg a ng tot p e rs oo nsge ge ve ns
 
-## Artikel 13
+### Art. 13
 
 Te verstrekken informatie wanneer persoonsgegevens bij de betrokkene worden verzameld
 1.
@@ -681,7 +677,7 @@ Wanneer de verwerkingsverantwoordelijke voornemens is de persoonsgegevens verder
 4.
 De leden 1, 2 en 3 zijn niet van toepassing wanneer en voor zover de betrokkene reeds over de informatie beschikt.
 
-## Artikel 14
+### Art. 14
 
 Te verstrekken informatie wanneer de persoonsgegevens niet van de betrokkene zijn verkregen
 1.
@@ -720,7 +716,7 @@ b) het verstrekken van die informatie onmogelijk blijkt of onevenredig veel insp
 c) het verkrijgen of verstrekken van de gegevens uitdrukkelijk is voorgeschreven bij Unie- of lidstatelijk recht dat op de verwerkingsverantwoordelijke van toepassing is en dat recht voorziet in passende maatregelen om de gerecht­ vaardigde belangen van de betrokkene te beschermen; of
 d) de persoonsgegevens vertrouwelijk moeten blijven uit hoofde van een beroepsgeheim in het kader van Unierecht of lidstatelijke recht, waaronder een statutaire geheimhoudingsplicht.
 
-## Artikel 15
+### Art. 15
 
 Recht van inzage van de betrokkene
 1.
@@ -743,13 +739,13 @@ Het in lid 3 bedoelde recht om een kopie te verkrijgen, doet geen afbreuk aan de
 Af del in g 3
 Rec ti f ic a ti e e n w issi ng va n ge ge ve ns
 
-## Artikel 16
+### Art. 16
 
 Recht op rectificatie
 
 De betrokkene heeft het recht om van de verwerkingsverantwoordelijke onverwijld rectificatie van hem betreffende onjuiste persoonsgegevens te verkrijgen. Met inachtneming van de doeleinden van de verwerking heeft de betrokkene het recht vervollediging van onvolledige persoonsgegevens te verkrijgen, onder meer door een aanvullende verklaring te verstrekken.
 
-## Artikel 17
+### Art. 17
 
 Recht op gegevenswissing („recht op vergetelheid”)
 1.
@@ -773,7 +769,7 @@ c) om redenen van algemeen belang op het gebied van volksgezondheid overeenkomst
 d) met het oog op archivering in het algemeen belang, wetenschappelijk of historisch onderzoek of statistische doeleinden overeenkomstig artikel 89, lid 1, voor zover het in lid 1 bedoelde recht de verwezenlijking van de doeleinden van die verwerking onmogelijk dreigt te maken of ernstig in het gedrang dreigt te brengen;
 e) voor de instelling, uitoefening of onderbouwing van een rechtsvordering.
 
-## Artikel 18
+### Art. 18
 
 Recht op beperking van de verwerking
 1.
@@ -788,11 +784,11 @@ Wanneer de verwerking op grond van lid 1 is beperkt, worden persoonsgegevens, me
 3.
 Een betrokkene die overeenkomstig lid 1 een beperking van de verwerking heeft verkregen, wordt door de verwer­ kingsverantwoordelijke op de hoogte gebracht voordat de beperking van de verwerking wordt opgeheven.
 
-## Artikel 19
+### Art. 19
 
 Kennisgevingsplicht inzake rectificatie of wissing van persoonsgegevens of verwerkingsbeperking De verwerkingsverantwoordelijke stelt iedere ontvanger aan wie persoonsgegevens zijn verstrekt, in kennis van elke rectificatie of wissing van persoonsgegevens of beperking van de verwerking overeenkomstig artikel 16, artikel 17, lid 1, en artikel 18, tenzij dit onmogelijk blijkt of onevenredig veel inspanning vergt. De verwerkingsverantwoordelijke verstrekt de betrokkene informatie over deze ontvangers indien de betrokkene hierom verzoekt.
 
-## Artikel 20
+### Art. 20
 
 Recht op overdraagbaarheid van gegevens
 1.
@@ -809,7 +805,7 @@ Het in lid 1 bedoelde recht doet geen afbreuk aan de rechten en vrijheden van an
 Af de li ng 4
 Re cht v a n b e zw a a r e n g ea utom a ti see r de i ndivi due le be s lu itvo r mi ng
 
-## Artikel 21
+### Art. 21
 
 Recht van bezwaar
 
@@ -827,7 +823,7 @@ In het kader van het gebruik van diensten van de informatiemaatschappij, en niet
 6.
 Wanneer persoonsgegevens overeenkomstig artikel 89, lid 1, met het oog op wetenschappelijk of historisch onderzoek of statistische doeleinden worden verwerkt, heeft de betrokkene het recht om met zijn specifieke situatie verband houdende redenen bezwaar te maken tegen de verwerking van hem betreffende persoonsgegevens, tenzij de verwerking noodzakelijk is voor de uitvoering van een taak van algemeen belang.
 
-## Artikel 22
+### Art. 22
 
 Geautomatiseerde individuele besluitvorming, waaronder profilering
 1.
@@ -846,7 +842,7 @@ De in lid 2 bedoelde besluiten worden niet gebaseerd op de in artikel 9, lid 1, 
 Af del in g 5
 Bep e rki ng en
 
-## Artikel 23
+### Art. 23
 
 Beperkingen
 1.
@@ -878,7 +874,7 @@ Verwerkingsverantwoordelijke en verwerker
 Afde li n g 1
 A lg em ene ve r pli chti nge n
 
-## Artikel 24
+### Art. 24
 
 Verantwoordelijkheid van de verwerkingsverantwoordelijke
 1.
@@ -888,7 +884,7 @@ Wanneer zulks in verhouding staat tot de verwerkingsactiviteiten, omvatten de in
 3.
 Het aansluiten bij goedgekeurde gedragscodes als bedoeld in artikel 40 of goedgekeurde certificeringsmechanismen als bedoeld in artikel 42 kan worden gebruikt als element om aan te tonen dat de verplichtingen van de verwerkingsver­ antwoordelijke zijn nagekomen.
 
-## Artikel 25
+### Art. 25
 
 Gegevensbescherming door ontwerp en door standaardinstellingen
 1.
@@ -898,7 +894,7 @@ De verwerkingsverantwoordelijke treft passende technische en organisatorische ma
 3.
 Een overeenkomstig artikel 42 goedgekeurd certificeringsmechanisme kan worden gebruikt als element om aan te tonen dat aan de voorschriften van de leden 1 en 2 van dit artikel is voldaan.
 
-## Artikel 26
+### Art. 26
 
 Gezamenlijke verwerkingsverantwoordelijken
 1.
@@ -908,7 +904,7 @@ Uit de in lid 1 bedoelde regeling blijkt duidelijk welke rol de gezamenlijke ver
 3.
 Ongeacht de voorwaarden van de in lid 1 bedoelde regeling, kan de betrokkene zijn rechten uit hoofde van deze verordening met betrekking tot en jegens iedere verwerkingsverantwoordelijke uitoefenen.
 
-## Artikel 27
+### Art. 27
 
 Vertegenwoordigers van niet in de Unie gevestigde verwerkingsverantwoordelijken of verwerkers
 1.
@@ -927,7 +923,7 @@ Teneinde de naleving van deze verordening te waarborgen, wordt de vertegenwoordi
 5.
 Het feit dat de verwerkingsverantwoordelijke of de verwerker een vertegenwoordiger aanwijzen, doet niet af aan de mogelijkheid om tegen de verwerkingsverantwoordelijke of de verwerker zelf vorderingen in te stellen.
 
-## Artikel 28
+### Art. 28
 
 Verwerker
 1.
@@ -961,11 +957,11 @@ Een toezichthoudende autoriteit kan voor de in de leden 3 en 4 van dit artikel g
 De in de leden 3 en 4 bedoelde overeenkomst of andere rechtshandeling wordt in schriftelijke vorm, waaronder elektronische vorm, opgesteld.
 10. Indien een verwerker in strijd met deze verordening de doeleinden en middelen van een verwerking bepaalt, wordt die verwerker onverminderd de artikelen 82, 83 en 84 met betrekking tot die verwerking als de verwerkingsver­ antwoordelijke beschouwd.
 
-## Artikel 29
+### Art. 29
 
 Verwerking onder gezag van de verwerkingsverantwoordelijke of de verwerker De verwerker en eenieder die onder het gezag van de verwerkingsverantwoordelijke of van de verwerker handelt en toegang heeft tot persoonsgegevens, verwerkt deze uitsluitend in opdracht van de verwerkingsverantwoordelijke, tenzij hij Unierechtelijk of lidstaatrechtelijk tot de verwerking gehouden is.
 
-## Artikel 30
+### Art. 30
 
 Register van de verwerkingsactiviteiten
 1.
@@ -993,14 +989,14 @@ Desgevraagd stellen de verwerkingsverantwoordelijke of de verwerker en, in voork
 5.
 De in de leden 1 en 2 bedoelde verplichtingen zijn niet van toepassing op ondernemingen of organisaties die minder dan 250 personen in dienst hebben, tenzij het waarschijnlijk is dat de verwerking die zij verrichten een risico inhoudt voor de rechten en vrijheden van de betrokkenen, de verwerking niet incidenteel is, of de verwerking bijzondere categorieën van gegevens, als bedoeld in artikel 9, lid 1, of persoonsgegevens in verband met strafrechtelijke veroorde­ lingen en strafbare feiten als bedoeld in artikel 10 betreft.
 
-## Artikel 31
+### Art. 31
 
 Medewerking met de toezichthoudende autoriteit
 De verwerkingsverantwoordelijke en de verwerker en, in voorkomend geval, hun vertegenwoordigers, werken desgevraagd samen met de toezichthoudende autoriteit bij het vervullen van haar taken.
 Af d eli ng 2
 Pe rs oo nsge ge vensbe ve ili ging
 
-## Artikel 32
+### Art. 32
 
 Beveiliging van de verwerking
 1.
@@ -1017,7 +1013,7 @@ Het aansluiten bij een goedgekeurde gedragscode als bedoeld in artikel 40 of een
 4.
 De verwerkingsverantwoordelijke en de verwerker treffen maatregelen om ervoor te zorgen dat iedere natuurlijke persoon die handelt onder het gezag van de verwerkingsverantwoordelijke of van de verwerker en toegang heeft tot persoonsgegevens, deze slechts in opdracht van de verwerkingsverantwoordelijke verwerkt, tenzij hij daartoe Unierech­ telijk of lidstaatrechtelijk is gehouden.
 
-## Artikel 33
+### Art. 33
 
 Melding van een inbreuk in verband met persoonsgegevens aan de toezichthoudende autoriteit
 1.
@@ -1037,7 +1033,7 @@ Indien en voor zover het niet mogelijk is om alle informatie gelijktijdig te ver
 5.
 De verwerkingsverantwoordelijke documenteert alle inbreuken in verband met persoonsgegevens, met inbegrip van de feiten omtrent de inbreuk in verband met persoonsgegevens, de gevolgen daarvan en de genomen corrigerende maatregelen. Die documentatie stelt de toezichthoudende autoriteit in staat de naleving van dit artikel te controleren.
 
-## Artikel 34
+### Art. 34
 
 Mededeling van een inbreuk in verband met persoonsgegevens aan de betrokkene
 1.
@@ -1055,7 +1051,7 @@ Indien de verwerkingsverantwoordelijke de inbreuk in verband met persoonsgegeven
 Af d eli ng 3
 Ge ge ven s b e s che r m in gse ff ec tbe o or de ling e n voo r a f gaand e raad p l e ging
 
-## Artikel 35
+### Art. 35
 
 Gegevensbeschermingseffectbeoordeling
 1.
@@ -1091,7 +1087,7 @@ De verwerkingsverantwoordelijke vraagt in voorkomend geval de betrokkenen of hun
 10. Wanneer verwerking uit hoofde van artikel 6, lid 1, onder c) of e), haar rechtsgrond heeft in het Unierecht of in het recht van de lidstaat dat op de verwerkingsverantwoordelijke van toepassing is, de specifieke verwerking of geheel van verwerkingen in kwestie daarbij wordt geregeld, en er reeds als onderdeel van een algemene effectbeoordeling in het kader van de vaststelling van deze rechtsgrond een gegevensbeschermingseffectbeoordeling is uitgevoerd, zijn de leden 1 tot en met 7 niet van toepassing, tenzij de lidstaten het noodzakelijk achten om voorafgaand aan de verwerkingen een dergelijke beoordeling uit te voeren.
 11. Indien nodig verricht de verwerkingsverantwoordelijke een toetsing om te beoordelen of de verwerking overeen­ komstig de gegevensbeschermingseffectbeoordeling wordt uitgevoerd, zulks ten minste wanneer sprake is van een verandering van het risico dat de verwerkingen inhouden.
 
-## Artikel 36
+### Art. 36
 
 Voorafgaande raadpleging
 1.
@@ -1114,7 +1110,7 @@ Niettegenstaande lid 1 kunnen de verwerkingsverantwoordelijken lidstaatrechtelij
 Af de li ng 4
 F un cti on a r is vo or ge ge ve nsbe sche r m ing
 
-## Artikel 37
+### Art. 37
 
 Aanwijzing van de functionaris voor gegevensbescherming
 1.
@@ -1135,7 +1131,7 @@ De functionaris voor gegevensbescherming kan een personeelslid van de verwerking
 7.
 De verwerkingsverantwoordelijke of de verwerker maakt de contactgegevens van de functionaris voor gegevensbe­ scherming bekend en deelt die mee aan de toezichthoudende autoriteit.
 
-## Artikel 38
+### Art. 38
 
 Positie van de functionaris voor gegevensbescherming
 1.
@@ -1152,7 +1148,7 @@ De functionaris voor gegevensbescherming is met betrekking tot de uitvoering van
 6.
 De functionaris voor gegevensbescherming kan andere taken en plichten vervullen. De verwerkingsverantwoor­ delijke of de verwerker zorgt ervoor dat deze taken of plichten niet tot een belangenconflict leiden.
 
-## Artikel 39
+### Art. 39
 
 Taken van de functionaris voor gegevensbescherming
 1.
@@ -1169,7 +1165,7 @@ De functionaris voor gegevensbescherming houdt bij de uitvoering van zijn taken 
 Af del in g 5
 G edr a gsc o des en c er t if icer i ng
 
-## Artikel 40
+### Art. 40
 
 Gedragscodes
 1.
@@ -1206,7 +1202,7 @@ De Commissie kan bij uitvoeringshandelingen vaststellen dat de goedgekeurde gedr
 10. De Commissie zorgt ervoor dat aan de goedgekeurde codes die zij overeenkomstig lid 9 algemeen geldig heeft verklaard, passende bekendheid wordt verleend.
 11. Het Comité verzamelt alle goedgekeurde gedragscodes, wijzigingen en uitbreidingen in een register en maakt deze via geëigende kanalen openbaar.
 
-## Artikel 41
+### Art. 41
 
 Toezicht op goedgekeurde gedragscodes
 1.
@@ -1227,7 +1223,7 @@ De bevoegde toezichthoudende autoriteit trekt de accreditatie van een in lid 1 b
 
 Dit artikel geldt niet voor de verwerking door overheidsinstanties en -organen.
 
-## Artikel 42
+### Art. 42
 
 Certificering
 1.
@@ -1250,7 +1246,7 @@ Het certificaat wordt afgegeven aan een verwerkingsverantwoordelijke of een verw
 8.
 Het Comité verzamelt alle certificeringsmechanismen en gegevensbeschermingszegels en -merktekens in een register en maakt deze via de daartoe geëigende kanalen openbaar.
 
-## Artikel 43
+### Art. 43
 
 Certificeringsorganen
 1.
@@ -1287,12 +1283,12 @@ De Commissie kan uitvoeringshandelingen vaststellen die voorzien in technische n
 
 Doorgiften van persoonsgegevens aan derde landen of internationale organisaties
 
-## Artikel 44
+### Art. 44
 
 Algemeen beginsel inzake doorgiften
 Persoonsgegevens die worden verwerkt of die zijn bestemd om na doorgifte aan een derde land of een internationale organisatie te worden verwerkt, mogen slechts worden doorgegeven indien, onverminderd de overige bepalingen van deze verordening, de verwerkingsverantwoordelijke en de verwerker aan de in dit hoofdstuk neergelegde voorwaarden hebben voldaan; dit geldt ook voor verdere doorgiften van persoonsgegevens vanuit het derde land of een internationale organisatie aan een ander derde land of een andere internationale organisatie. Alle bepalingen van dit hoofdstuk worden toegepast opdat het door deze verordening voor natuurlijke personen gewaarborgde beschermingsniveau niet wordt ondermijnd.
 
-## Artikel 45
+### Art. 45
 
 Doorgiften op basis van adequaatheidsbesluiten
 1.
@@ -1319,7 +1315,7 @@ De Commissie maakt in het Publicatieblad van de Europese Unie en op haar website
 9.
 De besluiten die de Commissie op grond van artikel 25, lid 6, van Richtlijn 95/46/EG heeft vastgesteld, blijven van kracht, totdat zij worden gewijzigd, vervangen of ingetrokken bij een overeenkomstig lid 3 of lid 5 van dit artikel vastgesteld besluit van de Commissie.
 
-## Artikel 46
+### Art. 46
 
 Doorgiften op basis van passende waarborgen
 1.
@@ -1341,7 +1337,7 @@ De toezichthoudende autoriteit past het in artikel 63 bedoelde coherentiemechani
 5.
 Toestemmingen die een lidstaat of een toezichthoudende autoriteit op grond van artikel 26, lid 2, van Richtlijn 95/46/EG heeft verleend, blijven geldig totdat zij door die toezichthoudende autoriteit, indien nodig, worden gewijzigd, vervangen of ingetrokken. De besluiten die de Commissie op grond van artikel 26, lid 4, van Richtlijn 95/46/EG heeft vastgesteld, blijven van kracht totdat zij bij een overeenkomstig lid 2 van dit artikel vastgesteld besluit van de Commissie, indien nodig, worden gewijzigd, vervangen of ingetrokken.
 
-## Artikel 47
+### Art. 47
 
 Bindende bedrijfsvoorschriften
 1.
@@ -1384,12 +1380,12 @@ n) de passende opleiding inzake gegevensbescherming voor personeel dat permanent
 3.
 De Commissie kan het model en de procedures voor de uitwisseling van informatie over bindende bedrijfsvoor­ schriften in de zin van dit artikel tussen verwerkingsverantwoordelijken, verwerkers en toezichthoudende autoriteiten nader bepalen. Deze uitvoeringshandelingen worden vastgesteld volgens de in artikel 93, lid 2, bedoelde onderzoekspro­ cedure.
 
-## Artikel 48
+### Art. 48
 
 Niet bij Unierecht toegestane doorgiften of verstrekkingen
 Elke rechterlijke uitspraak en elk besluit van een administratieve autoriteit van een derde land op grond waarvan een verwerkingsverantwoordelijke of een verwerker persoonsgegevens moet doorgeven of verstrekken, mag alleen op enigerlei wijze worden erkend of afdwingbaar zijn indien zij gebaseerd zijn op een internationale overeenkomst, zoals een verdrag inzake wederzijdse rechtsbijstand, tussen het verzoekende derde landen en de Unie of een lidstaat, onverminderd andere gronden voor doorgifte uit hoofde van dit hoofdstuk.
 
-## Artikel 49
+### Art. 49
 
 Afwijkingen voor specifieke situaties
 1.
@@ -1414,7 +1410,7 @@ Bij ontstentenis van een adequaatheidsbesluit kunnen in Unierechtelijke of lidst
 6.
 De verwerkingsverantwoordelijke of de verwerker staaft de beoordeling en de in lid 1, tweede alinea, van dit artikel bedoelde passende waarborgen in het artikel 30 bedoelde register.
 
-## Artikel 50
+### Art. 50
 
 Internationale samenwerking voor de bescherming van persoonsgegevens
 Ten aanzien van derde landen en internationale organisaties nemen de Commissie en de toezichthoudende autoriteiten de nodige maatregelen om:
@@ -1428,7 +1424,7 @@ Onafhankelijke toezichthoudende autoriteiten
 Af deli n g 1
 Ona f ha nke li jkhe i d
 
-## Artikel 51
+### Art. 51
 
 Toezichthoudende autoriteit
 1.
@@ -1441,7 +1437,7 @@ Wanneer er in een lidstaat meer dan één toezichthoudende autoriteit is gevesti
 4.
 Elke lidstaat stelt de Commissie uiterlijk op 25 mei 2018 in kennis van de wettelijke bepalingen die hij overeen­ komstig dit hoofdstuk vaststelt, alsmede, onverwijld, van alle latere wijzigingen daarvan.
 
-## Artikel 52
+### Art. 52
 
 Onafhankelijkheid
 1.
@@ -1457,7 +1453,7 @@ Elke lidstaat zorgt ervoor dat elke toezichthoudende autoriteit eigen en zelfgek
 6.
 Elke lidstaat zorgt ervoor dat op elke toezichthoudende autoriteit financieel toezicht wordt uitgeoefend zonder dat daarbij de onafhankelijkheid van de toezichthoudende autoriteit in het gedrang komt en dat het een afzonderlijke, publieke jaarbegroting heeft, die een onderdeel kan zijn van de algehele staats- of nationale begroting.
 
-## Artikel 53
+### Art. 53
 
 Algemene voorwaarden voor de leden van de toezichthoudende autoriteit
 1.
@@ -1472,7 +1468,7 @@ De taken van een lid eindigen bij het verstrijken van de ambtstermijn, bij ontsl
 4.
 Een lid wordt slechts ontslagen indien het op ernstige wijze is tekortgeschoten of niet langer aan de vereisten voor de uitvoering van de taken voldoet.
 
-## Artikel 54
+### Art. 54
 
 Regels inzake de oprichting van de toezichthoudende autoriteit
 1.
@@ -1492,7 +1488,7 @@ Ten aanzien van de vertrouwelijke informatie die hun bij de uitvoering van hun t
 Af del in g 2
 C om p e te n tie , t a ken e n be vo eg dhed e n
 
-## Artikel 55
+### Art. 55
 
 Competentie
 1.
@@ -1502,7 +1498,7 @@ In het geval van verwerking door overheidsinstanties of door particuliere organe
 3.
 Toezichthoudende autoriteiten zijn niet competent toe te zien op verwerkingen door gerechten bij de uitoefening van hun rechterlijke taken.
 
-## Artikel 56
+### Art. 56
 
 Competentie van de leidende toezichthoudende autoriteit
 1.
@@ -1519,7 +1515,7 @@ Indien de leidende toezichthoudende autoriteit besluit de zaak niet te behandele
 6.
 De leidende toezichthoudende autoriteit is voor de verwerkingsverantwoordelijke of de verwerker de enige gesprekspartner bij grensoverschrijdende verwerking door die verwerkingsverantwoordelijke of verwerker.
 
-## Artikel 57
+### Art. 57
 
 Taken
 1.
@@ -1569,7 +1565,7 @@ Elke toezichthoudende autoriteit verricht haar taken kosteloos voor de betrokken
 4.
 Wanneer verzoeken kennelijk ongegrond of buitensporig zijn, met name vanwege hun repetitieve karakter, kan de toezichthoudende autoriteit op basis van de administratieve kosten een redelijke vergoeding aanrekenen, of weigeren aan het verzoek gevolg te geven. Het is aan de toezichthoudende autoriteit om de kennelijk ongegronde of buitensporige aard van het verzoek aan te tonen.
 
-## Artikel 58
+### Art. 58
 
 Bevoegdheden
 1.
@@ -1618,7 +1614,7 @@ Elke lidstaat bepaalt bij wet dat zijn toezichthoudende autoriteit bevoegd is in
 6.
 Elke lidstaat kan bij wet bepalen dat zijn toezichthoudende autoriteit, naast de in lid 1, 2 en 3 bedoelde bevoegdheden bijkomende bevoegdheden heeft. De uitoefening van die bevoegdheden doet geen afbreuk aan de doeltreffende werking van hoofdstuk VII.
 
-## Artikel 59
+### Art. 59
 
 Activiteitenverslagen
 Elke toezichthoudende autoriteit stelt jaarlijks een verslag over haar activiteiten op, met daarin mogelijk een lijst van de soorten gemelde inbreuken en de soorten maatregelen die overeenkomstig artikel 58, lid 2, worden genomen. Die verslagen worden toegezonden aan het nationale parlement, de regering en elke andere autoriteit die daartoe in het lidstatelijke recht is aangewezen. Zij worden ter beschikking gesteld van het publiek, de Commissie en het Comité.
@@ -1629,7 +1625,7 @@ Samenwerking en coherentie
 Af del in g 1
 Sa m enwe rki ng
 
-## Artikel 60
+### Art. 60
 
 Samenwerking tussen de leidende toezichthoudende autoriteit en de andere betrokken toezicht­ houdende autoriteiten
 1.
@@ -1655,7 +1651,7 @@ Indien de leidende toezichthoudende autoriteit en de betrokken toezichthoudende 
 11. Indien, in buitengewone omstandigheden, een betrokken toezichthoudende autoriteit het met reden dringend noodzakelijk acht dat in het belang van bescherming van de belangen van betrokkenen wordt opgetreden, is de in artikel 66 bedoelde spoedprocedure van toepassing.
 12. De leidende toezichthoudende autoriteit en de andere betrokken toezichthoudende autoriteiten verstrekken elkaar langs elektronische weg, door middel van een standaardformulier, de krachtens dit artikel vereiste informatie.
 
-## Artikel 61
+### Art. 61
 
 Wederzijdse bijstand
 1.
@@ -1682,7 +1678,7 @@ Wanneer een toezichthoudende autoriteit de in lid 5 van dit artikel bedoelde inf
 9.
 De Commissie kan door middel van uitvoeringshandelingen het model en de procedures voor de in dit artikel bedoelde wederzijdse bijstand vastleggen, alsmede de regelingen voor de elektronische uitwisseling van informatie tussen toezichthoudende autoriteiten onderling en tussen toezichthoudende autoriteiten en het Comité, waaronder het in lid 6 van dit artikel bedoelde standaardformulier. Die uitvoeringshandelingen worden vastgesteld volgens de in artikel 93, lid 2, bedoelde onderzoeksprocedure.
 
-## Artikel 62
+### Art. 62
 
 Gezamenlijke werkzaamheden van toezichthoudende autoriteiten
 1.
@@ -1703,12 +1699,12 @@ Wanneer een gezamenlijke werkzaamheid is gepland en een toezichthoudende autorit
 Af de li ng 2
 C ohe re nti e
 
-## Artikel 63
+### Art. 63
 
 Coherentiemechanisme
 Teneinde bij te dragen aan de consequente toepassing van deze verordening in de gehele Unie werken de toezicht­ houdende autoriteiten met elkaar en waar passend samen met de Commissie in het kader van het in deze afdeling uiteen­ gezette coherentiemechanisme.
 
-## Artikel 64
+### Art. 64
 
 Advies van het Comité
 1.
@@ -1739,7 +1735,7 @@ De in lid 1 bedoelde toezichthoudende autoriteit houdt maximaal rekening met het
 8.
 Wanneer de betrokken toezichthoudende autoriteit de voorzitter van het Comité binnen de in lid 7 van dit artikel bedoelde termijn, onder opgave van de redenen, kennis geeft van haar voornemen het advies van het Comité geheel of gedeeltelijk niet op te volgen, is artikel 65, lid 1, van toepassing.
 
-## Artikel 65
+### Art. 65
 
 Geschillenbeslechting door het Comité
 1.
@@ -1759,7 +1755,7 @@ De voorzitter van het Comité brengt het in lid 1 bedoelde besluit onverwijld te
 6.
 De leidende toezichthoudende autoriteit of, in voorkomend geval, de toezichthoudende autoriteit waarbij de klacht is ingediend, stelt onverwijld en uiterlijk binnen één maand na de kennisgeving door het Comité een definitief besluit vast op basis van het in lid 1 van dit artikel bedoelde besluit. De leidende toezichthoudende autoriteit of, in voorkomend geval, de toezichthoudende autoriteit waarbij de klacht is ingediend, deelt het Comité de datum mee waarop haar definitieve besluit ter kennis wordt gebracht van respectievelijk de verwerkingsverantwoordelijke of de verwerker en van de betrokkene. Het definitieve besluit van de betrokken toezichthoudende autoriteiten wordt vastgesteld overeenkomstig artikel 60a, leden 7, 8 en 9. Het definitieve besluit verwijst naar het in lid 1 van dit artikel bedoelde besluit en geeft aan dat genoemd besluit overeenkomstig lid 5 van dit artikel zal worden bekendgemaakt op de website van het Comité. Het in lid 1 van dit artikel bedoelde besluit wordt aan het definitieve besluit gehecht.
 
-## Artikel 66
+### Art. 66
 
 Spoedprocedure
 1.
@@ -1771,7 +1767,7 @@ Een toezichthoudende autoriteit kan het Comité met opgave van redenen, waaronde
 4.
 In afwijking van artikel 64, lid 3, en van artikel 65, lid 2, wordt een als in de leden 2 en 3 bedoeld dringend advies of dringend bindend besluit binnen twee weken met gewone meerderheid van de leden van het Comité vastgesteld.
 
-## Artikel 67
+### Art. 67
 
 Uitwisseling van informatie
 De Commissie kan uitvoeringshandelingen van algemene aard vaststellen om d)de regelingen voor de elektronische uitwisseling van informatie tussen toezichthoudende autoriteiten onderling en tussen toezichthoudende autoriteiten en het Comité, met name het in artikel 64 bedoelde standaardformulier, vast te leggen.
@@ -1779,7 +1775,7 @@ Die uitvoeringshandelingen worden vastgesteld volgens de in artikel 93, lid 2, b
 Afde li ng 3
 E ur op e es C omi té vo o r ge geve nsbe sche r m ing
 
-## Artikel 68
+### Art. 68
 
 Europees Comité voor gegevensbescherming
 1.
@@ -1797,7 +1793,7 @@ De Commissie heeft het recht deel te nemen aan de activiteiten en, zonder stemre
 6.
 In de in artikel 65 bedoelde gevallen heeft de Europese Toezichthouder voor gegevensbescherming uitsluitend stemrecht bij besluiten over op de instellingen, organen en instanties van de Unie toepasselijke beginselen en regels die inhoudelijk met die van de onderhavige verordening overeenstemmen.
 
-## Artikel 69
+### Art. 69
 
 Onafhankelijkheid
 1.
@@ -1805,7 +1801,7 @@ Het Comité treedt bij de uitvoering van zijn taken of de uitoefening van zijn b
 2.
 Onverminderd verzoeken van de Commissie als bedoeld in artikel 70, lid 1, onder b), en artikel 70, lid 2, vraagt noch aanvaardt het Comité bij de uitvoering van zijn taken of de uitoefening van zijn bevoegdheden instructies van wie dan ook.
 
-## Artikel 70
+### Art. 70
 
 Taken van het Comité
 1.
@@ -1859,7 +1855,7 @@ Het Comité zendt zijn adviezen, richtsnoeren, aanbevelingen en beste praktijken
 4.
 Het Comité raadpleegt, waar passend, de belanghebbende partijen en biedt hun de gelegenheid om binnen een redelijk tijdsbestek commentaar te leveren. Onverminderd artikel 76, maakt het Comité de resultaten van de raadpleging openbaar.
 
-## Artikel 71
+### Art. 71
 
 Rapportage
 1.
@@ -1867,7 +1863,7 @@ Het Comité stelt een jaarverslag op over de bescherming van natuurlijke persone
 2.
 Het jaarverslag omvat een evaluatie van de praktische toepassing van de richtsnoeren, aanbevelingen en beste praktijken bedoeld in artikel 70, lid 1, punt l), en van de bindende besluiten bedoeld in artikel 65.
 
-## Artikel 72
+### Art. 72
 
 Procedure
 1.
@@ -1875,7 +1871,7 @@ Het Comité neemt besluiten met een gewone meerderheid van zijn leden, tenzij an
 2.
 Het Comité stelt met een tweederdemeerderheid van zijn leden zijn eigen reglement van orde en zijn eigen werkre­ gelingen vast.
 
-## Artikel 73
+### Art. 73
 
 Voorzitter
 1.
@@ -1886,7 +1882,7 @@ Het Comité kiest met gewone meerderheid een voorzitter en twee vicevoorzitters 
 
 De ambtstermijn van de voorzitter en de vicevoorzitters bedraagt vijf jaar en kan eenmaal worden verlengd.
 
-## Artikel 74
+### Art. 74
 
 Taken van de voorzitter
 1.
@@ -1900,7 +1896,7 @@ c) ervoor zorgen dat de taken van het Comité tijdig worden uitgevoerd, met name
 
 Het Comité stelt in zijn reglement van orde de taakverdeling tussen de voorzitter en de vicevoorzitters vast.
 
-## Artikel 75
+### Art. 75
 
 Secretariaat
 1.
@@ -1929,7 +1925,7 @@ e) de vertaling van relevante informatie;
 f) de voorbereiding en follow-up van de bijeenkomsten van het Comité;
 g) de voorbereiding, opstelling en bekendmaking van adviezen, besluiten inzake beslechting van geschillen tussen toezichthoudende autoriteiten, en andere teksten die het Comité vaststelt.
 
-## Artikel 76
+### Art. 76
 
 Vertrouwelijkheid
 1.
@@ -1942,7 +1938,7 @@ Op de toegang tot documenten die aan de leden van het Comité, deskundigen en ve
 
 Beroep, aansprakelijkheid en sancties
 
-## Artikel 77
+### Art. 77
 
 Recht om klacht in te dienen bij een toezichthoudende autoriteit
 1.
@@ -1950,7 +1946,7 @@ Onverminderd andere mogelijkheden van administratief beroep of een voorziening i
 2.
 De toezichthoudende autoriteit waarbij de klacht is ingediend, stelt de klager in kennis van de voortgang en het resultaat van de klacht, alsmede van de mogelijke voorziening in rechte overeenkomstig artikel 78.
 
-## Artikel 78
+### Art. 78
 
 Recht om een doeltreffende voorziening in rechte in te stellen tegen een toezichthoudende autoriteit
 1.
@@ -1962,7 +1958,7 @@ Een procedure tegen een toezichthoudende autoriteit wordt ingesteld bij de gerec
 4.
 Wanneer een procedure wordt ingesteld tegen een besluit van een toezichthoudende autoriteit waaraan een advies of een besluit van het Comité in het kader van het coherentiemechanisme is voorafgegaan, doet de toezichthoudende autoriteit dat advies of besluit aan de gerechten toekomen.
 
-## Artikel 79
+### Art. 79
 
 Recht om een doeltreffende voorziening in rechte in te stellen tegen een verwerkingsverantwoor­ delijke of een verwerker
 1.
@@ -1971,7 +1967,7 @@ Onverminderd andere mogelijkheden van administratief of buitengerechtelijk beroe
 Een procedure tegen een verwerkingsverantwoordelijke of een verwerker wordt ingesteld bij de gerechten van de lidstaat waar de verwerkingsverantwoordelijke of de verwerker een vestiging heeft. Een dergelijke procedure kan ook worden ingesteld bij de gerechten van de lidstaat waar de betrokkene gewoonlijk verblijft, tenzij de verwerkingsverant­ woordelijke of de verwerker een overheidsinstantie van een lidstaat is die optreedt in de uitoefening van het overheidsgezag.
 (1) Verordening (EG) nr. 1049/2001 van het Europees Parlement en de Raad van 30 mei 2001 inzake de toegang van het publiek tot documenten van het Europees Parlement, de Raad en de Commissie (PB L 145 van 31.5.2001, blz. 43).
 
-## Artikel 80
+### Art. 80
 
 Vertegenwoordiging van betrokkenen
 1.
@@ -1979,7 +1975,7 @@ De betrokkene heeft het recht een orgaan, organisatie of vereniging zonder winst
 2.
 De lidstaten kunnen bepalen dat een orgaan, organisatie of vereniging als bedoeld in lid 1 van dit artikel, over het recht beschikt om onafhankelijk van de opdracht van een betrokkene in die lidstaat klacht in te dienen bij de overeen­ komstig artikel 77 bevoegde toezichthoudende autoriteit en de in de artikelen 78 en 79 bedoelde rechten uit te oefenen, indien het/zij van mening is dat de rechten van een betrokkene uit hoofde van deze verordening zijn geschonden ten gevolge van de verwerking.
 
-## Artikel 81
+### Art. 81
 
 Schorsing van de procedure
 1.
@@ -1989,7 +1985,7 @@ Indien een procedure inzake verwerking met betrekking tot dezelfde aangelegenhei
 3.
 Indien die procedure in eerste aanleg aanhangig is, kan elk gerecht dat niet als eerste is aangezocht, op verzoek van een van de partijen ook tot verwijzing overgaan, mits het eerst aangezochte gerecht bevoegd is om van de beide procedures kennis te nemen en zijn wetgeving de voeging daarvan toestaat.
 
-## Artikel 82
+### Art. 82
 
 Recht op schadevergoeding en aansprakelijkheid
 1.
@@ -2006,7 +2002,7 @@ Wanneer een verwerkingsverantwoordelijke of verwerker de schade overeenkomstig l
 6.
 Gerechtelijke procedures voor het uitoefenen van het recht op schadevergoeding worden gevoerd voor de in artikel 79, lid 2, bedoelde lidstaatrechtelijk bevoegde gerechten.
 
-## Artikel 83
+### Art. 83
 
 Algemene voorwaarden voor het opleggen van administratieve geldboeten
 1.
@@ -2048,7 +2044,7 @@ De uitoefening door de toezichthoudende autoriteit van haar bevoegdheden uit hoo
 9.
 Wanneer het rechtsstelsel van de lidstaat niet voorziet in administratieve geldboeten, kan dit artikel aldus worden toegepast dat geldboeten worden geïnitieerd door de bevoegde toezichthoudende autoriteit en opgelegd door bevoegde nationale gerechten, waarbij wordt gewaarborgd dat deze rechtsmiddelen doeltreffend zijn en eenzelfde effect hebben als de door toezichthoudende autoriteiten opgelegde administratieve geldboeten. De boeten zijn in elk geval doeltreffend, evenredig en afschrikkend. Die lidstaten delen de Commissie uiterlijk op 25 mei 2018 de wetgevingsbepalingen mee die zij op grond van dit lid vaststellen, alsmede onverwijld alle latere wijzigingen daarvan en alle daarop van invloed zijnde wijzigingswetgeving.
 
-## Artikel 84
+### Art. 84
 
 Sancties
 1.
@@ -2060,7 +2056,7 @@ Elke lidstaat deelt de Commissie uiterlijk op 25 mei 2018 de overeenkomstig lid 
 
 Bepalingen in verband met specifieke situaties op het gebied van gegevensverwerking
 
-## Artikel 85
+### Art. 85
 
 Verwerking en vrijheid van meningsuiting en van informatie
 1.
@@ -2071,16 +2067,16 @@ Voor verwerking voor journalistieke doeleinden of ten behoeve van academische, a
 3.
 Elke lidstaat deelt de Commissie de overeenkomstig lid 2 vastgestelde wetgevingsbepalingen mee, alsook onverwijld alle latere wijzigingen daarvan.
 
-## Artikel 86
+### Art. 86
 
 Verwerking en recht van toegang van het publiek tot officiële documenten Persoonsgegevens in officiële documenten die voor de uitvoering van een taak van algemeen belang in het bezit zijn van een overheidsinstantie, een overheidsorgaan of een particulier orgaan, mogen door de instantie of het orgaan in kwestie worden bekendgemaakt in overeenstemming met het Unierecht of het lidstatelijke recht dat op de overheidsinstantie of het orgaan van toepassing is, teneinde het recht van toegang van het publiek tot officiële documenten in overeen­ stemming te brengen met het recht op bescherming van persoonsgegevens uit hoofde van deze verordening.
 
-## Artikel 87
+### Art. 87
 
 Verwerking van het nationaal identificatienummer
 De lidstaten kunnen de specifieke voorwaarden voor de verwerking van een nationaal identificatienummer of enige andere identificator van algemene aard nader vaststellen. In dat geval wordt het nationale identificatienummer of enige andere identificator van algemene aard alleen gebruikt met passende waarborgen voor de rechten en vrijheden van de betrokkene uit hoofde van deze verordening.
 
-## Artikel 88
+### Art. 88
 
 Verwerking in het kader van de arbeidsverhouding
 1.
@@ -2090,7 +2086,7 @@ Die regels omvatten passende en specifieke maatregelen ter waarborging van de me
 3.
 Elke lidstaat deelt de Commissie uiterlijk op 25 mei 2018 de overeenkomstig lid 1 vastgestelde wetgevingsbepa­ lingen mee, alsook onverwijld alle latere wijzigingen daarvan.
 
-## Artikel 89
+### Art. 89
 
 Waarborgen en afwijkingen in verband met verwerking met het oog op archivering in het algemeen belang, wetenschappelijk of historisch onderzoek of statistische doeleinden
 1.
@@ -2105,7 +2101,7 @@ Wanneer persoonsgegevens met het oog op archivering in het algemeen belang worde
 4.
 Wanneer verwerking als bedoeld in de leden 2 en 3 tegelijkertijd ook een ander doel dient, zijn de afwijkingen uitsluitend van toepassing op verwerking voor de in die leden bedoelde doeleinden.
 
-## Artikel 90
+### Art. 90
 
 Geheimhoudingsplicht
 1.
@@ -2113,7 +2109,7 @@ Wanneer dit noodzakelijk en evenredig is om het recht op bescherming van persoon
 2.
 Elke lidstaat deelt de Commissie uiterlijk op 25 mei 2018 de regels mee die hij heeft vastgesteld overeenkomstig lid 1, alsmede onverwijld alle wijzigingen daarvan.
 
-## Artikel 91
+### Art. 91
 
 Bestaande gegevensbeschermingsregels van kerken en religieuze verenigingen
 1.
@@ -2125,7 +2121,7 @@ Kerken en religieuze verenigingen die overeenkomstig lid 1 van dit artikel uitge
 
 Gedelegeerde handelingen en uitvoeringshandelingen
 
-## Artikel 92
+### Art. 92
 
 Uitoefening van de bevoegdheidsdelegatie
 1.
@@ -2140,7 +2136,7 @@ Zodra de Commissie een gedelegeerde handeling heeft vastgesteld, doet zij daarva
 5.
 Een overeenkomstig artikel 12, lid 8, en artikel 43, lid 8, vastgestelde gedelegeerde handeling treedt alleen in werking indien het Europees Parlement noch de Raad daartegen binnen een termijn van drie maanden na de kennisgeving van de handeling aan het Europees Parlement en de Raad bezwaar heeft gemaakt, of indien zowel het Europees Parlement als de Raad voor het verstrijken van die termijn de Commissie hebben medegedeeld dat zij daartegen geen bezwaar zullen maken. Die termijn wordt op initiatief van het Europees Parlement of van de Raad met drie maanden verlengd.
 
-## Artikel 93
+### Art. 93
 
 Comitéprocedure
 1.
@@ -2154,9 +2150,9 @@ Wanneer naar dit lid wordt verwezen, is artikel 8 van Verordening (EU) nr. 182/2
 
 ## HOOFDSTUK XI
 
-Slotbepalingen
+## Slotbepalingen
 
-## Artikel 94
+### Art. 94
 
 Intrekking van Richtlijn 95/46/EG
 1.
@@ -2166,17 +2162,17 @@ Richtlijn 95/46/EG wordt met ingang van 25 mei 2018 ingetrokken.
 2.
 Verwijzingen naar de ingetrokken richtlijn gelden als verwijzingen naar deze verordening. Verwijzingen naar de groep voor de bescherming van personen in verband met de verwerking van persoonsgegevens, die bij artikel 29 van Richtlijn 95/46/EG is opgericht, gelden als verwijzingen naar het bij deze verordening opgerichte Europees Comité voor gegevensbescherming.
 
-## Artikel 95
+### Art. 95
 
 Verhouding tot Richtlijn 2002/58/EG
 Deze verordening legt natuurlijke personen of rechtspersonen geen aanvullende verplichtingen op met betrekking tot verwerking in verband met het verstrekken van openbare elektronische-communicatiediensten in openbare communica­ tienetwerken in de Unie, voor zover zij op grond van Richtlijn 2002/58/EG onderworpen zijn aan specifieke verplich­ tingen met dezelfde doelstelling.
 
-## Artikel 96
+### Art. 96
 
 Verhouding tot eerder gesloten overeenkomsten
 Internationale overeenkomsten betreffende de doorgifte van persoonsgegevens aan derde landen of internationale organisaties die door de lidstaten zijn gesloten vóór 24 mei 2016, en die in overeenstemming zijn met het vóór die datum toepasselijke Unierecht, blijven van kracht totdat zij worden gewijzigd, vervangen of ingetrokken.
 
-## Artikel 97
+### Art. 97
 
 Commissieverslagen
 1.
@@ -2192,12 +2188,12 @@ Bij de uitvoering van de in de leden 1 en 2 vermelde evaluaties en toetsingen ne
 5.
 Indien nodig dient de Commissie passende voorstellen in teneinde deze verordening te wijzigen, met name in het licht van de ontwikkelingen in de informatietechnologie en de stand van zaken in de informatiemaatschappij.
 
-## Artikel 98
+### Art. 98
 
 Toetsing van andere Unierechtshandelingen inzake gegevensbescherming
 Indien passend dient de Commissie wetgevingsvoorstellen in teneinde andere Unierechtshandelingen betreffende de bescherming van persoonsgegevens te wijzigen en aldus een uniforme en consequente bescherming van natuurlijke personen te garanderen in verband met verwerking. Het gaat hierbij met name om de regels betreffende de bescherming van natuurlijke personen in verband met verwerking door instellingen, organen en instanties van de Unie, en betreffende het vrije verkeer van die gegevens.
 
-## Artikel 99
+### Art. 99
 
 Inwerkingtreding en toepassing
 1.
@@ -2217,6 +2213,6 @@ De voorzitter
 
 De voorzitter
 
-M. SCHULZ
+### M. SCHULZ
 
 J.A. HENNIS-PLASSCHAERT

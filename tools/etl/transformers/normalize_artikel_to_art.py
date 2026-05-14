@@ -28,19 +28,31 @@ _ART_BIS_SUFFIX = (
     r"undecies|duodecies|terdecies|quaterdecies)"
 )
 
+# Optionele markdown-heading-prefix (##### t/m ######). Sommige bronnen
+# (bv. EU-AVG via custom_wetboek) hebben 'Artikel N' al als markdown-heading
+# `## Artikel 1`. Die moeten ook genormaliseerd worden naar `Art. N` zodat
+# inject_headings_wettekst ze als artikel-grens herkent.
+_MD_PREFIX = r"(?:#{1,6}\s+)?"
+
 # Alleen-op-regel: "Artikel 86", "Artikel 86.", "Artikel 12bis"
+# Eventueel voorafgegaan door een markdown-heading-prefix.
 _ARTIKEL_BARE_RE = re.compile(
-    rf"^Artikel\s+(\d+(?:{_ART_BIS_SUFFIX})?(?:/\d+)?)\.?\s*$"
+    rf"^{_MD_PREFIX}Artikel\s+(\d+(?:{_ART_BIS_SUFFIX})?(?:/\d+)?)\.?\s*$"
 )
 
 # Met body inline: "Artikel 46. Elk kassasysteem moet voorzien zijn van ..."
 _ARTIKEL_WITH_BODY_RE = re.compile(
-    rf"^Artikel\s+(\d+(?:{_ART_BIS_SUFFIX})?(?:/\d+)?)\.\s+(\S.+)$"
+    rf"^{_MD_PREFIX}Artikel\s+(\d+(?:{_ART_BIS_SUFFIX})?(?:/\d+)?)\.\s+(\S.+)$"
 )
 
 
 def normalize_artikel_to_art(body: str, frontmatter: dict) -> tuple[str, dict]:
-    """Normaliseer 'Artikel N'-lijnen op kolom 0 naar 'Art. N'-headings."""
+    """Normaliseer 'Artikel N'-lijnen op kolom 0 naar 'Art. N'-headings.
+
+    Strip ook eventuele markdown-heading-prefix (`## Artikel 1` → `Art. 1`)
+    zodat inject_headings_wettekst de juiste level toepast op basis van
+    detect_hierarchy.
+    """
     out: list[str] = []
     for ln in body.split("\n"):
         m_bare = _ARTIKEL_BARE_RE.match(ln)

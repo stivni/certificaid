@@ -13,21 +13,22 @@ chunk:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/MAR-vzw.md
-      sha256: a46deb06da4156faa221f7d5d393867eef596e7ab2d28c8b1acd30c2ea02d33f
+      sha256: 04d9234bfdb1679d8fa2c0f20f59142b5394db1790cad2cd2386ab4ca72f6904
       version: '2023'
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 4eaec39e
     model:
     prompt_version:
-  generated_at: '2026-05-13T18:28:28Z'
+  generated_at: '2026-05-14T16:55:55Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T18:28:47Z'
+    confirmed_at: '2026-05-14T16:56:45Z'
     confirmed_by: human
-    rationale: SBB MAR-vzw PDF (KB 21.10.2018 Bijlage 3) via pdftotext-layout. Volledige rekeningstructuur Klasse 1-7 met alle subgroep- en rekening-codes. Lichte pdftotext-artefacten in cellen die door 2-koloms ontstaan (bv. '164-16Voorzieningen voor overige risico's') — gemarkeerd als (source) limitation. Inhoud is correct en volledig voor RAG-doeleinden.
+    rationale: SBB MAR-vzw PDF (KB 21.10.2018 Bijlage 3) via pdftotext-layout + Klasse 1-7 headings geinjecteerd in raw voor RAG-chunking. Inhoud ongewijzigd; pdftotext-artefacten in cellen (zie caveat) blijven.
+    caveat:
     layer1:
     layer2:
 ---
@@ -37,7 +38,7 @@ provenance:
 *Bijgewerkt tot en met 2023 — gecoördineerde versie.*
 
 Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen
-    1. Eigen vermogen, voorzieningen voor risico's en kosten en schulden op meer dan één jaar
+## Klasse 1: Eigen vermogen, voorzieningen voor risico's en kosten en schulden op meer dan één jaar
 
     10. Fondsen van de vereniging of stichting 1
 
@@ -78,7 +79,7 @@ Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen
 
 1 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen 1731 Promessen 1732 Acceptkredieten 174 Overige leningen 175 Handelsschulden 1750 Handelsschulden leveranciers 1751 Handelsschulden te betalen wissels 176 Ontvangen vooruitbetaling op bestelling 178 Borgtochten ontvangen in contanten 179 Overige schulden 1790 Overige schulden rentedragend 1791 Overige schulden niet-rentedragend
 
-    2. Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar 2
+## Klasse 2: Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar
 
     20. Oprichtingskosten
     200 Kosten van oprichting
@@ -135,7 +136,7 @@ Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen
 
 3 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen 291 Overige vorderingen 2910 Vorderingen op rekening 2911 Te innen wissels Niet-rentedragende vorderingen of gekoppeld aan een abnorma 2915 lage rente 2916 Dubieuze debiteuren 2919 Geboekte waardeverminderingen (-)
 
-3. Voorraden en bestellingen in uitvoering
+## Klasse 3: Voorraden en bestellingen in uitvoering
 
   30. Grondstoffen
    300 Aanschaffingswaarde
@@ -170,7 +171,7 @@ Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen
    371 Toegerekende winst
    379 Geboekte waardeverminderingen (-)
 
-4. Vorderingen en schulden op ten hoogste één jaar
+## Klasse 4: Vorderingen en schulden op ten hoogste één jaar
 
   40. Handelsvorderingen
    400 Klanten
@@ -231,7 +232,7 @@ Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen
    493 Over te dragen opbrengsten (passief)
    499 Wachtrekeningen
 
-5. Geldbeleggingen en liquide middelen
+## Klasse 5: Geldbeleggingen en liquide middelen
 
   50. Geldbeleggingen andere dan aandelen, vastrentende effecten en termijndeposito's 500 Aanschaffingswaarde 509 Geboekte waardeverminderingen
 
@@ -261,7 +262,7 @@ Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen
 
   58. Interne overboekingen
 
-6. Kosten
+## Klasse 6: Kosten
   60. Handelsgoederen, grond- en hulpstoffen
    600 Aankopen van grondstoffen
    601 Aankopen van hulpstoffen
@@ -339,7 +340,7 @@ Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen
     691 Overboeking naar de bestemde fondsen en andere reserves
     692 Over te dragen positief resultaat
 
-    7. Opbrengsten
+## Klasse 7: Opbrengsten
     70. Omzet
     700-70Verkopen en dienstprestaties
     708 Toegekende kortingen, ristorno's en rabatten (-)

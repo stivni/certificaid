@@ -301,11 +301,11 @@
         "IV.C",
         "2.5"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": "default",
       "trust_caveat": null,
       "layer1_status": null,
-      "layer2_status": "trusted"
+      "layer2_status": null
     },
     {
       "bestand": "EU-AVG-Verordening-2016-679.md",
@@ -318,10 +318,10 @@
         "4.0"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
       "layer1_status": null,
-      "layer2_status": "trusted"
+      "layer2_status": null
     },
     {
       "bestand": "EU-IFRS-verordening-1606-2002.md",
@@ -350,10 +350,10 @@
         "2.8"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
       "layer1_status": null,
-      "layer2_status": "trusted"
+      "layer2_status": null
     },
     {
       "bestand": "EU-Richtlijn-interest-royalties-2003-49.md",
@@ -490,10 +490,10 @@
         "3.2"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
       "layer1_status": null,
-      "layer2_status": "trusted"
+      "layer2_status": null
     },
     {
       "bestand": "KB-voorafgaande-beslissingen-art22-2003.md",
@@ -584,11 +584,11 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": "default",
       "trust_caveat": null,
       "layer1_status": null,
-      "layer2_status": "trusted"
+      "layer2_status": null
     },
     {
       "bestand": "MIGB-Vlaanderen.md",
@@ -601,11 +601,11 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": "default",
       "trust_caveat": null,
       "layer1_status": null,
-      "layer2_status": "trusted"
+      "layer2_status": null
     },
     {
       "bestand": "MIGB-Wallonie.md",
@@ -618,11 +618,11 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": "default",
       "trust_caveat": null,
       "layer1_status": null,
-      "layer2_status": "trusted"
+      "layer2_status": null
     },
     {
       "bestand": "Oud-BW.md",
@@ -635,10 +635,10 @@
         "3.1"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
       "layer1_status": null,
-      "layer2_status": "trusted"
+      "layer2_status": null
     },
     {
       "bestand": "Registratierechten-Brussel.md",
@@ -716,10 +716,10 @@
         "XII"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
       "layer1_status": null,
-      "layer2_status": "trusted"
+      "layer2_status": null
     },
     {
       "bestand": "Strafwetboek2024-boek1.md",
@@ -1853,10 +1853,10 @@
         "1.4"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
       "layer1_status": null,
-      "layer2_status": "trusted"
+      "layer2_status": null
     },
     {
       "bestand": "WIB92.md",
@@ -1888,10 +1888,10 @@
         "3.2"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
       "layer1_status": null,
-      "layer2_status": "trusted"
+      "layer2_status": null
     },
     {
       "bestand": "Wet-ITAA-2019.md",
@@ -1934,11 +1934,11 @@
         "XXI",
         "4.0"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": "default",
       "trust_caveat": null,
       "layer1_status": null,
-      "layer2_status": "trusted"
+      "layer2_status": null
     },
     {
       "bestand": "Wet-betalingsachterstand-2002.md",
@@ -1966,10 +1966,10 @@
         "1.2"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
       "layer1_status": null,
-      "layer2_status": "trusted"
+      "layer2_status": null
     },
     {
       "bestand": "Wet-voorafgaande-beslissingen-2002.md",

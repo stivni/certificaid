@@ -70,7 +70,7 @@ _KEYWORD_RE = re.compile(
 
 # Nummer-validatie: Romein UPPERCASE of Arabisch (case-sensitive — geen IGNORECASE).
 # Dit voorkomt dat gewone woorden als "van", "voor" etc. als Romein worden herkend.
-_NR_RE = re.compile(r"[IVXLCDM]+[a-z]*|\d+(?:\.\d+)*[a-z]*")
+_NR_RE = re.compile(r"[IVXLCDM]+[a-z]*|\d+(?:[\./]\d+)*[a-z]*")
 
 # Artikel-heading: "Art. X" of "Par. X" met eventueel heading-prefix
 _ART_RE = re.compile(r"^(?:#{1,6}\s+)?(Art\.|Par\.)\s+")

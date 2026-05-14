@@ -68,16 +68,40 @@ def test_default_merge_groups():
 
 # ─── Per-wet regressie ──────────────────────────────────────────────────────
 
-def test_wvv_hierarchie_en_merges():
-    info = _info_for("WVV.md")
+def test_wvv_synthetisch_hierarchie_en_merges():
+    """WVV-achtige raw met alle 7 ranks. Beide default-merges moeten triggeren.
+
+    NB: vóór de chain-volgorde-fix was deze test geschreven met `_info_for("WVV.md")`
+    als input. Maar na de fix is WVV.md al gemerged (Afdeling + Onderafdeling staan
+    samen op één regel), dus detect_hierarchy ziet niet meer 7 losse ranks. Een
+    synthetische raw met aparte heading-regels test wat we écht willen weten:
+    dat de transform 7 → 5 ranks reduceert via DEEL+BOEK en AFDELING+ONDERAFDELING.
+    """
+    body = """# WVV
+
+DEEL 1. Algemeen.
+
+BOEK 1. Inleidende bepalingen.
+
+TITEL 1. Vennootschap.
+
+HOOFDSTUK 1. Algemeen.
+
+AFDELING 1. Eerste afdeling.
+
+ONDERAFDELING 1. Eerste subset.
+
+Art. 1:1. Eerste artikel.
+
+text
+"""
+    _, info = process_wettekst(body)
     assert info["ranks"] == [
         "DEEL", "BOEK", "TITEL", "HOOFDSTUK", "AFDELING", "ONDERAFDELING", "Art.",
     ]
     assert info["chunk_level"] == 6
-    # Beide default merges moeten triggeren omdat 7 ranks > 5
     assert info["merge_parent"].get("BOEK") == "DEEL"
     assert info["merge_parent"].get("ONDERAFDELING") == "AFDELING"
-    # reduced_ranks ≤ 5
     assert len(info["reduced_ranks"]) <= 5
 
 
@@ -155,6 +179,83 @@ def test_build_level_map_absorbed_krijgt_zelfde_niveau():
     lm = build_level_map(ranks, merge_parent)
     assert lm["BOEK"] == 2
     assert lm["DEEL"] == 2  # absorbed → zelfde niveau als absorbing
+
+
+# ─── Slash-nummer detectie (4/1, II/1) ──────────────────────────────────────
+
+def test_nr_re_accepteert_slash_nummer():
+    """REGRESSIE: 'Onderafdeling 4/1.' moet als ONDERAFDELING-label herkend worden.
+
+    Belgische wetteksten gebruiken slash-nummers voor ingelaste sub-eenheden
+    (bv. WER 'Onderafdeling 4/1', 'Art. 5/1'). Vóór de fix had _NR_RE alleen
+    decimale punten — '4' werd gematcht, '/1' viel buiten.
+    """
+    from tools.lib.headings import _get_label
+
+    assert _get_label("###### Onderafdeling 4/1. titel") == "ONDERAFDELING"
+    assert _get_label("##### Afdeling 1/2. - titel.") == "AFDELING"
+    assert _get_label("## BOEK V. Algemeen.") == "BOEK"
+    # Diepere variant
+    assert _get_label("###### Onderafdeling 4/1/2. titel") == "ONDERAFDELING"
+
+
+def test_nr_re_blijft_lowercase_romein_afwijzen():
+    """Regressie-vangnet: _NR_RE-uitbreiding mag de bestaande discipline niet breken."""
+    from tools.lib.headings import _get_label
+
+    # Lowercase 'deel' als woord in body-tekst — geen heading
+    assert _get_label("Sommige deel van de activa") is None
+
+
+# ─── Chain-volgorde: Afdeling+Onderafdeling merge integratie ─────────────────
+
+def test_afdeling_onderafdeling_correct_gemerged_op_zelfde_level():
+    """REGRESSIE-FIX: split_merged_headings stond NÁ inject_headings_wettekst in de
+    transform-chain en maakte de Afdeling+Onderafdeling-merge ongedaan. De fix
+    verplaatste split_merged_headings VÓÓR inject_headings, zodat de merge blijft.
+
+    Verifieer dat process_wettekst op een WER-achtig fragment Afdeling en
+    Onderafdeling samen op L5 emit (prefix-style 'Afdeling X - Onderafdeling Y'),
+    NIET op verschillende levels.
+    """
+    body = """# Wetboek
+
+## BOEK I
+
+### TITEL 1
+
+#### HOOFDSTUK 1
+
+##### Afdeling 1. Eerste afdeling.
+
+###### Art. I.1
+
+text
+
+###### Onderafdeling 1. Eerste subset.
+
+###### Art. I.2
+
+text 2
+"""
+    new_body, info = process_wettekst(body)
+    # Onderafdeling moet op L5 staan, NIET op L6
+    assert "###### Onderafdeling" not in new_body, (
+        "Onderafdeling staat op L6 i.p.v. gemerged met Afdeling op L5"
+    )
+    assert "##### Afdeling 1." in new_body
+    # De merged variant moet aanwezig zijn
+    assert "Afdeling 1" in new_body and "Onderafdeling 1" in new_body
+    # En de Onderafdeling-regel hoort dezelfde Afdeling-context te dragen
+    onderafdeling_lijnen = [
+        ln for ln in new_body.split("\n")
+        if "Onderafdeling" in ln and ln.startswith("#")
+    ]
+    assert all("Afdeling 1" in ln for ln in onderafdeling_lijnen), (
+        f"Niet alle Onderafdeling-headings dragen de Afdeling-context: {onderafdeling_lijnen}"
+    )
+    # info-blok moet aangeven dat de merge gebeurd is
+    assert info["merge_parent"].get("ONDERAFDELING") == "AFDELING"
 
 
 def test_inject_headings_artikel_omzetting():

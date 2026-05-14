@@ -13,21 +13,22 @@ chunk:
 provenance:
   inputs:
     - id: resources/raw/wetteksten/MAR-ondernemingen.md
-      sha256: 684b452ce366994f5de2e9f3938cf2cc9cdc0d59c029b40b6c797a232a2d130c
+      sha256: 48ee77979289d1691d91fa89cc323c8c8571f6cc99f6714e8ec754f4375fc786
       version: '2018'
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 4eaec39e
     model:
     prompt_version:
-  generated_at: '2026-05-13T18:28:28Z'
+  generated_at: '2026-05-14T16:55:46Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T18:28:47Z'
+    confirmed_at: '2026-05-14T16:56:37Z'
     confirmed_by: human
-    rationale: Deloitte Fiduciaire MAR voor ondernemingen (KB 12.09.1983 obv KB 21.10.2018 Bijlage 1) via pdftotext-layout. Volledige rekeningstructuur Klasse 1-7 + niet-balans Klasse 0. Account-codes + descriptions correct. Voldoende structuur voor RAG-queries over rekeningstelsel.
+    rationale: Deloitte MAR PDF via pdftotext-layout + Klasse 0-7 headings geinjecteerd in raw voor RAG-chunking. Inhoud ongewijzigd.
+    caveat:
     layer1:
     layer2:
 ---
@@ -46,7 +47,7 @@ provenance:
     Alle in het K.B. vermelde rekeningnummers en -benamingen zijn in het vet afgedrukt
 
 Deloitte Fiduciaire - studiedienst - CT 10.6 N (03/05)
-Klasse 1: Eigen vermogen, voorzieningen en uitgestelde belastingen en schulden op meer dan één jaar
+## Klasse 1: Eigen vermogen, voorzieningen en uitgestelde belastingen en schulden op meer dan één jaar
 
 10 Kapitaal
 100 Geplaatst kapitaal
@@ -99,7 +100,7 @@ Deloitte Fiduciaire - studiedienst - CT 10.6 N (03/05)
 1790 Permanente voorschotten van bestuurders, zaakvoerders, enz.
 
 Deloitte Fiduciaire - studiedienst - CT 10.6 N (03/05)
-Klasse 2: Oprichtingskosten, vaste activa en vorderingen op meer dan een jaar
+## Klasse 2: Oprichtingskosten, vaste activa en vorderingen op meer dan een jaar
 
 De subrekeningen moeten verplicht eindigen op:
 • 0 voor de aanschaffingswaarden
@@ -151,7 +152,7 @@ Deloitte Fiduciaire - studiedienst - CT 10.6 N (03/05)
 291 Overige vorderingen
 
 Deloitte Fiduciaire - studiedienst - CT 10.6 N (03/05)
-Klasse 3: Voorraden en bestellingen in uitvoering
+## Klasse 3: Voorraden en bestellingen in uitvoering
 
 30 Grondstoffen (9)
 300 Aanschaffingswaarde (10)
@@ -183,7 +184,7 @@ Klasse 3: Voorraden en bestellingen in uitvoering
 379 Geboekte waardeverminderingen (-) (11)
 
 Deloitte Fiduciaire - studiedienst - CT 10.6 N (03/05)
-Klasse 4: Vorderingen en schulden op ten hoogste één jaar
+## Klasse 4: Vorderingen en schulden op ten hoogste één jaar
 
 40 Handelsvorderingen (13)
 400 Handelsdebiteuren
@@ -301,7 +302,7 @@ Deloitte Fiduciaire - studiedienst - CT 10.6 N (03/05)
 499 Wachtrekeningen
 
 Deloitte Fiduciaire - studiedienst - CT 10.6 N (03/05)
-Klasse 5: Geldbeleggingen en liquide middelen
+## Klasse 5: Geldbeleggingen en liquide middelen
 
 50 Eigen aandelen
 
@@ -334,7 +335,7 @@ Klasse 5: Geldbeleggingen en liquide middelen
 58 Interne overboekingen
 
 Deloitte Fiduciaire - studiedienst - CT 10.6 N (03/05)
-Klasse 6: Kosten
+## Klasse 6: Kosten
 
 60 Handelsgoederen, grond- en hulpstoffen (23)
 600 Aankopen van grondstoffen
@@ -506,7 +507,7 @@ Deloitte Fiduciaire - studiedienst - CT 10.6 N (03/05)
 696 Andere rechthebbenden
 
 Deloitte Fiduciaire - studiedienst - CT 10.6 N (03/05)
-Klasse 7: Opbrengsten
+## Klasse 7: Opbrengsten
 
 70 Omzet (55)
 700 tot 707 Verkopen en dienstprestaties
@@ -570,7 +571,7 @@ Deloitte Fiduciaire - studiedienst - CT 10.6 N (03/05)
 794 Tussenkomst van vennoten (of van de eigenaar) in het verlies
 
 Deloitte Fiduciaire - studiedienst - CT 10.6 N (03/05)
-Klasse 0: Niet in de balans opgenomen rechten en verplichtingen (29) (30)
+## Klasse 0: Niet in de balans opgenomen rechten en verplichtingen (29) (30)
 
 00 Zekerheden door derden gesteld voor rekening van de onderneming
 
