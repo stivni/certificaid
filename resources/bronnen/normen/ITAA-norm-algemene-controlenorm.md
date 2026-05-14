@@ -33,13 +33,25 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-14T19:55:09Z'
+    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
+    rationale: 'Groep A (was trusted). Re-conversie geen content-loss. Heading-count: 7, max-section: 1978 chars. Korte norm (7565 chars) met heldere structuur. Geen artefacten. Volledig intact.'
     caveat:
     layer1:
+      status: pass
+      run_id: 20260514-194808
+      run_at: '2026-05-14T19:48:08Z'
+      heading_count: 7
+      max_section_chars: 1978
+      file_size_chars: 7565
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-l2-qa-a70b27c2
+      run_at: '2026-05-14T19:55:09Z'
+      rationale: 'Groep A (was trusted). Re-conversie geen content-loss. Heading-count: 7, max-section: 1978 chars. Korte norm (7565 chars) met heldere structuur. Geen artefacten. Volledig intact.'
+      concrete_problemen: []
 ---
 # Algemene controlenorm (Besl. Raad d.d. 30 september 1991)
 

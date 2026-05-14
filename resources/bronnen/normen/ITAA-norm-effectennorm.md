@@ -33,13 +33,34 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-14T19:55:09Z'
+    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
+    rationale: "Was needs-rework wegens zware col-bleed in body. Layer-1 pass (54 headings, 68521 chars). Heading-merge column-bleed is opgelost. ECHTER: bijlage-tabellen (Bijlage 1, regels 714-815) zijn herschreven als gefragmenteerde ## headings die elk een tabelcel voorstellen ('## Uitgifte van nieuwe', '## aandelen 5:120 en 5:121'). Dit is een tabel-extractie-artefact: de originele WVV-artikeltabel (vennootschapsvorm x verrichting) is onleesbaar geworden. Dit is een RAG-probleem voor de bijlagen, maar de norm-body zelf (paragrafen 1-59) is volledig leesbaar en inhoudelijk intact. Body-niveau kolom-interleaving in de norm-body zelf: enkelvoudige zinsfragmenten (bv. regel 308, 628, 675, 691, 695) maar niet systematisch."
     caveat:
     layer1:
+      status: pass
+      run_id: 20260514-194808
+      run_at: '2026-05-14T19:48:09Z'
+      heading_count: 54
+      max_section_chars: 7661
+      file_size_chars: 68521
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-l2-qa-a70b27c2
+      run_at: '2026-05-14T19:55:09Z'
+      rationale: "Was needs-rework wegens zware col-bleed in body. Layer-1 pass (54 headings, 68521 chars). Heading-merge column-bleed is opgelost. ECHTER: bijlage-tabellen (Bijlage 1, regels 714-815) zijn herschreven als gefragmenteerde ## headings die elk een tabelcel voorstellen ('## Uitgifte van nieuwe', '## aandelen 5:120 en 5:121'). Dit is een tabel-extractie-artefact: de originele WVV-artikeltabel (vennootschapsvorm x verrichting) is onleesbaar geworden. Dit is een RAG-probleem voor de bijlagen, maar de norm-body zelf (paragrafen 1-59) is volledig leesbaar en inhoudelijk intact. Body-niveau kolom-interleaving in de norm-body zelf: enkelvoudige zinsfragmenten (bv. regel 308, 628, 675, 691, 695) maar niet systematisch."
+      concrete_problemen:
+        - regel: 718
+          type: tabel-artefact
+          voorbeeld: '## Verrichtingen Vennootschapsvorm BV CV NV'
+        - regel: 720
+          type: tabel-artefact-gefragmenteerd
+          voorbeeld: '## Wijziging van de rechten verbonden aan de soorten van / 5:102 6:87 7:155 / aandelen of niet-proportionele uitgifte'
+        - regel: 308
+          type: paragraaf-fragment
+          voorbeeld: bestuursorgaan. (par. A9-A10) Indien de vastgestelde inbreuk verband houdt boekhoudkundige gegevens opgenomen in het verslag van het
 ---
 Norm inzake de opdracht van de beroepsbeoefenaar in het kader van de beoordeling van het getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens opgenomen in het verslag van het
 

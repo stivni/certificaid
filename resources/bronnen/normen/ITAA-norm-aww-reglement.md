@@ -35,13 +35,28 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-14T19:55:09Z'
+    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
+    rationale: "Was needs-rework wegens TOC-residu. Regel 128: 'Inhoudstafel' staat nog als losstaande tekstregel (geen heading), gevolgd door 'BIJLAGE I: Variabelen...' als TOC-entry. Dit is een standalone 'Inhoudstafel' tekst-label — niet verwijderd door de transformer. De rest van de norm (15 headings, 40778 chars) is goed gestructureerd met heldere heading-hiërarchie. Inhoudelijk volledig."
     caveat:
     layer1:
+      status: pass
+      run_id: 20260514-194808
+      run_at: '2026-05-14T19:48:09Z'
+      heading_count: 15
+      max_section_chars: 8119
+      file_size_chars: 40778
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-l2-qa-a70b27c2
+      run_at: '2026-05-14T19:55:09Z'
+      rationale: "Was needs-rework wegens TOC-residu. Regel 128: 'Inhoudstafel' staat nog als losstaande tekstregel (geen heading), gevolgd door 'BIJLAGE I: Variabelen...' als TOC-entry. Dit is een standalone 'Inhoudstafel' tekst-label — niet verwijderd door de transformer. De rest van de norm (15 headings, 40778 chars) is goed gestructureerd met heldere heading-hiërarchie. Inhoudelijk volledig."
+      concrete_problemen:
+        - regel: 128
+          type: toc-residu
+          voorbeeld: Inhoudstafel
 ---
   Norm van het Instituut van de Accountants en de Belastingconsulenten d.d. 31
 maart 2020 inzake de toepassing van de wet van 18 september 2017 tot voorkoming

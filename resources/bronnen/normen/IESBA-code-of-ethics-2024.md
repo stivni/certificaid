@@ -29,6 +29,21 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: "Het bestand is inhoudelijk volledig (alle Parts 1-6 + Independence Standards aanwezig, 68 ## headings, correcte Rxx.x / xx.x Ax nummering). Vier afzonderlijke artefacten vereisen rework: (A1) vier stray 'Page'-markers als losse regels op lijnen 1742, 4717, 8578, 17822 (kop/voetregelpaar uit PDF); (A2) grote dot-leader TOC-blokken als plain-text midden in de body op het overganspunt van elke Part (regels 1716-1739, 4719-4741, 8580-8644 en ca. 17823-17845); (A6) paragraafnummer met extra spatie '120. 15 A1' op regel 1530. Buiten die geïsoleerde artefacten leest de body vloeiend en zijn headings correct."
     layer1:
+      status: fail
+      run_id: 20260514-194808
+      run_at: '2026-05-14T19:48:08Z'
+      heading_count: 42
+      max_section_chars: 86168
+      file_size_chars: 637277
+      flags:
+        - name: frontmatter_complete
+          status: fail
+          detail: "ontbrekende velden: ['naam', 'type']"
+          samples: []
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 86168 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6

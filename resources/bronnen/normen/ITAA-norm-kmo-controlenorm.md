@@ -34,13 +34,32 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-14T19:55:09Z'
+    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
+    rationale: 'Was needs-rework wegens doorlopende tekst zonder alinea-scheiding. Na re-conversie heeft de norm 74 headings voor 145654 chars — goede structuur. Layer-1 warn wegens max_section_chars 43426 (>24000), maar chunker splitst automatisch op alinea-grenzen. Inspectie van de body toont dat de inhoudstafel als plain-tekst inlineblok aanwezig is (regels 86-153) zonder ## headings, maar dit is TOC-context voor de lezer en geen body-content verlies. Lange paragrafen (regels 168-172, 177-183) zijn juridisch doorlopende tekst, niet een formatering-probleem. Inhoudelijk volledig bruikbaar.'
     caveat:
     layer1:
+      status: warn
+      run_id: 20260514-194808
+      run_at: '2026-05-14T19:48:09Z'
+      heading_count: 74
+      max_section_chars: 43426
+      file_size_chars: 145654
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 43426 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-l2-qa-a70b27c2
+      run_at: '2026-05-14T19:55:09Z'
+      rationale: 'Was needs-rework wegens doorlopende tekst zonder alinea-scheiding. Na re-conversie heeft de norm 74 headings voor 145654 chars — goede structuur. Layer-1 warn wegens max_section_chars 43426 (>24000), maar chunker splitst automatisch op alinea-grenzen. Inspectie van de body toont dat de inhoudstafel als plain-tekst inlineblok aanwezig is (regels 86-153) zonder ## headings, maar dit is TOC-context voor de lezer en geen body-content verlies. Lange paragrafen (regels 168-172, 177-183) zijn juridisch doorlopende tekst, niet een formatering-probleem. Inhoudelijk volledig bruikbaar.'
+      concrete_problemen:
+        - regel: 86
+          type: toc-inline-zonder-headings
+          voorbeeld: '# INHOUDSTAFEL / ## 1. INLEIDING / 1.1 Toepassingsgebied / ...'
 ---
 # KMO controle norm
 

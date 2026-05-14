@@ -32,13 +32,25 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-14T19:55:09Z'
+    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
+    rationale: 'Was needs-rework wegens pagina-residu. Na re-conversie: geen page-residu gevonden. Layer-1 pass (20 headings, 24025 chars). Geen TOC-residu, geen footers, geen column-bleed. Goed gestructureerde aanbeveling met duidelijke secties. Inline voetnoten op regels 109-111 zijn enkel verwijzingsnummers in voetnoottekst — acceptabel.'
     caveat:
     layer1:
+      status: pass
+      run_id: 20260514-194808
+      run_at: '2026-05-14T19:48:09Z'
+      heading_count: 20
+      max_section_chars: 5195
+      file_size_chars: 24025
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-l2-qa-a70b27c2
+      run_at: '2026-05-14T19:55:09Z'
+      rationale: 'Was needs-rework wegens pagina-residu. Na re-conversie: geen page-residu gevonden. Layer-1 pass (20 headings, 24025 chars). Geen TOC-residu, geen footers, geen column-bleed. Goed gestructureerde aanbeveling met duidelijke secties. Inline voetnoten op regels 109-111 zijn enkel verwijzingsnummers in voetnoottekst — acceptabel.'
+      concrete_problemen: []
 ---
 ## OPDRACHTBRIEF
 

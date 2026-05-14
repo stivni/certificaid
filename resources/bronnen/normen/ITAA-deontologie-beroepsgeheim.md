@@ -41,13 +41,25 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-14T19:55:09Z'
+    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
+    rationale: 'Groep A (was trusted). Re-conversie geen content-loss. Heading-count: 24, max-section: 23480 chars. Uitgebreide tekst met genummerde secties (1–15), goede heading-hiërarchie (###/####/######). Geen TOC-residu, geen page-footers, geen column-bleed. Volledig leesbaar en RAG-geschikt.'
     caveat:
     layer1:
+      status: pass
+      run_id: 20260514-194808
+      run_at: '2026-05-14T19:48:08Z'
+      heading_count: 24
+      max_section_chars: 23480
+      file_size_chars: 39047
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-l2-qa-a70b27c2
+      run_at: '2026-05-14T19:55:09Z'
+      rationale: 'Groep A (was trusted). Re-conversie geen content-loss. Heading-count: 24, max-section: 23480 chars. Uitgebreide tekst met genummerde secties (1–15), goede heading-hiërarchie (###/####/######). Geen TOC-residu, geen page-footers, geen column-bleed. Volledig leesbaar en RAG-geschikt.'
+      concrete_problemen: []
 ---
 # Het beroepsgeheim van de accountant en de belastingadviseur
 

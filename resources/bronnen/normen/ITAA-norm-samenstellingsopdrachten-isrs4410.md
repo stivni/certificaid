@@ -32,13 +32,31 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-14T19:55:09Z'
+    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
+    rationale: "Was needs-rework wegens TOC + col-header. Na re-conversie: TOC-residu op regels 142-144: '## Inhoudstafel' heading gevolgd door 1 TOC-entry '## Communicatie met het management... . 34 Het'. Verder geen systematische column-bleed of TOC-vervuiling. Norm (27 headings, 45437 chars) is goed gestructureerd en volledig leesbaar. ISRS-vertalingswijze tekst met Par. Ax verwijzingen is inhoudelijk intact."
     caveat:
     layer1:
+      status: pass
+      run_id: 20260514-194808
+      run_at: '2026-05-14T19:48:09Z'
+      heading_count: 27
+      max_section_chars: 6056
+      file_size_chars: 45437
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-l2-qa-a70b27c2
+      run_at: '2026-05-14T19:55:09Z'
+      rationale: "Was needs-rework wegens TOC + col-header. Na re-conversie: TOC-residu op regels 142-144: '## Inhoudstafel' heading gevolgd door 1 TOC-entry '## Communicatie met het management... . 34 Het'. Verder geen systematische column-bleed of TOC-vervuiling. Norm (27 headings, 45437 chars) is goed gestructureerd en volledig leesbaar. ISRS-vertalingswijze tekst met Par. Ax verwijzingen is inhoudelijk intact."
+      concrete_problemen:
+        - regel: 142
+          type: toc-residu-heading
+          voorbeeld: '## Inhoudstafel'
+        - regel: 144
+          type: toc-residu-paginanummer
+          voorbeeld: '## Communicatie met het management en de met governance belaste personen . 34 Het'
 ---
 ## Norm inzake de Samenstellingsopdrachten
 

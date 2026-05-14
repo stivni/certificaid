@@ -32,13 +32,37 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-14T19:55:09Z'
+    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
+    rationale: "Was needs-rework wegens inline voetnoot-residu. Inline voetnoot-fragment op regel 111 ('Conform de wet van 29 maart 2018 tot registratie van dienstenverleners aan vennootschappen.') is losstaande verwijzing zonder context. Erger: running page-footer 'goedgekeurd door de raad van 2 juli 2024.' verschijnt 3x als standalone tekstlijn (regels 113, 164, 216) — niet verwijderd door de transformer. Body is verder goed leesbaar (4 headings, 11825 chars). Inhoud inhoudelijk volledig bruikbaar."
     caveat:
     layer1:
+      status: pass
+      run_id: 20260514-194808
+      run_at: '2026-05-14T19:48:09Z'
+      heading_count: 4
+      max_section_chars: 6607
+      file_size_chars: 11825
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-l2-qa-a70b27c2
+      run_at: '2026-05-14T19:55:09Z'
+      rationale: "Was needs-rework wegens inline voetnoot-residu. Inline voetnoot-fragment op regel 111 ('Conform de wet van 29 maart 2018 tot registratie van dienstenverleners aan vennootschappen.') is losstaande verwijzing zonder context. Erger: running page-footer 'goedgekeurd door de raad van 2 juli 2024.' verschijnt 3x als standalone tekstlijn (regels 113, 164, 216) — niet verwijderd door de transformer. Body is verder goed leesbaar (4 headings, 11825 chars). Inhoud inhoudelijk volledig bruikbaar."
+      concrete_problemen:
+        - regel: 113
+          type: page-footer-residu
+          voorbeeld: goedgekeurd door de raad van 2 juli 2024.
+        - regel: 164
+          type: page-footer-residu
+          voorbeeld: goedgekeurd door de raad van 2 juli 2024.
+        - regel: 216
+          type: page-footer-residu
+          voorbeeld: goedgekeurd door de raad van 2 juli 2024.
+        - regel: 111
+          type: inline-voetnoot-fragment
+          voorbeeld: Conform de wet van 29 maart 2018 tot registratie van dienstenverleners aan vennootschappen.
 ---
                ITAA
         INSTITUTE FOR TAX

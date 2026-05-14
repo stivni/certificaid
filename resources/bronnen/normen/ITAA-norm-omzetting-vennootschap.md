@@ -32,13 +32,34 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-14T19:55:09Z'
+    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
+    rationale: "Was needs-rework wegens zware col-bleed in body. Layer-1 pass (48 headings, 90705 chars). Heading-merge column-bleed opgelost. ECHTER: bijlage-tabel (Bijlage 1, regel 799-816) heeft hetzelfde tabel-artefact als effectennorm: tabelcellen als gefragmenteerde ## headings ('## Nationale omzetting vennootschap (art. 14:2-14:14)'). Dit is leesbaar als context maar niet als gestructureerde tabel. Body-tekst (paragrafen 1-84) toont enkelvoudige paragraaf-discontinuïteiten (bv. regel 201: '(v) van 7 december 2016;' abrupt; regel 202: '(vi) beantwoordt om...' zonder context), maar dit zijn beperkte fragmenten — geen systematische interleaving. Norm-body is overwegend volledig en RAG-geschikt."
     caveat:
     layer1:
+      status: pass
+      run_id: 20260514-194808
+      run_at: '2026-05-14T19:48:09Z'
+      heading_count: 48
+      max_section_chars: 10583
+      file_size_chars: 90705
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-l2-qa-a70b27c2
+      run_at: '2026-05-14T19:55:09Z'
+      rationale: "Was needs-rework wegens zware col-bleed in body. Layer-1 pass (48 headings, 90705 chars). Heading-merge column-bleed opgelost. ECHTER: bijlage-tabel (Bijlage 1, regel 799-816) heeft hetzelfde tabel-artefact als effectennorm: tabelcellen als gefragmenteerde ## headings ('## Nationale omzetting vennootschap (art. 14:2-14:14)'). Dit is leesbaar als context maar niet als gestructureerde tabel. Body-tekst (paragrafen 1-84) toont enkelvoudige paragraaf-discontinuïteiten (bv. regel 201: '(v) van 7 december 2016;' abrupt; regel 202: '(vi) beantwoordt om...' zonder context), maar dit zijn beperkte fragmenten — geen systematische interleaving. Norm-body is overwegend volledig en RAG-geschikt."
+      concrete_problemen:
+        - regel: 801
+          type: tabel-artefact
+          voorbeeld: '## Nationale omzetting vennootschap (art. 14:2-14:14)'
+        - regel: 201
+          type: paragraaf-fragment
+          voorbeeld: (v) van 7 december 2016;
+        - regel: 202
+          type: paragraaf-fragment
+          voorbeeld: (vi) beantwoordt om, als zelfstandige in hoofdberoep of bijberoep...
 ---
 Ontwerp
 

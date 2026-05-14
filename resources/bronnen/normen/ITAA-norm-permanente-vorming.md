@@ -34,13 +34,34 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-14T19:55:09Z'
+    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
+    rationale: "Was needs-rework wegens page-headers/footers. Na re-conversie: running page-footer 'goedgekeurd door de Raad van 1 december 2020.' verschijnt 15x als standalone tekstlijn verspreid door de volledige norm (regels 56, 115, 174, 233, 293, 347, 398, 414, 459, 503, 560, 591, 614). Dit zijn duidelijke page-footer residuen die de `strip_itaa_norm_footers` transformer NIET verwijderd heeft (variante formulering zonder hoofdletter 'van'). Body is verder goed leesbaar (15 headings, 29729 chars). Inhoudelijk volledig."
     caveat:
     layer1:
+      status: pass
+      run_id: 20260514-194808
+      run_at: '2026-05-14T19:48:09Z'
+      heading_count: 15
+      max_section_chars: 11346
+      file_size_chars: 29729
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-l2-qa-a70b27c2
+      run_at: '2026-05-14T19:55:09Z'
+      rationale: "Was needs-rework wegens page-headers/footers. Na re-conversie: running page-footer 'goedgekeurd door de Raad van 1 december 2020.' verschijnt 15x als standalone tekstlijn verspreid door de volledige norm (regels 56, 115, 174, 233, 293, 347, 398, 414, 459, 503, 560, 591, 614). Dit zijn duidelijke page-footer residuen die de `strip_itaa_norm_footers` transformer NIET verwijderd heeft (variante formulering zonder hoofdletter 'van'). Body is verder goed leesbaar (15 headings, 29729 chars). Inhoudelijk volledig."
+      concrete_problemen:
+        - regel: 115
+          type: page-footer-residu
+          voorbeeld: goedgekeurd door de Raad van 1 december 2020.
+        - regel: 174
+          type: page-footer-residu
+          voorbeeld: goedgekeurd door de Raad van 1 december 2020.
+        - regel: 233
+          type: page-footer-residu
+          voorbeeld: goedgekeurd door de Raad van 1 december 2020.
 ---
       Norm met betrekking tot
       de permanente vorming goedgekeurd door de Raad van 1 december 2020.

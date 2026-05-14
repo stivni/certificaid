@@ -34,13 +34,31 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-14T19:55:09Z'
+    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
+    rationale: "Was needs-rework wegens TOC + page-footers. Na re-conversie: TOC-residu aanwezig op regels 127-135 ('INHOUDSTAFEL' + 5 fragmentarische TOC-items met paginanummer op regel 134). Page-footers: geen aanwezig. Norm zelf (46 headings, 62361 chars) is goed gestructureerd en volledig leesbaar. De TOC-restanten zijn beperkt (8 regels) en verschijnen vóór de eerste echte heading (regel 138 '## Toepassingsgebied')."
     caveat:
     layer1:
+      status: pass
+      run_id: 20260514-194808
+      run_at: '2026-05-14T19:48:09Z'
+      heading_count: 46
+      max_section_chars: 5416
+      file_size_chars: 62361
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-l2-qa-a70b27c2
+      run_at: '2026-05-14T19:55:09Z'
+      rationale: "Was needs-rework wegens TOC + page-footers. Na re-conversie: TOC-residu aanwezig op regels 127-135 ('INHOUDSTAFEL' + 5 fragmentarische TOC-items met paginanummer op regel 134). Page-footers: geen aanwezig. Norm zelf (46 headings, 62361 chars) is goed gestructureerd en volledig leesbaar. De TOC-restanten zijn beperkt (8 regels) en verschijnen vóór de eerste echte heading (regel 138 '## Toepassingsgebied')."
+      concrete_problemen:
+        - regel: 127
+          type: toc-residu
+          voorbeeld: INHOUDSTAFEL
+        - regel: 134
+          type: toc-residu-paginanummer
+          voorbeeld: Bijlage 1 – Voorbeeld van opdrachtbrief te verkrijgen door de bedrijfsrevisor/commissaris . 33
 ---
 Ontwerp
 

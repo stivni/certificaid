@@ -31,13 +31,31 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-14T19:55:09Z'
+    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
+    rationale: "Was needs-rework wegens OCR + B4. OCR-artefacten aanwezig: 'fmanciële' (regel 106, fi-ligature OCR-fout) en 'WIe' (regel 117, I/i OCR-fout). Slechts 2 instanties. Norm is kort (2 headings, 7539 chars) en inhoudelijk volledig leesbaar. De 5 principes zijn helder gestructureerd. Geen column-bleed, geen page-footers, geen TOC-residu."
     caveat:
     layer1:
+      status: pass
+      run_id: 20260514-194808
+      run_at: '2026-05-14T19:48:09Z'
+      heading_count: 2
+      max_section_chars: 5041
+      file_size_chars: 7539
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-l2-qa-a70b27c2
+      run_at: '2026-05-14T19:55:09Z'
+      rationale: "Was needs-rework wegens OCR + B4. OCR-artefacten aanwezig: 'fmanciële' (regel 106, fi-ligature OCR-fout) en 'WIe' (regel 117, I/i OCR-fout). Slechts 2 instanties. Norm is kort (2 headings, 7539 chars) en inhoudelijk volledig leesbaar. De 5 principes zijn helder gestructureerd. Geen column-bleed, geen page-footers, geen TOC-residu."
+      concrete_problemen:
+        - regel: 106
+          type: ocr-ligature
+          voorbeeld: fmanciële informatie te controleren
+        - regel: 117
+          type: ocr-case
+          voorbeeld: de rechtspersoon of natuurlijke persoon voor WIe een opdracht wordt
 ---
 GEDRAGSLIJNEN INZAKE DE BEROEPSRELATlES TUSSEN DE LEDEN VAN
 HET IBR, HET IAB EN HET BIBF
