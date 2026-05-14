@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-14T19:55:09Z'
-    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
-    rationale: "Was needs-rework wegens inline voetnoot-residu. Inline voetnoot-fragment op regel 111 ('Conform de wet van 29 maart 2018 tot registratie van dienstenverleners aan vennootschappen.') is losstaande verwijzing zonder context. Erger: running page-footer 'goedgekeurd door de raad van 2 juli 2024.' verschijnt 3x als standalone tekstlijn (regels 113, 164, 216) — niet verwijderd door de transformer. Body is verder goed leesbaar (4 headings, 11825 chars). Inhoud inhoudelijk volledig bruikbaar."
+    status: unreviewed
+    confirmed_at: '2026-05-14T19:57:47Z'
+    confirmed_by: human
+    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
     caveat:
     layer1:
       status: pass

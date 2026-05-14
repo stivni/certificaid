@@ -31,10 +31,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-14T19:55:09Z'
-    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
-    rationale: "Was needs-rework wegens NL+FR bilingue. Na re-conversie is de tekst overwegend Nederlands. Slechts 1 Frans woord overgebleven: 'demande.' op regel 223 als losstaande tekstlijn (fragment van French page-header of tweetalig document). Vermoedelijk residu van de originele NL/FR lay-out. Norm zelf (7 headings, 13097 chars) is inhoudelijk volledig en goed leesbaar. De doorlopende tekst met 'CABINET Doelstelling' (regel 142) en 'KANTOORNIVEAU' (regel 149) zijn herkennelijke uppercase-structuurlabels uit de originele PDF, niet ideaal maar leesbaar als plain text."
+    status: unreviewed
+    confirmed_at: '2026-05-14T19:57:47Z'
+    confirmed_by: human
+    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
     caveat:
     layer1:
       status: pass

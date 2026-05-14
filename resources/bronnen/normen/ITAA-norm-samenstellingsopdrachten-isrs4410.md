@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-14T19:55:09Z'
-    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
-    rationale: "Was needs-rework wegens TOC + col-header. Na re-conversie: TOC-residu op regels 142-144: '## Inhoudstafel' heading gevolgd door 1 TOC-entry '## Communicatie met het management... . 34 Het'. Verder geen systematische column-bleed of TOC-vervuiling. Norm (27 headings, 45437 chars) is goed gestructureerd en volledig leesbaar. ISRS-vertalingswijze tekst met Par. Ax verwijzingen is inhoudelijk intact."
+    status: unreviewed
+    confirmed_at: '2026-05-14T19:57:47Z'
+    confirmed_by: human
+    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
     caveat:
     layer1:
       status: pass

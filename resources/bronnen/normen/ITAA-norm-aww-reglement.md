@@ -35,10 +35,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-14T19:55:09Z'
-    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
-    rationale: "Was needs-rework wegens TOC-residu. Regel 128: 'Inhoudstafel' staat nog als losstaande tekstregel (geen heading), gevolgd door 'BIJLAGE I: Variabelen...' als TOC-entry. Dit is een standalone 'Inhoudstafel' tekst-label — niet verwijderd door de transformer. De rest van de norm (15 headings, 40778 chars) is goed gestructureerd met heldere heading-hiërarchie. Inhoudelijk volledig."
+    status: unreviewed
+    confirmed_at: '2026-05-14T19:57:46Z'
+    confirmed_by: human
+    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
     caveat:
     layer1:
       status: pass

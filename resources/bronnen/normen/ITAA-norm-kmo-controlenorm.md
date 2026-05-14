@@ -34,10 +34,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-14T19:55:09Z'
-    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
-    rationale: 'Was needs-rework wegens doorlopende tekst zonder alinea-scheiding. Na re-conversie heeft de norm 74 headings voor 145654 chars — goede structuur. Layer-1 warn wegens max_section_chars 43426 (>24000), maar chunker splitst automatisch op alinea-grenzen. Inspectie van de body toont dat de inhoudstafel als plain-tekst inlineblok aanwezig is (regels 86-153) zonder ## headings, maar dit is TOC-context voor de lezer en geen body-content verlies. Lange paragrafen (regels 168-172, 177-183) zijn juridisch doorlopende tekst, niet een formatering-probleem. Inhoudelijk volledig bruikbaar.'
+    status: unreviewed
+    confirmed_at: '2026-05-14T19:57:47Z'
+    confirmed_by: human
+    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
     caveat:
     layer1:
       status: warn

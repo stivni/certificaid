@@ -34,10 +34,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-14T19:55:09Z'
-    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
-    rationale: "Was needs-rework wegens TOC + page-footers. Na re-conversie: TOC-residu aanwezig op regels 127-135 ('INHOUDSTAFEL' + 5 fragmentarische TOC-items met paginanummer op regel 134). Page-footers: geen aanwezig. Norm zelf (46 headings, 62361 chars) is goed gestructureerd en volledig leesbaar. De TOC-restanten zijn beperkt (8 regels) en verschijnen vóór de eerste echte heading (regel 138 '## Toepassingsgebied')."
+    status: unreviewed
+    confirmed_at: '2026-05-14T19:57:47Z'
+    confirmed_by: human
+    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
     caveat:
     layer1:
       status: pass

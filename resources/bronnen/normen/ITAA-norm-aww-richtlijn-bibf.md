@@ -35,10 +35,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-14T19:55:09Z'
-    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
-    rationale: "Was needs-rework wegens TOC + minor issues. Regel 135: TOC-entry 'Organisatie van de beroepsbeoefenaar... . 7' met paginanummer onverwijderd. Regel 138: TOC-entry 'Nakoming    van       de         waakzaamheidsverplichtingen...' met leader-spaties onverwijderd. Dit zijn 2 TOC-restanten. De norm zelf (17 headings, 41087 chars) is goed gestructureerd en leesbaar. Geen body-level column-bleed."
+    status: unreviewed
+    confirmed_at: '2026-05-14T19:57:47Z'
+    confirmed_by: human
+    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
     caveat:
     layer1:
       status: pass

@@ -35,10 +35,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-14T19:55:09Z'
-    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
-    rationale: "Was needs-rework wegens zware col-bleed in body. Heading-merge artefacten zijn weg (Layer-1 pass). Body-tekst toont echter nog aantoonbare paragraaf-discontinuïteiten: abrupte zinsfragmenten zonder context (bv. regel 64: 'om een nieuwe norm, maar een samensmelting...'; regel 98: 'een andere entiteit...' als losse zin; regel 117: 'bedoelde functie door die persoon zelf uitgeoefend'). Dit zijn resten van body-niveau kolom-interleaving die niet door de text-transformer opgelost worden. Heading-count: 5 voor 21096 chars — te weinig structuur voor grote body. Content inhoudelijk bruikbaar voor RAG maar met fragmentarische paragrafen."
+    status: unreviewed
+    confirmed_at: '2026-05-14T19:57:46Z'
+    confirmed_by: human
+    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
     caveat:
     layer1:
       status: pass

@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-14T19:55:09Z'
-    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
-    rationale: "Was needs-rework wegens zware col-bleed in body. Layer-1 pass (48 headings, 90705 chars). Heading-merge column-bleed opgelost. ECHTER: bijlage-tabel (Bijlage 1, regel 799-816) heeft hetzelfde tabel-artefact als effectennorm: tabelcellen als gefragmenteerde ## headings ('## Nationale omzetting vennootschap (art. 14:2-14:14)'). Dit is leesbaar als context maar niet als gestructureerde tabel. Body-tekst (paragrafen 1-84) toont enkelvoudige paragraaf-discontinuïteiten (bv. regel 201: '(v) van 7 december 2016;' abrupt; regel 202: '(vi) beantwoordt om...' zonder context), maar dit zijn beperkte fragmenten — geen systematische interleaving. Norm-body is overwegend volledig en RAG-geschikt."
+    status: unreviewed
+    confirmed_at: '2026-05-14T19:57:47Z'
+    confirmed_by: human
+    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
     caveat:
     layer1:
       status: pass

@@ -31,10 +31,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-14T19:55:09Z'
-    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
-    rationale: "Was needs-rework wegens OCR + B4. OCR-artefacten aanwezig: 'fmanciële' (regel 106, fi-ligature OCR-fout) en 'WIe' (regel 117, I/i OCR-fout). Slechts 2 instanties. Norm is kort (2 headings, 7539 chars) en inhoudelijk volledig leesbaar. De 5 principes zijn helder gestructureerd. Geen column-bleed, geen page-footers, geen TOC-residu."
+    status: unreviewed
+    confirmed_at: '2026-05-14T19:57:47Z'
+    confirmed_by: human
+    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
     caveat:
     layer1:
       status: pass

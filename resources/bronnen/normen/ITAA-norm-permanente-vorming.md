@@ -34,10 +34,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-14T19:55:09Z'
-    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
-    rationale: "Was needs-rework wegens page-headers/footers. Na re-conversie: running page-footer 'goedgekeurd door de Raad van 1 december 2020.' verschijnt 15x als standalone tekstlijn verspreid door de volledige norm (regels 56, 115, 174, 233, 293, 347, 398, 414, 459, 503, 560, 591, 614). Dit zijn duidelijke page-footer residuen die de `strip_itaa_norm_footers` transformer NIET verwijderd heeft (variante formulering zonder hoofdletter 'van'). Body is verder goed leesbaar (15 headings, 29729 chars). Inhoudelijk volledig."
+    status: unreviewed
+    confirmed_at: '2026-05-14T19:57:47Z'
+    confirmed_by: human
+    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
     caveat:
     layer1:
       status: pass

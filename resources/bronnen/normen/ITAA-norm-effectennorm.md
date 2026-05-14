@@ -33,10 +33,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-14T19:55:09Z'
-    confirmed_by: subagent-sonnet-l2-qa-a70b27c2
-    rationale: "Was needs-rework wegens zware col-bleed in body. Layer-1 pass (54 headings, 68521 chars). Heading-merge column-bleed is opgelost. ECHTER: bijlage-tabellen (Bijlage 1, regels 714-815) zijn herschreven als gefragmenteerde ## headings die elk een tabelcel voorstellen ('## Uitgifte van nieuwe', '## aandelen 5:120 en 5:121'). Dit is een tabel-extractie-artefact: de originele WVV-artikeltabel (vennootschapsvorm x verrichting) is onleesbaar geworden. Dit is een RAG-probleem voor de bijlagen, maar de norm-body zelf (paragrafen 1-59) is volledig leesbaar en inhoudelijk intact. Body-niveau kolom-interleaving in de norm-body zelf: enkelvoudige zinsfragmenten (bv. regel 308, 628, 675, 691, 695) maar niet systematisch."
+    status: unreviewed
+    confirmed_at: '2026-05-14T19:57:47Z'
+    confirmed_by: human
+    rationale: Trust teruggedraaid — agent-verdict 'trusted-met-caveat' vereist menselijke goedkeuring per bron. Agent-rationale blijft in layer2.
     caveat:
     layer1:
       status: pass
