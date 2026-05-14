@@ -1057,9 +1057,17 @@ def split_wettekst(text: str, source_id: str, fm: dict) -> list[dict]:
                     pre_long.append(c)
 
     final: list[dict] = []
+    id_seen: dict[str, int] = {}  # defensieve uniqueness: voorkomt Chroma DuplicateIDError
     for c in pre_long:
         for i, fragment in enumerate(split_long_chunk(c, MAX_CHUNK_CHARS), 1):
             fid = f"{c['id']}_part{i}" if fragment.get("_split_part") else c["id"]
+            # Defensieve uniqueness: voor het zeldzame geval dat een sub-chunk-id
+            # collidert (bv. duplicate art-nrs in een wettekst met overlappende
+            # sub-structuur), suffix met een teller. Voorkomt DuplicateIDError
+            # bij Chroma-upsert zonder content te verliezen.
+            id_seen[fid] = id_seen.get(fid, 0) + 1
+            if id_seen[fid] > 1:
+                fid = f"{fid}__dup{id_seen[fid]}"
             final.append({
                 "id":          fid,
                 "text":        fragment["text"],

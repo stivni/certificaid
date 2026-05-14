@@ -7,9 +7,8 @@ status: "beschikbaar"
 bijgewerkt: "23.03.2011"
 bron: "onbekend"
 chunk:
-  level: 3
-  type: "Art."
-  sub_strategy:
+  level: 6
+  type: "Artikel"
 provenance:
   inputs:
     - id: resources/raw/wetteksten/BTW-uitvoeringsverordening-282-2011.pdf

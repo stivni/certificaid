@@ -7,9 +7,8 @@ status: "beschikbaar"
 bijgewerkt: "21.11.1986"
 bron: "onbekend"
 chunk:
-  level: 2
-  type: "Art."
-  sub_strategy:
+  level: 6
+  type: "Artikel"
 provenance:
   inputs:
     - id: resources/raw/wetteksten/BTW-dertiende-richtlijn-1986.pdf
