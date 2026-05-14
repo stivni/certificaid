@@ -7,9 +7,8 @@ status: "beschikbaar"
 bijgewerkt: "1988"
 bron: "onbekend"
 chunk:
-  level: 2
-  type: "Art."
-  sub_strategy:
+  level: 6
+  type: "Artikel"
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Verdrag-WABB.pdf

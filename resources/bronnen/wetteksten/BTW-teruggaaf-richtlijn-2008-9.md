@@ -7,9 +7,8 @@ status: "beschikbaar"
 bijgewerkt: "01.10.2010"
 bron: "onbekend"
 chunk:
-  level: 2
-  type: "Art."
-  sub_strategy:
+  level: 6
+  type: "Artikel"
 provenance:
   inputs:
     - id: resources/raw/wetteksten/BTW-teruggaaf-richtlijn-2008-9.pdf
