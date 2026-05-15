@@ -1,6 +1,0 @@
-resources/bronnen/wetteksten/WBTW-KB59-handelsgeschenken.md
-resources/bronnen/wetteksten/WBTW-MB-dagboek-ontvangsten-2023.md
-resources/bronnen/wetteksten/WDRT.md
-resources/bronnen/wetteksten/WER-Boek-VIII-normalisatie.md
-resources/bronnen/wetteksten/WER.md
-resources/bronnen/wetteksten/WVV.md

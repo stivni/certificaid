@@ -1,6 +1,0 @@
-resources/bronnen/wetteksten/BW-boek3-goederen.md
-resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md
-resources/bronnen/wetteksten/BW-boek5-verbintenissen.md
-resources/bronnen/wetteksten/BW-boek8-bewijs.md
-resources/bronnen/wetteksten/BW-boek9-zekerheden.md
-resources/bronnen/wetteksten/Brusselse-Codex-Fiscale-Procedure.md

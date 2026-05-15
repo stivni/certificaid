@@ -1,6 +1,0 @@
-resources/bronnen/normen/IESBA-code-of-ethics-2024.md
-resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md
-resources/bronnen/normen/ITAA-deontologische-code.md
-resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md
-resources/bronnen/normen/ITAA-norm-aww-richtlijn-bibf.md
-resources/bronnen/normen/ITAA-norm-effectennorm.md

@@ -1,6 +1,0 @@
-resources/bronnen/wetteksten/WER.md
-resources/bronnen/wetteksten/WVV.md
-resources/bronnen/wetteksten/Wet-ITAA-2019.md
-resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md
-resources/bronnen/wetteksten/Wet-beroepskwalificaties-2008.md
-resources/bronnen/wetteksten/Wet-betalingsachterstand-2002.md

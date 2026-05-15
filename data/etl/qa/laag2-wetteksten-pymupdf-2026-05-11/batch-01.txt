@@ -1,6 +1,0 @@
-resources/bronnen/wetteksten/AVG-wet-2018.md
-resources/bronnen/wetteksten/Antiwitwaswet-2017.md
-resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md
-resources/bronnen/wetteksten/BTW-uitvoeringsverordening-282-2011.md
-resources/bronnen/wetteksten/BW-boek1-algemene-bepalingen.md
-resources/bronnen/wetteksten/BW-boek2-relatievermogensrecht.md

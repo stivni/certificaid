@@ -1,6 +1,0 @@
-resources/bronnen/wetteksten/WBTW-KB16-vismijn.md
-resources/bronnen/wetteksten/WBTW-KB18-uitvoer-vrijstellingen.md
-resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md
-resources/bronnen/wetteksten/WBTW-KB2-forfaitaire.md
-resources/bronnen/wetteksten/WBTW-KB20-tarieven.md
-resources/bronnen/wetteksten/WBTW-KB22-landbouwondernemers.md

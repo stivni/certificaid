@@ -1,7 +1,0 @@
-resources/bronnen/adviezen/CBN-2022-11-vermogensmutatiemethode.md
-resources/bronnen/adviezen/CBN-2022-12-boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen.md
-resources/bronnen/adviezen/CBN-2022-13-boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen.md
-resources/bronnen/adviezen/CBN-2024-02-belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0.md
-resources/bronnen/adviezen/CBN-2024-07-gevolgen-verhoging-groottecriteria-voor-vennootschappen.md
-resources/bronnen/adviezen/CBN-2024-08-gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen.md
-resources/bronnen/adviezen/CBN-NFP-aanbevelingen-inzake-de-gelijkwaardigheid-van-boekhoud-en-jaarrekeningregels-opgelegd-door.md

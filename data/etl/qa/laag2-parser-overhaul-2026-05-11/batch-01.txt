@@ -1,8 +1,0 @@
-resources/bronnen/adviezen/CBN-0113-05-herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december.md
-resources/bronnen/adviezen/CBN-0148-05-actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484.md
-resources/bronnen/adviezen/CBN-0167-02-boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen.md
-resources/bronnen/adviezen/CBN-0169-01-verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen.md
-resources/bronnen/adviezen/CBN-2009-10-bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen.md
-resources/bronnen/adviezen/CBN-2010-02-de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-betaling.md
-resources/bronnen/adviezen/CBN-2011-05-consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn.md
-resources/bronnen/adviezen/CBN-2012-16-de-boekhoudkundige-verwerking-van-wentelkredieten.md

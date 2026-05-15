@@ -1,6 +1,0 @@
-resources/bronnen/wetteksten/WBTW-KB11-verleggen-maatstaf.md
-resources/bronnen/wetteksten/WBTW-KB13-tabaksfabricaten.md
-resources/bronnen/wetteksten/WBTW-KB14-vervreemdingen-gebouwen.md
-resources/bronnen/wetteksten/WBTW-KB15-schatting-onroerende.md
-resources/bronnen/wetteksten/WBTW-KB16-vismijn.md
-resources/bronnen/wetteksten/WBTW-KB18-uitvoer-vrijstellingen.md

@@ -315,7 +315,7 @@ Emoji (⚖️/🤖) zijn UI-/render-conventie (tutor, fiches, conversaties) — 
 Concept-records bevatten **geen** verwijzingen naar programmaonderdelen, kenniselementen, taken, doelstellingen of examenvragen. Dependencies stromen één kant op (programma → concepten, examen → concepten). De koppeling kenniselement → concept leeft uitsluitend in de programmaonderdeel-JSON (zie ADR-002):
 
 ```json
-// data/programma/bronnen-scopes/4.0-deontologie.json — ENIGE WAARHEID
+// data/programma/programma.json (PO 4.0 = code "4.0" in dat bestand) — ENIGE WAARHEID
 "kenniselementen": [
   {"deel": 1, "code": "4.0.I.D.7", "tekst": "Beroepsgeheim",
    "concepten": ["beroepsgeheim-gecertificeerd-accountant", "doorbreking-beroepsgeheim"]}

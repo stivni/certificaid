@@ -1,6 +1,0 @@
-resources/bronnen/wetteksten/WBTW-KB48-levering-vervoermiddelen.md
-resources/bronnen/wetteksten/WBTW-KB50-intracommunautaire-opgave.md
-resources/bronnen/wetteksten/WBTW-KB51-accijnsproducten.md
-resources/bronnen/wetteksten/WBTW-KB52-intracommunautaire-vrijstellingen.md
-resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md
-resources/bronnen/wetteksten/WBTW-KB55-btw-eenheid.md

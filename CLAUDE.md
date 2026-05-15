@@ -90,18 +90,14 @@ certificaid/
 ├── data/
 │   ├── bronnen-index.json      # Bronnen-index (top-level, auto-gegenereerd)
 │   ├── programma/              # Examenprogramma-input
-│   │   ├── programma.json
-│   │   ├── anchors.json
-│   │   ├── programmaonderdelen/
+│   │   ├── programma.json      # Bron van waarheid: alle 19 PO's
+│   │   ├── anchors.json        # Per-anchor verrijking (ADR-008)
 │   │   ├── exam_patterns/
 │   │   └── examen_vragen/
 │   ├── etl/                    # ETL-werk op bronnen
-│   │   ├── staging/            # Staging vóór promotie (gitignored)
-│   │   └── qa/                 # QA-rapporten (gitignored)
-│   ├── rag/                    # ChromaDB-instances (gitignored, herbouwbaar)
-│   │   ├── main/
-│   │   ├── 1.1/
-│   │   └── 4.0/
+│   │   └── qa/                 # QA-rapporten (gitignored, ADR-005-pipeline schrijft direct naar resources/bronnen/)
+│   ├── rag/                    # ChromaDB-instance (gitignored, herbouwbaar)
+│   │   └── main/               # Hoofd-index over alle trusted bronnen
 │   ├── concepten/              # Kennislaag + history + checks
 │   │   ├── records/            # Concept records (gegit)
 │   │   ├── _archive/           # Archief (gitignored)

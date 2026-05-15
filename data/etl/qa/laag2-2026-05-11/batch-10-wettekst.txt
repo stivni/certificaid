@@ -1,6 +1,0 @@
-resources/bronnen/wetteksten/WBTW-MB1-aftrekregeling.md
-resources/bronnen/wetteksten/WBTW-MB11-facturen-oprichting-gebouwen.md
-resources/bronnen/wetteksten/WBTW-MB12-weegtoestellen-slachthuizen.md
-resources/bronnen/wetteksten/WBTW-MB13-hypotheek-verplichtingen.md
-resources/bronnen/wetteksten/WBTW-MB16jul2019-beroepscommissie.md
-resources/bronnen/wetteksten/WBTW-MB2-teruggaven.md

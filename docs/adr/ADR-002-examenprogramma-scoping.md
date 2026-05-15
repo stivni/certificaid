@@ -13,12 +13,12 @@ Eerdere iteraties gebruikten *vakken* als organisatie-eenheid voor leerstof. Dat
 
 **Het examenprogramma is de externe scope-definitie.** Concepten worden geëxtraheerd om kenniselementen af te dekken; vakindeling speelt alleen mee in de output-laag van de programmaonderdeel-fiches.
 
-1. **Het examenprogramma wordt expliciet ingelezen** als gestructureerde data — één bestand per programmaonderdeel in `data/programma/bronnen-scopes/`, met taken, doelstellingen en kenniselementen elk gecodeerd. Provenance-getagd zoals elk ander artefact (ADR-004).
+1. **Het examenprogramma wordt expliciet ingelezen** als gestructureerde data — één globaal bestand `data/programma/programma.json` (sinds 2026-05-10; was per-PO in `data/programmaonderdelen/`), met taken, doelstellingen en kenniselementen elk gecodeerd. Provenance-getagd zoals elk ander artefact (ADR-004).
 
 2. **Eenrichtings-koppeling: programmaonderdeel-JSON kent concepten, concept-records weten van niets**:
 
    ```json
-   // data/programma/bronnen-scopes/<onderdeel>.json — ENIGE WAARHEID
+   // data/programma/programma.json (één globaal bestand, sinds 2026-05-10) — ENIGE WAARHEID
    "kenniselementen": [
      {"deel": 1, "code": "4.0.I.D.7", "tekst": "Beroepsgeheim",
       "concepten": ["beroepsgeheim-gecertificeerd-accountant", "doorbreking-beroepsgeheim"]}
@@ -43,7 +43,7 @@ Eerdere iteraties gebruikten *vakken* als organisatie-eenheid voor leerstof. Dat
 ## Gevolgen
 
 - Nieuwe of gewijzigde kenniselementen in het examenprogramma → programmaonderdeel-JSON wijzigt; concept-records onaangeraakt. Stale-marking gebeurt via bron-chunk-input-veranderingen (ADR-004), niet via programma-wijzigingen.
-- Programmaonderdeel-bestanden leven in `data/programma/bronnen-scopes/` (één JSON per programmaonderdeel), versie-getagd. Schema breidt uit met `concepten`-lijst per kenniselement (en optioneel per taak/doelstelling).
+- Programmaonderdelen leven in `data/programma/programma.json` (één globaal bestand), versie-getagd. Schema breidt uit met `concepten`-lijst per kenniselement (en optioneel per taak/doelstelling).
 - Geen sync-tooling nodig — koppeling is eenrichting, geen cache te onderhouden.
 - Reverse-index utility (`tools/lib/coverage.py`) bouwt op aanvraag een concept→kenniselementen-mapping voor dekkingsrapporten.
 - Dekkingscheck draait per snapshot vóór publicatie van leermateriaal (ADR-010).

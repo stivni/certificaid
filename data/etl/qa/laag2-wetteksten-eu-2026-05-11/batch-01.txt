@@ -1,6 +1,0 @@
-resources/bronnen/wetteksten/BTW-dertiende-richtlijn-1986.md
-resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md
-resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md
-resources/bronnen/wetteksten/BTW-uitvoeringsverordening-282-2011.md
-resources/bronnen/wetteksten/EU-IFRS-verordening-1606-2002.md
-resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md

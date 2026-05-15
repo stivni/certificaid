@@ -34,10 +34,6 @@ data/rag/main/
 data/rag/1.1/
 data/rag/4.0/
 
-# ETL staging output (ADR-005 §2 fase B1: nieuwe pipeline schrijft hierheen
-# vóór goedkeuring/promotie naar resources/bronnen/wetteksten/)
-data/etl/staging/
-
 # QA-rapporten (gegenereerd door tools/etl/qa_bron.py — per-run, niet getracked)
 data/etl/qa/
 

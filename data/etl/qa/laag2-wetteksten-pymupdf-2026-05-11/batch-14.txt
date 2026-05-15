@@ -1,6 +1,0 @@
-resources/bronnen/wetteksten/WBTW-KB8-afronding.md
-resources/bronnen/wetteksten/WBTW-KB9-ambtelijke-aanslag.md
-resources/bronnen/wetteksten/WBTW-MB-dagboek-ontvangsten-2023.md
-resources/bronnen/wetteksten/WBTW-MB1-aftrekregeling.md
-resources/bronnen/wetteksten/WBTW-MB13-hypotheek-verplichtingen.md
-resources/bronnen/wetteksten/WBTW-MB16jul2019-beroepscommissie.md
