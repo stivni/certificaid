@@ -92,25 +92,31 @@ Nieuw type nodig? `node_type: "voorgesteld:<naam>"` — wordt verzameld voor rev
 
 Voeg toe waar de bundle ze ondersteunt. Niet alle records hebben alle velden — sparse fields zijn de norm.
 
-#### `enumeraties[]`
+**Reeds bestaande v1-velden die blijven** (geen wijziging — gebruik ze waar passend):
+- `voorwaarden[]`, `uitzonderingen[]`, `valkuilen[]`, `voorbeeld_inline`, `bouwstenen[]`, `stappen[]`, `voorwaarden_toepassing[]`. Block-shape zoals in v1.
 
-Voor patronen waar het examen "geef N oorzaken/voorwaarden/categorieën" vraagt. Aggreggeer uit meerdere chunks. Bv:
+**Vier nieuwe optionele velden in v1.2:**
+
+#### `oorzaken[]`
+
+Voor patronen "geef N voornaamste oorzaken van X". Aggregeer over alle bundle-chunks. Cross-bron synthese verplicht: als geen enkele chunk er N opsomt maar verschillende bronnen elk 1-2 oorzaken noemen, **combineer**. Items met `confidence: "inferred-from-aggregation"` mits provenance naar alle bron-chunks.
 
 ```json
-"enumeraties": [
+"oorzaken": [
   {
-    "label": "oorzaken_van",
-    "context": "Vier voornaamste oorzaken van positief consolidatieverschil",
-    "items": [
-      {"text": "Overpaid goodwill — moedermaatschappij betaalt premie boven net asset value", "confidence": "grounded", "source": {...}, "_provenance": {"inputs": [...]}},
-      {"text": "Niet-erkenbare immateriële activa onder BE-GAAP (klantenrelaties, merken)", "confidence": "inferred-from-aggregation", "source": {...}, "_provenance": {"inputs": [...]}}
-    ],
+    "text": "Overpaid goodwill — moedermaatschappij betaalt premie boven net asset value",
+    "confidence": "grounded",
+    "source": {...},
+    "_provenance": {"inputs": [...]}
+  },
+  {
+    "text": "Niet-erkenbare immateriële activa onder BE-GAAP (klantenrelaties, merken)",
+    "confidence": "inferred-from-aggregation",
+    "source": {...},
     "_provenance": {"inputs": [...]}
   }
 ]
 ```
-
-Verschillende labels per concept toegestaan (`oorzaken_van`, `voorwaarden_voor`, `componenten_van`, `vormen_van`, ...).
 
 #### `drempelwaarden[]`
 
@@ -147,12 +153,12 @@ Voor procedurele records met wettelijke termijnen:
 ]
 ```
 
-#### `verborgen_vereiste[]`
+#### `valkuilen[]` (bestaand veld, uitgebreide instructie)
 
-Voor vereisten die in de wet niet expliciet als "vereiste" worden gelabeld maar uit praktijk/jurisprudentie/normen blijken essentieel. Dit is **reële kennis** (geen examen-info) — het is wat een ervaren beoefenaar weet bovenop de letterlijke regel.
+V1 had al `valkuilen[]`. In v2 wordt dit veld actief gevuld met vereisten die in de wet niet expliciet als "vereiste" worden gelabeld maar uit praktijk/jurisprudentie/normen blijken essentieel — wat een ervaren beoefenaar weet bovenop de letterlijke regel.
 
 ```json
-"verborgen_vereiste": [
+"valkuilen": [
   {
     "text": "De accountant verstuurt de bevestigingsbrief zelf naar de derde; niet via de klant.",
     "ratio": "Anders is er risico op manipulatie van het antwoord — fundamenteel auditrisico.",

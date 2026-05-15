@@ -9,16 +9,23 @@
 
 - **2026-05-15 (1.2)** — Patroon-driven uitbreiding (additief, geen breaking
   changes). Quality-check op PO 1.4 + ADR-009 patroon-labeling op 188 examenvragen
-  onthulden structurele kennis-vormen die het examen verwacht maar v1.1 niet
-  gestructureerd hield. Vijf nieuwe optionele velden:
-  - `enumeraties[]` — aggregaten over meerdere bronnen (bv. "vier oorzaken van",
-    "drie voorwaarden voor"). Confidence-type `"inferred-from-aggregation"`.
-  - `drempelwaarden[]` — kritische numerieke grenzen met juridisch gevolg.
-  - `tijdlijn[]` — wettelijke termijnen voor procedurele concepten.
-  - `verborgen_vereiste[]` — vereisten die uit praktijk/normen volgen bovenop
-    de letterlijke regel (reële kennis, geen examen-info).
-  - `vergelijkingsparen[]` — concepten die met andere verward worden (verschil
-    + trigger-criterium).
+  onthulden structurele kennis-vormen die v1.1 niet gestructureerd hield. **Vier**
+  nieuwe optionele named fields (consistent met v1-naming-pattern, niet via
+  generic container):
+  - `oorzaken[]` — voor patroon "geef N oorzaken van X". Aggregeer cross-bron;
+    nieuwe confidence-waarde `"inferred-from-aggregation"` voor synthese-claims.
+  - `drempelwaarden[]` — kritische numerieke grenzen met juridisch gevolg
+    (`naam`, `waarde`, `eenheid`, `gevolg`).
+  - `tijdlijn[]` — wettelijke termijnen voor procedurele concepten
+    (`stap`, `termijn`, `actor`, `actie`).
+  - `vergelijkingsparen[]` — concepten die met andere verward worden
+    (`vergelijking_met`, `verschil`, `trigger`).
+
+  **Niet** toegevoegd (overlap met bestaande velden):
+  - `verborgen_vereiste[]` — overlap met `valkuilen[]` (v1). Prompt v2
+    instrueert in plaats daarvan om `valkuilen[]` actiever te vullen met die
+    impliciete kennis.
+  - `enumeraties[]` generic container — overbodig, named fields werken al.
 
   Examen-specifieke metadata (gewicht, vraagvorm-frequentie) hoort NIET in
   concept-records — dat zit in `examenfocus`-objecten (ADR-009).
@@ -128,11 +135,16 @@ Elk hoofdveld is een **block-object** (zelfde shape: `text` + `confidence` + `so
 
 Elk node-type kan onderstaande optionele velden bevatten als de bron-bundle ze ondersteunt. **Sparse fields zijn de norm** — een record met enkel `definitie` is volledig geldig.
 
-- **`enumeraties[]`** — geaggregeerde lijsten ("oorzaken van X", "voorwaarden voor Y") die uit meerdere bron-chunks zijn samengebracht. Elk item is een block-object met `confidence: "inferred-from-aggregation"` voor synthese-claims.
+**V1-velden (reeds in gebruik, blijven onveranderd)**: `voorwaarden[]`, `uitzonderingen[]`, `valkuilen[]`, `voorbeeld_inline`, `bouwstenen[]`, `stappen[]`, `voorwaarden_toepassing[]`.
+
+**V1.2 nieuwe velden** (4 stuks, named fields i.p.v. generic container):
+
+- **`oorzaken[]`** — items met aggregatie-synthese voor "N voornaamste oorzaken van X". Confidence `"inferred-from-aggregation"` voor synthese-claims; provenance lijst alle bron-chunks.
 - **`drempelwaarden[]`** — kritische numerieke grenzen (`naam`, `waarde`, `eenheid`, `gevolg`).
 - **`tijdlijn[]`** — wettelijke termijnen voor procedurele records (`stap`, `termijn`, `actor`, `actie`).
-- **`verborgen_vereiste[]`** — vereisten die uit praktijk/normen voortvloeien bovenop de letterlijke regel (`text`, `ratio`). Reële kennis, niet examen-info.
 - **`vergelijkingsparen[]`** — concepten die met andere verward worden (`vergelijking_met`, `verschil`, `trigger`).
+
+Het bestaande `valkuilen[]`-veld wordt in prompt v2 actiever gebruikt voor "verborgen vereisten" (vereisten die uit praktijk/normen voortvloeien bovenop de letterlijke regel) — geen apart veld nodig.
 
 Zie `prompts/concept-extractie-v2.md` voor exacte block-shapes en voorbeelden.
 
