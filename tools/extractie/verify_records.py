@@ -28,10 +28,10 @@ from pathlib import Path
 VERIFY_MODEL = "claude-sonnet-4-6"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-RECORDS_DIR = ROOT / "data" / "concept_records"
+RECORDS_DIR = ROOT / "data" / "concepten" / "records"
 GAPS_FILE = ROOT / "data" / "extractie" / "gaps.json"
-EXAMEN_VRAGEN_DIR = ROOT / "data" / "examen_vragen"
-ANCHORS_FILE = ROOT / "data" / "anchors.json"
+EXAMEN_VRAGEN_DIR = ROOT / "data" / "programma" / "examen_vragen"
+ANCHORS_FILE = ROOT / "data" / "programma" / "anchors.json"
 PROMPTS_DIR = ROOT / "prompts"
 VERIFY_PROMPT = PROMPTS_DIR / "concept-verify-v1.md"
 
@@ -268,14 +268,18 @@ def voeg_gaps_toe(nieuwe_gaps: list[dict], gaps_bestand: Path) -> int:
         except json.JSONDecodeError:
             bestaande = []
 
+    # Sleutel-set per record_id + aspect; skip gaps zonder record_id
+    # (bv. bron-gap entries die anchor_id i.p.v. record_id gebruiken)
     bestaande_sleutels = {
         (g["record_id"], g["aspect"])
         for g in bestaande
-        if g.get("status") == "open"
+        if g.get("status") == "open" and "record_id" in g
     }
 
     toegevoegd = 0
     for gap in nieuwe_gaps:
+        if "record_id" not in gap:
+            continue  # niet-record-gebonden gaps overslaan (bron-gap, etc.)
         sleutel = (gap["record_id"], gap["aspect"])
         if sleutel not in bestaande_sleutels:
             bestaande.append(gap)
