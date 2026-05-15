@@ -100,16 +100,27 @@ Provenance-veld: `tooling.model = "claude-opus-4-7"` op elk concept-record.
 
 1. Embed alle anchor verbose-teksten (+ synoniemen als concat) met bge-m3
 2. Voor elk anchor: cosine-similarity tegen alle in-scope chunks
-3. Per anchor: bundle = chunks waar `score >= max(floor, top1 - margin)`
+3. Per anchor: bundle = adaptive knee-detectie (zie strategie hieronder)
 4. Per chunk: log welke anchors hem als top-K matchen (cross-anchor info)
 
-**Drempelparameters** (defaults uit cross-PO experiment):
-- `floor = 0.55` (absolute minimum cosine, vermijdt totaal-ongerelateerd materiaal)
-- `margin = 0.15` (max afstand tot top-1 binnen anchor — adaptive bundling)
+**Bundling-strategie** (gewijzigd 2026-05-15 na empirische evaluatie op gold-set):
 
-Mediane top-1 score per anchor: 0.70 ± 0.01 over twee zeer verschillende PO's. Drempels generaliseren zonder herkalibratie.
+Twee strategieën beschikbaar via `--strategy`:
 
-**Output**: `data/extractie/<po>/matches/<po>-matches.json` (ephemeral, kan in gitignore — reproduceerbaar uit anchors + index).
+- **`margin`** (legacy): `score >= max(floor, top1 - margin)`. Vast verschil tot top-1, vast bottom-floor. Voordeel: simpel. Nadeel: bundles kunnen mega-groot worden voor anchors met flat distribution (max 1775 in onze corpus).
+
+- **`knee`** (default vanaf 2026-05-15): `score >= max(floor, top1 × proportional_drop)`, geclipped naar `[min_bundle, max_bundle]`. Voordeel: adaptive — anchors met scherpe top krijgen kleine bundles (≈top-50), anchors met flat distribution krijgen grote bundles maar gecapped. Defaults: `floor=0.40`, `proportional_drop=0.75`, `min_bundle=20`, `max_bundle=300`.
+
+**Empirische evaluatie** (`tools/extractie/match_experiment.py` op `tools/extractie/gold/matching-gold-set.json` — 12 manueel gecureerde anchor→bron-stem-paren):
+
+| Strategie | mean recall | median bundle | max bundle | uncovered |
+|---|---:|---:|---:|---:|
+| `margin-0.55-0.15` (oud) | 95.6% | 185 | 1775 | 1 |
+| `knee-0.40-0.75-min20-max300` | **97.2%** | **102** | **300** | **0** |
+
+Knee-strategie geeft betere recall **én** kleinere bundles **én** dekt alle anchors (0 uncovered). De ene resterende gold-miss (anchor 2.3.I "Elementen van boekhouding" mist WVV) is borderline — anchor handelt over boekhouding-voor-vennootschapsbelasting, WVV is vennootschapsrecht.
+
+**Output**: `data/extractie/matches/<run_id>.json` + `latest.json` symlink (gitignored, reproduceerbaar uit anchors + index).
 
 ### 5. Per-anchor concept-extractie — fase C
 

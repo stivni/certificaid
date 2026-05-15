@@ -1,0 +1,130 @@
+{
+  "doc": "Gold-set voor matching-experiment (ADR-008). Per anchor: bron-stems (zonder .md) die zeker in de bundle moeten zitten. Recall meten op bron-niveau (niet chunk-niveau), omdat chunk-ids afhangen van chunker-versie maar bron-stems stabieler zijn. Een chunk uit `bron-stem` matched de gold als minstens één chunk van die bron in de bundle staat.",
+  "version": 1,
+  "generated_at": "2026-05-15",
+  "evaluator": "human-curated + matching-analyse 2026-05-15",
+  "gold": [
+    {
+      "anchor_id": "1.1.II.A",
+      "anchor_tekst": "Oprichtingskosten - Aankoop en afschrijvingen",
+      "must_match": [
+        "KB-WVV-2019",
+        "CBN-2010-15-afschrijvingsmethoden",
+        "CBN-2011-24-herstructureringskosten-verwerking-in-de-jaarrekening",
+        "WIB92",
+        "MAR-ondernemingen"
+      ],
+      "rationale": "Boekhoudrechtelijke verwerking + WIB92 fiscale afschrijvingsregels"
+    },
+    {
+      "anchor_id": "1.1.II.B",
+      "anchor_tekst": "Immateriële en materiële vaste activa - Afschrijvingen, waardeverminderingen, herwaarderingen",
+      "must_match": [
+        "KB-WVV-2019",
+        "CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa",
+        "CBN-2010-15-afschrijvingsmethoden",
+        "CBN-2011-14-herwaarderingsmeerwaarden",
+        "MAR-ondernemingen"
+      ],
+      "rationale": "Centrale boekhoudregels voor activa"
+    },
+    {
+      "anchor_id": "1.4.I.C",
+      "anchor_tekst": "Begrippen, consolidatieverplichting (moedermaatschappij, consortium), vrijstellingen, weglatingen",
+      "must_match": [
+        "KB-WVV-2019",
+        "WVV",
+        "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0"
+      ],
+      "rationale": "BE consolidatieregels in WVV/KB-WVV + CBN-advies consortium"
+    },
+    {
+      "anchor_id": "1.4.I.E",
+      "anchor_tekst": "Vermogensmutatiemethode",
+      "must_match": [
+        "CBN-2022-11-vermogensmutatiemethode",
+        "KB-WVV-2019"
+      ],
+      "rationale": "Specifieke CBN-advies + KB-WVV-bepalingen"
+    },
+    {
+      "anchor_id": "1.4.II.A",
+      "anchor_tekst": "Wettelijk kader van consolidatie (IFRS10, IFRS3, IFRS11, IFRS12)",
+      "must_match": [
+        "EU-IFRS-verordening-1606-2002",
+        "Richtlijn-2013-34-EU",
+        "KB-WVV-2019"
+      ],
+      "rationale": "EU-rechtsgrond voor IFRS-toepassing in BE"
+    },
+    {
+      "anchor_id": "2.2.taak.1",
+      "anchor_tekst": "Begeleiding bij de oprichting van een onderneming",
+      "must_match": [
+        "WVV",
+        "KB-WVV-2019",
+        "WIB92",
+        "WBTW"
+      ],
+      "rationale": "Oprichtingsmaterie vennootschapsrecht + fiscaal"
+    },
+    {
+      "anchor_id": "2.3.I",
+      "anchor_tekst": "Elementen van boekhouding, boekhoudrecht en -wetgeving essentieel voor de toepassing van de vennootschapsbelasting",
+      "must_match": [
+        "WIB92",
+        "KB-WVV-2019",
+        "WVV"
+      ],
+      "rationale": "Vennootschapsbelasting + boekhoudrecht-link"
+    },
+    {
+      "anchor_id": "2.4.I",
+      "anchor_tekst": "Btw - Wetboek - KB - MB - Circulaires - gevorderd niveau + rechtspraak",
+      "must_match": [
+        "WBTW",
+        "WBTW-KB1-voldoening",
+        "WBTW-KB2-forfaitaire",
+        "BTW-richtlijn-2006-112"
+      ],
+      "rationale": "BTW-bronnen alle hiërarchie"
+    },
+    {
+      "anchor_id": "2.5.I",
+      "anchor_tekst": "Taxatieprocedure",
+      "must_match": [
+        "WIB92"
+      ],
+      "rationale": "Procedurebepalingen in WIB92 Titel VII"
+    },
+    {
+      "anchor_id": "2.6.I",
+      "anchor_tekst": "Registratierechten/registratiebelasting",
+      "must_match": [
+        "Registratierechten-federaal",
+        "VCF",
+        "Registratierechten-Brussel",
+        "Registratierechten-Waals"
+      ],
+      "rationale": "Vier regionale + federale registratie-bronnen"
+    },
+    {
+      "anchor_id": "2.8.I",
+      "anchor_tekst": "Algemene beginselen",
+      "must_match": [
+        "X-oeso-model-verdrag",
+        "Verdrag-WABB"
+      ],
+      "rationale": "Internationaal fiscaal — beginselen via OESO-model en WABB"
+    },
+    {
+      "anchor_id": "1.7.I.D",
+      "anchor_tekst": "Interne audit",
+      "must_match": [
+        "ITAA-norm-algemene-controlenorm",
+        "ITAA-norm-kmo-controlenorm"
+      ],
+      "rationale": "Audit-normen ITAA"
+    }
+  ]
+}

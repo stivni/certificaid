@@ -73,16 +73,60 @@ def load_chunks() -> tuple[list[str], np.ndarray, list[dict]]:
     return data["ids"], np.array(data["embeddings"], dtype=np.float32), data["metadatas"]
 
 
+def find_knee(scores_desc: np.ndarray, floor: float = 0.40,
+              min_bundle: int = 10, max_bundle: int = 200,
+              proportional_drop: float = 0.85) -> int:
+    """Adaptive knee-detectie op aflopende cosine-scores.
+
+    Strategie (proportionele drempel):
+      1. Hard floor: alle scores < `floor` vallen sowieso af.
+      2. Adaptive drempel = top1 × proportional_drop. Een chunk hoort bij
+         de bundle als score >= max(floor, top1*proportional_drop).
+      3. Safeguards: [min_bundle, max_bundle].
+
+    Achterliggende intuïtie: anchors met een scherpe top (hoge top1, snelle
+    drop) krijgen een KLEINE bundle (top 5-15) want de echt relevante chunks
+    zijn vlot zichtbaar. Anchors met een vlakke distributie (lage top1, weinig
+    drop) krijgen een GROTERE bundle want de signaal-noise-ratio is laag en
+    we hebben meer chunks nodig om de relevante content te dekken.
+
+    Retourneert: bundle-grootte (aantal chunks in bundle).
+    """
+    n = len(scores_desc)
+    if n == 0:
+        return 0
+    top1 = float(scores_desc[0])
+    threshold = max(floor, top1 * proportional_drop)
+    # Tel hoeveel chunks de drempel halen
+    bundle_size = int(np.sum(scores_desc >= threshold))
+    # Clip naar [min_bundle, max_bundle]
+    bundle_size = max(min(bundle_size, max_bundle), min(min_bundle, n))
+    return bundle_size
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--strategy", choices=["margin", "knee"], default="margin",
+                        help="bundling strategie. 'margin' (default): chunk in bundle "
+                             "als score >= max(threshold, top1 - margin). 'knee': "
+                             "adaptive knie-detectie op de score-curve, met floor + "
+                             "min/max-bundle als safeguards.")
     parser.add_argument("--threshold", type=float, default=0.55,
-                        help="absolute floor cosine-drempel (default 0.55)")
+                        help="absolute floor cosine-drempel (default 0.55 voor margin, "
+                             "0.40 voor knee)")
     parser.add_argument("--margin", type=float, default=0.15,
-                        help="adaptive bundle: chunk in bundle als score >= "
+                        help="margin-strategie: chunk in bundle als score >= "
                              "max(threshold, top1 - margin) (default 0.15)")
+    parser.add_argument("--knee-min-bundle", type=int, default=5,
+                        help="knee-strategie: minimum bundle-grootte (default 5)")
+    parser.add_argument("--knee-max-bundle", type=int, default=500,
+                        help="knee-strategie: maximum bundle-grootte (default 500)")
     parser.add_argument("--top-k-display", type=int, default=10,
                         help="hoeveel top-K te tonen per chunk (info, geen filter)")
     args = parser.parse_args()
+    # Knee-strategie heeft lagere default-floor
+    if args.strategy == "knee" and args.threshold == 0.55:
+        args.threshold = 0.40
 
     print("[anchors] laden...")
     anchors, anchor_vecs = load_anchors()
@@ -102,16 +146,30 @@ def main() -> None:
     sim = cosine_matrix(anchor_vecs, chunk_vecs)
     print(f"  matrix shape: {sim.shape}")
 
-    print(f"[bundle] thresholding (floor={args.threshold}, margin={args.margin})")
+    if args.strategy == "knee":
+        print(f"[bundle] knee-detectie (floor={args.threshold}, min={args.knee_min_bundle}, max={args.knee_max_bundle})")
+    else:
+        print(f"[bundle] margin-thresholding (floor={args.threshold}, margin={args.margin})")
     anchor_view = []
     for i, a in enumerate(tqdm(anchors, desc="    anchors")):
         scores = sim[i, :]
         # Sorteer chunks aflopend op score
         ranked_idx = np.argsort(-scores)
         top1_score = float(scores[ranked_idx[0]])
-        anchor_threshold = max(args.threshold, top1_score - args.margin)
 
-        bundle_idx = [int(j) for j in ranked_idx if scores[j] >= anchor_threshold]
+        if args.strategy == "knee":
+            scores_desc = scores[ranked_idx]
+            bundle_size = find_knee(
+                scores_desc,
+                floor=args.threshold,
+                min_bundle=args.knee_min_bundle,
+                max_bundle=args.knee_max_bundle,
+            )
+            bundle_idx = [int(j) for j in ranked_idx[:bundle_size]]
+            anchor_threshold = float(scores[bundle_idx[-1]]) if bundle_idx else args.threshold
+        else:
+            anchor_threshold = max(args.threshold, top1_score - args.margin)
+            bundle_idx = [int(j) for j in ranked_idx if scores[j] >= anchor_threshold]
         display_idx = ranked_idx[: args.top_k_display].tolist()
 
         anchor_view.append({
