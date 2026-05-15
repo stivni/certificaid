@@ -1,0 +1,297 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-16-toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E1/E2: RSU-tabellen (regels 110–247 methode A, 333–435 methode B) zijn niet als pipe-tabellen gerenderd maar als losse single-cell fragmenten (`| \n\n  | | \n|---|`). B5: methode-koppen op regels 86 en 101 zijn plain-text alinea's zonder heading-prefix. Overige inhoud en journaalpost-tabellen zijn correct.",
+    "concrete_problemen": [
+      {
+        "regel": 110,
+        "categorie": "E1",
+        "type": "other",
+        "voorbeeld": "| \n\n  | | \n|---|\n\nBeurskoers\n\n  | | \n|---|\n\nVerwachte beurskoers op 1 maart 20x6"
+      },
+      {
+        "regel": 333,
+        "categorie": "E1",
+        "type": "other",
+        "voorbeeld": "| \n\n  | | \n|---|\n\nBeurskoers\n\n  | | \n|---|\n\nVerwachte retentiegraad"
+      },
+      {
+        "regel": 86,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Erkenning van de kost op basis van de verwachte beurskoers of verwachte reële waarde op de datum van terbeschikkingstelling van de aandelen (methode A)"
+      },
+      {
+        "regel": 101,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Erkenning van de kost op basis van de effectieve beurskoers of reële waarde per balansdatum (methode B)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Journaalpost-tabellen (regels 256–323, 443–507) zijn correct als pipe-tabellen gerenderd",
+      "Voetnoten volledig en correct gekoppeld",
+      "Inhoud volledig: beide methoden A en B uitgewerkt met sluitende voorbeelden"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-17-schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E1/E2: samenvattende bijlagetabellen (regels 289–1099) zijn volledig gefragmenteerd als single-cell blokken — identieke extractor-bug als CBN-2018-16. B5: subsectielabels op regels 95 en 230 staan als plain-text zonder heading-prefix. B3: `## Onherroepelijk beloofd of gesteld` verschijnt midden in gefragmenteerde tabelinhoud op regels 298, 486, 669, 829, 987.",
+    "concrete_problemen": [
+      {
+        "regel": 291,
+        "categorie": "E1",
+        "type": "other",
+        "voorbeeld": "| \n\n**Soort zekerheid**\n\n  | | \n|---|\n\n## Onherroepelijk beloofd of gesteld"
+      },
+      {
+        "regel": 95,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "De zakelijke zekerheden bedoeld in KB W.Venn."
+      },
+      {
+        "regel": 230,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "De staat over de betrekkingen met verbonden, geassocieerde ondernemingen..."
+      },
+      {
+        "regel": 298,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "## Onherroepelijk beloofd of gesteld (midden in tabelinhoud)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inleidende tekst en artikelverwijzingen volledig en leesbaar",
+      "Frontmatter correct met uitgebreide thema's-lijst"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-22-groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E1/E2: alle voorbeeldtabellen (Voorbeeld 1–4, regels 104–625) zijn gefragmenteerd als single-cell blokken. B2: `## Geconsolideerd bedrag` (regel 277) en `## Geaggregeerde cijfers` (regels 381, 465) staan als ##-headings maar zijn logisch tabelrij-labels. B5: `### Vennootschap A: 205.000` e.d. op regels 186, 482, 564, 630 zijn rekenresultaten als pseudo-headings.",
+    "concrete_problemen": [
+      {
+        "regel": 104,
+        "categorie": "E1",
+        "type": "other",
+        "voorbeeld": "| \n\n  | | \n|---|\n\n**Rekening 70[^9]** \n\n  | | \n|---|\n\n**Rekening 74[^10]**"
+      },
+      {
+        "regel": 277,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Geconsolideerd bedrag[^19] (staat als ##-heading, is tabelrij-label)"
+      },
+      {
+        "regel": 186,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "### Vennootschap A: 205.000 (d.i. 200.000 + 5.000)[^12]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Verklarende tekst per voorbeeld volledig en correct",
+      "Voetnoten correct gekoppeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-24-duolegaat-vereniging-en-stichting.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: regel 60 bevat `vereniging of stichting` als losstaande plain-text regel — TOC-residu. D4: stelselmatig malformed italic voor `duolegaat`-varianten: zowel `*duolegaat *` (spatie vóór sluitende asterisk) als `Bij een* omgekeerd duolegaat*` (spatie na opening-asterisk) op minstens regels 64, 68, 73, 87, 114, 140. Journaalpost-tabellen correct.",
+    "concrete_problemen": [
+      {
+        "regel": 60,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "vereniging of stichting"
+      },
+      {
+        "regel": 73,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Bij een* omgekeerd duolegaat* wordt het begunstigde verre familielid"
+      },
+      {
+        "regel": 68,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Bij het *klassieke duolegaat *wordt de nalatenschap volledig toebedeeld"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Structuur volledig: kleine + grote/zeer grote VZW, duolegaat in geld + in natura",
+      "Journaalpost-tabellen correct als pipe-tabellen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2019-06-groepsbijdrage.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: regel 64 heeft `*groepsbijdrage*regeling` — ontbrekende spatie tussen italic-sluit en aangrenzend woord. B2: `## Bij de eindejaarsverrichtingen op 31/12/N` (regels 124, 140) en `## Bij het sluiten van de groepsbijdrage-overeenkomst` (regels 131, 144) staan op ##-niveau terwijl hun logische ouder-heading `### In hoofde van vennootschap B/A` op ###-niveau staat — omgekeerde hiërarchieverhouding.",
+    "concrete_problemen": [
+      {
+        "regel": 64,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "de *groepsbijdrage*regeling[^2] in de statutaire jaarrekening"
+      },
+      {
+        "regel": 124,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Bij de eindejaarsverrichtingen op 31/12/N (kind van ### In hoofde van vennootschap B)"
+      },
+      {
+        "regel": 131,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Bij het sluiten van de groepsbijdrage-overeenkomst (in boekjaar N+1)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: beschrijving regeling, boekhoudkundige verwerking betaler + ontvanger, voorbeelden",
+      "Journaalpost-tabellen correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2019-08-boekhoudkundige-verwerking-van-crowdfunding-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: `## In hoofde van de begunstigde (artiest)` op regel 409 staat op ##-niveau terwijl alle omliggende sub-items van Voorbeeld 2 plain-text zijn — inconsistente hiërarchie. E2: tabelcel op regel 500 is afgekapt: `Kredietinstellingen – Rekening-couran` (ontbrekende `t`). A5: H1-titel regel 61 mist spatie na em-dash: `2019/08 –Boekhoudkundige`.",
+    "concrete_problemen": [
+      {
+        "regel": 61,
+        "categorie": "A5",
+        "type": "other",
+        "voorbeeld": "# CBN-advies 2019/08 –Boekhoudkundige verwerking van crowdfunding"
+      },
+      {
+        "regel": 409,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## In hoofde van de begunstigde (artiest)"
+      },
+      {
+        "regel": 500,
+        "categorie": "E2",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "| | 5500 | Kredietinstellingen – Rekening-couran | 7.000 | |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: alle crowdfunding-types (donatie, lending, invoice trading, equity, participatory notes) aanwezig",
+      "Voetnoten volledig en correct",
+      "Journaalpost-tabellen grotendeels correct en compleet"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2019-13-pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E1/E2: drie grote eigen-vermogen-overzichtstabellen (regels 141–442, 459–792, 856–1055) zijn volledig gefragmenteerd als enkelvoudige single-cell blokken — tabelstructuur volledig verloren. Journaalpost-tabellen en tekst zijn correct.",
+    "concrete_problemen": [
+      {
+        "regel": 141,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"
+      },
+      {
+        "regel": 459,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"
+      },
+      {
+        "regel": 856,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Tekst volledig: juridisch kader art. 18 WIB 92 en vrijwillige toepassing volledig uitgewerkt",
+      "Journaalpost-tabellen correct als pipe-tabellen",
+      "Voetnoten volledig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-01-neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A7: regels 78–80 bevatten twee weesregels `van de jaarrekening` — fragmenten van de ondertitel losgeraakt bij extractie. D2: regels 102, 104, 108 bevatten italic plaatshouders voor figuren (`*Volledig, verkort en micromodel...samenstelling van het eigen vermogen*`) maar de eigenlijke schema's ontbreken — de kern van het advies (nieuwe jaarrekeningmodellen) is daardoor niet leesbaar.",
+    "concrete_problemen": [
+      {
+        "regel": 78,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "van de jaarrekening \n\n van de jaarrekening"
+      },
+      {
+        "regel": 102,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "*Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalvennootschappen[^15]*"
+      },
+      {
+        "regel": 108,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "*Volledig model van de jaarrekening: samenstelling van de rubriek Onbeschikbare reserves van kapitaalloze vennootschappen[^17]*"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Tekstuele inhoud volledig: inwerkingtreding WVV, overgangsregels, XBRL-procedure uitvoerig beschreven",
+      "Heading-structuur overzichtelijk"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-02-afronding-van-betalingen-in-euro-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: regel 111 bevat twee keer malformed italic `rekening 700* Verkopen en dienstprestaties*` (spatie ontbreekt na opening-asterisk). Patroon herhaalt zich twee keer op dezelfde regel. Rest van het document is inhoudelijk volledig en correct opgemaakt.",
+    "concrete_problemen": [
+      {
+        "regel": 111,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "geboekt op het debet van rekening 700* Verkopen en dienstprestaties*. Indien dit verschil echter positief is, wordt het verschil geboekt op het credit van rekening 700* Verkopen en dienstprestaties*."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Structuur volledig: historiek wetgeving, drie voorbeelden, twee methoden boekhoudkundige verwerking",
+      "Journaalpost-tabel correct",
+      "Heading-hiërarchie logisch en consistent"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-06-financieringskostensurplus-artikel-194sexies-en-artikel-1981-wib-92.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: systematische heading-hiërarchiesprongen doorheen het voorbeeldendeel — `## Bij de eindejaarsverrichtingen` (regels 170, 184, 201, 208, 217, 224, 238, 242) en `### In hoofde van vennootschap X/Y` (regels 182, 191, 197, 215, 236, 259, 270, 276, 294) staan op ##/###-niveau terwijl hun logische ouder-headings op #####-niveau staan. Dit is een structureel extractieprobleem waarbij sub-sectietitels als top-level headings zijn gerenderd.",
+    "concrete_problemen": [
+      {
+        "regel": 170,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Bij de eindejaarsverrichtingen op 31/12/N en het sluiten van de interestaftrekovereenkomst"
+      },
+      {
+        "regel": 182,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "### In hoofde van vennootschap Y (ontvanger van de vergoeding)"
+      },
+      {
+        "regel": 201,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Bij de eindejaarsverrichtingen op 31/12/N"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: ATAD-context, overdracht financieringskostensurplus, interestaftrekovereenkomst met en zonder vergoeding",
+      "Journaalpost-tabellen correct en compleet",
+      "Voetnoten volledig"
+    ]
+  }
+]

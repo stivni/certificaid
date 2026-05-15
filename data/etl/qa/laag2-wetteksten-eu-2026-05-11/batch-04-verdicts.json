@@ -1,0 +1,184 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB59-handelsgeschenken.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: de heading-hiërarchie springt van `####` (Art. 1 op regel 60) onmiddellijk naar `##` (HOOFDSTUK 2 op regel 62) en daarna `###` (Afdeling 1 op regel 64), wat een omgekeerde en inconsistente niveau-volgorde geeft. Bovendien verschijnt `#### Art. 1` tweemaal (regels 60 en 76): eenmaal vóór HOOFDSTUK 2 en de inhoudsopgave-blokken, en dan opnieuw na HOOFDSTUK 1 — typisch TOC-dubbeling (A3). B4: de regels 53–58 bevatten 'Titel', de lange titelregel en 'Bron : FINANCIEN' als plain-text structuurlabels zonder heading-prefix.",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Titel\n\n18 MEI 2020. - Koninklijk besluit nr. 59..."
+      },
+      {
+        "regel": 58,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Bron : FINANCIEN"
+      },
+      {
+        "regel": 60,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "#### Art. 1  (verschijnt tweemaal: r.60 en r.76)"
+      },
+      {
+        "regel": 60,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### Art. 1 → ## HOOFDSTUK 2 → ### Afdeling 1 (omgekeerde hiërarchie)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Artikeltekst volledig en inhoudelijk compleet (Art. 1 t/m Art. 17)",
+      "Wijzigingsmarkeringen [1 ...]1 consistent aanwezig en gesloten",
+      "Afdelingen en hoofdstukken zijn als ## en ### headings opgemaakt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB-dagboek-ontvangsten-2023.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A8/C8: regel 69 bevat een massieve kolom-bleed waarbij de NL- en FR-kolommen van de bijlage-tabel door de extractor op één enkele regel zijn samengevloeid met grote witruimtes als pseudo-uitlijning (C3/A8). D2: het bestand begint op regel 60 mid-zin ('derde lid, van het koninklijk besluit nr. 1...') — de artikelen 1 t/m 6 ontbreken volledig. B4: 'Titel' en 'Bron : FINANCIEN' staan als plain-text op regels 54 en 58.",
+    "concrete_problemen": [
+      {
+        "regel": 60,
+        "categorie": "D2",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "derde lid, van het koninklijk besluit nr. 1 van 29 december 1992..."
+      },
+      {
+        "regel": 69,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "- les huit derniers caractères de la                           - de acht laatste karakters van de signature digitale..."
+      },
+      {
+        "regel": 54,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Titel"
+      },
+      {
+        "regel": 58,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Bron : FINANCIEN"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Beschikbare artikelen (Art. 7-9) zijn inhoudelijk correct en als ## headings opgemaakt",
+      "Geen OCR-fouten zichtbaar in de aanwezige tekst"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WDRT.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: het bestand opent direct met `##### Art. 212` (regel 57) vóór elk `##`/`###`/`####` hoofdstuk-niveau — de eerste echte structuurheading `## Boek I` verschijnt pas op regel 59, waarna `##### Art. 1` volgt zonder tussenniveaus. Dit geeft een heading-sprong `#####` → `##` → `#####`. A6/A7: meerdere regels bevatten artikeltekst en wijzigingsmarkeringen samengeperst op één lange regel met inline regelafbrekingen i.p.v. alinea-indeling (zie bv. regel 67). D3: voetnoten als `(1)<KB...>` zijn inline in de body geplaatst direct na de artikeltekst zonder markdown-voetnoot-syntax.",
+    "concrete_problemen": [
+      {
+        "regel": 57,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "##### Art. 212 — verschijnt vóór ## Boek I (omgekeerde hiërarchie)"
+      },
+      {
+        "regel": 67,
+        "categorie": "A6",
+        "type": "scrambled-words",
+        "voorbeeld": "[ 2 ...] 2 .  [ 1 De belastingschuldige is:  1° de notaris..."
+      },
+      {
+        "regel": 69,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "----------  ( 1 )<W 2022-05-18/04, art. 2, 052; Inwerkingtreding : 01-07-2022>"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Boek-structuur (Boek I, Boek II) als ## headings aanwezig",
+      "Titels en hoofdstukken consequent als ###/#### headings",
+      "Inhoud tot Art. 201/28 controleerbaar aanwezig; geen zichtbare missing-section"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WER-Boek-VIII-normalisatie.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A8: het bestand bevat systematische kolom-bleed van de NL+FR tweetalige bron: vanaf regel 60 wisselen NL- en FR-artikelversies elkaar af als aparte ##### headings met identieke nummers ('Art. 2' tweemaal, 'Art. 1' tweemaal, enz.), wat een column-extraction-fout is. B1: veel headings bevatten enkel een artikelnummer gevolgd door een FR-zin als heading-tekst (bv. `##### Art. 2. Le ministre qui a l'Emploi dans ses attributions est chargé de`). B3: identieke heading `#### CHAPITRE I er` en `### HOOFDSTUK I` voor dezelfde sectie, plus dubbele `Art. 2`-headings. Layer1 meldde max_section_size warn (351006 chars) wat bevestigt dat de structuur niet chunker-vriendelijk is.",
+    "concrete_problemen": [
+      {
+        "regel": 60,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "##### Art. 2. Le ministre... / ##### Art. 2. De minister... (NL+FR door elkaar)"
+      },
+      {
+        "regel": 107,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "#### CHAPITRE I er . en ### HOOFDSTUK I. voor dezelfde sectie"
+      },
+      {
+        "regel": 113,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "##### Art. 1. Deze   collectieve   arbeidsovereenkomst   is   van   toepassing"
+      },
+      {
+        "regel": 113,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "op de werkgevers   en   werklieden   van   de   ondernemingen (extra spaties als uitlijning)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud van de CAO-teksten zelf is leesbaar aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WER.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B1/B5: de WER gebruikt een meervoudig-artikelen-per-heading constructie (bv. `###### Art. XV.125/6, XV.125/7` op regel 84 en `###### Art. XV.126, XV.126/1, XV.126/2` op regel 88) waarbij de artikelinhoud ontbreekt — enkel de heading staat er, geen tekst. B4: structuurlabels `HOOFDSTUK 3` en `Afdeling`-lijnen staan als `####`/`#####` headings maar bevatten enkel nummering zonder tekst direct erna. Layer1 meldde max_section_size warn. De WER is extreem groot (3.4MB, 3316 headings) en de bestandsgrootte overschrijdt 256KB waardoor volledige review niet mogelijk was; de gesampelde secties tonen consistent de lege-heading problematiek.",
+    "concrete_problemen": [
+      {
+        "regel": 84,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "###### Art. XV.125/6, XV.125/7 (lege heading, geen artikeltekst)"
+      },
+      {
+        "regel": 88,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "###### Art. XV.126, XV.126/1, XV.126/2 (lege heading)"
+      },
+      {
+        "regel": 90,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "#### HOOFDSTUK 3. - [ 1 Bijkomende straffen [...]] 1 (heading zonder inhoud)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie volgt consequent het Boek/Hoofdstuk/Afdeling/Art. patroon",
+      "Aanwezige artikeltekst (bv. Art. XV.125/4/1/1) is correct opgemaakt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WVV.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D2: het bestand bevat slechts 1 artikel (Art. 18:8, 58 regels totaal) terwijl layer1.heading_count 1866 aangeeft voor de verwachte volledige WVV. De volledige wet ontbreekt — vrijwel alle artikelen zijn niet geëxtraheerd. De ene aanwezige artikeltekst is correct opgemaakt, maar het bestand is inhoudelijk onbruikbaar voor RAG.",
+    "concrete_problemen": [
+      {
+        "regel": 54,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "Bestand eindigt na Art. 18:8; layer1.heading_count=1866 maar slechts 1 artikel aanwezig."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Aanwezige artikel-tekst correct als ## heading opgemaakt",
+      "Frontmatter klopt met inhoud",
+      "Geen OCR-fouten of encoding-artefacten"
+    ]
+  }
+]

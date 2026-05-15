@@ -1,0 +1,6 @@
+resources/bronnen/wetteksten/WBTW-KB41-proportionele-geldboeten.md
+resources/bronnen/wetteksten/WBTW-KB44-geldboeten.md
+resources/bronnen/wetteksten/WBTW-KB45-vrijstelling-diplomaten.md
+resources/bronnen/wetteksten/WBTW-KB46-intracommunautaire-aangifte.md
+resources/bronnen/wetteksten/WBTW-KB47-controle-vervoermiddelen-1996.md
+resources/bronnen/wetteksten/WBTW-KB48-levering-vervoermiddelen.md

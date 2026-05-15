@@ -1,0 +1,22 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "promote_roman_rubrieken heeft de hoofdoorzaak van het max_section_size-probleem opgelost: 47 van de 49 Roman-cijfer rubrieken (I.–XL.) in Tabel A (GOEDEREN regels 168–402, DIENSTEN regels 452–704), Tabel B (regels 718–775) en Tabel C (regel 852) staan nu correct als ### sub-headings. De gigantische GOEDEREN- en DIENSTEN-chunks zijn opgesplitst in semantisch coherente per-rubriek-eenheden, exact wat RAG-retrieval nodig heeft voor vragen over bv. rubriek XIX (kranten/boeken), XXXI (werk in onroerende staat) of XXXVII (afbraak en heropbouw). Tabel A (regel 163) is nu ook als ## heading gepromoteerd, consistent met Tabel B (714) en Tabel C (846). 'AFDELING I — Automobielen voor personenvervoer voor invaliden' (regel 363) is gepromoteerd parallel aan Afdeling II (regel 396) — afdeling-inconsistentie binnen rubriek XXII is opgelost. Twee rubrieken zijn niet gepromoteerd: XXII (regel 359) en XXIIIbis (regel 420) staan nog als plain text. Dat is logisch verklaarbaar: XXII bevat sub-Afdelingen (AFDELING I/II) die als ## staan, dus de parent als ### plaatsen zou een inversie geven; voor XXIIIbis ligt het pattern-mismatch waarschijnlijk aan de 'bis'-suffix. Beide blijven echter visueel/lexicaal vindbaar (de rubrieknaam staat letterlijk in de tekst) en de bijbehorende ## Afdelings-headings garanderen alsnog chunk-grenzen rond XXII. Resterende issues (TOC-dotted-leaders op 157–161, recap-blok 889–938, spurious linebreaks '6°,\\n van tabel A' op 92–93, 99–100, 133–134, 384–385) zijn source-typo's uit de Fisconet-compilatie en hebben geen impact meer op chunk-grootte nu de rubrieken gescheiden zijn. Per QA-policy: source-typo's → trusted met (source) markering; cosmetische restjes binnen sub-headings → trusted.",
+    "concrete_problemen": [
+      "(source) XXII. Automobielen voor personenvervoer voor invaliden (regel 359) en XXIIIbis. Leveringen door instellingen met sociaal oogmerk (regel 420) staan nog als plain text i.p.v. ###; voor XXII verklaarbaar door aanwezigheid van sub-Afdelingen (AFDELING I/II als ##), voor XXIIIbis waarschijnlijk regex-mismatch op 'bis'-suffix — geen impact op chunk-grootte want naburige headings geven chunk-grenzen",
+      "(source) TOC-residu met dotted leaders op regels 157–161 ('Goederen aan 6 pct. .......... II/1') — ongewijzigd, lage RAG-impact",
+      "(source) Recap-blok regels 889–938 ('Overzicht van de nog geldende verlaagde tarieven (officieuze toevoeging)') dupliceert rubriek-namen zonder context — staat aan einde dus geïsoleerd in eigen chunk",
+      "(source) Spurious linebreaks midden in opsommingen: '3° tot\\n6°, van tabel A' op regels 92–93, 99–100, 133–134, 384–385, 628, 768 — Fisconet-pdftotext-residu, lexicaal blijft '3° tot 6°' vindbaar"
+    ],
+    "concrete_sterke_punten": [
+      "47/49 Roman-cijfer rubrieken correct gepromoteerd naar ### sub-headings in Tabel A (I.–XXI., XXIII., XXIIIbis-context, XXIV.–XL.), Tabel B (I.–XI.) en Tabel C (I.) — hoofddoel van promote_roman_rubrieken behaald",
+      "## Tabel A (regel 163) nu ook gepromoteerd — interne consistentie met ## Tabel B (714) en ## Tabel C (846) hersteld",
+      "## AFDELING I — Automobielen voor personenvervoer voor invaliden (regel 363) gepromoteerd, parallel aan reeds bestaande ## Afdeling II - Onderdelen... (regel 396) — afdeling-inconsistentie binnen rubriek XXII opgelost",
+      "## Bijlage (154), ## GOEDEREN (166), ## DIENSTEN (450), ## Tijdelijke bepalingen (67) consistent als ## headings",
+      "Artikel-niveau (### Art. 1 t/m ### Art. 3, ### Art. 1bis t/m ### Art. 1sexies) consistent als ### headings",
+      "GOEDEREN- en DIENSTEN-chunks die voorheen >50k chars waren, zijn nu opgesplitst in 40+ semantisch coherente per-rubriek-chunks — directe winst voor RAG-retrieval op specifieke tariefrubrieken",
+      "Frontmatter compleet met provenance.inputs (sha256 + version) en accurate trust.layer2-historiek"
+    ]
+  }
+]

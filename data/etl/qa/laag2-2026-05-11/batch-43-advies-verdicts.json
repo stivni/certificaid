@@ -1,0 +1,228 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-16-onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: een volledige TOC (regels 47-68) staat in de body na de H1-titel, inclusief een aaneengesloten artefactregel op regel 68 met `------ Inventaris------ Waarderingsregels----` — duidelijk TOC-residu verdubbeld door extractie. Regel 45 herhaalt de subtitel 'vermeldingen in de jaarrekening' als losse plain-text regel na de H1. Inhoud en heading-structuur zijn verder intact.",
+    "concrete_problemen": [
+      {
+        "regel": 45,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "vermeldingen in de jaarrekening"
+      },
+      {
+        "regel": 47,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Inleiding \\n2. Onbeperkte aansprakelijkheid: overzicht \\n3. Neerleggingsplicht..."
+      },
+      {
+        "regel": 68,
+        "categorie": "A3",
+        "type": "dotted-leader",
+        "voorbeeld": "------ Inventaris------ Waarderingsregels---- Buitenlandse ondernemingen---- Voorbeeld"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (##, ###, ####) correct en volledig aanwezig voor alle secties",
+      "Voetnoten volledig gedefinieerd ([^1] t/m [^22]) en in body correct gerefereerd",
+      "Inhoud volledig: inleiding, overzicht aansprakelijkheid, neerleggingsplicht, te verstrekken gegevens en voorbeeld allemaal aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-17-reverse-factoring.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: twee gevallen van malformed italic met spatie voor sluitende asterisk op regel 57 (`factoringovereenkomsten[^2] *`) en regel 65 (`*Financiële schulden – Overige leningen moet worden gereclasseerd.*` sluit italic te laat, omvat ook prose-tekst). Klein advies (heading_count 2), maar de italic-fouten zijn zichtbare ETL-artefacten.",
+    "concrete_problemen": [
+      {
+        "regel": 57,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "factoringovereenkomsten[^2] * behandelt de relatie"
+      },
+      {
+        "regel": 65,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Financiële schulden – Overige leningen moet worden gereclasseerd.*"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Advies is kort en inhoudelijk volledig — inleiding + verwerking aanwezig",
+      "Voetnoten correct gedefinieerd en gerefereerd",
+      "Geen TOC-residu, geen pagina-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-01-aftrek-voor-innovatie-inkomsten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: recurrent patroon van malformed italic met spatie voor sluitende asterisk op minstens drie plaatsen: regel 67 (`*aftrek voor innovatie-inkomsten[^2] *`), regel 70 (`*gecorrigeerde netto-inkomsten[^4] *`) en regel 101 (`*De boekhoudkundige verwerking van immateriële vaste activa *`). Het patroon is structureel en dus ETL-gerelateerd.",
+    "concrete_problemen": [
+      {
+        "regel": 67,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "de *aftrek voor innovatie-inkomsten[^2] * in de vennootschapsbelasting"
+      },
+      {
+        "regel": 70,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "85 procent van de *gecorrigeerde netto-inkomsten[^4] *uit bepaalde"
+      },
+      {
+        "regel": 101,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*De boekhoudkundige verwerking van immateriële vaste activa *en het"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (##, ###, ####) volledig en correct voor alle subsecties",
+      "Voetnoten [^1] t/m [^34] volledig gedefinieerd",
+      "Inhoud compleet: inleiding, overzicht aftrek, boekhoudkundige verwerking en documentatieverplichting"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-02-belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Drie problemen: (1) D4: malformed italic op regel 49 (`*Kosten van onderzoek en ontwikkeling:* *wijzigingen...`) met dubbele asterisk-grens na de dubbele punt; (2) A6: regels 130-131 bevatten een regelbreuk midden in een tabelcel (`Regularisering van\n\t\t\t\tbelastingen...`) wat een extractie-artefact is; (3) twee zwevende voetnoot-referenties op regels 83 en 125 (` [^8]` en ` [^11]`) als losse regels zonder omringende tabelinhoud — vermoedelijk stonden hier oorspronkelijk tabelkopnoten die zijn weggevallen.",
+    "concrete_problemen": [
+      {
+        "regel": 49,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit"
+      },
+      {
+        "regel": 83,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": " [^8]"
+      },
+      {
+        "regel": 125,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": " [^11]"
+      },
+      {
+        "regel": 130,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "| aan | 67/77 | Belastingen op het resultaat/Regularisering van\\n\\t\\t\\t\\tbelastingen..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Tabellen in pipe-markdown-syntax aanwezig en grotendeels correct",
+      "Heading-structuur (##, ###) klopt",
+      "Voetnoten volledig gedefinieerd ([^1] t/m [^14])"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-03-zetelverplaatsing-naar-belgie-inbound-verschil-in-waarderingsregels-ten-opzichte-van-het.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen zichtbare ETL-artefacten. Heading-hiërarchie correct (##, ###), voetnoten [^1] t/m [^24] volledig gedefinieerd en gerefereerd, inhoud compleet (inleiding, juridische continuïteit, boekhoudkundige continuïteit, uitzondering, voorbeeld). Geen TOC-residu, geen malformed italic, geen gebroken zinnen.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie volledig correct over drie niveaus",
+      "Voetnoten uitgebreid en correct — inclusief complexe juridische bronvermeldingen",
+      "Inhoud compleet inclusief het uitgewerkte voorbeeld van fair-value-deelneming",
+      "Geen enkele zichtbare PDF-extractie-artefact"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-04-de-boekhoudkundige-verwerking-van-derdenrekeningen-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6: regel 72-74 bevat een gebroken zin midden in een alinea — 'is een rekening waarbij bij de  \\n\\ntenaamstelling' met twee spaties aan het einde van regel 72 en een blanco regel voor de volgende zin begint, wat een spurious line-break is binnen één logische zin. Verder is de inhoud volledig en de structuur correct.",
+    "concrete_problemen": [
+      {
+        "regel": 72,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "is een rekening waarbij bij de  \\n\\ntenaamstelling wordt aangegeven"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (##, ###) correct en volledig",
+      "Voetnoten [^1] t/m [^32] volledig gedefinieerd en gerefereerd",
+      "Inhoud compleet: analyse verplichtingen, boekhoudrechtelijke analyse, beide toepasselijke schema's"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-05-rekening-130-wettelijke-reserve.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen ETL-artefacten gevonden. Heading-structuur correct (##, ###), tabellen in pipe-syntax correct opgemaakt, voetnoten [^1] t/m [^12] volledig gedefinieerd. Inhoud compleet: vorming reservefonds, incorporatie, afname en andere verminderingen.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Tabellen volledig correct in pipe-markdown-syntax",
+      "Heading-hiërarchie klopt over twee niveaus",
+      "Compact en volledig advies zonder enige extractie-sporen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-07-vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3/G2: de voorbeeld-blokken op regels 59-65 worden omsloten door losse pipe-tekens (`|  ` op regel 59 en `  |` op regels 65) die een mislukte callout- of tabel-rendering zijn — een mens schrijft dit nooit zo. Hetzelfde patroon op regels 59 en 65: `|  ` als openings- en sluitingsmarkering van een 'box' die de extractor niet correct kon renderen.",
+    "concrete_problemen": [
+      {
+        "regel": 59,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "|  \\n\\n*Voorbeeld*\\n\\nWanneer alle aandelen van de vennootschap..."
+      },
+      {
+        "regel": 65,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "  | "
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (##) correct en volledig",
+      "Voetnoten [^1] t/m [^10] volledig gedefinieerd",
+      "Inhoud compleet: vennootschapsrechtelijke bepalingen, vermeldingen in jaarrekening, neer te leggen stuk"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-08-gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Zelfde patroon als 2018/07: de twee voorbeeld-blokken op regels 96-103 en 160-170 worden omsloten door losse pipe-tekens (`|  ` en `  |`) als mislukte callout-rendering (B3/artefact). Bovendien staan de genummerde voorbeelden 1-8 (regels 96-138) als gebroken paragrafen met lege regels en inspring (A6/A10) — een mens zou deze als gewone genummerde lijst schrijven.",
+    "concrete_problemen": [
+      {
+        "regel": 96,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "1.  \\n\\nHet bepalen, ten gevolge van een gebeurtenis..."
+      },
+      {
+        "regel": 160,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "|  \\n\\n*Voorbeeld*\\n\\nEen vennootschap voert haar boekhouding..."
+      },
+      {
+        "regel": 170,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "  | "
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-structuur (##) volledig aanwezig voor de drie hoofdcategorieën",
+      "Voetnoten [^1] t/m [^27] volledig gedefinieerd",
+      "Inhoud inhoudelijk compleet inclusief alle 8 voorbeelden van aanpassingsplichtige gebeurtenissen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-09-tax-shelter-voor-podiumkunsten.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen ETL-artefacten gevonden. Kort advies (3 headings, heading_count klopt) met correcte structuur, complete voetnoten [^1] t/m [^8], en inhoud volledig (inleiding + verwerking investeerder + verwerking producent). Geen malformed italic, geen TOC-residu, geen gebroken zinnen.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Compact advies volledig en correct gerenderd",
+      "Voetnoten correct gerefereerd en gedefinieerd",
+      "Geen zichtbare PDF-extractie-artefacten"
+    ]
+  }
+]

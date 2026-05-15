@@ -1,0 +1,288 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0132-01-lifo-methode.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Korte maar volledige proza-tekst (6967 chars, één sectie). Geen headings nodig voor dit formaat — het advies is één aaneengesloten redenering. Geen A- of B-categorie-artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud sluit logisch af met de conclusie over artikel 43 KB W.Venn.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Vloeiende proza zonder zichtbare PDF-extractie-artefacten",
+      "Inhoud volledig: vraagstelling, analyse Lifo-varianten, conclusie CBN en herinnering artikel 43 derde lid",
+      "Correcte Belgische wetgevingsstijl (KB-verwijzingen, artikelnummers)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0132-04-termijnovereenkomsten-op-handelsgoederen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: heading-hiërarchie inconsistent — document opent met ### Beginselen (H3) zonder voorafgaand H2, en ## Voorbeelden (H2) bevat direct #### Specifieke dekkingsverrichtingen (H4) zonder H3 ertussen. A4 op L162: U+00AC (¬) als koppelteken in 'in-resultaat¬neming'. A6: meerdere hyphen-spatie word-splits ('in-resultaat- neming' op L97 en L109, 'prijs- risico' op L113, 'niet- samenvallen' op L172, 'niet- gerealiseerde' op L125).",
+    "concrete_problemen": [
+      {
+        "regel": 68,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "### Beginselen (H3 direct na H1, geen H2 ertussen)"
+      },
+      {
+        "regel": 115,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Voorbeelden → #### Specifieke dekkingsverrichtingen (H2→H4, geen H3)"
+      },
+      {
+        "regel": 97,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "...niet voor in-resultaat- neming vatbaar is."
+      },
+      {
+        "regel": 113,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "...het hieraan verbonden prijs- risico gedekt..."
+      },
+      {
+        "regel": 125,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "...zowel een niet-gerealiseerd verlies... als een niet- gerealiseerde winst..."
+      },
+      {
+        "regel": 162,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "in-resultaat¬neming (U+00AC als koppelteken)"
+      },
+      {
+        "regel": 172,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "...wegens het niet- samenvallen van de vervaldagen (mismatching)."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: beginselen, niet-gedekte verrichtingen (aankoop + verkoop), gedekte verrichtingen, voorbeelden",
+      "Genummerde lijsten consistent (1., 2., 3. patronen)",
+      "Geen form-feeds, geen OCR-fouten in tekst"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0132-05-rechten-tot-vertoning-van-films.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6 op L75: voetnootmarker [^1] breekt de zin midden in ('...te worden gebruikt[^1] en derhalve niet...') — de footnote-anker in de body is niet problematisch op zichzelf maar gecombineerd met een leading-space line-break is het een scraper-artefact. D4 op L89: 'onder* Diensten en diverse goederen*' — de openende asterisk staat zonder spatie na 'onder', wat de italic-span slecht formatteert. Voetnoten [^1] en [^2] zijn wel aanwezig onderaan (L91-93), dus D3 is niet van toepassing.",
+    "concrete_problemen": [
+      {
+        "regel": 75,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "...te worden gebruikt[^1]\n en derhalve niet als een vast actief..."
+      },
+      {
+        "regel": 83,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "...de daaruit voortvloeiende opbrengsten[^2]\n ten gunste van een volgend boekjaar..."
+      },
+      {
+        "regel": 89,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "...wanneer de uitzendrechten onder* Diensten en diverse goederen* werden geboekt."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Korte advies inhoudelijk volledig: twee hypothesen correct uitgewerkt",
+      "Voetnoten [^1] en [^2] aanwezig en correct gedefinieerd onderaan",
+      "Geen OCR-fouten, geen form-feeds, geen heading-problemen (flat structure correct voor dit korte advies)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0132-06-vooruitbetalingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: boekingstabellen zijn structureel inconsistent opgebouwd. In het ene patroon staat 'aan' als aparte cel in kolom 1 ('| aan | 440 Leveranciers |'), in het andere patroon staat 'aan' samengevoegd met de rekeningnaam in kolom 2 ('| | aan 55 Kredietinstellingen |' en '| | aan 440 Leveranciers |'). Dit wisselt door het gehele bestand (L75, L82, L90, L100, L108-110). Debet/Credit-kolommen zijn structureel leeg, maar dat is acceptabel voor een illustratief advies zonder bedragen.",
+    "concrete_problemen": [
+      {
+        "regel": 75,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| aan | 440 Leveranciers | | | | — 'aan' in cel 1"
+      },
+      {
+        "regel": 82,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | aan 55 Kredietinstellingen | | | | — 'aan' samengevoegd in cel 2"
+      },
+      {
+        "regel": 108,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | aan 440 Leveranciers | | | | — inconsistent patroon (cel 2)"
+      },
+      {
+        "regel": 110,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | aan 36 Vooruitbetalingen op voorraadinkopen | | | | — inconsistent patroon"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: onderscheid gedane/ontvangen vooruitbetalingen, gefactureerd vs. vóór facturatie correct uitgewerkt",
+      "Geen OCR-fouten, geen form-feeds, geen A-categorie artefacten in proza",
+      "Rekeningnummers correct (36, 60, 411, 440, 55)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0133-03-schulden-voortvloeiend-uit-de-bestemming-van-het-resultaat.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Drie ETL-artefacten: (1) D4 op L75: '*Belastingen *' heeft een spatie vóór de sluitende asterisk (trailing space in italic span). (2) A6 op L75: 'bruto- bedrag' is een hyphen-spatie word-split. (3) A4 op L89: U+00AC (¬) als koppelteken in 'bruto¬schulden' — PDF-extractie-artefact. Alle drie zijn ETL-fixeerbaar.",
+    "concrete_problemen": [
+      {
+        "regel": 75,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rubriek IX, E, 1 *Belastingen *en in het algemeen rekeningenstelsel"
+      },
+      {
+        "regel": 75,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "...of het bruto- bedrag moet worden vermeld..."
+      },
+      {
+        "regel": 89,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "De boeking van de bruto¬schulden die voortvloeien... (U+00AC)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: vraag bruto vs. netto, vier argumenten voor bruto-boeking correct uitgewerkt",
+      "Gerelateerde adviezen correct vermeld in frontmatter",
+      "Geen form-feeds, geen OCR-fouten in kern van de tekst"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0134-02-belastingvrije-provisie-voor-sociaal-passief.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "G2-variant: HTML-entiteit '&#039;' in frontmatter themas-veld op L55 ('voorzieningen voor risico&#039;s en kosten') — scraper heeft de HTML-entiteit niet gedecodeerd naar het correcte apostrof-teken. Body is schoon: correct apostrof-gebruik in 'voorzieningen voor risico's en lasten'. Eén artefact, maar in de machine-leesbare metadata en dus ETL-fixeerbaar.",
+    "concrete_problemen": [
+      {
+        "regel": 55,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "  - voorzieningen voor risico&#039;s en kosten (HTML-entiteit in frontmatter)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body inhoudelijk volledig en correct: twee scenario's (geen ontslag voorzien vs. ontslag waarschijnlijk) helder uitgewerkt",
+      "Voetnoten [^1] en [^2] aanwezig en correct gedefinieerd",
+      "Geen structuurproblemen, geen word-splits, geen OCR-fouten in body"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0137-01-klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Korte proza-tekst (2109 chars, vier paragrafen, heading_count 0). Geen headings nodig voor dit korte advies. Geen artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud volledig: vraagstelling, verwijzing artikel 450 Faillissementswet, CBN-conclusie over klassering en aanvullende opmerking over toelichting.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Vlekkeloze proza zonder zichtbare extractie-artefacten",
+      "Inhoud compleet: opeisbaarheid door faillissement → klassering op ten hoogste één jaar correct uitgelegd",
+      "Correcte wetsverwijzingen (artikel 450 Faillissementswet)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Meerdere ernstige problemen: (1) D2 op L86-95: headings '### Renteloze vordering, éénmalig terugbetaalbaar na n jaar' en gerelateerde sub-headings hebben geen body met formules — PDF-afbeeldingen niet geëxtraheerd, kritische wiskundige content ontbreekt. (2) E2 op L128-139: boekingstabellen hebben lege Debet/Credit-cellen — bedragen ontbreken. (3) A6 op L114-116: spurious paragraph-break midden in een zin ('als\n\nzodanig geboekt'). (4) D2/B2 op L161-177: voorbeeld-sectie heeft losstaande berekeningen zonder bijbehorende tabellen; heading-hiërarchie #### → ### is ook een sprong.",
+    "concrete_problemen": [
+      {
+        "regel": 86,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "### Renteloze vordering, éénmalig terugbetaalbaar na n jaar — geen formule in body"
+      },
+      {
+        "regel": 91,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "### Vordering terugbetaalbaar via vaste annuïteiten — geen formule in body"
+      },
+      {
+        "regel": 114,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "...en als\n\nzodanig geboekt. (spurious paragraph-break mid-zin)"
+      },
+      {
+        "regel": 128,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | 493 | Over te dragen opbrengsten | | | — lege Debet/Credit-cellen"
+      },
+      {
+        "regel": 161,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "#### Vaststelling van de actuele waarde... — bijbehorende tabel ontbreekt"
+      },
+      {
+        "regel": 163,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### Vaststelling... → ### Actuele waarde... (H4→H3 hierarchie-sprong)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Prose-secties (Berekening van het disconto, Boekhoudkundige verwerking, De actualisatievoet) inhoudelijk leesbaar",
+      "Voetnoot [^1] aanwezig en correct gedefinieerd",
+      "Geen OCR-fouten in tekstgedeelten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0137-06-overdracht-van-schuldvordering-nominale-waarde-waardevermindering.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Twee problemen: (1) D4/andere op L98: heading '### Op de vervandag' bevat typefout 'vervandag' i.p.v. 'vervaldag' — consistent met OCR- of scraper-artefact. (2) E2 op L107: tabelcel bevat '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |' — het cijfer '1' (voetnootlabel) is in de cel gelekt en de koppelteken voor 'terugneming' mist een spatie.",
+    "concrete_problemen": [
+      {
+        "regel": 98,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "### Op de vervandag (typefout: 'vervandag' i.p.v. 'vervaldag')"
+      },
+      {
+        "regel": 107,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| 6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: drie boekingsfasen (aankoop vordering, verbetering solvabiliteit, vervaldag) correct uitgewerkt",
+      "Eerste twee tabellen (aankoop en terugneming waardevermindering) structureel correct met bedragen",
+      "Voetnoot [^1] aanwezig en correct gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0137-actualisering-van-vorderingen-en-schulden-op-korte-termijn-update.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3-variant: twee H1-headings bovenaan het bestand (L61 en L63). De eerste is de titels ('# CBN advies 137/9 - Actualisering...'), de tweede is een datumregel ('# Advies van februari 1993, bijgewerkt op 10 september 2025[^1]') die als H1 gerenderd is — een structuurartefact; een bijwerkingsdatum hoort plain text of een subtitle te zijn, niet een tweede H1. Inhoud verder volledig en correct afgerond.",
+    "concrete_problemen": [
+      {
+        "regel": 61,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)"
+      },
+      {
+        "regel": 63,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# Advies van februari 1993, bijgewerkt op 10 september 2025[^1] (datumregel als H1)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: vraag, CBN-standpunt en onderbouwing helder uitgewerkt",
+      "Voetnoot [^1] aanwezig en correct gedefinieerd (publieke consultatie juni 2025)",
+      "Geen OCR-fouten, geen word-splits, geen unicode-artefacten"
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+resources/bronnen/wetteksten/Registratierechten-Brussel.md
+resources/bronnen/wetteksten/Registratierechten-Waals.md
+resources/bronnen/wetteksten/Registratierechten-federaal.md
+resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md
+resources/bronnen/wetteksten/Strafwetboek2024-boek1.md
+resources/bronnen/wetteksten/Successierechten-Brussel.md

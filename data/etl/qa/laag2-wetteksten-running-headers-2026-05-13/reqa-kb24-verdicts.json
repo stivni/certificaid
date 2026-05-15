@@ -1,0 +1,23 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB24-voldoening-bijzondere.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "De multi-line strip_toc_headings_with_art_range fix heeft het grootste deel van het TOC-blok weggewerkt (Onderafdelingen 1-3 met artikel-ranges zijn weg en de duplicate Afdeling 1 + Onderafdeling 1 als lege stubs zijn opgeruimd). Maar het stub-residu op regels 55-60 blijft staan: '## AFDELING 1. Betalingen op de rekeningen van \"btw-ontvangsten\"' (regel 55) met een losse zin (regel 56), '### Onderafdeling 4. Betaling op de postrekening van \"VAT on E-Services\"' (regel 58) en de Franstalige leak 'Disposition temporaire Art. 13ter' (regel 60). De échte '## AFDELING 1' heading volgt direct daarna op regel 62 met de wettelijke content. Hierdoor verschijnt Afdeling 1 nog steeds dubbel (55 én 62) en Onderafdeling 4 dubbel (58 én 214) — wat retrieval-signaal blijft verdunnen. Daarnaast smart-quote mismatch (opent met \" sluit met ”) op regels 58 en 203 (bron-typo, te behandelen met (source) markering indien stub bewaard zou blijven, maar stub hoort gewoon weg). Volgende ETL-iteratie: strip-regel uitbreiden naar TOC-stubs waar Onderafdeling-heading staat zonder bijhorende Art-body in dezelfde sectie, of waar een 'Disposition temporaire' marker voorkomt.",
+    "concrete_problemen": [
+      "Regels 55-56: residu-stub '## AFDELING 1. Betalingen op de rekeningen van \"btw-ontvangsten\"' + losse zin niet gestript — dupliceert de échte Afdeling 1 op regel 62",
+      "Regel 58: residu-stub '### Onderafdeling 4. Betaling op de postrekening van \"VAT on E-Services\"' niet gestript — dupliceert de échte Onderafdeling 4 op regel 214",
+      "Regel 60: Franstalige leak 'Disposition temporaire Art. 13ter' — compilatie-bleed midden in Nederlandstalige tekst",
+      "Regel 58: smart-quote mismatch '\"VAT on E-Services”' (open \" sluit ”) (source-typo, maar de hele stub hoort weg)",
+      "Regel 203: smart-quote mismatch '\"Mini One Stop Shop - VAT BE”' — bron-typo, hoort met (source) markering",
+      "Dubbele headings verdunnen retrieval-signaal: zoeker naar 'VAT on E-Services' of 'Afdeling 1 btw-ontvangsten' krijgt twee chunks waarvan de eerste vrijwel leeg is"
+    ],
+    "concrete_sterke_punten": [
+      "Hoofdverbetering geslaagd: TOC-entries voor Onderafdelingen 1-3 met wrapped Art-range zijn correct gestript (eerdere regels 58-69 met 'Art. 1 - 8', 'Art. 9 - 13', 'Art. 13bis' staan niet meer in het document)",
+      "Duplicate Afdeling 1 + Onderafdeling 1 als full sections direct na het TOC-blok (eerder regels 71-80) zijn opgeruimd",
+      "Wettekstinhoud Art. 1 t/m Art. 24 is volledig en correct gestructureerd met #### Art.-headings",
+      "Frontmatter provenance, trust en chunk-metadata zijn compleet en consistent met ADR-pipeline",
+      "Wijzigingsgeschiedenis-blokken (cursief tussen haakjes met KB-referenties en B.S.-citaten) zijn intact en consistent geformatteerd",
+      "Afdeling-structuur (## AFDELING 1 t/m 5) en Onderafdeling-structuur (### Onderafdeling 1-4) is hiërarchisch correct vanaf regel 62"
+    ]
+  }
+]

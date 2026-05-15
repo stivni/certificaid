@@ -1,0 +1,175 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0108-01-afwijkingen-van-de-bepalingen-van-het-kb-van-8-oktober-1976-procedure.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Korte bron (2634 tekens) zonder headings — dat klopt: het advies is één doorlopende alinea's-tekst. Geen artefacten: geen lege headings, geen Unicode-resten, geen spurious breaks. Frontmatter volledig en consistent met inhoud. Voetnoten ontbreken (het origineel heeft er ook geen). Leesbaar als mens-geschreven tekst.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Vloeiende aaneengesloten proza, geen extractie-sporen",
+      "Frontmatter klopt: nummer 108/1, bron-URL correct, thema's passend",
+      "Geen onnatuurlijke regelafbrekingen of witruimte"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0108-02-aanvragen-tot-afwijking-overzicht.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: heading-hiërarchie springt van # (regel 51) direct naar #### (regels 57, 79, 114) — ##-niveau en ###-niveau ontbreken volledig. Mens-geschreven markdown zou #### nooit als eerste sub-niveau gebruiken na #. Inhoud is verder volledig en vlot leesbaar; voetnoten correct met definitie.",
+    "concrete_problemen": [
+      {
+        "regel": 57,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### AANVRAGEN TOT AFWIJKING DIE EEN AANPASSING BEOGEN VAN HET SCHEMA..."
+      },
+      {
+        "regel": 79,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### EIGENLIJKE AFWIJKINGEN VAN HET K.B. VAN 8 OKTOBER 1976"
+      },
+      {
+        "regel": 114,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### PROCEDURE"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: drie secties aanwezig, coherente tekst",
+      "Voetnoten [^1] en [^2] aanwezig met definitie op regels 124-126",
+      "Bullets op regels 95-98 correct als markdown-lijstitems met -"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0108-04-vermelding-door-een-investeringsmaatschappij-van-het-aandelenbezit-in-andere.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Kort advies (2010 tekens) zonder interne headings — structureel correct voor dit type enkelvoudige vraag-antwoord advies. Voetnoten [^1], [^2], [^3] aanwezig en goed gedefineerd. Bullets op regels 64-65 correct. Geen artefacten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Alle drie voetnoten aanwezig met volledige definitie (artikel-verwijzingen)",
+      "Bullets correct als markdown-lijstitems",
+      "Vloeiende proza-structuur, geen extractie-sporen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0110-01-openbaarmaking-van-de-jaarrekening-mogelijkheid-tot-publikatie-van-de-jaarrekening-in.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Advies van 3325 tekens zonder interne headings — past bij de doorlopende betoog-structuur. Eén voetnoot [^1] aanwezig en gedefineerd. Geen artefacten, geen spurious breaks, geen Unicode-resten. Tekst vloeit logisch van paragraaf tot paragraaf.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Voetnoot [^1] correct gedefinieerd op regel 74",
+      "Helder logisch betoog in alinea's zonder extractie-sporen",
+      "Frontmatter volledig en consistent met body"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0110-02-stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: twee lege headings op regels 50 en 75 (enkel '## ' zonder tekst) die de twee secties van het advies zouden moeten labelen. Mens schrijft nooit een lege heading. D4: italic markers zoals '*sexto *' (met spatie voor sluitende asterisk) zijn technisch gesloten maar inconsistent met standaard markdown-conventie; kan rendering-problemen geven in sommige parsers. Inhoud verder volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 50,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "## "
+      },
+      {
+        "regel": 75,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "## "
+      },
+      {
+        "regel": 52,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*sexto *van het tweede lid"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud van beide secties volledig aanwezig",
+      "Drie voetnoten correct gedefinieerd onderaan",
+      "Genummerde lijstitems (1./2./3.) correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0110-03-openbaarmaking-van-de-jaarrekening-van-vennootschappen-die-niet-aan-het-kb-van-8-oktober.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Advies in vraag-antwoord formaat (parlementaire vraag + Ministerantwoord). Geen headings — correct voor dit formaat. Twee voetnoten aanwezig en gedefineerd. Geen artefacten, geen spurious breaks. Cursivering van 'Antwoord van de Minister van Economische Zaken' op regel 71 correct als aanduiding van het citaat-kader.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Vraag-antwoord structuur duidelijk leesbaar via italic-label",
+      "Twee voetnoten correct gedefinieerd",
+      "Geen extractie-artefacten; vloeiende proza"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0111-01-bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Zeer kort advies (1401 tekens) zonder interne headings — past bij enkelvoudige interpretatie-vraag. Geen artefacten. De afkorting 'mec. nr. 4659' op regel 64 is een authentieke verwijzing uit het originele advies, geen extractie-bug. Frontmatter volledig.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Heldere driedeling van de interpretatie als doorlopende alinea's",
+      "Geen extractie-sporen",
+      "Frontmatter correct: nummer 111/1, thema's passend"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0112-02-ontoereikendheid-van-de-afschrijvingen-geboekt-voor-de-inwerkingtreding-van-het-koninklijk.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Advies van 3814 tekens zonder interne headings — inhoudelijk correct als doorlopende redenering. Vier coherente alinea's, volledig en afgerond. Geen artefacten, geen spurious breaks, geen Unicode-resten. Frontmatter consistent met inhoud.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Logisch opgebouwde redenering in vier alinea's",
+      "Inhoud compleet: vraagstelling, rechtskader, en twee scenario's uitgewerkt",
+      "Geen extractie-sporen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0112-08-waarderingsregels.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Twee problemen. A6/D1: de alinea op regels 65-67 bevat een spurious paragraafbreuk midden in de zin ('om duidelijk het [lege regel] onderscheid te laten blijken') — een mens zou dit nooit zo typen. E2: de tabel op regels 71-77 mist een header-separator rij (|---|---| na de header); zonder separator is dit geen valide markdown-tabel.",
+    "concrete_problemen": [
+      {
+        "regel": 65,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "om duidelijk het \\n\\nonderscheid te laten blijken"
+      },
+      {
+        "regel": 71,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | | **Lineair afschrijvingspercentage...** | — geen |---|---| rij"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Tabel aanwezig en inhoudelijk correct (6 activacategorieën)",
+      "Frontmatter volledig met correcte thema's"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0112-progressieve-afschrijvingsmethode.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: duplicate page-title heading op regels 57 en 59 ('# CBN advies 112/5 - Progressieve afschrijvingsmethode' tweemaal identiek). Typisch B3-patroon dat bij scrapen ontstaat als de title-tag en de H1 beide worden overgenomen. Inhoud verder volledig en kwalitatief.",
+    "concrete_problemen": [
+      {
+        "regel": 57,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# CBN advies 112/5 - Progressieve afschrijvingsmethode"
+      },
+      {
+        "regel": 59,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# CBN advies 112/5 - Progressieve afschrijvingsmethode"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: drie scenario's uitgewerkt (progressief, lening-boeking, aanvullende afschrijvingen)",
+      "Geen Unicode-artefacten, geen spurious line breaks",
+      "Frontmatter consistent met inhoud"
+    ]
+  }
+]

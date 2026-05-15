@@ -1,0 +1,278 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2011-17-boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: meerdere tabelrijen zijn gefragmenteerd. Regel 219-222: rekening 6620 en de omschrijving 'en kosten' staan als aparte rijen buiten de tabelcel. Regels 241-243: rekening 168 en 'met terugnemingsrecht' idem. Regels 269-270 en 277-278: 'Aanschaffingswaarde' als losse tabelrij na de hoofd-rekeningrij. Regels 313-316 en 329-334: zelfde patroon voor 7171/371. Inhoud inhoudelijk volledig en alle voetnoten [^1]-[^12] correct.",
+    "concrete_problemen": [
+      {
+        "regel": 219,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| | 6620 | Voorzieningen voor uitzonderlijke risico's | | |\n| | en kosten | 100.000 | | |"
+      },
+      {
+        "regel": 241,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| | 168 | Voorzieningen voor schenkingen en legaten | | |\n| | met terugnemingsrecht | 100.000 | | |"
+      },
+      {
+        "regel": 269,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| aan | 7170 | Wijziging in de bestellingen in uitvoering: | | 70.000 |\n| | Aanschaffingswaarde | | | |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 7 secties herkenbaar als ## headings",
+      "Alle 12 voetnoten correct gedefinieerd en gekoppeld",
+      "Boekingstabellen hebben consistente pipe-syntax structuur buiten de gefragmenteerde rijen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2011-18-de-boekhoudkundige-verwerking-van-de-renteswap-interest-rate-swap.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A9: regels 477 en 486 tonen 'ndekkings-IRS' — de leidende 'I' van 'Indekkings-IRS' is weggevallen, consistent op twee plaatsen (OCR-verwarring). B5: regels 337 en 382 tonen sectie-titels ('De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet' en 'De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen') als plain-text alinea zonder ### prefix, terwijl de paragrafen er direct onder wel ### subheadings hebben.",
+    "concrete_problemen": [
+      {
+        "regel": 477,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "| | ndekkings-IRS (notioneel van 10.000.000 €, netto balanswaarde van -7.500 €) | -50.000 | | |"
+      },
+      {
+        "regel": 486,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "| | ndekkings-IRS (notioneel van 10.000.000 €) | -42.500 | | |"
+      },
+      {
+        "regel": 337,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet"
+      },
+      {
+        "regel": 382,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "16 headings correct aangemaakt; grote meerderhied van secties heeft ## of ### prefix",
+      "Alle 12 voetnoten correct gedefinieerd",
+      "Boekingstabellen zijn consistent in pipe-syntax"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2011-19-de-boekhoudkundige-verwerking-van-interestopbrengsten-en-kosten-door-erkende.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Eerder gemelde D4 (spatie voor sluitende asterisk op regels 60 en 63) is een source-typo: de CBN-website formatteert geciteerde wetteksten als italic met een spatie voor de sluiting — een mens die de HTML opent ziet hetzelfde. Geen echte ETL-artefacten (categorieën A-G) aanwezig. Document is compact (5053 chars, 2 headings), inhoudelijk volledig, alle 6 voetnoten correct.",
+    "concrete_problemen": [
+      {
+        "regel": 60,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "*\"Een Belgische of buitenlandse onderneming:* "
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: beide rubrieken (onderworpenheid Boekhoudwet + classificatie interesten) aanwezig",
+      "Alle 6 voetnoten correct gedefinieerd",
+      "Geen structuur-, tabel- of tekstartefacten buiten de source-formatting"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2011-22-boekhoudkundige-verwerking-van-de-door-de-vlaamse-regering-gecreeerde-kmo-portefeuille.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: regel 136 toont '| | of 623 Andere personeelskosten | | | |' als een losstaande tabelrij — een parenthetisch alternatief '(of 623)' uit de brondocument-tabel is als aparte rij geëxtraheerd in plaats van in dezelfde cel als rekening 61. Verder is het document (10392 chars, 6 headings) inhoudelijk volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 136,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| | 61 | Diensten en diverse goederen | 160 | |\n| | of 623 Andere personeelskosten | | | |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 4 procedurestappen (eigen bijdrage, subsidiëring, betaling) duidelijk als ### headings",
+      "Alle 19 voetnoten correct gedefinieerd",
+      "Boekingsvoorbeel-tabellen zijn consistent in pipe-syntax"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2012-01-boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B5: regels 84 en 89 tonen subsectie-titels ('De onderneming behoudt het overschot...' en 'De onderneming heeft de intentie...') als plain-text alinea-openers zonder ### prefix — conform de genummerde TOC (regels 1-2 in het document ontbreken, maar de structuur impliceert twee subsecties). D1: voetnoot [^5] op regel 131 eindigt op 'bestendigheidsbeginse' — één letter afgehakt; mogelijk source-truncatie op CBN-website maar visueel abrupt.",
+    "concrete_problemen": [
+      {
+        "regel": 84,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie om deze emissierechten te verkopen op een actieve markt"
+      },
+      {
+        "regel": 89,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "De onderneming heeft de intentie om het overschot van emissierechten te verkopen op een actieve markt"
+      },
+      {
+        "regel": 131,
+        "categorie": "D1",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "hetgeen een onverantwoorde schending zou zijn van het bestendigheidsbeginse"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: inleiding, toepassingsgebied en boekhoudkundige verwerking aanwezig",
+      "Boekingstabellen correct in pipe-syntax",
+      "Eerste 4 voetnoten correct gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2012-04-de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B5: regel 123 toont '** 2. Kantonnement**' als bold pseudo-heading — structureel inconsistent met de andere subsecties die wel ### headings gebruiken (bv. '### 1. Uitvoerend beslag' op regel 111). E2: regels 146-148 en 154-156 tonen tabelrijen waarbij rekeningnummers '700-707' en '700 – 707' plus de omschrijving over meerdere regels met tab-inspringing lopen, buiten de tabelcellen.",
+    "concrete_problemen": [
+      {
+        "regel": 123,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "** 2. Kantonnement**"
+      },
+      {
+        "regel": 146,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| | 700-707\n\t\t\t(of 499 | Verkopen en dienstprestaties \n\t\t\tVerkopen materiële vaste activa) | 4.750,00 | |"
+      },
+      {
+        "regel": 154,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| | 700 – 707\n\t\t\t(of 499 | Verkopen en dienstprestaties \n\t\t\tVerkopen materiële vaste activa) | 4.750,00 | |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 9 hoofdsecties herkenbaar; meeste subsecties correct als ### headings",
+      "Inhoud volledig: bewarend beslag, uitvoerend beslag, kantonnement en volledig boekhoudkundig voorbeeld aanwezig",
+      "Alle 29 voetnoten correct gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2012-07-de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B5: regels 130 en 147 tonen sectie-titels ('Boekhoudkundige kwalificatie van de rechten...' en 'Te verrichten boekingen tijdens de verschillende fasen...') als plain-text alinea's zonder heading-prefix, terwijl dit duidelijk sectieniveaus zijn op ## niveau. E2: regels 181-182 en 203-206 tonen gebroken tabelrijen met omschrijvingen die over meerdere regels lopen met tab-inspringing buiten de cellen.",
+    "concrete_problemen": [
+      {
+        "regel": 130,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk"
+      },
+      {
+        "regel": 147,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmechanisme van de tax shelter"
+      },
+      {
+        "regel": 181,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| | 51 | Aandelen (rechten op de opbrengsten van het \n\t\t\taudiovisueel werk [X] ) | 60 | |"
+      },
+      {
+        "regel": 203,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| | 09 | Verkoopoptie van de rechten op de opbrengsten van het \n\t\t\taudiovisueel werk [X] | 15 | |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "19 headings aanwezig; meeste secties correct als ## of ### heading",
+      "Alle 25 voetnoten correct gedefinieerd",
+      "Inhoud volledig: mechanisme, beide vrijstellingsfasen, optielichting en definitieve vrijstelling aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2012-08-de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E1: de balanstabel op regels 123-128 is niet in standaard markdown pipe-syntax met header-separator — de rijen hebben geen `|---|` scheidingsrij en zijn onvolledig uitgebalanceerd. B2: regels 130, 136 en 142 tonen '## Terreinen en gebouwen', '## Meubilair en rollend materieel' en '## Financiële vaste activa' als ## headings terwijl dit inhoudelijk subsecties van een Voorbeeld zijn — ze hadden ### niveau moeten hebben, waardoor de heading-hiërarchie springt. D4: regel 113 eindigt op '2/7.\" *' met spatie vóór de sluitende asterisk, waardoor de italic-markup ongeldig is in de meeste parsers.",
+    "concrete_problemen": [
+      {
+        "regel": 123,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| Balans vennootschap A (aandeel in de maatschap : 4/7) | \n|---|\n| Terreinen en gebouwen | | 228.571,43 | | | | |"
+      },
+      {
+        "regel": 130,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Terreinen en gebouwen"
+      },
+      {
+        "regel": 113,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Het aandeel van vennootschap C in de maatschap bedraagt 2/7.\" *"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: realisatiebeginsel, proportionele integratiemethode en volledig berekend voorbeeld aanwezig",
+      "Alle 14 voetnoten correct gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2012-09-de-boekhoudkundige-verwerking-van-de-verwerving-van-een-vast-actief-voor-een-variabele.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E1/E2: de afschrijvingstabel voor Voorbeeld 4 (regels 155-324) is volledig uiteengevallen in tientallen losse eencellige pipe-tabellen met multi-line content en tab-ingesprongen tekst — een complexe multi-kolom spreadsheet-tabel die ETL niet kon reconstrueren. B5: regels 136 en 326 tonen sectie-titels ('Afschrijven van vaste activa met beperkte levensduur...' en 'Overeenstemming tussen de boekhoudkundige verwerking...') als plain-text alinea's zonder heading-prefix.",
+    "concrete_problemen": [
+      {
+        "regel": 155,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| | | \n|---|---|\n\nVaste betaalde prijs: 300\n\n  | | \n|---|"
+      },
+      {
+        "regel": 136,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Afschrijven van vaste activa met beperkte levensduur die zijn verworven voor een prijs die (deels) bestaat uit een variabele gedeelte"
+      },
+      {
+        "regel": 326,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Overeenstemming tussen de boekhoudkundige verwerking van goederen verworven tegen betaling van een lijfrente en de activatie van de variabele prijs"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Voorbeelden 1-3 (regels 102-134) zijn inhoudelijk volledig en goed leesbaar",
+      "7 headings correct aangemaakt voor de overige secties",
+      "Alle 11 voetnoten correct gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D3: regel 216 toont '[^13][^14][^15][^16]' als een losstaande regel zonder omringende tekst — vier voetnootmarkers zijn door ETL uit hun inline-context gerukt en als een aparte blokregel geplaatst, vlak voor de boeking. De voetnootdefinities staan correct op regels 339-345, maar de markers hangen hier in het niets. Verder is het document (30261 chars, 26 headings) inhoudelijk volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 216,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^13][^14][^15][^16]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "26 headings correct aangemaakt; volledige hiërarchie # → ## → ### → #### aanwezig",
+      "Alle subrubrieken (O&O, concessies/octrooien, goodwill, vooruitbetalingen) aanwezig",
+      "Alle 17 voetnoten correct gedefinieerd",
+      "Alle boekingstabellen in correcte pipe-syntax"
+    ]
+  }
+]

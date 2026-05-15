@@ -1,0 +1,300 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2009-11-de-boekhoudkundige-verwerking-van-partiele-splitsingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: tabel Voorbeeld 3 (r300-304) is gebroken — de celwaarde '9.500' staat op een eigen lege regel gevolgd door een verweesde pipe-rij, wat een extractie-artefact is waarbij een getal uit de tabelcel losraakte. B5: r108 'In hoofde van A en B wordt dan als volgt gehandeld' en r155 'In hoofde van aandeelhouder D wordt als volgt gehandeld' zijn functionele tussenkopjes zonder heading-markup (plain text). Overige 4 voorbeelden en voetnoten zijn volledig en correct.",
+    "concrete_problemen": [
+      {
+        "regel": 300,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | | \n\n9.500\n\n  | | | | 9.500 |"
+      },
+      {
+        "regel": 108,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "In hoofde van A en B wordt dan als volgt gehandeld"
+      },
+      {
+        "regel": 155,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "In hoofde van aandeelhouder D wordt als volgt gehandeld"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 4 voorbeelden herkenbaar als ## headings met duidelijke titels",
+      "Alle voetnoten [^1]-[^14] aanwezig en correct gedefinieerd",
+      "Tabellen in pipe-syntax met correcte structuur (op het gebroken geval na)",
+      "Boekhoudkundige journaalposten correct opgemaakt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2009-13-de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: r148 bevat 'rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap' — de closing asterisk van het tweede italic-blok staat na een spatie (patroon '*tekst *'), wat een malformed italic-marker is. Tevens r146 'rekening 740* Bedrijfssubsidies...' — asterisk direct na accountnummer zonder opening asterisk. Beide zijn ETL-spatie-artefacten. Verder is het advies inhoudelijk volledig en structureel correct.",
+    "concrete_problemen": [
+      {
+        "regel": 148,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 150 *Kapitaalsubsidie *van de vennootschap"
+      },
+      {
+        "regel": 146,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 740* Bedrijfssubsidies en compenserende bedragen*"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Duidelijke sectiestructuur met ## en ### headings",
+      "Wettekst-citaten correct als block-quotes opgemaakt",
+      "Alle 18 voetnoten aanwezig en correct gedefinieerd",
+      "Boekhoudkundige journaalpost correct in pipe-tabel"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2009-15-de-boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3/A9: H1-titel (r70) bevat 'bedrijfstak1' — het superscript-cijfer '1' is niet geparsed als [^1] en kleeft aan het woord vast. Direct op r72 staat 'of van een algemeenheid van goederen' nogmaals als losstaande plain-text regel — een titelfragment dat bij extractie losraakte (duplicate titelfragment). B2: subkoppen op r92 '#### Principe' en r99 '#### Enkele bijzonderheden' gebruiken H4 direct onder H2 (sprong H2→H4 zonder H3). Inhoud en voorbeelden zijn volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 70,
+        "categorie": "A9",
+        "type": "other",
+        "voorbeeld": "CBN-advies 2009/15 - De boekhoudkundige verwerking van de inbreng van een bedrijfstak1 of van"
+      },
+      {
+        "regel": 72,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "of van een algemeenheid van goederen"
+      },
+      {
+        "regel": 92,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### Principe  (H4 direct onder H2, zonder tussenniveau H3)"
+      },
+      {
+        "regel": 99,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### Enkele bijzonderheden  (H4 direct onder H2)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee inhoudelijk uitgewerkte voorbeelden volledig aanwezig",
+      "Alle 7 voetnoten correct gedefinieerd",
+      "Boekhoudkundige journaalposten en balansoverzichten correct in pipe-syntax",
+      "Inleiding inhoudelijk compleet en goed leesbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2010-02-de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-betaling.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: r74 bevat 'hoewel* \"de bedoelde instellingen...' — asterisk direct vóór aanhalingsteken met spatie na de asterisk, wat een malformed italic-marker is (opening-asterisk-patroon '* \"'). R68 bevat 'rekening 150 *Kapitaalsubsidie* van de vennootschap' — hier ziet de italic er correct uit, maar dit is hetzelfde ETL-patroon als in 2009/13 en verdient verificatie. Klein bestand met slechts 3 inhoudssecties, maar de artefacten zijn reëel.",
+    "concrete_problemen": [
+      {
+        "regel": 74,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "hoewel* \"de bedoelde instellingen de vrijheid behouden om te beoordelen"
+      },
+      {
+        "regel": 68,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 150 *Kapitaalsubsidie *van de vennootschap (trailing space voor closing *)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Beknopt update-advies, inhoud volledig en logisch opgebouwd",
+      "Alle 4 voetnoten correct gedefinieerd",
+      "Trefwoorden-sectie aanwezig als context",
+      "Verwijzing naar moederadvies 2009/13 correct opgenomen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2010-03-de-boekhoudkundige-verwerking-van-stockdividenden.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: r63-65 bevat een plain-text genummerde inhoudsopgave ('1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking') direct in de body, terwijl de eigenlijke inhoud als ## headings verder staat (r73, r88, r94) — een TOC-fragment dat niet verwijderd werd bij extractie. G3: voetnootankers [^10] en [^12] komen los voor in de tekst als verweesde ankertekens zonder omringende zin (r90-gebied en r118-gebied) — inline footnote-content die bij extractie losraakte. De overige footenootteksten zijn correct gedefinieerd.",
+    "concrete_problemen": [
+      {
+        "regel": 63,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Stockdividenden versus bonusaandelen \n2. Vorderingsrecht in hoofde van de aandeelhouder \n3. Boekhoudkundige verwerking"
+      },
+      {
+        "regel": 90,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": "[^10]  (verweest voetnootanker als losse positie vóór tabel, zonder context-zin)"
+      },
+      {
+        "regel": 118,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": "[^12]  (verweest voetnootanker als losse positie vóór tabel, zonder context-zin)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Drie inhoudssecties correct als ## headings opgemaakt",
+      "Alle 12 voetnoten aanwezig en correct gedefinieerd",
+      "Boekhoudkundige journaalposten correct in pipe-tabellen",
+      "Inhoud conceptueel volledig (bonusaandeel vs. stockdividend, vorderingsrecht, boeking)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2010-10-duur-van-het-boekjaar.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: heading_count = 0 per Laag 1 — het gehele advies staat als één doorlopend tekstblok onder de H1-titel zonder enige ## subheading, terwijl de inhoud meerdere logisch onderscheiden kwesties behandelt (definitie boekjaar, verlenging, verkorting, timing van besluit, aantal wijzigingen). A4: de tekst bevat U+2010 (Unicode HYPHEN, niet ASCII-koppelteken) in 'niet‐naleving', een typisch webscraping-artefact van de CBN-website.",
+    "concrete_problemen": [
+      {
+        "regel": 68,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "Volledig document als één blok tekst, geen enkele ## subsectie aanwezig (heading_count=0)"
+      },
+      {
+        "regel": 74,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "niet‐naleving (U+2010 HYPHEN ipv ASCII-koppelteken U+002D)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en goed leesbaar als doorlopende tekst",
+      "Alle 6 voetnoten correct gedefinieerd",
+      "Geen PDF-artefacten zichtbaar (geen form-feeds, TOC-residu, OCR-fouten)",
+      "Correct bestandsnummer CBN-advies 2010/10 in H1"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2010-12-de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B1/A9: H1-titel (r70) heeft 'instrumenten1' — superscript-voetnootnummer niet geparsed als [^1], plus ontbrekende spatie in '2010/12 -De' (koppelteken zonder spatiëring). B2/D4: alle ### subkoppen gebruiken '### ***tekst***' of '### ***tekst** *' (bold-italic wrapper binnenin heading) — dit is een PDF-artefact van dikgedrukte koppen; r74 heeft trailing spatie voor de closing *** ('** *') wat een malformed marker is. Inhoud is volledig en inhoudelijk goed.",
+    "concrete_problemen": [
+      {
+        "regel": 70,
+        "categorie": "A9",
+        "type": "other",
+        "voorbeeld": "CBN-advies 2010/12 -De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten1"
+      },
+      {
+        "regel": 74,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "***Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking van afgeleide financiële instrumenten** *"
+      },
+      {
+        "regel": 91,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "### ***Doelstelling van het advies***  (bold-italic wrapper in heading is PDF-artefact)"
+      },
+      {
+        "regel": 113,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "***Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe** *"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: inleiding, hiërarchische rangschikking, informatieverschaffing alle aanwezig",
+      "Alle 13 voetnoten correct gedefinieerd",
+      "Bullet-lijsten correct als markdown opgemaakt",
+      "Complexe inhoud over dekkingsverrichtingen coherent weergegeven"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2010-13-boekhoudkundige-verwerking-van-de-belasting-over-de-toegevoegde-waarde-in-hoofde-van-de.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Na scraper-fixes zijn de eerder gemelde zwevende voetnootankers ([^14], [^15], [^16][^17]) niet meer aanwezig in de huidige versie — de body is schoon. Heading-structuur correct (H1 + 4 ## secties). Alle voorbeeldboekingen in pipe-tabellen. Kleinere restpunten: r90 mist een punt aan het einde van een zin ('worden geacht door de btw-eenheid te worden verwezenlijkt' — geen punt) en r170 heeft 'aangesproken wordenvoor' (ontbrekende spatie), maar dit zijn cosmetische haarscheurtjes die leesbaarheid niet raken. Inhoud volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 90,
+        "categorie": "D1",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "worden geacht door de btw-eenheid te worden verwezenlijkt (zin eindigt zonder punt)"
+      },
+      {
+        "regel": 170,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "aangesproken wordenvoor de eventuele navordering (ontbrekende spatie tussen woorden)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Scraper-fixes hebben de eerdere zwevende voetnootankers verwijderd",
+      "Alle 18 voetnoten correct gedefinieerd",
+      "7 voorbeeldboekingen correct als pipe-tabellen opgemaakt",
+      "Structuur met H1 + 4 ## secties duidelijk en logisch"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: r61-75 bevat een plain-text genummerde inhoudsopgave in de body (patroon identiek aan 2010/16) — TOC-fragment niet verwijderd bij extractie, terwijl de eigenlijke inhoud als ## en ### headings verder staat. D4: r186 '*Voorbeeld ' heeft een trailing spatie na de opening asterisk (malformed italic opener). R202 'en wordt het* pro rata* van het gebruik' — asterisk direct na 'het' zonder spatie, gecombineerd met een italic-marker, is een malformed-patroon. Overige inhoud en structuur zijn goed.",
+    "concrete_problemen": [
+      {
+        "regel": 61,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Waarderingsregels \n  1. Algemeen \n  2. Oprichtingskosten \n...\n4. Afschrijvingsmethoden (plain-text TOC in body)"
+      },
+      {
+        "regel": 186,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Voorbeeld  (trailing spatie na opening asterisk, malformed italic opener)"
+      },
+      {
+        "regel": 202,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "en wordt het* pro rata* van het gebruik"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Rijke heading-structuur: 13 headings (## en ### correct genest)",
+      "Alle 34 voetnoten aanwezig en correct gedefinieerd",
+      "Voorbeelden per methode (lineair, degressief, progressief, versneld) volledig uitgewerkt",
+      "Geen PDF-artefacten zoals form-feeds, OCR-fouten of kolom-bleed"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2010-16-boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: r72-79 bevat een plain-text genummerde inhoudsopgave in de body (zelfde patroon als 2010/15) die niet verwijderd werd. D4: r96 'post I.D. *Lidgeld, schenkingen, legaten en subsidies[^6]* ;' — de voetnootmarkering [^6] staat binnen het italic-blok waardoor de closing asterisk na de puntkomma komt, wat als malformed kan renderen. R119 '(1)** oorzaak:**' — bold-marker staat ná de haakjes in plaats van eromheen, wat een gebroken bold-opmaakartefact is. Inhoud en 8 voorbeelden zijn overigens volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 72,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Basisbeginselen \n2. Soorten subsidies \n  1. Subsidies, schenkingen en legaten in contanten... (plain-text TOC in body)"
+      },
+      {
+        "regel": 96,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "post I.D. *Lidgeld, schenkingen, legaten en subsidies[^6]* ;"
+      },
+      {
+        "regel": 119,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "(1)** oorzaak:** het gaat om de reden"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "14 headings correct genest (## en ### niveau's logisch opgebouwd)",
+      "8 voorbeeldboekingen volledig als pipe-tabellen opgemaakt",
+      "Uitgebreide interestsubsidie-tabel (voorbeeld 8) correct weergegeven",
+      "Alle 23 voetnoten correct gedefinieerd"
+    ]
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-08-verplichting-voor-bepaalde-vzws-ivzws-en-stichtingen-om-een-jaarverslag-op-te-stellen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E1/E2: alle vier tabellen (regels 117-120, 134-137, 161-164, 177-180) zijn pseudo-pipe-tabellen zonder markdown header+separator-rij — elke tabel heeft enkel één naamrij gevolgd door datarijen zonder '|---|' scheidingslijn. D4: op regel 102 en 126 staat '* Bijlagen bij het Belgisch Staatsblad*' met een spatie vóór de afsluitende asterisk (italic-marker niet correct afgesloten). Inhoud is volledig: 14 headings correct, alle 22 voetnootdefinities aanwezig, 5 voorbeelden intact.",
+    "concrete_problemen": [
+      {
+        "regel": 117,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 |"
+      },
+      {
+        "regel": 102,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "* Bijlagen bij het Belgisch Staatsblad*"
+      },
+      {
+        "regel": 126,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "* Bijlagen bij het Belgisch Staatsblad*"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: alle 5 voorbeelden met groottecriteria correct weergegeven",
+      "14 headings met correcte hiërarchie (H2/H3/H4/H5)",
+      "Alle 22 voetnootdefinities aanwezig en correct gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-11-boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: tabelrij op L84 heeft '(of 764 tot 768' als extra eerste kolom-cel waardoor de tabel asymmetrisch is — alternatieve boeking correct geboekt als aparte rij maar zonder geldige markdown-tabelstructuur. Overige tabellen (L105-108, L117-129) zijn wél correct opgemaakt met header+separator. Inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 86,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle overige tabellen correct in markdown pipe-syntax met header+separator",
+      "6 secties duidelijk gestructureerd als ## headings",
+      "Alle 17 voetnootdefinities aanwezig en correct gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-12-boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: op L49 staat '*Wet van 19 november 2020 … [^2]*  ' met spatie vóór de afsluitende asterisk doordat een voetnootanker binnen de italic-span staat — extractie-artefact. Zelfde patroon op L80 ('*  een bedrag is opgenomen') en L81 ('*Bezoldigingen en rechtstreekse sociale voordelen*' met afsluitende spatie). Op L148: 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' — leading asterisk zonder prefix-spatie maar met spatie na 'rekening'. Inhoud volledig, alle tabellen correct, 24 voetnoten aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 49,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Wet van 19 november 2020 houdende de invoering van een wederopbouwreserve voor vennootschappen[^2]*  "
+      },
+      {
+        "regel": 80,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*  een bedrag is opgenomen onder een drempel van 85 procent"
+      },
+      {
+        "regel": 148,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening* 1109 Andere beschikbare inbreng buiten kapitaal*"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle boekingtabellen correct in markdown pipe-syntax met header+separator",
+      "Twee uitgewerkte voorbeelden volledig aanwezig (Voorbeeld 1 en Voorbeeld 2)",
+      "Alle 24 voetnootdefinities aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-13-herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: op regel 114 staat '### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde' — een genummerd lijstelement ('1°') is als ### heading opgemaakt i.p.v. als list item, wat een hiërarchiesprong veroorzaakt (H3 zonder voorafgaande logische sectionering). D4: op regel 148 staat 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' met een spatie na 'rekening' vóór de italic-opener. Verder zijn inhoud, voetnoten (28 aanwezig) en alle overige headings (12) correct.",
+    "concrete_problemen": [
+      {
+        "regel": 114,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde, en"
+      },
+      {
+        "regel": 148,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening* 1109 Andere beschikbare inbreng buiten kapitaal*"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: wettekst art. 3:35 KB WVV correct geciteerd en beide voorbeelden (kapitaalhoudend/kapitaalloos) aanwezig",
+      "12 headings met correcte hiërarchie op andere plaatsen",
+      "28 voetnootdefinities aanwezig en correct gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-15-verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: de inhoudsopgave van het advies staat als genummerde/gebulletde lijst in de body (regels 57-68) vóór de inhoudelijke secties. Op regel 70 volgt een aaneengesloten TOC-restant '---- Omzetting van een vennootschap...' met '----' en '--'-scheiders in plaats van markdown — dubbele TOC in de body. B5: regel 179 'Mogelijkheid tot compensatie van negatieve fondsen met een positief resultaat van een VZW, IVZW of stichting' staat als plain tekst zonder ## prefix terwijl het een hoofdsectie had moeten zijn.",
+    "concrete_problemen": [
+      {
+        "regel": 57,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Inleiding \n2. Negatieve fondsen en de mogelijkheid om negatieve fondsen te compenseren"
+      },
+      {
+        "regel": 70,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "---- Omzetting van een vennootschap in een VZW of IVZW-- Mogelijkheid tot compensatie..."
+      },
+      {
+        "regel": 179,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Mogelijkheid tot compensatie van negatieve fondsen met een positief resultaat van een VZW, IVZW of stichting"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: 6 uitgewerkte voorbeelden met boekingstabellen en balanstabellen intact",
+      "14 overige headings correct gestructureerd",
+      "19 voetnootdefinities aanwezig en correct gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2022-01-boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E1/E2: alle balansen en verdelingstabellen zijn pseudo-pipe-tabellen zonder markdown header+separator-rij (regels 86-91, 99-106, 139-145, 152-155, 159-165, 175-185, 191-194) — één naamrij of datakoprij gevolgd door datarijen, geen '|---|' scheiding. De tabellen zijn niet parseerbaar als geldige markdown. Inhoud en footnotes (17) zijn correct.",
+    "concrete_problemen": [
+      {
+        "regel": 86,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| Vennootschap A (te splitsen vennootschap) | \n| Activum 1 | | 130 | | Kapitaal/Inbreng | | 60 |"
+      },
+      {
+        "regel": 139,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| | | Eigen vermogen van vennootschap A | | Aan vennootschap B fiscaal overgedragen eigen vermogen |"
+      },
+      {
+        "regel": 191,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| Totaal eigen vermogen na fiscale verdeling | | 220 | | 100 | | 120 |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: verdelingslogiek en correctiemechanisme correct uitgewerkt",
+      "6 headings correct gestructureerd",
+      "17 voetnootdefinities aanwezig en correct gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2022-01-fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E1: alle balansen (regels 116-120, 123-126, 130-133, 138-143, 176-180, 183-186, 191-198, 203-212, 222-226, 232-237, 241-244) zijn pseudo-pipe-tabellen zonder markdown header+separator-rij. D2: op regel 84-86 wordt een formule ('via volgende formule berekend:') aangekondigd maar de formule zelf ontbreekt — was waarschijnlijk een wiskundige afbeelding in de PDF. Inhoud 9 headings correct. 29 voetnoten aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 116,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| Balans A | \n| Activa | | 2.000 | | Kapitaal | | 1.000 |"
+      },
+      {
+        "regel": 84,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "wordt deze verhouding via volgende formule berekend: [formule ontbreekt]"
+      },
+      {
+        "regel": 86,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "Bovenstaande formule geldt als vertrekpunt voor de berekening... [formule ontbreekt]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud conceptueel volledig: juridische redenering rond fusies/splitsingen met negatief nettoactief volledig aanwezig",
+      "9 headings correct gestructureerd met goede hiërarchie",
+      "29 voetnootdefinities aanwezig en correct gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2022-02-uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 61-74) vóór de inhoudelijke secties. Op regel 75 volgt een aaneengesloten TOC-restant '-- Vrijwillige uittreding (artikel 6:120 WVV)-- Uittreding van rechtswege...' met '--'-scheiders — dit is een duplicaat TOC-fragment dat niet werd verwijderd. Tabellen (regels 218-233) zijn correct opgemaakt. Alle 31 voetnoten aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 61,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Inleiding \n2. Uittreding en uitsluiting lastens het vennootschapsvermogen bij de BV"
+      },
+      {
+        "regel": 75,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "-- Vrijwillige uittreding (artikel 6:120 WVV)-- Uittreding van rechtswege...Boekhoudkundige verwerking..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: BV en CV parallel uitgewerkt met correcte wetsverwijzingen",
+      "Boekingtabellen correct in markdown pipe-syntax met header+separator",
+      "31 voetnootdefinities aanwezig en correct gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E1: de voorbeeldtabellen op regels 246-263 (omzet/balanstotaal per vennootschap + berekeningstabellen) zijn pseudo-pipe-tabellen zonder markdown header+separator-rij. B1: op regel 117 staat '708 *Toegekende kortingen, ristorno's en rabatten (-)' als plain tekst zonder heading-prefix terwijl regel 115 '### 700 tot 707 *Verkopen en dienstprestaties*' wél een heading is — inconsistente behandeling van dezelfde structuurlaag. Inhoud is verder volledig (31 headings, 25 voetnoten, consistentiebeginsel uitvoerig behandeld).",
+    "concrete_problemen": [
+      {
+        "regel": 117,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "708 *Toegekende kortingen, ristorno's en rabatten (-)*"
+      },
+      {
+        "regel": 246,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| Vennootschap A | | Vennootschap B | \n| Omzet excl. btw | | 1.000.000 | | Omzet excl. btw | | 8.500.000 |"
+      },
+      {
+        "regel": 253,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| Omzet excl. btw: | | 1.000.000 + 8.500.000 - 300.000 = 9.200.000 > 9.000.000 |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud uitgebreid en volledig: personeelsbestand, omzet, geconsolideerde/geaggregeerde basis en consistentiebeginsel volledig behandeld",
+      "31 headings met goede structuur; TOPCO/MIDCO/SUBCO-voorbeeld correct uitgewerkt",
+      "25 voetnootdefinities aanwezig en correct gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 94-110) vóór de inhoudelijke secties — TOC-fragment dat niet werd verwijderd. D2: op regel 210 wordt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aangekondigd maar het schema ontbreekt (was waarschijnlijk een tijdslijn-afbeelding in het origineel). Inhoud conceptueel volledig, 13 headings correct, alle 75 voetnoten aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 94,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Ontbinding \n  1. Vrijwillige ontbinding \n  2. Ontbinding van rechtswege  (TOC-fragment in body)"
+      },
+      {
+        "regel": 210,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "Schematisch kunnen de volgende termijnen worden onderscheiden: [schema/tijdslijn ontbreekt]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: vrijwillige, rechtswege en gerechtelijke ontbinding + vereffening en sluiting allemaal aanwezig",
+      "13 headings correct gestructureerd",
+      "75 voetnootdefinities aanwezig en correct gelinkt"
+    ]
+  }
+]

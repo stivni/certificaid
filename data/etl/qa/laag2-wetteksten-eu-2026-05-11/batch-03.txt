@@ -1,0 +1,6 @@
+resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md
+resources/bronnen/wetteksten/WBTW-KB2-forfaitaire.md
+resources/bronnen/wetteksten/WBTW-KB22jun2020-e-notariaat.md
+resources/bronnen/wetteksten/WBTW-KB2bis-cafehouders.md
+resources/bronnen/wetteksten/WBTW-KB54-entrepot.md
+resources/bronnen/wetteksten/WBTW-KB56-teruggaaf.md

@@ -1,0 +1,121 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB58-mededeling-pas-opgerichte.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Korte KB met 3 artikelen. Headings consistent (## Art. 1/2/3). Genummerde lijsten (1° t/m 8°) goed geformatteerd. Geen footer-restanten, geen kolom-bleed, geen scrambled text. Buitenstaander zou dit voor handgeschreven markdown kunnen aanzien.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Schone heading-hierarchie # → ## Art.",
+      "Amendment-markers tussen haakjes consistent",
+      "Genummerde 1°-lijsten correct geformatteerd",
+      "Geen running-headers of footer-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB6-internationaal-vervoer.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Tekst zelf is schoon, maar bestand eindigt met footer-artefact 'KB nr. 6 - Lijst van de bijwerkingen / Bijwerking t.e.m. B.S. van Te vervangen pagina's / Bijw. 01 / 01.01.2012 30.12.2011 Volledige uitgave' — duidelijk een PDF-tabel die als plain text overblijft, zonder pipe-syntax, met kolom-bleed. Hoort niet bij de wettekst.",
+    "concrete_problemen": [
+      "Lijst van de bijwerkingen aan einde (regels 92-96) — PDF-tabel collapsed naar plain text met kolom-bleed",
+      "Pseudo-tabel zonder markdown-syntax"
+    ],
+    "concrete_sterke_punten": [
+      "Artikelteksten schoon en goed gestructureerd",
+      "Headings ## Art. consistent",
+      "§-nummering correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB7-invoer.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Hoofdtekst is goed: hoofdstukken, secties, artikelen consistent geformatteerd. Maar Bijlage (regels 1077-1104) bevat zware PDF-table-bleed: 'Code van het Tarief' en 'Omschrijving' kolommen door elkaar, fragmentarische zinnen, GN-codes en omschrijvingen versmolten ('3704 00 Fotografische platen, film, ...'), regels 1086-1087 bevatten meervoudige codes vermengd met tekst zonder structuur. Ook regels 978, 984, 990-993, 1022-1033 (lijstjes in Art. 43-44) hebben pseudo-tabel-bleed (hoeveelheden voor tabak/alcohol).",
+    "concrete_problemen": [
+      "Bijlage (regels 1077-1104): GN-codes en omschrijvingen versmolten zonder tabel-structuur",
+      "Regels 978, 984, 990-993: alcoholtarief-tabel met losse '-' bullets en samengeperste hoeveelheden",
+      "Regels 1022-1034: kleine zendingen-tabel met categorieën door elkaar (sigaretten/cigarillo's/sigaren in dezelfde regel)",
+      "Artikel 39 §1 (regel 852): afgebroken zin 'van het Bovendien is...' — ontbrekend woord/scrambled na 'Wetboek'"
+    ],
+    "concrete_sterke_punten": [
+      "Hoofdstuk-/Afdeling-headings consistent",
+      "#### Art. headings goed gestructureerd",
+      "Hoofdtekst (Art. 1-44) ruim leesbaar",
+      "Amendment-markers correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB8-afronding.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Korte tekst, schoon op zich. Maar zelfde 'Lijst van de bijwerkingen' footer-artefact aan einde (regels 79-83) als KB6. PDF-tabel-restant zonder markdown-syntax.",
+    "concrete_problemen": [
+      "Lijst van de bijwerkingen aan einde (regels 79-83) — PDF-tabel collapsed naar plain text"
+    ],
+    "concrete_sterke_punten": [
+      "Artikelteksten schoon",
+      "Headings consistent",
+      "Genummerde lijsten correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB9-ambtelijke-aanslag.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Korte KB met 4 artikelen. Geen footer-artefact, schone heading-hierarchie, amendment-markers consistent. Eindigt netjes op Art. 4. Buitenstaander zou dit als handgeschreven markdown kunnen lezen.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Geen lijst-van-bijwerkingen artefact",
+      "Schone ## Art. headings",
+      "Tekst goed leesbaar zonder onderbrekingen",
+      "Amendment-markers correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB1-aftrekregeling.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Zware ETL-artefact: regels 46-130 (85 regels!) bevatten de volledige cover, TOC en lijst van alle MB's uit de WBTW-MB-compilatie PDF, ingevoegd vóór de eigenlijke MB-1 tekst die pas op regel 131 begint. Buitenstaander zou meteen zien dat dit een compilatie-extract is. De TOC bevat ook PDF-bullet-glyphs ('*'), onderstreepte placeholders ('_____'), en scrambled tekstfragmenten zoals 'controle Bijw. 01/01.01.2012 op de toepassing van de belasting...' met bijwerkingsmarkers mid-zin.",
+    "concrete_problemen": [
+      "Regels 46-130: complete compilation-cover + TOC van alle 25+ MB's voor de eigenlijke wettekst",
+      "Onderstrepingen '_____' als placeholders in TOC (regel 75-118)",
+      "Bijwerkingsmarkers ('Bijw. 01/01.01.2012') midden in TOC-regels",
+      "PDF-bullet-glyphs (' * ') zonder markdown-conversie",
+      "Eigenlijke MB-1 tekst is slechts 16 regels (133-147) versus 85 regels TOC-pollutie ervóór"
+    ],
+    "concrete_sterke_punten": [
+      "Eigenlijke artikelteksten (Art. 1-3) op zich schoon",
+      "Heading-structuur in artikel-zone correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB11-facturen-oprichting-gebouwen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Zeer korte MB met 2 artikelen. Schone heading-hierarchie, geen footer-artefact, geen TOC-pollutie. Inleiding bondig, artikelen helder. Buitenstaander zou dit als handgeschreven markdown lezen.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Geen TOC- of bijwerkings-pollutie",
+      "Schone ## Art. headings",
+      "Korte heldere tekst"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB12-weegtoestellen-slachthuizen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Korte MB met 2 artikelen. Geen TOC- of footer-artefact. Art. 1 bevat een opsomming met losse '-' bullets (regels 56-63) waar ' - de naam en het adres ...' midden in een prozaregel aansluit op een lopende zin ('de afdrukinrichting ... de volgende inlichtingen afdrukken: - de naam ...'), maar dat is een aanvaardbare lijst-conversie. Geen kolom-bleed of scrambled tekst.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Geen TOC-pollutie",
+      "Schone ## Art. headings",
+      "Genummerde 1° t/m 4°-lijst correct",
+      "Bullet-list voor afdruk-inlichtingen leesbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB13-hypotheek-verplichtingen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "MB met 5 artikelen (incl. 3bis). Schone heading-hierarchie, amendment-markers consistent. Opheffings-melding (regel 51) over MB 22.06.2020 is integraal en logisch geplaatst. Geen TOC- of footer-pollutie. Buitenstaander zou dit als handgeschreven markdown lezen.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Geen TOC-pollutie",
+      "Opheffings-context correct opgenomen in inleiding",
+      "Art. 3bis amendment-marker correct ingevoegd",
+      "1°/2°/3°-lijst goed geformatteerd"
+    ]
+  }
+]

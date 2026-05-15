@@ -1,0 +1,6 @@
+resources/bronnen/wetteksten/WBTW-KB29aug2019-registers.md
+resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md
+resources/bronnen/wetteksten/WBTW-KB30-financieringshuur.md
+resources/bronnen/wetteksten/WBTW-KB31-niet-gevestigd.md
+resources/bronnen/wetteksten/WBTW-KB35-reisbureaus.md
+resources/bronnen/wetteksten/WBTW-KB39-regeling-93duodecies.md

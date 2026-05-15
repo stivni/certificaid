@@ -1,0 +1,321 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0172-01-opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3/D4 bevestigd in huidige body: r.87-89 duplicate openingszin (identieke zin tweemaal direct na H1 vóór de inhoudsopbouw). E2 r.477-481: balanstotaal '**11.550.000**' staat op een losstaande regel buiten de tabelmarkering, waardoor de cel van de balansrij kapot is. E2 r.623-628: 'Handelsschulden[^68]' staat op een zelfstandige regel die een tabelrij onderbreekt. D4 r.649: '*Opmerking*en' (defecte italic-sluiting, woordsamentrekking). Hoofdstructuur (59 headings, 3 voorbeelden, 94 voetnoten) is verder intact.",
+    "concrete_problemen": [
+      {
+        "regel": 87,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 € (twee keer na elkaar voor ## Inleiding)"
+      },
+      {
+        "regel": 477,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| | | | | |\n\n**11.550.000**\n\n  | | | | **11.550.000** |"
+      },
+      {
+        "regel": 625,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "Handelsschulden[^68] \n\n  | | 600.000 |"
+      },
+      {
+        "regel": 649,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Opmerking*en"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "59 headings geven duidelijke navigeerbare structuur voor een lang advies met drie uitgewerkte voorbeelden",
+      "Alle 94 voetnoten aanwezig en correct afgesloten",
+      "Tabellen in pipe-syntax zijn grotendeels correct opgemaakt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0173-05-toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2 bevestigd r.176-184: de twee RESULTATENREKENING-samenvattingstabellen zijn ernstig verminkt — cellen staan als losstaande regels met wisselende inspringing buiten de pipe-tabel, waardoor de samenvatting onleesbaar is ('60.000 | | 47.872,3' op r.178 en '15.000 |' op r.180 als losstaande tabfragmenten). D3 r.196-198: voetnoot 4 eindigt mid-zin ('conform voetnoot') en voetnoot 5 begint met 'van advies 173/1 over...' — de voetnootreferentie en -tekst zijn opgeknipt over twee afzonderlijke voetnoten door een extractieartefact.",
+    "concrete_problemen": [
+      {
+        "regel": 176,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| **RESULTATENREKENING OP 31/12/1998**  | \n|---|\n| 60.000 | | 47.872,3"
+      },
+      {
+        "regel": 180,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "\t\t\t\t15.000 |"
+      },
+      {
+        "regel": 196,
+        "categorie": "D3",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "In dit verband wenst de Commissie, conform voetnoot"
+      },
+      {
+        "regel": 198,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "van advies 173/1 over de boekhoudrechtelijke aspecten van de overschakeling..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Drie ##-headings geven duidelijke sectionering",
+      "Journaalboekingen in pipe-syntax zijn correct opgemaakt (r.135-166)",
+      "Voetnoten 1-3 volledig en correct afgesloten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0173-06-verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6 bevestigd r.85-87: de zin 'Die schulden en vorderingen mogen dus niet' eindigt zonder leesteken, gevolgd door een lege regel, waarna 'langer, voor het overeenstemmende bedrag...' begint — een PDF-regelbreuk midden in een logische alinea. Frontmatter thema 'erfpa' (r.49) is een afgekapt scraping-artefact (bron-typo categorie); telt niet als ETL-reden voor needs-rework maar de A6-regelbreuk volstaat. Overige inhoud volledig en correct.",
+    "concrete_problemen": [
+      {
+        "regel": 85,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "Die schulden en vorderingen mogen dus niet \n\nlanger, voor het overeenstemmende bedrag..."
+      },
+      {
+        "regel": 49,
+        "categorie": "F1",
+        "type": "naam-mismatch",
+        "voorbeeld": "- erfpa (afgekapt thema-label in frontmatter — source-typo, niet ETL)",
+        "type": "source-typo"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Drie ##-headings correct en volledig",
+      "Vijf voetnoten correct afgesloten met volledige referenties",
+      "Inhoud van het advies inhoudelijk volledig aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0173-07-afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1 frontmatter-artefact bevestigd r.59: thema 'opslag van afvalstoffen' staat in de themalijst maar is inhoudelijk totaal vreemd aan dit advies over afronding van bedragen in euro — duidelijk een scraping-artefact waarbij een thema van een ander advies is meegenomen. Body is schoon: geen headings (heading_count=0 is correct voor dit korte advies), drie voetnoten correct, tekst volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 59,
+        "categorie": "F1",
+        "type": "naam-mismatch",
+        "voorbeeld": "- opslag van afvalstoffen (thema staat in frontmatter, hoort niet bij dit advies over euro-afronding)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig schoon: geen artefacten, geen gebroken zinnen",
+      "Drie voetnoten correct afgesloten met correcte BS-referentie",
+      "Inhoud volledig en coherent"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0173-08-aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Meerdere ETL-artefacten bevestigd: G2 r.167: 'Handelsdebiteuren/ TD>' bevat een doorgelekt HTML-tag-fragment. E2 r.124-126: een losstaande '|' op r.124 staat vóór de '## Balans in BEF'-heading als een weesopeningsteken van een pseudo-tabel. B2 r.147/162: '## A. Afsluiting...' en '## B. (Her)opening...' zijn als ##-headings gezet voor subonderdelen van één enkel voorbeeld — te zwaar headin-niveau (men zou ### gebruiken). A6 r.179-181: 'of een gedeelte' eindigt zonder leesteken gevolgd door een lege regel voor 'ervan ook de mogelijkheid...'.",
+    "concrete_problemen": [
+      {
+        "regel": 167,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "| | 400 | Handelsdebiteuren/ TD> | 10,61 | |"
+      },
+      {
+        "regel": 124,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| \n\n## Balans in BEF op 30/4/99"
+      },
+      {
+        "regel": 147,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## A. Afsluiting van de boekhouding in BEF (## voor subonderdeel van voorbeeld)"
+      },
+      {
+        "regel": 179,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "Ondernemingen naar Belgisch recht hebben tijdens de gehele duur van de overgangsperiode of een gedeelte \n\nervan ook de mogelijkheid..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Journaalboekingen in pipe-syntax correct opgemaakt (r.149-176)",
+      "Vijf gedetailleerde voetnoten volledig aanwezig",
+      "Inhoud volledig: beide conversieproblematiekvragen beantwoord"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0175-01-verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "C1 bevestigd r.102 en r.117: '•' bullet-glyphs (PDF-iconen) in plaats van markdown '-'. A6 bevestigd r.105-116: bullets beginnen met '- ' gevolgd door een lege regel ('- \\n\\nde Belgische Staat is de voornoemde...') waardoor bulletinhoud is losgekoppeld van het bullet-teken — zichtbare regelbreukpatroon in lijstcontext. Twee afzonderlijke categorieën met duidelijke artefacten. Overige structuur en zes voetnoten correct.",
+    "concrete_problemen": [
+      {
+        "regel": 102,
+        "categorie": "C1",
+        "type": "bullet-glyph",
+        "voorbeeld": "• In het PBEG van 6 augustus 1996 staat een mededeling..."
+      },
+      {
+        "regel": 105,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "- \n\nde Belgische Staat is de voornoemde verplichtingen inzake..."
+      },
+      {
+        "regel": 117,
+        "categorie": "C1",
+        "type": "bullet-glyph",
+        "voorbeeld": "• In haar beschikking van 4 december 1996 kondigt de Europese Commissie aan..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Zeven ##/###-headings geven duidelijke sectionering",
+      "Zes voetnoten volledig en correct afgesloten",
+      "Inhoud volledig: alle vier beslissingshypothesen uitgewerkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0177-01-boekhoudkundige-verwerking-van-de-mini-bel-20.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4 bevestigd r.136: 'hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*' — de opening asterisk grenst direct aan 'de' zonder spatie, wat een malformed italic-patroon is dat een mens nooit zo zou typen. G3 bevestigd r.160-161: 'het risico [^10]\\n-in de jaarrekening' — voetnootreferentie midden in zin gevolgd door een koppelteken aan het begin van de volgende regel (inline-voetnoot artefact). Heading-hiërarchie (##/###/####) en 11 voetnoten correct.",
+    "concrete_problemen": [
+      {
+        "regel": 136,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*"
+      },
+      {
+        "regel": 160,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": "het risico [^10]\n-in de jaarrekening in een afzonderlijke post"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (##/###/####) correct en consistent opgebouwd",
+      "11 voetnoten volledig en correct afgesloten",
+      "Inhoud volledig: koper- en emittentperspectief beide uitgewerkt met alle vereffeningsmethoden"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0179-01-boekhoudkundige-verwerking-van-broeikasgasemissierechten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B4 bevestigd r.73: '(Update november 2008)' als plain tekst direct na de H1-titel in plaats van als subkopje. D4 bevestigd r.163/165: 'Bij de* Interpretation 3 Emission Rights*' en 'In verband met de* Interpretation 3 Emission Rights*' — opening asterisk grenst direct aan 'de' zonder spatie (malformed italic). D4 ook r.180: ',* sui generis* rechten' toont spatie voor opening asterisk. Noot: de B2-sprong die in vorige ronde werd gemeld is niet meer zichtbaar in de huidige body (IFRIC/Bruto/Nettomethode staan als ###, correct onder ##), maar D4 en B4 volstaan voor needs-rework.",
+    "concrete_problemen": [
+      {
+        "regel": 73,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "(Update november 2008) — plain tekst direct na H1-titel, geen heading-prefix"
+      },
+      {
+        "regel": 163,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Bij de* Interpretation 3 Emission Rights* worden ook voorbeelden gegeven"
+      },
+      {
+        "regel": 165,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "In verband met de* Interpretation 3 Emission Rights* werden een aantal kritieken"
+      },
+      {
+        "regel": 180,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": ",* sui generis* rechten en roerende rechten"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Drie methoden (IFRIC/Bruto/Netto) elk volledig uitgewerkt",
+      "21 voetnoten volledig en correct afgesloten",
+      "Heading-hiërarchie ## → ### is in de huidige body correct (B2-issue uit ronde 1 lijkt opgelost)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2009-03-boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Meerdere artefacten bevestigd: B4 r.76/84/95/142: vier ##-headings in all-caps ('## INLEIDING', '## OVERZICHT VAN DE ALGEMENE BEGINSELEN', '## BEOORDELING VAN HET VASTSTAAND KARAKTER', '## VOORBEELDEN') i.p.v. normale schrijfwijze. E2 r.146/162/180/186/259: drie tabellen volledig afwezig — 'Tabel 1' (r.180), 'Tabel 2' (r.186), 'Tabel 3' (r.259) zijn plain-text placeholders zonder tabelinhoud; dit is significante inhoudsverlies. D4 r.164: '***a) Voorbeeld 1...**' heeft ongematcht triple/double asterisk. Ook r.170: '## ii. Inresultaatneming' is een ##-heading voor een subpunt binnen een opsomming (B2).",
+    "concrete_problemen": [
+      {
+        "regel": 76,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "## INLEIDING (all-caps ##-heading)"
+      },
+      {
+        "regel": 180,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "Tabel 1 (plain-text placeholder zonder tabelinhoud — inresultaatnemingstabel kapitaalsubsidie)"
+      },
+      {
+        "regel": 186,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "Tabel 2 (plain-text placeholder zonder tabelinhoud — aflossingsplan krediet)"
+      },
+      {
+        "regel": 259,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "Tabel 3 (plain-text placeholder zonder tabelinhoud — inresultaatneming voorbeeld 2)"
+      },
+      {
+        "regel": 164,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "***a) Voorbeeld 1 : Subsidie verkregen...** * (ongematcht *** vs **)"
+      },
+      {
+        "regel": 170,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## ii. Inresultaatneming van de kapitaalsubsidie (## voor subpunt binnen opsomming)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Conceptuele inhoud (drie verbintenis-hypothesen) volledig aanwezig en goed gestructureerd",
+      "17 voetnoten correct afgesloten",
+      "Twee voorbeelden inhoudelijk correct uitgewerkt in boekingenlijsten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2009-04-model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4 bevestigd r.64: 'beperkt is tot* \"de registratie van de verrichtingen' — sluitende asterisk van italic staat direct vóór een aanhalingsteken zonder spatie-na-asterisk (malformed italic). Aanvullend nieuw in deze ronde: B4 r.56/70: twee ##-headings in all-caps ('## SCHRAPPING VAN HET WOORD « MINIMAAL »' en '## HET ONGESPLITSTE DAGBOEK HOUDEN') die in vorige ronde niet waren gerapporteerd maar duidelijke all-caps structuurlabels zijn. Inhoud volledig; twee voetnoten correct.",
+    "concrete_problemen": [
+      {
+        "regel": 64,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "beperkt is tot* \"de registratie van de verrichtingen met betrekking tot de mutaties"
+      },
+      {
+        "regel": 56,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "## SCHRAPPING VAN HET WOORD « MINIMAAL » IN ARTIKEL 2 EN BIJLAGE A VAN HET BESLUIT (all-caps ##)"
+      },
+      {
+        "regel": 70,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "## HET ONGESPLITSTE DAGBOEK HOUDEN DOOR MIDDEL VAN GEINFORMATISEERDE SYSTEMEN (all-caps ##)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: beide vragen (schrapping minimaal + Excel-drager) beantwoord",
+      "Twee voetnoten correct afgesloten",
+      "Logische alineaverdeling zonder regelbreuken in de body"
+    ]
+  }
+]

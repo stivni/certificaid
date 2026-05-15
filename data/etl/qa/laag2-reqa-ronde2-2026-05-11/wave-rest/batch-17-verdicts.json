@@ -1,0 +1,290 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-13-provisie-aanvullende-dagen-verlof-arbeidsduurvermindering.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Bevestiging van bestaand verdict. D4: malformed italic op regels 80 en 82 — `die* in vast dienstverband[^4] *` en `rekening 444 *Te ontvangen facturen. *` met spatie vóór sluitende asterisk. Patroon stelselmatig consistent met ETL-batch; scraper-fix heeft dit niet opgelost. Inhoud en structuur zijn verder correct en volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 80,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Voor werknemers die* in vast dienstverband[^4] * werken"
+      },
+      {
+        "regel": 82,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 444 *Te ontvangen facturen. *"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en correct: inleiding, boekhoudkundige verwerking en voetnoten [^1]–[^4] aanwezig",
+      "Heading-hiërarchie correct (## Inleiding, ## Boekhoudkundige verwerking)",
+      "Geen TOC-artefacten, geen form-feeds, geen OCR-issues"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-14-belastingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Bevestiging van bestaand verdict. B5: regel 157 bevat `Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen` als plain-text alinea zonder heading-prefix, terwijl omliggende subrekeningen elk een `####`-heading hebben. D4: stelselmatige malformed italic bij rekeningnamen (spatie vóór sluitende asterisk) op minstens regels 121, 135, 155, 164, 190 en 261.",
+    "concrete_problemen": [
+      {
+        "regel": 157,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen"
+      },
+      {
+        "regel": 121,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 640* Bedrijfsbelastingen*. Als tweede voorbeeld"
+      },
+      {
+        "regel": 135,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "daartoe gecreëerd een rekening 6703* Gevormde fiscale voorziening*"
+      },
+      {
+        "regel": 155,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 640 *Bedrijfsbelastingen *wanneer ze negatief is"
+      },
+      {
+        "regel": 261,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "fictief karakter van de *vordering *op de overheid"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Groot advies (45k chars) met 42 headings — hiërarchie correct op één ontbrekende heading na",
+      "Alle tabellen in correcte pipe-syntax met consistente structuur",
+      "Voetnoten [^1]–[^48] aanwezig en volledig gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-15-boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Bevestiging van bestaand verdict. D4: malformed italic op regels 153 (`*inrichter *`), 155 (`*pensioeninstelling *`), 224 (`***Samenvattend ***`) en 242 (`**Geen externalisering van* alle *risico's **`) — spatie vóór sluitende asterisk, inconsistent gemengd bold/italic. Scraper-fix heeft dit patroon niet opgelost.",
+    "concrete_problemen": [
+      {
+        "regel": 153,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "de pensioentoezegging die door de *inrichter *wordt gegeven"
+      },
+      {
+        "regel": 155,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Opdat de *pensioeninstelling *ook effectief in staat zou zijn"
+      },
+      {
+        "regel": 224,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "***Samenvattend ***kan dus besloten worden"
+      },
+      {
+        "regel": 242,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "**Geen externalisering van* alle *risico's **"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: WAP-beschrijving, externaliseringsstructuur en boekhoudkundige verwerking intact",
+      "Heading-hiërarchie logisch ondanks complexe geneste structuur (## / ### / **3.1.1.**)",
+      "Voetnoten [^1]–[^16] correct gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-16-toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Nieuw verdict (was unreviewed). E1/E2: de RSU-voorbeeldtabellen op regels 95–232 (methode A) en 319–420 (methode B) zijn niet gerenderd als pipe-tabellen maar als gefragmenteerde aaneengekoppelde single-cell blokken (`|` + lege regels + `|---|` + losse celinhoud op afzonderlijke regels). Dit is een stelselmatig tabelextractie-artefact. B5: regels 71–72 en 86–87 bevatten methode-koppen als plain-text alinea's (`Erkenning van de kost op basis van…`) die headings hadden moeten zijn.",
+    "concrete_problemen": [
+      {
+        "regel": 95,
+        "categorie": "E1",
+        "type": "other",
+        "voorbeeld": "| \n\n  | | \n|---|\n\nBeurskoers\n\n  | | \n|---|\n\nVerwachte beurskoers..."
+      },
+      {
+        "regel": 319,
+        "categorie": "E1",
+        "type": "other",
+        "voorbeeld": "| \n\n  | | \n|---|\n\nBeurskoers\n\n  | | \n|---|\n\nVerwachte retentiegraad"
+      },
+      {
+        "regel": 71,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Erkenning van de kost op basis van de verwachte beurskoers of verwachte reële waarde..."
+      },
+      {
+        "regel": 86,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Erkenning van de kost op basis van de effectieve beurskoers of reële waarde per balansdatum"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Prose-secties correct en volledig: inleiding, beschrijving methode A en B, boekingsschemas in pipe-format",
+      "Boekingstabellen (niet de voorbeeldtabellen) correct als pipe-syntax gerenderd",
+      "Voetnoten [^1]–[^10] volledig aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-17-schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Nieuw verdict (was unreviewed). E1/E2: de samenvattende tabellen in bijlagen 1 en 2 (regels 289–1099) zijn gefragmenteerd als single-cell blokken met `| \n\n  | | \n|---|` — zelfde extractor-bug als CBN-2018-16/22. B5: regel 95–96 bevat `De zakelijke zekerheden bedoeld in KB W.Venn.` als plain-text subsectie-label zonder heading-prefix; regel 230 idem (`De staat over de betrekkingen met verbonden...`). B3: `## Onherroepelijk beloofd of gesteld` op regels 298, 486, 669, 829, 987 staat als `##`-heading midden in gefragmenteerde tabelinhoud — logisch onjuiste heading-positie.",
+    "concrete_problemen": [
+      {
+        "regel": 95,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "De zakelijke zekerheden bedoeld in KB W.Venn."
+      },
+      {
+        "regel": 230,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "De staat over de betrekkingen met verbonden, geassocieerde ondernemingen..."
+      },
+      {
+        "regel": 291,
+        "categorie": "E1",
+        "type": "other",
+        "voorbeeld": "| \n\n**Soort zekerheid**\n\n  | | \n|---|\n\n## Onherroepelijk beloofd of gesteld"
+      },
+      {
+        "regel": 298,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "## Onherroepelijk beloofd of gesteld (midden in tabelinhoud)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Prose-inhoud volledig: inleiding, begripsbepaling, de op te stellen staten, en verband tussen staten",
+      "Heading-hiërarchie in de prose-secties correct (#, ##, ###, ####, #####)",
+      "Voetnoten [^1]–[^98] aanwezig en correct gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-22-groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Nieuw verdict (was unreviewed). E1/E2: alle voorbeeldtabellen (Voorbeeld 1–4, regels 95–640) zijn gefragmenteerd als single-cell blokken — identieke extractor-bug als CBN-2018-16/17. B5: de subsectiekopjes `### Vennootschap A: 205.000` op regels 177 en vergelijkbare regels (473, 555, 621) zijn feitelijk rekenresultaten als pseudo-heading gerenderd; en `## Geconsolideerd bedrag` op regel 268 en `## Geaggregeerde cijfers` op regels 372 en 456 dienen als tabelrij-labels maar staan als `##`-headings. B2: `## Geconsolideerd bedrag` en `## Geaggregeerde cijfers` als niveau-2-headings terwijl ze logisch sub-tabelrijen zijn.",
+    "concrete_problemen": [
+      {
+        "regel": 95,
+        "categorie": "E1",
+        "type": "other",
+        "voorbeeld": "| \n\n  | | \n|---|\n\n**Rekening 70[^9]** \n\n  | | \n|---|\n\n**Rekening 74[^10]**"
+      },
+      {
+        "regel": 268,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Geconsolideerd bedrag[^19] (staat als ##-heading, is tabelrij-label)"
+      },
+      {
+        "regel": 177,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "### Vennootschap A: 205.000 (d.i. 200.000 + 5.000)[^12]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Prose-uitleg volledig en correct: geconsolideerde en geaggregeerde methode helder beschreven",
+      "Voetnoten [^1]–[^38] volledig en correct gedefinieerd",
+      "Heading-structuur in de niet-tabel-secties logisch gelaagd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-23-begin-van-het-boekjaar.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Na re-scrape met scraper-fixes is het TOC-artefact (A3) dat in de vorige ronde aanwezig was verdwenen. De body begint direct met de titel-heading gevolgd door de inhoudssecties zonder enig plain-text TOC-blok. Structuur correct, tabellen in pipe-format, voetnoten [^1]–[^40] volledig aanwezig. Geen nieuwe ETL-artefacten gevonden in categorieën A–G.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "TOC-artefact verwijderd door scraper-fix: body start direct na frontmatter met ## Inleiding",
+      "Alle boekingstabellen correct als pipe-syntax (debet/credit-format)",
+      "Heading-hiërarchie correct: # > ## > ### consistent door heel het document",
+      "Inhoud volledig: oprichting, overname verbintenissen, fusie/splitsing, inbreng algemeenheid"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-24-duolegaat-vereniging-en-stichting.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Bevestiging van bestaand verdict. A3: regel 70 bevat `vereniging of stichting` als losstaande plain-text regel direct na de frontmatter — TOC-residu dat niet door de scraper-fix is verwijderd. D4: stelselmatig malformed italic voor `*duolegaat *` (spatie vóór sluitende asterisk) op minstens regels 74, 78, 82, 83, 87, 91, 93, 97, 101, 103, 115–120, 124, 150.",
+    "concrete_problemen": [
+      {
+        "regel": 70,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "vereniging of stichting"
+      },
+      {
+        "regel": 78,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Bij het *klassieke duolegaat *wordt de nalatenschap volledig toebedeeld"
+      },
+      {
+        "regel": 83,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Bij een* omgekeerd duolegaat* wordt het begunstigde verre familielid"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: kleine VZW, grote VZW, duolegaat in geld en natura correct behandeld",
+      "Boekingstabellen correct als pipe-syntax",
+      "Voetnoten [^1]–[^12] correct gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2019-06-groepsbijdrage.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Bevestiging van bestaand verdict. D4: regel 76 heeft `*groepsbijdrage*regeling` — ontbrekende spatie tussen italic-close en aangrenzend woord. B2: `## Bij de eindejaarsverrichtingen op 31/12/N` (regels 136, 152) en `## Bij het sluiten van de groepsbijdrage-overeenkomst` (regels 143, 156) staan op `##`-niveau terwijl hun ouder-heading `### In hoofde van vennootschap B/A` op `###`-niveau staat — hiërarchie-sprong omhoog.",
+    "concrete_problemen": [
+      {
+        "regel": 76,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "de *groepsbijdrage*regeling[^2] in de statutaire jaarrekening"
+      },
+      {
+        "regel": 136,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Bij de eindejaarsverrichtingen op 31/12/N (kind van ### In hoofde van vennootschap B)"
+      },
+      {
+        "regel": 143,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Bij het sluiten van de groepsbijdrage-overeenkomst (in boekjaar N+1)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: beschrijving groepsbijdrage-regeling, boekhoudkundige verwerking betaler en ontvanger",
+      "Boekingstabellen correct als pipe-syntax",
+      "Voetnoten [^1]–[^18] volledig aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Na re-scrape met scraper-fixes is het TOC-artefact (A3, regels 53–99 in de vorige versie) verdwenen. De body begint direct met `## Inleiding` na de frontmatter. Geen TOC-blok zichtbaar. Structuur volledig correct: 36 headings correct hiërarchisch gelaagd (#, ##, ###, ####), alle boekingstabellen in pipe-syntax, voetnoten [^1]–[^17] correct gedefinieerd. Geen artefacten uit categorieën A–G gevonden.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "TOC-artefact verwijderd door scraper-fix: body start direct met ## Inleiding",
+      "36 headings correct hiërarchisch gelaagd over 6 boekjaren van uitgewerkt voorbeeld",
+      "Alle boekingstabellen in correcte pipe-syntax met rekening/omschrijving/debet/credit-kolommen",
+      "Inhoud volledig: obligatiedefinitie, kosten, agio/disagio, volledig doorgerekend voorbeeld 2019–2025"
+    ]
+  }
+]

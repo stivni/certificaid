@@ -1,0 +1,45 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/Wet-betalingsachterstand-2002.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Switch van custom_wetboek naar pdftotext_ejustice levert een schone, volledige NL-tekst op. Heading-hierarchie is correct en consistent: H1 voor de wet-titel, H2 voor de vier HOOFDSTUKKEN (I. Algemene bepalingen, II. Betalingsachterstand bij handelstransacties, III. Vordering tot staking, IV. Slotbepalingen), H3 voor alle 15 artikelen (Art. 1 t/m Art. 15, inclusief Art. 3/1 met opheffingsnotitie). De typische ejustice-coordinatie-markers ([1 ... ]1, [2 ... ]2, etc.) zijn correct bewaard en de bijbehorende wijzigings-voetnoten staan onder elk artikel binnen een '----------'-blok met W/KB-referenties + inwerkingtredingsdatum. Geen tweetalige leak, geen running headers, geen TOC-duplicaten. Frontmatter is correct (itaa-lex-sectie XIV, bron_rol itaa_lex, provenance met pdf-sha256). Inhoudelijke kerntermen (referentie-interestvoet, forfaitaire 40 euro vergoeding, 30/60 kalenderdagen, beroepsregulerende overheid) staan op de juiste plaats en zijn integraal aanwezig.",
+    "concrete_problemen": [
+      "Frontmatter: 'bron: ejustice.just.fgov.be (gecoordineerde versie)' is correct maar generiek - kon eventueel een fisconet-/ejustice-stable-link bevatten (cosmetisch, geen retrieval-impact)",
+      "Bijgewerkt-datum in frontmatter staat op 02.08.2002 terwijl de meest recente wijziging in de tekst W 2021-08-14/12 (IW 01-02-2022) is - de gecoordineerde versie reflecteert wijzigingen tot 2022 maar de bijgewerkt-datum doet dat niet (kleine inconsistentie, inhoud is wel up-to-date)"
+    ],
+    "concrete_sterke_punten": [
+      "Volledige NL-tekst zonder FR-leak of dubbele kolommen",
+      "Heading-hierarchie consistent: H2 HOOFDSTUK I-IV, H3 Art. 1 t/m Art. 15",
+      "Alle 15 artikelen aanwezig inclusief opgeheven Art. 3/1 (correct gemarkeerd als <Opgeheven bij W 2016-06-17/19>)",
+      "Wijzigings-voetnoten per artikel correct geformatteerd onder '----------'-blok met (n)<W ...; Inwerkingtreding: ...>-syntax",
+      "Coordinatie-markers [1 ... ]1, [2 ... ]2, [3 ... ]3, [4 ... ]4 correct bewaard - retrieval kan dus historische versies onderscheiden",
+      "Frontmatter correct: ITAA-LEX-sectie XIV, bron_rol itaa_lex, provenance met sha256, generated_at 2026-05-13",
+      "Kerntermen (referentie-interestvoet + 8 procentpunten, forfaitaire 40 euro, 30/60 kalenderdagen, kmo-definitie via WVV 1:24) integraal en correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/KB-21-10-2018.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "De page_start/end + column_filter:nl heeft de FR-kolom gestript en de NL-tekst is volledig en correct van inhoud (alle 16 artikelen aanwezig, alle 6 TITELS en de 5 HOOFDSTUKKEN binnen TITEL 2 correct genest). Echter er zijn drie structurele ETL-artefacten die de retrieval-kwaliteit aantasten en niet binnen de 'cosmetisch <50 chars'-uitzondering vallen: (1) Het Verslag aan de Koning (memorie van toelichting) staat als rommelige lopende paragraaf BOVEN de eigenlijke wettekst (regels 39-49), zonder structuur-heading, gemengd met handtekeningenblok van de ministers (PEETERS/GEENS/VAN OVERTVELDT/DUCARME) - dit is duidelijk een PDF-extractie-leak van een verkeerd pagina-bereik of een gemiste voetnoot-filter. (2) Elk artikel heeft een gebroken heading-structuur waarbij de eerste zin van het artikel mee in de heading staat en dan een paragraph-break volgt voor de rest, bijv. r59-61: '#### Art. 1. Boekhoudplichtige ondernemingen die een onderneming\\n\\nzijn in de zin van...'. Dit gebeurt bij ALLE 16 artikelen en breekt zowel de heading-semantiek als de chunk-grenzen voor RAG. (3) Opsomming-leaks: Art. 4 §3 mist 1° (springt naar 2° en 3° op r87-89) en Art. 9 mist 1° (alleen 2° aanwezig op r131). Daarnaast ontbreken referenties naar bijlagen 1, 2 en 3 die in de tekst worden vermeld maar niet zijn opgenomen. Het ministers-handtekeningenblok aan het einde (r181-189) is OK maar duplicaat met dat aan het begin. Aanbeveling: opnieuw extraheren met juistere page_start (waarschijnlijk 1 pagina later om Verslag aan de Koning te skippen) en heading-detector aanpassen zodat artikel-tekst niet meer in de Art.-heading wordt opgenomen.",
+    "concrete_problemen": [
+      "Regels 39-49: Verslag aan de Koning + ministers-handtekeningenblok als lopende paragraaf BOVEN de eigenlijke wettekst - structurele PDF-leak, niet binnen <50-chars-uitzondering",
+      "ALLE 16 artikel-headings hebben de eerste zin van het artikel mee in de '#### Art. X.'-heading, met paragraph-break voor de rest - breekt heading-semantiek en RAG-chunkgrenzen (bv. r59-61 Art. 1, r65-67 Art. 2, r69-71 Art. 3, r77-79 Art. 4 §1, r97-99 Art. 5, r111-113 Art. 7, r119-121 Art. 8, r127-129 Art. 9, r133-135 Art. 10, r137-139 Art. 11, r145-147 Art. 12, r149-151 Art. 13, r169-171 Art. 15, r175-177 Art. 16)",
+      "Art. 6 (r103) en Art. 14 (r155) hebben geen punt na het nummer terwijl alle andere artikelen wel '#### Art. X.'-syntax gebruiken - inconsistentie",
+      "Art. 4 §3: opsomming start bij '2°' (r87) en '3°' (r89), 1° ontbreekt - tekst-leak",
+      "Art. 9: alleen '2° de verenigingen en de stichtingen' (r131), 1° ontbreekt - tekst-leak",
+      "TITEL 5 ontbreekt in de tekst (springt van TITEL 4 naar TITEL 6) - vermoedelijk ook in origineel KB, maar verdient verificatie",
+      "Bijlagen 1, 2 en 3 worden in tekst gerefereerd (Art. 6, 10, 12) maar zijn niet in het markdown-bestand opgenomen",
+      "Frontmatter bron: 'onbekend' - moet aangevuld worden met bron-URL (ejustice/staatsblad)",
+      "Frontmatter chunk.level: 4 - past wel bij de #### Art.-heading-conventie maar maakt enkel-niveau-deeper-chunking ongebruikelijk vergeleken met andere wetteksten (typisch level 3)"
+    ],
+    "concrete_sterke_punten": [
+      "column_filter:nl heeft de FR-kolom volledig gestript - geen tweetalige leak meer",
+      "Page_start/end 42-46 vangt de juiste pagina-range af voor de eigenlijke wettekst",
+      "Alle 6 TITELS aanwezig (TITEL 1, 2, 3, 4, 6, 7 - TITEL 5 lijkt al in origineel KB te ontbreken)",
+      "Alle 5 HOOFDSTUKKEN binnen TITEL 2 aanwezig en correct genest (Algemene bepalingen, Hulpdagboeken, Bijzondere bepaling vzw/stichtingen, Bijkantoren, Bewaartermijn)",
+      "Alle 16 artikelen aanwezig (Art. 1 t/m Art. 16) inclusief Art. 14-opheffingsbepalingen voor 4 oude KBs",
+      "Heading-hierarchie principe correct: H2 TITEL, H3 HOOFDSTUK, H4 Art. (level-mapping zelf is consistent)",
+      "Inhoudelijke kerntermen correct: 500.000 euro / 620.000 euro grenzen voor vereenvoudigde boekhouding, 7 jaar bewaartermijn, verwijzing naar art. III.82-95 WER, bijlage 1 (algemene rekeningenstelsel) en bijlage 3 (vzw/stichting)"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-0169-01-verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen.md
+resources/bronnen/adviezen/CBN-0169-02-verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen.md
+resources/bronnen/adviezen/CBN-0170-01-boekhoudkundige-verwerking-van-niet-betaalde-schulden-wegens-ontoereikend-actief-bij-het.md
+resources/bronnen/adviezen/CBN-0171-boekhoudkundige-verwerking-van-afvalstoffen.md
+resources/bronnen/adviezen/CBN-0173-02-boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie.md
+resources/bronnen/adviezen/CBN-0173-03-toelichting-bij-de-datum-vanaf-wanneer-ondernemingen-waarvan-het-boekjaar-niet-samenvalt.md
+resources/bronnen/adviezen/CBN-0173-05-toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de.md
+resources/bronnen/adviezen/CBN-0173-06-verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die.md
+resources/bronnen/adviezen/CBN-0173-07-afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn.md
+resources/bronnen/adviezen/CBN-0173-08-aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van.md

@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-2018-16-toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus.md
+resources/bronnen/adviezen/CBN-2018-17-schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en.md
+resources/bronnen/adviezen/CBN-2018-22-groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde.md
+resources/bronnen/adviezen/CBN-2018-24-duolegaat-vereniging-en-stichting.md
+resources/bronnen/adviezen/CBN-2019-06-groepsbijdrage.md
+resources/bronnen/adviezen/CBN-2019-08-boekhoudkundige-verwerking-van-crowdfunding-0.md
+resources/bronnen/adviezen/CBN-2019-13-pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering.md
+resources/bronnen/adviezen/CBN-2020-01-neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe.md
+resources/bronnen/adviezen/CBN-2020-02-afronding-van-betalingen-in-euro-0.md
+resources/bronnen/adviezen/CBN-2020-06-financieringskostensurplus-artikel-194sexies-en-artikel-1981-wib-92.md

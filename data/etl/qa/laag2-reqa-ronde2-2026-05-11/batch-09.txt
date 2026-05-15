@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-2009-10-bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen.md
+resources/bronnen/adviezen/CBN-2009-11-de-boekhoudkundige-verwerking-van-partiele-splitsingen.md
+resources/bronnen/adviezen/CBN-2009-13-de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0.md
+resources/bronnen/adviezen/CBN-2009-15-de-boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid.md
+resources/bronnen/adviezen/CBN-2010-02-de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-betaling.md
+resources/bronnen/adviezen/CBN-2010-03-de-boekhoudkundige-verwerking-van-stockdividenden.md
+resources/bronnen/adviezen/CBN-2010-04-omrekeningsverschillen-ontstaan-bij-omrekening-van-het-kapitaal-naar-aanleiding-van-het.md
+resources/bronnen/adviezen/CBN-2010-10-duur-van-het-boekjaar.md
+resources/bronnen/adviezen/CBN-2010-12-de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten.md
+resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md

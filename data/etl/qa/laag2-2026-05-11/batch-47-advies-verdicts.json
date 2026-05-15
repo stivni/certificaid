@@ -1,0 +1,219 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-07-mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen PDF-artefacten zichtbaar. Heading-hiërarchie correct (# → ## → ###). Alle voetnoten [^2]-[^24] hebben een corresponderende definitie onderaan; [^1] staat als consultatie-noot enkel onderaan (CBN-conventie, geen bug). Inhoud volledig: inleiding, (I)VZW-sectie, stichtingen-sectie, voorbeelden.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (## / ###) sluit nauw aan bij de documentstructuur van het CBN-advies",
+      "Alle voetnoten correct opgemaakt als [^N]: definitie",
+      "Inhoud compleet: beide entiteittypes (VZW/stichting) en goedkeurings-/neerleggingstermijnen volledig uitgewerkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-08-mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen artefacten. Vijf logische ## headings, Latijnse termen correct gecursiveerd. Alle voetnoten [^1]-[^19] aanwezig en correct. Inhoud volledig (goedkeuring, neerlegging, laattijdige neerlegging, voorbeeld).",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Latijnse termen (*ratione materiae*, *ratione personae*) correct als italic gemarkeerd",
+      "Opsomming met markdown-bullets (- ) consistent doorheen het document",
+      "Voorbeeld-sectie geeft concrete datumberekening die volledig klopt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: Voorbeelden (## Voorbeeld 1 t/m 4, regels 93, 104, 116, 124) staan op ## niveau terwijl ze genest zijn binnen een ##### sectie — de hiërarchie springt van ##### terug naar ##. Een mens zou deze als ###### of als vetgedrukte alinea markeren. Verder schoon: frontmatter klopt, voetnoten intact, inhoud compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 93,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Voorbeeld 1 (verschijnt binnen een ##### sectie — hiërarchiesprong)"
+      },
+      {
+        "regel": 104,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Voorbeeld 2 (idem — ## op hetzelfde niveau als hoofdsecties)"
+      },
+      {
+        "regel": 116,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Voorbeeld 3 (idem)"
+      },
+      {
+        "regel": 124,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Voorbeeld 4 (idem)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Vijf heading-niveaus (# → #####) consequent gebruikt voor de juridische structuur",
+      "Voetnoten 1-22 volledig en correct opgemaakt",
+      "Inhoud compleet: monistisch, duaal bestuur en gecoöpteerde bestuurders behandeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-10-schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: Regels 63-108 bevatten een inhoudsopgave als plain-text ingesprongen lijst die midden in de body staat (vóór ## Inleiding op regel 110) — dit is een TOC-fragment dat niet werd verwijderd. Regel 107-108 bevat een aaneengesloten blob van gedupliceerde TOC-tekst (`-------- Waardering...`) als single line, duidelijk een extractie-artefact. A6: regel 97-98 breekt `(geldbeleggingen` en `)` over twee regels midden in een heading-label.",
+    "concrete_problemen": [
+      {
+        "regel": 63,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Inleiding \\n  1. Schenkingen en legaten: nieuwe waarderingsregel ..."
+      },
+      {
+        "regel": 107,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": " -------- Waardering tegen aanschaffingswaarde -------- Waardering tegen werkelijke waarde..."
+      },
+      {
+        "regel": 97,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "Schenking van aandelen (geldbeleggingen\\n) bestemd om duurzaam bij te dragen"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 17 boekingstabellen correct in markdown pipe-syntax",
+      "Voetnoten 1-38 volledig aanwezig",
+      "Inhoud (legaten, schenkingen, geregistreerd/niet-geregistreerd) inhoudelijk compleet"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-11-vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: Malformed italic op regels 77 en 79: `*enerzijds *` en `*anderzijds *` hebben een spatie vóór het sluit-asterisk — geen mens typt dit zo. Ook `*flat'*` (regel 78) combineert een smart-quote binnen een italic span. Verder zijn er orphaned footnote-referenties op eigen regels (bijv. regel 111 `[^16]`, regel 131 `[^18][^19]`) die syntactisch correct zijn maar door de scraper los van hun anker zijn gezet.",
+    "concrete_problemen": [
+      {
+        "regel": 77,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Indien *enerzijds *het tarief van de vennootschapsbelasting..."
+      },
+      {
+        "regel": 79,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Indien *anderzijds *het effectief gerealiseerde verlies..."
+      },
+      {
+        "regel": 78,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "belast aan het '*flat'* tarief"
+      },
+      {
+        "regel": 111,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": " [^16] (orphaned voetnoot-referentie op eigen regel na sectie-label)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Boekhoudkundige tabellen correct in markdown pipe-syntax",
+      "Heading-hiërarchie (## / ###) correct",
+      "Voetnoten 1-24 volledig aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-13-overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: Systematisch patroon van malformed italic doorheen het hele document — sluit-asterisk wordt voorafgegaan door een spatie (`*wet van 23 maart 2019* *tot invoering...* `, `rekening 110 *Beschikbare inbreng buiten kapitaa*l` op regel 124 waarbij `l` buiten het italic-span valt). Minstens 10+ gevallen van `* ` (space voor closing asterisk) als wetstitels worden gecursiveerd. Dit is een consistent scraperpatroon, niet incidenteel.",
+    "concrete_problemen": [
+      {
+        "regel": 57,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Ingevolge de* wet van 23 maart 2019* *tot invoering van het Wetboek..."
+      },
+      {
+        "regel": 124,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 110 *Beschikbare inbreng buiten kapitaa*l (l valt buiten italic)"
+      },
+      {
+        "regel": 65,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Overgangsregeling...houdende diverse bepalingen[^3] * (spatie voor sluit-*)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (## / ### / ####) correct voor een complex advies",
+      "Inhoud volledig: CVBA coöp, CVBA niet-coöp, CVOA, nieuwe inbreng, scheidingsaandeel",
+      "Voetnoten 1-31 volledig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-14-boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen significante artefacten. Drie situaties (koper-rekening, verkoper-rekening, notaris-rekening) helder als ### headings. Alle boekingstabellen in markdown pipe-syntax. Lege Debet/Credit cellen in de ordererekenings-tabellen zijn intentioneel (bedragen zijn situatie-afhankelijk). Voetnoten 1-34 aanwezig. Inhoud compleet.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Drie situaties logisch gestructureerd als ### subsecties",
+      "Boekingstabellen consistent in markdown pipe-syntax, ook voor orderrekeningen",
+      "Voetnoten geven uitgebreide wettelijke onderbouwing en zijn correct opgemaakt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-15-zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Kort advies (3923 tekens, 2 headings) maar inhoudelijk compleet voor zijn doel: een standpuntbepaling over een specifieke vraag van de NBB. Geen PDF-artefacten. Voetnoten [^1]-[^2] correct opgemaakt. Wettelijke citaten correct ingesprongen.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Inhoud is proportioneel aan het korte, gerichte karakter van het advies",
+      "Wetsartikel (art. 14:30 WVV) volledig geciteerd als blockquote-achtige alinea",
+      "Geen enkel spoor van PDF-extractie zichtbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-01-uitgiftepremie-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: Systematisch patroon van malformed italic: rekeningnamen worden gecursiveerd als `*Uitgiftepremie *` (spatie vóór sluit-asterisk), minstens 15+ gevallen door heel het document. Zie bijv. regels 75, 81, 83, 84, 108, 112, 125-132. Dit is hetzelfde scraperpatroon als in CBN-2020-13. Inhoud en structuur zijn verder correct.",
+    "concrete_problemen": [
+      {
+        "regel": 75,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 1100 *Uitgiftepremie *en worden deze in het schema..."
+      },
+      {
+        "regel": 81,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "geboekt op de rekening 1110 *Uitgiftepremie *en worden deze..."
+      },
+      {
+        "regel": 84,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*I.B. Inbreng - Onbeschikbaar*. (spatie voor * in inline cursief)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (## / ### / ####) correct voor een gelaagd advies",
+      "Boekingstabellen in correcte markdown pipe-syntax",
+      "Voetnoten 1-20 volledig aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-03-de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Zeer kort advies (4062 tekens) zonder tussensecties — dit weerspiegelt het originele document dat enkel een # titel heeft en dan doorlopende tekst. Geen PDF-artefacten. Rekeningnamen gecursiveerd als *Onbeschikbare inbreng buiten kapitaal* en *Beschikbare inbreng buiten kapitaal* — hier zonder trailing spatie, schoon. Voetnoten [^1]-[^4] correct. Inhoud volledig voor een kort standpuntadvies.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Geen zichtbare extractie-artefacten",
+      "Italic voor rekeningnamen correct afgesloten (geen trailing spatie)",
+      "Voetnoten geven volledige wettelijke grondslag"
+    ]
+  }
+]

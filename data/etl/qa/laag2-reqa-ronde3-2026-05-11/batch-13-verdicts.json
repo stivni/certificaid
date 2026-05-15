@@ -1,0 +1,280 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-24-uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6: structureel patroon van spurious line-breaks na voetnootreferenties midden in lopende zinnen — regels 75-76 (' Dit geldt *mutatis mutandis*[^9]\\n Ook het schema') en 78-79 ('[^11]\\n De Commissie meent') zijn kenmerkend voor dit ETL-patroon. Tabel correct in pipe-syntax; inhoud en voetnoten compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 75,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": " Dit geldt *mutatis mutandis* voor het microschema van de resultatenrekening.[^9]"
+      },
+      {
+        "regel": 76,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": " Ook het schema van de resultatenrekening van de geconsolideerde jaarrekening"
+      },
+      {
+        "regel": 78,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "zijn opgenomen onder de niet-recurrente bedrijfs- of financiële resultaten.[^11]"
+      },
+      {
+        "regel": 79,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": " De Commissie meent dus dat in deze context in de praktijk geen verschil"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "MAR-tabel correct in pipe-syntax met 4 secties herkenbaar",
+      "Alle voetnoten aanwezig en correct gelinkt",
+      "Inhoud volledig inclusief voorbeeld en toelichting"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-25-kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: regel 63 (body) bevat '*Reserve voor voorzienbaar verlies[^5]*  om na te gaan' — dubbele spatie na de sluitende asterisk is een broken italic-markering, consistent ETL-artefact uit dezelfde pipeline. Overige structuur (9 headings hiërarchisch correct, 3 boekingstabellen in pipe-syntax, voetnoten volledig) is intact.",
+    "concrete_problemen": [
+      {
+        "regel": 63,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Reserve voor voorzienbaar verlies[^5]*  om na te gaan of de wettelijke voorwaarden"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "9 headings correct hiërarchisch aanwezig tot ##### niveau",
+      "Drie boekingstabellen volledig in pipe-syntax",
+      "Formules en numerieke voorbeelden intact en leesbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6/G3: regel 70 (body) bevat ', bijgewerkt op 10 september 2025[^2]' als losstaande orphan-zin direct na de H1 — bijwerkingsartefact van de scraper. A6: meerdere spurious line-breaks na voetnootreferenties midden in zinnen (regels 79, 84, 107, 108, 142-143). B2: 'Geval 2' op regels 126 en 161 staat als ## heading terwijl het een sub-element is van een Voorbeeld-sectie (structureel onjuiste hiërarchie).",
+    "concrete_problemen": [
+      {
+        "regel": 70,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": ", bijgewerkt op 10 september 2025[^2]"
+      },
+      {
+        "regel": 84,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "moet zijn. Opdat er sprake zou zijn van een gezamenlijke controle is een overeenkomst noodzakelijk.[^8]"
+      },
+      {
+        "regel": 107,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "controle uitoefent over de vennootschap X.[^11]\n Hieruit volgt dat"
+      },
+      {
+        "regel": 126,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Geval 2: De vennootschap A en de vennootschap B hebben geen overeenkomst"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee volledige rekenkundige voorbeelden met tabellen correct weergegeven",
+      "Uitgebreide voetnoten (28) volledig aanwezig",
+      "Inhoud volledig inclusief beide 'Geval 1' en 'Geval 2' scenario's"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-04-gegeven-borgtochten-in-contanten-en-effecten-update.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6/G3: regel 55 (body) bevat ', bijgewerkt op 10 september 2025[^2]' als losstaand fragment direct na H1 — scraper-artefact. D4: regel 67 (body) bevat '750* Opbrengsten uit financiële vaste activa*' waarbij de asterisk direct aan het rekeningsnummer kleeft zonder spatie — broken italic openingsmarkering. Klein advies, inhoud verder volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 55,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": ", bijgewerkt op 10 september 2025[^2]"
+      },
+      {
+        "regel": 67,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "De rekeningen 750* Opbrengsten uit financiële vaste activa* en 751"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig ondanks korte omvang",
+      "Voetnoten correct aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A2: regels 61-62 (body) bevatten twee losstaande ', 15' fragmenten direct na de H1 — paginanummer-resten zonder context, typisch dotted-leader artefact. D4: regel 165 (body) bevat 'met *inlichtingen* betreffende' — controleer op spatie voor sluitende asterisk (potentieel ETL-artefact). Omvangrijke inhoud (26370 chars) met 14 headings verder volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 61,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": ", 15"
+      },
+      {
+        "regel": 62,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": ", 15"
+      },
+      {
+        "regel": 165,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "met *inlichtingen* betreffende belangrijke hangende geschillen"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "14 headings correct hiërarchisch aanwezig",
+      "Uitgebreide inhoud (26370 chars) met alle secties compleet",
+      "Alle 29 voetnoten aanwezig en correct gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-08-cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: regel 63 (body) bevat 'bij opmaak jaarrekening volgens nieuw model' als losstaande orphan-zin direct na de H1 — duplicaat van de ondertitel, extractie-artefact. A6: regels 69-70 en 76-77 bevatten spurious line-breaks na voetnootreferenties midden in zinnen ('[^3]\\n Daarnaast' en '[^5]\\n Dit leidt ertoe'). Klein advies, inhoud compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 63,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "bij opmaak jaarrekening volgens nieuw model"
+      },
+      {
+        "regel": 70,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "wijziging plaatsvindt.[^3]\n Daarnaast wordt er voor het volledige"
+      },
+      {
+        "regel": 77,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "die aanvatten op of na 1 januari 2016.[^5]\n Dit leidt ertoe"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig ondanks korte omvang",
+      "Voetnoten correct aanwezig en gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-13-boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B1: heading_count=0 — het volledige advies heeft geen enkele ## heading; de inhoud staat als één ongestructureerd blok, wat RAG-chunking ernstig bemoeilijkt (ETL-bug: de CBN-website toont paragrafen die als secties hadden kunnen worden geëxtraheerd). A4: voetnoot 84 bevat 'CBN-advies 2015/9 ‐' met een U+2010 non-breaking hyphen die een gewone koppelteken vervangt.",
+    "concrete_problemen": [
+      {
+        "regel": 64,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "Volledig advies zonder ## headings (heading_count=0); inhoud als één ongestructureerd blok"
+      },
+      {
+        "regel": 84,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "CBN-advies 2015/9 ‐ Boekhoudkundige verwerking (U+2010 non-breaking hyphen)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud juridisch volledig en coherent",
+      "Voetnoten correct aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-14-verenigingen-en-stichtingen-verwerving-door-de-erfpacht-houder-van-het-met-een-erfpacht.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: tabelcel op regels 165-166 (body) bevat een spurious line-break midden in de celinhoud ('Terreinen die volle eigendom\\n zijn van de vereniging'), waardoor de markdown-tabel niet correct rendert. D4: regel 119 (body) bevat '*getrapte[^8]*  overdracht' met dubbele spatie na de sluitende asterisk — ETL-artefact. Overige tabellen en inhoud volledig intact.",
+    "concrete_problemen": [
+      {
+        "regel": 165,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| 2201 | Terreinen die volle eigendom\n zijn van de vereniging | 100 | |"
+      },
+      {
+        "regel": 119,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*getrapte[^8]*  overdracht van de volle eigendom"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "14 headings correct hiërarchisch aanwezig",
+      "Alle 8 boekingstabellen correct in pipe-syntax (op 1 na)",
+      "Drie uitgewerkte voorbeelden volledig aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6/G3: regel 59 (body) bevat ', bijgewerkt op 10 september 2025[^2]' als orphan-zin direct na de H1 — scraper-artefact. E1/E2: de drie balans-tabellen (regels 73-76, 82-83, 89-93) zijn malformed — meerdere data-kolommen aaneengeregen in één pipe-rij zonder correcte kolom-scheiding, tabel rendert niet als multi-kolom tabel. D4: regel 104 bevat '*pooling of interest[^5]*  methode' met dubbele spatie na sluitende asterisk.",
+    "concrete_problemen": [
+      {
+        "regel": 59,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": ", bijgewerkt op 10 september 2025[^2]"
+      },
+      {
+        "regel": 73,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| Positief consolidatieverschil | | 100 | | Eigen vermogen | | 80 |"
+      },
+      {
+        "regel": 104,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*pooling of interest[^5]*  methode te gebruiken bij een bedrijfscombinatie"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig inclusief richtlijn-citaat en groottecriteria-bespreking",
+      "Voetnoten correct aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-16-onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B5: regels 96 en 128 (body) bevatten sectiehoofdingen als plain-text zonder ## prefix: 'Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt' en 'Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd' — beiden zijn secties met inhoudstafel-equivalent niveau maar missen de heading-markering. B3: regel 57 (body) herhaalt 'vermeldingen in de jaarrekening' als orphan-zin direct na de H1.",
+    "concrete_problemen": [
+      {
+        "regel": 96,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt"
+      },
+      {
+        "regel": 128,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd"
+      },
+      {
+        "regel": 57,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "vermeldingen in de jaarrekening"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "15 headings correct aanwezig voor overige secties",
+      "Uitgebreid voorbeeld (BVBA X / VOF Y) volledig aanwezig",
+      "Alle 22 voetnoten aanwezig en correct gelinkt"
+    ]
+  }
+]

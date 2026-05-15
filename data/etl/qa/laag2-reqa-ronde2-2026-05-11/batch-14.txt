@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-2016-02-boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden.md
+resources/bronnen/adviezen/CBN-2016-04-verenigingen-en-stichtingen-boekhoudkundige-verwerking-van-meerjarige-toekenningen-bij.md
+resources/bronnen/adviezen/CBN-2016-07-verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro.md
+resources/bronnen/adviezen/CBN-2016-08-bepaling-van-de-omzet-van-een-franchisenemer.md
+resources/bronnen/adviezen/CBN-2016-11-boekhoudkundige-verwerking-van-de-cross-currency-swap.md
+resources/bronnen/adviezen/CBN-2016-13-verenigingen-en-stichtingen-roerende-voorheffing.md
+resources/bronnen/adviezen/CBN-2016-15-vergoedingen-aan-bestuurders-en-werkende-vennoten.md
+resources/bronnen/adviezen/CBN-2016-17-verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen.md
+resources/bronnen/adviezen/CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0.md
+resources/bronnen/adviezen/CBN-2016-20-leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-boek-xx-insolventie-van.md

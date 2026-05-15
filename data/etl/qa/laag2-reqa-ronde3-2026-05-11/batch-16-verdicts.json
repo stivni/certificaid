@@ -1,0 +1,338 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-10-schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A7: Regel 71 (body) bevat een weesregel ') bestemd om duurzaam bij te dragen aan de activiteit van de VZW' als los fragment vóór ## Inleiding — duidelijk extractie-artefact van een afgebroken sectie-titel. B2: Heading-hiërarchie-terugsprong op regels 200-204: #### Niet-geregistreerde schenking → ##### Waardering → ### Voorbeeld 5 — ### staat structureel hoger dan #### en #####, wat een onmogelijke hiërarchische terugkeer is zonder tussenliggende headings.",
+    "concrete_problemen": [
+      {
+        "regel": 71,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": ") bestemd om duurzaam bij te dragen aan de activiteit van de VZW"
+      },
+      {
+        "regel": 200,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "### Voorbeeld 5 (na #### Niet-geregistreerde schenking en ##### Waardering)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "17 voorbeeldboekingen volledig uitgewerkt als markdown-tabellen met correcte pipe-syntax",
+      "Alle 38 voetnootdefinities aanwezig en correct gelinkt",
+      "Inhoud compleet: legaten, schenkingen roerend en onroerend, geregistreerd en niet-geregistreerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-11-vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: Regel 91 bevat '*enerzijds*' correct maar '*anderzijds *' (spatie vóór sluit-asterisk) en \"'*flat'*\" (smart-quote doorkruist italic span) — malformed italic op dezelfde regel. B5: Regel 109 bevat 'In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd' als plain-text zonder heading-prefix, waarna regel 110 dezelfde zin herhaalt als inleiding op de inhoudelijke paragraaf — structuurniveau ontbreekt terwijl ### In het boekjaar waarin... op regel 97 wél een heading heeft.",
+    "concrete_problemen": [
+      {
+        "regel": 91,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Indien *anderzijds *het effectief gerealiseerde verlies"
+      },
+      {
+        "regel": 91,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "onderworpen is aan het '*flat'* tarief"
+      },
+      {
+        "regel": 109,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd (plain text, geen heading)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Beide voorbeeldboekingen (voorbeeld 1 en 2) correct uitgewerkt in markdown-tabeltabel",
+      "Alle 24 voetnootdefinities aanwezig",
+      "Wetgevend kader (wet van 23 juni 2020 + wet van 15 juli 2020) volledig en correct geciteerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-13-overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: Systematisch patroon malformed italic doorheen het document — regel 73: 'Ingevolge de* wet van 23 maart 2019*' (spatie vóór opening-asterisk), regel 133: '*Beschikbare inbreng buiten kapitaa*l' (letter 'l' buiten de italic span). B5: Regels 85, 88, 115, 141 bevatten subsectietitels ('CVBA die beantwoordt aan de definitie...' en 'CVBA die niet beantwoordt...') als plain-text paragrafen zonder heading-prefix, terwijl aangrenzende secties (### CVOA, #### Algemene regel) wél headings hebben.",
+    "concrete_problemen": [
+      {
+        "regel": 73,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Ingevolge de* wet van 23 maart 2019* *tot invoering..."
+      },
+      {
+        "regel": 133,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 110 *Beschikbare inbreng buiten kapitaa*l"
+      },
+      {
+        "regel": 85,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV"
+      },
+      {
+        "regel": 88,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "CVBA die niet beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV"
+      },
+      {
+        "regel": 115,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV (tweede keer plain text)"
+      },
+      {
+        "regel": 141,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "CVBA die niet beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV (tweede keer plain text)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: alle overgangsregels CVBA→CV en CVBA→BV correct beschreven",
+      "Alle 31 voetnootdefinities aanwezig",
+      "Bullet-lijsten voor boekingsrekeningen correct opgemaakt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-15-zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B5: Regel 66 bevat '### De Koning kan het model van de staat van activa en passiva vaststellen.' als ### heading, maar deze zin is de afsluitende zin van het geciteerde artikel 14:30 WVV binnen een blockquote — de ETL heeft de ### prefix ten onrechte op deze wetszin geplakt in plaats van hem als plain-text binnen de blockquote te laten staan. Overige inhoud (2 echte headings, 2 voetnoten, correct standpunt Commissie) is volledig en correct.",
+    "concrete_problemen": [
+      {
+        "regel": 66,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "### De Koning kan het model van de staat van activa en passiva vaststellen.\""
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Zeer kort advies (83 regels) met correcte structuur buiten het ene ETL-artefact",
+      "Beide voetnootdefinities aanwezig en correct",
+      "Standpunt Commissie volledig en leesbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-01-uitgiftepremie-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1: H1-titel luidt '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' zonder advies-nummer of -titel — bron-identificatie ontbreekt in body (frontmatter heeft het correct als 'CBN-advies 2021/01' maar body-kop klopt niet). D4: Regel 97 bevat ':* I.B. Inbreng - Onbeschikbaar*.' met spatie na het dubbele punt vóór opening-asterisk — italic niet correct geopend. B5: Regels 158 en 164 bevatten 'b) Indien...' en 'c) Bij een latere...' als plain-text vóór tabellen zonder heading-prefix, terwijl 'a)' op regel 151 wél een ### heading heeft.",
+    "concrete_problemen": [
+      {
+        "regel": 74,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN (geen advies-nummer of titel in H1)"
+      },
+      {
+        "regel": 97,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "- bij de andere dan de NV, SE, SCE:* I.B. Inbreng - Onbeschikbaar*."
+      },
+      {
+        "regel": 158,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "b) Indien de statuten niets vermelden... (plain text, geen heading — terwijl a) op r. 151 wel ### heeft)"
+      },
+      {
+        "regel": 164,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "c) Bij een latere statutenwijziging... (idem — plain text)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: beschikbare/onbeschikbare uitgiftepremie, NV/BV/CV-behandeling, voorbeeldboekingen",
+      "Alle 20 voetnootdefinities aanwezig",
+      "Boekingstabellen correct als markdown-tabellen opgemaakt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-04-aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D3: Zes orphan footnote-markers ([^6] t/m [^11]) staan als losstaande regels na boekingstabellen (regels 215-225 tonen de definities correct, maar de anchors zelf staan als losse regels in de body na tabellen) — consistent extractie-artefact waarbij footnote-anchors bedoeld voor tabel-context als aparte para's zijn weergegeven. A6: Regel 117 bevat een regelbreuk na '[^4]' midden in de zin 'De financiële component[^4] van de verrichting wordt gespreid...' waarbij het voetnootanker een linebreak injecteert.",
+    "concrete_problemen": [
+      {
+        "regel": 116,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^6] (orphan footnote-marker als losstaande regel na boekingstabel)"
+      },
+      {
+        "regel": 123,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^7] (idem)"
+      },
+      {
+        "regel": 132,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^8] (idem)"
+      },
+      {
+        "regel": 139,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^9] (idem)"
+      },
+      {
+        "regel": 153,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^10] (idem)"
+      },
+      {
+        "regel": 160,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^11] (idem)"
+      },
+      {
+        "regel": 117,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "De financiële component[^4]\n van de verrichting wordt gespreid..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Volledige boekhoudkundige uitwerking van discontoberekening over 3 boekjaren correct",
+      "Arrest HvJ C-640/18 Wagram Invest NV volledig en correct geciteerd",
+      "Wettelijk kader (art. 3:45 en 3:55 KB WVV) correct opgenomen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-05-boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: Regel 78 bevat 'rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *' waarbij spaties staan vóór de sluit-asterisken van beide italic spans — het voetnootmarker [^2] doorkruist de tweede italic-span en injecteert een spatie. Geïsoleerd extractie-artefact; rest van het document is inhoudelijk volledig en correct gestructureerd met 7 headings en 3 voetnootdefinities.",
+    "concrete_problemen": [
+      {
+        "regel": 78,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] * wordt gecrediteerd"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Zeven headings correct hiërarchisch opgebouwd (## en ###)",
+      "Alle 3 voetnootdefinities aanwezig",
+      "Onderscheid operationele/financiële leasing correct uitgewerkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D3: Zeven orphan footnote-markers als losstaande regels na boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — exact hetzelfde extractie-artefact als CBN-2021-04, waarbij footnote-anchors bedoeld als tabel-context als aparte paragrafen zijn weergegeven. A6: Voetnootanker op L104 splitst een zin over twee regels ('Boek XX... toegevoegd[^2]\n samenhangender te maken...'). De rest van het advies is inhoudelijk compleet met 29 headings en alle 47 voetnootdefinities aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 101,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^13] (orphan footnote-marker als losstaande regel na boekingstabel)"
+      },
+      {
+        "regel": 288,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^39] (idem)"
+      },
+      {
+        "regel": 295,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^40] (idem)"
+      },
+      {
+        "regel": 368,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^42] (idem)"
+      },
+      {
+        "regel": 375,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^43] (idem)"
+      },
+      {
+        "regel": 440,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^46] (idem)"
+      },
+      {
+        "regel": 449,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^47] (idem)"
+      },
+      {
+        "regel": 104,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "toegevoegd[^2]\n samenhangender te maken..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "29 headings correct hiërarchisch gestructureerd (##, ###, ####, #####)",
+      "Alle 47 voetnootdefinities aanwezig en correct",
+      "Vier volledige voorbeeldbalansen en bijbehorende boekingen correct als markdown-tabellen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-10-boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2/A7: Op meerdere plaatsen zijn complexe tabellen met sublijsten niet correct als markdown weergegeven — regels 561-576 tonen een gebroken tabelrij waarbij bullet-list items buiten de tabelcellen vallen met losse |---|---| separators op eigen regels, wat een extractie-artefact is van een geneste tabelstructuur in de HTML-bron. Dezelfde problemen op regels 843-847 en 890-894 waarbij een tabelrij gesplitst is over meerdere regels met '18.380' als losstaande plain-text buiten de tabel. Overige 10+ balansoverzichten zijn correct.",
+    "concrete_problemen": [
+      {
+        "regel": 561,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "tabelrij met sublijst-items buiten cellen: '- Geplaatst kapitaal / Beschikbare inbreng: 1.800 + (4.000 x 20 %) ='"
+      },
+      {
+        "regel": 843,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | | 18.380 | | |\n\n18.380\n\n  | — tabelslot gesplitst over 3 regels"
+      },
+      {
+        "regel": 890,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | | 18.380 | | |\n\n18.380\n\n  | — idem voor voorbeeld 12"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "21 headings correct hiërarchisch opgebouwd",
+      "Groot advies (77k chars) met de meeste balans- en boekingstabellen correct",
+      "Continuïteitsprincipe en uitzonderingen volledig uitgewerkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-11-boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: Regel 86 bevat '| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |' waarbij '(of 764 tot 768' als extra eerste kolom-cel staat — alternatieve boeking correct bedoeld maar zonder geldige markdown-tabelstructuur (extra pipe-cell). Geïsoleerd artefact; overige tabellen correct, inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 86,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Zes headings correct hiërarchisch opgebouwd",
+      "Alle 17 voetnootdefinities aanwezig",
+      "Alle overige boekingstabellen (voorbeelden 2, voorraden, leasingboekingen) correct als markdown"
+    ]
+  }
+]

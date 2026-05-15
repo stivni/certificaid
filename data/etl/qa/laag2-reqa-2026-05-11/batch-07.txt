@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-0137-vordering-wegens-levering-van-goederen-en-diensten-omgevormd-tot-renteloze-leningen-op.md
+resources/bronnen/adviezen/CBN-0137-vorderingen-en-schulden-waarvan-de-rente-uitsluitend-bestaat-uit-het-verschil-tussen-de.md
+resources/bronnen/adviezen/CBN-0138-05-software.md
+resources/bronnen/adviezen/CBN-0139-02-obligaties-met-warrant.md
+resources/bronnen/adviezen/CBN-0139-03-aandelen-met-warrant.md
+resources/bronnen/adviezen/CBN-0139-04-afgezonderde-warranten.md
+resources/bronnen/adviezen/CBN-0139-05-obligaties-met-warrant-0.md
+resources/bronnen/adviezen/CBN-0139-07-verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening.md
+resources/bronnen/adviezen/CBN-0139-08-uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of.md
+resources/bronnen/adviezen/CBN-0147-03-meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib.md

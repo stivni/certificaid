@@ -1,0 +1,23 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "De nieuwe strip_concord_table_headings heeft op deze file niets gedaan: vanaf BIJLAGE XII CONCORDANTIETABEL (regel 2535+) tot het einde (regel 4449) staan tientallen '###### Art. XXX' regels die concord-tabel-cellen zijn — geen body-artikel-headings — afgewisseld met plain-text concord-rows ('Art. 26. bis, B, lid 2', 'Art. 28. septdecies, lid 1, ...'). Resultaat: ~30 spurious H6-chunks die naar willekeurige 'Art. 274/275/342/406/409' linken zonder body, terwijl de tegenoverliggende Richtlijn-77/388-cellen plain text blijven. Verwachte impact op RAG: zware retrieval-vervuiling rond hoge artikelnummers. Daarnaast onveranderd t.o.v. vorige ronde: (a) volledige TOC (regels 133-423) verschijnt als geneste markdown-headings (TITEL/Hoofdstuk/Afdeling/Onderafdeling) zonder body, en dezelfde structuur komt opnieuw als plain-text-sectiekoppen vóór de body-artikelen ('VOORWERP EN TOEPASSINGSGEBIED' regel 425, 'BELASTINGPLICHTIGEN' regel 503, 'BELASTBARE HANDELINGEN' regel 521); (b) ondertitel als H2 (regel 49); (c) hiërarchie-sprong (TITEL=H2 → Art.=H6 zonder ###/####/##### body-equivalenten).",
+    "concrete_problemen": [
+      "Concord-tabel (regels 2535-4449): ~30 valse '###### Art. XXX'-headings (bv. regel 3131 'Art. 314', 3143 'Art. 312', 3167 'Art. 321', 3183 'Art. 324', 4259 'Art. 406', 4279 'Art. 409', 4297 'Art. 397', 4319-4343 'Art. 274' t/m 'Art. 280', 4439 'Art. 342') — strip_concord_table_headings heeft dit blok niet aangeraakt.",
+      "TOC-blok (regels 133-423): TITEL I-XV / Hoofdstuk / Afdeling / Onderafdeling / BIJLAGE I-XII als geneste markdown-headings zonder body — duplicates van structuur die later in body-tekst herhaald wordt.",
+      "Body-TITEL-headings ontbreken: 'VOORWERP EN TOEPASSINGSGEBIED' (regel 425), 'BELASTINGPLICHTIGEN' (503), 'BELASTBARE HANDELINGEN' (521) zijn plain text — niet als markdown-heading gemarkeerd, ondanks dat ze inhoudelijk de TITEL-headings zijn.",
+      "Regel 49: '## betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde' is ondertitel, ten onrechte als H2.",
+      "Hiërarchie-sprong: TITEL=H2 → ### Hoofdstuk → #### Afdeling → ##### Onderafdeling verschijnen alleen in TOC; in body springen we direct van plain-text-sectie naar '###### Art.' (H6) zonder tussenliggende niveaus.",
+      "Lijst-fragmenten in body krijgen H2: bv. regel 439 '## 1. De volgende handelingen zijn aan de BTW onderworpen:' en regel 571 '## Een dienst kan onder meer een van de volgende handelingen zijn:' — eerste regel van een artikel-lid die per ongeluk als heading is geparsed.",
+      "Concord-table-residu in artikelnummering: bv. regel 3055 'Art. 24. bis, eerste alinea, eerste tot en' (afgebroken cell)."
+    ],
+    "concrete_sterke_punten": [
+      "Frontmatter compleet met provenance, sha256, generated_at, layer2-rationale gedocumenteerd.",
+      "Running-headers ('NL', 'L 347/x', 'Publicatieblad...') zijn weggewerkt — A1 opgelost.",
+      "Dotted leaders ('....') uit de TOC verwijderd — A2 opgelost.",
+      "Body-artikel-tekst zelf (artikelen 1-411) bevat goede prozakwaliteit, leesbaar Nederlands, leden en sub-punten netjes als list-items, geen OCR-vervuiling in de hoofdtekst.",
+      "Echte body-artikel-headings ('###### Artikel 1', '###### Artikel 3', '###### Artikel 7', etc.) zijn correct gemarkeerd met spatie (i.t.t. 'Art. XXX' in concord-tabel)."
+    ]
+  }
+]

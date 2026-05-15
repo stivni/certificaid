@@ -1,0 +1,278 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-14-verenigingen-en-stichtingen-verwerving-door-de-erfpacht-houder-van-het-met-een-erfpacht.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: tabelcel op regel 181 bevat een spurious line-break midden in de celinhoud ('Terreinen die volle eigendom\\n zijn van de vereniging'), waardoor de markdown-tabel niet correct rendert. D4: regel 135 bevat '*getrapte[^8]*  overdracht' met een dubbele spatie voor het sluitende asterisk — ETL-artefact. Overige tabellen en inhoud zijn volledig intact.",
+    "concrete_problemen": [
+      {
+        "regel": 181,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| 2201 | Terreinen die volle eigendom\n zijn van de vereniging | 100 | |"
+      },
+      {
+        "regel": 135,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*getrapte[^8]*  overdracht van de volle eigendom"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle hoofdsecties en subsecties correct als ## / ### headings opgemaakt",
+      "Voetnoten volledig en correct gekoppeld",
+      "Overige boekhoudkundige tabellen (voorbeelden 2 en 3) correct in pipe-syntax"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: regel 70 bevat ', bijgewerkt op 10 september 2025[^2]' als orphan-zin direct na de # heading — geen alinea-break, geen heading, losse tekst die een mens nooit zo zou schrijven. E1/E2: de drie balans-tabellen (regels 82-87, 91-94, 98-104) hebben weliswaar een |---| separator na de headerrij, maar de structuur is malformed — meerdere data-kolommen zijn aaneengeregen in één pipe-rij zonder correcte kolom-uitlijning, waardoor de tabel niet als multi-kolom tabel rendert.",
+    "concrete_problemen": [
+      {
+        "regel": 70,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": ", bijgewerkt op 10 september 2025[^2]"
+      },
+      {
+        "regel": 84,
+        "categorie": "E1",
+        "type": "other",
+        "voorbeeld": "| Positief consolidatieverschil | | 100 | | Eigen vermogen | | 80 |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en inhoudelijk correct",
+      "Voetnoten correct gekoppeld",
+      "Tekst-secties zonder tabellen zijn schoon en goed leesbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-16-onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B5: twee sectiehoofdingen staan als plain-text in de body zonder ## prefix: regel 111 ('Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt') en regel 143 ('Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd') — beiden zijn secties in de inhoudstafel maar missen de heading-markering. B3: regel 72 herhaalt 'vermeldingen in de jaarrekening' als orphan-zin direct na de # heading.",
+    "concrete_problemen": [
+      {
+        "regel": 111,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt"
+      },
+      {
+        "regel": 143,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd"
+      },
+      {
+        "regel": 72,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "vermeldingen in de jaarrekening"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Overige heading-structuur correct (## en ###/#### aanwezig)",
+      "Inhoud volledig, alle verwachte secties aanwezig",
+      "Voetnoten compleet en correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-17-reverse-factoring.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: regel 75 bevat 'factoringovereenkomsten[^2]*  behandelt' — dubbele spatie voor het sluitende asterisk is een ETL-artefact. Regel 83 bevat '*Financiële schulden – Overige leningen moet worden gereclasseerd.*' waarbij de italic-markering de volledige proza-zin omvat inclusief punt — een mens zou enkel de rekeningnaam cursiveren, niet de omringende zin.",
+    "concrete_problemen": [
+      {
+        "regel": 75,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "factoringovereenkomsten[^2]*  behandelt"
+      },
+      {
+        "regel": 83,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Financiële schulden – Overige leningen moet worden gereclasseerd.*"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en inhoudelijk correct",
+      "Heading-structuur correct (## headings aanwezig)",
+      "Kort document, geen tabel- of OCR-problemen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-02-belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6/E2: regels 148-149 bevatten een spurious line-break midden in een tabelcel ('Regularisering van\\n\\t\\t\\t\\tbelastingen en terugneming van fiscale voorzieningen') met tab-inspringing op de vervolgregels — ETL-artefact dat de tabel breekt. D4: regel 69 heeft '*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit' waarbij na de dubbele punt een tweede afzonderlijke italic-span opent — dubbelspatie-grens door PDF-conversie.",
+    "concrete_problemen": [
+      {
+        "regel": 148,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "| aan | 67/77 | Belastingen op het resultaat/Regularisering van\n\t\t\t\tbelastingen..."
+      },
+      {
+        "regel": 69,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-structuur correct en volledig",
+      "Overige boekhoudtabellen correct in pipe-syntax",
+      "Inhoud volledig, alle voorbeeldsecties aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-04-de-boekhoudkundige-verwerking-van-derdenrekeningen-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B5: regel 92 bevat 'Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen' als plain-text in de body zonder ## prefix — het is een sectie-heading die als aaneengeplakte tekst met de volgende zin staat. A6: regel 93 eindigt op twee spaties gevolgd door een lege regel midden in een zin ('is een rekening waarbij bij de  \\n\\ntenaamstelling...') — spurious line-break.",
+    "concrete_problemen": [
+      {
+        "regel": 92,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen"
+      },
+      {
+        "regel": 93,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "is een rekening waarbij bij de  \\n\\ntenaamstelling wordt aangegeven"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en inhoudelijk correct, alle verwachte onderwerpen behandeld",
+      "Uitgebreide voetnoten correct aanwezig",
+      "Overige secties correct als ## headings opgemaakt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-07-vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: twee voorbeeld-blokken (regels 77-83 en 98-119) zijn verpakt in `| \\n\\n*Voorbeeld*\\n\\n  |` constructies — losse tabelcellen zonder header of separator, een scraper-artefact waarbij call-out boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (>) of gewone alinea schrijven. Verdere inhoud en heading-structuur correct.",
+    "concrete_problemen": [
+      {
+        "regel": 77,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| \\n\\n*Voorbeeld*\\n\\n  |"
+      },
+      {
+        "regel": 98,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| \\n\\n*Voorbeeld*\\n\\n  |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-structuur correct (## headings aanwezig)",
+      "Inhoud volledig en inhoudelijk correct",
+      "Voetnoten compleet en correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-08-gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6/C2: de genummerde opsomming (punten 1-8) op regels 119-156 is niet als markdown-lijst opgemaakt — elk item staat als een getal gevolgd door een lege regel en dan de tekst met tab-inspringing, wat geen standaard markdown-lijst is. E2: voorbeeld-blok op regels 178-188 bevat het `| \\n\\n*Voorbeeld*\\n\\n  |` patroon — scraper-artefact, zelfde als CBN-2018-07.",
+    "concrete_problemen": [
+      {
+        "regel": 119,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "1. \\n\\nHet bepalen, ten gevolge van een gebeurtenis na afsluitingsdatum..."
+      },
+      {
+        "regel": 132,
+        "categorie": "C2",
+        "type": "other",
+        "voorbeeld": "2. \\n\\nDe minnelijke schikking voor een geschil..."
+      },
+      {
+        "regel": 178,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| \\n\\n*Voorbeeld*\\n\\n  |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en inhoudelijk correct, alle 8 voorbeeldgevallen aanwezig",
+      "Heading-structuur correct",
+      "Voetnoten volledig aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-11-verkoop-van-oplaadbare-betaalkaarten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: regels 76-78 bevatten TOC-resten als plain text bovenin de body ('vereniging of stichting\\n\\n vereniging of stichtingOndernemingen en niet-kleine...') inclusief een aaneengeplakte regel waarbij twee TOC-items zijn samengevoegd zonder scheidingsteken. D4: regels 84, 90 en 92 bevatten italic-markers met spatie voor het sluitende asterisk (*term *). E2: drie voorbeeld-blokken zijn verpakt in `| \\n\\n*Voorbeeld*\\n\\n  |` constructies (regels 98, 123, 123-136).",
+    "concrete_problemen": [
+      {
+        "regel": 76,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "vereniging of stichting"
+      },
+      {
+        "regel": 78,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "vereniging of stichtingOndernemingen en niet-kleine verenigingen en stichtingen"
+      },
+      {
+        "regel": 84,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*vouchers voor enkelvoudig gebruik[^2] *"
+      },
+      {
+        "regel": 90,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Genormaliseerd minimaal schema van de Staat van de ontvangsten en uitgaven[^5] *"
+      },
+      {
+        "regel": 98,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| \\n\\n*Voorbeeld*\\n\\n  |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Boekhoudkundige tabellen correct in pipe-syntax",
+      "Heading-structuur grotendeels correct",
+      "Inhoud inhoudelijk volledig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-12-interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E1/E2: de uitgebreide vergelijkingstabellen en rekenkundige voorbeeldtabellen (regels 79-1600) zijn volledig gedecomposeerd in losse `| waarde |` celfragmenten waarbij elke cel in een afzonderlijk `| \\n\\n[tekst]\\n\\n  |` blokje staat — de originele multi-kolom tabelstructuur (jaren X t/m X+4 als kolommen) is onleesbaar. Dit is een ernstig structureel ETL-artefact dat het volledige tweede deel van het document onbruikbaar maakt voor RAG. Regel 79-94 bevat wel een gedeeltelijk correcte vergelijkingstabel (Zevende Richtlijn vs 2013/34/EU) maar ook die heeft spurious line-breaks in cellen (regels 82-93).",
+    "concrete_problemen": [
+      {
+        "regel": 118,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| \\n\\nBoekhoudkundige afschrijving in 5 jaar\\n\\n  |"
+      },
+      {
+        "regel": 123,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| \\n\\nJaren\\n\\n  | | \\n|---|\\n\\nX\\n\\n  | | \\n|---|\\n\\nX+1\\n\\n  |"
+      },
+      {
+        "regel": 82,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "| Art. 29 \\n\\n\\t\\t\\t\\t§ 4 | | In de geconsolideerde balans..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Tekst-secties voor de tabellen (regels 59-77) zijn schoon en correct opgemaakt",
+      "Voetnoten aanwezig en correct",
+      "Heading-structuur van de tekstsecties correct"
+    ]
+  }
+]

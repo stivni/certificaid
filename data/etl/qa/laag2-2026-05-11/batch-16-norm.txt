@@ -1,0 +1,6 @@
+resources/bronnen/normen/ITAA-norm-fusie-splitsing.md
+resources/bronnen/normen/ITAA-norm-gedragslijnen-relaties-IBR.md
+resources/bronnen/normen/ITAA-norm-intern-kwaliteitsmanagement.md
+resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md
+resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md
+resources/bronnen/normen/ITAA-norm-samenstellingsopdrachten-isrs4410.md

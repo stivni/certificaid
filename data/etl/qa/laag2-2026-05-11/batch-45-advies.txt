@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-2018-22-groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde.md
+resources/bronnen/adviezen/CBN-2018-23-begin-van-het-boekjaar.md
+resources/bronnen/adviezen/CBN-2018-24-duolegaat-vereniging-en-stichting.md
+resources/bronnen/adviezen/CBN-2019-03-ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0.md
+resources/bronnen/adviezen/CBN-2019-05-vergoedingen-vrijwilligerswerk-en-verenigingswerk.md
+resources/bronnen/adviezen/CBN-2019-06-groepsbijdrage.md
+resources/bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening.md
+resources/bronnen/adviezen/CBN-2019-08-boekhoudkundige-verwerking-van-crowdfunding-0.md
+resources/bronnen/adviezen/CBN-2019-09-boekhoudplichtige-onderneming.md
+resources/bronnen/adviezen/CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0.md

@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-0133-04-schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste.md
+resources/bronnen/adviezen/CBN-0134-01-verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door.md
+resources/bronnen/adviezen/CBN-0134-02-belastingvrije-provisie-voor-sociaal-passief.md
+resources/bronnen/adviezen/CBN-0134-03-investeringsaftrek.md
+resources/bronnen/adviezen/CBN-0135-01-kosten-die-worden-gemaakt-bij-de-vervreemding-van-activa.md
+resources/bronnen/adviezen/CBN-0136-01-voorwaardelijke-obligaties.md
+resources/bronnen/adviezen/CBN-0137-01-klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar.md
+resources/bronnen/adviezen/CBN-0137-03-schulden-op-meer-dan-een-jaar-prefinanciering-van-langlopende-leningen.md
+resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md
+resources/bronnen/adviezen/CBN-0137-06-overdracht-van-schuldvordering-nominale-waarde-waardevermindering.md

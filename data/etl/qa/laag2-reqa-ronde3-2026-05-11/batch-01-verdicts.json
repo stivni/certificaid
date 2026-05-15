@@ -1,0 +1,223 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0016-01-toepassing-van-de-wet-op-financiele-instellingen-kredietinstellingen-die-onder-de.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Frontmatter regel 9 bevat ongeparseerde HTML-entity '&quot;' in de YAML-waarde van gerelateerde_adviezen[1].titel ('Het begrip &quot;financiële instelling&quot;') — dit is een ETL-bug (HTML niet gedecode), geen source-typo. De typo 'valln' op regel 63 in de body-tekst is een source-typo (staat letterlijk op de CBN-website). Body zelf is verder volledig en clean.",
+    "concrete_problemen": [
+      {
+        "regel": 9,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "titel: Het begrip &quot;financiële instelling&quot; — HTML-entity niet gedecode in YAML"
+      },
+      {
+        "regel": 63,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "ondernemingen die onder de toepassing valln van het koninklijk besluit nr. 64"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig en goed leesbaar — één compacte adviserende tekst",
+      "Frontmatter compleet: bron-URL, datum, themas, gerelateerde adviezen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Drie ETL-bugs bevestigd in huidige body: (1) B4: regel 239 'DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW' staat als plain-text zonder heading-prefix (vergelijking met omliggende ##### headings toont dat dit een subsectie-heading had moeten zijn). (2) E2: tabel regels 717-750 is zwaar verminkt — header gesplitst over twee regels (r717-719) en totaalrij met cel-inhoud verspreid over meerdere regels met tabs (r735-754). (3) C4: regels 280-286 tonen genummerde list-items '1.' en '2.' die elk als aparte paragraaf staan in plaats van als doorlopende list-items.",
+    "concrete_problemen": [
+      {
+        "regel": 239,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW — all-caps plain-text, geen heading-prefix"
+      },
+      {
+        "regel": 717,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| *Op het einde \\n\\t\\t\\t\\tvan de maand* | — tabelkop gesplitst over twee regels"
+      },
+      {
+        "regel": 735,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| **Totaal** | | Som A | ... Som C \\n\\t\\t\\t\\t= (Som A) + \\n\\t\\t\\t\\t(Som B.b) | — cel-inhoud over meerdere regels"
+      },
+      {
+        "regel": 280,
+        "categorie": "C4",
+        "type": "other",
+        "voorbeeld": "1. \\n\\nonafhankelijk van de grootte... — genummerd listpunt als aparte paragraaf gespat"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "86 headings aanwezig — uitgebreide structuur van het lange document grotendeels intact",
+      "Voetnoten correct gedefinieerd doorheen het document"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0101-01-zakelijke-waarborgen-gesteld-voor-rekening-van-derden.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: twee markdown-tabellen (regels 74-82) zijn structureel incorrect — subrekening-rijen (014, 015, 022, 023) bevatten 5 cellen ('| | | 014 | | Omschrijving |') terwijl de header slechts 3 kolommen ('| 01 | | Omschrijving |') definieert. Dit is een ETL-artefact: de originele hiërarchische rekeningstructuur is niet correct naar pipe-markdown vertaald. Body-tekst en voetnoten zijn clean.",
+    "concrete_problemen": [
+      {
+        "regel": 74,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| 01 | | Waarborgen gesteld voor rekening van derden | — 3-koloms header"
+      },
+      {
+        "regel": 76,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| | | 014 | | Debiteuren wegens zakelijke zekerheden | — 5 kolommen, mismatcht 3-koloms header"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body-tekst volledig leesbaar en inhoudelijk correct",
+      "Voetnoten [^1]-[^3] aanwezig en correct gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0102-overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Drie ETL-bugs bevestigd: (1) G3/spurious bracket: regel 111 bevat '] verantwoorden»[^8]' met losstaand ']' midden in geciteerde passage — verminkt de geciteerde tekst. (2) D3: voetnoot [^14] op regel 204 bevat dezelfde definitiezin tweemaal aaneengesloten zonder separator. (3) A6: 'niet- monetaire' met spatie na koppelteken op regels 149, 153 en 208 naast correct 'niet-monetaire' elders — inconsistentie typisch voor extractie-artefact.",
+    "concrete_problemen": [
+      {
+        "regel": 111,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": "te ] verantwoorden»[^8] — spurious ] bracket midden in geciteerde passage"
+      },
+      {
+        "regel": 204,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^14]: Voor een definitie van monetaire en niet-monetaire posten, zie pagina's 5 en 12 van advies 152/1 Voor een definitie van monetaire en niet-monetaire posten, zie pagina's 5 en 12 van advies 152/1"
+      },
+      {
+        "regel": 149,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "niet- monetaire bestanddelen — spatie na koppelteken (ook r153, r208)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "6 secties met correcte ## heading-structuur",
+      "20 voetnoten grotendeels correct gedefinieerd en gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0103-gefactureerde-nog-niet-ontvangen-voorschotten-en-vooruitbetalingen-rekening-46.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: markdown-tabel (regels 62-65) heeft een lege eerste kolom zonder header-label — elke rij (inclusief de sub-rijen 460 en 461) begint met '| |' waarvoor geen overeenkomstige header bestaat. ETL heeft de originele rekeningstructuur niet correct naar pipe-markdown vertaald. De overige body-tekst is volledig en clean.",
+    "concrete_problemen": [
+      {
+        "regel": 62,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| | Rekening | Omschrijving | Debet | Credit | — lege eerste kolom zonder header-label"
+      },
+      {
+        "regel": 64,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| | 460 | Te ontvangen | | | — lege eerste kolom herhaald op datarij"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Korte advies-tekst volledig en goed leesbaar",
+      "Frontmatter compleet met themas"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0105-05-aanrekening-van-vergoedingen-van-beheerders-of-leden-van-het-personeel-toegekend-door-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1: frontmatter-veld 'nummer' bevat 'CBN-advies 105-5' (koppelteken) terwijl de body-heading op regel 52 'CBN-advies 105/5' schrijft (schuine streep) — de schuine streep is de correcte advies-notatie; de scraper heeft de URL-slug-hyphen overgenomen in het nummer-veld, wat een ETL-normaliseringsflout is. Body-tekst is clean en volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 4,
+        "categorie": "F1",
+        "type": "naam-mismatch",
+        "voorbeeld": "nummer: CBN-advies 105-5 (frontmatter, koppelteken) vs # CBN-advies 105/5 (body, schuine streep)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body-tekst volledig en coherent leesbaar",
+      "Frontmatter bron-URL correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0107-08-boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity '&#039;' ('voorzieningen voor risico&#039;s en kosten') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en goed leesbaar.",
+    "concrete_problemen": [
+      {
+        "regel": 45,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "voorzieningen voor risico&#039;s en kosten — HTML-entity &#039; niet gedecode in YAML"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body-tekst volledig clean — geen extractie-artefacten",
+      "Voetnoten [^1]-[^4] correct gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0107-11-opbrengsten-waarover-betwisting-bestaat-update.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity '&#039;' ('voorzieningen voor risico&#039;s en kosten') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en inhoudelijk correct.",
+    "concrete_problemen": [
+      {
+        "regel": 45,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "voorzieningen voor risico&#039;s en kosten — HTML-entity &#039; niet gedecode in YAML"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body-tekst volledig clean — geen extractie-artefacten",
+      "Voetnoot [^1] correct gedefinieerd en gelinkt",
+      "Bijgewerkt advies (2025) volledig weergegeven met correcte wettekstreferenties"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0107-12-pensioenvoorzieningen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "De enige eerder gerapporteerde issue (A5: en-dash '–' in H1-heading) is een source-karakter: analyse van het corpus toont dat 145 CBN-adviezen dezelfde '–' separator gebruiken in de H1-heading — dit is het dominante patroon van de CBN-website, geen ETL-inconsistentie. Body-tekst is volledig clean, inhoud compleet, voetnoot [^1] correct.",
+    "concrete_problemen": [
+      {
+        "regel": 51,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "# CBN-advies 107/12 – Pensioenvoorzieningen — U+2013 EN-DASH is source-karakter (145 andere adviezen gebruiken hetzelfde patroon)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig clean — geen extractie-artefacten",
+      "Voetnoot [^1] correct gedefinieerd",
+      "Inhoud compleet en coherent leesbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0108-02-aanvragen-tot-afwijking-overzicht.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "De eerder gerapporteerde B2-bug (heading-hiërarchie #### zonder ##) is OPGELOST — regels 69, 91 en 126 zijn nu correct ## headings. Echter: A6 op regels 112-114: zin 'Ze werd echter afhankelijk gemaakt ... met het oog op de statistische verwerking, van' (r112) eindigt midden in een bijzin, gevolgd door een lege regel, waarna 'het bedrag der verschillende samengevoegde rubrieken.' (r114) de zin afsluit als aparte paragraaf — een pagina-breuk-artefact uit de originele drukversie die als lege alinea-scheiding is gerenderd.",
+    "concrete_problemen": [
+      {
+        "regel": 112,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "...met het oog op de statistische verwerking, van [lege regel] het bedrag der verschillende samengevoegde rubrieken. — zin gesplitst over twee paragrafen"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "B2-bug opgelost: 3 secties nu correct als ## heading (was #### in vorige ronde)",
+      "Inhoud volledig — 168 aanvragen, procedure-sectie intact",
+      "Voetnoten [^1]-[^2] correct gedefinieerd"
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+resources/bronnen/wetteksten/Successierechten-Waals.md
+resources/bronnen/wetteksten/VCF.md
+resources/bronnen/wetteksten/WBTW-KB-GKS.md
+resources/bronnen/wetteksten/WBTW-KB01okt2013-certificatie-gks.md
+resources/bronnen/wetteksten/WBTW-KB04apr2014-verificatie-vervoermiddelen.md
+resources/bronnen/wetteksten/WBTW-KB07jun2007-uitvoering-84quinquies.md

@@ -1,0 +1,328 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0175-01-verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Laag-1 pass, geen flags. Inhoud volledig: 7 secties herkenbaar als ## headings, voetnoten [^1]–[^6] correct gedefinieerd en gesloten, opsomming via '-'-bullets consistent, geen PDF-artefacten, geen scrambled tekst, geen lege regels-clusters. Kopregel en staart compleet.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Alle 7 secties als ## headings met volledige titels",
+      "6 voetnoten correct als [^N]: definitie aangelegd",
+      "Bullets consistent '-' door het hele document",
+      "Lopende tekst vloeit logisch van begin tot einde zonder abrupte knippen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0175-02-verwerking-in-de-jaarrekening-over-het-boekjaar-1999-van-de-maribel-bis-en-ter-steun.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Laag-1 pass, geen flags. Drie ## headings met volledige titels, voetnoten [^1]–[^2] intact, inhoud compleet (verwijst correct naar advies 175/1 en bespreekt de afwikkeling). Geen artefacten zichtbaar.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Drie secties als ## headings helder gestructureerd",
+      "Voetnoten [^1] en [^2] correct geplaatst en gedefineerd",
+      "Tekst semantisch consistent met 175/1 als vervolgadvies",
+      "Geen spurious line-breaks of bullet-glyphs"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0176-01-boekhoudrechtelijke-aspecten-met-betrekking-tot-het-jaar-2000.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Laag-1 pass, geen flags. Twee ## headings met volledige titels, 11 voetnoten correct aangelegd, opsommingen via '-' consistent, sub-bullets via '-' correct genest. Groot document maar inhoud compleet en lopend. Geen PDF-artefacten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "11 voetnoten correct als [^N]: definitie aangelegd",
+      "Technisch detailrijke inhoud (datumuitbreiding/venstermethode) volledig uitgeschreven",
+      "Sub-opsommingen correct als geneste '-' bullets",
+      "Geen spurious page-breaks of form-feed resten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0177-01-boekhoudkundige-verwerking-van-de-mini-bel-20.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: vier lege ##### headings (regels 125, 131, 173, 179) zijn structuurlabels zonder tekst — een mens schrijft nooit een kopje zonder titel. A4: U+00AC (¬) op regel 90 en 105 als pseudo-soft-hyphen (bv. 'IPU¬emittenten', '(50 jaar) ¬niet') — geen standaard markdown-teken, PDF-artefact. Beide problemen zijn ETL-fixeerbaar.",
+    "concrete_problemen": [
+      {
+        "regel": 125,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "##### (lege heading zonder tekst)"
+      },
+      {
+        "regel": 131,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "##### (lege heading zonder tekst)"
+      },
+      {
+        "regel": 173,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "##### (lege heading zonder tekst)"
+      },
+      {
+        "regel": 179,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "##### (lege heading zonder tekst)"
+      },
+      {
+        "regel": 90,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "IPU¬emittenten (U+00AC i.p.v. koppelteken of gewone hyphen)"
+      },
+      {
+        "regel": 105,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "(50 jaar) ¬niet als \"financiële vaste activa\" (U+00AC voor woordgrens)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Hoofdsecties herkenbaar als ## en ### headings met volledige titels",
+      "11 voetnoten correct als [^N]: definitie aangelegd",
+      "Inhoud volledig: koper, emittent, waardering, vereffening alle behandeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0179-01-boekhoudkundige-verwerking-van-broeikasgasemissierechten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: twee opeenvolgende # H1-headings (regels 51 en 53) — de titel staat dubbel, plus '(Update november 2008)' als plain tekst op regel 55. D4: meerdere malformed italic-patronen (categorie '*term *' of ',* term*'), bv. regel 149 'Bij de* Interpretation' en regel 169 ',* sui generis*' — opening-asterisk grenst aan een spatie of leesteken in plaats van aan de tekst. H4-headings (IFRIC, Brutomethode, Nettomethode) staan als #### terwijl de bovenliggende secties ## zijn — sprong van ## naar #### zonder ### tussenniveau (B2).",
+    "concrete_problemen": [
+      {
+        "regel": 51,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# CBN-advies 179/1 van 26 november 2008 (Update november 2008) — dubbele H1"
+      },
+      {
+        "regel": 53,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# Boekhoudkundige verwerking van broeikasgasemissierechten — tweede H1"
+      },
+      {
+        "regel": 55,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "(Update november 2008) als plain tekst regel na H1"
+      },
+      {
+        "regel": 135,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### IFRIC Interpretation 3 Emission Rights (sprong ## → ####)"
+      },
+      {
+        "regel": 149,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Bij de* Interpretation 3 Emission Rights* worden ook voorbeelden gegeven."
+      },
+      {
+        "regel": 155,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "de *Interpretation *en ondanks de vaststelling (trailing spatie voor sluitende *)"
+      },
+      {
+        "regel": 169,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": ",* sui generis* rechten (opening * grenst aan komma+spatie)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: IFRIC 3, brutomethode, nettomethode alle behandeld",
+      "21 voetnoten correct als [^N]: definitie aangelegd",
+      "Referentielijst aan het einde intact",
+      "Geen form-feed of column-bleed zichtbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0180-01-verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Laag-1 pass, heading_count 0 klopt: het advies is één doorlopend tekstblok zonder expliciete secties (zo ook in het origineel — kort advies van één paragraaf). Inhoud volledig, geen artefacten, geen voetnoten nodig, geen bullets. Eén typ-artefact ('daaarentegen' met drie a's op regel 61) maar dat is waarschijnlijk originele tekst.",
+    "concrete_problemen": [
+      {
+        "regel": 61,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "wanneer daaarentegen de aankoop (driemaal 'a' — vermoedelijk tikfout in origineel)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Kort, zelfstandig advies volledig weergegeven in één paragraaf",
+      "Geen PDF-artefacten of onzichtbare unicode",
+      "Boekhoudkundige verwerking (actief IX, resultatenrekening I.D, V.C) correct benoemd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2009-03-boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B4: vier #### headings in all-caps (INLEIDING, OVERZICHT VAN DE ALGEMENE BEGINSELEN, BEOORDELING VAN HET VASTSTAAND KARAKTER, VOORBEELDEN) zonder onderliggende ##/### niveau — mens schrijft dit als ## of ###, niet als ####. D4: regel 154 heeft '*Kapitaalsubsidies *' met spatie voor sluitende asterisk (malformed italic). Structureel: tabellen zijn afwezig (vervangen door 'Tabel 1 / Tabel 2 / Tabel 3' als plain text op regels 157, 163, 236) — de eigenlijke numerieke tabellen ontbreken in de extractie.",
+    "concrete_problemen": [
+      {
+        "regel": 52,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "#### INLEIDING (all-caps #### i.p.v. ## Inleiding)"
+      },
+      {
+        "regel": 60,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "#### OVERZICHT VAN DE ALGEMENE BEGINSELEN"
+      },
+      {
+        "regel": 71,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "#### BEOORDELING VAN HET VASTSTAAND KARAKTER VAN HET RECHT OP EEN SUBSIDIE"
+      },
+      {
+        "regel": 118,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "#### VOORBEELDEN"
+      },
+      {
+        "regel": 154,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Kapitaalsubsidies *en a rato van 25% (spatie voor sluitende *)"
+      },
+      {
+        "regel": 157,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "Tabel 1 (placeholder zonder tabelinhoud — numerieke tabel ontbreekt)"
+      },
+      {
+        "regel": 163,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "Tabel 2 (placeholder zonder tabelinhoud)"
+      },
+      {
+        "regel": 236,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "Tabel 3 (placeholder zonder tabelinhoud)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud van de juridische analyse (vijf stadia, opschortende voorwaarde, eventuele rechten) volledig aanwezig",
+      "17 voetnoten correct als [^N]: definitie aangelegd",
+      "Sub-secties (Vaste en onvoorwaardelijke verbintenis, etc.) als ##### headings herkenbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2009-04-model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B4: drie ### headings in all-caps (INLEIDING, SCHRAPPING VAN HET WOORD «MINIMAAL» ..., HET ONGESPLITSTE DAGBOEK HOUDEN ...) — mens schrijft dit als ## met normale kapitalisatie. Verder is de heading-hiërarchie inconsistent: de twee inhoudelijke secties staan als ### terwijl er geen ## bovenliggend niveau is (B2). Inhoud verder volledig en geen andere artefacten.",
+    "concrete_problemen": [
+      {
+        "regel": 46,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "### INLEIDING (all-caps ### zonder bovenliggend ## niveau)"
+      },
+      {
+        "regel": 53,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "### SCHRAPPING VAN HET WOORD « MINIMAAL » IN ARTIKEL 2 EN BIJLAGE A VAN HET BESLUIT"
+      },
+      {
+        "regel": 67,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "### HET ONGESPLITSTE DAGBOEK HOUDEN DOOR MIDDEL VAN GEINFORMATISEERDE SYSTEMEN"
+      },
+      {
+        "regel": 46,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "H1 -> ### zonder tussenniveau ## (heading-hiërarchie springt)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: beide wijzigingen (schrapping 'minimaal', geïnformatiseerde systemen) behandeld",
+      "2 voetnoten correct als [^N]: definitie aangelegd",
+      "Geen PDF-artefacten, geen scrambled tekst, geen lege regels-clusters"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2009-07-de-boekhoudkundige-verwerking-van-grensoverschrijdende-fusies.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B4: twee ## headings in all-caps (INLEIDING, BOEKHOUDKUNDIGE VERWERKING op regels 62 en 78) — mens schrijft Inleiding niet in caps. E1/E2: 127 tabelregels aanwezig maar slechts 2 scheidingsregels (|---|) — de meeste balans-tabellen hebben geen markdown header-separator, wat technisch geen geldige markdown-tabellen zijn. Inhoud volledig en voetnoten correct.",
+    "concrete_problemen": [
+      {
+        "regel": 62,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "## INLEIDING (all-caps H2)"
+      },
+      {
+        "regel": 78,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "## BOEKHOUDKUNDIGE VERWERKING (all-caps H2)"
+      },
+      {
+        "regel": 90,
+        "categorie": "E1",
+        "type": "other",
+        "voorbeeld": "| A (Belgische overgenomen vennootschap) | — geen |---|---| scheidingsrij na header"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "14 voetnoten correct als [^N]: definitie aangelegd",
+      "6 voorbeelden met balans-tabellen in pipe-syntax aanwezig",
+      "Heading-hiërarchie # → ## → ### → *italic* correct gelaagd",
+      "Inhoud volledig: alle 4 overnamescenario's behandeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2009-10-bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A2/B7: regels 48–49 bevatten een genummerde lijst '1. Definitie... / 2. Bepaling...' direct na de H1-titel — dit is een TOC-fragment dat mee-geëxtraheerd is en nu als body-tekst staat i.p.v. te worden weggelaten (de inhoud wordt daarna als #### headings herhaald). B4: twee #### headings in all-caps (regels 54, 74) zonder bovenliggend ## niveau (B2-sprong: H1 → #### zonder ##/### tussenniveau).",
+    "concrete_problemen": [
+      {
+        "regel": 48,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "1. Definitie treasury vennootschappen of financieringsvennootschappen (TOC-residu als body-tekst)"
+      },
+      {
+        "regel": 49,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "2. Bepaling van de functionele valuta bij financieringsvennootschappen (TOC-residu)"
+      },
+      {
+        "regel": 54,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "#### Definitie treasury vennootschappen of financieringsvennootschappen (#### zonder ## bovenliggend)"
+      },
+      {
+        "regel": 74,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "#### Bepaling van de functionele valuta bij financieringsvennootschappen (#### zonder ##)"
+      },
+      {
+        "regel": 54,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "H1 → #### zonder ## of ### tussenniveau (hiërarchiesprong)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: definitie, primaire voorwaarden, functionele valuta-bepaling behandeld",
+      "2 voetnoten correct als [^N]: definitie aangelegd",
+      "Geen form-feed, geen OCR-verwarring, geen column-bleed"
+    ]
+  }
+]

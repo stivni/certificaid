@@ -1,0 +1,289 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0003-01-tijdstip-waarop-de-aan-of-verkoop-van-een-onroerend-goed-in-de-boekhouding-dient.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A4: consistente aanwezigheid van Unicode HYPHEN (U+2010) in plaats van ASCII-hyphen in de heading (r69: 'aan‐ of verkoop') en in de body (r73: 'verkoopscompromis ‐ of', r80: 'trouwens niet aan bod gekomen ‐ kwestie'). Scraper-fix heeft dit specifieke artefact niet verholpen: de CBN-website gebruikt typografische koppeltekens die nog steeds als U+2010 worden overgenomen. Inhoud volledig correct, voetnoot [^1] goed geformateerd.",
+    "concrete_problemen": [
+      {
+        "regel": 69,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "de aan‐ of verkoop van een onroerend goed"
+      },
+      {
+        "regel": 73,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "verkoopscompromis ‐ of, algemeen genomen, de akte"
+      },
+      {
+        "regel": 80,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "de ‐ trouwens niet aan bod gekomen ‐ kwestie"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en correct: beide partijen (cedent/verkrijger) behandeld",
+      "Voetnoot [^1] correct als markdown-voetnoot geformateerd",
+      "Geen duplicate headings, geen spurious line-breaks, geen TOC-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0004-01-vermeldingen-in-het-centralisatieboek.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Meerdere typefouten die al in de web-bron aanwezig waren en door de scraper worden overgenomen: 'berokken' (r71), 'dee vermelding' en 'wttelijke' (r79), 'centraisatieboek' (r81), 'bewegingn' en 'angegeven' (r83). Daarnaast A4: U+2010 HYPHEN in r83 ('hebben ondergaan ‐gelet op de moeilijkheid'). De scraper-fix heeft de typefouten niet gecorrigeerd (verwacht: bron-fidelity). Inhoud inhoudelijk volledig, voetnoot intact.",
+    "concrete_problemen": [
+      {
+        "regel": 71,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "diverse berokken rekeningen gecentraliseerd"
+      },
+      {
+        "regel": 79,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "dee vermelding betrekking moet hebben ... wttelijke vereisten"
+      },
+      {
+        "regel": 81,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "inschrijving in het centraisatieboek te beperken"
+      },
+      {
+        "regel": 83,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "de bewegingn die elk ervan hebben ondergaan"
+      },
+      {
+        "regel": 83,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "hebben ondergaan ‐gelet op de moeilijkheid"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Verouderd-notitie correct als vetgedrukte waarschuwing weergegeven",
+      "Voetnoot [^1] correct geformateerd",
+      "Geen structuurproblemen of duplicate headings"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0004-04-beginsel-van-het-dubbel-boekhouden.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Drie resterende problemen na scraper-fix: (1) D1: 'gebruikeljke' (r59, typo voor 'gebruikelijke') en 'rekeningenstelel' (r64, typo voor 'rekeningstelsel') en 'ee volledige' (r63, vermoedelijk 'een volledige'). (2) D3: '[^2]: Artikel 25, §1 van het koninklijk besluit van het koninklijk besluit van 30 januari 2001' bevat een duidelijke woordduplicatie ('van het koninklijk besluit' tweemaal, r71). A6-bug (bullet gesplitst over meerdere regels) lijkt verholpen in de nieuwe scrape: de bullet staat nu op één regel (r65). A4 (U+2010) kan niet worden bevestigd of ontkend zonder hex-inspectie.",
+    "concrete_problemen": [
+      {
+        "regel": 59,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "strookt met de boekhoudwet. Een dergelijke werkwijze kan ... gebruikeljke regels"
+      },
+      {
+        "regel": 63,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "op ee volledige en correcte wijze werden overgeschreven"
+      },
+      {
+        "regel": 64,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "het koninklijk besluit over de minimumindeling ... rekeningenstelel"
+      },
+      {
+        "regel": 71,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "van het koninklijk besluit van het koninklijk besluit van 30 januari 2001"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "A6-bug (bullet over meerdere regels) lijkt verholpen: bullet r65 staat nu op één regel",
+      "Alle drie bullets inhoudelijk aanwezig en logisch opgebouwd",
+      "Voetnoten [^1] en [^2] correct geformateerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0007-03-boek-waarin-de-jaarrekening-en-de-inventarisstukken-worden-opgenomen-opname-van-de.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel staat slechts eenmaal (r61). Geen andere artefacten gevonden: geen form-feeds, geen spurious line-breaks, geen TOC-residu, geen unicode-problemen, geen afgekapte zinnen. Voetnoten [^1] en [^2] correct aanwezig en gelinkt. Inhoud volledig (5 alinea's, beide vragen beantwoord).",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "B3 duplicate-heading bug verholpen",
+      "Inhoud volledig: toelichting op art. 7 wet, waarderingsregels, publicatieverplichting",
+      "Voetnoten correct als markdown-voetnoten geformateerd",
+      "Vlotte leesbare proza, geen conversion-artefacten zichtbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0012-01-toepassingsgebied-van-de-uitvoeringsbesluiten-bedoelde-ondernemingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D1: spelfout 'oger' (r61, moet 'hoger' zijn) staat nog steeds in de body — dit is een bron-fout die bij de scraper-fix niet is gecorrigeerd. A6-bug (zin gesplitst na footnote-referentie) lijkt verholpen: de zin 'In zijn antwoord op een parlementaire vraag[^1] over de al dan niet cumulatieve aard...' staat nu op één regel (r63). A4-status kan niet zonder hex-inspectie worden bevestigd. De 'verouderd'-notitie (r59) bevat de bulletin-verwijzing als aparte paragraaf; dit is een lichte structuuronduidelijkheid maar geen blocker.",
+    "concrete_problemen": [
+      {
+        "regel": 61,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "het totaal van hun balans bij het einde van het boekjaar niet oger is dan 25 miljoen frank"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "A6-bug (gesplitste zin na footnote-ref) lijkt verholpen",
+      "Inhoud volledig: de drie criteria van art. 12 correct vermeld",
+      "Voetnoot [^1] volledig met parlementaire referentie"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0012-02-toepassingsgebied-van-de-uitvoeringsbesluiten-boekjaar-waarop-de-criteria-van-toepassing.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Meerdere typefouten (vermoedelijk al in de bron) die de scraper-fix niet heeft gecorrigeerd: 'inzae tewerkgesteld personeel' (r76), 'ter uitvering van de wet' (r80), 'cjfers' en 'interpretate' (r82). Structureel: de 'verouderd'-notitie op r72 en de bulletin-verwijzing op r74 staan als twee aparte alinea's — dit kan een A6-achtig scraping-artefact zijn. A4-status niet zonder hex-inspectie verifieerbaar.",
+    "concrete_problemen": [
+      {
+        "regel": 76,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "criteria inzae tewerkgesteld personeel, omzetcijfer en balanstotaal"
+      },
+      {
+        "regel": 80,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "besluiten die ter uitvering van de wet worden genomen"
+      },
+      {
+        "regel": 82,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "dat de cjfers in de loop van het boekjaar overschreden worden ... interpretate"
+      },
+      {
+        "regel": 74,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "(zie lijst van gepubliceerde adviezen, bulletin 1-24 augustus 1977-september 1989)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: drie criteria, toepassing op startende ondernemingen",
+      "Logische structuur met duidelijke alinea-indeling"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0012-03-toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel staat slechts eenmaal (r52). De lichte '[^1] ,[^2]' spatie-voor-komma (r56) is een marginale opmaakafwijking die geen inhoudelijke of structurele impact heeft. Geen verdere artefacten: body volledig, drie voetnoten correct geformateerd, logische opbouw.",
+    "concrete_problemen": [
+      {
+        "regel": 56,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "koninklijk besluit van 18 oktober 1978[^1] ,[^2]."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "B3 duplicate-heading bug verholpen",
+      "Drie voetnoten volledig en correct geformateerd",
+      "Inhoud volledig: berekeningswijze gemiddeld personeel, wet uitzendkrachten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0016-01-toepassing-van-de-wet-op-financiele-instellingen-kredietinstellingen-die-onder-de.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Twee hardnekkige problemen niet opgelost door scraper-fix: (1) G2/frontmatter: in de YAML-sectie gerelateerde_adviezen staat nog steeds een ongeparseerde HTML-entity op r9 ('Het begrip &quot;financiële instelling&quot;') — downstream YAML-parsing kan hier falen. (2) D1: typo 'valln' (r67) in de body. A4 (U+2010 in de heading r61 '‐ Kredietinstellingen') lijkt nog aanwezig gezien de heading tekst. Geen duplicate headings.",
+    "concrete_problemen": [
+      {
+        "regel": 9,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "titel: Het begrip &quot;financiële instelling&quot;"
+      },
+      {
+        "regel": 61,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "CBN-advies 16-1 Toepassing van de wet op financiële instellingen ‐ Kredietinstellingen"
+      },
+      {
+        "regel": 67,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "die onder de toepassing valln van het koninklijk besluit nr. 64"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Geen duplicate headings",
+      "Inhoud volledig: opsomming van vrijgestelde instellingen compleet",
+      "Logische structuur, geen spurious line-breaks"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0100-omzet-begrip.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel 'CBN advies 100 - Omzet – Begrip' staat slechts eenmaal (r51). Geen andere artefacten gevonden. Inhoud volledig: definitie omzetcijfer correct geciteerd, voetnoot [^1] aanwezig en correct gelinkt. Em-dash in de titel (Omzet – Begrip) is typografisch correct voor de CBN-huisstijl.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "B3 duplicate-heading bug verholpen",
+      "Geciteerde definitie KB 8 oktober 1976 volledig en correct tussen aanhalingstekens",
+      "Voetnoot [^1] correct geformateerd met drie wetsverwijzingen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Laag 2 was 'not_run' vóór deze re-QA. Grote file (1440 regels, 127k chars) met meerdere structuurproblemen: (1) B4: meerdere secties die als **vetgedrukte tekst** beginnen in plaats van als heading, o.a. r752 ('**Rubriek 100...**' gevolgd direct door #### op r753), r955, r977, r1078, r1235, r1242. (2) B4: 'DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW' (r332) als all-caps plain text zonder heading. (3) D4/B1: heading r463 '###### Stagiairs** **' bevat stray bold-markers na de heading-tekst. (4) E1/E2: tabel r809-851 heeft ernstig gebroken pipe-syntax met multi-line cellen, gecombineerde rijen en verloren cel-grenzen — onleesbaar als markdown-tabel. Inhoud inhoudelijk volledig en diepgaand.",
+    "concrete_problemen": [
+      {
+        "regel": 332,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW"
+      },
+      {
+        "regel": 463,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "###### Stagiairs** **"
+      },
+      {
+        "regel": 752,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "**Rubriek 100 - \"Gemiddeld aantal werknemers\", met onderscheid tussen voltijds en deeltijds**"
+      },
+      {
+        "regel": 809,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| *Op het einde \\n\\t\\t\\t\\tvan de maand* | | A. Voltijds | ..."
+      },
+      {
+        "regel": 955,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "**Uitsplitsing per beroepscategorie van de in het personeelsregister ingeschreven werknemers**"
+      },
+      {
+        "regel": 977,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "**Uitzendkrachten in de sociale balans van de gebruikende ondernemingen ...**"
+      },
+      {
+        "regel": 1078,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "**Staat III over het gebruik van de maatregelen ten gunste van de werkgelegenheid ...**"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en diepgaand: alle 5 hoofdsecties + bijlage aanwezig",
+      "86 headings correct als markdown-headings geformateerd",
+      "92 voetnoten correct als markdown-voetnoten geformateerd",
+      "Correcte heading-hiërarchie (## tot ######) voor het grootste deel van de structuur"
+    ]
+  }
+]

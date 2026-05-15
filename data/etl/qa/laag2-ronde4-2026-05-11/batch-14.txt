@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-2019-08-boekhoudkundige-verwerking-van-crowdfunding-0.md
+resources/bronnen/adviezen/CBN-2019-13-pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering.md
+resources/bronnen/adviezen/CBN-2020-01-neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe.md
+resources/bronnen/adviezen/CBN-2020-02-afronding-van-betalingen-in-euro-0.md
+resources/bronnen/adviezen/CBN-2020-06-financieringskostensurplus-artikel-194sexies-en-artikel-1981-wib-92.md
+resources/bronnen/adviezen/CBN-2020-10-schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren.md
+resources/bronnen/adviezen/CBN-2020-11-vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0.md
+resources/bronnen/adviezen/CBN-2020-13-overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze.md
+resources/bronnen/adviezen/CBN-2020-15-zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende.md
+resources/bronnen/adviezen/CBN-2021-01-uitgiftepremie-0.md

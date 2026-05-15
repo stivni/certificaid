@@ -1,0 +1,197 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-03-vervaardigingsprijs-toerekening-van-creditrente.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Vorige Laag-2-ronde flagde D4 (italic niet gesloten op L73 en L79), maar bij her-lezing van de actuele body sluiten beide italic-spans correct: 'via de rubriek *Wijziging in de voorraad ... in uitvoering*, zonder' en '*Wijziging in de bestellingen in uitvoering* (717)' — de asterisk staat vóór de spatie/komma. Scraper-fix heeft dit opgelost. Inhoud volledig, voetnoot correct, geen andere artefacten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en inhoudelijk coherent — alle redenering van de Commissie aanwezig",
+      "Voetnoot [^1] correct gedefinieerd en geplaatst",
+      "Geen TOC-residu, geen form-feed-tekens, geen onzichtbare unicode waargenomen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-05-vervaardigingsprijs.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D1: bestand eindigt abrupt mid-zin op regel 55 met 'Toepassing daarvan zou de vervaardigingsprijs trouwens' — de conclusie van de Commissie ontbreekt volledig. Laag-1 meldt geen flags maar de content-truncatie is een ernstig inhoudelijk probleem dat RAG-resultaten corrumpeert.",
+    "concrete_problemen": [
+      {
+        "regel": 55,
+        "categorie": "D1",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "Toepassing daarvan zou de vervaardigingsprijs trouwens"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Frontmatter correct ingevuld",
+      "De aanwezige tekst is helder gestructureerd zonder extractie-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-06-individualisering-van-de-aanschaffingsprijs.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Vorige Laag-2-ronde flagde B3 (duplicate heading op L58+60), maar bij her-lezing staat de enkelvoudige H1-heading correct op L62 in de body. De verwarring ontstond doordat de thema-entries in de frontmatter lijken op een titelherhaling, maar dat zijn metadata-velden. Geen duplicaat in de body. Inhoud volledig afgesloten met complete redenering.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: alle aspecten van de aanschaffingsprijs-individualisering aanwezig",
+      "Geen PDF-artefacten waargenomen",
+      "Enkele duidelijke heading, vlot leesbaar proza"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-07-waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: tabelrijen 'Theoretische eindinventaris' (L88-89) en 'Fysieke eindinventaris' (L91-92) zijn gesplitst over twee regels met tab-inspringing — dit breekt de pipe-table. C3: L81, L84, L87 en L90 bevatten ASCII-art scheidingsrijen ('--------- | -------------') als gewone tabelcellen in plaats van als echte tabel-rijen, wat RAG-parsing verstoort.",
+    "concrete_problemen": [
+      {
+        "regel": 81,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "| | --------- | ------------- | | |"
+      },
+      {
+        "regel": 88,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | Theoretische eindinventaris\n\t\t\t(tegen detailprijs) | 22.000 | | |"
+      },
+      {
+        "regel": 91,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | Fysieke eindinventaris\n\t\t\t(tegen detailprijs) | 20.000 | | |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee inhoudelijke secties (Winkelvoorraden, Centraal opgeslagen voorraden) correct als H2 gemarkeerd",
+      "Voetnoot [^1] correct gedefinieerd",
+      "Proza buiten de tabel volledig en coherent"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-12-boeking-van-uitzettingsvergoedingen-betaald-door-de-eigenaar-en-van-de-kost-van-werken-ten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B7: H1-titel op L57 eindigt op '...ten laste van de verkoper1' — het cijfer '1' is een losgeraakt voetnootmarker die in de heading is terechtgekomen. B2: heading-hiërarchie springt van H1 (L57) direct naar H4 (L70: '#### DE BETALING...') zonder H2/H3 ertussen. Beide issues zijn reëel en bevestigd ten opzichte van de vorige Laag-2-ronde.",
+    "concrete_problemen": [
+      {
+        "regel": 57,
+        "categorie": "B7",
+        "type": "other",
+        "voorbeeld": "# CBN-advies 126/12 - ...kost van werken ten laste van de verkoper1"
+      },
+      {
+        "regel": 70,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### DE BETALING VAN EEN UITZETTINGSVERGOEDING DOOR DE EIGENAAR (H1 → H4, geen H2/H3)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: alle vier gevallen (uitzettingsvergoeding voor verhuur, voor eigen gebruik, werken vóór verkoopakte, werken na verkoopakte) aanwezig",
+      "Boekingstabellen in correcte pipe-syntax",
+      "Zeven voetnoten correct gedefinieerd en geplaatst"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-13-boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B1: heading op L125 bevat typo 'VVPS-strip' i.p.v. 'VVPR-strip'. A5: L85 bevat '«VVPR-strips' zonder sluitende '»' (open guillemet); in dezelfde alinea worden ook ASCII-aanhalingstekens gebruikt naast guillemets — inconsistente quote-stijl. Inhoud is inhoudelijk volledig en omvangrijk, maar deze extractie-artefacten zijn zichtbaar voor een buitenstaander.",
+    "concrete_problemen": [
+      {
+        "regel": 85,
+        "categorie": "A5",
+        "type": "other",
+        "voorbeeld": "1. Beschrijving van het mechanisme van de «VVPR-strips (ontbrekend sluitend »)"
+      },
+      {
+        "regel": 125,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "#### Juridisch statuut van de \"VVPS-strip\" (typo: VVPS i.p.v. VVPR)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Omvangrijke en inhoudelijk volledige tekst (>20k chars) met alle drie boekhoudsituaties uitgewerkt",
+      "Heading-hiërarchie H1/H4/H5/H6 consistent door het document",
+      "Elf voetnoten correct gedefinieerd en geplaatst"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0127-02-waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1: frontmatter-thema op L59 bevat HTML-entity '&#039;' (apostrof) die niet gedecodeerd is door de ETL-pipeline: 'voorzieningen voor risico&#039;s en kosten'. Dit corrumpeert metadata die voor retrieval wordt gebruikt. Body is volledig schoon en inhoudelijk compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 59,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "- voorzieningen voor risico&#039;s en kosten"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig schoon — geen PDF-artefacten in de lopende tekst",
+      "Inhoud compleet: beide aspecten (waardevermindering vs. voorziening) helder uitgewerkt",
+      "Geen heading-hiërarchie-problemen in de body"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0128-05-vrijstelling-investeringsreserves-controle-op-de-toepassing-van-het-boekhoudrecht.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3/B5: L49 bevat de titel als plain-text-alinea direct na de H1-heading (zelfde tekst, zonder '#'-prefix) — een ETL-artefact waarbij de paginatitel dubbel werd geëxtraheerd. Dit is een unreviewed bron; Laag 2 werd nog niet eerder uitgevoerd. Verder is de inhoud volledig en schoon.",
+    "concrete_problemen": [
+      {
+        "regel": 49,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "CBN-advies 128/5 - Vrijstelling investeringsreserves - Controle op de toepassing van het boekhoudrecht (plain text duplicate van H1)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: parlementaire vraag + antwoord minister aanwezig",
+      "H2-sectie 'Antwoord van de Minister van Economische Zaken' correct gemarkeerd",
+      "Twee voetnoten correct gedefinieerd",
+      "Geen PDF-artefacten in lopende tekst"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0128-08-boeking-van-voordelen-van-alle-aard.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Vorige Laag-2-ronde flagde D4 (italic '*Bezoldigingen *' met spatie voor sluitende asterisk op L63/65/67). Bij her-lezing van de actuele body zijn alle drie italic-spans correct gesloten: '*Bezoldigingen*' zonder trailing spatie. Scraper-fix heeft dit opgelost. Inhoud volledig, geen andere artefacten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en helder: fiscale vs. boekhoudkundige kwalificatie correct onderscheiden",
+      "Italic-opmaak van boekhoudkundige rubrieksnamen nu correct gesloten",
+      "Geen TOC-residu, geen onzichtbare unicode, geen heading-problemen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0131-02-toevoegingen-en-onttrekkingen-boekhoudkundige-verwerking.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: heading-hiërarchie springt van H1 direct naar H4 ('#### Over de stijving...' op L72, '#### Over onttrekkingen...' op L78) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven markdown. Additioneel: L68 heeft 'een speciale rubriek* Overboeking...' zonder spatie voor de openende '*', wat italic-parsing kan breken (D4-adjacent). B2 is het primaire ETL-bug.",
+    "concrete_problemen": [
+      {
+        "regel": 72,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### Over de stijving van de belastingvrije reserves (H1 → H4, geen H2/H3)"
+      },
+      {
+        "regel": 78,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### Over onttrekkingen aan de belastingvrije reserves (idem)"
+      },
+      {
+        "regel": 68,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "een speciale rubriek* Overboeking naar de belastingvrije reserves* (geen spatie na 'rubriek')"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: beide vragen (stijving en onttrekking) uitvoerig beantwoord",
+      "Italic-opmaak van rubrieksnamen grotendeels correct",
+      "Geen TOC-residu, geen form-feed-tekens"
+    ]
+  }
+]

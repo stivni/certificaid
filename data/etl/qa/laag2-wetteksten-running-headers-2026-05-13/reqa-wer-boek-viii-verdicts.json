@@ -1,0 +1,29 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/WER-Boek-VIII-normalisatie.md",
+    "aanbevolen_status": "approved",
+    "rationale": "Re-extractie met page_start:10/page_end:18 en column_filter:fr levert nu de juiste NL-boekhoudkundige normalisatie-tekst van WER Boek VIII. Inhoud dekt: (a) definities (Proef, Kalibratie, Referentiemateriaal, Keuring, Certificatie, Meetinstrumenten, Geijkt meetinstrument, Metingen in economisch verkeer); (b) BOEK II algemene beginselen (Art. II.1 t/m II.4); (c) BOEK VIII Titel 1 Normalisatie (Bureau voor Normalisatie Art. VIII.3-VIII.17, Hoge Raad VIII.19-VIII.29, Accreditatie VIII.31-VIII.32); (d) Titel 3 Meeteenheden, meetstandaarden en meetinstrumenten (Art. VIII.33-VIII.56) en opheffingsbepalingen. Geen CAO/milieu/dieren-residu meer. De vorige rejection-redenen zijn weggewerkt. Resterende issues zijn cosmetisch (heading-spacing pdftotext-artefact, enkele paragraaf-cuts mid-zin, ontbrekende 1° in enumeraties VIII.10/VIII.16, en enkele bilingue residu-zinnen <10) en hebben beperkte retrieval-impact omdat de artikelnummers en kernzinnen integraal aanwezig zijn.",
+    "concrete_problemen": [
+      "Heading-spacing artefact in talrijke `###### Art. VIII.x` regels (bv. `Een   Bureau`, `In   het   kader`) — pdftotext column-merge residu, cosmetisch.",
+      "Paragraaf-cut mid-zin: Art. VIII.3 (regel 57-59) en Art. VIII.4 (regel 61-63) splitsen op heading-regel waardoor leesvolgorde onderbroken wordt.",
+      "Art. VIII.10 §2 begint visueel bij `2°` (regel 113) — `1°` lijkt te ontbreken of is samengevoegd met §2-opener (regel 111).",
+      "Art. VIII.16 §-blok mist `1°` op regel 145 — opening sluit direct met `1° het goedkeuren...` maar er staat geen 1°-marker voor de eerste opdracht.",
+      "HOOFDSTUK 3-titel `De Hoge Raad voor Normalisatie` (regel 163) is een gigantische single-paragraph blob met Art. VIII.19 t/m VIII.29 aan elkaar gelijmd — verminderde chunking-granulariteit binnen dit hoofdstuk.",
+      "Soortgelijke blob op regel 165 voor accreditatie (Nationale Raad voor Accreditatie + Art. VIII.31-32) zonder eigen Art.-headings.",
+      "Art. VIII.35 §1 (regel 175-183) heeft grondeenhedendefinities (meter, kilogram, seconde, kelvin, candela, mol) als losse paragraphs zonder genummerde sublabels — leesbaar maar mist structuur.",
+      "Enkele bilingue residu-fragmenten in opheffingsbepaling Art. 3 (regel 261): `décret du 2 - 17 mars 1791 portant suppression...` is FR-citaat (verwacht in NL-tekst, niet problematisch maar te flaggen).",
+      "Frontmatter `bron: \"onbekend\"` ongewijzigd — kan beter Belgisch Staatsblad WER Boek VIII consolidatie 24.12.2025 zijn.",
+      "Frontmatter `tags: [\"XIII\", \"1.4\"]` en `itaa-lex-sectie: \"XIII\"` lijken niet te kloppen voor WER Boek VIII (boekhoudnormen valt eerder onder bedrijfsboekhouding/audit-context — te verifiëren tegen ITAA-LEX sectie-mapping)."
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud klopt nu volledig met de bron-scope: Boek VIII normalisatie + meeteenheden, geen CAO/milieu-residu.",
+      "Alle artikelnummers VIII.3 t/m VIII.56 aanwezig in correcte volgorde (geen gaten in de chunking-cruciale numerieke reeks).",
+      "Definitielijst (9°-16°) in Titel 1 Hoofdstuk 1 is intact en bevat de kerntermen voor de bron (Proef, Kalibratie, Certificatie, Meetinstrumenten, Geijkt meetinstrument).",
+      "BOEK II algemene beginselen Art. II.1-II.4 correct opgenomen — geeft context voor Boek VIII.",
+      "Markdown-structuur met `###### Art.` headings consistent toegepast — werkt met de huidige chunk-strategy (level 6, type Art.).",
+      "Opheffingsbepalingen (Art. 3-7) correct mee-gemigreerd inclusief verwijzing naar wet van 16 juni 1970 en wet van 20 juli 1990.",
+      "Provenance-frontmatter compleet: sha256, pipeline-versie 5080c593, generated_at 2026-05-13.",
+      "Geen FR-NL kolom-vermenging meer in body-tekst (column_filter:fr workaround werkt voor deze bilingue BS-publicatie waar NL rechts staat)."
+    ]
+  }
+]

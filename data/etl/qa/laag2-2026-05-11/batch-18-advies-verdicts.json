@@ -1,0 +1,165 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0100-01-opening-van-bijkomende-rekeningen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Eén aaneengesloten tekstblok zonder headings (heading_count=0, correct voor dit korte advies). Genummerde opsomming (1. t/m 4.) is consistent en correct. Geen PDF-artefacten, geen onzichtbare unicode, geen afgekapte zinnen. Ziet er uit als mens-geschreven markdown.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Genummerde lijst consistent met punt-notatie (1. 2. 3. 4.)",
+      "Geen enkel PDF-extractie-artefact zichtbaar",
+      "Volledige inhoud — advies sluit logisch af"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0100-omzet-begrip.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: de hoofd-heading is gedupliceerd op regels 47 en 49 ('# CBN advies 100 - Omzet – Begrip' twee keer). Scraper heeft de paginatitel en de article-heading als twee aparte regels gepakt. Inhoudelijk verder volledig en correct.",
+    "concrete_problemen": [
+      {
+        "regel": 49,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# CBN advies 100 - Omzet – Begrip (duplicate van regel 47)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Voetnoot [^1] correct gedefinieerd en gekoppeld",
+      "Citaat van KB 8 oktober 1976 intact en leesbaar",
+      "Zeer korte tekst, verder geen artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0100-verwerking-in-de-geconsolideerde-jaarrekening-van-de-vermogensbestanddelen-en-de.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Drie alinea's, geen headings (heading_count=0, correct). Wetsartikel geciteerd als prose, geen tabellen of lijsten nodig. Geen artefacten, inhoud volledig en afgerond.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Wetsartikelcitaat correct ingebed in prose",
+      "Geen onzichtbare unicode of PDF-resten",
+      "Inhoud logisch afgesloten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0101-01-zakelijke-waarborgen-gesteld-voor-rekening-van-derden.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: de twee pipe-tabellen (regels 66-68 en 70-72) hebben inconsistente kolomaantallen — de 'moeder'-rijen hebben 3 kolommen (4 pipes) terwijl de 'kind'-rijen 5 kolommen hebben (6 pipes). Dit rendert als gebroken tabel in elke markdown-parser. D3: voetnoot [^2] en [^3] zijn inhoudelijk bijna identiek (duplicaat tekst, alleen kleine stijlverschillen), wat wijst op een scraping-artefact waarbij dezelfde noot tweemaal werd gevangen.",
+    "concrete_problemen": [
+      {
+        "regel": 66,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| 01 | | Waarborgen gesteld voor rekening van derden | (3 cols vs 5 cols sub-rijen)"
+      },
+      {
+        "regel": 82,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^2] en [^3] identieke tekst, enkel 'cfr.' vs 'cf.' verschil — duplicate scrape"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoudelijk volledig — beide rekening-sets beschreven",
+      "Voetnoot [^1] correct en uniek",
+      "Prose-toelichting helder en zonder artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0101-02-aandelen-als-waarborg-van-de-goede-uitoefening-van-een-mandaat-als-bestuurder-of.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Kort advies (1430 chars), geen headings nodig. Rekeningnamen correct gecursiveerd. Geen duplicaten, geen structuurproblemen, geen artefacten. Sluit logisch af.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Rekeningnamen correct als *cursief* gemarkeerd",
+      "Inhoud volledig afgerond",
+      "Geen PDF- of scraping-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0102-02-overschrijvingsorders.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Één tekstblok, geen headings vereist. Geen lijsten, geen tabellen, geen voetnoten. Inhoud compleet en afgerond. Geen enkele extractie-aanwijzing zichtbaar.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Heldere prose zonder enig artefact",
+      "Juist contrast met cheques uitgewerkt",
+      "Logisch afgesloten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0102-03-te-innen-cheques-rekening-53.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: op regel 52 staat '*Kredietinstellingen *' — de sluitende asterisk heeft een spatie vóór zich waardoor de italic niet correct sluit in de meeste markdown-parsers ('rekening *Kredietinstellingen *zodra'). Verder is het advies erg kort maar volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 52,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening *Kredietinstellingen *zodra het krediet werd verleend"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud correct en volledig",
+      "Eerste rekeningnaam *Te innen vervallen waarden* correct gecursiveerd",
+      "Geen PDF-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0102-omzet-verkopen-cif-cost-insurance-freight.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: de hoofd-heading is gedupliceerd op regels 48 en 50 ('# CBN advies 102 - Omzet - Verkopen CIF (Cost, Insurance, Freight)' twee keer) — zelfde scraping-patroon als CBN-0100-omzet-begrip. Inhoudelijk verder volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 50,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# CBN advies 102 - Omzet - Verkopen CIF (Cost, Insurance, Freight) (duplicate van regel 48)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud correct en volledig",
+      "Geen overige artefacten",
+      "Logisch afgesloten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0102-overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Drie concrete problemen: (1) A4/G3 op regel 101: spurious '] ' midden in een geciteerde zin ('te ] verantwoorden»') — een bracket-artefact uit de bronpagina dat de zin verminkt; (2) A4 op regel 210: U+00AC (NOT SIGN ¬) in plaats van koppelstreepje in 'niet¬monetaire' — onzichtbaar unicode-artefact; (3) D3 op regel 198: voetnoot [^14] bevat de volledige tekst tweemaal aaneengesloten zonder separator — scraping-duplicaat. Heading-hiërarchie (## › ### › ####) is structureel correct. Inhoud is overigens inhoudelijk volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 101,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": "te ] verantwoorden»[^8]. — spurious bracket in geciteerde passage"
+      },
+      {
+        "regel": 210,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "niet¬monetaire actief — U+00AC NOT SIGN i.p.v. koppelstreepje"
+      },
+      {
+        "regel": 198,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^14]: ...advies 152/1 Voor een definitie...advies 152/1 (tekst tweemaal)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (## / ### / ####) correct en consistent over 9 secties",
+      "Alle 20 voetnoten aanwezig en correct gekoppeld op één na",
+      "Prose-kwaliteit hoog — geen spurious line-breaks of column-bleed"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0103-03-omzet-van-lijnagenten.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Correct opgebouwd advies zonder headings (terecht voor deze lengte). Technische term *agency fee* correct gecursiveerd. Twee voetnoten correct gedefinieerd en gekoppeld. Geen artefacten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "*agency fee* correct als cursief gemarkeerd",
+      "Beide voetnoten [^1] en [^2] correct aanwezig",
+      "Inhoud volledig en logisch afgesloten"
+    ]
+  }
+]

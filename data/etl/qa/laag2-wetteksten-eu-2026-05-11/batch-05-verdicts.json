@@ -1,0 +1,224 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Structuur is goed: 203 headings op 5 niveaus, artikelen correct opgemaakt als ##### Art. N, secties als ## HOOFDSTUK / ### Afdeling / #### Onderafdeling. Wijzigingsmarkers [1 ... ]1, [2 ... ]2 zijn consistent open-en-dicht. Belgische wettekststijl (1°, 2°, §-nummering, amendment-footnotes) doorgehend consistent. Geen TOC-residu, geen form-feeds, geen kolom-bleed, geen OCR-artefacten gevonden. Laag-1 flags leeg, bestandsgrootte 141 k chars, max section 6358 chars — alles binnen norm.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Volledige wet aanwezig: alle hoofdstukken 3–13 herkenbaar met bijbehorende afdelingen en artikelen",
+      "Amendment-markers [1 ... ]1 consistent open-en-dicht door de volledige tekst",
+      "Wijzigingsvoetnoten (<W JAAR-MM-DD/NN, art. X, ...>) consistent aangehecht aan elk gewijzigd artikel",
+      "Geen zichtbare PDF-extractie-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Meerdere B4/A7-problemen: (1) op regel 52 staat 'Titel' als plain text, gevolgd door regel 54 met de wetsnaam opnieuw — dit is een TOC-artefact vóór de echte tekst. Op regel 98 staat 'Tekst' als plain-text scheidingslabel. (2) Regels 58–96 zijn een compact dubbele inhoudstafel (TOC-fragment) vóór de eigenlijke body — een typisch extractie-artefact (A3). (3) 'Art. 1.Deze' op regel 104 toont een samengevoegde heading+body (het artikel-nummer is gecombineerd met het begin van de wettekst, wat de heading leesbaarheid breekt — B5-variant). (4) Meerdere zinsfragmenten als zelfstandige regel: regel 128 'processen en technieken...', regel 146 'met het bewaren...', regel 308 'maand vanaf de datum...', regel 369 'is gestort of op zijn loon ingehouden.', regels 637–699 meerdere losse zinsstukken die duidelijk continue met een vorige sectie verbonden waren — A6 spurious line-breaks mid-sentence. Laag-1 status pass maar de ETL heeft zichtbare extractie-sporen achtergelaten.",
+    "concrete_problemen": [
+      {
+        "regel": 52,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Titel"
+      },
+      {
+        "regel": 54,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "3 JULI 1978. - Wet betreffende de arbeidsovereenkomsten."
+      },
+      {
+        "regel": 58,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "#### Afdeling 2. [TOC-fragment vóór eigenlijke body, loopt tot regel 96]"
+      },
+      {
+        "regel": 98,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Tekst"
+      },
+      {
+        "regel": 104,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "##### Art. 1.Deze"
+      },
+      {
+        "regel": 128,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "processen en technieken aan de hand waarvan een elektronische handtekening kan worden..."
+      },
+      {
+        "regel": 308,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "maand vanaf de datum van beëindiging van de overeenkomst het gebruiksrecht terug te vragen..."
+      },
+      {
+        "regel": 637,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "opzeggingstermijn ter kennis werd gegeven.]1"
+      },
+      {
+        "regel": 640,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "vastgesteld op :"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig aanwezig: alle titels I–VIII, hoofdstukken en afdelingen herkenbaar als headings",
+      "Belgische wettekststijl (§, 1°, amendment-markers [N ... ]N) consistent doorgehend",
+      "Heading-hiërarchie ## / ### / #### / ##### correct gelaagd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Wet-beroepskwalificaties-2008.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B4 stelselmatig aanwezig: een twintigtal structuurlabels zoals 'Doel.', 'Toepassingsgebied.', 'Gevolgen van de erkenning.', 'Compenserende maatregelen.', 'Talenkennis.', 'Informatie ten behoeve van de afnemers van de dienst.', 'Bevoegde autoriteiten.', 'Inwerkingtreding.' enz. staan als plain-text regels (zonder ##/###-prefix). Een mens zou die als subheadings schrijven. Dit is een structureel ETL-probleem dat de gehele wet doorzet en retrieval-kwaliteit schaadt. Bovendien bevat de wet parallelle gewestrechtversies (Art. X en Art. X_WAALS_GEWEST naast elkaar), die niet structureel van elkaar zijn onderscheiden via headings — dit is echter inherent aan het brondocument. Laag-1 pass, maar B4-artefacten zijn wijdverspreid.",
+    "concrete_problemen": [
+      {
+        "regel": 72,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Doel."
+      },
+      {
+        "regel": 84,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Toepassingsgebied."
+      },
+      {
+        "regel": 98,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Gevolgens van de erkenning."
+      },
+      {
+        "regel": 206,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Toepassingsgebied."
+      },
+      {
+        "regel": 258,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Informatie ten behoeve van de afnemers van de dienst."
+      },
+      {
+        "regel": 302,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Compenserende maatregelen."
+      },
+      {
+        "regel": 420,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Bevoegde autoriteiten."
+      },
+      {
+        "regel": 454,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Inwerkingtreding."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Titels I–VI en hoofdstukken correct als ## / ### headings opgemaakt",
+      "Artikelnummering consistent (#### Art. X / #### Art. X_WAALS_GEWEST)",
+      "Amendment-markers [N ... ]N correct open-en-dicht"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Wet-betalingsachterstand-2002.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B4 op regel 53: 'Titel' als plain-text label. Ernstigere B5/A3: regel 57 start midden in een definitielijst ('Richtlijn 2004/17/EG en in artikel 1...') zonder inleidend artikel of heading — het definitieartikel (Art. 2) met zijn preamble en punten 1–3 ontbreekt volledig of is afgekapt, terwijl de inhoud springt naar punt 4 ('referentie-interestvoet'). Dit is een duidelijk D2 missing-section-artefact: de kop van de definitiesectie ontbreekt. Ook ontbreekt een Art. 1 heading en Hoofdstuk I-heading vóór Art. 3. Bestandsgrootte is slechts 16k chars — de wet is klein, maar de structurele verspringen duiden op ETL-kap bij het begin.",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Titel"
+      },
+      {
+        "regel": 57,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "Richtlijn 2004/17/EG en in artikel 1, lid 9, van Richtlijn 2004/18/EG... [midden in definitie-opsomming, begin ontbreekt]"
+      },
+      {
+        "regel": 62,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "### Art. 3.Deze [Art. 1 en Art. 2 heading + Hoofdstuk I-heading ontbreken]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Artikelen Art. 3–15 correct opgemaakt als ### headings",
+      "Hoofdstukken II–IV correct als ## headings",
+      "Wettekst inhoudelijk volledig voor het aanwezige gedeelte"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Wet-verzekeringen-2014.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Laag-1 meldt max_section_size warn (32357 chars in één sectie), maar dat is een chunker-attentie, geen inhoudelijk ETL-defect. De markdown zelf is structureel correct: ## DEEL / ### TITEL / #### HOOFDSTUK / ###### Art. gelaagd en consistent. Structuurlabels als 'Doel', 'Toepassingsgebied', 'Definities' staan als **bold** (niet als plain text), wat acceptabel is als stylistisch alternatief voor sub-headings in een definitie-zware wet. Geen TOC-residu, geen form-feeds, geen OCR-artefacten, geen spurious line-breaks. Amendment-brackets [ ... ] zijn open-en-dicht. Inhoud volledig: Deel 1–4 aanwezig, definities Art. 5 volledig met 60+ genummerde items. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Rijke heading-hiërarchie ## / ### / #### / ###### correct gelaagd door de volledige wet",
+      "Definities Art. 5 volledig met 60+ genummerde items, correct als lijst",
+      "Laag-1 warn is chunker-issue, geen ETL-artefact in de markdown zelf",
+      "Geen zichtbare PDF-extractie-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Wet-voorafgaande-beslissingen-2002.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Meerdere B4/A3-problemen: regel 53 'Titel' en regel 58 'Bron : FINANCIEN' als plain-text labels. Regels 61–76 vormen een TOC-fragment (TITEL II–V met artikelverwijzingen) vóór de eigenlijke wettekst die op regel 78 herstart (A3). Op regel 76 staat '#### Art. 31' als heading in het TOC-gedeelte, terwijl de echte Art. 31 ook later voorkomt op regel 313 — dit is een duplicaat heading (B3). Bovendien staat de inhoudstafel op regel 63–74 vóór de eigenlijke titeltekst op regel 78: de body begint dus dubbel (TOC + echte tekst) wat typisch is voor Fisconet-PDF-extractie. Op regel 327 een losse 'Art. 7' heading zonder context die eigenlijk de opmerking 'Art. 7 treedt in werking...' is (B1-variant: heading zonder zinvolle tekst in heading zelf).",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Titel"
+      },
+      {
+        "regel": 58,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Bron : FINANCIEN"
+      },
+      {
+        "regel": 61,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "## TITEL II. - Wetboek van de inkomstenbelastingen 1992. [TOC-fragment, loopt t/m regel 76]"
+      },
+      {
+        "regel": 72,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "#### Art. 31 [duplicate: staat ook in TOC én in body op r313]"
+      },
+      {
+        "regel": 327,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "#### Art. 7 [losse heading, gevolgd door zin 'is van toepassing op...' zonder heading-tekst]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Titels I–V correct als ## headings in de eigenlijke body",
+      "Artikelen Art. 20–35 (voorafgaande beslissingen) inhoudelijk volledig en correct opgemaakt",
+      "Amendment-markers consistent"
+    ]
+  }
+]

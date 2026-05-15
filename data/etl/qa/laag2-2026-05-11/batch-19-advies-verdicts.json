@@ -1,0 +1,165 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0103-gefactureerde-nog-niet-ontvangen-voorschotten-en-vooruitbetalingen-rekening-46.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: de markdown-tabel heeft een lege eerste kolom (extra leidende `| |` op elke rij) die geen overeenkomende header-label heeft — een ongebruikelijke structuur die een mens zo niet zou typen. Verder is de inhoud inhoudelijk volledig en schoon: geen artefacten, geen duplicate headings, geen unicode-issues.",
+    "concrete_problemen": [
+      {
+        "regel": 54,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | Rekening | Omschrijving | Debet | Credit | — lege eerste kolom in header én alle rijen"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en coherent: advies helder samengevat in één alinea",
+      "Voetnoten ontbreken terecht (er zijn geen footnote-markers in body)",
+      "Geen unicode-artefacten, geen HTML-entities, geen spurious line-breaks"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0103-omzet-tussenpersonen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: de page-title heading is volledig gedupliceerd op regels 52 en 54 — een klassiek web-scrape-artefact waarbij de paginatitel en de content-heading beide worden meegenomen. Verder is de body inhoudelijk volledig en kwalitatief goed.",
+    "concrete_problemen": [
+      {
+        "regel": 54,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# CBN advies 103 - Omzet - Tussenpersonen (identiek aan regel 52)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Lange lopende tekst goed bewaard zonder spurious line-breaks",
+      "Geen unicode-artefacten, geen HTML-entities",
+      "Inhoud volledig: alle paragrafen van het advies aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0103-omzet-van-expediteurs.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: duplicate page-title heading op regels 50 en 52. D4/A5: gebroken italic-markering `*Bulletin *` op regel 54 — spatie vóór de sluitende `*` waardoor de markup niet correct sluit (een mens zou `*Bulletin*` schrijven). Twee aparte problemen die ETL kan fixen.",
+    "concrete_problemen": [
+      {
+        "regel": 52,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# CBN advies 103/2 - Omzet van expediteurs (identiek aan regel 50)"
+      },
+      {
+        "regel": 54,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "In het *Bulletin *van de Commissie — spatie voor sluitende * breekt italic-markup"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Voetnoten correct gelinkt: [^1] en [^2] sluiten aan op definities onderaan",
+      "Inhoud volledig: vraag van senator + antwoord minister beide aanwezig",
+      "Geen HTML-entities, geen unicode-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0105-01-compensatie-tussen-debet-en-creditsaldi-bij-eenzelfde-bankinstelling.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen artefacten gevonden. Bestand is kort (1 298 chars, 1 alinea advies), maar dat klopt met de bron: dit is een kort CBN-advies. Inhoud compleet, markdown schoon, frontmatter consistent.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Schone markdown zonder enig artefact",
+      "Inhoud logisch volledig: vraag + advies van de Commissie in één alinea",
+      "Frontmatter consistent met body: nummer 105/1, datum 1977-08-01, bron-URL klopt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0105-01-uitgestelde-belastingvoordelen-wegens-overdraagbare-verliezen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6: op regel 113 breekt een zin midden na `FAS 109[^5]` af, en vervolgt op regel 114 met een leading spatie — een spurious line-break die er op wijst dat de scraper een newline midden in een zin heeft ingevoegd. B-categorie: twee subkoppen (`## **De Belgische regelgeving**` en `## **Buitenlandse regelgeving**`) hebben onnodig `**` bold-markup inside de heading — een mens zou `## De Belgische regelgeving` schrijven.",
+    "concrete_problemen": [
+      {
+        "regel": 113,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "...bepaalt FAS 109[^5]\\n dat een uitgesteld belastingvoordeel — zin breekt na voetnootmarker"
+      },
+      {
+        "regel": 97,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## **De Belgische regelgeving** — bold-markup onnodig binnen heading"
+      },
+      {
+        "regel": 105,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## **Buitenlandse regelgeving** — idem"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Drie duidelijke secties met ## headings; hiërarchie correct",
+      "Alle vijf voetnoten correct gedefinieerd onderaan",
+      "Inhoudelijk volledig: Europese, Belgische en buitenlandse regelgeving alle behandeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0105-02-kosten-afgewenteld-op-of-gedragen-door-derden.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen artefacten. Bestand bevat één coherente alinea-advies (1 858 chars) zonder headings — logisch voor een kort CBN-advies uit 1977. Frontmatter klopt, geen unicode-issues, geen HTML-entities.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Vloeiende alineatekst zonder spurious line-breaks",
+      "Frontmatter volledig en consistent met body",
+      "Geen artefacten van extractie zichtbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0105-04-vergoeding-van-kredieturen-door-de-rsz.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Bestand is zeer kort (766 chars, 2 alinea's) maar dat correspondeert correct met de inhoud van dit korte advies. Geen artefacten, geen unicode-issues, frontmatter consistent.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Schoon en volledig voor de beperkte omvang van dit advies",
+      "Correcte frontmatter: nummer 105/4, datum, bron-URL",
+      "Geen extractie-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0105-05-aanrekening-van-vergoedingen-van-beheerders-of-leden-van-het-personeel-toegekend-door-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1/F3: het `nummer`-veld in frontmatter is `CBN-advies 105-5` (met koppelteken) terwijl de body-heading `CBN-advies 105/5` schrijft (met schuine streep) — inconsistentie tussen frontmatter en heading. De bestandsnaam eindigt op `-door-0.md` wat een afgekapte slug suggereert (de volledige titel was te lang). Deze twee problemen zijn ETL-fixable.",
+    "concrete_problemen": [
+      {
+        "regel": 3,
+        "categorie": "F1",
+        "type": "naam-mismatch",
+        "voorbeeld": "nummer: CBN-advies 105-5 (frontmatter) vs # CBN-advies 105/5 (body heading)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en coherent: het volledige advies is aanwezig",
+      "Geen unicode-artefacten, geen HTML-entities",
+      "Vloeiende alineatekst zonder spurious line-breaks"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0105-06-schade-en-schadeverzekering-andere-dan-kredietverzekering.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen artefacten. Bestand is inhoudelijk volledig (vier alinea's die alle gevallen uit het advies behandelen). De `mec. nr.`-referenties zijn plain text in de body maar dat is correct: dit zijn geen URLs, maar rekeningnummer-aanduidingen uit het origineel. Italic-markup correct gesloten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Italic voor rubrieknamen (Andere bedrijfsopbrengsten, Aankopen en leveringen) correct toegepast",
+      "Alle drie scenario's (normale schade, uitzonderlijke schade, actief-schade) aanwezig",
+      "Geen unicode-artefacten, markdown schoon"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0106-03-verbintenissen-van-een-moedervennootschap-met-betrekking-tot-de-solvabiliteit-van-haar.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen artefacten. Zeer kort advies (722 chars, 1 alinea) dat correct de volledige inhoud van dit korte CBN-advies weergeeft. Frontmatter consistent, markdown schoon.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Schoon, compact advies zonder enig extractie-artefact",
+      "Frontmatter volledig en consistent: nummer 106/3, datum, bron-URL",
+      "Italic voor letter of intent correct toegepast"
+    ]
+  }
+]

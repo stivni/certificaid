@@ -1,0 +1,184 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0114-01-verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D3/D: Voetnoten [^5] (regel 91) en [^6] (regel 93) bevatten identieke definitie 'Rubrieken 7301 tot 7312.' — één van beide is bijna zeker verkeerd (in het bronadvies verwijst [^5] naar schulden en [^6] naar financiële opbrengsten). Dit is een extractiefout die de inhoud aantast. Verder geen heading-structuur (alle tekst is één blok; Laag-1 meldt heading_count: 0), wat voor RAG-chunking suboptimaal maar niet noodzakelijk een rework-grond is. De duplicate footnote is het doorslaggevende probleem.",
+    "concrete_problemen": [
+      {
+        "regel": 91,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^5]: Rubrieken 7301 tot 7312. — identiek aan [^6] op regel 93"
+      },
+      {
+        "regel": 93,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^6]: Rubrieken 7301 tot 7312. — duplicaat van [^5], inhoudelijk onjuist"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Volledige advies-body aanwezig, logische alinea-opbouw zonder spurious line-breaks",
+      "Voetnoten [^1]–[^7] consequent gemarkeerd met markdown-syntax en gekoppeld aan definitie-regels",
+      "Geen PDF-extractie-artefacten (form-feeds, dotted leaders, OCR-verwarring)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0114-04-verwerking-in-de-jaarrekening-van-een-onderneming-van-verrichtingen-met-verbonden.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Kort advies (1778 chars), één alinea-blok + één voetnoot. Geen detecteerbare extractie-artefacten in alle categorieën A–G. Italieken (*de jure*, *de facto*) correct geopend en gesloten. Enige en-dash in frontmatter staat in een gerelateerd-advies-titel (niet in de body) en is niet problematisch. Inhoud compleet.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Schone enkelvoudige alinea-structuur zonder artefacten",
+      "Italics (*de jure*, *de facto*) correct gesloten",
+      "Voetnoot [^1] correct gekoppeld aan definitie"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0114-06-uitdrukking-van-verrichtingen-tussen-ondernemingen-uit-eenzelfde-groep.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Kort advies (1999 chars), vier alinea's + één voetnoot. Geen extractie-artefacten in categorieën A–G. Heading correct als H1. Geen italic-problemen, geen broken bullets, geen spurious line-breaks. Inhoud volledig conform verwacht advies-patroon.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Vloeiende alinea-opbouw, geen enkel PDF-artefact zichtbaar",
+      "Voetnoot [^1] correct gelinkt",
+      "Geen unicode-anomalieën in de body"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0114-07-condominium.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A5/B: De H1-heading op regel 46 bevat een en-dash (U+2013) '–' in plaats van een gewone koppelteken '-': '# CBN-advies 114/7 – Condominium'. Alle andere adviezen in de serie gebruiken het gewone koppelteken '-'. Dit is een inconsistente typografie die door de extractor is geïntroduceerd en niet aanwezig is in het bronadvies. De rest van het bestand (één alinea-blok, geen voetnoten) is schoon.",
+    "concrete_problemen": [
+      {
+        "regel": 46,
+        "categorie": "A5",
+        "type": "other",
+        "voorbeeld": "# CBN-advies 114/7 – Condominium (en-dash U+2013 i.p.v. gewone koppelteken)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body-tekst volledig zonder artefacten",
+      "Geen voetnoten vereist, geen gemiste secties",
+      "Goede alinea-structuur"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0116-financiele-kortingen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Advies van 2759 chars, vier inhoudelijke alinea's. Geen detecteerbare extractie-artefacten. Geen headings vereist (lopende tekst). Geen italic-markers, geen broken bullets, geen unicode-anomalieën. Inhoud volledig.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Heldere alinea-structuur, leest als mens-geschreven proza",
+      "Geen enkel PDF-spoor zichtbaar",
+      "Consistente interpunctie en typografie"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0117-01-jaarrekening-in-belgische-frank-munt-waarin-de-jaarrekening-moet-worden-opgesteld.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Advies van 3068 chars, drie alinea's + drie voetnoten. Geen extractie-artefacten. Voetnoten [^1]–[^3] correct gekoppeld. Geen italic-problemen, geen broken bullets, geen unicode-anomalieën. Inhoud volledig en coherent.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Drie voetnoten correct aangemaakt en volledig gedefinieerd",
+      "Geen PDF-artefacten zichtbaar",
+      "Logische alinea-opbouw"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0117-02-munt-waarin-de-boekhouding-moet-worden-gevoerd-en-de-jaarrekening-opgesteld-de-commissie.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Twee duidelijke extractie-artefacten in de body: (1) regel 77 bevat 'Belgiëë' (dubbel ë) — OCR/extractie-artefact voor 'België'; (2) regel 89 bevat 'der halve' (gesplitst woord) — extractiefout voor het woord 'derhalve'. Beide zijn inhoudelijk-storende artefacten die ETL kan corrigeren.",
+    "concrete_problemen": [
+      {
+        "regel": 77,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "succursalen in Belgiëë van ondernemingen — dubbel ë, hoort 'België' te zijn"
+      },
+      {
+        "regel": 89,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "dienen zij der halve te worden omgezet — 'derhalve' gesplitst door extractie"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud compleet: alle verwachte vragen en antwoorden over munt aanwezig",
+      "Voetnoot [^1] correct gekoppeld",
+      "Geen form-feeds of TOC-residu"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0117-03-voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Drie problemen: (1) B2: Heading-hiërarchie springt van H1 (regel 64) direct naar H4 (regels 82, 87, 116) — H2 en H3 ontbreken volledig. (2) D4: Regel 72 heeft '*enerzijds *' met spatie voor sluitende asterisk — technisch gebrekkige italic-opmaak. (3) A6: Regel 85 begint met een spatie (' Bij de opstelling...') — spurious line-break binnen een alinea die begint direct na een vorige zin op regel 84.",
+    "concrete_problemen": [
+      {
+        "regel": 82,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### Definitie van de functionele valuta — H4 direct onder H1, H2/H3 ontbreken"
+      },
+      {
+        "regel": 72,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*enerzijds *volgens — spatie voor sluitende asterisk, gebrekkige italic"
+      },
+      {
+        "regel": 85,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "' Bij de opstelling van de jaarrekening...' — zin begint met spatie, spurious line-break"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: definitie functionele valuta, bepalingsfactoren en bijkomende voorwaarden aanwezig",
+      "Genummerde lijst (1–5) correct opgebouwd",
+      "Voetnoten [^1]–[^14] volledig aanwezig en gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0120-01-het-begrip-financiele-instelling.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: Regel 59 bevat '*Thesauriebeleggingen *en' — de italic-marker voor 'Thesauriebeleggingen' heeft een spatie vóór de sluitende asterisk ('*en'). In markdown rendert dit als broken italic. Hetzelfde bestand gebruikt op regel 52 correct gesloten '*Thesauriebeleggingen*', wat de inconsistentie bevestigt als extractie-artefact.",
+    "concrete_problemen": [
+      {
+        "regel": 59,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Thesauriebeleggingen *en *Beschikbare waarden* — spatie voor closing * breekt italic"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig, logische opbouw in drie alinea's",
+      "Voetnoten [^1] en [^2] correct gedefinieerd",
+      "Geen form-feeds of heading-problemen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0120-02-in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "G2/F: Regel 44 in de frontmatter bevat een ongeparseerde HTML-entity '&quot;' in de gerelateerde-adviezen-titel ('Het begrip &quot;financiële instelling&quot;'). Dit is een scraper-artefact: de HTML-entiteit is niet omgezet naar aanhalingstekens. Hoewel de body zelf schoon is (1126 chars, één paragraaf, italic met spatie maar enkel in *Thesauriebeleggingen *), weegt de onopgeloste entity in frontmatter als een G2-probleem.",
+    "concrete_problemen": [
+      {
+        "regel": 44,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "titel: Het begrip &quot;financiële instelling&quot; — HTML-entity niet omgezet"
+      },
+      {
+        "regel": 51,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Thesauriebeleggingen *worden — spatie voor sluitende asterisk (gebrekkige italic)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig en leesbaar, één coherente paragraaf",
+      "Geen form-feeds of TOC-residu",
+      "Inhoud correct: beide rubrieken en beleidslijn beschreven"
+    ]
+  }
+]

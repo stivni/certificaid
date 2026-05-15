@@ -1,0 +1,201 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-04-vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Kort advies (2095 tekens, geen headings), inhoud volledig en coherent afgesloten. Geen extractie-artefacten gevonden: geen HTML-entities, geen ongewone unicode, geen spurious line-breaks. Layer1 pass zonder flags bevestigd.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Volledig enkelvoudig alinea-advies zonder structuurproblemen",
+      "Duidelijke afronding op de laatste zin",
+      "Geen zichtbare sporen van HTML/PDF-extractie"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-05-vervaardigingsprijs.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: dubbele page-title-heading op regels 49 en 51 (klassiek duplicate-title-patroon). D1: document eindigt abrupt mid-zin ('Toepassing daarvan zou de vervaardigingsprijs trouwens') zonder conclusie — het advies is duidelijk ingekort of afgekapt bij de scrape. Deze twee problemen samen maken de bron onbetrouwbaar voor RAG.",
+    "concrete_problemen": [
+      {
+        "regel": 49,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# CBN advies 126-5 - Vervaardigingsprijs (regel 49 en 51 identiek)"
+      },
+      {
+        "regel": 57,
+        "categorie": "D1",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "Toepassing daarvan zou de vervaardigingsprijs trouwens"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Frontmatter volledig en correct",
+      "Beschikbare tekstparagrafen zijn inhoudelijk coherent"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-06-individualisering-van-de-aanschaffingsprijs.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: dubbele page-title-heading op regels 58 en 60 (identieke tekst, duplicate-title-patroon). De rest van de inhoud is correct en volledig afgesloten — enkel de heading-duplicatie is een ETL-bug die eenvoudig te fixen is.",
+    "concrete_problemen": [
+      {
+        "regel": 58,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# CBN advies 126-6 - Individualisering van de aanschaffingsprijs (dubbel op regel 58+60)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en goed afgesloten",
+      "Geen HTML-entities, geen ongewone unicode",
+      "Logische opbouw van het advies"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-07-waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: twee tabelrijen zijn gesplitst over twee markdown-regels met tab-inspringing (regels 80-81 en 83-84 — 'Theoretische eindinventaris\\n\\t\\t\\t(tegen detailprijs)'), wat de markdown-tabel breekt en RAG-parsing verstoort. C3: de tabel bevat ASCII-art scheidingsrijen ('--------- | -------------') als table-body-cellen in plaats van als echte tabel-rijen.",
+    "concrete_problemen": [
+      {
+        "regel": 80,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | Theoretische eindinventaris\\n\\t\\t\\t(tegen detailprijs) | 22.000 | | |"
+      },
+      {
+        "regel": 73,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "| | --------- | ------------- | | | (ASCII-art scheidingsrij als tabelcel)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee inhoudelijke secties correct als ## headings gemarkeerd",
+      "Voetnoot correct als [^1] markdown met definitie",
+      "Inhoud volledig en correct afgesloten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-08-financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "All-caps section headings op regels 76 en 84 zijn de originele stijl van het CBN-advies (Belgische wettekst-conventie) en staan correct als ## heading — dit is geen ETL-bug maar de bronstijl. Footnotes correct als [^1]/[^2]/[^3] markdown. Inhoud volledig, geen HTML-entities, geen ongewone unicode, geen extractie-artefacten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Headings correct als ## met all-caps conform originele CBN-stijl",
+      "Drie footnotes correct gedefinieerd",
+      "Inhoud volledig: beide secties + inleiding aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-12-boeking-van-uitzettingsvergoedingen-betaald-door-de-eigenaar-en-van-de-kost-van-werken-ten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B7: de H1-title op regel 45 eindigt op '...ten laste van de verkoper1' — het cijfer '1' is een losgekoppeld voetnootmarker die in de heading terecht is gekomen. B2: heading-hiërarchie springt van # (niveau 1) naar #### (niveau 4) zonder ## of ### ertussen. G3: inline-footnote-markers '[^4][^5]' en '[^7]' staan als losstaande blokregel vóór de tabel (regels 87 en 103) in plaats van in de tekst.",
+    "concrete_problemen": [
+      {
+        "regel": 45,
+        "categorie": "B7",
+        "type": "other",
+        "voorbeeld": "# ...kost van werken ten laste van de verkoper1"
+      },
+      {
+        "regel": 58,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "# (niveau 1) -> #### DE BETALING... (niveau 4), geen ## of ### ertussen"
+      },
+      {
+        "regel": 87,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": " [^4][^5] (losstaande footnote-markers als paragraaf vóór tabel)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Tabellen correct in markdown pipe-syntax",
+      "Zeven footnotes volledig gedefinieerd onderaan",
+      "Inhoud volledig aanwezig met alle voorbeelden"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-13-boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Meerdere problemen: A3: dubbele TOC (regel 65-75 als genummerde lijst + regel 77 als aaneengesloten nav-blob met '------'-separatoren). A4: U+00AC (NOT SIGN) op regels 183 en 185 als pseudo-koppelstreep in 'VVPR¬aandelen' — duidelijk OCR/extractie-artefact. A5: inconsistente quotes ('VVPS-strip' met ASCII-aanhalingstekens naast «VVPR-strips» met guillemets). G3: footnote [^8] breekt de zin op regel 139 (de footnote-marker staat als losse regel met een spatie ervoor). B1/woordfout: de heading op regel 107 bevat typo 'VVPS-strip' i.p.v. 'VVPR-strip'.",
+    "concrete_problemen": [
+      {
+        "regel": 77,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "------ Boekhoudrechtelijke kwalificatie...------ Vragen in verband... (nav-blob dubbelt TOC)"
+      },
+      {
+        "regel": 183,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "VVPR¬aandelen (U+00AC NOT SIGN als koppelstreep)"
+      },
+      {
+        "regel": 107,
+        "categorie": "A5",
+        "type": "other",
+        "voorbeeld": "#### Juridisch statuut van de \"VVPS-strip\" (typo + ASCII-quotes naast «»-guillemets)"
+      },
+      {
+        "regel": 139,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": "...beurswaarde[^8]\\n van de strip daalt. (footnote-marker breekt regel)"
+      },
+      {
+        "regel": 81,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "#### Beschrijving van het mechanisme van de «VVPR-strips (ontbrekend sluitend »)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud structureel volledig aanwezig (alle drie hoofdsecties + subsecties)",
+      "Voetnoten volledig gedefinieerd (11 footnotes)",
+      "Heading-hiërarchie ####/#####/###### consistent gebruikt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-15-aanpassing-van-de-aan-verkoopprijs-van-een-deelneming.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Kort, enkelvoudig advies (1952 tekens) zonder headings. Geen extractie-artefacten, geen HTML-entities, geen ongewone unicode. Inhoud volledig en conclusie duidelijk afgesloten. Layer1 pass bevestigd.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Helder en volledig advies zonder structuurproblemen",
+      "Geen zichtbare sporen van HTML/PDF-conversie",
+      "Frontmatter correct, inclusief meerdere themas"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0127-02-waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1/G1: HTML-entity '&#039;' (apostrof) op regel 9 in frontmatter-thema ('voorzieningen voor risico&#039;s en kosten') — dit is een HTML-escape die niet gedecodeerd werd door de ETL-pipeline. Hoewel dit in de frontmatter staat (niet de body), corrumpeert het de metadata die voor retrieval wordt gebruikt. De body zelf is schoon en volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 9,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "- voorzieningen voor risico&#039;s en kosten (HTML-entity niet gedecodeerd)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig en inhoudelijk correct",
+      "Advies logisch afgesloten",
+      "Geen extractie-artefacten in de tekst"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0128-02-betwiste-fiscale-aanslag-0.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Zeer kort advies (1415 tekens) zonder headings, inhoud volledig en correct afgesloten met duidelijke conclusie. Geen HTML-entities in body of frontmatter, geen ongewone unicode, geen extractie-artefacten. Layer1 pass bevestigd.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en duidelijk afgesloten",
+      "Correct verwijst naar advies 128/1 als context",
+      "Frontmatter correct met vier gerelateerde adviezen"
+    ]
+  }
+]

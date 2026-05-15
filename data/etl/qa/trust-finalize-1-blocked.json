@@ -1,0 +1,810 @@
+{
+  "run_id": "trust-finalize-1",
+  "blocked": [
+    {
+      "bron": "Almanak-BTW-2026.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "Almanak-VenB-2026.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "BTW-richtlijn-2006-112.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "Belastingalmanak-2026.md",
+      "reden": "content-verdict=rejected",
+      "qa": "warn",
+      "diff": "no_op",
+      "content": "rejected"
+    },
+    {
+      "bron": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-0132-07-boeking-en-waardering-van-voorraden.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-0172-01-opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-0173-01-overschakeling-op-de-euro-boekhoudrechtelijke-aspecten.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-0178-01-advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2009-09-boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2009-14-boekhoudkundige-verwerking-van-groenestroom-en-warmtekrachtcertificaten.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2011-10-de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2011-11-de-boekhoudkundige-verwerking-van-grensoverschrijdende-partiele-splitsingen.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2011-14-herwaarderingsmeerwaarden.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2011-23-de-boekhoudkundige-verwerking-van-factoringovereenkomsten.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2012-06-de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2015-04-leasing.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2015-07-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2018-25-voorzieningen.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2020-10-schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2020-12-correctie-van-de-jaarrekening-0.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2021-02-winstverdeling-binnen-de-nv.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2021-10-boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2022-11-vermogensmutatiemethode.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2022-12-boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2022-13-boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2024-09-verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "Cijfers-Tarieven-2026.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "Decr-Waals-Directe-Belastingen.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "ITAA-deontologie-beroepsgeheim.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "ITAA-norm-aww-geconsolideerd.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "ITAA-norm-aww-richtlijn-bibf.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "ITAA-norm-effectennorm.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "ITAA-norm-gedragslijnen-relaties-IBR.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "ITAA-norm-intern-kwaliteitsmanagement.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "ITAA-norm-omzetting-vennootschap.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "ITAA-norm-ontbinding-vereffening.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "ITAA-norm-samenstellingsopdrachten-isrs4410.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "KB-21-10-2018.md",
+      "reden": "content-verdict=rejected",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "rejected"
+    },
+    {
+      "bron": "MIGB-Brussel.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "MIGB-Wallonie.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "Oud-BW.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "Registratierechten-Brussel.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "Registratierechten-Waals.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "Registratierechten-federaal.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "Richtlijn-2013-34-EU.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "Strafwetboek2024-boek1.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "Successierechten-Brussel.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "Successierechten-Waals.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "VCF.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB01okt2013-certificatie-gks.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB04apr2014-verificatie-vervoermiddelen.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB07jun2007-uitvoering-84quinquies.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB10-uitoefening-keuzen.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB11-verleggen-maatstaf.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB13-tabaksfabricaten.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB14-vervreemdingen-gebouwen.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB15-schatting-onroerende.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB16-vismijn.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB18-uitvoer-vrijstellingen.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB20-tarieven.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB22-landbouwondernemers.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB22jun2020-e-notariaat.md",
+      "reden": "content-verdict=rejected",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "rejected"
+    },
+    {
+      "bron": "WBTW-KB23-jaarlijkse-lijst.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB24-voldoening-bijzondere.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB27-vlees-slachtdieren.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB29aug2019-registers.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB3-aftrekken.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB30-financieringshuur.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB31-niet-gevestigd.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB35-reisbureaus.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB39-regeling-93duodecies.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB4-teruggaven.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB41-proportionele-geldboeten.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB44-geldboeten.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB45-vrijstelling-diplomaten.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB46-intracommunautaire-aangifte.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB47-controle-vervoermiddelen-1996.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB48-levering-vervoermiddelen.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB50-intracommunautaire-opgave.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB51-accijnsproducten.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB52-intracommunautaire-vrijstellingen.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB53-winstmarge-tweedehands.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB55-btw-eenheid.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB57-plaats-diensten.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB58-mededeling-pas-opgerichte.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB6-internationaal-vervoer.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB7-invoer.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB8-afronding.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-KB9-ambtelijke-aanslag.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-MB1-aftrekregeling.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-MB11-facturen-oprichting-gebouwen.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-MB12-weegtoestellen-slachthuizen.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-MB13-hypotheek-verplichtingen.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-MB16jul2019-beroepscommissie.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-MB2-teruggaven.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-MB20dec2001-diensten-indiening-documenten.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-MB23jun2005-delegatie-samenwerking.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-MB26feb2007-elektronische-notificaties.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-MB28okt2009-model-berichten-93ter.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-MB29apr2024-certificatie-kassasysteem.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-MB29aug2006-ambtenaar-62bis.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WBTW-MB6-uitstel-invoer.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "no_op",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WDRT.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "WER-Boek-VIII-normalisatie.md",
+      "reden": "content-verdict=rejected",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "rejected"
+    },
+    {
+      "bron": "WER.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "Wet-arbeidsovereenkomsten-1978.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "Wet-betalingsachterstand-2002.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "pass",
+      "diff": "improvement",
+      "content": "needs-rework"
+    },
+    {
+      "bron": "Wet-verzekeringen-2014.md",
+      "reden": "content-verdict=needs-rework",
+      "qa": "warn",
+      "diff": "improvement",
+      "content": "needs-rework"
+    }
+  ]
+}

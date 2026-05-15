@@ -1,0 +1,77 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/AVG-wet-2018.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "De leading TOC-strip-transformer heeft uitstekend werk geleverd: het bestand start direct met VOORAFGAANDE TITEL → Art. 1 zonder TOC-residu. Hoofdstructuur ## TITEL 1-4 / ### ONDERTITEL / #### HOOFDSTUK / ###### Art. is consistent en correct hiërarchisch. 286 artikel-headings, ~290 # totaal, geen running headers, geen page-footers, geen dotted leaders. Body leest als één gecoördineerde wet. Wetsinhoud kompleet (TITEL 1 t/m 4, alle ondertitels). Klein artefact regel 126/130 (alinea begint met klein letter, lijkt een page-break-restant), maar niet structureel — geen blocker voor RAG.",
+    "concrete_problemen": [
+      "Regel 126 en 130: alinea's beginnen met kleine letter ('elektronische communicatie...' / 'communicatie en onverminderd...') — vermoedelijk page-break-residu waarbij eerste woorden van de zin verloren gingen. Kleine inhoudslek; niet structureel.",
+      "Art. 11 fuseert heading + eerste zin op regel 137 ('###### Art. 11. § 1. In toepassing...'). Beperkt patroon, niet stelselmatig."
+    ],
+    "concrete_sterke_punten": [
+      "Geen TOC-block: de leading-TOC-strip-transformer heeft alle 290 kale heading-regels verwijderd. Body start direct met inhoudelijke Art. 1.",
+      "286 ###### Art.-headings consistent geformatteerd.",
+      "Volledige TITEL/ONDERTITEL/HOOFDSTUK-hiërarchie aanwezig en correct genest.",
+      "Geen running headers, geen page-footers, geen form-feed-artefacten."
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Running-headers (NL / L 347/x / Publicatieblad) zijn verdwenen — A1 is opgelost. Dotted leaders zijn verdwenen — A2 is opgelost. MAAR de TOC-strip-transformer heeft de TOC NIET aangepakt: regels 144-432 bevatten de volledige inhoudsopgave als geneste markdown-headings (## TITEL I t/m XV, ### Hoofdstuk, #### Afdeling, ##### Onderafdeling, BIJLAGE I-XII) zonder body-tekst — daarna pas (regel 432+) start de echte body. Resultaat: elke TITEL/Hoofdstuk-heading verschijnt twee keer in het document (TOC + body), wat dubbele chunks en gefragmenteerde retrieval oplevert. Vermoedelijk staat de TOC niet aan het begin van het bestand (overwegingen (1)-(63) komen ervóór), zodat de transformer niet triggert.",
+    "concrete_problemen": [
+      "Regels 144-432: volledige TOC als geneste markdown-headings zonder body (TITEL I-XV / Hoofdstuk / Afdeling / Onderafdeling / BIJLAGE I-XII). Elke heading verschijnt opnieuw in de body — dubbele chunks bij RAG.",
+      "Regel 432: 'VOORWERP EN TOEPASSINGSGEBIED' als plain-text (geen heading) — body-TITEL I mist eigen heading.",
+      "Regel 60: '## betreffende het gemeenschappelijke stelsel...' — ondertitel ten onrechte als H2 in plaats van plain text/cursief.",
+      "Hiërarchie-sprong: lichaamsartikelen ###### Art. terwijl TITELs op ## staan (overslaan ### #### #####).",
+      "Artikel-headings op regel 3066+ tonen artefact: '###### Art. 24. bis, eerste alinea, eerste tot en' — concordantietabel-residu of artikel-titel-vervuiling."
+    ],
+    "concrete_sterke_punten": [
+      "A1 opgelost: 0 NL/L347/Publicatieblad-running-headers (was 226).",
+      "A2 opgelost: dotted leaders nagenoeg verdwenen (1 occurrence vs. eerder honderden).",
+      "Wetsinhoud lijkt verder volledig (4461 regels, 261 artikel-headings)."
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/BW-boek1-algemene-bepalingen.md",
+    "aanbevolen_status": "rejected",
+    "rationale": "(source) De bron-PDF bevat enkel de titel — er is geen artikelinhoud om te indexeren. Body = 1 titellijn + 1 cursieve subkop, file ~2 kB. Geen extractie-fout maar source-defect: de PDF is leeg of niet-bruikbaar. Niet bruikbaar voor RAG. Geen ETL-verbetering kan dit oplossen — een nieuwe PDF-bron is nodig.",
+    "concrete_problemen": [
+      "(source) PDF bevat geen artikelinhoud — body is leeg na header.",
+      "0 artikel-headings, heading_count=0, file_size_chars≈114.",
+      "Burgerlijk Wetboek Boek 1 heeft Art. 1 t/m ~Art. 34 die volledig ontbreken."
+    ],
+    "concrete_sterke_punten": [
+      "Frontmatter correct ingevuld (sectie, wet, provenance, sha256).",
+      "Geen markdown-corruptie; defect zit in de source-PDF zelf."
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB22jun2020-e-notariaat.md",
+    "aanbevolen_status": "rejected",
+    "rationale": "(source) De bron-PDF heeft een lege body: na de titel staat 1 onvolledige zin die mid-woord afbreekt op 'van het'. file_size≈207 chars, 0 artikel-headings. Geen ETL-verbetering kan dit verhelpen — de KB-PDF op fisconetplus is corrupt of er is een verkeerd bestand opgeslagen. Niet bruikbaar voor RAG.",
+    "concrete_problemen": [
+      "(source) PDF-body breekt af na 'van het' — alle artikelinhoud ontbreekt.",
+      "0 artikel-headings, file_size_chars=207.",
+      "Geen enkele norm/regel uit het KB e-notariaat is geëxtraheerd."
+    ],
+    "concrete_sterke_punten": [
+      "Frontmatter compleet en correct (sha256, sectie VI.B, datum 2020).",
+      "Defect duidelijk geïdentificeerd in Laag-2 rationale; reproduceerbaar."
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Wet-betalingsachterstand-2002.md",
+    "aanbevolen_status": "rejected",
+    "rationale": "(source) De bron-PDF start mid-alinea: regel 62 begint met 'Richtlijn 2004/17/EG en in artikel 1, lid 9, van Richtlijn 2004/18/EG, ongeacht het voorwerp of de waarde van de opdracht;]1 4. \" referentie-interestvoet \"...' — Art. 1 en Art. 2 ontbreken volledig (geen heading, geen body). De wet zelf is grotendeels aanwezig (Art. 3-15, 5 hoofdstukken), maar opening met begripsbepalingen ontbreekt. Daarnaast is B5 (fuseren heading + eerste zin: 'Art. 1.Deze wet regelt...', 'Art. 3. Deze\\nwet...') een tweede ETL-probleem dat niet door deze ETL-iteratie is opgelost. Combinatie source-defect + niet-gefixte parser-bug → niet bruikbaar voor RAG zonder herbouw met andere source.",
+    "concrete_problemen": [
+      "(source) Source start mid-alinea op regel 62 — Art. 1, Art. 2 en de aanhef ontbreken volledig.",
+      "B5 niet opgelost: meerdere artikel-headings fuseren met body-tekst op één regel (regel 67 '### Art. 3. Deze\\nwet is van toepassing...', regel 98 '### Art. 7. Contractuele\\nbedingen...', regel 109 '### Art. 8. De\\nvoorzitter...', regel 116 '### Art. 9. De\\nvordering...', regel 147 '### Art. 14. Deze\\nwet...').",
+      "Definitielijst (Art. 2) compleet afwezig, terwijl het de begrippen 'overheidsinstantie', 'handelstransactie', 'onderneming' definieert — kritiek voor retrieval."
+    ],
+    "concrete_sterke_punten": [
+      "Hoofdstukken II t/m IV en Art. 3-15 zijn aanwezig en leesbaar.",
+      "Geen running-headers of TOC-residu — nieuwe ETL-fixes hebben hier wel gewerkt.",
+      "Frontmatter correct (sectie XIV, sha256, provenance)."
+    ]
+  }
+]

@@ -1,0 +1,193 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0137-vordering-wegens-levering-van-goederen-en-diensten-omgevormd-tot-renteloze-leningen-op.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: twee H1-headings bovenaan (regel 70 = tittel, regel 72 = datum/update-lijn), waar de tweede eerder H2 of plain tekst zou moeten zijn. Vorige verdict (B3 duplicate) was onjuist: het zijn twee verschillende inhoudelijke regels, geen echte duplicaten. Inhoud verder volledig en clean, beide voetnoten correct gedefinieerd.",
+    "concrete_problemen": [
+      {
+        "regel": 72,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "# Advies van december 1998, bijgewerkt op 10 september 2025[^1]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig aanwezig met genummerde opsomming en twee correct gedefinieerde voetnoten",
+      "Geen form-feeds, spurious line-breaks of OCR-artefacten zichtbaar",
+      "Italics correct gemarkeerd (*pro rata temporis*, *bis*)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0137-vorderingen-en-schulden-waarvan-de-rente-uitsluitend-bestaat-uit-het-verschil-tussen-de.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Vorige verdict (B3 duplicate) was onjuist: de body bevat slechts één H1 (regel 63) en daarna aaneengesloten proza zonder verdere headings. Geen ETL-artefacten, geen afgekapte zinnen, italics correct (*bis*, *cf*). Inhoud volledig voor dit advies uit 1986 dat geen voetnoten bevat.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Één clean H1-heading gevolgd door coherente proza-secties",
+      "Italics correct toegepast (*bis*, *cf*)",
+      "Inhoud volledig en inhoudelijk consistent"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0138-05-software.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A7: heading op regel 92 bevat dubbel woord 'de activering de activering' — typisch copy-extractie-artefact. B5: regel 94 is een sectietitel ('Bij derden aangekochte... toepassingssoftware') zonder heading-prefix, terwijl A.1 en A.2 wél als subheadings zijn gemarkeerd. A6/D4: regel 151 bevat twee afzonderlijke bullets samengetrokken op één regel; regel 153 heeft malformed italic '*testing *en' (spatie voor sluitende asterisk). Regel 161 heeft broken italic 'rekening 72* Geactiveerde interne productie*'.",
+    "concrete_problemen": [
+      {
+        "regel": 92,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "## Type-gevallen voor de activering de activering en rubricering van software-uitgaven"
+      },
+      {
+        "regel": 94,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Bij derden aangekochte, of via gebruiksrecht (tegen éénmalige vergoeding) verkregen toepassingssoftware"
+      },
+      {
+        "regel": 151,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "(*coding*); - het onderhoud van het programma en de opleiding van de gebruiker (*maintenance*)."
+      },
+      {
+        "regel": 153,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*testing *en - in bepaalde gevallen - van* maintenance *"
+      },
+      {
+        "regel": 161,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "via het credit van rekening 72* Geactiveerde interne productie*"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie grotendeels intact (##, ###, #### aanwezig)",
+      "Vier correct gedefinieerde voetnoten onderaan",
+      "Inhoud volledig voor een uitgebreid advies van 12721 chars"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0139-02-obligaties-met-warrant.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1: HTML-entity '&#039;' in frontmatter (gerelateerde_adviezen titel 'CPC&#039;s') is een niet-gedecodeeerd scraper-artefact. D4-probleem uit vorig verdict (*Bull. CBN *) is niet zichtbaar in huidige versie — de italic ziet er correct uit ('*Bull. CBN* nr. 13'). Eén resterend artefact in frontmatter vereist ETL-fix.",
+    "concrete_problemen": [
+      {
+        "regel": 9,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "titel: Passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten CPC&#039;s"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Tabel op regels 92-96 correct in pipe-syntax",
+      "Inhoud volledig met correct gedefinieerde voetnoot",
+      "Italic-markup in body correct na scraper-fix"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0139-03-aandelen-met-warrant.md",
+    "aanbevolen_status": "rejected",
+    "rationale": "D2: het bestand bevat uitsluitend één verwijzingszin naar advies 139/1 en heeft geen zelfstandige inhoud (149 chars totaal). Als standalone RAG-chunk onbruikbaar: ontbreekt context en levert geen zelfstandige informatie op. Vorig verdict correct.",
+    "concrete_problemen": [
+      {
+        "regel": 64,
+        "categorie": "D2",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "Voor aandelen met warrant zijn de beginselen verwoord in voornoemd advies 139/1 volledig van toepassing."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Frontmatter correct aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0139-04-afgezonderde-warranten.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Kort maar volledig zelfstandig advies (449 chars): twee bullets die de behandeling van afgezonderde warranten correct beschrijven. Geen ETL-artefacten, geen afgekapte zinnen. Heading gebruikt '139-4' (koppelteken) i.p.v. '139/4' (slash) — dit is een bronkeuze, geen ETL-bug. Inhoud volledig voor wat dit advies beoogt.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Zelfstandig leesbaar ondanks beknoptheid",
+      "Bullet-lijsten correct als markdown-conventie (streepjes)",
+      "Geen zichtbare PDF-extractie-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0139-05-obligaties-met-warrant-0.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen headings (heading_count: 0) is correct voor dit proza-advies — het bevat geen subsecties. Inhoud volledig: drie methoden voor waarderingsopsplitsing uitgebreid behandeld. Geen zichtbare ETL-artefacten. 'snel volg' (regel 79) lijkt een werkwoord zonder -t — waarschijnlijk een brontekst-fout, geen extractie-artefact.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Volledige inhoud van 6404 chars zonder uitval van secties",
+      "Coherente proza-structuur zonder spurious line-breaks",
+      "Geen form-feeds, column-bleed of OCR-fouten zichtbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0139-07-verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "5 headings correct aanwezig (##, ###). Structuur volledig: Autonoom uitgegeven warrants → kosteloos + onder bezwarende titel, Uitgegeven warrants verbonden aan aandelen, Converteerbare obligaties. Inhoud compleet. Geen ETL-artefacten zichtbaar.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie correct (## en ### aanwezig)",
+      "Sectie over converteerbare obligaties expliciet als 'te onderzoeken' aangegeven — dit is een geldig einde van het advies",
+      "Geen spurious line-breaks, geen OCR-fouten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0139-08-uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B1/B2: wiskundige formules zijn als ### headings gerenderd (regels 99, 105, 110: '### 1.000.000 = 747.258', '### 40.000 + ...'). B2: eerste subheading is #### (regel 64) zonder voorafgaande ## of ### in de body. Regel 148 heeft '### c) Bij de terugbetaling' als heading terwijl secties a) en b) (regels 131, 139) niet als headings zijn gemarkeerd — inconsistente heading-behandeling. Formule-fragmenten op losse regels (regels 101, 107, 112) zijn A6-artefacten van wiskundige layout.",
+    "concrete_problemen": [
+      {
+        "regel": 64,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### Uitgifte van obligaties met het recht tot inschrijving op aandelen"
+      },
+      {
+        "regel": 99,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "### 1.000.000 = 747.258"
+      },
+      {
+        "regel": 101,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "   (1,06)5"
+      },
+      {
+        "regel": 105,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "### 40.000 + 40.000 + 40.000 + 40.000 + 40.000 = 168.494"
+      },
+      {
+        "regel": 148,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "### c) Bij de terugbetaling van de lening"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Tabellen correct in pipe-syntax (regels 121-128, 133-137, 140-146, 150-153)",
+      "13 voetnoten correct gedefinieerd",
+      "Inhoud volledig voor uitgebreid advies van 22057 chars"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0147-03-meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "D4-probleem uit vorig verdict ('*Uitgestelde belastingen *' met trailing space) is niet aanwezig in het huidige bestand — italic correct gesloten na scraper-fix. Inhoud volledig met 5 genummerde boekingsstappen en 3 correct gedefinieerde voetnoten. Geen andere ETL-artefacten zichtbaar.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Genummerde boekingsstappen (1-5) volledig en correct als markdown-lijst",
+      "Drie voetnoten correct gedefinieerd",
+      "Italic-markup correct na scraper-fix"
+    ]
+  }
+]

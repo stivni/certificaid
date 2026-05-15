@@ -1,0 +1,127 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2024-07-gevolgen-verhoging-groottecriteria-voor-vennootschappen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E1/E2: alle vier tabellen (regels 107-110, 138-141, 175-179, 196-200) missen de verplichte `|---|---|` scheidingsregel na de headerrij, waardoor het geen geldige markdown-tabellen zijn. Bovendien bevatten de tabellen structureel lege tussencellen (alternerende lege kolommen) die typisch zijn voor een PDF-extractie-artefact waarbij de kleur-highlight-kolommen als lege cellen werden meegenomen. Inhoud en voetnoten zijn volledig en correct.",
+    "concrete_problemen": [
+      {
+        "regel": 107,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | (geen separator-rij, lege ghost-kolommen)"
+      },
+      {
+        "regel": 108,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| Jaargemiddelde personeelsbestand | | 60 | | 60 | | 60 | (lege kolommen door PDF-kleur-extractie)"
+      },
+      {
+        "regel": 175,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | ... (geen separator, veelvuldige lege cellen)"
+      },
+      {
+        "regel": 196,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| **Einde 31.03** | | | | **31.03.2021** | | | | | | **31.03.2022** | ... (idem)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 5 voorbeelden volledig aanwezig en inhoudelijk coherent",
+      "Alle 36 voetnoten correct gedefinieerd en gekoppeld",
+      "Heading-hiërarchie correct: # > ## > ### zonder sprongen",
+      "Geen form-feeds, dotted leaders, OCR-verwarring of scrambled words",
+      "Wetsartikelen en drempelwaarden correct weergegeven"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2024-08-gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: op regels 77, 79 en 83 staan malformed bold-markers `**getal **euro` met een spatie vóór de sluitende `**` — een mens schrijft nooit `**11.250.000 **euro`. E1: alle tabellen (regels 101-104, 158-161, 195-199) missen de `|---|---|` separator na de headerrij en bevatten alternerende lege ghost-kolommen, identiek aan het patroon in CBN-2024-07. Bovendien staat op regel 193 een stray randnummer `22.` als prefix vóór een alinea (PDF-nummering-artefact).",
+    "concrete_problemen": [
+      {
+        "regel": 77,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "verhoogd van 9.000.000 euro naar **11.250.000 **euro en het bedrag van het balanstotaal"
+      },
+      {
+        "regel": 79,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "verhoogd van 700.000 euro naar **900.000 **euro en het bedrag van het balanstotaal"
+      },
+      {
+        "regel": 83,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "wordt verhoogd van 334.500 euro naar **391.000 **euro, en de bedragen van de schulden"
+      },
+      {
+        "regel": 101,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | (geen separator-rij, ghost-kolommen)"
+      },
+      {
+        "regel": 193,
+        "categorie": "A7",
+        "type": "other",
+        "voorbeeld": "22. Veronderstel een stichting met een einde boekjaardatum van 31 december."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 4 voorbeelden volledig aanwezig en inhoudelijk coherent",
+      "Alle 18 voetnoten correct gedefinieerd en gekoppeld",
+      "Heading-hiërarchie correct: # > ## > ### zonder sprongen",
+      "Geen form-feeds, dotted leaders of OCR-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2024-10-verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6: op meerdere plaatsen in de Inleiding en het hoofdtekstblok staan voetnootmarkers gevolgd door een harde regelafbreking midden in een zin (bv. regel 68-69, 72-74, 87-88, 92-93, 128-129, 180, 182-184), wat resulteert in gebroken `[^N]`-zinnen die een mens nooit zo zou typen. Regel 141 en 165 bevatten losstaande voetnootmarkers (` [^19]` en ` [^20][^21]`) op een blanco regel midden tussen twee tabellen — PDF-extractie-artefacten. Tabellen zijn inhoudelijk correct in pipe-syntax mét separator, maar de boekingsrijen zijn asymmetrisch (sommige hebben 4, andere 5 kolommen).",
+    "concrete_problemen": [
+      {
+        "regel": 68,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "heropening van de vereffening van een vzw of ivzw[^2]\\n geregeld met de invoering van het nieuwe"
+      },
+      {
+        "regel": 72,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "In navolging van het CBN-advies[^6]\\n inzake de verslaggeving bij de ontbinding"
+      },
+      {
+        "regel": 87,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "vereffende vzw of ivzw opnieuw rechtspersoonlijkheid verkrijgt[^10]\\n en van rechtswege eigenaar"
+      },
+      {
+        "regel": 141,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": " [^19]  (losstaande voetnootmarker op blanco regel tussen twee tabellen)"
+      },
+      {
+        "regel": 165,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": " [^20][^21]  (twee gestapelde losstaande voetnootmarkers op blanco regel)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Tabellen gebruiken correcte pipe-syntax met `|---|---|` separatorrijen",
+      "Alle 35 voetnoten correct gedefinieerd en gekoppeld",
+      "Heading-hiërarchie correct: # > ## > ### zonder sprongen",
+      "Beide boekhoudkundige voorbeelden volledig uitgewerkt",
+      "Geen form-feeds, OCR-verwarring, scrambled words of dotted leaders"
+    ]
+  }
+]

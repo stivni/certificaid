@@ -1,0 +1,186 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB29aug2019-registers.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Twee problemen: (1) A1: regels 76-78 bevatten een Fisconet-paginavoet ('Innings- en invorderingsregister www.fisconetplus.be pg. 1' en 'FOD Financiën (AABEO) www.fisconetplus.be Btw Koninklijke besluiten - 18.03.2020') die midden in de body staan en niet zijn gestript. (2) A6/C3: regels 63-66 tonen diep ingesprongen tekst met meerdere leading spaces als pseudo-uitlijning. De 3 artikelen zijn wel aanwezig als ##-headings.",
+    "concrete_problemen": [
+      {
+        "regel": 76,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "Innings- en invorderingsregister           www.fisconetplus.be                                    pg. 1"
+      },
+      {
+        "regel": 78,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "FOD Financiën (AABEO)                         www.fisconetplus.be          Btw Koninklijke besluiten - 18.03.2020"
+      },
+      {
+        "regel": 63,
+        "categorie": "A6",
+        "type": "pseudo-table",
+        "voorbeeld": "       De belastingschuld wordt op naam van de belastingschuldige opgenomen in een innings- en"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 3 artikelen correct als ##-heading gepromoot",
+      "Bijlage 'Recent opgeheven of vervangen koninklijke besluiten' volledig en leesbaar als markdown-lijst"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Systematisch PDF-kolom-alignment-artefact (C3/A6) verspreid door het volledige document: meerdere regels tonen excessieve interne witruimte (tot 15+ spaties) in de inline-datumverwijzingen van wijzigingsmarkers, bv. regel 499, 520, 581, 625, 640. Dit is een consistente extractie-bug die als 'pseudo-tabel' uitlijning door chunkers verkeerd kan worden geïnterpreteerd. De ##/### heading-hiërarchie (Afdeling/Art.) is goed, inhoud volledig (Art. 1-23 + bijlagen).",
+    "concrete_problemen": [
+      {
+        "regel": 499,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "(De tekst van KB nr. 3, artikel 12, is   van   toepassing    met   ingang     van    01.01.1971"
+      },
+      {
+        "regel": 520,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "In afwijking van het vorige artikel worden                 voor    de   berekening     van    het    algemeen"
+      },
+      {
+        "regel": 68,
+        "categorie": "A6",
+        "type": "pseudo-table",
+        "voorbeeld": "## AFDELING I\n       Voorwaarden waaraan het uitoefenen van het recht op aftrek"
+      },
+      {
+        "regel": 581,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "(De tekst van KB        nr.   3,   artikel   17,   is   van   toepassing    met   ingang     van    01.01.1971"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Volledige heading-hiërarchie: ## AFDELING I-VI + ### Art. 1-23 correct gepromoot",
+      "Alle 6 afdelingen en 23 artikelen aanwezig, inclusief 21bis, 21ter, 21quater",
+      "Bijlage met wijzigingshistorie netjes als markdown-lijst gestructureerd",
+      "Belgische wettekst-stijl '1°, 2°, ...' consistent gehanteerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB30-financieringshuur.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Drie problemen: (1) B4: 'KB nr. 30 - Lijst van de bijwerkingen' (regel 104) staat als plain text in plaats van als ##-heading. (2) C3/E1: de bijwerking-tabel op regels 106-108 gebruikt space-alignment ('Bijw. 01 / 01.01.2012   30.12.2011   Volledige uitgave') in plaats van markdown pipe-syntax. (3) A6: leading spaces in Art. 1-body (regels 63-66). De 4 artikelen zelf zijn correct als ##-headings aanwezig; inhoud is volledig voor dit korte KB.",
+    "concrete_problemen": [
+      {
+        "regel": 104,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "KB nr. 30 - Lijst van de bijwerkingen"
+      },
+      {
+        "regel": 106,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "       Bijwerking       t.e.m. B.S. van                       Te vervangen pagina's"
+      },
+      {
+        "regel": 108,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "Bijw. 01 / 01.01.2012     30.12.2011      Volledige uitgave"
+      },
+      {
+        "regel": 63,
+        "categorie": "A6",
+        "type": "pseudo-table",
+        "voorbeeld": "       (De tekst van KB nr. 30, artikel 1, 4° is van toepassing met ingang van 27.01.2005"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 4 artikelen aanwezig en correct als ##-headings gepromoot",
+      "Inhoud volledig en consistent voor een KB van 4 artikelen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB31-niet-gevestigd.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Twee concrete extractie-fouten: (1) A4/OCR: regel 317 bevat een typografische ligature 'ﬁ' in 'geïdentiﬁceerd' (U+FB01) — OCR-artefact dat zoekindexering en tokenisatie verstoort. (2) A6: regel 324 toont 'inartikel 2, § 1.' zonder spatie (woorden samengesmolten bij regelombreuk in PDF). De 9 ##-headings (Art. 1-9) zijn correct; bijlage netjes.",
+    "concrete_problemen": [
+      {
+        "regel": 317,
+        "categorie": "A4",
+        "type": "ocr-confusion",
+        "voorbeeld": "geïdentiﬁceerd (ligature ﬁ i.p.v. fi)"
+      },
+      {
+        "regel": 324,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "inartikel 2, § 1. (samengesmolten 'in artikel')"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 9 artikelen correct als ##-headings gepromoot",
+      "Wijzigingshistorie in bijlage volledig en leesbaar",
+      "Belgische opsomming-stijl '1°, 2°, ...' consistent"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB35-reisbureaus.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Systematisch PDF-kolom-alignment-artefact (C3): de wijzigingsmarkers in Art. 2, 3 en 4 tonen excessieve interne witruimte als pseudo-uitlijning (bv. 'KB nr.   35,   artikel    2,   is   van   toepassing   met   ingang    van    01.01.2000'). Zelfde patroon als KB3. Inhoud volledig voor dit 4-artikel KB; layer2-suggestie van abrupt-cutoff is onterecht — Art. 1-4 aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 90,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "(De tekst van KB        nr.   35,   artikel    2,   is   van   toepassing   met   ingang    van    01.01.2000"
+      },
+      {
+        "regel": 98,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "(De tekst van KB        nr.   35,   artikel    3,   is   van   toepassing   met   ingang    van    01.01.2000"
+      },
+      {
+        "regel": 103,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "(De tekst van KB        nr.   35,   artikel    4,   is   van   toepassing   met   ingang    van    01.01.2000"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 4 artikelen aanwezig als ##-headings",
+      "Art. 1 met forfaitaire percentages (1°-4°) intact en correct opgemaakt",
+      "Bijlage met wijzigingshistorie aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB39-regeling-93duodecies.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Kritisch structuurprobleem: regel 106 bevat '## Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen' — dit is een artikel uit een andere wet (W 13.04.2019) dat als voetnoot-citaat (1) midden in de body terechtgekomen is, maar door de ETL-pipeline incorrect als ##-heading gepromoot is (B5/G3). Hierdoor staat de voetnoot-body (regels 96-107) door de eigenlijke tekst van Art. 3 (B6/G3). Voorts: dit KB is opgeheven per 01.01.2020 — status-veld vermeldt dit niet.",
+    "concrete_problemen": [
+      {
+        "regel": 106,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "## Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen"
+      },
+      {
+        "regel": 96,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": "(1) Art. 138: Deze wet is niet van toepassing: 1° op het administratieve dwangbevel..."
+      },
+      {
+        "regel": 109,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "Er moet evenwel een nieuw attest worden overgelegd... (staat na de verkeerd geplaatste ## Art. 139)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Eigenlijke KB-artikelen 1-7 aanwezig en correct als ##-headings",
+      "Opheffingsstatus duidelijk vermeld in de body (regel 62-65)"
+    ]
+  }
+]

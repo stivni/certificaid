@@ -1,0 +1,67 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB50-intracommunautaire-opgave.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "De transformer strip_opgeheven_kb_appendix heeft het hoofdprobleem opgelost: de integrale opgeheven 2009-versie van KB nr. 50 + de Fisconet page-headers zijn nu volledig verdwenen (bestand eindigt na Art. 17 op regel 225). De word-concat-bugs ('btweenheid', 'BTWidentificatienummer', 'BTWeenheid') zijn allemaal weg. Resterende structurele problemen: (1) TOC-blok regels 53-58 dupliceert de Hoofdstuk-headings die er onmiddellijk onder volgen op regels 60, 150 en 209; (2) inconsistente kapitalisatie tussen het TOC ('Hoofdstuk 1') en de full-sections ('HOOFDSTUK 2', 'HOOFDSTUK 3'); (3) regel 58 'Bijlage: Btw-opgave van de intracommunautaire handelingen' is een dangling TOC-entry die nu naar niets meer verwijst (de Bijlage is gestript) — moet ook weg. Belangrijke vooruitgang, maar nog niet RAG-klaar.",
+    "concrete_problemen": [
+      "Regels 53-58: TOC-blok met '## Hoofdstuk 1.' / '## Hoofdstuk 2.' / '## Hoofdstuk 3.' dupliceert headings op 60/150/209",
+      "Regel 58: 'Bijlage: Btw-opgave van de intracommunautaire handelingen' is een dangling TOC-entry naar gestripte content",
+      "Inconsistente kapitalisatie: 'Hoofdstuk 1' (regel 60) vs 'HOOFDSTUK 2' (150) / 'HOOFDSTUK 3' (209)"
+    ],
+    "concrete_sterke_punten": [
+      "strip_opgeheven_kb_appendix heeft de opgeheven 2009-versie + Fisconet page-headers volledig verwijderd (file eindigt nu netjes na Art. 17 op regel 225)",
+      "Word-concat-bugs ('btweenheid', 'BTWidentificatienummer', 'BTWeenheid') zijn allemaal opgelost",
+      "Hoofdtekst Art. 1 t/m Art. 17 is goed gestructureerd als ### Art. N met inwerkingtreding-noot in italics"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB29apr2024-certificatie-kassasysteem.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "De transformer merge_wrapped_headings heeft probleem (1) succesvol opgelost: regel 128 toont nu één coherente heading '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM' (zelfde voor TITEL III op regel 628). Probleem (2) blijft echter onveranderd: de btw-codes-tabel op regels 203-216 toont nog steeds gescrambelde NL/FR kolom-bleed ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA' / 'CODE TARIEF TVA TVA') gevolgd door rij-content met NL en FR door elkaar ('A Hoog 21 % A Haut 21 %'). Dit is een kritiek inhoudelijk artefact: een buitenstaander die Art. 18 leest kan de btw-codes niet betrouwbaar uit deze tabel halen. De tabel moet ofwel correct geherstructureerd worden naar NL-only ofwel naar een nette markdown-tabel met aparte NL+FR rijen.",
+    "concrete_problemen": [
+      "Regels 203-216: btw-codes-tabel met scrambled kolom-bleed NL/FR door elkaar — onbruikbaar als markdown-tabel",
+      "Regels 207-216: tabel-content versplinterd over meerdere regels met dubbele rijen NL+FR per code (A/B/C/D/X)",
+      "Regel 49: lange parenthetische opsomming '(Uitvoering van de wet ... Numac: 2024004476)' loopt als één blok onder de h1 — niet kritiek maar wel rommelig"
+    ],
+    "concrete_sterke_punten": [
+      "merge_wrapped_headings heeft '## TITEL II.' (regel 128) en '## TITEL III.' (regel 628) succesvol tot één heading samengevoegd",
+      "Diepe heading-hiërarchie (## TITEL / ### HOOFDSTUK / #### Afdeling / ##### Onderafdeling / ###### Art.) is consistent en goed leesbaar",
+      "Definities in Art. 1 (regels 52-93) zijn helder genummerd en behouden hun semantische groepering"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB24-voldoening-bijzondere.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "De transformer strip_toc_headings_with_art_range mist hier zijn doel: de TOC-entries in KB24 hebben de 'Art. N - M' annotatie op een CONTINUATION-regel (regel 60 'Brussel Art. 1 - 8'; regel 63 'Invordering. Art. 9 - 13'; etc.), niet op de heading-regel zelf — waardoor de transformer ze niet herkent als TOC en niet strip. Resultaat: het hele TOC-blok regels 55-70 staat er nog, gevolgd door dezelfde Afdelingen/Onderafdelingen als full sections op regels 72-87 — duplicate-heading-probleem volledig intact. Bijkomend: spurious linebreaks midden in Onderafdeling-headings ('Inning en\\nInvordering' regels 62-63; 'Mini One Stop Shop\\n- VAT BE' regels 65-66) — daar werkt merge_wrapped_headings niet omdat dit geen TITEL/HOOFDSTUK-pattern is. Franse plain-text-leak 'Disposition temporaire Art. 13ter' op regel 70 staat er nog steeds. Geen verbetering t.o.v. vorige verdict.",
+    "concrete_problemen": [
+      "Regels 55-70: TOC-blok met '## AFDELING 1.' + 4 '### Onderafdeling N.' headings met Art.-ranges op continuation-regels — strip_toc_headings_with_art_range heeft het niet herkend",
+      "Regels 72-87: dezelfde AFDELING 1 + Onderafdelingen 1-4 opnieuw geïntroduceerd als full sections → duplicate-headings",
+      "Regels 62-63, 65-66: spurious linebreaks midden in Onderafdeling-headings ('Inning en\\nInvordering', 'Mini One Stop Shop\\n- VAT BE')",
+      "Regel 70: 'Disposition temporaire Art. 13ter' — Franse plain-text-leak midden in NL-content (bilingue-residu)",
+      "Smart-quote inconsistentie: 'VAT BE' opent met \" maar sluit met ”",
+      "Inconsistente kapitalisatie: '## AFDELING 1' (all-caps) vs '### Onderafdeling 1' (kleine letters)"
+    ],
+    "concrete_sterke_punten": [
+      "Vanaf regel 82 (Art. 1) is de hoofdtekst goed gestructureerd met #### Art. N en italics-noot voor inwerkingtreding",
+      "Korte body (308 regels) waardoor herstructurering ETL-zijde overzichtelijk blijft",
+      "Slotbepalingen (Afdeling 5, Art. 22-24) zijn correct gemarkeerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Geen van de drie nieuwe transformers raakt de problemen van dit bestand. Alle structurele issues van het vorige verdict zijn nog volledig aanwezig: (1) dotted-leader TOC-residu op regel 157 ('Goederen aan 6 pct. ......... II/1 Diensten aan 6 pct. ......... III/1') onder '## Bijlage'; (2) recap-blok aan het einde (regels 890+) dupliceert de rubriekenlijst; (3) de tabel A/B/C-rubrieken (I., II., III., ... XL.) staan nog steeds als plain text zonder ##-prefix, waardoor één enorme sectie (94k chars, layer1 warn) ontstaat; (4) structuurlabels '## GOEDEREN' (166) en '## DIENSTEN' (450) staan wel als headings maar 'Eerste afdeling' / 'Afdeling II' patterns binnen rubriek XXII zijn inconsistent. Dit bestand vereist een eigen rubriek-detectie-transformer die Romeinse cijfers I. - XL. binnen Tabel A/B/C als sub-headings markeert — geen van de huidige transformers doet dit.",
+    "concrete_problemen": [
+      "Regel 157: dotted-leader TOC-residu 'Goederen aan 6 pct. ......... II/1 Diensten aan 6 pct. ......... III/1' onder '## Bijlage'",
+      "Romeinse-cijfer-rubrieken (I., II., ..., XL.) binnen Tabel A/B/C staan als plain text → één sectie van ~94k chars (layer1 max_section_size warn)",
+      "Recap-blok regels 890+ dupliceert de rubriekenlijst — TOC-residu of bewuste samenvatting? Niet duidelijk",
+      "Spurious linebreaks midden in sectienummers: '6°,\\n van tabel A' (regels 92-93, 99-100, 133-134, 384-385)",
+      "Inconsistente Afdeling-markup binnen rubriek XXII: 'Eerste afdeling.' plain text vs '## Afdeling II - Onderdelen...' (regel 397) als heading"
+    ],
+    "concrete_sterke_punten": [
+      "Artikelen 1, 1bis, 1ter, 1quater, 1quinquies, 2, 3 zijn correct als ### Art. N gemarkeerd met inwerkingtreding-noot",
+      "'## Tabel A', '## Tabel B', '## Tabel C', '## GOEDEREN', '## DIENSTEN', '## Tijdelijke bepalingen', '## Bijlage' staan wel als markdown-headings (gedeeltelijk gestructureerd)",
+      "Volledige hoofdtekst is in NL — geen FR-bleed-residu"
+    ]
+  }
+]

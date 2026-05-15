@@ -1,0 +1,6 @@
+resources/bronnen/wetteksten/Decr-Waals-Directe-Belastingen.md
+resources/bronnen/wetteksten/KB-21-10-2018.md
+resources/bronnen/wetteksten/KB-WIB92.md
+resources/bronnen/wetteksten/KB-WVV-2019.md
+resources/bronnen/wetteksten/KB-voorafgaande-beslissingen-art26-2003.md
+resources/bronnen/wetteksten/Klokkenluiderswet-2022.md

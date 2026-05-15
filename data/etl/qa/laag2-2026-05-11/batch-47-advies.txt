@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-2020-07-mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0.md
+resources/bronnen/adviezen/CBN-2020-08-mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de.md
+resources/bronnen/adviezen/CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris.md
+resources/bronnen/adviezen/CBN-2020-10-schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren.md
+resources/bronnen/adviezen/CBN-2020-11-vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0.md
+resources/bronnen/adviezen/CBN-2020-13-overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze.md
+resources/bronnen/adviezen/CBN-2020-14-boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0.md
+resources/bronnen/adviezen/CBN-2020-15-zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende.md
+resources/bronnen/adviezen/CBN-2021-01-uitgiftepremie-0.md
+resources/bronnen/adviezen/CBN-2021-03-de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv.md

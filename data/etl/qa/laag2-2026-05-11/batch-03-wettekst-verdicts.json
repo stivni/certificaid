@@ -1,0 +1,221 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/Successierechten-Waals.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A2: 24 TOC-stippenregels verspreid door de body (bijv. regel 88: 'te verzekeren ....................................................... 81') — onverwijderd TOC-residu. A3: het TOC-blok (regels 86–138) staat niet apart maar is direct gevolgd door de eigenlijke wettekst zonder scheiding, waardoor TOC en body door elkaar lopen. C3: tarief-tabellen (regels 993–998, 1017–1021) zijn als aaneengesloten platte tekst geëxtraheerd i.p.v. markdown-tabellen — zware pseudo-tabel en kolom-bleed (A8). B4: 'Eerste afdeling - ...' komt als plain-text voor in de body (regels 613, 977, 1002, 1737, …) i.p.v. #### heading. Dubbele koppen door TOEKOMSTIG RECHT-constructie (bijv. HOOFDSTUK VI op regels 975 en 1000, Art. 17 op regels 331 en 342).",
+    "concrete_problemen": [
+      {
+        "regel": 67,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "WETBOEK DER SUCCESSIERECHTEN\\n\\nWAALS GEWEST\\n\\nWETBOEK DER SUCCESSIERECHTEN (drievoudige titelrepetitie)"
+      },
+      {
+        "regel": 88,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "te verzekeren ....................................................... 81"
+      },
+      {
+        "regel": 90,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "### HOOFDSTUK XII - Bewijsmiddelen .............................................................................................  95"
+      },
+      {
+        "regel": 613,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Eerste afdeling - Verplichting tot aangifte"
+      },
+      {
+        "regel": 975,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "### HOOFDSTUK VI - Tarief der rechten (duplicaat op regel 1000)"
+      },
+      {
+        "regel": 993,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "Gedeelte van het netto-aandeel                            Rechte lijn - tussen echtgenoten..."
+      },
+      {
+        "regel": 993,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "0,01 EUR                      12.500,00 EUR               3%               - 12.500,01 EUR..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "394 headings correct aangemaakt als ##### Art. — artikelniveau-structuur is consistent",
+      "Wijzigingshistorie per artikel systematisch opgenomen met inwerkingtredingsdata",
+      "Bestand volledig aanwezig (Art. 1 t/m Art. 183 van Boek III) — geen abrupt cutoff"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB-compilatie.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A1: 311 pagina-voet-regels in de body van het type '    - 1 -\\nFOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 3 - bijw. nr. 7 / 23.11.2019' (elke ~28 regels). D2: de body begint direct met '§ 1. Onder voorbehoud...' — de titel van KB nr. 3 en Art. 1 heading ontbreken; het bestand start structureel halverwege KB nr. 3 zonder KB-titel heading. G1: 'www.fisconetplus.be' als plain-text URL op elke voetregelregel (311 keer). Het bestand is een compilatie van meerdere KBs (nr. 3, nr. 4 en meer) zonder structurele scheiding tussen de afzonderlijke KBs; elke KB heeft zijn eigen reeks paginavoet-artefacten.",
+    "concrete_problemen": [
+      {
+        "regel": 50,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "Body start: '§ 1. Onder voorbehoud...' — KB nr. 3 Art. 1 heading en KB-titel ontbreken"
+      },
+      {
+        "regel": 56,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "    - 1 -\\nFOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 3 - bijw. nr. 7 / 23.11.2019"
+      },
+      {
+        "regel": 57,
+        "categorie": "G1",
+        "type": "url-plaintext",
+        "voorbeeld": "FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 3 - bijw. nr. 7 / 23.11.2019"
+      },
+      {
+        "regel": 524,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Koninklijk Besluit nr. 4... (als plain text i.p.v. ## heading bij KB-overgang)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Artikel-headings (##### Art. N) consistent aangemaakt voor alle artikelen",
+      "Bijlagen en recente wijzigingen per KB aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB01okt2013-certificatie-gks.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A1: drie pagina-voetregels als plain text in de body (regels 113, 179, 225): 'KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa'. De voetregels breken de tekstflow na een alinea mid-artikel. Verder heeft het bestand overmatige leading-spatie-indentatie in alinea's (C3: pseudo-tabel-achtige opmaak in meerdere paragrafen, bijv. regels 61–83) die PDF-sprongen weerspiegelt. Layer2-frontmatter vermeldt al 'geen ## Art.-headings', maar na manueel lezen: de ## Art.-headings zijn WEL aanwezig (Art. 1 t/m Art. 9). Het layer2-verdict in frontmatter is dus incorrect voor dit specifieke punt.",
+    "concrete_problemen": [
+      {
+        "regel": 113,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa"
+      },
+      {
+        "regel": 179,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "KB 01.10.2013                                       pg. 2             Certificatie geregistreerde kassa"
+      },
+      {
+        "regel": 225,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "KB 01.10.2013                                     pg. 3            Certificatie geregistreerde kassa"
+      },
+      {
+        "regel": 61,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "      Het kassasysteem en de controlemodule bedoeld in artikel 2... (overmatige inspringing door PDF-layout)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 9 artikelen correct als ## Art. N headings — structuur is volledig chunkbaar",
+      "Wijzigingshistorie per artikel aanwezig",
+      "Bestand compleet: Art. 1 t/m Art. 9 aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB04apr2014-verificatie-vervoermiddelen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "C3: wijzigingsnotities bij Art. 1, 3, 4, 6, 7, 8, 10, 12 bevatten brede spaties als column-alignment-artefact (PDF tabelvormige opmaak): '(De tekst van KB 04.04.2014, artikel 1,                  werd   gewijzigd     met   ingang    van    04.02.2019'. D4/A6: Art. 8 bevat '                                               (Opgeheven' als ingesprongen tekst zonder sluitende haakjes — een afgebroken PDF-extractieregel. D2: 'Bijlage' verschijnt als plain-text label op regel 232 zonder bijlage-inhoud — vermoedelijk afgesneden.",
+    "concrete_problemen": [
+      {
+        "regel": 62,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "(De tekst van KB 04.04.2014, artikel 1,                  werd   gewijzigd     met   ingang    van    04.02.2019"
+      },
+      {
+        "regel": 152,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "                                               (Opgeheven"
+      },
+      {
+        "regel": 232,
+        "categorie": "D2",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "                           Bijlage (label zonder inhoud — bestand stopt hier)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 16 artikelen correct als ## Art. N headings — volledig chunkbaar",
+      "Geen pagina-voetregels (geen FOD/KB pg.-voetregels in dit gesplitste bestand)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB07jun2007-uitvoering-84quinquies.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A1: drie pagina-voetregels als plain text in body (regels 111, 131, 158): 'KB 07.06.2007                                      pg. 1        Onbeperkt uitstel van de invordering'. C3: Bijlage A (regels 133–139) toont een pseudo-tabel ('Bijwerking                                          Te vervangen pagina's') met spatie-kolom-alignment. G1: bare URL 'www.fisconetplus.be' op regel 146 als plain text.",
+    "concrete_problemen": [
+      {
+        "regel": 111,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "KB 07.06.2007                                      pg. 1        Onbeperkt uitstel van de invordering"
+      },
+      {
+        "regel": 131,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "KB 07.06.2007                                      pg. 2        Onbeperkt uitstel van de invordering"
+      },
+      {
+        "regel": 135,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "     Bijwerking                                          Te vervangen pagina's"
+      },
+      {
+        "regel": 146,
+        "categorie": "G1",
+        "type": "url-plaintext",
+        "voorbeeld": "De historische versies kunnen geraadpleegd worden op www.fisconetplus.be"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 6 artikelen correct als ## Art. N headings — volledig chunkbaar",
+      "Bestand volledig aanwezig (Art. 1 t/m Art. 6 + Bijlage A en B)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "C3: wijzigingsnotities bij Art. 6, 7quater, 8, 9, 10 bevatten brede spaties als column-alignment-artefact: 'werd                 vervangen    met    ingang     van    01.01.2020' en 'KB        nr.   10,   artikel    8    is   van   toepassing     met   ingang     van    01.01.1993'. G1: 'www.fisconetplus.be' als plain-text URL op regel 365. Overige inhoud compleet en structureel helder.",
+    "concrete_problemen": [
+      {
+        "regel": 188,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "(De tekst van KB nr. 10, artikel 6, werd                 vervangen    met    ingang     van    01.01.2020"
+      },
+      {
+        "regel": 344,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "(De tekst van KB        nr.   10,   artikel    8    is   van   toepassing     met   ingang     van    01.01.1993"
+      },
+      {
+        "regel": 365,
+        "categorie": "G1",
+        "type": "url-plaintext",
+        "voorbeeld": "De historische versies kunnen geraadpleegd worden op www.fisconetplus.be"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "13 artikelen correct als ## Art. N headings — volledig chunkbaar",
+      "Bijlage met recente wijzigingen volledig aanwezig",
+      "Geen pagina-voetregels (geen KB pg.-voetregels)"
+    ]
+  }
+]

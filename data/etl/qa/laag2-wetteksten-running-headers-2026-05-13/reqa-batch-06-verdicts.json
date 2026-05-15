@@ -1,0 +1,108 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB15-schatting-onroerende.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "ETL-fixes (EERSTE HOOFDSTUK → HOOFDSTUK I, plus normalize_artikel_to_art) hebben de eerder geconstateerde structuurinconsistentie opgelost. HOOFDSTUK I en HOOFDSTUK II staan beide nu als ## headings (regel 75 en 205), Afdeling 1 en 2 zijn ### headings, alle artikelen zijn #### Art. N. De eerder gesignaleerde spurious linebreaks rond 'Art.\\n13', 'Art.\\n17', 'Art.\\n20' zijn opgelost. Resterende issues zijn klein: drietalige eed-formules (regel 152) staan nog als run-on prose i.p.v. list-structuur, en 'hetWetboek' (regel 160 ontbreekt — nu inline) is een source-glue. Body/content-ratio is hoog, artikelhiërarchie consistent. Ziet eruit als wettekst die je van nul kan herschrijven.",
+    "concrete_problemen": [
+      "Regel 152: drietalige eed-formules ('Ik zweer...' / 'Je jure...' / 'Ich schwöre...') als run-on prose i.p.v. list — minor, semantiek blijft duidelijk",
+      "Spatie-glue 'hetWetboek' is source-PDF artefact (categorie source)"
+    ],
+    "concrete_sterke_punten": [
+      "HOOFDSTUK I en II nu beide consistent ## headings",
+      "Spurious linebreaks in annotaties (Art.\\n13/17/20) opgelost",
+      "Afdeling/Art-hierarchie consistent: ## → ### → ####",
+      "Alle annotaties correct als parentheticals op eigen regel"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB29aug2019-registers.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "strip_kb_bijwerkingen heeft de 'Recent opgeheven of vervangen koninklijke besluiten' appendix volledig verwijderd (vroeger regels 65-73). Bestand is nu 60 regels schoon: enkel hoofdtekst van een KB met 3 artikelen, alle als ## Art. heading. Geen kolom-bleed meer, geen plain-text appendix. Source-typo 'cöordinatie' op regel 47 blijft (categorie source). Ziet eruit als een nieuw geschreven KB-stub.",
+    "concrete_problemen": [
+      "Regel 47: 'cöordinatie' OCR-typo (categorie source)"
+    ],
+    "concrete_sterke_punten": [
+      "Appendix 'Recent opgeheven of vervangen koninklijke besluiten' volledig gestript",
+      "Kolom-bleed met 'Bijw. XX/datum' en '(Opgeheven)' verwijderd",
+      "Drie schone ## Art. headings met body",
+      "Compact, leesbaar resultaat"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB29apr2024-certificatie-kassasysteem.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "_ARTIKEL_PLAIN_TITLE_RE heeft inline 'Artikel N.' headings correct genormaliseerd naar ###### Art. N (Art. 5, 6, 7, 8, 9, 10, 11, 12, 46, 64, 86 staan nu als headings). Echter twee structurele issues blijven onopgelost: (1) BTW-codes pseudo-tabel op regels 207-218 toont scrambled kolom-bleed van een PDF-tabel ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA') — onbruikbaar als tabel; (2) `## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\\nGEREGISTREERD KASSASYSTEEM` heeft spurious linebreak midden in heading (regels 199-200). Beide zijn duidelijke ETL-artefacten die een buitenstaander direct opvalt — komen niet voor in een van-nul-geschreven wettekst.",
+    "concrete_problemen": [
+      "Regels 207-218: BTW-codes pseudo-tabel als scrambled column-bleed (categorie A8 + E)",
+      "Regels 199-200: '## TITEL II...' heading gebroken over twee regels door spurious linebreak (categorie A2/B1)",
+      "Regel 792: 'Artikel 2bis van het koninklijk besluit...' in body (geen heading, dus correct als plain text — false positive in vorige QA-ronde)"
+    ],
+    "concrete_sterke_punten": [
+      "Inline 'Artikel N.' plain-text headings (Art. 5-12, 46, 64, 86, 132) nu correct als ###### Art. headings",
+      "Hierarchie ## TITEL → ### HOOFDSTUK → #### Afdeling → ##### Onderafdeling → ###### Art. werkt consistent",
+      "Body-tekst goed afgebakend met annotatieparagraaf onder Art-heading"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB28okt2009-model-berichten-93ter.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "promote_wettekst_section_labels heeft 'Bijlage 1/2/3' correct gepromoot naar ## headings, maar de bijlagen blijven leeg (regels 71-75). Voor RAG levert dit drie nutteloze section-ankers zonder body op — duidelijk ETL-artefact dat een van-nul-auteur niet zou produceren. Daarnaast: dit MB is sinds 06.07.2020 opgeheven (regel 49 vermeldt het opheffings-KB van 22.06.2020). Geen kerncontent (de modelberichten zelf) — alleen 5 verwijzings-artikelen. ETL-fix nodig: strip_empty_trailing_headings, óf de bijlagen-content uit de PDF herextractieën. Bij twijfel → needs-rework.",
+    "concrete_problemen": [
+      "Regels 71, 73, 75: '## Bijlage 1', '## Bijlage 2', '## Bijlage 3' zonder body — lege section-ankers",
+      "Kerncontent van het MB (modelberichten 93ter/93quinquies + 433/435) ontbreekt volledig",
+      "MB sinds 06.07.2020 opgeheven (vermeld in regel 49); status 'beschikbaar' is technisch correct maar relevantie laag"
+    ],
+    "concrete_sterke_punten": [
+      "Hoofdtekst Art. 1-5 schoon en compact",
+      "Heading-hierarchie consistent (## Art.)",
+      "Opheffings-info correct vermeld in body"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB39-regeling-93duodecies.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Footnote-bleed in Art. 3 (regels 74-78) niet opgelost door huidige ETL-fixes. De inhoudelijke tekst van Art. 138 (1°, 5°, 6° opsommingen) en Art. 139 (van een andere wet — vermoedelijk W 13.04.2019) staat als pseudo-content middenin Art. 3. Regel 78 toont '## Art. 139: De Koning kan...' wat een echte heading-anker krijgt — schadelijk voor RAG omdat het lijkt op een artikel van KB nr. 39 zelf, maar het is footnote-residu uit een andere wet. Pas op regel 80 begint het echte Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Plus: dit KB is sinds 01.01.2020 opgeheven (regel 53). Bij twijfel → needs-rework.",
+    "concrete_problemen": [
+      "Regels 74-78: footnote-bleed van W 13.04.2019 Art. 138/139 wordt tussen Art. 3-tekst gerenderd",
+      "Regel 78: '## Art. 139: De Koning kan...' krijgt heading-anker — false-positive artikel",
+      "Regel 80: echte Art. 3-vervolg pas na footnote-injectie — split tekst",
+      "KB sinds 01.01.2020 opgeheven (regel 53)"
+    ],
+    "concrete_sterke_punten": [
+      "Art. 1, 2, 4, 5, 6, 7 hierarchie schoon",
+      "Annotaties consistent als parenthetical onder heading",
+      "Geen kolom-bleed, geen running headers"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB52-intracommunautaire-vrijstellingen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Hoofdtekst is schoon: alle ## HOOFDSTUK 1/2/3 hebben consistente ### Art. N children, alle 8 artikelen aanwezig. Resterende issues zijn klein: (1) leading whitespace voor hoofdstuk-subtitels (regels 59, 109, 118) is een visuele indentation-artefact maar tast retrieval niet aan; (2) regel 80 split een opsomming midden in zin ('...documenten waarvan de inhoud niet strijdig is met die van de documenten bedoeld in artikel 2: - een bestemmingsdocument...') — onnatuurlijk maar leesbaar; (3) mid-zin breaks regel 74-76 ('omvatten onder meer de\\n\\nvervoerdocumenten') zijn PDF-pagina-overgangen. Frontmatter en body B.S.-datum '23.12.2009' bij KB van 2019 lijkt source-typo (waarschijnlijk 23.12.2019). Body/content-ratio hoog, structuur consistent. Marginaal trusted — alle 4 punten zijn cosmetisch.",
+    "concrete_problemen": [
+      "Regels 59, 109, 118: leading double-space voor hoofdstuk-subtitel (pdftotext-indentation)",
+      "Regels 80-81: '- een bestemmingsdocument...' opsomming midden in lopende zin",
+      "Regels 74-76, 95-97: mid-zin breaks (PDF-pagina-overgangen)",
+      "Body B.S.-datum '23.12.2009' bij KB van 11.12.2019 — vermoedelijk source-typo (categorie source)"
+    ],
+    "concrete_sterke_punten": [
+      "Drie HOOFDSTUK ## headings consistent",
+      "Acht ### Art. headings met annotaties + body",
+      "Geen kolom-bleed, geen footnote-injecties",
+      "Volledige tekst zonder ETL-residu"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WER-Boek-VIII-normalisatie.md",
+    "aanbevolen_status": "rejected",
+    "rationale": "Source-level mismatch (categorie source): de PDF achter dit bestand bevat NIET WER Boek VIII (Kwaliteit van producten en diensten — boekhoudnormen), maar een verzameling ongerelateerde teksten — CAO Paritair Subcomité metaalhandel, dierenbescherming-besluiten, milieuwetgeving, etc. Het bestand heeft 7665 regels, 263 ##### Art-headings, met TITEL II/III/IV en HOOFDSTUK I/II/III/IV-V volledig herhaald in NL+FR door elkaar (column-bleed). Structurele issues uit eerdere QA (dubbele Art. 2-headings, NL+FR-alternatie, CHAPITRE I er / HOOFDSTUK I dubbel) blijven bestaan. Source-PDF moet vervangen worden door de echte WER Boek VIII (boekhoudnormen, art. VIII.1 t/m VIII.30 ongeveer). Geen ETL-fix kan dit redden — het is de verkeerde brontekst. Niet trustbaar voor retrieval. (source)",
+    "concrete_problemen": [
+      "Volledige content-mismatch: PDF is geen WER Boek VIII maar ratjetoe van CAO/dieren/milieu/AOR-teksten (categorie source)",
+      "Regel 60+: NL+FR column-bleed met dubbele Art. 2 / Art. 1 / Art. 2 headings",
+      "Regel 107: identieke '#### CHAPITRE I er' en '### HOOFDSTUK I' voor dezelfde sectie",
+      "Regel 113: '##### Art. 1. Deze   collectieve   arbeidsovereenkomst...' (extra spaties als column-uitlijning, categorie C3)",
+      "max_section_size 351006 chars — niet chunker-vriendelijk",
+      "Boekhoudnormen-content (de feitelijke WER Boek VIII) ontbreekt volledig"
+    ],
+    "concrete_sterke_punten": []
+  }
+]

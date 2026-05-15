@@ -1,0 +1,124 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB1-aftrekregeling.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Het bestand bevat ~180 regels Fisconet-compilatie-introductie (volledige MB-lijst met datumkolom rechts van de tekst, A8) vóór de eigenlijke MB nr. 1-inhoud begint. Dit is een A3-patroon: TOC/metapagina verspreid door de body. De drie werkelijke artikelen (Art. 1–3) staan wél correct als ## headings aan het einde, maar de omvangrijke voorblad-tekst is niet thuishoort in deze individuele MB-MD.",
+    "concrete_problemen": [
+      {
+        "regel": 97,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "*   Ministerieel besluit nr. 1, van 2 september 1980 ...                    Bijw. 02/09.12.2013"
+      },
+      {
+        "regel": 116,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "*   Ministerieel besluit nr. 6, van 4 maart 1993 ...                        Bijw. 01/01.01.2012"
+      },
+      {
+        "regel": 93,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "FOD Financiën (AA BEO)   www.fisconetplus.be   Btw Ministeriële besluiten – 01.04.2023"
+      },
+      {
+        "regel": 95,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "Lijst van de ministeriële besluiten (compilatie-TOC van 20+ MBs midden in de body)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "De drie eigenlijke artikelen (Art. 1, 2, 3) staan correct als ## headings",
+      "Inhoud van de artikelen is volledig en leesbaar",
+      "Laag-1 column-bleed flags correct geïdentificeerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB11-facturen-oprichting-gebouwen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Klein MB (816 chars) met volledige inhoud. Tegenstelling met eerdere layer2-notitie: Art. 1 en Art. 2 staan correct als ## headings op regels 60 en 65. Geen PDF-artefacten, geen kolom-bleed, geen scrambled text. Laag-1 pass. Ziet eruit alsof een mens het van nul heeft geschreven.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Art. 1 en Art. 2 correct als ## Art. 1 / ## Art. 2 headings",
+      "Juridische context (uitvoering van art. 61 §4 Btw-Wetboek) expliciet vermeld",
+      "Geen enkele PDF-extractie-artefact zichtbaar",
+      "Laag-1 pass zonder flags"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB12-weegtoestellen-slachthuizen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "MB met volledige technische inhoud (weegtoestellen-specificaties). Art. 1 en Art. 2 staan correct als ## headings op regels 60 en 84. Genummerde opsomming (1°–8°) consistent in Belgische wetstijl. Geen PDF-artefacten, geen kolom-bleed, geen scrambled text. Laag-1 pass.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Art. 1 en Art. 2 correct als ## Art. 1 / ## Art. 2 headings",
+      "Technische specificaties volledig en goed gestructureerd (genummerde en bullet-lijsten)",
+      "Belgische wetstijl 1°-nummering consistent toegepast",
+      "Laag-1 pass zonder flags"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB13-hypotheek-verplichtingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Art. 1 t/m Art. 5 staan correct als ## headings. Echter: op regel 75 staat een amenderingsnotitie met meerdere interne spaties als kolom-uitlijning (C3-pseudo-tabel-artefact). Op regels 97 en 128 staan paginamarkeringen '- KB nr. 13 / 1 -' en '- KB nr. 13 / 2 -' die PDF-pagina-nummering zijn (A1-type).",
+    "concrete_problemen": [
+      {
+        "regel": 75,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "(De tekst van M.B. nr. 13, art.            1,    werd   vervangen     met   ingang   van"
+      },
+      {
+        "regel": 97,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "                                                 - KB nr. 13 / 1 -"
+      },
+      {
+        "regel": 128,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "                                              - KB nr. 13 / 2 -"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Art. 1, 2, 3, 3bis, 4, 5 correct als ## headings inclusief bis-variant",
+      "Opheving-notitie (22 juni 2020) expliciet vermeld in de body",
+      "Juridische inhoud volledig aanwezig",
+      "Laag-1 pass zonder flags"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB16jul2019-beroepscommissie.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Art. 1–5 staan correct als ## headings. Op regel 99 staat een A8 kolom-bleed-artefact: 'adviseur-generaal ad                  interim   van    het regionaal' met grote witruimte-blokken die wijzen op twee-kolom PDF-extractie. De eerdere layer2-notitie '0 ##-headings' was incorrect, maar het kolom-bleed-probleem rechtvaardigt toch needs-rework.",
+    "concrete_problemen": [
+      {
+        "regel": 99,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "De heer Dequeker, Dominique H.M., adviseur-generaal ad                  interim   van    het regionaal"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Art. 1–5 correct als ## headings",
+      "Volledige lijst van aangewezen adviseurs-generaal aanwezig",
+      "Juridische grondslagen (art. 66 §2 WIB, art. 84octies §2 WBTW, art. 413quinquies §2 WIB92) expliciet vermeld",
+      "Laag-1 pass zonder flags (kolom-bleed gemist door Laag 1)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB2-teruggaven.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "MB met volledige inhoud. Art. 1, 2 en 3 staan correct als ## headings op regels 63, 80 en 85. Geen PDF-artefacten, geen kolom-bleed, geen scrambled text. De eerdere layer2-notitie '0 ##-headings' was incorrect. Laag-1 pass.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Art. 1, 2 en 3 correct als ## Art. 1 / ## Art. 2 / ## Art. 3 headings",
+      "Juridische verwijzingen naar KB nr. 14 en KB nr. 3 volledig uitgeschreven",
+      "Inwerkingtredings-artikel aanwezig",
+      "Geen extractie-artefacten zichtbaar"
+    ]
+  }
+]

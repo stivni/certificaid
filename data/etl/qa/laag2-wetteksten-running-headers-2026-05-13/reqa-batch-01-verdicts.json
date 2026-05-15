@@ -1,0 +1,119 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB30-financieringshuur.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Compact KB (4 artikelen). Heldere heading-hierarchie (H1 + ## Art. 1-4), elke artikel-heading gevolgd door wijzigingstoelichting tussen haakjes en daarna de wetstekst. Lijstmarkers 1°-4° consistent. Geen footers, geen TOC-leaders, geen scrambled tekst. Eén minimale source-glitch ('nieteigendomsoverdragend' samengevoegd) maar dit is geen ETL-artefact maar source-typo.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Volledige preambule met Officieuze coördinatie-vermelding",
+      "Elk artikel heeft zijn wijzigingsblok + wetstekst los van elkaar",
+      "Lijstmarkers (1°-4°) consistent doorgevoerd",
+      "Geen leftover-footers of appendix"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB45-vrijstelling-diplomaten.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Compact KB (3 art) met belangrijk historisch opheffings-/vernietigingsblok in de preambule. Inhoud volledig en leesbaar; markdown-structuur netjes (H1 + ## Art.). Bestandsnaam suggereert diplomaten, maar inhoud betreft kans- en geldspelen — frontmatter en wet-titel matchen wel (kans- en geldspelen), dus dit is enkel een misleidende filename, geen content-defect.",
+    "concrete_problemen": [
+      "Filename WBTW-KB45-vrijstelling-diplomaten.md komt niet overeen met inhoud (kans- en geldspelen). Inhoudelijk geen blokker, maar verdient een rename-fix op een later moment.",
+      "Eén openingsparen zonder afsluitende ')' rond opheffingsblok (regel 50-53) — source-glitch, geen ETL-fout"
+    ],
+    "concrete_sterke_punten": [
+      "Volledige preambule incl. opheffing en arrest-Grondwettelijk-Hof",
+      "Lijstmarkers 1°-2° consistent",
+      "Geen TOC, footers of glyph-bullets"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB47-controle-vervoermiddelen-1996.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Langere tekst (11 art, 13kB) met § §-structuur. Markdown is volledig en logisch: H1, ## Art. 1-11, met wijzigingsblok + wetstekst per artikel. Lijstmarkers consistent (1°, 2°, etc.), § §-paragrafen netjes. De openingsparen zonder afsluitende ')' op meerdere plekken (Art. 3, 4, 5, 7) zijn source-glitches uit Fisconet en kunnen blijven onder de '(source)'-uitzondering.",
+    "concrete_problemen": [
+      "Meerdere openingsparen zonder afsluiter in wijzigingsbloks (Art. 3/4/5/7) — source-glitch, niet ETL"
+    ],
+    "concrete_sterke_punten": [
+      "Heldere § §-structuur in Art. 8 (drie paragrafen)",
+      "Volledige opheffingsvermelding in preambule",
+      "Geen footers, geen TOC, geen scrambled volgorde",
+      "Lange artikel 8 met inline opsomming (- ... ; - ...) leesbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB6-internationaal-vervoer.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Compact en volledig (7 art). H1 + ## Art. 1-7 + § §-paragrafen in Art. 3. Lijstmarkers 1°-3° in Art. 4 netjes. Geen footers, geen TOC, geen glyphs. Leest als een door een mens geschreven samenvatting.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Volledige preambule met Uitvoering-vermelding en Officieuze coördinatie",
+      "§ §-structuur in Art. 3 correct",
+      "Opsomming 1°-3° in Art. 4 consistent",
+      "Geen leftover artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB8-afronding.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Compact (4 art). Heldere H1 + ## Art. structuur. Lijstmarkers 1°-3° (met '2° ...' als bewust schrappingsmarker in Art. 2) consistent. Geen footers, geen TOC, geen leftover-appendix.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Korte zinnen, leesbare opsommingen",
+      "Schrappingsmarker '2° ...' correct overgenomen (intentioneel uit source)",
+      "Geen ETL-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB51-accijnsproducten.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "9 art met wijzigingsblokken. Tekst is volledig, lijstmarkers consistent. Spelling 'accijnsprodukten' is source-original (oude spelling) — onder '(source)'-uitzondering OK. Geen footers, geen TOC, geen scrambled volgorde.",
+    "concrete_problemen": [
+      "Oude spelling 'accijnsprodukten' (source-original, geen ETL-fout)"
+    ],
+    "concrete_sterke_punten": [
+      "Volledige preambule met laatste wijziging gedateerd",
+      "Verwijzing naar Richtlijn 2008/118/EG correct overgenomen",
+      "Geen leftover-footers of bijwerkingen-appendix"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB55-btw-eenheid.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Lange, complexe wet (9 art, 14kB) met diepe § §-structuur. Markdown is over het geheel volledig en logisch. Inline-redactionele noot in Art. 6 § 3 ([red.: '...']) is een legitieme editorial mark uit source, geen ETL-artefact. Lijstmarkers 1°-3° en bullet-streepjes consistent. Een paar streepjes (-) in Art. 1 § 1 worden inline gebruikt i.p.v. verticale lijst, maar dat is leesbaar en source-conform.",
+    "concrete_problemen": [
+      "In Art. 1 § 1 worden bullets '- ... or - ...' inline gehouden i.p.v. als markdown-lijst weergegeven — leesbaar, source-conform"
+    ],
+    "concrete_sterke_punten": [
+      "Volledige § §-structuur in alle 9 artikelen",
+      "Redactionele aantekening [red.: '...'] correct overgenomen",
+      "Verwijzingen naar BTW-eenheid-aangiftes consistent",
+      "Geen footers, geen TOC, geen leftover-appendix"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB57-plaats-diensten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Tekst zelf is schoon en volledig (3 art, § §-structuur), maar laatste regel (73) bevat een leftover running footer ' KB57 (2017) pg. 1 Plaats van de dienst'. Dit is een PDF-paginavoettekst die niet werd opgekuist. Buitenstaander herkent dit onmiddellijk als ETL-artefact en niet als mens-geschreven slot.",
+    "concrete_problemen": [
+      "Regel 73: ' KB57 (2017) pg. 1 Plaats van de dienst' — PDF-running-footer/paginanummer dat niet werd verwijderd door strip_kb_bijwerkingen of een footer-stripper"
+    ],
+    "concrete_sterke_punten": [
+      "Wetstekst zelf (Art. 1-3) volledig en correct gestructureerd",
+      "§ §-paragrafen in Art. 1 netjes",
+      "Volledige preambule met vervanging-vermelding"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB29aug2019-registers.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Art. 1-3 zijn schoon en correct, maar regels 61-70 bevatten een appendix 'Recent opgeheven of vervangen koninklijke besluiten' met opsomming van KB 39, KB 47, KB 50, KB 52 etc. Deze appendix hoort niet bij dit KB (29 augustus 2019, innings- en invorderingsregisters) — het is een leftover-tabel uit de Fisconet-compilatie die niet door strip_kb_bijwerkingen werd weggehaald. Een buitenstaander ziet meteen dat dit bij een ander artefact hoort.",
+    "concrete_problemen": [
+      "Appendix 'Recent opgeheven of vervangen koninklijke besluiten' (regels 61-70) hoort niet bij dit KB en moet worden gestript",
+      "De bullets in die appendix bevatten ook 'Bijw. 04/01.01.2020'-markers die nergens anders in het document voorkomen — duidelijk compilatie-residu"
+    ],
+    "concrete_sterke_punten": [
+      "Art. 1-3 zelf zijn beknopt en volledig",
+      "Preambule met datum en wettelijke basis correct",
+      "Innings- en invorderings-register-tekst leesbaar en logisch"
+    ]
+  }
+]

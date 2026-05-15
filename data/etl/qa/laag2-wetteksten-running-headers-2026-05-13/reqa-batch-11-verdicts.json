@@ -1,0 +1,33 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/VCF.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Frontmatter volledig (wet, bron_rol itaa_lex, bijgewerkt 03.04.2026, provenance met SHA-256 + pipeline 7b2b73e). Hiërarchie correct: TITEL/Hoofdstuk/Afdeling/Art. met juiste heading-levels. Bilingue-detectie door uitgebreide strip_french_bilingue_bleed gereduceerd van 173 naar 6 tool-gedetecteerde fragmenten — valt binnen de uitzondering 'FR-fragmenten <10 in file >100k chars: cosmetisch'. Inhoud is overwegend bruikbare NL wettekst (12k regels, 921 KB). Resterende issues zijn niet-blokkerend voor RAG-retrieval: ze leiden hoogstens tot verdunde embeddings in specifieke artikels, niet tot foute juridische content.",
+    "concrete_problemen": [
+      "Resterende NL+FR interleaving in body-paragrafen die FR-markers ontwijken: regels zoals 1031 (Pour les camionnettes...), 937 (Les fractions de décilitres...), 1121 (d'essieux et de la MMA...) — zuivere FR-zinnen die in NL-paragrafen verschijnen. Strikte tool-telling (6) onderschat het aantal feitelijk gemengde paragrafen.",
+      "Bilinguale historiek-markers '---- historiek ---- ---- historique ----' verschijnen op ~528 plaatsen (1 per art.-historiek). Cosmetisch, maar dilueert embeddings van historiek-blokken.",
+      "Sommige opsommingen tonen NL+FR-codeswitch midden in een artikellid (bv. lijn 5389: 'Voor de toepassing van dit artikel moet onder brutowaarde worden begrepen: de belastbare waarde\\n\\nPour l'application du présent article, on entend par valeur brute...'). Strip-regex miste dit doordat de FR-zin niet met de gebruikelijke marker startte op een aparte regel."
+    ],
+    "concrete_sterke_punten": [
+      "Volledige provenance met SHA-256 e48d80794d... en pipeline-versie 7b2b73e — herleidbaar naar VCF-2026.pdf.",
+      "Heading-niveaus correct: # codex-titel, ## TITEL, ### Hoofdstuk, #### Afdeling, ###### Art. — RAG-chunking via Art. is bruikbaar.",
+      "Definities (Art. 1.1.0.0.2) integraal en correct genummerd (1°, 1°/1, ..., 18°/1). Volledige bevoegdheidsdomeinen (erfbelasting, registratiebelasting, kilometerheffing, leegstandsheffing) gedekt."
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Frontmatter volledig (Wetboek registratie- hypotheek- griffierechten, bron_rol itaa_lex, bijgewerkt 01.04.2026, SHA-256 768b6255..., pipeline 7b2b73e). Bilingue-detectie van 87 naar 2 fragmenten — ruim binnen cosmetische tolerantie. Hiërarchie correct (TITEL/Hoofdstuk/Afdeling/Artikel met ###### voor artikels). NL-body is consistent en volledig.",
+    "concrete_problemen": [
+      "Header-blok regels 39-61 bevat tweetalige titels en FR-KB-referentie (Arrêté royal n 64, Code des droits d'enregistrement...). Cosmetisch front-matter, niet blokkerend; raakt alleen embeddings van het allereerste chunk.",
+      "Inhoudstafel staat dubbel als 'INHOUDSTAFEL'/'TABLE DES MATIÈRES' (lijn 63-65). Klein duplicatie-artefact.",
+      "Lijnen 13663 en 15503 bevatten een NL+FR errata-aantekening op één regel ('lees ... ipv ... / lire ... au lieu de ...') — twee plaatsen, valt onder cosmetische uitzondering."
+    ],
+    "concrete_sterke_punten": [
+      "Reductie van 87 naar 2 bilingue-fragmenten bewijst dat de uitgebreide strip-regex hier zeer effectief is.",
+      "Heading-structuur consistent: ## TITEL, ### HOOFDSTUK, #### Afdeling, ###### Artikel — chunking per Artikel werkt out-of-the-box.",
+      "Historieknoten ('gewijzigd bij art. ... van de wet van ...') correct als sub-blokken onder elk artikel; behoudt traceerbaarheid naar oorspronkelijke wijzigingswetten.",
+      "Volledige provenance + recente bijwerking (01.04.2026)."
+    ]
+  }
+]

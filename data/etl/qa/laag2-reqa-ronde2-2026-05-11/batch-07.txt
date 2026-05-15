@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-0157-01-tijdstip-waarop-de-winst-is-gerealiseerd.md
+resources/bronnen/adviezen/CBN-0158-01-boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van.md
+resources/bronnen/adviezen/CBN-0161-01-aansprakelijk-vertegenwoordiger-tov-het-belastingbestuur.md
+resources/bronnen/adviezen/CBN-0167-02-boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen.md
+resources/bronnen/adviezen/CBN-0169-01-verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen.md
+resources/bronnen/adviezen/CBN-0169-02-verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen.md
+resources/bronnen/adviezen/CBN-0170-01-boekhoudkundige-verwerking-van-niet-betaalde-schulden-wegens-ontoereikend-actief-bij-het.md
+resources/bronnen/adviezen/CBN-0171-boekhoudkundige-verwerking-van-afvalstoffen.md
+resources/bronnen/adviezen/CBN-0172-01-opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor.md
+resources/bronnen/adviezen/CBN-0173-02-boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie.md

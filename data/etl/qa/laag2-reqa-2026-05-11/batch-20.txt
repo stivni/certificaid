@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-2018-23-begin-van-het-boekjaar.md
+resources/bronnen/adviezen/CBN-2018-24-duolegaat-vereniging-en-stichting.md
+resources/bronnen/adviezen/CBN-2019-06-groepsbijdrage.md
+resources/bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening.md
+resources/bronnen/adviezen/CBN-2019-08-boekhoudkundige-verwerking-van-crowdfunding-0.md
+resources/bronnen/adviezen/CBN-2019-09-boekhoudplichtige-onderneming.md
+resources/bronnen/adviezen/CBN-2019-12-groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting.md
+resources/bronnen/adviezen/CBN-2019-13-pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering.md
+resources/bronnen/adviezen/CBN-2020-01-neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe.md
+resources/bronnen/adviezen/CBN-2020-02-afronding-van-betalingen-in-euro-0.md

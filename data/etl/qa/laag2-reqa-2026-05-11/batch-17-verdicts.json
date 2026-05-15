@@ -1,0 +1,314 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6/G3: regel 66 bevat ', bijgewerkt op 10 september 2025 [^2]' als losstaande alinea direct na de H1-titel — de bijwerkingsannotatie belandde als inline tekst in de body in plaats van in de frontmatter. Verdere inhoud is volledig en correct: 4 headings, voetnoten intact, logische alinea's.",
+    "concrete_problemen": [
+      {
+        "regel": 66,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": ", bijgewerkt op 10 september 2025 [^2]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Vier headings correct gestructureerd (## Inleiding, ## Vraagstelling, ## Toepasselijke rapporteringsstandaard, ## Vrijstelling van subconsolidatie)",
+      "Alle 7 voetnoten aanwezig en correct opgemaakt als [^N]",
+      "Juridische verwijzingen (art. 3:104, 3:24, 3:26 WVV/KB WVV) volledig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-20-leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-boek-xx-insolventie-van.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6: regel 57 bevat een spurious line-break na '[^2]' midden in de zin — 'van het Wetboek van economisch recht[^2]\\n kan worden besloten' met kleine letter na de regelovergang. Verder bevat regel 59 'vorderingen[^3]*  is duidelijk' waarbij twee spaties en het patroon rond de voetnootreferentie wijzen op een extractie-artefact in de inline italic-opmaak. Inhoud compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 57,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "van het Wetboek van economisch recht[^2]\n kan worden besloten"
+      },
+      {
+        "regel": 59,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "vorderingen[^3]*  is duidelijk omtrent de classificatie"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee duidelijke secties (## Inleiding, ## Analyse) correct gemarkeerd",
+      "Voetnoten [^1] t/m [^4] volledig aanwezig",
+      "Inline italics (*45 Schulden*, *179 Overige schulden*) grotendeels correct gesloten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-21-actualisatie-van-uitgestelde-belastingen-update.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6/G3: regel 64 bevat ', bijgewerkt op 10 september 2025[^2]' als losstaande alinea direct na de H1-titel — zelfde bijwerkingsartefact als andere update-adviezen. Tevens A6 op regel 75: 'renteloze schulden op meer dan één[^3]\\n jaar niet in aanmerking' — spurious line-break na footnote-ref midden in zin. heading_count=0 is inhoudelijk verdedigbaar voor dit korte één-vraag-één-antwoord-advies, maar de twee artefacten zijn duidelijke ETL-bugs.",
+    "concrete_problemen": [
+      {
+        "regel": 64,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": ", bijgewerkt op 10 september 2025[^2]"
+      },
+      {
+        "regel": 75,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "renteloze schulden op meer dan één[^3]\n jaar niet in aanmerking"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: vraag, wettelijke grondslag (art. 3:54 KB WVV), conclusie van de Commissie allemaal aanwezig",
+      "Voetnoten [^1] t/m [^3] correct gedefinieerd",
+      "Inline italics (*Uitgestelde belastingen*, *voorzieningen*) correct gesloten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-22-bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: regel 80 bevat 'bij een geïnformatiseerde boekhouding' als losstaande alinea direct na de H1-titel — duplicaat van de ondertitel, extractie-artefact. D4: systematisch patroon van broken italics met spatie vóór sluitende asterisk op minstens 5 plaatsen (regels 141, 143, 173, 175, 195) — bv. 'de* onveranderlijkheid *en de* toegankelijkheid *'. Structuur (14 headings, ####-hiërarchie) is overigens uitstekend.",
+    "concrete_problemen": [
+      {
+        "regel": 80,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "bij een geïnformatiseerde boekhouding"
+      },
+      {
+        "regel": 141,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "de* onveranderlijkheid *en de* toegankelijkheid *te waarborgen"
+      },
+      {
+        "regel": 143,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "De *onveranderlijkheid* en *toegankelijkheid* — maar elders: de *onveranderlijkheid *van"
+      },
+      {
+        "regel": 173,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "verplichting tot bewaring* in origineel *en met inachtneming van de *onveranderlijkheid *"
+      },
+      {
+        "regel": 175,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*drager *beoogd die de *onveranderlijkheid *en de *toegankelijkheid *"
+      },
+      {
+        "regel": 195,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "de *leesbaarheid *en het *origineel karakter ervan*[^17]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "14 headings met correcte ##/###/#### hiërarchie — structuur is uitstekend voor RAG-segmentatie",
+      "28 voetnoten volledig aanwezig en correct gedefinieerd",
+      "Inhoud volledig: wettelijk kader, analyse, bijzondere vragen (fiscale aspecten, elektronische facturering, plaats van bewaring) allemaal aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-24-uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6: meerdere spurious line-breaks na footnote-referenties midden in zinnen: regel 58-59 ('*niet-recurrent*[^3]\\n Dit geldt'), 59 ('resultatenrekening.[^9]\\n Ook het schema'), 62-63 ('[^11]\\n De Commissie'), 63 ('*i.e.*[^11]\\n De Commissie meent'). Dit is een structureel PDF-extractiepatroon. Tabel is correct in pipe-syntax; inhoud compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 58,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "uitzonderlijk* en *niet-recurrent*.[^3]\n Dit geldt *mutatis mutandis*"
+      },
+      {
+        "regel": 59,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "schema van de resultatenrekening.[^9]\n Ook het schema van de resultatenrekening"
+      },
+      {
+        "regel": 62,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "resultatenrekening zijn opgenomen.[^11]\n De Commissie meent"
+      },
+      {
+        "regel": 63,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "*i.e.*[^11]\n De Commissie meent"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Uitgebreide MAR-rekeningen tabel correct in markdown pipe-syntax met alle rijen en cellen",
+      "Drie headings (## Inleiding, ## Schema, ## Vermelding) logisch gestructureerd",
+      "Inhoud volledig inclusief twee voorbeelden; voetnoten [^1] t/m [^18] intact"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-25-kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: regels 53-64 bevatten een volledige genummerde inhoudsopgave direct na de H1-titel, vóór de eerste echte ## Inleiding — klassiek HTML-TOC extractie-artefact dat niet werd verwijderd. B6: regel 64 bevat '------ Opvolging van de reserve voor voorzienbaar verlies' als een horizontale lijn met tekst — geen valide markdown-separator. Inhoud na de TOC is structureel correct (9 headings, tabellen in pipe-syntax).",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Inleiding \n2. Analyse \n  1. Wettelijk en reglementair kader ..."
+      },
+      {
+        "regel": 64,
+        "categorie": "B6",
+        "type": "other",
+        "voorbeeld": "------ Opvolging van de reserve voor voorzienbaar verlies"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "9 headings (##, ###, ####, #####) met correcte hiërarchie na de TOC",
+      "Drie journaalboekingstabellen correct in pipe-syntax",
+      "Voetnoten [^1] t/m [^11] volledig aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6: meerdere spurious line-breaks na voetnootreferenties midden in zinnen (regels 78, 82-83, 87-88, 109-111, 144-146) — structureel PDF-extractiepatroon. A6/G3: regel 74 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1. B2: 'Geval 2' op regel 129 en 164 staat als ## heading terwijl het een sub-geval is van een Voorbeeld (zou ### moeten zijn).",
+    "concrete_problemen": [
+      {
+        "regel": 74,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": ", bijgewerkt op 10 september 2025[^2]"
+      },
+      {
+        "regel": 78,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "de berekening van de groottecriteria[^3]\n wanneer sprake is van een gezamenlijke controle"
+      },
+      {
+        "regel": 82,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "geldt een wettelijk en onweerlegbaar vermoeden[^5]\n Bijgevolg zijn"
+      },
+      {
+        "regel": 129,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Geval 2: De vennootschap A en de vennootschap B hebben geen overeenkomst..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee uitgewerkte voorbeelden met correcte berekeningen volledig aanwezig",
+      "Tabellen met groottecriteria correct in pipe-syntax",
+      "28 voetnoten volledig gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-04-gegeven-borgtochten-in-contanten-en-effecten-update.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6/G3: regel 59 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1. D4: regel 71 bevat 'De rekeningen 750* Opbrengsten uit financiële vaste activa*' waarbij '750*' direct aansluit op het getal zonder spatie — broken italic openingsmarkering. Verder in regel 71: 'rekening 418 *Borgtochten betaald in contanten* corresponderen' — hier is het italic correct, maar eerder in de zin staat '750*' fout. Klein advies, inhoud volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 59,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": ", bijgewerkt op 10 september 2025[^2]"
+      },
+      {
+        "regel": 71,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "De rekeningen 750* Opbrengsten uit financiële vaste activa* en 751 *Opbrengsten"
+      },
+      {
+        "regel": 71,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "418 *Borgtochten betaald in contanten* corresponderen respectievelijk met de rekeningen 288 *Borgtochten betaald in contanten *en"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee headings (## Inleiding, ## Conclusie) correct aanwezig",
+      "Voetnoten [^1] t/m [^3] volledig gedefinieerd",
+      "Inhoud kort maar volledig: vraag, wettelijke grondslag (art. 3:89 KB WVV), conclusie aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: regels 69-86 bevatten een volledige genummerde inhoudsopgave direct na H1 die niet werd verwijderd. A2: regels 80 en 86 bevatten ', 15' als losse paginanummer-resten (dotted-leader artefact zonder de dots zelf). B6: regel 82-85 bevat TOC-subfragmenten met '--' als separator. D4: regel 188 bevat '*inlichtingen *' met spatie vóór sluitende asterisk.",
+    "concrete_problemen": [
+      {
+        "regel": 69,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Hypothese en vraag \n2. Wetgevend en reglementair kader \n  1. Vermelding van rechten..."
+      },
+      {
+        "regel": 80,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": ", 15"
+      },
+      {
+        "regel": 82,
+        "categorie": "B6",
+        "type": "other",
+        "voorbeeld": "  2. Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0"
+      },
+      {
+        "regel": 86,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": ", 15"
+      },
+      {
+        "regel": 188,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "met *inlichtingen *betreffende belangrijke hangende geschillen"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "14 headings met correct ##/###/#### hiërarchie na de TOC-blok",
+      "29 voetnoten volledig aanwezig en correct gedefinieerd",
+      "Inhoud volledig: wettelijk kader, beschouwingen (materialiteit, niet-limitativiteit, subsidiariteit), boeking klasse 0 — alle secties compleet"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-08-cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: regel 51 bevat 'bij opmaak jaarrekening volgens nieuw model' als losstaande alinea direct na H1 — duplicaat van de ondertitel, extractie-artefact. A6: regel 57-58 bevat '[^3]\\n Daarnaast' en regel 64-65 bevat '[^5]\\n Dit leidt ertoe' — spurious line-breaks na footnote-refs midden in zinnen. Korte maar inhoudelijk complete tekst.",
+    "concrete_problemen": [
+      {
+        "regel": 51,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "bij opmaak jaarrekening volgens nieuw model"
+      },
+      {
+        "regel": 57,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "wijziging plaatsvindt.[^3]\n Daarnaast wordt er voor het volledige"
+      },
+      {
+        "regel": 64,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "die aanvatten op of na 1 januari 2016.[^5]\n Dit leidt ertoe"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee headings (## Inleiding, ## Identieke voorstelling) correct aanwezig",
+      "Voetnoten [^1] t/m [^6] volledig gedefinieerd",
+      "Inhoud compleet: achtergrond KB 18 december 2015, consistentiebeginsel (art. 86 KB W.Venn.) en conclusie aanwezig"
+    ]
+  }
+]

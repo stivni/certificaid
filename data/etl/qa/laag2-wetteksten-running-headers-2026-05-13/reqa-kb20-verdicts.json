@@ -1,0 +1,23 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "promote_wettekst_section_labels heeft duidelijke vooruitgang geboekt: 'Bijlage', 'GOEDEREN', 'DIENSTEN', 'Tabel B', 'Tabel C', 'Tijdelijke bepalingen' en 'Afdeling II - Onderdelen...' staan nu correct als ## headings. De hoofdoorzaak van de Layer1 max_section_size-warn (>24k chars) is echter NIET opgelost: de Tabel A/B/C-rubrieken op niveau Romeinse cijfers (I., II., III., ..., XL.) staan nog steeds als plain text in plaats van als ### sub-headings. Daardoor blijft de GOEDEREN-sectie (≈40 rubrieken) één enorm chunk van ~50k chars en de DIENSTEN-sectie idem. Voor RAG-retrieval is dit problematisch: een vraag over rubriek XIX (Kranten/tijdschriften/boeken) of XXXVII (afbraak en heropbouw) zal het volledige GOEDEREN- of DIENSTEN-blok als één chunk ophalen of door de splitter mechanisch worden afgesneden zonder semantische grens. Daarnaast: 'TABEL A' (regel 163) ontbreekt als ## heading terwijl Tabel B (714) en Tabel C (846) wél zijn gepromoveerd — interne inconsistentie. Verder zijn TOC-residu met dotted leaders (regels 157-161), de recap-duplicatie (regels 889-938), 'Eerste afdeling. - Automobielen...' (regel 363) en spurious linebreaks midden in sectienummers (bv. '6°,\\n van tabel A') ongewijzigd. Aanbeveling: ETL-promotor uitbreiden naar 'TABEL A'-caption en naar de rubriek-regex `^([IVXL]+(bis|ter)?)\\. ` aan begin van regel (gevolgd door titelregel) om deze als ### te promoveren; daarnaast 'Eerste afdeling./Tweede afdeling.' opnemen in de afdeling-promotor.",
+    "concrete_problemen": [
+      "Romeinse-cijfer rubrieken (I. Levende dieren., II. Vlees en slachtafvallen., ..., XL. Gebouwen bestemd voor onderwijs) in zowel Tabel A (GOEDEREN regel 168-449, DIENSTEN regel 452-712) als Tabel B (regel 718-844) als Tabel C (regel 852-887) staan als plain text i.p.v. ### sub-headings — hierdoor blijven GOEDEREN en DIENSTEN elk één massief chunk van tienduizenden chars, exact het probleem dat Layer1 met max_section_size>24k vlagde",
+      "'TABEL A' (regel 163) en bijschrift 'Goederen en diensten onderworpen aan het tarief van 6 pct.' (regel 164) zijn niet gepromoveerd naar ## heading, terwijl 'Tabel B' (714) en 'Tabel C' (846) dat wel zijn — inconsistente structuur tussen de drie tabellen",
+      "TOC-residu met dotted leaders niet opgeschoond (regels 157-161): 'Goederen aan 6 pct. .......... II/1 Diensten aan 6 pct. .......... III/1', 'Tabel B – ... IV/1', 'Tabel C – ... V/1'",
+      "Recap-blok aan einde (regels 889-938) is ongewijzigde TOC-achtige duplicatie van alle rubrieken (Tabel A + Tabel B + Tabel C) — onduidelijk of dit officieuze toevoeging is of residu; voor RAG dupliceert het wel rubriek-namen zonder context",
+      "'Eerste afdeling. - Automobielen voor personenvervoer voor invaliden.' (regel 363) onder rubriek XXII staat nog steeds als plain text, terwijl 'Afdeling II - Onderdelen, uitrustingsstukken en toebehoren van voertuigen voor invaliden.' (regel 396) wél als ## heading staat — inconsistentie binnen dezelfde rubriek",
+      "Spurious linebreaks midden in opsommingen (regels 92-93 '6°,\\n van tabel A', 99-100, 133-134, 384-385) niet gefixed",
+      "Layer1 vlagt nog steeds één sectie van ~50-95k chars; chunker zal moeten split_long_chunk-en zonder semantische grenzen"
+    ],
+    "concrete_sterke_punten": [
+      "## Bijlage (regel 154), ## GOEDEREN (166), ## DIENSTEN (450), ## Tabel B (714), ## Tabel C (846) correct als ## headings — substantiële verbetering t.o.v. vorige versie",
+      "## Tijdelijke bepalingen (regel 67) correct gepromoveerd",
+      "## Afdeling II - Onderdelen, uitrustingsstukken en toebehoren van voertuigen voor invaliden. (regel 396) als ## heading aanwezig",
+      "Artikel-niveau (### Art. 1 t/m ### Art. 3, ### Art. 1bis t/m ### Art. 1sexies) consistent als ### headings",
+      "Frontmatter compleet en accuraat: trust.layer2.rationale beschrijft de resterende issues correct, provenance.inputs met sha256 + version aanwezig"
+    ]
+  }
+]

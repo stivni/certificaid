@@ -1,0 +1,201 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0154-01-wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: de paginatitel wordt op regel 48 herhaald als plain-text alinea (bekend duplicate-page-title-heading patroon). Geen subheadings aanwezig (layer1 heading_count=0): de volledige inhoud zit in één niet-gesegmenteerde blok. Verder inhoudelijk volledig en voetnoten correct gelinkt.",
+    "concrete_problemen": [
+      {
+        "regel": 48,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Voetnoten correct in markdown [^1]/[^2]/[^3]-formaat met definities onderaan",
+      "Inhoudelijk volledig: vraagstelling, redenering en conclusie aanwezig",
+      "Geen PDF-extractie-artefacten (geen form-feeds, OCR-fouten of spurious line-breaks)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0156-01-attribution-au-fonds-de-solidarite.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: regel 50 bevat twee malformed italics met spatie vóór de sluitende asterisk: '*Solidariteitsfonds *' en '*Financieringsfonds *'. Dit is een bekend ETL-patroon ('*term *'). Inhoud verder correct en volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 50,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Solidariteitsfonds *of *Financieringsfonds *"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Zeer compacte bron (1300 chars): inhoud volledig en coherent",
+      "Geen structuurproblemen, geen PDF-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0157-01-tijdstip-waarop-de-winst-is-gerealiseerd.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: regel 62 herhaalt de paginatitel als plain-text alinea direct onder de # heading (duplicate-page-title-heading patroon, identiek aan CBN-0154). Inhoud volledig en voetnoten afwezig (geen citaties in de body), wat klopt voor dit korte advies.",
+    "concrete_problemen": [
+      {
+        "regel": 62,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd "
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: vraag, redenering en conclusie aanwezig",
+      "Geen PDF-artefacten of OCR-fouten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0158-01-boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: regel 53 heeft '#### *Aanschaffingswaarde *' — malformed italic met spatie vóór sluitende asterisk in een heading. Regel 94 idem: '*Aankopen van grondstoffen of handelsgoederen *'. B2: heading-hiërarchie springt van ## (regel 51) naar #### (regel 53) zonder tussenliggend ###. Sterke punten: subheadings correct aanwezig, voetnoot correct gelinkt.",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "#### *Aanschaffingswaarde *"
+      },
+      {
+        "regel": 53,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Verwerving in eigendom... → #### *Aanschaffingswaarde * (overgeslagen ###)"
+      },
+      {
+        "regel": 94,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Aankopen van grondstoffen of handelsgoederen *"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Structuur herkenbaar: ## en ### secties aanwezig voor de hoofdindeling",
+      "Voetnoot correct gelinkt",
+      "Inhoud volledig: eigendom, concessie en verplichtingen alle behandeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0159-01-schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen zichtbare ETL-artefacten. Italics voor 'artikel 27*bis*' en '25*bis*' zijn Belgische wetgevingsstijl (geen malformed markdown). Voetnoten correct gelinkt. Genummerde lijst (1./2.) en bulletlijst correct. Inhoud volledig: vraag, boekhoudkundig antwoord met cijfervoorbeeld en fiscaal-rechtelijk commentaar aanwezig.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Voetnoten correct in [^N]-formaat met definities onderaan",
+      "Cijfervoorbeeld volledig uitgewerkt (1.000.000 frank scenario)",
+      "Geen PDF-extractie-artefacten of OCR-fouten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0159-02-specifiek-achtergestelde-leningen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen ETL-artefacten. Italics voor '*Achtergestelde leningen*' en '*Niet-converteerbare achtergestelde leningen*' correct gesloten. Voetnoot correct gelinkt. Inhoud volledig en coherent.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Heldere redenering zonder structuurproblemen",
+      "Voetnoot met juridische bronverwijzing correct gelinkt",
+      "Geen PDF-artefacten of OCR-fouten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0161-01-aansprakelijk-vertegenwoordiger-tov-het-belastingbestuur.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D1/D4: Regel 53 bevat 'Volgens boekingen geven een beeld...' — vermoedelijk ontbreekt 'Volgende' (brontext-artefact of OCR-fout). Tabellen in markdown pipe-syntax aanwezig maar de Debet/Credit kolommen zijn leeg (geen bedragen), wat in dit advies intentioneel is (illustratieve schema's zonder cijfers). Voetnoot correct.",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "Volgens boekingen geven een beeld van de relaties..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Tabellen in correcte markdown pipe-syntax (E1)",
+      "Voetnoot correct gelinkt",
+      "Vier boekingsschema's (a-d) volledig aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0163-boekhoudkundige-verwerking-van-in-substance-defeasance.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen ETL-artefacten. Proza coherent, geen OCR-fouten, geen malformed markdown. Inhoud volledig: techniek beschreven, juridische analyse en conclusie aanwezig. Geen subheadings nodig voor dit korte advies.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Heldere juridische redenering zonder structuurproblemen",
+      "Geen PDF-artefacten of OCR-fouten",
+      "Inhoud compleet (techniek, Belgisch recht, conclusie)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0164-passende-boekhoudkundige-verwerking-van-de-tegenwaarde-van-participatiecertificaten-cpcs.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen ETL-artefacten. Proza correct, italics (*Niet-converteerbare achtergestelde leningen*) correct gesloten. Inhoud volledig: CPC-kenmerken, eigen-vermogensclassificatie en omzettingsregel aanwezig.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Compacte bron met volledige redenering",
+      "Geen PDF-artefacten of OCR-fouten",
+      "Italics correct gesloten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0167-02-boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: regels 65-67 bevatten duplicate # heading (zelfde titel tweemaal). D4: regels 417 en 424 hebben '** 20.09.91**' en '** 01.10.91**' met spurieuze spatie na opening-**, waardoor bold niet correct rendert. A9: regel 455 'Aanschaffigswaarde' (ontbrekende 't') en regel 479 'terminijn' zijn OCR/typfouten. B2: heading ##### op regel 182 heeft onafgesloten haakje ('(contant of op termijn' zonder sluitende ')'). Tabellen met multi-line celinhoud (regels 260-309) zijn niet standaard markdown en breken rendering.",
+    "concrete_problemen": [
+      {
+        "regel": 67,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# Boekhoudkundige verwerking van dekkingsverrichtingen... (duplicate heading)"
+      },
+      {
+        "regel": 182,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "##### Opties ter dekking van vaste rechten en verplichtingen (contant of op termijn"
+      },
+      {
+        "regel": 417,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "** 20.09.91** (spatie na opening **)"
+      },
+      {
+        "regel": 424,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "** 01.10.91** (spatie na opening **)"
+      },
+      {
+        "regel": 455,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "Aandelen - Aanschaffigswaarde"
+      },
+      {
+        "regel": 479,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "verlies op op terminijn verkochte effecten"
+      },
+      {
+        "regel": 260,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "Multi-line celinhoud in tabelrijen (regels 260-309): cellen bevatten lijnsprongen"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Subheadings (##, ###, ####, #####) correct hiërarchisch aanwezig voor de hoofdsecties",
+      "Voetnoten [^1]-[^15] volledig gedefinieerd onderaan",
+      "Boekingstabellen in pipe-syntax (E1) aanwezig voor de meeste voorbeelden",
+      "Inhoud volledig: drie voorbeelden, samenvatting en liquiditeitsanalyse aanwezig"
+    ]
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2010-13-boekhoudkundige-verwerking-van-de-belasting-over-de-toegevoegde-waarde-in-hoofde-van-de.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: regel 132 bevat een losstaande voetnootreferentie '[^14]' op een lege regel tussen twee alinea's — dit is een inline-fragment dat in de PDF als voetnootanker aan een tabel was gekoppeld maar nu zweeft als zinloze regel. Hetzelfde patroon op regels 141 en 150. Verder is de inhoud compleet en structureel goed.",
+    "concrete_problemen": [
+      {
+        "regel": 132,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": " [^14]"
+      },
+      {
+        "regel": 141,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": " [^15]"
+      },
+      {
+        "regel": 150,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": " [^16][^17]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Vier duidelijke ## headings met zinvolle titels",
+      "Tabellen correct in pipe-syntax met header- en scheidingsrij",
+      "Voetnoten 1–18 volledig gedefinieerd onderaan",
+      "Geen TOC-residu, geen form-feeds, geen OCR-fouten zichtbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks. Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk juist, geen artefact.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Twee-niveau heading-hiërarchie (## en ###) correct toegepast",
+      "Geen TOC-residu of pagina-scheidingstekens",
+      "Voetnoten volledig gedefinieerd met inhoud",
+      "Coherente alinea's zonder spurious line-breaks"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Regel 61–76: een genummerde inhoudsopgave staat als plain text in de body, inclusief een samengeperste dubbele TOC-regel op regel 76 ('-- Lineaire afschrijvingsmethoden-- Boekhoudkundige...'). Dit is een A3/A2-artefact (TOC-fragment verdubbeld en als plain text gerenderd). Regel 190: opening italic-marker '*Voorbeeld' zonder sluit-asterisk op diezelfde regel (D4). Regel 204: '*Gemengde bedrijfsdrukte *' — spatie voor sluit-asterisk geeft malformed italic. Inhoud zelf compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 61,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Waarderingsregels \\n  1. Algemeen \\n  2. Oprichtingskosten ..."
+      },
+      {
+        "regel": 76,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "-- Lineaire afschrijvingsmethoden-- Boekhoudkundige degressieve afschrijvingsmethoden-- ..."
+      },
+      {
+        "regel": 190,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Voorbeeld "
+      },
+      {
+        "regel": 204,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "- *Gemengde bedrijfsdrukte * "
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Dertien headings met zinvolle titels en correcte hiërarchie (##, ###)",
+      "Voorbeelden met getallen volledig uitgewerkt",
+      "Voetnoten 1–34 aanwezig en gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2010-16-boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Regel 56–64: plain-text genummerde inhoudsopgave in de body (A3-patroon, net als 2010/15). Regel 83: malformed italic met spatie vóór sluit-asterisk: 'Lidgeld, schenkingen, legaten en subsidies[^6] *' (D4). Regel 84: zelfde patroon 'Kapitaalsubsidies* in artikel'. Regel 106: bold/italic gecombineerd mislopen: '(1)** oorzaak:**' — de bold-marker staat ná de haakjes in plaats van eromheen. Inhoud en tabellen overigens volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 56,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Basisbeginselen \\n2. Soorten subsidies \\n  1. Subsidies, ..."
+      },
+      {
+        "regel": 83,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Lidgeld, schenkingen, legaten en subsidies[^6] *;"
+      },
+      {
+        "regel": 84,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "de post VI. *Kapitaalsubsidies* in artikel 19, § 2, 3°"
+      },
+      {
+        "regel": 106,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "(1)** oorzaak:** het gaat om de reden"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Zestien ## en ### headings correct hiërarchisch",
+      "Acht uitgewerkte boekhoudkundige voorbeelden met tabellen in pipe-syntax",
+      "Voetnoten 1–23 volledig gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2010-17-boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Regel 69–73: plain-text inhoudsopgave in de body (A3). Regel 173: losstaande voetnootreferentie '[^12]' op een lege regel net boven een tabel — zelfde patroon als 2010/13 (G3). Regels 288–289: verbrokkelde tabelrij — de omschrijving 'Gebouwen die volle eigendom zijn van de vereniging - Geboekte afschrijvingen' staat verspreid over twee regels en de pipe-structuur is gebroken (E2).",
+    "concrete_problemen": [
+      {
+        "regel": 69,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Goederen \\n  1. Subsidies, schenkingen en legaten bestemd om duurzaam..."
+      },
+      {
+        "regel": 173,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": " [^12]"
+      },
+      {
+        "regel": 288,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | 22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\\n\\t\\t\\t\\tGeboekte afschrijvingen | 1.515,15 |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Vijftien headings met zinvolle titels, correcte twee-niveau hiërarchie",
+      "Negen uitgewerkte voorbeelden met boekingen in pipe-tabellen",
+      "Voetnoten 1–20 volledig gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2010-18-subsidies-en-schenkingen-vanuit-het-oogpunt-van-de-verstrekkende-vereniging-of-stichting.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Regels 51–60: plain-text inhoudsopgave in de body (A3). De overige inhoud (dertien headings, zes voorbeelden, voetnoot 1) is structureel correct en leesbaar. Geen andere artefacten gevonden.",
+    "concrete_problemen": [
+      {
+        "regel": 51,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Subsidies \\n  1. Subsidies in contanten \\n  2. Subsidies in natura ..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Dertien ## en ### headings met zinvolle titels en correcte hiërarchie",
+      "Zes uitgewerkte boekhoudkundige voorbeelden met tabellen in pipe-syntax",
+      "Geen TOC-residu, geen OCR-fouten, geen form-feeds"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2010-20-gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Vijf headings correct hiërarchisch. Voetnoten 1–15 volledig. Geen inhoudsopgave als plain text in body, geen malformed italic, geen extractie-artefacten zichtbaar. Langere secties (max 11034 chars) lopen vloeiend door zonder spurious breaks.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Twee-niveau heading-hiërarchie (## en ###) correct toegepast",
+      "Voetnoten uitvoerig en inhoudelijk volledig",
+      "Geen TOC-fragmenten, geen pagina-scheidingstekens",
+      "Zinsstructuur vloeiend, geen spurious line-breaks"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2011-02-zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Drie ## headings correct. Voetnoten 1–7 volledig. Geen inhoudsopgave als plain text, geen extractie-artefacten. Inhoud beknopt maar compleet voor dit advies.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Drie duidelijke ## headings met beschrijvende titels",
+      "Voetnoten volledig gedefinieerd",
+      "Geen TOC-residu, geen pagina-breaks, geen OCR-fouten",
+      "Alinea's volledig zonder abrupte afbrekingen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2011-04-boekhoudkundige-verwerking-van-leveringontvangst-van-handelsgoederen-om-niet-update-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Regel 53: '***Voorbeeld***' gebruikt drievoudige asterisk (bold+italic gecombineerd) terwijl regel 66 hetzelfde patroon herhaalt. Dit is een inconsistentie tov de andere adviezen die '*Voorbeeld*' of '*Voorbeeld' gebruiken (D4/stijl-inconsistentie). Anderzijds is dit een zeer kort advies (2042 chars) met slechts twee headings en één tabel — laag 1 meldt heading_count 2 wat klopt. Voetnoot [^1] is gedefinieerd maar er is geen [^1]-referentie in de body (de footnote is een redactionele noot over de publieke consultatie, wat in orde is). Toch wijst het triple-asterisk patroon op een ETL-stijlinconsistentie ten opzichte van de rest van de batch.",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "***Voorbeeld***"
+      },
+      {
+        "regel": 66,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "***Voorbeeld***"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee zinvolle ## headings",
+      "Tabel in correcte pipe-syntax",
+      "Inhoud volledig voor dit beknopte advies"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2011-05-consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Regel 69: 'artikel 107, 4° KB W.Venn.' staat als plain text na de H1-titel maar vóór de eerste ## heading — dit is een losse sub-titelregel die als heading had moeten worden opgenomen of als inleiding-alinea, niet als zweefzin (B5/B1-patroon). Inhoud en vijf headings zijn overigens correct en volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 69,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "artikel 107, 4° KB W.Venn."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Vijf ## en ### headings met zinvolle titels en correcte hiërarchie",
+      "Drie genummerde voorwaarden duidelijk als lijst uitgewerkt",
+      "Voetnoten 1–5 volledig gedefinieerd"
+    ]
+  }
+]

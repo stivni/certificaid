@@ -1,0 +1,221 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2011-22-boekhoudkundige-verwerking-van-de-door-de-vlaamse-regering-gecreeerde-kmo-portefeuille.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: heading-hiërarchie springt op regel 60 en 67 van ## naar #### zonder tussenliggend ### niveau — een mens zou dat niet zo schrijven. D4: regel 77 bevat '*Voorbeeld *' met een spatie voor de sluitende asterisk (malformed italic). Inhoud en voetnoten zijn volledig en correct.",
+    "concrete_problemen": [
+      {
+        "regel": 60,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### Procedure"
+      },
+      {
+        "regel": 67,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### Boekhoudkundige verwerking"
+      },
+      {
+        "regel": 77,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Voorbeeld *"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle tabellen in correcte markdown pipe-syntax met juiste kolommen",
+      "Alle 19 voetnoten aanwezig en volledig gedefinieerd",
+      "Inhoud van de drie subsecties (eigen bijdrage, subsidiëring, betaling) intact en leesbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2012-01-boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D1: het bestand eindigt abrupt op regel 127 met een afgekapte zin ('bestendigheidsbeginse' — de eindletter 'l' ontbreekt en er is geen afsluitende punt). Dit is een duidelijke afkapfout bij de extractie. Verdere structuur en inhoud zijn goed.",
+    "concrete_problemen": [
+      {
+        "regel": 127,
+        "categorie": "D1",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "betekenen van het bestendigheidsbeginse"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (##, ###) correct en consistent",
+      "Tabellen met boekingen volledig en in correcte pipe-syntax",
+      "Voetnoten 1-4 aanwezig en volledig gedefinieerd",
+      "Toepassingsgebied en twee scenario's inhoudelijk compleet tot de afkap"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2012-04-de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4/B3: regel 66 heeft '### * Algemene kenmerken*' — asterisken zijn onderdeel van de heading-tekst (malformed). Regels 105 en 117 hebben '**1. Uitvoerend beslag **' en '** 2. Kantonnement**' als bold-paragrafen in plaats van subsection-headings, met extra spaties. Regels 142-144 en 152-154 bevatten gebroken tabelcellen over meerdere regels (C3/E2-patroon bij de verkoopboeking).",
+    "concrete_problemen": [
+      {
+        "regel": 66,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "### * Algemene kenmerken*"
+      },
+      {
+        "regel": 105,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "**1. Uitvoerend beslag **"
+      },
+      {
+        "regel": 117,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "** 2. Kantonnement**"
+      },
+      {
+        "regel": 142,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | 700-707\n\t\t\t\t(of 499 | Verkopen en dienstprestaties\n\t\t\t\tVerkopen materiële vaste activa)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: bewarend beslag, uitvoerend beslag en kantonnement alle behandeld",
+      "Uitgebreid voorbeeld met 5 opeenvolgende boekingen aanwezig",
+      "28 voetnoten aanwezig en volledig gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2012-07-de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: regel 82 bevat een duplicate TOC als aaneengesloten plain-text-blob ('-- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase...') — dit is een tweede inhoudstafel die verspreid in de body terechtkwam na extractie. De genummerde TOC bovenaan (regels 58-81) is correct; dit tweede blok had verwijderd moeten worden.",
+    "concrete_problemen": [
+      {
+        "regel": 82,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "-- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase---- Tweede faseBoekhoudkundige verwerking..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (##, ###, ####, #####) correct en consistent",
+      "Alle boekingen in correcte markdown pipe-tabellen",
+      "Beide methoden (methode 1 en 2) volledig uitgewerkt met voorbeelden",
+      "25 voetnoten aanwezig en volledig gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2012-08-de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen merkbare extractie-artefacten. Heading-hiërarchie (##, ###) correct en proportioneel. Voetnoten 1-14 aanwezig en volledig. Tabel op regel 113-117 is afwijkend opgemaakt maar leesbaar als pseudo-tabel voor een balansoverzicht. Inhoud compleet.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie correct: #, ##, ### niveaus consistent",
+      "14 voetnoten aanwezig en volledig gedefinieerd",
+      "Rekenkundig voorbeeld met vennootschappen A, B en C volledig uitgewerkt",
+      "Inhoud coherent: inbreng, realisatiebeginsel en proportionele integratie alle behandeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2012-09-de-boekhoudkundige-verwerking-van-de-verwerving-van-een-vast-actief-voor-een-variabele.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: regel 52 heeft een tweede '#'-level heading ('# Advies 6 juni 2012, bijgewerkt...') midden in het document — een mens zou dit nooit als tweede H1 schrijven. E1/E2: Voorbeeld 4 (regels 149-290) heeft een volledig kapotte tabel waarbij elke cel als losstaande regel is weergegeven met lege pipe-rijen ertussen — onleesbaar als markdown-tabel.",
+    "concrete_problemen": [
+      {
+        "regel": 52,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "# Advies 6 juni 2012, bijgewerkt op 10 september 2025[^1]"
+      },
+      {
+        "regel": 149,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| | | \n\nVaste betaalde prijs: 300\n\n  | | \n\nVariabele \n\nprijs jaar \n\n20X1: 27"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Drie kwalitatieve voorbeelden (1, 2, 3) volledig en leesbaar uitgewerkt",
+      "11 voetnoten aanwezig en volledig gedefinieerd",
+      "Inhoud volledig: activering, afschrijving en overeenstemming met lijfrente behandeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2012-10-te-verwaarlozen-betekenis.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: regel 52 bevat een duplicate TOC als aaneengesloten plain-text-blob ('CBN-advies 2010/1 De interpretatie...BesluitGevolgen van de vrijstelling') — exact dezelfde inhoud als de genummerde lijst hierboven (regels 47-49). Dit is een extractie-artefact waarbij de TOC dubbel is opgenomen.",
+    "concrete_problemen": [
+      {
+        "regel": 52,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": " CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...BesluitGevolgen van de vrijstelling "
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (##) correct en consistent",
+      "12 voetnoten aanwezig en volledig gedefinieerd",
+      "Inhoud volledig: vier secties (KB W.Venn., parlementaire voorbereiding, CBN 2010/1, besluit + gevolgen) intact"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: regel 102 bevat een duplicate TOC als lange aaneengesloten plain-text-blob ('---- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen...Goodwill-- Inleiding en begrippen -- Afschrijvingen op goodwill') die de volledige TOC herhaalt als extractie-artefact. D4: regel 246 heeft '[^13][^14][^15][^16]' als vier aaneengeplakte footnote-markers zonder tussenliggende tekst — dit zijn inline footnote-markers die normaal verspreid zouden staan.",
+    "concrete_problemen": [
+      {
+        "regel": 102,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "---- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen en waardeverminderingen..."
+      },
+      {
+        "regel": 246,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": " [^13][^14][^15][^16]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (##, ###, ####, #####) correct en consistent",
+      "Alle boekingen in correcte markdown pipe-tabellen",
+      "17 voetnoten aanwezig en volledig gedefinieerd",
+      "Vier grote secties (activering, O&O, concessies/octrooien, goodwill) inhoudelijk compleet"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2012-15-bestellingen-in-uitvoering.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2/C3: regels 143-161 bevatten een vergelijkingstabel (percentage of completion vs completed contract) met multiline celinhoud die niet correct in markdown-pipe-syntax past — cellen lopen over meerdere regels met lege regels ertussen. Regel 464: boeking heeft beide regels als debet zonder 'aan'-prefix voor de credit-zijde. Inhoud overigens uitzonderlijk volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 143,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| | | *Percentage of completion methode* | | *Completed contract methode* | \n| Zekerheid van het erkende resultaat | | \n\nDe geanticipeerde winst..."
+      },
+      {
+        "regel": 464,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 40.000 | |\n| | 7170 | Wijzigingen... | 40.000 | |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Meest uitgebreide advies in de batch (41.000 tekens): alle methoden volledig uitgewerkt",
+      "Vijf volledige praktische voorbeelden met correcte boekingen",
+      "13 voetnoten aanwezig en volledig gedefinieerd",
+      "Heading-structuur (##, ###, ####) correct en consistent"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2012-16-de-boekhoudkundige-verwerking-van-wentelkredieten.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen merkbare extractie-artefacten. Eenvoudige maar correcte structuur met twee ## headings. Inhoud volledig: definitie wentelkrediet, voorbeeld, revolving krediet en boekhoudkundige verwerking. Voetnoten aanwezig. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Zuivere markdown zonder extractie-sporen",
+      "3 voetnoten aanwezig en volledig gedefinieerd",
+      "Inhoud coherent en compleet: wentelkrediet, revolving krediet en classificatiecriterium behandeld"
+    ]
+  }
+]

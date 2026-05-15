@@ -1,0 +1,297 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0003-01-tijdstip-waarop-de-aan-of-verkoop-van-een-onroerend-goed-in-de-boekhouding-dient.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Vorige verdict markeerde A4 (U+2010 HYPHEN) in heading en body. Geen van de scraper-fixes adresseert A4, maar U+2010 in CBN-HTML is een bron-karakter (typografisch koppelteken in de originele tekst) — geen ETL-introductie. Per source-uitzondering: dit geldt niet als grond voor needs-rework. Inhoud volledig correct, voetnoot [^1] goed geformatteerd, geen andere artefacten aangetroffen.",
+    "concrete_problemen": [
+      {
+        "regel": 69,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "aan‐ of verkoop — U+2010 typografisch koppelteken uit bron-HTML"
+      },
+      {
+        "regel": 73,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "verkoopscompromis ‐ of — U+2010 uit bron-HTML"
+      },
+      {
+        "regel": 80,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "de ‐ trouwens niet aan bod gekomen ‐ kwestie — U+2010 uit bron-HTML"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en correct — antwoord op de vraag helder gestructureerd",
+      "Voetnoot [^1] correct aangemaakt en geplaatst",
+      "Geen heading-hiërarchie-problemen (korte bron zonder subhoofdingen)",
+      "Geen TOC-residu, form-feed of andere extractie-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0004-01-vermeldingen-in-het-centralisatieboek.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Alle door vorige verdict gemelde tekstfouten (berokken, dee vermelding, wttelijke, centraisatieboek, bewegingn, angegeven) staan letterlijk in de bron-HTML en vallen onder de source-uitzondering. A4 (U+2010 in r87 'ondergaan -gelet') is eveneens een bron-karakter uit de CBN-website. Geen ETL-bugs gevonden buiten deze source-categorieën. Inhoud volledig, voetnoot intact.",
+    "concrete_problemen": [
+      {
+        "regel": 75,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "berokken rekeningen — source-typo voor 'betrokken'"
+      },
+      {
+        "regel": 83,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "dee vermelding betrekking moet hebben ... wttelijke vereisten"
+      },
+      {
+        "regel": 85,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "inschrijving in het centraisatieboek te beperken"
+      },
+      {
+        "regel": 87,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "de bewegingn die elk ervan hebben ondergaan ... angegeven"
+      },
+      {
+        "regel": 87,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "ondergaan -gelet op de moeilijkheid — U+2010 of gewoon koppelteken uit bron-HTML"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Adviesinhoud volledig aanwezig ondanks de verouderd-markering",
+      "Voetnoot [^1] correct geformatteerd",
+      "Geen TOC-residu of heading-hiërarchie-problemen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0004-04-beginsel-van-het-dubbel-boekhouden.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Alle door vorige verdict gemelde problemen zijn source-typos: 'gebruikeljke' (r63), 'rekeningenstelel' (r68), 'ee volledige' (r67) staan in de bron-HTML. De woordduplicatie in [^2] ('van het koninklijk besluit van het koninklijk besluit', r75) is eveneens een fout in de officiële CBN-tekst. Geen ETL-artefacten (A-G) aangetroffen buiten deze source-categorie. Bullet op r65 correct op één regel. Inhoud volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 63,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "gebruikeljke regels op het dubbel boekhouden"
+      },
+      {
+        "regel": 67,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "op ee volledige en correcte wijze werden overgeschreven"
+      },
+      {
+        "regel": 68,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "het koninklijk besluit over de minimumindeling ... rekeningenstelel"
+      },
+      {
+        "regel": 75,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "van het koninklijk besluit van het koninklijk besluit van 30 januari 2001 — dubbele tekst in bron"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Drie genummerde bulletpoints correct op één regel — A6-bug opgelost",
+      "Twee voetnoten [^1] en [^2] correct geplaatst en gesloten",
+      "Geen heading-hiërarchie-problemen of TOC-residu"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0012-01-toepassingsgebied-van-de-uitvoeringsbesluiten-bedoelde-ondernemingen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Enige door vorige verdict gemelde issue: 'oger is dan 25 miljoen frank' (r53, moet 'hoger' zijn) — source-typo letterlijk in bron-HTML. A6-bug (zin gesplitst) is verholpen. Inhoud volledig, voetnoot correct. Geen ETL-bugs aangetroffen.",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "niet oger is dan 25 miljoen frank — source-typo voor 'hoger'"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "A6-bug (regelbreuk na voetnootreferentie) is opgelost in de nieuwe scrape",
+      "Voetnoot [^1] correct aangemaakt met parlementaire vraag-verwijzing",
+      "Inhoud volledig: toepassingsgebiedcriterium correct beschreven"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0012-02-toepassingsgebied-van-de-uitvoeringsbesluiten-boekjaar-waarop-de-criteria-van-toepassing.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Alle door vorige verdict gemelde tekstfouten (inzae, ter uitvering, cjfers, interpretate) zijn source-typos uit de bron-HTML. De twee aparte alinea's voor de verouderd-notitie (r72-74) weerspiegelen de CBN-website-structuur — geen ETL-artefact. A4-status onbevestigd maar geen ETL-wijziging relevant. Inhoud volledig aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 76,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "criteria inzae tewerkgesteld personeel — source-typo voor 'inzake'"
+      },
+      {
+        "regel": 80,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "besluiten die ter uitvering van de wet worden genomen — source-typo"
+      },
+      {
+        "regel": 82,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "cjfers in de loop van het boekjaar ... interpretate — twee source-typos"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig aanwezig inclusief analogie-bepaling voor nieuwe ondernemingen",
+      "Geen heading-hiërarchie-problemen",
+      "Geen TOC-residu of form-feed artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0016-01-toepassing-van-de-wet-op-financiele-instellingen-kredietinstellingen-die-onder-de.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "ETL-bug blijft aanwezig: in de YAML-frontmatter staat een ongeparseerde HTML-entity op r9 ('Het begrip &quot;financiële instelling&quot;') die downstream YAML-parsing kan breken — dit is een ETL-bug, geen source-typo. De typo 'valln' (r67) is een source-typo. De koppelteken in de heading (r61 '- Kredietinstellingen') is vermoedelijk bron-karakter.",
+    "concrete_problemen": [
+      {
+        "regel": 9,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "titel: Het begrip &quot;financiële instelling&quot; — HTML-entity niet gedecode in YAML"
+      },
+      {
+        "regel": 67,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "ondernemingen die onder de toepassing valln van het koninklijk besluit nr. 64"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body-inhoud volledig en helder — antwoord op vraag over kredietinstellingen correct",
+      "Heading op r61 correct aangemaakt",
+      "Verouderd-melding aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Drie ETL-bugs: (1) B4: 'DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW' op r222 is all-caps plain-text die een heading had moeten zijn. (2) E2: de markdown-tabel op r700-744 is zwaar verminkt — multi-line cellen met gesplitste tabelwaarden ('(Som A) + (Som B.b)' verspreid over 3 regels, r720-744) die een mens nooit zo zou typen. (3) C-structuur: r263-269 heeft een genummerde lijst (1. en 2.) waarvan de items over meerdere alinea's gespat zijn in plaats van als doorlopende listpunten. Inhoud verder volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 222,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW — all-caps plain-text, geen heading-prefix"
+      },
+      {
+        "regel": 700,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| *Op het einde\\n\\t\\t\\t\\tvan de maand* | — tabelcel gesplitst over meerdere regels, irregular pipe-syntax"
+      },
+      {
+        "regel": 720,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| Totaal | | Som A | | Som B.a | | Som B.b | | Som C\\n\\t\\t\\t\\t= (Som A) + — cel-inhoud over meerdere regels"
+      },
+      {
+        "regel": 263,
+        "categorie": "C4",
+        "type": "other",
+        "voorbeeld": "1.\\n\\nonafhankelijk van de grootte... — genummerd listpunt gespat over separate alinea's"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "86 headings correct aangemaakt — heading-structuur grotendeels intact",
+      "Vrijwel alle voetnoten [^1]-[^92] correct aangemaakt en geplaatst",
+      "Inhoudelijk zeer uitgebreid en compleet — alle rubrieken en scenario's behandeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0101-01-zakelijke-waarborgen-gesteld-voor-rekening-van-derden.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: twee markdown-tabellen (r66-74) hebben een malformed structuur — subrekeningen (014, 015, 022, 023) staan in rijen met extra lege kolommen ('| | | 014 | | Debiteuren... |') die niet overeenstemmen met de header (3 kolommen: 01/blank/omschrijving). Dit is een pseudo-tabel artefact: een mens zou ofwel een geneste lijst gebruiken ofwel een consistente tabel met passende headers. De ETL heeft de originele hiërarchische rekeningstructuur niet correct vertaald naar markdown.",
+    "concrete_problemen": [
+      {
+        "regel": 66,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| 01 | | Waarborgen gesteld voor rekening van derden | — 3-koloms header"
+      },
+      {
+        "regel": 68,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| | | 014 | | Debiteuren wegens zakelijke zekerheden | — 5 kolommen ipv 3, mismatcht header"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig aanwezig — adviesinhoud over rekeningen 014/015/022/023 compleet",
+      "Drie voetnoten [^1]-[^3] correct geplaatst en gesloten",
+      "Geen TOC-residu, form-feed of OCR-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0102-overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Drie ETL-bugs blijven aanwezig na scraper-fixes: (1) G3/spurious bracket: r111 bevat '] verantwoorden' met losstaand ] midden in geciteerde passage ('te ] verantwoorden»') — verminkt de geciteerde tekst. (2) D3: voetnoot [^14] op r204 bevat dezelfde zin tweemaal aaneengesloten zonder separator. (3) A6/A4: 'niet- monetaire' met spatie na koppelteken op r149, r153 en r208 naast correct 'niet-monetaire' elders — inconsistentie typisch voor extractie-artefact.",
+    "concrete_problemen": [
+      {
+        "regel": 111,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": "te ] verantwoorden»[^8] — spurious ] bracket midden in geciteerde passage"
+      },
+      {
+        "regel": 204,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^14]: Voor een definitie van monetaire en niet-monetaire posten, zie pagina's 5 en 12 van advies 152/1 Voor een definitie... — tekst tweemaal"
+      },
+      {
+        "regel": 149,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "niet- monetaire bestanddelen — spatie na koppelteken (ook r153, r208)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-structuur correct: twee ## en vier #### secties logisch genest",
+      "Uitgebreide voetnoten [^1]-[^20] vrijwel allemaal correct geformatteerd",
+      "Inhoud volledig — beide omrekeningmethodes (slotkoers en monetair/niet-monetair) behandeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0103-gefactureerde-nog-niet-ontvangen-voorschotten-en-vooruitbetalingen-rekening-46.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: de markdown-tabel op r58-61 heeft een lege eerste kolom ('| |') op elke rij zonder corresponderende header-label — een inconsistente tabelstructuur die een mens nooit zo zou typen. De header heeft 5 kolommen maar de eerste is leeg; de sub-rijen (460, 461) herhalen dat lege veld. ETL heeft de originele rekeningnummering niet correct in pipe-markdown vertaald.",
+    "concrete_problemen": [
+      {
+        "regel": 58,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| | Rekening | Omschrijving | Debet | Credit | — lege eerste kolom zonder header-label"
+      },
+      {
+        "regel": 60,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| | 460 | Te ontvangen | | | — lege eerste kolom herhaald op elke datarij"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en correct — advies over rekening 46 (ontvangen vs. gefactureerd) helder",
+      "Geen heading-hiërarchie-problemen (korte bron)",
+      "Geen TOC-residu, form-feed of OCR-artefacten"
+    ]
+  }
+]

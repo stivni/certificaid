@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-2021-04-aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0.md
+resources/bronnen/adviezen/CBN-2021-05-boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19.md
+resources/bronnen/adviezen/CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1.md
+resources/bronnen/adviezen/CBN-2021-08-verplichting-voor-bepaalde-vzws-ivzws-en-stichtingen-om-een-jaarverslag-op-te-stellen.md
+resources/bronnen/adviezen/CBN-2021-09-rekening-26-overige-materiele-vaste-activa.md
+resources/bronnen/adviezen/CBN-2021-11-boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge.md
+resources/bronnen/adviezen/CBN-2021-12-boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve.md
+resources/bronnen/adviezen/CBN-2021-13-herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door.md
+resources/bronnen/adviezen/CBN-2021-15-verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen.md
+resources/bronnen/adviezen/CBN-2021-16-waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel.md

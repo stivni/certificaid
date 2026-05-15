@@ -1,0 +1,203 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0107-05-devaluatie-van-de-belgische-frank.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Prior layer2 verdict (needs-rework, D4) is onjuist: de [^1]-marker op regel 54 staat inline in de zin ('artikel 77 W. Venn.[^1] waardoor...') op dezelfde regel — geen gebroken newline in de body. De voetnoot heeft een correcte definitie op regel 56. Body is volledig, geen headings verwacht voor een korte advies-nota, geen andere artefacten aangetroffen.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Footnote [^1] correct inline in de zin op regel 54 met definitie op regel 56",
+      "Drie alinea's volledig en logisch opgebouwd, inhoud compleet",
+      "Geen PDF-artefacten, geen onzichtbare unicode, geen gebroken zinnen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0107-08-boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "G2/frontmatter: HTML-entity '&#039;' in themas-veld (regel 49: 'voorzieningen voor risico&#039;s en kosten') is een ETL-artefact. De eerder gerapporteerde D4-claim (gebroken footnote op regel 54) is onjuist — 'deviezen[^1] zijn de hypotheses...' staat inline op dezelfde regel, geen newline ertussen. Enkel de frontmatter-entiteit vereist rework.",
+    "concrete_problemen": [
+      {
+        "regel": 49,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "voorzieningen voor risico&#039;s en kosten"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig en inhoudelijk correct; drie uitzonderingen duidelijk uitgelegd",
+      "Vier voetnoten allen correct inline met definitie",
+      "Geen PDF-extractie-artefacten in body"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0107-09-vaststelling-van-het-bedrag-van-een-voorziening-voor-pensioenen-of-brugpensioenen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Prior layer2 verdict (needs-rework, D4) is onjuist: '1987[^1] tot wijziging van het jaarrekeningbesluit...' staat volledig inline op regel 70 — geen gebroken newline. Voetnoot [^1] heeft definitie op regel 76. Body is volledig, geen artefacten aangetroffen.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Footnote [^1] correct inline op regel 70 met definitie op regel 76",
+      "Inhoud volledig: pensioenvoorzieningen, brugpensioen, actualisatie correct behandeld",
+      "Gerelateerde adviezen correct in frontmatter opgenomen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0107-11-opbrengsten-waarover-betwisting-bestaat-update.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Drie problemen: (1) B3/heading: regel 61 bevat een [^1]-marker direct in de H1-heading zelf ('# Advies van september 1989, bijgewerkt op 10 september 2025[^1]') — een mens typt nooit een footnote-referentie in een # heading. (2) G2/frontmatter: HTML-entity '&#039;' in themas op regel 53. (3) De H1-heading vermijdt het adviesnummer CBN-advies 107/11 volledig, wat de identificeerbaarheid schaadt. De eerder gerapporteerde 'duplicate headings op regels 49 en 51' zijn onjuist — dat waren frontmatter-regels; de body heeft slechts één heading.",
+    "concrete_problemen": [
+      {
+        "regel": 61,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# Advies van september 1989, bijgewerkt op 10 september 2025[^1]"
+      },
+      {
+        "regel": 53,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "voorzieningen voor risico&#039;s en kosten"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body inhoudelijk volledig en up-to-date (update 2025 meegenomen)",
+      "Voetnoot [^1] heeft definitie op regel 77",
+      "Geen PDF-extractie-artefacten, geen gebroken zinnen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0107-12-pensioenvoorzieningen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A5: de H1-heading op regel 51 gebruikt U+2013 EN-DASH (–) als scheidingsteken ('CBN-advies 107/12 – Pensioenvoorzieningen') in plaats van een gewone ASCII-hyphen zoals alle andere adviezen. Inconsistentie in heading-formaat kan heading-matching en retrieval beïnvloeden. Verder zijn geen artefacten aangetroffen.",
+    "concrete_problemen": [
+      {
+        "regel": 51,
+        "categorie": "A5",
+        "type": "other",
+        "voorbeeld": "# CBN-advies 107/12 – Pensioenvoorzieningen (U+2013 EN-DASH)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig: historische context, interpretatie directieleden correct uitgelegd",
+      "Voetnoot [^1] correct inline met definitie op regel 63",
+      "Geen andere PDF-artefacten of structuurproblemen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0108-02-aanvragen-tot-afwijking-overzicht.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: heading-hiërarchie springt direct van # (regel 63) naar #### (regels 69, 91, 126) zonder tussenliggende ## en ### niveaus. Een mens-geschreven markdown gebruikt #### nooit als eerste sub-niveau na #. Inhoud is verder volledig en goed leesbaar.",
+    "concrete_problemen": [
+      {
+        "regel": 69,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### AANVRAGEN TOT AFWIJKING DIE EEN AANPASSING BEOGEN VAN HET SCHEMA..."
+      },
+      {
+        "regel": 91,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### EIGENLIJKE AFWIJKINGEN VAN HET K.B. VAN 8 OKTOBER 1976"
+      },
+      {
+        "regel": 126,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### PROCEDURE"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en gedetailleerd: alle 168 aanvragen behandeld",
+      "Twee voetnoten correct inline met definitie",
+      "Lijsten correct opgemaakt met -bullets",
+      "Geen OCR-artefacten of gebroken zinnen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0110-02-stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: twee lege headings '## ' zonder tekst op regels 62 en 86 — een mens schrijft nooit een lege heading; dit zijn extractie-artefacten waarbij de sectietitels verloren zijn gegaan. D4: '*sexto *' (spatie voor sluitende asterisk, regel 64 en andere) is technisch gesloten maar inconsistent met markdown-conventie en kan rendering-problemen geven.",
+    "concrete_problemen": [
+      {
+        "regel": 62,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "## "
+      },
+      {
+        "regel": 86,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "## "
+      },
+      {
+        "regel": 64,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*sexto *van het tweede lid"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud van beide secties volledig aanwezig",
+      "Drie voetnoten correct met definitie",
+      "Genummerde lijsten correct opgemaakt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0112-08-waarderingsregels.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Twee problemen: (1) A6: spurious paragrafbreuk midden in een zin op regels 73-75 — 'om op een bondige wijze de uitwerking van het degressieve systeem toe te lichten, om duidelijk het [lege regel] onderscheid te laten blijken' is één zin gesplitst over een blanco regel; een mens schrijft dit nooit zo. (2) E2: de tabel op regels 79-85 heeft geen header-separator rij (|---|...|) na de header; dit is geen geldige markdown-tabel.",
+    "concrete_problemen": [
+      {
+        "regel": 73,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "...uitwerking van het degressieve systeem toe te lichten, om duidelijk het [blanco regel] onderscheid..."
+      },
+      {
+        "regel": 79,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | | **Lineair afschrijvingspercentage...** | (geen |---|---| separator rij)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud compleet: waarderingsregels en degressieve afschrijving correct behandeld",
+      "Geen OCR-artefacten of gebroken voetnoten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0112-progressieve-afschrijvingsmethode.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Prior layer2 verdict (needs-rework, B3 duplicate headings op L57 en L59) is onjuist: die regelnummers vallen in de frontmatter. De body heeft slechts één H1-heading op regel 65. De heading-tekst 'CBN advies 112/5' mist een koppelteken na 'CBN' vergeleken met de conventie, maar dit is cosmetisch. Geen ETL-artefacten in de body aangetroffen.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Body volledig: progressieve afschrijving, actuariële redenering en vergelijking met lineair volledig behandeld",
+      "Geen PDF-extractie-artefacten, geen gebroken zinnen, geen onzichtbare unicode",
+      "Gerelateerde adviezen correct in frontmatter opgenomen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0114-01-verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D3: voetnoten [^5] (regel 98) en [^6] (regel 100) bevatten identieke definitie 'Rubrieken 7301 tot 7312.' — één ervan is inhoudelijk onjuist (in het bronadvies verwijst [^5] naar schulden en [^6] naar financiële opbrengsten). Dit is een extractiefout die de inhoud aantast en foutieve verwijzingen geeft aan de lezer.",
+    "concrete_problemen": [
+      {
+        "regel": 98,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^5]: Rubrieken 7301 tot 7312. — identiek aan [^6] op regel 100"
+      },
+      {
+        "regel": 100,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^6]: Rubrieken 7301 tot 7312. — duplicaat van [^5], inhoudelijk onjuist"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig aanwezig: vraagstelling, twee tegengestelde interpretaties en aanbeveling van de Commissie",
+      "Vijf andere voetnoten correct met definitie",
+      "Geen PDF-artefacten of gebroken zinnen in body"
+    ]
+  }
+]

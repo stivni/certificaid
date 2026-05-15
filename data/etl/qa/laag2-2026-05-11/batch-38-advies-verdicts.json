@@ -1,0 +1,178 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2013-09-de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Laag 1 meldt heading_count=0 en file_size_chars=1298: het advies is inhoudelijk een enkelvoudige paragraaf zonder secties, wat overeenkomt met het originele CBN-advies (één antwoord, geen onderverdelingen). Geen extractie-artefacten, geen broken formatting, footnotes ontbreken terecht. Volledig en afgerond.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en coherent in één vloeiende paragraaf conform het originele advies",
+      "Frontmatter correct en volledig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2013-11-begrip-omzet-doorrekening-van-belastingen-en-accijnzen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "3 duidelijke H2-secties, alle footnotes correct gemarkeerd en gedefinieerd ([^1]–[^3]). Geen extractie-artefacten. Tekst leest als mens-geschreven markdown.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie logisch (H1 + 3×H2)",
+      "Footnotes volledig gedefinieerd met inhoudelijke verwijzingen",
+      "Afsluitingszin 'Dit advies vervangt het advies 101.' correct als bold gemarkeerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2013-12-erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18] aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Volledige heading-hiërarchie tot H3 aanwezig",
+      "Alle 18 footnotes correct gemarkeerd en gedefinieerd",
+      "Cursieve rekeningnamen (*Verkregen opbrengsten*, *Toe te rekenen kosten*) consistent doorheen de tekst"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2013-14-de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2/B3: twee opeenvolgende H1-headings op regels 57–58 ('# CBN-advies 2013/14 – ...' en '# Technische nota bij') — een H1 mag slechts één keer voorkomen. De tweede H1 had een H2 moeten zijn. Verder is de tekst van de technische nota inhoudelijk compleet en zonder verdere artefacten.",
+    "concrete_problemen": [
+      {
+        "regel": 58,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "# Technische nota bij"
+      },
+      {
+        "regel": 60,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Inleiding (direct na tweede H1, heading-hiërarchie inconsistent met document)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud technische nota volledig en coherent",
+      "Heading-hiërarchie binnen de nota zelf correct (H2 → H3 → H4)",
+      "Geen extractie-artefacten in de lopende tekst"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2013-14-de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3/A7: regels 58–87 bevatten een genummerde TOC-lijst gevolgd door een scrambled-text versie van dezelfde TOC als aaneengeregen string ('-- Gegevens-- Boekingschema----...'). Dit is een duidelijk extractie-artefact: de inhoudsopgave van het originele PDF is tweemaal in de body terechtgekomen, waarvan één keer als onleesbare aaneengesloten string. Verder is het advies inhoudelijk volledig met correcte tabellen en footnotes.",
+    "concrete_problemen": [
+      {
+        "regel": 58,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Inleiding \\n2. Boekhoudkundige verwerking...\\n3. Voorbeeld (TOC-fragment in body)"
+      },
+      {
+        "regel": 86,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "-- Gegevens-- Boekingschema---- Jaar 20X1------ Meerwaarde op materieel vast actief..."
+      },
+      {
+        "regel": 87,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "---- Jaar 20X2------ Balans op 31 december 20X2-------- In geval van een meerwaarde..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle boekhoudkundige tabellen correct in pipe-syntax",
+      "Heading-hiërarchie tot H6 aanwezig en logisch",
+      "Footnotes [^1]–[^18] volledig gedefinieerd",
+      "Rekenkundige voorbeelden inhoudelijk volledig en coherent"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2013-17-de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: meerdere malformed italic-markers met spatie vóór sluit-asterisk op regels 93, 126 en 89 ('489X *Ontvangen voorschotten op kapitaal *', '*Boeking bij de betaalbaarstelling[^8] *'). Dit is het bekende '*term *'-patroon. De inhoud is volledig en de tabellen zijn correct.",
+    "concrete_problemen": [
+      {
+        "regel": 93,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "489X *Ontvangen voorschotten op kapitaal *plaatsvinden."
+      },
+      {
+        "regel": 126,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Boeking bij de betaalbaarstelling[^8] *"
+      },
+      {
+        "regel": 89,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "489X O*ntvangen voorschotten op kapitaal* (open-asterisk zonder spatie voor 'n')"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: 3 voorbeelden met alle boekingen correct uitgewerkt",
+      "Heading-hiërarchie logisch (H1 → H2 → H3 → H4)",
+      "Alle boekhoudkundige tabellen in pipe-syntax",
+      "Footnotes correct gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2014-03-de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Regel 57: ', bijgewerkt op 25 juni 2025[^2]' staat als losse tekstregel direct na de H1-titel, zonder heading of verklarende context. Dit is een extractie-artefact van een updatevermelding die door de scraper als body-tekst werd opgenomen. Hoort verwerkt te worden in de frontmatter of als cursieve subkop. Verder is het advies inhoudelijk volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 57,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": ", bijgewerkt op 25 juni 2025[^2]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle consolidatietabellen correct in pipe-syntax met correcte kolommen",
+      "Inhoudelijk volledig uitgewerkt voorbeeld met 3 periodes",
+      "Footnotes [^1]–[^3] correct gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2014-05-afsluitingsdatum-van-het-boekjaar.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "2 H2-secties, geen extractie-artefacten, footnotes correct, tekst leest als mens-geschreven markdown. Kort en inhoudelijk volledig advies.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Bulleted lijst met voorwaarden correct opgemaakt met '-'",
+      "Footnotes [^1]–[^2] correct gedefinieerd",
+      "Geen extractiesporen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Regel 48: 'op 1 januari 2014' staat als losstaande tekstregel direct na de H1-titel — dit is een fragment van de volledige originele titel dat door de scraper gesplitst werd en als body-tekst terechtkwam. Hoort ofwel onderdeel te zijn van de H1-heading ofwel verwijderd te worden. Verdere inhoud is volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 48,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "op 1 januari 2014"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "5 heading-secties met logische hiërarchie",
+      "Inhoud volledig: emittent- en rechthebbende-perspectief beide behandeld",
+      "Footnotes [^1]–[^9] correct gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2014-07-de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd, tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte verwijzingen naar andere CBN-adviezen.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Inhoudelijk volledige analyse met verwijzingen naar CBN-advies 2012/17, 2011/13 en 2013/12",
+      "Footnotes [^1]–[^5] correct gedefinieerd",
+      "Geen extractiesporen"
+    ]
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0117-03-voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: heading-hiërarchie springt van H1 (regel 76) direct naar H4 (regels 94, 99, 128) — H2 en H3 ontbreken volledig. A6: regels 97 en 118 beginnen met een leading space (' Bij de opstelling...' en ' Tenzij de transacties...') — spurious line-break artefacten, typisch PDF-extractie. Voetnoten en italics zijn correct gesloten na scraper-fix.",
+    "concrete_problemen": [
+      {
+        "regel": 94,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### Definitie van de functionele valuta — H4 direct onder H1, H2/H3 ontbreken"
+      },
+      {
+        "regel": 97,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": " Bij de opstelling van de jaarrekening bepaalt iedere entiteit"
+      },
+      {
+        "regel": 118,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": " Tenzij de transacties steevast in een andere munt dan de euro"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Voetnoten 1-14 volledig aanwezig en correct gelinkt",
+      "Inhoud inhoudelijk volledig — alle drie secties herkenbaar",
+      "Italics correct gesloten na scraper-fix"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0120-02-in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1: frontmatter-regel 6 bevat ongedecodeëerd HTML-entity '&quot;' in gerelateerde_adviezen titel ('Het begrip &quot;financiële instelling&quot;') — ETL-bug, niet een source-typo. Body (1 paragraaf) is inhoudelijk schoon en compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 6,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "titel: Het begrip &quot;financiële instelling&quot;"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig schoon — één alinea, geen artefacten",
+      "Italic '*Thesauriebeleggingen*' en '*Beschikbare waarden*' correct gesloten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0120-03-waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1: frontmatter-regel 15 bevat ongedecodeëerd HTML-entity '&quot;' in gerelateerde_adviezen titel ('Het begrip &quot;financiële instelling&quot;') — ETL-bug. Body (vier paragrafen, 2839 chars) is volledig schoon en inhoudelijk compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 15,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "    titel: Het begrip &quot;financiële instelling&quot;"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig schoon — vier alinea's, geen artefacten",
+      "Italic '*pro rata temporis*' correct gesloten",
+      "Inhoud inhoudelijk compleet"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0120-04-overheidsfondsen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen ETL-artefacten aangetroffen. Heading-hiërarchie is H1 → H3 (twee secties I en II) — passend voor dit advies zonder tussenliggende niveaus in het brondocument. Genummerde lijst correct (1. 2. 3.). Italics consequent correct gesloten voor rubrieknamen. Content compleet: beide secties (ondernemingen met/zonder besluit 8 okt 1976) volledig aanwezig.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie H1 → H3 consistent met documentstructuur",
+      "Alle italics correct gesloten voor rubrieknamen (bv. '*Geldbeleggingen*', '*Thesauriebeleggingen*')",
+      "Inhoud inhoudelijk compleet — beide secties aanwezig",
+      "Geen form-feeds, geen dotted leaders, geen OCR-fouten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6: regel 138 bevat 'de doctrine is verdeeld' (lowercase 'd' na punt, nieuwe zin zonder hoofdletter op zelfde regel); regel 140 heeft '. enerzijds kan' (lowercase 'e' na punt). A6: regel 156 'in de resultaat verwerking' — samengesteld woord 'resultaatverwerking' gesplitst. Heading-hiërarchie (H1→H2→H3) is correct na scraper-fix.",
+    "concrete_problemen": [
+      {
+        "regel": 138,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "meer. de doctrine is verdeeld — lowercase 'd' na punt op zelfde regel"
+      },
+      {
+        "regel": 140,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "dient te gebeuren. enerzijds kan — lowercase 'e' na punt"
+      },
+      {
+        "regel": 156,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "in de resultaat verwerking slechts — samengesteld woord gesplitst"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie H1→H2→H3 correct na scraper-fix",
+      "Voetnoten 1-8 correct aanwezig en gelinkt",
+      "Inhoud inhoudelijk compleet — alle secties aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-05-vervaardigingsprijs.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D1: bestand eindigt abrupt mid-zin op regel 55 ('zou de vervaardigingsprijs trouwens') zonder afronding — duidelijke afkapfout in de extractie. Geen voetnoten, geen slotconclusie. Body is inhoudelijk onvolledig.",
+    "concrete_problemen": [
+      {
+        "regel": 55,
+        "categorie": "D1",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "De methode moet ... zou de vervaardigingsprijs trouwens"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Beschikbare tekst (tot afkap) is schoon zonder artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-07-waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: tabelrijen 'Theoretische eindinventaris' (regels 92-93) en 'Fysieke eindinventaris' (regels 96-97) zijn gesplitst over twee regels met tab-inspringing — breekt de pipe-table. C3: regels 85, 88, 91 bevatten '--------- | -------------' als gewone tabelcellen (ASCII-art scheidingsrijen), geen correcte markdown-tabelseparatoren.",
+    "concrete_problemen": [
+      {
+        "regel": 85,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "| | --------- | ------------- | | |"
+      },
+      {
+        "regel": 92,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | Theoretische eindinventaris\n\t\t\t(tegen detailprijs) | 22.000 | | |"
+      },
+      {
+        "regel": 96,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | Fysieke eindinventaris\n\t\t\t(tegen detailprijs) | 20.000 | | |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body-tekst buiten de tabel volledig schoon",
+      "Twee secties ('Winkelvoorraden', 'Centraal opgeslagen voorraden') correct als H2 headings"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-12-boeking-van-uitzettingsvergoedingen-betaald-door-de-eigenaar-en-van-de-kost-van-werken-ten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: heading-hiërarchie springt van H1 (titel) direct naar H4 (regel 58) en H5 (regel 60), H2 en H3 ontbreken volledig. B3: titel op regel 45 bevat 'verkoper1' — voetnootcijfer '1' is samengesmolten met de titel-tekst (ETL-bug, geen markdown superscript). Tabellen zijn correct als pipe-tables. Body inhoudelijk compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 45,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# CBN-advies 126/12 - Boeking van ... de kost van werken ten laste van de verkoper1"
+      },
+      {
+        "regel": 58,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### DE BETALING VAN EEN UITZETTINGSVERGOEDING — H4 direct onder H1, H2/H3 ontbreken"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Pipe-tabellen correct opgemaakt (vijf tabellen met correcte headers)",
+      "Voetnoten 1-7 correct aanwezig en gelinkt",
+      "Inhoud inhoudelijk compleet — alle gevallen uitgewerkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-13-boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A5: regel 87 bevat '«VVPR-strips' zonder sluitend '»' (open guillemet). B1: heading op regel 113 bevat typo 'VVPS-strip' i.p.v. 'VVPR-strip' — vermoedelijk OCR/HTML-artefact (A9). Verder is het document inhoudelijk omvangrijk en compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 87,
+        "categorie": "A5",
+        "type": "other",
+        "voorbeeld": "#### Beschrijving van het mechanisme van de «VVPR-strips"
+      },
+      {
+        "regel": 113,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "#### Juridisch statuut van de \"VVPS-strip\" (typo: VVPS i.p.v. VVPR)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Document inhoudelijk volledig en omvangrijk (20985 chars)",
+      "Heading-hiërarchie H1→H4→H5→H6 consistent door het hele document",
+      "Voetnoten 1-11 correct aanwezig en gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0127-02-waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1: frontmatter-regel 59 bevat ongedecodeëerd HTML-entity '&#039;' (apostrof) in themas-lijst ('voorzieningen voor risico&#039;s en kosten') — ETL-bug die metadata voor retrieval corrumpeert. Body (2723 chars) is volledig schoon en inhoudelijk compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 59,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "- voorzieningen voor risico&#039;s en kosten"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig schoon — vier alinea's, geen artefacten",
+      "Inhoud inhoudelijk compleet"
+    ]
+  }
+]

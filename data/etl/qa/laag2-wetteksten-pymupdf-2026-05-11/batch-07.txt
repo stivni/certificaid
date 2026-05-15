@@ -1,0 +1,6 @@
+resources/bronnen/wetteksten/WBTW-KB1-voldoening.md
+resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md
+resources/bronnen/wetteksten/WBTW-KB11-verleggen-maatstaf.md
+resources/bronnen/wetteksten/WBTW-KB13-tabaksfabricaten.md
+resources/bronnen/wetteksten/WBTW-KB14-vervreemdingen-gebouwen.md
+resources/bronnen/wetteksten/WBTW-KB15-schatting-onroerende.md

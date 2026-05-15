@@ -1,0 +1,383 @@
+{
+  "run_id": "trust-rework-2",
+  "blocked": [
+    {
+      "bron": "Almanak-BTW-2026.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "Almanak-VenB-2026.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "BTW-richtlijn-2006-112.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "Belastingalmanak-2026.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-0132-07-boeking-en-waardering-van-voorraden.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-0172-01-opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-0173-01-overschakeling-op-de-euro-boekhoudrechtelijke-aspecten.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-0178-01-advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2009-09-boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2009-14-boekhoudkundige-verwerking-van-groenestroom-en-warmtekrachtcertificaten.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2011-10-de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2011-11-de-boekhoudkundige-verwerking-van-grensoverschrijdende-partiele-splitsingen.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2011-14-herwaarderingsmeerwaarden.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2011-23-de-boekhoudkundige-verwerking-van-factoringovereenkomsten.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2012-06-de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2015-04-leasing.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2015-07-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2018-25-voorzieningen.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2020-10-schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2020-12-correctie-van-de-jaarrekening-0.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2021-02-winstverdeling-binnen-de-nv.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2021-10-boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2022-11-vermogensmutatiemethode.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2022-12-boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2022-13-boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "CBN-2024-09-verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "Cijfers-Tarieven-2026.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "Decr-Waals-Directe-Belastingen.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "EU-AVG-Verordening-2016-679.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "ITAA-deontologie-beroepsgeheim.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "ITAA-norm-kmo-controlenorm.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "ITAA-norm-omzetting-vennootschap.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "KB-21-10-2018.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "KB-WVV-2019.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "Oud-BW.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "Registratierechten-Brussel.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "Registratierechten-Waals.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "Registratierechten-federaal.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "Richtlijn-2013-34-EU.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "Successierechten-Brussel.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "Successierechten-Waals.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "VCF.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "WBTW.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "WDRT.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "WER-Boek-VIII-normalisatie.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "WER.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    },
+    {
+      "bron": "Wet-verzekeringen-2014.md",
+      "reden": "content-verdict ontbreekt en niet auto-vervangbaar",
+      "qa": "warn",
+      "diff": null,
+      "content": null
+    }
+  ]
+}

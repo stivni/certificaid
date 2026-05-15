@@ -1,0 +1,208 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A8: doorheen het volledige bestand staat kolom-bleed: elke artikeltekst bevat twee kolommen (NL links, FR rechts) die op dezelfde regel gemengd zijn — bv. regel 71: 'KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie- (A hypotheek-...' of regel 81: 'Registratie is een formaliteit bestaande in het afschrijven... L'e vermelden van een akte...'. Dit is een systematisch A8-kolom-bleed-artefact door tweetalig PDF-extract. B4: regel 67 '## EN GRIFFIERECHTEN' is een losstaand heading-fragment (titelrest). F1: de `bron_rol`-veld ontbreekt in de frontmatter (wel `bron` aanwezig, maar `bron_rol` is leeg).",
+    "concrete_problemen": [
+      {
+        "regel": 67,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "## EN GRIFFIERECHTEN"
+      },
+      {
+        "regel": 71,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie-              (A hypotheek-"
+      },
+      {
+        "regel": 81,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "Registratie is een formaliteit bestaande in het afschrijven...        L'e vermelden van een akte"
+      },
+      {
+        "regel": 171,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "Wordt, voor de toepassing van dit wetboek, met een aan een                        Pour l'application du présent code, es"
+      },
+      {
+        "regel": 240,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "De exequaturs der scheidsrechterlijke uitspraken en die der                            Les exequatur des sentences arbit"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Hoofdstructuur (TITEL I/II/III, HOOFDSTUK I-IV, afdelingen) is correct als markdown-headings opgebouwd",
+      "Artikelnummering volledig en doorlopend (Art. 1 t/m Art. 322)",
+      "Wet eindigt correct met inwerkingtreding Art. 322"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Reeds beoordeeld in vorige Laag-2 run (status: needs-rework). Kernproblemen bevestigd in huidige read: A1: 112 EUR-Lex pagina-headers '02013L0034 — NL — 28.05.2024 — 006.001 — N' verspreid door de body (elke ca. 35-40 regels, bv. regels 117, 185, 218, 266, 289, 311, 341, 370, 401, 421, 443, 472, 498). G2: EUR-Lex wijzigingsmarkers (▼B, ▼M3, ▼M4, ▼M6, ►B, ►M) als losse regels doorheen de tekst. A7: Art. 7-heading gesplitst over meerdere regels ('Alternatieve / waarderingsgrondslag voor vaste / geherwaardeerde bedragen / activa / tegen').",
+    "concrete_problemen": [
+      {
+        "regel": 117,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "02013L0034 — NL — 28.05.2024 — 006.001 — 1"
+      },
+      {
+        "regel": 120,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "►B"
+      },
+      {
+        "regel": 186,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "▼B"
+      },
+      {
+        "regel": 209,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "▼M3"
+      },
+      {
+        "regel": 453,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "### Art. 7\nAlternatieve\n\nwaarderingsgrondslag voor vaste\n\ngeherwaardeerde bedragen\n\nactiva\n\ntegen"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Kerncorpus Art. 1-49 inhoudelijk intact en leesbaar",
+      "Definities-blok (Art. 2) compleet met alle 20 definities"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Strafwetboek-1867.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Laag-1 meldt geen flags (status: pass). Body is inhoudelijk volledig: Boek 1 (Art. 1-100ter) en Boek 2 (Art. 101-566) aanwezig, correct als ###### Art. N headings, met wetgevingshistoriek in <W ...>-noten per artikel. Geen kolom-bleed, geen OCR-verwarringen, geen form-feed resten. Wijzigingsnotities zoals <W 2003-01-23/42, art. 89> zijn consistent en opzettelijk onderdeel van de Fisconet-coördinatie. Art. 7bis, 30bis, 34bis, 34quinquies, 37bis, 41bis, 50bis, 100ter en andere lege headings (enkel het Art.-nummer, geen body) zijn conformEen een kenmerk van de wetsbron zelf waar de artikelinhoud volledig opgeheven is — dit is source-eigenaardigheid, geen ETL-bug.",
+    "concrete_problemen": [
+      {
+        "regel": 103,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "###### Art. 7bis (heading zonder body — opgeheven artikel, source-conform)",
+        "extra": "source-typo"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Volledige 2-boekige structuur aanwezig, alle Titels en Hoofdstukken als markdown-headings",
+      "Geen kolom-bleed of tweetalige vermenging",
+      "Wetgevingswijzigingen consistent opgenomen als <W ...>-noten, niet als rommel",
+      "Bestand loopt correct door tot Art. 566 (laatste artikel)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Strafwetboek2024-boek1.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Laag-1 meldt geen flags (status: pass, 140 headings, max_section_chars 5220). Body bevat de volledige wettekst van de Wet van 29.02.2024 tot invoering van Boek I: Hoofdstukken 1-5, Boek I Art. 1-78 (materieel strafrecht), Wijzigingsbepalingen (Afdeling 1-7), Opheffingsbepalingen en Overgangsbepalingen. Geen kolom-bleed, geen form-feed, geen OCR-artefacten. Art. 32-33 heading zonder body (Strafwetboek2024-specifieke structuur) is source-conform — ze bevatten '(…)' opheving in het brondocument. De amendment-markers [1 ... ]1 zijn consistent open-en-dicht. Enige opmerking: Art. 85 begintekst op regel 285 bevat een 'Boek I. -' heading met lege body — dit is een extractie-eigenaardigheid van Fisconet waarbij de boektitel als afzonderlijk artikel genummerd staat.",
+    "concrete_problemen": [
+      {
+        "regel": 85,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "## Boek I. - (heading zonder verdere titel, lege body)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Volledig Boek I-corpus aanwezig (Art. 1-78 plus inleidende wet-artikelen)",
+      "Geen tweetalige vermenging of kolom-bleed",
+      "Heading-hiërarchie klopt: ## Boek, ### Hoofdstuk, #### Afdeling, ##### Art.",
+      "Bestand eindigt correct met Art. 38 (inwerkingtredingsbepaling)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Strafwetboek2024-boek2.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B5/B4: de eerste ~500 regels (offset 0-500) bevatten uitsluitend inhoudsopgave-headings zonder body-tekst: '#### Afdeling 1. Doden met het oogmerk om te doden', '#### Afdeling 2. Doden door een ernstig gebrek', etc. — tientallen afdelingen en onderafdelingen zonder enig artikel of inhoud. Pas na regel 500 begint de echte wettekst met Art. 79 (Algemene definities). Dit patroon is een extractie-artefact: de TOC is meegetrokken als heading-structuur, zonder de bijbehorende inhoud per sectie-niveau (B3/A3). Verder: regel 52 'Titel' als plain-text (B4), regel 514 '###### Art. 2.De' (heading met punt-concatenatie, B1). De rest van het corpus vanaf Art. 79 is inhoudelijk compleet en leesbaar.",
+    "concrete_problemen": [
+      {
+        "regel": 52,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Titel"
+      },
+      {
+        "regel": 74,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "#### Afdeling 1. Doden met het oogmerk om te doden (geen inhoud na heading)"
+      },
+      {
+        "regel": 514,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "###### Art. 2.De"
+      },
+      {
+        "regel": 62,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "Voorafgaande titel. Gemeenschappelijke bepalingen (plain-text, geen heading)"
+      },
+      {
+        "regel": 75,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "Reeks van 50+ lege sectie-headings zonder body (inhoudsopgave-fragment)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Corpus vanaf Art. 79 (Voorafgaande titel) tot Art. 119 (inwerkingtreding) inhoudelijk volledig",
+      "Alle Titels 1-8 aanwezig met volledige artikelteksten",
+      "Heading-hiërarchie in het materiële corpus correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Successierechten-Brussel.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Reeds beoordeeld in vorige Laag-2 run (status: needs-rework). Kernproblemen bevestigd: A3: body opent met 3× herhaalde 'WETBOEK DER SUCCESSIERECHTEN'-titel (regels 103, 107, 111). A2: Laag-1 meldt 24 dotted-leader-regels (bv. '....................................................... 69'). B3: dubbele Art. 17-blokken (regel 326 en 338) zonder discriminator-heading voor toekomstig vs. huidig recht. Idem Art. 20 (regels 374 en 388) en Art. 25 (regels 483 en 491). G2: Laag-1 bevestigde asterisk-separatoren op r.131-132.",
+    "concrete_problemen": [
+      {
+        "regel": 103,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "## WETBOEK DER SUCCESSIERECHTEN (3× herhaald op r.103, 107, 111)"
+      },
+      {
+        "regel": 326,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "##### Art. 17 (r.326 toekomstig recht) en ##### Art. 17 (r.338 huidig recht) — geen discriminator"
+      },
+      {
+        "regel": 374,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "##### Art. 20 (r.374 toekomstig recht) en ##### Art. 20 (r.388 huidig recht) — geen discriminator"
+      },
+      {
+        "regel": 82,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "### HOOFDSTUK XI - Aan derden... ....................................................... 69"
+      },
+      {
+        "regel": 131,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "*                              *\n\n*"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Hoofdtekst (Boek I Art. 1-183+) inhoudelijk volledig aanwezig",
+      "Heading-hiërarchie correct voor de materiële artikelen",
+      "Bestand eindigt correct bij Art. 183 (opheffingsbepalingen)"
+    ]
+  }
+]

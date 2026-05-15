@@ -1,0 +1,209 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0150-01-materiele-vaste-activa-onderscheid-met-voorraden.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: twee gevallen van malformed italic op regel 88 — '*Voorraadwijziging *(bv. 6096)' en '*Voorraadwijziging *ten laste genomen': sluitende asterisk staat direct vóór een spatie in plaats van na het woord, waardoor Markdown de italic niet correct sluit. Verder inhoud compleet en structuur in orde.",
+    "concrete_problemen": [
+      {
+        "regel": 88,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "via rekening 609 *Voorraadwijziging *(bv. 6096)"
+      },
+      {
+        "regel": 88,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "via de rekening *Voorraadwijziging *ten laste genomen"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle vier inhoudelijke secties herkenbaar als ### headings",
+      "Voetnoot [^1] correct gedefinieerd onderaan",
+      "Laag-1 pass klopt: inhoud is volledig en geen structurartefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0150-02-aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Zeer korte bron (1170 tekens) zonder subkoppen (heading_count: 0, conform Laag-1). Inhoud volledig in één alinea, geen artefacten detecteerbaar in categorieën A-G. Taal vloeiend, geen afgekapte zinnen, geen HTML-entiteiten, geen malformed opmaak.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Geen PDF-artefacten: clean HTML-scrape zonder spurious breaks",
+      "Inhoud compleet: vraag + advies volledig aanwezig",
+      "Geen onjuiste gebruik van markdown-constructies"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0150-04-investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6: 'energie- aankopen' op regel 56 toont een PDF-afbreekstreepje dat niet is samengevoegd — de zin bevat 'energie-aankopen' correct op regel 54 maar 'energie- aankopen' (met extra spatie) op regel 56, een typisch hyphenation-artefact van de scraper. Verder inhoud volledig en geen andere issues.",
+    "concrete_problemen": [
+      {
+        "regel": 56,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "werkelijke kost van de energie- aankopen is bestemd voor de verkoper"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: beide fases van het energiebeheerprogramma beschreven",
+      "Geen heading-hiërarchieproblemen (één onderwerp, terecht geen subkoppen)",
+      "Rekening-verwijzingen correct opgemaakt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0151-01-kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: de journaalboekingstabellen zijn structureel incompleet — debet- en creditkolommen zijn leeg voor alle boekingsregels (regels 71-72, 84-85, 91-92), wat niet de opzet van het brondocument is (cijfers ontbreken). Bovendien staat op regel 92 'aan | | 101 | | Niet-opgevraagd kapitaal' met een extra lege cel, wat een tabelstructuurfout is (cel verschoven ten opzichte van de header). Inhoud en argumentatie wel compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 71,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | 100 | Geplaatst kapitaal | | | (debet/credit leeg)"
+      },
+      {
+        "regel": 92,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| aan | | 101 | | Niet-opgevraagd kapitaal | (cel-offset)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee ### headings correct voor de twee boekhoudkundige scenario's",
+      "Juridische argumentatie (art. 72bis) volledig en coherent",
+      "Frontmatter correct: datum, themas, bron-URL plausibel"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0152-01-boekingen-van-deviezenverrichtingen-en-verwerking-van-tegoeden-en-verplichtingen-in.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Meerdere categorieën aangetroffen. A3: regels 152-153 bevatten een tweede volledige TOC als doorlopende tekst met '--'-separatoren in plaats van de gestructureerde genummerde TOC op regels 86-149 — dit is een dubbel TOC-artefact. A9: 'niet¬monetaire' (U+00AC NOT SIGN) op regels 199 en 1167 i.p.v. een gewone koppelteken. G3: op regel 288 staat '[^6]' als alleenstaande regel zonder volgend footnote-definitie-blok (de definitie staat verderop bij de eindnoten), wat in de body als orphaned inline footnote-ref verschijnt. D4: 'Bank USA' op regel 450 i.p.v. 'Bank USD' zoals consequent elders gebruikt — inconsistentie die een OCR/scrape-fout suggereert. C3: journaalboeking op regel 624 zonder pipe-table ('493 Over te dragen opbrengsten / aan 756 ...'), terwijl alle andere boekingen wél als tabel zijn opgemaakt. Tabel op regels 1087-1094 heeft inconsistente celtellingen (dubbele lege cellen als pseudo-kolom-alignment).",
+    "concrete_problemen": [
+      {
+        "regel": 152,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "-- ALGEMEEN -- DE OMREKENINGSKOERS -- VERRICHTINGEN WAARUIT..."
+      },
+      {
+        "regel": 199,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "vermogensbestanddelen zijn niet¬monetaire posten"
+      },
+      {
+        "regel": 1167,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "risico verbonden aan niet¬samenvallende vervaldagen"
+      },
+      {
+        "regel": 288,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": "[^6]  (alleenstaande footnote-ref zonder body-context)"
+      },
+      {
+        "regel": 450,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "| | 55 | Bank USA | 41.100 | | (i.p.v. Bank USD)"
+      },
+      {
+        "regel": 624,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "493 Over te dragen opbrengsten / aan 756 Diverse financiële opbrengsten"
+      },
+      {
+        "regel": 1087,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | | **Effect A (geldbelegging) ** | | **Effect B...** | (lege tussencellen als kolom-alignment)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "52 headings correct hiërarchisch opgebouwd (## en ### en #### niveaus)",
+      "Alle 35+ journaalboekingen als pipe-tables (op één uitzondering na)",
+      "Voetnoten 1-33 volledig gedefinieerd onderaan het document",
+      "Inhoud volledig: alle 9 delen (I-IX) aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0152-02-boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Korte bron (2579 tekens) zonder subkoppen, conform Laag-1. Inhoud compleet: vraag, analyse, voorbeeld met journaalboeking als pipe-table, drie correct gedefinieerde voetnoten. Geen artefacten in categorieën A-G aangetroffen.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Journaalboeking als correcte pipe-table met header en separator",
+      "Voetnoten [^1], [^2], [^3] correct gedefinieerd",
+      "Inhoud volledig: redenering + concreet voorbeeld aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0152-03-boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-inbreng-van-een.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "G1/F1: HTML-entiteit '&#039;' in het gerelateerde advies-veld op regel 48 ('Risico&#039;s verbonden aan bestellingen') — een URL/HTML-escape die niet gedecodeeerd is door de scraper. Staat alleen in frontmatter-metadata, niet in de body, maar schaadt YAML-parse-correctheid. Body zelf is inhoudelijk volledig en schoon.",
+    "concrete_problemen": [
+      {
+        "regel": 48,
+        "categorie": "G1",
+        "type": "other",
+        "voorbeeld": "titel: Risico&#039;s verbonden aan bestellingen van vaste activa"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig en geen artefacten: redenering helder in vier alinea's",
+      "Voetnoot [^1] correct gedefinieerd",
+      "Frontmatter-structuur verder correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0152-05-verwerking-van-omrekeningsverschillen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Korte bron (2788 tekens), geen subkoppen (heading_count: 0, conform Laag-1). Inhoud compleet: vraag en advies aanwezig, voetnoot [^1] correct gedefinieerd. Geen artefacten in categorieën A-G. De verwijzing naar paginanummers ('pp. 35 tot 37') is een interne verwijzing naar het brondocument, geen TOC-rest.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Vloeiende proza-opbouw zonder spurious linebreaks",
+      "Voetnoot [^1] correct verwijst naar CBN-advies 152/1",
+      "Geen HTML-entiteiten of onzichtbare unicode"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0152-06-risicos-verbonden-aan-bestellingen-van-vaste-activa.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "G1/F1: HTML-entiteit '&#039;' in het themas-veld op regel 6 ('risico&#039;s verbonden aan bestellingen') en in het gerelateerde advies-veld op regel 48 — HTML-escape niet gedecodeeerd door de scraper. Schaadt YAML-correctheid in frontmatter. Body zelf is volledig en schoon.",
+    "concrete_problemen": [
+      {
+        "regel": 6,
+        "categorie": "G1",
+        "type": "other",
+        "voorbeeld": "- risico&#039;s verbonden aan bestellingen van vaste activa"
+      },
+      {
+        "regel": 48,
+        "categorie": "G1",
+        "type": "other",
+        "voorbeeld": "titel: Risico&#039;s verbonden aan bestellingen van vaste activa"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig: twee risicofactoren duidelijk uitgewerkt",
+      "Geen heading-problemen of tabelstructuurfouten in de body",
+      "Inhoud compleet en logisch afgerond"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0153-02-loonmatiging-bezoldigingen-van-bestuurders.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Bron volledig gelezen (3943 tekens, heading_count: 0, Laag-1 pass). Drie journaalboekingstabellen correct als pipe-tables. Drie voetnoten correct gedefinieerd. Geen artefacten in categorieën A-G. Inhoud volledig: juridische context + voorkeur-boekingswijze + boekingen voor alle scenario's aanwezig.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Drie journaalboekingen als correcte pipe-tables met header en separator",
+      "Voetnoten [^1], [^2], [^3] correct gedefinieerd",
+      "Inhoud volledig: alle drie scenario's (toekenning, investering, storting) uitgewerkt"
+    ]
+  }
+]

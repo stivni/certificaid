@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-0114-07-condominium.md
+resources/bronnen/adviezen/CBN-0117-02-munt-waarin-de-boekhouding-moet-worden-gevoerd-en-de-jaarrekening-opgesteld-de-commissie.md
+resources/bronnen/adviezen/CBN-0117-03-voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro.md
+resources/bronnen/adviezen/CBN-0120-01-het-begrip-financiele-instelling.md
+resources/bronnen/adviezen/CBN-0120-02-in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn.md
+resources/bronnen/adviezen/CBN-0120-03-waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan.md
+resources/bronnen/adviezen/CBN-0120-04-overheidsfondsen.md
+resources/bronnen/adviezen/CBN-0120-06-boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep.md
+resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md
+resources/bronnen/adviezen/CBN-0126-02-inbrengprijs.md

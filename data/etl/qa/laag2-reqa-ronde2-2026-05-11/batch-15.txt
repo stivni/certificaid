@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-2016-21-actualisatie-van-uitgestelde-belastingen-update.md
+resources/bronnen/adviezen/CBN-2016-22-bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding.md
+resources/bronnen/adviezen/CBN-2016-24-uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015.md
+resources/bronnen/adviezen/CBN-2016-25-kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies.md
+resources/bronnen/adviezen/CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update.md
+resources/bronnen/adviezen/CBN-2017-04-gegeven-borgtochten-in-contanten-en-effecten-update.md
+resources/bronnen/adviezen/CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen.md
+resources/bronnen/adviezen/CBN-2017-08-cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model.md
+resources/bronnen/adviezen/CBN-2017-13-boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de.md
+resources/bronnen/adviezen/CBN-2017-14-verenigingen-en-stichtingen-verwerving-door-de-erfpacht-houder-van-het-met-een-erfpacht.md

@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-0172-01-opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor.md
+resources/bronnen/adviezen/CBN-0173-05-toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de.md
+resources/bronnen/adviezen/CBN-0173-06-verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die.md
+resources/bronnen/adviezen/CBN-0173-07-afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn.md
+resources/bronnen/adviezen/CBN-0173-08-aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van.md
+resources/bronnen/adviezen/CBN-0175-01-verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de.md
+resources/bronnen/adviezen/CBN-0177-01-boekhoudkundige-verwerking-van-de-mini-bel-20.md
+resources/bronnen/adviezen/CBN-0179-01-boekhoudkundige-verwerking-van-broeikasgasemissierechten.md
+resources/bronnen/adviezen/CBN-2009-03-boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling.md
+resources/bronnen/adviezen/CBN-2009-04-model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26.md

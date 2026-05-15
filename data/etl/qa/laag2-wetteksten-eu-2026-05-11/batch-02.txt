@@ -1,0 +1,6 @@
+resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md
+resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md
+resources/bronnen/wetteksten/EU-Richtlijn-witwassen-2018-1673.md
+resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md
+resources/bronnen/wetteksten/Strafwetboek2024-boek1.md
+resources/bronnen/wetteksten/WBTW-KB1-voldoening.md

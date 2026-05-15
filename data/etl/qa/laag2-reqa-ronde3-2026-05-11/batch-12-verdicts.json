@@ -1,0 +1,236 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-04-verenigingen-en-stichtingen-boekhoudkundige-verwerking-van-meerjarige-toekenningen-bij.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: regel 68 `## Advies van 13 april 2016**[^1]** ` bevat stray `**` die de footnote-referentie omhult als bold-marker in een heading — onzichtbaar voor de lezer maar syntactisch een ETL-artefact. Inhoud volledig correct: 5 headings genest, voetnoten [^1]–[^8] aanwezig, geen pagina-artefacten of OCR-fouten.",
+    "concrete_problemen": [
+      {
+        "regel": 68,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "## Advies van 13 april 2016**[^1]**  (stray ** rond voetnootref in heading)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 5 secties correct als ## headings genest",
+      "Voetnoten [^1]–[^8] volledig aanwezig met inhoud",
+      "Geen pagina-artefacten, geen OCR-fouten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-08-bepaling-van-de-omzet-van-een-franchisenemer.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: regels 61–65 bevatten een wetsartikel-citaat waarbij de extractor een `*`-italic-span opent op regel 61 (`* Onder omzet...`) en sluit op regel 65 (`...voor hun bedrijf.*`) over meerdere alinea-breaks heen — in standaard markdown-parsers breekt een inline `*...*` span bij een lege regel, waardoor de rendering onvoorspelbaar is. Overige inhoud inhoudelijk volledig; voetnoten [^1]–[^13] aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 61,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "* Onder omzet wordt verstaan het bedrag van de verkoop... (opent multiline italic over lege regels heen)"
+      },
+      {
+        "regel": 65,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "...voor hun bedrijf.* (sluit multiline italic na meerdere lege regels)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: definitie, analyse tussenpersonen, franchiseovereenkomst behandeld",
+      "Voetnoten [^1]–[^13] aanwezig en goed geformatteerd",
+      "Geen pagina-artefacten of OCR-fouten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-11-boekhoudkundige-verwerking-van-de-cross-currency-swap.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: regel 237–238 bevat een multiline tabelcel waarbij de omschrijving `(Cross currency swap – vlottend)` op een nieuwe regel met tab-inspringing staat — breekt pipe-tabel-rendering. Regel 273: `| aan | 657 | Diverse financiële kosten) |` bevat een overtollige `)` in de cel als ETL-artefact. Inhoud en rekenkundige voorbeelden verder volledig correct.",
+    "concrete_problemen": [
+      {
+        "regel": 237,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| aan | 756 | Diverse financiële opbrengsten\\n\\t\\t\\t\\t(Cross currency swap – vlottend) | (multiline tabelcel)"
+      },
+      {
+        "regel": 273,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| aan | 657 | Diverse financiële kosten) | | 4.375 | (overtollige ) in cel)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "11 headings correct genest met duidelijke structuur (### en #### niveaus)",
+      "Uitgewerkt numeriek voorbeeld volledig en intern consistent",
+      "Voetnoten [^1]–[^21] aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-13-verenigingen-en-stichtingen-roerende-voorheffing.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "G3: regel 135 bevat ` [^18][^19][^20][^21]` als alleenstaande alinea direct na de boldtitel op regel 133 — losgeraakte voetnootcluster die in de ankerzin thuishoort maar door de extractor als eigen alinea is ingevoegd. B4: regel 109 gebruikt `**Boeking op 31/03/2013...**` als bold-paragraaf terwijl equivalente boekingen (regels 101, 117, 125) wél `##`-headings zijn — structuurinconsistentie die een heading-extractie-bug aanduidt.",
+    "concrete_problemen": [
+      {
+        "regel": 135,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": " [^18][^19][^20][^21] (losstaande voetnootcluster als eigen alinea na boldtitel)"
+      },
+      {
+        "regel": 109,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "**Boeking op 31/03/2013 (tarief roerende voorheffing bedraagt 25[^10] procent)** (bold ipv ## heading)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Tabellen correct in pipe-syntax met consistente kolommen",
+      "Voetnoten [^1]–[^21] volledig aanwezig met inhoud",
+      "Wettelijke bepalingen en berekeningen volledig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-15-vergoedingen-aan-bestuurders-en-werkende-vennoten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: regels 128–130 bevatten een multiline tabelcel voor rekeningomschrijving 618 met tab-inspringing — breekt pipe-tabel-rendering. D4: regel 79 `diensten en diverse goederen[^7]* .` heeft een spatie vóór de afsluitende `*` in inline italic — broken italic-markering. B5: regel 74 bevat `618 Bezoldigingen, premies...` als plain-text-paragraaf zonder `##`/`###` prefix — sectielabel dat een heading hoort te zijn.",
+    "concrete_problemen": [
+      {
+        "regel": 128,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | 618 | Bezoldigingen, premies voor buitenwettelijke \\n\\t\\t\\t\\tverzekeringen... (multiline tabelcel)"
+      },
+      {
+        "regel": 79,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "diensten en diverse goederen[^7]* . (spatie vóór afsluitende asterisk in italic)"
+      },
+      {
+        "regel": 74,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "618 Bezoldigingen, premies voor buitenwettelijke verzekeringen... (plain text zonder ## prefix)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "11 headings correct aanwezig voor overige secties",
+      "Voetnoten [^1]–[^24] volledig aanwezig met inhoud",
+      "Inhoudelijk volledig: bestuurders, directiepersoneel, tantièmes, toelichting"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-17-verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B5: regel 90 `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-paragraaf zonder `##` of `###` prefix — structuurlabel dat een heading hoort te zijn gezien de parallelstructuur met de heading op regel 79. D4: regel 91 `post* Andere uitgaven*` bevat spatie vóór openende `*` waardoor italic malformed is.",
+    "concrete_problemen": [
+      {
+        "regel": 90,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen (plain text zonder ## prefix)"
+      },
+      {
+        "regel": 91,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "post* Andere uitgaven* (spatie vóór openende asterisk — malformed italic)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "4 aanwezige headings correct genest",
+      "Voetnoten [^1]–[^13] volledig aanwezig",
+      "Inhoud volledig: vereenvoudigde en dubbele boekhouding behandeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "G3/A6: regel 66 `, bijgewerkt op 10 september 2025 [^2]` staat als alleenstaande body-alinea direct na de H1-titel — bijwerkingsannotatie die door de CBN-scraper als body-tekst is ingevoegd in plaats van als frontmatter-veld. Dit is een systematisch ETL-artefact (zelfde patroon als 2016/21). Verdere inhoud volledig correct: 4 headings, voetnoten [^1]–[^7] aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 66,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": ", bijgewerkt op 10 september 2025 [^2] (bijwerkingsannotatie als body-tekst i.p.v. frontmatter)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "4 headings correct genest",
+      "Voetnoten [^1]–[^7] volledig aanwezig",
+      "Inhoud volledig: rapporteringsstandaard en vrijstelling subconsolidatie behandeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-20-leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-boek-xx-insolventie-van.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: regel 55 `vorderingen[^3]*  is duidelijk omtrent de classificatie` bevat een stray asterisk direct na de voetnootreferentie met dubbele spatie — gebroken italic-markering als ETL-artefact. De asterisk hoort bij het cursief van de titelbeschrijving maar is losgeraakt van de sluit-markering. Inhoud compleet: 2 headings, tekst leesbaar, voetnoten [^1]–[^4] aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 55,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "vorderingen[^3]*  is duidelijk omtrent de classificatie (stray asterisk na voetnootref met dubbele spatie)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en coherent voor dit korte advies",
+      "Voetnoten [^1]–[^4] aanwezig",
+      "Geen pagina-artefacten of OCR-fouten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-21-actualisatie-van-uitgestelde-belastingen-update.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6/G3: regel 56 `, bijgewerkt op 10 september 2025[^2]` staat als losstaand fragment direct na H1-titel — bijwerkingsartefact van de CBN-scraper (identiek patroon als 2016/19). Inhoud verder als één aaneengesloten blok (heading_count=0) wat voor dit korte één-vraag-advies acceptabel is. Het artefact op regel 56 is een duidelijke ETL-bug.",
+    "concrete_problemen": [
+      {
+        "regel": 56,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": ", bijgewerkt op 10 september 2025[^2] (bijwerkingsannotatie als losstaand body-fragment na H1)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: vraagstelling en CBN-antwoord compleet",
+      "Voetnoten [^1]–[^3] aanwezig",
+      "Geen OCR-fouten of pagina-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-22-bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: regel 72 bevat `bij een geïnformatiseerde boekhouding` als losstaande alinea direct na H1 — duplicaat van de subtitle als extractie-artefact. D4: systematisch patroon van broken italics met spaties rond asterisken op regels 133, 165 en 167 — bv. `de* onveranderlijkheid *en de* toegankelijkheid *` en `verplichting tot bewaring* in origineel *` — ETL genereert spaaties rondom de `*`-markers wat italic rendering verbreekt. Structuur met 14 headings is overigens uitstekend.",
+    "concrete_problemen": [
+      {
+        "regel": 72,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "bij een geïnformatiseerde boekhouding (duplicaat subtitle als losstaande alinea na H1)"
+      },
+      {
+        "regel": 133,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "de* onveranderlijkheid *en de* toegankelijkheid *te waarborgen (spaties rond asterisken)"
+      },
+      {
+        "regel": 165,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "verplichting tot bewaring* in origineel *en met inachtneming van de *onveranderlijkheid * (broken italic)"
+      },
+      {
+        "regel": 167,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*drager *beoogd die de *onveranderlijkheid *en de *toegankelijkheid * (systematisch broken italic)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "14 headings uitstekend genest met duidelijke structuurhiërarchie",
+      "Voetnoten [^1]–[^28] volledig aanwezig",
+      "Inhoud volledig: wettelijk kader, analyse, bijzondere vragen behandeld"
+    ]
+  }
+]

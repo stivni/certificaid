@@ -1,0 +1,34 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB39-regeling-93duodecies.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "De nieuwe sticky-mode strip_inline_footnote_block heeft het probleem opgelost: de orphan opsommingsitems '1°', '5°', '6°' die layer1 als footnote-residu signaleerde tussen Art. 3 eerste lid en het echte vervolg zijn nu volledig gestript. Art. 3 (regels 70-74) leest nu als drie samenhangende paragrafen: eerste lid over één-attest-principe, tweede lid over uitreikingsdatum (max één maand voor aanvraag), derde lid over nieuw attest na zes maanden. De false-positive '## Art. 139:' heading uit eerdere ronde is ook al weg. Structuur Art. 1–7 met inwerkingtreding-annotaties is correct. Opheffing per 01.01.2020 (regel 53-55) is correct gedocumenteerde wettelijke status — geen kwaliteitsprobleem maar historische context.",
+    "concrete_problemen": [
+      "KB opgeheven per 01.01.2020 (regel 53-55) — historische bron, retrieval-impact afhankelijk van examen-scope (geen tekstkwaliteitsfout)"
+    ],
+    "concrete_sterke_punten": [
+      "Sticky-mode strip succesvol: orphan items '1°/5°/6°' uit W 13.04.2019 zijn weg, Art. 3 stroomt nu als coherente drie paragrafen",
+      "Geen false-positive headings meer; alle ## Art. X zijn echte artikelen van KB nr. 39",
+      "Inwerkingtreding-annotaties consequent per artikel (## Art. N gevolgd door geparenthiseerde KB-referentie)",
+      "Volledige inhoud Art. 1 t/m 7 aanwezig en leesbaar, geen Franse leaks, geen smart-quote-mismatches"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB24-voldoening-bijzondere.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "De sticky-mode strip_inline_footnote_block fix was niet relevant voor dit bestand — het hoofdprobleem (TOC-blok niet gestript) blijft volledig onveranderd. Regels 55-69 bevatten nog steeds het TOC-blok: '## AFDELING 1. Betalingen op de rekeningen van btw-ontvangsten' (regel 55-56) met daaronder '### Onderafdeling 1.' t/m '### Onderafdeling 4.' met artikel-ranges ('Art. 1 - 8', 'Art. 9 - 13', 'Art. 13bis') en spurious linebreaks midden in de headings ('Inning en\\nInvordering' regel 61-62; 'Mini One Stop Shop\\n- VAT BE' regel 64-65). Regel 69 bevat de Franstalige leak 'Disposition temporaire Art. 13ter'. Regels 71-80 dupliceren Afdeling 1 + Onderafdeling 1 als full sections direct na het TOC-blok (Afdeling 1 verschijnt op regel 55 EN 71; Onderafdeling 1 op 58 EN 78). Plus smart-quote mismatch op regels 65/67 (opent met \" sluit met ”). Dit blijft retrieval-schadelijk: zoekers naar 'Onderafdeling 1 BTW-Ontvangsten' krijgen twee chunks waarvan één leeg (alleen heading + artikel-range), wat het signaal verdunt.",
+    "concrete_problemen": [
+      "Regels 55-69: TOC-blok niet gestript — Afdeling 1 + Onderafdelingen 1–4 staan als headings met enkel artikel-ranges, geen content",
+      "Regels 61-62, 64-65: spurious linebreaks midden in Onderafdeling-headings ('Inning en\\nInvordering'; 'Mini One Stop Shop\\n- VAT BE')",
+      "Regel 69: 'Disposition temporaire Art. 13ter' — Franstalig fragment midden in Nederlandstalige content (compilatie-bleed)",
+      "Regels 71-80: duplicatie van Afdeling 1 + Onderafdeling 1 als full sections direct na het TOC-blok",
+      "Regels 65/67: smart-quote inconsistentie (opent met \", sluit met ” in 'Mini One Stop Shop - VAT BE')"
+    ],
+    "concrete_sterke_punten": [
+      "Vanaf regel 81 (Art. 1) is de inhoud schoon en coherent: alle artikelen 1 t/m 24 zijn aanwezig met juiste hiërarchie (#### Art. N onder ### Onderafdeling onder ## AFDELING)",
+      "Inwerkingtreding-annotaties consequent per artikel met KB-referenties",
+      "Opgeheven artikelen (12, 13, 14, 16-19) zijn correct als opgeheven gemarkeerd met datum en KB-referentie",
+      "Volledige inhoudelijke dekking van betaalmodaliteiten (postrekening, Inning en Invordering, MOSS, douane)"
+    ]
+  }
+]

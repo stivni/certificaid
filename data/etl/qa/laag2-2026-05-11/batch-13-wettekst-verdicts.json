@@ -1,0 +1,195 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "33 HISTORY-blokken zijn volledig in de body opgenomen: de historische annotaties van het OESO-modelverdrag staan na elk artikel als plain text, inclusief letterlijke wetsteksten van eerdere versies (bv. regels 124-128, 183-189, 234-261). Dit is geen redactionele keuze maar extractie-artefact: een mens zou deze historische noten scheiden of weglaten. Daarnaast springt Art. 14 (Independent Personal Services) volledig ontbrekend, terwijl Arts. 13 en 15 wel aanwezig zijn — de bron-URL claimt 'Art. 1–32'; Art. 14 is in 2000 bewust verwijderd uit het OESO-model maar dat is niet gedocumenteerd in de MD. Verder: paragraafnummers staan als losse regels ('1.\n', '2.\n') zonder bijbehorende tekst op dezelfde regel (A6), wat spurious line-breaks zijn van de PDF-extractie.",
+    "concrete_problemen": [
+      {
+        "regel": 75,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": "HISTORY (plain text blok na elk artikel, bevat eerdere wetsteksten)"
+      },
+      {
+        "regel": 124,
+        "categorie": "G3",
+        "type": "other",
+        "voorbeeld": "Paragraph 1: Amended when the 1977 Model Convention was adopted by the OECD Council on 11 April 1977, by substituting the words..."
+      },
+      {
+        "regel": 81,
+        "categorie": "A6",
+        "type": "scrambled-words",
+        "voorbeeld": "1.\nThis Convention shall apply to persons..."
+      },
+      {
+        "regel": 726,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "Art. 14 ontbreekt tussen Art. 13 (Capital Gains, r. 694) en Art. 15 (Income From Employment, r. 726)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle hoofdstuk-headings correct als ## Chapter I — SCOPE OF THE CONVENTION",
+      "Alle aanwezige artikelen correct genummerd en als ## headings opgemaakt",
+      "Frontmatter klopt: taal EN, bijgewerkt 21.11.2017, bron correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Dit bestand is manueel aangemaakt (pipeline: manual-import) en ziet er als zodanig uit: alle tabellen zijn in correcte pipe-syntax, headings zijn logisch hiërarchisch, inhoud is volledig en intern consistent. Geen zichtbare PDF-extractieartefacten. De informatienotitie over overlappende code 1271-87 (A.21 en F.3) is een bewuste redactionele keuze, geen artefact. Frontmatter matcht de inhoud.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Alle tabellen in correcte markdown pipe-syntax met consistente headers",
+      "Headings hiërarchisch correct (## Vak, ### Rubriek A/F/H/I)",
+      "Contextuele opmerkingen en cross-referenties (herkwalificatie huurinkomsten bedrijfsleider) zijn helder en goed gesitueerd",
+      "Samenvatting-tabel aan het einde consolideert de kerninfo overzichtelijk"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/aangifte-PB-2025-stopzetting.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Eveneens manueel aangemaakt; geen PDF-extractiesporen. Tabellen correct in pipe-syntax, heading-hiërarchie consistent (## Vak XXI/XVII/XVIII, ### Rubriek). Tarief-samenvatting aan het einde is helder. Kruisreferenties naar WIB92-artikelen correct. Frontmatter stemt overeen met inhoud.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Duidelijke overzichtstabel (Vak XXI vs. XVII/XVIII) bovenaan",
+      "Toelichting 'wanneer welk tarief' correct gedocumenteerd met artikelverwijzingen",
+      "Alle rubrieken consequent met codes voor belastingplichtige en partner",
+      "Bijlagen-sectie (276 K/N/P) geeft bruikbare aangifte-context"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/belastinggids-aclvb-2025.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Zware TOC-residu aan het begin (regels 66-213): de inhoudsopgave met dotted-leaders staat volledig als plain text in de body en is niet verwijderd, inclusief paginanummers ('9', '11', '12', ...). Daarnaast staan paginatellers verspreid door de body ('Belastinggids 2025 • 9', '10 • Brochure A5', '12 • Belastinggids 2025', enz.) — dit zijn klassieke A1/A2-artefacten. De TOC is bovendien deels verdubbeld (A3): de geïntegreerde inhoudstafel bovenaan plus de sectionering als headings geeft redundantie. Paragraafnummers '2.', '3.' op regels 500-501 zijn als ### headings gemarkeerd in plaats van als lijstpunten (B2 bug: '### 2. Voor uw tweede woning...' is een opsommingspunt dat als heading is gerenderd). Ook B5-artefact: sectie-labels 'a. Bezoldigingen', 'b. Beroepskosten' staan als plain text zonder heading-prefix. Inhoud zelf is overigens volledig en correct.",
+    "concrete_problemen": [
+      {
+        "regel": 66,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "I Woord vooraf.................................................................................................................................................................................. 9"
+      },
+      {
+        "regel": 103,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "Belastinggids 2025 • 3"
+      },
+      {
+        "regel": 141,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "4 • Belastinggids 2025"
+      },
+      {
+        "regel": 255,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "Belastinggids 2025 • 9"
+      },
+      {
+        "regel": 500,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "### 2. Voor uw tweede woning wordt het KI vermenigvuldigd met 1,40."
+      },
+      {
+        "regel": 501,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "### 3. Als u uw huis verhuurt aan een derde voor privédoeleinden,"
+      },
+      {
+        "regel": 555,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "a. Bezoldigingen (plain text, geen heading-prefix)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: alle 14 secties (I t/m V + Bijlage) aanwezig",
+      "Tabellen (woonbonus-overzicht, bijlage-sectie) correct in markdown",
+      "Belgisch-fiscale terminologie correct en up-to-date (aanslagjaar 2025)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/fiscaal-memento-2025.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Ernstige A6/A7-problemen door de gehele body: zinnen zijn op woordniveau gesplitst over afzonderlijke regels (689 single-word lijnen vastgesteld, bv. regels 81-100: 'acht', 'hoofdstukken', 'behandelen', 'de', 'directe', 'belastingen:', 'de', 'personenbelasting,'). Dit is kenmerkend voor kolom-extractie van een tweekolomme PDF. De afkortingenlijst (regels 267-762) heeft hetzelfde probleem: elke afkorting en definitie staat op aparte regels. TOC-residu (A2) aanwezig op regels 151-265 met dotted-leaders. Paginatellers door de body (regels 407, 561, 712, 954, 1028, ...). De pseudo-tabellen in de 'Cijfers per Hoofdstuk'-sectie zijn met spaties uitgelijnd in plaats van markdown pipe-tabellen (E1-schending). De inhoud zelf is na alle ETL-artefacten nog grotendeels aanwezig, maar de RAG-retrievability is zwaar aangetast door de woordopsplitsing.",
+    "concrete_problemen": [
+      {
+        "regel": 81,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "acht\n\nhoofdstukken\n\nbehandelen\n\nde\n\ndirecte\n\nbelastingen:"
+      },
+      {
+        "regel": 151,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "VOORWOORD......................................................................................................................................................... 2"
+      },
+      {
+        "regel": 407,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "8"
+      },
+      {
+        "regel": 821,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "Belastingontvangsten 2023 in Belastingontvangsten\\nmiljoenen euro\\nin % van de totale\\nbelastingontvangsten(*)"
+      },
+      {
+        "regel": 267,
+        "categorie": "A6",
+        "type": "scrambled-words",
+        "voorbeeld": "AAFisc\\n\\nAlgemene Administratie van de Fiscaliteit (afkorting-definitie op aparte lijnen)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 16 hoofdstukken aanwezig als ## headings",
+      "Inhoud is volledig — alle relevante belastingcategorieën behandeld",
+      "Frontmatter correct: sha256 aanwezig, bijgewerkt 31.12.2024"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/toelichting-PB-2025-deel1-VG.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Twee structurele problemen: (1) B1/B3: herhaalde 'Vak II', 'Vak III', 'Vak IV'-labels als losse plain-text regels zonder heading-prefix (45+ voorkomens), bedoeld als sectie-etiketten van de PDF maar niet als heading gerenderd — dit veroorzaakt structuurverlies in RAG-chunking. (2) B1: '### I.' zonder bijbehorende tekst op dezelfde regel (regels 139, 154): de ondertitel staat op de volgende regel als plain text. Daarnaast staat de volledige inhoudstafel bovenaan (regels 63-222) als pseudo-inhoudsopgave met VAK-termen zonder dotted-leaders, wat TOC-redundantie geeft (A3). 'II. FEDERAAL' en 'A. ...' sub-labels na '### I.' staan als ongeformatteerde plain text (B4/B5). Ondanks deze problemen is de inhoud compleet en goed leesbaar.",
+    "concrete_problemen": [
+      {
+        "regel": 139,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "### I.\n\nGEWESTELIJK: NIET IN II, A VERMELDE UITGAVEN VOOR UW 'EIGEN WONING'"
+      },
+      {
+        "regel": 145,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "II. FEDERAAL (plain text na ### I. sectie, had ## of ### moeten zijn)"
+      },
+      {
+        "regel": 458,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Vak II (plain text sectionering, herhaald 45+ keer door het document)"
+      },
+      {
+        "regel": 63,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "INHOUDSTAFEL ALGEMENE INLICHTINGEN (TOC als plain text bovenaan, gevolgd door volledige herhaalde structuur)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "VAK-headings (## VAK I t/m ## VAK XIII) correct als headings opgemaakt",
+      "### A./B./C. subrubrieken consistent gemarkeerd",
+      "Inhoud volledig: alle vakken van deel 1 aanwezig, toelichting per rubriek correct",
+      "Frontmatter correct: sha256 aanwezig, bron fin.belgium.be"
+    ]
+  }
+]

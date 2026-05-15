@@ -1,0 +1,277 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0137-06-overdracht-van-schuldvordering-nominale-waarde-waardevermindering.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2 (regel 108): voetnootlabel '1' lekt nog steeds in de tabelcel — '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |' — ETL-bug ongewijzigd t.o.v. ronde 2. Heading '### Op de vervandag' (regel 99) blijft een source-typo (telt niet als needs-rework-grond). Geen nieuwe problemen gevonden.",
+    "concrete_problemen": [
+      {
+        "regel": 108,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 | |"
+      },
+      {
+        "regel": 99,
+        "categorie": "(source)",
+        "type": "source-typo",
+        "voorbeeld": "### Op de vervandag  (vermoedelijk 'vervaldag' in bronpagina)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Drie boekingstabellen correct opgemaakt met pipe-syntax",
+      "Inhoud volledig en logisch coherent; voetnoot [^1] correct gedefinieerd en inline gerefereerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0138-05-software.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Vier ETL-bugs ongewijzigd t.o.v. ronde 2: A7 (regel 112) dubbele frase in heading; B5 (regel 114) subsectie-titel als plain tekst; A6 (regel 171) twee bullets samengesmolten op één regel; D4 (regels 173 en 181) gebroken italics-markers. Structureel en inhoudelijk verder volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 112,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "## Type-gevallen voor de activering de activering en rubricering van software-uitgaven"
+      },
+      {
+        "regel": 114,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Bij derden aangekochte, of via gebruiksrecht (tegen éénmalige vergoeding) verkregen toepassingssoftware"
+      },
+      {
+        "regel": 171,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "(*coding*); - het onderhoud van het programma en de opleiding van de gebruiker (*maintenance*)."
+      },
+      {
+        "regel": 173,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*testing *en - in bepaalde gevallen - van* maintenance *"
+      },
+      {
+        "regel": 181,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "via het credit van rekening 72* Geactiveerde interne productie*"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (##, ###) verder correct en volledig",
+      "Alle drie voetnoten correct gedefinieerd en inline gerefereerd",
+      "Inhoud van alle type-gevallen A.1, A.2, B.1, B.2 aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0139-02-obligaties-met-warrant.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1 (regel 11): HTML-entity '&#039;' in frontmatter-veld 'gerelateerde_adviezen.titel' staat nog steeds niet gedecodeerd — scraper-artefact ongewijzigd t.o.v. ronde 2. Body volledig schoon: tabel correct, voetnoot correct, geen verdere artefacten.",
+    "concrete_problemen": [
+      {
+        "regel": 11,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "titel: Passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten CPC&#039;s"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig en leesbaar zonder verdere extractie-artefacten",
+      "Boekingstabel correct in pipe-syntax",
+      "Voetnoot [^1] correct gedefinieerd en inline gerefereerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0139-05-obligaties-met-warrant-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B5/B2 (regel 82): rekenformule '## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / ...]' staat nog steeds als ## heading — ongewijzigd t.o.v. ronde 2. Geen andere artefacten; inhoud volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 82,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / (koers van de obligatie ex-warrant + koers van de warrant)]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Uitgebreide proza-secties volledig en goed leesbaar",
+      "Geen tabellen of voetnoten vereist; H1 correct aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0139-07-verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A4 (regel 68): heading '### Kosteloos uitgegeven warrants' bevat nog steeds drie U+200B zero-width spaces als trailing whitespace — ongewijzigd t.o.v. ronde 2. Verder geen andere artefacten; heading-structuur en inhoud volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 68,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "### Kosteloos uitgegeven warrants ​​​"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (##, ###) correct en volledig",
+      "Alle vier sub-secties aanwezig en inhoudelijk volledig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0139-08-uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B1 (regels 119, 125, 130): drie wiskundige formules staan nog steeds als ### headings. B5 (regel 152) en B3 (regel 169): subsecties a) en b) zijn plain tekst terwijl c) een ### heading heeft — inconsistent. B2-probleem (#### zonder ##/###) lijkt gecorrigeerd naar ## in huidige versie. Kernproblemen B1 en B5/B3 blijven aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 119,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "### 1.000.000 = 747.258"
+      },
+      {
+        "regel": 125,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "### 40.000 + 40.000 + 40.000 + 40.000 + 40.000 = 168.494"
+      },
+      {
+        "regel": 130,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "### 60.000 + 60.000 + 60.000 + 60.000 + 60.000 = 252.742"
+      },
+      {
+        "regel": 152,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "a) Bij de uitgifte van de lening :"
+      },
+      {
+        "regel": 169,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "### c) Bij de terugbetaling van de lening"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en zeer uitgebreid; alle vier hoofdsecties aanwezig",
+      "Boekingstabellen overwegend correct in pipe-syntax",
+      "Voetnoten alle correct gedefinieerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0148-04-boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Vier ETL-bugs ongewijzigd t.o.v. ronde 2: E2 (regel 234) 'aan' als losse cel breekt tabelstructuur; A9 (regel 280) 'Kreditinstellingen' i.p.v. 'Kredietinstellingen'; D3 (regels 292-294) voetnoten [^3] en [^4] zonder inline-referentie in body; B1 (regel 189) heading bevat enkel datum en bedrag zonder omschrijving.",
+    "concrete_problemen": [
+      {
+        "regel": 234,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| aan | | 52 | Vastrentende effecten | 1.000.000 |"
+      },
+      {
+        "regel": 280,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "| | 55 | Kreditinstellingen | 1.351.975 | |"
+      },
+      {
+        "regel": 292,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^3]: Roerende voorheffing van 25 %.  (geen inline-referentie in body)"
+      },
+      {
+        "regel": 189,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "## 31.12.1987 : 80 000"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee uitgebreide voorbeelden volledig aanwezig",
+      "Grote meerderheid van tabellen correct opgemaakt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0148-05-actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2 (regel 245): 'aan 751 Opbrengsten uit vlottende activa' samengesmolten in één tabelcel — ongewijzigd t.o.v. ronde 2. E2 (regel 256): losse cijferrij '| | 124.553 | | | |' buiten tabelcontext — ongewijzigd. Nieuw gevonden: E2 (regel 234) rekening '52' gelabeld als 'Kredietinstellingen' i.p.v. '55'; B1 (regel 71) heading '## 1 jaar : 80 000' bevat enkel jaar en bedrag.",
+    "concrete_problemen": [
+      {
+        "regel": 245,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |"
+      },
+      {
+        "regel": 256,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | 124.553 | | | |"
+      },
+      {
+        "regel": 234,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| aan | 52 | Kredietinstellingen | | 1.205.000 |"
+      },
+      {
+        "regel": 71,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "## 1 jaar : 80 000"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee grote voorbeeldblokken (emittent en inschrijver) inhoudelijk volledig aanwezig",
+      "Grote meerderheid van tabellen correct opgemaakt in pipe-syntax"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0150-04-investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6 (regel 60): afbreekstreepje 'energie- aankopen' staat nog steeds met een spatie na het koppelteken — PDF-afbreekstreepje niet samengevoegd door ETL, ongewijzigd t.o.v. ronde 2. Enige bug in dit korte document; inhoud verder volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 60,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "de werkelijke kost van de energie- aankopen is bestemd voor de verkoper"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Korte, coherente prosatekst zonder verdere artefacten",
+      "Geen tabellen of headings vereist voor dit advies"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0151-01-kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: alle drie boekingstabellen (regels 77-80, 90-93, 96-99) hebben volledig lege debet- en creditkolommen — bedragen ontbreken volledig, ongewijzigd t.o.v. ronde 2. Regel 99 '| aan | | 101 | | Niet-opgevraagd kapitaal |' heeft bovendien een extra lege cel die de kolomuitlijning verbreekt.",
+    "concrete_problemen": [
+      {
+        "regel": 79,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | 100 | Geplaatst kapitaal | | |"
+      },
+      {
+        "regel": 80,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| aan | 48 | Diverse | | |"
+      },
+      {
+        "regel": 99,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| aan | | 101 | | Niet-opgevraagd kapitaal |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Proza-uitleg volledig en inhoudelijk correct",
+      "Heading-structuur (##) correct voor de twee sub-secties"
+    ]
+  }
+]

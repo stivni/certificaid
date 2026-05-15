@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-0117-03-voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro.md
+resources/bronnen/adviezen/CBN-0120-02-in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn.md
+resources/bronnen/adviezen/CBN-0120-03-waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan.md
+resources/bronnen/adviezen/CBN-0120-04-overheidsfondsen.md
+resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md
+resources/bronnen/adviezen/CBN-0126-05-vervaardigingsprijs.md
+resources/bronnen/adviezen/CBN-0126-07-waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs.md
+resources/bronnen/adviezen/CBN-0126-12-boeking-van-uitzettingsvergoedingen-betaald-door-de-eigenaar-en-van-de-kost-van-werken-ten.md
+resources/bronnen/adviezen/CBN-0126-13-boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips.md
+resources/bronnen/adviezen/CBN-0127-02-waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd.md

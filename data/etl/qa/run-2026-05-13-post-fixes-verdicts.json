@@ -1,0 +1,965 @@
+{
+  "run_id": "2026-05-13-post-fixes-pass",
+  "verdicts": [
+    {
+      "bestand": "resources/bronnen/adviezen/CBN-0158-01-boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van.md",
+      "aanbevolen_status": "trusted",
+      "rationale": "Volledig schoon advies. Heading-hiërarchie correct (## en ###), paragraftekst vloeiend, voetnoot [^1] correct gekoppeld. Geen extractie-artefacten. Inhoud compleet (verwerving eigendom + concessie + contractuele verplichtingen).",
+      "concrete_problemen": [],
+      "concrete_sterke_punten": [
+        "Heading-structuur perfect: ## voor hoofdsecties, ### voor subsecties",
+        "Voetnoot [^1] correct gedefinieerd aan het eind",
+        "Geen lege regels, geen TOC-residu, geen paginanummers"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/adviezen/CBN-0173-08-aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "HTML-entiteit-rest `TD>` in een tabelcel (regel 144) is een scraper-artefact dat niet uit de bron-HTML komt maar door een incomplete HTML-tag-strip is ingeslopen. Verdere inhoud is compleet en heading-structuur klopt; tabellen zijn verder goed opgemaakt.",
+      "concrete_problemen": [
+        {
+          "regel": 144,
+          "categorie": "G1",
+          "type": "other",
+          "voorbeeld": "| | 400 | Handelsdebiteuren/ TD> | 10,61 | |"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "Alle voetnoten [^1] t/m [^5] correct gedefinieerd",
+        "Tabellen in markdown pipe-syntax, meeste rijen correct",
+        "Heading-structuur logisch (##, ###, ####)"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/normen/IESBA-code-of-ethics-2024.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "A6 (spurious line-breaks): paragrafen zijn gesplitst per visuele PDF-regel — korte regels die niet eindigen op leesteken gevolgd door nieuwe zin. A6 patroon doortrekken door heel document (bv. regel 100-106 'The Code establishes' splitst over 7 regels). Lettered sub-items (a), (b) staan elk op eigen regel los van hun inhoud (regel 67-81). Eén sectie is 86477 chars — L1 warn terecht. Structuur is verder logisch.",
+      "concrete_problemen": [
+        {
+          "regel": 100,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "The Code establishes five fundamental principles to be complied with"
+        },
+        {
+          "regel": 67,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "(a)\\n\\nAdherence to ethical principles and professional standards;"
+        },
+        {
+          "regel": 171,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "the conceptual framework to a range of facts and circumstances that\\naccountants might encounter"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "Heading-hiërarchie (# en ## per section) correct",
+        "Bold-markers voor paragrafnummers (**100.1**, **R100.6** etc.) consistent",
+        "Inhoud structureel compleet voor alle IESBA-secties"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/AVG-wet-2018.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "B4: 'ONDERTITEL 1-6' als plain-text regels (niet als heading) doorheen het document (regels 80, 132, 136, 188, 240, 276, 1097...). B4: 'Tekst' als losse plain-text regel op regel 340 (overgangsmarkering die uit de bron-PDF stamt). A3: eerste 310 regels bevatten een TOC met afgekorte artikel-verwijzingen (bv. `##### Art. 24` zonder body) gevolgd door de eigenlijke wettekst — dit is een dubbele inhoudsopgave-structuur. Inhoud na regel 340 is grotendeels schoon.",
+      "concrete_problemen": [
+        {
+          "regel": 80,
+          "categorie": "B4",
+          "type": "other",
+          "voorbeeld": "ONDERTITEL 1. - De bescherming van natuurlijke personen..."
+        },
+        {
+          "regel": 340,
+          "categorie": "A3",
+          "type": "other",
+          "voorbeeld": "Tekst"
+        },
+        {
+          "regel": 48,
+          "categorie": "A3",
+          "type": "other",
+          "voorbeeld": "##### Art. 24  (TOC-verwijzing zonder body, voor regel 340)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "Artikel-tekst na regel 340 heeft volledige body-tekst en goede markdown-opmaak",
+        "Heading-hiërarchie (## TITEL, ### HOOFDSTUK, #### Afdeling, ##### Art.) consistent",
+        "Wetswijzigingen correct weergegeven met [1 ... ]1 markers"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Kolom-bleed ETL-fix #3 slechts gedeeltelijk effectief: NL- en FR-tekst staan nog op dezelfde regels (bv. 'Artikel 1  Article 1 er', 'TITRE I ER - DROIT D'ENREGISTREMENT' in headings). B5: artikel-nummering als plain-text 'Artikel 1' in body (niet als ## of ### heading). B4: '##### van de belasting' als fragment-heading zonder volledige tekst (regel 68). Heading-structuur ernstig aangetast door bilinguïsme.",
+      "concrete_problemen": [
+        {
+          "regel": 70,
+          "categorie": "A8",
+          "type": "column-bleed",
+          "voorbeeld": "Artikel 1  Article 1 er"
+        },
+        {
+          "regel": 88,
+          "categorie": "B4",
+          "type": "other",
+          "voorbeeld": "## TITEL I - REGISTRATIERECHT  TITRE I ER - DROIT D'ENREGISTREMENT"
+        },
+        {
+          "regel": 68,
+          "categorie": "B1",
+          "type": "other",
+          "voorbeeld": "##### van de belasting"
+        },
+        {
+          "regel": 70,
+          "categorie": "B5",
+          "type": "other",
+          "voorbeeld": "Artikel 1  Article 1 er (plain-text, geen ## prefix)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "Grote hoeveelheid artikelinhoud aanwezig",
+        "Paragrafenstructuur van wettekst intern consistent"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/VCF.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Kolom-bleed ETL-fix #3 slechts gedeeltelijk effectief: NL+FR text nog op dezelfde regels door heel document. Headings bevatten FR-tekst: '## TITEL 1 - Inleidende bepalingen  TITRE 1 er - Dispositions introductives'. Article headings: '###### Art. 1.1.0.0.1.  Art. 1.1.0.0.1.' (dubbel). Body-paragrafen: 'In deze codex wordt verstaan onder :  Dans le présent code, il y a lieu d'entendre par :'. OCR-artifact: 'Succes|Upsierechten' (regel ~124). 1225 regels met dubbele content.",
+      "concrete_problemen": [
+        {
+          "regel": 50,
+          "categorie": "A8",
+          "type": "column-bleed",
+          "voorbeeld": "## TITEL 1 - Inleidende bepalingen  TITRE 1 er - Dispositions introductives"
+        },
+        {
+          "regel": 54,
+          "categorie": "A8",
+          "type": "column-bleed",
+          "voorbeeld": "###### Art. 1.1.0.0.1.  Art. 1.1.0.0.1."
+        },
+        {
+          "regel": 60,
+          "categorie": "A8",
+          "type": "column-bleed",
+          "voorbeeld": "In deze codex wordt verstaan onder :  Dans le présent code, il y a lieu d'entendre par :"
+        },
+        {
+          "regel": 124,
+          "categorie": "A9",
+          "type": "ocr-confusion",
+          "voorbeeld": "Wetboek van Successierechten : ... 'Succes|Upsierechten'"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "Alle artikelen aanwezig met correct VCF-artikelnummer-schema (bv. 2.1.4.0.1)"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/belastinggids-aclvb-2025.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "L1 flags terecht: 126 dotted-leader TOC-regels door het document (A2). Paginanummer 'Belastinggids 2025 • 3' op regel 107 is een pagina-voettekst in de body (A1). Cover-pagina-ruis bovenaan (regels 57-67): 'Belastinggids\\n2025\\n Belastinggids\\n2025\\n 2V.U.:\\n• Gert\\nBrochure\\nTruyens,\\nA5 Koning Albertlaan 95...'. Heading-count van 5 is correct voor de 5 hoofdstukken, maar sectie-groottes zijn enorm.",
+      "concrete_problemen": [
+        {
+          "regel": 70,
+          "categorie": "A2",
+          "type": "dotted-leader",
+          "voorbeeld": "I Woord vooraf.................................................................................................................  9"
+        },
+        {
+          "regel": 107,
+          "categorie": "A1",
+          "type": "form-feed",
+          "voorbeeld": "Belastinggids 2025 • 3"
+        },
+        {
+          "regel": 57,
+          "categorie": "A6",
+          "type": "scrambled-words",
+          "voorbeeld": "Belastinggids\\n2025\\n Belastinggids\\n2025\\n 2V.U.:\\n• Gert\\nBrochure\\nTruyens,\\nA5 Koning Albertlaan 95, 9000 Gent"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "Inhoudelijke content na de TOC is grotendeels leesbaar",
+        "5 hoofdstukken correct gemarkeerd als ## headings"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/fiscaal-memento-2025.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "L1 flags bevestigd: 102 dotted-leader TOC-regels (A2), 1 paginavoettekst '12/2024' (A1). A6 ernstig: volledige alinea gesplitst per woord (regels 89-103: 'Het\\neerste\\nacht\\nhoofdstukken\\nbehandelen\\nde\\ndirecte\\nbelastingen'). Cover-ruisregels bovenaan (FISCAAL MEMENTO 2025, FR-disclaimer midden in NL-tekst). Secties zijn 268556 chars — structureel problematisch voor RAG.",
+      "concrete_problemen": [
+        {
+          "regel": 89,
+          "categorie": "A6",
+          "type": "scrambled-words",
+          "voorbeeld": "Het\\n\\neerste\\n\\nacht\\n\\nhoofdstukken\\n\\nbehandelen\\n\\nde\\n\\ndirecte\\n\\nbelastingen:"
+        },
+        {
+          "regel": 157,
+          "categorie": "A2",
+          "type": "dotted-leader",
+          "voorbeeld": "VOORWOORD........................................................................................ 2"
+        },
+        {
+          "regel": 68,
+          "categorie": "A1",
+          "type": "other",
+          "voorbeeld": "Le Mémento fiscal ne peut être considéré comme une circulaire administrative"
+        },
+        {
+          "regel": 74,
+          "categorie": "A1",
+          "type": "form-feed",
+          "voorbeeld": "12/2024  (pagina-voettekst)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "16 hoofdstukken aanwezig met ## headings"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/toelichting-PB-2025-deel1-VG.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "TOC met paginanummers op aparte regels door de TOC-sectie (regels 66-158): bv. 'VAK II - PERSOONLIJKE GEGEVENS EN GEZINSLASTEN\\n\\n10\\n\\nA. Persoonlijke gegevens\\nB. Gezinslasten\\n\\n10\\n16'. Paginanummers staan als aparte regels in de body (A2-achtig). A6: cover-tekstfragmenten 'Toelichting\\n\\nbij deel 1' opgesplitst. Hoofdsecties zijn correct als ## headings; inhoud na de TOC is grotendeels leesbaar.",
+      "concrete_problemen": [
+        {
+          "regel": 76,
+          "categorie": "A2",
+          "type": "dotted-leader",
+          "voorbeeld": "VAK II - PERSOONLIJKE GEGEVENS...\\n\\n10 (paginanummer als aparte regel)"
+        },
+        {
+          "regel": 50,
+          "categorie": "A6",
+          "type": "scrambled-words",
+          "voorbeeld": "Toelichting\\n\\nbij deel 1 van de\\nvoorbereiding van de aangifte"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "VAK-secties correct als ## headings in het body-deel",
+        "Inhoud na TOC inhoudelijk compleet voor PB-toelichting"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/toelichting-PB-2025-deel2.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Zelfde patroon als deel1: TOC met losse paginanummers (1 dotted-leader L1 flag). Cover-fragment A6. Secties correct als ## headings. Inhoud leesbaar maar cover-ruis en TOC-artefacten hinderen RAG.",
+      "concrete_problemen": [
+        {
+          "regel": 55,
+          "categorie": "A6",
+          "type": "scrambled-words",
+          "voorbeeld": "Toelichting\\n\\nbij deel 2 van de\\nvoorbereiding van de aangifte"
+        },
+        {
+          "regel": 1,
+          "categorie": "A2",
+          "type": "dotted-leader",
+          "voorbeeld": "1 dotted-leader-regel gevonden (L1 flag)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "8 VAK-secties correct als ## headings",
+        "Inhoud inhoudelijk compleet"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/toelichting-VenB-2025.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Cover-fragment A6 (regels 50-65: 'TOELICHTING\\nbij de\\nAANGIFTE IN DE VENNOOTSCHAPSBELASTING\\n\\nAANSLAGJAAR 2025', '-1-\\n\\nbe\\n\\n•\\n'). Paginanummer '-1-' in body (A1). Bullet '•' als PDF-glyph op regel 67 (C1). Sectie-grootte 48748 chars (L1 warn). Structureel: 22 ## headings aanwezig.",
+      "concrete_problemen": [
+        {
+          "regel": 63,
+          "categorie": "A1",
+          "type": "form-feed",
+          "voorbeeld": "-1-  (paginanummer in body)"
+        },
+        {
+          "regel": 67,
+          "categorie": "C1",
+          "type": "bullet-glyph",
+          "voorbeeld": "•  (PDF-bullet als glyph)"
+        },
+        {
+          "regel": 50,
+          "categorie": "A6",
+          "type": "scrambled-words",
+          "voorbeeld": "TOELICHTING\\nbij de\\nAANGIFTE IN DE VENNOOTSCHAPSBELASTING"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "22 secties correct als ## headings",
+        "Vakken inhoudelijk compleet"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB01okt2013-certificatie-gks.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch patroon in alle WBTW-KB compilatie-splits: artikel-bodies en wetshistorie-nota's zijn 4-space ingesprongen waardoor ze als code-blokken renderen in markdown. Dit is ETL-fix #4 artefact. Alle paragrafen na '## Art. 1' etc. beginnen met 4 spaties.",
+      "concrete_problemen": [
+        {
+          "regel": 50,
+          "categorie": "B5",
+          "type": "other",
+          "voorbeeld": "    Het kassasysteem en de controlemodule bedoeld in artikel 2... (4-space indent = code block)"
+        },
+        {
+          "regel": 50,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB 04.04.2014, artikel 1... (wetshistorie als code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "Artikel-headings (## Art. 1 t/m ## Art. 9) correct aanwezig",
+        "Inhoud volledig aanwezig"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB04apr2014-verificatie-vervoermiddelen.md",
+      "aanbevolen_status": "trusted",
+      "rationale": "Vrijwel schoon: geen 4-space indent-probleem in artikel-bodies. Twee kleine artefacten: '    (Opgeheven' op regel 100 en '    Bijlage' op regel 149 zijn 4-space ingesprongen, maar dit zijn marginale artefacten in randgevallen (opgeheven artikel, bijlage-verwijzing). Alle 16 artikel-headings correct, inhoud compleet, wetshistorie-nota's als plain text correct.",
+      "concrete_problemen": [
+        {
+          "regel": 100,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (Opgeheven  (4-space indent)"
+        },
+        {
+          "regel": 149,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    Bijlage  (4-space indent)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "Alle 16 artikel-headings correct als ## Art. N",
+        "Wetswijzigingen-nota's correct als plain-text inline",
+        "Inhoud volledig aanwezig"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB07jun2007-uitvoering-84quinquies.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in alle artikel-bodies en wetshistorie-nota's (A6/C3 patroon): '    (De tekst van KB dd. 07.06.2007, artikel 1...' en '    De behandeling van het verzoek...' renderen als code-blokken.",
+      "concrete_problemen": [
+        {
+          "regel": 50,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB dd. 07.06.2007, artikel 1, werd ingevoerd... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "6 artikel-headings correct aanwezig",
+        "Inhoud volledig"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md",
+      "aanbevolen_status": "trusted",
+      "rationale": "Schoon: geen 4-space indent in artikel-bodies. Wetswijzigingen-nota's staan correct als plain-text inline (niet ingesprongen). Alle 10+ artikel-headings correct. Art. 7bis en 7ter correct als ## headings. Inhoud volledig aanwezig.",
+      "concrete_problemen": [],
+      "concrete_sterke_punten": [
+        "Geen 4-space code-block artefacten",
+        "## Art.-headings consistent en volledig",
+        "§ 1/2/3 paragrafen correct als plain text"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB11-verleggen-maatstaf.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in alle artikel-bodies: '    De bevoegdheden waarover de ambtenaren...', '    De ambtenaar bedoeld in artikel 93ter...' renderen als code-blokken.",
+      "concrete_problemen": [
+        {
+          "regel": 50,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 11, artikel 1, werd gewijzigd... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "5 artikel-headings correct",
+        "Inhoud volledig"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB13-tabaksfabricaten.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in alle artikel-bodies: '    De belasting over de toegevoegde waarde op tabaksfabrikaten...' rendert als code-blok.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 13, artikel 1... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "5 artikel-headings correct",
+        "Inhoud volledig"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB14-vervreemdingen-gebouwen.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 14... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "7 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB15-schatting-onroerende.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 15... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "26 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB16-vismijn.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 16... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "5 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB18-uitvoer-vrijstellingen.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "4-space indent op HOOFDSTUK/AFDELING-titels in de body (regels 72, 79-81, 103-104). Bv. '## HOOFDSTUK I\\n    Vrijstelling ingesteld bij artikel 39, § 1...' en '### AFDELING 1\\n    Uitvoer van goederen...\\n    Vrijstelling ingesteld bij artikel 39...' — sectie-titels als code-blok. A3-achtig: HOOFDSTUK-headings in de TOC (regels 53-69) dubbel aanwezig als TOC + body.",
+      "concrete_problemen": [
+        {
+          "regel": 72,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "## HOOFDSTUK I\\n    Vrijstelling ingesteld bij artikel 39... (titel als code block)"
+        },
+        {
+          "regel": 53,
+          "categorie": "A3",
+          "type": "other",
+          "voorbeeld": "TOC-regels 53-69 herhalen HOOFDSTUK/AFDELING-structuur die ook als body-headings aanwezig zijn"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "40 artikel-headings aanwezig",
+        "Inhoud volledig aanwezig"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-body (regel 60: '    (De tekst van KB nr. 20...'). L1 warn terecht: langste sectie 97071 chars door omvangrijke bijlage (BTW-tarieventabel). Chunker handelt dit automatisch af maar inhoudelijk is de bijlage als één doorlopend blok zonder sub-headings.",
+      "concrete_problemen": [
+        {
+          "regel": 60,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 20, artikel 1... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "Bijlage met BTW-tarieven inhoudelijk aanwezig"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB22-landbouwondernemers.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 22... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "17 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 23... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "9 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB24-voldoening-bijzondere.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Dubbele TOC-structuur: AFDELING-titels staan eerst als TOC (regels 52-74) met 4-space ingesprongen beschrijving, dan opnieuw als ## AFDELING headings met 4-space body (regels 76-79: '## AFDELING 1\\n    Betalingen op de rekeningen...'). Heading-fragment 'Onderafdeling 2. Betaling op de financiële rekening van \"Inning en\\n    Invordering\". Art. 9 - 13' splitst over 2 regels als code-block.",
+      "concrete_problemen": [
+        {
+          "regel": 52,
+          "categorie": "A3",
+          "type": "other",
+          "voorbeeld": "## AFDELING 1. Betalingen op... / ## AFDELING 1\\n    Betalingen... (dubbele TOC+body)"
+        },
+        {
+          "regel": 58,
+          "categorie": "B1",
+          "type": "other",
+          "voorbeeld": "### Onderafdeling 2. Betaling op de financiële rekening van \"Inning en\\n    Invordering\". Art. 9 - 13"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "44 artikel-headings aanwezig"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB27-vlees-slachtdieren.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 27... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "13 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB29aug2019-registers.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "4-space indent in artikel-bodies (regels 50-51, 55-56). Trailing-sectie 'Recent opgeheven...' (regels 61-69) bevat kolom-bleed: 'Koninklijk besluit nr. 39, van 17 oktober 1980, tot regeling van de Bijw. 04/01.01.2020 toepassingsmodaliteiten...' — bijwerking-datum en opgeheven-status zijn door de tekst gehusseld (A8/A7).",
+      "concrete_problemen": [
+        {
+          "regel": 50,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    De belastingschuld wordt op naam... (code block)"
+        },
+        {
+          "regel": 63,
+          "categorie": "A7",
+          "type": "scrambled-words",
+          "voorbeeld": "...Bijw. 04/01.01.2020 toepassingsmodaliteiten... (datum binnen tekst gehusseld)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "3 artikel-headings correct",
+        "Kerninhoud volledig"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "4-space indent voor AFDELING-titels die als code-blokken renderen (regel 55: '## AFDELING I\\n    Voorwaarden waaraan het uitoefenen...'). Consistente toepassing door heel document.",
+      "concrete_problemen": [
+        {
+          "regel": 55,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "## AFDELING I\\n    Voorwaarden waaraan... (afdeling-titel als code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "32 artikel-headings correct",
+        "AFDELING-headings (## AFDELING I/II/III...) aanwezig"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB30-financieringshuur.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 30... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "4 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB31-niet-gevestigd.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 31... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "9 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB35-reisbureaus.md",
+      "aanbevolen_status": "trusted",
+      "rationale": "Schoon: alle 4 artikel-headings correct als ## Art. N. Geen 4-space indent in artikel-bodies. Wetswijzigingen-nota's correct als inline plain text. Inhoud volledig.",
+      "concrete_problemen": [],
+      "concrete_sterke_punten": [
+        "4 artikel-headings correct, geen code-block artefacten",
+        "Wetshistorie inline correct",
+        "Inhoud volledig"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB39-regeling-93duodecies.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "4-space indent op disclaimer-blok regel 54 ('    Dit koninklijk besluit nr. 39 werd opgeheven...'). Regels 73-76: voetnoot-inhoud (art. 138-139) staat 4-space ingesprongen als code-block, met 'Art. 138:' en 'Art. 139:' als zelfstandige heading-achtige regels zonder ## prefix (B5).",
+      "concrete_problemen": [
+        {
+          "regel": 54,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    Dit koninklijk besluit nr. 39 werd opgeheven... (code block)"
+        },
+        {
+          "regel": 73,
+          "categorie": "B5",
+          "type": "other",
+          "voorbeeld": "(1) Art. 138: Deze wet is niet van toepassing: 1° op het administratieve..."
+        }
+      ],
+      "concrete_sterke_punten": [
+        "8 artikel-headings correct",
+        "Kerninhoud aanwezig"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB4-teruggaven.md",
+      "aanbevolen_status": "trusted",
+      "rationale": "Schoon: geen 4-space indent in artikel-bodies. Wetswijzigingen-nota's correct als inline plain text. 18 artikel-headings correct als ## Art. N. Inhoud volledig.",
+      "concrete_problemen": [],
+      "concrete_sterke_punten": [
+        "18 artikel-headings correct, geen code-block artefacten",
+        "Inhoud volledig aanwezig",
+        "Wetswijzigingen-nota's correct inline"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB41-proportionele-geldboeten.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies door heel document (284 4-space regels).",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 41... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "18 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB44-geldboeten.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "4-space indent op introductie-blok (regel 48: '    Dit koninklijk besluit vervangt...') en BIJLAGE-sectie (147 4-space regels). Bijlage met geldboeten-tabel staat als code-block in plaats van als markdown-tabel of plain text.",
+      "concrete_problemen": [
+        {
+          "regel": 48,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    Dit koninklijk besluit vervangt... (code block)"
+        },
+        {
+          "regel": 81,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    BIJLAGE (code block, gevolgd door geldboeten-tabel als code)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "6 artikel-headings correct (### Art.)",
+        "Kernartikelen 1-6 leesbaar"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB45-vrijstelling-diplomaten.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 45... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "3 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB46-intracommunautaire-aangifte.md",
+      "aanbevolen_status": "trusted",
+      "rationale": "Schoon: geen 4-space indent in artikel-bodies. Alle 10 artikel-headings correct als ## Art. N. Wetswijzigingen-nota's correct inline. Art. 7 loopt over op regel 93-94 maar dit is een inhoudelijk doorlopende zin (geen breuk). Inhoud volledig.",
+      "concrete_problemen": [],
+      "concrete_sterke_punten": [
+        "10 artikel-headings correct, geen code-block artefacten",
+        "§ 1/2-paragrafen correct als plain text",
+        "Inhoud volledig"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB47-controle-vervoermiddelen-1996.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 47... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "11 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB48-levering-vervoermiddelen.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 48... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "10 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB50-intracommunautaire-opgave.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies (91 4-space regels).",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 50... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "36 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB51-accijnsproducten.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 51... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "9 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB52-intracommunautaire-vrijstellingen.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "4-space indent op introductie-blok (regel 53) en HOOFDSTUK-afdeling-titels (regels 107, 116: '## HOOFDSTUK 2\\n    Vrijstelling...' en '## HOOFDSTUK 3\\n    Slotbepalingen'). A3: TOC-structuur ontbreekt maar HOOFDSTUK-headings zijn correct als ## + 4-space-ingesprongen subtitel.",
+      "concrete_problemen": [
+        {
+          "regel": 53,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    Dit koninklijk besluit vervangt... (code block)"
+        },
+        {
+          "regel": 105,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "## HOOFDSTUK 2\\n\\n    Vrijstelling van intracommunautaire verwervingen... (subtitel als code)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "11 artikel-headings correct",
+        "Inhoud volledig"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 53... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "12 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB55-btw-eenheid.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 55... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "9 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB57-plaats-diensten.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 57... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "3 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB58-mededeling-pas-opgerichte.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 58... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "3 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB6-internationaal-vervoer.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 6... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "7 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB7-invoer.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies (99 4-space regels). AFDELING/HOOFDSTUK-titels ook 4-space ingesprongen als code-blokken.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 7... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "61 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB8-afronding.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 8... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "4 artikel-headings correct"
+      ]
+    },
+    {
+      "bestand": "resources/bronnen/wetteksten/WBTW-KB9-ambtelijke-aanslag.md",
+      "aanbevolen_status": "needs-rework",
+      "rationale": "Systematisch 4-space indent in artikel-bodies.",
+      "concrete_problemen": [
+        {
+          "regel": 49,
+          "categorie": "A6",
+          "type": "other",
+          "voorbeeld": "    (De tekst van KB nr. 9... (code block)"
+        }
+      ],
+      "concrete_sterke_punten": [
+        "4 artikel-headings correct"
+      ]
+    }
+  ]
+}

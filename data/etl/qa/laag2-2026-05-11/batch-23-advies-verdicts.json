@@ -1,0 +1,192 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0120-03-waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "G-categorie: frontmatter regel 54 bevat een ongedecodeërd HTML-entity (&quot;) in het titel-veld van gerelateerde_adviezen. Body is verder inhoudelijk volledig en vrij van extractie-artefacten, maar de HTML-entity maakt de metadata onbetrouwbaar voor downstream verwerking. Laag-1 pass is terecht: geen structurele flags.",
+    "concrete_problemen": [
+      {
+        "regel": 54,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "  - titel: Het begrip &quot;financiële instelling&quot;"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body is één aaneengesloten, goed leesbare juridische tekst zonder zichtbare PDF-artefacten",
+      "Italiaan-opmaak *pro rata temporis* correct geopend en gesloten (regel 69)",
+      "Voetnoot-structuur ontbreekt (geen [^1]) maar er zijn ook geen losstaande [1]-markers — consistent",
+      "Frontmatter themas en provenance volledig ingevuld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0120-05-coordinatiecentrum-financiele-instelling.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen artefacten gevonden in body of frontmatter. Korte advies-tekst (1580 tekens) met twee alinea's, correct als lopende proza gepresenteerd, geen headings nodig. Laag-1 pass correct. Frontmatter volledig en consistent met inhoud.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Volledige, inhoudelijk coherente advies-tekst zonder PDF-sporen",
+      "Frontmatter klopt: nummer 120/5, themas coördinatiecentrum/financiële instelling, bron-URL correct",
+      "Gerelateerd advies 120/6 correct gekoppeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0120-06-boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4/G-categorie: twee regels (53 en 57) bevatten malgevormde italic-opmaak '*Bull. CBN *nr. X' waarbij een spatie vóór de sluitende asterisk staat — in CommonMark sluit ' *' de italic niet, wat resulteert in onbedoeld rendergedrag. Voetnoot [^1] correct aanwezig en gekoppeld. Body verder volledig en zonder andere artefacten.",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "advies 147/1 in *Bull. CBN *nr. 15 (oktober 1984)"
+      },
+      {
+        "regel": 57,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "in *Bull. CBN *nr. 6 van januari 1980, p. 14"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: vraagstelling, onderscheid vlottende/vaste activa en voorschotten, verwijzing advies 120/1",
+      "Voetnoot [^1] correct geplaatst en gekoppeld aan body-marker",
+      "Frontmatter consistent met inhoud"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0121-01-afname-van-het-kapitaal-van-de-uitgiftepremies-van-de-reserves-van-de-overgedragen-winst.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Korte advies-tekst (1374 tekens) zonder structurele problemen. Twee voetnoten correct gekoppeld ([^1] en [^2]). Geen PDF-artefacten, geen structuurproblemen. Body volledig en coherent. Laag-1 pass correct.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Beide voetnoten correct geplaatst en gekoppeld aan markers in body",
+      "Italic *pro rata temporis* ontbreekt maar is ook niet aanwezig in bron — geen verwacht",
+      "Frontmatter volledig: 10 themas correct ingevuld, bron-URL valide"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0121-02-verlies-gedragen-door-vennoten.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Volledige, correcte advies-tekst (1725 tekens). Eén voetnoot [^1] correct gekoppeld. Geen artefacten aangetroffen. Frontmatter consistent met body. Laag-1 pass correct.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Voetnoot [^1] correct geplaatst onderaan, verwijst naar advies 121/2",
+      "Structureel coherente tekst: vraagstelling → redenering → conclusie → aanbeveling toelichting",
+      "Frontmatter themas volledig en relevant"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Twee categorieën problemen: (1) B4: vijf sectie-titels zijn als **BOLD** opgemaakt in plaats van als ## heading (regels 142, 149, 153, 182, 187) — dit zijn duidelijk structuurniveaus (RESULTAATVERWERKING, SAMENVATTING, I./II./III.) die als headings bedoeld zijn. (2) A4: U+00AC (NOT SIGN, ¬) op regel 100 in 'eigen¬vermogensbestanddelen' — PDF-extractie-artefact, waarschijnlijk een koppelteken dat fout gelezen werd. Rest van de tekst inhoudelijk volledig en coherent.",
+    "concrete_problemen": [
+      {
+        "regel": 142,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "**RESULTAATVERWERKING **"
+      },
+      {
+        "regel": 149,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "**SAMENVATTING VAN MUTATIES BINNEN HET EIGEN VERMOGEN **"
+      },
+      {
+        "regel": 153,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "**I. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN BALANSPOST **"
+      },
+      {
+        "regel": 182,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "**II. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN RESULTATENREKENING **"
+      },
+      {
+        "regel": 187,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "**III. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN OF MEER POSTEN VAN D"
+      },
+      {
+        "regel": 100,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "eigen¬vermogensbestanddelen (U+00AC NOT SIGN i.p.v. koppelteken)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: drie hoofdsecties (reserves/kapitaal, eigen aandelen, bijzondere gevallen) + synthetische overzichten I/II/III",
+      "Bestaande ## en ### headings correct gestructureerd (TOEVOEGING, EIGEN AANDELEN, BIJZONDERE GEVALLEN, Verkrijging/Vervreemding/Vernietiging)",
+      "Acht voetnoten correct gekoppeld en volledig aanwezig",
+      "Genummerde en bullet-lijsten correct als markdown opgemaakt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0124-01-fusie-inbreng-van-een-onderdeel-van-een-onderneming-splitsing.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Korte advies-tekst (2090 tekens), volledig en zonder artefacten. Geen headings nodig (één doorlopende redenering). Frontmatter consistent. Laag-1 pass correct.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Volledig coherente drieledige structuur: vraagstelling → negatief antwoord → aanbeveling toelichting",
+      "Frontmatter themas correct: fusie, splitsing, inbreng, vergelijkende cijfers",
+      "Geen PDF-artefacten of structuurproblemen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-01-aanschaffingsprijs-bijkomende-kosten.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Volledige advies-tekst (2362 tekens) zonder artefacten. Twee voetnoten correct gekoppeld. Juridische redenering intact en coherent. Frontmatter volledig. Laag-1 pass correct.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Twee voetnoten [^1] en [^2] correct geplaatst en volledig",
+      "Structuur helder: wettelijke grondslag → uitzondering art. 29 § 3 → vraagstelling → commissie-oordeel",
+      "Frontmatter met 2 themas sober maar correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-02-inbrengprijs.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: regel 61 bevat malgevormde italic-opmaak '*Oprichtingskosten *als *Kosten van oprichting en kapitaalverhoging*' — spatie vóór tweede asterisk sluit de eerste italic niet in CommonMark, waardoor drie asterisks onbedoeld interageren. De bedoeling is duidelijk (twee aparte term-italics), maar de rendering is incorrect. Drie voetnoten correct. Rest volledig en correct.",
+    "concrete_problemen": [
+      {
+        "regel": 61,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "geboekt in de post *Oprichtingskosten *als *Kosten van oprichting en kapitaalverhoging*"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Drie voetnoten [^1], [^2], [^3] correct geplaatst en gekoppeld",
+      "Inhoud volledig: wettelijke grondslag, ratio legis, verwerkingswijze, fiscale aansluiting",
+      "Frontmatter themas correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-03-vervaardigingsprijs-toerekening-van-creditrente.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: twee regels (65 en 71) bevatten malgevormde italic-opmaak waarbij de sluitende asterisk wordt voorafgegaan door een spatie ('*Wijziging in de voorraad... *, zonder' en '*Wijziging in de bestellingen in uitvoering *(717)') — in CommonMark sluit dit de italic niet. De gebruikte termen zijn boekhoudkundige rubrieksnamen die italics verdienen, maar de opmaak is fout. Eén voetnoot correct. Rest inhoudelijk volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 65,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "via de rubriek *Wijziging in de voorraad goederen in bewerking en gereed produkt...*, zonder"
+      },
+      {
+        "regel": 71,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "via de rekening *Wijziging in de bestellingen in uitvoering *(717)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en goed gestructureerd: hoofdregel → uitzondering bij prijsofferte → voorwaarden → vermelding toelichting",
+      "Voetnoot [^1] correct gekoppeld",
+      "Italic *percentage of completion method* op regel 77 correct opgemaakt",
+      "Frontmatter themas correct"
+    ]
+  }
+]

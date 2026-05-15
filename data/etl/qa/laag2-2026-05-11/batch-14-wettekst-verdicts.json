@@ -1,0 +1,130 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/toelichting-PB-2025-deel2.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Drie klassen van extractie-artefacten aanwezig. (1) A1/A2: de INHOUDSTAFEL staat volledig in de body met losstaande paginanummers op eigen regels (3, 5, 6, 8, 21, 27 ...) door het hele TOC-blok heen (regels 59–110). (2) B4/B5: secties als 'Vak XV', 'Vak XVI', 'Vak XVII' enz. worden 66× als plain-text herhaald als pagina-koptekst in plaats van heading (bijv. regels 207, 247, 320 ...); ook 'INHOUDSTAFEL' en 'ALGEMENE INLICHTINGEN' zijn plain-text in plaats van ##-heading. (3) A6/A7: twee bevestigde woord-afkappingen over pagina-grenzen heen: 'be10\\n\\nVak XV\\n\\ntaald' (regel 460) en 'beroepswerkzaam51\\n\\nVak XVIII' (regel 2438), waarbij het paginanummer midden in het woord is geplakt. Inhoud (alle vakken XIV–XXII aanwezig) en wetsvolgorde zijn verder correct.",
+    "concrete_problemen": [
+      {
+        "regel": 59,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "INHOUDSTAFEL\\nALGEMENE INLICHTINGEN\\n\\n3\\n\\n## VAK XIV..."
+      },
+      {
+        "regel": 63,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "3\\n\\n## VAK XIV - BEROEP EN ONDERNEMINGSNUMMER\\n\\n5"
+      },
+      {
+        "regel": 111,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "2\\n\\n\\nALGEMENE INLICHTINGEN\\nDe voorbereiding van de aangifte (deel 2)"
+      },
+      {
+        "regel": 116,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "## Deel 2 van de voorbereiding van de aangifte in de personenbelasting is bestemd voor:"
+      },
+      {
+        "regel": 207,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Vak XV - DIVERSE INKOMSTEN (66x herhaald als plain-text pagina-koptekst)"
+      },
+      {
+        "regel": 460,
+        "categorie": "A6",
+        "type": "scrambled-words",
+        "voorbeeld": "...zijn be10\\n\\n\\nVak XV\\n\\ntaald of toegekend..."
+      },
+      {
+        "regel": 2438,
+        "categorie": "A6",
+        "type": "scrambled-words",
+        "voorbeeld": "...stopzetting van uw beroepswerkzaam51\\n\\n\\nVak XVIII"
+      },
+      {
+        "regel": 3343,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "276.1 DEEL 2 NED.\\n\\nbedrijfsrevisor\\n\\n70"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 9 inhoudelijke vakken (XIV t/m XXII) aanwezig en structureel herkenbaar als ## headings",
+      "Lopende tekst per sectie is leesbaar en correct opgemaakt met bullets (•) en ▲ Opgelet-blokken",
+      "Frontmatter compleet en consistent met de body",
+      "Geen OCR-verwarring of kolom-bleed vastgesteld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/toelichting-VenB-2025.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Vier klassen van artefacten. (1) B4: alle 25 hoofdsecties ('VAK - RESERVES', 'VAK - VERWORPEN UITGAVEN', 'VOORAFGAANDE OPMERKINGEN', 'GEBRUIKTE AFKORTINGEN', 'DEFINITIES', 'ONDERWORPEN BELASTINGPLICHTIGEN', 'BANKINFORMATIE', etc.) zijn als plain-text all-caps regels in de body in plaats van ## headings; dit maakt chunking onmogelijk. (2) B5: twee artikelverwijzingen zijn ten onrechte als ## heading gemarkeerd: 'Art. 307, § 1/2, WIB 92...' (regel 1461) en 'Art. 207, WIB 92...' (regel 1851) — dit zijn proza-zinnen, geen sectie-titels. (3) A1: losstaand 'be' op regel 63 (fragment van 'fin.belgium.be' gesplitst over de regel) plus '• \\n\\n' als PDF-glyph-artefact direct erna. (4) A1: '- 18 -' paginanummer embedded midden in een zin (regel 1189): '...CO2- 18 -\\n\\nuitstootgehalte...', wat de zin breekt. Inhoud (alle aangiftevakken aanwezig t/m Diamant Stelsel) is verder compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 63,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "fin.belgium.be\\n\\nbe\\n\\n•\\n\\n\\nBELANGRIJKE OPMERKINGEN..."
+      },
+      {
+        "regel": 65,
+        "categorie": "C1",
+        "type": "bullet-glyph",
+        "voorbeeld": "•\\n\\n\\nBELANGRIJKE OPMERKINGEN (•-glyph als PDF-bullet zonder context)"
+      },
+      {
+        "regel": 90,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "VOORAFGAANDE OPMERKINGEN (plain-text all-caps in plaats van ## heading)"
+      },
+      {
+        "regel": 112,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "GEBRUIKTE AFKORTINGEN (plain-text all-caps in plaats van ## heading)"
+      },
+      {
+        "regel": 425,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "VAK - RESERVES (25x: alle hoofdvakken als plain text, geen ## heading)"
+      },
+      {
+        "regel": 1189,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "...CO2- 18 -\\n\\nuitstootgehalte gelijk aan dit van het overeenstemmende voertuig..."
+      },
+      {
+        "regel": 1461,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "## Art. 307, § 1/2, WIB 92, bepaalt dat de vennootschap gehouden is aangifte te doen..."
+      },
+      {
+        "regel": 1851,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "## Art. 207, WIB 92, voorziet ook in een aftrekbeperking, de zogenaamde 'fiscale korf'..."
+      },
+      {
+        "regel": 3265,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "MODEL 275.1 Ned. (formulier-code als artefact in de body)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Volledige inhoud aanwezig: alle aangiftevakken, Diamant Stelsel-sectie, Definities en Afkortingen",
+      "Lopende proza-tekst per sectie inhoudelijk correct en leesbaar",
+      "Geen OCR-verwarring of kolom-bleed vastgesteld",
+      "Frontmatter consistent met de body"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-2016-05-waardering-van-voorraden-gezamenlijke-aankoop-en-doorverkoop-per-stuk.md
+resources/bronnen/adviezen/CBN-2016-07-verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro.md
+resources/bronnen/adviezen/CBN-2016-08-bepaling-van-de-omzet-van-een-franchisenemer.md
+resources/bronnen/adviezen/CBN-2016-09-verwerving-van-een-bebost-terrein.md
+resources/bronnen/adviezen/CBN-2016-11-boekhoudkundige-verwerking-van-de-cross-currency-swap.md
+resources/bronnen/adviezen/CBN-2016-12-verjaarde-schulden.md
+resources/bronnen/adviezen/CBN-2016-13-verenigingen-en-stichtingen-roerende-voorheffing.md
+resources/bronnen/adviezen/CBN-2016-14-bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015.md
+resources/bronnen/adviezen/CBN-2016-15-vergoedingen-aan-bestuurders-en-werkende-vennoten.md
+resources/bronnen/adviezen/CBN-2016-16-kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18.md

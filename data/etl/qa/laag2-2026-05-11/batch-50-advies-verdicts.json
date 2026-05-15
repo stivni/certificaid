@@ -1,0 +1,203 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: de inhoudsopgave verschijnt tweemaal — eenmaal als genummerde lijst (regels 70–96) en eenmaal als aaneengesloten platte tekst op regel 96 ('-- Horizontale consolidatie -- Verticale consolidatie...'). Dit is een klassiek TOC-duplicaat-artefact. D4: op regels 162, 166, 172–176 staan malformed bold-spans met spatie vóór de sluitende `**` (bv. `**onweerlegbaar **`, `**Voorbeeld 3 **`, `**Voorbeeld 4 **`). C3: opsommingen in Voorbeeld 6 (regels 186–203) zijn als ingesprongen plain-text weergegeven met spaces (pseudo-tabel), geen markdown-list. Verder inhoud compleet en voetnoten correct gekoppeld.",
+    "concrete_problemen": [
+      {
+        "regel": 96,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "-- Horizontale consolidatie -- Verticale consolidatie voorafgaand aan de horizontale consolidatie Belangen van derden Bezit van eigen aandelen"
+      },
+      {
+        "regel": 162,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "**onweerlegbaar **vermoeden van centrale leiding"
+      },
+      {
+        "regel": 166,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "**Voorbeeld 3 **(vennootschappen houden een deelneming aan in elkaar)"
+      },
+      {
+        "regel": 186,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "     a (natuurlijke persoon) bezit 25 %\n     b (natuurlijke persoon) bezit 24 %"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle hoofdsecties correct als ## headings, subsecties als ### headings — goede hiërarchie",
+      "Markdown-tabellen correct in pipe-syntax met uitgebreide consolidatievoorbeelden",
+      "Voetnoten [^1]–[^78] volledig gedefinieerd onderaan, geen losstaande markers",
+      "Inhoud volledig: definitie, consolidatieverplichting, consolidatiemethode, voorbeelden 1–12"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2022-10-boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D3: regel 198 bevat een losstaande voetnoot-aanroep `[^35][^36]` op een volledig lege regel, zonder tekst eromheen — dit is een floating-footnote-artefact dat niet bij een zin hoort. B3: de heading `## Voorbeeld 1` (regel 140) en `## Voorbeeld 2` (regel 188) zijn op hetzelfde niveau als inhoudelijke secties zoals `## Boekhoudkundige verwerking`, wat een inconsistente hiërarchie geeft maar geen harde fout. Verder is het document inhoudelijk volledig en goed gestructureerd.",
+    "concrete_problemen": [
+      {
+        "regel": 198,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": " [^35][^36]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Markdown-tabellen (boekingsjournalen) correct in pipe-syntax met rekening/omschrijving/debet/credit kolommen",
+      "Voetnoten 1–39 volledig gedefinieerd en consistent aangehaald",
+      "Inhoud compleet: verwijlinteresten, forfaitaire vergoedingen, kredietbeperkingstoeslag, minderheidsstandpunt",
+      "Geen TOC-residu, geen form-feeds, geen OCR-verwarring"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2022-12-boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6/A7: op meerdere plaatsen (regels 383–388, 463–471, 572–578) staat een tabelcel met de tekst van het eigen vermogen afgebroken over meerdere afzonderlijke regels buiten de pipe-syntax (bv. `| *Eigen vermogen* |` gevolgd door een lege regel en dan `5.500` op een nieuwe regel). Dit is een kolom-extractie-artefact: de cel-inhoud is niet op één regel gebleven. Voorbeeld 5 (regels 630) bevat een pseudotabel-regel (`   7.500 Inbreng / Kapitaal 7.500`) als plain text. Voorbeeld 5 (regels 673–676, 702–704) heeft ook malformed bold/italic met inspringing (`20 % **+ 400**`). Voetnoten compleet, inhoud omvangrijk maar volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 383,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "| C |\n| Activum 1 | | 2.000 | | *Eigen vermogen* | |\n\n5.500\n\n  |"
+      },
+      {
+        "regel": 463,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "| C |\n| Activum 1 | | 2.000 | | *Eigen vermogen* | |\n\n8.500\n\n  |"
+      },
+      {
+        "regel": 630,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "   7.500 Inbreng / Kapitaal 7.500"
+      },
+      {
+        "regel": 675,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "20 % **+ 400**) | | 560 |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Uitgebreid en inhoudelijk volledig: 6 voorbeelden met volledige boekhoudkundige uitwerking",
+      "Voetnoten [^1]–[^49] volledig gedefinieerd",
+      "Heading-hiërarchie grotendeels correct (##/### voor secties en voorbeelden)",
+      "Pipe-tabellen voor de meeste balansen correct geformatteerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2022-13-boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A7: in alle balansvoorbeelden (regels 136–144, 146–155, 159–170, etc.) staat 'Beginvermogen' als aparte regel buiten de pipe-tabel, gevolgd door het bedrag op de volgende regel buiten de tabel — de tabelcel is gebroken in plain text door een extractie-fout. Dit patroon herhaalt zich door het hele document (Voorbeeld 1, 2, 3, 4). De boekhouding-journalen (regels 313–322) zijn correct in pipe-syntax. Voetnoten volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 136,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "| Vlottende activa | | 4.000 | |\n\nBeginvermogen\n\n  | | 5.000 |"
+      },
+      {
+        "regel": 146,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "| Vlottende activa | | 9.500 | |\n\nBeginvermogen\n\n  | | 8.000 |"
+      },
+      {
+        "regel": 231,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "| Vlottende activa | | 2.000 | |\n\nBeginvermogen\n\n  | | -2.000 |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: definitie, toepassingsgebied, continuïteitsbeginsel, 4 uitgewerkte voorbeelden",
+      "Voetnoten [^1]–[^38] volledig aanwezig",
+      "Boekhoudkundige journaalboekingen correct in pipe-tabelformaat",
+      "Heading-hiërarchie correct (#, ##, ###, ####)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2022-16-omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Kort advies (7 headings, ~7600 chars). Geen zichtbare extractie-artefacten: geen TOC-duplicaten, geen gebroken tabelcellen, geen malformed bold/italic, geen floating footnotes. Voetnoten [^1]–[^13] volledig gedefinieerd. Drie concrete voorbeelden correct als ### subsecties. Inhoud compleet voor het onderwerp (omzetting VOF→BV, BV→CommV, NV→BV).",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Geen PDF-extractie-artefacten zichtbaar",
+      "Heading-hiërarchie correct (#, ##, ###)",
+      "Voetnoten volledig en consistent",
+      "Inhoud volledig voor het korte onderwerp"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2024-01-vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen zichtbare extractie-artefacten. Balansvoorbeelden in pipe-tabellen zijn correct opgemaakt met meerregelige cellen als subrekeningen (bv. '1319.0 Overige...' en '1319.1 Latente...' als afzonderlijke rijen), wat inhoudelijk correct is en niet het 'gebroken cel'-patroon van 2022/13. Voetnoten [^1]–[^27] volledig. Drie situaties (materiële vaste activa, geldbeleggingen, onbeschikbare reserve) volledig uitgewerkt.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Pipe-tabellen correct voor complexe balansen met subrekeningen",
+      "Voetnoten volledig en gedetailleerd",
+      "Inhoud compleet: boekhoudkundige verwerking + 3 situaties + VZW vereenvoudigde boekhouding",
+      "Geen TOC-residu, geen gebroken tabelrijen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2024-02-belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: de inhoudsopgave verschijnt tweemaal — eenmaal als genummerde/geïndenteerde lijst (regels 79–131) en eenmaal als aaneengesloten platte tekst zonder opmaak op regels 130–132 ('-- Verplichtingen eigen aan buitenlandse...'). Dit is een duidelijk TOC-duplicaat. Overigens is het document inhoudelijk volledig en zeer uitgebreid (40 headings per layer1). Voetnoten [^1]–[^77] volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 130,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "-- Verplichtingen eigen aan buitenlandse verenigingen en stichtingenHet begrip 'bijkantoor'Publicatieverplichtingen van buitenlandse verenigingen en stichtingen..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: 11 hoofdsecties met subsecties, volledig uitgewerkt",
+      "Voetnoten [^1]–[^77] volledig aanwezig",
+      "Heading-hiërarchie correct tot 5 niveaus (#####)",
+      "Geen OCR-verwarring, geen gebroken tabelrijen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2024-04-terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig. Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen TOC-residu, geen malformed bold/italic.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Journaalboekingen correct als pipe-tabellen met rekening/omschrijving/debet/credit",
+      "Voetnoten volledig en inhoudelijk gedetailleerd",
+      "Twee volledige rekenvoorbeelden (hypothese 1 en 2, voorbeeld 2)",
+      "Geen extractie-artefacten zichtbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2024-05-boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Zeer kort advies (~5500 chars, 4 headings). Geen extractie-artefacten. Inhoud volledig voor het onderwerp (toepassingsgebied, grondslag, boekhoudkundige verwerking). Voetnoten [^1]–[^8] volledig. Geen tabellen, geen TOC.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Geen PDF-extractie-artefacten",
+      "Voetnoten volledig voor een kort advies",
+      "Inhoud duidelijk en volledig voor het afgebakende onderwerp"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2024-06-openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Zeer kort advies (~3100 chars). Layer1 meldt heading_count: 0 — het document heeft geen ## headings, enkel de # H1-titel, wat correct is voor een advies van één alinea. Geen extractie-artefacten. Voetnoten [^1]–[^4] volledig. Inhoud volledig voor het smalle onderwerp (VOF/CommV turboliquidatie en openbaarmakingsplicht).",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Geen extractie-artefacten voor dit zeer korte document",
+      "Voetnoten volledig",
+      "Inhoud coherent en compleet voor het smalle toepassingsgebied"
+    ]
+  }
+]

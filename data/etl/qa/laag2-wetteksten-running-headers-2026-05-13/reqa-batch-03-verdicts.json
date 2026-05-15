@@ -1,0 +1,108 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB48-levering-vervoermiddelen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Artikel-/§-linewraps die in vorige QA werden gevlagd (regel 54-55 'artikel 53,\\n§ 1...' en regel 120-121 'artikel\\n6.') zijn nu opgelost door merge_article_reference_wraps. Echter het word-concat-artefact 'hetWetboek' op regel 69 (missing space tussen 'het' en 'Wetboek') is een aparte pdftotext-bug die niet door deze transformer wordt aangepakt en nog altijd direct opvalt voor een buitenstaander. Ook de onnatuurlijke witregel tussen 'a)' en 'b)' in de enumeratielijst (regel 76-78) blijft staan.",
+    "concrete_problemen": [
+      "Regel 69: 'van hetWetboek' (ontbrekende spatie) — pdftotext word-concat-bug, niet opgelost door merge_article_reference_wraps",
+      "Regel 76-78: lege regel binnen één enumeratielijst tussen 'a) voor de landvoertuigen' en 'b) voor schepen'"
+    ],
+    "concrete_sterke_punten": [
+      "Artikel-/§-linewraps op regels 54-55 en 120-121 nu correct gemerged (effect merge_article_reference_wraps zichtbaar)",
+      "Heading-hiërarchie consistent, amendment-blokken volledig",
+      "Geen TOC-bleed, geen Fisconet-footers, geen Franse residu"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB51-accijnsproducten.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Reeds eerder trusted bevonden, ongewijzigd. 9 artikelen met wijzigingsblokken, tekst volledig, lijstmarkers consistent. Oude spelling 'accijnsprodukten' is source-original.",
+    "concrete_problemen": [
+      "Oude spelling 'accijnsprodukten' (source-original, geen ETL-fout)"
+    ],
+    "concrete_sterke_punten": [
+      "Geen PDF-extractie-artefacten, geen linewraps, geen TOC-bleed",
+      "Amendment-blokken consistent geformatteerd",
+      "Volledige tekst, alle 9 artikelen aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Substantieel verbeterd door merge_article_reference_wraps. Alle eerder gevlagde 'Art.\\nN, KB ...' linewraps in amendment-headers (regels 103-104, 109-110, 119-120, 124-125 uit vorige QA) zijn nu correct als enkele regel weergegeven. Ook de 'artikel 58, § 4,\\n4°' wrap is opgelost (nu inline op regel 77). De resterende 'KB nr. 53, artikel 1' op regel 124 (in Art. 12-context) is een source-typo en valt onder de (source)-uitzondering. De pseudo-tabel-streepjes in Art. 2/3 zijn legitieme bullet-lijsten, geen ETL-artefact.",
+    "concrete_problemen": [
+      "Regel 124: 'KB nr. 53, artikel 1' in Art. 12-amendment-blok — source-typo (zou 'artikel 12' moeten zijn), valt onder (source)-uitzondering"
+    ],
+    "concrete_sterke_punten": [
+      "Alle amendment-header linewraps 'Art.\\nN' nu correct gemerged",
+      "Artikel-§-verwijzing 'artikel 58, § 4, 4°' nu inline (regel 77, was eerder over linebreak)",
+      "Heading-hiërarchie consistent (## Art. N), volledige tekst, 12 artikelen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB24-voldoening-bijzondere.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "merge_article_reference_wraps heeft niet ingegrepen op de meest opvallende artefacten. Het TOC-blok aan het begin (regels 56-78) met artikel-ranges 'Art. 1 - 8', 'Art. 9 - 13' als plain text blijft staan, gevolgd door duplicate hoofdstuk-/onderafdeling-headings (regels 80-88) — dat is compilatie-bleed. De Franse string 'Disposition temporaire' (regel 70) midden in NL-content is een bilingue-leak die direct opvalt. Spurious linebreaks midden in heading-tekst ('Inning en\\nInvordering', regels 62-63; 'Mini One Stop Shop\\n- VAT BE', regels 65-66) zijn niet gerepareerd. Inconsistente kapitalisatie 'AFDELING' vs 'Onderafdeling'.",
+    "concrete_problemen": [
+      "Regel 70: Franse plain-text 'Disposition temporaire Art. 13ter' tussen NL-content — bilingue residu",
+      "Regels 56-78: TOC-blok met artikel-ranges als plain text + duplicate headings die hetzelfde opnieuw introduceren",
+      "Regels 62-63, 65-66, 68: spurious linebreaks midden in onderafdeling-headings ('Inning en\\nInvordering', 'Mini One Stop Shop\\n- VAT BE')",
+      "Smart-quote inconsistentie: 'VAT BE' opent met \" maar sluit met ” (regels 66, 68)",
+      "Inconsistente capitalisatie: ## AFDELING (all-caps) vs ### Onderafdeling (kleine letters)"
+    ],
+    "concrete_sterke_punten": [
+      "Artikel-content zelf (Art. 1-24) is volledig en correct geformatteerd",
+      "Amendment-blokken consistent in §-formaat"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB52-intracommunautaire-vrijstellingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "merge_article_reference_wraps heeft de hoofdtekst niet gewijzigd. Op regel 58 staat na '## HOOFDSTUK 1' nog steeds de hoofdstuk-titel met twee leading spaces ('  Bewijsregeling inzake...'), een pdftotext-indentation-artefact. In Art. 3, §3 (regel 79) begint een opsomming met '- een bestemmingsdocument...' direct na een dubbele punt midden in de zin, met de rest van de opsomming op de volgende regel — onnatuurlijke breakpoint. Frontmatter B.S.-datum '23.12.2009' (regel 52) terwijl het KB van 2019 is, blijft een onverklaarde source-typo.",
+    "concrete_problemen": [
+      "Regel 58: '  Bewijsregeling inzake de vrijstellingen...' — twee leading spaces direct na ## HOOFDSTUK 1, pdftotext-indentation",
+      "Regel 79-80: enumeratie met '- een bestemmingsdocument...' midden in lopende zin, lijst-streepjes op aparte regels",
+      "Inconsistente hoofdstuk-headings: '## HOOFDSTUK 1' (all-caps zonder punt) terwijl in body 'hoofdstuk' lowercase staat",
+      "Frontmatter-/body-discrepantie: B.S.-datum '23.12.2009' voor een KB van 2019 (source-typo onbevestigd)"
+    ],
+    "concrete_sterke_punten": [
+      "Geen artikel-§-linewraps meer zichtbaar (effect merge_article_reference_wraps op overige content)",
+      "Heading-hiërarchie (## HOOFDSTUK / ### Art.) consistent",
+      "Amendment-blokken volledig en consistent"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB50-intracommunautaire-opgave.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "merge_article_reference_wraps heeft niet ingegrepen op het hoofdprobleem: het bestand bevat onder de kop 'Bijlage' (regels 227 e.v.) de volledige opgeheven 2009-versie van KB nr. 50 als losse content, terwijl de 2019-versie als hoofdtekst staat. Dit is compilatie-bleed uit de Fisconet-PDF, geen wettelijke bijlage. Onderaan staan ook Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334). Inconsistente hoofdstuk-kapitalisatie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). TOC-achtig blok regels 53-58 dupliceert headings.",
+    "concrete_problemen": [
+      "Regels 227-326: integrale opgenomen oude KB-50-2009 onder 'Bijlage' — geen wettelijke bijlage maar opgeheven voorgangerversie",
+      "Regels 332-334: 'KB50-Bijlage pg. Bijl./1' / 'KB50-Bijlage pg. Bijl./2 Intracommunautaire opgave' — Fisconet page-headers als plain content",
+      "Regels 53-58: TOC-blok met '## Hoofdstuk 1.' / '## Hoofdstuk 2.' / '## Hoofdstuk 3.' direct gevolgd door dezelfde hoofdstukken als sectie-headings — duplicate headings",
+      "Inconsistente kapitalisatie: 'Hoofdstuk 1' (regel 60) vs 'HOOFDSTUK 2' (150) / 'HOOFDSTUK 3' (209)",
+      "Word-concat-bugs in body: 'btweenheid' (regel 148), 'BTWidentificatienummer' / 'BTWidenti­ﬁcatienummer' (regels 238, 254), 'BTWkantoor', 'BTWeenheid' (regel 301)"
+    ],
+    "concrete_sterke_punten": [
+      "2019-versie hoofdtekst (Art. 1-17) is volledig en heading-hiërarchie binnen die sectie consistent",
+      "Amendment-blokken consistent"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB31-niet-gevestigd.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "merge_article_reference_wraps heeft de hoofdtekst niet zichtbaar verbeterd voor de gevlagde problemen. De PDF-word-concat-bugs blijven: 'BTWidentificatienummer' (regels 70, 106), 'BTWkantoor' (regel 102), 'douaneentrepot' inconsistent met 'douane-entrepot' (regels 88, 90, 92, 94, 96), 'inartikel' (regel 170). Ligatuur 'ﬁ' in 'geïdentiﬁceerd' (regels 170, 171) is OCR/extractie-artefact. In Art. 3 amendment-blok ontbreekt het artikelnummer: 'KB nr. 31, artikel, derde lid' (regel 110). Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streep+spatie residu uit PDF-afbreking.",
+    "concrete_problemen": [
+      "Regels 70, 106: 'BTWidentificatienummer' — pdftotext concat zonder spatie",
+      "Regel 102: 'BTWkantoor' / regel 301-context: 'BTWeenheid' — pdftotext concat zonder spatie",
+      "Regels 88, 90, 92, 94, 96: 'douaneentrepot' (zonder koppelteken) — pdftotext concat",
+      "Regel 110: 'KB nr. 31, artikel, derde lid' — ontbrekend artikelnummer in amendment-blok (vermoedelijk source-typo, maar onbevestigd)",
+      "Regel 170: 'inartikel 2' (concat) en ligatuur 'ﬁ' in 'geïdentiﬁceerd' — OCR/glyph-artefact",
+      "Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streep+spatie residu"
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie (## Art. N) consistent, alle 9 artikelen aanwezig",
+      "Amendment-blokken volledig en correct geformatteerd",
+      "Geen TOC-bleed, geen Franse residu, geen Fisconet-footers"
+    ]
+  }
+]

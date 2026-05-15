@@ -1,0 +1,223 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0148-04-boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: regel 234 bevat '| aan | | 52 | Vastrentende effecten | 1.000.000 |' waarbij 'aan' een extra cel creëert en de tabelstructuur verbreekt. A9: regel 280 '| | 55 | Kreditinstellingen |' — 'Kreditinstellingen' i.p.v. 'Kredietinstellingen' zoals consequent elders in het document. D3: voetnootdefinities [^3] en [^4] aanwezig (regels 292-294) maar geen overeenkomstige inline-referenties in de body. B1: heading '### 31.12.1987 : 80 000' (r.189) bevat alleen datum+getal, geen omschrijvende tekst.",
+    "concrete_problemen": [
+      {
+        "regel": 234,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| aan | | 52 | Vastrentende effecten | 1.000.000 |"
+      },
+      {
+        "regel": 280,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "| | 55 | Kreditinstellingen | 1.351.975 | |"
+      },
+      {
+        "regel": 292,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^3]: Roerende voorheffing van 25 %. (geen inline-referentie in body)"
+      },
+      {
+        "regel": 189,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "### 31.12.1987 : 80 000"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en logisch opgebouwd met twee uitgewerkte voorbeelden",
+      "Tabelstructuur correct voor de meeste boekingsschema's",
+      "Voetnoten [^1] en [^2] correct verbonden met inline-referenties in de body"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0148-05-actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: regel 245 bevat '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |' waarbij 'aan' is samengesmolten met de rekening- en omschrijvingscel in één tabelcel, waardoor de rij niet meer uitlijnt met de header. Regel 256 bevat '| | 124.553 | | | |' — een losse cijferrij buiten tabelcontext die als afzonderlijke tabelrij is geboekt.",
+    "concrete_problemen": [
+      {
+        "regel": 245,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |"
+      },
+      {
+        "regel": 256,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | 124.553 | | | |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Boekingsschema's bij emittent en oorspronkelijke inschrijver volledig en correct uitgewerkt",
+      "Mathematische formule voor actuarieel rendement van koper leesbaar weergegeven",
+      "Voetnoot [^1] correct verbonden"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0150-01-materiele-vaste-activa-onderscheid-met-voorraden.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen ETL-artefacten aangetroffen. Vier thema-secties (reserve-onderdelen, ontginningsgronden, toonzaalmateriaal, dieren) elk als ### heading correct gemarkeerd. Prose leesbaar en volledig. Voetnoot [^1] correct inline verbonden. Geen tabellen, lijsten of TOC-elementen die problemen veroorzaken.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Vier ### subheadings geven duidelijke structuur zonder hiërarchiesprongen",
+      "Alle alinea's syntactisch volledig, geen afgekapte zinnen",
+      "Voetnoot correct gebruikt en verbonden"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0150-04-investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6: regel 60 bevat 'de werkelijke kost van de energie- aankopen' met een spatie na het afbreekstreepje — PDF-afbreekstreepje dat niet is samengevoegd door de ETL-pipeline. De rest van het document (heading_count=0, één blok proza) is inhoudelijk volledig en schoon.",
+    "concrete_problemen": [
+      {
+        "regel": 60,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "de werkelijke kost van de energie- aankopen is bestemd voor de verkoper"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig uitgewerkt voor koper en verkoper",
+      "Geen tabellen of complexe opmaak die artefacten konden introduceren",
+      "Één enkel artefact; rest van document schoon"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0151-01-kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: alle drie boekingstabellen (regels 77-80, 90-93, 96-99) hebben volledig lege debet- en creditkolommen — de cijferbedragen ontbreken, wat duidelijk niet de opzet is van het advies. Bovendien staat regel 99 '| aan | | 101 | | Niet-opgevraagd kapitaal |' met een extra lege cel waardoor de kolommen verschuiven ten opzichte van de header.",
+    "concrete_problemen": [
+      {
+        "regel": 79,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | 100 | Geplaatst kapitaal | | |"
+      },
+      {
+        "regel": 99,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| aan | | 101 | | Niet-opgevraagd kapitaal |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Proza volledig en juridisch coherent",
+      "Heading ### Kapitaalvermindering correct aanwezig",
+      "Inhoud dekt zowel terugbetaling als vrijstelling van volstorting"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0152-01-boekingen-van-deviezenverrichtingen-en-verwerking-van-tegoeden-en-verplichtingen-in.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A9: regel 390 '| | 55 | Bank USA | 41.100 | |' — 'Bank USA' i.p.v. 'Bank USD' zoals consequent elders (regels 379, 418). E2: regels 1018-1026 bevatten een vergelijkingstabel Effect A/B waarbij de headerrij 6 cellen heeft maar de datarijen 8 cellen — inconsistente celtellingen. B4: regel 98 bevat een all-caps subtitel 'VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN...' als plain-text-alinea direct na de H1-heading in plaats van een ## heading.",
+    "concrete_problemen": [
+      {
+        "regel": 390,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "| | 55 | Bank USA | 41.100 | |"
+      },
+      {
+        "regel": 1018,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | | **Effect A (geldbelegging)**  | | **Effect B (geldbelegging)** |"
+      },
+      {
+        "regel": 98,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN IN DEVIEZEN EN VERWERKING VAN DE OMREKENINGSVERSCHILLEN - ALGEMENE ASPECTEN"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Uitgebreide structuur met 8 DEEL-secties als ## headings correct aanwezig",
+      "Terminologielijst in DEEL I volledig en leesbaar opgebouwd",
+      "Voetnoten consequent en correct verbonden doorheen het document"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0152-03-boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-inbreng-van-een.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1: regel 9 in gerelateerde_adviezen-veld bevat 'Risico&#039;s verbonden aan bestellingen van vaste activa' — HTML-entiteit &#039; (apostrof) niet gedecodeeerd door de scraper. Dit schaadt YAML-parsecorrectheid. Body zelf is inhoudelijk volledig en schoon.",
+    "concrete_problemen": [
+      {
+        "regel": 9,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "titel: Risico&#039;s verbonden aan bestellingen van vaste activa"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig en inhoudelijk correct",
+      "Voetnoot [^1] correct verbonden",
+      "Enkel artefact zit in frontmatter, niet in de body"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0152-06-risicos-verbonden-aan-bestellingen-van-vaste-activa.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1: HTML-entiteit &#039; (apostrof) niet gedecodeerd door de scraper, zowel in gerelateerde_adviezen-veld (r.9) als in themas-veld (r.60): 'risico&#039;s verbonden aan bestellingen van vaste activa'. YAML-parsecorrectheid geschaad. Body zelf volledig en schoon.",
+    "concrete_problemen": [
+      {
+        "regel": 9,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "titel: Risico&#039;s verbonden aan bestellingen van vaste activa"
+      },
+      {
+        "regel": 60,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "- risico&#039;s verbonden aan bestellingen van vaste activa"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig en inhoudelijk correct",
+      "Twee onderscheiden risicofactoren duidelijk gepresenteerd",
+      "Geen body-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0154-01-wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: regel 52 bevat de volledige paginatitel 'CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking' als plain-text-alinea direct na de identieke H1-heading op r.50 — een duplicate page-title artefact. Inhoud verder volledig; drie voetnoten correct verbonden.",
+    "concrete_problemen": [
+      {
+        "regel": 52,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en juridisch correct uitgewerkt",
+      "Drie voetnoten correct verbonden met inline-referenties",
+      "Enkel artefact is de duplicate title op r.52"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0156-01-attribution-au-fonds-de-solidarite.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: regel 54 bevat '*Solidariteitsfonds *' en '*Financieringsfonds *' met een spatie vóór de sluitende asterisk — malformed italic, klassiek ETL-conversie-artefact. Overige inhoud volledig en coherent; geen andere artefacten aangetroffen.",
+    "concrete_problemen": [
+      {
+        "regel": 54,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Solidariteitsfonds * of *Financieringsfonds *"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en coherent in twee alinea's",
+      "Advies correct geconcludeerd met verwijzing naar rekening 09",
+      "Enkel artefact zijn de twee malformed italics"
+    ]
+  }
+]

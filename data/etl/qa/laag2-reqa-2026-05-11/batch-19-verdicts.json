@@ -1,0 +1,295 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-05-rekening-130-wettelijke-reserve.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Volledig schone extractie. Zes headings correct genest, twee pipe-tabellen correct opgebouwd, alle voetnoten [^1]–[^12] aanwezig met definitie. Geen PDF-artefacten, geen onzichtbare unicode, geen spurious line-breaks. Inhoud compact en compleet.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Pipe-tabellen correct opgebouwd met header-separator-rijen",
+      "Alle voetnoten aanwezig en correct gelinkt",
+      "Heading-hiërarchie (# / ## / ###) consistent zonder sprongen",
+      "Geen TOC-residu of paginascheidingstekens"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-07-vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3/E2: voorbeeld-blokken op regels 61-67 en 155-165 zijn verpakt in `| ` … `| ` constructies die er uitzien als losse tabel-cellen zonder header of separator — een scraper-artefact waarbij visuele call-out-boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (`>`) of gewone alinea schrijven. Verdere inhoud en heading-structuur volledig correct.",
+    "concrete_problemen": [
+      {
+        "regel": 61,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| \\n\\n*Voorbeeld*\\n\\n  | "
+      },
+      {
+        "regel": 155,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| \\n\\n*Voorbeeld*\\n\\n  | "
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Vier hoofdsecties correct als ## headings",
+      "Alle voetnoten [^1]–[^10] aanwezig en correct",
+      "Prose inhoudelijk intact en leesbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-08-gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "C2/A6: de genummerde opsomming (punten 1–8) op regels 96–133 is niet als markdown genummerde lijst opgemaakt — elk item staat als `1. ` gevolgd door een blanco regel en dan de tekst met tab-inspringing. Dit is geen standaard markdown-lijstopmaak en een mens zou `1.`, `2.`, ... schrijven als aaneengesloten lijst. Ook regels 155-165 bevatten `| ` / `| ` voorbeeld-blok, zelfde patroon als CBN-2018-07. Inhoud inhoudelijk compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 96,
+        "categorie": "C2",
+        "type": "other",
+        "voorbeeld": "1. \\n\\nHet bepalen, ten gevolge van een gebeurtenis..."
+      },
+      {
+        "regel": 109,
+        "categorie": "C2",
+        "type": "other",
+        "voorbeeld": "2. \\n\\nDe minnelijke schikking voor een geschil..."
+      },
+      {
+        "regel": 155,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| \\n\\n*Voorbeeld*\\n\\n  | "
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Vier hoofdsecties als ## headings correct",
+      "Alle 27 voetnoten aanwezig en correct gelinkt",
+      "Inhoud van 21 547 tekens volledig aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-11-verkoop-van-oplaadbare-betaalkaarten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Bevestiging van bestaand verdict. A3: TOC-fragment op regels 67-72 staat als plain text boven de inhoud (niet verwijderd door scraper), inclusief geconcateneerde regel 'vereniging of stichtingOndernemingen…'. D4: malformed italic op regels 78, 84, 86 met spatie voor sluitende asterisk (*term *).",
+    "concrete_problemen": [
+      {
+        "regel": 67,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "1. Algemeen \\n2. Kleine\\n vereniging of stichting \\n3. Ondernemingen..."
+      },
+      {
+        "regel": 72,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "vereniging of stichtingOndernemingen en niet-kleine verenigingen en stichtingen"
+      },
+      {
+        "regel": 78,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*vouchers voor enkelvoudig gebruik[^2] *"
+      },
+      {
+        "regel": 84,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Genormaliseerd minimaal schema van de Staat van de ontvangsten en uitgaven[^5] *"
+      },
+      {
+        "regel": 86,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Andere schulden *in het* Genormaliseerd minimaal schema van de staat van het vermogen*"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Zes pipe-tabellen correct opgebouwd",
+      "Voetnoten [^1]–[^9] aanwezig en correct",
+      "Inhoud structureel volledig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-12-interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Bevestiging van bestaand verdict. E1/E2: alle tabellen (regels 90–1360) zijn volledig verminkt — elke cel staat op een aparte regel met lege regels ertussen (patroon `| \\n\\nInhoud\\n\\n  | `). Dit is een fundamenteel extractie-artefact dat de volledige tweede helft van het document beslaat en de tabellen onleesbaar maakt voor een RAG-parser.",
+    "concrete_problemen": [
+      {
+        "regel": 90,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| Zevende Richtlijn | | Richtlijn 2013/34/EU | \\n| Balans | \\n| Art. 29 \\n\\n\\t\\t\\t\\t§ 4 |"
+      },
+      {
+        "regel": 128,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| \\n\\nBoekhoudkundige afschrijving in 5 jaar\\n\\n  | \\n| \\n\\nJaren\\n\\n  | | \\n\\nX\\n\\n  |"
+      },
+      {
+        "regel": 231,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | | | | | | | | | | |  (lege separator-rijen verspreid door tabellen)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Proza-gedeelte (regels 70–116) inhoudelijk intact",
+      "Voetnoten [^1]–[^10] correct gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-13-provisie-aanvullende-dagen-verlof-arbeidsduurvermindering.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Bevestiging van bestaand verdict. D4: malformed italic op regels 74 en 76 — `die* in vast dienstverband[^4] *` en `rekening 444 *Te ontvangen facturen. *` met spatie voor sluitende asterisk. Patroon consistent met andere 2018-adviezen uit dezelfde ETL-batch.",
+    "concrete_problemen": [
+      {
+        "regel": 74,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Voor werknemers die* in vast dienstverband[^4] * werken"
+      },
+      {
+        "regel": 76,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 444 *Te ontvangen facturen. *"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee secties correct als ## headings",
+      "Inhoud compact en volledig",
+      "Voetnoten [^1]–[^4] correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-14-belastingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Bevestiging van bestaand verdict + aanvullend B5-probleem: regel 138 bevat `Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen` als plain-text-alinea zonder heading-prefix, terwijl het duidelijk een subsectie-kop betreft (vergelijk directe buren #### Rekening 6710... enz.). D4: stelselmatige malformed italic door het hele document bij rekeningnamen (spatie voor sluitende asterisk).",
+    "concrete_problemen": [
+      {
+        "regel": 138,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen"
+      },
+      {
+        "regel": 97,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 450 *Geraamd bedrag der belastingschulden*... rekening 6702 *Geraamde belastingen *wordt"
+      },
+      {
+        "regel": 129,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "een verantwoorde waardering van deze *vordering *vereist"
+      },
+      {
+        "regel": 155,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 640 *Bedrijfsbelastingen *wanneer ze negatief is"
+      },
+      {
+        "regel": 243,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "fictief karakter van de *vordering *op de overheid"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "42 headings structureel correct genest (#### niveau consistent)",
+      "Meerdere pipe-tabellen correct opgebouwd",
+      "Voetnoten [^1]–[^48] volledig aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-15-boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Bevestiging van bestaand verdict. D4: malformed italic op regels 146, 148, 217 en 235 — spatie voor sluitende asterisk (`*inrichter *`, `*pensioeninstelling *`, `***Samenvattend ***`). Regel 235 combineert bold en italic met `*alle *risico's **`. Patroon consistent met ETL-batch.",
+    "concrete_problemen": [
+      {
+        "regel": 146,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "de pensioentoezegging die door de *inrichter *wordt gegeven"
+      },
+      {
+        "regel": 148,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Opdat de *pensioeninstelling *ook effectief in staat zou zijn"
+      },
+      {
+        "regel": 217,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "***Samenvattend ***kan dus besloten worden"
+      },
+      {
+        "regel": 235,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "**Geen externalisering van *alle *risico's **"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "11 headings structureel correct genest",
+      "Inhoud van 23 596 tekens volledig aanwezig",
+      "Voetnoten [^1]–[^16] correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-16-toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Bevestiging van bestaand verdict. F1: HTML-entity `&#039;` ongedecodeerd in frontmatter-thema (regel 50). E1/E2: methode B voorbeeld-tabel (regels 304–392) gebruikt cel-per-regel patroon. Methode A voorbeeld-tabellen (regels 227–293) zijn correct als pipe-tabellen — inconsistentie wijst op partieel extractieprobleem.",
+    "concrete_problemen": [
+      {
+        "regel": 50,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "voorziening voor risico&#039;s en kosten"
+      },
+      {
+        "regel": 304,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| \\n\\n  | | \\n\\nBeurskoers\\n\\n  | | \\n\\nVerwachte retentiegraad\\n\\n  |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Methode A pipe-tabellen (regels 227–293) correct opgebouwd",
+      "Vier hoofdsecties correct als ## headings",
+      "Voetnoten [^1]–[^10] volledig aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-22-groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E1/E2: alle voorbeeld-tabellen (regels 92–547) gebruiken het cel-per-regel patroon (`| \\n\\nInhoud\\n\\n  | `), identiek aan CBN-2018-12 en CBN-2018-16. Dit beslaat alle vier voorbeelden en de geconsolideerde/geaggregeerde samenvattingstabellen. B5: subheadings `### Vennootschap A: 205.000 (d.i. 200.000 + 5.000)` op regels 162-166 mixen berekening in de heading-tekst — onnatuurlijke constructie (berekening hoort in body). Prose-secties inhoudelijk correct.",
+    "concrete_problemen": [
+      {
+        "regel": 92,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| \\n\\n  | | \\n\\n**Rekening 70[^9]** \\n\\n  | | \\n\\n**Rekening 74[^10]** \\n\\n  |"
+      },
+      {
+        "regel": 241,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "## Geconsolideerd bedrag[^19]\\n\\n  | | \\n\\n8.759.000[^20] \\n\\n  |"
+      },
+      {
+        "regel": 162,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "### Vennootschap A: 205.000 (d.i. 200.000 + 5.000)[^12]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "28 headings structureel aanwezig en logisch genest",
+      "Voetnoten [^1]–[^38] volledig aanwezig en correct gelinkt",
+      "Prose-uitleg bij elke berekening inhoudelijk intact"
+    ]
+  }
+]

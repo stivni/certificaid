@@ -1,0 +1,112 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB23jun2005-delegatie-samenwerking.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "promote_wettekst_section_labels heeft 'Enig artikel' op regel 48 succesvol gepromoot naar '## Enig artikel' heading. Bestand bevat nu een retrieval-anker voor de centrale bepaling. Hoofdtekst (1 artikel) is volledig en schoon. Geen PDF-extractie-artefacten. Frontmatter klopt.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "'## Enig artikel' heading op regel 48 (was plain text)",
+      "Compacte schone tekst, geen ETL-residu",
+      "Frontmatter consistent met body"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB28okt2009-model-berichten-93ter.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "promote_wettekst_section_labels heeft 'Bijlage 1/2/3' op regels 72, 74, 76 succesvol gepromoot naar '## Bijlage N' headings. Maar de bijlagen blijven volledig leeg — er staat geen content onder. Voor RAG levert dit drie nutteloze section-ankers zonder body op. Een buitenstaander ziet drie naakte 'Bijlage'-headings onderaan; duidelijk onafgemaakt. Een strip_empty_trailing_headings transformer ontbreekt nog, of de bijlagen-inhoud moet alsnog uit de PDF worden meegenomen.",
+    "concrete_problemen": [
+      "Regels 72, 74, 76: '## Bijlage 1', '## Bijlage 2', '## Bijlage 3' zonder content eronder — lege section-ankers",
+      "Bijlagen-content (modelberichten 93ter/93quinquies en 433/435) ontbreekt — kerncontent van het MB"
+    ],
+    "concrete_sterke_punten": [
+      "Hoofdtekst (Art. 1-5) volledig schoon",
+      "'Bijlage N' nu wel als ## heading (transformer heeft gewerkt)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB7-invoer.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Hoofdtekst (47 artikelen verspreid over 6 hoofdstukken) is structureel sterk en de fix_pdftotext_glue_bugs uitbreiding heeft 'btwidentificatienummer' aangepakt (regel 855 toont nu correct 'btw-identificatienummer'). Echter regel 855 (Art. 39 §1) bevat nog steeds de afgekapte zin '...artikel 39bis, eerste lid, 4°, van het Bovendien is...' — ontbrekend woord (waarschijnlijk 'Wetboek.') tussen 'het' en 'Bovendien'. Bijlage (regels 1083-1106) heeft nog zware table-bleed: GN-codes en omschrijvingen versmolten zonder pipe-syntax. Regels 968-994 en 1021-1034 hebben tabak/alcohol/koffie pseudo-tabel-bleed met hoeveelheden midden in lopende tekst.",
+    "concrete_problemen": [
+      "Regel 855: 'van het Bovendien is...' — afgekapte zin in Art. 39 §1",
+      "Regels 1083-1106 (Bijlage): GN-codes en omschrijvingen versmolten zonder tabel-structuur",
+      "Regels 968-994 (Art. 43 §2 3°): tabaksprodukten/alcohol pseudo-tabel met losse '-' bullets en samengeperste hoeveelheden",
+      "Regels 1022-1034 (Art. 44 §3): kleine zendingen pseudo-tabel met categorieën door elkaar"
+    ],
+    "concrete_sterke_punten": [
+      "Drie-niveaus heading-hiërarchie (HOOFDSTUK > AFDELING > Art.) consistent",
+      "fix_pdftotext_glue_bugs uitbreiding werkt: 'btw-identificatienummer' nu correct",
+      "Geen ﬁ/ﬂ ligaturen meer"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB52-intracommunautaire-vrijstellingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "merge_article_reference_wraps heeft hoofdtekst niet aangepast. Regel 59 toont nog steeds twee leading spaces voor hoofdstuk-subtitel ('  Bewijsregeling inzake...'), pdftotext-indentation-artefact dat in alle drie hoofdstukken voorkomt (regels 59, 109, 118). In Art. 3 §3 (regel 80) begint enumeratie met '- een bestemmingsdocument...' direct na een dubbele punt midden in lopende zin — onnatuurlijke breakpoint. Frontmatter B.S.-datum '23.12.2009' bij KB van 2019 blijft een onverklaarde source-typo.",
+    "concrete_problemen": [
+      "Regels 59, 109, 118: leading spaces voor hoofdstuk-subtitels (pdftotext-indentation)",
+      "Regels 80-81: enumeratie '- een bestemmingsdocument...' midden in lopende zin",
+      "Frontmatter-/body B.S.-datum '23.12.2009' bij KB van 11.12.2019 (source-typo)",
+      "Mid-zin breaks: regel 74-76 ('Die documenten omvatten onder meer de\\n\\nvervoerdocumenten...'), regel 95-97"
+    ],
+    "concrete_sterke_punten": [
+      "## HOOFDSTUK + ### Art. structuur consistent",
+      "Geen ﬁ/ﬂ ligaturen of evidente pdftotext glue-bugs"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB39-regeling-93duodecies.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Bestand bevat opgeheven KB (1980, opgeheven 01.01.2020). Inhoudelijk OK maar voetnoot (1) doorkruist Art. 3 inhoudelijk (regels 74-78): 'Art. 138... 1°... 5°... 6°... ## Art. 139: De Koning kan...'. Die '## Art. 139' is een PDF-doorkruising van een footnote en krijgt een eigen heading-anker — schadelijk voor retrieval want lijkt op een echt artikel. Daarna pas op regel 80 het Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Geen ETL-fix gedaan voor footnote-bleed.",
+    "concrete_problemen": [
+      "Regels 74-78: footnote-bleed in Art. 3 — Art. 138/139 als fake content tussen Art. 3-tekst",
+      "Regel 78: '## Art. 139: De Koning kan...' is footnote-residu maar krijgt heading-anker",
+      "Regel 80: echte Art. 3-vervolg verschijnt pas na footnote-injectie"
+    ],
+    "concrete_sterke_punten": [
+      "Art. 1-2 en Art. 4-7 hebben schone structuur en heading-hiërarchie",
+      "Geen pdftotext glue-bugs"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB4-teruggaven.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Significante PDF-extractie-artefacten blijven. Artikel-nummering klopt niet: '## Art. 81' (regel 134), '## Art. 82' (regel 211), '## Art. 83' (regel 220) — dit zijn in werkelijkheid Art. 8/1, 8/2, 8/3, want amendment-blok refereert expliciet 'KB nr. 4, artikel 8/1, § 2'. De heading-extractie negeert de slash. Regel 153: 'btwtarief' zonder koppelteken (uitbreiding fix_pdftotext_glue_bugs heeft dit niet gevangen). Regel 244: 'artikel. 9' met eigenaardige punt. Lange Art. 8/1-paragrafen met mid-sentence linebreaks (regels 161, 188-190).",
+    "concrete_problemen": [
+      "Regels 134, 211, 220: '## Art. 81/82/83' zijn in werkelijkheid Art. 8/1, 8/2, 8/3 (slash genegeerd in heading-extractie)",
+      "Regel 153: 'btwtarief' zonder koppelteken (fix_pdftotext_glue_bugs miste dit)",
+      "Regel 244: 'artikel. 9' met overbodige punt",
+      "Regels 188-190: 'in artikel 53, § 1, eerste lid, 2°, van het\\n\\nWetboek bedoelde aangifte' — spurious linebreak mid-zin"
+    ],
+    "concrete_sterke_punten": [
+      "Hoofdtekst van Art. 1-7 en Art. 9-16 structureel OK",
+      "Heading-hiërarchie consistent waar nummers wel kloppen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Structuur OK maar meerdere problemen blijven. Regel 73: 'belasting over de toegevoegde waaronder hij ressorteert' — afgekapte zin, ontbrekend 'waarde' (source-typo of ETL?). Regel 98-99: 'koninklijk besluit nr.\\n4,' — spurious linebreak in referentie. Regel 120-121: 'artikel 51, § 2, eerste lid,\\n1°,' — spurious linebreak in artikel-referentie. Pattern komt herhaaldelijk voor; merge_article_reference_wraps heeft deze niet gevangen.",
+    "concrete_problemen": [
+      "Regel 73: 'belasting over de toegevoegde waaronder' — ontbrekend 'waarde' (afgekapte zin)",
+      "Regel 98-99: 'koninklijk besluit nr.\\n4,' — spurious linebreak in referentie",
+      "Regel 120-121: 'artikel 51, § 2, eerste lid,\\n1°,' — spurious linebreak in artikel-referentie",
+      "Regel 83-85: 'op papier of in elektronisch\\n\\nformaat' — mid-zin break met dubbele witregel"
+    ],
+    "concrete_sterke_punten": [
+      "## Art. N heading-hiërarchie consistent",
+      "Frontmatter klopt met body"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB11-verleggen-maatstaf.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Kort 5-artikel KB. fix_pdftotext_glue_bugs uitbreiding heeft de eerdere spurious linebreaks 'Art.\\n15,' en 'Art.\\n19,' gefixed: regels 56 en 61 tonen nu 'Art. 15,' en 'Art. 19,' op één regel. Body en frontmatter zijn schoon, heading-hiërarchie consistent. Geen overige PDF-artefacten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Spurious linebreaks 'Art.\\nN,' in annotaties nu fixed (regels 56, 61)",
+      "Compacte tekst, alle artikelen volledig",
+      "Frontmatter klopt met body"
+    ]
+  }
+]

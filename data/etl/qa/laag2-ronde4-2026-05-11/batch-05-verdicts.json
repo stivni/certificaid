@@ -1,0 +1,244 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0152-03-boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-inbreng-van-een.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1 r.9: HTML-entiteit '&#039;' (apostrof) niet gedecodeerd door de scraper in het gerelateerde_adviezen-veld (titel 'Risico&#039;s verbonden aan bestellingen van vaste activa') — ETL-bug, geen source-typo. Body zelf volledig en schoon; één voetnoot correct verbonden.",
+    "concrete_problemen": [
+      {
+        "regel": 9,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "titel: Risico&#039;s verbonden aan bestellingen van vaste activa"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig en coherent (4 alinea's, volledige redenering)",
+      "Voetnoot correct verbonden met [^1]-definitie",
+      "Geen structuur- of tekst-artefacten in de body"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0152-06-risicos-verbonden-aan-bestellingen-van-vaste-activa.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1 r.56: HTML-entiteit '&#039;' niet gedecodeerd in het themas-veld ('risico&#039;s verbonden aan bestellingen van vaste activa') — ETL-bug. Body inhoudelijk volledig en structureel schoon.",
+    "concrete_problemen": [
+      {
+        "regel": 56,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "- risico&#039;s verbonden aan bestellingen van vaste activa"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig: casus, analyse en drie genummerde conclusies aanwezig",
+      "Geen heading- of tekst-artefacten in de body"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0154-01-wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3 r.52: paginatitel 'CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking' herhaald als plain-text alinea direct na de identieke H1-heading op r.50 — klassiek HTML-scrape-artefact (duplicate page-title). Inhoud verder volledig; drie voetnoten correct verbonden.",
+    "concrete_problemen": [
+      {
+        "regel": 52,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig en coherent over bestendigheidsplicht en waarderingsregelwijzigingen",
+      "Drie voetnoten correct verbonden"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0156-01-attribution-au-fonds-de-solidarite.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4 r.54: '*Solidariteitsfonds *' en '*Financieringsfonds *' bevatten een spatie vóór de sluitende asterisk — malformed italic-markers, ETL-conversie-artefact. Overige inhoud volledig en coherent.",
+    "concrete_problemen": [
+      {
+        "regel": 54,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Solidariteitsfonds * of *Financieringsfonds *"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig: casus, contractanalyse en advies (rekening 09) aanwezig",
+      "Geen structuur- of extractie-artefacten buiten de malformed italic-markers"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0157-01-tijdstip-waarop-de-winst-is-gerealiseerd.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3 r.66: volledige H1-titel 'CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd ' (met trailing spatie) herhaald als plain-text alinea direct na de H1-heading op r.64 — HTML-scrape-artefact. Inhoud overigens volledig en correct.",
+    "concrete_problemen": [
+      {
+        "regel": 66,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd "
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig: casus, realisatiebeginsel en verwijzing naar KB correct aanwezig",
+      "Geen andere structuur- of tekst-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0167-02-boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6 r.124-131: zin over kwalificatiecriteria breekt mid-zin af ('de dekkingsverrichting moet van in het begin als dusdanig worden geïdentificeerd Bij de als dekking') gevolgd door vervolg op losstaande alinea — klassiek column-extraction-artefact. E2 r.261-306 en r.424-447: resultaattabellen met multi-line celinhoud (tabs/lege regels binnen tabelrijen) buiten geldige pipe-syntax — onleesbaar in elke renderer. B3 r.167-192: dubbel lijstitem (call-optie dekking van geschreven call) identiek herhaald.",
+    "concrete_problemen": [
+      {
+        "regel": 124,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "worden geïdentificeerd Bij de als dekking \n\nbestemde verrichtingen moet een onderscheid"
+      },
+      {
+        "regel": 129,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "2. de onderneming wapenen...waarbij zij evenwel\n\n\tgeheel of gedeeltelijk de voordelen"
+      },
+      {
+        "regel": 167,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "een call-optie bezit...verkocht. (regel 167-169 en opnieuw identiek op 170-192)"
+      },
+      {
+        "regel": 261,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| - Van 20.09.91 \n\n\t\t\t\ttot 1.10.91 \n\n\t\t\t\t100 x (128 - 126,4)"
+      },
+      {
+        "regel": 424,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | (tijdswaarde) | 150 | | |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: alle 4 voorbeelden + deel IV samenvatting aanwezig",
+      "Boekingsschema's in geldige pipe-tabel formaat",
+      "29 headings en 15 voetnoten correct aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0169-02-verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A9 r.138: '## (Oordpronkelijke) cedent van het aandeel' — 'Oordpronkelijke' is een OCR/extractie-corruptie van 'Oorspronkelijke' (letters omgewisseld). A9 r.196: '## (Ooorspronkelijke) cessionaris van het aandeel' — extra 'o' ingevoegd. Beide headings zijn structureel in de navigatie zichtbaar. Rest van het document inhoudelijk volledig en structureel correct.",
+    "concrete_problemen": [
+      {
+        "regel": 138,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "## (Oordpronkelijke) cedent van het aandeel"
+      },
+      {
+        "regel": 196,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "## (Ooorspronkelijke) cessionaris van het aandeel"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: beide benaderingen, 6 boekhoudschema's en alle 8 voetnoten aanwezig",
+      "Boekingsschema's in correcte pipe-tabel formaat",
+      "19 headings correct aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0171-boekhoudkundige-verwerking-van-afvalstoffen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A9 r.92: '| | 602 | AAankopen van diensten of | | |' — dubbele 'A' in tabelcel is OCR-duplicatie-artefact. A6 r.192-194: slotzin 'zal enkel voor de tweede benadering kunnen worden' gevolgd door lege regel en 'geopteerd.' op aparte alinea — afgebroken alinea-patroon uit PDF-paginabreuk.",
+    "concrete_problemen": [
+      {
+        "regel": 92,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "| | 602 | AAankopen van diensten of | | |"
+      },
+      {
+        "regel": 192,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "zal enkel voor de tweede benadering kunnen worden\n\ngeopteerd."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: 3 hoofdsecties + alle subsecties aanwezig",
+      "Boekingsschema's correct in pipe-tabel formaat",
+      "5 headings en 1 voetnoot correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0172-01-opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2 r.444-447: balanstotaal '**11.550.000**' staat als '## 11.550.000' heading op een losstaande regel buiten de tabelmarkering — tabelrij kapot, totaal als heading geparsed. E2 r.582-584: 'Handelsschulden[^68]' staat op een zelfstandige alinea die een tabelrij onderbreekt, waarna '| | 600.000 |' als losse cel-fragment volgt. D4 r.605: '*Opmerking*en' (spatie-inconsistente italic-sluiting, woordsamentrekking) — ETL-conversie-artefact. Hoofdstructuur (56 headings, 3 voorbeelden, 94 voetnoten) is verder intact.",
+    "concrete_problemen": [
+      {
+        "regel": 446,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "## 11.550.000\n  | | | | **11.550.000** |"
+      },
+      {
+        "regel": 582,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "Handelsschulden[^68] \n\n  | | 600.000 |"
+      },
+      {
+        "regel": 605,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Opmerking*en"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Hoofdstructuur intact: 56 headings, 3 volledige voorbeelden en 94 voetnoten aanwezig",
+      "Monetaire/niet-monetaire methode volledig beschreven",
+      "Boekingsschema's in de meeste secties correct in pipe-tabel formaat"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0173-05-toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2 r.173-181: de twee RESULTATENREKENING-samenvattingstabellen zijn ernstig verminkt — cellen staan als losstaande regels met wisselende inspringing buiten de pipe-tabel ('60.000 | | 47.872,3' en '15.000 |' als losse tabfragmenten), waardoor de samenvatting onleesbaar is. D3 r.193-195: voetnoot 4 eindigt mid-zin ('conform voetnoot') en voetnoot 5 begint met 'van advies 173/1 over...' — de voetnootreferentie en -tekst zijn door een extractie-artefact over twee afzonderlijke voetnoten opgeknipt.",
+    "concrete_problemen": [
+      {
+        "regel": 173,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| **RESULTATENREKENING OP 31/12/1998**  | \n|---|\n| 60.000 | | 47.872,3"
+      },
+      {
+        "regel": 177,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "\t\t\t\t15.000 |"
+      },
+      {
+        "regel": 193,
+        "categorie": "D3",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "In dit verband wenst de Commissie, conform voetnoot"
+      },
+      {
+        "regel": 195,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "van advies 173/1 over de boekhoudrechtelijke aspecten van de overschakeling..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: rekenkundige uitwerking van termijnwisselverrichting aanwezig",
+      "Boekingsschema's bij de afsluiting, jaarafsluiting en afwikkeling correct in pipe-tabel formaat",
+      "3 headings correct aanwezig"
+    ]
+  }
+]

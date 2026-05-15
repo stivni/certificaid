@@ -1,0 +1,245 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0152-01-boekingen-van-deviezenverrichtingen-en-verwerking-van-tegoeden-en-verplichtingen-in.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Vorig verdict bevestigd. A9 r.390: 'Bank USA' i.p.v. 'Bank USD' (consequent in rest van het document). E2 r.1018-1026: vergelijkingstabel Effect A/B heeft headerrij met 6 cellen maar datarijen met 8 cellen — inconsistente celtellingen. B4 r.98: all-caps structuurlabel 'VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN...' als plain-text-alinea direct na H1-heading in plaats van ## heading.",
+    "concrete_problemen": [
+      {
+        "regel": 390,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "| | 55 | Bank USA | 41.100 | |"
+      },
+      {
+        "regel": 1018,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | | **Effect A (geldbelegging)**  | | **Effect B (geldbelegging)** |"
+      },
+      {
+        "regel": 98,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN IN DEVIEZEN EN VERWERKING VAN DE OMREKENINGSVERSCHILLEN"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "51 headings herkenbaar en hiërarchisch correct over het volledige document",
+      "Alle 7+ hoofd- en subsecties met boekhoudkundige schema's intact",
+      "Voetnoten volledig aanwezig en correct gekoppeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0152-03-boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-inbreng-van-een.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Vorig verdict bevestigd. F1 r.9: HTML-entiteit '&#039;' (apostrof) niet gedecodeerd door de scraper in het gerelateerde_adviezen-veld — ETL-bug (niet source-typo). Body zelf volledig en schoon; één voetnoot correct verbonden.",
+    "concrete_problemen": [
+      {
+        "regel": 9,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "titel: Risico&#039;s verbonden aan bestellingen van vaste activa"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig en coherent (4 alinea's + 1 voetnoot)",
+      "Frontmatter volledig behalve HTML-entiteitsfout",
+      "Geen ETL-artefacten in de body"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0152-06-risicos-verbonden-aan-bestellingen-van-vaste-activa.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Vorig verdict bevestigd. F1 r.60: HTML-entiteit '&#039;' niet gedecodeerd in het themas-veld ('risico&#039;s verbonden aan bestellingen van vaste activa') — ETL-bug. Body volledig en schoon.",
+    "concrete_problemen": [
+      {
+        "regel": 60,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "- risico&#039;s verbonden aan bestellingen van vaste activa"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig en inhoudelijk correct (5 alinea's + 2 genummerde punten)",
+      "Geen ETL-artefacten in de body"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0154-01-wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Vorig verdict bevestigd. B3 r.52: paginatitel 'CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking' herhaald als plain-text alinea direct na de identieke H1-heading op r.50 — klassiek HTML-scrape-artefact (duplicate page-title). Inhoud verder volledig; drie voetnoten correct verbonden.",
+    "concrete_problemen": [
+      {
+        "regel": 52,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig (5 paragrafen) en inhoudelijk coherent",
+      "Drie voetnoten correct gekoppeld en aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0156-01-attribution-au-fonds-de-solidarite.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Vorig verdict bevestigd. D4 r.54: '*Solidariteitsfonds *' en '*Financieringsfonds *' bevatten een spatie vóór de sluitende asterisk — malformed italic-markers, ETL-conversie-artefact. Overige inhoud volledig en coherent.",
+    "concrete_problemen": [
+      {
+        "regel": 54,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Solidariteitsfonds * of *Financieringsfonds *"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig en kort (3 alinea's)",
+      "Frontmatter correct en volledig",
+      "Geen andere artefacten aangetroffen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0157-01-tijdstip-waarop-de-winst-is-gerealiseerd.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Vorig verdict bevestigd. A3 r.66: volledige H1-titel 'CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd ' (met trailing spatie) herhaald als plain-text alinea direct na de H1-heading op r.64 — HTML-scrape-artefact. Inhoud overigens volledig en correct.",
+    "concrete_problemen": [
+      {
+        "regel": 66,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd "
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig en inhoudelijk correct (5 alinea's)",
+      "Geen andere ETL-artefacten in body of frontmatter"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0167-02-boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Vorig verdict bevestigd. D4 r.425/r.432: '** 20.09.91**' / '** 01.10.91**' met spatie na openings-** — malformed bold. A9 r.464: 'Aanschaffigswaarde' (ontbrekende 't'); r.488: 'op terminijn' (extra 'i'). E2 r.242-244: tabelheader met multi-line cell splits over drie regels — standaard markdown-rendering breekt.",
+    "concrete_problemen": [
+      {
+        "regel": 425,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "** 20.09.91**"
+      },
+      {
+        "regel": 432,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "** 01.10.91**"
+      },
+      {
+        "regel": 464,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "| | 510... | Aandelen - Aanschaffigswaarde | 12.600 | |"
+      },
+      {
+        "regel": 488,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "op terminijn verkochte effecten | 100 |"
+      },
+      {
+        "regel": 242,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| Noteringsdata | | Koers van de optie \\n | | Koers van het aandeel..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "14 headings herkenbaar en correct gestructureerd",
+      "Drie uitgewerkte voorbeelden met boekhoudschema's inhoudelijk intact",
+      "15 voetnoten correct gekoppeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0169-01-verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Vorig verdict bevestigd. A3 r.72-74: identieke intro-zin twee keer. A9 r.280: 'effectenverordening' (ETL-corruptie voor 'effectenvordering' zoals correct op r.440); r.389: 'Op 16.13.199n' (maand 13 — onmogelijke datum); r.373: credit-bedrag 1.016 vs debet 1.015 in afwikkelingsboeking. E2 r.254-257: multi-line tabelcellen in meerdere schema's.",
+    "concrete_problemen": [
+      {
+        "regel": 72,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "een tussentijdse afsluiting en de inning van een coupon tijdens de looptijd van de lening/ontlening"
+      },
+      {
+        "regel": 280,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "5250 | Geleende vastrentende effecten A, \"effectenverordening\""
+      },
+      {
+        "regel": 389,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "Op 16.13.199n sluit een handelsonderneming na verkoop van staatsobligaties..."
+      },
+      {
+        "regel": 254,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| aan | 5209 | Vastrentende effecten A\\n(geboekte waardeverminderingen) | | 10 |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "18 headings correct en hiërarchisch",
+      "Basisversie en variante volledig aanwezig",
+      "7 voetnoten correct gekoppeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0169-02-verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Vorig verdict bevestigd. A9 r.145: '## (Oordpronkelijke) cedent van het aandeel' — 'Oordpronkelijke' is een scrambled-words ETL-artefact (corruptie van 'Oorspronkelijke'). A9 r.208: '## (Ooorspronkelijke) cessionaris van het aandeel' — extra 'o'. Rest van het document inhoudelijk volledig en structureel correct.",
+    "concrete_problemen": [
+      {
+        "regel": 145,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "## (Oordpronkelijke) cedent van het aandeel"
+      },
+      {
+        "regel": 208,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "## (Ooorspronkelijke) cessionaris van het aandeel"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "19 headings correct aanwezig en hiërarchisch",
+      "Volledig boekhoudkundig voorbeeld met 6 stappen intact",
+      "8 voetnoten correct gekoppeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0171-boekhoudkundige-verwerking-van-afvalstoffen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Vorig verdict bevestigd. A9 r.96: '| | 602 | AAankopen van diensten of | | |' — dubbele 'A' (OCR-duplicatie). A6 r.198-200: slotzin 'zal enkel voor de tweede benadering kunnen worden' gevolgd door een lege regel en 'geopteerd.' op een nieuwe alinea — afgebroken alinea-patroon.",
+    "concrete_problemen": [
+      {
+        "regel": 96,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "| | 602 | AAankopen van diensten of | | |"
+      },
+      {
+        "regel": 198,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "...zal enkel voor de tweede benadering kunnen worden \\n\\ngeopteerd."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "8 headings correct en goed gestructureerd",
+      "Boekhoudschema's met intentioneel lege Debet/Credit-kolommen consistent",
+      "1 voetnoot correct gekoppeld"
+    ]
+  }
+]

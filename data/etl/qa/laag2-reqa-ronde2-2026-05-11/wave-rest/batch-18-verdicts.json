@@ -1,0 +1,262 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2019-08-boekhoudkundige-verwerking-van-crowdfunding-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: `## In hoofde van de begunstigde (artiest)` op regel 419 staat op ##-niveau terwijl alle omliggende subsecties van Voorbeeld 2 (2019–2022) plain-text zijn — hiërarchie-sprong. E2: tabelcel `Rekening-couran` op regel 510 is afgekapt (ontbrekende `t`). A5: spatie ontbreekt na em-dash in H1-titel (regel 71: `2019/08 –Boekhoudkundige`). Inhoud inhoudelijk compleet en tabellen grotendeels correct.",
+    "concrete_problemen": [
+      {
+        "regel": 71,
+        "categorie": "A5",
+        "type": "other",
+        "voorbeeld": "# CBN-advies 2019/08 –Boekhoudkundige verwerking van crowdfunding"
+      },
+      {
+        "regel": 419,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## In hoofde van de begunstigde (artiest)"
+      },
+      {
+        "regel": 510,
+        "categorie": "E2",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "| | 5500 | Kredietinstellingen – Rekening-couran | 7.000 | |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 4 hoofdsecties (Donatie, Lening, Belegging, Participatory notes) + 2 uitgewerkte voorbeelden correct gestructureerd",
+      "Voetnoten 1-23 volledig aanwezig en correct gelinkt",
+      "Alle tabellen in pipe-syntax; rekeningnummers en bedragen consistent"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2019-09-boekhoudplichtige-onderneming.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Ronde-1-verdict (needs-rework voor A3 TOC op regels 55-71) is na re-scrape niet langer van toepassing: het huidige bestand begint direct met `## Algemeen` op regel 67 zonder enige TOC-blok ervoor. Heading-hiërarchie (H1 → H2 → H3) is correct en consistent. Geen extractie-artefacten aangetroffen in categorieën A-G. Inhoud volledig: definities, verduidelijkingen, overgangsbepalingen, voorbeelden en 22 voetnoten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie correct en volledig — H1 → H2 → H3 zonder sprongen",
+      "Opsommingen consequent met `-` bullets; geen PDF-glyphs",
+      "Voetnoten 1-22 intact met correcte `[^n]`-referenties",
+      "Overgangsbepalingen-sectie volledig met drie scenario-subsecties en concrete voorbeelden"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2019-13-pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E1/E2: De twee grote tabellen met de eigen-vermogenssamenstelling (regels 130-431 en 448-782) zijn niet als markdown-pipe-tabellen geëxtraheerd maar als een reeks gefragmenteerde enkelvoudige `| tekst |\n|---|` cellen — duidelijk PDF-tabel extractie-bug. Elke cel staat op een aparte regel met lege regels ertussen zodat de tabelstructuur volledig verloren gaat. Hetzelfde patroon herhaalt zich voor het derde voorbeeld (regels 845-1044). Tekst en boeking-tabellen zijn correct.",
+    "concrete_problemen": [
+      {
+        "regel": 130,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"
+      },
+      {
+        "regel": 448,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| \n\n  | | \n|---|\n\nBegin-toestand\n\n  | | \n|---|"
+      },
+      {
+        "regel": 845,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inleiding en juridische analyse inhoudelijk volledig en leesbaar",
+      "Journaalposten (boekingen) correct in pipe-tabellen gerenderd",
+      "Voetnoten 1-16 intact en correct gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-01-neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A7: Regels 94-96 bevatten twee weesregels (`van de jaarrekening`) vóór `## Inleiding` — fragmenten van de ondertitel die bij extractie los kwamen. D2: Regels 118, 120, 124 en 197 bevatten italic plaatshouders voor figuren (`*Volledig, verkort en micromodel van de jaarrekening...*`) zonder de eigenlijke figuur of tabel — grafische inhoud is verdwenen bij extractie. De kern van het advies (schema's eigen vermogen) is daardoor niet leesbaar.",
+    "concrete_problemen": [
+      {
+        "regel": 94,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "van de jaarrekening \n\n van de jaarrekening"
+      },
+      {
+        "regel": 118,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "*Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalvennootschappen[^15]*"
+      },
+      {
+        "regel": 197,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "'Nieuw' model van de jaarrekening voor kapitaalloze vennootschappen*"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Juridisch kader (WVV, KB WVV) volledig uitgewerkt met correcte artikelverwijzingen",
+      "Overgangsscenario's (nieuwe vs. bestaande vennootschappen, opt-in) correct gestructureerd",
+      "Rekeningenstelsel-subsectie (rekening 11) correct als heading gerenderd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-02-afronding-van-betalingen-in-euro-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: Regel 128 bevat twee keer een malformed italic: `rekening 700* Verkopen en dienstprestaties*` (spatie ontbreekt na opening-asterisk) — een patroon dat twee keer voorkomt op dezelfde regel. Het document is verder inhoudelijk volledig en correct gestructureerd; heading-hiërarchie, opsommingen en de journaalpost-tabel zijn in orde.",
+    "concrete_problemen": [
+      {
+        "regel": 128,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 700* Verkopen en dienstprestaties*"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Vijf concrete voorbeelden (afronding in speciën, kaartbetaling, dubbele boekhouding) volledig uitgewerkt",
+      "Journaalpost-tabel correct in pipe-syntax",
+      "Heading-hiërarchie correct: H1 → H2 → H3 zonder sprongen",
+      "Voetnoten 1-19 intact"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-06-financieringskostensurplus-artikel-194sexies-en-artikel-1981-wib-92.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: Systematische heading-hiërarchie-sprongen doorheen het voorbeeldendeel: `## Bij de eindejaarsverrichtingen` (regels 178, 209, 216, 225, 232, 246, 250) en `### In hoofde van vennootschap X/Y` (regels 190, 205, 244, 267, 278, 284, 302) staan op resp. ##- en ###-niveau terwijl ze genest zijn binnen #####-secties — sprongen van 3-4 niveaus omhoog. Dit is een structureel extractieprobleem waarbij section-titels in het voorbeeldendeel als top-level headings zijn gerenderd.",
+    "concrete_problemen": [
+      {
+        "regel": 178,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Bij de eindejaarsverrichtingen op 31/12/N en het sluiten van de interestaftrekovereenkomst"
+      },
+      {
+        "regel": 190,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "### In hoofde van vennootschap Y (ontvanger van de vergoeding)"
+      },
+      {
+        "regel": 209,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Bij de eindejaarsverrichtingen op 31/12/N"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inleiding en juridische analyse (art. 194sexies, 198/1 WIB 92) inhoudelijk volledig",
+      "Alle journaalposten correct in pipe-tabellen",
+      "Voetnoten 1-51 intact en correct gelinkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen extractie-artefacten of structuurproblemen aangetroffen. Heading-hiërarchie (H1 → H2 → H3 → H4 → H5) correct en consistent. Vier concrete voorbeelden aanwezig. Sectie voor VZW's/IVZW's/stichtingen volledig. Geen TOC-resten, geen OCR-verwarring, geen pseudo-tabellen, geen afgekapte zinnen. Voetnoten 1-22 intact.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie correct over 5 niveaus zonder sprongen",
+      "Vier concrete voorbeelden (heer A, mevrouw X, heer Y, mevrouw Z) goed gestructureerd",
+      "Behandeling van monistisch + duaal bestuur + gecoöpteerde bestuurders volledig",
+      "Geen markdown-artefacten — document ziet er mens-geschreven uit"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-10-schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A7: Regel 67 bevat een weesregel `) bestemd om duurzaam bij te dragen aan de activiteit van de VZW` direct vóór `## Inleiding` — fragment van een sectie-titel dat bij extractie los is gekomen. B2: Heading-hiërarchie-sprong op regels 196-200: `#### Niet-geregistreerde schenking` → `##### Waardering...` → `### Voorbeeld 5` — `###` staat hoger dan `####` wat een terugsprong van 2 niveaus is zonder tussenliggende heading.",
+    "concrete_problemen": [
+      {
+        "regel": 67,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": ") bestemd om duurzaam bij te dragen aan de activiteit van de VZW"
+      },
+      {
+        "regel": 200,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "### Voorbeeld 5 (na #### Niet-geregistreerde schenking en ##### Waardering)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "17 uitgewerkte voorbeelden (legaten + schenkingen, geregistreerd/niet-geregistreerd, aanschaffingswaarde/marktwaarde) inhoudelijk volledig",
+      "Alle journaalposten correct in pipe-tabellen",
+      "Voetnoten 1-38 intact en correct gelinkt",
+      "Juridisch kader (art. 3:160 KB WVV) volledig uitgewerkt"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-11-vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: Systematisch malformed italic op regels 102-103: `*enerzijds*` en `*anderzijds *` (spatie vóór sluit-asterisk), en `'*flat'*'` (smart-quote binnen italic span). B5: Regel 121-122 bevat `In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd` als plain-text paragraaf zonder heading-prefix, gevolgd door een directe herhaling van dezelfde zin als inleiding op de volgende paragraaf — structuurniveau ontbreekt.",
+    "concrete_problemen": [
+      {
+        "regel": 102,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Indien *enerzijds* het tarief..."
+      },
+      {
+        "regel": 103,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Indien *anderzijds *het effectief gerealiseerde verlies"
+      },
+      {
+        "regel": 103,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "onderworpen is aan het '*flat'* tarief"
+      },
+      {
+        "regel": 121,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Maatregel correct beschreven met verwijzingen naar art. 194septies/1, 185 en 219ter WIB 1992",
+      "Twee concrete voorbeelden met correcte journaalposten in pipe-tabellen",
+      "Voetnoten 1-24 intact"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2020-13-overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: Systematisch patroon van malformed italic doorheen het document — sluit-asterisk regelmatig voorafgegaan door een spatie (regels 93, 77, 101) of een letter valt buiten de italic span (regel 153: `rekening 110 *Beschikbare inbreng buiten kapitaa*l`). B5: Regels 105, 108, 135, 161 bevatten subsectie-titels (`CVBA die beantwoordt aan de definitie...`, `CVBA die niet beantwoordt...`) als plain-text paragrafen zonder heading-prefix, terwijl `#### Algemene regel` op regel 136 wél een heading heeft — inconsistente structuur.",
+    "concrete_problemen": [
+      {
+        "regel": 93,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "Ingevolge de* wet van 23 maart 2019* *tot invoering..."
+      },
+      {
+        "regel": 153,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 110 *Beschikbare inbreng buiten kapitaa*l"
+      },
+      {
+        "regel": 105,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV"
+      },
+      {
+        "regel": 108,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "CVBA die niet beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Juridisch kader (CVBA → CV/BV, CVOA → VOF, overgangsbepalingen) volledig uitgewerkt",
+      "Sectie over scheidingsaandeel en uittreding aanwezig",
+      "Voetnoten 1-31 intact en correct gelinkt"
+    ]
+  }
+]

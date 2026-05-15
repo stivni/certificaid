@@ -1,0 +1,6 @@
+resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md
+resources/bronnen/wetteksten/Decr-Waals-Directe-Belastingen.md
+resources/bronnen/wetteksten/MAR-vzw.md
+resources/bronnen/wetteksten/MIGB-Brussel.md
+resources/bronnen/wetteksten/MIGB-Wallonie.md
+resources/bronnen/wetteksten/Oud-BW.md

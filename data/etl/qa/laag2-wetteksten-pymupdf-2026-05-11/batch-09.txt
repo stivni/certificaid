@@ -1,0 +1,6 @@
+resources/bronnen/wetteksten/WBTW-KB22jun2020-e-notariaat.md
+resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md
+resources/bronnen/wetteksten/WBTW-KB24-voldoening-bijzondere.md
+resources/bronnen/wetteksten/WBTW-KB27-vlees-slachtdieren.md
+resources/bronnen/wetteksten/WBTW-KB29aug2019-registers.md
+resources/bronnen/wetteksten/WBTW-KB2bis-cafehouders.md

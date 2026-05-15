@@ -1,0 +1,256 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/Registratierechten-Brussel.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A2/B7: de eerste 180+ regels bevatten de volledige TOC met dotted-leaders (paginanummers) die niet verwijderd zijn; dit zijn pure extractie-artefacten die als RAG-chunks zouden meekomen. B4: vier structuurlabels in de body verschijnen als plain-text all-caps regels zonder `#`-prefix (TIJDELIJKE BEPALINGEN r.6513, OVERGANGSBEPALINGEN r.6717, BIJBEPALINGEN r.6829, INWERKINGTREDING r.6858). Het eigenlijke artikel-corpus na de TOC (vanaf r.241) is inhoudelijk goed: correcte `######` Art.-headings, alinea's intact, geen OCR-fouten vastgesteld.",
+    "concrete_problemen": [
+      {
+        "regel": 75,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "## TITEL I - REGISTRATIERECHT............... 6"
+      },
+      {
+        "regel": 77,
+        "categorie": "B7",
+        "type": "dotted-leader",
+        "voorbeeld": "### HOOFDSTUK I - Formaliteit der registratie en vestiging van de belasting ...............................................6"
+      },
+      {
+        "regel": 6513,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "TIJDELIJKE BEPALINGEN"
+      },
+      {
+        "regel": 6717,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "OVERGANGSBEPALINGEN"
+      },
+      {
+        "regel": 6829,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN"
+      },
+      {
+        "regel": 6858,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "INWERKINGTREDING"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Artikel-corpus (vanaf r.241) consistent gestructureerd met `######` Art.-headings per artikel",
+      "Amendement-markers ([1 ... ]1-stijl) consequent open en dicht",
+      "Geen OCR-fouten of column-bleed vastgesteld in het corps van de wet",
+      "Bestand eindigt correct met Art. 322 inwerkingtredingsbepaling"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Registratierechten-Waals.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Zelfde TOC-dotted-leaders probleem als Brussel (74 regels, A2/B7). Bovendien: A1-artefact op r.143 — een alleenstaande 'I' (vermoedelijk een paginanummer of TOC-letter uit de PDF-extractie). B4: plain-text all-caps structuurlabels in het corps (TIJDELIJKE BEPALINGEN r.7145, OVERGANGSBEPALINGEN r.7357, BIJBEPALINGEN r.7471, INWERKINGTREDING r.7497). De tarieftabel rond r.2130 bevat kolom-bleed waarbij NL en FR kolomtitels op afzonderlijke regels staan ('Van / De', 'tot inbegrepen a / à … inclus') maar geen echte interleaving van zinnen — dit is grensgevaal maar acceptabel als PDF-tabelextractie.",
+    "concrete_problemen": [
+      {
+        "regel": 75,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "## TITEL I - REGISTRATIERECHT................ 6"
+      },
+      {
+        "regel": 143,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "I"
+      },
+      {
+        "regel": 7145,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "TIJDELIJKE BEPALINGEN"
+      },
+      {
+        "regel": 7357,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "OVERGANGSBEPALINGEN"
+      },
+      {
+        "regel": 7471,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN"
+      },
+      {
+        "regel": 7497,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "INWERKINGTREDING"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Artikel-corpus na de TOC correct gestructureerd met `######` Art.-headings",
+      "Geen OCR-fouten of NL+FR zinmenging vastgesteld in het eigenlijke corpus",
+      "Wijzigings-datum en bron in frontmatter kloppen met de body"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Ernstige A8 kolom-bleed doorheen het hele corpus: elke artikeltekst bevat NL-tekst en FR-tekst naast elkaar op dezelfde regel (twee-kolom PDF-layout). Dit maakt elke chunk onleesbaar voor RAG — de zinnen zijn doorheen elkaar: 'De aanbieding ter registratie van ... La présentation à l'enregistrement des ...'. Laag-1 meldt 3 bevestigde kolom-bleed samples, maar de eigenlijke omvang is structureel (elk artikel, niet incidenteel). B4: plain-text structuurlabels ontbreken `#`-prefix. Alle overige structuurproblemen zijn identiek aan Brussel/Waals.",
+    "concrete_problemen": [
+      {
+        "regel": 63,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "EN GRIFFIERECHTEN                                                      D'HYPOTHEQUE ET DE GREFFE"
+      },
+      {
+        "regel": 79,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "Registratie is een formaliteit bestaande in het afschrijven, ontleden of        L'enregistrement est une formalité qui consiste dans la copie,"
+      },
+      {
+        "regel": 132,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "Wordt, voor de toepassing van dit wetboek, met een aan een                        Po schorsende voorwaarde..."
+      },
+      {
+        "regel": 75,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "(TOC-regels met paginanummers aanwezig in body, zelfde patroon als Brussel/Waals)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Frontmatter correct: wet-veld, bron, bijgewerkt-datum en sha256 aanwezig",
+      "Heading-hiërarchie (## TITEL / ### HOOFDSTUK / ###### Art.) is structureel correct — de inhoud zelf is het probleem, niet de heading-boom"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A1: 112 keer een pagina-header '02013L0034 — NL — 28.05.2024 — 006.001 — N' verspreid door de body (elke ca. 35-40 regels een nieuwe). G2/A1: EUR-Lex wijzigings-markers (▼B, ▼M1-▼M6, ►B, ►M) staan als losse regels in de body — 169 keer ▼-markers en 11 keer ►-markers; dit zijn EUR-Lex-formaat-artefacten. Tail van het bestand (concordantietabel r.4180+) bevat lege ### Art. N headings gevolgd door alleen '—' — dit is tabelinhoud die als losse headings gerenderd is (B1/E1). Artikelen 50/51 met echte inhoud zijn aanwezig (r.2145-2157). Het kerncorpus (Art. 1-49) is inhoudelijk intact maar sterk vervuild.",
+    "concrete_problemen": [
+      {
+        "regel": 57,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "02013L0034 — NL — 28.05.2024 — 006.001 — 1"
+      },
+      {
+        "regel": 60,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "►B"
+      },
+      {
+        "regel": 149,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "▼M3"
+      },
+      {
+        "regel": 4239,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "### Art. 35\n\n—\n\nArtikel 37, lid 2"
+      },
+      {
+        "regel": 4357,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "### Art. 48\n\n### Art. 51"
+      },
+      {
+        "regel": 393,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "### Art. 7\nAlternatieve\n\nwaarderingsgrondslag voor vaste geherwaardeerde bedragen\n\nactiva\n\ntegen"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Artikelen 1-49 met echte inhoud zijn volledig aanwezig en inhoudelijk intact",
+      "Heading-niveaus (## HOOFDSTUK / ### Art.) consequent toegepast op het kerncorpus",
+      "Frontmatter correct met sha256, bron-URL, bijgewerkt-datum"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Strafwetboek2024-boek1.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B5/B3: het ingebedde Boek I begint op r.72 met '### Hoofdstuk 1. Strafwet Artikel 1. Legaliteitsbeginsel' — het hoofdstuk-label en de artikel-titel zijn op één regel samengevoegd zonder eigen `#####` Art.-heading voor Art. 1 van het Strafwetboek zelf. B4: 'Titel' (r.53) staat als plain-text label voor de wetstitel. B1: het laatste artikel is `##### Art. 38.Deze` (geen spatie voor 'Deze', artikel-nummer en eerste woord van de tekst aaneengeplakt op de heading-regel). Laag-1 geeft 'pass' — de structuurbug is subtiel maar impacteert chunking van Art. 1 van het nieuwe Strafwetboek.",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Titel"
+      },
+      {
+        "regel": 72,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "### Hoofdstuk 1. Strafwet Artikel 1. Legaliteitsbeginsel"
+      },
+      {
+        "regel": 1061,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "##### Art. 38.Deze"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Laag-1: geen form-feeds, geen TOC-dots, geen column-bleed, max_section_chars slechts 5887 — het cleanste bestand van de batch",
+      "Het corpus van Art. 1-75 (Boek I Strafwetboek) is inhoudelijk volledig en correct",
+      "Outer wrapper-artikelen (Art. 1-37 van de invoerswet) hebben correcte ##### headings",
+      "Geen OCR-fouten of unicode-artefacten vastgesteld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Successierechten-Brussel.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: de body opent met 3× herhaalde WETBOEK DER SUCCESSIERECHTEN-titel (r.65-75) gevolgd door een TOC-blok met 24 dotted-lines (A2). B3: vijf hoofdstukken zijn gedupliceerd (HOOFDSTUK III, IX, XI, XII, XV), wat wijst op een gedeeltelijke TOC-herhaling midden in het corps. D-onzeker: dubbele Art. 17-blokken op r.342 en r.354 voor verschillende inwerkingtredingsdata ('TOEKOMSTIG RECHT' vs 'van toepassing vanaf 01.08.2022') zijn inhoudelijk correct maar zonder discriminator-heading voor RAG verwarrend. G2: decoratieve asterisk-separatoren op r.131-132 (`*` en `*`) zijn PDF-glyphs.",
+    "concrete_problemen": [
+      {
+        "regel": 65,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "WETBOEK DER SUCCESSIERECHTEN (3× herhaald op r.65, 69, 73)"
+      },
+      {
+        "regel": 82,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "### HOOFDSTUK XI - Aan derden... ....................................................... 69"
+      },
+      {
+        "regel": 131,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "*                              *\n*"
+      },
+      {
+        "regel": 342,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "##### Art. 17 (r.342) en ##### Art. 17 (r.354) — zelfde artikel-nummer, twee versies zonder discriminator"
+      },
+      {
+        "regel": 1977,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "### HOOFDSTUK XI - Aan derden... (duplicaat van r.1955)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Artikel-corps (Art. 1 t.e.m. Art. 183) volledig aanwezig met correcte ##### headings",
+      "Boek I, II, IIbis, III zijn herkenbaar als ## headings",
+      "Amendement-markers ('van toepassing vanaf ...') consistent aanwezig per artikel",
+      "Geen column-bleed of OCR-fouten vastgesteld in de artikelteksten"
+    ]
+  }
+]

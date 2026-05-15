@@ -1,0 +1,6 @@
+resources/bronnen/wetteksten/WBTW-MB20dec2001-diensten-indiening-documenten.md
+resources/bronnen/wetteksten/WBTW-MB23jun2005-delegatie-samenwerking.md
+resources/bronnen/wetteksten/WBTW-MB26feb2007-elektronische-notificaties.md
+resources/bronnen/wetteksten/WBTW-MB28okt2009-model-berichten-93ter.md
+resources/bronnen/wetteksten/WBTW-MB29apr2024-certificatie-kassasysteem.md
+resources/bronnen/wetteksten/WBTW-MB29aug2006-ambtenaar-62bis.md

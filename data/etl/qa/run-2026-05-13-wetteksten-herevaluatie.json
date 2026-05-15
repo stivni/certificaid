@@ -1,0 +1,433 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB1-aftrekregeling.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "De compilatie-header en TOC (regels 59-234) zijn nog aanwezig: Fisconet-kop, logo-tekst, 'Lijst van de ministeriële besluiten' met right-aligned update-datums (A8: pseudo-kolom alignment). strip_compilatie_appendix heeft dit blok niet verwijderd — het staat vóór de eigenlijke wet (Art. 1-3 vanaf regel 235). A8-flag van L1 klopt: regels 54 en 162 zijn compilatie-TOC-regels met grote witruimte als kolom-separator.",
+    "concrete_problemen": [
+      {
+        "regel": 59,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "BELASTING OVER DE TOEGEVOEGDE WAARDE\\nMINISTERIËLE BESLUITEN\\nBIJGEWERKT TOT EN MET HET MB VAN 29.04.2024"
+      },
+      {
+        "regel": 70,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "              Federale\\n              Overheidsdienst\\n              FINANCIEN"
+      },
+      {
+        "regel": 90,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "FOD Financiën (AA BEO)                            www.fisconetplus.be             Btw Ministeriële besluiten – 01.04.2023"
+      },
+      {
+        "regel": 94,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "*   Ministerieel besluit nr. 1, ...                    Bijw. 02/09.12.2013"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Eigenlijke wet-body (Art. 1-3) is volledig en schoon",
+      "Artikelheadings correct als ## Art. N"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB13-hypotheek-verplichtingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A1: pagina-indicatoren '- KB nr. 13 / 1 -' (regel 96) en '- KB nr. 13 / 2 -' (regel 127) zijn PDF-paginanummer-artefacten die als plain-text midden in de body staan. Voorts is de compilatie-intro-alinea (regels 53-71: lange MB-titel als plain text + opheffingsnotitie als ingesprongen blok) niet als heading of gestructureerde sectie opgemaakt. L1 pass terecht, inhoud overigens compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 96,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "                                                 - KB nr. 13 / 1 -"
+      },
+      {
+        "regel": 127,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "                                              - KB nr. 13 / 2 -"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 5 artikelheadings correct aanwezig",
+      "Opheffingsinfo correct opgenomen",
+      "Inhoud volledig aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB16jul2019-beroepscommissie.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Body volledig schoon na strip_compilatie_appendix: geen compilatie-artefacten, geen pagina-scheidingen, geen kolom-bleed. Art. 1-5 met correcte ## headings. De extra witruimte op regel 98 ('adviseur-generaal ad  interim   van    het regionaal') is een bron-artefact uit de PDF-opmaak van de namenlijst, geen ETL-bug. Eerdere rationale 'compilatie-artefacten aanwezig' was incorrect — huidige body bevat deze niet meer.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Alle 5 artikelheadings correct als ## Art. N",
+      "Namenlijst volledig aanwezig met correcte bullet-opmaak",
+      "Geen compilatie-header of TOC meer aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB20dec2001-diensten-indiening-documenten.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Body volledig schoon: 2 artikelheadings (Art. 1-2), geen compilatie-artefacten, geen pagina-scheidingen. Kleine 2516-char wet, L1 pass, geen flags. Eerdere rationale 'compilatie-artefacten aanwezig' was incorrect — huidige body bevat geen artefacten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Correcte ## Art. headings",
+      "Volledige inhoud inclusief wijzigingsinfo",
+      "L1 pass, geen flags"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB23jun2005-delegatie-samenwerking.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B5: 'Enig artikel' staat als plain-text regel (regel 59) zonder ##/###-prefix. De wet bestaat uit één artikel en de structuur-indicator hoort een heading te zijn. Verder is de compilatie-intro (regels 53-57) als plain text opgenomen zonder heading. Body-inhoud is volledig aanwezig in één alinea.",
+    "concrete_problemen": [
+      {
+        "regel": 59,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "                                             Enig artikel"
+      },
+      {
+        "regel": 53,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Ministerieel besluit, van 23 juni 2005... (compilatie plain-text herhaling van titel als intro)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig aanwezig",
+      "L1 pass, geen flags",
+      "Geen compilatie-header of TOC"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB28okt2009-model-berichten-93ter.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Body volledig schoon: Art. 1-5 met correcte ## headings, opheffingsinfo aanwezig, bijlagen (3 stuks) als plain 'Bijlage 1/2/3' vermeld (bijlagen zijn afbeeldingen in originele PDF — geen ETL-bug). L1 pass, geen flags. Eerdere rationale 'compilatie-artefacten aanwezig' was incorrect.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Alle 5 artikelheadings correct",
+      "Opheffingsbesluit correct vermeld",
+      "L1 pass, geen flags"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-MB29apr2024-certificatie-kassasysteem.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B5: Artikelen 5-12 ('Artikel 5. Event Normal' t/m 'Artikel 12. Event Invoice', regels 207-267) staan als gecentreerde plain-text regels zonder ##/######-prefix. Deze hadden headings moeten zijn. C3: pseudo-tabel voor BTW-codes (regels 300-313) met space-alignment en twee parallelle kolommen (NL/FR) als pseudo-tabel — A8/C3-artefact uit tweekolomige PDF-pagina.",
+    "concrete_problemen": [
+      {
+        "regel": 207,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "                                      Artikel 5. Event Normal"
+      },
+      {
+        "regel": 300,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "BTW-                                             BTW-         CODE\\n             BTW-TARIEF OMSCHRIJVING..."
+      },
+      {
+        "regel": 300,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "A            Hoog                                21 %         A           Haut                                  21 %"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Art. 1, 2, 13+ met correcte ###### headings",
+      "Structuurhiërarchie (## TITEL / ### HOOFDSTUK / #### Afdeling / ##### Onderafdeling) correct",
+      "Inhoud volledig en uitgebreid (181 headings)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/AVG-wet-2018.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3+B2 bevestigd: regels 54-346 bevatten een TOC-structuur van kale headings (###### Art. 24, ## TITEL 2, etc.) zonder lichaamstekst. De eigenlijke wettekst begint pas op regel 348. Hierdoor zijn structuurniveaus gedupliceerd en springt de hiërarchie direct van H1 naar H6. Eigenlijke body (Art. 1-286) is volledig aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 54,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "###### Art. 24 (kale TOC-heading zonder lichaamstekst, vóór de eigenlijke wet)"
+      },
+      {
+        "regel": 35,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "H1 (titel) → direct ###### Art. 24 (H6) zonder H2-H5 ertussen"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Eigenlijke wettekst (Art. 1-286) volledig aanwezig vanaf regel 348",
+      "Body-headings correct op ###### niveau"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: concordantietabel aan het einde van het document (ca. regel 4300+) genereert art.-headings zoals '###### Art. 1, onder 1), tweede alinea, van Richtlijn 89/465/EEG' — dit zijn concordantie-tabelrijen die als headings worden geïnterpreteerd, wat de heading-boom vervuilt. L1 warn: max sectie 36349 chars (chunker vangt dit op). Inhoud van de eigenlijke richtlijn is volledig aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 4445,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "Artikel 1, onder 1), tweede alinea, van Richtlijn 89/465/EEG — concordantietabel-rij als heading"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 401 artikelen correct geëxtraheerd",
+      "Bijlagen volledig aanwezig",
+      "Overwegingen correct opgenomen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/BW-boek1-algemene-bepalingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D2 bevestigd: bestand bevat enkel H1-titel + italic datum-lijn (115 chars totaal). BW Boek 1 Algemene bepalingen bevat slechts een titelblad in de PDF zonder eigenlijke artikelinhoud. Structureel leeg voor RAG. Bron-PDF-issue, niet ETL-fout.",
+    "concrete_problemen": [
+      {
+        "regel": 1,
+        "categorie": "D2",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "Bestand eindigt na H1 + italic datum — geen artikelen"
+      }
+    ],
+    "concrete_sterke_punten": []
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "C2: Bijlage I (vennootschapsvormen, regels 229-285) bevat de opsomming a) t/m ab) als doorlopende proza-alinea's per land, niet als markdown-lijsten. Het zijn technisch genummerde items die als aparte alinea's moeten staan. Voorts: dubbele witruimte in overwegingen (intra-zin woordbreuk van PDF-kolomopmaak: 'moeder- maatschappijen', 'kleindochteronder- neming'). Artikelen 1-11 correct geëxtraheerd.",
+    "concrete_problemen": [
+      {
+        "regel": 229,
+        "categorie": "C2",
+        "type": "other",
+        "voorbeeld": "a) De vennootschappen opgericht overeenkomstig Verordening (EG)... (lang proza, geen markdown-lijst-item)"
+      },
+      {
+        "regel": 73,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "moeder- maatschappijen...  dochteronder- neming (intra-woord kolombreuk uit PDF)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Artikelen 1-11 correct als ###### headings",
+      "Bijlagen II en III volledig aanwezig",
+      "L1 pass, 23 headings correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/EU-Richtlijn-witwassen-2018-1673.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Ernstige structuurproblemen: de body van Art. 4-7 (sancties, verzwarende omstandigheden, aansprakelijkheid) verschijnt als anonieme paragrafen VÓÓR de bijhorende heading-regels (regels 233-293 bevatten body zonder heading, daarna volgen de headings op regels 255-293). Art. 12, 13, 14, 15, 16 zijn kale headings zonder body. Bovendien is de body van Art. 4, 5, 6 midden in de flow versprongen. Eerdere rationale onderschatte de ernst: dit is geen louter 'overweging-nummers zonder heading' maar structureel door elkaar.",
+    "concrete_problemen": [
+      {
+        "regel": 233,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Anonieme alinea '1. De lidstaten nemen de nodige maatregelen...' zonder voorafgaande heading (body van Art. 5)"
+      },
+      {
+        "regel": 255,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "###### Artikel 4 heading AFTER its body text has already appeared on line 231"
+      },
+      {
+        "regel": 363,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "###### Artikel 12 (kale heading, geen body)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Art. 1-3 correct geëxtraheerd met heading en body",
+      "Overwegingen (1)-(24) volledig aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/MAR-vzw.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A1: pagina-indicatoren '9 | Minimum Algemeen Rekeningstelsel...' (regels 63, 89, 119, 134) zijn PDF-voetregels die als plain text in de body zijn opgenomen. Handcrafted file, geen PDF-artefacten in de eigenlijke inhoud. De flat-text structuur van rekeningnummers zonder headings is inherent aan het MAR-document. Zonder de paginaindicatoren zou de bron trusted zijn.",
+    "concrete_problemen": [
+      {
+        "regel": 63,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "9 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen"
+      },
+      {
+        "regel": 89,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "10 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig aanwezig",
+      "Geen PDF-extractie-artefacten in eigenlijke tekst",
+      "L1 pass"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A2+A8+A1 bevestigd. A2: TOC met dotted-leaders (regels 67-251). A8: NL+FR tekst op één regel door bilingue bron-PDF (bv. regel 544: 'Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà du temps nécessaire.'). A1: titels gecombineerd als 'INWERKINGTREDING  ENTREE EN VIGUEUR' (regel 17027). Structureel probleem van bilingue PDF-bron — ETL kan NL-alleen-versie extraheren als die beschikbaar is.",
+    "concrete_problemen": [
+      {
+        "regel": 67,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "## TITEL I - REGISTRATIERECHT............."
+      },
+      {
+        "regel": 544,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà du temps nécessaire."
+      },
+      {
+        "regel": 17027,
+        "categorie": "A1",
+        "type": "other",
+        "voorbeeld": "INWERKINGTREDING  ENTREE EN VIGUEUR"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Eigenlijke artikelinhoud (Art.1-322) volledig aanwezig",
+      "Headingstructuur correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/VCF.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A8 bevestigd: regels 144-148 tonen NL en FR tekst door elkaar (artikel 1.1.0.0.2 definitie voertuigen: NL-tekst gevolgd door FR-tekst van dezelfde bepaling op aansluitende regels). Dubbele spaties als kolom-separator zichtbaar. Bilingue bron-PDF-issue. Artikelinhoud voor de rest aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 144,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "a) bestaat uit een volledig van de laadruimte afgesloten  enkele cabine..."
+      },
+      {
+        "regel": 148,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "b) comprend une cabine double comportant six places  au maximum, celle du conducteur..."
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Headingstructuur (TITEL/Hoofdstuk/Art.) correct",
+      "Grote meerderheid van artikelen schoon NL"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB22jun2020-e-notariaat.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D2 bevestigd: bestand bevat enkel H1-titel + halve openingszin (207 chars). PDF-extractie gefaald — het KB bevat ca. 50 artikelen maar niets is geëxtraheerd. Bron-PDF is waarschijnlijk beschermd of slecht opgemaakt.",
+    "concrete_problemen": [
+      {
+        "regel": 55,
+        "categorie": "D2",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "22 JUNI 2020. - Koninklijk besluit tot uitvoering van de artikelen 2, derde lid, 2quater en 8, tweede lid, van het (afgekapt)"
+      }
+    ],
+    "concrete_sterke_punten": []
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WBTW-KB2bis-cafehouders.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D2 gedeeltelijk bevestigd: de eigenlijke wet-body (Art. 1-33) is volledig en schoon geëxtraheerd. Maar de bijlagen (Art. N1-N5, regels 307-330) bevatten '(Beeld niet opgenomen om technische redenen...)' — de forfaitaire tabellen zijn afbeeldingen in de originele PDF. Eerdere rationale 'inhoud ontbreekt grotendeels' was te streng: de regelgevende tekst is volledig aanwezig, enkel de bijlagetabellen (rekenvormen) ontbreken.",
+    "concrete_problemen": [
+      {
+        "regel": 308,
+        "categorie": "D2",
+        "type": "other",
+        "voorbeeld": "(Beeld niet opgenomen om technische redenen, zie B.St. van 25-05-2022, p. 44809)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Eigenlijke wet-body (Art. 1-33) volledig aanwezig",
+      "Correcte heading-hiërarchie (## HOOFDSTUK / ### Afdeling / #### Art.)",
+      "55 headings correct"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Wet-betalingsachterstand-2002.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D1+D2 bevestigd: de body begint mid-alinea bij de definitie van 'basisherfinancieringstransactie' (regel 57) — Art. 1 en het begin van Art. 2 ontbreken. Art. 3 start ook midden in tekst ('Art. 3. Deze wet...'). De headings Art. 3-15 zijn aanwezig. Bovendien: Art. 3, 4, 5, 6, 7, 8, 9, 14 bevatten de art.-tekst als onderdeel van de heading-tekst ('### Art. 3. Deze' / '### Art. 8. De') — B1-artefact waarbij de eerste zin van het artikel mee in de heading-tekst werd opgenomen.",
+    "concrete_problemen": [
+      {
+        "regel": 57,
+        "categorie": "D2",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "Body start met 'Richtlijn 2004/17/EG...' midden in Art. 1 definitie — Art. 1 en eerste deel Art. 2 ontbreken"
+      },
+      {
+        "regel": 62,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "### Art. 3. Deze (eerste zin van Art. 3 als onderdeel van heading)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Art. 3-15 inhoudelijk aanwezig",
+      "L1 pass"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Wet-verzekeringen-2014.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B1/B3 bevestigd: lege '## Art.' heading aan het einde van het bestand (na de laatste paragraaf). Max sectie 32357 chars (chunker vangt dit op). De body start volledig (Art. 1 aanwezig). Overigens is de structuur (## DEEL / ###### Art.) correct. Enkelvoudig artefact onderaan.",
+    "concrete_problemen": [
+      {
+        "regel": -1,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "## Art. (lege heading zonder nummer of titel op laatste regel)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Volledige wet-body aanwezig (Art. 1-286+)",
+      "201 headings correct",
+      "Goede structuur ## DEEL / ###### Art."
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/KB-21-10-2018.md",
+    "aanbevolen_status": "rejected",
+    "rationale": "Bevestigd rejected: 1016 form-feeds, 82 paginavoetregels, verkeerde inhoud. De PDF bevat Belgisch Staatsblad-content van willekeurige andere KBs (Gemeenschap française, HUVEBA, KBO). Geen boekhoudkundige verplichtingen KB-content.",
+    "concrete_problemen": [
+      {
+        "regel": 1,
+        "categorie": "F3",
+        "type": "naam-mismatch",
+        "voorbeeld": "Bestand heet KB boekhoudkundige verplichtingen maar bevat Gemeenschap française vacatures en KBO-regels"
+      }
+    ],
+    "concrete_sterke_punten": []
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/WER-Boek-VIII-normalisatie.md",
+    "aanbevolen_status": "rejected",
+    "rationale": "Bevestigd rejected: naam-mismatch F3. Body bevat vakbondsvormingsreglementen, dierenwelzijn KB, KBO-aangifte-regels, Wonen-Vlaanderen vacatures — niet de boekhoudnormen van WER Boek VIII. Max sectie 116180 chars. Verkeerde bron-PDF.",
+    "concrete_problemen": [
+      {
+        "regel": 74,
+        "categorie": "F3",
+        "type": "naam-mismatch",
+        "voorbeeld": "### HOOFDSTUK I. — Toepassingsgebied (vakbondsvorming KB)"
+      }
+    ],
+    "concrete_sterke_punten": []
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/MAR-vzw.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "PDF-kolom-extractie is volledig mislukt: rekeningnummers (3-4 cijferig) staan als losse regels gevolgd door de rekeningnaam op de volgende regel door het hele document (A7). Paginanummer-resten staan als body-regels (A1: '1 | Minimum Algemeen Rekeningstelsel...' op minstens 12 plaatsen). Klasse-secties (1. t/m 7.) zijn plain-text alinea's zonder heading-prefix (B4). Afgekapte rekeningcodes zoals '164-16x' (C3 pseudo-tabel artefact).",
+    "concrete_problemen": [
+      {
+        "regel": 110,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "1\n\n1 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen"
+      },
+      {
+        "regel": 70,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "1.\n\nEigen vermogen, voorzieningen voor risico's en kosten..."
+      },
+      {
+        "regel": 103,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "1730\nSchulden op rekening\n\n174\n175\n\n176\n178\n179"
+      },
+      {
+        "regel": 94,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "164-16Voorzieningen voor overige risico's en kosten"
+      },
+      {
+        "regel": 472,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "Voorraadwijziging gekochte onroerende goederen bestemd voo\n6095\nverkoop"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig aanwezig: alle 7 klassen en subrekeningen zijn opgenomen",
+      "Toelichtende voetnoten correct in de body opgenomen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/MIGB-Brussel.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Tarieftabellen zijn space-aligned plain-text pseudo-tabellen (C3) door het hele bestand, o.a. de PK-schaal op r.513-547 en de euroviernet-tabellen. Twee table-headers staan als plain-text all-caps labels: 'MOTORVOERTUIGEN' op r.608 en r.782, 'COMBINATIES (GELEDE VOERTUIGEN EN SAMENSTELLEN' op r.684 en r.868 (B4). TITEL VII is gesplitst in een ## en een ### heading (r.3400-3402: '## TITEL VII - BELASTING...' en '### VAN DE VENNOOTSCHAP EN OP DE WINSTPREMIE...') — B2 heading-hiërarchiefout. 'TOEKOMSTIG RECHT' staat als plain-text label (B4, r.74).",
+    "concrete_problemen": [
+      {
+        "regel": 512,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "Aantal PK  Bedrag der belasting in euro\n\n4 en minder  51,12\n\n5  63,96"
+      },
+      {
+        "regel": 608,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "MOTORVOERTUIGEN"
+      },
+      {
+        "regel": 684,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "COMBINATIES (GELEDE VOERTUIGEN EN SAMENSTELLEN"
+      },
+      {
+        "regel": 3400,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## TITEL VII - BELASTING OP DE WERKNEMERSPARTICIPATIE IN HET KAPITAAL\n### VAN DE VENNOOTSCHAP EN OP DE WINSTPREMIE VOOR DE WERKNEMERS"
+      },
+      {
+        "regel": 74,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "TOEKOMSTIG RECHT (vanaf 01.01.2028)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie ## / ### / ###### consistent aangehouden voor alle 7 Titels en hun Hoofdstukken",
+      "Wijzigingsmarkeringen correct in de body (gewijzigd bij art. X...) per artikel",
+      "Alle 112+ artikelen aanwezig en volledig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/MIGB-Vlaanderen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Het bestand is een concordantiedocument waarbij opgeheven artikelen vervangen zijn door een tweekolomse tabel 'Bepaling WIGB | Bepaling Vlaamse Codex Fiscaliteit'. Die kolommen zijn als space-aligned tekst op één regel weergegeven (C3). Erger: de rechtse kolom-verwijzingen zijn systematisch gesplitst over meerdere ##### headings, bv. '##### Art. 43. bis , § 1' gevolgd door '##### Art. 2.12.3.0' en dan als plain tekst '1, § 1, eerste lid' — dit is een A7 scrambled-words extractiefout voor tenminste tientallen concordantie-entries. 'TOEKOMSTIG RECHT' als plain-text (B4).",
+    "concrete_problemen": [
+      {
+        "regel": 1139,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "##### Art. 43. bis , § 1\n\n##### Art. 2.12.3.0\n\n1, § 1, eerste lid"
+      },
+      {
+        "regel": 853,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "##### Art. 36. bis , eerste lid\n\n##### Art. 2.2.2.0\n\n1, § 2, tweede lid"
+      },
+      {
+        "regel": 1010,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "Bepaling WIGB  Bepaling Vlaamse Codex Fiscaliteit"
+      },
+      {
+        "regel": 57,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "TOEKOMSTIG RECHT (n.v.t. — artikel opgeheven)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-structuur ## / ### / ###### correct voor alle Titels en Hoofdstukken",
+      "Nog-geldige artikelen (art. 35, 42) volledig in plain text aanwezig",
+      "Nota-secties correct als paragraaf weergegeven"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/MIGB-Wallonie.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Eén duplicate heading op r.539-540: '### HOOFDSTUK V - Bedrag der belasting of belastingvoet' staat twee keer direct na elkaar (B3). Tarieftabellen zijn space-aligned pseudo-tabellen (C3), identiek patroon als in de Brusselse versie. 'TOEKOMSTIG RECHT' als plain-text label op r.74 en r.4118 (B4). Verder is het bestand inhoudelijk compleet en goed gestructureerd.",
+    "concrete_problemen": [
+      {
+        "regel": 540,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "### HOOFDSTUK V - Bedrag der belasting of belastingvoet\n\n### HOOFDSTUK V - Bedrag der belasting of belastingvoet"
+      },
+      {
+        "regel": 560,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "Aantal PK  Bedrag der belasting in euro\n\n4 en minder  51,12"
+      },
+      {
+        "regel": 635,
+        "categorie": "C3",
+        "type": "pseudo-table",
+        "voorbeeld": "MTM uitgedrukt in kg  MTM uitgedrukt in kg\n\nvan  van"
+      },
+      {
+        "regel": 74,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "TOEKOMSTIG RECHT (vanaf 01.01.2028)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie ## / ### / ###### consistent voor alle Titels en Hoofdstukken",
+      "Alle artikelen aanwezig en volledig, inclusief Waalse decreetwijzigingen correct verwerkt",
+      "Voetnoten correct inline na de betreffende paragraaf geplaatst"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Registratierechten-Brussel.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Let op: layer1 is stale (run vóór de ETL-fix van 16:21 op dezelfde dag); de geflagde TOC-dots zijn NIET aanwezig in de huidige body. Wel aanwezig: duplicate cover-intro regels bovenaan (A3, r.69-71 en r.75-77: 'Wetgeving van toepassing...' en de KB-citaat elk tweemaal). '## HYPOTHEEK- EN GRIFFIERECHTEN' en '## BRUSSELS HOOFDSTEDELIJK GEWEST' zijn twee losse ## headings vóór TITEL I zonder relatie tot de wetboek-structuur (B2). Verder: 604 headings, goed gestructureerd, alle artikelen aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 69,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "Wetgeving van toepassing in het BRUSSELSE HOOFDSTEDELIJK GEWEST\n\nWetgeving van toepassing in het BRUSSELSE HOOFDSTEDELIJK GEWEST"
+      },
+      {
+        "regel": 75,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "(KB nr. 64 van 30.11.1939...) [tweemaal identiek herhaald]"
+      },
+      {
+        "regel": 65,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## HYPOTHEEK- EN GRIFFIERECHTEN\n\n## BRUSSELS HOOFDSTEDELIJK GEWEST"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "604 artikelen correct als ###### headings genummerd en hiërarchisch geordend",
+      "TIJDELIJKE BEPALINGEN / OVERGANGSBEPALINGEN / BIJBEPALINGEN / INWERKINGTREDING correct als ## headings",
+      "Amendment-markers (van toepassing vanaf...) consistent aanwezig per artikel",
+      "Geen TOC-dots aanwezig in huidige body (layer1-flag is stale)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Registratierechten-Waals.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Bevestiging van eerdere layer2-beoordeling. Duplicate cover-intro regels bovenaan (A3, r.107-108: 'Wetgeving van toepassing in het WAALS GEWEST' tweemaal; r.111-113: KB-citaat tweemaal). Zelfde B2-probleem als Brussel: '## HYPOTHEEK- EN GRIFFIERECHTEN' en '## WAALS GEWEST' als losse headings voor TITEL I. TIJDELIJKE BEPALINGEN (r.7145-equivalent), OVERGANGSBEPALINGEN en INWERKINGTREDING zijn hier wél als ## headings gemarkeerd — correct. Tarieftabellen met kolom-bleed (NL/FR tabelkoppen op afzonderlijke regels, grenseval).",
+    "concrete_problemen": [
+      {
+        "regel": 107,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "Wetgeving van toepassing in het WAALS GEWEST\n\nWetgeving van toepassing in het WAALS GEWEST"
+      },
+      {
+        "regel": 111,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "(KB nr. 64 van 30.11.1939...) [tweemaal identiek herhaald]"
+      },
+      {
+        "regel": 101,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## HYPOTHEEK- EN GRIFFIERECHTEN\n\n## WAALS GEWEST"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "609 artikelen correct als ###### headings genummerd en hiërarchisch geordend",
+      "TIJDELIJKE / OVERGANGS / INWERKINGTREDING correct als ## headings gemarkeerd",
+      "Waalse decreetwijzigingen correct geïntegreerd per artikel"
+    ]
+  }
+]

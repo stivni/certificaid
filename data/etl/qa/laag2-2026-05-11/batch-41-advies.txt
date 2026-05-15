@@ -1,0 +1,10 @@
+resources/bronnen/adviezen/CBN-2016-17-verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen.md
+resources/bronnen/adviezen/CBN-2016-18-prestaties-geleverd-aan-overheid-verschuldigde-btw.md
+resources/bronnen/adviezen/CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0.md
+resources/bronnen/adviezen/CBN-2016-20-leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-boek-xx-insolventie-van.md
+resources/bronnen/adviezen/CBN-2016-21-actualisatie-van-uitgestelde-belastingen-update.md
+resources/bronnen/adviezen/CBN-2016-22-bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding.md
+resources/bronnen/adviezen/CBN-2016-24-uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015.md
+resources/bronnen/adviezen/CBN-2016-25-kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies.md
+resources/bronnen/adviezen/CBN-2016-26-kilometerheffing.md
+resources/bronnen/adviezen/CBN-2016-27-kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling.md

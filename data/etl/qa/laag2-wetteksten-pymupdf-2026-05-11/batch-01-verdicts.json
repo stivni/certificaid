@@ -1,0 +1,184 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/AVG-wet-2018.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B4: 12 ONDERTITEL-labels en 1 VOORAFGAANDE TITEL staan als plain text in plaats van als heading-prefix (regels 108, 160, 164, 216, 268, 304, 370 e.a.). Laag-1 pass maar dit is een structurele ETL-bug. Daarnaast staan 'Titel' (regel 53) en 'Tekst' (regel 368) als losse plain-text artefactregels, en bevat regel 57 een Fisconet-modificatietabel-rij '(Art.254) (Art.255)...' die niet thuishoort in de body. Artikelinhoud is voor het overige correct en compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Titel"
+      },
+      {
+        "regel": 57,
+        "categorie": "G1",
+        "type": "other",
+        "voorbeeld": "(Art.254)   (Art.255)    (Art.256)      (Art.257)     (Art.258)   (Art.259)   (Art.260"
+      },
+      {
+        "regel": 108,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "ONDERTITEL 1. - De bescherming van natuurlijke personen met betrekking tot de verwerking..."
+      },
+      {
+        "regel": 368,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Tekst"
+      },
+      {
+        "regel": 370,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "VOORAFGAANDE TITEL. - Inleidende bepalingen"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Artikelinhoud (Art.1–Art.280+) volledig aanwezig met correcte ##### Art. headings",
+      "Alle BOEK/TITEL/HOOFDSTUK/Afdeling niveaus correct als ##/###/####-headings",
+      "Wijzigingsmarkers [ 1 ... ]1 correct en consistent verwerkt",
+      "Geen fisconet-footers, geen kolom-bleed, geen OCR-fouten vastgesteld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B4: 'BIJLAGEN.' (regel 121) staat als plain text zonder heading-prefix. Verder staan 'Tekst' (regel 125) als losse artefactregel. Laag-1 geeft max_section_size warn (27233 chars) voor de langste sectie; dit is een chunker-issue, geen ETL-bug. Inhoud is volledig (BOEK I–VI aanwezig, 288 headings). De twee plain-text artefacten zijn minimaal maar voldoende voor needs-rework.",
+    "concrete_problemen": [
+      {
+        "regel": 121,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "BIJLAGEN."
+      },
+      {
+        "regel": 125,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Tekst"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "BOEK I t/m VI volledig aanwezig met correcte ## heading-structuur",
+      "Artikelinhoud rijkelijk aanwezig, definitieblokken compleet",
+      "Wijzigingsmarkers [ 1 ... ]1 en ---------- ( n ) consistent",
+      "Geen kolom-bleed, geen OCR-fouten, geen fisconet-footers"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A7 / kolom-scramble door 2-kolomige EU PDF: artikelen zijn consistent uit volgorde (Art.4 voor Art.3, Art.10 voor Art.7-8, Art.32 voor Art.27, enz.) door de hele tekst heen — tientallen transpositiefouten vastgesteld. B4: TITEL-headings hebben de tekstdescriptie op een aparte plain-text regel ('### TITEL I\\nVOORWERP EN TOEPASSINGSGEBIED' i.p.v. '### TITEL I — Voorwerp en toepassingsgebied'). Dit is een extractie-bug die herhaalbaar fixbaar is door de ETL.",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "### TITEL I\\nVOORWERP EN TOEPASSINGSGEBIED (plain-text na heading)"
+      },
+      {
+        "regel": 120,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "Art. 4 (regel 120) staat vóór Art. 3 (regel 135)"
+      },
+      {
+        "regel": 238,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "Art. 10 (regel 238) staat vóór Art. 7 (regel 241) en Art. 8 (regel 253)"
+      },
+      {
+        "regel": 429,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "Art. 28 (regel 429) staat vóór Art. 26 (regel 445)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 15 TITELS aanwezig als ### heading",
+      "Laag-1: pass, 758 headings, geen form-feed flags",
+      "BIJLAGE-secties aanwezig",
+      "Geen fisconet-footers, geen OCR-fouten vastgesteld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/BTW-uitvoeringsverordening-282-2011.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A7 (kolom-scramble): artikelen zijn consistent uit volgorde door de 2-kolomige EU-PDF-extractie (Art.12 voor Art.10-11, Art.22 voor Art.20-21, Art.39 voor Art.37, Art.45 voor Art.41, enz.); ook de preamble-overwegingen zijn geschrambled ((3)(4)(5)(6)(7) verschijnen vóór (1)(2)). A4: 269 soft hyphens (U+00AD) door de hele tekst (bv. 'Richt­ lijn', 'belasting­ plichtigen', 'toepas­ singsgebied') als gevolg van de 2-kolom-extractie. Laag-1 warn voor 9 lege regels is cosmetisch en valt in de BIJLAGE-overgang.",
+    "concrete_problemen": [
+      {
+        "regel": 65,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "Overweging (3) staat op regel 65, vóór (1) op regel 90"
+      },
+      {
+        "regel": 71,
+        "categorie": "A4",
+        "type": "other",
+        "voorbeeld": "Richt­ lijn 2006/112/EG (soft hyphen U+00AD + spatie midden in woord)"
+      },
+      {
+        "regel": 386,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "##### Art. 12 op regel 386 staat vóór Art. 10 (regel 395) en Art. 11 (regel 403)"
+      },
+      {
+        "regel": 615,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "##### Art. 39 (regel 615) staat vóór Art. 37 (regel 621)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle HOOFDSTUK-headings aanwezig als ## level",
+      "AFDELING en Onderafdeling correct als ### / #### headings",
+      "BIJLAGEN I-IV aanwezig en inhoudelijk compleet",
+      "Geen fisconet-footers, geen OCR-fouten, geen kolom-bleed in de tekst zelf"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/BW-boek1-algemene-bepalingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D2: het bestand bevat vrijwel geen artikelinhoud — enkel frontmatter + één titellijn + één cursieve subkop (51 regels, 114 chars body). Laag-1 geeft heading_count=0 en file_size_chars=114. De wet 'Burgerlijk Wetboek — Boek 1 — Algemene bepalingen' heeft artikkels (o.a. Art.1 t/m Art.34 in de BW-structuur); de PDF is vermoedelijk niet of leeg geconverteerd. Dit is een extractie-failure, niet een source-fout.",
+    "concrete_problemen": [
+      {
+        "regel": 49,
+        "categorie": "B4",
+        "type": "missing-section",
+        "voorbeeld": "# Burgerlijk Wetboek — Boek 1 — Algemene bepalingen\\n\\n*Bijgewerkt...*\\n[EOF]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Frontmatter correct en volledig ingevuld",
+      "Geen artefacten in de minimale inhoud"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/BW-boek2-relatievermogensrecht.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D2 + F3: het bestand heet 'Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht' maar de inhoud begint abrupt bij HOOFDSTUK 3 over 'Inhoud van Boek 4 Nalatenschappen' en bevat uitsluitend wijzigings- en opheffingsbepalingen (Art.3 t/m Art.65 van een invoeringswet). HOOFDSTUK 1 en 2 ontbreken volledig; de inhoud klopt niet met de bestandsnaam en het wet-veld. Dit is een extractie- of configuratiebug: ofwel ontbreekt het eigenlijke BW Boek 2 materiaal, ofwel is de verkeerde PDF geconverteerd.",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "B4",
+        "type": "missing-section",
+        "voorbeeld": "## HOOFDSTUK 3. - Inhoud van boek 4 (HOOFDSTUK 1 en 2 volledig afwezig)"
+      },
+      {
+        "regel": 47,
+        "categorie": "F3",
+        "type": "naam-mismatch",
+        "voorbeeld": "wet: Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht maar body bevat alleen wijzigingsbepalingen mbt Boek 4/Boek 3"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Aanwezige wijzigingsbepalingen (Art.3-Art.65) zijn correct gestructureerd met #### Art.-headings",
+      "Geen kolom-bleed, geen OCR-fouten in de aanwezige inhoud"
+    ]
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "bestand": "resources/bronnen/normen/IESBA-code-of-ethics-2024.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Het bestand is inhoudelijk volledig (alle Parts 1-6 + Independence Standards aanwezig, 68 ## headings, correcte Rxx.x / xx.x Ax nummering). Vier afzonderlijke artefacten vereisen rework: (A1) vier stray 'Page'-markers als losse regels op lijnen 1742, 4717, 8578, 17822 (kop/voetregelpaar uit PDF); (A2) grote dot-leader TOC-blokken als plain-text midden in de body op het overganspunt van elke Part (regels 1716-1739, 4719-4741, 8580-8644 en ca. 17823-17845); (A6) paragraafnummer met extra spatie '120. 15 A1' op regel 1530. Buiten die geïsoleerde artefacten leest de body vloeiend en zijn headings correct.",
+    "concrete_problemen": [
+      {
+        "regel": 1742,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "Losse regel 'Page' tussen TOC-blok en ## Section 200"
+      },
+      {
+        "regel": 4717,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "Losse regel 'Page' tussen TOC-blok Part 3 en ## Section 300"
+      },
+      {
+        "regel": 8578,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "Losse regel 'Page' tussen TOC-blok Part 4 en ## Section 400"
+      },
+      {
+        "regel": 17822,
+        "categorie": "A1",
+        "type": "form-feed",
+        "voorbeeld": "Losse regel 'Page' tussen TOC-blok Part 6 en volgende sectie"
+      },
+      {
+        "regel": 1716,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "Section 200 Applying the Conceptual Framework – Professional Accountants in Business.................................................................."
+      },
+      {
+        "regel": 1530,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "'120. 15 A1' — extra spatie in paragraafnummer (moet '120.15 A1' zijn)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle 6 Parts correct aanwezig als # heading; sectiestructuur volledig (Section 100 t/m 950+)",
+      "R-vereisten en A-toepassingsmateriaal consequent gedistingueerd met **Rxx** / **xx.x Ax** opmaak",
+      "Subsection-niveau (### Subsection 111, 112, ...) correct uitgewerkt",
+      "Inhoud volledig: geen verdwenen secties of abrupte cutoffs gedetecteerd",
+      "Geen column-bleed of scrambled words in de body-tekst"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md",
+    "aanbevolen_status": "rejected",
+    "rationale": "Het bestand bevat enkel een frontmatter-stub met een automatisch gegenereerde placeholder-body (1 regel: '(automatisch gegenereerd — body wordt aangemaakt door convert.py)'). Er is geen inhoud — de eigenlijke brontekst (13 vragen + 67 voetnoten van BeExcellent) is nooit geïnjecteerd. Laag 1 meldt file_size_chars = 130 en heading_count = 0, wat bevestigt dat de body leeg is. Het bestand is niet bruikbaar voor RAG. Laag 2 frontmatter bevat al een eerdere rationale (chunk.level-mismatch en orphan TOC) die verwijst naar een versie met body — die beschrijving klopt niet met de huidige lege toestand.",
+    "concrete_problemen": [
+      {
+        "regel": 65,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "'(automatisch gegenereerd — body wordt aangemaakt door convert.py)' — volledige body ontbreekt"
+      },
+      {
+        "regel": 1,
+        "categorie": "F1",
+        "type": "other",
+        "voorbeeld": "Frontmatter layer2.rationale verwijst naar '13 hoofdsecties' en '### headings' maar body is leeg — frontmatter inconsistent met body"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Frontmatter volledig en correct ingevuld (naam, type, itaa-lex-sectie, themas, bron, url)",
+      "Note-veld beschrijft inhoud accuraat"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/normen/ITAA-deontologische-code.md",
+    "aanbevolen_status": "rejected",
+    "rationale": "Expliciete placeholder: het bestand bevat bewust geen inhoud en waarschuwt dat het NIET mag worden gevuld met een zelf-geconstrueerde samenvatting. Body bestaat uit instructies voor het ophalen van het echte document (drie zoekstrategieën + vervolgstappen). Laag 1 bevestigt: file_size = 1149 chars, heading_count = 3 (de instructie-headings). Niet geschikt voor RAG totdat de echte norm beschikbaar is.",
+    "concrete_problemen": [
+      {
+        "regel": 61,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "'⚠️ Placeholder — inhoud ontbreekt. Dit bestand mag NIET worden gevuld met een zelf geconstrueerde samenvatting.'"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Placeholder is duidelijk gemarkeerd en bevat expliciete instructie om niet te auto-vullen",
+      "Wettelijke delegatie (WIW art. 36 §2 + art. 37) correct gedocumenteerd als verwijzing"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Ernstige column-extractie-artefacten door het hele document: de tweekoloms PDF-layout is niet correct afgehandeld. De inhoudstafel (regels 108-166) staat als dotted-leader plain-text midden in de body. Definitie-items 1° t/m 20° zijn door kolom-extractie door elkaar geschud (bv. 1° staat op r186, dan 12° op r191, dan 2° op r196 — volgorde is 1°, 12°, 2°, 13°, 3°, 14°, ... i.p.v. sequentieel). Body-alinea's zijn gefragmenteerd over losse regels met witruimte (A6/A7). Secties 2-8 hebben geen ## headings — ze staan als plain-text sectietitel (B4/B5). Laag 1 bevestigt: 0 ## headings, max_section_chars = 43060, status = fail.",
+    "concrete_problemen": [
+      {
+        "regel": 108,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "Inhoudstafel: 'ALGEMENE BEPALINGEN ----------------------------------------------------------------------------------------------------------- 4'"
+      },
+      {
+        "regel": 191,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "Definitie-volgorde door kolom-extractie: 1° (r186) → 12° (r191) → 2° (r196) → 13° (r199) — niet sequentieel"
+      },
+      {
+        "regel": 375,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "'2. Organisatie en interne controle' als plain-text zonder ## prefix (sectie-heading ontbreekt)"
+      },
+      {
+        "regel": 548,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "'3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar' over 4 regels als plain-text"
+      },
+      {
+        "regel": 619,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "Alinea gefragmenteerd: 'risicobeoordeling nog actueel is. Hij deelt zijn\\nbevindingen, en de desgevallend te verrichten\\nbijwerkingen\\nmee\\naan\\nhet\\nwettelijk\\nbestuursorgaan' — PDF-kolom-regelbreuk"
+      },
+      {
+        "regel": 1397,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "'8. Toezicht en controle' als plain-text; zin eindigt abrupt: 'de toepassing van de Wet en de bepalingen van'"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Bijlagen I-IV aanwezig en inhoudelijk compleet",
+      "Slotbepalingen en overgangsbepalingen aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/normen/ITAA-norm-aww-richtlijn-bibf.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Laag 1 pass (16 headings, max_section 8493), maar meerdere PDF-artefacten aanwezig. Drie kritieke problemen: (1) Regel 153-154: TOC-fragment '## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar' gevolgd door 'Nakoming    van       de         waakzaamheidsverplichtingen...' met extreme whitespace — kolom-bleed als ## heading vóór sectie 1 begint. (2) Regel 156: '## Bijlage I. Variabelen...' ook als TOC-fragment-heading vóór sectie 1. (3) Regel 425: '## 3. Algemene    risicobeoordeling beroepsbeoefenaar' — scrambled heading (meerdere spaties, ontbrekende woorden 'op te maken door de'). (4) Regel 344: extra whitespace in zin '...noch als       AMLCO.' (kolom-spreading). Overige 13 secties (1, 2, 4-10 + bijlagen II-IV) zijn correct als ## headings aanwezig en inhoudelijk compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 153,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "'## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar' als TOC-duplicate heading vóór ## 1"
+      },
+      {
+        "regel": 154,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "'Nakoming    van       de         waakzaamheidsverplichtingen                              door           derde' — extreme kolom-spreading"
+      },
+      {
+        "regel": 156,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "'## Bijlage I. Variabelen ten minste in overweging te nemen in de integrale' als TOC-fragment heading vóór sectie 1"
+      },
+      {
+        "regel": 425,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "'## 3. Algemene    risicobeoordeling beroepsbeoefenaar' — ontbrekend 'op te maken door de' + multi-spatie"
+      },
+      {
+        "regel": 344,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "'...noch als       AMLCO.' — kolom-spreading in punt 2.3"
+      },
+      {
+        "regel": 502,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "'1° aan de door deze uitgeoefende               beroepsactiviteiten   van    de' — kolom-spreading in 4.1"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Structuur van secties 1, 2, 4-10 en bijlagen II-IV correct als ## headings",
+      "Inhoud volledig aanwezig: alle verplichtingen, definities, overgangs- en slotbepalingen",
+      "Bijlagen I-IV compleet en leesbaar",
+      "Laag 1 pass: geen form-feed artefacten, heading_count adequaat"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/normen/ITAA-norm-effectennorm.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Ernstige tweekoloms-extractie-fout door het hele document. Het kernprobleem: vereisten (linkerkolom) en toepassingsmodaliteiten (rechterkolom) zijn niet geïntegreerd maar door elkaar gemengd — telkens wisselen paragrafen met nummers (5., 6., 7., ...) af met A-paragrafen (A3., A4., A5., ...) die op willekeurige plaatsen zijn ingevoegd. De inhoudstafel (regels 192-268) staat als dotted-leader plain-text body midden in het document. Titel (regels 75-83) is gesplitst over 7 alinea's met blanco regels (A7). Toepassingsgebied-paragraaf 1 (regels 271-315) toont ernstige kolom-bleed met A-paragrafen die de lopende tekst doorbreken. Laag 1 meldt 31 TOC-stippenregels.",
+    "concrete_problemen": [
+      {
+        "regel": 75,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "Titelpagina gesplitst over 7 alinea's: 'Norm inzake de opdracht van de\\nberoepsbeoefenaar in het kader van de\\nbeoordeling van het getrouw en voldoende\\n\\nzijn van de financiële...'"
+      },
+      {
+        "regel": 192,
+        "categorie": "A2",
+        "type": "dotted-leader",
+        "voorbeeld": "Inhoudstafel: 'Toepassingsgebied .............................................................................................................................. 6'"
+      },
+      {
+        "regel": 271,
+        "categorie": "A8",
+        "type": "column-bleed",
+        "voorbeeld": "§1 tekst onderbroken door A1-paragraaf: 'onderhavige norm is van toepassing op...' → 'A1. In het geval van een BV laat artikel 5:120...' → 'A. vennootschappen en verenigingen expliciet'"
+      },
+      {
+        "regel": 585,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "Lopende tekst §7 onderbroken: '...na te leven die van toepassing is in het kader van zijn opdracht. (par. A3-A4)\\n\\nA3. De beroepsbeoefenaar handelt in volledige onafhankelijkheid...'"
+      },
+      {
+        "regel": 186,
+        "categorie": "D1",
+        "type": "other",
+        "voorbeeld": "Goedkeuringsparagraaf eindigt: '...gepubliceerd in het Belgisch Staatsblad van XXX, p. XXX.' — placeholder XXX-waarden"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoudstafel aanwezig en alle secties (I, II.1-II.4, III.1-III.2, IV, V + bijlagen 1-5) zijn terug te vinden in de body",
+      "## Definities-blok (regel 397) intact met alle xiv definities",
+      "Bijlagen 1-5 aanwezig"
+    ]
+  }
+]

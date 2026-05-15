@@ -1,0 +1,197 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0114-07-condominium.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Vorige L2 flagde een en-dash in een H1-heading, maar de werkelijke H1 in de body is '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' — geen dash aanwezig. Body bestaat uit vier schone alinea's (2203 chars), geen italics, geen voetnoten nodig, geen extractie-artefacten. Inhoud compleet en coherent.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Body volledig schoon: geen broken italics, geen OCR-artefacten, geen spurious line-breaks",
+      "Inhoud juridisch coherent en compleet in vier paragrafen",
+      "Vorige L2 A5-issue (en-dash) bestaat niet in het huidige bestand — scraper-fix of vorige L2 was fout"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0117-02-munt-waarin-de-boekhouding-moet-worden-gevoerd-en-de-jaarrekening-opgesteld-de-commissie.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A9: regel 85 bevat 'Belgiëë' (dubbeld ë) — extractie-artefact voor 'België'. A6: regel 97 bevat 'der halve' (gesplitst woord) voor 'derhalve'. Bovendien regel 89: 'ingschakeld' (ontbrekende 'e') — derde extractiefout niet gesignaleerd door vorige L2. Drie bevestigde artefacten; inhoud verder volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 85,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "succursalen in Belgiëë van ondernemingen"
+      },
+      {
+        "regel": 97,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "dienen zij der halve te worden omgezet"
+      },
+      {
+        "regel": 89,
+        "categorie": "A9",
+        "type": "ocr-confusion",
+        "voorbeeld": "volledig ingschakeld zijn in het economische"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud inhoudelijk volledig: alle vragen van de Commissie behandeld",
+      "Voetnoot [^1] correct aanwezig en gekoppeld",
+      "Frontmatter correct, gerelateerde adviezen zonder HTML-entities"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0117-03-voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: Heading-hiërarchie springt van H1 (regel 76) direct naar H4 (regels 94, 99, 128) — H2 en H3 ontbreken volledig. A6: regels 97 en 118 beginnen met een leading space (' Bij de opstelling...' en ' Tenzij de transacties...') — spurious line-break artefacten. Italics op regels 84 en 86 zijn nu correct gesloten na scraper-fix.",
+    "concrete_problemen": [
+      {
+        "regel": 94,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### Definitie van de functionele valuta — H4 direct onder H1, H2/H3 ontbreken"
+      },
+      {
+        "regel": 97,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": " Bij de opstelling van de jaarrekening bepaalt iedere entiteit"
+      },
+      {
+        "regel": 118,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": " Tenzij de transacties steevast in een andere munt dan de euro"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: definitie functionele valuta, bepalingscriteria, bijkomende voorwaarden",
+      "Alle 13 voetnoten correct aanwezig en gekoppeld",
+      "Italics op enerzijds/anderzijds correct gesloten (scraper-fix werkt)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0120-01-het-begrip-financiele-instelling.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Vorige L2 flagde D4 broken italic op regel 59 ('*Thesauriebeleggingen *en'), maar de werkelijke body toont '*Thesauriebeleggingen*' correct gesloten op alle vier plaatsen (regels 56, 62). Geen spatie voor sluitende asterisk aangetroffen. Body kort (2614 chars), vijf alinea's, twee voetnoten correct. Geen artefacten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Alle italic-markers correct gesloten — scraper-fix D4 gewerkt",
+      "Twee voetnoten [^1] en [^2] correct aanwezig",
+      "Inhoud inhoudelijk compleet en coherent"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0120-02-in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "F1/G2: frontmatter regel 6 bevat ongedecodeëerd HTML-entity '&quot;' in gerelateerde_adviezen titel ('Het begrip &quot;financiële instelling&quot;'). Body zelf is schoon — italic '*Thesauriebeleggingen*' correct gesloten, geen andere artefacten. De HTML-entity maakt metadata onbetrouwbaar voor downstream verwerking.",
+    "concrete_problemen": [
+      {
+        "regel": 6,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "titel: Het begrip &quot;financiële instelling&quot;"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig schoon: één paragraaf, correct italic, geen OCR-artefacten",
+      "Italic '*Thesauriebeleggingen*' correct gesloten (geen spatie-issue)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0120-03-waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "G2/F1: frontmatter regel 15 bevat ongedecodeëerd HTML-entity '&quot;' in gerelateerde_adviezen titel ('Het begrip &quot;financiële instelling&quot;'). Body inhoudelijk volledig en schoon (2839 chars, drie alinea's), één correct gesloten italic '*pro rata temporis*'. HTML-entity maakt metadata onbetrouwbaar.",
+    "concrete_problemen": [
+      {
+        "regel": 15,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "    titel: Het begrip &quot;financiële instelling&quot;"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Body volledig schoon, inhoudelijk compleet",
+      "Italic '*pro rata temporis*' correct gesloten",
+      "Geen OCR-artefacten of spurious line-breaks"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0120-04-overheidsfondsen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: regel 88 bevat een complexe reeks gebroken italic-markers: '2.* Vastrentende effecten; *anderzijds de rubriek IX.* Thesauriebeleggingen *A.* Genoteerde vastrentende effecten*' — meerdere asterisks in de verkeerde volgorde met spaties, resulteert in willekeurig rendering. B2: twee H3-headings (regels 66, 84) staan direct onder H1 zonder tussenliggende H2. Inhoud inhoudelijk volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 88,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "2.* Vastrentende effecten; *anderzijds de rubriek IX.* Thesauriebeleggingen *A.*"
+      },
+      {
+        "regel": 66,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "### I. ONDERNEMINGEN WAAROP HET BESLUIT VAN 8 OKTOBER 1976 TOEPASSELIJK IS — H3 direct onder H1"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: beide categorieën (besluit wél / niet van toepassing) behandeld",
+      "Andere italics (regels 60, 68, 82, 90, 92, 93, 95) correct gesloten",
+      "Geen OCR-artefacten of HTML-entities in frontmatter"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0120-06-boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Vorige L2 flagde D4 broken italic op regels 53 en 57 ('*Bull. CBN *nr.'), maar de werkelijke body toont '*Bull. CBN*' correct gesloten op regels 61 en 65 — scraper-fix D4 heeft gewerkt. Body is kort (1910 chars), drie alinea's, voetnoot [^1] correct. Geen extractie-artefacten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Italic '*Bull. CBN*' correct gesloten op beide plaatsen — scraper-fix effectief",
+      "Voetnoot [^1] correct aanwezig en gekoppeld",
+      "Inhoud inhoudelijk compleet"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6/D1: regel 150 begint een nieuwe zin met 'de doctrine' (lowercase na punt, zelfde regel); regel 152 heeft '. enerzijds' (lowercase na punt — losstaande zin begint zonder hoofdletter). Regel 168: 'in de resultaat verwerking' — samengesteld woord gesplitst (moet 'resultaatverwerking' zijn). B4/bold-naar-heading was opgelost door scraper-fix. A4 NOT SIGN (¬) niet meer aangetroffen in body.",
+    "concrete_problemen": [
+      {
+        "regel": 150,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "meer. de doctrine is verdeeld — lowercase 'd' na punt, nieuwe zin zonder hoofdletter"
+      },
+      {
+        "regel": 152,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "dient te gebeuren. enerzijds kan — lowercase 'e' na punt"
+      },
+      {
+        "regel": 168,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "in de resultaat verwerking slechts — samengesteld woord gesplitst"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "B4 opgelost: alle vijf sectie-titels nu correct als ## headings",
+      "A4 NOT SIGN (¬) niet meer aangetroffen in body — scraper-fix effectief",
+      "Heading-hiërarchie (H1 → H2 → H3) correct voor hoofdstructuur",
+      "Alle acht voetnoten correct aanwezig en gekoppeld",
+      "Inhoud inhoudelijk volledig (alle drie mutatietypes + bijzondere gevallen)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-0126-02-inbrengprijs.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Vorige L2 flagde D4 broken italic op regel 61 ('*Oprichtingskosten *als'), maar de werkelijke body toont '*Oprichtingskosten* als *Kosten van oprichting en kapitaalverhoging*' correct gesloten — scraper-fix D4 effectief. Body kort (1653 chars), twee alinea's, drie voetnoten correct. Geen extractie-artefacten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Alle italics correct gesloten — scraper-fix effectief",
+      "Drie voetnoten [^1], [^2], [^3] correct aanwezig en gekoppeld",
+      "Inhoud inhoudelijk compleet"
+    ]
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2015-03-verplichting-tot-opstelling-en-publicatie-van-de-jaarrekening-door-de-inbrengende.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen detecteerbare ETL-artefacten. Heading-hiërarchie correct (## en ###), voetnoten volledig en gekoppeld via [^n], lijsten met standaard markdown-bullets, geen spurious line-breaks of OCR-issues. Een buitenstaander zou dit voor mens-geschreven markdown houden.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Heading-hiërarchie consistent doorheen het document (##/###)",
+      "Alle voetnoten [^1]–[^16] aanwezig en gekoppeld",
+      "Bullet-lijsten in standaard markdown-stijl",
+      "Geen zichtbare PDF-artefacten ondanks complexe juridische inhoud"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "G1: regel 706 bevat 'www.cass.be' als kale URL zonder markdown-link in een voetnoot. B5: regel 442 ('Overdracht en einde van het vruchtgebruik vóór het verstrijken van de initieel voorziene duur') staat als gewone alineatekst terwijl het een subsectie-heading had moeten zijn op grond van de documentstructuur. Overige inhoud is inhoudelijk correct en compleet.",
+    "concrete_problemen": [
+      {
+        "regel": 706,
+        "categorie": "G1",
+        "type": "url-plaintext",
+        "voorbeeld": "[^41]: www.cass.be"
+      },
+      {
+        "regel": 442,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Overdracht en einde van het vruchtgebruik vóór het verstrijken van de initieel voorziene duur"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle tabellen in correcte markdown pipe-syntax",
+      "Voetnoten [^1]–[^62] volledig aanwezig en verankerd",
+      "40 headings structureren het lange document adequaat",
+      "Geen OCR-fouten of column-bleed gedetecteerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Kort advies (5k chars), volledig schoon. Vier ##-secties correct benoemd, voetnoten [^1]–[^7] volledig gekoppeld, geen artefacten in categorie A t/m G. Inhoud compleet (inleiding, vraagstelling, toepasselijke standaard, vrijstelling).",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Vier duidelijke ## secties met beschrijvende titels",
+      "Voetnoten volledig en correct gerefereerd",
+      "Geen zichtbare PDF- of HTML-extractie-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Lang advies (16k chars) met genummerde voorbeelden en tabellen. Pipe-tabellen correct gerenderd. Heading-hiërarchie consistent (## voor secties en gevallen). Voetnoten [^1]–[^28] volledig. Geen ETL-artefacten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Pipe-tabellen met correct aantal kolommen per voorbeeld",
+      "Genummerde voorbeelden en gevallen duidelijk als ## headings",
+      "Voetnoten volledig met gedetailleerde juridische referenties",
+      "Rekenkundige voorbeelden intact en leesbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-03-groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Zeer kort advies (2.5k chars, 3 headings). Volledig schoon: vraag, antwoord en voorbeelden helder gestructureerd. Voetnoten [^1]–[^3] correct. Geen artefacten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Compacte, leesbare structuur met drie ## secties",
+      "Wetscitataat correct opgenomen als blockquote-tekst",
+      "Voetnoten volledig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2017-08-cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Kort advies (4k chars, 2 headings). Volledig schoon: inleiding en kern correct gestructureerd. Voetnoten [^1]–[^6] aanwezig en verankerd. Geen ETL-artefacten.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Heldere tweedeling ## Inleiding / ## Identieke voorstelling",
+      "Voetnoten volledig met wettelijke referenties",
+      "Geen formattering-artefacten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-11-verkoop-van-oplaadbare-betaalkaarten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2/C3: regels 62, 81, 85 en 97 bevatten stray single-pipe tekens ('| ') als losstaande regels tussen secties — artefacten van HTML-tabel-extractie die de markdown-structuur verbreken. Een mens zou dit nooit zo typen. Verdere inhoud correct; tabellen zijn verder goed gerenderd in pipe-syntax.",
+    "concrete_problemen": [
+      {
+        "regel": 62,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| \n\n*Voorbeeld*"
+      },
+      {
+        "regel": 81,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": " | \n\nIndien de betaalkaart niet terugbetaalbaar is"
+      },
+      {
+        "regel": 85,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": "| \n\n*Voorbeeld*"
+      },
+      {
+        "regel": 97,
+        "categorie": "E2",
+        "type": "pseudo-table",
+        "voorbeeld": " | \n\n De natuurlijke personen die koopman zijn"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Boekhoudkundige tabellen correct in pipe-syntax",
+      "Zes duidelijke ## secties",
+      "Voetnoten [^1]–[^9] volledig aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2018-22-groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B1/B4: de tabellen met rekening-gegevens (regels 86-357 en verder) zijn volledig uiteengevallen in losse ## headings per tabelcel ('## Rekening 70', '## Vennootschap A', '## Geconsolideerd bedrag', etc.) afgewisseld met stray pipe-tekens. Layer 1 meldt 60 headings voor 18k chars — dit is het directe symptoom. De tabellen zijn onleesbaar als zodanig en de heading-count is structureel verstoord door de extractiebug.",
+    "concrete_problemen": [
+      {
+        "regel": 91,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "## Rekening 70\n  | |"
+      },
+      {
+        "regel": 95,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "## Rekening 74\n  | |"
+      },
+      {
+        "regel": 103,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "## Vennootschap A\n  | |"
+      },
+      {
+        "regel": 86,
+        "categorie": "E1",
+        "type": "pseudo-table",
+        "voorbeeld": "| \n\n | | \n|---|\n\n## Rekening 70"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Introductie en narratieve tekst buiten de tabellen correct gestructureerd",
+      "Voetnoten [^1]–[^38] aanwezig",
+      "Begripsomschrijvingen en wetscitaten intact"
+    ]
+  }
+]

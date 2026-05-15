@@ -1,0 +1,260 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2013-17-de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: twee malformed italic-markers bevestigd. Regel 104: '489X O*ntvangen voorschotten op kapitaal*' — asterisk kleeft direct aan de 'O' (opening italic zonder spatie na gewone letter). Regel 140: '*Boeking bij de betaalbaarstelling[^8] *' — spatie vóór sluit-asterisk. Inhoud en tabellen volledig, geen andere artefacten.",
+    "concrete_problemen": [
+      {
+        "regel": 104,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "489X O*ntvangen voorschotten op kapitaal* — asterisk kleeft aan 'O'"
+      },
+      {
+        "regel": 140,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Boeking bij de betaalbaarstelling[^8] * — spatie vóór sluit-asterisk"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Drie voorbeeldboekingen volledig uitgewerkt met correcte pipe-tabellen",
+      "Voetnoten compleet aanwezig met bijhorende body-referenties",
+      "Inhoud logisch gestructureerd met duidelijke heading-hiërarchie"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2014-03-de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6/B5: regel 60 bevat ', bijgewerkt op 25 juni 2025[^2]' als losstaand fragment direct na de H1-titel — dit is een scrape-artefact waarbij de bijwerkingsdatum als separate tekstregel terechtkwam in de body in plaats van geïntegreerd in de heading of verwijderd. Inhoud anderszins volledig met correcte tabellen en voetnoten.",
+    "concrete_problemen": [
+      {
+        "regel": 60,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": ", bijgewerkt op 25 juni 2025[^2] — losstaand fragment na H1-heading"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Zes geconsolideerde balansen correct weergegeven als pipe-tabellen",
+      "Voetnoten compleet aanwezig en correct gerefereerd",
+      "Inhoud volledig: inleiding, praktische uitwerking en voorbeelden aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A6/B5: regel 58 bevat 'op 1 januari 2014' als losstaande tekstregel direct na de H1-titel — fragment van de volledige originele titel die door de scraper werd gesplitst. Hoort geïntegreerd te zijn in de H1-heading. Inhoud verder volledig en helder.",
+    "concrete_problemen": [
+      {
+        "regel": 58,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "op 1 januari 2014 — losstaand fragment na H1-heading"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Vijf secties volledig uitgewerkt met heldere heading-hiërarchie",
+      "Voetnoten compleet aanwezig (negen voetnoten correct gerefereerd)",
+      "Geen tabellen of boekhoudkundige constructies — tekstueel advies correct gerenderd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2015-01-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: regel 83 '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra H1 scrape-artefact bovenaan de body (de eigenlijke H1 ontbreekt — de adviestitel staat als ## op regel 85). D4: regel 108 'de* productievennootschap*' heeft asterisk die direct na 'de' kleeft zonder spatie. Regel 111 heeft spurious line break na voetnoot-referentie. Inhoud volledig met correcte boekhoudtabellen.",
+    "concrete_problemen": [
+      {
+        "regel": 83,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 scrape-artefact"
+      },
+      {
+        "regel": 108,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "de* productievennootschap* — asterisk kleeft direct aan 'de'"
+      },
+      {
+        "regel": 111,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "...beperkt tot:[^10]\\n Het bedrag dat kan worden vrijgesteld — spurious line break"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Drie scenario's volledig uitgewerkt met correcte boekhoudtabellen",
+      "31 voetnoten aanwezig en correct gerefereerd in de body",
+      "Inhoud volledig: alle stappen van ondertekening tot attest behandeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2015-02-boekhoudkundige-verwerking-van-de-liquidatiereserve-programmawet-van-19-december-2014-en.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: tabelrij op regels 196–197 is gesplitst over twee regels — '| | 130X | Wettelijke reserve – artikel 184quater WIB 92\\n (31/12/N) | | 40 |' — de cel breekt midden in de tekst, wat de pipe-tabel syntactisch ongeldig maakt. Inhoud en overige tabellen volledig correct.",
+    "concrete_problemen": [
+      {
+        "regel": 196,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | 130X | Wettelijke reserve – artikel 184quater WIB 92\\n (31/12/N) | | 40 | — cel over twee regels"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee voorbeelden volledig uitgewerkt met correcte boekhoudtabellen",
+      "Heading-hiërarchie consistent, alle secties herkenbaar",
+      "Voetnoten compleet aanwezig en correct gerefereerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2015-03-verplichting-tot-opstelling-en-publicatie-van-de-jaarrekening-door-de-inbrengende.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3+B3: TOC-fragmenten en scrape-artefacten in de body. Regel 72: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra H1 met typofout (COMMISIE). Regel 74: 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' — twee sectietitels samengevoegd zonder witruimte, typisch scrape-artefact. Inhoud anderszins volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 72,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 met typofout (bron-artefact: 'COMMISIE' vs 'COMMISSIE')"
+      },
+      {
+        "regel": 74,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten — samengevoegde sectietitels zonder spatie"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee voorbeelden volledig uitgewerkt met schematische tijdslijn",
+      "Voetnoten compleet aanwezig (16 voetnoten correct gerefereerd)",
+      "Inhoud logisch gestructureerd: drie secties herkenbaar"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2015-04-leasing.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Meerdere categorieën: B3 (regel 99: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' als extra H1), B5 (meerdere subsectietitels als plain tekst zonder #-prefix), B2 (heading-hiërarchie springt van ## naar #### zonder ###), D4 (malformed italics op meerdere regels), D1 (zin afgebroken mid-tekst op regel 290). Groot advies (39 headings, 77124 chars) met systematische ETL-issues.",
+    "concrete_problemen": [
+      {
+        "regel": 99,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 scrape-artefact"
+      },
+      {
+        "regel": 88,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "Overeenkomsten die kwalificeren als leasing volgens artikel 95 KB W.Venn. — plain tekst, geen heading"
+      },
+      {
+        "regel": 89,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## sectie gevolgd direct door #### zonder tussenliggend ### niveau"
+      },
+      {
+        "regel": 109,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "(zie punt* B. Overeenkomsten die niet kwalificeren...).* — asterisk midden in tekst"
+      },
+      {
+        "regel": 290,
+        "categorie": "D1",
+        "type": "abrupt-cutoff",
+        "voorbeeld": "...geactiveerd onder de desbetreffende rubriek van de — zin eindigt mid-tekst"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Groot advies met 39 secties volledig aanwezig",
+      "Boekhoudtabellen in correcte pipe-syntax",
+      "Voetnoten grotendeels compleet aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: tabelrij op regels 232–233 is gesplitst — '| | 2230 | Overige zakelijke rechten op onroerende goederen: |' gevolgd door '| | aanschaffingswaarde | 100.800 | | |' — cel over twee regels. A10/onregelmatige witruimte: regel 66 bevat meerdere tabs vóór de tekst als gevolg van HTML-tabel-extractie. Structuurbox (regels 52–68) met lone '|'-regels is een HTML-table scrape-artefact. Inhoud (42 secties) verder volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 52,
+        "categorie": "G2",
+        "type": "other",
+        "voorbeeld": "| \\n\\n## Samenvatting — lone pipe als openingsregel van summary-box (HTML-tabel artefact)"
+      },
+      {
+        "regel": 66,
+        "categorie": "A10",
+        "type": "other",
+        "voorbeeld": "\\t\\t\\t\\tDe Commissie onderstreept... — meerdere tabs vóór tekst (HTML-tabel extractie-artefact)"
+      },
+      {
+        "regel": 232,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | 2230 | Overige zakelijke rechten op onroerende goederen: |\\n| | aanschaffingswaarde | 100.800 | — tabelcel over twee regels"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Groot advies (42 headings, 77997 chars) inhoudelijk volledig met alle zakelijke rechten behandeld",
+      "Boekhoudtabellen grotendeels correct in pipe-syntax",
+      "Voetnoten compleet aanwezig en correct gerefereerd"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2015-06-boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: regel 174 '(artikel 184*quater *WIB 92)' heeft spatie vóór sluit-asterisk (malformed italic). Regel 83: H1-titel eindigt op literal '1' — voetnootcijfer niet als [^1] geparsed. D3: regel 272 '[^23]' is een losstaande voetnoot-definitie waarvan de body-referentie ontbreekt in de tekst.",
+    "concrete_problemen": [
+      {
+        "regel": 83,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "...bijzondere aanslag op deze liquidatiereserve1 — literal '1' i.p.v. [^1]"
+      },
+      {
+        "regel": 174,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "(artikel 184*quater *WIB 92)[^21] — spatie vóór sluit-asterisk"
+      },
+      {
+        "regel": 272,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^23]: Onderhavig voorbeeld gaat uit... — voetnoot zonder zichtbare body-referentie [^23]"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Twee voorbeelden met meerdere varianten volledig uitgewerkt",
+      "Boekhoudtabellen correct in pipe-syntax",
+      "Inhoud volledig: bijzondere aanslag, vorming liquidatiereserve en resultaatverwerking behandeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2015-08-boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B3: de H1-titel is enkel '# Advies 30 september 2015' zonder het CBN-advies-nummer — het officiële nummer (2015/8) ontbreekt in de body. B2: regels 126–128 hebben '## Voorbeeldboekingen' direct gevolgd door '## Boeking van de aankoop...' waarbij de tweede ## conceptueel een subsectie is van de eerste (inconsistente heading-hiërarchie). Inhoud volledig.",
+    "concrete_problemen": [
+      {
+        "regel": 84,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "# Advies 30 september 2015 — H1 zonder CBN-advies-nummer (2015/8 ontbreekt in body)"
+      },
+      {
+        "regel": 126,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "## Voorbeeldboekingen gevolgd direct door ## Boeking van de aankoop... (subsectie als zelfde ##-niveau)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoud volledig: aanschaffingswaarde, waardering en intercalaire interesten behandeld",
+      "Vijf voorbeeldboekingen correct als pipe-tabellen",
+      "Voetnoten compleet aanwezig (16 voetnoten correct gerefereerd)"
+    ]
+  }
+]

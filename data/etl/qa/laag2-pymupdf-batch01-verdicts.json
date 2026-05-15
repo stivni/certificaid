@@ -1,0 +1,126 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/MIGB-Brussel.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B2: de titelpagina-sectie (regels 54–83) is een scrambled cover-page-blok met inconsistente heading-niveaus (##, #####, ####, ###, ###) voor hetzelfde document: de wetboeknaam wordt vijf keer herhaald op vijf verschillende niveaus. B5/A7: regel 318 bevat '#### Hoofdstuk VI' inline midden in een paragraaf-zin ('met uitzondering van #### Hoofdstuk VI, afhankelijk van zijn constructie...') — heading-marker is in de prosa-tekst beland. Verder is het document na Art. 119 structureel compleet (eindigt correct op 'roerende voorheffing.').",
+    "concrete_problemen": [
+      {
+        "regel": 54,
+        "categorie": "B2",
+        "type": "scrambled-words",
+        "voorbeeld": "## WETBOEK VAN DE MET DE  INKOMSTENBELASTINGEN  GELIJKGESTELDE BELASTINGEN"
+      },
+      {
+        "regel": 62,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### WETBOEK VAN DE MET DE INKOMSTENBELASTINGEN GELIJKGESTELDE / ### BELASTINGEN"
+      },
+      {
+        "regel": 318,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "met uitzondering van #### Hoofdstuk VI, afhankelijk van zijn constructie, beschouwd als"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle Titels (I–V) en Hoofdstukken correct als ## / ### heading gemarkeerd",
+      "Artikel-nummering consistent als ###### Artikel N door heel het document",
+      "Wijzigingshistorie (BS-referenties) intact bewaard zonder kolombleed",
+      "Laag-1 pass zonder flags; file_size 127k chars normaal voor dit wetboek"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/MIGB-Wallonie.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "Zelfde titelpagina-scramble als MIGB-Brussel (B2): regels 54–76 bevatten de wetboeknaam op vijf heading-niveaus (##, ####, ####, ###, ####, #####) door cover-page multikolom-extractie. Verder correct: structuur, artikelreeks en inhoud zijn intact. Geen inline heading-in-prosa probleem (tegenstelling tot Brussel-versie).",
+    "concrete_problemen": [
+      {
+        "regel": 54,
+        "categorie": "B2",
+        "type": "scrambled-words",
+        "voorbeeld": "## WETBOEK VAN DE MET DE  INKOMSTENBELASTINGEN  GELIJKGESTELDE BELASTINGEN"
+      },
+      {
+        "regel": 63,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "#### WETBOEK VAN DE MET DE INKOMSTENBELASTINGEN GELIJKGESTELDE / #### BELASTINGEN"
+      },
+      {
+        "regel": 70,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "### WETBOEK VAN DE MET DE INKOMSTENBELASTINGEN GELIJKGESTELDE / #### BELASTINGEN"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Titels en Hoofdstukken correct als ## / ### headings door het volledige document (5805 regels)",
+      "Geen inline heading-in-prosa gevonden (tegenstelling tot Brussel-variant)",
+      "Artikel-nummering consistent als ###### Artikel N",
+      "Wijzigingshistorie intact; geen kolom-bleed, geen form-feed residue"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Decr-Waals-Directe-Belastingen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: regels 56–183 bevatten een inhoudsopgave-fragment (HOOFDSTUK V t/m X met artikel-stubs als '##### Art. 17bis, 18, 18bis...') dat voor de echte body-tekst staat die pas begint op regel 185 (HOOFDSTUK I – Algemene bepalingen). Dit is een TOC-blok dat de extractor voor de body heeft geplaatst. B4: regels 56 en 183 bevatten plain-text labels 'Titel' en 'Tekst' zonder heading-prefix die structuurelementen uit de Fisconet-bron markeren.",
+    "concrete_problemen": [
+      {
+        "regel": 56,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Titel"
+      },
+      {
+        "regel": 65,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "##### Art. 17bis, 18, 18bis, 19-20, 20bis, 20ter, 20quater, 20quinquies, 21-24, 24bis"
+      },
+      {
+        "regel": 183,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Tekst"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Echte body-tekst (HOOFDSTUK I–X) volledig aanwezig en correct gestructureerd vanaf regel 185",
+      "Lange artikelen correct als doorlopende tekst (geen spurious line-breaks)",
+      "Artikel-stubs in de inhoudsopgave gebruiken wel heading-prefix (#####), alleen de positie is fout",
+      "Wijzigings-annotaties ([1 ...]1, [2 ...]2) consistent open-en-dicht"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Strafwetboek2024-boek1.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A7/B2: het document opent (regels 52–74) met HOOFDSTUK 3 (Wijzigingsbepalingen), HOOFDSTUK 4 en HOOFDSTUK 5 (Overgangsbepalingen) — vóór HOOFDSTUK 1 en 2. Dit is een extractie-volgorde-bug: de wet van 29.02.2024 begint in de PDF-layout met de invoegende wet (Boek I invoering) en de extractor heeft de hoofdstukken in de verkeerde volgorde geplaatst. B4: regel 76 bevat 'Tekst' als plain-text label voor HOOFDSTUK 5. Structureel zijn HOOFDSTUK 1–2 (met Boek I inhoud) wél aanwezig en correct na de eerste blokken.",
+    "concrete_problemen": [
+      {
+        "regel": 52,
+        "categorie": "A7",
+        "type": "scrambled-words",
+        "voorbeeld": "#### Afdeling 1. - Wijzigingen van het Militair Strafwetboek (vóór HOOFDSTUK 1)"
+      },
+      {
+        "regel": 70,
+        "categorie": "B2",
+        "type": "other",
+        "voorbeeld": "### HOOFDSTUK 4. - Opheffingsbepalingen (verschijnt voor HOOFDSTUK 1)"
+      },
+      {
+        "regel": 76,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Tekst"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Boek I inhoud (Art. 1–78) volledig aanwezig en correct als ##### Art. N headings",
+      "Heading-teksten bevatten artikelnaam (bv. '##### Art. 3. Toepassing van de strafwet in de ruimte')",
+      "Geen kolom-bleed, geen OCR-verwarring, geen form-feed residue",
+      "Strafniveaus en lange paragrafentekst correct als doorlopende alinea's"
+    ]
+  }
+]

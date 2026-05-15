@@ -1,0 +1,285 @@
+[
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-04-aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D3: zes orphan footnote-markers ([^6], [^7], [^8], [^9], [^10], [^11]) staan als losstaande regels tussen de boekingstabellen (L116, L123, L132, L139, L153, L160); ze zijn anchor-verwijzingen die de tabel-contextuele noot aanduiden maar er is geen bijbehorende voetnootdefinitie op dezelfde plek — een mens zou dat nooit zo typen. A6: footnote-anker splitst een zin over twee regels (L91–L92: 'De financiële component[^4]\\n van de verrichting…'). Inhoud is volledig en correct gestructureerd.",
+    "concrete_problemen": [
+      {
+        "regel": 116,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": " [^6]"
+      },
+      {
+        "regel": 123,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^7]"
+      },
+      {
+        "regel": 132,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": " [^8]"
+      },
+      {
+        "regel": 139,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^9]"
+      },
+      {
+        "regel": 153,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": " [^10]"
+      },
+      {
+        "regel": 160,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^11]"
+      },
+      {
+        "regel": 91,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "De financiële component[^4]\\n van de verrichting wordt gespreid…"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Alle zes ## headings herkenbaar en correct genesteld",
+      "Markdown-tabellen correct in pipe-syntax met scheidingsrij",
+      "Alle voetnootdefinities ([^1]–[^13]) aanwezig en volledig onderaan",
+      "Inhoud compleet: inleiding, wettelijk kader, opsplitsing, voorbeeld met berekeningen, HvJ-arrest behandeld"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-05-boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: malformed italic op L74 — '*Huuropbrengsten *of rekening 70 *Omzet[^2] *' heeft een spatie vóór de afsluitende asterisk waardoor de italic niet correct sluit; dit patroon duidt op een extractieartefact waarbij een footnote-marker de italic-span doorkruist. Geen andere structurele problemen; inhoud is volledig en alle zeven headings zijn correct.",
+    "concrete_problemen": [
+      {
+        "regel": 74,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *wordt gecrediteerd"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Zeven ## headings correct en logisch genesteld",
+      "Inhoud compleet: huurverwerking, CBN 2012/2, kwijtschelding, leasing, waarderingsregels, voorzichtigheidsbeginsel",
+      "Alle drie voetnootdefinities aanwezig",
+      "Geen orphan-footnotes of TOC-fragmenten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D3: zeven orphan footnote-markers als losstaande regels tussen boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — dezelfde extractie-artefact als in CBN-2021-04, waarbij anchor-verwijzingen naar tabel-contextuele noten op een eigen lege regel staan. A6: footnote-anker op L72 splitst een zin over twee regels. De rest van het advies is inhoudelijk compleet en correct met 29 headings en alle 47 voetnootdefinities aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 101,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": " [^13]"
+      },
+      {
+        "regel": 288,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^39]"
+      },
+      {
+        "regel": 295,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^40]"
+      },
+      {
+        "regel": 368,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^42]"
+      },
+      {
+        "regel": 375,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^43]"
+      },
+      {
+        "regel": 440,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": "[^46]"
+      },
+      {
+        "regel": 449,
+        "categorie": "D3",
+        "type": "other",
+        "voorbeeld": " [^47]"
+      },
+      {
+        "regel": 72,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "wet van 11 augustus 2017 heeft Boek XX … toegevoegd[^2]\\n samenhangender te maken…"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "29 headings correct genesteld (H2/H3/H4/H5) met volledige sectie-hiërarchie",
+      "Alle 47 voetnootdefinities aanwezig en volledig onderaan",
+      "Uitgebreide set markdown-tabellen voor boekingen correct in pipe-syntax",
+      "Inhoud compleet: kwijtschelding, renteloze schulden, omzetting schuldvordering, 4 VZW-voorbeelden"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-08-verplichting-voor-bepaalde-vzws-ivzws-en-stichtingen-om-een-jaarverslag-op-te-stellen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: malformed italic op L80 — '### Toepassingsgebied *ratione temporis *' heeft een spatie vóór de afsluitende asterisk in een heading. E2: alle vier groottecriteria-tabellen missen een scheidingsrij (|---|---|...) na de headerrij, waardoor ze technisch geen geldige markdown-tabellen zijn. Inhoud is volledig en de 14 headings zijn correct.",
+    "concrete_problemen": [
+      {
+        "regel": 80,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "### Toepassingsgebied *ratione temporis *"
+      },
+      {
+        "regel": 122,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 | (geen |---|---| rij)"
+      },
+      {
+        "regel": 144,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/08/2017 | | 31/08/2018 | (geen |---|---| rij)"
+      },
+      {
+        "regel": 178,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 | (geen |---|---| rij)"
+      },
+      {
+        "regel": 197,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 | (geen |---|---| rij)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "14 headings correct genesteld (H2/H3/H4/H5)",
+      "Inhoud compleet: toepassingsgebied ratione personae en temporis, opt-in, 5 uitgewerkte voorbeelden",
+      "Alle 22 voetnootdefinities aanwezig",
+      "Geen orphan-footnotes of TOC-fragmenten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-09-rekening-26-overige-materiele-vaste-activa.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Alle drie categorieën (A t/m G) schoon. Drie headings correct genesteld, inhoud volledig (inleiding, rubriek-inhoud, waarderingsregels), 12 voetnootdefinities aanwezig, geen artefacten, geen orphan-footnotes, geen malformed italic. Compacte maar complete bron.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Drie ## headings correct en logisch",
+      "Bullet-lijst van rubriek-inhoud correct met '-' bullets",
+      "Alle 12 voetnootdefinities aanwezig en volledig",
+      "Geen enkele extractie-artefact aangetroffen"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-11-boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "E2: tabelrij op L84 heeft een extra cel '(of 764 tot 768' als eerste kolom-inhoud, waardoor de tabel asymmetrisch is — het is een alternatieve boeking die als aparte rij in de tabel terechtkwam maar niet correct is opgemaakt. Inhoud is verder volledig, zes headings correct, alle 17 voetnootdefinities aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 84,
+        "categorie": "E2",
+        "type": "other",
+        "voorbeeld": "| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Zes ## headings correct",
+      "Alle 17 voetnootdefinities aanwezig",
+      "Inhoud compleet: tegemoetkomingen, kosten gezondheidscrisis, indekkingsverrichtingen",
+      "Geen orphan-footnotes of TOC-fragmenten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-12-boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D4: malformed italic op L49 — '*Wet van 19 november 2020 … [^2] *' heeft een spatie vóór de afsluitende asterisk doordat een footnote-anker binnen de italic-span staat; extractie-artefact. Inhoud is volledig en de zes headings zijn correct met alle 24 voetnootdefinities aanwezig.",
+    "concrete_problemen": [
+      {
+        "regel": 49,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "*Wet van 19 november 2020 houdende de invoering van een wederopbouwreserve voor vennootschappen[^2] *"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Zes ## headings correct en logisch genesteld",
+      "Alle 24 voetnootdefinities aanwezig",
+      "Twee uitgewerkte voorbeelden met boekingstabellen correct in pipe-syntax",
+      "Inhoud compleet: bedrijfsverlies als basis, samenstelling, terugname, twee voorbeelden"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-13-herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen structurele artefacten. De italic-vlaggen uit de analyse zijn false positives: '*ratione temporis*'-patronen zijn juridisch gebruik, niet extractiefout. Geen orphan-footnotes, geen TOC-fragmenten, geen asymmetrische tabellen. 11 headings correct genesteld, inhoud volledig, alle 28 voetnootdefinities aanwezig.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "11 headings correct genesteld (H2/H3/H4) met kapitaalhoudende / kapitaalloze opdeling",
+      "Wettekst van art. 3:35, 7:208, 7:212 WVV correct geciteerd in blockquote-stijl",
+      "Twee uitgewerkte voorbeelden met correcte berekeningen",
+      "Alle 28 voetnootdefinities aanwezig en volledig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-15-verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3: TOC-fragment verdubbeld in de body op L70 — een geconcateneerde regel '---- Omzetting van een vennootschap in een VZW of IVZW-- Mogelijkheid tot compensatie…' is een extractie-artefact waarbij twee TOC-entries samengevoegd zijn en als plain-tekstregel in de body terechtkwamen. D4: malformed italic op L75 — '*Beginvermogen *' en '*Permanente financiering[^3] *' hebben spaties vóór de afsluitende asterisk. A6: L74–L75 is een zin gesplitst over twee regels door een footnote-anker op L74.",
+    "concrete_problemen": [
+      {
+        "regel": 70,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "---- Omzetting van een vennootschap in een VZW of IVZW-- Mogelijkheid tot compensatie van negatieve fondsen…"
+      },
+      {
+        "regel": 75,
+        "categorie": "D4",
+        "type": "other",
+        "voorbeeld": "rekening 100 *Beginvermogen *en rekening 101 *Permanente financiering[^3] *"
+      },
+      {
+        "regel": 74,
+        "categorie": "A6",
+        "type": "other",
+        "voorbeeld": "…(hierna: KB WVV)[^2]\\n waren de VZW's, IVZW's…"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "15 headings correct genesteld met nummering via ## / #### / ##### consistent",
+      "6 uitgewerkte balansvoorbeelden en boekingstabellen correct in pipe-syntax",
+      "Alle 19 voetnootdefinities aanwezig",
+      "Inhoud inhoudelijk compleet voor alle behandelde situaties (§ 2, § 3, splitsing, fusie, omzetting)"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/adviezen/CBN-2021-16-waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel.md",
+    "aanbevolen_status": "trusted",
+    "rationale": "Geen extractie-artefacten. De italic-hits uit de analyse zijn false positives: '*blockchain*', '*Liquide middelen*', '*Overige vorderingen*' zijn correcte markdown-italics zonder spaties. Twee headings correct, inhoud volledig, alle vier voetnootdefinities aanwezig. Compact maar compleet advies.",
+    "concrete_problemen": [],
+    "concrete_sterke_punten": [
+      "Twee ## headings correct",
+      "Inhoud compleet: definitie cryptomunt, redenering voor 'Overige vorderingen', waarderingsregel, aanbeveling toelichting",
+      "Alle vier voetnootdefinities aanwezig",
+      "Geen TOC-fragmenten, geen orphan-footnotes, geen asymmetrische tabellen"
+    ]
+  }
+]

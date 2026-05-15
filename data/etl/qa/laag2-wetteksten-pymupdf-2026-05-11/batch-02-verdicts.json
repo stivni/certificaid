@@ -1,0 +1,178 @@
+[
+  {
+    "bestand": "resources/bronnen/wetteksten/BW-boek3-goederen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D2: het bestand bevat uitsluitend de wijzigings- en overgangsbepalingen (HOOFDSTUK 3–6) — de inhoudelijke artikelen van Boek 3 zelf ontbreken volledig; de body begint mid-paragraaf (§ 2.) zonder voorafgaande sectietitel. B5: Art. 25 op regel 167 heeft een heading die doorloopt in de artikeltekst ('#### Art. 25. In artikel 2, 5°, i, van de wet van 12 mei 2014 betreffende de gereglementeerde') — de heading is niet afgesloten voor de body. Afdeling XI (regel 145–146) heeft een sectietitel zonder bijbehorend artikel.",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "§ 2. In geval van gehele of gedeeltelijke vernietiging... (document begint mid-paragaaf, geen inhoudelijke Boek 3-artikelen aanwezig)"
+      },
+      {
+        "regel": 167,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "#### Art. 25. In artikel 2, 5°, i, van de wet van 12 mei 2014 betreffende de gereglementeerde"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Wijzigings- en overgangsbepalingen (HOOFDSTUK 3–6) zijn structureel correct opgebouwd met ## en #### headings",
+      "Geen kolom-bleed, form-feeds of OCR-artefacten aangetroffen",
+      "Amendementmarkers [ 1 ... ]1 zijn consistent aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "B4: 'Ondertitel X.' labels (o.a. regels 57, 67, 81, 171, 181, 277, 291, 447, 477, 516, 554, 566, 610, 656, 726, 782, 902, 928, 942, 960, 978) staan als plain-tekst-regels zonder #-prefix, terwijl ze structuurniveaus zijn die als headings hadden moeten worden opgemaakt. B1: 'Art. 4. 242.' op regel 982 heeft een spatie midden in het artikelnummer (ETL-artefact, geen source-fout gezien het consistent doorloopt).",
+    "concrete_problemen": [
+      {
+        "regel": 57,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Ondertitel 2. Hoedanigheden vereist om te erven"
+      },
+      {
+        "regel": 81,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Ondertitel 4. Wettelijke erfopvolging"
+      },
+      {
+        "regel": 277,
+        "categorie": "B4",
+        "type": "other",
+        "voorbeeld": "Ondertitel 7. Omzetting van het vruchtgebruik van de langstlevende echtgenoot"
+      },
+      {
+        "regel": 982,
+        "categorie": "B1",
+        "type": "other",
+        "voorbeeld": "##### Art. 4. 242. Principieel verbod van erfovereenkomst"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Volledige inhoud aanwezig: alle ondertitels, hoofdstukken en afdelingen van Boek 4 zijn herkenbaar",
+      "##### Art. X.X.-headings zijn consistent voor alle artikelen",
+      "Geen kolom-bleed, form-feeds of OCR-artefacten aangetroffen",
+      "Amendementmarkers [ 1 ... ]1 en ( 1 )<...> zijn consistent en correct gesloten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/BW-boek5-verbintenissen.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3/B3: het document opent met Afdeling XXIII t/m Hoofdstuk 6 (regels 53–79) met enkel lege heading-skeletons en 'Tekst' als plaatshouder, waarna het document herstart vanaf Hoofdstuk 1 op regel 81 — dit is een klassieke out-of-order PDF-extractie waarbij de slothoofstukken als schijnbaar eerste blok verschijnen. B5: Art. 29 (regel 197) introduceert een stray '#### Art. 4.' op regel 199 midden in Afdeling V, wat wijst op een fout in de artikel-extractie.",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "### Afdeling XXIII. - Wijziging van de wet van 23 november 2017... (headings zonder content, gevolgd door 'Tekst' op r.79)"
+      },
+      {
+        "regel": 79,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "Tekst (lege placeholder als enige body-inhoud voor Hoofdstuk 6 Art. 65)"
+      },
+      {
+        "regel": 199,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "#### Art. 4. (stray artikel-heading midden in Afdeling V - Wijziging Burgerlijk Wetboek)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoudelijke wijzigingsbepalingen (Hoofdstuk 3 Afd. I–XXIV) zijn volledig en correct gestructureerd",
+      "Geen kolom-bleed of OCR-artefacten in de body-tekst",
+      "Amendementmarkers consistent aanwezig"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/BW-boek8-bewijs.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3/B3: het document opent met Afdelingen 8–18 (regels 53–93) als lege heading-skeletons (enkel artikelnummer, geen tekst), gevolgd door 'Tekst' placeholder op regel 101, waarna de eigenlijke inhoud herstart vanaf Art. 1 op regel 103 — identiek probleem als BW-boek5: out-of-order PDF-extractie. B5: Afdeling 17 op regel 89 duidt op Art. 55, maar de art.-nummering in het bijbehorende blok (regels 349–411) bevat Art. 56–72 — de artikelindeling klopt niet met de sectietitels, wat op extractiefout wijst.",
+    "concrete_problemen": [
+      {
+        "regel": 53,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "### Afdeling 8. - Wijziging van de wet van 16 maart 1803... (heading zonder content, doc herstart op r.103)"
+      },
+      {
+        "regel": 101,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "Tekst (lege placeholder als enige body voor Hoofdstuk 6 Art. 75)"
+      },
+      {
+        "regel": 349,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "### Afdeling 17. - Wijziging van de wet van 4 april 2014 betreffende de verzekeringen (gevolgd door Art. 56, niet Art. 55)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Inhoudelijke wijzigingsbepalingen (Afd. 1–7 Hoofdstuk 4) zijn volledig aanwezig en correct gestructureerd",
+      "Geen kolom-bleed, form-feeds of OCR-artefacten aangetroffen",
+      "Fransstalige 'sous seing privé' → 'sous signature privée' wijzigingen zijn uniform weergegeven"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/BW-boek9-zekerheden.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "D2: Afdeling 5 op regel 115 ('Wijziging van de programmawet van 10 februari 1998') heeft een sectietitel maar geen artikelinhoud — Art. 17 ontbreekt volledig onder Hoofdstuk 3. De overige inhoud (Hoofdstuk 3-5) is wel correct aanwezig en de structuur is overigens schoon.",
+    "concrete_problemen": [
+      {
+        "regel": 115,
+        "categorie": "D2",
+        "type": "missing-section",
+        "voorbeeld": "### Afdeling 5. - Wijziging van de programmawet van 10 februari 1998 tot bevordering van het zelfstandig ondernemerschap (geen artikelinhoud volgt)"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Volledige inhoud van Hoofdstukken 3–5 aanwezig, artikelen correct als #### headings opgemaakt",
+      "Geen kolom-bleed, form-feeds, OCR-artefacten of spurious line-breaks",
+      "Amendementmarkers consistent aanwezig en correct gesloten"
+    ]
+  },
+  {
+    "bestand": "resources/bronnen/wetteksten/Brusselse-Codex-Fiscale-Procedure.md",
+    "aanbevolen_status": "needs-rework",
+    "rationale": "A3/B3: het document opent met een volledige inhoudsopgave als heading-skeletons (Titel 1–6, regels 52–186) zonder artikeltekst, gevolgd door 'Tekst' placeholder op regel 186, waarna de eigenlijke inhoud herstart bij TITEL 1 op regel 188 — out-of-order PDF-extractie identiek aan BW-boek5/8. B5: Art. 3 en Art. 4 (regels 198/213) hebben hun heading samensmelt met de eerste zin van de artikeltekst ('###### Art. 3.De bepalingen...' en '###### Art. 4.Voor de toepassing...') — de heading is niet van de body gescheiden.",
+    "concrete_problemen": [
+      {
+        "regel": 52,
+        "categorie": "A3",
+        "type": "other",
+        "voorbeeld": "Titel\\n6 MAART 2019. - Ordonnantie... gevolgd door heading-skeletons zonder inhoud t/m r.186"
+      },
+      {
+        "regel": 186,
+        "categorie": "B3",
+        "type": "other",
+        "voorbeeld": "Tekst (lege placeholder als enige body voor TITEL 6)"
+      },
+      {
+        "regel": 198,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "###### Art. 3.De bepalingen die deze Codex inhouden zijn van toepassing :"
+      },
+      {
+        "regel": 213,
+        "categorie": "B5",
+        "type": "other",
+        "voorbeeld": "###### Art. 4.Voor de toepassing van deze Codex wordt verstaan onder :"
+      }
+    ],
+    "concrete_sterke_punten": [
+      "Volledige inhoud van Titels 1–5 aanwezig en correct gestructureerd na de inleidende TOC-skeletten",
+      "Geen kolom-bleed of OCR-artefacten in de body-tekst",
+      "Amendementmarkers (1)<ORD...> consistent aanwezig",
+      "Tabel in Art. 83 (boeteschaal) correct weergegeven als plain-text-alignment — tweetalig opschrift is source-document gegeven"
+    ]
+  }
+]
