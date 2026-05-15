@@ -51,6 +51,10 @@ data/extractie/*/verify-runs/records-*.json
 data/extractie/*/verify-runs/anchors-*.json
 data/extractie/*/verify-runs/examen_vragen-*.json
 data/extractie/*/enrich-runs/bundle-*.json
+data/extractie/*/competentie-runs/*/records.json
+data/extractie/*/competentie-runs/*/anchors.json
+data/extractie/*/competentie-runs/*/exam_patterns.json
+data/extractie/*/minicursus-runs/*/payload-*.json
 
 # Python virtual envs
 venv/
