@@ -94,8 +94,9 @@ Voeg toe waar de bundle ze ondersteunt. Niet alle records hebben alle velden —
 
 **Reeds bestaande v1-velden die blijven** (geen wijziging — gebruik ze waar passend):
 - `voorwaarden[]`, `uitzonderingen[]`, `valkuilen[]`, `voorbeeld_inline`, `bouwstenen[]`, `stappen[]`, `voorwaarden_toepassing[]`. Block-shape zoals in v1.
+- **Stappen[]-shape uitgebreid**: optioneel `actor`-veld per stap (voor procedure-rol-bevoegdheid-vragen — "wie doet wat").
 
-**Vier nieuwe optionele velden in v1.2:**
+**Zes nieuwe optionele velden in v1.2:**
 
 #### `oorzaken[]`
 
@@ -183,6 +184,75 @@ Voor concepten die met andere concepten verward worden — bekende schijngelijke
   }
 ]
 ```
+
+#### `berekeningsmethode[]`
+
+Voor rekenkundige aspecten — een herhaalbaar mentaal recept (geen one-off voorbeeld). Voor concepten waar berekening relevant is (afschrijvingen, consolidatieverschillen, fiscale herzieningen, BTW-roosters, ...).
+
+```json
+"berekeningsmethode": [
+  {
+    "naam": "Lineaire afschrijving",
+    "formule": "Jaarbedrag = (Aanschaffingswaarde − Restwaarde) / Levensduur",
+    "ratio": "Geschikt wanneer gebruik gelijkmatig is over levensduur.",
+    "stappen": [
+      {"volgorde": 1, "text": "Bepaal aanschaffingswaarde (incl. bijkomende kosten)"},
+      {"volgorde": 2, "text": "Bepaal restwaarde (vaak 0)"},
+      {"volgorde": 3, "text": "Bepaal economische levensduur in jaren"},
+      {"volgorde": 4, "text": "Pas formule toe — gelijk bedrag per jaar"}
+    ],
+    "concreet_voorbeeld": {
+      "scenario": "Machine 100.000 EUR, restwaarde 10.000, levensduur 10 jaar",
+      "berekening": "(100.000 − 10.000) / 10 = 9.000 EUR/jaar",
+      "resultaat": "9.000 EUR afschrijving per jaar gedurende 10 jaar"
+    },
+    "source": {"type": "kb", "short": "KB WVV art. 3:42"},
+    "confidence": "grounded",
+    "_provenance": {"inputs": [...]}
+  }
+]
+```
+
+Een record kan meerdere methoden hebben (bv. lineair + degressief + prestatiegebonden afschrijving) — array.
+
+#### `in_praktijk[]`
+
+**Doel**: maak abstracte begrippen of regels concreet. Eén veld dat twee soorten "wat betekent dit in de praktijk" dekt:
+- Voor **`begrip` / `actor` / `fenomeen`-records**: praktische kenmerken, herkenningspunten, voorbeelden uit de wereld. Bv. wat is een "coöperatief karakter" concreet? Wisselende leden, stemrecht per persoon, ...
+- Voor **`regel` / `procedure` / `methode`-records**: concrete handelingen, output/deliverable, triggers die alarmeren. Bv. wat doet de accountant bij alarmbel? Stelt netto-actief vast, roept AV bijeen, ...
+
+Zelfde block-shape voor beide gebruiken:
+
+```json
+"in_praktijk": [
+  {
+    "aspect": "Wisselende ledenstructuur",
+    "betekenis": "Leden van de coöperatie kunnen in- en uittreden zonder dat de vennootschap ontbonden of de statuten gewijzigd moeten worden.",
+    "herkenningspunt": "Statuten met 'open' lidmaatschap-clausule; soms een minimum kapitaaldeelname",
+    "wereld_voorbeeld": "Cera (oorspronkelijk Boerenbond) — duizenden vennoten, vrij in/uit",
+    "source": {"type": "wet", "short": "WVV art. 6:1"},
+    "confidence": "grounded",
+    "_provenance": {"inputs": [...]}
+  },
+  {
+    "aspect": "Bijeenroeping algemene vergadering",
+    "betekenis": "Het bestuursorgaan organiseert een AV binnen 2 maanden na vaststelling van negatief netto-actief, met een verslag dat de oorzaken én voorgestelde maatregelen behandelt.",
+    "herkenningspunt": "Interim-balans met netto-actief < 50% van gestort kapitaal",
+    "source": {"type": "wet", "short": "WVV art. 7:228 §2"},
+    "confidence": "grounded",
+    "_provenance": {"inputs": [...]}
+  }
+]
+```
+
+**Velden**:
+- `aspect` — het label dat de student onthoudt (verplicht)
+- `betekenis` — concrete beschrijving (verplicht)
+- `herkenningspunt` — signaal of indicator dat dit speelt (optioneel)
+- `wereld_voorbeeld` — concrete entiteit/voorbeeld uit de praktijk (optioneel)
+- `source` + `confidence` + `_provenance` — zoals elk block
+
+**Niet** alle records hebben dit veld. Voor begrippen die louter formeel zijn (bv. een wetshistorische verwijzing) kan het ontbreken.
 
 ### Block-object (elk hoofdveld + items)
 

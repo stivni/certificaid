@@ -9,23 +9,46 @@
 
 - **2026-05-15 (1.2)** — Patroon-driven uitbreiding (additief, geen breaking
   changes). Quality-check op PO 1.4 + ADR-009 patroon-labeling op 188 examenvragen
-  onthulden structurele kennis-vormen die v1.1 niet gestructureerd hield. **Vier**
-  nieuwe optionele named fields (consistent met v1-naming-pattern, niet via
-  generic container):
+  + coverage-analyse over 15 complexiteitspatronen onthulden structurele kennis-
+  vormen die v1.1 niet gestructureerd hield. **Zes** nieuwe optionele named
+  fields (consistent met v1-naming-pattern, niet via generic container):
+
   - `oorzaken[]` — voor patroon "geef N oorzaken van X". Aggregeer cross-bron;
     nieuwe confidence-waarde `"inferred-from-aggregation"` voor synthese-claims.
   - `drempelwaarden[]` — kritische numerieke grenzen met juridisch gevolg
-    (`naam`, `waarde`, `eenheid`, `gevolg`).
+    (`naam`, `waarde`, `eenheid`, `gevolg`). Kan ook categorisering-criteria
+    bevatten (drempel = criterium, niet alleen getal).
   - `tijdlijn[]` — wettelijke termijnen voor procedurele concepten
     (`stap`, `termijn`, `actor`, `actie`).
   - `vergelijkingsparen[]` — concepten die met andere verward worden
     (`vergelijking_met`, `verschil`, `trigger`).
+  - `berekeningsmethode[]` — voor 23% van examenvragen (28 berekening + 16
+    open-berekening-motiveer). Block met `naam`, `formule`, `ratio`, `stappen[]`
+    (algemene methode-stappen), optioneel `concreet_voorbeeld` (sub-block met
+    scenario + berekening + resultaat).
+  - `in_praktijk[]` — concrete invulling van het abstract begrip / handeling.
+    Eén veld voor twee gebruiken (afhankelijk van node-type):
+    * Voor `begrip` / `actor` / `fenomeen`: praktische kenmerken ("hoe herken
+      je een coöperatief karakter? wisselende leden, stemrecht per persoon, ...").
+    * Voor `regel` / `procedure` / `methode`: concrete handelingen ("wat doet
+      de accountant bij alarmbel?").
+    Block-shape: `aspect`, `betekenis`, optioneel `herkenningspunt`,
+    `wereld_voorbeeld`, source, provenance.
+
+  **Stappen[]-shape uitgebreid**: optioneel `actor`-veld voor
+  procedure-records (`complex-procedure-rol-bevoegdheid`-patroon vraagt
+  "wie doet wat").
 
   **Niet** toegevoegd (overlap met bestaande velden):
   - `verborgen_vereiste[]` — overlap met `valkuilen[]` (v1). Prompt v2
     instrueert in plaats daarvan om `valkuilen[]` actiever te vullen met die
-    impliciete kennis.
+    impliciete kennis (red-herring-elementen, verborgen vereisten, vaak-
+    foutgedaan-stappen).
   - `enumeraties[]` generic container — overbodig, named fields werken al.
+  - `rekenvoorbeelden[]` (case-only) — vervangen door `berekeningsmethode[]`
+    (methode + optioneel voorbeeld; methode is herhaalbaar mentaal recept).
+  - `praktijk_kenmerken[]` + `praktijk_handelingen[]` (twee aparte velden) —
+    samengevoegd tot één `in_praktijk[]`-veld met flexibele shape.
 
   Examen-specifieke metadata (gewicht, vraagvorm-frequentie) hoort NIET in
   concept-records — dat zit in `examenfocus`-objecten (ADR-009).
@@ -137,14 +160,18 @@ Elk node-type kan onderstaande optionele velden bevatten als de bron-bundle ze o
 
 **V1-velden (reeds in gebruik, blijven onveranderd)**: `voorwaarden[]`, `uitzonderingen[]`, `valkuilen[]`, `voorbeeld_inline`, `bouwstenen[]`, `stappen[]`, `voorwaarden_toepassing[]`.
 
-**V1.2 nieuwe velden** (4 stuks, named fields i.p.v. generic container):
+**V1.2 nieuwe velden** (6 stuks, named fields i.p.v. generic container):
 
-- **`oorzaken[]`** — items met aggregatie-synthese voor "N voornaamste oorzaken van X". Confidence `"inferred-from-aggregation"` voor synthese-claims; provenance lijst alle bron-chunks.
-- **`drempelwaarden[]`** — kritische numerieke grenzen (`naam`, `waarde`, `eenheid`, `gevolg`).
+- **`oorzaken[]`** — items met cross-bron aggregatie voor "N voornaamste oorzaken van X". Confidence `"inferred-from-aggregation"` voor synthese-claims; provenance lijst alle bron-chunks.
+- **`drempelwaarden[]`** — kritische numerieke grenzen of categorisering-criteria (`naam`, `waarde`, `eenheid`, `gevolg`).
 - **`tijdlijn[]`** — wettelijke termijnen voor procedurele records (`stap`, `termijn`, `actor`, `actie`).
 - **`vergelijkingsparen[]`** — concepten die met andere verward worden (`vergelijking_met`, `verschil`, `trigger`).
+- **`berekeningsmethode[]`** — recept voor rekenkundige toepassing (`naam`, `formule`, `ratio`, `stappen[]`, optioneel `concreet_voorbeeld`). Voor procedures, methoden, en regels met numerieke output.
+- **`in_praktijk[]`** — concretisering van het concept. Eén veld voor begrip-typen (praktische kenmerken/herkenningspunten) én voor regel-typen (handelingen + output). Block: `aspect`, `betekenis`, optioneel `herkenningspunt`, `wereld_voorbeeld`, source, provenance.
 
-Het bestaande `valkuilen[]`-veld wordt in prompt v2 actiever gebruikt voor "verborgen vereisten" (vereisten die uit praktijk/normen voortvloeien bovenop de letterlijke regel) — geen apart veld nodig.
+**Stappen[]-shape uitbreiding (v1.2)**: optioneel `actor`-veld per stap voor procedure-rol-bevoegdheid-patroon.
+
+Het bestaande `valkuilen[]`-veld wordt in prompt v2 actiever gebruikt voor verborgen vereisten, red-herring-elementen en vaak-foutgedaan-stappen — geen aparte velden voor deze patronen.
 
 Zie `prompts/concept-extractie-v2.md` voor exacte block-shapes en voorbeelden.
 

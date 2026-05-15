@@ -1,0 +1,266 @@
+{
+  "po": "1.4",
+  "anchor_id": "1.4.I.E",
+  "anchor": {
+    "tekst": "Vermogensmutatiemethode",
+    "anchor_type": "",
+    "verbose": "",
+    "synoniemen": []
+  },
+  "matches_source": "data/extractie/matches/latest.json",
+  "bundle_size": 28,
+  "bundle": [
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver",
+      "chunk_sha": "a337d8b61108ba08",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Herberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:",
+      "score": 0.762,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nHerberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:\n\nAandeel in de winst van het boekjaar van geassocieerde vennootschap Y: 20 % van 1.500 = 300"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_2",
+      "chunk_sha": "40770f1471f01151",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Herberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:",
+      "score": 0.744,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nHerberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:\n\nAandeel in het verlies van het boekjaar van geassocieerde vennootschap Y: 20 % van (1.500) = -300"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_3",
+      "chunk_sha": "646a2103742ec443",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Herberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:",
+      "score": 0.7311,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nHerberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:\n\nAandeel in het verlies van het boekjaar van geassocieerde vennootschap Y: 20 % van (15.000) = -3.000.\n\nHet aandeel kan slechts worden opgenomen ten belope van maximaal 2.600 euro, zijnde de waarde waarvoor de deelneming in de geassocieerde vennootschap Y bij eerste consolidatie werd opgenomen. De waarde van een actiefbestanddeel kan op de balans immers nooit worden opgenomen voor een bedrag kleiner dan 0.[^50]"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_latere-consolidaties",
+      "chunk_sha": "c9dd5634aa9cf3fc",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Latere consolidaties",
+      "score": 0.7275,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nLatere consolidaties\n\nDe waarde waartegen de deelneming in de geconsolideerde jaarrekening, overeenkomstig artikel 3:142, § 1 en 2 KB WVV, is opgenomen, wordt vervolgens, naar gelang van het geval, verhoogd of verminderd met het bedrag van de tijdens het boekjaar of het gedeelte van het boekjaar opgetreden verandering in het deel van het eigen vermogen van de betrokken vennootschap dat deze deelneming belichaamt. Dit eigen vermogen omvat, naast het resultaat van het boekjaar, met uitsluiting evenwel van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, tevens de uitdrukking van een herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en de boeking van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening.[^27] \n\nDe vermogensmutatiemethode wordt vaak omschreven als een *one-line consolidation[^28]* , daar slechts één bedrag, op één lijn gerapporteerd wordt in de geconsolideerde balans van de consoliderende vennootschap. Ook voor het resultaat van de vennootschap waarop de vermogensmutatiemethode wordt toegepast, wordt slechts één bedrag, op één lijn, gerapporteerd in de resultatenrekening.\n\nEr moet worden opgemerkt dat er in de toelichting melding zal worden gemaakt van de informatie zoals vereist door artikel 3:15, I, IV, X, XI en XII KB WVV."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_gevolgen-van-de-vermogensmutatiemethode-op-de-geconsolideerd_2",
+      "chunk_sha": "042eb7396e9c97a4",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X1",
+      "score": 0.7161,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nGevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X1\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\n| \n\n| \n\nAandeel in de winst van de vennootschappen waarop de vermogensmutatiemethode is toegepast\n\n | \n\n200\n\n |\n\nVeronderstel dat vennootschap M in de loop van 20X2 de aandelen die zij bezit in vennootschap F verkoopt voor een bedrag van 5.000 euro. Aangezien de aanschaffingsprijs van de aandelen 4.000 euro bedroeg, realiseert vennootschap M in haar enkelvoudige jaarrekening een meerwaarde van 1.000 euro.\n\nVolgende boekingen worden uitgevoerd in de enkelvoudige jaarrekening van X:\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|----------|--------------|-------|--------|\n| | 550 | Kredietinstellingen: rekening-courant | 5.000 | |\n| aan | 7631 | Meerwaarde op de realisatie van financiële vaste activa | | 1.000 |\n| | 2820 | Deelnemingen in ondernemingen waarmee een deelnemingsverhouding bestaat – Aanschaffingswaarde | 4.000 | |"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_intra-groepsverkopen-upstream-downstream-sales",
+      "chunk_sha": "fe1c630875cfab40",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Intra-groepsverkopen (upstream & downstream sales)",
+      "score": 0.7123,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nIntra-groepsverkopen (upstream & downstream sales)\n\nHet aandeel in het resultaat van de betrokken vennootschap dat aan deze deelneming kan worden toegerekend, wordt opgenomen in de geconsolideerde resultatenrekening onder een afzonderlijke post “Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast”.[^68] \n\nDe resultaten van verrichtingen tussen de consoliderende vennootschap of één van haar dochtervennootschappen en de vennootschappen waarop de vermogensmutatiemethode wordt toegepast en die begrepen zijn in de boekwaarde van de activa van de consoliderende vennootschap (of één van haar dochtervennootschappen) of van een vennootschap waarop de vermogensmutatiemethode wordt toegepast, worden voor zover de daartoe noodzakelijke gegevens bekend of toegankelijk zijn, uit de geconsolideerde resultaten weggelaten.[^69]"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie",
+      "chunk_sha": "d13084e57753d769",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Eerste consolidatie",
+      "score": 0.7013,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nEerste consolidatie\n\nVolgens de vermogensmutatiemethode worden de door de moedervennootschap aangehouden deelnemingen naar aanleiding van de opstelling van de geconsolideerde jaarrekening opnieuw gewaardeerd: de historische aanschaffingswaarde van de deelnemingen wordt hierdoor telkens vervangen door het bedrag dat overeenkomt met het deel van het eigen vermogen van de betrokken vennootschap, inclusief het resultaat over het boekjaar, dat deze deelneming belichaamt[^18]. Het eigen vermogen van de betrokken vennootschap bestaat uit het verschil tussen de boekwaarde van de activa en de boekwaarde van de voorzieningen[^19] en schulden van deze vennootschap. Dit eigen vermogen omvat het resultaat van het boekjaar op datum van verwerving, behalve in zoverre hierop vóór de verwerving een interimdividend is toegekend.[^20]\n Dit laatste geldt praktisch ook bij de toekenning van een tussentijds dividend vóór de verwerving.\n\nIndien binnen de groep geen uniforme waarderingsregels worden toegepast voor de waardering van de actief- en passiefbestanddelen van de geassocieerde vennootschap en voor de consolidatie, kunnen deze conform artikel 3:142, § 2, tweede lid van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) opnieuw worden gewaardeerd volgens de voor de consolidatie gehanteerde methoden. Wordt niet opnieuw gewaardeerd, dan moet zulks in toelichting bij de geconsolideerde jaarrekening onder de waarderingsregels worden vermeld.\n\nBij de vermogensmutatiemethode worden de rekeningen van de geassocieerde vennootschap niet in deze van de consoliderende vennootschap geïntegreerd. Het gaat hier bijgevolg niet om een consolidatiemethode in de strikte betekenis van het woord, maar eerder om een bijzondere waarderingsmethode.\n\nVoor zover het verschil tussen de boekwaarde van de deelneming en de hiermee overeenstemmende fractie van het eigen vermogen kan worden toegerekend aan identificeerbare actief- of passiefbestanddelen van de betrokken vennootschap, die een grotere of kleinere waarde hebben dan waartegen zij in de boekhouding van de betrokken vennootschap staan geboekt, wordt dit verschil toegerekend aan de waarde waartegen de deelneming in de geconsolideerde jaarrekening wordt geboekt.[^21] \n\nHet resterende, niet-toerekenbare verschil wordt opgenomen onder de post “Consolidatieverschillen” in de geconsolideerde balans, aan de actiefzijde bij een positief consolidatieverschil, aan de passiefzijde in geval van een negatief consolidatieverschil. Deze consolidatieverschillen mogen niet worden gecompenseerd, behalve indien zij betrekking hebben op eenzelfde geassocieerde vennootschap. In dit laatste geval is compensatie verplicht.[^22]"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld",
+      "chunk_sha": "63b0ac67eb576a55",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Voorbeeld",
+      "score": 0.6907,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nVoorbeeld\n\nStel dat de boekwaarde van de deelneming in de geassocieerde vennootschap 100 bedraagt en dat de fractie van het eigen vermogen van de geassocieerde vennootschap 80 is. Het verschil tussen de boekwaarde van de deelneming (100) en de hiermee overeenstemmende fractie van het eigen vermogen (80) bedraagt dus 20 (100 – 80).\nDit verschil (20) kan voor een gedeelte (5) worden toegerekend aan terreinen die in werkelijkheid een grotere waarde hebben dan de boekwaarde waartegen ze in de balans van de geassocieerde vennootschap worden uitgedrukt. Desgevallend wordt de deelneming in de geassocieerde vennootschap in de geconsolideerde jaarrekening opgenomen onder de rubriek \"Vennootschappen waarop vermogensmutatie is toegepast\" onder de \"Financiële vaste activa\" voor een bedrag van 80 + 5 = 85. Het resterend verschil (20 - 5 = 15) is dan het positief consolidatieverschil.\nPositieve consolidatieverschillen worden afgeschreven ten laste van de geconsolideerde resultatenrekening. Worden ze afgeschreven over meer dan vijf jaar, dan moet zulks worden gemotiveerd in de toelichting. Op deze verschillen worden aanvullende of niet-recurrente afschrijvingen toegepast wanneer het, ingevolge wijzigingen in de economische omstandigheden, niet langer economisch verantwoord is ze tegen die waarde te handhaven in de geconsolideerde balans. De afschrijvingen worden in de resultatenrekening geboekt in een afzonderlijke post van de bedrijfskosten of van de financiële kosten.[^23] \n\nNegatieve consolidatieverschillen worden in beginsel niet in de geconsolideerde resultatenrekening opgenomen. Wanneer evenwel het negatieve consolidatieverschil te verklaren valt door een op de datum van verwerving van de deelneming of een nabij zijnde datum verwachte ongunstige ontwikkeling van de resultaten van de geassocieerde vennootschap of uit kosten die deze geassocieerde vennootschap naar verwachting zal veroorzaken, wordt het in de geconsolideerde resultatenrekening opgenomen voor zover en op het ogenblik dat deze vooruitzichten werkelijkheid worden.[^24]\n Is dit niet het geval, dan worden negatieve consolidatieverschillen definitief bijgeschreven bij het eigen vermogen van de geconsolideerde jaarrekening[^25]. \n\nDe deelneming in vennootschappen waarop de vermogensmutatiemethode is toegepast, wordt in de geconsolideerde balans opgenomen onder een afzonderlijke post van de financiële vaste activa, genoemd “Vennootschappen waarop vermogensmutatie is toegepast”.[^26]"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_invloed-van-de-vermogensmutatiemethode-op-de-geconsolideerde_2",
+      "chunk_sha": "6b343ab972b32696",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Invloed van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2",
+      "score": 0.6901,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nInvloed van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nFinanciële kosten – Afschrijving “Consolidatieverschillen”\n\n | \n\n280\n\n | \n\nAandeel in de winst van de vennootschappen waarop vermogensmutatie is toegepast\n\n | \n\n300\n\n |\n\nHypothese 2: vennootschap Y maakt tijdens het volgende boekjaar een verlies van 1.500 euro."
+    },
+    {
+      "chunk_id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+      "chunk_sha": "c406b97d788e63e4",
+      "bron": "2013/3",
+      "bron_rol": "advies",
+      "sectie": "Praktische uitwerking",
+      "score": 0.69,
+      "text": "[CBN-advies 2013/3 — CBN-advies 2013/3 – De boekhoudkundige verwerking van step acquisitions (update)]\n\nPraktische uitwerking\n\nVerhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft\nIn de geconsolideerde jaarrekening worden deelnemingen in geassocieerde ondernemingen zoals gedefinieerd in artikel 1:21 van het Wetboek van vennootschappen en verenigingen, gewaardeerd door toepassing van de zogenaamde vermogensmutatiewaarde[^2]. Daarnaast wordt deze methode tevens toegepast voor dochterondernemingen waarover de consoliderende onderneming een controle in feite bezit en de opname als integraal geconsolideerde dochteronderneming zou indruisen tegen het principe van het getrouwe beeld[^3] of omdat het going-concern principe niet meer kan gejustifieerd worden[^4]. \n\nVoor gemeenschappelijke dochterondernemingen waarvan het bedrijf niet nauw geïntegreerd is in het bedrijf van de onderneming die over gezamenlijke controle beschikt, kan tevens de vermogensmutatiemethode gehanteerd worden[^5]. \n\nArtikel 3:142, § 1 en 2 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) stelt dat in de geconsolideerde balans de boekwaarde van een deelneming wordt vervangen door het deel van het eigen vermogen van de betrokken vennootschap, inclusief het resultaat van het boekjaar. Het eigen vermogen van de betrokken vennootschap bestaat uit het verschil tussen de boekwaarde van het actief en de boekwaarde van de voorzieningen en schulden van de vennootschap en omvat het resultaat van het boekjaar op datum van de verwerving, behalve in zoverre hierop voor de verwerving een interimdividend is toegekend.[^6] \n\nIn de resultatenrekening wordt het aandeel in het resultaat geboekt in plaats van de dividenden verbonden aan deze deelneming[^7]. Op de balans wordt dit aandeel geboekt in de reserves.\n\nDerhalve wordt deze consolidatiemethode ook vaak omschreven als *one-line consolidation[^8]* , daar slechts één bedrag, op één lijn gerapporteerd wordt in de geconsolideerde balans van de aandeelhouder. Met betrekking tot het resultaat van de onderneming wordt evenzo slechts één bedrag, op één lijn, gerapporteerd in de resultatenrekening.\n\nDe waarde waaraan de deelneming in de geconsolideerde jaarrekening is opgenomen wordt jaarlijks aangepast, gelet op de wijzigingen van het ene boekjaar op het andere van het eigen vermogen van de betrokken vennootschap, en wordt verminderd met het bedrag van de toegekende dividenden.\n\nIndien binnen de groep geen uniforme waarderingsregels worden toegepast voor de waardering van de activa en passiva van de geassocieerde onderneming dienen deze conform artikel 3:142, § 2, tweede lid KB WVV opnieuw te worden gewaardeerd volgens de groepswaarderingsregels. Indien dit praktisch onmogelijk is zal een passende toelichting in de geconsolideerde jaarrekening hieromtrent dienen te worden verstrekt.\n\nDaarnaast dienen tevens de resultaten van verrichtingen tussen de consoliderende vennootschap en de geassocieerde ondernemingen te worden geëlimineerd voor zover deze informatie beschikbaar is[^9].\n\nDe Commissie is van oordeel dat de stapsgewijze verwerving van een geassocieerde onderneming boekhoudkundig telkens moet worden verwerkt als opeenvolgende afzonderlijke transacties. Dit impliceert dat een eventueel positief of negatief consolidatieverschil per transactie zal dienen te worden bepaald. \n\nIn tegenstelling tot de integrale consolidatiemethode, dient conform artikel 3:142, § 3 KB WVV het eerste consolidatieverschil slechts aan de betrokken actief- en passiefbestanddelen van de geassocieerde onderneming te worden toegewezen voor zover dit mogelijk is[^10]. Artikel 3:130, eerste lid van hetzelfde koninklijk besluit, stelt dat bij toepassing van de integrale consolidatiemethode, dit eerste consolidatieverschil zoveel mogelijk moet worden toegewezen aan onderliggende activa- en passivabestanddelen."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_invloed-van-de-vermogensmutatiemethode-op-de-geconsolideerde_3",
+      "chunk_sha": "91c9c5411b54963c",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Invloed van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2",
+      "score": 0.6848,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nInvloed van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nAandeel in het verlies van de vennootschappen waarop vermogensmutatie is toegepast\n\n | \n\n300\n\n | \n\n| \n\n|\n| \n\nFinanciële kosten – Afschrijving “Consolidatieverschillen”\n\n | \n\n280\n\n | \n\n| \n\n|\n\nHypothese 3: gedurende het boekjaar dat volgt, lijdt vennootschap Y een verlies van 15.000 euro."
+    },
+    {
+      "chunk_id": "CBN-2014-03-de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde__sec_inleiding",
+      "chunk_sha": "292587e8cd2e59d6",
+      "bron": "2014/3",
+      "bron_rol": "advies",
+      "sectie": "Inleiding",
+      "score": 0.6845,
+      "text": "[CBN-advies 2014/3 — CBN-advies 2014/3 – De boekhoudkundige verwerking van mutaties binnen het eigen…]\n\nInleiding\n\nIn hetgeen volgt wenst de Commissie aan de hand van een praktisch voorbeeld te illustreren hoe wijzigingen binnen het eigen vermogen van een geassocieerde onderneming, andere dan wijzigingen ten gevolge van het resultaat van het boekjaar met uitsluiting van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, dienen te worden verwerkt in de geconsolideerde jaarrekening.\n\nDe Commissie denkt in dit kader concreet aan de uitdrukking van een herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en het boeken van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening. Dit zijn zogenaamde *direct-to-equity* mutaties die een wijziging van het eigen vermogen tot gevolg hebben zonder de tussenkomst van een resultaatverwerking.\n\nIn artikel 3:142, § 1 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) wordt gesteld dat volgens de vermogensmutatiemethode (verder VMM) een deelneming in de geconsolideerde balans opgenomen wordt voor het bedrag dat overeenkomt met het deel van het eigen vermogen van de geassocieerde onderneming dat deze deelneming belichaamt.\n\nArtikel 3:143 KB WVV lijkt te laten uitschijnen dat enkel het resultaat van het boekjaar, met uitsluiting van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, het voorwerp kan uitmaken van een wijziging aan het eigen vermogen van een geassocieerde onderneming. \n\nDaarnaast wenst de Commissie tevens te wijzen op toelichting CONSO 5 van het model van de geconsolideerde jaarrekening, waar de consoliderende moeder een aansluiting dient te verstrekken van de geconsolideerde reserves. De impact van zogenaamde *direct-to-equity* mutaties bij de geassocieerde ondernemingen zal ook hier op een passende wijze moeten toegelicht worden."
+    },
+    {
+      "chunk_id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-methode-van-de-eenvoudige-equivalentie",
+      "chunk_sha": "8a60c50c32b3dda5",
+      "bron": "3/3",
+      "bron_rol": "advies",
+      "sectie": "De methode van de eenvoudige equivalentie",
+      "score": 0.6844,
+      "text": "[CBN-advies 3/3 — ADVIES 3-3 - INZAKE DE BOEKHOUDKUNDIGE VERWERKING VAN VERRICHTINGEN VAN…]\n\nDe methode van de eenvoudige equivalentie\n\n##### Beschrijving van de methode\nDeze methode leunt sterk aan bij de vorige en verschilt enkel wat de boekhoudkundige uitdrukking van de winsten van de tijdelijke handelsvennootschap betreft.\n\nEigenlijk gaat het dus niet om een andere integratietechniek, maar eerder om een ander waarderingsprincipe, met name dat van de vooruitgang der werken (\"percentage of completion\").\n\nBij de (periodieke) afsluiting wordt het voorschot geboekt op het actief van de balans van de partner (rubriek 29 \"Vorderingen op meer dan één jaar\" of rubriek 41), in geval van winst verhoogd met het aandeel van de partner in het resultaat van de tijdelijke handelsvennootschap.\n\nDeze techniek is dus geïnspireerd op de methode die in het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen werd gedefinieerd als zijnde de vermogensmutatiemethode[^5], of de methode waarbij in de balans de boekwaarde van de deelneming wordt vervangen door de fractie van het netto-vermogen van de betrokken onderneming dat overeenkomt met deze deelneming. \n\nAangezien verliezen wel degelijk erkend worden in de methode van de \"derde onderneming\", is deze techniek, in geval van deficitaire projecten, totaal identiek met de vorige.\n\n##### Eigenschappen van de methode\nDe eigenschappen van deze methode zijn identiek met deze vermeld in de voorgaande methode, met dit verschil dat, in geval van deelname in een winstgevend project, dit resultaat periodiek tot uiting zal komen in de boekhouding van de partners.\n\nOok hier stuit de methode op het fundamentele bezwaar dat de activa en passiva van de tijdelijke handelsvennootschap op geen enkele wijze worden vertaald in de boekhouding van de deelgenoten, zodat de boekhouding van de partners bezwaarlijk kan worden aangemerkt als zijnde volledig.\n\nDe bemerkingen die hiervoor werden geformuleerd inzake de “eenvoudige gelijkschakeling” gelden hier eveneens, met deze nuance dat de resultaatuitdrukking dichter bij de economische realiteit aanleunt."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_gevolgen-van-de-vermogensmutatiemethode-op-de-geconsolideerd",
+      "chunk_sha": "538e7f835d1eb4f5",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X0",
+      "score": 0.6838,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nGevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X0\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\n| \n\n| \n\nAandeel in de winst van de vennootschappen waarop vermogensmutatiemethode is toegepast\n\n | \n\n300\n\n |\n\nIn de loop van 20X1 behalen vennootschappen M en F respectievelijk een resultaat van 500 euro en van 1.000 euro."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_directe-mutaties-binnen-het-eigen-vermogen-van-de-geassociee",
+      "chunk_sha": "b2b2e90c0ef73923",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Directe mutaties binnen het eigen vermogen van de geassocieerde vennootschap",
+      "score": 0.6804,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nDirecte mutaties binnen het eigen vermogen van de geassocieerde vennootschap\n\nIn een vorige versie liet artikel 3:143 KB WVV (vroeger artikel 153 KB W.Venn.) vermoeden dat enkel het resultaat van het boekjaar van de vennootschap waarop de vermogensmutatiemethode is toegepast, een mutatie binnen het eigen vermogen van die vennootschap met zich kon meebrengen. Naar aanleiding van de publicatie van CBN-advies 2014/3 – *De boekhoudkundige verwerking van mutaties binnen het eigen vermogen van een geassocieerde onderneming* werd de tekst van het koninklijk besluit aangepast om rekening te houden met de *direct-to-equity* mutaties (dit zijn mutaties die onmiddellijk worden overgedragen naar het eigen vermogen). Artikel 3:143 KB WVV bepaalt het volgende:\n\n“Dit eigen vermogen omvat, naast het resultaat van het boekjaar, met uitsluiting evenwel van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, tevens de uitdrukking van een herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en de boeking van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening.”\nIn dit geval staat de verhoging van de post “Vennootschappen waarop vermogensmutatie is toegepast” niet in verband met de verhoging van het aandeel in het resultaat van de vennootschap waarop de vermogensmutatiemethode is toegepast. Dit vloeit voort uit artikel 3:146 KB WVV waarin wordt bepaald dat het aandeel in de herwaarderingsmeerwaarde (of andere *direct-to-equity* mutaties) direct moet worden opgenomen onder de geconsolideerde reserves:\n\n“Het aandeel in de herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en de boeking van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening van de [consoliderende] vennootschap dat aan deze deelneming kan worden toegerekend, wordt vermeld in de geconsolideerde balans onder de rubriek “Reserves”.”"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_gevolgen-van-de-vermogensmutatiemethode-op-de-geconsolideerd_5",
+      "chunk_sha": "ffa5c55b27e23e61",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2",
+      "score": 0.6792,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nGevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nFinanciële kosten - Afschrijving “Consolidatieverschillen”\n\n | \n\n58\n\n | \n\nAandeel in het resultaat van de vennootschap waarop vermogensmutatie is toegepast\n\n | \n\n60[^90] \n\n |"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_gevolgen-van-de-vermogensmutatiemethode-op-de-geconsolideerd_4",
+      "chunk_sha": "0263f3005d9c6333",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X1",
+      "score": 0.675,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nGevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X1\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nFinanciële kosten - Afschrijving “Consolidatieverschillen”\n\n | \n\n58\n\n | \n\nAandeel in het resultaat van de vennootschap waarop vermogensmutatie is toegepast\n\n | \n\n80\n\n |"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld-2-verkoop-van-de-deelnemingen-waarop-vermogensmuta",
+      "chunk_sha": "8c024e5bff9974a9",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Voorbeeld 2: verkoop van de deelnemingen waarop vermogensmutatie is toegepast",
+      "score": 0.6746,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nVoorbeeld 2: verkoop van de deelnemingen waarop vermogensmutatie is toegepast\n\nVeronderstel dat vennootschap M op 1 maart 20X0 4.000 euro investeert om 20 % van de aandelen van de op te richten vennootschap F te verwerven."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_gevolgen-van-de-vermogensmutatiemethode-op-de-geconsolideerd_6",
+      "chunk_sha": "4b901b23933a7b1e",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2",
+      "score": 0.6732,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nGevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nFinanciële kosten - Afschrijving “Consolidatieverschillen”\n\n | \n\n58\n\n | \n\nOpbrengsten van het boekjaar\n\n | \n\n540[^102] \n\n |\n| \n\nAandeel in het resultaat van de vennootschap waarop vermogensmutatie is toegepast\n\n | \n\n100\n\n |"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassing-van-de-vermogensmutatiemethode",
+      "chunk_sha": "57291a7a182fdbdf",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Toepassing van de vermogensmutatiemethode",
+      "score": 0.6701,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nToepassing van de vermogensmutatiemethode\n\nDe Commissie wenst te benadrukken dat de toepassing van de vermogensmutatiemethode geen aanleiding geeft tot een vrijstelling van subconsolidatie. Anders gezegd, geeft de opname van een vennootschap via de vermogensmutatiemethode geen vrijstelling aan een groep, die dus nog steeds verplicht is om te consolideren.[^17]"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_gevolgen-van-de-vermogensmutatiemethode-op-de-geconsolideerd_8",
+      "chunk_sha": "c750a34f6b4bb414",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2",
+      "score": 0.668,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nGevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nFinanciële kosten - Afschrijving “Consolidatieverschillen”\n\n | \n\n58\n\n | \n\nAandeel in het resultaat van de vennootschap waarop vermogensmutatie is toegepast\n\n | \n\n100\n\n |\n\nVennootschappen A & B maken in boekjaar 20X3 respectievelijk een winst van 600 euro en van 400 euro."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_gevolgen-van-de-vermogensmutatiemethode-op-de-geconsolideerd_9",
+      "chunk_sha": "76612b3a686c5f29",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X3",
+      "score": 0.6675,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nGevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X3\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nFinanciële kosten - Afschrijving “Consolidatieverschillen”\n\n | \n\n58\n\n | \n\nOpbrengsten van het boekjaar\n\n | \n\n540\n\n |\n| \n\nAandeel in het resultaat van de vennootschap waarop vermogensmutatie is toegepast\n\n | \n\n80\n\n |"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_invloed-van-de-vermogensmutatiemethode-op-de-geconsolideerde",
+      "chunk_sha": "fab9e59be3bc12e8",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Invloed van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X1",
+      "score": 0.6662,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nInvloed van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X1\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nFinanciële kosten – Afschrijving “Consolidatieverschillen” \n\n | \n\n280\n\n | \n\n| \n\n|\n\nLatere consolidaties\n\nHypothese 1: vennootschap Y maakt in het volgende boekjaar (20X2) 1.500 euro winst die wordt gereserveerd."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_gevolgen-van-de-vermogensmutatiemethode-op-de-geconsolideerd_7",
+      "chunk_sha": "e10669ee09ef3dcb",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2",
+      "score": 0.665,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nGevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nFinanciële kosten - Afschrijving “Consolidatieverschillen”\n\n | \n\n58\n\n | \n\nOpbrengsten van het boekjaar\n\n | \n\n580[^110] \n\n |\n| \n\nAandeel in het resultaat van de vennootschap waarop vermogensmutatie is toegepast\n\n | \n\n100\n\n |\n\nHypothese 2: dividenden die voortkomen uit de bestemming van het resultaat van de vennootschap waarop vermogensmutatie is toegepast Stel dat vennootschappen A & B in de loop van 20X2 respectievelijk 600 euro en 500 euro winst maken. *Vennootschap A – Enkelvoudige balans op 31.12.20X2* \n\n| ACTIVA PASSIVA|\n|---|\n| Terreinen | 660| Kapitaal| 1.500|\n| Financiële vaste activa| | Reserves| 3.100|\n| Verbonden ondernemingen| 3.000| Resultaat van het boekjaar| 600|\n| Ondernemingen waarmee een deelnemingsverhouding bestaat| 500| Leveranciers| 1.160|\n| Liquide middelen| 2.200[^111] | | |\n| **Totaal**|** 6.360**|** Totaal**|** 6.360**|"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_113",
+      "chunk_sha": "4bb561258e2b8b55",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:143",
+      "score": 0.6642,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → De vermogensmutatie]\n\nArt. 3:143\n\nDe waarde waartegen de deelneming in de geconsolideerde jaarrekening, overeenkomstig artikel 3:142, §§ 1 en 2, is opgenomen, wordt vervolgens, naar gelang van het geval, verhoogd of verminderd met het bedrag van de tijdens het boekjaar of het gedeelte van het boekjaar opgetreden verandering in het deel van het eigen vermogen van de betrokken vennootschap dat deze deelneming belichaamt. Dit eigen vermogen omvat, naast het resultaat van het boekjaar, met uitsluiting evenwel van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, tevens de uitdrukking van een herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en de boeking van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening.  Deze waarde wordt verminderd met het bedrag van de dividenden met betrekking tot deze deelneming.  Bij toepassing van artike 3:142, § 3, wordt deze waarde zonodig aangepast om rekening te houden met de gevolgen van de waardeherberekeningen met toepassing van genoemd artikel 3:142, § 3."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_115",
+      "chunk_sha": "98b1019fd509744f",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:145",
+      "score": 0.6641,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → De vermogensmutatie]\n\nArt. 3:145\n\n§ 1. Het aandeel in het resultaat van de betrokken vennootschap dat aan deze deelneming kan worden toegerekend, wordt vermeld in de geconsolideerde resultatenrekening onder een afzonderlijke post \"Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast\".  § 2. De resultaten van verrichtingen tussen de consoliderende vennootschap en de in de consolidatie opgenomen dochterondernemingen alsmede vennootschappen waarop de vermogensmutatiemethode wordt toegepast en die begrepen zijn in de boekwaarde van de activa van de consoliderende vennootschap of van een dochteronderneming opgenomen in de consolidatie, hetzij van een vennootschap waarop de vermogensmutatiemethode wordt toegepast, worden voor zover de daartoe noodzakelijke gegevens bekend of toegankelijk zijn, uit de geconsolideerde resultaten weggelaten.  Ten aanzien van voorgaand lid zijn de artikelen 3:136 en 3:139 van toepassing."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_112",
+      "chunk_sha": "6b9d999ffc4e33ea",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:141",
+      "score": 0.6602,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → De vermogensmutatie]\n\nArt. 3:141\n\nDeelnemingen in vennootschappen waarop de vermogensmutatiemethode is toegepast, worden in de geconsolideerde balans opgenomen onder een afzonderlijke post van de financiële vaste activa, genoemd \"Vennootschappen waarop vermogensmutatie is toegepast\"."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+      "chunk_sha": "de2443be3bbafab3",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Toepassingsgebied",
+      "score": 0.6519,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nToepassingsgebied\n\nElke moedervennootschap die onderworpen is aan de bepalingen van het gemeen recht inzake consolidatie, moet een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening opstellen, laten controleren en bekendmaken indien zij, alleen of gezamenlijk, één of meer dochterondernemingen controleert[^2]. \n\nEen vennootschap wordt vrijgesteld van de verplichting om een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen wanneer ze deel uitmaakt van een groep van beperkte omvang.[^3]\n Dat betekent dat de vennootschap op geconsolideerde of geaggregeerde basis niet meer dan één van de criteria van art. 1:26, § 1 van het Wetboek van vennootschappen en verenigingen (hierna: WVV) overschrijdt.[^4] \n\nOnder “controle” over een vennootschap wordt verstaan, de bevoegdheid in rechte of in feite om een beslissende invloed uit te oefenen op de aanstelling van de meerderheid van bestuurders of zaakvoerders of op de oriëntatie van het beleid[^5]. De vennootschap die een controlebevoegdheid uitoefent over een andere vennootschap wordt de “moedervennootschap” genoemd, en de vennootschap ten opzichte waarvan een controlebevoegdheid bestaat is de “dochtervennootschap”[^6]. Deze controle kan exclusief of gezamenlijk worden uitgeoefend (gemeenschappelijke dochtervennootschap)[^7]. Een vennootschap is in principe verplicht een geconsolideerde jaarrekening op te stellen wanneer zij ten minste één dochtervennootschap heeft. Deze dochtervennootschap wordt (in principe) opgenomen volgens de integrale consolidatiemethode.\n\nOnder “geassocieerde vennootschap” wordt verstaan, elke andere vennootschap dan een dochtervennootschap of een gemeenschappelijke dochtervennootschap waarin een andere vennootschap een deelneming bezit en waarin zij een invloed van betekenis uitoefent op de oriëntatie van het beleid. Behoudens tegenbewijs wordt deze invloed van betekenis vermoed indien de stemrechten verbonden aan deze deelneming één vijfde of meer vertegenwoordigen van het totaal aantal stemrechten van de aandeelhouders of vennoten van deze vennootschap.[^8]\n Geassocieerde vennootschappen worden doorgaans opgenomen in de consolidatie via de vermogensmutatiemethode.\n\nIn de geconsolideerde jaarrekening worden het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel opgenomen alsof het om één enkele vennootschap ging. In de geconsolideerde jaarrekening[^9]:\n\n1. worden de actief- en passiefbestanddelen, rechten en verplichtingen alsmede opbrengsten en kosten van de consoliderende vennootschap en van haar dochterondernemingen waarover zij de exclusieve controle bezit integraal in de consolidatie opgenomen; \n2. worden de actief- en passiefbestanddelen, rechten en verplichtingen alsmede opbrengsten en kosten van gemeenschappelijke dochterondernemingen naar evenredigheid in de consolidatie opgenomen; \n3. worden de deelnemingen in geassocieerde vennootschappen gewaardeerd en het aandeel in het resultaat van deze vennootschappen vastgesteld met toepassing van de vermogensmutatiemethode.[^10] \n\nDe vermogensmutatiemethode wordt eveneens toegepast op deelnemingen in dochterondernemingen waarover de consoliderende onderneming wel een controle in feite bezit maar die buiten de consolidatie worden gelaten omdat de opname ervan in de consolidatie zou indruisen tegen het principe van het getrouw beeld.[^11]\n Ook deelnemingen in dochterondernemingen in vereffening, of in dochterondernemingen die hebben besloten hun bedrijf stop te zetten of waarvoor er niet meer kan van worden uitgegaan dat zij hun bedrijf zullen voortzetten, worden buiten de consolidatie gelaten en in de geconsolideerde jaarrekening opgenomen volgens de vermogensmutatiemethode.[^12] \n\nGemeenschappelijke dochterondernemingen mogen in de geconsolideerde jaarrekening worden opgenomen volgens de vermogensmutatiemethode, wanneer hun bedrijf niet nauw geïntegreerd is in het bedrijf van de vennootschap die over de gezamenlijke controle beschikt.[^13] \n\nDe moedervennootschap dient in de toelichting bij de geconsolideerde jaarrekening de geconsolideerde vennootschappen te identificeren met opgave van de gebruikte consolidatiemethode. Vennootschappen die gebeurlijk uit de consolidatie worden weggelaten, moeten eveneens worden aangeduid en de weglating moet worden gemotiveerd.[^14] \n\nZoals benadrukt in randnummer 1 moet een vennootschap een geconsolideerde jaarrekening en jaarverslag over de geconsolideerde jaarrekening opstellen indien zij, alleen of gezamenlijk, de controle uitoefent over één of meerdere dochterondernemingen. Wanneer de moedervennootschap uitsluitend deelnemingen bezit in geassocieerde vennootschappen, is zij niet verplicht een geconsolideerde jaarrekening en jaarverslag over de geconsolideerde jaarrekening op te stellen. \n\nDe vermogensmutatiemethode hoeft niet te worden toegepast wanneer de toepassing ervan slechts van te verwaarlozen betekenis zou zijn.[^15]"
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "po": "1.4",
+  "anchor_id": "1.4.II.C",
+  "anchor": {
+    "tekst": "Consolidatietechnieken (integrale consolidatie en vermogensmutatiemethode) - Geconsolideerde jaarrekening en jaarverslag",
+    "anchor_type": "",
+    "verbose": "",
+    "synoniemen": []
+  },
+  "matches_source": "data/extractie/matches/latest.json",
+  "bundle_size": 70,
+  "bundle": [
+    {
+      "chunk_id": "KB-WVV-2019__art_3_98",
+      "chunk_sha": "a3ef2a07ed650db5",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:124",
+      "score": 0.7567,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiemethoden - Onderafdeling 1. - Algemene beginselen]\n\nArt. 3:124\n\nIn de geconsolideerde jaarrekening:  1° worden de actief- en passiefbestanddelen, rechten en verplichtingen alsmede opbrengsten en kosten van de consoliderende vennootschap en van haar dochterondernemingen waarover zij de exclusieve controle bezit integraal in de consolidatie opgenomen;  2° worden de actief- en passiefbestanddelen, rechten en verplichtingen alsmede opbrengsten en kosten van gemeenschappelijke dochterondernemingen naar evenredigheid in de consolidatie opgenomen;  3° worden de deelnemingen in geassocieerde vennootschappen zoals gedefinieerd in artikel 1:21 van het Wetboek van vennootschappen en verenigingen, gewaardeerd en het aandeel in het resultaat van deze vennootschappen vastgesteld met toepassing van de vermogensmutatiemethode.  De gemeenschappelijke dochterondernemingen mogen evenwel in de geconsolideerde jaarrekening worden opgenomen volgens de vermogensmutatiemethode, wanneer hun bedrijf niet nauw geïntegreerd is in het bedrijf van de vennootschap die over de gezamenlijke controle beschikt."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_latere-consolidaties",
+      "chunk_sha": "c9dd5634aa9cf3fc",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Latere consolidaties",
+      "score": 0.7549,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nLatere consolidaties\n\nDe waarde waartegen de deelneming in de geconsolideerde jaarrekening, overeenkomstig artikel 3:142, § 1 en 2 KB WVV, is opgenomen, wordt vervolgens, naar gelang van het geval, verhoogd of verminderd met het bedrag van de tijdens het boekjaar of het gedeelte van het boekjaar opgetreden verandering in het deel van het eigen vermogen van de betrokken vennootschap dat deze deelneming belichaamt. Dit eigen vermogen omvat, naast het resultaat van het boekjaar, met uitsluiting evenwel van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, tevens de uitdrukking van een herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en de boeking van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening.[^27] \n\nDe vermogensmutatiemethode wordt vaak omschreven als een *one-line consolidation[^28]* , daar slechts één bedrag, op één lijn gerapporteerd wordt in de geconsolideerde balans van de consoliderende vennootschap. Ook voor het resultaat van de vennootschap waarop de vermogensmutatiemethode wordt toegepast, wordt slechts één bedrag, op één lijn, gerapporteerd in de resultatenrekening.\n\nEr moet worden opgemerkt dat er in de toelichting melding zal worden gemaakt van de informatie zoals vereist door artikel 3:15, I, IV, X, XI en XII KB WVV."
+    },
+    {
+      "chunk_id": "WIB92__art_321/1__sub_13deg",
+      "chunk_sha": "1bc6805bbf6dd313",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 321/1 — 13°",
+      "score": 0.7466,
+      "text": "[WIB92 → VESTIGING EN INNING VAN DE BELASTINGEN → HOOFDSTUK III → Plichten van de belastingplichtige → Art. 321/1 → 13°]\n\nArt. 321/1 — 13°\n\n13° de uitdrukking \"geconsolideerde jaarrekening\" : de jaarrekening van een multinationale groep waarin de activa, passiva, de opbrengsten, de kosten en, in voorkomend geval, de kasstromen van de uiteindelijke moederentiteit en van de groepsentiteiten weergegeven zijn als die van een enkele economische entiteit;"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_78",
+      "chunk_sha": "16e06bc1c5fd6476",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:100",
+      "score": 0.7459,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiekring]\n\nArt. 3:100\n\nDe deelnemingen in de dochterondernemingen die met toepassing van de artikelen 3:98en 3:99 buiten de consolidatie zijn gelaten, worden in de geconsolideerde jaarrekening opgenomen volgens de vermogensmutatiemethode."
+    },
+    {
+      "chunk_id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+      "chunk_sha": "c406b97d788e63e4",
+      "bron": "2013/3",
+      "bron_rol": "advies",
+      "sectie": "Praktische uitwerking",
+      "score": 0.7352,
+      "text": "[CBN-advies 2013/3 — CBN-advies 2013/3 – De boekhoudkundige verwerking van step acquisitions (update)]\n\nPraktische uitwerking\n\nVerhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft\nIn de geconsolideerde jaarrekening worden deelnemingen in geassocieerde ondernemingen zoals gedefinieerd in artikel 1:21 van het Wetboek van vennootschappen en verenigingen, gewaardeerd door toepassing van de zogenaamde vermogensmutatiewaarde[^2]. Daarnaast wordt deze methode tevens toegepast voor dochterondernemingen waarover de consoliderende onderneming een controle in feite bezit en de opname als integraal geconsolideerde dochteronderneming zou indruisen tegen het principe van het getrouwe beeld[^3] of omdat het going-concern principe niet meer kan gejustifieerd worden[^4]. \n\nVoor gemeenschappelijke dochterondernemingen waarvan het bedrijf niet nauw geïntegreerd is in het bedrijf van de onderneming die over gezamenlijke controle beschikt, kan tevens de vermogensmutatiemethode gehanteerd worden[^5]. \n\nArtikel 3:142, § 1 en 2 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) stelt dat in de geconsolideerde balans de boekwaarde van een deelneming wordt vervangen door het deel van het eigen vermogen van de betrokken vennootschap, inclusief het resultaat van het boekjaar. Het eigen vermogen van de betrokken vennootschap bestaat uit het verschil tussen de boekwaarde van het actief en de boekwaarde van de voorzieningen en schulden van de vennootschap en omvat het resultaat van het boekjaar op datum van de verwerving, behalve in zoverre hierop voor de verwerving een interimdividend is toegekend.[^6] \n\nIn de resultatenrekening wordt het aandeel in het resultaat geboekt in plaats van de dividenden verbonden aan deze deelneming[^7]. Op de balans wordt dit aandeel geboekt in de reserves.\n\nDerhalve wordt deze consolidatiemethode ook vaak omschreven als *one-line consolidation[^8]* , daar slechts één bedrag, op één lijn gerapporteerd wordt in de geconsolideerde balans van de aandeelhouder. Met betrekking tot het resultaat van de onderneming wordt evenzo slechts één bedrag, op één lijn, gerapporteerd in de resultatenrekening.\n\nDe waarde waaraan de deelneming in de geconsolideerde jaarrekening is opgenomen wordt jaarlijks aangepast, gelet op de wijzigingen van het ene boekjaar op het andere van het eigen vermogen van de betrokken vennootschap, en wordt verminderd met het bedrag van de toegekende dividenden.\n\nIndien binnen de groep geen uniforme waarderingsregels worden toegepast voor de waardering van de activa en passiva van de geassocieerde onderneming dienen deze conform artikel 3:142, § 2, tweede lid KB WVV opnieuw te worden gewaardeerd volgens de groepswaarderingsregels. Indien dit praktisch onmogelijk is zal een passende toelichting in de geconsolideerde jaarrekening hieromtrent dienen te worden verstrekt.\n\nDaarnaast dienen tevens de resultaten van verrichtingen tussen de consoliderende vennootschap en de geassocieerde ondernemingen te worden geëlimineerd voor zover deze informatie beschikbaar is[^9].\n\nDe Commissie is van oordeel dat de stapsgewijze verwerving van een geassocieerde onderneming boekhoudkundig telkens moet worden verwerkt als opeenvolgende afzonderlijke transacties. Dit impliceert dat een eventueel positief of negatief consolidatieverschil per transactie zal dienen te worden bepaald. \n\nIn tegenstelling tot de integrale consolidatiemethode, dient conform artikel 3:142, § 3 KB WVV het eerste consolidatieverschil slechts aan de betrokken actief- en passiefbestanddelen van de geassocieerde onderneming te worden toegewezen voor zover dit mogelijk is[^10]. Artikel 3:130, eerste lid van hetzelfde koninklijk besluit, stelt dat bij toepassing van de integrale consolidatiemethode, dit eerste consolidatieverschil zoveel mogelijk moet worden toegewezen aan onderliggende activa- en passivabestanddelen."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_107",
+      "chunk_sha": "6f43494530b356a8",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:136",
+      "score": 0.7343,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiemethoden - Onderafdeling 2. - Integrale consolidatie]\n\nArt. 3:136\n\nWorden uit de geconsolideerde resultatenrekening weggelaten:  1° de onderlinge opbrengsten en kosten die verband houden met verrichtingen tussen de consoliderende vennootschap en de in de consolidatie opgenomen dochterondernemingen of tussen deze laatste;  2° de winsten en verliezen die zijn begrepen in de waarde van een actief dat op de geconsolideerde balans voorkomt en is verworven van de consoliderende vennootschap of van een in de consolidatie opgenomen dochteronderneming;  3° de gerealiseerde meer- en minderwaarden op deelnemingen in de consoliderende vennootschap of in de dochterondernemingen opgenomen in de consolidatie, hetzij behandeld volgens de vermogensmutatiemethode, die zijn overgedragen aan de consoliderende vennootschap of aan in de consolidatie opgenomen dochterondernemingen;  4° de dividenden toegekend door de consoliderende vennootschap of door in de consolidatie opgenomen dochterondernemingen aan de consoliderende vennootschap of aan in de consolidatie opgenomen dochterondernemingen;  5° de waardeverminderingen op deelnemingen in de consoliderende vennootschap of in dochterondernemingen opgenomen in de consolidatie, hetzij behandeld volgens de vermogensmutatiemethode."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_96",
+      "chunk_sha": "c07e89b086a9d1d9",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:121",
+      "score": 0.7206,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiemethoden - Onderafdeling 1. - Algemene beginselen]\n\nArt. 3:121\n\nDe actief- en passiefbestanddelen, de rechten en verplichtingen alsmede de opbrengsten en kosten van geconsolideerde buitenlandse dochterondernemingen worden, vooraleer in de geconsolideerde jaarrekening te worden opgenomen, omgerekend in euro, hetzij volgens de monetaire/niet-monetaire methode, hetzij volgens de slotkoersmethode.  De keuze van de methode moet voldoen aan het vereiste van het getrouwe beeld bedoeld in artikel 3:105.  Voor verschillende buitenlandse dochterondernemingen die in de consolidatie worden opgenomen, mogen beide methoden tegelijkertijd worden gebruikt, inzover:  1° de keuze beantwoordt aan objectieve criteria en  2° deze criteria stelselmatig worden toegepast.  In bijzondere gevallen en met naleving van artikel 3:105 en het 1° en 2° van voorgaand lid, kunnen de consoliderende vennootschappen andere omrekeningsmethoden toepassen."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+      "chunk_sha": "de2443be3bbafab3",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Toepassingsgebied",
+      "score": 0.7202,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nToepassingsgebied\n\nElke moedervennootschap die onderworpen is aan de bepalingen van het gemeen recht inzake consolidatie, moet een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening opstellen, laten controleren en bekendmaken indien zij, alleen of gezamenlijk, één of meer dochterondernemingen controleert[^2]. \n\nEen vennootschap wordt vrijgesteld van de verplichting om een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen wanneer ze deel uitmaakt van een groep van beperkte omvang.[^3]\n Dat betekent dat de vennootschap op geconsolideerde of geaggregeerde basis niet meer dan één van de criteria van art. 1:26, § 1 van het Wetboek van vennootschappen en verenigingen (hierna: WVV) overschrijdt.[^4] \n\nOnder “controle” over een vennootschap wordt verstaan, de bevoegdheid in rechte of in feite om een beslissende invloed uit te oefenen op de aanstelling van de meerderheid van bestuurders of zaakvoerders of op de oriëntatie van het beleid[^5]. De vennootschap die een controlebevoegdheid uitoefent over een andere vennootschap wordt de “moedervennootschap” genoemd, en de vennootschap ten opzichte waarvan een controlebevoegdheid bestaat is de “dochtervennootschap”[^6]. Deze controle kan exclusief of gezamenlijk worden uitgeoefend (gemeenschappelijke dochtervennootschap)[^7]. Een vennootschap is in principe verplicht een geconsolideerde jaarrekening op te stellen wanneer zij ten minste één dochtervennootschap heeft. Deze dochtervennootschap wordt (in principe) opgenomen volgens de integrale consolidatiemethode.\n\nOnder “geassocieerde vennootschap” wordt verstaan, elke andere vennootschap dan een dochtervennootschap of een gemeenschappelijke dochtervennootschap waarin een andere vennootschap een deelneming bezit en waarin zij een invloed van betekenis uitoefent op de oriëntatie van het beleid. Behoudens tegenbewijs wordt deze invloed van betekenis vermoed indien de stemrechten verbonden aan deze deelneming één vijfde of meer vertegenwoordigen van het totaal aantal stemrechten van de aandeelhouders of vennoten van deze vennootschap.[^8]\n Geassocieerde vennootschappen worden doorgaans opgenomen in de consolidatie via de vermogensmutatiemethode.\n\nIn de geconsolideerde jaarrekening worden het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel opgenomen alsof het om één enkele vennootschap ging. In de geconsolideerde jaarrekening[^9]:\n\n1. worden de actief- en passiefbestanddelen, rechten en verplichtingen alsmede opbrengsten en kosten van de consoliderende vennootschap en van haar dochterondernemingen waarover zij de exclusieve controle bezit integraal in de consolidatie opgenomen; \n2. worden de actief- en passiefbestanddelen, rechten en verplichtingen alsmede opbrengsten en kosten van gemeenschappelijke dochterondernemingen naar evenredigheid in de consolidatie opgenomen; \n3. worden de deelnemingen in geassocieerde vennootschappen gewaardeerd en het aandeel in het resultaat van deze vennootschappen vastgesteld met toepassing van de vermogensmutatiemethode.[^10] \n\nDe vermogensmutatiemethode wordt eveneens toegepast op deelnemingen in dochterondernemingen waarover de consoliderende onderneming wel een controle in feite bezit maar die buiten de consolidatie worden gelaten omdat de opname ervan in de consolidatie zou indruisen tegen het principe van het getrouw beeld.[^11]\n Ook deelnemingen in dochterondernemingen in vereffening, of in dochterondernemingen die hebben besloten hun bedrijf stop te zetten of waarvoor er niet meer kan van worden uitgegaan dat zij hun bedrijf zullen voortzetten, worden buiten de consolidatie gelaten en in de geconsolideerde jaarrekening opgenomen volgens de vermogensmutatiemethode.[^12] \n\nGemeenschappelijke dochterondernemingen mogen in de geconsolideerde jaarrekening worden opgenomen volgens de vermogensmutatiemethode, wanneer hun bedrijf niet nauw geïntegreerd is in het bedrijf van de vennootschap die over de gezamenlijke controle beschikt.[^13] \n\nDe moedervennootschap dient in de toelichting bij de geconsolideerde jaarrekening de geconsolideerde vennootschappen te identificeren met opgave van de gebruikte consolidatiemethode. Vennootschappen die gebeurlijk uit de consolidatie worden weggelaten, moeten eveneens worden aangeduid en de weglating moet worden gemotiveerd.[^14] \n\nZoals benadrukt in randnummer 1 moet een vennootschap een geconsolideerde jaarrekening en jaarverslag over de geconsolideerde jaarrekening opstellen indien zij, alleen of gezamenlijk, de controle uitoefent over één of meerdere dochterondernemingen. Wanneer de moedervennootschap uitsluitend deelnemingen bezit in geassocieerde vennootschappen, is zij niet verplicht een geconsolideerde jaarrekening en jaarverslag over de geconsolideerde jaarrekening op te stellen. \n\nDe vermogensmutatiemethode hoeft niet te worden toegepast wanneer de toepassing ervan slechts van te verwaarlozen betekenis zou zijn.[^15]"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_97",
+      "chunk_sha": "db9d83d8da586069",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:123",
+      "score": 0.7201,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiemethoden - Onderafdeling 1. - Algemene beginselen]\n\nArt. 3:123\n\nIn de geconsolideerde jaarrekening worden het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel opgenomen alsof het om één enkele vennootschap ging."
+    },
+    {
+      "chunk_id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_verticale-consolidatie-voorafgaand-aan-de-horizontale-consol",
+      "chunk_sha": "0fb2aae56f41d933",
+      "bron": "2022/09",
+      "bron_rol": "advies",
+      "sectie": "Verticale consolidatie voorafgaand aan de horizontale consolidatie",
+      "score": 0.7106,
+      "text": "[CBN-advies 2022/09 — CBN-advies 2022/09 – Consolidatie bij de horizontale groep (consortium)]\n\nVerticale consolidatie voorafgaand aan de horizontale consolidatie\n\nMogelijks bezitten de vennootschappen die het consortium vormen zelf dochterondernemingen. In voorkomend geval zullen deze dochterondernemingen moeten worden opgenomen in de geconsolideerde jaarrekening volgens de geëigende (verticale) consolidatietechniek."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_106",
+      "chunk_sha": "8f16ada47306706e",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:134",
+      "score": 0.7089,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiemethoden - Onderafdeling 2. - Integrale consolidatie]\n\nArt. 3:134\n\nWorden uit de geconsolideerde balans weggelaten:  1° de onderlinge vorderingen en schulden van de consoliderende vennootschap en van de in de consolidatie opgenomen dochterondernemingen;  2° de winsten en verliezen die zijn begrepen in de waarde van een actief in de geconsolideerde balans, verworven van de consoliderende vennootschap of van een in de consolidatie opgenomen dochteronderneming.\n\n2. De geconsolideerde resultatenrekening."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_intra-groepsverkopen-upstream-downstream-sales",
+      "chunk_sha": "fe1c630875cfab40",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Intra-groepsverkopen (upstream & downstream sales)",
+      "score": 0.7071,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nIntra-groepsverkopen (upstream & downstream sales)\n\nHet aandeel in het resultaat van de betrokken vennootschap dat aan deze deelneming kan worden toegerekend, wordt opgenomen in de geconsolideerde resultatenrekening onder een afzonderlijke post “Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast”.[^68] \n\nDe resultaten van verrichtingen tussen de consoliderende vennootschap of één van haar dochtervennootschappen en de vennootschappen waarop de vermogensmutatiemethode wordt toegepast en die begrepen zijn in de boekwaarde van de activa van de consoliderende vennootschap (of één van haar dochtervennootschappen) of van een vennootschap waarop de vermogensmutatiemethode wordt toegepast, worden voor zover de daartoe noodzakelijke gegevens bekend of toegankelijk zijn, uit de geconsolideerde resultaten weggelaten.[^69]"
+    },
+    {
+      "chunk_id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiemethode",
+      "chunk_sha": "eac0dd62b725cc01",
+      "bron": "2022/09",
+      "bron_rol": "advies",
+      "sectie": "Consolidatiemethode",
+      "score": 0.7048,
+      "text": "[CBN-advies 2022/09 — CBN-advies 2022/09 – Consolidatie bij de horizontale groep (consortium)]\n\nConsolidatiemethode\n\nDe vennootschappen die het consortium vormen worden in de geconsolideerde jaarrekening opgenomen volgens de methode van de integrale consolidatie. Dit volgt uit een samenlezing van artikel 3:24, tweede lid WVV en artikel 3:124, eerste lid, 1° KB WVV. \n\nArtikel 3:30, § 2, tweede lid WVV stelt dat in de geconsolideerde jaarrekening van het consortium onder de posten van het eigen vermogen de samengevoegde bedragen die zijn toe te rekenen aan elk van de vennootschappen die het consortium vormen, worden opgenomen. Hierbij worden de bedragen die worden vermeld in de posten van het eigen vermogen van deze vennootschappen samengevoegd en behouden ze hun eigen karakter (beschikbare/onbeschikbare inbreng, kapitaal, uitgiftepremies, herwaarderingsmeerwaarden, reserves of overgedragen resultaat). Wanneer de consolidatiekring kapitaalhoudende en kapitaalloze vennootschappen omvat, voorziet het model van de geconsolideerde jaarrekening beschikbaar gesteld door de NBB dat de bedragen van de posten *Onbeschikbare inbreng*,*Beschikbare inbreng* of *Kapitaal* in de geconsolideerde jaarrekening op aparte posten van de rubriek Inbreng worden vermeld.\n\nAangezien de geconsolideerde balans van een zuiver consortium een loutere optelling[^50] is van de balansen van de vennootschappen die het consortium vormen, zal er geen sprake zijn van consolidatieverschillen en evenmin van ”belangen van derden”. Met een zuiver consortium wordt hier bedoeld dat geen van de leden van het consortium zelf deelnemingen bezit.\n\nArtikel 3:158 KB WVV stelt dat de posten *Inbreng* en *Uitgiftepremies* uitsluitend het bedrag bevatten van het kapitaal of van de inbreng en van de uitgiftepremies van de consoliderende vennootschap. In het geval van een consortium zijn al de leden van het consortium echter consoliderende vennootschappen. In die zin is een loutere optelling ‘normaal’. De post *Herwaarderingsmeerwaarden* bevat bij een “gewone” consolidatie de herwaarderingsmeerwaarden van de consoliderende vennootschap[^51] geboekt sinds hun opneming in de consolidatie. De post *Reserves* op geconsolideerde basis omvat alle reserves[^52] van de consoliderende vennootschap vóór de eerste consolidatie vermeerderd met het aandeel van de groep in de geconsolideerde resultaten na aftrek van de uitkeringen verricht door de consoliderende vennootschap.[^53] \n\nUit de artikelen 3:123 en 3:134 KB WVV volgt dat de onderlinge schulden en vorderingen van de leden die het consortium vormen, geëlimineerd[^54] worden.\n\nIndien één of meer verenigingen of stichtingen in de consolidatiekring zijn opgenomen, beveelt de Commissie aan om het aandeel van het resultaat van deze vereniging(en) of stichting(en) in het geconsolideerde resultaat van de groep in de toelichting te vermelden, om te vermijden dat de gebruikers van de jaarrekening worden misleid door het bedrag van het ‘uitkeerbaar’ resultaat van de groep.[^55] \n\nVereenvoudigd voorgesteld ziet de toe te passen consolidatietechniek bij een horizontale consolidatie er stapsgewijs[^56] uit als volgt:"
+    },
+    {
+      "chunk_id": "CBN-2012-10-te-verwaarlozen-betekenis__sec_gevolgen-van-de-vrijstelling",
+      "chunk_sha": "f9b3558b898fcc8d",
+      "bron": "2012/10",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vrijstelling",
+      "score": 0.7033,
+      "text": "[CBN-advies 2012/10 — CBN-advies 2012/10 - Te verwaarlozen betekenis]\n\nGevolgen van de vrijstelling\n\nDe Commissie wil evenwel niet nalaten te wijzen op een direct gevolg van de vrijstelling van consolidatieplicht in de hoger aangehaalde omstandigheden. Geassocieerde ondernemingen[^11] worden in de geconsolideerde jaarrekening opgenomen conform de vermogensmutatiemethode. Wanneer op een deelneming de vermogensmutatiemethode wordt toegepast, wordt zij in de geconsolideerde balans opgenomen voor het bedrag dat overeenkomt met het deel van het eigen vermogen van de betrokken vennootschap, inclusief het resultaat over het boekjaar, dat deze deelneming belichaamt[^12]. Bij vrijstelling van opstelling van de geconsolideerde jaarrekening worden deze participaties in de enkelvoudige jaarrekening opgenomen aan aanschaffingswaarde, wat mogelijks een verlies aan informatie betekent.\n\n[^1]: Pb. L 164, 26 juni 2009, blz. 42.\n\n[^2]: Pb. L 193, 18 juli 1983, blz. 1\n\n[^3]: Artikel 16, 3 van de Zevende richtlijn stelt dat de geconsolideerde jaarrekening een getrouw beeld moet geven van het vermogen, de financiële positie en het resultaat van de gezamenlijke ondernemingen die in de consolidatie zijn opgenomen.\n\n[^4]: BS 12 april 2012.\n\n[^5]: Tien dagen na datum van publicatie in het Belgisch Staatsblad, zijnde 12 april 2012.\n\n[^6]: Memorie van toelichting bij het wetsontwerp tot wijziging van het Wetboek van Vennootschappen betreffende bepaalde informatieverplichtingen van middelgrote ondernemingen en de verplichting een geconsolideerde jaarrekening op te stellen, Parl.St . Kamer 2011-12, nr. 53 1890/001, 5.\n\n[^7]: De bepaling uit artikel 107 KB W.Venn. is eigenlijk een herneming van het vroegere artikel 13 van het koninklijk besluit van 6 maart 1990 op de geconsolideerde jaarrekening van de ondernemingen.\n\n[^8]: Op basis van artikel 107, laatste lid KB W.Venn.\n\n[^9]: Verslag namens de heer Karel Uyttersprot, gedaan op 23 januari 2012, Parl.St. Kamer 2011-12, nr. 53 1890/003.\n\n[^10]: Verslag aan de koning bij het koninklijk besluit van 14 november 2007 betreffende de verplichtingen van emittenten van financiële instrumenten die zijn toegelaten tot de verhandeling op een gereglementeerde markt.\n\n[^11]: Art. 12 W.Venn.: onder \" geassocieerde vennootschap \" wordt verstaan, elke andere vennootschap dan een dochtervennootschap of een gemeenschappelijke dochtervennootschap waarin een andere vennootschap een deelneming bezit en waarin zij een invloed van betekenis uitoefent op de oriëntatie van het beleid. Behoudens tegenbewijs wordt deze invloed van betekenis vermoed indien de stemrechten verbonden aan deze deelneming één vijfde of meer vertegenwoordigen van het totaal aantal stemrechten van de aandeelhouders of vennoten van deze vennootschap.\n\n[^12]: Art. 152, § 1 KB W.Venn."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_117",
+      "chunk_sha": "d2c7d7abab55fa99",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:147. Wanneer een vennootschap waarop de vermogensmutatiemethode wordt toegepast, een",
+      "score": 0.7026,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → De vermogensmutatie]\n\nArt. 3:147. Wanneer een vennootschap waarop de vermogensmutatiemethode wordt toegepast, een\n\ngeconsolideerde jaarrekening opstelt, zijn de bepalingen van deze afdeling van toepassing onder verwijzing naar de geconsolideerde jaarrekening van deze vennootschap."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_108",
+      "chunk_sha": "2d8236cf9ea863f0",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:137",
+      "score": 0.6995,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiemethoden - Onderafdeling 2. - Integrale consolidatie]\n\nArt. 3:137\n\nHet gedeelte van het resultaat van de volledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen die worden gehouden door andere personen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochterondernemingen, wordt in de geconsolideerde resultatenrekening vermeld onder de post \"Aandeel van derden in het resultaat\".\n\n3. De geconsolideerde toelichting."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_invloed-van-de-vermogensmutatiemethode-op-de-geconsolideerde",
+      "chunk_sha": "fab9e59be3bc12e8",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Invloed van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X1",
+      "score": 0.6967,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nInvloed van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X1\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nFinanciële kosten – Afschrijving “Consolidatieverschillen” \n\n | \n\n280\n\n | \n\n| \n\n|\n\nLatere consolidaties\n\nHypothese 1: vennootschap Y maakt in het volgende boekjaar (20X2) 1.500 euro winst die wordt gereserveerd."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_99",
+      "chunk_sha": "951a91a9a34d5bdc",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:125",
+      "score": 0.6949,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiemethoden - Onderafdeling 2. - Integrale consolidatie]\n\nArt. 3:125\n\nDe consolidatiebeginselen en -methoden mogen niet van het ene boekjaar tot het andere worden gewijzigd.  Met toepassing van artikel 3:105 mag van het eerste lid worden afgeweken. In dit geval zijn het tweede en derde lid van artikel 3:106 van toepassing.\n\n\n1. De geconsolideerde balans."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie",
+      "chunk_sha": "d13084e57753d769",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Eerste consolidatie",
+      "score": 0.6911,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nEerste consolidatie\n\nVolgens de vermogensmutatiemethode worden de door de moedervennootschap aangehouden deelnemingen naar aanleiding van de opstelling van de geconsolideerde jaarrekening opnieuw gewaardeerd: de historische aanschaffingswaarde van de deelnemingen wordt hierdoor telkens vervangen door het bedrag dat overeenkomt met het deel van het eigen vermogen van de betrokken vennootschap, inclusief het resultaat over het boekjaar, dat deze deelneming belichaamt[^18]. Het eigen vermogen van de betrokken vennootschap bestaat uit het verschil tussen de boekwaarde van de activa en de boekwaarde van de voorzieningen[^19] en schulden van deze vennootschap. Dit eigen vermogen omvat het resultaat van het boekjaar op datum van verwerving, behalve in zoverre hierop vóór de verwerving een interimdividend is toegekend.[^20]\n Dit laatste geldt praktisch ook bij de toekenning van een tussentijds dividend vóór de verwerving.\n\nIndien binnen de groep geen uniforme waarderingsregels worden toegepast voor de waardering van de actief- en passiefbestanddelen van de geassocieerde vennootschap en voor de consolidatie, kunnen deze conform artikel 3:142, § 2, tweede lid van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) opnieuw worden gewaardeerd volgens de voor de consolidatie gehanteerde methoden. Wordt niet opnieuw gewaardeerd, dan moet zulks in toelichting bij de geconsolideerde jaarrekening onder de waarderingsregels worden vermeld.\n\nBij de vermogensmutatiemethode worden de rekeningen van de geassocieerde vennootschap niet in deze van de consoliderende vennootschap geïntegreerd. Het gaat hier bijgevolg niet om een consolidatiemethode in de strikte betekenis van het woord, maar eerder om een bijzondere waarderingsmethode.\n\nVoor zover het verschil tussen de boekwaarde van de deelneming en de hiermee overeenstemmende fractie van het eigen vermogen kan worden toegerekend aan identificeerbare actief- of passiefbestanddelen van de betrokken vennootschap, die een grotere of kleinere waarde hebben dan waartegen zij in de boekhouding van de betrokken vennootschap staan geboekt, wordt dit verschil toegerekend aan de waarde waartegen de deelneming in de geconsolideerde jaarrekening wordt geboekt.[^21] \n\nHet resterende, niet-toerekenbare verschil wordt opgenomen onder de post “Consolidatieverschillen” in de geconsolideerde balans, aan de actiefzijde bij een positief consolidatieverschil, aan de passiefzijde in geval van een negatief consolidatieverschil. Deze consolidatieverschillen mogen niet worden gecompenseerd, behalve indien zij betrekking hebben op eenzelfde geassocieerde vennootschap. In dit laatste geval is compensatie verplicht.[^22]"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_75",
+      "chunk_sha": "e22a000c24e6c509",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:96",
+      "score": 0.6906,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiekring]\n\nArt. 3:96\n\nDe consoliderende vennootschap en al haar dochterondernemingen worden in de consolidatie opgenomen."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_115",
+      "chunk_sha": "98b1019fd509744f",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:145",
+      "score": 0.6868,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → De vermogensmutatie]\n\nArt. 3:145\n\n§ 1. Het aandeel in het resultaat van de betrokken vennootschap dat aan deze deelneming kan worden toegerekend, wordt vermeld in de geconsolideerde resultatenrekening onder een afzonderlijke post \"Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast\".  § 2. De resultaten van verrichtingen tussen de consoliderende vennootschap en de in de consolidatie opgenomen dochterondernemingen alsmede vennootschappen waarop de vermogensmutatiemethode wordt toegepast en die begrepen zijn in de boekwaarde van de activa van de consoliderende vennootschap of van een dochteronderneming opgenomen in de consolidatie, hetzij van een vennootschap waarop de vermogensmutatiemethode wordt toegepast, worden voor zover de daartoe noodzakelijke gegevens bekend of toegankelijk zijn, uit de geconsolideerde resultaten weggelaten.  Ten aanzien van voorgaand lid zijn de artikelen 3:136 en 3:139 van toepassing."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_103",
+      "chunk_sha": "1544513419b6354a",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:131",
+      "score": 0.6843,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiemethoden - Onderafdeling 2. - Integrale consolidatie]\n\nArt. 3:131\n\n§ 1. De in artikel 3:130, tweede lid, bedoelde positieve consolidatieverschillen worden afgeschreven ten laste van de geconsolideerde resultatenrekening, volgens een passend afschrijvingsplan dat overeenstemt met de vermoedelijke gebruiksduur van dit actief. Indien hun afschrijving wordt gespreid over meer dan vijf jaar, moet zulks worden gemotiveerd in de toelichting.  Op deze verschillen worden aanvullende of niet-recurrente afschrijvingen toegepast wanneer het, ingevolge wijzigingen in de economische omstandigheden, niet langer economisch verantwoord is ze tegen die waarde te handhaven in de geconsolideerde balans.  Deze afschrijvingen worden in de resultatenrekening geboekt in een afzonderlijke post van de bedrijfskosten of van de financiële kosten.  § 2. Negatieve consolidatieverschillen mogen niet in de geconsolideerde resultatenrekening worden opgenomen. Wanneer evenwel het negatieve consolidatieverschil te verklaren valt uit een op de overeenkomstig artikel 3:129 bepaalde datum verwachte ongunstige ontwikkeling van de resultaten van de betrokken dochteronderneming of uit kosten die deze dochteronderneming naar verwachting zal veroorzaken, wordt het in de geconsolideerde resultatenrekening opgenomen voor zover en op het ogenblik dat deze vooruitzichten werkelijkheid worden."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_intra-groepsdividenden",
+      "chunk_sha": "2fed683450c4b135",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Intra-groepsdividenden",
+      "score": 0.6828,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nIntra-groepsdividenden\n\nDe waarde [van de vennootschap waarop de vermogensmutatiemethode wordt toegepast] wordt eveneens verminderd met het bedrag van de dividenden met betrekking tot deze deelneming.[^70] \n\nUit de samenlezing van artikelen 3:136, 4° en 3:145, § 2, tweede lid KB WVV blijkt dat uit de geconsolideerde jaarrekening worden weggelaten: “*de dividenden toegekend door de consoliderende vennootschap of door in de consolidatie opgenomen dochterondernemingen aan de consoliderende vennootschap of aan in de consolidatie opgenomen dochterondernemingen*”."
+    },
+    {
+      "chunk_id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-globale-integratiemethode",
+      "chunk_sha": "f01e026304fd785f",
+      "bron": "3/3",
+      "bron_rol": "advies",
+      "sectie": "De globale integratiemethode",
+      "score": 0.6828,
+      "text": "[CBN-advies 3/3 — ADVIES 3-3 - INZAKE DE BOEKHOUDKUNDIGE VERWERKING VAN VERRICHTINGEN VAN…]\n\nDe globale integratiemethode\n\n##### Beschrijving van de methode\nDeze methode sluit aan bij de integrale consolidatiemethode, zoals voorgeschreven door het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen[^8] en die erin bestaat de activa en passiva integraal op te nemen in de balans van de onderneming, en de minderheidsbelangen uit te drukken in de vorm van een schuld tegenover derden. Deze techniek kan enkel worden toegepast door de partner met een overheersend of meerderheidsbelang.\n\nAndermaal worden de eliminatie- en herwerkingstechnieken toegepast om te komen tot een coherent geheel.\n\n##### Eigenschappen van de methode\n1. De eigenschappen van deze methode liggen in het verlengde van de proportionele integratiemethode; \n\n2. De globale consolidatie kan beschouwd worden als de meest geschikte techniek ingeval een partner een belangrijk meerderheidsbelang heeft wat in de praktijk eerder zelden voorkomt; \n\n3. Met deze techniek wordt de partner, in hoofde van wie wordt geïntegreerd, voorgesteld als zijnde 100% eigenaar van activa. Daarnaast bestaan er nog praktische problemen van juridische en fiscale aard die niet kunnen verwaarloosd worden. \n\nDeze methode kan worden toegepast door ondernemingen die als deelgenoot een overwegend belang hebben in de tijdelijke handelsvennootschap. Zulke gevallen komen in de praktijk vrij zelden voor. Deze methode zal enkel werkbaar zijn indien een partner quasi 100 % van de tijdelijke handelsvennootschap in handen heeft."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_94",
+      "chunk_sha": "10d6134542b4fb9c",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:119",
+      "score": 0.6816,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Algemene beginselen]\n\nArt. 3:119\n\nIn de geconsolideerde balans en resultatenrekening wordt rekening gehouden met het verschil dat bij de consolidatie blijkt tussen de aan het boekjaar en de vorige boekjaren toe te rekenen belastingen en de met betrekking tot deze boekjaren betaalde of nog te betalen belastingen, voor zover mag worden aangenomen dat daaruit voor de consoliderende vennootschap of voor een in de consolidatie opgenomen dochteronderneming in de afzienbare toekomst inderdaad kosten zullen voortvloeien.  Deze belastinglatenties worden aan passiefzijde van de geconsolideerde balans geboekt in een afzonderlijke post IX. B. \" Uitgestelde belastingen en belastinglatenties\"."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_104",
+      "chunk_sha": "02633f774cccbdb4",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:132",
+      "score": 0.6799,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiemethoden - Onderafdeling 2. - Integrale consolidatie]\n\nArt. 3:132\n\nIngeval de aandelen van een in de consolidatie opgenomen dochteronderneming geheel of ten dele buiten de consolidatiekring worden gerealiseerd, wordt het overblijvende consolidatieverschil afgeboekt naar verhouding van de gerealiseerde aandelen."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_100",
+      "chunk_sha": "0459bdc2f46d6ca5",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:126",
+      "score": 0.6779,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiemethoden - Onderafdeling 2. - Integrale consolidatie]\n\nArt. 3:126\n\nOnverminderd de artikelen 3:127 en 3:134, worden alle actief- en passiefbestanddelen van de consoliderende vennootschap en van de dochterondernemingen die in de consolidatie zijn opgenomen, in de geconsolideerde balans opgenomen."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_81",
+      "chunk_sha": "499cba2023f5b57e",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:103",
+      "score": 0.6776,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Algemene beginselen]\n\nArt. 3:103\n\nDe geconsolideerde jaarrekening bestaat uit de balans, de resultatenrekening en de toelichting. Deze stukken vormen één geheel.  Onverminderd artikel 3:30, § 2 van het Wetboek van vennootschappen en verenigingen worden in de geconsolideerde jaarrekening de bedragen in euro uitgedrukt."
+    },
+    {
+      "chunk_id": "CBN-2014-03-de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde__sec_praktische-uitwerking",
+      "chunk_sha": "d1e4489989a06e74",
+      "bron": "2014/3",
+      "bron_rol": "advies",
+      "sectie": "Praktische uitwerking",
+      "score": 0.677,
+      "text": "[CBN-advies 2014/3 — CBN-advies 2014/3 – De boekhoudkundige verwerking van mutaties binnen het eigen…]\n\nPraktische uitwerking\n\nIn het onderstaande voorbeeld gaan we ervan uit dat onderneming A nog andere participaties heeft dewelke zij integraal dient te consolideren en derhalve verplicht is een geconsolideerde jaarrekening op te stellen.\n\nDe balans van de enkelvoudige jaarrekening van onderneming A per 1 december 20X3:\n\n| Onderneming A |\n|---|\n| Terreinen | 660| Kapitaal| 1.500|\n| Installaties| 3.300| Reserves| 300|\n| Financiële vaste activa| 2.000| Resultaat | 2.800|\n| Voorraden| 2.500| Financiële schulden| 5.000|\n| Liquide middelen| 2.100| Leveranciers| 960|\n| | 10.560| | 10.560|\n\nDe balans van de enkelvoudige jaarrekening van onderneming B per 1 december 20X3:\n\n| Onderneming B |\n|---|\n| Gebouwen| 500| Kapitaal | 250|\n| Liquide middelen| 700| Reserves | 800|\n| | | Financiële schulden | 150|\n| | 1.200| | 1.200|\n\nOp 1 december 20X3 verwerft onderneming A een belang van 20 % in onderneming B voor een bedrag van 500. Het consolidatieverschil wordt als volgt berekend:\n\n| Eigen vermogen onderneming B| 1.050|\n|---|---|\n| Aandeel in eigen vermogen onderneming: 20 % x 1.050| 210|\n| Aankoopprijs | 500|\n| Positief consolidatieverschil: 500 - 210| 290|\n\nVeronderstel dat onderneming A op 1 december 20X3 een tussentijdse geconsolideerde balans zou opmaken, waarin enkel de geassocieerde ondernemingen volgens de vermogensmutatiemethode worden opgenomen, dan zou deze als volgt voorgesteld worden:\n\n| Onderneming A – Geconsolideerde balans|\n|---|\n| Positieve consolidatieverschillen| 290| Kapitaal| 1.500|\n| Terreinen| 660| Geconsolideerde reserves| 3.100|\n| Installaties| 3.300| | Reserves onderneming A| 300|\n| Financiële vaste activa| 2.000| | Resultaat onderneming A| 2.800|\n| Venn. waarop VMM is toegepast| 210| Financiële schulden| 5.000|\n| Voorraden| 2.500| Leveranciers| 960|\n| Liquide middelen| 1.600| | |\n| | 10.560| | 10.560|\n\nTijdens de periode 1 december 20X3 tot 31 december 20X3 heeft de onderneming B een winst van 400 gerealiseerd waardoor de enkelvoudige balans per 31 december 20X3 als volgt kan worden voorgesteld:\n\n| Onderneming B |\n|---|\n| Gebouwen| 800| Kapitaal | 250|\n| Liquide middelen| 800| Reserves | 800|\n| | | Resultaat periode 1/12 – 31/12| 400|\n| | | Financiële schulden | 150|\n| | 1.600| | 1.600|\n\nDe geconsolideerde balans van onderneming A per 31 december 20X3 wordt als volgt gepresenteerd:\n\n| Onderneming A – Geconsolideerde balans|\n|---|\n| Positieve consolidatieverschillen| 232| Kapitaal| 1.500|\n| Terreinen| 660| Geconsolideerde reserves| 2.592|\n| Installaties| 2.970| | Reserves onderneming A| 300|\n| Financiële vaste activa| 2.000| | Resultaat onderneming A| 2.270|\n| Venn. waarop VMM is toegepast| 290| | Aandeel in resultaat ond. B| 80|\n| Voorraden| 2.300| | Afschr. consolidatieverschil| -58|\n| Liquide middelen| 1.300| Financiële schulden| 4.600|\n| | | Leveranciers| 1.060|\n| | 9.752| | 9.752|\n\nHet positieve consolidatieverschil wordt afgeschreven over 5 jaar, dit resulteert in een afschrijving van 58 per jaar die ten laste van het geconsolideerde resultaat wordt geboekt. De aangroei van *Vennootschappen waarop vermogensmutatie is toegepast* heeft integraal betrekking op het resultaat van onderneming B over december 20X3 rekening houdend met het belang van vennootschap A, ofwel 400 aan 20 % geeft 80. \n\nPer 1 januari 20X6, ofwel 31 december 20X5, werden de positieve consolidatieverschillen en installaties verder afgeschreven. Daarnaast werden de resultaten van de geassocieerde onderneming B tevens toegevoegd ten belope van 20 % aan de geconsolideerde reserves. Dit geeft volgende geconsolideerde balans per 1 januari 20X6 (31 december 20X5):\n\n| Onderneming A – Geconsolideerde balans|\n|---|\n| Positieve consolidatieverschillen| 116| Kapitaal| 1.500|\n| Terreinen| 660| Geconsolideerde reserves| 1.116|\n| Installaties| 2.310| | Reserves onderneming A| 300|\n| Financiële vaste activa| 2.000| | Resultaat onderneming A| 810|\n| Venn. waarop VMM is toegepast| 390| | Aandeel in resultaat ond. B| 180|\n| Voorraden| 1.500| | Afschr. consolidatieverschil| -174|\n| Liquide middelen| 700| Financiële schulden| 4.800|\n| | | Leveranciers| 260|\n| | 7.676| | 7.676|\n\nIn 20X6 rapporteert het bestuursorgaan van onderneming B aan het bestuursorgaan van onderneming A dat er een herwaarderingsmeerwaarde voor 500 werd geboekt in de enkelvoudige cijfers en dat het resultaat over 20X6 250 bedraagt.\n\nIn de geconsolideerde jaarrekening van onderneming A per 31 december 20X6 zal de aangroei van het vermogen van onderneming B, enerzijds door het resultaat van de periode (zijnde 250 aan 20 %, ofwel 50) en anderzijds door het uitdrukken van de herwaarderingsmeerwaarde op de materiële vaste activa (zijnde 500 aan 20 % ofwel 100), op een verschillende wijze moeten worden verwerkt.\n\nConform artikel 3:143 KB WVV dient onderneming A in haar geconsolideerde jaarrekening het aandeel in het resultaat van de geassocieerde onderneming toe te voegen aan de waarde waartegen de deelneming in de geconsolideerde balans overeenkomstig de vermogensmutatiemethode werd opgenomen. Het aandeel van het resultaat dat aan deze deelneming kan worden toegerekend, wordt vermeld in de geconsolideerde resultatenrekening onder een afzonderlijke post *Aandeel in het resultaat waarop vermogensmutatiemethode is toegepast*[^3].\n\nArtikel 3:143 KB WVV spreekt zich evenwel niet uit hoe de in de geassocieerde onderneming geboekte herwaarderingsmeerwaarde moet worden verwerkt in de geconsolideerde jaarrekening van onderneming A per 31 december 20X6. De toevoeging aan de geconsolideerde resultaten van het aandeel van onderneming A in deze herwaarderingsmeerwaarde zou ertoe leiden dat niet-gerealiseerde resultaten worden opgenomen in de geconsolideerde resultatenrekening. Om deze reden is de Commissie de mening toegedaan dat het aandeel in de herwaarderingsmeerwaarde van de geassocieerde onderneming rechtstreeks aan de geconsolideerde reserves moet worden toegevoegd.\n\nDit heeft tot gevolg dat de geconsolideerde balans van onderneming A per 31 december 20X6 als volgt kan worden voorgesteld:\n\n| Onderneming A – Geconsolideerde balans|\n|---|\n| Positieve consolidatieverschillen| 58| Kapitaal| 1.500|\n| Terreinen| 660| Geconsolideerde reserves| 1.178|\n| Installaties| 1.980| | Reserves onderneming A| 300|\n| Financiële vaste activa| 2.000| | Resultaat onderneming A| 780|\n| Venn. waarop VMM is toegepast| 540| | Aandeel in resultaat ond. B| 230|\n| Voorraden| 1.800| | Afschr. consolidatieverschil| -232|\n| Liquide middelen| 300| | Aandeel in HWMW ond. B| 100|\n| | | Financiële schulden| 4.500|\n| | | Leveranciers| 160|\n| | 7.338| | 7.338|\n\n[^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 20 januari 2014 ter consultatie werd gepubliceerd op de website van de CBN.\n\n[^2]: Onderhavig geactualiseerd advies is tot stand gekomen nadat het ontwerpadvies op 30 april 2025 ter publieke consultatie werd gepubliceerd op de website van de CBN.\n\n[^3]: Art. 3:145, § 1 KB WVV."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_85",
+      "chunk_sha": "4eb80780b34998fc",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:109",
+      "score": 0.677,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Algemene beginselen]\n\nArt. 3:109\n\nDe geconsolideerde jaarrekening wordt op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap.  De geconsolideerde jaarrekening kan evenwel op een ander tijdstip worden afgesloten om rekening te houden met de balansdatum van de meeste of van de belangrijkste van de in de consolidatie opgenomen ondernemingen."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_gevolgen-van-de-vermogensmutatiemethode-op-de-geconsolideerd_4",
+      "chunk_sha": "0263f3005d9c6333",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X1",
+      "score": 0.6743,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nGevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X1\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nFinanciële kosten - Afschrijving “Consolidatieverschillen”\n\n | \n\n58\n\n | \n\nAandeel in het resultaat van de vennootschap waarop vermogensmutatie is toegepast\n\n | \n\n80\n\n |"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_101",
+      "chunk_sha": "60b239d1f1710693",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:129",
+      "score": 0.6737,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiemethoden - Onderafdeling 2. - Integrale consolidatie]\n\nArt. 3:129\n\nDe vaststelling van de waarde van het eigen vermogen van de dochteronderneming en de in artikel 3:127, a), bedoelde compensatie geschieden voor elke dochteronderneming op de datum waarop de aandelen zijn verworven of op een nabijzijnde datum.  Wanneer evenwel:  a) een vennootschap voor de eerste maal een geconsolideerde jaarrekening opstelt, mag deze compensatie, ten belope van de aandelen in haar bezit op die datum, geschieden op de aanvangsdatum van het boekjaar waarop deze eerste geconsolideerde jaarrekening betrekking heeft;  b) een dochteronderneming die vroeger niet werd geconsolideerd, noch behandeld volgens de vermogensmutatiemethode, voor de eerste maal in de consolidatie wordt opgenomen, mag deze compensatie, ten belope van de aandelen in haar bezit op die datum, geschieden op de aanvangsdatum van het boekjaar waarop de geconsolideerde jaarrekening waarin de dochteronderneming voor de eerste maal wordt opgenomen, betrekking heeft."
+    },
+    {
+      "chunk_id": "Richtlijn-2013-34-EU__art_21",
+      "chunk_sha": "6a8d96580ccfc7de",
+      "bron": "Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen",
+      "bron_rol": "wettekst",
+      "sectie": "Artikel 21",
+      "score": 0.6714,
+      "text": "[Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen]\n\nArtikel 21\n\nToepassingsgebied van de geconsolideerde financiële overzichten en  verslagen\n\nVoor de toepassing van dit hoofdstuk worden een moederonderneming  en al haar dochterondernemingen in de consolidatie opgenomen indien  de moederonderneming een onderneming is waarop de bij deze richtlijn  voorgeschreven coördinatiemaatregelen op grond van artikel 1, lid 1,  van toepassing zijn."
+    },
+    {
+      "chunk_id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatieverplichting-consoliderende-vennootschap",
+      "chunk_sha": "565469fab036ce8e",
+      "bron": "2022/09",
+      "bron_rol": "advies",
+      "sectie": "Consolidatieverplichting – Consoliderende vennootschap",
+      "score": 0.6709,
+      "text": "[CBN-advies 2022/09 — CBN-advies 2022/09 – Consolidatie bij de horizontale groep (consortium)]\n\nConsolidatieverplichting – Consoliderende vennootschap\n\nWanneer er sprake is van een consortium moet een geconsolideerde jaarrekening worden opgesteld waarin alle vennootschappen worden opgenomen die het consortium vormen, alsook hun dochterondernemingen.[^22]\n Wanneer een vennootschap deel uitmaakt van een groep van beperkte omvang, wordt zij vrijgesteld van de verplichting om een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen.[^23]\n Bij een consortium rust de consolidatieverplichting[^24] gezamenlijk bij de vennootschappen die het consortium vormen. Zij staan gezamenlijk in voor de opstelling en de openbaarmaking van de geconsolideerde jaarrekening en het jaarverslag over de geconsolideerde jaarrekening.[^25] \n\nIedere vennootschap die het consortium vormt, wordt aangemerkt als een consoliderende vennootschap.[^26]\n Aldus is er een onderscheid tussen enerzijds de vennootschappen die het consortium vormen, die allen worden aangemerkt als een consoliderende vennootschap, en anderzijds de dochterondernemingen van deze vennootschappen. Samen vormen zij de consolidatiekring. \n\nVerenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk, stichtingen en maatschappen zijn niet consolidatieplichtig. De consolidatieplicht geldt uitsluitend voor vennootschappen met rechtspersoonlijkheid.[^27]\n Een vereniging zonder winstoogmerk, internationale vereniging zonder winstoogmerk of stichting kan, net zoals een maatschap nooit een moedervennootschap zijn.[^28]"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_gevolgen-van-de-vermogensmutatiemethode-op-de-geconsolideerd_9",
+      "chunk_sha": "76612b3a686c5f29",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X3",
+      "score": 0.6701,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nGevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X3\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nFinanciële kosten - Afschrijving “Consolidatieverschillen”\n\n | \n\n58\n\n | \n\nOpbrengsten van het boekjaar\n\n | \n\n540\n\n |\n| \n\nAandeel in het resultaat van de vennootschap waarop vermogensmutatie is toegepast\n\n | \n\n80\n\n |"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_109",
+      "chunk_sha": "6c9320d4b3ae963e",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:138",
+      "score": 0.6691,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiemethoden - Onderafdeling 2. - Integrale consolidatie]\n\nArt. 3:138\n\nDe inlichtingen met betrekking tot het geheel van de consoliderende vennootschap en de in de consolidatie opgenomen dochterondernemingen die krachtens dit besluit in de toelichting moeten worden opgenomen, slaan niet op de wederzijdse rechten en verplichtingen die worden weggelaten.\n\n4. Gemeenschappelijke bepaling."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_gevolgen-van-de-vermogensmutatiemethode-op-de-geconsolideerd_6",
+      "chunk_sha": "4b901b23933a7b1e",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2",
+      "score": 0.6678,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nGevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nFinanciële kosten - Afschrijving “Consolidatieverschillen”\n\n | \n\n58\n\n | \n\nOpbrengsten van het boekjaar\n\n | \n\n540[^102] \n\n |\n| \n\nAandeel in het resultaat van de vennootschap waarop vermogensmutatie is toegepast\n\n | \n\n100\n\n |"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_122",
+      "chunk_sha": "aa191e0042918e7b",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:153",
+      "score": 0.6668,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Vorm en inhoud van de geconsolideerde jaarrekening - Onderafdeling 2. - Geconsolideerde jaarrekening]\n\nArt. 3:153\n\nDe indeling van de geconsolideerde jaarrekening moet identiek zijn van het ene jaar tot het andere; ze wordt echter gewijzigd wanneer zij, onder meer ingevolge een belangrijke wijziging in de structuur van het vermogen, van de opbrengsten en van de kosten van het geconsolideerde geheel, niet meer beantwoordt aan het voorschrift van artikel 3:105. Deze wijzigingen worden gemotiveerd in de toelichting over het boekjaar waarin zij werden ingevoerd.\n\n\n1. Schema van de balans."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_83",
+      "chunk_sha": "e26d92ef14e64a7b",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:107",
+      "score": 0.6667,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Algemene beginselen]\n\nArt. 3:107\n\nDe geconsolideerde jaarrekening moet duidelijk worden opgesteld en stelselmatig weergeven, enerzijds, op de dag waarop het boekjaar wordt afgesloten, de aard en het bedrag van de bezittingen en rechten van het geconsolideerde geheel, van zijn schulden en verplichtingen evenals van zijn eigen middelen, en anderzijds, voor het op die dag afgesloten boekjaar, de aard en het bedrag van zijn opbrengsten en zijn kosten. Zij moet zowel in de balans als in de resultatenrekening afzonderlijk de belangen van derden vermelden.  Compensatie tussen tegoeden en schulden, tussen rechten en verplichtingen en tussen opbrengsten en kosten is verboden, behoudens in de gevallen bij dit hoofdstuk bepaald."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_gevolgen-van-de-vermogensmutatiemethode-op-de-geconsolideerd_5",
+      "chunk_sha": "ffa5c55b27e23e61",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2",
+      "score": 0.6659,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nGevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nFinanciële kosten - Afschrijving “Consolidatieverschillen”\n\n | \n\n58\n\n | \n\nAandeel in het resultaat van de vennootschap waarop vermogensmutatie is toegepast\n\n | \n\n60[^90] \n\n |"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld",
+      "chunk_sha": "63b0ac67eb576a55",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Voorbeeld",
+      "score": 0.6655,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nVoorbeeld\n\nStel dat de boekwaarde van de deelneming in de geassocieerde vennootschap 100 bedraagt en dat de fractie van het eigen vermogen van de geassocieerde vennootschap 80 is. Het verschil tussen de boekwaarde van de deelneming (100) en de hiermee overeenstemmende fractie van het eigen vermogen (80) bedraagt dus 20 (100 – 80).\nDit verschil (20) kan voor een gedeelte (5) worden toegerekend aan terreinen die in werkelijkheid een grotere waarde hebben dan de boekwaarde waartegen ze in de balans van de geassocieerde vennootschap worden uitgedrukt. Desgevallend wordt de deelneming in de geassocieerde vennootschap in de geconsolideerde jaarrekening opgenomen onder de rubriek \"Vennootschappen waarop vermogensmutatie is toegepast\" onder de \"Financiële vaste activa\" voor een bedrag van 80 + 5 = 85. Het resterend verschil (20 - 5 = 15) is dan het positief consolidatieverschil.\nPositieve consolidatieverschillen worden afgeschreven ten laste van de geconsolideerde resultatenrekening. Worden ze afgeschreven over meer dan vijf jaar, dan moet zulks worden gemotiveerd in de toelichting. Op deze verschillen worden aanvullende of niet-recurrente afschrijvingen toegepast wanneer het, ingevolge wijzigingen in de economische omstandigheden, niet langer economisch verantwoord is ze tegen die waarde te handhaven in de geconsolideerde balans. De afschrijvingen worden in de resultatenrekening geboekt in een afzonderlijke post van de bedrijfskosten of van de financiële kosten.[^23] \n\nNegatieve consolidatieverschillen worden in beginsel niet in de geconsolideerde resultatenrekening opgenomen. Wanneer evenwel het negatieve consolidatieverschil te verklaren valt door een op de datum van verwerving van de deelneming of een nabij zijnde datum verwachte ongunstige ontwikkeling van de resultaten van de geassocieerde vennootschap of uit kosten die deze geassocieerde vennootschap naar verwachting zal veroorzaken, wordt het in de geconsolideerde resultatenrekening opgenomen voor zover en op het ogenblik dat deze vooruitzichten werkelijkheid worden.[^24]\n Is dit niet het geval, dan worden negatieve consolidatieverschillen definitief bijgeschreven bij het eigen vermogen van de geconsolideerde jaarrekening[^25]. \n\nDe deelneming in vennootschappen waarop de vermogensmutatiemethode is toegepast, wordt in de geconsolideerde balans opgenomen onder een afzonderlijke post van de financiële vaste activa, genoemd “Vennootschappen waarop vermogensmutatie is toegepast”.[^26]"
+    },
+    {
+      "chunk_id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_integratiemethoden-op-balansniveau",
+      "chunk_sha": "06170ed1c84a5ed5",
+      "bron": "3/3",
+      "bron_rol": "advies",
+      "sectie": "Integratiemethoden op balansniveau",
+      "score": 0.6652,
+      "text": "[CBN-advies 3/3 — ADVIES 3-3 - INZAKE DE BOEKHOUDKUNDIGE VERWERKING VAN VERRICHTINGEN VAN…]\n\nIntegratiemethoden op balansniveau\n\nEen onderzoek van de rechtsleer en de praktijk leert dat verschillende integratietechnieken worden gebruikt.\n\nZiehier de lijst: \n\n1. De methode van de rekening-courant; \n2. De methode van de eenvoudige gelijkschakeling met een derde onderneming; \n3. De methode van de eenvoudige equivalentie; \n4. De methode van de samenvoeging in onderscheiden rekeningen, vermelding in toelichting; \n5. De uitgebreide equivalentiemethode; \n6. De proportionele integratiemethode; \n7. De globale integralemethode. \n\nOm haar voorkeur meer bepaald voor een van deze methoden zo volledig mogelijk te verantwoorden, acht de Commissie het nuttig om elke integratiemethode bondig te beschrijven en de belangrijkste eigenschappen ervan toe te lichten, wat de beoordeling van voor- en nadelen vergemakkelijkt."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_invloed-van-de-vermogensmutatiemethode-op-de-geconsolideerde_2",
+      "chunk_sha": "6b343ab972b32696",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Invloed van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2",
+      "score": 0.6647,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nInvloed van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nFinanciële kosten – Afschrijving “Consolidatieverschillen”\n\n | \n\n280\n\n | \n\nAandeel in de winst van de vennootschappen waarop vermogensmutatie is toegepast\n\n | \n\n300\n\n |\n\nHypothese 2: vennootschap Y maakt tijdens het volgende boekjaar een verlies van 1.500 euro."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_112",
+      "chunk_sha": "6b9d999ffc4e33ea",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:141",
+      "score": 0.664,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → De vermogensmutatie]\n\nArt. 3:141\n\nDeelnemingen in vennootschappen waarop de vermogensmutatiemethode is toegepast, worden in de geconsolideerde balans opgenomen onder een afzonderlijke post van de financiële vaste activa, genoemd \"Vennootschappen waarop vermogensmutatie is toegepast\"."
+    },
+    {
+      "chunk_id": "CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap__sec_de-kwalificatie-van-de-maatschap-als-moedervennootschap",
+      "chunk_sha": "49164eede50cba05",
+      "bron": "2015/10",
+      "bron_rol": "advies",
+      "sectie": "De kwalificatie van de maatschap als moedervennootschap",
+      "score": 0.6639,
+      "text": "[CBN-advies 2015/10 — CBN-advies 2015/10 – Vrijstelling van subconsolidatie: de maatschap]\n\nDe kwalificatie van de maatschap als moedervennootschap\n\nVanuit een zuiver economisch standpunt is de Commissie zich ervan bewust dat de opmaak van een geconsolideerde jaarrekening in hoofde van de maatschap mogelijks zinvol is. \n\nHet Verslag aan de Koning bij het KB van 6 maart 1990 stelt tevens dat de geconsolideerde jaarrekening abstractie maakt van de rechtspersoonlijkheid en bijgevolg geen rechtsgevolgen teweegbrengt. Anders dan voor de enkelvoudige jaarrekening, moet de algemene vergadering de geconsolideerde jaarrekening niet goedkeuren.\n\nDe Commissie is evenwel de mening toegedaan dat de opmaak van een geconsolideerde jaarrekening in hoofde van de maatschap een foutief beeld geeft over het juridisch karakter van de maatschap binnen de consolidatiekring. Een derde zou op basis van deze geconsolideerde jaarrekening foutief kunnen vermoeden dat de maatschap de respectievelijke belangen in de consoliderende vennootschappen aanhoudt, hetgeen indruist tegen het statuut van een maatschap (*vide supra*)[^5]. Tevens is vennootschapsrechtelijk niet voorzien dat een maatschap een moedervennootschap kan zijn[^6]."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_95",
+      "chunk_sha": "cd61539d580dfb06",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:120",
+      "score": 0.6633,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Algemene beginselen]\n\nArt. 3:120\n\nWanneer actief- of passiefbestanddelen voor hun opneming in de consolidatie worden aangepast of herberekend, worden de afschrijvingen, waardeverminderingen en resultaten uit overdracht in de geconsolideerde jaarrekening geboekt op grond van deze aangepaste of herberekende waarde."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_111",
+      "chunk_sha": "442c02716bd6a3cb",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:140",
+      "score": 0.663,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → De vermogensmutatie]\n\nArt. 3:140\n\nIn geval van evenredig geconsolideerde gemeenschappelijke dochterondernemingen:  a) zijn de artikelen 3:127, a) en 3:128 tot 3:133 van toepassing;  b) worden de actief- en passiefbestanddelen, rechten en verplichtingen, opbrengsten en kosten van gemeenschappelijke dochterondernemingen in de geconsolideerde jaarrekening opgenomen naar rato van de rechten in het kapitaal of voor wat de kapitaalloze vennootschappen betreft, in de inbreng die door de consoliderende vennootschap en door de in de consolidatie opgenomen dochterondernemingen worden gehouden; de artikelen 3:134, 3:136, 3:138 en 3:139 zijn van toepassing."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_76",
+      "chunk_sha": "f1d52f8506787758",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:97",
+      "score": 0.663,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiekring]\n\nArt. 3:97\n\nEen dochteronderneming mag buiten de consolidatie worden gelaten:  1° indien zij slechts van te verwaarlozen betekenis is en haar opneming geen betekenis zou hebben voor de beoordeling van het geconsolideerd vermogen, de geconsolideerde financiële positie of het geconsolideerd resultaat; indien meer dochterondernemingen aan deze voorwaarde voldoen, mag van deze mogelijkheid slechts gebruik worden gemaakt indien zij te zamen aan de gestelde voorwaarde voldoen;  2° indien ingrijpende en duurzame beperkingen in wezenlijke mate de effectieve uitoefening van de controlebevoegdheid over de betrokken dochteronderneming dan wel de aanwending van het vermogen van laatstgenoemde bemoeilijken;  3° indien de gegevens die nodig zijn om deze dochteronderneming in de consolidatie op te nemen, niet zonder onevenredige kosten of onverantwoorde vertraging kunnen worden verkregen;  4° indien haar aandelen uitsluitend met het oog op latere vervreemding worden gehouden.  Gebruik van dit artikel moet worden gemotiveerd in de toelichting."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_86",
+      "chunk_sha": "ed33542ff0480450",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:110",
+      "score": 0.6616,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Algemene beginselen]\n\nArt. 3:110\n\nOnverminderd de artikelen 3:127, 2,134, 3:137 en 3:138, bevat de geconsolideerde jaarrekening alle actief- en passiefbestanddelen en alle rechten en verplichtingen van de consoliderende vennootschap en van de dochterondernemingen die in de consolidatie zijn opgenomen, op de afsluitingsdatum van de geconsolideerde jaarrekening, alsmede alle opbrengsten en kosten van de consoliderende vennootschap en van de in de consolidatie opgenomen dochterondernemingen, die betrekking hebben op de door de geconsolideerde resultatenrekening bestreken periode.  Indien het uiterst moeilijk zou blijken om actief- en passiefbestanddelen en rechten en verplichtingen van de consoliderende vennootschap of van een dochteronderneming, dan wel opbrengsten en kosten uit de door de geconsolideerde resultatenrekening bestreken periode in de geconsolideerde jaarrekening op te nemen op de afsluitingsdatum of zulks de opstelling en openbaarmaking van de geconsolideerde jaarrekening uitermate zou vertragen, dan mogen zij op een ander tijdstip in aanmerking worden genomen. Tussen beide data of de beschouwde periodes mag evenwel onder geen enkel beding meer dan drie maanden liggen."
+    },
+    {
+      "chunk_id": "CBN-2019-06-groepsbijdrage__sec_algemeen",
+      "chunk_sha": "0bc0319b3bae0e3e",
+      "bron": "2019/06",
+      "bron_rol": "advies",
+      "sectie": "Algemeen",
+      "score": 0.6612,
+      "text": "[CBN-advies 2019/06 — COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN]\n\nAlgemeen\n\nMet onderhavig advies verduidelijkt de Commissie de boekhoudkundige verwerking van de *groepsbijdrage*regeling[^2] in de statutaire jaarrekening.\n\nDe groepsbijdrageregeling steunt op het beginsel van de fiscale neutraliteit volgens hetwelk de fiscale behandeling van de winst en het verlies moet afgestemd zijn op de economische entiteit die de activiteiten uitoefent, ongeacht de manier waarop die economische entiteit gestructureerd en georganiseerd is en of het om één enkele entiteit of om een groep van vennootschappen gaat.[^3]\n De groepsbijdrageregeling is een vorm van fiscale consolidatie."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_invloed-van-de-vermogensmutatiemethode-op-de-geconsolideerde_3",
+      "chunk_sha": "91c9c5411b54963c",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Invloed van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2",
+      "score": 0.6604,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nInvloed van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nAandeel in het verlies van de vennootschappen waarop vermogensmutatie is toegepast\n\n | \n\n300\n\n | \n\n| \n\n|\n| \n\nFinanciële kosten – Afschrijving “Consolidatieverschillen”\n\n | \n\n280\n\n | \n\n| \n\n|\n\nHypothese 3: gedurende het boekjaar dat volgt, lijdt vennootschap Y een verlies van 15.000 euro."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_105",
+      "chunk_sha": "6eae633380b7fc71",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:133",
+      "score": 0.6573,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiemethoden - Onderafdeling 2. - Integrale consolidatie]\n\nArt. 3:133\n\nDe eigen aandelen van de consoliderende vennootschap alsmede de aandelen in de consoliderende vennootschap gehouden door een in de consolidatie opgenomen dochteronderneming, worden in de geconsolideerde balans geboekt in actiefpost IX.  De toelichting vermeldt hoeveel aandelen van de consoliderende vennootschap in bezit zijn van haarzelf en van haar in de consolidatie opgenomen dochteronderneming, alsook welk percentage van de uitgegeven aandelen ze vertegenwoordigen."
+    },
+    {
+      "chunk_id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_de-commissaris-bij-een-consortium",
+      "chunk_sha": "9328d2cd7b480ad3",
+      "bron": "2022/09",
+      "bron_rol": "advies",
+      "sectie": "De commissaris bij een consortium",
+      "score": 0.6569,
+      "text": "[CBN-advies 2022/09 — CBN-advies 2022/09 – Consolidatie bij de horizontale groep (consortium)]\n\nDe commissaris bij een consortium\n\nDe geconsolideerde jaarrekening van een consortium wordt gecontroleerd door de commissaris van tenminste één van de vennootschappen van het consortium of door één of meer bedrijfsrevisoren die of door een geregistreerd auditkantoor dat daartoe met onderlinge toestemming zijn aangesteld.[^44] \n\nIndien de geconsolideerde jaarrekening wordt opgesteld volgens de wetgeving en in de nationale munt van een buitenlandse vennootschap die tot het consortium behoort, mag zij worden gecontroleerd door de persoon belast met de controle van deze buitenlandse vennootschap.[^45] \n\nIn welke munt en volgens welke wetgeving moet de geconsolideerde jaarrekening worden opgesteld?\n In geval van consolidatie bij een consortium mag de geconsolideerde jaarrekening worden opgesteld volgens de wetgeving en in de nationale munt van het land van een buitenlandse vennootschap die tot het consortium behoort, wanneer het hoofdbedrijf van het consortium in die vennootschap is gelokaliseerd dan wel geschiedt in de munt van het land waar zij haar zetel heeft.[^46]\n In dergelijk geval mag de geconsolideerde jaarrekening worden gecontroleerd door de persoon belast met de controle van deze buitenlandse vennootschap. \n\nWanneer de geconsolideerde jaarrekening is opgesteld volgens de wetgeving van een buitenlandse vennootschap die deel uitmaakt van het consortium, moet de vennootschap die gebruik wenst te maken van de vrijstelling van de verplichting om een geconsolideerde jaarrekening en jaarverslag over de geconsolideerde jaarrekening op te stellen[^47], een exemplaar van de geconsolideerde jaarrekening van het consortium, van het controleverslag en van het jaarverslag over de geconsolideerde jaarrekening neerleggen bij de NBB. Deze publicatie moet gebeuren in de taal of de talen waarin de vrijgestelde vennootschap haar jaarrekening dient openbaar te maken. \n\nOm te kunnen genieten van voormelde vrijstelling moeten de geconsolideerde jaarrekening en het jaarverslag zijn opgesteld overeenkomstig de Boekhoudrichtlijn 2013/34/EU dan wel op een gelijkwaardige wijze als de jaarrekeningen en jaarverslagen die zijn opgesteld in overeenstemming met deze richtlijn.[^48]"
+    },
+    {
+      "chunk_id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_consolidatie-moedervennootschap",
+      "chunk_sha": "1091316dd050c1fe",
+      "bron": "2022/03",
+      "bron_rol": "advies",
+      "sectie": "Consolidatie moedervennootschap",
+      "score": 0.6564,
+      "text": "[CBN-advies 2022/03 — CBN-advies 2022/03 - Beoordeling van de groottecriteria overeenkomstig…]\n\nConsolidatie moedervennootschap\n\nDeze eerste methode houdt in dat voor een moedervennootschap de groottecriteria worden beoordeeld op basis van de cijfers van de volledige groep waartoe deze moedervennootschap behoort. In principe vindt de berekening van de geconsolideerde omzet en het geconsolideerd balanstotaal plaats door toepassing van de consolidatiebepalingen van het KB WVV, hetgeen onder meer betekent dat voor dochterondernemingen die het voorwerp uitmaken van een exclusieve controle, de in artikelen 3:127, 3:134 en 3:136 KB WVV vermelde weglatingen en verrekeningen worden toegepast overeenkomstig de integrale consolidatiemethode. Voor gemeenschappelijke dochtervennootschappen of andere vennootschappen waarin een deelneming wordt aangehouden, worden de bepalingen inzake proportionele integratie of vermogensmutatie toegepast.\n\nDe beoordeling op basis van de cijfers van de volledige groep geldt niet alleen voor de uiteindelijke moedervennootschap maar ook voor alle andere vennootschappen die behoren tot de groep en die zelf ook een moedervennootschap zijn.\n\nOm het personeelsbestand te berekenen, wordt het gemiddeld aantal werknemers per vennootschap van alle verbonden vennootschappen berekend volgens de onder *titel III. Personeelsbestand* van onderhavig advies opgenomen methode."
+    },
+    {
+      "chunk_id": "WIB92__art_321/1__sub_1deg",
+      "chunk_sha": "8511a872807d9bc8",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 321/1 — 1°",
+      "score": 0.6561,
+      "text": "[WIB92 → VESTIGING EN INNING VAN DE BELASTINGEN → HOOFDSTUK III → Plichten van de belastingplichtige → Art. 321/1 → 1°]\n\nArt. 321/1 — 1°\n\n1° de uitdrukking \"groep\" : een verzameling ondernemingen die door eigenaarschap of controle op zulkdanige manier verbonden zijn dat ze ofwel op grond van de geldende boekhoudkundige regels een geconsolideerde jaarrekening moet opmaken voor de financiële verslaggeving, ofwel dit zou moeten doen indien aandelenbelangen in een van de ondernemingen zouden verhandeld worden op een gereglementeerde markt;"
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_gevolgen-van-de-vermogensmutatiemethode-op-de-geconsolideerd_3",
+      "chunk_sha": "27c94ac5ac638228",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2",
+      "score": 0.656,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nGevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\n| \n\n| \n\nGeconsolideerd resultaat \n\n | \n\n1.000[^67] \n\n |"
+    },
+    {
+      "chunk_id": "CBN-2011-05-consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn__sec_consolidatieplicht-en-bepaling-van-de-consolidatiekring",
+      "chunk_sha": "d7a6fe50a686eca8",
+      "bron": "2011/5",
+      "bron_rol": "advies",
+      "sectie": "Consolidatieplicht en bepaling van de consolidatiekring",
+      "score": 0.6547,
+      "text": "[CBN-advies 2011/5 — CBN-advies 2011/5 - Consolidatiekring: interpretatie van de uitsluitingsgrond…]\n\nConsolidatieplicht en bepaling van de consolidatiekring\n\nArtikel 110 van het Wetboek van Vennootschappen schrijft voor dat elke moedervennootschap een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening moet opstellen indien zij, alleen of gezamenlijk, één of meer dochterondernemingen controleert. \n\nAls criterium wordt het controlebegrip uit het Wetboek van Vennootschappen gehanteerd.[^1]\n Artikel 5 van het Wetboek van Vennootschappen bepaalt dat een vennootschap een andere vennootschap controleert wanneer zij een beslissende invloed kan uitoefenen op de aanstelling van de meerderheid van de bestuurders of zaakvoerders van laatstgenoemde onderneming of op de oriëntatie van haar beleid. Deze controle kan zowel in rechte als in feite bestaan en kan exclusief of samen met een of meerdere niet verbonden ondernemingen worden uitgeoefend. \n\nArtikel 107, 4° KB W.Venn. laat evenwel toe dat een dochteronderneming buiten de consolidatie wordt gelaten indien haar aandelen uitsluitend met het oog op latere vervreemding worden gehouden. Specifiek met betrekking tot deze uitzondering, bepaalt het Verslag aan de Koning bij het koninklijk besluit van 6 maart 1990 op de geconsolideerde jaarrekening van de ondernemingen[^2] uitdrukkelijk dat zij slechts strikt kan geïnterpreteerd worden. De uitzonderingsgevallen mogen namelijk niet worden ingeroepen om het beeld van het groepsgeheel te beïnvloeden dat de geconsolideerde jaarrekening oplevert."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_82",
+      "chunk_sha": "ffba4a327f110588",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:104",
+      "score": 0.6543,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Algemene beginselen]\n\nArt. 3:104\n\n§ 1. De geconsolideerde jaarrekening wordt opgesteld overeenkomstig de bepalingen van deze titel.  § 2. Het bestuursorgaan van elke consoliderende vennootschap kan echter de beslissing nemen om de geconsolideerde jaarrekening op te stellen met toepassing van het geheel van de internationale boekhoudnormen bepaald door de International Accounting Standards Board en die, op de datum van de afsluiting van de balans werden aangenomen door de Europese Commissie met toepassing van het artikel 3 van de Verordening 1606/2002/EG van 19 juli 2002 betreffende de toepassing van internationale standaarden voor de jaarrekeningen.  Dergelijke beslissing is onherroepbaar.  Wanneer er van deze mogelijkheid wordt gebruik gemaakt vermeldt de toelichting bij de geconsolideerde jaarrekening dat de onderneming daartoe over de nodige administratieve en organisatorische middelen beschikt, alsmede een beschrijving van deze middelen, en dat zij het geheel van de normen vastgesteld door de International Accounting Standards Board toepast die, op de datum van de afsluiting van de balans, werden aangenomen door de Europese Commissie met toepassing van artikel 3 van de in lid 1 vermelde verordening.  § 3. De vennootschappen naar Belgisch recht, waarvan de financiële instrumenten op de datum van de afsluiting van de balans worden toegelaten tot de handel op een gereglementeerde markt, als bedoeld in artikel 3, 7°, van de wet van 21 november 2017 over de infrastructuren voor de markten voor financiële instrumenten en houdende omzetting van Richtlijn 2014/65/EU, worden gehouden hun geconsolideerde jaarrekening op te stellen met toepassing van het geheel van de internationale boekhoudnormen vastgesteld door de International Accounting Standards Board en die, op de dag van de afsluiting van de balans, werden aangenomen door de Europese Commissie met toepassing van artikel 3 van de in § 2, vermelde verordening.  § 4. Wanneer door de toepassing van paragraaf 2 of paragraaf 3 de geconsolideerde jaarrekening wordt opgesteld met toepassing van het geheel van de internationale boekhoudnormen bepaald door de International Accounting Standards Board en die op de dag van de afsluiting van de balans, werden aangenomen door de Europese Commissie, omvat de toelichting bij de geconsolideerde jaarrekening naast de vermeldingen voorgeschreven door de aangenomen internationale boekhoudnormen en voor zover deze door de vermelde normen niet wordt vereist, de volgende inlichtingen:  1° voor elke vennootschap opgenomen in of uitgesloten van de consolidatie, alsmede voor de geassocieerde vennootschappen, de naam, de zetel, en, wanneer het gaat om een vennootschap naar Belgisch recht, het ondernemingsnummer dat haar werd toegekend door de Kruispuntbank van de Ondernemingen;  2° het gemiddelde aantal personeelsleden tewerkgesteld door de vennootschappen opgenomen in de consolidatie, uitgesplitst per categorie;  3° het globaal bedrag van de bezoldigingen voor het boekjaar toegekend aan de bestuurders of zaakvoerders van de consoliderende vennootschap om reden van hun functies in deze vennootschap, in haar dochterondernemingen en in haar geassocieerde vennootschappen, inbegrepen het bedrag van de rustpensioenen toegekend om dezelfde reden aan gewezen bestuurders of zaakvoerders;  4° het globaal bedrag van de voorschotten en de kredieten toegekend aan de bestuurders of zaakvoerders van de consoliderende vennootschap door deze vennootschap, door een dochteronderneming of door een geassocieerde vennootschap."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_118",
+      "chunk_sha": "bfcafe29f637fad6",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:148",
+      "score": 0.654,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Vorm en inhoud van de geconsolideerde jaarrekening - Onderafdeling 1. - Algemene beginselen]\n\nArt. 3:148\n\nDe vermogensmutatiemethode hoeft niet te worden toegepast wanneer de toepassing ervan slechts van te verwaarlozen betekenis zou zijn, gelet op het doel van artikel 3:105."
+    },
+    {
+      "chunk_id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_integratiemethoden-op-het-niveau-van-de-resultatenrekening",
+      "chunk_sha": "6e90da2447b0ed8c",
+      "bron": "3/3",
+      "bron_rol": "advies",
+      "sectie": "Integratiemethoden op het niveau van de resultatenrekening",
+      "score": 0.6539,
+      "text": "[CBN-advies 3/3 — ADVIES 3-3 - INZAKE DE BOEKHOUDKUNDIGE VERWERKING VAN VERRICHTINGEN VAN…]\n\nIntegratiemethoden op het niveau van de resultatenrekening\n\nOverzicht van de integratiemethoden \n\nIn de boekhouddoctrine wordt haast nooit een onderscheid gemaakt tussen enerzijds de integratie van de balansrekeningen en anderzijds de integratie van de resultatenrekeningen. Het één staat nochtans los van het andere.\n\nOp het vlak van de verwerking van de kosten- en opbrengstenrekeningen worden in de praktijk drie fundamentele methoden toegepast, met name: \n\n1. De integratie van het resultaat; \n2. De eenvoudige integratie van de kosten en de opbrengsten; \n3. De proportionele integratie van de kosten en de opbrengsten."
+    },
+    {
+      "chunk_id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_belangen-van-derden",
+      "chunk_sha": "1617528c8f1b81db",
+      "bron": "2022/09",
+      "bron_rol": "advies",
+      "sectie": "Belangen van derden",
+      "score": 0.6504,
+      "text": "[CBN-advies 2022/09 — CBN-advies 2022/09 – Consolidatie bij de horizontale groep (consortium)]\n\nBelangen van derden\n\nWanneer er sprake is van een centrale leiding maakt het niet uit hoeveel het deelnemingspercentage van derden in de consoliderende ondernemingen bedraagt. De geconsolideerde jaarrekening van het consortium bestaat uit een optelsom van het geheel van ondernemingen die het consortium vormen. De loutere optelling van de rekeningen van de ondernemingen die het consortium vormen, is net de essentie van een horizontale consolidatie. Ofwel is er eenheid van leiding, ofwel is er geen eenheid van leiding.[^61] \n\nIn een geconsolideerde jaarrekening van een zuiver consortium komen noch belangen van derden, noch consolidatieverschillen voor. De rekening *Belangen van derden* komt niet voor in de geconsolideerde jaarrekening van een consortium, behoudens de belangen van derden die zouden zijn ontstaan op het niveau van de verticale consolidatie door een vennootschap die deel uitmaakt van het consortium (d.i. na stap 2)."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_84",
+      "chunk_sha": "53f2b7a964bef81e",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:108",
+      "score": 0.65,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Algemene beginselen]\n\nArt. 3:108\n\nDe geconsolideerde balans en resultatenrekening moeten voortvloeien uit een samenhangend en controleerbaar boekhoudsysteem, zodanig dat de boekhoudkundige continuïteit van de geconsolideerde jaarrekening van het ene jaar op het andere is verzekerd."
+    },
+    {
+      "chunk_id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_vereenvoudigde-methode-berekening-van-het-balanstotaal-en-de",
+      "chunk_sha": "806207ef02d0de83",
+      "bron": "2022/03",
+      "bron_rol": "advies",
+      "sectie": "Vereenvoudigde methode: berekening van het balanstotaal en de omzet van alle verbonden vennootschappen op geaggregeerde basis (+ 20 %)",
+      "score": 0.6499,
+      "text": "[CBN-advies 2022/03 — CBN-advies 2022/03 - Beoordeling van de groottecriteria overeenkomstig…]\n\nVereenvoudigde methode: berekening van het balanstotaal en de omzet van alle verbonden vennootschappen op geaggregeerde basis (+ 20 %)\n\nEen beoordeling van de grensbedragen van de omzet en het balanstotaal op geconsolideerde basis vergt bijkomende administratieve lasten wanneer een vennootschap op grond van het WVV niet verplicht is om een geconsolideerde jaarrekening op te maken[^19]. Een vennootschap die behoort tot een groep van beperkte omvang[^20] wordt immers vrijgesteld van de verplichting om een geconsolideerde jaarrekening op te stellen.[^21]\n Om te vermijden dat uitsluitend voor de beoordeling van de groottecriteria van een vennootschap een consolidatieoefening moet plaatsvinden, kan een moedervennootschap er volgens een tweede methode voor opteren om voor de beoordeling van de groottecriteria, louter de totalen van de omzet en de balanstotalen van al de verbonden vennootschappen op te tellen. In dit laatste geval worden de grensbedragen betreffende het balanstotaal en de netto-omzet zoals opgenomen in artikel 1:24, § 1 WVV vermeerderd met twintig procent[^22]\n De grensbedragen zijn in dergelijk geval de volgende:\n\n- jaaromzet, exclusief de belasting over de toegevoegde waarde: 10.800.000 euro; \n- balanstotaal: 5.400.000 euro. \n\nDe beoordeling van de cijfers van de volledige groep gebeurt niet alleen voor de moedervennootschap die aan het hoofd van de groep staat, maar ook voor alle andere vennootschappen die behoren tot de groep[^23] en die zelf ook een moedervennootschap zijn. Voor de beoordeling van de groottecriteria volgens de vereenvoudigde methode dient men zich dus te baseren op de geaggregeerde cijfers van de moedervennootschap die aan het hoofd van de groep staat voor alle moedervennootschappen die de groep bevat. Dochtervennootschappen die geen moedervennootschappen zijn kunnen de criteria blijven berekenen op enkelvoudige basis.\n\nWat het criterium personeelsbestand betreft, wordt het gemiddeld aantal werknemers per vennootschap, berekend volgens de methode vermeld onder *titel III. Personeelsbestand* van onderhavig advies, van alle verbonden vennootschappen eenvoudigweg opgeteld.\n\nEen individuele moedervennootschap binnen een groep heeft steeds de vrije keuze om de toetsing van de groottecriteria uit te voeren op basis van de cijfers die werden verkregen door een consolidatie van alle verbonden vennootschappen dan wel volgens de toepassing van de vereenvoudigde methode."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_89",
+      "chunk_sha": "23d9d65618e1b2cb",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:113",
+      "score": 0.6499,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Algemene beginselen]\n\nArt. 3:113\n\nDe consoliderende vennootschap moet haar controlebevoegdheid aanwenden om vanwege de in de consolidatie opgenomen of op te nemen dochterondernemingen te verkrijgen dat zij haar op haar verzoek tijdig de gegevens verstrekken die zij nodig heeft om de verplichtingen na te komen die voor haar uit dit hoofdstuk voortvloeien."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_gevolgen-van-de-vermogensmutatiemethode-op-de-geconsolideerd_8",
+      "chunk_sha": "c750a34f6b4bb414",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2",
+      "score": 0.6487,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nGevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X2\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\nFinanciële kosten - Afschrijving “Consolidatieverschillen”\n\n | \n\n58\n\n | \n\nAandeel in het resultaat van de vennootschap waarop vermogensmutatie is toegepast\n\n | \n\n100\n\n |\n\nVennootschappen A & B maken in boekjaar 20X3 respectievelijk een winst van 600 euro en van 400 euro."
+    },
+    {
+      "chunk_id": "CBN-2014-03-de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde__sec_inleiding",
+      "chunk_sha": "292587e8cd2e59d6",
+      "bron": "2014/3",
+      "bron_rol": "advies",
+      "sectie": "Inleiding",
+      "score": 0.6463,
+      "text": "[CBN-advies 2014/3 — CBN-advies 2014/3 – De boekhoudkundige verwerking van mutaties binnen het eigen…]\n\nInleiding\n\nIn hetgeen volgt wenst de Commissie aan de hand van een praktisch voorbeeld te illustreren hoe wijzigingen binnen het eigen vermogen van een geassocieerde onderneming, andere dan wijzigingen ten gevolge van het resultaat van het boekjaar met uitsluiting van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, dienen te worden verwerkt in de geconsolideerde jaarrekening.\n\nDe Commissie denkt in dit kader concreet aan de uitdrukking van een herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en het boeken van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening. Dit zijn zogenaamde *direct-to-equity* mutaties die een wijziging van het eigen vermogen tot gevolg hebben zonder de tussenkomst van een resultaatverwerking.\n\nIn artikel 3:142, § 1 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) wordt gesteld dat volgens de vermogensmutatiemethode (verder VMM) een deelneming in de geconsolideerde balans opgenomen wordt voor het bedrag dat overeenkomt met het deel van het eigen vermogen van de geassocieerde onderneming dat deze deelneming belichaamt.\n\nArtikel 3:143 KB WVV lijkt te laten uitschijnen dat enkel het resultaat van het boekjaar, met uitsluiting van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, het voorwerp kan uitmaken van een wijziging aan het eigen vermogen van een geassocieerde onderneming. \n\nDaarnaast wenst de Commissie tevens te wijzen op toelichting CONSO 5 van het model van de geconsolideerde jaarrekening, waar de consoliderende moeder een aansluiting dient te verstrekken van de geconsolideerde reserves. De impact van zogenaamde *direct-to-equity* mutaties bij de geassocieerde ondernemingen zal ook hier op een passende wijze moeten toegelicht worden."
+    },
+    {
+      "chunk_id": "CBN-2022-11-vermogensmutatiemethode__sec_gevolgen-van-de-vermogensmutatiemethode-op-de-geconsolideerd_2",
+      "chunk_sha": "042eb7396e9c97a4",
+      "bron": "2022/11",
+      "bron_rol": "advies",
+      "sectie": "Gevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X1",
+      "score": 0.6456,
+      "text": "[CBN-advies 2022/11 — CBN-advies 2022/11 – Vermogensmutatiemethode]\n\nGevolgen van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X1\n\n| \n\nKosten\n\n | \n\nOpbrengsten\n\n |\n| \n\n| \n\n| \n\nAandeel in de winst van de vennootschappen waarop de vermogensmutatiemethode is toegepast\n\n | \n\n200\n\n |\n\nVeronderstel dat vennootschap M in de loop van 20X2 de aandelen die zij bezit in vennootschap F verkoopt voor een bedrag van 5.000 euro. Aangezien de aanschaffingsprijs van de aandelen 4.000 euro bedroeg, realiseert vennootschap M in haar enkelvoudige jaarrekening een meerwaarde van 1.000 euro.\n\nVolgende boekingen worden uitgevoerd in de enkelvoudige jaarrekening van X:\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|----------|--------------|-------|--------|\n| | 550 | Kredietinstellingen: rekening-courant | 5.000 | |\n| aan | 7631 | Meerwaarde op de realisatie van financiële vaste activa | | 1.000 |\n| | 2820 | Deelnemingen in ondernemingen waarmee een deelnemingsverhouding bestaat – Aanschaffingswaarde | 4.000 | |"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_80",
+      "chunk_sha": "df1181d019d8a6be",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:102",
+      "score": 0.6443,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Algemene beginselen]\n\nArt. 3:102\n\nIndien de samenstelling van het geconsolideerde geheel in de loop van het boekjaar een aanmerkelijke wijziging heeft ondergaan, dient de toelichting inlichtingen te bevatten die een zinvolle vergelijking van de achtereenvolgende geconsolideerde jaarrekeningen mogelijk maken."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_102",
+      "chunk_sha": "451d8402955cdabc",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:130",
+      "score": 0.6436,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Consolidatiemethoden - Onderafdeling 2. - Integrale consolidatie]\n\nArt. 3:130\n\nHet verschil uit deze compensatie overeenkomstig artikel 3:127, a), wordt zoveel mogelijk toegerekend aan de actief- en passiefbestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde in de boekhouding van de dochteronderneming.  Het verschil dat overblijft na toepassing van het eerste lid, wordt in de post \"Consolidatieverschillen\" van de geconsolideerde balans opgenomen, aan actiefzijde zo het verschil positief is, aan passiefzijde zo het verschil negatief is.  De in het tweede lid bedoelde positieve en negatieve consolidatieverschillen mogen niet met elkaar gecompenseerd worden, tenzij zij betrekking hebben op eenzelfde dochteronderneming; in dit laatste geval is compensatie verplicht.  Indien met toepassing van het eerste lid, actief- en passiefbestanddelen van de dochterondernemingen worden herberekend, dan wordt het aandeel van derden in deze herberekeningen geboekt in de post \"Belangen van derden\" aan passiefzijde van de geconsolideerde balans."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_93",
+      "chunk_sha": "03bbade49bc06e3b",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:118",
+      "score": 0.6434,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Algemene beginselen]\n\nArt. 3:118\n\nWanneer in de jaarrekening van de consoliderende vennootschap of van een in de consolidatie opgenomen dochteronderneming, overeenkomstig de geldende fiscale voorschriften op de actiefbestanddelen grotere afschrijvingen of waardeverminderingen zijn toegepast dan economisch verantwoord, of wanneer in de jaarrekening van de consoliderende vennootschap of van een in de consolidatie opgenomen dochteronderneming, overeenkomstig de geldende fiscale voorschriften passiva werden geboekt, gevormd of gewaardeerd voor een groter bedrag dan economisch verantwoord, kunnen deze bestanddelen pas in de geconsolideerde jaarrekening worden opgenomen nadat deze distorsies ongedaan zijn gemaakt, tenzij indien het belang van betrokken bedragen verwaarloosbaar is, gelet op het doel van artikel 3:105."
+    }
+  ]
+}
