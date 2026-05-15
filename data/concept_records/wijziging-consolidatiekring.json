@@ -1,0 +1,158 @@
+{
+  "id": "wijziging-consolidatiekring",
+  "naam": "Wijziging van de consolidatiekring",
+  "node_type": "fenomeen",
+  "schema_version": "1.2",
+  "status": "seed",
+  "linked_anchors": ["1.4.I.G", "1.4.II.D", "1.4.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.4.I.G",
+    "dekt_ook_anchors": ["1.4.II.D", "1.4.taak.1"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Elke aanpassing aan de samenstelling van de consolidatiekring tussen twee opeenvolgende boekjaren: opname van een nieuw verworven dochter (eerste consolidatie), wegname van een vervreemde of geliquideerde dochter (de- of buitenkringstelling), verschuiving van kwalificatie (van geassocieerde naar dochter via step acquisition, of omgekeerd), wijziging van de mate van controle (van gezamenlijk naar exclusief of omgekeerd), en kringintegratie van voorheen uitgesloten dochters. Wijzigingen vereisen specifieke boekhoudkundige verwerkingen: berekening van een (al dan niet nieuw) consolidatieverschil, herbeoordeling van waarderingsregels, en aanpassing van de vergelijkende informatie in de toelichting.",
+    "confidence": "inferred-from-aggregation",
+    "source": { "type": "kb", "short": "KB WVV art. 3:129, 3:132, 3:152" },
+    "references": [
+      { "type": "kb", "short": "KB WVV art. 3:129 (datum bepaling EV bij eerste opname)" },
+      { "type": "kb", "short": "KB WVV art. 3:132 (gedeeltelijke realisatie aandelen)" },
+      { "type": "kb", "short": "KB WVV art. 3:152 (vergelijkbaarheid bedragen vorig boekjaar)" },
+      { "type": "advies", "short": "CBN 2013/3 — Step acquisitions (update)" },
+      { "type": "advies", "short": "CBN 2017/15 — Common control transactions" }
+    ],
+    "_provenance": {
+      "inputs": [
+        { "id": "KB-WVV-2019__art_3_101", "sha256": null, "version": "rag-v1" },
+        { "id": "KB-WVV-2019__art_3_104", "sha256": null, "version": "rag-v1" },
+        { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1" }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "naam": "Eerste consolidatie van een nieuw verworven dochter",
+      "text": "Vaststelling van het eigen vermogen van de dochter op verwervingsdatum (of nabijzijnde datum, KB WVV art. 3:129); berekening en boeking van het consolidatieverschil; overname van activa/passiva voor 100 % bij integrale consolidatie of pro-rata bij evenredige consolidatie.",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:127 — 3:130" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_101", "sha256": null, "version": "rag-v1" },
+          { "id": "KB-WVV-2019__art_3_102", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "naam": "Step acquisition — opwaartse wijziging",
+      "text": "Verhoging van een belang in een geassocieerde of dochter, met mogelijke kantelpunten: (a) van 'geen invloed' naar invloed van betekenis (start vermogensmutatie); (b) van invloed van betekenis naar controle (overgang van vermogensmutatie naar integrale consolidatie); (c) verhoging binnen dezelfde kwalificatie (geen wijziging van techniek, wel nieuw consolidatieverschil op het bijkomend belang).",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2013/3" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1" },
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "naam": "Vervreemding of vermindering van het belang",
+      "text": "Bij gehele of gedeeltelijke realisatie van de aandelen van een in de consolidatie opgenomen dochter wordt het overblijvende consolidatieverschil afgeboekt naar verhouding van de gerealiseerde aandelen (KB WVV art. 3:132).",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:132" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_104", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "naam": "Common control transactions",
+      "text": "Bij transacties onder gemeenschappelijke leiding (bv. overdracht van een dochter binnen dezelfde groep) gelden bijzondere regels: omdat de uiteindelijke economische controle ongewijzigd blijft, mag in beginsel geen nieuwe goodwill worden gegenereerd en blijven de historische cijfers behouden (CBN 2017/15).",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2017/15" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update__sec_verband-met-de-berekening-van-de-groottecriteria-bij-transac", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Vergelijkbaarheid van de cijfers",
+      "betekenis": "Wijzigingen van de consolidatiekring beïnvloeden de vergelijkbaarheid van de geconsolideerde cijfers tussen het lopende en het vorige boekjaar. Wanneer de bedragen van het voorafgaande boekjaar niet vergelijkbaar zijn, moet de toelichting de nodige gegevens bevatten om een betekenisvolle vergelijking mogelijk te maken (KB WVV art. 3:152).",
+      "herkenningspunt": "Examen-toelichtingen vermelden vaak expliciet dat 'de cijfers van het vorige boekjaar zijn aangepast ingevolge de wijziging van de consolidatiekring'.",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:152" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_122", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "aspect": "Datum bepaling EV bij eerste consolidatie",
+      "betekenis": "Vaststelling van de waarde van het EV van de dochter op acquisitiedatum is de regel (KB WVV art. 3:129). Bij een eerste geconsolideerde jaarrekening of bij eerste opname van een vroeger niet-geconsolideerde dochter mag de aanvangsdatum van het boekjaar worden gebruikt.",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:129" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_101", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "consolidatiekring",
+      "verschil": "De consolidatiekring is de momentopname; de wijziging is het dynamische fenomeen (gebeurtenissen die de kring veranderen). Beide horen bij elkaar zoals 'stand' en 'beweging'.",
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_75", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "eerste-consolidatie",
+      "verschil": "Eerste consolidatie is een specifiek type wijziging van de consolidatiekring (toetreding van een nieuwe entiteit). Wijziging is breder en omvat ook vertrek (vervreemding), verschuiving van techniek (van vermogensmutatie naar integraal) en herklassificering.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "consolidatieverschil",
+      "verschil": "Het consolidatieverschil is een gevolg van een wijziging in de consolidatiekring (in het bijzonder van een eerste consolidatie of step-acquisition); de wijziging zelf is een breder fenomeen.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Een wijziging van de consolidatiekring vereist een retro-actieve aanpassing van de vergelijkende cijfers of een toelichting bij niet-vergelijkbaarheid (KB WVV art. 3:152). Een opgave kan dit toetsen door te vragen hoe de cijfers van het vorige boekjaar moeten worden aangepast na een acquisitie of een vervreemding.",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:152" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_122", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "text": "Bij een common control-transactie (bv. herstructurering binnen het concern) wordt geen nieuw consolidatieverschil gegenereerd — de eerder bestaande historische cijfers worden voortgezet (CBN 2017/15). Dit is een belangrijke uitzondering op de regel van een nieuw consolidatieverschil bij eerste consolidatie.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2017/15" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update__sec_verband-met-de-berekening-van-de-groottecriteria-bij-transac", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ]
+}

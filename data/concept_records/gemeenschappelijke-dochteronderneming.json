@@ -1,0 +1,133 @@
+{
+  "id": "gemeenschappelijke-dochteronderneming",
+  "naam": "Gemeenschappelijke dochteronderneming",
+  "node_type": "actor",
+  "schema_version": "1.2",
+  "status": "seed",
+  "linked_anchors": ["1.4.I.C", "1.4.I.D", "1.4.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.4.I.D",
+    "dekt_ook_anchors": ["1.4.I.C", "1.4.taak.1"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "De vennootschap of onderneming ten opzichte waarvan een gezamenlijke controle bestaat: een beperkt aantal vennoten oefenen samen controle uit op grond van een overeenkomst dat beslissingen omtrent de oriëntatie van het beleid alleen met hun gemeenschappelijke instemming kunnen worden genomen. In de geconsolideerde jaarrekening wordt een gemeenschappelijke dochter in beginsel evenredig (proportioneel) geconsolideerd. Bij gemeenschappelijke dochters waarvan het bedrijf niet nauw geïntegreerd is in dat van de moeder, kan in plaats daarvan de vermogensmutatiemethode worden toegepast.",
+    "confidence": "grounded",
+    "source": { "type": "advies", "short": "CBN 2017/02 — Gezamenlijke controle" },
+    "references": [
+      { "type": "wet", "short": "WVV art. 1:14 (controle); art. 1:19 (gemeenschappelijke dochter)" },
+      { "type": "kb", "short": "KB WVV art. 3:124, 2° (evenredige consolidatie)" },
+      { "type": "kb", "short": "KB WVV art. 3:140 (toepassing)" },
+      { "type": "advies", "short": "CBN 2013/3 — Step acquisitions" }
+    ],
+    "_provenance": {
+      "inputs": [
+        { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" },
+        { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+      ]
+    }
+  },
+  "voorwaarden": [
+    {
+      "text": "Beperkt aantal vennoten (typisch 2 of 3) die samen het beleid bepalen.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2017/02" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "text": "Overeenkomst (vaak een aandeelhoudersovereenkomst) dat beleidsbeslissingen alleen met gemeenschappelijke instemming kunnen worden genomen. Zonder overeenkomst: geen gezamenlijke controle → geen gemeenschappelijke dochter.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2017/02 — geval 2" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Onweerlegbaar vermoeden",
+      "betekenis": "In geval van een gemeenschappelijke dochter geldt het wettelijk en onweerlegbaar vermoeden dat élk van de vennoten die de gezamenlijke controle uitoefent, individueel controle heeft over de gemeenschappelijke dochter. Beide vennoten en de gemeenschappelijke dochter zijn aldus 'verbonden vennootschappen' — maar de vennoten zijn daardoor niet onderling verbonden.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2017/02" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "aspect": "Consolidatietechniek",
+      "betekenis": "Standaard: evenredige consolidatie — activa, passiva, opbrengsten en kosten van de gemeenschappelijke dochter worden naar rato van de kapitaaldeelname opgenomen (KB WVV art. 3:140). Uitzondering: vermogensmutatie wanneer het bedrijf van de gemeenschappelijke dochter niet nauw geïntegreerd is in dat van de gezamenlijk controlerende vennootschap.",
+      "herkenningspunt": "Twee aandeelhouders elk 50 % met stemovereenkomst → gemeenschappelijke dochter → typisch evenredige consolidatie 50/50.",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:140" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_111", "sha256": null, "version": "rag-v1" },
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "voorbeeld_inline": {
+    "text": "Vennootschap A bezit 50 % van vennootschap X, vennootschap B bezit 50 % van X. In geval 1 hebben A en B een aandeelhoudersovereenkomst waarbij de controlebevoegdheid over X gezamenlijk wordt georganiseerd: X is een gemeenschappelijke dochter van A en B. Bijgevolg verricht A in haar geconsolideerde jaarrekening een evenredige consolidatie van X voor 50 %; idem voor B (50 %). In geval 2 (geen overeenkomst) is X géén dochter van A of B; X kan dan onder voorwaarden als geassocieerde onderneming worden behandeld (vermogensmutatie).",
+    "confidence": "grounded",
+    "source": { "type": "advies", "short": "CBN 2017/02 — voorbeeld 2, gevallen 1 en 2" },
+    "_provenance": {
+      "inputs": [
+        { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_voorbeeld-2", "sha256": null, "version": "rag-v1" },
+        { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2", "sha256": null, "version": "rag-v1" }
+      ]
+    }
+  },
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "dochteronderneming",
+      "verschil": "Een gewone dochter staat onder exclusieve controle van één moeder en wordt integraal geconsolideerd. Een gemeenschappelijke dochter staat onder gezamenlijke controle van meerdere vennoten en wordt evenredig (of via vermogensmutatie) geconsolideerd.",
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_98", "sha256": null, "version": "rag-v1" },
+          { "id": "KB-WVV-2019__art_3_111", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "geassocieerde-onderneming",
+      "verschil": "Gemeenschappelijke dochter = gezamenlijke controle (overeenkomst voor veto over beleid). Geassocieerde onderneming = enkel invloed van betekenis, geen vetorecht. Eerste → evenredige consolidatie; tweede → vermogensmutatie.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "consortium",
+      "verschil": "Een gemeenschappelijke dochter is één entiteit die door meerdere vennoten samen wordt gecontroleerd (verticale relatie naar de dochter). Een consortium daarentegen is een horizontale groep waarin vennootschappen onder centrale leiding staan zonder onderlinge moeder-dochter-band.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Bij een participatie van 50/50 zonder stemovereenkomst is er géén gemeenschappelijke dochter. Verkeerde reflex: 'fifty-fifty = automatisch joint venture'. Zonder overeenkomst over gezamenlijke besluitvorming is er noch gezamenlijke controle, noch exclusieve controle.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2017/02 — geval 2" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "belangenpercentage",
+  "naam": "Belangenpercentage",
+  "node_type": "begrip",
+  "schema_version": "1.2",
+  "status": "seed",
+  "linked_anchors": ["1.4.I.C", "1.4.I.D", "1.4.I.E", "1.4.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.4.I.C",
+    "dekt_ook_anchors": ["1.4.I.D", "1.4.I.E", "1.4.taak.1"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Het economische eigendomsaandeel dat een moedervennootschap (direct en indirect, naar rato vermenigvuldigd langs elke ketenschakel) in een dochter- of geassocieerde onderneming aanhoudt. Het belangenpercentage bepaalt het deel van het eigen vermogen en het resultaat van die andere onderneming dat aan de moeder kan worden toegerekend; het complement (1 − belangenpercentage) is het aandeel van derden in een integrale consolidatie.",
+    "confidence": "inferred-from-aggregation",
+    "source": { "type": "kb", "short": "KB WVV art. 3:137 (toepassing aandeel van derden)" },
+    "references": [
+      { "type": "kb", "short": "KB WVV art. 3:137" },
+      { "type": "kb", "short": "KB WVV art. 3:142" },
+      { "type": "advies", "short": "CBN 2022/11 — Vermogensmutatiemethode" }
+    ],
+    "_provenance": {
+      "inputs": [
+        { "id": "KB-WVV-2019__art_3_108", "sha256": null, "version": "rag-v1" },
+        { "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie", "sha256": null, "version": "rag-v1" }
+      ]
+    }
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Berekening in ketenstructuur",
+      "betekenis": "Belangenpercentages vermenigvuldigen zich langs een keten. In M → 80 % A → 60 % B bedraagt het belang van M in B = 0,80 × 0,60 = 48 %.",
+      "herkenningspunt": "Bij examen-tabellen 'M x % van A, A y % van B': het belangenpercentage van M in B = x % × y %.",
+      "confidence": "inferred-from-aggregation",
+      "source": { "type": "advies", "short": "Synthese CBN-praktijk" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "aspect": "Bepaling aandeel van derden bij integrale consolidatie",
+      "betekenis": "Bij integrale consolidatie wordt 100 % van de activa en passiva van de dochter opgenomen. Het deel dat niet aan de moeder toebehoort (1 − belangenpercentage) wordt afgezonderd als 'belangen van derden' (balans) en 'aandeel van derden in het resultaat' (resultatenrekening).",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:137" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_108", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "berekeningsmethode": [
+    {
+      "naam": "Belangenpercentage in een verticale keten",
+      "formule": "belang% (M in B) = belang% (M in A) × belang% (A in B) × … (vermenigvuldiging over alle schakels)",
+      "ratio": "Een eigendomsbelang vloeit niet onverdund door schakels; elk niveau verdeelt een evenredig stuk eigendom over derden. Anders dan voor controle wordt het belangenpercentage dus wél vermenigvuldigd.",
+      "stappen": [
+        { "volgorde": 1, "text": "Identificeer alle vennootschappen in de keten tussen M en de uiteindelijke dochter." },
+        { "volgorde": 2, "text": "Bepaal voor elke schakel het directe belangenpercentage in de volgende vennootschap." },
+        { "volgorde": 3, "text": "Vermenigvuldig de percentages om het effectieve belangenpercentage van M in de onderste dochter te bekomen." }
+      ],
+      "concreet_voorbeeld": {
+        "scenario": "M bezit 80 % van A; A bezit 60 % van B (beide via kapitaal en stemrechten, geen preferente regelingen).",
+        "berekening": "belang% (M in B) = 0,80 × 0,60 = 0,48 = 48 %",
+        "resultaat": "M heeft een economisch belang van 48 % in B. Het aandeel van derden in B = 100 % − 48 % = 52 %. Indien B een resultaat van 100 heeft, bedraagt het aandeel van derden in het resultaat 52."
+      },
+      "source": { "type": "kb", "short": "KB WVV art. 3:137 (logica)" },
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_108", "sha256": null, "version": "rag-v1" },
+          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "controlepercentage",
+      "verschil": "Belang = kapitaal/winstrecht, wordt vermenigvuldigd over schakels. Controle = stemrechten/zeggenschap, wordt niet vermenigvuldigd zolang elke schakel exclusief gecontroleerd wordt.",
+      "trigger": "Examen: vraag eerst 'wat moet ik berekenen?' — winstaandeel/derden → belang; consolidatieverplichting/methode → controle.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "minderheidsbelangen",
+      "verschil": "Minderheidsbelangen (synoniem: 'belangen van derden') zijn het complement van het belangenpercentage van de moeder: 1 − belang% van M in dochter D. Belangenpercentage zelf is dus het deel van M; minderheidsbelang is het deel buiten de groep.",
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_108", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Belangenpercentage en controlepercentage worden vaak verward. Een opgave die zegt 'M bezit 60 %' kan twee dingen betekenen — 60 % van de stemrechten (controle) of 60 % van het kapitaal (belang); bij gewone aandelen vallen die samen, bij preferente niet.",
+      "confidence": "inferred",
+      "source": { "type": "advies", "short": "Synthese examenpraktijk" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ]
+}

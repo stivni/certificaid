@@ -1,0 +1,166 @@
+{
+  "id": "consolidatieverplichting",
+  "naam": "Consolidatieverplichting",
+  "node_type": "regel",
+  "schema_version": "1.2",
+  "status": "seed",
+  "linked_anchors": ["1.4.I.C", "1.4.I.B", "1.4.I.F", "1.4.II.B", "1.4.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.4.I.C",
+    "dekt_ook_anchors": ["1.4.I.B", "1.4.I.F", "1.4.II.B", "1.4.taak.1"],
+    "reviewed_by": null
+  },
+  "main_rule": {
+    "text": "Elke moedervennootschap die, alleen of gezamenlijk, één of meer dochterondernemingen controleert, is in beginsel verplicht een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen, te laten controleren en bekend te maken. Bij een consortium (horizontale groep) rust de consolidatieverplichting gezamenlijk bij de vennootschappen die het consortium vormen. De consolidatieplicht geldt enkel voor vennootschappen met rechtspersoonlijkheid; natuurlijke personen, maatschappen zonder rechtspersoonlijkheid en private stichtingen zijn niet consolidatieplichtig.",
+    "confidence": "grounded",
+    "source": { "type": "wet", "short": "WVV art. 3:22 jo. art. 3:24 (consortium)" },
+    "references": [
+      { "type": "wet", "short": "WVV art. 3:22 — 3:24" },
+      { "type": "advies", "short": "CBN 2022/09 — Consortium" },
+      { "type": "advies", "short": "CBN 2022/11 — Vermogensmutatiemethode (toepassingsgebied)" },
+      { "type": "advies", "short": "CBN 2011/5 — Consolidatiekring" },
+      { "type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 21" }
+    ],
+    "_provenance": {
+      "inputs": [
+        { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" },
+        { "id": "CBN-2011-05-consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn__sec_consolidatieplicht-en-bepaling-van-de-consolidatiekring", "sha256": null, "version": "rag-v1" },
+        { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatieverplichting-consoliderende-vennootschap", "sha256": null, "version": "rag-v1" }
+      ]
+    }
+  },
+  "uitzonderingen": [
+    {
+      "text": "Vrijstelling wegens groep van beperkte omvang — een moedervennootschap die op geconsolideerde of geaggregeerde basis niet meer dan één van de criteria van WVV art. 1:26, § 1 overschrijdt, is vrijgesteld (groep van beperkte omvang).",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2022/11 — Toepassingsgebied; CBN 2022/03" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" },
+          { "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_consolidatie-moedervennootschap", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "text": "Vrijstelling van subconsolidatie — een (sub)moedervennootschap is vrijgesteld indien zij zelf de dochter is van een moedervennootschap die hogerop al consolideert (geconsolideerde jaarrekening + jaarverslag opmaakt, laat controleren en openbaar maakt). Niet van toepassing wanneer een van de te consolideren vennootschappen (de submoeder of haar dochters) genoteerd is.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2012/12 — Vrijstelling subconsolidatie" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding", "sha256": null, "version": "rag-v1" },
+          { "id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_analyse-van-de-betrokken-artikelen-van-het-w-venn", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "voorwaarden": [
+    {
+      "text": "De entiteit moet rechtspersoonlijkheid hebben en kwalificeren als moedervennootschap (WVV art. 1:15, 1°: vennootschap die controlebevoegdheid uitoefent over een andere vennootschap).",
+      "confidence": "grounded",
+      "source": { "type": "wet", "short": "WVV art. 1:15, 1° jo. art. 3:22" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap__sec_de-kwalificatie-van-de-maatschap-als-moedervennootschap", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "text": "De controle (in rechte of in feite, exclusief of gezamenlijk) moet daadwerkelijk bestaan op balansdatum.",
+      "confidence": "grounded",
+      "source": { "type": "wet", "short": "WVV art. 1:14, § 2" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Vrijwillige consolidatie",
+      "betekenis": "Een vennootschap die niet wettelijk consolidatieplichtig is maar op eigen initiatief of op grond van bijzondere bepalingen een geconsolideerde jaarrekening openbaar maakt of meedeelt, moet die opstellen volgens de bepalingen van KB WVV Hoofdstuk Geconsolideerde jaarrekening (KB WVV art. 3:112).",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:112" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_88", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "aspect": "Beoordeling van de criteria",
+      "betekenis": "De beoordeling van de groottecriteria gebeurt op geconsolideerde of geaggregeerde basis voor de moedervennootschap. KB WVV biedt een vereenvoudigde berekeningsmethode (geaggregeerde basis, drempels vermeerderd met 20 %) om de administratieve lasten te beperken (WVV art. 1:24, § 6).",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2022/03" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_vereenvoudigde-methode-berekening-van-het-balanstotaal-en-de", "sha256": null, "version": "rag-v1" },
+          { "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_berekeningsmethoden", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "groottecriteria",
+      "verschil": "Consolidatieverplichting = de juridische plicht tot opmaak/controle/publicatie. Groottecriteria = de kwantitatieve drempels (omzet, balanstotaal, personeel) waaraan de vrijstelling voor groepen van beperkte omvang gekoppeld is. Eerste is het 'wat'; tweede is een 'wanneer-vrij'.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "vrijstelling-subconsolidatie",
+      "verschil": "Consolidatieverplichting bestaat van rechtswege bij elke moedervennootschap; de vrijstelling van subconsolidatie is een afwijking die intermediate-moeders ontheft van de plicht, op voorwaarde dat de bovenmoeder reeds consolideert (en geen genoteerde vennootschap is gevangen in de keten).",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "consolidatiekring",
+      "verschil": "Consolidatieverplichting bepaalt of er geconsolideerd moet worden. Consolidatiekring bepaalt welke entiteiten in de geconsolideerde jaarrekening moeten worden opgenomen.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2011-05-consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn__sec_consolidatieplicht-en-bepaling-van-de-consolidatiekring", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Een natuurlijke persoon of een private stichting die meerderheidsstemrechten in meerdere vennootschappen aanhoudt, kwalificeert zelf niet als moedervennootschap en is niet consolidatieplichtig. In dergelijke configuratie ontstaat doorgaans een consortium en rust de consolidatieplicht op de leden samen.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2022/09 — voorbeeld 7" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "text": "Een maatschap zonder rechtspersoonlijkheid kan geen moedervennootschap zijn. Indien de structuur niet kwalificeert als consortium, vervalt de vrijstelling van subconsolidatie voor de onderliggende vennootschappen en moeten zij zelf consolideren.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2015/10" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap__sec_gevolgen-voor-consolidatieplicht", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "text": "Beoordeling van de groottecriteria 'op geconsolideerde basis' betekent niet automatisch dat effectief een geconsolideerde jaarrekening moet worden opgesteld — het is enkel een berekeningswijze om de vrijstellingsdrempels te toetsen.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2017/15" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update__sec_verband-met-de-berekening-van-de-groottecriteria-bij-transac", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ]
+}

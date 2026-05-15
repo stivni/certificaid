@@ -1,0 +1,199 @@
+{
+  "id": "geconsolideerde-jaarrekening",
+  "naam": "Geconsolideerde jaarrekening",
+  "node_type": "begrip",
+  "schema_version": "1.2",
+  "status": "seed",
+  "linked_anchors": ["1.4.I.F", "1.4.I.C", "1.4.II", "1.4.II.A", "1.4.II.C", "1.4.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.4.I.F",
+    "dekt_ook_anchors": ["1.4.I.C", "1.4.II", "1.4.II.A", "1.4.II.C", "1.4.taak.1"],
+    "reviewed_by": null,
+    "enrich_runs": [
+      {
+        "run_id": "enrich-run-20260515T141848Z",
+        "model": "claude-opus-4-7",
+        "gaps_verwerkt": ["drempelwaarden.ontbreekt"],
+        "uitgevoerd_op": "2026-05-15T15:00:00+00:00"
+      }
+    ]
+  },
+  "definitie": {
+    "text": "De jaarrekening die het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel (consoliderende vennootschap + dochterondernemingen in de consolidatiekring) opneemt alsof het om één enkele vennootschap ging. Bestaat uit balans, resultatenrekening en toelichting; deze stukken vormen één geheel. Wordt opgesteld op dezelfde datum als de jaarrekening van de consoliderende vennootschap (KB WVV art. 3:109) en in euro uitgedrukt (KB WVV art. 3:103 jo. WVV art. 3:30, § 2). Geconsolideerde balans en resultatenrekening moeten voortvloeien uit een samenhangend en controleerbaar boekhoudsysteem dat de continuïteit van het ene op het andere jaar verzekert.",
+    "confidence": "grounded",
+    "source": { "type": "kb", "short": "KB WVV art. 3:103 jo. art. 3:107 jo. art. 3:123" },
+    "references": [
+      { "type": "kb", "short": "KB WVV art. 3:103 (samenstelling)" },
+      { "type": "kb", "short": "KB WVV art. 3:104 (toepasselijke standaard — BEGAAP of IFRS)" },
+      { "type": "kb", "short": "KB WVV art. 3:105 (getrouw beeld)" },
+      { "type": "kb", "short": "KB WVV art. 3:107 (vormvereisten + belangen van derden afzonderlijk)" },
+      { "type": "kb", "short": "KB WVV art. 3:108 (boekhoudkundige continuïteit)" },
+      { "type": "kb", "short": "KB WVV art. 3:109 (afsluitingsdatum)" },
+      { "type": "kb", "short": "KB WVV art. 3:123 (één economische entiteit)" },
+      { "type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 21" },
+      { "type": "wet", "short": "WIB92 art. 321/1, 13° (fiscaal-technische definitie)" }
+    ],
+    "_provenance": {
+      "inputs": [
+        { "id": "KB-WVV-2019__art_3_81", "sha256": null, "version": "rag-v1" },
+        { "id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1" },
+        { "id": "KB-WVV-2019__art_3_83", "sha256": null, "version": "rag-v1" },
+        { "id": "KB-WVV-2019__art_3_84", "sha256": null, "version": "rag-v1" },
+        { "id": "KB-WVV-2019__art_3_97", "sha256": null, "version": "rag-v1" },
+        { "id": "WIB92__art_321/1__sub_13deg", "sha256": null, "version": "rag-v1" }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "naam": "Beginsel van één economische entiteit (KB WVV art. 3:123)",
+      "text": "In de geconsolideerde jaarrekening worden het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel opgenomen 'alsof het om één enkele vennootschap ging'. Deze fictie verklaart de eliminatie van intra-groeptransacties en de afzondering van belangen van derden.",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:123" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_97", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "naam": "Vormvereisten (KB WVV art. 3:107)",
+      "text": "De geconsolideerde jaarrekening moet duidelijk worden opgesteld en stelselmatig weergeven, op afsluitingsdatum, de aard en het bedrag van de bezittingen/rechten, schulden/verplichtingen en eigen middelen van het geconsolideerde geheel, alsook voor het boekjaar de aard en het bedrag van de opbrengsten en kosten. Belangen van derden worden afzonderlijk vermeld in balans en resultatenrekening. Compensatie tussen tegoeden en schulden, tussen rechten en verplichtingen, en tussen opbrengsten en kosten is verboden behoudens uitzonderingen in dit hoofdstuk.",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:107" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_83", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "naam": "Keuze tussen Belgisch boekhoudrecht en IFRS (KB WVV art. 3:104)",
+      "text": "Standaard: opstellen overeenkomstig de bepalingen van titel 2 van het KB WVV (Belgisch consolidatierecht). § 2: het bestuursorgaan kan beslissen om de geconsolideerde jaarrekening op te stellen met toepassing van het geheel van de internationale boekhoudnormen (IFRS zoals aangenomen door de EU op grond van Verordening 1606/2002). Deze beslissing is onherroepbaar; de toelichting vermeldt dat de onderneming over de nodige middelen beschikt en dat zij alle door de Europese Commissie aangenomen IFRS toepast.",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:104" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "naam": "Afsluitingsdatum (KB WVV art. 3:109)",
+      "text": "De geconsolideerde jaarrekening wordt op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. Andere datum is mogelijk om rekening te houden met de balansdatum van de meeste of belangrijkste in de consolidatie opgenomen ondernemingen — mits motivering in de toelichting (KB WVV art. 3:111).",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:109 jo. art. 3:111" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_85", "sha256": null, "version": "rag-v1" },
+          { "id": "KB-WVV-2019__art_3_87", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "naam": "Volledigheid (KB WVV art. 3:110)",
+      "text": "Onverminderd specifieke eliminatie-/derden-bepalingen bevat de geconsolideerde jaarrekening alle actief- en passiefbestanddelen en alle rechten en verplichtingen van de consoliderende vennootschap en van de in de consolidatie opgenomen dochters op de afsluitingsdatum, alsmede alle opbrengsten en kosten.",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:110" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_86", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Toewijzing van het resultaat van de moeder",
+      "betekenis": "Behalve wanneer KB WVV art. 3:109, tweede lid wordt toegepast, wordt de geconsolideerde balans opgesteld na toewijzing — d.w.z. na bestemming van het niet-geconsolideerde resultaat van de consoliderende vennootschap (KB WVV art. 3:114).",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:114" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_90", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "aspect": "Wijzigingen in de consolidatiekring (KB WVV art. 3:102 jo. art. 3:152)",
+      "betekenis": "Indien de samenstelling van het geconsolideerde geheel in de loop van het boekjaar een aanmerkelijke wijziging heeft ondergaan, moet de toelichting inlichtingen bevatten die een zinvolle vergelijking met vorige jaren mogelijk maken. Bij elke post wordt het bedrag van het overeenkomstige post van het vorige boekjaar vermeld (KB WVV art. 3:152).",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:102 jo. art. 3:152" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_80", "sha256": null, "version": "rag-v1" },
+          { "id": "KB-WVV-2019__art_3_122", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "geconsolideerd-jaarverslag",
+      "verschil": "De geconsolideerde jaarrekening is een gestandaardiseerd cijfermatig stuk (balans, resultatenrekening, toelichting). Het geconsolideerd jaarverslag is een vrij toelichtend stuk dat de evolutie en de toekomstverwachtingen van de groep beschrijft. Beide moeten samen worden opgesteld, gecontroleerd en bekendgemaakt.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "consolidatieverplichting",
+      "verschil": "Consolidatieverplichting is de juridische plicht; de geconsolideerde jaarrekening is het uitvoerend product van die plicht.",
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "De keuze voor IFRS (KB WVV art. 3:104, § 2) is onherroepbaar — een onderneming die eenmaal voor IFRS-consolidatie heeft gekozen, kan niet meer terugschakelen naar Belgisch boekhoudrecht.",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:104, § 2" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "text": "Een vennootschap die niet wettelijk consolidatieplichtig is maar vrijwillig of op grond van bijzondere bepalingen een geconsolideerde jaarrekening publiceert, moet die opstellen volgens hetzelfde wettelijke kader (KB WVV art. 3:112).",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:112" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_88", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "text": "De fiscale definitie in WIB92 art. 321/1, 13° verwijst naar 'multinationale groepen' (Pillar Two context). Verwar deze fiscaaltechnische definitie niet met het algemeen boekhoudrechtelijk begrip van de geconsolideerde jaarrekening (KB WVV).",
+      "confidence": "grounded",
+      "source": { "type": "wet", "short": "WIB92 art. 321/1, 13°" },
+      "_provenance": {
+        "inputs": [
+          { "id": "WIB92__art_321/1__sub_13deg", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "drempelwaarden": [
+    {
+      "naam": "Maximale afwijking afsluitingsdatum dochter ↔ geconsolideerde jaarrekening",
+      "waarde": "3",
+      "eenheid": "maanden",
+      "gevolg": "KB WVV art. 3:110, tweede lid: indien het uiterst moeilijk is om de actief- en passiefbestanddelen, rechten en verplichtingen, of de opbrengsten en kosten van de consoliderende vennootschap of van een dochteronderneming op te nemen op de afsluitingsdatum van de geconsolideerde jaarrekening (of wanneer die opname de opstelling en openbaarmaking uitermate zou vertragen), mogen die op een ander tijdstip in aanmerking worden genomen — mits tussen beide data of beschouwde periodes 'onder geen enkel beding' meer dan drie maanden ligt. De afwijking geldt zowel vóór als na de afsluitingsdatum (CBN-praktijk bevestigt deze interpretatie). De toepassing moet in de toelichting worden gemotiveerd.",
+      "source": { "type": "kb", "short": "KB WVV art. 3:110, tweede lid" },
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_86", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ]
+}

@@ -237,7 +237,8 @@ Bij **bron-update** (chunk-content-hash verandert) → `mark_stale.py` walkt blo
 | **Anchors** | `data/extractie/<po>/anchors/<po>-anchors.json` | Permanent — gegit | curatie-artefact |
 | **Matches** | `data/extractie/<po>/matches/<po>-matches.json` | Ephemeral — kan in gitignore | reproduceerbaar |
 | **Bundle exports** | `data/extractie/<po>/bundles/<po>-<anchor-id>.json` | Ephemeral — input voor LLM-pass | wegwerpbaar |
-| **Concept-records** | `data/concept_records/<id>.json` | Permanent — duurzame kennislaag | authoritative |
+| **Concept-records** | `data/concept_records/<id>.json` | Permanent — duurzame kennislaag, **gegit** (sinds 2026-05-15, vereist voor `auto_merge.py` git-diff) | authoritative |
+| **Concept-records archief** | `data/concept_records/_archive/<po-versie>/` | Permanent lokaal, **gitignored** (alleen voor lokale traceability bij grote schema-overgangen) | historisch |
 
 De permanente provenance leeft uitsluitend in concept-record `_provenance`-velden. Andere artefacten zijn een tussenstadium.
 

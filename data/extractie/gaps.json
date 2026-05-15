@@ -6,7 +6,9 @@
     "prio": "laag",
     "geconstateerd_door": "mechanisch",
     "geconstateerd_op": "2026-05-15T14:10:18+00:00",
-    "status": "open"
+    "status": "applied",
+    "applied_door": "enrich-run-20260515T141848Z",
+    "applied_op": "2026-05-15T14:42:50.189865+00:00"
   },
   {
     "record_id": "geconsolideerde-jaarrekening",
@@ -15,7 +17,9 @@
     "prio": "hoog",
     "geconstateerd_door": "verify-run-20260515T141017Z",
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
-    "status": "open"
+    "status": "applied",
+    "applied_door": "enrich-run-20260515T141848Z",
+    "applied_op": "2026-05-15T14:42:50.189865+00:00"
   },
   {
     "record_id": "consolidatieverschil",
@@ -24,7 +28,9 @@
     "prio": "hoog",
     "geconstateerd_door": "verify-run-20260515T141017Z",
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
-    "status": "open"
+    "status": "applied",
+    "applied_door": "enrich-run-20260515T141848Z",
+    "applied_op": "2026-05-15T14:42:50.189865+00:00"
   },
   {
     "record_id": "geconsolideerd-jaarverslag",
@@ -33,7 +39,9 @@
     "prio": "midden",
     "geconstateerd_door": "verify-run-20260515T141017Z",
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
-    "status": "open"
+    "status": "applied",
+    "applied_door": "enrich-run-20260515T141848Z",
+    "applied_op": "2026-05-15T14:42:50.189865+00:00"
   },
   {
     "record_id": "exclusieve-controle",
@@ -42,7 +50,9 @@
     "prio": "midden",
     "geconstateerd_door": "verify-run-20260515T141017Z",
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
-    "status": "open"
+    "status": "applied",
+    "applied_door": "enrich-run-20260515T141848Z",
+    "applied_op": "2026-05-15T14:42:50.189865+00:00"
   },
   {
     "record_id": "groep-van-beperkte-omvang",
@@ -51,7 +61,9 @@
     "prio": "midden",
     "geconstateerd_door": "verify-run-20260515T141017Z",
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
-    "status": "open"
+    "status": "applied",
+    "applied_door": "enrich-run-20260515T141848Z",
+    "applied_op": "2026-05-15T14:42:50.189865+00:00"
   },
   {
     "record_id": "consolidatieverschil",
@@ -60,7 +72,9 @@
     "prio": "midden",
     "geconstateerd_door": "verify-run-20260515T141017Z",
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
-    "status": "open"
+    "status": "applied",
+    "applied_door": "enrich-run-20260515T141848Z",
+    "applied_op": "2026-05-15T14:42:50.189865+00:00"
   },
   {
     "record_id": "evenredige-consolidatie",
@@ -69,7 +83,9 @@
     "prio": "midden",
     "geconstateerd_door": "verify-run-20260515T141017Z",
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
-    "status": "open"
+    "status": "applied",
+    "applied_door": "enrich-run-20260515T141848Z",
+    "applied_op": "2026-05-15T14:42:50.189865+00:00"
   },
   {
     "record_id": "vermogensmutatiemethode",
@@ -78,6 +94,30 @@
     "prio": "midden",
     "geconstateerd_door": "verify-run-20260515T141017Z",
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
-    "status": "open"
+    "status": "applied",
+    "applied_door": "enrich-run-20260515T141848Z",
+    "applied_op": "2026-05-15T14:42:50.189865+00:00"
+  },
+  {
+    "record_id": "consolidatieverschil",
+    "aspect": "oorzaken.dedup",
+    "reden": "v3 heeft 5 oorzaken waarvan 2 overlappen (overpaid goodwill ≈ niet-geactiveerde immateriële waarden). Examen vraagt klassiek 4 oorzaken. Consolideer overlappende items, behoud beide perspectieven met corrected_from.",
+    "prio": "hoog",
+    "geconstateerd_door": "v3-vs-v2-rapport-2026-05-15",
+    "geconstateerd_op": "2026-05-15T14:42:33.914454+00:00",
+    "status": "enriched-pending-verify",
+    "applied_door": "enrich-run-20260515T144255Z",
+    "applied_op": "2026-05-15T14:47:19.996756+00:00"
+  },
+  {
+    "record_id": "intragroep-eliminaties",
+    "aspect": "berekeningsmethode.concreet_voorbeeld",
+    "reden": "Stappen aanwezig maar geen gewerkt voorbeeld voor niet-gerealiseerde voorraadwinst. Typische examenvraag (moeder verkoopt 100 aan dochter, marge 30%, nog 40 in voorraad) niet beantwoordbaar zonder cijferuitwerking.",
+    "prio": "hoog",
+    "geconstateerd_door": "v3-vs-v2-rapport-2026-05-15",
+    "geconstateerd_op": "2026-05-15T14:42:33.914454+00:00",
+    "status": "enriched-pending-verify",
+    "applied_door": "enrich-run-20260515T144255Z",
+    "applied_op": "2026-05-15T14:47:19.996756+00:00"
   }
 ]

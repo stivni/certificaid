@@ -1,0 +1,111 @@
+{
+  "id": "moedervennootschap",
+  "naam": "Moedervennootschap",
+  "node_type": "actor",
+  "schema_version": "1.2",
+  "status": "seed",
+  "linked_anchors": ["1.4.I.C", "1.4.I.B", "1.4.I.D", "1.4.I.F", "1.4.II.B", "1.4.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.4.I.C",
+    "dekt_ook_anchors": ["1.4.I.B", "1.4.I.D", "1.4.I.F", "1.4.II.B", "1.4.taak.1"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "De vennootschap die een controlebevoegdheid uitoefent over een andere vennootschap (de dochtervennootschap). De moedervennootschap is in beginsel verplicht om een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen, te laten controleren en bekend te maken indien zij, alleen of gezamenlijk, één of meer dochterondernemingen controleert. De consoliderende vennootschap is de moedervennootschap die in een concreet consolidatie-oefening de jaarrekening opstelt.",
+    "confidence": "grounded",
+    "source": { "type": "wet", "short": "WVV art. 1:15, 1° jo. art. 3:22" },
+    "references": [
+      { "type": "wet", "short": "WVV art. 1:15" },
+      { "type": "wet", "short": "WVV art. 3:22 jo. art. 3:24" },
+      { "type": "kb", "short": "KB WVV art. 3:96 (consolidatiekring)" },
+      { "type": "advies", "short": "CBN 2022/11 — Vermogensmutatiemethode" }
+    ],
+    "_provenance": {
+      "inputs": [
+        { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" },
+        { "id": "CBN-2011-05-consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn__sec_consolidatieplicht-en-bepaling-van-de-consolidatiekring", "sha256": null, "version": "rag-v1" }
+      ]
+    }
+  },
+  "voorwaarden_toepassing": [
+    {
+      "text": "Heeft rechtspersoonlijkheid (de consolidatieplicht uit WVV art. 3:22 ligt onder Titel 1 'Jaarrekeningen van vennootschappen met rechtspersoonlijkheid'). Natuurlijke personen, maatschappen zonder rechtspersoonlijkheid en private stichtingen kunnen géén moedervennootschap zijn.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2015/10 — Vrijstelling subconsolidatie: maatschap; CBN 2022/09 — Consortium" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap__sec_de-kwalificatie-van-de-maatschap-als-moedervennootschap", "sha256": null, "version": "rag-v1" },
+          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "text": "Oefent controle uit (in rechte of in feite, exclusief of gezamenlijk) over minstens één dochteronderneming.",
+      "confidence": "grounded",
+      "source": { "type": "wet", "short": "WVV art. 1:15, 1°" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Onderscheid moedervennootschap versus consoliderende vennootschap",
+      "betekenis": "Elke consoliderende vennootschap is een moedervennootschap, maar niet elke moedervennootschap consolideert effectief (bv. vrijstelling van subconsolidatie indien de eigen moedervennootschap hogerop al consolideert en aan de voorwaarden is voldaan). 'Consoliderende vennootschap' is dus een rol binnen één concrete consolidatie-oefening; 'moedervennootschap' is een juridisch statuut.",
+      "herkenningspunt": "Bij een keten M-A-B: zowel M als A zijn moedervennootschappen (M t.o.v. A en B; A t.o.v. B); enkel M (of A, indien M niet consolideert) is consoliderende vennootschap.",
+      "confidence": "inferred-from-aggregation",
+      "source": { "type": "advies", "short": "CBN 2012/12 — Vrijstelling van subconsolidatie" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "dochteronderneming",
+      "verschil": "Moedervennootschap = de actor die controle uitoefent. Dochteronderneming = de entiteit waarover die controle wordt uitgeoefend. Beide rollen worden gedefinieerd in WVV art. 1:15; één vennootschap kan tegelijk moeder zijn (van haar dochters) en dochter zijn (van haar eigen moeder).",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "consortium",
+      "verschil": "Een moedervennootschap kenmerkt een verticale concernstructuur (controle door één rechtspersoon). Een consortium kenmerkt een horizontale groep (vennootschappen onder centrale leiding zonder dat één rechtspersoon de andere controleert). In een consortium is er geen 'moeder' in vennootschapsrechtelijke zin; de consolidatieplicht rust gezamenlijk op de leden.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Een maatschap zonder rechtspersoonlijkheid kan niet als moedervennootschap kwalificeren — zelfs niet wanneer zij economisch alle deelnemingen aanhoudt. Bijgevolg kan een geconsolideerde jaarrekening op het niveau van de maatschap niet worden opgesteld en vervalt de vrijstelling van subconsolidatie voor de onderliggende vennootschappen.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2015/10" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap__sec_gevolgen-voor-consolidatieplicht", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "text": "Een natuurlijke persoon die meerderheidsstemrechten in twee vennootschappen aanhoudt, vormt geen moedervennootschap — de twee vennootschappen vormen mogelijk een consortium met gezamenlijke consolidatieverplichting, maar de natuurlijke persoon zelf is niet consolidatieplichtig.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2022/09 — voorbeeld 7" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ]
+}

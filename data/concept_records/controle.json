@@ -1,0 +1,154 @@
+{
+  "id": "controle",
+  "naam": "Controle",
+  "node_type": "begrip",
+  "schema_version": "1.2",
+  "status": "seed",
+  "linked_anchors": ["1.4.I.C", "1.4.I.B", "1.4.I.D", "1.4.I.E", "1.4.I.G", "1.4.II.B", "1.4.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.4.I.C",
+    "dekt_ook_anchors": ["1.4.I.B", "1.4.I.D", "1.4.I.E", "1.4.I.G", "1.4.II.B", "1.4.taak.1"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "De bevoegdheid in rechte of in feite om een beslissende invloed uit te oefenen op de aanstelling van de meerderheid van de bestuurders of zaakvoerders van een vennootschap of op de oriëntatie van het beleid ervan. Controle is het sleutelcriterium dat bepaalt of een vennootschap als moedervennootschap geldt en bijgevolg een geconsolideerde jaarrekening moet opstellen.",
+    "confidence": "grounded",
+    "source": { "type": "wet", "short": "WVV art. 1:14, § 2" },
+    "references": [
+      { "type": "wet", "short": "WVV art. 1:14" },
+      { "type": "wet", "short": "WVV art. 1:15" },
+      { "type": "advies", "short": "CBN 2022/11 — Vermogensmutatiemethode" },
+      { "type": "advies", "short": "CBN 2017/02 — Gezamenlijke controle" },
+      { "type": "advies", "short": "CBN 2022/09 — Horizontale groep (consortium)" }
+    ],
+    "_provenance": {
+      "inputs": [
+        { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" },
+        { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" },
+        { "id": "CBN-2011-05-consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn__sec_consolidatieplicht-en-bepaling-van-de-consolidatiekring", "sha256": null, "version": "rag-v1" }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "naam": "Controle in rechte",
+      "text": "Controle die rechtstreeks uit de juridische verhoudingen voortvloeit — onweerlegbaar vermoed op grond van objectieve elementen zoals de meerderheid van de stemrechten, het recht om de meerderheid van de bestuurders te benoemen, statutaire macht of stemovereenkomst.",
+      "confidence": "inferred-from-aggregation",
+      "source": { "type": "wet", "short": "WVV art. 1:14, § 2 jo. art. 1:16" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2", "sha256": null, "version": "rag-v1" },
+          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "naam": "Controle in feite",
+      "text": "Controle die niet uit een onweerlegbaar juridisch vermoeden volgt maar afgeleid wordt uit gedragingen, zoals het feit dat de vennootschap tijdens de twee laatste algemene vergaderingen de meerderheid van de bestuurders heeft kunnen aanstellen met de stemrechten die zij effectief heeft uitgeoefend. KB WVV art. 3:98 voorziet dat een dochteronderneming waarover de consoliderende vennootschap een controle in feite bezit buiten de consolidatie wordt gelaten indien opneming zou indruisen tegen het beginsel van het getrouwe beeld van art. 3:105 KB WVV.",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:98" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_77", "sha256": null, "version": "rag-v1" },
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Hoe lees je 'controle' in een examenopgave",
+      "betekenis": "De controlevraag staat los van het belangenpercentage. Bij een stemrechtenmeerderheid (> 50 %) is er onweerlegbaar exclusieve controle in rechte. Bij ≤ 50 % stemrechten kan er nog steeds controle in feite zijn (bv. via de twee-vergaderingen-test) of gezamenlijke controle (via overeenkomst).",
+      "herkenningspunt": "Een opgave die 'M bezit 40 % van D' meldt zonder over stemovereenkomsten te spreken: meestal geen controle → vermogensmutatie of geen consolidatie, geen integrale consolidatie.",
+      "confidence": "inferred-from-aggregation",
+      "source": { "type": "advies", "short": "CBN 2017/02 — Gezamenlijke controle" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2", "sha256": null, "version": "rag-v1" },
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "aspect": "Gevolg voor consolidatiemethode",
+      "betekenis": "Exclusieve controle → integrale consolidatie. Gezamenlijke controle (gemeenschappelijke dochter) → in regel evenredige consolidatie, of vermogensmutatie indien het bedrijf niet nauw geïntegreerd is. Invloed van betekenis (geassocieerde onderneming, geen controle) → vermogensmutatiemethode.",
+      "herkenningspunt": "De controlevraag bepaalt de keuze tussen drie consolidatietechnieken; niet het loutere percentage.",
+      "confidence": "inferred-from-aggregation",
+      "source": { "type": "kb", "short": "KB WVV art. 3:124" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_98", "sha256": null, "version": "rag-v1" },
+          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" },
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "invloed-van-betekenis",
+      "verschil": "Controle = beslissende invloed (kan beleid eenzijdig of gezamenlijk sturen). Invloed van betekenis = significant maar niet beslissend (deelname aan beleid zonder dominante positie). Beide kunnen bij gelijkaardige percentages voorkomen; het onderscheid hangt af van stemrechtmeerderheden, aandeelhoudersovereenkomsten en bestuursbenoemingen.",
+      "trigger": "Bij percentages 20–50 %: standaard vermogensmutatie (invloed van betekenis). Bij overeenkomst voor gezamenlijke uitoefening van beleid: gezamenlijke controle.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" },
+          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "controlepercentage",
+      "verschil": "Controle is een kwalitatief begrip (al-dan-niet); controlepercentage is een kwantitatieve maat van de stemrechten die de moeder direct of indirect aanhoudt. Een controlepercentage > 50 % wijst doorgaans op exclusieve controle in rechte, maar controle in feite is ook mogelijk bij lagere percentages.",
+      "trigger": "Wanneer een opgave een percentage geeft: vraag steeds of het stemrechten betreft (controle) of kapitaal (belang).",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "exclusieve-controle",
+      "verschil": "Exclusieve controle is een soort controle waarbij één vennootschap alleen de beslissende invloed uitoefent. Controle is het overkoepelend begrip dat zowel exclusieve als gezamenlijke controle omvat.",
+      "trigger": "Bij stemrechten > 50 % zonder aandeelhoudersovereenkomst → exclusieve controle. Bij stemovereenkomst tussen 2 of meer vennoten → gezamenlijke controle.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "gezamenlijke-controle",
+      "verschil": "Gezamenlijke controle is een soort controle uitgeoefend door een beperkt aantal vennoten samen op grond van een overeenkomst dat beleidsbeslissingen alleen met hun gemeenschappelijke instemming worden genomen. Controle daarentegen kan ook alleen worden uitgeoefend (exclusieve controle).",
+      "trigger": "Sleutelvraag: bestaat er een overeenkomst tussen vennoten dat beslissingen alleen samen worden genomen? Zo ja: gezamenlijke controle, anders mogelijke exclusieve controle of geen controle.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Een participatie van precies 50 % zonder stemovereenkomst geeft géén controle aan de aandeelhouder; pas op om die niet automatisch als 'dochter' te etiketteren in een opgave (CBN 2017/02 — geval 2).",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2017/02 — Gezamenlijke controle, geval 2" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "text": "Controle in feite kan bestaan ook bij beperkte participaties. Toets steeds aan de twee-vergaderingen-criterium voordat je 'geen controle' besluit bij <50 %.",
+      "confidence": "inferred-from-aggregation",
+      "source": { "type": "kb", "short": "KB WVV art. 3:98" },
+      "_provenance": {
+        "inputs": [
+          { "id": "KB-WVV-2019__art_3_77", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ]
+}

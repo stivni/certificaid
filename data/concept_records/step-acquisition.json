@@ -1,0 +1,123 @@
+{
+  "id": "step-acquisition",
+  "naam": "Step acquisition (trapsgewijze verwerving)",
+  "node_type": "fenomeen",
+  "schema_version": "1.2",
+  "status": "seed",
+  "linked_anchors": ["1.4.I.G", "1.4.II.D", "1.4.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.4.I.G",
+    "dekt_ook_anchors": ["1.4.II.D", "1.4.taak.1"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt, met als gevolg dat (a) een participatie van invloed van betekenis wordt verworven of (b) een bestaande geassocieerde onderneming wordt opgeschaald — al dan niet naar een dochteronderneming. Bij elke trap moet worden beoordeeld of de kwalificatie (geen invloed → invloed van betekenis → controle) wijzigt; bij een kwalificatieverandering volgt een wijziging van consolidatietechniek (van geen consolidatie naar vermogensmutatie, of van vermogensmutatie naar integrale/evenredige consolidatie).",
+    "confidence": "grounded",
+    "source": { "type": "advies", "short": "CBN 2013/3 — De boekhoudkundige verwerking van step acquisitions (update)" },
+    "references": [
+      { "type": "advies", "short": "CBN 2013/3 — Step acquisitions" },
+      { "type": "wet", "short": "WVV art. 1:14 (controle); art. 1:22 (invloed van betekenis)" },
+      { "type": "kb", "short": "KB WVV art. 3:127 — 3:131 (consolidatieverschil)" }
+    ],
+    "_provenance": {
+      "inputs": [
+        { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1" },
+        { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" },
+        { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1", "sha256": null, "version": "rag-v1" }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "naam": "Variant 1 — geassocieerde blijft geassocieerd",
+      "text": "Verhoging van een belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft. De aanvullende deelneming wordt geboekt als een verhoging van 'Vennootschappen waarop vermogensmutatie is toegepast', met eventueel een bijkomend consolidatieverschil op het bijkomend belang.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2013/3" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "naam": "Variant 2 — geassocieerde wordt dochter",
+      "text": "Verhoging van een belang in een geassocieerde onderneming met overschrijding van de controlegrens — vermogensmutatie wordt verlaten en integrale consolidatie begint. Het bestaande consolidatieverschil wordt geherwaardeerd; de activa en passiva van de nieuwe dochter worden volledig opgenomen op de datum waarop controle wordt verworven.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2013/3" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "naam": "Variant 3 — niet-geassocieerde wordt geassocieerd",
+      "text": "Eerste verwerving van een belang dat invloed van betekenis triggert (typisch ≥ 20 %). Eerste consolidatie volgens vermogensmutatie; berekening van het consolidatieverschil zoals bij eerste consolidatie.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2013/3" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "voorbeeld_inline": {
+    "text": "Onderneming ABC verwerft in 20X1 een belang van 20 % in onderneming DEF voor 200. Netto-activa DEF op acquisitiedatum: 600. Pro-rata aandeel = 20 % × 600 = 120. Positief consolidatieverschil = 200 − 120 = 80. Geboekt: 'Vennootschappen waarop vermogensmutatie is toegepast' = 120; 'Positieve consolidatieverschillen' = 80; tegenpost: vermindering 'Deelnemingen in ondernemingen waarmee een deelnemingsverhouding bestaat' van 200. Het positief consolidatieverschil wordt afgeschreven over bv. 5 jaar (16/jaar). Indien ABC later haar belang verhoogt tot 60 % (controle), kantelt de techniek: de deelneming wordt geherwaardeerd, integrale consolidatie begint en een nieuw consolidatieverschil wordt voor het bijkomende belang berekend op de nieuwe acquisitiedatum.",
+    "confidence": "grounded",
+    "source": { "type": "advies", "short": "CBN 2013/3 — voorbeeld 1" },
+    "_provenance": {
+      "inputs": [
+        { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1", "sha256": null, "version": "rag-v1" }
+      ]
+    }
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Kantelpunt detecteren",
+      "betekenis": "Bij elke verwerving moet eerst worden gecontroleerd of de kwalificatie verandert. Drie kantelpunten: 0% → 20 % (geen → geassocieerd), 20–50 % → > 50 % (geassocieerd → dochter), > 50 % → 100 % (controle behouden maar belang gewijzigd). Bij elk kantelpunt schakelt de consolidatietechniek mogelijk over.",
+      "herkenningspunt": "Examen vraag 'eerst 20 %, later +40 % verwerving': eerst vermogensmutatie, daarna integrale consolidatie — niet één continue rekening.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2013/3" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "wijziging-consolidatiekring",
+      "verschil": "Step acquisition is een type wijziging van de consolidatiekring (graduele opbouw of opschaling van een belang). Wijziging is breder.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "eerste-consolidatie",
+      "verschil": "Eerste consolidatie is een momentopname (de eerste opname van een deelneming in de geconsolideerde jaarrekening). Step acquisition kan meerdere eerste-consolidatie-momenten omvatten (bij overgang van invloed van betekenis naar controle ontstaat in essentie een tweede 'eerste consolidatie' op het bijkomend belang).",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Bij overgang van vermogensmutatie naar integrale consolidatie wordt het reeds bestaande consolidatieverschil niet weggewerkt — wel moet voor het bijkomend belang een nieuw consolidatieverschil worden berekend op basis van de aanschaffingsdatum van die nieuwe tranche.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2013/3" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ]
+}

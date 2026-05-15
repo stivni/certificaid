@@ -1,0 +1,140 @@
+{
+  "id": "groottecriteria-consolidatie",
+  "naam": "Groottecriteria voor de consolidatievrijstelling",
+  "node_type": "drempel",
+  "schema_version": "1.2",
+  "status": "seed",
+  "linked_anchors": ["1.4.I.C", "1.4.I.B", "1.4.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.4.I.C",
+    "dekt_ook_anchors": ["1.4.I.B", "1.4.taak.1"],
+    "reviewed_by": null
+  },
+  "main_rule": {
+    "text": "Een moedervennootschap is vrijgesteld van de verplichting om een geconsolideerde jaarrekening en jaarverslag op te stellen wanneer haar groep niet meer dan één van de groottecriteria van WVV art. 1:26, § 1 overschrijdt op geconsolideerde of (via vereenvoudigde methode) op geaggregeerde basis (drempels dan vermeerderd met 20 %). De drempels betreffen jaaromzet, balanstotaal en jaargemiddelde van het aantal werknemers. De beoordeling op geconsolideerde basis geldt in principe alleen voor moedervennootschappen.",
+    "confidence": "grounded",
+    "source": { "type": "wet", "short": "WVV art. 1:26 jo. art. 1:24" },
+    "references": [
+      { "type": "wet", "short": "WVV art. 1:24 (kleine vennootschap)" },
+      { "type": "wet", "short": "WVV art. 1:26 (groep van beperkte omvang)" },
+      { "type": "advies", "short": "CBN 2022/03 — Beoordeling groottecriteria" },
+      { "type": "advies", "short": "CBN 2024/07 — Gevolgen verhoging groottecriteria" }
+    ],
+    "_provenance": {
+      "inputs": [
+        { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" },
+        { "id": "CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update__sec_verband-met-de-berekening-van-de-groottecriteria-bij-transac", "sha256": null, "version": "rag-v1" },
+        { "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_vereenvoudigde-methode-berekening-van-het-balanstotaal-en-de", "sha256": null, "version": "rag-v1" }
+      ]
+    }
+  },
+  "drempelwaarden": [
+    {
+      "naam": "Kleine vennootschap (WVV art. 1:24) — referentie",
+      "waarde": "jaaromzet ≤ 11.250.000 EUR; balanstotaal ≤ 6.000.000 EUR; jaargemiddelde werknemers ≤ 50",
+      "eenheid": "criteria-set",
+      "gevolg": "Niet meer dan één criterium overschrijden → kleine vennootschap (verkorte schema's mogelijk). Bedragen zoals weergegeven in CBN 2017/15; de drempels worden periodiek geïndexeerd (CBN 2024/07 documenteert een verhoging).",
+      "source": { "type": "wet", "short": "WVV art. 1:24, § 1" },
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update__sec_verband-met-de-berekening-van-de-groottecriteria-bij-transac", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "naam": "Vereenvoudigde berekening op geaggregeerde basis (WVV art. 1:24, § 6)",
+      "waarde": "drempels balanstotaal en omzet vermeerderd met 20 %",
+      "eenheid": "%-toeslag",
+      "gevolg": "Een moedervennootschap die niet wettelijk verplicht is een geconsolideerde jaarrekening op te stellen, mag voor de beoordeling van haar groottecriteria gewoon alle bedragen van haar verbonden vennootschappen optellen (geaggregeerde basis). Om dit te verantwoorden worden de drempels verhoogd met 20 %. Vermijdt een volledige consolidatie-oefening enkel voor de groottetoets.",
+      "source": { "type": "advies", "short": "CBN 2022/03" },
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_vereenvoudigde-methode-berekening-van-het-balanstotaal-en-de", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Twee berekeningsmethoden",
+      "betekenis": "Methode 1 — geconsolideerde basis: pas de KB WVV-consolidatieregels toe (integrale consolidatie voor exclusieve dochters; proportionele integratie of vermogensmutatie voor gemeenschappelijke dochters en deelnemingen). Methode 2 — geaggregeerde basis: tel de bedragen van alle verbonden vennootschappen samen, met de drempels vermeerderd met 20 %.",
+      "herkenningspunt": "De keuze tussen methodes ligt bij de vennootschap. Methode 2 vermijdt een echte consolidatie-oefening alleen om de groottecriteria te toetsen.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2022/03" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_consolidatie-moedervennootschap", "sha256": null, "version": "rag-v1" },
+          { "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_vereenvoudigde-methode-berekening-van-het-balanstotaal-en-de", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "aspect": "Beoordeling op geconsolideerde basis ≠ verplichte consolidatie",
+      "betekenis": "Een moeder die voor haar eigen kwalificatie (klein/groot) op geconsolideerde basis moet beoordelen, hoeft daarom niet effectief een geconsolideerde jaarrekening op te stellen — methode 2 volstaat in dat geval om enkel de drempels te toetsen.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2017/15" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update__sec_verband-met-de-berekening-van-de-groottecriteria-bij-transac", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "aspect": "Personeelsbestand",
+      "betekenis": "Voor het personeelsaantal wordt het jaargemiddelde per vennootschap berekend voor alle verbonden vennootschappen — los van de gekozen methode voor omzet en balanstotaal.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2022/03" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_consolidatie-moedervennootschap", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "consolidatieverplichting",
+      "verschil": "Groottecriteria bepalen wanneer een moeder vrijgesteld is (kwantitatieve drempels). Consolidatieverplichting is de hoofdregel; vrijstelling op grond van groottecriteria is de uitzondering.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "vrijstelling-subconsolidatie",
+      "verschil": "Vrijstelling op grond van groottecriteria geldt voor de hele moeder (en haar groep). Vrijstelling van subconsolidatie geldt voor een tussenliggende submoeder die zelf de dochter is van een hogere moeder die al consolideert.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "De drempels zijn niet vast in de tijd. Periodieke verhogingen (CBN 2024/07 documenteert dergelijke aanpassing) betekenen dat de bedragen die in CBN 2017/15 of 2022/03 worden vermeld, op het moment van het examen mogelijk niet meer actueel zijn. Voor het examen: de cijfers staan in het Cijferzakboekje — focus op begrip van de drie criteria-set en de twee berekeningsmethoden, niet op het uit het hoofd kennen van actuele bedragen.",
+      "confidence": "inferred",
+      "source": { "type": "advies", "short": "CBN 2024/07" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2024-07-gevolgen-verhoging-groottecriteria-voor-vennootschappen__sec_voorbeeld-5-beoordeling-op-geconsolideerde-of-geaggregeerde-_part2", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "text": "Voor een consortium gebeurt de beoordeling op geconsolideerde of geaggregeerde basis van de leden samen. De centrale leider die geen vennootschap is (bv. natuurlijke persoon, private stichting) telt niet mee in de berekening.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2022/09 — Beoordeling groottecriteria" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_beoordeling-groottecriteria-ingeval-van-een-consortium", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ]
+}

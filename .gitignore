@@ -40,9 +40,10 @@ data/etl-staging/
 # QA-rapporten (gegenereerd door tools/etl/qa_bron.py — per-run, niet getracked)
 data/qa/
 
-# Concept-records (gegenereerd door extractor — gitignored want herbouwbaar;
-# geverifieerde records kunnen later tracked worden wanneer status = geverifieerd)
-data/concept_records/
+# Concept-records: levende kennislaag, gegit zodat git-history fungeert als
+# enrichment-versionering + auto_merge.py (ADR-008 §13.4) een referentiepunt heeft.
+# Archief blijft gitignored (alleen lokale traceability).
+data/concept_records/_archive/
 data/cases/
 data/relations.json
 

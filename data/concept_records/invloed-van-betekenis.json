@@ -1,0 +1,127 @@
+{
+  "id": "invloed-van-betekenis",
+  "naam": "Invloed van betekenis",
+  "node_type": "begrip",
+  "schema_version": "1.2",
+  "status": "seed",
+  "linked_anchors": ["1.4.I.C", "1.4.I.E", "1.4.I.G", "1.4.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.4.I.E",
+    "dekt_ook_anchors": ["1.4.I.C", "1.4.I.G", "1.4.taak.1"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "De macht om deel te nemen aan de financiële en operationele beleidsbeslissingen van een andere onderneming, zonder die beleidsbeslissingen alleen of samen met andere vennoten te kunnen sturen. Invloed van betekenis is het kwalificerend criterium voor een 'geassocieerde onderneming' (WVV art. 1:22): de moedervennootschap heeft een participatie en oefent invloed uit op het beleid, maar bezit géén controle. Bij een deelnemingspercentage van minstens 20 % geldt een weerlegbaar vermoeden van invloed van betekenis.",
+    "confidence": "inferred-from-aggregation",
+    "source": { "type": "wet", "short": "WVV art. 1:22 (geassocieerde vennootschap)" },
+    "references": [
+      { "type": "wet", "short": "WVV art. 1:22" },
+      { "type": "kb", "short": "KB WVV art. 3:141 — 3:145 (vermogensmutatie)" },
+      { "type": "advies", "short": "CBN 2022/11 — Vermogensmutatiemethode" },
+      { "type": "advies", "short": "CBN 2013/3 — Step acquisitions (update)" }
+    ],
+    "_provenance": {
+      "inputs": [
+        { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" },
+        { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1" }
+      ]
+    }
+  },
+  "drempelwaarden": [
+    {
+      "naam": "Weerlegbaar vermoeden van invloed van betekenis",
+      "waarde": "≥ 20 %",
+      "eenheid": "deelnemingspercentage in stemrechten",
+      "gevolg": "Weerlegbaar vermoeden van invloed van betekenis → kwalificatie als geassocieerde onderneming → vermogensmutatiemethode in de geconsolideerde jaarrekening.",
+      "source": { "type": "wet", "short": "WVV art. 1:22, § 2" },
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "naam": "Bovengrens (controle)",
+      "waarde": "≤ 50 % stemrechten en geen controle",
+      "eenheid": "stemrechten",
+      "gevolg": "Boven > 50 % of in geval van controle in feite kantelt de kwalificatie van 'invloed van betekenis' naar 'exclusieve controle'; de deelneming wordt dan een dochteronderneming en niet langer een geassocieerde onderneming.",
+      "source": { "type": "wet", "short": "WVV art. 1:14 (controle) jo. art. 1:22" },
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Herkenning in step-acquisitions",
+      "betekenis": "Step acquisitions doen zich voor wanneer een invloed van betekenis in een geassocieerde onderneming wordt verhoogd. Drie kantelpunten: (a) van geen participatie naar invloed van betekenis (vermogensmutatie); (b) van invloed van betekenis naar controle (overgang naar integrale consolidatie); (c) verhoging binnen invloed-van-betekenis (geen kwalificatie-verandering).",
+      "herkenningspunt": "Examenopgave 'ABC verwerft initieel 20 % en later 60 % in DEF': twee opeenvolgende kwalificaties; de tweede stap triggert een overgang naar integrale consolidatie.",
+      "confidence": "grounded",
+      "source": { "type": "advies", "short": "CBN 2013/3 — Step acquisitions" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1" },
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "aspect": "Gevolg voor consolidatiemethode",
+      "betekenis": "Een geassocieerde onderneming (deelneming met invloed van betekenis maar zonder controle) wordt in de geconsolideerde jaarrekening opgenomen via de vermogensmutatiemethode (KB WVV art. 3:142). De deelneming wordt jaarlijks geherwaardeerd naar het pro-rata aandeel in het eigen vermogen van de geassocieerde.",
+      "confidence": "grounded",
+      "source": { "type": "kb", "short": "KB WVV art. 3:142" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "exclusieve-controle",
+      "verschil": "Invloed van betekenis = participeren in beleid zonder dominante positie. Exclusieve controle = beslissende, eenzijdige invloed. Drempel: typisch 20–50 % stemrechten voor invloed, > 50 % voor controle.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "gezamenlijke-controle",
+      "verschil": "Bij gezamenlijke controle is er een vetorecht op beleidsbeslissingen (overeenkomst). Bij invloed van betekenis kan de vennoot meepraten maar niet blokkeren.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "geassocieerde-onderneming",
+      "verschil": "Invloed van betekenis is de relatie (kwalificerend criterium); geassocieerde onderneming is de juridische status van de vennootschap waarop die invloed wordt uitgeoefend. Beide zijn samen onlosmakelijk verbonden: geen invloed van betekenis → geen geassocieerde onderneming.",
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Het vermoeden bij ≥ 20 % is weerlegbaar. Indien de moeder kan aantonen dat zij ondanks haar 20 %+ géén invloed kan uitoefenen (bv. statutaire beperkingen, conflicterende aandeelhouders), kan de kwalificatie als geassocieerde onderneming worden uitgesloten.",
+      "confidence": "inferred",
+      "source": { "type": "wet", "short": "WVV art. 1:22, § 2" },
+      "_provenance": {
+        "inputs": [
+          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1" }
+        ]
+      }
+    }
+  ]
+}
