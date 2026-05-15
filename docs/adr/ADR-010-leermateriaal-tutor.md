@@ -85,6 +85,28 @@ BRON → CONCEPT-records → [deterministisch] → content/concepten/<id>.md
 
 Verwijzingen: ADR-007 §competentie-schema, §leerpad-schema, §rationale-velden; ADR-008 §14–16.
 
+### Records → RAG-index → rendered fiche
+
+De source-of-truth voor zowel **leermateriaal** als **RAG-index** zijn de records in `data/concepten/records/` (concepten, schema 1.3) en `data/concepten/competenties/` (competenties, schema 1.0). Daaruit lopen twee onafhankelijke renderpaden:
+
+```
+data/concepten/records/<id>.json  ──┬─► [render_concept_fiche.py]  ─► content/concepten/<id>.md   (leermateriaal)
+                                    └─► [rag_index.py concepten]    ─► chroma:concepten            (retrieval)
+
+data/concepten/competenties/<id>.yaml ──┬─► [render_competentie_fiche.py] ─► content/competenties/<id>.md
+                                        └─► [rag_index.py concepten]       ─► chroma:concepten
+```
+
+Beide paden zijn deterministisch en starten vanuit hetzelfde record. De RAG-index leest **niet** uit `content/` — anders zou een Quartz- of template-aanpassing zonder kenniswijziging de embeddings veranderen. Zie ADR-006 §5 voor de embed-tekst-compositie en metadata-velden.
+
+Volgorde-discipline bij wijzigingen:
+1. Record wijzigen
+2. Re-render fiche (`tools/leermateriaal/render_*`)
+3. Re-index `concepten`-collectie (`tools/rag/rag_index.py --collection concepten`)
+4. Tutor: cache-TTL volstaat in dev; in productie expliciete rerun
+
+Tutor-interactie: een retrieval-hit uit de `concepten`-collectie kan optioneel de bijbehorende rendered markdown uit `content/concepten/<id>.md` als volle context aan Claude geven — record-projectie voor recall, rendered fiche voor leesbaarheid bij de generatie.
+
 ## Gevolgen
 
 - `tutor/app.py` — Streamlit, leest concept-laag direct

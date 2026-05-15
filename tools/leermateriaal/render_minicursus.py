@@ -127,10 +127,25 @@ def _bouw_cheatsheet_data(records: list[dict]) -> tuple[list, list, list]:
 
 
 def _slugify_programmaonderdeel(programmaonderdeel_id: str, leerpad: dict) -> str:
-    """Genereer een slug voor de output-map."""
+    """Genereer een korte slug voor de output-map.
+
+    Neemt het deel van de titel vóór de eerste " en "-conjunctie of de eerste
+    komma, en kapt tot maximaal 6 woorden om lange dirnamen te vermijden.
+    Bv. "Geconsolideerde jaarrekening en wetgeving betreffende de
+    geconsolideerde jaarrekening" → "geconsolideerde-jaarrekening".
+    """
     from tools.leermateriaal.lib.wikilinks import slugify
     titel = leerpad.get("titel", programmaonderdeel_id)
-    return f"{programmaonderdeel_id}-{slugify(titel)}"
+    kort = titel
+    for splitter in (" en wetgeving", " en ", ", "):
+        if splitter in kort:
+            kort = kort.split(splitter, 1)[0]
+            break
+    # Kap tot max 6 woorden voor sanity
+    woorden = kort.split()
+    if len(woorden) > 6:
+        kort = " ".join(woorden[:6])
+    return f"{programmaonderdeel_id}-{slugify(kort)}"
 
 
 def _programmaonderdeel_intro(programmaonderdeel_id: str) -> str:

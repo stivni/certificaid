@@ -1,0 +1,83 @@
+programmaonderdeel: "1.4"
+titel: "Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening"
+status: voorgesteld
+schema_version: "1.0"
+hoofdstukken:
+  - type: oriëntatie
+    titel: "Wat is consolideren? Waarom een geconsolideerde jaarrekening?"
+    rationale_hint: >-
+      Vertrek vanuit de groep-fictie en de economische realiteit van een
+      moedervennootschap die via dochterondernemingen handelt: de
+      enkelvoudige jaarrekening van de moeder geeft die economische realiteit
+      onvolledig weer, vandaar de geconsolideerde-jaarrekening als
+      voorstelling 'alsof het geheel één vennootschap was'. Verbind dit met
+      het beschermingsdoel voor derden (aandeelhouders, schuldeisers,
+      werknemers) waaruit de consolidatieverplichting voortvloeit. Verwijs
+      naar de begrippen consolidatiekring, moedervennootschap,
+      dochteronderneming en controle als bouwstenen die verderop in het
+      leerpad uitgewerkt worden.
+
+  - type: thematisch
+    titel: "Het fundamentele begrippenkader: controle en de actoren in een groep"
+    concepten:
+      - controle
+      - moedervennootschap
+      - dochteronderneming
+      - exclusieve-controle
+      - gezamenlijke-controle
+      - invloed-van-betekenis
+      - geassocieerde-onderneming
+      - gemeenschappelijke-dochteronderneming
+      - consortium
+
+  - type: competentie
+    competentie_id: bepalen-consolidatieverplichting
+
+  - type: competentie
+    competentie_id: afbakenen-consolidatiekring
+
+  - type: competentie
+    competentie_id: kwalificeren-relatie-deelneming
+
+  - type: competentie
+    competentie_id: berekenen-controle-en-belangenpercentage
+
+  - type: thematisch
+    titel: "De drie consolidatiemethoden: integrale, evenredige en vermogensmutatie"
+    concepten:
+      - integrale-consolidatie
+      - evenredige-consolidatie
+      - vermogensmutatiemethode
+      - horizontale-consolidatie
+
+  - type: competentie
+    competentie_id: kiezen-consolidatiemethode
+
+  - type: competentie
+    competentie_id: toepassen-uniforme-waarderingsregels
+
+  - type: competentie
+    competentie_id: uitvoeren-eerste-consolidatie
+
+  - type: competentie
+    competentie_id: uitvoeren-intragroep-eliminaties
+
+  - type: competentie
+    competentie_id: verwerken-wijziging-consolidatiekring
+
+  - type: thematisch
+    titel: "Publicatie en rapportering: jaarrekening en jaarverslag"
+    concepten:
+      - geconsolideerde-jaarrekening
+      - geconsolideerd-jaarverslag
+
+  - type: thematisch
+    titel: "IFRS-context: het internationale consolidatieraamwerk"
+    concepten:
+      - ifrs-consolidatieraamwerk
+
+_provenance:
+  voorgesteld_door: "leerpad-propose-v1-leerpad-run-20260515T185754Z"
+  voorgesteld_op: "2026-05-15T19:05:00+00:00"
+  gecureerd_door: null
+  gecureerd_op: null
