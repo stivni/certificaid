@@ -1,0 +1,126 @@
+id: kwalificeren-relatie-deelneming
+titel: Kwalificeren van de relatie met een deelneming (controle, gezamenlijke controle of invloed van betekenis)
+status: voorgesteld
+schema_version: '1.0'
+programmaonderdelen:
+- 1.4
+voortkomend_uit:
+  taken:
+  - 1.4.taak.1
+  kenniselementen:
+  - 1.4.I.C
+  - 1.4.I.B
+  - 1.4.I.D
+  - 1.4.I.E
+  - 1.4.II.B
+gebaseerd_op_concepten:
+- controle
+- exclusieve-controle
+- gezamenlijke-controle
+- invloed-van-betekenis
+- dochteronderneming
+- geassocieerde-onderneming
+- gemeenschappelijke-dochteronderneming
+procedure_grondslag:
+  wettelijk_pct: 75
+  praktijk_pct: 25
+  motivering: De drempelvermoedens (> 50 %, 50/50 met overeenkomst, ≥ 20 %) zijn wettelijk vastgelegd in WVV art. 1:14-1:22,
+    maar 'controle in feite' en het weerleggen van het 20 %-vermoeden vergen feitelijke beoordeling.
+stappen:
+- nr: 1
+  titel: Vaststellen van het stemrechtpercentage
+  input: Aandelenstructuur, aandelen met meervoudig stemrecht, eigen aandelen, stemafspraken
+  output: Het direct en indirect aangehouden stemrechtpercentage in de doelvennootschap
+  waarom: Het stemrechtpercentage is het vertrekpunt voor alle wettelijke vermoedens.
+  grondslag:
+    type: concept
+    ref: '[[controlepercentage]]'
+- nr: 2
+  titel: Toetsen of er exclusieve controle bestaat
+  input: Stemrechtpercentage, statutaire of contractuele benoemingsrechten, stemafspraken, historiek van aanstellingen op
+    de twee laatste algemene vergaderingen
+  output: Conclusie of er exclusieve controle in rechte (> 50 % stemrechten, statutaire macht, contractuele macht) of in feite
+    (afgeleid uit het feitelijke aanstellingsgedrag op de twee laatste AV's) bestaat
+  waarom: Bij exclusieve controle is de doelvennootschap een dochteronderneming en wordt zij integraal geconsolideerd.
+  grondslag:
+    type: concept
+    ref: '[[exclusieve-controle]]'
+  valkuilen:
+  - foute_aanname: Met 49 % stemrechten bestaat nooit controle.
+    correctie: Controle in feite kan met minder dan 50 % bestaan wanneer de vennootschap met haar effectieve stemrechten op
+      twee opeenvolgende AV's de meerderheid van bestuurders heeft aangesteld.
+    grondslag: '[[exclusieve-controle]]'
+- nr: 3
+  titel: Toetsen of er gezamenlijke controle bestaat
+  input: Aandeelhoudersovereenkomsten of stemafspraken die bepalen dat beleidsbeslissingen alleen met gemeenschappelijke instemming
+    worden genomen
+  output: Conclusie of er een beperkt aantal vennoten samen controle uitoefent op basis van een overeenkomst — onweerlegbaar
+    vermoeden van controle door die vennoten
+  waarom: Bij gezamenlijke controle is de doelvennootschap een gemeenschappelijke dochteronderneming en wordt zij evenredig
+    geconsolideerd (of via vermogensmutatie indien niet nauw geïntegreerd).
+  grondslag:
+    type: concept
+    ref: '[[gezamenlijke-controle]]'
+  valkuilen:
+  - foute_aanname: Zodra twee partijen elk 50 % bezitten, is er automatisch gezamenlijke controle.
+    correctie: Gezamenlijke controle vereist een overeenkomst dat beleidsbeslissingen alleen met gemeenschappelijke instemming
+      worden genomen; zonder overeenkomst is X géén dochter van A of B.
+    grondslag: '[[gezamenlijke-controle]]'
+- nr: 4
+  titel: Toetsen of er invloed van betekenis bestaat (geen controle)
+  input: Stemrechtpercentage, vertegenwoordiging in het bestuursorgaan, deelname aan beleidsbeslissingen, materiële transacties,
+    technologische uitwisseling
+  output: Conclusie of er invloed van betekenis bestaat — weerlegbaar vermoeden vanaf 20 % stemrechten
+  waarom: Bij invloed van betekenis (zonder controle) is de doelvennootschap een geassocieerde onderneming en wordt zij volgens
+    de vermogensmutatiemethode opgenomen.
+  grondslag:
+    type: concept
+    ref: '[[invloed-van-betekenis]]'
+  valkuilen:
+  - foute_aanname: Bij precies 20 % is er automatisch invloed van betekenis.
+    correctie: Het vermoeden is weerlegbaar; bij gebrek aan vertegenwoordiging, geen deelname aan beleid en geen materiële
+      transacties kan het vermoeden weerlegd worden. Omgekeerd kan invloed bestaan bij minder dan 20 % wanneer de feiten dit
+      aantonen.
+    grondslag: '[[invloed-van-betekenis]]'
+- nr: 5
+  titel: Formuleren van de kwalificatie
+  input: Resultaten van stappen 2-4
+  output: 'Eén van: dochteronderneming (exclusieve controle), gemeenschappelijke dochteronderneming (gezamenlijke controle),
+    geassocieerde onderneming (invloed van betekenis), of gewone deelneming (geen van bovenstaande)'
+  waarom: De kwalificatie is de noodzakelijke input voor de keuze van consolidatiemethode (zie [[competenties/kiezen-consolidatiemethode|kiezen
+    consolidatiemethode]]).
+  grondslag:
+    type: praktijk
+    motivering: Synthese — de uitkomst is een combinatie van de voorgaande wettelijke toetsen.
+beslisboom:
+- vraag: Heeft de vennootschap > 50 % stemrechten of een onweerlegbaar vermoeden van controle in rechte (statutair/contractueel/feitelijk
+    via twee laatste AV's)?
+  ja: Exclusieve controle → dochteronderneming.
+  nee: Ga naar volgende vraag.
+- vraag: Is er een overeenkomst dat beleidsbeslissingen alleen met gemeenschappelijke instemming kunnen worden genomen?
+  ja: Gezamenlijke controle → gemeenschappelijke dochteronderneming.
+  nee: Ga naar volgende vraag.
+- vraag: Bedraagt het stemrechtpercentage ≥ 20 % of zijn er feitelijke aanwijzingen van invloed (bestuursvertegenwoordiging,
+    deelname aan beleid)?
+  ja: Invloed van betekenis → geassocieerde onderneming (mits niet weerlegd).
+  nee: Gewone deelneming — geen consolidatietechniek; opname tegen aanschaffingswaarde.
+voorbeelden:
+- situatie: 'Vennootschap A en vennootschap B bezitten elk 50 % van vennootschap X. Geval 1: zij hebben een aandeelhoudersovereenkomst
+    dat beleidsbeslissingen alleen samen worden genomen. Geval 2: er is geen overeenkomst.'
+  conclusie: 'Geval 1: gezamenlijke controle → X is gemeenschappelijke dochteronderneming van A en B. Geval 2: noch A noch
+    B heeft controle; X kan kwalificeren als geassocieerde onderneming (mits invloed van betekenis).'
+  grondslag: '[[gezamenlijke-controle]] §overeenkomst-vereiste; [[geassocieerde-onderneming]] §20 %-vermoeden'
+  redenering: De overeenkomst is de wettelijke voorwaarde voor gezamenlijke controle. Zonder overeenkomst kan X enkel via
+    vermogensmutatie behandeld worden als de invloed van betekenis bewezen is.
+- situatie: Onderneming ABC verwerft een belang van 20 % in onderneming DEF; DEF heeft ABC in haar bestuursorgaan opgenomen
+    en ABC neemt deel aan strategische beslissingen.
+  conclusie: ABC heeft invloed van betekenis over DEF; DEF is een geassocieerde onderneming en wordt via vermogensmutatie
+    opgenomen.
+  grondslag: '[[invloed-van-betekenis]] §weerlegbaar vermoeden vanaf 20 %; [[geassocieerde-onderneming]] §kwalificatie'
+  redenering: Het 20 %-vermoeden wordt versterkt door de bestuursvertegenwoordiging en deelname aan beleidsbeslissingen —
+    kenmerkende aanwijzingen van invloed van betekenis.
+_provenance:
+  voorgesteld_door: competentie-destillatie-v1-competentie-run-20260515T183709Z
+  voorgesteld_op: '2026-05-15T18:37:09Z'
+  gecureerd_door: null
+  gecureerd_op: null

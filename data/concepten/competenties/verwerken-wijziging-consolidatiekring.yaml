@@ -1,0 +1,86 @@
+id: verwerken-wijziging-consolidatiekring
+titel: "Verwerken van een wijziging in de consolidatiekring (inclusief step acquisition)"
+status: voorgesteld
+schema_version: "1.0"
+programmaonderdelen: [1.4]
+voortkomend_uit:
+  taken: [1.4.taak.1]
+  kenniselementen: [1.4.I.G, 1.4.II.D]
+gebaseerd_op_concepten:
+  - wijziging-consolidatiekring
+  - eerste-consolidatie
+  - step-acquisition
+  - consolidatieverschil
+  - vermogensmutatiemethode
+  - integrale-consolidatie
+procedure_grondslag:
+  wettelijk_pct: 75
+  praktijk_pct: 25
+  motivering: "De verwerking is grotendeels wettelijk (KB WVV art. 3:127-3:132 voor eerste consolidatie en realisaties), maar de behandeling van kantelpunten tussen technieken (vermogensmutatie ↔ integrale/evenredige consolidatie) en transacties onder gemeenschappelijke leiding vergt doctrinair inzicht (CBN-adviezen)."
+stappen:
+  - nr: 1
+    titel: "Identificeren van de aard van de wijziging"
+    input: "Wijzigingen in de groep tussen twee opeenvolgende boekjaren: verwerving, vervreemding, liquidatie, verhoging/verlaging van belang, wijziging in mate van controle, kringintegratie van voorheen uitgesloten dochter"
+    output: "Eén van de typen: (a) opname nieuwe dochter (eerste consolidatie); (b) uittrede dochter (de-consolidatie); (c) step acquisition met kwalificatiewijziging; (d) wijziging tussen gezamenlijke en exclusieve controle; (e) transactie onder gemeenschappelijke leiding"
+    waarom: "De aard van de wijziging bepaalt welk specifiek verwerkingsregime van toepassing is."
+    grondslag:
+      type: concept
+      ref: "[[wijziging-consolidatiekring]]"
+  - nr: 2
+    titel: "Toetsen van kwalificatiewijziging bij belangsverhoging"
+    input: "Belangenpercentage en controlepercentage voor en na de transactie; aandeelhoudersovereenkomsten"
+    output: "Per trap: bevestiging of de kwalificatie wijzigt — (a) van geen invloed naar invloed van betekenis; (b) van invloed van betekenis naar controle; (c) verhoging binnen dezelfde categorie"
+    waarom: "Een kwalificatiewijziging triggert een wijziging van consolidatietechniek met bijhorende waarderingsgevolgen."
+    grondslag:
+      type: concept
+      ref: "[[step-acquisition]]"
+  - nr: 3
+    titel: "Verwerken van een eerste consolidatie bij opname van een nieuwe dochter of geassocieerde"
+    input: "Aanschaffingswaarde, eigen vermogen op verwervingsdatum, stille meer-/minderwaarden"
+    output: "Toepassing van de procedure voor eerste consolidatie (zie [[competenties/uitvoeren-eerste-consolidatie|uitvoeren eerste consolidatie]]): compensatie, toerekening verschil, boeking consolidatieverschil, afschrijvingsplan"
+    waarom: "Elke nieuwe opname in de kring vereist een eerste consolidatie met berekening van het consolidatieverschil."
+    grondslag:
+      type: concept
+      ref: "[[eerste-consolidatie]]"
+  - nr: 4
+    titel: "Verwerken van een kantelpunt vermogensmutatie → integrale/evenredige consolidatie"
+    input: "Bestaande boekwaarde van de deelneming (post 'Vennootschappen waarop vermogensmutatie is toegepast' + bestaand consolidatieverschil); aanvullende aanschaffingswaarde; eigen vermogen op datum van de nieuwe trap"
+    output: "Verlaten van vermogensmutatie; start integrale (of evenredige) consolidatie; herwaardering bestaande boekwaarde en herberekening consolidatieverschil; activa en passiva van de nieuwe dochter worden voortaan volledig (of pro-rata) opgenomen"
+    waarom: "Bij overschrijding van de controlegrens (of overgang naar gezamenlijke controle) volstaat vermogensmutatie niet meer; de techniek kantelt."
+    grondslag:
+      type: concept
+      ref: "[[step-acquisition]]"
+    valkuilen:
+      - foute_aanname: "Bij overgang van vermogensmutatie naar integrale consolidatie blijft het bestaande consolidatieverschil ongewijzigd."
+        correctie: "Het bestaande consolidatieverschil wordt geherwaardeerd en de activa/passiva van de nieuwe dochter worden volledig opgenomen — er ontstaat een nieuwe eerste consolidatie."
+        grondslag: "[[step-acquisition]]"
+  - nr: 5
+    titel: "Verwerken van een gehele of gedeeltelijke realisatie van aandelen"
+    input: "Aandelenverkoop; oorspronkelijk consolidatieverschil; deel van de aandelen dat is vervreemd"
+    output: "Afboeking van het overblijvende consolidatieverschil naar verhouding van de gerealiseerde aandelen (KB WVV art. 3:132); eventueel volledige de-consolidatie van de dochter"
+    waarom: "Bij realisatie verdwijnt de economische binding (geheel of gedeeltelijk) en moet het consolidatieverschil pro-rata worden afgeboekt."
+    grondslag:
+      type: concept
+      ref: "[[wijziging-consolidatiekring]]"
+  - nr: 6
+    titel: "Verwerken van transacties onder gemeenschappelijke leiding"
+    input: "Overdracht van een dochter binnen dezelfde groep waarbij de uiteindelijke economische controle ongewijzigd blijft"
+    output: "Toepassing van de bijzondere regels: in beginsel geen nieuwe goodwill genereren; historische cijfers behouden — het economische karakter van de groep is niet gewijzigd"
+    waarom: "Interne herstructureringen mogen het groepsbeeld niet kunstmatig wijzigen."
+    grondslag:
+      type: concept
+      ref: "[[wijziging-consolidatiekring]]"
+voorbeelden:
+  - situatie: "Onderneming ABC bezit 20 % in DEF (geassocieerde onderneming, vermogensmutatie). In een latere stap koopt ABC er aandelen bij tot 60 %. Op de datum van trap 2 bedroeg DEF's eigen vermogen 800."
+    conclusie: "Kantelpunt: DEF wordt voortaan integraal geconsolideerd. ABC verlaat de vermogensmutatie; het bestaande consolidatieverschil wordt geherwaardeerd en de activa/passiva van DEF worden volledig opgenomen, met afzondering van het aandeel van derden (1 − 0,60) × DEF's eigen vermogen."
+    grondslag: "[[step-acquisition]] §kantelpunt invloed → controle; [[integrale-consolidatie]] §opname 100 %"
+    redenering: "De controlegrens (> 50 %) wordt overschreden; de wijziging van consolidatietechniek triggert een nieuwe eerste consolidatie waarbij de bestaande post wordt herwaardeerd."
+  - situatie: "Onderneming X verkoopt 30 % van haar 100 %-dochter D buiten de groep; D blijft een dochter (70 % belang)."
+    conclusie: "Pro-rata afboeking van het oorspronkelijke consolidatieverschil naar verhouding van de gerealiseerde aandelen (30 %); D blijft in de consolidatiekring; voortaan wordt 30 % als belangen van derden opgenomen."
+    grondslag: "[[wijziging-consolidatiekring]] §realisatie aandelen; [[consolidatieverschil]] §afboeking pro-rata"
+    redenering: "Gedeeltelijke realisatie zonder verlies van controle: D blijft integraal geconsolideerd, maar het verkochte deel triggert pro-rata afboeking van consolidatieverschil en een nieuw aandeel van derden van 30 %."
+_provenance:
+  voorgesteld_door: "competentie-destillatie-v1-competentie-run-20260515T183709Z"
+  voorgesteld_op: "2026-05-15T18:37:09Z"
+  gecureerd_door: null
+  gecureerd_op: null

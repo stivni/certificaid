@@ -1,0 +1,79 @@
+id: toepassen-uniforme-waarderingsregels
+titel: "Toepassen van uniforme waarderingsregels en hercorrigeren van enkelvoudige cijfers"
+status: voorgesteld
+schema_version: "1.0"
+programmaonderdelen: [1.4]
+voortkomend_uit:
+  taken: [1.4.taak.1]
+  kenniselementen: [1.4.I.D, 1.4.I.B, 1.4.I.G]
+gebaseerd_op_concepten:
+  - uniforme-waarderingsregels-consolidatie
+  - geconsolideerde-jaarrekening
+  - integrale-consolidatie
+procedure_grondslag:
+  wettelijk_pct: 85
+  praktijk_pct: 15
+  motivering: "De plicht en de uitzonderingen volgen rechtstreeks uit KB WVV art. 3:116-3:118; de motivering en de feitelijke aanpassingen vergen een beperkte mate van praktijkoordeel."
+stappen:
+  - nr: 1
+    titel: "Inventariseren van de waarderingsregels van consoliderende vennootschap en dochters"
+    input: "Toelichting bij de enkelvoudige jaarrekeningen van moeder en dochters; samenvattingen van waarderingsregels (afschrijvingsmethoden, voorraadwaardering, voorzieningen, fiscale afwijkingen)"
+    output: "Vergelijkingsmatrix van waarderingsregels per balanspost over alle vennootschappen in de consolidatiekring"
+    waarom: "Verschillen tussen waarderingsregels moeten zichtbaar worden voordat ze geüniformeerd kunnen worden."
+    grondslag:
+      type: concept
+      ref: "[[uniforme-waarderingsregels-consolidatie]]"
+  - nr: 2
+    titel: "Toetsen aan de waarderingsregels van de consoliderende vennootschap"
+    input: "Waarderingsregels van de consoliderende vennootschap (referentie); afwijkingen bij dochters"
+    output: "Lijst van dochters waarvan de waarderingsregels afwijken van die van de consoliderende vennootschap"
+    waarom: "KB WVV art. 3:116, lid 1 vereist dat de geconsolideerde jaarrekening dezelfde waarderingsregels hanteert als de enkelvoudige jaarrekening van de consoliderende vennootschap (behoudens KB WVV art. 3:118)."
+    grondslag:
+      type: concept
+      ref: "[[uniforme-waarderingsregels-consolidatie]]"
+  - nr: 3
+    titel: "Doorvoeren van aanpassingsboekingen voor afwijkende dochters"
+    input: "Verschillen in waarderingsregels; financiële impact per dochter"
+    output: "Aanpassingsboekingen in het consolidatiedossier zodat alle bestanddelen tegen de uniforme regels worden gewaardeerd"
+    waarom: "Zonder herwaardering zou de geconsolideerde jaarrekening inconsistent zijn en geen getrouw beeld geven."
+    grondslag:
+      type: concept
+      ref: "[[uniforme-waarderingsregels-consolidatie]]"
+    valkuilen:
+      - foute_aanname: "Een dochter mag haar eigen waarderingsregels behouden zolang die wettelijk zijn in haar land van vestiging."
+        correctie: "Op consolidatieniveau moeten de waarderingsregels van de consoliderende vennootschap worden toegepast; afwijkende regels in de enkelvoudige jaarrekening van de dochter moeten via consolidatieboekingen worden hercorrigeerd."
+        grondslag: "[[uniforme-waarderingsregels-consolidatie]]"
+  - nr: 4
+    titel: "Beoordelen van afwijkingen in uitzonderingsgevallen"
+    input: "Identificatie van eventuele afwijkingen van de standaardwaarderingsregels (in uitzonderingsgevallen); strookheid met het wettelijk kader"
+    output: "Per afwijking: motivering in de toelichting; toets of de afwijking strookt met het wettelijk kader (Titel 1 KB WVV en het hoofdstuk Geconsolideerde jaarrekening)"
+    waarom: "KB WVV staat afwijkingen toe mits gemotiveerd en wettelijk verdedigbaar; ontbrekende motivering schendt de plicht."
+    grondslag:
+      type: concept
+      ref: "[[uniforme-waarderingsregels-consolidatie]]"
+  - nr: 5
+    titel: "Hercorrigeren van fiscale distorsies"
+    input: "Identificatie van grotere afschrijvingen of waardeverminderingen die in de enkelvoudige jaarrekening overeenkomstig fiscale voorschriften werden toegepast maar economisch niet verantwoord zijn; passiva uitsluitend wegens fiscaal voorschrift behouden"
+    output: "Hercorrectie volgens KB WVV art. 3:118: economisch niet-verantwoorde fiscaal-gedreven afschrijvingen, waardeverminderingen en passiva worden teruggenomen op consolidatieniveau"
+    waarom: "Het getrouwe beeld vraagt economisch verantwoorde waardering; fiscale distorsies horen niet thuis in de geconsolideerde jaarrekening."
+    grondslag:
+      type: concept
+      ref: "[[uniforme-waarderingsregels-consolidatie]]"
+  - nr: 6
+    titel: "Waarborgen van stelselmatigheid in de tijd"
+    input: "Waarderingsregels van het vorige geconsolideerde boekjaar; aanwijzingen voor wijziging (belangrijke wijziging in bedrijf, vermogensstructuur, economische of technologische omstandigheden — KB WVV art. 3:117)"
+    output: "Bevestiging dat de waarderingsregels identiek blijven aan het vorige boekjaar, OF gemotiveerde aanpassing met retroactieve correctie van vergelijkende cijfers"
+    waarom: "Stelselmatigheid is een wettelijke vereiste; wijzigingen vereisen motivering én aanpassing van de vergelijkbaarheid."
+    grondslag:
+      type: concept
+      ref: "[[uniforme-waarderingsregels-consolidatie]]"
+voorbeelden:
+  - situatie: "Een Belgische moeder M consolideert een Italiaanse dochter D. D past in haar enkelvoudige jaarrekening fiscaal-versnelde afschrijvingen toe op een gebouw — economisch niet verantwoord."
+    conclusie: "Op consolidatieniveau worden de fiscaal-gedreven afschrijvingen teruggebracht tot het economisch verantwoorde bedrag; aanpassingsboekingen brengen de afschrijvingsregels in lijn met die van M."
+    grondslag: "[[uniforme-waarderingsregels-consolidatie]] §fiscale distorsies (KB WVV art. 3:118)"
+    redenering: "Fiscale distorsies vervalsen het getrouwe beeld; KB WVV art. 3:118 vereist hercorrectie."
+_provenance:
+  voorgesteld_door: "competentie-destillatie-v1-competentie-run-20260515T183709Z"
+  voorgesteld_op: "2026-05-15T18:37:09Z"
+  gecureerd_door: null
+  gecureerd_op: null

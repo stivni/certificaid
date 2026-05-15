@@ -1,0 +1,143 @@
+id: bepalen-consolidatieverplichting
+titel: Bepalen of een vennootschap een geconsolideerde jaarrekening moet opstellen
+status: voorgesteld
+schema_version: '1.0'
+programmaonderdelen:
+- 1.4
+voortkomend_uit:
+  taken:
+  - 1.4.taak.1
+  kenniselementen:
+  - 1.4.I.C
+  - 1.4.I.B
+  - 1.4.II.B
+gebaseerd_op_concepten:
+- consolidatieverplichting
+- moedervennootschap
+- controle
+- consortium
+- vrijstelling-subconsolidatie
+- groottecriteria-consolidatie
+- groep-van-beperkte-omvang
+procedure_grondslag:
+  wettelijk_pct: 90
+  praktijk_pct: 10
+  motivering: De plicht volgt rechtstreeks uit WVV art. 3:22 e.v. en de vrijstellingen uit WVV art. 1:26 en KB WVV; enkel
+    de feitelijke beoordeling van controle in feite en de toetsing aan groottecriteria vergen oordeel.
+stappen:
+- nr: 1
+  titel: Vaststellen of de entiteit rechtspersoonlijkheid heeft en als vennootschap kwalificeert
+  input: Statuten en juridische vorm van de potentieel consoliderende entiteit
+  output: Bevestiging dat de entiteit een vennootschap met rechtspersoonlijkheid is (geen natuurlijke persoon, geen maatschap
+    zonder rechtspersoonlijkheid)
+  waarom: Alleen vennootschappen met rechtspersoonlijkheid kunnen moedervennootschap zijn en consolidatieplichtig worden.
+  grondslag:
+    type: concept
+    ref: '[[consolidatieverplichting]]'
+  valkuilen:
+  - foute_aanname: Een natuurlijke persoon met meerderheidsstemrechten in meerdere vennootschappen is zelf consolidatieplichtig.
+    correctie: De natuurlijke persoon is geen moedervennootschap; meestal ontstaat een consortium en rust de plicht op de
+      gezamenlijke leden.
+    grondslag: '[[consolidatieverplichting]]'
+  - foute_aanname: Een maatschap zonder rechtspersoonlijkheid kan moedervennootschap zijn.
+    correctie: Zonder rechtspersoonlijkheid kan de maatschap geen moedervennootschap zijn; de onderliggende vennootschappen
+      moeten zelf consolideren tenzij ze als consortium kwalificeren.
+    grondslag: '[[consolidatieverplichting]]'
+- nr: 2
+  titel: Vaststellen of er controle bestaat over één of meer dochterondernemingen
+  input: Aandelenstructuur, statuten, aandeelhoudersovereenkomsten, samenstelling bestuursorgaan en historiek van algemene
+    vergaderingen
+  output: Conclusie of controle (in rechte of in feite, exclusief of gezamenlijk) bestaat op balansdatum
+  waarom: Zonder controle is de entiteit geen moedervennootschap en bestaat geen consolidatieplicht.
+  grondslag:
+    type: concept
+    ref: '[[controle]]'
+  valkuilen:
+  - foute_aanname: Controle vereist altijd meer dan 50 % van de stemrechten.
+    correctie: Controle in feite kan ook met minder dan 50 % bestaan (bv. wanneer de vennootschap op twee opeenvolgende AV's
+      de meerderheid van bestuurders heeft aangesteld met haar effectieve stemrechten).
+    grondslag: '[[controle]]'
+- nr: 3
+  titel: Onderzoeken of er sprake is van een consortium (horizontale groep)
+  input: Vaststelling of er één rechtspersoon is die de andere(n) controleert dan wel of meerdere vennootschappen onder centrale
+    leiding staan zonder onderlinge moeder-dochter-relatie
+  output: 'Conclusie: verticale groep met één moeder (stap 4) of horizontale groep / consortium (consolidatieplicht rust gezamenlijk
+    bij de leden)'
+  waarom: Bij een consortium ontbreekt een moedervennootschap en moet de consolidatieplicht via WVV art. 3:24 op de leden
+    samen gelegd worden.
+  grondslag:
+    type: concept
+    ref: '[[consortium]]'
+- nr: 4
+  titel: Toetsen of de vrijstelling 'groep van beperkte omvang' van toepassing is
+  input: Geconsolideerde of geaggregeerde cijfers (jaaromzet, balanstotaal, jaargemiddelde werknemers) van de groep
+  output: 'Conclusie: overschrijdt de groep meer dan één van de drempels van WVV art. 1:26, § 1, dan vervalt deze vrijstelling'
+  waarom: Een moedervennootschap in een groep die op geconsolideerde of geaggregeerde basis niet meer dan één criterium overschrijdt,
+    is in beginsel vrijgesteld.
+  grondslag:
+    type: concept
+    ref: '[[groep-van-beperkte-omvang]]'
+  valkuilen:
+  - foute_aanname: Berekening 'op geconsolideerde basis' betekent dat er al een geconsolideerde jaarrekening moet bestaan.
+    correctie: Het is enkel een berekeningswijze om de vrijstellingsdrempels te toetsen — geen verplichting tot effectieve
+      consolidatie.
+    grondslag: '[[groottecriteria-consolidatie]]'
+- nr: 5
+  titel: Toetsen of de vrijstelling van subconsolidatie van toepassing is
+  input: Identiteit en consolidatiestatus van de hogere moedervennootschap; lijst van consortium-leden en dochters; notering
+    op gereglementeerde markt
+  output: Conclusie of de submoeder is vrijgesteld omdat een hogere moeder al een gelijkwaardige geconsolideerde jaarrekening
+    opstelt, laat controleren en openbaar maakt, en geen lid van haar consolidatiekring beursgenoteerd is
+  waarom: Subconsolidatie wordt vermeden wanneer hogerop al een geconsolideerde jaarrekening wordt opgemaakt; bij notering
+    vervalt de vrijstelling.
+  grondslag:
+    type: concept
+    ref: '[[vrijstelling-subconsolidatie]]'
+  valkuilen:
+  - foute_aanname: De vrijstelling geldt ongeacht of een dochter in de subconsolidatiekring genoteerd is.
+    correctie: Zodra de submoeder of één van haar dochters genoteerd is op een gereglementeerde markt, vervalt de vrijstelling
+      van subconsolidatie.
+    grondslag: '[[vrijstelling-subconsolidatie]]'
+- nr: 6
+  titel: Formuleren van de eindconclusie
+  input: Resultaten van stappen 1-5
+  output: 'Eén van: (a) niet consolidatieplichtig (geen rechtspersoon, geen controle, beperkte omvang of subconsolidatie-vrijstelling);
+    (b) consolidatieplichtig als moedervennootschap; (c) consolidatieplichtig samen met andere consortiumleden'
+  waarom: Een ondubbelzinnig antwoord op de cliëntvraag is het eindproduct van deze competentie.
+  grondslag:
+    type: praktijk
+    motivering: Synthese van de voorgaande wettelijke toetsen — vergt geen aparte regel.
+beslisboom:
+- vraag: Heeft de entiteit rechtspersoonlijkheid en is zij een vennootschap?
+  ja: Ga naar volgende vraag.
+  nee: Geen consolidatieplicht — meestal consortium of geen plicht.
+- vraag: Bestaat controle (in rechte of in feite) over één of meer dochterondernemingen?
+  ja: Ga naar volgende vraag (verticale moeder).
+  nee: 'Onderzoek of er een consortium is. Zo niet: geen consolidatieplicht.'
+- vraag: Overschrijdt de groep meer dan één van de groottecriteria (WVV art. 1:26, § 1) op geconsolideerde of geaggregeerde
+    basis?
+  ja: Vrijstelling 'groep van beperkte omvang' vervalt; ga naar volgende vraag.
+  nee: Vrijgesteld als groep van beperkte omvang (tenzij notering op gereglementeerde markt).
+- vraag: Bestaat hogerop een moedervennootschap die al een gelijkwaardige geconsolideerde jaarrekening opstelt, laat controleren
+    en openbaar maakt, en is geen lid van de subconsolidatiekring beursgenoteerd?
+  ja: Vrijstelling van subconsolidatie van toepassing — geen plicht voor de submoeder.
+  nee: Consolidatieplichtig.
+voorbeelden:
+- situatie: Vennootschap M bezit 90 % van de stemrechten van dochter D; D oefent een industriële activiteit uit; M heeft via
+    haar stemrechten de bevoegdheid om de meerderheid van bestuurders aan te stellen.
+  conclusie: 'M is consolidatieplichtig: zij is een moedervennootschap met exclusieve controle in rechte over D.'
+  grondslag: '[[moedervennootschap]] §controlebevoegdheid; [[exclusieve-controle]] §onweerlegbaar vermoeden'
+  redenering: De stemrechtenmeerderheid (> 50 %) levert het onweerlegbaar vermoeden van controle in rechte op; M is moedervennootschap
+    en moet D integraal opnemen, tenzij een vrijstelling van toepassing is.
+- situatie: Een natuurlijke persoon bezit meerderheidsstemrechten in twee zustervennootschappen Y en Z die samen onder centrale
+    leiding staan; er bestaat geen moeder-dochter-relatie tussen Y en Z.
+  conclusie: Geen consolidatieplicht voor de natuurlijke persoon; Y en Z vormen vermoedelijk een consortium en zijn samen
+    consolidatieplichtig.
+  grondslag: '[[consolidatieverplichting]] §natuurlijke personen; [[consortium]] §horizontale groep'
+  redenering: Een natuurlijke persoon kan geen moedervennootschap zijn. Bij centrale leiding zonder onderlinge controle ontstaat
+    een consortium; WVV art. 3:24 legt de plicht op de leden samen.
+_provenance:
+  voorgesteld_door: competentie-destillatie-v1-competentie-run-20260515T183709Z
+  voorgesteld_op: '2026-05-15T18:37:09Z'
+  gecureerd_door: null
+  gecureerd_op: null

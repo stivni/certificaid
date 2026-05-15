@@ -1,0 +1,100 @@
+id: berekenen-controle-en-belangenpercentage
+titel: Berekenen van controle- en belangenpercentage in een ketenstructuur
+status: voorgesteld
+schema_version: '1.0'
+programmaonderdelen:
+- 1.4
+voortkomend_uit:
+  taken:
+  - 1.4.taak.1
+  kenniselementen:
+  - 1.4.I.C
+  - 1.4.I.D
+  - 1.4.I.E
+gebaseerd_op_concepten:
+- controlepercentage
+- belangenpercentage
+- exclusieve-controle
+- controle
+procedure_grondslag:
+  wettelijk_pct: 60
+  praktijk_pct: 40
+  motivering: De definities en de drempel (> 50 %) zijn wettelijk; de rekenregels in ketens (controle-% niet vermenigvuldigen,
+    belangen-% wél vermenigvuldigen) zijn praktijkconventies die in de CBN-doctrine en KB WVV-toepassing worden gehanteerd.
+stappen:
+- nr: 1
+  titel: Tekenen van de aandeelhoudersketen
+  input: Aandeelhouderslijst per vennootschap in de groep, met stemrechtpercentage per directe deelneming
+  output: Schema van directe deelnemingen tussen alle relevante entiteiten (M → A → B → ...)
+  waarom: Een correcte berekening vereist een visueel of tabellarisch overzicht van alle schakels.
+  grondslag:
+    type: praktijk
+    motivering: Werkmethodologische voorbereiding — geen aparte wettelijke regel.
+- nr: 2
+  titel: Berekenen van het controlepercentage in elke schakel
+  input: Stemrechtpercentages per directe deelneming
+  output: 'Per schakel: controlepercentage = direct gehouden stemrechten + stemrechten die de moeder indirect controleert
+    via dochters die zelf exclusieve controle hebben (NIET vermenigvuldigen)'
+  waarom: Zodra elke tussenschakel exclusieve controle heeft, telt het volledige stemrechtpercentage van de onderste schakel
+    mee als 'gecontroleerd door de moeder'.
+  grondslag:
+    type: concept
+    ref: '[[controlepercentage]]'
+  valkuilen:
+  - foute_aanname: Het controlepercentage wordt zoals het belangenpercentage vermenigvuldigd langs de keten.
+    correctie: 'Het controlepercentage wordt NIET vermenigvuldigd: zolang elke schakel exclusieve controle heeft, telt het
+      stemrechtpercentage van de onderste schakel volledig mee voor de moeder.'
+    grondslag: '[[controlepercentage]]'
+- nr: 3
+  titel: Berekenen van het belangenpercentage in elke schakel
+  input: Belangenpercentages per directe deelneming (economisch eigendomsaandeel)
+  output: 'Per schakel: belangenpercentage = product van de belangenpercentages langs de keten (M → 80 % A → 60 % B = 0,80
+    × 0,60 = 48 %)'
+  waarom: Het economische eigendomsaandeel verdunt door tussenliggende derden en moet daarom worden vermenigvuldigd.
+  grondslag:
+    type: concept
+    ref: '[[belangenpercentage]]'
+  valkuilen:
+  - foute_aanname: Het belangenpercentage en het controlepercentage zijn altijd gelijk.
+    correctie: 'Ze kunnen verschillen: het belangenpercentage wordt vermenigvuldigd, het controlepercentage niet. Bij M →
+      80 % A → 60 % B is controle = 60 % (controle in elke schakel), belang = 48 %.'
+    grondslag: '[[belangenpercentage]]'
+- nr: 4
+  titel: Toetsen of er in elke schakel exclusieve controle bestaat
+  input: 'Per schakel: controlepercentage > 50 % of andere onweerlegbare vermoedens'
+  output: 'Per schakel: bevestiging of breuk in de controle-keten (waardoor het ''volledig meetellen'' van de onderste schakel
+    niet meer geldt)'
+  waarom: Indien een schakel geen exclusieve controle heeft, breekt de keten en moet het controlepercentage van de moeder
+    over de onderste schakel opnieuw beoordeeld worden — vaak als geen-controle of als invloed van betekenis.
+  grondslag:
+    type: concept
+    ref: '[[exclusieve-controle]]'
+- nr: 5
+  titel: Toepassen van het belangenpercentage in de consolidatieverwerking
+  input: Belangenpercentage per dochter (eventueel pro-rata bij gemeenschappelijke dochter)
+  output: 'Berekeningsbasis voor: aandeel van derden (1 − belang%) bij integrale consolidatie; pro-rata opname (belang%) bij
+    evenredige consolidatie; pro-rata aandeel in eigen vermogen bij vermogensmutatie'
+  waarom: Het belangenpercentage is de rekenmaatstaf voor de bedragen die uiteindelijk in de geconsolideerde jaarrekening
+    verschijnen.
+  grondslag:
+    type: concept
+    ref: '[[belangenpercentage]]'
+voorbeelden:
+- situatie: Vennootschap M bezit 80 % van vennootschap A; A bezit 60 % van vennootschap B. In elke schakel bezit de bovenliggende
+    vennootschap exclusieve controle in rechte (> 50 %).
+  conclusie: Controlepercentage van M in B = 60 % (NIET vermenigvuldigen — elke schakel heeft exclusieve controle, dus 60
+    % telt volledig mee voor M). Belangenpercentage van M in B = 0,80 × 0,60 = 48 %.
+  grondslag: '[[controlepercentage]] §keten; [[belangenpercentage]] §keten'
+  redenering: Controlepercentage en belangenpercentage volgen verschillende rekenregels; M consolideert B integraal omdat
+    zij via A exclusieve controle uitoefent, maar derden (52 %) wordt afgezonderd op basis van het belangenpercentage.
+- situatie: M bezit 90 % van dochter D. D heeft een industriële activiteit, D's eigen vermogen op afsluitingsdatum = 1.000.
+  conclusie: Belangenpercentage = 90 %; aandeel van derden = (1 − 0,90) × 1.000 = 100 (op de balans) en (1 − 0,90) × resultaat
+    D in de resultatenrekening.
+  grondslag: '[[belangenpercentage]] §berekening aandeel van derden; [[minderheidsbelangen]] §formule'
+  redenering: Bij integrale consolidatie wordt 100 % van D opgenomen; het complement van het belangenpercentage bepaalt het
+    deel dat als 'belangen van derden' wordt afgezonderd.
+_provenance:
+  voorgesteld_door: competentie-destillatie-v1-competentie-run-20260515T183709Z
+  voorgesteld_op: '2026-05-15T18:37:09Z'
+  gecureerd_door: null
+  gecureerd_op: null
