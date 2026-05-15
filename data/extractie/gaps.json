@@ -1,0 +1,83 @@
+[
+  {
+    "record_id": "consolidatieverplichting",
+    "aspect": "vergelijkingsparen.target-ontbreekt",
+    "reden": "vergelijkingsparen[].vergelijking_met wijst naar 'groottecriteria' maar er bestaat geen record met dat id in de geladen set.",
+    "prio": "laag",
+    "geconstateerd_door": "mechanisch",
+    "geconstateerd_op": "2026-05-15T14:10:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "geconsolideerde-jaarrekening",
+    "aspect": "drempelwaarden.ontbreekt",
+    "reden": "Examenvragen 2013-1 vr7 en 2014-1 vr7 vragen expliciet de maximale afwijking qua afsluitingsdatum (KB WVV art. 3:109 tweede lid: 3 maanden). De bouwsteen 'Afsluitingsdatum' vermeldt enkel 'mits motivering in de toelichting' zonder de kwantitatieve drempel — vraag is daarmee onbeantwoordbaar uit het record.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-run-20260515T141017Z",
+    "geconstateerd_op": "2026-05-15T14:30:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "consolidatieverschil",
+    "aspect": "definitie.onvolledig",
+    "reden": "Examenvragen 2013-2 vr8 en 2015-1 vr11 vragen 'de vier voornaamste oorzaken van positieve consolidatieverschillen' (8 punten). Het record telt slechts 3 oorzaken-entries onder oorzaken[], en één (verwachte ongunstige resultaatsontwikkeling) betreft bovendien negatief consolidatieverschil — er zijn dus slechts 2 echte positieve oorzaken. Een vierde positieve oorzaak (typisch: niet-geactiveerde immateriële waarde / merken / klantenbestand als afzonderlijke oorzaak naast goodwill voor synergieverwachting) ontbreekt om de examenvraag volledig te kunnen oplossen.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-run-20260515T141017Z",
+    "geconstateerd_op": "2026-05-15T14:30:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "geconsolideerd-jaarverslag",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Record heeft slechts 1 in_praktijk-entry, 1 valkuil en 1 vergelijkingspaar terwijl het concept centraal staat in art. 3:32/3:35 WVV (inhoudsvereisten, risico's, niet-financiële verklaring, beschrijving deelnemingen). Te dun voor een coherente minicursus-paragraaf naast geconsolideerde-jaarrekening.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260515T141017Z",
+    "geconstateerd_op": "2026-05-15T14:30:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "exclusieve-controle",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Slechts 1 in_praktijk-entry voor een centraal concept dat de keuze tussen integrale consolidatie en de andere methoden bepaalt. Voorbeeld van 'controle in feite' (bestuurdersbenoeming bij twee opeenvolgende AV's) ontbreekt, evenals het onderscheid > 50 % stemrechten versus de andere onweerlegbare vermoedens.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260515T141017Z",
+    "geconstateerd_op": "2026-05-15T14:30:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "groep-van-beperkte-omvang",
+    "aspect": "records.overlappend-fenomeen",
+    "reden": "Het record 'groep-van-beperkte-omvang' (begrip) en het record 'groottecriteria-consolidatie' (drempel) delen dezelfde primaire bron (WVV art. 1:26, § 1) en beschrijven beide de vrijstellingsdrempels en de twee berekeningsmethoden (geconsolideerde versus geaggregeerde basis +20 %). De definitiekern en de in_praktijk-content overlappen meer dan 60 %.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260515T141017Z",
+    "geconstateerd_op": "2026-05-15T14:30:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "consolidatieverschil",
+    "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+    "reden": "De definitie en bouwstenen verwijzen expliciet naar 'dochteronderneming' en 'geassocieerde onderneming' als bereik van het consolidatieverschil, maar deze concepten staan niet als vergelijkingsparen.vergelijking_met of in een edge — onderscheid dochter vs. geassocieerde is examen-relevant (vermogensmutatie versus integrale consolidatie raakt de berekening).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260515T141017Z",
+    "geconstateerd_op": "2026-05-15T14:30:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "evenredige-consolidatie",
+    "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+    "reden": "De definitietekst van evenredige consolidatie verwijst naar 'gezamenlijke controle' en 'gemeenschappelijke dochteronderneming' als triggerend criterium en naar 'minderheidsbelangen' (afwezig bij evenredige methode) maar geen van deze drie staan als vergelijkingsparen.vergelijking_met. De vergelijking met vermogensmutatie/integraal staat wel, het verschil met de actor-concepten niet.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260515T141017Z",
+    "geconstateerd_op": "2026-05-15T14:30:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "vermogensmutatiemethode",
+    "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+    "reden": "De definitie noemt 'invloed van betekenis' als toepassingscriterium en 'consolidatieverschil' wordt expliciet uitgewerkt (CBN 2022/11), maar 'invloed-van-betekenis' en 'consolidatieverschil' staan niet als vergelijkingsparen op vermogensmutatiemethode — terwijl ze in de bestaande vergelijkingsparen van die andere records wél naar vermogensmutatie wijzen (asymmetrisch).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260515T141017Z",
+    "geconstateerd_op": "2026-05-15T14:30:00+00:00",
+    "status": "open"
+  }
+]

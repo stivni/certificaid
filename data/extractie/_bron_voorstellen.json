@@ -57,6 +57,23 @@
       "geconstateerd_door": "concept-extractie-v2-2026-05-15T00:00:00Z",
       "geconstateerd_op": "2026-05-15",
       "human_decision": null
+    },
+    {
+      "po": "1.4",
+      "anchor_id": "1.4.II.A",
+      "ontbrekende_kennis": "Herbevestiging (v3-extractie): IFRS 3/10/11/12 primaire tekst blijft afwezig in het corpus. V3 heeft één samenvattend ankerrecord 'ifrs-consolidatieraamwerk' gemaakt op basis van Verordening 1606/2002 en KB WVV art. 3:104, § 2; alle IFRS-specifieke regels (full goodwill bij IFRS 3, IFRS 10 controle-test, IFRS 11 joint operation versus joint venture, IFRS 12 disclosures) konden niet 'grounded' worden onderbouwd en zijn beperkt tot overzicht-niveau met confidence 'inferred'.",
+      "voorgestelde_bronnen": [
+        {
+          "naam": "EU-bekrachtigde IFRS-tekst via EUR-Lex (Verordening 1126/2008 + wijzigingsverordeningen) — IFRS 3, IFRS 10, IFRS 11, IFRS 12",
+          "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32008R1126",
+          "publiek": true,
+          "license": "EU public domain (Decision 2011/833/EU re-use of Commission documents)",
+          "redenering": "Reeds eerder gesignaleerd in v2. V3 bevestigt prioriteit: zonder deze bron blijven 4 van de 6 II.x-anchors (1.4.II, 1.4.II.A, 1.4.II.C, 1.4.II.D) noodzakelijk onderbelicht. De Nederlandstalige EU-versie is examenrelevant."
+        }
+      ],
+      "geconstateerd_door": "concept-extractie-v3-2026-05-15T13:36Z",
+      "geconstateerd_op": "2026-05-15",
+      "human_decision": null
     }
   ]
 }
