@@ -3,6 +3,11 @@
 **Status**: Draft
 **Datum**: 2026-05-07
 **Gewijzigd**:
+- 2026-05-15 — `trust.caveat` veld toegevoegd voor documentatie van bekende
+  beperkingen bij trusted bronnen (zie schema hieronder). Caveat-beslissingen
+  zijn human-only — een agent mag in zijn verdict een caveat *voorstellen*
+  maar `mark_trusted.py` past die alleen toe als de mens (rechtstreeks of via
+  `--apply-from-verdicts` met expliciete `--confirmed-by human`) ze bevestigt.
 - 2026-05-08 — `trust:` subkey toegevoegd aan schema
 - 2026-05-11 — trust-schema vereenvoudigd: drop `qa_version`, `layer1_5_diff`,
   `sample_*`; expliciete `layer1` + `layer2` sub-blokken met eigen `status`-veld;
@@ -44,6 +49,10 @@ provenance:
     confirmed_at: null           # ISO-datum van laatste status-wijziging
     confirmed_by: null           # "human" | "<agent-naam>" — strict deze twee
     rationale: null              # 1-3 zinnen toelichting waarom deze status
+    caveat: null                 # gedocumenteerde beperking bij trusted bronnen
+                                 # (bv. "Bijlage 1-tabel niet leesbaar; norm-body intact").
+                                 # ALLEEN human-geconfirmeerd — agents stellen
+                                 # voor in layer2 maar mens accepteert.
 
     # Laag 1 — deterministische checks (tools/etl/qa_bron.py)
     layer1:

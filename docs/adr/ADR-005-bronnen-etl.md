@@ -211,14 +211,21 @@ override per bron via `transform_chain:` op de source-entry.
 | `merge_hyphens` | `kred-\nietinstellingen` → `kredietinstellingen` |
 | `merge_wrapped_lines` | soft-wrapped paragrafen mergen tot één regel |
 | `strip_toc` | TOC-blok herkennen + verwijderen |
-| `inject_headings_wettekst` | `DEEL/BOEK/TITEL/HOOFDSTUK/AFDELING/ONDERAFDELING/Art.` → `##..######` |
-| `inject_headings_norm` | bold-titel-promotie voor ITAA-normen |
-| `inject_headings_advies` | sectie-detectie voor CBN-adviezen |
+| `split_merged_headings` | `## Afdeling X. - Onderafdeling Y. ...` → twee aparte regels (PDF-artefact-fix). **MOET vóór `inject_headings_wettekst` lopen** in de chain — anders ondoet hij de bewuste Afdeling+Onderafdeling-merge die conditional flattening produceert (§4.1 ADR-006). |
+| `inject_headings_wettekst` | `DEEL/BOEK/TITEL/HOOFDSTUK/AFDELING/ONDERAFDELING/Art.` → `##..######`. Past conditional flattening toe (`DEEL+BOEK`, `AFDELING+ONDERAFDELING` merges) wanneer >5 ranks aanwezig. |
+| `normalize_artikel_to_art` | `Artikel N` (kolom 0) of `## Artikel N` (markdown-prefix) → `Art. N`. Voor pdftotext-output en EU-bronnen waar het volle woord wordt gebruikt. |
+| `inject_headings_narratief` | sectie-detectie voor narratieve praktijkgidzen (geen Art.-hiërarchie) |
+| `promote_norm_section_labels` | bold-titel-promotie voor ITAA-normen, plus structuurlabels (`CABINET`, `KANTOORNIVEAU`) |
+| `strip_norm_toc_residue` | TOC-blokken met dotted/dashed/underscore-leaders + bijhorende `Inhoudstafel`-header strippen (norm-specifiek) |
+| `strip_norm_column_bleed` | tweekoloms-PDF-artefacten in ITAA-normen: `## VEREISTEN TOEPASSINGSMODALITEITEN` + bilingue NL+FR-headings |
+| `strip_itaa_norm_footers` | ITAA-norm-specifieke page-footers: `© ITAA – ...`, `Goedgekeurd HREB ... N/M`, `goedgekeurd door de Raad van ...`, standalone paginanummers + `Inhoud`-residu |
 | `organize_headings` | hiërarchie normaliseren (max 6 niveaus, parent-child) |
 | `normalize_tables` | markdown-table-syntax repareren |
 | `normalize_footnotes` | `[1]` / `(1)` → `[^1]` |
 | `protect_source_typos` | annotate "dit is een bron-typo, niet een artefact" |
 | `emit_frontmatter` | **laatste in chain** — schrijft YAML frontmatter (chunk + provenance + bron_rol) |
+
+**Chain-volgorde-invariant**: `split_merged_headings` moet vóór `inject_headings_wettekst` lopen in alle wettekst-chains, en `strip_norm_column_bleed` moet ná `promote_norm_section_labels` lopen (column-bleed-detectie werkt op gepromoveerde `##`-headings). Geverifieerd via `tests/test_convert_chain_order.py`.
 
 **Default-chain per extractor** wordt in `resources/source_config.yaml` onder
 `extractors:` gedeclareerd (zie §2). De pipeline leest die default; een
@@ -233,9 +240,9 @@ titel: "..."
 bron_rol: itaa_lex
 tags: [...]
 chunk:                   # frontmatter-driven chunking (ADR-006 §4)
-  level: 5               # MD-niveau waarop chunk-grens ligt
-  type: "Art."           # filter op heading-type
-  sub_strategy: null
+  level: 6               # MD-niveau waarop chunk-grens ligt
+  type: "Art."           # exacte match — "Art." | "Par." | "Artikel" | "Klasse"
+                         # (geen fallback meer per 2026-05-15; bron MOET expliciet)
 provenance: { ... }      # zie ADR-004
 ---
 
@@ -299,6 +306,22 @@ schrijft naar `provenance.trust.layer2`:
 ```
 
 Heuristiek: conservatief — bij twijfel `needs-rework`.
+
+**Scope-beperking voor Laag 2** (2026-05-15): Laag 2 evalueert alleen
+inhoud-kwaliteit. Issues die door de chunker zelf gehanteerd worden — zoals
+"max-section > 24K chars" of "te weinig headings voor deze grootte" — zijn
+*geen* Laag-2-concerns. Die vallen onder Laag 1 (statistieken) of onder de
+chunker (adaptive sub-chunking, paragraph-cut fallback). Een agent die zo'n
+issue in zijn verdict zet, leidt tot onnodige caveats — die filteren we
+expliciet uit bij verdict-toepassing.
+
+**Caveat-policy** (2026-05-15): Een agent mag in zijn verdict een caveat
+*voorstellen* (in `concrete_problemen` of een aparte `caveat`-veld). Maar
+`mark_trusted.py --apply-from-verdicts` schrijft een caveat **alleen** als
+de mens hem expliciet doorgeeft via `--caveat "<tekst>"` of als de verdict-
+status `trusted` is en de operator de hele verdict-file bewust applied.
+Caveat-beslissingen blijven dus altijd human-in-the-loop — een agent kan
+nooit autonoom een bron als "trusted-met-caveat" markeren.
 
 **Verdict-toepassing** (`tools/etl/mark_trusted.py --apply-from-verdicts`):
 

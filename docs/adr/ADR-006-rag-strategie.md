@@ -38,8 +38,21 @@ Chunk-strategie blijft per brontype (zie §4) — alleen de storage is unified.
 
 Chunk-ids moeten stabiel zijn over re-runs zolang de chunk-strategie ongewijzigd is:
 - Wettekst: `<bron-stem>__art_<nr>` (bv. `Antiwitwaswet-2017__art_5`)
+- Wettekst sub-chunk (adaptive, zie §4.2):
+  - Definitie-mode: `<bron-stem>__art_<nr>__sub_<N>deg` (bv. `WIB92__art_2__sub_5deg`).
+    Suffixen voor bis/ter en slash-nummering blijven in de label: `__sub_5degbis`,
+    `__sub_4deg_1` (voor `4°/1`).
+  - Bin-pack-mode: `<bron-stem>__art_<nr>__sub_<marker><start>-<eind>`
+    (bv. `WBTW__art_44__sub_par1-par3` voor § 1–§ 3, `__sub_a-c` voor a)–c)).
+    Single-item bin krijgt `__sub_par1` zonder range.
 - Norm: `<bron-stem>__sec_<sectie-naam-slug>`
 - Advies (één-chunk): `<bron-stem>` ; gesplitst: `<bron-stem>__sec_<sectie-naam-slug>`
+
+**Defensieve uniqueness** (2026-05-15): voor het zeldzame geval dat een chunk-id
+collidert (duplicate art-nrs in een wettekst met overlappende sub-structuur),
+krijgt de tweede instance een `__dup<N>`-suffix. Voorkomt Chroma DuplicateIDError
+zonder content te verliezen. Geïmplementeerd in `tools/rag/rag_index.py`
+final-loop van `split_wettekst`.
 
 Als chunk-strategie verandert (bv. splitting-config gewijzigd): full rebuild nodig. Dan bumpt de pipeline-versie in provenance, wat de cascade triggert.
 
@@ -49,12 +62,29 @@ Als chunk-strategie verandert (bv. splitting-config gewijzigd): full rebuild nod
 
 ```yaml
 chunk:
-  level: 5            # MD-heading-niveau waarop chunk-grens ligt
-  type: "Art."        # filter op heading-type; null = alle headings op dat niveau
-  sub_strategy: null  # toekomstige opt-in: "per_definitieblok"
+  level: 6            # MD-heading-niveau waarop chunk-grens ligt
+  type: "Art."        # exacte match — geen fallback (2026-05-15)
 ```
 
 De chunker is **data-driven** (leest frontmatter), niet **convention-driven** (hardcoded per bron-rol). Heterogene wetten met verschillende structurele dieptes werken zonder per-wet codepad.
+
+**Expliciete `chunk.type`** (2026-05-15, Phase 2 cleanup): elke bron MOET een
+`chunk.type` declareren die exact overeenkomt met de heading-tekst in de body:
+
+| Type | Voor |
+|---|---|
+| `"Art."` | Belgische wetteksten (`###### Art. N`) |
+| `"Par."` | paragraaf-genummerde wetten (`###### Par. N`) |
+| `"Artikel"` | EU-richtlijnen/verordeningen/verdragen (`###### Artikel N`) |
+| `"Klasse"` | MAR-rekeningplannen (`## Klasse 1`) |
+
+Geen `_ARTICLE_TYPE_SET`-fallback meer — als de frontmatter "Art." declareert
+maar de body heeft "Artikel"-headings, vindt de chunker geen grenzen en valt
+het bron in de generic-pad. Voorheen werd dit gemaskeerd via een fallback;
+dat verbergde echte frontmatter/extractor-mismatches.
+
+`sub_strategy` is verwijderd uit het schema (Phase 2 cleanup). Sub-chunking is
+nu automatisch adaptive (zie §4.2) — een aparte config-knop is niet nodig.
 
 | Brontype | Eenheid | `chunk.level` | `chunk.type` |
 |---|---|---|---|
@@ -141,7 +171,13 @@ Bij trigger: **één chunk per item** (geen bin-pack). Bin-pack-modus is standaa
 - Letter `a)` → `__sub_a`
 - Haak `2)` → `__sub_n2`
 
-**Backwards-compat (Phase 1)**: `chunk.sub_strategy: "per_definitieblok"` in frontmatter blijft werken via het bestaande `_split_chunk_by_sub` pad. Wordt verwijderd in Phase 2.
+**Phase 2 cleanup** (2026-05-15, commit 1e3b30b6): `chunk.sub_strategy`-veld
+verwijderd uit frontmatter (was opt-in `per_definitieblok` voor 6 BE-bronnen
+WIB92/WVV/Antiwitwaswet/Successierechten-federaal/WBTW-KB4/WBTW-KB22). Niet
+meer nodig — adaptive detectie verwerkt deze automatisch. `_ARTICLE_TYPE_SET`-
+fallback in `_is_chunk_boundary` verwijderd; elke bron moet expliciete
+`chunk.type` declareren (zie §4 boven). MAR-bronnen: `type: "Klasse"`;
+EU-bronnen met `Artikel`-headings: `type: "Artikel"`.
 
 Empirische basis: `data/qa/sub-marker-onderzoek.md` + `data/qa/definitie-blokken-onderzoek.md`.
 

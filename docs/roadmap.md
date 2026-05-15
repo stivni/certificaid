@@ -36,11 +36,18 @@ Concreet:
   - `justel_html`-handler nog niet geïmplementeerd
   - Oud-BW herconverteren
   - 104 legacy `type:`-bronnen migreren naar `extract:`-schema
-  - **ITAA-norm-* produceren geen `##`-headings** — vastgesteld bij Fase 2-POC: `ITAA-norm-aww-geconsolideerd.md` heeft 0 headings, `ITAA-norm-opdrachtbrief.md` heeft 1. Resultaat: chunk-fallback levert één chunk per norm, wat de RAG-precisie degradeert. Norm-ETL moet structurele sectie-headings produceren bij conversie.
+  - ~~**ITAA-norm-* produceren geen `##`-headings**~~ — opgelost 2026-05-14 via 3 norm-specifieke transformers (`strip_norm_toc_residue`, `strip_norm_column_bleed`, uitgebreide `strip_itaa_norm_footers`). 17/18 normen nu trusted (IESBA mist lokale PDF).
 - Golden set: 5–10 referentie-bronnen handmatig OK-bevonden, vastgepind als regressietest
 - Agent-QA-stap: LLM leest output-MD en flagt structurele problemen
 
 DoD: golden tests groen + agent-QA-rapport voor de POC-bronnen "pass".
+
+**Architecturale follow-ups** (geïdentificeerd 2026-05-15):
+- **`inject_headings_wettekst` hardcoded `_chunk_type = "Art."`**: zet altijd `chunk.type: "Art."` in frontmatter ongeacht of body `Art.`- of `Artikel`-headings heeft. Voor EU-bronnen met `Artikel`-headings wordt de frontmatter handmatig overschreven na conversie. Bij re-conversie wordt die handmatige fix weggeschreven. Fix: `detect_hierarchy` artikel-type-detectie uitbreiden, of `inject_headings_wettekst` een `article_type`-parameter geven.
+- **Body-niveau column-bleed** in 3 ITAA-normen (effectennorm, aww-geconsolideerd, omzetting-vennootschap): paragrafen interleaven door tweekoloms-PDF-extractie. Vereist column-aware PDF-extractie (pymupdf met blocks/columns), niet oplosbaar via text-transformer.
+- **Bijlage-tabellen** in effectennorm + omzetting-vennootschap renderen als gefragmenteerde `##`-headings. Idem: vereist tabel-aware extractie.
+- **5 wetteksten** met overgebleven structuur-issues open: Decr-Waals-Directe-Belastingen, MIGB-Brussel/Vlaanderen/Wallonie, Wet-beroepskwalificaties-2008. Per bron eigen oorzaak (regio-suffix, false-positive headings, mixed Art./Artikel) — case-by-case ETL-werk.
+- **9 wetteksten needs-rework**: narratieve praktijkgidsen (almanakken, toelichtingen aangifte) — sub-optimale structuur, accepteerbaar als praktijkgids met caveat indien gewenst.
 
 ADR: [ADR-005](adr/ADR-005-bronnen-etl.md).
 
@@ -51,10 +58,12 @@ ADR: [ADR-005](adr/ADR-005-bronnen-etl.md).
 **Doel**: gegeven een query, retourneer de juiste passages uit de bron-corpus.
 
 Concreet:
-- bge-m3 embedding + bge-reranker-v2-m3 (twee-fase retrieval)
-- Chunk-strategie per brontype (artikel / sectie / advies-als-geheel)
-- Breadcrumb-prefix met semantische namen + gestructureerd `path` in metadata
-- Vragen-testset (uit voorbeeldexamens) + top-k recall als regressie-metriek
+- ✅ bge-m3 embedding op MPS (chunker- + embedding-pipeline werkend)
+- ✅ Adaptive sub-chunking met threshold-tiers + 6 marker-types + definitie-detectie (2026-05-14, ADR-006 §4.2)
+- ✅ Eerste full-build (2026-05-15): **18.185 chunks in ChromaDB** (15295 wettekst + 270 norm + 2620 advies)
+- ⏳ bge-reranker-v2-m3 voor twee-fase retrieval — implementatie nog te valideren
+- ⏳ Vragen-testset (uit voorbeeldexamens) + top-k recall als regressie-metriek
+- ⏳ `tools/rag/eval.py` voor reproduceerbare eval
 
 DoD: top-k recall op vragen-testset boven drempel; reproduceerbaar via `tools/rag/eval.py`.
 
