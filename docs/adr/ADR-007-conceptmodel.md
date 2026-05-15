@@ -1,11 +1,50 @@
 # ADR-007: Conceptmodel
 
 **Status**: Draft
-**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-08 (schema 1.1 — type-specifieke sleutelvelden, `references[]`, inline provenance, edge-richting-conventie)
+**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-15 (schema 1.3 — rationale-veld + aspect-anker; competentie-schema + leerpad-schema)
 **Vervangt**: archive/ADR-006 (drie-lagenmodel — concept-laag absorbeert), archive/ADR-009 (concept-record-schema v2)
-**Schema-versie**: 1.1 (was 1.0 in eerste draft)
+**Schema-versie**: 1.3 (concept-records); aparte competentie-schema 1.0 + leerpad-schema 1.0
 
 ## Changelog
+
+- **2026-05-15 (1.3)** — Drie-lagen leermateriaal-uitbreiding op basis van
+  gebruiker-discussie over render-generators. Concept-records krijgen optionele
+  `rationale`-velden om pedagogisch inzicht ("welk beginsel? wat ziet de student
+  dat de wet niet expliciet zegt?") te dragen — examen-agnostiek; rationale =
+  beginselen-inzicht, niet examen-truc. Drie additieve uitbreidingen:
+
+  - **Top-level `rationale`-blok** op concept-record (optioneel, default `confidence: inferred`).
+    Shape: `{ text, confidence, _provenance }`. Vrije tekst, kort (1-3 zinnen),
+    moet een beginsel of gerelateerd concept noemen — geen vrije speculatie.
+  - **`rationale`-subveld** op items van `bouwstenen[]`, `oorzaken[]`,
+    `valkuilen[]`, `stappen[]` (waar relevant). String + `rationale_confidence`
+    string. Optioneel — records zonder rationale renderen prima.
+  - **`in_praktijk[].anker_slug`** — auto-gegenereerd uit `aspect` als hij
+    ontbreekt (slugify). Render-fase produceert `<h2 id="boekhoudkundige-verwerking">`
+    per `in_praktijk[]`-blok zodat cross-PO concepten (bv. `leasing` met
+    `boekhoudkundig` + `fiscaal` aspecten) natuurlijk wikilinkbaar zijn:
+    `[[leasing#boekhoudkundige-verwerking]]`.
+
+  **Anti-fabricatie-regels** voor rationale-vulling via ENRICH:
+  - Rationale MOET beginsel of gerelateerd concept noemen
+  - Default confidence `inferred` (niet `grounded`) — rationale is per definitie afgeleid
+  - ENRICH-prompt: "Verbind aan beginselen die in andere concept-records of bron-chunks staan. Bij gebrek aan grondslag: laat rationale leeg."
+  - `_provenance.inputs` verwijst naar chunks waaruit het beginsel afgeleid is
+
+  **Nieuwe schema's** (apart, naast concept-record):
+  - **Competentie-schema 1.0** in `data/concepten/competenties/<id>.yaml` —
+    pedagogische "hoe doe je X" laag. Zie §"Competentie-schema".
+    Hard anti-fabricatie via verplichte `gebaseerd_op_concepten` (≥2 concept-refs),
+    `procedure_grondslag` met ⚖️ X% · 🤖 Y% transparantie, en grondslag-per-stap.
+  - **Leerpad-schema 1.0** in `data/concepten/leerpaden/<X.Y>.yaml` —
+    ordening van competenties + oriëntatie-blokken per programmaonderdeel.
+    Zie §"Leerpad-schema".
+
+  **Niet** een nieuw node_type "competentie" op concept-records — competenties
+  zijn een aparte schicht, niet een concept-variant. Drie redenen:
+  - Concept-records gegrond in bronnen; competenties gegrond in concepten
+  - Lifecycle verschilt (records ↔ enrich-loop; competenties ↔ destillatie-loop)
+  - Render-output verschilt (referentiewerk ↔ procedureel-doelgericht)
 
 - **2026-05-15 (1.2)** — Patroon-driven uitbreiding (additief, geen breaking
   changes). Quality-check op PO 1.4 + ADR-009 patroon-labeling op 188 examenvragen
@@ -174,6 +213,149 @@ Elk node-type kan onderstaande optionele velden bevatten als de bron-bundle ze o
 Het bestaande `valkuilen[]`-veld wordt in prompt v2 actiever gebruikt voor verborgen vereisten, red-herring-elementen en vaak-foutgedaan-stappen — geen aparte velden voor deze patronen.
 
 Zie `prompts/concept-extractie-v2.md` voor exacte block-shapes en voorbeelden.
+
+### Rationale-velden (schema 1.3, additief)
+
+Concept-records mogen optionele `rationale`-velden bevatten die pedagogisch inzicht dragen — antwoorden op "welk beginsel? waarom telt dit? wat ziet de student dat de wettekst niet expliciet zegt?". Examen-agnostiek; geen examen-tips, wel beginselen-inzicht.
+
+**Top-level `rationale` (record-niveau)**:
+```json
+{
+  "rationale": {
+    "text": "Eén beknopt verhaal (1-3 zinnen) dat het concept verbindt aan een onderliggend beginsel.",
+    "confidence": "inferred",
+    "_provenance": {
+      "inputs": [{"id": "<chunk-id>", "sha256": "..."}],
+      "verrijkt_door": "enrich-run-<id>",
+      "verrijkt_op": "<iso>"
+    }
+  }
+}
+```
+
+**Per-item `rationale` (bouwsteen/oorzaak/valkuil/stap)** — optioneel, alleen voor centrale concepten waar nuttig:
+```json
+{
+  "bouwstenen": [
+    {
+      "tekst": "Eliminatie van de deelneming tegen het aandeel in eigen vermogen",
+      "source": {...},
+      "confidence": "grounded",
+      "rationale": "Voorkomt dubbeltelling: het kapitaal van de dochter zit al in de geconsolideerde activa.",
+      "rationale_confidence": "inferred"
+    }
+  ]
+}
+```
+
+**Anti-fabricatie-regels** (cruciaal — granulaire rationale heeft groot hallucinatie-risico):
+- Rationale-tekst MOET een beginsel of gerelateerd concept noemen, geen vrije speculatie
+- Default `confidence: "inferred"` (niet `grounded`) — rationale is per definitie afgeleid
+- Bij gebrek aan grondslag: **veld leeg laten**, niet "iets" verzinnen
+- ENRICH-prompt v2 wordt uitgebreid met expliciete regels (zie ADR-008 §13.3)
+
+### Aspect-anker (schema 1.3, additief)
+
+`in_praktijk[].anker_slug` is een optioneel veld dat de render-fase gebruikt als HTML-anker voor het corresponderende H2-blok. Als afwezig: auto-gegenereerd uit `aspect` via slugify (lowercase, spaces → `-`, accenten weg).
+
+Effect: cross-PO concepten zoals `leasing` waarvan `in_praktijk[]` zowel een `Boekhoudkundige verwerking`-blok als een `Fiscale behandeling`-blok bevat, krijgen automatisch twee subsecties die wikilinkbaar zijn als `[[leasing#boekhoudkundige-verwerking]]` resp. `[[leasing#fiscale-behandeling]]`. Geen handmatig anker-werk; volgt organisch uit records.
+
+### Competentie-schema (schema 1.0)
+
+Competenties leven in `data/concepten/competenties/<id>.yaml`. Schema:
+
+```yaml
+id: bepalen-consolidatieverplichting
+titel: "Bepalen of de moeder de geconsolideerde jaarrekening moet opmaken"
+status: voorgesteld                          # voorgesteld → gecureerd
+schema_version: 1.0
+programmaonderdelen: [1.4]
+voortkomend_uit:
+  taken: [1.4.taak.1]                        # anchor-id's uit programma.json
+  kenniselementen: [1.4.I.B, 1.4.I.D]
+gebaseerd_op_concepten:                       # verplicht ≥ 2 — anti-fabricatie
+  - groottecriteria-consolidatie
+  - consolidatieverplichting
+  - vrijstelling-subconsolidatie
+procedure_grondslag:                          # verplicht
+  wettelijk_pct: 80                            # ⚖️
+  praktijk_pct: 20                             # 🤖
+  motivering: "Drempels wettelijk; volgorde van toetsen is gebruikelijke werkwijze."
+stappen:
+  - nr: 1
+    titel: "Inventariseer de groep"
+    input: "Aandeelhoudersregister + statuten + AV-notulen van de moeder"
+    output: "Lijst kandidaat-dochters en geassocieerde ondernemingen"
+    waarom: "De scope hangt af van wie effectief gecontroleerd wordt."
+    grondslag:                                 # verplicht — concept-wikilink of expliciete 🤖
+      type: concept                            # concept | wettekst | praktijk
+      ref: "[[controle]]"
+    valkuilen:
+      - foute_aanname: "Alleen kijken naar % aandelenbezit."
+        correctie: "Ook controle-in-feite tellen."
+        grondslag: "[[exclusieve-controle]]"
+beslisboom:                                    # optioneel
+  - vraag: "Drempels overschreden?"
+    ja: "Vrijstellingen toetsen → bij geen vrijstelling: consolideren"
+    nee: "Geen verplichting voor de moeder"
+voorbeelden:                                   # Situatie → Conclusie → Grondslag → Redenering (v0.1-patroon)
+  - situatie: "Familie-groep met moeder + 3 dochters; geaggregeerd 25 mln omzet, 18 mln balans, 80 wpf"
+    conclusie: "Niet verplicht — slechts 1 criterium overschreden (wpf)."
+    grondslag: "[[groottecriteria-consolidatie]] §drempels"
+    redenering: "Twee van drie drempels niet overschreden → 'groep van beperkte omvang'."
+_provenance:
+  voorgesteld_door: "competentie-destillatie-v1-<run-id>"
+  voorgesteld_op: "<iso>"
+  gecureerd_door: null                         # mens-veld bij review
+  gecureerd_op: null
+```
+
+**Anti-fabricatie-regels** (afgedwongen door `validate_competentie.py`):
+
+1. **`gebaseerd_op_concepten` ≥ 2** — competentie zonder concept-verankering wordt geweigerd
+2. **Elke stap heeft `grondslag.ref`** — `[[concept-id]]`, expliciete wettekst, of `type: praktijk` met motivering
+3. **`procedure_grondslag.wettelijk_pct + praktijk_pct == 100`** — gedwongen transparantie
+4. **`praktijk_pct > 50` triggert verplicht mens-review** (geen auto-`gecureerd`)
+5. **Wikilinks naar concept-records** moeten bestaande records aanwijzen
+6. **Voorbeelden** moeten gebaseerd zijn op scenario's uit bron-chunks van gerefereerde concept-records (geen verzonnen casussen)
+
+**Competentie-type** is geen frontmatter-enum — types ontstaan organisch uit data (v0.1 had impliciet: procedure, berekening, beoordeling, advies, controle). Optioneel veld `competency_type: <string>` voor toekomstige UI-filtering, geen validatie op waarde.
+
+### Leerpad-schema (schema 1.0)
+
+Leerpaden leven in `data/concepten/leerpaden/<programmaonderdeel>.yaml`. Schema:
+
+```yaml
+programmaonderdeel: "1.4"
+titel: "Geconsolideerde jaarrekening"
+status: voorgesteld                          # voorgesteld → gecureerd
+schema_version: 1.0
+hoofdstukken:
+  - type: oriëntatie                          # LLM-glue, geen records-binding
+    titel: "Wat is consolideren? Waarom?"
+    rationale_hint: "groep-fictie + economische realiteit + bescherming derden"
+
+  - type: competentie                         # references één competentie-yaml
+    competentie_id: bepalen-consolidatieverplichting
+
+  - type: thematisch                          # concept-cluster zonder pedagogische omhulling
+    titel: "De drie methodes in detail"
+    concepten:
+      - integrale-consolidatie
+      - evenredige-consolidatie
+      - vermogensmutatiemethode
+
+_provenance:
+  voorgesteld_door: "leerpad-propose-v1-<run-id>"
+  voorgesteld_op: "<iso>"
+  gecureerd_door: null
+  gecureerd_op: null
+```
+
+Drie hoofdstuk-types:
+- **`oriëntatie`** — LLM-only, voor "wat is X?" / "waarom?" / introductie. Geen records-binding maar oriëntatie-prompt verplicht expliciete verwijzing naar bestaande concept-records (anti-fabricatie).
+- **`competentie`** — references één competentie-yaml via `competentie_id`.
+- **`thematisch`** — concept-cluster zonder pedagogische omhulling (referentie-luik).
 
 ### Edge-types (initieel ~20, mag groeien)
 

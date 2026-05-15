@@ -6,6 +6,7 @@
 
 ## Changelog
 
+- **2026-05-15** — §14 (Fase D: Competentie-destillatie), §15 (Fase E: Leerpad-opstelling), §16 (gaps.json type-discriminator) toegevoegd. Drie-lagen leermateriaal-uitbreiding (BRON → CONCEPT → COMPETENTIE → minicursus) gegrond in pedagogische output-vraag. Examenvragen blijven uitgesloten als input (anti-circulariteit); exam_patterns is wel toegestaan.
 - **2026-05-15** — §13 toegevoegd: monotone enrichment-loop (4-bloks-flow EXTRACT → VERIFY → ENRICH → AUTO-MERGE+LOG). Records worden PO-overschrijdend flat in `data/concepten/records/<id>.json` opgeslagen; PO-linkage via `linked_anchors[]` per record. Gaps en enrich-warnings globaal in `data/extractie/`.
 - **2026-05-15** — §4 bundling-strategie herzien naar knee-detectie (97.2% recall op gold-set).
 - **2026-05-15** — §5.1 must-have-detectie via drie emergente mechanismen (geen pre-curated checklist).
@@ -371,6 +372,63 @@ Geen vijf aspect-passes, geen aparte minicursus-stress-test als tooling-stap. De
 - `prompts/concept-extractie-v3.md` — herziene EXTRACT-prompt met 5 algemene principes
 - `prompts/concept-verify-v1.md` — VERIFY-prompt (model: Sonnet)
 - `prompts/concept-enrich-v1.md` — ENRICH-prompt met monotoon contract + discovery-signaal
+
+### 14. Fase D — Competentie-destillatie (schema 1.3, 2026-05-15)
+
+Voorafgaande fasen (A → C, plus monotone enrichment-loop) produceren concept-records met grounded inhoud. Voor leermateriaal-generatie (ADR-010) is een tussenlaag nodig die **"hoe doe je X"** beantwoordt — pedagogische competenties die het examenprogramma toetst maar die versplinterd zit over meerdere concept-records.
+
+**Input** (strikt — anti-circulariteit):
+- `data/programma/programma.json` (taken + kenniselementen per PO)
+- `data/programma/anchors.json` (verbose + synoniemen)
+- `data/concepten/records/*.json` (gefilterd op `linked_anchors` van de doelPO)
+- `data/programma/exam_patterns/*.json` (vraagvormen + complexiteitspatronen) — **WEL** input
+- `data/programma/examen_vragen/*.json` — **NIET** input (zou circulariteit creëren: concept-set die we testen wordt afgeleid uit testvragen)
+
+**Output**: `data/concepten/competenties/<id>.yaml` met `status: voorgesteld`. Schema in ADR-007 §"Competentie-schema". Anti-fabricatie afgedwongen door `tools/leermateriaal/lib/validate_competentie.py`:
+
+- `gebaseerd_op_concepten` ≥ 2 verplicht
+- Elke stap heeft `grondslag.ref` (concept-wikilink, wettekst, of `type: praktijk` met motivering)
+- `procedure_grondslag.wettelijk_pct + praktijk_pct == 100`
+- `praktijk_pct > 50` → mens-review verplicht vóór `gecureerd`
+- Wikilinks moeten bestaande concept-records aanwijzen
+- Voorbeelden alleen op basis van bron-chunks van gerefereerde records
+
+**Workflow**: Opus-subagent (via `tools/leermateriaal/propose_competenties.py`) stelt ~6-10 competenties voor per PO. Mens-curatie is licht (5 min per competentie) — geen herschrijven, alleen status → `gecureerd` of `afgewezen`.
+
+### 15. Fase E — Leerpad-opstelling (schema 1.3, 2026-05-15)
+
+Leerpad ordent competenties + concepten + oriëntatie-blokken in een didactische volgorde per PO. Vervangt het ad-hoc "anchor-volgorde wordt minicursus-volgorde"-patroon dat empirisch te versnipperd bleek (PO 1.4 stress-test).
+
+**Input**: alle competenties van een PO + concept-records voor `thematisch`-hoofdstukken + `programma.intro_tekst`.
+
+**Output**: `data/concepten/leerpaden/<X.Y>.yaml` met drie hoofdstuk-types:
+- `oriëntatie` (LLM-only, beginselen)
+- `competentie` (refereert competentie-yaml)
+- `thematisch` (concept-cluster zonder competentie-omhulling)
+
+Schema in ADR-007 §"Leerpad-schema". Opus-subagent (via `tools/leermateriaal/propose_leerpad.py`) stelt voor; mens curates.
+
+### 16. Gaps.json schema-uitbreiding (2026-05-15)
+
+`data/extractie/gaps.json` wordt het centrale gaps-overzicht voor de drie lagen, met `aspect_type`-discriminator:
+
+| `aspect_type` | Verwerking | Bron |
+|---|---|---|
+| `concept-gap` | ENRICH-pass op records | VERIFY of discovery tijdens ENRICH |
+| `competentie-gap` | Fase D heractivatie of mens-curatie | validate_competentie of mens |
+| `bron-gap` | Buiten loop — mens beslist over corpus-uitbreiding | Extractie- of competentie-pass die structureel tekortschoot |
+
+`tools/extractie/run_enrichment_cycle.py` filtert op `aspect_type IN (concept-gap, competentie-gap)` als open-werk-criterium. `bron-gap` blokkeert nooit een cyclus.
+
+**Nieuwe `aspect`-waarden** (schema 1.3):
+- `rationale.ontbreekt` — record zonder top-level `rationale`
+- `rationale.bouwsteen_ontbreekt` — bouwsteen van een centraal concept zonder rationale (signaal, geen blokker)
+- `in_praktijk.aspect_te_grof` — `aspect`-tekst zo generiek dat slug onbruikbaar
+- `competentie.stappen.te_vaag` — competentie-stap zonder concrete input/output
+- `competentie.grondslag.ontbreekt` — competentie-stap zonder `grondslag.ref`
+- `competentie.voorbeelden.ontbreken` — competentie zonder `voorbeelden[]`
+
+**Migratie** van bestaande `_bron_voorstellen.json` naar `gaps.json` (`aspect_type: bron-gap`) gebeurt eenmalig via `tools/extractie/migrate_bron_voorstellen.py`. Oude file wordt verwijderd (CLAUDE.md regel 9 — geen leftovers).
 
 ## Empirische onderbouwing
 
