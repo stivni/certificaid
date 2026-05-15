@@ -141,7 +141,10 @@ def main() -> None:
         if not CONCEPT_DIR.exists():
             print(f"Concept_records-map niet gevonden: {CONCEPT_DIR}", file=sys.stderr)
             sys.exit(1)
-        bestanden = sorted(CONCEPT_DIR.glob("*.json"))
+        # rglob: ook subdirectories per PO (data/concept_records/1.4/*.json etc.)
+        # Filter underscore-files (_voorgestelde_types.yaml etc.)
+        bestanden = sorted(p for p in CONCEPT_DIR.rglob("*.json")
+                           if not p.name.startswith("_"))
         if not bestanden:
             print("Geen concept-records gevonden.", file=sys.stderr)
             sys.exit(0)
