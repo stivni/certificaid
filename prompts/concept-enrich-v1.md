@@ -8,20 +8,22 @@
 
 ---
 
-## HARD CONTRACT — VERPLICHT
+## MONOTOON CONTRACT — VERPLICHT
 
 Deze regels zijn niet onderhandelbaar. Bij twijfel: kies de meest conservatieve interpretatie.
 
+**Verbetering is welkom, regressie niet.** Je mag inhoudelijk verbeteren — heldere herformulering, scherper voorbeeld, betere afbakening. Voorwaarde: essentiële informatie behouden, geen regressie. `auto_merge.py` garandeert dat geen toplevel-veld weg kan zonder `corrected_from`-marker.
+
 ### 1 — Behoud alles
 
-Behoud álle bestaande velden, veld-waarden en array-items in het record tenzij je een correctie uitvoert met motivering (zie regel 2). Toevoegen is altijd toegestaan. Weglaten is verboden zonder motivering.
+Behoud álle bestaande velden, veld-waarden en array-items in het record tenzij je een correctie uitvoert met motivering (zie regel 2). **Toevoegen**: vrij toegestaan, met provenance. **Weglaten**: verboden zonder motivering via `corrected_from`.
 
-### 2 — Corrigeren mag, maar met bewijs
+### 2 — Herformuleren en corrigeren mag, maar met bewijs
 
-Als een bestaand veld inhoudelijk onjuist is (aantoonbaar op basis van de bron-bundle), mag je corrigeren. Verplicht:
+Als een bestaand veld inhoudelijk verbeterd kan worden (helderdere formulering, scherper voorbeeld, betere afbakening) of onjuist is (aantoonbaar op basis van de bron-bundle), mag je aanpassen. Verplicht bij elke aanpassing:
 - Voeg `corrected_from` toe met de **volledige oude waarde** (kopie van het oorspronkelijke veld).
-- Voeg `correction_reason` toe met een zin die de fout en de bron beschrijft.
-- Voeg `correction_source` toe: de chunk-id of bron die de correctie onderbouwt.
+- Voeg `correction_reason` toe met een zin die beschrijft **waarom de nieuwe versie beter is** (bij herformulering) of de fout en de bron beschrijft (bij inhoudelijke correctie).
+- Voeg `correction_source` toe: de chunk-id of bron die de aanpassing onderbouwt.
 
 Voorbeeld:
 ```json
@@ -36,9 +38,9 @@ Voorbeeld:
 }
 ```
 
-### 3 — Verwijderen verboden
+### 3 — Verwijderen: alleen met expliciete motivering
 
-Je verwijdert geen velden en geen array-items. Zelfs als je een item inhoudelijk zwak vindt — behoud. Bij twijfel: behoud.
+Je verwijdert geen velden en geen array-items zonder `corrected_from` + `correction_reason` waarin je expliciet motiveert dat het oude foutief, dubbel of inhoudelijk vervangen is. Geen stille deletes. Bij twijfel "verbeter ik dit of maak ik het slechter?": behoud + voeg toe.
 
 ### 4 — Alleen gevraagde gaps
 
@@ -108,6 +110,28 @@ Update het top-level `_provenance`-block:
 ```
 
 Als `enrich_runs` al bestaat: voeg het nieuwe object toe aan de array (behoud eerder objects).
+
+---
+
+## Discovery-signaal
+
+Als je tijdens ENRICH een probleem ontdekt **buiten de huidige gap-set** (overlappende records, ontbrekend kruisverband, onverwachte tegenstrijdigheid in de bronnen), voeg dan een nieuwe entry toe aan `data/extractie/gaps.json`:
+
+```json
+{
+  "record_id": "...",
+  "aspect": "...",
+  "reden": "<wat je ontdekte tijdens ENRICH>",
+  "prio": "hoog | midden | laag",
+  "geconstateerd_door": "<huidige enrich-run-id>",
+  "geconstateerd_op": "<ISO-8601-UTC>",
+  "status": "discovered-during-enrich"
+}
+```
+
+Gebruik het status-veld `"discovered-during-enrich"` — dit onderscheidt jouw ontdekking van reguliere VERIFY-gaps. De volgende VERIFY-ronde in dezelfde enrichment-cyclus pikt deze entries op als open gaps. Geen mens-tussenkomst nodig.
+
+**Drempel**: meld alleen concrete, aantoonbare problemen. Geen speculatieve gaps. Elk discovery-signaal heeft een concrete aanleiding (tekstuele verwijzing naar niet-bestaand concept, directe tegenstrijdigheid tussen twee records, etc.).
 
 ---
 

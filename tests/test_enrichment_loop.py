@@ -6,11 +6,17 @@ Controleert:
 2. --help werkt (argparse-configuratie is correct).
 3. Mechanische coherentie-check geeft correcte output voor testdata.
 4. auto_merge helpers werken correct op dummy-records.
+5. VERIFY_MODEL constante = "claude-sonnet-4-6" (ADR-008 §13.2).
+6. run_enrichment_cycle --help werkt.
+7. classify_vragen_naar_programmaonderdelen --help werkt.
+8. Examen-mapping-loader falls-back op lege lijst bij ontbrekend bestand.
+9. Monotoon-terminologie aanwezig in concept-enrich-v1.md.
 """
 
 from __future__ import annotations
 
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -316,3 +322,77 @@ def test_voeg_gaps_toe_deduplicatie(tmp_path):
 
     inhoud = json.loads(gaps_bestand.read_text())
     assert len(inhoud) == 1
+
+
+# ─── Nieuwe smoke-tests (verbeteringen A–E) ─────────────────────────────────────
+
+
+def test_verify_model_constante():
+    """VERIFY_MODEL in verify_records.py is 'claude-sonnet-4-6' (ADR-008 §13.2)."""
+    import tools.extractie.verify_records as module
+    assert hasattr(module, "VERIFY_MODEL"), "VERIFY_MODEL-constante ontbreekt in verify_records.py"
+    assert module.VERIFY_MODEL == "claude-sonnet-4-6", (
+        f"VERIFY_MODEL is '{module.VERIFY_MODEL}', verwacht 'claude-sonnet-4-6'"
+    )
+
+
+def test_run_enrichment_cycle_help():
+    """run_enrichment_cycle --help retourneert exit-code 0."""
+    resultaat = _run_help("tools.extractie.run_enrichment_cycle")
+    assert resultaat.returncode == 0, (
+        f"run_enrichment_cycle --help crashte met code {resultaat.returncode}:\n{resultaat.stderr}"
+    )
+    assert "--programmaonderdeel" in resultaat.stdout
+    assert "--max-iteraties" in resultaat.stdout
+
+
+def test_classify_vragen_help():
+    """classify_vragen_naar_programmaonderdelen --help retourneert exit-code 0."""
+    resultaat = _run_help("tools.examen.classify_vragen_naar_programmaonderdelen")
+    assert resultaat.returncode == 0, (
+        f"classify_vragen_naar_programmaonderdelen --help crashte met code "
+        f"{resultaat.returncode}:\n{resultaat.stderr}"
+    )
+    assert "--seed-po-14" in resultaat.stdout
+
+
+def test_examen_mapping_fallback_bij_ontbrekend_bestand(tmp_path, monkeypatch):
+    """laad_examen_vragen_voor_programmaonderdeel geeft lege lijst bij ontbrekend classificatie-bestand."""
+    import tools.extractie.verify_records as module
+
+    # Patch het classificatie-bestand naar een niet-bestaand pad
+    monkeypatch.setattr(
+        module,
+        "PROGRAMMAONDERDEEL_CLASSIFICATIE_BESTAND",
+        tmp_path / "niet-bestaand.json",
+    )
+    # Patch de examen-vragen-dir naar een lege tmp-dir zodat ook de fallback-glob leeg is
+    monkeypatch.setattr(module, "EXAMEN_VRAGEN_DIR", tmp_path)
+
+    resultaat = module.laad_examen_vragen_voor_programmaonderdeel("1.4")
+    # Moet een lege lijst teruggeven (geen crash), niet een exception
+    assert isinstance(resultaat, list)
+    assert resultaat == []
+
+
+def test_monotoon_contract_in_enrich_prompt():
+    """concept-enrich-v1.md bevat de 'monotoon contract' terminologie (ADR-008 §13.3)."""
+    enrich_prompt = ROOT / "prompts" / "concept-enrich-v1.md"
+    assert enrich_prompt.exists(), f"{enrich_prompt} bestaat niet"
+    inhoud = enrich_prompt.read_text(encoding="utf-8").lower()
+    assert "monotoon contract" in inhoud, (
+        "Verwacht 'monotoon contract' in concept-enrich-v1.md (ADR-008 §13.3)"
+    )
+    # Mag geen ongemotiveerd 'append-only' meer bevatten als hoofdcontract-label
+    assert "## hard contract" not in inhoud, (
+        "Verouderd '## HARD CONTRACT' kopje aangetroffen — moet '## MONOTOON CONTRACT' zijn"
+    )
+
+
+def test_discovery_signaal_in_enrich_prompt():
+    """concept-enrich-v1.md bevat de 'discovery-signaal' sectie (verbetering C)."""
+    enrich_prompt = ROOT / "prompts" / "concept-enrich-v1.md"
+    inhoud = enrich_prompt.read_text(encoding="utf-8").lower()
+    assert "discovery-signaal" in inhoud or "discovered-during-enrich" in inhoud, (
+        "Verwacht 'discovery-signaal' of 'discovered-during-enrich' in concept-enrich-v1.md"
+    )

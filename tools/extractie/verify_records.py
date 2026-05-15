@@ -3,8 +3,11 @@ Subagent-runner voor blok 2 VERIFY (ADR-008 §13.2 + §13.7).
 
 Laadt concept-records voor een programmaonderdeel (via linked_anchors[]),
 voert mechanische coherentie-checks uit, en schrijft instructies voor een
-Opus-subagent die de drie VERIFY-checks uitvoert (examenvraag-simulatie,
+Sonnet-subagent die de drie VERIFY-checks uitvoert (examenvraag-simulatie,
 minicursus-haalbaarheid, semantische coherentie).
+
+Judge-werk vereist geen Opus-synthese (ADR-008 §13.2). VERIFY draait op
+VERIFY_MODEL = "claude-sonnet-4-6" — bespaart budget en tijd.
 
 Gebruik:
   python3 -m tools.extractie.verify_records --programmaonderdeel 1.4
@@ -19,6 +22,10 @@ import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
+# Model voor de VERIFY-subagent (ADR-008 §13.2).
+# Judge-werk vereist geen Opus-synthese — Sonnet volstaat en bespaart budget.
+VERIFY_MODEL = "claude-sonnet-4-6"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 RECORDS_DIR = ROOT / "data" / "concept_records"
@@ -76,24 +83,90 @@ def laad_anchors_voor_programmaonderdeel(programmaonderdeel_id: str) -> list[dic
     ]
 
 
-def laad_examen_vragen_voor_programmaonderdeel(programmaonderdeel_id: str) -> list[dict]:
-    """Laad examenvragen die gelabeld zijn met concepten uit het programmaonderdeel.
+PROGRAMMAONDERDEEL_CLASSIFICATIE_BESTAND = (
+    EXAMEN_VRAGEN_DIR / "_programmaonderdeel_classificatie.json"
+)
 
-    Geeft een platte lijst van vraag-objecten terug, aangevuld met labels
-    uit de bijbehorende labels-bestanden.
+
+def laad_examen_vragen_voor_programmaonderdeel(programmaonderdeel_id: str) -> list[dict]:
+    """Laad examenvragen voor een programmaonderdeel.
+
+    Strategie (in volgorde van prioriteit):
+
+    1. **Semantische classificatie** (primair): leest
+       `data/examen_vragen/_programmaonderdeel_classificatie.json` en filtert
+       vragen waar `programmaonderdeel_id` in `programmaonderdelen[]` zit.
+       Dit is de correcte aanpak want `vak_code_in_pdf` gebruikt de oude nummering.
+
+    2. **Fallback** op vak_code_in_pdf via -labels.json bestanden:
+       wordt gebruikt als de classificatie-json ontbreekt of geen vragen levert.
+       Geeft een waarschuwing zodat de beheerder de classificatie kan aanvullen.
+
+    Geeft een platte lijst van vraag-objecten terug.
     """
-    vragen: list[dict] = []
+    # Strategie 1: semantische classificatie via _programmaonderdeel_classificatie.json
+    if PROGRAMMAONDERDEEL_CLASSIFICATIE_BESTAND.exists():
+        try:
+            classificatie = json.loads(
+                PROGRAMMAONDERDEEL_CLASSIFICATIE_BESTAND.read_text(encoding="utf-8")
+            )
+            geclassificeerde_ids = {
+                vraag_id
+                for vraag_id, entry in classificatie.items()
+                if programmaonderdeel_id in entry.get("programmaonderdelen", [])
+            }
+
+            if geclassificeerde_ids:
+                vragen: list[dict] = []
+                for bestand in sorted(EXAMEN_VRAGEN_DIR.glob("*.json")):
+                    if bestand.name.startswith("_") or bestand.name.endswith("-labels.json"):
+                        continue
+                    try:
+                        data = json.loads(bestand.read_text(encoding="utf-8"))
+                        for vraag in data.get("vragen", []):
+                            if vraag.get("id", "") in geclassificeerde_ids:
+                                classificatie_entry = classificatie.get(vraag["id"], {})
+                                vragen.append({
+                                    **vraag,
+                                    "_classificatie": classificatie_entry,
+                                })
+                    except (json.JSONDecodeError, OSError):
+                        pass
+                return vragen
+
+            # Classificatie bestaat maar heeft geen vragen voor dit PO
+            print(
+                f"  [WAARSCHUWING] {PROGRAMMAONDERDEEL_CLASSIFICATIE_BESTAND.name} "
+                f"bevat geen vragen voor programmaonderdeel {programmaonderdeel_id}. "
+                f"Voer tools/examen/classify_vragen_naar_programmaonderdelen.py uit "
+                f"om de classificatie aan te vullen. Fallback op vak_code_in_pdf.",
+                file=sys.stderr,
+            )
+        except json.JSONDecodeError:
+            print(
+                f"  [WAARSCHUWING] {PROGRAMMAONDERDEEL_CLASSIFICATIE_BESTAND.name} "
+                f"is geen geldige JSON. Fallback op vak_code_in_pdf.",
+                file=sys.stderr,
+            )
+    else:
+        print(
+            f"  [INFO] {PROGRAMMAONDERDEEL_CLASSIFICATIE_BESTAND.name} niet gevonden. "
+            f"Fallback op vak_code_in_pdf (oude nummering — mogelijk incomplete matching). "
+            f"Overweeg tools/examen/classify_vragen_naar_programmaonderdelen.py te draaien.",
+            file=sys.stderr,
+        )
+
+    # Strategie 2: fallback op vak_code_in_pdf via -labels.json
+    vragen = []
     for labels_bestand in sorted(EXAMEN_VRAGEN_DIR.glob("*-labels.json")):
         labels_data = json.loads(labels_bestand.read_text(encoding="utf-8"))
         examen_id = labels_data.get("examen_id", "")
-        # Laad de bijbehorende vragen
         vragen_bestand = EXAMEN_VRAGEN_DIR / f"{examen_id}.json"
         if not vragen_bestand.exists():
             continue
         vragen_data = json.loads(vragen_bestand.read_text(encoding="utf-8"))
         vraag_by_id = {v["id"]: v for v in vragen_data.get("vragen", [])}
         for label in labels_data.get("labels", []):
-            # Filter op programmaonderdeel via vak_code_in_pdf of vermoedelijke_concepten
             vraag_id = label.get("vraag_id", "")
             vraag = vraag_by_id.get(vraag_id, {})
             vak_code = vraag.get("vak_code_in_pdf", "")
@@ -222,11 +295,12 @@ def schrijf_subagent_instructies(
         f"[WAARSCHUWING: {VERIFY_PROMPT} niet gevonden — laad prompts/concept-verify-v1.md handmatig]"
     )
 
-    instructies = f"""# VERIFY-run {run_id} — Instructies voor Opus-subagent
+    instructies = f"""# VERIFY-run {run_id} — Instructies voor Sonnet-subagent
 
 **Programmaonderdeel**: {programmaonderdeel_id}
 **Run-id**: {run_id}
 **Gegenereerd op**: {datetime.now(timezone.utc).isoformat(timespec="seconds")}
+**Model**: {VERIFY_MODEL} (judge-werk vereist geen Opus-synthese — ADR-008 §13.2)
 
 ## Jouw taak
 

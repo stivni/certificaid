@@ -1,0 +1,52 @@
+{
+  "2013-1-vr6": {
+    "vraag_id": "2013-1-vr6",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Geconsolideerde jaarrekening",
+    "programmaonderdelen": [
+      "1.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Vraag gaat over de opstelling van een geconsolideerde jaarrekening (vermelding dochtervennootschappen in balans) — kerninhoud van PO 1.4."
+  },
+  "2013-1-vr7": {
+    "vraag_id": "2013-1-vr7",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Geconsolideerde jaarrekening",
+    "programmaonderdelen": [
+      "1.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Vraag over afsluitingsdatum geconsolideerde jaarrekening — procedureel aspect van PO 1.4."
+  },
+  "2014-1-vr7": {
+    "vraag_id": "2014-1-vr7",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Geconsolideerde jaarrekening",
+    "programmaonderdelen": [
+      "1.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Vraag over afsluitingsdatum geconsolideerde jaarrekening — procedureel aspect van PO 1.4."
+  },
+  "2014-1-vr8": {
+    "vraag_id": "2014-1-vr8",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Geconsolideerde jaarrekening",
+    "programmaonderdelen": [
+      "1.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Tabel invullen voor moeder M met deelnemingen in A (70 %), B (30 %), C (60 %), D (20 %) — consolidatiemethode-keuze (integrale vs. evenredige vs. vermogensmutatie). Kerninhoud van PO 1.4."
+  },
+  "2015-1-vr11": {
+    "vraag_id": "2015-1-vr11",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Geconsolideerde jaarrekening",
+    "programmaonderdelen": [
+      "1.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Vraag definieert positief consolidatieverschil en vraagt de vier voornaamste oorzaken — kernbegrip van PO 1.4 (goodwill bij consolidatie)."
+  }
+}

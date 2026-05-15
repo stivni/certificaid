@@ -5,15 +5,19 @@ Vergelijkt concept-records op schijf met een git-referentie (default HEAD).
 Herstelt verdwenen toplevel-velden (hard merge) en logt verdwenen array-items
 (soft log). Geen LLM, geen mens-blokkade.
 
+Garandeert het monotoon contract (ADR-008 §13.3): verbetering is welkom,
+regressie niet. Een toplevel-veld kan niet verdwijnen zonder corrected_from-marker.
+
 Twee niveaus (ADR-008 §13.4):
-  Hard (auto-merge):
+  Hard (auto-merge) — monotoon contract afdwingen op toplevel-velden:
     Een toplevel-veld is verdwenen t.o.v. git-ref EN heeft geen corrected_from-marker
     in het nieuwe record → het script zet het veld terug. Logt naar enrich-warnings.json
     met action "auto-merged".
 
-  Soft (log):
+  Soft (log) — signaleer mogelijke regressie in array-items:
     Een array-item binnen een behouden veld is verdwenen → logt naar enrich-warnings.json
-    met action "logged-only". Geen automatische actie.
+    met action "logged-only". Geen automatische actie; latere VERIFY-ronde of mens
+    kan terugkijken.
 
 Gebruik:
   python3 -m tools.extractie.auto_merge

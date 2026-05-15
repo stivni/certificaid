@@ -281,7 +281,7 @@ Gedistilleerd uit v2-bevindingen op PO 1.4, maar generiek geformuleerd:
 
 #### 13.2 VERIFY — read-only judge-agent
 
-Eén Opus-subagent met enkel een oordeels-hoedje. Voert drie checks uit zonder records aan te raken:
+Eén **Sonnet**-subagent met enkel een oordeels-hoedje (judge-werk vereist geen Opus-synthese). Voert drie checks uit zonder records aan te raken:
 
 1. **Examenvraag-simulatie**: kan de agent de top-examenvragen voor de gescopete anchors *mentaal* oplossen uit de records (geen tekst produceren)? Strandt-punten worden gelogd.
 2. **Minicursus-haalbaarheid**: kan de agent *mentaal* een minicursus voor de gescopete anchors uitstippelen? Ontbrekende of te dunne records worden gelogd.
@@ -292,6 +292,8 @@ Eén Opus-subagent met enkel een oordeels-hoedje. Voert drie checks uit zonder r
    - Twee records die hetzelfde fenomeen behandelen? (LLM-deel)
 
 **Output**: globale append-only `data/extractie/gaps.json`. Géén writes naar records.
+
+**Open ontwerp-vraag**: de huidige mechanische coherentie-checks zijn schema-veld-gebonden (`berekeningsmethode[]` mist `concreet_voorbeeld`). Dit faalt zodra hetzelfde inhoudelijk via een ander veld wordt geleverd (bv. `stappen[]` met rekenwerk). Volgende iteratie: content-pattern-based checks die over alle velden scannen op eigenschappen (heeft-rekenwerk, heeft-procedure, heeft-vergelijking) in plaats van veld-existence. Schema-onafhankelijk, robuust bij schema-evolutie. Niet in scope van huidige bouw — vastgelegd als open punt.
 
 Schema per gap-entry:
 ```json
@@ -306,15 +308,17 @@ Schema per gap-entry:
 }
 ```
 
-#### 13.3 ENRICH — write-only agent met append-only contract
+#### 13.3 ENRICH — write-only agent met monotoon contract
 
 Eén Opus-subagent met enkel een schrijfhoedje. Input: bestaande records + `gaps.json` + bron-bundles (uit Fase B). Output: aangepaste records op dezelfde plek (`data/concept_records/<id>.json`).
 
-**Hard contract** in de prompt:
-- *Behoud alles* wat in het bestaande record staat tenzij je expliciet corrigeert.
-- *Corrigeren mag* — maar verplicht met `corrected_from` (de oude waarde) + `correction_reason` (1 zin) + bron.
-- *Verwijderen zonder motivering verboden.* Bij twijfel: behoud.
+**Monotoon contract** in de prompt:
+- *Behoud alles* wat in het bestaande record staat tenzij je expliciet corrigeert of verbetert.
+- *Herformuleren en corrigeren mag* — maar verplicht met `corrected_from` (de oude waarde) + `correction_reason` (1 zin waarom de nieuwe versie beter is) + bron.
+- *Verwijderen zonder motivering verboden.* Bij twijfel: behoud + voeg toe.
 - *Niet-gevraagde velden toevoegen verboden.* Werk binnen wat in `gaps.json` voor dit record staat. Bestaande gouden velden blijven; nieuwe velden alleen als gap dat vraagt.
+
+Verbetering is welkom, regressie niet. `auto_merge.py` garandeert dat geen toplevel-veld weg kan zonder `corrected_from`-marker.
 
 #### 13.4 AUTO-MERGE + LOG — mechanisch script
 
@@ -348,19 +352,22 @@ Géén LLM, géén mens-blockade. Twee niveaus:
 #### 13.6 Loop-volgorde, niet altijd alle blokken
 
 - **Eerste pas per PO**: blok 1 (EXTRACT) + blok 2 (VERIFY). Als gaps leeg → klaar.
-- **Bij gaps**: blok 3 (ENRICH) + blok 4 (AUTO-MERGE). Daarna opnieuw blok 2 (VERIFY) — maar in regel hooguit één enrich-cyclus, geen eindeloze loop.
+- **Bij gaps**: blok 3 (ENRICH) + blok 4 (AUTO-MERGE). Daarna opnieuw blok 2 (VERIFY) — maar in regel hooguit één enrich-cyclus, geen eindeloze loop. Zie `run_enrichment_cycle.py` voor geautomatiseerde orchestratie.
+- **Discovery-signal**: ENRICH mag nieuwe gaps toevoegen met `status: "discovered-during-enrich"`. Deze worden in de volgende VERIFY-ronde van dezelfde cyclus als open gaps behandeld.
 - **Bij bron-update** (nieuwe wettekst, gewijzigde norm): blok 2 (VERIFY) op alle records die de gewijzigde chunk-id gebruikten + blok 3 indien gaps.
 
 Geen vijf aspect-passes, geen aparte minicursus-stress-test als tooling-stap. De minicursus is een *eind-deliverable* (na alle blokken), niet een test-tool.
 
 #### 13.7 Tooling
 
-- `tools/extractie/verify_records.py` — subagent-runner voor blok 2 (VERIFY)
+- `tools/extractie/verify_records.py` — subagent-runner voor blok 2 (VERIFY; model: `VERIFY_MODEL = "claude-sonnet-4-6"`)
 - `tools/extractie/enrich_records.py` — subagent-runner voor blok 3 (ENRICH)
-- `tools/extractie/auto_merge.py` — mechanisch script voor blok 4 (AUTO-MERGE + LOG)
+- `tools/extractie/auto_merge.py` — mechanisch script voor blok 4 (AUTO-MERGE + LOG; garandeert monotoon contract)
+- `tools/extractie/run_enrichment_cycle.py` — orchestreert de volledige VERIFY→ENRICH→AUTO-MERGE cyclus autonoom tot 0 open gaps (met max-iteraties)
+- `tools/examen/classify_vragen_naar_programmaonderdelen.py` — one-off classificatie van examenvragen naar programmaonderdelen via Sonnet-subagent
 - `prompts/concept-extractie-v3.md` — herziene EXTRACT-prompt met 5 algemene principes
-- `prompts/concept-verify-v1.md` — VERIFY-prompt
-- `prompts/concept-enrich-v1.md` — ENRICH-prompt met append-only contract
+- `prompts/concept-verify-v1.md` — VERIFY-prompt (model: Sonnet)
+- `prompts/concept-enrich-v1.md` — ENRICH-prompt met monotoon contract + discovery-signaal
 
 ## Empirische onderbouwing
 
