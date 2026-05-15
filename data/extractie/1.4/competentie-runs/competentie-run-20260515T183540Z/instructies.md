@@ -1,3 +1,53 @@
+# Competentie-destillatie-run competentie-run-20260515T183540Z — Instructies voor Opus
+
+**Programmaonderdeel**: 1.4
+**Run-id**: competentie-run-20260515T183540Z
+**Gegenereerd op**: 2026-05-15T18:35:40+00:00
+**Model**: claude-opus-4-7
+
+## Jouw taak
+
+Destilleer 5–12 competentie-voorstellen voor programmaonderdeel 1.4
+conform `prompts/competentie-destillatie-v1.md`.
+
+**KRITISCH**: Gebruik GEEN examenvragen als input. Alleen de meegeleverde
+concept-records, anchors en exam_patterns.
+
+## Anti-fabricatie-regels (hard — herhaling voor zekerheid)
+
+1. Stel ALLEEN competenties voor waarvan de procedure mechanisch afleidbaar is
+   uit de gerefereerde concept-records hieronder.
+2. Elke stap MOET grondslag.ref hebben — [[concept-id]], wettekst, of
+   type: praktijk met expliciete motivering.
+3. gebaseerd_op_concepten ≥ 2 verplicht.
+4. Voorbeelden ALLEEN op basis van scenario's uit de definitie-teksten hieronder.
+5. procedure_grondslag.wettelijk_pct + praktijk_pct == 100.
+
+## Input-bestanden
+
+- **Records** (30 stuks):
+  
+- `belangenpercentage` (begrip): Het economische eigendomsaandeel dat een moedervennootschap (direct en indirect, naar rato vermenigv...  - `consolidatiekring` (begrip): De verzameling entiteiten die in de geconsolideerde jaarrekening worden opgenomen: de consoliderende...  - `consolidatieverplichting` (regel): Elke moedervennootschap die, alleen of gezamenlijk, één of meer dochterondernemingen controleert, is...  - `consolidatieverschil` (fenomeen): Het verschil dat ontstaat bij de eerste consolidatie tussen (a) de aanschaffingswaarde van een deeln...  - `consortium` (actor): Een horizontale groep van vennootschappen die niet door een onderlinge moeder-dochter-relatie verbon...  - `controle` (begrip): De bevoegdheid in rechte of in feite om een beslissende invloed uit te oefenen op de aanstelling van...  - `controlepercentage` (begrip): Het percentage van de stemrechten dat een vennootschap (direct of indirect via dochterondernemingen)...  - `dochteronderneming` (actor): De vennootschap (dochtervennootschap) of het organisme (in ruime zin volgens WVV art. 3:22) ten opzi...  - `eerste-consolidatie` (fenomeen): De boekjaar-overschrijdende boekhoudkundige verwerking waarbij een nieuw verworven (of voor het eers...  - `evenredige-consolidatie` (methode): Een gemeenschappelijke dochteronderneming (een vennootschap waarover een beperkt aantal vennoten gez...  - `exclusieve-controle` (begrip): De controle die één vennootschap alleen uitoefent over een andere vennootschap, in tegenstelling tot...  - `geassocieerde-onderneming` (actor): Een onderneming, andere dan een dochteronderneming of een gemeenschappelijke dochteronderneming, waa...  - `geconsolideerd-jaarverslag` (begrip): Het door het bestuursorgaan opgestelde toelichtende verslag dat samen met de geconsolideerde jaarrek...  - `geconsolideerde-jaarrekening` (begrip): De jaarrekening die het vermogen, de financiële positie en het resultaat van het geconsolideerde geh...  - `gemeenschappelijke-dochteronderneming` (actor): De vennootschap of onderneming ten opzichte waarvan een gezamenlijke controle bestaat: een beperkt a...  - `gezamenlijke-controle` (begrip): De controle die een beperkt aantal vennoten samen uitoefenen, wanneer zij zijn overeengekomen dat be...  - `groep-van-beperkte-omvang` (begrip): Een groep die op geconsolideerde of geaggregeerde basis niet meer dan één van de criteria van WVV ar...  - `groottecriteria-consolidatie` (drempel): Een moedervennootschap is vrijgesteld van de verplichting om een geconsolideerde jaarrekening en jaa...  - `horizontale-consolidatie` (procedure): De consolidatietechniek die wordt toegepast wanneer vennootschappen onder centrale leiding staan zon...  - `ifrs-consolidatieraamwerk` (begrip): Het geheel van IAS/IFRS-standaarden die het wettelijk kader voor geconsolideerde jaarrekeningen onde...  - `integrale-consolidatie` (methode): De geconsolideerde jaarrekening voorstellen alsof het geheel van de consoliderende vennootschap en h...  - `intragroep-eliminaties` (procedure): Bij de opstelling van de geconsolideerde jaarrekening moeten alle wederzijdse opbrengsten, kosten, v...  - `invloed-van-betekenis` (begrip): De macht om deel te nemen aan de financiële en operationele beleidsbeslissingen van een andere onder...  - `minderheidsbelangen` (fenomeen): Het deel van het eigen vermogen en van het resultaat van integraal geconsolideerde dochters dat kan ...  - `moedervennootschap` (actor): De vennootschap die een controlebevoegdheid uitoefent over een andere vennootschap (de dochtervennoo...  - `step-acquisition` (fenomeen): Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen ver...  - `uniforme-waarderingsregels-consolidatie` (regel): De consoliderende vennootschap moet, onverminderd KB WVV art. 3:118, voor haar geconsolideerde jaarr...  - `vermogensmutatiemethode` (methode): Een deelneming wordt in de geconsolideerde jaarrekening niet activum-per-activum opgenomen, maar als...  - `vrijstelling-subconsolidatie` (regel): Een tussenliggende (sub)moedervennootschap wordt vrijgesteld van de verplichting om een geconsolidee...  - `wijziging-consolidatiekring` (fenomeen): Elke aanpassing aan de samenstelling van de consolidatiekring tussen twee opeenvolgende boekjaren: o...
+
+- **Anchors** (13 stuks): `data/extractie/1.4/competentie-runs/competentie-run-20260515T183540Z`
+- **Exam-patterns** (0 bestanden): vraagvormen + complexiteitspatronen
+
+## Programmaonderdeel-context
+
+Titel: Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening
+Intro: None
+
+## Output-locatie
+
+Schrijf elke competentie als YAML-bestand naar:
+`data/concepten/competenties/<id>.yaml`
+
+Schema: zie `prompts/competentie-destillatie-v1.md` §Output-schema
+
+---
+
+## Prompt-referentie (competentie-destillatie-v1.md)
+
 # Prompt: Competentie-destillatie — Fase D (v1)
 
 **Doel**: Destilleer competentie-voorstellen voor een programmaonderdeel uit anchors + concept-records + exam_patterns. Het aantal volgt uit wat het programmaonderdeel werkelijk vraagt — geen vooraf vastgelegd target.
@@ -130,3 +180,4 @@ Per competentie:
   <id>: <wettelijk_pct>% wettelijk, <n> stappen, gebaseerd op: <concept-ids>
   ...
 ```
+

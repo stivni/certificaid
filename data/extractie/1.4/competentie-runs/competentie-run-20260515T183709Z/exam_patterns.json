@@ -1,0 +1,418 @@
+[
+  {
+    "_provenance": {
+      "tool": "patroon-labeling-v1",
+      "model": "sonnet",
+      "run_at": "2026-05-15T00:00:00",
+      "versie": "20260515.1",
+      "corpus": [
+        "2013-1.json",
+        "2013-2.json",
+        "2014-1.json",
+        "2015-1.json",
+        "2024-1.json"
+      ],
+      "n_vragen_corpus": 188
+    },
+    "complexiteitspatronen": [
+      {
+        "id": "complex-feiten-geen-camouflage",
+        "naam": "Feitenvraag — recht-toe-recht-aan kennisreproductie",
+        "kennisdiepte": "reproductie",
+        "contextspecificiteit": "abstract",
+        "analytische_breedte": "1-concept",
+        "camouflage": "geen",
+        "beschrijving": "De vraag vraagt exact wat de definitie/regel is. Geen afleidende elementen. Wie de regel kent, heeft de vraag. Typisch: 'Wat is X?', 'Geef 4 elementen van Y', 'Welke termijn geldt bij Z?'",
+        "voorbeelden": [
+          "2013-1-vr5",
+          "2013-1-vr8",
+          "2013-2-vr9",
+          "2013-2-vr11",
+          "2013-2-vr6"
+        ]
+      },
+      {
+        "id": "complex-feiten-red-herring",
+        "naam": "Feitenvraag met red-herring",
+        "kennisdiepte": "reproductie",
+        "contextspecificiteit": "abstract",
+        "analytische_breedte": "1-concept",
+        "camouflage": "red-herring",
+        "beschrijving": "De casus bevat een afleidend element (bedrag, naam, extra actor) dat irrelevant is voor het juiste antwoord. Student die alle details probeert te verwerken, komt tot een verkeerde conclusie.",
+        "voorbeelden": [
+          "2013-2-vr4",
+          "2014-1-vr4",
+          "2013-1-vr2"
+        ]
+      },
+      {
+        "id": "complex-feiten-schijngelijkenis",
+        "naam": "Feitenvraag met schijngelijkenis (look-alike)",
+        "kennisdiepte": "reproductie",
+        "contextspecificiteit": "abstract",
+        "analytische_breedte": "1-concept",
+        "camouflage": "schijngelijkenis",
+        "beschrijving": "De vraag stelt een situatie voor die lijkt op een basisregel maar er subtiel van afwijkt (bijv. NV vs BVBA, 'meer dan' vs 'gelijk aan of meer dan'). Student die het basisgeval kent maar de uitzondering mist, beantwoordt verkeerd.",
+        "voorbeelden": [
+          "2013-2-vr2",
+          "2014-1-vr2",
+          "2014-1-vr18",
+          "2015-1-vr20"
+        ]
+      },
+      {
+        "id": "complex-toepassing-abstract",
+        "naam": "Regeltoepassing op abstracte casus",
+        "kennisdiepte": "toepassing",
+        "contextspecificiteit": "abstract",
+        "analytische_breedte": "1-concept",
+        "camouflage": "geen",
+        "beschrijving": "Abstracte, vereenvoudigde casus met getallen of actoren. Één concept toepassen. Geen misleidende elementen maar de berekening of de toepassing vereist een stap meer dan louter kennis.",
+        "voorbeelden": [
+          "2013-1-vr4",
+          "2013-2-vr5",
+          "2013-2-vr7",
+          "2015-1-vr1",
+          "2015-1-vr2"
+        ]
+      },
+      {
+        "id": "complex-toepassing-verborgen-vereiste",
+        "naam": "Regeltoepassing met verborgen vereiste",
+        "kennisdiepte": "toepassing",
+        "contextspecificiteit": "abstract",
+        "analytische_breedte": "1-2-concepten",
+        "camouflage": "verborgen-vereiste",
+        "beschrijving": "De vraagtekst stelt één scenario voor, maar de correcte behandeling vereist dat de student ook een bijkomende verplichting herkent (timing-trigger, formaliteitsvereiste, drempelcontrole, compliance-verplichting) die niet expliciet gevraagd wordt.",
+        "voorbeelden": [
+          "2013-1-vr14",
+          "2013-1-vr15",
+          "2014-1-vr3",
+          "2015-1-vr26",
+          "2024-1-vr8"
+        ]
+      },
+      {
+        "id": "complex-grensgeval-uitzondering",
+        "naam": "Grensgeval-herkenning (drempel of uitzondering)",
+        "kennisdiepte": "toepassing",
+        "contextspecificiteit": "concreet",
+        "analytische_breedte": "1-concept",
+        "camouflage": "verborgen-vereiste",
+        "beschrijving": "De casus zit net op of net over een drempel (bedrag, termijn, percentage, datum) die tot een andere behandeling leidt. Student moet de drempel kennen EN herkennen dat de situatie er net aan raakt.",
+        "voorbeelden": [
+          "2013-1-vr16",
+          "2013-2-vr14",
+          "2014-1-vr30",
+          "2015-1-vr22",
+          "2024-1-vr6"
+        ]
+      },
+      {
+        "id": "complex-procedure-rol-bevoegdheid",
+        "naam": "Procedure, rol en bevoegdheid",
+        "kennisdiepte": "toepassing",
+        "contextspecificiteit": "concreet",
+        "analytische_breedte": "meerdere-concepten",
+        "camouflage": "geen",
+        "beschrijving": "Vraag over wie wat mag/moet doen, in welke volgorde, en met welke bevoegdheden. Doel is te onderscheiden welke actor welke stap uitvoert. Cognitieve eis: kennen van de procedure-structuur, niet alleen de regel.",
+        "voorbeelden": [
+          "2013-1-vr9",
+          "2013-2-vr10",
+          "2014-1-vr14",
+          "2014-1-vr15",
+          "2015-1-vr39"
+        ]
+      },
+      {
+        "id": "complex-casus-multi-concept",
+        "naam": "Uitgebreide casus — meerdere concepten gecombineerd",
+        "kennisdiepte": "integratie",
+        "contextspecificiteit": "concreet",
+        "analytische_breedte": "meerdere-concepten",
+        "camouflage": "geen",
+        "beschrijving": "Lange narratieve casus met meerdere deelvragen die elk een ander concept bevragen. De concepten zijn verwant maar onafhankelijk. Score is per deelvraag; goede deeloplossing geeft partiele punten.",
+        "voorbeelden": [
+          "2013-1-vr13",
+          "2013-1-vr14",
+          "2013-2-vr13",
+          "2014-1-vr22",
+          "2015-1-vr44"
+        ]
+      },
+      {
+        "id": "complex-vergelijk-twee-situaties",
+        "naam": "Vergelijking twee (bijna-)gelijke situaties",
+        "kennisdiepte": "analyse",
+        "contextspecificiteit": "concreet",
+        "analytische_breedte": "1-concept",
+        "camouflage": "schijngelijkenis",
+        "beschrijving": "Twee situaties die op het eerste zicht gelijk lijken maar een verschillende behandeling vereisen. Student moet het onderscheidende criterium benoemen. Typisch in BTW (particulier vs BP), fiscaal (vaste inrichting Italië jaar 1 vs jaar 2) en vennootschapsrecht (NV vs BV).",
+        "voorbeelden": [
+          "2013-2-vr7",
+          "2014-1-vr39",
+          "2015-1-vr43",
+          "2024-1-vr11"
+        ]
+      },
+      {
+        "id": "complex-identifeer-de-fout",
+        "naam": "Identificeer de fout in een beschreven handelwijze",
+        "kennisdiepte": "analyse",
+        "contextspecificiteit": "concreet",
+        "analytische_breedte": "1-2-concepten",
+        "camouflage": "verborgen-vereiste",
+        "beschrijving": "Een beschreven procedure of boeking bevat een conceptuele fout. Student moet de fout aanwijzen én, als de vraag het vraagt, de correcte handelwijze beschrijven. De fout is niet flagrant — de situatie oogt als standaard werkwijze.",
+        "voorbeelden": [
+          "2013-1-vr13",
+          "2013-2-vr13",
+          "2014-1-vr17",
+          "2015-1-vr38"
+        ]
+      },
+      {
+        "id": "complex-berekening-met-fiscale-keten",
+        "naam": "Meerstapsberekening met fiscale keten",
+        "kennisdiepte": "toepassing",
+        "contextspecificiteit": "concreet",
+        "analytische_breedte": "meerdere-concepten",
+        "camouflage": "geen",
+        "beschrijving": "Berekening waarbij elke stap de input van de volgende bepaalt (bijv. belastbare grondslag VennB: winst − tantième − DBI-aftrek + verworpen uitgaven). Fout in stap 1 kaskadeert naar stap 2 en 3.",
+        "voorbeelden": [
+          "2013-1-vr26",
+          "2013-2-vr17",
+          "2014-1-vr28",
+          "2015-1-vr33",
+          "2024-1-vr8"
+        ]
+      },
+      {
+        "id": "complex-stellingen-reeks-uitzondering",
+        "naam": "Reeks stellingen: vind de uitzondering in de reeks",
+        "kennisdiepte": "reproductie",
+        "contextspecificiteit": "abstract",
+        "analytische_breedte": "meerdere-concepten",
+        "camouflage": "schijngelijkenis",
+        "beschrijving": "Stel van 4-10 stellingen; de meerderheid is correct (of fout), één of twee wijken af. Student moet de afwijkende stelling(en) detecteren. Typisch voor PO 2.1 (PB: 1 stelling onjuist), 4.0 (onafhankelijkheid), 3.2 (omzettingsnormen).",
+        "voorbeelden": [
+          "2014-1-vr23",
+          "2014-1-vr24",
+          "2015-1-vr31",
+          "2015-1-vr32",
+          "2024-1-vr2"
+        ]
+      },
+      {
+        "id": "complex-adviseer-en-onderbouw",
+        "naam": "Adviseer en onderbouw (synthese met wetsreferentie)",
+        "kennisdiepte": "integratie",
+        "contextspecificiteit": "concreet",
+        "analytische_breedte": "meerdere-concepten",
+        "camouflage": "verborgen-vereiste",
+        "beschrijving": "Student wordt gevraagd een advies te formuleren, een keuze te maken of een oordeel te vellen over een complexe situatie, met onderbouwing via wetsartikelen of normen. Vereist combineren van feiten, regels en consequenties.",
+        "voorbeelden": [
+          "2013-1-vr16",
+          "2013-2-vr18",
+          "2014-1-vr35",
+          "2014-1-vr36",
+          "2015-1-vr44"
+        ]
+      },
+      {
+        "id": "complex-tabel-classificeer",
+        "naam": "Classificeer in tabel (categorisering per rij)",
+        "kennisdiepte": "toepassing",
+        "contextspecificiteit": "abstract",
+        "analytische_breedte": "meerdere-concepten",
+        "camouflage": "geen",
+        "beschrijving": "Tabel met activiteiten of posten die ingedeeld moeten worden in categorieën (bijv. preventief/repressief/corrigerend, autorisatie/bewaring/registratie/controle, financieel/operationeel/conformiteit). Score per correcte cel.",
+        "voorbeelden": [
+          "2013-2-vr10",
+          "2013-2-vr12",
+          "2015-1-vr28",
+          "2015-1-vr37",
+          "2024-1-vr3"
+        ]
+      },
+      {
+        "id": "complex-grensgeval-red-herring-fiscaal",
+        "naam": "Fiscale grensgeval-vraag met misleidende details",
+        "kennisdiepte": "toepassing",
+        "contextspecificiteit": "concreet",
+        "analytische_breedte": "1-2-concepten",
+        "camouflage": "red-herring",
+        "beschrijving": "Fiscale vraag (BTW, PB, VennB) met concrete casus die meerdere details bevat waarvan sommige irrelevant zijn voor het gevraagde. Typisch: verjaringstermijnen, opeisbaarheid BTW, aftrekbaarheid kosten — waarbij de afleidende omstandigheid (naam, bedrag, datum) de aandacht trekt van het cruciale criterium.",
+        "voorbeelden": [
+          "2013-1-vr30",
+          "2013-2-vr23",
+          "2014-1-vr40",
+          "2015-1-vr50",
+          "2024-1-vr11"
+        ]
+      }
+    ]
+  },
+  {
+    "_provenance": {
+      "tool": "patroon-labeling-v1",
+      "model": "sonnet",
+      "run_at": "2026-05-15T00:00:00",
+      "versie": "20260515.1",
+      "corpus": [
+        "2013-1.json",
+        "2013-2.json",
+        "2014-1.json",
+        "2015-1.json",
+        "2024-1.json"
+      ],
+      "n_vragen_corpus": 188
+    },
+    "vraagvormen": [
+      {
+        "id": "vraagvorm-mc-aankruisen",
+        "naam": "Multiple Choice — één juist antwoord aankruisen",
+        "format": "Situatie + 3-5 antwoordopties; student kruist de enige correcte optie aan. Geen motivering vereist.",
+        "cognitieve_laag": "kennis-toepassing",
+        "format_valkuil": "Twee opties lijken bijna identiek; het verschil zit in een detail (tijdstip, bedrag, rekening, procedure-stap) dat de vraag doet kantelen. Student die niet precies kent verliest punt zonder partiaal.",
+        "voorbeelden_uit_corpus": [
+          "2014-1-vr1",
+          "2014-1-vr2",
+          "2015-1-vr1",
+          "2015-1-vr3",
+          "2013-2-vr1"
+        ],
+        "geschat_n_voorkomens": 55
+      },
+      {
+        "id": "vraagvorm-mc-gemengd-meerdere-deelvragen",
+        "naam": "MC-blok met meerdere deelvragen per vraagnummer",
+        "format": "Één vraagnummer bundelt A, B, C, D als afzonderlijke subvragen die elk een eigen MC-antwoord vragen. Typisch voor 2024-examen en 2015-examen.",
+        "cognitieve_laag": "kennis-toepassing",
+        "format_valkuil": "Student ziet het vraagnummer als één geheel maar elke subvraag is onafhankelijk beoordeeld. Één verkeerd antwoord heeft geen invloed op de rest, maar de omvang per vraagnummer is bedrieglijk groot.",
+        "voorbeelden_uit_corpus": [
+          "2024-1-vr1",
+          "2024-1-vr6",
+          "2024-1-vr11",
+          "2015-1-vr1"
+        ],
+        "geschat_n_voorkomens": 22
+      },
+      {
+        "id": "vraagvorm-jf-reeks-stellingen",
+        "naam": "Juist/Fout — reeks stellingen aankruisen",
+        "format": "3-10 uitspraken; student kruist J of F aan zonder motivering te hoeven geven. Score = correct-per-stelling.",
+        "cognitieve_laag": "kennis-reproductie",
+        "format_valkuil": "Stellingen zijn bewust dicht bij de correcte regel geformuleerd; één woord ('altijd', 'nooit', een drempelwaarde of een datum) bepaalt of de stelling correct is. Gokken is riskant bij negatieve scoring, maar in dit examen is er geen negatieve correctie.",
+        "voorbeelden_uit_corpus": [
+          "2014-1-vr10",
+          "2014-1-vr18",
+          "2014-1-vr25",
+          "2013-2-vr14",
+          "2015-1-vr20"
+        ],
+        "geschat_n_voorkomens": 62
+      },
+      {
+        "id": "vraagvorm-jf-met-motivering",
+        "naam": "Juist/Fout — met motivering of wetsverwijzing",
+        "format": "Één of twee stellingen; student kruist J/F aan EN motiveert het antwoord of verwijst naar de relevante wetsbepaling.",
+        "cognitieve_laag": "kennis-toepassing",
+        "format_valkuil": "Stelling is fout om een subtiele reden (bijv. de uitzondering op de uitzondering); wie alleen J/F weet maar niet kan motiveren, verliest de motiverings-punten (doorgaans 2/3 van het totaal).",
+        "voorbeelden_uit_corpus": [
+          "2013-1-vr1",
+          "2013-2-vr3",
+          "2014-1-vr3",
+          "2015-1-vr36"
+        ],
+        "geschat_n_voorkomens": 18
+      },
+      {
+        "id": "vraagvorm-open-definitie",
+        "naam": "Open — definitie of begripsomschrijving",
+        "format": "\"Omschrijf begrip X\" of \"Wat is Y?\". Verwacht een correcte definitie, soms met elementen opgegeven ('geef 4 elementen').",
+        "cognitieve_laag": "kennis-reproductie",
+        "format_valkuil": "Student omschrijft het begrip te vaag of verwart het met een naburig concept. Partiale punten zijn mogelijk maar het examen verwacht precieze bewoordingen (bijv. de wettelijke definitie).",
+        "voorbeelden_uit_corpus": [
+          "2013-1-vr5",
+          "2013-1-vr8",
+          "2013-2-vr8",
+          "2013-2-vr9",
+          "2013-2-vr11"
+        ],
+        "geschat_n_voorkomens": 20
+      },
+      {
+        "id": "vraagvorm-open-procedure-ontwerp",
+        "naam": "Open — procedure ontwerpen of stappen beschrijven",
+        "format": "\"Stel een procedure op waarbij...\", \"Welke stappen neemt u...\", \"Beschrijf de werkwijze...\". Student moet een procedure of stappenplan opschrijven.",
+        "cognitieve_laag": "analyse",
+        "format_valkuil": "Student beschrijft de principes correct maar laat de volgorde of de rol van de betrokkenen weg. Vaak worden specifieke eisen gesteld (minimaal 2 functiescheidingen, wie verstuurt, wie ontvangt) die elk apart punten dragen.",
+        "voorbeelden_uit_corpus": [
+          "2013-1-vr9",
+          "2013-2-vr10",
+          "2014-1-vr14",
+          "2015-1-vr39"
+        ],
+        "geschat_n_voorkomens": 12
+      },
+      {
+        "id": "vraagvorm-open-advies-casus",
+        "naam": "Open — advies in casus (integratievraag)",
+        "format": "Narratieve casus met meerdere actoren en feiten; student formuleert een advies of oordeelt over de juistheid van een handelwijze met motivering. Vereist meerdere concepten gecombineerd.",
+        "cognitieve_laag": "synthese",
+        "format_valkuil": "Student beantwoordt deel van de casus correct maar mist een sub-vraag of een bijkomend aspect (bijv. aansprakelijkheidsclausule, timing-vereiste) dat apart wordt beoordeeld.",
+        "voorbeelden_uit_corpus": [
+          "2013-1-vr13",
+          "2013-1-vr14",
+          "2013-2-vr13",
+          "2014-1-vr22",
+          "2014-1-vr35"
+        ],
+        "geschat_n_voorkomens": 15
+      },
+      {
+        "id": "vraagvorm-berekening-met-mc",
+        "naam": "Berekening — cijfers berekenen en/of toewijzen aan rekening/rubriek",
+        "format": "Casus met cijfergegevens; student berekent een bedrag, ratio, belastinggrondslag of boeking. Soms gecombineerd met MC-opties voor het eindantwoord.",
+        "cognitieve_laag": "kennis-toepassing",
+        "format_valkuil": "Fout bij één tussenstap (bijv. verkeerde definitie brutoverkoopmarge) geeft fout eindantwoord zonder partieel verlies in MC-variant. In de open variant zijn partiele punten mogelijk.",
+        "voorbeelden_uit_corpus": [
+          "2013-1-vr4",
+          "2013-2-vr5",
+          "2014-1-vr4",
+          "2015-1-vr5",
+          "2024-1-vr8"
+        ],
+        "geschat_n_voorkomens": 28
+      },
+      {
+        "id": "vraagvorm-invultabel",
+        "naam": "Invultabel — matrix of tabel invullen",
+        "format": "Tabel gegeven met rijen (activiteiten/posten) en kolommen (categorieën/type); student kruist per rij de juiste kolom aan of vult een waarde in.",
+        "cognitieve_laag": "kennis-toepassing",
+        "format_valkuil": "Tabel-structuur suggereert dat elke rij onafhankelijk is, maar soms hangt de categorie van een rij af van het begrip van de grondslag (bijv. functiescheiding-types). Verkeerd inzicht in één concept besmet meerdere rijen.",
+        "voorbeelden_uit_corpus": [
+          "2013-2-vr10",
+          "2013-2-vr12",
+          "2014-1-vr13",
+          "2015-1-vr27"
+        ],
+        "geschat_n_voorkomens": 10
+      },
+      {
+        "id": "vraagvorm-open-berekening-motiveer",
+        "naam": "Open — bereken én motiveer (dubbele opdracht)",
+        "format": "\"Bereken X en motiveer uw antwoord\" of \"Bereken X en geef de wettelijke grondslag\". Student berekent een getal EN schrijft de motivering.",
+        "cognitieve_laag": "analyse",
+        "format_valkuil": "Student geeft het juiste getal maar vergeet de motivering (of omgekeerd). Punten zijn verdeeld over de berekening en de motivering; één van beide missen kost meer dan de helft.",
+        "voorbeelden_uit_corpus": [
+          "2013-1-vr4",
+          "2013-2-vr7",
+          "2014-1-vr30",
+          "2014-1-vr38"
+        ],
+        "geschat_n_voorkomens": 16
+      }
+    ]
+  }
+]

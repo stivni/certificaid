@@ -62,20 +62,25 @@ def _laad_records_voor_programmaonderdeel(programmaonderdeel_id: str) -> list[di
 
 
 def _laad_exam_patterns(programmaonderdeel_id: str) -> list[dict]:
-    """Laad exam_patterns voor een programmaonderdeel (NIET examenvragen)."""
+    """Laad exam_patterns voor een programmaonderdeel (NIET examenvragen).
+
+    Exam-patterns (vraagvormen, complexiteitspatronen) zijn PO-onafhankelijke
+    catalogi. We laden alles tenzij een bestand expliciet aan een ander PO
+    gekoppeld is.
+    """
     patterns: list[dict] = []
-    # Zoek naar bestanden die matchen met het programmaonderdeel
     for bestand in sorted(EXAM_PATTERNS_DIR.glob("*.json")):
         try:
             data = json.loads(bestand.read_text(encoding="utf-8"))
-            # Neem alles mee dat aan het programmaonderdeel gekoppeld is
-            if (
-                str(data.get("programmaonderdeel", "")) == programmaonderdeel_id
-                or programmaonderdeel_id in data.get("programmaonderdelen", [])
-            ):
-                patterns.append(data)
         except (json.JSONDecodeError, OSError):
-            pass
+            continue
+        eigen_po = str(data.get("programmaonderdeel", ""))
+        po_lijst = data.get("programmaonderdelen", [])
+        if eigen_po and eigen_po != programmaonderdeel_id:
+            continue
+        if po_lijst and programmaonderdeel_id not in po_lijst:
+            continue
+        patterns.append(data)
     return patterns
 
 
@@ -172,8 +177,9 @@ def main() -> None:
 
 ## Jouw taak
 
-Destilleer 5–12 competentie-voorstellen voor programmaonderdeel {programmaonderdeel_id}
-conform `prompts/competentie-destillatie-v1.md`.
+Destilleer competentie-voorstellen voor programmaonderdeel {programmaonderdeel_id}
+conform `prompts/competentie-destillatie-v1.md`. Geen vooraf vastgelegd aantal —
+stel zoveel competenties voor als het programmaonderdeel werkelijk vraagt.
 
 **KRITISCH**: Gebruik GEEN examenvragen als input. Alleen de meegeleverde
 concept-records, anchors en exam_patterns.
@@ -221,7 +227,7 @@ Schema: zie `prompts/competentie-destillatie-v1.md` §Output-schema
         print(f"\n[propose_competenties] Instructies geschreven: {instructies_pad.relative_to(ROOT)}")
         print(f"\nVolgende stap:")
         print(f"  Open {instructies_pad.relative_to(ROOT)} in een Opus-subagent-sessie.")
-        print(f"  Output: data/concepten/competenties/<id>.yaml (5–12 bestanden)")
+        print(f"  Output: data/concepten/competenties/<id>.yaml (aantal volgt uit scope)")
         print(f"  Daarna: python3 -m tools.leermateriaal.render_competentie_fiche \\")
         print(f"            --programmaonderdeel {programmaonderdeel_id}")
     else:
