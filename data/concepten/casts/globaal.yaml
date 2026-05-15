@@ -1,0 +1,128 @@
+# Globale naam-cast voor voorbeelden in concept-records, competenties en minicursussen.
+#
+# Doel: stagiairs leren spelers herkennen i.p.v. abstract "M / D1 / D2 / ABC / DEF".
+# Elke vennootschapsnaam start met andere letter (A, B, C, D, ...). Vlaamse echo's
+# zonder echte bedrijven te imiteren.
+#
+# Aanvulbaar wanneer nieuwe scenario's gewenst zijn. Prompt-instructies dwingen
+# extractors om uit deze cast te kiezen, niet zelf namen te verzinnen.
+
+natuurlijke_personen:
+  - "Pieter Vermeulen"      # centrale leider van consortium / aandeelhouder
+  - "Marleen De Cock"       # bestuurder dochter / lasthebber
+  - "Robert Vandenberghe"   # minderheidsaandeelhouder met blocking-power
+  - "Sofie Janssens"        # commissaris / accountant in voorbeeld
+  - "Tom Lefèvre"           # vennoot zonder rechtspersoonlijkheid (maatschap)
+
+vennootschappen:
+  # Letter A: holdings / moeders
+  - naam: "Aurelia Holding NV"
+    rol_default: "moedervennootschap"
+  - naam: "Antwerpse Investments NV"
+    rol_default: "moedervennootschap-alternatief"
+
+  # Letter B: industriële / productie-dochters
+  - naam: "Brugse Brouwerij BV"
+    rol_default: "exclusief-gecontroleerde-dochter"
+  - naam: "Bouwwerf Beerse BV"
+    rol_default: "exclusief-gecontroleerde-dochter-alternatief"
+
+  # Letter C: joint-venture-partners
+  - naam: "Cardinal Group NV"
+    rol_default: "joint-venture-partner"
+  - naam: "Constructies Cattoir BV"
+    rol_default: "gemeenschappelijke-dochter"
+
+  # Letter D: geassocieerde ondernemingen
+  - naam: "Drukkerij Dendermonde BV"
+    rol_default: "geassocieerde-onderneming"
+
+  # Letter E: distributie / handel
+  - naam: "Energiehuis Evergem BV"
+    rol_default: "joint-venture-partner-2"
+
+  # Letter F: dienstverlening
+  - naam: "Filmstudio Florence BV"
+    rol_default: "gemeenschappelijke-dochter"
+
+  # Letter G: kleine vennootschap (voor groottecriteria-scenario's)
+  - naam: "Gent Garantie BV"
+    rol_default: "kleine-vennootschap-onder-drempels"
+
+  # Letter H: vennootschap met afwijkende balansdatum
+  - naam: "Holsters Horst BV"
+    rol_default: "dochter-afwijkende-afsluitingsdatum"
+
+  # Letter I + J: consortium-leden (horizontale groep)
+  - naam: "Industria Antwerpen NV"
+    rol_default: "consortium-lid"
+  - naam: "Jachthaven Jezus-Eik NV"
+    rol_default: "consortium-lid-2"
+
+  # Letter K + L: buitenlandse vennootschappen (subconsolidatie / IFRS-context)
+  - naam: "Kappers Köln GmbH"
+    rol_default: "buitenlandse-moeder-eu"
+  - naam: "Logistics Lille SAS"
+    rol_default: "buitenlandse-dochter-eu"
+
+# Scenario-templates: combinaties die in voorbeelden vaak voorkomen.
+# Extractors kiezen het juiste scenario op basis van wat de concept-tekst illustreert.
+scenarios:
+
+  basis_consolidatie:
+    omschrijving: "Moeder verwerft exclusieve controle over één dochter; demo voor integrale consolidatie."
+    moeder: "Aurelia Holding NV"
+    dochter: "Brugse Brouwerij BV"
+    belang_default: 80
+    aanschaffingswaarde_default: 320
+    eigen_vermogen_dochter_default: 300
+
+  joint_venture:
+    omschrijving: "Twee partners delen controle over een gemeenschappelijke dochter; demo voor evenredige consolidatie."
+    partner_1: "Cardinal Group NV"
+    partner_2: "Energiehuis Evergem BV"
+    joint: "Filmstudio Florence BV"
+    belang_per_partner_default: 50
+
+  geassocieerde:
+    omschrijving: "Moeder heeft invloed van betekenis maar geen controle; demo voor vermogensmutatiemethode."
+    moeder: "Antwerpse Investments NV"
+    geassocieerde: "Drukkerij Dendermonde BV"
+    belang_default: 25
+    aanschaffingswaarde_default: 200
+    eigen_vermogen_geassocieerde_default: 600
+
+  consortium:
+    omschrijving: "Horizontale groep zonder moeder-dochter-relatie; demo voor consortium-consolidatie."
+    leden:
+      - "Industria Antwerpen NV"
+      - "Jachthaven Jezus-Eik NV"
+    centrale_leider: "Pieter Vermeulen"
+
+  subconsolidatie:
+    omschrijving: "Tussenmoeder waarvan een buitenlandse-moeder hogerop al consolideert; demo voor subconsolidatie-vrijstelling."
+    buitenlandse_moeder: "Kappers Köln GmbH"
+    tussenmoeder: "Aurelia Holding NV"
+    deelneming_pct: 95
+
+  groep_van_beperkte_omvang:
+    omschrijving: "Kleine groep onder de drempelwaarden; demo voor vrijstelling."
+    moeder: "Aurelia Holding NV"
+    dochter: "Gent Garantie BV"
+    geaggregeerde_omzet: "20 mln EUR"
+    geaggregeerd_balanstotaal: "12 mln EUR"
+    geaggregeerd_personeel: 180
+
+  afwijkende_afsluitingsdatum:
+    omschrijving: "Dochter sluit boekjaar af meer dan 3 maanden vóór moeder; demo voor 3-maanden-regel."
+    moeder: "Aurelia Holding NV"
+    dochter_afwijkend: "Holsters Horst BV"
+    moeder_afsluitdatum: "31 december 20X1"
+    dochter_afsluitdatum: "30 juni 20X1"
+
+# Conventies voor extractors
+conventies:
+  - "Bij elk numeriek voorbeeld: kies één scenario-template als basis, vul de bedragen aan zoals het concept vereist."
+  - "Bedragen zonder valuta-prefix worden geïnterpreteerd in euro (geconsolideerde jaarrekening)."
+  - "Voor percentage-ketens gebruik je rol-distincte namen (bv. Aurelia → Brugse → Drukkerij Dendermonde — niet A → B → C)."
+  - "Verzonnen aanvullende namen alleen toegestaan als een nieuw scenario expliciet andere letter-spreiding vereist; voeg ze dan toe aan dit bestand én documenteer in de PR."

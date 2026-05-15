@@ -1,11 +1,62 @@
 # ADR-007: Conceptmodel
 
 **Status**: Draft
-**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-15 (schema 1.3 — rationale-veld + aspect-anker; competentie-schema + leerpad-schema)
+**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-16 (schema 1.4 — stap-blok + edges-activatie + node_type synthese + cast-conventie)
 **Vervangt**: archive/ADR-006 (drie-lagenmodel — concept-laag absorbeert), archive/ADR-009 (concept-record-schema v2)
-**Schema-versie**: 1.3 (concept-records); aparte competentie-schema 1.0 + leerpad-schema 1.0
+**Schema-versie**: 1.4 (concept-records); competentie-schema 1.1 + leerpad-schema 1.0
 
 ## Changelog
+
+- **2026-05-16 (1.4)** — Didactische verrijking gestructureerd in schema (geen render-trick). Vijf samenhangende uitbreidingen op basis van stagiair-bril-feedback ("te zwaar, te weinig praktisch, geen visualisatie, fictieve namen lastig"):
+
+  - **Stap-blok-schema** (vervangt simpele `stappen[]`-string-lijst). Elk item in `stappen[]` (concept-records én competenties) is voortaan een blok met:
+    - `nr`, `titel`, `wat`, `waarom` (behouden van v1)
+    - `input[]` en `output[]` als arrays van semantische artefacten:
+      ```yaml
+      input:
+        - artefact: "Balans moeder"
+          veld: "Deelnemingen"
+          type: "boekhoudkundig-bedrag"
+      ```
+      `type` is een open string maar canonieke waarden: `boekhoudkundig-bedrag`, `percentage`, `datum`, `document`, `nieuwe-balanspost`, `geëlimineerde-post`, `boekingsregel`.
+    - `hoe`: uitvoerbare instructie (multiline, 3-7 stappen, geen jargon-zinnen, beoogt "wat moet je echt doen")
+    - `voorbeeld` als sub-object met `scenario` (1 zin) + `substappen[]`:
+      ```yaml
+      voorbeeld:
+        scenario: "..."
+        substappen:
+          - nr: 1
+            titel: "..."
+            type: balans | berekening | boekingsregel | opmerking | flowchart
+            data: |
+              <markdown-tabel of -tekst>
+      ```
+      Substappen-type bepaalt render-icoon. Markdown-tabellen in `data` worden as-is gerenderd (waar relevant doorgehaalde rijen, vetgedrukte nieuwe posten).
+    - `valkuilen[]` (behouden): `advies` (= correcte aanbeveling, als titel), `vaak_fout`, `grondslag`. Render `> [!warning]`-callout met advies als titel.
+    - `grondslag`: één string met wikilinks + wetsartikel-citaten
+
+  - **Edges activeren** (al in schema 1.2 gedefinieerd, nooit gevuld). ENRICH-pass populeert `edges[]` op basis van bestaande relaties; render-tijd plaatst edges per type:
+    - `onderdeel-van` / `specialisatie-van` → **breadcrumb bovenaan** ("Behoort tot [[X]]")
+    - `bevat` → "**Bestaat uit**: [[Y]], [[Z]]" onder TL;DR
+    - `vergelijkt-met` → blijft `<details>` "Niet verwarren met" (verwarring-risico)
+    - `getriggerd-door` / `vereist-kennis-van` → "**Zie ook**" onderaan
+    - `uitzondering-op` → "**Uitzondering op** [[X]]" onder TL;DR
+    
+    `vergelijkingsparen[]` blijft bestaan maar **alleen voor paren met verwarring-risico**; andere relaties hoeven naar `edges[]`. Schrapt de "we hebben N paren waarvan maar 2 didactisch zijn"-pathologie.
+
+  - **`node_type: synthese`** — nieuw record-type voor pedagogische clusters die meerdere concepten verbinden (bv. "consolidatiemethodes-vergelijking" voor PO 1.4). Synthese-records hebben:
+    - `gebaseerd_op_concepten[]` (≥ 3 wikilinks, analoog aan competenties)
+    - `vergelijkingstabel` (multiline markdown-tabel)
+    - `beslisboom` (geneste lijst of mermaid-flowchart)
+    - Geen eigen `definitie` (verwijst naar de gerefereerde concepten)
+    
+    ENRICH-pass detecteert cohesie-clusters (concepten met ≥ 3 cross-refs onderling) en stelt synthese-records voor.
+
+  - **Naam-cast** — vaste set fictieve namen voor voorbeelden. Globaal in `data/concepten/casts/globaal.yaml` met scenario-templates per relatie-type (basis-consolidatie, joint-venture, geassocieerde, consortium, subconsolidatie, ...). Elke naam start met andere letter (Aurelia, Brugse, Cardinal, ...). Natuurlijke personen krijgen Vlaamse namen (Pieter Vermeulen, Marleen De Cock, ...). Prompt v4 dwingt cast-gebruik af — geen "M / D / D1 / ABC / DEF" meer.
+
+  - **ITAA-LEX-bronnamen** (render-niveau, geen schema-wijziging). Render produceert pretty namen uit chunk-id's via een mapping `KB-WVV-2019__art_3_113` → "KB WVV — art. 3:113". Stagiair leert de ITAA-LEX-indeling herkennen (komt elk examen terug).
+
+  **Volledig stap-blok-voorbeeld**: zie ADR-008 §13 prompt-bijlage of `prompts/concept-extractie-v4.md`.
 
 - **2026-05-15 (1.3)** — Drie-lagen leermateriaal-uitbreiding op basis van
   gebruiker-discussie over render-generators. Concept-records krijgen optionele
