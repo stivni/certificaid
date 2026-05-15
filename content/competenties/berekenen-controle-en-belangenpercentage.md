@@ -30,14 +30,22 @@ gegenereerd_op: '2026-05-15'
 📤 **Output**: Per schakel: controlepercentage = direct gehouden stemrechten + stemrechten die de moeder indirect controleert via dochters die zelf exclusieve controle hebben (NIET vermenigvuldigen)
 **Waarom**: Zodra elke tussenschakel exclusieve controle heeft, telt het volledige stemrechtpercentage van de onderste schakel mee als 'gecontroleerd door de moeder'.
 **Grondslag**: [[controlepercentage]]
-- ⚠️ **Het controlepercentage wordt zoals het belangenpercentage vermenigvuldigd langs de keten.** → Het controlepercentage wordt NIET vermenigvuldigd: zolang elke schakel exclusieve controle heeft, telt het stemrechtpercentage van de onderste schakel volledig mee voor de moeder. ([[controlepercentage]])
+> [!warning] Het controlepercentage wordt NIET vermenigvuldigd: zolang elke schakel exclusieve controle heeft, telt het stemrechtpercentage van de onderste schakel volledig mee voor de moeder.
+>
+> _Vaak fout gedaan_: Het controlepercentage wordt zoals het belangenpercentage vermenigvuldigd langs de keten.
+>
+> _Grondslag_: [[controlepercentage]]
 ### 3. Berekenen van het belangenpercentage in elke schakel
 
 📥 **Input**: Belangenpercentages per directe deelneming (economisch eigendomsaandeel)
 📤 **Output**: Per schakel: belangenpercentage = product van de belangenpercentages langs de keten (M → 80 % A → 60 % B = 0,80 × 0,60 = 48 %)
 **Waarom**: Het economische eigendomsaandeel verdunt door tussenliggende derden en moet daarom worden vermenigvuldigd.
 **Grondslag**: [[belangenpercentage]]
-- ⚠️ **Het belangenpercentage en het controlepercentage zijn altijd gelijk.** → Ze kunnen verschillen: het belangenpercentage wordt vermenigvuldigd, het controlepercentage niet. Bij M → 80 % A → 60 % B is controle = 60 % (controle in elke schakel), belang = 48 %. ([[belangenpercentage]])
+> [!warning] Ze kunnen verschillen: het belangenpercentage wordt vermenigvuldigd, het controlepercentage niet. Bij M → 80 % A → 60 % B is controle = 60 % (controle in elke schakel), belang = 48 %.
+>
+> _Vaak fout gedaan_: Het belangenpercentage en het controlepercentage zijn altijd gelijk.
+>
+> _Grondslag_: [[belangenpercentage]]
 ### 4. Toetsen of er in elke schakel exclusieve controle bestaat
 
 📥 **Input**: Per schakel: controlepercentage > 50 % of andere onweerlegbare vermoedens

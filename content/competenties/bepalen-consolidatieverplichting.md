@@ -24,15 +24,27 @@ gegenereerd_op: '2026-05-15'
 📤 **Output**: Bevestiging dat de entiteit een vennootschap met rechtspersoonlijkheid is (geen natuurlijke persoon, geen maatschap zonder rechtspersoonlijkheid)
 **Waarom**: Alleen vennootschappen met rechtspersoonlijkheid kunnen moedervennootschap zijn en consolidatieplichtig worden.
 **Grondslag**: [[consolidatieverplichting]]
-- ⚠️ **Een natuurlijke persoon met meerderheidsstemrechten in meerdere vennootschappen is zelf consolidatieplichtig.** → De natuurlijke persoon is geen moedervennootschap; meestal ontstaat een consortium en rust de plicht op de gezamenlijke leden. ([[consolidatieverplichting]])
-- ⚠️ **Een maatschap zonder rechtspersoonlijkheid kan moedervennootschap zijn.** → Zonder rechtspersoonlijkheid kan de maatschap geen moedervennootschap zijn; de onderliggende vennootschappen moeten zelf consolideren tenzij ze als consortium kwalificeren. ([[consolidatieverplichting]])
+> [!warning] De natuurlijke persoon is geen moedervennootschap; meestal ontstaat een consortium en rust de plicht op de gezamenlijke leden.
+>
+> _Vaak fout gedaan_: Een natuurlijke persoon met meerderheidsstemrechten in meerdere vennootschappen is zelf consolidatieplichtig.
+>
+> _Grondslag_: [[consolidatieverplichting]]
+> [!warning] Zonder rechtspersoonlijkheid kan de maatschap geen moedervennootschap zijn; de onderliggende vennootschappen moeten zelf consolideren tenzij ze als consortium kwalificeren.
+>
+> _Vaak fout gedaan_: Een maatschap zonder rechtspersoonlijkheid kan moedervennootschap zijn.
+>
+> _Grondslag_: [[consolidatieverplichting]]
 ### 2. Vaststellen of er controle bestaat over één of meer dochterondernemingen
 
 📥 **Input**: Aandelenstructuur, statuten, aandeelhoudersovereenkomsten, samenstelling bestuursorgaan en historiek van algemene vergaderingen
 📤 **Output**: Conclusie of controle (in rechte of in feite, exclusief of gezamenlijk) bestaat op balansdatum
 **Waarom**: Zonder controle is de entiteit geen moedervennootschap en bestaat geen consolidatieplicht.
 **Grondslag**: [[controle]]
-- ⚠️ **Controle vereist altijd meer dan 50 % van de stemrechten.** → Controle in feite kan ook met minder dan 50 % bestaan (bv. wanneer de vennootschap op twee opeenvolgende AV's de meerderheid van bestuurders heeft aangesteld met haar effectieve stemrechten). ([[controle]])
+> [!warning] Controle in feite kan ook met minder dan 50 % bestaan (bv. wanneer de vennootschap op twee opeenvolgende AV's de meerderheid van bestuurders heeft aangesteld met haar effectieve stemrechten).
+>
+> _Vaak fout gedaan_: Controle vereist altijd meer dan 50 % van de stemrechten.
+>
+> _Grondslag_: [[controle]]
 ### 3. Onderzoeken of er sprake is van een consortium (horizontale groep)
 
 📥 **Input**: Vaststelling of er één rechtspersoon is die de andere(n) controleert dan wel of meerdere vennootschappen onder centrale leiding staan zonder onderlinge moeder-dochter-relatie
@@ -45,14 +57,22 @@ gegenereerd_op: '2026-05-15'
 📤 **Output**: Conclusie: overschrijdt de groep meer dan één van de drempels van WVV art. 1:26, § 1, dan vervalt deze vrijstelling
 **Waarom**: Een moedervennootschap in een groep die op geconsolideerde of geaggregeerde basis niet meer dan één criterium overschrijdt, is in beginsel vrijgesteld.
 **Grondslag**: [[groep-van-beperkte-omvang]]
-- ⚠️ **Berekening 'op geconsolideerde basis' betekent dat er al een geconsolideerde jaarrekening moet bestaan.** → Het is enkel een berekeningswijze om de vrijstellingsdrempels te toetsen — geen verplichting tot effectieve consolidatie. ([[groottecriteria-consolidatie]])
+> [!warning] Het is enkel een berekeningswijze om de vrijstellingsdrempels te toetsen — geen verplichting tot effectieve consolidatie.
+>
+> _Vaak fout gedaan_: Berekening 'op geconsolideerde basis' betekent dat er al een geconsolideerde jaarrekening moet bestaan.
+>
+> _Grondslag_: [[groottecriteria-consolidatie]]
 ### 5. Toetsen of de vrijstelling van subconsolidatie van toepassing is
 
 📥 **Input**: Identiteit en consolidatiestatus van de hogere moedervennootschap; lijst van consortium-leden en dochters; notering op gereglementeerde markt
 📤 **Output**: Conclusie of de submoeder is vrijgesteld omdat een hogere moeder al een gelijkwaardige geconsolideerde jaarrekening opstelt, laat controleren en openbaar maakt, en geen lid van haar consolidatiekring beursgenoteerd is
 **Waarom**: Subconsolidatie wordt vermeden wanneer hogerop al een geconsolideerde jaarrekening wordt opgemaakt; bij notering vervalt de vrijstelling.
 **Grondslag**: [[vrijstelling-subconsolidatie]]
-- ⚠️ **De vrijstelling geldt ongeacht of een dochter in de subconsolidatiekring genoteerd is.** → Zodra de submoeder of één van haar dochters genoteerd is op een gereglementeerde markt, vervalt de vrijstelling van subconsolidatie. ([[vrijstelling-subconsolidatie]])
+> [!warning] Zodra de submoeder of één van haar dochters genoteerd is op een gereglementeerde markt, vervalt de vrijstelling van subconsolidatie.
+>
+> _Vaak fout gedaan_: De vrijstelling geldt ongeacht of een dochter in de subconsolidatiekring genoteerd is.
+>
+> _Grondslag_: [[vrijstelling-subconsolidatie]]
 ### 6. Formuleren van de eindconclusie
 
 📥 **Input**: Resultaten van stappen 1-5

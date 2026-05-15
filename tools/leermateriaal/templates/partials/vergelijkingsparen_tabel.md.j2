@@ -1,9 +1,14 @@
 {% if vergelijkingsparen %}
-## Vergelijkingsparen
+<details>
+<summary><strong>Niet verwarren met</strong> ({{ vergelijkingsparen | length }} vergelijkingen)</summary>
 
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
 {% for paar in vergelijkingsparen %}
-| [[{{ paar.vergelijking_met }}]] | {{ paar.verschil }} | {{ paar.trigger | default('—') }} |
+- **vs [[{{ paar.vergelijking_met }}]]** — {{ paar.verschil }}
+{% if paar.trigger %}
+  - _Trigger_: {{ paar.trigger }}
+{% endif %}
 {% endfor %}
+
+</details>
+
 {% endif %}

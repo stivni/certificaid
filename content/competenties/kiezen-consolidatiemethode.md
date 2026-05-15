@@ -36,7 +36,11 @@ gegenereerd_op: '2026-05-15'
 📤 **Output**: Beslissing om de activa, passiva, opbrengsten en kosten pro-rata (volgens belang in kapitaal of inbreng) op te nemen — zonder afzondering van aandeel van derden — TENZIJ de gemeenschappelijke dochter niet nauw geïntegreerd is, in welk geval de vermogensmutatiemethode wordt toegepast
 **Waarom**: Evenredige consolidatie weerspiegelt het gezamenlijke karakter van de controle; bij gebrek aan operationele integratie volstaat de vermogensmutatie.
 **Grondslag**: [[evenredige-consolidatie]]
-- ⚠️ **Bij evenredige consolidatie moet een 'aandeel van derden' worden geboekt voor het deel buiten de groep.** → Bij evenredige consolidatie wordt enkel het pro-rata deel opgenomen; er is geen aandeel van derden omdat het derden-deel niet wordt opgenomen. ([[evenredige-consolidatie]])
+> [!warning] Bij evenredige consolidatie wordt enkel het pro-rata deel opgenomen; er is geen aandeel van derden omdat het derden-deel niet wordt opgenomen.
+>
+> _Vaak fout gedaan_: Bij evenredige consolidatie moet een 'aandeel van derden' worden geboekt voor het deel buiten de groep.
+>
+> _Grondslag_: [[evenredige-consolidatie]]
 ### 4. Toepassen vermogensmutatiemethode op geassocieerde ondernemingen en bepaalde dochters
 
 📥 **Input**: Lijst van geassocieerde ondernemingen; gemeenschappelijke dochters zonder nauwe integratie; dochters uitgesloten op grond van KB WVV art. 3:98 (controle in feite indruisend tegen getrouw beeld) of art. 3:99 (geen going concern)

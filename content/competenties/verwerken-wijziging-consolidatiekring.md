@@ -42,7 +42,11 @@ gegenereerd_op: '2026-05-15'
 📤 **Output**: Verlaten van vermogensmutatie; start integrale (of evenredige) consolidatie; herwaardering bestaande boekwaarde en herberekening consolidatieverschil; activa en passiva van de nieuwe dochter worden voortaan volledig (of pro-rata) opgenomen
 **Waarom**: Bij overschrijding van de controlegrens (of overgang naar gezamenlijke controle) volstaat vermogensmutatie niet meer; de techniek kantelt.
 **Grondslag**: [[step-acquisition]]
-- ⚠️ **Bij overgang van vermogensmutatie naar integrale consolidatie blijft het bestaande consolidatieverschil ongewijzigd.** → Het bestaande consolidatieverschil wordt geherwaardeerd en de activa/passiva van de nieuwe dochter worden volledig opgenomen — er ontstaat een nieuwe eerste consolidatie. ([[step-acquisition]])
+> [!warning] Het bestaande consolidatieverschil wordt geherwaardeerd en de activa/passiva van de nieuwe dochter worden volledig opgenomen — er ontstaat een nieuwe eerste consolidatie.
+>
+> _Vaak fout gedaan_: Bij overgang van vermogensmutatie naar integrale consolidatie blijft het bestaande consolidatieverschil ongewijzigd.
+>
+> _Grondslag_: [[step-acquisition]]
 ### 5. Verwerken van een gehele of gedeeltelijke realisatie van aandelen
 
 📥 **Input**: Aandelenverkoop; oorspronkelijk consolidatieverschil; deel van de aandelen dat is vervreemd

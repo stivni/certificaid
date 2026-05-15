@@ -37,14 +37,22 @@ gegenereerd_op: '2026-05-15'
 📤 **Output**: Toerekening van het verschil aan de onder-/overgewaardeerde activa en passiva; herwaardering van die bestanddelen in de consolidatie
 **Waarom**: KB WVV art. 3:128 vereist dat het verschil zoveel mogelijk wordt toegerekend aan bestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde, vóór het residu als consolidatieverschil wordt geboekt.
 **Grondslag**: [[consolidatieverschil]]
-- ⚠️ **Het volledige verschil tussen aanschaffingswaarde en boekwaarde van het pro-rata EV wordt rechtstreeks als consolidatieverschil geboekt.** → Eerst moet het verschil worden toegerekend aan onder-/overgewaardeerde activa en passiva; pas het residu wordt 'consolidatieverschil'. ([[consolidatieverschil]])
+> [!warning] Eerst moet het verschil worden toegerekend aan onder-/overgewaardeerde activa en passiva; pas het residu wordt 'consolidatieverschil'.
+>
+> _Vaak fout gedaan_: Het volledige verschil tussen aanschaffingswaarde en boekwaarde van het pro-rata EV wordt rechtstreeks als consolidatieverschil geboekt.
+>
+> _Grondslag_: [[consolidatieverschil]]
 ### 4. Berekenen en boeken van het residuele consolidatieverschil
 
 📥 **Input**: Resterend verschil na toerekening aan onder-/overgewaardeerde activa en passiva
 📤 **Output**: Boeking als 'Consolidatieverschillen' op de geconsolideerde balans: actiefzijde indien positief, passiefzijde indien negatief
 **Waarom**: Het overblijvende verschil reflecteert goodwill (positief — verwachte synergieën, marktpositie) of badwill (negatief — verwachte verliezen of overgewaardeerde passiva).
 **Grondslag**: [[consolidatieverschil]]
-- ⚠️ **Positieve en negatieve consolidatieverschillen mogen met elkaar worden gecompenseerd.** → Compensatie is verboden, tenzij beide verschillen betrekking hebben op dezelfde dochteronderneming (KB WVV art. 3:130) — dan is compensatie verplicht. ([[consolidatieverschil]])
+> [!warning] Compensatie is verboden, tenzij beide verschillen betrekking hebben op dezelfde dochteronderneming (KB WVV art. 3:130) — dan is compensatie verplicht.
+>
+> _Vaak fout gedaan_: Positieve en negatieve consolidatieverschillen mogen met elkaar worden gecompenseerd.
+>
+> _Grondslag_: [[consolidatieverschil]]
 ### 5. Vastleggen van het afschrijvingsplan voor positief consolidatieverschil
 
 📥 **Input**: Inschatting van de vermoedelijke gebruiksduur van de aan goodwill onderliggende economische voordelen (synergieën, marktpositie, merken)

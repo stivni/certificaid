@@ -36,7 +36,11 @@ gegenereerd_op: '2026-05-15'
 📤 **Output**: Eliminatie van niet-gerealiseerde winsten (brutomarge% × restvoorraad op balansdatum bij de kopende groepsvennootschap); het actief wordt teruggebracht tot zijn waarde voor de groep
 **Waarom**: Winsten op interne transacties zijn economisch niet gerealiseerd zolang het actief de groep niet verlaten heeft.
 **Grondslag**: [[intragroep-eliminaties]]
-- ⚠️ **Alleen vorderingen/schulden moeten worden geëlimineerd; in voorraad begrepen intra-groepswinst hoeft niet.** → Activa moeten in de geconsolideerde balans verschijnen tegen hun waarde voor de groep; intra-groepswinst in voorraad of vaste activa wordt geëlimineerd. ([[intragroep-eliminaties]])
+> [!warning] Activa moeten in de geconsolideerde balans verschijnen tegen hun waarde voor de groep; intra-groepswinst in voorraad of vaste activa wordt geëlimineerd.
+>
+> _Vaak fout gedaan_: Alleen vorderingen/schulden moeten worden geëlimineerd; in voorraad begrepen intra-groepswinst hoeft niet.
+>
+> _Grondslag_: [[intragroep-eliminaties]]
 ### 4. Elimineren van onderlinge opbrengsten en kosten
 
 📥 **Input**: Resultatenrekeningen van groepsvennootschappen; lijst van interne verkopen, beheersvergoedingen, intresten, huur
@@ -61,7 +65,11 @@ gegenereerd_op: '2026-05-15'
 📤 **Output**: Belangen van derden (balans) = (1 − belang%) × eigen vermogen dochter op afsluitingsdatum; Aandeel van derden in resultaat = (1 − belang%) × resultaat dochter
 **Waarom**: Bij integrale consolidatie wordt 100 % opgenomen; het deel toebehorend aan minderheidsaandeelhouders wordt afzonderlijk gepresenteerd.
 **Grondslag**: [[minderheidsbelangen]]
-- ⚠️ **Bij evenredige consolidatie moet ook een aandeel van derden worden geboekt.** → Minderheidsbelangen ontstaan uitsluitend bij integrale consolidatie waarbij de moeder < 100 % aanhoudt; bij evenredige consolidatie wordt het derden-deel niet opgenomen. ([[minderheidsbelangen]])
+> [!warning] Minderheidsbelangen ontstaan uitsluitend bij integrale consolidatie waarbij de moeder < 100 % aanhoudt; bij evenredige consolidatie wordt het derden-deel niet opgenomen.
+>
+> _Vaak fout gedaan_: Bij evenredige consolidatie moet ook een aandeel van derden worden geboekt.
+>
+> _Grondslag_: [[minderheidsbelangen]]
 ### 8. Aanpassen van de toelichtingsinformatie
 
 📥 **Input**: Wettelijk vereiste inlichtingen over rechten en verplichtingen van de groep

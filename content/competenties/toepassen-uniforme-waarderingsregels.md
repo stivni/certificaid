@@ -37,7 +37,11 @@ gegenereerd_op: '2026-05-15'
 📤 **Output**: Aanpassingsboekingen in het consolidatiedossier zodat alle bestanddelen tegen de uniforme regels worden gewaardeerd
 **Waarom**: Zonder herwaardering zou de geconsolideerde jaarrekening inconsistent zijn en geen getrouw beeld geven.
 **Grondslag**: [[uniforme-waarderingsregels-consolidatie]]
-- ⚠️ **Een dochter mag haar eigen waarderingsregels behouden zolang die wettelijk zijn in haar land van vestiging.** → Op consolidatieniveau moeten de waarderingsregels van de consoliderende vennootschap worden toegepast; afwijkende regels in de enkelvoudige jaarrekening van de dochter moeten via consolidatieboekingen worden hercorrigeerd. ([[uniforme-waarderingsregels-consolidatie]])
+> [!warning] Op consolidatieniveau moeten de waarderingsregels van de consoliderende vennootschap worden toegepast; afwijkende regels in de enkelvoudige jaarrekening van de dochter moeten via consolidatieboekingen worden hercorrigeerd.
+>
+> _Vaak fout gedaan_: Een dochter mag haar eigen waarderingsregels behouden zolang die wettelijk zijn in haar land van vestiging.
+>
+> _Grondslag_: [[uniforme-waarderingsregels-consolidatie]]
 ### 4. Beoordelen van afwijkingen in uitzonderingsgevallen
 
 📥 **Input**: Identificatie van eventuele afwijkingen van de standaardwaarderingsregels (in uitzonderingsgevallen); strookheid met het wettelijk kader

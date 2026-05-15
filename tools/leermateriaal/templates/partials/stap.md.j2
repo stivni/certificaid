@@ -15,7 +15,9 @@
 {% endif %}
 {% if stap.valkuilen %}
 {% for valkuil in stap.valkuilen %}
-- ⚠️ **{{ valkuil.foute_aanname }}** → {{ valkuil.correctie }}{% if valkuil.grondslag %} ({{ valkuil.grondslag }}){% endif %}
+> [!warning] {{ valkuil.correctie }}
+>
+> _Vaak fout gedaan_: {{ valkuil.foute_aanname }}{% if valkuil.grondslag %}{{ "\n>\n> _Grondslag_: " }}{{ valkuil.grondslag }}{% endif %}
 
 {% endfor %}
 {% endif %}

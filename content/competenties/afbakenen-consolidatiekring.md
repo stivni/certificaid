@@ -30,14 +30,22 @@ gegenereerd_op: '2026-05-15'
 📤 **Output**: Lijst van entiteiten ten opzichte waarvan controlebevoegdheid bestaat — in de ruime WVV-betekenis (WVV art. 3:22): ook verenigingen, stichtingen en buitenlandse instellingen met commerciële, financiële of industriële activiteit
 **Waarom**: Alle dochterondernemingen behoren in beginsel tot de consolidatiekring (KB WVV art. 3:96).
 **Grondslag**: [[dochteronderneming]]
-- ⚠️ **Alleen klassieke handelsvennootschappen behoren tot de consolidatiekring.** → Ook verenigingen, stichtingen en buitenlandse instellingen die een commerciële, financiële of industriële activiteit uitoefenen, kunnen dochteronderneming zijn. ([[dochteronderneming]])
+> [!warning] Ook verenigingen, stichtingen en buitenlandse instellingen die een commerciële, financiële of industriële activiteit uitoefenen, kunnen dochteronderneming zijn.
+>
+> _Vaak fout gedaan_: Alleen klassieke handelsvennootschappen behoren tot de consolidatiekring.
+>
+> _Grondslag_: [[dochteronderneming]]
 ### 3. Beoordelen of een dochter buiten de consolidatiekring mag worden gelaten
 
 📥 **Input**: Per dochter: materialiteit, beperkingen op de uitoefening van controle, beschikbaarheid en kostprijs van gegevens, voornemen tot verkoop, mogelijke conflict met getrouw beeld bij controle in feite
 📤 **Output**: Per dochter: opname in kring óf weglating met motivering — gebaseerd op de vier uitsluitingsgronden van KB WVV art. 3:97 en de specifieke regel van KB WVV art. 3:98 voor controle in feite
 **Waarom**: De wet laat vier weglatingsgronden toe; misbruik schendt het getrouwe beeld.
 **Grondslag**: [[consolidatiekring]]
-- ⚠️ **Een dochter mag buiten de kring blijven omdat consolideren administratief lastig is.** → Weglating vereist één van de wettelijke gronden (te verwaarlozen betekenis; duurzame controlebeperking; onevenredige kosten/vertraging; bestemd om te worden verkocht) of strijdigheid met getrouw beeld bij controle in feite. ([[consolidatiekring]])
+> [!warning] Weglating vereist één van de wettelijke gronden (te verwaarlozen betekenis; duurzame controlebeperking; onevenredige kosten/vertraging; bestemd om te worden verkocht) of strijdigheid met getrouw beeld bij controle in feite.
+>
+> _Vaak fout gedaan_: Een dochter mag buiten de kring blijven omdat consolideren administratief lastig is.
+>
+> _Grondslag_: [[consolidatiekring]]
 ### 4. Verwerken van weggelaten dochters via vermogensmutatie
 
 📥 **Input**: Lijst van dochters die op grond van KB WVV art. 3:98 of 3:99 buiten de consolidatie zijn gelaten

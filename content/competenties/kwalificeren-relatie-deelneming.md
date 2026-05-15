@@ -31,21 +31,33 @@ gegenereerd_op: '2026-05-15'
 📤 **Output**: Conclusie of er exclusieve controle in rechte (> 50 % stemrechten, statutaire macht, contractuele macht) of in feite (afgeleid uit het feitelijke aanstellingsgedrag op de twee laatste AV's) bestaat
 **Waarom**: Bij exclusieve controle is de doelvennootschap een dochteronderneming en wordt zij integraal geconsolideerd.
 **Grondslag**: [[exclusieve-controle]]
-- ⚠️ **Met 49 % stemrechten bestaat nooit controle.** → Controle in feite kan met minder dan 50 % bestaan wanneer de vennootschap met haar effectieve stemrechten op twee opeenvolgende AV's de meerderheid van bestuurders heeft aangesteld. ([[exclusieve-controle]])
+> [!warning] Controle in feite kan met minder dan 50 % bestaan wanneer de vennootschap met haar effectieve stemrechten op twee opeenvolgende AV's de meerderheid van bestuurders heeft aangesteld.
+>
+> _Vaak fout gedaan_: Met 49 % stemrechten bestaat nooit controle.
+>
+> _Grondslag_: [[exclusieve-controle]]
 ### 3. Toetsen of er gezamenlijke controle bestaat
 
 📥 **Input**: Aandeelhoudersovereenkomsten of stemafspraken die bepalen dat beleidsbeslissingen alleen met gemeenschappelijke instemming worden genomen
 📤 **Output**: Conclusie of er een beperkt aantal vennoten samen controle uitoefent op basis van een overeenkomst — onweerlegbaar vermoeden van controle door die vennoten
 **Waarom**: Bij gezamenlijke controle is de doelvennootschap een gemeenschappelijke dochteronderneming en wordt zij evenredig geconsolideerd (of via vermogensmutatie indien niet nauw geïntegreerd).
 **Grondslag**: [[gezamenlijke-controle]]
-- ⚠️ **Zodra twee partijen elk 50 % bezitten, is er automatisch gezamenlijke controle.** → Gezamenlijke controle vereist een overeenkomst dat beleidsbeslissingen alleen met gemeenschappelijke instemming worden genomen; zonder overeenkomst is X géén dochter van A of B. ([[gezamenlijke-controle]])
+> [!warning] Gezamenlijke controle vereist een overeenkomst dat beleidsbeslissingen alleen met gemeenschappelijke instemming worden genomen; zonder overeenkomst is X géén dochter van A of B.
+>
+> _Vaak fout gedaan_: Zodra twee partijen elk 50 % bezitten, is er automatisch gezamenlijke controle.
+>
+> _Grondslag_: [[gezamenlijke-controle]]
 ### 4. Toetsen of er invloed van betekenis bestaat (geen controle)
 
 📥 **Input**: Stemrechtpercentage, vertegenwoordiging in het bestuursorgaan, deelname aan beleidsbeslissingen, materiële transacties, technologische uitwisseling
 📤 **Output**: Conclusie of er invloed van betekenis bestaat — weerlegbaar vermoeden vanaf 20 % stemrechten
 **Waarom**: Bij invloed van betekenis (zonder controle) is de doelvennootschap een geassocieerde onderneming en wordt zij volgens de vermogensmutatiemethode opgenomen.
 **Grondslag**: [[invloed-van-betekenis]]
-- ⚠️ **Bij precies 20 % is er automatisch invloed van betekenis.** → Het vermoeden is weerlegbaar; bij gebrek aan vertegenwoordiging, geen deelname aan beleid en geen materiële transacties kan het vermoeden weerlegd worden. Omgekeerd kan invloed bestaan bij minder dan 20 % wanneer de feiten dit aantonen. ([[invloed-van-betekenis]])
+> [!warning] Het vermoeden is weerlegbaar; bij gebrek aan vertegenwoordiging, geen deelname aan beleid en geen materiële transacties kan het vermoeden weerlegd worden. Omgekeerd kan invloed bestaan bij minder dan 20 % wanneer de feiten dit aantonen.
+>
+> _Vaak fout gedaan_: Bij precies 20 % is er automatisch invloed van betekenis.
+>
+> _Grondslag_: [[invloed-van-betekenis]]
 ### 5. Formuleren van de kwalificatie
 
 📥 **Input**: Resultaten van stappen 2-4
