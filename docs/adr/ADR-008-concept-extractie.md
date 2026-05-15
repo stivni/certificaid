@@ -1,8 +1,15 @@
 # ADR-008: Concept-extractie via bron-first matching
 
 **Status**: Accepted
-**Datum**: 2026-05-09
-**Empirisch onderbouwd op**: PO 4.0 Deontologie, PO 1.1 Algemene boekhouding
+**Datum**: 2026-05-09 (laatst bijgewerkt 2026-05-15)
+**Empirisch onderbouwd op**: PO 4.0 Deontologie, PO 1.1 Algemene boekhouding, PO 1.4 Geconsolideerde jaarrekening (enrichment-loop)
+
+## Changelog
+
+- **2026-05-15** — §13 toegevoegd: monotone enrichment-loop (4-bloks-flow EXTRACT → VERIFY → ENRICH → AUTO-MERGE+LOG). Records worden PO-overschrijdend flat in `data/concept_records/<id>.json` opgeslagen; PO-linkage via `linked_anchors[]` per record. Gaps en enrich-warnings globaal in `data/extractie/`.
+- **2026-05-15** — §4 bundling-strategie herzien naar knee-detectie (97.2% recall op gold-set).
+- **2026-05-15** — §5.1 must-have-detectie via drie emergente mechanismen (geen pre-curated checklist).
+- **2026-05-15** — §5.2 bron-aanbevelings-feedback-loop voor corpus-uitbreiding.
 
 ## Context
 
@@ -240,6 +247,119 @@ Wanneer een concept niet past in het huidige conceptmodel:
 - Subagent genereert expliciet schema-uitbreidingsvoorstel (nieuw veld, nieuw node-type, nieuw edge-type)
 - Voorstel landt in `data/concept_records/_voorgestelde_types.yaml` (zie ADR-007)
 - Pas na menselijke bevestiging wordt het schema bijgewerkt
+
+### 13. Monotone enrichment-loop (2026-05-15)
+
+Na empirische validatie op PO 1.4 (zie `data/extractie/1.4/v1-vs-v2-vergelijking.md` + `stress-test-reflectie.md`) bleek dat een tweede extractie-pass op dezelfde anchors structureel content van de eerste pass verliest, omdat de LLM telkens van scratch herkiest. Drie regressies werden geconstateerd in v2 t.o.v. v1 (bodemwaarde bij vermogensmutatie, stichting-voorbeeld bij consortium, maatschap-uitzondering bij vrijstelling-subconsolidatie) zonder dat de LLM motiveerde waarom.
+
+De pipeline krijgt daarom een 4-bloks-flow per programmaonderdeel, waarbij blok 2 en 3 strikt gescheiden hoedjes hebben (judge ≠ writer = geen self-grading) en blok 4 mechanisch monotonie afdwingt.
+
+```
+1. EXTRACT  (de-novo, anchor-gestuurd, prompt v3)
+       ↓
+2. VERIFY   (read-only judge-agent → globale gaps.json)
+       ↓
+3. ENRICH   (write-agent, append-only contract, input = records + gaps)
+       ↓
+4. AUTO-MERGE + LOG  (mechanisch script; toplevel-loss reverten, item-loss loggen)
+```
+
+**Locatie van records**: concepten zijn **PO-overschrijdend**, één file per concept in flat `data/concept_records/<id>.json`. Geen PO-subdirs, geen versie-suffixen (`-v2`, `-enriched`). Versionering = git. Migratie van huidige `data/concept_records/1.4/` en `1.4-v2/` naar flat structure is onderdeel van de eerste enrichment-cyclus.
+
+**Linkage records ↔ programmaonderdelen** via veld `linked_anchors[]` op elk record (lijst van anchor-id's uit eender welk PO). Bij PO-scoped operaties (minicursus-bouw, stress-test, examenmatching) wordt via dit veld + de concepten-collection in ChromaDB gescoped — geen file-tree-discriminatie.
+
+#### 13.1 EXTRACT — vijf algemene principes voor prompt v3
+
+Gedistilleerd uit v2-bevindingen op PO 1.4, maar generiek geformuleerd:
+
+1. **Centraliteit → volledigheid**. Hoe vaker een concept door andere records wordt aangeroepen (vergelijkingsparen, vrije tekst, edges), hoe completer zijn eigen record moet zijn. Basis-begrippen krijgen méér aandacht, niet minder.
+2. **Berekenbaar concept → numeriek voorbeeld verplicht**. Elke `berekeningsmethode[]` krijgt minstens één `concreet_voorbeeld`. Geen "rekenuitwerking elders".
+3. **Eén fenomeen = één record**. Geen overlappende records voor twee zijden van dezelfde munt — meerdere aspecten passen binnen één record als afzonderlijke velden of als items in een lijst.
+4. **Relaties expliciet, niet enkel narratief**. Als de tekst van record A naar concept B verwijst, ook in `vergelijkingsparen[]` of `edges[]` opnemen. Vrije-tekst-only verwijzingen zijn dood gewicht — niet bruikbaar voor graph-walk of cross-record retrieval.
+5. **Uniforme rijkheid binnen type**. Records van hetzelfde node-type krijgen vergelijkbare veldenrijkheid. Geen "deze had ik haast, deze heb ik diep". Concrete minimum-rijkheid wordt per node-type in de prompt vastgepind.
+
+#### 13.2 VERIFY — read-only judge-agent
+
+Eén Opus-subagent met enkel een oordeels-hoedje. Voert drie checks uit zonder records aan te raken:
+
+1. **Examenvraag-simulatie**: kan de agent de top-examenvragen voor de gescopete anchors *mentaal* oplossen uit de records (geen tekst produceren)? Strandt-punten worden gelogd.
+2. **Minicursus-haalbaarheid**: kan de agent *mentaal* een minicursus voor de gescopete anchors uitstippelen? Ontbrekende of te dunne records worden gelogd.
+3. **Semantische coherentie**:
+   - `vergelijkingsparen[].vergelijking_met` wijst naar bestaande record_id? (mechanisch deel)
+   - `edges[].target` bestaat? (mechanisch deel)
+   - Vrije-tekst-verwijzingen (`"zie X"`, `"vergelijk met Y"`) gespiegeld in vergelijkingsparen/edges? (LLM-deel)
+   - Twee records die hetzelfde fenomeen behandelen? (LLM-deel)
+
+**Output**: globale append-only `data/extractie/gaps.json`. Géén writes naar records.
+
+Schema per gap-entry:
+```json
+{
+  "record_id": "integrale-consolidatie",
+  "aspect": "berekeningsmethode.concreet_voorbeeld",
+  "reden": "Centrale methode zonder numeriek voorbeeld; strandt op examen-simulatie 2014-1-vr8",
+  "prio": "hoog",
+  "geconstateerd_door": "verify-run-<id>",
+  "geconstateerd_op": "<iso>",
+  "status": "open"
+}
+```
+
+#### 13.3 ENRICH — write-only agent met append-only contract
+
+Eén Opus-subagent met enkel een schrijfhoedje. Input: bestaande records + `gaps.json` + bron-bundles (uit Fase B). Output: aangepaste records op dezelfde plek (`data/concept_records/<id>.json`).
+
+**Hard contract** in de prompt:
+- *Behoud alles* wat in het bestaande record staat tenzij je expliciet corrigeert.
+- *Corrigeren mag* — maar verplicht met `corrected_from` (de oude waarde) + `correction_reason` (1 zin) + bron.
+- *Verwijderen zonder motivering verboden.* Bij twijfel: behoud.
+- *Niet-gevraagde velden toevoegen verboden.* Werk binnen wat in `gaps.json` voor dit record staat. Bestaande gouden velden blijven; nieuwe velden alleen als gap dat vraagt.
+
+#### 13.4 AUTO-MERGE + LOG — mechanisch script
+
+Géén LLM, géén mens-blockade. Twee niveaus:
+
+- **Hard (auto-merge)**: een toplevel-veld is verdwenen vergeleken met `git HEAD` en heeft geen `corrected_from`-marker → script zet het veld terug. Mechanisch eenvoudig (set-diff op JSON-keys). Geen conflict mogelijk omdat het veld weg is.
+- **Soft (log)**: array-items binnen een behouden veld zijn verdwenen → script logt naar globale `data/extractie/enrich-warnings.json` (append-only) met de verloren content en de record-id. Geen automatische actie; latere pass (verify of mens) kan terugkijken.
+
+`enrich-warnings.json` schema:
+```json
+{
+  "record_id": "vermogensmutatiemethode",
+  "veld_pad": "bouwstenen",
+  "verloren_item": { ... },
+  "verloren_in_run": "enrich-run-<id>",
+  "verloren_op": "<iso>",
+  "status": "unreviewed"
+}
+```
+
+#### 13.5 Globale artefacten
+
+| Artefact | Locatie | Levensduur |
+|---|---|---|
+| Gaps-backlog | `data/extractie/gaps.json` | Permanent, append-only |
+| Enrich-warnings | `data/extractie/enrich-warnings.json` | Permanent, append-only |
+| Bron-voorstellen | `data/extractie/_bron_voorstellen.json` | Permanent (zie §5.2) |
+| Dangling-references | `data/quality_checks/<po>/dangling-references-*.json` | Per-run snapshot |
+| Examen-evaluaties | `data/quality_checks/<po>/examen-eval-*.json` | Per-run snapshot |
+
+#### 13.6 Loop-volgorde, niet altijd alle blokken
+
+- **Eerste pas per PO**: blok 1 (EXTRACT) + blok 2 (VERIFY). Als gaps leeg → klaar.
+- **Bij gaps**: blok 3 (ENRICH) + blok 4 (AUTO-MERGE). Daarna opnieuw blok 2 (VERIFY) — maar in regel hooguit één enrich-cyclus, geen eindeloze loop.
+- **Bij bron-update** (nieuwe wettekst, gewijzigde norm): blok 2 (VERIFY) op alle records die de gewijzigde chunk-id gebruikten + blok 3 indien gaps.
+
+Geen vijf aspect-passes, geen aparte minicursus-stress-test als tooling-stap. De minicursus is een *eind-deliverable* (na alle blokken), niet een test-tool.
+
+#### 13.7 Tooling
+
+- `tools/extractie/verify_records.py` — subagent-runner voor blok 2 (VERIFY)
+- `tools/extractie/enrich_records.py` — subagent-runner voor blok 3 (ENRICH)
+- `tools/extractie/auto_merge.py` — mechanisch script voor blok 4 (AUTO-MERGE + LOG)
+- `prompts/concept-extractie-v3.md` — herziene EXTRACT-prompt met 5 algemene principes
+- `prompts/concept-verify-v1.md` — VERIFY-prompt
+- `prompts/concept-enrich-v1.md` — ENRICH-prompt met append-only contract
 
 ## Empirische onderbouwing
 
