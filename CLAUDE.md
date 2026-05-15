@@ -20,6 +20,7 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 | Bronnen-overzicht (type + trust-status per bron) | [`resources/bronnen/INDEX.md`](resources/bronnen/INDEX.md) — auto-gegenereerd via `python3 tools/lib/bronnen_index.py --force`; machine-leesbaar in `data/bronnen-index.json` |
 | Provenance van een artefact bekijken / stale-flaggen | `tools/etl/add_provenance.py`, `tools/etl/mark_stale.py` |
 | RAG-index herbouwen of bevragen | `tools/rag/rag_index.py`, `tools/rag/rag_query.py` *(wacht op Fase 2)* |
+| **Render leermateriaal** (concept-fiches, competentie-fiches, minicursus) | `tools/leermateriaal/` — ADR-007 schema 1.3, ADR-008 Fase D+E, ADR-010 §drie-lagen |
 | Fiche schrijven / programmaonderdeel-build *(legacy)* | [`docs/content-richtlijnen.md`](docs/content-richtlijnen.md), [`docs/po-builder.md`](docs/po-builder.md) *(vervalt bij Fase 5)* |
 
 ---
@@ -68,8 +69,10 @@ certificaid/
 │   └── adr/                    # Architecture Decision Records
 ├── content/
 │   ├── programmaonderdelen/    # Programmaonderdeel-fiches (catalogus per vak, legacy)
-│   ├── competenties/           # Competentie-fiches (technieken)
-│   ├── materie/                # Materie-fiches (concepten)
+│   ├── concepten/              # Concept-fiches (deterministisch gegenereerd, ADR-007/010)
+│   ├── competenties/           # Competentie-fiches (deterministisch gegenereerd, ADR-007/010)
+│   ├── studiemateriaal/        # Minicursussen per PO (skeleton + Opus-glue)
+│   ├── materie/                # Materie-fiches (concepten, legacy)
 │   └── bronnen/                # Primaire bronnen als site-content
 ├── resources/
 │   ├── bronnen/                # Doorzoekbare bronbestanden (grep/Read)
@@ -83,6 +86,14 @@ certificaid/
 │   ├── etl/                    # PDF/HTML → markdown wetteksten + reprocessing
 │   ├── rag/                    # ChromaDB-index bouwen + bevragen
 │   ├── extractie/              # Concept- en keyword-extractie
+│   ├── leermateriaal/          # Drie-lagen render-tooling (ADR-007/008/010)
+│   │   ├── lib/                # Helpers (confidence, wikilinks, frontmatter, jinja_env, validate)
+│   │   ├── templates/          # Jinja2-templates (concept_fiche, competentie_fiche, minicursus)
+│   │   ├── render_concept_fiche.py
+│   │   ├── render_competentie_fiche.py
+│   │   ├── render_minicursus.py
+│   │   ├── propose_competenties.py  # Fase D subagent-runner
+│   │   └── propose_leerpad.py      # Fase E subagent-runner
 │   ├── examen/                 # Examenpatronen + question review
 │   ├── export/                 # Externe exports (NotebookLM)
 │   └── lib/                    # Gedeelde bibliotheken (retrieval, cleanup)
@@ -95,11 +106,13 @@ certificaid/
 │   │   ├── exam_patterns/
 │   │   └── examen_vragen/
 │   ├── etl/                    # ETL-werk op bronnen
-│   │   └── qa/                 # QA-rapporten (gitignored, ADR-005-pipeline schrijft direct naar resources/bronnen/)
+│   │   └── qa/                 # QA-rapporten (gitignored)
 │   ├── rag/                    # ChromaDB-instance (gitignored, herbouwbaar)
 │   │   └── main/               # Hoofd-index over alle trusted bronnen
 │   ├── concepten/              # Kennislaag + history + checks
 │   │   ├── records/            # Concept records (gegit)
+│   │   ├── competenties/       # Competentie-YAML's (schema 1.0, ADR-007)
+│   │   ├── leerpaden/          # Leerpad-YAML's per PO (schema 1.0, ADR-007)
 │   │   ├── _archive/           # Archief (gitignored)
 │   │   └── quality_checks/     # Kwaliteitschecks (gegit)
 │   └── extractie/              # Werkfolder extractie-pipeline

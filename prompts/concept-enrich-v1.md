@@ -164,6 +164,81 @@ Per record:
 
 ---
 
+## Rationale-aspect (schema 1.3)
+
+Als een gap-entry de `aspect`-waarde `rationale.ontbreekt` of `rationale.bouwsteen_ontbreekt` heeft:
+
+### 1. Doel
+
+Vul een `rationale`-veld (top-level of per bouwsteen) dat pedagogisch inzicht draagt — beginsel, conceptuele context, "wat ziet de student dat de wettekst niet expliciet zegt".
+
+### 2. Anti-fabricatie-regels (hard)
+
+- Rationale-tekst MOET een beginsel of gerelateerd concept noemen. Geen vrije speculatie.
+- Default `confidence: "inferred"` (niet `grounded`) — rationale is per definitie afgeleid.
+- Bij gebrek aan grondslag: **veld leeg laten**, niet "iets" verzinnen.
+- `_provenance.inputs` verwijst naar chunks waaruit het beginsel afgeleid is.
+
+### 3. Lengte
+
+1-3 zinnen. Kort en scherp. Geen narratief verhaal.
+
+### 4. Examen-agnostisch
+
+Rationale = beginselen-inzicht, NIET examen-truc of "dit wordt vaak gevraagd".
+
+### 5. Top-level vs per-item
+
+- **Top-level `rationale`** op concept-record-niveau: één centraal verhaal over waarom dit concept telt.
+- **Per-item rationale** (op `bouwstenen[].rationale`, `oorzaken[].rationale`, `valkuilen[].rationale`, `stappen[].rationale`): alleen toevoegen als de bouwsteen zelf een eigen "waarom" verdient (niet voor elk item verplicht).
+
+### 6. Schema voor top-level rationale-blok
+
+```json
+{
+  "rationale": {
+    "text": "Eén beknopt verhaal dat het concept verbindt aan een onderliggend beginsel.",
+    "confidence": "inferred",
+    "_provenance": {
+      "inputs": [{"id": "<chunk-id>", "sha256": null, "version": "rag-v1"}],
+      "verrijkt_door": "<huidige enrich-run-id>",
+      "verrijkt_op": "<iso>"
+    }
+  }
+}
+```
+
+### 7. Gap-aspect-verwerking voor rationale
+
+| Aspect | Wat je toevoegt |
+|---|---|
+| `rationale.ontbreekt` | Voeg top-level `rationale`-blok toe met `text`, `confidence: "inferred"`, `_provenance`. |
+| `rationale.bouwsteen_ontbreekt` | Voeg `rationale`-string en `rationale_confidence`-string toe aan het relevante `bouwstenen[]`-item. |
+| `in_praktijk.aspect_te_grof` | Hernoem `aspect`-tekst naar een specifiekere beschrijving. Voeg `anker_slug` toe (lowercase, spaties → `-`). |
+
+---
+
+## Geldige gap-aspect-types
+
+Hierna volgt de bijgewerkte lijst van aspecten die ENRICH kan verwerken:
+
+- `berekeningsmethode.concreet_voorbeeld`
+- `berekeningsmethode.formule`
+- `definitie.onvolledig`
+- `drempelwaarden.ontbreekt`
+- `in_praktijk.ontbreekt`
+- `in_praktijk.aspect_te_grof`
+- `rationale.ontbreekt`
+- `rationale.bouwsteen_ontbreekt`
+- `vergelijkingsparen.ontbreekt`
+- `vergelijkingsparen.vrije-tekst-niet-gespiegeld`
+- `valkuilen.ontbreekt`
+- `uitzonderingen.ontbreekt`
+- `stappen.onvolledig`
+- `records.ontbreekt` → doorsturen naar EXTRACT (geen actie in ENRICH)
+
+---
+
 ## Beperkingen
 
 - **Geen nieuwe records aanmaken.** Alleen bestaande records aanvullen.

@@ -63,10 +63,35 @@ Quartz (Obsidian-compatibel, wikilinks, GitHub Pages). Leeft op `content/snapsho
 
 Vóór een snapshot publiceerbaar is moet de kenniselement-dekkingscheck (ADR-002) groen zijn voor de programmaonderdelen in scope. Anders: blocking warning + lijst gaten.
 
+## Drie-lagen render-architectuur (2026-05-15)
+
+Uitbreiding op §4 (fiche-structuur): drie aparte content-types, elk met eigen render-pad.
+
+```
+BRON → CONCEPT-records → [deterministisch] → content/concepten/<id>.md
+                       → [deterministisch] → content/competenties/<id>.md
+                       → [skeleton + Opus-glue] → content/studiemateriaal/<X.Y>/minicursus.md
+```
+
+**Concept-fiche** (`render_concept_fiche.py`): volledig deterministisch uit `data/concepten/records/<id>.json` (schema 1.3, ADR-007). Geen LLM. Output: Quartz-markdown met frontmatter, rationale-callout, aspect-ankers, vergelijkingsparen-tabel, cheatsheet-blokken, provenance-footnotes.
+
+**Competentie-fiche** (`render_competentie_fiche.py`): volledig deterministisch uit `data/concepten/competenties/<id>.yaml` (competentie-schema 1.0, ADR-007). Anti-fabricatie-validator (`validate_competentie.py`) runs vóór render — skip bij fouten. Output: procedure-grondslag-badge + stappen + beslisboom + voorbeelden + concept-grid.
+
+**Minicursus** (`render_minicursus.py`): twee-fase render. Fase 1 deterministisch (skeleton + cheatsheet + wikilinks uit leerpad). Fase 2 via Opus-subagent (glue-prompt `prompts/minicursus-glue-v1.md`) die placeholders vult — uitsluitend rationale/transities/pedagogische inleiding, geen feiten-claims.
+
+**Fase D** (`propose_competenties.py`): schrijft subagent-instructies voor Opus om competentie-YAML's te destilleren. Input: anchors + records + exam_patterns (NIET examenvragen — ADR-008 §0).
+
+**Fase E** (`propose_leerpad.py`): schrijft subagent-instructies voor Opus om leerpad-YAML op te stellen. Vereist: competenties met status `voorgesteld` of `gecureerd`.
+
+Verwijzingen: ADR-007 §competentie-schema, §leerpad-schema, §rationale-velden; ADR-008 §14–16.
+
 ## Gevolgen
 
 - `tutor/app.py` — Streamlit, leest concept-laag direct
-- `tools/snapshot/` (nieuw) — concepten → fiches → versie-tag
-- `content/snapshots/<versie>/` — gepubliceerde leerstof (Quartz-input)
-- `content/` als losse-fiches-map verdwijnt geleidelijk; bestaande programmaonderdeel-, competentie- en materie-content gaat naar `_archive/` zodra de eerste snapshot stabiel is
-- Tutor en snapshot-renderer delen template-logica voor confidence-labeling, citaties en wikilink-resolutie
+- `tools/leermateriaal/` — drie-lagen render-tooling (concept, competentie, minicursus)
+- `content/concepten/` — deterministisch gegenereerde concept-fiches
+- `content/competenties/` — deterministisch gegenereerde competentie-fiches
+- `content/studiemateriaal/<X.Y>/minicursus.md` — skeleton + Opus-glue
+- `data/concepten/competenties/` — competentie-YAML's (schema 1.0)
+- `data/concepten/leerpaden/` — leerpad-YAML's per programmaonderdeel
+- Tutor en renderer delen template-logica voor confidence-labeling en wikilink-resolutie

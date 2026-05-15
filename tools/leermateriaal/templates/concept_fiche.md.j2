@@ -1,0 +1,87 @@
+{{ frontmatter_yaml | safe -}}
+# {{ record.naam }} {{ mode_confidence_label }}
+
+{% set hoofdveld = record.definitie or record.main_rule or record.verplichting or record.doel %}
+{% if hoofdveld %}
+> {{ hoofdveld.text }}
+{% if hoofdveld.source is defined and hoofdveld.source %}
+>
+> _Bron: {{ hoofdveld.source.short }}_
+{% endif %}
+
+{% endif %}
+{% if record.rationale %}
+{% set rationale = record.rationale %}
+{% include 'partials/rationale_callout.md.j2' %}
+{% endif %}
+
+{% if record.bouwstenen %}
+## Bouwstenen
+
+{% for bouwsteen in record.bouwstenen %}
+- **{{ bouwsteen.naam | default(bouwsteen.text[:60]) }}**: {{ bouwsteen.text }} {{ bouwsteen.confidence | default('inferred') | confidence_label }}
+{% if bouwsteen.rationale %}
+  *{{ bouwsteen.rationale }}*
+{% endif %}
+{% endfor %}
+
+{% endif %}
+{% if record.berekeningsmethode %}
+## Berekening
+
+{% set berekeningsmethode = record.berekeningsmethode %}
+{% include 'partials/berekening.md.j2' %}
+
+{% endif %}
+{% if record.in_praktijk %}
+## In de praktijk
+
+{% set in_praktijk = record.in_praktijk %}
+{% include 'partials/in_praktijk_aspect.md.j2' %}
+
+{% endif %}
+{% if record.drempelwaarden %}
+{% set drempelwaarden = record.drempelwaarden %}
+{% include 'partials/drempelwaarden_tabel.md.j2' %}
+
+{% endif %}
+{% if record.tijdlijn %}
+{% set tijdlijn = record.tijdlijn %}
+{% include 'partials/tijdlijn_tabel.md.j2' %}
+
+{% endif %}
+{% if record.voorwaarden %}
+## Voorwaarden
+
+{% for voorwaarde in record.voorwaarden %}
+- {{ voorwaarde.text | default(voorwaarde) }} {% if voorwaarde.confidence is defined %}{{ voorwaarde.confidence | confidence_label }}{% endif %}
+
+{% endfor %}
+{% endif %}
+{% if record.uitzonderingen %}
+## Uitzonderingen
+
+{% for uitzondering in record.uitzonderingen %}
+- {{ uitzondering.text | default(uitzondering) }} {% if uitzondering.confidence is defined %}{{ uitzondering.confidence | confidence_label }}{% endif %}
+
+{% endfor %}
+{% endif %}
+{% if record.vergelijkingsparen %}
+{% set vergelijkingsparen = record.vergelijkingsparen %}
+{% include 'partials/vergelijkingsparen_tabel.md.j2' %}
+
+{% endif %}
+{% if record.oorzaken %}
+{% set oorzaken = record.oorzaken %}
+{% include 'partials/oorzaken_lijst.md.j2' %}
+
+{% endif %}
+{% if record.valkuilen %}
+{% set valkuilen = record.valkuilen %}
+{% include 'partials/valkuilen_lijst.md.j2' %}
+
+{% endif %}
+{% if chunk_ids %}
+{% set chunk_ids = chunk_ids %}
+{% include 'partials/provenance_footnote.md.j2' %}
+{% endif %}

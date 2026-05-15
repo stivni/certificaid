@@ -1,0 +1,41 @@
+{{ frontmatter_yaml | safe -}}
+# {{ competentie.titel }}
+
+**⚖️ {{ competentie.procedure_grondslag.wettelijk_pct }}% · 🤖 {{ competentie.procedure_grondslag.praktijk_pct }}%** · Status: `{{ competentie.status }}`
+
+{% if competentie.procedure_grondslag.motivering %}
+> {{ competentie.procedure_grondslag.motivering }}
+
+{% endif %}
+## Aanbevolen werkwijze
+
+{% for stap in competentie.stappen %}
+{% set stap = stap %}
+{% include 'partials/stap.md.j2' %}
+{% endfor %}
+
+{% if competentie.beslisboom %}
+{% set beslisboom = competentie.beslisboom %}
+{% include 'partials/beslisboom.md.j2' %}
+{% endif %}
+
+{% if competentie.voorbeelden %}
+## Voorbeelden
+
+{% set voorbeelden = competentie.voorbeelden %}
+{% include 'partials/voorbeeld_situatie.md.j2' %}
+{% endif %}
+
+## Gebaseerd op concepten
+
+{% for concept_id in competentie.gebaseerd_op_concepten %}
+[[{{ concept_id }}]] · {% endfor %}
+
+## Voortkomend uit
+
+{% if competentie.voortkomend_uit.taken %}
+**Taken**: {% for taak in competentie.voortkomend_uit.taken %}{{ taak }}{% if not loop.last %}, {% endif %}{% endfor %}
+{% endif %}
+{% if competentie.voortkomend_uit.kenniselementen %}
+**Kenniselementen**: {% for ke in competentie.voortkomend_uit.kenniselementen %}{{ ke }}{% if not loop.last %}, {% endif %}{% endfor %}
+{% endif %}

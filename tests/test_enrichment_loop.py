@@ -119,15 +119,17 @@ def test_mechanical_coherence_detecteert_ontbrekende_vergelijkingspaar_target():
         }
     ]
     gaps = mechanical_coherence_checks(records)
-    assert len(gaps) == 1
-    assert gaps[0]["record_id"] == "begrip-a"
-    assert gaps[0]["aspect"] == "vergelijkingsparen.target-ontbreekt"
-    assert gaps[0]["status"] == "open"
-    assert gaps[0]["prio"] == "laag"
+    # Filteer op het te testen aspect (rationale-gaps worden ook gerapporteerd, schema 1.3)
+    doel_gaps = [g for g in gaps if g["aspect"] == "vergelijkingsparen.target-ontbreekt"]
+    assert len(doel_gaps) == 1
+    assert doel_gaps[0]["record_id"] == "begrip-a"
+    assert doel_gaps[0]["aspect"] == "vergelijkingsparen.target-ontbreekt"
+    assert doel_gaps[0]["status"] == "open"
+    assert doel_gaps[0]["prio"] == "laag"
 
 
 def test_mechanical_coherence_geen_gap_als_target_bestaat():
-    """mechanical_coherence_checks logt géén gap als vergelijkingspaar-target wel bestaat."""
+    """mechanical_coherence_checks logt géén vergelijkingsparen-gap als target wel bestaat."""
     from tools.extractie.verify_records import mechanical_coherence_checks
 
     records = [
@@ -151,7 +153,9 @@ def test_mechanical_coherence_geen_gap_als_target_bestaat():
         },
     ]
     gaps = mechanical_coherence_checks(records)
-    assert gaps == []
+    # Geen vergelijkingsparen-target-gaps verwacht; rationale-gaps mogen aanwezig zijn (schema 1.3)
+    doel_gaps = [g for g in gaps if g["aspect"] == "vergelijkingsparen.target-ontbreekt"]
+    assert doel_gaps == []
 
 
 def test_mechanical_coherence_detecteert_ontbrekend_edges_target():
@@ -170,8 +174,10 @@ def test_mechanical_coherence_detecteert_ontbrekend_edges_target():
         }
     ]
     gaps = mechanical_coherence_checks(records)
-    assert len(gaps) == 1
-    assert gaps[0]["aspect"] == "edges.target-ontbreekt"
+    # Filteer op edges-target-gaps; rationale-gaps mogen ook aanwezig zijn (schema 1.3)
+    doel_gaps = [g for g in gaps if g["aspect"] == "edges.target-ontbreekt"]
+    assert len(doel_gaps) == 1
+    assert doel_gaps[0]["aspect"] == "edges.target-ontbreekt"
 
 
 # ─── auto_merge helpers ─────────────────────────────────────────────────────────

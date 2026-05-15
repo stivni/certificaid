@@ -1,0 +1,9 @@
+{% if drempelwaarden %}
+## Drempelwaarden
+
+| Naam | Waarde | Eenheid | Gevolg |
+|---|---|---|---|
+{% for drempel in drempelwaarden %}
+| {{ drempel.naam }} | {{ drempel.waarde }} | {{ drempel.eenheid | default('—') }} | {{ drempel.gevolg }} |
+{% endfor %}
+{% endif %}

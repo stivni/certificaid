@@ -1,0 +1,10 @@
+{% if valkuilen %}
+## Valkuilen
+
+{% for valkuil in valkuilen %}
+- ⚠️ {{ valkuil.text }} {{ valkuil.confidence | default('inferred') | confidence_label }}
+{% if valkuil.rationale %}
+  *{{ valkuil.rationale }}*
+{% endif %}
+{% endfor %}
+{% endif %}

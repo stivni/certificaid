@@ -1,0 +1,100 @@
+{{ frontmatter_yaml | safe -}}
+{% if open_gaps %}
+> [!warning]- Open beslissingen
+> De volgende gaps zijn nog open voor dit programmaonderdeel — inhoud kan onvolledig zijn:
+{% for gap in open_gaps %}
+> - `{{ gap.aspect }}` op `{{ gap.record_id }}`: {{ gap.reden[:100] }}…
+{% endfor %}
+
+{% endif %}
+## {{ glue.leesgids_titel | default('Leesgids') }}
+
+{{ glue.leesgids_tekst | default('<!-- TODO: Opus-glue leesgids -->') }}
+
+## {{ glue.waarom_po_titel | default('Waarom dit programmaonderdeel telt') }}
+
+{{ glue.waarom_po_tekst | default('<!-- TODO: Opus-glue waarom_po -->') }}
+
+{% for hoofdstuk in hoofdstukken %}
+{% if hoofdstuk.type == 'orientatie' %}
+## {{ hoofdstuk.titel }}
+
+{{ glue.orientatie[loop.index0] | default('<!-- TODO: Opus-glue oriëntatie -->') }}
+
+{% elif hoofdstuk.type == 'competentie' %}
+## {{ hoofdstuk.competentie.titel }}
+
+{{ glue.competentie_intro[loop.index0] | default('<!-- TODO: Opus-glue competentie-intro -->') }}
+
+[[competenties/{{ hoofdstuk.competentie_id }}|→ Volledige procedure]]
+
+{% if hoofdstuk.competentie.stappen %}
+**Eerste stap**: {{ hoofdstuk.competentie.stappen[0].titel }} — {{ hoofdstuk.competentie.stappen[0].input | default('') }}
+{% endif %}
+
+{% elif hoofdstuk.type == 'thematisch' %}
+## {{ hoofdstuk.titel }}
+
+{{ glue.thematisch_intro[loop.index0] | default('<!-- TODO: Opus-glue thematisch-intro -->') }}
+
+{% for concept_id in hoofdstuk.concepten %}
+{% if concepten_dict[concept_id] is defined %}
+{% set rec = concepten_dict[concept_id] %}
+**[[{{ concept_id }}|{{ rec.naam }}]]**: {{ (rec.definitie or rec.main_rule or rec.verplichting or rec.doel or {}).text | default('') | truncate(200) }}
+
+{% else %}
+**[[{{ concept_id }}]]** — record niet gevonden
+
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+## Synthese-stappenplan
+
+{{ glue.synthese | default('<!-- TODO: Opus-glue synthese -->') }}
+
+## Cheatsheet
+
+{% if alle_drempelwaarden %}
+### Kritische drempelwaarden
+
+| Concept | Naam | Waarde | Eenheid | Gevolg |
+|---|---|---|---|---|
+{% for rij in alle_drempelwaarden %}
+| [[{{ rij.concept_id }}]] | {{ rij.naam }} | {{ rij.waarde }} | {{ rij.eenheid | default('—') }} | {{ rij.gevolg }} |
+{% endfor %}
+
+{% endif %}
+{% if alle_formules %}
+### Formules
+
+```
+{% for formule in alle_formules %}
+{{ formule.methode_naam }} ({{ formule.concept_naam }}):
+  {{ formule.formule }}
+
+{% endfor %}
+```
+
+{% endif %}
+{% if alle_vergelijkingsparen %}
+### Vergelijkingsparen-matrix
+
+| Concept | Verwarrend met | Trigger |
+|---|---|---|
+{% for rij in alle_vergelijkingsparen %}
+| [[{{ rij.concept_id }}]] | [[{{ rij.vergelijking_met }}]] | {{ rij.trigger | default('—') }} |
+{% endfor %}
+
+{% endif %}
+
+## Examenfocus
+
+{{ glue.examenfocus | default('<!-- TODO: Opus-glue examenfocus — volgt na exam_patterns-classificatie -->') }}
+
+## Concept-index
+
+{% for rec in gesorteerde_records %}
+[[{{ rec.id }}|{{ rec.naam }}]] · `{{ rec.node_type }}`
+{% endfor %}

@@ -1,0 +1,21 @@
+### {{ stap.nr }}. {{ stap.titel }}
+
+{% if stap.input %}
+📥 **Input**: {{ stap.input }}
+{% endif %}
+{% if stap.output %}
+📤 **Output**: {{ stap.output }}
+{% endif %}
+{% if stap.waarom %}
+**Waarom**: {{ stap.waarom }}
+{% endif %}
+{% if stap.grondslag %}
+**Grondslag**: {% if stap.grondslag.ref %}{{ stap.grondslag.ref }}{% elif stap.grondslag.type == 'praktijk' %}🤖 Beroepspraktijk — {{ stap.grondslag.motivering }}{% else %}{{ stap.grondslag.type }}{% endif %}
+
+{% endif %}
+{% if stap.valkuilen %}
+{% for valkuil in stap.valkuilen %}
+- ⚠️ **{{ valkuil.foute_aanname }}** → {{ valkuil.correctie }}{% if valkuil.grondslag %} ({{ valkuil.grondslag }}){% endif %}
+
+{% endfor %}
+{% endif %}

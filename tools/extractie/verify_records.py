@@ -185,12 +185,16 @@ def mechanical_coherence_checks(records: list[dict]) -> list[dict]:
     Controleert:
     - vergelijkingsparen[].vergelijking_met → bestaat als record-id
     - edges[].target → bestaat als record-id
+    - rationale ontbreekt op record-niveau (schema 1.3, ADR-007)
 
     Geeft een lijst van mechanische gap-objecten terug (nog niet weggeschreven).
     """
     bestaande_ids = _record_ids(records)
     gaps: list[dict] = []
     nu = datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+    # Node-types waarvoor rationale minder relevant is (meta-records)
+    rationale_skip_types: set[str] = {"wettelijke-anker"}
 
     for record in records:
         record_id = record.get("id", "?")
@@ -200,6 +204,7 @@ def mechanical_coherence_checks(records: list[dict]) -> list[dict]:
             doel = paar.get("vergelijking_met", "")
             if doel and doel not in bestaande_ids:
                 gaps.append({
+                    "aspect_type": "concept-gap",
                     "record_id": record_id,
                     "aspect": "vergelijkingsparen.target-ontbreekt",
                     "reden": (
@@ -217,6 +222,7 @@ def mechanical_coherence_checks(records: list[dict]) -> list[dict]:
             doel = edge.get("target", "")
             if doel and doel not in bestaande_ids:
                 gaps.append({
+                    "aspect_type": "concept-gap",
                     "record_id": record_id,
                     "aspect": "edges.target-ontbreekt",
                     "reden": (
@@ -228,6 +234,24 @@ def mechanical_coherence_checks(records: list[dict]) -> list[dict]:
                     "geconstateerd_op": nu,
                     "status": "open",
                 })
+
+        # Rationale-check (schema 1.3, ADR-007 §rationale-velden)
+        node_type = record.get("node_type", "")
+        if node_type not in rationale_skip_types and not record.get("rationale"):
+            gaps.append({
+                "aspect_type": "concept-gap",
+                "record_id": record_id,
+                "aspect": "rationale.ontbreekt",
+                "reden": (
+                    f"Record '{record_id}' heeft geen top-level rationale-veld. "
+                    f"Schema 1.3 verwacht een pedagogisch inzicht-blok "
+                    f"(ADR-007 §rationale-velden, ENRICH-prompt v1 §rationale-aspect)."
+                ),
+                "prio": "midden",
+                "geconstateerd_door": "mechanisch",
+                "geconstateerd_op": nu,
+                "status": "open",
+            })
 
     return gaps
 

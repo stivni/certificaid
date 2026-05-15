@@ -1,0 +1,14 @@
+{% for blok in in_praktijk %}
+### {{ blok.aspect }} {id="{{ blok.anker_slug }}"}
+
+{{ blok.betekenis }} {{ blok.confidence | default('inferred') | confidence_label }}
+
+{% if blok.herkenningspunt %}
+**Herkenningspunt**: {{ blok.herkenningspunt }}
+
+{% endif %}
+{% if blok.wereld_voorbeeld %}
+**Voorbeeld**: {{ blok.wereld_voorbeeld }}
+
+{% endif %}
+{% endfor %}

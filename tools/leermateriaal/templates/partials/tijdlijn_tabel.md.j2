@@ -1,0 +1,9 @@
+{% if tijdlijn %}
+## Tijdlijn
+
+| Stap | Termijn | Actor | Actie |
+|---|---|---|---|
+{% for item in tijdlijn %}
+| {{ item.stap }} | {{ item.termijn }} | {{ item.actor | default('—') }} | {{ item.actie }} |
+{% endfor %}
+{% endif %}

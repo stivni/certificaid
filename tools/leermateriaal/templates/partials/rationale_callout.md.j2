@@ -1,0 +1,4 @@
+{% if rationale and rationale.text %}
+> [!note]- Waarom dit telt
+> {{ rationale.text }} {{ rationale.confidence | confidence_label }}
+{% endif %}

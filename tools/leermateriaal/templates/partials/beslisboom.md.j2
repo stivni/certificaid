@@ -1,0 +1,10 @@
+{% if beslisboom %}
+## Beslisboom
+
+{% for node in beslisboom %}
+**{{ node.vraag }}**
+- Ja: {{ node.ja }}
+- Nee: {{ node.nee }}
+
+{% endfor %}
+{% endif %}

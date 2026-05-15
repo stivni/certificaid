@@ -1,0 +1,28 @@
+{% for methode in berekeningsmethode %}
+### {{ methode.naam }}
+
+{% if methode.formule %}
+**Formule**: `{{ methode.formule }}`
+
+{% endif %}
+{% if methode.ratio %}
+*{{ methode.ratio }}*
+
+{% endif %}
+{% if methode.stappen %}
+**Stappen**:
+{% for stap in methode.stappen %}
+{{ loop.index }}. {{ stap }}
+{% endfor %}
+
+{% endif %}
+{% if methode.concreet_voorbeeld %}
+**Voorbeeld**: {{ methode.concreet_voorbeeld.scenario }}
+
+```
+{{ methode.concreet_voorbeeld.berekening }}
+```
+
+Resultaat: {{ methode.concreet_voorbeeld.resultaat }}
+{% endif %}
+{% endfor %}

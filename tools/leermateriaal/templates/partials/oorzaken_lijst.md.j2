@@ -1,0 +1,10 @@
+{% if oorzaken %}
+## Oorzaken
+
+{% for oorzaak in oorzaken %}
+- {{ oorzaak.text }} {{ oorzaak.confidence | default('inferred') | confidence_label }}
+{% if oorzaak.rationale %}
+  *{{ oorzaak.rationale }}*
+{% endif %}
+{% endfor %}
+{% endif %}
