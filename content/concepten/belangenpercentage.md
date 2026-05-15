@@ -34,10 +34,10 @@ gegenereerd_op: '2026-05-15'
 *Een eigendomsbelang vloeit niet onverdund door schakels; elk niveau verdeelt een evenredig stuk eigendom over derden. Anders dan voor controle wordt het belangenpercentage dus wél vermenigvuldigd.*
 
 **Stappen**:
-1. {'volgorde': 1, 'text': 'Identificeer alle vennootschappen in de keten tussen M en de uiteindelijke dochter.'}
-2. {'volgorde': 2, 'text': 'Bepaal voor elke schakel het directe belangenpercentage in de volgende vennootschap.'}
-3. {'volgorde': 3, 'text': 'Vermenigvuldig de percentages om het effectieve belangenpercentage van M in de onderste dochter te bekomen.'}
 
+1. Identificeer alle vennootschappen in de keten tussen M en de uiteindelijke dochter.
+2. Bepaal voor elke schakel het directe belangenpercentage in de volgende vennootschap.
+3. Vermenigvuldig de percentages om het effectieve belangenpercentage van M in de onderste dochter te bekomen.
 **Voorbeeld**: M bezit 80 % van A; A bezit 60 % van B (beide via kapitaal en stemrechten, geen preferente regelingen).
 
 ```

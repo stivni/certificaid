@@ -34,13 +34,13 @@ gegenereerd_op: '2026-05-15'
 *Het deel van de marge dat op de interne verkoop werd geboekt is voor de groep economisch niet gerealiseerd zolang het goed nog in de groep zit. Het actief moet in de geconsolideerde balans worden teruggebracht tot de oorspronkelijke kostprijs voor de groep, en de interne winst mag niet in de geconsolideerde reserves blijven hangen.*
 
 **Stappen**:
-1. {'volgorde': 1, 'text': 'Identificeer de intra-groepsverkoop: verkoper, koper, totale interne verkoopprijs, brutomarge van de verkoper.'}
-2. {'volgorde': 2, 'text': 'Bepaal hoeveel van het verkochte goed op balansdatum nog in voorraad zit bij de koper (of nog niet aan derden buiten de groep is doorverkocht).'}
-3. {'volgorde': 3, 'text': 'Bereken de niet-gerealiseerde winst: restvoorraad × brutomarge%.'}
-4. {'volgorde': 4, 'text': "Schrap die niet-gerealiseerde winst uit de waarde van 'Voorraden' in de geconsolideerde balans (KB WVV art. 3:134, 2°) en uit de geconsolideerde reserves."}
-5. {'volgorde': 5, 'text': 'Schrap de volledige interne omzet en bijbehorende kostprijs verkochte goederen uit de geconsolideerde resultatenrekening (KB WVV art. 3:136, 1°) — los van of het goed nog in voorraad zit.'}
-6. {'volgorde': 6, 'text': 'Voor evenredig geconsolideerde gemeenschappelijke dochters: beperk de eliminatie van de niet-gerealiseerde winst en van de interne omzet/kostprijs tot het pro-rata belang (KB WVV art. 3:140, a).'}
 
+1. Identificeer de intra-groepsverkoop: verkoper, koper, totale interne verkoopprijs, brutomarge van de verkoper.
+2. Bepaal hoeveel van het verkochte goed op balansdatum nog in voorraad zit bij de koper (of nog niet aan derden buiten de groep is doorverkocht).
+3. Bereken de niet-gerealiseerde winst: restvoorraad × brutomarge%.
+4. Schrap die niet-gerealiseerde winst uit de waarde van 'Voorraden' in de geconsolideerde balans (KB WVV art. 3:134, 2°) en uit de geconsolideerde reserves.
+5. Schrap de volledige interne omzet en bijbehorende kostprijs verkochte goederen uit de geconsolideerde resultatenrekening (KB WVV art. 3:136, 1°) — los van of het goed nog in voorraad zit.
+6. Voor evenredig geconsolideerde gemeenschappelijke dochters: beperk de eliminatie van de niet-gerealiseerde winst en van de interne omzet/kostprijs tot het pro-rata belang (KB WVV art. 3:140, a).
 **Voorbeeld**: Moeder M verkoopt voor 100 goederen aan dochter D (100 % integrale consolidatie). M realiseert daarop een brutomarge van 30 % (kostprijs voor M = 70, marge = 30). Op balansdatum heeft D nog 40 % van die goederen in voorraad (oorspronkelijke interne aankoopprijs = 40); de overige 60 (interne prijs) is reeds aan derden buiten de groep doorverkocht.
 
 ```

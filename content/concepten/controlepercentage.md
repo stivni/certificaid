@@ -34,10 +34,10 @@ gegenereerd_op: '2026-05-15'
 *Zodra elke tussenliggende schakel exclusief wordt gecontroleerd, vloeit de zeggenschap over de onderste schakel volledig door naar de top. Vermenigvuldigen geldt enkel voor het belang (economisch eigenaarschap), niet voor de controle (zeggenschap).*
 
 **Stappen**:
-1. {'volgorde': 1, 'text': 'Bepaal of M elke tussenliggende schakel exclusief controleert (> 50 % stemrechten of andere onweerlegbare titel).'}
-2. {'volgorde': 2, 'text': 'Zo ja: het controlepercentage van M in B is gelijk aan het controlepercentage van de directe moeder (A) in B.'}
-3. {'volgorde': 3, 'text': 'Zo niet: er is geen doorlopende controle; B is geen dochter van M maar mogelijk een geassocieerde of een gemeenschappelijke dochter, afhankelijk van de structuur.'}
 
+1. Bepaal of M elke tussenliggende schakel exclusief controleert (> 50 % stemrechten of andere onweerlegbare titel).
+2. Zo ja: het controlepercentage van M in B is gelijk aan het controlepercentage van de directe moeder (A) in B.
+3. Zo niet: er is geen doorlopende controle; B is geen dochter van M maar mogelijk een geassocieerde of een gemeenschappelijke dochter, afhankelijk van de structuur.
 **Voorbeeld**: M bezit 80 % van A; A bezit 60 % van B. A is exclusief gecontroleerd door M.
 
 ```

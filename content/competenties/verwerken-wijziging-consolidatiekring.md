@@ -83,4 +83,5 @@ gegenereerd_op: '2026-05-15'
 [[wijziging-consolidatiekring]] · [[eerste-consolidatie]] · [[step-acquisition]] · [[consolidatieverschil]] · [[vermogensmutatiemethode]] · [[integrale-consolidatie]] · 
 ## Voortkomend uit
 
-**Taken**: 1.4.taak.1**Kenniselementen**: 1.4.I.G, 1.4.II.D
+- **Taken**: 1.4.taak.1
+- **Kenniselementen**: 1.4.I.G, 1.4.II.D

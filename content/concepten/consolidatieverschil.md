@@ -42,12 +42,12 @@ gegenereerd_op: '2026-05-15'
 *Het verschil reflecteert de kostprijs die de moeder bovenop (of onder) het netto-actief heeft betaald, na correctie voor stille meer-/minderwaarden in de dochter. Het residu vangt de niet aan specifieke activa toewijsbare goodwill (of badwill) op.*
 
 **Stappen**:
-1. {'volgorde': 1, 'text': 'Bepaal de aanschaffingswaarde van de deelneming.'}
-2. {'volgorde': 2, 'text': 'Bepaal het pro-rata aandeel (belang%) in het eigen vermogen van de dochter op verwervingsdatum (KB WVV art. 3:129).'}
-3. {'volgorde': 3, 'text': 'Bereken het bruto-verschil (stap 1 − stap 2).'}
-4. {'volgorde': 4, 'text': 'Reken het bruto-verschil zoveel mogelijk toe aan onder-/overgewaardeerde actief- of passiefbestanddelen van de dochter (KB WVV art. 3:128, art. 3:130).'}
-5. {'volgorde': 5, 'text': 'Het residu = consolidatieverschil. Positief → actiefzijde; negatief → passiefzijde (KB WVV art. 3:130).'}
 
+1. Bepaal de aanschaffingswaarde van de deelneming.
+2. Bepaal het pro-rata aandeel (belang%) in het eigen vermogen van de dochter op verwervingsdatum (KB WVV art. 3:129).
+3. Bereken het bruto-verschil (stap 1 − stap 2).
+4. Reken het bruto-verschil zoveel mogelijk toe aan onder-/overgewaardeerde actief- of passiefbestanddelen van de dochter (KB WVV art. 3:128, art. 3:130).
+5. Het residu = consolidatieverschil. Positief → actiefzijde; negatief → passiefzijde (KB WVV art. 3:130).
 **Voorbeeld**: M verwerft 100 % van D voor 1.000. Eigen vermogen D op verwervingsdatum = 700. M identificeert dat de terreinen van D voor 150 ondergewaardeerd zijn t.o.v. werkelijke waarde.
 
 ```

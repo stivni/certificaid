@@ -11,10 +11,11 @@
 {% endif %}
 {% if methode.stappen %}
 **Stappen**:
-{% for stap in methode.stappen %}
-{{ loop.index }}. {{ stap }}
-{% endfor %}
 
+{% for stap in methode.stappen %}
+{{ loop.index }}. {% if stap is mapping %}{{ stap.text or stap.titel or stap.omschrijving }}{% if stap.actor %} _(actor: {{ stap.actor }})_{% endif %}{% else %}{{ stap }}{% endif %}
+
+{% endfor %}
 {% endif %}
 {% if methode.concreet_voorbeeld %}
 **Voorbeeld**: {{ methode.concreet_voorbeeld.scenario }}

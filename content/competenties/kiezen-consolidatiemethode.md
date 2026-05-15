@@ -95,4 +95,5 @@ gegenereerd_op: '2026-05-15'
 [[integrale-consolidatie]] · [[evenredige-consolidatie]] · [[vermogensmutatiemethode]] · [[horizontale-consolidatie]] · [[dochteronderneming]] · [[gemeenschappelijke-dochteronderneming]] · [[geassocieerde-onderneming]] · [[consortium]] · 
 ## Voortkomend uit
 
-**Taken**: 1.4.taak.1**Kenniselementen**: 1.4.I.D, 1.4.I.E, 1.4.I.B, 1.4.II.C
+- **Taken**: 1.4.taak.1
+- **Kenniselementen**: 1.4.I.D, 1.4.I.E, 1.4.I.B, 1.4.II.C

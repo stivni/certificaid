@@ -42,12 +42,12 @@ gegenereerd_op: '2026-05-15'
 *De moeder controleert de dochter en de groep wordt gepresenteerd als één economische entiteit. Bezittingen en schulden vloeien voor 100 % door; het derden-deel wordt op de passiefzijde van de balans als 'Belangen van derden' afgezonderd zodat de geconsolideerde gegevens transparant blijven.*
 
 **Stappen**:
-1. {'volgorde': 1, 'text': 'Neem alle actief- en passiefbestanddelen van moeder en dochter volledig op in de geconsolideerde balans (KB WVV art. 3:126).'}
-2. {'volgorde': 2, 'text': 'Compenseer de boekwaarde van de deelneming met het overeenkomstig deel van het eigen vermogen van de dochter op verwervingsdatum (KB WVV art. 3:127, a)).'}
-3. {'volgorde': 3, 'text': "Reken het verschil zoveel mogelijk toe aan onder-/overgewaardeerde actief-/passiefbestanddelen (KB WVV art. 3:130, lid 1); het overblijvende verschil wordt 'Consolidatieverschillen' (KB WVV art. 3:130, lid 2)."}
-4. {'volgorde': 4, 'text': 'Elimineer onderlinge vorderingen/schulden en intra-groepswinsten/-verliezen in voorraad of activa (KB WVV art. 3:134); elimineer onderlinge opbrengsten/kosten (KB WVV art. 3:136).'}
-5. {'volgorde': 5, 'text': "Bereken en presenteer het aandeel van derden in het eigen vermogen (balans, 'Belangen van derden') en in het resultaat (resultatenrekening, 'Aandeel van derden in het resultaat') voor het deel (1 − belang%) (KB WVV art. 3:137)."}
 
+1. Neem alle actief- en passiefbestanddelen van moeder en dochter volledig op in de geconsolideerde balans (KB WVV art. 3:126).
+2. Compenseer de boekwaarde van de deelneming met het overeenkomstig deel van het eigen vermogen van de dochter op verwervingsdatum (KB WVV art. 3:127, a)).
+3. Reken het verschil zoveel mogelijk toe aan onder-/overgewaardeerde actief-/passiefbestanddelen (KB WVV art. 3:130, lid 1); het overblijvende verschil wordt 'Consolidatieverschillen' (KB WVV art. 3:130, lid 2).
+4. Elimineer onderlinge vorderingen/schulden en intra-groepswinsten/-verliezen in voorraad of activa (KB WVV art. 3:134); elimineer onderlinge opbrengsten/kosten (KB WVV art. 3:136).
+5. Bereken en presenteer het aandeel van derden in het eigen vermogen (balans, 'Belangen van derden') en in het resultaat (resultatenrekening, 'Aandeel van derden in het resultaat') voor het deel (1 − belang%) (KB WVV art. 3:137).
 **Voorbeeld**: Moeder M bezit 80 % van de stemrechten en het kapitaal van dochter D. Op acquisitiedatum: aanschaffingswaarde aandelen = 320; eigen vermogen D = 300; geen onder-/overwaarderingen. Balans D bij afsluiting jaar 1: activa 600, schulden aan derden 200, eigen vermogen 400 (waarvan resultaat boekjaar 100). M heeft een vordering op D van 50 (D dus een schuld van 50 aan M).
 
 ```

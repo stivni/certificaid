@@ -34,8 +34,10 @@
 ## Voortkomend uit
 
 {% if competentie.voortkomend_uit.taken %}
-**Taken**: {% for taak in competentie.voortkomend_uit.taken %}{{ taak }}{% if not loop.last %}, {% endif %}{% endfor %}
+- **Taken**: {% for taak in competentie.voortkomend_uit.taken %}{{ taak }}{% if not loop.last %}, {% endif %}{% endfor %}
+
 {% endif %}
 {% if competentie.voortkomend_uit.kenniselementen %}
-**Kenniselementen**: {% for ke in competentie.voortkomend_uit.kenniselementen %}{{ ke }}{% if not loop.last %}, {% endif %}{% endfor %}
+- **Kenniselementen**: {% for ke in competentie.voortkomend_uit.kenniselementen %}{{ ke }}{% if not loop.last %}, {% endif %}{% endfor %}
+
 {% endif %}

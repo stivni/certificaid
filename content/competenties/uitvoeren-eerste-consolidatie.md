@@ -76,4 +76,5 @@ gegenereerd_op: '2026-05-15'
 [[eerste-consolidatie]] · [[consolidatieverschil]] · [[integrale-consolidatie]] · [[vermogensmutatiemethode]] · [[belangenpercentage]] · 
 ## Voortkomend uit
 
-**Taken**: 1.4.taak.1**Kenniselementen**: 1.4.I.D, 1.4.I.E, 1.4.I.G, 1.4.II.D
+- **Taken**: 1.4.taak.1
+- **Kenniselementen**: 1.4.I.D, 1.4.I.E, 1.4.I.G, 1.4.II.D

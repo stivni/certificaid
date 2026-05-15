@@ -42,12 +42,12 @@ gegenereerd_op: '2026-05-15'
 *Bij verwerving betaalt de moeder vaak een prijs verschillend van het pro-rata aandeel in het netto-actief van de geassocieerde. Het verschil wordt eerst toegewezen aan onder-/overgewaardeerde activa van de dochter en daarna geboekt als 'Consolidatieverschil'.*
 
 **Stappen**:
-1. {'volgorde': 1, 'text': 'Bepaal de aanschaffingswaarde van de deelneming.'}
-2. {'volgorde': 2, 'text': 'Bepaal het pro-rata aandeel in het eigen vermogen van de betrokken vennootschap op acquisitiedatum.'}
-3. {'volgorde': 3, 'text': 'Bereken het verschil (aanschaffingswaarde − pro-rata EV).'}
-4. {'volgorde': 4, 'text': 'Wijs het verschil zoveel mogelijk toe aan onder-/overgewaardeerde activa of passiva van de dochter.'}
-5. {'volgorde': 5, 'text': 'Het overblijvende verschil wordt geboekt als positief of negatief consolidatieverschil; positief consolidatieverschil wordt afgeschreven over de vermoedelijke gebruiksduur (KB WVV art. 3:131).'}
 
+1. Bepaal de aanschaffingswaarde van de deelneming.
+2. Bepaal het pro-rata aandeel in het eigen vermogen van de betrokken vennootschap op acquisitiedatum.
+3. Bereken het verschil (aanschaffingswaarde − pro-rata EV).
+4. Wijs het verschil zoveel mogelijk toe aan onder-/overgewaardeerde activa of passiva van de dochter.
+5. Het overblijvende verschil wordt geboekt als positief of negatief consolidatieverschil; positief consolidatieverschil wordt afgeschreven over de vermoedelijke gebruiksduur (KB WVV art. 3:131).
 **Voorbeeld**: Onderneming ABC verwerft in 20X1 een belang van 20 % in onderneming DEF. Aanschaffingswaarde 200. Netto-activa DEF op acquisitiedatum: 600.
 
 ```
@@ -65,12 +65,12 @@ Resultaat: Eerste consolidatie: deelneming wordt voorgesteld als 'Vennootschappe
 *Het pro-rata aandeel in winst of verlies vertaalt zich rechtstreeks in de waarde van de deelneming op de geconsolideerde balans, met als spiegelpost een afzonderlijke resultatenpost 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast'.*
 
 **Stappen**:
-1. {'volgorde': 1, 'text': 'Identificeer het resultaat van de betrokken vennootschap voor het boekjaar.'}
-2. {'volgorde': 2, 'text': 'Bereken het pro-rata aandeel: belang% × resultaat.'}
-3. {'volgorde': 3, 'text': "Verhoog (winst) of verlaag (verlies) de balanspost 'Vennootschappen waarop vermogensmutatie is toegepast' met dit aandeel."}
-4. {'volgorde': 4, 'text': "Boek de tegenpost in de geconsolideerde resultatenrekening als 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast' (KB WVV art. 3:145)."}
-5. {'volgorde': 5, 'text': 'Indien dividend wordt uitgekeerd: het dividend wordt apart geboekt als opbrengst, maar het deel van het resultaat dat als dividend wordt toegekend, wordt niet (opnieuw) bij de boekwaarde van de deelneming geteld.'}
 
+1. Identificeer het resultaat van de betrokken vennootschap voor het boekjaar.
+2. Bereken het pro-rata aandeel: belang% × resultaat.
+3. Verhoog (winst) of verlaag (verlies) de balanspost 'Vennootschappen waarop vermogensmutatie is toegepast' met dit aandeel.
+4. Boek de tegenpost in de geconsolideerde resultatenrekening als 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast' (KB WVV art. 3:145).
+5. Indien dividend wordt uitgekeerd: het dividend wordt apart geboekt als opbrengst, maar het deel van het resultaat dat als dividend wordt toegekend, wordt niet (opnieuw) bij de boekwaarde van de deelneming geteld.
 **Voorbeeld**: Geassocieerde vennootschap Y; belang van moedervennootschap M = 20 %. Hypothese 1: Y maakt in 20X2 een winst van 1.500. Hypothese 2: Y maakt in 20X2 een verlies van 1.500. Hypothese 3: Y maakt in 20X2 een verlies van 15.000 (boekwaarde van de deelneming bij eerste consolidatie was 2.600).
 
 ```

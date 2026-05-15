@@ -94,4 +94,5 @@ gegenereerd_op: '2026-05-15'
 [[controle]] · [[exclusieve-controle]] · [[gezamenlijke-controle]] · [[invloed-van-betekenis]] · [[dochteronderneming]] · [[geassocieerde-onderneming]] · [[gemeenschappelijke-dochteronderneming]] · 
 ## Voortkomend uit
 
-**Taken**: 1.4.taak.1**Kenniselementen**: 1.4.I.C, 1.4.I.B, 1.4.I.D, 1.4.I.E, 1.4.II.B
+- **Taken**: 1.4.taak.1
+- **Kenniselementen**: 1.4.I.C, 1.4.I.B, 1.4.I.D, 1.4.I.E, 1.4.II.B

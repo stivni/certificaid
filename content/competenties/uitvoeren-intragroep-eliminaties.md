@@ -87,4 +87,5 @@ gegenereerd_op: '2026-05-15'
 [[intragroep-eliminaties]] · [[minderheidsbelangen]] · [[integrale-consolidatie]] · [[evenredige-consolidatie]] · [[belangenpercentage]] · 
 ## Voortkomend uit
 
-**Taken**: 1.4.taak.1**Kenniselementen**: 1.4.I.D, 1.4.I.B, 1.4.I.F
+- **Taken**: 1.4.taak.1
+- **Kenniselementen**: 1.4.I.D, 1.4.I.B, 1.4.I.F

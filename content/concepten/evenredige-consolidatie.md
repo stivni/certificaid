@@ -40,11 +40,11 @@ gegenereerd_op: '2026-05-15'
 *Bij gezamenlijke controle wordt de macht over de dochter gedeeld; de geconsolideerde jaarrekening reflecteert die gedeelde macht door enkel het overeenstemmend deel van activa, passiva, opbrengsten en kosten te tonen. Het deel buiten de groep wordt niet 'gecorrigeerd' via een derden-post (zoals bij integrale consolidatie), maar simpelweg niet opgenomen.*
 
 **Stappen**:
-1. {'volgorde': 1, 'text': 'Bepaal het belangenpercentage (rechten in kapitaal / inbreng) van de consoliderende vennootschap in de gemeenschappelijke dochter.'}
-2. {'volgorde': 2, 'text': 'Vermenigvuldig elke actief-, passief-, opbrengsten- en kostenpost van de dochter met dit percentage.'}
-3. {'volgorde': 3, 'text': 'Voeg de pro-rata bedragen samen met de bedragen van de moeder en haar integraal geconsolideerde dochters.'}
-4. {'volgorde': 4, 'text': 'Pas de compensatie- en eliminatieregels van KB WVV art. 3:127, 3:128, 3:130, 3:134, 3:136 toe op het pro-rata deel (KB WVV art. 3:140, a)).'}
 
+1. Bepaal het belangenpercentage (rechten in kapitaal / inbreng) van de consoliderende vennootschap in de gemeenschappelijke dochter.
+2. Vermenigvuldig elke actief-, passief-, opbrengsten- en kostenpost van de dochter met dit percentage.
+3. Voeg de pro-rata bedragen samen met de bedragen van de moeder en haar integraal geconsolideerde dochters.
+4. Pas de compensatie- en eliminatieregels van KB WVV art. 3:127, 3:128, 3:130, 3:134, 3:136 toe op het pro-rata deel (KB WVV art. 3:140, a)).
 **Voorbeeld**: Vennootschap A en vennootschap B oefenen gezamenlijke controle uit over vennootschap X via een aandeelhoudersovereenkomst — elk bezit 50 % van het kapitaal. Balans X: materiële vaste activa 800; voorraden 200; kas 100; eigen vermogen 600; schulden 500. Resultatenrekening X: omzet 1.000; kosten 800; resultaat 200. A koopt voor 60 goederen bij X (intra-groepsverkoop, in voorraad bij A; X realiseerde daarop een winst van 10).
 
 ```

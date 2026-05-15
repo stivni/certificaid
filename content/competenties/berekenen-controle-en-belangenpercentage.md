@@ -78,4 +78,5 @@ gegenereerd_op: '2026-05-15'
 [[controlepercentage]] · [[belangenpercentage]] · [[exclusieve-controle]] · [[controle]] · 
 ## Voortkomend uit
 
-**Taken**: 1.4.taak.1**Kenniselementen**: 1.4.I.C, 1.4.I.D, 1.4.I.E
+- **Taken**: 1.4.taak.1
+- **Kenniselementen**: 1.4.I.C, 1.4.I.D, 1.4.I.E

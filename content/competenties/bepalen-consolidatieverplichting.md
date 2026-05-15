@@ -105,4 +105,5 @@ gegenereerd_op: '2026-05-15'
 [[consolidatieverplichting]] · [[moedervennootschap]] · [[controle]] · [[consortium]] · [[vrijstelling-subconsolidatie]] · [[groottecriteria-consolidatie]] · [[groep-van-beperkte-omvang]] · 
 ## Voortkomend uit
 
-**Taken**: 1.4.taak.1**Kenniselementen**: 1.4.I.C, 1.4.I.B, 1.4.II.B
+- **Taken**: 1.4.taak.1
+- **Kenniselementen**: 1.4.I.C, 1.4.I.B, 1.4.II.B

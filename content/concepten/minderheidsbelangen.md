@@ -35,12 +35,12 @@ Aandeel van derden in resultaat = (1 − belang%) × resultaat van het boekjaar 
 *De moeder consolideert 100 % van de activa, passiva, opbrengsten en kosten van de dochter; het deel dat economisch aan derden toebehoort wordt afgezonderd zodat de geconsolideerde gegevens transparant tonen welk deel van eigen vermogen en resultaat aan de groep en welk deel aan minderheidsaandeelhouders toekomt.*
 
 **Stappen**:
-1. {'volgorde': 1, 'text': 'Bepaal het belangenpercentage van de moeder in de dochter (rechten in kapitaal).'}
-2. {'volgorde': 2, 'text': 'Bereken (1 − belang%) — dit is het derden-percentage.'}
-3. {'volgorde': 3, 'text': "Vermenigvuldig met het eigen vermogen van de dochter op afsluitingsdatum → 'Belangen van derden' op de balans (passiefzijde)."}
-4. {'volgorde': 4, 'text': "Vermenigvuldig met het resultaat van het boekjaar van de dochter → 'Aandeel van derden in het resultaat' (resultatenrekening)."}
-5. {'volgorde': 5, 'text': "Indien actief- en passiefbestanddelen van de dochter werden herberekend (KB WVV art. 3:130, lid 1), wordt het aandeel van derden in die herberekeningen geboekt in de post 'Belangen van derden' aan passiefzijde (KB WVV art. 3:130, lid 4)."}
 
+1. Bepaal het belangenpercentage van de moeder in de dochter (rechten in kapitaal).
+2. Bereken (1 − belang%) — dit is het derden-percentage.
+3. Vermenigvuldig met het eigen vermogen van de dochter op afsluitingsdatum → 'Belangen van derden' op de balans (passiefzijde).
+4. Vermenigvuldig met het resultaat van het boekjaar van de dochter → 'Aandeel van derden in het resultaat' (resultatenrekening).
+5. Indien actief- en passiefbestanddelen van de dochter werden herberekend (KB WVV art. 3:130, lid 1), wordt het aandeel van derden in die herberekeningen geboekt in de post 'Belangen van derden' aan passiefzijde (KB WVV art. 3:130, lid 4).
 **Voorbeeld**: M bezit 80 % van D (integrale consolidatie). Eigen vermogen van D op afsluitingsdatum = 500 (incl. resultaat boekjaar 100). Resultaat boekjaar D = 100.
 
 ```

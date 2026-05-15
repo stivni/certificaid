@@ -75,4 +75,5 @@ gegenereerd_op: '2026-05-15'
 [[uniforme-waarderingsregels-consolidatie]] · [[geconsolideerde-jaarrekening]] · [[integrale-consolidatie]] · 
 ## Voortkomend uit
 
-**Taken**: 1.4.taak.1**Kenniselementen**: 1.4.I.D, 1.4.I.B, 1.4.I.G
+- **Taken**: 1.4.taak.1
+- **Kenniselementen**: 1.4.I.D, 1.4.I.B, 1.4.I.G
