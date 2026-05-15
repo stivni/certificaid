@@ -26,7 +26,7 @@ Scope-modus (POC vertical-slice, zie roadmap.md Fase 2):
 Gebruik:
   python tools/rag/rag_index.py                              # alle bronnen-types
   python tools/rag/rag_index.py --bron-rol norm              # alleen normen
-  python tools/rag/rag_index.py --scope data/programma/programmaonderdelen/4.0-bronnen-scope.yaml
+  python tools/rag/rag_index.py --scope data/programma/bronnen-scopes/4.0-bronnen-scope.yaml
   python tools/rag/rag_index.py --add-concepten              # concept-records indexeren
   python tools/rag/rag_index.py --reset                      # verwijder en herbouw
   python tools/rag/rag_index.py --device cpu                 # forceer device

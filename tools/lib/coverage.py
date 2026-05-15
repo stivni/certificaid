@@ -4,7 +4,7 @@ Dekkingscheck-utility (ADR-002).
 Bouwt op aanvraag een reverse-index:
   concept-id → [kenniselement-codes die ernaar verwijzen]
 
-Source of truth = programmaonderdeel-JSON's (data/programma/programmaonderdelen/*.json).
+Source of truth = programmaonderdeel-JSON's (data/programma/bronnen-scopes/*.json).
 Geen state op concept-records zelf (ADR-007: concept-laag is dependency-vrij).
 
 Gebruik:

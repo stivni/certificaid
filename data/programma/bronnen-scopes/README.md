@@ -1,14 +1,14 @@
-# Programmaonderdelen — werkcontext
+# Bronnen-scopes per programmaonderdeel
 
-De inhoud van het ITAA-examenprogramma 04/2022 (`resources/raw/andere/programma.pdf`) leeft sinds 2026-05-10 in **één globaal bestand**: [`data/programma.json`](../programma.json).
+De inhoud van het ITAA-examenprogramma 04/2022 (`resources/raw/andere/programma.pdf`) leeft sinds 2026-05-10 in **één globaal bestand**: [`data/programma/programma.json`](../programma.json).
 
-Per-PO ankerlijsten in [`data/extractie/<po>/anchors/<po>-anchors.json`](../extractie/) zijn afgeleid en regenereerbaar via:
+Per-PO ankerlijsten in [`data/extractie/<po>/anchors/<po>-anchors.json`](../../extractie/) zijn afgeleid en regenereerbaar via:
 
 ```bash
 python3 -m tools.extractie.flatten_anchors
 ```
 
-Deze map bevat alleen nog **per-PO scope-yamls** (legacy, zolang `match_bronnen.py` per-PO matching ondersteunt; verdwijnt zodra de matcher globaal werkt).
+Deze map bevat alleen nog **per-PO bronnen-scope-yamls** — definieert welke bron-bestanden in de RAG-index meegenomen worden bij `rag_index.py --scope`. Legacy zolang `match_bronnen.py` per-PO matching ondersteunt; verdwijnt zodra de matcher globaal werkt.
 
 ## Mapping examenprogramma-letter ↔ programmaonderdeel-nummer
 

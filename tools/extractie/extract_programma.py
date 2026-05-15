@@ -3,8 +3,8 @@
 extract_programma.py
 Mechanische extractie van het ITAA-examenprogramma-PDF naar JSON per programmaonderdeel.
 
-Uitvoer: data/programma/programmaonderdelen/_auto/<X.Y>-<naam-slug>.json
-Schema: exact gelijk aan data/programma/programmaonderdelen/4.0-deontologie.json
+Uitvoer: data/programma/_auto/<X.Y>-<naam-slug>.json
+Schema: exact gelijk aan oude data/programmaonderdelen/4.0-deontologie.json (legacy schema)
 
 Gebruik:
     python3 tools/extractie/extract_programma.py
@@ -25,7 +25,7 @@ import pymupdf4llm
 # ---------------------------------------------------------------------------
 
 PDF_PATH = Path("resources/raw/andere/programma.pdf")
-OUTPUT_DIR = Path("data/programma/programmaonderdelen/_auto")
+OUTPUT_DIR = Path("data/programma/_auto")
 PDF_VERSION = "04/2022"
 PDF_SHA256 = "6a532dd301c094afd086c08358589dfe6109c1f7789c93eb84e2e140adf9f18d"
 
