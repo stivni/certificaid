@@ -18,7 +18,7 @@ ChromaDB niet aan. Antwoordt op drie vragen vóór een full-build:
 
 Output:
   - Console-tabellen per bron-rol
-  - JSON-rapport in data/qa/chunk-analyse-<timestamp>.json
+  - JSON-rapport in data/etl/qa/chunk-analyse-<timestamp>.json
 
 Gebruik:
   python3 tools/rag/rag_chunk_analyse.py                       # alle trusted bronnen

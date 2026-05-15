@@ -12,7 +12,7 @@ vóór de volgende:
     d. source_config    → verwijdert de entry als die bron expliciet vermeld staat
 
   Laag 2 — Concept-records (NIET automatisch — vereist agent-review):
-    De concept-records in data/concept_records/**/*.json bevatten inline
+    De concept-records in data/concepten/records/**/*.json bevatten inline
     provenance-blokken per veld die verwijzen naar chunk-ids van deze bron.
     Dit script toont welke records getroffen worden, maar past ze NIET aan.
     → Review met een Opus-subagent: welke velden kunnen herschreven worden

@@ -88,8 +88,25 @@ certificaid/
 │   └── lib/                    # Gedeelde bibliotheken (retrieval, cleanup)
 ├── tutor/app.py                # Streamlit tutor
 ├── data/
-│   ├── chroma_db/              # ChromaDB (gitignored, herbouwbaar)
-│   └── concept_records/        # Gegenereerde concept records (gitignored)
+│   ├── bronnen-index.json      # Bronnen-index (top-level, auto-gegenereerd)
+│   ├── programma/              # Examenprogramma-input
+│   │   ├── programma.json
+│   │   ├── anchors.json
+│   │   ├── programmaonderdelen/
+│   │   ├── exam_patterns/
+│   │   └── examen_vragen/
+│   ├── etl/                    # ETL-werk op bronnen
+│   │   ├── staging/            # Staging vóór promotie (gitignored)
+│   │   └── qa/                 # QA-rapporten (gitignored)
+│   ├── rag/                    # ChromaDB-instances (gitignored, herbouwbaar)
+│   │   ├── main/
+│   │   ├── 1.1/
+│   │   └── 4.0/
+│   ├── concepten/              # Kennislaag + history + checks
+│   │   ├── records/            # Concept records (gegit)
+│   │   ├── _archive/           # Archief (gitignored)
+│   │   └── quality_checks/     # Kwaliteitschecks (gegit)
+│   └── extractie/              # Werkfolder extractie-pipeline
 └── .github/workflows/deploy.yml
 ```
 

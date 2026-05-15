@@ -42,7 +42,7 @@ Gebruik:
   python tools/etl/qa_bron.py --staging                   # alle staging-MDs
   python tools/etl/qa_bron.py --staging --bron WIB92      # één staging-MD
 
-Output: `data/qa/<run-id>.json` + samenvatting op stdout.
+Output: `data/etl/qa/<run-id>.json` + samenvatting op stdout.
 """
 from __future__ import annotations
 
@@ -715,7 +715,7 @@ def iter_targets(file: Optional[Path], bron_rol: Optional[str], collection: Opti
 
 
 def iter_staging_targets(bron: Optional[str]) -> list[Path]:
-    """Verzamel staging-MD's uit `data/etl-staging/`.
+    """Verzamel staging-MD's uit `data/etl/staging/`.
 
     Met `--bron NAAM` wordt op stem (filename zonder .md) gefilterd, hoofdletter-
     ongevoelig. Geen match → SystemExit.
@@ -810,16 +810,16 @@ def main() -> None:
     p.add_argument("--collection", choices=sorted(COLLECTION_TO_DIR), help="beperk tot één collection")
     p.add_argument("--file", type=Path, help="één specifiek bestand")
     p.add_argument("--staging", action="store_true",
-                   help="draai op data/etl-staging/ ipv resources/bronnen/")
+                   help="draai op data/etl/staging/ ipv resources/bronnen/")
     p.add_argument("--bron", type=str,
                    help="(met --staging) beperk tot één staging-bestand op filename-stem")
     p.add_argument("--report-only", action="store_true", help="alleen samenvatting; geen JSON-rapport schrijven")
     p.add_argument("--no-frontmatter", action="store_true",
                    help="schrijf layer1 NIET naar bron-frontmatter (default: wel schrijven)")
     p.add_argument("--no-json", action="store_true",
-                   help="schrijf NIET naar data/qa/qa-<rid>.json (frontmatter blijft primaire opslag)")
+                   help="schrijf NIET naar data/etl/qa/qa-<rid>.json (frontmatter blijft primaire opslag)")
     p.add_argument("--output-dir", type=Path, default=ROOT / "data" / "qa",
-                   help="map voor JSON-rapport (default: data/qa/)")
+                   help="map voor JSON-rapport (default: data/etl/qa/)")
     args = p.parse_args()
 
     if args.staging:

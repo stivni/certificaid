@@ -12,7 +12,7 @@ VERIFY_MODEL = "claude-sonnet-4-6" — bespaart budget en tijd.
 Gebruik:
   python3 -m tools.extractie.verify_records --programmaonderdeel 1.4
   python3 -m tools.extractie.verify_records --programmaonderdeel 1.4 \\
-      --records-glob "data/concept_records/*.json"
+      --records-glob "data/concepten/records/*.json"
 """
 
 from __future__ import annotations
@@ -72,7 +72,7 @@ def load_records_for_programmaonderdeel(programmaonderdeel_id: str, records_glob
 
 
 def laad_anchors_voor_programmaonderdeel(programmaonderdeel_id: str) -> list[dict]:
-    """Laad anchors voor een programmaonderdeel uit data/anchors.json."""
+    """Laad anchors voor een programmaonderdeel uit data/programma/anchors.json."""
     if not ANCHORS_FILE.exists():
         return []
     data = json.loads(ANCHORS_FILE.read_text(encoding="utf-8"))
@@ -94,7 +94,7 @@ def laad_examen_vragen_voor_programmaonderdeel(programmaonderdeel_id: str) -> li
     Strategie (in volgorde van prioriteit):
 
     1. **Semantische classificatie** (primair): leest
-       `data/examen_vragen/_programmaonderdeel_classificatie.json` en filtert
+       `data/programma/examen_vragen/_programmaonderdeel_classificatie.json` en filtert
        vragen waar `programmaonderdeel_id` in `programmaonderdelen[]` zit.
        Dit is de correcte aanpak want `vak_code_in_pdf` gebruikt de oude nummering.
 
@@ -346,9 +346,9 @@ def main() -> None:
     )
     parser.add_argument(
         "--records-glob",
-        default="data/concept_records/*.json",
+        default="data/concepten/records/*.json",
         help="Glob-patroon voor concept-records (relatief aan repo-root). "
-             "Default: data/concept_records/*.json",
+             "Default: data/concepten/records/*.json",
     )
     parser.add_argument(
         "--gaps-bestand",

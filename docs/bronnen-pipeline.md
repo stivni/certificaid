@@ -11,7 +11,7 @@ resources/raw/wetteksten/NAAM.pdf   (of Justel HTML via curl)
     ↓  python3 tools/etl/convert.py --source NAAM
 resources/bronnen/wetteksten/NAAM.md
     ↓  python3 tools/rag/rag_index.py --collection wetteksten --reset
-data/chroma_db/  (bijgewerkt)
+data/rag/main/  (bijgewerkt)
 ```
 
 Alle bronnen zijn geregistreerd in `resources/source_config.yaml` — de enige bron van waarheid voor wat er bestaat, hoe het geconverteerd wordt en welk gewicht het heeft.

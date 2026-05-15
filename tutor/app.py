@@ -266,7 +266,7 @@ Aangeleverde bronnen (gebruik deze als primaire referentie):
 
 @st.cache_data(ttl=300)
 def load_patterns() -> list[dict]:
-    """Laad alle examenpatronen uit data/exam_patterns/."""
+    """Laad alle examenpatronen uit data/programma/exam_patterns/."""
     patterns = []
     if PATTERNS_DIR.exists():
         for f in sorted(PATTERNS_DIR.glob("*.json")):

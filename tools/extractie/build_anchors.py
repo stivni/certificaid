@@ -1,5 +1,5 @@
 """
-Anchor-builder — bouwt `data/anchors.json` uit `data/programma.json`.
+Anchor-builder — bouwt `data/programma/anchors.json` uit `data/programma/programma.json`.
 
 Per `anchor_role: "anchor"`-node een record met:
   - `embedding_text`: gestructureerde concatenatie van tekst + verbose + synoniemen
@@ -183,7 +183,7 @@ def build() -> dict:
     return {
         "version": "1",
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "source": "data/programma.json",
+        "source": "data/programma/programma.json",
         "n_anchors": len(anchors),
         "anchors": anchors,
     }

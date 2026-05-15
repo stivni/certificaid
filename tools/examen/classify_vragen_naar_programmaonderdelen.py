@@ -1,11 +1,11 @@
 """
 Semantische classificatie van examenvragen naar programmaonderdelen (ADR-008 §13 E).
 
-Leest alle examenvragen uit data/examen_vragen/*.json (niet de -labels.json bestanden),
-leest PO-titels uit data/anchors.json, en schrijft instructies + payload voor een
+Leest alle examenvragen uit data/programma/examen_vragen/*.json (niet de -labels.json bestanden),
+leest PO-titels uit data/programma/anchors.json, en schrijft instructies + payload voor een
 Sonnet-subagent die de classificatie uitvoert.
 
-De subagent produceert data/examen_vragen/_programmaonderdeel_classificatie.json.
+De subagent produceert data/programma/examen_vragen/_programmaonderdeel_classificatie.json.
 
 Huidig seed-bestand (PO 1.4, handmatig geclassificeerd op basis van consolidatie-keywords):
   Zie --seed-po-14 vlag — vult een seed in voor 9 vragen die duidelijk PO 1.4 raken.
@@ -17,9 +17,9 @@ Gebruik:
 
 Vervolgstap (full classificatie):
   1. Bekijk de gegenereerde subagent-instructies in
-     data/examen_vragen/_classificatie-instructies.md
+     data/programma/examen_vragen/_classificatie-instructies.md
   2. Lanceer een Sonnet-subagent met die instructies.
-  3. De subagent schrijft data/examen_vragen/_programmaonderdeel_classificatie.json
+  3. De subagent schrijft data/programma/examen_vragen/_programmaonderdeel_classificatie.json
   4. verify_records.py laadt automatisch de juiste vragen via
      laad_examen_vragen_voor_programmaonderdeel().
 """
@@ -104,7 +104,7 @@ SEED_PO_14: dict[str, dict] = {
 
 
 def laad_alle_vragen() -> list[dict]:
-    """Laad alle vragen uit data/examen_vragen/*.json (niet -labels.json)."""
+    """Laad alle vragen uit data/programma/examen_vragen/*.json (niet -labels.json)."""
     vragen: list[dict] = []
     for bestand in sorted(EXAMEN_VRAGEN_DIR.glob("*.json")):
         naam = bestand.name
@@ -121,7 +121,7 @@ def laad_alle_vragen() -> list[dict]:
 
 
 def laad_po_overzicht() -> list[dict]:
-    """Laad unieke PO-titels uit data/anchors.json."""
+    """Laad unieke PO-titels uit data/programma/anchors.json."""
     if not ANCHORS_FILE.exists():
         return []
     data = json.loads(ANCHORS_FILE.read_text(encoding="utf-8"))
@@ -215,7 +215,7 @@ Een vraag kan meerdere programmaonderdelen raken (bv. een vraag over
 ## Output-locatie
 
 Schrijf het resultaat als één JSON-object naar:
-`data/examen_vragen/_programmaonderdeel_classificatie.json`
+`data/programma/examen_vragen/_programmaonderdeel_classificatie.json`
 
 Gebruik de bestaande seed-entries als voorbeeld voor het formaat
 (die staan al in het bestand als je dit leest).

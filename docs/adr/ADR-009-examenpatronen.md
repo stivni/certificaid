@@ -46,7 +46,7 @@ Solving first reveals what depth was actually needed — richer dan guessing fro
 
 ## Gevolgen
 
-- `data/exam_patterns/` — `vraagvorm--*.json` + `complexiteit--*.json`
+- `data/programma/exam_patterns/` — `vraagvorm--*.json` + `complexiteit--*.json`
 - `data/exam_focus/` — `examenfocus--*.json` (brug-objecten)
 - `data/generated_questions/` — `gvraag--*.json`
 - `tools/examen/` — extract, label, generate, review

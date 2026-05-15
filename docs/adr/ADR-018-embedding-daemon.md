@@ -40,7 +40,7 @@ Bouw een **long-running embedding-daemon** die:
 │                                       │
 │                                       ▼
 │                              ┌─────────────────────────┐
-│                              │ data/chroma_db_4.0/     │
+│                              │ data/rag/4.0/     │
 │                              │   concepten-collection  │
 │                              └─────────────────────────┘
 ```
@@ -142,7 +142,7 @@ Voordeel: scripts (`index_concept_incremental.py`, `rag_query.py`) blijven funct
 
 - Bind enkel op `127.0.0.1` (localhost), niet op `0.0.0.0`. Daemon is een lokale dev-tool, geen netwerk-service.
 - Geen authenticatie nodig (alleen lokale processen op de machine kunnen connecten).
-- Geen schrijftoegang tot bestanden buiten `data/chroma_db*/` en `data/concept_records/` — daemon mag pad-validatie afdwingen op `chroma_path`-parameters.
+- Geen schrijftoegang tot bestanden buiten `data/rag/` en `data/concepten/records/` — daemon mag pad-validatie afdwingen op `chroma_path`-parameters.
 
 ## Gevolgen
 

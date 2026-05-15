@@ -69,12 +69,12 @@ Een uniform schema kan dat niet vasthouden. Een **getypeerde knowledge graph** w
 
 ### Architectuur
 
-- **Nodes** = JSON-files in `data/concept_records/<id>.json` (één file per node)
+- **Nodes** = JSON-files in `data/concepten/records/<id>.json` (één file per node)
 - **Edges** = uitgaande velden binnen de bron-node
 - **Walking** via NetworkX (in-memory laden, walks in milliseconden, ~500–1500 nodes verwacht)
 - **Vector-zoek** via ChromaDB-collection `concepten` (ADR-006); edges meegedragen als metadata
 - **Schema-evolutie** = veld toevoegen, geen migrations. Sparse fields zijn de norm.
-- **Open node- en edge-typering** — de initiële lijsten (zie onder) zijn geen limiet. Tijdens extractie mag een nieuw type voorgesteld worden via `node_type: "voorgesteld:<naam>"` of een edge-type `voorgesteld:<naam>`. Voorgestelde types worden verzameld in `data/concept_records/_voorgestelde_types.yaml` voor menselijke review; pas na akkoord wordt het schema gebumpt en records hernoemd.
+- **Open node- en edge-typering** — de initiële lijsten (zie onder) zijn geen limiet. Tijdens extractie mag een nieuw type voorgesteld worden via `node_type: "voorgesteld:<naam>"` of een edge-type `voorgesteld:<naam>`. Voorgestelde types worden verzameld in `data/concepten/records/_voorgestelde_types.yaml` voor menselijke review; pas na akkoord wordt het schema gebumpt en records hernoemd.
 
 ### Designprincipes
 
@@ -315,7 +315,7 @@ Emoji (⚖️/🤖) zijn UI-/render-conventie (tutor, fiches, conversaties) — 
 Concept-records bevatten **geen** verwijzingen naar programmaonderdelen, kenniselementen, taken, doelstellingen of examenvragen. Dependencies stromen één kant op (programma → concepten, examen → concepten). De koppeling kenniselement → concept leeft uitsluitend in de programmaonderdeel-JSON (zie ADR-002):
 
 ```json
-// data/programmaonderdelen/4.0-deontologie.json — ENIGE WAARHEID
+// data/programma/programmaonderdelen/4.0-deontologie.json — ENIGE WAARHEID
 "kenniselementen": [
   {"deel": 1, "code": "4.0.I.D.7", "tekst": "Beroepsgeheim",
    "concepten": ["beroepsgeheim-gecertificeerd-accountant", "doorbreking-beroepsgeheim"]}
@@ -361,7 +361,7 @@ Vermoedens leven in `data/extractie/<programmaonderdeel>/vermoedens/<programmaon
 
 ## Gevolgen
 
-- `data/concept_records/` = volledige conceptenset
+- `data/concepten/records/` = volledige conceptenset
 - `tools/lib/graph.py` (nieuw) — NetworkX-laden, walks, dangling-detectie
 - Schema-evoluties expliciet in `schema_version`-veld + ADR-changelog
 - `tools/lib/cross_refs.py` — utility om referenties (`art. 33-35`, `§ 1`) te detecteren tijdens extractie (ADR-008)

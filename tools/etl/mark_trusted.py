@@ -33,7 +33,7 @@ Voorbeelden:
       --rationale "Vandaag heading-geïnjecteerd via inject_norm_headings.py"
 
   # Vanuit subagent-rapport: pas alleen "trusted"-aanbevelingen toe
-  python tools/etl/mark_trusted.py --apply-from-verdicts data/qa/<run-id>-verdicts.json \\
+  python tools/etl/mark_trusted.py --apply-from-verdicts data/etl/qa/<run-id>-verdicts.json \\
       --only-status trusted
 
   # Inverse: terug naar unreviewed bij ETL-update

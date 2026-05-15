@@ -4,7 +4,7 @@ Dekkingscheck-utility (ADR-002).
 Bouwt op aanvraag een reverse-index:
   concept-id → [kenniselement-codes die ernaar verwijzen]
 
-Source of truth = programmaonderdeel-JSON's (data/programmaonderdelen/*.json).
+Source of truth = programmaonderdeel-JSON's (data/programma/programmaonderdelen/*.json).
 Geen state op concept-records zelf (ADR-007: concept-laag is dependency-vrij).
 
 Gebruik:
@@ -75,7 +75,7 @@ def dekkingscheck(po_data: dict) -> dict:
     Geeft rapport:
       - gedekte kenniselementen: hebben minstens één concept
       - ongedekte kenniselementen: geen concept
-      - onbekende concept-ids: staan in de PO-JSON maar niet in data/concept_records/
+      - onbekende concept-ids: staan in de PO-JSON maar niet in data/concepten/records/
     """
     po_nr    = po_data.get("programmaonderdeel", "?")
     gedekt   = []

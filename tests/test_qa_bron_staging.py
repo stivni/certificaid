@@ -1,7 +1,7 @@
 """Smoketests voor qa_bron.py in staging-modus.
 
 Verifieert dat:
-1. `iter_staging_targets()` MD-bestanden vindt onder `data/etl-staging/`
+1. `iter_staging_targets()` MD-bestanden vindt onder `data/etl/staging/`
 2. `qa_one_bron(..., staging=True)` een chunk_config_valid-check toevoegt
 3. de chunk-config-validatie correct fail/pass rapporteert
 4. de langste-sectie-check `chunk.level` uit frontmatter respecteert

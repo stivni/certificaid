@@ -26,7 +26,7 @@ Scope-modus (POC vertical-slice, zie roadmap.md Fase 2):
 Gebruik:
   python tools/rag/rag_index.py                              # alle bronnen-types
   python tools/rag/rag_index.py --bron-rol norm              # alleen normen
-  python tools/rag/rag_index.py --scope data/programmaonderdelen/4.0-bronnen-scope.yaml
+  python tools/rag/rag_index.py --scope data/programma/programmaonderdelen/4.0-bronnen-scope.yaml
   python tools/rag/rag_index.py --add-concepten              # concept-records indexeren
   python tools/rag/rag_index.py --reset                      # verwijder en herbouw
   python tools/rag/rag_index.py --device cpu                 # forceer device
@@ -532,7 +532,7 @@ def is_definitie_blok(text: str, heading: str = "") -> bool:
       2. ≥3 N°-items aanwezig binnen de tekst (om proza-definities te
          onderscheiden van echte opsommingen).
 
-    Empirisch gevalideerd op 133 wetteksten (data/qa/definitie-blokken-onderzoek.md).
+    Empirisch gevalideerd op 133 wetteksten (data/etl/qa/definitie-blokken-onderzoek.md).
     """
     # Tel N°-items in de volledige tekst (multiline: ^ = begin van elke regel)
     items_in_tekst = _SUB_DEFBLOK_ML_RE.findall(text)

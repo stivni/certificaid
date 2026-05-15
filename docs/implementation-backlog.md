@@ -61,14 +61,14 @@ Zie ADR-008 §2 voor argumentatie. Helper-scripts en code-onderhoud: Sonnet is f
   bundle-items. `tools/extractie/export_bundle.py` geeft `chunk_sha` door (uit matches of
   rechtstreeks uit ChromaDB-metadata). Subagent kan sha invullen in concept-record provenance.
 - [x] `tools/etl/mark_stale.py` voor concepten bouwen (ADR-008 §10).
-  Nieuwe modus `--concepts`: walkt `data/concept_records/**/*.json`, vergelijkt
+  Nieuwe modus `--concepts`: walkt `data/concepten/records/**/*.json`, vergelijkt
   opgeslagen `sha256` per veld-input met live `chunk_sha` uit ChromaDB.
   Default = dry-run; `--apply` schrijft `stale: true` + `stale_reason` + `stale_at`
   op het `_provenance`-sub-object van het getroffen veld. Edge-cases gedekt:
   `chunk_missing`, `sha_unknown` (null-sha), `al_stale`. Modus 1 (bron-MD's)
   blijft backwards-compatible.
 - [x] `tools/etl/remove_bron.py` Laag 2 omgezet naar concept-records: scant
-  `data/concept_records/**/*.json` op inline `_provenance.inputs[].id` die starten
+  `data/concepten/records/**/*.json` op inline `_provenance.inputs[].id` die starten
   met de bron-stem. Toont getroffen records + velden; past niets automatisch aan.
 - [x] Prompt-templates in `prompts/` voor concept-extractie — `prompts/anchor-verrijking-v1.md`
   (Fase A) en `prompts/concept-extractie-v1.md` (Fase C). Versioned, anti-hallucinatie-regels

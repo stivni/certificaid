@@ -3,12 +3,12 @@ Bron-first matching — fase B (ADR-008).
 
 Globale matching: alle anchors van alle 19 PO's tegelijk tegen alle bron-chunks.
 Geen per-PO scope-filter — een chunk kan in bundles van meerdere ankers belanden,
-ook cross-PO. Anchor-vectors zijn pre-computed in `data/anchors.json` (eenmalig
+ook cross-PO. Anchor-vectors zijn pre-computed in `data/programma/anchors.json` (eenmalig
 ge-embed), dus geen runtime-embedding meer.
 
 Werkwijze:
-  1. Laad anchors uit data/anchors.json (inline vectors).
-  2. Laad alle bron-chunk-embeddings uit data/chroma_db (collection `bronnen`).
+  1. Laad anchors uit data/programma/anchors.json (inline vectors).
+  2. Laad alle bron-chunk-embeddings uit data/rag/main (collection `bronnen`).
   3. Cosine-matrix N_anchors × N_chunks.
   4. Per anchor: bundle = chunks waar score >= max(floor, top1 - margin).
   5. References (uit programma.json) blijven pass-through metadata in de output —
@@ -34,8 +34,8 @@ import numpy as np
 from tqdm import tqdm
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-ANCHORS_PATH = ROOT / "data" / "anchors.json"
-CHROMA_PATH = ROOT / "data" / "chroma_db"
+ANCHORS_PATH = ROOT / "data" / "programma" / "anchors.json"
+CHROMA_PATH = ROOT / "data" / "rag" / "main"
 MATCHES_DIR = ROOT / "data" / "extractie" / "matches"
 
 
@@ -49,7 +49,7 @@ def cosine_matrix(a: np.ndarray, b: np.ndarray) -> np.ndarray:
 
 def load_anchors() -> tuple[list[dict], np.ndarray]:
     if not ANCHORS_PATH.exists():
-        raise SystemExit(f"data/anchors.json niet gevonden — run build_anchors.py + embed_anchors.py")
+        raise SystemExit(f"data/programma/anchors.json niet gevonden — run build_anchors.py + embed_anchors.py")
     data = json.loads(ANCHORS_PATH.read_text())
     anchors = data["anchors"]
     missing = [a["anchor_id"] for a in anchors if a.get("vector") is None]
@@ -64,7 +64,7 @@ def load_anchors() -> tuple[list[dict], np.ndarray]:
 
 def load_chunks() -> tuple[list[str], np.ndarray, list[dict]]:
     if not CHROMA_PATH.exists():
-        raise SystemExit(f"data/chroma_db niet gevonden — bouw eerst de RAG-index")
+        raise SystemExit(f"data/rag/main niet gevonden — bouw eerst de RAG-index")
     client = chromadb.PersistentClient(path=str(CHROMA_PATH))
     col = client.get_collection("bronnen")
     print(f"  ChromaDB collection 'bronnen': {col.count()} chunks totaal")

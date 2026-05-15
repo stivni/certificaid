@@ -22,7 +22,7 @@ Companion van bge-m3. **Twee-fase pipeline**:
 
 ### 3. Vector-DB: ChromaDB met twee collections
 
-Persistent, lokaal in `data/chroma_db/`. **Twee collections**:
+Persistent, lokaal in `data/rag/main/`. **Twee collections**:
 - `bronnen` — alle wetteksten + normen + adviezen samen, met `bron_rol` als metadata-veld (`wettekst` / `norm` / `advies` / ...) voor optionele filtering bij retrieval
 - `concepten` — concept-records (zie ADR-007)
 
@@ -179,7 +179,7 @@ fallback in `_is_chunk_boundary` verwijderd; elke bron moet expliciete
 `chunk.type` declareren (zie §4 boven). MAR-bronnen: `type: "Klasse"`;
 EU-bronnen met `Artikel`-headings: `type: "Artikel"`.
 
-Empirische basis: `data/qa/sub-marker-onderzoek.md` + `data/qa/definitie-blokken-onderzoek.md`.
+Empirische basis: `data/etl/qa/sub-marker-onderzoek.md` + `data/etl/qa/definitie-blokken-onderzoek.md`.
 
 ### 5. Chunking — concepten-RAG
 

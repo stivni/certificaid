@@ -45,12 +45,12 @@ WARNINGS_FILE = ROOT / "data" / "extractie" / "enrich-warnings.json"
 def gewijzigde_record_bestanden(git_ref: str) -> list[Path]:
     """Geef de concept-record-bestanden die gewijzigd zijn t.o.v. git_ref.
 
-    Filtert op data/concept_records/*.json. Bestanden die alleen in git_ref
+    Filtert op data/concepten/records/*.json. Bestanden die alleen in git_ref
     bestaan (verwijderd) worden niet teruggegeven.
     """
     try:
         uitvoer = subprocess.check_output(
-            ["git", "diff", "--name-only", git_ref, "--", "data/concept_records/"],
+            ["git", "diff", "--name-only", git_ref, "--", "data/concepten/records/"],
             cwd=ROOT,
             text=True,
             stderr=subprocess.DEVNULL,

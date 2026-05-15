@@ -3,7 +3,7 @@
 > **Niet executeerbaar.** Dit bestand is een prompt-template die je als mens
 > kopieert in een Claude Code Task-tool-call (Sonnet of Opus, eigen keuze).
 > De subagent draait lokaal in dev-omgeving — geen externe Anthropic-API per
-> ADR-008 §0. Output landt typisch in `data/qa/<run-id>-verdicts.json`.
+> ADR-008 §0. Output landt typisch in `data/etl/qa/<run-id>-verdicts.json`.
 >
 > Onderdeel van de bronnen-QA-gate (ADR-005 §5):
 > 1. `tools/etl/qa_bron.py` schrijft Laag-1 data naar `trust.layer1`
@@ -34,17 +34,17 @@ mens nooit zo zou typen).
 
 1. Run eerst `python3 tools/etl/qa_bron.py --bron-rol <rol>` om
    `trust.layer1` in elke MD bij te werken. Output ook in
-   `data/qa/qa-<run-id>.json`.
+   `data/etl/qa/qa-<run-id>.json`.
 2. Selecteer bronnen die door Laag 2 moeten — typisch alle met
    `trust.status: unreviewed` of `layer1.status: warn|fail`, plus een
    selectie waar je twijfelt.
 3. Open Claude Code → Task-tool → kopieer onderstaande prompt-template.
    Vul de PADEN-lijst (max ~10 bronnen per call) en run.
-4. Plak de JSON-output in `data/qa/<run-id>-verdicts.json`.
+4. Plak de JSON-output in `data/etl/qa/<run-id>-verdicts.json`.
 5. Pas toe:
    ```bash
    python3 tools/etl/mark_trusted.py --apply-from-verdicts \
-       data/qa/<run-id>-verdicts.json \
+       data/etl/qa/<run-id>-verdicts.json \
        --subagent-id sonnet-4-6
    ```
    Dit schrijft per bron `layer2.status` (+ agent, run_at, rationale,
@@ -275,7 +275,7 @@ Geef per bron exact dit JSON-object:
 
 Verzamel alle objecten in een lijst en geef terug als JSON-array. Geen
 omringende tekst — alleen de JSON-array — zodat ik hem direct kan opslaan
-in `data/qa/<run-id>-verdicts.json`.
+in `data/etl/qa/<run-id>-verdicts.json`.
 
 # Belangrijke beperkingen
 
@@ -331,12 +331,12 @@ Voor een fictieve wettekst met TOC-residu en scrambled section title:
 # Pas alle verdicts toe (schrijft layer2.* per bron; trust.status wordt
 # afgeleid voor "trusted"-aanbevelingen via de ADR-004-regel)
 python3 tools/etl/mark_trusted.py --apply-from-verdicts \
-    data/qa/<run-id>-verdicts.json \
+    data/etl/qa/<run-id>-verdicts.json \
     --subagent-id sonnet-4-6
 
 # Filter op één status
 python3 tools/etl/mark_trusted.py --apply-from-verdicts \
-    data/qa/<run-id>-verdicts.json \
+    data/etl/qa/<run-id>-verdicts.json \
     --only-status trusted \
     --subagent-id sonnet-4-6
 ```

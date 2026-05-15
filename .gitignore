@@ -30,20 +30,21 @@ resources/raw/normen/
 .po-voortgang-*.md
 
 # RAG data (gegenereerd, herbouwbaar)
-data/chroma_db/
-data/chroma_db_*/
+data/rag/main/
+data/rag/1.1/
+data/rag/4.0/
 
 # ETL staging output (ADR-005 §2 fase B1: nieuwe pipeline schrijft hierheen
 # vóór goedkeuring/promotie naar resources/bronnen/wetteksten/)
-data/etl-staging/
+data/etl/staging/
 
 # QA-rapporten (gegenereerd door tools/etl/qa_bron.py — per-run, niet getracked)
-data/qa/
+data/etl/qa/
 
 # Concept-records: levende kennislaag, gegit zodat git-history fungeert als
 # enrichment-versionering + auto_merge.py (ADR-008 §13.4) een referentiepunt heeft.
 # Archief blijft gitignored (alleen lokale traceability).
-data/concept_records/_archive/
+data/concepten/_archive/
 data/cases/
 data/relations.json
 

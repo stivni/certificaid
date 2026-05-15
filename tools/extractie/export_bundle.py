@@ -39,7 +39,7 @@ def main() -> None:
     parser.add_argument("--anchors-file", default=None,
                         help="optioneel: enriched/clean anchors-bestand (voor verbose+syns)")
     parser.add_argument("--chroma-path", default=None,
-                        help="default: data/chroma_db_<po>")
+                        help="default: data/rag/<po>")
     args = parser.parse_args()
 
     matches_path = Path(args.matches_file)
@@ -62,9 +62,9 @@ def main() -> None:
     print(f"[bundle] {len(bundle_chunk_ids)} chunks voor {args.anchor_id}")
 
     # Haal volle tekst op uit ChromaDB
-    chroma_path = Path(args.chroma_path) if args.chroma_path else (ROOT / f"data/chroma_db_{args.po}")
+    chroma_path = Path(args.chroma_path) if args.chroma_path else (ROOT / f"data/rag/{args.po}")
     if not chroma_path.exists():
-        chroma_path = ROOT / "data" / "chroma_db"
+        chroma_path = ROOT / "data" / "rag" / "main"
 
     client = chromadb.PersistentClient(path=str(chroma_path))
     ef = SentenceTransformerEmbeddingFunction(model_name=EMBEDDING_MODEL, device="cpu")

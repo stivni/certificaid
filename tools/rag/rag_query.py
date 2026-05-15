@@ -116,10 +116,10 @@ def main():
     parser.add_argument("--expand", action="store_true",
                         help="Context-uitbreiding (±2 artikelen voor wetteksten)")
     parser.add_argument("--show-meta", action="store_true", help="Toon metadata")
-    parser.add_argument("--chroma-path", help="Pad naar ChromaDB (default: data/chroma_db)")
+    parser.add_argument("--chroma-path", help="Pad naar ChromaDB (default: data/rag/main)")
     args = parser.parse_args()
 
-    chroma_path = Path(args.chroma_path) if args.chroma_path else ROOT / "data" / "chroma_db"
+    chroma_path = Path(args.chroma_path) if args.chroma_path else ROOT / "data" / "rag" / "main"
     bron_rollen = [r.strip() for r in args.bron_rol.split(",")] if args.bron_rol else None
     selected_cols = BRONNEN_COLS + (["concepten"] if args.concepten else [])
 

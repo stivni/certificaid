@@ -15,11 +15,11 @@ Gebruik:
 
   resultaat = duplicate_check(
       "Beroepsgeheim van de gecertificeerd accountant",
-      chroma_path="data/chroma_db",
+      chroma_path="data/rag/main",
   )
   # resultaat = {"matches": [...], "top1": {...}, "total_in_collection": N}
 
-  concept_id = index_concept(record, chroma_path="data/chroma_db")
+  concept_id = index_concept(record, chroma_path="data/rag/main")
 """
 
 from __future__ import annotations
@@ -237,7 +237,7 @@ def duplicate_check(
           "total_in_collection": int,
         }
     """
-    resolved_path = chroma_path or str(ROOT / "data" / "chroma_db")
+    resolved_path = chroma_path or str(ROOT / "data" / "rag" / "main")
     # Zet relatief pad om naar absoluut
     if not Path(resolved_path).is_absolute():
         resolved_path = str(ROOT / resolved_path)
@@ -266,7 +266,7 @@ def index_concept(
     Returns:
         concept_id (str)
     """
-    resolved_path = chroma_path or str(ROOT / "data" / "chroma_db")
+    resolved_path = chroma_path or str(ROOT / "data" / "rag" / "main")
     if not Path(resolved_path).is_absolute():
         resolved_path = str(ROOT / resolved_path)
 

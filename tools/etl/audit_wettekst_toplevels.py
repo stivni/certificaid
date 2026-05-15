@@ -14,7 +14,7 @@ Output: tekstrapport en optioneel JSON.
 
 Gebruik:
     python tools/etl/audit_wettekst_toplevels.py
-    python tools/etl/audit_wettekst_toplevels.py --json data/qa/audit-toplevels.json
+    python tools/etl/audit_wettekst_toplevels.py --json data/etl/qa/audit-toplevels.json
     python tools/etl/audit_wettekst_toplevels.py --file resources/bronnen/wetteksten/WVV.md
 """
 from __future__ import annotations

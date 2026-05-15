@@ -1,6 +1,6 @@
 # Concept-schrijfregels
 
-Content-conventie voor concept-records (`data/concept_records/*.json`). Wordt ingeladen in de extractor-prompt (ADR-008) en geldt ook voor menselijke review/aanvulling. Geen ADR — dit is content-stijl + conceptkeuze, geen architectuurbeslissing.
+Content-conventie voor concept-records (`data/concepten/records/*.json`). Wordt ingeladen in de extractor-prompt (ADR-008) en geldt ook voor menselijke review/aanvulling. Geen ADR — dit is content-stijl + conceptkeuze, geen architectuurbeslissing.
 
 > **Doelpubliek**: stagiair gecertificeerd accountant, met boekhoudkundige en fiscale basiskennis. Géén jurist.
 

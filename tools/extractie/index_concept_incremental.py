@@ -11,7 +11,7 @@ Bedoeld voor twee situaties:
 Gebruik:
   # Eén concept indexeren
   python tools/extractie/index_concept_incremental.py \\
-      --concept data/concept_records/beroepsgeheim-gecertificeerd-accountant.json
+      --concept data/concepten/records/beroepsgeheim-gecertificeerd-accountant.json
 
   # Alle concepten (her)indexeren
   python tools/extractie/index_concept_incremental.py --alle
@@ -22,7 +22,7 @@ Gebruik:
       [--drempel 0.80]
 
   Flags:
-    --chroma    ChromaDB-pad (default: data/chroma_db)
+    --chroma    ChromaDB-pad (default: data/rag/main)
     --dry-run   Toon wat geïndexeerd zou worden, schrijf niet naar ChromaDB
 """
 
@@ -40,7 +40,7 @@ from lib.embedding_client import duplicate_check as client_duplicate_check
 from lib.embedding_client import index_concept as client_index_concept
 from lib.embedding_client import is_daemon_alive
 
-CONCEPT_DIR = ROOT / "data" / "concept_records"
+CONCEPT_DIR = ROOT / "data" / "concepten" / "records"
 
 
 # ---------------------------------------------------------------------------
@@ -65,7 +65,7 @@ def main() -> None:
     groep = parser.add_mutually_exclusive_group(required=True)
     groep.add_argument(
         "--concept",
-        help="Pad naar een concept-record JSON (bijv. data/concept_records/beroepsgeheim.json)",
+        help="Pad naar een concept-record JSON (bijv. data/concepten/records/beroepsgeheim.json)",
     )
     groep.add_argument(
         "--alle",
@@ -80,7 +80,7 @@ def main() -> None:
     parser.add_argument(
         "--chroma",
         default=None,
-        help="ChromaDB-pad (default: data/chroma_db)",
+        help="ChromaDB-pad (default: data/rag/main)",
     )
     parser.add_argument(
         "--drempel",
@@ -97,7 +97,7 @@ def main() -> None:
 
     chroma_pad = str(
         Path(args.chroma).resolve() if args.chroma
-        else ROOT / "data" / "chroma_db"
+        else ROOT / "data" / "rag" / "main"
     )
 
     # Status-melding: via daemon of in-process?
@@ -141,7 +141,7 @@ def main() -> None:
         if not CONCEPT_DIR.exists():
             print(f"Concept_records-map niet gevonden: {CONCEPT_DIR}", file=sys.stderr)
             sys.exit(1)
-        # rglob: ook subdirectories per PO (data/concept_records/1.4/*.json etc.)
+        # rglob: ook subdirectories per PO (data/concepten/records/1.4/*.json etc.)
         # Filter underscore-files (_voorgestelde_types.yaml etc.)
         bestanden = sorted(p for p in CONCEPT_DIR.rglob("*.json")
                            if not p.name.startswith("_"))

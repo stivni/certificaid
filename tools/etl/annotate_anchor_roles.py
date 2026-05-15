@@ -1,4 +1,4 @@
-"""Annoteer elke node in data/programma.json met `anchor_role`.
+"""Annoteer elke node in data/programma/programma.json met `anchor_role`.
 
 Drie rollen:
   * "anchor"    - match-eenheid, krijgt eigen embedding-vector

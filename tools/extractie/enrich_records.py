@@ -72,7 +72,7 @@ def filter_gaps_voor_programmaonderdeel(
 
 
 def laad_record(record_id: str) -> dict | None:
-    """Laad een concept-record uit data/concept_records/<id>.json."""
+    """Laad een concept-record uit data/concepten/records/<id>.json."""
     pad = RECORDS_DIR / f"{record_id}.json"
     if not pad.exists():
         return None
@@ -170,7 +170,7 @@ def schrijf_subagent_instructies(
 
 **Bron-bundle**: `{bundle_pad.relative_to(ROOT)}` — {bundle_samenvatting}
 
-**Bestaand record** (`data/concept_records/{record_id}.json`):
+**Bestaand record** (`data/concepten/records/{record_id}.json`):
 
 ```json
 {json.dumps(record, ensure_ascii=False, indent=2)}
@@ -321,7 +321,7 @@ def main() -> None:
         # (de subagent heeft die allemaal verwerkt)
         from tools.extractie.verify_records import load_records_for_programmaonderdeel
         records = load_records_for_programmaonderdeel(
-            programmaonderdeel_id, "data/concept_records/*.json"
+            programmaonderdeel_id, "data/concepten/records/*.json"
         )
         record_ids = {r.get("id", "") for r in records}
         relevante_gaps = [g for g in alle_open_gaps if g.get("record_id") in record_ids]
@@ -346,7 +346,7 @@ def main() -> None:
     # Stap 2: records laden
     from tools.extractie.verify_records import load_records_for_programmaonderdeel
     records = load_records_for_programmaonderdeel(
-        programmaonderdeel_id, "data/concept_records/*.json"
+        programmaonderdeel_id, "data/concepten/records/*.json"
     )
     print(f"[records] {len(records)} records voor programmaonderdeel {programmaonderdeel_id}")
 
@@ -367,7 +367,7 @@ def main() -> None:
         if record is None:
             print(
                 f"  [WAARSCHUWING] Record '{record_id}' niet gevonden in "
-                f"data/concept_records/ — overgeslagen.",
+                f"data/concepten/records/ — overgeslagen.",
                 file=sys.stderr,
             )
             continue

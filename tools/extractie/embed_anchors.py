@@ -1,11 +1,11 @@
 """
-Embed anchors — vult `vector` in voor elk anker in `data/anchors.json`.
+Embed anchors — vult `vector` in voor elk anker in `data/programma/anchors.json`.
 
 Gebruikt bge-m3 (zelfde model als bronnen-RAG, ADR-006). SHA-skip: anchors
 waarvan `embedding_text_sha` niet veranderd is t.o.v. de bestaande `vector`,
 worden overgeslagen. Bij eerste run: alle 446 anchors embedden (~30s op MPS).
 
-Output: `data/anchors.json` in-place geüpdatet met `vector: [float, ...]`.
+Output: `data/programma/anchors.json` in-place geüpdatet met `vector: [float, ...]`.
 
 Gebruik:
   python3 -m tools.extractie.embed_anchors                # incrementeel

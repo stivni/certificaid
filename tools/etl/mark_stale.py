@@ -12,7 +12,7 @@ Twee modi:
       python tools/etl/mark_stale.py resources/bronnen/ --dry-run
 
   MODUS 2 — Concept-records (--concepts):
-    Walkt alle concept-records in data/concept_records/**/*.json.
+    Walkt alle concept-records in data/concepten/records/**/*.json.
     Per veld met inline _provenance vergelijkt het de opgeslagen `sha256` van elke
     chunk-input met de live `chunk_sha` in ChromaDB.
 
@@ -21,7 +21,7 @@ Twee modi:
 
     Gebruik:
       python tools/etl/mark_stale.py --concepts
-      python tools/etl/mark_stale.py --concepts --chroma-path data/chroma_db_4.0
+      python tools/etl/mark_stale.py --concepts --chroma-path data/rag/4.0
       python tools/etl/mark_stale.py --concepts --apply
 
     Edge-cases:
@@ -45,8 +45,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(ROOT))
 
-CONCEPT_RECORDS_DIR = ROOT / "data" / "concept_records"
-CHROMA_PATH_DEFAULT = ROOT / "data" / "chroma_db"
+CONCEPT_RECORDS_DIR = ROOT / "data" / "concepten" / "records"
+CHROMA_PATH_DEFAULT = ROOT / "data" / "rag" / "main"
 
 from tools.lib.provenance import (  # noqa: E402
     Input,

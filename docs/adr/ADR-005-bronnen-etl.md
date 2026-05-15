@@ -455,7 +455,7 @@ in extract of in transform stuk gaat.
 1. python tools/etl/pipeline.py --all                   → resources/bronnen/*.md (unreviewed)
 2. python tools/etl/qa_bron.py --all                    → schrijft layer1-blok per bron
 3. Claude Code subagent (Sonnet/Opus, lokaal) via Task-tool
-   met qa_subagent_prompt.md                            → data/qa/<run-id>-verdicts.json
+   met qa_subagent_prompt.md                            → data/etl/qa/<run-id>-verdicts.json
 4. python tools/etl/mark_trusted.py --apply-from-verdicts → trust.status afgeleid
 5. python tools/rag/rag_index.py                        → indexeert trusted bronnen
 ```

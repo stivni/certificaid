@@ -6,7 +6,7 @@
 
 ## Changelog
 
-- **2026-05-15** — §13 toegevoegd: monotone enrichment-loop (4-bloks-flow EXTRACT → VERIFY → ENRICH → AUTO-MERGE+LOG). Records worden PO-overschrijdend flat in `data/concept_records/<id>.json` opgeslagen; PO-linkage via `linked_anchors[]` per record. Gaps en enrich-warnings globaal in `data/extractie/`.
+- **2026-05-15** — §13 toegevoegd: monotone enrichment-loop (4-bloks-flow EXTRACT → VERIFY → ENRICH → AUTO-MERGE+LOG). Records worden PO-overschrijdend flat in `data/concepten/records/<id>.json` opgeslagen; PO-linkage via `linked_anchors[]` per record. Gaps en enrich-warnings globaal in `data/extractie/`.
 - **2026-05-15** — §4 bundling-strategie herzien naar knee-detectie (97.2% recall op gold-set).
 - **2026-05-15** — §5.1 must-have-detectie via drie emergente mechanismen (geen pre-curated checklist).
 - **2026-05-15** — §5.2 bron-aanbevelings-feedback-loop voor corpus-uitbreiding.
@@ -158,11 +158,11 @@ Subagent (Opus, één per PO) verwerkt anchors sequentieel.
 
 **Drie emergente mechanismen** (zonder mens-pre-werk):
 
-1. **Cross-referentie-detectie tijdens extractie** — wanneer een record verwijst naar een term ("...uitgaande van het belangenpercentage...", "...wanneer invloed van betekenis bestaat...") en die term geen eigen record heeft, log de term in `data/quality_checks/<po>/dangling-references-<run_id>.json`. Termen die >3× over chunks van >2 bronnen verwezen worden = sterke kandidaat voor eigen record.
+1. **Cross-referentie-detectie tijdens extractie** — wanneer een record verwijst naar een term ("...uitgaande van het belangenpercentage...", "...wanneer invloed van betekenis bestaat...") en die term geen eigen record heeft, log de term in `data/concepten/quality_checks/<po>/dangling-references-<run_id>.json`. Termen die >3× over chunks van >2 bronnen verwezen worden = sterke kandidaat voor eigen record.
 
 2. **Recursive deepening tijdens extractie** — voor elk hoofd-concept, identificeer ingebakken begrippen in `definitie.text` of `main_rule.text`. Als ze in 2+ chunks van 2+ bronnen voorkomen: **direct als eigen record aanmaken** (extractor heeft toestemming, geen wacht-en-vraag). Liberale aanpak — anti-twijfel-regel: bij twijfel "is dit een eigen record?" kies "ja".
 
-3. **Agent-judgment in quality-check** — een tweede agent (Opus, via `quality-check-v1`) probeert examenvragen of synthese-tests met enkel concept-records op te lossen en flagt expliciet ontbrekende begrippen. Output naar `data/quality_checks/<po>/examen-eval-*.json`.
+3. **Agent-judgment in quality-check** — een tweede agent (Opus, via `quality-check-v1`) probeert examenvragen of synthese-tests met enkel concept-records op te lossen en flagt expliciet ontbrekende begrippen. Output naar `data/concepten/quality_checks/<po>/examen-eval-*.json`.
 
 Outputs van de drie mechanismen zijn input voor **prompt v2 hercirculatie**: de volgende extractie-pass krijgt de dangling/missing-list als "expand-here"-instructie.
 
@@ -240,8 +240,8 @@ Bij **bron-update** (chunk-content-hash verandert) → `mark_stale.py` walkt blo
 | **VERIFY-run payloads** | `data/extractie/<po>/verify-runs/{records,anchors,examen_vragen}-*.json` | Ephemeral — gitignored, reproduceerbaar | wegwerpbaar |
 | **ENRICH-run bundles** | `data/extractie/<po>/enrich-runs/bundle-*.json` | Ephemeral — gitignored, reproduceerbaar uit anchor-bundles + record-state | wegwerpbaar |
 | **VERIFY/ENRICH-instructies + rapporten** | `data/extractie/<po>/{verify,enrich}-runs/{instructies,rapport}-*.md` | Permanent — gegit voor traceability | curatie-artefact |
-| **Concept-records** | `data/concept_records/<id>.json` | Permanent — duurzame kennislaag, **gegit** (sinds 2026-05-15, vereist voor `auto_merge.py` git-diff) | authoritative |
-| **Concept-records archief** | `data/concept_records/_archive/<po-versie>/` | Permanent lokaal, **gitignored** (alleen voor lokale traceability bij grote schema-overgangen) | historisch |
+| **Concept-records** | `data/concepten/records/<id>.json` | Permanent — duurzame kennislaag, **gegit** (sinds 2026-05-15, vereist voor `auto_merge.py` git-diff) | authoritative |
+| **Concept-records archief** | `data/concepten/_archive/<po-versie>/` | Permanent lokaal, **gitignored** (alleen voor lokale traceability bij grote schema-overgangen) | historisch |
 
 De permanente provenance leeft uitsluitend in concept-record `_provenance`-velden. Andere artefacten zijn een tussenstadium.
 
@@ -249,7 +249,7 @@ De permanente provenance leeft uitsluitend in concept-record `_provenance`-velde
 
 Wanneer een concept niet past in het huidige conceptmodel:
 - Subagent genereert expliciet schema-uitbreidingsvoorstel (nieuw veld, nieuw node-type, nieuw edge-type)
-- Voorstel landt in `data/concept_records/_voorgestelde_types.yaml` (zie ADR-007)
+- Voorstel landt in `data/concepten/records/_voorgestelde_types.yaml` (zie ADR-007)
 - Pas na menselijke bevestiging wordt het schema bijgewerkt
 
 ### 13. Monotone enrichment-loop (2026-05-15)
@@ -268,7 +268,7 @@ De pipeline krijgt daarom een 4-bloks-flow per programmaonderdeel, waarbij blok 
 4. AUTO-MERGE + LOG  (mechanisch script; toplevel-loss reverten, item-loss loggen)
 ```
 
-**Locatie van records**: concepten zijn **PO-overschrijdend**, één file per concept in flat `data/concept_records/<id>.json`. Geen PO-subdirs, geen versie-suffixen (`-v2`, `-enriched`). Versionering = git. Migratie van huidige `data/concept_records/1.4/` en `1.4-v2/` naar flat structure is onderdeel van de eerste enrichment-cyclus.
+**Locatie van records**: concepten zijn **PO-overschrijdend**, één file per concept in flat `data/concepten/records/<id>.json`. Geen PO-subdirs, geen versie-suffixen (`-v2`, `-enriched`). Versionering = git. Migratie van huidige `data/concepten/records/1.4/` en `1.4-v2/` naar flat structure is onderdeel van de eerste enrichment-cyclus.
 
 **Linkage records ↔ programmaonderdelen** via veld `linked_anchors[]` op elk record (lijst van anchor-id's uit eender welk PO). Bij PO-scoped operaties (minicursus-bouw, stress-test, examenmatching) wordt via dit veld + de concepten-collection in ChromaDB gescoped — geen file-tree-discriminatie.
 
@@ -313,7 +313,7 @@ Schema per gap-entry:
 
 #### 13.3 ENRICH — write-only agent met monotoon contract
 
-Eén Opus-subagent met enkel een schrijfhoedje. Input: bestaande records + `gaps.json` + bron-bundles (uit Fase B). Output: aangepaste records op dezelfde plek (`data/concept_records/<id>.json`).
+Eén Opus-subagent met enkel een schrijfhoedje. Input: bestaande records + `gaps.json` + bron-bundles (uit Fase B). Output: aangepaste records op dezelfde plek (`data/concepten/records/<id>.json`).
 
 **Monotoon contract** in de prompt:
 - *Behoud alles* wat in het bestaande record staat tenzij je expliciet corrigeert of verbetert.
@@ -349,8 +349,8 @@ Géén LLM, géén mens-blockade. Twee niveaus:
 | Gaps-backlog | `data/extractie/gaps.json` | Permanent, append-only |
 | Enrich-warnings | `data/extractie/enrich-warnings.json` | Permanent, append-only |
 | Bron-voorstellen | `data/extractie/_bron_voorstellen.json` | Permanent (zie §5.2) |
-| Dangling-references | `data/quality_checks/<po>/dangling-references-*.json` | Per-run snapshot |
-| Examen-evaluaties | `data/quality_checks/<po>/examen-eval-*.json` | Per-run snapshot |
+| Dangling-references | `data/concepten/quality_checks/<po>/dangling-references-*.json` | Per-run snapshot |
+| Examen-evaluaties | `data/concepten/quality_checks/<po>/examen-eval-*.json` | Per-run snapshot |
 
 #### 13.6 Loop-volgorde, niet altijd alle blokken
 
@@ -432,4 +432,4 @@ Niet onderdeel van deze ADR; uitgelicht als follow-ups die het systeem verder zo
 
 - Concept-extractor moet `chunk_sha` uit ChromaDB-metadata kopiëren naar `_provenance.<veld>.inputs[].sha256` (nu `null`).
 - `tools/etl/mark_stale.py` voor concepten bouwen: vergelijk opgeslagen `sha256` met live ChromaDB `chunk_sha`; flag mismatches.
-- `tools/etl/remove_bron.py` Laag 2 omzetten: scan `data/concept_records/**/_provenance.*.inputs[].id` voor chunk-impact-analyse.
+- `tools/etl/remove_bron.py` Laag 2 omzetten: scan `data/concepten/records/**/_provenance.*.inputs[].id` voor chunk-impact-analyse.

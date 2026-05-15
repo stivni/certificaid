@@ -19,7 +19,7 @@ Precision-proxy: gemiddelde bundle-grootte (lager = preciezer mits recall hoog).
 Gebruik:
   python3 -m tools.extractie.match_experiment
 
-Output: console-tabel + data/qa/matching-experiment-<ts>.json
+Output: console-tabel + data/etl/qa/matching-experiment-<ts>.json
 """
 from __future__ import annotations
 

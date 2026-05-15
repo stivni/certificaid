@@ -19,7 +19,7 @@ Daarnaast: studenten moeten weten of een uitspraak in een tutor-antwoord of fich
 
 ### 1. Tutor draait *direct* op concepten
 
-- Leest live `data/concept_records/` en `data/exam_patterns/` via NetworkX (ADR-007) + concepten-RAG (ADR-006)
+- Leest live `data/concepten/records/` en `data/programma/exam_patterns/` via NetworkX (ADR-007) + concepten-RAG (ADR-006)
 - Wijziging in concept → onmiddellijk reflecteerbaar in tutor-antwoord
 - Frontend: Streamlit (lokaal), `tutor/app.py`
 
