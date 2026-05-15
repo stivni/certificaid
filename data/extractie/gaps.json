@@ -8,7 +8,8 @@
     "geconstateerd_op": "2026-05-15T14:10:18+00:00",
     "status": "applied",
     "applied_door": "enrich-run-20260515T141848Z",
-    "applied_op": "2026-05-15T14:42:50.189865+00:00"
+    "applied_op": "2026-05-15T14:42:50.189865+00:00",
+    "aspect_type": "concept-gap"
   },
   {
     "record_id": "geconsolideerde-jaarrekening",
@@ -19,7 +20,8 @@
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
     "status": "applied",
     "applied_door": "enrich-run-20260515T141848Z",
-    "applied_op": "2026-05-15T14:42:50.189865+00:00"
+    "applied_op": "2026-05-15T14:42:50.189865+00:00",
+    "aspect_type": "concept-gap"
   },
   {
     "record_id": "consolidatieverschil",
@@ -30,7 +32,8 @@
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
     "status": "applied",
     "applied_door": "enrich-run-20260515T141848Z",
-    "applied_op": "2026-05-15T14:42:50.189865+00:00"
+    "applied_op": "2026-05-15T14:42:50.189865+00:00",
+    "aspect_type": "concept-gap"
   },
   {
     "record_id": "geconsolideerd-jaarverslag",
@@ -41,7 +44,8 @@
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
     "status": "applied",
     "applied_door": "enrich-run-20260515T141848Z",
-    "applied_op": "2026-05-15T14:42:50.189865+00:00"
+    "applied_op": "2026-05-15T14:42:50.189865+00:00",
+    "aspect_type": "concept-gap"
   },
   {
     "record_id": "exclusieve-controle",
@@ -52,7 +56,8 @@
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
     "status": "applied",
     "applied_door": "enrich-run-20260515T141848Z",
-    "applied_op": "2026-05-15T14:42:50.189865+00:00"
+    "applied_op": "2026-05-15T14:42:50.189865+00:00",
+    "aspect_type": "concept-gap"
   },
   {
     "record_id": "groep-van-beperkte-omvang",
@@ -63,7 +68,8 @@
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
     "status": "applied",
     "applied_door": "enrich-run-20260515T141848Z",
-    "applied_op": "2026-05-15T14:42:50.189865+00:00"
+    "applied_op": "2026-05-15T14:42:50.189865+00:00",
+    "aspect_type": "concept-gap"
   },
   {
     "record_id": "consolidatieverschil",
@@ -74,7 +80,8 @@
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
     "status": "applied",
     "applied_door": "enrich-run-20260515T141848Z",
-    "applied_op": "2026-05-15T14:42:50.189865+00:00"
+    "applied_op": "2026-05-15T14:42:50.189865+00:00",
+    "aspect_type": "concept-gap"
   },
   {
     "record_id": "evenredige-consolidatie",
@@ -85,7 +92,8 @@
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
     "status": "applied",
     "applied_door": "enrich-run-20260515T141848Z",
-    "applied_op": "2026-05-15T14:42:50.189865+00:00"
+    "applied_op": "2026-05-15T14:42:50.189865+00:00",
+    "aspect_type": "concept-gap"
   },
   {
     "record_id": "vermogensmutatiemethode",
@@ -96,7 +104,8 @@
     "geconstateerd_op": "2026-05-15T14:30:00+00:00",
     "status": "applied",
     "applied_door": "enrich-run-20260515T141848Z",
-    "applied_op": "2026-05-15T14:42:50.189865+00:00"
+    "applied_op": "2026-05-15T14:42:50.189865+00:00",
+    "aspect_type": "concept-gap"
   },
   {
     "record_id": "consolidatieverschil",
@@ -107,7 +116,8 @@
     "geconstateerd_op": "2026-05-15T14:42:33.914454+00:00",
     "status": "enriched-pending-verify",
     "applied_door": "enrich-run-20260515T144255Z",
-    "applied_op": "2026-05-15T14:47:19.996756+00:00"
+    "applied_op": "2026-05-15T14:47:19.996756+00:00",
+    "aspect_type": "concept-gap"
   },
   {
     "record_id": "intragroep-eliminaties",
@@ -118,6 +128,80 @@
     "geconstateerd_op": "2026-05-15T14:42:33.914454+00:00",
     "status": "enriched-pending-verify",
     "applied_door": "enrich-run-20260515T144255Z",
-    "applied_op": "2026-05-15T14:47:19.996756+00:00"
+    "applied_op": "2026-05-15T14:47:19.996756+00:00",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "aspect_type": "bron-gap",
+    "aspect": "bron-corpus-uitbreiding",
+    "po": "1.4",
+    "anchor_id": "1.4.II.A",
+    "reden": "Primaire IFRS-tekst voor IFRS 10 (Geconsolideerde jaarrekening), IFRS 3 (Bedrijfscombinaties), IFRS 11 (Gezamenlijke regelingen) en IFRS 12 (Informatieverschaffing over belangen in andere entiteiten). Anchor 1.4.II.A vraagt expliciet naar het IFRS-kader, maar onze corpus bevat alleen Belgische verwijzingen (CBN, KB WVV, Richtlijn 2013/34/EU). Zonder primaire IFRS-tekst kan de tutor IFRS-specifieke vraagvormen (zoals 'controlemodel onder IFRS 10', 'identificatie verkrijger onder IFRS 3', 'joint operation versus joint venture onder IFRS 11') niet grounded beantwoorden.",
+    "ontbrekende_kennis": "Primaire IFRS-tekst voor IFRS 10 (Geconsolideerde jaarrekening), IFRS 3 (Bedrijfscombinaties), IFRS 11 (Gezamenlijke regelingen) en IFRS 12 (Informatieverschaffing over belangen in andere entiteiten). Anchor 1.4.II.A vraagt expliciet naar het IFRS-kader, maar onze corpus bevat alleen Belgische verwijzingen (CBN, KB WVV, Richtlijn 2013/34/EU). Zonder primaire IFRS-tekst kan de tutor IFRS-specifieke vraagvormen (zoals 'controlemodel onder IFRS 10', 'identificatie verkrijger onder IFRS 3', 'joint operation versus joint venture onder IFRS 11') niet grounded beantwoorden.",
+    "voorgestelde_bronnen": [
+      {
+        "naam": "IFRS Foundation — officiële standaarden IFRS 10, 3, 11, 12 (Nederlandstalige versie via EUR-Lex/Verordening 1126/2008)",
+        "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32008R1126",
+        "publiek": true,
+        "license": "EU-verordening 1126/2008 met annexen — publiek toegankelijk; latere wijzigingen via reguliere verordeningen",
+        "redenering": "EUR-Lex bevat de officiële Nederlandstalige tekst van de door de EU goedgekeurde IFRS, inclusief alle wijzigingsverordeningen. Geschikt als primaire bron — vergelijkbaar met hoe KB WVV en Richtlijn 2013/34/EU al in het corpus zitten."
+      }
+    ],
+    "menselijke_beslissing": null,
+    "prio": "midden",
+    "status": "open",
+    "geconstateerd_door": "concept-extractie-v2-2026-05-15T00:00:00Z",
+    "geconstateerd_op": "2026-05-15"
+  },
+  {
+    "aspect_type": "bron-gap",
+    "aspect": "bron-corpus-uitbreiding",
+    "po": "1.4",
+    "anchor_id": "1.4.I.D",
+    "reden": "Doctrine-niveau enumeratie van de 'vier voornaamste oorzaken' van positief consolidatieverschil. CBN-adviezen en KB WVV beschrijven wat het verschil is en hoe het wordt afgeschreven, maar bieden geen gestructureerde oorzakentaxonomie zoals examenvragen (2013-2-vr8 en 2015-1-vr11) ze verlangen. De huidige v2-extractie heeft de oorzaken kunnen aggregeren als 'inferred-from-aggregation' uit verschillende chunks, maar een Belgisch consolidatie-handboek (Jorissen, Lybaert, ... of een ITAA-vormingsmodule) zou de canonieke 4-puntenlijst leveren.",
+    "ontbrekende_kennis": "Doctrine-niveau enumeratie van de 'vier voornaamste oorzaken' van positief consolidatieverschil. CBN-adviezen en KB WVV beschrijven wat het verschil is en hoe het wordt afgeschreven, maar bieden geen gestructureerde oorzakentaxonomie zoals examenvragen (2013-2-vr8 en 2015-1-vr11) ze verlangen. De huidige v2-extractie heeft de oorzaken kunnen aggregeren als 'inferred-from-aggregation' uit verschillende chunks, maar een Belgisch consolidatie-handboek (Jorissen, Lybaert, ... of een ITAA-vormingsmodule) zou de canonieke 4-puntenlijst leveren.",
+    "voorgestelde_bronnen": [
+      {
+        "naam": "Jorissen e.a. — handboek 'Externe verslaggeving' (Intersentia) hoofdstuk Consolidatie",
+        "url": "https://www.intersentia.be (academische uitgever)",
+        "publiek": false,
+        "license": "auteursrechtelijk — bibliotheek of aankoop",
+        "redenering": "Standaardhandboek waarop ITAA-examen historisch leunt voor enumeratie-vragen rond consolidatieverschil-oorzaken."
+      },
+      {
+        "naam": "ITAA-vormingsmodule 'Geconsolideerde jaarrekening' (intern lesmateriaal, indien beschikbaar)",
+        "url": "https://www.itaa.be (publieke website + ledenruimte)",
+        "publiek": true,
+        "license": "ITAA-leden — toelating ITAA nodig voor opname in corpus",
+        "redenering": "Wanneer dit lesmateriaal beschikbaar zou worden gesteld, biedt het de doctrine-stem die examenvragen vereisen."
+      }
+    ],
+    "menselijke_beslissing": null,
+    "prio": "midden",
+    "status": "open",
+    "geconstateerd_door": "concept-extractie-v2-2026-05-15T00:00:00Z",
+    "geconstateerd_op": "2026-05-15"
+  },
+  {
+    "aspect_type": "bron-gap",
+    "aspect": "bron-corpus-uitbreiding",
+    "po": "1.4",
+    "anchor_id": "1.4.I.C",
+    "reden": "Praktijktechnische uitwerking van de doorrekenregel voor controle- en belangenpercentage bij meerlaagse deelnemingsketens (M → A → B → C, kruisparticipaties, certificering, ...). KB WVV art. 1:14 geeft de basisregels maar bevat geen rekenkundige voorbeelden. CBN-advies 2017/02 behandelt gezamenlijke controle in detail, maar de algemene matrix 'wanneer welke methode' met cijfervoorbeelden ontbreekt.",
+    "ontbrekende_kennis": "Praktijktechnische uitwerking van de doorrekenregel voor controle- en belangenpercentage bij meerlaagse deelnemingsketens (M → A → B → C, kruisparticipaties, certificering, ...). KB WVV art. 1:14 geeft de basisregels maar bevat geen rekenkundige voorbeelden. CBN-advies 2017/02 behandelt gezamenlijke controle in detail, maar de algemene matrix 'wanneer welke methode' met cijfervoorbeelden ontbreekt.",
+    "voorgestelde_bronnen": [
+      {
+        "naam": "CBN-werkdocument of advies dat per scenario (rechtstreekse vs. indirecte deelneming, cross-holding, certificering) de gebruikelijke controle/belangen-berekening illustreert",
+        "url": "https://www.cnc-cbn.be",
+        "publiek": true,
+        "license": "publiek — CBN-adviezen zijn vrij beschikbaar",
+        "redenering": "Een specifiek CBN-advies of een afdeling van het Verslag aan de Koning bij KB van 30 januari 2001 (in geconsolideerde vorm) zou de scenario-tabel kunnen leveren die het examen 2014-1-vr8 toetst."
+      }
+    ],
+    "menselijke_beslissing": null,
+    "prio": "midden",
+    "status": "open",
+    "geconstateerd_door": "concept-extractie-v2-2026-05-15T00:00:00Z",
+    "geconstateerd_op": "2026-05-15"
   }
 ]

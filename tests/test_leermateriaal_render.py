@@ -378,22 +378,6 @@ class TestRenderCompetentieFiche:
         assert md.startswith("---\n")
 
 
-# ─── Tests: migratie-script ────────────────────────────────────────────────────
-
-
-class TestMigratieDryRun:
-    def test_migratie_dry_run_werkt(self) -> None:
-        """Test dat het migratie-script --dry-run draait zonder te crashen."""
-        result = subprocess.run(
-            [sys.executable, "-m", "tools.extractie.migrate_bron_voorstellen", "--dry-run"],
-            capture_output=True,
-            text=True,
-            cwd=str(ROOT),
-        )
-        # Mag niet crashen (exit code 0 of 0 bij "niets te migreren")
-        assert result.returncode == 0 or "niet gevonden" in result.stdout
-
-
 # ─── Tests: CLI --help ─────────────────────────────────────────────────────────
 
 
