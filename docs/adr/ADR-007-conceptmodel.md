@@ -7,6 +7,22 @@
 
 ## Changelog
 
+- **2026-05-15 (1.2)** — Patroon-driven uitbreiding (additief, geen breaking
+  changes). Quality-check op PO 1.4 + ADR-009 patroon-labeling op 188 examenvragen
+  onthulden structurele kennis-vormen die het examen verwacht maar v1.1 niet
+  gestructureerd hield. Vijf nieuwe optionele velden:
+  - `enumeraties[]` — aggregaten over meerdere bronnen (bv. "vier oorzaken van",
+    "drie voorwaarden voor"). Confidence-type `"inferred-from-aggregation"`.
+  - `drempelwaarden[]` — kritische numerieke grenzen met juridisch gevolg.
+  - `tijdlijn[]` — wettelijke termijnen voor procedurele concepten.
+  - `verborgen_vereiste[]` — vereisten die uit praktijk/normen volgen bovenop
+    de letterlijke regel (reële kennis, geen examen-info).
+  - `vergelijkingsparen[]` — concepten die met andere verward worden (verschil
+    + trigger-criterium).
+
+  Examen-specifieke metadata (gewicht, vraagvorm-frequentie) hoort NIET in
+  concept-records — dat zit in `examenfocus`-objecten (ADR-009).
+
 - **2026-05-08 (1.1)** — Eerste seed-record (`clientacceptatiebeleid.json`) onthulde drie schema-tekortkomingen die hier rechtgezet worden:
   1. `main_rule` werd voor álle node-types gebruikt — semantisch fout voor `procedure`, `methode`, `afwegingskader`. Type-specifieke sleutelvelden vastgelegd (zie §"Type-specifieke sleutelvelden").
   2. Designprincipe 7 ("verwijzingen als gestructureerde child-property") was abstract — agent gooide artikelnummers inline in prose. Concrete `references[]`-blok-spec toegevoegd.
@@ -107,6 +123,18 @@ Elk hoofdveld is een **block-object** (zelfde shape: `text` + `confidence` + `so
   ]
 }
 ```
+
+### Patroon-driven optionele velden (schema 1.2, additief)
+
+Elk node-type kan onderstaande optionele velden bevatten als de bron-bundle ze ondersteunt. **Sparse fields zijn de norm** — een record met enkel `definitie` is volledig geldig.
+
+- **`enumeraties[]`** — geaggregeerde lijsten ("oorzaken van X", "voorwaarden voor Y") die uit meerdere bron-chunks zijn samengebracht. Elk item is een block-object met `confidence: "inferred-from-aggregation"` voor synthese-claims.
+- **`drempelwaarden[]`** — kritische numerieke grenzen (`naam`, `waarde`, `eenheid`, `gevolg`).
+- **`tijdlijn[]`** — wettelijke termijnen voor procedurele records (`stap`, `termijn`, `actor`, `actie`).
+- **`verborgen_vereiste[]`** — vereisten die uit praktijk/normen voortvloeien bovenop de letterlijke regel (`text`, `ratio`). Reële kennis, niet examen-info.
+- **`vergelijkingsparen[]`** — concepten die met andere verward worden (`vergelijking_met`, `verschil`, `trigger`).
+
+Zie `prompts/concept-extractie-v2.md` voor exacte block-shapes en voorbeelden.
 
 ### Edge-types (initieel ~20, mag groeien)
 

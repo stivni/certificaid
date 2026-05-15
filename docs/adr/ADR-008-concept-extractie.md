@@ -143,6 +143,35 @@ Subagent (Opus, één per PO) verwerkt anchors sequentieel.
 
 **Cross-anchor context-accumulatie**: door anchors sequentieel binnen één Opus-sessie te verwerken, ziet de subagent eerder geschreven concepten en kan vakoverschrijdende fenomenen herkennen ("dit chunk hoort ook bij anchor X dat ik eerder behandelde → al-bestaand concept Y").
 
+### 5.1 Must-have-detectie — emergent, niet pre-curated (2026-05-15)
+
+**Probleem**: examenvragen toetsen begrippen die soms wel in de bronnen zitten (KB WVV art. 1:14, CBN-adviezen) maar niet als losse anker zijn benoemd ("controlepercentage", "invloed van betekenis", "geassocieerde onderneming"). Een gap-detectie is nodig.
+
+**Anti-pattern**: pre-curated must-have-checklist door mens per PO. Niet schaalbaar, chicken-and-egg (je moet de inhoud kennen om te kiezen wat must-have is). **Niet doen.**
+
+**Drie emergente mechanismen** (zonder mens-pre-werk):
+
+1. **Cross-referentie-detectie tijdens extractie** — wanneer een record verwijst naar een term ("...uitgaande van het belangenpercentage...", "...wanneer invloed van betekenis bestaat...") en die term geen eigen record heeft, log de term in `data/quality_checks/<po>/dangling-references-<run_id>.json`. Termen die >3× over chunks van >2 bronnen verwezen worden = sterke kandidaat voor eigen record.
+
+2. **Recursive deepening tijdens extractie** — voor elk hoofd-concept, identificeer ingebakken begrippen in `definitie.text` of `main_rule.text`. Als ze in 2+ chunks van 2+ bronnen voorkomen: **direct als eigen record aanmaken** (extractor heeft toestemming, geen wacht-en-vraag). Liberale aanpak — anti-twijfel-regel: bij twijfel "is dit een eigen record?" kies "ja".
+
+3. **Agent-judgment in quality-check** — een tweede agent (Opus, via `quality-check-v1`) probeert examenvragen of synthese-tests met enkel concept-records op te lossen en flagt expliciet ontbrekende begrippen. Output naar `data/quality_checks/<po>/examen-eval-*.json`.
+
+Outputs van de drie mechanismen zijn input voor **prompt v2 hercirculatie**: de volgende extractie-pass krijgt de dangling/missing-list als "expand-here"-instructie.
+
+**Mens-rol**: cureren van de gerapporteerde kandidaten (accept/reject), geen pre-werk. Zelfde dynamiek als de caveat-policy (ADR-005 §5): agent stelt voor, mens beslist.
+
+### 5.2 Bron-aanbevelingen — feedback-loop voor corpus-uitbreiding (2026-05-15)
+
+Wanneer een extractor structureel tekortschiet door **kennis die niet in de huidige corpus zit** (bv. COSO-framework principes, IFRS-detailteksten, accountancy-handboek-niveau enumeraties), schrijft hij een entry naar `data/extractie/_bron_voorstellen.json` (append-only).
+
+Schema per voorstel:
+- `po`, `anchor_id`, `ontbrekende_kennis` (vrije tekst)
+- `voorgestelde_bronnen[]` met `naam`, `url`, `publiek`, `license`, `redenering`
+- `geconstateerd_door` (run_id), `geconstateerd_op`, `human_decision` (default `null`)
+
+Mens-rol: per voorstel beslissen of de bron wordt toegevoegd aan het corpus, ergens anders staat, of dat de extractie het zonder moet doen. Voorstellen blijven in het bestand als geschiedenis.
+
 ### 6. Verdieping per concept — fase D
 
 Voor elke seed → status `partieel` → eventueel `gevuld`:
