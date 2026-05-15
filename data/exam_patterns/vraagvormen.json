@@ -1,0 +1,102 @@
+{
+  "_provenance": {
+    "tool": "patroon-labeling-v1",
+    "model": "sonnet",
+    "run_at": "2026-05-15T00:00:00",
+    "versie": "20260515.1",
+    "corpus": ["2013-1.json", "2013-2.json", "2014-1.json", "2015-1.json", "2024-1.json"],
+    "n_vragen_corpus": 188
+  },
+  "vraagvormen": [
+    {
+      "id": "vraagvorm-mc-aankruisen",
+      "naam": "Multiple Choice — één juist antwoord aankruisen",
+      "format": "Situatie + 3-5 antwoordopties; student kruist de enige correcte optie aan. Geen motivering vereist.",
+      "cognitieve_laag": "kennis-toepassing",
+      "format_valkuil": "Twee opties lijken bijna identiek; het verschil zit in een detail (tijdstip, bedrag, rekening, procedure-stap) dat de vraag doet kantelen. Student die niet precies kent verliest punt zonder partiaal.",
+      "voorbeelden_uit_corpus": ["2014-1-vr1", "2014-1-vr2", "2015-1-vr1", "2015-1-vr3", "2013-2-vr1"],
+      "geschat_n_voorkomens": 55
+    },
+    {
+      "id": "vraagvorm-mc-gemengd-meerdere-deelvragen",
+      "naam": "MC-blok met meerdere deelvragen per vraagnummer",
+      "format": "Één vraagnummer bundelt A, B, C, D als afzonderlijke subvragen die elk een eigen MC-antwoord vragen. Typisch voor 2024-examen en 2015-examen.",
+      "cognitieve_laag": "kennis-toepassing",
+      "format_valkuil": "Student ziet het vraagnummer als één geheel maar elke subvraag is onafhankelijk beoordeeld. Één verkeerd antwoord heeft geen invloed op de rest, maar de omvang per vraagnummer is bedrieglijk groot.",
+      "voorbeelden_uit_corpus": ["2024-1-vr1", "2024-1-vr6", "2024-1-vr11", "2015-1-vr1"],
+      "geschat_n_voorkomens": 22
+    },
+    {
+      "id": "vraagvorm-jf-reeks-stellingen",
+      "naam": "Juist/Fout — reeks stellingen aankruisen",
+      "format": "3-10 uitspraken; student kruist J of F aan zonder motivering te hoeven geven. Score = correct-per-stelling.",
+      "cognitieve_laag": "kennis-reproductie",
+      "format_valkuil": "Stellingen zijn bewust dicht bij de correcte regel geformuleerd; één woord ('altijd', 'nooit', een drempelwaarde of een datum) bepaalt of de stelling correct is. Gokken is riskant bij negatieve scoring, maar in dit examen is er geen negatieve correctie.",
+      "voorbeelden_uit_corpus": ["2014-1-vr10", "2014-1-vr18", "2014-1-vr25", "2013-2-vr14", "2015-1-vr20"],
+      "geschat_n_voorkomens": 62
+    },
+    {
+      "id": "vraagvorm-jf-met-motivering",
+      "naam": "Juist/Fout — met motivering of wetsverwijzing",
+      "format": "Één of twee stellingen; student kruist J/F aan EN motiveert het antwoord of verwijst naar de relevante wetsbepaling.",
+      "cognitieve_laag": "kennis-toepassing",
+      "format_valkuil": "Stelling is fout om een subtiele reden (bijv. de uitzondering op de uitzondering); wie alleen J/F weet maar niet kan motiveren, verliest de motiverings-punten (doorgaans 2/3 van het totaal).",
+      "voorbeelden_uit_corpus": ["2013-1-vr1", "2013-2-vr3", "2014-1-vr3", "2015-1-vr36"],
+      "geschat_n_voorkomens": 18
+    },
+    {
+      "id": "vraagvorm-open-definitie",
+      "naam": "Open — definitie of begripsomschrijving",
+      "format": "\"Omschrijf begrip X\" of \"Wat is Y?\". Verwacht een correcte definitie, soms met elementen opgegeven ('geef 4 elementen').",
+      "cognitieve_laag": "kennis-reproductie",
+      "format_valkuil": "Student omschrijft het begrip te vaag of verwart het met een naburig concept. Partiale punten zijn mogelijk maar het examen verwacht precieze bewoordingen (bijv. de wettelijke definitie).",
+      "voorbeelden_uit_corpus": ["2013-1-vr5", "2013-1-vr8", "2013-2-vr8", "2013-2-vr9", "2013-2-vr11"],
+      "geschat_n_voorkomens": 20
+    },
+    {
+      "id": "vraagvorm-open-procedure-ontwerp",
+      "naam": "Open — procedure ontwerpen of stappen beschrijven",
+      "format": "\"Stel een procedure op waarbij...\", \"Welke stappen neemt u...\", \"Beschrijf de werkwijze...\". Student moet een procedure of stappenplan opschrijven.",
+      "cognitieve_laag": "analyse",
+      "format_valkuil": "Student beschrijft de principes correct maar laat de volgorde of de rol van de betrokkenen weg. Vaak worden specifieke eisen gesteld (minimaal 2 functiescheidingen, wie verstuurt, wie ontvangt) die elk apart punten dragen.",
+      "voorbeelden_uit_corpus": ["2013-1-vr9", "2013-2-vr10", "2014-1-vr14", "2015-1-vr39"],
+      "geschat_n_voorkomens": 12
+    },
+    {
+      "id": "vraagvorm-open-advies-casus",
+      "naam": "Open — advies in casus (integratievraag)",
+      "format": "Narratieve casus met meerdere actoren en feiten; student formuleert een advies of oordeelt over de juistheid van een handelwijze met motivering. Vereist meerdere concepten gecombineerd.",
+      "cognitieve_laag": "synthese",
+      "format_valkuil": "Student beantwoordt deel van de casus correct maar mist een sub-vraag of een bijkomend aspect (bijv. aansprakelijkheidsclausule, timing-vereiste) dat apart wordt beoordeeld.",
+      "voorbeelden_uit_corpus": ["2013-1-vr13", "2013-1-vr14", "2013-2-vr13", "2014-1-vr22", "2014-1-vr35"],
+      "geschat_n_voorkomens": 15
+    },
+    {
+      "id": "vraagvorm-berekening-met-mc",
+      "naam": "Berekening — cijfers berekenen en/of toewijzen aan rekening/rubriek",
+      "format": "Casus met cijfergegevens; student berekent een bedrag, ratio, belastinggrondslag of boeking. Soms gecombineerd met MC-opties voor het eindantwoord.",
+      "cognitieve_laag": "kennis-toepassing",
+      "format_valkuil": "Fout bij één tussenstap (bijv. verkeerde definitie brutoverkoopmarge) geeft fout eindantwoord zonder partieel verlies in MC-variant. In de open variant zijn partiele punten mogelijk.",
+      "voorbeelden_uit_corpus": ["2013-1-vr4", "2013-2-vr5", "2014-1-vr4", "2015-1-vr5", "2024-1-vr8"],
+      "geschat_n_voorkomens": 28
+    },
+    {
+      "id": "vraagvorm-invultabel",
+      "naam": "Invultabel — matrix of tabel invullen",
+      "format": "Tabel gegeven met rijen (activiteiten/posten) en kolommen (categorieën/type); student kruist per rij de juiste kolom aan of vult een waarde in.",
+      "cognitieve_laag": "kennis-toepassing",
+      "format_valkuil": "Tabel-structuur suggereert dat elke rij onafhankelijk is, maar soms hangt de categorie van een rij af van het begrip van de grondslag (bijv. functiescheiding-types). Verkeerd inzicht in één concept besmet meerdere rijen.",
+      "voorbeelden_uit_corpus": ["2013-2-vr10", "2013-2-vr12", "2014-1-vr13", "2015-1-vr27"],
+      "geschat_n_voorkomens": 10
+    },
+    {
+      "id": "vraagvorm-open-berekening-motiveer",
+      "naam": "Open — bereken én motiveer (dubbele opdracht)",
+      "format": "\"Bereken X en motiveer uw antwoord\" of \"Bereken X en geef de wettelijke grondslag\". Student berekent een getal EN schrijft de motivering.",
+      "cognitieve_laag": "analyse",
+      "format_valkuil": "Student geeft het juiste getal maar vergeet de motivering (of omgekeerd). Punten zijn verdeeld over de berekening en de motivering; één van beide missen kost meer dan de helft.",
+      "voorbeelden_uit_corpus": ["2013-1-vr4", "2013-2-vr7", "2014-1-vr30", "2014-1-vr38"],
+      "geschat_n_voorkomens": 16
+    }
+  ]
+}

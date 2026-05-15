@@ -1,0 +1,162 @@
+{
+  "_provenance": {
+    "tool": "patroon-labeling-v1",
+    "model": "sonnet",
+    "run_at": "2026-05-15T00:00:00",
+    "versie": "20260515.1",
+    "corpus": ["2013-1.json", "2013-2.json", "2014-1.json", "2015-1.json", "2024-1.json"],
+    "n_vragen_corpus": 188
+  },
+  "complexiteitspatronen": [
+    {
+      "id": "complex-feiten-geen-camouflage",
+      "naam": "Feitenvraag — recht-toe-recht-aan kennisreproductie",
+      "kennisdiepte": "reproductie",
+      "contextspecificiteit": "abstract",
+      "analytische_breedte": "1-concept",
+      "camouflage": "geen",
+      "beschrijving": "De vraag vraagt exact wat de definitie/regel is. Geen afleidende elementen. Wie de regel kent, heeft de vraag. Typisch: 'Wat is X?', 'Geef 4 elementen van Y', 'Welke termijn geldt bij Z?'",
+      "voorbeelden": ["2013-1-vr5", "2013-1-vr8", "2013-2-vr9", "2013-2-vr11", "2013-2-vr6"]
+    },
+    {
+      "id": "complex-feiten-red-herring",
+      "naam": "Feitenvraag met red-herring",
+      "kennisdiepte": "reproductie",
+      "contextspecificiteit": "abstract",
+      "analytische_breedte": "1-concept",
+      "camouflage": "red-herring",
+      "beschrijving": "De casus bevat een afleidend element (bedrag, naam, extra actor) dat irrelevant is voor het juiste antwoord. Student die alle details probeert te verwerken, komt tot een verkeerde conclusie.",
+      "voorbeelden": ["2013-2-vr4", "2014-1-vr4", "2013-1-vr2"]
+    },
+    {
+      "id": "complex-feiten-schijngelijkenis",
+      "naam": "Feitenvraag met schijngelijkenis (look-alike)",
+      "kennisdiepte": "reproductie",
+      "contextspecificiteit": "abstract",
+      "analytische_breedte": "1-concept",
+      "camouflage": "schijngelijkenis",
+      "beschrijving": "De vraag stelt een situatie voor die lijkt op een basisregel maar er subtiel van afwijkt (bijv. NV vs BVBA, 'meer dan' vs 'gelijk aan of meer dan'). Student die het basisgeval kent maar de uitzondering mist, beantwoordt verkeerd.",
+      "voorbeelden": ["2013-2-vr2", "2014-1-vr2", "2014-1-vr18", "2015-1-vr20"]
+    },
+    {
+      "id": "complex-toepassing-abstract",
+      "naam": "Regeltoepassing op abstracte casus",
+      "kennisdiepte": "toepassing",
+      "contextspecificiteit": "abstract",
+      "analytische_breedte": "1-concept",
+      "camouflage": "geen",
+      "beschrijving": "Abstracte, vereenvoudigde casus met getallen of actoren. Één concept toepassen. Geen misleidende elementen maar de berekening of de toepassing vereist een stap meer dan louter kennis.",
+      "voorbeelden": ["2013-1-vr4", "2013-2-vr5", "2013-2-vr7", "2015-1-vr1", "2015-1-vr2"]
+    },
+    {
+      "id": "complex-toepassing-verborgen-vereiste",
+      "naam": "Regeltoepassing met verborgen vereiste",
+      "kennisdiepte": "toepassing",
+      "contextspecificiteit": "abstract",
+      "analytische_breedte": "1-2-concepten",
+      "camouflage": "verborgen-vereiste",
+      "beschrijving": "De vraagtekst stelt één scenario voor, maar de correcte behandeling vereist dat de student ook een bijkomende verplichting herkent (timing-trigger, formaliteitsvereiste, drempelcontrole, compliance-verplichting) die niet expliciet gevraagd wordt.",
+      "voorbeelden": ["2013-1-vr14", "2013-1-vr15", "2014-1-vr3", "2015-1-vr26", "2024-1-vr8"]
+    },
+    {
+      "id": "complex-grensgeval-uitzondering",
+      "naam": "Grensgeval-herkenning (drempel of uitzondering)",
+      "kennisdiepte": "toepassing",
+      "contextspecificiteit": "concreet",
+      "analytische_breedte": "1-concept",
+      "camouflage": "verborgen-vereiste",
+      "beschrijving": "De casus zit net op of net over een drempel (bedrag, termijn, percentage, datum) die tot een andere behandeling leidt. Student moet de drempel kennen EN herkennen dat de situatie er net aan raakt.",
+      "voorbeelden": ["2013-1-vr16", "2013-2-vr14", "2014-1-vr30", "2015-1-vr22", "2024-1-vr6"]
+    },
+    {
+      "id": "complex-procedure-rol-bevoegdheid",
+      "naam": "Procedure, rol en bevoegdheid",
+      "kennisdiepte": "toepassing",
+      "contextspecificiteit": "concreet",
+      "analytische_breedte": "meerdere-concepten",
+      "camouflage": "geen",
+      "beschrijving": "Vraag over wie wat mag/moet doen, in welke volgorde, en met welke bevoegdheden. Doel is te onderscheiden welke actor welke stap uitvoert. Cognitieve eis: kennen van de procedure-structuur, niet alleen de regel.",
+      "voorbeelden": ["2013-1-vr9", "2013-2-vr10", "2014-1-vr14", "2014-1-vr15", "2015-1-vr39"]
+    },
+    {
+      "id": "complex-casus-multi-concept",
+      "naam": "Uitgebreide casus — meerdere concepten gecombineerd",
+      "kennisdiepte": "integratie",
+      "contextspecificiteit": "concreet",
+      "analytische_breedte": "meerdere-concepten",
+      "camouflage": "geen",
+      "beschrijving": "Lange narratieve casus met meerdere deelvragen die elk een ander concept bevragen. De concepten zijn verwant maar onafhankelijk. Score is per deelvraag; goede deeloplossing geeft partiele punten.",
+      "voorbeelden": ["2013-1-vr13", "2013-1-vr14", "2013-2-vr13", "2014-1-vr22", "2015-1-vr44"]
+    },
+    {
+      "id": "complex-vergelijk-twee-situaties",
+      "naam": "Vergelijking twee (bijna-)gelijke situaties",
+      "kennisdiepte": "analyse",
+      "contextspecificiteit": "concreet",
+      "analytische_breedte": "1-concept",
+      "camouflage": "schijngelijkenis",
+      "beschrijving": "Twee situaties die op het eerste zicht gelijk lijken maar een verschillende behandeling vereisen. Student moet het onderscheidende criterium benoemen. Typisch in BTW (particulier vs BP), fiscaal (vaste inrichting Italië jaar 1 vs jaar 2) en vennootschapsrecht (NV vs BV).",
+      "voorbeelden": ["2013-2-vr7", "2014-1-vr39", "2015-1-vr43", "2024-1-vr11"]
+    },
+    {
+      "id": "complex-identifeer-de-fout",
+      "naam": "Identificeer de fout in een beschreven handelwijze",
+      "kennisdiepte": "analyse",
+      "contextspecificiteit": "concreet",
+      "analytische_breedte": "1-2-concepten",
+      "camouflage": "verborgen-vereiste",
+      "beschrijving": "Een beschreven procedure of boeking bevat een conceptuele fout. Student moet de fout aanwijzen én, als de vraag het vraagt, de correcte handelwijze beschrijven. De fout is niet flagrant — de situatie oogt als standaard werkwijze.",
+      "voorbeelden": ["2013-1-vr13", "2013-2-vr13", "2014-1-vr17", "2015-1-vr38"]
+    },
+    {
+      "id": "complex-berekening-met-fiscale-keten",
+      "naam": "Meerstapsberekening met fiscale keten",
+      "kennisdiepte": "toepassing",
+      "contextspecificiteit": "concreet",
+      "analytische_breedte": "meerdere-concepten",
+      "camouflage": "geen",
+      "beschrijving": "Berekening waarbij elke stap de input van de volgende bepaalt (bijv. belastbare grondslag VennB: winst − tantième − DBI-aftrek + verworpen uitgaven). Fout in stap 1 kaskadeert naar stap 2 en 3.",
+      "voorbeelden": ["2013-1-vr26", "2013-2-vr17", "2014-1-vr28", "2015-1-vr33", "2024-1-vr8"]
+    },
+    {
+      "id": "complex-stellingen-reeks-uitzondering",
+      "naam": "Reeks stellingen: vind de uitzondering in de reeks",
+      "kennisdiepte": "reproductie",
+      "contextspecificiteit": "abstract",
+      "analytische_breedte": "meerdere-concepten",
+      "camouflage": "schijngelijkenis",
+      "beschrijving": "Stel van 4-10 stellingen; de meerderheid is correct (of fout), één of twee wijken af. Student moet de afwijkende stelling(en) detecteren. Typisch voor PO 2.1 (PB: 1 stelling onjuist), 4.0 (onafhankelijkheid), 3.2 (omzettingsnormen).",
+      "voorbeelden": ["2014-1-vr23", "2014-1-vr24", "2015-1-vr31", "2015-1-vr32", "2024-1-vr2"]
+    },
+    {
+      "id": "complex-adviseer-en-onderbouw",
+      "naam": "Adviseer en onderbouw (synthese met wetsreferentie)",
+      "kennisdiepte": "integratie",
+      "contextspecificiteit": "concreet",
+      "analytische_breedte": "meerdere-concepten",
+      "camouflage": "verborgen-vereiste",
+      "beschrijving": "Student wordt gevraagd een advies te formuleren, een keuze te maken of een oordeel te vellen over een complexe situatie, met onderbouwing via wetsartikelen of normen. Vereist combineren van feiten, regels en consequenties.",
+      "voorbeelden": ["2013-1-vr16", "2013-2-vr18", "2014-1-vr35", "2014-1-vr36", "2015-1-vr44"]
+    },
+    {
+      "id": "complex-tabel-classificeer",
+      "naam": "Classificeer in tabel (categorisering per rij)",
+      "kennisdiepte": "toepassing",
+      "contextspecificiteit": "abstract",
+      "analytische_breedte": "meerdere-concepten",
+      "camouflage": "geen",
+      "beschrijving": "Tabel met activiteiten of posten die ingedeeld moeten worden in categorieën (bijv. preventief/repressief/corrigerend, autorisatie/bewaring/registratie/controle, financieel/operationeel/conformiteit). Score per correcte cel.",
+      "voorbeelden": ["2013-2-vr10", "2013-2-vr12", "2015-1-vr28", "2015-1-vr37", "2024-1-vr3"]
+    },
+    {
+      "id": "complex-grensgeval-red-herring-fiscaal",
+      "naam": "Fiscale grensgeval-vraag met misleidende details",
+      "kennisdiepte": "toepassing",
+      "contextspecificiteit": "concreet",
+      "analytische_breedte": "1-2-concepten",
+      "camouflage": "red-herring",
+      "beschrijving": "Fiscale vraag (BTW, PB, VennB) met concrete casus die meerdere details bevat waarvan sommige irrelevant zijn voor het gevraagde. Typisch: verjaringstermijnen, opeisbaarheid BTW, aftrekbaarheid kosten — waarbij de afleidende omstandigheid (naam, bedrag, datum) de aandacht trekt van het cruciale criterium.",
+      "voorbeelden": ["2013-1-vr30", "2013-2-vr23", "2014-1-vr40", "2015-1-vr50", "2024-1-vr11"]
+    }
+  ]
+}

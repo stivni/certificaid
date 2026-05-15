@@ -1,0 +1,270 @@
+{
+  "_provenance": {
+    "tool": "patroon-labeling-v1",
+    "model": "sonnet",
+    "run_at": "2026-05-15T00:00:00",
+    "versie": "20260515.1"
+  },
+  "examen_id": "2013-1",
+  "labels": [
+    {
+      "vraag_id": "2013-1-vr1",
+      "vraagvorm_id": "vraagvorm-jf-met-motivering",
+      "complexiteitspatroon_id": "complex-grensgeval-uitzondering",
+      "vermoedelijke_concepten": ["kleine-vennootschap", "jaarverslag-verplichting", "waarderingsregels"],
+      "examen_specifieke_notities": "J/F + motivering: kandidaat moet weten wanneer een BVBA als klein kwalificeert en of er een jaarverslag vereist is. Kritisch detail: kleine vennootschappen kunnen het jaarverslag achterwege laten maar moeten waarderingsregels dan in de jaarrekening zelf vermelden."
+    },
+    {
+      "vraag_id": "2013-1-vr2",
+      "vraagvorm_id": "vraagvorm-mc-aankruisen",
+      "complexiteitspatroon_id": "complex-feiten-schijngelijkenis",
+      "vermoedelijke_concepten": ["kapitaalinbreng-boeking", "kapitaalvermindering-procedure", "vaste-inrichting-buitenlandse-onderneming"],
+      "examen_specifieke_notities": "3 onafhankelijke MC-deelvragen (a, b, c) over boekingen kapitaaloperaties en vaste inrichting. Schijngelijkenis: meerdere opties per deelvraag lijken identiek maar verschilden in rekeningkeuze of timing (2 maanden na publicatie vs. notariële akte)."
+    },
+    {
+      "vraag_id": "2013-1-vr3",
+      "vraagvorm_id": "vraagvorm-open-advies-casus",
+      "complexiteitspatroon_id": "complex-toepassing-verborgen-vereiste",
+      "vermoedelijke_concepten": ["activering-ontwikkelingskosten", "immateriële-vaste-activa", "afschrijvingsduur"],
+      "examen_specifieke_notities": "Casus prototype met 5 deelvragen (a-e). Verborgen vereiste: kosten van vooronderzoek zijn NIET activeerbaar (enkel de eigenlijke ontwikkelingskosten). Student die niet het onderscheid vooronderzoek vs. ontwikkeling kent, activeert te veel."
+    },
+    {
+      "vraag_id": "2013-1-vr4",
+      "vraagvorm_id": "vraagvorm-berekening-met-mc",
+      "complexiteitspatroon_id": "complex-toepassing-abstract",
+      "vermoedelijke_concepten": ["nettobedrijfskapitaal", "brutoverkoopmarge", "personeelskosten-toegevoegde-waarde"],
+      "examen_specifieke_notities": "Ratioberekening op balans/resultatenrekening uit bijlage. Formule moet gekend zijn; fout in formule = fout antwoord zonder partieel verlies. Bijlage-afhankelijk: studenten die de bijlage niet correct lezen maken rekenfouten."
+    },
+    {
+      "vraag_id": "2013-1-vr5",
+      "vraagvorm_id": "vraagvorm-open-definitie",
+      "complexiteitspatroon_id": "complex-feiten-geen-camouflage",
+      "vermoedelijke_concepten": ["intrinsieke-waarde", "fractiewaarde", "netto-rendabiliteit-bedrijfsactiva", "schuldgraad", "operationele-cashflow"],
+      "examen_specifieke_notities": "Vijf begripsomschrijvingen, 2 pt elk. Pure kennisreproductie. Verwisseling intrinsieke waarde / fractiewaarde is klassieke studentenfout."
+    },
+    {
+      "vraag_id": "2013-1-vr6",
+      "vraagvorm_id": "vraagvorm-open-definitie",
+      "complexiteitspatroon_id": "complex-feiten-geen-camouflage",
+      "vermoedelijke_concepten": ["minderheidsbelang", "geconsolideerde-resultatenrekening"],
+      "examen_specifieke_notities": "Vraag over rubriek in geconsolideerde resultatenrekening voor minderheidsbelang. Technische terminologie vereist (post 'Belangen van derden')."
+    },
+    {
+      "vraag_id": "2013-1-vr7",
+      "vraagvorm_id": "vraagvorm-open-definitie",
+      "complexiteitspatroon_id": "complex-feiten-geen-camouflage",
+      "vermoedelijke_concepten": ["maximale-afwijkingsdatum-consolidatie"],
+      "examen_specifieke_notities": "Specifieke termijn (3 maanden) uit de consolidatienormen kennen. Geen berekening — louter feitenkennis."
+    },
+    {
+      "vraag_id": "2013-1-vr8",
+      "vraagvorm_id": "vraagvorm-open-definitie",
+      "complexiteitspatroon_id": "complex-feiten-geen-camouflage",
+      "vermoedelijke_concepten": ["interne-controle-definitie", "ic-doelstellingen"],
+      "examen_specifieke_notities": "4 elementen van de IC-definitie noemen. Vraagt exacte kennis van de formele definitie (getrouwheid van de financiële rapportering, naleving van wet- en regelgeving, effectiviteit/efficiëntie van de bedrijfsvoering, bescherming van activa)."
+    },
+    {
+      "vraag_id": "2013-1-vr9",
+      "vraagvorm_id": "vraagvorm-open-procedure-ontwerp",
+      "complexiteitspatroon_id": "complex-procedure-rol-bevoegdheid",
+      "vermoedelijke_concepten": ["functiescheiding", "kleine-kas-procedure"],
+      "examen_specifieke_notities": "Student ontwerpt procedure voor kleine kas met minimaal 2 functiescheidingen. Vereist kennis van de 4 typen controletechnische functies (autorisatie, bewaring, registratie, controle) en toepassing in een KMO-context."
+    },
+    {
+      "vraag_id": "2013-1-vr10",
+      "vraagvorm_id": "vraagvorm-open-definitie",
+      "complexiteitspatroon_id": "complex-toepassing-abstract",
+      "vermoedelijke_concepten": ["analytische-procedures", "interne-controle"],
+      "examen_specifieke_notities": "Voorbeeld van analytische test voor werfkraan-bedrijf. Open vraag met één voorbeeld — student kan vrij kiezen maar moet technisch correcte test beschrijven (bijv. vergelijking omzetevolutie, bezettingsgraad per periode)."
+    },
+    {
+      "vraag_id": "2013-1-vr11",
+      "vraagvorm_id": "vraagvorm-open-definitie",
+      "complexiteitspatroon_id": "complex-feiten-geen-camouflage",
+      "vermoedelijke_concepten": ["budget-interne-controle"],
+      "examen_specifieke_notities": "Belang van budget voor IC-afdeling uitleggen. Conceptueel antwoord over onafhankelijkheid, prioriteitstelling en evaluatie."
+    },
+    {
+      "vraag_id": "2013-1-vr12",
+      "vraagvorm_id": "vraagvorm-open-definitie",
+      "complexiteitspatroon_id": "complex-feiten-geen-camouflage",
+      "vermoedelijke_concepten": ["leveranciersconfirmaties", "interne-controle"],
+      "examen_specifieke_notities": "Waarom gebruikt IC leveranciersconfirmaties naast de boekhouding? Motivatie-vraag over beperkingen van interne documenten versus externe bevestigingen."
+    },
+    {
+      "vraag_id": "2013-1-vr13",
+      "vraagvorm_id": "vraagvorm-open-advies-casus",
+      "complexiteitspatroon_id": "complex-casus-multi-concept",
+      "vermoedelijke_concepten": ["fraudedetectie", "functiescheiding", "confirmatiebrieven", "interne-controle-zwakheden"],
+      "examen_specifieke_notities": "Grote fraudecasus (30 pt): boekhouder manipuleerde cheques, leveranciersschulden, creditnota's, onkosten, dubbele betaling. Student moet 5 vaststellingen doen én maatregelen voorstellen. Identificeer-de-fout + adviseer-en-onderbouw gecombineerd."
+    },
+    {
+      "vraag_id": "2013-1-vr14",
+      "vraagvorm_id": "vraagvorm-open-advies-casus",
+      "complexiteitspatroon_id": "complex-casus-multi-concept",
+      "vermoedelijke_concepten": ["aandeelhouderschap-bvba-overlijden", "overdracht-aandelen", "alarmbelprocedure-negatief", "s-bvba-oprichting", "aansprakelijkheid-oprichters"],
+      "examen_specifieke_notities": "14 pt, 5 deelvragen: aandelen bij overlijden vennoot, automatisch vennoot worden, overdracht, actie bij oninvorderbare vordering, S-BVBA haalbaarheid. Multi-concept casus met elk een aparte wettelijke grondslag."
+    },
+    {
+      "vraag_id": "2013-1-vr15",
+      "vraagvorm_id": "vraagvorm-open-advies-casus",
+      "complexiteitspatroon_id": "complex-toepassing-verborgen-vereiste",
+      "vermoedelijke_concepten": ["effecten-aan-toonder-omzetting", "overgangsregeling-2013-2015"],
+      "examen_specifieke_notities": "Effecten aan toonder: 3 deelvragen over maatregel 2012/2013, lot van niet-omgezette effecten op 1/1/2014 en 1/1/2015. Tijdlijn-kennis vereist — student die 2014 en 2015 verwisselt, verliest beide punten."
+    },
+    {
+      "vraag_id": "2013-1-vr16",
+      "vraagvorm_id": "vraagvorm-open-procedure-ontwerp",
+      "complexiteitspatroon_id": "complex-adviseer-en-onderbouw",
+      "vermoedelijke_concepten": ["ontbindingsopdracht-accountant", "staat-activa-passiva-continuiteit", "discontinuiteitsbeginsel"],
+      "examen_specifieke_notities": "3 deelvragen over ontbindingsopdracht: doel, wie stelt staat op, wanneer continuiteit. Kennisreproductie van de wettelijke structuur van de ontbindingsprocedure."
+    },
+    {
+      "vraag_id": "2013-1-vr17",
+      "vraagvorm_id": "vraagvorm-jf-reeks-stellingen",
+      "complexiteitspatroon_id": "complex-toepassing-verborgen-vereiste",
+      "vermoedelijke_concepten": ["herwaarderingsmeerwaarden-ontbinding", "bestemming-herwaardering"],
+      "examen_specifieke_notities": "3 stellingen over lot van herwaarderingsmeerwaarden in ontbindingscontext. Verborgen vereiste: in ontbinding kan de meerwaarde NIET meer worden verdeeld via gewone resultaatverwerking — andere regels dan going concern."
+    },
+    {
+      "vraag_id": "2013-1-vr18",
+      "vraagvorm_id": "vraagvorm-open-procedure-ontwerp",
+      "complexiteitspatroon_id": "complex-procedure-rol-bevoegdheid",
+      "vermoedelijke_concepten": ["omzettingsverslag-opdrachtbrief", "elementen-opdrachtbrief"],
+      "examen_specifieke_notities": "3 elementen van de opdrachtbrief bij omzettingsopdracht. Kennisreproductie met deelmarkering per element."
+    },
+    {
+      "vraag_id": "2013-1-vr19",
+      "vraagvorm_id": "vraagvorm-mc-aankruisen",
+      "complexiteitspatroon_id": "complex-feiten-schijngelijkenis",
+      "vermoedelijke_concepten": ["omzetting-toegestaan-kapitaal", "nv-bvba-omzetting"],
+      "examen_specifieke_notities": "MC over toegestaan kapitaal NV en omzettingscondities. Schijngelijkenis: toegestaan kapitaal is een NV-specifiek concept dat bij omzetting wegvalt."
+    },
+    {
+      "vraag_id": "2013-1-vr20",
+      "vraagvorm_id": "vraagvorm-berekening-met-mc",
+      "complexiteitspatroon_id": "complex-berekening-met-fiscale-keten",
+      "vermoedelijke_concepten": ["stopzettingsmeerwaarden", "belastingtarieven-meerwaarden", "afzonderlijke-aanslagvoeten"],
+      "examen_specifieke_notities": "Berekening stopzettingsmeerwaarden voor 5 activacategorieën (gebouw, terrein, machines, cliënteel, bestelwagen) met telkens het juiste tarief. Keten: identificeer categorie → zoek correct tarief → bereken meerwaarde → vermenigvuldig."
+    },
+    {
+      "vraag_id": "2013-1-vr21",
+      "vraagvorm_id": "vraagvorm-jf-reeks-stellingen",
+      "complexiteitspatroon_id": "complex-stellingen-reeks-uitzondering",
+      "vermoedelijke_concepten": ["voorafbetalingen", "spaarrekening-minderjarig-kind", "kadastraal-inkomen", "forfaitaire-beroepskosten", "auteursrechten-fiscaal", "sociale-bijdragen-aftrekbaarheid"],
+      "examen_specifieke_notities": "8 stellingen PB; sommige zijn correct, andere niet. Brede thema-mix in één vraag. Typisch voor 2.1: elk deelaspect afzonderlijk te kennen."
+    },
+    {
+      "vraag_id": "2013-1-vr22",
+      "vraagvorm_id": "vraagvorm-open-advies-casus",
+      "complexiteitspatroon_id": "complex-casus-multi-concept",
+      "vermoedelijke_concepten": ["voorraadfout-fiscale-gevolgen", "aankoopgoederen-niet-geleverd"],
+      "examen_specifieke_notities": "Fiscale gevolgen voorraadfout: aankoop geboekt maar niet geleverd. Analyse van de boekhoudkundige fout en de fiscale correctie."
+    },
+    {
+      "vraag_id": "2013-1-vr23",
+      "vraagvorm_id": "vraagvorm-open-advies-casus",
+      "complexiteitspatroon_id": "complex-toepassing-verborgen-vereiste",
+      "vermoedelijke_concepten": ["voorziening-grote-herstellingen-vrijgesteld", "belaste-vs-vrijgestelde-voorziening"],
+      "examen_specifieke_notities": "Voorziening grote herstellingen: verschil vrijgesteld (onaantastbaarheidsvoorwaarde) vs. niet-vrijgesteld. Verborgen vereiste: student moet weten dat de vrijstelling pas geldt als de voorziening op een onbeschikbare rekening staat."
+    },
+    {
+      "vraag_id": "2013-1-vr24",
+      "vraagvorm_id": "vraagvorm-mc-aankruisen",
+      "complexiteitspatroon_id": "complex-berekening-met-fiscale-keten",
+      "vermoedelijke_concepten": ["voordeel-alle-aard-firmawagen", "aftrekbaarheid-personenwagens-17-procent"],
+      "examen_specifieke_notities": "Voordeel alle aard firmawagen berekening + aftrekbaarheid 17%. Keten: CO2-uitstoot → formule VAA → bruto belastbaar voordeel → aftrekbeperking."
+    },
+    {
+      "vraag_id": "2013-1-vr25",
+      "vraagvorm_id": "vraagvorm-jf-reeks-stellingen",
+      "complexiteitspatroon_id": "complex-grensgeval-uitzondering",
+      "vermoedelijke_concepten": ["btw-roosters-stopzetting", "herziening-aftrek-gebouw", "btw-gevolgen-verkoop"],
+      "examen_specifieke_notities": "BTW-roosters bij stopzetting: bestelwagen + gebouw. 3 deelvragen over in te vullen roosters (maatstaf heffing, belasting, teruggave). Grensgeval: herzieningstermijn gebouw (15 jaar) vs. andere activa (5 jaar)."
+    },
+    {
+      "vraag_id": "2013-1-vr26",
+      "vraagvorm_id": "vraagvorm-mc-aankruisen",
+      "complexiteitspatroon_id": "complex-grensgeval-red-herring-fiscaal",
+      "vermoedelijke_concepten": ["btw-buitenlandse-diensten", "btw-intracommunautaire-transacties", "plaats-van-dienst"],
+      "examen_specifieke_notities": "3 BTW-scenario's: betaling Japans bedrijf, overbrenging goederen NL→BE, personenwagen privé gebruik personeelslid. Elk vereist kennis van specifieke BTW-categorie. Red-herring: nationaliteit van de partij vs. vestigingsplaats."
+    },
+    {
+      "vraag_id": "2013-1-vr27",
+      "vraagvorm_id": "vraagvorm-open-advies-casus",
+      "complexiteitspatroon_id": "complex-casus-multi-concept",
+      "vermoedelijke_concepten": ["registratierechten-buitenlandse-akte", "belastbare-grondslag-registratie"],
+      "examen_specifieke_notities": "Registratie akte buitenlandse notaris voor Belgisch OG: 4 deelvragen over akten, partijen, registratieplicht, tarief."
+    },
+    {
+      "vraag_id": "2013-1-vr28",
+      "vraagvorm_id": "vraagvorm-open-definitie",
+      "complexiteitspatroon_id": "complex-feiten-geen-camouflage",
+      "vermoedelijke_concepten": ["erfenis-legataris-verzaking"],
+      "examen_specifieke_notities": "Erfenisregeling met legataris die verzaakt: gevolgen voor belastingheffing."
+    },
+    {
+      "vraag_id": "2013-1-vr29",
+      "vraagvorm_id": "vraagvorm-open-advies-casus",
+      "complexiteitspatroon_id": "complex-adviseer-en-onderbouw",
+      "vermoedelijke_concepten": ["oeso-model-werkzaamheden-meerdere-landen", "belastbaarheid-per-bronstaat"],
+      "examen_specifieke_notities": "Werknemer actief in 3 landen: OESO-model toepassen om te bepalen welk land belasting mag heffen. Motivering via specifieke OESO-artikelen vereist."
+    },
+    {
+      "vraag_id": "2013-1-vr30",
+      "vraagvorm_id": "vraagvorm-mc-aankruisen",
+      "complexiteitspatroon_id": "complex-grensgeval-red-herring-fiscaal",
+      "vermoedelijke_concepten": ["moeder-dochterrichtlijn", "interest-royaltyrichtlijn", "toepassingsvoorwaarden-eu-richtlijnen"],
+      "examen_specifieke_notities": "2 MC-deelvragen over toepassingsvoorwaarden moeder-dochterrichtlijn en interest-royaltyrichtlijn. Red-herring: participatiedrempel (15% → 10%) en minimale aanhoudingsperiode zijn kritieke details."
+    },
+    {
+      "vraag_id": "2013-1-vr31",
+      "vraagvorm_id": "vraagvorm-jf-reeks-stellingen",
+      "complexiteitspatroon_id": "complex-feiten-schijngelijkenis",
+      "vermoedelijke_concepten": ["btw-verjaringstermijn", "inkohieringstermijn-vennootschapsbelasting", "fraude-verjaringstermijn"],
+      "examen_specifieke_notities": "4 stellingen over fiscale termijnen: BTW-verjaring (normaal + fraude), inkohieringstermijn VennB, oudste belastbaar tijdperk bij fraude. Schijngelijkenis: normale termijn vs. fraudetermijn (3 → 5 → 7 jaar afhankelijk van belasting en omstandigheid)."
+    },
+    {
+      "vraag_id": "2013-1-vr32",
+      "vraagvorm_id": "vraagvorm-mc-aankruisen",
+      "complexiteitspatroon_id": "complex-grensgeval-uitzondering",
+      "vermoedelijke_concepten": ["aanwijzingen-belastingontduiking", "fiscale-controle"],
+      "examen_specifieke_notities": "3 MC over aanwijzingen van belastingontduiking en gevolgen voor de onderzoekstermijn."
+    },
+    {
+      "vraag_id": "2013-1-vr33",
+      "vraagvorm_id": "vraagvorm-mc-aankruisen",
+      "complexiteitspatroon_id": "complex-procedure-rol-bevoegdheid",
+      "vermoedelijke_concepten": ["aww-compliance-officer", "aww-meldingsplicht", "wie-is-beroepsbeoefenaar-aww"],
+      "examen_specifieke_notities": "3 MC: wie is beroepsbeoefenaar, taken compliance officer, meldingsplicht. Procedurele kennis AWW vereist."
+    },
+    {
+      "vraag_id": "2013-1-vr34",
+      "vraagvorm_id": "vraagvorm-open-definitie",
+      "complexiteitspatroon_id": "complex-feiten-geen-camouflage",
+      "vermoedelijke_concepten": ["beroepsgeheim-uitzonderingen"],
+      "examen_specifieke_notities": "2 uitzonderingen op beroepsgeheim noemen. Pure kennisreproductie."
+    },
+    {
+      "vraag_id": "2013-1-vr35",
+      "vraagvorm_id": "vraagvorm-jf-reeks-stellingen",
+      "complexiteitspatroon_id": "complex-stellingen-reeks-uitzondering",
+      "vermoedelijke_concepten": ["onafhankelijkheid-accountant", "mandaatverbod", "verzekeringsmakelaar", "bestuursmandaat"],
+      "examen_specifieke_notities": "5 stellingen onafhankelijkheid: verzekeringsmakelaar, kredietmakelaar, bestuursmandaat na rechterlijke beslissing, onafhankelijk bestuurder, patrimoniumvennootschap. Elke stelling test een specifiek onafhankelijkheidsverbod of -uitzondering."
+    },
+    {
+      "vraag_id": "2013-1-vr36",
+      "vraagvorm_id": "vraagvorm-jf-reeks-stellingen",
+      "complexiteitspatroon_id": "complex-feiten-geen-camouflage",
+      "vermoedelijke_concepten": ["publiciteitsregels-accountant"],
+      "examen_specifieke_notities": "4 stellingen over publiciteitsregels voor accountants. Kennisreproductie van de deontologische beperkingen op reclame."
+    },
+    {
+      "vraag_id": "2013-1-vr37",
+      "vraagvorm_id": "vraagvorm-mc-aankruisen",
+      "complexiteitspatroon_id": "complex-procedure-rol-bevoegdheid",
+      "vermoedelijke_concepten": ["verslag-vereffening-omvorming", "termijn-kopie-itaa"],
+      "examen_specifieke_notities": "2 MC: termijn kopie vereffening/omvormingsverslag aan ITAA. Procedurele termijnkennis."
+    }
+  ]
+}

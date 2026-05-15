@@ -1,0 +1,88 @@
+{
+  "_provenance": {
+    "tool": "patroon-labeling-v1",
+    "model": "sonnet",
+    "run_at": "2026-05-15T00:00:00",
+    "versie": "20260515.1"
+  },
+  "examen_id": "2024-1",
+  "labels": [
+    {
+      "vraag_id": "2024-1-vr1",
+      "vraagvorm_id": "vraagvorm-mc-gemengd-meerdere-deelvragen",
+      "complexiteitspatroon_id": "complex-casus-multi-concept",
+      "vermoedelijke_concepten": ["wvv-liquidatietest", "quasi-inbreng-nv", "verlies-rechtspersoonlijkheid", "uittreding-uitsluiting-aandeelhouder"],
+      "examen_specifieke_notities": "4 onafhankelijke deelvragen per vraagnummer 1: (A) liquidatietest bij BVBA→BV-overgang; (B) wie kan quasi inbreng in NV doen; (C) MC tijdstip verlies rechtspersoonlijkheid; (D) MC rechtsvormen uittreding/uitsluiting. Elk deelvraag test een ander WVV-concept."
+    },
+    {
+      "vraag_id": "2024-1-vr2",
+      "vraagvorm_id": "vraagvorm-mc-gemengd-meerdere-deelvragen",
+      "complexiteitspatroon_id": "complex-casus-multi-concept",
+      "vermoedelijke_concepten": ["onafhankelijkheid-controleopdracht", "materialiteitsdrempel-bepaling", "volkomen-controle-revisienormen"],
+      "examen_specifieke_notities": "5 deelvragen externe controle: (A) J/F onafhankelijkheid; (B) kennis verwerven na acceptatie; (C) volkomen controle; (D) 4 algemene stellingen J/F; (E) MC materialiteitsdrempel-bepaling. Breed spectrum externe controle-normen."
+    },
+    {
+      "vraag_id": "2024-1-vr3",
+      "vraagvorm_id": "vraagvorm-mc-gemengd-meerdere-deelvragen",
+      "complexiteitspatroon_id": "complex-tabel-classificeer",
+      "vermoedelijke_concepten": ["coso-model-risicotypes", "ic-doelstellingen-verkoopcyclus", "adviezen-verkoopcyclus"],
+      "examen_specifieke_notities": "4 IC-deelvragen: (A) adviezen bedrijfsleider over verkoopcyclus; (B) hoofddoelstelling IC in KMO; (C) MC COSO-risicoklassificatie (strategisch/informatie/operationeel/financieel); (D) tabel verkoopcyclus-doelstellingen. Combinatie advies + classificatie."
+    },
+    {
+      "vraag_id": "2024-1-vr4",
+      "vraagvorm_id": "vraagvorm-jf-reeks-stellingen",
+      "complexiteitspatroon_id": "complex-stellingen-reeks-uitzondering",
+      "vermoedelijke_concepten": ["ontbinding-vereffening-wvv", "omzetting-wvv", "authentieke-akte-bv"],
+      "examen_specifieke_notities": "3 blokken J/F over bijzondere mandaten: (A) 4 stellingen ontbinding CV/BV; (B) meerdere stellingen ontbinding/vereffening; (C) meerdere stellingen omzettingen. WVV-gericht: BV heeft andere regels dan vroegere BVBA."
+    },
+    {
+      "vraag_id": "2024-1-vr5",
+      "vraagvorm_id": "vraagvorm-mc-gemengd-meerdere-deelvragen",
+      "complexiteitspatroon_id": "complex-toepassing-verborgen-vereiste",
+      "vermoedelijke_concepten": ["meewerkend-echtgenoot-ministatuut", "onroerende-voorheffing-overstromingsperiode", "gemeubeld-onroerend-goed-aangifte", "progressief-tarief-beroepsinkomsten"],
+      "examen_specifieke_notities": "4 PB-deelvragen: (A) J/F forfaitaire kostenaftrek 5% meewerkende echtgenoot ministatuut; (B) onroerende voorheffing bij overstroming 6 maanden; (C) aangifte gemeubeld OG aan particulier (KI + huur); (D) welke beroepsinkomsten niet progressief belast. Verborgen vereiste bij (B): OV kan verminderd worden bij 3+ maanden leegstand NIET verhuren."
+    },
+    {
+      "vraag_id": "2024-1-vr6",
+      "vraagvorm_id": "vraagvorm-mc-gemengd-meerdere-deelvragen",
+      "complexiteitspatroon_id": "complex-stellingen-reeks-uitzondering",
+      "vermoedelijke_concepten": ["erelonen-accountant", "contantengrens-regeling", "ubo-register", "amlco-verplichtingen"],
+      "examen_specifieke_notities": "5 deontologie/AWW-deelvragen: (A) MC erelonen (welke stelling juist); (B) MC contantengrens (welke stelling fout); (C) openbaar register; (D) UBO-register wie; (E) J/F AMLCO-verplichtingen. Elk vereist kennis van een specifiek wettelijk regime. Typisch grensgeval: postkantoor-constructie voor contantengrens."
+    },
+    {
+      "vraag_id": "2024-1-vr7",
+      "vraagvorm_id": "vraagvorm-jf-reeks-stellingen",
+      "complexiteitspatroon_id": "complex-vergelijk-twee-situaties",
+      "vermoedelijke_concepten": ["ifrs-voorraadmethoden", "voorzichtigheidsprincipe-eu-richtlijn", "ias-ifrs-regels", "operationele-vs-financiele-leasing"],
+      "examen_specifieke_notities": "4 IFRS-blokken: (A) MC mogelijke voorraadmethoden IFRS (LIFO verboden onder IAS 2); (B) J/F voorzichtigheidsprincipe richtlijn 2013/34/EU; (C) J/F IAS-regels; (D) behandeling leasing. Vergelijking: IFRS vs. Belgische boekhoudnormen. LIFO is de klassieke valkuil."
+    },
+    {
+      "vraag_id": "2024-1-vr8",
+      "vraagvorm_id": "vraagvorm-mc-gemengd-meerdere-deelvragen",
+      "complexiteitspatroon_id": "complex-berekening-met-fiscale-keten",
+      "vermoedelijke_concepten": ["overdraagbare-fiscale-verliezen", "moeder-dochter-fusie-fiscaal", "verlaagd-tarief-vennb", "belastbare-basis-tantieme", "besmette-verworpen-uitgaven-dbi"],
+      "examen_specifieke_notities": "5 VennB-deelvragen: (A) stellingen overdraagbare verliezen; (B) berekening meerwaarde M-D fusie (Netto actief 100 - fiscale waarde participatie 20 = 80 meerwaarde); (C) verlaagd tarief 20% + voorafbetalingen VOF; (D) belastbare basis NV (100k - tantième 10k = 90k); (E) MC besmette VU voor DBI buiten EER. Moeilijkste vraag: keten bij (B)."
+    },
+    {
+      "vraag_id": "2024-1-vr9",
+      "vraagvorm_id": "vraagvorm-mc-gemengd-meerdere-deelvragen",
+      "complexiteitspatroon_id": "complex-procedure-rol-bevoegdheid",
+      "vermoedelijke_concepten": ["bericht-van-wijziging-termijn", "belastingplichtige-verlaat-belgie", "verjaring-nakende", "vraag-om-inlichtingen-antwoordtermijn", "bewaringsplicht-termijn"],
+      "examen_specifieke_notities": "5 fiscale procedure-deelvragen: procedurele termijnen, stappen bij vertrek uit België, reactie nakende verjaring, antwoordtermijn vraag om inlichtingen, bewaringsplicht. Breed-en-snel: elke deelvraag is een aparte kennistoets."
+    },
+    {
+      "vraag_id": "2024-1-vr10",
+      "vraagvorm_id": "vraagvorm-mc-gemengd-meerdere-deelvragen",
+      "complexiteitspatroon_id": "complex-vergelijk-twee-situaties",
+      "vermoedelijke_concepten": ["financiele-onafhankelijkheid-ratios", "n-dagenkrediet-verkort-schema", "passief-rangschikking-eisbaarheid", "ev-kort-model-nbb", "bruto-verkoopmarge-effect-afschrijving"],
+      "examen_specifieke_notities": "5 jaarrekeninganalyse-deelvragen: (A) stellingen financiële onafhankelijkheid; (B) ratio niet te berekenen op verkort schema (n-dagenkrediet klanten — geen omzetuitsplitsing); (C) rangschikking passief (toenemende eisbaarheid); (D) EV berekening kort model; (E) MC effect verhoogde afschrijving op bruto verkoopmarge bij verlieslatende onderneming. (E) is een analyse-vraag: bruto VM wordt NIET beïnvloed door afschrijvingen (die zitten in brutomarge niet mee)."
+    },
+    {
+      "vraag_id": "2024-1-vr11",
+      "vraagvorm_id": "vraagvorm-mc-gemengd-meerdere-deelvragen",
+      "complexiteitspatroon_id": "complex-vergelijk-twee-situaties",
+      "vermoedelijke_concepten": ["btw-opeisbaarheid-dienst", "btw-margeregeling", "btw-vrijstellingsregeling-drempel", "vat-refund-procedure", "btw-tarief-glazenwassen-per-situatie"],
+      "examen_specifieke_notities": "5 BTW-deelvragen: (A) MC opeisbaarheid BTW dienst aan rentenier (factuur vóór betaling → opeisbaar bij factuur); (B) margeregeling aangifte; (C) vrijstellingsregeling per activiteit (omzetdrempel); (D) J/F VAT Refund; (E) BTW-tarief glazenwassen per situatie (BE BP/particulier/<10j/>10j/EU-BP). (E) is een vergelijkingsvraag: elk geval heeft ander tarief."
+    }
+  ]
+}
