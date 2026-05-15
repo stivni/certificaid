@@ -236,7 +236,10 @@ Bij **bron-update** (chunk-content-hash verandert) → `mark_stale.py` walkt blo
 |---|---|---|---|
 | **Anchors** | `data/extractie/<po>/anchors/<po>-anchors.json` | Permanent — gegit | curatie-artefact |
 | **Matches** | `data/extractie/<po>/matches/<po>-matches.json` | Ephemeral — kan in gitignore | reproduceerbaar |
-| **Bundle exports** | `data/extractie/<po>/bundles/<po>-<anchor-id>.json` | Ephemeral — input voor LLM-pass | wegwerpbaar |
+| **Bundle exports (fase B)** | `data/extractie/<po>/bundles/<po>-<anchor-id>.json` | Permanent — LLM-input-snapshot voor extract | gegit |
+| **VERIFY-run payloads** | `data/extractie/<po>/verify-runs/{records,anchors,examen_vragen}-*.json` | Ephemeral — gitignored, reproduceerbaar | wegwerpbaar |
+| **ENRICH-run bundles** | `data/extractie/<po>/enrich-runs/bundle-*.json` | Ephemeral — gitignored, reproduceerbaar uit anchor-bundles + record-state | wegwerpbaar |
+| **VERIFY/ENRICH-instructies + rapporten** | `data/extractie/<po>/{verify,enrich}-runs/{instructies,rapport}-*.md` | Permanent — gegit voor traceability | curatie-artefact |
 | **Concept-records** | `data/concept_records/<id>.json` | Permanent — duurzame kennislaag, **gegit** (sinds 2026-05-15, vereist voor `auto_merge.py` git-diff) | authoritative |
 | **Concept-records archief** | `data/concept_records/_archive/<po-versie>/` | Permanent lokaal, **gitignored** (alleen voor lokale traceability bij grote schema-overgangen) | historisch |
 

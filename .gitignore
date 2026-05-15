@@ -47,8 +47,13 @@ data/concept_records/_archive/
 data/cases/
 data/relations.json
 
-# Extractie-output: vermoedens worden WEL getracked (curatie-artefact, niet auto-herbouwbaar)
-# data/extractie/ is dus NIET geignoreerd
+# Extractie-output: rapporten, instructies, anchors en bundles worden gegit;
+# run-specifieke payload-copies (verify-runs en enrich-runs bundles) niet —
+# die zijn reproduceerbaar uit anchors + record-state.
+data/extractie/*/verify-runs/records-*.json
+data/extractie/*/verify-runs/anchors-*.json
+data/extractie/*/verify-runs/examen_vragen-*.json
+data/extractie/*/enrich-runs/bundle-*.json
 
 # Python virtual envs
 venv/
