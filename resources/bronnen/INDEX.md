@@ -9,9 +9,9 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
 | Wetteksten | 187 | 118 | 60 | 9 | — | — |
-| Normen | 18 | 13 | 4 | 1 | — | — |
+| Normen | 55 | 13 | 41 | 1 | — | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **641** | 553 | 64 | 24 | — | — |
+| **Totaal** | **678** | 553 | 101 | 24 | — | — |
 
 ## Wetteksten (187)
 
@@ -210,11 +210,48 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 [^WBTW-KB41-proportionele-geldboeten.md]: `WBTW-KB41-proportionele-geldboeten.md` — Bijlage met TABEL A-J (boete-percentages) heeft 2-koloms kolom-bleed uit Fisconet-compilatie — overtreding-beschrijving en boete-percentage staan gemerged op één regel. Brontekst is wel volledig aanwezig maar tabel-structuur is niet als markdown pipe-tabel reconstrueerbaar zonder OCR of individuele JUSTEL-PDF.
 [^WBTW-KB44-geldboeten.md]: `WBTW-KB44-geldboeten.md` — Bijlage met boete-tabel heeft 2-koloms kolom-bleed uit Fisconet-compilatie — overtreding-beschrijving en boete-bedrag staan gemerged op één regel. Brontekst is wel volledig aanwezig maar tabel-structuur is niet als markdown pipe-tabel reconstrueerbaar zonder OCR of individuele JUSTEL-PDF.
 
-## Normen (18)
+## Normen (55)
 
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
 | `IESBA-code-of-ethics-2024.md` | ⚠️ needs-rework | fail | needs-rework | subagent-sonnet-4-6 | IESBA-code-of-ethics-2024 |
+| `ISA-200.md` | ◻️ unreviewed ⚠️[^ISA-200.md] | — | — | — | ISA 200 — Algehele doelstellingen van de onafhankelijke auditor en het uitvoeren van ee… |
+| `ISA-210.md` | ◻️ unreviewed ⚠️[^ISA-210.md] | — | — | — | ISA 210 — Overeenkomen van de voorwaarden van controleopdrachten |
+| `ISA-220-herzien.md` | ◻️ unreviewed ⚠️[^ISA-220-herzien.md] | — | — | — | ISA 220 (herzien) — Kwaliteitsmanagement voor een controle van financiële overzichten |
+| `ISA-230.md` | ◻️ unreviewed ⚠️[^ISA-230.md] | — | — | — | ISA 230 — Controledocumentatie |
+| `ISA-240.md` | ◻️ unreviewed ⚠️[^ISA-240.md] | — | — | — | ISA 240 — De verantwoordelijkheden van de auditor met betrekking tot fraude in het kade… |
+| `ISA-250-herzien.md` | ◻️ unreviewed ⚠️[^ISA-250-herzien.md] | — | — | — | ISA 250 (herzien) — Het in aanmerking nemen van wet- en regelgeving bij een controle va… |
+| `ISA-260-herzien.md` | ◻️ unreviewed ⚠️[^ISA-260-herzien.md] | — | — | — | ISA 260 (herzien) — Communicatie met de met governance belaste personen |
+| `ISA-265.md` | ◻️ unreviewed ⚠️[^ISA-265.md] | — | — | — | ISA 265 — Het communiceren van tekortkomingen in de interne beheersing aan de met gover… |
+| `ISA-300.md` | ◻️ unreviewed ⚠️[^ISA-300.md] | — | — | — | ISA 300 — Planning van een controle van financiële overzichten |
+| `ISA-315-herzien-2019.md` | ◻️ unreviewed ⚠️[^ISA-315-herzien-2019.md] | — | — | — | ISA 315 (herzien-2019) — Risico's op een afwijking van materieel belang identificeren e… |
+| `ISA-320.md` | ◻️ unreviewed ⚠️[^ISA-320.md] | — | — | — | ISA 320 — Materialiteit bij de planning en uitvoering van een controle |
+| `ISA-330.md` | ◻️ unreviewed ⚠️[^ISA-330.md] | — | — | — | ISA 330 — Inspelen door de auditor op ingeschatte risico's |
+| `ISA-402.md` | ◻️ unreviewed ⚠️[^ISA-402.md] | — | — | — | ISA 402 — Overwegingen met betrekking tot controles van entiteiten die gebruikmaken van… |
+| `ISA-450.md` | ◻️ unreviewed ⚠️[^ISA-450.md] | — | — | — | ISA 450 — Evaluatie van tijdens de controle geïdentificeerde afwijkingen |
+| `ISA-500.md` | ◻️ unreviewed ⚠️[^ISA-500.md] | — | — | — | ISA 500 — Controle-informatie |
+| `ISA-501.md` | ◻️ unreviewed ⚠️[^ISA-501.md] | — | — | — | ISA 501 — Controle-informatie — Specifieke overwegingen voor geselecteerde elementen |
+| `ISA-505.md` | ◻️ unreviewed ⚠️[^ISA-505.md] | — | — | — | ISA 505 — Externe bevestigingen |
+| `ISA-510.md` | ◻️ unreviewed ⚠️[^ISA-510.md] | — | — | — | ISA 510 — Initiële controleopdrachten — Beginsaldi |
+| `ISA-520.md` | ◻️ unreviewed ⚠️[^ISA-520.md] | — | — | — | ISA 520 — Cijferanalyses |
+| `ISA-530.md` | ◻️ unreviewed ⚠️[^ISA-530.md] | — | — | — | ISA 530 — Het gebruiken van steekproeven bij een controle |
+| `ISA-540-herzien.md` | ◻️ unreviewed ⚠️[^ISA-540-herzien.md] | — | — | — | ISA 540 (herzien) — Het controleren van schattingen, met inbegrip van schattingen van r… |
+| `ISA-550.md` | ◻️ unreviewed ⚠️[^ISA-550.md] | — | — | — | ISA 550 — Verbonden partijen |
+| `ISA-560.md` | ◻️ unreviewed ⚠️[^ISA-560.md] | — | — | — | ISA 560 — Gebeurtenissen na de einddatum van de verslagperiode |
+| `ISA-570-herzien.md` | ◻️ unreviewed ⚠️[^ISA-570-herzien.md] | — | — | — | ISA-570-herzien |
+| `ISA-580.md` | ◻️ unreviewed ⚠️[^ISA-580.md] | — | — | — | ISA 580 — Schriftelijke bevestigingen |
+| `ISA-600.md` | ◻️ unreviewed ⚠️[^ISA-600.md] | — | — | — | ISA 600 — Bijzondere overwegingen — Controles van financiële overzichten van groepen (i… |
+| `ISA-610-herzien.md` | ◻️ unreviewed ⚠️[^ISA-610-herzien.md] | — | — | — | ISA 610 (herzien) — Gebruikmaken van de werkzaamheden van interne auditors |
+| `ISA-620.md` | ◻️ unreviewed ⚠️[^ISA-620.md] | — | — | — | ISA 620 — Gebruikmaken van de werkzaamheden van een door de auditor ingeschakelde desku… |
+| `ISA-700-herzien.md` | ◻️ unreviewed ⚠️[^ISA-700-herzien.md] | — | — | — | ISA 700 (herzien) — Het vormen van een oordeel en het rapporteren over financiële overz… |
+| `ISA-701.md` | ◻️ unreviewed ⚠️[^ISA-701.md] | — | — | — | ISA 701 — Het communiceren van kernpunten van de controle in de controleverklaring van … |
+| `ISA-705-herzien.md` | ◻️ unreviewed ⚠️[^ISA-705-herzien.md] | — | — | — | ISA 705 (herzien) — Aanpassingen van het oordeel in de controleverklaring van de onafha… |
+| `ISA-706-herzien.md` | ◻️ unreviewed ⚠️[^ISA-706-herzien.md] | — | — | — | ISA 706 (herzien) — Paragrafen ter benadrukking van bepaalde aangelegenheden en paragra… |
+| `ISA-710.md` | ◻️ unreviewed ⚠️[^ISA-710.md] | — | — | — | ISA 710 — Ter vergelijking opgenomen informatie — Overeenkomstige cijfers en vergelijke… |
+| `ISA-720-herzien.md` | ◻️ unreviewed ⚠️[^ISA-720-herzien.md] | — | — | — | ISA 720 (herzien) — De verantwoordelijkheden van de auditor met betrekking tot andere i… |
+| `ISA-800-herzien.md` | ◻️ unreviewed ⚠️[^ISA-800-herzien.md] | — | — | — | ISA 800 (herzien) — Bijzondere overwegingen — Controles van financiële overzichten die … |
+| `ISA-805-herzien.md` | ◻️ unreviewed ⚠️[^ISA-805-herzien.md] | — | — | — | ISA 805 (herzien) — Bijzondere overwegingen — Controles van enkelvoudige financiële ove… |
+| `ISA-810-herzien.md` | ◻️ unreviewed ⚠️[^ISA-810-herzien.md] | — | — | — | ISA 810 (herzien) — Opdrachten om te rapporteren betreffende samengevatte financiële ov… |
 | `ITAA-norm-aww-geconsolideerd.md` | ◻️ unreviewed | — | — | default | ITAA-norm-aww-geconsolideerd |
 | `ITAA-norm-effectennorm.md` | ◻️ unreviewed | — | — | default | ITAA-norm-effectennorm |
 | `ITAA-norm-gedragslijnen-relaties-IBR.md` | ◻️ unreviewed | — | — | default | ITAA-norm-gedragslijnen-relaties-IBR |
@@ -232,6 +269,46 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `ITAA-norm-opdrachtbrief.md` | ✅ trusted | — | — | human | ITAA-norm-opdrachtbrief |
 | `ITAA-norm-permanente-vorming.md` | ✅ trusted | — | — | human | ITAA-norm-permanente-vorming |
 | `ITAA-norm-samenstellingsopdrachten-isrs4410.md` | ✅ trusted | — | — | human | ITAA-norm-samenstellingsopdrachten-isrs4410 |
+
+**Caveats** (bekende beperkingen van trusted-bronnen):
+
+[^ISA-200.md]: `ISA-200.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-210.md]: `ISA-210.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-220-herzien.md]: `ISA-220-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-230.md]: `ISA-230.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-240.md]: `ISA-240.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-250-herzien.md]: `ISA-250-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-260-herzien.md]: `ISA-260-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-265.md]: `ISA-265.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-300.md]: `ISA-300.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-315-herzien-2019.md]: `ISA-315-herzien-2019.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-320.md]: `ISA-320.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-330.md]: `ISA-330.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-402.md]: `ISA-402.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-450.md]: `ISA-450.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-500.md]: `ISA-500.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-501.md]: `ISA-501.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-505.md]: `ISA-505.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-510.md]: `ISA-510.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-520.md]: `ISA-520.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-530.md]: `ISA-530.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-540-herzien.md]: `ISA-540-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-550.md]: `ISA-550.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-560.md]: `ISA-560.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-570-herzien.md]: `ISA-570-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-580.md]: `ISA-580.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-600.md]: `ISA-600.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-610-herzien.md]: `ISA-610-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-620.md]: `ISA-620.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-700-herzien.md]: `ISA-700-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-701.md]: `ISA-701.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-705-herzien.md]: `ISA-705-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-706-herzien.md]: `ISA-706-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-710.md]: `ISA-710.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-720-herzien.md]: `ISA-720-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-800-herzien.md]: `ISA-800-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-805-herzien.md]: `ISA-805-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ISA-810-herzien.md]: `ISA-810-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
 
 ## Adviezen (436)
 

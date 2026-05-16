@@ -1,5 +1,5 @@
 {
-  "n_bronnen": 641,
+  "n_bronnen": 678,
   "bronnen": [
     {
       "bestand": "AVG-wet-2018.md",
@@ -3081,6 +3081,739 @@
       "trust_caveat": null,
       "layer1_status": "fail",
       "layer2_status": "needs-rework"
+    },
+    {
+      "bestand": "ISA-200.md",
+      "bron_rol": "norm",
+      "stem": "ISA-200",
+      "titel": "ISA 200 — Algehele doelstellingen van de onafhankelijke auditor en het uitvoeren van een controle overeenkomstig de ISAs",
+      "korte_naam": "ISA 200",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-210.md",
+      "bron_rol": "norm",
+      "stem": "ISA-210",
+      "titel": "ISA 210 — Overeenkomen van de voorwaarden van controleopdrachten",
+      "korte_naam": "ISA 210",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-220-herzien.md",
+      "bron_rol": "norm",
+      "stem": "ISA-220-herzien",
+      "titel": "ISA 220 (herzien) — Kwaliteitsmanagement voor een controle van financiële overzichten",
+      "korte_naam": "ISA 220 herzien",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-230.md",
+      "bron_rol": "norm",
+      "stem": "ISA-230",
+      "titel": "ISA 230 — Controledocumentatie",
+      "korte_naam": "ISA 230",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-240.md",
+      "bron_rol": "norm",
+      "stem": "ISA-240",
+      "titel": "ISA 240 — De verantwoordelijkheden van de auditor met betrekking tot fraude in het kader van een controle van financiële overzichten",
+      "korte_naam": "ISA 240",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-250-herzien.md",
+      "bron_rol": "norm",
+      "stem": "ISA-250-herzien",
+      "titel": "ISA 250 (herzien) — Het in aanmerking nemen van wet- en regelgeving bij een controle van financiële overzichten",
+      "korte_naam": "ISA 250 herzien",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-260-herzien.md",
+      "bron_rol": "norm",
+      "stem": "ISA-260-herzien",
+      "titel": "ISA 260 (herzien) — Communicatie met de met governance belaste personen",
+      "korte_naam": "ISA 260 herzien",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-265.md",
+      "bron_rol": "norm",
+      "stem": "ISA-265",
+      "titel": "ISA 265 — Het communiceren van tekortkomingen in de interne beheersing aan de met governance belaste personen en het management",
+      "korte_naam": "ISA 265",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-300.md",
+      "bron_rol": "norm",
+      "stem": "ISA-300",
+      "titel": "ISA 300 — Planning van een controle van financiële overzichten",
+      "korte_naam": "ISA 300",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-315-herzien-2019.md",
+      "bron_rol": "norm",
+      "stem": "ISA-315-herzien-2019",
+      "titel": "ISA 315 (herzien-2019) — Risico's op een afwijking van materieel belang identificeren en inschatten",
+      "korte_naam": "ISA 315 herzien 2019",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-320.md",
+      "bron_rol": "norm",
+      "stem": "ISA-320",
+      "titel": "ISA 320 — Materialiteit bij de planning en uitvoering van een controle",
+      "korte_naam": "ISA 320",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-330.md",
+      "bron_rol": "norm",
+      "stem": "ISA-330",
+      "titel": "ISA 330 — Inspelen door de auditor op ingeschatte risico's",
+      "korte_naam": "ISA 330",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-402.md",
+      "bron_rol": "norm",
+      "stem": "ISA-402",
+      "titel": "ISA 402 — Overwegingen met betrekking tot controles van entiteiten die gebruikmaken van een serviceorganisatie",
+      "korte_naam": "ISA 402",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-450.md",
+      "bron_rol": "norm",
+      "stem": "ISA-450",
+      "titel": "ISA 450 — Evaluatie van tijdens de controle geïdentificeerde afwijkingen",
+      "korte_naam": "ISA 450",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-500.md",
+      "bron_rol": "norm",
+      "stem": "ISA-500",
+      "titel": "ISA 500 — Controle-informatie",
+      "korte_naam": "ISA 500",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-501.md",
+      "bron_rol": "norm",
+      "stem": "ISA-501",
+      "titel": "ISA 501 — Controle-informatie — Specifieke overwegingen voor geselecteerde elementen",
+      "korte_naam": "ISA 501",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-505.md",
+      "bron_rol": "norm",
+      "stem": "ISA-505",
+      "titel": "ISA 505 — Externe bevestigingen",
+      "korte_naam": "ISA 505",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-510.md",
+      "bron_rol": "norm",
+      "stem": "ISA-510",
+      "titel": "ISA 510 — Initiële controleopdrachten — Beginsaldi",
+      "korte_naam": "ISA 510",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-520.md",
+      "bron_rol": "norm",
+      "stem": "ISA-520",
+      "titel": "ISA 520 — Cijferanalyses",
+      "korte_naam": "ISA 520",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-530.md",
+      "bron_rol": "norm",
+      "stem": "ISA-530",
+      "titel": "ISA 530 — Het gebruiken van steekproeven bij een controle",
+      "korte_naam": "ISA 530",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-540-herzien.md",
+      "bron_rol": "norm",
+      "stem": "ISA-540-herzien",
+      "titel": "ISA 540 (herzien) — Het controleren van schattingen, met inbegrip van schattingen van reële waarde, alsmede van de toelichtingen daarop",
+      "korte_naam": "ISA 540 herzien",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-550.md",
+      "bron_rol": "norm",
+      "stem": "ISA-550",
+      "titel": "ISA 550 — Verbonden partijen",
+      "korte_naam": "ISA 550",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-560.md",
+      "bron_rol": "norm",
+      "stem": "ISA-560",
+      "titel": "ISA 560 — Gebeurtenissen na de einddatum van de verslagperiode",
+      "korte_naam": "ISA 560",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-570-herzien.md",
+      "bron_rol": "norm",
+      "stem": "ISA-570-herzien",
+      "titel": "ISA-570-herzien",
+      "korte_naam": "ISA 570 herzien",
+      "tags": [],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-580.md",
+      "bron_rol": "norm",
+      "stem": "ISA-580",
+      "titel": "ISA 580 — Schriftelijke bevestigingen",
+      "korte_naam": "ISA 580",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-600.md",
+      "bron_rol": "norm",
+      "stem": "ISA-600",
+      "titel": "ISA 600 — Bijzondere overwegingen — Controles van financiële overzichten van groepen (inclusief de werkzaamheden van auditors van groepsonderdelen)",
+      "korte_naam": "ISA 600",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-610-herzien.md",
+      "bron_rol": "norm",
+      "stem": "ISA-610-herzien",
+      "titel": "ISA 610 (herzien) — Gebruikmaken van de werkzaamheden van interne auditors",
+      "korte_naam": "ISA 610 herzien",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-620.md",
+      "bron_rol": "norm",
+      "stem": "ISA-620",
+      "titel": "ISA 620 — Gebruikmaken van de werkzaamheden van een door de auditor ingeschakelde deskundige",
+      "korte_naam": "ISA 620",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-700-herzien.md",
+      "bron_rol": "norm",
+      "stem": "ISA-700-herzien",
+      "titel": "ISA 700 (herzien) — Het vormen van een oordeel en het rapporteren over financiële overzichten",
+      "korte_naam": "ISA 700 herzien",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-701.md",
+      "bron_rol": "norm",
+      "stem": "ISA-701",
+      "titel": "ISA 701 — Het communiceren van kernpunten van de controle in de controleverklaring van de onafhankelijke auditor",
+      "korte_naam": "ISA 701",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-705-herzien.md",
+      "bron_rol": "norm",
+      "stem": "ISA-705-herzien",
+      "titel": "ISA 705 (herzien) — Aanpassingen van het oordeel in de controleverklaring van de onafhankelijke auditor",
+      "korte_naam": "ISA 705 herzien",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-706-herzien.md",
+      "bron_rol": "norm",
+      "stem": "ISA-706-herzien",
+      "titel": "ISA 706 (herzien) — Paragrafen ter benadrukking van bepaalde aangelegenheden en paragrafen inzake overige aangelegenheden in de controleverklaring van de onafhankelijke auditor",
+      "korte_naam": "ISA 706 herzien",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-710.md",
+      "bron_rol": "norm",
+      "stem": "ISA-710",
+      "titel": "ISA 710 — Ter vergelijking opgenomen informatie — Overeenkomstige cijfers en vergelijkende financiële overzichten",
+      "korte_naam": "ISA 710",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-720-herzien.md",
+      "bron_rol": "norm",
+      "stem": "ISA-720-herzien",
+      "titel": "ISA 720 (herzien) — De verantwoordelijkheden van de auditor met betrekking tot andere informatie",
+      "korte_naam": "ISA 720 herzien",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-800-herzien.md",
+      "bron_rol": "norm",
+      "stem": "ISA-800-herzien",
+      "titel": "ISA 800 (herzien) — Bijzondere overwegingen — Controles van financiële overzichten die zijn opgesteld in overeenstemming met stelsels voor bijzondere doeleinden",
+      "korte_naam": "ISA 800 herzien",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-805-herzien.md",
+      "bron_rol": "norm",
+      "stem": "ISA-805-herzien",
+      "titel": "ISA 805 (herzien) — Bijzondere overwegingen — Controles van enkelvoudige financiële overzichten en specifieke elementen, rekeningen of posten van een financieel overzicht",
+      "korte_naam": "ISA 805 herzien",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "ISA-810-herzien.md",
+      "bron_rol": "norm",
+      "stem": "ISA-810-herzien",
+      "titel": "ISA 810 (herzien) — Opdrachten om te rapporteren betreffende samengevatte financiële overzichten",
+      "korte_naam": "ISA 810 herzien",
+      "tags": [
+        "ISA",
+        "controle",
+        "audit",
+        "bedrijfsrevisor",
+        "po-1.6",
+        "po-1.7"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-deontologie-beroepsgeheim.md",
