@@ -1,7 +1,7 @@
 id: verwerken-wijziging-consolidatiekring
 titel: "Verwerken van een wijziging in de consolidatiekring (inclusief step acquisition)"
 status: voorgesteld
-schema_version: "1.0"
+schema_version: "1.1"
 programmaonderdelen: [1.4]
 voortkomend_uit:
   taken: [1.4.taak.1]
@@ -16,71 +16,206 @@ gebaseerd_op_concepten:
 procedure_grondslag:
   wettelijk_pct: 75
   praktijk_pct: 25
-  motivering: "De verwerking is grotendeels wettelijk (KB WVV art. 3:127-3:132 voor eerste consolidatie en realisaties), maar de behandeling van kantelpunten tussen technieken (vermogensmutatie ↔ integrale/evenredige consolidatie) en transacties onder gemeenschappelijke leiding vergt doctrinair inzicht (CBN-adviezen)."
+  motivering: "De verwerking is grotendeels wettelijk (KB WVV art. 3:127-3:132 voor eerste consolidatie en realisaties). De behandeling van kantelpunten tussen technieken (vermogensmutatie ↔ integrale of evenredige consolidatie) en transacties onder gemeenschappelijke leiding vergt doctrinair inzicht (CBN-adviezen)."
 stappen:
   - nr: 1
     titel: "Identificeren van de aard van de wijziging"
-    input: "Wijzigingen in de groep tussen twee opeenvolgende boekjaren: verwerving, vervreemding, liquidatie, verhoging/verlaging van belang, wijziging in mate van controle, kringintegratie van voorheen uitgesloten dochter"
-    output: "Eén van de typen: (a) opname nieuwe dochter (eerste consolidatie); (b) uittrede dochter (de-consolidatie); (c) step acquisition met kwalificatiewijziging; (d) wijziging tussen gezamenlijke en exclusieve controle; (e) transactie onder gemeenschappelijke leiding"
+    wat: "Bepaal welk type wijziging zich tussen twee boekjaren heeft voorgedaan in de groep."
     waarom: "De aard van de wijziging bepaalt welk specifiek verwerkingsregime van toepassing is."
-    grondslag:
-      type: concept
-      ref: "[[wijziging-consolidatiekring]]"
+    input:
+      - artefact: "Wijzigingsoverzicht groep boekjaar t versus t-1"
+        veld: "Verwervingen, vervreemdingen, liquidaties, belang-aanpassingen"
+        type: "document"
+    output:
+      - artefact: "Werkpapier wijziging consolidatiekring"
+        veld: "Type wijziging per entiteit"
+        type: "conclusie"
+    hoe: |
+      1. Maak een verschillenanalyse tussen de consolidatiekring van vorig boekjaar en die van het huidig boekjaar.
+      2. Identificeer per entiteit het type wijziging:
+         (a) Nieuwe dochter (eerste consolidatie).
+         (b) Uittrede dochter (de-consolidatie).
+         (c) Step acquisition met kwalificatiewijziging (bv. Antwerpse Investments NV verhoogt belang in Drukkerij Dendermonde BV van 25 % naar 60 %).
+         (d) Wijziging tussen gezamenlijke en exclusieve controle.
+         (e) Transactie onder gemeenschappelijke leiding (interne herstructurering).
+      3. Documenteer per wijziging: aard, datum, betrokken percentages.
+    grondslag: "[[wijziging-consolidatiekring]] §typologie"
   - nr: 2
-    titel: "Toetsen van kwalificatiewijziging bij belangsverhoging"
-    input: "Belangenpercentage en controlepercentage voor en na de transactie; aandeelhoudersovereenkomsten"
-    output: "Per trap: bevestiging of de kwalificatie wijzigt — (a) van geen invloed naar invloed van betekenis; (b) van invloed van betekenis naar controle; (c) verhoging binnen dezelfde categorie"
-    waarom: "Een kwalificatiewijziging triggert een wijziging van consolidatietechniek met bijhorende waarderingsgevolgen."
-    grondslag:
-      type: concept
-      ref: "[[step-acquisition]]"
+    titel: "Toetsen kwalificatiewijziging bij belangsverhoging"
+    wat: "Ga na of een belangsverhoging de kwalificatie wijzigt (van geen invloed naar invloed van betekenis, van invloed naar controle, ...)."
+    waarom: "Een kwalificatiewijziging triggert een wijziging van consolidatietechniek met waarderingsgevolgen."
+    input:
+      - artefact: "Belangenpercentage en controlepercentage voor en na transactie"
+        veld: "Percentages"
+        type: "percentage"
+      - artefact: "Aandeelhoudersovereenkomsten"
+        veld: "Wijziging van controle-rechten"
+        type: "document"
+    output:
+      - artefact: "Werkpapier kwalificatiewijziging"
+        veld: "Per trap: wijzigt kwalificatie ja/nee + nieuwe kwalificatie"
+        type: "conclusie"
+    hoe: |
+      1. Voor elke trap (bv. Antwerpse Investments NV verhoogt van 25 % naar 60 % in Drukkerij Dendermonde BV): noteer belangenpercentage en controlepercentage voor en na.
+      2. Volg [[kwalificeren-relatie-deelneming]] §toetsing-controle voor de nieuwe kwalificatie.
+      3. Bepaal of de kwalificatie wijzigt:
+         - Van geen invloed naar invloed van betekenis (drempel ≥ 20 %)?
+         - Van invloed van betekenis naar controle (drempel > 50 %)?
+         - Verhoging binnen dezelfde categorie?
+      4. Wijziging bevestigd → ga naar stap 4 (kantelpunt-procedure).
+    grondslag: "[[step-acquisition]] §kwalificatiewijziging"
   - nr: 3
-    titel: "Verwerken van een eerste consolidatie bij opname van een nieuwe dochter of geassocieerde"
-    input: "Aanschaffingswaarde, eigen vermogen op verwervingsdatum, stille meer-/minderwaarden"
-    output: "Toepassing van de procedure voor eerste consolidatie (zie [[competenties/uitvoeren-eerste-consolidatie|uitvoeren eerste consolidatie]]): compensatie, toerekening verschil, boeking consolidatieverschil, afschrijvingsplan"
-    waarom: "Elke nieuwe opname in de kring vereist een eerste consolidatie met berekening van het consolidatieverschil."
-    grondslag:
-      type: concept
-      ref: "[[eerste-consolidatie]]"
+    titel: "Verwerken eerste consolidatie bij opname van een nieuwe entiteit"
+    wat: "Voer een eerste consolidatie uit voor elke nieuw opgenomen dochter of geassocieerde."
+    waarom: "Elke nieuwe opname in de kring vereist een eerste consolidatie met berekening van consolidatieverschil."
+    input:
+      - artefact: "Aandelenkoopovereenkomst, balans dochter op verwervingsdatum"
+        veld: "Aanschaffingswaarde, eigen vermogen, stille meer- of minderwaarden"
+        type: "boekhoudkundig-bedrag"
+    output:
+      - artefact: "Werkpapier eerste consolidatie"
+        veld: "Compensatie, toerekening, residueel verschil, afschrijvingsplan"
+        type: "boekingsregel"
+    hoe: |
+      1. Volg de procedure uit [[uitvoeren-eerste-consolidatie]] §stappen-1-tot-5 voor de nieuwe entiteit.
+      2. Sluit aan op de gekozen techniek (integrale, evenredige of vermogensmutatie — uit [[kiezen-consolidatiemethode]]).
+      3. Documenteer in werkpapier: aanschaffingswaarde, pro-rata aandeel, toerekening aan posten, residueel consolidatieverschil, afschrijvingsplan.
+    grondslag: "[[eerste-consolidatie]] §procedure, KB WVV art. 3:127-3:131"
   - nr: 4
-    titel: "Verwerken van een kantelpunt vermogensmutatie → integrale/evenredige consolidatie"
-    input: "Bestaande boekwaarde van de deelneming (post 'Vennootschappen waarop vermogensmutatie is toegepast' + bestaand consolidatieverschil); aanvullende aanschaffingswaarde; eigen vermogen op datum van de nieuwe trap"
-    output: "Verlaten van vermogensmutatie; start integrale (of evenredige) consolidatie; herwaardering bestaande boekwaarde en herberekening consolidatieverschil; activa en passiva van de nieuwe dochter worden voortaan volledig (of pro-rata) opgenomen"
-    waarom: "Bij overschrijding van de controlegrens (of overgang naar gezamenlijke controle) volstaat vermogensmutatie niet meer; de techniek kantelt."
-    grondslag:
-      type: concept
-      ref: "[[step-acquisition]]"
+    titel: "Verwerken kantelpunt vermogensmutatie naar integrale of evenredige consolidatie"
+    wat: "Bij overschrijding van de controlegrens: verlaat de vermogensmutatie en start integrale (of evenredige) consolidatie."
+    waarom: "Bij overgang naar controle volstaat vermogensmutatie niet meer; de techniek kantelt en het consolidatieverschil moet worden herberekend."
+    input:
+      - artefact: "Boekwaarde deelneming voor de nieuwe trap"
+        veld: "Post 'Vennootschappen waarop vermogensmutatie is toegepast' + bestaand consolidatieverschil"
+        type: "boekhoudkundig-bedrag"
+      - artefact: "Aandelenkoopovereenkomst nieuwe trap"
+        veld: "Aanvullende aanschaffingswaarde"
+        type: "boekhoudkundig-bedrag"
+      - artefact: "Balans dochter op datum van nieuwe trap"
+        veld: "Eigen vermogen"
+        type: "boekhoudkundig-bedrag"
+    output:
+      - artefact: "Geconsolideerde balans + werkpapier"
+        veld: "Volledige opname activa/passiva + nieuw consolidatieverschil + aandeel van derden"
+        type: "nieuwe-balanspost"
+    hoe: |
+      1. Verlaat de vermogensmutatie: de post 'Vennootschappen waarop vermogensmutatie is toegepast' wordt afgeboekt.
+      2. Herwaardeer het bestaande consolidatieverschil op datum van de nieuwe trap.
+      3. Voer een nieuwe eerste consolidatie uit: tel beide aanschaffingswaarden samen (oude trap + nieuwe trap), trek het pro-rata aandeel in eigen vermogen op datum van nieuwe trap af.
+      4. Reken het verschil toe aan onder- of overgewaardeerde posten; boek het residu als nieuw consolidatieverschil.
+      5. Vanaf nu: integrale (of evenredige) consolidatie met afzondering van aandeel van derden voor het deel dat aan andere aandeelhouders toebehoort.
+    voorbeeld:
+      scenario: "Antwerpse Investments NV bezat sinds 20X0 een belang van 25 % in Drukkerij Dendermonde BV (geassocieerde, vermogensmutatie). Op 1 juli 20X1 koopt Antwerpse extra aandelen tot 60 %. Op die datum: eigen vermogen Drukkerij Dendermonde = 800."
+      substappen:
+        - nr: 1
+          titel: "Berekening pro-rata aandeel op datum van trap 2"
+          type: "berekening"
+          data: |
+            pro-rata aandeel Antwerpse na trap 2 = belangenpercentage × eigen vermogen Drukkerij Dendermonde
+                                                  = 60 % × 800
+                                                  = **480**
+        - nr: 2
+          titel: "Toewijzing nieuwe techniek"
+          type: "opmerking"
+          data: |
+            Kwalificatiewijziging: invloed van betekenis (25 %) → exclusieve controle (60 %).
+            Vermogensmutatie wordt verlaten. Integrale consolidatie start vanaf 1 juli 20X1.
+        - nr: 3
+          titel: "Aandeel van derden bij integrale consolidatie"
+          type: "berekening"
+          data: |
+            aandeel van derden in EV Drukkerij Dendermonde = (1 − 60 %) × 800
+                                                            = 40 % × 800
+                                                            = **320** (passiefzijde)
+        - nr: 4
+          titel: "Effect op consolidatieverschil"
+          type: "opmerking"
+          data: |
+            Het bestaande consolidatieverschil uit de eerste trap (25 %, vermogensmutatie) wordt geherwaardeerd. Een nieuw consolidatieverschil wordt berekend op basis van de gecombineerde aanschaffingswaarde en het pro-rata aandeel op datum van de nieuwe trap.
     valkuilen:
-      - foute_aanname: "Bij overgang van vermogensmutatie naar integrale consolidatie blijft het bestaande consolidatieverschil ongewijzigd."
-        correctie: "Het bestaande consolidatieverschil wordt geherwaardeerd en de activa/passiva van de nieuwe dochter worden volledig opgenomen — er ontstaat een nieuwe eerste consolidatie."
-        grondslag: "[[step-acquisition]]"
+      - advies: "Bij kanteling van techniek: het bestaande consolidatieverschil wordt geherwaardeerd, niet behouden."
+        vaak_fout: "Aannemen dat bij overgang van vermogensmutatie naar integrale consolidatie het oude consolidatieverschil ongewijzigd blijft."
+        grondslag: "[[step-acquisition]] §herwaardering-consolidatieverschil"
+    grondslag: "[[step-acquisition]] §kanteling-techniek, KB WVV art. 3:127 (analogische toepassing)"
   - nr: 5
-    titel: "Verwerken van een gehele of gedeeltelijke realisatie van aandelen"
-    input: "Aandelenverkoop; oorspronkelijk consolidatieverschil; deel van de aandelen dat is vervreemd"
-    output: "Afboeking van het overblijvende consolidatieverschil naar verhouding van de gerealiseerde aandelen (KB WVV art. 3:132); eventueel volledige de-consolidatie van de dochter"
-    waarom: "Bij realisatie verdwijnt de economische binding (geheel of gedeeltelijk) en moet het consolidatieverschil pro-rata worden afgeboekt."
-    grondslag:
-      type: concept
-      ref: "[[wijziging-consolidatiekring]]"
+    titel: "Verwerken gehele of gedeeltelijke realisatie van aandelen"
+    wat: "Bij verkoop van aandelen: boek het overblijvende consolidatieverschil af naar verhouding van de gerealiseerde aandelen."
+    waarom: "Bij realisatie verdwijnt de economische binding (geheel of gedeeltelijk). Het consolidatieverschil moet pro-rata worden afgeboekt."
+    input:
+      - artefact: "Verkoopovereenkomst"
+        veld: "Aantal verkochte aandelen + verkoopprijs"
+        type: "boekhoudkundig-bedrag"
+      - artefact: "Oorspronkelijk consolidatieverschil"
+        veld: "Bedrag"
+        type: "boekhoudkundig-bedrag"
+    output:
+      - artefact: "Geconsolideerde balans + resultatenrekening"
+        veld: "Afboeking consolidatieverschil + eventuele meer- of minderwaarde"
+        type: "boekingsregel"
+    hoe: |
+      1. Bepaal het percentage gerealiseerde aandelen ten opzichte van het oorspronkelijke belang (bv. Aurelia Holding NV verkoopt 30 % van haar 100 %-deelneming in Brugse Brouwerij BV).
+      2. Boek pro-rata afboeking van het oorspronkelijke consolidatieverschil: bv. 30 % × oorspronkelijk verschil.
+      3. Vergelijk de verkoopprijs met de boekwaarde van het verkochte deel (deelneming + pro-rata consolidatieverschil) → meer- of minderwaarde op de realisatie.
+      4. Indien Aurelia controle behoudt (bv. blijft op 70 %): Brugse blijft in de kring, maar voor 30 % wordt nu een aandeel van derden geboekt.
+      5. Indien Aurelia alle controle verliest: volledige de-consolidatie volgens [[wijziging-consolidatiekring]] §de-consolidatie.
+    voorbeeld:
+      scenario: "Aurelia Holding NV verkoopt 30 % van haar 100 %-dochter Brugse Brouwerij BV buiten de groep. Aurelia behoudt 70 %. Oorspronkelijk consolidatieverschil = 80."
+      substappen:
+        - nr: 1
+          titel: "Pro-rata afboeking consolidatieverschil"
+          type: "berekening"
+          data: |
+            afboeking = % gerealiseerde aandelen × oorspronkelijk consolidatieverschil
+                      = 30 % × 80
+                      = **24**
+        - nr: 2
+          titel: "Resterend consolidatieverschil + nieuw aandeel van derden"
+          type: "opmerking"
+          data: |
+            Resterend consolidatieverschil = 80 − 24 = 56.
+            Brugse blijft in de kring (Aurelia 70 % > 50 %, exclusieve controle behouden).
+            Nieuw aandeel van derden = 30 % × eigen vermogen Brugse op afsluitingsdatum.
+    grondslag: "[[wijziging-consolidatiekring]] §realisatie-aandelen, KB WVV art. 3:132"
   - nr: 6
     titel: "Verwerken van transacties onder gemeenschappelijke leiding"
-    input: "Overdracht van een dochter binnen dezelfde groep waarbij de uiteindelijke economische controle ongewijzigd blijft"
-    output: "Toepassing van de bijzondere regels: in beginsel geen nieuwe goodwill genereren; historische cijfers behouden — het economische karakter van de groep is niet gewijzigd"
+    wat: "Bij interne herstructurering waarbij de economische controle ongewijzigd blijft: behoud historische cijfers; genereer geen nieuwe goodwill."
     waarom: "Interne herstructureringen mogen het groepsbeeld niet kunstmatig wijzigen."
-    grondslag:
-      type: concept
-      ref: "[[wijziging-consolidatiekring]]"
+    input:
+      - artefact: "Beschrijving herstructurering"
+        veld: "Overdracht van dochter binnen de groep"
+        type: "document"
+    output:
+      - artefact: "Werkpapier herstructurering"
+        veld: "Behoud historische cijfers, geen nieuwe goodwill"
+        type: "conclusie"
+    hoe: |
+      1. Identificeer of de transactie plaatsvindt onder gemeenschappelijke leiding (bv. Aurelia Holding NV verkoopt Brugse Brouwerij BV aan een andere 100 %-dochter binnen de groep).
+      2. Toets aan CBN-doctrine over 'common control transactions': de uiteindelijke economische controle is ongewijzigd.
+      3. Behoud de historische cijfers van Brugse in de geconsolideerde jaarrekening — geen herwaardering, geen nieuwe goodwill.
+      4. Boek alleen reclassificatie tussen de betrokken interne entiteiten, geen impact op de geconsolideerde cijfers.
+    grondslag: "[[wijziging-consolidatiekring]] §common-control, CBN-advies common-control transactions"
 voorbeelden:
-  - situatie: "Onderneming ABC bezit 20 % in DEF (geassocieerde onderneming, vermogensmutatie). In een latere stap koopt ABC er aandelen bij tot 60 %. Op de datum van trap 2 bedroeg DEF's eigen vermogen 800."
-    conclusie: "Kantelpunt: DEF wordt voortaan integraal geconsolideerd. ABC verlaat de vermogensmutatie; het bestaande consolidatieverschil wordt geherwaardeerd en de activa/passiva van DEF worden volledig opgenomen, met afzondering van het aandeel van derden (1 − 0,60) × DEF's eigen vermogen."
-    grondslag: "[[step-acquisition]] §kantelpunt invloed → controle; [[integrale-consolidatie]] §opname 100 %"
-    redenering: "De controlegrens (> 50 %) wordt overschreden; de wijziging van consolidatietechniek triggert een nieuwe eerste consolidatie waarbij de bestaande post wordt herwaardeerd."
-  - situatie: "Onderneming X verkoopt 30 % van haar 100 %-dochter D buiten de groep; D blijft een dochter (70 % belang)."
-    conclusie: "Pro-rata afboeking van het oorspronkelijke consolidatieverschil naar verhouding van de gerealiseerde aandelen (30 %); D blijft in de consolidatiekring; voortaan wordt 30 % als belangen van derden opgenomen."
-    grondslag: "[[wijziging-consolidatiekring]] §realisatie aandelen; [[consolidatieverschil]] §afboeking pro-rata"
-    redenering: "Gedeeltelijke realisatie zonder verlies van controle: D blijft integraal geconsolideerd, maar het verkochte deel triggert pro-rata afboeking van consolidatieverschil en een nieuw aandeel van derden van 30 %."
+  - situatie: "Antwerpse Investments NV bezit sinds 20X0 een belang van 25 % in Drukkerij Dendermonde BV (geassocieerde, vermogensmutatie). Op 1 juli 20X1 koopt Antwerpse extra aandelen tot 60 %. Op datum van trap 2: eigen vermogen Drukkerij Dendermonde = 800."
+    conclusie: "Kantelpunt: Drukkerij Dendermonde wordt vanaf 1 juli 20X1 integraal geconsolideerd. Antwerpse verlaat de vermogensmutatie. Het bestaande consolidatieverschil wordt geherwaardeerd. Activa en passiva van Drukkerij Dendermonde worden volledig opgenomen. Aandeel van derden = (1 − 0,60) × 800 = 320."
+    grondslag: "[[step-acquisition]] §kantelpunt-invloed-naar-controle; [[integrale-consolidatie]] §100-procent-opname"
+    redenering: "De controlegrens (> 50 %) wordt overschreden. De wijziging van consolidatietechniek triggert een nieuwe eerste consolidatie waarbij de bestaande post wordt herwaardeerd."
+  - situatie: "Aurelia Holding NV verkoopt 30 % van haar 100 %-dochter Brugse Brouwerij BV buiten de groep. Brugse blijft een dochter (70 % belang). Oorspronkelijk consolidatieverschil = 80."
+    conclusie: "Pro-rata afboeking van het oorspronkelijke consolidatieverschil: 30 % × 80 = 24. Brugse blijft in de kring. Vanaf nu wordt 30 % als belangen van derden opgenomen."
+    grondslag: "[[wijziging-consolidatiekring]] §realisatie-aandelen; [[consolidatieverschil]] §afboeking-pro-rata"
+    redenering: "Gedeeltelijke realisatie zonder verlies van controle: Brugse blijft integraal geconsolideerd, maar het verkochte deel triggert pro-rata afboeking van consolidatieverschil en een nieuw aandeel van derden van 30 %."
 _provenance:
   voorgesteld_door: "competentie-destillatie-v1-competentie-run-20260515T183709Z"
   voorgesteld_op: "2026-05-15T18:37:09Z"
   gecureerd_door: null
   gecureerd_op: null
+  rewrite_naar_schema_1_1:
+    door: "competentie-deep-rewrite-2026-05-16"
+    op: "2026-05-16T00:00:00Z"
+    velden_gewijzigd:
+      - "stappen[*].wat (nieuw)"
+      - "stappen[*].hoe (nieuw)"
+      - "stappen[*].input/output gestructureerd (artefact/veld/type)"
+      - "stappen[*].voorbeeld.substappen (nieuw bij stap 4 en 5 — berekeningen + opmerkingen voor step-acquisition en pro-rata afboeking)"
+      - "valkuilen[*]: correctie → advies, foute_aanname → vaak_fout"
+      - "tekstvelden: stagiair-toon, cast-namen (Antwerpse/Drukkerij Dendermonde voor step-acquisition + Aurelia/Brugse voor realisatie)"

@@ -1,7 +1,7 @@
 id: berekenen-controle-en-belangenpercentage
 titel: Berekenen van controle- en belangenpercentage in een ketenstructuur
 status: voorgesteld
-schema_version: '1.0'
+schema_version: "1.1"
 programmaonderdelen:
 - 1.4
 voortkomend_uit:
@@ -19,82 +19,157 @@ gebaseerd_op_concepten:
 procedure_grondslag:
   wettelijk_pct: 60
   praktijk_pct: 40
-  motivering: De definities en de drempel (> 50 %) zijn wettelijk; de rekenregels in ketens (controle-% niet vermenigvuldigen,
-    belangen-% wél vermenigvuldigen) zijn praktijkconventies die in de CBN-doctrine en KB WVV-toepassing worden gehanteerd.
+  motivering: De definities en de drempel (> 50 %) zijn wettelijk. De rekenregels in ketens (controle-% niet vermenigvuldigen, belangen-% wél) zijn praktijkconventies die in de CBN-doctrine en KB WVV-toepassing worden gehanteerd.
 stappen:
 - nr: 1
   titel: Tekenen van de aandeelhoudersketen
-  input: Aandeelhouderslijst per vennootschap in de groep, met stemrechtpercentage per directe deelneming
-  output: Schema van directe deelnemingen tussen alle relevante entiteiten (M → A → B → ...)
-  waarom: Een correcte berekening vereist een visueel of tabellarisch overzicht van alle schakels.
-  grondslag:
-    type: praktijk
-    motivering: Werkmethodologische voorbereiding — geen aparte wettelijke regel.
+  wat: Maak een visueel schema van wie wie controleert in de groep, met stemrechtpercentage per schakel.
+  waarom: Zonder schema is een correcte ketenberekening niet mogelijk.
+  input:
+  - artefact: Aandeelhoudersregister per vennootschap
+    veld: Stemrechtpercentage per directe deelneming
+    type: percentage
+  output:
+  - artefact: Werkpapier ketenstructuur
+    veld: Schema van directe deelnemingen
+    type: document
+  hoe: |
+    1. Lijst alle vennootschappen in de groep (bv. Aurelia Holding NV, Brugse Brouwerij BV, Cardinal Group NV).
+    2. Teken per vennootschap een blok. Trek pijlen van moeder naar dochter met het stemrechtpercentage erbij (bv. Aurelia → 80 % → Brugse → 60 % → Cardinal).
+    3. Verifieer of elke schakel volledig is: ontbreken er aandeelhouders, dan kun je geen sluitende berekening maken.
+    4. Hou het schema bij de hand voor stappen 2 en 3.
+  grondslag: "[[controlepercentage]] §voorbereiding (praktijk)"
 - nr: 2
   titel: Berekenen van het controlepercentage in elke schakel
-  input: Stemrechtpercentages per directe deelneming
-  output: 'Per schakel: controlepercentage = direct gehouden stemrechten + stemrechten die de moeder indirect controleert
-    via dochters die zelf exclusieve controle hebben (NIET vermenigvuldigen)'
-  waarom: Zodra elke tussenschakel exclusieve controle heeft, telt het volledige stemrechtpercentage van de onderste schakel
-    mee als 'gecontroleerd door de moeder'.
-  grondslag:
-    type: concept
-    ref: '[[controlepercentage]]'
+  wat: Bepaal per dochter het percentage stemrechten dat de moeder direct of indirect via gecontroleerde tussenschakels uitoefent.
+  waarom: Het controlepercentage bepaalt of er exclusieve controle is en dus consolidatieplicht.
+  input:
+  - artefact: Werkpapier ketenstructuur
+    veld: Stemrechtpercentage per schakel
+    type: percentage
+  output:
+  - artefact: Werkpapier per dochter
+    veld: Controlepercentage moeder
+    type: percentage
+  hoe: |
+    1. Voor de directe dochter (Brugse): controlepercentage = direct gehouden stemrechten Aurelia in Brugse (80 %).
+    2. Voor een kleindochter (Cardinal): toets eerst of Aurelia exclusieve controle heeft over Brugse (80 % > 50 % → ja).
+    3. Heeft elke tussenschakel exclusieve controle, dan telt het volledige stemrechtpercentage van de onderste schakel mee. Controle Aurelia in Cardinal = 60 % (NIET 80 % × 60 %).
+    4. Pas op: zodra één schakel geen exclusieve controle heeft, breekt de keten — zie [[exclusieve-controle]] §keten-breuk.
+  voorbeeld:
+    scenario: "Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV. Brugse bezit 60 % stemrechten in Cardinal Group NV. In elke schakel: exclusieve controle in rechte."
+    substappen:
+    - nr: 1
+      titel: Schema van de keten
+      type: flowchart
+      data: |
+        Aurelia Holding NV — 80 % stemrechten → Brugse Brouwerij BV — 60 % stemrechten → Cardinal Group NV
+    - nr: 2
+      titel: Berekening controlepercentage Aurelia in Cardinal
+      type: berekening
+      data: |
+        Stap a: heeft Aurelia exclusieve controle over Brugse? 80 % > 50 % → ja.
+        Stap b: Brugse bezit 60 % in Cardinal → exclusieve controle over Cardinal.
+        Stap c: controlepercentage Aurelia in Cardinal = 60 % (niet vermenigvuldigen — elke schakel heeft exclusieve controle, dus het volledige stemrechtpercentage van de onderste schakel telt mee).
   valkuilen:
-  - foute_aanname: Het controlepercentage wordt zoals het belangenpercentage vermenigvuldigd langs de keten.
-    correctie: 'Het controlepercentage wordt NIET vermenigvuldigd: zolang elke schakel exclusieve controle heeft, telt het
-      stemrechtpercentage van de onderste schakel volledig mee voor de moeder.'
-    grondslag: '[[controlepercentage]]'
+  - advies: Het controlepercentage wordt NIET vermenigvuldigd langs de keten.
+    vaak_fout: Controlepercentage doorheen de keten vermenigvuldigen, zoals het belangenpercentage.
+    grondslag: "[[controlepercentage]] §rekenregel-keten"
+  grondslag: "[[controlepercentage]] §berekening, WVV art. 1:14 e.v."
 - nr: 3
   titel: Berekenen van het belangenpercentage in elke schakel
-  input: Belangenpercentages per directe deelneming (economisch eigendomsaandeel)
-  output: 'Per schakel: belangenpercentage = product van de belangenpercentages langs de keten (M → 80 % A → 60 % B = 0,80
-    × 0,60 = 48 %)'
-  waarom: Het economische eigendomsaandeel verdunt door tussenliggende derden en moet daarom worden vermenigvuldigd.
-  grondslag:
-    type: concept
-    ref: '[[belangenpercentage]]'
+  wat: Bepaal het economische eigendomsaandeel van de moeder in elke vennootschap door de belangenpercentages langs de keten te vermenigvuldigen.
+  waarom: Het belangenpercentage bepaalt het pro-rata aandeel in eigen vermogen, resultaat en consolidatieverschil.
+  input:
+  - artefact: Werkpapier ketenstructuur
+    veld: Belangenpercentage per directe deelneming
+    type: percentage
+  output:
+  - artefact: Werkpapier per dochter
+    veld: Belangenpercentage moeder
+    type: percentage
+  hoe: |
+    1. Voor de directe dochter: belangenpercentage = direct gehouden aandeel (Aurelia in Brugse = 80 %).
+    2. Voor een kleindochter: vermenigvuldig de belangenpercentages doorheen de keten. Belangenpercentage Aurelia in Cardinal = 80 % × 60 % = 48 %.
+    3. Het economische eigendomsaandeel verdunt door tussenliggende derden. Cardinal hoort voor 48 % economisch toe aan Aurelia, voor 52 % aan derden.
+    4. Gebruik dit getal in de berekening van aandeel van derden bij integrale consolidatie (zie [[uitvoeren-intragroep-eliminaties]] stap 7).
+  voorbeeld:
+    scenario: "Zelfde keten als stap 2: Aurelia 80 % → Brugse 60 % → Cardinal."
+    substappen:
+    - nr: 1
+      titel: Berekening belangenpercentage Aurelia in Cardinal
+      type: berekening
+      data: |
+        belangenpercentage Aurelia in Cardinal = belang Aurelia in Brugse × belang Brugse in Cardinal
+                                                = 80 % × 60 %
+                                                = **48 %**
+        Derden hebben dus 100 % − 48 % = **52 %** economisch belang in Cardinal.
   valkuilen:
-  - foute_aanname: Het belangenpercentage en het controlepercentage zijn altijd gelijk.
-    correctie: 'Ze kunnen verschillen: het belangenpercentage wordt vermenigvuldigd, het controlepercentage niet. Bij M →
-      80 % A → 60 % B is controle = 60 % (controle in elke schakel), belang = 48 %.'
-    grondslag: '[[belangenpercentage]]'
+  - advies: Belangenpercentage WEL vermenigvuldigen, controlepercentage NIET.
+    vaak_fout: Aannemen dat belangenpercentage en controlepercentage altijd gelijk zijn.
+    grondslag: "[[belangenpercentage]] §onderscheid-controle"
+  grondslag: "[[belangenpercentage]] §berekening-keten"
 - nr: 4
   titel: Toetsen of er in elke schakel exclusieve controle bestaat
-  input: 'Per schakel: controlepercentage > 50 % of andere onweerlegbare vermoedens'
-  output: 'Per schakel: bevestiging of breuk in de controle-keten (waardoor het ''volledig meetellen'' van de onderste schakel
-    niet meer geldt)'
-  waarom: Indien een schakel geen exclusieve controle heeft, breekt de keten en moet het controlepercentage van de moeder
-    over de onderste schakel opnieuw beoordeeld worden — vaak als geen-controle of als invloed van betekenis.
-  grondslag:
-    type: concept
-    ref: '[[exclusieve-controle]]'
+  wat: Ga schakel per schakel na of de tussenschakel exclusieve controle uitoefent.
+  waarom: Bij een breuk in de controle-keten geldt het 'volledig meetellen' niet meer en moet je opnieuw kwalificeren.
+  input:
+  - artefact: Werkpapier ketenstructuur
+    veld: Stemrechtpercentage en kwalitatieve aanwijzingen per schakel
+    type: document
+  output:
+  - artefact: Werkpapier per schakel
+    veld: Ja/nee exclusieve controle + gevolg voor keten
+    type: conclusie
+  hoe: |
+    1. Toets per schakel aan de criteria uit [[exclusieve-controle]] §controle-in-rechte en §controle-in-feite.
+    2. > 50 % stemrechten? → exclusieve controle in rechte.
+    3. ≤ 50 % stemrechten maar onweerlegbare vermoedens of controle-in-feite? → exclusieve controle toch.
+    4. Geen controle? → de keten breekt. Op die schakel begint een nieuwe kwalificatie (mogelijk gezamenlijke controle of invloed van betekenis).
+    5. Bij een breuk: stap 2 en 3 moeten opnieuw worden uitgevoerd vanaf het breukpunt.
+  grondslag: "[[exclusieve-controle]] §keten-breuk"
 - nr: 5
   titel: Toepassen van het belangenpercentage in de consolidatieverwerking
-  input: Belangenpercentage per dochter (eventueel pro-rata bij gemeenschappelijke dochter)
-  output: 'Berekeningsbasis voor: aandeel van derden (1 − belang%) bij integrale consolidatie; pro-rata opname (belang%) bij
-    evenredige consolidatie; pro-rata aandeel in eigen vermogen bij vermogensmutatie'
-  waarom: Het belangenpercentage is de rekenmaatstaf voor de bedragen die uiteindelijk in de geconsolideerde jaarrekening
-    verschijnen.
-  grondslag:
-    type: concept
-    ref: '[[belangenpercentage]]'
+  wat: Gebruik het belangenpercentage als rekenmaatstaf voor de bedragen in de geconsolideerde jaarrekening.
+  waarom: Het belangenpercentage is de basis voor aandeel van derden, pro-rata aandeel in eigen vermogen en pro-rata-opname bij evenredige consolidatie.
+  input:
+  - artefact: Belangenpercentage per dochter (uit stap 3)
+    veld: Percentage
+    type: percentage
+  - artefact: Cijfers van de dochter
+    veld: Eigen vermogen, resultaat, balansposten
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Geconsolideerde jaarrekening
+    veld: Aandeel van derden, pro-rata opname, pro-rata aandeel EV
+    type: nieuwe-balanspost
+  hoe: |
+    1. Bij integrale consolidatie: bereken aandeel van derden = (1 − belangenpercentage) × eigen vermogen dochter. Zie [[uitvoeren-intragroep-eliminaties]] stap 7.
+    2. Bij evenredige consolidatie: neem activa en passiva op voor belangenpercentage × bedrag dochter. Geen aandeel van derden.
+    3. Bij vermogensmutatie: bereken pro-rata aandeel in EV = belangenpercentage × eigen vermogen geassocieerde op aankoopdatum.
+    4. Documenteer de toegepaste rekenmaatstaf in het werkpapier.
+  grondslag: "[[belangenpercentage]] §toepassing, KB WVV art. 3:137 en 3:141"
 voorbeelden:
-- situatie: Vennootschap M bezit 80 % van vennootschap A; A bezit 60 % van vennootschap B. In elke schakel bezit de bovenliggende
-    vennootschap exclusieve controle in rechte (> 50 %).
-  conclusie: Controlepercentage van M in B = 60 % (NIET vermenigvuldigen — elke schakel heeft exclusieve controle, dus 60
-    % telt volledig mee voor M). Belangenpercentage van M in B = 0,80 × 0,60 = 48 %.
-  grondslag: '[[controlepercentage]] §keten; [[belangenpercentage]] §keten'
-  redenering: Controlepercentage en belangenpercentage volgen verschillende rekenregels; M consolideert B integraal omdat
-    zij via A exclusieve controle uitoefent, maar derden (52 %) wordt afgezonderd op basis van het belangenpercentage.
-- situatie: M bezit 90 % van dochter D. D heeft een industriële activiteit, D's eigen vermogen op afsluitingsdatum = 1.000.
-  conclusie: Belangenpercentage = 90 %; aandeel van derden = (1 − 0,90) × 1.000 = 100 (op de balans) en (1 − 0,90) × resultaat
-    D in de resultatenrekening.
-  grondslag: '[[belangenpercentage]] §berekening aandeel van derden; [[minderheidsbelangen]] §formule'
-  redenering: Bij integrale consolidatie wordt 100 % van D opgenomen; het complement van het belangenpercentage bepaalt het
-    deel dat als 'belangen van derden' wordt afgezonderd.
+- situatie: "Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV. Brugse bezit 60 % van Cardinal Group NV. In elke schakel: exclusieve controle in rechte (> 50 %)."
+  conclusie: "Controlepercentage Aurelia in Cardinal = 60 % (NIET vermenigvuldigen — elke schakel heeft exclusieve controle). Belangenpercentage Aurelia in Cardinal = 0,80 × 0,60 = 48 %."
+  grondslag: "[[controlepercentage]] §keten; [[belangenpercentage]] §keten"
+  redenering: Controlepercentage en belangenpercentage volgen verschillende rekenregels. Aurelia consolideert Cardinal integraal omdat zij via Brugse exclusieve controle uitoefent. Het aandeel van derden (52 %) wordt afgezonderd op basis van het belangenpercentage.
+- situatie: "Aurelia Holding NV bezit 90 % van Brugse Brouwerij BV. Brugse heeft een industriële activiteit. Eigen vermogen Brugse op afsluitingsdatum = 1.000."
+  conclusie: "Belangenpercentage Aurelia in Brugse = 90 %. Aandeel van derden = (1 − 0,90) × 1.000 = 100 (op de balans), en (1 − 0,90) × resultaat Brugse (resultatenrekening)."
+  grondslag: "[[belangenpercentage]] §berekening-aandeel-van-derden; [[minderheidsbelangen]] §formule"
+  redenering: Bij integrale consolidatie wordt 100 % van Brugse opgenomen. Het complement van het belangenpercentage bepaalt het deel dat als 'belangen van derden' wordt afgezonderd.
 _provenance:
   voorgesteld_door: competentie-destillatie-v1-competentie-run-20260515T183709Z
   voorgesteld_op: '2026-05-15T18:37:09Z'
   gecureerd_door: null
   gecureerd_op: null
+  rewrite_naar_schema_1_1:
+    door: competentie-deep-rewrite-2026-05-16
+    op: '2026-05-16T00:00:00Z'
+    velden_gewijzigd:
+    - "stappen[*].wat (nieuw)"
+    - "stappen[*].hoe (nieuw)"
+    - "stappen[*].input/output gestructureerd (artefact/veld/type)"
+    - "stappen[*].voorbeeld.substappen (nieuw bij stap 2 en 3)"
+    - "valkuilen[*]: correctie → advies, foute_aanname → vaak_fout"
+    - "tekstvelden: stagiair-toon, cast-namen (Aurelia/Brugse/Cardinal — ketenstructuur)"
