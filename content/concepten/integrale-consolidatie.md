@@ -20,16 +20,15 @@ gegenereerd_op: '2026-05-16'
 ---
 # Integrale consolidatie ⚖️
 
-> De geconsolideerde jaarrekening voorstellen alsof het geheel van de consoliderende vennootschap en haar exclusief gecontroleerde dochterondernemingen één enkele economische entiteit vormt. De activa, passiva, rechten, verplichtingen, opbrengsten en kosten van de moeder en van haar exclusief gecontroleerde dochters worden integraal opgenomen (voor 100 %); het deel dat toebehoort aan derden (minderheidsaandeelhouders) wordt afzonderlijk gepresenteerd in 'Belangen van derden' (balans) en 'Aandeel van derden in het resultaat' (resultatenrekening).
->
-> _Bron: KB WVV art. 3:123 jo. art. 3:124, 1°_
-
-
-> [!summary] Korte definitie
+> [!summary] Korte inhoud
 > De geconsolideerde jaarrekening voorstellen alsof het geheel van de consoliderende vennootschap en haar exclusief gecontroleerde dochterondernemingen één enkele economische entiteit vormt.
 
 > [!info] Behoort tot: [[consolidatieverschil]] · [[minderheidsbelangen]] · [[consolidatiemethodes-vergelijking]]
-> [!info] Bestaat uit: [[intragroep-eliminaties]] · [[minderheidsbelangen]]
+De geconsolideerde jaarrekening voorstellen alsof het geheel van de consoliderende vennootschap en haar exclusief gecontroleerde dochterondernemingen één enkele economische entiteit vormt. De activa, passiva, rechten, verplichtingen, opbrengsten en kosten van de moeder en van haar exclusief gecontroleerde dochters worden integraal opgenomen (voor 100 %); het deel dat toebehoort aan derden (minderheidsaandeelhouders) wordt afzonderlijk gepresenteerd in 'Belangen van derden' (balans) en 'Aandeel van derden in het resultaat' (resultatenrekening).
+
+_Bron: KB WVV art. 3:123 jo. art. 3:124, 1°_
+
+
 ## Bouwstenen
 
 ### Volledige opname van beide balansen ⚖️
@@ -141,7 +140,159 @@ aandeel derden in resultaat = (1 − belangenpercentage moeder) × resultaat doc
 _Resultaat in EUR_
 *De moeder controleert de dochter volledig, dus presenteer de groep als één bedrijf. Activa en schulden van beide kanten komen voor 100 % in de geconsolideerde balans. Het deel dat niet aan de moeder toebehoort (de minderheidsaandeelhouders) zet je apart als 'Belangen van derden' aan passiefzijde, zodat het cijferbeeld eerlijk blijft.*
 
-### . 
+### 1. Tel alle activa en passiva voor 100 % op
+
+Voeg alle bezittingen en schulden van moeder en dochter samen in één geconsolideerde balans — voor 100 %, los van het belangenpercentage.
+
+**Waarom?** De groep wordt voorgesteld als één economische entiteit; pro-rata-opname zou de schaal van de groep verbergen.
+
+**📥 Input**:
+- Balans moeder → **Alle posten** _(boekhoudkundig-bedrag)_
+- Balans dochter → **Alle posten** _(boekhoudkundig-bedrag)_
+
+**📤 Output**:
+- Geconsolideerde balans (tussentijds) → **Alle posten samengevoegd** _(nieuwe-balanspost)_
+
+**🛠️ Hoe**:
+
+1. Open de balans van Aurelia Holding NV.
+2. Open de balans van Brugse Brouwerij BV.
+3. Tel post per post de bedragen op: vaste activa moeder + vaste activa dochter, vlottende activa moeder + vlottende activa dochter, schulden moeder + schulden dochter.
+4. Eigen vermogen van de dochter komt nog niet definitief in de geconsolideerde balans — daar komt stap 2 aan te pas.
+
+
+**Grondslag**: KB WVV art. 3:126
+
+### 2. Schrap de deelneming en boek het verschil
+
+Schrap de post 'Deelneming dochter' uit de moeder-balans en schrap het bijhorend aandeel van de moeder in het eigen vermogen van de dochter. Het verschil tussen die twee bedragen heet het consolidatieverschil.
+
+**Waarom?** Anders zou je dezelfde economische waarde tweemaal tellen: één keer als 'Deelneming' bij de moeder en één keer als 'Eigen vermogen' van de dochter.
+
+**📥 Input**:
+- Balans Aurelia Holding NV → **Deelnemingen (Brugse Brouwerij BV)** _(boekhoudkundig-bedrag)_
+- Balans Brugse Brouwerij BV op datum van aankoop → **Eigen vermogen totaal** _(boekhoudkundig-bedrag)_
+- Aandelenkoopovereenkomst → **Belangenpercentage moeder** _(percentage)_
+
+**📤 Output**:
+- Geconsolideerde balans → **Deelnemingen** _(geëlimineerde-post)_
+- Geconsolideerde balans → **Consolidatieverschillen** _(nieuwe-balanspost)_
+
+**🛠️ Hoe**:
+
+1. Zoek in de balans van Aurelia Holding NV de post 'Deelnemingen' voor Brugse Brouwerij BV (bv. 320).
+2. Zoek in de balans van Brugse Brouwerij BV op datum van aankoop het eigen vermogen totaal (kapitaal + reserves + overgedragen resultaat — bv. 300).
+3. Bereken jouw aandeel: belangenpercentage × eigen vermogen dochter (80 % × 300 = 240).
+4. Schrap 320 (deelneming bij moeder) en schrap 240 (jouw aandeel in EV dochter).
+5. Boek het verschil 320 − 240 = 80 als 'Consolidatieverschillen' (actiefzijde als positief, passiefzijde als negatief).
+6. Belangrijk: gebruik het eigen vermogen op de datum van aankoop, niet op afsluitingsdatum.
+
+
+> [!example]- Voorbeeld: Aurelia Holding NV koopt op 1 januari 20X1 een belang van 80 % in Brugse Brouwerij BV voor 320
+> Aurelia Holding NV koopt op 1 januari 20X1 een belang van 80 % in Brugse Brouwerij BV voor 320. Eigen vermogen van Brugse Brouwerij BV op die datum: 300.
+>
+> 1. **Vertrekpunt: balans Aurelia Holding vóór consolidatie** 📊
+>
+>    | Aurelia Holding NV — Activa            |      |
+>    |----------------------------------------|-----:|
+>    | Vaste activa (zonder deelneming)       | 1000 |
+>    | **Deelneming (Brugse Brouwerij BV)**   |  **320** |
+>    | Vlottende activa                       |  800 |
+>    | **Totaal**                             | **2120** |
+>
+> 2. **Balans Brugse Brouwerij BV op datum van aankoop** 📊
+>
+>    | Brugse Brouwerij BV — Passiva |      |
+>    |-------------------------------|-----:|
+>    | Kapitaal                      |  200 |
+>    | Reserves                      |  100 |
+>    | **Eigen vermogen totaal**     | **300** |
+>    | Schulden aan derden           |  800 |
+>    | **Totaal**                    | **1100** |
+>
+> 3. **Berekening consolidatieverschil** 🧮
+>
+>    Aandeel Aurelia in eigen vermogen Brugse Brouwerij = 80 % × 300 = **240**
+>    Aanschaffingswaarde deelneming                       =          = **320**
+>    Consolidatieverschil                                  = 320 − 240 = **80** (positief, actiefzijde)
+>
+
+**Grondslag**: KB WVV art. 3:127, a) jo. art. 3:129
+
+### 3. Reken het verschil eerst toe aan onder- of overgewaardeerde posten
+
+Vóór je het hele verschil onder 'Consolidatieverschillen' boekt, kijk je of bepaalde bezittingen of schulden van de dochter méér of minder waard zijn dan hun boekwaarde. Reken het verschil zoveel mogelijk daaraan toe. Pas het overschot komt onder 'Consolidatieverschillen'.
+
+**Waarom?** De boekwaarde uit de dochter-balans is niet altijd de werkelijke waarde. Een vastgoed dat 50 jaar geleden is gekocht staat boekhoudkundig laag; de werkelijke waarde is hoger. Door eerst die verborgen meerwaarde te erkennen, vermijd je dat het hele verschil onterecht goodwill (consolidatieverschil) wordt.
+
+**📥 Input**:
+- Consolidatieverschil uit stap 2 → **bedrag** _(boekhoudkundig-bedrag)_
+- Balans dochter → **Posten met afwijkende werkelijke waarde** _(boekhoudkundig-bedrag)_
+
+**📤 Output**:
+- Geconsolideerde balans → **Geherwaardeerde activa/passiva van dochter** _(nieuwe-balanspost)_
+- Geconsolideerde balans → **Consolidatieverschillen (overschot)** _(nieuwe-balanspost)_
+
+**🛠️ Hoe**:
+
+1. Maak een lijst van bezittingen/schulden van Brugse Brouwerij BV waarvan de werkelijke waarde afwijkt van de boekwaarde (typisch: vastgoed, voorraden, voorzieningen).
+2. Trek voor elke post de boekwaarde af van de werkelijke waarde — dat is de onder- of overwaardering.
+3. Reken (een deel van) het consolidatieverschil toe aan die posten — opwaardering bij meerwaarde, afwaardering bij minderwaarde.
+4. Het stuk dat overblijft, boek je definitief als 'Consolidatieverschillen' (positief → actiefzijde; negatief → passiefzijde).
+5. Belangrijke regel: positieve en negatieve consolidatieverschillen van verschillende dochters mag je niet tegen elkaar wegstrepen, behalve binnen dezelfde dochter (dan moet het).
+
+
+**Grondslag**: KB WVV art. 3:130 (lid 1 toerekening, lid 2 restant)
+
+### 4. Schrap intragroep-vorderingen, schulden en winsten
+
+Verwijder alle vorderingen en schulden tussen moeder en dochter (en tussen dochters onderling). Verwijder ook de winst die de groep aan zichzelf heeft 'verkocht' (intra-groep-winst in voorraden of vaste activa). Idem voor onderlinge opbrengsten en kosten in de resultatenrekening.
+
+**Waarom?** Een groep kan niet aan zichzelf verkopen of zichzelf geld lenen — economisch is dat één bedrijf. Als je die posten zou laten staan, blaast de geconsolideerde balans onterecht op.
+
+**📥 Input**:
+- Boekhouding moeder en dochter → **Onderlinge vorderingen, schulden, verkopen, aankopen** _(boekhoudkundig-bedrag)_
+
+**📤 Output**:
+- Geconsolideerde balans → **Onderlinge posten** _(geëlimineerde-post)_
+- Geconsolideerde resultatenrekening → **Onderlinge opbrengsten en kosten** _(geëlimineerde-post)_
+
+**🛠️ Hoe**:
+
+1. Maak een lijst van alle bedragen die Aurelia Holding NV nog van Brugse Brouwerij BV te ontvangen heeft (en omgekeerd).
+2. Schrap die bedragen wederzijds: vordering bij moeder weg én schuld bij dochter weg, voor hetzelfde bedrag.
+3. Voor goederen die de moeder aan de dochter heeft verkocht (of omgekeerd): bepaal hoeveel daarvan nog in de voorraad of vaste activa zit, en schrap de winstmarge die de groep aan zichzelf heeft toegerekend.
+4. In de resultatenrekening: schrap de onderlinge omzet en de onderlinge aankoopkosten — voor exact hetzelfde bedrag.
+5. Praktische uitzondering: posten van te verwaarlozen betekenis mag je laten staan (KB WVV art. 3:139).
+
+
+**Grondslag**: KB WVV art. 3:134 (balans), art. 3:136 (resultatenrekening), art. 3:139 (materialiteit)
+
+### 5. Zet het aandeel van derden apart
+
+Bereken welk deel van het eigen vermogen en het resultaat van de dochter toebehoort aan andere aandeelhouders dan de moeder. Presenteer dat bedrag apart: op de balans als 'Belangen van derden' aan passiefzijde, op de resultatenrekening als 'Aandeel van derden in het resultaat'.
+
+**Waarom?** Bij integrale consolidatie heb je de 100 %-balans van de dochter opgenomen, maar economisch heeft de moeder maar 80 % (of welk percentage ook). Het verschil tussen die 100 % en het belangenpercentage hoort niet aan de moeder toe — dat moet de geconsolideerde jaarrekening transparant tonen.
+
+**📥 Input**:
+- Eigen vermogen dochter op afsluitingsdatum → **totaal** _(boekhoudkundig-bedrag)_
+- Resultaat dochter boekjaar → **winst of verlies** _(boekhoudkundig-bedrag)_
+- Aandelenstructuur → **Belangenpercentage moeder** _(percentage)_
+
+**📤 Output**:
+- Geconsolideerde balans (passiefzijde) → **Belangen van derden** _(nieuwe-balanspost)_
+- Geconsolideerde resultatenrekening → **Aandeel van derden in het resultaat** _(nieuwe-balanspost)_
+
+**🛠️ Hoe**:
+
+1. Neem het eigen vermogen totaal van Brugse Brouwerij BV op afsluitingsdatum (bv. 400).
+2. Bereken het derden-percentage: 100 % − belangenpercentage moeder (bv. 100 % − 80 % = 20 %).
+3. Vermenigvuldig: 20 % × 400 = 80 → boek dit als 'Belangen van derden' aan passiefzijde van de geconsolideerde balans.
+4. Doe hetzelfde voor het resultaat: 20 % × 100 = 20 → boek dit als 'Aandeel van derden in het resultaat' onderaan de resultatenrekening.
+5. Het resultaat dat overblijft voor de moeder (80 % × 100 = 80) zit dan al impliciet in het geconsolideerde nettoresultaat na aftrek van het derden-aandeel.
+
+
+**Grondslag**: KB WVV art. 3:137
 
 **Voorbeeld**: Moeder M bezit 80 % van de stemrechten en het kapitaal van dochter D. Op acquisitiedatum: aanschaffingswaarde aandelen = 320; eigen vermogen D = 300; geen onder-/overwaarderingen. Balans D bij afsluiting jaar 1: activa 600, schulden aan derden 200, eigen vermogen 400 (waarvan resultaat boekjaar 100). M heeft een vordering op D van 50 (D dus een schuld van 50 aan M).
 
@@ -156,33 +307,52 @@ Resultaat: In de geconsolideerde balans staan de 600 activa en 200 schulden van 
 
 ## In de praktijk
 
-### Wanneer toepassen {id="wanneer-toepassen"}
+<h3 id="wanneer-toepassen">Wanneer toepassen</h3>
 
-Integrale consolidatie is verplicht voor exclusief gecontroleerde dochters die in de consolidatiekring zitten (KB WVV art. 3:124, 1°). Bij consortium-leden is integrale consolidatie ook van toepassing op de leden zelf (samenlezing WVV art. 3:24 en KB WVV art. 3:124, 1°). ⚖️
+> [!tip]- Wanneer toepassen
+> Integrale consolidatie is verplicht voor exclusief gecontroleerde dochters die in de consolidatiekring zitten (KB WVV art. 3:124, 1°). Bij consortium-leden is integrale consolidatie ook van toepassing op de leden zelf (samenlezing WVV art. 3:24 en KB WVV art. 3:124, 1°). ⚖️
+>
+> > [!tip]- Herkennen op het examen
+> > Stemrechten > 50 % → integraal (tenzij uitgesloten of in feite-controle die het getrouwe beeld zou aantasten).
 
-**Herkenningspunt**: Stemrechten > 50 % → integraal (tenzij uitgesloten of in feite-controle die het getrouwe beeld zou aantasten).
+<h3 id="eigen-aandelen-van-de-consoliderende-vennootschap">Eigen aandelen van de consoliderende vennootschap</h3>
 
-### Eigen aandelen van de consoliderende vennootschap {id="eigen-aandelen-van-de-consoliderende-vennootschap"}
+> [!tip]- Eigen aandelen van de consoliderende vennootschap
+> Eigen aandelen van de consoliderende vennootschap (én aandelen in de consoliderende vennootschap die door een in de consolidatie opgenomen dochter worden gehouden) worden in de geconsolideerde balans geboekt onder actiefpost IX. De toelichting vermeldt hoeveel aandelen aldus in bezit zijn. ⚖️
 
-Eigen aandelen van de consoliderende vennootschap (én aandelen in de consoliderende vennootschap die door een in de consolidatie opgenomen dochter worden gehouden) worden in de geconsolideerde balans geboekt onder actiefpost IX. De toelichting vermeldt hoeveel aandelen aldus in bezit zijn. ⚖️
 
+## Voorwaarden / uitzonderingen
 
-<details>
-<summary><strong>Niet verwarren met</strong> (2 vergelijkingen)</summary>
+- Er moet exclusieve controle bestaan over de dochteronderneming (controle in rechte of in feite, exclusief uitgeoefend door één moedervennootschap). ⚖️
+- De dochter behoort tot de consolidatiekring (geen uitsluiting op grond van KB WVV art. 3:97-3:99). ⚖️
+> [!info]- Niet verwarren met [[evenredige-consolidatie]]
+> Integrale consolidatie neemt 100 % van activa/passiva op (met aandeel van derden afzonderlijk) — voor exclusief gecontroleerde dochters. Evenredige consolidatie neemt activa/passiva op naar rato van de kapitaaldeelname (zonder afzonderlijke
+>
+> _Trigger_: Soort controle / type relatie tussen moeder en dochter bepaalt welke methode.
 
-- **vs [[evenredige-consolidatie]]** — Integrale consolidatie neemt 100 % van activa/passiva op (met aandeel van derden afzonderlijk) — voor exclusief gecontroleerde dochters. Evenredige consolidatie neemt activa/passiva op naar rato van de kapitaaldeelname (zonder afzonderlijke
-  - _Trigger_: Soort controle / type relatie tussen moeder en dochter bepaalt welke methode.
-- **vs [[vermogensmutatiemethode]]** — Integrale consolidatie neemt de individuele activa/passiva op (regel voor regel). Vermogensmutatie behoudt de deelneming als één post 'Vennootschappen waarop vermogensmutatie is toegepast' (geherwaardeerd naar het pro-rata aandeel in het ei
-  - _Trigger_: Soort controle / type relatie tussen moeder en dochter bepaalt welke methode.
-
-</details>
+> [!info]- Niet verwarren met [[vermogensmutatiemethode]]
+> Integrale consolidatie neemt de individuele activa/passiva op (regel voor regel). Vermogensmutatie behoudt de deelneming als één post 'Vennootschappen waarop vermogensmutatie is toegepast' (geherwaardeerd naar het pro-rata aandeel in het ei
+>
+> _Trigger_: Soort controle / type relatie tussen moeder en dochter bepaalt welke methode.
 
 
 ## Valkuilen
 
-- ⚠️ De compensatie van de deelneming gebeurt op verwervingsdatum, niet op afsluitingsdatum. Het eigen vermogen op verwervingsdatum bevriest; latere wijzigingen in het eigen vermogen van de dochter worden behandeld als geconsolideerde reserves of resultaat — niet als toename of afname van het consolidatieverschil. ⚖️
-- ⚠️ Bij eerste consolidatie van een vennootschap kan de compensatie ten belope van de aandelen in haar bezit op die datum gebeuren op de aanvangsdatum van het boekjaar (KB WVV art. 3:129, b)). Dit is een uitzondering die in de toelichting kan worden gemotiveerd. ⚖️
-- ⚠️ De weglatingen van KB WVV art. 3:134 en 3:136 mogen achterwege blijven 'wanneer de betrokken bedragen, gelet op het doel van artikel 3:105, slechts van te verwaarlozen betekenis zijn' (KB WVV art. 3:138 jo. art. 3:139). Praktisch beoordelen op materialiteit. ⚖️
+> [!warning]- De compensatie van de deelneming gebeurt op verwervingsdatum, niet op afsluitin…
+> ⚠️ De compensatie van de deelneming gebeurt op verwervingsdatum, niet op afsluitingsdatum. Het eigen vermogen op verwervingsdatum bevriest; latere wijzigingen in het eigen vermogen van de dochter worden behandeld als geconsolideerde reserves of resultaat — niet als toename of afname van het consolidatieverschil. ⚖️
+>
+> _Bron: KB WVV art. 3:129_
+
+> [!warning]- Bij eerste consolidatie van een vennootschap kan de compensatie ten belope van …
+> ⚠️ Bij eerste consolidatie van een vennootschap kan de compensatie ten belope van de aandelen in haar bezit op die datum gebeuren op de aanvangsdatum van het boekjaar (KB WVV art. 3:129, b)). Dit is een uitzondering die in de toelichting kan worden gemotiveerd. ⚖️
+>
+> _Bron: KB WVV art. 3:129, b)_
+
+> [!warning]- De weglatingen van KB WVV art. 3:134 en 3:136 mogen achterwege blijven 'wanneer…
+> ⚠️ De weglatingen van KB WVV art. 3:134 en 3:136 mogen achterwege blijven 'wanneer de betrokken bedragen, gelet op het doel van artikel 3:105, slechts van te verwaarlozen betekenis zijn' (KB WVV art. 3:138 jo. art. 3:139). Praktisch beoordelen op materialiteit. ⚖️
+>
+> _Bron: KB WVV art. 3:139_
+
 
 ## Zie ook
 

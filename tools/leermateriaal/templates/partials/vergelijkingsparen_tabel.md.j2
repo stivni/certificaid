@@ -1,14 +1,11 @@
 {% if vergelijkingsparen %}
-<details>
-<summary><strong>Niet verwarren met</strong> ({{ vergelijkingsparen | length }} vergelijkingen)</summary>
-
 {% for paar in vergelijkingsparen %}
-- **vs [[{{ paar.vergelijking_met }}]]** — {{ paar.verschil }}
+> [!info]- Niet verwarren met [[{{ paar.vergelijking_met }}]]
+> {{ paar.verschil }}
 {% if paar.trigger %}
-  - _Trigger_: {{ paar.trigger }}
+>
+> _Trigger_: {{ paar.trigger }}
 {% endif %}
+
 {% endfor %}
-
-</details>
-
 {% endif %}

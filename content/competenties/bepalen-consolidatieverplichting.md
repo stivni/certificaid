@@ -41,12 +41,12 @@ Ga na of de entiteit rechtspersoonlijkheid heeft en als vennootschap kwalificeer
 
 **Grondslag**: [[moedervennootschap]] §definitie, WVV art. 1:15
 
-> [!warning] Een natuurlijke persoon is nooit zelf moedervennootschap.
+> [!warning]- Een natuurlijke persoon is nooit zelf moedervennootschap.
 >
 > _Vaak fout gedaan_: Aannemen dat Pieter Vermeulen die meerderheidsstemrechten heeft in meerdere vennootschappen, zelf consolidatieplichtig is.
 >
 > _Grondslag_: [[consolidatieverplichting]] §natuurlijke personen
-> [!warning] Een maatschap zonder rechtspersoonlijkheid is geen moeder.
+> [!warning]- Een maatschap zonder rechtspersoonlijkheid is geen moeder.
 >
 > _Vaak fout gedaan_: Een maatschap zonder rechtspersoonlijkheid behandelen als moedervennootschap.
 >
@@ -76,7 +76,7 @@ Ga na of de vennootschap controle uitoefent over een of meer andere vennootschap
 
 **Grondslag**: [[controle]] §soorten controle, WVV art. 1:14 tot 1:19
 
-> [!warning] Tel ook controle-in-feite mee, niet alleen het aandelenpercentage.
+> [!warning]- Tel ook controle-in-feite mee, niet alleen het aandelenpercentage.
 >
 > _Vaak fout gedaan_: Aannemen dat controle altijd meer dan 50 % stemrechten vereist.
 >
@@ -125,24 +125,28 @@ Bereken de geconsolideerde of geaggregeerde cijfers en toets aan de drempelwaard
 5. Overschreden ten hoogste één criterium? → groep van beperkte omvang, vrijgesteld (tenzij beursnotering, zie [[groep-van-beperkte-omvang]] §uitzondering-notering).
 
 
-**Voorbeeld**: Aurelia Holding NV consolideert met haar dochter Gent Garantie BV. Geaggregeerde cijfers: omzet 20 mln EUR, balanstotaal 12 mln EUR, jaargemiddelde werknemers 180.
-
-**Substap 1 — Toets aan drempels groep van beperkte omvang** 🧮
-| Criterium                     | Geaggregeerd | Drempel (cijferzakboekje) | Overschreden? |
-|-------------------------------|-------------:|--------------------------:|:--------------|
-| Jaaromzet                     | 20 mln EUR   | 34 mln EUR                | Nee           |
-| Balanstotaal                  | 12 mln EUR   | 17 mln EUR                | Nee           |
-| Jaargemiddelde werknemers     | 180          | 250                       | Nee           |
-
-
-**Substap 2 — Conclusie** 💬
-Geen enkel criterium overschreden → groep van beperkte omvang.
-Vrijgesteld van consolidatie (mits geen notering op gereglementeerde markt).
-
+> [!example]- Voorbeeld: Aurelia Holding NV consolideert met haar dochter Gent Garantie BV
+> Aurelia Holding NV consolideert met haar dochter Gent Garantie BV. Geaggregeerde cijfers: omzet 20 mln EUR, balanstotaal 12 mln EUR, jaargemiddelde werknemers 180.
+>
+> 1. **Toets aan drempels groep van beperkte omvang** 🧮
+>
+>    | Criterium                     | Geaggregeerd | Drempel (cijferzakboekje) | Overschreden? |
+>    |-------------------------------|-------------:|--------------------------:|:--------------|
+>    | Jaaromzet                     | 20 mln EUR   | 34 mln EUR                | Nee           |
+>    | Balanstotaal                  | 12 mln EUR   | 17 mln EUR                | Nee           |
+>    | Jaargemiddelde werknemers     | 180          | 250                       | Nee           |
+>    
+>
+> 2. **Conclusie** 💬
+>
+>    Geen enkel criterium overschreden → groep van beperkte omvang.
+>    Vrijgesteld van consolidatie (mits geen notering op gereglementeerde markt).
+>    
+>
 
 **Grondslag**: [[groep-van-beperkte-omvang]] §drempels, WVV art. 1:26
 
-> [!warning] 'Geaggregeerde basis' is enkel een berekeningswijze, geen vooraf bestaande consolidatie.
+> [!warning]- 'Geaggregeerde basis' is enkel een berekeningswijze, geen vooraf bestaande consolidatie.
 >
 > _Vaak fout gedaan_: Aannemen dat 'op geconsolideerde basis' betekent dat er al een geconsolideerde jaarrekening moet bestaan vóór de toets.
 >
@@ -171,7 +175,7 @@ Ga na of een hogere moeder al een gelijkwaardige geconsolideerde jaarrekening op
 
 **Grondslag**: [[vrijstelling-subconsolidatie]] §voorwaarden, WVV art. 3:26
 
-> [!warning] Bij beursnotering vervalt de vrijstelling altijd.
+> [!warning]- Bij beursnotering vervalt de vrijstelling altijd.
 >
 > _Vaak fout gedaan_: Aannemen dat de vrijstelling geldt ongeacht of een dochter genoteerd is.
 >
@@ -202,45 +206,22 @@ Stel de eindconclusie op voor de cliënt op basis van stappen 1 tot 5.
 **Grondslag**: [[consolidatieverplichting]] §eindkwalificatie (praktijk-synthese)
 
 
-## Beslisboom
-
-**Heeft de entiteit rechtspersoonlijkheid en is zij een vennootschap?**
-- Ja: Ga naar volgende vraag.
-- Nee: Geen consolidatieplicht — meestal consortium of geen plicht.
-
-**Bestaat controle (in rechte of in feite) over één of meer dochters?**
-- Ja: Ga naar volgende vraag (verticale moeder).
-- Nee: Onderzoek of er een consortium is. Zo niet: geen consolidatieplicht.
-
-**Overschrijdt de groep meer dan één van de groottecriteria (WVV art. 1:26 §1) op geconsolideerde of geaggregeerde basis?**
-- Ja: Vrijstelling 'groep van beperkte omvang' vervalt; ga naar volgende vraag.
-- Nee: Vrijgesteld als groep van beperkte omvang (tenzij notering op gereglementeerde markt).
-
-**Bestaat hogerop een moeder die al een gelijkwaardige geconsolideerde jaarrekening opstelt, laat controleren en openbaar maakt, en is geen lid van de subconsolidatiekring beursgenoteerd?**
-- Ja: Vrijstelling van subconsolidatie van toepassing — geen plicht voor de submoeder.
-- Nee: Consolidatieplichtig.
-
-
 ## Voorbeelden
 
-**Situatie**: Aurelia Holding NV bezit 90 % van de stemrechten in Brugse Brouwerij BV. Brugse oefent een industriële activiteit uit. Aurelia kan via haar stemrechten de meerderheid van bestuurders aanstellen.
+> [!example]- Aurelia Holding NV bezit 90 % van de stemrechten in Brugse Brouwerij BV
+> **Conclusie**: Aurelia is consolidatieplichtig: zij is moeder met exclusieve controle in rechte over Brugse Brouwerij BV.
+>
+> **Grondslag**: [[moedervennootschap]] §controlebevoegdheid; [[exclusieve-controle]] §onweerlegbaar-vermoeden
+>
+> **Redenering**: Stemrechtenmeerderheid (> 50 %) levert het onweerlegbaar vermoeden van controle in rechte op. Aurelia moet Brugse integraal opnemen, tenzij een vrijstelling van toepassing is.
 
-**Conclusie**: Aurelia is consolidatieplichtig: zij is moeder met exclusieve controle in rechte over Brugse Brouwerij BV.
+> [!example]- Pieter Vermeulen bezit meerderheidsstemrechten in zustervennootschappen Industria Antwerpen NV en Jachthaven Jezus-Eik NV
+> **Conclusie**: Geen consolidatieplicht voor Pieter Vermeulen zelf. Industria en Jachthaven vormen vermoedelijk een consortium en zijn samen consolidatieplichtig.
+>
+> **Grondslag**: [[consolidatieverplichting]] §natuurlijke-personen; [[consortium]] §horizontale-groep
+>
+> **Redenering**: Een natuurlijke persoon kan geen moeder zijn. Bij centrale leiding zonder onderlinge controle ontstaat een consortium. WVV art. 3:24 legt de plicht op de leden samen.
 
-**Grondslag**: [[moedervennootschap]] §controlebevoegdheid; [[exclusieve-controle]] §onweerlegbaar-vermoeden
-
-**Redenering**: Stemrechtenmeerderheid (> 50 %) levert het onweerlegbaar vermoeden van controle in rechte op. Aurelia moet Brugse integraal opnemen, tenzij een vrijstelling van toepassing is.
-
----
-**Situatie**: Pieter Vermeulen bezit meerderheidsstemrechten in zustervennootschappen Industria Antwerpen NV en Jachthaven Jezus-Eik NV. Beide staan onder gemeenschappelijke leiding. Er is geen moeder-dochter-relatie tussen Industria en Jachthaven.
-
-**Conclusie**: Geen consolidatieplicht voor Pieter Vermeulen zelf. Industria en Jachthaven vormen vermoedelijk een consortium en zijn samen consolidatieplichtig.
-
-**Grondslag**: [[consolidatieverplichting]] §natuurlijke-personen; [[consortium]] §horizontale-groep
-
-**Redenering**: Een natuurlijke persoon kan geen moeder zijn. Bij centrale leiding zonder onderlinge controle ontstaat een consortium. WVV art. 3:24 legt de plicht op de leden samen.
-
----
 
 ## Gebaseerd op concepten
 

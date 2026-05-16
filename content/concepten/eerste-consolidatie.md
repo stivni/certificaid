@@ -21,25 +21,26 @@ gegenereerd_op: '2026-05-16'
 ---
 # Eerste consolidatie ⚖️
 
-> Het moment waarop een nieuw verworven dochter (of een dochter die je voor het eerst gaat consolideren) voor het eerst in de geconsolideerde jaarrekening wordt opgenomen. Op dat ogenblik vergelijk je wat je voor de aandelen betaalde met jouw pro-rata aandeel in het eigen vermogen van de dochter op de datum van aankoop. Het verschil reken je zoveel mogelijk toe aan onder- of overgewaardeerde bezittingen en schulden van de dochter; het residu boek je als 'Consolidatieverschillen' — positief aan actiefzijde, negatief aan passiefzijde.
->
-> _Bron: KB WVV art. 3:127, a) jo. art. 3:129 — 3:130_
-
-
-> [!summary] Korte definitie
+> [!summary] Korte inhoud
 > Het moment waarop een nieuw verworven dochter (of een dochter die je voor het eerst gaat consolideren) voor het eerst in de geconsolideerde jaarrekening wordt opgenomen.
 
 > [!info] Behoort tot: [[integrale-consolidatie]] · Specialisatie van: [[wijziging-consolidatiekring]]
-> [!info] Bestaat uit: [[consolidatieverschil]]
+Het moment waarop een nieuw verworven dochter (of een dochter die je voor het eerst gaat consolideren) voor het eerst in de geconsolideerde jaarrekening wordt opgenomen. Op dat ogenblik vergelijk je wat je voor de aandelen betaalde met jouw pro-rata aandeel in het eigen vermogen van de dochter op de datum van aankoop. Het verschil reken je zoveel mogelijk toe aan onder- of overgewaardeerde bezittingen en schulden van de dochter; het residu boek je als 'Consolidatieverschillen' — positief aan actiefzijde, negatief aan passiefzijde.
+
+_Bron: KB WVV art. 3:127, a) jo. art. 3:129 — 3:130_
+
+
 ## In de praktijk
 
-### Eerste consolidatie via vermogensmutatiemethode {id="eerste-consolidatie-via-vermogensmutatiemethode"}
+<h3 id="eerste-consolidatie-via-vermogensmutatiemethode">Eerste consolidatie via vermogensmutatiemethode</h3>
 
-Bij een eerste consolidatie van een geassocieerde onderneming (of een gemeenschappelijke dochter zonder integratie) volgens de vermogensmutatiemethode wordt de aankoopwaarde van de deelneming vervangen door jouw pro-rata aandeel in het eigen vermogen op de aankoopdatum. Het verschil reken je toe aan stille meer- of minderwaarden en het residu boek je als consolidatieverschil — naast de hoofdpost 'Vennootschappen waarop vermogensmutatie is toegepast' (CBN 2022/11). ⚖️
+> [!tip]- Eerste consolidatie via vermogensmutatiemethode
+> Bij een eerste consolidatie van een geassocieerde onderneming (of een gemeenschappelijke dochter zonder integratie) volgens de vermogensmutatiemethode wordt de aankoopwaarde van de deelneming vervangen door jouw pro-rata aandeel in het eigen vermogen op de aankoopdatum. Het verschil reken je toe aan stille meer- of minderwaarden en het residu boek je als consolidatieverschil — naast de hoofdpost 'Vennootschappen waarop vermogensmutatie is toegepast' (CBN 2022/11). ⚖️
 
-### Versimpeling bij eerste-opmaak situaties {id="versimpeling-bij-eerste-opmaak-situaties"}
+<h3 id="versimpeling-bij-eerste-opmaak-situaties">Versimpeling bij eerste-opmaak situaties</h3>
 
-KB WVV art. 3:129 staat toe dat bij (a) de allereerste geconsolideerde jaarrekening of (b) bij een dochter die voorheen niet werd geconsolideerd, je de compensatie ten belope van de aandelen die je op die datum bezit op de aanvangsdatum van het boekjaar mag doen — om praktische redenen. ⚖️
+> [!tip]- Versimpeling bij eerste-opmaak situaties
+> KB WVV art. 3:129 staat toe dat bij (a) de allereerste geconsolideerde jaarrekening of (b) bij een dochter die voorheen niet werd geconsolideerd, je de compensatie ten belope van de aandelen die je op die datum bezit op de aanvangsdatum van het boekjaar mag doen — om praktische redenen. ⚖️
 
 
 ## Tijdlijn
@@ -54,7 +55,11 @@ KB WVV art. 3:129 staat toe dat bij (a) de allereerste geconsolideerde jaarreken
 
 ## Valkuilen
 
-- ⚠️ Het eigen vermogen op datum van aankoop is een momentopname die bevriest. Latere wijzigingen in het EV van de dochter worden niet als nieuwe 'consolidatieverschillen' geboekt, maar lopen via de gewone consolidatietechniek (geconsolideerde reserves, resultaat van het boekjaar) of via de afschrijving van het positieve consolidatieverschil. ⚖️
+> [!warning]- Het eigen vermogen op datum van aankoop is een momentopname die bevriest. Later…
+> ⚠️ Het eigen vermogen op datum van aankoop is een momentopname die bevriest. Latere wijzigingen in het EV van de dochter worden niet als nieuwe 'consolidatieverschillen' geboekt, maar lopen via de gewone consolidatietechniek (geconsolideerde reserves, resultaat van het boekjaar) of via de afschrijving van het positieve consolidatieverschil. ⚖️
+>
+> _Bron: KB WVV art. 3:129 + art. 3:131_
+
 
 ## Bronnen
 

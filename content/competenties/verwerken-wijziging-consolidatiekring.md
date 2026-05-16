@@ -114,32 +114,38 @@ Bij overschrijding van de controlegrens: verlaat de vermogensmutatie en start in
 5. Vanaf nu: integrale (of evenredige) consolidatie met afzondering van aandeel van derden voor het deel dat aan andere aandeelhouders toebehoort.
 
 
-**Voorbeeld**: Antwerpse Investments NV bezat sinds 20X0 een belang van 25 % in Drukkerij Dendermonde BV (geassocieerde, vermogensmutatie). Op 1 juli 20X1 koopt Antwerpse extra aandelen tot 60 %. Op die datum: eigen vermogen Drukkerij Dendermonde = 800.
-
-**Substap 1 — Berekening pro-rata aandeel op datum van trap 2** 🧮
-pro-rata aandeel Antwerpse na trap 2 = belangenpercentage × eigen vermogen Drukkerij Dendermonde
-                                      = 60 % × 800
-                                      = **480**
-
-
-**Substap 2 — Toewijzing nieuwe techniek** 💬
-Kwalificatiewijziging: invloed van betekenis (25 %) → exclusieve controle (60 %).
-Vermogensmutatie wordt verlaten. Integrale consolidatie start vanaf 1 juli 20X1.
-
-
-**Substap 3 — Aandeel van derden bij integrale consolidatie** 🧮
-aandeel van derden in EV Drukkerij Dendermonde = (1 − 60 %) × 800
-                                                = 40 % × 800
-                                                = **320** (passiefzijde)
-
-
-**Substap 4 — Effect op consolidatieverschil** 💬
-Het bestaande consolidatieverschil uit de eerste trap (25 %, vermogensmutatie) wordt geherwaardeerd. Een nieuw consolidatieverschil wordt berekend op basis van de gecombineerde aanschaffingswaarde en het pro-rata aandeel op datum van de nieuwe trap.
-
+> [!example]- Voorbeeld: Antwerpse Investments NV bezat sinds 20X0 een belang van 25 % in Drukkerij Dendermonde BV (geassocieerde, vermogensmutatie)
+> Antwerpse Investments NV bezat sinds 20X0 een belang van 25 % in Drukkerij Dendermonde BV (geassocieerde, vermogensmutatie). Op 1 juli 20X1 koopt Antwerpse extra aandelen tot 60 %. Op die datum: eigen vermogen Drukkerij Dendermonde = 800.
+>
+> 1. **Berekening pro-rata aandeel op datum van trap 2** 🧮
+>
+>    pro-rata aandeel Antwerpse na trap 2 = belangenpercentage × eigen vermogen Drukkerij Dendermonde
+>                                          = 60 % × 800
+>                                          = **480**
+>    
+>
+> 2. **Toewijzing nieuwe techniek** 💬
+>
+>    Kwalificatiewijziging: invloed van betekenis (25 %) → exclusieve controle (60 %).
+>    Vermogensmutatie wordt verlaten. Integrale consolidatie start vanaf 1 juli 20X1.
+>    
+>
+> 3. **Aandeel van derden bij integrale consolidatie** 🧮
+>
+>    aandeel van derden in EV Drukkerij Dendermonde = (1 − 60 %) × 800
+>                                                    = 40 % × 800
+>                                                    = **320** (passiefzijde)
+>    
+>
+> 4. **Effect op consolidatieverschil** 💬
+>
+>    Het bestaande consolidatieverschil uit de eerste trap (25 %, vermogensmutatie) wordt geherwaardeerd. Een nieuw consolidatieverschil wordt berekend op basis van de gecombineerde aanschaffingswaarde en het pro-rata aandeel op datum van de nieuwe trap.
+>    
+>
 
 **Grondslag**: [[step-acquisition]] §kanteling-techniek, KB WVV art. 3:127 (analogische toepassing)
 
-> [!warning] Bij kanteling van techniek: het bestaande consolidatieverschil wordt geherwaardeerd, niet behouden.
+> [!warning]- Bij kanteling van techniek: het bestaande consolidatieverschil wordt geherwaardeerd, niet behouden.
 >
 > _Vaak fout gedaan_: Aannemen dat bij overgang van vermogensmutatie naar integrale consolidatie het oude consolidatieverschil ongewijzigd blijft.
 >
@@ -166,19 +172,23 @@ Bij verkoop van aandelen: boek het overblijvende consolidatieverschil af naar ve
 5. Indien Aurelia alle controle verliest: volledige de-consolidatie volgens [[wijziging-consolidatiekring]] §de-consolidatie.
 
 
-**Voorbeeld**: Aurelia Holding NV verkoopt 30 % van haar 100 %-dochter Brugse Brouwerij BV buiten de groep. Aurelia behoudt 70 %. Oorspronkelijk consolidatieverschil = 80.
-
-**Substap 1 — Pro-rata afboeking consolidatieverschil** 🧮
-afboeking = % gerealiseerde aandelen × oorspronkelijk consolidatieverschil
-          = 30 % × 80
-          = **24**
-
-
-**Substap 2 — Resterend consolidatieverschil + nieuw aandeel van derden** 💬
-Resterend consolidatieverschil = 80 − 24 = 56.
-Brugse blijft in de kring (Aurelia 70 % > 50 %, exclusieve controle behouden).
-Nieuw aandeel van derden = 30 % × eigen vermogen Brugse op afsluitingsdatum.
-
+> [!example]- Voorbeeld: Aurelia Holding NV verkoopt 30 % van haar 100 %-dochter Brugse Brouwerij BV buiten de groep
+> Aurelia Holding NV verkoopt 30 % van haar 100 %-dochter Brugse Brouwerij BV buiten de groep. Aurelia behoudt 70 %. Oorspronkelijk consolidatieverschil = 80.
+>
+> 1. **Pro-rata afboeking consolidatieverschil** 🧮
+>
+>    afboeking = % gerealiseerde aandelen × oorspronkelijk consolidatieverschil
+>              = 30 % × 80
+>              = **24**
+>    
+>
+> 2. **Resterend consolidatieverschil + nieuw aandeel van derden** 💬
+>
+>    Resterend consolidatieverschil = 80 − 24 = 56.
+>    Brugse blijft in de kring (Aurelia 70 % > 50 %, exclusieve controle behouden).
+>    Nieuw aandeel van derden = 30 % × eigen vermogen Brugse op afsluitingsdatum.
+>    
+>
 
 **Grondslag**: [[wijziging-consolidatiekring]] §realisatie-aandelen, KB WVV art. 3:132
 
@@ -205,27 +215,22 @@ Bij interne herstructurering waarbij de economische controle ongewijzigd blijft:
 **Grondslag**: [[wijziging-consolidatiekring]] §common-control, CBN-advies common-control transactions
 
 
-
 ## Voorbeelden
 
-**Situatie**: Antwerpse Investments NV bezit sinds 20X0 een belang van 25 % in Drukkerij Dendermonde BV (geassocieerde, vermogensmutatie). Op 1 juli 20X1 koopt Antwerpse extra aandelen tot 60 %. Op datum van trap 2: eigen vermogen Drukkerij Dendermonde = 800.
+> [!example]- Antwerpse Investments NV bezit sinds 20X0 een belang van 25 % in Drukkerij Dendermonde BV (geassocieerde, vermogensmutatie)
+> **Conclusie**: Kantelpunt: Drukkerij Dendermonde wordt vanaf 1 juli 20X1 integraal geconsolideerd. Antwerpse verlaat de vermogensmutatie. Het bestaande consolidatieverschil wordt geherwaardeerd. Activa en passiva van Drukkerij Dendermonde worden volledig opgenomen. Aandeel van derden = (1 − 0,60) × 800 = 320.
+>
+> **Grondslag**: [[step-acquisition]] §kantelpunt-invloed-naar-controle; [[integrale-consolidatie]] §100-procent-opname
+>
+> **Redenering**: De controlegrens (> 50 %) wordt overschreden. De wijziging van consolidatietechniek triggert een nieuwe eerste consolidatie waarbij de bestaande post wordt herwaardeerd.
 
-**Conclusie**: Kantelpunt: Drukkerij Dendermonde wordt vanaf 1 juli 20X1 integraal geconsolideerd. Antwerpse verlaat de vermogensmutatie. Het bestaande consolidatieverschil wordt geherwaardeerd. Activa en passiva van Drukkerij Dendermonde worden volledig opgenomen. Aandeel van derden = (1 − 0,60) × 800 = 320.
+> [!example]- Aurelia Holding NV verkoopt 30 % van haar 100 %-dochter Brugse Brouwerij BV buiten de groep
+> **Conclusie**: Pro-rata afboeking van het oorspronkelijke consolidatieverschil: 30 % × 80 = 24. Brugse blijft in de kring. Vanaf nu wordt 30 % als belangen van derden opgenomen.
+>
+> **Grondslag**: [[wijziging-consolidatiekring]] §realisatie-aandelen; [[consolidatieverschil]] §afboeking-pro-rata
+>
+> **Redenering**: Gedeeltelijke realisatie zonder verlies van controle: Brugse blijft integraal geconsolideerd, maar het verkochte deel triggert pro-rata afboeking van consolidatieverschil en een nieuw aandeel van derden van 30 %.
 
-**Grondslag**: [[step-acquisition]] §kantelpunt-invloed-naar-controle; [[integrale-consolidatie]] §100-procent-opname
-
-**Redenering**: De controlegrens (> 50 %) wordt overschreden. De wijziging van consolidatietechniek triggert een nieuwe eerste consolidatie waarbij de bestaande post wordt herwaardeerd.
-
----
-**Situatie**: Aurelia Holding NV verkoopt 30 % van haar 100 %-dochter Brugse Brouwerij BV buiten de groep. Brugse blijft een dochter (70 % belang). Oorspronkelijk consolidatieverschil = 80.
-
-**Conclusie**: Pro-rata afboeking van het oorspronkelijke consolidatieverschil: 30 % × 80 = 24. Brugse blijft in de kring. Vanaf nu wordt 30 % als belangen van derden opgenomen.
-
-**Grondslag**: [[wijziging-consolidatiekring]] §realisatie-aandelen; [[consolidatieverschil]] §afboeking-pro-rata
-
-**Redenering**: Gedeeltelijke realisatie zonder verlies van controle: Brugse blijft integraal geconsolideerd, maar het verkochte deel triggert pro-rata afboeking van consolidatieverschil en een nieuw aandeel van derden van 30 %.
-
----
 
 ## Gebaseerd op concepten
 

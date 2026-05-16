@@ -2,9 +2,16 @@
 ## Valkuilen
 
 {% for valkuil in valkuilen %}
-- ⚠️ {{ valkuil.text }} {{ valkuil.confidence | default('inferred') | confidence_label }}
+> [!warning]- {{ valkuil.advies | default(valkuil.text | default('Valkuil')) | truncate(80, True, '…') }}
+> ⚠️ {{ valkuil.text }} {{ valkuil.confidence | default('inferred') | confidence_label }}
 {% if valkuil.rationale %}
-  *{{ valkuil.rationale }}*
+>
+> _{{ valkuil.rationale }}_
 {% endif %}
+{% if valkuil.source is defined and valkuil.source %}
+>
+> _Bron: {{ valkuil.source.short }}_
+{% endif %}
+
 {% endfor %}
 {% endif %}

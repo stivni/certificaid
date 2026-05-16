@@ -60,12 +60,15 @@ Wijs integrale consolidatie toe aan alle exclusief gecontroleerde dochters in de
 4. Belangen van derden = (1 − belangenpercentage) × eigen vermogen dochter, apart presenteren in 'Belangen van derden' (balans) en 'Aandeel van derden in het resultaat' (resultatenrekening).
 
 
-**Voorbeeld**: Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV (exclusieve controle in rechte).
-
-**Substap 1 — Toewijzing techniek** 💬
-Kwalificatie: dochter → integrale consolidatie.
-100 % van Brugse-activa en -passiva opnemen, 20 % afzonderen als belangen van derden.
-
+> [!example]- Voorbeeld: Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV (exclusieve controle in rechte)
+> Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV (exclusieve controle in rechte).
+>
+> 1. **Toewijzing techniek** 💬
+>
+>    Kwalificatie: dochter → integrale consolidatie.
+>    100 % van Brugse-activa en -passiva opnemen, 20 % afzonderen als belangen van derden.
+>    
+>
 
 **Grondslag**: [[integrale-consolidatie]] §toepassingsgebied, KB WVV art. 3:124 lid 1
 
@@ -90,20 +93,24 @@ Wijs evenredige consolidatie toe aan gemeenschappelijke dochters die nauw geïnt
 4. Documenteer in werkpapier waarom integratie wel of niet 'nauw' is.
 
 
-**Voorbeeld**: Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % in Filmstudio Florence BV. Filmstudio levert exclusief postproductie aan beide partners en gebruikt hun gemeenschappelijke ICT-systemen.
-
-**Substap 1 — Toets nauwe integratie** 💬
-Operationele indicatoren: exclusieve dienstverlening aan partners + gedeelde ICT → nauw geïntegreerd.
-
-
-**Substap 2 — Toewijzing techniek** 💬
-Evenredige consolidatie voor Cardinal én voor Energiehuis (elk 50 %).
-Geen aandeel van derden geboekt (omdat het derden-deel niet wordt opgenomen).
-
+> [!example]- Voorbeeld: Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % in Filmstudio Florence BV
+> Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % in Filmstudio Florence BV. Filmstudio levert exclusief postproductie aan beide partners en gebruikt hun gemeenschappelijke ICT-systemen.
+>
+> 1. **Toets nauwe integratie** 💬
+>
+>    Operationele indicatoren: exclusieve dienstverlening aan partners + gedeelde ICT → nauw geïntegreerd.
+>    
+>
+> 2. **Toewijzing techniek** 💬
+>
+>    Evenredige consolidatie voor Cardinal én voor Energiehuis (elk 50 %).
+>    Geen aandeel van derden geboekt (omdat het derden-deel niet wordt opgenomen).
+>    
+>
 
 **Grondslag**: [[evenredige-consolidatie]] §toepassingsgebied, KB WVV art. 3:135
 
-> [!warning] Bij evenredige consolidatie nooit een aandeel van derden boeken.
+> [!warning]- Bij evenredige consolidatie nooit een aandeel van derden boeken.
 >
 > _Vaak fout gedaan_: Aannemen dat ook bij evenredige consolidatie een aandeel van derden moet worden geboekt voor het deel buiten de groep.
 >
@@ -154,45 +161,22 @@ Bij een consortium: voer eerst per lid een verticale consolidatie uit, dan integ
 **Grondslag**: [[horizontale-consolidatie]] §toepassingsgebied, WVV art. 3:24 + KB WVV art. 3:124 lid 1
 
 
-## Beslisboom
-
-**Is er een consortium (horizontale groep)?**
-- Ja: Horizontale consolidatie (voor elk lid eerst verticaal, dan samenvoegen). Stop hier voor de keuze.
-- Nee: Ga per entiteit naar volgende vraag.
-
-**Bestaat exclusieve controle?**
-- Ja: Integrale consolidatie.
-- Nee: Ga naar volgende vraag.
-
-**Bestaat gezamenlijke controle en is de dochter nauw geïntegreerd?**
-- Ja: Evenredige consolidatie.
-- Nee: Bestaat gezamenlijke controle maar zonder nauwe integratie, of invloed van betekenis? → Vermogensmutatie.
-
-**Werd de dochter uitgesloten op grond van KB WVV art. 3:98 of art. 3:99?**
-- Ja: Toch opnemen via vermogensmutatie (KB WVV vereist dit).
-- Nee: —
-
-
 ## Voorbeelden
 
-**Situatie**: Aurelia Holding NV bezit 100 % in Brugse Brouwerij BV (exclusieve controle). Aurelia bezit ook 50 % in Filmstudio Florence BV, samen met Cardinal Group NV (50 %) onder aandeelhoudersovereenkomst, met nauwe operationele integratie. Aurelia bezit verder 25 % in Drukkerij Dendermonde BV met bestuursvertegenwoordiging.
+> [!example]- Aurelia Holding NV bezit 100 % in Brugse Brouwerij BV (exclusieve controle)
+> **Conclusie**: Brugse wordt integraal geconsolideerd. Filmstudio wordt evenredig geconsolideerd (50 %). Drukkerij Dendermonde wordt opgenomen via vermogensmutatie.
+>
+> **Grondslag**: [[integrale-consolidatie]] §exclusieve-controle; [[evenredige-consolidatie]] §gezamenlijke-controle-nauwe-integratie; [[vermogensmutatiemethode]] §geassocieerde-onderneming
+>
+> **Redenering**: De kwalificatie van elke entiteit dwingt mechanisch een techniek af. Voor Filmstudio is nauwe integratie aanwezig, dus evenredige consolidatie eerder dan vermogensmutatie.
 
-**Conclusie**: Brugse wordt integraal geconsolideerd. Filmstudio wordt evenredig geconsolideerd (50 %). Drukkerij Dendermonde wordt opgenomen via vermogensmutatie.
+> [!example]- Industria Antwerpen NV bezit 100 % van een eigen dochter
+> **Conclusie**: Industria voert eerst een verticale integrale consolidatie uit (Industria + haar dochter). Vervolgens worden de verticaal geconsolideerde cijfers van Industria en Jachthaven horizontaal samengevoegd via integrale consolidatie, met behoud van het eigen-vermogenkarakter per consortium-lid.
+>
+> **Grondslag**: [[horizontale-consolidatie]] §stappen; [[consortium]] §gezamenlijke-plicht
+>
+> **Redenering**: Het consortium triggert horizontale consolidatie. Eigen dochters van een lid worden eerst verticaal verwerkt voordat horizontale samenvoeging plaatsvindt.
 
-**Grondslag**: [[integrale-consolidatie]] §exclusieve-controle; [[evenredige-consolidatie]] §gezamenlijke-controle-nauwe-integratie; [[vermogensmutatiemethode]] §geassocieerde-onderneming
-
-**Redenering**: De kwalificatie van elke entiteit dwingt mechanisch een techniek af. Voor Filmstudio is nauwe integratie aanwezig, dus evenredige consolidatie eerder dan vermogensmutatie.
-
----
-**Situatie**: Industria Antwerpen NV bezit 100 % van een eigen dochter. Industria en Jachthaven Jezus-Eik NV staan onder centrale leiding van Pieter Vermeulen (consortium).
-
-**Conclusie**: Industria voert eerst een verticale integrale consolidatie uit (Industria + haar dochter). Vervolgens worden de verticaal geconsolideerde cijfers van Industria en Jachthaven horizontaal samengevoegd via integrale consolidatie, met behoud van het eigen-vermogenkarakter per consortium-lid.
-
-**Grondslag**: [[horizontale-consolidatie]] §stappen; [[consortium]] §gezamenlijke-plicht
-
-**Redenering**: Het consortium triggert horizontale consolidatie. Eigen dochters van een lid worden eerst verticaal verwerkt voordat horizontale samenvoeging plaatsvindt.
-
----
 
 ## Gebaseerd op concepten
 

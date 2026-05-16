@@ -19,15 +19,15 @@ gegenereerd_op: '2026-05-16'
 ---
 # Step acquisition (trapsgewijze verwerving) ⚖️
 
-> Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt — met als gevolg dat (a) een eerste deelneming met invloed van betekenis ontstaat of (b) een bestaande geassocieerde wordt opgeschaald, al dan niet tot dochter. Bij elke trap controleer je of de kwalificatie verandert (geen invloed → invloed van betekenis → controle). Verandert ze, dan schakelt ook de consolidatietechniek (van geen consolidatie naar vermogensmutatie, of van vermogensmutatie naar integrale of evenredige consolidatie).
->
-> _Bron: CBN 2013/3 — De boekhoudkundige verwerking van step acquisitions (update)_
-
-
-> [!summary] Korte definitie
+> [!summary] Korte inhoud
 > Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt — met als gevolg dat (a) een eerste deelneming met invloed van betekenis ontstaat of (b) een bestaande geassocieerde wordt opgeschaald, al dan niet tot dochter.
 
 > [!info] Specialisatie van: [[wijziging-consolidatiekring]]
+Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt — met als gevolg dat (a) een eerste deelneming met invloed van betekenis ontstaat of (b) een bestaande geassocieerde wordt opgeschaald, al dan niet tot dochter. Bij elke trap controleer je of de kwalificatie verandert (geen invloed → invloed van betekenis → controle). Verandert ze, dan schakelt ook de consolidatietechniek (van geen consolidatie naar vermogensmutatie, of van vermogensmutatie naar integrale of evenredige consolidatie).
+
+_Bron: CBN 2013/3 — De boekhoudkundige verwerking van step acquisitions (update)_
+
+
 ## Bouwstenen
 
 ### Variant 1 — geassocieerde blijft geassocieerd ⚖️
@@ -63,16 +63,22 @@ _Grondslag: CBN 2013/3_
 
 ## In de praktijk
 
-### Kantelpunten detecteren {id="kantelpunten-detecteren"}
+<h3 id="kantelpunten-detecteren">Kantelpunten detecteren</h3>
 
-Bij elke trap controleer je éérst of de kwalificatie verandert. Drie typische kantelpunten: 0 % → ≥ 20 % (geen invloed → geassocieerde), 20–50 % → > 50 % (geassocieerde → dochter), > 50 % → hoger % (controle behouden maar belang gewijzigd → enkel pro-rata-aanpassing). Bij elk kantelpunt schakelt mogelijk de consolidatietechniek. ⚖️
-
-**Herkenningspunt**: Examen-zin 'Antwerpse koopt eerst 25 %, daarna 35 % bij': twee opeenvolgende kwalificaties — eerst vermogensmutatie (25 %), daarna integrale consolidatie (totaal 60 %). Het is geen één continue boekhoudkundige rekening, maar twee afzonderlijke regimes.
+> [!tip]- Kantelpunten detecteren
+> Bij elke trap controleer je éérst of de kwalificatie verandert. Drie typische kantelpunten: 0 % → ≥ 20 % (geen invloed → geassocieerde), 20–50 % → > 50 % (geassocieerde → dochter), > 50 % → hoger % (controle behouden maar belang gewijzigd → enkel pro-rata-aanpassing). Bij elk kantelpunt schakelt mogelijk de consolidatietechniek. ⚖️
+>
+> > [!tip]- Herkennen op het examen
+> > Examen-zin 'Antwerpse koopt eerst 25 %, daarna 35 % bij': twee opeenvolgende kwalificaties — eerst vermogensmutatie (25 %), daarna integrale consolidatie (totaal 60 %). Het is geen één continue boekhoudkundige rekening, maar twee afzonderlijke regimes.
 
 
 ## Valkuilen
 
-- ⚠️ Bij de overgang van vermogensmutatie naar integrale consolidatie verdwijnt het bestaande consolidatieverschil niet. Voor de bijkomende tranche bereken je een nieuw consolidatieverschil op de aanschaffingsdatum van die nieuwe tranche; het oude residu blijft bestaan voor de eerdere tranche. ⚖️
+> [!warning]- Bij de overgang van vermogensmutatie naar integrale consolidatie verdwijnt het …
+> ⚠️ Bij de overgang van vermogensmutatie naar integrale consolidatie verdwijnt het bestaande consolidatieverschil niet. Voor de bijkomende tranche bereken je een nieuw consolidatieverschil op de aanschaffingsdatum van die nieuwe tranche; het oude residu blijft bestaan voor de eerdere tranche. ⚖️
+>
+> _Bron: CBN 2013/3_
+
 
 ## Zie ook
 

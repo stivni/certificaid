@@ -1,22 +1,34 @@
 {% for bouwsteen in bouwstenen %}
-### {{ bouwsteen.titel if bouwsteen is mapping and bouwsteen.titel else (bouwsteen.text[:80] if bouwsteen is mapping and bouwsteen.text else (bouwsteen[:80] if bouwsteen is string else '')) }} {{ (bouwsteen.confidence if bouwsteen is mapping else 'inferred') | default('inferred') | confidence_label }}
+{% if bouwsteen is mapping %}
+{% set raw_titel = bouwsteen.titel if bouwsteen.titel else (bouwsteen.text[:80] if bouwsteen.text else '') %}
+{% set titel_schoon = raw_titel | regex_replace('\\s*\\(KB WVV.*?\\)\\s*$', '') | regex_replace('\\s*\\(WVV.*?\\)\\s*$', '') %}
+{% set titel_suffix = raw_titel | regex_search('(KB WVV[^)]+|WVV[^)]+)') %}
+### {{ titel_schoon }} {{ bouwsteen.confidence | default('inferred') | confidence_label }}
 
-{% if bouwsteen is mapping and bouwsteen.wat %}
+{% if bouwsteen.wat %}
 {{ bouwsteen.wat }}
-{% elif bouwsteen is mapping and bouwsteen.text %}
+{% elif bouwsteen.text %}
 {{ bouwsteen.text }}
 {% endif %}
 
-{% if bouwsteen is mapping and bouwsteen.waarom %}
+{% if bouwsteen.waarom %}
 **Waarom?** {{ bouwsteen.waarom }}
 {% endif %}
 
-{% if bouwsteen is mapping and bouwsteen.voorbeeld_inline %}
+{% if bouwsteen.voorbeeld_inline %}
 **Voorbeeld**: {{ bouwsteen.voorbeeld_inline }}
 {% endif %}
 
-{% if bouwsteen is mapping and bouwsteen.grondslag %}
+{% if bouwsteen.grondslag %}
 _Grondslag: {{ bouwsteen.grondslag }}_
+{% elif titel_suffix %}
+_Grondslag: {{ titel_suffix }}_
 {% endif %}
 
+{% else %}
+### {{ bouwsteen[:80] if bouwsteen is string else '' }} 🤖
+
+{{ bouwsteen }}
+
+{% endif %}
 {% endfor %}

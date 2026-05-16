@@ -14,16 +14,18 @@
 {% include 'partials/stap.md.j2' %}
 {% endfor %}
 
-{% if competentie.beslisboom %}
-{% set beslisboom = competentie.beslisboom %}
-{% include 'partials/beslisboom.md.j2' %}
-{% endif %}
-
 {% if competentie.voorbeelden %}
 ## Voorbeelden
 
-{% set voorbeelden = competentie.voorbeelden %}
-{% include 'partials/voorbeeld_situatie.md.j2' %}
+{% for voorbeeld in competentie.voorbeelden %}
+> [!example]- {{ voorbeeld.situatie.split('.')[0] }}
+> **Conclusie**: {{ voorbeeld.conclusie }}
+>
+> **Grondslag**: {{ voorbeeld.grondslag }}
+>
+> **Redenering**: {{ voorbeeld.redenering }}
+
+{% endfor %}
 {% endif %}
 
 ## Gebaseerd op concepten

@@ -21,13 +21,13 @@ gegenereerd_op: '2026-05-16'
 ---
 # Consolidatiekring ⚖️
 
-> De lijst van vennootschappen die in de geconsolideerde jaarrekening worden opgenomen: de moeder en al haar dochters. In bepaalde gevallen mag of moet een dochter buiten de lijst worden gehouden; dan wordt zij doorgaans via de vermogensmutatiemethode opgenomen. Natuurlijke personen horen nooit in de consolidatiekring — die zijn geen dochteronderneming in de zin van het WVV.
->
-> _Bron: KB WVV art. 3:96 (algemeen)_
-
-
-> [!summary] Korte definitie
+> [!summary] Korte inhoud
 > De lijst van vennootschappen die in de geconsolideerde jaarrekening worden opgenomen: de moeder en al haar dochters.
+
+De lijst van vennootschappen die in de geconsolideerde jaarrekening worden opgenomen: de moeder en al haar dochters. In bepaalde gevallen mag of moet een dochter buiten de lijst worden gehouden; dan wordt zij doorgaans via de vermogensmutatiemethode opgenomen. Natuurlijke personen horen nooit in de consolidatiekring — die zijn geen dochteronderneming in de zin van het WVV.
+
+_Bron: KB WVV art. 3:96 (algemeen)_
+
 
 > [!info] Uitzondering op: [[integrale-consolidatie]]
 ## Bouwstenen
@@ -75,25 +75,37 @@ _Grondslag: KB WVV art. 3:100_
 
 ## In de praktijk
 
-### Verenigingen en stichtingen {id="verenigingen-en-stichtingen"}
+<h3 id="verenigingen-en-stichtingen">Verenigingen en stichtingen</h3>
 
-Sinds het WVV kunnen verenigingen en stichtingen met een commerciële, financiële of industriële activiteit niet meer ongegrond uit de consolidatiekring worden gehouden. Ze tellen als dochteronderneming (WVV art. 3:22) zodra een vennootschap er controle over heeft. ⚖️
+> [!tip]- Verenigingen en stichtingen
+> Sinds het WVV kunnen verenigingen en stichtingen met een commerciële, financiële of industriële activiteit niet meer ongegrond uit de consolidatiekring worden gehouden. Ze tellen als dochteronderneming (WVV art. 3:22) zodra een vennootschap er controle over heeft. ⚖️
+>
+> > [!tip]- Herkennen op het examen
+> > Vereniging die actief commercieel handelt en gecontroleerd wordt door een vennootschap → behoort tot de consolidatiekring van die vennootschap.
 
-**Herkenningspunt**: Vereniging die actief commercieel handelt en gecontroleerd wordt door een vennootschap → behoort tot de consolidatiekring van die vennootschap.
+<h3 id="aandelen-aangehouden-met-het-oog-op-wederverkoop">Aandelen aangehouden met het oog op wederverkoop</h3>
 
-### Aandelen aangehouden met het oog op wederverkoop {id="aandelen-aangehouden-met-het-oog-op-wederverkoop"}
+> [!tip]- Aandelen aangehouden met het oog op wederverkoop
+> De uitsluitingsgrond 'aandelen uitsluitend met het oog op latere verkoop' wordt streng uitgelegd. Drie cumulatieve voorwaarden: de aandelen moeten uitsluitend gekocht zijn om weer verkocht te worden, het bezit moet tijdelijk zijn, en er moeten concrete stappen richting verkoop zichtbaar zijn (CBN 2011/5). ⚖️
 
-De uitsluitingsgrond 'aandelen uitsluitend met het oog op latere verkoop' wordt streng uitgelegd. Drie cumulatieve voorwaarden: de aandelen moeten uitsluitend gekocht zijn om weer verkocht te worden, het bezit moet tijdelijk zijn, en er moeten concrete stappen richting verkoop zichtbaar zijn (CBN 2011/5). ⚖️
+<h3 id="consolidatiekring-bij-consortium">Consolidatiekring bij consortium</h3>
 
-### Consolidatiekring bij consortium {id="consolidatiekring-bij-consortium"}
-
-Bij een consortium vormen de consortium-leden zelf samen de consolidatiekring (elk verticaal voorgeconsolideerd met hun eigen dochters). De centrale leider (bv. natuurlijke persoon zoals Pieter Vermeulen, of een private stichting) staat erbuiten — natuurlijke personen horen nooit in de kring. ⚖️
+> [!tip]- Consolidatiekring bij consortium
+> Bij een consortium vormen de consortium-leden zelf samen de consolidatiekring (elk verticaal voorgeconsolideerd met hun eigen dochters). De centrale leider (bv. natuurlijke persoon zoals Pieter Vermeulen, of een private stichting) staat erbuiten — natuurlijke personen horen nooit in de kring. ⚖️
 
 
 ## Valkuilen
 
-- ⚠️ 'Uitgesloten uit de consolidatiekring' is niet hetzelfde als 'niet geconsolideerd'. Uitgesloten dochters worden alsnog via de vermogensmutatiemethode opgenomen (KB WVV art. 3:100). Een opgave 'Brugse Brouwerij BV wordt uitgesloten op grond van art. 3:98' betekent nog steeds opname in de geconsolideerde jaarrekening, maar via een andere techniek. ⚖️
-- ⚠️ Uitsluiting wegens 'te verwaarlozen betekenis' (art. 3:97, 1°) moet cumulatief worden beoordeeld als meerdere dochters aan die voorwaarde voldoen. Twee individueel kleine dochters die samen wél significant zijn (bv. Bouwwerf Beerse + Gent Garantie samen 12 % van het groepsbalans-totaal), mogen niet beide worden uitgesloten. ⚖️
+> [!warning]- 'Uitgesloten uit de consolidatiekring' is niet hetzelfde als 'niet geconsolidee…
+> ⚠️ 'Uitgesloten uit de consolidatiekring' is niet hetzelfde als 'niet geconsolideerd'. Uitgesloten dochters worden alsnog via de vermogensmutatiemethode opgenomen (KB WVV art. 3:100). Een opgave 'Brugse Brouwerij BV wordt uitgesloten op grond van art. 3:98' betekent nog steeds opname in de geconsolideerde jaarrekening, maar via een andere techniek. ⚖️
+>
+> _Bron: KB WVV art. 3:100_
+
+> [!warning]- Uitsluiting wegens 'te verwaarlozen betekenis' (art. 3:97, 1°) moet cumulatief …
+> ⚠️ Uitsluiting wegens 'te verwaarlozen betekenis' (art. 3:97, 1°) moet cumulatief worden beoordeeld als meerdere dochters aan die voorwaarde voldoen. Twee individueel kleine dochters die samen wél significant zijn (bv. Bouwwerf Beerse + Gent Garantie samen 12 % van het groepsbalans-totaal), mogen niet beide worden uitgesloten. ⚖️
+>
+> _Bron: KB WVV art. 3:97, 1°_
+
 
 ## Zie ook
 

@@ -20,16 +20,15 @@ gegenereerd_op: '2026-05-16'
 ---
 # Evenredige consolidatie (proportionele consolidatie) ⚖️
 
-> Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke gezamenlijk controlerende moeder op naar rato van haar aandeel in het kapitaal (of in de inbreng bij vennootschappen zonder kapitaal). Alleen jouw pro-rata stuk van de bezittingen, schulden, opbrengsten en kosten komt erin — geen afzonderlijke 'belangen van derden' nodig, want het deel buiten de groep wordt simpelweg niet opgenomen.
->
-> _Bron: KB WVV art. 3:124, 2° jo. art. 3:140_
-
-
-> [!summary] Korte definitie
+> [!summary] Korte inhoud
 > Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke gezamenlijk controlerende moeder op naar rato van haar aandeel in het kapitaal (of in de inbreng bij vennootschappen zonder kapitaal).
 
 > [!info] Behoort tot: [[consolidatiemethodes-vergelijking]]
-> [!info] Bestaat uit: [[intragroep-eliminaties]]
+Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke gezamenlijk controlerende moeder op naar rato van haar aandeel in het kapitaal (of in de inbreng bij vennootschappen zonder kapitaal). Alleen jouw pro-rata stuk van de bezittingen, schulden, opbrengsten en kosten komt erin — geen afzonderlijke 'belangen van derden' nodig, want het deel buiten de groep wordt simpelweg niet opgenomen.
+
+_Bron: KB WVV art. 3:124, 2° jo. art. 3:140_
+
+
 ## Bouwstenen
 
 ### Pro-rata opname ⚖️
@@ -105,7 +104,121 @@ te elimineren winst = nog-niet-gerealiseerde winst op intra-groepsverkoop × bel
 _Resultaat in EUR_
 *Bij gezamenlijke controle deel je de zeggenschap met andere vennoten. De geconsolideerde jaarrekening laat dat zien door alleen jouw deel van bezittingen, schulden, opbrengsten en kosten op te nemen. Het deel buiten de groep verschijnt niet — er is dus geen derden-post zoals bij integrale consolidatie.*
 
-### . 
+### 1. Bepaal jouw belangenpercentage in de gemeenschappelijke dochter
+
+Bereken welk percentage van het kapitaal (of de inbreng) jouw moeder en haar dochters in de consolidatiekring samen in de gemeenschappelijke dochter aanhouden.
+
+**Waarom?** Dit percentage is jouw 'pro-rata-factor'. Een verkeerd percentage hier zorgt voor verkeerde bedragen in elke post van de geconsolideerde balans en resultatenrekening.
+
+**📥 Input**:
+- Aandeelhoudersregister gemeenschappelijke dochter → **Aandeel in kapitaal van moeder + groepsleden** _(percentage)_
+
+**📤 Output**:
+- Werkblad evenredige consolidatie → **Pro-rata-percentage** _(percentage)_
+
+**🛠️ Hoe**:
+
+1. Open het aandeelhoudersregister van Filmstudio Florence BV.
+2. Tel het aandeel van Cardinal Group NV (50 %) bij het aandeel van eventuele Cardinal-dochters (bv. 0 %) — totaal 50 %.
+3. Dit is jouw pro-rata-percentage.
+4. Let op: dit is het belangenpercentage (kapitaal), niet het controlepercentage. Bij 50/50 met overeenkomst is de controle gedeeld maar het belang exact 50 %.
+
+
+**Grondslag**: KB WVV art. 3:140, b
+
+### 2. Vermenigvuldig elke post van de dochter met het percentage
+
+Pas het pro-rata-percentage toe op elke afzonderlijke balanspost en elke afzonderlijke post van de resultatenrekening van de gemeenschappelijke dochter.
+
+**Waarom?** Pro-rata opname werkt regel voor regel, niet als één samengevatte deelneming. Daardoor blijft de groepsstructuur transparant per post (vaste activa, voorraden, schulden, …).
+
+**📥 Input**:
+- Balans + resultatenrekening gemeenschappelijke dochter → **Alle posten** _(boekhoudkundig-bedrag)_
+- Werkblad evenredige consolidatie → **Pro-rata-percentage** _(percentage)_
+
+**📤 Output**:
+- Werkblad evenredige consolidatie → **Pro-rata bedragen per post** _(boekhoudkundig-bedrag)_
+
+**🛠️ Hoe**:
+
+1. Voor elke balanspost van Filmstudio Florence: vermenigvuldig met 50 %. Vaste activa 800 → 400; voorraden 200 → 100; kas 100 → 50; eigen vermogen 600 → 300; schulden 500 → 250.
+2. Voor elke resultatenpost: idem. Omzet 1.000 → 500; kosten 800 → 400; resultaat 200 → 100.
+3. Schrijf elke pro-rata-uitkomst in je werkblad.
+
+
+**Grondslag**: KB WVV art. 3:140, b
+
+### 3. Tel de pro-rata bedragen op bij de moeder + integraal geconsolideerde dochters
+
+Voeg de pro-rata bedragen samen met de overeenkomstige posten van de moeder en van alle dochters die je integraal consolideert.
+
+**Waarom?** De gemeenschappelijke dochter komt zo, voor haar pro-rata deel, gewoon mee in de groepsbalans en -resultatenrekening — naast de volledig opgenomen integrale dochters.
+
+**📥 Input**:
+- Werkblad evenredige consolidatie → **Pro-rata bedragen** _(boekhoudkundig-bedrag)_
+- Geconsolideerde balans/resultatenrekening (tussentijds) → **Bedragen moeder + integrale dochters** _(boekhoudkundig-bedrag)_
+
+**📤 Output**:
+- Geconsolideerde balans + resultatenrekening → **Bijgewerkte posten** _(nieuwe-balanspost)_
+
+**🛠️ Hoe**:
+
+1. Open de tussentijdse geconsolideerde balans (moeder + integrale dochters).
+2. Tel post per post de pro-rata bedragen van Filmstudio Florence erbij.
+3. Idem voor de resultatenrekening.
+4. Belangrijke uitzondering: nog niet met intra-groepselimaties — die volgen in stap 4.
+
+
+> [!example]- Voorbeeld: Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV
+> Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV. Balans Filmstudio: vaste activa 800, voorraden 200, kas 100; eigen vermogen 600, schulden 500. Resultaat: omzet 1.000, kosten 800, resultaat 200.
+>
+> 1. **Pro-rata-percentage voor Cardinal** 🧮
+>
+>    Cardinal in Filmstudio = **50 %**
+>
+> 2. **Pro-rata balanspos­ten (Filmstudio → 50 %)** 📊
+>
+>    | Post                       | Filmstudio | × 50 %  |
+>    |----------------------------|-----------:|--------:|
+>    | Vaste activa               |        800 |     400 |
+>    | Voorraden                  |        200 |     100 |
+>    | Kas                        |        100 |      50 |
+>    | **Totaal activa**          |   **1100** | **550** |
+>    | Eigen vermogen             |        600 |     300 |
+>    | Schulden aan derden        |        500 |     250 |
+>    | **Totaal passiva**         |   **1100** | **550** |
+>
+> 3. **Pro-rata resultatenrekening** 🧮
+>
+>    Omzet: 50 % × 1.000 = **500**
+>    Kosten: 50 % × 800 = **400**
+>    Resultaat: 50 % × 200 = **100**
+>
+
+**Grondslag**: KB WVV art. 3:140, b
+
+### 4. Schrap intragroep-posten — op het pro-rata deel
+
+Pas de compensatie- en eliminatieregels (KB WVV art. 3:127, 3:128, 3:130, 3:134, 3:136) toe — maar enkel op het pro-rata deel.
+
+**Waarom?** Een joint venture is voor de groep geen volledige interne speler maar voor jouw stuk wel. Je elimineert dus pro-rata: een intra-groepsverkoop wordt niet voor 100 % weggeboekt, maar voor jouw belang × bedrag.
+
+**📥 Input**:
+- Lijst transacties tussen moedergroep en gemeenschappelijke dochter → **Bedragen + winstmarge** _(boekhoudkundig-bedrag)_
+- Werkblad evenredige consolidatie → **Pro-rata-percentage** _(percentage)_
+
+**📤 Output**:
+- Geconsolideerde balans + resultatenrekening → **Geëlimineerde posten** _(geëlimineerde-post)_
+
+**🛠️ Hoe**:
+
+1. Maak een lijst van alle vorderingen, schulden, verkopen en aankopen tussen Cardinal (of haar dochters) en Filmstudio Florence.
+2. Elimineer pro-rata: bedrag × 50 %.
+3. Voorbeeld: intra-groepsverkoop van Filmstudio aan Cardinal voor 60, met winstmarge 10 nog in voorraad bij Cardinal → schrap 50 % × 10 = 5 winst uit de geconsolideerde voorraad én uit het geconsolideerd resultaat.
+4. Compensatie van Cardinal's deelneming Filmstudio met haar pro-rata aandeel in Filmstudio's EV: idem, op pro-rata basis.
+
+
+**Grondslag**: KB WVV art. 3:140, a) jo. art. 3:127–3:136
 
 **Voorbeeld**: Cardinal Group NV en Energiehuis Evergem BV oefenen gezamenlijke controle uit over Filmstudio Florence BV via een aandeelhoudersovereenkomst — elk bezit 50 % van het kapitaal. Balans Filmstudio Florence: vaste activa 800, voorraden 200, kas 100; eigen vermogen 600, schulden 500. Resultatenrekening: omzet 1.000, kosten 800, resultaat 200. Cardinal koopt voor 60 goederen bij Filmstudio (intra-groepsverkoop, nog in voorraad bij Cardinal; Filmstudio realiseerde daarop 10 winst).
 
@@ -120,28 +233,42 @@ Resultaat: In de geconsolideerde balans van Cardinal verschijnen 550 activa en 2
 
 ## In de praktijk
 
-### Wanneer toepassen {id="wanneer-toepassen"}
+<h3 id="wanneer-toepassen">Wanneer toepassen</h3>
 
-Standaard voor gemeenschappelijke dochters bij gezamenlijke controle. Uitzondering: gemeenschappelijke dochters die niet nauw geïntegreerd zijn in de activiteit van de moeder mogen via vermogensmutatie worden verwerkt (CBN 2013/3). ⚖️
+> [!tip]- Wanneer toepassen
+> Standaard voor gemeenschappelijke dochters bij gezamenlijke controle. Uitzondering: gemeenschappelijke dochters die niet nauw geïntegreerd zijn in de activiteit van de moeder mogen via vermogensmutatie worden verwerkt (CBN 2013/3). ⚖️
+>
+> > [!tip]- Herkennen op het examen
+> > Gezamenlijke controle (overeenkomst, vetorecht) + integratie → evenredige consolidatie.
 
-**Herkenningspunt**: Gezamenlijke controle (overeenkomst, vetorecht) + integratie → evenredige consolidatie.
 
+## Voorwaarden / uitzonderingen
 
-<details>
-<summary><strong>Niet verwarren met</strong> (2 vergelijkingen)</summary>
+- Er moet gezamenlijke controle bestaan over de gemeenschappelijke dochter: een overeenkomst dat beleidsbeslissingen alleen met gemeenschappelijke instemming kunnen worden genomen. ⚖️
+- De activiteit van de gemeenschappelijke dochter moet voldoende geïntegreerd zijn in die van de gezamenlijk controlerende moeder. Is de activiteit niet nauw geïntegreerd, dan kun je in plaats van evenredige consolidatie de vermogensmutatiemethode gebruiken (CBN 2013/3). ⚖️
+> [!info]- Niet verwarren met [[integrale-consolidatie]]
+> Integraal = 100 % opname met afzondering van derden-deel via 'Belangen van derden'. Evenredig = pro-rata opname (% kapitaaldeelname), geen derden-post.
+>
+> _Trigger_: Soort controle bepaalt de methode: exclusieve controle → integraal; gezamenlijke controle → evenredig (of vermogensmutatie als niet-geïntegreerd).
 
-- **vs [[integrale-consolidatie]]** — Integraal = 100 % opname met afzondering van derden-deel via 'Belangen van derden'. Evenredig = pro-rata opname (% kapitaaldeelname), geen derden-post.
-  - _Trigger_: Soort controle bepaalt de methode: exclusieve controle → integraal; gezamenlijke controle → evenredig (of vermogensmutatie als niet-geïntegreerd).
-- **vs [[vermogensmutatiemethode]]** — Evenredige consolidatie neemt bezittingen/schulden regel voor regel pro-rata op. Vermogensmutatie houdt de deelneming als één gesynthetiseerde post ('Vennootschappen waarop vermogensmutatie is toegepast'). Bij gezamenlijke controle van een niet-geïntegreerde dochter mag je kiezen voor vermogensmutatie.
-  - _Trigger_: Mate van integratie van de gemeenschappelijke dochter in de groep — nauw geïntegreerd → evenredig; los → vermogensmutatie.
-
-</details>
+> [!info]- Niet verwarren met [[vermogensmutatiemethode]]
+> Evenredige consolidatie neemt bezittingen/schulden regel voor regel pro-rata op. Vermogensmutatie houdt de deelneming als één gesynthetiseerde post ('Vennootschappen waarop vermogensmutatie is toegepast'). Bij gezamenlijke controle van een niet-geïntegreerde dochter mag je kiezen voor vermogensmutatie.
+>
+> _Trigger_: Mate van integratie van de gemeenschappelijke dochter in de groep — nauw geïntegreerd → evenredig; los → vermogensmutatie.
 
 
 ## Valkuilen
 
-- ⚠️ Het opgenomen pro-rata deel volgt het belangenpercentage (kapitaal), niet het controlepercentage. Een 50/50-joint venture wordt voor 50 % opgenomen, ook al heeft elke vennoot via de overeenkomst eigenlijk een gelijke beleidsmacht (gedeelde 100 % controle). ⚖️
-- ⚠️ Intra-groepsverkopen tussen moeder en gemeenschappelijke dochter worden geëlimineerd op het pro-rata deel — niet voor 100 %. Andere bronnen (oudere W.Venn., IFRS 11) kennen andere regels; in WVV-context geldt de pro-rata-eliminatie. 🤖
+> [!warning]- Het opgenomen pro-rata deel volgt het belangenpercentage (kapitaal), niet het c…
+> ⚠️ Het opgenomen pro-rata deel volgt het belangenpercentage (kapitaal), niet het controlepercentage. Een 50/50-joint venture wordt voor 50 % opgenomen, ook al heeft elke vennoot via de overeenkomst eigenlijk een gelijke beleidsmacht (gedeelde 100 % controle). ⚖️
+>
+> _Bron: KB WVV art. 3:140, b_
+
+> [!warning]- Intra-groepsverkopen tussen moeder en gemeenschappelijke dochter worden geëlimi…
+> ⚠️ Intra-groepsverkopen tussen moeder en gemeenschappelijke dochter worden geëlimineerd op het pro-rata deel — niet voor 100 %. Andere bronnen (oudere W.Venn., IFRS 11) kennen andere regels; in WVV-context geldt de pro-rata-eliminatie. 🤖
+>
+> _Bron: KB WVV art. 3:140, a_
+
 
 ## Zie ook
 

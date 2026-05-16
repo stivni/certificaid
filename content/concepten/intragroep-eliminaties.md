@@ -20,15 +20,15 @@ gegenereerd_op: '2026-05-16'
 ---
 # Intragroep-eliminaties ⚖️
 
-> Bij het opstellen van de geconsolideerde jaarrekening moet je alle onderlinge opbrengsten en kosten, vorderingen en schulden, en niet-gerealiseerde winsten of verliezen tussen groepsleden schrappen. Anders zou dezelfde transactie dubbel verschijnen, en zou de groep winst boeken op verkopen aan zichzelf — winst die economisch nog niet is gerealiseerd buiten de groep.
->
-> _Bron: KB WVV art. 3:134 jo. art. 3:136_
-
-
-> [!summary] Korte definitie
+> [!summary] Korte inhoud
 > Bij het opstellen van de geconsolideerde jaarrekening moet je alle onderlinge opbrengsten en kosten, vorderingen en schulden, en niet-gerealiseerde winsten of verliezen tussen groepsleden schrappen.
 
 > [!info] Behoort tot: [[integrale-consolidatie]] · [[evenredige-consolidatie]]
+Bij het opstellen van de geconsolideerde jaarrekening moet je alle onderlinge opbrengsten en kosten, vorderingen en schulden, en niet-gerealiseerde winsten of verliezen tussen groepsleden schrappen. Anders zou dezelfde transactie dubbel verschijnen, en zou de groep winst boeken op verkopen aan zichzelf — winst die economisch nog niet is gerealiseerd buiten de groep.
+
+_Bron: KB WVV art. 3:134 jo. art. 3:136_
+
+
 ## Berekening
 
 ### Eliminatie van niet-gerealiseerde winst in voorraad (intra-groepsverkoop)
@@ -69,7 +69,158 @@ pro-rata eliminatie = volle eliminatie × belangenpercentage moeder in gemeensch
 _Resultaat in EUR_
 *Het marge-deel op een interne verkoop is voor de groep economisch niet gerealiseerd zolang het goed nog in de groep zit. Het actief moet in de geconsolideerde balans terug naar de oorspronkelijke kostprijs voor de groep, en de interne winst mag niet in de geconsolideerde reserves blijven hangen.*
 
-### . 
+### 1. Breng de intra-groepsverkoop in kaart
+
+Noteer wie verkocht (verkoper), wie kocht (koper), de totale interne verkoopprijs en de brutomarge% van de verkoper.
+
+**Waarom?** Een correcte berekening start met een correct gedocumenteerde transactie. Foute marge of verkeerd bedrag werkt door in elke volgende stap.
+
+**📥 Input**:
+- Boekhouding verkoper → **Verkoopfactuur, kostprijs, marge** _(document)_
+
+**📤 Output**:
+- Werkblad eliminatie → **Interne verkoopprijs + marge%** _(boekhoudkundig-bedrag)_
+
+**🛠️ Hoe**:
+
+1. Open de boekhouding van Aurelia Holding NV (verkoper).
+2. Bepaal de totale interne verkoopprijs voor de verkoop aan Brugse Brouwerij BV: 100.
+3. Bepaal de kostprijs voor Aurelia: 70.
+4. Brutomarge = (100 − 70)/100 = 30 %.
+
+
+**Grondslag**: KB WVV art. 3:134, 2°
+
+### 2. Bepaal de restvoorraad op balansdatum
+
+Stel vast hoeveel van het verkochte goed op balansdatum nog in voorraad zit bij de koper — uitgedrukt in de interne aankoopprijs (= wat Brugse heeft betaald).
+
+**Waarom?** Alleen het deel dat nog binnen de groep zit, is economisch niet gerealiseerd. Wat al aan derden buiten de groep is doorverkocht, is wel echt winst geworden.
+
+**📥 Input**:
+- Voorraadinventaris koper → **Resterende hoeveelheid × interne aankoopprijs** _(boekhoudkundig-bedrag)_
+
+**📤 Output**:
+- Werkblad eliminatie → **Restvoorraad (interne aankoopprijs)** _(boekhoudkundig-bedrag)_
+
+**🛠️ Hoe**:
+
+1. Tel hoeveel goederen van de interne aankoop nog in de voorraad van Brugse Brouwerij BV liggen.
+2. Vermenigvuldig met de interne aankoopprijs per eenheid.
+3. Bv. 40 % van wat Brugse intern aankocht zit nog in voorraad → 40 % × 100 = 40 (in interne aankoopprijs).
+
+
+**Grondslag**: KB WVV art. 3:134, 2°
+
+### 3. Bereken de te elimineren winst
+
+Niet-gerealiseerde winst = restvoorraad (interne aankoopprijs) × brutomarge%.
+
+**Waarom?** Dit is precies het stuk groepswinst dat nog niet door verkoop aan derden is bewezen. Door dit te schrappen, presenteer je de voorraad opnieuw tegen de oorspronkelijke kostprijs voor de groep.
+
+**📥 Input**:
+- Werkblad eliminatie → **Restvoorraad + marge%** _(boekhoudkundig-bedrag)_
+
+**📤 Output**:
+- Werkblad eliminatie → **Te elimineren winst** _(boekhoudkundig-bedrag)_
+
+**🛠️ Hoe**:
+
+1. Neem de restvoorraad uit stap 2: 40.
+2. Neem de marge uit stap 1: 30 %.
+3. Niet-gerealiseerde winst = 40 × 30 % = 12.
+
+
+**Grondslag**: KB WVV art. 3:134, 2°
+
+### 4. Schrap de winst uit voorraad en reserves
+
+Boekhoudkundige eliminatie op de balans: 'Voorraden' en 'Geconsolideerde reserves' elk verminderen met de te elimineren winst.
+
+**Waarom?** De voorraad gaat terug naar oorspronkelijke kostprijs voor de groep; het reserves-deel reflecteert dat de winst nog niet is verdiend.
+
+**📥 Input**:
+- Werkblad eliminatie → **Te elimineren winst** _(boekhoudkundig-bedrag)_
+
+**📤 Output**:
+- Geconsolideerde balans → **Voorraden + reserves** _(geëlimineerde-post)_
+
+**🛠️ Hoe**:
+
+1. Open de geconsolideerde balans.
+2. Verlaag 'Voorraden' met 12: 40 → 28.
+3. Verlaag 'Geconsolideerde reserves' met 12.
+4. De voorraad van Brugse staat nu op 28 (= 40 − 12), wat overeenstemt met de oorspronkelijke kostprijs voor de groep (70 % × 40 = 28).
+
+
+> [!example]- Voorbeeld: Aurelia Holding NV verkocht in boekjaar 20X1 voor 100 goederen aan Brugse Brouwerij BV met 30 % marge
+> Aurelia Holding NV verkocht in boekjaar 20X1 voor 100 goederen aan Brugse Brouwerij BV met 30 % marge. Brugse heeft op 31 december 20X1 nog 40 in voorraad (uitgedrukt in interne aankoopprijs); 60 is al aan derden doorverkocht.
+>
+> 1. **Te elimineren winst** 🧮
+>
+>    Restvoorraad bij Brugse: **40** (interne aankoopprijs)
+>    Brutomarge Aurelia: **30 %**
+>    Te elimineren winst = 40 × 30 % = **12**
+>
+> 2. **Balans-eliminatie** 📝
+>
+>    Activa: Voorraden Brugse −12 (40 → 28)
+>    Passiva: Geconsolideerde reserves −12
+>    Voorraad staat nu op 28 = oorspronkelijke kostprijs voor de groep (70 % × 40).
+>
+> 3. **P&L-eliminatie (zie stap 5)** 📝
+>
+>    Omzet Aurelia −100
+>    Kostprijs verkochte goederen Brugse −100
+>    (P&L-eliminatie gaat altijd voor de volledige 100, ongeacht restvoorraad — alleen de niet-gerealiseerde winst gaat via reserves.)
+>
+
+**Grondslag**: KB WVV art. 3:134, 2°
+
+### 5. Schrap de interne omzet en kostprijs uit de P&L
+
+Op de geconsolideerde resultatenrekening: schrap de volledige interne omzet bij de verkoper én de volledige interne aankoopkost bij de koper — voor exact hetzelfde bedrag, ongeacht of het goed nog in voorraad zit.
+
+**Waarom?** De P&L-eliminatie gaat altijd voor 100 %: de groep mag economisch geen omzet boeken op verkopen aan zichzelf. De marge-correctie via reserves (stap 4) regelt de winst-realisatie.
+
+**📥 Input**:
+- Resultatenrekening verkoper + koper → **Interne omzet + interne kostprijs** _(boekhoudkundig-bedrag)_
+
+**📤 Output**:
+- Geconsolideerde resultatenrekening → **Omzet + kostprijs** _(geëlimineerde-post)_
+
+**🛠️ Hoe**:
+
+1. Identificeer de volledige interne omzet bij de verkoper: 100.
+2. Identificeer de bijbehorende kostprijs verkochte goederen bij de koper: 100 (= wat Brugse betaalde aan Aurelia).
+3. Schrap beide: omzet −100, kostprijs −100.
+4. Geconsolideerd resultaat van deze transactie blijft technisch netto 0 in de P&L; de niet-gerealiseerde winst (12) is via stap 4 uit de reserves gegaan.
+
+
+**Grondslag**: KB WVV art. 3:136, 1°
+
+### 6. Bij evenredige consolidatie: alle stappen × belangenpercentage
+
+Voor gemeenschappelijke dochters die evenredig worden geconsolideerd: vermenigvuldig elke eliminatie (winst in voorraad, omzet, kostprijs) met het belangenpercentage van de moeder. Geen 100 %-eliminatie.
+
+**Waarom?** Alleen jouw pro-rata stuk zit in de geconsolideerde jaarrekening; volledige eliminatie zou te veel wegnemen.
+
+**📥 Input**:
+- Werkblad eliminatie → **Volle eliminatie-bedragen** _(boekhoudkundig-bedrag)_
+- Aandeelhoudersstructuur → **Belangenpercentage moeder in gemeenschappelijke dochter** _(percentage)_
+
+**📤 Output**:
+- Geconsolideerde balans + resultatenrekening → **Pro-rata eliminaties** _(geëlimineerde-post)_
+
+**🛠️ Hoe**:
+
+1. Identificeer dat de tegenpartij een gemeenschappelijke dochter is (evenredig geconsolideerd).
+2. Neem het belangenpercentage van de moeder: bv. 50 % voor Cardinal in Filmstudio Florence.
+3. Pas elke eliminatie aan: vermenigvuldig met 50 %.
+4. Voorbeeld: niet-gerealiseerde winst 12 → 12 × 50 % = 6 te elimineren. Interne omzet 100 → 50 te elimineren. Kostprijs 100 → 50 te elimineren.
+
+
+**Grondslag**: KB WVV art. 3:140, a
 
 **Voorbeeld**: Aurelia Holding NV verkoopt voor 100 goederen aan Brugse Brouwerij BV (100 % integrale consolidatie). Aurelia realiseert daarop een brutomarge van 30 % (kostprijs voor Aurelia = 70, marge = 30). Op balansdatum heeft Brugse nog 40 % van die goederen in voorraad (oorspronkelijke interne aankoopprijs = 40); de overige 60 (interne prijs) is reeds aan derden buiten de groep doorverkocht.
 
@@ -81,15 +232,18 @@ Resultaat: Geconsolideerde balans: voorraden en reserves elk −12. Geconsolidee
 
 ## In de praktijk
 
-### Verkocht actief vs. verkochte dienst {id="verkocht-actief-vs-verkochte-dienst"}
+<h3 id="verkocht-actief-vs-verkochte-dienst">Verkocht actief vs. verkochte dienst</h3>
 
-Bij intra-groepsverkoop van een actief dat bij de koper nog op de balans staat (voorraad, materieel actief), schrap je zowel de winst (kostprijs, opbrengsten) als de boekwaarde-aanpassing. Bij intra-groepsdiensten (administratie, beheersvergoedingen) volstaat het wederzijds schrappen van opbrengsten en kosten — er is geen impact op activa want de dienst is al verbruikt. 🤖
+> [!tip]- Verkocht actief vs. verkochte dienst
+> Bij intra-groepsverkoop van een actief dat bij de koper nog op de balans staat (voorraad, materieel actief), schrap je zowel de winst (kostprijs, opbrengsten) als de boekwaarde-aanpassing. Bij intra-groepsdiensten (administratie, beheersvergoedingen) volstaat het wederzijds schrappen van opbrengsten en kosten — er is geen impact op activa want de dienst is al verbruikt. 🤖
+>
+> > [!tip]- Herkennen op het examen
+> > Vraag: zit het verkochte actief op balansdatum nog binnen de groep? Ja → ook marge-eliminatie in actief. Nee → enkel P&L-eliminatie.
 
-**Herkenningspunt**: Vraag: zit het verkochte actief op balansdatum nog binnen de groep? Ja → ook marge-eliminatie in actief. Nee → enkel P&L-eliminatie.
+<h3 id="belastinggevolgen-op-intragroep-winst">Belastinggevolgen op intragroep-winst</h3>
 
-### Belastinggevolgen op intragroep-winst {id="belastinggevolgen-op-intragroep-winst"}
-
-Bij eliminatie van een intra-groepswinst kan een tijdelijk belastingverschil ontstaan: de winst is fiscaal al belast (bij de verkopende dochter), maar bij consolidatie ongerealiseerd. KB WVV art. 3:119 regelt de behandeling van dat belastingverschil bij consolidatie. 🤖
+> [!tip]- Belastinggevolgen op intragroep-winst
+> Bij eliminatie van een intra-groepswinst kan een tijdelijk belastingverschil ontstaan: de winst is fiscaal al belast (bij de verkopende dochter), maar bij consolidatie ongerealiseerd. KB WVV art. 3:119 regelt de behandeling van dat belastingverschil bij consolidatie. 🤖
 
 
 ## Stappen
@@ -232,8 +386,16 @@ In de toelichting bij de geconsolideerde jaarrekening: zorg dat informatie over 
 
 ## Valkuilen
 
-- ⚠️ Eliminaties kunnen om materialiteitsredenen achterwege blijven (KB WVV art. 3:138 jo. art. 3:139), maar de toets is 'van te verwaarlozen betekenis, gelet op het doel van art. 3:105 (getrouw beeld)'. Beoordeel altijd op groepsniveau, niet op de individuele post — twee individueel kleine eliminaties die samen significant zijn moet je niet beide overslaan. ⚖️
-- ⚠️ Een intra-groepsverkoop tegen kostprijs (zonder marge) levert geen te elimineren winst op de balans op — er valt niets uit reserves te halen. Maar opbrengsten en kosten moet je nog steeds uit de geconsolideerde resultatenrekening schrappen (KB WVV art. 3:136, 1°). ⚖️
+> [!warning]- Eliminaties kunnen om materialiteitsredenen achterwege blijven (KB WVV art. 3:1…
+> ⚠️ Eliminaties kunnen om materialiteitsredenen achterwege blijven (KB WVV art. 3:138 jo. art. 3:139), maar de toets is 'van te verwaarlozen betekenis, gelet op het doel van art. 3:105 (getrouw beeld)'. Beoordeel altijd op groepsniveau, niet op de individuele post — twee individueel kleine eliminaties die samen significant zijn moet je niet beide overslaan. ⚖️
+>
+> _Bron: KB WVV art. 3:139_
+
+> [!warning]- Een intra-groepsverkoop tegen kostprijs (zonder marge) levert geen te eliminere…
+> ⚠️ Een intra-groepsverkoop tegen kostprijs (zonder marge) levert geen te elimineren winst op de balans op — er valt niets uit reserves te halen. Maar opbrengsten en kosten moet je nog steeds uit de geconsolideerde resultatenrekening schrappen (KB WVV art. 3:136, 1°). ⚖️
+>
+> _Bron: KB WVV art. 3:136, 1°_
+
 
 ## Zie ook
 

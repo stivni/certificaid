@@ -63,7 +63,7 @@ Lijst alle entiteiten op waarover de moeder controlebevoegdheid heeft.
 
 **Grondslag**: [[dochteronderneming]] §definitie, WVV art. 3:22
 
-> [!warning] Inventariseer ook verenigingen, stichtingen en buitenlandse instellingen.
+> [!warning]- Inventariseer ook verenigingen, stichtingen en buitenlandse instellingen.
 >
 > _Vaak fout gedaan_: Alleen klassieke handelsvennootschappen meetellen in de kring.
 >
@@ -92,23 +92,27 @@ Toets per dochter aan de vier wettelijke weglatingsgronden van KB WVV art. 3:97.
 4. Hou in gedachte: weglating is uitzondering, opname is regel.
 
 
-**Voorbeeld**: Aurelia Holding NV heeft drie dochters: Brugse Brouwerij BV (volledig gecontroleerd, materieel), Logistics Lille SAS (productie-eenheid in een land met deviezenrestricties), Gent Garantie BV (omzet 8.000 EUR).
-
-**Substap 1 — Toets per dochter** 🧮
-| Dochter                | Grond                              | Wettelijk artikel | Beslissing      |
-|------------------------|------------------------------------|-------------------|-----------------|
-| Brugse Brouwerij BV    | Geen weglatingsgrond               | —                 | Opname in kring |
-| Logistics Lille SAS    | Duurzame controlebeperking         | KB WVV art. 3:97  | Weglaten        |
-| Gent Garantie BV       | Te verwaarlozen betekenis          | KB WVV art. 3:97  | Weglaten        |
-
-
-**Substap 2 — Werkpapier consolidatiekring** 💬
-Logistics Lille SAS en Gent Garantie BV worden vermeld in de toelichting met motivering. Zij worden alsnog opgenomen via vermogensmutatie (zie stap 4).
-
+> [!example]- Voorbeeld: Aurelia Holding NV heeft drie dochters: Brugse Brouwerij BV (volledig gecontroleerd, materieel), Logistics Lille SAS (productie-eenheid in een land met deviezenrestricties), Gent Garantie BV (omzet 8
+> Aurelia Holding NV heeft drie dochters: Brugse Brouwerij BV (volledig gecontroleerd, materieel), Logistics Lille SAS (productie-eenheid in een land met deviezenrestricties), Gent Garantie BV (omzet 8.000 EUR).
+>
+> 1. **Toets per dochter** 🧮
+>
+>    | Dochter                | Grond                              | Wettelijk artikel | Beslissing      |
+>    |------------------------|------------------------------------|-------------------|-----------------|
+>    | Brugse Brouwerij BV    | Geen weglatingsgrond               | —                 | Opname in kring |
+>    | Logistics Lille SAS    | Duurzame controlebeperking         | KB WVV art. 3:97  | Weglaten        |
+>    | Gent Garantie BV       | Te verwaarlozen betekenis          | KB WVV art. 3:97  | Weglaten        |
+>    
+>
+> 2. **Werkpapier consolidatiekring** 💬
+>
+>    Logistics Lille SAS en Gent Garantie BV worden vermeld in de toelichting met motivering. Zij worden alsnog opgenomen via vermogensmutatie (zie stap 4).
+>    
+>
 
 **Grondslag**: [[consolidatiekring]] §uitsluitingsgronden, KB WVV art. 3:97 en 3:98
 
-> [!warning] Weglating vereist altijd één van de vier wettelijke gronden.
+> [!warning]- Weglating vereist altijd één van de vier wettelijke gronden.
 >
 > _Vaak fout gedaan_: Een dochter weglaten omdat consolideren administratief lastig is.
 >
@@ -158,27 +162,22 @@ Lijst de geassocieerde ondernemingen (invloed van betekenis) en de gemeenschappe
 **Grondslag**: [[geassocieerde-onderneming]] §kwalificatie, [[gemeenschappelijke-dochteronderneming]] §kwalificatie
 
 
-
 ## Voorbeelden
 
-**Situatie**: Aurelia Holding NV heeft drie dochters. Brugse Brouwerij BV is volledig gecontroleerd en materieel. Logistics Lille SAS is een productie-eenheid in een land met deviezenrestricties die overdracht van gegevens duurzaam belemmeren. Gent Garantie BV heeft een omzet van enkele duizenden EUR.
+> [!example]- Aurelia Holding NV heeft drie dochters
+> **Conclusie**: Brugse wordt opgenomen in de kring. Logistics mag worden weggelaten wegens duurzame controlebeperking. Gent Garantie mag worden weggelaten wegens te verwaarlozen betekenis. Logistics en Gent Garantie worden alsnog via vermogensmutatie verwerkt.
+>
+> **Grondslag**: [[consolidatiekring]] §uitsluitingsgronden; KB WVV art. 3:97
+>
+> **Redenering**: Twee van de vier wettelijke weglatingsgronden zijn van toepassing. Logistics en Gent Garantie verdwijnen niet uit het beeld — zij komen via vermogensmutatie terug.
 
-**Conclusie**: Brugse wordt opgenomen in de kring. Logistics mag worden weggelaten wegens duurzame controlebeperking. Gent Garantie mag worden weggelaten wegens te verwaarlozen betekenis. Logistics en Gent Garantie worden alsnog via vermogensmutatie verwerkt.
+> [!example]- Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV
+> **Conclusie**: Filmstudio Florence BV is een gemeenschappelijke dochter van Cardinal en Energiehuis. Filmstudio wordt evenredig opgenomen in de geconsolideerde jaarrekening van Cardinal én van Energiehuis (elk voor 50 %).
+>
+> **Grondslag**: [[gemeenschappelijke-dochteronderneming]] §gezamenlijke-controle
+>
+> **Redenering**: De aandeelhoudersovereenkomst kwalificeert de relatie als gezamenlijke controle. Filmstudio is daarmee gemeenschappelijke dochter en wordt pro-rata opgenomen.
 
-**Grondslag**: [[consolidatiekring]] §uitsluitingsgronden; KB WVV art. 3:97
-
-**Redenering**: Twee van de vier wettelijke weglatingsgronden zijn van toepassing. Logistics en Gent Garantie verdwijnen niet uit het beeld — zij komen via vermogensmutatie terug.
-
----
-**Situatie**: Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV. Een aandeelhoudersovereenkomst bepaalt dat beleidsbeslissingen alleen samen worden genomen.
-
-**Conclusie**: Filmstudio Florence BV is een gemeenschappelijke dochter van Cardinal en Energiehuis. Filmstudio wordt evenredig opgenomen in de geconsolideerde jaarrekening van Cardinal én van Energiehuis (elk voor 50 %).
-
-**Grondslag**: [[gemeenschappelijke-dochteronderneming]] §gezamenlijke-controle
-
-**Redenering**: De aandeelhoudersovereenkomst kwalificeert de relatie als gezamenlijke controle. Filmstudio is daarmee gemeenschappelijke dochter en wordt pro-rata opgenomen.
-
----
 
 ## Gebaseerd op concepten
 

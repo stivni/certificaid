@@ -95,7 +95,7 @@
 
 {% if examenvragen %}
 {% for vraag in examenvragen %}
-> [!question] {{ vraag.examen_id }}-vr{{ vraag.vraag_nr }} ({% if vraag.punten %}{{ vraag.punten }} pt{% else %}punten onbekend{% endif %})
+> [!question]- {{ vraag.examen_id }}-vr{{ vraag.vraag_nr }} ({% if vraag.punten %}{{ vraag.punten }} pt{% else %}punten onbekend{% endif %})
 > {{ vraag.vraagtekst | indent(2) }}
 {% if vraag.themas %}
 >

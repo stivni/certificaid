@@ -22,15 +22,14 @@ gegenereerd_op: '2026-05-16'
 ---
 # Geconsolideerde jaarrekening ⚖️
 
-> De jaarrekening die het vermogen, de financiële positie en het resultaat van de hele groep (moeder + alle dochters in de consolidatiekring) presenteert alsof het om één bedrijf gaat. Ze bestaat uit balans, resultatenrekening en toelichting — samen één geheel. Ze wordt afgesloten op dezelfde datum als de jaarrekening van de moeder (KB WVV art. 3:109) en uitgedrukt in euro (KB WVV art. 3:103 jo. WVV art. 3:30, § 2). De cijfers moeten voortvloeien uit een samenhangend, controleerbaar boekhoudsysteem dat van jaar tot jaar consistent blijft.
->
-> _Bron: KB WVV art. 3:103 jo. art. 3:107 jo. art. 3:123_
-
-
-> [!summary] Korte definitie
+> [!summary] Korte inhoud
 > De jaarrekening die het vermogen, de financiële positie en het resultaat van de hele groep (moeder + alle dochters in de consolidatiekring) presenteert alsof het om één bedrijf gaat.
 
-> [!info] Bestaat uit: [[geconsolideerd-jaarverslag]] · [[minderheidsbelangen]]
+De jaarrekening die het vermogen, de financiële positie en het resultaat van de hele groep (moeder + alle dochters in de consolidatiekring) presenteert alsof het om één bedrijf gaat. Ze bestaat uit balans, resultatenrekening en toelichting — samen één geheel. Ze wordt afgesloten op dezelfde datum als de jaarrekening van de moeder (KB WVV art. 3:109) en uitgedrukt in euro (KB WVV art. 3:103 jo. WVV art. 3:30, § 2). De cijfers moeten voortvloeien uit een samenhangend, controleerbaar boekhoudsysteem dat van jaar tot jaar consistent blijft.
+
+_Bron: KB WVV art. 3:103 jo. art. 3:107 jo. art. 3:123_
+
+
 ## Bouwstenen
 
 ### Eén economische entiteit ⚖️
@@ -86,26 +85,44 @@ _Grondslag: KB WVV art. 3:110_
 
 ## In de praktijk
 
-### Toewijzing van het resultaat van de moeder {id="toewijzing-van-het-resultaat-van-de-moeder"}
+<h3 id="toewijzing-van-het-resultaat-van-de-moeder">Toewijzing van het resultaat van de moeder</h3>
 
-De geconsolideerde balans wordt opgesteld nadat het resultaat van de moeder bestemd is — winstuitkering, reserveringen, overdracht naar volgend boekjaar (KB WVV art. 3:114). Uitzondering: als KB WVV art. 3:109, tweede lid wordt toegepast (afwijkende afsluitingsdatum), gebeurt dat anders. ⚖️
+> [!tip]- Toewijzing van het resultaat van de moeder
+> De geconsolideerde balans wordt opgesteld nadat het resultaat van de moeder bestemd is — winstuitkering, reserveringen, overdracht naar volgend boekjaar (KB WVV art. 3:114). Uitzondering: als KB WVV art. 3:109, tweede lid wordt toegepast (afwijkende afsluitingsdatum), gebeurt dat anders. ⚖️
 
-### Wijzigingen in de consolidatiekring {id="wijzigingen-in-de-consolidatiekring"}
+<h3 id="wijzigingen-in-de-consolidatiekring">Wijzigingen in de consolidatiekring</h3>
 
-Verandert de samenstelling van de groep tijdens het boekjaar wezenlijk (bv. Aurelia verwerft Bouwwerf Beerse in juni), dan moet de toelichting genoeg context geven om een zinvolle vergelijking met vorige boekjaren mogelijk te maken. Naast elke balans- of resultatenrekeningpost vermeld je het overeenkomstige bedrag van het vorige boekjaar (KB WVV art. 3:152). ⚖️
+> [!tip]- Wijzigingen in de consolidatiekring
+> Verandert de samenstelling van de groep tijdens het boekjaar wezenlijk (bv. Aurelia verwerft Bouwwerf Beerse in juni), dan moet de toelichting genoeg context geven om een zinvolle vergelijking met vorige boekjaren mogelijk te maken. Naast elke balans- of resultatenrekeningpost vermeld je het overeenkomstige bedrag van het vorige boekjaar (KB WVV art. 3:152). ⚖️
 
 
 ## Drempelwaarden
 
 | Naam | Waarde | Eenheid | Gevolg |
 |---|---|---|---|
-| Maximale afwijking afsluitingsdatum dochter ↔ geconsolideerde jaarrekening | 3 | maanden | KB WVV art. 3:110, tweede lid: als het uiterst moeilijk is om bezittingen, schulden, rechten, verplichtingen, opbrengsten of kosten van de moeder of van een dochter op te nemen op de afsluitingsdatum van de geconsolideerde jaarrekening (of als dat de opstelling en publicatie sterk zou vertragen), mag je ze op een ander tijdstip in aanmerking nemen — mits er tussen beide data of periodes 'onder geen enkel beding' meer dan drie maanden zit. Geldt zowel vóór als na de afsluitingsdatum. Motivering in de toelichting verplicht. Bv. Aurelia (afsluiting 31 december) consolideert Holsters Horst BV (afsluiting 30 september) → afwijking precies 3 maanden, nog binnen de regel. |
+| Maximale afwijking afsluitingsdatum dochter ↔ geconsolideerde jaarrekening | 3 | maanden | KB WVV art. 3:110, tweede lid: als het uiterst moeilijk is om bezittingen, schulden, rechten, verplichtingen, opbrengste… |
+
+> [!info]- Maximale afwijking afsluitingsdatum dochter ↔ geconsolideerde jaarrekening
+> KB WVV art. 3:110, tweede lid: als het uiterst moeilijk is om bezittingen, schulden, rechten, verplichtingen, opbrengsten of kosten van de moeder of van een dochter op te nemen op de afsluitingsdatum van de geconsolideerde jaarrekening (of als dat de opstelling en publicatie sterk zou vertragen), mag je ze op een ander tijdstip in aanmerking nemen — mits er tussen beide data of periodes 'onder geen enkel beding' meer dan drie maanden zit. Geldt zowel vóór als na de afsluitingsdatum. Motivering in de toelichting verplicht. Bv. Aurelia (afsluiting 31 december) consolideert Holsters Horst BV (afsluiting 30 september) → afwijking precies 3 maanden, nog binnen de regel.
+
 
 ## Valkuilen
 
-- ⚠️ De keuze voor IFRS (KB WVV art. 3:104, § 2) is onherroepbaar. Een onderneming die eenmaal voor IFRS-consolidatie heeft gekozen, kan niet meer terugschakelen naar Belgisch boekhoudrecht. ⚖️
-- ⚠️ Een vennootschap die niet wettelijk consolidatieplichtig is maar toch vrijwillig (of op grond van bijzondere bepalingen) een geconsolideerde jaarrekening publiceert, moet die opstellen volgens hetzelfde wettelijke kader (KB WVV art. 3:112). Vrijwillig consolideren = vrijwillig de regels volgen. ⚖️
-- ⚠️ WIB92 art. 321/1, 13° geeft een fiscaaltechnische definitie voor 'multinationale groepen' (Pillar Two-context). Verwar die niet met de gewone boekhoudrechtelijke geconsolideerde jaarrekening (KB WVV). Verschillende doelen, andere drempels. ⚖️
+> [!warning]- De keuze voor IFRS (KB WVV art. 3:104, § 2) is onherroepbaar. Een onderneming d…
+> ⚠️ De keuze voor IFRS (KB WVV art. 3:104, § 2) is onherroepbaar. Een onderneming die eenmaal voor IFRS-consolidatie heeft gekozen, kan niet meer terugschakelen naar Belgisch boekhoudrecht. ⚖️
+>
+> _Bron: KB WVV art. 3:104, § 2_
+
+> [!warning]- Een vennootschap die niet wettelijk consolidatieplichtig is maar toch vrijwilli…
+> ⚠️ Een vennootschap die niet wettelijk consolidatieplichtig is maar toch vrijwillig (of op grond van bijzondere bepalingen) een geconsolideerde jaarrekening publiceert, moet die opstellen volgens hetzelfde wettelijke kader (KB WVV art. 3:112). Vrijwillig consolideren = vrijwillig de regels volgen. ⚖️
+>
+> _Bron: KB WVV art. 3:112_
+
+> [!warning]- WIB92 art. 321/1, 13° geeft een fiscaaltechnische definitie voor 'multinational…
+> ⚠️ WIB92 art. 321/1, 13° geeft een fiscaaltechnische definitie voor 'multinationale groepen' (Pillar Two-context). Verwar die niet met de gewone boekhoudrechtelijke geconsolideerde jaarrekening (KB WVV). Verschillende doelen, andere drempels. ⚖️
+>
+> _Bron: WIB92 art. 321/1, 13°_
+
 
 ## Zie ook
 

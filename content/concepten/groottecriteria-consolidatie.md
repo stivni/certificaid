@@ -19,42 +19,61 @@ gegenereerd_op: '2026-05-16'
 ---
 # Groottecriteria voor de consolidatievrijstelling ⚖️
 
-> Een moeder is vrijgesteld van de plicht om een geconsolideerde jaarrekening en jaarverslag op te stellen wanneer haar groep hoogstens één van de groottecriteria van WVV art. 1:26, § 1 overschrijdt. Je toetst op geconsolideerde basis of, via de vereenvoudigde methode, op geaggregeerde basis (dan worden de drempels met 20 % verhoogd). De drie criteria: jaaromzet, balanstotaal en jaargemiddelde personeel. Deze toets op geconsolideerde basis geldt in principe alleen voor moeders.
->
-> _Bron: WVV art. 1:26 jo. art. 1:24_
-
-
-> [!summary] Korte definitie
+> [!summary] Korte inhoud
 > Een moeder is vrijgesteld van de plicht om een geconsolideerde jaarrekening en jaarverslag op te stellen wanneer haar groep hoogstens één van de groottecriteria van WVV art.
+
+Een moeder is vrijgesteld van de plicht om een geconsolideerde jaarrekening en jaarverslag op te stellen wanneer haar groep hoogstens één van de groottecriteria van WVV art. 1:26, § 1 overschrijdt. Je toetst op geconsolideerde basis of, via de vereenvoudigde methode, op geaggregeerde basis (dan worden de drempels met 20 % verhoogd). De drie criteria: jaaromzet, balanstotaal en jaargemiddelde personeel. Deze toets op geconsolideerde basis geldt in principe alleen voor moeders.
+
+_Bron: WVV art. 1:26 jo. art. 1:24_
+
 
 ## In de praktijk
 
-### Twee berekeningsmethoden {id="twee-berekeningsmethoden"}
+<h3 id="twee-berekeningsmethoden">Twee berekeningsmethoden</h3>
 
-Methode 1 — geconsolideerde basis: pas de KB WVV-consolidatieregels echt toe (integrale consolidatie voor exclusieve dochters; evenredige consolidatie of vermogensmutatie voor gemeenschappelijke dochters en deelnemingen). Methode 2 — geaggregeerde basis: tel de bedragen van alle verbonden vennootschappen samen, met de drempels +20 %. ⚖️
+> [!tip]- Twee berekeningsmethoden
+> Methode 1 — geconsolideerde basis: pas de KB WVV-consolidatieregels echt toe (integrale consolidatie voor exclusieve dochters; evenredige consolidatie of vermogensmutatie voor gemeenschappelijke dochters en deelnemingen). Methode 2 — geaggregeerde basis: tel de bedragen van alle verbonden vennootschappen samen, met de drempels +20 %. ⚖️
+>
+> > [!tip]- Herkennen op het examen
+> > De keuze tussen beide methodes ligt bij de vennootschap. Methode 2 spaart je een echte consolidatie-oefening uit zolang je alleen de groottetoets wil doen.
 
-**Herkenningspunt**: De keuze tussen beide methodes ligt bij de vennootschap. Methode 2 spaart je een echte consolidatie-oefening uit zolang je alleen de groottetoets wil doen.
+<h3 id="beoordeling-op-geconsolideerde-basis-verplichte-consolidatie">Beoordeling op geconsolideerde basis ≠ verplichte consolidatie</h3>
 
-### Beoordeling op geconsolideerde basis ≠ verplichte consolidatie {id="beoordeling-op-geconsolideerde-basis-verplichte-consolidatie"}
+> [!tip]- Beoordeling op geconsolideerde basis ≠ verplichte consolidatie
+> Een moeder die voor haar eigen klein/groot-kwalificatie op geconsolideerde basis moet toetsen, hoeft daarom niet effectief een geconsolideerde jaarrekening op te stellen. Methode 2 (geaggregeerde basis met +20 %-drempels) volstaat dan voor de groottetoets alleen. ⚖️
 
-Een moeder die voor haar eigen klein/groot-kwalificatie op geconsolideerde basis moet toetsen, hoeft daarom niet effectief een geconsolideerde jaarrekening op te stellen. Methode 2 (geaggregeerde basis met +20 %-drempels) volstaat dan voor de groottetoets alleen. ⚖️
+<h3 id="personeelsbestand">Personeelsbestand</h3>
 
-### Personeelsbestand {id="personeelsbestand"}
-
-Het personeelsaantal bereken je altijd als jaargemiddelde per vennootschap voor alle verbonden vennootschappen — ongeacht of je methode 1 of methode 2 kiest voor omzet en balanstotaal. ⚖️
+> [!tip]- Personeelsbestand
+> Het personeelsaantal bereken je altijd als jaargemiddelde per vennootschap voor alle verbonden vennootschappen — ongeacht of je methode 1 of methode 2 kiest voor omzet en balanstotaal. ⚖️
 
 
 ## Drempelwaarden
 
 | Naam | Waarde | Eenheid | Gevolg |
 |---|---|---|---|
-| Kleine vennootschap (WVV art. 1:24) — referentie | jaaromzet ≤ 11.250.000 EUR; balanstotaal ≤ 6.000.000 EUR; jaargemiddelde werknemers ≤ 50 | criteria-set | Hoogstens één drempel overschreden → kleine vennootschap (verkorte schema's mogelijk). Bedragen zoals destijds vermeld in CBN 2017/15; de drempels worden periodiek geïndexeerd (zie CBN 2024/07 voor de meest recente verhoging). Bij examen: het Cijferzakboekje geeft de actuele bedragen. |
-| Vereenvoudigde berekening op geaggregeerde basis (WVV art. 1:24, § 6) | drempels balanstotaal en omzet vermeerderd met 20 % | %-toeslag | Een moeder die niet wettelijk verplicht is om te consolideren, mag voor de groottetoets alle bedragen van haar verbonden vennootschappen gewoon optellen (geaggregeerd). Om die snelle methode te verantwoorden tegenover de strengere consolidatiebasis, worden de drempels met 20 % verhoogd. Vermijdt een volledige consolidatie-oefening alleen om de drempel-vraag te beantwoorden. |
+| Kleine vennootschap (WVV art. 1:24) — referentie | jaaromzet ≤ 11.250.000 EUR; balanstotaal ≤ 6.000.000 EUR; jaargemiddelde werknemers ≤ 50 | criteria-set | Hoogstens één drempel overschreden → kleine vennootschap (verkorte schema's mogelijk). Bedragen zoals destijds vermeld i… |
+| Vereenvoudigde berekening op geaggregeerde basis (WVV art. 1:24, § 6) | drempels balanstotaal en omzet vermeerderd met 20 % | %-toeslag | Een moeder die niet wettelijk verplicht is om te consolideren, mag voor de groottetoets alle bedragen van haar verbonden… |
+
+> [!info]- Kleine vennootschap (WVV art. 1:24) — referentie
+> Hoogstens één drempel overschreden → kleine vennootschap (verkorte schema's mogelijk). Bedragen zoals destijds vermeld in CBN 2017/15; de drempels worden periodiek geïndexeerd (zie CBN 2024/07 voor de meest recente verhoging). Bij examen: het Cijferzakboekje geeft de actuele bedragen.
+
+> [!info]- Vereenvoudigde berekening op geaggregeerde basis (WVV art. 1:24, § 6)
+> Een moeder die niet wettelijk verplicht is om te consolideren, mag voor de groottetoets alle bedragen van haar verbonden vennootschappen gewoon optellen (geaggregeerd). Om die snelle methode te verantwoorden tegenover de strengere consolidatiebasis, worden de drempels met 20 % verhoogd. Vermijdt een volledige consolidatie-oefening alleen om de drempel-vraag te beantwoorden.
+
 
 ## Valkuilen
 
-- ⚠️ De drempels zijn niet vast in de tijd. Ze worden periodiek verhoogd (CBN 2024/07 documenteert een aanpassing). De bedragen uit CBN 2017/15 of CBN 2022/03 zijn op examen-moment mogelijk niet meer actueel. Examen-strategie: leer de drie criteria en de twee berekeningsmethoden — de actuele bedragen vind je in het Cijferzakboekje dat tijdens het examen beschikbaar is. 🤖
-- ⚠️ Bij een consortium toets je de groottecriteria voor de leden samen (Industria Antwerpen NV + Jachthaven Jezus-Eik NV). De centrale leider die zelf geen vennootschap is — een natuurlijke persoon zoals Pieter Vermeulen, een private stichting of een maatschap — telt niet mee in de berekening. ⚖️
+> [!warning]- De drempels zijn niet vast in de tijd. Ze worden periodiek verhoogd (CBN 2024/0…
+> ⚠️ De drempels zijn niet vast in de tijd. Ze worden periodiek verhoogd (CBN 2024/07 documenteert een aanpassing). De bedragen uit CBN 2017/15 of CBN 2022/03 zijn op examen-moment mogelijk niet meer actueel. Examen-strategie: leer de drie criteria en de twee berekeningsmethoden — de actuele bedragen vind je in het Cijferzakboekje dat tijdens het examen beschikbaar is. 🤖
+>
+> _Bron: CBN 2024/07_
+
+> [!warning]- Bij een consortium toets je de groottecriteria voor de leden samen (Industria A…
+> ⚠️ Bij een consortium toets je de groottecriteria voor de leden samen (Industria Antwerpen NV + Jachthaven Jezus-Eik NV). De centrale leider die zelf geen vennootschap is — een natuurlijke persoon zoals Pieter Vermeulen, een private stichting of een maatschap — telt niet mee in de berekening. ⚖️
+>
+> _Bron: CBN 2022/09 — Beoordeling groottecriteria_
+
 
 ## Zie ook
 

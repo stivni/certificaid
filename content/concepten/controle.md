@@ -23,15 +23,14 @@ gegenereerd_op: '2026-05-16'
 ---
 # Controle ⚖️
 
-> De macht — juridisch (in rechte) of feitelijk (in feite) — om beslissende invloed uit te oefenen op een vennootschap: de meerderheid van de bestuurders aanstellen of de hoofdlijn van het beleid bepalen. Controle is het kernbegrip dat bepaalt of een vennootschap als moeder geldt en dus verplicht is om te consolideren.
->
-> _Bron: WVV art. 1:14, § 2_
-
-
-> [!summary] Korte definitie
+> [!summary] Korte inhoud
 > De macht — juridisch (in rechte) of feitelijk (in feite) — om beslissende invloed uit te oefenen op een vennootschap: de meerderheid van de bestuurders aanstellen of de hoofdlijn van het beleid bepalen.
 
-> [!info] Bestaat uit: [[exclusieve-controle]] · [[gezamenlijke-controle]]
+De macht — juridisch (in rechte) of feitelijk (in feite) — om beslissende invloed uit te oefenen op een vennootschap: de meerderheid van de bestuurders aanstellen of de hoofdlijn van het beleid bepalen. Controle is het kernbegrip dat bepaalt of een vennootschap als moeder geldt en dus verplicht is om te consolideren.
+
+_Bron: WVV art. 1:14, § 2_
+
+
 ## Bouwstenen
 
 ### Controle in rechte 🤖
@@ -57,34 +56,46 @@ _Grondslag: KB WVV art. 3:98_
 
 ## In de praktijk
 
-### Hoe lees je 'controle' in een examenopgave {id="hoe-lees-je-controle-in-een-examenopgave"}
+<h3 id="hoe-lees-je-controle-in-een-examenopgave">Hoe lees je 'controle' in een examenopgave</h3>
 
-De controlevraag staat los van het belangenpercentage (kapitaal). Bij een stemrechtmeerderheid (> 50 %) is er onweerlegbaar exclusieve controle in rechte. Bij ≤ 50 % stemrechten kan er nog controle in feite zijn (twee-vergaderingen-test) of gezamenlijke controle (op grond van een aandeelhoudersovereenkomst). 🤖
+> [!tip]- Hoe lees je 'controle' in een examenopgave
+> De controlevraag staat los van het belangenpercentage (kapitaal). Bij een stemrechtmeerderheid (> 50 %) is er onweerlegbaar exclusieve controle in rechte. Bij ≤ 50 % stemrechten kan er nog controle in feite zijn (twee-vergaderingen-test) of gezamenlijke controle (op grond van een aandeelhoudersovereenkomst). 🤖
+>
+> > [!tip]- Herkennen op het examen
+> > Opgave 'Aurelia Holding NV bezit 40 % van Brugse Brouwerij BV' zonder mention van stemovereenkomsten → meestal geen controle → vermogensmutatie of geen consolidatie, geen integrale consolidatie.
 
-**Herkenningspunt**: Opgave 'Aurelia Holding NV bezit 40 % van Brugse Brouwerij BV' zonder mention van stemovereenkomsten → meestal geen controle → vermogensmutatie of geen consolidatie, geen integrale consolidatie.
+<h3 id="gevolg-voor-consolidatiemethode">Gevolg voor consolidatiemethode</h3>
 
-### Gevolg voor consolidatiemethode {id="gevolg-voor-consolidatiemethode"}
+> [!tip]- Gevolg voor consolidatiemethode
+> Exclusieve controle → integrale consolidatie. Gezamenlijke controle (gemeenschappelijke dochter) → in regel evenredige consolidatie, of vermogensmutatie als het bedrijf niet nauw met de groep is geïntegreerd. Invloed van betekenis (geassocieerde onderneming, geen controle) → vermogensmutatiemethode. 🤖
+>
+> > [!tip]- Herkennen op het examen
+> > De controle-vraag bepaalt de keuze tussen drie consolidatietechnieken; niet het kale percentage.
 
-Exclusieve controle → integrale consolidatie. Gezamenlijke controle (gemeenschappelijke dochter) → in regel evenredige consolidatie, of vermogensmutatie als het bedrijf niet nauw met de groep is geïntegreerd. Invloed van betekenis (geassocieerde onderneming, geen controle) → vermogensmutatiemethode. 🤖
 
-**Herkenningspunt**: De controle-vraag bepaalt de keuze tussen drie consolidatietechnieken; niet het kale percentage.
+> [!info]- Niet verwarren met [[invloed-van-betekenis]]
+> Controle = beslissende invloed (je kunt het beleid eenzijdig of samen met enkele anderen sturen). Invloed van betekenis = significant, maar niet beslissend (je doet mee aan het beleid zonder dominante positie). Beide kunnen bij vergelijkbare percentages voorkomen; het verschil zit in stemrechtmeerderheden, aandeelhoudersovereenkomsten en bestuursbenoemingen.
+>
+> _Trigger_: Bij percentages 20–50 %: standaard vermogensmutatie (invloed van betekenis). Bij overeenkomst voor gezamenlijke uitoefening van beleid: gezamenlijke controle.
 
-
-<details>
-<summary><strong>Niet verwarren met</strong> (2 vergelijkingen)</summary>
-
-- **vs [[invloed-van-betekenis]]** — Controle = beslissende invloed (je kunt het beleid eenzijdig of samen met enkele anderen sturen). Invloed van betekenis = significant, maar niet beslissend (je doet mee aan het beleid zonder dominante positie). Beide kunnen bij vergelijkbare percentages voorkomen; het verschil zit in stemrechtmeerderheden, aandeelhoudersovereenkomsten en bestuursbenoemingen.
-  - _Trigger_: Bij percentages 20–50 %: standaard vermogensmutatie (invloed van betekenis). Bij overeenkomst voor gezamenlijke uitoefening van beleid: gezamenlijke controle.
-- **vs [[controlepercentage]]** — Controle is een kwalitatief begrip (wel/niet). Controlepercentage is een kwantitatieve maat van stemrechten die de moeder direct en indirect aanhoudt. Een controlepercentage > 50 % wijst meestal op exclusieve controle in rechte, maar controle in feite kan ook bij lagere percentages.
-  - _Trigger_: Wanneer een opgave een percentage geeft: vraag eerst of het over stemrechten (controle) of over kapitaal (belang) gaat.
-
-</details>
+> [!info]- Niet verwarren met [[controlepercentage]]
+> Controle is een kwalitatief begrip (wel/niet). Controlepercentage is een kwantitatieve maat van stemrechten die de moeder direct en indirect aanhoudt. Een controlepercentage > 50 % wijst meestal op exclusieve controle in rechte, maar controle in feite kan ook bij lagere percentages.
+>
+> _Trigger_: Wanneer een opgave een percentage geeft: vraag eerst of het over stemrechten (controle) of over kapitaal (belang) gaat.
 
 
 ## Valkuilen
 
-- ⚠️ Een participatie van precies 50 % zonder stemovereenkomst geeft géén controle. Pas op om die niet automatisch als 'dochter' te etiketteren in een opgave. Voorbeeld: Aurelia en Cardinal Group hebben elk 50 % in Filmstudio Florence zonder akkoord — geen controle voor Aurelia (CBN 2017/02 — geval 2). ⚖️
-- ⚠️ Controle in feite kan ook bij beperkte participaties bestaan. Toets altijd aan de twee-vergaderingen-test voor je 'geen controle' besluit bij <50 %. 🤖
+> [!warning]- Een participatie van precies 50 % zonder stemovereenkomst geeft géén controle. …
+> ⚠️ Een participatie van precies 50 % zonder stemovereenkomst geeft géén controle. Pas op om die niet automatisch als 'dochter' te etiketteren in een opgave. Voorbeeld: Aurelia en Cardinal Group hebben elk 50 % in Filmstudio Florence zonder akkoord — geen controle voor Aurelia (CBN 2017/02 — geval 2). ⚖️
+>
+> _Bron: CBN 2017/02 — Gezamenlijke controle, geval 2_
+
+> [!warning]- Controle in feite kan ook bij beperkte participaties bestaan. Toets altijd aan …
+> ⚠️ Controle in feite kan ook bij beperkte participaties bestaan. Toets altijd aan de twee-vergaderingen-test voor je 'geen controle' besluit bij <50 %. 🤖
+>
+> _Bron: KB WVV art. 3:98_
+
 
 ## Zie ook
 

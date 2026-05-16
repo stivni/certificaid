@@ -19,36 +19,50 @@ gegenereerd_op: '2026-05-16'
 ---
 # Groep van beperkte omvang ⚖️
 
-> Een groep die op geconsolideerde of geaggregeerde basis hoogstens één van de drie criteria van WVV art. 1:26, § 1 overschrijdt: jaaromzet, balanstotaal en jaargemiddelde personeel. Een vennootschap die deel uitmaakt van een groep van beperkte omvang is in principe vrijgesteld van de plicht om een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te stellen.
->
-> _Bron: WVV art. 1:26, § 1_
-
-
-> [!summary] Korte definitie
+> [!summary] Korte inhoud
 > Een groep die op geconsolideerde of geaggregeerde basis hoogstens één van de drie criteria van WVV art.
+
+Een groep die op geconsolideerde of geaggregeerde basis hoogstens één van de drie criteria van WVV art. 1:26, § 1 overschrijdt: jaaromzet, balanstotaal en jaargemiddelde personeel. Een vennootschap die deel uitmaakt van een groep van beperkte omvang is in principe vrijgesteld van de plicht om een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te stellen.
+
+_Bron: WVV art. 1:26, § 1_
+
 
 > [!info] Uitzondering op: [[consolidatieverplichting]]
 ## In de praktijk
 
-### Twee berekeningsmethoden {id="twee-berekeningsmethoden"}
+<h3 id="twee-berekeningsmethoden">Twee berekeningsmethoden</h3>
 
-Methode 1 — geconsolideerde basis: pas de echte KB WVV-consolidatieregels toe en kijk daarna of je drempels overschrijdt. Vereist eigenlijk al een consolidatie-oefening. Methode 2 — geaggregeerde basis: tel de bedragen van alle verbonden vennootschappen gewoon op, maar gebruik dan drempels die 20 % hoger liggen dan in art. 1:24 (WVV art. 1:24, § 6). Het personeelsaantal bereken je altijd als jaargemiddelde per vennootschap. ⚖️
+> [!tip]- Twee berekeningsmethoden
+> Methode 1 — geconsolideerde basis: pas de echte KB WVV-consolidatieregels toe en kijk daarna of je drempels overschrijdt. Vereist eigenlijk al een consolidatie-oefening. Methode 2 — geaggregeerde basis: tel de bedragen van alle verbonden vennootschappen gewoon op, maar gebruik dan drempels die 20 % hoger liggen dan in art. 1:24 (WVV art. 1:24, § 6). Het personeelsaantal bereken je altijd als jaargemiddelde per vennootschap. ⚖️
 
-### Consortium-context {id="consortium-context"}
+<h3 id="consortium-context">Consortium-context</h3>
 
-Bij een consortium toets je de groottecriteria op het niveau van de leden samen. De centrale leider die zelf geen vennootschap is (bv. natuurlijke persoon zoals Pieter Vermeulen, of een private stichting) wordt niet meegeteld. ⚖️
+> [!tip]- Consortium-context
+> Bij een consortium toets je de groottecriteria op het niveau van de leden samen. De centrale leider die zelf geen vennootschap is (bv. natuurlijke persoon zoals Pieter Vermeulen, of een private stichting) wordt niet meegeteld. ⚖️
 
 
 ## Drempelwaarden
 
 | Naam | Waarde | Eenheid | Gevolg |
 |---|---|---|---|
-| Drempels groep van beperkte omvang (KB WVV art. 1:26 — geaggregeerde basis +20 %) | Maximaal 1 van 3 drempels overschreden | criteria | Wordt aan deze test voldaan, dan is de moeder vrijgesteld van het opstellen van een geconsolideerde jaarrekening en een geconsolideerd jaarverslag (tenzij de groep een organisatie van openbaar belang of een beursgenoteerde groep bevat). |
+| Drempels groep van beperkte omvang (KB WVV art. 1:26 — geaggregeerde basis +20 %) | Maximaal 1 van 3 drempels overschreden | criteria | Wordt aan deze test voldaan, dan is de moeder vrijgesteld van het opstellen van een geconsolideerde jaarrekening en een… |
+
+> [!info]- Drempels groep van beperkte omvang (KB WVV art. 1:26 — geaggregeerde basis +20 %)
+> Wordt aan deze test voldaan, dan is de moeder vrijgesteld van het opstellen van een geconsolideerde jaarrekening en een geconsolideerd jaarverslag (tenzij de groep een organisatie van openbaar belang of een beursgenoteerde groep bevat).
+
 
 ## Valkuilen
 
-- ⚠️ Vrijstelling werkt enkel als 'maximaal één criterium overschreden' — niet 'minder dan twee'. Tel strikt en beoordeel alle drie de criteria (omzet, balanstotaal, personeel). Voorbeeld: Aurelia + Gent Garantie met twee overschreden drempels → géén vrijstelling. ⚖️
-- ⚠️ Eenmalige overschrijding van een drempel doet de vrijstelling niet automatisch verdwijnen — er zijn duurzaamheidsregels (zie CBN 2024/07 over de actualisering van drempels en overgangsregels). Bij twijfel: raadpleeg het Cijferzakboekje voor de actuele drempels en de impact-regels. 🤖
+> [!warning]- Vrijstelling werkt enkel als 'maximaal één criterium overschreden' — niet 'mind…
+> ⚠️ Vrijstelling werkt enkel als 'maximaal één criterium overschreden' — niet 'minder dan twee'. Tel strikt en beoordeel alle drie de criteria (omzet, balanstotaal, personeel). Voorbeeld: Aurelia + Gent Garantie met twee overschreden drempels → géén vrijstelling. ⚖️
+>
+> _Bron: WVV art. 1:26, § 1 (toepassing analoog aan art. 1:24)_
+
+> [!warning]- Eenmalige overschrijding van een drempel doet de vrijstelling niet automatisch …
+> ⚠️ Eenmalige overschrijding van een drempel doet de vrijstelling niet automatisch verdwijnen — er zijn duurzaamheidsregels (zie CBN 2024/07 over de actualisering van drempels en overgangsregels). Bij twijfel: raadpleeg het Cijferzakboekje voor de actuele drempels en de impact-regels. 🤖
+>
+> _Bron: CBN 2024/07_
+
 
 ## Zie ook
 

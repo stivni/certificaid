@@ -60,21 +60,25 @@ Bepaal per dochter het percentage stemrechten dat de moeder direct of indirect v
 4. Pas op: zodra één schakel geen exclusieve controle heeft, breekt de keten — zie [[exclusieve-controle]] §keten-breuk.
 
 
-**Voorbeeld**: Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV. Brugse bezit 60 % stemrechten in Cardinal Group NV. In elke schakel: exclusieve controle in rechte.
-
-**Substap 1 — Schema van de keten** 🌊
-Aurelia Holding NV — 80 % stemrechten → Brugse Brouwerij BV — 60 % stemrechten → Cardinal Group NV
-
-
-**Substap 2 — Berekening controlepercentage Aurelia in Cardinal** 🧮
-Stap a: heeft Aurelia exclusieve controle over Brugse? 80 % > 50 % → ja.
-Stap b: Brugse bezit 60 % in Cardinal → exclusieve controle over Cardinal.
-Stap c: controlepercentage Aurelia in Cardinal = 60 % (niet vermenigvuldigen — elke schakel heeft exclusieve controle, dus het volledige stemrechtpercentage van de onderste schakel telt mee).
-
+> [!example]- Voorbeeld: Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV
+> Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV. Brugse bezit 60 % stemrechten in Cardinal Group NV. In elke schakel: exclusieve controle in rechte.
+>
+> 1. **Schema van de keten** 🌊
+>
+>    Aurelia Holding NV — 80 % stemrechten → Brugse Brouwerij BV — 60 % stemrechten → Cardinal Group NV
+>    
+>
+> 2. **Berekening controlepercentage Aurelia in Cardinal** 🧮
+>
+>    Stap a: heeft Aurelia exclusieve controle over Brugse? 80 % > 50 % → ja.
+>    Stap b: Brugse bezit 60 % in Cardinal → exclusieve controle over Cardinal.
+>    Stap c: controlepercentage Aurelia in Cardinal = 60 % (niet vermenigvuldigen — elke schakel heeft exclusieve controle, dus het volledige stemrechtpercentage van de onderste schakel telt mee).
+>    
+>
 
 **Grondslag**: [[controlepercentage]] §berekening, WVV art. 1:14 e.v.
 
-> [!warning] Het controlepercentage wordt NIET vermenigvuldigd langs de keten.
+> [!warning]- Het controlepercentage wordt NIET vermenigvuldigd langs de keten.
 >
 > _Vaak fout gedaan_: Controlepercentage doorheen de keten vermenigvuldigen, zoals het belangenpercentage.
 >
@@ -99,18 +103,21 @@ Bepaal het economische eigendomsaandeel van de moeder in elke vennootschap door 
 4. Gebruik dit getal in de berekening van aandeel van derden bij integrale consolidatie (zie [[uitvoeren-intragroep-eliminaties]] stap 7).
 
 
-**Voorbeeld**: Zelfde keten als stap 2: Aurelia 80 % → Brugse 60 % → Cardinal.
-
-**Substap 1 — Berekening belangenpercentage Aurelia in Cardinal** 🧮
-belangenpercentage Aurelia in Cardinal = belang Aurelia in Brugse × belang Brugse in Cardinal
-                                        = 80 % × 60 %
-                                        = **48 %**
-Derden hebben dus 100 % − 48 % = **52 %** economisch belang in Cardinal.
-
+> [!example]- Voorbeeld: Zelfde keten als stap 2: Aurelia 80 % → Brugse 60 % → Cardinal
+> Zelfde keten als stap 2: Aurelia 80 % → Brugse 60 % → Cardinal.
+>
+> 1. **Berekening belangenpercentage Aurelia in Cardinal** 🧮
+>
+>    belangenpercentage Aurelia in Cardinal = belang Aurelia in Brugse × belang Brugse in Cardinal
+>                                            = 80 % × 60 %
+>                                            = **48 %**
+>    Derden hebben dus 100 % − 48 % = **52 %** economisch belang in Cardinal.
+>    
+>
 
 **Grondslag**: [[belangenpercentage]] §berekening-keten
 
-> [!warning] Belangenpercentage WEL vermenigvuldigen, controlepercentage NIET.
+> [!warning]- Belangenpercentage WEL vermenigvuldigen, controlepercentage NIET.
 >
 > _Vaak fout gedaan_: Aannemen dat belangenpercentage en controlepercentage altijd gelijk zijn.
 >
@@ -162,27 +169,22 @@ Gebruik het belangenpercentage als rekenmaatstaf voor de bedragen in de geconsol
 **Grondslag**: [[belangenpercentage]] §toepassing, KB WVV art. 3:137 en 3:141
 
 
-
 ## Voorbeelden
 
-**Situatie**: Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV. Brugse bezit 60 % van Cardinal Group NV. In elke schakel: exclusieve controle in rechte (> 50 %).
+> [!example]- Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV
+> **Conclusie**: Controlepercentage Aurelia in Cardinal = 60 % (NIET vermenigvuldigen — elke schakel heeft exclusieve controle). Belangenpercentage Aurelia in Cardinal = 0,80 × 0,60 = 48 %.
+>
+> **Grondslag**: [[controlepercentage]] §keten; [[belangenpercentage]] §keten
+>
+> **Redenering**: Controlepercentage en belangenpercentage volgen verschillende rekenregels. Aurelia consolideert Cardinal integraal omdat zij via Brugse exclusieve controle uitoefent. Het aandeel van derden (52 %) wordt afgezonderd op basis van het belangenpercentage.
 
-**Conclusie**: Controlepercentage Aurelia in Cardinal = 60 % (NIET vermenigvuldigen — elke schakel heeft exclusieve controle). Belangenpercentage Aurelia in Cardinal = 0,80 × 0,60 = 48 %.
+> [!example]- Aurelia Holding NV bezit 90 % van Brugse Brouwerij BV
+> **Conclusie**: Belangenpercentage Aurelia in Brugse = 90 %. Aandeel van derden = (1 − 0,90) × 1.000 = 100 (op de balans), en (1 − 0,90) × resultaat Brugse (resultatenrekening).
+>
+> **Grondslag**: [[belangenpercentage]] §berekening-aandeel-van-derden; [[minderheidsbelangen]] §formule
+>
+> **Redenering**: Bij integrale consolidatie wordt 100 % van Brugse opgenomen. Het complement van het belangenpercentage bepaalt het deel dat als 'belangen van derden' wordt afgezonderd.
 
-**Grondslag**: [[controlepercentage]] §keten; [[belangenpercentage]] §keten
-
-**Redenering**: Controlepercentage en belangenpercentage volgen verschillende rekenregels. Aurelia consolideert Cardinal integraal omdat zij via Brugse exclusieve controle uitoefent. Het aandeel van derden (52 %) wordt afgezonderd op basis van het belangenpercentage.
-
----
-**Situatie**: Aurelia Holding NV bezit 90 % van Brugse Brouwerij BV. Brugse heeft een industriële activiteit. Eigen vermogen Brugse op afsluitingsdatum = 1.000.
-
-**Conclusie**: Belangenpercentage Aurelia in Brugse = 90 %. Aandeel van derden = (1 − 0,90) × 1.000 = 100 (op de balans), en (1 − 0,90) × resultaat Brugse (resultatenrekening).
-
-**Grondslag**: [[belangenpercentage]] §berekening-aandeel-van-derden; [[minderheidsbelangen]] §formule
-
-**Redenering**: Bij integrale consolidatie wordt 100 % van Brugse opgenomen. Het complement van het belangenpercentage bepaalt het deel dat als 'belangen van derden' wordt afgezonderd.
-
----
 
 ## Gebaseerd op concepten
 

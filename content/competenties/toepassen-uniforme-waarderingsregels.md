@@ -83,23 +83,27 @@ Boek consolidatieboekingen die de cijfers van de dochter omzetten naar de unifor
 4. Documenteer per aanpassing: oude waardering, nieuwe waardering, bedrag, motivering en grondslag (KB WVV art. 3:116).
 
 
-**Voorbeeld**: Holsters Horst BV (dochter van Aurelia Holding NV) waardeert voorraad volgens LIFO. Aurelia past FIFO toe. Op balansdatum: voorraadwaarde LIFO bij Holsters = 100; voorraadwaarde FIFO zou = 130.
-
-**Substap 1 — Berekening aanpassing** 🧮
-aanpassing voorraad = waarde FIFO − waarde LIFO
-                    = 130 − 100
-                    = **+30**
-
-
-**Substap 2 — Boeking in consolidatiedossier** 📝
-Debiteer: Voorraden (Holsters)               30
-Crediteer: Geconsolideerde reserves          30
-→ Voorraad bij Holsters in geconsolideerde balans = 130 i.p.v. 100.
-
+> [!example]- Voorbeeld: Holsters Horst BV (dochter van Aurelia Holding NV) waardeert voorraad volgens LIFO
+> Holsters Horst BV (dochter van Aurelia Holding NV) waardeert voorraad volgens LIFO. Aurelia past FIFO toe. Op balansdatum: voorraadwaarde LIFO bij Holsters = 100; voorraadwaarde FIFO zou = 130.
+>
+> 1. **Berekening aanpassing** 🧮
+>
+>    aanpassing voorraad = waarde FIFO − waarde LIFO
+>                        = 130 − 100
+>                        = **+30**
+>    
+>
+> 2. **Boeking in consolidatiedossier** 📝
+>
+>    Debiteer: Voorraden (Holsters)               30
+>    Crediteer: Geconsolideerde reserves          30
+>    → Voorraad bij Holsters in geconsolideerde balans = 130 i.p.v. 100.
+>    
+>
 
 **Grondslag**: [[uniforme-waarderingsregels-consolidatie]] §aanpassingsboeking, KB WVV art. 3:116
 
-> [!warning] De waarderingsregels van de consoliderende vennootschap gelden op consolidatieniveau, ook voor buitenlandse dochters.
+> [!warning]- De waarderingsregels van de consoliderende vennootschap gelden op consolidatieniveau, ook voor buitenlandse dochters.
 >
 > _Vaak fout gedaan_: Aannemen dat een dochter haar eigen waarderingsregels mag behouden zolang die wettelijk zijn in haar land van vestiging.
 >
@@ -173,18 +177,15 @@ Verifieer dat de waarderingsregels identiek zijn aan die van het vorige geconsol
 **Grondslag**: [[uniforme-waarderingsregels-consolidatie]] §stelselmatigheid, KB WVV art. 3:117
 
 
-
 ## Voorbeelden
 
-**Situatie**: Aurelia Holding NV consolideert dochter Holsters Horst BV. Holsters past in haar enkelvoudige jaarrekening fiscaal-versnelde afschrijvingen toe op een gebouw — economisch niet verantwoord. Aurelia's afschrijvingsregel: lineair over 30 jaar.
+> [!example]- Aurelia Holding NV consolideert dochter Holsters Horst BV
+> **Conclusie**: Op consolidatieniveau worden de fiscaal-gedreven afschrijvingen teruggebracht tot het economisch verantwoorde bedrag. Aanpassingsboekingen brengen de afschrijvingsregels in lijn met die van Aurelia.
+>
+> **Grondslag**: [[uniforme-waarderingsregels-consolidatie]] §fiscale-distorsies; KB WVV art. 3:118
+>
+> **Redenering**: Fiscale distorsies vervalsen het getrouw beeld. KB WVV art. 3:118 vereist hercorrectie op consolidatieniveau, zonder dat de enkelvoudige jaarrekening van Holsters wordt aangepast.
 
-**Conclusie**: Op consolidatieniveau worden de fiscaal-gedreven afschrijvingen teruggebracht tot het economisch verantwoorde bedrag. Aanpassingsboekingen brengen de afschrijvingsregels in lijn met die van Aurelia.
-
-**Grondslag**: [[uniforme-waarderingsregels-consolidatie]] §fiscale-distorsies; KB WVV art. 3:118
-
-**Redenering**: Fiscale distorsies vervalsen het getrouw beeld. KB WVV art. 3:118 vereist hercorrectie op consolidatieniveau, zonder dat de enkelvoudige jaarrekening van Holsters wordt aangepast.
-
----
 
 ## Gebaseerd op concepten
 

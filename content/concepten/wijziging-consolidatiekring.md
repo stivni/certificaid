@@ -19,15 +19,14 @@ gegenereerd_op: '2026-05-16'
 ---
 # Wijziging van de consolidatiekring 🤖
 
-> Elke verandering in de samenstelling van de consolidatiekring tussen twee opeenvolgende boekjaren. Vijf typische gevallen: (1) opname van een nieuw verworven dochter (eerste consolidatie); (2) wegvallen van een verkochte of geliquideerde dochter; (3) verschuiving van kwalificatie (van geassocieerde naar dochter via step-acquisition, of omgekeerd); (4) wijziging van het type controle (van gezamenlijk naar exclusief of omgekeerd); (5) opname van een voorheen uitgesloten dochter. Elk geval vraagt specifieke boekhoudkundige verwerkingen: berekening van een (eventueel nieuw) consolidatieverschil, herbeoordeling van waarderingsregels en aanpassing van de vergelijkende cijfers in de toelichting.
->
-> _Bron: KB WVV art. 3:129, 3:132, 3:152_
-
-
-> [!summary] Korte definitie
+> [!summary] Korte inhoud
 > Elke verandering in de samenstelling van de consolidatiekring tussen twee opeenvolgende boekjaren.
 
-> [!info] Bestaat uit: [[eerste-consolidatie]] · [[step-acquisition]]
+Elke verandering in de samenstelling van de consolidatiekring tussen twee opeenvolgende boekjaren. Vijf typische gevallen: (1) opname van een nieuw verworven dochter (eerste consolidatie); (2) wegvallen van een verkochte of geliquideerde dochter; (3) verschuiving van kwalificatie (van geassocieerde naar dochter via step-acquisition, of omgekeerd); (4) wijziging van het type controle (van gezamenlijk naar exclusief of omgekeerd); (5) opname van een voorheen uitgesloten dochter. Elk geval vraagt specifieke boekhoudkundige verwerkingen: berekening van een (eventueel nieuw) consolidatieverschil, herbeoordeling van waarderingsregels en aanpassing van de vergelijkende cijfers in de toelichting.
+
+_Bron: KB WVV art. 3:129, 3:132, 3:152_
+
+
 ## Bouwstenen
 
 ### Eerste consolidatie van een nieuwe dochter ⚖️
@@ -73,21 +72,32 @@ _Grondslag: CBN 2017/15_
 
 ## In de praktijk
 
-### Vergelijkbaarheid van de cijfers {id="vergelijkbaarheid-van-de-cijfers"}
+<h3 id="vergelijkbaarheid-van-de-cijfers">Vergelijkbaarheid van de cijfers</h3>
 
-Wijzigingen in de consolidatiekring tasten de vergelijkbaarheid tussen het lopende en het vorige boekjaar aan. Zijn de bedragen van het vorige boekjaar niet meer vergelijkbaar, dan moet de toelichting voldoende informatie geven om alsnog een zinvolle vergelijking te maken (KB WVV art. 3:152). ⚖️
+> [!tip]- Vergelijkbaarheid van de cijfers
+> Wijzigingen in de consolidatiekring tasten de vergelijkbaarheid tussen het lopende en het vorige boekjaar aan. Zijn de bedragen van het vorige boekjaar niet meer vergelijkbaar, dan moet de toelichting voldoende informatie geven om alsnog een zinvolle vergelijking te maken (KB WVV art. 3:152). ⚖️
+>
+> > [!tip]- Herkennen op het examen
+> > In een examen-toelichting staat vaak expliciet 'de cijfers van het vorige boekjaar zijn aangepast ingevolge de wijziging van de consolidatiekring'.
 
-**Herkenningspunt**: In een examen-toelichting staat vaak expliciet 'de cijfers van het vorige boekjaar zijn aangepast ingevolge de wijziging van de consolidatiekring'.
+<h3 id="datum-bepaling-ev-bij-eerste-consolidatie">Datum bepaling EV bij eerste consolidatie</h3>
 
-### Datum bepaling EV bij eerste consolidatie {id="datum-bepaling-ev-bij-eerste-consolidatie"}
-
-Regel: het eigen vermogen van de dochter bepaal je op de aankoopdatum (KB WVV art. 3:129). Bij een eerste geconsolideerde jaarrekening of bij eerste opname van een vroeger niet-geconsolideerde dochter mag je de aanvangsdatum van het boekjaar gebruiken (in plaats van de exacte aankoopdatum). ⚖️
+> [!tip]- Datum bepaling EV bij eerste consolidatie
+> Regel: het eigen vermogen van de dochter bepaal je op de aankoopdatum (KB WVV art. 3:129). Bij een eerste geconsolideerde jaarrekening of bij eerste opname van een vroeger niet-geconsolideerde dochter mag je de aanvangsdatum van het boekjaar gebruiken (in plaats van de exacte aankoopdatum). ⚖️
 
 
 ## Valkuilen
 
-- ⚠️ Een wijziging van de consolidatiekring vraagt ofwel een retro-actieve aanpassing van de vergelijkende cijfers, ofwel een toelichting bij niet-vergelijkbaarheid (KB WVV art. 3:152). Een examenvraag kan dit toetsen door te vragen hoe de cijfers van het vorige boekjaar moeten worden aangepast na een acquisitie of een vervreemding. ⚖️
-- ⚠️ Bij een common control-transactie (herstructurering binnen het concern) ontstaat geen nieuw consolidatieverschil — de eerder bestaande historische cijfers worden voortgezet (CBN 2017/15). Belangrijke uitzondering op de regel dat eerste consolidatie altijd een nieuw consolidatieverschil triggert. ⚖️
+> [!warning]- Een wijziging van de consolidatiekring vraagt ofwel een retro-actieve aanpassin…
+> ⚠️ Een wijziging van de consolidatiekring vraagt ofwel een retro-actieve aanpassing van de vergelijkende cijfers, ofwel een toelichting bij niet-vergelijkbaarheid (KB WVV art. 3:152). Een examenvraag kan dit toetsen door te vragen hoe de cijfers van het vorige boekjaar moeten worden aangepast na een acquisitie of een vervreemding. ⚖️
+>
+> _Bron: KB WVV art. 3:152_
+
+> [!warning]- Bij een common control-transactie (herstructurering binnen het concern) ontstaa…
+> ⚠️ Bij een common control-transactie (herstructurering binnen het concern) ontstaat geen nieuw consolidatieverschil — de eerder bestaande historische cijfers worden voortgezet (CBN 2017/15). Belangrijke uitzondering op de regel dat eerste consolidatie altijd een nieuw consolidatieverschil triggert. ⚖️
+>
+> _Bron: CBN 2017/15_
+
 
 ## Zie ook
 

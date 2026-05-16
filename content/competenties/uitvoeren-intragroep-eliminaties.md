@@ -62,24 +62,28 @@ Schrap wederzijdse vorderingen en schulden tussen groepsvennootschappen uit de g
 4. Documenteer in werkpapier eliminaties: welke bedragen geschrapt, welke restposten over.
 
 
-**Voorbeeld**: Aurelia Holding NV heeft een vordering van 50 op Brugse Brouwerij BV. Brugse heeft een overeenkomstige schuld van 50 aan Aurelia.
-
-**Substap 1 — Eliminatie-boeking** 📝
-Debiteer: Schulden aan groepsvennootschappen (Brugse)     50
-Crediteer: Vorderingen op groepsvennootschappen (Aurelia)  50
-
-
-**Substap 2 — Effect op geconsolideerde balans** 📊
-| Vóór eliminatie                                  | Aurelia | Brugse |
-|--------------------------------------------------|--------:|-------:|
-| Vorderingen op groepsvennootschappen (Brugse)    |      50 |      — |
-| Schulden aan groepsvennootschappen (Aurelia)     |       — |     50 |
-
-| Na eliminatie in geconsolideerde balans          |   |
-|--------------------------------------------------|--:|
-| Vorderingen op groepsvennootschappen             |  0 |
-| Schulden aan groepsvennootschappen               |  0 |
-
+> [!example]- Voorbeeld: Aurelia Holding NV heeft een vordering van 50 op Brugse Brouwerij BV
+> Aurelia Holding NV heeft een vordering van 50 op Brugse Brouwerij BV. Brugse heeft een overeenkomstige schuld van 50 aan Aurelia.
+>
+> 1. **Eliminatie-boeking** 📝
+>
+>    Debiteer: Schulden aan groepsvennootschappen (Brugse)     50
+>    Crediteer: Vorderingen op groepsvennootschappen (Aurelia)  50
+>    
+>
+> 2. **Effect op geconsolideerde balans** 📊
+>
+>    | Vóór eliminatie                                  | Aurelia | Brugse |
+>    |--------------------------------------------------|--------:|-------:|
+>    | Vorderingen op groepsvennootschappen (Brugse)    |      50 |      — |
+>    | Schulden aan groepsvennootschappen (Aurelia)     |       — |     50 |
+>    
+>    | Na eliminatie in geconsolideerde balans          |   |
+>    |--------------------------------------------------|--:|
+>    | Vorderingen op groepsvennootschappen             |  0 |
+>    | Schulden aan groepsvennootschappen               |  0 |
+>    
+>
 
 **Grondslag**: [[intragroep-eliminaties]] §boeking-eliminatie, KB WVV art. 3:134
 
@@ -105,23 +109,27 @@ Schrap de winstmarge die de groep aan zichzelf heeft toegerekend en die nog in v
 5. Idem voor vaste activa die intern zijn verkocht: schrap de niet-gerealiseerde winst en herzie de afschrijvingsbasis.
 
 
-**Voorbeeld**: Aurelia Holding NV heeft aan Brugse Brouwerij BV voorraad verkocht met een brutomarge van 25 %. Op balansdatum staat bij Brugse nog 400 van die voorraad.
-
-**Substap 1 — Berekening niet-gerealiseerde winst** 🧮
-niet-gerealiseerde winst = brutomarge × restvoorraad
-                        = 25 % × 400
-                        = **100**
-
-
-**Substap 2 — Eliminatie-boeking** 📝
-Debiteer: Resultaat (eliminatie intra-groepswinst)    100
-Crediteer: Voorraad bij Brugse                        100
-→ Voorraad wordt teruggebracht naar de waarde voor de groep (300 i.p.v. 400).
-
+> [!example]- Voorbeeld: Aurelia Holding NV heeft aan Brugse Brouwerij BV voorraad verkocht met een brutomarge van 25 %
+> Aurelia Holding NV heeft aan Brugse Brouwerij BV voorraad verkocht met een brutomarge van 25 %. Op balansdatum staat bij Brugse nog 400 van die voorraad.
+>
+> 1. **Berekening niet-gerealiseerde winst** 🧮
+>
+>    niet-gerealiseerde winst = brutomarge × restvoorraad
+>                            = 25 % × 400
+>                            = **100**
+>    
+>
+> 2. **Eliminatie-boeking** 📝
+>
+>    Debiteer: Resultaat (eliminatie intra-groepswinst)    100
+>    Crediteer: Voorraad bij Brugse                        100
+>    → Voorraad wordt teruggebracht naar de waarde voor de groep (300 i.p.v. 400).
+>    
+>
 
 **Grondslag**: [[intragroep-eliminaties]] §niet-gerealiseerde-winsten, KB WVV art. 3:134 lid 2
 
-> [!warning] Schrap ook intra-groepswinsten in voorraad of vaste activa, niet alleen vorderingen en schulden.
+> [!warning]- Schrap ook intra-groepswinsten in voorraad of vaste activa, niet alleen vorderingen en schulden.
 >
 > _Vaak fout gedaan_: Aannemen dat alleen vorderingen en schulden moeten worden geëlimineerd.
 >
@@ -217,35 +225,40 @@ Bereken het deel van eigen vermogen en resultaat van de dochter dat toebehoort a
 5. Verifieer dat het netto-resultaat voor de moeder dan = 0,90 × 200 = 180.
 
 
-**Voorbeeld**: Aurelia Holding NV bezit 90 % in Brugse Brouwerij BV. Eigen vermogen Brugse op afsluitingsdatum = 1.000. Resultaat boekjaar Brugse = 200.
-
-**Substap 1 — Berekening belangen van derden in eigen vermogen** 🧮
-belangen van derden in EV = (1 − belangenpercentage) × eigen vermogen dochter
-                          = (1 − 0,90) × 1.000
-                          = 0,10 × 1.000
-                          = **100**
-
-
-**Substap 2 — Berekening aandeel van derden in resultaat** 🧮
-aandeel van derden in resultaat = (1 − 0,90) × 200 = **20**
-
-
-**Substap 3 — Presentatie in geconsolideerde jaarrekening** 📊
-| Geconsolideerde balans (passiefzijde, uittreksel) |       |
-|---------------------------------------------------|------:|
-| Eigen vermogen toebehorend aan Aurelia            |   x   |
-| **Belangen van derden**                           | **100** |
-
-| Geconsolideerde resultatenrekening (uittreksel)   |       |
-|---------------------------------------------------|------:|
-| Resultaat boekjaar (totaal)                       |   200 |
-| waarvan: **Aandeel van derden in resultaat**      |  **20** |
-| waarvan: aandeel Aurelia in resultaat             |   180 |
-
+> [!example]- Voorbeeld: Aurelia Holding NV bezit 90 % in Brugse Brouwerij BV
+> Aurelia Holding NV bezit 90 % in Brugse Brouwerij BV. Eigen vermogen Brugse op afsluitingsdatum = 1.000. Resultaat boekjaar Brugse = 200.
+>
+> 1. **Berekening belangen van derden in eigen vermogen** 🧮
+>
+>    belangen van derden in EV = (1 − belangenpercentage) × eigen vermogen dochter
+>                              = (1 − 0,90) × 1.000
+>                              = 0,10 × 1.000
+>                              = **100**
+>    
+>
+> 2. **Berekening aandeel van derden in resultaat** 🧮
+>
+>    aandeel van derden in resultaat = (1 − 0,90) × 200 = **20**
+>    
+>
+> 3. **Presentatie in geconsolideerde jaarrekening** 📊
+>
+>    | Geconsolideerde balans (passiefzijde, uittreksel) |       |
+>    |---------------------------------------------------|------:|
+>    | Eigen vermogen toebehorend aan Aurelia            |   x   |
+>    | **Belangen van derden**                           | **100** |
+>    
+>    | Geconsolideerde resultatenrekening (uittreksel)   |       |
+>    |---------------------------------------------------|------:|
+>    | Resultaat boekjaar (totaal)                       |   200 |
+>    | waarvan: **Aandeel van derden in resultaat**      |  **20** |
+>    | waarvan: aandeel Aurelia in resultaat             |   180 |
+>    
+>
 
 **Grondslag**: [[minderheidsbelangen]] §berekening, KB WVV art. 3:137
 
-> [!warning] Boek alleen 'Belangen van derden' bij integrale consolidatie, nooit bij evenredige consolidatie.
+> [!warning]- Boek alleen 'Belangen van derden' bij integrale consolidatie, nooit bij evenredige consolidatie.
 >
 > _Vaak fout gedaan_: Bij evenredige consolidatie alsnog een aandeel van derden boeken voor het deel buiten de groep.
 >
@@ -273,18 +286,15 @@ Verwijder weggelaten rechten en verplichtingen uit de toelichting bij de geconso
 **Grondslag**: [[intragroep-eliminaties]] §toelichting-consistentie, KB WVV art. 3:138
 
 
-
 ## Voorbeelden
 
-**Situatie**: Aurelia Holding NV bezit 90 % in Brugse Brouwerij BV. Aurelia heeft aan Brugse voorraad verkocht met een brutomarge van 25 %. Op balansdatum staat bij Brugse nog 400 van die voorraad. Eigen vermogen Brugse op afsluitingsdatum = 1.000; resultaat = 200.
+> [!example]- Aurelia Holding NV bezit 90 % in Brugse Brouwerij BV
+> **Conclusie**: Te elimineren intra-groepswinst in voorraad = 25 % × 400 = 100 (voorraad terug naar 300 — de waarde voor de groep). Belangen van derden op balans = (1 − 0,90) × 1.000 = 100. Aandeel van derden in resultaat = (1 − 0,90) × 200 = 20.
+>
+> **Grondslag**: [[intragroep-eliminaties]] §eliminatie-voorraad; [[minderheidsbelangen]] §berekening
+>
+> **Redenering**: Intra-groepswinst in voorraad wordt teruggedraaid omdat het actief de groep nog niet heeft verlaten. Het complementaire belang van 10 % wordt afgezonderd voor derden bij integrale consolidatie.
 
-**Conclusie**: Te elimineren intra-groepswinst in voorraad = 25 % × 400 = 100 (voorraad terug naar 300 — de waarde voor de groep). Belangen van derden op balans = (1 − 0,90) × 1.000 = 100. Aandeel van derden in resultaat = (1 − 0,90) × 200 = 20.
-
-**Grondslag**: [[intragroep-eliminaties]] §eliminatie-voorraad; [[minderheidsbelangen]] §berekening
-
-**Redenering**: Intra-groepswinst in voorraad wordt teruggedraaid omdat het actief de groep nog niet heeft verlaten. Het complementaire belang van 10 % wordt afgezonderd voor derden bij integrale consolidatie.
-
----
 
 ## Gebaseerd op concepten
 

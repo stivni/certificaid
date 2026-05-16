@@ -1,14 +1,16 @@
 {% for blok in in_praktijk %}
-### {{ blok.aspect }} {id="{{ blok.anker_slug }}"}
+<h3 id="{{ blok.anker_slug | default(blok.aspect | lower | replace(' ', '-')) }}">{{ blok.aspect }}</h3>
 
-{{ blok.betekenis }} {{ blok.confidence | default('inferred') | confidence_label }}
-
+> [!tip]- {{ blok.aspect }}
+> {{ blok.betekenis }} {{ blok.confidence | default('inferred') | confidence_label }}
 {% if blok.herkenningspunt %}
-**Herkenningspunt**: {{ blok.herkenningspunt }}
-
+>
+> > [!tip]- Herkennen op het examen
+> > {{ blok.herkenningspunt }}
 {% endif %}
 {% if blok.wereld_voorbeeld %}
-**Voorbeeld**: {{ blok.wereld_voorbeeld }}
-
+>
+> **Voorbeeld**: {{ blok.wereld_voorbeeld }}
 {% endif %}
+
 {% endfor %}

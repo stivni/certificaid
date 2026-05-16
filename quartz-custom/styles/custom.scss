@@ -96,6 +96,14 @@
   margin-top: 0.35rem;
 }
 
+// Brede tabellen horizontaal scrollbaar (vergelijkingstabel synthese-records)
+.markdown-body table,
+article table {
+  max-width: none;
+  display: block;
+  overflow-x: auto;
+}
+
 // Compact Nodig / Uitkomst blockquotes side by side
 .step-io {
   display: flex;

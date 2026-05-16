@@ -21,26 +21,29 @@ gegenereerd_op: '2026-05-16'
 ---
 # Horizontale consolidatie ⚖️
 
-> De consolidatietechniek die je toepast wanneer vennootschappen onder gemeenschappelijke leiding staan zonder dat één rechtspersoon de andere controleert — een consortium. De leden van het consortium en hun eigen dochters worden via integrale consolidatie samengevoegd (KB WVV art. 3:124, 1° jo. WVV art. 3:24). De posten van het eigen vermogen blijven per lid zichtbaar (beschikbare/onbeschikbare reserves behouden hun karakter — WVV art. 3:30, § 2).
->
-> _Bron: CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)_
-
-
-> [!summary] Korte definitie
+> [!summary] Korte inhoud
 > De consolidatietechniek die je toepast wanneer vennootschappen onder gemeenschappelijke leiding staan zonder dat één rechtspersoon de andere controleert — een consortium.
 
 > [!info] Behoort tot: [[consortium]] · [[consolidatiemethodes-vergelijking]]
+De consolidatietechniek die je toepast wanneer vennootschappen onder gemeenschappelijke leiding staan zonder dat één rechtspersoon de andere controleert — een consortium. De leden van het consortium en hun eigen dochters worden via integrale consolidatie samengevoegd (KB WVV art. 3:124, 1° jo. WVV art. 3:24). De posten van het eigen vermogen blijven per lid zichtbaar (beschikbare/onbeschikbare reserves behouden hun karakter — WVV art. 3:30, § 2).
+
+_Bron: CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)_
+
+
 ## In de praktijk
 
-### Voorrang van verticale consolidatie {id="voorrang-van-verticale-consolidatie"}
+<h3 id="voorrang-van-verticale-consolidatie">Voorrang van verticale consolidatie</h3>
 
-Het begrip 'consortium' is uitgesloten zodra twee of meer vennootschappen al in een verticale moeder-dochter-relatie staan met elkaar of met een gemeenschappelijke moeder. Zo voorkomt de wet dat dezelfde groep zowel verticaal als horizontaal wordt opgesteld. Eerst de verticale check, dan eventueel horizontaal. ⚖️
+> [!tip]- Voorrang van verticale consolidatie
+> Het begrip 'consortium' is uitgesloten zodra twee of meer vennootschappen al in een verticale moeder-dochter-relatie staan met elkaar of met een gemeenschappelijke moeder. Zo voorkomt de wet dat dezelfde groep zowel verticaal als horizontaal wordt opgesteld. Eerst de verticale check, dan eventueel horizontaal. ⚖️
+>
+> > [!tip]- Herkennen op het examen
+> > Examen-zin 'Aurelia is dochter van Antwerpse én partner in consortium met Cardinal' → geen consortium — gewoon verticale consolidatie Aurelia+Antwerpse; Cardinal apart.
 
-**Herkenningspunt**: Examen-zin 'Aurelia is dochter van Antwerpse én partner in consortium met Cardinal' → geen consortium — gewoon verticale consolidatie Aurelia+Antwerpse; Cardinal apart.
+<h3 id="geen-moeder-gezamenlijke-verantwoordelijkheid">Geen moeder, gezamenlijke verantwoordelijkheid</h3>
 
-### Geen moeder, gezamenlijke verantwoordelijkheid {id="geen-moeder-gezamenlijke-verantwoordelijkheid"}
-
-Anders dan bij verticale consolidatie is er bij een consortium geen 'moeder'. De leden van het consortium maken samen de geconsolideerde jaarrekening op, laten ze controleren en publiceren ze. De centrale leider — vaak een natuurlijke persoon zoals Pieter Vermeulen of een private stichting — moet zelf géén geconsolideerde jaarrekening opstellen (CBN 2022/09 — voorbeeld 7). ⚖️
+> [!tip]- Geen moeder, gezamenlijke verantwoordelijkheid
+> Anders dan bij verticale consolidatie is er bij een consortium geen 'moeder'. De leden van het consortium maken samen de geconsolideerde jaarrekening op, laten ze controleren en publiceren ze. De centrale leider — vaak een natuurlijke persoon zoals Pieter Vermeulen of een private stichting — moet zelf géén geconsolideerde jaarrekening opstellen (CBN 2022/09 — voorbeeld 7). ⚖️
 
 
 ## Stappen
@@ -113,28 +116,33 @@ Tel de (eventueel verticaal geconsolideerde) cijfers van alle consortium-leden p
 5. Idem voor de resultatenrekening: tel de bedrijfsopbrengsten en -kosten samen, met behoud van vergelijkbare presentatie.
 
 
-**Voorbeeld**: Industria Antwerpen NV en Jachthaven Jezus-Eik NV vormen een consortium onder leiding van Pieter Vermeulen.
-
-**Substap 1 — Balans Industria Antwerpen NV** 📊
-| Industria Antwerpen NV — Activa  |     |
-|----------------------------------|----:|
-| Vaste activa                     | 800 |
-| Vlottende activa                 | 600 |
-| **Totaal**                       | **1400** |
-
-**Substap 2 — Balans Jachthaven Jezus-Eik NV** 📊
-| Jachthaven Jezus-Eik NV — Activa |     |
-|----------------------------------|----:|
-| Vaste activa                     | 500 |
-| Vlottende activa                 | 400 |
-| **Totaal**                       | **900** |
-
-**Substap 3 — Horizontaal geconsolideerde balans (vóór intragroep-eliminaties)** 📊
-| Geconsolideerde balans — Activa            |     |
-|--------------------------------------------|----:|
-| Vaste activa (Industria + Jachthaven)      | 1300 |
-| Vlottende activa (Industria + Jachthaven)  | 1000 |
-| **Totaal**                                 | **2300** |
+> [!example]- Voorbeeld: Industria Antwerpen NV en Jachthaven Jezus-Eik NV vormen een consortium onder leiding van Pieter Vermeulen
+> Industria Antwerpen NV en Jachthaven Jezus-Eik NV vormen een consortium onder leiding van Pieter Vermeulen.
+>
+> 1. **Balans Industria Antwerpen NV** 📊
+>
+>    | Industria Antwerpen NV — Activa  |     |
+>    |----------------------------------|----:|
+>    | Vaste activa                     | 800 |
+>    | Vlottende activa                 | 600 |
+>    | **Totaal**                       | **1400** |
+>
+> 2. **Balans Jachthaven Jezus-Eik NV** 📊
+>
+>    | Jachthaven Jezus-Eik NV — Activa |     |
+>    |----------------------------------|----:|
+>    | Vaste activa                     | 500 |
+>    | Vlottende activa                 | 400 |
+>    | **Totaal**                       | **900** |
+>
+> 3. **Horizontaal geconsolideerde balans (vóór intragroep-eliminaties)** 📊
+>
+>    | Geconsolideerde balans — Activa            |     |
+>    |--------------------------------------------|----:|
+>    | Vaste activa (Industria + Jachthaven)      | 1300 |
+>    | Vlottende activa (Industria + Jachthaven)  | 1000 |
+>    | **Totaal**                                 | **2300** |
+>
 
 **Grondslag**: KB WVV art. 3:124, 1° jo. WVV art. 3:24
 
@@ -185,18 +193,19 @@ Verwijder alle wederzijdse vorderingen, schulden, verkopen, aankopen, intra-groe
 **Grondslag**: KB WVV art. 3:134 (balans), art. 3:136 (resultatenrekening)
 
 
-<details>
-<summary><strong>Niet verwarren met</strong> (1 vergelijkingen)</summary>
-
-- **vs [[integrale-consolidatie]]** — Horizontale consolidatie gebruikt de techniek van integrale consolidatie maar past die toe op een horizontale groep (consortium) in plaats van op een verticale moeder-dochter-relatie. Geen moeder, geen aandeel van derden tussen de leden onderling; wel mogelijk binnen verticale subgroepen onder een lid.
-  - _Trigger_: Het type relatie (verticaal vs. horizontaal) bepaalt of je het integrale-consolidatie-recept op een moeder + haar dochters toepast (verticaal) of op een set zelfstandige consortium-leden onder gemeenschappelijke leiding (horizontaal).
-
-</details>
+> [!info]- Niet verwarren met [[integrale-consolidatie]]
+> Horizontale consolidatie gebruikt de techniek van integrale consolidatie maar past die toe op een horizontale groep (consortium) in plaats van op een verticale moeder-dochter-relatie. Geen moeder, geen aandeel van derden tussen de leden onderling; wel mogelijk binnen verticale subgroepen onder een lid.
+>
+> _Trigger_: Het type relatie (verticaal vs. horizontaal) bepaalt of je het integrale-consolidatie-recept op een moeder + haar dochters toepast (verticaal) of op een set zelfstandige consortium-leden onder gemeenschappelijke leiding (horizontaal).
 
 
 ## Valkuilen
 
-- ⚠️ Een consortium-lid dat zelf dochters heeft, moet eerst verticaal consolideren vooraleer aan de horizontale samenvoeging deel te nemen. Wie deze volgorde omkeert, krijgt incorrecte resultaten omdat de derden-belangen in de dochters van een lid anders verkeerd worden behandeld. Bv. Industria Antwerpen NV met dochter Brugse Brouwerij BV (80 %): eerst Industria+Brugse verticaal consolideren (incl. 20 % belangen van derden), dan pas horizontaal samenvoegen met Jachthaven Jezus-Eik NV. ⚖️
+> [!warning]- Een consortium-lid dat zelf dochters heeft, moet eerst verticaal consolideren v…
+> ⚠️ Een consortium-lid dat zelf dochters heeft, moet eerst verticaal consolideren vooraleer aan de horizontale samenvoeging deel te nemen. Wie deze volgorde omkeert, krijgt incorrecte resultaten omdat de derden-belangen in de dochters van een lid anders verkeerd worden behandeld. Bv. Industria Antwerpen NV met dochter Brugse Brouwerij BV (80 %): eerst Industria+Brugse verticaal consolideren (incl. 20 % belangen van derden), dan pas horizontaal samenvoegen met Jachthaven Jezus-Eik NV. ⚖️
+>
+> _Bron: CBN 2022/09 — verticale voorafgaand aan horizontale_
+
 
 ## Zie ook
 

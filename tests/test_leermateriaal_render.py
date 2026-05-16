@@ -500,6 +500,202 @@ class TestSchema14Render:
             assert "Y vergeten" in md
 
 
+# ─── Tests: Callout-conventies (ADR-010 §Callout-conventies 2026-05-16) ──────
+
+
+class TestCalloutConventies:
+    """Verifieer dat alle callout-typen correct worden gegenereerd (ADR-010 §Callout-conventies)."""
+
+    def _maak_record(self, **extra) -> dict:
+        basis = {
+            "id": "test-callout",
+            "naam": "Callout-test",
+            "node_type": "begrip",
+            "schema_version": "1.4",
+            "status": "seed",
+            "linked_anchors": ["1.4.I.A"],
+            "_provenance": {"extractor_run": "test", "model": "test", "anchor_id": "1.4.I.A"},
+        }
+        basis.update(extra)
+        return basis
+
+    def test_tl_dr_callout_summary_niet_collapsible(self) -> None:
+        """TL;DR uit definitie → [!summary] zonder collapsible suffix."""
+        from tools.leermateriaal.render_concept_fiche import render_record
+
+        record = self._maak_record(definitie={"text": "Een zin. Nog meer tekst."})
+        md = render_record(record)
+        assert "> [!summary] Korte inhoud" in md
+        assert "> [!summary]-" not in md  # NIET collapsible
+
+    def test_definitie_geen_blockquote(self) -> None:
+        """Definitie-tekst staat als gewone paragraaf, NIET in een extra blockquote buiten de callout."""
+        from tools.leermateriaal.render_concept_fiche import render_record
+
+        # Gebruik een definitie met meerdere zinnen zodat de volledige tekst
+        # als gewone paragraaf verschijnt en de TL;DR-callout alleen de eerste zin bevat.
+        record = self._maak_record(
+            definitie={"text": "Eerste zin. Tweede zin met meer uitleg over het concept."}
+        )
+        md = render_record(record)
+        # Volledige tekst als gewone paragraaf
+        assert "Tweede zin met meer uitleg over het concept." in md
+        # De [!summary] callout bevat alleen de eerste zin
+        assert "> [!summary] Korte inhoud" in md
+        assert "> Eerste zin." in md  # in de callout
+        # "Tweede zin" mag NIET als blockquote verschijnen
+        assert "> Tweede zin" not in md
+
+    def test_valkuilen_warning_collapsible_per_item(self) -> None:
+        """Valkuilen → [!warning]- collapsible, één per item."""
+        from tools.leermateriaal.render_concept_fiche import render_record
+
+        record = self._maak_record(
+            definitie={"text": "Test."},
+            valkuilen=[
+                {"text": "Fout A.", "confidence": "grounded"},
+                {"text": "Fout B.", "confidence": "grounded"},
+            ],
+        )
+        md = render_record(record)
+        # Twee aparte collapsible warning-callouts
+        assert md.count("> [!warning]-") == 2
+
+    def test_vergelijkingsparen_info_collapsible_per_paar(self) -> None:
+        """Vergelijkingsparen → [!info]- per paar, NIET één grote container."""
+        from tools.leermateriaal.render_concept_fiche import render_record
+
+        record = self._maak_record(
+            definitie={"text": "Test."},
+            vergelijkingsparen=[
+                {"vergelijking_met": "concept-a", "verschil": "Verschil X."},
+                {"vergelijking_met": "concept-b", "verschil": "Verschil Y."},
+            ],
+        )
+        md = render_record(record)
+        assert "> [!info]- Niet verwarren met [[concept-a]]" in md
+        assert "> [!info]- Niet verwarren met [[concept-b]]" in md
+        assert "<details>" not in md  # oude HTML-render weg
+
+    def test_in_praktijk_tip_callout(self) -> None:
+        """in_praktijk[*] → [!tip]- callout per aspect."""
+        from tools.leermateriaal.render_concept_fiche import render_record
+
+        record = self._maak_record(
+            definitie={"text": "Test."},
+            in_praktijk=[
+                {
+                    "aspect": "Testaspect",
+                    "betekenis": "Uitleg van het aspect.",
+                    "herkenningspunt": "Kijk naar X.",
+                    "confidence": "grounded",
+                }
+            ],
+        )
+        md = render_record(record)
+        assert "> [!tip]- Testaspect" in md
+        assert "id=\"testaspect\"" in md  # HTML-anker aanwezig
+        assert "{id=" not in md  # geen Quartz-syntax {id=...}
+
+    def test_edges_onderdeel_van_info_niet_collapsible(self) -> None:
+        """Edges onderdeel-van → inline [!info] zonder collapsible suffix."""
+        from tools.leermateriaal.render_concept_fiche import render_record
+
+        record = self._maak_record(
+            definitie={"text": "Test."},
+            edges=[{"type": "onderdeel-van", "target": "parent-concept"}],
+        )
+        md = render_record(record)
+        assert "> [!info] Behoort tot: [[parent-concept]]" in md
+        assert "> [!info]- Behoort tot:" not in md  # NIET collapsible
+
+    def test_bevat_edges_niet_gerenderd_in_niet_synthese(self) -> None:
+        """Edges van type 'bevat' worden NIET gerenderd op niet-synthese-fiches."""
+        from tools.leermateriaal.render_concept_fiche import render_record
+
+        record = self._maak_record(
+            definitie={"text": "Test."},
+            edges=[{"type": "bevat", "target": "child-concept"}],
+        )
+        md = render_record(record)
+        assert "Bestaat uit" not in md
+        assert "child-concept" not in md
+
+    def test_voorbeeld_ontbreekt_todo_callout(self) -> None:
+        """Geen voorbeeld in record → [!todo] callout (niet collapsible)."""
+        from tools.leermateriaal.render_concept_fiche import render_record
+
+        record = self._maak_record(definitie={"text": "Test."})
+        md = render_record(record)
+        assert "> [!todo] Voorbeeld ontbreekt" in md
+        assert "> [!todo]-" not in md  # NIET collapsible
+
+    def test_stap_voorbeeld_in_example_callout(self) -> None:
+        """Stap.voorbeeld.scenario → [!example]- callout (collapsible)."""
+        from tools.leermateriaal.render_competentie_fiche import render_competentie
+
+        competentie = {
+            "id": "test", "titel": "T", "status": "voorgesteld",
+            "schema_version": "1.1", "programmaonderdelen": ["1.4"],
+            "voortkomend_uit": {"taken": [], "kenniselementen": []},
+            "gebaseerd_op_concepten": ["a", "b"],
+            "procedure_grondslag": {"wettelijk_pct": 80, "praktijk_pct": 20, "motivering": "T"},
+            "stappen": [{
+                "nr": 1, "titel": "Stap 1", "grondslag": "[[a]]",
+                "voorbeeld": {
+                    "scenario": "Aurelia doet iets met Brugse.",
+                    "substappen": [],
+                },
+            }],
+        }
+        md = render_competentie(competentie)
+        assert "> [!example]-" in md
+        assert "Aurelia doet iets met Brugse." in md
+
+    def test_competentie_voorbeelden_in_example_callouts(self) -> None:
+        """Competentie.voorbeelden[] → [!example]- callout per voorbeeld."""
+        from tools.leermateriaal.render_competentie_fiche import render_competentie
+
+        competentie = {
+            "id": "test", "titel": "T", "status": "voorgesteld",
+            "schema_version": "1.1", "programmaonderdelen": ["1.4"],
+            "voortkomend_uit": {"taken": [], "kenniselementen": []},
+            "gebaseerd_op_concepten": ["a", "b"],
+            "procedure_grondslag": {"wettelijk_pct": 80, "praktijk_pct": 20, "motivering": "T"},
+            "stappen": [{"nr": 1, "titel": "S", "grondslag": "[[a]]"}],
+            "voorbeelden": [
+                {
+                    "situatie": "Situatie X is aanwezig.",
+                    "conclusie": "Conclusie Y.",
+                    "grondslag": "[[a]]",
+                    "redenering": "Redenering Z.",
+                }
+            ],
+        }
+        md = render_competentie(competentie)
+        assert "> [!example]-" in md
+        assert "Conclusie Y." in md
+        assert "Redenering Z." in md
+
+    def test_geen_beslisboom_in_competentie(self) -> None:
+        """Beslisboom-blok wordt NIET gerenderd in competentie-fiche (ADR-010 §C.1)."""
+        from tools.leermateriaal.render_competentie_fiche import render_competentie
+
+        competentie = {
+            "id": "test", "titel": "T", "status": "voorgesteld",
+            "schema_version": "1.1", "programmaonderdelen": ["1.4"],
+            "voortkomend_uit": {"taken": [], "kenniselementen": []},
+            "gebaseerd_op_concepten": ["a", "b"],
+            "procedure_grondslag": {"wettelijk_pct": 80, "praktijk_pct": 20, "motivering": "T"},
+            "stappen": [{"nr": 1, "titel": "S", "grondslag": "[[a]]"}],
+            "beslisboom": [
+                {"vraag": "Is er controle?", "ja": "Integrale consolidatie.", "nee": "Nee."}
+            ],
+        }
+        md = render_competentie(competentie)
+        assert "Is er controle?" not in md  # beslisboom niet gerenderd
+
+
 # ─── Tests: CLI --help ─────────────────────────────────────────────────────────
 
 

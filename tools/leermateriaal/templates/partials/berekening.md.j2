@@ -36,8 +36,9 @@
 
 {% endif %}
 {% if methode.stappen %}
-{% set stappen = methode.stappen %}
+{% for stap in methode.stappen %}
 {% include 'partials/stap.md.j2' ignore missing %}
+{% endfor %}
 {% endif %}
 {% if methode.concreet_voorbeeld %}
 **Voorbeeld**: {{ methode.concreet_voorbeeld.scenario }}

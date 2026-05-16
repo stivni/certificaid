@@ -33,18 +33,19 @@
 
 {% endif %}
 {% if stap.voorbeeld %}
-{% if stap.voorbeeld.scenario %}
-**Voorbeeld**: {{ stap.voorbeeld.scenario }}
-
-{% endif %}
+{% set voorbeeld_scenario = stap.voorbeeld.scenario | default('') %}
+> [!example]- Voorbeeld: {{ voorbeeld_scenario.split('.')[0] if voorbeeld_scenario else 'zie hieronder' }}
+> {{ voorbeeld_scenario }}
 {% if stap.voorbeeld.substappen %}
+>
 {% for sub in stap.voorbeeld.substappen %}
-**Substap {{ sub.nr }} — {{ sub.titel }}** {% if sub.type == 'balans' %}📊{% elif sub.type == 'berekening' %}🧮{% elif sub.type == 'boekingsregel' %}📝{% elif sub.type == 'opmerking' %}💬{% elif sub.type == 'flowchart' %}🌊{% endif %}
-
-{{ sub.data }}
-
+> {{ loop.index }}. **{{ sub.titel }}** {% if sub.type == 'balans' %}📊{% elif sub.type == 'berekening' %}🧮{% elif sub.type == 'boekingsregel' %}📝{% elif sub.type == 'opmerking' %}💬{% elif sub.type == 'flowchart' %}🌊{% endif +%}
+>
+>    {{ sub.data | replace('\n', '\n>    ') }}
+>
 {% endfor %}
 {% endif %}
+
 {% endif %}
 {% if stap.grondslag %}
 {% if stap.grondslag is mapping %}
@@ -56,7 +57,7 @@
 {% endif %}
 {% if stap.valkuilen %}
 {% for valkuil in stap.valkuilen %}
-> [!warning] {{ valkuil.advies | default(valkuil.correctie) }}
+> [!warning]- {{ valkuil.advies | default(valkuil.correctie) }}
 >
 > _Vaak fout gedaan_: {{ valkuil.vaak_fout | default(valkuil.foute_aanname) }}{% if valkuil.grondslag %}{{ "\n>\n> _Grondslag_: " }}{{ valkuil.grondslag }}{% endif %}
 

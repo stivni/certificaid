@@ -244,9 +244,10 @@ def format_sources_display(chunks: list[RetrievalResult]) -> str:
 
 @st.cache_resource
 def get_claude():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    # Lokaal: uit .env / os.environ. Streamlit Cloud: uit st.secrets.
+    api_key = os.environ.get("ANTHROPIC_API_KEY") or st.secrets.get("ANTHROPIC_API_KEY")
     if not api_key:
-        st.error("❌ ANTHROPIC_API_KEY niet ingesteld.")
+        st.error("❌ ANTHROPIC_API_KEY niet ingesteld (env-var of st.secrets).")
         st.stop()
     return anthropic.Anthropic(api_key=api_key)
 

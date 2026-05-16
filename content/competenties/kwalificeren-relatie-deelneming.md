@@ -69,7 +69,7 @@ Ga na of de moeder exclusieve controle in rechte of in feite uitoefent.
 
 **Grondslag**: [[exclusieve-controle]] §soorten, WVV art. 1:14 en 1:15
 
-> [!warning] Toets ook controle in feite — controle vereist niet altijd meer dan 50 %.
+> [!warning]- Toets ook controle in feite — controle vereist niet altijd meer dan 50 %.
 >
 > _Vaak fout gedaan_: Aannemen dat 49 % stemrechten nooit controle oplevert.
 >
@@ -96,7 +96,7 @@ Ga na of een beperkt aantal vennoten samen controle uitoefent op basis van een a
 
 **Grondslag**: [[gezamenlijke-controle]] §kwalificatie, WVV art. 1:18
 
-> [!warning] Zonder schriftelijke afspraak over gemeenschappelijke instemming is er geen gezamenlijke controle.
+> [!warning]- Zonder schriftelijke afspraak over gemeenschappelijke instemming is er geen gezamenlijke controle.
 >
 > _Vaak fout gedaan_: Aannemen dat een 50/50-deelneming automatisch gezamenlijke controle oplevert.
 >
@@ -124,27 +124,32 @@ Ga na of de moeder zonder controle wel invloed van betekenis uitoefent — weerl
 5. Volg [[invloed-van-betekenis]] §indicatoren voor de toetsing.
 
 
-**Voorbeeld**: Antwerpse Investments NV verwerft 25 % van Drukkerij Dendermonde BV. Drukkerij Dendermonde stelt een vertegenwoordiger van Antwerpse aan in haar bestuursorgaan. Antwerpse neemt deel aan strategische beslissingen.
-
-**Substap 1 — Toets aan 20 %-vermoeden** 🧮
-Stemrechtpercentage Antwerpse in Drukkerij Dendermonde = 25 %
-25 % ≥ 20 % → vermoeden invloed van betekenis bevestigd.
-
-
-**Substap 2 — Aanvullende indicatoren** 💬
-- Vertegenwoordiging in bestuursorgaan: ja
-- Deelname aan beleidsbeslissingen: ja
-- Materiële transacties: niet vermeld
-Conclusie: vermoeden niet weerlegd, integendeel versterkt. Drukkerij Dendermonde BV is geassocieerde onderneming van Antwerpse Investments NV.
-
-
-**Substap 3 — Gevolg voor consolidatie** 💬
-Drukkerij Dendermonde wordt opgenomen volgens de vermogensmutatiemethode (zie [[kiezen-consolidatiemethode]] stap 4).
-
+> [!example]- Voorbeeld: Antwerpse Investments NV verwerft 25 % van Drukkerij Dendermonde BV
+> Antwerpse Investments NV verwerft 25 % van Drukkerij Dendermonde BV. Drukkerij Dendermonde stelt een vertegenwoordiger van Antwerpse aan in haar bestuursorgaan. Antwerpse neemt deel aan strategische beslissingen.
+>
+> 1. **Toets aan 20 %-vermoeden** 🧮
+>
+>    Stemrechtpercentage Antwerpse in Drukkerij Dendermonde = 25 %
+>    25 % ≥ 20 % → vermoeden invloed van betekenis bevestigd.
+>    
+>
+> 2. **Aanvullende indicatoren** 💬
+>
+>    - Vertegenwoordiging in bestuursorgaan: ja
+>    - Deelname aan beleidsbeslissingen: ja
+>    - Materiële transacties: niet vermeld
+>    Conclusie: vermoeden niet weerlegd, integendeel versterkt. Drukkerij Dendermonde BV is geassocieerde onderneming van Antwerpse Investments NV.
+>    
+>
+> 3. **Gevolg voor consolidatie** 💬
+>
+>    Drukkerij Dendermonde wordt opgenomen volgens de vermogensmutatiemethode (zie [[kiezen-consolidatiemethode]] stap 4).
+>    
+>
 
 **Grondslag**: [[invloed-van-betekenis]] §kwalificatie, WVV art. 1:22
 
-> [!warning] Het 20 %-vermoeden is weerlegbaar; toets ook de feitelijke indicatoren.
+> [!warning]- Het 20 %-vermoeden is weerlegbaar; toets ook de feitelijke indicatoren.
 >
 > _Vaak fout gedaan_: Bij precies 20 % automatisch tot invloed van betekenis besluiten, zonder de feiten te toetsen.
 >
@@ -175,41 +180,22 @@ Stel de finale kwalificatie van de relatie op basis van stappen 2-4.
 **Grondslag**: [[controle]] §kwalificatie-overzicht (praktijk-synthese)
 
 
-## Beslisboom
-
-**Heeft de vennootschap > 50 % stemrechten of een onweerlegbaar vermoeden van controle in rechte (statutair/contractueel/feitelijk via twee laatste AV's)?**
-- Ja: Exclusieve controle → dochteronderneming.
-- Nee: Ga naar volgende vraag.
-
-**Is er een overeenkomst dat beleidsbeslissingen alleen met gemeenschappelijke instemming kunnen worden genomen?**
-- Ja: Gezamenlijke controle → gemeenschappelijke dochteronderneming.
-- Nee: Ga naar volgende vraag.
-
-**Bedraagt het stemrechtpercentage ≥ 20 % of zijn er feitelijke aanwijzingen van invloed (bestuursvertegenwoordiging, deelname aan beleid)?**
-- Ja: Invloed van betekenis → geassocieerde onderneming (mits niet weerlegd).
-- Nee: Gewone deelneming — geen consolidatietechniek; opname tegen aanschaffingswaarde.
-
-
 ## Voorbeelden
 
-**Situatie**: Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV. Geval 1: zij hebben een aandeelhoudersovereenkomst dat beleidsbeslissingen alleen samen worden genomen. Geval 2: geen overeenkomst.
+> [!example]- Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV
+> **Conclusie**: Geval 1: gezamenlijke controle → Filmstudio is gemeenschappelijke dochter van Cardinal en Energiehuis. Geval 2: noch Cardinal noch Energiehuis heeft controle. Filmstudio kan kwalificeren als geassocieerde (mits invloed van betekenis bewezen).
+>
+> **Grondslag**: [[gezamenlijke-controle]] §overeenkomst-vereiste; [[geassocieerde-onderneming]] §20-%-vermoeden
+>
+> **Redenering**: De overeenkomst is de wettelijke voorwaarde voor gezamenlijke controle. Zonder overeenkomst kan Filmstudio enkel via vermogensmutatie behandeld worden als invloed van betekenis bewezen is.
 
-**Conclusie**: Geval 1: gezamenlijke controle → Filmstudio is gemeenschappelijke dochter van Cardinal en Energiehuis. Geval 2: noch Cardinal noch Energiehuis heeft controle. Filmstudio kan kwalificeren als geassocieerde (mits invloed van betekenis bewezen).
+> [!example]- Antwerpse Investments NV verwerft 20 % in Drukkerij Dendermonde BV
+> **Conclusie**: Antwerpse heeft invloed van betekenis over Drukkerij Dendermonde. Drukkerij Dendermonde is een geassocieerde onderneming en wordt via vermogensmutatie opgenomen.
+>
+> **Grondslag**: [[invloed-van-betekenis]] §weerlegbaar-vermoeden-vanaf-20-percent; [[geassocieerde-onderneming]] §kwalificatie
+>
+> **Redenering**: Het 20 %-vermoeden wordt versterkt door bestuursvertegenwoordiging en deelname aan beleidsbeslissingen — kenmerkende aanwijzingen van invloed van betekenis.
 
-**Grondslag**: [[gezamenlijke-controle]] §overeenkomst-vereiste; [[geassocieerde-onderneming]] §20-%-vermoeden
-
-**Redenering**: De overeenkomst is de wettelijke voorwaarde voor gezamenlijke controle. Zonder overeenkomst kan Filmstudio enkel via vermogensmutatie behandeld worden als invloed van betekenis bewezen is.
-
----
-**Situatie**: Antwerpse Investments NV verwerft 20 % in Drukkerij Dendermonde BV. Drukkerij Dendermonde heeft Antwerpse in haar bestuursorgaan opgenomen, en Antwerpse neemt deel aan strategische beslissingen.
-
-**Conclusie**: Antwerpse heeft invloed van betekenis over Drukkerij Dendermonde. Drukkerij Dendermonde is een geassocieerde onderneming en wordt via vermogensmutatie opgenomen.
-
-**Grondslag**: [[invloed-van-betekenis]] §weerlegbaar-vermoeden-vanaf-20-percent; [[geassocieerde-onderneming]] §kwalificatie
-
-**Redenering**: Het 20 %-vermoeden wordt versterkt door bestuursvertegenwoordiging en deelname aan beleidsbeslissingen — kenmerkende aanwijzingen van invloed van betekenis.
-
----
 
 ## Gebaseerd op concepten
 

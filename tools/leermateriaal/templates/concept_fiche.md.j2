@@ -2,22 +2,10 @@
 # {{ record.naam }} {{ mode_confidence_label }}
 
 {% set hoofdveld = record.definitie or record.main_rule or record.verplichting or record.doel %}
-{% if hoofdveld %}
-> {{ hoofdveld.text }}
-{% if hoofdveld.source is defined and hoofdveld.source %}
->
-> _Bron: {{ hoofdveld.source.short }}_
-{% endif %}
-
-{% endif %}
-{% if record.rationale %}
-{% set rationale = record.rationale %}
-{% include 'partials/rationale_callout.md.j2' %}
-{% endif %}
-
-{% set kern = (record.definitie or record.main_rule or record.verplichting or record.doel or {}).text | default('') %}
+{% set kern = (hoofdveld or {}).get('text', '') if hoofdveld is mapping else '' %}
+{% if not kern and hoofdveld %}{% set kern = hoofdveld | string %}{% endif %}
 {% if kern %}
-> [!summary] Korte definitie
+> [!summary] Korte inhoud
 > {{ kern.split('.')[0] }}.
 
 {% endif %}
@@ -28,11 +16,23 @@
 > [!info] {% if edges_onderdeel_van %}Behoort tot: {% for e in edges_onderdeel_van %}[[{{ e.target }}]]{% if not loop.last %} · {% endif %}{% endfor %}{% endif %}{% if edges_onderdeel_van and edges_specialisatie_van %} · {% endif %}{% if edges_specialisatie_van %}Specialisatie van: {% for e in edges_specialisatie_van %}[[{{ e.target }}]]{% if not loop.last %} · {% endif %}{% endfor %}{% endif %}
 
 {% endif %}
-{% set edges_bevat = edges | selectattr('type', 'equalto', 'bevat') | list %}
-{% if edges_bevat %}
-> [!info] Bestaat uit: {% for e in edges_bevat %}[[{{ e.target }}]]{% if not loop.last %} · {% endif %}{% endfor %}
+{% if hoofdveld %}
+{% if hoofdveld is mapping and hoofdveld.text %}
+{{ hoofdveld.text }}
+{% if hoofdveld.source is defined and hoofdveld.source %}
+
+_Bron: {{ hoofdveld.source.short }}_
+{% endif %}
+{% else %}
+{{ hoofdveld }}
+{% endif %}
 
 {% endif %}
+{% if record.rationale %}
+{% set rationale = record.rationale %}
+{% include 'partials/rationale_callout.md.j2' %}
+{% endif %}
+
 {% set edges_uitzondering_op = edges | selectattr('type', 'equalto', 'uitzondering-op') | list %}
 {% if edges_uitzondering_op %}
 > [!info] Uitzondering op: {% for e in edges_uitzondering_op %}[[{{ e.target }}]]{% if not loop.last %} · {% endif %}{% endfor %}
@@ -106,19 +106,16 @@
 {% include 'partials/tijdlijn_tabel.md.j2' %}
 
 {% endif %}
-{% if record.voorwaarden %}
-## Voorwaarden
+{% if record.voorwaarden or record.uitzonderingen or record.voorwaarden_toepassing %}
+## Voorwaarden / uitzonderingen
 
-{% for voorwaarde in record.voorwaarden %}
-- {{ voorwaarde.text | default(voorwaarde) }} {% if voorwaarde.confidence is defined %}{{ voorwaarde.confidence | confidence_label }}{% endif %}
+{% set alle_voorwaarden = (record.voorwaarden | default([])) + (record.voorwaarden_toepassing | default([])) %}
+{% for v in alle_voorwaarden %}
+- {{ v.text | default(v) }} {% if v is mapping and v.confidence is defined %}{{ v.confidence | confidence_label }}{% endif %}
 
 {% endfor %}
-{% endif %}
-{% if record.uitzonderingen %}
-## Uitzonderingen
-
-{% for uitzondering in record.uitzonderingen %}
-- {{ uitzondering.text | default(uitzondering) }} {% if uitzondering.confidence is defined %}{{ uitzondering.confidence | confidence_label }}{% endif %}
+{% for uitzondering in record.uitzonderingen | default([]) %}
+- {{ uitzondering.text | default(uitzondering) }} {% if uitzondering is mapping and uitzondering.confidence is defined %}{{ uitzondering.confidence | confidence_label }}{% endif %}
 
 {% endfor %}
 {% endif %}
