@@ -31,7 +31,7 @@ PROGRAMMA_FILE = ROOT / "data" / "programma" / "programma.json"
 OUTPUT_CONTENT_DIR = ROOT / "content" / "studiemateriaal"
 EXTRACTIE_DIR = ROOT / "data" / "extractie"
 PROMPTS_DIR = ROOT / "prompts"
-GLUE_PROMPT = PROMPTS_DIR / "minicursus-glue-v1.md"
+GLUE_PROMPT = PROMPTS_DIR / "minicursus-glue-v2.md"
 EXAMEN_VRAGEN_DIR = ROOT / "data" / "programma" / "examen_vragen"
 
 
@@ -277,6 +277,8 @@ def render_skeleton(
 
     # Gesorteerde records voor concept-index
     gesorteerde_records = sorted(records, key=lambda r: r.get("naam", ""))
+    # Gesorteerde competenties voor competentie-index
+    gesorteerde_competenties = sorted(competenties, key=lambda c: c.get("titel", ""))
 
     # Lege glue-placeholders
     glue: dict = {
@@ -305,6 +307,7 @@ def render_skeleton(
         alle_formules=alle_formules,
         alle_vergelijkingsparen=alle_vergelijkingsparen,
         gesorteerde_records=gesorteerde_records,
+        gesorteerde_competenties=gesorteerde_competenties,
         open_gaps=open_gaps,
         glue=glue,
         examenvragen=examenvragen or [],

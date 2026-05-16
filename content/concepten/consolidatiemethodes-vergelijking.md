@@ -37,9 +37,9 @@ Voor één en hetzelfde fenomeen — een groep van vennootschappen — bestaan v
 
 ```mermaid
 flowchart TD
-  A[Welk type relatie tussen moeder en dochter?] --> B{Is er een echte moeder<br/>die de andere(n) controleert?}
-  B -->|Nee — alle leden onder<br/>gemeenschappelijke leiding| C[Horizontale consolidatie<br/>consortium-leden samen]
-  B -->|Ja, één moeder| D{Welk niveau van controle?}
+  A[Welk type relatie tussen moeder en dochter?] --> B{Is er een echte moeder<br/>die de dochters controleert?}
+  B -->|Nee &mdash; alle leden onder<br/>gemeenschappelijke leiding| C[Horizontale consolidatie<br/>consortium-leden samen]
+  B -->|Ja &mdash; één moeder| D{Welk niveau van controle?}
   D -->|Exclusieve controle<br/>meer dan 50% stemrechten| E[Integrale consolidatie]
   D -->|Gezamenlijke controle<br/>vennoten-overeenkomst| F[Evenredige consolidatie]
   D -->|Invloed van betekenis<br/>vanaf 20% stemrechten<br/>geen controle| G[Vermogensmutatiemethode]

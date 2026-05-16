@@ -28,10 +28,6 @@
 
 [[competenties/{{ hoofdstuk.competentie_id }}|→ Volledige procedure]]
 
-{% if hoofdstuk.competentie.stappen %}
-**Eerste stap**: {{ hoofdstuk.competentie.stappen[0].titel }} — {{ hoofdstuk.competentie.stappen[0].input | default('') }}
-{% endif %}
-
 {% elif hoofdstuk.type == 'thematisch' %}
 ## {{ hoofdstuk.titel }}
 
@@ -54,14 +50,6 @@
 
 {{ glue.synthese_intro[loop.index0] | default('<!-- TODO: Opus-glue synthese-intro -->') }}
 
-{% if syn.inleiding and syn.inleiding.text %}
-{{ syn.inleiding.text }}
-
-{% endif %}
-{% if syn.vergelijkingstabel and syn.vergelijkingstabel.data %}
-{{ syn.vergelijkingstabel.data }}
-
-{% endif %}
 {% if syn.beslisboom and syn.beslisboom.data %}
 {{ syn.beslisboom.data }}
 
@@ -90,7 +78,7 @@
 | Concept | Naam | Waarde | Eenheid | Gevolg |
 |---|---|---|---|---|
 {% for rij in alle_drempelwaarden %}
-| [[{{ rij.concept_id }}]] | {{ rij.naam }} | {{ rij.waarde }} | {{ rij.eenheid | default('—') }} | {{ rij.gevolg }} |
+| [[{{ rij.concept_id }}]] | {{ rij.naam }} | {{ rij.waarde }} | {{ rij.eenheid | default('—') }} | {{ rij.gevolg | eerste_zin(120) }} |
 {% endfor %}
 
 {% endif %}
@@ -134,6 +122,12 @@
 {% else %}
 <!-- TODO: examenvragen via classify_vragen_naar_programmaonderdelen.py -->
 {% endif %}
+
+## Competentie-index
+
+{% for comp in gesorteerde_competenties %}
+[[competenties/{{ comp.id }}|{{ comp.titel }}]]
+{% endfor %}
 
 ## Concept-index
 

@@ -47,7 +47,7 @@
     }
   },
   "beslisboom": {
-    "data": "```mermaid\nflowchart TD\n  A[Welk type relatie tussen moeder en dochter?] --> B{Is er een echte moeder<br/>die de andere(n) controleert?}\n  B -->|Nee — alle leden onder<br/>gemeenschappelijke leiding| C[Horizontale consolidatie<br/>consortium-leden samen]\n  B -->|Ja, één moeder| D{Welk niveau van controle?}\n  D -->|Exclusieve controle<br/>meer dan 50% stemrechten| E[Integrale consolidatie]\n  D -->|Gezamenlijke controle<br/>vennoten-overeenkomst| F[Evenredige consolidatie]\n  D -->|Invloed van betekenis<br/>vanaf 20% stemrechten<br/>geen controle| G[Vermogensmutatiemethode]\n  D -->|Geen invloed| H[Niet in consolidatiekring<br/>gewone deelneming op balans]\n  style C fill:#ffeaa7\n  style E fill:#74b9ff\n  style F fill:#74b9ff\n  style G fill:#74b9ff\n  style H fill:#dfe6e9\n```",
+    "data": "```mermaid\nflowchart TD\n  A[Welk type relatie tussen moeder en dochter?] --> B{Is er een echte moeder<br/>die de dochters controleert?}\n  B -->|Nee &mdash; alle leden onder<br/>gemeenschappelijke leiding| C[Horizontale consolidatie<br/>consortium-leden samen]\n  B -->|Ja &mdash; één moeder| D{Welk niveau van controle?}\n  D -->|Exclusieve controle<br/>meer dan 50% stemrechten| E[Integrale consolidatie]\n  D -->|Gezamenlijke controle<br/>vennoten-overeenkomst| F[Evenredige consolidatie]\n  D -->|Invloed van betekenis<br/>vanaf 20% stemrechten<br/>geen controle| G[Vermogensmutatiemethode]\n  D -->|Geen invloed| H[Niet in consolidatiekring<br/>gewone deelneming op balans]\n  style C fill:#ffeaa7\n  style E fill:#74b9ff\n  style F fill:#74b9ff\n  style G fill:#74b9ff\n  style H fill:#dfe6e9\n```",
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
