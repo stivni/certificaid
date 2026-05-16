@@ -40,6 +40,20 @@
         "edges: 'getriggerd-door consolidatieverschil' → 'bevat consolidatieverschil' (richting corrigeren)",
         "voorbeeld_inline op record-niveau toegevoegd"
       ]
+    },
+    "sessie_3_fixes_2026_05_16": {
+      "door": "sessie-3-records-fixes (handmatig)",
+      "op": "2026-05-16",
+      "velden_gewijzigd": [
+        "voorbeeld_inline op record-niveau (fix C): 200/600/150/50/100/25 → € 350.000 / € 1.250.000 / € 312.500 / € 37.500 / € 200.000 / € 50.000; eigen vermogen (EV) eerste gebruik voluit (geassocieerde-scenario, consistent met step-acquisition)",
+        "bouwstenen[Eerste consolidatie].voorbeeld_inline (fix C): €-formaat",
+        "bouwstenen[Latere consolidaties].voorbeeld_inline (fix C): €-formaat",
+        "berekeningsmethode[0].stappen[*].hoe (fix C): €-formaat in alle stappen",
+        "berekeningsmethode[0].stappen[*].voorbeeld.substappen (fix C): werkblad-tabel + boeking + afschrijvingsplan met €",
+        "berekeningsmethode[0].concreet_voorbeeld scenario/berekening/resultaat (fix C): €-formaat",
+        "berekeningsmethode[1].concreet_voorbeeld (hypothese 1-3) (fix C): bedragen ×10000 naar €-formaat (€ 1.500.000 / € 7.000.000 / € 375.000 etc.)",
+        "berekeningsmethode[*].formules[*].invulling_voorbeeld (fix C): €-formaat"
+      ]
     }
   },
   "doel": {
@@ -60,7 +74,7 @@
       {"field": "text", "from": "Een deelneming wordt in de geconsolideerde jaarrekening niet activum-per-activum opgenomen, maar als één gesynthetiseerde balanspost — initieel gewaardeerd aan het pro-rata aandeel in het eigen vermogen van de betrokken onderneming op datum van aankoop, en vervolgens jaarlijks aangepast voor het pro-rata aandeel in de wijzigingen in dat eigen vermogen (resultaat en directe mutaties). De methode wordt toegepast op (a) geassocieerde ondernemingen (invloed van betekenis, geen controle), (b) gemeenschappelijke dochters waarvan het bedrijf niet nauw geïntegreerd is in dat van de moeder, en (c) dochterondernemingen buiten de consolidatie gelaten op grond van KB WVV art. 3:98 of 3:99.", "reason": "Stagiair-toon: korte zinnen, 'gesynthetiseerde balanspost' → 'samengevatte balanspost' (regel 6)."}
     ]
   },
-  "voorbeeld_inline": "Antwerpse Investments NV koopt 25 % van Drukkerij Dendermonde BV voor 200; EV Drukkerij op aankoopdatum = 600 → pro-rata aandeel = 25 % × 600 = 150; positief consolidatieverschil = 50. In jaar 1 maakt Drukkerij 100 winst → pro-rata 25 → boekwaarde 'Vennootschappen waarop vermogensmutatie is toegepast' stijgt met 25.",
+  "voorbeeld_inline": "Antwerpse Investments NV koopt 25 % van Drukkerij Dendermonde BV voor € 350.000; eigen vermogen (EV) Drukkerij op aankoopdatum = € 1.250.000 → pro-rata aandeel = 25 % × € 1.250.000 = € 312.500; positief consolidatieverschil = € 37.500. In jaar 1 maakt Drukkerij € 200.000 winst → pro-rata € 50.000 → boekwaarde 'Vennootschappen waarop vermogensmutatie is toegepast' stijgt met € 50.000.",
   "voorwaarden_toepassing": [
     {
       "text": "Geassocieerde onderneming: een deelneming waar je invloed van betekenis hebt, maar geen controle (WVV art. 1:22). Weerlegbaar vermoeden vanaf 20 % stemrechten.",
@@ -86,7 +100,7 @@
       "titel": "Eerste consolidatie — vervang aankoopwaarde door pro-rata EV",
       "wat": "Bij eerste opname vervang je de aankoopwaarde van de deelneming door jouw pro-rata aandeel in het eigen vermogen van de andere vennootschap (inclusief resultaat van het boekjaar). Een eventueel verschil reken je toe aan onder- of overgewaardeerde bezittingen of schulden; het residu boek je als 'Consolidatieverschillen' (positief of negatief) en je schrijft het positieve verschil af.",
       "waarom": "Op de enkelvoudige balans van de moeder staat de deelneming aan historische kostprijs — een 'dood' getal. De vermogensmutatie maakt de deelneming levend door haar aan jouw effectieve aandeel in EV te koppelen, zodat de geconsolideerde jaarrekening een eerlijker beeld geeft.",
-      "voorbeeld_inline": "Antwerpse Investments NV koopt 25 % van Drukkerij Dendermonde BV voor 200; EV Drukkerij = 600 → vervang 200 (aankoopwaarde) door 25 % × 600 = 150 + 50 consolidatieverschil. Boekwaarde 'Vennootschappen waarop vermogensmutatie is toegepast' = 150; positief consolidatieverschil 50 wordt apart bijgehouden en afgeschreven.",
+      "voorbeeld_inline": "Antwerpse Investments NV koopt 25 % van Drukkerij Dendermonde BV voor € 350.000; EV Drukkerij = € 1.250.000 → vervang € 350.000 (aankoopwaarde) door 25 % × € 1.250.000 = € 312.500 + € 37.500 consolidatieverschil. Boekwaarde 'Vennootschappen waarop vermogensmutatie is toegepast' = € 312.500; positief consolidatieverschil € 37.500 wordt apart bijgehouden en afgeschreven.",
       "grondslag": "CBN 2022/11 — Eerste consolidatie",
       "confidence": "grounded",
       "source": {"type": "advies", "short": "CBN 2022/11 — Eerste consolidatie"},
@@ -101,7 +115,7 @@
       "titel": "Latere consolidaties — beweeg mee met EV-wijzigingen",
       "wat": "Elk volgend boekjaar pas je de boekwaarde van de deelneming aan met jouw pro-rata aandeel in: (a) het resultaat van de andere vennootschap, exclusief het deel dat als dividend wordt uitgekeerd (dat dividend boek je apart als financiële opbrengst); (b) directe wijzigingen binnen het eigen vermogen (herwaarderingsmeerwaarde, kapitaalsubsidie, omrekeningsverschillen).",
       "waarom": "De deelneming-post moet meebewegen met wat economisch gebeurt in de andere vennootschap. Anders blijft de balanspost statisch en verdwijnt het didactische voordeel van de methode.",
-      "voorbeeld_inline": "Drukkerij Dendermonde BV maakt in jaar 1 winst van 100, keert geen dividend uit → Antwerpse boekt 25 % × 100 = 25 als 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast'; 'Vennootschappen waarop vermogensmutatie is toegepast' stijgt met 25 (150 → 175).",
+      "voorbeeld_inline": "Drukkerij Dendermonde BV maakt in jaar 1 winst van € 200.000, keert geen dividend uit → Antwerpse boekt 25 % × € 200.000 = € 50.000 als 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast'; 'Vennootschappen waarop vermogensmutatie is toegepast' stijgt met € 50.000 (€ 312.500 → € 362.500).",
       "grondslag": "KB WVV art. 3:143",
       "confidence": "grounded",
       "source": {"type": "kb", "short": "KB WVV art. 3:143"},
@@ -153,7 +167,7 @@
           "waarom": "Dit is je vertrekpunt: een fout cijfer hier vervalst het hele rekenwerk.",
           "input": [{"artefact": "Aandelenkoopovereenkomst", "veld": "Prijs + bijkomende kosten", "type": "boekhoudkundig-bedrag"}],
           "output": [{"artefact": "Werkblad vermogensmutatie", "veld": "Aanschaffingswaarde", "type": "boekhoudkundig-bedrag"}],
-          "hoe": "1. Open de aandelenkoopovereenkomst tussen Antwerpse Investments NV en Drukkerij Dendermonde BV.\n2. Noteer de prijs voor 25 % van de aandelen: 200.\n3. Voeg eventuele aankoopkosten toe die volgens de waarderingsregels in de aanschaffingswaarde mogen.\n",
+          "hoe": "1. Open de aandelenkoopovereenkomst tussen Antwerpse Investments NV en Drukkerij Dendermonde BV.\n2. Noteer de prijs voor 25 % van de aandelen: € 350.000.\n3. Voeg eventuele aankoopkosten toe die volgens de waarderingsregels in de aanschaffingswaarde mogen.\n",
           "grondslag": "KB WVV art. 3:142, § 1",
           "_corrected_from": [
             {"field": "titel", "from": "Bepaal de aanschaffingswaarde van de deelneming.", "reason": "Skeleton → werkwoord-georiënteerd."},
@@ -170,7 +184,7 @@
             {"artefact": "Aandelenkoopovereenkomst", "veld": "Belangenpercentage", "type": "percentage"}
           ],
           "output": [{"artefact": "Werkblad vermogensmutatie", "veld": "Pro-rata EV", "type": "boekhoudkundig-bedrag"}],
-          "hoe": "1. Open de balans van Drukkerij Dendermonde BV op de aankoopdatum.\n2. Tel kapitaal + reserves + overgedragen resultaat + resultaat tot die datum → eigen vermogen totaal (bv. 600).\n3. Vermenigvuldig met het belangenpercentage van Antwerpse: 25 % × 600 = 150.\n",
+          "hoe": "1. Open de balans van Drukkerij Dendermonde BV op de aankoopdatum.\n2. Tel kapitaal + reserves + overgedragen resultaat + resultaat tot die datum → eigen vermogen totaal (bv. € 1.250.000).\n3. Vermenigvuldig met het belangenpercentage van Antwerpse: 25 % × € 1.250.000 = € 312.500.\n",
           "grondslag": "KB WVV art. 3:142, § 1",
           "_corrected_from": [
             {"field": "titel", "from": "Bepaal het pro-rata aandeel in het eigen vermogen…", "reason": "Skeleton → werkwoord-georiënteerd."},
@@ -187,7 +201,7 @@
             {"artefact": "Werkblad vermogensmutatie", "veld": "Pro-rata EV", "type": "boekhoudkundig-bedrag"}
           ],
           "output": [{"artefact": "Werkblad vermogensmutatie", "veld": "Bruto-verschil", "type": "boekhoudkundig-bedrag"}],
-          "hoe": "1. Aanschaffingswaarde: 200.\n2. Pro-rata EV: 150.\n3. Bruto-verschil = 200 − 150 = 50. Positief → mogelijk goodwill.\n",
+          "hoe": "1. Aanschaffingswaarde: € 350.000.\n2. Pro-rata EV: € 312.500.\n3. Bruto-verschil = € 350.000 − € 312.500 = € 37.500. Positief → mogelijk goodwill.\n",
           "grondslag": "Synthese KB WVV art. 3:142 jo. art. 3:128",
           "_corrected_from": [
             {"field": "titel", "from": "Bereken het verschil (aanschaffingswaarde − pro-rata EV).", "reason": "Skeleton → werkwoord-georiënteerd."},
@@ -204,7 +218,7 @@
             {"artefact": "Balans geassocieerde", "veld": "Posten met afwijkende werkelijke waarde", "type": "boekhoudkundig-bedrag"}
           ],
           "output": [{"artefact": "Werkblad vermogensmutatie", "veld": "Residu na toerekening", "type": "boekhoudkundig-bedrag"}],
-          "hoe": "1. Identificeer bij Drukkerij Dendermonde BV bezittingen of schulden waarvan de werkelijke waarde afwijkt.\n2. Reken het bruto-verschil zoveel mogelijk daaraan toe; daarmee verlaag je het residu.\n3. In dit cijfervoorbeeld: geen onder- of overwaarderingen geïdentificeerd → volledige bruto-verschil 50 wordt residu.\n",
+          "hoe": "1. Identificeer bij Drukkerij Dendermonde BV bezittingen of schulden waarvan de werkelijke waarde afwijkt.\n2. Reken het bruto-verschil zoveel mogelijk daaraan toe; daarmee verlaag je het residu.\n3. In dit cijfervoorbeeld: geen onder- of overwaarderingen geïdentificeerd → volledige bruto-verschil € 37.500 wordt residu.\n",
           "grondslag": "KB WVV art. 3:128",
           "_corrected_from": [
             {"field": "titel", "from": "Wijs het verschil zoveel mogelijk toe aan onder-/overgewaardeerde…", "reason": "Skeleton → werkwoord-georiënteerd."},
@@ -221,13 +235,13 @@
             {"artefact": "Geconsolideerde balans", "veld": "Vennootschappen waarop vermogensmutatie is toegepast (= pro-rata EV)", "type": "nieuwe-balanspost"},
             {"artefact": "Geconsolideerde balans", "veld": "Positief/negatief consolidatieverschil", "type": "nieuwe-balanspost"}
           ],
-          "hoe": "1. Residu uit stap 4: 50 (positief).\n2. Boekingen: 'Vennootschappen waarop vermogensmutatie is toegepast' = 150 (pro-rata EV); 'Positief consolidatieverschil' = 50; tegenpost: 'Deelnemingen' op −200 (de oorspronkelijke post wordt vervangen).\n3. Som van de twee balansposten = 150 + 50 = 200 = de aankoopwaarde.\n4. Afschrijfplan voor het positief consolidatieverschil: bv. 5 jaar → 50/5 = 10 per jaar.\n",
+          "hoe": "1. Residu uit stap 4: € 37.500 (positief).\n2. Boekingen: 'Vennootschappen waarop vermogensmutatie is toegepast' = € 312.500 (pro-rata EV); 'Positief consolidatieverschil' = € 37.500; tegenpost: 'Deelnemingen' op −€ 350.000 (de oorspronkelijke post wordt vervangen).\n3. Som van de twee balansposten = € 312.500 + € 37.500 = € 350.000 = de aankoopwaarde.\n4. Afschrijfplan voor het positief consolidatieverschil: bv. 5 jaar → € 37.500 / 5 = € 7.500 per jaar.\n",
           "voorbeeld": {
-            "scenario": "Antwerpse Investments NV koopt in 20X1 een belang van 25 % in Drukkerij Dendermonde BV voor 200. EV Drukkerij op aankoopdatum: 600; geen onder-/overwaarderingen.",
+            "scenario": "Antwerpse Investments NV koopt in 20X1 een belang van 25 % in Drukkerij Dendermonde BV voor € 350.000. EV Drukkerij op aankoopdatum: € 1.250.000; geen onder-/overwaarderingen.",
             "substappen": [
-              {"nr": 1, "titel": "Werkblad eerste consolidatie", "type": "berekening", "data": "| Stap                                          | Bedrag |\n|-----------------------------------------------|-------:|\n| (1) Aankoopwaarde                             |    200 |\n| (2) Pro-rata EV (25 % × 600)                  |    150 |\n| (3) Bruto-verschil                            |     50 |\n| (4) Toerekening aan stille meerwaarden        |      0 |\n| (5) **Residu = consolidatieverschil**         | **50** |"},
-              {"nr": 2, "titel": "Boeking eerste consolidatie", "type": "boekingsregel", "data": "Schrap: Deelneming Drukkerij Dendermonde −200\nNieuw: Vennootschappen waarop vermogensmutatie is toegepast +150\nNieuw: Positief consolidatieverschil +50\nSaldo: 150 + 50 = 200 (= aankoopwaarde, ongewijzigd op balansniveau)"},
-              {"nr": 3, "titel": "Afschrijvingsplan consolidatieverschil", "type": "berekening", "data": "Vermoedelijke gebruiksduur: 5 jaar\nJaarlijkse afschrijving = 50/5 = **10**\nGeboekt in afzonderlijke post van bedrijfs- of financiële kosten in de geconsolideerde resultatenrekening."}
+              {"nr": 1, "titel": "Werkblad eerste consolidatie", "type": "berekening", "data": "| Stap                                          | Bedrag (€) |\n|-----------------------------------------------|-----------:|\n| (1) Aankoopwaarde                             |    350.000 |\n| (2) Pro-rata EV (25 % × € 1.250.000)          |    312.500 |\n| (3) Bruto-verschil                            |     37.500 |\n| (4) Toerekening aan stille meerwaarden        |          0 |\n| (5) **Residu = consolidatieverschil**         | **37.500** |"},
+              {"nr": 2, "titel": "Boeking eerste consolidatie", "type": "boekingsregel", "data": "Schrap: Deelneming Drukkerij Dendermonde −€ 350.000\nNieuw: Vennootschappen waarop vermogensmutatie is toegepast +€ 312.500\nNieuw: Positief consolidatieverschil +€ 37.500\nSaldo: € 312.500 + € 37.500 = € 350.000 (= aankoopwaarde, ongewijzigd op balansniveau)"},
+              {"nr": 3, "titel": "Afschrijvingsplan consolidatieverschil", "type": "berekening", "data": "Vermoedelijke gebruiksduur: 5 jaar\nJaarlijkse afschrijving = € 37.500 / 5 = **€ 7.500**\nGeboekt in afzonderlijke post van bedrijfs- of financiële kosten in de geconsolideerde resultatenrekening (RR)."}
             ]
           },
           "grondslag": "KB WVV art. 3:130 jo. art. 3:131",
@@ -239,9 +253,9 @@
         }
       ],
       "concreet_voorbeeld": {
-        "scenario": "Antwerpse Investments NV koopt in 20X1 een belang van 25 % in Drukkerij Dendermonde BV. Aankoopwaarde 200. Eigen vermogen Drukkerij op aankoopdatum: 600.",
-        "berekening": "Pro-rata aandeel in EV op aankoopdatum = 25 % × 600 = 150.\nVerschil = 200 − 150 = 50 (positief).\nGeen onder-/overwaarderingen aangewezen → het volledige verschil van 50 wordt geboekt als positief consolidatieverschil.\nBoeking: 'Vennootschappen waarop vermogensmutatie is toegepast' (balans) +150; 'Positief consolidatieverschil' (balans) +50; tegenpost: 'Deelnemingen' −200.",
-        "resultaat": "Eerste consolidatie: deelneming wordt voorgesteld als 'Vennootschappen waarop vermogensmutatie is toegepast' voor 150 + 'Positief consolidatieverschil' 50 — som 200 (gelijk aan aankoopwaarde). Positief consolidatieverschil wordt afgeschreven over bv. 5 jaar = 10/jaar in de geconsolideerde resultatenrekening (afzonderlijke post bij bedrijfs- of financiële kosten — KB WVV art. 3:131)."
+        "scenario": "Antwerpse Investments NV koopt in 20X1 een belang van 25 % in Drukkerij Dendermonde BV. Aankoopwaarde € 350.000. Eigen vermogen Drukkerij op aankoopdatum: € 1.250.000.",
+        "berekening": "Pro-rata aandeel in EV op aankoopdatum = 25 % × € 1.250.000 = € 312.500.\nVerschil = € 350.000 − € 312.500 = € 37.500 (positief).\nGeen onder-/overwaarderingen aangewezen → het volledige verschil van € 37.500 wordt geboekt als positief consolidatieverschil.\nBoeking: 'Vennootschappen waarop vermogensmutatie is toegepast' (balans) +€ 312.500; 'Positief consolidatieverschil' (balans) +€ 37.500; tegenpost: 'Deelnemingen' −€ 350.000.",
+        "resultaat": "Eerste consolidatie: deelneming wordt voorgesteld als 'Vennootschappen waarop vermogensmutatie is toegepast' voor € 312.500 + 'Positief consolidatieverschil' € 37.500 — som € 350.000 (gelijk aan aankoopwaarde). Positief consolidatieverschil wordt afgeschreven over bv. 5 jaar = € 7.500 per jaar in de geconsolideerde resultatenrekening (afzonderlijke post bij bedrijfs- of financiële kosten — KB WVV art. 3:131)."
       },
       "source": {"type": "advies", "short": "CBN 2013/3 — voorbeeld 1; KB WVV art. 3:131, 3:142"},
       "confidence": "grounded",
@@ -256,8 +270,8 @@
             {"symbool": "eigen vermogen geassocieerde op aankoopdatum", "betekenis": "Kapitaal + reserves + overgedragen resultaat + resultaat tot aankoopdatum", "eenheid": "EUR"}
           ],
           "invulling_voorbeeld": {
-            "waarden": "belang Antwerpse Investments NV in Drukkerij Dendermonde BV = 25 %; EV Drukkerij = 600",
-            "berekening": "25 % × 600 = 150",
+            "waarden": "belang Antwerpse Investments NV in Drukkerij Dendermonde BV = 25 %; EV Drukkerij = € 1.250.000",
+            "berekening": "25 % × € 1.250.000 = € 312.500",
             "eenheid_resultaat": "EUR"
           }
         },
@@ -272,8 +286,8 @@
             {"symbool": "toerekening aan stille meer-/minderwaarden", "betekenis": "Som van bedragen toegerekend aan onder-/overgewaardeerde posten van de geassocieerde", "eenheid": "EUR"}
           ],
           "invulling_voorbeeld": {
-            "waarden": "aankoopwaarde = 200; pro-rata aandeel EV = 150; toerekening = 0",
-            "berekening": "200 − 150 − 0 = 50 (positief)",
+            "waarden": "aankoopwaarde = € 350.000; pro-rata aandeel EV = € 312.500; toerekening = € 0",
+            "berekening": "€ 350.000 − € 312.500 − € 0 = € 37.500 (positief)",
             "eenheid_resultaat": "EUR"
           },
           "_corrected_from": [
@@ -367,9 +381,9 @@
         }
       ],
       "concreet_voorbeeld": {
-        "scenario": "Geassocieerde Drukkerij Dendermonde BV; belang van Antwerpse Investments NV = 25 %. Boekwaarde deelneming bij eerste consolidatie was 150 + 50 consolidatieverschil = totaal 200. Hypothese 1: Drukkerij maakt in 20X2 winst van 1.500. Hypothese 2: Drukkerij maakt verlies van 1.500. Hypothese 3: Drukkerij maakt verlies van 7.000 (groter dan boekwaarde 150).",
-        "berekening": "Hypothese 1: 25 % × 1.500 = +375 — verhoging boekwaarde 'Vennootschappen waarop vermogensmutatie is toegepast' (150 → 525) + opname 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast' = 375.\nHypothese 2: 25 % × (−1.500) = −375 — verlaging boekwaarde (150 → niet onder 0, dus reductie tot 0 met 150) + 'Aandeel in het verlies …' van −150 (beperkt). De rest 225 wordt niet doorgeboekt tenzij er een aanvullende verplichting is.\nHypothese 3: 25 % × (−7.000) = −1.750 — boekwaarde gaat naar 0 (was 150); verlies in resultatenrekening 150 (niet 1.750). Resterend 1.600 niet doorgeboekt.",
-        "resultaat": "Hypothese 1: boekwaarde +375 → 525; resultaat verbetert met 375. Hypothese 2 & 3: boekwaarde wordt afgeboekt tot nul; aandeel in verlies in resultatenrekening beperkt tot 150 (oorspronkelijke boekwaarde) — overige verlies wordt niet doorgeboekt zolang geen verplichting bestaat (CBN 2022/11, hypothese 3)."
+        "scenario": "Geassocieerde Drukkerij Dendermonde BV; belang van Antwerpse Investments NV = 25 %. Boekwaarde deelneming bij eerste consolidatie was € 312.500 + € 37.500 consolidatieverschil = totaal € 350.000. Hypothese 1: Drukkerij maakt in 20X2 winst van € 1.500.000. Hypothese 2: Drukkerij maakt verlies van € 1.500.000. Hypothese 3: Drukkerij maakt verlies van € 7.000.000 (groter dan boekwaarde € 312.500).",
+        "berekening": "Hypothese 1: 25 % × € 1.500.000 = +€ 375.000 — verhoging boekwaarde 'Vennootschappen waarop vermogensmutatie is toegepast' (€ 312.500 → € 687.500) + opname 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast' = € 375.000.\nHypothese 2: 25 % × (−€ 1.500.000) = −€ 375.000 — verlaging boekwaarde (€ 312.500 → niet onder € 0, dus reductie tot € 0 met € 312.500) + 'Aandeel in het verlies …' van −€ 312.500 (beperkt). De rest € 62.500 wordt niet doorgeboekt tenzij er een aanvullende verplichting is.\nHypothese 3: 25 % × (−€ 7.000.000) = −€ 1.750.000 — boekwaarde gaat naar € 0 (was € 312.500); verlies in resultatenrekening € 312.500 (niet € 1.750.000). Resterend € 1.437.500 niet doorgeboekt.",
+        "resultaat": "Hypothese 1: boekwaarde +€ 375.000 → € 687.500; resultaat verbetert met € 375.000. Hypothese 2 & 3: boekwaarde wordt afgeboekt tot nul; aandeel in verlies in resultatenrekening beperkt tot € 312.500 (oorspronkelijke boekwaarde) — overige verlies wordt niet doorgeboekt zolang geen verplichting bestaat (CBN 2022/11, hypothese 3)."
       },
       "source": {"type": "advies", "short": "CBN 2022/11 — Herberekening (hypotheses 1-3); KB WVV art. 3:143, 3:145"},
       "confidence": "grounded",
@@ -386,8 +400,8 @@
             {"symbool": "directe EV-mutaties", "betekenis": "Wijzigingen in eigen vermogen buiten het resultaat om (herwaarderingsmeerwaarde, kapitaalsubsidie, omrekeningsverschillen)", "eenheid": "EUR"}
           ],
           "invulling_voorbeeld": {
-            "waarden": "belang Antwerpse = 25 %; resultaat Drukkerij = 1.500; geen dividend; geen directe EV-mutaties",
-            "berekening": "25 % × (1.500 − 0) + 25 % × 0 = 375",
+            "waarden": "belang Antwerpse = 25 %; resultaat Drukkerij = € 1.500.000; geen dividend; geen directe EV-mutaties",
+            "berekening": "25 % × (€ 1.500.000 − € 0) + 25 % × € 0 = € 375.000",
             "eenheid_resultaat": "EUR"
           },
           "_corrected_from": [

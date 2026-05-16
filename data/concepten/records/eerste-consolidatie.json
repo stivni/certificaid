@@ -39,6 +39,14 @@
         "voorbeeld_inline op record-niveau toegevoegd",
         "edges: 'getriggerd-door consolidatieverschil' → 'bevat consolidatieverschil' (richting gecorrigeerd)"
       ]
+    },
+    "sessie_3_fixes_2026_05_16": {
+      "door": "sessie-3-records-fixes (handmatig)",
+      "op": "2026-05-16",
+      "velden_gewijzigd": [
+        "voorbeeld_inline op record-niveau (fix C): 320/300/240/80/50/30 → € 1.600.000 / € 1.500.000 / € 1.200.000 / € 400.000 / € 250.000 / € 150.000; eigen vermogen (EV) eerste gebruik voluit (consistent met consolidatieverschil-record)",
+        "valkuilen[0].text (fix D): EV eerste gebruik → eigen vermogen (EV)"
+      ]
     }
   },
   "definitie": {
@@ -59,7 +67,7 @@
       {"field": "text", "from": "De boekjaar-overschrijdende boekhoudkundige verwerking waarbij een nieuw verworven (of voor het eerst geconsolideerde) dochteronderneming of geassocieerde onderneming voor de eerste maal in de geconsolideerde jaarrekening wordt opgenomen. Bij eerste consolidatie wordt de aanschaffingswaarde van de deelneming gecompenseerd met het overeenkomstige deel van het eigen vermogen van die onderneming op datum van aankoop (of een nabijzijnde datum). Het verschil wordt eerst toegerekend aan onder-/overgewaardeerde activa en passiva van de dochter; het residu wordt geboekt als positief of negatief consolidatieverschil.", "reason": "Stagiair-toon: 'boekjaar-overschrijdende boekhoudkundige verwerking' → 'moment'; korte zinnen; 'aanschaffingswaarde' → 'wat je voor de aandelen betaalde'; jargon weg (regel 6)."}
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV koopt op 1 januari 20X1 een belang van 80 % in Brugse Brouwerij BV voor 320; EV Brugse op die datum = 300. Pro-rata aandeel = 240; bruto-verschil = 80, na toerekening 50 aan ondergewaardeerde terreinen blijft 30 als positief consolidatieverschil aan actiefzijde.",
+  "voorbeeld_inline": "Aurelia Holding NV koopt op 1 januari 20X1 een belang van 80 % in Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) Brugse op die datum = € 1.500.000. Pro-rata aandeel = € 1.200.000; bruto-verschil = € 400.000, na toerekening € 250.000 aan ondergewaardeerde terreinen blijft € 150.000 als positief consolidatieverschil aan actiefzijde.",
   "tijdlijn": [
     {
       "stap": "Aankoop van de aandelen",
@@ -121,7 +129,7 @@
   "vergelijkingsparen": [],
   "valkuilen": [
     {
-      "text": "Het eigen vermogen op datum van aankoop is een momentopname die bevriest. Latere wijzigingen in het EV van de dochter worden niet als nieuwe 'consolidatieverschillen' geboekt, maar lopen via de gewone consolidatietechniek (geconsolideerde reserves, resultaat van het boekjaar) of via de afschrijving van het positieve consolidatieverschil.",
+      "text": "Het eigen vermogen (EV) op datum van aankoop is een momentopname die bevriest. Latere wijzigingen in het EV van de dochter worden niet als nieuwe 'consolidatieverschillen' geboekt, maar lopen via de gewone consolidatietechniek (geconsolideerde reserves, resultaat van het boekjaar) of via de afschrijving van het positieve consolidatieverschil.",
       "confidence": "grounded",
       "source": {"type": "kb", "short": "KB WVV art. 3:129 + art. 3:131"},
       "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_101", "sha256": null, "version": "rag-v1"}, {"id": "KB-WVV-2019__art_3_103", "sha256": null, "version": "rag-v1"}]}

@@ -121,27 +121,27 @@ Tel de (eventueel verticaal geconsolideerde) cijfers van alle consortium-leden p
 >
 > 1. **Balans Industria Antwerpen NV** 📊
 >
->    | Industria Antwerpen NV — Activa  |     |
->    |----------------------------------|----:|
->    | Vaste activa                     | 800 |
->    | Vlottende activa                 | 600 |
->    | **Totaal**                       | **1400** |
+>    | Industria Antwerpen NV — Activa  | Bedrag (€) |
+>    |----------------------------------|-----------:|
+>    | Vaste activa                     |  4.000.000 |
+>    | Vlottende activa                 |  3.000.000 |
+>    | **Totaal**                       | **7.000.000** |
 >
 > 2. **Balans Jachthaven Jezus-Eik NV** 📊
 >
->    | Jachthaven Jezus-Eik NV — Activa |     |
->    |----------------------------------|----:|
->    | Vaste activa                     | 500 |
->    | Vlottende activa                 | 400 |
->    | **Totaal**                       | **900** |
+>    | Jachthaven Jezus-Eik NV — Activa | Bedrag (€) |
+>    |----------------------------------|-----------:|
+>    | Vaste activa                     |  2.500.000 |
+>    | Vlottende activa                 |  2.000.000 |
+>    | **Totaal**                       | **4.500.000** |
 >
 > 3. **Horizontaal geconsolideerde balans (vóór intragroep-eliminaties)** 📊
 >
->    | Geconsolideerde balans — Activa            |     |
->    |--------------------------------------------|----:|
->    | Vaste activa (Industria + Jachthaven)      | 1300 |
->    | Vlottende activa (Industria + Jachthaven)  | 1000 |
->    | **Totaal**                                 | **2300** |
+>    | Geconsolideerde balans — Activa            | Bedrag (€) |
+>    |--------------------------------------------|-----------:|
+>    | Vaste activa (Industria + Jachthaven)      |  6.500.000 |
+>    | Vlottende activa (Industria + Jachthaven)  |  5.000.000 |
+>    | **Totaal**                                 | **11.500.000** |
 >
 
 **Grondslag**: KB WVV art. 3:124, 1° jo. WVV art. 3:24

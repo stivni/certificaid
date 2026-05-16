@@ -37,7 +37,7 @@ Neem elke bezitting, schuld, opbrengst en kost van de gemeenschappelijke dochter
 
 **Waarom?** Je deelt de macht over deze dochter met andere vennoten; je hebt geen 100 %-zeggenschap. De geconsolideerde jaarrekening reflecteert die gedeelde macht door alleen jouw stuk te tonen.
 
-**Voorbeeld**: Cardinal Group NV bezit 50 % van Filmstudio Florence BV (gezamenlijke controle). Filmstudio Florence heeft 800 vaste activa → Cardinal neemt 50 % × 800 = 400 op in haar geconsolideerde balans.
+**Voorbeeld**: Cardinal Group NV bezit 50 % van Filmstudio Florence BV (gezamenlijke controle). Filmstudio Florence heeft € 4.000.000 vaste activa → Cardinal neemt 50 % × € 4.000.000 = € 2.000.000 op in haar geconsolideerde balans.
 
 _Grondslag: KB WVV art. 3:140, b_
 
@@ -47,7 +47,7 @@ Op het opgenomen pro-rata deel pas je alle technieken van integrale consolidatie
 
 **Waarom?** Door dezelfde technieken op een kleinere schaal toe te passen behoud je consistentie binnen de geconsolideerde jaarrekening — een goodwill bij een gemeenschappelijke dochter werkt boekhoudkundig op dezelfde manier als bij een gewone dochter, alleen voor jouw deel.
 
-**Voorbeeld**: Cardinal koopt haar 50 %-belang in Filmstudio Florence voor 300; pro-rata EV Filmstudio op aankoopdatum = 250 → bruto-verschil 50 op pro-rata basis, eventueel toe te rekenen aan stille meerwaarden in Filmstudio's apparatuur.
+**Voorbeeld**: Cardinal koopt haar 50 %-belang in Filmstudio Florence voor € 1.500.000; pro-rata eigen vermogen (EV) Filmstudio op aankoopdatum = € 1.250.000 → bruto-verschil € 250.000 op pro-rata basis, eventueel toe te rekenen aan stille meerwaarden in Filmstudio's apparatuur.
 
 _Grondslag: KB WVV art. 3:140, a_
 
@@ -78,10 +78,10 @@ geconsolideerde post = post moeder + (post gemeenschappelijke dochter × belange
 | `belangenpercentage` | Aandeel van moeder en haar groep in het kapitaal van de gemeenschappelijke dochter | % |
 | `pro-rata intragroep-eliminaties` | Onderlinge transacties × belangenpercentage | EUR |
 
-**Voorbeeld-invulling**: Cardinal-vaste activa = 500; Filmstudio Florence-vaste activa = 800; belang Cardinal in Filmstudio = 50 %; geen intragroep op deze post
+**Voorbeeld-invulling**: Cardinal-vaste activa = € 2.500.000; Filmstudio Florence-vaste activa = € 4.000.000; belang Cardinal in Filmstudio = 50 %; geen intragroep op deze post
 
 ```
-500 + (800 × 50 %) − 0 = 500 + 400 = 900
+€ 2.500.000 + (€ 4.000.000 × 50 %) − € 0 = € 2.500.000 + € 2.000.000 = € 4.500.000
 ```
 
 _Resultaat in EUR_
@@ -95,10 +95,10 @@ te elimineren winst = nog-niet-gerealiseerde winst op intra-groepsverkoop × bel
 | `nog-niet-gerealiseerde winst op intra-groepsverkoop` | Winstmarge die de dochter op een interne verkoop heeft gerealiseerd, voor zover de goederen nog in voorraad zitten bij de koper binnen de groep | EUR |
 | `belangenpercentage` | Aandeel van moeder in kapitaal gemeenschappelijke dochter | % |
 
-**Voorbeeld-invulling**: winst op intra-groepsverkoop Filmstudio aan Cardinal = 10 (nog in voorraad); belang Cardinal = 50 %
+**Voorbeeld-invulling**: winst op intra-groepsverkoop Filmstudio aan Cardinal = € 50.000 (nog in voorraad); belang Cardinal = 50 %
 
 ```
-10 × 50 % = 5
+€ 50.000 × 50 % = € 25.000
 ```
 
 _Resultaat in EUR_
@@ -141,8 +141,8 @@ Pas het pro-rata-percentage toe op elke afzonderlijke balanspost en elke afzonde
 
 **🛠️ Hoe**:
 
-1. Voor elke balanspost van Filmstudio Florence: vermenigvuldig met 50 %. Vaste activa 800 → 400; voorraden 200 → 100; kas 100 → 50; eigen vermogen 600 → 300; schulden 500 → 250.
-2. Voor elke resultatenpost: idem. Omzet 1.000 → 500; kosten 800 → 400; resultaat 200 → 100.
+1. Voor elke balanspost van Filmstudio Florence: vermenigvuldig met 50 %. Vaste activa € 4.000.000 → € 2.000.000; voorraden € 1.000.000 → € 500.000; kas € 500.000 → € 250.000; eigen vermogen € 3.000.000 → € 1.500.000; schulden € 2.500.000 → € 1.250.000.
+2. Voor elke resultatenpost: idem. Omzet € 5.000.000 → € 2.500.000; kosten € 4.000.000 → € 2.000.000; resultaat € 1.000.000 → € 500.000.
 3. Schrijf elke pro-rata-uitkomst in je werkblad.
 
 
@@ -170,29 +170,29 @@ Voeg de pro-rata bedragen samen met de overeenkomstige posten van de moeder en v
 
 
 > [!example]- Voorbeeld: Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV
-> Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV. Balans Filmstudio: vaste activa 800, voorraden 200, kas 100; eigen vermogen 600, schulden 500. Resultaat: omzet 1.000, kosten 800, resultaat 200.
+> Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV. Balans Filmstudio: vaste activa € 4.000.000, voorraden € 1.000.000, kas € 500.000; eigen vermogen € 3.000.000, schulden € 2.500.000. Resultaat: omzet € 5.000.000, kosten € 4.000.000, resultaat € 1.000.000.
 >
 > 1. **Pro-rata-percentage voor Cardinal** 🧮
 >
 >    Cardinal in Filmstudio = **50 %**
 >
-> 2. **Pro-rata balanspos­ten (Filmstudio → 50 %)** 📊
+> 2. **Pro-rata balansposten (Filmstudio → 50 %)** 📊
 >
->    | Post                       | Filmstudio | × 50 %  |
->    |----------------------------|-----------:|--------:|
->    | Vaste activa               |        800 |     400 |
->    | Voorraden                  |        200 |     100 |
->    | Kas                        |        100 |      50 |
->    | **Totaal activa**          |   **1100** | **550** |
->    | Eigen vermogen             |        600 |     300 |
->    | Schulden aan derden        |        500 |     250 |
->    | **Totaal passiva**         |   **1100** | **550** |
+>    | Post                       | Filmstudio (€) | × 50 % (€) |
+>    |----------------------------|---------------:|-----------:|
+>    | Vaste activa               |      4.000.000 |  2.000.000 |
+>    | Voorraden                  |      1.000.000 |    500.000 |
+>    | Kas                        |        500.000 |    250.000 |
+>    | **Totaal activa**          |  **5.500.000** | **2.750.000** |
+>    | Eigen vermogen             |      3.000.000 |  1.500.000 |
+>    | Schulden aan derden        |      2.500.000 |  1.250.000 |
+>    | **Totaal passiva**         |  **5.500.000** | **2.750.000** |
 >
 > 3. **Pro-rata resultatenrekening** 🧮
 >
->    Omzet: 50 % × 1.000 = **500**
->    Kosten: 50 % × 800 = **400**
->    Resultaat: 50 % × 200 = **100**
+>    Omzet: 50 % × € 5.000.000 = **€ 2.500.000**
+>    Kosten: 50 % × € 4.000.000 = **€ 2.000.000**
+>    Resultaat: 50 % × € 1.000.000 = **€ 500.000**
 >
 
 **Grondslag**: KB WVV art. 3:140, b
@@ -220,16 +220,16 @@ Pas de compensatie- en eliminatieregels (KB WVV art. 3:127, 3:128, 3:130, 3:134,
 
 **Grondslag**: KB WVV art. 3:140, a) jo. art. 3:127–3:136
 
-**Voorbeeld**: Cardinal Group NV en Energiehuis Evergem BV oefenen gezamenlijke controle uit over Filmstudio Florence BV via een aandeelhoudersovereenkomst — elk bezit 50 % van het kapitaal. Balans Filmstudio Florence: vaste activa 800, voorraden 200, kas 100; eigen vermogen 600, schulden 500. Resultatenrekening: omzet 1.000, kosten 800, resultaat 200. Cardinal koopt voor 60 goederen bij Filmstudio (intra-groepsverkoop, nog in voorraad bij Cardinal; Filmstudio realiseerde daarop 10 winst).
+**Voorbeeld**: Cardinal Group NV en Energiehuis Evergem BV oefenen gezamenlijke controle uit over Filmstudio Florence BV via een aandeelhoudersovereenkomst — elk bezit 50 % van het kapitaal. Balans Filmstudio Florence: vaste activa € 4.000.000, voorraden € 1.000.000, kas € 500.000; eigen vermogen € 3.000.000, schulden € 2.500.000. Resultatenrekening: omzet € 5.000.000, kosten € 4.000.000, resultaat € 1.000.000. Cardinal koopt voor € 300.000 goederen bij Filmstudio (intra-groepsverkoop, nog in voorraad bij Cardinal; Filmstudio realiseerde daarop € 50.000 winst).
 
 ```
 Pro-rata deel van Cardinal in Filmstudio = 50 %.
-Geconsolideerde activa van Filmstudio (vóór eliminatie): 50 % × (800 + 200 + 100) = 50 % × 1.100 = 550. Geconsolideerde schulden van Filmstudio: 50 % × 500 = 250. Geconsolideerd eigen vermogen van Filmstudio: 50 % × 600 = 300.
-Geconsolideerde omzet uit Filmstudio: 50 % × 1.000 = 500. Geconsolideerde kosten uit Filmstudio: 50 % × 800 = 400. Geconsolideerd resultaat uit Filmstudio (vóór eliminatie): 50 % × 200 = 100.
-Intra-groepselimatie (KB WVV art. 3:140 jo. art. 3:134, op pro-rata deel): de winst op de intra-groepsverkoop wordt geëlimineerd voor 50 % × 10 = 5. Geconsolideerde voorraden Cardinal verminderen met 5; geconsolideerd resultaat vermindert met 5.
+Geconsolideerde activa van Filmstudio (vóór eliminatie): 50 % × (€ 4.000.000 + € 1.000.000 + € 500.000) = 50 % × € 5.500.000 = € 2.750.000. Geconsolideerde schulden van Filmstudio: 50 % × € 2.500.000 = € 1.250.000. Geconsolideerd eigen vermogen van Filmstudio: 50 % × € 3.000.000 = € 1.500.000.
+Geconsolideerde omzet uit Filmstudio: 50 % × € 5.000.000 = € 2.500.000. Geconsolideerde kosten uit Filmstudio: 50 % × € 4.000.000 = € 2.000.000. Geconsolideerd resultaat uit Filmstudio (vóór eliminatie): 50 % × € 1.000.000 = € 500.000.
+Intragroep-eliminatie (KB WVV art. 3:140 jo. art. 3:134, op pro-rata deel): de winst op de intragroep-verkoop wordt geëlimineerd voor 50 % × € 50.000 = € 25.000. Geconsolideerde voorraden Cardinal verminderen met € 25.000; geconsolideerd resultaat vermindert met € 25.000.
 ```
 
-Resultaat: In de geconsolideerde balans van Cardinal verschijnen 550 activa en 250 schulden uit Filmstudio (na intra-groep-eliminatie 545 activa); van het resultaat 200 wordt 100 meegenomen, verminderd met 5 → 95 in het geconsolideerd resultaat. Er is géén post 'Aandeel van derden in resultaat' — de andere 50 % van Filmstudio komt niet voor in Cardinal's geconsolideerde jaarrekening (Energiehuis Evergem doet dezelfde oefening met haar eigen 50 %).
+Resultaat: In de geconsolideerde balans van Cardinal verschijnen € 2.750.000 activa en € 1.250.000 schulden uit Filmstudio (na intragroep-eliminatie € 2.725.000 activa); van het resultaat € 1.000.000 wordt € 500.000 meegenomen, verminderd met € 25.000 → € 475.000 in het geconsolideerd resultaat. Er is géén post 'Aandeel van derden in resultaat' — de andere 50 % van Filmstudio komt niet voor in Cardinal's geconsolideerde jaarrekening (Energiehuis Evergem BV doet dezelfde oefening met haar eigen 50 %).
 
 ## In de praktijk
 

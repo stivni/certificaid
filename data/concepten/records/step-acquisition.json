@@ -34,6 +34,19 @@
         "valkuilen[*].text (stagiair-toon)",
         "edges: contrasteert-met → specialisatie-van wijziging-consolidatiekring (correlatief)"
       ]
+    },
+    "sessie_3_fixes_2026_05_16": {
+      "door": "sessie-3-records-fixes (handmatig)",
+      "op": "2026-05-16",
+      "velden_gewijzigd": [
+        "kantelpunten[] (nieuw top-level veld; fix B): 3 kantelpunten gestructureerd (van_situatie / naar_situatie / gevolg / drempel / grondslag / voorbeeld_inline)",
+        "voorbeeld_inline op record-niveau (fix C): abstracte getallen → €-bedragen (€ 350.000, € 700.000)",
+        "bouwstenen[Variant 1].voorbeeld_inline (fix C): € 75.000 toegevoegd",
+        "bouwstenen[Variant 2].voorbeeld_inline (fix C): € 700.000 toegevoegd",
+        "bouwstenen[Variant 3].voorbeeld_inline (fix C): 200/600/150/50 → € 350.000 / € 1.250.000 / € 312.500 / € 37.500; EV → eigen vermogen (EV) eerste gebruik",
+        "in_praktijk[Kantelpunten detecteren].betekenis: a/b/c-oplijsting verwijderd, verwijst nu naar kantelpunten[]",
+        "in_praktijk[Kantelpunten detecteren].herkenningspunt: cast voluit (Antwerpse Investments NV)"
+      ]
     }
   },
   "definitie": {
@@ -56,13 +69,48 @@
       {"field": "text", "from": "Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt, met als gevolg dat (a) een participatie van invloed van betekenis wordt verworven of (b) een bestaande geassocieerde onderneming wordt opgeschaald — al dan niet naar een dochteronderneming. Bij elke trap moet worden beoordeeld of de kwalificatie (geen invloed → invloed van betekenis → controle) wijzigt; bij een kwalificatieverandering volgt een wijziging van consolidatietechniek (van geen consolidatie naar vermogensmutatie, of van vermogensmutatie naar integrale/evenredige consolidatie).", "reason": "Stagiair-toon: korte zinnen (regel 6)."}
     ]
   },
-  "voorbeeld_inline": "Antwerpse Investments NV verwerft in 20X1 een eerste tranche van 25 % in Drukkerij Dendermonde BV → invloed van betekenis → vermogensmutatie. In 20X3 koopt Antwerpse 35 % bij → totaal 60 % → kantelpunt naar controle → vanaf dan integrale consolidatie van Drukkerij Dendermonde in de geconsolideerde jaarrekening van Antwerpse.",
+  "voorbeeld_inline": "Antwerpse Investments NV verwerft in 20X1 een eerste tranche van 25 % in Drukkerij Dendermonde BV (aanschaffingswaarde € 350.000) → invloed van betekenis → vermogensmutatie. In 20X3 koopt Antwerpse 35 % bij (aanschaffingswaarde € 700.000) → totaal 60 % → kantelpunt naar exclusieve controle → vanaf dan integrale consolidatie van Drukkerij Dendermonde in de geconsolideerde jaarrekening van Antwerpse.",
+  "kantelpunten": [
+    {
+      "van_situatie": "Geen participatie",
+      "naar_situatie": "Invloed van betekenis",
+      "gevolg": "Eerste consolidatie via vermogensmutatiemethode start; deelneming wordt op vermogensmutatie-basis gewaardeerd en het eerste consolidatieverschil wordt berekend op aanschaffingsdatum.",
+      "drempel": "≥ 20 % stemrechten (vermoeden, Koninklijk Besluit Wetboek van vennootschappen en verenigingen (KB WVV) art. 1:22) of feitelijke invloed bij lager percentage",
+      "grondslag": "[[invloed-van-betekenis]], [[vermogensmutatiemethode]], [[eerste-consolidatie]]",
+      "voorbeeld_inline": "Antwerpse Investments NV koopt in 20X1 25 % in Drukkerij Dendermonde BV voor € 350.000 (geen eerdere participatie). Eigen vermogen (EV) Drukkerij = € 1.250.000 → pro-rata aandeel = € 312.500; consolidatieverschil = € 37.500.",
+      "confidence": "grounded",
+      "source": {"type": "advies", "short": "CBN 2013/3"},
+      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "van_situatie": "Invloed van betekenis",
+      "naar_situatie": "Exclusieve controle",
+      "gevolg": "Overgang van vermogensmutatie naar integrale consolidatie; voor de bijkomende tranche wordt een nieuw consolidatieverschil berekend op de datum waarop controle is verworven. Activa en schulden van de nieuwe dochter komen voor 100 % in de geconsolideerde balans (met derden-aandeel apart).",
+      "drempel": "> 50 % stemrechten (vermoeden, KB WVV art. 1:14) of controle in feite",
+      "grondslag": "[[controle]], [[integrale-consolidatie]], [[consolidatieverschil]]",
+      "voorbeeld_inline": "Antwerpse bezit 25 % in Drukkerij (vermogensmutatie). In 20X3 koopt Antwerpse 35 % bij voor € 700.000 → totaal 60 % → exclusieve controle → integrale consolidatie. Nieuw consolidatieverschil wordt berekend op het bijkomende belang.",
+      "confidence": "grounded",
+      "source": {"type": "advies", "short": "CBN 2013/3"},
+      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "van_situatie": "Invloed van betekenis",
+      "naar_situatie": "Invloed van betekenis (verhoogd belang)",
+      "gevolg": "Geen kwalificatiewijziging — de geassocieerde blijft geassocieerd. Alleen pro-rata-aanpassing in vermogensmutatie: de post 'Vennootschappen waarop vermogensmutatie is toegepast' wordt verhoogd; eventueel extra consolidatieverschil op de bijkomende tranche.",
+      "drempel": "Geen drempel — het belangenpercentage stijgt binnen het invloed-van-betekenis-bereik (typisch 20–50 %)",
+      "grondslag": "[[vermogensmutatiemethode]]",
+      "voorbeeld_inline": "Antwerpse bezit 25 % in Drukkerij Dendermonde en koopt 5 % bij voor € 75.000 → nu 30 %, nog steeds geassocieerd → 'Vennootschappen waarop vermogensmutatie is toegepast' wordt verhoogd met het pro-rata bedrag + eventueel consolidatieverschil op de bijkomende 5 %.",
+      "confidence": "grounded",
+      "source": {"type": "advies", "short": "CBN 2013/3"},
+      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
   "bouwstenen": [
     {
       "titel": "Variant 1 — geassocieerde blijft geassocieerd",
       "wat": "Je verhoogt het belang in een geassocieerde maar blijft onder de controlegrens — de geassocieerde blijft geassocieerd. De bijkomende aankoop verhoog je gewoon de post 'Vennootschappen waarop vermogensmutatie is toegepast' en bereken je eventueel een extra consolidatieverschil op het bijkomend belang.",
       "waarom": "Geen kwalificatieverandering = geen wisseling van techniek. De vermogensmutatie blijft de juiste methode; alleen het bedrag en het residu groeien mee.",
-      "voorbeeld_inline": "Antwerpse Investments NV bezit 25 % in Drukkerij Dendermonde BV (vermogensmutatie) en koopt 5 % bij → nu 30 %, nog steeds geassocieerd → 'Vennootschappen waarop vermogensmutatie is toegepast' wordt verhoogd met het pro-rata bedrag + eventueel consolidatieverschil op de bijkomende 5 %.",
+      "voorbeeld_inline": "Antwerpse Investments NV bezit 25 % in Drukkerij Dendermonde BV (vermogensmutatie) en koopt 5 % bij voor € 75.000 → nu 30 %, nog steeds geassocieerd → 'Vennootschappen waarop vermogensmutatie is toegepast' wordt verhoogd met het pro-rata bedrag + eventueel consolidatieverschil op de bijkomende 5 %.",
       "grondslag": "CBN 2013/3",
       "confidence": "grounded",
       "source": {"type": "advies", "short": "CBN 2013/3"},
@@ -77,7 +125,7 @@
       "titel": "Variant 2 — geassocieerde wordt dochter",
       "wat": "Je verhoogt het belang en overschrijdt de controlegrens — de geassocieerde wordt dochter. De vermogensmutatie eindigt; vanaf nu pas je integrale consolidatie toe. Voor het bijkomende belang bereken je een nieuw consolidatieverschil op de datum waarop controle is verworven; activa en schulden van de nieuwe dochter komen voor 100 % in de geconsolideerde balans (met derden-aandeel apart).",
       "waarom": "Een wisseling van consolidatietechniek wijst op een fundamenteel andere economische werkelijkheid: van 'meepraten over beleid' naar 'beleid bepalen'. De jaarrekening moet die overgang weergeven.",
-      "voorbeeld_inline": "Antwerpse bezit 25 % in Drukkerij Dendermonde (vermogensmutatie). In 20X3 koopt Antwerpse 35 % bij → totaal 60 % → exclusieve controle → integrale consolidatie. Voor de bijkomende 35 % wordt een nieuw consolidatieverschil berekend op datum 20X3.",
+      "voorbeeld_inline": "Antwerpse bezit 25 % in Drukkerij Dendermonde (vermogensmutatie). In 20X3 koopt Antwerpse 35 % bij voor € 700.000 → totaal 60 % → exclusieve controle → integrale consolidatie. Voor de bijkomende 35 % wordt een nieuw consolidatieverschil berekend op datum 20X3.",
       "grondslag": "CBN 2013/3",
       "confidence": "grounded",
       "source": {"type": "advies", "short": "CBN 2013/3"},
@@ -92,7 +140,7 @@
       "titel": "Variant 3 — niet-geassocieerde wordt geassocieerd",
       "wat": "Eerste verwerving van een belang dat invloed van betekenis triggert (typisch ≥ 20 %). Eerste consolidatie via vermogensmutatie: je berekent het consolidatieverschil zoals bij elke eerste consolidatie (aanschaffingswaarde − pro-rata aandeel in EV; toerekenen aan stille meer-/minderwaarden; residu boeken).",
       "waarom": "Bij het kantelmoment 'geen invloed → invloed van betekenis' begin je effectief met consolideren — er moet dus een eerste consolidatieverschil worden vastgesteld, op basis van de aanschaffingsdatum van de eerste tranche.",
-      "voorbeeld_inline": "Antwerpse Investments NV verwerft in 20X1 een eerste tranche van 25 % in Drukkerij Dendermonde BV voor 200; EV Drukkerij op aankoopdatum = 600 → pro-rata = 150; consolidatieverschil = 200 − 150 = 50, te boeken bij eerste consolidatie via vermogensmutatie.",
+      "voorbeeld_inline": "Antwerpse Investments NV verwerft in 20X1 een eerste tranche van 25 % in Drukkerij Dendermonde BV voor € 350.000; eigen vermogen (EV) Drukkerij op aankoopdatum = € 1.250.000 → pro-rata = € 312.500; consolidatieverschil = € 350.000 − € 312.500 = € 37.500, te boeken bij eerste consolidatie via vermogensmutatie.",
       "grondslag": "CBN 2013/3",
       "confidence": "grounded",
       "source": {"type": "advies", "short": "CBN 2013/3"},
@@ -107,8 +155,8 @@
   "in_praktijk": [
     {
       "aspect": "Kantelpunten detecteren",
-      "betekenis": "Bij elke trap controleer je éérst of de kwalificatie verandert. Drie typische kantelpunten: 0 % → ≥ 20 % (geen invloed → geassocieerde), 20–50 % → > 50 % (geassocieerde → dochter), > 50 % → hoger % (controle behouden maar belang gewijzigd → enkel pro-rata-aanpassing). Bij elk kantelpunt schakelt mogelijk de consolidatietechniek.",
-      "herkenningspunt": "Examen-zin 'Antwerpse koopt eerst 25 %, daarna 35 % bij': twee opeenvolgende kwalificaties — eerst vermogensmutatie (25 %), daarna integrale consolidatie (totaal 60 %). Het is geen één continue boekhoudkundige rekening, maar twee afzonderlijke regimes.",
+      "betekenis": "Bij elke trap controleer je éérst of de kwalificatie verandert. De drie typische kantelpunten staan gestructureerd in het top-level veld `kantelpunten[]` (van_situatie → naar_situatie + drempel + gevolg + grondslag). Bij elk kantelpunt schakelt mogelijk de consolidatietechniek.",
+      "herkenningspunt": "Examen-zin 'Antwerpse Investments NV koopt eerst 25 %, daarna 35 % bij': twee opeenvolgende kwalificaties — eerst vermogensmutatie (25 %), daarna integrale consolidatie (totaal 60 %). Het is geen één continue boekhoudkundige rekening, maar twee afzonderlijke regimes.",
       "confidence": "grounded",
       "source": {"type": "advies", "short": "CBN 2013/3"},
       "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1"}]},

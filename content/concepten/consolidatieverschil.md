@@ -22,10 +22,10 @@ gegenereerd_op: '2026-05-16'
 # Consolidatieverschil ⚖️
 
 > [!summary] Korte inhoud
-> Het verschil dat bij de eerste consolidatie overblijft tussen (a) wat de moeder betaalde voor de aandelen van een dochter of geassocieerde onderneming en (b) haar pro-rata aandeel in het eigen vermogen van die onderneming op datum van aankoop — nadat je dat verschil zoveel mogelijk hebt toegerekend aan onder- of overgewaardeerde bezittingen en schulden.
+> Het verschil dat bij de **eerste consolidatie** van een dochter overblijft tussen (a) wat de moeder betaalde voor de aandelen van een dochter of geassocieerde onderneming en (b) haar pro-rata aandeel in het eigen vermogen (EV) van die onderneming op datum van aankoop — nadat je dat verschil zoveel mogelijk hebt toegerekend aan onder- of overgewaardeerde bezittingen en schulden.
 
 > [!info] Behoort tot: [[integrale-consolidatie]]
-Het verschil dat bij de eerste consolidatie overblijft tussen (a) wat de moeder betaalde voor de aandelen van een dochter of geassocieerde onderneming en (b) haar pro-rata aandeel in het eigen vermogen van die onderneming op datum van aankoop — nadat je dat verschil zoveel mogelijk hebt toegerekend aan onder- of overgewaardeerde bezittingen en schulden. Wat dan nog overblijft, verschijnt in de geconsolideerde balans als 'Consolidatieverschillen': aan actiefzijde als het positief is, aan passiefzijde als het negatief is. Positieve consolidatieverschillen worden afgeschreven over hun vermoedelijke gebruiksduur.
+Het verschil dat bij de **eerste consolidatie** van een dochter overblijft tussen (a) wat de moeder betaalde voor de aandelen van een dochter of geassocieerde onderneming en (b) haar pro-rata aandeel in het eigen vermogen (EV) van die onderneming op datum van aankoop — nadat je dat verschil zoveel mogelijk hebt toegerekend aan onder- of overgewaardeerde bezittingen en schulden. Wat dan nog overblijft, verschijnt in de geconsolideerde balans als 'Consolidatieverschillen': aan actiefzijde als het positief is, aan passiefzijde als het negatief is. Positieve consolidatieverschillen worden afgeschreven over hun vermoedelijke gebruiksduur. Belangrijke scope: bij **latere consolidaties** (volgende boekjaren waarin de dochter al in de consolidatiekring zit) wordt **geen nieuw** consolidatieverschil geboekt — wel de afschrijving op het positieve verschil (Koninklijk Besluit Wetboek van vennootschappen en verenigingen (KB WVV) art. 3:131) of opname van negatief verschil in resultatenrekening (RR) volgens de regels. Step-acquisition (verhoging van het belang in een bestaande dochter) is een uitzondering: voor de bijkomende tranche kan wél een extra consolidatieverschil ontstaan op de datum waarop het bijkomende belang werd verworven.
 
 _Bron: KB WVV art. 3:130 jo. art. 3:131_
 
@@ -38,7 +38,7 @@ Je betaalt meer voor de aandelen dan je pro-rata aandeel in het eigen vermogen v
 
 **Waarom?** De premie die de moeder boven op de boekwaarde betaalde, weerspiegelt economische waarde (klantenbestand, marktpositie, synergieën) die niet aan één concrete balanspost is toe te wijzen. Door dat residu op de balans te activeren en gespreid af te schrijven, vermijd je dat het hele bedrag de winst van het aankoopjaar onterecht zou drukken.
 
-**Voorbeeld**: Aurelia betaalt 320 voor 80 % van Brugse; pro-rata EV = 240 en geen stille meerwaarden → positief consolidatieverschil = 80. Boeken aan actiefzijde, afschrijven over 5 jaar = 16 per jaar.
+**Voorbeeld**: Aurelia betaalt € 1.600.000 voor 80 % van Brugse; pro-rata EV = € 1.200.000 en geen stille meerwaarden → positief consolidatieverschil = € 400.000. Boeken aan actiefzijde, afschrijven over 5 jaar = € 80.000 per jaar.
 
 _Grondslag: KB WVV art. 3:131, § 1_
 
@@ -48,7 +48,7 @@ Je betaalt minder dan je pro-rata aandeel in het eigen vermogen (na correctie). 
 
 **Waarom?** Badwill wijst meestal op verborgen risico's (komende verliezen, schade-aansprakelijkheden) waar de koper rekening mee houdt. Het meteen als winst boeken zou een spookwinst opleveren; de wet koppelt de erkenning aan het effectief optreden van die verliezen.
 
-**Voorbeeld**: Aurelia koopt 80 % van een verlieslatende Brugse voor 180; pro-rata EV = 240 → negatief consolidatieverschil = 60, geboekt aan passiefzijde. In jaar 1 boekt Brugse het verwachte verlies van 30; Aurelia mag 80 % × 30 = 24 uit het negatieve verschil in resultaat opnemen.
+**Voorbeeld**: Aurelia koopt 80 % van een verlieslatende Brugse voor € 900.000; pro-rata EV = € 1.200.000 → negatief consolidatieverschil = € 300.000, geboekt aan passiefzijde. In jaar 1 boekt Brugse het verwachte verlies van € 150.000; Aurelia mag 80 % × € 150.000 = € 120.000 uit het negatieve verschil in resultaat opnemen.
 
 _Grondslag: KB WVV art. 3:131, § 2_
 
@@ -58,7 +58,7 @@ Positieve consolidatieverschillen bij dochter A en negatieve verschillen bij doc
 
 **Waarom?** Twee verschillende dochters zijn economisch los van elkaar; saldering zou een dochter met verborgen goodwill optisch laten verdwijnen achter de badwill van een andere dochter. Binnen één dochter daarentegen gaat het om hetzelfde economische geheel — daar is saldering juist verplicht.
 
-**Voorbeeld**: Aurelia heeft een positief verschil van 80 bij Brugse en een negatief verschil van 40 bij Bouwwerf Beerse → beide afzonderlijk presenteren, niet salderen.
+**Voorbeeld**: Aurelia heeft een positief verschil van € 400.000 bij Brugse en een negatief verschil van € 200.000 bij Bouwwerf Beerse → beide afzonderlijk presenteren, niet salderen.
 
 _Grondslag: KB WVV art. 3:130_
 
@@ -68,7 +68,7 @@ Verkoopt de moeder een deel van haar aandelen in een dochter (buiten de consolid
 
 **Waarom?** Het consolidatieverschil hoort bij de aangehouden aandelen. Bij gedeeltelijke verkoop hoort dat verschil ook gedeeltelijk te verdwijnen, anders blijf je een goodwill aanhouden die niet meer correspondeert met je participatie.
 
-**Voorbeeld**: Aurelia heeft een resterend positief consolidatieverschil van 60 op haar 80 %-belang in Brugse. Aurelia verkoopt de helft (40 %) aan een derde → 30 (= 60 × 40 %/80 %) van het consolidatieverschil wordt afgeboekt.
+**Voorbeeld**: Aurelia heeft een resterend positief consolidatieverschil van € 300.000 op haar 80 %-belang in Brugse. Aurelia verkoopt de helft (40 %) aan een derde → € 150.000 (= € 300.000 × 40 %/80 %) van het consolidatieverschil wordt afgeboekt.
 
 _Grondslag: KB WVV art. 3:132_
 
@@ -88,10 +88,10 @@ bruto-verschil = aanschaffingswaarde aandelen − (belangenpercentage × eigen v
 | `belangenpercentage` | Aandeel van moeder in kapitaal dochter (zie [[belangenpercentage]]) | % |
 | `eigen vermogen dochter op datum van aankoop` | Totaal eigen vermogen (kapitaal + reserves + overgedragen resultaat) van de dochter, op de aankoopdatum (niet op afsluitingsdatum) | EUR |
 
-**Voorbeeld-invulling**: aanschaffingswaarde = 320; belangenpercentage Aurelia in Brugse = 80 %; EV Brugse op aankoopdatum = 300
+**Voorbeeld-invulling**: aanschaffingswaarde = € 1.600.000; belangenpercentage Aurelia in Brugse = 80 %; EV Brugse op aankoopdatum = € 1.500.000
 
 ```
-320 − (80 % × 300) = 320 − 240 = 80
+€ 1.600.000 − (80 % × € 1.500.000) = € 1.600.000 − € 1.200.000 = € 400.000
 ```
 
 _Resultaat in EUR_
@@ -105,10 +105,10 @@ consolidatieverschil = bruto-verschil − totaal toerekening aan stille meer-/mi
 | `bruto-verschil` | Resultaat van de eerste formule | EUR |
 | `totaal toerekening` | Som van alle bedragen die toegerekend zijn aan onder- of overgewaardeerde bezittingen/schulden van de dochter (KB WVV art. 3:128 jo. art. 3:130, lid 1) | EUR |
 
-**Voorbeeld-invulling**: bruto-verschil = 80; toerekening aan terreinen (onderwaardering) = 50
+**Voorbeeld-invulling**: bruto-verschil = € 400.000; toerekening aan terreinen (onderwaardering) = € 250.000
 
 ```
-80 − 50 = 30 (positief → actiefzijde)
+€ 400.000 − € 250.000 = € 150.000 (positief → actiefzijde)
 ```
 
 _Resultaat in EUR_
@@ -122,10 +122,10 @@ jaarlijkse afschrijving = positief consolidatieverschil / vermoedelijke gebruiks
 | `positief consolidatieverschil` | Het residu uit de vorige formule, wanneer positief | EUR |
 | `vermoedelijke gebruiksduur` | Aantal jaren waarover de goodwill economisch nuttig blijft; >5 jaar vereist motivering in toelichting | jaar |
 
-**Voorbeeld-invulling**: positief consolidatieverschil = 30; vermoedelijke gebruiksduur = 5 jaar
+**Voorbeeld-invulling**: positief consolidatieverschil = € 150.000; vermoedelijke gebruiksduur = 5 jaar
 
 ```
-30 / 5 = 6 per jaar
+€ 150.000 / 5 = € 30.000 per jaar
 ```
 
 _Resultaat in EUR_
@@ -148,7 +148,7 @@ Schrijf op wat de moeder effectief heeft betaald voor de aandelen van de dochter
 1. Open de aandelenkoopovereenkomst van de transactie tussen Aurelia Holding NV en Brugse Brouwerij BV.
 2. Neem de overeengekomen prijs.
 3. Tel eventuele aankoopkosten (notaris, advies) op die volgens de waarderingsregels in de aanschaffingswaarde mogen.
-4. Resultaat: aanschaffingswaarde van de deelneming = 320 (bv.).
+4. Resultaat: aanschaffingswaarde van de deelneming = € 1.600.000 (bv.).
 
 
 **Grondslag**: KB WVV art. 3:127, a)
@@ -169,8 +169,8 @@ Vermenigvuldig het belangenpercentage van de moeder met het totaal eigen vermoge
 **🛠️ Hoe**:
 
 1. Neem de balans van Brugse Brouwerij BV per datum van aankoop (1 januari 20X1).
-2. Tel kapitaal + reserves + overgedragen resultaat → eigen vermogen totaal (bv. 300).
-3. Vermenigvuldig met het belangenpercentage van Aurelia: 80 % × 300 = 240.
+2. Tel kapitaal + reserves + overgedragen resultaat → eigen vermogen totaal (bv. € 1.500.000).
+3. Vermenigvuldig met het belangenpercentage van Aurelia: 80 % × € 1.500.000 = € 1.200.000.
 4. Dit is jouw pro-rata aandeel; gebruik dit cijfer in de rest van de berekening.
 
 
@@ -191,9 +191,9 @@ Trek het pro-rata aandeel (stap 2) af van de aanschaffingswaarde (stap 1).
 
 **🛠️ Hoe**:
 
-1. Aanschaffingswaarde: 320.
-2. Pro-rata aandeel: 240.
-3. Bruto-verschil: 320 − 240 = 80.
+1. Aanschaffingswaarde: € 1.600.000.
+2. Pro-rata aandeel: € 1.200.000.
+3. Bruto-verschil: € 1.600.000 − € 1.200.000 = € 400.000.
 4. Positief? → mogelijk goodwill. Negatief? → mogelijk badwill. We zijn nog niet klaar — eerst stap 4.
 
 
@@ -216,9 +216,9 @@ Bekijk welke bezittingen of schulden van de dochter een werkelijke waarde hebben
 **🛠️ Hoe**:
 
 1. Maak een lijst van bezittingen en schulden van Brugse met afwijkende werkelijke waarde — typisch: terreinen, gebouwen, voorraden, voorzieningen.
-2. Stel vast: terreinen Brugse staan op 200, werkelijke waarde 250 → onderwaardering = 50.
-3. Reken (een deel van) het bruto-verschil aan die post toe: 50 wordt toegerekend aan terreinen.
-4. Bereken het residu: bruto-verschil − toerekeningen = 80 − 50 = 30.
+2. Stel vast: terreinen Brugse staan op € 1.000.000, werkelijke waarde € 1.250.000 → onderwaardering = € 250.000.
+3. Reken (een deel van) het bruto-verschil aan die post toe: € 250.000 wordt toegerekend aan terreinen.
+4. Bereken het residu: bruto-verschil − toerekeningen = € 400.000 − € 250.000 = € 150.000.
 5. Belangrijk: toerekening alleen 'voor zover mogelijk' — als je niets concreets vindt om aan toe te rekenen, blijft het residu = bruto-verschil.
 
 
@@ -238,48 +238,48 @@ Het residu na stap 4 is het eigenlijke consolidatieverschil. Positief? → actie
 
 **🛠️ Hoe**:
 
-1. Residu uit stap 4: 30 (positief).
+1. Residu uit stap 4: € 150.000 (positief).
 2. Boek aan actiefzijde van de geconsolideerde balans onder 'Consolidatieverschillen'.
-3. Stel een afschrijvingsplan op (vermoedelijke gebruiksduur, bv. 5 jaar): 30 / 5 = 6 per jaar.
+3. Stel een afschrijvingsplan op (vermoedelijke gebruiksduur, bv. 5 jaar): € 150.000 / 5 = € 30.000 per jaar.
 4. Afschrijving boek je in een afzonderlijke post van de bedrijfs- of financiële kosten in de geconsolideerde resultatenrekening (KB WVV art. 3:131, § 1, lid 3) — niet vermengd met gewone afschrijvingen.
 5. Bij meer dan 5 jaar afschrijving: motivering in toelichting.
 
 
-> [!example]- Voorbeeld: Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor 320; EV Brugse op aankoopdatum = 300; terreinen van Brugse zijn 50 ondergewaardeerd (boekwaarde 200, werkelijk 250)
-> Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor 320; EV Brugse op aankoopdatum = 300; terreinen van Brugse zijn 50 ondergewaardeerd (boekwaarde 200, werkelijk 250).
+> [!example]- Voorbeeld: Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1
+> Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) Brugse op aankoopdatum = € 1.500.000; terreinen van Brugse zijn € 250.000 ondergewaardeerd (boekwaarde € 1.000.000, werkelijk € 1.250.000).
 >
 > 1. **Werkblad consolidatieverschil** 🧮
 >
->    | Stap                                          | Bedrag |
->    |-----------------------------------------------|-------:|
->    | (1) Aanschaffingswaarde                       |    320 |
->    | (2) Pro-rata aandeel EV (80 % × 300)          |    240 |
->    | (3) Bruto-verschil                            |     80 |
->    | (4) Toerekening aan terreinen (onderwaardering) |  −50 |
->    | (5) **Residu = consolidatieverschil**         | **30** |
+>    | Stap                                          | Bedrag (€) |
+>    |-----------------------------------------------|-----------:|
+>    | (1) Aanschaffingswaarde                       |  1.600.000 |
+>    | (2) Pro-rata aandeel EV (80 % × € 1.500.000)  |  1.200.000 |
+>    | (3) Bruto-verschil                            |    400.000 |
+>    | (4) Toerekening aan terreinen (onderwaardering) | −250.000 |
+>    | (5) **Residu = consolidatieverschil**         | **150.000** |
 >
 > 2. **Boeking** 📝
 >
->    Activa: Terreinen Brugse +50 (opwaardering naar werkelijke waarde)
->    Activa: Consolidatieverschillen +30 (residu)
->    Geschrapt: Deelneming Brugse −320, Aandeel EV Brugse −240
+>    Activa: Terreinen Brugse +€ 250.000 (opwaardering naar werkelijke waarde)
+>    Activa: Consolidatieverschillen +€ 150.000 (residu)
+>    Geschrapt: Deelneming Brugse −€ 1.600.000, Aandeel EV Brugse −€ 1.200.000
 >
 > 3. **Afschrijvingsplan** 🧮
 >
 >    Vermoedelijke gebruiksduur: 5 jaar
->    Jaarlijkse afschrijving = 30 / 5 = **6 per jaar**
->    Geboekt in de geconsolideerde resultatenrekening als afzonderlijke post (KB WVV art. 3:131, § 1, lid 3).
+>    Jaarlijkse afschrijving = € 150.000 / 5 = **€ 30.000 per jaar**
+>    Geboekt in de geconsolideerde resultatenrekening (RR) als afzonderlijke post (KB WVV art. 3:131, § 1, lid 3).
 >
 
 **Grondslag**: KB WVV art. 3:130 (boeking) jo. art. 3:131 (afschrijving)
 
-**Voorbeeld**: Aurelia Holding NV verwerft 100 % van Brugse Brouwerij BV voor 1.000. Eigen vermogen Brugse op datum van aankoop = 700. Aurelia stelt vast dat de terreinen van Brugse 150 ondergewaardeerd zijn t.o.v. werkelijke waarde.
+**Voorbeeld**: Aurelia Holding NV verwerft 100 % van Brugse Brouwerij BV voor € 2.000.000. Eigen vermogen Brugse op datum van aankoop = € 1.400.000. Aurelia stelt vast dat de terreinen van Brugse € 300.000 ondergewaardeerd zijn t.o.v. werkelijke waarde.
 
 ```
-Stap 1: aanschaffingswaarde = 1.000. Stap 2: pro-rata EV = 100 % × 700 = 700. Stap 3: bruto-verschil = 1.000 − 700 = 300. Stap 4: 150 wordt toegerekend aan de terreinen (geconsolideerde balans: terreinen +150). Stap 5: residu = 300 − 150 = 150. Geboekt als 'Consolidatieverschillen' (actiefzijde), afgeschreven volgens passend plan.
+Stap 1: aanschaffingswaarde = € 2.000.000. Stap 2: pro-rata EV = 100 % × € 1.400.000 = € 1.400.000. Stap 3: bruto-verschil = € 2.000.000 − € 1.400.000 = € 600.000. Stap 4: € 300.000 wordt toegerekend aan de terreinen (geconsolideerde balans: terreinen +€ 300.000). Stap 5: residu = € 600.000 − € 300.000 = € 300.000. Geboekt als 'Consolidatieverschillen' (actiefzijde), afgeschreven volgens passend plan.
 ```
 
-Resultaat: In de geconsolideerde balans wordt 150 als positief consolidatieverschil geboekt; de terreinen van Brugse Brouwerij BV worden voor 150 opgewaardeerd. Het positieve consolidatieverschil wordt bv. over 5 jaar afgeschreven (30 per jaar in de geconsolideerde resultatenrekening, afzonderlijke post bij bedrijfs- of financiële kosten — KB WVV art. 3:131).
+Resultaat: In de geconsolideerde balans wordt € 300.000 als positief consolidatieverschil geboekt; de terreinen van Brugse Brouwerij BV worden voor € 300.000 opgewaardeerd. Het positieve consolidatieverschil wordt bv. over 5 jaar afgeschreven (€ 60.000 per jaar in de geconsolideerde resultatenrekening (RR), afzonderlijke post bij bedrijfs- of financiële kosten — KB WVV art. 3:131).
 
 ## In de praktijk
 

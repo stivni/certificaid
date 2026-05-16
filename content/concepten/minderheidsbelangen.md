@@ -43,10 +43,10 @@ belangen van derden = (1 − belangenpercentage moeder) × eigen vermogen dochte
 | `belangenpercentage moeder` | Aandeel van moeder in kapitaal dochter (zie [[belangenpercentage]]) | % |
 | `eigen vermogen dochter op afsluitingsdatum` | Kapitaal + reserves + overgedragen resultaat + resultaat boekjaar van de dochter, einde boekjaar | EUR |
 
-**Voorbeeld-invulling**: belangenpercentage Aurelia = 80 %; EV Brugse op afsluitingsdatum = 500
+**Voorbeeld-invulling**: belangenpercentage Aurelia = 80 %; EV Brugse op afsluitingsdatum = € 2.000.000
 
 ```
-(1 − 80 %) × 500 = 20 % × 500 = 100
+(1 − 80 %) × € 2.000.000 = 20 % × € 2.000.000 = € 400.000
 ```
 
 _Resultaat in EUR_
@@ -60,10 +60,10 @@ aandeel derden in resultaat = (1 − belangenpercentage moeder) × resultaat doc
 | `belangenpercentage moeder` | Aandeel van moeder in kapitaal dochter | % |
 | `resultaat dochter boekjaar` | Winst of verlies van de dochter in dit boekjaar | EUR |
 
-**Voorbeeld-invulling**: belangenpercentage Aurelia = 80 %; resultaat Brugse boekjaar = 100
+**Voorbeeld-invulling**: belangenpercentage Aurelia = 80 %; resultaat Brugse boekjaar = € 500.000
 
 ```
-(1 − 80 %) × 100 = 20 % × 100 = 20
+(1 − 80 %) × € 500.000 = 20 % × € 500.000 = € 100.000
 ```
 
 _Resultaat in EUR_
@@ -126,9 +126,9 @@ Vermenigvuldig het derden-percentage met het eigen vermogen van de dochter op af
 
 **🛠️ Hoe**:
 
-1. Neem het eigen vermogen van Brugse Brouwerij BV op afsluitingsdatum (kapitaal + reserves + overgedragen resultaat + resultaat boekjaar; bv. 500).
-2. Vermenigvuldig met het derden-percentage uit stap 2: 20 % × 500 = 100.
-3. Boek 100 aan passiefzijde van de geconsolideerde balans onder 'Belangen van derden'.
+1. Neem het eigen vermogen van Brugse Brouwerij BV op afsluitingsdatum (kapitaal + reserves + overgedragen resultaat + resultaat boekjaar; bv. € 2.000.000).
+2. Vermenigvuldig met het derden-percentage uit stap 2: 20 % × € 2.000.000 = € 400.000.
+3. Boek € 400.000 aan passiefzijde van de geconsolideerde balans onder 'Belangen van derden'.
 
 
 > [!example]- Voorbeeld: Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV; eigen vermogen Brugse op afsluitingsdatum = 500
@@ -136,9 +136,9 @@ Vermenigvuldig het derden-percentage met het eigen vermogen van de dochter op af
 >
 > 1. **Berekening belangen van derden** 🧮
 >
->    Eigen vermogen Brugse Brouwerij BV (afsluit) = 500
+>    Eigen vermogen Brugse Brouwerij BV (afsluit) = € 2.000.000
 >    Derden-percentage = 100 % − 80 % = **20 %**
->    Belangen van derden = 20 % × 500 = **100**
+>    Belangen van derden = 20 % × € 2.000.000 = **€ 400.000**
 >
 > 2. **Geconsolideerde balans (passiefzijde, fragment)** 📊
 >
@@ -189,9 +189,9 @@ Wanneer bezittingen of schulden van de dochter werden geherwaardeerd (KB WVV art
 
 **🛠️ Hoe**:
 
-1. Identificeer de stille meerwaarden die bij eerste consolidatie zijn toegerekend (bv. terreinen van Brugse 50 ondergewaardeerd).
-2. Bereken het derden-deel van die herberekening: 20 % × 50 = 10.
-3. Voeg dit bedrag toe aan de post 'Belangen van derden' (stap 3): 100 + 10 = 110.
+1. Identificeer de stille meerwaarden die bij eerste consolidatie zijn toegerekend (bv. terreinen van Brugse € 250.000 ondergewaardeerd).
+2. Bereken het derden-deel van die herberekening: 20 % × € 250.000 = € 50.000.
+3. Voeg dit bedrag toe aan de post 'Belangen van derden' (stap 3): € 400.000 + € 50.000 = € 450.000.
 4. Belangrijk: KB WVV art. 3:130, lid 4 vereist dat derden meedelen in de herberekeningen — niet alleen in het boekhoudkundige EV.
 
 
@@ -201,9 +201,9 @@ Wanneer bezittingen of schulden van de dochter werden geherwaardeerd (KB WVV art
 
 ```
 Belang% (Aurelia in Brugse) = 80 %. Derden-percentage = 20 %.
-Belangen van derden (balans, passief) = 20 % × 500 = 100.
-Aandeel van derden in het resultaat (resultatenrekening) = 20 % × 100 = 20.
-Deel van het resultaat voor Aurelia (na aftrek derden) = 80 % × 100 = 80.
+Belangen van derden (balans, passief) = 20 % × € 2.000.000 = € 400.000.
+Aandeel van derden in het resultaat (resultatenrekening) = 20 % × € 500.000 = € 100.000.
+Deel van het resultaat voor Aurelia (na aftrek derden) = 80 % × € 500.000 = € 400.000.
 ```
 
 Resultaat: In de geconsolideerde balans: 'Belangen van derden' = 100 (passiefzijde). In de geconsolideerde resultatenrekening: 'Aandeel van derden in het resultaat' = 20. De resterende 80 zit in het geconsolideerd resultaat van de groep dat aan Aurelia toekomt.
@@ -227,7 +227,7 @@ Resultaat: In de geconsolideerde balans: 'Belangen van derden' = 100 (passiefzij
 ## Valkuilen
 
 > [!warning]- Het derden-aandeel bereken je op het eigen vermogen van de dochter ná herbereke…
-> ⚠️ Het derden-aandeel bereken je op het eigen vermogen van de dochter ná herberekening van onder- of overgewaardeerde bezittingen en schulden (KB WVV art. 3:130, lid 4). De derden-correctie geldt dus ook voor stille meer- of minderwaarden die bij eerste consolidatie zijn vastgesteld — niet enkel voor het boekhoudkundige EV. Voorbeeld: bij Brugse Brouwerij BV werden terreinen 50 opgewaardeerd; dan komt 20 % × 50 = 10 erbij in 'Belangen van derden'. ⚖️
+> ⚠️ Het derden-aandeel bereken je op het eigen vermogen van de dochter ná herberekening van onder- of overgewaardeerde bezittingen en schulden (KB WVV art. 3:130, lid 4). De derden-correctie geldt dus ook voor stille meer- of minderwaarden die bij eerste consolidatie zijn vastgesteld — niet enkel voor het boekhoudkundige EV. Voorbeeld: bij Brugse Brouwerij BV werden terreinen € 250.000 opgewaardeerd; dan komt 20 % × € 250.000 = € 50.000 erbij in 'Belangen van derden'. ⚖️
 >
 > _Bron: KB WVV art. 3:130, lid 4_
 

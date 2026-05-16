@@ -37,6 +37,19 @@
         "edges: getriggerd-door integrale-consolidatie toegevoegd (briefing-vereiste)",
         "voorbeeld_inline op record-niveau toegevoegd"
       ]
+    },
+    "sessie_3_fixes_2026_05_16": {
+      "door": "sessie-3-records-fixes (handmatig)",
+      "op": "2026-05-16",
+      "velden_gewijzigd": [
+        "voorbeeld_inline (fix C): 100/30/40/12 → € 500.000 / 30 % / € 200.000 / € 60.000; RR voluit",
+        "stappen[1].hoe (fix C): bedragen €-formaat (intragroep-vordering € 250.000)",
+        "stappen[3-6].hoe (fix C): €-formaat consistent in alle stappen + 'intra-groepsverkopen' → 'intragroep-verkopen'",
+        "berekeningsmethode[0].stappen[*].hoe (fix C): bedragen €-formaat",
+        "berekeningsmethode[0].stappen[*].voorbeeld.substappen (fix C): tabellen + boekingen met €-bedragen",
+        "berekeningsmethode[0].concreet_voorbeeld (fix C): scenario + berekening + resultaat in €-formaat",
+        "berekeningsmethode[0].formules[*].invulling_voorbeeld (fix C): €-formaat"
+      ]
     }
   },
   "verplichting": {
@@ -55,7 +68,7 @@
       {"field": "text", "from": "Bij de opstelling van de geconsolideerde jaarrekening moeten alle wederzijdse opbrengsten, kosten, vorderingen, schulden en in activa begrepen onderlinge winsten of verliezen tussen de in de consolidatie opgenomen vennootschappen worden geëlimineerd, om te vermijden dat dezelfde transacties dubbel verschijnen en dat winsten op interne transacties worden gerealiseerd in de groepscijfers terwijl ze economisch niet zijn gerealiseerd buiten de groep.", "reason": "Stagiair-toon: 'wederzijdse' → 'onderlinge'; 'geëlimineerd' → 'geschrapt'; korte zinnen (regel 6)."}
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV verkoopt voor 100 goederen aan Brugse Brouwerij BV met 30 % marge; Brugse heeft op balansdatum nog 40 % in voorraad → schrap omzet 100 en kostprijs 100 uit de geconsolideerde resultatenrekening, en schrap 40 × 30 % = 12 uit de voorraad en de reserves van de geconsolideerde balans.",
+  "voorbeeld_inline": "Aurelia Holding NV verkoopt voor € 500.000 goederen aan Brugse Brouwerij BV met 30 % marge; Brugse heeft op balansdatum nog 40 % in voorraad → schrap omzet € 500.000 en kostprijs € 500.000 uit de geconsolideerde resultatenrekening (RR), en schrap € 200.000 × 30 % = € 60.000 uit de voorraad en de reserves van de geconsolideerde balans.",
   "stappen": [
     {
       "nr": 1,
@@ -64,7 +77,7 @@
       "waarom": "Een groep kan niet aan zichzelf geld lenen. Als onderlinge vorderingen en schulden zouden blijven staan, blaast dat de geconsolideerde balans op met posten die enkel binnen de groep bestaan.",
       "input": [{"artefact": "Boekhouding moeder + alle dochters in consolidatiekring", "veld": "Vorderingen + schulden tussen groepsleden", "type": "boekhoudkundig-bedrag"}],
       "output": [{"artefact": "Geconsolideerde balans", "veld": "Onderlinge vorderingen en schulden", "type": "geëlimineerde-post"}],
-      "hoe": "1. Maak per groepslid een lijst van vorderingen op andere groepsleden (debiteur intercompany).\n2. Maak per groepslid een lijst van schulden aan andere groepsleden (crediteur intercompany).\n3. Voor elk bedrag: schrap zowel de vordering bij de ene als de schuld bij de andere — moet voor exact hetzelfde bedrag zijn.\n4. Bv. Aurelia heeft een vordering van 50 op Brugse, Brugse heeft een schuld van 50 aan Aurelia → beide gaan weg uit de geconsolideerde balans.\n5. Mismatchen? Onderzoek (timing-verschil, valutaverschil, dispuut) en corrigeer eerst de individuele boekhouding.\n",
+      "hoe": "1. Maak per groepslid een lijst van vorderingen op andere groepsleden (debiteur intercompany).\n2. Maak per groepslid een lijst van schulden aan andere groepsleden (crediteur intercompany).\n3. Voor elk bedrag: schrap zowel de vordering bij de ene als de schuld bij de andere — moet voor exact hetzelfde bedrag zijn.\n4. Bv. Aurelia heeft een vordering van € 250.000 op Brugse, Brugse heeft een schuld van € 250.000 aan Aurelia → beide gaan weg uit de geconsolideerde balans.\n5. Mismatchen? Onderzoek (timing-verschil, valutaverschil, dispuut) en corrigeer eerst de individuele boekhouding.\n",
       "grondslag": "KB WVV art. 3:134, 1°",
       "actor": "moeder",
       "_corrected_from": [
@@ -83,7 +96,7 @@
         {"artefact": "Voorraden + vaste activa per groepslid", "veld": "Restvoorraad of nog-niet-gerealiseerd actief", "type": "boekhoudkundig-bedrag"}
       ],
       "output": [{"artefact": "Geconsolideerde balans", "veld": "Voorraden + reserves verminderd", "type": "geëlimineerde-post"}],
-      "hoe": "1. Maak een lijst van intra-groepsverkopen met marge (typisch goederen of vaste activa).\n2. Bepaal voor elk: hoeveel zit op balansdatum nog binnen de groep (in voorraad of op de balans van de koper)?\n3. Bereken de niet-gerealiseerde winst: restvoorraad × brutomarge%.\n4. Schrap dat bedrag uit de geconsolideerde voorraadwaarde (of vaste activa) én uit de geconsolideerde reserves.\n5. Bv. Aurelia verkoopt aan Brugse voor 100 met 30 % marge; Brugse heeft nog 40 in voorraad → 40 × 30 % = 12 te schrappen.\n",
+      "hoe": "1. Maak een lijst van intragroep-verkopen met marge (typisch goederen of vaste activa).\n2. Bepaal voor elk: hoeveel zit op balansdatum nog binnen de groep (in voorraad of op de balans van de koper)?\n3. Bereken de niet-gerealiseerde winst: restvoorraad × brutomarge%.\n4. Schrap dat bedrag uit de geconsolideerde voorraadwaarde (of vaste activa) én uit de geconsolideerde reserves.\n5. Bv. Aurelia verkoopt aan Brugse voor € 500.000 met 30 % marge; Brugse heeft nog € 200.000 in voorraad → € 200.000 × 30 % = € 60.000 te schrappen.\n",
       "grondslag": "KB WVV art. 3:134, 2°",
       "actor": "moeder",
       "_corrected_from": [
@@ -116,7 +129,7 @@
         {"artefact": "Werkblad evenredige consolidatie", "veld": "Pro-rata-percentage", "type": "percentage"}
       ],
       "output": [{"artefact": "Geconsolideerde balans + resultatenrekening", "veld": "Pro-rata geëlimineerde posten", "type": "geëlimineerde-post"}],
-      "hoe": "1. Identificeer transacties tussen Cardinal Group NV (moedergroep) en haar gemeenschappelijke dochter Filmstudio Florence BV (50 %).\n2. Bereken de pro-rata-eliminatie: bedrag × belangenpercentage Cardinal = bedrag × 50 %.\n3. Schrap dat pro-rata bedrag uit balans en/of resultatenrekening.\n4. Bv. Filmstudio verkoopt aan Cardinal voor 100 met 30 % marge, 40 nog in voorraad → te schrappen winst = 40 × 30 % × 50 % = 6 (niet 12).\n",
+      "hoe": "1. Identificeer transacties tussen Cardinal Group NV (moedergroep) en haar gemeenschappelijke dochter Filmstudio Florence BV (50 %).\n2. Bereken de pro-rata-eliminatie: bedrag × belangenpercentage Cardinal = bedrag × 50 %.\n3. Schrap dat pro-rata bedrag uit balans en/of resultatenrekening.\n4. Bv. Filmstudio verkoopt aan Cardinal voor € 500.000 met 30 % marge, € 200.000 nog in voorraad → te schrappen winst = € 200.000 × 30 % × 50 % = € 30.000 (niet € 60.000).\n",
       "grondslag": "KB WVV art. 3:140, a",
       "actor": "moeder",
       "_corrected_from": [
@@ -167,7 +180,7 @@
           "waarom": "Een correcte berekening start met een correct gedocumenteerde transactie. Foute marge of verkeerd bedrag werkt door in elke volgende stap.",
           "input": [{"artefact": "Boekhouding verkoper", "veld": "Verkoopfactuur, kostprijs, marge", "type": "document"}],
           "output": [{"artefact": "Werkblad eliminatie", "veld": "Interne verkoopprijs + marge%", "type": "boekhoudkundig-bedrag"}],
-          "hoe": "1. Open de boekhouding van Aurelia Holding NV (verkoper).\n2. Bepaal de totale interne verkoopprijs voor de verkoop aan Brugse Brouwerij BV: 100.\n3. Bepaal de kostprijs voor Aurelia: 70.\n4. Brutomarge = (100 − 70)/100 = 30 %.\n",
+          "hoe": "1. Open de boekhouding van Aurelia Holding NV (verkoper).\n2. Bepaal de totale interne verkoopprijs voor de verkoop aan Brugse Brouwerij BV: € 500.000.\n3. Bepaal de kostprijs voor Aurelia: € 350.000.\n4. Brutomarge = (€ 500.000 − € 350.000) / € 500.000 = 30 %.\n",
           "grondslag": "KB WVV art. 3:134, 2°",
           "_corrected_from": [
             {"field": "titel", "from": "Identificeer de intra-groepsverkoop: verkoper, koper, totale interne verkoopprijs…", "reason": "Skeleton → werkwoord-georiënteerd."},
@@ -181,7 +194,7 @@
           "waarom": "Alleen het deel dat nog binnen de groep zit, is economisch niet gerealiseerd. Wat al aan derden buiten de groep is doorverkocht, is wel echt winst geworden.",
           "input": [{"artefact": "Voorraadinventaris koper", "veld": "Resterende hoeveelheid × interne aankoopprijs", "type": "boekhoudkundig-bedrag"}],
           "output": [{"artefact": "Werkblad eliminatie", "veld": "Restvoorraad (interne aankoopprijs)", "type": "boekhoudkundig-bedrag"}],
-          "hoe": "1. Tel hoeveel goederen van de interne aankoop nog in de voorraad van Brugse Brouwerij BV liggen.\n2. Vermenigvuldig met de interne aankoopprijs per eenheid.\n3. Bv. 40 % van wat Brugse intern aankocht zit nog in voorraad → 40 % × 100 = 40 (in interne aankoopprijs).\n",
+          "hoe": "1. Tel hoeveel goederen van de interne aankoop nog in de voorraad van Brugse Brouwerij BV liggen.\n2. Vermenigvuldig met de interne aankoopprijs per eenheid.\n3. Bv. 40 % van wat Brugse intern aankocht zit nog in voorraad → 40 % × € 500.000 = € 200.000 (in interne aankoopprijs).\n",
           "grondslag": "KB WVV art. 3:134, 2°",
           "_corrected_from": [
             {"field": "titel", "from": "Bepaal hoeveel van het verkochte goed op balansdatum…", "reason": "Skeleton → werkwoord-georiënteerd."},
@@ -211,11 +224,11 @@
           "output": [{"artefact": "Geconsolideerde balans", "veld": "Voorraden + reserves", "type": "geëlimineerde-post"}],
           "hoe": "1. Open de geconsolideerde balans.\n2. Verlaag 'Voorraden' met 12: 40 → 28.\n3. Verlaag 'Geconsolideerde reserves' met 12.\n4. De voorraad van Brugse staat nu op 28 (= 40 − 12), wat overeenstemt met de oorspronkelijke kostprijs voor de groep (70 % × 40 = 28).\n",
           "voorbeeld": {
-            "scenario": "Aurelia Holding NV verkocht in boekjaar 20X1 voor 100 goederen aan Brugse Brouwerij BV met 30 % marge. Brugse heeft op 31 december 20X1 nog 40 in voorraad (uitgedrukt in interne aankoopprijs); 60 is al aan derden doorverkocht.",
+            "scenario": "Aurelia Holding NV verkocht in boekjaar 20X1 voor € 500.000 goederen aan Brugse Brouwerij BV met 30 % marge. Brugse heeft op 31 december 20X1 nog € 200.000 in voorraad (uitgedrukt in interne aankoopprijs); € 300.000 is al aan derden doorverkocht.",
             "substappen": [
-              {"nr": 1, "titel": "Te elimineren winst", "type": "berekening", "data": "Restvoorraad bij Brugse: **40** (interne aankoopprijs)\nBrutomarge Aurelia: **30 %**\nTe elimineren winst = 40 × 30 % = **12**"},
-              {"nr": 2, "titel": "Balans-eliminatie", "type": "boekingsregel", "data": "Activa: Voorraden Brugse −12 (40 → 28)\nPassiva: Geconsolideerde reserves −12\nVoorraad staat nu op 28 = oorspronkelijke kostprijs voor de groep (70 % × 40)."},
-              {"nr": 3, "titel": "P&L-eliminatie (zie stap 5)", "type": "boekingsregel", "data": "Omzet Aurelia −100\nKostprijs verkochte goederen Brugse −100\n(P&L-eliminatie gaat altijd voor de volledige 100, ongeacht restvoorraad — alleen de niet-gerealiseerde winst gaat via reserves.)"}
+              {"nr": 1, "titel": "Te elimineren winst", "type": "berekening", "data": "Restvoorraad bij Brugse: **€ 200.000** (interne aankoopprijs)\nBrutomarge Aurelia: **30 %**\nTe elimineren winst = € 200.000 × 30 % = **€ 60.000**"},
+              {"nr": 2, "titel": "Balans-eliminatie", "type": "boekingsregel", "data": "Activa: Voorraden Brugse −€ 60.000 (€ 200.000 → € 140.000)\nPassiva: Geconsolideerde reserves −€ 60.000\nVoorraad staat nu op € 140.000 = oorspronkelijke kostprijs voor de groep (70 % × € 200.000)."},
+              {"nr": 3, "titel": "P&L-eliminatie (zie stap 5)", "type": "boekingsregel", "data": "Omzet Aurelia −€ 500.000\nKostprijs verkochte goederen Brugse −€ 500.000\n(P&L-eliminatie gaat altijd voor de volledige € 500.000, ongeacht restvoorraad — alleen de niet-gerealiseerde winst gaat via reserves.)"}
             ]
           },
           "grondslag": "KB WVV art. 3:134, 2°",
@@ -232,7 +245,7 @@
           "waarom": "De P&L-eliminatie gaat altijd voor 100 %: de groep mag economisch geen omzet boeken op verkopen aan zichzelf. De marge-correctie via reserves (stap 4) regelt de winst-realisatie.",
           "input": [{"artefact": "Resultatenrekening verkoper + koper", "veld": "Interne omzet + interne kostprijs", "type": "boekhoudkundig-bedrag"}],
           "output": [{"artefact": "Geconsolideerde resultatenrekening", "veld": "Omzet + kostprijs", "type": "geëlimineerde-post"}],
-          "hoe": "1. Identificeer de volledige interne omzet bij de verkoper: 100.\n2. Identificeer de bijbehorende kostprijs verkochte goederen bij de koper: 100 (= wat Brugse betaalde aan Aurelia).\n3. Schrap beide: omzet −100, kostprijs −100.\n4. Geconsolideerd resultaat van deze transactie blijft technisch netto 0 in de P&L; de niet-gerealiseerde winst (12) is via stap 4 uit de reserves gegaan.\n",
+          "hoe": "1. Identificeer de volledige interne omzet bij de verkoper: € 500.000.\n2. Identificeer de bijbehorende kostprijs verkochte goederen bij de koper: € 500.000 (= wat Brugse betaalde aan Aurelia).\n3. Schrap beide: omzet −€ 500.000, kostprijs −€ 500.000.\n4. Geconsolideerd resultaat van deze transactie blijft technisch netto € 0 in de P&L; de niet-gerealiseerde winst (€ 60.000) is via stap 4 uit de reserves gegaan.\n",
           "grondslag": "KB WVV art. 3:136, 1°",
           "_corrected_from": [
             {"field": "titel", "from": "Schrap de volledige interne omzet en bijbehorende kostprijs…", "reason": "Skeleton → werkwoord-georiënteerd."},
@@ -249,7 +262,7 @@
             {"artefact": "Aandeelhoudersstructuur", "veld": "Belangenpercentage moeder in gemeenschappelijke dochter", "type": "percentage"}
           ],
           "output": [{"artefact": "Geconsolideerde balans + resultatenrekening", "veld": "Pro-rata eliminaties", "type": "geëlimineerde-post"}],
-          "hoe": "1. Identificeer dat de tegenpartij een gemeenschappelijke dochter is (evenredig geconsolideerd).\n2. Neem het belangenpercentage van de moeder: bv. 50 % voor Cardinal in Filmstudio Florence.\n3. Pas elke eliminatie aan: vermenigvuldig met 50 %.\n4. Voorbeeld: niet-gerealiseerde winst 12 → 12 × 50 % = 6 te elimineren. Interne omzet 100 → 50 te elimineren. Kostprijs 100 → 50 te elimineren.\n",
+          "hoe": "1. Identificeer dat de tegenpartij een gemeenschappelijke dochter is (evenredig geconsolideerd).\n2. Neem het belangenpercentage van de moeder: bv. 50 % voor Cardinal in Filmstudio Florence.\n3. Pas elke eliminatie aan: vermenigvuldig met 50 %.\n4. Voorbeeld: niet-gerealiseerde winst € 60.000 → € 60.000 × 50 % = € 30.000 te elimineren. Interne omzet € 500.000 → € 250.000 te elimineren. Kostprijs € 500.000 → € 250.000 te elimineren.\n",
           "grondslag": "KB WVV art. 3:140, a",
           "_corrected_from": [
             {"field": "titel", "from": "Voor evenredig geconsolideerde gemeenschappelijke dochters: beperk de eliminatie…", "reason": "Skeleton → werkwoord-georiënteerd."},
@@ -258,13 +271,13 @@
         }
       ],
       "concreet_voorbeeld": {
-        "scenario": "Aurelia Holding NV verkoopt voor 100 goederen aan Brugse Brouwerij BV (100 % integrale consolidatie). Aurelia realiseert daarop een brutomarge van 30 % (kostprijs voor Aurelia = 70, marge = 30). Op balansdatum heeft Brugse nog 40 % van die goederen in voorraad (oorspronkelijke interne aankoopprijs = 40); de overige 60 (interne prijs) is reeds aan derden buiten de groep doorverkocht.",
-        "berekening": "Stap 1–2: interne verkoop 100, brutomarge 30 %, restvoorraad bij Brugse op balansdatum = 40 (interne aankoopprijs). Stap 3: niet-gerealiseerde winst = 40 × 30 % = 12. Stap 4 (balans, KB WVV art. 3:134, 2°): 'Voorraden' −12, 'Reserves' −12; Brugse's voorraad gaat van 40 naar 28 — de oorspronkelijke kostprijs voor de groep. Stap 5 (P&L, KB WVV art. 3:136, 1°): omzet −100, kostprijs verkochte goederen −100. De winst op het reeds aan derden verkochte deel (60 × 30 % = 18) is al gerealiseerd via de externe verkoop bij Brugse.",
-        "resultaat": "Geconsolideerde balans: voorraden en reserves elk −12. Geconsolideerde resultatenrekening: omzet en kostprijs verkochte goederen elk −100. Netto-effect op geconsolideerd resultaat: −12 (de niet-gerealiseerde marge op het deel dat nog binnen de groep zit). Op het ogenblik dat Brugse ook die resterende 40 aan een derde verkoopt, valt de eliminatie weg en wordt de 12 alsnog als groepsresultaat erkend."
+        "scenario": "Aurelia Holding NV verkoopt voor € 500.000 goederen aan Brugse Brouwerij BV (100 % integrale consolidatie). Aurelia realiseert daarop een brutomarge van 30 % (kostprijs voor Aurelia = € 350.000, marge = € 150.000). Op balansdatum heeft Brugse nog 40 % van die goederen in voorraad (oorspronkelijke interne aankoopprijs = € 200.000); de overige € 300.000 (interne prijs) is reeds aan derden buiten de groep doorverkocht.",
+        "berekening": "Stap 1–2: interne verkoop € 500.000, brutomarge 30 %, restvoorraad bij Brugse op balansdatum = € 200.000 (interne aankoopprijs). Stap 3: niet-gerealiseerde winst = € 200.000 × 30 % = € 60.000. Stap 4 (balans, KB WVV art. 3:134, 2°): 'Voorraden' −€ 60.000, 'Reserves' −€ 60.000; Brugse's voorraad gaat van € 200.000 naar € 140.000 — de oorspronkelijke kostprijs voor de groep. Stap 5 (P&L, KB WVV art. 3:136, 1°): omzet −€ 500.000, kostprijs verkochte goederen −€ 500.000. De winst op het reeds aan derden verkochte deel (€ 300.000 × 30 % = € 90.000) is al gerealiseerd via de externe verkoop bij Brugse.",
+        "resultaat": "Geconsolideerde balans: voorraden en reserves elk −€ 60.000. Geconsolideerde resultatenrekening: omzet en kostprijs verkochte goederen elk −€ 500.000. Netto-effect op geconsolideerd resultaat: −€ 60.000 (de niet-gerealiseerde marge op het deel dat nog binnen de groep zit). Op het ogenblik dat Brugse ook die resterende € 200.000 aan een derde verkoopt, valt de eliminatie weg en wordt de € 60.000 alsnog als groepsresultaat erkend."
       },
       "source": {"type": "kb", "short": "Synthese KB WVV art. 3:134, 2° + art. 3:136, 1°"},
       "confidence": "inferred-from-aggregation",
-      "inferred_motivation": "De brontekst (KB WVV art. 3:134, 2° en art. 3:136, 1°) bevat de eliminatieregel maar geen gewerkt cijfervoorbeeld voor niet-gerealiseerde voorraadwinst. De cijfers (100/30 %/40) zijn een minimale didactische illustratie, geen letterlijke overname. De boekhoudkundige logica (marge × restvoorraad = te elimineren winst; volledige interne omzet/kostprijs uit de P&L) volgt rechtstreeks uit de wettekst.",
+      "inferred_motivation": "De brontekst (KB WVV art. 3:134, 2° en art. 3:136, 1°) bevat de eliminatieregel maar geen gewerkt cijfervoorbeeld voor niet-gerealiseerde voorraadwinst. De cijfers (€ 500.000 / 30 % / € 200.000) zijn een minimale didactische illustratie, geen letterlijke overname. De boekhoudkundige logica (marge × restvoorraad = te elimineren winst; volledige interne omzet/kostprijs uit de P&L) volgt rechtstreeks uit de wettekst.",
       "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_106", "sha256": null, "version": "rag-v1"}, {"id": "KB-WVV-2019__art_3_107", "sha256": null, "version": "rag-v1"}, {"id": "CBN-2022-11-vermogensmutatiemethode__sec_intra-groepsverkopen-upstream-downstream-sales", "sha256": null, "version": "rag-v1"}]},
       "formules": [
         {
@@ -276,8 +289,8 @@
             {"symbool": "brutomarge%", "betekenis": "Winstmarge van de verkoper op de interne verkoop = (verkoopprijs − kostprijs) / verkoopprijs", "eenheid": "%"}
           ],
           "invulling_voorbeeld": {
-            "waarden": "restvoorraad bij Brugse = 40; brutomarge Aurelia = 30 %",
-            "berekening": "40 × 30 % = 12",
+            "waarden": "restvoorraad bij Brugse = € 200.000; brutomarge Aurelia = 30 %",
+            "berekening": "€ 200.000 × 30 % = € 60.000",
             "eenheid_resultaat": "EUR"
           }
         },
@@ -291,8 +304,8 @@
             {"symbool": "belangenpercentage moeder", "betekenis": "Aandeel van moeder in kapitaal gemeenschappelijke dochter", "eenheid": "%"}
           ],
           "invulling_voorbeeld": {
-            "waarden": "volle eliminatie = 12; belang Cardinal in Filmstudio Florence = 50 %",
-            "berekening": "12 × 50 % = 6",
+            "waarden": "volle eliminatie = € 60.000; belang Cardinal in Filmstudio Florence = 50 %",
+            "berekening": "€ 60.000 × 50 % = € 30.000",
             "eenheid_resultaat": "EUR"
           }
         }

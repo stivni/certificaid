@@ -29,7 +29,6 @@ Elke moeder die — alleen of samen met een andere — één of meer dochters co
 _Bron: WVV art. 3:22 jo. art. 3:24 (consortium)_
 
 
-> [!info] Uitzondering op: [[vrijstelling-subconsolidatie]]
 ## In de praktijk
 
 <h3 id="vrijwillige-consolidatie">Vrijwillige consolidatie</h3>

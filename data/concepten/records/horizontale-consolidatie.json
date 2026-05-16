@@ -41,6 +41,13 @@
         "valkuilen[*].text (stagiair-toon)",
         "edges: contrasteert-met consortium → onderdeel-van consortium (compositioneel)"
       ]
+    },
+    "sessie_3_fixes_2026_05_16": {
+      "door": "sessie-3-records-fixes (handmatig)",
+      "op": "2026-05-16",
+      "velden_gewijzigd": [
+        "stappen[3].voorbeeld.substappen (fix C): balans-tabellen met €-bedragen (consortium Industria/Jachthaven, schaal € 4.000.000-niveau)"
+      ]
     }
   },
   "verplichting": {
@@ -123,9 +130,9 @@
       "voorbeeld": {
         "scenario": "Industria Antwerpen NV en Jachthaven Jezus-Eik NV vormen een consortium onder leiding van Pieter Vermeulen.",
         "substappen": [
-          {"nr": 1, "titel": "Balans Industria Antwerpen NV", "type": "balans", "data": "| Industria Antwerpen NV — Activa  |     |\n|----------------------------------|----:|\n| Vaste activa                     | 800 |\n| Vlottende activa                 | 600 |\n| **Totaal**                       | **1400** |"},
-          {"nr": 2, "titel": "Balans Jachthaven Jezus-Eik NV", "type": "balans", "data": "| Jachthaven Jezus-Eik NV — Activa |     |\n|----------------------------------|----:|\n| Vaste activa                     | 500 |\n| Vlottende activa                 | 400 |\n| **Totaal**                       | **900** |"},
-          {"nr": 3, "titel": "Horizontaal geconsolideerde balans (vóór intragroep-eliminaties)", "type": "balans", "data": "| Geconsolideerde balans — Activa            |     |\n|--------------------------------------------|----:|\n| Vaste activa (Industria + Jachthaven)      | 1300 |\n| Vlottende activa (Industria + Jachthaven)  | 1000 |\n| **Totaal**                                 | **2300** |"}
+          {"nr": 1, "titel": "Balans Industria Antwerpen NV", "type": "balans", "data": "| Industria Antwerpen NV — Activa  | Bedrag (€) |\n|----------------------------------|-----------:|\n| Vaste activa                     |  4.000.000 |\n| Vlottende activa                 |  3.000.000 |\n| **Totaal**                       | **7.000.000** |"},
+          {"nr": 2, "titel": "Balans Jachthaven Jezus-Eik NV", "type": "balans", "data": "| Jachthaven Jezus-Eik NV — Activa | Bedrag (€) |\n|----------------------------------|-----------:|\n| Vaste activa                     |  2.500.000 |\n| Vlottende activa                 |  2.000.000 |\n| **Totaal**                       | **4.500.000** |"},
+          {"nr": 3, "titel": "Horizontaal geconsolideerde balans (vóór intragroep-eliminaties)", "type": "balans", "data": "| Geconsolideerde balans — Activa            | Bedrag (€) |\n|--------------------------------------------|-----------:|\n| Vaste activa (Industria + Jachthaven)      |  6.500.000 |\n| Vlottende activa (Industria + Jachthaven)  |  5.000.000 |\n| **Totaal**                                 | **11.500.000** |"}
         ]
       },
       "actor": "consortium-leden gezamenlijk",

@@ -36,7 +36,7 @@ Je verhoogt het belang in een geassocieerde maar blijft onder de controlegrens �
 
 **Waarom?** Geen kwalificatieverandering = geen wisseling van techniek. De vermogensmutatie blijft de juiste methode; alleen het bedrag en het residu groeien mee.
 
-**Voorbeeld**: Antwerpse Investments NV bezit 25 % in Drukkerij Dendermonde BV (vermogensmutatie) en koopt 5 % bij → nu 30 %, nog steeds geassocieerd → 'Vennootschappen waarop vermogensmutatie is toegepast' wordt verhoogd met het pro-rata bedrag + eventueel consolidatieverschil op de bijkomende 5 %.
+**Voorbeeld**: Antwerpse Investments NV bezit 25 % in Drukkerij Dendermonde BV (vermogensmutatie) en koopt 5 % bij voor € 75.000 → nu 30 %, nog steeds geassocieerd → 'Vennootschappen waarop vermogensmutatie is toegepast' wordt verhoogd met het pro-rata bedrag + eventueel consolidatieverschil op de bijkomende 5 %.
 
 _Grondslag: CBN 2013/3_
 
@@ -46,7 +46,7 @@ Je verhoogt het belang en overschrijdt de controlegrens — de geassocieerde wor
 
 **Waarom?** Een wisseling van consolidatietechniek wijst op een fundamenteel andere economische werkelijkheid: van 'meepraten over beleid' naar 'beleid bepalen'. De jaarrekening moet die overgang weergeven.
 
-**Voorbeeld**: Antwerpse bezit 25 % in Drukkerij Dendermonde (vermogensmutatie). In 20X3 koopt Antwerpse 35 % bij → totaal 60 % → exclusieve controle → integrale consolidatie. Voor de bijkomende 35 % wordt een nieuw consolidatieverschil berekend op datum 20X3.
+**Voorbeeld**: Antwerpse bezit 25 % in Drukkerij Dendermonde (vermogensmutatie). In 20X3 koopt Antwerpse 35 % bij voor € 700.000 → totaal 60 % → exclusieve controle → integrale consolidatie. Voor de bijkomende 35 % wordt een nieuw consolidatieverschil berekend op datum 20X3.
 
 _Grondslag: CBN 2013/3_
 
@@ -56,7 +56,7 @@ Eerste verwerving van een belang dat invloed van betekenis triggert (typisch ≥
 
 **Waarom?** Bij het kantelmoment 'geen invloed → invloed van betekenis' begin je effectief met consolideren — er moet dus een eerste consolidatieverschil worden vastgesteld, op basis van de aanschaffingsdatum van de eerste tranche.
 
-**Voorbeeld**: Antwerpse Investments NV verwerft in 20X1 een eerste tranche van 25 % in Drukkerij Dendermonde BV voor 200; EV Drukkerij op aankoopdatum = 600 → pro-rata = 150; consolidatieverschil = 200 − 150 = 50, te boeken bij eerste consolidatie via vermogensmutatie.
+**Voorbeeld**: Antwerpse Investments NV verwerft in 20X1 een eerste tranche van 25 % in Drukkerij Dendermonde BV voor € 350.000; eigen vermogen (EV) Drukkerij op aankoopdatum = € 1.250.000 → pro-rata = € 312.500; consolidatieverschil = € 350.000 − € 312.500 = € 37.500, te boeken bij eerste consolidatie via vermogensmutatie.
 
 _Grondslag: CBN 2013/3_
 
@@ -66,10 +66,10 @@ _Grondslag: CBN 2013/3_
 <h3 id="kantelpunten-detecteren">Kantelpunten detecteren</h3>
 
 > [!tip]- Kantelpunten detecteren
-> Bij elke trap controleer je éérst of de kwalificatie verandert. Drie typische kantelpunten: 0 % → ≥ 20 % (geen invloed → geassocieerde), 20–50 % → > 50 % (geassocieerde → dochter), > 50 % → hoger % (controle behouden maar belang gewijzigd → enkel pro-rata-aanpassing). Bij elk kantelpunt schakelt mogelijk de consolidatietechniek. ⚖️
+> Bij elke trap controleer je éérst of de kwalificatie verandert. De drie typische kantelpunten staan gestructureerd in het top-level veld `kantelpunten[]` (van_situatie → naar_situatie + drempel + gevolg + grondslag). Bij elk kantelpunt schakelt mogelijk de consolidatietechniek. ⚖️
 >
 > > [!tip]- Herkennen op het examen
-> > Examen-zin 'Antwerpse koopt eerst 25 %, daarna 35 % bij': twee opeenvolgende kwalificaties — eerst vermogensmutatie (25 %), daarna integrale consolidatie (totaal 60 %). Het is geen één continue boekhoudkundige rekening, maar twee afzonderlijke regimes.
+> > Examen-zin 'Antwerpse Investments NV koopt eerst 25 %, daarna 35 % bij': twee opeenvolgende kwalificaties — eerst vermogensmutatie (25 %), daarna integrale consolidatie (totaal 60 %). Het is geen één continue boekhoudkundige rekening, maar twee afzonderlijke regimes.
 
 
 ## Valkuilen

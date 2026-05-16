@@ -42,6 +42,19 @@
         "valkuilen[*].text (stagiair-toon)",
         "edges: dubbel onderdeel-van integrale-consolidatie gesaneerd"
       ]
+    },
+    "sessie_3_fixes_2026_05_16": {
+      "door": "sessie-3-records-fixes (handmatig)",
+      "op": "2026-05-16",
+      "velden_gewijzigd": [
+        "voorbeeld_inline (fix C): 500/100 → € 2.000.000 / € 500.000 / € 400.000 / € 100.000; eigen vermogen (EV) eerste gebruik voluit (consistent met integrale-consolidatie scenario)",
+        "berekeningsmethode[0].stappen[3].hoe (fix C): bedragen €-formaat",
+        "berekeningsmethode[0].stappen[3].voorbeeld.substappen (fix C): tabel met €-bedragen",
+        "berekeningsmethode[0].stappen[4].hoe (fix C): €-formaat in herberekening",
+        "berekeningsmethode[0].concreet_voorbeeld.berekening (fix C): €-formaat",
+        "berekeningsmethode[0].formules[*].invulling_voorbeeld (fix C): €-formaat",
+        "valkuilen[].text (fix C): cast-voorbeeld met €-bedragen"
+      ]
     }
   },
   "definitie": {
@@ -62,7 +75,7 @@
       {"field": "text", "from": "Het deel van het eigen vermogen en van het resultaat van integraal geconsolideerde dochters dat kan worden toegerekend aan aandelen die worden gehouden door andere personen dan de moedervennootschap of de dochters in de consolidatiekring. Op de geconsolideerde balans verschijnen die als 'Belangen van derden' aan passiefzijde; in de geconsolideerde resultatenrekening als 'Aandeel van derden in het resultaat'. Dit fenomeen ontstaat uitsluitend bij integrale consolidatie van een dochter waar de moeder minder dan 100 % van het kapitaal aanhoudt.", "reason": "Stagiair-toon: korte zinnen; 'andere personen dan de moedervennootschap' → 'andere aandeelhouders dan de moeder' (regel 6)."}
     ]
   },
-  "voorbeeld_inline": "Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV; eigen vermogen Brugse op afsluitingsdatum = 500 (resultaat boekjaar = 100). 'Belangen van derden' = 20 % × 500 = 100 (passiefzijde balans). 'Aandeel van derden in het resultaat' = 20 % × 100 = 20.",
+  "voorbeeld_inline": "Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV; eigen vermogen (EV) Brugse op afsluitingsdatum = € 2.000.000 (resultaat boekjaar = € 500.000). 'Belangen van derden' = 20 % × € 2.000.000 = € 400.000 (passiefzijde balans). 'Aandeel van derden in het resultaat' = 20 % × € 500.000 = € 100.000.",
   "berekeningsmethode": [
     {
       "naam": "Aandeel van derden — balans en resultatenrekening",
@@ -118,11 +131,11 @@
           "output": [
             {"artefact": "Geconsolideerde balans", "veld": "Belangen van derden (passiefzijde)", "type": "nieuwe-balanspost"}
           ],
-          "hoe": "1. Neem het eigen vermogen van Brugse Brouwerij BV op afsluitingsdatum (kapitaal + reserves + overgedragen resultaat + resultaat boekjaar; bv. 500).\n2. Vermenigvuldig met het derden-percentage uit stap 2: 20 % × 500 = 100.\n3. Boek 100 aan passiefzijde van de geconsolideerde balans onder 'Belangen van derden'.\n",
+          "hoe": "1. Neem het eigen vermogen van Brugse Brouwerij BV op afsluitingsdatum (kapitaal + reserves + overgedragen resultaat + resultaat boekjaar; bv. € 2.000.000).\n2. Vermenigvuldig met het derden-percentage uit stap 2: 20 % × € 2.000.000 = € 400.000.\n3. Boek € 400.000 aan passiefzijde van de geconsolideerde balans onder 'Belangen van derden'.\n",
           "voorbeeld": {
             "scenario": "Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV; eigen vermogen Brugse op afsluitingsdatum = 500.",
             "substappen": [
-              {"nr": 1, "titel": "Berekening belangen van derden", "type": "berekening", "data": "Eigen vermogen Brugse Brouwerij BV (afsluit) = 500\nDerden-percentage = 100 % − 80 % = **20 %**\nBelangen van derden = 20 % × 500 = **100**"},
+              {"nr": 1, "titel": "Berekening belangen van derden", "type": "berekening", "data": "Eigen vermogen Brugse Brouwerij BV (afsluit) = € 2.000.000\nDerden-percentage = 100 % − 80 % = **20 %**\nBelangen van derden = 20 % × € 2.000.000 = **€ 400.000**"},
               {"nr": 2, "titel": "Geconsolideerde balans (passiefzijde, fragment)", "type": "balans", "data": "| Geconsolideerde passiva     |     |\n|-----------------------------|----:|\n| Eigen vermogen Aurelia (incl. 80 % Brugse) | ... |\n| **Belangen van derden**     | **100** |\n| Schulden                    | ... |"}
             ]
           },
@@ -165,7 +178,7 @@
           "output": [
             {"artefact": "Geconsolideerde balans", "veld": "Belangen van derden (incl. derden-deel herberekeningen)", "type": "nieuwe-balanspost"}
           ],
-          "hoe": "1. Identificeer de stille meerwaarden die bij eerste consolidatie zijn toegerekend (bv. terreinen van Brugse 50 ondergewaardeerd).\n2. Bereken het derden-deel van die herberekening: 20 % × 50 = 10.\n3. Voeg dit bedrag toe aan de post 'Belangen van derden' (stap 3): 100 + 10 = 110.\n4. Belangrijk: KB WVV art. 3:130, lid 4 vereist dat derden meedelen in de herberekeningen — niet alleen in het boekhoudkundige EV.\n",
+          "hoe": "1. Identificeer de stille meerwaarden die bij eerste consolidatie zijn toegerekend (bv. terreinen van Brugse € 250.000 ondergewaardeerd).\n2. Bereken het derden-deel van die herberekening: 20 % × € 250.000 = € 50.000.\n3. Voeg dit bedrag toe aan de post 'Belangen van derden' (stap 3): € 400.000 + € 50.000 = € 450.000.\n4. Belangrijk: KB WVV art. 3:130, lid 4 vereist dat derden meedelen in de herberekeningen — niet alleen in het boekhoudkundige EV.\n",
           "grondslag": "KB WVV art. 3:130, lid 4",
           "_corrected_from": {
             "veld": "stap.titel + wat + hoe + waarom + input/output + grondslag",
@@ -176,7 +189,7 @@
       ],
       "concreet_voorbeeld": {
         "scenario": "Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV (integrale consolidatie). Eigen vermogen van Brugse op afsluitingsdatum = 500 (incl. resultaat boekjaar 100). Resultaat boekjaar Brugse = 100.",
-        "berekening": "Belang% (Aurelia in Brugse) = 80 %. Derden-percentage = 20 %.\nBelangen van derden (balans, passief) = 20 % × 500 = 100.\nAandeel van derden in het resultaat (resultatenrekening) = 20 % × 100 = 20.\nDeel van het resultaat voor Aurelia (na aftrek derden) = 80 % × 100 = 80.",
+        "berekening": "Belang% (Aurelia in Brugse) = 80 %. Derden-percentage = 20 %.\nBelangen van derden (balans, passief) = 20 % × € 2.000.000 = € 400.000.\nAandeel van derden in het resultaat (resultatenrekening) = 20 % × € 500.000 = € 100.000.\nDeel van het resultaat voor Aurelia (na aftrek derden) = 80 % × € 500.000 = € 400.000.",
         "resultaat": "In de geconsolideerde balans: 'Belangen van derden' = 100 (passiefzijde). In de geconsolideerde resultatenrekening: 'Aandeel van derden in het resultaat' = 20. De resterende 80 zit in het geconsolideerd resultaat van de groep dat aan Aurelia toekomt."
       },
       "source": {"type": "kb", "short": "KB WVV art. 3:130, lid 4 + art. 3:137"},
@@ -197,8 +210,8 @@
             {"symbool": "eigen vermogen dochter op afsluitingsdatum", "betekenis": "Kapitaal + reserves + overgedragen resultaat + resultaat boekjaar van de dochter, einde boekjaar", "eenheid": "EUR"}
           ],
           "invulling_voorbeeld": {
-            "waarden": "belangenpercentage Aurelia = 80 %; EV Brugse op afsluitingsdatum = 500",
-            "berekening": "(1 − 80 %) × 500 = 20 % × 500 = 100",
+            "waarden": "belangenpercentage Aurelia = 80 %; EV Brugse op afsluitingsdatum = € 2.000.000",
+            "berekening": "(1 − 80 %) × € 2.000.000 = 20 % × € 2.000.000 = € 400.000",
             "eenheid_resultaat": "EUR"
           },
           "_corrected_from": {
@@ -215,8 +228,8 @@
             {"symbool": "resultaat dochter boekjaar", "betekenis": "Winst of verlies van de dochter in dit boekjaar", "eenheid": "EUR"}
           ],
           "invulling_voorbeeld": {
-            "waarden": "belangenpercentage Aurelia = 80 %; resultaat Brugse boekjaar = 100",
-            "berekening": "(1 − 80 %) × 100 = 20 % × 100 = 20",
+            "waarden": "belangenpercentage Aurelia = 80 %; resultaat Brugse boekjaar = € 500.000",
+            "berekening": "(1 − 80 %) × € 500.000 = 20 % × € 500.000 = € 100.000",
             "eenheid_resultaat": "EUR"
           }
         }
@@ -248,7 +261,7 @@
   "vergelijkingsparen": [],
   "valkuilen": [
     {
-      "text": "Het derden-aandeel bereken je op het eigen vermogen van de dochter ná herberekening van onder- of overgewaardeerde bezittingen en schulden (KB WVV art. 3:130, lid 4). De derden-correctie geldt dus ook voor stille meer- of minderwaarden die bij eerste consolidatie zijn vastgesteld — niet enkel voor het boekhoudkundige EV. Voorbeeld: bij Brugse Brouwerij BV werden terreinen 50 opgewaardeerd; dan komt 20 % × 50 = 10 erbij in 'Belangen van derden'.",
+      "text": "Het derden-aandeel bereken je op het eigen vermogen van de dochter ná herberekening van onder- of overgewaardeerde bezittingen en schulden (KB WVV art. 3:130, lid 4). De derden-correctie geldt dus ook voor stille meer- of minderwaarden die bij eerste consolidatie zijn vastgesteld — niet enkel voor het boekhoudkundige EV. Voorbeeld: bij Brugse Brouwerij BV werden terreinen € 250.000 opgewaardeerd; dan komt 20 % × € 250.000 = € 50.000 erbij in 'Belangen van derden'.",
       "confidence": "grounded",
       "source": {"type": "kb", "short": "KB WVV art. 3:130, lid 4"},
       "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_102", "sha256": null, "version": "rag-v1"}]},

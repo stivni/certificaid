@@ -44,6 +44,13 @@
         "valkuilen[*].text (cast-namen)",
         "voorbeeld_inline op record-niveau toegevoegd (voorbeeld-minimum regel-type)"
       ]
+    },
+    "sessie_3_fixes_2026_05_16": {
+      "door": "sessie-3-records-fixes (handmatig via Read+Edit, geen scripting)",
+      "op": "2026-05-16",
+      "velden_gewijzigd": [
+        "edges[uitzondering-op → vrijstelling-subconsolidatie] herzien naar 'contrasteert-met' (fix A: edge-omkering — canonieke uitzondering-op-edge staat op vrijstelling-subconsolidatie.json en op groep-van-beperkte-omvang.json)"
+      ]
     }
   },
   "main_rule": {
@@ -162,10 +169,10 @@
       "_provenance": {"inputs": [{"id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1"}]}
     },
     {
-      "type": "uitzondering-op",
+      "type": "contrasteert-met",
       "target": "vrijstelling-subconsolidatie",
-      "redenering": "Vrijstelling van subconsolidatie is een uitzondering op de hoofdregel: elke moeder consolideert. De vrijstelling vervalt zodra een groepslid genoteerd is.",
-      "_corrected_from": [{"field": "type", "from": "vergelijkingsparen → edges", "reason": "Schema 1.4 regel 9 + type-correctie: vrijstelling = uitzondering-op."}],
+      "redenering": "De vrijstelling van subconsolidatie ontheft een tussenmoeder van de consolidatieverplichting wanneer een hogere moeder al EU-breed consolideert. De edge 'uitzondering-op' staat op vrijstelling-subconsolidatie (correcte richting); hier markeren we alleen de verwante regel.",
+      "_corrected_from": [{"field": "type", "from": "uitzondering-op (foutieve richting: consolidatieverplichting → vrijstelling-subconsolidatie)", "reason": "Sessie-3 fix A (2026-05-16): edge-richting omgekeerd. De vrijstelling is de uitzondering op de hoofdregel, niet andersom. Type herzien naar 'contrasteert-met'; canonieke 'uitzondering-op' staat op vrijstelling-subconsolidatie.json."}],
       "_provenance": {"inputs": [{"id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
     },
     {

@@ -55,8 +55,8 @@ _Bron: KB WVV art. 3:127, a) jo. art. 3:129 — 3:130_
 
 ## Valkuilen
 
-> [!warning]- Het eigen vermogen op datum van aankoop is een momentopname die bevriest. Later…
-> ⚠️ Het eigen vermogen op datum van aankoop is een momentopname die bevriest. Latere wijzigingen in het EV van de dochter worden niet als nieuwe 'consolidatieverschillen' geboekt, maar lopen via de gewone consolidatietechniek (geconsolideerde reserves, resultaat van het boekjaar) of via de afschrijving van het positieve consolidatieverschil. ⚖️
+> [!warning]- Het eigen vermogen (EV) op datum van aankoop is een momentopname die bevriest. …
+> ⚠️ Het eigen vermogen (EV) op datum van aankoop is een momentopname die bevriest. Latere wijzigingen in het EV van de dochter worden niet als nieuwe 'consolidatieverschillen' geboekt, maar lopen via de gewone consolidatietechniek (geconsolideerde reserves, resultaat van het boekjaar) of via de afschrijving van het positieve consolidatieverschil. ⚖️
 >
 > _Bron: KB WVV art. 3:129 + art. 3:131_
 
