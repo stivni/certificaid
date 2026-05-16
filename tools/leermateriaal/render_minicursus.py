@@ -196,7 +196,11 @@ def _slugify_programmaonderdeel(programmaonderdeel_id: str, leerpad: dict) -> st
     woorden = kort.split()
     if len(woorden) > 6:
         kort = " ".join(woorden[:6])
-    return f"{programmaonderdeel_id}-{slugify(kort)}"
+    # Vervang punt door dash in de PO-code (bv. 1.4 → 1-4) — serve-handler
+    # treats dots in path-segments as file-extensions, wat 404 geeft op
+    # twee-niveau-dieper folder-URLs (Quartz/serve-handler-bug).
+    po_safe = programmaonderdeel_id.replace(".", "-")
+    return f"{po_safe}-{slugify(kort)}"
 
 
 def _programmaonderdeel_intro(programmaonderdeel_id: str) -> str:
