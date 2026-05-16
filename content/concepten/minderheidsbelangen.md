@@ -1,5 +1,5 @@
 ---
-title: Belangen van derden / Aandeel van derden in het resultaat (minderheidsbelangen)
+title: Belangen van derden (minderheidsbelangen)
 tags:
 - concept
 - fenomeen
@@ -18,7 +18,7 @@ schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/minderheidsbelangen.json
 gegenereerd_op: '2026-05-16'
 ---
-# Belangen van derden / Aandeel van derden in het resultaat (minderheidsbelangen) ⚖️
+# Belangen van derden (minderheidsbelangen) ⚖️
 
 > [!summary] Korte inhoud
 > Het deel van het eigen vermogen en van het resultaat van een integraal geconsolideerde dochter dat toebehoort aan andere aandeelhouders dan de moeder of de andere dochters in de consolidatiekring.

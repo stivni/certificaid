@@ -65,6 +65,49 @@ vennootschappen:
   - naam: "Logistics Lille SAS"
     rol_default: "buitenlandse-dochter-eu"
 
+  # ─── PO 1.1/1.2/1.3 (algemene boekhouding, jaarrekeningenrecht, analyse) ───
+  # Kleine ondernemingen voor klassieke boekhoudvoorbeelden — geen groep-context.
+
+  # Letter M: handelsvennootschap (gewone bedrijfsuitoefening)
+  - naam: "Meubelzaak Mertens BV"
+    rol_default: "kleine-handels-BV"
+
+  # Letter N: productie / industrie (voorraden, afschrijvingen)
+  - naam: "Naaiatelier Ninove BV"
+    rol_default: "kleine-productie-BV"
+
+  # Letter O: oprichting / kapitaaluitbreiding scenario's
+  - naam: "Oprichtingen Oostende BV"
+    rol_default: "BV-bij-oprichting"
+
+  # Letter P: vrij beroep / dienst (zachte balans)
+  - naam: "Praktijk Persenaire (eenmanszaak)"
+    rol_default: "eenmanszaak-vrij-beroep"
+
+  # Letter Q: vereniging zonder winstoogmerk
+  - naam: "VZW Quelle de Vie"
+    rol_default: "VZW-met-economische-activiteit"
+
+  # Letter R: grootbedrijf (jaarrekening, analyse-ratio's)
+  - naam: "Rotex Roeselare NV"
+    rol_default: "grote-NV-volledig-schema"
+
+  # Letter S: vennootschap met financiële vaste activa / effectenportefeuille
+  - naam: "Solaris Sint-Truiden BV"
+    rol_default: "BV-met-effectenportefeuille"
+
+  # Letter T: vennootschap met leasing-contracten
+  - naam: "Transport Tongeren BV"
+    rol_default: "BV-met-leasing-vloot"
+
+  # Letter U: vennootschap met obligatielening
+  - naam: "Uitgeverij Ukkel NV"
+    rol_default: "NV-met-obligatielening"
+
+  # Letter V: vennootschap in vereffening
+  - naam: "Verffabriek Veurne BV"
+    rol_default: "BV-in-vereffening"
+
 # Scenario-archetypen: rol-combinaties die in voorbeelden vaak voorkomen.
 # Bevat GEEN bedragen of percentages (die kiest de extractor zelf, plausibel
 # en in € + duizendtal-notatie volgens formatting-conventie hieronder).
@@ -108,6 +151,49 @@ scenarios:
     omschrijving: "Dochter sluit boekjaar af meer dan 3 maanden vóór moeder; demo voor 3-maanden-regel."
     moeder: "Aurelia Holding NV"
     dochter_afwijkend: "Holsters Horst BV"
+
+  # ─── PO 1.1/1.2/1.3 scenarios (boekhouding-context, geen groep) ───
+
+  boekhouding_handels_BV:
+    omschrijving: "Klassieke kleine handels-BV: aankopen, verkopen, voorraad, BTW. Demo voor PO 1.1 transacties + jaarrekening."
+    vennootschap: "Meubelzaak Mertens BV"
+    rol: "kleine-handels-BV met handelsvorderingen, voorraad, BTW"
+
+  boekhouding_productie_BV:
+    omschrijving: "Productie-BV met afschrijvingen, voorraden in bewerking, voorzieningen. Demo voor PO 1.1 II.B/II.E/II.I."
+    vennootschap: "Naaiatelier Ninove BV"
+
+  oprichting_kapitaaluitbreiding:
+    omschrijving: "BV bij oprichting; oprichtingskosten + kapitaalstortingen. Demo voor PO 1.1 II.A."
+    vennootschap: "Oprichtingen Oostende BV"
+
+  eenmanszaak_eenvoudige_boekhouding:
+    omschrijving: "Eenmanszaak vrij beroep (vereenvoudigde boekhouding). Demo voor PO 1.1 schema-keuzen."
+    vennootschap: "Praktijk Persenaire (eenmanszaak)"
+
+  vzw_met_economische_activiteit:
+    omschrijving: "VZW met beperkte commerciële activiteit. Demo voor PO 1.2 toepassingsgebied + grootte-criteria."
+    vennootschap: "VZW Quelle de Vie"
+
+  grote_NV_volledig_schema:
+    omschrijving: "Grote NV met volledig schema, jaarverslag verplicht, analyse-ratio's relevant. Demo voor PO 1.1 II.S + PO 1.2 + PO 1.3."
+    vennootschap: "Rotex Roeselare NV"
+
+  effectenportefeuille:
+    omschrijving: "Vennootschap met effectenportefeuille + financiële vaste activa. Demo voor PO 1.1 II.C/II.G + PO 1.3 ratio's."
+    vennootschap: "Solaris Sint-Truiden BV"
+
+  leasing_vloot:
+    omschrijving: "Vennootschap met operationele én financiële leasing. Demo voor PO 1.1 II.W (leasing)."
+    vennootschap: "Transport Tongeren BV"
+
+  obligatielening:
+    omschrijving: "NV met uitgegeven obligatielening; schulden op meer dan een jaar + intrest. Demo voor PO 1.1 II.J/II.V."
+    vennootschap: "Uitgeverij Ukkel NV"
+
+  vereffening_scenario:
+    omschrijving: "BV in vereffening; resultaatverwerking, eindafrekening. Demo voor PO 1.1 II.T."
+    vennootschap: "Verffabriek Veurne BV"
 
 # Formatting-conventie voor bedragen in voorbeelden
 formatting:
