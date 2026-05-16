@@ -29,8 +29,10 @@ resources/raw/normen/
 # PO-build voortgang (lokaal, niet in repo)
 .po-voortgang-*.md
 
-# RAG data (gegenereerd, herbouwbaar)
-data/rag/main/
+# RAG data
+# data/rag/main/ wordt via Git LFS bijgehouden (chroma.sqlite3 + HNSW-bins)
+# zodat de Streamlit-deploy de index niet bij build-time hoeft te bouwen.
+# Andere RAG-scopes blijven lokaal herbouwbaar.
 data/rag/1.1/
 data/rag/4.0/
 
