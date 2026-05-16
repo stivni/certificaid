@@ -11,7 +11,7 @@ Alle concept-records, gegroepeerd per programmaonderdeel. Een concept kan in mee
 
 **Totaal**: 148 concept-records over 4 programmaonderdelen.
 
-## PO 1.1 — Algemene boekhouding (42 records)
+## 1.1 Algemene boekhouding (42 records)
 
 <div class="two-column-list">
 
@@ -60,7 +60,7 @@ Alle concept-records, gegroepeerd per programmaonderdeel. Een concept kan in mee
 
 </div>
 
-## PO 1.2 — Boekhoudrecht en jaarrekeningenrecht (64 records)
+## 1.2 Boekhoudrecht en jaarrekeningenrecht (64 records)
 
 <div class="two-column-list">
 
@@ -131,7 +131,7 @@ Alle concept-records, gegroepeerd per programmaonderdeel. Een concept kan in mee
 
 </div>
 
-## PO 1.3 — Analyse en kritische beoordeling van de jaarrekening (33 records)
+## 1.3 Analyse en kritische beoordeling van de jaarrekening (33 records)
 
 <div class="two-column-list">
 
@@ -171,7 +171,7 @@ Alle concept-records, gegroepeerd per programmaonderdeel. Een concept kan in mee
 
 </div>
 
-## PO 1.4 — Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening (32 records)
+## 1.4 Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening (32 records)
 
 <div class="two-column-list">
 

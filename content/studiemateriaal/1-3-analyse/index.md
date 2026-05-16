@@ -1,9 +1,9 @@
 ---
-title: "PO 1 — "
+title: "1.3 Analyse en kritische beoordeling van de jaarrekening"
 gegenereerd_op: '2026-05-16'
 ---
 
-# PO 1 — 
+# 1.3 Analyse en kritische beoordeling van de jaarrekening
 
 [[studiemateriaal/1-3-analyse/minicursus|→ Lees de minicursus]]
 

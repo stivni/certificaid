@@ -11,7 +11,7 @@ Werkstap-procedures die je als stagiair moet kunnen uitvoeren, gegroepeerd per p
 
 **Totaal**: 43 competentie-yamls over 4 programmaonderdelen.
 
-## PO 1.1 — Algemene boekhouding (14 competenties)
+## 1.1 Algemene boekhouding (14 competenties)
 
 <div class="two-column-list">
 
@@ -32,7 +32,7 @@ Werkstap-procedures die je als stagiair moet kunnen uitvoeren, gegroepeerd per p
 
 </div>
 
-## PO 1.2 — Boekhoudrecht en jaarrekeningenrecht (9 competenties)
+## 1.2 Boekhoudrecht en jaarrekeningenrecht (9 competenties)
 
 <div class="two-column-list">
 
@@ -48,7 +48,7 @@ Werkstap-procedures die je als stagiair moet kunnen uitvoeren, gegroepeerd per p
 
 </div>
 
-## PO 1.3 — Analyse en kritische beoordeling van de jaarrekening (11 competenties)
+## 1.3 Analyse en kritische beoordeling van de jaarrekening (11 competenties)
 
 <div class="two-column-list">
 
@@ -66,7 +66,7 @@ Werkstap-procedures die je als stagiair moet kunnen uitvoeren, gegroepeerd per p
 
 </div>
 
-## PO 1.4 — Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening (9 competenties)
+## 1.4 Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening (9 competenties)
 
 <div class="two-column-list">
 

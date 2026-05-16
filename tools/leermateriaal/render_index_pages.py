@@ -81,16 +81,27 @@ def _competenties_per_po() -> dict[str, list[dict]]:
 
 
 def _studiemateriaal_folders() -> list[tuple[str, str, Path]]:
-    """Lijst van (po_code, slug, index_path) voor elke studiemateriaal-map."""
+    """Lijst van (po_code, slug, index_path) voor elke studiemateriaal-map.
+
+    Slug-conventie: '1-4-geconsolideerde-jaarrekening' (PO 1.4 met dashes i.p.v.
+    dots — serve-handler-compat). PO-code wordt teruggevormd door de leidende
+    numerieke segmenten met '.' samen te voegen ('1-4' → '1.4').
+    """
     folders = []
     if not STUDIEMATERIAAL_DIR.exists():
         return folders
     for f in sorted(STUDIEMATERIAAL_DIR.iterdir()):
         if not f.is_dir():
             continue
-        # slug ziet eruit als "1.4-geconsolideerde-jaarrekening"
         slug = f.name
-        po_code = slug.split("-", 1)[0]
+        tokens = slug.split("-")
+        leading_num: list[str] = []
+        for t in tokens:
+            if t.isdigit():
+                leading_num.append(t)
+            else:
+                break
+        po_code = ".".join(leading_num) if leading_num else slug
         index_path = f / "index.md"
         folders.append((po_code, slug, index_path))
     return folders
@@ -112,18 +123,18 @@ def render_site_landing(po_titels: dict[str, str], studiemateriaal: list) -> str
     out = [_frontmatter("Certificaid")]
     out.append("# Certificaid\n")
     out.append("Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant.\n")
-    out.append("## Studiemateriaal per programmaonderdeel\n")
+    out.append("## Studiemateriaal\n")
     out.append("<div class=\"two-column-list\">\n")
     aanwezige_pos = sorted({po for po, _, _ in studiemateriaal})
     for po in aanwezige_pos:
         titel = po_titels.get(po, "")
         slug = next((s for p, s, _ in studiemateriaal if p == po), "")
         if slug:
-            out.append(f"- [[studiemateriaal/{slug}|PO {po} — {titel}]]")
+            out.append(f"- [[studiemateriaal/{slug}|{po} {titel}]]")
     out.append("\n</div>\n")
     out.append("## Catalogi\n")
-    out.append("- [[concepten/index|Concept-index]] — alle begrippen, fenomenen, methodes, regels en synthese-records")
-    out.append("- [[competenties/index|Competentie-index]] — werkstap-procedures per programmaonderdeel\n")
+    out.append("- [[concepten/index|Alle concepten]]")
+    out.append("- [[competenties/index|Alle competenties]]\n")
     return "\n".join(out)
 
 
@@ -131,19 +142,23 @@ def render_studiemateriaal_index(po_titels: dict[str, str], studiemateriaal: lis
     """`content/studiemateriaal/index.md`."""
     out = [_frontmatter("Studiemateriaal")]
     out.append("# Studiemateriaal\n")
-    out.append("Minicursussen per programmaonderdeel — elk een leesbaar overzicht met links naar concept- en competentie-fiches.\n")
     out.append("<div class=\"two-column-list\">\n")
     for po, slug, _ in sorted(studiemateriaal):
         titel = po_titels.get(po, "")
-        out.append(f"- [[studiemateriaal/{slug}/minicursus|PO {po} — {titel}]]")
+        out.append(f"- [[studiemateriaal/{slug}/minicursus|{po} {titel}]]")
     out.append("\n</div>\n")
     return "\n".join(out)
 
 
 def render_po_landing(po: str, slug: str, titel: str) -> str:
-    """`content/studiemateriaal/<slug>/index.md` — landingspagina per PO."""
-    out = [_frontmatter(f"PO {po} — {titel}")]
-    out.append(f"# PO {po} — {titel}\n")
+    """`content/studiemateriaal/<slug>/index.md` — landingspagina per PO.
+
+    Frontmatter-titel is kort (`<po> <titel>`) zodat de Quartz-explorer-
+    sidebar dit als folder-label toont (niet "PO 1.1 — lange titel").
+    """
+    kort = f"{po} {titel}"
+    out = [_frontmatter(kort)]
+    out.append(f"# {kort}\n")
     out.append(f"[[studiemateriaal/{slug}/minicursus|→ Lees de minicursus]]\n")
     out.append("## Catalogi\n")
     out.append("- [[concepten/index|Alle concepten]]")
@@ -171,7 +186,7 @@ def render_concepten_index(records_per_po: dict[str, list[dict]], po_titels: dic
     for po in sorted(records_per_po.keys()):
         titel = po_titels.get(po, "")
         records = sorted(records_per_po[po], key=lambda r: r.get("naam", ""))
-        out.append(f"## PO {po} — {titel} ({len(records)} records)\n")
+        out.append(f"## {po} {titel} ({len(records)} records)\n")
         out.append("<div class=\"two-column-list\">\n")
         for r in records:
             out.append(f"- [[{r.get('id', '')}|{r.get('naam', r.get('id', ''))}]] · `{r.get('node_type', '?')}`")
@@ -198,7 +213,7 @@ def render_competenties_index(competenties_per_po: dict[str, list[dict]], po_tit
     for po in sorted(competenties_per_po.keys()):
         titel = po_titels.get(po, "")
         comps = sorted(competenties_per_po[po], key=lambda c: c.get("titel", ""))
-        out.append(f"## PO {po} — {titel} ({len(comps)} competenties)\n")
+        out.append(f"## {po} {titel} ({len(comps)} competenties)\n")
         out.append("<div class=\"two-column-list\">\n")
         for c in comps:
             badge = ""

@@ -7,15 +7,18 @@ gegenereerd_op: '2026-05-16'
 
 Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant.
 
-## Studiemateriaal per programmaonderdeel
+## Studiemateriaal
 
 <div class="two-column-list">
 
-- [[studiemateriaal/1-1-algemene-boekhouding|PO 1 — ]]
+- [[studiemateriaal/1-1-algemene-boekhouding|1.1 Algemene boekhouding]]
+- [[studiemateriaal/1-2-boekhoudrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]
+- [[studiemateriaal/1-3-analyse|1.3 Analyse en kritische beoordeling van de jaarrekening]]
+- [[studiemateriaal/1-4-geconsolideerde-jaarrekening|1.4 Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening]]
 
 </div>
 
 ## Catalogi
 
-- [[concepten/index|Concept-index]] — alle begrippen, fenomenen, methodes, regels en synthese-records
-- [[competenties/index|Competentie-index]] — werkstap-procedures per programmaonderdeel
+- [[concepten/index|Alle concepten]]
+- [[competenties/index|Alle competenties]]
