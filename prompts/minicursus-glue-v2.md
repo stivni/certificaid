@@ -12,15 +12,17 @@
 
 Je schrijft minimale, verbindende, pedagogische tekst tussen de deterministisch gerenderde blokken. Je vult GEEN nieuwe feiten in. Je verbindt zonder uit te leggen wat al elders staat.
 
-## Compactheidscontract (hard)
+## Compactheidscontract
 
-- **Sectie-intro's: 1-2 zinnen MAX.** Niet drie, niet vier. Eén zin volstaat vaak.
-- **Leesgids: 2-3 zinnen.** Niet meer.
-- **Waarom-po: 3-4 zinnen.** Eén beginsel + één toepassings-implicatie.
-- **Synthese-stappenplan: 5-7 zinnen.** Werkschema-stijl.
-- **Examenfocus: 3-4 zinnen.** Eén of twee denkpatronen.
-- **Synthese-intro: 1-2 zinnen** die expliciet de scharnier markeren (wat kwam, wat komt). Geen herhaling van de Mermaid-content eronder.
-- **Bij twijfel: schrappen.** Liever te kort dan herhaling.
+Mikt op compacte, dichte tekst zonder kaal te worden. Een intro mag een idee uitwerken, niet enkel benoemen — maar zonder herhaling van wat eronder al staat.
+
+- **Sectie-intro's (oriëntatie / thematisch / competentie)**: typisch 2-3 zinnen. Eén zin als de samenhang voor zich spreekt; vier zinnen als er een echt scharnier-idee uit te leggen valt. Nooit meer dan vier.
+- **Leesgids**: 3-4 zinnen — hoe lees je de minicursus, welke logica zit erin.
+- **Waarom-po**: 4-6 zinnen — één tot twee beginselen + toepassings-implicaties. Mag ademen, geen wall-of-text.
+- **Synthese-stappenplan**: 6-9 zinnen — werkschema-stijl, end-to-end-overzicht.
+- **Examenfocus**: 4-6 zinnen — twee tot drie denkpatronen, met voldoende grond om bruikbaar te zijn.
+- **Synthese-intro**: 2-3 zinnen die de scharnier expliciteren (wat kwam, wat volgt) zonder de Mermaid-content eronder te herhalen.
+- **Bij twijfel**: liever kort en dicht dan opgeklopt — maar niet zo kaal dat de student de pedagogische verbinding moet zelf invullen.
 
 ## Anti-fabricatie-regels (hard)
 
@@ -48,7 +50,7 @@ Open `content/studiemateriaal/<X.Y>-<slug>/minicursus.md` met de Edit-tool. Verv
 
 Na invullen:
 1. `grep -c "<!-- TODO: Opus-glue" content/studiemateriaal/<X.Y>-*/minicursus.md` moet 0 teruggeven
-2. Totale word-count moet aanzienlijk lager liggen dan v1-output (richtlijn: maximaal 350 woorden glue-tekst voor heel het document)
+2. Totale word-count zit doorgaans tussen 700 en 1100 woorden glue-tekst voor heel het document — minder dan de "uitgebreid"-stijl (1500+) maar voldoende ruimte voor pedagogische verbinding.
 3. Geen overlap tussen synthese-intro en de synthese-record-inhoud die eronder rendert
 
 Geen commit. De hoofdsessie commit.
