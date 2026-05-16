@@ -1,7 +1,33 @@
 {% for methode in berekeningsmethode %}
 ### {{ methode.naam }}
 
-{% if methode.formule %}
+{% if methode.formules %}
+{% for formule in methode.formules %}
+**{{ formule.naam }}** {% if formule.afhankelijk_van %}(volgt op: {{ formule.afhankelijk_van | join(', ') }}){% endif %}
+
+```
+{{ formule.wiskunde | trim }}
+```
+
+{% if formule.variabelen %}
+| Symbool | Betekenis | Eenheid |
+|---|---|---|
+{% for v in formule.variabelen %}| `{{ v.symbool }}` | {{ v.betekenis }} | {{ v.eenheid | default('—') }} |
+{% endfor %}
+
+{% endif %}
+{% if formule.invulling_voorbeeld %}
+**Voorbeeld-invulling**: {{ formule.invulling_voorbeeld.waarden }}
+
+```
+{{ formule.invulling_voorbeeld.berekening }}
+```
+
+{% if formule.invulling_voorbeeld.eenheid_resultaat %}_Resultaat in {{ formule.invulling_voorbeeld.eenheid_resultaat }}_{% endif %}
+
+{% endif %}
+{% endfor %}
+{% elif methode.formule %}
 **Formule**: `{{ methode.formule }}`
 
 {% endif %}
@@ -10,12 +36,8 @@
 
 {% endif %}
 {% if methode.stappen %}
-**Stappen**:
-
-{% for stap in methode.stappen %}
-{{ loop.index }}. {% if stap is mapping %}{{ stap.text or stap.titel or stap.omschrijving }}{% if stap.actor %} _(actor: {{ stap.actor }})_{% endif %}{% else %}{{ stap }}{% endif %}
-
-{% endfor %}
+{% set stappen = methode.stappen %}
+{% include 'partials/stap.md.j2' ignore missing %}
 {% endif %}
 {% if methode.concreet_voorbeeld %}
 **Voorbeeld**: {{ methode.concreet_voorbeeld.scenario }}

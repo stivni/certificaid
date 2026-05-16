@@ -14,9 +14,9 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/geconsolideerd-jaarverslag.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Geconsolideerd jaarverslag 🤖
 
@@ -25,6 +25,10 @@ gegenereerd_op: '2026-05-15'
 > _Bron: WVV art. 3:32 (jaarverslag); art. 3:35 (gecondenseerd voor consolidatie)_
 
 
+> [!summary] Korte definitie
+> Het door het bestuursorgaan opgestelde toelichtende verslag dat samen met de geconsolideerde jaarrekening wordt opgemaakt, gecontroleerd en bekendgemaakt door elke consolidatieplichtige moedervennootschap (of, voor een consortium, gezamenlijk door de leden).
+
+> [!info] Behoort tot: [[geconsolideerde-jaarrekening]]
 ## In de praktijk
 
 ### Samen met de jaarrekening {id="samen-met-de-jaarrekening"}
@@ -50,15 +54,12 @@ Wanneer een vennootschap deel uitmaakt van een groep van beperkte omvang, is zij
 **Herkenningspunt**: Groep van beperkte omvang → één vrijstelling die jaarrekening én jaarverslag dekt.
 
 
-## Vergelijkingsparen
-
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[geconsolideerde-jaarrekening]] | De jaarrekening is het cijfermatige product (balans, resultatenrekening, toelichting). Het jaarverslag is het narratieve, toelichtende stuk. Beide moeten samen worden opgesteld, gecontroleerd en bekendgemaakt — maar verschillen in vorm en inhoud. | — |
-
 ## Valkuilen
 
 - ⚠️ De vrijstelling van de verplichting om een geconsolideerde jaarrekening op te stellen (groep van beperkte omvang of subconsolidatie) omvat ook de vrijstelling van het geconsolideerd jaarverslag. Beide vallen samen. 🤖
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

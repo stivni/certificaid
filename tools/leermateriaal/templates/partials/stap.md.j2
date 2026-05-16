@@ -1,23 +1,64 @@
 ### {{ stap.nr }}. {{ stap.titel }}
 
-{% if stap.input %}
-📥 **Input**: {{ stap.input }}
-{% endif %}
-{% if stap.output %}
-📤 **Output**: {{ stap.output }}
+{% if stap.wat %}
+{{ stap.wat }}
+
 {% endif %}
 {% if stap.waarom %}
-**Waarom**: {{ stap.waarom }}
+**Waarom?** {{ stap.waarom }}
+
+{% endif %}
+{% if stap.input %}
+**📥 Input**:
+{% for i in stap.input %}{% if i is mapping %}
+- {{ i.artefact }} → **{{ i.veld }}** _({{ i.type | default('—') }})_
+{% else %}
+- {{ i }}
+{% endif %}{% endfor %}
+
+{% endif %}
+{% if stap.output %}
+**📤 Output**:
+{% for o in stap.output %}{% if o is mapping %}
+- {{ o.artefact }} → **{{ o.veld }}** _({{ o.type | default('—') }})_
+{% else %}
+- {{ o }}
+{% endif %}{% endfor %}
+
+{% endif %}
+{% if stap.hoe %}
+**🛠️ Hoe**:
+
+{{ stap.hoe }}
+
+{% endif %}
+{% if stap.voorbeeld %}
+{% if stap.voorbeeld.scenario %}
+**Voorbeeld**: {{ stap.voorbeeld.scenario }}
+
+{% endif %}
+{% if stap.voorbeeld.substappen %}
+{% for sub in stap.voorbeeld.substappen %}
+**Substap {{ sub.nr }} — {{ sub.titel }}** {% if sub.type == 'balans' %}📊{% elif sub.type == 'berekening' %}🧮{% elif sub.type == 'boekingsregel' %}📝{% elif sub.type == 'opmerking' %}💬{% elif sub.type == 'flowchart' %}🌊{% endif %}
+
+{{ sub.data }}
+
+{% endfor %}
+{% endif %}
 {% endif %}
 {% if stap.grondslag %}
+{% if stap.grondslag is mapping %}
 **Grondslag**: {% if stap.grondslag.ref %}{{ stap.grondslag.ref }}{% elif stap.grondslag.type == 'praktijk' %}🤖 Beroepspraktijk — {{ stap.grondslag.motivering }}{% else %}{{ stap.grondslag.type }}{% endif %}
+{% else %}
+**Grondslag**: {{ stap.grondslag }}
+{% endif %}
 
 {% endif %}
 {% if stap.valkuilen %}
 {% for valkuil in stap.valkuilen %}
-> [!warning] {{ valkuil.correctie }}
+> [!warning] {{ valkuil.advies | default(valkuil.correctie) }}
 >
-> _Vaak fout gedaan_: {{ valkuil.foute_aanname }}{% if valkuil.grondslag %}{{ "\n>\n> _Grondslag_: " }}{{ valkuil.grondslag }}{% endif %}
+> _Vaak fout gedaan_: {{ valkuil.vaak_fout | default(valkuil.foute_aanname) }}{% if valkuil.grondslag %}{{ "\n>\n> _Grondslag_: " }}{{ valkuil.grondslag }}{% endif %}
 
 {% endfor %}
 {% endif %}

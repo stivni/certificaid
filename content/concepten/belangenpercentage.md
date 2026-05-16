@@ -14,9 +14,9 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/belangenpercentage.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Belangenpercentage 🤖
 
@@ -25,26 +25,30 @@ gegenereerd_op: '2026-05-15'
 > _Bron: KB WVV art. 3:137 (toepassing aandeel van derden)_
 
 
+> [!summary] Korte definitie
+> Het economische eigendomsaandeel dat een moedervennootschap (direct en indirect, naar rato vermenigvuldigd langs elke ketenschakel) in een dochter- of geassocieerde onderneming aanhoudt.
+
+> [!info] Behoort tot: [[minderheidsbelangen]]
 ## Berekening
 
 ### Belangenpercentage in een verticale keten
 
-**Formule**: `belang% (M in B) = belang% (M in A) × belang% (A in B) × … (vermenigvuldiging over alle schakels)`
+**Belangenpercentage in een verticale keten** 
+```
+belang% (M in B) = belang% (M in A) × belang% (A in B) × … (vermenigvuldiging over alle schakels)
+```
 
 *Een eigendomsbelang vloeit niet onverdund door schakels; elk niveau verdeelt een evenredig stuk eigendom over derden. Anders dan voor controle wordt het belangenpercentage dus wél vermenigvuldigd.*
 
-**Stappen**:
+### . 
 
-1. Identificeer alle vennootschappen in de keten tussen M en de uiteindelijke dochter.
-2. Bepaal voor elke schakel het directe belangenpercentage in de volgende vennootschap.
-3. Vermenigvuldig de percentages om het effectieve belangenpercentage van M in de onderste dochter te bekomen.
-**Voorbeeld**: M bezit 80 % van A; A bezit 60 % van B (beide via kapitaal en stemrechten, geen preferente regelingen).
+**Voorbeeld**: Aurelia Holding NV bezit 80 % van A; A bezit 60 % van B (beide via kapitaal en stemrechten, geen preferente regelingen).
 
 ```
 belang% (M in B) = 0,80 × 0,60 = 0,48 = 48 %
 ```
 
-Resultaat: M heeft een economisch belang van 48 % in B. Het aandeel van derden in B = 100 % − 48 % = 52 %. Indien B een resultaat van 100 heeft, bedraagt het aandeel van derden in het resultaat 52.
+Resultaat: Aurelia Holding NV heeft een economisch belang van 48 % in B. Het aandeel van derden in B = 100 % − 48 % = 52 %. Indien B een resultaat van 100 heeft, bedraagt het aandeel van derden in het resultaat 52.
 
 ## In de praktijk
 
@@ -59,16 +63,22 @@ Belangenpercentages vermenigvuldigen zich langs een keten. In M → 80 % A → 6
 Bij integrale consolidatie wordt 100 % van de activa en passiva van de dochter opgenomen. Het deel dat niet aan de moeder toebehoort (1 − belangenpercentage) wordt afgezonderd als 'belangen van derden' (balans) en 'aandeel van derden in het resultaat' (resultatenrekening). ⚖️
 
 
-## Vergelijkingsparen
+<details>
+<summary><strong>Niet verwarren met</strong> (1 vergelijkingen)</summary>
 
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[controlepercentage]] | Belang = kapitaal/winstrecht, wordt vermenigvuldigd over schakels. Controle = stemrechten/zeggenschap, wordt niet vermenigvuldigd zolang elke schakel exclusief gecontroleerd wordt. | Examen: vraag eerst 'wat moet ik berekenen?' — winstaandeel/derden → belang; consolidatieverplichting/methode → controle. |
-| [[minderheidsbelangen]] | Minderheidsbelangen (synoniem: 'belangen van derden') zijn het complement van het belangenpercentage van de moeder: 1 − belang% van M in dochter D. Belangenpercentage zelf is dus het deel van M; minderheidsbelang is het deel buiten de groep. | — |
+- **vs [[controlepercentage]]** — Belang = kapitaal/winstrecht, wordt vermenigvuldigd over schakels. Controle = stemrechten/zeggenschap, wordt niet vermenigvuldigd zolang elke schakel exclusief gecontroleerd wordt.
+  - _Trigger_: Examen: vraag eerst 'wat moet ik berekenen?' — winstaandeel/derden → belang; consolidatieverplichting/methode → controle.
+
+</details>
+
 
 ## Valkuilen
 
 - ⚠️ Belangenpercentage en controlepercentage worden vaak verward. Een opgave die zegt 'M bezit 60 %' kan twee dingen betekenen — 60 % van de stemrechten (controle) of 60 % van het kapitaal (belang); bij gewone aandelen vallen die samen, bij preferente niet. 🤖
+
+## Zie ook
+
+- **Vereist kennis van**: [[controle]]
 
 ## Bronnen
 

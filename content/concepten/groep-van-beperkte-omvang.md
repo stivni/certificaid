@@ -13,9 +13,9 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/groep-van-beperkte-omvang.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Groep van beperkte omvang ⚖️
 
@@ -24,6 +24,10 @@ gegenereerd_op: '2026-05-15'
 > _Bron: WVV art. 1:26, § 1_
 
 
+> [!summary] Korte definitie
+> Een groep die op geconsolideerde of geaggregeerde basis niet meer dan één van de criteria van WVV art.
+
+> [!info] Uitzondering op: [[consolidatieverplichting]]
 ## In de praktijk
 
 ### Twee berekeningsmethoden {id="twee-berekeningsmethoden"}
@@ -35,17 +39,13 @@ Methode 1: geconsolideerde basis (KB WVV-consolidatieregels toepassen) — verei
 Bij een consortium wordt de groottebepaling op het niveau van de leden samen uitgevoerd. De centrale leider die geen vennootschap is (bv. natuurlijke persoon, private stichting) wordt niet meegeteld. ⚖️
 
 
-## Vergelijkingsparen
-
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[groottecriteria-consolidatie]] | Twee verschillende fenomenen die op dezelfde wettelijke basis (WVV art. 1:26, § 1) zijn gegrond maar verschillende rol spelen: (a) 'groep van beperkte omvang' is de juridische kwalificatie (statuut) die als zij wordt vastgesteld een vrijstelling triggert van de verplichting om een geconsolideerde jaarrekening en een jaarverslag op te stellen (CBN 2022/11, randnr. 'Toepassingsgebied'); (b) 'groottecriteria-consolidatie' is de meet-set en bijbehorende rekenmethoden (omzet, balanstotaal, jaargemiddelde personeel; geconsolideerde basis vs. geaggregeerde basis +20 %) waaraan de kwalificatie wordt afgemeten (CBN 2022/03, randnr. 'Vereenvoudigde methode'). De groottecriteria-set is ook nodig in andere contexten dan vrijstelling van consolidatie (bv. kwalificatie kleine/grote vennootschap onder WVV art. 1:24); de kwalificatie 'groep van beperkte omvang' is daarentegen één specifieke uitkomst van een groottetoets, met als enig gevolg de consolidatie-vrijstelling. Het zijn dus geen synoniemen: examenrelevant onderscheid is 'wat is de uitkomst van de toets?' (kwalificatie) versus 'wat zijn de drempels en de berekeningswijze?' (criteria-set). | — |
-| [[consolidatieverplichting]] | De consolidatieverplichting is de regel; de kwalificatie als 'groep van beperkte omvang' triggert de uitzondering (vrijstelling). De vrijstelling betreft zowel de jaarrekening als het jaarverslag. | — |
-
 ## Valkuilen
 
 - ⚠️ Vrijstelling op grond van beperkte omvang werkt enkel als 'maximaal één criterium overschreden' — niet 'minder dan twee'. Het criterium-aantal moet strikt worden geteld, en alle drie de criteria moeten worden beoordeeld (omzet, balanstotaal, personeel). ⚖️
 - ⚠️ De vrijstelling vervalt niet zomaar wanneer de drempels eenmalig worden overschreden — er gelden specifieke regels over duurzaamheid van overschrijdingen (zie CBN 2024/07 voor de actualisering van drempels en de impact-overgangsregels). Bij twijfel: raadpleeg het Cijferzakboekje voor de actuele drempels. 🤖
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

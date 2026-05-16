@@ -14,9 +14,9 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/gezamenlijke-controle.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Gezamenlijke controle ⚖️
 
@@ -25,11 +25,15 @@ gegenereerd_op: '2026-05-15'
 > _Bron: CBN 2017/02 — Gezamenlijke controle (groottecriteria-update)_
 
 
+> [!summary] Korte definitie
+> De controle die een beperkt aantal vennoten samen uitoefenen, wanneer zij zijn overeengekomen dat beslissingen omtrent de oriëntatie van het beleid niet zonder hun gemeenschappelijke instemming kunnen worden genomen.
+
+> [!info] Specialisatie van: [[controle]]
 ## In de praktijk
 
 ### Gevolg voor consolidatie {id="gevolg-voor-consolidatie"}
 
-De gemeenschappelijke dochter wordt in regel evenredig (proportioneel) geconsolideerd: de actief- en passiefbestanddelen, opbrengsten en kosten worden opgenomen naar rato van de kapitaalrechten in de dochter (KB WVV art. 3:140). Bij gemeenschappelijke dochters waarvan het bedrijf niet nauw geïntegreerd is in het bedrijf van de moeder, kan in plaats daarvan de vermogensmutatiemethode worden toegepast. ⚖️
+De gemeenschappelijke dochter wordt in regel evenredig (proportioneel) geconsolideerd: de bezittingen en schulden, opbrengsten en kosten worden opgenomen naar rato van de kapitaalrechten in de dochter (KB WVV art. 3:140). Bij gemeenschappelijke dochters waarvan het bedrijf niet nauw geïntegreerd is in het bedrijf van de moeder, kan in plaats daarvan de vermogensmutatiemethode worden toegepast. ⚖️
 
 **Herkenningspunt**: Twee vennootschappen elk 50 % met aandeelhoudersovereenkomst over beleid → gezamenlijke controle → evenredige consolidatie.
 
@@ -42,14 +46,6 @@ In geval van gezamenlijke controle wordt elke vennoot afzonderlijk vermoed contr
 
 - Een beperkt aantal vennoten (typisch 2 of 3) die samen het beleid bepalen. ⚖️
 - Een overeenkomst (uitdrukkelijk of impliciet, vaak in een aandeelhoudersovereenkomst) dat beleidsbeslissingen alleen met gemeenschappelijke instemming kunnen worden genomen. ⚖️
-## Vergelijkingsparen
-
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[exclusieve-controle]] | Exclusieve controle = één vennootschap beslist alleen. Gezamenlijke controle = meerdere vennoten beslissen samen op basis van overeenkomst. Exclusief → integrale consolidatie; gezamenlijk → evenredige consolidatie of vermogensmutatie. | — |
-| [[gemeenschappelijke-dochteronderneming]] | Gezamenlijke controle is de juridisch-economische verhouding (de bevoegdheid om samen te beslissen). Gemeenschappelijke dochter is de vennootschap zelf die het object van die gezamenlijke controle uitmaakt. Eén relatie, twee perspectieven. | — |
-| [[invloed-van-betekenis]] | Bij invloed van betekenis kan de vennootschap geen veto uitoefenen op beleidsbeslissingen; bij gezamenlijke controle is een veto net het kernkenmerk (geen beslissing zonder instemming). Vermogensmutatie volstaat voor invloed; gezamenlijke controle vraagt normaal evenredige consolidatie. | — |
-
 ## Valkuilen
 
 - ⚠️ Twee vennootschappen die elk 50 % bezitten zonder overeenkomst over beleidsbeslissingen vormen géén gezamenlijke controle — er is dan helemaal geen controle. Geen overeenkomst, geen vermoeden. ⚖️

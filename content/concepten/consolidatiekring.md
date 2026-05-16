@@ -15,23 +15,54 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/consolidatiekring.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Consolidatiekring ⚖️
 
-> De verzameling entiteiten die in de geconsolideerde jaarrekening worden opgenomen: de consoliderende vennootschap en al haar dochterondernemingen, in voorkomend geval uitgebreid met dochters in ruime zin (WVV art. 3:22). Natuurlijke personen behoren niet tot de consolidatiekring; dat volgt enerzijds uit de definitie van consolidatiekring zelf en anderzijds uit het feit dat een natuurlijke persoon geen dochteronderneming kan zijn.
+> De verzameling entiteiten die in de geconsolideerde jaarrekening worden opgenomen: de moedervennootschap en al haar dochterondernemingen, in voorkomend geval uitgebreid met dochters in ruime zin (WVV art. 3:22). Natuurlijke personen behoren niet tot de consolidatiekring; dat volgt enerzijds uit de definitie van consolidatiekring zelf en anderzijds uit het feit dat een natuurlijke persoon geen dochteronderneming kan zijn.
 >
 > _Bron: KB WVV art. 3:96 (algemeen)_
 
 
+> [!summary] Korte definitie
+> De verzameling entiteiten die in de geconsolideerde jaarrekening worden opgenomen: de moedervennootschap en al haar dochterondernemingen, in voorkomend geval uitgebreid met dochters in ruime zin (WVV art.
+
 ## Bouwstenen
 
-- **Hoofdregel (KB WVV art. 3:96)**: De consoliderende vennootschap en al haar dochterondernemingen worden in de consolidatie opgenomen. ⚖️
-- **Facultatieve uitsluitingsgronden (KB WVV art. 3:97)**: Een dochter mág buiten de consolidatie worden gelaten in vier gevallen: (1) van te verwaarlozen betekenis; (2) ingrijpende en duurzame beperkingen op de uitoefening van de controlebevoegdheid of de aanwending van het vermogen; (3) gegevens niet zonder onevenredige kosten/vertraging beschikbaar; (4) aandelen uitsluitend met het oog op latere vervreemding gehouden. Gebruik moet in de toelichting worden gemotiveerd. ⚖️
-- **Verplichte uitsluiting bij controle in feite (KB WVV art. 3:98)**: Een dochter waarover slechts controle in feite bestaat wordt buiten de consolidatie gelaten indien opneming zou indruisen tegen het getrouwe beeld van art. 3:105 KB WVV. Vermelding en motivering in de toelichting. ⚖️
-- **Vermogensmutatie voor uitgesloten dochters (KB WVV art. 3:100)**: Dochterondernemingen die met toepassing van art. 3:98 of 3:99 buiten de consolidatie zijn gelaten, worden in de geconsolideerde jaarrekening opgenomen volgens de vermogensmutatiemethode. ⚖️
+### Hoofdregel ⚖️
+
+De moedervennootschap en al haar dochterondernemingen worden in de consolidatie opgenomen.
+
+
+
+_Grondslag: KB WVV art. 3:96_
+
+### Facultatieve uitsluitingsgronden ⚖️
+
+Een dochter mág buiten de consolidatie worden gelaten in vier gevallen: (1) van te verwaarlozen betekenis; (2) ingrijpende en duurzame beperkingen op de uitoefening van de controlebevoegdheid of de aanwending van het vermogen; (3) gegevens niet zonder onevenredige kosten/vertraging beschikbaar; (4) aandelen uitsluitend met het oog op latere vervreemding gehouden. Gebruik moet in de toelichting worden gemotiveerd.
+
+
+
+_Grondslag: KB WVV art. 3:97_
+
+### Verplichte uitsluiting bij controle in feite ⚖️
+
+Een dochter waarover slechts controle in feite bestaat wordt buiten de consolidatie gelaten indien opneming zou indruisen tegen het getrouwe beeld van art. 3:105 KB WVV. Vermelding en motivering in de toelichting.
+
+
+
+_Grondslag: KB WVV art. 3:98_
+
+### Vermogensmutatie voor uitgesloten dochters ⚖️
+
+Dochterondernemingen die met toepassing van art. 3:98 of 3:99 buiten de consolidatie zijn gelaten, worden in de geconsolideerde jaarrekening opgenomen volgens de vermogensmutatiemethode.
+
+
+
+_Grondslag: KB WVV art. 3:100_
+
 
 ## In de praktijk
 
@@ -50,17 +81,17 @@ De uitsluitingsgrond 'aandelen uitsluitend met het oog op latere vervreemding' i
 Bij een consortium vormen de consortium-leden zelf de consolidatiekring (samen met hun eigen dochters via voorafgaande verticale consolidatie). De centrale leider (bv. natuurlijke persoon, private stichting) maakt geen deel uit van de kring. ⚖️
 
 
-## Vergelijkingsparen
-
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[consolidatieverplichting]] | Consolidatieverplichting bepaalt 'wel of niet consolideren'; consolidatiekring bepaalt 'wie wel of niet opnemen'. Een consolidatieplichtige moeder kan vrijgesteld zijn voor bepaalde dochters maar moet die dan via vermogensmutatie opnemen (art. 3:100). | — |
-| [[wijziging-consolidatiekring]] | Consolidatiekring is de momentopname van entiteiten. Wijziging van de consolidatiekring betreft de gebeurtenissen (verwerving, vervreemding, fusie) die nieuwe of vertrekkende leden in/uit de kring brengen — met specifieke boekhoudkundige gevolgen (eerste consolidatie, afboeking consolidatieverschil, step acquisitions). | — |
-
 ## Valkuilen
 
 - ⚠️ Een 'uitsluitingsgrond' is niet hetzelfde als 'geen consolidatie'. Uitgesloten dochters moeten via vermogensmutatie worden opgenomen (KB WVV art. 3:100). Een opgave 'D wordt uitgesloten op grond van art. 3:98' impliceert nog steeds een opname in de geconsolideerde jaarrekening, alleen via een andere techniek. ⚖️
 - ⚠️ Uitsluiting wegens 'te verwaarlozen betekenis' (art. 3:97, 1°) moet cumulatief worden beoordeeld wanneer meerdere dochters aan de voorwaarde voldoen. Twee 'kleine' dochters die elk individueel verwaarloosbaar zijn maar samen significant, mogen niet beide worden uitgesloten. ⚖️
+
+## Zie ook
+
+- **Vereist kennis van**: [[controle]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

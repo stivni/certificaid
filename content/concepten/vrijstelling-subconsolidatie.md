@@ -14,9 +14,9 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/vrijstelling-subconsolidatie.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Vrijstelling van subconsolidatie ⚖️
 
@@ -25,6 +25,10 @@ gegenereerd_op: '2026-05-15'
 > _Bron: CBN 2012/12_
 
 
+> [!summary] Korte definitie
+> Een tussenliggende (sub)moedervennootschap wordt vrijgesteld van de verplichting om een geconsolideerde jaarrekening en jaarverslag op te stellen, indien zij zelf de dochtervennootschap is van een moedervennootschap die hogerop een geconsolideerde jaarrekening en jaarverslag opstelt, laat controleren en openbaar maakt — en aan een aantal aanvullende voorwaarden wordt voldaan.
+
+> [!info] Uitzondering op: [[consolidatieverplichting]]
 ## In de praktijk
 
 ### Interpretatie 'één van de vennootschappen die moeten worden geconsolideerd' {id="interpretatie-een-van-de-vennootschappen-die-moeten-worden-geconsolideerd"}
@@ -47,17 +51,13 @@ Wanneer de leden van een consortium een geconsolideerde jaarrekening op consorti
 - De submoeder is zelf een dochter van een hogere moedervennootschap. ⚖️
 - De hogere moedervennootschap stelt een geconsolideerde jaarrekening en jaarverslag op, laat die controleren en maakt die openbaar volgens een gelijkwaardige standaard (Belgisch boekhoudrecht of een gelijkwaardige standaard). ⚖️
 - Noch de submoeder zelf, noch één van de tot haar consolidatiekring behorende dochters is genoteerd op een gereglementeerde markt. Bij notering vervalt de vrijstelling. ⚖️
-## Vergelijkingsparen
-
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[consolidatieverplichting]] | De consolidatieverplichting bestaat ex lege bij elke moedervennootschap. De vrijstelling van subconsolidatie is een afwijking die specifiek de tussenmoeder ontheft van die plicht, met als ratio het vermijden van dubbele consolidatie binnen één concern. | — |
-| [[groottecriteria-consolidatie]] | Vrijstelling op grond van groottecriteria geldt voor de hele moeder (en haar groep) bij beperkte omvang. Vrijstelling van subconsolidatie geldt enkel voor een tussenmoeder onder een hogere consoliderende moeder, ongeacht de groottecriteria. | — |
-
 ## Valkuilen
 
 - ⚠️ De vrijstelling 'verspringt' niet door noteringen op een hoger niveau. Een tussenliggende moeder X kan vrijgesteld blijven, ook al is haar moeder Y genoteerd — zolang X en haar dochters zelf niet genoteerd zijn (CBN 2012/12). ⚖️
 - ⚠️ Wanneer een vennootschap via vermogensmutatie wordt opgenomen (i.p.v. integraal), wijzigt de consolidatieverplichting niet. De groep blijft consolidatieplichtig zolang er ten minste één gecontroleerde dochter is. ⚖️
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

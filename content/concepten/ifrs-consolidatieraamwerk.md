@@ -15,9 +15,9 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/ifrs-consolidatieraamwerk.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12) 🤖
 
@@ -26,10 +26,27 @@ gegenereerd_op: '2026-05-15'
 > _Bron: EU Verordening 1606/2002 jo. KB WVV art. 3:104, § 2_
 
 
+> [!summary] Korte definitie
+> Het geheel van IAS/IFRS-standaarden die het wettelijk kader voor geconsolideerde jaarrekeningen onder IFRS vormen, in het bijzonder IFRS 3 (bedrijfscombinaties), IFRS 10 (geconsolideerde jaarrekeningen / definitie controle), IFRS 11 (gezamenlijke regelingen) en IFRS 12 (informatieverschaffing over belangen in andere entiteiten).
+
 ## Bouwstenen
 
-- **Verordening 1606/2002 — verplichte IFRS**: De verordening verplicht beursgenoteerde EU-vennootschappen om hun geconsolideerde jaarrekening op te stellen volgens de IAS/IFRS zoals aangenomen door de Europese Commissie. 'Internationale standaarden voor jaarrekeningen' omvat IAS, IFRS en de daarmee verband houdende interpretaties (SIC/IFRIC), wijzigingen, en toekomstige standaarden vastgesteld of goedgekeurd door de IASB. ⚖️
-- **Onherroepelijke keuze in BEGAAP-context**: Onder KB WVV art. 3:104, § 2 kan elke consoliderende vennootschap kiezen voor IFRS — die keuze is onherroepbaar en moet in de toelichting worden gemotiveerd (administratieve en organisatorische middelen, volledige toepassing van alle door de EC aangenomen IFRS). ⚖️
+### Verordening 1606/2002 — verplichte IFRS ⚖️
+
+De verordening verplicht beursgenoteerde EU-vennootschappen om hun geconsolideerde jaarrekening op te stellen volgens de IAS/IFRS zoals aangenomen door de Europese Commissie. 'Internationale standaarden voor jaarrekeningen' omvat IAS, IFRS en de daarmee verband houdende interpretaties (SIC/IFRIC), wijzigingen, en toekomstige standaarden vastgesteld of goedgekeurd door de IASB.
+
+
+
+_Grondslag: Verordening 1606/2002 art. 2_
+
+### Onherroepelijke keuze in BEGAAP-context ⚖️
+
+Onder KB WVV art. 3:104, § 2 kan elke moedervennootschap kiezen voor IFRS — die keuze is onherroepbaar en moet in de toelichting worden gemotiveerd (administratieve en organisatorische middelen, volledige toepassing van alle door de EC aangenomen IFRS).
+
+
+
+_Grondslag: KB WVV art. 3:104, § 2_
+
 
 ## In de praktijk
 
@@ -44,16 +61,12 @@ De volledige tekst van IFRS 3, 10, 11 en 12 is niet in de huidige Certificaid-co
 Wanneer een lid van een consortium beursgenoteerd is en op grond van Verordening 1606/2002 onder IFRS consolideert, blijft de geconsolideerde jaarrekening van het consortium zelf onder Belgisch boekhoudrecht — tenzij het consortium ook onder de IFRS-keuze of -plicht valt (CBN 2016/19). ⚖️
 
 
-## Vergelijkingsparen
-
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[geconsolideerde-jaarrekening]] | De geconsolideerde jaarrekening onder Belgisch boekhoudrecht volgt KB WVV; de geconsolideerde jaarrekening onder IFRS volgt de IFRS-standaarden zoals aangenomen door de EU. Begrippen als 'controle', 'goodwill' en 'joint venture' worden in beide kaders gebruikt maar inhoudelijk verschillend ingevuld. | — |
-| [[evenredige-consolidatie]] | Onder Belgisch boekhoudrecht is evenredige consolidatie de regel voor gemeenschappelijke dochters (KB WVV art. 3:124, 2°). Onder IFRS 11 wordt voor 'joint ventures' (een specifiek IFRS-subtype) verplicht de equity method gebruikt; 'joint operations' worden line-by-line opgenomen voor de eigen rechten en verplichtingen — een ander begrippenkader dan het Belgische. | — |
-
 ## Valkuilen
 
 - ⚠️ Detail-vragen over IFRS 3, 10, 11, 12 paragraafnummers liggen buiten het bereik van wat met de huidige Certificaid-corpus volledig kan worden onderbouwd. De volledige tekst van deze IFRS-standaarden is niet in het corpus aanwezig; verwijzingen in CBN-adviezen blijven beperkt. Bij examenvragen rond IFRS: focus op de structuur (verplicht voor genoteerden via Verordening 1606/2002; vrijwillig via KB WVV art. 3:104, § 2) en op overzicht-niveau-verschillen met BEGAAP, niet op detailparagrafen. 🤖
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

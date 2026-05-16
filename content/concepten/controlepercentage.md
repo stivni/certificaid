@@ -14,9 +14,9 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/controlepercentage.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Controlepercentage 🤖
 
@@ -25,26 +25,29 @@ gegenereerd_op: '2026-05-15'
 > _Bron: WVV art. 1:14 jo. art. 1:16_
 
 
+> [!summary] Korte definitie
+> Het percentage van de stemrechten dat een vennootschap (direct of indirect via dochterondernemingen) in een andere vennootschap aanhoudt.
+
 ## Berekening
 
 ### Controlepercentage in een verticale keten
 
-**Formule**: `controle% (M in B) = controle% (A in B), op voorwaarde dat M exclusieve controle uitoefent op A`
+**Controlepercentage in een verticale keten** 
+```
+controle% (M in B) = controle% (A in B), op voorwaarde dat M exclusieve controle uitoefent op A
+```
 
 *Zodra elke tussenliggende schakel exclusief wordt gecontroleerd, vloeit de zeggenschap over de onderste schakel volledig door naar de top. Vermenigvuldigen geldt enkel voor het belang (economisch eigenaarschap), niet voor de controle (zeggenschap).*
 
-**Stappen**:
+### . 
 
-1. Bepaal of M elke tussenliggende schakel exclusief controleert (> 50 % stemrechten of andere onweerlegbare titel).
-2. Zo ja: het controlepercentage van M in B is gelijk aan het controlepercentage van de directe moeder (A) in B.
-3. Zo niet: er is geen doorlopende controle; B is geen dochter van M maar mogelijk een geassocieerde of een gemeenschappelijke dochter, afhankelijk van de structuur.
-**Voorbeeld**: M bezit 80 % van A; A bezit 60 % van B. A is exclusief gecontroleerd door M.
+**Voorbeeld**: Aurelia Holding NV bezit 80 % van A; A bezit 60 % van B. A is exclusief gecontroleerd door M.
 
 ```
 controle% (M in B) = controle% (A in B) = 60 %. (Belangenpercentage (M in B) = 0,80 × 0,60 = 0,48 = 48 %.)
 ```
 
-Resultaat: M controleert B exclusief (> 50 % stemrechten via A). B is een dochteronderneming van M en wordt integraal geconsolideerd. Het aandeel van derden in B bedraagt 1 − 0,48 = 52 % van het eigen vermogen van B.
+Resultaat: M controleert B exclusief (> 50 % stemrechten via A). B is een dochteronderneming van Aurelia Holding NV en wordt integraal geconsolideerd. Het aandeel van derden in B bedraagt 1 − 0,48 = 52 % van het eigen vermogen van B.
 
 ## In de praktijk
 
@@ -59,16 +62,13 @@ Het controlepercentage meet de macht (stemrechten); het belangenpercentage meet 
 Een controlepercentage > 50 % stemrechten levert in beginsel exclusieve controle (in rechte) op en triggert integrale consolidatie. Bij precies 50 % zonder stemovereenkomst is er géén controle. Bij stemovereenkomst tussen meerdere vennoten ontstaat gezamenlijke controle. 🤖
 
 
-## Vergelijkingsparen
-
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[belangenpercentage]] | Controlepercentage = stemrechten (zeggenschap); belangenpercentage = kapitaal/eigendomsverhouding. Bij ketens: controle wordt niet vermenigvuldigd, belang wel. | Vraagstellingen die expliciet vragen 'wie heeft controle' versus 'welk aandeel van de winst' — twee verschillende berekeningen. |
-| [[controle]] | Controlepercentage is een kwantitatief getal; controle is een kwalitatief oordeel (al dan niet). Een controlepercentage > 50 % triggert het onweerlegbaar vermoeden van controle in rechte, maar controle kan ook bij lager percentages bestaan (controle in feite, gezamenlijke controle). | — |
-
 ## Valkuilen
 
 - ⚠️ Niet alle aandelen geven stemrechten. Bij stemrechtloze aandelen of preferente aandelen valt het kapitaal (belangenpercentage) níet samen met de stemrechten (controlepercentage). Lees de opgave nauwkeurig. 🤖
+
+## Zie ook
+
+- **Vereist kennis van**: [[controle]]
 
 ## Bronnen
 

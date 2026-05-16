@@ -14,9 +14,9 @@ programmaonderdelen:
 confidence: grounded
 node_type: actor
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/consortium.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Consortium (horizontale groep) ⚖️
 
@@ -24,6 +24,9 @@ gegenereerd_op: '2026-05-15'
 >
 > _Bron: CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)_
 
+
+> [!summary] Korte definitie
+> Een horizontale groep van vennootschappen die niet door een onderlinge moeder-dochter-relatie verbonden zijn, maar die onder een gemeenschappelijke (centrale) leiding staan.
 
 ## In de praktijk
 
@@ -45,18 +48,18 @@ Een consortium past in beginsel het Belgisch boekhoudrecht toe op de geconsolide
 ## Voorwaarden
 
 - De vennootschappen staan onder centrale leiding (gemeenschappelijke beleidsbepaling, vaak via dezelfde bestuurders of dezelfde meerderheidsaandeelhouder die niet zelf een moedervennootschap kan zijn). ⚖️
-- De leden van het consortium mogen geen dochtervennootschappen van elkaar zijn en evenmin dochtervennootschappen van dezelfde Belgische of buitenlandse vennootschap. Anders geldt de primauteit van de verticale consolidatie en is een consortium overbodig. ⚖️
-## Vergelijkingsparen
-
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[moedervennootschap]] | Moedervennootschap = verticale relatie (rechtspersoon controleert een andere). Consortium = horizontale relatie (gemeenschappelijke leiding zonder onderlinge controle). In een consortium is er geen moeder en rust de consolidatieplicht gezamenlijk bij de leden. | — |
-| [[gemeenschappelijke-dochteronderneming]] | Een consortium is een horizontale groep van zelfstandige vennootschappen onder centrale leiding. Een gemeenschappelijke dochter is één ondernemingsentiteit waarover meerdere vennoten via een overeenkomst gezamenlijk controle uitoefenen. | — |
-
+- De leden van het consortium mogen geen dochtervennootschappen van elkaar zijn en evenmin dochtervennootschappen van dezelfde Belgische of buitenlandse vennootschap. Anders geldt de voorrang van de verticale consolidatie en is een consortium overbodig. ⚖️
 ## Valkuilen
 
 - ⚠️ Wie de centrale leiding uitoefent moet zelf géén moedervennootschap kunnen zijn (natuurlijke persoon, private stichting, maatschap zonder rechtspersoonlijkheid). Anders zou er een gewone verticale moeder-dochter-relatie zijn en geen consortium. De centrale leider zelf is niet consolidatieplichtig. ⚖️
 - ⚠️ Bij een consortium met centrale leiding van een natuurlijke persoon worden voor de groottecriteria de cijfers van die natuurlijke persoon niet meegeteld — enkel de cijfers van de leden zelf. ⚖️
+
+## Zie ook
+
+- **Getriggerd door**: [[horizontale-consolidatie]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

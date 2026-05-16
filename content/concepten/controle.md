@@ -17,9 +17,9 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/controle.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Controle ⚖️
 
@@ -28,10 +28,27 @@ gegenereerd_op: '2026-05-15'
 > _Bron: WVV art. 1:14, § 2_
 
 
+> [!summary] Korte definitie
+> De bevoegdheid in rechte of in feite om een beslissende invloed uit te oefenen op de aanstelling van de meerderheid van de bestuurders of zaakvoerders van een vennootschap of op de oriëntatie van het beleid ervan.
+
 ## Bouwstenen
 
-- **Controle in rechte**: Controle die rechtstreeks uit de juridische verhoudingen voortvloeit — onweerlegbaar vermoed op grond van objectieve elementen zoals de meerderheid van de stemrechten, het recht om de meerderheid van de bestuurders te benoemen, statutaire macht of stemovereenkomst. 🤖
-- **Controle in feite**: Controle die niet uit een onweerlegbaar juridisch vermoeden volgt maar afgeleid wordt uit gedragingen, zoals het feit dat de vennootschap tijdens de twee laatste algemene vergaderingen de meerderheid van de bestuurders heeft kunnen aanstellen met de stemrechten die zij effectief heeft uitgeoefend. KB WVV art. 3:98 voorziet dat een dochteronderneming waarover de consoliderende vennootschap een controle in feite bezit buiten de consolidatie wordt gelaten indien opneming zou indruisen tegen het beginsel van het getrouwe beeld van art. 3:105 KB WVV. ⚖️
+### Controle in rechte 🤖
+
+Controle die rechtstreeks uit de juridische verhoudingen voortvloeit — onweerlegbaar vermoed op grond van objectieve elementen zoals de meerderheid van de stemrechten, het recht om de meerderheid van de bestuurders te benoemen, statutaire macht of stemovereenkomst.
+
+
+
+_Grondslag: WVV art. 1:14, § 2 jo. art. 1:16_
+
+### Controle in feite ⚖️
+
+Controle die niet uit een onweerlegbaar juridisch vermoeden volgt maar afgeleid wordt uit gedragingen, zoals het feit dat de vennootschap tijdens de twee laatste algemene vergaderingen de meerderheid van de bestuurders heeft kunnen aanstellen met de stemrechten die zij effectief heeft uitgeoefend. KB WVV art. 3:98 voorziet dat een dochteronderneming waarover de moedervennootschap een controle in feite bezit buiten de consolidatie wordt gelaten indien opneming zou indruisen tegen het beginsel van het getrouwe beeld van art. 3:105 KB WVV.
+
+
+
+_Grondslag: KB WVV art. 3:98_
+
 
 ## In de praktijk
 
@@ -48,19 +65,28 @@ Exclusieve controle → integrale consolidatie. Gezamenlijke controle (gemeensch
 **Herkenningspunt**: De controlevraag bepaalt de keuze tussen drie consolidatietechnieken; niet het loutere percentage.
 
 
-## Vergelijkingsparen
+<details>
+<summary><strong>Niet verwarren met</strong> (4 vergelijkingen)</summary>
 
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[invloed-van-betekenis]] | Controle = beslissende invloed (kan beleid eenzijdig of gezamenlijk sturen). Invloed van betekenis = significant maar niet beslissend (deelname aan beleid zonder dominante positie). Beide kunnen bij gelijkaardige percentages voorkomen; het onderscheid hangt af van stemrechtmeerderheden, aandeelhoudersovereenkomsten en bestuursbenoemingen. | Bij percentages 20–50 %: standaard vermogensmutatie (invloed van betekenis). Bij overeenkomst voor gezamenlijke uitoefening van beleid: gezamenlijke controle. |
-| [[controlepercentage]] | Controle is een kwalitatief begrip (al-dan-niet); controlepercentage is een kwantitatieve maat van de stemrechten die de moeder direct of indirect aanhoudt. Een controlepercentage > 50 % wijst doorgaans op exclusieve controle in rechte, maar controle in feite is ook mogelijk bij lagere percentages. | Wanneer een opgave een percentage geeft: vraag steeds of het stemrechten betreft (controle) of kapitaal (belang). |
-| [[exclusieve-controle]] | Exclusieve controle is een soort controle waarbij één vennootschap alleen de beslissende invloed uitoefent. Controle is het overkoepelend begrip dat zowel exclusieve als gezamenlijke controle omvat. | Bij stemrechten > 50 % zonder aandeelhoudersovereenkomst → exclusieve controle. Bij stemovereenkomst tussen 2 of meer vennoten → gezamenlijke controle. |
-| [[gezamenlijke-controle]] | Gezamenlijke controle is een soort controle uitgeoefend door een beperkt aantal vennoten samen op grond van een overeenkomst dat beleidsbeslissingen alleen met hun gemeenschappelijke instemming worden genomen. Controle daarentegen kan ook alleen worden uitgeoefend (exclusieve controle). | Sleutelvraag: bestaat er een overeenkomst tussen vennoten dat beslissingen alleen samen worden genomen? Zo ja: gezamenlijke controle, anders mogelijke exclusieve controle of geen controle. |
+- **vs [[invloed-van-betekenis]]** — Controle = beslissende invloed (kan beleid eenzijdig of gezamenlijk sturen). Invloed van betekenis = significant maar niet beslissend (deelname aan beleid zonder dominante positie). Beide kunnen bij gelijkaardige percentages voorkomen; het onderscheid hangt af van stemrechtmeerderheden, aandeelhoudersovereenkomsten en bestuursbenoemingen.
+  - _Trigger_: Bij percentages 20–50 %: standaard vermogensmutatie (invloed van betekenis). Bij overeenkomst voor gezamenlijke uitoefening van beleid: gezamenlijke controle.
+- **vs [[controlepercentage]]** — Controle is een kwalitatief begrip (al-dan-niet); controlepercentage is een kwantitatieve maat van de stemrechten die de moeder direct of indirect aanhoudt. Een controlepercentage > 50 % wijst doorgaans op exclusieve controle in rechte, maar controle in feite is ook mogelijk bij lagere percentages.
+  - _Trigger_: Wanneer een opgave een percentage geeft: vraag steeds of het stemrechten betreft (controle) of kapitaal (belang).
+- **vs [[exclusieve-controle]]** — Exclusieve controle is een soort controle waarbij één vennootschap alleen de beslissende invloed uitoefent. Controle is het overkoepelend begrip dat zowel exclusieve als gezamenlijke controle omvat.
+  - _Trigger_: Bij stemrechten > 50 % zonder aandeelhoudersovereenkomst → exclusieve controle. Bij stemovereenkomst tussen 2 of meer vennoten → gezamenlijke controle.
+- **vs [[gezamenlijke-controle]]** — Gezamenlijke controle is een soort controle uitgeoefend door een beperkt aantal vennoten samen op grond van een overeenkomst dat beleidsbeslissingen alleen met hun gemeenschappelijke instemming worden genomen. Controle daarentegen kan ook alleen worden uitgeoefend (exclusieve controle).
+  - _Trigger_: Sleutelvraag: bestaat er een overeenkomst tussen vennoten dat beslissingen alleen samen worden genomen? Zo ja: gezamenlijke controle, anders mogelijke exclusieve controle of geen controle.
+
+</details>
+
 
 ## Valkuilen
 
 - ⚠️ Een participatie van precies 50 % zonder stemovereenkomst geeft géén controle aan de aandeelhouder; pas op om die niet automatisch als 'dochter' te etiketteren in een opgave (CBN 2017/02 — geval 2). ⚖️
 - ⚠️ Controle in feite kan bestaan ook bij beperkte participaties. Toets steeds aan de twee-vergaderingen-criterium voordat je 'geen controle' besluit bij <50 %. 🤖
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -15,15 +15,71 @@
 {% include 'partials/rationale_callout.md.j2' %}
 {% endif %}
 
+{% set kern = (record.definitie or record.main_rule or record.verplichting or record.doel or {}).text | default('') %}
+{% if kern %}
+> [!summary] Korte definitie
+> {{ kern.split('.')[0] }}.
+
+{% endif %}
+{% set edges = record.edges | default([]) %}
+{% set edges_onderdeel_van = edges | selectattr('type', 'equalto', 'onderdeel-van') | list %}
+{% set edges_specialisatie_van = edges | selectattr('type', 'equalto', 'specialisatie-van') | list %}
+{% if edges_onderdeel_van or edges_specialisatie_van %}
+> [!info] {% if edges_onderdeel_van %}Behoort tot: {% for e in edges_onderdeel_van %}[[{{ e.target }}]]{% if not loop.last %} · {% endif %}{% endfor %}{% endif %}{% if edges_onderdeel_van and edges_specialisatie_van %} · {% endif %}{% if edges_specialisatie_van %}Specialisatie van: {% for e in edges_specialisatie_van %}[[{{ e.target }}]]{% if not loop.last %} · {% endif %}{% endfor %}{% endif %}
+
+{% endif %}
+{% set edges_bevat = edges | selectattr('type', 'equalto', 'bevat') | list %}
+{% if edges_bevat %}
+> [!info] Bestaat uit: {% for e in edges_bevat %}[[{{ e.target }}]]{% if not loop.last %} · {% endif %}{% endfor %}
+
+{% endif %}
+{% set edges_uitzondering_op = edges | selectattr('type', 'equalto', 'uitzondering-op') | list %}
+{% if edges_uitzondering_op %}
+> [!info] Uitzondering op: {% for e in edges_uitzondering_op %}[[{{ e.target }}]]{% if not loop.last %} · {% endif %}{% endfor %}
+
+{% endif %}
+{% if record.node_type == 'synthese' %}
+{% if record.inleiding %}
+{{ record.inleiding.text }}
+
+{% endif %}
+{% if record.vergelijkingstabel %}
+## Vergelijkingstabel
+
+{{ record.vergelijkingstabel.data }}
+
+{% endif %}
+{% if record.beslisboom %}
+## Beslisboom
+
+{{ record.beslisboom.data }}
+
+{% endif %}
+{% if record.kerninzichten %}
+## Kerninzichten
+
+{% for ki in record.kerninzichten %}
+- {{ ki.text }} {{ ki.confidence | default('inferred') | confidence_label }}
+{% if ki.rationale %}
+  - _Rationale_: {{ ki.rationale }}
+{% endif %}
+{% endfor %}
+
+{% endif %}
+{% if record.verwante_competenties %}
+## Verwante competenties
+
+{% for c in record.verwante_competenties %}
+- [[competenties/{{ c }}]]
+{% endfor %}
+
+{% endif %}
+{% else %}
 {% if record.bouwstenen %}
 ## Bouwstenen
 
-{% for bouwsteen in record.bouwstenen %}
-- **{{ bouwsteen.naam | default(bouwsteen.text[:60]) }}**: {{ bouwsteen.text }} {{ bouwsteen.confidence | default('inferred') | confidence_label }}
-{% if bouwsteen.rationale %}
-  *{{ bouwsteen.rationale }}*
-{% endif %}
-{% endfor %}
+{% set bouwstenen = record.bouwstenen %}
+{% include 'partials/bouwsteen.md.j2' %}
 
 {% endif %}
 {% if record.berekeningsmethode %}
@@ -66,6 +122,14 @@
 
 {% endfor %}
 {% endif %}
+{% if record.stappen %}
+## Stappen
+
+{% for stap in record.stappen %}
+{% include 'partials/stap.md.j2' %}
+{% endfor %}
+
+{% endif %}
 {% if record.vergelijkingsparen %}
 {% set vergelijkingsparen = record.vergelijkingsparen %}
 {% include 'partials/vergelijkingsparen_tabel.md.j2' %}
@@ -80,6 +144,31 @@
 {% set valkuilen = record.valkuilen %}
 {% include 'partials/valkuilen_lijst.md.j2' %}
 
+{% endif %}
+{% set edges_zie_ook_types = ['getriggerd-door', 'vereist-kennis-van', 'aanleiding-voor'] %}
+{% set edges_zie_ook = [] %}
+{% for e in edges %}{% if e.type in edges_zie_ook_types %}{% set _ = edges_zie_ook.append(e) %}{% endif %}{% endfor %}
+{% if edges_zie_ook %}
+## Zie ook
+
+{% for e in edges_zie_ook %}
+- **{{ e.type | replace('-', ' ') | capitalize }}**: [[{{ e.target }}]]
+{% endfor %}
+
+{% endif %}
+{% set heeft_voorbeeld = namespace(waarde=false) %}
+{% if record.voorbeeld_inline %}{% set heeft_voorbeeld.waarde = true %}{% endif %}
+{% for m in record.berekeningsmethode | default([]) %}
+  {% if m.concreet_voorbeeld %}{% set heeft_voorbeeld.waarde = true %}{% endif %}
+  {% for f in m.formules | default([]) %}{% if f.invulling_voorbeeld %}{% set heeft_voorbeeld.waarde = true %}{% endif %}{% endfor %}
+{% endfor %}
+{% for s in record.stappen | default([]) %}{% if s.voorbeeld %}{% set heeft_voorbeeld.waarde = true %}{% endif %}{% endfor %}
+{% for b in record.bouwstenen | default([]) %}{% if b is mapping and b.voorbeeld_inline %}{% set heeft_voorbeeld.waarde = true %}{% endif %}{% endfor %}
+{% if not heeft_voorbeeld.waarde %}
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+
+{% endif %}
 {% endif %}
 {% if chunk_ids %}
 {% set chunk_ids = chunk_ids %}

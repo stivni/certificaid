@@ -14,9 +14,9 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/exclusieve-controle.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Exclusieve controle 🤖
 
@@ -25,11 +25,15 @@ gegenereerd_op: '2026-05-15'
 > _Bron: WVV art. 1:14, § 2 jo. art. 1:16_
 
 
+> [!summary] Korte definitie
+> De controle die één vennootschap alleen uitoefent over een andere vennootschap, in tegenstelling tot gezamenlijke controle waarbij meerdere vennoten samen beslissen.
+
+> [!info] Specialisatie van: [[controle]]
 ## In de praktijk
 
 ### Gevolg voor consolidatiemethode {id="gevolg-voor-consolidatiemethode"}
 
-Exclusieve controle triggert verplichte integrale consolidatie van de dochteronderneming (KB WVV art. 3:124, 1°). Alle actief- en passiefbestanddelen, rechten en verplichtingen, opbrengsten en kosten worden integraal opgenomen; het deel buiten de groep wordt afgezonderd als belangen van derden. ⚖️
+Exclusieve controle triggert verplichte integrale consolidatie van de dochteronderneming (KB WVV art. 3:124, 1°). Alle bezittingen en schulden, rechten en verplichtingen, opbrengsten en kosten worden integraal opgenomen; het deel buiten de groep wordt afgezonderd als belangen van derden. ⚖️
 
 **Herkenningspunt**: Examenopgave: 'M bezit 80 % van de stemrechten van D' → exclusieve controle in rechte → integrale consolidatie van D in M.
 
@@ -63,16 +67,21 @@ Wanneer exclusieve controle wordt vastgesteld, kwalificeert de controlerende ven
 - Bezit (rechtstreeks of via dochters) van meer dan de helft van de stemrechten — onweerlegbaar vermoeden van controle in rechte. 🤖
 - Statutaire of contractuele macht om de meerderheid van de bestuurders of zaakvoerders te benoemen of te ontslaan. 🤖
 - Controle in feite — afgeleid uit het feit dat de vennootschap met haar effectieve stemrechten gedurende de twee laatste algemene vergaderingen de meerderheid van de bestuurders heeft kunnen aanstellen. 🤖
-## Vergelijkingsparen
+<details>
+<summary><strong>Niet verwarren met</strong> (1 vergelijkingen)</summary>
 
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[gezamenlijke-controle]] | Exclusieve controle = één vennootschap alleen beslist; gezamenlijke controle = vereiste gemeenschappelijke instemming van een beperkt aantal vennoten. Exclusief → integrale consolidatie; gezamenlijk → evenredige consolidatie of vermogensmutatie. | Cruciale vraag: bestaat een overeenkomst dat beleidsbeslissingen alleen samen mogen worden genomen? Zo ja: gezamenlijke controle; anders: exclusieve controle of geen controle. |
-| [[invloed-van-betekenis]] | Exclusieve controle = beslissende invloed (eenzijdig sturen); invloed van betekenis = significante maar niet beslissende invloed (deelname zonder dominantie). Drempelmatig: > 50 % → controle (in rechte); 20–50 % → vermoeden van invloed van betekenis. | — |
+- **vs [[gezamenlijke-controle]]** — Exclusieve controle = één vennootschap alleen beslist; gezamenlijke controle = vereiste gemeenschappelijke instemming van een beperkt aantal vennoten. Exclusief → integrale consolidatie; gezamenlijk → evenredige consolidatie of vermogensmutatie.
+  - _Trigger_: Cruciale vraag: bestaat een overeenkomst dat beleidsbeslissingen alleen samen mogen worden genomen? Zo ja: gezamenlijke controle; anders: exclusieve controle of geen controle.
+
+</details>
+
 
 ## Valkuilen
 
 - ⚠️ Bij exact 50 % zonder stemovereenkomst is er géén exclusieve controle. Het loutere bezit van precies de helft van de stemrechten is onvoldoende; de wet eist 'meer dan de helft'. ⚖️
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

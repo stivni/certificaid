@@ -1,7 +1,7 @@
 {{ frontmatter_yaml | safe -}}
 # {{ competentie.titel }}
 
-**⚖️ {{ competentie.procedure_grondslag.wettelijk_pct }}% · 🤖 {{ competentie.procedure_grondslag.praktijk_pct }}%** · Status: `{{ competentie.status }}`
+**⚖️ {{ competentie.procedure_grondslag.wettelijk_pct }}% · 🤖 {{ competentie.procedure_grondslag.praktijk_pct }}%**
 
 {% if competentie.procedure_grondslag.motivering %}
 > {{ competentie.procedure_grondslag.motivering }}

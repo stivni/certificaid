@@ -14,9 +14,9 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/invloed-van-betekenis.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Invloed van betekenis 🤖
 
@@ -25,6 +25,10 @@ gegenereerd_op: '2026-05-15'
 > _Bron: WVV art. 1:22 (geassocieerde vennootschap)_
 
 
+> [!summary] Korte definitie
+> De macht om deel te nemen aan de financiële en operationele beleidsbeslissingen van een andere onderneming, zonder die beleidsbeslissingen alleen of samen met andere vennoten te kunnen sturen.
+
+> [!info] Specialisatie van: [[controle]]
 ## In de praktijk
 
 ### Herkenning in step-acquisitions {id="herkenning-in-step-acquisitions"}
@@ -45,17 +49,12 @@ Een geassocieerde onderneming (deelneming met invloed van betekenis maar zonder 
 | Weerlegbaar vermoeden van invloed van betekenis | ≥ 20 % | deelnemingspercentage in stemrechten | Weerlegbaar vermoeden van invloed van betekenis → kwalificatie als geassocieerde onderneming → vermogensmutatiemethode in de geconsolideerde jaarrekening. |
 | Bovengrens (controle) | ≤ 50 % stemrechten en geen controle | stemrechten | Boven > 50 % of in geval van controle in feite kantelt de kwalificatie van 'invloed van betekenis' naar 'exclusieve controle'; de deelneming wordt dan een dochteronderneming en niet langer een geassocieerde onderneming. |
 
-## Vergelijkingsparen
-
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[exclusieve-controle]] | Invloed van betekenis = participeren in beleid zonder dominante positie. Exclusieve controle = beslissende, eenzijdige invloed. Drempel: typisch 20–50 % stemrechten voor invloed, > 50 % voor controle. | — |
-| [[gezamenlijke-controle]] | Bij gezamenlijke controle is er een vetorecht op beleidsbeslissingen (overeenkomst). Bij invloed van betekenis kan de vennoot meepraten maar niet blokkeren. | — |
-| [[geassocieerde-onderneming]] | Invloed van betekenis is de relatie (kwalificerend criterium); geassocieerde onderneming is de juridische status van de vennootschap waarop die invloed wordt uitgeoefend. Beide zijn samen onlosmakelijk verbonden: geen invloed van betekenis → geen geassocieerde onderneming. | — |
-
 ## Valkuilen
 
 - ⚠️ Het vermoeden bij ≥ 20 % is weerlegbaar. Indien de moeder kan aantonen dat zij ondanks haar 20 %+ géén invloed kan uitoefenen (bv. statutaire beperkingen, conflicterende aandeelhouders), kan de kwalificatie als geassocieerde onderneming worden uitgesloten. 🤖
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

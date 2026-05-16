@@ -84,15 +84,30 @@ def validate(competentie: dict) -> list[str]:
     stappen = competentie.get("stappen", [])
     for stap in stappen:
         nummer = stap.get("nr", "?")
-        grondslag = stap.get("grondslag", {})
+        grondslag_raw = stap.get("grondslag", {})
 
-        if not grondslag:
+        if not grondslag_raw:
             fouten.append(
-                f"FOUT: stap {nummer} heeft geen grondslag-object "
+                f"FOUT: stap {nummer} heeft geen grondslag "
                 f"(ADR-007 anti-fabricatie-regel 2)."
             )
             continue
 
+        # grondslag kan een string (schema 1.4 compacte notatie) of een dict zijn
+        if isinstance(grondslag_raw, str):
+            # String-grondslag: valideer wikilinks in de string
+            wikilinks = _extraheer_wikilinks(grondslag_raw)
+            for link in wikilinks:
+                link_id = link.strip()
+                if link_id and link_id not in bestaande_ids:
+                    fouten.append(
+                        f"WAARSCHUWING: stap {nummer} grondslag verwijst naar "
+                        f"'[[{link_id}]]' maar dat record bestaat niet "
+                        f"in data/concepten/records/ (ADR-007 anti-fabricatie-regel 5)."
+                    )
+            continue
+
+        grondslag = grondslag_raw
         grondslag_type = grondslag.get("type", "")
         grondslag_ref = grondslag.get("ref", "")
 

@@ -326,6 +326,41 @@ Latere consolidatie — pro-rata aandeel in winst of verlies (Vermogensmutatieme
 
 Dit programmaonderdeel toetst minder je vermogen om bedragen uit het hoofd te kennen dan je vermogen om correct te kwalificeren en consequent door te redeneren. De typische denkpatronen die klassiek terugkomen: het onderscheid tussen controle- en belangenpercentage in een keten, het kantelpunt tussen invloed van betekenis en exclusieve controle (rond 50 % stemrechten), en de keuze van consolidatietechniek bij een groep met gemengde structuur. Verwacht ook redeneerstappen rond vrijstellingen (subconsolidatie of groep van beperkte omvang) en rond de eerste consolidatie (toerekening van het consolidatieverschil aan onder- of overgewaardeerde activa). Het Cijferzakboekje en ITAA-LEX zijn op het examen beschikbaar: investeer je studietijd dus in het begrijpen van de redeneerstructuur, niet in het uit het hoofd leren van drempelbedragen.
 
+### Echte examenvragen voor PO 1.4
+
+> [!question] 2013-1-vr3 (3 punten)
+> Een onderneming, die een geconsolideerde jaarrekening moet opstellen, vraagt U onder welke post in de geconsolideerde resultatenrekening het gedeelte van het resultaat van de volledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen die worden gehouden door andere personen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochterondernemingen moet worden vermeld.
+>
+> _Concepten_: [[minderheidsbelangen]], [[integrale-consolidatie]]
+
+> [!question] 2013-1-vr4 (3 punten)
+> De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum?
+>
+> _Concepten_: [[geconsolideerde-jaarrekening]], [[wijziging-consolidatiekring]]
+
+> [!question] 2014-1-vr3 (3 punten)
+> De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum?
+>
+> _Concepten_: [[geconsolideerde-jaarrekening]]
+
+> [!question] 2014-1-vr4 (9 punten)
+> Vul onderstaande tabel aan op basis van volgende gegevens:
+>
+> M heeft 70 % van A en 30 % van B; A heeft 60 % van C; B heeft 20 % van C.
+>
+> | | Controlepercentage | Belangenpercentage | Consolidatiemethode |
+> |---|---|---|---|
+> | M in A | ? | ? | ? |
+> | M in B | ? | ? | ? |
+> | M in C | ? | ? | ? |
+>
+> _Concepten_: [[controlepercentage]], [[belangenpercentage]], [[controle]], [[invloed-van-betekenis]], [[integrale-consolidatie]], [[vermogensmutatiemethode]]
+
+> [!question] 2015-1-vr4 (6 punten)
+> Vraag rond consolidatie-keten en methode-keuze (zie ITAA-archief voor volledige opgave).
+>
+> _Concepten_: [[controlepercentage]], [[belangenpercentage]], [[consolidatieverschil]]
+
 ## Concept-index
 
 [[minderheidsbelangen|Belangen van derden / Aandeel van derden in het resultaat (minderheidsbelangen)]] · `fenomeen`

@@ -14,17 +14,21 @@ programmaonderdelen:
 confidence: grounded
 node_type: actor
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/geassocieerde-onderneming.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Geassocieerde onderneming ⚖️
 
-> Een onderneming, andere dan een dochteronderneming of een gemeenschappelijke dochteronderneming, waarin een andere onderneming een deelneming en een invloed van betekenis op de oriëntatie van het beleid bezit. Een invloed van betekenis wordt weerlegbaar vermoed wanneer de stemrechten verbonden aan deze deelneming twintig procent of meer bedragen van het totaal van de stemrechten van de aandeelhouders van die onderneming.
+> Een onderneming, andere dan een dochteronderneming of een gemeenschappelijke dochter, waarin een andere onderneming een deelneming en een invloed van betekenis op de oriëntatie van het beleid bezit. Een invloed van betekenis wordt weerlegbaar vermoed wanneer de stemrechten verbonden aan deze deelneming twintig procent of meer bedragen van het totaal van de stemrechten van de aandeelhouders van die onderneming.
 >
 > _Bron: WVV art. 1:22_
 
 
+> [!summary] Korte definitie
+> Een onderneming, andere dan een dochteronderneming of een gemeenschappelijke dochter, waarin een andere onderneming een deelneming en een invloed van betekenis op de oriëntatie van het beleid bezit.
+
+> [!info] Behoort tot: [[consolidatiekring]]
 ## In de praktijk
 
 ### Opname in de geconsolideerde jaarrekening {id="opname-in-de-geconsolideerde-jaarrekening"}
@@ -45,18 +49,17 @@ Niet enkel het resultaat (dat dan boekjaar voor boekjaar in 'Aandeel in het resu
 | Weerlegbaar vermoeden invloed van betekenis (= geassocieerde onderneming) | ≥ 20 % | stemrechten | Vermoeden dat de moeder invloed van betekenis heeft op het beleid → kwalificatie geassocieerde onderneming → vermogensmutatie. |
 | Bovengrens (overgang naar dochter) | > 50 % stemrechten of andere titel van controle | stemrechten | Vanaf controle (in rechte of feite) wordt de onderneming geen geassocieerde meer maar een dochteronderneming → integrale consolidatie. |
 
-## Vergelijkingsparen
-
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[dochteronderneming]] | Dochter = onderneming onder controle (in rechte/feite, exclusief/gezamenlijk). Geassocieerde = onderneming met invloed van betekenis maar zonder controle. Dochter → integrale/evenredige consolidatie; geassocieerde → vermogensmutatie. | — |
-| [[gemeenschappelijke-dochteronderneming]] | Een gemeenschappelijke dochter staat onder gezamenlijke controle (overeenkomst voor gezamenlijke besluitvorming) en wordt evenredig geconsolideerd. Een geassocieerde onderneming kent geen controlebevoegdheid; ze wordt via vermogensmutatie opgenomen. | — |
-| [[vermogensmutatiemethode]] | De geassocieerde onderneming is de soort entiteit; de vermogensmutatiemethode is de boekhoudkundige techniek die op die entiteit wordt toegepast. Niet elke vermogensmutatie geldt een geassocieerde — ook bepaalde dochters (KB WVV art. 3:100) en sommige gemeenschappelijke dochters worden via vermogensmutatie opgenomen. | — |
-
 ## Valkuilen
 
 - ⚠️ De waarde van een deelneming in een geassocieerde onderneming kan op de balans nooit lager zijn dan nul. Indien het pro-rata aandeel in een verlies de boekwaarde overstijgt, wordt de mutatie afgebroken op 0 — verdere verliezen worden niet doorgeboekt zolang er geen aanvullende verplichting bestaat. ⚖️
 - ⚠️ De toepassing van de vermogensmutatiemethode geeft geen vrijstelling van subconsolidatie — een groep met enkel een geassocieerde onderneming kan nog steeds consolidatieplichtig zijn op grond van haar andere dochters. ⚖️
+
+## Zie ook
+
+- **Getriggerd door**: [[invloed-van-betekenis]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 
@@ -67,6 +70,6 @@ Niet enkel het resultaat (dat dan boekjaar voor boekjaar in 'Aandeel in het resu
 [^5]: `CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie`
 [^6]: `CBN-2022-11-vermogensmutatiemethode__sec_directe-mutaties-binnen-het-eigen-vermogen-van-de-geassociee`
 [^7]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding`
-[^8]: `KB-WVV-2019__art_3_78`
-[^9]: `CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_3`
-[^10]: `CBN-2022-11-vermogensmutatiemethode__sec_toepassing-van-de-vermogensmutatiemethode`
+[^8]: `CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_3`
+[^9]: `CBN-2022-11-vermogensmutatiemethode__sec_toepassing-van-de-vermogensmutatiemethode`
+[^10]: `KB-WVV-2019__art_3_78`

@@ -16,9 +16,9 @@ programmaonderdelen:
 confidence: grounded
 node_type: actor
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/dochteronderneming.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Dochteronderneming ⚖️
 
@@ -27,6 +27,10 @@ gegenereerd_op: '2026-05-15'
 > _Bron: WVV art. 1:15, 2° jo. art. 3:22_
 
 
+> [!summary] Korte definitie
+> De vennootschap (dochtervennootschap) of het organisme (in ruime zin volgens WVV art.
+
+> [!info] Behoort tot: [[consolidatiekring]]
 ## In de praktijk
 
 ### Soorten dochterondernemingen voor consolidatiedoeleinden {id="soorten-dochterondernemingen-voor-consolidatiedoeleinden"}
@@ -40,13 +44,14 @@ gegenereerd_op: '2026-05-15'
 Een dochteronderneming mág buiten de consolidatie worden gelaten in vier gevallen: (1) van te verwaarlozen betekenis (cumulatief beoordeeld bij meerdere kleine dochters); (2) ingrijpende en duurzame beperkingen op de uitoefening van de controlebevoegdheid of de aanwending van het vermogen; (3) gegevens niet zonder onevenredige kosten/vertraging beschikbaar; (4) aandelen uitsluitend met het oog op latere vervreemding gehouden. Toepassing moet in de toelichting worden gemotiveerd. ⚖️
 
 
-## Vergelijkingsparen
+<details>
+<summary><strong>Niet verwarren met</strong> (1 vergelijkingen)</summary>
 
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[geassocieerde-onderneming]] | Dochteronderneming = vennootschap onder controle (in rechte/feite, exclusief/gezamenlijk). Geassocieerde onderneming = vennootschap waarop slechts invloed van betekenis bestaat, zonder controle. Dochter → integrale of evenredige consolidatie; geassocieerde → vermogensmutatie. | Toets de controlevraag: bestaat er beslissende invloed (al dan niet gezamenlijk)? Zo ja: dochter. Zo nee maar wel deelname aan beleid: geassocieerde. |
-| [[gemeenschappelijke-dochteronderneming]] | Gemeenschappelijke dochter is een dochter onder gezamenlijke controle (meerdere vennoten samen). 'Dochteronderneming' tout court omvat zowel exclusief gecontroleerde dochters als gemeenschappelijke dochters. | — |
-| [[consolidatiekring]] | Een dochteronderneming is een entiteit; de consolidatiekring is de verzameling van entiteiten (consoliderende vennootschap + al haar dochters, eventueel uitgebreid via WVV art. 3:22). Niet elke dochter zit in de kring (vgl. KB WVV art. 3:97-3:99 uitsluitingsgronden). | — |
+- **vs [[geassocieerde-onderneming]]** — Dochteronderneming = vennootschap onder controle (in rechte/feite, exclusief/gezamenlijk). Geassocieerde onderneming = vennootschap waarop slechts invloed van betekenis bestaat, zonder controle. Dochter → integrale of evenredige consolidatie; geassocieerde → vermogensmutatie.
+  - _Trigger_: Toets de controlevraag: bestaat er beslissende invloed (al dan niet gezamenlijk)? Zo ja: dochter. Zo nee maar wel deelname aan beleid: geassocieerde.
+
+</details>
+
 
 ## Valkuilen
 

@@ -13,9 +13,9 @@ programmaonderdelen:
 confidence: grounded
 node_type: actor
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/gemeenschappelijke-dochteronderneming.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Gemeenschappelijke dochteronderneming ⚖️
 
@@ -23,6 +23,9 @@ gegenereerd_op: '2026-05-15'
 >
 > _Bron: CBN 2017/02 — Gezamenlijke controle_
 
+
+> [!summary] Korte definitie
+> De vennootschap of onderneming ten opzichte waarvan een gezamenlijke controle bestaat: een beperkt aantal vennoten oefenen samen controle uit op grond van een overeenkomst dat beslissingen omtrent de oriëntatie van het beleid alleen met hun gemeenschappelijke instemming kunnen worden genomen.
 
 ## In de praktijk
 
@@ -41,17 +44,13 @@ Standaard: evenredige consolidatie — activa, passiva, opbrengsten en kosten va
 
 - Beperkt aantal vennoten (typisch 2 of 3) die samen het beleid bepalen. ⚖️
 - Overeenkomst (vaak een aandeelhoudersovereenkomst) dat beleidsbeslissingen alleen met gemeenschappelijke instemming kunnen worden genomen. Zonder overeenkomst: geen gezamenlijke controle → geen gemeenschappelijke dochter. ⚖️
-## Vergelijkingsparen
-
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[dochteronderneming]] | Een gewone dochter staat onder exclusieve controle van één moeder en wordt integraal geconsolideerd. Een gemeenschappelijke dochter staat onder gezamenlijke controle van meerdere vennoten en wordt evenredig (of via vermogensmutatie) geconsolideerd. | — |
-| [[geassocieerde-onderneming]] | Gemeenschappelijke dochter = gezamenlijke controle (overeenkomst voor veto over beleid). Geassocieerde onderneming = enkel invloed van betekenis, geen vetorecht. Eerste → evenredige consolidatie; tweede → vermogensmutatie. | — |
-| [[consortium]] | Een gemeenschappelijke dochter is één entiteit die door meerdere vennoten samen wordt gecontroleerd (verticale relatie naar de dochter). Een consortium daarentegen is een horizontale groep waarin vennootschappen onder centrale leiding staan zonder onderlinge moeder-dochter-band. | — |
-
 ## Valkuilen
 
 - ⚠️ Bij een participatie van 50/50 zonder stemovereenkomst is er géén gemeenschappelijke dochter. Verkeerde reflex: 'fifty-fifty = automatisch joint venture'. Zonder overeenkomst over gezamenlijke besluitvorming is er noch gezamenlijke controle, noch exclusieve controle. ⚖️
+
+## Zie ook
+
+- **Getriggerd door**: [[gezamenlijke-controle]]
 
 ## Bronnen
 

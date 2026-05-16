@@ -32,6 +32,7 @@ OUTPUT_CONTENT_DIR = ROOT / "content" / "studiemateriaal"
 EXTRACTIE_DIR = ROOT / "data" / "extractie"
 PROMPTS_DIR = ROOT / "prompts"
 GLUE_PROMPT = PROMPTS_DIR / "minicursus-glue-v1.md"
+EXAMEN_VRAGEN_DIR = ROOT / "data" / "programma" / "examen_vragen"
 
 
 def _laad_records_voor_programmaonderdeel(programmaonderdeel_id: str) -> list[dict]:
@@ -65,6 +66,56 @@ def _laad_competenties_voor_programmaonderdeel(programmaonderdeel_id: str) -> li
                 resultaat.append(comp)
         except (yaml.YAMLError, OSError):
             pass
+    return resultaat
+
+
+def _laad_examenvragen_voor_programmaonderdeel(programmaonderdeel_id: str) -> list[dict]:
+    """Laad examenvragen die geclassificeerd zijn voor dit programmaonderdeel.
+
+    Leest _programmaonderdeel_classificatie.json voor de vraag-ids, laadt dan
+    de volledige vraag-objecten uit de jaarsessie-bestanden (<jaar>-<sessie>.json).
+
+    Returns:
+        Gesorteerde lijst van vraag-dicts, elk aangevuld met examen_id-veld.
+    """
+    classificatie_bestand = EXAMEN_VRAGEN_DIR / "_programmaonderdeel_classificatie.json"
+    if not classificatie_bestand.exists():
+        return []
+
+    try:
+        classificatie = json.loads(classificatie_bestand.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+
+    # Verzamel vraag-ids voor dit programmaonderdeel
+    relevante_vraag_ids: set[str] = set()
+    for vraag_id, meta in classificatie.items():
+        if programmaonderdeel_id in meta.get("programmaonderdelen", []):
+            relevante_vraag_ids.add(vraag_id)
+
+    if not relevante_vraag_ids:
+        return []
+
+    # Laad volledige vragen uit jaarsessie-bestanden
+    resultaat: list[dict] = []
+    for bestand in sorted(EXAMEN_VRAGEN_DIR.glob("*.json")):
+        if bestand.name.startswith("_"):
+            continue
+        try:
+            data = json.loads(bestand.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+
+        examen_id = data.get("examen_id", bestand.stem)
+        for vraag in data.get("vragen", []):
+            vraag_id = vraag.get("id", "")
+            if vraag_id in relevante_vraag_ids:
+                aangevuld = dict(vraag)
+                aangevuld["examen_id"] = examen_id
+                resultaat.append(aangevuld)
+
+    # Sorteer op examen_id dan vraag_nr
+    resultaat.sort(key=lambda v: (v.get("examen_id", ""), str(v.get("vraag_nr", ""))))
     return resultaat
 
 
@@ -168,6 +219,7 @@ def render_skeleton(
     records: list[dict],
     competenties: list[dict],
     open_gaps: list[dict],
+    examenvragen: list[dict] | None = None,
 ) -> str:
     """Render het deterministisch skeleton van de minicursus.
 
@@ -177,6 +229,7 @@ def render_skeleton(
         records: alle concept-records voor dit programmaonderdeel
         competenties: alle competenties voor dit programmaonderdeel
         open_gaps: open gaps voor records van dit programmaonderdeel
+        examenvragen: volledige vraag-dicts voor dit programmaonderdeel (optioneel)
 
     Returns:
         Markdown-skeleton met placeholders voor Opus-glue
@@ -240,6 +293,7 @@ def render_skeleton(
         gesorteerde_records=gesorteerde_records,
         open_gaps=open_gaps,
         glue=glue,
+        examenvragen=examenvragen or [],
     )
 
 
@@ -379,6 +433,11 @@ def main() -> None:
     if open_gaps:
         print(f"[minicursus] {len(open_gaps)} open gaps gevonden — worden vermeld in skeleton.")
 
+    # Examenvragen laden
+    examenvragen = _laad_examenvragen_voor_programmaonderdeel(programmaonderdeel_id)
+    if examenvragen:
+        print(f"[minicursus] {len(examenvragen)} examenvragen geladen voor PO {programmaonderdeel_id}.")
+
     # Skeleton renderen
     skeleton = render_skeleton(
         programmaonderdeel_id=programmaonderdeel_id,
@@ -386,6 +445,7 @@ def main() -> None:
         records=records,
         competenties=competenties,
         open_gaps=open_gaps,
+        examenvragen=examenvragen,
     )
 
     # Output-paden

@@ -6,78 +6,177 @@ tags:
 programmaonderdelen:
 - '1.4'
 status: voorgesteld
-schema_version: '1.0'
+schema_version: '1.1'
 gegenereerd_uit: data/concepten/competenties/afbakenen-consolidatiekring.yaml
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Afbakenen van de consolidatiekring en beoordelen van uitsluitings- of weglatingsgronden
 
-**⚖️ 80% · 🤖 20%** · Status: `voorgesteld`
+**⚖️ 80% · 🤖 20%**
 
-> De samenstelling van de kring is wettelijk vastgelegd (WVV art. 3:22 e.v., KB WVV art. 3:97-3:99), maar het afwegen van 'te verwaarlozen betekenis' en 'getrouw beeld' vergt feitelijke beoordeling.
+> De samenstelling van de kring is wettelijk vastgelegd (WVV art. 3:22 en volgende, KB WVV art. 3:97-3:99). Het afwegen van 'te verwaarlozen betekenis' en 'getrouw beeld' vergt feitelijke beoordeling.
 
 ## Aanbevolen werkwijze
 
 ### 1. Identificeren van de consoliderende vennootschap
 
-📥 **Input**: Vaststelling van de moedervennootschap (uit [[bepalen-consolidatieverplichting]]) of de consortium-leden
-📤 **Output**: Lijst van entiteiten die als consoliderende vennootschap(pen) optreden
-**Waarom**: De kring wordt opgebouwd vanuit de consoliderende vennootschap; zonder dat startpunt is afbakening onmogelijk.
-**Grondslag**: [[consolidatiekring]]
+Bepaal welke vennootschap de geconsolideerde jaarrekening opmaakt.
+
+**Waarom?** Zonder startpunt kun je de kring niet opbouwen.
+
+**📥 Input**:
+- Conclusie uit [[bepalen-consolidatieverplichting]] → **Moeder of consortium-leden** _(conclusie)_
+
+**📤 Output**:
+- Werkpapier consolidatiekring → **Lijst van consoliderende vennootschappen** _(document)_
+
+**🛠️ Hoe**:
+
+1. Neem de eindconclusie van [[bepalen-consolidatieverplichting]] §eindkwalificatie over.
+2. Bij een verticale groep: Aurelia Holding NV is de consoliderende vennootschap.
+3. Bij een consortium: Industria Antwerpen NV en Jachthaven Jezus-Eik NV zijn samen de consoliderende vennootschappen.
+4. Noteer dit als startpunt van het werkpapier "Consolidatiekring".
+
+
+**Grondslag**: [[consolidatiekring]] §startpunt
+
 ### 2. Inventariseren van alle dochterondernemingen
 
-📥 **Input**: Aandeelhoudersregisters, statuten, aandeelhoudersovereenkomsten, gegevens over controle (rechte/feite, exclusief/gezamenlijk) over elke entiteit waarin een belang wordt aangehouden
-📤 **Output**: Lijst van entiteiten ten opzichte waarvan controlebevoegdheid bestaat — in de ruime WVV-betekenis (WVV art. 3:22): ook verenigingen, stichtingen en buitenlandse instellingen met commerciële, financiële of industriële activiteit
-**Waarom**: Alle dochterondernemingen behoren in beginsel tot de consolidatiekring (KB WVV art. 3:96).
-**Grondslag**: [[dochteronderneming]]
-> [!warning] Ook verenigingen, stichtingen en buitenlandse instellingen die een commerciële, financiële of industriële activiteit uitoefenen, kunnen dochteronderneming zijn.
->
-> _Vaak fout gedaan_: Alleen klassieke handelsvennootschappen behoren tot de consolidatiekring.
->
-> _Grondslag_: [[dochteronderneming]]
-### 3. Beoordelen of een dochter buiten de consolidatiekring mag worden gelaten
+Lijst alle entiteiten op waarover de moeder controlebevoegdheid heeft.
 
-📥 **Input**: Per dochter: materialiteit, beperkingen op de uitoefening van controle, beschikbaarheid en kostprijs van gegevens, voornemen tot verkoop, mogelijke conflict met getrouw beeld bij controle in feite
-📤 **Output**: Per dochter: opname in kring óf weglating met motivering — gebaseerd op de vier uitsluitingsgronden van KB WVV art. 3:97 en de specifieke regel van KB WVV art. 3:98 voor controle in feite
-**Waarom**: De wet laat vier weglatingsgronden toe; misbruik schendt het getrouwe beeld.
-**Grondslag**: [[consolidatiekring]]
-> [!warning] Weglating vereist één van de wettelijke gronden (te verwaarlozen betekenis; duurzame controlebeperking; onevenredige kosten/vertraging; bestemd om te worden verkocht) of strijdigheid met getrouw beeld bij controle in feite.
+**Waarom?** Alle dochters behoren in beginsel tot de kring (KB WVV art. 3:96).
+
+**📥 Input**:
+- Aandeelhoudersregister van Aurelia Holding NV → **Deelnemingen per entiteit** _(document)_
+- Statuten en aandeelhoudersovereenkomsten → **Controle-aanwijzingen** _(document)_
+
+**📤 Output**:
+- Werkpapier consolidatiekring → **Lijst kandidaat-dochters met aard van controle** _(document)_
+
+**🛠️ Hoe**:
+
+1. Open het aandeelhoudersregister van Aurelia Holding NV en zoek alle deelnemingen.
+2. Volg per deelneming de procedure uit [[kwalificeren-relatie-deelneming]] om controle vast te stellen.
+3. Vergeet niet de ruime definitie uit WVV art. 3:22: ook verenigingen, stichtingen en buitenlandse instellingen met een commerciële, financiële of industriële activiteit kunnen dochter zijn.
+4. Maak een tabel met per entiteit: naam, juridische vorm, belang Aurelia, controle-aard.
+
+
+**Grondslag**: [[dochteronderneming]] §definitie, WVV art. 3:22
+
+> [!warning] Inventariseer ook verenigingen, stichtingen en buitenlandse instellingen.
 >
-> _Vaak fout gedaan_: Een dochter mag buiten de kring blijven omdat consolideren administratief lastig is.
+> _Vaak fout gedaan_: Alleen klassieke handelsvennootschappen meetellen in de kring.
 >
-> _Grondslag_: [[consolidatiekring]]
+> _Grondslag_: [[dochteronderneming]] §ruime-definitie
+### 3. Beoordelen of een dochter buiten de kring mag worden gelaten
+
+Toets per dochter aan de vier wettelijke weglatingsgronden van KB WVV art. 3:97.
+
+**Waarom?** De wet laat vier weglatingsgronden toe; misbruik schendt het getrouw beeld.
+
+**📥 Input**:
+- Werkpapier per dochter → **Materialiteit, controlebeperkingen, kostprijs gegevens, verkoopvoornemen** _(document)_
+
+**📤 Output**:
+- Werkpapier consolidatiekring → **Per dochter: opname óf weglating met motivering** _(conclusie)_
+
+**🛠️ Hoe**:
+
+1. Toets per dochter aan de vier gronden van KB WVV art. 3:97:
+   (a) te verwaarlozen betekenis (bv. Gent Garantie BV met enkele duizenden EUR omzet);
+   (b) duurzame controlebeperking (bv. Logistics Lille SAS in een land met deviezenrestricties);
+   (c) onevenredige kosten of vertraging;
+   (d) bestemd om te worden verkocht.
+2. Bij controle in feite: pas KB WVV art. 3:98 toe als opname het getrouw beeld zou schaden.
+3. Documenteer voor elke weggelaten dochter de motivering — deze komt in de toelichting bij de geconsolideerde jaarrekening.
+4. Hou in gedachte: weglating is uitzondering, opname is regel.
+
+
+**Voorbeeld**: Aurelia Holding NV heeft drie dochters: Brugse Brouwerij BV (volledig gecontroleerd, materieel), Logistics Lille SAS (productie-eenheid in een land met deviezenrestricties), Gent Garantie BV (omzet 8.000 EUR).
+
+**Substap 1 — Toets per dochter** 🧮
+| Dochter                | Grond                              | Wettelijk artikel | Beslissing      |
+|------------------------|------------------------------------|-------------------|-----------------|
+| Brugse Brouwerij BV    | Geen weglatingsgrond               | —                 | Opname in kring |
+| Logistics Lille SAS    | Duurzame controlebeperking         | KB WVV art. 3:97  | Weglaten        |
+| Gent Garantie BV       | Te verwaarlozen betekenis          | KB WVV art. 3:97  | Weglaten        |
+
+
+**Substap 2 — Werkpapier consolidatiekring** 💬
+Logistics Lille SAS en Gent Garantie BV worden vermeld in de toelichting met motivering. Zij worden alsnog opgenomen via vermogensmutatie (zie stap 4).
+
+
+**Grondslag**: [[consolidatiekring]] §uitsluitingsgronden, KB WVV art. 3:97 en 3:98
+
+> [!warning] Weglating vereist altijd één van de vier wettelijke gronden.
+>
+> _Vaak fout gedaan_: Een dochter weglaten omdat consolideren administratief lastig is.
+>
+> _Grondslag_: [[consolidatiekring]] §wettelijke-weglatingsgronden
 ### 4. Verwerken van weggelaten dochters via vermogensmutatie
 
-📥 **Input**: Lijst van dochters die op grond van KB WVV art. 3:98 of 3:99 buiten de consolidatie zijn gelaten
-📤 **Output**: Beslissing dat deze dochters in de geconsolideerde jaarrekening worden opgenomen volgens de vermogensmutatiemethode
-**Waarom**: Dochters die uit de consolidatiekring zijn weggelaten worden volgens KB WVV niet zomaar genegeerd — zij worden via vermogensmutatie alsnog opgenomen om het getrouwe beeld te bewaren.
-**Grondslag**: [[consolidatiekring]]
-### 5. Identificeren van geassocieerde ondernemingen en gemeenschappelijke dochterondernemingen
+Neem dochters die zijn weggelaten op grond van art. 3:98 of 3:99 alsnog op via vermogensmutatie.
 
-📥 **Input**: Per deelneming: stemrechtpercentage, aanwezigheid van invloed van betekenis, aandeelhoudersovereenkomsten over gezamenlijke controle
-📤 **Output**: Lijst van geassocieerde ondernemingen (invloed van betekenis, geen controle) en gemeenschappelijke dochterondernemingen (gezamenlijke controle) — deze worden eveneens in de geconsolideerde jaarrekening opgenomen (via vermogensmutatie of evenredige consolidatie)
-**Waarom**: Geassocieerde en gemeenschappelijke dochters zijn geen klassieke dochterondernemingen, maar moeten wel in de geconsolideerde jaarrekening worden weergegeven via de gepaste techniek.
-**Grondslag**: [[geassocieerde-onderneming]]
+**Waarom?** KB WVV laat deze dochters niet zomaar verdwijnen — ze moeten via vermogensmutatie zichtbaar blijven voor het getrouw beeld.
+
+**📥 Input**:
+- Lijst weggelaten dochters → **Gronden art. 3:98 of 3:99** _(document)_
+
+**📤 Output**:
+- Werkpapier consolidatietechnieken → **Beslissing vermogensmutatie per weggelaten dochter** _(conclusie)_
+
+**🛠️ Hoe**:
+
+1. Maak een lijst van dochters die zijn uitgesloten op grond van KB WVV art. 3:98 (controle in feite indruisend tegen getrouw beeld) of art. 3:99 (geen going concern).
+2. Voor elk: noteer dat de boekhoudkundige verwerking gebeurt via [[vermogensmutatiemethode]] §toepassing-weggelaten-dochter.
+3. Geef dit door aan stap 5 voor verdere keuze van consolidatietechnieken.
+
+
+**Grondslag**: [[consolidatiekring]] §verwerking-uitgesloten-dochters
+
+### 5. Identificeren van geassocieerde en gemeenschappelijke dochters
+
+Lijst de geassocieerde ondernemingen (invloed van betekenis) en de gemeenschappelijke dochters (gezamenlijke controle) op.
+
+**Waarom?** Geassocieerde en gemeenschappelijke dochters zijn geen klassieke dochters, maar moeten wel in de geconsolideerde jaarrekening verschijnen.
+
+**📥 Input**:
+- Deelnemingen-lijst Aurelia Holding NV → **Stemrechtpercentage per deelneming** _(percentage)_
+- Aandeelhoudersovereenkomsten → **Afspraken over gezamenlijke controle** _(document)_
+
+**📤 Output**:
+- Werkpapier consolidatiekring → **Lijst geassocieerden + gemeenschappelijke dochters** _(document)_
+
+**🛠️ Hoe**:
+
+1. Open de deelnemingen-lijst. Voor elke deelneming zonder controle: volg [[kwalificeren-relatie-deelneming]] §invloed-van-betekenis.
+2. Stemrechtpercentage ≥ 20 % zonder controle? → vermoeden geassocieerde onderneming (bv. Drukkerij Dendermonde BV).
+3. Aandeelhoudersovereenkomst dat alle beleidsbeslissingen samen worden genomen? → gemeenschappelijke dochter (bv. Filmstudio Florence BV, 50/50 met Cardinal Group NV).
+4. Geef de lijst door aan [[kiezen-consolidatiemethode]] voor toewijzing van techniek (vermogensmutatie / evenredige consolidatie).
+
+
+**Grondslag**: [[geassocieerde-onderneming]] §kwalificatie, [[gemeenschappelijke-dochteronderneming]] §kwalificatie
+
 
 
 ## Voorbeelden
 
-**Situatie**: Een moeder M heeft drie dochters: D1 (volledig gecontroleerd, materieel; D2 een productie-eenheid in een land met deviezenrestricties die overdracht van gegevens duurzaam belemmeren; D3 met een omzet van enkele duizenden euro).
+**Situatie**: Aurelia Holding NV heeft drie dochters. Brugse Brouwerij BV is volledig gecontroleerd en materieel. Logistics Lille SAS is een productie-eenheid in een land met deviezenrestricties die overdracht van gegevens duurzaam belemmeren. Gent Garantie BV heeft een omzet van enkele duizenden EUR.
 
-**Conclusie**: D1 wordt opgenomen in de kring. D2 mag worden weggelaten wegens ingrijpende duurzame beperkingen (KB WVV art. 3:97); D3 mag worden weggelaten wegens te verwaarlozen betekenis.
+**Conclusie**: Brugse wordt opgenomen in de kring. Logistics mag worden weggelaten wegens duurzame controlebeperking. Gent Garantie mag worden weggelaten wegens te verwaarlozen betekenis. Logistics en Gent Garantie worden alsnog via vermogensmutatie verwerkt.
 
-**Grondslag**: [[consolidatiekring]] §uitsluitingsgronden
+**Grondslag**: [[consolidatiekring]] §uitsluitingsgronden; KB WVV art. 3:97
 
-**Redenering**: Twee van de vier wettelijke weglatingsgronden zijn van toepassing; D2 en D3 worden niet in de kring opgenomen maar wél vermeld in de toelichting met motivering.
+**Redenering**: Twee van de vier wettelijke weglatingsgronden zijn van toepassing. Logistics en Gent Garantie verdwijnen niet uit het beeld — zij komen via vermogensmutatie terug.
 
 ---
-**Situatie**: Vennootschap A en vennootschap B bezitten elk 50 % van X en hebben een overeenkomst dat beleidsbeslissingen alleen samen worden genomen.
+**Situatie**: Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV. Een aandeelhoudersovereenkomst bepaalt dat beleidsbeslissingen alleen samen worden genomen.
 
-**Conclusie**: X is een gemeenschappelijke dochteronderneming van A en B; X wordt evenredig opgenomen in de geconsolideerde jaarrekening van A én B (elk voor 50 %).
+**Conclusie**: Filmstudio Florence BV is een gemeenschappelijke dochter van Cardinal en Energiehuis. Filmstudio wordt evenredig opgenomen in de geconsolideerde jaarrekening van Cardinal én van Energiehuis (elk voor 50 %).
 
-**Grondslag**: [[gemeenschappelijke-dochteronderneming]] §gezamenlijke controle
+**Grondslag**: [[gemeenschappelijke-dochteronderneming]] §gezamenlijke-controle
 
-**Redenering**: De aandeelhoudersovereenkomst kwalificeert de relatie als gezamenlijke controle; X is daarmee gemeenschappelijke dochter en wordt pro-rata mee opgenomen.
+**Redenering**: De aandeelhoudersovereenkomst kwalificeert de relatie als gezamenlijke controle. Filmstudio is daarmee gemeenschappelijke dochter en wordt pro-rata opgenomen.
 
 ---
 

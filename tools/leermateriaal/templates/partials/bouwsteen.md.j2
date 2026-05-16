@@ -1,0 +1,22 @@
+{% for bouwsteen in bouwstenen %}
+### {{ bouwsteen.titel if bouwsteen is mapping and bouwsteen.titel else (bouwsteen.text[:80] if bouwsteen is mapping and bouwsteen.text else (bouwsteen[:80] if bouwsteen is string else '')) }} {{ (bouwsteen.confidence if bouwsteen is mapping else 'inferred') | default('inferred') | confidence_label }}
+
+{% if bouwsteen is mapping and bouwsteen.wat %}
+{{ bouwsteen.wat }}
+{% elif bouwsteen is mapping and bouwsteen.text %}
+{{ bouwsteen.text }}
+{% endif %}
+
+{% if bouwsteen is mapping and bouwsteen.waarom %}
+**Waarom?** {{ bouwsteen.waarom }}
+{% endif %}
+
+{% if bouwsteen is mapping and bouwsteen.voorbeeld_inline %}
+**Voorbeeld**: {{ bouwsteen.voorbeeld_inline }}
+{% endif %}
+
+{% if bouwsteen is mapping and bouwsteen.grondslag %}
+_Grondslag: {{ bouwsteen.grondslag }}_
+{% endif %}
+
+{% endfor %}

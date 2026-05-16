@@ -14,9 +14,9 @@ programmaonderdelen:
 confidence: grounded
 node_type: methode
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/integrale-consolidatie.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Integrale consolidatie ⚖️
 
@@ -25,29 +25,124 @@ gegenereerd_op: '2026-05-15'
 > _Bron: KB WVV art. 3:123 jo. art. 3:124, 1°_
 
 
+> [!summary] Korte definitie
+> De geconsolideerde jaarrekening voorstellen alsof het geheel van de consoliderende vennootschap en haar exclusief gecontroleerde dochterondernemingen één enkele economische entiteit vormt.
+
+> [!info] Behoort tot: [[consolidatieverschil]] · [[minderheidsbelangen]] · [[consolidatiemethodes-vergelijking]]
+> [!info] Bestaat uit: [[intragroep-eliminaties]] · [[minderheidsbelangen]]
 ## Bouwstenen
 
-- **Integrale opname (KB WVV art. 3:126)**: Alle actief- en passiefbestanddelen van de consoliderende vennootschap en van de in de consolidatie opgenomen dochterondernemingen worden in de geconsolideerde balans opgenomen. ⚖️
-- **Compensatie van de deelneming (KB WVV art. 3:127, a))**: De boekwaarde van de aandelen van de dochteronderneming wordt gecompenseerd met het deel van het eigen vermogen van de dochter dat door die aandelen wordt vertegenwoordigd, op de datum waarop de aandelen werden verworven (of nabijzijnde datum, KB WVV art. 3:129). ⚖️
-- **Toerekening van het compensatieverschil en consolidatieverschil (KB WVV art. 3:130)**: Het verschil uit de compensatie wordt zoveel mogelijk toegerekend aan actief- en passiefbestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde bij de dochter. Het overblijvende verschil wordt geboekt onder 'Consolidatieverschillen' (actiefzijde indien positief, passiefzijde indien negatief). Positieve en negatieve consolidatieverschillen mogen niet worden gecompenseerd, behalve indien ze betrekking hebben op dezelfde dochter (in dat geval verplicht). ⚖️
-- **Eliminatie van onderlinge vorderingen/schulden en interne winsten (KB WVV art. 3:134, 3:136)**: Uit de geconsolideerde balans worden weggelaten: onderlinge vorderingen en schulden tussen consoliderende vennootschap en in de consolidatie opgenomen dochters; in activa begrepen winsten/verliezen uit intra-groepsverkopen. Uit de geconsolideerde resultatenrekening worden onderlinge opbrengsten/kosten weggelaten. ⚖️
-- **Afzondering van het aandeel van derden (KB WVV art. 3:137)**: Het gedeelte van het resultaat van de volledig geconsolideerde dochters dat kan worden toegerekend aan aandelen gehouden door andere personen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochters, wordt onder 'Aandeel van derden in het resultaat' vermeld. Op de balans verschijnen deze als 'Belangen van derden' aan passiefzijde. ⚖️
+### Volledige opname van beide balansen ⚖️
+
+Alle bezittingen en schulden van moeder en dochter komen samen in de geconsolideerde balans — voor 100 %. Het belangenpercentage speelt in deze stap nog geen rol.
+
+**Waarom?** De groep wordt voorgesteld als één economische entiteit; je doet alsof het één bedrijf is, ook al heeft de moeder maar een belang van bijvoorbeeld 80 %.
+
+**Voorbeeld**: Aurelia Holding NV heeft activa 1000, Brugse Brouwerij BV heeft activa 600 → geconsolideerde activa (vóór intragroep-eliminaties): 1600.
+
+_Grondslag: KB WVV art. 3:126_
+
+### Schrappen van deelneming tegen aandeel in EV ⚖️
+
+Schrap de post 'Deelneming dochter' uit de balans van de moeder en schrap het bijhorend aandeel van de moeder in het eigen vermogen van de dochter. Gebruik daarvoor het eigen vermogen op de datum van aankoop, niet op afsluitingsdatum.
+
+**Waarom?** Anders zou je dezelfde economische waarde tweemaal tellen: één keer als 'Deelneming' bij de moeder en één keer als 'Eigen vermogen' van de dochter.
+
+**Voorbeeld**: Aurelia Holding NV bezit een 'Deelneming Brugse Brouwerij BV' van 320; aandeel in EV Brugse op aankoopdatum = 80 % × 300 = 240. Beide bedragen worden geschrapt.
+
+_Grondslag: KB WVV art. 3:127, a) jo. art. 3:129_
+
+### Verschil eerst toerekenen, dan pas goodwill ⚖️
+
+Het verschil dat uit de schrapping overblijft, reken je eerst toe aan bezittingen of schulden waarvan de werkelijke waarde afwijkt van de boekwaarde. Pas wat dan nog overblijft, boek je als 'Consolidatieverschillen' (positief → actiefzijde, negatief → passiefzijde). Positieve en negatieve verschillen mag je niet tegen elkaar wegstrepen, tenzij ze dezelfde dochter betreffen — dan moet het.
+
+**Waarom?** Boekwaarden weerspiegelen niet altijd de werkelijke waarde. Door eerst die verborgen meer- of minwaarden te erkennen, voorkom je dat het hele verschil onterecht als goodwill (consolidatieverschil) wordt geboekt.
+
+**Voorbeeld**: Aurelia Holding NV koopt Brugse Brouwerij BV; consolidatieverschil = 80. Het vastgoed van Brugse staat op 200 maar is werkelijk 250 waard → reken 50 toe aan vastgoed; resterende 30 boek je als 'Consolidatieverschillen'.
+
+_Grondslag: KB WVV art. 3:130_
+
+### Schrappen van onderlinge posten ⚖️
+
+Verwijder vorderingen en schulden tussen moeder en dochter (en tussen dochters onderling) uit de geconsolideerde balans. Verwijder ook winsten of verliezen die uit interne verkopen nog in activa (zoals voorraden) zitten. Idem voor onderlinge opbrengsten en kosten in de resultatenrekening.
+
+**Waarom?** Een groep kan niet aan zichzelf verkopen of geld lenen — economisch is dat één bedrijf. Als je die posten zou laten staan, blaast de geconsolideerde balans onterecht op.
+
+**Voorbeeld**: Aurelia Holding NV heeft een vordering van 50 op Brugse Brouwerij BV. In de geconsolideerde balans verdwijnen zowel de vordering bij Aurelia als de schuld bij Brugse.
+
+_Grondslag: KB WVV art. 3:134, 3:136_
+
+### Aandeel van derden apart presenteren ⚖️
+
+Bereken welk deel van het eigen vermogen en het resultaat van de dochter aan andere aandeelhouders toebehoort dan de moeder. Op de balans verschijnt dat als 'Belangen van derden' aan passiefzijde, op de resultatenrekening als 'Aandeel van derden in het resultaat'.
+
+**Waarom?** Bij integrale consolidatie zit 100 % van de dochter-balans erin, maar de moeder bezit economisch maar (bv.) 80 %. De 20 % die aan derden toebehoort moet zichtbaar blijven — anders krijgt de moeder krediet voor cijfers die niet aan haar toekomen.
+
+**Voorbeeld**: Eigen vermogen Brugse Brouwerij BV op afsluitingsdatum = 400; belang Aurelia = 80 %. Belangen van derden = 20 % × 400 = 80, gepresenteerd aan passiefzijde van de geconsolideerde balans.
+
+_Grondslag: KB WVV art. 3:137_
+
 
 ## Berekening
 
-### Integrale consolidatie — werkstroom (compensatie + eliminatie + minderheidsbelang)
+### Integrale consolidatie — werkstroom (compensatie + eliminatie + aandeel van derden)
 
-**Formule**: `Geconsolideerde post = (post moeder) + (post dochter × 100 %) − intragroep-eliminaties; Aandeel derden = (1 − belang%) × eigen vermogen of resultaat dochter`
+**Geconsolideerde post (vóór aandeel van derden)** 
+```
+geconsolideerde post = post moeder + post dochter (voor 100 %) − intragroep-eliminaties
+```
 
-*De moeder controleert de dochter en de groep wordt gepresenteerd als één economische entiteit. Bezittingen en schulden vloeien voor 100 % door; het derden-deel wordt op de passiefzijde van de balans als 'Belangen van derden' afgezonderd zodat de geconsolideerde gegevens transparant blijven.*
+| Symbool | Betekenis | Eenheid |
+|---|---|---|
+| `post moeder` | Bedrag van de post in de balans van de moeder | EUR |
+| `post dochter (voor 100 %)` | Bedrag van dezelfde post bij de dochter, los van belangenpercentage | EUR |
+| `intragroep-eliminaties` | Onderlinge vorderingen, schulden of niet-gerealiseerde winsten die je schrapt | EUR |
 
-**Stappen**:
+**Voorbeeld-invulling**: Aurelia 'Vlottende activa' = 800; Brugse 'Vlottende activa' = 200; intragroep-vordering = 50
 
-1. Neem alle actief- en passiefbestanddelen van moeder en dochter volledig op in de geconsolideerde balans (KB WVV art. 3:126).
-2. Compenseer de boekwaarde van de deelneming met het overeenkomstig deel van het eigen vermogen van de dochter op verwervingsdatum (KB WVV art. 3:127, a)).
-3. Reken het verschil zoveel mogelijk toe aan onder-/overgewaardeerde actief-/passiefbestanddelen (KB WVV art. 3:130, lid 1); het overblijvende verschil wordt 'Consolidatieverschillen' (KB WVV art. 3:130, lid 2).
-4. Elimineer onderlinge vorderingen/schulden en intra-groepswinsten/-verliezen in voorraad of activa (KB WVV art. 3:134); elimineer onderlinge opbrengsten/kosten (KB WVV art. 3:136).
-5. Bereken en presenteer het aandeel van derden in het eigen vermogen (balans, 'Belangen van derden') en in het resultaat (resultatenrekening, 'Aandeel van derden in het resultaat') voor het deel (1 − belang%) (KB WVV art. 3:137).
+```
+800 + 200 − 50 = 950
+```
+
+_Resultaat in EUR_
+**Aandeel van derden in het eigen vermogen** (volgt op: geconsolideerde-post)
+```
+belangen van derden = (1 − belangenpercentage moeder) × eigen vermogen dochter op afsluitingsdatum
+```
+
+| Symbool | Betekenis | Eenheid |
+|---|---|---|
+| `belangenpercentage moeder` | Aandeel van moeder in kapitaal dochter (zie [[belangenpercentage]]) | % |
+| `eigen vermogen dochter op afsluitingsdatum` | Kapitaal + reserves + overgedragen resultaat van de dochter, einde boekjaar | EUR |
+
+**Voorbeeld-invulling**: belangenpercentage Aurelia = 80 %; EV Brugse op afsluitingsdatum = 400
+
+```
+(1 − 80 %) × 400 = 20 % × 400 = 80
+```
+
+_Resultaat in EUR_
+**Aandeel van derden in het resultaat van het boekjaar** 
+```
+aandeel derden in resultaat = (1 − belangenpercentage moeder) × resultaat dochter boekjaar
+```
+
+| Symbool | Betekenis | Eenheid |
+|---|---|---|
+| `belangenpercentage moeder` | Aandeel van moeder in kapitaal dochter | % |
+| `resultaat dochter boekjaar` | Winst of verlies van de dochter in dit boekjaar | EUR |
+
+**Voorbeeld-invulling**: belangenpercentage Aurelia = 80 %; resultaat Brugse boekjaar = 100
+
+```
+(1 − 80 %) × 100 = 20 % × 100 = 20
+```
+
+_Resultaat in EUR_
+*De moeder controleert de dochter volledig, dus presenteer de groep als één bedrijf. Activa en schulden van beide kanten komen voor 100 % in de geconsolideerde balans. Het deel dat niet aan de moeder toebehoort (de minderheidsaandeelhouders) zet je apart als 'Belangen van derden' aan passiefzijde, zodat het cijferbeeld eerlijk blijft.*
+
+### . 
+
 **Voorbeeld**: Moeder M bezit 80 % van de stemrechten en het kapitaal van dochter D. Op acquisitiedatum: aanschaffingswaarde aandelen = 320; eigen vermogen D = 300; geen onder-/overwaarderingen. Balans D bij afsluiting jaar 1: activa 600, schulden aan derden 200, eigen vermogen 400 (waarvan resultaat boekjaar 100). M heeft een vordering op D van 50 (D dus een schuld van 50 aan M).
 
 ```
@@ -72,20 +167,26 @@ Integrale consolidatie is verplicht voor exclusief gecontroleerde dochters die i
 Eigen aandelen van de consoliderende vennootschap (én aandelen in de consoliderende vennootschap die door een in de consolidatie opgenomen dochter worden gehouden) worden in de geconsolideerde balans geboekt onder actiefpost IX. De toelichting vermeldt hoeveel aandelen aldus in bezit zijn. ⚖️
 
 
-## Vergelijkingsparen
+<details>
+<summary><strong>Niet verwarren met</strong> (2 vergelijkingen)</summary>
 
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[evenredige-consolidatie]] | Integrale consolidatie neemt 100 % van activa/passiva op (met aandeel van derden afzonderlijk) — voor exclusief gecontroleerde dochters. Evenredige consolidatie neemt activa/passiva op naar rato van de kapitaaldeelname (zonder afzonderlijke post 'aandeel van derden' want het deel buiten de groep wordt gewoon niet opgenomen) — voor gemeenschappelijke dochters. | Soort controle: exclusief → integraal; gezamenlijk → evenredig. |
-| [[vermogensmutatiemethode]] | Integrale consolidatie neemt de individuele activa/passiva op (regel voor regel). Vermogensmutatie behoudt de deelneming als één post 'Vennootschappen waarop vermogensmutatie is toegepast' (geherwaardeerd naar het pro-rata aandeel in het eigen vermogen). Integraal → controle; vermogensmutatie → invloed van betekenis (of uitgesloten dochter). | — |
-| [[consolidatieverschil]] | Integrale consolidatie genereert vaak een consolidatieverschil bij de eerste opname (verschil tussen aanschaffingswaarde van de deelneming en het overeenkomstige deel van het eigen vermogen van de dochter). Dit verschil is een gevolg van de techniek, niet de techniek zelf. | — |
-| [[minderheidsbelangen]] | Minderheidsbelangen ('Belangen van derden' op de balans, 'Aandeel van derden in het resultaat' op de resultatenrekening) zijn typische posten die uitsluitend bij integrale consolidatie ontstaan — bij evenredige consolidatie wordt het derden-deel gewoon niet opgenomen, dus is er geen aparte derden-post. | — |
+- **vs [[evenredige-consolidatie]]** — Integrale consolidatie neemt 100 % van activa/passiva op (met aandeel van derden afzonderlijk) — voor exclusief gecontroleerde dochters. Evenredige consolidatie neemt activa/passiva op naar rato van de kapitaaldeelname (zonder afzonderlijke
+  - _Trigger_: Soort controle / type relatie tussen moeder en dochter bepaalt welke methode.
+- **vs [[vermogensmutatiemethode]]** — Integrale consolidatie neemt de individuele activa/passiva op (regel voor regel). Vermogensmutatie behoudt de deelneming als één post 'Vennootschappen waarop vermogensmutatie is toegepast' (geherwaardeerd naar het pro-rata aandeel in het ei
+  - _Trigger_: Soort controle / type relatie tussen moeder en dochter bepaalt welke methode.
+
+</details>
+
 
 ## Valkuilen
 
 - ⚠️ De compensatie van de deelneming gebeurt op verwervingsdatum, niet op afsluitingsdatum. Het eigen vermogen op verwervingsdatum bevriest; latere wijzigingen in het eigen vermogen van de dochter worden behandeld als geconsolideerde reserves of resultaat — niet als toename of afname van het consolidatieverschil. ⚖️
 - ⚠️ Bij eerste consolidatie van een vennootschap kan de compensatie ten belope van de aandelen in haar bezit op die datum gebeuren op de aanvangsdatum van het boekjaar (KB WVV art. 3:129, b)). Dit is een uitzondering die in de toelichting kan worden gemotiveerd. ⚖️
 - ⚠️ De weglatingen van KB WVV art. 3:134 en 3:136 mogen achterwege blijven 'wanneer de betrokken bedragen, gelet op het doel van artikel 3:105, slechts van te verwaarlozen betekenis zijn' (KB WVV art. 3:138 jo. art. 3:139). Praktisch beoordelen op materialiteit. ⚖️
+
+## Zie ook
+
+- **Getriggerd door**: [[exclusieve-controle]]
 
 ## Bronnen
 

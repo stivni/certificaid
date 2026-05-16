@@ -6,78 +6,181 @@ tags:
 programmaonderdelen:
 - '1.4'
 status: voorgesteld
-schema_version: '1.0'
+schema_version: '1.1'
 gegenereerd_uit: data/concepten/competenties/berekenen-controle-en-belangenpercentage.yaml
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Berekenen van controle- en belangenpercentage in een ketenstructuur
 
-**⚖️ 60% · 🤖 40%** · Status: `voorgesteld`
+**⚖️ 60% · 🤖 40%**
 
-> De definities en de drempel (> 50 %) zijn wettelijk; de rekenregels in ketens (controle-% niet vermenigvuldigen, belangen-% wél vermenigvuldigen) zijn praktijkconventies die in de CBN-doctrine en KB WVV-toepassing worden gehanteerd.
+> De definities en de drempel (> 50 %) zijn wettelijk. De rekenregels in ketens (controle-% niet vermenigvuldigen, belangen-% wél) zijn praktijkconventies die in de CBN-doctrine en KB WVV-toepassing worden gehanteerd.
 
 ## Aanbevolen werkwijze
 
 ### 1. Tekenen van de aandeelhoudersketen
 
-📥 **Input**: Aandeelhouderslijst per vennootschap in de groep, met stemrechtpercentage per directe deelneming
-📤 **Output**: Schema van directe deelnemingen tussen alle relevante entiteiten (M → A → B → ...)
-**Waarom**: Een correcte berekening vereist een visueel of tabellarisch overzicht van alle schakels.
-**Grondslag**: 🤖 Beroepspraktijk — Werkmethodologische voorbereiding — geen aparte wettelijke regel.
+Maak een visueel schema van wie wie controleert in de groep, met stemrechtpercentage per schakel.
+
+**Waarom?** Zonder schema is een correcte ketenberekening niet mogelijk.
+
+**📥 Input**:
+- Aandeelhoudersregister per vennootschap → **Stemrechtpercentage per directe deelneming** _(percentage)_
+
+**📤 Output**:
+- Werkpapier ketenstructuur → **Schema van directe deelnemingen** _(document)_
+
+**🛠️ Hoe**:
+
+1. Lijst alle vennootschappen in de groep (bv. Aurelia Holding NV, Brugse Brouwerij BV, Cardinal Group NV).
+2. Teken per vennootschap een blok. Trek pijlen van moeder naar dochter met het stemrechtpercentage erbij (bv. Aurelia → 80 % → Brugse → 60 % → Cardinal).
+3. Verifieer of elke schakel volledig is: ontbreken er aandeelhouders, dan kun je geen sluitende berekening maken.
+4. Hou het schema bij de hand voor stappen 2 en 3.
+
+
+**Grondslag**: [[controlepercentage]] §voorbereiding (praktijk)
+
 ### 2. Berekenen van het controlepercentage in elke schakel
 
-📥 **Input**: Stemrechtpercentages per directe deelneming
-📤 **Output**: Per schakel: controlepercentage = direct gehouden stemrechten + stemrechten die de moeder indirect controleert via dochters die zelf exclusieve controle hebben (NIET vermenigvuldigen)
-**Waarom**: Zodra elke tussenschakel exclusieve controle heeft, telt het volledige stemrechtpercentage van de onderste schakel mee als 'gecontroleerd door de moeder'.
-**Grondslag**: [[controlepercentage]]
-> [!warning] Het controlepercentage wordt NIET vermenigvuldigd: zolang elke schakel exclusieve controle heeft, telt het stemrechtpercentage van de onderste schakel volledig mee voor de moeder.
+Bepaal per dochter het percentage stemrechten dat de moeder direct of indirect via gecontroleerde tussenschakels uitoefent.
+
+**Waarom?** Het controlepercentage bepaalt of er exclusieve controle is en dus consolidatieplicht.
+
+**📥 Input**:
+- Werkpapier ketenstructuur → **Stemrechtpercentage per schakel** _(percentage)_
+
+**📤 Output**:
+- Werkpapier per dochter → **Controlepercentage moeder** _(percentage)_
+
+**🛠️ Hoe**:
+
+1. Voor de directe dochter (Brugse): controlepercentage = direct gehouden stemrechten Aurelia in Brugse (80 %).
+2. Voor een kleindochter (Cardinal): toets eerst of Aurelia exclusieve controle heeft over Brugse (80 % > 50 % → ja).
+3. Heeft elke tussenschakel exclusieve controle, dan telt het volledige stemrechtpercentage van de onderste schakel mee. Controle Aurelia in Cardinal = 60 % (NIET 80 % × 60 %).
+4. Pas op: zodra één schakel geen exclusieve controle heeft, breekt de keten — zie [[exclusieve-controle]] §keten-breuk.
+
+
+**Voorbeeld**: Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV. Brugse bezit 60 % stemrechten in Cardinal Group NV. In elke schakel: exclusieve controle in rechte.
+
+**Substap 1 — Schema van de keten** 🌊
+Aurelia Holding NV — 80 % stemrechten → Brugse Brouwerij BV — 60 % stemrechten → Cardinal Group NV
+
+
+**Substap 2 — Berekening controlepercentage Aurelia in Cardinal** 🧮
+Stap a: heeft Aurelia exclusieve controle over Brugse? 80 % > 50 % → ja.
+Stap b: Brugse bezit 60 % in Cardinal → exclusieve controle over Cardinal.
+Stap c: controlepercentage Aurelia in Cardinal = 60 % (niet vermenigvuldigen — elke schakel heeft exclusieve controle, dus het volledige stemrechtpercentage van de onderste schakel telt mee).
+
+
+**Grondslag**: [[controlepercentage]] §berekening, WVV art. 1:14 e.v.
+
+> [!warning] Het controlepercentage wordt NIET vermenigvuldigd langs de keten.
 >
-> _Vaak fout gedaan_: Het controlepercentage wordt zoals het belangenpercentage vermenigvuldigd langs de keten.
+> _Vaak fout gedaan_: Controlepercentage doorheen de keten vermenigvuldigen, zoals het belangenpercentage.
 >
-> _Grondslag_: [[controlepercentage]]
+> _Grondslag_: [[controlepercentage]] §rekenregel-keten
 ### 3. Berekenen van het belangenpercentage in elke schakel
 
-📥 **Input**: Belangenpercentages per directe deelneming (economisch eigendomsaandeel)
-📤 **Output**: Per schakel: belangenpercentage = product van de belangenpercentages langs de keten (M → 80 % A → 60 % B = 0,80 × 0,60 = 48 %)
-**Waarom**: Het economische eigendomsaandeel verdunt door tussenliggende derden en moet daarom worden vermenigvuldigd.
-**Grondslag**: [[belangenpercentage]]
-> [!warning] Ze kunnen verschillen: het belangenpercentage wordt vermenigvuldigd, het controlepercentage niet. Bij M → 80 % A → 60 % B is controle = 60 % (controle in elke schakel), belang = 48 %.
+Bepaal het economische eigendomsaandeel van de moeder in elke vennootschap door de belangenpercentages langs de keten te vermenigvuldigen.
+
+**Waarom?** Het belangenpercentage bepaalt het pro-rata aandeel in eigen vermogen, resultaat en consolidatieverschil.
+
+**📥 Input**:
+- Werkpapier ketenstructuur → **Belangenpercentage per directe deelneming** _(percentage)_
+
+**📤 Output**:
+- Werkpapier per dochter → **Belangenpercentage moeder** _(percentage)_
+
+**🛠️ Hoe**:
+
+1. Voor de directe dochter: belangenpercentage = direct gehouden aandeel (Aurelia in Brugse = 80 %).
+2. Voor een kleindochter: vermenigvuldig de belangenpercentages doorheen de keten. Belangenpercentage Aurelia in Cardinal = 80 % × 60 % = 48 %.
+3. Het economische eigendomsaandeel verdunt door tussenliggende derden. Cardinal hoort voor 48 % economisch toe aan Aurelia, voor 52 % aan derden.
+4. Gebruik dit getal in de berekening van aandeel van derden bij integrale consolidatie (zie [[uitvoeren-intragroep-eliminaties]] stap 7).
+
+
+**Voorbeeld**: Zelfde keten als stap 2: Aurelia 80 % → Brugse 60 % → Cardinal.
+
+**Substap 1 — Berekening belangenpercentage Aurelia in Cardinal** 🧮
+belangenpercentage Aurelia in Cardinal = belang Aurelia in Brugse × belang Brugse in Cardinal
+                                        = 80 % × 60 %
+                                        = **48 %**
+Derden hebben dus 100 % − 48 % = **52 %** economisch belang in Cardinal.
+
+
+**Grondslag**: [[belangenpercentage]] §berekening-keten
+
+> [!warning] Belangenpercentage WEL vermenigvuldigen, controlepercentage NIET.
 >
-> _Vaak fout gedaan_: Het belangenpercentage en het controlepercentage zijn altijd gelijk.
+> _Vaak fout gedaan_: Aannemen dat belangenpercentage en controlepercentage altijd gelijk zijn.
 >
-> _Grondslag_: [[belangenpercentage]]
+> _Grondslag_: [[belangenpercentage]] §onderscheid-controle
 ### 4. Toetsen of er in elke schakel exclusieve controle bestaat
 
-📥 **Input**: Per schakel: controlepercentage > 50 % of andere onweerlegbare vermoedens
-📤 **Output**: Per schakel: bevestiging of breuk in de controle-keten (waardoor het 'volledig meetellen' van de onderste schakel niet meer geldt)
-**Waarom**: Indien een schakel geen exclusieve controle heeft, breekt de keten en moet het controlepercentage van de moeder over de onderste schakel opnieuw beoordeeld worden — vaak als geen-controle of als invloed van betekenis.
-**Grondslag**: [[exclusieve-controle]]
+Ga schakel per schakel na of de tussenschakel exclusieve controle uitoefent.
+
+**Waarom?** Bij een breuk in de controle-keten geldt het 'volledig meetellen' niet meer en moet je opnieuw kwalificeren.
+
+**📥 Input**:
+- Werkpapier ketenstructuur → **Stemrechtpercentage en kwalitatieve aanwijzingen per schakel** _(document)_
+
+**📤 Output**:
+- Werkpapier per schakel → **Ja/nee exclusieve controle + gevolg voor keten** _(conclusie)_
+
+**🛠️ Hoe**:
+
+1. Toets per schakel aan de criteria uit [[exclusieve-controle]] §controle-in-rechte en §controle-in-feite.
+2. > 50 % stemrechten? → exclusieve controle in rechte.
+3. ≤ 50 % stemrechten maar onweerlegbare vermoedens of controle-in-feite? → exclusieve controle toch.
+4. Geen controle? → de keten breekt. Op die schakel begint een nieuwe kwalificatie (mogelijk gezamenlijke controle of invloed van betekenis).
+5. Bij een breuk: stap 2 en 3 moeten opnieuw worden uitgevoerd vanaf het breukpunt.
+
+
+**Grondslag**: [[exclusieve-controle]] §keten-breuk
+
 ### 5. Toepassen van het belangenpercentage in de consolidatieverwerking
 
-📥 **Input**: Belangenpercentage per dochter (eventueel pro-rata bij gemeenschappelijke dochter)
-📤 **Output**: Berekeningsbasis voor: aandeel van derden (1 − belang%) bij integrale consolidatie; pro-rata opname (belang%) bij evenredige consolidatie; pro-rata aandeel in eigen vermogen bij vermogensmutatie
-**Waarom**: Het belangenpercentage is de rekenmaatstaf voor de bedragen die uiteindelijk in de geconsolideerde jaarrekening verschijnen.
-**Grondslag**: [[belangenpercentage]]
+Gebruik het belangenpercentage als rekenmaatstaf voor de bedragen in de geconsolideerde jaarrekening.
+
+**Waarom?** Het belangenpercentage is de basis voor aandeel van derden, pro-rata aandeel in eigen vermogen en pro-rata-opname bij evenredige consolidatie.
+
+**📥 Input**:
+- Belangenpercentage per dochter (uit stap 3) → **Percentage** _(percentage)_
+- Cijfers van de dochter → **Eigen vermogen, resultaat, balansposten** _(boekhoudkundig-bedrag)_
+
+**📤 Output**:
+- Geconsolideerde jaarrekening → **Aandeel van derden, pro-rata opname, pro-rata aandeel EV** _(nieuwe-balanspost)_
+
+**🛠️ Hoe**:
+
+1. Bij integrale consolidatie: bereken aandeel van derden = (1 − belangenpercentage) × eigen vermogen dochter. Zie [[uitvoeren-intragroep-eliminaties]] stap 7.
+2. Bij evenredige consolidatie: neem activa en passiva op voor belangenpercentage × bedrag dochter. Geen aandeel van derden.
+3. Bij vermogensmutatie: bereken pro-rata aandeel in EV = belangenpercentage × eigen vermogen geassocieerde op aankoopdatum.
+4. Documenteer de toegepaste rekenmaatstaf in het werkpapier.
+
+
+**Grondslag**: [[belangenpercentage]] §toepassing, KB WVV art. 3:137 en 3:141
+
 
 
 ## Voorbeelden
 
-**Situatie**: Vennootschap M bezit 80 % van vennootschap A; A bezit 60 % van vennootschap B. In elke schakel bezit de bovenliggende vennootschap exclusieve controle in rechte (> 50 %).
+**Situatie**: Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV. Brugse bezit 60 % van Cardinal Group NV. In elke schakel: exclusieve controle in rechte (> 50 %).
 
-**Conclusie**: Controlepercentage van M in B = 60 % (NIET vermenigvuldigen — elke schakel heeft exclusieve controle, dus 60 % telt volledig mee voor M). Belangenpercentage van M in B = 0,80 × 0,60 = 48 %.
+**Conclusie**: Controlepercentage Aurelia in Cardinal = 60 % (NIET vermenigvuldigen — elke schakel heeft exclusieve controle). Belangenpercentage Aurelia in Cardinal = 0,80 × 0,60 = 48 %.
 
 **Grondslag**: [[controlepercentage]] §keten; [[belangenpercentage]] §keten
 
-**Redenering**: Controlepercentage en belangenpercentage volgen verschillende rekenregels; M consolideert B integraal omdat zij via A exclusieve controle uitoefent, maar derden (52 %) wordt afgezonderd op basis van het belangenpercentage.
+**Redenering**: Controlepercentage en belangenpercentage volgen verschillende rekenregels. Aurelia consolideert Cardinal integraal omdat zij via Brugse exclusieve controle uitoefent. Het aandeel van derden (52 %) wordt afgezonderd op basis van het belangenpercentage.
 
 ---
-**Situatie**: M bezit 90 % van dochter D. D heeft een industriële activiteit, D's eigen vermogen op afsluitingsdatum = 1.000.
+**Situatie**: Aurelia Holding NV bezit 90 % van Brugse Brouwerij BV. Brugse heeft een industriële activiteit. Eigen vermogen Brugse op afsluitingsdatum = 1.000.
 
-**Conclusie**: Belangenpercentage = 90 %; aandeel van derden = (1 − 0,90) × 1.000 = 100 (op de balans) en (1 − 0,90) × resultaat D in de resultatenrekening.
+**Conclusie**: Belangenpercentage Aurelia in Brugse = 90 %. Aandeel van derden = (1 − 0,90) × 1.000 = 100 (op de balans), en (1 − 0,90) × resultaat Brugse (resultatenrekening).
 
-**Grondslag**: [[belangenpercentage]] §berekening aandeel van derden; [[minderheidsbelangen]] §formule
+**Grondslag**: [[belangenpercentage]] §berekening-aandeel-van-derden; [[minderheidsbelangen]] §formule
 
-**Redenering**: Bij integrale consolidatie wordt 100 % van D opgenomen; het complement van het belangenpercentage bepaalt het deel dat als 'belangen van derden' wordt afgezonderd.
+**Redenering**: Bij integrale consolidatie wordt 100 % van Brugse opgenomen. Het complement van het belangenpercentage bepaalt het deel dat als 'belangen van derden' wordt afgezonderd.
 
 ---
 

@@ -15,9 +15,9 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/consolidatieverplichting.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Consolidatieverplichting ⚖️
 
@@ -25,6 +25,9 @@ gegenereerd_op: '2026-05-15'
 >
 > _Bron: WVV art. 3:22 jo. art. 3:24 (consortium)_
 
+
+> [!summary] Korte definitie
+> Elke moedervennootschap die, alleen of gezamenlijk, één of meer dochterondernemingen controleert, is in beginsel verplicht een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen, te laten controleren en bekend te maken.
 
 ## In de praktijk
 
@@ -45,19 +48,14 @@ De beoordeling van de groottecriteria gebeurt op geconsolideerde of geaggregeerd
 
 - Vrijstelling wegens groep van beperkte omvang — een moedervennootschap die op geconsolideerde of geaggregeerde basis niet meer dan één van de criteria van WVV art. 1:26, § 1 overschrijdt, is vrijgesteld (groep van beperkte omvang). ⚖️
 - Vrijstelling van subconsolidatie — een (sub)moedervennootschap is vrijgesteld indien zij zelf de dochter is van een moedervennootschap die hogerop al consolideert (geconsolideerde jaarrekening + jaarverslag opmaakt, laat controleren en openbaar maakt). Niet van toepassing wanneer een van de te consolideren vennootschappen (de submoeder of haar dochters) genoteerd is. ⚖️
-## Vergelijkingsparen
-
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[groottecriteria]] | Consolidatieverplichting = de juridische plicht tot opmaak/controle/publicatie. Groottecriteria = de kwantitatieve drempels (omzet, balanstotaal, personeel) waaraan de vrijstelling voor groepen van beperkte omvang gekoppeld is. Eerste is het 'wat'; tweede is een 'wanneer-vrij'. | — |
-| [[vrijstelling-subconsolidatie]] | Consolidatieverplichting bestaat van rechtswege bij elke moedervennootschap; de vrijstelling van subconsolidatie is een afwijking die intermediate-moeders ontheft van de plicht, op voorwaarde dat de bovenmoeder reeds consolideert (en geen genoteerde vennootschap is gevangen in de keten). | — |
-| [[consolidatiekring]] | Consolidatieverplichting bepaalt of er geconsolideerd moet worden. Consolidatiekring bepaalt welke entiteiten in de geconsolideerde jaarrekening moeten worden opgenomen. | — |
-
 ## Valkuilen
 
 - ⚠️ Een natuurlijke persoon of een private stichting die meerderheidsstemrechten in meerdere vennootschappen aanhoudt, kwalificeert zelf niet als moedervennootschap en is niet consolidatieplichtig. In dergelijke configuratie ontstaat doorgaans een consortium en rust de consolidatieplicht op de leden samen. ⚖️
 - ⚠️ Een maatschap zonder rechtspersoonlijkheid kan geen moedervennootschap zijn. Indien de structuur niet kwalificeert als consortium, vervalt de vrijstelling van subconsolidatie voor de onderliggende vennootschappen en moeten zij zelf consolideren. ⚖️
 - ⚠️ Beoordeling van de groottecriteria 'op geconsolideerde basis' betekent niet automatisch dat effectief een geconsolideerde jaarrekening moet worden opgesteld — het is enkel een berekeningswijze om de vrijstellingsdrempels te toetsen. ⚖️
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

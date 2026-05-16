@@ -7,75 +7,236 @@ tags:
 programmaonderdelen:
 - '1.4'
 status: voorgesteld
-schema_version: '1.0'
+schema_version: '1.1'
 gegenereerd_uit: data/concepten/competenties/uitvoeren-eerste-consolidatie.yaml
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Uitvoeren van de eerste consolidatie van een nieuw verworven dochter of geassocieerde onderneming
 
-**⚖️ 75% · 🤖 25%** · Status: `voorgesteld`
+**⚖️ 75% · 🤖 25%**
 
-> De stappen volgen KB WVV art. 3:127-3:131 (compensatie, toerekening verschil aan onder-/overgewaardeerde activa, boeking residueel consolidatieverschil, afschrijving); de waardering van stille meer-/minderwaarden en de keuze van de afschrijvingsduur vergen oordeel.
+> De stappen volgen KB WVV art. 3:127-3:131 (compensatie, toerekening verschil aan onder- of overgewaardeerde activa, boeking residueel consolidatieverschil, afschrijving). De waardering van stille meer- of minderwaarden en de keuze van de afschrijvingsduur vergen oordeel.
 
 ## Aanbevolen werkwijze
 
 ### 1. Vaststellen van de aanschaffingswaarde van de deelneming
 
-📥 **Input**: Contracten van overdracht, betalingsbewijzen, eventuele aanpassingen aan de aanschaffingsprijs (earn-outs, vendor loans)
-📤 **Output**: Aanschaffingswaarde van de aandelen op verwervingsdatum (t = 0)
-**Waarom**: De aanschaffingswaarde is één van de twee termen van de compensatie bij eerste consolidatie.
-**Grondslag**: [[eerste-consolidatie]]
+Bepaal de prijs die de moeder voor de aandelen heeft betaald.
+
+**Waarom?** De aanschaffingswaarde is één van de twee termen in de compensatie van de eerste consolidatie.
+
+**📥 Input**:
+- Aandelenkoopovereenkomst → **Aanschaffingsprijs op verwervingsdatum** _(boekhoudkundig-bedrag)_
+- Betalingsbewijzen en addenda → **Earn-outs, vendor loans, aanpassingen** _(boekhoudkundig-bedrag)_
+
+**📤 Output**:
+- Werkpapier eerste consolidatie → **Aanschaffingswaarde op verwervingsdatum** _(boekhoudkundig-bedrag)_
+
+**🛠️ Hoe**:
+
+1. Open de aandelenkoopovereenkomst van 1 januari 20X1 waarmee Aurelia Holding NV 80 % van Brugse Brouwerij BV verwerft.
+2. Lees de overeengekomen prijs (bv. 320).
+3. Tel alle aanpassingen op: earn-outs, vendor loans, transactiekosten — maar enkel als ze tot de aanschaffingswaarde behoren volgens [[eerste-consolidatie]] §aanschaffingswaarde.
+4. Noteer het eindresultaat als 'Aanschaffingswaarde deelneming Brugse Brouwerij BV = 320'.
+
+
+**Grondslag**: [[eerste-consolidatie]] §aanschaffingswaarde, KB WVV art. 3:127
+
 ### 2. Bepalen van het eigen vermogen van de dochter op verwervingsdatum
 
-📥 **Input**: Boekhouding van de dochter op of nabij verwervingsdatum (KB WVV art. 3:129 staat een nabijzijnde datum toe)
-📤 **Output**: Eigen vermogen van de dochter op verwervingsdatum
-**Waarom**: Het pro-rata aandeel in dit eigen vermogen vormt de tweede term van de compensatie.
-**Grondslag**: [[eerste-consolidatie]]
-### 3. Toerekenen van het verschil aan onder-/overgewaardeerde activa en passiva
+Bereken het eigen vermogen van de dochter op de datum dat de moeder controle verwerft.
 
-📥 **Input**: Aanschaffingswaarde − (belang% × eigen vermogen dochter); inventarisatie van stille meer-/minderwaarden op activa (bv. terreinen tegen historische kostprijs) en op passiva (bv. te hoge voorzieningen)
-📤 **Output**: Toerekening van het verschil aan de onder-/overgewaardeerde activa en passiva; herwaardering van die bestanddelen in de consolidatie
-**Waarom**: KB WVV art. 3:128 vereist dat het verschil zoveel mogelijk wordt toegerekend aan bestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde, vóór het residu als consolidatieverschil wordt geboekt.
-**Grondslag**: [[consolidatieverschil]]
-> [!warning] Eerst moet het verschil worden toegerekend aan onder-/overgewaardeerde activa en passiva; pas het residu wordt 'consolidatieverschil'.
+**Waarom?** Het pro-rata aandeel van de moeder in dit eigen vermogen vormt de tweede term van de compensatie.
+
+**📥 Input**:
+- Balans van Brugse Brouwerij BV op of nabij verwervingsdatum → **Kapitaal + reserves + overgedragen resultaat** _(boekhoudkundig-bedrag)_
+
+**📤 Output**:
+- Werkpapier eerste consolidatie → **Eigen vermogen dochter op verwervingsdatum** _(boekhoudkundig-bedrag)_
+
+**🛠️ Hoe**:
+
+1. Vraag aan Brugse Brouwerij BV de tussentijdse balans op verwervingsdatum (1 januari 20X1), of de balans op de meest nabije datum die binnen het toegelaten venster van KB WVV art. 3:129 valt.
+2. Tel op: kapitaal + uitgiftepremies + reserves + overgedragen resultaat.
+3. Bij Brugse: kapitaal 200 + reserves 100 = eigen vermogen 300.
+4. Documenteer ook welke datum gebruikt werd en waarom (KB WVV art. 3:129 b laat ook aanvangsdatum boekjaar toe in eerste-consolidatie-uitzondering).
+
+
+**Grondslag**: [[eerste-consolidatie]] §eigen-vermogen-op-verwervingsdatum, KB WVV art. 3:129
+
+### 3. Toerekenen van het verschil aan onder- of overgewaardeerde activa en passiva
+
+Bereken het verschil tussen aanschaffingswaarde en pro-rata eigen vermogen, en reken het zoveel mogelijk toe aan posten waarvan de werkelijke waarde afwijkt van de boekwaarde.
+
+**Waarom?** KB WVV art. 3:128 vereist dat het verschil eerst aan stille meer- of minderwaarden wordt toegerekend vóór het residu als consolidatieverschil wordt geboekt.
+
+**📥 Input**:
+- Aanschaffingswaarde + belangenpercentage uit stap 1 → **Bedrag + percentage** _(boekhoudkundig-bedrag)_
+- Eigen vermogen dochter uit stap 2 → **Bedrag** _(boekhoudkundig-bedrag)_
+- Inventaris stille meer- of minderwaarden → **Per actief- en passiefpost: werkelijke waarde versus boekwaarde** _(boekhoudkundig-bedrag)_
+
+**📤 Output**:
+- Werkpapier eerste consolidatie → **Toerekening verschil per post** _(nieuwe-balanspost)_
+
+**🛠️ Hoe**:
+
+1. Bereken het pro-rata aandeel: belangenpercentage × eigen vermogen dochter op verwervingsdatum. Voor Aurelia/Brugse: 80 % × 300 = 240.
+2. Bereken het totale verschil: aanschaffingswaarde − pro-rata aandeel. Voor Aurelia/Brugse: 320 − 240 = 80.
+3. Inventariseer stille meer- of minderwaarden bij Brugse Brouwerij BV: vastgoed dat boekhoudkundig lager staat dan de werkelijke waarde, voorraden, voorzieningen, ...
+4. Reken het verschil zoveel mogelijk toe aan die posten: opwaardering bij meerwaarde, afwaardering bij minderwaarde. Per post: bedrag pro-rata aan belangenpercentage.
+5. Wat overblijft, is het residuele consolidatieverschil voor stap 4.
+6. Aandachtspunt: bij Brugse Brouwerij is in ons scenario geen onder- of overgewaardeerd actief geïdentificeerd, dus het volledige verschil van 80 gaat door naar stap 4 als consolidatieverschil.
+
+
+**Voorbeeld**: Aurelia Holding NV verwerft op 1 januari 20X1 een belang van 80 % in Brugse Brouwerij BV voor 320. Eigen vermogen Brugse op die datum: 300. Geen stille meer- of minderwaarden geïdentificeerd.
+
+**Substap 1 — Berekening pro-rata aandeel** 🧮
+pro-rata aandeel Aurelia in EV Brugse = belangenpercentage × eigen vermogen dochter
+                                      = 80 % × 300
+                                      = **240**
+
+
+**Substap 2 — Berekening totaal verschil** 🧮
+totaal verschil = aanschaffingswaarde − pro-rata aandeel
+                = 320 − 240
+                = **80** (positief verschil)
+
+
+**Substap 3 — Toerekening aan posten** 💬
+Geen stille meer- of minderwaarden geïdentificeerd bij Brugse → geen toerekening aan posten.
+Het volledige verschil van 80 gaat door naar stap 4 als residueel consolidatieverschil.
+
+
+**Grondslag**: [[consolidatieverschil]] §toerekening, KB WVV art. 3:128 en 3:130
+
+> [!warning] Eerst toerekenen aan onder- of overgewaardeerde posten, dan pas residu als consolidatieverschil boeken.
 >
-> _Vaak fout gedaan_: Het volledige verschil tussen aanschaffingswaarde en boekwaarde van het pro-rata EV wordt rechtstreeks als consolidatieverschil geboekt.
+> _Vaak fout gedaan_: Het volledige verschil tussen aanschaffingswaarde en boekwaarde van pro-rata EV rechtstreeks als consolidatieverschil boeken.
 >
-> _Grondslag_: [[consolidatieverschil]]
+> _Grondslag_: [[consolidatieverschil]] §toerekening
 ### 4. Berekenen en boeken van het residuele consolidatieverschil
 
-📥 **Input**: Resterend verschil na toerekening aan onder-/overgewaardeerde activa en passiva
-📤 **Output**: Boeking als 'Consolidatieverschillen' op de geconsolideerde balans: actiefzijde indien positief, passiefzijde indien negatief
-**Waarom**: Het overblijvende verschil reflecteert goodwill (positief — verwachte synergieën, marktpositie) of badwill (negatief — verwachte verliezen of overgewaardeerde passiva).
-**Grondslag**: [[consolidatieverschil]]
-> [!warning] Compensatie is verboden, tenzij beide verschillen betrekking hebben op dezelfde dochteronderneming (KB WVV art. 3:130) — dan is compensatie verplicht.
+Boek het resterende verschil als 'Consolidatieverschillen' (actief- of passiefzijde).
+
+**Waarom?** Het overblijvende verschil weerspiegelt goodwill (positief — synergieën, marktpositie) of badwill (negatief — verwachte verliezen).
+
+**📥 Input**:
+- Residueel verschil uit stap 3 → **Bedrag** _(boekhoudkundig-bedrag)_
+
+**📤 Output**:
+- Geconsolideerde balans → **Consolidatieverschillen (actief- of passiefzijde)** _(nieuwe-balanspost)_
+
+**🛠️ Hoe**:
+
+1. Neem het residueel verschil over uit stap 3 (bv. 80 positief voor Aurelia/Brugse).
+2. Positief verschil? → 'Positieve consolidatieverschillen' aan actiefzijde van de geconsolideerde balans.
+3. Negatief verschil? → 'Negatieve consolidatieverschillen' aan passiefzijde.
+4. Belangrijke regel: positieve en negatieve consolidatieverschillen van verschillende dochters mag je NIET compenseren. Binnen dezelfde dochter MOET je wel compenseren.
+5. Pas het afschrijvingsplan van stap 5 toe op een positief consolidatieverschil.
+
+
+**Voorbeeld**: Aurelia/Brugse: residueel verschil = 80 (positief).
+
+**Substap 1 — Boeking in de geconsolideerde balans** 📝
+Debiteer: Positieve consolidatieverschillen (actiefzijde)    80
+Crediteer: Compensatie deelneming (afsluiting stap 2)         80
+
+
+**Substap 2 — Schematische impact op balans** 📊
+| Geconsolideerde balans Aurelia — Activa     |      |
+|---------------------------------------------|-----:|
+| Vaste activa                                | 1600 |
+| **Positieve consolidatieverschillen**       |   **80** |
+| Vlottende activa                            | 1000 |
+| **Totaal**                                  | 2680 |
+
+
+**Grondslag**: [[consolidatieverschil]] §boeking-residu, KB WVV art. 3:130
+
+> [!warning] Compensatie van positieve en negatieve consolidatieverschillen is verboden, tenzij ze dezelfde dochter betreffen.
 >
-> _Vaak fout gedaan_: Positieve en negatieve consolidatieverschillen mogen met elkaar worden gecompenseerd.
+> _Vaak fout gedaan_: Positieve en negatieve consolidatieverschillen van verschillende dochters tegen elkaar wegstrepen.
 >
-> _Grondslag_: [[consolidatieverschil]]
+> _Grondslag_: [[consolidatieverschil]] §compensatie-verbod
 ### 5. Vastleggen van het afschrijvingsplan voor positief consolidatieverschil
 
-📥 **Input**: Inschatting van de vermoedelijke gebruiksduur van de aan goodwill onderliggende economische voordelen (synergieën, marktpositie, merken)
-📤 **Output**: Afschrijvingsplan dat overeenstemt met de vermoedelijke gebruiksduur
-**Waarom**: Positieve consolidatieverschillen moeten worden afgeschreven; de duur moet de werkelijke economische gebruiksduur weerspiegelen.
-**Grondslag**: [[consolidatieverschil]]
+Bepaal de afschrijvingsduur die de werkelijke economische gebruiksduur van de goodwill weerspiegelt.
+
+**Waarom?** Positieve consolidatieverschillen moeten worden afgeschreven over de vermoedelijke gebruiksduur (KB WVV art. 3:131).
+
+**📥 Input**:
+- Inschatting economische voordelen onderliggend aan goodwill → **Synergieën, marktpositie, merken, klantenbasis** _(document)_
+
+**📤 Output**:
+- Werkpapier afschrijvingsplan → **Afschrijvingsduur + jaarlijkse afschrijving** _(document)_
+
+**🛠️ Hoe**:
+
+1. Beoordeel waaruit de goodwill van 80 bij Brugse Brouwerij BV bestaat: synergieën met Aurelia? Marktaandeel? Merken?
+2. Schat de vermoedelijke gebruiksduur (bv. 5 of 10 jaar). Documenteer de motivering.
+3. Bereken de jaarlijkse afschrijving: residueel consolidatieverschil / gebruiksduur. Bv. 80 / 5 = 16 per jaar.
+4. Plan de afschrijving over de volgende boekjaren (telkens als kost in de geconsolideerde resultatenrekening).
+5. Toelichting verplicht voor afschrijvingsduren > 5 jaar — motiveer in de toelichting.
+
+
+**Grondslag**: [[consolidatieverschil]] §afschrijving, KB WVV art. 3:131
+
 ### 6. Integreren van de cijfers van de dochter in de geconsolideerde jaarrekening
 
-📥 **Input**: Geherwaardeerde activa en passiva van de dochter; gekozen consolidatietechniek (integraal, evenredig of vermogensmutatie)
-📤 **Output**: Bij integrale consolidatie: 100 %-opname met afzondering van belangen van derden (1 − belang%). Bij evenredige consolidatie: pro-rata opname. Bij vermogensmutatie: één gesynthetiseerde balanspost = pro-rata × EV + consolidatieverschil.
-**Waarom**: De gekozen techniek bepaalt de wijze waarop de cijfers van de dochter in de geconsolideerde jaarrekening verschijnen.
-**Grondslag**: [[integrale-consolidatie]]
+Voer de gekozen consolidatietechniek uit op de geherwaardeerde cijfers van de dochter.
+
+**Waarom?** De keuze van techniek (integraal, evenredig, vermogensmutatie) bepaalt hoe de cijfers verschijnen in de geconsolideerde jaarrekening.
+
+**📥 Input**:
+- Geherwaardeerde activa en passiva van dochter → **Per post: bedrag na toerekening** _(boekhoudkundig-bedrag)_
+- Keuze techniek uit [[kiezen-consolidatiemethode]] → **Integraal / evenredig / vermogensmutatie** _(conclusie)_
+
+**📤 Output**:
+- Geconsolideerde balans + resultatenrekening → **Posten van dochter geïntegreerd** _(nieuwe-balanspost)_
+
+**🛠️ Hoe**:
+
+1. Bij integrale consolidatie: volg [[integrale-consolidatie]] §uitvoering. Neem 100 % activa/passiva op. Boek 'Belangen van derden' = (1 − belangenpercentage) × eigen vermogen dochter op afsluitingsdatum.
+2. Bij evenredige consolidatie: neem activa/passiva pro-rata op (belangenpercentage × bedrag). Geen aandeel van derden.
+3. Bij vermogensmutatie: boek één post 'Vennootschappen waarop vermogensmutatie is toegepast' = belangenpercentage × eigen vermogen dochter + consolidatieverschil.
+4. Stuur intragroep-eliminaties door naar [[uitvoeren-intragroep-eliminaties]].
+
+
+**Voorbeeld**: Aurelia/Brugse: integrale consolidatie. Belangenpercentage = 80 %. Eigen vermogen Brugse op afsluitingsdatum 20X1 = 400 (waarvan resultaat boekjaar 100).
+
+**Substap 1 — Berekening aandeel van derden in eigen vermogen** 🧮
+aandeel van derden in EV = (1 − belangenpercentage) × eigen vermogen dochter
+                        = (1 − 80 %) × 400
+                        = 20 % × 400
+                        = **80**
+
+
+**Substap 2 — Berekening aandeel van derden in resultaat** 🧮
+aandeel van derden in resultaat = (1 − 80 %) × 100 = **20**
+
+
+**Substap 3 — Geconsolideerde balans (uittreksel)** 📊
+| Geconsolideerde balans Aurelia (uittreksel)  |      |
+|----------------------------------------------|-----:|
+| Activa van Aurelia + Brugse (100 %)          | x    |
+| Positieve consolidatieverschillen            |  80  |
+| ...                                          | ...  |
+| Belangen van derden (passief)                |  80  |
+
+
+**Grondslag**: [[integrale-consolidatie]] §100-procent-opname, KB WVV art. 3:124 en 3:137
+
 
 
 ## Voorbeelden
 
-**Situatie**: Onderneming ABC verwerft in 20X1 een belang van 20 % in onderneming DEF voor 200. Netto-activa DEF op acquisitiedatum: 600. ABC heeft invloed van betekenis (geassocieerde onderneming) en past vermogensmutatie toe.
+**Situatie**: Antwerpse Investments NV verwerft in 20X1 een belang van 25 % in Drukkerij Dendermonde BV voor 200. Eigen vermogen Drukkerij Dendermonde op verwervingsdatum: 600. Antwerpse heeft invloed van betekenis (geassocieerde onderneming) en past vermogensmutatie toe. Geen stille meer- of minderwaarden geïdentificeerd.
 
-**Conclusie**: Pro-rata aandeel = 20 % × 600 = 120; positief consolidatieverschil = 200 − 120 = 80. Boeking: 'Vennootschappen waarop vermogensmutatie is toegepast' = 120; 'Positieve consolidatieverschillen' = 80; tegenpost: 'Deelnemingen' wordt verminderd met 200. Afschrijving over bv. 5 jaar = 16/jaar.
+**Conclusie**: Pro-rata aandeel = 25 % × 600 = 150; positief consolidatieverschil = 200 − 150 = 50. Boeking: 'Vennootschappen waarop vermogensmutatie is toegepast' = 150; 'Positieve consolidatieverschillen' = 50; tegenpost: 'Deelnemingen' wordt verminderd met 200. Afschrijving over bv. 5 jaar = 10/jaar.
 
-**Grondslag**: [[eerste-consolidatie]] §berekening; [[vermogensmutatiemethode]] §initiële boeking; [[consolidatieverschil]] §formule
+**Grondslag**: [[eerste-consolidatie]] §berekening; [[vermogensmutatiemethode]] §initiële-boeking; [[consolidatieverschil]] §formule
 
-**Redenering**: Het verschil tussen aanschaffingswaarde en pro-rata EV is volledig toegerekend aan goodwill (geen stille meer-/minderwaarden geïdentificeerd); positief consolidatieverschil = 80 wordt over de gebruiksduur afgeschreven.
+**Redenering**: Het verschil tussen aanschaffingswaarde en pro-rata eigen vermogen is volledig toegerekend aan goodwill (geen stille meer- of minderwaarden geïdentificeerd). Het positieve consolidatieverschil van 50 wordt over de geschatte gebruiksduur afgeschreven.
 
 ---
 

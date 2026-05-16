@@ -13,9 +13,9 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: fenomeen
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/wijziging-consolidatiekring.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Wijziging van de consolidatiekring 🤖
 
@@ -24,12 +24,43 @@ gegenereerd_op: '2026-05-15'
 > _Bron: KB WVV art. 3:129, 3:132, 3:152_
 
 
+> [!summary] Korte definitie
+> Elke aanpassing aan de samenstelling van de consolidatiekring tussen twee opeenvolgende boekjaren: opname van een nieuw verworven dochter (eerste consolidatie), wegname van een vervreemde of geliquideerde dochter (de- of buitenkringstelling), verschuiving van kwalificatie (van geassocieerde naar dochter via step acquisition, of omgekeerd), wijziging van de mate van controle (van gezamenlijk naar exclusief of omgekeerd), en kringintegratie van voorheen uitgesloten dochters.
+
 ## Bouwstenen
 
-- **Eerste consolidatie van een nieuw verworven dochter**: Vaststelling van het eigen vermogen van de dochter op verwervingsdatum (of nabijzijnde datum, KB WVV art. 3:129); berekening en boeking van het consolidatieverschil; overname van activa/passiva voor 100 % bij integrale consolidatie of pro-rata bij evenredige consolidatie. ⚖️
-- **Step acquisition — opwaartse wijziging**: Verhoging van een belang in een geassocieerde of dochter, met mogelijke kantelpunten: (a) van 'geen invloed' naar invloed van betekenis (start vermogensmutatie); (b) van invloed van betekenis naar controle (overgang van vermogensmutatie naar integrale consolidatie); (c) verhoging binnen dezelfde kwalificatie (geen wijziging van techniek, wel nieuw consolidatieverschil op het bijkomend belang). ⚖️
-- **Vervreemding of vermindering van het belang**: Bij gehele of gedeeltelijke realisatie van de aandelen van een in de consolidatie opgenomen dochter wordt het overblijvende consolidatieverschil afgeboekt naar verhouding van de gerealiseerde aandelen (KB WVV art. 3:132). ⚖️
-- **Common control transactions**: Bij transacties onder gemeenschappelijke leiding (bv. overdracht van een dochter binnen dezelfde groep) gelden bijzondere regels: omdat de uiteindelijke economische controle ongewijzigd blijft, mag in beginsel geen nieuwe goodwill worden gegenereerd en blijven de historische cijfers behouden (CBN 2017/15). ⚖️
+### Eerste consolidatie van een nieuw verworven dochter ⚖️
+
+Vaststelling van het eigen vermogen van de dochter op datum van aankoop (of nabijzijnde datum, KB WVV art. 3:129); berekening en boeking van het consolidatieverschil; overname van activa/passiva voor 100 % bij integrale consolidatie of pro-rata bij evenredige consolidatie.
+
+
+
+_Grondslag: KB WVV art. 3:127 — 3:130_
+
+### Step acquisition — opwaartse wijziging ⚖️
+
+Verhoging van een belang in een geassocieerde of dochter, met mogelijke kantelpunten: (a) van 'geen invloed' naar invloed van betekenis (start vermogensmutatie); (b) van invloed van betekenis naar controle (overgang van vermogensmutatie naar integrale consolidatie); (c) verhoging binnen dezelfde kwalificatie (geen wijziging van techniek, wel nieuw consolidatieverschil op het bijkomend belang).
+
+
+
+_Grondslag: CBN 2013/3_
+
+### Vervreemding of vermindering van het belang ⚖️
+
+Bij gehele of gedeeltelijke realisatie van de aandelen van een in de consolidatie opgenomen dochter wordt het overblijvende consolidatieverschil afgeboekt naar verhouding van de gerealiseerde aandelen (KB WVV art. 3:132).
+
+
+
+_Grondslag: KB WVV art. 3:132_
+
+### Common control transactions ⚖️
+
+Bij transacties onder gemeenschappelijke leiding (bv. overdracht van een dochter binnen dezelfde groep) gelden bijzondere regels: omdat de uiteindelijke economische controle ongewijzigd blijft, mag in beginsel geen nieuwe goodwill worden gegenereerd en blijven de historische cijfers behouden (CBN 2017/15).
+
+
+
+_Grondslag: CBN 2017/15_
+
 
 ## In de praktijk
 
@@ -44,18 +75,18 @@ Wijzigingen van de consolidatiekring beïnvloeden de vergelijkbaarheid van de ge
 Vaststelling van de waarde van het EV van de dochter op acquisitiedatum is de regel (KB WVV art. 3:129). Bij een eerste geconsolideerde jaarrekening of bij eerste opname van een vroeger niet-geconsolideerde dochter mag de aanvangsdatum van het boekjaar worden gebruikt. ⚖️
 
 
-## Vergelijkingsparen
-
-| Verwarrend met | Verschil | Trigger |
-|---|---|---|
-| [[consolidatiekring]] | De consolidatiekring is de momentopname; de wijziging is het dynamische fenomeen (gebeurtenissen die de kring veranderen). Beide horen bij elkaar zoals 'stand' en 'beweging'. | — |
-| [[eerste-consolidatie]] | Eerste consolidatie is een specifiek type wijziging van de consolidatiekring (toetreding van een nieuwe entiteit). Wijziging is breder en omvat ook vertrek (vervreemding), verschuiving van techniek (van vermogensmutatie naar integraal) en herklassificering. | — |
-| [[consolidatieverschil]] | Het consolidatieverschil is een gevolg van een wijziging in de consolidatiekring (in het bijzonder van een eerste consolidatie of step-acquisition); de wijziging zelf is een breder fenomeen. | — |
-
 ## Valkuilen
 
 - ⚠️ Een wijziging van de consolidatiekring vereist een retro-actieve aanpassing van de vergelijkende cijfers of een toelichting bij niet-vergelijkbaarheid (KB WVV art. 3:152). Een opgave kan dit toetsen door te vragen hoe de cijfers van het vorige boekjaar moeten worden aangepast na een acquisitie of een vervreemding. ⚖️
 - ⚠️ Bij een common control-transactie (bv. herstructurering binnen het concern) wordt geen nieuw consolidatieverschil gegenereerd — de eerder bestaande historische cijfers worden voortgezet (CBN 2017/15). Dit is een belangrijke uitzondering op de regel van een nieuw consolidatieverschil bij eerste consolidatie. ⚖️
+
+## Zie ook
+
+- **Getriggerd door**: [[consolidatieverschil]]
+- **Vereist kennis van**: [[consolidatiekring]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

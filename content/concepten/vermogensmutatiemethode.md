@@ -15,39 +15,69 @@ programmaonderdelen:
 confidence: grounded
 node_type: methode
 status: seed
-schema_version: '1.2'
+schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/vermogensmutatiemethode.json
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 # Vermogensmutatiemethode (equity method) ⚖️
 
-> Een deelneming wordt in de geconsolideerde jaarrekening niet activum-per-activum opgenomen, maar als één gesynthetiseerde balanspost — initieel gewaardeerd aan het pro-rata aandeel in het eigen vermogen van de betrokken onderneming op verwervingsdatum, en vervolgens jaarlijks aangepast voor het pro-rata aandeel in de wijzigingen in dat eigen vermogen (resultaat en directe mutaties). De methode wordt toegepast op (a) geassocieerde ondernemingen (invloed van betekenis, geen controle), (b) gemeenschappelijke dochterondernemingen waarvan het bedrijf niet nauw geïntegreerd is in dat van de moeder, en (c) dochterondernemingen buiten de consolidatie gelaten op grond van KB WVV art. 3:98 of 3:99.
+> Een deelneming wordt in de geconsolideerde jaarrekening niet activum-per-activum opgenomen, maar als één gesynthetiseerde balanspost — initieel gewaardeerd aan het pro-rata aandeel in het eigen vermogen van de betrokken onderneming op datum van aankoop, en vervolgens jaarlijks aangepast voor het pro-rata aandeel in de wijzigingen in dat eigen vermogen (resultaat en directe mutaties). De methode wordt toegepast op (a) geassocieerde ondernemingen (invloed van betekenis, geen controle), (b) gemeenschappelijke dochters waarvan het bedrijf niet nauw geïntegreerd is in dat van de moeder, en (c) dochterondernemingen buiten de consolidatie gelaten op grond van KB WVV art. 3:98 of 3:99.
 >
 > _Bron: KB WVV art. 3:142 jo. art. 3:141 — 3:145_
 
 
+> [!summary] Korte definitie
+> Een deelneming wordt in de geconsolideerde jaarrekening niet activum-per-activum opgenomen, maar als één gesynthetiseerde balanspost — initieel gewaardeerd aan het pro-rata aandeel in het eigen vermogen van de betrokken onderneming op datum van aankoop, en vervolgens jaarlijks aangepast voor het pro-rata aandeel in de wijzigingen in dat eigen vermogen (resultaat en directe mutaties).
+
+> [!info] Behoort tot: [[consolidatiemethodes-vergelijking]]
 ## Bouwstenen
 
-- **Eerste consolidatie — herwaardering naar pro-rata aandeel in eigen vermogen**: De historische aanschaffingswaarde van de deelneming wordt vervangen door het bedrag dat overeenkomt met het deel van het eigen vermogen van de betrokken vennootschap (inclusief het resultaat over het boekjaar) dat deze deelneming vertegenwoordigt. Een eventueel verschil wordt eerst toegerekend aan onder-/overgewaardeerde activa van de betrokken vennootschap; het overblijvende deel verschijnt als 'Consolidatieverschillen' (positief of negatief) en wordt jaarlijks afgeschreven. ⚖️
-- **Latere consolidaties — pro-rata aandeel in resultaat en directe mutaties**: De waarde van de deelneming wordt jaar na jaar verhoogd of verminderd met het pro-rata aandeel in (a) het resultaat van het boekjaar van de betrokken vennootschap, met uitsluiting van het deel dat bij bestemming als dividend wordt toegekend (dat dividend wordt apart geboekt); (b) directe mutaties binnen het eigen vermogen (herwaarderingsmeerwaarde, verkrijging kapitaalsubsidie, overboeking gerealiseerde meerwaarde, omrekeningsverschillen). ⚖️
-- **Presentatie op de balans (KB WVV art. 3:141)**: Deelnemingen waarop vermogensmutatie is toegepast worden in de geconsolideerde balans opgenomen onder een afzonderlijke post van de financiële vaste activa, genoemd 'Vennootschappen waarop vermogensmutatie is toegepast'. ⚖️
-- **Presentatie op de resultatenrekening (KB WVV art. 3:145)**: Het aandeel in het resultaat van de betrokken vennootschap wordt onder een afzonderlijke post 'Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast' in de geconsolideerde resultatenrekening opgenomen. ⚖️
+### Eerste consolidatie — herwaardering naar pro-rata aandeel in eigen vermogen ⚖️
+
+De historische aanschaffingswaarde van de deelneming wordt vervangen door het bedrag dat overeenkomt met het deel van het eigen vermogen van de betrokken vennootschap (inclusief het resultaat over het boekjaar) dat deze deelneming vertegenwoordigt. Een eventueel verschil wordt eerst toegerekend aan onder-/overgewaardeerde activa van de betrokken vennootschap; het overblijvende deel verschijnt als 'Consolidatieverschillen' (positief of negatief) en wordt jaarlijks afgeschreven.
+
+
+
+_Grondslag: CBN 2022/11 — Eerste consolidatie_
+
+### Latere consolidaties — pro-rata aandeel in resultaat en directe mutaties ⚖️
+
+De waarde van de deelneming wordt jaar na jaar verhoogd of verminderd met het pro-rata aandeel in (a) het resultaat van het boekjaar van de betrokken vennootschap, met uitsluiting van het deel dat bij bestemming als dividend wordt toegekend (dat dividend wordt apart geboekt); (b) directe mutaties binnen het eigen vermogen (herwaarderingsmeerwaarde, verkrijging kapitaalsubsidie, overboeking gerealiseerde meerwaarde, omrekeningsverschillen).
+
+
+
+_Grondslag: KB WVV art. 3:143_
+
+### Presentatie op de balans ⚖️
+
+Deelnemingen waarop vermogensmutatie is toegepast worden in de geconsolideerde balans opgenomen onder een afzonderlijke post van de financiële vaste activa, genoemd 'Vennootschappen waarop vermogensmutatie is toegepast'.
+
+
+
+_Grondslag: KB WVV art. 3:141_
+
+### Presentatie op de resultatenrekening ⚖️
+
+Het aandeel in het resultaat van de betrokken vennootschap wordt onder een afzonderlijke post 'Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast' in de geconsolideerde resultatenrekening opgenomen.
+
+
+
+_Grondslag: KB WVV art. 3:145_
+
 
 ## Berekening
 
 ### Eerste consolidatie — herwaardering en consolidatieverschil
 
-**Formule**: `Boekwaarde deelneming (eerste consolidatie) = pro-rata aandeel × eigen vermogen op verwervingsdatum + consolidatieverschil (positief of negatief)`
+**Eerste consolidatie — herwaardering en consolidatieverschil** 
+```
+Boekwaarde deelneming (eerste consolidatie) = pro-rata aandeel × eigen vermogen op datum van aankoop + consolidatieverschil (positief of negatief)
+```
 
 *Bij verwerving betaalt de moeder vaak een prijs verschillend van het pro-rata aandeel in het netto-actief van de geassocieerde. Het verschil wordt eerst toegewezen aan onder-/overgewaardeerde activa van de dochter en daarna geboekt als 'Consolidatieverschil'.*
 
-**Stappen**:
+### . 
 
-1. Bepaal de aanschaffingswaarde van de deelneming.
-2. Bepaal het pro-rata aandeel in het eigen vermogen van de betrokken vennootschap op acquisitiedatum.
-3. Bereken het verschil (aanschaffingswaarde − pro-rata EV).
-4. Wijs het verschil zoveel mogelijk toe aan onder-/overgewaardeerde activa of passiva van de dochter.
-5. Het overblijvende verschil wordt geboekt als positief of negatief consolidatieverschil; positief consolidatieverschil wordt afgeschreven over de vermoedelijke gebruiksduur (KB WVV art. 3:131).
 **Voorbeeld**: Onderneming ABC verwerft in 20X1 een belang van 20 % in onderneming DEF. Aanschaffingswaarde 200. Netto-activa DEF op acquisitiedatum: 600.
 
 ```
@@ -60,17 +90,15 @@ Boeking: 'Vennootschappen waarop vermogensmutatie is toegepast' (balans) +120; '
 Resultaat: Eerste consolidatie: deelneming wordt voorgesteld als 'Vennootschappen waarop vermogensmutatie is toegepast' voor 120 + 'Positief consolidatieverschil' 80 — som 200 (idem als aanschaffingswaarde). Positief consolidatieverschil wordt afgeschreven over bv. 5 jaar = 16/jaar in de geconsolideerde resultatenrekening (financiële kosten of bedrijfskosten, afzonderlijke post).
 ### Latere consolidatie — pro-rata aandeel in winst of verlies
 
-**Formule**: `Δ boekwaarde deelneming = belang% × Δ eigen vermogen betrokken vennootschap (resultaat van het boekjaar, excl. dividenduitkering, plus directe EV-mutaties)`
+**Latere consolidatie — pro-rata aandeel in winst of verlies** 
+```
+Δ boekwaarde deelneming = belang% × Δ eigen vermogen betrokken vennootschap (resultaat van het boekjaar, excl. dividenduitkering, plus directe EV-mutaties)
+```
 
 *Het pro-rata aandeel in winst of verlies vertaalt zich rechtstreeks in de waarde van de deelneming op de geconsolideerde balans, met als spiegelpost een afzonderlijke resultatenpost 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast'.*
 
-**Stappen**:
+### . 
 
-1. Identificeer het resultaat van de betrokken vennootschap voor het boekjaar.
-2. Bereken het pro-rata aandeel: belang% × resultaat.
-3. Verhoog (winst) of verlaag (verlies) de balanspost 'Vennootschappen waarop vermogensmutatie is toegepast' met dit aandeel.
-4. Boek de tegenpost in de geconsolideerde resultatenrekening als 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast' (KB WVV art. 3:145).
-5. Indien dividend wordt uitgekeerd: het dividend wordt apart geboekt als opbrengst, maar het deel van het resultaat dat als dividend wordt toegekend, wordt niet (opnieuw) bij de boekwaarde van de deelneming geteld.
 **Voorbeeld**: Geassocieerde vennootschap Y; belang van moedervennootschap M = 20 %. Hypothese 1: Y maakt in 20X2 een winst van 1.500. Hypothese 2: Y maakt in 20X2 een verlies van 1.500. Hypothese 3: Y maakt in 20X2 een verlies van 15.000 (boekwaarde van de deelneming bij eerste consolidatie was 2.600).
 
 ```
@@ -85,7 +113,7 @@ Resultaat: Hypothese 1: deelneming op balans stijgt met 300 tot bv. 2.900; resul
 
 ### Eliminatie van intra-groepswinsten {id="eliminatie-van-intra-groepswinsten"}
 
-De resultaten van verrichtingen tussen de consoliderende vennootschap (of haar dochters) en de vennootschap waarop vermogensmutatie wordt toegepast, die in de waardering van een actief zijn begrepen, worden uit het 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast' geweerd voor het pro-rata aandeel. Geldt voor zowel upstream als downstream sales. ⚖️
+De resultaten van verrichtingen tussen de moedervennootschap (of haar dochters) en de vennootschap waarop vermogensmutatie wordt toegepast, die in de waardering van een actief zijn begrepen, worden uit het 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast' geweerd voor het pro-rata aandeel. Geldt voor zowel upstream als downstream sales. ⚖️
 
 ### Geen vrijstelling van subconsolidatie {id="geen-vrijstelling-van-subconsolidatie"}
 
@@ -97,13 +125,12 @@ Bij verkoop wordt het verschil tussen de verkoopprijs en de boekwaarde (op vermo
 
 
 <details>
-<summary><strong>Niet verwarren met</strong> (5 vergelijkingen)</summary>
+<summary><strong>Niet verwarren met</strong> (2 vergelijkingen)</summary>
 
 - **vs [[integrale-consolidatie]]** — Vermogensmutatie behoudt de deelneming als één balanspost; integrale consolidatie neemt de activa/passiva regel voor regel op. Integraal → controle; vermogensmutatie → invloed van betekenis (of uitgesloten dochters).
-- **vs [[evenredige-consolidatie]]** — Evenredig = activa/passiva pro-rata opgenomen. Vermogensmutatie = één balanspost, geherwaardeerd naar pro-rata EV. Evenredig is de regel voor gemeenschappelijke dochters; vermogensmutatie kan voor niet-geïntegreerde gemeenschappelijke dochters of voor geassocieerden.
-- **vs [[geassocieerde-onderneming]]** — De vermogensmutatiemethode is de boekhoudkundige techniek; de geassocieerde onderneming is een typisch toepassingsobject. Niet alle vermogensmutatie-deelnemingen zijn echter geassocieerden — ook uitgesloten dochters (KB WVV art. 3:100) en bepaalde gemeenschappelijke dochters worden zo verwerkt.
-- **vs [[invloed-van-betekenis]]** — Invloed van betekenis is het inhoudelijke kwalificatiecriterium van WVV art. 1:22 (weerlegbaar vermoeden vanaf 20 % stemrechten in een andere vennootschap die geen dochter- of gemeenschappelijke dochteronderneming is); de vermogensmutatiemethode is de boekhoudkundige techniek die KB WVV art. 3:124, 3° aan dat criterium koppelt: 'de deelnemingen in geassocieerde vennootschappen … worden gewaardeerd en het aandeel in het resultaat van deze vennootschappen vastgesteld met toepassing van de vermogensmutatiemethode'. Zonder vastgestelde invloed van betekenis is er voor een niet-controle-deelneming geen wettelijke grondslag voor vermogensmutatie. Omgekeerd: de vermogensmutatiemethode wordt ook toegepast op bepaalde uitgesloten dochters en niet-geïntegreerde gemeenschappelijke dochters — dáár zonder dat invloed van betekenis het triggerend criterium is.
-- **vs [[consolidatieverschil]]** — Het consolidatieverschil is een gevolg van de vermogensmutatiemethode (en van de integrale consolidatie), niet de techniek zelf. Bij eerste consolidatie volgens vermogensmutatie wordt de aanschaffingswaarde van de deelneming vergeleken met het pro-rata aandeel in het eigen vermogen van de geassocieerde; het verschil wordt zoveel mogelijk toegerekend aan onder-/overgewaardeerde actief- of passiefbestanddelen, en het residu (positief of negatief) verschijnt als 'Consolidatieverschillen' (CBN 2022/11 — Eerste consolidatie). KB WVV art. 3:142, § 3 nuanceert: bij vermogensmutatie hoeft de toerekening 'slechts voor zover dit mogelijk is' te gebeuren — een soepelere norm dan bij integrale consolidatie. Bovendien staat het consolidatieverschil hier los van de balanspost 'Vennootschappen waarop vermogensmutatie is toegepast' (KB WVV art. 3:141) en wordt het afzonderlijk afgeschreven (CBN 2022/11).
+  - _Trigger_: Soort controle / type relatie tussen moeder en dochter bepaalt welke methode.
+- **vs [[evenredige-consolidatie]]** — Evenredig = activa/passiva pro-rata opgenomen. Vermogensmutatie = één balanspost, geherwaardeerd naar pro-rata EV. Evenredig is de regel voor gemeenschappelijke dochters; vermogensmutatie kan voor niet-geïntegreerde gemeenschappelijke docht
+  - _Trigger_: Soort controle / type relatie tussen moeder en dochter bepaalt welke methode.
 
 </details>
 
@@ -113,6 +140,11 @@ Bij verkoop wordt het verschil tussen de verkoopprijs en de boekwaarde (op vermo
 - ⚠️ Het pro-rata aandeel in een verlies kan de boekwaarde van de deelneming nooit onder nul brengen. Verdere verliezen worden niet langer doorgeboekt zolang geen aanvullende verplichting bestaat (CBN 2022/11, hypothese 3). ⚖️
 - ⚠️ Een dividend dat de geassocieerde uitkeert vermindert het eigen vermogen van de geassocieerde — maar wordt in de jaarrekening van de moeder geboekt als financiële opbrengst (zonder voor een tweede maal als 'aandeel in resultaat' te worden geteld). De vermogensmutatie corrigeert hiervoor: het resultaat-aandeel wordt berekend exclusief het deel dat als dividend wordt toegekend. ⚖️
 - ⚠️ Wijzigingen in het eigen vermogen van de geassocieerde buiten het resultaat om (herwaarderingsmeerwaarde, kapitaalsubsidie, omrekeningsverschillen) moeten ook in de vermogensmutatie worden meegenomen — niet alleen het resultaat. Dit was vroeger een onderbelicht punt; CBN 2014/3 verduidelijkte het en CBN 2022/11 codificeerde de werkwijze. ⚖️
+
+## Zie ook
+
+- **Getriggerd door**: [[consolidatieverschil]]
+- **Getriggerd door**: [[invloed-van-betekenis]]
 
 ## Bronnen
 

@@ -91,7 +91,21 @@
 
 ## Examenfocus
 
-{{ glue.examenfocus | default('<!-- TODO: Opus-glue examenfocus — volgt na exam_patterns-classificatie -->') }}
+{{ glue.examenfocus | default('<!-- TODO: Opus-glue examenfocus -->') }}
+
+{% if examenvragen %}
+{% for vraag in examenvragen %}
+> [!question] {{ vraag.examen_id }}-vr{{ vraag.vraag_nr }} ({% if vraag.punten %}{{ vraag.punten }} pt{% else %}punten onbekend{% endif %})
+> {{ vraag.vraagtekst | indent(2) }}
+{% if vraag.themas %}
+>
+> _Thema's: {{ vraag.themas | join(', ') }}_
+{% endif %}
+
+{% endfor %}
+{% else %}
+<!-- TODO: examenvragen via classify_vragen_naar_programmaonderdelen.py -->
+{% endif %}
 
 ## Concept-index
 
