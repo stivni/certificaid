@@ -135,8 +135,19 @@ def render_studiemateriaal_index(po_titels: dict[str, str], studiemateriaal: lis
     out.append("<div class=\"two-column-list\">\n")
     for po, slug, _ in sorted(studiemateriaal):
         titel = po_titels.get(po, "")
-        out.append(f"- [[studiemateriaal/{slug}|PO {po} — {titel}]]")
+        out.append(f"- [[studiemateriaal/{slug}/minicursus|PO {po} — {titel}]]")
     out.append("\n</div>\n")
+    return "\n".join(out)
+
+
+def render_po_landing(po: str, slug: str, titel: str) -> str:
+    """`content/studiemateriaal/<slug>/index.md` — landingspagina per PO."""
+    out = [_frontmatter(f"PO {po} — {titel}")]
+    out.append(f"# PO {po} — {titel}\n")
+    out.append(f"[[studiemateriaal/{slug}/minicursus|→ Lees de minicursus]]\n")
+    out.append("## Catalogi\n")
+    out.append("- [[concepten/index|Alle concepten]]")
+    out.append("- [[competenties/index|Alle competenties]]\n")
     return "\n".join(out)
 
 
@@ -217,6 +228,13 @@ def main() -> None:
     sm_index = render_studiemateriaal_index(po_titels, studiemateriaal)
     (STUDIEMATERIAAL_DIR / "index.md").write_text(sm_index, encoding="utf-8")
     print(f"[index] content/studiemateriaal/index.md ({len(sm_index)} bytes)")
+
+    # Per-PO landingspagina (index.md naast minicursus.md)
+    for po, slug, _ in studiemateriaal:
+        po_index_path = STUDIEMATERIAAL_DIR / slug / "index.md"
+        titel = po_titels.get(po, "")
+        po_index_path.write_text(render_po_landing(po, slug, titel), encoding="utf-8")
+        print(f"[index] content/studiemateriaal/{slug}/index.md")
 
     # Concepten-folder index
     CONCEPTEN_DIR.mkdir(parents=True, exist_ok=True)
