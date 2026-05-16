@@ -477,8 +477,10 @@ def main() -> None:
 
     # Output-paden
     slug = _slugify_programmaonderdeel(programmaonderdeel_id, leerpad)
-    output_map = OUTPUT_CONTENT_DIR / slug
-    skeleton_pad = output_map / "minicursus.md"
+    # Plat: minicursus rechtstreeks als bestand onder content/studiemateriaal/,
+    # niet binnen een per-PO submap. URL wordt `/studiemateriaal/<slug>`.
+    output_map = OUTPUT_CONTENT_DIR
+    skeleton_pad = output_map / f"{slug}.md"
 
     run_id = datetime.now(timezone.utc).strftime("minicursus-run-%Y%m%dT%H%M%SZ")
     werkmap = EXTRACTIE_DIR / programmaonderdeel_id / "minicursus-runs" / run_id

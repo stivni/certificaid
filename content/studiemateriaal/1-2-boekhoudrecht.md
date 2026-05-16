@@ -1,5 +1,5 @@
 ---
-title: Minicursus Boekhoudrecht en jaarrekeningenrecht
+title: 1.2 Boekhoudrecht en jaarrekeningenrecht
 tags:
 - minicursus
 - po-1-2

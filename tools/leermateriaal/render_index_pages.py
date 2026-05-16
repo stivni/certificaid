@@ -81,19 +81,22 @@ def _competenties_per_po() -> dict[str, list[dict]]:
 
 
 def _studiemateriaal_folders() -> list[tuple[str, str, Path]]:
-    """Lijst van (po_code, slug, index_path) voor elke studiemateriaal-map.
+    """Lijst van (po_code, slug, path) voor elke minicursus.
 
-    Slug-conventie: '1-4-geconsolideerde-jaarrekening' (PO 1.4 met dashes i.p.v.
-    dots — serve-handler-compat). PO-code wordt teruggevormd door de leidende
-    numerieke segmenten met '.' samen te voegen ('1-4' → '1.4').
+    Plat: minicursussen zijn `.md`-bestanden direct onder
+    `content/studiemateriaal/`. Slug-conventie: '1-4-geconsolideerde-
+    jaarrekening' (dashes i.p.v. dots — serve-handler-compat). PO-code
+    wordt teruggevormd door leidende numerieke segmenten met '.' samen
+    te voegen ('1-4' → '1.4').
     """
     folders = []
     if not STUDIEMATERIAAL_DIR.exists():
         return folders
     for f in sorted(STUDIEMATERIAAL_DIR.iterdir()):
-        if not f.is_dir():
+        # Skip index.md zelf + niet-md
+        if not f.is_file() or f.suffix != ".md" or f.name == "index.md":
             continue
-        slug = f.name
+        slug = f.stem
         tokens = slug.split("-")
         leading_num: list[str] = []
         for t in tokens:
@@ -102,8 +105,7 @@ def _studiemateriaal_folders() -> list[tuple[str, str, Path]]:
             else:
                 break
         po_code = ".".join(leading_num) if leading_num else slug
-        index_path = f / "index.md"
-        folders.append((po_code, slug, index_path))
+        folders.append((po_code, slug, f))
     return folders
 
 
@@ -145,24 +147,8 @@ def render_studiemateriaal_index(po_titels: dict[str, str], studiemateriaal: lis
     out.append("<div class=\"two-column-list\">\n")
     for po, slug, _ in sorted(studiemateriaal):
         titel = po_titels.get(po, "")
-        out.append(f"- [[studiemateriaal/{slug}/minicursus|{po} {titel}]]")
+        out.append(f"- [[studiemateriaal/{slug}|{po} {titel}]]")
     out.append("\n</div>\n")
-    return "\n".join(out)
-
-
-def render_po_landing(po: str, slug: str, titel: str) -> str:
-    """`content/studiemateriaal/<slug>/index.md` — landingspagina per PO.
-
-    Frontmatter-titel is kort (`<po> <titel>`) zodat de Quartz-explorer-
-    sidebar dit als folder-label toont (niet "PO 1.1 — lange titel").
-    """
-    kort = f"{po} {titel}"
-    out = [_frontmatter(kort)]
-    out.append(f"# {kort}\n")
-    out.append(f"[[studiemateriaal/{slug}/minicursus|→ Lees de minicursus]]\n")
-    out.append("## Catalogi\n")
-    out.append("- [[concepten/index|Alle concepten]]")
-    out.append("- [[competenties/index|Alle competenties]]\n")
     return "\n".join(out)
 
 
@@ -243,13 +229,6 @@ def main() -> None:
     sm_index = render_studiemateriaal_index(po_titels, studiemateriaal)
     (STUDIEMATERIAAL_DIR / "index.md").write_text(sm_index, encoding="utf-8")
     print(f"[index] content/studiemateriaal/index.md ({len(sm_index)} bytes)")
-
-    # Per-PO landingspagina (index.md naast minicursus.md)
-    for po, slug, _ in studiemateriaal:
-        po_index_path = STUDIEMATERIAAL_DIR / slug / "index.md"
-        titel = po_titels.get(po, "")
-        po_index_path.write_text(render_po_landing(po, slug, titel), encoding="utf-8")
-        print(f"[index] content/studiemateriaal/{slug}/index.md")
 
     # Concepten-folder index
     CONCEPTEN_DIR.mkdir(parents=True, exist_ok=True)

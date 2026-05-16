@@ -1,5 +1,5 @@
 ---
-title: Minicursus Analyse en kritische beoordeling van de jaarrekening
+title: 1.3 Analyse en kritische beoordeling van de jaarrekening
 tags:
 - minicursus
 - po-1-3

@@ -1,5 +1,5 @@
 ---
-title: Minicursus Algemene boekhouding
+title: 1.1 Algemene boekhouding
 tags:
 - minicursus
 - po-1-1

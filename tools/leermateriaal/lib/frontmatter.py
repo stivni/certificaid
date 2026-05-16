@@ -114,7 +114,7 @@ def minicursus_frontmatter(
         frontmatter dict
     """
     return {
-        "title": f"Minicursus {programmaonderdeel_titel}",
+        "title": f"{programmaonderdeel_code} {programmaonderdeel_titel}",
         "tags": [
             "minicursus",
             f"po-{programmaonderdeel_code.replace('.', '-')}",

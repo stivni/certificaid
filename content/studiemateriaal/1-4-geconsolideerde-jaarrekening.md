@@ -1,5 +1,5 @@
 ---
-title: Minicursus Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde
+title: 1.4 Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening
   jaarrekening
 tags:
 - minicursus
