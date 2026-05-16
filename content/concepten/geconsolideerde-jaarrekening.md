@@ -108,19 +108,19 @@ _Grondslag: KB WVV art. 3:110_
 
 ## Valkuilen
 
-> [!warning]- De keuze voor IFRS (KB WVV art. 3:104, § 2) is onherroepbaar. Een onderneming d…
+> [!warning]- De keuze voor IFRS (KB WVV art. 3:104, § 2) is onherroepbaar
 > ⚠️ De keuze voor IFRS (KB WVV art. 3:104, § 2) is onherroepbaar. Een onderneming die eenmaal voor IFRS-consolidatie heeft gekozen, kan niet meer terugschakelen naar Belgisch boekhoudrecht. ⚖️
 >
 > _Bron: KB WVV art. 3:104, § 2_
 
 
-> [!warning]- Een vennootschap die niet wettelijk consolidatieplichtig is maar toch vrijwilli…
+> [!warning]- Een vennootschap die niet wettelijk consolidatieplichtig is maar toch vrijwillig (of op grond van bijzondere bepalingen) een geconsolideerde…
 > ⚠️ Een vennootschap die niet wettelijk consolidatieplichtig is maar toch vrijwillig (of op grond van bijzondere bepalingen) een geconsolideerde jaarrekening publiceert, moet die opstellen volgens hetzelfde wettelijke kader (KB WVV art. 3:112). Vrijwillig consolideren = vrijwillig de regels volgen. ⚖️
 >
 > _Bron: KB WVV art. 3:112_
 
 
-> [!warning]- WIB92 art. 321/1, 13° geeft een fiscaaltechnische definitie voor 'multinational…
+> [!warning]- WIB92 art. 321/1, 13° geeft een fiscaaltechnische definitie voor 'multinationale groepen' (Pillar Two-context)
 > ⚠️ WIB92 art. 321/1, 13° geeft een fiscaaltechnische definitie voor 'multinationale groepen' (Pillar Two-context). Verwar die niet met de gewone boekhoudrechtelijke geconsolideerde jaarrekening (KB WVV). Verschillende doelen, andere drempels. ⚖️
 >
 > _Bron: WIB92 art. 321/1, 13°_

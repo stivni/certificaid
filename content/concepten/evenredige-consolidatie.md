@@ -260,13 +260,13 @@ Resultaat: In de geconsolideerde balans van Cardinal verschijnen € 2.750.000 a
 
 ## Valkuilen
 
-> [!warning]- Het opgenomen pro-rata deel volgt het belangenpercentage (kapitaal), niet het c…
+> [!warning]- Het opgenomen pro-rata deel volgt het belangenpercentage (kapitaal), niet het controlepercentage
 > ⚠️ Het opgenomen pro-rata deel volgt het belangenpercentage (kapitaal), niet het controlepercentage. Een 50/50-joint venture wordt voor 50 % opgenomen, ook al heeft elke vennoot via de overeenkomst eigenlijk een gelijke beleidsmacht (gedeelde 100 % controle). ⚖️
 >
 > _Bron: KB WVV art. 3:140, b_
 
 
-> [!warning]- Intra-groepsverkopen tussen moeder en gemeenschappelijke dochter worden geëlimi…
+> [!warning]- Intra-groepsverkopen tussen moeder en gemeenschappelijke dochter worden geëlimineerd op het pro-rata deel — niet voor 100 %
 > ⚠️ Intra-groepsverkopen tussen moeder en gemeenschappelijke dochter worden geëlimineerd op het pro-rata deel — niet voor 100 %. Andere bronnen (oudere W.Venn., IFRS 11) kennen andere regels; in WVV-context geldt de pro-rata-eliminatie. 🤖
 >
 > _Bron: KB WVV art. 3:140, a_

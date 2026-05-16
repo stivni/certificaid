@@ -88,7 +88,7 @@ _Bron: WVV art. 1:14, § 2 jo. art. 1:16_
 
 ## Valkuilen
 
-> [!warning]- Bij precies 50 % stemrechten zonder stemovereenkomst is er géén exclusieve cont…
+> [!warning]- Bij precies 50 % stemrechten zonder stemovereenkomst is er géén exclusieve controle
 > ⚠️ Bij precies 50 % stemrechten zonder stemovereenkomst is er géén exclusieve controle. Het bezit van exact de helft is onvoldoende — de wet eist 'meer dan de helft'. Voorbeeld: Cardinal Group NV en Energiehuis Evergem NV hebben elk 50 % in Filmstudio Florence BV zonder akkoord → geen exclusieve controle voor één van beide. ⚖️
 >
 > _Bron: CBN 2017/02 — geval 2_

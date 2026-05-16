@@ -49,13 +49,13 @@ _Bron: WVV art. 1:15, 1° jo. art. 3:22_
 - Oefent controle uit (in rechte of in feite, exclusief of gezamenlijk) over minstens één dochteronderneming. ⚖️
 ## Valkuilen
 
-> [!warning]- Een maatschap zonder rechtspersoonlijkheid kan geen moeder zijn — zelfs niet al…
+> [!warning]- Een maatschap zonder rechtspersoonlijkheid kan geen moeder zijn — zelfs niet als zij economisch alle deelnemingen aanhoudt
 > ⚠️ Een maatschap zonder rechtspersoonlijkheid kan geen moeder zijn — zelfs niet als zij economisch alle deelnemingen aanhoudt. Gevolg: er kan geen geconsolideerde jaarrekening op het niveau van de maatschap worden opgesteld, en de vrijstelling van subconsolidatie voor de onderliggende vennootschappen vervalt. ⚖️
 >
 > _Bron: CBN 2015/10_
 
 
-> [!warning]- Een natuurlijke persoon (zoals Pieter Vermeulen) die meerderheidsstemrechten in…
+> [!warning]- Een natuurlijke persoon (zoals Pieter Vermeulen) die meerderheidsstemrechten in twee vennootschappen aanhoudt, is daarmee zelf geen moeder
 > ⚠️ Een natuurlijke persoon (zoals Pieter Vermeulen) die meerderheidsstemrechten in twee vennootschappen aanhoudt, is daarmee zelf geen moeder. De twee vennootschappen vormen mogelijk wel een consortium met gezamenlijke consolidatieplicht, maar Pieter Vermeulen zelf hoeft géén geconsolideerde jaarrekening op te stellen. ⚖️
 >
 > _Bron: CBN 2022/09 — voorbeeld 7_

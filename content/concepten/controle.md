@@ -86,13 +86,13 @@ _Grondslag: KB WVV art. 3:98_
 
 ## Valkuilen
 
-> [!warning]- Een participatie van precies 50 % zonder stemovereenkomst geeft géén controle. …
+> [!warning]- Een participatie van precies 50 % zonder stemovereenkomst geeft géén controle
 > ⚠️ Een participatie van precies 50 % zonder stemovereenkomst geeft géén controle. Pas op om die niet automatisch als 'dochter' te etiketteren in een opgave. Voorbeeld: Aurelia en Cardinal Group hebben elk 50 % in Filmstudio Florence zonder akkoord — geen controle voor Aurelia (CBN 2017/02 — geval 2). ⚖️
 >
 > _Bron: CBN 2017/02 — Gezamenlijke controle, geval 2_
 
 
-> [!warning]- Controle in feite kan ook bij beperkte participaties bestaan. Toets altijd aan …
+> [!warning]- Controle in feite kan ook bij beperkte participaties bestaan
 > ⚠️ Controle in feite kan ook bij beperkte participaties bestaan. Toets altijd aan de twee-vergaderingen-test voor je 'geen controle' besluit bij <50 %. 🤖
 >
 > _Bron: KB WVV art. 3:98_

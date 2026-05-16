@@ -202,7 +202,7 @@ Verwijder alle wederzijdse vorderingen, schulden, verkopen, aankopen, intra-groe
 
 ## Valkuilen
 
-> [!warning]- Een consortium-lid dat zelf dochters heeft, moet eerst verticaal consolideren v…
+> [!warning]- Een consortium-lid dat zelf dochters heeft, moet eerst verticaal consolideren vooraleer aan de horizontale samenvoeging deel te nemen
 > ⚠️ Een consortium-lid dat zelf dochters heeft, moet eerst verticaal consolideren vooraleer aan de horizontale samenvoeging deel te nemen. Wie deze volgorde omkeert, krijgt incorrecte resultaten omdat de derden-belangen in de dochters van een lid anders verkeerd worden behandeld. Bv. Industria Antwerpen NV met dochter Brugse Brouwerij BV (80 %): eerst Industria+Brugse verticaal consolideren (incl. 20 % belangen van derden), dan pas horizontaal samenvoegen met Jachthaven Jezus-Eik NV. ⚖️
 >
 > _Bron: CBN 2022/09 — verticale voorafgaand aan horizontale_

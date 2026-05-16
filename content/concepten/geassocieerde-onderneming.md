@@ -62,13 +62,13 @@ _Bron: WVV art. 1:22_
 
 ## Valkuilen
 
-> [!warning]- De waarde van een deelneming in een geassocieerde onderneming kan op de balans …
+> [!warning]- De waarde van een deelneming in een geassocieerde onderneming kan op de balans nooit lager zijn dan nul
 > ⚠️ De waarde van een deelneming in een geassocieerde onderneming kan op de balans nooit lager zijn dan nul. Slaat het pro-rata aandeel in een verlies dieper in dan de boekwaarde, dan stop je de mutatie op 0 — verdere verliezen boek je niet door, zolang er geen aanvullende verplichting is (bv. een bijstortingsbelofte). ⚖️
 >
 > _Bron: CBN 2022/11_
 
 
-> [!warning]- Het gebruik van de vermogensmutatiemethode geeft geen vrijstelling van subconso…
+> [!warning]- Het gebruik van de vermogensmutatiemethode geeft geen vrijstelling van subconsolidatie
 > ⚠️ Het gebruik van de vermogensmutatiemethode geeft geen vrijstelling van subconsolidatie. Een groep met enkel een geassocieerde onderneming kan nog steeds consolidatieplichtig zijn op grond van andere dochters in de groep. ⚖️
 >
 > _Bron: CBN 2022/11_

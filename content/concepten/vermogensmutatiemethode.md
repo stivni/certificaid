@@ -459,19 +459,19 @@ Resultaat: Hypothese 1: boekwaarde +€ 375.000 → € 687.500; resultaat verbe
 
 ## Valkuilen
 
-> [!warning]- Het pro-rata aandeel in een verlies kan de boekwaarde van de deelneming nooit o…
+> [!warning]- Het pro-rata aandeel in een verlies kan de boekwaarde van de deelneming nooit onder nul brengen
 > ⚠️ Het pro-rata aandeel in een verlies kan de boekwaarde van de deelneming nooit onder nul brengen. Verdere verliezen worden niet doorgeboekt zolang er geen aanvullende verplichting (bv. borg, garantie) bestaat (CBN 2022/11, hypothese 3). ⚖️
 >
 > _Bron: CBN 2022/11_
 
 
-> [!warning]- Een dividend dat de geassocieerde uitkeert vermindert haar eigen vermogen — maa…
+> [!warning]- Een dividend dat de geassocieerde uitkeert vermindert haar eigen vermogen — maar wordt in de jaarrekening van de moeder geboekt als financië…
 > ⚠️ Een dividend dat de geassocieerde uitkeert vermindert haar eigen vermogen — maar wordt in de jaarrekening van de moeder geboekt als financiële opbrengst (zonder voor een tweede maal als 'aandeel in resultaat' te worden geteld). De vermogensmutatie corrigeert dat: het resultaat-aandeel wordt berekend exclusief het deel dat als dividend wordt uitgekeerd. ⚖️
 >
 > _Bron: CBN 2022/11 — Latere consolidaties_
 
 
-> [!warning]- Wijzigingen in het eigen vermogen van de geassocieerde buiten het resultaat om …
+> [!warning]- Wijzigingen in het eigen vermogen van de geassocieerde buiten het resultaat om (herwaarderingsmeerwaarde, kapitaalsubsidie, omrekeningsversc…
 > ⚠️ Wijzigingen in het eigen vermogen van de geassocieerde buiten het resultaat om (herwaarderingsmeerwaarde, kapitaalsubsidie, omrekeningsverschillen) moeten óók in de vermogensmutatie worden meegenomen — niet alleen het resultaat. Dit was vroeger een onderbelicht punt; CBN 2014/3 verduidelijkte het en CBN 2022/11 codificeerde de werkwijze. ⚖️
 >
 > _Bron: CBN 2014/3 + 2022/11_

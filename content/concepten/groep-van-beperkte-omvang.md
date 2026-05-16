@@ -54,13 +54,13 @@ _Bron: WVV art. 1:26, § 1_
 
 ## Valkuilen
 
-> [!warning]- Vrijstelling werkt enkel als 'maximaal één criterium overschreden' — niet 'mind…
+> [!warning]- Vrijstelling werkt enkel als 'maximaal één criterium overschreden' — niet 'minder dan twee'
 > ⚠️ Vrijstelling werkt enkel als 'maximaal één criterium overschreden' — niet 'minder dan twee'. Tel strikt en beoordeel alle drie de criteria (omzet, balanstotaal, personeel). Voorbeeld: Aurelia + Gent Garantie met twee overschreden drempels → géén vrijstelling. ⚖️
 >
 > _Bron: WVV art. 1:26, § 1 (toepassing analoog aan art. 1:24)_
 
 
-> [!warning]- Eenmalige overschrijding van een drempel doet de vrijstelling niet automatisch …
+> [!warning]- Eenmalige overschrijding van een drempel doet de vrijstelling niet automatisch verdwijnen — er zijn duurzaamheidsregels (zie CBN 2024/07 ove…
 > ⚠️ Eenmalige overschrijding van een drempel doet de vrijstelling niet automatisch verdwijnen — er zijn duurzaamheidsregels (zie CBN 2024/07 over de actualisering van drempels en overgangsregels). Bij twijfel: raadpleeg het Cijferzakboekje voor de actuele drempels en de impact-regels. 🤖
 >
 > _Bron: CBN 2024/07_

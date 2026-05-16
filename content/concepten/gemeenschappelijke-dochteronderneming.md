@@ -49,7 +49,7 @@ _Bron: CBN 2017/02 — Gezamenlijke controle_
 - Er is een overeenkomst (typisch een aandeelhoudersovereenkomst) waarin staat dat beleidsbeslissingen alleen met gemeenschappelijke instemming mogen worden genomen. Zonder zo'n overeenkomst is er geen gezamenlijke controle — en dus geen gemeenschappelijke dochter. ⚖️
 ## Valkuilen
 
-> [!warning]- Een 50/50-participatie zonder aandeelhoudersovereenkomst is géén gemeenschappel…
+> [!warning]- Een 50/50-participatie zonder aandeelhoudersovereenkomst is géén gemeenschappelijke dochter
 > ⚠️ Een 50/50-participatie zonder aandeelhoudersovereenkomst is géén gemeenschappelijke dochter. De reflex 'fifty-fifty = automatisch joint venture' is fout. Zonder overeenkomst over gezamenlijke besluitvorming is er noch gezamenlijke noch exclusieve controle — Filmstudio Florence BV kan dan eventueel wel als geassocieerde onderneming worden behandeld (vermogensmutatie). ⚖️
 >
 > _Bron: CBN 2017/02 — geval 2_

@@ -52,13 +52,13 @@ _Bron: CBN 2017/02 — Gezamenlijke controle (groottecriteria-update)_
 - Er is een overeenkomst (uitdrukkelijk of impliciet, vaak in een aandeelhoudersovereenkomst) dat beleidsbeslissingen alleen met gemeenschappelijke instemming mogen worden genomen. ⚖️
 ## Valkuilen
 
-> [!warning]- Twee vennootschappen die elk 50 % bezitten zonder overeenkomst over beleidsbesl…
+> [!warning]- Twee vennootschappen die elk 50 % bezitten zonder overeenkomst over beleidsbeslissingen vormen géén gezamenlijke controle — er is dan helema…
 > ⚠️ Twee vennootschappen die elk 50 % bezitten zonder overeenkomst over beleidsbeslissingen vormen géén gezamenlijke controle — er is dan helemaal geen controle. Geen overeenkomst, geen vermoeden. Bv. zonder aandeelhoudersovereenkomst tussen Cardinal Group en Energiehuis Evergem is Filmstudio Florence geen gemeenschappelijke dochter. ⚖️
 >
 > _Bron: CBN 2017/02 — geval 2_
 
 
-> [!warning]- De vennoten die samen een gemeenschappelijke dochter controleren zijn daardoor …
+> [!warning]- De vennoten die samen een gemeenschappelijke dochter controleren zijn daardoor niet automatisch onderling 'verbonden vennootschappen'
 > ⚠️ De vennoten die samen een gemeenschappelijke dochter controleren zijn daardoor niet automatisch onderling 'verbonden vennootschappen'. Cardinal Group en Energiehuis Evergem zijn elk wel met Filmstudio Florence verbonden, maar niet met elkaar. ⚖️
 >
 > _Bron: CBN 2017/02_

@@ -157,7 +157,7 @@ Resultaat: Aurelia Holding NV controleert Drukkerij Dendermonde exclusief (via B
 
 ## Valkuilen
 
-> [!warning]- Niet alle aandelen geven stemrechten. Bij stemrechtloze aandelen of preferente …
+> [!warning]- Niet alle aandelen geven stemrechten
 > ⚠️ Niet alle aandelen geven stemrechten. Bij stemrechtloze aandelen of preferente aandelen kunnen kapitaal (belangenpercentage) en stemrechten (controlepercentage) uit elkaar lopen. Lees de opgave nauwkeurig: gaat het over 'aandelen', 'stemrechten' of 'kapitaal'? 🤖
 >
 > _Bron: Synthese WVV/CBN_

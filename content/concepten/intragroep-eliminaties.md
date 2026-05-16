@@ -387,13 +387,13 @@ In de toelichting bij de geconsolideerde jaarrekening: zorg dat informatie over 
 
 ## Valkuilen
 
-> [!warning]- Eliminaties kunnen om materialiteitsredenen achterwege blijven (KB WVV art. 3:1…
+> [!warning]- Eliminaties kunnen om materialiteitsredenen achterwege blijven (KB WVV art. 3:138 jo. art. 3:139), maar de toets is 'van te verwaarlozen bet…
 > ⚠️ Eliminaties kunnen om materialiteitsredenen achterwege blijven (KB WVV art. 3:138 jo. art. 3:139), maar de toets is 'van te verwaarlozen betekenis, gelet op het doel van art. 3:105 (getrouw beeld)'. Beoordeel altijd op groepsniveau, niet op de individuele post — twee individueel kleine eliminaties die samen significant zijn moet je niet beide overslaan. ⚖️
 >
 > _Bron: KB WVV art. 3:139_
 
 
-> [!warning]- Een intra-groepsverkoop tegen kostprijs (zonder marge) levert geen te eliminere…
+> [!warning]- Een intra-groepsverkoop tegen kostprijs (zonder marge) levert geen te elimineren winst op de balans op — er valt niets uit reserves te halen
 > ⚠️ Een intra-groepsverkoop tegen kostprijs (zonder marge) levert geen te elimineren winst op de balans op — er valt niets uit reserves te halen. Maar opbrengsten en kosten moet je nog steeds uit de geconsolideerde resultatenrekening schrappen (KB WVV art. 3:136, 1°). ⚖️
 >
 > _Bron: KB WVV art. 3:136, 1°_

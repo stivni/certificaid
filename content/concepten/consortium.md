@@ -55,13 +55,13 @@ _Bron: CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)_
 - Geen van de leden mag dochter zijn van een ander lid, en de leden mogen geen dochter zijn van dezelfde Belgische of buitenlandse vennootschap. In die gevallen geldt namelijk de verticale consolidatie en heeft een consortium geen zin: een normale moeder consolideert dan al. ⚖️
 ## Valkuilen
 
-> [!warning]- De persoon of entiteit die de centrale leiding uitoefent mag zelf geen moederve…
+> [!warning]- De persoon of entiteit die de centrale leiding uitoefent mag zelf geen moedervennootschap kunnen zijn
 > ⚠️ De persoon of entiteit die de centrale leiding uitoefent mag zelf geen moedervennootschap kunnen zijn. Klassiek: een natuurlijke persoon (Pieter Vermeulen), een private stichting of een maatschap zonder rechtspersoonlijkheid. Zou de leider wél een vennootschap zijn die controle uitoefent, dan zou er een gewone moeder-dochter-relatie bestaan en geen consortium. De centrale leider zelf moet géén geconsolideerde jaarrekening opstellen. ⚖️
 >
 > _Bron: CBN 2022/09 — voorbeeld 7; CBN 2015/10_
 
 
-> [!warning]- Bij een consortium onder centrale leiding van een natuurlijke persoon tellen vo…
+> [!warning]- Bij een consortium onder centrale leiding van een natuurlijke persoon tellen voor de groottecriteria-toets alleen de cijfers van de consorti…
 > ⚠️ Bij een consortium onder centrale leiding van een natuurlijke persoon tellen voor de groottecriteria-toets alleen de cijfers van de consortium-leden — niet de eventuele privé-cijfers van Pieter Vermeulen. ⚖️
 >
 > _Bron: CBN 2022/09 — Beoordeling groottecriteria_

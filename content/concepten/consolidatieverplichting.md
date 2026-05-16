@@ -50,19 +50,19 @@ _Bron: WVV art. 3:22 jo. art. 3:24 (consortium)_
 - Vrijstelling van subconsolidatie — een submoeder is vrijgesteld als haar eigen moeder hogerop al consolideert (een geconsolideerde jaarrekening + jaarverslag opmaakt, laat controleren en publiceert). Niet van toepassing zodra een van de betrokken vennootschappen (de submoeder zelf of één van haar dochters) beursgenoteerd is. ⚖️
 ## Valkuilen
 
-> [!warning]- Een natuurlijke persoon (bv. Pieter Vermeulen) of een private stichting die mee…
+> [!warning]- Een natuurlijke persoon (bv. Pieter Vermeulen) of een private stichting die meerderheidsstemrechten in meerdere vennootschappen aanhoudt, is…
 > ⚠️ Een natuurlijke persoon (bv. Pieter Vermeulen) of een private stichting die meerderheidsstemrechten in meerdere vennootschappen aanhoudt, is zelf geen moeder en is dus niet consolidatieplichtig. In zo'n configuratie ontstaat doorgaans een consortium en rust de consolidatieplicht gezamenlijk op de leden. ⚖️
 >
 > _Bron: CBN 2022/09 — voorbeeld 7_
 
 
-> [!warning]- Een maatschap zonder rechtspersoonlijkheid kan nooit moeder zijn. Als de struct…
+> [!warning]- Een maatschap zonder rechtspersoonlijkheid kan nooit moeder zijn
 > ⚠️ Een maatschap zonder rechtspersoonlijkheid kan nooit moeder zijn. Als de structuur ook niet als consortium kwalificeert, vervalt de vrijstelling van subconsolidatie voor de onderliggende vennootschappen en moeten zij zelf consolideren. ⚖️
 >
 > _Bron: CBN 2015/10_
 
 
-> [!warning]- 'Beoordeling van groottecriteria op geconsolideerde basis' betekent niet automa…
+> [!warning]- 'Beoordeling van groottecriteria op geconsolideerde basis' betekent niet automatisch dat je effectief een geconsolideerde jaarrekening moet…
 > ⚠️ 'Beoordeling van groottecriteria op geconsolideerde basis' betekent niet automatisch dat je effectief een geconsolideerde jaarrekening moet opmaken — het is enkel een rekenwijze om te toetsen of de vrijstellingsdrempels al dan niet overschreden zijn. ⚖️
 >
 > _Bron: CBN 2017/15_

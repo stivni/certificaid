@@ -304,19 +304,19 @@ Resultaat: In de geconsolideerde balans wordt € 300.000 als positief consolida
 
 ## Valkuilen
 
-> [!warning]- Het verschil tussen aanschaffingswaarde en EV op aankoopdatum is niet meteen he…
+> [!warning]- Het verschil tussen aanschaffingswaarde en EV op aankoopdatum is niet meteen het consolidatieverschil
 > ⚠️ Het verschil tussen aanschaffingswaarde en EV op aankoopdatum is niet meteen het consolidatieverschil. Eerst toerekenen aan onder-/overgewaardeerde bezittingen en schulden (KB WVV art. 3:128 jo. art. 3:130, lid 1); pas het residu na die toerekening wordt 'Consolidatieverschillen'. ⚖️
 >
 > _Bron: KB WVV art. 3:130_
 
 
-> [!warning]- Negatief consolidatieverschil mag niet 'gewoon' als winst worden geboekt. KB WV…
+> [!warning]- Negatief consolidatieverschil mag niet 'gewoon' als winst worden geboekt
 > ⚠️ Negatief consolidatieverschil mag niet 'gewoon' als winst worden geboekt. KB WVV art. 3:131, § 2 voorziet een resultaat-opname enkel als het negatief verschil te verklaren is door een verwachte ongunstige resultaatsontwikkeling — en dan slechts naarmate die ontwikkeling zich realiseert. ⚖️
 >
 > _Bron: KB WVV art. 3:131, § 2_
 
 
-> [!warning]- Aanvullende of uitzonderlijke afschrijvingen moeten worden geboekt zodra een ge…
+> [!warning]- Aanvullende of uitzonderlijke afschrijvingen moeten worden geboekt zodra een gewijzigde economische context het niet langer rechtvaardigt he…
 > ⚠️ Aanvullende of uitzonderlijke afschrijvingen moeten worden geboekt zodra een gewijzigde economische context het niet langer rechtvaardigt het positieve consolidatieverschil tegen die waarde te behouden (KB WVV art. 3:131, § 1). ⚖️
 >
 > _Bron: KB WVV art. 3:131, § 1_

@@ -227,7 +227,7 @@ Resultaat: In de geconsolideerde balans: 'Belangen van derden' = 100 (passiefzij
 
 ## Valkuilen
 
-> [!warning]- Het derden-aandeel bereken je op het eigen vermogen van de dochter ná herbereke…
+> [!warning]- Het derden-aandeel bereken je op het eigen vermogen van de dochter ná herberekening van onder- of overgewaardeerde bezittingen en schulden (…
 > ⚠️ Het derden-aandeel bereken je op het eigen vermogen van de dochter ná herberekening van onder- of overgewaardeerde bezittingen en schulden (KB WVV art. 3:130, lid 4). De derden-correctie geldt dus ook voor stille meer- of minderwaarden die bij eerste consolidatie zijn vastgesteld — niet enkel voor het boekhoudkundige EV. Voorbeeld: bij Brugse Brouwerij BV werden terreinen € 250.000 opgewaardeerd; dan komt 20 % × € 250.000 = € 50.000 erbij in 'Belangen van derden'. ⚖️
 >
 > _Bron: KB WVV art. 3:130, lid 4_

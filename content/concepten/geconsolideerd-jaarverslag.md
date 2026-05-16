@@ -64,7 +64,7 @@ _Bron: WVV art. 3:32 (jaarverslag); art. 3:35 (gecondenseerd voor consolidatie)_
 
 ## Valkuilen
 
-> [!warning]- De vrijstelling voor de geconsolideerde jaarrekening (bv. groep van beperkte om…
+> [!warning]- De vrijstelling voor de geconsolideerde jaarrekening (bv. groep van beperkte omvang of vrijstelling subconsolidatie) omvat altijd ook de vri…
 > ⚠️ De vrijstelling voor de geconsolideerde jaarrekening (bv. groep van beperkte omvang of vrijstelling subconsolidatie) omvat altijd ook de vrijstelling voor het geconsolideerd jaarverslag. Je hebt niet twee verschillende vrijstellingen — ze vallen samen. 🤖
 >
 > _Bron: CBN 2022/11_

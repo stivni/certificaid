@@ -64,13 +64,13 @@ _Bron: WVV art. 1:26 jo. art. 1:24_
 
 ## Valkuilen
 
-> [!warning]- De drempels zijn niet vast in de tijd. Ze worden periodiek verhoogd (CBN 2024/0…
+> [!warning]- De drempels zijn niet vast in de tijd
 > ⚠️ De drempels zijn niet vast in de tijd. Ze worden periodiek verhoogd (CBN 2024/07 documenteert een aanpassing). De bedragen uit CBN 2017/15 of CBN 2022/03 zijn op examen-moment mogelijk niet meer actueel. Examen-strategie: leer de drie criteria en de twee berekeningsmethoden — de actuele bedragen vind je in het Cijferzakboekje dat tijdens het examen beschikbaar is. 🤖
 >
 > _Bron: CBN 2024/07_
 
 
-> [!warning]- Bij een consortium toets je de groottecriteria voor de leden samen (Industria A…
+> [!warning]- Bij een consortium toets je de groottecriteria voor de leden samen (Industria Antwerpen NV + Jachthaven Jezus-Eik NV)
 > ⚠️ Bij een consortium toets je de groottecriteria voor de leden samen (Industria Antwerpen NV + Jachthaven Jezus-Eik NV). De centrale leider die zelf geen vennootschap is — een natuurlijke persoon zoals Pieter Vermeulen, een private stichting of een maatschap — telt niet mee in de berekening. ⚖️
 >
 > _Bron: CBN 2022/09 — Beoordeling groottecriteria_

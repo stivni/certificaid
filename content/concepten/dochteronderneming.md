@@ -56,13 +56,13 @@ _Bron: WVV art. 1:15, 2° jo. art. 3:22_
 
 ## Valkuilen
 
-> [!warning]- Een vereniging of stichting (vzw of stichting) met een commerciële, financiële …
+> [!warning]- Een vereniging of stichting (vzw of stichting) met een commerciële, financiële of industriële activiteit is een dochteronderneming in de zin…
 > ⚠️ Een vereniging of stichting (vzw of stichting) met een commerciële, financiële of industriële activiteit is een dochteronderneming in de zin van WVV art. 3:22 zodra een vennootschap er controle over heeft. Onder het oude W.Venn. werden zulke entiteiten vaak uitgesloten — dat is sinds het WVV niet meer mogelijk. ⚖️
 >
 > _Bron: CBN 2022/09 — Consortium_
 
 
-> [!warning]- Een dochter die je buiten de consolidatie laat op grond van KB WVV art. 3:98 of…
+> [!warning]- Een dochter die je buiten de consolidatie laat op grond van KB WVV art. 3:98 of 3:99 (controle in feite die het getrouwe beeld zou verstoren…
 > ⚠️ Een dochter die je buiten de consolidatie laat op grond van KB WVV art. 3:98 of 3:99 (controle in feite die het getrouwe beeld zou verstoren; bepaalde uitsluitingsgronden) moet je via de vermogensmutatiemethode opnemen — niet zomaar weglaten. ⚖️
 >
 > _Bron: KB WVV art. 3:100_

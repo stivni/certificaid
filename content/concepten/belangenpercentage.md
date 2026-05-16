@@ -186,7 +186,7 @@ Resultaat: Aurelia Holding NV heeft een economisch belang van 48 % in B. Het aan
 
 ## Valkuilen
 
-> [!warning]- Belangenpercentage en controlepercentage worden vaak verward. Een opgave die ze…
+> [!warning]- Belangenpercentage en controlepercentage worden vaak verward
 > ⚠️ Belangenpercentage en controlepercentage worden vaak verward. Een opgave die zegt 'Aurelia bezit 60 %' is dubbelzinnig — 60 % van de stemrechten (controle) of 60 % van het kapitaal (belang)? Bij gewone aandelen vallen die samen, bij preferente aandelen of certificaten kunnen ze uit elkaar lopen. 🤖
 >
 > _Bron: Synthese examenpraktijk_

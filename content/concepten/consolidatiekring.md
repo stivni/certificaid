@@ -97,13 +97,13 @@ _Grondslag: KB WVV art. 3:100_
 
 ## Valkuilen
 
-> [!warning]- 'Uitgesloten uit de consolidatiekring' is niet hetzelfde als 'niet geconsolidee…
+> [!warning]- 'Uitgesloten uit de consolidatiekring' is niet hetzelfde als 'niet geconsolideerd'
 > ⚠️ 'Uitgesloten uit de consolidatiekring' is niet hetzelfde als 'niet geconsolideerd'. Uitgesloten dochters worden alsnog via de vermogensmutatiemethode opgenomen (KB WVV art. 3:100). Een opgave 'Brugse Brouwerij BV wordt uitgesloten op grond van art. 3:98' betekent nog steeds opname in de geconsolideerde jaarrekening, maar via een andere techniek. ⚖️
 >
 > _Bron: KB WVV art. 3:100_
 
 
-> [!warning]- Uitsluiting wegens 'te verwaarlozen betekenis' (art. 3:97, 1°) moet cumulatief …
+> [!warning]- Uitsluiting wegens 'te verwaarlozen betekenis' (art. 3:97, 1°) moet cumulatief worden beoordeeld als meerdere dochters aan die voorwaarde vo…
 > ⚠️ Uitsluiting wegens 'te verwaarlozen betekenis' (art. 3:97, 1°) moet cumulatief worden beoordeeld als meerdere dochters aan die voorwaarde voldoen. Twee individueel kleine dochters die samen wél significant zijn (bv. Bouwwerf Beerse + Gent Garantie samen 12 % van het groepsbalans-totaal), mogen niet beide worden uitgesloten. ⚖️
 >
 > _Bron: KB WVV art. 3:97, 1°_

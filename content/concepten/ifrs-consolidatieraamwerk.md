@@ -70,7 +70,7 @@ _Grondslag: KB WVV art. 3:104, § 2_
 
 ## Valkuilen
 
-> [!warning]- Detailvragen over IFRS 3, 10, 11, 12 paragraafnummers liggen buiten het bereik …
+> [!warning]- Detailvragen over IFRS 3, 10, 11, 12 paragraafnummers liggen buiten het bereik van wat met de huidige Certificaid-corpus volledig kan worden…
 > ⚠️ Detailvragen over IFRS 3, 10, 11, 12 paragraafnummers liggen buiten het bereik van wat met de huidige Certificaid-corpus volledig kan worden onderbouwd. De volledige tekst van die IFRS-standaarden zit niet in het corpus; CBN-verwijzingen blijven beperkt. Bij IFRS-examenvragen: focus op de structuur (verplicht voor genoteerden via Verordening 1606/2002; vrijwillig via KB WVV art. 3:104, § 2) en op overzichtsniveau-verschillen met BEGAAP — geen detailparagrafen uit het hoofd leren. 🤖
 >
 > _Bron: Certificaid-corpus-status_

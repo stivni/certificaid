@@ -117,7 +117,7 @@ _Grondslag: CBN 2013/3_
 
 ## Valkuilen
 
-> [!warning]- Bij de overgang van vermogensmutatie naar integrale consolidatie verdwijnt het …
+> [!warning]- Bij de overgang van vermogensmutatie naar integrale consolidatie verdwijnt het bestaande consolidatieverschil niet
 > ⚠️ Bij de overgang van vermogensmutatie naar integrale consolidatie verdwijnt het bestaande consolidatieverschil niet. Voor de bijkomende tranche bereken je een nieuw consolidatieverschil op de aanschaffingsdatum van die nieuwe tranche; het oude residu blijft bestaan voor de eerdere tranche. ⚖️
 >
 > _Bron: CBN 2013/3_

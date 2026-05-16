@@ -2,7 +2,7 @@
 ## Valkuilen
 
 {% for valkuil in valkuilen %}
-> [!warning]- {{ valkuil.advies | default(valkuil.text | default('Valkuil')) | truncate(80, True, '…') }}
+> [!warning]- {{ valkuil.advies | default(valkuil.text | default('Valkuil') | eerste_zin(140)) }}
 > ⚠️ {{ valkuil.text }} {{ valkuil.confidence | default('inferred') | confidence_label }}
 {% if valkuil.rationale %}
 >

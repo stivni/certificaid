@@ -56,13 +56,13 @@ _Bron: KB WVV art. 3:116 jo. art. 3:117_
 - Fiscale distorsies (KB WVV art. 3:118): heeft de moeder of een dochter in haar enkelvoudige jaarrekening fiscaal grotere afschrijvingen of waardeverminderingen genomen dan economisch verantwoord, of een passief te ruim geboekt of gewaardeerd? Dan kan je die bestanddelen pas in de geconsolideerde jaarrekening opnemen nadat je de distorsie hebt teruggedraaid — tenzij het bedrag verwaarloosbaar is voor het getrouwe beeld (art. 3:105). ⚖️
 ## Valkuilen
 
-> [!warning]- Fiscaal versneld afgeschreven activa in de individuele jaarrekening van een doc…
+> [!warning]- Fiscaal versneld afgeschreven activa in de individuele jaarrekening van een dochter moet je voor de consolidatie corrigeren tot economisch v…
 > ⚠️ Fiscaal versneld afgeschreven activa in de individuele jaarrekening van een dochter moet je voor de consolidatie corrigeren tot economisch verantwoorde bedragen — anders geeft de geconsolideerde jaarrekening een vertekend beeld van de groep (KB WVV art. 3:118). Bv. Brugse Brouwerij BV met fiscaal versnelde afschrijving op gebouwen → in de consolidatie rekenen tegen een langere economische levensduur. ⚖️
 >
 > _Bron: KB WVV art. 3:118_
 
 
-> [!warning]- Een wijziging in waarderingsregels van het ene boekjaar op het andere is uitzon…
+> [!warning]- Een wijziging in waarderingsregels van het ene boekjaar op het andere is uitzonderlijk en je moet ze motiveren (KB WVV art. 3:117)
 > ⚠️ Een wijziging in waarderingsregels van het ene boekjaar op het andere is uitzonderlijk en je moet ze motiveren (KB WVV art. 3:117). Een 'gewone' beleidsvoorkeur is onvoldoende — er moet sprake zijn van een belangrijke wijziging in bedrijf, vermogensstructuur of omstandigheden. ⚖️
 >
 > _Bron: KB WVV art. 3:117_

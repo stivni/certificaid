@@ -64,13 +64,13 @@ _Bron: CBN 2012/12_
 
 ## Valkuilen
 
-> [!warning]- De vrijstelling 'verspringt' niet door noteringen hogerop. Aurelia Holding NV k…
+> [!warning]- De vrijstelling 'verspringt' niet door noteringen hogerop
 > ⚠️ De vrijstelling 'verspringt' niet door noteringen hogerop. Aurelia Holding NV kan vrijgesteld blijven, ook al is de moeder Kappers Köln GmbH genoteerd — zolang Aurelia en haar dochters zelf niet genoteerd zijn (CBN 2012/12). ⚖️
 >
 > _Bron: CBN 2012/12_
 
 
-> [!warning]- Wordt een dochter via vermogensmutatie opgenomen (in plaats van integraal), dan…
+> [!warning]- Wordt een dochter via vermogensmutatie opgenomen (in plaats van integraal), dan verandert dat de consolidatieverplichting niet
 > ⚠️ Wordt een dochter via vermogensmutatie opgenomen (in plaats van integraal), dan verandert dat de consolidatieverplichting niet. De groep blijft consolidatieplichtig zolang er minstens één gecontroleerde dochter is. ⚖️
 >
 > _Bron: CBN 2022/11_

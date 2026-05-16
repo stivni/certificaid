@@ -62,7 +62,7 @@ _Bron: WVV art. 1:22 (geassocieerde vennootschap)_
 
 ## Valkuilen
 
-> [!warning]- Het vermoeden bij ≥ 20 % is weerlegbaar. Kan de moeder bewijzen dat zij ondanks…
+> [!warning]- Het vermoeden bij ≥ 20 % is weerlegbaar
 > ⚠️ Het vermoeden bij ≥ 20 % is weerlegbaar. Kan de moeder bewijzen dat zij ondanks haar 20 %+ géén invloed van betekenis kan uitoefenen — bv. door statutaire beperkingen of door een dominante andere aandeelhouder die alle stemrechten effectief blokkeert — dan vervalt de kwalificatie als geassocieerde onderneming. 🤖
 >
 > _Bron: WVV art. 1:22, § 2_

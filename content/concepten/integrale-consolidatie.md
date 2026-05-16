@@ -339,19 +339,19 @@ Resultaat: In de geconsolideerde balans staan de € 3.000.000 activa en € 1.0
 
 ## Valkuilen
 
-> [!warning]- De compensatie van de deelneming gebeurt op verwervingsdatum, niet op afsluitin…
+> [!warning]- De compensatie van de deelneming gebeurt op verwervingsdatum, niet op afsluitingsdatum
 > ⚠️ De compensatie van de deelneming gebeurt op verwervingsdatum, niet op afsluitingsdatum. Het eigen vermogen op verwervingsdatum bevriest; latere wijzigingen in het eigen vermogen van de dochter worden behandeld als geconsolideerde reserves of resultaat — niet als toename of afname van het consolidatieverschil. ⚖️
 >
 > _Bron: KB WVV art. 3:129_
 
 
-> [!warning]- Bij eerste consolidatie van een vennootschap kan de compensatie ten belope van …
+> [!warning]- Bij eerste consolidatie van een vennootschap kan de compensatie ten belope van de aandelen in haar bezit op die datum gebeuren op de aanvang…
 > ⚠️ Bij eerste consolidatie van een vennootschap kan de compensatie ten belope van de aandelen in haar bezit op die datum gebeuren op de aanvangsdatum van het boekjaar (KB WVV art. 3:129, b)). Dit is een uitzondering die in de toelichting kan worden gemotiveerd. ⚖️
 >
 > _Bron: KB WVV art. 3:129, b)_
 
 
-> [!warning]- De weglatingen van KB WVV art. 3:134 en 3:136 mogen achterwege blijven 'wanneer…
+> [!warning]- De weglatingen van KB WVV art. 3:134 en 3:136 mogen achterwege blijven 'wanneer de betrokken bedragen, gelet op het doel van artikel 3:105,…
 > ⚠️ De weglatingen van KB WVV art. 3:134 en 3:136 mogen achterwege blijven 'wanneer de betrokken bedragen, gelet op het doel van artikel 3:105, slechts van te verwaarlozen betekenis zijn' (KB WVV art. 3:138 jo. art. 3:139). Praktisch beoordelen op materialiteit. ⚖️
 >
 > _Bron: KB WVV art. 3:139_

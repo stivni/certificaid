@@ -88,13 +88,13 @@ _Grondslag: CBN 2017/15_
 
 ## Valkuilen
 
-> [!warning]- Een wijziging van de consolidatiekring vraagt ofwel een retro-actieve aanpassin…
+> [!warning]- Een wijziging van de consolidatiekring vraagt ofwel een retro-actieve aanpassing van de vergelijkende cijfers, ofwel een toelichting bij nie…
 > ⚠️ Een wijziging van de consolidatiekring vraagt ofwel een retro-actieve aanpassing van de vergelijkende cijfers, ofwel een toelichting bij niet-vergelijkbaarheid (KB WVV art. 3:152). Een examenvraag kan dit toetsen door te vragen hoe de cijfers van het vorige boekjaar moeten worden aangepast na een acquisitie of een vervreemding. ⚖️
 >
 > _Bron: KB WVV art. 3:152_
 
 
-> [!warning]- Bij een common control-transactie (herstructurering binnen het concern) ontstaa…
+> [!warning]- Bij een common control-transactie (herstructurering binnen het concern) ontstaat geen nieuw consolidatieverschil — de eerder bestaande histo…
 > ⚠️ Bij een common control-transactie (herstructurering binnen het concern) ontstaat geen nieuw consolidatieverschil — de eerder bestaande historische cijfers worden voortgezet (CBN 2017/15). Belangrijke uitzondering op de regel dat eerste consolidatie altijd een nieuw consolidatieverschil triggert. ⚖️
 >
 > _Bron: CBN 2017/15_
