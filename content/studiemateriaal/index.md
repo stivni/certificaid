@@ -1,13 +1,11 @@
 ---
-title: "Certificaid"
+title: "Studiemateriaal"
 gegenereerd_op: '2026-05-16'
 ---
 
-# Certificaid
+# Studiemateriaal
 
-Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant.
-
-## Studiemateriaal per programmaonderdeel
+Minicursussen per programmaonderdeel — elk een leesbaar overzicht met links naar concept- en competentie-fiches.
 
 <div class="two-column-list">
 
@@ -17,8 +15,3 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant.
 - [[studiemateriaal/1.4-geconsolideerde-jaarrekening|PO 1.4 — Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening]]
 
 </div>
-
-## Catalogi
-
-- [[concepten/index|Concept-index]] — alle begrippen, fenomenen, methodes, regels en synthese-records
-- [[competenties/index|Competentie-index]] — werkstap-procedures per programmaonderdeel

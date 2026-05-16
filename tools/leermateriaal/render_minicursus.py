@@ -474,7 +474,7 @@ def main() -> None:
     # Output-paden
     slug = _slugify_programmaonderdeel(programmaonderdeel_id, leerpad)
     output_map = OUTPUT_CONTENT_DIR / slug
-    skeleton_pad = output_map / "minicursus.md"
+    skeleton_pad = output_map / "index.md"
 
     run_id = datetime.now(timezone.utc).strftime("minicursus-run-%Y%m%dT%H%M%SZ")
     werkmap = EXTRACTIE_DIR / programmaonderdeel_id / "minicursus-runs" / run_id
