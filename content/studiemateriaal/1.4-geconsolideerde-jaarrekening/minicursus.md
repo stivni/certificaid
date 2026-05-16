@@ -301,55 +301,55 @@ Het examen toetst op dit programmaonderdeel zelden of je een bedrag uit het hoof
 
 > [!question]- 2013-1-vr3 (3.0 pt)
 > Vraag 3 … / 3 punten
-  Een onderneming, die een geconsolideerde jaarrekening moet opstellen, vraagt U onder
-  welke post in de geconsolideerde resultatenrekening het gedeelte van het resultaat van de
-  volledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen
-  die worden gehouden door andere personen dan de consoliderende vennootschap of de in
-  de consolidatie opgenomen dochterondernemingen moet worden vermeld.
-  Antwoord
+> Een onderneming, die een geconsolideerde jaarrekening moet opstellen, vraagt U onder
+> welke post in de geconsolideerde resultatenrekening het gedeelte van het resultaat van de
+> volledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen
+> die worden gehouden door andere personen dan de consoliderende vennootschap of de in
+> de consolidatie opgenomen dochterondernemingen moet worden vermeld.
+> Antwoord
 >
 > _Thema's: consolidatie_
 
 > [!question]- 2013-1-vr4 (3.0 pt)
 > Vraag 4 … / 3 punten
-  De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de
-  jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan
-  afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?
-  Antwoord
+> De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de
+> jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan
+> afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?
+> Antwoord
 >
 > _Thema's: consolidatie_
 
 > [!question]- 2014-1-vr3 (3.0 pt)
 > Vraag 3 … / 3 punten
-  De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de
-  jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan
-  afwijken.
-  Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?
-  Antwoord
+> De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de
+> jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan
+> afwijken.
+> Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?
+> Antwoord
 >
 > _Thema's: consolidatie_
 
 > [!question]- 2014-1-vr4 (9.0 pt)
 > Vraag 4 … / 9 punten
-  Vul onderstaande tabel aan op basis van volgende gegevens.
-  M
-  70 % 30 %
-  60 % 20 %
-  A B C
-  Antwoord
-  CONTROLEPERCENTAGE BELANGENPERCENTAGE CONSOLIDATIEMETHODE
-  M IN A
-  M IN B
-  M IN C
+> Vul onderstaande tabel aan op basis van volgende gegevens.
+> M
+> 70 % 30 %
+> 60 % 20 %
+> A B C
+> Antwoord
+> CONTROLEPERCENTAGE BELANGENPERCENTAGE CONSOLIDATIEMETHODE
+> M IN A
+> M IN B
+> M IN C
 >
 > _Thema's: consolidatie_
 
 > [!question]- 2015-1-vr4 (6.0 pt)
 > Vraag 4 … / 6 punten
-  a) Wat is een positief consolidatieverschil ?
-  Antwoord … / 2 punten
-  b) Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ?
-  Antwoord … / 4 punten
+> a) Wat is een positief consolidatieverschil ?
+> Antwoord … / 2 punten
+> b) Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ?
+> Antwoord … / 4 punten
 >
 > _Thema's: consolidatie_
 

@@ -416,6 +416,12 @@ def main() -> None:
         action="store_true",
         help="Droog uitvoeren: render maar schrijf niets weg.",
     )
+    parser.add_argument(
+        "--forceer",
+        action="store_true",
+        help="Forceer overschrijven van bestaande minicursus, ook als er geen "
+             "Opus-glue TODO-placeholders meer in staan (de glue gaat dan verloren).",
+    )
     args = parser.parse_args()
 
     programmaonderdeel_id: str = args.programmaonderdeel
@@ -472,6 +478,19 @@ def main() -> None:
 
     if not args.droog:
         output_map.mkdir(parents=True, exist_ok=True)
+        # Safety: voorkom dat we Opus-glue overschrijven zonder --forceer
+        if skeleton_pad.exists() and not args.forceer:
+            bestaande = skeleton_pad.read_text(encoding="utf-8")
+            todos_in_bestaande = bestaande.count("<!-- TODO: Opus-glue")
+            if todos_in_bestaande == 0:
+                print(
+                    f"FOUT: bestaande {skeleton_pad.relative_to(ROOT)} bevat geen "
+                    f"TODO-placeholders meer (Opus-glue is al ingevuld). Opnieuw "
+                    f"renderen zou de glue overschrijven. Gebruik --forceer om "
+                    f"hier expliciet voor te kiezen.",
+                    file=sys.stderr,
+                )
+                sys.exit(2)
         skeleton_pad.write_text(skeleton, encoding="utf-8")
         print(f"[minicursus] Skeleton geschreven: {skeleton_pad.relative_to(ROOT)}")
 
