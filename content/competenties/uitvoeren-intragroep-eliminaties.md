@@ -62,26 +62,26 @@ Schrap wederzijdse vorderingen en schulden tussen groepsvennootschappen uit de g
 4. Documenteer in werkpapier eliminaties: welke bedragen geschrapt, welke restposten over.
 
 
-> [!example]- Voorbeeld: Aurelia Holding NV heeft een vordering van 50 op Brugse Brouwerij BV. Brugse heeft een overeenkomstige schuld van 50 aan…
-> Aurelia Holding NV heeft een vordering van 50 op Brugse Brouwerij BV. Brugse heeft een overeenkomstige schuld van 50 aan Aurelia.
+> [!example]- Voorbeeld: Aurelia Holding NV heeft een vordering van € 250.000 op Brugse Brouwerij BV. Brugse heeft een overeenkomstige schuld van…
+> Aurelia Holding NV heeft een vordering van € 250.000 op Brugse Brouwerij BV. Brugse heeft een overeenkomstige schuld van € 250.000 aan Aurelia.
 >
 > 1. **Eliminatie-boeking** 📝
 >
->    Debiteer: Schulden aan groepsvennootschappen (Brugse)     50
->    Crediteer: Vorderingen op groepsvennootschappen (Aurelia)  50
+>    Debiteer: Schulden aan groepsvennootschappen (Brugse)     € 250.000
+>    Crediteer: Vorderingen op groepsvennootschappen (Aurelia)  € 250.000
 >    
 >
 > 2. **Effect op geconsolideerde balans** 📊
 >
->    | Vóór eliminatie                                  | Aurelia | Brugse |
->    |--------------------------------------------------|--------:|-------:|
->    | Vorderingen op groepsvennootschappen (Brugse)    |      50 |      — |
->    | Schulden aan groepsvennootschappen (Aurelia)     |       — |     50 |
+>    | Vóór eliminatie                                  | Aurelia (€) | Brugse (€) |
+>    |--------------------------------------------------|------------:|-----------:|
+>    | Vorderingen op groepsvennootschappen (Brugse)    |     250.000 |          — |
+>    | Schulden aan groepsvennootschappen (Aurelia)     |           — |    250.000 |
 >    
->    | Na eliminatie in geconsolideerde balans          |   |
->    |--------------------------------------------------|--:|
->    | Vorderingen op groepsvennootschappen             |  0 |
->    | Schulden aan groepsvennootschappen               |  0 |
+>    | Na eliminatie in geconsolideerde balans          | Bedrag (€) |
+>    |--------------------------------------------------|-----------:|
+>    | Vorderingen op groepsvennootschappen             |          0 |
+>    | Schulden aan groepsvennootschappen               |          0 |
 >    
 >
 
@@ -110,20 +110,20 @@ Schrap de winstmarge die de groep aan zichzelf heeft toegerekend en die nog in v
 
 
 > [!example]- Voorbeeld: Aurelia Holding NV heeft aan Brugse Brouwerij BV voorraad verkocht met een brutomarge van 25 %
-> Aurelia Holding NV heeft aan Brugse Brouwerij BV voorraad verkocht met een brutomarge van 25 %. Op balansdatum staat bij Brugse nog 400 van die voorraad.
+> Aurelia Holding NV heeft aan Brugse Brouwerij BV voorraad verkocht met een brutomarge van 25 %. Op balansdatum staat bij Brugse nog € 200.000 van die voorraad.
 >
 > 1. **Berekening niet-gerealiseerde winst** 🧮
 >
 >    niet-gerealiseerde winst = brutomarge × restvoorraad
->                            = 25 % × 400
->                            = **100**
+>                            = 25 % × € 200.000
+>                            = **€ 50.000**
 >    
 >
 > 2. **Eliminatie-boeking** 📝
 >
->    Debiteer: Resultaat (eliminatie intra-groepswinst)    100
->    Crediteer: Voorraad bij Brugse                        100
->    → Voorraad wordt teruggebracht naar de waarde voor de groep (300 i.p.v. 400).
+>    Debiteer: Resultaat (eliminatie intra-groepswinst)    € 50.000
+>    Crediteer: Voorraad bij Brugse                        € 50.000
+>    → Voorraad wordt teruggebracht naar de waarde voor de groep (€ 150.000 i.p.v. € 200.000).
 >    
 >
 
@@ -173,7 +173,7 @@ Beperk de eliminaties bij gemeenschappelijke dochters tot het pro-rata deel.
 
 1. Identificeer de gemeenschappelijke dochters die evenredig zijn geconsolideerd (bv. Filmstudio Florence BV voor 50 %).
 2. Voor elke eliminatie tussen moeder en gemeenschappelijke dochter: pas niet 100 % maar het belangenpercentage toe (KB WVV art. 3:140 a).
-3. Bv. Cardinal Group NV ↔ Filmstudio Florence BV: eliminatie van intra-groepswinst van 100 wordt 50 % × 100 = 50.
+3. Bv. Cardinal Group NV ↔ Filmstudio Florence BV: eliminatie van intra-groepswinst van € 50.000 wordt 50 % × € 50.000 = € 25.000.
 4. Documenteer apart waarom de pro-rata behandeling is gekozen.
 
 
@@ -219,41 +219,41 @@ Bereken het deel van eigen vermogen en resultaat van de dochter dat toebehoort a
 
 **🛠️ Hoe**:
 
-1. Neem het eigen vermogen totaal van Brugse Brouwerij BV op afsluitingsdatum (bv. 1.000).
+1. Neem het eigen vermogen totaal van Brugse Brouwerij BV op afsluitingsdatum (bv. € 2.000.000).
 2. Bereken het derden-percentage: 1 − belangenpercentage moeder (bv. 1 − 0,90 = 0,10).
-3. Belangen van derden in EV = derden-percentage × eigen vermogen dochter = 0,10 × 1.000 = 100. Boek aan passiefzijde.
-4. Resultaat dochter boekjaar (bv. 200): aandeel van derden in resultaat = 0,10 × 200 = 20. Boek onderaan de geconsolideerde resultatenrekening.
-5. Verifieer dat het netto-resultaat voor de moeder dan = 0,90 × 200 = 180.
+3. Belangen van derden in EV = derden-percentage × eigen vermogen dochter = 0,10 × € 2.000.000 = € 200.000. Boek aan passiefzijde.
+4. Resultaat dochter boekjaar (bv. € 500.000): aandeel van derden in resultaat = 0,10 × € 500.000 = € 50.000. Boek onderaan de geconsolideerde resultatenrekening.
+5. Verifieer dat het netto-resultaat voor de moeder dan = 0,90 × € 500.000 = € 450.000.
 
 
-> [!example]- Voorbeeld: Aurelia Holding NV bezit 90 % in Brugse Brouwerij BV. Eigen vermogen Brugse op afsluitingsdatum = 1.000
-> Aurelia Holding NV bezit 90 % in Brugse Brouwerij BV. Eigen vermogen Brugse op afsluitingsdatum = 1.000. Resultaat boekjaar Brugse = 200.
+> [!example]- Voorbeeld: Aurelia Holding NV bezit 90 % in Brugse Brouwerij BV. Eigen vermogen Brugse op afsluitingsdatum = € 2.000.000
+> Aurelia Holding NV bezit 90 % in Brugse Brouwerij BV. Eigen vermogen Brugse op afsluitingsdatum = € 2.000.000. Resultaat boekjaar Brugse = € 500.000.
 >
 > 1. **Berekening belangen van derden in eigen vermogen** 🧮
 >
 >    belangen van derden in EV = (1 − belangenpercentage) × eigen vermogen dochter
->                              = (1 − 0,90) × 1.000
->                              = 0,10 × 1.000
->                              = **100**
+>                              = (1 − 0,90) × € 2.000.000
+>                              = 0,10 × € 2.000.000
+>                              = **€ 200.000**
 >    
 >
 > 2. **Berekening aandeel van derden in resultaat** 🧮
 >
->    aandeel van derden in resultaat = (1 − 0,90) × 200 = **20**
+>    aandeel van derden in resultaat = (1 − 0,90) × € 500.000 = **€ 50.000**
 >    
 >
 > 3. **Presentatie in geconsolideerde jaarrekening** 📊
 >
->    | Geconsolideerde balans (passiefzijde, uittreksel) |       |
->    |---------------------------------------------------|------:|
->    | Eigen vermogen toebehorend aan Aurelia            |   x   |
->    | **Belangen van derden**                           | **100** |
+>    | Geconsolideerde balans (passiefzijde, uittreksel) |     Bedrag (€) |
+>    |---------------------------------------------------|---------------:|
+>    | Eigen vermogen toebehorend aan Aurelia            |              x |
+>    | **Belangen van derden**                           |    **200.000** |
 >    
->    | Geconsolideerde resultatenrekening (uittreksel)   |       |
->    |---------------------------------------------------|------:|
->    | Resultaat boekjaar (totaal)                       |   200 |
->    | waarvan: **Aandeel van derden in resultaat**      |  **20** |
->    | waarvan: aandeel Aurelia in resultaat             |   180 |
+>    | Geconsolideerde resultatenrekening (uittreksel)   |     Bedrag (€) |
+>    |---------------------------------------------------|---------------:|
+>    | Resultaat boekjaar (totaal)                       |        500.000 |
+>    | waarvan: **Aandeel van derden in resultaat**      |     **50.000** |
+>    | waarvan: aandeel Aurelia in resultaat             |        450.000 |
 >    
 >
 
@@ -291,7 +291,7 @@ Verwijder weggelaten rechten en verplichtingen uit de toelichting bij de geconso
 ## Voorbeelden
 
 > [!example]- Aurelia Holding NV bezit 90 % in Brugse Brouwerij BV. Aurelia heeft aan Brugse voorraad verkocht met een brutomarge van…
-> **Conclusie**: Te elimineren intra-groepswinst in voorraad = 25 % × 400 = 100 (voorraad terug naar 300 — de waarde voor de groep). Belangen van derden op balans = (1 − 0,90) × 1.000 = 100. Aandeel van derden in resultaat = (1 − 0,90) × 200 = 20.
+> **Conclusie**: Te elimineren intra-groepswinst in voorraad = 25 % × € 200.000 = € 50.000 (voorraad terug naar € 150.000 — de waarde voor de groep). Belangen van derden op balans = (1 − 0,90) × € 2.000.000 = € 200.000. Aandeel van derden in resultaat = (1 − 0,90) × € 500.000 = € 50.000.
 >
 > **Grondslag**: [[intragroep-eliminaties]] §eliminatie-voorraad; [[minderheidsbelangen]] §berekening
 >

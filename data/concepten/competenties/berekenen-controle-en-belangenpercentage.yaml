@@ -154,8 +154,8 @@ voorbeelden:
   conclusie: "Controlepercentage Aurelia in Cardinal = 60 % (NIET vermenigvuldigen — elke schakel heeft exclusieve controle). Belangenpercentage Aurelia in Cardinal = 0,80 × 0,60 = 48 %."
   grondslag: "[[controlepercentage]] §keten; [[belangenpercentage]] §keten"
   redenering: Controlepercentage en belangenpercentage volgen verschillende rekenregels. Aurelia consolideert Cardinal integraal omdat zij via Brugse exclusieve controle uitoefent. Het aandeel van derden (52 %) wordt afgezonderd op basis van het belangenpercentage.
-- situatie: "Aurelia Holding NV bezit 90 % van Brugse Brouwerij BV. Brugse heeft een industriële activiteit. Eigen vermogen Brugse op afsluitingsdatum = 1.000."
-  conclusie: "Belangenpercentage Aurelia in Brugse = 90 %. Aandeel van derden = (1 − 0,90) × 1.000 = 100 (op de balans), en (1 − 0,90) × resultaat Brugse (resultatenrekening)."
+- situatie: "Aurelia Holding NV bezit 90 % van Brugse Brouwerij BV. Brugse heeft een industriële activiteit. Eigen vermogen Brugse op afsluitingsdatum = € 2.000.000."
+  conclusie: "Belangenpercentage Aurelia in Brugse = 90 %. Aandeel van derden = (1 − 0,90) × € 2.000.000 = € 200.000 (op de balans), en (1 − 0,90) × resultaat Brugse (resultatenrekening)."
   grondslag: "[[belangenpercentage]] §berekening-aandeel-van-derden; [[minderheidsbelangen]] §formule"
   redenering: Bij integrale consolidatie wordt 100 % van Brugse opgenomen. Het complement van het belangenpercentage bepaalt het deel dat als 'belangen van derden' wordt afgezonderd.
 _provenance:
@@ -173,3 +173,7 @@ _provenance:
     - "stappen[*].voorbeeld.substappen (nieuw bij stap 2 en 3)"
     - "valkuilen[*]: correctie → advies, foute_aanname → vaak_fout"
     - "tekstvelden: stagiair-toon, cast-namen (Aurelia/Brugse/Cardinal — ketenstructuur)"
+  sessie_5_competentie_euros_2026_05_16:
+    fields:
+      - "voorbeelden[1] (basis-variant 90 %: EV 1.000 → € 2.000.000; aandeel derden 100 → € 200.000)"
+    reden: "cast-consistente €-bedragen, parallel aan Sessie 3 records-update (basis_consolidatie EV-afsluit € 2.000.000). Ketenstructuur-voorbeeld (Aurelia 80 % → Brugse 60 % → Cardinal) ongewijzigd — het toont percentage-vermenigvuldiging, geen €-bedragen."

@@ -181,7 +181,7 @@ Gebruik het belangenpercentage als rekenmaatstaf voor de bedragen in de geconsol
 > **Redenering**: Controlepercentage en belangenpercentage volgen verschillende rekenregels. Aurelia consolideert Cardinal integraal omdat zij via Brugse exclusieve controle uitoefent. Het aandeel van derden (52 %) wordt afgezonderd op basis van het belangenpercentage.
 
 > [!example]- Aurelia Holding NV bezit 90 % van Brugse Brouwerij BV. Brugse heeft een industriële activiteit
-> **Conclusie**: Belangenpercentage Aurelia in Brugse = 90 %. Aandeel van derden = (1 − 0,90) × 1.000 = 100 (op de balans), en (1 − 0,90) × resultaat Brugse (resultatenrekening).
+> **Conclusie**: Belangenpercentage Aurelia in Brugse = 90 %. Aandeel van derden = (1 − 0,90) × € 2.000.000 = € 200.000 (op de balans), en (1 − 0,90) × resultaat Brugse (resultatenrekening).
 >
 > **Grondslag**: [[belangenpercentage]] §berekening-aandeel-van-derden; [[minderheidsbelangen]] §formule
 >
