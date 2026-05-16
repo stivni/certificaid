@@ -16,7 +16,7 @@
 {{ glue.waarom_po_tekst | default('<!-- TODO: Opus-glue waarom_po -->') }}
 
 {% for hoofdstuk in hoofdstukken %}
-{% if hoofdstuk.type == 'orientatie' %}
+{% if hoofdstuk.type in ('orientatie', 'oriëntatie') %}
 ## {{ hoofdstuk.titel }}
 
 {{ glue.orientatie[loop.index0] | default('<!-- TODO: Opus-glue oriëntatie -->') }}
@@ -47,6 +47,34 @@
 
 {% endif %}
 {% endfor %}
+
+{% elif hoofdstuk.type == 'synthese' %}
+{% set syn = hoofdstuk.synthese %}
+## {{ syn.naam | default(hoofdstuk.synthese_id) }}
+
+{{ glue.synthese_intro[loop.index0] | default('<!-- TODO: Opus-glue synthese-intro -->') }}
+
+{% if syn.inleiding and syn.inleiding.text %}
+{{ syn.inleiding.text }}
+
+{% endif %}
+{% if syn.vergelijkingstabel and syn.vergelijkingstabel.data %}
+{{ syn.vergelijkingstabel.data }}
+
+{% endif %}
+{% if syn.beslisboom and syn.beslisboom.data %}
+{{ syn.beslisboom.data }}
+
+{% endif %}
+{% if syn.kerninzichten %}
+**Kerninzichten**:
+{% for inzicht in syn.kerninzichten %}
+- {{ inzicht.text | default(inzicht) }}
+{% endfor %}
+
+{% endif %}
+[[{{ hoofdstuk.synthese_id }}|→ Volledige synthese-fiche]]
+
 {% endif %}
 {% endfor %}
 

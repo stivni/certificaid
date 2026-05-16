@@ -58,12 +58,18 @@ Schrijf een JSON-object met de volgende velden. Alle velden zijn Markdown-tekst.
     "<Intro-tekst voor thematisch cluster 0 (1-2 zinnen over de samenhang)>",
     "..."
   ],
+  "synthese_intro": [
+    "<Intro-tekst voor synthese-hoofdstuk 0 (2-4 zinnen — verbind aan vorige + volgende hoofdstuk, leg uit waarom de student dit synthese-record nu nodig heeft)>",
+    "..."
+  ],
   "synthese": "<Synthese-stappenplan: hoe integreer je alles? Verwijst naar de processtappen in de skeleton. 5-10 zinnen.>",
   "examenfocus": "<Wat toetst het examen typisch in dit programmaonderdeel? Welke denkpatronen zijn gevraagd? Geen spoilers — wel meta-inzicht. 3-5 zinnen.>"
 }
 ```
 
-**Arraylengte**: `orientatie`, `competentie_intro` en `thematisch_intro` MOETEN evenveel elementen bevatten als er hoofdstukken van dat type zijn in de skeleton. Als er 2 oriëntatie-hoofdstukken zijn, heeft `orientatie` 2 elementen (ook al is een ervan leeg string "").
+**Arraylengte**: `orientatie`, `competentie_intro`, `thematisch_intro` en `synthese_intro` MOETEN evenveel elementen bevatten als er hoofdstukken van dat type zijn in de skeleton. Als er 2 oriëntatie-hoofdstukken zijn, heeft `orientatie` 2 elementen (ook al is een ervan leeg string "").
+
+**Of**, eenvoudiger werkpatroon: open het skeleton-bestand met de Edit-tool en vervang elke `<!-- TODO: Opus-glue X -->` regel door de bedoelde tekst, in volgorde. Dit voorkomt het JSON-extractie-probleem en is wat de huidige tooling verwacht.
 
 ---
 

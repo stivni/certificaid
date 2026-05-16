@@ -17,6 +17,15 @@ hoofdstukken:
       dochteronderneming en controle als bouwstenen die verderop in het
       leerpad uitgewerkt worden.
 
+  - type: synthese
+    synthese_id: consolidatieplicht-beslisboom
+    rationale_hint: >-
+      Plaats de beslisboom hier vroeg in het leerpad als visuele kapstok: de
+      student kent de begrippen nog niet allemaal, maar ziet meteen welke
+      vijf vragen de wet stelt om tot een ja/nee-antwoord te komen. Verderop
+      in het leerpad wordt elke vraag uitgediept; deze synthese is de
+      'kaart' van het hele eerste deel van het programmaonderdeel.
+
   - type: thematisch
     titel: "Het fundamentele begrippenkader: controle en de actoren in een groep"
     concepten:
@@ -49,6 +58,16 @@ hoofdstukken:
       - evenredige-consolidatie
       - vermogensmutatiemethode
       - horizontale-consolidatie
+
+  - type: synthese
+    synthese_id: consolidatiemethodes-vergelijking
+    rationale_hint: >-
+      Nadat de drie (vier) methodes elk afzonderlijk uitgediept zijn, plaatst
+      deze synthese ze naast elkaar. De vergelijkingstabel toont per methode
+      voorwaarde, balansbehandeling, behandeling van derden en
+      consolidatieverschil; de Mermaid-beslisboom expliciteert het
+      keuze-algoritme. Dit hoofdstuk maakt de overgang naar de competentie
+      'kiezen-consolidatiemethode' die hierna komt.
 
   - type: competentie
     competentie_id: kiezen-consolidatiemethode

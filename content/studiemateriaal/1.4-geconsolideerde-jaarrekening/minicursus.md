@@ -8,6 +8,8 @@ programmaonderdeel: '1.4'
 gerelateerde_concepten:
 - belangenpercentage
 - consolidatiekring
+- consolidatiemethodes-vergelijking
+- consolidatieplicht-beslisboom
 - consolidatieverplichting
 - consolidatieverschil
 - consortium
@@ -36,156 +38,227 @@ gerelateerde_concepten:
 - vermogensmutatiemethode
 - vrijstelling-subconsolidatie
 - wijziging-consolidatiekring
-gegenereerd_op: '2026-05-15'
+gegenereerd_op: '2026-05-16'
 ---
 ## Leesgids
 
-Deze minicursus is je inleiding tot het programmaonderdeel "Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening". Plan ongeveer twee uur voor een eerste leesronde. De cursus is opgebouwd in drie ringen: eerst het begrippenkader (wie controleert wie), daarna de drie consolidatietechnieken, en ten slotte de rapportering en de IFRS-context.
-
-Tussen de thematische clusters door staan negen competentie-hoofdstukken — dat zijn de concrete werkstappen die je in de praktijk doorloopt. Lees ze in de aangeboden volgorde: ze bouwen logisch op elkaar voort (eerst beoordelen of er geconsolideerd moet worden, dan welke entiteiten erin zitten, dan welke techniek geldt, dan de eigenlijke uitvoering). Klik door op de wikilinks van concepten zodra een begrip onduidelijk blijft; de Concept-index achteraan is je tweede ingang.
-
-Sluit af met de synthese-stappenplan en de cheatsheet: die geven je een werkschema en de drempelwaarden om snel naar terug te grijpen tijdens oefeningen.
+Deze minicursus volgt de natuurlijke redeneerorde van consolidatie: eerst snap je waarom de geconsolideerde jaarrekening bestaat, dan zie je via een vroege beslisboom wanneer ze verplicht is, daarna bouw je het begrippenkader (controle, actoren) op, vervolgens leer je per competentie hoe je tot een conclusie komt, en ten slotte bekijk je de methodes, publicatie en de IFRS-context. Werk lineair door de hoofdstukken in deze volgorde — de twee synthese-hoofdstukken (beslisboom en methodes-vergelijking) staan bewust op het kantelpunt tussen begrippen en techniek, zodat je ze kunt gebruiken als kapstok voor wat erop volgt. Klik elke wikilink door zodra een concept voor het eerst opduikt en je de definitie nog niet helder hebt; de cheatsheet onderaan dient als snel-naslag voor drempels en vergelijkingsparen.
 
 ## Waarom dit programmaonderdeel telt
 
-Een groep vennootschappen is juridisch een verzameling van afzonderlijke rechtspersonen, maar economisch vaak één onderneming met één centrale leiding. De [[geconsolideerde-jaarrekening|geconsolideerde jaarrekening]] vertaalt die economische werkelijkheid in een financieel beeld: zij stelt het vermogen, de financiële positie en het resultaat van de groep voor alsof de moeder en haar dochters één enkele entiteit vormden. Dat economische beginsel — substance over form — is de reden waarom dit programmaonderdeel überhaupt bestaat.
+Een enkelvoudige jaarrekening toont alleen de juridische schil van één vennootschap — niet de economische realiteit van een groep die als één geheel handelt, vorderingen en schulden onderling boekt, en intern winsten realiseert die voor de buitenwereld nog geen winst zijn. Het beschermingsdoel van het jaarrekeningenrecht (transparantie voor aandeelhouders, schuldeisers en werknemers) komt pas tot zijn recht als die groep ook als één geheel wordt afgebeeld. Daarom verplicht de wet de moeder om bovenop haar enkelvoudige cijfers een geconsolideerde jaarrekening op te stellen, met een eigen verslag en een eigen controle door de commissaris. Voor jou als accountant is dit onderdeel dus niet één techniek maar een tweesporig denkkader: wanneer kantelt 'verzameling vennootschappen' naar 'groep waarvoor één gezicht naar buiten moet'? En als die plicht ontstaat — welk soort relatie tussen moeder en dochter krijg je op tafel, en welke methode hoort daarbij?
 
-Het tweede beginsel is bescherming van de gebruiker van de jaarrekening. Zonder consolidatie kan een moedervennootschap haar werkelijke schuldgraad of haar werkelijke winstgevendheid verbergen via tussenvennootschappen, intragroep-transacties en deelnemingsverhoudingen. De wettelijke verplichting tot [[consolidatieverplichting|consolidatie]], gecombineerd met de plicht tot [[intragroep-eliminaties|intragroep-eliminaties]] en uniforme waarderingsregels, sluit die ontsnappingsroutes. Wat overblijft in de geconsolideerde jaarrekening, is wat de groep als geheel realiseert tegenover derden.
+## Wat is consolideren? Waarom een geconsolideerde jaarrekening?
 
-Het derde beginsel is proportionaliteit: niet elke groep is groot genoeg om die verplichting te rechtvaardigen. De wetgever schakelt vrijstellingen in voor [[groep-van-beperkte-omvang|kleine groepen]] en voor [[vrijstelling-subconsolidatie|tussenliggende moedervennootschappen]] die hogerop al worden geconsolideerd. Daardoor draait dit programmaonderdeel telkens om dezelfde drie vragen — Wie controleert wie? Welke entiteiten horen in de kring? Welke techniek voor welke kwalificatie? — gevolgd door de uitvoering.
+Consolideren is geen boekhoudtruc om cijfers samen te tellen — het is een fictie die het jaarrekeningenrecht oplegt om recht te doen aan de economische realiteit van een groep. Wie via dochterondernemingen handelt, drijft één economische activiteit door meerdere juridische schillen heen; lezers die alleen de moedercijfers zien, krijgen een vertekend beeld van wat de groep werkelijk bezit, verdient of schuldig is. De geconsolideerde jaarrekening lost dat op door [[moedervennootschap|moeder]] en haar [[dochteronderneming|dochters]] voor te stellen 'alsof het één onderneming was', mits er [[controle]] bestaat. De [[consolidatiekring]] bakent dan af welke vennootschappen meedoen en op welke manier. Houd vanaf nu twee vragen in gedachten die de hele rest van dit programmaonderdeel structureren: bestaat de groep wel als groep (controlevraag), en wie hoort erbij (kring-vraag)?
+
+## Moet ik consolideren? — Beslisboom
+
+Voordat je in de begrippen duikt, krijg je hier de kaart van het terrein. De beslisboom hieronder loopt vooruit op concepten die je verderop in detail ziet ([[controle]], [[consortium]], [[groottecriteria-consolidatie]], [[vrijstelling-subconsolidatie]]) — gebruik hem nu vooral om de structuur van de plichtsvraag te zien: hoe komt de wet via vijf parallelle toetsen tot een ja of nee? Kom na de volgende hoofdstukken terug naar deze boom om te ervaren hoe de begrippen samen één beslissing dragen.
+
+De vraag 'moet mijn cliënt een geconsolideerde jaarrekening opmaken' wordt nooit door één criterium beantwoord. Vijf elementen werken samen: bestaat er controle? heeft de moeder rechtspersoonlijkheid? overschrijdt de groep de groottecriteria? geldt er een vrijstelling? is de groep een consortium? Dit synthese-record volgt de wettelijke beslissingsvolgorde en koppelt elke vraag aan het concept-record dat het beantwoordt.
+
+| Stap | Toets | Welk concept? | Bij 'ja' | Bij 'nee' |
+|---|---|---|---|---|
+| 1 | Is de moeder een vennootschap met rechtspersoonlijkheid? | [[moedervennootschap]] | Door naar stap 2 | Geen consolidatieplicht (natuurlijke persoon → eventueel consortium-piste) |
+| 2 | Bestaat er controle (in rechte of in feite) over één of meer dochters? | [[controle]] | Door naar stap 3 | Geen consolidatieplicht |
+| 3 | Of: zijn er meerdere vennootschappen onder centrale leiding zonder onderlinge moeder-dochter? | [[consortium]] | Consortium-consolidatie (horizontaal), door naar stap 4 | Verticale groep, door naar stap 4 |
+| 4 | Overschrijdt de groep meer dan één van de groottecriteria op geconsolideerde basis? | [[groottecriteria-consolidatie]] · [[groep-van-beperkte-omvang]] | Door naar stap 5 | Vrijstelling 'groep van beperkte omvang' — geen consolidatieplicht (tenzij beursgenoteerd) |
+| 5 | Wordt de moeder zelf al opgenomen in een gelijkwaardige geconsolideerde jaarrekening hogerop in de EU (≥ 90 % deelneming)? | [[vrijstelling-subconsolidatie]] | Vrijstelling subconsolidatie — moeder consolideert niet zelf, tenzij dochter beursgenoteerd | **Consolideren** — moeder maakt geconsolideerde jaarrekening op |
+
+```mermaid
+flowchart TD
+  A[Aurelia Holding NV — moet zij consolideren?] --> B{Rechtspersoonlijkheid?}
+  B -->|Nee — natuurlijke persoon Pieter Vermeulen| C{Onder centrale leiding<br/>met andere vennootschappen?}
+  C -->|Ja| D[Consortium-consolidatie<br/>Industria Antwerpen NV + Jachthaven Jezus-Eik NV samen]
+  C -->|Nee| E[Geen consolidatieplicht]
+  B -->|Ja| F{Controle over één of meer<br/>dochterondernemingen?}
+  F -->|Nee — alleen deelneming<br/>20-50 stemrechten| G[Geen consolidatieplicht<br/>vermogensmutatie op enkelvoudige jaarrekening]
+  F -->|Ja — exclusief of gezamenlijk| H{Overschrijdt groep<br/>twee van drie groottecriteria<br/>op geconsolideerde basis?}
+  H -->|Nee — Gent Garantie BV als kleine groep| I[Vrijstelling<br/>groep van beperkte omvang<br/>tenzij beursgenoteerd]
+  H -->|Ja| J{Hogere moeder<br/>consolideert al EU-breed<br/>≥ 90% deelneming?}
+  J -->|Ja — Kappers Köln GmbH consolideert| K[Vrijstelling subconsolidatie<br/>tenzij dochter beursgenoteerd]
+  J -->|Nee| L[**Consolideren**<br/>moeder maakt geconsolideerde jaarrekening op]
+  style D fill:#ffeaa7
+  style E fill:#dfe6e9
+  style G fill:#dfe6e9
+  style I fill:#a8e6cf
+  style K fill:#a8e6cf
+  style L fill:#74b9ff
+```
+
+**Kerninzichten**:
+- Geen enkele moeder is automatisch consolidatieplichtig — er zijn altijd vijf parallelle toetsen die elk een 'nee' kunnen geven. Een examenvraag die zegt 'moeder X heeft controle over dochter Y, dus moet zij consolideren' kapt de redenering te vroeg af.
+- Een natuurlijke persoon kan nooit moeder zijn (geen rechtspersoonlijkheid), maar haar gecontroleerde vennootschappen kunnen samen wel een consortium vormen. De plicht verschuift dan van één entiteit naar 'de leden samen'.
+- De groottecriteria zijn 'op geconsolideerde basis' — je moet dus een fictieve geconsolideerde balans opbouwen om te beslissen of je een echte moet maken. Dat is geen circulariteit maar een toetscriterium.
+- Beursnotering breekt zowel de 'groep van beperkte omvang'-vrijstelling als de subconsolidatie-vrijstelling. Voor genoteerde vennootschappen geldt: altijd consolideren, drempels of hogere moeder doen er niet toe.
+
+[[consolidatieplicht-beslisboom|→ Volledige synthese-fiche]]
 
 ## Het fundamentele begrippenkader: controle en de actoren in een groep
 
-Voor je iets kan consolideren, moet je weten met welk type relatie je te maken hebt. Dit cluster groepeert de begrippen die samen één en dezelfde vraag beantwoorden: in welke mate stuurt de ene vennootschap het beleid van de andere? Het scharnier is "controle" — een beslissende invloed op bestuur of beleidsoriëntatie — en de drie kwalificaties die eruit volgen (exclusieve controle, gezamenlijke controle, invloed van betekenis) bepalen wie als wat in de geconsolideerde jaarrekening verschijnt. Lees deze begrippen als één geheel: ze definiëren elkaar in tegenstelling tot elkaar.
+Alle vragen in dit programmaonderdeel — wie consolideert, wie hoort in de kring, welke methode pas je toe — vertrekken vanuit één centraal begrip: controle. Hier definieer je dus eerst wat 'controle' juridisch en feitelijk inhoudt, en kwalificeer je vervolgens de actoren die uit die controlevraag voortvloeien (moeder, dochter, geassocieerde, gemeenschappelijke dochter, consortium-lid). Lees deze blok als woordenboek én als ladder: de actoren zijn telkens een gevolg van het soort relatie tussen vennootschappen, en die relatie wordt zelf bepaald door de mate van invloed — van loutere deelneming, over invloed van betekenis, tot gezamenlijke of exclusieve controle.
 
-**[[controle|Controle]]**: De bevoegdheid in rechte of in feite om een beslissende invloed uit te oefenen op de aanstelling van de meerderheid van de bestuurders of zaakvoerders van een vennootschap of op de oriëntatie van...
+**[[controle|Controle]]**: De macht — juridisch (in rechte) of feitelijk (in feite) — om beslissende invloed uit te oefenen op een vennootschap: de meerderheid van de bestuurders aanstellen of de hoofdlijn van het beleid...
 
-**[[moedervennootschap|Moedervennootschap]]**: De vennootschap die een controlebevoegdheid uitoefent over een andere vennootschap (de dochtervennootschap). De moedervennootschap is in beginsel verplicht om een geconsolideerde jaarrekening en...
+**[[moedervennootschap|Moedervennootschap]]**: Een vennootschap die controle uitoefent over een andere vennootschap (de dochter). De moeder is in principe verplicht om een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te...
 
-**[[dochteronderneming|Dochteronderneming]]**: De vennootschap (dochtervennootschap) of het organisme (in ruime zin volgens WVV art. 3:22) ten opzichte waarvan een controlebevoegdheid door een andere vennootschap (de moedervennootschap)...
+**[[dochteronderneming|Dochteronderneming]]**: Een vennootschap waarover een andere vennootschap (de moeder) controle uitoefent. In het WVV is 'dochteronderneming' ruimer dan 'dochtervennootschap': het omvat ook elke instelling naar Belgisch...
 
-**[[exclusieve-controle|Exclusieve controle]]**: De controle die één vennootschap alleen uitoefent over een andere vennootschap, in tegenstelling tot gezamenlijke controle waarbij meerdere vennoten samen beslissen. Exclusieve controle wordt...
+**[[exclusieve-controle|Exclusieve controle]]**: De controle die één vennootschap alleen uitoefent over een andere — niet samen met andere vennoten. Exclusieve controle is onweerlegbaar wanneer een vennootschap (rechtstreeks of via dochters)...
 
-**[[gezamenlijke-controle|Gezamenlijke controle]]**: De controle die een beperkt aantal vennoten samen uitoefenen, wanneer zij zijn overeengekomen dat beslissingen omtrent de oriëntatie van het beleid niet zonder hun gemeenschappelijke instemming...
+**[[gezamenlijke-controle|Gezamenlijke controle]]**: De controle die een beperkt aantal vennoten samen uitoefenen, op grond van een overeenkomst dat beleidsbeslissingen alleen met hun gemeenschappelijke instemming kunnen worden genomen. De...
 
-**[[invloed-van-betekenis|Invloed van betekenis]]**: De macht om deel te nemen aan de financiële en operationele beleidsbeslissingen van een andere onderneming, zonder die beleidsbeslissingen alleen of samen met andere vennoten te kunnen sturen....
+**[[invloed-van-betekenis|Invloed van betekenis]]**: De macht om deel te nemen aan de financiële en operationele beleidsbeslissingen van een andere onderneming, zonder die beslissingen alleen of samen met anderen te kunnen sturen. Invloed van...
 
-**[[geassocieerde-onderneming|Geassocieerde onderneming]]**: Een onderneming, andere dan een dochteronderneming of een gemeenschappelijke dochteronderneming, waarin een andere onderneming een deelneming en een invloed van betekenis op de oriëntatie van het...
+**[[geassocieerde-onderneming|Geassocieerde onderneming]]**: Een onderneming waarop een andere onderneming een invloed van betekenis heeft — maar niet voldoende om er controle over uit te oefenen. De geassocieerde is dus geen dochter en geen...
 
-**[[gemeenschappelijke-dochteronderneming|Gemeenschappelijke dochteronderneming]]**: De vennootschap of onderneming ten opzichte waarvan een gezamenlijke controle bestaat: een beperkt aantal vennoten oefenen samen controle uit op grond van een overeenkomst dat beslissingen omtrent...
+**[[gemeenschappelijke-dochteronderneming|Gemeenschappelijke dochteronderneming]]**: Een vennootschap waarover een beperkt aantal vennoten samen controle uitoefenen op basis van een overeenkomst dat beleidsbeslissingen alleen met hun gemeenschappelijke instemming kunnen worden...
 
-**[[consortium|Consortium (horizontale groep)]]**: Een horizontale groep van vennootschappen die niet door een onderlinge moeder-dochter-relatie verbonden zijn, maar die onder een gemeenschappelijke (centrale) leiding staan. In een verticale...
+**[[consortium|Consortium (horizontale groep)]]**: Een groep vennootschappen die niet door een moeder-dochter-relatie zijn verbonden, maar wel onder één gemeenschappelijke leiding staan. In een gewone (verticale) groep moet de moeder consolideren....
+
 
 ## Bepalen of een vennootschap een geconsolideerde jaarrekening moet opstellen
 
-Dit is de poortwachtervraag van het hele programmaonderdeel: moet er überhaupt geconsolideerd worden? De redenering gaat trapsgewijs — eerst de basisplicht (is er controle over een dochter?), dan de mogelijke vrijstellingen (subconsolidatie hogerop, groep van beperkte omvang). In adviespraktijk krijg je dit klassiek als eerste vraag van een moedervennootschap die net haar eerste dochter heeft verworven, of als toets bij het auditdossier van een groeiende KMO-groep.
+Dit is de eerste vraag die je als accountant beantwoordt zodra een cliënt met een groepsstructuur op tafel komt. De procedure is sterk wettelijk verankerd — je toetst stap voor stap af tegen de criteria van het WVV en de vrijstellingen — maar laat ruimte voor feitelijke beoordeling bij controle in feite en bij de groottetoets. Je bouwt hier de gewoonte op om geen 'ja' uit te spreken zonder eerst alle vrijstellingen te hebben afgevinkt.
 
 [[competenties/bepalen-consolidatieverplichting|→ Volledige procedure]]
 
-**Eerste stap**: Vaststellen of de entiteit rechtspersoonlijkheid heeft en als vennootschap kwalificeert — Statuten en juridische vorm van de potentieel consoliderende entiteit
+**Eerste stap**: Vaststellen of de entiteit als vennootschap kwalificeert — [{'artefact': 'Statuten van de entiteit', 'veld': 'Juridische vorm', 'type': 'document'}, {'artefact': 'KBO-uittreksel', 'veld': 'Rechtsvorm', 'type': 'document'}]
 
 ## Afbakenen van de consolidatiekring en beoordelen van uitsluitings- of weglatingsgronden
 
-Eens vaststaat dat er geconsolideerd moet worden, is de volgende vraag: welke entiteiten horen in de kring thuis en welke mogen of moeten eruit blijven? De wettelijke regel is breed (alle gecontroleerde dochters), maar in de praktijk moet je oordelen over "te verwaarlozen betekenis" en over het getrouw beeld als criterium voor uitsluiting. Dit soort beslissingen komt klassiek terug bij groepen die net buiten een vrijstelling vallen of die buitenlandse dochters met informatiebeperkingen aanhouden.
+Zodra je weet dát er geconsolideerd moet worden, ga je inventariseren wie er in de kring hoort. Het uitgangspunt is ruim — moeder en al haar dochters — maar je moet per entiteit toetsen of er een uitsluitings- of weglatingsgrond bestaat (bijvoorbeeld 'te verwaarlozen betekenis' of een belemmering in de uitoefening van controle). Een uitgesloten dochter verdwijnt niet uit beeld: ze wordt typisch via vermogensmutatie opgenomen, zodat het getrouw beeld bewaard blijft.
 
 [[competenties/afbakenen-consolidatiekring|→ Volledige procedure]]
 
-**Eerste stap**: Identificeren van de consoliderende vennootschap — Vaststelling van de moedervennootschap (uit [[bepalen-consolidatieverplichting]]) of de consortium-leden
+**Eerste stap**: Identificeren van de consoliderende vennootschap — [{'artefact': 'Conclusie uit [[bepalen-consolidatieverplichting]]', 'veld': 'Moeder of consortium-leden', 'type': 'conclusie'}]
 
 ## Kwalificeren van de relatie met een deelneming (controle, gezamenlijke controle of invloed van betekenis)
 
-Per entiteit binnen de kring beslis je in welk hokje ze valt: dochter, gemeenschappelijke dochter of geassocieerde onderneming. Die kwalificatie bepaalt rechtstreeks de te gebruiken consolidatietechniek, dus elke fout hier propageert door de hele oefening heen. De moeilijkheid zit in de grensgevallen — een aandeelhoudersovereenkomst die feitelijke controle vestigt, of een 20%-deelneming waarvan het vermoeden van invloed van betekenis weerlegd wordt. Examenvragen draaien klassiek om net die scharnierpunten.
+Voor elke entiteit in de kring beantwoord je daarna één precieze vraag: wat is het soort relatie tussen moeder en deelneming? De wet biedt je drempelvermoedens om die kwalificatie te beginnen — boven de helft van de stemrechten, 50/50 met een vennoten-overeenkomst, vanaf een vijfde stemrechten — maar de uiteindelijke kwalificatie hangt af van de feiten. De uitkomst (controle, gezamenlijke controle of invloed van betekenis) bepaalt straks rechtstreeks welke consolidatiemethode je moet gebruiken.
 
 [[competenties/kwalificeren-relatie-deelneming|→ Volledige procedure]]
 
-**Eerste stap**: Vaststellen van het stemrechtpercentage — Aandelenstructuur, aandelen met meervoudig stemrecht, eigen aandelen, stemafspraken
+**Eerste stap**: Vaststellen van het stemrechtpercentage — [{'artefact': 'Aandelenregister van doelvennootschap', 'veld': 'Aandelen per aandeelhouder', 'type': 'document'}, {'artefact': 'Statuten van doelvennootschap', 'veld': 'Aandelen met meervoudig stemrecht, eigen aandelen', 'type': 'document'}, {'artefact': 'Stemafspraken in aandeelhoudersovereenkomsten', 'veld': 'Bindende stemafspraken', 'type': 'document'}]
 
 ## Berekenen van controle- en belangenpercentage in een ketenstructuur
 
-Zodra je groep meer dan twee niveaus diep is, gaan controle- en belangenpercentage uit elkaar lopen — en dat is precies de bron van de meest klassieke valkuilen. Controle "spring je door" zolang elke schakel exclusief gecontroleerd is; belang vermenigvuldig je daarentegen langs de hele keten. Deze techniek heb je nodig zodra een cliënt met een tussenholding werkt, en dit soort berekening komt klassiek terug bij examen-cases met een ketenstructuur op drie of meer niveaus.
+In meertraps-structuren splits je systematisch twee getallen: het controlepercentage (gebruikt om te toetsen of er controle bestaat) en het belangenpercentage (gebruikt om winstaandeel en aandeel van derden te berekenen). De rekenregels lijken op elkaar maar gedragen zich verschillend in een keten: het controlepercentage knipt af zodra een tussenschakel zelf controle heeft, terwijl het belangenpercentage van schakel tot schakel wordt vermenigvuldigd. Wie deze twee gewoonten niet uit elkaar houdt, krijgt foute aandelen van derden en foute methode-keuzes.
 
 [[competenties/berekenen-controle-en-belangenpercentage|→ Volledige procedure]]
 
-**Eerste stap**: Tekenen van de aandeelhoudersketen — Aandeelhouderslijst per vennootschap in de groep, met stemrechtpercentage per directe deelneming
+**Eerste stap**: Tekenen van de aandeelhoudersketen — [{'artefact': 'Aandeelhoudersregister per vennootschap', 'veld': 'Stemrechtpercentage per directe deelneming', 'type': 'percentage'}]
 
 ## De drie consolidatiemethoden: integrale, evenredige en vermogensmutatie
 
-De wet legt drie technieken vast, en elke techniek correspondeert één-op-één met een type relatie. Integrale consolidatie hoort bij exclusieve controle, evenredige bij gezamenlijke controle, vermogensmutatie bij invloed van betekenis — en horizontale consolidatie is de bijzondere vorm voor consortia. Lees deze methoden naast elkaar, niet apart: hun verschil zit in hoever je doorgaat met "doen alsof het één entiteit was" (volledige opname, pro-rata opname, of synthetische opname als één balanspost). Dat onderscheid bepaalt ook of er minderheidsbelangen verschijnen en hoeveel intragroep-eliminaties nodig zijn.
+Voor elk soort relatie tussen moeder en deelneming heeft de wet een eigen techniek voorzien. De drie hoofdmethodes (integraal, evenredig, vermogensmutatie) lopen parallel met de drie kwalificaties uit het vorige hoofdstuk — controle, gezamenlijke controle, invloed van betekenis — en horizontale consolidatie komt erbij voor het bijzondere geval van een consortium. Lees de fiches hieronder als een spectrum: je gaat van volledige integratie van activa en passiva (integraal), via pro-rata-opname (evenredig), tot één samengevatte balanspost (vermogensmutatie). Hoe verder van controle, hoe minder van de dochter zichtbaar wordt in de geconsolideerde cijfers.
 
 **[[integrale-consolidatie|Integrale consolidatie]]**: De geconsolideerde jaarrekening voorstellen alsof het geheel van de consoliderende vennootschap en haar exclusief gecontroleerde dochterondernemingen één enkele economische entiteit vormt. De...
 
-**[[evenredige-consolidatie|Evenredige consolidatie (proportionele consolidatie)]]**: Een gemeenschappelijke dochteronderneming (een vennootschap waarover een beperkt aantal vennoten gezamenlijke controle uitoefenen via overeenkomst) wordt in de geconsolideerde jaarrekening van...
+**[[evenredige-consolidatie|Evenredige consolidatie (proportionele consolidatie)]]**: Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke...
 
-**[[vermogensmutatiemethode|Vermogensmutatiemethode (equity method)]]**: Een deelneming wordt in de geconsolideerde jaarrekening niet activum-per-activum opgenomen, maar als één gesynthetiseerde balanspost — initieel gewaardeerd aan het pro-rata aandeel in het eigen...
+**[[vermogensmutatiemethode|Vermogensmutatiemethode (equity method)]]**: Een deelneming verschijnt in de geconsolideerde jaarrekening niet activum-per-activum, maar als één samengevatte balanspost. Bij de eerste opname waardeer je die post aan jouw pro-rata aandeel in...
 
-**[[horizontale-consolidatie|Horizontale consolidatie]]**: De consolidatietechniek die wordt toegepast wanneer vennootschappen onder centrale leiding staan zonder dat één rechtspersoon de andere controleert (een consortium / horizontale groep). De...
+**[[horizontale-consolidatie|Horizontale consolidatie]]**: De consolidatietechniek die je toepast wanneer vennootschappen onder gemeenschappelijke leiding staan zonder dat één rechtspersoon de andere controleert — een consortium. De leden van het...
+
+
+## De vier consolidatiemethodes vergeleken
+
+Nu je de methodes elk afzonderlijk hebt gezien, zet je ze hier naast elkaar. Deze synthese is de scharnier tussen het begrips- en het methodeluik enerzijds, en de competentie 'kiezen van de toe te passen techniek' die meteen volgt anderzijds. Loop de tabel rij voor rij door en let op de twee assen die de methodes uit elkaar trekken: type relatie (verticaal versus horizontaal) en niveau van controle (exclusief, gezamenlijk, invloed van betekenis).
+
+Voor één en hetzelfde fenomeen — een groep van vennootschappen — bestaan vier consolidatiemethodes. Welke je toepast hangt af van het soort relatie tussen moeder en dochter (exclusieve controle, gezamenlijke controle, invloed van betekenis, of horizontale groep zonder moeder). Dit synthese-record toont de vier methodes naast elkaar en geeft een beslisboom.
+
+| Methode | Voorwaarde | Op balans | Belangen van derden | Consolidatieverschil |
+|---|---|---|---|---|
+| [[integrale-consolidatie\|Integrale consolidatie]] | Exclusieve controle (> 50% stemrechten of controle in feite) | Activa/passiva voor 100% opgenomen | Apart op passiefzijde | Wel mogelijk |
+| [[evenredige-consolidatie\|Evenredige consolidatie]] | Gezamenlijke controle (overeenkomst tussen vennoten) | Activa/passiva pro-rata opgenomen | Niet apart (zit niet in de cijfers) | Wel mogelijk |
+| [[vermogensmutatiemethode\|Vermogensmutatiemethode]] | Invloed van betekenis (≥ 20% stemrechten) of uitgesloten dochter | Eén balanspost: 'Vennootschappen waarop vermogensmutatie is toegepast' | Niet van toepassing | Wel mogelijk |
+| [[horizontale-consolidatie\|Horizontale consolidatie (consortium)]] | Horizontale groep zonder moeder; centrale leiding (kan natuurlijke persoon zijn) | Activa/passiva voor 100% per consortium-lid, eigen-vermogensposten behouden hun karakter | Per consortium-lid | Wel mogelijk |
+
+```mermaid
+flowchart TD
+  A[Welk type relatie tussen moeder en dochter?] --> B{Is er een echte moeder<br/>die de andere(n) controleert?}
+  B -->|Nee — alle leden onder<br/>gemeenschappelijke leiding| C[Horizontale consolidatie<br/>consortium-leden samen]
+  B -->|Ja, één moeder| D{Welk niveau van controle?}
+  D -->|Exclusieve controle<br/>meer dan 50% stemrechten| E[Integrale consolidatie]
+  D -->|Gezamenlijke controle<br/>vennoten-overeenkomst| F[Evenredige consolidatie]
+  D -->|Invloed van betekenis<br/>vanaf 20% stemrechten<br/>geen controle| G[Vermogensmutatiemethode]
+  D -->|Geen invloed| H[Niet in consolidatiekring<br/>gewone deelneming op balans]
+  style C fill:#ffeaa7
+  style E fill:#74b9ff
+  style F fill:#74b9ff
+  style G fill:#74b9ff
+  style H fill:#dfe6e9
+```
+
+**Kerninzichten**:
+- Controle (in rechte of feite) bepaalt eerst of er een groep is. Pas daarna kies je de methode op basis van controle-niveau.
+- Het ENIGE verschil tussen integrale en evenredige consolidatie is of je activa/passiva volledig opneemt (en het derden-deel apart presenteert) of pro-rata (zonder afzonderlijke derden-post).
+- Horizontale consolidatie is de buitenbeentje: er is geen moeder, er zijn alleen consortium-leden die door een gemeenschappelijke leiding samen opereren. Een natuurlijke persoon (bv. Pieter Vermeulen) kan die leiding zijn.
+
+[[consolidatiemethodes-vergelijking|→ Volledige synthese-fiche]]
 
 ## Kiezen van de toe te passen consolidatietechniek per entiteit
 
-Deze competentie is grotendeels mechanisch zodra de kwalificatie vaststaat — de wet schrijft per type relatie de techniek voor. De waarde voor jou zit in het bewust toepassen van die koppeling per entiteit, want in één groep kunnen meerdere technieken tegelijk lopen (één dochter integraal, één joint venture evenredig, één geassocieerde via vermogensmutatie). In examen-cases zit de moeilijkheid vaak in een groep met gemengde structuur waar je per entiteit de juiste techniek moet motiveren.
+Deze competentie is de vertaalslag van kwalificatie naar techniek: voor elke entiteit in je kring kies je één van de vier methodes. De wet dwingt de koppeling in principe af — dochter → integraal, gemeenschappelijke dochter → evenredig, geassocieerde → vermogensmutatie, consortium-lid → horizontaal — maar je hebt nog speelruimte bij het beoordelen van de 'nauwe integratie' van een gemeenschappelijke dochter, wat de keuze kan kantelen tussen evenredig en vermogensmutatie. Documenteer je keuze per entiteit, zodat je beslissing later traceerbaar blijft.
 
 [[competenties/kiezen-consolidatiemethode|→ Volledige procedure]]
 
-**Eerste stap**: Vaststellen van de kwalificatie van de entiteit — Uitkomst van [[competenties/kwalificeren-relatie-deelneming|kwalificeren relatie deelneming]]: dochter, gemeenschappelijke dochter, geassocieerde onderneming, of gewone deelneming
+**Eerste stap**: Vaststellen van de kwalificatie per entiteit — [{'artefact': 'Werkpapier kwalificatie (uit [[kwalificeren-relatie-deelneming]])', 'veld': 'Kwalificatie per entiteit', 'type': 'conclusie'}]
 
 ## Toepassen van uniforme waarderingsregels en hercorrigeren van enkelvoudige cijfers
 
-Eén economische entiteit veronderstelt één set waarderingsregels — anders zijn de cijfers van moeder en dochters niet optelbaar. Deze competentie is de stille voorbereidende fase die de hele consolidatie pas zinvol maakt: zonder uniforme regels zou je optellen wat niet vergelijkbaar is. De pijnpunten in de praktijk zijn dochters met fiscaal afwijkende afschrijvingen, andere voorraadwaarderingsmethoden, of buitenlandse dochters onder een ander GAAP-stelsel.
+Voordat je dochtercijfers in de consolidatie kunt opnemen, moeten ze waarderingsgewijs op één lijn liggen met die van de moeder. Een dochter die afschrijvingsmethodes of voorraadwaarderingen anders toepast, vertekent het geconsolideerde resultaat zodra je haar cijfers gewoon optelt. Deze competentie traint je daarom in twee bewegingen: inventariseer eerst de verschillen tussen de enkelvoudige waarderingsregels, en boek vervolgens consolidatie-correcties op de cijfers van de dochters zodat ze passen in het groepsraamwerk — alleen waar afwijken wettelijk verantwoord is, mag je dat motiveren in de toelichting.
 
 [[competenties/toepassen-uniforme-waarderingsregels|→ Volledige procedure]]
 
-**Eerste stap**: Inventariseren van de waarderingsregels van consoliderende vennootschap en dochters — Toelichting bij de enkelvoudige jaarrekeningen van moeder en dochters; samenvattingen van waarderingsregels (afschrijvingsmethoden, voorraadwaardering, voorzieningen, fiscale afwijkingen)
+**Eerste stap**: Inventariseren van de waarderingsregels — [{'artefact': 'Toelichting bij enkelvoudige jaarrekeningen van Aurelia en dochters', 'veld': 'Beschrijving waarderingsregels', 'type': 'document'}]
 
 ## Uitvoeren van de eerste consolidatie van een nieuw verworven dochter of geassocieerde onderneming
 
-De eerste consolidatie is het moment waarop je de aanschaffingsprijs van een deelneming uiteenrafelt in een aandeel in het eigen vermogen, eventuele herwaarderingen van onder- of overgewaardeerde activa, en een residueel consolidatieverschil. Het is conceptueel de meest dichte stap van het programmaonderdeel, omdat hier juridische verwerving en boekhoudkundige beeldvorming samenkomen. Je past deze competentie toe telkens wanneer een groep een nieuwe dochter binnenhaalt — en dit soort beslissing (toerekening van het verschil, looptijd van afschrijving) komt klassiek terug in examen-cases.
+De eerste consolidatie is een eenmalige, technisch dichte oefening waarin je twee bedragen tegenover elkaar zet: wat de moeder voor de aandelen heeft betaald, en haar pro-rata aandeel in het eigen vermogen van de dochter op de verwervingsdatum. Het verschil daartussen verdeel je zo veel mogelijk over identificeerbare stille meer- of minderwaarden op specifieke activa en passiva; wat dan nog overblijft is het consolidatieverschil dat als afzonderlijke balanspost wordt geboekt en periodiek afgeschreven. Het beginsel onder de oefening is identificeerbaarheid: alleen wat je objectief aan een actief of passief kunt toerekenen, krijgt daar zijn nieuwe waarde — de rest is residueel.
 
 [[competenties/uitvoeren-eerste-consolidatie|→ Volledige procedure]]
 
-**Eerste stap**: Vaststellen van de aanschaffingswaarde van de deelneming — Contracten van overdracht, betalingsbewijzen, eventuele aanpassingen aan de aanschaffingsprijs (earn-outs, vendor loans)
+**Eerste stap**: Vaststellen van de aanschaffingswaarde van de deelneming — [{'artefact': 'Aandelenkoopovereenkomst', 'veld': 'Aanschaffingsprijs op verwervingsdatum', 'type': 'boekhoudkundig-bedrag'}, {'artefact': 'Betalingsbewijzen en addenda', 'veld': 'Earn-outs, vendor loans, aanpassingen', 'type': 'boekhoudkundig-bedrag'}]
 
 ## Uitvoeren van intragroep-eliminaties en berekenen van het aandeel van derden
 
-Dit is de eigenlijke "schoonmaak" die van een geaggregeerde optelsom een echte geconsolideerde jaarrekening maakt: weghalen wat de groep met zichzelf heeft gedaan, en apart tonen wat van derden is. Onderlinge vorderingen en schulden, intragroep-verkopen, niet-gerealiseerde winsten in voorraad — allemaal moeten ze weg, want anders verschijnt de groep groter en winstgevender dan ze werkelijk is. De spiegelvraag is het aandeel van derden: het deel van het eigen vermogen en resultaat dat bij minderheidsaandeelhouders thuishoort.
+Na de eerste consolidatie volgt het routine-werk dat elke verslagperiode terugkomt: alles wat tussen groepsleden gebeurt mag in de geconsolideerde cijfers geen sporen achterlaten. Onderlinge vorderingen en schulden, opbrengsten en kosten, en niet-gerealiseerde winsten in voorraden of vaste activa worden weggeboekt — anders zou de groep met zichzelf handelen en winst boeken op transacties die de groep nog niet verlaten hebben. Tegelijk reken je het deel van het resultaat van een integraal geconsolideerde dochter dat aan andere aandeelhouders toebehoort af als aandeel van derden, zodat 'aandeel van de moeder' eerlijk uit het groepsresultaat valt.
 
 [[competenties/uitvoeren-intragroep-eliminaties|→ Volledige procedure]]
 
-**Eerste stap**: Identificeren van onderlinge vorderingen en schulden — Geconsolideerde proefbalansen van moeder en dochters; intercompany-reconciliaties
+**Eerste stap**: Identificeren van onderlinge vorderingen en schulden — [{'artefact': 'Geconsolideerde proefbalansen van moeder en dochters', 'veld': 'Vorderingen en schulden tegenover groepsvennootschappen', 'type': 'boekhoudkundig-bedrag'}, {'artefact': 'Intercompany-reconciliaties', 'veld': 'Saldi per tegenpartij', 'type': 'boekhoudkundig-bedrag'}]
 
 ## Verwerken van een wijziging in de consolidatiekring (inclusief step acquisition)
 
-Groepen staan zelden stil: er komen dochters bij, er gaan dochters weg, een geassocieerde wordt een dochter, een belang neemt af tot enkel nog invloed van betekenis. Elke wijziging vraagt een specifieke verwerking — en de meest pittige is de step acquisition, waarbij je in opeenvolgende stappen door verschillende kwalificatiehokjes schuift en op elk kantelpunt opnieuw moet herwaarderen. Dit soort beweging zit standaard in examen-cases die de volle redeneerkracht van het programmaonderdeel willen toetsen.
+Groepen zijn zelden statisch: dochters worden verworven of verkocht, deelnemingen kantelen van invloed van betekenis naar controle (step acquisition) of omgekeerd, en transacties tussen entiteiten onder gemeenschappelijke leiding krijgen een eigen behandeling. Elke wijziging vraagt dat je het juiste kantelpunt herkent en de bijhorende behandeling toepast — soms een nieuwe eerste consolidatie, soms een geleidelijke aanpassing van de boekwaarde via vermogensmutatie, soms een gedeeltelijke afstoting met realisatie van een resultaat. Het leidende principe is continuïteit: de geconsolideerde cijfers moeten tussen twee boekjaren vergelijkbaar blijven, en elke breuk wordt toegelicht.
 
 [[competenties/verwerken-wijziging-consolidatiekring|→ Volledige procedure]]
 
-**Eerste stap**: Identificeren van de aard van de wijziging — Wijzigingen in de groep tussen twee opeenvolgende boekjaren: verwerving, vervreemding, liquidatie, verhoging/verlaging van belang, wijziging in mate van controle, kringintegratie van voorheen uitgesloten dochter
+**Eerste stap**: Identificeren van de aard van de wijziging — [{'artefact': 'Wijzigingsoverzicht groep boekjaar t versus t-1', 'veld': 'Verwervingen, vervreemdingen, liquidaties, belang-aanpassingen', 'type': 'document'}]
 
 ## Publicatie en rapportering: jaarrekening en jaarverslag
 
-De consolidatie is pas af wanneer ze ook naar buiten wordt gebracht. Dit cluster behandelt de twee documenten die samen het geconsolideerde rapport vormen: de geconsolideerde jaarrekening zelf (cijferluik) en het geconsolideerde jaarverslag (narratief luik dat de evolutie van de zaken en de risico's toelicht). Beide moeten worden opgemaakt, gecontroleerd en bekendgemaakt — dat externe bekendmakingsproces sluit de cirkel van bescherming voor derden.
+Eens de cijfers staan, wordt de groep ook naar buiten zichtbaar. Het beschermingsdoel van de consolidatieverplichting komt pas tot zijn recht als de groep zowel haar kwantitatieve verhaal (balans, resultatenrekening, toelichting) als haar kwalitatieve verhaal (jaarverslag) openbaar maakt. De jaarrekening en het jaarverslag horen samen, worden samen door de commissaris gecontroleerd en samen gepubliceerd — het zijn twee complementaire vensters op dezelfde economische werkelijkheid.
 
-**[[geconsolideerde-jaarrekening|Geconsolideerde jaarrekening]]**: De jaarrekening die het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel (consoliderende vennootschap + dochterondernemingen in de consolidatiekring) opneemt alsof...
+**[[geconsolideerde-jaarrekening|Geconsolideerde jaarrekening]]**: De jaarrekening die het vermogen, de financiële positie en het resultaat van de hele groep (moeder + alle dochters in de consolidatiekring) presenteert alsof het om één bedrijf gaat. Ze bestaat...
 
-**[[geconsolideerd-jaarverslag|Geconsolideerd jaarverslag]]**: Het door het bestuursorgaan opgestelde toelichtende verslag dat samen met de geconsolideerde jaarrekening wordt opgemaakt, gecontroleerd en bekendgemaakt door elke consolidatieplichtige...
+**[[geconsolideerd-jaarverslag|Geconsolideerd jaarverslag]]**: Het narratieve (toelichtende) verslag dat het bestuursorgaan samen met de geconsolideerde jaarrekening opmaakt, laat controleren en publiceert. Het beschrijft de evolutie van de zaken, het...
+
 
 ## IFRS-context: het internationale consolidatieraamwerk
 
-Het Belgisch consolidatierecht (WVV + KB WVV) staat naast een internationaal raamwerk dat dezelfde economische werkelijkheid op een eigen manier benadert. Voor beursgenoteerde groepen en hun dochters is IFRS verplicht; voor niet-genoteerde groepen blijft het Belgisch raamwerk de regel. Plaats de IFRS-standaarden daarom in je hoofd náást — niet bovenop — wat je hierboven hebt geleerd: hetzelfde fenomeen (controle, gezamenlijke regelingen, deelnemingen), met andere drempels en eigen accenten.
+Het Belgische consolidatierecht is geen eiland. Beursgenoteerde groepen en grote internationale ondernemingen rapporteren onder IFRS, en de wetgever heeft het Belgische raamwerk de afgelopen decennia stelselmatig naar IFRS toe laten groeien. Het is daarom nuttig om de Belgische technieken te kunnen plaatsen tegenover hun IFRS-tegenhangers — niet om beide stelsels in detail te kennen, maar om te zien dat beide vertrekken vanuit hetzelfde fundament: controle bepaalt de plicht, kwalificatie bepaalt de methode. De accentverschillen tussen beide stelsels (in de definitie van controle, in de behandeling van het consolidatieverschil, in de keuze tussen evenredige consolidatie en vermogensmutatie) zijn de plekken waar je extra alert moet zijn.
 
-**[[ifrs-consolidatieraamwerk|IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12)]]**: Het geheel van IAS/IFRS-standaarden die het wettelijk kader voor geconsolideerde jaarrekeningen onder IFRS vormen, in het bijzonder IFRS 3 (bedrijfscombinaties), IFRS 10 (geconsolideerde...
+**[[ifrs-consolidatieraamwerk|IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12)]]**: De verzameling IAS/IFRS-standaarden die het wettelijk kader bepalen voor een geconsolideerde jaarrekening onder IFRS. Voor consolidatie zijn vier standaarden centraal: IFRS 3...
+
 
 
 ## Synthese-stappenplan
 
-Wanneer je de hele oefening "een geconsolideerde jaarrekening opstellen" stap voor stap aanpakt, krijg je een werkflow in drie fasen die de negen competenties met elkaar verbindt.
-
-**Fase 1 — Reikwijdte bepalen.** Start met [[competenties/bepalen-consolidatieverplichting|bepalen-consolidatieverplichting]]: bestaat er een consolidatieplicht of valt de groep onder een vrijstelling (subconsolidatie hogerop, groep van beperkte omvang)? Als de plicht bestaat, ga je naar [[competenties/afbakenen-consolidatiekring|afbakenen-consolidatiekring]] om vast te leggen welke entiteiten in de kring zitten.
-
-**Fase 2 — Kwalificeren en kiezen.** Voor elke entiteit in de kring: bepaal de relatie via [[competenties/kwalificeren-relatie-deelneming|kwalificeren-relatie-deelneming]]. Bij een ketenstructuur reken je je controle- en belangenpercentage via [[competenties/berekenen-controle-en-belangenpercentage|berekenen-controle-en-belangenpercentage]] — let op het verschil tussen "doorspringen" en "vermenigvuldigen". Met de kwalificatie in de hand volgt [[competenties/kiezen-consolidatiemethode|kiezen-consolidatiemethode]] vrijwel automatisch: integraal voor dochters, evenredig voor gemeenschappelijke dochters, vermogensmutatie voor geassocieerden.
-
-**Fase 3 — Uitvoeren.** Begin met [[competenties/toepassen-uniforme-waarderingsregels|toepassen-uniforme-waarderingsregels]] — zonder vergelijkbare cijfers is de rest zinloos. Voor nieuw verworven dochters voer je [[competenties/uitvoeren-eerste-consolidatie|uitvoeren-eerste-consolidatie]] uit (toerekening van het consolidatieverschil). Vervolgens [[competenties/uitvoeren-intragroep-eliminaties|uitvoeren-intragroep-eliminaties]] om onderlinge transacties te schrappen en het aandeel van derden te berekenen. Voor groepen die tussen twee boekjaren wijzigen, sluit je af met [[competenties/verwerken-wijziging-consolidatiekring|verwerken-wijziging-consolidatiekring]].
-
-Beslisboom in één lijn: *plicht? → kring? → per entiteit: kwalificatie → techniek → uniformeren → consolideren → elimineren → wijzigingen verwerken → rapporteren*.
+Een consolidatieopdracht doorloop je altijd in dezelfde volgorde, ongeacht hoe complex de groep is. Stap één: stel vast of er überhaupt een plicht is door de moeder, de controle, de groottecriteria en de subconsolidatie-vrijstelling parallel te toetsen. Stap twee: baken de kring af door alle dochters op te lijsten en per entiteit uitsluitings- of weglatingsgronden af te wegen. Stap drie: kwalificeer elke relatie en bereken waar nodig controle- en belangenpercentage in de keten. Stap vier: kies per entiteit de bijhorende techniek (integraal, evenredig, vermogensmutatie of horizontaal). Stap vijf: lijn de waarderingsregels uniform uit en boek correcties op de enkelvoudige cijfers van de dochters. Stap zes: bij een nieuwe verwerving voer je de eerste consolidatie uit en boek je het consolidatieverschil; bij elke periode daarna elimineer je intragroep-relaties en bereken je het aandeel van derden. Stap zeven: detecteer wijzigingen in de kring (verwerving, vervreemding, step acquisition, kantelpunten) en verwerk ze met behoud van vergelijkbaarheid. Stap acht ten slotte: stel jaarrekening én jaarverslag samen, laat ze controleren en publiceer beide.
 
 ## Cheatsheet
 
@@ -193,173 +266,93 @@ Beslisboom in één lijn: *plicht? → kring? → per entiteit: kwalificatie →
 
 | Concept | Naam | Waarde | Eenheid | Gevolg |
 |---|---|---|---|---|
-| [[exclusieve-controle]] | Onweerlegbaar vermoeden van controle in rechte | > 50 % | stemrechten | Onweerlegbaar vermoeden van exclusieve controle → moedervennootschap → integrale consolidatie van de dochter. |
-| [[geassocieerde-onderneming]] | Weerlegbaar vermoeden invloed van betekenis (= geassocieerde onderneming) | ≥ 20 % | stemrechten | Vermoeden dat de moeder invloed van betekenis heeft op het beleid → kwalificatie geassocieerde onderneming → vermogensmutatie. |
-| [[geassocieerde-onderneming]] | Bovengrens (overgang naar dochter) | > 50 % stemrechten of andere titel van controle | stemrechten | Vanaf controle (in rechte of feite) wordt de onderneming geen geassocieerde meer maar een dochteronderneming → integrale consolidatie. |
-| [[geconsolideerde-jaarrekening]] | Maximale afwijking afsluitingsdatum dochter ↔ geconsolideerde jaarrekening | 3 | maanden | KB WVV art. 3:110, tweede lid: indien het uiterst moeilijk is om de actief- en passiefbestanddelen, rechten en verplichtingen, of de opbrengsten en kosten van de consoliderende vennootschap of van een dochteronderneming op te nemen op de afsluitingsdatum van de geconsolideerde jaarrekening (of wanneer die opname de opstelling en openbaarmaking uitermate zou vertragen), mogen die op een ander tijdstip in aanmerking worden genomen — mits tussen beide data of beschouwde periodes 'onder geen enkel beding' meer dan drie maanden ligt. De afwijking geldt zowel vóór als na de afsluitingsdatum (CBN-praktijk bevestigt deze interpretatie). De toepassing moet in de toelichting worden gemotiveerd. |
-| [[groottecriteria-consolidatie]] | Kleine vennootschap (WVV art. 1:24) — referentie | jaaromzet ≤ 11.250.000 EUR; balanstotaal ≤ 6.000.000 EUR; jaargemiddelde werknemers ≤ 50 | criteria-set | Niet meer dan één criterium overschrijden → kleine vennootschap (verkorte schema's mogelijk). Bedragen zoals weergegeven in CBN 2017/15; de drempels worden periodiek geïndexeerd (CBN 2024/07 documenteert een verhoging). |
-| [[groottecriteria-consolidatie]] | Vereenvoudigde berekening op geaggregeerde basis (WVV art. 1:24, § 6) | drempels balanstotaal en omzet vermeerderd met 20 % | %-toeslag | Een moedervennootschap die niet wettelijk verplicht is een geconsolideerde jaarrekening op te stellen, mag voor de beoordeling van haar groottecriteria gewoon alle bedragen van haar verbonden vennootschappen optellen (geaggregeerde basis). Om dit te verantwoorden worden de drempels verhoogd met 20 %. Vermijdt een volledige consolidatie-oefening enkel voor de groottetoets. |
+| [[exclusieve-controle]] | Onweerlegbaar vermoeden van controle in rechte | > 50 % | stemrechten | Onweerlegbaar vermoeden van exclusieve controle → moeder → integrale consolidatie van de dochter. Bv. Aurelia Holding NV met 80 % stemrechten in Brugse Brouwerij BV → onweerlegbaar. |
+| [[geassocieerde-onderneming]] | Weerlegbaar vermoeden invloed van betekenis (= geassocieerde onderneming) | ≥ 20 % | stemrechten | Vermoeden dat de moeder invloed van betekenis heeft op het beleid → kwalificatie als geassocieerde onderneming → opname via vermogensmutatie. Bv. Antwerpse Investments met 25 % in Drukkerij Dendermonde. |
+| [[geassocieerde-onderneming]] | Bovengrens (overgang naar dochter) | > 50 % stemrechten of andere titel van controle | stemrechten | Vanaf controle (in rechte of in feite) is de onderneming geen geassocieerde meer maar een dochter → integrale consolidatie. |
+| [[geconsolideerde-jaarrekening]] | Maximale afwijking afsluitingsdatum dochter ↔ geconsolideerde jaarrekening | 3 | maanden | KB WVV art. 3:110, tweede lid: als het uiterst moeilijk is om bezittingen, schulden, rechten, verplichtingen, opbrengsten of kosten van de moeder of van een dochter op te nemen op de afsluitingsdatum van de geconsolideerde jaarrekening (of als dat de opstelling en publicatie sterk zou vertragen), mag je ze op een ander tijdstip in aanmerking nemen — mits er tussen beide data of periodes 'onder geen enkel beding' meer dan drie maanden zit. Geldt zowel vóór als na de afsluitingsdatum. Motivering in de toelichting verplicht. Bv. Aurelia (afsluiting 31 december) consolideert Holsters Horst BV (afsluiting 30 september) → afwijking precies 3 maanden, nog binnen de regel. |
+| [[groep-van-beperkte-omvang]] | Drempels groep van beperkte omvang (KB WVV art. 1:26 — geaggregeerde basis +20 %) | Maximaal 1 van 3 drempels overschreden | criteria | Wordt aan deze test voldaan, dan is de moeder vrijgesteld van het opstellen van een geconsolideerde jaarrekening en een geconsolideerd jaarverslag (tenzij de groep een organisatie van openbaar belang of een beursgenoteerde groep bevat). |
+| [[groottecriteria-consolidatie]] | Kleine vennootschap (WVV art. 1:24) — referentie | jaaromzet ≤ 11.250.000 EUR; balanstotaal ≤ 6.000.000 EUR; jaargemiddelde werknemers ≤ 50 | criteria-set | Hoogstens één drempel overschreden → kleine vennootschap (verkorte schema's mogelijk). Bedragen zoals destijds vermeld in CBN 2017/15; de drempels worden periodiek geïndexeerd (zie CBN 2024/07 voor de meest recente verhoging). Bij examen: het Cijferzakboekje geeft de actuele bedragen. |
+| [[groottecriteria-consolidatie]] | Vereenvoudigde berekening op geaggregeerde basis (WVV art. 1:24, § 6) | drempels balanstotaal en omzet vermeerderd met 20 % | %-toeslag | Een moeder die niet wettelijk verplicht is om te consolideren, mag voor de groottetoets alle bedragen van haar verbonden vennootschappen gewoon optellen (geaggregeerd). Om die snelle methode te verantwoorden tegenover de strengere consolidatiebasis, worden de drempels met 20 % verhoogd. Vermijdt een volledige consolidatie-oefening alleen om de drempel-vraag te beantwoorden. |
 | [[invloed-van-betekenis]] | Weerlegbaar vermoeden van invloed van betekenis | ≥ 20 % | deelnemingspercentage in stemrechten | Weerlegbaar vermoeden van invloed van betekenis → kwalificatie als geassocieerde onderneming → vermogensmutatiemethode in de geconsolideerde jaarrekening. |
-| [[invloed-van-betekenis]] | Bovengrens (controle) | ≤ 50 % stemrechten en geen controle | stemrechten | Boven > 50 % of in geval van controle in feite kantelt de kwalificatie van 'invloed van betekenis' naar 'exclusieve controle'; de deelneming wordt dan een dochteronderneming en niet langer een geassocieerde onderneming. |
-
-### Formules
-
-```
-Belangenpercentage in een verticale keten (Belangenpercentage):
-  belang% (M in B) = belang% (M in A) × belang% (A in B) × … (vermenigvuldiging over alle schakels)
-
-Berekening van het consolidatieverschil bij eerste consolidatie (Consolidatieverschil):
-  Consolidatieverschil = aanschaffingswaarde aandelen − belang% × eigen vermogen dochter op verwervingsdatum (na toerekening van het verschil aan onder-/overgewaardeerde activa en passiva van de dochter)
-
-Controlepercentage in een verticale keten (Controlepercentage):
-  controle% (M in B) = controle% (A in B), op voorwaarde dat M exclusieve controle uitoefent op A
-
-Evenredige consolidatie — pro-rata opname (Evenredige consolidatie (proportionele consolidatie)):
-  Geconsolideerde post = (post moeder) + (post gemeenschappelijke dochter × belang%) − intragroep-eliminaties op het pro-rata deel
-
-Integrale consolidatie — werkstroom (compensatie + eliminatie + minderheidsbelang) (Integrale consolidatie):
-  Geconsolideerde post = (post moeder) + (post dochter × 100 %) − intragroep-eliminaties; Aandeel derden = (1 − belang%) × eigen vermogen of resultaat dochter
-
-Eliminatie van niet-gerealiseerde winst in voorraad (intra-groepsverkoop) (Intragroep-eliminaties):
-  Te elimineren winst = brutomarge% × restvoorraad op balansdatum bij de kopende groepsvennootschap. Het actief 'Voorraden' in de geconsolideerde balans wordt met dat bedrag verminderd; de geconsolideerde reserves dalen evenredig (KB WVV art. 3:134, 2°). De volledige interne omzet en bijbehorende kostprijs verkochte goederen worden uit de geconsolideerde resultatenrekening geschrapt (KB WVV art. 3:136, 1°).
-
-Aandeel van derden — balans en resultatenrekening (Belangen van derden / Aandeel van derden in het resultaat (minderheidsbelangen)):
-  Belangen van derden (balans) = (1 − belang%) × eigen vermogen dochter op afsluitingsdatum;
-Aandeel van derden in resultaat = (1 − belang%) × resultaat van het boekjaar van de geconsolideerde dochter
-
-Eerste consolidatie — herwaardering en consolidatieverschil (Vermogensmutatiemethode (equity method)):
-  Boekwaarde deelneming (eerste consolidatie) = pro-rata aandeel × eigen vermogen op verwervingsdatum + consolidatieverschil (positief of negatief)
-
-Latere consolidatie — pro-rata aandeel in winst of verlies (Vermogensmutatiemethode (equity method)):
-  Δ boekwaarde deelneming = belang% × Δ eigen vermogen betrokken vennootschap (resultaat van het boekjaar, excl. dividenduitkering, plus directe EV-mutaties)
-
-```
+| [[invloed-van-betekenis]] | Bovengrens (overgang naar controle) | > 50 % stemrechten of controle in feite | stemrechten | Boven 50 % stemrechten of bij vastgestelde controle in feite kantelt 'invloed van betekenis' naar 'exclusieve controle'. De deelneming wordt dan een dochter (geen geassocieerde meer) → integrale consolidatie. |
 
 ### Vergelijkingsparen-matrix
 
 | Concept | Verwarrend met | Trigger |
 |---|---|---|
-| [[belangenpercentage]] | [[controlepercentage]] | Examen: vraag eerst 'wat moet ik berekenen?' — winstaandeel/derden → belang; consolidatieverplichting/methode → controle. |
-| [[belangenpercentage]] | [[minderheidsbelangen]] | — |
-| [[consolidatiekring]] | [[consolidatieverplichting]] | — |
-| [[consolidatiekring]] | [[wijziging-consolidatiekring]] | — |
-| [[consolidatieverplichting]] | [[groottecriteria]] | — |
-| [[consolidatieverplichting]] | [[vrijstelling-subconsolidatie]] | — |
-| [[consolidatieverplichting]] | [[consolidatiekring]] | — |
-| [[consolidatieverschil]] | [[integrale-consolidatie]] | — |
-| [[consolidatieverschil]] | [[vermogensmutatiemethode]] | — |
-| [[consolidatieverschil]] | [[eerste-consolidatie]] | — |
-| [[consolidatieverschil]] | [[dochteronderneming]] | — |
-| [[consolidatieverschil]] | [[geassocieerde-onderneming]] | — |
-| [[consortium]] | [[moedervennootschap]] | — |
-| [[consortium]] | [[gemeenschappelijke-dochteronderneming]] | — |
+| [[belangenpercentage]] | [[controlepercentage]] | Examen: vraag eerst 'wat moet ik berekenen?' — winstaandeel of aandeel van derden → belangenpercentage; consolidatieverplichting of -methode → controlepercentage. |
 | [[controle]] | [[invloed-van-betekenis]] | Bij percentages 20–50 %: standaard vermogensmutatie (invloed van betekenis). Bij overeenkomst voor gezamenlijke uitoefening van beleid: gezamenlijke controle. |
-| [[controle]] | [[controlepercentage]] | Wanneer een opgave een percentage geeft: vraag steeds of het stemrechten betreft (controle) of kapitaal (belang). |
-| [[controle]] | [[exclusieve-controle]] | Bij stemrechten > 50 % zonder aandeelhoudersovereenkomst → exclusieve controle. Bij stemovereenkomst tussen 2 of meer vennoten → gezamenlijke controle. |
-| [[controle]] | [[gezamenlijke-controle]] | Sleutelvraag: bestaat er een overeenkomst tussen vennoten dat beslissingen alleen samen worden genomen? Zo ja: gezamenlijke controle, anders mogelijke exclusieve controle of geen controle. |
-| [[controlepercentage]] | [[belangenpercentage]] | Vraagstellingen die expliciet vragen 'wie heeft controle' versus 'welk aandeel van de winst' — twee verschillende berekeningen. |
-| [[controlepercentage]] | [[controle]] | — |
-| [[dochteronderneming]] | [[geassocieerde-onderneming]] | Toets de controlevraag: bestaat er beslissende invloed (al dan niet gezamenlijk)? Zo ja: dochter. Zo nee maar wel deelname aan beleid: geassocieerde. |
-| [[dochteronderneming]] | [[gemeenschappelijke-dochteronderneming]] | — |
-| [[dochteronderneming]] | [[consolidatiekring]] | — |
-| [[eerste-consolidatie]] | [[wijziging-consolidatiekring]] | — |
-| [[eerste-consolidatie]] | [[consolidatieverschil]] | — |
-| [[eerste-consolidatie]] | [[vermogensmutatiemethode]] | — |
-| [[evenredige-consolidatie]] | [[integrale-consolidatie]] | — |
-| [[evenredige-consolidatie]] | [[vermogensmutatiemethode]] | — |
-| [[evenredige-consolidatie]] | [[gezamenlijke-controle]] | — |
-| [[evenredige-consolidatie]] | [[gemeenschappelijke-dochteronderneming]] | — |
-| [[evenredige-consolidatie]] | [[belangen-van-derden]] | — |
-| [[exclusieve-controle]] | [[gezamenlijke-controle]] | Cruciale vraag: bestaat een overeenkomst dat beleidsbeslissingen alleen samen mogen worden genomen? Zo ja: gezamenlijke controle; anders: exclusieve controle of geen controle. |
-| [[exclusieve-controle]] | [[invloed-van-betekenis]] | — |
-| [[geassocieerde-onderneming]] | [[dochteronderneming]] | — |
-| [[geassocieerde-onderneming]] | [[gemeenschappelijke-dochteronderneming]] | — |
-| [[geassocieerde-onderneming]] | [[vermogensmutatiemethode]] | — |
-| [[geconsolideerd-jaarverslag]] | [[geconsolideerde-jaarrekening]] | — |
-| [[geconsolideerde-jaarrekening]] | [[geconsolideerd-jaarverslag]] | — |
-| [[geconsolideerde-jaarrekening]] | [[consolidatieverplichting]] | — |
-| [[gemeenschappelijke-dochteronderneming]] | [[dochteronderneming]] | — |
-| [[gemeenschappelijke-dochteronderneming]] | [[geassocieerde-onderneming]] | — |
-| [[gemeenschappelijke-dochteronderneming]] | [[consortium]] | — |
-| [[gezamenlijke-controle]] | [[exclusieve-controle]] | — |
-| [[gezamenlijke-controle]] | [[gemeenschappelijke-dochteronderneming]] | — |
-| [[gezamenlijke-controle]] | [[invloed-van-betekenis]] | — |
-| [[groep-van-beperkte-omvang]] | [[groottecriteria-consolidatie]] | — |
-| [[groep-van-beperkte-omvang]] | [[consolidatieverplichting]] | — |
-| [[groottecriteria-consolidatie]] | [[consolidatieverplichting]] | — |
-| [[groottecriteria-consolidatie]] | [[vrijstelling-subconsolidatie]] | — |
-| [[horizontale-consolidatie]] | [[integrale-consolidatie]] | — |
-| [[horizontale-consolidatie]] | [[consortium]] | — |
-| [[ifrs-consolidatieraamwerk]] | [[geconsolideerde-jaarrekening]] | — |
-| [[ifrs-consolidatieraamwerk]] | [[evenredige-consolidatie]] | — |
-| [[integrale-consolidatie]] | [[evenredige-consolidatie]] | Soort controle: exclusief → integraal; gezamenlijk → evenredig. |
-| [[integrale-consolidatie]] | [[vermogensmutatiemethode]] | — |
-| [[integrale-consolidatie]] | [[consolidatieverschil]] | — |
-| [[integrale-consolidatie]] | [[minderheidsbelangen]] | — |
-| [[intragroep-eliminaties]] | [[integrale-consolidatie]] | — |
-| [[intragroep-eliminaties]] | [[evenredige-consolidatie]] | — |
-| [[intragroep-eliminaties]] | [[vermogensmutatiemethode]] | — |
-| [[invloed-van-betekenis]] | [[exclusieve-controle]] | — |
-| [[invloed-van-betekenis]] | [[gezamenlijke-controle]] | — |
-| [[invloed-van-betekenis]] | [[geassocieerde-onderneming]] | — |
-| [[minderheidsbelangen]] | [[belangenpercentage]] | — |
-| [[minderheidsbelangen]] | [[integrale-consolidatie]] | — |
-| [[minderheidsbelangen]] | [[evenredige-consolidatie]] | — |
-| [[moedervennootschap]] | [[dochteronderneming]] | — |
-| [[moedervennootschap]] | [[consortium]] | — |
-| [[step-acquisition]] | [[wijziging-consolidatiekring]] | — |
-| [[step-acquisition]] | [[eerste-consolidatie]] | — |
-| [[uniforme-waarderingsregels-consolidatie]] | [[integrale-consolidatie]] | — |
-| [[vermogensmutatiemethode]] | [[integrale-consolidatie]] | — |
-| [[vermogensmutatiemethode]] | [[evenredige-consolidatie]] | — |
-| [[vermogensmutatiemethode]] | [[geassocieerde-onderneming]] | — |
-| [[vermogensmutatiemethode]] | [[invloed-van-betekenis]] | — |
-| [[vermogensmutatiemethode]] | [[consolidatieverschil]] | — |
-| [[vrijstelling-subconsolidatie]] | [[consolidatieverplichting]] | — |
-| [[vrijstelling-subconsolidatie]] | [[groottecriteria-consolidatie]] | — |
-| [[wijziging-consolidatiekring]] | [[consolidatiekring]] | — |
-| [[wijziging-consolidatiekring]] | [[eerste-consolidatie]] | — |
-| [[wijziging-consolidatiekring]] | [[consolidatieverschil]] | — |
+| [[controle]] | [[controlepercentage]] | Wanneer een opgave een percentage geeft: vraag eerst of het over stemrechten (controle) of over kapitaal (belang) gaat. |
+| [[dochteronderneming]] | [[geassocieerde-onderneming]] | Stel de controlevraag: heeft de moeder beslissende invloed (eventueel samen met enkele anderen)? Zo ja: dochter. Zo nee maar wel betekenisvolle invloed (typisch 20-50 %): geassocieerde. |
+| [[evenredige-consolidatie]] | [[integrale-consolidatie]] | Soort controle bepaalt de methode: exclusieve controle → integraal; gezamenlijke controle → evenredig (of vermogensmutatie als niet-geïntegreerd). |
+| [[evenredige-consolidatie]] | [[vermogensmutatiemethode]] | Mate van integratie van de gemeenschappelijke dochter in de groep — nauw geïntegreerd → evenredig; los → vermogensmutatie. |
+| [[exclusieve-controle]] | [[gezamenlijke-controle]] | Cruciale vraag in elke opgave: is er een overeenkomst dat beleidsbeslissingen alleen samen mogen worden genomen? Zo ja: gezamenlijke controle; anders: exclusieve controle of geen controle. |
+| [[horizontale-consolidatie]] | [[integrale-consolidatie]] | Het type relatie (verticaal vs. horizontaal) bepaalt of je het integrale-consolidatie-recept op een moeder + haar dochters toepast (verticaal) of op een set zelfstandige consortium-leden onder gemeenschappelijke leiding (horizontaal). |
+| [[integrale-consolidatie]] | [[evenredige-consolidatie]] | Soort controle / type relatie tussen moeder en dochter bepaalt welke methode. |
+| [[integrale-consolidatie]] | [[vermogensmutatiemethode]] | Soort controle / type relatie tussen moeder en dochter bepaalt welke methode. |
+| [[vermogensmutatiemethode]] | [[integrale-consolidatie]] | Soort relatie: controle → integraal; invloed van betekenis (of uitgesloten dochters / niet-geïntegreerde gemeenschappelijke dochters) → vermogensmutatie. |
+| [[vermogensmutatiemethode]] | [[evenredige-consolidatie]] | Mate van integratie van de gemeenschappelijke dochter: nauw geïntegreerd → evenredig; los → vermogensmutatie. |
+| [[vrijstelling-subconsolidatie]] | [[groottecriteria-consolidatie]] | Examen-keuze-vraag: 'Welke vrijstelling beroept Aurelia zich op?' → toets eerst structuur (is er een top-moeder die al consolideert? → subconsolidatie), daarna omvang (zit de groep onder de drempels? → beperkte omvang). |
 
 
 ## Examenfocus
 
-Dit programmaonderdeel toetst minder je vermogen om bedragen uit het hoofd te kennen dan je vermogen om correct te kwalificeren en consequent door te redeneren. De typische denkpatronen die klassiek terugkomen: het onderscheid tussen controle- en belangenpercentage in een keten, het kantelpunt tussen invloed van betekenis en exclusieve controle (rond 50 % stemrechten), en de keuze van consolidatietechniek bij een groep met gemengde structuur. Verwacht ook redeneerstappen rond vrijstellingen (subconsolidatie of groep van beperkte omvang) en rond de eerste consolidatie (toerekening van het consolidatieverschil aan onder- of overgewaardeerde activa). Het Cijferzakboekje en ITAA-LEX zijn op het examen beschikbaar: investeer je studietijd dus in het begrijpen van de redeneerstructuur, niet in het uit het hoofd leren van drempelbedragen.
+Het examen toetst op dit programmaonderdeel zelden of je een bedrag uit het hoofd kent — dat staat in het Cijferzakboekje. Wat wordt getoetst, is of je redeneerketens volledig en in de juiste volgorde doorloopt. Een typisch denkpatroon: een opgave geeft je een groep met een paar deelnemingen en vraagt of er consolidatieplicht is — kap je redenering nooit af bij het eerste 'ja' op controle; loop ook altijd door de vrijstellingen. Een tweede denkpatroon: een opgave geeft je percentages in een keten en vraagt zowel controle- als belangenpercentage — toets eerst welk percentage waarvoor wordt gevraagd voor je begint te rekenen, en hou de twee scherp uit elkaar. Een derde denkpatroon: een opgave beschrijft een wijziging in de kring (verwerving, kanteling van geassocieerde naar dochter, gedeeltelijke afstoting) en verwacht dat je het kantelpunt en de techniek correct identificeert. Wie de begrippen kent maar de procedure-volgorde niet bewaakt, verliest hier punten op halve antwoorden.
 
-### Echte examenvragen voor PO 1.4
+> [!question]- 2013-1-vr3 (3.0 pt)
+> Vraag 3 … / 3 punten
+  Een onderneming, die een geconsolideerde jaarrekening moet opstellen, vraagt U onder
+  welke post in de geconsolideerde resultatenrekening het gedeelte van het resultaat van de
+  volledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen
+  die worden gehouden door andere personen dan de consoliderende vennootschap of de in
+  de consolidatie opgenomen dochterondernemingen moet worden vermeld.
+  Antwoord
+>
+> _Thema's: consolidatie_
 
-> [!question] 2013-1-vr3 (3 punten)
-> Een onderneming, die een geconsolideerde jaarrekening moet opstellen, vraagt U onder welke post in de geconsolideerde resultatenrekening het gedeelte van het resultaat van de volledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen die worden gehouden door andere personen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochterondernemingen moet worden vermeld.
+> [!question]- 2013-1-vr4 (3.0 pt)
+> Vraag 4 … / 3 punten
+  De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de
+  jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan
+  afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?
+  Antwoord
 >
-> _Concepten_: [[minderheidsbelangen]], [[integrale-consolidatie]]
+> _Thema's: consolidatie_
 
-> [!question] 2013-1-vr4 (3 punten)
-> De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum?
+> [!question]- 2014-1-vr3 (3.0 pt)
+> Vraag 3 … / 3 punten
+  De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de
+  jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan
+  afwijken.
+  Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?
+  Antwoord
 >
-> _Concepten_: [[geconsolideerde-jaarrekening]], [[wijziging-consolidatiekring]]
+> _Thema's: consolidatie_
 
-> [!question] 2014-1-vr3 (3 punten)
-> De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum?
+> [!question]- 2014-1-vr4 (9.0 pt)
+> Vraag 4 … / 9 punten
+  Vul onderstaande tabel aan op basis van volgende gegevens.
+  M
+  70 % 30 %
+  60 % 20 %
+  A B C
+  Antwoord
+  CONTROLEPERCENTAGE BELANGENPERCENTAGE CONSOLIDATIEMETHODE
+  M IN A
+  M IN B
+  M IN C
 >
-> _Concepten_: [[geconsolideerde-jaarrekening]]
+> _Thema's: consolidatie_
 
-> [!question] 2014-1-vr4 (9 punten)
-> Vul onderstaande tabel aan op basis van volgende gegevens:
+> [!question]- 2015-1-vr4 (6.0 pt)
+> Vraag 4 … / 6 punten
+  a) Wat is een positief consolidatieverschil ?
+  Antwoord … / 2 punten
+  b) Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ?
+  Antwoord … / 4 punten
 >
-> M heeft 70 % van A en 30 % van B; A heeft 60 % van C; B heeft 20 % van C.
->
-> | | Controlepercentage | Belangenpercentage | Consolidatiemethode |
-> |---|---|---|---|
-> | M in A | ? | ? | ? |
-> | M in B | ? | ? | ? |
-> | M in C | ? | ? | ? |
->
-> _Concepten_: [[controlepercentage]], [[belangenpercentage]], [[controle]], [[invloed-van-betekenis]], [[integrale-consolidatie]], [[vermogensmutatiemethode]]
+> _Thema's: consolidatie_
 
-> [!question] 2015-1-vr4 (6 punten)
-> Vraag rond consolidatie-keten en methode-keuze (zie ITAA-archief voor volledige opgave).
->
-> _Concepten_: [[controlepercentage]], [[belangenpercentage]], [[consolidatieverschil]]
 
 ## Concept-index
 
@@ -371,6 +364,7 @@ Dit programmaonderdeel toetst minder je vermogen om bedragen uit het hoofd te ke
 [[consortium|Consortium (horizontale groep)]] · `actor`
 [[controle|Controle]] · `begrip`
 [[controlepercentage|Controlepercentage]] · `begrip`
+[[consolidatiemethodes-vergelijking|De vier consolidatiemethodes vergeleken]] · `synthese`
 [[dochteronderneming|Dochteronderneming]] · `actor`
 [[eerste-consolidatie|Eerste consolidatie]] · `fenomeen`
 [[evenredige-consolidatie|Evenredige consolidatie (proportionele consolidatie)]] · `methode`
@@ -388,6 +382,7 @@ Dit programmaonderdeel toetst minder je vermogen om bedragen uit het hoofd te ke
 [[intragroep-eliminaties|Intragroep-eliminaties]] · `procedure`
 [[invloed-van-betekenis|Invloed van betekenis]] · `begrip`
 [[moedervennootschap|Moedervennootschap]] · `actor`
+[[consolidatieplicht-beslisboom|Moet ik consolideren? — Beslisboom]] · `synthese`
 [[step-acquisition|Step acquisition (trapsgewijze verwerving)]] · `fenomeen`
 [[uniforme-waarderingsregels-consolidatie|Uniforme waarderingsregels in de consolidatie]] · `regel`
 [[vermogensmutatiemethode|Vermogensmutatiemethode (equity method)]] · `methode`

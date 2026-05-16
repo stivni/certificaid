@@ -255,12 +255,25 @@ def render_skeleton(
     # Cheatsheet-data
     alle_drempelwaarden, alle_formules, alle_vergelijkingsparen = _bouw_cheatsheet_data(records)
 
-    # Verrijk hoofdstukken met competentie-data
+    # Verrijk hoofdstukken met competentie- en synthese-data
     hoofdstukken = leerpad.get("hoofdstukken", [])
     for hoofdstuk in hoofdstukken:
         if hoofdstuk.get("type") == "competentie":
             comp_id = hoofdstuk.get("competentie_id", "")
             hoofdstuk["competentie"] = competenties_dict.get(comp_id, {})
+        elif hoofdstuk.get("type") == "synthese":
+            syn_id = hoofdstuk.get("synthese_id", "")
+            # Synthese-records hoeven niet PO-gefilterd in records_dict te zitten;
+            # laad rechtstreeks uit RECORDS_DIR om cross-PO synthese mogelijk te maken
+            syn_record = concepten_dict.get(syn_id)
+            if syn_record is None:
+                syn_pad = RECORDS_DIR / f"{syn_id}.json"
+                if syn_pad.exists():
+                    try:
+                        syn_record = json.loads(syn_pad.read_text(encoding="utf-8"))
+                    except json.JSONDecodeError:
+                        syn_record = {}
+            hoofdstuk["synthese"] = syn_record or {}
 
     # Gesorteerde records voor concept-index
     gesorteerde_records = sorted(records, key=lambda r: r.get("naam", ""))
@@ -274,6 +287,7 @@ def render_skeleton(
         "orientatie": ["<!-- TODO: Opus-glue oriëntatie -->" for _ in hoofdstukken],
         "competentie_intro": ["<!-- TODO: Opus-glue competentie-intro -->" for _ in hoofdstukken],
         "thematisch_intro": ["<!-- TODO: Opus-glue thematisch-intro -->" for _ in hoofdstukken],
+        "synthese_intro": ["<!-- TODO: Opus-glue synthese-intro -->" for _ in hoofdstukken],
         "synthese": "<!-- TODO: Opus-glue synthese -->",
         "examenfocus": "<!-- TODO: Opus-glue examenfocus -->",
     }
