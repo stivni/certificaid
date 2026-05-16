@@ -2,104 +2,321 @@
   "id": "intragroep-eliminaties",
   "naam": "Intragroep-eliminaties",
   "node_type": "procedure",
-  "schema_version": "1.2",
+  "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.D", "1.4.I.G", "1.4.I.B", "1.4.taak.1"],
+  "linked_anchors": [
+    "1.4.I.D",
+    "1.4.I.G",
+    "1.4.I.B",
+    "1.4.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.D",
-    "dekt_ook_anchors": ["1.4.I.G", "1.4.I.B", "1.4.taak.1"],
+    "dekt_ook_anchors": [
+      "1.4.I.G",
+      "1.4.I.B",
+      "1.4.taak.1"
+    ],
     "reviewed_by": null,
     "enrich_runs": [
       {
         "run_id": "enrich-run-20260515T144255Z",
         "model": "claude-opus-4-7",
-        "gaps_verwerkt": ["berekeningsmethode.concreet_voorbeeld"],
+        "gaps_verwerkt": [
+          "berekeningsmethode.concreet_voorbeeld"
+        ],
         "uitgevoerd_op": "2026-05-15T16:50:00+00:00"
       }
-    ]
+    ],
+    "schema_1_4_migration": {
+      "uitgevoerd_op": "2026-05-16T00:11Z",
+      "tool": "migrate_schema_1_4.py",
+      "scope": "structureel (bouwsteen-blok, formules[], stap-blok-skelet, edges)",
+      "pending_mens_review": [
+        "stagiair-toon-rewrite (regel 6)",
+        "cast-namen in voorbeelden (regel 7)",
+        "stap.hoe + voorbeeld.substappen invullen (regel 8)",
+        "atomaire formule-split + variabelen + invulling_voorbeeld (regel 12)",
+        "synthese-voorbeelden bij voorbeeld-minimum-gaps (regel 14 bron 3)"
+      ]
+    },
+    "jargon_pass3": {
+      "uitgevoerd_op": "2026-05-16T00:17Z",
+      "tool": "jargon_pass3.py",
+      "scope": "deterministische jargon-substituties + cast-namen in voorbeeld-velden (regels 6 + 7)",
+      "aantal_substituties": 17,
+      "voorbeelden": [
+        {
+          "pad": ".stappen[0].wat",
+          "oude_term": "consoliderende vennootschap",
+          "nieuwe_term": "moedervennootschap"
+        },
+        {
+          "pad": ".stappen[0].wat",
+          "oude_term": "in de consolidatie opgenomen dochters",
+          "nieuwe_term": "dochters in de consolidatiekring"
+        },
+        {
+          "pad": ".stappen[0]._corrected_from.oude_text",
+          "oude_term": "consoliderende vennootschap",
+          "nieuwe_term": "moedervennootschap"
+        },
+        {
+          "pad": ".stappen[0]._corrected_from.oude_text",
+          "oude_term": "in de consolidatie opgenomen dochters",
+          "nieuwe_term": "dochters in de consolidatiekring"
+        },
+        {
+          "pad": ".stappen[0].actor",
+          "oude_term": "consoliderende vennootschap",
+          "nieuwe_term": "moedervennootschap"
+        }
+      ]
+    }
   },
   "verplichting": {
     "text": "Bij de opstelling van de geconsolideerde jaarrekening moeten alle wederzijdse opbrengsten, kosten, vorderingen, schulden en in activa begrepen onderlinge winsten of verliezen tussen de in de consolidatie opgenomen vennootschappen worden geëlimineerd, om te vermijden dat dezelfde transacties dubbel verschijnen en dat winsten op interne transacties worden gerealiseerd in de groepscijfers terwijl ze economisch niet zijn gerealiseerd buiten de groep.",
     "confidence": "grounded",
-    "source": { "type": "kb", "short": "KB WVV art. 3:134 jo. art. 3:136" },
+    "source": {
+      "type": "kb",
+      "short": "KB WVV art. 3:134 jo. art. 3:136"
+    },
     "references": [
-      { "type": "kb", "short": "KB WVV art. 3:134 (balans)" },
-      { "type": "kb", "short": "KB WVV art. 3:136 (resultatenrekening)" },
-      { "type": "kb", "short": "KB WVV art. 3:138 (toelichting)" },
-      { "type": "kb", "short": "KB WVV art. 3:139 (materialiteitsuitzondering)" },
-      { "type": "kb", "short": "KB WVV art. 3:140, a (evenredige consolidatie — pro-rata eliminatie)" }
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:134 (balans)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:136 (resultatenrekening)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:138 (toelichting)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:139 (materialiteitsuitzondering)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:140, a (evenredige consolidatie — pro-rata eliminatie)"
+      }
     ],
     "_provenance": {
       "inputs": [
-        { "id": "KB-WVV-2019__art_3_106", "sha256": null, "version": "rag-v1" },
-        { "id": "KB-WVV-2019__art_3_107", "sha256": null, "version": "rag-v1" },
-        { "id": "KB-WVV-2019__art_3_109", "sha256": null, "version": "rag-v1" },
-        { "id": "KB-WVV-2019__art_3_110", "sha256": null, "version": "rag-v1" }
+        {
+          "id": "KB-WVV-2019__art_3_106",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_107",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_109",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_110",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
   "stappen": [
     {
-      "volgorde": 1,
-      "text": "Identificeer onderlinge vorderingen en schulden tussen de consoliderende vennootschap en de in de consolidatie opgenomen dochters (en tussen die dochters onderling). Schrap die zowel aan actiefzijde (vorderingen) als aan passiefzijde (schulden) — de geconsolideerde balans behoudt enkel posities tegenover derden buiten de groep.",
-      "actor": "consoliderende vennootschap"
+      "nr": 1,
+      "titel": "Identificeer onderlinge vorderingen en schulden tussen de consoliderende…",
+      "wat": "Identificeer onderlinge vorderingen en schulden tussen de moedervennootschap en de dochters in de consolidatiekring (en tussen die dochters onderling). Schrap die zowel aan actiefzijde (vorderingen) als aan passiefzijde (schulden) — de geconsolideerde balans behoudt enkel posities tegenover derden buiten de groep.",
+      "grondslag": "",
+      "_corrected_from": {
+        "veld": "stappen[volgorde+text] → stap-blok 1.4",
+        "oude_text": "Identificeer onderlinge vorderingen en schulden tussen de moedervennootschap en de dochters in de consolidatiekring (en tussen die dochters onderling). Schrap die zowel aan actiefzijde (vorderingen) als aan passiefzijde (schulden) — de geconsolideerde balans behoudt enkel posities tegenover derden buiten de groep.",
+        "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+      },
+      "actor": "moedervennootschap"
     },
     {
-      "volgorde": 2,
-      "text": "Identificeer in de waarde van activa in de geconsolideerde balans begrepen onderlinge winsten of verliezen uit intra-groepsverkopen (typisch: voorraad of materiële vaste activa verkocht binnen de groep met een marge). Schrap die winsten of verliezen — het actief moet in de geconsolideerde balans terug naar de oorspronkelijke kostprijs voor de groep.",
-      "actor": "consoliderende vennootschap"
+      "nr": 2,
+      "titel": "Identificeer in de waarde van activa in de…",
+      "wat": "Identificeer in de waarde van activa in de geconsolideerde balans begrepen onderlinge winsten of verliezen uit intra-groepsverkopen (typisch: voorraad of materiële vaste activa verkocht binnen de groep met een marge). Schrap die winsten of verliezen — het actief moet in de geconsolideerde balans terug naar de oorspronkelijke kostprijs voor de groep.",
+      "grondslag": "",
+      "_corrected_from": {
+        "veld": "stappen[volgorde+text] → stap-blok 1.4",
+        "oude_text": "Identificeer in de waarde van activa in de geconsolideerde balans begrepen onderlinge winsten of verliezen uit intra-groepsverkopen (typisch: voorraad of materiële vaste activa verkocht binnen de groep met een marge). Schrap die winsten of verliezen — het actief moet in de geconsolideerde balans terug naar de oorspronkelijke kostprijs voor de groep.",
+        "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+      },
+      "actor": "moedervennootschap"
     },
     {
-      "volgorde": 3,
-      "text": "Identificeer onderlinge opbrengsten en kosten uit intra-groepstransacties (interne verkopen, beheersvergoedingen, intresten, huur). Schrap die uit de geconsolideerde resultatenrekening.",
-      "actor": "consoliderende vennootschap"
+      "nr": 3,
+      "titel": "Identificeer onderlinge opbrengsten en kosten uit intra-groepstransacties (interne…",
+      "wat": "Identificeer onderlinge opbrengsten en kosten uit intra-groepstransacties (interne verkopen, beheersvergoedingen, intresten, huur). Schrap die uit de geconsolideerde resultatenrekening.",
+      "grondslag": "",
+      "_corrected_from": {
+        "veld": "stappen[volgorde+text] → stap-blok 1.4",
+        "oude_text": "Identificeer onderlinge opbrengsten en kosten uit intra-groepstransacties (interne verkopen, beheersvergoedingen, intresten, huur). Schrap die uit de geconsolideerde resultatenrekening.",
+        "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+      },
+      "actor": "moedervennootschap"
     },
     {
-      "volgorde": 4,
-      "text": "Voor evenredig geconsolideerde gemeenschappelijke dochters: eliminaties beperken tot het pro-rata deel (KB WVV art. 3:140, a). De moeder elimineert geen 100 % van de intra-groepswinst, maar slechts in functie van haar belangenpercentage.",
-      "actor": "consoliderende vennootschap"
+      "nr": 4,
+      "titel": "Voor evenredig geconsolideerde gemeenschappelijke dochters: eliminaties beperken tot…",
+      "wat": "Voor evenredig geconsolideerde gemeenschappelijke dochters: eliminaties beperken tot het pro-rata deel (KB WVV art. 3:140, a). De moeder elimineert geen 100 % van de intra-groepswinst, maar slechts in functie van haar belangenpercentage.",
+      "grondslag": "",
+      "_corrected_from": {
+        "veld": "stappen[volgorde+text] → stap-blok 1.4",
+        "oude_text": "Voor evenredig geconsolideerde gemeenschappelijke dochters: eliminaties beperken tot het pro-rata deel (KB WVV art. 3:140, a). De moeder elimineert geen 100 % van de intra-groepswinst, maar slechts in functie van haar belangenpercentage.",
+        "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+      },
+      "actor": "moedervennootschap"
     },
     {
-      "volgorde": 5,
-      "text": "Beoordeel of de eliminaties van te verwaarlozen betekenis zijn (KB WVV art. 3:139). Eliminaties bedoeld in art. 3:134, 3:136, eerste lid, 1° en 2°, en 3:138 mogen achterwege blijven wanneer de bedragen, gelet op het doel van het getrouwe beeld (art. 3:105), van te verwaarlozen betekenis zijn.",
-      "actor": "consoliderende vennootschap"
+      "nr": 5,
+      "titel": "Beoordeel of de eliminaties van te verwaarlozen betekenis…",
+      "wat": "Beoordeel of de eliminaties van te verwaarlozen betekenis zijn (KB WVV art. 3:139). Eliminaties bedoeld in art. 3:134, 3:136, eerste lid, 1° en 2°, en 3:138 mogen achterwege blijven wanneer de bedragen, gelet op het doel van het getrouwe beeld (art. 3:105), van te verwaarlozen betekenis zijn.",
+      "grondslag": "",
+      "_corrected_from": {
+        "veld": "stappen[volgorde+text] → stap-blok 1.4",
+        "oude_text": "Beoordeel of de eliminaties van te verwaarlozen betekenis zijn (KB WVV art. 3:139). Eliminaties bedoeld in art. 3:134, 3:136, eerste lid, 1° en 2°, en 3:138 mogen achterwege blijven wanneer de bedragen, gelet op het doel van het getrouwe beeld (art. 3:105), van te verwaarlozen betekenis zijn.",
+        "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+      },
+      "actor": "moedervennootschap"
     },
     {
-      "volgorde": 6,
-      "text": "Pas in de toelichting de inlichtingen aan: de op te nemen inlichtingen over het geheel van de consoliderende vennootschap en haar dochters slaan niet op de wederzijdse rechten en verplichtingen die zijn weggelaten (KB WVV art. 3:138).",
-      "actor": "consoliderende vennootschap"
+      "nr": 6,
+      "titel": "Pas in de toelichting de inlichtingen aan: de…",
+      "wat": "Pas in de toelichting de inlichtingen aan: de op te nemen inlichtingen over het geheel van de moedervennootschap en haar dochters slaan niet op de wederzijdse rechten en verplichtingen die zijn weggelaten",
+      "grondslag": "KB WVV art. 3:138",
+      "_corrected_from": {
+        "veld": "stappen[volgorde+text] → stap-blok 1.4",
+        "oude_text": "Pas in de toelichting de inlichtingen aan: de op te nemen inlichtingen over het geheel van de moedervennootschap en haar dochters slaan niet op de wederzijdse rechten en verplichtingen die zijn weggelaten (KB WVV art. 3:138).",
+        "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+      },
+      "actor": "moedervennootschap"
     }
   ],
   "berekeningsmethode": [
     {
       "naam": "Eliminatie van niet-gerealiseerde winst in voorraad (intra-groepsverkoop)",
-      "formule": "Te elimineren winst = brutomarge% × restvoorraad op balansdatum bij de kopende groepsvennootschap. Het actief 'Voorraden' in de geconsolideerde balans wordt met dat bedrag verminderd; de geconsolideerde reserves dalen evenredig (KB WVV art. 3:134, 2°). De volledige interne omzet en bijbehorende kostprijs verkochte goederen worden uit de geconsolideerde resultatenrekening geschrapt (KB WVV art. 3:136, 1°).",
       "ratio": "Het deel van de marge dat op de interne verkoop werd geboekt is voor de groep economisch niet gerealiseerd zolang het goed nog in de groep zit. Het actief moet in de geconsolideerde balans worden teruggebracht tot de oorspronkelijke kostprijs voor de groep, en de interne winst mag niet in de geconsolideerde reserves blijven hangen.",
       "stappen": [
-        { "volgorde": 1, "text": "Identificeer de intra-groepsverkoop: verkoper, koper, totale interne verkoopprijs, brutomarge van de verkoper." },
-        { "volgorde": 2, "text": "Bepaal hoeveel van het verkochte goed op balansdatum nog in voorraad zit bij de koper (of nog niet aan derden buiten de groep is doorverkocht)." },
-        { "volgorde": 3, "text": "Bereken de niet-gerealiseerde winst: restvoorraad × brutomarge%." },
-        { "volgorde": 4, "text": "Schrap die niet-gerealiseerde winst uit de waarde van 'Voorraden' in de geconsolideerde balans (KB WVV art. 3:134, 2°) en uit de geconsolideerde reserves." },
-        { "volgorde": 5, "text": "Schrap de volledige interne omzet en bijbehorende kostprijs verkochte goederen uit de geconsolideerde resultatenrekening (KB WVV art. 3:136, 1°) — los van of het goed nog in voorraad zit." },
-        { "volgorde": 6, "text": "Voor evenredig geconsolideerde gemeenschappelijke dochters: beperk de eliminatie van de niet-gerealiseerde winst en van de interne omzet/kostprijs tot het pro-rata belang (KB WVV art. 3:140, a)." }
+        {
+          "nr": 1,
+          "titel": "Identificeer de intra-groepsverkoop: verkoper, koper, totale interne verkoopprijs…",
+          "wat": "Identificeer de intra-groepsverkoop: verkoper, koper, totale interne verkoopprijs, brutomarge van de verkoper.",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Identificeer de intra-groepsverkoop: verkoper, koper, totale interne verkoopprijs, brutomarge van de verkoper.",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        },
+        {
+          "nr": 2,
+          "titel": "Bepaal hoeveel van het verkochte goed op balansdatum…",
+          "wat": "Bepaal hoeveel van het verkochte goed op balansdatum nog in voorraad zit bij de koper (of nog niet aan derden buiten de groep is doorverkocht).",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Bepaal hoeveel van het verkochte goed op balansdatum nog in voorraad zit bij de koper (of nog niet aan derden buiten de groep is doorverkocht).",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        },
+        {
+          "nr": 3,
+          "titel": "Bereken de niet-gerealiseerde winst: restvoorraad × brutomarge%.",
+          "wat": "Bereken de niet-gerealiseerde winst: restvoorraad × brutomarge%.",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Bereken de niet-gerealiseerde winst: restvoorraad × brutomarge%.",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        },
+        {
+          "nr": 4,
+          "titel": "Schrap die niet-gerealiseerde winst uit de waarde van…",
+          "wat": "Schrap die niet-gerealiseerde winst uit de waarde van 'Voorraden' in de geconsolideerde balans (KB WVV art. 3:134, 2°) en uit de geconsolideerde reserves.",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Schrap die niet-gerealiseerde winst uit de waarde van 'Voorraden' in de geconsolideerde balans (KB WVV art. 3:134, 2°) en uit de geconsolideerde reserves.",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        },
+        {
+          "nr": 5,
+          "titel": "Schrap de volledige interne omzet en bijbehorende kostprijs…",
+          "wat": "Schrap de volledige interne omzet en bijbehorende kostprijs verkochte goederen uit de geconsolideerde resultatenrekening (KB WVV art. 3:136, 1°) — los van of het goed nog in voorraad zit.",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Schrap de volledige interne omzet en bijbehorende kostprijs verkochte goederen uit de geconsolideerde resultatenrekening (KB WVV art. 3:136, 1°) — los van of het goed nog in voorraad zit.",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        },
+        {
+          "nr": 6,
+          "titel": "Voor evenredig geconsolideerde gemeenschappelijke dochters: beperk de eliminatie…",
+          "wat": "Voor evenredig geconsolideerde gemeenschappelijke dochters: beperk de eliminatie van de niet-gerealiseerde winst en van de interne omzet/kostprijs tot het pro-rata belang",
+          "grondslag": "KB WVV art. 3:140, a",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Voor evenredig geconsolideerde gemeenschappelijke dochters: beperk de eliminatie van de niet-gerealiseerde winst en van de interne omzet/kostprijs tot het pro-rata belang (KB WVV art. 3:140, a).",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        }
       ],
       "concreet_voorbeeld": {
-        "scenario": "Moeder M verkoopt voor 100 goederen aan dochter D (100 % integrale consolidatie). M realiseert daarop een brutomarge van 30 % (kostprijs voor M = 70, marge = 30). Op balansdatum heeft D nog 40 % van die goederen in voorraad (oorspronkelijke interne aankoopprijs = 40); de overige 60 (interne prijs) is reeds aan derden buiten de groep doorverkocht.",
-        "berekening": "Stap 1–2: interne verkoop 100, brutomarge 30 %, restvoorraad bij D op balansdatum = 40 (uitgedrukt in de interne aankoopprijs). Stap 3: niet-gerealiseerde winst = 40 × 30 % = 12. Stap 4 (balans-eliminatie, KB WVV art. 3:134, 2°): 'Voorraden' −12, 'Reserves' −12; D's voorraad wordt zo teruggebracht van 40 naar 28 — de oorspronkelijke kostprijs voor de groep. Stap 5 (P&L-eliminatie, KB WVV art. 3:136, 1°): omzet −100, kostprijs verkochte goederen −100 (de interne omzet en bijbehorende kost vallen samen weg uit de geconsolideerde resultatenrekening). De winst op het reeds aan derden verkochte deel (60 × 30 % = 18) is wel gerealiseerd voor de groep en blijft, na de P&L-eliminatie van de interne verkoop, behouden via de verkoop van D aan de externe klant.",
+        "scenario": "Aurelia Holding NV verkoopt voor 100 goederen aan Brugse Brouwerij BV (100 % integrale consolidatie). M realiseert daarop een brutomarge van 30 % (kostprijs voor Aurelia Holding NV = 70, marge = 30). Op balansdatum heeft D nog 40 % van die goederen in voorraad (oorspronkelijke interne aankoopprijs = 40); de overige 60 (interne prijs) is reeds aan derden buiten de groep doorverkocht.",
+        "berekening": "Stap 1–2: interne verkoop 100, brutomarge 30 %, restvoorraad bij Brugse Brouwerij BV op balansdatum = 40 (uitgedrukt in de interne aankoopprijs). Stap 3: niet-gerealiseerde winst = 40 × 30 % = 12. Stap 4 (balans-eliminatie, KB WVV art. 3:134, 2°): 'Voorraden' −12, 'Reserves' −12; D's voorraad wordt zo teruggebracht van 40 naar 28 — de oorspronkelijke kostprijs voor de groep. Stap 5 (P&L-eliminatie, KB WVV art. 3:136, 1°): omzet −100, kostprijs verkochte goederen −100 (de interne omzet en bijbehorende kost vallen samen weg uit de geconsolideerde resultatenrekening). De winst op het reeds aan derden verkochte deel (60 × 30 % = 18) is wel gerealiseerd voor de groep en blijft, na de P&L-eliminatie van de interne verkoop, behouden via de verkoop van Brugse Brouwerij BV aan de externe klant.",
         "resultaat": "Geconsolideerde balans: voorraden en reserves elk −12. Geconsolideerde resultatenrekening: omzet en kostprijs verkochte goederen elk −100. Netto-effect op geconsolideerd resultaat: −12 (de niet-gerealiseerde marge op het deel dat nog binnen de groep zit). Op het ogenblik dat D ook die resterende 40 aan een derde verkoopt, valt de eliminatie weg en wordt de 12 alsnog als groepsresultaat erkend."
       },
-      "source": { "type": "kb", "short": "Synthese KB WVV art. 3:134, 2° + art. 3:136, 1°" },
+      "source": {
+        "type": "kb",
+        "short": "Synthese KB WVV art. 3:134, 2° + art. 3:136, 1°"
+      },
       "confidence": "inferred-from-aggregation",
       "inferred_motivation": "De brontekst (KB WVV art. 3:134, 2° en art. 3:136, 1°) bevat de eliminatieregel maar geen gewerkt cijfervoorbeeld voor niet-gerealiseerde voorraadwinst. De cijfers in dit voorbeeld zijn een minimale, conventionele illustratie (100/30 %/40) en geen letterlijke overname uit een bron. De boekhoudkundige logica (marge × restvoorraad = te elimineren winst; volledige interne omzet/kostprijs uit de P&L) volgt rechtstreeks uit de wettekst.",
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_106", "sha256": null, "version": "rag-v1" },
-          { "id": "KB-WVV-2019__art_3_107", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_intra-groepsverkopen-upstream-downstream-sales", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_106",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_107",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_intra-groepsverkopen-upstream-downstream-sales",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
-      }
+      },
+      "formules": [
+        {
+          "id": "eliminatie-van-niet-gerealiseerde-winst-",
+          "naam": "Eliminatie van niet-gerealiseerde winst in voorraad (intra-groepsverkoop)",
+          "wiskunde": "Te elimineren winst = brutomarge% × restvoorraad op balansdatum bij de kopende groepsvennootschap. Het actief 'Voorraden' in de geconsolideerde balans wordt met dat bedrag verminderd; de geconsolideerde reserves dalen evenredig (KB WVV art. 3:134, 2°). De volledige interne omzet en bijbehorende kostprijs verkochte goederen worden uit de geconsolideerde resultatenrekening geschrapt (KB WVV art. 3:136, 1°).",
+          "_corrected_from": {
+            "veld": "berekeningsmethode.formule (string) → formules[].wiskunde",
+            "reden": "Schema 1.2→1.4: formule-blok-formalisering (regel 12). Atomaire splits + variabelen + invulling_voorbeeld pending mens-review."
+          }
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -108,11 +325,22 @@
       "betekenis": "Bij intra-groepsverkoop van een actief dat bij de koper nog op de balans staat (voorraad, materieel actief), wordt zowel de winst (kostprijs verkochte goederen, opbrengsten) als de boekwaarde-aanpassing geëlimineerd. Bij intra-groepsdiensten (administratie, beheersvergoedingen) volstaat de eliminatie van de opbrengsten en kosten — er is geen impact op activa want de dienst is reeds 'verbruikt'.",
       "herkenningspunt": "Vraag: is het verkochte actief nog binnen de groep aanwezig op balansdatum? Zo ja: elimineer ook de marge in het actief. Zo nee: enkel de P&L-eliminatie.",
       "confidence": "inferred-from-aggregation",
-      "source": { "type": "kb", "short": "KB WVV art. 3:134, 2° + 3:136" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:134, 2° + 3:136"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_106", "sha256": null, "version": "rag-v1" },
-          { "id": "KB-WVV-2019__art_3_107", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_106",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_107",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -120,61 +348,110 @@
       "aspect": "Belastinggevolgen op intragroep-winst",
       "betekenis": "Bij eliminatie van een intra-groepswinst kan er een tijdelijk belastingverschil ontstaan: de winst is fiscaal reeds belast (in de jaarrekening van de verkopende dochter), maar consolideringsgewijs ongerealiseerd. KB WVV art. 3:119 voorziet in een specifieke behandeling van het belastingverschil bij consolidatie.",
       "confidence": "inferred-from-aggregation",
-      "source": { "type": "kb", "short": "KB WVV art. 3:119" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:119"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_94", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_94",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
   ],
-  "vergelijkingsparen": [
-    {
-      "vergelijking_met": "integrale-consolidatie",
-      "verschil": "Intragroep-eliminaties zijn een verplicht onderdeel van de integrale consolidatie (KB WVV art. 3:134, 3:136). Ze definiëren ze niet — ze realiseren het beginsel dat de groep als één economische entiteit wordt voorgesteld.",
-      "_provenance": {
-        "inputs": [
-          { "id": "KB-WVV-2019__art_3_106", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    },
-    {
-      "vergelijking_met": "evenredige-consolidatie",
-      "verschil": "Bij evenredige consolidatie gelden de eliminaties op het pro-rata deel (KB WVV art. 3:140, a) — niet voor 100 %. De integrale eliminatie zou een verkeerd resultaat geven omdat slechts een deel van de transactie tot de groepsentiteit behoort.",
-      "_provenance": {
-        "inputs": [
-          { "id": "KB-WVV-2019__art_3_111", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    },
-    {
-      "vergelijking_met": "vermogensmutatiemethode",
-      "verschil": "Bij vermogensmutatie worden de activa/passiva van de geassocieerde niet in de geconsolideerde balans opgenomen — eliminatie op balansniveau is dus niet nodig. Wel wordt het pro-rata aandeel in intra-groepswinsten begrepen in de waarde van een actief uit het 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast' geweerd (CBN 2022/11).",
-      "_provenance": {
-        "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_intra-groepsverkopen-upstream-downstream-sales", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    }
-  ],
+  "vergelijkingsparen": [],
   "valkuilen": [
     {
       "text": "Eliminaties kunnen om materialiteitsredenen achterwege blijven (KB WVV art. 3:138 jo. art. 3:139), maar de toets is 'van te verwaarlozen betekenis, gelet op het doel van art. 3:105 (getrouw beeld)'. Materialiteit beoordelen op het niveau van de groep, niet van de individuele post.",
       "confidence": "grounded",
-      "source": { "type": "kb", "short": "KB WVV art. 3:139" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:139"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_110", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_110",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
       "text": "Een intra-groepsverkoop tegen kostprijs (zonder marge) levert geen te elimineren winst op de balans op, maar de opbrengsten en kosten moeten nog steeds worden geschrapt uit de resultatenrekening (KB WVV art. 3:136, 1°).",
       "confidence": "grounded",
-      "source": { "type": "kb", "short": "KB WVV art. 3:136, 1°" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:136, 1°"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_107", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_107",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "integrale-consolidatie",
+      "redenering": "Intragroep-eliminaties zijn een verplicht onderdeel van de integrale consolidatie (KB WVV art. 3:134, 3:136). Ze definiëren ze niet — ze realiseren het beginsel dat de groep als één economische entiteit wordt voorgesteld.",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'onderdeel-van'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_106",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "evenredige-consolidatie",
+      "redenering": "Bij evenredige consolidatie gelden de eliminaties op het pro-rata deel (KB WVV art. 3:140, a) — niet voor 100 %. De integrale eliminatie zou een verkeerd resultaat geven omdat slechts een deel van de transactie tot de groepsentiteit behoort",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'onderdeel-van'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_111",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "contrasteert-met",
+      "target": "vermogensmutatiemethode",
+      "redenering": "Bij vermogensmutatie worden de activa/passiva van de geassocieerde niet in de geconsolideerde balans opgenomen — eliminatie op balansniveau is dus niet nodig. Wel wordt het pro-rata aandeel in intra-groepswinsten begrepen in de waarde van e",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_intra-groepsverkopen-upstream-downstream-sales",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }

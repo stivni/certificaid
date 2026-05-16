@@ -1,7 +1,7 @@
 # ADR-006: RAG-strategie
 
 **Status**: Draft
-**Datum**: 2026-05-07 (gewijzigd 2026-05-09: §4 frontmatter-driven chunking + per-wet hiërarchie-detectie; 2026-05-14: §4.2 adaptive sub-chunking + definitie-detectie)
+**Datum**: 2026-05-07 (gewijzigd 2026-05-09: §4 frontmatter-driven chunking + per-wet hiërarchie-detectie; 2026-05-14: §4.2 adaptive sub-chunking + definitie-detectie; 2026-05-15: §5 concepten-collectie geherdefinieerd — chunking direct uit `data/concepten/records/*.json` + `data/concepten/competenties/*.yaml` (source of truth), één chunk per record. Vervangt oude per-node-veld-strategie en de 38 seed-records. Render-output in `content/` is géén bron voor de index.)
 **Vervangt**: archive/ADR-001 (embedding model), ADR-002 (chunk-strategie), ADR-003 (reranking), ADR-005 (query-strategie), ADR-010 (ChromaDB)
 
 ## Context
@@ -183,7 +183,125 @@ Empirische basis: `data/etl/qa/sub-marker-onderzoek.md` + `data/etl/qa/definitie
 
 ### 5. Chunking — concepten-RAG
 
-Per node-veld een chunk. Edges meedragen als metadata zodat retrieval een sub-graph levert (zie ADR-007).
+**Eenheid: één chunk per record.** De `concepten`-collectie indexeert direct de **source-of-truth records** — niet de gerenderde markdown in `content/`.
+
+#### 5.1 Bronnen voor de index
+
+| Pad | Scope | Schema |
+|---|---|---|
+| `data/concepten/records/*.json` | `concept` | ADR-007 §schema 1.3 |
+| `data/concepten/competenties/*.yaml` | `competentie` | ADR-007 §competentie-schema 1.0 |
+
+`content/concepten/` en `content/competenties/` zijn render-output (ADR-010 §drie-lagen) en zijn **geen** bron voor de index. Indexeren vanuit `content/` zou betekenen dat een template-wijziging zonder record-wijziging de embeddings verandert — dat is rendering-bug-territorium, geen kennislaag-wijziging.
+
+#### 5.2 Waarom per-record en niet per-veld of per-rendered-fiche
+
+- **Cohesie**: een record is geschreven als één samenhangende kenniseenheid (definitie + bouwstenen + praktijk + valkuilen voor concepten; stappen + voorbeelden + valkuilen voor competenties). Een tutor-vraag valt zelden in één veld; per-veld zou top-1 een losse zin opleveren waar de student de samenhang verliest.
+- **Schaal**: 30 concepten + 9 competenties = 39 chunks. Met bge-m3's 8192-token context past een record ruim in één chunk (mediaan ~3.5K chars na composing).
+- **Determinisme**: 1-op-1 mapping record-bestand → chunk-id. Eén record gewijzigd = één re-embed.
+- **De oude "per node-veld + edges-als-metadata"-strategie is verworpen**: graph-walks blijven waardevol bij ADR-007 §edges-redenering, maar de retrieval-context die een tutor leest is het samengestelde concept-verhaal, niet een veld-tuple.
+
+#### 5.3 Chunk-id
+
+- Concept: `concept:<id>` (bv. `concept:consolidatiekring`)
+- Competentie: `competentie:<id>` (bv. `competentie:afbakenen-consolidatiekring`)
+
+Stabiel zolang de record-`id` niet verandert. Rename = oude id verwijderd, nieuwe id geïndexeerd (cascade via provenance).
+
+#### 5.4 Embed-tekst — compositie uit gestructureerde velden
+
+De embed-tekst wordt deterministisch samengesteld uit het record. **`_provenance`-blokken worden uitgesloten** — die zijn audit-metadata en pollueren embeddings met UUID-achtige strings. Confidence-labels (`grounded` / `inferred`) gaan ook niet de tekst in; ze worden in metadata bewaard zodat de tutor ze achteraf kan tonen zonder dat ze als embedding-signaal meedoen.
+
+**Concept-record** → vaste sectievolgorde:
+
+```
+[Concept → <programmaonderdelen> → <node_type> → <naam>]
+
+# <naam>
+
+<definitie.text>
+
+## Bouwstenen
+- <bouwstenen[0].naam>: <bouwstenen[0].text>
+- <bouwstenen[1].naam>: <bouwstenen[1].text>
+...
+
+## In de praktijk
+### <in_de_praktijk[0].aspect>
+<in_de_praktijk[0].betekenis>
+...
+
+## Vergelijkingsparen
+- vs. <vergelijkingsparen[0].vergelijking_met>: <vergelijkingsparen[0].verschil>
+...
+
+## Valkuilen
+- <valkuilen[0].text>
+...
+```
+
+**Competentie-YAML** → vaste sectievolgorde:
+
+```
+[Competentie → <programmaonderdelen> → <titel>]
+
+# <titel>
+
+Gebaseerd op concepten: <gebaseerd_op_concepten geconcateneerd>
+Grondslag: <procedure_grondslag.motivering>
+
+## Stappen
+### Stap 1: <stappen[0].titel>
+Input: <stappen[0].input>
+Output: <stappen[0].output>
+Waarom: <stappen[0].waarom>
+Grondslag: <stappen[0].grondslag.ref>
+[indien valkuilen aanwezig] Valkuil: <valkuilen[0].foute_aanname> → <valkuilen[0].correctie>
+...
+
+## Voorbeelden
+### Voorbeeld 1
+Situatie: <voorbeelden[0].situatie>
+Conclusie: <voorbeelden[0].conclusie>
+Redenering: <voorbeelden[0].redenering>
+...
+```
+
+Wikilinks (`[[concept-id]]`) blijven als platte tekst in de embed — bge-m3 herkent ze als concept-referentie, en de slugs zijn betekenisvol genoeg om recall te verhogen op gerelateerde concepten.
+
+Bovengrens: 8.000 chars (HARD_THRESHOLD, gelijk aan §4.2). Records die overshooten worden gelogd zodat een redactie-actie kan beslissen of het record gesplitst moet worden — niet automatisch ge-sub-chunked, want dat zou de "één chunk per record"-belofte breken.
+
+#### 5.5 Metadata-velden
+
+Per chunk in ChromaDB:
+
+| Veld | Type | Bron in record |
+|---|---|---|
+| `scope` | `concept` / `competentie` | bestandslocatie |
+| `id` | string | record-`id` |
+| `naam` of `titel` | string | `naam` (concept) / `titel` (competentie) |
+| `node_type` | string | `node_type` (alleen concept) |
+| `programmaonderdelen` | JSON-string | concept: afgeleid uit `linked_anchors` (eerste segment); competentie: `programmaonderdelen` |
+| `status` | string | `status` (`seed` / `voorgesteld` / `gecureerd` / ...) |
+| `schema_version` | string | `schema_version` |
+| `confidence_summary` | `grounded` / `inferred` / `mixed` | concept: `mixed` als er minstens één `confidence: inferred` in het record staat, anders `grounded`. Competentie: idem op stap-niveau. |
+| `bron_shorts` | JSON-array | concept: alle `source.short` waarden uit definitie/bouwstenen/praktijk/valkuilen; competentie: alle `grondslag.ref` en wikilinks |
+| `linked_concepts` | JSON-array | concept: doelen van `vergelijkingsparen`; competentie: `gebaseerd_op_concepten` |
+| `extractor_run` | string | `_provenance.extractor_run` (voor staleness-detectie) |
+
+`programmaonderdelen` blijft een filter-knop in retrieval (`where={"programmaonderdelen": {"$contains": "1.4"}}`).
+
+#### 5.6 Indexeringsvolgorde en vervanging
+
+Bij `tools/rag/rag_index.py --collection concepten`:
+1. **Drop-and-rebuild**: de oude 38 seed-records worden volledig leeggemaakt. Geen migratie — die hoorden bij de in ADR-008-herziening verworpen vermoedensruimte-aanpak.
+2. Scan `data/concepten/records/*.json` + `data/concepten/competenties/*.yaml`.
+3. Voor elk record: compose embed-tekst (§5.4), bouw metadata (§5.5), embed met bge-m3, schrijf chunk.
+4. Records met `status: rejected` of `status: archived` worden geskipt en gelogd.
+
+#### 5.7 Retrieval-impact
+
+In de twee-pass retrieval (ADR-006 §retrieval-pipeline) gebruikt de tutor de `concepten`-collectie als **eerste pass** met een hogere rerank-drempel (≥0.65). Hits uit deze collectie zijn pedagogisch sterker dan ruwe bron-chunks omdat ze al gestructureerd en gevalideerd zijn. De tutor toont ze met een `[concept]`-tag in de bronnenlijst en kan de bijbehorende **rendered fiche** (uit `content/concepten/<id>.md`) als volle context aanleveren aan Claude — record voor recall, rendered fiche voor leesbaarheid. De index zelf bevat alleen de record-projectie.
 
 ### 6. Breadcrumb-prefix in embedded tekst
 

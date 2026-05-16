@@ -2,30 +2,111 @@
   "id": "dochteronderneming",
   "naam": "Dochteronderneming",
   "node_type": "actor",
-  "schema_version": "1.2",
+  "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.C", "1.4.I.B", "1.4.I.D", "1.4.I.G", "1.4.II.B", "1.4.taak.1"],
+  "linked_anchors": [
+    "1.4.I.C",
+    "1.4.I.B",
+    "1.4.I.D",
+    "1.4.I.G",
+    "1.4.II.B",
+    "1.4.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.C",
-    "dekt_ook_anchors": ["1.4.I.B", "1.4.I.D", "1.4.I.G", "1.4.II.B", "1.4.taak.1"],
-    "reviewed_by": null
+    "dekt_ook_anchors": [
+      "1.4.I.B",
+      "1.4.I.D",
+      "1.4.I.G",
+      "1.4.II.B",
+      "1.4.taak.1"
+    ],
+    "reviewed_by": null,
+    "schema_1_4_migration": {
+      "uitgevoerd_op": "2026-05-16T00:11Z",
+      "tool": "migrate_schema_1_4.py",
+      "scope": "structureel (bouwsteen-blok, formules[], stap-blok-skelet, edges)",
+      "pending_mens_review": [
+        "stagiair-toon-rewrite (regel 6)",
+        "cast-namen in voorbeelden (regel 7)",
+        "stap.hoe + voorbeeld.substappen invullen (regel 8)",
+        "atomaire formule-split + variabelen + invulling_voorbeeld (regel 12)",
+        "synthese-voorbeelden bij voorbeeld-minimum-gaps (regel 14 bron 3)"
+      ]
+    },
+    "jargon_pass3": {
+      "uitgevoerd_op": "2026-05-16T00:17Z",
+      "tool": "jargon_pass3.py",
+      "scope": "deterministische jargon-substituties + cast-namen in voorbeeld-velden (regels 6 + 7)",
+      "aantal_substituties": 6,
+      "voorbeelden": [
+        {
+          "pad": ".voorbeeld_inline.text",
+          "oude_term": "vennootschap D",
+          "nieuwe_term": "Brugse Brouwerij BV"
+        },
+        {
+          "pad": ".voorbeeld_inline.text",
+          "oude_term": "M bezit",
+          "nieuwe_term": "Aurelia Holding NV bezit"
+        },
+        {
+          "pad": ".voorbeeld_inline.text",
+          "oude_term": "M heeft",
+          "nieuwe_term": "Aurelia Holding NV heeft"
+        },
+        {
+          "pad": ".voorbeeld_inline.text",
+          "oude_term": "van D",
+          "nieuwe_term": "van Brugse Brouwerij BV"
+        },
+        {
+          "pad": ".voorbeeld_inline.text",
+          "oude_term": "van M",
+          "nieuwe_term": "van Aurelia Holding NV"
+        }
+      ]
+    }
   },
   "definitie": {
     "text": "De vennootschap (dochtervennootschap) of het organisme (in ruime zin volgens WVV art. 3:22) ten opzichte waarvan een controlebevoegdheid door een andere vennootschap (de moedervennootschap) bestaat. De WVV-definitie van 'dochteronderneming' is ruimer dan die van 'dochtervennootschap' en omvat eveneens elke instelling naar Belgisch of buitenlands recht, al dan niet openbaar, met of zonder winstuitkering, die — al dan niet ingevolge haar statutaire opdracht — een activiteit uitoefent van commerciële, financiële of industriële aard. Daardoor kunnen ook verenigingen en stichtingen tot de consolidatiekring behoren, op voorwaarde dat zij door een vennootschap worden gecontroleerd.",
     "confidence": "grounded",
-    "source": { "type": "wet", "short": "WVV art. 1:15, 2° jo. art. 3:22" },
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 1:15, 2° jo. art. 3:22"
+    },
     "references": [
-      { "type": "wet", "short": "WVV art. 1:14 (controle); art. 1:15 (moeder/dochter)" },
-      { "type": "wet", "short": "WVV art. 3:22 (uitbreiding tot instellingen)" },
-      { "type": "kb", "short": "KB WVV art. 3:96 jo. art. 3:97 (consolidatiekring/uitsluiting)" },
-      { "type": "advies", "short": "CBN 2022/09 — Consortium (definitie dochter)" }
+      {
+        "type": "wet",
+        "short": "WVV art. 1:14 (controle); art. 1:15 (moeder/dochter)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 3:22 (uitbreiding tot instellingen)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:96 jo. art. 3:97 (consolidatiekring/uitsluiting)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2022/09 — Consortium (definitie dochter)"
+      }
     ],
     "_provenance": {
       "inputs": [
-        { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiekring", "sha256": null, "version": "rag-v1" },
-        { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" }
+        {
+          "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiekring",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -35,12 +116,27 @@
       "betekenis": "(a) Dochteronderneming onder exclusieve controle → integrale consolidatie (KB WVV art. 3:124, 1°). (b) Gemeenschappelijke dochteronderneming onder gezamenlijke controle → evenredige consolidatie (KB WVV art. 3:124, 2° jo. 3:140), uitzonderlijk vermogensmutatie wanneer het bedrijf niet nauw geïntegreerd is in dat van de moeder. (c) Dochteronderneming waarover slechts controle in feite bestaat en waarvan opname het getrouwe beeld zou aantasten → buiten consolidatie, opname via vermogensmutatie (KB WVV art. 3:98 jo. art. 3:100).",
       "herkenningspunt": "De toepasselijke consolidatietechniek volgt uit het type controle, niet uit een vast percentage.",
       "confidence": "grounded",
-      "source": { "type": "kb", "short": "KB WVV art. 3:124 / 3:98 / 3:100" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:124 / 3:98 / 3:100"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_98", "sha256": null, "version": "rag-v1" },
-          { "id": "KB-WVV-2019__art_3_77", "sha256": null, "version": "rag-v1" },
-          { "id": "KB-WVV-2019__art_3_78", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_98",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_77",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_78",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -48,22 +144,40 @@
       "aspect": "Uitsluitingsgronden uit de consolidatie (KB WVV art. 3:97)",
       "betekenis": "Een dochteronderneming mág buiten de consolidatie worden gelaten in vier gevallen: (1) van te verwaarlozen betekenis (cumulatief beoordeeld bij meerdere kleine dochters); (2) ingrijpende en duurzame beperkingen op de uitoefening van de controlebevoegdheid of de aanwending van het vermogen; (3) gegevens niet zonder onevenredige kosten/vertraging beschikbaar; (4) aandelen uitsluitend met het oog op latere vervreemding gehouden. Toepassing moet in de toelichting worden gemotiveerd.",
       "confidence": "grounded",
-      "source": { "type": "kb", "short": "KB WVV art. 3:97" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:97"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_76", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_76",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
   ],
   "voorbeeld_inline": {
-    "text": "Vennootschap M bezit 90 % van de stemrechten in vennootschap D. D oefent een industriële activiteit uit. M heeft via stemrechtenmeerderheid de bevoegdheid om de meerderheid van de bestuurders aan te stellen. D is een dochteronderneming van M (onweerlegbaar vermoeden van controle in rechte, WVV art. 1:14, § 2). M moet D integraal opnemen in haar geconsolideerde jaarrekening; 10 % van het eigen vermogen en het resultaat van D wordt afgezonderd als belangen van derden (KB WVV art. 3:137).",
+    "text": "Vennootschap Aurelia Holding NV bezit 90 % van de stemrechten in Brugse Brouwerij BV. D oefent een industriële activiteit uit. Aurelia Holding NV heeft via stemrechtenmeerderheid de bevoegdheid om de meerderheid van de bestuurders aan te stellen. D is een dochteronderneming van Aurelia Holding NV (onweerlegbaar vermoeden van controle in rechte, WVV art. 1:14, § 2). M moet D integraal opnemen in haar geconsolideerde jaarrekening; 10 % van het eigen vermogen en het resultaat van Brugse Brouwerij BV wordt afgezonderd als belangen van derden (KB WVV art. 3:137).",
     "confidence": "inferred-from-aggregation",
-    "source": { "type": "synthese", "short": "WVV art. 1:14 jo. KB WVV art. 3:124, 3:137" },
+    "source": {
+      "type": "synthese",
+      "short": "WVV art. 1:14 jo. KB WVV art. 3:124, 3:137"
+    },
     "_provenance": {
       "inputs": [
-        { "id": "KB-WVV-2019__art_3_98", "sha256": null, "version": "rag-v1" },
-        { "id": "KB-WVV-2019__art_3_108", "sha256": null, "version": "rag-v1" }
+        {
+          "id": "KB-WVV-2019__art_3_98",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_108",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -74,25 +188,11 @@
       "trigger": "Toets de controlevraag: bestaat er beslissende invloed (al dan niet gezamenlijk)? Zo ja: dochter. Zo nee maar wel deelname aan beleid: geassocieerde.",
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    },
-    {
-      "vergelijking_met": "gemeenschappelijke-dochteronderneming",
-      "verschil": "Gemeenschappelijke dochter is een dochter onder gezamenlijke controle (meerdere vennoten samen). 'Dochteronderneming' tout court omvat zowel exclusief gecontroleerde dochters als gemeenschappelijke dochters.",
-      "_provenance": {
-        "inputs": [
-          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    },
-    {
-      "vergelijking_met": "consolidatiekring",
-      "verschil": "Een dochteronderneming is een entiteit; de consolidatiekring is de verzameling van entiteiten (consoliderende vennootschap + al haar dochters, eventueel uitgebreid via WVV art. 3:22). Niet elke dochter zit in de kring (vgl. KB WVV art. 3:97-3:99 uitsluitingsgronden).",
-      "_provenance": {
-        "inputs": [
-          { "id": "KB-WVV-2019__art_3_76", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
@@ -101,22 +201,80 @@
     {
       "text": "Verenigingen en stichtingen met commerciële, financiële of industriële activiteit zijn dochterondernemingen in de zin van WVV art. 3:22 zodra een vennootschap er controle over heeft. Onder het oude W.Venn. werden zij doorgaans uitgesloten — dit is sinds het WVV niet meer mogelijk.",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/09 — Consortium" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/09 — Consortium"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiekring", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiekring",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
       "text": "Een dochteronderneming die buiten de consolidatie wordt gelaten op grond van KB WVV art. 3:98 of 3:99 (controle in feite met aantasting van het getrouwe beeld; bepaalde uitsluitingsgronden) moet via de vermogensmutatiemethode worden opgenomen — niet zomaar uitgesloten worden.",
       "confidence": "grounded",
-      "source": { "type": "kb", "short": "KB WVV art. 3:100" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:100"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_78", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_78",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
+    }
+  ],
+  "edges": [
+    {
+      "type": "contrasteert-met",
+      "target": "gemeenschappelijke-dochteronderneming",
+      "redenering": "Gemeenschappelijke dochter is een dochter onder gezamenlijke controle (meerdere vennoten samen). 'Dochteronderneming' tout court omvat zowel exclusief gecontroleerde dochters als gemeenschappelijke dochters.",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "contrasteert-met",
+      "target": "consolidatiekring",
+      "redenering": "Een dochteronderneming is een entiteit; de consolidatiekring is de verzameling van entiteiten (moedervennootschap + al haar dochters, eventueel uitgebreid via WVV art. 3:22). Niet elke dochter zit in de kring (vgl. KB WVV art. 3:97",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_76",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "consolidatiekring",
+      "redenering": "Dochteronderneming is een actor in de consolidatiekring.",
+      "confidence": "inferred"
     }
   ]
 }

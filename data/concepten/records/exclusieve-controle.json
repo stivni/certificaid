@@ -2,51 +2,117 @@
   "id": "exclusieve-controle",
   "naam": "Exclusieve controle",
   "node_type": "begrip",
-  "schema_version": "1.2",
+  "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.C", "1.4.I.B", "1.4.I.D", "1.4.taak.1"],
+  "linked_anchors": [
+    "1.4.I.C",
+    "1.4.I.B",
+    "1.4.I.D",
+    "1.4.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.C",
-    "dekt_ook_anchors": ["1.4.I.B", "1.4.I.D", "1.4.taak.1"],
+    "dekt_ook_anchors": [
+      "1.4.I.B",
+      "1.4.I.D",
+      "1.4.taak.1"
+    ],
     "reviewed_by": null,
     "enrich_runs": [
       {
         "run_id": "enrich-run-20260515T141848Z",
         "model": "claude-opus-4-7",
-        "gaps_verwerkt": ["in_praktijk.ontbreekt"],
+        "gaps_verwerkt": [
+          "in_praktijk.ontbreekt"
+        ],
         "uitgevoerd_op": "2026-05-15T15:00:00+00:00"
       }
-    ]
+    ],
+    "schema_1_4_migration": {
+      "uitgevoerd_op": "2026-05-16T00:11Z",
+      "tool": "migrate_schema_1_4.py",
+      "scope": "structureel (bouwsteen-blok, formules[], stap-blok-skelet, edges)",
+      "pending_mens_review": [
+        "stagiair-toon-rewrite (regel 6)",
+        "cast-namen in voorbeelden (regel 7)",
+        "stap.hoe + voorbeeld.substappen invullen (regel 8)",
+        "atomaire formule-split + variabelen + invulling_voorbeeld (regel 12)",
+        "synthese-voorbeelden bij voorbeeld-minimum-gaps (regel 14 bron 3)"
+      ]
+    },
+    "jargon_pass3": {
+      "uitgevoerd_op": "2026-05-16T00:17Z",
+      "tool": "jargon_pass3.py",
+      "scope": "deterministische jargon-substituties + cast-namen in voorbeeld-velden (regels 6 + 7)",
+      "aantal_substituties": 1,
+      "voorbeelden": [
+        {
+          "pad": ".in_praktijk[0].betekenis",
+          "oude_term": "actief- en passiefbestanddelen",
+          "nieuwe_term": "bezittingen en schulden"
+        }
+      ]
+    }
   },
   "definitie": {
     "text": "De controle die één vennootschap alleen uitoefent over een andere vennootschap, in tegenstelling tot gezamenlijke controle waarbij meerdere vennoten samen beslissen. Exclusieve controle wordt onweerlegbaar vermoed wanneer een vennootschap rechtstreeks of via dochterondernemingen meer dan de helft van de stemrechten verbonden aan de aandelen van een andere vennootschap bezit, of het recht heeft om de meerderheid van de bestuurders te benoemen of te ontslaan.",
     "confidence": "inferred-from-aggregation",
-    "source": { "type": "wet", "short": "WVV art. 1:14, § 2 jo. art. 1:16" },
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 1:14, § 2 jo. art. 1:16"
+    },
     "references": [
-      { "type": "wet", "short": "WVV art. 1:14, § 2" },
-      { "type": "wet", "short": "WVV art. 1:16" },
-      { "type": "kb", "short": "KB WVV art. 3:124" },
-      { "type": "advies", "short": "CBN 2022/03 — Beoordeling groottecriteria" }
+      {
+        "type": "wet",
+        "short": "WVV art. 1:14, § 2"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 1:16"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:124"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2022/03 — Beoordeling groottecriteria"
+      }
     ],
     "_provenance": {
       "inputs": [
-        { "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_consolidatie-moedervennootschap", "sha256": null, "version": "rag-v1" },
-        { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" }
+        {
+          "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_consolidatie-moedervennootschap",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
   "in_praktijk": [
     {
       "aspect": "Gevolg voor consolidatiemethode",
-      "betekenis": "Exclusieve controle triggert verplichte integrale consolidatie van de dochteronderneming (KB WVV art. 3:124, 1°). Alle actief- en passiefbestanddelen, rechten en verplichtingen, opbrengsten en kosten worden integraal opgenomen; het deel buiten de groep wordt afgezonderd als belangen van derden.",
+      "betekenis": "Exclusieve controle triggert verplichte integrale consolidatie van de dochteronderneming (KB WVV art. 3:124, 1°). Alle bezittingen en schulden, rechten en verplichtingen, opbrengsten en kosten worden integraal opgenomen; het deel buiten de groep wordt afgezonderd als belangen van derden.",
       "herkenningspunt": "Examenopgave: 'M bezit 80 % van de stemrechten van D' → exclusieve controle in rechte → integrale consolidatie van D in M.",
       "confidence": "grounded",
-      "source": { "type": "kb", "short": "KB WVV art. 3:124, 1°" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:124, 1°"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_98", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_98",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -55,12 +121,27 @@
       "betekenis": "Controle in rechte = juridisch onweerlegbaar vermoeden, gegrond op het bezit van meer dan de helft van de stemrechten of op een statutair/contractueel recht om de meerderheid van de bestuurders te benoemen of te ontslaan. Controle in feite = afgeleid uit het feitelijk patroon van stembesluiten en bestuursbenoemingen, zonder dat aan een van de onweerlegbare vermoedens is voldaan. CBN 2022/09 verwijst expliciet naar 'een aantal wettelijke vermoedens' van centrale leiding/controle; ook zonder die vermoedens kan exclusieve controle bestaan. Examenrelevantie: een opgave die zwijgt over een formele meerderheid maar aangeeft dat 'M telkens alle bestuurders heeft kunnen doen benoemen' wijst op controle in feite — niet op gezamenlijke controle (die vereist een overeenkomst, zie CBN 2017/02).",
       "herkenningspunt": "Geen formele >50 %-meerderheid maar dominante invloed op besluitvorming → toets aan controle in feite (KB WVV art. 3:98 jo. WVV art. 1:14, § 2).",
       "confidence": "inferred-from-aggregation",
-      "source": { "type": "advies", "short": "CBN 2022/09; CBN 2017/02" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/09; CBN 2017/02"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" },
-          { "id": "KB-WVV-2019__art_3_77", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_77",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -69,11 +150,22 @@
       "betekenis": "Wanneer een vennootschap controle in feite bezit over een dochter, maar de opname van die dochter in de integrale consolidatie zou indruisen tegen het beginsel van het getrouwe beeld (KB WVV art. 3:105), wordt die dochter buiten de consolidatie gelaten (KB WVV art. 3:98). De toepassing moet worden vermeld en gemotiveerd in de toelichting. Zulke dochters worden volgens CBN 2013/3 én CBN 2022/11 verwerkt volgens de vermogensmutatiemethode. Exclusieve controle 'in feite' leidt dus niet altijd tot integrale consolidatie.",
       "herkenningspunt": "Controle in feite + getrouw beeld in gedrang → uitsluiting (KB WVV art. 3:98) + vermogensmutatie (CBN 2013/3, CBN 2022/11) + motivering in de toelichting.",
       "confidence": "grounded",
-      "source": { "type": "kb", "short": "KB WVV art. 3:98 jo. CBN 2013/3 en CBN 2022/11" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:98 jo. CBN 2013/3 en CBN 2022/11"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_77", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_77",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -82,11 +174,22 @@
       "betekenis": "Wanneer exclusieve controle wordt vastgesteld, kwalificeert de controlerende vennootschap als moedervennootschap (KB WVV art. 3:96 jo. art. 3:124, 1°). De groottecriteria van WVV art. 1:24 worden dan op geconsolideerde basis (of geaggregeerde basis +20 %) beoordeeld — niet op enkelvoudige basis. Een vennootschap die uitsluitend wegens haar deelneming in een gemeenschappelijke dochter een moedervennootschap is (gezamenlijke controle), maar geen exclusieve controle uitoefent over geen enkele andere vennootschap, beoordeelt de groottecriteria eveneens op geconsolideerde basis (CBN 2017/02 voorbeeld 2). Bij twijfel: ga eerst na welke vorm van controle aanwezig is.",
       "herkenningspunt": "Exclusieve controle vastgesteld → moedervennootschap → groottecriteria op geconsolideerde of geaggregeerde basis (niet op enkelvoudige basis).",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/03; CBN 2017/02 voorbeeld 2" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/03; CBN 2017/02 voorbeeld 2"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_consolidatie-moedervennootschap", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_voorbeeld-2", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_consolidatie-moedervennootschap",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_voorbeeld-2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
@@ -95,30 +198,51 @@
     {
       "text": "Bezit (rechtstreeks of via dochters) van meer dan de helft van de stemrechten — onweerlegbaar vermoeden van controle in rechte.",
       "confidence": "inferred-from-aggregation",
-      "source": { "type": "wet", "short": "WVV art. 1:14, § 2, 1°" },
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:14, § 2, 1°"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
       "text": "Statutaire of contractuele macht om de meerderheid van de bestuurders of zaakvoerders te benoemen of te ontslaan.",
       "confidence": "inferred-from-aggregation",
-      "source": { "type": "wet", "short": "WVV art. 1:14, § 2" },
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:14, § 2"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
       "text": "Controle in feite — afgeleid uit het feit dat de vennootschap met haar effectieve stemrechten gedurende de twee laatste algemene vergaderingen de meerderheid van de bestuurders heeft kunnen aanstellen.",
       "confidence": "inferred",
-      "source": { "type": "wet", "short": "WVV art. 1:14, § 2 (controle in feite)" },
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:14, § 2 (controle in feite)"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_77", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_77",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
@@ -130,16 +254,11 @@
       "trigger": "Cruciale vraag: bestaat een overeenkomst dat beleidsbeslissingen alleen samen mogen worden genomen? Zo ja: gezamenlijke controle; anders: exclusieve controle of geen controle.",
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    },
-    {
-      "vergelijking_met": "invloed-van-betekenis",
-      "verschil": "Exclusieve controle = beslissende invloed (eenzijdig sturen); invloed van betekenis = significante maar niet beslissende invloed (deelname zonder dominantie). Drempelmatig: > 50 % → controle (in rechte); 20–50 % → vermoeden van invloed van betekenis.",
-      "_provenance": {
-        "inputs": [
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
@@ -150,11 +269,18 @@
       "waarde": "> 50 %",
       "eenheid": "stemrechten",
       "gevolg": "Onweerlegbaar vermoeden van exclusieve controle → moedervennootschap → integrale consolidatie van de dochter.",
-      "source": { "type": "wet", "short": "WVV art. 1:14, § 2, 1°" },
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:14, § 2, 1°"
+      },
       "confidence": "inferred-from-aggregation",
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
@@ -163,12 +289,45 @@
     {
       "text": "Bij exact 50 % zonder stemovereenkomst is er géén exclusieve controle. Het loutere bezit van precies de helft van de stemrechten is onvoldoende; de wet eist 'meer dan de helft'.",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2017/02 — geval 2" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2017/02 — geval 2"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
+    }
+  ],
+  "edges": [
+    {
+      "type": "contrasteert-met",
+      "target": "invloed-van-betekenis",
+      "redenering": "Exclusieve controle = beslissende invloed (eenzijdig sturen); invloed van betekenis = significante maar niet beslissende invloed (deelname zonder dominantie). Drempelmatig: > 50 % → controle (in rechte); 20–50 % → vermoeden van invloed van ",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "specialisatie-van",
+      "target": "controle",
+      "redenering": "Specifieke vorm van controle (door één partij uitgeoefend).",
+      "confidence": "inferred"
     }
   ]
 }

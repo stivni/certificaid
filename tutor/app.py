@@ -36,12 +36,12 @@ from lib.retrieval import (
     RetrievalResult,
 )
 
-# CHROMA_PATH: leesbaar via env-var zodat je makkelijk wisselt tussen POC en volledig.
-# Standaard = chroma_db_4.0 (POC, gevuld). Zet CERTIFICAID_CHROMA_PATH voor productie.
+# CHROMA_PATH: leesbaar via env-var. Standaard = data/rag/main (unified index, ADR-006).
 _chroma_env = os.environ.get("CERTIFICAID_CHROMA_PATH")
-CHROMA_PATH   = Path(_chroma_env) if _chroma_env else ROOT / "data" / "chroma_db_4.0"
-PATTERNS_DIR  = ROOT / "data" / "exam_patterns"
-QUESTIONS_DIR = ROOT / "data" / "generated_questions"
+CHROMA_PATH   = Path(_chroma_env) if _chroma_env else ROOT / "data" / "rag" / "main"
+PATTERNS_DIR  = ROOT / "data" / "programma" / "exam_patterns"
+QUESTIONS_DIR = ROOT / "data" / "programma" / "gegenereerde_vragen"
+CONCEPTEN_DIR = ROOT / "content" / "concepten"
 CLAUDE_MODEL  = "claude-sonnet-4-6"
 
 # ADR-006: twee collections
@@ -73,6 +73,26 @@ Stijl:
 - Conclusie: één vetgedrukte zin met het antwoord.
 - Grondslag: welke wet/artikel/norm is van toepassing?
 - Redenering: waarom geldt deze conclusie in de gegeven situatie?
+"""
+
+EXPLAIN_SYSTEM_PROMPT = """Je bent een didactische studietutor voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant.
+
+Je legt een concept stap voor stap uit aan een stagiair GA/GBA met boekhoudkundige en fiscale basiskennis — geen jurist. Doel: het concept écht laten begrijpen, niet alleen feiten opsommen.
+
+Structuur:
+1. **Kern in één zin** — wat is het, in gewone taal.
+2. **Waarom bestaat dit?** — welk probleem lost de regel op? (intuïtie boven jargon)
+3. **Bouwstenen** — de onderliggende voorwaarden of elementen, één per één.
+4. **Hoe herken je het in een casus** — concrete signalen, met een mini-voorbeeld.
+5. **Veelgemaakte fouten / valkuilen** — wat verwart studenten meestal? Welke uitzonderingen worden gemist?
+6. **Checkvraag** — één korte vraag die de gebruiker uitnodigt om het concept toe te passen (geen antwoord geven).
+
+Regels:
+- Elke feitelijke claim krijgt een bronverwijzing (wet/artikel, CBN-advies, ITAA-norm) met ⚖️.
+- Eigen redenering / didactische illustraties: label met 🤖.
+- Gebruik de aangeleverde concept-fiche als ruggengraat — het meeste staat daar al klaar.
+- Schrijf in het Nederlands. Korte zinnen. Geen jargon zonder uitleg.
+- Eindig altijd met de checkvraag — niet met een samenvatting.
 """
 
 
@@ -232,7 +252,8 @@ def get_claude():
 
 
 def ask_claude_stream(client: anthropic.Anthropic, question: str, context: str,
-                      history: list[dict]):
+                      history: list[dict], system_prompt: str = SYSTEM_PROMPT,
+                      max_tokens: int = 2048):
     """
     Generator die Claude's antwoord token voor token streamt.
     Gebruik met st.write_stream() voor directe weergave terwijl Claude nog schrijft.
@@ -253,155 +274,283 @@ Aangeleverde bronnen (gebruik deze als primaire referentie):
 
     with client.messages.stream(
         model=CLAUDE_MODEL,
-        max_tokens=2048,
-        system=SYSTEM_PROMPT,
+        max_tokens=max_tokens,
+        system=system_prompt,
         messages=messages,
     ) as stream:
         yield from stream.text_stream
 
 
 # ---------------------------------------------------------------------------
-# Patroonbibliotheek laden
+# Patroonbibliotheek laden — nieuw schema (vraagvormen + complexiteitspatronen)
 # ---------------------------------------------------------------------------
 
 @st.cache_data(ttl=300)
-def load_patterns() -> list[dict]:
-    """Laad alle examenpatronen uit data/programma/exam_patterns/."""
-    patterns = []
-    if PATTERNS_DIR.exists():
-        for f in sorted(PATTERNS_DIR.glob("*.json")):
-            try:
-                patterns.append(json.loads(f.read_text()))
-            except Exception:
-                pass
-    return patterns
-
-
-def select_patterns_for_concept(patterns: list[dict], concept: str,
-                                 po_filter: str) -> list[dict]:
-    """Kies de meest relevante patronen voor een concept en PO."""
-    if not patterns:
+def load_vraagvormen() -> list[dict]:
+    """Laad data/programma/exam_patterns/vraagvormen.json (10 vraagvormen)."""
+    f = PATTERNS_DIR / "vraagvormen.json"
+    if not f.exists():
+        return []
+    try:
+        return json.loads(f.read_text()).get("vraagvormen", [])
+    except Exception:
         return []
 
-    concept_lower = concept.lower()
-    relevant = []
-    for p in patterns:
-        score = 0
-        # Match op thema's
-        for thema in p.get("typische_themas", []):
-            if thema.lower() in concept_lower or concept_lower in thema.lower():
-                score += 2
-        # Match op PO
-        if po_filter and po_filter != "Alle PO's":
-            if po_filter in p.get("pos_geobserveerd", []):
-                score += 1
-        # Alle patronen zijn relevant als fallback
-        relevant.append((score, p))
 
-    relevant.sort(key=lambda x: x[0], reverse=True)
-    # Geef top-3 terug, maar minstens 1 van elk cognitief niveau indien beschikbaar
-    selected = [p for _, p in relevant[:3]]
-    return selected
+@st.cache_data(ttl=300)
+def load_complexiteitspatronen() -> list[dict]:
+    """Laad data/programma/exam_patterns/complexiteitspatronen.json (15 patronen)."""
+    f = PATTERNS_DIR / "complexiteitspatronen.json"
+    if not f.exists():
+        return []
+    try:
+        return json.loads(f.read_text()).get("complexiteitspatronen", [])
+    except Exception:
+        return []
+
+
+def _format_vraagvormen_for_prompt(vraagvormen: list[dict]) -> str:
+    """Compacte tekstuele lijst voor in de prompt."""
+    lines = []
+    for v in vraagvormen:
+        lines.append(
+            f"- `{v['id']}` — {v['naam']} ({v.get('cognitieve_laag', '?')})\n"
+            f"  Format: {v.get('format', '')[:160]}"
+        )
+    return "\n".join(lines)
+
+
+def _format_complexiteit_for_prompt(patronen: list[dict]) -> str:
+    """Compacte tekstuele lijst voor in de prompt."""
+    lines = []
+    for p in patronen:
+        lines.append(
+            f"- `{p['id']}` — {p['naam']} "
+            f"(kennisdiepte={p.get('kennisdiepte','?')}, camouflage={p.get('camouflage','?')})\n"
+            f"  {p.get('beschrijving', '')[:180]}"
+        )
+    return "\n".join(lines)
 
 
 # ---------------------------------------------------------------------------
-# Case generator (patroonbewust)
+# Case generator — auto-patroon (Claude kiest vraagvorm + complexiteit)
 # ---------------------------------------------------------------------------
 
 def generate_case(client: anthropic.Anthropic, concept: str, po_filter: str,
                   collections: dict, active_reranker,
-                  patroon: dict | None = None) -> tuple[str, str]:
+                  vraagvormen: list[dict], complexiteitspatronen: list[dict],
+                  ) -> tuple[str, str, dict]:
     """
-    Genereer een examenvraag. Geeft (vraag_tekst, gvraag_id) terug.
-    Als patroon opgegeven: gebruik dat patroon als template.
-    active_reranker: CrossEncoder of None (reranker al resolved door de aanroeper).
+    Genereer een realistische examenvraag.
+
+    Claude kiest zelf:
+      - één `vraagvorm` (formaat: MC, J/F, open, berekening, ...)
+      - één `complexiteitspatroon` (kennisdiepte + camouflage)
+
+    Retourneert (volledige_tekst, gvraag_id, gekozen_patroon_dict).
     """
     chunks, _ = retrieve_two_pass(collections, active_reranker, concept)
-    context = format_context(chunks, max_chars=3000)
+    context = format_context(chunks, max_chars=3500)
 
-    if patroon:
-        patroon_instructie = f"""
-Gebruik het volgende **examenpatroon** als template voor de vraagstelling:
+    vraagvormen_blok = _format_vraagvormen_for_prompt(vraagvormen)
+    complex_blok = _format_complexiteit_for_prompt(complexiteitspatronen)
 
-Patroon: **{patroon['naam']}**
-Beschrijving: {patroon['beschrijving']}
-Vraagtype: {', '.join(patroon.get('vraagtypen', []))}
-Cognitieve laag: {patroon.get('cognitieve_laag', '')}
-Typische formulering: {'; '.join(patroon.get('typische_formulering', [])[:2])}
-Valkuil die het patroon uitlokt: {patroon.get('valkuil', '')}
+    po_hint = f" (programmaonderdeel {po_filter})" if po_filter and po_filter != "Alle PO's" else ""
 
-De vraag moet dit patroon volgen — niet alleen het onderwerp behandelen, maar ook de manier van vragen nabootsen.
-"""
-    else:
-        patroon_instructie = "Kies zelf een passend vraagtype (J/F, MC, open, berekening) op integratieniveau."
+    prompt = f"""Genereer één realistische examenvraag voor het ITAA-bekwaamheidsexamen over:
+**{concept}**{po_hint}
 
-    prompt = f"""Genereer een realistische examenvraag voor het ITAA-bekwaamheidsexamen over: **{concept}**
+Beschikbare **vraagvormen** (kies precies één — gebruik exact het `id`):
+{vraagvormen_blok}
 
-{patroon_instructie}
+Beschikbare **complexiteitspatronen** (kies precies één — gebruik exact het `id`):
+{complex_blok}
 
-Gebruik de aangeleverde bronnen voor feitelijke correctheid.
-Schrijf in het Nederlands.
+Stappen:
+1. Kies de meest passende vraagvorm + complexiteitspatroon voor dit concept.
+2. Bouw de vraag volgens dat vraagvorm-formaat en met de gekozen camouflage/diepte.
+3. Schrijf in het Nederlands. Gebruik de bronnen voor feitelijke correctheid.
 
-Formaat (verplicht):
-**Situatie**: [concrete casus of context, 2-4 zinnen]
-**Vraag**: [de eigenlijke examenvraaag]
-**Antwoord**: [volledig antwoord: conclusie → grondslag → redenering]
+Antwoord exact in dit formaat (verplicht, geen extra inleiding):
+
+**Vraagvorm**: <vraagvorm-id>
+**Complexiteit**: <complexiteitspatroon-id>
+**Motivering keuze**: <1-2 zinnen waarom deze combinatie past>
+
+**Situatie**: <concrete casus, 2-4 zinnen — of leeg bij abstracte feitenvraag>
+**Vraag**: <de eigenlijke examenvraag>
+**Antwoord**: <volledig antwoord: conclusie → grondslag (wet/norm/advies) → redenering>
 
 Bronnen:
 {context}"""
 
     response = client.messages.create(
         model=CLAUDE_MODEL,
-        max_tokens=1500,
+        max_tokens=2000,
         messages=[{"role": "user", "content": prompt}],
     )
     generated_text = response.content[0].text
 
-    # Sla op als generated_question JSON
-    gvraag_id = _save_generated_question(concept, po_filter, patroon, generated_text)
+    gekozen = _extract_chosen_patterns(generated_text, vraagvormen, complexiteitspatronen)
+    gvraag_id = _save_generated_question(concept, po_filter, gekozen, generated_text)
+    return generated_text, gvraag_id, gekozen
 
-    return generated_text, gvraag_id
+
+def _extract_chosen_patterns(text: str, vraagvormen: list[dict],
+                              complexiteitspatronen: list[dict]) -> dict:
+    """Haal de door Claude gekozen vraagvorm + complexiteitspatroon uit de output."""
+    vv_match = re.search(r"\*\*Vraagvorm\*\*:\s*`?([\w-]+)`?", text)
+    cx_match = re.search(r"\*\*Complexiteit\*\*:\s*`?([\w-]+)`?", text)
+    vv_id = vv_match.group(1) if vv_match else None
+    cx_id = cx_match.group(1) if cx_match else None
+    return {
+        "vraagvorm_id": vv_id,
+        "vraagvorm": next((v for v in vraagvormen if v["id"] == vv_id), None),
+        "complexiteit_id": cx_id,
+        "complexiteit": next((p for p in complexiteitspatronen if p["id"] == cx_id), None),
+    }
 
 
-def _save_generated_question(concept: str, po_filter: str, patroon: dict | None,
+def _save_generated_question(concept: str, po_filter: str, gekozen: dict,
                                generated_text: str) -> str:
     """Sla de gegenereerde vraag op als JSON."""
-    import re as _re
     from datetime import date as _date
 
     QUESTIONS_DIR.mkdir(parents=True, exist_ok=True)
 
-    slug = _re.sub(r"[^a-z0-9]", "-", concept.lower())[:40].strip("-")
+    slug = re.sub(r"[^a-z0-9]", "-", concept.lower())[:40].strip("-")
     existing = list(QUESTIONS_DIR.glob(f"gvraag-{slug}-*.json"))
     idx = len(existing) + 1
     gvraag_id = f"gvraag:{slug}-{idx:03d}"
     filename = f"gvraag-{slug}-{idx:03d}.json"
 
-    # Extraheer vraag en antwoord uit de gegenereerde tekst
-    vraag_match = _re.search(r"\*\*Vraag\*\*:(.*?)(?=\*\*Antwoord\*\*|$)", generated_text, _re.DOTALL)
-    antwoord_match = _re.search(r"\*\*Antwoord\*\*:(.*)", generated_text, _re.DOTALL)
+    vraag_match = re.search(r"\*\*Vraag\*\*:(.*?)(?=\*\*Antwoord\*\*|$)", generated_text, re.DOTALL)
+    antwoord_match = re.search(r"\*\*Antwoord\*\*:(.*)", generated_text, re.DOTALL)
+    situatie_match = re.search(r"\*\*Situatie\*\*:(.*?)(?=\*\*Vraag\*\*|$)", generated_text, re.DOTALL)
+
+    vraagvorm = gekozen.get("vraagvorm") or {}
 
     record = {
         "id": gvraag_id,
         "concept_id": f"concept:{slug}",
         "po": po_filter if po_filter != "Alle PO's" else None,
-        "patroon_id": patroon["id"] if patroon else None,
-        "patroon_versie": patroon["versie"] if patroon else None,
-        "vraagtype": patroon["vraagtypen"][0] if patroon and patroon.get("vraagtypen") else "open",
-        "cognitieve_laag": patroon.get("cognitieve_laag") if patroon else "integratie",
+        "vraagvorm_id": gekozen.get("vraagvorm_id"),
+        "complexiteit_id": gekozen.get("complexiteit_id"),
+        "cognitieve_laag": vraagvorm.get("cognitieve_laag"),
+        "situatie": situatie_match.group(1).strip() if situatie_match else None,
         "vraag": vraag_match.group(1).strip() if vraag_match else generated_text,
         "antwoord": antwoord_match.group(1).strip() if antwoord_match else "",
         "gegenereerd_op": _date.today().isoformat(),
         "gegenereerd_door": CLAUDE_MODEL,
         "status": "actief",
-        "herzieningsstatus": None,
-        "herzieningsreden": None,
     }
 
     (QUESTIONS_DIR / filename).write_text(
         json.dumps(record, ensure_ascii=False, indent=2)
     )
     return gvraag_id
+
+
+# ---------------------------------------------------------------------------
+# Concept-fiches uit content/concepten/ (Leg me uit-modus)
+# ---------------------------------------------------------------------------
+
+@st.cache_data(ttl=300)
+def load_concept_fiches_index() -> list[dict]:
+    """
+    Scan content/concepten/*.md en geef een index met {slug, title, path, tags, pos}.
+    Frontmatter wordt minimaal geparsed (geen externe afhankelijkheid).
+    """
+    fiches = []
+    if not CONCEPTEN_DIR.exists():
+        return fiches
+    for f in sorted(CONCEPTEN_DIR.glob("*.md")):
+        meta, _ = _parse_fiche(f)
+        fiches.append({
+            "slug": f.stem,
+            "title": meta.get("title", f.stem),
+            "path": f,
+            "tags": meta.get("tags", []),
+            "programmaonderdelen": meta.get("programmaonderdelen", []),
+            "node_type": meta.get("node_type", ""),
+        })
+    return fiches
+
+
+def _parse_fiche(path: Path) -> tuple[dict, str]:
+    """Parse YAML-frontmatter + body uit een markdown-fiche. Geen yaml-dep nodig."""
+    text = path.read_text()
+    if not text.startswith("---\n"):
+        return {}, text
+    end = text.find("\n---\n", 4)
+    if end == -1:
+        return {}, text
+    fm_raw = text[4:end]
+    body = text[end + 5:]
+
+    meta: dict = {}
+    current_list_key: str | None = None
+    for line in fm_raw.splitlines():
+        if not line.strip():
+            current_list_key = None
+            continue
+        if line.startswith("- ") and current_list_key:
+            val = line[2:].strip().strip("'\"")
+            meta[current_list_key].append(val)
+        elif ":" in line and not line.startswith(" "):
+            key, _, val = line.partition(":")
+            key = key.strip()
+            val = val.strip()
+            if val == "":
+                meta[key] = []
+                current_list_key = key
+            else:
+                meta[key] = val.strip("'\"")
+                current_list_key = None
+    return meta, body
+
+
+def find_relevant_fiches(query: str, fiches: list[dict], max_n: int = 3) -> list[dict]:
+    """
+    Eenvoudige slug/title-match. Geen embedding nodig — slug-overlap volstaat naast de RAG-pass.
+    """
+    q = query.lower()
+    q_tokens = [t for t in re.split(r"[^a-zà-ÿ0-9]+", q) if len(t) >= 4]
+    scored = []
+    for fi in fiches:
+        slug = fi["slug"].lower()
+        title = fi["title"].lower()
+        score = 0
+        if q in slug or slug in q:
+            score += 5
+        if q in title or title in q:
+            score += 4
+        for tok in q_tokens:
+            if tok in slug:
+                score += 2
+            if tok in title:
+                score += 1
+        if score > 0:
+            scored.append((score, fi))
+    scored.sort(key=lambda x: x[0], reverse=True)
+    return [fi for _, fi in scored[:max_n]]
+
+
+def format_fiche_context(fiches_paths: list[Path], max_chars: int = 6000) -> str:
+    """Lees fiches en concateneer body's met een korte header per fiche."""
+    parts = []
+    total = 0
+    for p in fiches_paths:
+        meta, body = _parse_fiche(p)
+        title = meta.get("title", p.stem)
+        block = f"### Concept-fiche: {title} (`{p.stem}`)\n\n{body.strip()}"
+        if total + len(block) > max_chars:
+            block = block[: max_chars - total]
+        parts.append(block)
+        total += len(block)
+        if total >= max_chars:
+            break
+    return "\n\n---\n\n".join(parts)
 
 
 # ---------------------------------------------------------------------------
@@ -443,7 +592,7 @@ def main():
 
         modus = st.radio(
             "Modus",
-            ["Vraag & Antwoord", "Examenvraag genereren", "Concept opzoeken"],
+            ["Vraag & Antwoord", "Leg me uit", "Examenvraag genereren", "Concept opzoeken"],
         )
 
         st.divider()
@@ -531,59 +680,120 @@ def main():
                 "sources": sources_display,
             })
 
+    # --- Modus: Leg me uit ---
+    elif modus == "Leg me uit":
+        st.subheader("🪄 Leg me uit")
+        st.caption(
+            "Vrije tekst → de tutor zoekt relevante concept-fiches en bronnen, en geeft "
+            "een stap-voor-stap didactische uitleg met checkvraag."
+        )
+
+        if uitleg_prompt := st.chat_input("Welk concept of welke regel moet ik uitleggen?"):
+            with st.chat_message("user"):
+                st.markdown(uitleg_prompt)
+            st.session_state.messages.append({"role": "user", "content": uitleg_prompt})
+
+            active_reranker = reranker if gebruik_reranker else None
+
+            with st.spinner("Concepten en bronnen zoeken..."):
+                # 1. RAG-pass (concept-collectie + bronnen)
+                chunks, _mode = retrieve_two_pass(
+                    collections, active_reranker, uitleg_prompt,
+                    po_filter=po_filter if po_filter != "Alle PO's" else None,
+                    bron_rollen=actieve_bron_rollen,
+                )
+                # 2. Slug/title-match op de 30 concept-fiches in content/concepten/
+                fiches_index = load_concept_fiches_index()
+                matched_fiches = find_relevant_fiches(uitleg_prompt, fiches_index, max_n=2)
+
+            bronnen_context = format_context(chunks, max_chars=5000)
+            fiche_context = format_fiche_context([f["path"] for f in matched_fiches])
+
+            combined_context_parts = []
+            if fiche_context:
+                combined_context_parts.append(
+                    "## Beschikbare concept-fiches (primaire ruggengraat)\n\n" + fiche_context
+                )
+            if bronnen_context:
+                combined_context_parts.append(
+                    "## Aanvullende bronnen (wet/norm/advies)\n\n" + bronnen_context
+                )
+            full_context = "\n\n=====\n\n".join(combined_context_parts) or "(geen)"
+
+            sources_display = format_sources_display(chunks)
+            if matched_fiches:
+                sources_display = (
+                    "**Concept-fiches:**\n"
+                    + "\n".join(f"- 📘 {fi['title']} (`{fi['slug']}`)" for fi in matched_fiches)
+                    + "\n\n**Bronnen:**\n"
+                    + sources_display
+                )
+
+            with st.chat_message("assistant"):
+                history = [m for m in st.session_state.messages[:-1]]
+                answer = st.write_stream(
+                    ask_claude_stream(
+                        claude, uitleg_prompt, full_context, history,
+                        system_prompt=EXPLAIN_SYSTEM_PROMPT,
+                        max_tokens=2500,
+                    )
+                )
+                with st.expander("📎 Gebruikte bronnen"):
+                    st.markdown(sources_display)
+
+            st.session_state.messages.append({
+                "role": "assistant",
+                "content": answer,
+                "sources": sources_display,
+            })
+
     # --- Modus: Examenvraag genereren ---
     elif modus == "Examenvraag genereren":
         st.subheader("Examenvraag genereren")
+        st.caption(
+            "Claude kiest zelf een passende vraagvorm (10) en complexiteitspatroon (15) "
+            "op basis van het concept en de bronnen."
+        )
 
-        patterns = load_patterns()
+        vraagvormen = load_vraagvormen()
+        complexiteitspatronen = load_complexiteitspatronen()
+
+        if not vraagvormen or not complexiteitspatronen:
+            st.warning(
+                "⚠️ `data/programma/exam_patterns/vraagvormen.json` of "
+                "`complexiteitspatronen.json` ontbreekt."
+            )
 
         concept_input = st.text_input(
             "Concept of onderwerp",
-            placeholder="bv. 'btw-vrijstelling kleine onderneming'",
+            placeholder="bv. 'consolidatiekring' of 'btw-vrijstelling kleine onderneming'",
         )
 
-        # Patroonkeuze
-        patroon_keuze = None
-        if patterns:
-            patroon_namen = ["Automatisch (beste match)"] + [p["naam"] for p in patterns]
-            patroon_select = st.selectbox(
-                "Examenpatroon",
-                patroon_namen,
-                help="Kies een patroon om de vraagstijl te sturen, of laat automatisch kiezen.",
-            )
-
-            if patroon_select != "Automatisch (beste match)":
-                patroon_keuze = next((p for p in patterns if p["naam"] == patroon_select), None)
-            elif concept_input:
-                matches = select_patterns_for_concept(patterns, concept_input, po_filter)
-                patroon_keuze = matches[0] if matches else None
-
-            if patroon_keuze:
-                with st.expander(f"ℹ️ Patroon: {patroon_keuze['naam']}"):
-                    st.markdown(f"**{patroon_keuze['beschrijving']}**")
-                    st.markdown(f"Cognitieve laag: `{patroon_keuze.get('cognitieve_laag', '?')}`")
-                    st.markdown(f"Valkuil: _{patroon_keuze.get('valkuil', '?')}_")
-        else:
-            st.info("💡 Geen examenpatronen geladen. Run `python tools/examen/extract_exam_patterns.py` om patronen te extraheren.")
-
-        if st.button("Genereer oefenvraag", disabled=not concept_input):
+        if st.button("Genereer oefenvraag",
+                     disabled=not concept_input or not vraagvormen or not complexiteitspatronen):
             with st.spinner("Vraag genereren..."):
-                case_text, gvraag_id = generate_case(
+                case_text, gvraag_id, gekozen = generate_case(
                     claude, concept_input, po_filter, collections,
                     reranker if gebruik_reranker else None,
-                    patroon_keuze,
+                    vraagvormen, complexiteitspatronen,
                 )
 
             st.markdown("---")
-            if patroon_keuze:
-                st.caption(f"Patroon: **{patroon_keuze['naam']}** · `{gvraag_id}`")
+            vv = gekozen.get("vraagvorm")
+            cx = gekozen.get("complexiteit")
+            if vv or cx:
+                bits = []
+                if vv:
+                    bits.append(f"Vraagvorm: **{vv['naam']}**")
+                if cx:
+                    bits.append(f"Complexiteit: **{cx['naam']}**")
+                st.caption(" · ".join(bits) + f" · `{gvraag_id}`")
 
-            # Toon situatie + vraag (niet het antwoord)
+            # Toon meta + situatie + vraag (niet het antwoord)
             antwoord_pos = case_text.find("**Antwoord**")
             vraag_deel = case_text[:antwoord_pos].strip() if antwoord_pos > 0 else case_text
             st.markdown(vraag_deel)
 
-            # Antwoord achter klik
             with st.expander("💡 Toon antwoord"):
                 if antwoord_pos > 0:
                     st.markdown(case_text[antwoord_pos:].replace("**Antwoord**:", "").strip())

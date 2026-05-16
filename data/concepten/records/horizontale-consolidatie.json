@@ -2,57 +2,171 @@
   "id": "horizontale-consolidatie",
   "naam": "Horizontale consolidatie",
   "node_type": "procedure",
-  "schema_version": "1.2",
+  "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.C", "1.4.I.B", "1.4.I.D", "1.4.II.B", "1.4.taak.1"],
+  "linked_anchors": [
+    "1.4.I.C",
+    "1.4.I.B",
+    "1.4.I.D",
+    "1.4.II.B",
+    "1.4.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.D",
-    "dekt_ook_anchors": ["1.4.I.C", "1.4.I.B", "1.4.II.B", "1.4.taak.1"],
-    "reviewed_by": null
+    "dekt_ook_anchors": [
+      "1.4.I.C",
+      "1.4.I.B",
+      "1.4.II.B",
+      "1.4.taak.1"
+    ],
+    "reviewed_by": null,
+    "schema_1_4_migration": {
+      "uitgevoerd_op": "2026-05-16T00:11Z",
+      "tool": "migrate_schema_1_4.py",
+      "scope": "structureel (bouwsteen-blok, formules[], stap-blok-skelet, edges)",
+      "pending_mens_review": [
+        "stagiair-toon-rewrite (regel 6)",
+        "cast-namen in voorbeelden (regel 7)",
+        "stap.hoe + voorbeeld.substappen invullen (regel 8)",
+        "atomaire formule-split + variabelen + invulling_voorbeeld (regel 12)",
+        "synthese-voorbeelden bij voorbeeld-minimum-gaps (regel 14 bron 3)"
+      ]
+    },
+    "jargon_pass3": {
+      "uitgevoerd_op": "2026-05-16T00:17Z",
+      "tool": "jargon_pass3.py",
+      "scope": "deterministische jargon-substituties + cast-namen in voorbeeld-velden (regels 6 + 7)",
+      "aantal_substituties": 7,
+      "voorbeelden": [
+        {
+          "pad": ".stappen[3].titel",
+          "oude_term": "eigen-vermogenposten",
+          "nieuwe_term": "posten van het eigen vermogen"
+        },
+        {
+          "pad": ".stappen[3].wat",
+          "oude_term": "eigen-vermogenposten",
+          "nieuwe_term": "posten van het eigen vermogen"
+        },
+        {
+          "pad": ".stappen[3]._corrected_from.oude_text",
+          "oude_term": "eigen-vermogenposten",
+          "nieuwe_term": "posten van het eigen vermogen"
+        },
+        {
+          "pad": ".in_praktijk[1].aspect",
+          "oude_term": "consoliderende vennootschap",
+          "nieuwe_term": "moedervennootschap"
+        },
+        {
+          "pad": ".in_praktijk[1].betekenis",
+          "oude_term": "consoliderende vennootschap",
+          "nieuwe_term": "moedervennootschap"
+        }
+      ]
+    }
   },
   "verplichting": {
     "text": "De consolidatietechniek die wordt toegepast wanneer vennootschappen onder centrale leiding staan zonder dat één rechtspersoon de andere controleert (een consortium / horizontale groep). De vennootschappen die het consortium vormen worden, samen met hun eigen dochters, opgenomen via integrale consolidatie (KB WVV art. 3:124, 1° jo. WVV art. 3:24). Eigen-vermogenposten van de leden behouden hun eigen karakter (beschikbare/onbeschikbare reserves) in de samenvoeging.",
     "confidence": "grounded",
-    "source": { "type": "advies", "short": "CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)" },
+    "source": {
+      "type": "advies",
+      "short": "CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)"
+    },
     "references": [
-      { "type": "wet", "short": "WVV art. 1:19 (consortium)" },
-      { "type": "wet", "short": "WVV art. 3:24 (consolidatieverplichting consortium)" },
-      { "type": "wet", "short": "WVV art. 3:30, § 2 (eigen vermogen consortium)" },
-      { "type": "kb", "short": "KB WVV art. 3:124, 1°" }
+      {
+        "type": "wet",
+        "short": "WVV art. 1:19 (consortium)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 3:24 (consolidatieverplichting consortium)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 3:30, § 2 (eigen vermogen consortium)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:124, 1°"
+      }
     ],
     "_provenance": {
       "inputs": [
-        { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiemethode", "sha256": null, "version": "rag-v1" },
-        { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_verticale-consolidatie-voorafgaand-aan-de-horizontale-consol", "sha256": null, "version": "rag-v1" }
+        {
+          "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiemethode",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_verticale-consolidatie-voorafgaand-aan-de-horizontale-consol",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
   "stappen": [
     {
-      "volgorde": 1,
-      "text": "Uniformeer de waarderingsregels van alle consortiumleden. Voer aanpassingsboekingen uit zodat alle leden volgens dezelfde waarderingsregels worden opgenomen (CBN 2022/09 — stap 1).",
+      "nr": 1,
+      "titel": "Uniformeer de waarderingsregels van alle consortiumleden. Voer aanpassingsboekingen…",
+      "wat": "Uniformeer de waarderingsregels van alle consortiumleden. Voer aanpassingsboekingen uit zodat alle leden volgens dezelfde waarderingsregels worden opgenomen (CBN 2022/09 — stap 1).",
+      "grondslag": "",
+      "_corrected_from": {
+        "veld": "stappen[volgorde+text] → stap-blok 1.4",
+        "oude_text": "Uniformeer de waarderingsregels van alle consortiumleden. Voer aanpassingsboekingen uit zodat alle leden volgens dezelfde waarderingsregels worden opgenomen (CBN 2022/09 — stap 1).",
+        "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+      },
       "actor": "consortium-leden gezamenlijk"
     },
     {
-      "volgorde": 2,
-      "text": "Voor elk consortiumlid dat zelf dochterondernemingen heeft: voer eerst een verticale consolidatie uit volgens de gebruikelijke techniek (integraal voor exclusieve dochters, evenredig voor gemeenschappelijke dochters, vermogensmutatie voor geassocieerde ondernemingen).",
+      "nr": 2,
+      "titel": "Voor elk consortiumlid dat zelf dochterondernemingen heeft: voer…",
+      "wat": "Voor elk consortiumlid dat zelf dochterondernemingen heeft: voer eerst een verticale consolidatie uit volgens de gebruikelijke techniek (integraal voor exclusieve dochters, evenredig voor gemeenschappelijke dochters, vermogensmutatie voor geassocieerde ondernemingen).",
+      "grondslag": "",
+      "_corrected_from": {
+        "veld": "stappen[volgorde+text] → stap-blok 1.4",
+        "oude_text": "Voor elk consortiumlid dat zelf dochterondernemingen heeft: voer eerst een verticale consolidatie uit volgens de gebruikelijke techniek (integraal voor exclusieve dochters, evenredig voor gemeenschappelijke dochters, vermogensmutatie voor geassocieerde ondernemingen).",
+        "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+      },
       "actor": "elk consortium-lid"
     },
     {
-      "volgorde": 3,
-      "text": "Voeg de (eventueel verticaal geconsolideerde) cijfers van alle consortiumleden samen via integrale consolidatie. Activa, passiva, rechten en verplichtingen, opbrengsten en kosten worden voor 100 % opgenomen per lid.",
+      "nr": 3,
+      "titel": "Voeg de (eventueel verticaal geconsolideerde) cijfers van alle…",
+      "wat": "Voeg de (eventueel verticaal geconsolideerde) cijfers van alle consortiumleden samen via integrale consolidatie. Activa, passiva, rechten en verplichtingen, opbrengsten en kosten worden voor 100 % opgenomen per lid.",
+      "grondslag": "",
+      "_corrected_from": {
+        "veld": "stappen[volgorde+text] → stap-blok 1.4",
+        "oude_text": "Voeg de (eventueel verticaal geconsolideerde) cijfers van alle consortiumleden samen via integrale consolidatie. Activa, passiva, rechten en verplichtingen, opbrengsten en kosten worden voor 100 % opgenomen per lid.",
+        "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+      },
       "actor": "consortium-leden gezamenlijk"
     },
     {
-      "volgorde": 4,
-      "text": "Behoud de aard van de eigen-vermogenposten per consortiumlid (WVV art. 3:30, § 2): in de geconsolideerde jaarrekening worden de samengevoegde bedragen die zijn toe te rekenen aan elk van de leden onder de posten van het eigen vermogen opgenomen. Beschikbare en onbeschikbare reserves behouden hun karakter.",
+      "nr": 4,
+      "titel": "Behoud de aard van de posten van het eigen vermogen per consortiumlid…",
+      "wat": "Behoud de aard van de posten van het eigen vermogen per consortiumlid (WVV art. 3:30, § 2): in de geconsolideerde jaarrekening worden de samengevoegde bedragen die zijn toe te rekenen aan elk van de leden onder de posten van het eigen vermogen opgenomen. Beschikbare en onbeschikbare reserves behouden hun karakter.",
+      "grondslag": "",
+      "_corrected_from": {
+        "veld": "stappen[volgorde+text] → stap-blok 1.4",
+        "oude_text": "Behoud de aard van de posten van het eigen vermogen per consortiumlid (WVV art. 3:30, § 2): in de geconsolideerde jaarrekening worden de samengevoegde bedragen die zijn toe te rekenen aan elk van de leden onder de posten van het eigen vermogen opgenomen. Beschikbare en onbeschikbare reserves behouden hun karakter.",
+        "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+      },
       "actor": "consortium-leden gezamenlijk"
     },
     {
-      "volgorde": 5,
-      "text": "Pas de eliminaties van intra-groeptransacties toe op het geheel: vorderingen/schulden, intra-groepswinsten, opbrengsten/kosten tussen consortiumleden onderling en tussen leden en hun dochters worden geschrapt.",
+      "nr": 5,
+      "titel": "Pas de eliminaties van intra-groeptransacties toe op het…",
+      "wat": "Pas de eliminaties van intra-groeptransacties toe op het geheel: vorderingen/schulden, intra-groepswinsten, opbrengsten/kosten tussen consortiumleden onderling en tussen leden en hun dochters worden geschrapt.",
+      "grondslag": "",
+      "_corrected_from": {
+        "veld": "stappen[volgorde+text] → stap-blok 1.4",
+        "oude_text": "Pas de eliminaties van intra-groeptransacties toe op het geheel: vorderingen/schulden, intra-groepswinsten, opbrengsten/kosten tussen consortiumleden onderling en tussen leden en hun dochters worden geschrapt.",
+        "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+      },
       "actor": "consortium-leden gezamenlijk"
     }
   ],
@@ -62,52 +176,77 @@
       "betekenis": "Het begrip 'consortium' is uitgesloten wanneer twee of meer vennootschappen reeds in een verticale moeder-dochter-relatie staan met elkaar of met een gemeenschappelijke moeder. Zo wordt vermeden dat dezelfde groep zowel verticaal als horizontaal moet worden opgesteld. Eerst verticale check, dan eventueel horizontaal.",
       "herkenningspunt": "Examen 'X is dochter van Y én partner in consortium met Z': geen consortium — gewoon verticale consolidatie van X+Y; Z apart.",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/09 — voorbeeld 1" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/09 — voorbeeld 1"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-1", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
-      "aspect": "Geen consoliderende vennootschap, gezamenlijke verantwoordelijkheid",
-      "betekenis": "Anders dan bij verticale consolidatie is er geen 'consoliderende vennootschap' in een consortium. De consortiumleden stellen samen de geconsolideerde jaarrekening op, laten die controleren en maken die openbaar. De centrale leider (vaak natuurlijke persoon of stichting) is zelf niet consolidatieplichtig (CBN 2022/09 — voorbeeld 7).",
+      "aspect": "Geen moedervennootschap, gezamenlijke verantwoordelijkheid",
+      "betekenis": "Anders dan bij verticale consolidatie is er geen 'moedervennootschap' in een consortium. De consortiumleden stellen samen de geconsolideerde jaarrekening op, laten die controleren en maken die openbaar. De centrale leider (vaak natuurlijke persoon of stichting) is zelf niet consolidatieplichtig (CBN 2022/09 — voorbeeld 7).",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/09" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/09"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatieverplichting-consoliderende-vennootschap", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatieverplichting-consoliderende-vennootschap",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
   ],
   "voorbeeld_inline": {
-    "text": "Consortium-voorbeeld 9 (CBN 2022/09): Vennootschap X bezit 100 % van X1 (aanschaffingswaarde 200; verticale relatie). Vennootschappen X en Y staan onder centrale leiding van drie natuurlijke personen. Eerst voert X een verticale integrale consolidatie uit (X + X1). Vervolgens worden de verticaal geconsolideerde rekeningen (X + X1) horizontaal samengevoegd met de rekeningen van Y volgens de integrale consolidatiemethode. Het eigen vermogen per consortium-lid wordt afzonderlijk in de eigen-vermogenposten zichtbaar gehouden (WVV art. 3:30, § 2).",
+    "text": "Consortium-voorbeeld 9 (CBN 2022/09): Vennootschap X bezit 100 % van X1 (aanschaffingswaarde 200; verticale relatie). Vennootschappen X en Y staan onder centrale leiding van drie natuurlijke personen. Eerst voert X een verticale integrale consolidatie uit (X + X1). Vervolgens worden de verticaal geconsolideerde rekeningen (X + X1) horizontaal samengevoegd met de rekeningen van Y volgens de integrale consolidatiemethode. Het eigen vermogen per consortium-lid wordt afzonderlijk in de posten van het eigen vermogen zichtbaar gehouden (WVV art. 3:30, § 2).",
     "confidence": "grounded",
-    "source": { "type": "advies", "short": "CBN 2022/09 — voorbeeld 9" },
+    "source": {
+      "type": "advies",
+      "short": "CBN 2022/09 — voorbeeld 9"
+    },
     "_provenance": {
       "inputs": [
-        { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-9", "sha256": null, "version": "rag-v1" }
+        {
+          "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-9",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
   "vergelijkingsparen": [
     {
       "vergelijking_met": "integrale-consolidatie",
-      "verschil": "Horizontale consolidatie gebruikt de techniek van integrale consolidatie maar past die toe op een horizontale groep (consortium) in plaats van op een verticale moeder-dochter-relatie. Geen consoliderende moeder, geen aandeel van derden tussen consortium-leden onderling (zij worden zij aan zij behandeld).",
+      "verschil": "Horizontale consolidatie gebruikt de techniek van integrale consolidatie maar past die toe op een horizontale groep (consortium) in plaats van op een verticale moeder-dochter-relatie. Geen moedervennootschap, geen aandeel van derden tuss",
+      "trigger": "Soort controle / type relatie tussen moeder en dochter bepaalt welke methode.",
+      "_corrected_from": {
+        "veld": "edge → vergelijkingsparen (terug-migratie)",
+        "reden": "Pass 2: methode-onder-elkaar-vergelijking heeft examen-keuze-trigger (welke methode kies je?). Hoort in vergelijkingsparen, niet in edges (regel 9 v4)."
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiemethode", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    },
-    {
-      "vergelijking_met": "consortium",
-      "verschil": "Consortium = de juridische structuur (de horizontale groep zelf). Horizontale consolidatie = de boekhoudkundige procedure die op die structuur wordt toegepast.",
-      "_provenance": {
-        "inputs": [
-          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiemethode",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
@@ -116,12 +255,51 @@
     {
       "text": "Een consortium-lid dat zelf dochters heeft, moet eerst verticaal consolideren vooraleer aan de horizontale samenvoeging deel te nemen. Wie deze volgorde omkeert, krijgt incorrecte resultaten omdat de derden-belangen in de dochters van een consortium-lid anders verkeerd worden behandeld.",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/09 — verticale voorafgaand aan horizontale" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/09 — verticale voorafgaand aan horizontale"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_verticale-consolidatie-voorafgaand-aan-de-horizontale-consol", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_verticale-consolidatie-voorafgaand-aan-de-horizontale-consol",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
+    }
+  ],
+  "edges": [
+    {
+      "type": "contrasteert-met",
+      "target": "consortium",
+      "redenering": "Consortium = de juridische structuur (de horizontale groep zelf). Horizontale consolidatie = de boekhoudkundige procedure die op die structuur wordt toegepast.",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "consolidatiemethodes-vergelijking",
+      "redenering": "Vierde consolidatiemethode (horizontale/consortium-groep).",
+      "confidence": "inferred"
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "consortium",
+      "redenering": "Horizontale consolidatie wordt toegepast wanneer er een consortium is.",
+      "confidence": "inferred"
     }
   ]
 }

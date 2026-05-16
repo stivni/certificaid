@@ -3,21 +3,28 @@ RAG-index builder voor de Certificaid kennisbank.
 
 Indexeert twee ChromaDB-collections (ADR-006):
   - bronnen   : wetteksten + normen + adviezen samen, met `bron_rol`-metadata
-  - concepten : concept-records per node-veld (ADR-007)
+  - concepten : concept-records + competentie-records, één chunk per record (ADR-006 §5)
 
 Chunking per brontype (ADR-006 §4):
   - wettekst : per artikel (`## Art.`); breadcrumb-prefix + gestructureerd path
   - norm      : per `##`-sectie met norm-naam in breadcrumb
   - advies    : heel advies (≤40K chars) of gesplitst op `##` met advies-titel
 
-Chunk-id-stabiliteit (ADR-006 §3.1, ADR-004):
+Chunking concepten-collectie (ADR-006 §5):
+  - Eenheid: één chunk per record (niet per veld, niet vanuit content/)
+  - Bronnen: data/concepten/records/*.json (schema 1.3) + data/concepten/competenties/*.yaml (schema 1.0)
+  - Chunk-id: `concept:<id>` of `competentie:<id>`
+  - Embed-tekst deterministisch samengesteld uit velden (§5.4); _provenance uitgesloten
+  - Metadata: scope, id, naam/titel, node_type, programmaonderdelen, status,
+    schema_version, confidence_summary, bron_shorts, linked_concepts, extractor_run
+  - Drop-and-rebuild bij elke run (ADR-006 §5.6)
+
+Chunk-id-stabiliteit (ADR-006 §3.1):
   - wettekst : `<bron-stem>__art_<nr>`       bv. Antiwitwaswet-2017__art_5
   - norm      : `<bron-stem>__sec_<slug>`
   - advies    : `<bron-stem>` (één chunk) of `<bron-stem>__sec_<slug>` (gesplitst)
 
-Te lange artikelen (> 24K chars) worden gesplitst op alinea-grenzen (ADR-006 §4).
-
-Device auto-detect (ADR implementatie-backlog):
+Device auto-detect:
   MPS (Apple Silicon) > CUDA > CPU. Override via --device.
 
 Scope-modus (POC vertical-slice, zie roadmap.md Fase 2):
@@ -27,7 +34,7 @@ Gebruik:
   python tools/rag/rag_index.py                              # alle bronnen-types
   python tools/rag/rag_index.py --bron-rol norm              # alleen normen
   python tools/rag/rag_index.py --scope path/to/<programmaonderdeel>-bronnen-scope.yaml
-  python tools/rag/rag_index.py --add-concepten              # concept-records indexeren
+  python tools/rag/rag_index.py --add-concepten              # concept- + competentie-records indexeren (drop-and-rebuild)
   python tools/rag/rag_index.py --reset                      # verwijder en herbouw
   python tools/rag/rag_index.py --device cpu                 # forceer device
 """
@@ -52,7 +59,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from tools.lib.provenance import read_trust  # noqa: E402
-DEFAULT_CHROMA_PATH = ROOT / "data" / "chroma_db"
+DEFAULT_CHROMA_PATH = ROOT / "data" / "rag" / "main"
 EMBEDDING_MODEL = "BAAI/bge-m3"   # zie ADR-006
 KEYWORDS_DIRS = {
     "wettekst": ROOT / "resources" / "bronnen" / "wetteksten" / "keywords",
@@ -75,7 +82,8 @@ BRON_DIRS = {
     "norm":     ROOT / "resources" / "bronnen" / "normen",
     "advies":   ROOT / "resources" / "bronnen" / "adviezen",
 }
-CONCEPTS_DIR = ROOT / "data" / "concept_records"
+CONCEPTS_DIR = ROOT / "data" / "concepten" / "records"
+COMPETENTIES_DIR = ROOT / "data" / "concepten" / "competenties"
 
 MIN_CHUNK_CHARS = 100
 # Aligneren met MPS_MAX_SEQ_LENGTH (2048 tokens ≈ 8K chars) zodat elke char
@@ -1614,78 +1622,377 @@ def index_adviezen(
 
 
 # ---------------------------------------------------------------------------
-# Concepten-collection (ADR-007)
+# Concepten-collection (ADR-006 §5)
 # ---------------------------------------------------------------------------
 
-def index_concepten(collection, batch_size: int = 200):
-    if not CONCEPTS_DIR.exists():
-        print(f"  {CONCEPTS_DIR} bestaat nog niet — sla concepten over")
-        return
+def _po_uit_anchors(linked_anchors: list) -> list[str]:
+    """Leid programmaonderdelen af uit linked_anchors: eerste segment vóór de tweede punt.
 
-    files = sorted(CONCEPTS_DIR.glob("*.json"))
-    if not files:
-        print(f"  Geen concept-records in {CONCEPTS_DIR}")
-        return
+    Voorbeeld: ["1.4.I.C", "1.4.I.B"] → ["1.4"]
+    """
+    seen: set[str] = set()
+    result: list[str] = []
+    for anchor in linked_anchors:
+        parts = str(anchor).split(".")
+        if len(parts) >= 2:
+            po = f"{parts[0]}.{parts[1]}"
+        else:
+            po = str(anchor)
+        if po not in seen:
+            seen.add(po)
+            result.append(po)
+    return result
 
-    ids, texts, metadatas = [], [], []
 
-    for path in tqdm(files, desc="concepten"):
-        try:
-            record = json.loads(path.read_text())
-        except Exception as e:
-            print(f"  Overgeslagen {path.name}: {e}")
+def _confidence_summary_concept(record: dict) -> str:
+    """Bepaal confidence_summary voor een concept-record.
+
+    Retourneert "mixed" als er minstens één veld met confidence "inferred" is,
+    anders "grounded".
+    """
+    velden: list[dict] = []
+    velden.append(record.get("definitie") or {})
+    velden.extend(record.get("bouwstenen") or [])
+    velden.extend(record.get("in_praktijk") or [])
+    velden.extend(record.get("valkuilen") or [])
+    for v in velden:
+        if isinstance(v, dict) and v.get("confidence") == "inferred":
+            return "mixed"
+    return "grounded"
+
+
+def _confidence_summary_competentie(record: dict) -> str:
+    """Bepaal confidence_summary voor een competentie-record.
+
+    Retourneert "mixed" als een stap-valkuil aanwezig is (inferred redenering),
+    anders "grounded".
+    """
+    for stap in record.get("stappen") or []:
+        if isinstance(stap, dict) and stap.get("valkuilen"):
+            return "mixed"
+    return "grounded"
+
+
+def _bron_shorts_concept(record: dict) -> list[str]:
+    """Verzamel alle source.short-waarden uit een concept-record (deduplicaat)."""
+    seen: set[str] = set()
+    result: list[str] = []
+    velden: list[dict] = []
+    velden.append(record.get("definitie") or {})
+    velden.extend(record.get("bouwstenen") or [])
+    velden.extend(record.get("in_praktijk") or [])
+    velden.extend(record.get("valkuilen") or [])
+    for v in velden:
+        if not isinstance(v, dict):
             continue
+        src = v.get("source")
+        if isinstance(src, dict):
+            short = src.get("short", "")
+            if short and short not in seen:
+                seen.add(short)
+                result.append(short)
+    return result
 
-        concept_id = record.get("id", path.stem)
 
-        def add_chunk(suffix, text, confidence=""):
-            if not text or len(text.strip()) < MIN_CHUNK_CHARS:
-                return
-            ids.append(f"{concept_id}__{suffix}")
-            texts.append(text.strip())
-            metadatas.append({
-                "bron_rol":   "concept",
-                "concept_id": concept_id,
-                "bestand":    path.name,
-                "veld":       suffix,
-                "confidence": confidence,
-            })
+def _bron_shorts_competentie(record: dict) -> list[str]:
+    """Verzamel alle grondslag.ref-waarden uit stappen + voorbeelden (deduplicaat)."""
+    seen: set[str] = set()
+    result: list[str] = []
+    for stap in record.get("stappen") or []:
+        if not isinstance(stap, dict):
+            continue
+        grondslag = stap.get("grondslag")
+        if isinstance(grondslag, dict):
+            ref = grondslag.get("ref", "")
+            if ref and ref not in seen:
+                seen.add(ref)
+                result.append(ref)
+    for voorbeeld in record.get("voorbeelden") or []:
+        if not isinstance(voorbeeld, dict):
+            continue
+        ref = voorbeeld.get("grondslag", "")
+        if ref and ref not in seen:
+            seen.add(ref)
+            result.append(ref)
+    return result
 
-        naam = record.get("naam", concept_id)
-        node_type = record.get("node_type", "")
 
-        mr = record.get("main_rule", {})
-        if mr:
-            add_chunk("main_rule", f"{naam}\n\n{mr.get('text', '')}", mr.get("confidence", ""))
+def _compose_concept_tekst(record: dict) -> str:
+    """Stel deterministisch de embed-tekst samen voor een concept-record (ADR-006 §5.4)."""
+    naam = record.get("naam", record.get("id", ""))
+    node_type = record.get("node_type", "")
+    linked_anchors = record.get("linked_anchors") or []
+    programmaonderdelen = ", ".join(_po_uit_anchors(linked_anchors))
 
-        definitie = record.get("definitie", {})
-        if definitie:
-            add_chunk("definitie", f"{naam}\n\n{definitie.get('text', '')}", definitie.get("confidence", ""))
+    lines: list[str] = []
+    lines.append(f"[Concept → {programmaonderdelen} → {node_type} → {naam}]")
+    lines.append("")
+    lines.append(f"# {naam}")
+    lines.append("")
 
-        for i, exc in enumerate(record.get("exceptions", [])):
-            add_chunk(f"exception_{i}", f"{naam} — uitzondering\n\n{exc.get('text', '')}", exc.get("confidence", ""))
+    definitie = record.get("definitie") or {}
+    definitie_tekst = definitie.get("text", "") if isinstance(definitie, dict) else ""
+    if definitie_tekst:
+        lines.append(definitie_tekst)
 
-        scope = record.get("scope", {})
-        if scope:
-            scope_text = (
-                f"{naam} — toepassingsgebied\n\n"
-                f"Van toepassing op: {scope.get('applies_to', '')}\n"
-                f"Uitgesloten: {scope.get('excludes', '')}"
-            )
-            add_chunk("scope", scope_text)
+    bouwstenen = record.get("bouwstenen") or []
+    if bouwstenen:
+        lines.append("")
+        lines.append("## Bouwstenen")
+        for b in bouwstenen:
+            if not isinstance(b, dict):
+                continue
+            naam_b = b.get("naam", "")
+            tekst_b = b.get("text", "")
+            if naam_b or tekst_b:
+                lines.append(f"- {naam_b}: {tekst_b}")
 
-        for i, pit in enumerate(record.get("pitfalls", [])):
-            add_chunk(f"pitfall_{i}", f"{naam} — valkuil\n\n{pit.get('text', '')}", pit.get("confidence", "inferred"))
+    in_praktijk = record.get("in_praktijk") or []
+    if in_praktijk:
+        lines.append("")
+        lines.append("## In de praktijk")
+        for item in in_praktijk:
+            if not isinstance(item, dict):
+                continue
+            aspect = item.get("aspect", "")
+            betekenis = item.get("betekenis", "")
+            if aspect:
+                lines.append(f"### {aspect}")
+            if betekenis:
+                lines.append(betekenis)
 
-        for i, ex in enumerate(record.get("voorbeeld_inline", record.get("examples", []))):
-            if isinstance(ex, dict):
-                add_chunk(f"voorbeeld_{i}", f"{naam} — voorbeeld\n\n{ex.get('text', '')}", ex.get("confidence", ""))
-            else:
-                add_chunk(f"voorbeeld_{i}", f"{naam} — voorbeeld\n\n{ex}")
+    vergelijkingsparen = record.get("vergelijkingsparen") or []
+    if vergelijkingsparen:
+        lines.append("")
+        lines.append("## Vergelijkingsparen")
+        for paar in vergelijkingsparen:
+            if not isinstance(paar, dict):
+                continue
+            vergelijking_met = paar.get("vergelijking_met", "")
+            verschil = paar.get("verschil", "")
+            if vergelijking_met or verschil:
+                lines.append(f"- vs. {vergelijking_met}: {verschil}")
+
+    valkuilen = record.get("valkuilen") or []
+    if valkuilen:
+        lines.append("")
+        lines.append("## Valkuilen")
+        for v in valkuilen:
+            if not isinstance(v, dict):
+                continue
+            tekst = v.get("text", "")
+            if tekst:
+                lines.append(f"- {tekst}")
+
+    return "\n".join(lines)
+
+
+def _compose_competentie_tekst(record: dict) -> str:
+    """Stel deterministisch de embed-tekst samen voor een competentie-record (ADR-006 §5.4)."""
+    titel = record.get("titel", record.get("id", ""))
+    programmaonderdelen_list = record.get("programmaonderdelen") or []
+    programmaonderdelen = ", ".join(str(p) for p in programmaonderdelen_list)
+    gebaseerd_op = record.get("gebaseerd_op_concepten") or []
+
+    lines: list[str] = []
+    lines.append(f"[Competentie → {programmaonderdelen} → {titel}]")
+    lines.append("")
+    lines.append(f"# {titel}")
+    lines.append("")
+
+    if gebaseerd_op:
+        lines.append(f"Gebaseerd op concepten: {', '.join(str(c) for c in gebaseerd_op)}")
+
+    procedure_grondslag = record.get("procedure_grondslag") or {}
+    motivering = procedure_grondslag.get("motivering", "") if isinstance(procedure_grondslag, dict) else ""
+    if motivering:
+        lines.append(f"Grondslag: {motivering}")
+
+    stappen = record.get("stappen") or []
+    if stappen:
+        lines.append("")
+        lines.append("## Stappen")
+        for stap in stappen:
+            if not isinstance(stap, dict):
+                continue
+            nr = stap.get("nr", "")
+            stap_titel = stap.get("titel", "")
+            lines.append(f"### Stap {nr}: {stap_titel}")
+            stap_input = stap.get("input", "")
+            if stap_input:
+                lines.append(f"Input: {stap_input}")
+            stap_output = stap.get("output", "")
+            if stap_output:
+                lines.append(f"Output: {stap_output}")
+            waarom = stap.get("waarom", "")
+            if waarom:
+                lines.append(f"Waarom: {waarom}")
+            grondslag = stap.get("grondslag")
+            if isinstance(grondslag, dict):
+                ref = grondslag.get("ref", "")
+                if ref:
+                    lines.append(f"Grondslag: {ref}")
+            valkuilen_stap = stap.get("valkuilen") or []
+            for valkuil in valkuilen_stap:
+                if not isinstance(valkuil, dict):
+                    continue
+                foute_aanname = valkuil.get("foute_aanname", "")
+                correctie = valkuil.get("correctie", "")
+                if foute_aanname or correctie:
+                    lines.append(f"Valkuil: {foute_aanname} → {correctie}")
+
+    voorbeelden = record.get("voorbeelden") or []
+    if voorbeelden:
+        lines.append("")
+        lines.append("## Voorbeelden")
+        for i, voorbeeld in enumerate(voorbeelden):
+            if not isinstance(voorbeeld, dict):
+                continue
+            lines.append(f"### Voorbeeld {i + 1}")
+            situatie = voorbeeld.get("situatie", "")
+            if situatie:
+                lines.append(f"Situatie: {situatie}")
+            conclusie = voorbeeld.get("conclusie", "")
+            if conclusie:
+                lines.append(f"Conclusie: {conclusie}")
+            redenering = voorbeeld.get("redenering", "")
+            if redenering:
+                lines.append(f"Redenering: {redenering}")
+
+    return "\n".join(lines)
+
+
+def index_concepten(collection, batch_size: int = 200):
+    """Indexeer concept-records en competentie-records conform ADR-006 §5.
+
+    Drop-and-rebuild: de collectie wordt altijd vervangen (ADR-006 §5.6).
+    Bronnen:
+      - data/concepten/records/*.json  (concept, schema 1.3)
+      - data/concepten/competenties/*.yaml  (competentie, schema 1.0)
+    Eenheid: één chunk per record.
+    """
+    ids: list[str] = []
+    texts: list[str] = []
+    metadatas: list[dict] = []
+
+    # --- Concept-records ---
+    if not CONCEPTS_DIR.exists():
+        print(f"  WAARSCHUWING: {CONCEPTS_DIR} bestaat niet — geen concept-records geïndexeerd")
+    else:
+        concept_files = sorted(CONCEPTS_DIR.glob("*.json"))
+        if not concept_files:
+            print(f"  Geen concept-records in {CONCEPTS_DIR}")
+        else:
+            for path in tqdm(concept_files, desc="concept-records"):
+                try:
+                    record = json.loads(path.read_text())
+                except Exception as exc:
+                    print(f"  Overgeslagen {path.name}: {exc}")
+                    continue
+
+                record_id = record.get("id", path.stem)
+                status = record.get("status", "")
+                if status in ("rejected", "archived"):
+                    print(f"  → skip {record_id}: status={status}")
+                    continue
+
+                embed_tekst = _compose_concept_tekst(record)
+                if len(embed_tekst) > HARD_THRESHOLD:
+                    print(f"  WARNING: {record_id} embed-tekst {len(embed_tekst)} chars > HARD_THRESHOLD — redactie nodig")
+
+                programmaonderdelen = _po_uit_anchors(record.get("linked_anchors") or [])
+
+                # Verzamel alle source.short-waarden voor bron_shorts
+                bron_shorts = _bron_shorts_concept(record)
+
+                # linked_concepts = doelen van vergelijkingsparen
+                linked_concepts = [
+                    paar.get("vergelijking_met", "")
+                    for paar in (record.get("vergelijkingsparen") or [])
+                    if isinstance(paar, dict) and paar.get("vergelijking_met")
+                ]
+
+                extractor_run = ""
+                provenance = record.get("_provenance")
+                if isinstance(provenance, dict):
+                    extractor_run = provenance.get("extractor_run", "") or ""
+
+                ids.append(f"concept:{record_id}")
+                texts.append(embed_tekst)
+                metadatas.append({
+                    "scope":               "concept",
+                    "id":                  record_id,
+                    "naam":                record.get("naam", record_id),
+                    "node_type":           record.get("node_type", ""),
+                    "programmaonderdelen": json.dumps(programmaonderdelen),
+                    "status":              status,
+                    "schema_version":      str(record.get("schema_version", "")),
+                    "confidence_summary":  _confidence_summary_concept(record),
+                    "bron_shorts":         json.dumps(bron_shorts),
+                    "linked_concepts":     json.dumps(linked_concepts),
+                    "extractor_run":       extractor_run,
+                })
+
+    # --- Competentie-records ---
+    if not COMPETENTIES_DIR.exists():
+        print(f"  WAARSCHUWING: {COMPETENTIES_DIR} bestaat niet — geen competentie-records geïndexeerd")
+    else:
+        competentie_files = sorted(COMPETENTIES_DIR.glob("*.yaml"))
+        if not competentie_files:
+            print(f"  Geen competentie-records in {COMPETENTIES_DIR}")
+        else:
+            for path in tqdm(competentie_files, desc="competentie-records"):
+                try:
+                    record = yaml.safe_load(path.read_text())
+                except Exception as exc:
+                    print(f"  Overgeslagen {path.name}: {exc}")
+                    continue
+
+                record_id = record.get("id", path.stem)
+                status = record.get("status", "")
+                if status in ("rejected", "archived"):
+                    print(f"  → skip {record_id}: status={status}")
+                    continue
+
+                embed_tekst = _compose_competentie_tekst(record)
+                if len(embed_tekst) > HARD_THRESHOLD:
+                    print(f"  WARNING: {record_id} embed-tekst {len(embed_tekst)} chars > HARD_THRESHOLD — redactie nodig")
+
+                programmaonderdelen_list = record.get("programmaonderdelen") or []
+                programmaonderdelen = [str(p) for p in programmaonderdelen_list]
+
+                bron_shorts = _bron_shorts_competentie(record)
+
+                linked_concepts = [
+                    str(c) for c in (record.get("gebaseerd_op_concepten") or [])
+                ]
+
+                extractor_run = ""
+                provenance = record.get("_provenance")
+                if isinstance(provenance, dict):
+                    extractor_run = provenance.get("voorgesteld_door", "") or ""
+
+                ids.append(f"competentie:{record_id}")
+                texts.append(embed_tekst)
+                metadatas.append({
+                    "scope":               "competentie",
+                    "id":                  record_id,
+                    "titel":               record.get("titel", record_id),
+                    "node_type":           "",
+                    "programmaonderdelen": json.dumps(programmaonderdelen),
+                    "status":              status,
+                    "schema_version":      str(record.get("schema_version", "")),
+                    "confidence_summary":  _confidence_summary_competentie(record),
+                    "bron_shorts":         json.dumps(bron_shorts),
+                    "linked_concepts":     json.dumps(linked_concepts),
+                    "extractor_run":       extractor_run,
+                })
 
     if ids:
         _batch_upsert(collection, ids, texts, metadatas, batch_size=batch_size)
-    print(f"  {len(ids)} chunks uit {len(files)} concept-records")
+    concept_count = sum(1 for cid in ids if cid.startswith("concept:"))
+    competentie_count = sum(1 for cid in ids if cid.startswith("competentie:"))
+    print(f"  {len(ids)} chunks geïndexeerd ({concept_count} concepten + {competentie_count} competenties)")
 
 
 # ---------------------------------------------------------------------------
@@ -1699,7 +2006,9 @@ def main():
     parser.add_argument("--scope",
                         help="Pad naar bronnen-scope.yaml — schrijft naar aparte chroma_db_<programmaonderdeel>/")
     parser.add_argument("--add-concepten", action="store_true",
-                        help="Indexeer of vernieuw concept-records in de concepten-collection")
+                        help="Indexeer concept- en competentie-records (drop-and-rebuild, ADR-006 §5.6). "
+                             "Indexeert data/concepten/records/*.json + data/concepten/competenties/*.yaml, "
+                             "één chunk per record.")
     parser.add_argument("--reset", action="store_true",
                         help="Verwijder en herbouw de collection(s)")
     parser.add_argument("--device", choices=["mps", "cuda", "cpu"],
@@ -1725,7 +2034,8 @@ def main():
 
     if args.add_concepten:
         print("\n→ Indexeer collection: concepten")
-        col, client = get_collection(client, chroma_path, "concepten", ef, reset=args.reset)
+        print("  → concepten-collectie wordt vervangen (ADR-006 §5.6 drop-and-rebuild)")
+        col, client = get_collection(client, chroma_path, "concepten", ef, reset=True)
         index_concepten(col, batch_size=batch_size)
     else:
         print("\n→ Indexeer collection: bronnen")

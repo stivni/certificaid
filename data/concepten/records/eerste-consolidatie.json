@@ -2,34 +2,126 @@
   "id": "eerste-consolidatie",
   "naam": "Eerste consolidatie",
   "node_type": "fenomeen",
-  "schema_version": "1.2",
+  "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.G", "1.4.I.D", "1.4.I.E", "1.4.II.D", "1.4.taak.1"],
+  "linked_anchors": [
+    "1.4.I.G",
+    "1.4.I.D",
+    "1.4.I.E",
+    "1.4.II.D",
+    "1.4.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.G",
-    "dekt_ook_anchors": ["1.4.I.D", "1.4.I.E", "1.4.II.D", "1.4.taak.1"],
-    "reviewed_by": null
+    "dekt_ook_anchors": [
+      "1.4.I.D",
+      "1.4.I.E",
+      "1.4.II.D",
+      "1.4.taak.1"
+    ],
+    "reviewed_by": null,
+    "schema_1_4_migration": {
+      "uitgevoerd_op": "2026-05-16T00:11Z",
+      "tool": "migrate_schema_1_4.py",
+      "scope": "structureel (bouwsteen-blok, formules[], stap-blok-skelet, edges)",
+      "pending_mens_review": [
+        "stagiair-toon-rewrite (regel 6)",
+        "cast-namen in voorbeelden (regel 7)",
+        "stap.hoe + voorbeeld.substappen invullen (regel 8)",
+        "atomaire formule-split + variabelen + invulling_voorbeeld (regel 12)",
+        "synthese-voorbeelden bij voorbeeld-minimum-gaps (regel 14 bron 3)"
+      ]
+    },
+    "jargon_pass3": {
+      "uitgevoerd_op": "2026-05-16T00:17Z",
+      "tool": "jargon_pass3.py",
+      "scope": "deterministische jargon-substituties + cast-namen in voorbeeld-velden (regels 6 + 7)",
+      "aantal_substituties": 6,
+      "voorbeelden": [
+        {
+          "pad": ".definitie.text",
+          "oude_term": "verwervingsdatum",
+          "nieuwe_term": "datum van aankoop"
+        },
+        {
+          "pad": ".tijdlijn[1].stap",
+          "oude_term": "verwervingsdatum",
+          "nieuwe_term": "datum van aankoop"
+        },
+        {
+          "pad": ".tijdlijn[2].termijn",
+          "oude_term": "verwervingsdatum",
+          "nieuwe_term": "datum van aankoop"
+        },
+        {
+          "pad": ".tijdlijn[3].termijn",
+          "oude_term": "verwervingsdatum",
+          "nieuwe_term": "datum van aankoop"
+        },
+        {
+          "pad": ".in_praktijk[0].betekenis",
+          "oude_term": "verwervingsdatum",
+          "nieuwe_term": "datum van aankoop"
+        }
+      ]
+    }
   },
   "definitie": {
-    "text": "De boekjaar-overschrijdende boekhoudkundige verwerking waarbij een nieuw verworven (of voor het eerst geconsolideerde) dochteronderneming of geassocieerde onderneming voor de eerste maal in de geconsolideerde jaarrekening wordt opgenomen. Bij eerste consolidatie wordt de aanschaffingswaarde van de deelneming gecompenseerd met het overeenkomstige deel van het eigen vermogen van die onderneming op verwervingsdatum (of een nabijzijnde datum). Het verschil wordt eerst toegerekend aan onder-/overgewaardeerde activa en passiva van de dochter; het residu wordt geboekt als positief of negatief consolidatieverschil.",
+    "text": "De boekjaar-overschrijdende boekhoudkundige verwerking waarbij een nieuw verworven (of voor het eerst geconsolideerde) dochteronderneming of geassocieerde onderneming voor de eerste maal in de geconsolideerde jaarrekening wordt opgenomen. Bij eerste consolidatie wordt de aanschaffingswaarde van de deelneming gecompenseerd met het overeenkomstige deel van het eigen vermogen van die onderneming op datum van aankoop (of een nabijzijnde datum). Het verschil wordt eerst toegerekend aan onder-/overgewaardeerde activa en passiva van de dochter; het residu wordt geboekt als positief of negatief consolidatieverschil.",
     "confidence": "grounded",
-    "source": { "type": "kb", "short": "KB WVV art. 3:127, a) jo. art. 3:129 — 3:130" },
+    "source": {
+      "type": "kb",
+      "short": "KB WVV art. 3:127, a) jo. art. 3:129 — 3:130"
+    },
     "references": [
-      { "type": "kb", "short": "KB WVV art. 3:127, a)" },
-      { "type": "kb", "short": "KB WVV art. 3:128" },
-      { "type": "kb", "short": "KB WVV art. 3:129 (datum)" },
-      { "type": "kb", "short": "KB WVV art. 3:130 (boeking consolidatieverschil)" },
-      { "type": "kb", "short": "KB WVV art. 3:142 (eerste consolidatie via vermogensmutatie)" },
-      { "type": "advies", "short": "CBN 2022/11 — Vermogensmutatiemethode (eerste consolidatie)" },
-      { "type": "advies", "short": "CBN 2013/3 — Step acquisitions" }
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:127, a)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:128"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:129 (datum)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:130 (boeking consolidatieverschil)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:142 (eerste consolidatie via vermogensmutatie)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2022/11 — Vermogensmutatiemethode (eerste consolidatie)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2013/3 — Step acquisitions"
+      }
     ],
     "_provenance": {
       "inputs": [
-        { "id": "KB-WVV-2019__art_3_101", "sha256": null, "version": "rag-v1" },
-        { "id": "KB-WVV-2019__art_3_102", "sha256": null, "version": "rag-v1" },
-        { "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie", "sha256": null, "version": "rag-v1" }
+        {
+          "id": "KB-WVV-2019__art_3_101",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_102",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -39,46 +131,74 @@
       "termijn": "t = 0",
       "actor": "moedervennootschap",
       "actie": "Betaling van de aanschaffingsprijs; juridische overdracht van aandelen.",
-      "source": { "type": "kb", "short": "KB WVV art. 3:127, a)" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:127, a)"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
-      "stap": "Bepaling EV op verwervingsdatum",
+      "stap": "Bepaling EV op datum van aankoop",
       "termijn": "op of nabij t = 0",
       "actor": "moedervennootschap",
       "actie": "Vaststelling van de waarde van het eigen vermogen van de dochter (KB WVV art. 3:129). Bij eerste opmaak van een geconsolideerde jaarrekening of bij eerste opname van een vroeger niet-geconsolideerde dochter mag de aanvangsdatum van het boekjaar worden gebruikt.",
-      "source": { "type": "kb", "short": "KB WVV art. 3:129" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:129"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_101", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_101",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
       "stap": "Toerekening verschil aan onder-/overgewaardeerde activa",
-      "termijn": "op verwervingsdatum",
+      "termijn": "op datum van aankoop",
       "actor": "moedervennootschap",
       "actie": "Identificatie van stille meer-/minderwaarden in activa/passiva van de dochter; toerekening van het bruto-verschil (KB WVV art. 3:128 en art. 3:130, lid 1).",
-      "source": { "type": "kb", "short": "KB WVV art. 3:128 jo. art. 3:130" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:128 jo. art. 3:130"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_102", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_102",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
       "stap": "Boeking residueel consolidatieverschil",
-      "termijn": "op verwervingsdatum",
+      "termijn": "op datum van aankoop",
       "actor": "moedervennootschap",
       "actie": "Boeking van het residu als 'Consolidatieverschillen' (actiefzijde indien positief, passiefzijde indien negatief; KB WVV art. 3:130).",
-      "source": { "type": "kb", "short": "KB WVV art. 3:130" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:130"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_102", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_102",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -87,10 +207,17 @@
       "termijn": "vanaf t = 0 en volgende boekjaren",
       "actor": "moedervennootschap",
       "actie": "Afschrijving volgens passend plan op basis van vermoedelijke gebruiksduur (KB WVV art. 3:131, § 1).",
-      "source": { "type": "kb", "short": "KB WVV art. 3:131, § 1" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:131, § 1"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_103", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_103",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
@@ -98,13 +225,24 @@
   "in_praktijk": [
     {
       "aspect": "Eerste consolidatie via vermogensmutatiemethode",
-      "betekenis": "Bij een eerste consolidatie van een geassocieerde onderneming (of een gemeenschappelijke dochter zonder integratie) volgens de vermogensmutatiemethode: de historische aanschaffingswaarde van de deelneming wordt vervangen door het pro-rata aandeel in het eigen vermogen op verwervingsdatum. Het verschil wordt toegerekend aan onder-/overgewaardeerde activa en het residu als consolidatieverschil geboekt (CBN 2022/11 'eerste consolidatie' + voorbeeld).",
+      "betekenis": "Bij een eerste consolidatie van een geassocieerde onderneming (of een gemeenschappelijke dochter zonder integratie) volgens de vermogensmutatiemethode: de historische aanschaffingswaarde van de deelneming wordt vervangen door het pro-rata aandeel in het eigen vermogen op datum van aankoop. Het verschil wordt toegerekend aan onder-/overgewaardeerde activa en het residu als consolidatieverschil geboekt (CBN 2022/11 'eerste consolidatie' + voorbeeld).",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/11" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/11"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -112,55 +250,111 @@
       "aspect": "Versimpeling voor eerste-opmaak situaties",
       "betekenis": "KB WVV art. 3:129 staat toe dat bij (a) de eerste opmaak van een geconsolideerde jaarrekening of (b) een dochter die voorheen niet werd geconsolideerd, de compensatie ten belope van de aandelen in bezit op die datum gebeurt op de aanvangsdatum van het boekjaar — om praktische redenen.",
       "confidence": "grounded",
-      "source": { "type": "kb", "short": "KB WVV art. 3:129, a) en b)" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:129, a) en b)"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_101", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_101",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
   ],
-  "vergelijkingsparen": [
-    {
-      "vergelijking_met": "wijziging-consolidatiekring",
-      "verschil": "Eerste consolidatie is een specifiek type wijziging van de consolidatiekring (opname). Wijziging is het overkoepelende fenomeen dat ook vervreemding, herklassificering en common-control-transacties omvat.",
-      "_provenance": {
-        "inputs": [
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    },
-    {
-      "vergelijking_met": "consolidatieverschil",
-      "verschil": "Het consolidatieverschil is een gevolg van de eerste consolidatie (residu na compensatie en toerekening). Latere consolidaties leiden tot afschrijving of afboeking — niet tot een nieuw consolidatieverschil (behalve bij step acquisitions of nieuwe acquisities).",
-      "_provenance": {
-        "inputs": [
-          { "id": "KB-WVV-2019__art_3_102", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    },
-    {
-      "vergelijking_met": "vermogensmutatiemethode",
-      "verschil": "Eerste consolidatie volgens vermogensmutatie betekent: vervangen van aanschaffingswaarde door pro-rata EV op acquisitiedatum + boeken consolidatieverschil (CBN 2022/11). Daarna volgen 'latere consolidaties' die het pro-rata aandeel in resultaat/mutaties verwerken.",
-      "_provenance": {
-        "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_latere-consolidaties", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    }
-  ],
+  "vergelijkingsparen": [],
   "valkuilen": [
     {
-      "text": "Het bepalen van het eigen vermogen op verwervingsdatum is een momentopname. Latere wijzigingen worden niet als 'consolidatieverschil' geboekt maar lopen via de gewone consolidatietechniek (geconsolideerde reserves, resultaat van het boekjaar) of via afschrijving van het positieve consolidatieverschil.",
+      "text": "Het bepalen van het eigen vermogen op datum van aankoop is een momentopname. Latere wijzigingen worden niet als 'consolidatieverschil' geboekt maar lopen via de gewone consolidatietechniek (geconsolideerde reserves, resultaat van het boekjaar) of via afschrijving van het positieve consolidatieverschil.",
       "confidence": "grounded",
-      "source": { "type": "kb", "short": "KB WVV art. 3:129 + art. 3:131" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:129 + art. 3:131"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_101", "sha256": null, "version": "rag-v1" },
-          { "id": "KB-WVV-2019__art_3_103", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_101",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_103",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
+    }
+  ],
+  "edges": [
+    {
+      "type": "contrasteert-met",
+      "target": "wijziging-consolidatiekring",
+      "redenering": "Eerste consolidatie is een specifiek type wijziging van de consolidatiekring (opname). Wijziging is het overkoepelende fenomeen dat ook vervreemding, herklassificering en common-control-transacties omvat.",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "consolidatieverschil",
+      "redenering": "Het consolidatieverschil is een gevolg van de eerste consolidatie (residu na compensatie en toerekening). Latere consolidaties leiden tot afschrijving of afboeking — niet tot een nieuw consolidatieverschil (behalve bij step acquisitions of ",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'getriggerd-door'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_102",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "contrasteert-met",
+      "target": "vermogensmutatiemethode",
+      "redenering": "Eerste consolidatie volgens vermogensmutatie betekent: vervangen van aanschaffingswaarde door pro-rata EV op acquisitiedatum + boeken consolidatieverschil (CBN 2022/11). Daarna volgen 'latere consolidaties' die het pro-rata aandeel in resul",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_latere-consolidaties",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "specialisatie-van",
+      "target": "wijziging-consolidatiekring",
+      "redenering": "De eerste opname van een dochter is een specifieke wijziging in de kring.",
+      "confidence": "inferred"
     }
   ]
 }

@@ -2,38 +2,82 @@
   "id": "groep-van-beperkte-omvang",
   "naam": "Groep van beperkte omvang",
   "node_type": "begrip",
-  "schema_version": "1.2",
+  "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.C", "1.4.I.B", "1.4.II.B"],
+  "linked_anchors": [
+    "1.4.I.C",
+    "1.4.I.B",
+    "1.4.II.B"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.C",
-    "dekt_ook_anchors": ["1.4.I.B", "1.4.II.B"],
+    "dekt_ook_anchors": [
+      "1.4.I.B",
+      "1.4.II.B"
+    ],
     "reviewed_by": null,
     "enrich_runs": [
       {
         "run_id": "enrich-run-20260515T141848Z",
         "model": "claude-opus-4-7",
-        "gaps_verwerkt": ["records.overlappend-fenomeen"],
+        "gaps_verwerkt": [
+          "records.overlappend-fenomeen"
+        ],
         "uitgevoerd_op": "2026-05-15T15:00:00+00:00"
       }
-    ]
+    ],
+    "schema_1_4_migration": {
+      "uitgevoerd_op": "2026-05-16T00:11Z",
+      "tool": "migrate_schema_1_4.py",
+      "scope": "structureel (bouwsteen-blok, formules[], stap-blok-skelet, edges)",
+      "pending_mens_review": [
+        "stagiair-toon-rewrite (regel 6)",
+        "cast-namen in voorbeelden (regel 7)",
+        "stap.hoe + voorbeeld.substappen invullen (regel 8)",
+        "atomaire formule-split + variabelen + invulling_voorbeeld (regel 12)",
+        "synthese-voorbeelden bij voorbeeld-minimum-gaps (regel 14 bron 3)"
+      ]
+    }
   },
   "definitie": {
     "text": "Een groep die op geconsolideerde of geaggregeerde basis niet meer dan één van de criteria van WVV art. 1:26, § 1 overschrijdt (jaaromzet, balanstotaal, jaargemiddelde aantal werknemers). Een vennootschap die deel uitmaakt van een groep van beperkte omvang is in beginsel vrijgesteld van de verplichting om een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen.",
     "confidence": "grounded",
-    "source": { "type": "wet", "short": "WVV art. 1:26, § 1" },
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 1:26, § 1"
+    },
     "references": [
-      { "type": "wet", "short": "WVV art. 1:24 (kleine vennootschap)" },
-      { "type": "wet", "short": "WVV art. 1:26 (groep van beperkte omvang)" },
-      { "type": "advies", "short": "CBN 2022/03 — Beoordeling groottecriteria" },
-      { "type": "advies", "short": "CBN 2022/11 — Vermogensmutatiemethode" }
+      {
+        "type": "wet",
+        "short": "WVV art. 1:24 (kleine vennootschap)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 1:26 (groep van beperkte omvang)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2022/03 — Beoordeling groottecriteria"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2022/11 — Vermogensmutatiemethode"
+      }
     ],
     "_provenance": {
       "inputs": [
-        { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" },
-        { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_beoordeling-groottecriteria-ingeval-van-een-consortium", "sha256": null, "version": "rag-v1" }
+        {
+          "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_beoordeling-groottecriteria-ingeval-van-een-consortium",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -42,11 +86,22 @@
       "aspect": "Twee berekeningsmethoden",
       "betekenis": "Methode 1: geconsolideerde basis (KB WVV-consolidatieregels toepassen) — vereist een effectieve consolidatie-oefening. Methode 2: geaggregeerde basis (alle bedragen van verbonden vennootschappen optellen, met drempels +20 %) — vereenvoudigde methode (WVV art. 1:24, § 6). Het personeelsaantal wordt steeds als jaargemiddelde per vennootschap berekend.",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/03" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/03"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_vereenvoudigde-methode-berekening-van-het-balanstotaal-en-de", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_berekeningsmethoden", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_vereenvoudigde-methode-berekening-van-het-balanstotaal-en-de",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_berekeningsmethoden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -54,58 +109,105 @@
       "aspect": "Consortium-context",
       "betekenis": "Bij een consortium wordt de groottebepaling op het niveau van de leden samen uitgevoerd. De centrale leider die geen vennootschap is (bv. natuurlijke persoon, private stichting) wordt niet meegeteld.",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/09" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/09"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_beoordeling-groottecriteria-ingeval-van-een-consortium", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_beoordeling-groottecriteria-ingeval-van-een-consortium",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
   ],
-  "vergelijkingsparen": [
-    {
-      "vergelijking_met": "groottecriteria-consolidatie",
-      "verschil": "Twee verschillende fenomenen die op dezelfde wettelijke basis (WVV art. 1:26, § 1) zijn gegrond maar verschillende rol spelen: (a) 'groep van beperkte omvang' is de juridische kwalificatie (statuut) die als zij wordt vastgesteld een vrijstelling triggert van de verplichting om een geconsolideerde jaarrekening en een jaarverslag op te stellen (CBN 2022/11, randnr. 'Toepassingsgebied'); (b) 'groottecriteria-consolidatie' is de meet-set en bijbehorende rekenmethoden (omzet, balanstotaal, jaargemiddelde personeel; geconsolideerde basis vs. geaggregeerde basis +20 %) waaraan de kwalificatie wordt afgemeten (CBN 2022/03, randnr. 'Vereenvoudigde methode'). De groottecriteria-set is ook nodig in andere contexten dan vrijstelling van consolidatie (bv. kwalificatie kleine/grote vennootschap onder WVV art. 1:24); de kwalificatie 'groep van beperkte omvang' is daarentegen één specifieke uitkomst van een groottetoets, met als enig gevolg de consolidatie-vrijstelling. Het zijn dus geen synoniemen: examenrelevant onderscheid is 'wat is de uitkomst van de toets?' (kwalificatie) versus 'wat zijn de drempels en de berekeningswijze?' (criteria-set).",
-      "corrected_from": "De 'groep van beperkte omvang' is de kwalificatie (het juridisch statuut van vrijstelling); 'groottecriteria-consolidatie' verwijst naar de toets-set (omzet, balanstotaal, personeel) waaraan die kwalificatie wordt afgemeten.",
-      "correction_reason": "VERIFY-run signaleerde overlap-risico tussen beide records (records.overlappend-fenomeen). De bronnen (CBN 2022/03 berekeningsmethoden en CBN 2022/11 toepassingsgebied) tonen dat het twee verschillende fenomenen zijn (statuut vs. meet-set met rekenregels); aanscherping van het 'verschil'-veld zonder merge is dus de juiste oplossing.",
-      "correction_source": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_vereenvoudigde-methode-berekening-van-het-balanstotaal-en-de",
-      "_provenance": {
-        "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_vereenvoudigde-methode-berekening-van-het-balanstotaal-en-de", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    },
-    {
-      "vergelijking_met": "consolidatieverplichting",
-      "verschil": "De consolidatieverplichting is de regel; de kwalificatie als 'groep van beperkte omvang' triggert de uitzondering (vrijstelling). De vrijstelling betreft zowel de jaarrekening als het jaarverslag.",
-      "_provenance": {
-        "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    }
-  ],
+  "vergelijkingsparen": [],
   "valkuilen": [
     {
       "text": "Vrijstelling op grond van beperkte omvang werkt enkel als 'maximaal één criterium overschreden' — niet 'minder dan twee'. Het criterium-aantal moet strikt worden geteld, en alle drie de criteria moeten worden beoordeeld (omzet, balanstotaal, personeel).",
       "confidence": "grounded",
-      "source": { "type": "wet", "short": "WVV art. 1:26, § 1 (toepassing analoog aan art. 1:24)" },
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:26, § 1 (toepassing analoog aan art. 1:24)"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update__sec_verband-met-de-berekening-van-de-groottecriteria-bij-transac", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update__sec_verband-met-de-berekening-van-de-groottecriteria-bij-transac",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
       "text": "De vrijstelling vervalt niet zomaar wanneer de drempels eenmalig worden overschreden — er gelden specifieke regels over duurzaamheid van overschrijdingen (zie CBN 2024/07 voor de actualisering van drempels en de impact-overgangsregels). Bij twijfel: raadpleeg het Cijferzakboekje voor de actuele drempels.",
       "confidence": "inferred",
-      "source": { "type": "advies", "short": "CBN 2024/07" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2024/07"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2024-07-gevolgen-verhoging-groottecriteria-voor-vennootschappen__sec_voorbeeld-5-beoordeling-op-geconsolideerde-of-geaggregeerde-_part2", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2024-07-gevolgen-verhoging-groottecriteria-voor-vennootschappen__sec_voorbeeld-5-beoordeling-op-geconsolideerde-of-geaggregeerde-_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
+    }
+  ],
+  "edges": [
+    {
+      "type": "contrasteert-met",
+      "target": "groottecriteria-consolidatie",
+      "redenering": "Twee verschillende fenomenen die op dezelfde wettelijke basis (WVV art. 1:26, § 1) zijn gegrond maar verschillende rol spelen: (a) 'groep van beperkte omvang' is de juridische kwalificatie (statuut) die als zij wordt vastgesteld een vrijste",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_vereenvoudigde-methode-berekening-van-het-balanstotaal-en-de",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "contrasteert-met",
+      "target": "consolidatieverplichting",
+      "redenering": "De consolidatieverplichting is de regel; de kwalificatie als 'groep van beperkte omvang' triggert de uitzondering (vrijstelling). De vrijstelling betreft zowel de jaarrekening als het jaarverslag.",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "uitzondering-op",
+      "target": "consolidatieverplichting",
+      "redenering": "Groep onder de drempelwaarden is vrijgesteld van consolidatieplicht.",
+      "confidence": "inferred"
     }
   ]
 }

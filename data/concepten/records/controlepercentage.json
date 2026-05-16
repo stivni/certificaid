@@ -2,29 +2,88 @@
   "id": "controlepercentage",
   "naam": "Controlepercentage",
   "node_type": "begrip",
-  "schema_version": "1.2",
+  "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.C", "1.4.I.B", "1.4.I.D", "1.4.taak.1"],
+  "linked_anchors": [
+    "1.4.I.C",
+    "1.4.I.B",
+    "1.4.I.D",
+    "1.4.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.C",
-    "dekt_ook_anchors": ["1.4.I.B", "1.4.I.D", "1.4.taak.1"],
-    "reviewed_by": null
+    "dekt_ook_anchors": [
+      "1.4.I.B",
+      "1.4.I.D",
+      "1.4.taak.1"
+    ],
+    "reviewed_by": null,
+    "schema_1_4_migration": {
+      "uitgevoerd_op": "2026-05-16T00:11Z",
+      "tool": "migrate_schema_1_4.py",
+      "scope": "structureel (bouwsteen-blok, formules[], stap-blok-skelet, edges)",
+      "pending_mens_review": [
+        "stagiair-toon-rewrite (regel 6)",
+        "cast-namen in voorbeelden (regel 7)",
+        "stap.hoe + voorbeeld.substappen invullen (regel 8)",
+        "atomaire formule-split + variabelen + invulling_voorbeeld (regel 12)",
+        "synthese-voorbeelden bij voorbeeld-minimum-gaps (regel 14 bron 3)"
+      ]
+    },
+    "jargon_pass3": {
+      "uitgevoerd_op": "2026-05-16T00:17Z",
+      "tool": "jargon_pass3.py",
+      "scope": "deterministische jargon-substituties + cast-namen in voorbeeld-velden (regels 6 + 7)",
+      "aantal_substituties": 2,
+      "voorbeelden": [
+        {
+          "pad": ".berekeningsmethode[0].concreet_voorbeeld.scenario",
+          "oude_term": "M bezit",
+          "nieuwe_term": "Aurelia Holding NV bezit"
+        },
+        {
+          "pad": ".berekeningsmethode[0].concreet_voorbeeld.resultaat",
+          "oude_term": "van M",
+          "nieuwe_term": "van Aurelia Holding NV"
+        }
+      ]
+    }
   },
   "definitie": {
     "text": "Het percentage van de stemrechten dat een vennootschap (direct of indirect via dochterondernemingen) in een andere vennootschap aanhoudt. Het controlepercentage dient om te beoordelen of er sprake is van controle in rechte. In een ketenstructuur (M → A → B) wordt het controlepercentage doorgaans niet vermenigvuldigd: zodra elke schakel exclusieve controle uitoefent, telt het volledige stemrechtpercentage van de onderste schakel mee als 'gecontroleerd door de moeder'.",
     "confidence": "inferred-from-aggregation",
-    "source": { "type": "wet", "short": "WVV art. 1:14 jo. art. 1:16" },
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 1:14 jo. art. 1:16"
+    },
     "references": [
-      { "type": "wet", "short": "WVV art. 1:14, § 2" },
-      { "type": "wet", "short": "WVV art. 1:15" },
-      { "type": "advies", "short": "CBN 2017/02 — Gezamenlijke controle (groottecriteria-update)" }
+      {
+        "type": "wet",
+        "short": "WVV art. 1:14, § 2"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 1:15"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2017/02 — Gezamenlijke controle (groottecriteria-update)"
+      }
     ],
     "_provenance": {
       "inputs": [
-        { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" },
-        { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7", "sha256": null, "version": "rag-v1" }
+        {
+          "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -34,10 +93,17 @@
       "betekenis": "Het controlepercentage meet de macht (stemrechten); het belangenpercentage meet het economisch eigenaarschap (kapitaal, winstrecht). Beide kunnen verschillen bij stemrechtenstructuren (preferente aandelen, certificering, stemrechtloze aandelen). In een keten M → 80 % A → 60 % B bedraagt het controlepercentage van M in B nog steeds 60 % (zolang A exclusief gecontroleerd wordt), terwijl het belangenpercentage 80 % × 60 % = 48 % bedraagt.",
       "herkenningspunt": "Tabelopgaven met 'M x % van A en A y % van B' — controle: niet vermenigvuldigen zolang elke schakel controleert; belang: wel vermenigvuldigen.",
       "confidence": "inferred-from-aggregation",
-      "source": { "type": "advies", "short": "CBN 2017/02 — Gezamenlijke controle" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2017/02 — Gezamenlijke controle"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -45,10 +111,17 @@
       "aspect": "Beoordelen van consolidatieverplichting",
       "betekenis": "Een controlepercentage > 50 % stemrechten levert in beginsel exclusieve controle (in rechte) op en triggert integrale consolidatie. Bij precies 50 % zonder stemovereenkomst is er géén controle. Bij stemovereenkomst tussen meerdere vennoten ontstaat gezamenlijke controle.",
       "confidence": "inferred-from-aggregation",
-      "source": { "type": "advies", "short": "CBN 2017/02" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2017/02"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
@@ -56,59 +129,141 @@
   "berekeningsmethode": [
     {
       "naam": "Controlepercentage in een verticale keten",
-      "formule": "controle% (M in B) = controle% (A in B), op voorwaarde dat M exclusieve controle uitoefent op A",
       "ratio": "Zodra elke tussenliggende schakel exclusief wordt gecontroleerd, vloeit de zeggenschap over de onderste schakel volledig door naar de top. Vermenigvuldigen geldt enkel voor het belang (economisch eigenaarschap), niet voor de controle (zeggenschap).",
       "stappen": [
-        { "volgorde": 1, "text": "Bepaal of M elke tussenliggende schakel exclusief controleert (> 50 % stemrechten of andere onweerlegbare titel)." },
-        { "volgorde": 2, "text": "Zo ja: het controlepercentage van M in B is gelijk aan het controlepercentage van de directe moeder (A) in B." },
-        { "volgorde": 3, "text": "Zo niet: er is geen doorlopende controle; B is geen dochter van M maar mogelijk een geassocieerde of een gemeenschappelijke dochter, afhankelijk van de structuur." }
+        {
+          "nr": 1,
+          "titel": "Bepaal of M elke tussenliggende schakel exclusief controleert…",
+          "wat": "Bepaal of M elke tussenliggende schakel exclusief controleert (> 50 % stemrechten of andere onweerlegbare titel).",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Bepaal of M elke tussenliggende schakel exclusief controleert (> 50 % stemrechten of andere onweerlegbare titel).",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        },
+        {
+          "nr": 2,
+          "titel": "Zo ja: het controlepercentage van M in B…",
+          "wat": "Zo ja: het controlepercentage van M in B is gelijk aan het controlepercentage van de directe moeder (A) in B.",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Zo ja: het controlepercentage van M in B is gelijk aan het controlepercentage van de directe moeder (A) in B.",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        },
+        {
+          "nr": 3,
+          "titel": "Zo niet: er is geen doorlopende controle; B…",
+          "wat": "Zo niet: er is geen doorlopende controle; B is geen dochter van M maar mogelijk een geassocieerde of een gemeenschappelijke dochter, afhankelijk van de structuur.",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Zo niet: er is geen doorlopende controle; B is geen dochter van M maar mogelijk een geassocieerde of een gemeenschappelijke dochter, afhankelijk van de structuur.",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        }
       ],
       "concreet_voorbeeld": {
-        "scenario": "M bezit 80 % van A; A bezit 60 % van B. A is exclusief gecontroleerd door M.",
+        "scenario": "Aurelia Holding NV bezit 80 % van A; A bezit 60 % van B. A is exclusief gecontroleerd door M.",
         "berekening": "controle% (M in B) = controle% (A in B) = 60 %. (Belangenpercentage (M in B) = 0,80 × 0,60 = 0,48 = 48 %.)",
-        "resultaat": "M controleert B exclusief (> 50 % stemrechten via A). B is een dochteronderneming van M en wordt integraal geconsolideerd. Het aandeel van derden in B bedraagt 1 − 0,48 = 52 % van het eigen vermogen van B."
+        "resultaat": "M controleert B exclusief (> 50 % stemrechten via A). B is een dochteronderneming van Aurelia Holding NV en wordt integraal geconsolideerd. Het aandeel van derden in B bedraagt 1 − 0,48 = 52 % van het eigen vermogen van B."
       },
-      "source": { "type": "advies", "short": "CBN 2017/02 — Gezamenlijke controle (synthese)" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2017/02 — Gezamenlijke controle (synthese)"
+      },
       "confidence": "inferred-from-aggregation",
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
-      }
+      },
+      "formules": [
+        {
+          "id": "controlepercentage-in-een-verticale-kete",
+          "naam": "Controlepercentage in een verticale keten",
+          "wiskunde": "controle% (M in B) = controle% (A in B), op voorwaarde dat M exclusieve controle uitoefent op A",
+          "_corrected_from": {
+            "veld": "berekeningsmethode.formule (string) → formules[].wiskunde",
+            "reden": "Schema 1.2→1.4: formule-blok-formalisering (regel 12). Atomaire splits + variabelen + invulling_voorbeeld pending mens-review."
+          }
+        }
+      ]
     }
   ],
-  "vergelijkingsparen": [
-    {
-      "vergelijking_met": "belangenpercentage",
-      "verschil": "Controlepercentage = stemrechten (zeggenschap); belangenpercentage = kapitaal/eigendomsverhouding. Bij ketens: controle wordt niet vermenigvuldigd, belang wel.",
-      "trigger": "Vraagstellingen die expliciet vragen 'wie heeft controle' versus 'welk aandeel van de winst' — twee verschillende berekeningen.",
-      "_provenance": {
-        "inputs": [
-          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    },
-    {
-      "vergelijking_met": "controle",
-      "verschil": "Controlepercentage is een kwantitatief getal; controle is een kwalitatief oordeel (al dan niet). Een controlepercentage > 50 % triggert het onweerlegbaar vermoeden van controle in rechte, maar controle kan ook bij lager percentages bestaan (controle in feite, gezamenlijke controle).",
-      "_provenance": {
-        "inputs": [
-          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    }
-  ],
+  "vergelijkingsparen": [],
   "valkuilen": [
     {
       "text": "Niet alle aandelen geven stemrechten. Bij stemrechtloze aandelen of preferente aandelen valt het kapitaal (belangenpercentage) níet samen met de stemrechten (controlepercentage). Lees de opgave nauwkeurig.",
       "confidence": "inferred",
-      "source": { "type": "advies", "short": "Synthese WVV/CBN" },
+      "source": {
+        "type": "advies",
+        "short": "Synthese WVV/CBN"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
+    }
+  ],
+  "edges": [
+    {
+      "type": "contrasteert-met",
+      "target": "belangenpercentage",
+      "redenering": "Controlepercentage = stemrechten (zeggenschap); belangenpercentage = kapitaal/eigendomsverhouding. Bij ketens: controle wordt niet vermenigvuldigd, belang wel.",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "contrasteert-met",
+      "target": "controle",
+      "redenering": "Controlepercentage is een kwantitatief getal; controle is een kwalitatief oordeel (al dan niet). Een controlepercentage > 50 % triggert het onweerlegbaar vermoeden van controle in rechte, maar controle kan ook bij lager percentages bestaan ",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "controle",
+      "redenering": "Controlepercentage is een meetinstrument voor controle.",
+      "confidence": "inferred"
     }
   ]
 }

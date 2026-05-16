@@ -2,31 +2,91 @@
   "id": "geassocieerde-onderneming",
   "naam": "Geassocieerde onderneming",
   "node_type": "actor",
-  "schema_version": "1.2",
+  "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.E", "1.4.I.G", "1.4.I.C", "1.4.taak.1"],
+  "linked_anchors": [
+    "1.4.I.E",
+    "1.4.I.G",
+    "1.4.I.C",
+    "1.4.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.E",
-    "dekt_ook_anchors": ["1.4.I.G", "1.4.I.C", "1.4.taak.1"],
-    "reviewed_by": null
+    "dekt_ook_anchors": [
+      "1.4.I.G",
+      "1.4.I.C",
+      "1.4.taak.1"
+    ],
+    "reviewed_by": null,
+    "schema_1_4_migration": {
+      "uitgevoerd_op": "2026-05-16T00:11Z",
+      "tool": "migrate_schema_1_4.py",
+      "scope": "structureel (bouwsteen-blok, formules[], stap-blok-skelet, edges)",
+      "pending_mens_review": [
+        "stagiair-toon-rewrite (regel 6)",
+        "cast-namen in voorbeelden (regel 7)",
+        "stap.hoe + voorbeeld.substappen invullen (regel 8)",
+        "atomaire formule-split + variabelen + invulling_voorbeeld (regel 12)",
+        "synthese-voorbeelden bij voorbeeld-minimum-gaps (regel 14 bron 3)"
+      ]
+    },
+    "jargon_pass3": {
+      "uitgevoerd_op": "2026-05-16T00:17Z",
+      "tool": "jargon_pass3.py",
+      "scope": "deterministische jargon-substituties + cast-namen in voorbeeld-velden (regels 6 + 7)",
+      "aantal_substituties": 1,
+      "voorbeelden": [
+        {
+          "pad": ".definitie.text",
+          "oude_term": "gemeenschappelijke dochteronderneming",
+          "nieuwe_term": "gemeenschappelijke dochter"
+        }
+      ]
+    }
   },
   "definitie": {
-    "text": "Een onderneming, andere dan een dochteronderneming of een gemeenschappelijke dochteronderneming, waarin een andere onderneming een deelneming en een invloed van betekenis op de oriëntatie van het beleid bezit. Een invloed van betekenis wordt weerlegbaar vermoed wanneer de stemrechten verbonden aan deze deelneming twintig procent of meer bedragen van het totaal van de stemrechten van de aandeelhouders van die onderneming.",
+    "text": "Een onderneming, andere dan een dochteronderneming of een gemeenschappelijke dochter, waarin een andere onderneming een deelneming en een invloed van betekenis op de oriëntatie van het beleid bezit. Een invloed van betekenis wordt weerlegbaar vermoed wanneer de stemrechten verbonden aan deze deelneming twintig procent of meer bedragen van het totaal van de stemrechten van de aandeelhouders van die onderneming.",
     "confidence": "grounded",
-    "source": { "type": "wet", "short": "WVV art. 1:22" },
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 1:22"
+    },
     "references": [
-      { "type": "wet", "short": "WVV art. 1:22" },
-      { "type": "kb", "short": "KB WVV art. 3:141 — 3:145 (vermogensmutatie)" },
-      { "type": "advies", "short": "CBN 2013/3 — Step acquisitions (update)" },
-      { "type": "advies", "short": "CBN 2022/11 — Vermogensmutatiemethode" },
-      { "type": "advies", "short": "CBN 2014/3 — Mutaties binnen eigen vermogen van geassocieerde" }
+      {
+        "type": "wet",
+        "short": "WVV art. 1:22"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:141 — 3:145 (vermogensmutatie)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2013/3 — Step acquisitions (update)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2022/11 — Vermogensmutatiemethode"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2014/3 — Mutaties binnen eigen vermogen van geassocieerde"
+      }
     ],
     "_provenance": {
       "inputs": [
-        { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" },
-        { "id": "CBN-2014-03-de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde__sec_inleiding", "sha256": null, "version": "rag-v1" }
+        {
+          "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2014-03-de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -36,12 +96,27 @@
       "betekenis": "Deelnemingen in geassocieerde ondernemingen worden gewaardeerd via de vermogensmutatiemethode (KB WVV art. 3:142). De aanschaffingswaarde wordt vervangen door het pro-rata aandeel in het eigen vermogen, jaarlijks verhoogd of verminderd met het pro-rata aandeel in het resultaat (excl. winstbestemming als dividend). Op de balans verschijnt de deelneming in een aparte rubriek 'Vennootschappen waarop vermogensmutatie is toegepast' (KB WVV art. 3:141).",
       "herkenningspunt": "Deelneming 20–50 % zonder controle → standaard 'geassocieerde onderneming' → vermogensmutatie.",
       "confidence": "grounded",
-      "source": { "type": "kb", "short": "KB WVV art. 3:141 — 3:145" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:141 — 3:145"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_112", "sha256": null, "version": "rag-v1" },
-          { "id": "KB-WVV-2019__art_3_113", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_112",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_113",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -49,11 +124,22 @@
       "aspect": "Wijzigingen binnen eigen vermogen van de geassocieerde",
       "betekenis": "Niet enkel het resultaat (dat dan boekjaar voor boekjaar in 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast' wordt geboekt) doet de waarde wijzigen. Ook andere mutaties in het eigen vermogen van de geassocieerde — herwaarderingsmeerwaarden, kapitaalsubsidies, gerealiseerde meerwaardes overgeboekt naar onbeschikbare reserves, omrekeningsverschillen — vertalen zich pro rata in de geconsolideerde jaarrekening van de moeder.",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2014/3 — Mutaties binnen eigen vermogen geassocieerde" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2014/3 — Mutaties binnen eigen vermogen geassocieerde"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2014-03-de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde__sec_inleiding", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_directe-mutaties-binnen-het-eigen-vermogen-van-de-geassociee", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2014-03-de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_directe-mutaties-binnen-het-eigen-vermogen-van-de-geassociee",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
@@ -64,11 +150,18 @@
       "waarde": "≥ 20 %",
       "eenheid": "stemrechten",
       "gevolg": "Vermoeden dat de moeder invloed van betekenis heeft op het beleid → kwalificatie geassocieerde onderneming → vermogensmutatie.",
-      "source": { "type": "wet", "short": "WVV art. 1:22, § 2" },
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:22, § 2"
+      },
       "confidence": "grounded",
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -77,64 +170,125 @@
       "waarde": "> 50 % stemrechten of andere titel van controle",
       "eenheid": "stemrechten",
       "gevolg": "Vanaf controle (in rechte of feite) wordt de onderneming geen geassocieerde meer maar een dochteronderneming → integrale consolidatie.",
-      "source": { "type": "wet", "short": "WVV art. 1:14 jo. art. 1:22" },
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:14 jo. art. 1:22"
+      },
       "confidence": "inferred-from-aggregation",
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
   ],
-  "vergelijkingsparen": [
-    {
-      "vergelijking_met": "dochteronderneming",
-      "verschil": "Dochter = onderneming onder controle (in rechte/feite, exclusief/gezamenlijk). Geassocieerde = onderneming met invloed van betekenis maar zonder controle. Dochter → integrale/evenredige consolidatie; geassocieerde → vermogensmutatie.",
-      "_provenance": {
-        "inputs": [
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    },
-    {
-      "vergelijking_met": "gemeenschappelijke-dochteronderneming",
-      "verschil": "Een gemeenschappelijke dochter staat onder gezamenlijke controle (overeenkomst voor gezamenlijke besluitvorming) en wordt evenredig geconsolideerd. Een geassocieerde onderneming kent geen controlebevoegdheid; ze wordt via vermogensmutatie opgenomen.",
-      "_provenance": {
-        "inputs": [
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    },
-    {
-      "vergelijking_met": "vermogensmutatiemethode",
-      "verschil": "De geassocieerde onderneming is de soort entiteit; de vermogensmutatiemethode is de boekhoudkundige techniek die op die entiteit wordt toegepast. Niet elke vermogensmutatie geldt een geassocieerde — ook bepaalde dochters (KB WVV art. 3:100) en sommige gemeenschappelijke dochters worden via vermogensmutatie opgenomen.",
-      "_provenance": {
-        "inputs": [
-          { "id": "KB-WVV-2019__art_3_78", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    }
-  ],
+  "vergelijkingsparen": [],
   "valkuilen": [
     {
       "text": "De waarde van een deelneming in een geassocieerde onderneming kan op de balans nooit lager zijn dan nul. Indien het pro-rata aandeel in een verlies de boekwaarde overstijgt, wordt de mutatie afgebroken op 0 — verdere verliezen worden niet doorgeboekt zolang er geen aanvullende verplichting bestaat.",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/11" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/11"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_3", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
       "text": "De toepassing van de vermogensmutatiemethode geeft geen vrijstelling van subconsolidatie — een groep met enkel een geassocieerde onderneming kan nog steeds consolidatieplichtig zijn op grond van haar andere dochters.",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/11" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/11"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassing-van-de-vermogensmutatiemethode", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassing-van-de-vermogensmutatiemethode",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
+    }
+  ],
+  "edges": [
+    {
+      "type": "contrasteert-met",
+      "target": "dochteronderneming",
+      "redenering": "Dochter = onderneming onder controle (in rechte/feite, exclusief/gezamenlijk). Geassocieerde = onderneming met invloed van betekenis maar zonder controle. Dochter → integrale/evenredige consolidatie; geassocieerde → vermogensmutatie.",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "contrasteert-met",
+      "target": "gemeenschappelijke-dochteronderneming",
+      "redenering": "Een gemeenschappelijke dochter staat onder gezamenlijke controle (overeenkomst voor gezamenlijke besluitvorming) en wordt evenredig geconsolideerd. Een geassocieerde onderneming kent geen controlebevoegdheid; ze wordt via vermogensmutatie o",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "contrasteert-met",
+      "target": "vermogensmutatiemethode",
+      "redenering": "De geassocieerde onderneming is de soort entiteit; de vermogensmutatiemethode is de boekhoudkundige techniek die op die entiteit wordt toegepast. Niet elke vermogensmutatie geldt een geassocieerde — ook bepaalde dochters (KB WVV art. 3:100)",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_78",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "consolidatiekring",
+      "redenering": "Geassocieerde onderneming valt binnen de consolidatiekring via vermogensmutatie.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "invloed-van-betekenis",
+      "redenering": "Een geassocieerde onderneming wordt geïdentificeerd op basis van invloed van betekenis.",
+      "confidence": "inferred"
     }
   ]
 }

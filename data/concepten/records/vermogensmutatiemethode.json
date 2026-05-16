@@ -2,43 +2,141 @@
   "id": "vermogensmutatiemethode",
   "naam": "Vermogensmutatiemethode (equity method)",
   "node_type": "methode",
-  "schema_version": "1.2",
+  "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.E", "1.4.I.D", "1.4.I.G", "1.4.II.C", "1.4.taak.1"],
+  "linked_anchors": [
+    "1.4.I.E",
+    "1.4.I.D",
+    "1.4.I.G",
+    "1.4.II.C",
+    "1.4.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.E",
-    "dekt_ook_anchors": ["1.4.I.D", "1.4.I.G", "1.4.II.C", "1.4.taak.1"],
+    "dekt_ook_anchors": [
+      "1.4.I.D",
+      "1.4.I.G",
+      "1.4.II.C",
+      "1.4.taak.1"
+    ],
     "reviewed_by": null,
     "enrich_runs": [
       {
         "run_id": "enrich-run-20260515T141848Z",
         "model": "claude-opus-4-7",
-        "gaps_verwerkt": ["vergelijkingsparen.vrije-tekst-niet-gespiegeld"],
+        "gaps_verwerkt": [
+          "vergelijkingsparen.vrije-tekst-niet-gespiegeld"
+        ],
         "uitgevoerd_op": "2026-05-15T15:00:00+00:00"
       }
-    ]
+    ],
+    "schema_1_4_migration": {
+      "uitgevoerd_op": "2026-05-16T00:11Z",
+      "tool": "migrate_schema_1_4.py",
+      "scope": "structureel (bouwsteen-blok, formules[], stap-blok-skelet, edges)",
+      "pending_mens_review": [
+        "stagiair-toon-rewrite (regel 6)",
+        "cast-namen in voorbeelden (regel 7)",
+        "stap.hoe + voorbeeld.substappen invullen (regel 8)",
+        "atomaire formule-split + variabelen + invulling_voorbeeld (regel 12)",
+        "synthese-voorbeelden bij voorbeeld-minimum-gaps (regel 14 bron 3)"
+      ]
+    },
+    "jargon_pass3": {
+      "uitgevoerd_op": "2026-05-16T00:17Z",
+      "tool": "jargon_pass3.py",
+      "scope": "deterministische jargon-substituties + cast-namen in voorbeeld-velden (regels 6 + 7)",
+      "aantal_substituties": 6,
+      "voorbeelden": [
+        {
+          "pad": ".doel.text",
+          "oude_term": "gemeenschappelijke dochterondernemingen",
+          "nieuwe_term": "gemeenschappelijke dochters"
+        },
+        {
+          "pad": ".doel.text",
+          "oude_term": "verwervingsdatum",
+          "nieuwe_term": "datum van aankoop"
+        },
+        {
+          "pad": ".voorwaarden_toepassing[2].text",
+          "oude_term": "consoliderende vennootschap",
+          "nieuwe_term": "moedervennootschap"
+        },
+        {
+          "pad": ".berekeningsmethode[0].formules[0].wiskunde",
+          "oude_term": "verwervingsdatum",
+          "nieuwe_term": "datum van aankoop"
+        },
+        {
+          "pad": ".in_praktijk[0].betekenis",
+          "oude_term": "consoliderende vennootschap",
+          "nieuwe_term": "moedervennootschap"
+        }
+      ]
+    }
   },
   "doel": {
-    "text": "Een deelneming wordt in de geconsolideerde jaarrekening niet activum-per-activum opgenomen, maar als één gesynthetiseerde balanspost — initieel gewaardeerd aan het pro-rata aandeel in het eigen vermogen van de betrokken onderneming op verwervingsdatum, en vervolgens jaarlijks aangepast voor het pro-rata aandeel in de wijzigingen in dat eigen vermogen (resultaat en directe mutaties). De methode wordt toegepast op (a) geassocieerde ondernemingen (invloed van betekenis, geen controle), (b) gemeenschappelijke dochterondernemingen waarvan het bedrijf niet nauw geïntegreerd is in dat van de moeder, en (c) dochterondernemingen buiten de consolidatie gelaten op grond van KB WVV art. 3:98 of 3:99.",
+    "text": "Een deelneming wordt in de geconsolideerde jaarrekening niet activum-per-activum opgenomen, maar als één gesynthetiseerde balanspost — initieel gewaardeerd aan het pro-rata aandeel in het eigen vermogen van de betrokken onderneming op datum van aankoop, en vervolgens jaarlijks aangepast voor het pro-rata aandeel in de wijzigingen in dat eigen vermogen (resultaat en directe mutaties). De methode wordt toegepast op (a) geassocieerde ondernemingen (invloed van betekenis, geen controle), (b) gemeenschappelijke dochters waarvan het bedrijf niet nauw geïntegreerd is in dat van de moeder, en (c) dochterondernemingen buiten de consolidatie gelaten op grond van KB WVV art. 3:98 of 3:99.",
     "confidence": "grounded",
-    "source": { "type": "kb", "short": "KB WVV art. 3:142 jo. art. 3:141 — 3:145" },
+    "source": {
+      "type": "kb",
+      "short": "KB WVV art. 3:142 jo. art. 3:141 — 3:145"
+    },
     "references": [
-      { "type": "kb", "short": "KB WVV art. 3:100 (uitgesloten dochters)" },
-      { "type": "kb", "short": "KB WVV art. 3:141 (balansvoorstelling)" },
-      { "type": "kb", "short": "KB WVV art. 3:142, § 1 — 2 (eerste consolidatie)" },
-      { "type": "kb", "short": "KB WVV art. 3:143 (latere consolidaties)" },
-      { "type": "kb", "short": "KB WVV art. 3:145 (aandeel in resultaat)" },
-      { "type": "advies", "short": "CBN 2022/11 — Vermogensmutatiemethode" },
-      { "type": "advies", "short": "CBN 2014/3 — Mutaties binnen eigen vermogen geassocieerde" }
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:100 (uitgesloten dochters)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:141 (balansvoorstelling)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:142, § 1 — 2 (eerste consolidatie)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:143 (latere consolidaties)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:145 (aandeel in resultaat)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2022/11 — Vermogensmutatiemethode"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2014/3 — Mutaties binnen eigen vermogen geassocieerde"
+      }
     ],
     "_provenance": {
       "inputs": [
-        { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" },
-        { "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie", "sha256": null, "version": "rag-v1" },
-        { "id": "KB-WVV-2019__art_3_113", "sha256": null, "version": "rag-v1" },
-        { "id": "KB-WVV-2019__art_3_115", "sha256": null, "version": "rag-v1" }
+        {
+          "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_113",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_115",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -46,146 +144,388 @@
     {
       "text": "Geassocieerde onderneming: deelneming met invloed van betekenis maar zonder controle (WVV art. 1:22; weerlegbaar vermoeden vanaf 20 % stemrechten).",
       "confidence": "grounded",
-      "source": { "type": "wet", "short": "WVV art. 1:22" },
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:22"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
       "text": "Gemeenschappelijke dochteronderneming waarvan het bedrijf niet nauw geïntegreerd is in dat van de moeder.",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2013/3" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2013/3"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
-      "text": "Dochteronderneming waarover de consoliderende vennootschap controle in feite bezit maar waarvan opname zou indruisen tegen het getrouwe beeld (KB WVV art. 3:98); of dochters waarvan de going-concern-veronderstelling niet meer kan worden gehandhaafd (KB WVV art. 3:99).",
+      "text": "Dochteronderneming waarover de moedervennootschap controle in feite bezit maar waarvan opname zou indruisen tegen het getrouwe beeld (KB WVV art. 3:98); of dochters waarvan de going-concern-veronderstelling niet meer kan worden gehandhaafd (KB WVV art. 3:99).",
       "confidence": "grounded",
-      "source": { "type": "kb", "short": "KB WVV art. 3:100" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:100"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_78", "sha256": null, "version": "rag-v1" },
-          { "id": "KB-WVV-2019__art_3_77", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_78",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_77",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
   ],
   "bouwstenen": [
     {
-      "naam": "Eerste consolidatie — herwaardering naar pro-rata aandeel in eigen vermogen",
-      "text": "De historische aanschaffingswaarde van de deelneming wordt vervangen door het bedrag dat overeenkomt met het deel van het eigen vermogen van de betrokken vennootschap (inclusief het resultaat over het boekjaar) dat deze deelneming vertegenwoordigt. Een eventueel verschil wordt eerst toegerekend aan onder-/overgewaardeerde activa van de betrokken vennootschap; het overblijvende deel verschijnt als 'Consolidatieverschillen' (positief of negatief) en wordt jaarlijks afgeschreven.",
+      "titel": "Eerste consolidatie — herwaardering naar pro-rata aandeel in eigen vermogen",
+      "wat": "De historische aanschaffingswaarde van de deelneming wordt vervangen door het bedrag dat overeenkomt met het deel van het eigen vermogen van de betrokken vennootschap (inclusief het resultaat over het boekjaar) dat deze deelneming vertegenwoordigt. Een eventueel verschil wordt eerst toegerekend aan onder-/overgewaardeerde activa van de betrokken vennootschap; het overblijvende deel verschijnt als 'Consolidatieverschillen' (positief of negatief) en wordt jaarlijks afgeschreven.",
+      "grondslag": "CBN 2022/11 — Eerste consolidatie",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/11 — Eerste consolidatie" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/11 — Eerste consolidatie"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
+      },
+      "_corrected_from": {
+        "veld": "bouwsteen[naam→titel, text→wat]",
+        "oude_naam": "Eerste consolidatie — herwaardering naar pro-rata aandeel in eigen vermogen",
+        "reden": "Schema 1.2→1.4: bouwsteen-blok met titel/wat/grondslag. Wetsartikel uit titel naar grondslag (regel 11). Stagiair-toon-rewrite pending mens-review."
       }
     },
     {
-      "naam": "Latere consolidaties — pro-rata aandeel in resultaat en directe mutaties",
-      "text": "De waarde van de deelneming wordt jaar na jaar verhoogd of verminderd met het pro-rata aandeel in (a) het resultaat van het boekjaar van de betrokken vennootschap, met uitsluiting van het deel dat bij bestemming als dividend wordt toegekend (dat dividend wordt apart geboekt); (b) directe mutaties binnen het eigen vermogen (herwaarderingsmeerwaarde, verkrijging kapitaalsubsidie, overboeking gerealiseerde meerwaarde, omrekeningsverschillen).",
+      "titel": "Latere consolidaties — pro-rata aandeel in resultaat en directe mutaties",
+      "wat": "De waarde van de deelneming wordt jaar na jaar verhoogd of verminderd met het pro-rata aandeel in (a) het resultaat van het boekjaar van de betrokken vennootschap, met uitsluiting van het deel dat bij bestemming als dividend wordt toegekend (dat dividend wordt apart geboekt); (b) directe mutaties binnen het eigen vermogen (herwaarderingsmeerwaarde, verkrijging kapitaalsubsidie, overboeking gerealiseerde meerwaarde, omrekeningsverschillen).",
+      "grondslag": "KB WVV art. 3:143",
       "confidence": "grounded",
-      "source": { "type": "kb", "short": "KB WVV art. 3:143" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:143"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_113", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_latere-consolidaties", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2014-03-de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde__sec_inleiding", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_113",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_latere-consolidaties",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2014-03-de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
+      },
+      "_corrected_from": {
+        "veld": "bouwsteen[naam→titel, text→wat]",
+        "oude_naam": "Latere consolidaties — pro-rata aandeel in resultaat en directe mutaties",
+        "reden": "Schema 1.2→1.4: bouwsteen-blok met titel/wat/grondslag. Wetsartikel uit titel naar grondslag (regel 11). Stagiair-toon-rewrite pending mens-review."
       }
     },
     {
-      "naam": "Presentatie op de balans (KB WVV art. 3:141)",
-      "text": "Deelnemingen waarop vermogensmutatie is toegepast worden in de geconsolideerde balans opgenomen onder een afzonderlijke post van de financiële vaste activa, genoemd 'Vennootschappen waarop vermogensmutatie is toegepast'.",
+      "titel": "Presentatie op de balans",
+      "wat": "Deelnemingen waarop vermogensmutatie is toegepast worden in de geconsolideerde balans opgenomen onder een afzonderlijke post van de financiële vaste activa, genoemd 'Vennootschappen waarop vermogensmutatie is toegepast'.",
+      "grondslag": "KB WVV art. 3:141",
       "confidence": "grounded",
-      "source": { "type": "kb", "short": "KB WVV art. 3:141" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:141"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_112", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_112",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
+      },
+      "_corrected_from": {
+        "veld": "bouwsteen[naam→titel, text→wat]",
+        "oude_naam": "Presentatie op de balans (KB WVV art. 3:141)",
+        "reden": "Schema 1.2→1.4: bouwsteen-blok met titel/wat/grondslag. Wetsartikel uit titel naar grondslag (regel 11). Stagiair-toon-rewrite pending mens-review."
       }
     },
     {
-      "naam": "Presentatie op de resultatenrekening (KB WVV art. 3:145)",
-      "text": "Het aandeel in het resultaat van de betrokken vennootschap wordt onder een afzonderlijke post 'Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast' in de geconsolideerde resultatenrekening opgenomen.",
+      "titel": "Presentatie op de resultatenrekening",
+      "wat": "Het aandeel in het resultaat van de betrokken vennootschap wordt onder een afzonderlijke post 'Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast' in de geconsolideerde resultatenrekening opgenomen.",
+      "grondslag": "KB WVV art. 3:145",
       "confidence": "grounded",
-      "source": { "type": "kb", "short": "KB WVV art. 3:145" },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:145"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "KB-WVV-2019__art_3_115", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "KB-WVV-2019__art_3_115",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
+      },
+      "_corrected_from": {
+        "veld": "bouwsteen[naam→titel, text→wat]",
+        "oude_naam": "Presentatie op de resultatenrekening (KB WVV art. 3:145)",
+        "reden": "Schema 1.2→1.4: bouwsteen-blok met titel/wat/grondslag. Wetsartikel uit titel naar grondslag (regel 11). Stagiair-toon-rewrite pending mens-review."
       }
     }
   ],
   "berekeningsmethode": [
     {
       "naam": "Eerste consolidatie — herwaardering en consolidatieverschil",
-      "formule": "Boekwaarde deelneming (eerste consolidatie) = pro-rata aandeel × eigen vermogen op verwervingsdatum + consolidatieverschil (positief of negatief)",
       "ratio": "Bij verwerving betaalt de moeder vaak een prijs verschillend van het pro-rata aandeel in het netto-actief van de geassocieerde. Het verschil wordt eerst toegewezen aan onder-/overgewaardeerde activa van de dochter en daarna geboekt als 'Consolidatieverschil'.",
       "stappen": [
-        { "volgorde": 1, "text": "Bepaal de aanschaffingswaarde van de deelneming." },
-        { "volgorde": 2, "text": "Bepaal het pro-rata aandeel in het eigen vermogen van de betrokken vennootschap op acquisitiedatum." },
-        { "volgorde": 3, "text": "Bereken het verschil (aanschaffingswaarde − pro-rata EV)." },
-        { "volgorde": 4, "text": "Wijs het verschil zoveel mogelijk toe aan onder-/overgewaardeerde activa of passiva van de dochter." },
-        { "volgorde": 5, "text": "Het overblijvende verschil wordt geboekt als positief of negatief consolidatieverschil; positief consolidatieverschil wordt afgeschreven over de vermoedelijke gebruiksduur (KB WVV art. 3:131)." }
+        {
+          "nr": 1,
+          "titel": "Bepaal de aanschaffingswaarde van de deelneming.",
+          "wat": "Bepaal de aanschaffingswaarde van de deelneming.",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Bepaal de aanschaffingswaarde van de deelneming.",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        },
+        {
+          "nr": 2,
+          "titel": "Bepaal het pro-rata aandeel in het eigen vermogen…",
+          "wat": "Bepaal het pro-rata aandeel in het eigen vermogen van de betrokken vennootschap op acquisitiedatum.",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Bepaal het pro-rata aandeel in het eigen vermogen van de betrokken vennootschap op acquisitiedatum.",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        },
+        {
+          "nr": 3,
+          "titel": "Bereken het verschil (aanschaffingswaarde − pro-rata EV).",
+          "wat": "Bereken het verschil (aanschaffingswaarde − pro-rata EV).",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Bereken het verschil (aanschaffingswaarde − pro-rata EV).",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        },
+        {
+          "nr": 4,
+          "titel": "Wijs het verschil zoveel mogelijk toe aan onder-/overgewaardeerde…",
+          "wat": "Wijs het verschil zoveel mogelijk toe aan onder-/overgewaardeerde activa of passiva van de dochter.",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Wijs het verschil zoveel mogelijk toe aan onder-/overgewaardeerde activa of passiva van de dochter.",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        },
+        {
+          "nr": 5,
+          "titel": "Het overblijvende verschil wordt geboekt als positief of…",
+          "wat": "Het overblijvende verschil wordt geboekt als positief of negatief consolidatieverschil; positief consolidatieverschil wordt afgeschreven over de vermoedelijke gebruiksduur",
+          "grondslag": "KB WVV art. 3:131",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Het overblijvende verschil wordt geboekt als positief of negatief consolidatieverschil; positief consolidatieverschil wordt afgeschreven over de vermoedelijke gebruiksduur (KB WVV art. 3:131).",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        }
       ],
       "concreet_voorbeeld": {
         "scenario": "Onderneming ABC verwerft in 20X1 een belang van 20 % in onderneming DEF. Aanschaffingswaarde 200. Netto-activa DEF op acquisitiedatum: 600.",
         "berekening": "Pro-rata aandeel in EV op acquisitiedatum = 20 % × 600 = 120.\nVerschil = 200 − 120 = 80 (positief).\nGeen onder-/overwaarderingen aangewezen → het volledige verschil van 80 wordt geboekt als positief consolidatieverschil.\nBoeking: 'Vennootschappen waarop vermogensmutatie is toegepast' (balans) +120; 'Positieve consolidatieverschillen' (balans) +80; tegenpost: 'Deelnemingen' −200.",
         "resultaat": "Eerste consolidatie: deelneming wordt voorgesteld als 'Vennootschappen waarop vermogensmutatie is toegepast' voor 120 + 'Positief consolidatieverschil' 80 — som 200 (idem als aanschaffingswaarde). Positief consolidatieverschil wordt afgeschreven over bv. 5 jaar = 16/jaar in de geconsolideerde resultatenrekening (financiële kosten of bedrijfskosten, afzonderlijke post)."
       },
-      "source": { "type": "advies", "short": "CBN 2013/3 — voorbeeld 1; KB WVV art. 3:131, 3:142" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2013/3 — voorbeeld 1; KB WVV art. 3:131, 3:142"
+      },
       "confidence": "grounded",
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
-      }
+      },
+      "formules": [
+        {
+          "id": "eerste-consolidatie-herwaardering-en-con",
+          "naam": "Eerste consolidatie — herwaardering en consolidatieverschil",
+          "wiskunde": "Boekwaarde deelneming (eerste consolidatie) = pro-rata aandeel × eigen vermogen op datum van aankoop + consolidatieverschil (positief of negatief)",
+          "_corrected_from": {
+            "veld": "berekeningsmethode.formule (string) → formules[].wiskunde",
+            "reden": "Schema 1.2→1.4: formule-blok-formalisering (regel 12). Atomaire splits + variabelen + invulling_voorbeeld pending mens-review."
+          }
+        }
+      ]
     },
     {
       "naam": "Latere consolidatie — pro-rata aandeel in winst of verlies",
-      "formule": "Δ boekwaarde deelneming = belang% × Δ eigen vermogen betrokken vennootschap (resultaat van het boekjaar, excl. dividenduitkering, plus directe EV-mutaties)",
       "ratio": "Het pro-rata aandeel in winst of verlies vertaalt zich rechtstreeks in de waarde van de deelneming op de geconsolideerde balans, met als spiegelpost een afzonderlijke resultatenpost 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast'.",
       "stappen": [
-        { "volgorde": 1, "text": "Identificeer het resultaat van de betrokken vennootschap voor het boekjaar." },
-        { "volgorde": 2, "text": "Bereken het pro-rata aandeel: belang% × resultaat." },
-        { "volgorde": 3, "text": "Verhoog (winst) of verlaag (verlies) de balanspost 'Vennootschappen waarop vermogensmutatie is toegepast' met dit aandeel." },
-        { "volgorde": 4, "text": "Boek de tegenpost in de geconsolideerde resultatenrekening als 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast' (KB WVV art. 3:145)." },
-        { "volgorde": 5, "text": "Indien dividend wordt uitgekeerd: het dividend wordt apart geboekt als opbrengst, maar het deel van het resultaat dat als dividend wordt toegekend, wordt niet (opnieuw) bij de boekwaarde van de deelneming geteld." }
+        {
+          "nr": 1,
+          "titel": "Identificeer het resultaat van de betrokken vennootschap voor…",
+          "wat": "Identificeer het resultaat van de betrokken vennootschap voor het boekjaar.",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Identificeer het resultaat van de betrokken vennootschap voor het boekjaar.",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        },
+        {
+          "nr": 2,
+          "titel": "Bereken het pro-rata aandeel: belang% × resultaat.",
+          "wat": "Bereken het pro-rata aandeel: belang% × resultaat.",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Bereken het pro-rata aandeel: belang% × resultaat.",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        },
+        {
+          "nr": 3,
+          "titel": "Verhoog (winst) of verlaag (verlies) de balanspost 'Vennootschappen…",
+          "wat": "Verhoog (winst) of verlaag (verlies) de balanspost 'Vennootschappen waarop vermogensmutatie is toegepast' met dit aandeel.",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Verhoog (winst) of verlaag (verlies) de balanspost 'Vennootschappen waarop vermogensmutatie is toegepast' met dit aandeel.",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        },
+        {
+          "nr": 4,
+          "titel": "Boek de tegenpost in de geconsolideerde resultatenrekening als…",
+          "wat": "Boek de tegenpost in de geconsolideerde resultatenrekening als 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast'",
+          "grondslag": "KB WVV art. 3:145",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Boek de tegenpost in de geconsolideerde resultatenrekening als 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast' (KB WVV art. 3:145).",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        },
+        {
+          "nr": 5,
+          "titel": "Indien dividend wordt uitgekeerd: het dividend wordt apart…",
+          "wat": "Indien dividend wordt uitgekeerd: het dividend wordt apart geboekt als opbrengst, maar het deel van het resultaat dat als dividend wordt toegekend, wordt niet (opnieuw) bij de boekwaarde van de deelneming geteld.",
+          "grondslag": "",
+          "_corrected_from": {
+            "veld": "stappen[volgorde+text] → stap-blok 1.4",
+            "oude_text": "Indien dividend wordt uitgekeerd: het dividend wordt apart geboekt als opbrengst, maar het deel van het resultaat dat als dividend wordt toegekend, wordt niet (opnieuw) bij de boekwaarde van de deelneming geteld.",
+            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
+          }
+        }
       ],
       "concreet_voorbeeld": {
         "scenario": "Geassocieerde vennootschap Y; belang van moedervennootschap M = 20 %. Hypothese 1: Y maakt in 20X2 een winst van 1.500. Hypothese 2: Y maakt in 20X2 een verlies van 1.500. Hypothese 3: Y maakt in 20X2 een verlies van 15.000 (boekwaarde van de deelneming bij eerste consolidatie was 2.600).",
         "berekening": "Hypothese 1: 20 % × 1.500 = +300 — verhoging boekwaarde deelneming + opname als 'Aandeel in de winst van vennootschappen waarop vermogensmutatie is toegepast'.\nHypothese 2: 20 % × (−1.500) = −300 — verlaging boekwaarde + 'Aandeel in het verlies …' van 300.\nHypothese 3: 20 % × (−15.000) = −3.000 — maar de boekwaarde bedraagt slechts 2.600 en kan niet onder 0 zakken. Verlies wordt slechts ten belope van 2.600 opgenomen; resterende 400 wordt niet doorgeboekt zolang geen aanvullende verplichting (CBN 2022/11).",
         "resultaat": "Hypothese 1: deelneming op balans stijgt met 300 tot bv. 2.900; resultaat verbetert met 300. Hypothese 2: deelneming daalt met 300; verlies in geconsolideerde resultatenrekening 300. Hypothese 3: deelneming wordt afgeboekt tot nul; aandeel in het verlies bedraagt 2.600 (niet 3.000)."
       },
-      "source": { "type": "advies", "short": "CBN 2022/11 — Herberekening (hypotheses 1-3); KB WVV art. 3:143, 3:145" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/11 — Herberekening (hypotheses 1-3); KB WVV art. 3:143, 3:145"
+      },
       "confidence": "grounded",
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_2", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_3", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_2",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
-      }
+      },
+      "formules": [
+        {
+          "id": "latere-consolidatie-pro-rata-aandeel-in-",
+          "naam": "Latere consolidatie — pro-rata aandeel in winst of verlies",
+          "wiskunde": "Δ boekwaarde deelneming = belang% × Δ eigen vermogen betrokken vennootschap (resultaat van het boekjaar, excl. dividenduitkering, plus directe EV-mutaties)",
+          "_corrected_from": {
+            "veld": "berekeningsmethode.formule (string) → formules[].wiskunde",
+            "reden": "Schema 1.2→1.4: formule-blok-formalisering (regel 12). Atomaire splits + variabelen + invulling_voorbeeld pending mens-review."
+          }
+        }
+      ]
     }
   ],
   "in_praktijk": [
     {
       "aspect": "Eliminatie van intra-groepswinsten",
-      "betekenis": "De resultaten van verrichtingen tussen de consoliderende vennootschap (of haar dochters) en de vennootschap waarop vermogensmutatie wordt toegepast, die in de waardering van een actief zijn begrepen, worden uit het 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast' geweerd voor het pro-rata aandeel. Geldt voor zowel upstream als downstream sales.",
+      "betekenis": "De resultaten van verrichtingen tussen de moedervennootschap (of haar dochters) en de vennootschap waarop vermogensmutatie wordt toegepast, die in de waardering van een actief zijn begrepen, worden uit het 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast' geweerd voor het pro-rata aandeel. Geldt voor zowel upstream als downstream sales.",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/11 — Intra-groepsverkopen" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/11 — Intra-groepsverkopen"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_intra-groepsverkopen-upstream-downstream-sales", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_intra-groepsverkopen-upstream-downstream-sales",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -193,10 +533,17 @@
       "aspect": "Geen vrijstelling van subconsolidatie",
       "betekenis": "Het opnemen van een vennootschap via de vermogensmutatiemethode (in plaats van integraal/evenredig) geeft de groep geen vrijstelling van haar consolidatieplicht. De moedervennootschap blijft consolidatieplichtig zolang ze een dochter heeft.",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/11 — Toepassing" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/11 — Toepassing"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassing-van-de-vermogensmutatiemethode", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassing-van-de-vermogensmutatiemethode",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -204,10 +551,17 @@
       "aspect": "Verkoop van de deelneming",
       "betekenis": "Bij verkoop wordt het verschil tussen de verkoopprijs en de boekwaarde (op vermogensmutatiebasis, inclusief mutaties tot verkoopdatum) als meer- of minderwaarde in de geconsolideerde resultatenrekening geboekt; het overblijvende positieve consolidatieverschil moet ook worden afgeboekt.",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/11 — Voorbeeld 2 verkoop deelneming" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/11 — Voorbeeld 2 verkoop deelneming"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld-2-verkoop-van-de-deelnemingen-waarop-vermogensmuta", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld-2-verkoop-van-de-deelnemingen-waarop-vermogensmuta",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
@@ -216,47 +570,36 @@
     {
       "vergelijking_met": "integrale-consolidatie",
       "verschil": "Vermogensmutatie behoudt de deelneming als één balanspost; integrale consolidatie neemt de activa/passiva regel voor regel op. Integraal → controle; vermogensmutatie → invloed van betekenis (of uitgesloten dochters).",
+      "trigger": "Soort controle / type relatie tussen moeder en dochter bepaalt welke methode.",
+      "_corrected_from": {
+        "veld": "edge → vergelijkingsparen (terug-migratie)",
+        "reden": "Pass 2: methode-onder-elkaar-vergelijking heeft examen-keuze-trigger (welke methode kies je?). Hoort in vergelijkingsparen, niet in edges (regel 9 v4)."
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
       "vergelijking_met": "evenredige-consolidatie",
-      "verschil": "Evenredig = activa/passiva pro-rata opgenomen. Vermogensmutatie = één balanspost, geherwaardeerd naar pro-rata EV. Evenredig is de regel voor gemeenschappelijke dochters; vermogensmutatie kan voor niet-geïntegreerde gemeenschappelijke dochters of voor geassocieerden.",
+      "verschil": "Evenredig = activa/passiva pro-rata opgenomen. Vermogensmutatie = één balanspost, geherwaardeerd naar pro-rata EV. Evenredig is de regel voor gemeenschappelijke dochters; vermogensmutatie kan voor niet-geïntegreerde gemeenschappelijke docht",
+      "trigger": "Soort controle / type relatie tussen moeder en dochter bepaalt welke methode.",
+      "_corrected_from": {
+        "veld": "edge → vergelijkingsparen (terug-migratie)",
+        "reden": "Pass 2: methode-onder-elkaar-vergelijking heeft examen-keuze-trigger (welke methode kies je?). Hoort in vergelijkingsparen, niet in edges (regel 9 v4)."
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    },
-    {
-      "vergelijking_met": "geassocieerde-onderneming",
-      "verschil": "De vermogensmutatiemethode is de boekhoudkundige techniek; de geassocieerde onderneming is een typisch toepassingsobject. Niet alle vermogensmutatie-deelnemingen zijn echter geassocieerden — ook uitgesloten dochters (KB WVV art. 3:100) en bepaalde gemeenschappelijke dochters worden zo verwerkt.",
-      "_provenance": {
-        "inputs": [
-          { "id": "KB-WVV-2019__art_3_78", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    },
-    {
-      "vergelijking_met": "invloed-van-betekenis",
-      "verschil": "Invloed van betekenis is het inhoudelijke kwalificatiecriterium van WVV art. 1:22 (weerlegbaar vermoeden vanaf 20 % stemrechten in een andere vennootschap die geen dochter- of gemeenschappelijke dochteronderneming is); de vermogensmutatiemethode is de boekhoudkundige techniek die KB WVV art. 3:124, 3° aan dat criterium koppelt: 'de deelnemingen in geassocieerde vennootschappen … worden gewaardeerd en het aandeel in het resultaat van deze vennootschappen vastgesteld met toepassing van de vermogensmutatiemethode'. Zonder vastgestelde invloed van betekenis is er voor een niet-controle-deelneming geen wettelijke grondslag voor vermogensmutatie. Omgekeerd: de vermogensmutatiemethode wordt ook toegepast op bepaalde uitgesloten dochters en niet-geïntegreerde gemeenschappelijke dochters — dáár zonder dat invloed van betekenis het triggerend criterium is.",
-      "_provenance": {
-        "inputs": [
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1" }
-        ]
-      }
-    },
-    {
-      "vergelijking_met": "consolidatieverschil",
-      "verschil": "Het consolidatieverschil is een gevolg van de vermogensmutatiemethode (en van de integrale consolidatie), niet de techniek zelf. Bij eerste consolidatie volgens vermogensmutatie wordt de aanschaffingswaarde van de deelneming vergeleken met het pro-rata aandeel in het eigen vermogen van de geassocieerde; het verschil wordt zoveel mogelijk toegerekend aan onder-/overgewaardeerde actief- of passiefbestanddelen, en het residu (positief of negatief) verschijnt als 'Consolidatieverschillen' (CBN 2022/11 — Eerste consolidatie). KB WVV art. 3:142, § 3 nuanceert: bij vermogensmutatie hoeft de toerekening 'slechts voor zover dit mogelijk is' te gebeuren — een soepelere norm dan bij integrale consolidatie. Bovendien staat het consolidatieverschil hier los van de balanspost 'Vennootschappen waarop vermogensmutatie is toegepast' (KB WVV art. 3:141) en wordt het afzonderlijk afgeschreven (CBN 2022/11).",
-      "_provenance": {
-        "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
@@ -265,33 +608,136 @@
     {
       "text": "Het pro-rata aandeel in een verlies kan de boekwaarde van de deelneming nooit onder nul brengen. Verdere verliezen worden niet langer doorgeboekt zolang geen aanvullende verplichting bestaat (CBN 2022/11, hypothese 3).",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/11" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/11"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_3", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
       "text": "Een dividend dat de geassocieerde uitkeert vermindert het eigen vermogen van de geassocieerde — maar wordt in de jaarrekening van de moeder geboekt als financiële opbrengst (zonder voor een tweede maal als 'aandeel in resultaat' te worden geteld). De vermogensmutatie corrigeert hiervoor: het resultaat-aandeel wordt berekend exclusief het deel dat als dividend wordt toegekend.",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2022/11 — Latere consolidaties" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/11 — Latere consolidaties"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_latere-consolidaties", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_latere-consolidaties",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
       "text": "Wijzigingen in het eigen vermogen van de geassocieerde buiten het resultaat om (herwaarderingsmeerwaarde, kapitaalsubsidie, omrekeningsverschillen) moeten ook in de vermogensmutatie worden meegenomen — niet alleen het resultaat. Dit was vroeger een onderbelicht punt; CBN 2014/3 verduidelijkte het en CBN 2022/11 codificeerde de werkwijze.",
       "confidence": "grounded",
-      "source": { "type": "advies", "short": "CBN 2014/3 + 2022/11" },
+      "source": {
+        "type": "advies",
+        "short": "CBN 2014/3 + 2022/11"
+      },
       "_provenance": {
         "inputs": [
-          { "id": "CBN-2014-03-de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde__sec_inleiding", "sha256": null, "version": "rag-v1" },
-          { "id": "CBN-2022-11-vermogensmutatiemethode__sec_directe-mutaties-binnen-het-eigen-vermogen-van-de-geassociee", "sha256": null, "version": "rag-v1" }
+          {
+            "id": "CBN-2014-03-de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_directe-mutaties-binnen-het-eigen-vermogen-van-de-geassociee",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
+    }
+  ],
+  "edges": [
+    {
+      "type": "contrasteert-met",
+      "target": "geassocieerde-onderneming",
+      "redenering": "De vermogensmutatiemethode is de boekhoudkundige techniek; de geassocieerde onderneming is een typisch toepassingsobject. Niet alle vermogensmutatie-deelnemingen zijn echter geassocieerden — ook uitgesloten dochters (KB WVV art. 3:100) en b",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_78",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "contrasteert-met",
+      "target": "invloed-van-betekenis",
+      "redenering": "Invloed van betekenis is het inhoudelijke kwalificatiecriterium van WVV art. 1:22 (weerlegbaar vermoeden vanaf 20 % stemrechten in een andere vennootschap die geen dochter- of gemeenschappelijke dochter is); de vermogensmutatieme",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "consolidatieverschil",
+      "redenering": "Het consolidatieverschil is een gevolg van de vermogensmutatiemethode (en van de integrale consolidatie), niet de techniek zelf. Bij eerste consolidatie volgens vermogensmutatie wordt de aanschaffingswaarde van de deelneming vergeleken met ",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen → edges",
+        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'getriggerd-door'."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "consolidatiemethodes-vergelijking",
+      "redenering": "Een van de vier consolidatiemethodes (synthese-record vergelijkt ze).",
+      "confidence": "inferred"
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "invloed-van-betekenis",
+      "redenering": "Vermogensmutatie wordt toegepast wanneer er invloed van betekenis is maar geen controle.",
+      "confidence": "inferred"
     }
   ]
 }
