@@ -33,16 +33,12 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: 1425 regels met 48 ##-headings, hiërarchie redelijk. Inhoud loopt
-      consistent door, WVV-referenties intact. Status 'Ontwerp' (zie body L43) — norm nog niet
-      definitief, maar dat is bron-staat, geen ETL-issue.
-    caveat: >-
-      Status 'Ontwerp' in body — content is voorlopige norm, niet finaal recht.
-    layer1: null
-    layer2: null
+    confirmed_at: '2026-05-16T20:33:59Z'
+    confirmed_by: human
+    rationale: 'Spot-check 2026-05-16: 48 ## headings, 1425 regels, structuur intact. Geen TOC-residue, geen stray page-markers, geen OCR-glitches. Document is bilingual NL-only-extractie via two-column extractor.'
+    caveat:
+    layer1:
+    layer2:
 ---
 Ontwerp
 

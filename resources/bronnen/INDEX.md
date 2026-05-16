@@ -9,9 +9,9 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
 | Wetteksten | 187 | 177 | — | 10 | — | — |
-| Normen | 55 | 16 | — | 39 | — | — |
+| Normen | 55 | 17 | — | 38 | — | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **678** | 615 | — | 63 | — | — |
+| **Totaal** | **678** | 616 | — | 62 | — | — |
 
 ## Wetteksten (187)
 
@@ -269,7 +269,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
-| `IESBA-code-of-ethics-2024.md` | ⚠️ needs-rework | fail | needs-rework | subagent-sonnet-4-6 | IESBA-code-of-ethics-2024 |
 | `ISA-200.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 200 — Algehele doelstellingen van de onafhankelijke auditor en het uitvoeren van ee… |
 | `ISA-210.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 210 — Overeenkomen van de voorwaarden van controleopdrachten |
 | `ISA-220-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 220 (herzien) — Kwaliteitsmanagement voor een controle van financiële overzichten |
@@ -307,29 +306,24 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `ISA-800-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 800 (herzien) — Bijzondere overwegingen — Controles van financiële overzichten die … |
 | `ISA-805-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 805 (herzien) — Bijzondere overwegingen — Controles van enkelvoudige financiële ove… |
 | `ISA-810-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 810 (herzien) — Opdrachten om te rapporteren betreffende samengevatte financiële ov… |
-| `ITAA-norm-gedragslijnen-relaties-IBR.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ITAA-norm-gedragslijnen-relaties-IBR |
+| `ITAA-norm-aww-geconsolideerd.md` | ⚠️ needs-rework | — | — | human | ITAA-norm-aww-geconsolideerd |
+| `IESBA-code-of-ethics-2024.md` | ✅ trusted | — | — | hoofdsessie-tdd-fix-2026-05-16 | IESBA-code-of-ethics-2024 |
 | `ITAA-deontologie-beroepsgeheim.md` | ✅ trusted | — | — | human | ITAA-deontologie-beroepsgeheim |
 | `ITAA-norm-algemene-controlenorm.md` | ✅ trusted | — | — | human | ITAA-norm-algemene-controlenorm |
-| `ITAA-norm-aww-geconsolideerd.md` | ✅ trusted ⚠️[^ITAA-norm-aww-geconsolideerd.md] | — | — | subagent-qa-2026-05-16 | ITAA-norm-aww-geconsolideerd |
 | `ITAA-norm-aww-procedurereglement.md` | ✅ trusted | — | — | human | ITAA-norm-aww-procedurereglement |
 | `ITAA-norm-aww-reglement.md` | ✅ trusted | — | — | human | ITAA-norm-aww-reglement |
 | `ITAA-norm-aww-richtlijn-bibf.md` | ✅ trusted | — | — | human | ITAA-norm-aww-richtlijn-bibf |
 | `ITAA-norm-domiciliering.md` | ✅ trusted | — | — | human | ITAA-norm-domiciliering |
-| `ITAA-norm-effectennorm.md` | ✅ trusted ⚠️[^ITAA-norm-effectennorm.md] | — | — | subagent-qa-2026-05-16 | ITAA-norm-effectennorm |
+| `ITAA-norm-effectennorm.md` | ✅ trusted | — | — | human | ITAA-norm-effectennorm |
 | `ITAA-norm-fusie-splitsing.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | ITAA-norm-fusie-splitsing |
+| `ITAA-norm-gedragslijnen-relaties-IBR.md` | ✅ trusted | — | — | human | ITAA-norm-gedragslijnen-relaties-IBR |
 | `ITAA-norm-intern-kwaliteitsmanagement.md` | ✅ trusted | — | — | human | ITAA-norm-intern-kwaliteitsmanagement |
 | `ITAA-norm-kmo-controlenorm.md` | ✅ trusted | — | — | human | ITAA-norm-kmo-controlenorm |
-| `ITAA-norm-omzetting-vennootschap.md` | ✅ trusted ⚠️[^ITAA-norm-omzetting-vennootschap.md] | — | — | subagent-qa-2026-05-16 | ITAA-norm-omzetting-vennootschap |
+| `ITAA-norm-omzetting-vennootschap.md` | ✅ trusted | — | — | human | ITAA-norm-omzetting-vennootschap |
 | `ITAA-norm-ontbinding-vereffening.md` | ✅ trusted | — | — | human | ITAA-norm-ontbinding-vereffening |
 | `ITAA-norm-opdrachtbrief.md` | ✅ trusted | — | — | human | ITAA-norm-opdrachtbrief |
 | `ITAA-norm-permanente-vorming.md` | ✅ trusted | — | — | human | ITAA-norm-permanente-vorming |
 | `ITAA-norm-samenstellingsopdrachten-isrs4410.md` | ✅ trusted | — | — | human | ITAA-norm-samenstellingsopdrachten-isrs4410 |
-
-**Caveats** (bekende beperkingen van trusted-bronnen):
-
-[^ITAA-norm-aww-geconsolideerd.md]: `ITAA-norm-aww-geconsolideerd.md` — Heading-density bescheiden (5/339); RAG kan vallen terug op artikel-nummering binnen secties.
-[^ITAA-norm-effectennorm.md]: `ITAA-norm-effectennorm.md` — Norm is per 2026-04-21 nog niet in werking (zie frontmatter 'opmerking') — content is ontwerp-norm, niet finaal recht.
-[^ITAA-norm-omzetting-vennootschap.md]: `ITAA-norm-omzetting-vennootschap.md` — Status 'Ontwerp' in body — content is voorlopige norm, niet finaal recht.
 
 ## Adviezen (436)
 

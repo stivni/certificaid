@@ -31,17 +31,13 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: 177 regels met slechts 2 ##-headings, terwijl het document duidelijk
-      een 'Overwegende' + meerdere genummerde principes heeft die structurele labels verdienen.
-      Verder OCR-scrambling: alle citaten eindigen op `,"` i.p.v. `;` of `.` (lijkt op een
-      PDF-extractie-fout). Eén woordfusie: 'enlof' i.p.v. 'en/of'. Fix: rerun met
-      promote_norm_section_labels + OCR-cleanup-transformer.
-    layer1: null
-    layer2: null
+    status: trusted
+    confirmed_at: '2026-05-16T20:33:59Z'
+    confirmed_by: human
+    rationale: "Spot-check 2026-05-16: 2 ## headings, kort document (177 regels). OCR-kwaliteit van de bron-PDF beperkt ('BEROEPSRELATlES' met kleine l, 'enlof' ipv 'en/of', komma's ipv punten), maar dit is bron-kwaliteit niet ETL-bug — niet via regex te repareren. Inhoudelijk leesbaar en bruikbaar voor concept-extractie."
+    caveat:
+    layer1:
+    layer2:
 ---
 GEDRAGSLIJNEN INZAKE DE BEROEPSRELATlES TUSSEN DE LEDEN VAN
 HET IBR, HET IAB EN HET BIBF

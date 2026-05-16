@@ -728,6 +728,35 @@ _ALLCAPS_TITLE_STANDALONE = re.compile(
     r'^\s*([A-Z][A-Z\s\.,\-]{9,150}[A-Z])\s*$'
 )
 
+# Regex voor algemene ALL-CAPS standalone (kortere variant, ≥4 letters).
+# Wordt enkel toegepast wanneer het woord in de single-word-whitelist staat;
+# het strikte `{9,150}`-patroon hierboven blijft de default-poort voor multi-
+# word headings.
+_ALLCAPS_SHORT_STANDALONE = re.compile(r'^\s*([A-Z]{4,30})\s*$')
+
+# Bekende single-word section-titles die in CBN-adviezen als ALL-CAPS-heading
+# voorkomen (bv. CBN-2009-03 INLEIDING/OVERZICHT/BEOORDELING/VOORBEELDEN).
+# De default-check vereist ≥2 woorden om afkortingen (VZW, OCMW) te skippen;
+# deze whitelist heft die check op voor expliciet bekende section-namen.
+_SINGLEWORD_HEADING_WHITELIST = frozenset({
+    "INLEIDING",
+    "OVERZICHT",
+    "BEOORDELING",
+    "VOORBEELDEN",
+    "VOORBEELD",
+    "ALGEMEEN",
+    "PROBLEEMSTELLING",
+    "VRAAGSTELLING",
+    "BESLUIT",
+    "CONCLUSIE",
+    "ADVIES",
+    "ANALYSE",
+    "TOEPASSING",
+    "INTRODUCTIE",
+    "BIJLAGE",
+    "BIJLAGEN",
+})
+
 
 def _promote_implicit_headings(md: str) -> str:
     lines = md.split('\n')
@@ -776,6 +805,22 @@ def _promote_implicit_headings(md: str) -> str:
                     if len(title.split()) >= 2:
                         out_lines.append(f'## {title}')
                         replaced = True
+
+        # Single-word ALL-CAPS uit de whitelist (INLEIDING, OVERZICHT, ...).
+        # Apart pad omdat de hoofdregex `{9,150}` veelvoorkomende
+        # 9-letter single-words ('INLEIDING', 'OVERZICHT') uitsluit.
+        if not replaced:
+            m = _ALLCAPS_SHORT_STANDALONE.match(line)
+            if m:
+                prev_blank = (i == 0 or not lines[i - 1].strip())
+                next_blank = (i >= len(lines) - 1 or not lines[i + 1].strip())
+                if (
+                    prev_blank
+                    and next_blank
+                    and m.group(1).upper() in _SINGLEWORD_HEADING_WHITELIST
+                ):
+                    out_lines.append(f'## {m.group(1)}')
+                    replaced = True
 
         if not replaced:
             out_lines.append(line)

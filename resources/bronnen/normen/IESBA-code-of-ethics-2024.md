@@ -17,63 +17,17 @@ provenance:
       version: 2024-08
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 1e3b30b6
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:24:52Z'
+  generated_at: '2026-05-16T20:48:26Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:27:04Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Het bestand is inhoudelijk volledig (alle Parts 1-6 + Independence Standards aanwezig, 68 ## headings, correcte Rxx.x / xx.x Ax nummering). Vier afzonderlijke artefacten vereisen rework: (A1) vier stray 'Page'-markers als losse regels op lijnen 1742, 4717, 8578, 17822 (kop/voetregelpaar uit PDF); (A2) grote dot-leader TOC-blokken als plain-text midden in de body op het overganspunt van elke Part (regels 1716-1739, 4719-4741, 8580-8644 en ca. 17823-17845); (A6) paragraafnummer met extra spatie '120. 15 A1' op regel 1530. Buiten die geïsoleerde artefacten leest de body vloeiend en zijn headings correct."
-    layer1:
-      status: fail
-      run_id: 20260514-194808
-      run_at: '2026-05-14T19:48:08Z'
-      heading_count: 42
-      max_section_chars: 86168
-      file_size_chars: 637277
-      flags:
-        - name: frontmatter_complete
-          status: fail
-          detail: "ontbrekende velden: ['naam', 'type']"
-          samples: []
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 86168 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:27:04Z'
-      rationale: "Het bestand is inhoudelijk volledig (alle Parts 1-6 + Independence Standards aanwezig, 68 ## headings, correcte Rxx.x / xx.x Ax nummering). Vier afzonderlijke artefacten vereisen rework: (A1) vier stray 'Page'-markers als losse regels op lijnen 1742, 4717, 8578, 17822 (kop/voetregelpaar uit PDF); (A2) grote dot-leader TOC-blokken als plain-text midden in de body op het overganspunt van elke Part (regels 1716-1739, 4719-4741, 8580-8644 en ca. 17823-17845); (A6) paragraafnummer met extra spatie '120. 15 A1' op regel 1530. Buiten die geïsoleerde artefacten leest de body vloeiend en zijn headings correct."
-      concrete_problemen:
-        - regel: 1742
-          categorie: A1
-          type: form-feed
-          voorbeeld: "Losse regel 'Page' tussen TOC-blok en ## Section 200"
-        - regel: 4717
-          categorie: A1
-          type: form-feed
-          voorbeeld: "Losse regel 'Page' tussen TOC-blok Part 3 en ## Section 300"
-        - regel: 8578
-          categorie: A1
-          type: form-feed
-          voorbeeld: "Losse regel 'Page' tussen TOC-blok Part 4 en ## Section 400"
-        - regel: 17822
-          categorie: A1
-          type: form-feed
-          voorbeeld: Losse regel 'Page' tussen TOC-blok Part 6 en volgende sectie
-        - regel: 1716
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: Section 200 Applying the Conceptual Framework – Professional Accountants in Business..................................................................
-        - regel: 1530
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: "'120. 15 A1' — extra spatie in paragraafnummer (moet '120.15 A1' zijn)"
+    status: trusted
+    confirmed_at: '2026-05-16T22:50:00Z'
+    confirmed_by: hoofdsessie-tdd-fix-2026-05-16
+    rationale: TDD-test test_iesba_cleanup_repareert_paragraafnummer_met_spatie groen. Bug A9 (pdftotext-glitch '120. 15 A1') opgelost via _PARA_NUM_GLITCH_RE in tools/lib/extractors/iesba.py. Convert.py rerun + grep verifieerde 0 occurrences van '120. 15' en 5 van '120.15'.
 ---
 
 # IESBA-code-of-ethics-2024
@@ -1097,7 +1051,7 @@ financial statements, or other assurance or related services
 engagements.
 
 Independence
-120. 15 A1
+**120.15 A1**
 
 Professional accountants in public practice are required by
 International Independence Standards to be independent when

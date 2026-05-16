@@ -34,17 +34,12 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: 1243 regels met 53 ##-headings, redelijke hiërarchie. Inleidende
-      Overwegingen ((1), (2), ...) zonder ##-promotie maar wel paragraaf-gescheiden — acceptabel
-      voor een norm-document.
-    caveat: >-
-      Norm is per 2026-04-21 nog niet in werking (zie frontmatter 'opmerking') — content is
-      ontwerp-norm, niet finaal recht.
-    layer1: null
-    layer2: null
+    confirmed_at: '2026-05-16T20:33:47Z'
+    confirmed_by: human
+    rationale: 'Spot-check 2026-05-16: 53 ## headings (correcte structuur), één dotted-leader is legitieme placeholder in ereloon-clausule. Body alinea-fragmentarisch (two-column PDF), maar concept-niveau intact.'
+    caveat:
+    layer1:
+    layer2:
 ---
 Norm inzake de opdracht van de beroepsbeoefenaar in het kader van de beoordeling van het getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens opgenomen in het verslag van het
 

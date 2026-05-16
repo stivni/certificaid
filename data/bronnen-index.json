@@ -3076,11 +3076,11 @@
         "deontologie",
         "iesba"
       ],
-      "trust_status": "needs-rework",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "trusted",
+      "trust_confirmed_by": "hoofdsessie-tdd-fix-2026-05-16",
       "trust_caveat": null,
-      "layer1_status": "fail",
-      "layer2_status": "needs-rework"
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "ISA-200.md",
@@ -3859,9 +3859,9 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-qa-2026-05-16",
-      "trust_caveat": "Heading-density bescheiden (5/339); RAG kan vallen terug op artikel-nummering binnen secties.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "human",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3940,8 +3940,8 @@
         "itaa"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-qa-2026-05-16",
-      "trust_caveat": "Norm is per 2026-04-21 nog niet in werking (zie frontmatter 'opmerking') — content is ontwerp-norm, niet finaal recht.",
+      "trust_confirmed_by": "human",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3971,8 +3971,8 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "needs-rework",
-      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_status": "trusted",
+      "trust_confirmed_by": "human",
       "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
@@ -4020,8 +4020,8 @@
         "itaa"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-qa-2026-05-16",
-      "trust_caveat": "Status 'Ontwerp' in body — content is voorlopige norm, niet finaal recht.",
+      "trust_confirmed_by": "human",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },

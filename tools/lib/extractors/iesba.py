@@ -46,6 +46,14 @@ _PARA_NUM_RE = re.compile(
     re.MULTILINE,
 )
 
+# Glitch uit pdftotext-output: een spatie kruipt tussen majeur- en minor-nr van
+# een paragraafnummer. Voorbeeld: '120. 15 A1' moet '120.15 A1' worden vóór
+# we ze als heel paragraafnummer kunnen bolden.
+_PARA_NUM_GLITCH_RE = re.compile(
+    r"^(R?\d{2,3})\.\s+(\d+(?:\s+A\d+)?)$",
+    re.MULTILINE,
+)
+
 # Lopende headers die als losse regels voorkomen in de PDF
 _RUNNING_HEADER_RE = re.compile(
     r"^(?:THE CODE|PART\s+\d+|SECTION\s+\d{3})$",
@@ -277,6 +285,10 @@ def _cleanup_iesba(raw: str) -> str:
     # Stap 6: bold paragraafnummers — standalone op eigen regel
     # "100.1\n\nText" → "**100.1**\n\nText"
     # Vervanging: alleen als de regel uitsluitend het paragraafnummer bevat
+
+    # Stap 6a: glitch-fix — '120. 15 A1' → '120.15 A1' (pdftotext-artefact)
+    text = _PARA_NUM_GLITCH_RE.sub(r"\1.\2", text)
+
     def _bold_para(m: re.Match) -> str:
         return f"**{m.group(1)}**"
 

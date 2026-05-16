@@ -35,18 +35,13 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: 339 regels met 5 ##-headings (## 1. Algemene bepalingen, ## 2. ...).
-      Heading-density laag maar content is duidelijk per artikel-nummering (1.1, 1.2, ...)
-      gesegmenteerd binnen secties; geconsolideerde norm-tekst leest correct.
-    caveat: >-
-      Heading-density bescheiden (5/339); RAG kan vallen terug op artikel-nummering binnen
-      secties.
-    layer1: null
-    layer2: null
+    status: needs-rework
+    confirmed_at: '2026-05-16T20:34:11Z'
+    confirmed_by: human
+    rationale: "Spot-check 2026-05-16: slechts 5 ## headings terwijl de norm 10 hoofdsecties (+ 4 bijlagen) heeft. De two-column PDF-extractie via pdftotext (geen -layout) fragmenteert sectie-koppen 2-4 en 6-10 in body-text zonder ze als heading te promoveren. Voorbeeld: '2.1. Elke beroepsbeoefenaar...' verschijnt zonder voorafgaande '## 2. Organisatie en interne controle'-heading. Dit is een patroon dat de huidige inject_norm_headings.py niet pakt voor dit specifieke document; vereist refactoring in tools/etl/inject_norm_headings.py (patroon A guard te zwak voor two-column glitches)."
+    caveat:
+    layer1:
+    layer2:
 ---
 Geconsolideerde tekst door het Instituut van de Belastingadviseurs en de Accountants (ITAA) van de norm van het IAB en de richtlijn van het BIBF inzake de toepassing van de wet van 18 september 2017 tot
 
