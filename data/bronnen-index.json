@@ -301,8 +301,8 @@
         "IV.C",
         "2.5"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": "default",
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
       "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
@@ -414,9 +414,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -431,9 +431,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -448,9 +448,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -465,9 +465,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -482,9 +482,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -499,9 +499,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -516,9 +516,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -533,9 +533,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -550,9 +550,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -567,9 +567,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -584,9 +584,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -601,9 +601,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -618,9 +618,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -635,9 +635,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -652,9 +652,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -669,9 +669,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -686,9 +686,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -703,9 +703,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -720,9 +720,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -737,9 +737,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -754,9 +754,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -771,9 +771,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -788,9 +788,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -805,9 +805,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -822,9 +822,9 @@
         "ifrs",
         "ias"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -839,9 +839,9 @@
         "ifrs",
         "ifric"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -856,9 +856,9 @@
         "ifrs",
         "ifric"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -873,9 +873,9 @@
         "ifrs",
         "ifric"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -890,9 +890,9 @@
         "ifrs",
         "ifric"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -907,9 +907,9 @@
         "ifrs",
         "ifric"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -924,9 +924,9 @@
         "ifrs",
         "ifric"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -941,9 +941,9 @@
         "ifrs",
         "ifric"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -958,9 +958,9 @@
         "ifrs",
         "ifric"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -975,9 +975,9 @@
         "ifrs",
         "ifric"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -992,9 +992,9 @@
         "ifrs",
         "ifric"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1009,9 +1009,9 @@
         "ifrs",
         "ifric"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1026,9 +1026,9 @@
         "ifrs",
         "ifric"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1043,9 +1043,9 @@
         "ifrs",
         "ifric"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1060,9 +1060,9 @@
         "ifrs",
         "ifric"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1077,9 +1077,9 @@
         "ifrs",
         "ifric"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1094,9 +1094,9 @@
         "ifrs",
         "ifrs"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1111,9 +1111,9 @@
         "ifrs",
         "ifrs"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1128,9 +1128,9 @@
         "ifrs",
         "ifrs"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1145,9 +1145,9 @@
         "ifrs",
         "ifrs"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1162,9 +1162,9 @@
         "ifrs",
         "ifrs"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1179,9 +1179,9 @@
         "ifrs",
         "ifrs"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1196,9 +1196,9 @@
         "ifrs",
         "ifrs"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1213,9 +1213,9 @@
         "ifrs",
         "ifrs"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1230,9 +1230,9 @@
         "ifrs",
         "ifrs"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1247,9 +1247,9 @@
         "ifrs",
         "ifrs"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1264,9 +1264,9 @@
         "ifrs",
         "ifrs"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1281,9 +1281,9 @@
         "ifrs",
         "ifrs"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1298,9 +1298,9 @@
         "ifrs",
         "ifrs"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1315,9 +1315,9 @@
         "ifrs",
         "ifrs"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1332,9 +1332,9 @@
         "ifrs",
         "ifrs"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -1519,8 +1519,8 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": "default",
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
       "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
@@ -1536,8 +1536,8 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": "default",
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
       "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
@@ -1553,8 +1553,8 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": "default",
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
       "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
@@ -2869,8 +2869,8 @@
         "XXI",
         "4.0"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": "default",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
       "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
@@ -3096,9 +3096,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3116,9 +3116,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3136,9 +3136,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3156,9 +3156,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3176,9 +3176,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3196,9 +3196,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3216,9 +3216,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3236,9 +3236,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3256,9 +3256,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3276,9 +3276,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3296,9 +3296,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3316,9 +3316,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3336,9 +3336,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3356,9 +3356,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3376,9 +3376,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3396,9 +3396,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3416,9 +3416,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3436,9 +3436,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3456,9 +3456,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3476,9 +3476,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3496,9 +3496,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3516,9 +3516,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3536,9 +3536,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3549,9 +3549,9 @@
       "titel": "ISA-570-herzien",
       "korte_naam": "ISA 570 herzien",
       "tags": [],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3569,9 +3569,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3589,9 +3589,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3609,9 +3609,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3629,9 +3629,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3649,9 +3649,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3669,9 +3669,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3689,9 +3689,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3709,9 +3709,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3729,9 +3729,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3749,9 +3749,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3769,9 +3769,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3789,9 +3789,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3809,9 +3809,9 @@
         "po-1.6",
         "po-1.7"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
-      "trust_caveat": "PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3859,9 +3859,9 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": "default",
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "Heading-density bescheiden (5/339); RAG kan vallen terug op artikel-nummering binnen secties.",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3939,9 +3939,9 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": "default",
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "Norm is per 2026-04-21 nog niet in werking (zie frontmatter 'opmerking') — content is ontwerp-norm, niet finaal recht.",
       "layer1_status": null,
       "layer2_status": null
     },
@@ -3971,8 +3971,8 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": "default",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
       "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": null
@@ -4019,9 +4019,9 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": "default",
-      "trust_caveat": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-qa-2026-05-16",
+      "trust_caveat": "Status 'Ontwerp' in body — content is voorlopige norm, niet finaal recht.",
       "layer1_status": null,
       "layer2_status": null
     },

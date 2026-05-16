@@ -8,10 +8,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 187 | 118 | 60 | 9 | — | — |
-| Normen | 55 | 13 | 41 | 1 | — | — |
+| Wetteksten | 187 | 177 | — | 10 | — | — |
+| Normen | 55 | 16 | — | 39 | — | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **678** | 553 | 101 | 24 | — | — |
+| **Totaal** | **678** | 615 | — | 63 | — | — |
 
 ## Wetteksten (187)
 
@@ -26,66 +26,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `toelichting-PB-2025-deel1-VG.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Vlaams Gewest |
 | `toelichting-PB-2025-deel2.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Deel 2 |
 | `toelichting-VenB-2025.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de vennootschapsbelasting — AJ 2025 |
-| `Decr-Waals-Directe-Belastingen.md` | ◻️ unreviewed | — | — | default | Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de … |
-| `IAS-1-presentatie-van-de-jaarrekening.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-10-gebeurtenissen-na-de-verslagperiode.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-12-winstbelastingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-16-materiele-vaste-activa.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-19-personeelsbeloningen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-2-voorraden.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-20-administratieve-verwerking-van-overheidssubsidies-en-informatieverschaffing-over-overheidssteun-9.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-21-de-gevolgen-van-wisselkoerswijzigingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-23-financieringskosten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-24-informatieverschaffing-over-verbonden-partijen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-26-administratieve-verwerking-en-verslaggeving-door-pensioenregelingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-27-enkelvoudige-jaarrekening.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-28-investeringen-in-geassocieerde-deelnemingen-en-joint-ventures.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-29-financiele-verslaggeving-in-economieen-met-hyperinflatie-13.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-32-financiele-instrumenten-presentatie.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-33-winst-per-aandeel.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-34-tussentijdse-financiele-verslagen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-36-bijzondere-waardevermindering-van-activa.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-37-voorzieningen-voorwaardelijke-verplichtingen-en-voorwaardelijke-activa.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-38-immateriele-activa.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-39-financiele-instrumenten-opname-en-waardering.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-40-vastgoedbeleggingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-41-landbouw.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-7-het-kasstroomoverzicht-2.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IAS-8-grondslagen-voor-financiele-verslaggeving-schattingswijzigingen-en-fouten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRIC-1-wijzigingen-in-bestaande-verplichtingen-voor-ontmanteling-herstel-en-soortgelijke-verplichtingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRIC-10-tussentijdse-financiele-verslaggeving-en-bijzondere-waardevermindering.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRIC-12-dienstverlening-uit-hoofde-van-concessieovereenkomsten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRIC-14-ias-19-de-limiet-voor-een-actief-uit-hoofde-van-toegezegde-pensioenrechten-minimaal-vereiste-dekkingsgraden-en.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRIC-16-hedges-van-een-netto-investering-in-een-buitenlandse-activiteit.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRIC-17-uitkeringen-van-activa-in-natura-aan-eigenaars.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRIC-19-aflossing-van-financiele-verplichtingen-met-eigenvermogensinstrumenten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRIC-2-aandelen-van-leden-in-cooperatieve-entiteiten-en-soortgelijke-instrumenten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRIC-20-afgravingskosten-tijdens-de-productiefase-van-een-dagbouwmijn.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRIC-21-heffingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRIC-22-transacties-in-vreemde-valuta-en-vooruitbetalingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRIC-23-onzekerheid-over-fiscale-behandelingen-van-inkomsten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRIC-5-belangen-in-ontmantelings-herstel-en-milieusaneringsfondsen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRIC-6-verplichtingen-die-voortvloeien-uit-deelneming-aan-een-specifieke-markt-afgedankte-elektrische-en-elektronische.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRIC-7-toepassing-van-de-aanpassingsmethode-in-overeenstemming-met-ias-29-financiele-verslaggeving-in-economieen-met.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRS-1-eerste-toepassing-van-international-financial-reporting-standards.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRS-10-geconsolideerde-jaarrekening.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRS-11-gezamenlijke-overeenkomsten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRS-12-informatieverschaffing-over-belangen-in-andere-entiteiten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRS-13-waardering-tegen-reele-waarde.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRS-15-opbrengsten-van-contracten-met-klanten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRS-16-leaseovereenkomsten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRS-17-verzekeringscontracten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRS-2-op-aandelen-gebaseerde-betalingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRS-3-bedrijfscombinaties.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRS-5-vaste-activa-aangehouden-voor-verkoop-en-beeindigde-bedrijfsactiviteiten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRS-6-exploratie-en-evaluatie-van-minerale-hulpbronnen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRS-7-financiele-instrumenten-informatieverschaffing.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRS-8-operationele-segmenten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `IFRS-9-financiele-instrumenten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
-| `MIGB-Brussel.md` | ◻️ unreviewed | — | — | default | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofds… |
-| `MIGB-Vlaanderen.md` | ◻️ unreviewed | — | — | default | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest |
-| `MIGB-Wallonie.md` | ◻️ unreviewed | — | — | default | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest |
-| `Wet-beroepskwalificaties-2008.md` | ◻️ unreviewed | — | — | default | Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van … |
+| `Wet-beroepskwalificaties-2008.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van … |
 | `aangifte-PB-2025-bezoldigingen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-bezoldigingen |
 | `aangifte-PB-2025-stopzetting.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-stopzetting |
 | `Antiwitwaswet-2017.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van … |
@@ -102,12 +43,68 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `BW-boek5-verbintenissen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 5 — Verbintenissen |
 | `BW-boek8-bewijs.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 8 — Bewijs |
 | `BW-boek9-zekerheden.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 9 — Zekerheden |
+| `Decr-Waals-Directe-Belastingen.md` | ✅ trusted | — | — | subagent-qa-2026-05-16 | Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de … |
 | `EU-AVG-Verordening-2016-679.md` | ✅ trusted | — | — | human | Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betre… |
 | `EU-IFRS-verordening-1606-2002.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 b… |
 | `EU-Richtlijn-fusie-2009-133.md` | ✅ trusted | — | — | human | Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke… |
 | `EU-Richtlijn-interest-royalties-2003-49.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke bel… |
 | `EU-Richtlijn-moeder-dochter-2011-96.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke… |
 | `EU-Richtlijn-witwassen-2018-1673.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inza… |
+| `IAS-1-presentatie-van-de-jaarrekening.md` | ✅ trusted ⚠️[^IAS-1-presentatie-van-de-jaarrekening.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-10-gebeurtenissen-na-de-verslagperiode.md` | ✅ trusted ⚠️[^IAS-10-gebeurtenissen-na-de-verslagperiode.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-12-winstbelastingen.md` | ✅ trusted ⚠️[^IAS-12-winstbelastingen.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-16-materiele-vaste-activa.md` | ✅ trusted ⚠️[^IAS-16-materiele-vaste-activa.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-19-personeelsbeloningen.md` | ✅ trusted ⚠️[^IAS-19-personeelsbeloningen.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-2-voorraden.md` | ✅ trusted ⚠️[^IAS-2-voorraden.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-20-administratieve-verwerking-van-overheidssubsidies-en-informatieverschaffing-over-overheidssteun-9.md` | ✅ trusted ⚠️[^IAS-20-administratieve-verwerking-van-overheidssubsidies-en-informatieverschaffing-over-overheidssteun-9.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-21-de-gevolgen-van-wisselkoerswijzigingen.md` | ✅ trusted ⚠️[^IAS-21-de-gevolgen-van-wisselkoerswijzigingen.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-23-financieringskosten.md` | ✅ trusted ⚠️[^IAS-23-financieringskosten.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-24-informatieverschaffing-over-verbonden-partijen.md` | ✅ trusted ⚠️[^IAS-24-informatieverschaffing-over-verbonden-partijen.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-26-administratieve-verwerking-en-verslaggeving-door-pensioenregelingen.md` | ✅ trusted ⚠️[^IAS-26-administratieve-verwerking-en-verslaggeving-door-pensioenregelingen.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-27-enkelvoudige-jaarrekening.md` | ✅ trusted ⚠️[^IAS-27-enkelvoudige-jaarrekening.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-28-investeringen-in-geassocieerde-deelnemingen-en-joint-ventures.md` | ✅ trusted ⚠️[^IAS-28-investeringen-in-geassocieerde-deelnemingen-en-joint-ventures.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-29-financiele-verslaggeving-in-economieen-met-hyperinflatie-13.md` | ✅ trusted ⚠️[^IAS-29-financiele-verslaggeving-in-economieen-met-hyperinflatie-13.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-32-financiele-instrumenten-presentatie.md` | ✅ trusted ⚠️[^IAS-32-financiele-instrumenten-presentatie.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-33-winst-per-aandeel.md` | ✅ trusted ⚠️[^IAS-33-winst-per-aandeel.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-34-tussentijdse-financiele-verslagen.md` | ✅ trusted ⚠️[^IAS-34-tussentijdse-financiele-verslagen.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-36-bijzondere-waardevermindering-van-activa.md` | ✅ trusted ⚠️[^IAS-36-bijzondere-waardevermindering-van-activa.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-37-voorzieningen-voorwaardelijke-verplichtingen-en-voorwaardelijke-activa.md` | ✅ trusted ⚠️[^IAS-37-voorzieningen-voorwaardelijke-verplichtingen-en-voorwaardelijke-activa.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-38-immateriele-activa.md` | ✅ trusted ⚠️[^IAS-38-immateriele-activa.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-39-financiele-instrumenten-opname-en-waardering.md` | ✅ trusted ⚠️[^IAS-39-financiele-instrumenten-opname-en-waardering.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-40-vastgoedbeleggingen.md` | ✅ trusted ⚠️[^IAS-40-vastgoedbeleggingen.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-41-landbouw.md` | ✅ trusted ⚠️[^IAS-41-landbouw.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-7-het-kasstroomoverzicht-2.md` | ✅ trusted ⚠️[^IAS-7-het-kasstroomoverzicht-2.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-8-grondslagen-voor-financiele-verslaggeving-schattingswijzigingen-en-fouten.md` | ✅ trusted ⚠️[^IAS-8-grondslagen-voor-financiele-verslaggeving-schattingswijzigingen-en-fouten.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-1-wijzigingen-in-bestaande-verplichtingen-voor-ontmanteling-herstel-en-soortgelijke-verplichtingen.md` | ✅ trusted ⚠️[^IFRIC-1-wijzigingen-in-bestaande-verplichtingen-voor-ontmanteling-herstel-en-soortgelijke-verplichtingen.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-10-tussentijdse-financiele-verslaggeving-en-bijzondere-waardevermindering.md` | ✅ trusted ⚠️[^IFRIC-10-tussentijdse-financiele-verslaggeving-en-bijzondere-waardevermindering.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-12-dienstverlening-uit-hoofde-van-concessieovereenkomsten.md` | ✅ trusted ⚠️[^IFRIC-12-dienstverlening-uit-hoofde-van-concessieovereenkomsten.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-14-ias-19-de-limiet-voor-een-actief-uit-hoofde-van-toegezegde-pensioenrechten-minimaal-vereiste-dekkingsgraden-en.md` | ✅ trusted ⚠️[^IFRIC-14-ias-19-de-limiet-voor-een-actief-uit-hoofde-van-toegezegde-pensioenrechten-minimaal-vereiste-dekkingsgraden-en.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-16-hedges-van-een-netto-investering-in-een-buitenlandse-activiteit.md` | ✅ trusted ⚠️[^IFRIC-16-hedges-van-een-netto-investering-in-een-buitenlandse-activiteit.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-17-uitkeringen-van-activa-in-natura-aan-eigenaars.md` | ✅ trusted ⚠️[^IFRIC-17-uitkeringen-van-activa-in-natura-aan-eigenaars.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-19-aflossing-van-financiele-verplichtingen-met-eigenvermogensinstrumenten.md` | ✅ trusted ⚠️[^IFRIC-19-aflossing-van-financiele-verplichtingen-met-eigenvermogensinstrumenten.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-2-aandelen-van-leden-in-cooperatieve-entiteiten-en-soortgelijke-instrumenten.md` | ✅ trusted ⚠️[^IFRIC-2-aandelen-van-leden-in-cooperatieve-entiteiten-en-soortgelijke-instrumenten.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-20-afgravingskosten-tijdens-de-productiefase-van-een-dagbouwmijn.md` | ✅ trusted ⚠️[^IFRIC-20-afgravingskosten-tijdens-de-productiefase-van-een-dagbouwmijn.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-21-heffingen.md` | ✅ trusted ⚠️[^IFRIC-21-heffingen.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-22-transacties-in-vreemde-valuta-en-vooruitbetalingen.md` | ✅ trusted ⚠️[^IFRIC-22-transacties-in-vreemde-valuta-en-vooruitbetalingen.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-23-onzekerheid-over-fiscale-behandelingen-van-inkomsten.md` | ✅ trusted ⚠️[^IFRIC-23-onzekerheid-over-fiscale-behandelingen-van-inkomsten.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-5-belangen-in-ontmantelings-herstel-en-milieusaneringsfondsen.md` | ✅ trusted ⚠️[^IFRIC-5-belangen-in-ontmantelings-herstel-en-milieusaneringsfondsen.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-6-verplichtingen-die-voortvloeien-uit-deelneming-aan-een-specifieke-markt-afgedankte-elektrische-en-elektronische.md` | ✅ trusted ⚠️[^IFRIC-6-verplichtingen-die-voortvloeien-uit-deelneming-aan-een-specifieke-markt-afgedankte-elektrische-en-elektronische.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-7-toepassing-van-de-aanpassingsmethode-in-overeenstemming-met-ias-29-financiele-verslaggeving-in-economieen-met.md` | ✅ trusted ⚠️[^IFRIC-7-toepassing-van-de-aanpassingsmethode-in-overeenstemming-met-ias-29-financiele-verslaggeving-in-economieen-met.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-1-eerste-toepassing-van-international-financial-reporting-standards.md` | ✅ trusted ⚠️[^IFRS-1-eerste-toepassing-van-international-financial-reporting-standards.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-10-geconsolideerde-jaarrekening.md` | ✅ trusted ⚠️[^IFRS-10-geconsolideerde-jaarrekening.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-11-gezamenlijke-overeenkomsten.md` | ✅ trusted ⚠️[^IFRS-11-gezamenlijke-overeenkomsten.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-12-informatieverschaffing-over-belangen-in-andere-entiteiten.md` | ✅ trusted ⚠️[^IFRS-12-informatieverschaffing-over-belangen-in-andere-entiteiten.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-13-waardering-tegen-reele-waarde.md` | ✅ trusted ⚠️[^IFRS-13-waardering-tegen-reele-waarde.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-15-opbrengsten-van-contracten-met-klanten.md` | ✅ trusted ⚠️[^IFRS-15-opbrengsten-van-contracten-met-klanten.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-16-leaseovereenkomsten.md` | ✅ trusted ⚠️[^IFRS-16-leaseovereenkomsten.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-17-verzekeringscontracten.md` | ✅ trusted ⚠️[^IFRS-17-verzekeringscontracten.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-2-op-aandelen-gebaseerde-betalingen.md` | ✅ trusted ⚠️[^IFRS-2-op-aandelen-gebaseerde-betalingen.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-3-bedrijfscombinaties.md` | ✅ trusted ⚠️[^IFRS-3-bedrijfscombinaties.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-5-vaste-activa-aangehouden-voor-verkoop-en-beeindigde-bedrijfsactiviteiten.md` | ✅ trusted ⚠️[^IFRS-5-vaste-activa-aangehouden-voor-verkoop-en-beeindigde-bedrijfsactiviteiten.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-6-exploratie-en-evaluatie-van-minerale-hulpbronnen.md` | ✅ trusted ⚠️[^IFRS-6-exploratie-en-evaluatie-van-minerale-hulpbronnen.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-7-financiele-instrumenten-informatieverschaffing.md` | ✅ trusted ⚠️[^IFRS-7-financiele-instrumenten-informatieverschaffing.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-8-operationele-segmenten.md` | ✅ trusted ⚠️[^IFRS-8-operationele-segmenten.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-9-financiele-instrumenten.md` | ✅ trusted ⚠️[^IFRS-9-financiele-instrumenten.md] | — | — | subagent-qa-2026-05-16 | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
 | `KB-1998-plichtenleer.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer… |
 | `KB-2017-plichtenleer-bibf.md` | ✅ trusted | — | — | human | Koninklijk besluit van 18 juli 2017 tot goedkeuring van het reglement van plichtenleer … |
 | `KB-21-10-2018.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Koninklijk besluit van 21 oktober 2018 houdende de boekhoudkundige verplichtingen van o… |
@@ -118,6 +115,9 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `Klokkenluiderswet-2022.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- … |
 | `MAR-ondernemingen.md` | ✅ trusted | — | — | human | Minimum Algemeen Rekeningstelsel voor boekhoudplichtige ondernemingen (KB 21.10.2018 Bi… |
 | `MAR-vzw.md` | ✅ trusted | — | — | human | Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW) |
+| `MIGB-Brussel.md` | ✅ trusted | — | — | subagent-qa-2026-05-16 | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofds… |
+| `MIGB-Vlaanderen.md` | ✅ trusted | — | — | subagent-qa-2026-05-16 | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest |
+| `MIGB-Wallonie.md` | ✅ trusted | — | — | subagent-qa-2026-05-16 | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest |
 | `Oud-BW.md` | ✅ trusted | — | — | human | Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019) |
 | `Registratierechten-Brussel.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk Gewest |
 | `Registratierechten-federaal.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal |
@@ -207,6 +207,61 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 **Caveats** (bekende beperkingen van trusted-bronnen):
 
+[^IAS-1-presentatie-van-de-jaarrekening.md]: `IAS-1-presentatie-van-de-jaarrekening.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-10-gebeurtenissen-na-de-verslagperiode.md]: `IAS-10-gebeurtenissen-na-de-verslagperiode.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-12-winstbelastingen.md]: `IAS-12-winstbelastingen.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-16-materiele-vaste-activa.md]: `IAS-16-materiele-vaste-activa.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-19-personeelsbeloningen.md]: `IAS-19-personeelsbeloningen.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-2-voorraden.md]: `IAS-2-voorraden.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-20-administratieve-verwerking-van-overheidssubsidies-en-informatieverschaffing-over-overheidssteun-9.md]: `IAS-20-administratieve-verwerking-van-overheidssubsidies-en-informatieverschaffing-over-overheidssteun-9.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-21-de-gevolgen-van-wisselkoerswijzigingen.md]: `IAS-21-de-gevolgen-van-wisselkoerswijzigingen.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-23-financieringskosten.md]: `IAS-23-financieringskosten.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-24-informatieverschaffing-over-verbonden-partijen.md]: `IAS-24-informatieverschaffing-over-verbonden-partijen.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-26-administratieve-verwerking-en-verslaggeving-door-pensioenregelingen.md]: `IAS-26-administratieve-verwerking-en-verslaggeving-door-pensioenregelingen.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-27-enkelvoudige-jaarrekening.md]: `IAS-27-enkelvoudige-jaarrekening.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-28-investeringen-in-geassocieerde-deelnemingen-en-joint-ventures.md]: `IAS-28-investeringen-in-geassocieerde-deelnemingen-en-joint-ventures.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-29-financiele-verslaggeving-in-economieen-met-hyperinflatie-13.md]: `IAS-29-financiele-verslaggeving-in-economieen-met-hyperinflatie-13.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-32-financiele-instrumenten-presentatie.md]: `IAS-32-financiele-instrumenten-presentatie.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-33-winst-per-aandeel.md]: `IAS-33-winst-per-aandeel.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-34-tussentijdse-financiele-verslagen.md]: `IAS-34-tussentijdse-financiele-verslagen.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-36-bijzondere-waardevermindering-van-activa.md]: `IAS-36-bijzondere-waardevermindering-van-activa.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-37-voorzieningen-voorwaardelijke-verplichtingen-en-voorwaardelijke-activa.md]: `IAS-37-voorzieningen-voorwaardelijke-verplichtingen-en-voorwaardelijke-activa.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-38-immateriele-activa.md]: `IAS-38-immateriele-activa.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-39-financiele-instrumenten-opname-en-waardering.md]: `IAS-39-financiele-instrumenten-opname-en-waardering.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-40-vastgoedbeleggingen.md]: `IAS-40-vastgoedbeleggingen.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-41-landbouw.md]: `IAS-41-landbouw.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-7-het-kasstroomoverzicht-2.md]: `IAS-7-het-kasstroomoverzicht-2.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IAS-8-grondslagen-voor-financiele-verslaggeving-schattingswijzigingen-en-fouten.md]: `IAS-8-grondslagen-voor-financiele-verslaggeving-schattingswijzigingen-en-fouten.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRIC-1-wijzigingen-in-bestaande-verplichtingen-voor-ontmanteling-herstel-en-soortgelijke-verplichtingen.md]: `IFRIC-1-wijzigingen-in-bestaande-verplichtingen-voor-ontmanteling-herstel-en-soortgelijke-verplichtingen.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRIC-10-tussentijdse-financiele-verslaggeving-en-bijzondere-waardevermindering.md]: `IFRIC-10-tussentijdse-financiele-verslaggeving-en-bijzondere-waardevermindering.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRIC-12-dienstverlening-uit-hoofde-van-concessieovereenkomsten.md]: `IFRIC-12-dienstverlening-uit-hoofde-van-concessieovereenkomsten.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRIC-14-ias-19-de-limiet-voor-een-actief-uit-hoofde-van-toegezegde-pensioenrechten-minimaal-vereiste-dekkingsgraden-en.md]: `IFRIC-14-ias-19-de-limiet-voor-een-actief-uit-hoofde-van-toegezegde-pensioenrechten-minimaal-vereiste-dekkingsgraden-en.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRIC-16-hedges-van-een-netto-investering-in-een-buitenlandse-activiteit.md]: `IFRIC-16-hedges-van-een-netto-investering-in-een-buitenlandse-activiteit.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRIC-17-uitkeringen-van-activa-in-natura-aan-eigenaars.md]: `IFRIC-17-uitkeringen-van-activa-in-natura-aan-eigenaars.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRIC-19-aflossing-van-financiele-verplichtingen-met-eigenvermogensinstrumenten.md]: `IFRIC-19-aflossing-van-financiele-verplichtingen-met-eigenvermogensinstrumenten.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRIC-2-aandelen-van-leden-in-cooperatieve-entiteiten-en-soortgelijke-instrumenten.md]: `IFRIC-2-aandelen-van-leden-in-cooperatieve-entiteiten-en-soortgelijke-instrumenten.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRIC-20-afgravingskosten-tijdens-de-productiefase-van-een-dagbouwmijn.md]: `IFRIC-20-afgravingskosten-tijdens-de-productiefase-van-een-dagbouwmijn.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRIC-21-heffingen.md]: `IFRIC-21-heffingen.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRIC-22-transacties-in-vreemde-valuta-en-vooruitbetalingen.md]: `IFRIC-22-transacties-in-vreemde-valuta-en-vooruitbetalingen.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRIC-23-onzekerheid-over-fiscale-behandelingen-van-inkomsten.md]: `IFRIC-23-onzekerheid-over-fiscale-behandelingen-van-inkomsten.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRIC-5-belangen-in-ontmantelings-herstel-en-milieusaneringsfondsen.md]: `IFRIC-5-belangen-in-ontmantelings-herstel-en-milieusaneringsfondsen.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRIC-6-verplichtingen-die-voortvloeien-uit-deelneming-aan-een-specifieke-markt-afgedankte-elektrische-en-elektronische.md]: `IFRIC-6-verplichtingen-die-voortvloeien-uit-deelneming-aan-een-specifieke-markt-afgedankte-elektrische-en-elektronische.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRIC-7-toepassing-van-de-aanpassingsmethode-in-overeenstemming-met-ias-29-financiele-verslaggeving-in-economieen-met.md]: `IFRIC-7-toepassing-van-de-aanpassingsmethode-in-overeenstemming-met-ias-29-financiele-verslaggeving-in-economieen-met.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRS-1-eerste-toepassing-van-international-financial-reporting-standards.md]: `IFRS-1-eerste-toepassing-van-international-financial-reporting-standards.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRS-10-geconsolideerde-jaarrekening.md]: `IFRS-10-geconsolideerde-jaarrekening.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRS-11-gezamenlijke-overeenkomsten.md]: `IFRS-11-gezamenlijke-overeenkomsten.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRS-12-informatieverschaffing-over-belangen-in-andere-entiteiten.md]: `IFRS-12-informatieverschaffing-over-belangen-in-andere-entiteiten.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRS-13-waardering-tegen-reele-waarde.md]: `IFRS-13-waardering-tegen-reele-waarde.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRS-15-opbrengsten-van-contracten-met-klanten.md]: `IFRS-15-opbrengsten-van-contracten-met-klanten.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRS-16-leaseovereenkomsten.md]: `IFRS-16-leaseovereenkomsten.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRS-17-verzekeringscontracten.md]: `IFRS-17-verzekeringscontracten.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRS-2-op-aandelen-gebaseerde-betalingen.md]: `IFRS-2-op-aandelen-gebaseerde-betalingen.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRS-3-bedrijfscombinaties.md]: `IFRS-3-bedrijfscombinaties.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRS-5-vaste-activa-aangehouden-voor-verkoop-en-beeindigde-bedrijfsactiviteiten.md]: `IFRS-5-vaste-activa-aangehouden-voor-verkoop-en-beeindigde-bedrijfsactiviteiten.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRS-6-exploratie-en-evaluatie-van-minerale-hulpbronnen.md]: `IFRS-6-exploratie-en-evaluatie-van-minerale-hulpbronnen.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRS-7-financiele-instrumenten-informatieverschaffing.md]: `IFRS-7-financiele-instrumenten-informatieverschaffing.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRS-8-operationele-segmenten.md]: `IFRS-8-operationele-segmenten.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
+[^IFRS-9-financiele-instrumenten.md]: `IFRS-9-financiele-instrumenten.md` — pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '## 38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only EUR-Lex-extractie).
 [^WBTW-KB41-proportionele-geldboeten.md]: `WBTW-KB41-proportionele-geldboeten.md` — Bijlage met TABEL A-J (boete-percentages) heeft 2-koloms kolom-bleed uit Fisconet-compilatie — overtreding-beschrijving en boete-percentage staan gemerged op één regel. Brontekst is wel volledig aanwezig maar tabel-structuur is niet als markdown pipe-tabel reconstrueerbaar zonder OCR of individuele JUSTEL-PDF.
 [^WBTW-KB44-geldboeten.md]: `WBTW-KB44-geldboeten.md` — Bijlage met boete-tabel heeft 2-koloms kolom-bleed uit Fisconet-compilatie — overtreding-beschrijving en boete-bedrag staan gemerged op één regel. Brontekst is wel volledig aanwezig maar tabel-structuur is niet als markdown pipe-tabel reconstrueerbaar zonder OCR of individuele JUSTEL-PDF.
 
@@ -215,56 +270,56 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
 | `IESBA-code-of-ethics-2024.md` | ⚠️ needs-rework | fail | needs-rework | subagent-sonnet-4-6 | IESBA-code-of-ethics-2024 |
-| `ISA-200.md` | ◻️ unreviewed ⚠️[^ISA-200.md] | — | — | — | ISA 200 — Algehele doelstellingen van de onafhankelijke auditor en het uitvoeren van ee… |
-| `ISA-210.md` | ◻️ unreviewed ⚠️[^ISA-210.md] | — | — | — | ISA 210 — Overeenkomen van de voorwaarden van controleopdrachten |
-| `ISA-220-herzien.md` | ◻️ unreviewed ⚠️[^ISA-220-herzien.md] | — | — | — | ISA 220 (herzien) — Kwaliteitsmanagement voor een controle van financiële overzichten |
-| `ISA-230.md` | ◻️ unreviewed ⚠️[^ISA-230.md] | — | — | — | ISA 230 — Controledocumentatie |
-| `ISA-240.md` | ◻️ unreviewed ⚠️[^ISA-240.md] | — | — | — | ISA 240 — De verantwoordelijkheden van de auditor met betrekking tot fraude in het kade… |
-| `ISA-250-herzien.md` | ◻️ unreviewed ⚠️[^ISA-250-herzien.md] | — | — | — | ISA 250 (herzien) — Het in aanmerking nemen van wet- en regelgeving bij een controle va… |
-| `ISA-260-herzien.md` | ◻️ unreviewed ⚠️[^ISA-260-herzien.md] | — | — | — | ISA 260 (herzien) — Communicatie met de met governance belaste personen |
-| `ISA-265.md` | ◻️ unreviewed ⚠️[^ISA-265.md] | — | — | — | ISA 265 — Het communiceren van tekortkomingen in de interne beheersing aan de met gover… |
-| `ISA-300.md` | ◻️ unreviewed ⚠️[^ISA-300.md] | — | — | — | ISA 300 — Planning van een controle van financiële overzichten |
-| `ISA-315-herzien-2019.md` | ◻️ unreviewed ⚠️[^ISA-315-herzien-2019.md] | — | — | — | ISA 315 (herzien-2019) — Risico's op een afwijking van materieel belang identificeren e… |
-| `ISA-320.md` | ◻️ unreviewed ⚠️[^ISA-320.md] | — | — | — | ISA 320 — Materialiteit bij de planning en uitvoering van een controle |
-| `ISA-330.md` | ◻️ unreviewed ⚠️[^ISA-330.md] | — | — | — | ISA 330 — Inspelen door de auditor op ingeschatte risico's |
-| `ISA-402.md` | ◻️ unreviewed ⚠️[^ISA-402.md] | — | — | — | ISA 402 — Overwegingen met betrekking tot controles van entiteiten die gebruikmaken van… |
-| `ISA-450.md` | ◻️ unreviewed ⚠️[^ISA-450.md] | — | — | — | ISA 450 — Evaluatie van tijdens de controle geïdentificeerde afwijkingen |
-| `ISA-500.md` | ◻️ unreviewed ⚠️[^ISA-500.md] | — | — | — | ISA 500 — Controle-informatie |
-| `ISA-501.md` | ◻️ unreviewed ⚠️[^ISA-501.md] | — | — | — | ISA 501 — Controle-informatie — Specifieke overwegingen voor geselecteerde elementen |
-| `ISA-505.md` | ◻️ unreviewed ⚠️[^ISA-505.md] | — | — | — | ISA 505 — Externe bevestigingen |
-| `ISA-510.md` | ◻️ unreviewed ⚠️[^ISA-510.md] | — | — | — | ISA 510 — Initiële controleopdrachten — Beginsaldi |
-| `ISA-520.md` | ◻️ unreviewed ⚠️[^ISA-520.md] | — | — | — | ISA 520 — Cijferanalyses |
-| `ISA-530.md` | ◻️ unreviewed ⚠️[^ISA-530.md] | — | — | — | ISA 530 — Het gebruiken van steekproeven bij een controle |
-| `ISA-540-herzien.md` | ◻️ unreviewed ⚠️[^ISA-540-herzien.md] | — | — | — | ISA 540 (herzien) — Het controleren van schattingen, met inbegrip van schattingen van r… |
-| `ISA-550.md` | ◻️ unreviewed ⚠️[^ISA-550.md] | — | — | — | ISA 550 — Verbonden partijen |
-| `ISA-560.md` | ◻️ unreviewed ⚠️[^ISA-560.md] | — | — | — | ISA 560 — Gebeurtenissen na de einddatum van de verslagperiode |
-| `ISA-570-herzien.md` | ◻️ unreviewed ⚠️[^ISA-570-herzien.md] | — | — | — | ISA-570-herzien |
-| `ISA-580.md` | ◻️ unreviewed ⚠️[^ISA-580.md] | — | — | — | ISA 580 — Schriftelijke bevestigingen |
-| `ISA-600.md` | ◻️ unreviewed ⚠️[^ISA-600.md] | — | — | — | ISA 600 — Bijzondere overwegingen — Controles van financiële overzichten van groepen (i… |
-| `ISA-610-herzien.md` | ◻️ unreviewed ⚠️[^ISA-610-herzien.md] | — | — | — | ISA 610 (herzien) — Gebruikmaken van de werkzaamheden van interne auditors |
-| `ISA-620.md` | ◻️ unreviewed ⚠️[^ISA-620.md] | — | — | — | ISA 620 — Gebruikmaken van de werkzaamheden van een door de auditor ingeschakelde desku… |
-| `ISA-700-herzien.md` | ◻️ unreviewed ⚠️[^ISA-700-herzien.md] | — | — | — | ISA 700 (herzien) — Het vormen van een oordeel en het rapporteren over financiële overz… |
-| `ISA-701.md` | ◻️ unreviewed ⚠️[^ISA-701.md] | — | — | — | ISA 701 — Het communiceren van kernpunten van de controle in de controleverklaring van … |
-| `ISA-705-herzien.md` | ◻️ unreviewed ⚠️[^ISA-705-herzien.md] | — | — | — | ISA 705 (herzien) — Aanpassingen van het oordeel in de controleverklaring van de onafha… |
-| `ISA-706-herzien.md` | ◻️ unreviewed ⚠️[^ISA-706-herzien.md] | — | — | — | ISA 706 (herzien) — Paragrafen ter benadrukking van bepaalde aangelegenheden en paragra… |
-| `ISA-710.md` | ◻️ unreviewed ⚠️[^ISA-710.md] | — | — | — | ISA 710 — Ter vergelijking opgenomen informatie — Overeenkomstige cijfers en vergelijke… |
-| `ISA-720-herzien.md` | ◻️ unreviewed ⚠️[^ISA-720-herzien.md] | — | — | — | ISA 720 (herzien) — De verantwoordelijkheden van de auditor met betrekking tot andere i… |
-| `ISA-800-herzien.md` | ◻️ unreviewed ⚠️[^ISA-800-herzien.md] | — | — | — | ISA 800 (herzien) — Bijzondere overwegingen — Controles van financiële overzichten die … |
-| `ISA-805-herzien.md` | ◻️ unreviewed ⚠️[^ISA-805-herzien.md] | — | — | — | ISA 805 (herzien) — Bijzondere overwegingen — Controles van enkelvoudige financiële ove… |
-| `ISA-810-herzien.md` | ◻️ unreviewed ⚠️[^ISA-810-herzien.md] | — | — | — | ISA 810 (herzien) — Opdrachten om te rapporteren betreffende samengevatte financiële ov… |
-| `ITAA-norm-aww-geconsolideerd.md` | ◻️ unreviewed | — | — | default | ITAA-norm-aww-geconsolideerd |
-| `ITAA-norm-effectennorm.md` | ◻️ unreviewed | — | — | default | ITAA-norm-effectennorm |
-| `ITAA-norm-gedragslijnen-relaties-IBR.md` | ◻️ unreviewed | — | — | default | ITAA-norm-gedragslijnen-relaties-IBR |
-| `ITAA-norm-omzetting-vennootschap.md` | ◻️ unreviewed | — | — | default | ITAA-norm-omzetting-vennootschap |
+| `ISA-200.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 200 — Algehele doelstellingen van de onafhankelijke auditor en het uitvoeren van ee… |
+| `ISA-210.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 210 — Overeenkomen van de voorwaarden van controleopdrachten |
+| `ISA-220-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 220 (herzien) — Kwaliteitsmanagement voor een controle van financiële overzichten |
+| `ISA-230.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 230 — Controledocumentatie |
+| `ISA-240.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 240 — De verantwoordelijkheden van de auditor met betrekking tot fraude in het kade… |
+| `ISA-250-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 250 (herzien) — Het in aanmerking nemen van wet- en regelgeving bij een controle va… |
+| `ISA-260-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 260 (herzien) — Communicatie met de met governance belaste personen |
+| `ISA-265.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 265 — Het communiceren van tekortkomingen in de interne beheersing aan de met gover… |
+| `ISA-300.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 300 — Planning van een controle van financiële overzichten |
+| `ISA-315-herzien-2019.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 315 (herzien-2019) — Risico's op een afwijking van materieel belang identificeren e… |
+| `ISA-320.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 320 — Materialiteit bij de planning en uitvoering van een controle |
+| `ISA-330.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 330 — Inspelen door de auditor op ingeschatte risico's |
+| `ISA-402.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 402 — Overwegingen met betrekking tot controles van entiteiten die gebruikmaken van… |
+| `ISA-450.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 450 — Evaluatie van tijdens de controle geïdentificeerde afwijkingen |
+| `ISA-500.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 500 — Controle-informatie |
+| `ISA-501.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 501 — Controle-informatie — Specifieke overwegingen voor geselecteerde elementen |
+| `ISA-505.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 505 — Externe bevestigingen |
+| `ISA-510.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 510 — Initiële controleopdrachten — Beginsaldi |
+| `ISA-520.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 520 — Cijferanalyses |
+| `ISA-530.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 530 — Het gebruiken van steekproeven bij een controle |
+| `ISA-540-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 540 (herzien) — Het controleren van schattingen, met inbegrip van schattingen van r… |
+| `ISA-550.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 550 — Verbonden partijen |
+| `ISA-560.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 560 — Gebeurtenissen na de einddatum van de verslagperiode |
+| `ISA-570-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA-570-herzien |
+| `ISA-580.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 580 — Schriftelijke bevestigingen |
+| `ISA-600.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 600 — Bijzondere overwegingen — Controles van financiële overzichten van groepen (i… |
+| `ISA-610-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 610 (herzien) — Gebruikmaken van de werkzaamheden van interne auditors |
+| `ISA-620.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 620 — Gebruikmaken van de werkzaamheden van een door de auditor ingeschakelde desku… |
+| `ISA-700-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 700 (herzien) — Het vormen van een oordeel en het rapporteren over financiële overz… |
+| `ISA-701.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 701 — Het communiceren van kernpunten van de controle in de controleverklaring van … |
+| `ISA-705-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 705 (herzien) — Aanpassingen van het oordeel in de controleverklaring van de onafha… |
+| `ISA-706-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 706 (herzien) — Paragrafen ter benadrukking van bepaalde aangelegenheden en paragra… |
+| `ISA-710.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 710 — Ter vergelijking opgenomen informatie — Overeenkomstige cijfers en vergelijke… |
+| `ISA-720-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 720 (herzien) — De verantwoordelijkheden van de auditor met betrekking tot andere i… |
+| `ISA-800-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 800 (herzien) — Bijzondere overwegingen — Controles van financiële overzichten die … |
+| `ISA-805-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 805 (herzien) — Bijzondere overwegingen — Controles van enkelvoudige financiële ove… |
+| `ISA-810-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 810 (herzien) — Opdrachten om te rapporteren betreffende samengevatte financiële ov… |
+| `ITAA-norm-gedragslijnen-relaties-IBR.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ITAA-norm-gedragslijnen-relaties-IBR |
 | `ITAA-deontologie-beroepsgeheim.md` | ✅ trusted | — | — | human | ITAA-deontologie-beroepsgeheim |
 | `ITAA-norm-algemene-controlenorm.md` | ✅ trusted | — | — | human | ITAA-norm-algemene-controlenorm |
+| `ITAA-norm-aww-geconsolideerd.md` | ✅ trusted ⚠️[^ITAA-norm-aww-geconsolideerd.md] | — | — | subagent-qa-2026-05-16 | ITAA-norm-aww-geconsolideerd |
 | `ITAA-norm-aww-procedurereglement.md` | ✅ trusted | — | — | human | ITAA-norm-aww-procedurereglement |
 | `ITAA-norm-aww-reglement.md` | ✅ trusted | — | — | human | ITAA-norm-aww-reglement |
 | `ITAA-norm-aww-richtlijn-bibf.md` | ✅ trusted | — | — | human | ITAA-norm-aww-richtlijn-bibf |
 | `ITAA-norm-domiciliering.md` | ✅ trusted | — | — | human | ITAA-norm-domiciliering |
+| `ITAA-norm-effectennorm.md` | ✅ trusted ⚠️[^ITAA-norm-effectennorm.md] | — | — | subagent-qa-2026-05-16 | ITAA-norm-effectennorm |
 | `ITAA-norm-fusie-splitsing.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | ITAA-norm-fusie-splitsing |
 | `ITAA-norm-intern-kwaliteitsmanagement.md` | ✅ trusted | — | — | human | ITAA-norm-intern-kwaliteitsmanagement |
 | `ITAA-norm-kmo-controlenorm.md` | ✅ trusted | — | — | human | ITAA-norm-kmo-controlenorm |
+| `ITAA-norm-omzetting-vennootschap.md` | ✅ trusted ⚠️[^ITAA-norm-omzetting-vennootschap.md] | — | — | subagent-qa-2026-05-16 | ITAA-norm-omzetting-vennootschap |
 | `ITAA-norm-ontbinding-vereffening.md` | ✅ trusted | — | — | human | ITAA-norm-ontbinding-vereffening |
 | `ITAA-norm-opdrachtbrief.md` | ✅ trusted | — | — | human | ITAA-norm-opdrachtbrief |
 | `ITAA-norm-permanente-vorming.md` | ✅ trusted | — | — | human | ITAA-norm-permanente-vorming |
@@ -272,43 +327,9 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 **Caveats** (bekende beperkingen van trusted-bronnen):
 
-[^ISA-200.md]: `ISA-200.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-210.md]: `ISA-210.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-220-herzien.md]: `ISA-220-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-230.md]: `ISA-230.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-240.md]: `ISA-240.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-250-herzien.md]: `ISA-250-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-260-herzien.md]: `ISA-260-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-265.md]: `ISA-265.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-300.md]: `ISA-300.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-315-herzien-2019.md]: `ISA-315-herzien-2019.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-320.md]: `ISA-320.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-330.md]: `ISA-330.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-402.md]: `ISA-402.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-450.md]: `ISA-450.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-500.md]: `ISA-500.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-501.md]: `ISA-501.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-505.md]: `ISA-505.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-510.md]: `ISA-510.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-520.md]: `ISA-520.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-530.md]: `ISA-530.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-540-herzien.md]: `ISA-540-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-550.md]: `ISA-550.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-560.md]: `ISA-560.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-570-herzien.md]: `ISA-570-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-580.md]: `ISA-580.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-600.md]: `ISA-600.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-610-herzien.md]: `ISA-610-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-620.md]: `ISA-620.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-700-herzien.md]: `ISA-700-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-701.md]: `ISA-701.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-705-herzien.md]: `ISA-705-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-706-herzien.md]: `ISA-706-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-710.md]: `ISA-710.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-720-herzien.md]: `ISA-720-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-800-herzien.md]: `ISA-800-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-805-herzien.md]: `ISA-805-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-[^ISA-810-herzien.md]: `ISA-810-herzien.md` — PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
+[^ITAA-norm-aww-geconsolideerd.md]: `ITAA-norm-aww-geconsolideerd.md` — Heading-density bescheiden (5/339); RAG kan vallen terug op artikel-nummering binnen secties.
+[^ITAA-norm-effectennorm.md]: `ITAA-norm-effectennorm.md` — Norm is per 2026-04-21 nog niet in werking (zie frontmatter 'opmerking') — content is ontwerp-norm, niet finaal recht.
+[^ITAA-norm-omzetting-vennootschap.md]: `ITAA-norm-omzetting-vennootschap.md` — Status 'Ontwerp' in body — content is voorlopige norm, niet finaal recht.
 
 ## Adviezen (436)
 

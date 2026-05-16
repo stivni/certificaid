@@ -24,13 +24,16 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-    caveat:
-    layer1:
-    layer2:
+    status: trusted
+    confirmed_at: '2026-05-16T20:31:37Z'
+    confirmed_by: subagent-qa-2026-05-16
+    rationale: >-
+      QA-pass 2026-05-16: 1750 regels met 139 Art.-headings + 13 ## HOOFDSTUK-headings.
+      Hiërarchie klopt (HOOFDSTUK → Art.), content stroomt, paragraph-merge OK. Minimale
+      hyphen-residu ('aflever ]1') en 'nietelektronische' (één scrambled) acceptabel binnen
+      Belgische fisconetplus-pipeline.
+    layer1: null
+    layer2: null
 ---
 
 # Decreet Waalse gewestelijke belastingen

@@ -24,13 +24,18 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-    caveat:
-    layer1:
-    layer2:
+    status: needs-rework
+    confirmed_at: '2026-05-16T20:31:37Z'
+    confirmed_by: subagent-qa-2026-05-16
+    rationale: >-
+      QA-pass 2026-05-16: structurele issues — 'Art. N_WAALS_GEWEST'-varianten worden als losse
+      #### Art.-headings geëmitteerd naast plain 'Art. N', waardoor één artikel als twee aparte
+      secties verschijnt. Section-labels ('Doel.', 'Toepassingsgebied.', 'Gevolgen van de
+      erkenning.') staan als plain text vóór de eerstvolgende Art.-heading i.p.v. als
+      ##-structuurlabel. Fix: split per gewest in aparte bronnen of strip _WAALS_GEWEST-suffix +
+      inject section-labels als ##.
+    layer1: null
+    layer2: null
 ---
 
 # Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van beroepskwalificaties

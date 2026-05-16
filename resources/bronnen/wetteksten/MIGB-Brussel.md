@@ -24,13 +24,15 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-    caveat:
-    layer1:
-    layer2:
+    status: trusted
+    confirmed_at: '2026-05-16T20:31:37Z'
+    confirmed_by: subagent-qa-2026-05-16
+    rationale: >-
+      QA-pass 2026-05-16: 3618 regels met 120 ###### Artikel-headings + 7 ## TITEL-headings,
+      hiërarchie klopt. Content stroomt, opsommingen netjes per-regel. Lange lijst-items soms
+      gesplitst over para-grenzen door PDF-kolomwrap, maar geen ETL-fout.
+    layer1: null
+    layer2: null
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest

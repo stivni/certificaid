@@ -32,13 +32,22 @@ provenance:
   stale: false
   stale_reason: null
   trust:
-    status: unreviewed
-    confirmed_at: null
-    confirmed_by: null
-    rationale: 'ETL-output: pymupdf-extractie + heading-detectie (DOEL/TOEPASSINGSGEBIED/DEFINITIES
-      etc.) + paragraph-merge. QA-pass nodig om heading-correctheid en incidentele
-      woord-splits (zoals ''op brengstwaarde'', erfgenaam van PDF-kolom-wrap) te valideren.
-      EU-publicatieblad CELEX 32023R1803 = primary law.'
+    status: trusted
+    confirmed_at: '2026-05-16T20:31:37Z'
+    confirmed_by: subagent-qa-2026-05-16
+    rationale: >-
+      QA-pass 2026-05-16: gestructureerde body met heading-detectie op
+      DOEL/TOEPASSINGSGEBIED/DEFINITIES + paragraph-numbers; inhoud is volledig en
+      RAG-bruikbaar. Kolomwrap-splits ('instru menten', 'voorwaar den') zijn inherent aan de
+      bron-PDF (EUR-Lex CELEX 32023R1803 kolommen), niet aan de ETL — analoog aan
+      EU-IFRS-verordening-1606-2002.md die trusted is.
+    caveat: >-
+      pymupdf-heading-detector promoot incidenteel paragraph-nummers en korte regels (zoals '##
+      38A', '## B12', '## (X)', '## Ifrs 9;') tot ## — over-segmentation maar geen
+      content-verlies; chunker handelt dit af. Tweetalig is geen issue (NL-only
+      EUR-Lex-extractie).
+    layer1: null
+    layer2: null
 ---
 
 ## International Financial Reporting Standard 15

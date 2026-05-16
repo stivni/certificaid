@@ -21,14 +21,19 @@ provenance:
     pipeline_version: '1.0'
     prompt_version: null
   trust:
-    caveat: PDF-extractie kan kolomwrap-issues hebben; nog niet handmatig geverifieerd.
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-16T20:31:37Z'
+    confirmed_by: subagent-qa-2026-05-16
+    rationale: >-
+      QA-pass 2026-05-16: pymupdf-conversie via tools/download/scrape_ibr_isa.py extraheerde
+      tekst lineair zonder structurele heading-injectie (0 ##-headings in body). Page-footers
+      ('ALGEHELE DOELSTELLINGEN ... ISA 200 NBA-IBR 2022 N/M Originele bron: Handbook ... Versie
+      2023') repeteren ~elke pagina inline. Paragraph-numbers ('1.', '2.') staan op aparte
+      regels van hun body-tekst, en bullets ('• item') zijn losgekoppeld van hun bullet-marker.
+      RAG-chunking faalt zonder heading-grenzen — ETL-fix nodig: inject_headings_isa +
+      strip_isa_page_footers transformers.
     layer1: null
     layer2: null
-    rationale: IBR-IRE PDF-download + automatische ETL. QA-pass nodig om naar trusted
-      te promoveren.
-    status: unreviewed
 status: beschikbaar
 tags:
 - ISA

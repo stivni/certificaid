@@ -24,13 +24,15 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-    caveat:
-    layer1:
-    layer2:
+    status: trusted
+    confirmed_at: '2026-05-16T20:31:37Z'
+    confirmed_by: subagent-qa-2026-05-16
+    rationale: >-
+      QA-pass 2026-05-16: 2848 regels met 150 ##### Art.-headings + 8 ##
+      TITEL/HOOFDSTUK-headings. Hiërarchie klopt en is consistent met MIGB-Brussel/Wallonie.
+      Content stroomt.
+    layer1: null
+    layer2: null
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest

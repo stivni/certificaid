@@ -35,13 +35,18 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
-    caveat:
-    layer1:
-    layer2:
+    status: trusted
+    confirmed_at: '2026-05-16T20:31:37Z'
+    confirmed_by: subagent-qa-2026-05-16
+    rationale: >-
+      QA-pass 2026-05-16: 339 regels met 5 ##-headings (## 1. Algemene bepalingen, ## 2. ...).
+      Heading-density laag maar content is duidelijk per artikel-nummering (1.1, 1.2, ...)
+      gesegmenteerd binnen secties; geconsolideerde norm-tekst leest correct.
+    caveat: >-
+      Heading-density bescheiden (5/339); RAG kan vallen terug op artikel-nummering binnen
+      secties.
+    layer1: null
+    layer2: null
 ---
 Geconsolideerde tekst door het Instituut van de Belastingadviseurs en de Accountants (ITAA) van de norm van het IAB en de richtlijn van het BIBF inzake de toepassing van de wet van 18 september 2017 tot
 
