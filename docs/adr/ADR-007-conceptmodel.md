@@ -58,6 +58,82 @@
 
   **Volledig stap-blok-voorbeeld**: zie ADR-008 §13 prompt-bijlage of `prompts/concept-extractie-v4.md`.
 
+  **Bouwsteen-blok geformaliseerd** (was: vrije tekst-bullet met wetsartikel in titel). Schema:
+  ```yaml
+  bouwstenen:
+    - titel: "Korte titel max 6 woorden, geen wetsartikel"
+      wat: "1-2 zinnen in stagiair-toon — geen letterlijke wettekst-citatie"
+      waarom: "Rationale: welk beginsel zit hier achter?"
+      voorbeeld_inline: "Eén-zin-voorbeeld met cast-namen (optioneel)"
+      grondslag: "KB WVV art. 3:126"   # wetsartikel op laatste regel, niet in titel
+      confidence: "grounded"
+      _provenance: { inputs: [...] }
+  ```
+  ENRICH-pass migreert oude bouwstenen (string of `{tekst, source, confidence}`) naar dit blok-formaat. Verplichte velden: `titel`, `wat`, `grondslag`, `confidence`. Aanbevolen: `waarom`, `voorbeeld_inline`.
+
+  **Formule-blok geformaliseerd**. `berekeningsmethode[].formule` was tot v1.3 één string. v1.4:
+  ```yaml
+  berekeningsmethode:
+    - naam: "Consolidatieverschil bij eerste consolidatie"
+      formules:
+        - id: "pro-rata-aandeel"
+          naam: "Pro-rata aandeel in eigen vermogen"
+          wiskunde: |
+            aandeel = belangenpercentage × eigen vermogen dochter
+          variabelen:
+            - { symbool: "belangenpercentage", betekenis: "...", eenheid: "%" }
+            - { symbool: "eigen vermogen dochter", betekenis: "EV op verwervingsdatum", eenheid: "EUR" }
+          invulling_voorbeeld:
+            waarden: "belangenpercentage = 80%, eigen vermogen dochter = 300"
+            berekening: "80% × 300 = 240"
+            eenheid_resultaat: "EUR"
+        - id: "consolidatieverschil"
+          naam: "Consolidatieverschil"
+          wiskunde: |
+            consolidatieverschil = aanschaffingswaarde − pro-rata aandeel
+          afhankelijk_van: [pro-rata-aandeel]   # forward-reference naar andere formule
+          variabelen: [...]
+          invulling_voorbeeld:
+            waarden: "aanschaffingswaarde = 320, pro-rata aandeel = 240"
+            berekening: "320 − 240 = 80 (positief)"
+            eenheid_resultaat: "EUR"
+  ```
+  Render: KaTeX-block voor `wiskunde` (Quartz native support) of leesbare pseudo-formule + variabelen-tabel + invulling. Meerdere `formules[]` per `berekeningsmethode[]` zijn toegestaan met `afhankelijk_van[]`-verwijzing om volgorde te tonen.
+
+  **Voorbeeld-minimum-regel per node-type**:
+  
+  | Node-type | Minimum voorbeeld |
+  |---|---|
+  | `begrip` / `fenomeen` | ≥ 1 `voorbeeld_inline` (op record-niveau of in een bouwsteen) |
+  | `methode` / `procedure` | ≥ 1 `berekeningsmethode.formules[].invulling_voorbeeld` OF ≥ 1 stap met `voorbeeld.substappen[]` |
+  | `regel` / `verplichting` | ≥ 1 `voorbeeld_inline` met concrete cliëntsituatie |
+  | `synthese` | ≥ 1 worked example in `vergelijkingstabel` of `beslisboom` |
+  | `actor` | ≥ 1 `voorbeeld_inline` met rol-context (bv. "Bestuurder Marleen De Cock") |
+  
+  Render produceert `> [!todo] Voorbeeld ontbreekt voor dit concept`-callout als minimum niet gehaald is. Zichtbare gap voor stagiair én voor curator. ENRICH-pass krijgt aspect-type `voorbeeld.ontbreekt` om dit mechanisch te detecteren.
+
+  **Voorbeelden — drie toegestane bronnen**:
+  1. **Uit bron-chunks**: CBN-adviezen bevatten praktijkvoorbeelden; KB-WVV-artikelen soms ook. Eerste keuze, hoogste confidence.
+  2. **Bestaand `concreet_voorbeeld`** uit schema 1.2/1.3 platte-tekst — omzetten naar substappen of inline.
+  3. **Synthese met cast** (nieuw, expliciet toegestaan): extractor mag een scenario opstellen met cast-namen en plausibele cijfers, mits:
+     - bedragen plausibel (geen 100 miljard voor een BV)
+     - scenario illustreert het concept (laat zien hoe de regel/formule werkt)
+     - intern consistent (geen contradicties)
+     - confidence `inferred` (niet `grounded`)
+  Bron 3 mag pas ingezet worden als bron 1 + 2 niet volstaan. Anti-fabricatie-discipline: bedragen zijn didactische illustratie, geen feitelijke claim.
+
+  **Stap-blok concept-procedure vs competentie — schema identiek, conventies verschillen**:
+  
+  | Aspect | Concept-procedure-stap | Competentie-stap |
+  |---|---|---|
+  | Scope | Eén wettelijke deelhandeling | Orchestratie van concepten |
+  | `grondslag.ref` typisch | Eén wetsartikel | Eén of meer concept-wikilinks |
+  | `grondslag.type` mogelijk | `wettekst` of `concept` | `concept` of `praktijk` |
+  | `hoe`-inhoud | Uitvoerbaar op één procedure | Kan hele procedure aanroepen ("Volg [[concept-X]] §sectie") |
+  | Voorbeeld | Eén casus illustreert procedure | Eén beslissings-scenario met takken |
+  
+  Geen schema-fork — beide gebruiken identiek stap-blok. Conventies dwingen het verschil af via prompts (concept-extractie-v4 vs competentie-destillatie-v2).
+
 - **2026-05-15 (1.3)** — Drie-lagen leermateriaal-uitbreiding op basis van
   gebruiker-discussie over render-generators. Concept-records krijgen optionele
   `rationale`-velden om pedagogisch inzicht ("welk beginsel? wat ziet de student

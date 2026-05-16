@@ -195,18 +195,108 @@ Geen `definitie`/`main_rule` (verwijst naar onderliggende concepten). Wel `verge
 
 ENRICH-pass detecteert cohesie-clusters (concepten met ≥ 3 onderlinge cross-refs) en stelt synthese-records voor.
 
-### Regel 11 — Bouwsteen-titels zonder wetsartikel-prefix
+### Regel 11 — Bouwsteen-blok geformaliseerd
 
-In schema 1.2/1.3 zag je vaak:
+In v1.2/1.3 was een bouwsteen vaak één lange wettekst-zin met wetsartikel in de titel:
 
-> **Integrale opname (KB WVV art. 3:126)**: Alle actief- en passiefbestanddelen ...
+> **Integrale opname (KB WVV art. 3:126)**: Alle actief- en passiefbestanddelen van de consoliderende vennootschap en van de in de consolidatie opgenomen dochterondernemingen worden in de geconsolideerde balans opgenomen. ⚖️
 
-In v4 hoort het wetsartikel op de **laatste regel** als grondslag:
+In v4 schrijf je een **blok** met vijf velden:
 
-> **Integrale opname**: Alle actief- en passiefbestanddelen ...
-> _Grondslag: KB WVV art. 3:126_
+```yaml
+bouwstenen:
+  - titel: "Volledige opname van beide balansen"   # max 6 woorden, geen wetsartikel
+    wat: "Alle bezittingen en schulden van moeder en dochter komen samen in de geconsolideerde balans — voor 100%."
+    waarom: "De groep wordt voorgesteld als één economische entiteit; je doet alsof het één bedrijf is."
+    voorbeeld_inline: "Aurelia heeft activa 1000, Brugse Brouwerij heeft activa 600 → geconsolideerd: 1600 (vóór intragroep-eliminaties)."
+    grondslag: "KB WVV art. 3:126"
+    confidence: "grounded"
+    _provenance: { inputs: [{"id": "...", "sha256": null, "version": "rag-v1"}] }
+```
 
-Titel max 6 woorden, geen artikelnummers, geen "(KB WVV ...)"-suffix. Render-template legt grondslag op de juiste positie.
+- **titel** ≤ 6 woorden, geen wetsartikel, stagiair-toon
+- **wat** 1-2 zinnen in eigen woorden — geen letterlijke wettekst-citatie
+- **waarom** rationale (welk beginsel zit erachter?)
+- **voorbeeld_inline** één-zin-voorbeeld met cast-namen (optioneel; verplicht voor centrale bouwstenen)
+- **grondslag** wetsartikel op laatste regel
+- **confidence** ongewijzigd
+
+### Regel 12 — Formule-blok geformaliseerd
+
+In v1.2/1.3 was `formule` één string die alles op één regel duwde — onleesbaar:
+
+> `Geconsolideerde post = (post moeder) + (post dochter × 100 %) − intragroep-eliminaties; Aandeel derden = (1 − belang%) × eigen vermogen of resultaat dochter`
+
+In v4 splits je dit in losse, genummerde formules met variabelen en voorbeeld:
+
+```yaml
+berekeningsmethode:
+  - naam: "Consolidatieverschil bij eerste consolidatie"
+    formules:
+      - id: "pro-rata-aandeel"
+        naam: "Pro-rata aandeel in eigen vermogen"
+        wiskunde: |
+          aandeel = belangenpercentage × eigen vermogen dochter
+        variabelen:
+          - { symbool: "belangenpercentage", betekenis: "Stemrechtenaandeel moeder in dochter", eenheid: "%" }
+          - { symbool: "eigen vermogen dochter", betekenis: "EV op verwervingsdatum", eenheid: "EUR" }
+        invulling_voorbeeld:
+          waarden: "belangenpercentage = 80%, eigen vermogen dochter = 300"
+          berekening: "80% × 300 = 240"
+          eenheid_resultaat: "EUR"
+      
+      - id: "consolidatieverschil"
+        naam: "Consolidatieverschil"
+        wiskunde: |
+          consolidatieverschil = aanschaffingswaarde − pro-rata aandeel
+        afhankelijk_van: ["pro-rata-aandeel"]
+        variabelen:
+          - { symbool: "aanschaffingswaarde", betekenis: "Wat moeder betaalde voor de aandelen", eenheid: "EUR" }
+          - { symbool: "pro-rata aandeel", betekenis: "Resultaat eerste formule", eenheid: "EUR" }
+        invulling_voorbeeld:
+          waarden: "aanschaffingswaarde = 320, pro-rata aandeel = 240"
+          berekening: "320 − 240 = 80 (positief)"
+          eenheid_resultaat: "EUR"
+```
+
+**Regels**:
+- Eén `formule` per concept = één wiskundige relatie (max 1 `=` en 1-2 operators)
+- Bij meerstapse berekeningen: split in meerdere formules met `afhankelijk_van`-keten
+- Elke formule verplicht `variabelen[]` (uitleg per symbool) + `invulling_voorbeeld` (concrete cijfers met cast-namen)
+- `wiskunde` is leesbare pseudo-formule (geen LaTeX-vereiste) — Quartz-render kan KaTeX inzetten waar zinvol
+
+### Regel 13 — Voorbeeld-minimum per node-type
+
+Schema 1.4 dwingt minimum voorbeeld-aanwezigheid af:
+
+| Node-type | Minimum |
+|---|---|
+| `begrip` / `fenomeen` | ≥ 1 `voorbeeld_inline` (record-niveau of in bouwsteen) |
+| `methode` / `procedure` | ≥ 1 `berekeningsmethode.formules[].invulling_voorbeeld` OF ≥ 1 stap met `voorbeeld.substappen[]` |
+| `regel` / `verplichting` | ≥ 1 `voorbeeld_inline` met concrete cliëntsituatie |
+| `synthese` | ≥ 1 worked example in `vergelijkingstabel` of `beslisboom` |
+| `actor` | ≥ 1 `voorbeeld_inline` met rol-context (bv. "Bestuurder Marleen De Cock") |
+
+Als minimum niet gehaald wordt: log expliciet in eindrapport. Render produceert `> [!todo] Voorbeeld ontbreekt`-callout.
+
+### Regel 14 — Voorbeelden uit drie toegestane bronnen
+
+In volgorde van voorkeur:
+
+1. **Uit bron-chunks** (eerste keuze, `confidence: grounded`):
+   - CBN-adviezen bevatten vaak praktijkvoorbeelden — zoek expliciet in §"Voorbeeld"-secties
+   - KB-WVV-artikelen soms in toelichting
+
+2. **Bestaand `concreet_voorbeeld`** (uit schema 1.2/1.3, bij rewrite): omzetten naar substappen-formaat of inline.
+
+3. **Synthese met cast** (laatste keuze, `confidence: inferred`): mag wanneer 1+2 niet volstaan. Voorwaarden:
+   - Bedragen plausibel (geen extreme waarden voor een BV)
+   - Scenario illustreert het concept — laat zien hoe de regel/formule werkt
+   - Intern consistent — geen contradicties tussen substappen
+   - Cast-namen uit `casts/globaal.yaml` (kies passend scenario-template)
+   - `confidence: inferred` markeren, `_provenance.inputs` blijft naar bron-chunks (waaruit de regel komt) — niet naar verzonnen cijfers
+
+**Anti-fabricatie-discipline**: bedragen in synthese-voorbeelden zijn **didactische illustratie**, niet feitelijke claim. Een examen-stagiair die het voorbeeld leest leert HOE de regel werkt, niet WAT specifieke bedragen zijn.
 
 ---
 

@@ -108,6 +108,53 @@ hoe: |
   1. Toets aan de drempelwaarden.
 ```
 
+### Regel E-bis — Conventie-verschil met concept-procedure-stappen
+
+Schema 1.4 gebruikt **identiek stap-blok** voor concept-procedures en competenties. Conventies dwingen het scope-verschil af:
+
+| Aspect | Concept-procedure-stap | Competentie-stap |
+|---|---|---|
+| **Scope** | Eén wettelijke deelhandeling (bv. "compenseer boekwaarde met EV") | Orchestratie van meerdere concepten (bv. "toets aan groottecriteria volgens [[groottecriteria-consolidatie]]") |
+| **`grondslag.ref`** | Eén wetsartikel (KB WVV art. X:Y) | Eén of meer concept-wikilinks, vaak naar procedure-concepten |
+| **`grondslag.type`** | `wettekst` of `concept` | `concept` of `praktijk` |
+| **`hoe`-inhoud** | "Open balans X, bereken Y, schrap Z" — uitvoerbaar op één procedure | "Volg [[concept-X]] §sectie. Bij overschrijding: ga naar stap 2." — kan een hele procedure als één stap aanroepen |
+| **Voorbeeld-substappen** | Eén casus die de wettelijke procedure demonstreert van begin tot einde | Eén beslissings-scenario met mogelijke takken; substappen kunnen verwijzen naar concept-procedure-voorbeelden |
+
+**Concrete illustratie**:
+
+Concept-procedure `eerste-consolidatie` heeft stap 2:
+```yaml
+- nr: 2
+  titel: "Compenseer boekwaarde met aandeel in eigen vermogen"
+  hoe: "1. Open balans moeder, zoek 'Deelnemingen' (320). 2. Open balans dochter ..."
+  grondslag: { type: wettekst, ref: "KB WVV art. 3:127 a" }
+  voorbeeld:
+    substappen: [ balans-moeder, balans-dochter, berekening, geconsolideerde-balans ]
+```
+
+Competentie `uitvoeren-eerste-consolidatie` heeft stap 2:
+```yaml
+- nr: 2
+  titel: "Voer compensatie uit volgens KB WVV-procedure"
+  hoe: |
+    Volg [[eerste-consolidatie]] §stap-2-compensatie.
+    Aandachtspunt: bij Brugse Brouwerij was er geen onder/overgewaardeerd
+    actief, dus volledig verschil = consolidatieverschil.
+  grondslag: { type: concept, ref: "[[eerste-consolidatie]]" }
+```
+
+**Geen duplicatie**: competentie verwijst naar concept-procedure ipv stappen opnieuw te beschrijven. Render-tijd kan via wikilink-include de concept-procedure-stappen tonen.
+
+### Regel F — Voorbeeld-substappen-formaat
+
+Net als concept-extractie v4 Regel 13: substappen-formaat verplicht voor stappen die balansen wijzigen, bedragen berekenen, of boekingen doen. Substap-types: `balans` / `berekening` / `boekingsregel` / `opmerking` / `flowchart`. Markdown-tabellen in `data`-veld.
+
+Voor competentie-stappen die alleen "kwalificeren" of "documenten verzamelen" — geen substappen verplicht, alleen `wat` + `hoe` volstaat.
+
+### Regel G — Voorbeelden uit drie bronnen
+
+Identiek aan concept-extractie v4 Regel 14: voorkeur bron-chunks > bestaand voorbeeld > synthese met cast. Synthese-bedragen zijn didactische illustratie (`confidence: inferred`).
+
 ### Regel E — Valkuilen met `advies` als titel (niet de fout)
 
 Schema 1.0 had `foute_aanname` + `correctie`. Render gaf de FOUT als titel — onleesbaar bij snel scannen. v2: titel wordt het ADVIES (= correcte aanbeveling), foute aanname als sub-info.
