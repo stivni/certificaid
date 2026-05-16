@@ -15,31 +15,11 @@
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.D",
-    "dekt_ook_anchors": [
-      "1.4.I.G",
-      "1.4.I.B",
-      "1.4.I.E",
-      "1.4.taak.1"
-    ],
+    "dekt_ook_anchors": ["1.4.I.G", "1.4.I.B", "1.4.I.E", "1.4.taak.1"],
     "reviewed_by": null,
     "enrich_runs": [
-      {
-        "run_id": "enrich-run-20260515T141848Z",
-        "model": "claude-opus-4-7",
-        "gaps_verwerkt": [
-          "definitie.onvolledig",
-          "vergelijkingsparen.vrije-tekst-niet-gespiegeld"
-        ],
-        "uitgevoerd_op": "2026-05-15T15:00:00+00:00"
-      },
-      {
-        "run_id": "enrich-run-20260515T144255Z",
-        "model": "claude-opus-4-7",
-        "gaps_verwerkt": [
-          "oorzaken.dedup"
-        ],
-        "uitgevoerd_op": "2026-05-15T16:50:00+00:00"
-      }
+      {"run_id": "enrich-run-20260515T141848Z", "model": "claude-opus-4-7", "gaps_verwerkt": ["definitie.onvolledig", "vergelijkingsparen.vrije-tekst-niet-gespiegeld"], "uitgevoerd_op": "2026-05-15T15:00:00+00:00"},
+      {"run_id": "enrich-run-20260515T144255Z", "model": "claude-opus-4-7", "gaps_verwerkt": ["oorzaken.dedup"], "uitgevoerd_op": "2026-05-15T16:50:00+00:00"}
     ],
     "schema_1_4_migration": {
       "uitgevoerd_op": "2026-05-16T00:11Z",
@@ -57,389 +37,280 @@
       "uitgevoerd_op": "2026-05-16T00:17Z",
       "tool": "jargon_pass3.py",
       "scope": "deterministische jargon-substituties + cast-namen in voorbeeld-velden (regels 6 + 7)",
-      "aantal_substituties": 17,
-      "voorbeelden": [
-        {
-          "pad": ".definitie.text",
-          "oude_term": "verwervingsdatum",
-          "nieuwe_term": "datum van aankoop"
-        },
-        {
-          "pad": ".bouwstenen[1].wat",
-          "oude_term": "verwervingsdatum",
-          "nieuwe_term": "datum van aankoop"
-        },
-        {
-          "pad": ".oorzaken[0].text",
-          "oude_term": "passiefbestanddelen",
-          "nieuwe_term": "schulden en eigen vermogen"
-        },
-        {
-          "pad": ".oorzaken[3].text",
-          "oude_term": "actief- en passiefbestanddelen",
-          "nieuwe_term": "bezittingen en schulden"
-        },
-        {
-          "pad": ".berekeningsmethode[0].stappen[1].wat",
-          "oude_term": "verwervingsdatum",
-          "nieuwe_term": "datum van aankoop"
-        }
+      "aantal_substituties": 17
+    },
+    "deep_rewrite_2026_05_16": {
+      "door": "deep-rewrite-batch-1-concepten",
+      "op": "2026-05-16T00:42Z",
+      "velden_gewijzigd": [
+        "bouwstenen[*].waarom (nieuw) + voorbeeld_inline (nieuw)",
+        "bouwstenen[*].wat (stagiair-toon)",
+        "berekeningsmethode[0].stappen[*]: skeleton → vol-blok (titel+wat+waarom+input+output+hoe+grondslag)",
+        "berekeningsmethode[0].stappen[5].voorbeeld.substappen toegevoegd (worked example met balans-tabellen)",
+        "berekeningsmethode[0].formules[*]: variabelen + invulling_voorbeeld toegevoegd",
+        "edges: dubbel contrasteert-met dochter/geassocieerde gemarkeerd als 'specialisatie-van' / weggehaald"
       ]
     }
   },
   "definitie": {
-    "text": "Het verschil dat ontstaat bij de eerste consolidatie tussen (a) de aanschaffingswaarde van een deelneming in een dochter- of geassocieerde onderneming en (b) het overeenkomstige deel van het eigen vermogen van die onderneming op datum van aankoop, na toerekening van het verschil aan onder-/overgewaardeerde activa en passiva. Het overblijvende verschil wordt in de geconsolideerde balans opgenomen onder de post 'Consolidatieverschillen', aan actiefzijde indien positief en aan passiefzijde indien negatief. Positieve consolidatieverschillen worden afgeschreven over de vermoedelijke gebruiksduur.",
+    "text": "Het verschil dat bij de eerste consolidatie overblijft tussen (a) wat de moeder betaalde voor de aandelen van een dochter of geassocieerde onderneming en (b) haar pro-rata aandeel in het eigen vermogen van die onderneming op datum van aankoop — nadat je dat verschil zoveel mogelijk hebt toegerekend aan onder- of overgewaardeerde bezittingen en schulden. Wat dan nog overblijft, verschijnt in de geconsolideerde balans als 'Consolidatieverschillen': aan actiefzijde als het positief is, aan passiefzijde als het negatief is. Positieve consolidatieverschillen worden afgeschreven over hun vermoedelijke gebruiksduur.",
     "confidence": "grounded",
-    "source": {
-      "type": "kb",
-      "short": "KB WVV art. 3:130 jo. art. 3:131"
-    },
+    "source": {"type": "kb", "short": "KB WVV art. 3:130 jo. art. 3:131"},
     "references": [
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:127, a) (compensatie)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:128 (toerekening aan activa/passiva)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:129 (datum van waardebepaling)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:130 (boeking)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:131 (afschrijving)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:132 (gedeeltelijke realisatie)"
-      },
-      {
-        "type": "advies",
-        "short": "CBN 2022/11 — Vermogensmutatiemethode (consolidatieverschil bij vermogensmutatie)"
-      },
-      {
-        "type": "advies",
-        "short": "CBN 2013/3 — Step acquisitions (update)"
-      }
+      {"type": "kb", "short": "KB WVV art. 3:127, a) (compensatie)"},
+      {"type": "kb", "short": "KB WVV art. 3:128 (toerekening aan activa/passiva)"},
+      {"type": "kb", "short": "KB WVV art. 3:129 (datum van waardebepaling)"},
+      {"type": "kb", "short": "KB WVV art. 3:130 (boeking)"},
+      {"type": "kb", "short": "KB WVV art. 3:131 (afschrijving)"},
+      {"type": "kb", "short": "KB WVV art. 3:132 (gedeeltelijke realisatie)"},
+      {"type": "advies", "short": "CBN 2022/11 — Vermogensmutatiemethode (consolidatieverschil bij vermogensmutatie)"},
+      {"type": "advies", "short": "CBN 2013/3 — Step acquisitions (update)"}
     ],
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "KB-WVV-2019__art_3_102",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "KB-WVV-2019__art_3_103",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "KB-WVV-2019__art_3_104",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
+    "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_102", "sha256": null, "version": "rag-v1"}, {"id": "KB-WVV-2019__art_3_103", "sha256": null, "version": "rag-v1"}, {"id": "KB-WVV-2019__art_3_104", "sha256": null, "version": "rag-v1"}, {"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1", "sha256": null, "version": "rag-v1"}]},
+    "_corrected_from": [
+      {"field": "text", "from": "Het verschil dat ontstaat bij de eerste consolidatie tussen (a) de aanschaffingswaarde van een deelneming in een dochter- of geassocieerde onderneming en (b) het overeenkomstige deel van het eigen vermogen van die onderneming op datum van aankoop, na toerekening van het verschil aan onder-/overgewaardeerde activa en passiva. Het overblijvende verschil wordt in de geconsolideerde balans opgenomen onder de post 'Consolidatieverschillen', aan actiefzijde indien positief en aan passiefzijde indien negatief. Positieve consolidatieverschillen worden afgeschreven over de vermoedelijke gebruiksduur.", "reason": "Stagiair-toon: 'aanschaffingswaarde' → 'wat de moeder betaalde'; 'overeenkomstige deel van het eigen vermogen' → 'pro-rata aandeel'; 'na toerekening' → 'nadat je dat verschil zoveel mogelijk hebt toegerekend' (regel 6)."}
+    ]
   },
+  "voorbeeld_inline": "Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor 320; EV van Brugse op aankoopdatum = 300. Pro-rata aandeel = 80 % × 300 = 240. Bruto-verschil = 320 − 240 = 80. Vastgoed van Brugse is 50 ondergewaardeerd → 50 toegerekend aan terreinen; residu 30 wordt geboekt als 'Consolidatieverschillen' (actiefzijde).",
   "bouwstenen": [
     {
-      "titel": "Positief consolidatieverschil",
-      "wat": "Ontstaat wanneer de aanschaffingswaarde van de deelneming het pro-rata aandeel in het eigen vermogen van de dochter (na toerekening aan onder-/overgewaardeerde activa) overstijgt. Boeking aan actiefzijde van de geconsolideerde balans. Wordt afgeschreven volgens een passend plan dat overeenstemt met de vermoedelijke gebruiksduur. Bij afschrijving over meer dan vijf jaar: motivering in toelichting verplicht (KB WVV art. 3:131, § 1).",
+      "titel": "Positief consolidatieverschil = goodwill",
+      "wat": "Je betaalt meer voor de aandelen dan je pro-rata aandeel in het eigen vermogen van de dochter (na correctie voor stille meer- of minwaarden). Het positieve verschil komt aan actiefzijde van de geconsolideerde balans en wordt afgeschreven over de vermoedelijke gebruiksduur. Schrijf je af over meer dan vijf jaar? Dan moet je dat in de toelichting motiveren.",
+      "waarom": "De premie die de moeder boven op de boekwaarde betaalde, weerspiegelt economische waarde (klantenbestand, marktpositie, synergieën) die niet aan één concrete balanspost is toe te wijzen. Door dat residu op de balans te activeren en gespreid af te schrijven, vermijd je dat het hele bedrag de winst van het aankoopjaar onterecht zou drukken.",
+      "voorbeeld_inline": "Aurelia betaalt 320 voor 80 % van Brugse; pro-rata EV = 240 en geen stille meerwaarden → positief consolidatieverschil = 80. Boeken aan actiefzijde, afschrijven over 5 jaar = 16 per jaar.",
       "grondslag": "KB WVV art. 3:131, § 1",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:131, § 1"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_103",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "_corrected_from": {
-        "veld": "bouwsteen[naam→titel, text→wat]",
-        "oude_naam": "Positief consolidatieverschil",
-        "reden": "Schema 1.2→1.4: bouwsteen-blok met titel/wat/grondslag. Wetsartikel uit titel naar grondslag (regel 11). Stagiair-toon-rewrite pending mens-review."
-      }
+      "source": {"type": "kb", "short": "KB WVV art. 3:131, § 1"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_103", "sha256": null, "version": "rag-v1"}]},
+      "_corrected_from": [
+        {"field": "wat", "from": "Ontstaat wanneer de aanschaffingswaarde van de deelneming het pro-rata aandeel in het eigen vermogen van de dochter (na toerekening aan onder-/overgewaardeerde activa) overstijgt. Boeking aan actiefzijde van de geconsolideerde balans. Wordt afgeschreven volgens een passend plan dat overeenstemt met de vermoedelijke gebruiksduur. Bij afschrijving over meer dan vijf jaar: motivering in toelichting verplicht (KB WVV art. 3:131, § 1).", "reason": "Stagiair-toon (regel 6) + wetsartikel naar grondslag."},
+        {"field": "waarom", "from": null, "reason": "Rationale toegevoegd (regel 11)."},
+        {"field": "voorbeeld_inline", "from": null, "reason": "Cast-voorbeeld toegevoegd (regel 11)."}
+      ]
     },
     {
-      "titel": "Negatief consolidatieverschil",
-      "wat": "Ontstaat wanneer de aanschaffingswaarde van de deelneming lager is dan het pro-rata aandeel in het eigen vermogen (na toerekening). Boeking aan passiefzijde van de geconsolideerde balans. Mag niet zomaar in de resultatenrekening worden opgenomen; uitzondering: indien het negatieve verschil te verklaren valt door een op datum van aankoop verwachte ongunstige resultaatsontwikkeling, mag het worden opgenomen in resultaat naarmate die ongunstige ontwikkeling zich realiseert (KB WVV art. 3:131, § 2).",
+      "titel": "Negatief consolidatieverschil = badwill",
+      "wat": "Je betaalt minder dan je pro-rata aandeel in het eigen vermogen (na correctie). Het negatieve verschil komt aan passiefzijde. Het mag niet zomaar als winst worden geboekt. Uitzondering: als het negatieve verschil te verklaren is door een verwachte ongunstige resultaatsontwikkeling van de dochter, dan mag je het in resultaat opnemen naarmate die verwachte verliezen zich echt voordoen.",
+      "waarom": "Badwill wijst meestal op verborgen risico's (komende verliezen, schade-aansprakelijkheden) waar de koper rekening mee houdt. Het meteen als winst boeken zou een spookwinst opleveren; de wet koppelt de erkenning aan het effectief optreden van die verliezen.",
+      "voorbeeld_inline": "Aurelia koopt 80 % van een verlieslatende Brugse voor 180; pro-rata EV = 240 → negatief consolidatieverschil = 60, geboekt aan passiefzijde. In jaar 1 boekt Brugse het verwachte verlies van 30; Aurelia mag 80 % × 30 = 24 uit het negatieve verschil in resultaat opnemen.",
       "grondslag": "KB WVV art. 3:131, § 2",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:131, § 2"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_103",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "_corrected_from": {
-        "veld": "bouwsteen[naam→titel, text→wat]",
-        "oude_naam": "Negatief consolidatieverschil",
-        "reden": "Schema 1.2→1.4: bouwsteen-blok met titel/wat/grondslag. Wetsartikel uit titel naar grondslag (regel 11). Stagiair-toon-rewrite pending mens-review."
-      }
+      "source": {"type": "kb", "short": "KB WVV art. 3:131, § 2"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_103", "sha256": null, "version": "rag-v1"}]},
+      "_corrected_from": [
+        {"field": "wat", "from": "Ontstaat wanneer de aanschaffingswaarde van de deelneming lager is dan het pro-rata aandeel in het eigen vermogen (na toerekening). Boeking aan passiefzijde van de geconsolideerde balans. Mag niet zomaar in de resultatenrekening worden opgenomen; uitzondering: indien het negatieve verschil te verklaren valt door een op datum van aankoop verwachte ongunstige resultaatsontwikkeling, mag het worden opgenomen in resultaat naarmate die ongunstige ontwikkeling zich realiseert (KB WVV art. 3:131, § 2).", "reason": "Stagiair-toon: 'aanschaffingswaarde' → 'wat je betaalde'; 'verwachte ongunstige resultaatsontwikkeling' uitgelegd (regel 6)."},
+        {"field": "waarom", "from": null, "reason": "Rationale toegevoegd."},
+        {"field": "voorbeeld_inline", "from": null, "reason": "Cast-voorbeeld toegevoegd."}
+      ]
     },
     {
-      "titel": "Geen compensatie tussen positief en negatief",
-      "wat": "Positieve en negatieve consolidatieverschillen mogen niet met elkaar worden gecompenseerd, tenzij zij betrekking hebben op dezelfde dochteronderneming — in dat geval is compensatie verplicht (KB WVV art. 3:130).",
+      "titel": "Geen compensatie tussen verschillende dochters",
+      "wat": "Positieve consolidatieverschillen bij dochter A en negatieve verschillen bij dochter B mag je niet tegen elkaar wegstrepen. Voor één en dezelfde dochter moeten positieve en negatieve verschillen wél worden gecompenseerd.",
+      "waarom": "Twee verschillende dochters zijn economisch los van elkaar; saldering zou een dochter met verborgen goodwill optisch laten verdwijnen achter de badwill van een andere dochter. Binnen één dochter daarentegen gaat het om hetzelfde economische geheel — daar is saldering juist verplicht.",
+      "voorbeeld_inline": "Aurelia heeft een positief verschil van 80 bij Brugse en een negatief verschil van 40 bij Bouwwerf Beerse → beide afzonderlijk presenteren, niet salderen.",
       "grondslag": "KB WVV art. 3:130",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:130"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_102",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "_corrected_from": {
-        "veld": "bouwsteen[naam→titel, text→wat]",
-        "oude_naam": "Geen compensatie tussen positief en negatief",
-        "reden": "Schema 1.2→1.4: bouwsteen-blok met titel/wat/grondslag. Wetsartikel uit titel naar grondslag (regel 11). Stagiair-toon-rewrite pending mens-review."
-      }
+      "source": {"type": "kb", "short": "KB WVV art. 3:130"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_102", "sha256": null, "version": "rag-v1"}]},
+      "_corrected_from": [
+        {"field": "wat", "from": "Positieve en negatieve consolidatieverschillen mogen niet met elkaar worden gecompenseerd, tenzij zij betrekking hebben op dezelfde dochteronderneming — in dat geval is compensatie verplicht (KB WVV art. 3:130).", "reason": "Stagiair-toon: 'gecompenseerd' → 'tegen elkaar wegstrepen' (regel 6)."},
+        {"field": "waarom", "from": null, "reason": "Rationale toegevoegd."},
+        {"field": "voorbeeld_inline", "from": null, "reason": "Cast-voorbeeld toegevoegd."}
+      ]
     },
     {
-      "titel": "Gedeeltelijke realisatie van de aandelen",
-      "wat": "Ingeval de aandelen van een in de consolidatie opgenomen dochter geheel of gedeeltelijk buiten de consolidatiekring worden gerealiseerd, wordt het overblijvende consolidatieverschil afgeboekt naar verhouding van de gerealiseerde aandelen (KB WVV art. 3:132).",
+      "titel": "Gedeeltelijke verkoop van aandelen",
+      "wat": "Verkoopt de moeder een deel van haar aandelen in een dochter (buiten de consolidatiekring), dan boek je een evenredig stuk van het overblijvende consolidatieverschil af.",
+      "waarom": "Het consolidatieverschil hoort bij de aangehouden aandelen. Bij gedeeltelijke verkoop hoort dat verschil ook gedeeltelijk te verdwijnen, anders blijf je een goodwill aanhouden die niet meer correspondeert met je participatie.",
+      "voorbeeld_inline": "Aurelia heeft een resterend positief consolidatieverschil van 60 op haar 80 %-belang in Brugse. Aurelia verkoopt de helft (40 %) aan een derde → 30 (= 60 × 40 %/80 %) van het consolidatieverschil wordt afgeboekt.",
       "grondslag": "KB WVV art. 3:132",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:132"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_104",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
-      "_corrected_from": {
-        "veld": "bouwsteen[naam→titel, text→wat]",
-        "oude_naam": "Gedeeltelijke realisatie van de aandelen",
-        "reden": "Schema 1.2→1.4: bouwsteen-blok met titel/wat/grondslag. Wetsartikel uit titel naar grondslag (regel 11). Stagiair-toon-rewrite pending mens-review."
-      }
+      "source": {"type": "kb", "short": "KB WVV art. 3:132"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_104", "sha256": null, "version": "rag-v1"}]},
+      "_corrected_from": [
+        {"field": "wat", "from": "Ingeval de aandelen van een in de consolidatie opgenomen dochter geheel of gedeeltelijk buiten de consolidatiekring worden gerealiseerd, wordt het overblijvende consolidatieverschil afgeboekt naar verhouding van de gerealiseerde aandelen (KB WVV art. 3:132).", "reason": "Stagiair-toon: 'gerealiseerd' → 'verkocht'; korte zin (regel 6)."},
+        {"field": "waarom", "from": null, "reason": "Rationale toegevoegd."},
+        {"field": "voorbeeld_inline", "from": null, "reason": "Cast-voorbeeld toegevoegd."}
+      ]
     }
   ],
   "oorzaken": [
     {
-      "text": "Overpaid goodwill — de moeder betaalt een premie boven het pro-rata aandeel in het netto-actief van de dochter. Die premie reflecteert economische waarden die in de enkelvoudige jaarrekening van de dochter niet konden worden geactiveerd: verwachte synergieën, marktpositie, klantenbestand, merken, knowhow. Twee perspectieven van hetzelfde fenomeen: (a) prijsperspectief — wat de moeder bereid is te betalen bovenop de boekhoudkundige nettowaarde; (b) substantieperspectief — waarom die premie niet kan worden toegerekend aan specifieke actief- of schulden en eigen vermogen (KB WVV art. 3:130, eerste lid: toerekening enkel 'voor zover mogelijk') en daarom in het residu blijft zitten. Het residu wordt aan actiefzijde geboekt als 'Consolidatieverschillen' en afgeschreven over de vermoedelijke gebruiksduur (KB WVV art. 3:131, § 1). De Europese Richtlijn 2013/34/EU art. 24, lid 3, c) duidt dit residu uitdrukkelijk als 'goodwill'.",
+      "text": "Overpaid goodwill — de moeder betaalt een premie boven het pro-rata aandeel in het netto-actief van de dochter. Die premie reflecteert economische waarden die in de enkelvoudige jaarrekening van de dochter niet konden worden geactiveerd: verwachte synergieën, marktpositie, klantenbestand, merken, knowhow. Twee perspectieven van hetzelfde fenomeen: (a) prijsperspectief — wat de moeder bereid is te betalen bovenop de boekhoudkundige nettowaarde; (b) substantieperspectief — waarom die premie niet kan worden toegerekend aan specifieke activa of schulden (KB WVV art. 3:130, eerste lid: toerekening enkel 'voor zover mogelijk') en daarom in het residu blijft zitten. Het residu wordt aan actiefzijde geboekt als 'Consolidatieverschillen' en afgeschreven over de vermoedelijke gebruiksduur (KB WVV art. 3:131, § 1). De Europese Richtlijn 2013/34/EU art. 24, lid 3, c) duidt dit residu uitdrukkelijk als 'goodwill'.",
       "confidence": "inferred-from-aggregation",
-      "source": {
-        "type": "richtlijn",
-        "short": "Richtlijn 2013/34/EU art. 24, lid 3, c); KB WVV art. 3:130 jo. art. 3:131"
-      },
-      "corrected_from": [
-        "Overpaid goodwill — de moeder betaalt een premie boven het pro-rata aandeel in het netto-actief van de dochter (verwachte synergieën, marktpositie, immateriële waarde).",
-        "Niet-geactiveerde immateriële waarden in de dochter — synergieverwachtingen, marktpositie, klantenbestand, merken, knowhow en andere economische waarden die naar boekhoudregels niet in de enkelvoudige jaarrekening van de dochter konden worden geactiveerd. Deze waarden zijn niet toewijsbaar aan specifieke actief- of passiefposten (KB WVV art. 3:130, eerste lid) en blijven daarom in het residu zitten: het positieve consolidatieverschil dat aan actiefzijde wordt opgenomen en over de vermoedelijke gebruiksduur wordt afgeschreven (KB WVV art. 3:131, § 1). De Europese Richtlijn 2013/34/EU art. 24, lid 3, c) duidt dit residu uitdrukkelijk als 'goodwill'."
-      ],
-      "correction_reason": "v3 had twee oorzaken-items die hetzelfde fenomeen vanuit twee invalshoeken beschreven: 'overpaid goodwill' (prijsperspectief) en 'niet-geactiveerde immateriële waarden' (substantieperspectief). Beide verwezen naar dezelfde economische realiteit — de premie boven nettowaarde die niet toewijsbaar is aan concrete activa/passiva en daarom in het residu valt. Geconsolideerd tot één item dat beide perspectieven expliciet maakt; provenance van beide oorspronkelijke items behouden.",
-      "correction_source": "KB-WVV-2019__art_3_102 + Richtlijn-2013-34-EU__art_24__sub_lid1-lid14",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "Richtlijn-2013-34-EU__art_24__sub_lid1-lid14",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "KB-WVV-2019__art_3_102",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "KB-WVV-2019__art_3_103",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 24, lid 3, c); KB WVV art. 3:130 jo. art. 3:131"},
+      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1", "sha256": null, "version": "rag-v1"}, {"id": "Richtlijn-2013-34-EU__art_24__sub_lid1-lid14", "sha256": null, "version": "rag-v1"}, {"id": "KB-WVV-2019__art_3_102", "sha256": null, "version": "rag-v1"}, {"id": "KB-WVV-2019__art_3_103", "sha256": null, "version": "rag-v1"}]}
     },
     {
-      "text": "Activa van de dochter zijn boekhoudkundig ondergewaardeerd (bv. terreinen tegen historische kostprijs); de moeder betaalt de werkelijke waarde. Eerste stap (KB WVV art. 3:128): verschil toerekenen aan die onder-/overgewaardeerde bestanddelen vooraleer het residu als consolidatieverschil wordt geboekt.",
+      "text": "Activa van de dochter zijn boekhoudkundig ondergewaardeerd (bv. terreinen tegen historische kostprijs); de moeder betaalt de werkelijke waarde. Eerste stap (KB WVV art. 3:128): het verschil toerekenen aan die onder- of overgewaardeerde posten voor je het residu als consolidatieverschil boekt.",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:128 + CBN 2022/11 voorbeeld"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "kb", "short": "KB WVV art. 3:128 + CBN 2022/11 voorbeeld"},
+      "_provenance": {"inputs": [{"id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld", "sha256": null, "version": "rag-v1"}]}
     },
     {
-      "text": "Verwachte ongunstige resultaatsontwikkeling — een aanschaffingswaarde lager dan netto-actief op acquisitiedatum kan voortvloeien uit de verwachting van komende verliezen; dan negatief consolidatieverschil.",
+      "text": "Verwachte ongunstige resultaatsontwikkeling — een aankoopprijs lager dan het netto-actief op aankoopdatum kan voortvloeien uit de verwachting van komende verliezen; dan ontstaat een negatief consolidatieverschil.",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:131, § 2"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_103",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "kb", "short": "KB WVV art. 3:131, § 2"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_103", "sha256": null, "version": "rag-v1"}]}
     },
     {
-      "text": "Passiefbestanddelen van de dochter zijn boekhoudkundig overgewaardeerd (bv. te hoge voorzieningen, te ruim ingeschatte schulden). KB WVV art. 3:130, eerste lid bepaalt dat het verschil uit de compensatie zoveel mogelijk wordt toegerekend aan 'de bezittingen en schulden waarvan de waarde hoger of lager is dan hun boekwaarde in de boekhouding van de dochteronderneming'. Een te hoge waardering aan passiefzijde kan zo (mee) verklaren waarom de moeder bereid is een hogere prijs te betalen dan de boekwaarde van het netto-actief — het toegewezen deel verlaagt het residu dat als consolidatieverschil overblijft.",
+      "text": "Schulden of voorzieningen van de dochter zijn boekhoudkundig overgewaardeerd (te hoge voorzieningen, te ruim ingeschatte schulden). KB WVV art. 3:130 bepaalt dat het verschil zoveel mogelijk wordt toegerekend aan bezittingen en schulden waarvan de waarde afwijkt van de boekwaarde. Een te hoog opgegeven schuld verlaagt na correctie het residu dat als consolidatieverschil overblijft.",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:130, eerste lid"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_102",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "kb", "short": "KB WVV art. 3:130, eerste lid"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_102", "sha256": null, "version": "rag-v1"}]}
     }
   ],
   "berekeningsmethode": [
     {
       "naam": "Berekening van het consolidatieverschil bij eerste consolidatie",
-      "ratio": "Het verschil reflecteert de kostprijs die de moeder bovenop (of onder) het netto-actief heeft betaald, na correctie voor stille meer-/minderwaarden in de dochter. Het residu vangt de niet aan specifieke activa toewijsbare goodwill (of badwill) op.",
+      "ratio": "Je vergelijkt wat je betaalde met wat je economisch kreeg. Wat je betaalde is de aanschaffingswaarde van de aandelen; wat je kreeg is jouw aandeel in het eigen vermogen plus eventuele stille meer- of minderwaarden. Het residu is goodwill (of badwill).",
       "stappen": [
         {
           "nr": 1,
-          "titel": "Bepaal de aanschaffingswaarde van de deelneming.",
-          "wat": "Bepaal de aanschaffingswaarde van de deelneming.",
-          "grondslag": "",
-          "_corrected_from": {
-            "veld": "stappen[volgorde+text] → stap-blok 1.4",
-            "oude_text": "Bepaal de aanschaffingswaarde van de deelneming.",
-            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
-          }
+          "titel": "Noteer de aanschaffingswaarde van de deelneming",
+          "wat": "Schrijf op wat de moeder effectief heeft betaald voor de aandelen van de dochter — inclusief eventuele bijkomende kosten die in de aanschaffingswaarde mogen worden opgenomen.",
+          "waarom": "Dit is je vertrekpunt. Een fout cijfer hier propageert zich door alle volgende stappen.",
+          "input": [{"artefact": "Aandelenkoopovereenkomst", "veld": "Prijs + bijkomende kosten", "type": "boekhoudkundig-bedrag"}],
+          "output": [{"artefact": "Werkblad consolidatieverschil", "veld": "Aanschaffingswaarde", "type": "boekhoudkundig-bedrag"}],
+          "hoe": "1. Open de aandelenkoopovereenkomst van de transactie tussen Aurelia Holding NV en Brugse Brouwerij BV.\n2. Neem de overeengekomen prijs.\n3. Tel eventuele aankoopkosten (notaris, advies) op die volgens de waarderingsregels in de aanschaffingswaarde mogen.\n4. Resultaat: aanschaffingswaarde van de deelneming = 320 (bv.).\n",
+          "grondslag": "KB WVV art. 3:127, a)",
+          "_corrected_from": [
+            {"field": "titel", "from": "Bepaal de aanschaffingswaarde van de deelneming.", "reason": "Skeleton → werkwoord-georiënteerd."},
+            {"field": "hoe", "from": null, "reason": "Uitvoerbare instructie toegevoegd (regel 8)."}
+          ]
         },
         {
           "nr": 2,
-          "titel": "Bepaal het pro-rata aandeel (belang%) in het eigen…",
-          "wat": "Bepaal het pro-rata aandeel (belang%) in het eigen vermogen van de dochter op datum van aankoop",
+          "titel": "Bereken jouw pro-rata aandeel in EV op aankoopdatum",
+          "wat": "Vermenigvuldig het belangenpercentage van de moeder met het totaal eigen vermogen van de dochter op de datum van aankoop (niet op afsluitingsdatum).",
+          "waarom": "De datum van aankoop bevriest het uitgangspunt. Alle latere veranderingen in het eigen vermogen van de dochter komen via geconsolideerde reserves of resultaat — niet meer via een aanpassing aan het consolidatieverschil.",
+          "input": [
+            {"artefact": "Balans dochter op datum van aankoop", "veld": "Eigen vermogen totaal", "type": "boekhoudkundig-bedrag"},
+            {"artefact": "Aandelenkoopovereenkomst", "veld": "Belangenpercentage", "type": "percentage"}
+          ],
+          "output": [{"artefact": "Werkblad consolidatieverschil", "veld": "Pro-rata aandeel EV", "type": "boekhoudkundig-bedrag"}],
+          "hoe": "1. Neem de balans van Brugse Brouwerij BV per datum van aankoop (1 januari 20X1).\n2. Tel kapitaal + reserves + overgedragen resultaat → eigen vermogen totaal (bv. 300).\n3. Vermenigvuldig met het belangenpercentage van Aurelia: 80 % × 300 = 240.\n4. Dit is jouw pro-rata aandeel; gebruik dit cijfer in de rest van de berekening.\n",
           "grondslag": "KB WVV art. 3:129",
-          "_corrected_from": {
-            "veld": "stappen[volgorde+text] → stap-blok 1.4",
-            "oude_text": "Bepaal het pro-rata aandeel (belang%) in het eigen vermogen van de dochter op datum van aankoop (KB WVV art. 3:129).",
-            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
-          }
+          "_corrected_from": [
+            {"field": "titel", "from": "Bepaal het pro-rata aandeel (belang%) in het eigen…", "reason": "Skeleton → werkwoord-georiënteerd."},
+            {"field": "hoe", "from": null, "reason": "Uitvoerbare instructie toegevoegd."}
+          ]
         },
         {
           "nr": 3,
-          "titel": "Bereken het bruto-verschil (stap 1 − stap 2).",
-          "wat": "Bereken het bruto-verschil (stap 1 − stap 2).",
-          "grondslag": "",
-          "_corrected_from": {
-            "veld": "stappen[volgorde+text] → stap-blok 1.4",
-            "oude_text": "Bereken het bruto-verschil (stap 1 − stap 2).",
-            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
-          }
+          "titel": "Bereken het bruto-verschil",
+          "wat": "Trek het pro-rata aandeel (stap 2) af van de aanschaffingswaarde (stap 1).",
+          "waarom": "Het bruto-verschil is alleen een tussenstap; je weet nog niet of het volledig goodwill is of dat een deel toe te rekenen valt aan stille meer- of minderwaarden.",
+          "input": [
+            {"artefact": "Werkblad consolidatieverschil", "veld": "Aanschaffingswaarde", "type": "boekhoudkundig-bedrag"},
+            {"artefact": "Werkblad consolidatieverschil", "veld": "Pro-rata aandeel EV", "type": "boekhoudkundig-bedrag"}
+          ],
+          "output": [{"artefact": "Werkblad consolidatieverschil", "veld": "Bruto-verschil", "type": "boekhoudkundig-bedrag"}],
+          "hoe": "1. Aanschaffingswaarde: 320.\n2. Pro-rata aandeel: 240.\n3. Bruto-verschil: 320 − 240 = 80.\n4. Positief? → mogelijk goodwill. Negatief? → mogelijk badwill. We zijn nog niet klaar — eerst stap 4.\n",
+          "grondslag": "KB WVV art. 3:127, a) jo. art. 3:130",
+          "_corrected_from": [
+            {"field": "titel", "from": "Bereken het bruto-verschil (stap 1 − stap 2).", "reason": "Skeleton → werkwoord-georiënteerd."},
+            {"field": "hoe", "from": null, "reason": "Uitvoerbare instructie toegevoegd."}
+          ]
         },
         {
           "nr": 4,
-          "titel": "Reken het bruto-verschil zoveel mogelijk toe aan onder-/overgewaardeerde…",
-          "wat": "Reken het bruto-verschil zoveel mogelijk toe aan onder-/overgewaardeerde actief- of schulden en eigen vermogen van de dochter",
+          "titel": "Reken het bruto-verschil eerst toe aan stille meer-/minderwaarden",
+          "wat": "Bekijk welke bezittingen of schulden van de dochter een werkelijke waarde hebben die afwijkt van hun boekwaarde. Reken het bruto-verschil zoveel mogelijk toe aan die posten (KB WVV art. 3:128 jo. art. 3:130, lid 1).",
+          "waarom": "Boekwaarde is niet altijd werkelijke waarde. Een oud gebouw staat boekhoudkundig laag maar is in werkelijkheid veel meer waard; een te ruime voorziening is in werkelijkheid kleiner. Pas na correctie weet je hoeveel van de premie écht onverklaarbaar is en dus goodwill.",
+          "input": [
+            {"artefact": "Werkblad consolidatieverschil", "veld": "Bruto-verschil", "type": "boekhoudkundig-bedrag"},
+            {"artefact": "Balans dochter", "veld": "Posten met afwijkende werkelijke waarde", "type": "boekhoudkundig-bedrag"}
+          ],
+          "output": [
+            {"artefact": "Geconsolideerde balans", "veld": "Geherwaardeerde posten dochter", "type": "nieuwe-balanspost"},
+            {"artefact": "Werkblad consolidatieverschil", "veld": "Residu na toerekening", "type": "boekhoudkundig-bedrag"}
+          ],
+          "hoe": "1. Maak een lijst van bezittingen en schulden van Brugse met afwijkende werkelijke waarde — typisch: terreinen, gebouwen, voorraden, voorzieningen.\n2. Stel vast: terreinen Brugse staan op 200, werkelijke waarde 250 → onderwaardering = 50.\n3. Reken (een deel van) het bruto-verschil aan die post toe: 50 wordt toegerekend aan terreinen.\n4. Bereken het residu: bruto-verschil − toerekeningen = 80 − 50 = 30.\n5. Belangrijk: toerekening alleen 'voor zover mogelijk' — als je niets concreets vindt om aan toe te rekenen, blijft het residu = bruto-verschil.\n",
           "grondslag": "KB WVV art. 3:128, art. 3:130",
-          "_corrected_from": {
-            "veld": "stappen[volgorde+text] → stap-blok 1.4",
-            "oude_text": "Reken het bruto-verschil zoveel mogelijk toe aan onder-/overgewaardeerde actief- of schulden en eigen vermogen van de dochter (KB WVV art. 3:128, art. 3:130).",
-            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
-          }
+          "_corrected_from": [
+            {"field": "titel", "from": "Reken het bruto-verschil zoveel mogelijk toe aan onder-/overgewaardeerde…", "reason": "Skeleton → werkwoord-georiënteerd."},
+            {"field": "hoe", "from": null, "reason": "Uitvoerbare instructie toegevoegd."}
+          ]
         },
         {
           "nr": 5,
-          "titel": "Het residu = consolidatieverschil. Positief → actiefzijde; negatief…",
-          "wat": "Het residu = consolidatieverschil. Positief → actiefzijde; negatief → passiefzijde",
-          "grondslag": "KB WVV art. 3:130",
-          "_corrected_from": {
-            "veld": "stappen[volgorde+text] → stap-blok 1.4",
-            "oude_text": "Het residu = consolidatieverschil. Positief → actiefzijde; negatief → passiefzijde (KB WVV art. 3:130).",
-            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
-          }
+          "titel": "Boek het residu als 'Consolidatieverschillen'",
+          "wat": "Het residu na stap 4 is het eigenlijke consolidatieverschil. Positief? → actiefzijde van de geconsolideerde balans, afgeschreven over de vermoedelijke gebruiksduur. Negatief? → passiefzijde, niet zomaar in resultaat (zie bouwsteen 'Negatief consolidatieverschil').",
+          "waarom": "Pas na de toerekening van stille meer-/minderwaarden weet je hoeveel goodwill of badwill er écht overblijft. Dit residu is wat in de geconsolideerde balans als 'Consolidatieverschillen' wordt zichtbaar gemaakt.",
+          "input": [{"artefact": "Werkblad consolidatieverschil", "veld": "Residu na toerekening", "type": "boekhoudkundig-bedrag"}],
+          "output": [{"artefact": "Geconsolideerde balans", "veld": "Consolidatieverschillen", "type": "nieuwe-balanspost"}],
+          "hoe": "1. Residu uit stap 4: 30 (positief).\n2. Boek aan actiefzijde van de geconsolideerde balans onder 'Consolidatieverschillen'.\n3. Stel een afschrijvingsplan op (vermoedelijke gebruiksduur, bv. 5 jaar): 30 / 5 = 6 per jaar.\n4. Afschrijving boek je in een afzonderlijke post van de bedrijfs- of financiële kosten in de geconsolideerde resultatenrekening (KB WVV art. 3:131, § 1, lid 3) — niet vermengd met gewone afschrijvingen.\n5. Bij meer dan 5 jaar afschrijving: motivering in toelichting.\n",
+          "voorbeeld": {
+            "scenario": "Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor 320; EV Brugse op aankoopdatum = 300; terreinen van Brugse zijn 50 ondergewaardeerd (boekwaarde 200, werkelijk 250).",
+            "substappen": [
+              {"nr": 1, "titel": "Werkblad consolidatieverschil", "type": "berekening", "data": "| Stap                                          | Bedrag |\n|-----------------------------------------------|-------:|\n| (1) Aanschaffingswaarde                       |    320 |\n| (2) Pro-rata aandeel EV (80 % × 300)          |    240 |\n| (3) Bruto-verschil                            |     80 |\n| (4) Toerekening aan terreinen (onderwaardering) |  −50 |\n| (5) **Residu = consolidatieverschil**         | **30** |"},
+              {"nr": 2, "titel": "Boeking", "type": "boekingsregel", "data": "Activa: Terreinen Brugse +50 (opwaardering naar werkelijke waarde)\nActiva: Consolidatieverschillen +30 (residu)\nGeschrapt: Deelneming Brugse −320, Aandeel EV Brugse −240"},
+              {"nr": 3, "titel": "Afschrijvingsplan", "type": "berekening", "data": "Vermoedelijke gebruiksduur: 5 jaar\nJaarlijkse afschrijving = 30 / 5 = **6 per jaar**\nGeboekt in de geconsolideerde resultatenrekening als afzonderlijke post (KB WVV art. 3:131, § 1, lid 3)."}
+            ]
+          },
+          "grondslag": "KB WVV art. 3:130 (boeking) jo. art. 3:131 (afschrijving)",
+          "_corrected_from": [
+            {"field": "titel", "from": "Het residu = consolidatieverschil. Positief → actiefzijde; negatief…", "reason": "Skeleton → werkwoord-georiënteerd."},
+            {"field": "hoe", "from": null, "reason": "Uitvoerbare instructie toegevoegd."},
+            {"field": "voorbeeld", "from": null, "reason": "Substappen met werkblad-tabel toegevoegd (regel 8 + 13)."}
+          ]
         }
       ],
       "concreet_voorbeeld": {
-        "scenario": "Aurelia Holding NV verwerft 100 % van Brugse Brouwerij BV voor 1.000. Eigen vermogen D op datum van aankoop = 700. M identificeert dat de terreinen van Brugse Brouwerij BV voor 150 ondergewaardeerd zijn t.o.v. werkelijke waarde.",
+        "scenario": "Aurelia Holding NV verwerft 100 % van Brugse Brouwerij BV voor 1.000. Eigen vermogen Brugse op datum van aankoop = 700. Aurelia stelt vast dat de terreinen van Brugse 150 ondergewaardeerd zijn t.o.v. werkelijke waarde.",
         "berekening": "Stap 1: aanschaffingswaarde = 1.000. Stap 2: pro-rata EV = 100 % × 700 = 700. Stap 3: bruto-verschil = 1.000 − 700 = 300. Stap 4: 150 wordt toegerekend aan de terreinen (geconsolideerde balans: terreinen +150). Stap 5: residu = 300 − 150 = 150. Geboekt als 'Consolidatieverschillen' (actiefzijde), afgeschreven volgens passend plan.",
         "resultaat": "In de geconsolideerde balans wordt 150 als positief consolidatieverschil geboekt; de terreinen van Brugse Brouwerij BV worden voor 150 opgewaardeerd. Het positieve consolidatieverschil wordt bv. over 5 jaar afgeschreven (30 per jaar in de geconsolideerde resultatenrekening, afzonderlijke post bij bedrijfs- of financiële kosten — KB WVV art. 3:131)."
       },
-      "source": {
-        "type": "kb",
-        "short": "Synthese KB WVV art. 3:127 — 3:131; CBN 2022/11 voorbeeld"
-      },
+      "source": {"type": "kb", "short": "Synthese KB WVV art. 3:127 — 3:131; CBN 2022/11 voorbeeld"},
       "confidence": "inferred-from-aggregation",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_102",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "KB-WVV-2019__art_3_103",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_102", "sha256": null, "version": "rag-v1"}, {"id": "KB-WVV-2019__art_3_103", "sha256": null, "version": "rag-v1"}, {"id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld", "sha256": null, "version": "rag-v1"}]},
       "formules": [
         {
-          "id": "berekening-van-het-consolidatieverschil-",
-          "naam": "Berekening van het consolidatieverschil bij eerste consolidatie",
-          "wiskunde": "Consolidatieverschil = aanschaffingswaarde aandelen − belang% × eigen vermogen dochter op datum van aankoop (na toerekening van het verschil aan onder-/overgewaardeerde activa en passiva van de dochter)",
-          "_corrected_from": {
-            "veld": "berekeningsmethode.formule (string) → formules[].wiskunde",
-            "reden": "Schema 1.2→1.4: formule-blok-formalisering (regel 12). Atomaire splits + variabelen + invulling_voorbeeld pending mens-review."
+          "id": "bruto-verschil",
+          "naam": "Bruto-verschil (vóór toerekening)",
+          "wiskunde": "bruto-verschil = aanschaffingswaarde aandelen − (belangenpercentage × eigen vermogen dochter op datum van aankoop)",
+          "variabelen": [
+            {"symbool": "aanschaffingswaarde aandelen", "betekenis": "Wat de moeder betaalde voor de aandelen, inclusief eventueel meegerekende aankoopkosten", "eenheid": "EUR"},
+            {"symbool": "belangenpercentage", "betekenis": "Aandeel van moeder in kapitaal dochter (zie [[belangenpercentage]])", "eenheid": "%"},
+            {"symbool": "eigen vermogen dochter op datum van aankoop", "betekenis": "Totaal eigen vermogen (kapitaal + reserves + overgedragen resultaat) van de dochter, op de aankoopdatum (niet op afsluitingsdatum)", "eenheid": "EUR"}
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "aanschaffingswaarde = 320; belangenpercentage Aurelia in Brugse = 80 %; EV Brugse op aankoopdatum = 300",
+            "berekening": "320 − (80 % × 300) = 320 − 240 = 80",
+            "eenheid_resultaat": "EUR"
+          },
+          "_corrected_from": [
+            {"field": "id", "from": "berekening-van-het-consolidatieverschil-", "reason": "ID-slug gesplitst: bruto-verschil en consolidatieverschil-residu zijn twee verschillende formules (regel 12: atomair splitsen)."}
+          ]
+        },
+        {
+          "id": "consolidatieverschil-residu",
+          "naam": "Consolidatieverschil (residu na toerekening)",
+          "wiskunde": "consolidatieverschil = bruto-verschil − totaal toerekening aan stille meer-/minderwaarden",
+          "afhankelijk_van": ["bruto-verschil"],
+          "variabelen": [
+            {"symbool": "bruto-verschil", "betekenis": "Resultaat van de eerste formule", "eenheid": "EUR"},
+            {"symbool": "totaal toerekening", "betekenis": "Som van alle bedragen die toegerekend zijn aan onder- of overgewaardeerde bezittingen/schulden van de dochter (KB WVV art. 3:128 jo. art. 3:130, lid 1)", "eenheid": "EUR"}
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "bruto-verschil = 80; toerekening aan terreinen (onderwaardering) = 50",
+            "berekening": "80 − 50 = 30 (positief → actiefzijde)",
+            "eenheid_resultaat": "EUR"
+          }
+        },
+        {
+          "id": "afschrijving-positief-verschil",
+          "naam": "Jaarlijkse afschrijving op positief consolidatieverschil",
+          "wiskunde": "jaarlijkse afschrijving = positief consolidatieverschil / vermoedelijke gebruiksduur (in jaren)",
+          "variabelen": [
+            {"symbool": "positief consolidatieverschil", "betekenis": "Het residu uit de vorige formule, wanneer positief", "eenheid": "EUR"},
+            {"symbool": "vermoedelijke gebruiksduur", "betekenis": "Aantal jaren waarover de goodwill economisch nuttig blijft; >5 jaar vereist motivering in toelichting", "eenheid": "jaar"}
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "positief consolidatieverschil = 30; vermoedelijke gebruiksduur = 5 jaar",
+            "berekening": "30 / 5 = 6 per jaar",
+            "eenheid_resultaat": "EUR"
           }
         }
       ]
@@ -448,201 +319,60 @@
   "in_praktijk": [
     {
       "aspect": "Consolidatieverschil bij vermogensmutatie",
-      "betekenis": "Ook bij toepassing van de vermogensmutatiemethode (geassocieerde onderneming) ontstaat een consolidatieverschil: het verschil tussen de boekwaarde van de deelneming en het pro-rata aandeel in het eigen vermogen wordt — na toerekening aan onder-/overgewaardeerde activa — geboekt als positief of negatief consolidatieverschil. Wordt afzonderlijk gevolgd en afgeschreven (CBN 2022/11).",
+      "betekenis": "Ook bij de vermogensmutatiemethode (geassocieerde onderneming) ontstaat een consolidatieverschil: het verschil tussen de boekwaarde van de deelneming en het pro-rata aandeel in het eigen vermogen — na toerekening aan onder-/overgewaardeerde posten — komt als positief of negatief consolidatieverschil. Dat verschil wordt apart bijgehouden (afzonderlijk van de hoofdpost 'Vennootschappen waarop vermogensmutatie is toegepast') en afgeschreven (CBN 2022/11).",
       "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2022/11"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "advies", "short": "CBN 2022/11"},
+      "_provenance": {"inputs": [{"id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld", "sha256": null, "version": "rag-v1"}]}
     },
     {
       "aspect": "Afzonderlijke post in de resultatenrekening",
-      "betekenis": "De afschrijvingen op positieve consolidatieverschillen worden in de geconsolideerde resultatenrekening geboekt in een afzonderlijke post van de bedrijfskosten of van de financiële kosten — niet vermengd met de gewone afschrijvingen op de bestaande activa (KB WVV art. 3:131, § 1, lid 3).",
+      "betekenis": "Afschrijvingen op positieve consolidatieverschillen verschijnen in de geconsolideerde resultatenrekening als afzonderlijke post (bedrijfs- of financiële kosten). Niet mengen met de gewone afschrijvingen op bestaande activa (KB WVV art. 3:131, § 1, lid 3).",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:131, § 1"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_103",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "kb", "short": "KB WVV art. 3:131, § 1"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_103", "sha256": null, "version": "rag-v1"}]}
     }
   ],
   "vergelijkingsparen": [],
   "valkuilen": [
     {
-      "text": "Het verschil tussen aanschaffingswaarde en EV op datum van aankoop is niet onmiddellijk het consolidatieverschil. Eerst moet het worden toegerekend aan onder-/overgewaardeerde activa en passiva (KB WVV art. 3:128 jo. art. 3:130, lid 1). Pas het residu na deze toerekening wordt als 'Consolidatieverschillen' geboekt.",
+      "text": "Het verschil tussen aanschaffingswaarde en EV op aankoopdatum is niet meteen het consolidatieverschil. Eerst toerekenen aan onder-/overgewaardeerde bezittingen en schulden (KB WVV art. 3:128 jo. art. 3:130, lid 1); pas het residu na die toerekening wordt 'Consolidatieverschillen'.",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:130"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_102",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "kb", "short": "KB WVV art. 3:130"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_102", "sha256": null, "version": "rag-v1"}]}
     },
     {
-      "text": "Negatief consolidatieverschil mag niet 'gewoon' worden geboekt als winst. KB WVV art. 3:131, § 2 voorziet enkel een opname in resultaat wanneer het verschil te verklaren is door een verwachte ongunstige ontwikkeling van de dochter — en dan slechts naarmate die ontwikkeling zich realiseert.",
+      "text": "Negatief consolidatieverschil mag niet 'gewoon' als winst worden geboekt. KB WVV art. 3:131, § 2 voorziet een resultaat-opname enkel als het negatief verschil te verklaren is door een verwachte ongunstige resultaatsontwikkeling — en dan slechts naarmate die ontwikkeling zich realiseert.",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:131, § 2"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_103",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "kb", "short": "KB WVV art. 3:131, § 2"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_103", "sha256": null, "version": "rag-v1"}]}
     },
     {
-      "text": "Aanvullende of niet-recurrente afschrijvingen moeten worden toegepast wanneer wijzigingen in de economische omstandigheden het niet langer rechtvaardigen het positieve consolidatieverschil tegen die waarde te behouden (KB WVV art. 3:131, § 1).",
+      "text": "Aanvullende of uitzonderlijke afschrijvingen moeten worden geboekt zodra een gewijzigde economische context het niet langer rechtvaardigt het positieve consolidatieverschil tegen die waarde te behouden (KB WVV art. 3:131, § 1).",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:131, § 1"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_103",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "kb", "short": "KB WVV art. 3:131, § 1"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_103", "sha256": null, "version": "rag-v1"}]}
     }
   ],
   "edges": [
     {
       "type": "getriggerd-door",
+      "target": "eerste-consolidatie",
+      "redenering": "Het consolidatieverschil ontstaat op het moment van de eerste consolidatie van een dochter — daar wordt het ééns berekend en gefixeerd. Latere boekjaren wijzigen alleen de afschrijving of treden in werking bij gedeeltelijke realisatie.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "onderdeel-van",
       "target": "integrale-consolidatie",
-      "redenering": "Het consolidatieverschil is een gevolg van de techniek van integrale consolidatie (compensatie deelneming-eigen vermogen op datum van aankoop). Het is niet de techniek zelf maar één bouwsteen ervan.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'getriggerd-door'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_102",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "redenering": "Het consolidatieverschil is één bouwsteen van de techniek van integrale consolidatie (de schrapping van deelneming tegen pro-rata EV).",
+      "_corrected_from": [{"field": "type", "from": "getriggerd-door", "reason": "Edge-type aangescherpt: consolidatieverschil is onderdeel van de procedure (zie integrale-consolidatie record), niet enkel getriggerd."}],
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_102", "sha256": null, "version": "rag-v1"}]}
     },
     {
       "type": "contrasteert-met",
       "target": "vermogensmutatiemethode",
-      "redenering": "Bij vermogensmutatie wordt het consolidatieverschil onderscheiden van de balanspost 'Vennootschappen waarop vermogensmutatie is toegepast' en afzonderlijk afgeschreven (CBN 2022/11). Bij integrale consolidatie verschijnt het in de eigen pos",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "eerste-consolidatie",
-      "redenering": "De eerste consolidatie is het tijdstip waarop het consolidatieverschil wordt vastgesteld. Wijzigingen in latere consolidaties wijzigen het verschil niet — alleen de afschrijving van een positief verschil en specifieke gebeurtenissen (gedeel",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_104",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "dochteronderneming",
-      "redenering": "Bij een (integraal geconsolideerde) dochteronderneming wordt het consolidatieverschil vastgesteld door integrale schrappen van de deelneming met het pro-rata aandeel in het eigen vermogen (KB WVV art. 3:127, a) jo. art. 3:130, eerste lid)",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_102",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "KB-WVV-2019__art_3_103",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "geassocieerde-onderneming",
-      "redenering": "Bij een geassocieerde onderneming (vermogensmutatie) wordt het consolidatieverschil per transactie bepaald op basis van het verschil tussen de boekwaarde van de deelneming en de overeenstemmende fractie van het eigen vermogen. Beide regimes",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "getriggerd-door",
-      "target": "eerste-consolidatie",
-      "redenering": "Consolidatieverschil ontstaat bij de eerste opname van een dochter.",
-      "confidence": "inferred"
+      "redenering": "Bij vermogensmutatie wordt het consolidatieverschil onderscheiden van de balanspost 'Vennootschappen waarop vermogensmutatie is toegepast' en afzonderlijk afgeschreven (CBN 2022/11). Bij integrale consolidatie verschijnt het in de eigen post 'Consolidatieverschillen'.",
+      "_corrected_from": [{"field": "type", "from": "vergelijkingsparen → edges", "reason": "Schema 1.4 regel 9: relatie zonder examen-keuze-trigger als edge."}],
+      "_provenance": {"inputs": [{"id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld", "sha256": null, "version": "rag-v1"}]}
     }
   ]
 }

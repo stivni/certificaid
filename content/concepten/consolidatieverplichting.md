@@ -21,41 +21,43 @@ gegenereerd_op: '2026-05-16'
 ---
 # Consolidatieverplichting ⚖️
 
-> Elke moedervennootschap die, alleen of gezamenlijk, één of meer dochterondernemingen controleert, is in beginsel verplicht een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen, te laten controleren en bekend te maken. Bij een consortium (horizontale groep) rust de consolidatieverplichting gezamenlijk bij de vennootschappen die het consortium vormen. De consolidatieplicht geldt enkel voor vennootschappen met rechtspersoonlijkheid; natuurlijke personen, maatschappen zonder rechtspersoonlijkheid en private stichtingen zijn niet consolidatieplichtig.
+> Elke moeder die — alleen of samen met een andere — één of meer dochters controleert, moet een geconsolideerde jaarrekening en een jaarverslag opstellen, laten controleren door een commissaris en publiceren. Bij een consortium (horizontale groep) ligt die plicht gezamenlijk bij de consortium-leden. De plicht geldt alleen voor vennootschappen met rechtspersoonlijkheid — niet voor natuurlijke personen, maatschappen zonder rechtspersoonlijkheid of private stichtingen.
 >
 > _Bron: WVV art. 3:22 jo. art. 3:24 (consortium)_
 
 
 > [!summary] Korte definitie
-> Elke moedervennootschap die, alleen of gezamenlijk, één of meer dochterondernemingen controleert, is in beginsel verplicht een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen, te laten controleren en bekend te maken.
+> Elke moeder die — alleen of samen met een andere — één of meer dochters controleert, moet een geconsolideerde jaarrekening en een jaarverslag opstellen, laten controleren door een commissaris en publiceren.
 
+> [!info] Uitzondering op: [[vrijstelling-subconsolidatie]]
 ## In de praktijk
 
 ### Vrijwillige consolidatie {id="vrijwillige-consolidatie"}
 
-Een vennootschap die niet wettelijk consolidatieplichtig is maar op eigen initiatief of op grond van bijzondere bepalingen een geconsolideerde jaarrekening openbaar maakt of meedeelt, moet die opstellen volgens de bepalingen van KB WVV Hoofdstuk Geconsolideerde jaarrekening (KB WVV art. 3:112). ⚖️
+Een vennootschap die niet consolidatieplichtig is maar op eigen initiatief (of op grond van een bijzondere wet) toch een geconsolideerde jaarrekening publiceert, moet daarvoor de regels van KB WVV Hoofdstuk Geconsolideerde jaarrekening volgen (KB WVV art. 3:112). ⚖️
 
-### Beoordeling van de criteria {id="beoordeling-van-de-criteria"}
+### Beoordeling van de groottecriteria {id="beoordeling-van-de-groottecriteria"}
 
-De beoordeling van de groottecriteria gebeurt op geconsolideerde of geaggregeerde basis voor de moedervennootschap. KB WVV biedt een vereenvoudigde berekeningsmethode (geaggregeerde basis, drempels vermeerderd met 20 %) om de administratieve lasten te beperken (WVV art. 1:24, § 6). ⚖️
+De groottecriteria toets je op geconsolideerde of geaggregeerde basis. De wet biedt een vereenvoudigde methode (geaggregeerde cijfers van alle groepsleden optellen, drempels verhoogd met 20 %) om de administratieve last te beperken (WVV art. 1:24, § 6). ⚖️
 
 
 ## Voorwaarden
 
-- De entiteit moet rechtspersoonlijkheid hebben en kwalificeren als moedervennootschap (WVV art. 1:15, 1°: vennootschap die controlebevoegdheid uitoefent over een andere vennootschap). ⚖️
-- De controle (in rechte of in feite, exclusief of gezamenlijk) moet daadwerkelijk bestaan op balansdatum. ⚖️
+- De entiteit moet rechtspersoonlijkheid hebben en kwalificeren als moeder (WVV art. 1:15, 1°: een vennootschap die controle uitoefent over een andere vennootschap). ⚖️
+- De controle (in rechte of in feite, exclusief of gezamenlijk) moet effectief bestaan op balansdatum. ⚖️
 ## Uitzonderingen
 
-- Vrijstelling wegens groep van beperkte omvang — een moedervennootschap die op geconsolideerde of geaggregeerde basis niet meer dan één van de criteria van WVV art. 1:26, § 1 overschrijdt, is vrijgesteld (groep van beperkte omvang). ⚖️
-- Vrijstelling van subconsolidatie — een (sub)moedervennootschap is vrijgesteld indien zij zelf de dochter is van een moedervennootschap die hogerop al consolideert (geconsolideerde jaarrekening + jaarverslag opmaakt, laat controleren en openbaar maakt). Niet van toepassing wanneer een van de te consolideren vennootschappen (de submoeder of haar dochters) genoteerd is. ⚖️
+- Vrijstelling 'groep van beperkte omvang' — als de groep van Aurelia Holding NV (moeder + dochters samen, op geconsolideerde of geaggregeerde basis) niet meer dan één van de criteria van WVV art. 1:26, § 1 overschrijdt, vervalt de consolidatieplicht. ⚖️
+- Vrijstelling van subconsolidatie — een submoeder is vrijgesteld als haar eigen moeder hogerop al consolideert (een geconsolideerde jaarrekening + jaarverslag opmaakt, laat controleren en publiceert). Niet van toepassing zodra een van de betrokken vennootschappen (de submoeder zelf of één van haar dochters) beursgenoteerd is. ⚖️
 ## Valkuilen
 
-- ⚠️ Een natuurlijke persoon of een private stichting die meerderheidsstemrechten in meerdere vennootschappen aanhoudt, kwalificeert zelf niet als moedervennootschap en is niet consolidatieplichtig. In dergelijke configuratie ontstaat doorgaans een consortium en rust de consolidatieplicht op de leden samen. ⚖️
-- ⚠️ Een maatschap zonder rechtspersoonlijkheid kan geen moedervennootschap zijn. Indien de structuur niet kwalificeert als consortium, vervalt de vrijstelling van subconsolidatie voor de onderliggende vennootschappen en moeten zij zelf consolideren. ⚖️
-- ⚠️ Beoordeling van de groottecriteria 'op geconsolideerde basis' betekent niet automatisch dat effectief een geconsolideerde jaarrekening moet worden opgesteld — het is enkel een berekeningswijze om de vrijstellingsdrempels te toetsen. ⚖️
+- ⚠️ Een natuurlijke persoon (bv. Pieter Vermeulen) of een private stichting die meerderheidsstemrechten in meerdere vennootschappen aanhoudt, is zelf geen moeder en is dus niet consolidatieplichtig. In zo'n configuratie ontstaat doorgaans een consortium en rust de consolidatieplicht gezamenlijk op de leden. ⚖️
+- ⚠️ Een maatschap zonder rechtspersoonlijkheid kan nooit moeder zijn. Als de structuur ook niet als consortium kwalificeert, vervalt de vrijstelling van subconsolidatie voor de onderliggende vennootschappen en moeten zij zelf consolideren. ⚖️
+- ⚠️ 'Beoordeling van groottecriteria op geconsolideerde basis' betekent niet automatisch dat je effectief een geconsolideerde jaarrekening moet opmaken — het is enkel een rekenwijze om te toetsen of de vrijstellingsdrempels al dan niet overschreden zijn. ⚖️
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Zie ook
+
+- **Vereist kennis van**: [[controle]]
 
 ## Bronnen
 

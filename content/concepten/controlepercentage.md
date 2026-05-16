@@ -20,55 +20,67 @@ gegenereerd_op: '2026-05-16'
 ---
 # Controlepercentage 🤖
 
-> Het percentage van de stemrechten dat een vennootschap (direct of indirect via dochterondernemingen) in een andere vennootschap aanhoudt. Het controlepercentage dient om te beoordelen of er sprake is van controle in rechte. In een ketenstructuur (M → A → B) wordt het controlepercentage doorgaans niet vermenigvuldigd: zodra elke schakel exclusieve controle uitoefent, telt het volledige stemrechtpercentage van de onderste schakel mee als 'gecontroleerd door de moeder'.
+> Het percentage van de stemrechten dat een moeder direct of indirect (via dochters) in een andere vennootschap aanhoudt. Het controlepercentage gebruik je om te toetsen of er sprake is van controle in rechte. Belangrijk verschil met belangenpercentage: in een keten (moeder → tussenschakel → onderste dochter) wordt het controlepercentage níet vermenigvuldigd. Zolang elke schakel exclusief gecontroleerd wordt, telt het volledige stemrechtpercentage van de onderste schakel mee als 'gecontroleerd door de moeder'.
 >
 > _Bron: WVV art. 1:14 jo. art. 1:16_
 
 
 > [!summary] Korte definitie
-> Het percentage van de stemrechten dat een vennootschap (direct of indirect via dochterondernemingen) in een andere vennootschap aanhoudt.
+> Het percentage van de stemrechten dat een moeder direct of indirect (via dochters) in een andere vennootschap aanhoudt.
 
 ## Berekening
 
 ### Controlepercentage in een verticale keten
 
-**Controlepercentage in een verticale keten** 
+**Controlepercentage doorvloei bij ononderbroken keten** 
 ```
-controle% (M in B) = controle% (A in B), op voorwaarde dat M exclusieve controle uitoefent op A
+controle (top-moeder in onderste dochter) = stemrecht% (directe moeder van onderste dochter)  — op voorwaarde dat elke schakel exclusief gecontroleerd wordt
 ```
 
-*Zodra elke tussenliggende schakel exclusief wordt gecontroleerd, vloeit de zeggenschap over de onderste schakel volledig door naar de top. Vermenigvuldigen geldt enkel voor het belang (economisch eigenaarschap), niet voor de controle (zeggenschap).*
+| Symbool | Betekenis | Eenheid |
+|---|---|---|
+| `stemrecht% (directe moeder van onderste dochter)` | Percentage van de stemrechten dat de directe moeder van de onderste dochter rechtstreeks aanhoudt | % |
+
+**Voorbeeld-invulling**: Aurelia → Brugse (80 % stemrechten, exclusieve controle) → Drukkerij Dendermonde (60 % stemrechten)
+
+```
+controle% Aurelia in Drukkerij Dendermonde = 60 % (geen vermenigvuldiging — keten is ononderbroken)
+```
+
+_Resultaat in %_
+*Zodra elke tussenschakel exclusief gecontroleerd wordt, vloeit de zeggenschap over de onderste schakel volledig door naar de top. Vermenigvuldigen geldt enkel voor het belang (economisch eigendom), niet voor de controle (zeggenschap).*
 
 ### . 
 
-**Voorbeeld**: Aurelia Holding NV bezit 80 % van A; A bezit 60 % van B. A is exclusief gecontroleerd door M.
+**Voorbeeld**: Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV; Brugse bezit 60 % van Drukkerij Dendermonde BV. Brugse wordt exclusief gecontroleerd door Aurelia.
 
 ```
-controle% (M in B) = controle% (A in B) = 60 %. (Belangenpercentage (M in B) = 0,80 × 0,60 = 0,48 = 48 %.)
+controle% (Aurelia in Drukkerij Dendermonde) = controle% (Brugse in Drukkerij Dendermonde) = 60 %. (Belangenpercentage (Aurelia in Drukkerij Dendermonde) = 0,80 × 0,60 = 0,48 = 48 %.)
 ```
 
-Resultaat: M controleert B exclusief (> 50 % stemrechten via A). B is een dochteronderneming van Aurelia Holding NV en wordt integraal geconsolideerd. Het aandeel van derden in B bedraagt 1 − 0,48 = 52 % van het eigen vermogen van B.
+Resultaat: Aurelia Holding NV controleert Drukkerij Dendermonde exclusief (via Brugse, > 50 % stemrechten). Drukkerij Dendermonde is een dochter van Aurelia en wordt integraal geconsolideerd. Het aandeel van derden in Drukkerij Dendermonde bedraagt 1 − 0,48 = 52 % van haar eigen vermogen.
 
 ## In de praktijk
 
 ### Onderscheid met belangenpercentage {id="onderscheid-met-belangenpercentage"}
 
-Het controlepercentage meet de macht (stemrechten); het belangenpercentage meet het economisch eigenaarschap (kapitaal, winstrecht). Beide kunnen verschillen bij stemrechtenstructuren (preferente aandelen, certificering, stemrechtloze aandelen). In een keten M → 80 % A → 60 % B bedraagt het controlepercentage van M in B nog steeds 60 % (zolang A exclusief gecontroleerd wordt), terwijl het belangenpercentage 80 % × 60 % = 48 % bedraagt. 🤖
+Controlepercentage meet macht (stemrechten); belangenpercentage meet eigendom (kapitaal en winstrecht). Beide kunnen uiteenlopen bij bijzondere structuren: preferente aandelen, certificering, stemrechtloze aandelen. In de keten Aurelia → 80 % Brugse → 60 % Drukkerij Dendermonde is het controlepercentage van Aurelia in Drukkerij Dendermonde nog steeds 60 % (zolang Brugse exclusief gecontroleerd wordt), terwijl het belangenpercentage 80 % × 60 % = 48 % is. 🤖
 
-**Herkenningspunt**: Tabelopgaven met 'M x % van A en A y % van B' — controle: niet vermenigvuldigen zolang elke schakel controleert; belang: wel vermenigvuldigen.
+**Herkenningspunt**: Tabelopgave 'X % van A en A heeft Y % van B' — controle: niet vermenigvuldigen zolang elke schakel exclusief gecontroleerd wordt; belang: wél vermenigvuldigen.
 
 ### Beoordelen van consolidatieverplichting {id="beoordelen-van-consolidatieverplichting"}
 
-Een controlepercentage > 50 % stemrechten levert in beginsel exclusieve controle (in rechte) op en triggert integrale consolidatie. Bij precies 50 % zonder stemovereenkomst is er géén controle. Bij stemovereenkomst tussen meerdere vennoten ontstaat gezamenlijke controle. 🤖
+Een controlepercentage > 50 % stemrechten levert in beginsel exclusieve controle in rechte op en triggert integrale consolidatie. Bij precies 50 % zonder stemovereenkomst is er géén controle. Bij stemovereenkomst tussen meerdere vennoten ontstaat gezamenlijke controle (evenredige consolidatie of vermogensmutatie). 🤖
 
 
 ## Valkuilen
 
-- ⚠️ Niet alle aandelen geven stemrechten. Bij stemrechtloze aandelen of preferente aandelen valt het kapitaal (belangenpercentage) níet samen met de stemrechten (controlepercentage). Lees de opgave nauwkeurig. 🤖
+- ⚠️ Niet alle aandelen geven stemrechten. Bij stemrechtloze aandelen of preferente aandelen kunnen kapitaal (belangenpercentage) en stemrechten (controlepercentage) uit elkaar lopen. Lees de opgave nauwkeurig: gaat het over 'aandelen', 'stemrechten' of 'kapitaal'? 🤖
 
 ## Zie ook
 
 - **Vereist kennis van**: [[controle]]
+- **Getriggerd door**: [[integrale-consolidatie]]
 
 ## Bronnen
 

@@ -49,10 +49,21 @@
           "nieuwe_term": "Aurelia Holding NV heeft"
         }
       ]
+    },
+    "deep_rewrite_2026_05_16": {
+      "door": "deep-rewrite-batch-1-concepten",
+      "op": "2026-05-16T00:30Z",
+      "velden_gewijzigd": [
+        "definitie.text (stagiair-toon)",
+        "in_praktijk[*].betekenis (cast-namen, stagiair-toon)",
+        "berekeningsmethode[0].stappen[*]: skeleton → vol-blok (titel+wat+waarom+input+output+hoe+grondslag, voorbeeld.substappen op stap 3)",
+        "berekeningsmethode[0].formules[*]: variabelen + invulling_voorbeeld toegevoegd",
+        "edges: getriggerd-door consolidatieverschil-berekening (geen toevoeging — bestaande types behouden)"
+      ]
     }
   },
   "definitie": {
-    "text": "Het economische eigendomsaandeel dat een moedervennootschap (direct en indirect, naar rato vermenigvuldigd langs elke ketenschakel) in een dochter- of geassocieerde onderneming aanhoudt. Het belangenpercentage bepaalt het deel van het eigen vermogen en het resultaat van die andere onderneming dat aan de moeder kan worden toegerekend; het complement (1 − belangenpercentage) is het aandeel van derden in een integrale consolidatie.",
+    "text": "Het deel van het kapitaal (en dus van het winstrecht) dat een moeder in een dochter of geassocieerde onderneming bezit. Bij een keten van vennootschappen wordt het belangenpercentage van schakel tot schakel vermenigvuldigd. Het belangenpercentage bepaalt welk stuk van het eigen vermogen en het resultaat van die andere onderneming aan de moeder mag worden toegerekend; het complement (1 − belangenpercentage) is het aandeel van derden bij integrale consolidatie.",
     "confidence": "inferred-from-aggregation",
     "source": {
       "type": "kb",
@@ -85,13 +96,21 @@
           "version": "rag-v1"
         }
       ]
-    }
+    },
+    "_corrected_from": [
+      {
+        "field": "text",
+        "from": "Het economische eigendomsaandeel dat een moedervennootschap (direct en indirect, naar rato vermenigvuldigd langs elke ketenschakel) in een dochter- of geassocieerde onderneming aanhoudt. Het belangenpercentage bepaalt het deel van het eigen vermogen en het resultaat van die andere onderneming dat aan de moeder kan worden toegerekend; het complement (1 − belangenpercentage) is het aandeel van derden in een integrale consolidatie.",
+        "reason": "Stagiair-toon: 'economische eigendomsaandeel' → 'deel van het kapitaal'; jargon-zin gesplitst in korte zinnen (regel 6)."
+      }
+    ]
   },
+  "voorbeeld_inline": "Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV → belangenpercentage = 80 %; aandeel van derden = 20 %.",
   "in_praktijk": [
     {
       "aspect": "Berekening in ketenstructuur",
-      "betekenis": "Belangenpercentages vermenigvuldigen zich langs een keten. In M → 80 % A → 60 % B bedraagt het belang van M in B = 0,80 × 0,60 = 48 %.",
-      "herkenningspunt": "Bij examen-tabellen 'M x % van A, A y % van B': het belangenpercentage van M in B = x % × y %.",
+      "betekenis": "Belangenpercentages vermenigvuldigen zich langs een keten. Voorbeeld: Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV, en Brugse Brouwerij BV bezit 60 % van Drukkerij Dendermonde BV → belang van Aurelia in Drukkerij Dendermonde = 0,80 × 0,60 = 48 %.",
+      "herkenningspunt": "Examen-tabel 'X % van A, A heeft Y % van B' → belangenpercentage van X in B = X % × Y %.",
       "confidence": "inferred-from-aggregation",
       "source": {
         "type": "advies",
@@ -105,11 +124,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "_corrected_from": [
+        {
+          "field": "betekenis",
+          "from": "Belangenpercentages vermenigvuldigen zich langs een keten. In M → 80 % A → 60 % B bedraagt het belang van M in B = 0,80 × 0,60 = 48 %.",
+          "reason": "Cast-namen Aurelia/Brugse/Drukkerij Dendermonde in plaats van M/A/B (regel 7)."
+        }
+      ]
     },
     {
       "aspect": "Bepaling aandeel van derden bij integrale consolidatie",
-      "betekenis": "Bij integrale consolidatie wordt 100 % van de activa en passiva van de dochter opgenomen. Het deel dat niet aan de moeder toebehoort (1 − belangenpercentage) wordt afgezonderd als 'belangen van derden' (balans) en 'aandeel van derden in het resultaat' (resultatenrekening).",
+      "betekenis": "Bij integrale consolidatie komt 100 % van de activa en schulden van de dochter in de geconsolideerde balans. Het deel dat niet aan de moeder toebehoort (1 − belangenpercentage) verschijnt apart als 'Belangen van derden' op de balans en als 'Aandeel van derden in het resultaat' op de resultatenrekening.",
       "confidence": "grounded",
       "source": {
         "type": "kb",
@@ -123,46 +149,131 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "_corrected_from": [
+        {
+          "field": "betekenis",
+          "from": "Bij integrale consolidatie wordt 100 % van de activa en passiva van de dochter opgenomen. Het deel dat niet aan de moeder toebehoort (1 − belangenpercentage) wordt afgezonderd als 'belangen van derden' (balans) en 'aandeel van derden in het resultaat' (resultatenrekening).",
+          "reason": "Stagiair-toon: 'activa en passiva' → 'activa en schulden'; korte zinnen (regel 6)."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
     {
       "naam": "Belangenpercentage in een verticale keten",
-      "ratio": "Een eigendomsbelang vloeit niet onverdund door schakels; elk niveau verdeelt een evenredig stuk eigendom over derden. Anders dan voor controle wordt het belangenpercentage dus wél vermenigvuldigd.",
+      "ratio": "Een eigendomsbelang vloeit niet onverdund door schakels; elke schakel verdeelt een evenredig stuk eigendom over derden. Anders dan voor controle wordt het belangenpercentage dus wél vermenigvuldigd over een keten.",
       "stappen": [
         {
           "nr": 1,
-          "titel": "Identificeer alle vennootschappen in de keten tussen M…",
-          "wat": "Identificeer alle vennootschappen in de keten tussen M en de uiteindelijke dochter.",
-          "grondslag": "",
-          "_corrected_from": {
-            "veld": "stappen[volgorde+text] → stap-blok 1.4",
-            "oude_text": "Identificeer alle vennootschappen in de keten tussen M en de uiteindelijke dochter.",
-            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
-          }
+          "titel": "Teken de keten uit",
+          "wat": "Maak een lijstje of pijldiagram met alle vennootschappen die tussen de uiteindelijke moeder en de onderste dochter staan.",
+          "waarom": "Zonder duidelijke ketenstructuur weet je niet welke schakels je moet vermenigvuldigen, en mis je makkelijk een tussenniveau.",
+          "input": [
+            {"artefact": "Aandelenstructuur-overzicht", "veld": "Wie bezit welk percentage van wie", "type": "document"}
+          ],
+          "output": [
+            {"artefact": "Ketenschema", "veld": "Opeenvolging van schakels", "type": "document"}
+          ],
+          "hoe": "1. Start bij de uiteindelijke moeder (bv. Aurelia Holding NV).\n2. Noteer elke directe deelneming met een pijl en het percentage: Aurelia → Brugse Brouwerij BV (80 %).\n3. Doe hetzelfde voor de volgende schakel: Brugse Brouwerij BV → Drukkerij Dendermonde BV (60 %).\n4. Stop bij de onderste dochter waarin je het belang wil bepalen.\n",
+          "grondslag": "KB WVV art. 3:137 (toepassing)",
+          "_corrected_from": [
+            {
+              "field": "titel",
+              "from": "Identificeer alle vennootschappen in de keten tussen M…",
+              "reason": "Skeleton-titel vervangen door werkwoord-georiënteerd (regel 8)."
+            },
+            {
+              "field": "wat",
+              "from": "Identificeer alle vennootschappen in de keten tussen M en de uiteindelijke dochter.",
+              "reason": "Stagiair-toon + cast (Aurelia)."
+            },
+            {
+              "field": "hoe",
+              "from": null,
+              "reason": "Nieuwe uitvoerbare instructie toegevoegd (regel 8)."
+            },
+            {
+              "field": "grondslag",
+              "from": "",
+              "reason": "Grondslag aangevuld."
+            }
+          ]
         },
         {
           "nr": 2,
-          "titel": "Bepaal voor elke schakel het directe belangenpercentage in…",
-          "wat": "Bepaal voor elke schakel het directe belangenpercentage in de volgende vennootschap.",
-          "grondslag": "",
-          "_corrected_from": {
-            "veld": "stappen[volgorde+text] → stap-blok 1.4",
-            "oude_text": "Bepaal voor elke schakel het directe belangenpercentage in de volgende vennootschap.",
-            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
-          }
+          "titel": "Bepaal het directe belang per schakel",
+          "wat": "Schrijf per schakel het belangenpercentage uit: welk deel van het kapitaal bezit de bovenliggende vennootschap in de onderliggende.",
+          "waarom": "De berekening werkt alleen als je elke schakel correct hebt; één foutief percentage vervalst het eindresultaat over de hele keten.",
+          "input": [
+            {"artefact": "Aandeelhoudersregister of statuten per schakel", "veld": "Aandeel in kapitaal", "type": "percentage"}
+          ],
+          "output": [
+            {"artefact": "Lijst directe belangen", "veld": "Eén percentage per schakel", "type": "percentage"}
+          ],
+          "hoe": "1. Open per schakel het aandeelhoudersregister of de aandelenkoopovereenkomst.\n2. Neem het percentage dat de bovenliggende vennootschap bezit van het kapitaal (niet de stemrechten — die horen bij controle).\n3. Let op preferente aandelen of certificaten: die kunnen ervoor zorgen dat belang en controle uiteenlopen.\n4. Noteer voor de keten Aurelia → Brugse: 80 %. Voor Brugse → Drukkerij Dendermonde: 60 %.\n",
+          "grondslag": "KB WVV art. 3:137 (toepassing)",
+          "_corrected_from": [
+            {
+              "field": "titel",
+              "from": "Bepaal voor elke schakel het directe belangenpercentage in…",
+              "reason": "Skeleton-titel vervangen door werkwoord-georiënteerd (regel 8)."
+            },
+            {
+              "field": "hoe",
+              "from": null,
+              "reason": "Nieuwe uitvoerbare instructie toegevoegd."
+            }
+          ]
         },
         {
           "nr": 3,
-          "titel": "Vermenigvuldig de percentages om het effectieve belangenpercentage van…",
-          "wat": "Vermenigvuldig de percentages om het effectieve belangenpercentage van M in de onderste dochter te bekomen.",
-          "grondslag": "",
-          "_corrected_from": {
-            "veld": "stappen[volgorde+text] → stap-blok 1.4",
-            "oude_text": "Vermenigvuldig de percentages om het effectieve belangenpercentage van M in de onderste dochter te bekomen.",
-            "reden": "Schema 1.2→1.4: stap-blok met nr/titel/wat/hoe/grondslag (regel 8). Titel is heuristisch (eerste 8 woorden); 'hoe' + input/output + voorbeeld.substappen pending mens-review."
-          }
+          "titel": "Vermenigvuldig de schakels",
+          "wat": "Vermenigvuldig de directe belangenpercentages over alle schakels om het effectieve belang van de uiteindelijke moeder in de onderste dochter te bekomen.",
+          "waarom": "Eigendom verdunt: een belang van 80 % in een schakel die zelf maar 60 % bezit, levert maar 48 % effectief belang in de onderste vennootschap op.",
+          "input": [
+            {"artefact": "Lijst directe belangen uit stap 2", "veld": "Percentage per schakel", "type": "percentage"}
+          ],
+          "output": [
+            {"artefact": "Effectief belangenpercentage", "veld": "Belang uiteindelijke moeder in onderste dochter", "type": "percentage"}
+          ],
+          "hoe": "1. Zet alle percentages op een rij: 80 % en 60 %.\n2. Reken om naar decimaal: 0,80 en 0,60.\n3. Vermenigvuldig: 0,80 × 0,60 = 0,48.\n4. Zet terug naar percentage: 48 %.\n5. Dit is het belang van Aurelia Holding NV in Drukkerij Dendermonde BV via Brugse Brouwerij BV.\n",
+          "voorbeeld": {
+            "scenario": "Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV; Brugse Brouwerij BV bezit 60 % van Drukkerij Dendermonde BV (gewone aandelen, geen preferente regelingen).",
+            "substappen": [
+              {
+                "nr": 1,
+                "titel": "Ketenschema",
+                "type": "opmerking",
+                "data": "Aurelia Holding NV --80 %--> Brugse Brouwerij BV --60 %--> Drukkerij Dendermonde BV"
+              },
+              {
+                "nr": 2,
+                "titel": "Berekening effectief belang",
+                "type": "berekening",
+                "data": "belang Aurelia in Drukkerij Dendermonde = 0,80 × 0,60 = **0,48 = 48 %**\naandeel van derden in Drukkerij Dendermonde = 100 % − 48 % = **52 %**"
+              },
+              {
+                "nr": 3,
+                "titel": "Toepassing op resultaat",
+                "type": "berekening",
+                "data": "Resultaat Drukkerij Dendermonde boekjaar = 100\nAandeel Aurelia (via belang) = 48 % × 100 = **48**\nAandeel van derden in resultaat = 52 % × 100 = **52**"
+              }
+            ]
+          },
+          "grondslag": "KB WVV art. 3:137 (toepassing)",
+          "_corrected_from": [
+            {
+              "field": "titel",
+              "from": "Vermenigvuldig de percentages om het effectieve belangenpercentage van…",
+              "reason": "Skeleton-titel vervangen door werkwoord-georiënteerd (regel 8)."
+            },
+            {
+              "field": "voorbeeld",
+              "from": null,
+              "reason": "Substappen met berekening toegevoegd (regel 8 + 13)."
+            }
+          ]
         }
       ],
       "concreet_voorbeeld": {
@@ -191,12 +302,41 @@
       },
       "formules": [
         {
-          "id": "belangenpercentage-in-een-verticale-kete",
+          "id": "belangenpercentage-keten",
           "naam": "Belangenpercentage in een verticale keten",
-          "wiskunde": "belang% (M in B) = belang% (M in A) × belang% (A in B) × … (vermenigvuldiging over alle schakels)",
-          "_corrected_from": {
-            "veld": "berekeningsmethode.formule (string) → formules[].wiskunde",
-            "reden": "Schema 1.2→1.4: formule-blok-formalisering (regel 12). Atomaire splits + variabelen + invulling_voorbeeld pending mens-review."
+          "wiskunde": "belang (moeder in onderste dochter) = belang (moeder in schakel1) × belang (schakel1 in schakel2) × … × belang (schakeln-1 in onderste dochter)",
+          "variabelen": [
+            {"symbool": "belang (X in Y)", "betekenis": "Direct kapitaalaandeel van X in Y, uitgedrukt als breuk of percentage", "eenheid": "%"}
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "belang Aurelia in Brugse = 80 %; belang Brugse in Drukkerij Dendermonde = 60 %",
+            "berekening": "0,80 × 0,60 = 0,48",
+            "eenheid_resultaat": "%"
+          },
+          "_corrected_from": [
+            {
+              "field": "id",
+              "from": "belangenpercentage-in-een-verticale-kete",
+              "reason": "ID-slug afgekort en gecorrigeerd."
+            },
+            {
+              "field": "variabelen",
+              "from": null,
+              "reason": "Variabelen + invulling_voorbeeld toegevoegd (regel 12)."
+            }
+          ]
+        },
+        {
+          "id": "aandeel-van-derden-uit-belang",
+          "naam": "Aandeel van derden",
+          "wiskunde": "aandeel van derden = 1 − belangenpercentage moeder",
+          "variabelen": [
+            {"symbool": "belangenpercentage moeder", "betekenis": "Effectief belang van de moeder in de dochter (eventueel na ketenvermenigvuldiging)", "eenheid": "%"}
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "belangenpercentage Aurelia in Brugse = 80 %",
+            "berekening": "1 − 80 % = 20 %",
+            "eenheid_resultaat": "%"
           }
         }
       ]
@@ -205,8 +345,8 @@
   "vergelijkingsparen": [
     {
       "vergelijking_met": "controlepercentage",
-      "verschil": "Belang = kapitaal/winstrecht, wordt vermenigvuldigd over schakels. Controle = stemrechten/zeggenschap, wordt niet vermenigvuldigd zolang elke schakel exclusief gecontroleerd wordt.",
-      "trigger": "Examen: vraag eerst 'wat moet ik berekenen?' — winstaandeel/derden → belang; consolidatieverplichting/methode → controle.",
+      "verschil": "Belangenpercentage = aandeel in het kapitaal (en winst); wordt over een keten vermenigvuldigd. Controlepercentage = aandeel in de stemrechten (zeggenschap); wordt niet vermenigvuldigd zolang elke schakel exclusief gecontroleerd wordt door de bovenliggende.",
+      "trigger": "Examen: vraag eerst 'wat moet ik berekenen?' — winstaandeel of aandeel van derden → belangenpercentage; consolidatieverplichting of -methode → controlepercentage.",
       "_provenance": {
         "inputs": [
           {
@@ -220,7 +360,7 @@
   ],
   "valkuilen": [
     {
-      "text": "Belangenpercentage en controlepercentage worden vaak verward. Een opgave die zegt 'M bezit 60 %' kan twee dingen betekenen — 60 % van de stemrechten (controle) of 60 % van het kapitaal (belang); bij gewone aandelen vallen die samen, bij preferente niet.",
+      "text": "Belangenpercentage en controlepercentage worden vaak verward. Een opgave die zegt 'Aurelia bezit 60 %' is dubbelzinnig — 60 % van de stemrechten (controle) of 60 % van het kapitaal (belang)? Bij gewone aandelen vallen die samen, bij preferente aandelen of certificaten kunnen ze uit elkaar lopen.",
       "confidence": "inferred",
       "source": {
         "type": "advies",
@@ -241,11 +381,14 @@
     {
       "type": "onderdeel-van",
       "target": "minderheidsbelangen",
-      "redenering": "Minderheidsbelangen (synoniem: 'belangen van derden') zijn het complement van het belangenpercentage van de moeder: 1 − belang% van M in dochter D. Belangenpercentage zelf is dus het deel van M; minderheidsbelang is het deel buiten de groep",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'onderdeel-van'."
-      },
+      "redenering": "Minderheidsbelangen ('Belangen van derden') zijn het complement van het belangenpercentage van de moeder: 1 − belangenpercentage. Belangenpercentage is dus de directe input voor de berekening van minderheidsbelangen.",
+      "_corrected_from": [
+        {
+          "field": "type",
+          "from": "vergelijkingsparen → edges",
+          "reason": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'onderdeel-van'."
+        }
+      ],
       "_provenance": {
         "inputs": [
           {
@@ -259,7 +402,13 @@
     {
       "type": "vereist-kennis-van",
       "target": "controle",
-      "redenering": "Belangenpercentage wordt gebruikt voor aandeel-berekeningen, los van controlepercentage.",
+      "redenering": "Belangenpercentage staat naast controle (twee aparte metingen aan dezelfde groep); de stagiair moet beide begrippen kennen om ze niet te verwarren.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "integrale-consolidatie",
+      "redenering": "Bij integrale consolidatie wordt het belangenpercentage gebruikt om het aandeel van derden in eigen vermogen en resultaat af te zonderen.",
       "confidence": "inferred"
     }
   ]

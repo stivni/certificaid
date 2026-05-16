@@ -23,29 +23,34 @@ gegenereerd_op: '2026-05-16'
 ---
 # Controle ⚖️
 
-> De bevoegdheid in rechte of in feite om een beslissende invloed uit te oefenen op de aanstelling van de meerderheid van de bestuurders of zaakvoerders van een vennootschap of op de oriëntatie van het beleid ervan. Controle is het sleutelcriterium dat bepaalt of een vennootschap als moedervennootschap geldt en bijgevolg een geconsolideerde jaarrekening moet opstellen.
+> De macht — juridisch (in rechte) of feitelijk (in feite) — om beslissende invloed uit te oefenen op een vennootschap: de meerderheid van de bestuurders aanstellen of de hoofdlijn van het beleid bepalen. Controle is het kernbegrip dat bepaalt of een vennootschap als moeder geldt en dus verplicht is om te consolideren.
 >
 > _Bron: WVV art. 1:14, § 2_
 
 
 > [!summary] Korte definitie
-> De bevoegdheid in rechte of in feite om een beslissende invloed uit te oefenen op de aanstelling van de meerderheid van de bestuurders of zaakvoerders van een vennootschap of op de oriëntatie van het beleid ervan.
+> De macht — juridisch (in rechte) of feitelijk (in feite) — om beslissende invloed uit te oefenen op een vennootschap: de meerderheid van de bestuurders aanstellen of de hoofdlijn van het beleid bepalen.
 
+> [!info] Bestaat uit: [[exclusieve-controle]] · [[gezamenlijke-controle]]
 ## Bouwstenen
 
 ### Controle in rechte 🤖
 
-Controle die rechtstreeks uit de juridische verhoudingen voortvloeit — onweerlegbaar vermoed op grond van objectieve elementen zoals de meerderheid van de stemrechten, het recht om de meerderheid van de bestuurders te benoemen, statutaire macht of stemovereenkomst.
+Controle die rechtstreeks uit objectieve juridische elementen volgt: meerderheid van de stemrechten, het recht om de meerderheid van de bestuurders te benoemen, statutaire macht of een stemovereenkomst. Onweerlegbaar — er valt niets meer aan te tonen.
 
+**Waarom?** Door dit vast objectief vermoeden vermijdt de wet eindeloze discussie over wie nu eigenlijk de leiding heeft. Eén keer aan een onweerlegbaar criterium voldoen → moeder.
 
+**Voorbeeld**: Aurelia Holding NV heeft 80 % van de stemrechten in Brugse Brouwerij BV → controle in rechte. Aurelia is moeder, Brugse is dochter.
 
 _Grondslag: WVV art. 1:14, § 2 jo. art. 1:16_
 
 ### Controle in feite ⚖️
 
-Controle die niet uit een onweerlegbaar juridisch vermoeden volgt maar afgeleid wordt uit gedragingen, zoals het feit dat de vennootschap tijdens de twee laatste algemene vergaderingen de meerderheid van de bestuurders heeft kunnen aanstellen met de stemrechten die zij effectief heeft uitgeoefend. KB WVV art. 3:98 voorziet dat een dochteronderneming waarover de moedervennootschap een controle in feite bezit buiten de consolidatie wordt gelaten indien opneming zou indruisen tegen het beginsel van het getrouwe beeld van art. 3:105 KB WVV.
+Controle die niet uit een onweerlegbaar juridisch criterium volgt, maar zichtbaar wordt uit gedrag. Klassieke test: heeft de moeder tijdens de laatste twee algemene vergaderingen met haar effectief uitgeoefende stemrechten de meerderheid van de bestuurders kunnen aanstellen? Zo ja → controle in feite. Belangrijke valkuil: een dochter waarover je alleen controle in feite hebt, moet je uit de consolidatiekring laten als opname het getrouwe beeld zou verstoren (KB WVV art. 3:98).
 
+**Waarom?** Een moeder kan in de praktijk de baas spelen zonder formele meerderheid — bijvoorbeeld door versnipperde aandeelhouders die nooit komen opdagen. De controle-in-feite-test laat het materiële criterium prevaleren boven het formele.
 
+**Voorbeeld**: Aurelia Holding NV heeft 35 % stemrechten in Brugse Brouwerij BV; de overige 65 % is verspreid over 200 kleine aandeelhouders. Tijdens de laatste twee algemene vergaderingen heeft Aurelia met haar 35 % de meerderheid van de bestuurders kunnen aanstellen → controle in feite.
 
 _Grondslag: KB WVV art. 3:98_
 
@@ -54,39 +59,37 @@ _Grondslag: KB WVV art. 3:98_
 
 ### Hoe lees je 'controle' in een examenopgave {id="hoe-lees-je-controle-in-een-examenopgave"}
 
-De controlevraag staat los van het belangenpercentage. Bij een stemrechtenmeerderheid (> 50 %) is er onweerlegbaar exclusieve controle in rechte. Bij ≤ 50 % stemrechten kan er nog steeds controle in feite zijn (bv. via de twee-vergaderingen-test) of gezamenlijke controle (via overeenkomst). 🤖
+De controlevraag staat los van het belangenpercentage (kapitaal). Bij een stemrechtmeerderheid (> 50 %) is er onweerlegbaar exclusieve controle in rechte. Bij ≤ 50 % stemrechten kan er nog controle in feite zijn (twee-vergaderingen-test) of gezamenlijke controle (op grond van een aandeelhoudersovereenkomst). 🤖
 
-**Herkenningspunt**: Een opgave die 'M bezit 40 % van D' meldt zonder over stemovereenkomsten te spreken: meestal geen controle → vermogensmutatie of geen consolidatie, geen integrale consolidatie.
+**Herkenningspunt**: Opgave 'Aurelia Holding NV bezit 40 % van Brugse Brouwerij BV' zonder mention van stemovereenkomsten → meestal geen controle → vermogensmutatie of geen consolidatie, geen integrale consolidatie.
 
 ### Gevolg voor consolidatiemethode {id="gevolg-voor-consolidatiemethode"}
 
-Exclusieve controle → integrale consolidatie. Gezamenlijke controle (gemeenschappelijke dochter) → in regel evenredige consolidatie, of vermogensmutatie indien het bedrijf niet nauw geïntegreerd is. Invloed van betekenis (geassocieerde onderneming, geen controle) → vermogensmutatiemethode. 🤖
+Exclusieve controle → integrale consolidatie. Gezamenlijke controle (gemeenschappelijke dochter) → in regel evenredige consolidatie, of vermogensmutatie als het bedrijf niet nauw met de groep is geïntegreerd. Invloed van betekenis (geassocieerde onderneming, geen controle) → vermogensmutatiemethode. 🤖
 
-**Herkenningspunt**: De controlevraag bepaalt de keuze tussen drie consolidatietechnieken; niet het loutere percentage.
+**Herkenningspunt**: De controle-vraag bepaalt de keuze tussen drie consolidatietechnieken; niet het kale percentage.
 
 
 <details>
-<summary><strong>Niet verwarren met</strong> (4 vergelijkingen)</summary>
+<summary><strong>Niet verwarren met</strong> (2 vergelijkingen)</summary>
 
-- **vs [[invloed-van-betekenis]]** — Controle = beslissende invloed (kan beleid eenzijdig of gezamenlijk sturen). Invloed van betekenis = significant maar niet beslissend (deelname aan beleid zonder dominante positie). Beide kunnen bij gelijkaardige percentages voorkomen; het onderscheid hangt af van stemrechtmeerderheden, aandeelhoudersovereenkomsten en bestuursbenoemingen.
+- **vs [[invloed-van-betekenis]]** — Controle = beslissende invloed (je kunt het beleid eenzijdig of samen met enkele anderen sturen). Invloed van betekenis = significant, maar niet beslissend (je doet mee aan het beleid zonder dominante positie). Beide kunnen bij vergelijkbare percentages voorkomen; het verschil zit in stemrechtmeerderheden, aandeelhoudersovereenkomsten en bestuursbenoemingen.
   - _Trigger_: Bij percentages 20–50 %: standaard vermogensmutatie (invloed van betekenis). Bij overeenkomst voor gezamenlijke uitoefening van beleid: gezamenlijke controle.
-- **vs [[controlepercentage]]** — Controle is een kwalitatief begrip (al-dan-niet); controlepercentage is een kwantitatieve maat van de stemrechten die de moeder direct of indirect aanhoudt. Een controlepercentage > 50 % wijst doorgaans op exclusieve controle in rechte, maar controle in feite is ook mogelijk bij lagere percentages.
-  - _Trigger_: Wanneer een opgave een percentage geeft: vraag steeds of het stemrechten betreft (controle) of kapitaal (belang).
-- **vs [[exclusieve-controle]]** — Exclusieve controle is een soort controle waarbij één vennootschap alleen de beslissende invloed uitoefent. Controle is het overkoepelend begrip dat zowel exclusieve als gezamenlijke controle omvat.
-  - _Trigger_: Bij stemrechten > 50 % zonder aandeelhoudersovereenkomst → exclusieve controle. Bij stemovereenkomst tussen 2 of meer vennoten → gezamenlijke controle.
-- **vs [[gezamenlijke-controle]]** — Gezamenlijke controle is een soort controle uitgeoefend door een beperkt aantal vennoten samen op grond van een overeenkomst dat beleidsbeslissingen alleen met hun gemeenschappelijke instemming worden genomen. Controle daarentegen kan ook alleen worden uitgeoefend (exclusieve controle).
-  - _Trigger_: Sleutelvraag: bestaat er een overeenkomst tussen vennoten dat beslissingen alleen samen worden genomen? Zo ja: gezamenlijke controle, anders mogelijke exclusieve controle of geen controle.
+- **vs [[controlepercentage]]** — Controle is een kwalitatief begrip (wel/niet). Controlepercentage is een kwantitatieve maat van stemrechten die de moeder direct en indirect aanhoudt. Een controlepercentage > 50 % wijst meestal op exclusieve controle in rechte, maar controle in feite kan ook bij lagere percentages.
+  - _Trigger_: Wanneer een opgave een percentage geeft: vraag eerst of het over stemrechten (controle) of over kapitaal (belang) gaat.
 
 </details>
 
 
 ## Valkuilen
 
-- ⚠️ Een participatie van precies 50 % zonder stemovereenkomst geeft géén controle aan de aandeelhouder; pas op om die niet automatisch als 'dochter' te etiketteren in een opgave (CBN 2017/02 — geval 2). ⚖️
-- ⚠️ Controle in feite kan bestaan ook bij beperkte participaties. Toets steeds aan de twee-vergaderingen-criterium voordat je 'geen controle' besluit bij <50 %. 🤖
+- ⚠️ Een participatie van precies 50 % zonder stemovereenkomst geeft géén controle. Pas op om die niet automatisch als 'dochter' te etiketteren in een opgave. Voorbeeld: Aurelia en Cardinal Group hebben elk 50 % in Filmstudio Florence zonder akkoord — geen controle voor Aurelia (CBN 2017/02 — geval 2). ⚖️
+- ⚠️ Controle in feite kan ook bij beperkte participaties bestaan. Toets altijd aan de twee-vergaderingen-test voor je 'geen controle' besluit bij <50 %. 🤖
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Zie ook
+
+- **Vereist kennis van**: [[consolidatieverplichting]]
+- **Getriggerd door**: [[integrale-consolidatie]]
 
 ## Bronnen
 
