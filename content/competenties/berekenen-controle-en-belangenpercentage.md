@@ -83,6 +83,7 @@ Bepaal per dochter het percentage stemrechten dat de moeder direct of indirect v
 > _Vaak fout gedaan_: Controlepercentage doorheen de keten vermenigvuldigen, zoals het belangenpercentage.
 >
 > _Grondslag_: [[controlepercentage]] §rekenregel-keten
+
 ### 3. Berekenen van het belangenpercentage in elke schakel
 
 Bepaal het economische eigendomsaandeel van de moeder in elke vennootschap door de belangenpercentages langs de keten te vermenigvuldigen.
@@ -122,6 +123,7 @@ Bepaal het economische eigendomsaandeel van de moeder in elke vennootschap door 
 > _Vaak fout gedaan_: Aannemen dat belangenpercentage en controlepercentage altijd gelijk zijn.
 >
 > _Grondslag_: [[belangenpercentage]] §onderscheid-controle
+
 ### 4. Toetsen of er in elke schakel exclusieve controle bestaat
 
 Ga schakel per schakel na of de tussenschakel exclusieve controle uitoefent.

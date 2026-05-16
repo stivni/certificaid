@@ -114,7 +114,7 @@ Bij overschrijding van de controlegrens: verlaat de vermogensmutatie en start in
 5. Vanaf nu: integrale (of evenredige) consolidatie met afzondering van aandeel van derden voor het deel dat aan andere aandeelhouders toebehoort.
 
 
-> [!example]- Voorbeeld: Antwerpse Investments NV bezat sinds 20X0 een belang van 25 % in Drukkerij Dendermonde BV (geassocieerde, vermogensmutatie)
+> [!example]- Voorbeeld: Antwerpse Investments NV bezat sinds 20X0 een belang van 25 % in Drukkerij Dendermonde BV (geassocieerde, vermogensmutat…
 > Antwerpse Investments NV bezat sinds 20X0 een belang van 25 % in Drukkerij Dendermonde BV (geassocieerde, vermogensmutatie). Op 1 juli 20X1 koopt Antwerpse extra aandelen tot 60 %. Op die datum: eigen vermogen Drukkerij Dendermonde = 800.
 >
 > 1. **Berekening pro-rata aandeel op datum van trap 2** 🧮
@@ -150,6 +150,7 @@ Bij overschrijding van de controlegrens: verlaat de vermogensmutatie en start in
 > _Vaak fout gedaan_: Aannemen dat bij overgang van vermogensmutatie naar integrale consolidatie het oude consolidatieverschil ongewijzigd blijft.
 >
 > _Grondslag_: [[step-acquisition]] §herwaardering-consolidatieverschil
+
 ### 5. Verwerken gehele of gedeeltelijke realisatie van aandelen
 
 Bij verkoop van aandelen: boek het overblijvende consolidatieverschil af naar verhouding van de gerealiseerde aandelen.
@@ -217,7 +218,7 @@ Bij interne herstructurering waarbij de economische controle ongewijzigd blijft:
 
 ## Voorbeelden
 
-> [!example]- Antwerpse Investments NV bezit sinds 20X0 een belang van 25 % in Drukkerij Dendermonde BV (geassocieerde, vermogensmutatie)
+> [!example]- Antwerpse Investments NV bezit sinds 20X0 een belang van 25 % in Drukkerij Dendermonde BV (geassocieerde, vermogensmutat…
 > **Conclusie**: Kantelpunt: Drukkerij Dendermonde wordt vanaf 1 juli 20X1 integraal geconsolideerd. Antwerpse verlaat de vermogensmutatie. Het bestaande consolidatieverschil wordt geherwaardeerd. Activa en passiva van Drukkerij Dendermonde worden volledig opgenomen. Aandeel van derden = (1 − 0,60) × 800 = 320.
 >
 > **Grondslag**: [[step-acquisition]] §kantelpunt-invloed-naar-controle; [[integrale-consolidatie]] §100-procent-opname

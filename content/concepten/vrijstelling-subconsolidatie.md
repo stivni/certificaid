@@ -21,7 +21,7 @@ gegenereerd_op: '2026-05-16'
 # Vrijstelling van subconsolidatie ⚖️
 
 > [!summary] Korte inhoud
-> Een tussenliggende (sub)moeder is vrijgesteld van de plicht om een geconsolideerde jaarrekening en jaarverslag op te stellen, op voorwaarde dat: (1) ze zelf dochter is van een hogere moeder die hogerop al consolideert; (2) die hogere moeder de geconsolideerde jaarrekening en het jaarverslag opmaakt, laat controleren en publiceert volgens een gelijkwaardige standaard; (3) aan de aanvullende voorwaarden is voldaan.
+> Een tussenliggende (sub)moeder is vrijgesteld van de plicht om een geconsolideerde jaarrekening en jaarverslag op te stellen, op voorwaarde dat: (1) ze zelf dochter is van een hogere moeder die hogerop al consolideert; (2) die hogere moeder de geconsolideerde jaarrekening en het….
 
 Een tussenliggende (sub)moeder is vrijgesteld van de plicht om een geconsolideerde jaarrekening en jaarverslag op te stellen, op voorwaarde dat: (1) ze zelf dochter is van een hogere moeder die hogerop al consolideert; (2) die hogere moeder de geconsolideerde jaarrekening en het jaarverslag opmaakt, laat controleren en publiceert volgens een gelijkwaardige standaard; (3) aan de aanvullende voorwaarden is voldaan. De vrijstelling vervalt zodra de submoeder zelf of één van haar dochters genoteerd is op een gereglementeerde markt.
 
@@ -69,10 +69,12 @@ _Bron: CBN 2012/12_
 >
 > _Bron: CBN 2012/12_
 
+
 > [!warning]- Wordt een dochter via vermogensmutatie opgenomen (in plaats van integraal), dan…
 > ⚠️ Wordt een dochter via vermogensmutatie opgenomen (in plaats van integraal), dan verandert dat de consolidatieverplichting niet. De groep blijft consolidatieplichtig zolang er minstens één gecontroleerde dochter is. ⚖️
 >
 > _Bron: CBN 2022/11_
+
 
 
 ## Zie ook

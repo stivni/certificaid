@@ -61,10 +61,12 @@ _Bron: WVV art. 1:15, 2° jo. art. 3:22_
 >
 > _Bron: CBN 2022/09 — Consortium_
 
+
 > [!warning]- Een dochter die je buiten de consolidatie laat op grond van KB WVV art. 3:98 of…
 > ⚠️ Een dochter die je buiten de consolidatie laat op grond van KB WVV art. 3:98 of 3:99 (controle in feite die het getrouwe beeld zou verstoren; bepaalde uitsluitingsgronden) moet je via de vermogensmutatiemethode opnemen — niet zomaar weglaten. ⚖️
 >
 > _Bron: KB WVV art. 3:100_
+
 
 
 ## Zie ook

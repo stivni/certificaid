@@ -60,10 +60,12 @@ _Bron: CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)_
 >
 > _Bron: CBN 2022/09 — voorbeeld 7; CBN 2015/10_
 
+
 > [!warning]- Bij een consortium onder centrale leiding van een natuurlijke persoon tellen vo…
 > ⚠️ Bij een consortium onder centrale leiding van een natuurlijke persoon tellen voor de groottecriteria-toets alleen de cijfers van de consortium-leden — niet de eventuele privé-cijfers van Pieter Vermeulen. ⚖️
 >
 > _Bron: CBN 2022/09 — Beoordeling groottecriteria_
+
 
 
 ## Zie ook

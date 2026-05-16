@@ -76,6 +76,7 @@ _Grondslag: KB WVV art. 3:104, § 2_
 > _Bron: Certificaid-corpus-status_
 
 
+
 ## Zie ook
 
 - **Getriggerd door**: [[consolidatieverplichting]]

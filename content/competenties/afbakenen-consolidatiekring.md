@@ -68,6 +68,7 @@ Lijst alle entiteiten op waarover de moeder controlebevoegdheid heeft.
 > _Vaak fout gedaan_: Alleen klassieke handelsvennootschappen meetellen in de kring.
 >
 > _Grondslag_: [[dochteronderneming]] §ruime-definitie
+
 ### 3. Beoordelen of een dochter buiten de kring mag worden gelaten
 
 Toets per dochter aan de vier wettelijke weglatingsgronden van KB WVV art. 3:97.
@@ -92,7 +93,7 @@ Toets per dochter aan de vier wettelijke weglatingsgronden van KB WVV art. 3:97.
 4. Hou in gedachte: weglating is uitzondering, opname is regel.
 
 
-> [!example]- Voorbeeld: Aurelia Holding NV heeft drie dochters: Brugse Brouwerij BV (volledig gecontroleerd, materieel), Logistics Lille SAS (productie-eenheid in een land met deviezenrestricties), Gent Garantie BV (omzet 8
+> [!example]- Voorbeeld: Aurelia Holding NV heeft drie dochters: Brugse Brouwerij BV (volledig gecontroleerd, materieel), Logistics Lille SAS (pr…
 > Aurelia Holding NV heeft drie dochters: Brugse Brouwerij BV (volledig gecontroleerd, materieel), Logistics Lille SAS (productie-eenheid in een land met deviezenrestricties), Gent Garantie BV (omzet 8.000 EUR).
 >
 > 1. **Toets per dochter** 🧮
@@ -117,6 +118,7 @@ Toets per dochter aan de vier wettelijke weglatingsgronden van KB WVV art. 3:97.
 > _Vaak fout gedaan_: Een dochter weglaten omdat consolideren administratief lastig is.
 >
 > _Grondslag_: [[consolidatiekring]] §wettelijke-weglatingsgronden
+
 ### 4. Verwerken van weggelaten dochters via vermogensmutatie
 
 Neem dochters die zijn weggelaten op grond van art. 3:98 of 3:99 alsnog op via vermogensmutatie.

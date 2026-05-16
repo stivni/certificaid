@@ -208,6 +208,7 @@ Verwijder alle wederzijdse vorderingen, schulden, verkopen, aankopen, intra-groe
 > _Bron: CBN 2022/09 — verticale voorafgaand aan horizontale_
 
 
+
 ## Zie ook
 
 - **Getriggerd door**: [[consortium]]

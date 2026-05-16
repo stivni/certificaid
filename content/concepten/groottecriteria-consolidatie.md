@@ -69,10 +69,12 @@ _Bron: WVV art. 1:26 jo. art. 1:24_
 >
 > _Bron: CBN 2024/07_
 
+
 > [!warning]- Bij een consortium toets je de groottecriteria voor de leden samen (Industria A…
 > ⚠️ Bij een consortium toets je de groottecriteria voor de leden samen (Industria Antwerpen NV + Jachthaven Jezus-Eik NV). De centrale leider die zelf geen vennootschap is — een natuurlijke persoon zoals Pieter Vermeulen, een private stichting of een maatschap — telt niet mee in de berekening. ⚖️
 >
 > _Bron: CBN 2022/09 — Beoordeling groottecriteria_
+
 
 
 ## Zie ook

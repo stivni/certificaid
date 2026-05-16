@@ -134,6 +134,7 @@ Schrap de winstmarge die de groep aan zichzelf heeft toegerekend en die nog in v
 > _Vaak fout gedaan_: Aannemen dat alleen vorderingen en schulden moeten worden geëlimineerd.
 >
 > _Grondslag_: [[intragroep-eliminaties]] §winsten-in-activa
+
 ### 4. Elimineren van onderlinge opbrengsten en kosten
 
 Schrap interne verkopen, beheersvergoedingen, intresten en huur uit de geconsolideerde resultatenrekening.
@@ -263,6 +264,7 @@ Bereken het deel van eigen vermogen en resultaat van de dochter dat toebehoort a
 > _Vaak fout gedaan_: Bij evenredige consolidatie alsnog een aandeel van derden boeken voor het deel buiten de groep.
 >
 > _Grondslag_: [[minderheidsbelangen]] §uitsluitend-bij-integrale-consolidatie
+
 ### 8. Aanpassen van de toelichting
 
 Verwijder weggelaten rechten en verplichtingen uit de toelichting bij de geconsolideerde jaarrekening.

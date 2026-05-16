@@ -62,6 +62,7 @@ _Bron: KB WVV art. 3:127, a) jo. art. 3:129 — 3:130_
 > _Bron: KB WVV art. 3:129 + art. 3:131_
 
 
+
 ## Bronnen
 
 [^1]: `KB-WVV-2019__art_3_101`

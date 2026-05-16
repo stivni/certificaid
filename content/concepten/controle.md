@@ -91,10 +91,12 @@ _Grondslag: KB WVV art. 3:98_
 >
 > _Bron: CBN 2017/02 — Gezamenlijke controle, geval 2_
 
+
 > [!warning]- Controle in feite kan ook bij beperkte participaties bestaan. Toets altijd aan …
 > ⚠️ Controle in feite kan ook bij beperkte participaties bestaan. Toets altijd aan de twee-vergaderingen-test voor je 'geen controle' besluit bij <50 %. 🤖
 >
 > _Bron: KB WVV art. 3:98_
+
 
 
 ## Zie ook

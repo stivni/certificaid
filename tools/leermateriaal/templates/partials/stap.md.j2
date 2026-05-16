@@ -34,7 +34,7 @@
 {% endif %}
 {% if stap.voorbeeld %}
 {% set voorbeeld_scenario = stap.voorbeeld.scenario | default('') %}
-> [!example]- Voorbeeld: {{ voorbeeld_scenario.split('.')[0] if voorbeeld_scenario else 'zie hieronder' }}
+> [!example]- Voorbeeld: {{ (voorbeeld_scenario | eerste_zin(120)) if voorbeeld_scenario else 'zie hieronder' }}
 > {{ voorbeeld_scenario }}
 {% if stap.voorbeeld.substappen %}
 >
@@ -60,6 +60,7 @@
 > [!warning]- {{ valkuil.advies | default(valkuil.correctie) }}
 >
 > _Vaak fout gedaan_: {{ valkuil.vaak_fout | default(valkuil.foute_aanname) }}{% if valkuil.grondslag %}{{ "\n>\n> _Grondslag_: " }}{{ valkuil.grondslag }}{% endif %}
+
 
 {% endfor %}
 {% endif %}

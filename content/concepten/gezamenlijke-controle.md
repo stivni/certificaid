@@ -57,10 +57,12 @@ _Bron: CBN 2017/02 — Gezamenlijke controle (groottecriteria-update)_
 >
 > _Bron: CBN 2017/02 — geval 2_
 
+
 > [!warning]- De vennoten die samen een gemeenschappelijke dochter controleren zijn daardoor …
 > ⚠️ De vennoten die samen een gemeenschappelijke dochter controleren zijn daardoor niet automatisch onderling 'verbonden vennootschappen'. Cardinal Group en Energiehuis Evergem zijn elk wel met Filmstudio Florence verbonden, maar niet met elkaar. ⚖️
 >
 > _Bron: CBN 2017/02_
+
 
 
 ## Zie ook

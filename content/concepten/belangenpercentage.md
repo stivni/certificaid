@@ -133,7 +133,7 @@ Vermenigvuldig de directe belangenpercentages over alle schakels om het effectie
 5. Dit is het belang van Aurelia Holding NV in Drukkerij Dendermonde BV via Brugse Brouwerij BV.
 
 
-> [!example]- Voorbeeld: Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV; Brugse Brouwerij BV bezit 60 % van Drukkerij Dendermonde BV (gewone aandelen, geen preferente regelingen)
+> [!example]- Voorbeeld: Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV; Brugse Brouwerij BV bezit 60 % van Drukkerij Dendermonde BV (gewo…
 > Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV; Brugse Brouwerij BV bezit 60 % van Drukkerij Dendermonde BV (gewone aandelen, geen preferente regelingen).
 >
 > 1. **Ketenschema** 💬
@@ -190,6 +190,7 @@ Resultaat: Aurelia Holding NV heeft een economisch belang van 48 % in B. Het aan
 > ⚠️ Belangenpercentage en controlepercentage worden vaak verward. Een opgave die zegt 'Aurelia bezit 60 %' is dubbelzinnig — 60 % van de stemrechten (controle) of 60 % van het kapitaal (belang)? Bij gewone aandelen vallen die samen, bij preferente aandelen of certificaten kunnen ze uit elkaar lopen. 🤖
 >
 > _Bron: Synthese examenpraktijk_
+
 
 
 ## Zie ook

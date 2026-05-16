@@ -70,6 +70,7 @@ _Bron: WVV art. 3:32 (jaarverslag); art. 3:35 (gecondenseerd voor consolidatie)_
 > _Bron: CBN 2022/11_
 
 
+
 ## Zie ook
 
 - **Getriggerd door**: [[consolidatieverplichting]]

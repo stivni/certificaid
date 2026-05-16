@@ -18,7 +18,7 @@
 ## Voorbeelden
 
 {% for voorbeeld in competentie.voorbeelden %}
-> [!example]- {{ voorbeeld.situatie.split('.')[0] }}
+> [!example]- {{ voorbeeld.situatie | eerste_zin(120) }}
 > **Conclusie**: {{ voorbeeld.conclusie }}
 >
 > **Grondslag**: {{ voorbeeld.grondslag }}

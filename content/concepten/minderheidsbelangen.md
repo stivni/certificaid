@@ -233,6 +233,7 @@ Resultaat: In de geconsolideerde balans: 'Belangen van derden' = 100 (passiefzij
 > _Bron: KB WVV art. 3:130, lid 4_
 
 
+
 ## Zie ook
 
 - **Vereist kennis van**: [[belangenpercentage]]

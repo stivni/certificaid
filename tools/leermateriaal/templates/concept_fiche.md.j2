@@ -6,7 +6,7 @@
 {% if not kern and hoofdveld %}{% set kern = hoofdveld | string %}{% endif %}
 {% if kern %}
 > [!summary] Korte inhoud
-> {{ kern.split('.')[0] }}.
+> {{ kern | eerste_zin(280) }}.
 
 {% endif %}
 {% set edges = record.edges | default([]) %}

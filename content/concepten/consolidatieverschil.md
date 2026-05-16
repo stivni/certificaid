@@ -22,7 +22,7 @@ gegenereerd_op: '2026-05-16'
 # Consolidatieverschil ⚖️
 
 > [!summary] Korte inhoud
-> Het verschil dat bij de **eerste consolidatie** van een dochter overblijft tussen (a) wat de moeder betaalde voor de aandelen van een dochter of geassocieerde onderneming en (b) haar pro-rata aandeel in het eigen vermogen (EV) van die onderneming op datum van aankoop — nadat je dat verschil zoveel mogelijk hebt toegerekend aan onder- of overgewaardeerde bezittingen en schulden.
+> Het verschil dat bij de **eerste consolidatie** van een dochter overblijft tussen (a) wat de moeder betaalde voor de aandelen van een dochter of geassocieerde onderneming en (b) haar pro-rata aandeel in het eigen vermogen (EV) van die onderneming op datum van aankoop — nadat je d….
 
 > [!info] Behoort tot: [[integrale-consolidatie]]
 
@@ -246,7 +246,7 @@ Het residu na stap 4 is het eigenlijke consolidatieverschil. Positief? → actie
 5. Bij meer dan 5 jaar afschrijving: motivering in toelichting.
 
 
-> [!example]- Voorbeeld: Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1
+> [!example]- Voorbeeld: Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) Brugse op aankoopdatum = € 1…
 > Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) Brugse op aankoopdatum = € 1.500.000; terreinen van Brugse zijn € 250.000 ondergewaardeerd (boekwaarde € 1.000.000, werkelijk € 1.250.000).
 >
 > 1. **Werkblad consolidatieverschil** 🧮
@@ -309,15 +309,18 @@ Resultaat: In de geconsolideerde balans wordt € 300.000 als positief consolida
 >
 > _Bron: KB WVV art. 3:130_
 
+
 > [!warning]- Negatief consolidatieverschil mag niet 'gewoon' als winst worden geboekt. KB WV…
 > ⚠️ Negatief consolidatieverschil mag niet 'gewoon' als winst worden geboekt. KB WVV art. 3:131, § 2 voorziet een resultaat-opname enkel als het negatief verschil te verklaren is door een verwachte ongunstige resultaatsontwikkeling — en dan slechts naarmate die ontwikkeling zich realiseert. ⚖️
 >
 > _Bron: KB WVV art. 3:131, § 2_
 
+
 > [!warning]- Aanvullende of uitzonderlijke afschrijvingen moeten worden geboekt zodra een ge…
 > ⚠️ Aanvullende of uitzonderlijke afschrijvingen moeten worden geboekt zodra een gewijzigde economische context het niet langer rechtvaardigt het positieve consolidatieverschil tegen die waarde te behouden (KB WVV art. 3:131, § 1). ⚖️
 >
 > _Bron: KB WVV art. 3:131, § 1_
+
 
 
 ## Zie ook

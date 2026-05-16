@@ -102,10 +102,12 @@ _Grondslag: KB WVV art. 3:100_
 >
 > _Bron: KB WVV art. 3:100_
 
+
 > [!warning]- Uitsluiting wegens 'te verwaarlozen betekenis' (art. 3:97, 1°) moet cumulatief …
 > ⚠️ Uitsluiting wegens 'te verwaarlozen betekenis' (art. 3:97, 1°) moet cumulatief worden beoordeeld als meerdere dochters aan die voorwaarde voldoen. Twee individueel kleine dochters die samen wél significant zijn (bv. Bouwwerf Beerse + Gent Garantie samen 12 % van het groepsbalans-totaal), mogen niet beide worden uitgesloten. ⚖️
 >
 > _Bron: KB WVV art. 3:97, 1°_
+
 
 
 ## Zie ook

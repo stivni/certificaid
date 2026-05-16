@@ -115,6 +115,7 @@ Wijs evenredige consolidatie toe aan gemeenschappelijke dochters die nauw geïnt
 > _Vaak fout gedaan_: Aannemen dat ook bij evenredige consolidatie een aandeel van derden moet worden geboekt voor het deel buiten de groep.
 >
 > _Grondslag_: [[evenredige-consolidatie]] §geen-aandeel-van-derden
+
 ### 4. Vermogensmutatiemethode op geassocieerden en specifieke dochters
 
 Wijs vermogensmutatie toe aan geassocieerde ondernemingen, niet-nauw-geïntegreerde gemeenschappelijke dochters en dochters die zijn uitgesloten op grond van art. 3:98 of 3:99.

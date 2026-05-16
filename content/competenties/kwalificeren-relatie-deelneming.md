@@ -74,6 +74,7 @@ Ga na of de moeder exclusieve controle in rechte of in feite uitoefent.
 > _Vaak fout gedaan_: Aannemen dat 49 % stemrechten nooit controle oplevert.
 >
 > _Grondslag_: [[exclusieve-controle]] §controle-in-feite
+
 ### 3. Toetsen of er gezamenlijke controle bestaat
 
 Ga na of een beperkt aantal vennoten samen controle uitoefent op basis van een aandeelhoudersovereenkomst.
@@ -101,6 +102,7 @@ Ga na of een beperkt aantal vennoten samen controle uitoefent op basis van een a
 > _Vaak fout gedaan_: Aannemen dat een 50/50-deelneming automatisch gezamenlijke controle oplevert.
 >
 > _Grondslag_: [[gezamenlijke-controle]] §overeenkomst-vereiste
+
 ### 4. Toetsen of er invloed van betekenis bestaat
 
 Ga na of de moeder zonder controle wel invloed van betekenis uitoefent — weerlegbaar vermoeden vanaf 20 % stemrechten.
@@ -154,6 +156,7 @@ Ga na of de moeder zonder controle wel invloed van betekenis uitoefent — weerl
 > _Vaak fout gedaan_: Bij precies 20 % automatisch tot invloed van betekenis besluiten, zonder de feiten te toetsen.
 >
 > _Grondslag_: [[invloed-van-betekenis]] §weerlegbaarheid
+
 ### 5. Formuleren van de eindkwalificatie
 
 Stel de finale kwalificatie van de relatie op basis van stappen 2-4.

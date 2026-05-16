@@ -108,6 +108,7 @@ Boek consolidatieboekingen die de cijfers van de dochter omzetten naar de unifor
 > _Vaak fout gedaan_: Aannemen dat een dochter haar eigen waarderingsregels mag behouden zolang die wettelijk zijn in haar land van vestiging.
 >
 > _Grondslag_: [[uniforme-waarderingsregels-consolidatie]] §buitenlandse-dochters
+
 ### 4. Beoordelen van afwijkingen in uitzonderingsgevallen
 
 Beoordeel of een afwijking van de standaardwaarderingsregels strookt met het wettelijk kader.

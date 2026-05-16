@@ -21,7 +21,7 @@ gegenereerd_op: '2026-05-16'
 # Evenredige consolidatie (proportionele consolidatie) ⚖️
 
 > [!summary] Korte inhoud
-> Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke gezamenlijk controlerende moeder op naar rato van haar aandeel in het kapitaal (of in de inbreng bij vennootschappen zonder kapitaal).
+> Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke gezamenlijk controlerende moeder op naar rato van haar aandeel in het kapitaal (of i….
 
 > [!info] Behoort tot: [[consolidatiemethodes-vergelijking]]
 
@@ -265,10 +265,12 @@ Resultaat: In de geconsolideerde balans van Cardinal verschijnen € 2.750.000 a
 >
 > _Bron: KB WVV art. 3:140, b_
 
+
 > [!warning]- Intra-groepsverkopen tussen moeder en gemeenschappelijke dochter worden geëlimi…
 > ⚠️ Intra-groepsverkopen tussen moeder en gemeenschappelijke dochter worden geëlimineerd op het pro-rata deel — niet voor 100 %. Andere bronnen (oudere W.Venn., IFRS 11) kennen andere regels; in WVV-context geldt de pro-rata-eliminatie. 🤖
 >
 > _Bron: KB WVV art. 3:140, a_
+
 
 
 ## Zie ook

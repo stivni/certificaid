@@ -46,11 +46,13 @@ Ga na of de entiteit rechtspersoonlijkheid heeft en als vennootschap kwalificeer
 > _Vaak fout gedaan_: Aannemen dat Pieter Vermeulen die meerderheidsstemrechten heeft in meerdere vennootschappen, zelf consolidatieplichtig is.
 >
 > _Grondslag_: [[consolidatieverplichting]] §natuurlijke personen
+
 > [!warning]- Een maatschap zonder rechtspersoonlijkheid is geen moeder.
 >
 > _Vaak fout gedaan_: Een maatschap zonder rechtspersoonlijkheid behandelen als moedervennootschap.
 >
 > _Grondslag_: [[consolidatieverplichting]] §rechtspersoonlijkheid
+
 ### 2. Vaststellen of er controle bestaat over een of meer dochters
 
 Ga na of de vennootschap controle uitoefent over een of meer andere vennootschappen.
@@ -81,6 +83,7 @@ Ga na of de vennootschap controle uitoefent over een of meer andere vennootschap
 > _Vaak fout gedaan_: Aannemen dat controle altijd meer dan 50 % stemrechten vereist.
 >
 > _Grondslag_: [[controle]] §controle-in-feite
+
 ### 3. Onderzoeken of er een consortium is
 
 Ga na of meerdere vennootschappen onder centrale leiding staan zonder onderlinge moeder-dochter-relatie.
@@ -151,6 +154,7 @@ Bereken de geconsolideerde of geaggregeerde cijfers en toets aan de drempelwaard
 > _Vaak fout gedaan_: Aannemen dat 'op geconsolideerde basis' betekent dat er al een geconsolideerde jaarrekening moet bestaan vóór de toets.
 >
 > _Grondslag_: [[groottecriteria-consolidatie]] §toetswijze
+
 ### 5. Toetsen aan de vrijstelling van subconsolidatie
 
 Ga na of een hogere moeder al een gelijkwaardige geconsolideerde jaarrekening opstelt.
@@ -180,6 +184,7 @@ Ga na of een hogere moeder al een gelijkwaardige geconsolideerde jaarrekening op
 > _Vaak fout gedaan_: Aannemen dat de vrijstelling geldt ongeacht of een dochter genoteerd is.
 >
 > _Grondslag_: [[vrijstelling-subconsolidatie]] §uitzondering-notering
+
 ### 6. Formuleren van de eindconclusie
 
 Stel de eindconclusie op voor de cliënt op basis van stappen 1 tot 5.
@@ -215,7 +220,7 @@ Stel de eindconclusie op voor de cliënt op basis van stappen 1 tot 5.
 >
 > **Redenering**: Stemrechtenmeerderheid (> 50 %) levert het onweerlegbaar vermoeden van controle in rechte op. Aurelia moet Brugse integraal opnemen, tenzij een vrijstelling van toepassing is.
 
-> [!example]- Pieter Vermeulen bezit meerderheidsstemrechten in zustervennootschappen Industria Antwerpen NV en Jachthaven Jezus-Eik NV
+> [!example]- Pieter Vermeulen bezit meerderheidsstemrechten in zustervennootschappen Industria Antwerpen NV en Jachthaven Jezus-Eik N…
 > **Conclusie**: Geen consolidatieplicht voor Pieter Vermeulen zelf. Industria en Jachthaven vormen vermoedelijk een consortium en zijn samen consolidatieplichtig.
 >
 > **Grondslag**: [[consolidatieverplichting]] §natuurlijke-personen; [[consortium]] §horizontale-groep

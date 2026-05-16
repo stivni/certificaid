@@ -67,10 +67,12 @@ _Bron: WVV art. 1:22_
 >
 > _Bron: CBN 2022/11_
 
+
 > [!warning]- Het gebruik van de vermogensmutatiemethode geeft geen vrijstelling van subconso…
 > ⚠️ Het gebruik van de vermogensmutatiemethode geeft geen vrijstelling van subconsolidatie. Een groep met enkel een geassocieerde onderneming kan nog steeds consolidatieplichtig zijn op grond van andere dochters in de groep. ⚖️
 >
 > _Bron: CBN 2022/11_
+
 
 
 ## Zie ook

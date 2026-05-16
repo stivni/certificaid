@@ -59,10 +59,12 @@ _Bron: WVV art. 1:26, § 1_
 >
 > _Bron: WVV art. 1:26, § 1 (toepassing analoog aan art. 1:24)_
 
+
 > [!warning]- Eenmalige overschrijding van een drempel doet de vrijstelling niet automatisch …
 > ⚠️ Eenmalige overschrijding van een drempel doet de vrijstelling niet automatisch verdwijnen — er zijn duurzaamheidsregels (zie CBN 2024/07 over de actualisering van drempels en overgangsregels). Bij twijfel: raadpleeg het Cijferzakboekje voor de actuele drempels en de impact-regels. 🤖
 >
 > _Bron: CBN 2024/07_
+
 
 
 ## Zie ook

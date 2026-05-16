@@ -68,6 +68,7 @@ _Bron: WVV art. 1:22 (geassocieerde vennootschap)_
 > _Bron: WVV art. 1:22, § 2_
 
 
+
 ## Zie ook
 
 - **Getriggerd door**: [[geassocieerde-onderneming]]

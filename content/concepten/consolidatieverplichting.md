@@ -55,15 +55,18 @@ _Bron: WVV art. 3:22 jo. art. 3:24 (consortium)_
 >
 > _Bron: CBN 2022/09 — voorbeeld 7_
 
+
 > [!warning]- Een maatschap zonder rechtspersoonlijkheid kan nooit moeder zijn. Als de struct…
 > ⚠️ Een maatschap zonder rechtspersoonlijkheid kan nooit moeder zijn. Als de structuur ook niet als consortium kwalificeert, vervalt de vrijstelling van subconsolidatie voor de onderliggende vennootschappen en moeten zij zelf consolideren. ⚖️
 >
 > _Bron: CBN 2015/10_
 
+
 > [!warning]- 'Beoordeling van groottecriteria op geconsolideerde basis' betekent niet automa…
 > ⚠️ 'Beoordeling van groottecriteria op geconsolideerde basis' betekent niet automatisch dat je effectief een geconsolideerde jaarrekening moet opmaken — het is enkel een rekenwijze om te toetsen of de vrijstellingsdrempels al dan niet overschreden zijn. ⚖️
 >
 > _Bron: CBN 2017/15_
+
 
 
 ## Zie ook

@@ -116,7 +116,7 @@ Als één tussenschakel niet exclusief gecontroleerd wordt (bv. 50/50-joint vent
 4. De top-moeder beoordeelt haar relatie tot die schakel rechtstreeks, niet via de onderbroken keten.
 
 
-> [!example]- Voorbeeld: Aurelia Holding NV bezit 80 % van Cardinal Group NV; Cardinal Group NV bezit 50 % van Filmstudio Florence BV samen met Energiehuis Evergem BV (gezamenlijke controle door overeenkomst)
+> [!example]- Voorbeeld: Aurelia Holding NV bezit 80 % van Cardinal Group NV; Cardinal Group NV bezit 50 % van Filmstudio Florence BV samen met E…
 > Aurelia Holding NV bezit 80 % van Cardinal Group NV; Cardinal Group NV bezit 50 % van Filmstudio Florence BV samen met Energiehuis Evergem BV (gezamenlijke controle door overeenkomst).
 >
 > 1. **Ketenanalyse** 💬
@@ -161,6 +161,7 @@ Resultaat: Aurelia Holding NV controleert Drukkerij Dendermonde exclusief (via B
 > ⚠️ Niet alle aandelen geven stemrechten. Bij stemrechtloze aandelen of preferente aandelen kunnen kapitaal (belangenpercentage) en stemrechten (controlepercentage) uit elkaar lopen. Lees de opgave nauwkeurig: gaat het over 'aandelen', 'stemrechten' of 'kapitaal'? 🤖
 >
 > _Bron: Synthese WVV/CBN_
+
 
 
 ## Zie ook

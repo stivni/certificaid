@@ -93,10 +93,12 @@ _Grondslag: CBN 2017/15_
 >
 > _Bron: KB WVV art. 3:152_
 
+
 > [!warning]- Bij een common control-transactie (herstructurering binnen het concern) ontstaa…
 > ⚠️ Bij een common control-transactie (herstructurering binnen het concern) ontstaat geen nieuw consolidatieverschil — de eerder bestaande historische cijfers worden voortgezet (CBN 2017/15). Belangrijke uitzondering op de regel dat eerste consolidatie altijd een nieuw consolidatieverschil triggert. ⚖️
 >
 > _Bron: CBN 2017/15_
+
 
 
 ## Zie ook

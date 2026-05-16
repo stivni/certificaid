@@ -154,7 +154,7 @@ Boekhoudkundige eliminatie op de balans: 'Voorraden' en 'Geconsolideerde reserve
 4. De voorraad van Brugse staat nu op 28 (= 40 − 12), wat overeenstemt met de oorspronkelijke kostprijs voor de groep (70 % × 40 = 28).
 
 
-> [!example]- Voorbeeld: Aurelia Holding NV verkocht in boekjaar 20X1 voor € 500
+> [!example]- Voorbeeld: Aurelia Holding NV verkocht in boekjaar 20X1 voor € 500.000 goederen aan Brugse Brouwerij BV met 30 % marge
 > Aurelia Holding NV verkocht in boekjaar 20X1 voor € 500.000 goederen aan Brugse Brouwerij BV met 30 % marge. Brugse heeft op 31 december 20X1 nog € 200.000 in voorraad (uitgedrukt in interne aankoopprijs); € 300.000 is al aan derden doorverkocht.
 >
 > 1. **Te elimineren winst** 🧮
@@ -392,10 +392,12 @@ In de toelichting bij de geconsolideerde jaarrekening: zorg dat informatie over 
 >
 > _Bron: KB WVV art. 3:139_
 
+
 > [!warning]- Een intra-groepsverkoop tegen kostprijs (zonder marge) levert geen te eliminere…
 > ⚠️ Een intra-groepsverkoop tegen kostprijs (zonder marge) levert geen te elimineren winst op de balans op — er valt niets uit reserves te halen. Maar opbrengsten en kosten moet je nog steeds uit de geconsolideerde resultatenrekening schrappen (KB WVV art. 3:136, 1°). ⚖️
 >
 > _Bron: KB WVV art. 3:136, 1°_
+
 
 
 ## Zie ook

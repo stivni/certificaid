@@ -189,7 +189,7 @@ Schrap de post 'Deelneming dochter' uit de moeder-balans en schrap het bijhorend
 6. Belangrijk: gebruik het eigen vermogen op de datum van aankoop, niet op afsluitingsdatum.
 
 
-> [!example]- Voorbeeld: Aurelia Holding NV koopt op 1 januari 20X1 een belang van 80 % in Brugse Brouwerij BV voor € 1
+> [!example]- Voorbeeld: Aurelia Holding NV koopt op 1 januari 20X1 een belang van 80 % in Brugse Brouwerij BV voor € 1.600.000
 > Aurelia Holding NV koopt op 1 januari 20X1 een belang van 80 % in Brugse Brouwerij BV voor € 1.600.000. Eigen vermogen van Brugse Brouwerij BV op die datum: € 1.500.000.
 >
 > 1. **Vertrekpunt: balans Aurelia Holding vóór consolidatie** 📊
@@ -344,15 +344,18 @@ Resultaat: In de geconsolideerde balans staan de € 3.000.000 activa en € 1.0
 >
 > _Bron: KB WVV art. 3:129_
 
+
 > [!warning]- Bij eerste consolidatie van een vennootschap kan de compensatie ten belope van …
 > ⚠️ Bij eerste consolidatie van een vennootschap kan de compensatie ten belope van de aandelen in haar bezit op die datum gebeuren op de aanvangsdatum van het boekjaar (KB WVV art. 3:129, b)). Dit is een uitzondering die in de toelichting kan worden gemotiveerd. ⚖️
 >
 > _Bron: KB WVV art. 3:129, b)_
 
+
 > [!warning]- De weglatingen van KB WVV art. 3:134 en 3:136 mogen achterwege blijven 'wanneer…
 > ⚠️ De weglatingen van KB WVV art. 3:134 en 3:136 mogen achterwege blijven 'wanneer de betrokken bedragen, gelet op het doel van artikel 3:105, slechts van te verwaarlozen betekenis zijn' (KB WVV art. 3:138 jo. art. 3:139). Praktisch beoordelen op materialiteit. ⚖️
 >
 > _Bron: KB WVV art. 3:139_
+
 
 
 ## Zie ook

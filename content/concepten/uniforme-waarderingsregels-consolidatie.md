@@ -61,10 +61,12 @@ _Bron: KB WVV art. 3:116 jo. art. 3:117_
 >
 > _Bron: KB WVV art. 3:118_
 
+
 > [!warning]- Een wijziging in waarderingsregels van het ene boekjaar op het andere is uitzon…
 > ⚠️ Een wijziging in waarderingsregels van het ene boekjaar op het andere is uitzonderlijk en je moet ze motiveren (KB WVV art. 3:117). Een 'gewone' beleidsvoorkeur is onvoldoende — er moet sprake zijn van een belangrijke wijziging in bedrijf, vermogensstructuur of omstandigheden. ⚖️
 >
 > _Bron: KB WVV art. 3:117_
+
 
 
 ## Zie ook

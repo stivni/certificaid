@@ -40,6 +40,37 @@ def _truncate_cel(waarde: str, lengte: int = 120, suffix: str = "…") -> str:
     return tekst[:lengte].rstrip() + suffix
 
 
+_AFKORTING_PUNTEN = re.compile(r"(?:art\.|bv\.|nl\.|i\.e\.|e\.g\.|vs\.|nr\.|art|bv|nl)$", re.IGNORECASE)
+
+
+def _eerste_zin(waarde: str, max_lengte: int = 120) -> str:
+    """Extraheer eerste zin uit een tekst — duizendtal-veilig.
+
+    Splits op zinsbeëindiging (`. ` met spatie, of `. ` aan zinsbreuk) zodat
+    bedragen als `€ 1.600.000` niet midden in het bedrag worden gecapt.
+    Negeert ook standaard-afkortingen die met een punt eindigen.
+
+    Args:
+        waarde: input-string
+        max_lengte: harde lengte-cap (default 120)
+
+    Returns:
+        Eerste zin (zonder afsluitende punt) of de hele string als korter dan max_lengte.
+    """
+    tekst = str(waarde).strip()
+    if not tekst:
+        return ""
+    # Zinsbeëindiging: . of ! of ? gevolgd door spatie of einde-string
+    treffer = re.search(r"[.!?](?:\s|$)", tekst)
+    if treffer:
+        kandidaat = tekst[: treffer.start()].rstrip(".!? \t")
+    else:
+        kandidaat = tekst
+    if len(kandidaat) > max_lengte:
+        kandidaat = kandidaat[:max_lengte].rstrip() + "…"
+    return kandidaat
+
+
 def get_env() -> Environment:
     """Haal de geconfigureerde Jinja2 Environment op (singleton).
 
@@ -49,6 +80,7 @@ def get_env() -> Environment:
     - ``regex_replace``: regex-substitutie
     - ``regex_search``: geeft eerste match terug
     - ``truncate_cel``: kap af op N tekens (default 120) voor tabelcellen
+    - ``eerste_zin``: extraheer eerste zin (duizendtal-veilig, max-lengte 120)
 
     Returns:
         geconfigureerde Jinja2 Environment
@@ -67,4 +99,5 @@ def get_env() -> Environment:
         _env.filters["regex_replace"] = _regex_replace
         _env.filters["regex_search"] = _regex_search
         _env.filters["truncate_cel"] = _truncate_cel
+        _env.filters["eerste_zin"] = _eerste_zin
     return _env

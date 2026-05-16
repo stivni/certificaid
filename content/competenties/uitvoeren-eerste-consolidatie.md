@@ -119,6 +119,7 @@ Bereken het verschil tussen aanschaffingswaarde en pro-rata eigen vermogen, en r
 > _Vaak fout gedaan_: Het volledige verschil tussen aanschaffingswaarde en boekwaarde van pro-rata EV rechtstreeks als consolidatieverschil boeken.
 >
 > _Grondslag_: [[consolidatieverschil]] §toerekening
+
 ### 4. Berekenen en boeken van het residuele consolidatieverschil
 
 Boek het resterende verschil als 'Consolidatieverschillen' (actief- of passiefzijde).
@@ -167,6 +168,7 @@ Boek het resterende verschil als 'Consolidatieverschillen' (actief- of passiefzi
 > _Vaak fout gedaan_: Positieve en negatieve consolidatieverschillen van verschillende dochters tegen elkaar wegstrepen.
 >
 > _Grondslag_: [[consolidatieverschil]] §compensatie-verbod
+
 ### 5. Vastleggen van het afschrijvingsplan voor positief consolidatieverschil
 
 Bepaal de afschrijvingsduur die de werkelijke economische gebruiksduur van de goodwill weerspiegelt.
