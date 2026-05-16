@@ -103,9 +103,19 @@ Schrijf elke geconstateerde gap als een nieuw object naar `data/extractie/gaps.j
 - `stap.skeleton` — stap heeft skeleton-titel (heuristisch eerste-N-woorden uit oude tekst) zonder `wat`/`hoe`-velden. Behoeft echte deep-rewrite.
 - `bouwsteen.geen-waarom` — bouwsteen-blok zonder `waarom`-rationale (regel 11 v4)
 - `bouwsteen.geen-voorbeeld-inline` — bouwsteen-blok zonder illustratief `voorbeeld_inline` met cast-namen
+- `bouwsteen.duplicate-met-concept` — bouwsteen-claim overlapt sterk met `definitie`/`main_rule` van een ander concept-record (cross-record similarity ≥ 0.75). ENRICH refactort: behoud in canonieke concept, vervang in bouwsteen door wikilink. **Vereist cross-record scope** — niet detecteerbaar op single-record verify.
 - `formule.geen-variabelen` — `formules[]`-blok zonder `variabelen[]`-uitleg per symbool (regel 12 v4)
 - `formule.geen-invulling-voorbeeld` — formule zonder `invulling_voorbeeld` met cast-namen
 - `cast.niet-toegepast` — voorbeelden gebruiken nog ad-hoc namen (M/D/X/Y/ABC/DEF) i.p.v. `data/concepten/casts/globaal.yaml`
+- `afkorting.onverklaard` — afkorting (`\b[A-Z]{2,}\b`) verschijnt zonder voorafgaande voluit + (afkorting) in dezelfde record. Bv. "EV" zonder voorafgaand "eigen vermogen (EV)".
+- `bedragen.format-incorrect` — bedragen zonder € prefix of zonder duizendtal-formaat (bv. "320" i.p.v. "€ 350.000"). Cast-conventie.
+- `balans.klopt-niet` — in een `voorbeeld.substappen[*]` van type `balans`: activa-totaal ≠ passiva-totaal. Mechanische parse-check.
+- `balans.rubriek-ontbreekt` — substap-balans mist kerncategorie (Vaste activa / Eigen vermogen / Schulden — niet bedragen, alleen rubriek-headers).
+- `resultatenrekening.klopt-niet` — substap-RR: opbrengsten − kosten ≠ getoond resultaat.
+- `boeking.klopt-niet` — substap van type `boekingsregel`: som debet ≠ som credit.
+- `granulariteit.beslissing-nodig` — bouwsteen voldoet 1 van 3 granulariteit-criteria (ADR-007 §Granulariteit-beslisregels) EN > 100 woorden uitleg. Mens moet kiezen: apart concept of bouwsteen-blijft.
+
+**Scope voor schema 1.4-verificatie**: aspecten als `bouwsteen.duplicate-met-concept` en `granulariteit.beslissing-nodig` vereisen **multi-record scope**. VERIFY draait dus altijd op een record-set (≥ alle records van een PO), niet op één enkele record.
 
 **Prioriteitsgids**:
 - `hoog`: gap die een directe examenvraag onbeantwoordbaar maakt (Check A-strandpunt)

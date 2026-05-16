@@ -65,32 +65,27 @@ vennootschappen:
   - naam: "Logistics Lille SAS"
     rol_default: "buitenlandse-dochter-eu"
 
-# Scenario-templates: combinaties die in voorbeelden vaak voorkomen.
-# Extractors kiezen het juiste scenario op basis van wat de concept-tekst illustreert.
+# Scenario-archetypen: rol-combinaties die in voorbeelden vaak voorkomen.
+# Bevat GEEN bedragen of percentages (die kiest de extractor zelf, plausibel
+# en in € + duizendtal-notatie volgens formatting-conventie hieronder).
+# Extractors kiezen het juiste archetype op basis van wat de concept-tekst illustreert.
 scenarios:
 
   basis_consolidatie:
     omschrijving: "Moeder verwerft exclusieve controle over één dochter; demo voor integrale consolidatie."
     moeder: "Aurelia Holding NV"
     dochter: "Brugse Brouwerij BV"
-    belang_default: 80
-    aanschaffingswaarde_default: 320
-    eigen_vermogen_dochter_default: 300
 
   joint_venture:
     omschrijving: "Twee partners delen controle over een gemeenschappelijke dochter; demo voor evenredige consolidatie."
     partner_1: "Cardinal Group NV"
     partner_2: "Energiehuis Evergem BV"
     joint: "Filmstudio Florence BV"
-    belang_per_partner_default: 50
 
   geassocieerde:
     omschrijving: "Moeder heeft invloed van betekenis maar geen controle; demo voor vermogensmutatiemethode."
     moeder: "Antwerpse Investments NV"
     geassocieerde: "Drukkerij Dendermonde BV"
-    belang_default: 25
-    aanschaffingswaarde_default: 200
-    eigen_vermogen_geassocieerde_default: 600
 
   consortium:
     omschrijving: "Horizontale groep zonder moeder-dochter-relatie; demo voor consortium-consolidatie."
@@ -103,26 +98,33 @@ scenarios:
     omschrijving: "Tussenmoeder waarvan een buitenlandse-moeder hogerop al consolideert; demo voor subconsolidatie-vrijstelling."
     buitenlandse_moeder: "Kappers Köln GmbH"
     tussenmoeder: "Aurelia Holding NV"
-    deelneming_pct: 95
 
   groep_van_beperkte_omvang:
     omschrijving: "Kleine groep onder de drempelwaarden; demo voor vrijstelling."
     moeder: "Aurelia Holding NV"
     dochter: "Gent Garantie BV"
-    geaggregeerde_omzet: "20 mln EUR"
-    geaggregeerd_balanstotaal: "12 mln EUR"
-    geaggregeerd_personeel: 180
 
   afwijkende_afsluitingsdatum:
     omschrijving: "Dochter sluit boekjaar af meer dan 3 maanden vóór moeder; demo voor 3-maanden-regel."
     moeder: "Aurelia Holding NV"
     dochter_afwijkend: "Holsters Horst BV"
-    moeder_afsluitdatum: "31 december 20X1"
-    dochter_afsluitdatum: "30 juni 20X1"
+
+# Formatting-conventie voor bedragen in voorbeelden
+formatting:
+  valuta_prefix: "€"
+  duizendtal_separator: "."        # € 350.000 (Belgische conventie)
+  decimaal_separator: ","          # € 350.000,50
+  plausibele_ranges:
+    aanschaffingswaarde_deelneming: "€ 200.000 – € 5.000.000 (BV) of € 5M – € 500M (NV)"
+    eigen_vermogen_BV: "€ 150.000 – € 3.000.000"
+    eigen_vermogen_NV: "€ 1M – € 100M"
+    omzet_BV: "€ 500.000 – € 25.000.000"
+    intragroep_vordering: "€ 25.000 – € 500.000"
 
 # Conventies voor extractors
 conventies:
-  - "Bij elk numeriek voorbeeld: kies één scenario-template als basis, vul de bedragen aan zoals het concept vereist."
-  - "Bedragen zonder valuta-prefix worden geïnterpreteerd in euro (geconsolideerde jaarrekening)."
-  - "Voor percentage-ketens gebruik je rol-distincte namen (bv. Aurelia → Brugse → Drukkerij Dendermonde — niet A → B → C)."
-  - "Verzonnen aanvullende namen alleen toegestaan als een nieuw scenario expliciet andere letter-spreiding vereist; voeg ze dan toe aan dit bestand én documenteer in de PR."
+  - "Bij elk numeriek voorbeeld: kies één scenario-archetype als basis."
+  - "Bedragen ALTIJD met € prefix + duizendtal-formaat (€ 350.000); geen abstracte getallen (320)."
+  - "Bedragen plausibel volgens accounting-praktijk (zie formatting.plausibele_ranges)."
+  - "Voor percentage-ketens gebruik rol-distincte namen (Aurelia → Brugse → Drukkerij Dendermonde — niet A → B → C)."
+  - "Cast is een stabiele seed; agents mogen autonoom een Vlaamse naam met onbezette beginletter toevoegen als een nieuwe rol echt nodig is. Aanvulling alleen wanneer ≥3 records die rol gebruiken."

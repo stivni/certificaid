@@ -87,6 +87,36 @@ BRON → CONCEPT-records → [deterministisch] → content/concepten/<id>.md
 
 **Synthese-records** (node_type: synthese): cluster-records met vergelijkingstabel + Mermaid-beslisboom + kerninzichten. Tweede render-tak in concept-fiche-template (alleen voor synthese-type-records).
 
+### Callout-conventies (2026-05-16)
+
+Quartz-callouts (`> [!type]`) zijn de visuele drager voor "pedagogische kruimels" in render. **Conventie: elk schema-veld met didactische context-functie krijgt een vast callout-type**. Geen callout in plain markdown-paragraaf laten staan.
+
+| Schema-veld | Callout-type | Collapsible | Titel-veld |
+|---|---|---|---|
+| TL;DR (eerste zin uit `definitie.text` of `main_rule.text`) | `> [!summary]` | nee | "Korte inhoud" |
+| `voorbeeld_inline` op record-niveau | `> [!example]-` | ja | "Voorbeeld" |
+| `bouwsteen.voorbeeld_inline` | `> [!example]-` | ja | "Voorbeeld" (compact) |
+| `berekeningsmethode[*].formules[*].invulling_voorbeeld` | `> [!example]-` | ja | "Voorbeeld-invulling" |
+| `voorbeeld.scenario` + `voorbeeld.substappen[*]` (op stap-niveau) | `> [!example]-` | ja | "Voorbeeld: {scenario-1-zin}" |
+| `valkuilen[*]` (één per item) | `> [!warning]-` | ja | het `advies`-veld (correcte aanbeveling) |
+| `vergelijkingsparen[*]` (één per paar) | `> [!info]-` | ja | "Niet verwarren met [[concept]]" |
+| `in_praktijk[*].herkenningspunt` | `> [!tip]-` | ja | "Herkennen op het examen" |
+| Voorbeeld-minimum-gap (geen voorbeeld in record) | `> [!todo]` | nee | "Voorbeeld ontbreekt" |
+| Open gap-entry uit `gaps.json` voor dit record | `> [!todo]` | ja | het `aspect`-veld |
+| Examenvraag in minicursus (uit `_programmaonderdeel_classificatie.json`) | `> [!question]-` | ja | "{examen_id}-vr{nr} ({punten} punten)" |
+| Edges van type `onderdeel-van` / `specialisatie-van` (concept-fiche) | inline `> [!info]` | nee | "Behoort tot: [[X]] · ..." (één regel) |
+| Edges van type `uitzondering-op` | inline `> [!info]` | nee | "Uitzondering op: [[X]]" |
+| Edges van type `getriggerd-door` / `vereist-kennis-van` | sectie "## Zie ook" met bullets, géén callout | — | — |
+
+**Render-regels**:
+- Collapsible (callout-type met `-` suffix) vermindert visuele clutter — alle illustratie-content is collapsible
+- TL;DR-callout altijd open (kerncategorie, geen ruis)
+- Voorbeeld-minimum-todo altijd open (signaal voor curator)
+- Niet-collapsibele inline-callouts (breadcrumb-style) blijven tot maximaal 1 regel
+- Geen geneste callouts (bv. valkuil binnen voorbeeld) — splits in twee aparte callouts
+
+Render-implementatie in `tools/leermateriaal/templates/partials/*.md.j2` — wijzigingen aan deze conventie vereisen template-aanpassing + tests in `tests/test_leermateriaal_render.py`.
+
 Verwijzingen: ADR-007 §schema 1.4 (stap-blok + bouwsteen-blok + formule-blok + edges-types + node_type synthese + cast-conventie + voorbeeld-minimum); ADR-008 §14–17.
 
 ### Records → RAG-index → rendered fiche

@@ -279,6 +279,47 @@ Schema 1.4 dwingt minimum voorbeeld-aanwezigheid af:
 
 Als minimum niet gehaald wordt: log expliciet in eindrapport. Render produceert `> [!todo] Voorbeeld ontbreekt`-callout.
 
+### Regel 14a — Bedragen in € + duizendtal-formaat (verplicht)
+
+Alle bedragen in voorbeelden (`voorbeeld_inline`, `voorbeeld.substappen[*].data`, `formules[*].invulling_voorbeeld`) gebruiken:
+
+- **€-prefix** voor elk bedrag: `€ 350.000`
+- **Duizendtal-separator: punt** (Belgische conventie): `€ 1.250.000`
+- **Decimaal-separator: komma** waar nodig: `€ 350.000,50`
+- **Plausibele ranges** (zie `data/concepten/casts/globaal.yaml` §formatting.plausibele_ranges):
+  - Aanschaffingswaarde deelneming BV: `€ 200.000 – € 5.000.000`
+  - Aanschaffingswaarde deelneming NV: `€ 5M – € 500M`
+  - Eigen vermogen BV: `€ 150.000 – € 3.000.000`
+  - Omzet BV: `€ 500.000 – € 25.000.000`
+  - Intragroep-vordering: `€ 25.000 – € 500.000`
+
+**Verboden**: abstracte getallen (`320`, `200`, `300`). VERIFY-aspect `bedragen.format-incorrect` flagt dit.
+
+### Regel 14b — Balans- en RR-templates als referentie
+
+Voor substappen van type `balans` / `resultatenrekening` / `boekingsregel`: gebruik de structuur uit [`data/concepten/templates/`](../data/concepten/templates/). Templates zijn **kennis-bron** voor jou tijdens prompting, geen render-time substitutie. Je schrijft de markdown-tabel zelf, maar volgens de rubriek-volgorde van het relevante template.
+
+**Toetsing door VERIFY** (mechanisch):
+- `balans.klopt-niet` — activa-totaal ≠ passiva-totaal
+- `balans.rubriek-ontbreekt` — kerncategorie mist
+- `resultatenrekening.klopt-niet` — opbrengsten − kosten ≠ resultaat
+- `boeking.klopt-niet` — som debet ≠ som credit
+
+Tussenstappen mag je toevoegen (bv. M-balans + D-balans + geconsolideerde balans als 3 substappen). Voorbeelden mogen scenario's bedenken zolang plausibel + intern consistent + getoetst.
+
+### Regel 14c — Granulariteit-beslissing autonoom
+
+Bij het ontstaan van een nieuwe claim (uit chunks of synthese): beslis autonoom volgens ADR-007 §Granulariteit-beslisregels:
+
+**Alle drie voldaan → eigen concept-record schrijven**:
+1. Eigen wettelijk artikel/normpunt als primaire bron
+2. ≥ 3 cross-refs vanuit andere records (te verwachten of bestaand)
+3. 1-zin definitie zonder "binnen de context van X"
+
+**Anders → bouwsteen-met-wikilink** in een groter concept-record.
+
+**FLAG `granulariteit.beslissing-nodig`** alleen bij echt twijfelgeval (1 criterium voldaan + > 100 woorden uitleg-potentieel). Niet als default fallback — beslis autonoom waar mogelijk om enrich-loop-iteraties te vermijden.
+
 ### Regel 14 — Voorbeelden uit drie toegestane bronnen
 
 In volgorde van voorkeur:

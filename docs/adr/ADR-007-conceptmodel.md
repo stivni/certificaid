@@ -643,6 +643,43 @@ Aparte content-conventie in [`docs/concept-schrijfregels.md`](../concept-schrijf
 
 Niet in deze ADR — schrijfregels zijn geen architectuurbeslissing.
 
+### Granulariteit-beslisregels (schema 1.4, 2026-05-16)
+
+Voor de vraag "wordt deze claim een eigen concept-record of blijft het een bouwsteen-met-wikilink van een groter concept" zijn drie criteria. **ENRICH past deze autonoom toe** — alleen het echte twijfelgeval flagt een `granulariteit.beslissing-nodig`-gap voor mens-review.
+
+**APART CONCEPT** wanneer **alle drie** voldaan zijn:
+
+1. **Eigen primaire bron**: het fenomeen heeft een eigen wettelijk artikel of normpunt als primaire bron (niet alleen een paragraaf binnen een groter artikel). Bv. `consolidatieverschil` heeft KB WVV art. 3:130-3:131 als eigen artikel; "compensatie van deelneming" (KB WVV art. 3:127 a) is één bullet binnen integrale-consolidatie-procedure → bouwsteen.
+
+2. **Cross-referentie-druk**: het fenomeen wordt aangeroepen door ≥ 3 andere records via wikilinks of bouwstenen. Bv. `controle` is gebaseerd-op bij 6+ andere records → apart concept. "Vermoedelijke gebruiksduur" verschijnt alleen in `consolidatieverschil` → geen apart concept.
+
+3. **Independent definieerbaar**: het fenomeen heeft een 1-zin definitie zonder afhankelijke kwalificatie ("binnen de context van X"). Bv. "Pro-rata aandeel" is een afhankelijke berekening — geen apart concept. "Consolidatiekring" definieert zichzelf — apart concept.
+
+**BOUWSTEEN MET WIKILINK** (niet flaggen, refereer) wanneer 2 of 3 criteria onvoldaan zijn. ENRICH zet de claim in `bouwstenen[]` met wikilink naar gerelateerd concept.
+
+**FLAG `granulariteit.beslissing-nodig`** (mens-review) wanneer:
+- 1 criterium voldaan, 2 niet, EN het concept > 100 woorden uitleg vergt
+- Of: 2 criteria voldaan maar bron-set is ambigu (bv. CBN-advies én KB-artikel die elk een ander aspect dekken)
+
+Anti-fabricatie-discipline: ENRICH mag een claim NIET autonoom als nieuw concept-record schrijven. Wel autonoom: claim refactoren naar bouwsteen met wikilink. Voor nieuwe records → mens-curatie van `granulariteit.beslissing-nodig`-flag.
+
+### Balans- en resultatenrekening-templates (schema 1.4, 2026-05-16)
+
+Voor concept-records die boekhoudkundige artefacten illustreren (consolidatie-balansen, intragroep-eliminaties, vermogensmutatie-boekingen) bestaan **referentie-skeletons** in [`data/concepten/templates/`](../../data/concepten/templates/):
+
+- `balans-verkort.md` / `balans-volledig.md` / `balans-geconsolideerd.md`
+- `resultatenrekening-verkort.md` / `resultatenrekening-volledig.md`
+- `boekingsregel.md`
+
+Templates zijn **kennis-bron voor de extractor/enricher** — niet render-time substitutie. Een substap met `type: balans` schrijft de extractor handmatig met de juiste rubriek-structuur uit het template. LLM-vrijheid voor scenario's; mechanische check via VERIFY:
+
+- `balans.klopt-niet` — activa-totaal ≠ passiva-totaal
+- `balans.rubriek-ontbreekt` — Vaste activa / Eigen vermogen / Schulden mist
+- `resultatenrekening.klopt-niet` — opbrengsten − kosten ≠ resultaat
+- `boeking.klopt-niet` — som debet ≠ som credit
+
+Aanvulbaar wanneer nieuwe boekhoudkundige patronen nodig zijn (bv. kasstroom-overzicht voor IFRS, fiscale aangifte voor PO 2.x).
+
 ### Vermoeden-schema (input voor concept-extractie, ADR-008)
 
 Vermoedens (kandidaat-concepten) hebben een eigen lichtgewicht schema dat als input dient voor de seed-extractie. Vermoedensruimte werkt op **programmaonderdeel-niveau**, niet per taakblok — een vermoeden kan vakoverschrijdend zijn (designprincipe 1).
