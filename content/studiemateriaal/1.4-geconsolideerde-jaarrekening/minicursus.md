@@ -89,24 +89,15 @@ flowchart TD
 
 Controle is het scharnierbegrip: het bepaalt wie moeder is, welke entiteiten in de kring komen en welke methode geldt. De actoren hieronder zijn varianten op die ene as.
 
-**[[controle|Controle]]**: De macht — juridisch (in rechte) of feitelijk (in feite) — om beslissende invloed uit te oefenen op een vennootschap: de meerderheid van de bestuurders aanstellen of de hoofdlijn van het beleid...
-
-**[[moedervennootschap|Moedervennootschap]]**: Een vennootschap die controle uitoefent over een andere vennootschap (de dochter). De moeder is in principe verplicht om een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te...
-
-**[[dochteronderneming|Dochteronderneming]]**: Een vennootschap waarover een andere vennootschap (de moeder) controle uitoefent. In het WVV is 'dochteronderneming' ruimer dan 'dochtervennootschap': het omvat ook elke instelling naar Belgisch...
-
-**[[exclusieve-controle|Exclusieve controle]]**: De controle die één vennootschap alleen uitoefent over een andere — niet samen met andere vennoten. Exclusieve controle is onweerlegbaar wanneer een vennootschap (rechtstreeks of via dochters)...
-
-**[[gezamenlijke-controle|Gezamenlijke controle]]**: De controle die een beperkt aantal vennoten samen uitoefenen, op grond van een overeenkomst dat beleidsbeslissingen alleen met hun gemeenschappelijke instemming kunnen worden genomen. De...
-
-**[[invloed-van-betekenis|Invloed van betekenis]]**: De macht om deel te nemen aan de financiële en operationele beleidsbeslissingen van een andere onderneming, zonder die beslissingen alleen of samen met anderen te kunnen sturen. Invloed van...
-
-**[[geassocieerde-onderneming|Geassocieerde onderneming]]**: Een onderneming waarop een andere onderneming een invloed van betekenis heeft — maar niet voldoende om er controle over uit te oefenen. De geassocieerde is dus geen dochter en geen...
-
-**[[gemeenschappelijke-dochteronderneming|Gemeenschappelijke dochteronderneming]]**: Een vennootschap waarover een beperkt aantal vennoten samen controle uitoefenen op basis van een overeenkomst dat beleidsbeslissingen alleen met hun gemeenschappelijke instemming kunnen worden...
-
-**[[consortium|Consortium (horizontale groep)]]**: Een groep vennootschappen die niet door een moeder-dochter-relatie zijn verbonden, maar wel onder één gemeenschappelijke leiding staan. In een gewone (verticale) groep moet de moeder consolideren....
-
+- [[controle|Controle]] · `begrip`
+- [[moedervennootschap|Moedervennootschap]] · `actor`
+- [[dochteronderneming|Dochteronderneming]] · `actor`
+- [[exclusieve-controle|Exclusieve controle]] · `begrip`
+- [[gezamenlijke-controle|Gezamenlijke controle]] · `begrip`
+- [[invloed-van-betekenis|Invloed van betekenis]] · `begrip`
+- [[geassocieerde-onderneming|Geassocieerde onderneming]] · `actor`
+- [[gemeenschappelijke-dochteronderneming|Gemeenschappelijke dochteronderneming]] · `actor`
+- [[consortium|Consortium (horizontale groep)]] · `actor`
 
 ## Bepalen of een vennootschap een geconsolideerde jaarrekening moet opstellen
 
@@ -136,14 +127,10 @@ Twee percentages, twee logica's: controle wordt niet vermenigvuldigd in een kete
 
 Elke methode hoort bij één type relatie. De vierde — horizontale consolidatie — is geen aparte techniek maar de toepassing van integrale consolidatie op een consortium zonder moeder.
 
-**[[integrale-consolidatie|Integrale consolidatie]]**: De geconsolideerde jaarrekening voorstellen alsof het geheel van de consoliderende vennootschap en haar exclusief gecontroleerde dochterondernemingen één enkele economische entiteit vormt. De...
-
-**[[evenredige-consolidatie|Evenredige consolidatie (proportionele consolidatie)]]**: Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke...
-
-**[[vermogensmutatiemethode|Vermogensmutatiemethode (equity method)]]**: Een deelneming verschijnt in de geconsolideerde jaarrekening niet activum-per-activum, maar als één samengevatte balanspost. Bij de eerste opname waardeer je die post aan jouw pro-rata aandeel in...
-
-**[[horizontale-consolidatie|Horizontale consolidatie]]**: De consolidatietechniek die je toepast wanneer vennootschappen onder gemeenschappelijke leiding staan zonder dat één rechtspersoon de andere controleert — een consortium. De leden van het...
-
+- [[integrale-consolidatie|Integrale consolidatie]] · `methode`
+- [[evenredige-consolidatie|Evenredige consolidatie (proportionele consolidatie)]] · `methode`
+- [[vermogensmutatiemethode|Vermogensmutatiemethode (equity method)]] · `methode`
+- [[horizontale-consolidatie|Horizontale consolidatie]] · `procedure`
 
 ## De vier consolidatiemethodes vergeleken
 
@@ -206,18 +193,14 @@ Een kring is geen statisch gegeven: aankopen, verkopen en kantelpunten tussen me
 
 De geconsolideerde jaarrekening en het geconsolideerd jaarverslag horen onlosmakelijk samen: cijfers en narratief vullen elkaar aan en worden samen gecontroleerd en gepubliceerd.
 
-**[[geconsolideerde-jaarrekening|Geconsolideerde jaarrekening]]**: De jaarrekening die het vermogen, de financiële positie en het resultaat van de hele groep (moeder + alle dochters in de consolidatiekring) presenteert alsof het om één bedrijf gaat. Ze bestaat...
-
-**[[geconsolideerd-jaarverslag|Geconsolideerd jaarverslag]]**: Het narratieve (toelichtende) verslag dat het bestuursorgaan samen met de geconsolideerde jaarrekening opmaakt, laat controleren en publiceert. Het beschrijft de evolutie van de zaken, het...
-
+- [[geconsolideerde-jaarrekening|Geconsolideerde jaarrekening]] · `begrip`
+- [[geconsolideerd-jaarverslag|Geconsolideerd jaarverslag]] · `begrip`
 
 ## IFRS-context: het internationale consolidatieraamwerk
 
 Voor groepen die onder IFRS rapporteren ligt het raamwerk verspreid over vier standaarden die samen het Belgische KB WVV-systeem spiegelen, met een eigen accent op het controle-begrip.
 
-**[[ifrs-consolidatieraamwerk|IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12)]]**: De verzameling IAS/IFRS-standaarden die het wettelijk kader bepalen voor een geconsolideerde jaarrekening onder IFRS. Voor consolidatie zijn vier standaarden centraal: IFRS 3...
-
-
+- [[ifrs-consolidatieraamwerk|IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12)]] · `begrip`
 
 ## Synthese-stappenplan
 
@@ -256,7 +239,6 @@ Begin met de plichtsvraag: is er een moeder met controle, en als ja, geldt er ee
 | [[vermogensmutatiemethode]] | [[integrale-consolidatie]] | Soort relatie: controle → integraal; invloed van betekenis (of uitgesloten dochters / niet-geïntegreerde gemeenschappelijke dochters) → vermogensmutatie. |
 | [[vermogensmutatiemethode]] | [[evenredige-consolidatie]] | Mate van integratie van de gemeenschappelijke dochter: nauw geïntegreerd → evenredig; los → vermogensmutatie. |
 | [[vrijstelling-subconsolidatie]] | [[groottecriteria-consolidatie]] | Examen-keuze-vraag: 'Welke vrijstelling beroept Aurelia zich op?' → toets eerst structuur (is er een top-moeder die al consolideert? → subconsolidatie), daarna omvang (zit de groep onder de drempels? → beperkte omvang). |
-
 
 ## Examenfocus
 
@@ -315,7 +297,6 @@ Twee denkpatronen keren terug. Eén: nooit op één feit beslissen — de plicht
 > Antwoord … / 4 punten
 >
 > _Thema's: consolidatie_
-
 
 ## Competentie-index
 

@@ -36,11 +36,9 @@
 {% for concept_id in hoofdstuk.concepten %}
 {% if concepten_dict[concept_id] is defined %}
 {% set rec = concepten_dict[concept_id] %}
-**[[{{ concept_id }}|{{ rec.naam }}]]**: {{ (rec.definitie or rec.main_rule or rec.verplichting or rec.doel or {}).text | default('') | truncate(200) }}
-
+- [[{{ concept_id }}|{{ rec.naam }}]] · `{{ rec.node_type }}`
 {% else %}
-**[[{{ concept_id }}]]** — record niet gevonden
-
+- [[{{ concept_id }}]] — record niet gevonden
 {% endif %}
 {% endfor %}
 
