@@ -26,7 +26,7 @@ gegenereerd_op: '2026-05-16'
 > [!summary] Korte inhoud
 > De jaarrekening wordt opgemaakt in de **veronderstelling dat de onderneming haar bedrijf zal voortzetten** (going concern).
 
-> [!info] Behoort tot: [[boekhoudkundige-beginselen]]
+> [!info] Behoort tot: [[boekhoudbeginselen-overzicht]]
 
 De jaarrekening wordt opgemaakt in de **veronderstelling dat de onderneming haar bedrijf zal voortzetten** (going concern). Dat is de standaardpremisse voor alle waarderingen: vaste activa worden afgeschreven over hun gebruiksduur, voorraden tegen aanschaffingswaarde, vorderingen tegen verwachte realisatiewaarde. Als die veronderstelling niet langer geldt (vereffening, stopzetting), gelden **bijzondere waarderingsregels**: vaste activa naar liquidatiewaarde, voorzieningen voor herstructureringskosten, etc.
 

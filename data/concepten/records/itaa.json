@@ -65,7 +65,7 @@
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "itaa-normen",
+      "target": "itaa",
       "redenering": "ITAA publiceert beroepsnormen die aan de leden gelden.",
       "confidence": "inferred"
     }

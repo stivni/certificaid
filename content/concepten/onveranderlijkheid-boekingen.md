@@ -26,7 +26,7 @@ gegenereerd_op: '2026-05-16'
 > [!summary] Korte inhoud
 > Een boeking mag **na inschrijving niet onzichtbaar gewijzigd, weggelaten of toegevoegd** worden.
 
-> [!info] Behoort tot: [[boekhoudkundige-beginselen]] · [[regelmatige-boekhouding]]
+> [!info] Behoort tot: [[boekhoudbeginselen-overzicht]] · [[regelmatige-boekhouding]]
 
 Een boeking mag **na inschrijving niet onzichtbaar gewijzigd, weggelaten of toegevoegd** worden. Wijzigingen zijn wel toegelaten, maar moeten **duidelijk leesbaar blijven** — het oorspronkelijke geschrevene én de correctie moeten allebei zichtbaar zijn. Hetzelfde geldt voor jaarrekening- en inventarisgegevens (WER art. III.84 jo. CBN 174/1).
 

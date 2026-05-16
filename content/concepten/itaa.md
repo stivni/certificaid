@@ -56,7 +56,7 @@ _Grondslag: Wet 17 maart 2019 + ITAA-normen_
 
 ## Zie ook
 
-- **Vereist kennis van**: [[itaa-normen]]
+- **Vereist kennis van**: [[itaa]]
 
 ## Bronnen
 

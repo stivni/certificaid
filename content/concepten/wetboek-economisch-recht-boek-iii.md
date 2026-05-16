@@ -86,7 +86,7 @@ _Grondslag: WER Boek III + WVV Boek 3_
 ## Zie ook
 
 - **Vereist kennis van**: [[boekhoudplichtige-onderneming]]
-- **Getriggerd door**: [[dubbele-boekhouding]]
+- **Getriggerd door**: [[dubbel-boekhouden]]
 
 ## Bronnen
 

@@ -111,7 +111,7 @@
     },
     {
       "type": "getriggerd-door",
-      "target": "dubbele-boekhouding",
+      "target": "dubbel-boekhouden",
       "redenering": "WER art. III.83 verplicht dubbel boekhouden voor de meeste ondernemingen.",
       "confidence": "inferred"
     }

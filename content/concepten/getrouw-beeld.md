@@ -25,7 +25,7 @@ gegenereerd_op: '2026-05-16'
 > [!summary] Korte inhoud
 > De jaarrekening moet **een getrouw beeld** geven van het vermogen, de financiële positie en het resultaat van de onderneming (Richtlijn 2013/34/EU art. 4, lid 3; KB 21/10/2018 art. 3:1).
 
-> [!info] Behoort tot: [[boekhoudkundige-beginselen]]
+> [!info] Behoort tot: [[boekhoudbeginselen-overzicht]]
 
 De jaarrekening moet **een getrouw beeld** geven van het vermogen, de financiële positie en het resultaat van de onderneming (Richtlijn 2013/34/EU art. 4, lid 3; KB 21/10/2018 art. 3:1). Als de toepassing van de waarderingsregels in een uitzonderlijk geval geen getrouw beeld geeft, **moet** ervan worden afgeweken — met motivering in de toelichting. Het getrouw beeld is de uiteindelijke toets bovenop alle andere beginselen.
 

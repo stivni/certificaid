@@ -27,7 +27,7 @@ gegenereerd_op: '2026-05-16'
 > [!summary] Korte inhoud
 > Bij waardering moet de onderneming **oprecht, voorzichtig en te goeder trouw** te werk gaan.
 
-> [!info] Behoort tot: [[boekhoudkundige-beginselen]]
+> [!info] Behoort tot: [[boekhoudbeginselen-overzicht]]
 
 Bij waardering moet de onderneming **oprecht, voorzichtig en te goeder trouw** te werk gaan. Concreet: opbrengsten boek je pas als ze **zeker** zijn (realisatie); kosten en risico's boek je al wanneer ze **waarschijnlijk of zelfs alleen mogelijk** zijn (voorzichtigheid). Verliezen die op balansdatum bekend zijn, worden meegenomen, ook als ze pas na balansdatum maar vóór goedkeuring zichtbaar worden. Stille meerwaarden (latente winsten) worden NIET geboekt.
 

@@ -94,7 +94,7 @@
     }
   ],
   "edges": [
-    {"type": "bevat", "target": "deelneming", "redenering": "Deelnemingen zijn de hoofdcategorie binnen FVA."},
+    {"type": "bevat", "target": "financiele-vaste-activa", "redenering": "Deelnemingen zijn de hoofdcategorie binnen FVA."},
     {"type": "vergelijkt-met", "target": "geldbelegging", "redenering": "Klassieke examenkeuze: vast vs vlottend op basis van oogmerk."}
   ]
 }

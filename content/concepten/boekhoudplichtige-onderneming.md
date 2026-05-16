@@ -73,7 +73,7 @@ _Grondslag: WER art. III.82, § 3; CBN-advies 2022/14_
 ## Zie ook
 
 - **Getriggerd door**: [[wetboek-economisch-recht-boek-iii]]
-- **Vereist kennis van**: [[dubbele-boekhouding]]
+- **Vereist kennis van**: [[dubbel-boekhouden]]
 
 ## Bronnen
 

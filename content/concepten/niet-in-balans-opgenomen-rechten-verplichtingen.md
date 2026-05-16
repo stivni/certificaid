@@ -90,7 +90,7 @@ _Grondslag: CBN-2017/07 §niet-limitativiteit_
 > Als een verplichting belangrijk is maar moeilijk in een bedrag uit te drukken (hangend geschil met onzekere afloop), wordt ze 'op passende wijze' beschreven in de toelichting — bv. door aard, partijen, mogelijke gevolgen. ⚖️
 
 
-> [!info]- Niet verwarren met [[voorzieningen-voor-risicos-en-kosten]]
+> [!info]- Niet verwarren met [[voorzieningen]]
 > Een voorziening is een geboekte schatting van een waarschijnlijk verlies — die staat WEL op de balans. Een niet-balansverplichting is doorgaans onzekerder of niet-becijferbaar — die staat NIET op de balans maar in de toelichting.
 >
 > _Trigger_: Examenvraag 'voorziening of niet in balans?': becijferbaar + waarschijnlijk = voorziening (balans); onzeker of onbecijferbaar = niet in balans (toelichting).

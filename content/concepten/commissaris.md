@@ -88,7 +88,7 @@ _Grondslag: WVV art. 3:73 + Wet 7 december 2016_
 > Wie een commissarisverslag wil inkijken → NBB-Balanscentrale, zelfde pagina als de jaarrekening.
 
 
-> [!info]- Niet verwarren met [[accountant-itaa]]
+> [!info]- Niet verwarren met [[itaa]]
 > Commissaris = wettelijke controle van jaarrekening grote/PIE-vennootschappen; revisor bij IBR; benoemd door AV. Accountant (ITAA) = adviserend + (gecertificeerd) ook contractuele KMO-controles; ITAA-lid; contractueel ingehuurd. Een vennootschap kan beide hebben — commissaris controleert achteraf, accountant helpt vooraf met boekhouding.
 >
 > _Trigger_: Wettelijke controle grote NV → commissaris. KMO-boekhouding en advies → accountant.

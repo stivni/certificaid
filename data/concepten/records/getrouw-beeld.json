@@ -153,7 +153,7 @@
   "edges": [
     {
       "type": "onderdeel-van",
-      "target": "boekhoudkundige-beginselen",
+      "target": "boekhoudbeginselen-overzicht",
       "redenering": "Getrouw beeld is het overkoepelend doel van alle boekhoudkundige beginselen."
     },
     {

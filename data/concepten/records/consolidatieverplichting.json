@@ -163,7 +163,7 @@
   "edges": [
     {
       "type": "contrasteert-met",
-      "target": "groottecriteria",
+      "target": "groottecriteria-jaarrekening",
       "redenering": "Consolidatieverplichting = de juridische plicht tot opmaak/controle/publicatie. Groottecriteria = de kwantitatieve drempels (omzet, balanstotaal, personeel) waaraan de vrijstelling voor groepen van beperkte omvang gekoppeld is. Eerste is het 'of'; tweede is het 'mogelijk niet'.",
       "_corrected_from": [{"field": "type", "from": "vergelijkingsparen → edges", "reason": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."}],
       "_provenance": {"inputs": [{"id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1"}]}

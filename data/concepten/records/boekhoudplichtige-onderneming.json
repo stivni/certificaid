@@ -88,7 +88,7 @@
     },
     {
       "type": "vereist-kennis-van",
-      "target": "dubbele-boekhouding",
+      "target": "dubbel-boekhouden",
       "redenering": "Een boekhoudplichtige onderneming voert ofwel dubbele ofwel vereenvoudigde boekhouding.",
       "confidence": "inferred"
     }

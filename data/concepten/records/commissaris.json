@@ -101,7 +101,7 @@
   ],
   "vergelijkingsparen": [
     {
-      "vergelijking_met": "accountant-itaa",
+      "vergelijking_met": "itaa",
       "verschil": "Commissaris = wettelijke controle van jaarrekening grote/PIE-vennootschappen; revisor bij IBR; benoemd door AV. Accountant (ITAA) = adviserend + (gecertificeerd) ook contractuele KMO-controles; ITAA-lid; contractueel ingehuurd. Een vennootschap kan beide hebben — commissaris controleert achteraf, accountant helpt vooraf met boekhouding.",
       "trigger": "Wettelijke controle grote NV → commissaris. KMO-boekhouding en advies → accountant.",
       "_provenance": {"inputs": [

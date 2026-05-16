@@ -181,7 +181,7 @@
   ],
   "vergelijkingsparen": [
     {
-      "vergelijking_met": "voorzieningen-voor-risicos-en-kosten",
+      "vergelijking_met": "voorzieningen",
       "verschil": "Een voorziening is een geboekte schatting van een waarschijnlijk verlies — die staat WEL op de balans. Een niet-balansverplichting is doorgaans onzekerder of niet-becijferbaar — die staat NIET op de balans maar in de toelichting.",
       "trigger": "Examenvraag 'voorziening of niet in balans?': becijferbaar + waarschijnlijk = voorziening (balans); onzeker of onbecijferbaar = niet in balans (toelichting).",
       "_provenance": {
