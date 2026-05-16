@@ -24,6 +24,7 @@ gegenereerd_op: '2026-05-16'
 > De geconsolideerde jaarrekening voorstellen alsof het geheel van de consoliderende vennootschap en haar exclusief gecontroleerde dochterondernemingen één enkele economische entiteit vormt.
 
 > [!info] Behoort tot: [[consolidatieverschil]] · [[minderheidsbelangen]] · [[consolidatiemethodes-vergelijking]]
+
 De geconsolideerde jaarrekening voorstellen alsof het geheel van de consoliderende vennootschap en haar exclusief gecontroleerde dochterondernemingen één enkele economische entiteit vormt. De activa, passiva, rechten, verplichtingen, opbrengsten en kosten van de moeder en van haar exclusief gecontroleerde dochters worden integraal opgenomen (voor 100 %); het deel dat toebehoort aan derden (minderheidsaandeelhouders) wordt afzonderlijk gepresenteerd in 'Belangen van derden' (balans) en 'Aandeel van derden in het resultaat' (resultatenrekening).
 
 _Bron: KB WVV art. 3:123 jo. art. 3:124, 1°_
@@ -311,9 +312,9 @@ Resultaat: In de geconsolideerde balans staan de € 3.000.000 activa en € 1.0
 
 > [!tip]- Wanneer toepassen
 > Integrale consolidatie is verplicht voor exclusief gecontroleerde dochters die in de consolidatiekring zitten (KB WVV art. 3:124, 1°). Bij consortium-leden is integrale consolidatie ook van toepassing op de leden zelf (samenlezing WVV art. 3:24 en KB WVV art. 3:124, 1°). ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > Stemrechten > 50 % → integraal (tenzij uitgesloten of in feite-controle die het getrouwe beeld zou aantasten).
+
+> [!tip]- Herkennen op het examen
+> Stemrechten > 50 % → integraal (tenzij uitgesloten of in feite-controle die het getrouwe beeld zou aantasten).
 
 <h3 id="eigen-aandelen-van-de-consoliderende-vennootschap">Eigen aandelen van de consoliderende vennootschap</h3>
 

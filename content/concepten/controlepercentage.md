@@ -145,9 +145,9 @@ Resultaat: Aurelia Holding NV controleert Drukkerij Dendermonde exclusief (via B
 
 > [!tip]- Onderscheid met belangenpercentage
 > Controlepercentage meet macht (stemrechten); belangenpercentage meet eigendom (kapitaal en winstrecht). Beide kunnen uiteenlopen bij bijzondere structuren: preferente aandelen, certificering, stemrechtloze aandelen. In de keten Aurelia → 80 % Brugse → 60 % Drukkerij Dendermonde is het controlepercentage van Aurelia in Drukkerij Dendermonde nog steeds 60 % (zolang Brugse exclusief gecontroleerd wordt), terwijl het belangenpercentage 80 % × 60 % = 48 % is. 🤖
->
-> > [!tip]- Herkennen op het examen
-> > Tabelopgave 'X % van A en A heeft Y % van B' — controle: niet vermenigvuldigen zolang elke schakel exclusief gecontroleerd wordt; belang: wél vermenigvuldigen.
+
+> [!tip]- Herkennen op het examen
+> Tabelopgave 'X % van A en A heeft Y % van B' — controle: niet vermenigvuldigen zolang elke schakel exclusief gecontroleerd wordt; belang: wél vermenigvuldigen.
 
 <h3 id="beoordelen-van-consolidatieverplichting">Beoordelen van consolidatieverplichting</h3>
 

@@ -24,6 +24,7 @@ gegenereerd_op: '2026-05-16'
 > De macht om deel te nemen aan de financiële en operationele beleidsbeslissingen van een andere onderneming, zonder die beslissingen alleen of samen met anderen te kunnen sturen.
 
 > [!info] Specialisatie van: [[controle]]
+
 De macht om deel te nemen aan de financiële en operationele beleidsbeslissingen van een andere onderneming, zonder die beslissingen alleen of samen met anderen te kunnen sturen. Invloed van betekenis is het kwalificerende criterium voor een 'geassocieerde onderneming' (WVV art. 1:22): de moeder heeft een deelneming en spreekt mee over het beleid, maar oefent geen controle uit. Vanaf 20 % stemrechten geldt een weerlegbaar vermoeden van invloed van betekenis.
 
 _Bron: WVV art. 1:22 (geassocieerde vennootschap)_
@@ -35,9 +36,9 @@ _Bron: WVV art. 1:22 (geassocieerde vennootschap)_
 
 > [!tip]- Herkenning bij step-acquisitions
 > Step-acquisitions doen zich voor wanneer de deelneming in een geassocieerde stapsgewijs verhoogt. Drie kantelpunten: (a) van geen participatie → naar invloed van betekenis (vermogensmutatie start); (b) van invloed van betekenis → naar controle (overgang naar integrale consolidatie); (c) verhoging binnen invloed-van-betekenis (geen verandering van kwalificatie, alleen pro-rata-aanpassing). ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > Examen-zin 'Antwerpse Investments NV verwerft eerst 25 % en daarna nog eens 35 % in Drukkerij Dendermonde BV': twee opeenvolgende kwalificaties; de tweede stap (totaal 60 %) triggert de overgang naar integrale consolidatie.
+
+> [!tip]- Herkennen op het examen
+> Examen-zin 'Antwerpse Investments NV verwerft eerst 25 % en daarna nog eens 35 % in Drukkerij Dendermonde BV': twee opeenvolgende kwalificaties; de tweede stap (totaal 60 %) triggert de overgang naar integrale consolidatie.
 
 <h3 id="gevolg-voor-consolidatiemethode">Gevolg voor consolidatiemethode</h3>
 

@@ -38,9 +38,9 @@ _Bron: CBN 2017/02 — Gezamenlijke controle_
 
 > [!tip]- Consolidatietechniek
 > Standaard: evenredige consolidatie — Cardinal Group neemt 50 % van de activa, passiva, opbrengsten en kosten van Filmstudio Florence op (KB WVV art. 3:140); Energiehuis Evergem doet hetzelfde voor zijn 50 %. Belangen van derden komen niet apart voor (anders dan bij integrale consolidatie). Uitzondering: vermogensmutatie wanneer Filmstudio niet nauw met het bedrijf van Cardinal of Energiehuis Evergem is geïntegreerd. ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > Twee aandeelhouders elk 50 % met aandeelhoudersovereenkomst → gemeenschappelijke dochter → typisch evenredige consolidatie 50/50.
+
+> [!tip]- Herkennen op het examen
+> Twee aandeelhouders elk 50 % met aandeelhoudersovereenkomst → gemeenschappelijke dochter → typisch evenredige consolidatie 50/50.
 
 
 ## Voorwaarden / uitzonderingen

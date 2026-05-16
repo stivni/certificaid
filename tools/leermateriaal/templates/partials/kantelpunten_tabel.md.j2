@@ -1,0 +1,29 @@
+{% if kantelpunten %}
+## Kantelpunten
+
+| Van | → | Naar | Gevolg | Drempel |
+|---|---|---|---|---|
+{% for kp in kantelpunten %}
+| {{ kp.van_situatie }} | → | {{ kp.naar_situatie }} | {{ kp.gevolg | truncate(120, True, '…') }} | {{ kp.drempel | truncate(80, True, '…') }} |
+{% endfor %}
+
+{% for kp in kantelpunten %}
+> [!example]- Kantelpunt {{ loop.index }} — {{ kp.van_situatie }} → {{ kp.naar_situatie }}
+> **Gevolg**: {{ kp.gevolg }} {{ kp.confidence | default('inferred') | confidence_label }}
+>
+> **Drempel**: {{ kp.drempel }}
+{% if kp.grondslag %}
+>
+> **Grondslag**: {{ kp.grondslag }}
+{% endif %}
+{% if kp.voorbeeld_inline %}
+>
+> **Voorbeeld**: {{ kp.voorbeeld_inline }}
+{% endif %}
+{% if kp.source is defined and kp.source %}
+>
+> _Bron: {{ kp.source.short }}_
+{% endif %}
+
+{% endfor %}
+{% endif %}

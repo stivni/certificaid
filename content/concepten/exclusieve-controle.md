@@ -24,6 +24,7 @@ gegenereerd_op: '2026-05-16'
 > De controle die één vennootschap alleen uitoefent over een andere — niet samen met andere vennoten.
 
 > [!info] Specialisatie van: [[controle]]
+
 De controle die één vennootschap alleen uitoefent over een andere — niet samen met andere vennoten. Exclusieve controle is onweerlegbaar wanneer een vennootschap (rechtstreeks of via dochters) meer dan de helft van de stemrechten in de andere vennootschap bezit, of het recht heeft om de meerderheid van de bestuurders te benoemen of te ontslaan.
 
 _Bron: WVV art. 1:14, § 2 jo. art. 1:16_
@@ -35,33 +36,33 @@ _Bron: WVV art. 1:14, § 2 jo. art. 1:16_
 
 > [!tip]- Gevolg voor consolidatiemethode
 > Exclusieve controle leidt verplicht tot integrale consolidatie van de dochter (KB WVV art. 3:124, 1°). Activa, schulden, opbrengsten en kosten komen voor 100 % in de geconsolideerde jaarrekening; het deel dat aan derden-aandeelhouders toebehoort wordt apart getoond als belangen van derden. ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > Examen-zin: 'Aurelia Holding NV bezit 80 % van de stemrechten van Brugse Brouwerij BV' → exclusieve controle in rechte → Aurelia consolideert Brugse integraal.
+
+> [!tip]- Herkennen op het examen
+> Examen-zin: 'Aurelia Holding NV bezit 80 % van de stemrechten van Brugse Brouwerij BV' → exclusieve controle in rechte → Aurelia consolideert Brugse integraal.
 
 <h3 id="onderscheid-controle-in-rechte-vs-controle-in-feite">Onderscheid controle in rechte vs. controle in feite</h3>
 
 > [!tip]- Onderscheid controle in rechte vs. controle in feite
 > Controle in rechte = onweerlegbaar juridisch vermoeden, op basis van een meerderheid van de stemrechten of een statutair/contractueel recht om de meerderheid van de bestuurders te benoemen of te ontslaan. Controle in feite = afgeleid uit echte stem- en benoemingspatronen, zonder dat een onweerlegbaar criterium vervuld is. Examen-relevant: een opgave die zwijgt over een formele meerderheid maar zegt dat 'Aurelia tijdens de laatste twee algemene vergaderingen telkens al haar bestuurders heeft kunnen aanstellen' wijst op controle in feite — niet op gezamenlijke controle (die vereist een overeenkomst, zie CBN 2017/02). 🤖
->
-> > [!tip]- Herkennen op het examen
-> > Geen formele >50 %-meerderheid maar dominante invloed op besluitvorming → toets controle in feite (KB WVV art. 3:98 jo. WVV art. 1:14, § 2).
+
+> [!tip]- Herkennen op het examen
+> Geen formele >50 %-meerderheid maar dominante invloed op besluitvorming → toets controle in feite (KB WVV art. 3:98 jo. WVV art. 1:14, § 2).
 
 <h3 id="uitsluiting-uit-consolidatie-ondanks-exclusieve-controle">Uitsluiting uit consolidatie ondanks exclusieve controle</h3>
 
 > [!tip]- Uitsluiting uit consolidatie ondanks exclusieve controle
 > Heeft een vennootschap controle in feite over een dochter, maar zou opname in de integrale consolidatie het getrouwe beeld verstoren (KB WVV art. 3:105), dan blijft die dochter buiten de consolidatie (KB WVV art. 3:98). De motivering komt in de toelichting. Volgens CBN 2013/3 en CBN 2022/11 wordt zo'n dochter dan opgenomen via de vermogensmutatiemethode. Exclusieve controle in feite leidt dus niet altijd tot integrale consolidatie. ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > Controle in feite + getrouw beeld in gedrang → uitsluiting (KB WVV art. 3:98) + vermogensmutatie (CBN 2013/3, CBN 2022/11) + motivering in de toelichting.
+
+> [!tip]- Herkennen op het examen
+> Controle in feite + getrouw beeld in gedrang → uitsluiting (KB WVV art. 3:98) + vermogensmutatie (CBN 2013/3, CBN 2022/11) + motivering in de toelichting.
 
 <h3 id="effect-op-de-groottecriteria-van-de-moeder">Effect op de groottecriteria van de moeder</h3>
 
 > [!tip]- Effect op de groottecriteria van de moeder
 > Zodra je exclusieve controle vaststelt, kwalificeert de controlerende vennootschap als moeder (KB WVV art. 3:96 jo. art. 3:124, 1°). De groottecriteria van WVV art. 1:24 toets je dan op geconsolideerde basis (of geaggregeerde basis +20 %) — niet enkelvoudig. Ook een vennootschap die alleen via een gemeenschappelijke dochter (gezamenlijke controle) moeder is en verder geen exclusieve controle uitoefent, toetst op geconsolideerde basis (CBN 2017/02 voorbeeld 2). Bij twijfel: stel eerst vast welk type controle aanwezig is. ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > Exclusieve controle vastgesteld → moeder → groottecriteria op geconsolideerde of geaggregeerde basis (niet enkelvoudig).
+
+> [!tip]- Herkennen op het examen
+> Exclusieve controle vastgesteld → moeder → groottecriteria op geconsolideerde of geaggregeerde basis (niet enkelvoudig).
 
 
 ## Drempelwaarden

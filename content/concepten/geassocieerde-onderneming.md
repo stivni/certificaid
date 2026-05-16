@@ -24,6 +24,7 @@ gegenereerd_op: '2026-05-16'
 > Een onderneming waarop een andere onderneming een invloed van betekenis heeft — maar niet voldoende om er controle over uit te oefenen.
 
 > [!info] Behoort tot: [[consolidatiekring]]
+
 Een onderneming waarop een andere onderneming een invloed van betekenis heeft — maar niet voldoende om er controle over uit te oefenen. De geassocieerde is dus geen dochter en geen gemeenschappelijke dochter. Vermoeden: zodra de moeder 20 % of meer van de stemrechten houdt, wordt invloed van betekenis weerlegbaar vermoed.
 
 _Bron: WVV art. 1:22_
@@ -35,9 +36,9 @@ _Bron: WVV art. 1:22_
 
 > [!tip]- Opname in de geconsolideerde jaarrekening
 > Een deelneming in een geassocieerde onderneming waardeer je via de vermogensmutatiemethode (KB WVV art. 3:142). Je begint met de aankoopprijs van de aandelen en vervangt die door jouw pro-rata aandeel in het eigen vermogen van de geassocieerde. Elk jaar verhoog of verlaag je dat bedrag met jouw aandeel in het resultaat (het deel dat als dividend wordt uitgekeerd haal je eraf). Op de balans verschijnt het in een aparte rubriek 'Vennootschappen waarop vermogensmutatie is toegepast' (KB WVV art. 3:141). ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > Deelneming 20–50 % zonder controle of stemovereenkomst → standaard 'geassocieerde onderneming' → vermogensmutatie.
+
+> [!tip]- Herkennen op het examen
+> Deelneming 20–50 % zonder controle of stemovereenkomst → standaard 'geassocieerde onderneming' → vermogensmutatie.
 
 <h3 id="wijzigingen-binnen-eigen-vermogen-van-de-geassocieerde">Wijzigingen binnen eigen vermogen van de geassocieerde</h3>
 

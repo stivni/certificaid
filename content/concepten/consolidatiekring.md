@@ -30,6 +30,7 @@ _Bron: KB WVV art. 3:96 (algemeen)_
 
 
 > [!info] Uitzondering op: [[integrale-consolidatie]]
+
 ## Bouwstenen
 
 ### Hoofdregel — moeder plus alle dochters ⚖️
@@ -79,9 +80,9 @@ _Grondslag: KB WVV art. 3:100_
 
 > [!tip]- Verenigingen en stichtingen
 > Sinds het WVV kunnen verenigingen en stichtingen met een commerciële, financiële of industriële activiteit niet meer ongegrond uit de consolidatiekring worden gehouden. Ze tellen als dochteronderneming (WVV art. 3:22) zodra een vennootschap er controle over heeft. ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > Vereniging die actief commercieel handelt en gecontroleerd wordt door een vennootschap → behoort tot de consolidatiekring van die vennootschap.
+
+> [!tip]- Herkennen op het examen
+> Vereniging die actief commercieel handelt en gecontroleerd wordt door een vennootschap → behoort tot de consolidatiekring van die vennootschap.
 
 <h3 id="aandelen-aangehouden-met-het-oog-op-wederverkoop">Aandelen aangehouden met het oog op wederverkoop</h3>
 

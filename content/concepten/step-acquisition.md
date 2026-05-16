@@ -23,6 +23,7 @@ gegenereerd_op: '2026-05-16'
 > Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt — met als gevolg dat (a) een eerste deelneming met invloed van betekenis ontstaat of (b) een bestaande geassocieerde wordt opgeschaald, al dan niet tot dochter.
 
 > [!info] Specialisatie van: [[wijziging-consolidatiekring]]
+
 Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt — met als gevolg dat (a) een eerste deelneming met invloed van betekenis ontstaat of (b) een bestaande geassocieerde wordt opgeschaald, al dan niet tot dochter. Bij elke trap controleer je of de kwalificatie verandert (geen invloed → invloed van betekenis → controle). Verandert ze, dan schakelt ook de consolidatietechniek (van geen consolidatie naar vermogensmutatie, of van vermogensmutatie naar integrale of evenredige consolidatie).
 
 _Bron: CBN 2013/3 — De boekhoudkundige verwerking van step acquisitions (update)_
@@ -67,9 +68,51 @@ _Grondslag: CBN 2013/3_
 
 > [!tip]- Kantelpunten detecteren
 > Bij elke trap controleer je éérst of de kwalificatie verandert. De drie typische kantelpunten staan gestructureerd in het top-level veld `kantelpunten[]` (van_situatie → naar_situatie + drempel + gevolg + grondslag). Bij elk kantelpunt schakelt mogelijk de consolidatietechniek. ⚖️
+
+> [!tip]- Herkennen op het examen
+> Examen-zin 'Antwerpse Investments NV koopt eerst 25 %, daarna 35 % bij': twee opeenvolgende kwalificaties — eerst vermogensmutatie (25 %), daarna integrale consolidatie (totaal 60 %). Het is geen één continue boekhoudkundige rekening, maar twee afzonderlijke regimes.
+
+
+## Kantelpunten
+
+| Van | → | Naar | Gevolg | Drempel |
+|---|---|---|---|---|
+| Geen participatie | → | Invloed van betekenis | Eerste consolidatie via vermogensmutatiemethode start; deelneming wordt op vermogensmutatie-basis gewaardeerd en het ee… | ≥ 20 % stemrechten (vermoeden, Koninklijk Besluit Wetboek van vennootschappen e… |
+| Invloed van betekenis | → | Exclusieve controle | Overgang van vermogensmutatie naar integrale consolidatie; voor de bijkomende tranche wordt een nieuw consolidatieversc… | > 50 % stemrechten (vermoeden, KB WVV art. 1:14) of controle in feite |
+| Invloed van betekenis | → | Invloed van betekenis (verhoogd belang) | Geen kwalificatiewijziging — de geassocieerde blijft geassocieerd. Alleen pro-rata-aanpassing in vermogensmutatie: de p… | Geen drempel — het belangenpercentage stijgt binnen het invloed-van-betekenis-b… |
+
+> [!example]- Kantelpunt 1 — Geen participatie → Invloed van betekenis
+> **Gevolg**: Eerste consolidatie via vermogensmutatiemethode start; deelneming wordt op vermogensmutatie-basis gewaardeerd en het eerste consolidatieverschil wordt berekend op aanschaffingsdatum. ⚖️
 >
-> > [!tip]- Herkennen op het examen
-> > Examen-zin 'Antwerpse Investments NV koopt eerst 25 %, daarna 35 % bij': twee opeenvolgende kwalificaties — eerst vermogensmutatie (25 %), daarna integrale consolidatie (totaal 60 %). Het is geen één continue boekhoudkundige rekening, maar twee afzonderlijke regimes.
+> **Drempel**: ≥ 20 % stemrechten (vermoeden, Koninklijk Besluit Wetboek van vennootschappen en verenigingen (KB WVV) art. 1:22) of feitelijke invloed bij lager percentage
+>
+> **Grondslag**: [[invloed-van-betekenis]], [[vermogensmutatiemethode]], [[eerste-consolidatie]]
+>
+> **Voorbeeld**: Antwerpse Investments NV koopt in 20X1 25 % in Drukkerij Dendermonde BV voor € 350.000 (geen eerdere participatie). Eigen vermogen (EV) Drukkerij = € 1.250.000 → pro-rata aandeel = € 312.500; consolidatieverschil = € 37.500.
+>
+> _Bron: CBN 2013/3_
+
+> [!example]- Kantelpunt 2 — Invloed van betekenis → Exclusieve controle
+> **Gevolg**: Overgang van vermogensmutatie naar integrale consolidatie; voor de bijkomende tranche wordt een nieuw consolidatieverschil berekend op de datum waarop controle is verworven. Activa en schulden van de nieuwe dochter komen voor 100 % in de geconsolideerde balans (met derden-aandeel apart). ⚖️
+>
+> **Drempel**: > 50 % stemrechten (vermoeden, KB WVV art. 1:14) of controle in feite
+>
+> **Grondslag**: [[controle]], [[integrale-consolidatie]], [[consolidatieverschil]]
+>
+> **Voorbeeld**: Antwerpse bezit 25 % in Drukkerij (vermogensmutatie). In 20X3 koopt Antwerpse 35 % bij voor € 700.000 → totaal 60 % → exclusieve controle → integrale consolidatie. Nieuw consolidatieverschil wordt berekend op het bijkomende belang.
+>
+> _Bron: CBN 2013/3_
+
+> [!example]- Kantelpunt 3 — Invloed van betekenis → Invloed van betekenis (verhoogd belang)
+> **Gevolg**: Geen kwalificatiewijziging — de geassocieerde blijft geassocieerd. Alleen pro-rata-aanpassing in vermogensmutatie: de post 'Vennootschappen waarop vermogensmutatie is toegepast' wordt verhoogd; eventueel extra consolidatieverschil op de bijkomende tranche. ⚖️
+>
+> **Drempel**: Geen drempel — het belangenpercentage stijgt binnen het invloed-van-betekenis-bereik (typisch 20–50 %)
+>
+> **Grondslag**: [[vermogensmutatiemethode]]
+>
+> **Voorbeeld**: Antwerpse bezit 25 % in Drukkerij Dendermonde en koopt 5 % bij voor € 75.000 → nu 30 %, nog steeds geassocieerd → 'Vennootschappen waarop vermogensmutatie is toegepast' wordt verhoogd met het pro-rata bedrag + eventueel consolidatieverschil op de bijkomende 5 %.
+>
+> _Bron: CBN 2013/3_
 
 
 ## Valkuilen

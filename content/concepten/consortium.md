@@ -34,9 +34,9 @@ _Bron: CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)_
 
 > [!tip]- Bewijsregels voor centrale leiding
 > Twee gevallen waarin centrale leiding vermoed wordt: (a) onweerlegbaar wanneer dezelfde personen de meerderheid uitmaken van het bestuursorgaan van beide vennootschappen; (b) weerlegbaar wanneer dezelfde persoon (natuurlijke persoon of bv. een private stichting) de meerderheid van de aandelen of stemrechten houdt. Onweerlegbaar = je hoeft niets meer te bewijzen; weerlegbaar = er kan tegenbewijs komen. ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > Examen-zin 'Het bestuursorgaan van Industria Antwerpen NV en Jachthaven Jezus-Eik NV bestaat voor de meerderheid uit dezelfde natuurlijke personen' → onweerlegbaar consortium-vermoeden.
+
+> [!tip]- Herkennen op het examen
+> Examen-zin 'Het bestuursorgaan van Industria Antwerpen NV en Jachthaven Jezus-Eik NV bestaat voor de meerderheid uit dezelfde natuurlijke personen' → onweerlegbaar consortium-vermoeden.
 
 <h3 id="consolidatietechniek">Consolidatietechniek</h3>
 

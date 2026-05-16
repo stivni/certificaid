@@ -26,6 +26,7 @@ gegenereerd_op: '2026-05-16'
 > Een vennootschap die controle uitoefent over een andere vennootschap (de dochter).
 
 > [!info] Behoort tot: [[consolidatiekring]]
+
 Een vennootschap die controle uitoefent over een andere vennootschap (de dochter). De moeder is in principe verplicht om een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te stellen, te laten controleren door de commissaris en te publiceren, zodra ze — alleen of samen met anderen — minstens één dochter controleert.
 
 _Bron: WVV art. 1:15, 1° jo. art. 3:22_
@@ -37,9 +38,9 @@ _Bron: WVV art. 1:15, 1° jo. art. 3:22_
 
 > [!tip]- Onderscheid moeder versus moeder-die-effectief-consolideert
 > Elke moeder is in beginsel consolidatieplichtig, maar niet elke moeder consolideert effectief. Zo kan een tussenliggende moeder vrijgesteld zijn van subconsolidatie wanneer haar eigen moeder hogerop al consolideert (en aan de voorwaarden voldoet). 'Moeder die consolideert' is dus een rol binnen één concrete oefening; 'moeder' tout court is een juridisch statuut. Voorbeeld-keten: Kappers Köln GmbH (top-moeder) → Aurelia Holding NV (tussen-moeder) → Brugse Brouwerij BV. Zowel Kappers als Aurelia zijn moeder; alleen Kappers consolideert effectief (Aurelia geniet vrijstelling subconsolidatie). 🤖
->
-> > [!tip]- Herkennen op het examen
-> > Bij een groepsketen: identificeer eerst alle moeder-relaties; bepaal pas daarna wie effectief moet consolideren.
+
+> [!tip]- Herkennen op het examen
+> Bij een groepsketen: identificeer eerst alle moeder-relaties; bepaal pas daarna wie effectief moet consolideren.
 
 
 ## Voorwaarden / uitzonderingen

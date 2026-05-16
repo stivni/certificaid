@@ -60,17 +60,17 @@ _Grondslag: KB WVV art. 3:98_
 
 > [!tip]- Hoe lees je 'controle' in een examenopgave
 > De controlevraag staat los van het belangenpercentage (kapitaal). Bij een stemrechtmeerderheid (> 50 %) is er onweerlegbaar exclusieve controle in rechte. Bij ≤ 50 % stemrechten kan er nog controle in feite zijn (twee-vergaderingen-test) of gezamenlijke controle (op grond van een aandeelhoudersovereenkomst). 🤖
->
-> > [!tip]- Herkennen op het examen
-> > Opgave 'Aurelia Holding NV bezit 40 % van Brugse Brouwerij BV' zonder mention van stemovereenkomsten → meestal geen controle → vermogensmutatie of geen consolidatie, geen integrale consolidatie.
+
+> [!tip]- Herkennen op het examen
+> Opgave 'Aurelia Holding NV bezit 40 % van Brugse Brouwerij BV' zonder mention van stemovereenkomsten → meestal geen controle → vermogensmutatie of geen consolidatie, geen integrale consolidatie.
 
 <h3 id="gevolg-voor-consolidatiemethode">Gevolg voor consolidatiemethode</h3>
 
 > [!tip]- Gevolg voor consolidatiemethode
 > Exclusieve controle → integrale consolidatie. Gezamenlijke controle (gemeenschappelijke dochter) → in regel evenredige consolidatie, of vermogensmutatie als het bedrijf niet nauw met de groep is geïntegreerd. Invloed van betekenis (geassocieerde onderneming, geen controle) → vermogensmutatiemethode. 🤖
->
-> > [!tip]- Herkennen op het examen
-> > De controle-vraag bepaalt de keuze tussen drie consolidatietechnieken; niet het kale percentage.
+
+> [!tip]- Herkennen op het examen
+> De controle-vraag bepaalt de keuze tussen drie consolidatietechnieken; niet het kale percentage.
 
 
 > [!info]- Niet verwarren met [[invloed-van-betekenis]]

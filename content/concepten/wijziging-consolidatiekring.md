@@ -76,9 +76,9 @@ _Grondslag: CBN 2017/15_
 
 > [!tip]- Vergelijkbaarheid van de cijfers
 > Wijzigingen in de consolidatiekring tasten de vergelijkbaarheid tussen het lopende en het vorige boekjaar aan. Zijn de bedragen van het vorige boekjaar niet meer vergelijkbaar, dan moet de toelichting voldoende informatie geven om alsnog een zinvolle vergelijking te maken (KB WVV art. 3:152). ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > In een examen-toelichting staat vaak expliciet 'de cijfers van het vorige boekjaar zijn aangepast ingevolge de wijziging van de consolidatiekring'.
+
+> [!tip]- Herkennen op het examen
+> In een examen-toelichting staat vaak expliciet 'de cijfers van het vorige boekjaar zijn aangepast ingevolge de wijziging van de consolidatiekring'.
 
 <h3 id="datum-bepaling-ev-bij-eerste-consolidatie">Datum bepaling EV bij eerste consolidatie</h3>
 

@@ -24,6 +24,7 @@ gegenereerd_op: '2026-05-16'
 > Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke gezamenlijk controlerende moeder op naar rato van haar aandeel in het kapitaal (of in de inbreng bij vennootschappen zonder kapitaal).
 
 > [!info] Behoort tot: [[consolidatiemethodes-vergelijking]]
+
 Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke gezamenlijk controlerende moeder op naar rato van haar aandeel in het kapitaal (of in de inbreng bij vennootschappen zonder kapitaal). Alleen jouw pro-rata stuk van de bezittingen, schulden, opbrengsten en kosten komt erin — geen afzonderlijke 'belangen van derden' nodig, want het deel buiten de groep wordt simpelweg niet opgenomen.
 
 _Bron: KB WVV art. 3:124, 2° jo. art. 3:140_
@@ -237,9 +238,9 @@ Resultaat: In de geconsolideerde balans van Cardinal verschijnen € 2.750.000 a
 
 > [!tip]- Wanneer toepassen
 > Standaard voor gemeenschappelijke dochters bij gezamenlijke controle. Uitzondering: gemeenschappelijke dochters die niet nauw geïntegreerd zijn in de activiteit van de moeder mogen via vermogensmutatie worden verwerkt (CBN 2013/3). ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > Gezamenlijke controle (overeenkomst, vetorecht) + integratie → evenredige consolidatie.
+
+> [!tip]- Herkennen op het examen
+> Gezamenlijke controle (overeenkomst, vetorecht) + integratie → evenredige consolidatie.
 
 
 ## Voorwaarden / uitzonderingen

@@ -3,14 +3,14 @@
 
 > [!tip]- {{ blok.aspect }}
 > {{ blok.betekenis }} {{ blok.confidence | default('inferred') | confidence_label }}
-{% if blok.herkenningspunt %}
->
-> > [!tip]- Herkennen op het examen
-> > {{ blok.herkenningspunt }}
-{% endif %}
 {% if blok.wereld_voorbeeld %}
 >
 > **Voorbeeld**: {{ blok.wereld_voorbeeld }}
 {% endif %}
 
+{% if blok.herkenningspunt %}
+> [!tip]- Herkennen op het examen
+> {{ blok.herkenningspunt }}
+
+{% endif %}
 {% endfor %}

@@ -26,6 +26,7 @@ gegenereerd_op: '2026-05-16'
 > Een vennootschap waarover een andere vennootschap (de moeder) controle uitoefent.
 
 > [!info] Behoort tot: [[consolidatiekring]]
+
 Een vennootschap waarover een andere vennootschap (de moeder) controle uitoefent. In het WVV is 'dochteronderneming' ruimer dan 'dochtervennootschap': het omvat ook elke instelling naar Belgisch of buitenlands recht — al dan niet openbaar, met of zonder winstoogmerk — zolang ze een commerciële, financiële of industriële activiteit uitoefent. Daardoor kunnen ook verenigingen en stichtingen tot de consolidatiekring horen, op voorwaarde dat een vennootschap er controle over heeft.
 
 _Bron: WVV art. 1:15, 2° jo. art. 3:22_
@@ -37,9 +38,9 @@ _Bron: WVV art. 1:15, 2° jo. art. 3:22_
 
 > [!tip]- Soorten dochterondernemingen voor consolidatiedoeleinden
 > (a) Onder exclusieve controle → integrale consolidatie (KB WVV art. 3:124, 1°). Bv. Aurelia Holding NV heeft 80 % stemrechten in Brugse Brouwerij BV. (b) Onder gezamenlijke controle (gemeenschappelijke dochter) → in principe evenredige consolidatie (KB WVV art. 3:124, 2° jo. 3:140); vermogensmutatie als de dochter niet nauw met de groep is geïntegreerd. Bv. Cardinal Group NV en Energiehuis Evergem NV controleren Filmstudio Florence BV elk voor 50 %. (c) Onder enkel controle in feite, waarvan opname het getrouwe beeld zou verstoren → buiten de consolidatie + opname via vermogensmutatie (KB WVV art. 3:98 jo. art. 3:100). ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > De keuze van de consolidatietechniek hangt af van het type controle (exclusief, gezamenlijk, in feite), niet van een vast percentage.
+
+> [!tip]- Herkennen op het examen
+> De keuze van de consolidatietechniek hangt af van het type controle (exclusief, gezamenlijk, in feite), niet van een vast percentage.
 
 <h3 id="uitsluitingsgronden-uit-de-consolidatie-kb-wvv-art-3-97">Uitsluitingsgronden uit de consolidatie (KB WVV art. 3:97)</h3>
 

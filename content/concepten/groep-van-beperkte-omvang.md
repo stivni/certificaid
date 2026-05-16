@@ -28,6 +28,7 @@ _Bron: WVV art. 1:26, § 1_
 
 
 > [!info] Uitzondering op: [[consolidatieverplichting]]
+
 ## In de praktijk
 
 <h3 id="twee-berekeningsmethoden">Twee berekeningsmethoden</h3>

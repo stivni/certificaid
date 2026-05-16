@@ -33,9 +33,9 @@ _Bron: WVV art. 1:26 jo. art. 1:24_
 
 > [!tip]- Twee berekeningsmethoden
 > Methode 1 — geconsolideerde basis: pas de KB WVV-consolidatieregels echt toe (integrale consolidatie voor exclusieve dochters; evenredige consolidatie of vermogensmutatie voor gemeenschappelijke dochters en deelnemingen). Methode 2 — geaggregeerde basis: tel de bedragen van alle verbonden vennootschappen samen, met de drempels +20 %. ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > De keuze tussen beide methodes ligt bij de vennootschap. Methode 2 spaart je een echte consolidatie-oefening uit zolang je alleen de groottetoets wil doen.
+
+> [!tip]- Herkennen op het examen
+> De keuze tussen beide methodes ligt bij de vennootschap. Methode 2 spaart je een echte consolidatie-oefening uit zolang je alleen de groottetoets wil doen.
 
 <h3 id="beoordeling-op-geconsolideerde-basis-verplichte-consolidatie">Beoordeling op geconsolideerde basis ≠ verplichte consolidatie</h3>
 

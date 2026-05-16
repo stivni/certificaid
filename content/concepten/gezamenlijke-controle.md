@@ -24,6 +24,7 @@ gegenereerd_op: '2026-05-16'
 > De controle die een beperkt aantal vennoten samen uitoefenen, op grond van een overeenkomst dat beleidsbeslissingen alleen met hun gemeenschappelijke instemming kunnen worden genomen.
 
 > [!info] Specialisatie van: [[controle]]
+
 De controle die een beperkt aantal vennoten samen uitoefenen, op grond van een overeenkomst dat beleidsbeslissingen alleen met hun gemeenschappelijke instemming kunnen worden genomen. De vennootschap die het voorwerp is van die gezamenlijke controle heet een gemeenschappelijke dochter. Onweerlegbaar vermoeden: elk van de vennoten die de gezamenlijke controle uitoefent wordt wettelijk geacht controle te hebben over de gemeenschappelijke dochter.
 
 _Bron: CBN 2017/02 — Gezamenlijke controle (groottecriteria-update)_
@@ -35,9 +36,9 @@ _Bron: CBN 2017/02 — Gezamenlijke controle (groottecriteria-update)_
 
 > [!tip]- Gevolg voor consolidatie
 > Standaard wordt de gemeenschappelijke dochter evenredig (pro-rata) geconsolideerd: Cardinal Group en Energiehuis Evergem nemen elk 50 % van de bezittingen, schulden, opbrengsten en kosten van Filmstudio Florence op (KB WVV art. 3:140). Uitzondering: als het bedrijf van Filmstudio Florence niet nauw geïntegreerd is in dat van de moeders, mag in plaats daarvan de vermogensmutatiemethode worden toegepast. ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > Twee vennootschappen elk 50 % met aandeelhoudersovereenkomst over beleid → gezamenlijke controle → evenredige consolidatie.
+
+> [!tip]- Herkennen op het examen
+> Twee vennootschappen elk 50 % met aandeelhoudersovereenkomst over beleid → gezamenlijke controle → evenredige consolidatie.
 
 <h3 id="onweerlegbaar-vermoeden-van-individuele-controle">Onweerlegbaar vermoeden van individuele controle</h3>
 

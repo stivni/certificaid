@@ -25,6 +25,7 @@ gegenereerd_op: '2026-05-16'
 > Het moment waarop een nieuw verworven dochter (of een dochter die je voor het eerst gaat consolideren) voor het eerst in de geconsolideerde jaarrekening wordt opgenomen.
 
 > [!info] Behoort tot: [[integrale-consolidatie]] · Specialisatie van: [[wijziging-consolidatiekring]]
+
 Het moment waarop een nieuw verworven dochter (of een dochter die je voor het eerst gaat consolideren) voor het eerst in de geconsolideerde jaarrekening wordt opgenomen. Op dat ogenblik vergelijk je wat je voor de aandelen betaalde met jouw pro-rata aandeel in het eigen vermogen van de dochter op de datum van aankoop. Het verschil reken je zoveel mogelijk toe aan onder- of overgewaardeerde bezittingen en schulden van de dochter; het residu boek je als 'Consolidatieverschillen' — positief aan actiefzijde, negatief aan passiefzijde.
 
 _Bron: KB WVV art. 3:127, a) jo. art. 3:129 — 3:130_

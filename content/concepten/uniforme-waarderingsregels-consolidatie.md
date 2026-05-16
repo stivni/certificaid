@@ -24,21 +24,23 @@ gegenereerd_op: '2026-05-16'
 > Voor haar geconsolideerde jaarrekening past de moeder dezelfde waarderingsregels toe als voor haar enkelvoudige jaarrekening (onverminderd KB WVV art.
 
 > [!info] Behoort tot: [[geconsolideerde-jaarrekening]]
+
 Voor haar geconsolideerde jaarrekening past de moeder dezelfde waarderingsregels toe als voor haar enkelvoudige jaarrekening (onverminderd KB WVV art. 3:118). In uitzonderingsgevallen mag je afwijken, op voorwaarde dat de gehanteerde regels nog steeds met het wettelijk kader stroken; afwijkingen motiveer je in de toelichting. De waarderingsregels moeten van jaar tot jaar identiek blijven en stelselmatig worden toegepast.
 
 _Bron: KB WVV art. 3:116 jo. art. 3:117_
 
 
 > [!info] Uitzondering op: [[geconsolideerde-jaarrekening]]
+
 ## In de praktijk
 
 <h3 id="afstemming-bij-consortium-leden">Afstemming bij consortium-leden</h3>
 
 > [!tip]- Afstemming bij consortium-leden
 > Bij een consortium (zoals Industria Antwerpen NV + Jachthaven Jezus-Eik NV) stem je vóór de horizontale consolidatie de waarderingsregels van de leden op elkaar af. Verschillende leden hanteren mogelijk verschillende afschrijvingsregimes of voorraadwaarderingen — die werk je via aanpassingsboekingen om naar één set (CBN 2022/09 — stap 1). ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > Examen-stappenplan consortium-consolidatie: stap 1 = waarderingsregels uniformeren.
+
+> [!tip]- Herkennen op het examen
+> Examen-stappenplan consortium-consolidatie: stap 1 = waarderingsregels uniformeren.
 
 <h3 id="afstemming-bij-buitenlandse-dochters">Afstemming bij buitenlandse dochters</h3>
 

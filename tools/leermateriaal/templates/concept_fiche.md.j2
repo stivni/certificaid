@@ -15,6 +15,7 @@
 {% if edges_onderdeel_van or edges_specialisatie_van %}
 > [!info] {% if edges_onderdeel_van %}Behoort tot: {% for e in edges_onderdeel_van %}[[{{ e.target }}]]{% if not loop.last %} · {% endif %}{% endfor %}{% endif %}{% if edges_onderdeel_van and edges_specialisatie_van %} · {% endif %}{% if edges_specialisatie_van %}Specialisatie van: {% for e in edges_specialisatie_van %}[[{{ e.target }}]]{% if not loop.last %} · {% endif %}{% endfor %}{% endif %}
 
+
 {% endif %}
 {% if hoofdveld %}
 {% if hoofdveld is mapping and hoofdveld.text %}
@@ -36,6 +37,7 @@ _Bron: {{ hoofdveld.source.short }}_
 {% set edges_uitzondering_op = edges | selectattr('type', 'equalto', 'uitzondering-op') | list %}
 {% if edges_uitzondering_op %}
 > [!info] Uitzondering op: {% for e in edges_uitzondering_op %}[[{{ e.target }}]]{% if not loop.last %} · {% endif %}{% endfor %}
+
 
 {% endif %}
 {% if record.node_type == 'synthese' %}
@@ -125,6 +127,11 @@ _Bron: {{ hoofdveld.source.short }}_
 {% for stap in record.stappen %}
 {% include 'partials/stap.md.j2' %}
 {% endfor %}
+
+{% endif %}
+{% if record.kantelpunten %}
+{% set kantelpunten = record.kantelpunten %}
+{% include 'partials/kantelpunten_tabel.md.j2' %}
 
 {% endif %}
 {% if record.vergelijkingsparen %}

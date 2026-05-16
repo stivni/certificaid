@@ -25,6 +25,7 @@ gegenereerd_op: '2026-05-16'
 > De consolidatietechniek die je toepast wanneer vennootschappen onder gemeenschappelijke leiding staan zonder dat één rechtspersoon de andere controleert — een consortium.
 
 > [!info] Behoort tot: [[consortium]] · [[consolidatiemethodes-vergelijking]]
+
 De consolidatietechniek die je toepast wanneer vennootschappen onder gemeenschappelijke leiding staan zonder dat één rechtspersoon de andere controleert — een consortium. De leden van het consortium en hun eigen dochters worden via integrale consolidatie samengevoegd (KB WVV art. 3:124, 1° jo. WVV art. 3:24). De posten van het eigen vermogen blijven per lid zichtbaar (beschikbare/onbeschikbare reserves behouden hun karakter — WVV art. 3:30, § 2).
 
 _Bron: CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)_
@@ -36,9 +37,9 @@ _Bron: CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)_
 
 > [!tip]- Voorrang van verticale consolidatie
 > Het begrip 'consortium' is uitgesloten zodra twee of meer vennootschappen al in een verticale moeder-dochter-relatie staan met elkaar of met een gemeenschappelijke moeder. Zo voorkomt de wet dat dezelfde groep zowel verticaal als horizontaal wordt opgesteld. Eerst de verticale check, dan eventueel horizontaal. ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > Examen-zin 'Aurelia is dochter van Antwerpse én partner in consortium met Cardinal' → geen consortium — gewoon verticale consolidatie Aurelia+Antwerpse; Cardinal apart.
+
+> [!tip]- Herkennen op het examen
+> Examen-zin 'Aurelia is dochter van Antwerpse én partner in consortium met Cardinal' → geen consortium — gewoon verticale consolidatie Aurelia+Antwerpse; Cardinal apart.
 
 <h3 id="geen-moeder-gezamenlijke-verantwoordelijkheid">Geen moeder, gezamenlijke verantwoordelijkheid</h3>
 

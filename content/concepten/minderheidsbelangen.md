@@ -24,6 +24,7 @@ gegenereerd_op: '2026-05-16'
 > Het deel van het eigen vermogen en van het resultaat van een integraal geconsolideerde dochter dat toebehoort aan andere aandeelhouders dan de moeder of de andere dochters in de consolidatiekring.
 
 > [!info] Behoort tot: [[integrale-consolidatie]]
+
 Het deel van het eigen vermogen en van het resultaat van een integraal geconsolideerde dochter dat toebehoort aan andere aandeelhouders dan de moeder of de andere dochters in de consolidatiekring. Op de geconsolideerde balans verschijnt dat als 'Belangen van derden' aan passiefzijde; in de geconsolideerde resultatenrekening als 'Aandeel van derden in het resultaat'. Dit fenomeen ontstaat enkel bij integrale consolidatie van een dochter waarvan de moeder minder dan 100 % bezit.
 
 _Bron: KB WVV art. 3:137 (resultaat); art. 3:130 (herberekening)_
@@ -214,9 +215,9 @@ Resultaat: In de geconsolideerde balans: 'Belangen van derden' = 100 (passiefzij
 
 > [!tip]- Enkel bij integrale consolidatie
 > Minderheidsbelangen verschijnen alleen bij integrale consolidatie (waarbij 100 % van de dochter wordt opgenomen). Bij evenredige consolidatie wordt het derden-deel gewoon niet opgenomen → geen aparte derden-post nodig. Bij vermogensmutatie zit alleen het pro-rata aandeel van de moeder in de balans → ook geen derden-post. ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > Examen: zie je een post 'Belangen van derden' op een geconsolideerde balans? → integrale consolidatie. Geen 'Belangen van derden' → evenredige consolidatie of vermogensmutatie.
+
+> [!tip]- Herkennen op het examen
+> Examen: zie je een post 'Belangen van derden' op een geconsolideerde balans? → integrale consolidatie. Geen 'Belangen van derden' → evenredige consolidatie of vermogensmutatie.
 
 <h3 id="negatief-aandeel-van-derden">Negatief aandeel van derden</h3>
 

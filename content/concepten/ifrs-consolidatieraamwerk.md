@@ -58,9 +58,9 @@ _Grondslag: KB WVV art. 3:104, § 2_
 
 > [!tip]- Verschillen met Belgisch boekhoudrecht — overzichtsniveau
 > De volledige tekst van IFRS 3, 10, 11 en 12 is niet in de huidige Certificaid-corpus opgenomen. Op overzichtsniveau zijn deze verschillen examen-relevant: (a) IFRS 10 definieert controle ruimer dan WVV art. 1:14, op basis van 'power, exposure to variable returns en de mogelijkheid om die returns te beïnvloeden' — minder mechanisch dan de stemrechtentests; (b) IFRS 11 schaft evenredige consolidatie af voor 'joint ventures' (enkel vermogensmutatie), maar behoudt ze voor 'joint operations'; (c) IFRS 3 vereist 'full goodwill'-meting (volledige reële waarde van de overname); negatieve goodwill (bargain purchase) wordt onmiddellijk in resultaat geboekt — anders dan onder BEGAAP; (d) IFRS 12 vereist uitgebreide informatieverschaffing over alle deelnemingen. 🤖
->
-> > [!tip]- Herkennen op het examen
-> > Bij een examenvraag over IFRS-consolidatie: ga eerst na of het over een genoteerde groep gaat (verplicht IFRS) of over een vrijwillige IFRS-keuze; verifieer dat een specifieke regel uit het Cijferzakboekje of uit aangereikte tekst komt — er worden geen geheugenvragen over IFRS-paragraafnummers verwacht.
+
+> [!tip]- Herkennen op het examen
+> Bij een examenvraag over IFRS-consolidatie: ga eerst na of het over een genoteerde groep gaat (verplicht IFRS) of over een vrijwillige IFRS-keuze; verifieer dat een specifieke regel uit het Cijferzakboekje of uit aangereikte tekst komt — er worden geen geheugenvragen over IFRS-paragraafnummers verwacht.
 
 <h3 id="toepasselijkheid-op-consortium">Toepasselijkheid op consortium</h3>
 

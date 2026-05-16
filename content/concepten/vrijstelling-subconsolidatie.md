@@ -29,15 +29,16 @@ _Bron: CBN 2012/12_
 
 
 > [!info] Uitzondering op: [[consolidatieverplichting]]
+
 ## In de praktijk
 
 <h3 id="interpretatie-een-van-de-vennootschappen-die-moeten-worden-geconsolideerd">Interpretatie 'één van de vennootschappen die moeten worden geconsolideerd'</h3>
 
 > [!tip]- Interpretatie 'één van de vennootschappen die moeten worden geconsolideerd'
 > Volgens CBN 2012/12 gaat het hierbij om de vennootschap die zich op de vrijstelling beroept (de submoeder) én haar dochters — niet om de hogere moeder. Concreet: ook al is Kappers Köln GmbH genoteerd, dan blijft Aurelia Holding NV vrijgesteld van subconsolidatie zolang Aurelia zelf en de dochters van Aurelia (Brugse Brouwerij BV) niet genoteerd zijn. De notering hogerop is niet doorslaggevend. ⚖️
->
-> > [!tip]- Herkennen op het examen
-> > De vraag 'is er iemand genoteerd in de keten?' beperk je tot de submoeder en haar dochters, niet tot de moeders erbóven.
+
+> [!tip]- Herkennen op het examen
+> De vraag 'is er iemand genoteerd in de keten?' beperk je tot de submoeder en haar dochters, niet tot de moeders erbóven.
 
 <h3 id="gevolgen-voor-maatschap-structuren">Gevolgen voor maatschap-structuren</h3>
 

@@ -24,6 +24,7 @@ gegenereerd_op: '2026-05-16'
 > Het deel van het kapitaal (en dus van het winstrecht) dat een moeder in een dochter of geassocieerde onderneming bezit.
 
 > [!info] Behoort tot: [[minderheidsbelangen]]
+
 Het deel van het kapitaal (en dus van het winstrecht) dat een moeder in een dochter of geassocieerde onderneming bezit. Bij een keten van vennootschappen wordt het belangenpercentage van schakel tot schakel vermenigvuldigd. Het belangenpercentage bepaalt welk stuk van het eigen vermogen en het resultaat van die andere onderneming aan de moeder mag worden toegerekend; het complement (1 − belangenpercentage) is het aandeel van derden bij integrale consolidatie.
 
 _Bron: KB WVV art. 3:137 (toepassing aandeel van derden)_
@@ -167,9 +168,9 @@ Resultaat: Aurelia Holding NV heeft een economisch belang van 48 % in B. Het aan
 
 > [!tip]- Berekening in ketenstructuur
 > Belangenpercentages vermenigvuldigen zich langs een keten. Voorbeeld: Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV, en Brugse Brouwerij BV bezit 60 % van Drukkerij Dendermonde BV → belang van Aurelia in Drukkerij Dendermonde = 0,80 × 0,60 = 48 %. 🤖
->
-> > [!tip]- Herkennen op het examen
-> > Examen-tabel 'X % van A, A heeft Y % van B' → belangenpercentage van X in B = X % × Y %.
+
+> [!tip]- Herkennen op het examen
+> Examen-tabel 'X % van A, A heeft Y % van B' → belangenpercentage van X in B = X % × Y %.
 
 <h3 id="bepaling-aandeel-van-derden-bij-integrale-consolidatie">Bepaling aandeel van derden bij integrale consolidatie</h3>
 
