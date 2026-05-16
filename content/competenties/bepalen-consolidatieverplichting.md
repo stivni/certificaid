@@ -230,7 +230,7 @@ Stel de eindconclusie op voor de cliënt op basis van stappen 1 tot 5.
 
 ## Gebaseerd op concepten
 
-[[consolidatieverplichting]] · [[moedervennootschap]] · [[controle]] · [[consortium]] · [[vrijstelling-subconsolidatie]] · [[groottecriteria-consolidatie]] · [[groep-van-beperkte-omvang]] · 
+[[consolidatieverplichting]] · [[moedervennootschap]] · [[controle]] · [[consortium]] · [[vrijstelling-subconsolidatie]] · [[groottecriteria-consolidatie]] · [[groep-van-beperkte-omvang]]
 ## Voortkomend uit
 
 - **Taken**: 1.4.taak.1

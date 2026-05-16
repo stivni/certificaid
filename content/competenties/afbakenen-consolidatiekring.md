@@ -183,7 +183,7 @@ Lijst de geassocieerde ondernemingen (invloed van betekenis) en de gemeenschappe
 
 ## Gebaseerd op concepten
 
-[[consolidatiekring]] · [[dochteronderneming]] · [[moedervennootschap]] · [[controle]] · [[geassocieerde-onderneming]] · [[gemeenschappelijke-dochteronderneming]] · 
+[[consolidatiekring]] · [[dochteronderneming]] · [[moedervennootschap]] · [[controle]] · [[geassocieerde-onderneming]] · [[gemeenschappelijke-dochteronderneming]]
 ## Voortkomend uit
 
 - **Taken**: 1.4.taak.1

@@ -235,7 +235,7 @@ Bij interne herstructurering waarbij de economische controle ongewijzigd blijft:
 
 ## Gebaseerd op concepten
 
-[[wijziging-consolidatiekring]] · [[eerste-consolidatie]] · [[step-acquisition]] · [[consolidatieverschil]] · [[vermogensmutatiemethode]] · [[integrale-consolidatie]] · 
+[[wijziging-consolidatiekring]] · [[eerste-consolidatie]] · [[step-acquisition]] · [[consolidatieverschil]] · [[vermogensmutatiemethode]] · [[integrale-consolidatie]]
 ## Voortkomend uit
 
 - **Taken**: 1.4.taak.1

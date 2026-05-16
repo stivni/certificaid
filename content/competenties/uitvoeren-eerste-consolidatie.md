@@ -255,7 +255,7 @@ Voer de gekozen consolidatietechniek uit op de geherwaardeerde cijfers van de do
 
 ## Gebaseerd op concepten
 
-[[eerste-consolidatie]] · [[consolidatieverschil]] · [[integrale-consolidatie]] · [[vermogensmutatiemethode]] · [[belangenpercentage]] · 
+[[eerste-consolidatie]] · [[consolidatieverschil]] · [[integrale-consolidatie]] · [[vermogensmutatiemethode]] · [[belangenpercentage]]
 ## Voortkomend uit
 
 - **Taken**: 1.4.taak.1

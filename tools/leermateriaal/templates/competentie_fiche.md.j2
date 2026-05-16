@@ -30,8 +30,7 @@
 
 ## Gebaseerd op concepten
 
-{% for concept_id in competentie.gebaseerd_op_concepten %}
-[[{{ concept_id }}]] · {% endfor %}
+{% for concept_id in competentie.gebaseerd_op_concepten %}[[{{ concept_id }}]]{% if not loop.last %} · {% endif %}{% endfor %}
 
 ## Voortkomend uit
 

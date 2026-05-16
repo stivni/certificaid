@@ -202,7 +202,7 @@ Stel de finale kwalificatie van de relatie op basis van stappen 2-4.
 
 ## Gebaseerd op concepten
 
-[[controle]] · [[exclusieve-controle]] · [[gezamenlijke-controle]] · [[invloed-van-betekenis]] · [[dochteronderneming]] · [[geassocieerde-onderneming]] · [[gemeenschappelijke-dochteronderneming]] · 
+[[controle]] · [[exclusieve-controle]] · [[gezamenlijke-controle]] · [[invloed-van-betekenis]] · [[dochteronderneming]] · [[geassocieerde-onderneming]] · [[gemeenschappelijke-dochteronderneming]]
 ## Voortkomend uit
 
 - **Taken**: 1.4.taak.1

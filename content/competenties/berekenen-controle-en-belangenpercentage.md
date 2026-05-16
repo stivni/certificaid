@@ -190,7 +190,7 @@ Gebruik het belangenpercentage als rekenmaatstaf voor de bedragen in de geconsol
 
 ## Gebaseerd op concepten
 
-[[controlepercentage]] · [[belangenpercentage]] · [[exclusieve-controle]] · [[controle]] · 
+[[controlepercentage]] · [[belangenpercentage]] · [[exclusieve-controle]] · [[controle]]
 ## Voortkomend uit
 
 - **Taken**: 1.4.taak.1

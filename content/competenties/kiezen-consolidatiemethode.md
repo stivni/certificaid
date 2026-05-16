@@ -181,7 +181,7 @@ Bij een consortium: voer eerst per lid een verticale consolidatie uit, dan integ
 
 ## Gebaseerd op concepten
 
-[[integrale-consolidatie]] · [[evenredige-consolidatie]] · [[vermogensmutatiemethode]] · [[horizontale-consolidatie]] · [[dochteronderneming]] · [[gemeenschappelijke-dochteronderneming]] · [[geassocieerde-onderneming]] · [[consortium]] · 
+[[integrale-consolidatie]] · [[evenredige-consolidatie]] · [[vermogensmutatiemethode]] · [[horizontale-consolidatie]] · [[dochteronderneming]] · [[gemeenschappelijke-dochteronderneming]] · [[geassocieerde-onderneming]] · [[consortium]]
 ## Voortkomend uit
 
 - **Taken**: 1.4.taak.1

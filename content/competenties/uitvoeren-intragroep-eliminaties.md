@@ -300,7 +300,7 @@ Verwijder weggelaten rechten en verplichtingen uit de toelichting bij de geconso
 
 ## Gebaseerd op concepten
 
-[[intragroep-eliminaties]] · [[minderheidsbelangen]] · [[integrale-consolidatie]] · [[evenredige-consolidatie]] · [[belangenpercentage]] · 
+[[intragroep-eliminaties]] · [[minderheidsbelangen]] · [[integrale-consolidatie]] · [[evenredige-consolidatie]] · [[belangenpercentage]]
 ## Voortkomend uit
 
 - **Taken**: 1.4.taak.1

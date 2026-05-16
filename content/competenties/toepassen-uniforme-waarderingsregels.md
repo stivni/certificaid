@@ -190,7 +190,7 @@ Verifieer dat de waarderingsregels identiek zijn aan die van het vorige geconsol
 
 ## Gebaseerd op concepten
 
-[[uniforme-waarderingsregels-consolidatie]] · [[geconsolideerde-jaarrekening]] · [[integrale-consolidatie]] · 
+[[uniforme-waarderingsregels-consolidatie]] · [[geconsolideerde-jaarrekening]] · [[integrale-consolidatie]]
 ## Voortkomend uit
 
 - **Taken**: 1.4.taak.1
