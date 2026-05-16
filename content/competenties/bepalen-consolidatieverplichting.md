@@ -128,7 +128,7 @@ Bereken de geconsolideerde of geaggregeerde cijfers en toets aan de drempelwaard
 5. Overschreden ten hoogste één criterium? → groep van beperkte omvang, vrijgesteld (tenzij beursnotering, zie [[groep-van-beperkte-omvang]] §uitzondering-notering).
 
 
-> [!example]- Voorbeeld: Aurelia Holding NV consolideert met haar dochter Gent Garantie BV
+> [!example]- Voorbeeld: Aurelia Holding NV consolideert met haar dochter Gent Garantie BV. Geaggregeerde cijfers: omzet 20 mln EUR, balanstotaal…
 > Aurelia Holding NV consolideert met haar dochter Gent Garantie BV. Geaggregeerde cijfers: omzet 20 mln EUR, balanstotaal 12 mln EUR, jaargemiddelde werknemers 180.
 >
 > 1. **Toets aan drempels groep van beperkte omvang** 🧮
@@ -213,7 +213,7 @@ Stel de eindconclusie op voor de cliënt op basis van stappen 1 tot 5.
 
 ## Voorbeelden
 
-> [!example]- Aurelia Holding NV bezit 90 % van de stemrechten in Brugse Brouwerij BV
+> [!example]- Aurelia Holding NV bezit 90 % van de stemrechten in Brugse Brouwerij BV. Brugse oefent een industriële activiteit uit
 > **Conclusie**: Aurelia is consolidatieplichtig: zij is moeder met exclusieve controle in rechte over Brugse Brouwerij BV.
 >
 > **Grondslag**: [[moedervennootschap]] §controlebevoegdheid; [[exclusieve-controle]] §onweerlegbaar-vermoeden

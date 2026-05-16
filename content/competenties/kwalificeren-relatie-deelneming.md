@@ -126,7 +126,7 @@ Ga na of de moeder zonder controle wel invloed van betekenis uitoefent — weerl
 5. Volg [[invloed-van-betekenis]] §indicatoren voor de toetsing.
 
 
-> [!example]- Voorbeeld: Antwerpse Investments NV verwerft 25 % van Drukkerij Dendermonde BV
+> [!example]- Voorbeeld: Antwerpse Investments NV verwerft 25 % van Drukkerij Dendermonde BV. Drukkerij Dendermonde stelt een vertegenwoordiger v…
 > Antwerpse Investments NV verwerft 25 % van Drukkerij Dendermonde BV. Drukkerij Dendermonde stelt een vertegenwoordiger van Antwerpse aan in haar bestuursorgaan. Antwerpse neemt deel aan strategische beslissingen.
 >
 > 1. **Toets aan 20 %-vermoeden** 🧮
@@ -185,14 +185,14 @@ Stel de finale kwalificatie van de relatie op basis van stappen 2-4.
 
 ## Voorbeelden
 
-> [!example]- Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV
+> [!example]- Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV. Geval 1: zij hebben een aandee…
 > **Conclusie**: Geval 1: gezamenlijke controle → Filmstudio is gemeenschappelijke dochter van Cardinal en Energiehuis. Geval 2: noch Cardinal noch Energiehuis heeft controle. Filmstudio kan kwalificeren als geassocieerde (mits invloed van betekenis bewezen).
 >
 > **Grondslag**: [[gezamenlijke-controle]] §overeenkomst-vereiste; [[geassocieerde-onderneming]] §20-%-vermoeden
 >
 > **Redenering**: De overeenkomst is de wettelijke voorwaarde voor gezamenlijke controle. Zonder overeenkomst kan Filmstudio enkel via vermogensmutatie behandeld worden als invloed van betekenis bewezen is.
 
-> [!example]- Antwerpse Investments NV verwerft 20 % in Drukkerij Dendermonde BV
+> [!example]- Antwerpse Investments NV verwerft 20 % in Drukkerij Dendermonde BV. Drukkerij Dendermonde heeft Antwerpse in haar bestuu…
 > **Conclusie**: Antwerpse heeft invloed van betekenis over Drukkerij Dendermonde. Drukkerij Dendermonde is een geassocieerde onderneming en wordt via vermogensmutatie opgenomen.
 >
 > **Grondslag**: [[invloed-van-betekenis]] §weerlegbaar-vermoeden-vanaf-20-percent; [[geassocieerde-onderneming]] §kwalificatie

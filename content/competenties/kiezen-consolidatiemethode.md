@@ -93,7 +93,7 @@ Wijs evenredige consolidatie toe aan gemeenschappelijke dochters die nauw geïnt
 4. Documenteer in werkpapier waarom integratie wel of niet 'nauw' is.
 
 
-> [!example]- Voorbeeld: Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % in Filmstudio Florence BV
+> [!example]- Voorbeeld: Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % in Filmstudio Florence BV. Filmstudio levert exclusief pos…
 > Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % in Filmstudio Florence BV. Filmstudio levert exclusief postproductie aan beide partners en gebruikt hun gemeenschappelijke ICT-systemen.
 >
 > 1. **Toets nauwe integratie** 💬

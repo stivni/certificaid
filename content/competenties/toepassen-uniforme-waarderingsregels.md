@@ -180,7 +180,7 @@ Verifieer dat de waarderingsregels identiek zijn aan die van het vorige geconsol
 
 ## Voorbeelden
 
-> [!example]- Aurelia Holding NV consolideert dochter Holsters Horst BV
+> [!example]- Aurelia Holding NV consolideert dochter Holsters Horst BV. Holsters past in haar enkelvoudige jaarrekening fiscaal-versn…
 > **Conclusie**: Op consolidatieniveau worden de fiscaal-gedreven afschrijvingen teruggebracht tot het economisch verantwoorde bedrag. Aanpassingsboekingen brengen de afschrijvingsregels in lijn met die van Aurelia.
 >
 > **Grondslag**: [[uniforme-waarderingsregels-consolidatie]] §fiscale-distorsies; KB WVV art. 3:118

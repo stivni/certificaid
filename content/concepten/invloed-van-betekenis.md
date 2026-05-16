@@ -50,8 +50,8 @@ _Bron: WVV art. 1:22 (geassocieerde vennootschap)_
 
 | Naam | Waarde | Eenheid | Gevolg |
 |---|---|---|---|
-| Weerlegbaar vermoeden van invloed van betekenis | ≥ 20 % | deelnemingspercentage in stemrechten | Weerlegbaar vermoeden van invloed van betekenis → kwalificatie als geassocieerde onderneming → vermogensmutatiemethode i… |
-| Bovengrens (overgang naar controle) | > 50 % stemrechten of controle in feite | stemrechten | Boven 50 % stemrechten of bij vastgestelde controle in feite kantelt 'invloed van betekenis' naar 'exclusieve controle'.… |
+| Weerlegbaar vermoeden van invloed van betekenis | ≥ 20 % | deelnemingspercentage in stemrechten | _zie toelichting hieronder_ |
+| Bovengrens (overgang naar controle) | > 50 % stemrechten of controle in feite | stemrechten | _zie toelichting hieronder_ |
 
 > [!info]- Weerlegbaar vermoeden van invloed van betekenis
 > Weerlegbaar vermoeden van invloed van betekenis → kwalificatie als geassocieerde onderneming → vermogensmutatiemethode in de geconsolideerde jaarrekening.

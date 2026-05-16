@@ -20,7 +20,7 @@ gegenereerd_op: '2026-05-16'
 # Groep van beperkte omvang ⚖️
 
 > [!summary] Korte inhoud
-> Een groep die op geconsolideerde of geaggregeerde basis hoogstens één van de drie criteria van WVV art.
+> Een groep die op geconsolideerde of geaggregeerde basis hoogstens één van de drie criteria van WVV art. 1:26, § 1 overschrijdt: jaaromzet, balanstotaal en jaargemiddelde personeel.
 
 Een groep die op geconsolideerde of geaggregeerde basis hoogstens één van de drie criteria van WVV art. 1:26, § 1 overschrijdt: jaaromzet, balanstotaal en jaargemiddelde personeel. Een vennootschap die deel uitmaakt van een groep van beperkte omvang is in principe vrijgesteld van de plicht om een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te stellen.
 
@@ -46,7 +46,7 @@ _Bron: WVV art. 1:26, § 1_
 
 | Naam | Waarde | Eenheid | Gevolg |
 |---|---|---|---|
-| Drempels groep van beperkte omvang (KB WVV art. 1:26 — geaggregeerde basis +20 %) | Maximaal 1 van 3 drempels overschreden | criteria | Wordt aan deze test voldaan, dan is de moeder vrijgesteld van het opstellen van een geconsolideerde jaarrekening en een… |
+| Drempels groep van beperkte omvang (KB WVV art. 1:26 — geaggregeerde basis +20 %) | Maximaal 1 van 3 drempels overschreden | criteria | _zie toelichting hieronder_ |
 
 > [!info]- Drempels groep van beperkte omvang (KB WVV art. 1:26 — geaggregeerde basis +20 %)
 > Wordt aan deze test voldaan, dan is de moeder vrijgesteld van het opstellen van een geconsolideerde jaarrekening en een geconsolideerd jaarverslag (tenzij de groep een organisatie van openbaar belang of een beursgenoteerde groep bevat).

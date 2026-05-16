@@ -4,7 +4,7 @@
 | Naam | Waarde | Eenheid | Gevolg |
 |---|---|---|---|
 {% for drempel in drempelwaarden %}
-| {{ drempel.naam }} | {{ drempel.waarde }} | {{ drempel.eenheid | default('—') }} | {{ drempel.gevolg | truncate_cel(120, '…') }} |
+| {{ drempel.naam }} | {{ drempel.waarde }} | {{ drempel.eenheid | default('—') }} | {% if drempel.gevolg | length > 120 %}_zie toelichting hieronder_{% else %}{{ drempel.gevolg }}{% endif %} |
 {% endfor %}
 
 {% for drempel in drempelwaarden %}

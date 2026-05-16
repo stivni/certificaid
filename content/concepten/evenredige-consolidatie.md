@@ -170,7 +170,7 @@ Voeg de pro-rata bedragen samen met de overeenkomstige posten van de moeder en v
 4. Belangrijke uitzondering: nog niet met intra-groepselimaties — die volgen in stap 4.
 
 
-> [!example]- Voorbeeld: Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV
+> [!example]- Voorbeeld: Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV. Balans Filmstudio: vaste activ…
 > Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV. Balans Filmstudio: vaste activa € 4.000.000, voorraden € 1.000.000, kas € 500.000; eigen vermogen € 3.000.000, schulden € 2.500.000. Resultaat: omzet € 5.000.000, kosten € 4.000.000, resultaat € 1.000.000.
 >
 > 1. **Pro-rata-percentage voor Cardinal** 🧮

@@ -40,15 +40,27 @@ def _truncate_cel(waarde: str, lengte: int = 120, suffix: str = "…") -> str:
     return tekst[:lengte].rstrip() + suffix
 
 
-_AFKORTING_PUNTEN = re.compile(r"(?:art\.|bv\.|nl\.|i\.e\.|e\.g\.|vs\.|nr\.|art|bv|nl)$", re.IGNORECASE)
+# Afkortingen waarbij de punt GEEN zinsbeëindiging is.
+# Belgisch-juridische context: "art.", "§", "lid", "jo.", "nl.", maar ook
+# bv./vs./nr./e.g./i.e. en hoofdletters-afkortingen van wetboeken.
+_AFKORTING_VOOR_PUNT = {
+    "art", "bv", "nl", "vs", "nr", "ca", "blz", "p", "pp",
+    "jo", "j", "i.e", "e.g", "etc", "incl", "excl",
+    "wvv", "kb", "cbn", "btw", "av", "rv", "rr", "ev", "lid",
+}
+
+
+def _is_afkorting(woord: str) -> bool:
+    """Check of een woord (zonder trailing dot) een bekende niet-zin-eindigende afkorting is."""
+    return woord.lower().lstrip("(") in _AFKORTING_VOOR_PUNT
 
 
 def _eerste_zin(waarde: str, max_lengte: int = 120) -> str:
-    """Extraheer eerste zin uit een tekst — duizendtal-veilig.
+    """Extraheer eerste zin uit een tekst — duizendtal- en afkorting-veilig.
 
-    Splits op zinsbeëindiging (`. ` met spatie, of `. ` aan zinsbreuk) zodat
-    bedragen als `€ 1.600.000` niet midden in het bedrag worden gecapt.
-    Negeert ook standaard-afkortingen die met een punt eindigen.
+    Splits op zinsbeëindiging (`. ` met spatie, gevolgd door hoofdletter of einde)
+    zodat bedragen als `€ 1.600.000` en wetsverwijzingen `WVV art. 1:26` niet
+    midden in het bedrag/wetsartikel worden gecapt.
 
     Args:
         waarde: input-string
@@ -60,12 +72,31 @@ def _eerste_zin(waarde: str, max_lengte: int = 120) -> str:
     tekst = str(waarde).strip()
     if not tekst:
         return ""
-    # Zinsbeëindiging: . of ! of ? gevolgd door spatie of einde-string
-    treffer = re.search(r"[.!?](?:\s|$)", tekst)
-    if treffer:
-        kandidaat = tekst[: treffer.start()].rstrip(".!? \t")
+
+    # Zoek kandidaat-zin-eindes: `. ` of `! ` of `? ` of einde-string
+    # Loop tot we een echte zin-einde vinden (geen afkorting ervoor)
+    pos = 0
+    while pos < len(tekst):
+        treffer = re.search(r"[.!?](\s|$)", tekst[pos:])
+        if not treffer:
+            kandidaat = tekst
+            break
+        eind = pos + treffer.start()
+        # Welk woord staat vóór de punt?
+        woord_match = re.search(r"(\S+)$", tekst[:eind])
+        woord = woord_match.group(1) if woord_match else ""
+        # Echte zin-einde als woord geen afkorting is EN volgende karakter
+        # is einde-string, hoofdletter, of leeg
+        rest = tekst[eind + 1:].lstrip()
+        volgende_is_hoofdletter = bool(rest) and rest[0].isupper()
+        if not _is_afkorting(woord) and (not rest or volgende_is_hoofdletter):
+            kandidaat = tekst[:eind].rstrip(" \t")
+            break
+        # Niet echt einde — kijk verder voorbij deze punt
+        pos = eind + 1
     else:
         kandidaat = tekst
+
     if len(kandidaat) > max_lengte:
         kandidaat = kandidaat[:max_lengte].rstrip() + "…"
     return kandidaat

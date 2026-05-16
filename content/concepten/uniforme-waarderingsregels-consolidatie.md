@@ -21,7 +21,7 @@ gegenereerd_op: '2026-05-16'
 # Uniforme waarderingsregels in de consolidatie ⚖️
 
 > [!summary] Korte inhoud
-> Voor haar geconsolideerde jaarrekening past de moeder dezelfde waarderingsregels toe als voor haar enkelvoudige jaarrekening (onverminderd KB WVV art.
+> Voor haar geconsolideerde jaarrekening past de moeder dezelfde waarderingsregels toe als voor haar enkelvoudige jaarrekening (onverminderd KB WVV art. 3:118).
 
 > [!info] Behoort tot: [[geconsolideerde-jaarrekening]]
 

@@ -60,7 +60,7 @@ Bepaal per dochter het percentage stemrechten dat de moeder direct of indirect v
 4. Pas op: zodra één schakel geen exclusieve controle heeft, breekt de keten — zie [[exclusieve-controle]] §keten-breuk.
 
 
-> [!example]- Voorbeeld: Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV
+> [!example]- Voorbeeld: Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV. Brugse bezit 60 % stemrechten in Cardinal Group NV
 > Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV. Brugse bezit 60 % stemrechten in Cardinal Group NV. In elke schakel: exclusieve controle in rechte.
 >
 > 1. **Schema van de keten** 🌊
@@ -173,14 +173,14 @@ Gebruik het belangenpercentage als rekenmaatstaf voor de bedragen in de geconsol
 
 ## Voorbeelden
 
-> [!example]- Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV
+> [!example]- Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV. Brugse bezit 60 % van Cardinal Group NV
 > **Conclusie**: Controlepercentage Aurelia in Cardinal = 60 % (NIET vermenigvuldigen — elke schakel heeft exclusieve controle). Belangenpercentage Aurelia in Cardinal = 0,80 × 0,60 = 48 %.
 >
 > **Grondslag**: [[controlepercentage]] §keten; [[belangenpercentage]] §keten
 >
 > **Redenering**: Controlepercentage en belangenpercentage volgen verschillende rekenregels. Aurelia consolideert Cardinal integraal omdat zij via Brugse exclusieve controle uitoefent. Het aandeel van derden (52 %) wordt afgezonderd op basis van het belangenpercentage.
 
-> [!example]- Aurelia Holding NV bezit 90 % van Brugse Brouwerij BV
+> [!example]- Aurelia Holding NV bezit 90 % van Brugse Brouwerij BV. Brugse heeft een industriële activiteit
 > **Conclusie**: Belangenpercentage Aurelia in Brugse = 90 %. Aandeel van derden = (1 − 0,90) × 1.000 = 100 (op de balans), en (1 − 0,90) × resultaat Brugse (resultatenrekening).
 >
 > **Grondslag**: [[belangenpercentage]] §berekening-aandeel-van-derden; [[minderheidsbelangen]] §formule

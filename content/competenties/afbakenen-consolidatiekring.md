@@ -173,7 +173,7 @@ Lijst de geassocieerde ondernemingen (invloed van betekenis) en de gemeenschappe
 >
 > **Redenering**: Twee van de vier wettelijke weglatingsgronden zijn van toepassing. Logistics en Gent Garantie verdwijnen niet uit het beeld — zij komen via vermogensmutatie terug.
 
-> [!example]- Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV
+> [!example]- Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV. Een aandeelhoudersovereenkomst…
 > **Conclusie**: Filmstudio Florence BV is een gemeenschappelijke dochter van Cardinal en Energiehuis. Filmstudio wordt evenredig opgenomen in de geconsolideerde jaarrekening van Cardinal én van Energiehuis (elk voor 50 %).
 >
 > **Grondslag**: [[gemeenschappelijke-dochteronderneming]] §gezamenlijke-controle

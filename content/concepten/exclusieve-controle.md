@@ -69,7 +69,7 @@ _Bron: WVV art. 1:14, § 2 jo. art. 1:16_
 
 | Naam | Waarde | Eenheid | Gevolg |
 |---|---|---|---|
-| Onweerlegbaar vermoeden van controle in rechte | > 50 % | stemrechten | Onweerlegbaar vermoeden van exclusieve controle → moeder → integrale consolidatie van de dochter. Bv. Aurelia Holding NV… |
+| Onweerlegbaar vermoeden van controle in rechte | > 50 % | stemrechten | _zie toelichting hieronder_ |
 
 > [!info]- Onweerlegbaar vermoeden van controle in rechte
 > Onweerlegbaar vermoeden van exclusieve controle → moeder → integrale consolidatie van de dochter. Bv. Aurelia Holding NV met 80 % stemrechten in Brugse Brouwerij BV → onweerlegbaar.

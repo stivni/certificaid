@@ -50,8 +50,8 @@ _Bron: WVV art. 1:22_
 
 | Naam | Waarde | Eenheid | Gevolg |
 |---|---|---|---|
-| Weerlegbaar vermoeden invloed van betekenis (= geassocieerde onderneming) | ≥ 20 % | stemrechten | Vermoeden dat de moeder invloed van betekenis heeft op het beleid → kwalificatie als geassocieerde onderneming → opname… |
-| Bovengrens (overgang naar dochter) | > 50 % stemrechten of andere titel van controle | stemrechten | Vanaf controle (in rechte of in feite) is de onderneming geen geassocieerde meer maar een dochter → integrale consolidat… |
+| Weerlegbaar vermoeden invloed van betekenis (= geassocieerde onderneming) | ≥ 20 % | stemrechten | _zie toelichting hieronder_ |
+| Bovengrens (overgang naar dochter) | > 50 % stemrechten of andere titel van controle | stemrechten | _zie toelichting hieronder_ |
 
 > [!info]- Weerlegbaar vermoeden invloed van betekenis (= geassocieerde onderneming)
 > Vermoeden dat de moeder invloed van betekenis heeft op het beleid → kwalificatie als geassocieerde onderneming → opname via vermogensmutatie. Bv. Antwerpse Investments met 25 % in Drukkerij Dendermonde.
