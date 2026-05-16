@@ -1,0 +1,85 @@
+---
+title: IFRIC-14 — IAS 19 – De limiet voor een actief uit hoofde van toegezegde pensioenrechten,
+  minimaal vereiste dekkingsgraden en
+tags:
+- '1.5'
+- ifrs
+- ifric
+itaa-lex-sectie: ''
+wet: Verordening (EU) 2023/1803 — geconsolideerde IFRS
+bron_rol: normatief
+bron_categorie: ifrs
+standaard_type: IFRIC
+standaard_nummer: '14'
+status: beschikbaar
+bijgewerkt: 13.08.2023
+bron: EUR-Lex CELEX 32023R1803
+chunk:
+  level: 2
+  type: Sectie
+  sub_strategy: null
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/EU-Verordening-2023-1803-IFRS-Geconsolideerd.pdf
+    sha256: 20512af4119d8dc42de857d3ccca87d9e0dac728b0c79f0eb047ca16e9694132
+    version: 13.08.2023
+    pages: 952-955
+  tooling:
+    pipeline: tools/etl/split_ifrs_verordening.py
+    pipeline_version: '1.0'
+    model: null
+    prompt_version: null
+  generated_at: '2026-05-16T19:10:07Z'
+  stale: false
+  stale_reason: null
+  trust:
+    status: unreviewed
+    confirmed_at: null
+    confirmed_by: null
+    rationale: 'ETL-output: pymupdf-extractie + heading-detectie (DOEL/TOEPASSINGSGEBIED/DEFINITIES
+      etc.) + paragraph-merge. QA-pass nodig om heading-correctheid en incidentele
+      woord-splits (zoals ''op brengstwaarde'', erfgenaam van PDF-kolom-wrap) te valideren.
+      EU-publicatieblad CELEX 32023R1803 = primary law.'
+---
+
+IFRIC-INTERPRETATIE 14 IAS 19 – De limiet voor een actief uit hoofde van toegezegde pensioenrechten, minimaal vereiste dekkingsgraden en de wisselwerking hiertussen
+
+## Referenties
+
+— IAS 1 Presentatie van de jaarrekening — IAS 8 Grondslagen voor financiële verslaggeving, schattingswijzigingen en fouten — IAS 19 Personeelsbeloningen (herziene versie van 2011) — IAS 37 Voorzieningen, voorwaardelijke verplichtingen en voorwaardelijke activa
+
+## Achtergrond
+
+1 Alinea 64 van IAS 19 beperkt de waarde van een nettoactief uit hoofde van toegezegde pensioenrechten tot het surplus in de toegezegdpensioenregeling of het actiefplafond, al naargelang welke waarde het laagst is. In alinea 8 van IAS 19 wordt het actiefplafond gedefinieerd als “de contante waarde van economische voordelen die beschik baar zijn in de vorm van terugbetalingen uit de regeling of verlagingen van toekomstige bijdragen aan de regeling”. Er zijn vragen gerezen over wanneer terugbetalingen of verlagingen van toekomstige bijdragen als beschikbaar moeten worden beschouwd, met name als een minimaal vereiste dekkingsgraad bestaat. 2 Minimaal vereiste dekkingsgraden bestaan in veel landen om meer zekerheid te bieden dat de belofte inzake vergoedingen na uitdiensttreding die is gedaan aan deelnemers van een pensioenregeling, zal kunnen worden nagekomen. Dergelijke dekkingsgraden bepalen normaliter een minimaal bedrag of niveau van bijdragen die gedurende een bepaalde periode aan een regeling moeten worden betaald. Derhalve kan een minimaal vereiste dekkingsgraad de mogelijkheid van de entiteit om toekomstige bijdragen te verlagen, beperken. 3 Bovendien kan de limitering van de waarde van een actief uit hoofde van toegezegde pensioenrechten ertoe leiden dat een entiteit niet aan de minimaal vereiste dekkingsgraad kan voldoen. Normaliter zou een vereiste om bijdragen te betalen aan een regeling geen invloed hebben op de waardering van het actief of de nettoverplichting uit hoofde van toegezegde pensioenrechten. De reden hiervoor is dat de bijdragen, als ze eenmaal zijn betaald, fondsbeleg gingen worden, waardoor de aanvullende nettoverplichting gelijk is aan nul. Een minimaal vereiste dekkingsgraad kan echter aanleiding geven om een verplichting te vormen indien de vereiste bijdragen niet beschikbaar zullen zijn voor de entiteit nadat ze zijn betaald. 3A In november 2009 heeft de International Accounting Standards Board IFRIC 14 gewijzigd om een onbedoeld gevolg weg te nemen dat voortvloeide uit de verwerkingswijze van vooruitbetalingen van toekomstige bijdragen onder bepaalde omstandigheden waarin er een minimaal vereiste dekkingsgraad bestaat.
+
+## Toepassingsgebied
+
+4 Deze interpretatie is van toepassing op alle toegezegde vergoedingen na uitdiensttreding en andere toegezegde langetermijnpersoneelsbeloningen. 5 Binnen het bestek van deze interpretatie zijn minimaal vereiste dekkingsgraden vereisten om een regeling inzake toegezegde vergoedingen na uitdiensttreding of andere toegezegde langetermijnpersoneelsbeloningen te financieren.
+
+## Probleemstelling
+
+6 In deze interpretatie worden de volgende punten behandeld:
+(a) wanneer moeten terugbetalingen of verlagingen van toekomstige bijdragen als beschikbaar worden beschouwd in overeenstemming met de definitie van actiefplafond in alinea 8 van IAS 19;
+(b) hoe kan een minimaal vereiste dekkingsgraad de beschikbaarheid van verlagingen van toekomstige bijdragen beïnvloeden;
+(c) wanneer kan een minimaal vereiste dekkingsgraad aanleiding geven om een verplichting te vormen.
+
+## Consensus
+
+Beschikbaarheid van een terugbetaling of verlaging van toekomstige bijdragen 7 Een entiteit dient de beschikbaarheid van een terugbetaling of verlaging van toekomstige bijdragen te bepalen in overeenstemming met de voorwaarden van de regeling en de wettelijke vereisten in het rechtsgebied van de regeling. 8 Een economisch voordeel, in de vorm van een terugbetaling of verlaging van toekomstige bijdragen, is beschikbaar als de entiteit het op een bepaald moment tijdens de looptijd van de regeling of wanneer de verplichtingen van de regeling worden afgewikkeld, kan realiseren. Een dergelijk economisch voordeel kan zelfs beschikbaar zijn als het op de balansdatum niet onmiddellijk kan worden gerealiseerd. 9 Het beschikbare economische voordeel is niet afhankelijk van hoe de entiteit het surplus wil gebruiken. Een entiteit dient het maximale economische voordeel te bepalen dat beschikbaar is uit terugbetalingen, verlagingen van toekomstige bijdragen of een combinatie van beide. Een entiteit mag economische voordelen uit een combinatie van terugbetalingen en verlagingen van toekomstige bijdragen niet opnemen op basis van veronderstellingen die elkaar uitsluiten. 10 In overeenstemming met IAS 1 dient de entiteit informatie te verstrekken over de belangrijke bronnen van schattingsonzekerheden op de datum van het overzicht van de financiële positie die een aanmerkelijk risico in zich dragen van een materiële aanpassing van de boekwaarde van het in het overzicht van de financiële positie opgenomen nettoactief of de in het overzicht van de financiële positie opgenomen nettoverplichting. Dit kan onder meer bestaan uit informatie over beperkingen betreffende de actuele realiseerbaarheid van het surplus of informatie over de grondslag die werd gebruikt om het bedrag van het beschikbare economische voordeel te bepalen. Het economische voordeel beschikbaar als een terugbetaling Het recht op een terugbetaling 11 Een terugbetaling is slechts beschikbaar voor een entiteit als de entiteit een onvoorwaardelijk recht op een terugbetaling heeft:
+(a) tijdens de looptijd van de regeling, zonder ervan uit te gaan dat de verplichtingen van de regeling moeten worden afgewikkeld teneinde de terugbetaling te verkrijgen (bijvoorbeeld in sommige rechtsgebieden kan de entiteit een recht hebben op een terugbetaling tijdens de looptijd van de regeling, ongeacht of de verplichtingen van de regeling zijn afgewikkeld); of
+(b) uitgaande van de veronderstelling dat de verplichtingen van de regeling in de loop van de tijd geleidelijk worden afgewikkeld tot alle deelnemers de regeling hebben verlaten; of
+(c) uitgaande van de veronderstelling dat de verplichtingen van de regeling in één enkele gebeurtenis (d.w.z. als een liquidatie van de regeling) volledig worden afgewikkeld. Een onvoorwaardelijk recht op een terugbetaling kan bestaan ongeacht de dekkingsgraad van een regeling op de balansdatum. 12 Als het recht van een entiteit op terugbetaling van een surplus afhankelijk is van het al dan niet plaatsvinden van een of meer onzekere toekomstige gebeurtenissen waarover de entiteit niet de volledige controle heeft, heeft de entiteit geen onvoorwaardelijk recht en mag ze geen actief opnemen. Waardering van het economische voordeel 13 Een entiteit dient de waarde van het economische voordeel dat beschikbaar is als een terugbetaling te bepalen als het bedrag van het surplus op de balansdatum (zijnde de reële waarde van de fondsbeleggingen minus de contante waarde van de brutoverplichting uit hoofde van toegezegdpensioenregelingen) dat de entiteit gerechtigd is te ontvangen als terugbetaling, minus de daarmee verband houdende kosten. Als bijvoorbeeld een terugbetaling onderworpen zou zijn aan een andere belasting dan winstbelasting, dient een entiteit het bedrag van de terugbe taling te bepalen na aftrek van die belasting. 14 Bij het bepalen van het bedrag van een terugbetaling die beschikbaar is wanneer de regeling wordt geliquideerd (alinea 11(c)), dient een entiteit rekening te houden met de kosten van de afwikkeling van de verplichtingen van de regeling en de verrichting van de terugbetaling. Een entiteit dient bijvoorbeeld honoraria af te trekken als deze door het pensioenfonds of de verzekeraar in plaats van de entiteit worden betaald, alsook de kosten van verzekerings premies die mogelijk vereist zijn om de verplichting bij liquidatie te verzekeren.
+
+15 Als het bedrag van een terugbetaling wordt bepaald als het volledige bedrag of een gedeelte van het surplus, in plaats van een vast bedrag, mag een entiteit geen rekening houden met de tijdswaarde van geld, zelfs als de terugbetaling pas op een tijdstip in de toekomst kan worden gerealiseerd. Het economische voordeel beschikbaar als een verlaging van bijdragen 16 Als er voor bijdragen met betrekking tot toekomstige prestaties geen minimaal vereiste dekkingsgraad bestaat, is het economische voordeel dat beschikbaar is als een verlaging van de toekomstige bijdragen gelijk aan de toe komstige pensioenkosten voor de entiteit voor elke periode over de verwachte resterende looptijd van de regeling of, indien korter, de verwachte levensduur van de entiteit. De toekomstige pensioenkosten voor de entiteit omvatten niet de bedragen die door de werknemers zullen worden gedragen. 17 Een entiteit moet de toekomstige pensioenkosten bepalen met behulp van veronderstellingen die in overeenstem ming zijn met die welke worden gebruikt om de brutoverplichting uit hoofde van toegezegde pensioenrechten te bepalen en met de situatie aan het einde van de verslagperiode zoals bepaald door IAS 19. Derhalve moet een entiteit ervan uitgaan dat de vergoedingen die in de toekomst door een regeling moeten worden betaald, niet zullen veranderen tot de regeling wordt gewijzigd, en moet zij ervan uitgaan dat het aantal werknemers in de toekomst stabiel zal blijven, tenzij de entiteit het aantal werknemers dat door de regeling wordt gedekt, vermindert. In het laatste geval moet bij de veronderstelling over het toekomstige aantal werknemers de vermindering in aanmerking worden genomen. Het effect van een minimaal vereiste dekkingsgraad op het economische voordeel dat beschikbaar is als een verlaging van toekomstige bijdragen 18 Een entiteit moet minimaal vereiste dekkingsbijdragen op een bepaalde datum uitsplitsen in bijdragen die vereist zijn om (a) een bestaand tekort op basis van de minimaal vereiste dekking met betrekking tot reeds ontvangen diensten en (b) toekomstige prestaties te dekken. 19 Bijdragen om een bestaand tekort op basis van de minimaal vereiste dekkingsgraad met betrekking tot reeds ontvangen diensten te dekken, hebben geen invloed op toekomstige bijdragen voor toekomstige diensten. Ze kunnen aanleiding geven een verplichting te vormen in overeenstemming met de alinea’s 23 tot en met 26. 20 Als er voor bijdragen met betrekking tot toekomstige prestaties een minimaal vereiste dekkingsgraad bestaat, is het economische voordeel dat beschikbaar is als een verlaging van de toekomstige bijdragen gelijk aan de som van:
+(a) elk bedrag dat de toekomstige minimaal vereiste dekkingsbijdragen met betrekking tot toekomstige prestaties vermindert omdat de entiteit een vooruitbetaling heeft gedaan (d.w.z. het bedrag heeft betaald voordat zij daartoe verplicht was); en
+(b) de in overeenstemming met de alinea’s 16 en 17 geschatte toekomstige pensioenkosten in elke periode, ver minderd met de geschatte minimale dekkingsbijdragen die met betrekking tot toekomstige prestaties in die periodes vereist zouden zijn indien er geen vooruitbetaling als bedoeld in (a) had plaatsgevonden. 21 Een entiteit moet bij de raming van de toekomstige minimaal vereiste dekkingsbijdragen met betrekking tot toekomstige prestaties rekening houden met het effect van een bestaand surplus dat is bepaald op basis van de minimale dekkingsgraad, exclusief de in alinea 20(a) beschreven vooruitbetaling. Een entiteit moet gebruikmaken van veronderstellingen die met de minimale dekkingsgraad in overeenstemming zijn en, voor factoren die hierbij niet zijn gespecificeerd, van veronderstellingen die in overeenstemming zijn met die welke worden gebruikt om de brutoverplichting uit hoofde van toegezegdpensioenregelingen te bepalen en met de situatie aan het einde van de verslagperiode zoals bepaald door IAS 19. Verwachte veranderingen als gevolg van het feit dat de entiteit de minimaal vereiste bijdragen betaalt wanneer deze verschuldigd zijn, moeten in de raming worden opgenomen. Het effect van verwachte veranderingen in de voorwaarden van de minimale dekkingsgraad waarvan het wetge vingsproces niet materieel is afgesloten of die aan het einde van de verslagperiode niet contractueel zijn over eengekomen, mag echter niet in de raming worden opgenomen. 22 Wanneer een entiteit het in alinea 20(b) beschreven bedrag bepaalt en als in een bepaalde periode de toekomstige minimaal vereiste dekkingsbijdragen met betrekking tot toekomstige prestaties groter zijn dan de toekomstige, conform IAS 19 berekende pensioenkosten, verlaagt dat positieve verschil het bedrag van het economische voor deel dat beschikbaar is als een verlaging van de toekomstige bijdragen. Het in alinea 20(b) beschreven bedrag kan echter nooit kleiner zijn dan nul.
+
+Wanneer een minimaal vereiste dekkingsgraad aanleiding kan geven tot een verplichting 23 Als een entiteit op grond van een minimaal vereiste dekkingsgraad verplicht is bijdragen te betalen ter dekking van een bestaand tekort op basis van de minimaal vereiste dekking met betrekking tot reeds ontvangen diensten, dient de entiteit te bepalen of de te betalen bijdragen beschikbaar zullen zijn als een terugbetaling of verlaging van de toekomstige bijdragen nadat ze in de regeling zijn gestort. 24 Voor zover de te betalen bijdragen niet beschikbaar zullen zijn nadat ze in de regeling zijn gestort, moet de entiteit een verplichting opnemen wanneer de verplichting ontstaat. De verplichting moet het nettoactief uit hoofde van toegezegde pensioenrechten verlagen of de nettoverplichting uit hoofde van toegezegde pensioenrechten verhogen, zodat er naar verwachting geen winst of verlies zal voortvloeien uit de toepassing van alinea 64 van IAS 19 wanneer de bijdragen worden betaald.
+
+## Ingangsdatum
+
+27 Een entiteit moet deze interpretatie toepassen op jaarperioden die op of na 1 januari 2008 aanvangen. Eerdere toepassing is toegestaan. 27A IAS 1 (herziene versie van 2007) wijzigde de in de IFRSs gebruikte terminologie. Daarnaast wijzigde IAS 1 alinea 26. Entiteiten moeten deze wijzigingen toepassen op jaarperioden die op of na 1 januari 2009 aanvangen. Als een entiteit IAS 1 (herziene versie van 2007) toepast op een periode die vóór 1 januari 2009 aanvangt, moeten ook deze wijzigingen op die periode worden toegepast. 27B Bij Vooruitbetalingen bij minimaal vereiste dekkingsbijdragen is alinea 3A toegevoegd en zijn de alinea’s 16-18 en 20-22 gewijzigd. Entiteiten moeten deze wijzigingen toepassen op jaarperioden die op of na 1 januari 2011 aanvangen. Eerdere toepassing is toegestaan. Als een entiteit de wijzigingen op een eerdere periode toepast, moet ze dat feit vermelden. 27C IAS 19 (herziene versie van 2011) wijzigde de alinea’s 1, 6, 17 en 24 en verwijderde de alinea’s 25 en 26. Een entiteit moet deze wijzigingen toepassen als zij IAS 19 (herziene versie van 2011) toepast.
+
+## Overgang
+
+28 Een entiteit dient deze interpretatie toe te passen vanaf het begin van de eerste verslagperiode in de eerste jaarrekening waarop de interpretatie van toepassing is. Een entiteit dient een eventuele initiële aanpassing die voortvloeit uit de toepassing van deze interpretatie op te nemen in ingehouden winsten aan het begin van die periode. 29 Een entiteit moet de wijzigingen in de alinea’s 3A, 16-18 en 20-22 toepassen vanaf het begin van de vroegste vergelijkende periode die wordt gepresenteerd in de eerste financiële overzichten waarin de entiteit deze inter pretatie toepast. Indien de entiteit deze interpretatie eerder had toegepast voordat zij de wijzigingen toepast, moet zij de aanpassing die uit de toepassing van de wijzigingen voortvloeit, opnemen in ingehouden winsten aan het begin van de vroegste vergelijkende periode die wordt gepresenteerd.

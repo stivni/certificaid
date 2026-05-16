@@ -1,5 +1,5 @@
 {
-  "n_bronnen": 586,
+  "n_bronnen": 641,
   "bronnen": [
     {
       "bestand": "AVG-wet-2018.md",
@@ -402,6 +402,941 @@
       "trust_caveat": null,
       "layer1_status": null,
       "layer2_status": "trusted"
+    },
+    {
+      "bestand": "IAS-1-presentatie-van-de-jaarrekening.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-1-presentatie-van-de-jaarrekening",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 1 presentatie van de jaarrekening",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-10-gebeurtenissen-na-de-verslagperiode.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-10-gebeurtenissen-na-de-verslagperiode",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 10 gebeurtenissen na de verslagperiode",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-12-winstbelastingen.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-12-winstbelastingen",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 12 winstbelastingen",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-16-materiele-vaste-activa.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-16-materiele-vaste-activa",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 16 materiele vaste activa",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-19-personeelsbeloningen.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-19-personeelsbeloningen",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 19 personeelsbeloningen",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-2-voorraden.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-2-voorraden",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 2 voorraden",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-20-administratieve-verwerking-van-overheidssubsidies-en-informatieverschaffing-over-overheidssteun-9.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-20-administratieve-verwerking-van-overheidssubsidies-en-informatieverschaffing-over-overheidssteun-9",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 20 administratieve verwerking van overheidssubsidies en informatieverschaffing over overheidssteun 9",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-21-de-gevolgen-van-wisselkoerswijzigingen.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-21-de-gevolgen-van-wisselkoerswijzigingen",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 21 de gevolgen van wisselkoerswijzigingen",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-23-financieringskosten.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-23-financieringskosten",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 23 financieringskosten",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-24-informatieverschaffing-over-verbonden-partijen.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-24-informatieverschaffing-over-verbonden-partijen",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 24 informatieverschaffing over verbonden partijen",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-26-administratieve-verwerking-en-verslaggeving-door-pensioenregelingen.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-26-administratieve-verwerking-en-verslaggeving-door-pensioenregelingen",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 26 administratieve verwerking en verslaggeving door pensioenregelingen",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-27-enkelvoudige-jaarrekening.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-27-enkelvoudige-jaarrekening",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 27 enkelvoudige jaarrekening",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-28-investeringen-in-geassocieerde-deelnemingen-en-joint-ventures.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-28-investeringen-in-geassocieerde-deelnemingen-en-joint-ventures",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 28 investeringen in geassocieerde deelnemingen en joint ventures",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-29-financiele-verslaggeving-in-economieen-met-hyperinflatie-13.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-29-financiele-verslaggeving-in-economieen-met-hyperinflatie-13",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 29 financiele verslaggeving in economieen met hyperinflatie 13",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-32-financiele-instrumenten-presentatie.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-32-financiele-instrumenten-presentatie",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 32 financiele instrumenten presentatie",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-33-winst-per-aandeel.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-33-winst-per-aandeel",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 33 winst per aandeel",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-34-tussentijdse-financiele-verslagen.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-34-tussentijdse-financiele-verslagen",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 34 tussentijdse financiele verslagen",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-36-bijzondere-waardevermindering-van-activa.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-36-bijzondere-waardevermindering-van-activa",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 36 bijzondere waardevermindering van activa",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-37-voorzieningen-voorwaardelijke-verplichtingen-en-voorwaardelijke-activa.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-37-voorzieningen-voorwaardelijke-verplichtingen-en-voorwaardelijke-activa",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 37 voorzieningen voorwaardelijke verplichtingen en voorwaardelijke activa",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-38-immateriele-activa.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-38-immateriele-activa",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 38 immateriele activa",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-39-financiele-instrumenten-opname-en-waardering.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-39-financiele-instrumenten-opname-en-waardering",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 39 financiele instrumenten opname en waardering",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-40-vastgoedbeleggingen.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-40-vastgoedbeleggingen",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 40 vastgoedbeleggingen",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-41-landbouw.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-41-landbouw",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 41 landbouw",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-7-het-kasstroomoverzicht-2.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-7-het-kasstroomoverzicht-2",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 7 het kasstroomoverzicht 2",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IAS-8-grondslagen-voor-financiele-verslaggeving-schattingswijzigingen-en-fouten.md",
+      "bron_rol": "wettekst",
+      "stem": "IAS-8-grondslagen-voor-financiele-verslaggeving-schattingswijzigingen-en-fouten",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IAS 8 grondslagen voor financiele verslaggeving schattingswijzigingen en fouten",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ias"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRIC-1-wijzigingen-in-bestaande-verplichtingen-voor-ontmanteling-herstel-en-soortgelijke-verplichtingen.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRIC-1-wijzigingen-in-bestaande-verplichtingen-voor-ontmanteling-herstel-en-soortgelijke-verplichtingen",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRIC 1 wijzigingen in bestaande verplichtingen voor ontmanteling herstel en soortgelijke verplichtingen",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifric"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRIC-10-tussentijdse-financiele-verslaggeving-en-bijzondere-waardevermindering.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRIC-10-tussentijdse-financiele-verslaggeving-en-bijzondere-waardevermindering",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRIC 10 tussentijdse financiele verslaggeving en bijzondere waardevermindering",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifric"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRIC-12-dienstverlening-uit-hoofde-van-concessieovereenkomsten.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRIC-12-dienstverlening-uit-hoofde-van-concessieovereenkomsten",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRIC 12 dienstverlening uit hoofde van concessieovereenkomsten",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifric"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRIC-14-ias-19-de-limiet-voor-een-actief-uit-hoofde-van-toegezegde-pensioenrechten-minimaal-vereiste-dekkingsgraden-en.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRIC-14-ias-19-de-limiet-voor-een-actief-uit-hoofde-van-toegezegde-pensioenrechten-minimaal-vereiste-dekkingsgraden-en",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRIC 14 ias 19 de limiet voor een actief uit hoofde van toegezegde pensioenrechten minimaal vereiste dekkingsgraden en",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifric"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRIC-16-hedges-van-een-netto-investering-in-een-buitenlandse-activiteit.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRIC-16-hedges-van-een-netto-investering-in-een-buitenlandse-activiteit",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRIC 16 hedges van een netto investering in een buitenlandse activiteit",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifric"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRIC-17-uitkeringen-van-activa-in-natura-aan-eigenaars.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRIC-17-uitkeringen-van-activa-in-natura-aan-eigenaars",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRIC 17 uitkeringen van activa in natura aan eigenaars",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifric"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRIC-19-aflossing-van-financiele-verplichtingen-met-eigenvermogensinstrumenten.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRIC-19-aflossing-van-financiele-verplichtingen-met-eigenvermogensinstrumenten",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRIC 19 aflossing van financiele verplichtingen met eigenvermogensinstrumenten",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifric"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRIC-2-aandelen-van-leden-in-cooperatieve-entiteiten-en-soortgelijke-instrumenten.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRIC-2-aandelen-van-leden-in-cooperatieve-entiteiten-en-soortgelijke-instrumenten",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRIC 2 aandelen van leden in cooperatieve entiteiten en soortgelijke instrumenten",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifric"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRIC-20-afgravingskosten-tijdens-de-productiefase-van-een-dagbouwmijn.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRIC-20-afgravingskosten-tijdens-de-productiefase-van-een-dagbouwmijn",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRIC 20 afgravingskosten tijdens de productiefase van een dagbouwmijn",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifric"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRIC-21-heffingen.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRIC-21-heffingen",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRIC 21 heffingen",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifric"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRIC-22-transacties-in-vreemde-valuta-en-vooruitbetalingen.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRIC-22-transacties-in-vreemde-valuta-en-vooruitbetalingen",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRIC 22 transacties in vreemde valuta en vooruitbetalingen",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifric"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRIC-23-onzekerheid-over-fiscale-behandelingen-van-inkomsten.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRIC-23-onzekerheid-over-fiscale-behandelingen-van-inkomsten",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRIC 23 onzekerheid over fiscale behandelingen van inkomsten",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifric"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRIC-5-belangen-in-ontmantelings-herstel-en-milieusaneringsfondsen.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRIC-5-belangen-in-ontmantelings-herstel-en-milieusaneringsfondsen",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRIC 5 belangen in ontmantelings herstel en milieusaneringsfondsen",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifric"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRIC-6-verplichtingen-die-voortvloeien-uit-deelneming-aan-een-specifieke-markt-afgedankte-elektrische-en-elektronische.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRIC-6-verplichtingen-die-voortvloeien-uit-deelneming-aan-een-specifieke-markt-afgedankte-elektrische-en-elektronische",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRIC 6 verplichtingen die voortvloeien uit deelneming aan een specifieke markt afgedankte elektrische en elektronische",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifric"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRIC-7-toepassing-van-de-aanpassingsmethode-in-overeenstemming-met-ias-29-financiele-verslaggeving-in-economieen-met.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRIC-7-toepassing-van-de-aanpassingsmethode-in-overeenstemming-met-ias-29-financiele-verslaggeving-in-economieen-met",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRIC 7 toepassing van de aanpassingsmethode in overeenstemming met ias 29 financiele verslaggeving in economieen met",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifric"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRS-1-eerste-toepassing-van-international-financial-reporting-standards.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRS-1-eerste-toepassing-van-international-financial-reporting-standards",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRS 1 eerste toepassing van international financial reporting standards",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifrs"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRS-10-geconsolideerde-jaarrekening.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRS-10-geconsolideerde-jaarrekening",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRS 10 geconsolideerde jaarrekening",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifrs"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRS-11-gezamenlijke-overeenkomsten.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRS-11-gezamenlijke-overeenkomsten",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRS 11 gezamenlijke overeenkomsten",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifrs"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRS-12-informatieverschaffing-over-belangen-in-andere-entiteiten.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRS-12-informatieverschaffing-over-belangen-in-andere-entiteiten",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRS 12 informatieverschaffing over belangen in andere entiteiten",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifrs"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRS-13-waardering-tegen-reele-waarde.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRS-13-waardering-tegen-reele-waarde",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRS 13 waardering tegen reele waarde",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifrs"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRS-15-opbrengsten-van-contracten-met-klanten.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRS-15-opbrengsten-van-contracten-met-klanten",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRS 15 opbrengsten van contracten met klanten",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifrs"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRS-16-leaseovereenkomsten.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRS-16-leaseovereenkomsten",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRS 16 leaseovereenkomsten",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifrs"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRS-17-verzekeringscontracten.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRS-17-verzekeringscontracten",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRS 17 verzekeringscontracten",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifrs"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRS-2-op-aandelen-gebaseerde-betalingen.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRS-2-op-aandelen-gebaseerde-betalingen",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRS 2 op aandelen gebaseerde betalingen",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifrs"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRS-3-bedrijfscombinaties.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRS-3-bedrijfscombinaties",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRS 3 bedrijfscombinaties",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifrs"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRS-5-vaste-activa-aangehouden-voor-verkoop-en-beeindigde-bedrijfsactiviteiten.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRS-5-vaste-activa-aangehouden-voor-verkoop-en-beeindigde-bedrijfsactiviteiten",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRS 5 vaste activa aangehouden voor verkoop en beeindigde bedrijfsactiviteiten",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifrs"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRS-6-exploratie-en-evaluatie-van-minerale-hulpbronnen.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRS-6-exploratie-en-evaluatie-van-minerale-hulpbronnen",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRS 6 exploratie en evaluatie van minerale hulpbronnen",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifrs"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRS-7-financiele-instrumenten-informatieverschaffing.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRS-7-financiele-instrumenten-informatieverschaffing",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRS 7 financiele instrumenten informatieverschaffing",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifrs"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRS-8-operationele-segmenten.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRS-8-operationele-segmenten",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRS 8 operationele segmenten",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifrs"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
+      "bestand": "IFRS-9-financiele-instrumenten.md",
+      "bron_rol": "wettekst",
+      "stem": "IFRS-9-financiele-instrumenten",
+      "titel": "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+      "korte_naam": "IFRS 9 financiele instrumenten",
+      "tags": [
+        "1.5",
+        "ifrs",
+        "ifrs"
+      ],
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
+      "trust_caveat": null,
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "KB-1998-plichtenleer.md",

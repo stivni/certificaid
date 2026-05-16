@@ -8,12 +8,12 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 132 | 118 | 5 | 9 | — | — |
+| Wetteksten | 187 | 118 | 60 | 9 | — | — |
 | Normen | 18 | 13 | 4 | 1 | — | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **586** | 553 | 9 | 24 | — | — |
+| **Totaal** | **641** | 553 | 64 | 24 | — | — |
 
-## Wetteksten (132)
+## Wetteksten (187)
 
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
@@ -27,6 +27,61 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `toelichting-PB-2025-deel2.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Deel 2 |
 | `toelichting-VenB-2025.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de vennootschapsbelasting — AJ 2025 |
 | `Decr-Waals-Directe-Belastingen.md` | ◻️ unreviewed | — | — | default | Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de … |
+| `IAS-1-presentatie-van-de-jaarrekening.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-10-gebeurtenissen-na-de-verslagperiode.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-12-winstbelastingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-16-materiele-vaste-activa.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-19-personeelsbeloningen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-2-voorraden.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-20-administratieve-verwerking-van-overheidssubsidies-en-informatieverschaffing-over-overheidssteun-9.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-21-de-gevolgen-van-wisselkoerswijzigingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-23-financieringskosten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-24-informatieverschaffing-over-verbonden-partijen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-26-administratieve-verwerking-en-verslaggeving-door-pensioenregelingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-27-enkelvoudige-jaarrekening.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-28-investeringen-in-geassocieerde-deelnemingen-en-joint-ventures.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-29-financiele-verslaggeving-in-economieen-met-hyperinflatie-13.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-32-financiele-instrumenten-presentatie.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-33-winst-per-aandeel.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-34-tussentijdse-financiele-verslagen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-36-bijzondere-waardevermindering-van-activa.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-37-voorzieningen-voorwaardelijke-verplichtingen-en-voorwaardelijke-activa.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-38-immateriele-activa.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-39-financiele-instrumenten-opname-en-waardering.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-40-vastgoedbeleggingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-41-landbouw.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-7-het-kasstroomoverzicht-2.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IAS-8-grondslagen-voor-financiele-verslaggeving-schattingswijzigingen-en-fouten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-1-wijzigingen-in-bestaande-verplichtingen-voor-ontmanteling-herstel-en-soortgelijke-verplichtingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-10-tussentijdse-financiele-verslaggeving-en-bijzondere-waardevermindering.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-12-dienstverlening-uit-hoofde-van-concessieovereenkomsten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-14-ias-19-de-limiet-voor-een-actief-uit-hoofde-van-toegezegde-pensioenrechten-minimaal-vereiste-dekkingsgraden-en.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-16-hedges-van-een-netto-investering-in-een-buitenlandse-activiteit.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-17-uitkeringen-van-activa-in-natura-aan-eigenaars.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-19-aflossing-van-financiele-verplichtingen-met-eigenvermogensinstrumenten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-2-aandelen-van-leden-in-cooperatieve-entiteiten-en-soortgelijke-instrumenten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-20-afgravingskosten-tijdens-de-productiefase-van-een-dagbouwmijn.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-21-heffingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-22-transacties-in-vreemde-valuta-en-vooruitbetalingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-23-onzekerheid-over-fiscale-behandelingen-van-inkomsten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-5-belangen-in-ontmantelings-herstel-en-milieusaneringsfondsen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-6-verplichtingen-die-voortvloeien-uit-deelneming-aan-een-specifieke-markt-afgedankte-elektrische-en-elektronische.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRIC-7-toepassing-van-de-aanpassingsmethode-in-overeenstemming-met-ias-29-financiele-verslaggeving-in-economieen-met.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-1-eerste-toepassing-van-international-financial-reporting-standards.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-10-geconsolideerde-jaarrekening.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-11-gezamenlijke-overeenkomsten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-12-informatieverschaffing-over-belangen-in-andere-entiteiten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-13-waardering-tegen-reele-waarde.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-15-opbrengsten-van-contracten-met-klanten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-16-leaseovereenkomsten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-17-verzekeringscontracten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-2-op-aandelen-gebaseerde-betalingen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-3-bedrijfscombinaties.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-5-vaste-activa-aangehouden-voor-verkoop-en-beeindigde-bedrijfsactiviteiten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-6-exploratie-en-evaluatie-van-minerale-hulpbronnen.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-7-financiele-instrumenten-informatieverschaffing.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-8-operationele-segmenten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
+| `IFRS-9-financiele-instrumenten.md` | ◻️ unreviewed | — | — | — | Verordening (EU) 2023/1803 — geconsolideerde IFRS |
 | `MIGB-Brussel.md` | ◻️ unreviewed | — | — | default | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofds… |
 | `MIGB-Vlaanderen.md` | ◻️ unreviewed | — | — | default | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest |
 | `MIGB-Wallonie.md` | ◻️ unreviewed | — | — | default | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest |
