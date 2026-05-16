@@ -73,17 +73,21 @@ BRON → CONCEPT-records → [deterministisch] → content/concepten/<id>.md
                        → [skeleton + Opus-glue] → content/studiemateriaal/<X.Y>/minicursus.md
 ```
 
-**Concept-fiche** (`render_concept_fiche.py`): volledig deterministisch uit `data/concepten/records/<id>.json` (schema 1.3, ADR-007). Geen LLM. Output: Quartz-markdown met frontmatter, rationale-callout, aspect-ankers, vergelijkingsparen-tabel, cheatsheet-blokken, provenance-footnotes.
+**Concept-fiche** (`render_concept_fiche.py`): volledig deterministisch uit `data/concepten/records/<id>.json` (schema 1.4 sinds 2026-05-16, ADR-007). Geen LLM. Output: Quartz-markdown met frontmatter, TL;DR-callout (uit eerste-zin definitie), edges-breadcrumb per type (onderdeel-van/bevat/uitzondering-op), bouwsteen-blok (titel/wat/waarom/voorbeeld_inline/grondslag), formule-blok (formules[] met variabelen + invulling_voorbeeld), aspect-ankers, stap-blok-render (substappen met type-iconen 📊🧮📝💬🌊), vergelijkingsparen-collapsible (alleen verwarring-risico), voorbeeld-minimum-callout `> [!todo]` bij gap, "Zie ook"-sectie, provenance-footnotes.
 
-**Competentie-fiche** (`render_competentie_fiche.py`): volledig deterministisch uit `data/concepten/competenties/<id>.yaml` (competentie-schema 1.0, ADR-007). Anti-fabricatie-validator (`validate_competentie.py`) runs vóór render — skip bij fouten. Output: procedure-grondslag-badge + stappen + beslisboom + voorbeelden + concept-grid.
+**Competentie-fiche** (`render_competentie_fiche.py`): volledig deterministisch uit `data/concepten/competenties/<id>.yaml` (competentie-schema 1.1 sinds 2026-05-16). Anti-fabricatie-validator (`validate_competentie.py`) runs vóór render — skip bij fouten. Output: procedure-grondslag-badge + stap-blok-render (wat/waarom/input[]/output[]/hoe/voorbeeld.substappen/valkuilen) + beslisboom + voorbeelden + concept-grid. Valkuilen renderen `> [!warning]`-callout met `advies` als titel (correcte aanbeveling) — niet meer de foute aanname.
 
-**Minicursus** (`render_minicursus.py`): twee-fase render. Fase 1 deterministisch (skeleton + cheatsheet + wikilinks uit leerpad). Fase 2 via Opus-subagent (glue-prompt `prompts/minicursus-glue-v1.md`) die placeholders vult — uitsluitend rationale/transities/pedagogische inleiding, geen feiten-claims.
+**Minicursus** (`render_minicursus.py`): twee-fase render. Fase 1 deterministisch (skeleton + cheatsheet + wikilinks uit leerpad). Fase 2 via Opus-subagent (glue-prompt `prompts/minicursus-glue-v1.md`) die placeholders vult — uitsluitend rationale/transities/pedagogische inleiding, geen feiten-claims. **Examenfocus**-sectie krijgt `> [!question]`-callouts uit `_programmaonderdeel_classificatie.json` × `examen_vragen/<jaar>.json`.
 
-**Fase D** (`propose_competenties.py`): schrijft subagent-instructies voor Opus om competentie-YAML's te destilleren. Input: anchors + records + exam_patterns (NIET examenvragen — ADR-008 §0).
+**Fase D** (`propose_competenties.py`): schrijft subagent-instructies voor Opus om competentie-YAML's te destilleren. Input: anchors + records + exam_patterns (NIET examenvragen — ADR-008 §0). Verplichte prompt: `prompts/competentie-destillatie-v2.md`.
 
 **Fase E** (`propose_leerpad.py`): schrijft subagent-instructies voor Opus om leerpad-YAML op te stellen. Vereist: competenties met status `voorgesteld` of `gecureerd`.
 
-Verwijzingen: ADR-007 §competentie-schema, §leerpad-schema, §rationale-velden; ADR-008 §14–16.
+**Naam-cast** (`data/concepten/casts/globaal.yaml`): vaste fictieve namen + scenario-templates die alle records/competenties consistent gebruiken in voorbeelden. Vervangt ad-hoc M/D/X/Y/ABC/DEF.
+
+**Synthese-records** (node_type: synthese): cluster-records met vergelijkingstabel + Mermaid-beslisboom + kerninzichten. Tweede render-tak in concept-fiche-template (alleen voor synthese-type-records).
+
+Verwijzingen: ADR-007 §schema 1.4 (stap-blok + bouwsteen-blok + formule-blok + edges-types + node_type synthese + cast-conventie + voorbeeld-minimum); ADR-008 §14–17.
 
 ### Records → RAG-index → rendered fiche
 

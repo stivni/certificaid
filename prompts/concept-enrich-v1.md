@@ -222,6 +222,7 @@ Rationale = beginselen-inzicht, NIET examen-truc of "dit wordt vaak gevraagd".
 
 Hierna volgt de bijgewerkte lijst van aspecten die ENRICH kan verwerken:
 
+**Schema 1.3-aspecten** (bestaand):
 - `berekeningsmethode.concreet_voorbeeld`
 - `berekeningsmethode.formule`
 - `definitie.onvolledig`
@@ -236,6 +237,21 @@ Hierna volgt de bijgewerkte lijst van aspecten die ENRICH kan verwerken:
 - `uitzonderingen.ontbreekt`
 - `stappen.onvolledig`
 - `records.ontbreekt` → doorsturen naar EXTRACT (geen actie in ENRICH)
+
+**Schema 1.4-aspecten** (sinds 2026-05-16, voor records met `schema_version: "1.4"`):
+- `voorbeeld.ontbreekt` — voeg `voorbeeld_inline` toe op record-niveau OF in een bouwsteen, met cast-namen. Bron 1 = chunks; bron 2 = bestaand concreet_voorbeeld; bron 3 = synthese met cast (confidence: inferred).
+- `stap.skeleton` — vul stap-blok aan: `wat` (1 zin), `waarom` (1 zin), `hoe` (multiline uitvoerbaar), `input[]` + `output[]` (semantische arrays), optioneel `voorbeeld.substappen[]` voor reken-/balans-stappen.
+- `bouwsteen.geen-waarom` — voeg `waarom`-veld toe (1 zin rationale, welk beginsel) aan bestaand bouwsteen-blok.
+- `bouwsteen.geen-voorbeeld-inline` — voeg `voorbeeld_inline` toe (1 zin met cast-namen).
+- `formule.geen-variabelen` — splits formule-string atomair, voeg `variabelen[]` toe per formule (symbool/betekenis/eenheid).
+- `formule.geen-invulling-voorbeeld` — voeg `invulling_voorbeeld` toe met waarden/berekening/eenheid_resultaat (cast-namen).
+- `cast.niet-toegepast` — vervang M/D/X/Y/ABC/DEF in voorbeelden door cast-namen uit `data/concepten/casts/globaal.yaml` (kies passend scenario-template).
+- `edges.geen-types` — classificeer edges als `onderdeel-van/bevat/vergelijkt-met/getriggerd-door/uitzondering-op/specialisatie-van/vereist-kennis-van/aanleiding-voor`. Anti-fabricatie: alleen type assigneren waar de relatie evident is uit content/bronnen.
+
+**Aanvullende anti-fabricatie voor schema 1.4-aspecten**:
+- Cast-namen MOETEN uit `data/concepten/casts/globaal.yaml` komen, niet ad-hoc verzonnen
+- Synthese-voorbeelden krijgen `confidence: "inferred"` met provenance naar onderliggende bron-chunks
+- `_corrected_from`-trail per gewijzigd veld bij rewrite
 
 ---
 

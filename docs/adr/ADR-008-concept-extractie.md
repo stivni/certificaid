@@ -1,11 +1,12 @@
 # ADR-008: Concept-extractie via bron-first matching
 
 **Status**: Accepted
-**Datum**: 2026-05-09 (laatst bijgewerkt 2026-05-15)
-**Empirisch onderbouwd op**: PO 4.0 Deontologie, PO 1.1 Algemene boekhouding, PO 1.4 Geconsolideerde jaarrekening (enrichment-loop)
+**Datum**: 2026-05-09 (laatst bijgewerkt 2026-05-16)
+**Empirisch onderbouwd op**: PO 4.0 Deontologie, PO 1.1 Algemene boekhouding, PO 1.4 Geconsolideerde jaarrekening (enrichment-loop + schema 1.4-rewrite)
 
 ## Changelog
 
+- **2026-05-16** — §17 toegevoegd: schema 1.4-implicaties voor extractie-prompts. Concept-extractie-v4 gebruikt stap-blok + bouwsteen-blok + formule-blok + cast-conventie (zie ADR-007 schema 1.4). VERIFY krijgt drie nieuwe aspect-types (`voorbeeld.ontbreekt`, `stap.skeleton`, `bouwsteen.geen-waarom`). ENRICH-prompt v2 dekt deze. Empirisch gevalideerd via twee deep-rewrite-batches op PO 1.4 (29/31 records → schema 1.4 op 2026-05-16).
 - **2026-05-15** — §14 (Fase D: Competentie-destillatie), §15 (Fase E: Leerpad-opstelling), §16 (gaps.json type-discriminator) toegevoegd. Drie-lagen leermateriaal-uitbreiding (BRON → CONCEPT → COMPETENTIE → minicursus) gegrond in pedagogische output-vraag. Examenvragen blijven uitgesloten als input (anti-circulariteit); exam_patterns is wel toegestaan.
 - **2026-05-15** — §13 toegevoegd: monotone enrichment-loop (4-bloks-flow EXTRACT → VERIFY → ENRICH → AUTO-MERGE+LOG). Records worden PO-overschrijdend flat in `data/concepten/records/<id>.json` opgeslagen; PO-linkage via `linked_anchors[]` per record. Gaps en enrich-warnings globaal in `data/extractie/`.
 - **2026-05-15** — §4 bundling-strategie herzien naar knee-detectie (97.2% recall op gold-set).
@@ -429,6 +430,42 @@ Schema in ADR-007 §"Leerpad-schema". Opus-subagent (via `tools/leermateriaal/pr
 - `competentie.voorbeelden.ontbreken` — competentie zonder `voorbeelden[]`
 
 **Migratie** van bestaande `_bron_voorstellen.json` naar `gaps.json` (`aspect_type: bron-gap`) gebeurt eenmalig via `tools/extractie/migrate_bron_voorstellen.py`. Oude file wordt verwijderd (CLAUDE.md regel 9 — geen leftovers).
+
+### 17. Schema 1.4-implicaties voor extractie-prompts (2026-05-16)
+
+ADR-007 schema 1.4 voegt **bouwsteen-blok**, **formule-blok**, **stap-blok**, **edges-types**, **node_type: synthese** en **cast-conventie** toe. Dat heeft gevolgen voor concept-extractie + verify + enrich:
+
+**Concept-extractie-v4** (`prompts/concept-extractie-v4.md`) dekt schema 1.4 met 14 regels:
+- Regel 6 — Stagiair-toon-rewrite verplicht (uitvoerbaar, niet alleen jargon-vrij)
+- Regel 7 — Naam-cast uit `data/concepten/casts/globaal.yaml` (geen ABC/DEF/M/D)
+- Regel 8 — Stap-blok met `input/output` als semantische arrays + `voorbeeld.substappen[]` met types
+- Regel 9 — Edges activeren per type (onderdeel-van → breadcrumb, vergelijkt-met → collapsible, etc.)
+- Regel 10 — `node_type: synthese` voor cluster-records
+- Regel 11 — Bouwsteen-blok geformaliseerd (titel/wat/waarom/voorbeeld_inline/grondslag)
+- Regel 12 — Formule-blok geformaliseerd (formules[] met variabelen + invulling_voorbeeld)
+- Regel 13 — Voorbeeld-minimum per node-type
+- Regel 14 — Voorbeelden uit drie toegestane bronnen (chunks > bestaand > synthese met cast)
+
+**Competentie-destillatie-v2** (`prompts/competentie-destillatie-v2.md`) erft alle relevante regels van v4 + één conventie-tabel concept-procedure vs competentie (scope/grondslag-type/hoe-inhoud verschillen). Valkuilen krijgen schema-vernieuwing: `correctie` → `advies` (als titel), `foute_aanname` → `vaak_fout` (als sub-info).
+
+**VERIFY-aspect-types** voor schema 1.4 (nieuw in gaps.json):
+- `voorbeeld.ontbreekt` — record haalt voorbeeld-minimum niet (regel 13)
+- `stap.skeleton` — stap heeft skeleton-titel (heuristisch eerste-N-woorden) zonder `wat`/`hoe`
+- `bouwsteen.geen-waarom` — bouwsteen mist `waarom`-rationale
+- `bouwsteen.geen-voorbeeld-inline` — bouwsteen mist illustratief voorbeeld
+- `formule.geen-variabelen` — formule-blok zonder `variabelen[]`-uitleg
+- `formule.geen-invulling-voorbeeld` — formule zonder `invulling_voorbeeld`
+- `edges.geen-types` — record heeft edges zonder type-classificatie
+
+ENRICH-prompt v1 wordt uitgebreid met deze aspect-types in de "rationale-aspect"-sectie.
+
+**Naam-cast als infrastructuur** (`data/concepten/casts/globaal.yaml`) bevat ~13 vennootschapsnamen (A-L) + 5 natuurlijke personen + 7 scenario-templates. Prompt v4 + competentie-v2 verwijzen naar deze cast als verplichte naambron voor voorbeelden. Cast is aanvulbaar — nieuwe scenario's worden toegevoegd in de cast-yaml, niet ad-hoc verzonnen.
+
+**Synthese-records** (node_type: synthese) verbinden meerdere concept-records via vergelijkingstabel + Mermaid-beslisboom + kerninzichten. Twee pilots voor PO 1.4 op 2026-05-16:
+- `consolidatiemethodes-vergelijking` — vergelijking integrale/evenredige/vermogensmutatie/horizontale
+- `consolidatieplicht-beslisboom` — vijfstappenboom "moet ik consolideren?"
+
+ENRICH-pass kan synthese-records voorstellen wanneer ≥ 3 concept-records onderling cross-refs hebben.
 
 ## Empirische onderbouwing
 

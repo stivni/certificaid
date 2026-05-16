@@ -75,14 +75,27 @@ ADR: [ADR-006](adr/ADR-006-rag-strategie.md).
 
 **Doel**: het tijdloze fenomeen-niveau van het ITAA-domein vastgelegd als knowledge graph.
 
+**Status 2026-05-16**: schema 1.4 vastgelegd, drie-lagen-pipeline (concepten + competenties + minicursus) operationeel op POC-programmaonderdeel 1.4 (31 records + 9 competenties + 2 synthese-pilots, allemaal deep-rewriten + gerenderd).
+
 Concreet:
-- Conceptmodel (node-types, edge-types, sleutel-velden) versie 1 vastgelegd
-- Concept-extractor: programma-gestuurd + bron-gestuurd + examen-gestuurd
+- Conceptmodel schema 1.4: stap-blok / bouwsteen-blok / formule-blok / edges-types / node_type synthese / cast-conventie / voorbeeld-minimum
+- Concept-extractor v4 + competentie-destillatie v2 + VERIFY/ENRICH schema 1.4-aware
 - Schema-evolutie expliciet (versie per record); wijziging schema → record-status `stale`
+- Naam-cast (`data/concepten/casts/globaal.yaml`) als infrastructuur voor consistente voorbeelden
 
-DoD: voor het POC-programmaonderdeel is de concepten-set "rond" — fiche-schrijver heeft genoeg context, voorbeeldvragen kunnen beantwoord worden, geen kritische dangling-edges.
+**POC DoD (gehaald op PO 1.4)**:
+- ✅ Concepten-set "rond" voor PO 1.4 (29/31 deep-rewriten)
+- ✅ Voorbeeld-minimum gehaald op 30/31 records
+- ✅ Examenvragen-callouts in minicursus (5 geclassificeerde vragen)
+- ✅ Synthese-records voor "consolidatiemethodes-vergelijking" + "consolidatieplicht-beslisboom"
+- ✅ Quartz build 0 errors
 
-ADRs: [ADR-007](adr/ADR-007-conceptmodel.md), [ADR-008](adr/ADR-008-concept-extractie.md).
+**Open punten voor doorrol naar 27 overige PO's**:
+- Cast aanvullen waar nieuwe scenario's nodig (bv. audit-PO heeft andere rollen)
+- Anchor-verrijking voor 24 PO's (Fase A is alleen klaar voor 1.1, 1.4, 4.0)
+- Bron-corpus aanvullen waar nodig (IFRS, fiscale instructies, audit-ISA's)
+
+ADRs: [ADR-007](adr/ADR-007-conceptmodel.md) schema 1.4, [ADR-008](adr/ADR-008-concept-extractie.md) §13-17, [ADR-010](adr/ADR-010-leermateriaal-tutor.md) drie-lagen render-architectuur.
 
 ---
 

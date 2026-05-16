@@ -90,11 +90,22 @@ Schrijf elke geconstateerde gap als een nieuw object naar `data/extractie/gaps.j
 - `vergelijkingsparen.target-ontbreekt` — vergelijking_met wijst naar niet-bestaand record
 - `vergelijkingsparen.vrije-tekst-niet-gespiegeld` — vrije-tekst-verwijzing zonder structurele link
 - `edges.target-ontbreekt` — edge-target wijst naar niet-bestaand record
+- `edges.geen-types` — record heeft edges zonder type-classificatie (schema 1.4 vereist `onderdeel-van/bevat/vergelijkt-met/getriggerd-door/uitzondering-op/specialisatie-van/vereist-kennis-van/...`)
 - `records.overlappend-fenomeen` — twee records beschrijven hetzelfde fenomeen
 - `records.ontbreekt` — een concept dat vermoedelijk een eigen record verdient bestaat niet
+- `rationale.ontbreekt` — schema 1.3+: top-level `rationale`-veld ontbreekt op centraal concept
 - `valkuilen.ontbreekt` — typische examenfouten/verborgen vereisten niet gedocumenteerd
 - `uitzonderingen.ontbreekt` — uitzonderingen op een regel ontbreken
 - `stappen.onvolledig` — procedure-stappen te vaag of onvolledig voor examentoepassing
+
+**Schema 1.4-aspect-waarden** (sinds 2026-05-16, alleen voor records met `schema_version: "1.4"`):
+- `voorbeeld.ontbreekt` — record haalt voorbeeld-minimum niet (ADR-007 §Voorbeeld-minimum). Per node-type een minimum (begrip → ≥1 `voorbeeld_inline`; methode/procedure → ≥1 `formules[*].invulling_voorbeeld` of substappen).
+- `stap.skeleton` — stap heeft skeleton-titel (heuristisch eerste-N-woorden uit oude tekst) zonder `wat`/`hoe`-velden. Behoeft echte deep-rewrite.
+- `bouwsteen.geen-waarom` — bouwsteen-blok zonder `waarom`-rationale (regel 11 v4)
+- `bouwsteen.geen-voorbeeld-inline` — bouwsteen-blok zonder illustratief `voorbeeld_inline` met cast-namen
+- `formule.geen-variabelen` — `formules[]`-blok zonder `variabelen[]`-uitleg per symbool (regel 12 v4)
+- `formule.geen-invulling-voorbeeld` — formule zonder `invulling_voorbeeld` met cast-namen
+- `cast.niet-toegepast` — voorbeelden gebruiken nog ad-hoc namen (M/D/X/Y/ABC/DEF) i.p.v. `data/concepten/casts/globaal.yaml`
 
 **Prioriteitsgids**:
 - `hoog`: gap die een directe examenvraag onbeantwoordbaar maakt (Check A-strandpunt)

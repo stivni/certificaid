@@ -378,6 +378,128 @@ class TestRenderCompetentieFiche:
         assert md.startswith("---\n")
 
 
+# ─── Tests: Schema 1.4-features ────────────────────────────────────────────────
+
+
+class TestSchema14Render:
+    """Smoke-tests voor schema 1.4-render-features (ADR-007 §schema 1.4)."""
+
+    def test_bouwsteen_blok_rendert_waarom_en_voorbeeld(self) -> None:
+        """Bouwsteen-blok schema 1.4 (titel/wat/waarom/voorbeeld_inline/grondslag) rendert volledig."""
+        from tools.leermateriaal.render_concept_fiche import render_record
+
+        record = {
+            "id": "test-bouwsteen",
+            "naam": "Test",
+            "node_type": "begrip",
+            "schema_version": "1.4",
+            "status": "seed",
+            "linked_anchors": ["1.4.I.A"],
+            "_provenance": {"extractor_run": "test", "model": "test", "anchor_id": "1.4.I.A"},
+            "definitie": {"text": "Een definitie."},
+            "bouwstenen": [
+                {
+                    "titel": "Korte titel",
+                    "wat": "Wat-veld",
+                    "waarom": "Waarom-veld",
+                    "voorbeeld_inline": "Aurelia doet X.",
+                    "grondslag": "KB WVV art. 1:14",
+                    "confidence": "grounded",
+                }
+            ],
+        }
+        md = render_record(record)
+        assert "Korte titel" in md
+        assert "Wat-veld" in md
+        assert "Waarom-veld" in md or "Waarom?" in md
+        assert "Aurelia doet X." in md
+
+    def test_synthese_record_rendert_vergelijkingstabel(self) -> None:
+        """node_type: synthese krijgt eigen render-tak met vergelijkingstabel."""
+        from tools.leermateriaal.render_concept_fiche import render_record
+
+        record = {
+            "id": "test-synthese",
+            "naam": "Synthese",
+            "node_type": "synthese",
+            "schema_version": "1.4",
+            "status": "seed",
+            "linked_anchors": ["1.4.I.A"],
+            "gebaseerd_op_concepten": ["concept-a", "concept-b"],
+            "_provenance": {"extractor_run": "test", "model": "test", "anchor_id": "1.4.I.A"},
+            "inleiding": {"text": "Inleidingstekst."},
+            "vergelijkingstabel": {
+                "data": "| A | B |\n|---|---|\n| 1 | 2 |",
+                "confidence": "inferred",
+            },
+        }
+        md = render_record(record)
+        assert "Inleidingstekst." in md
+        assert "Vergelijkingstabel" in md or "| A | B |" in md
+
+    def test_stap_blok_rendert_hoe_en_substappen(self) -> None:
+        """Competentie-stap-blok met hoe + substappen rendert volledig."""
+        from tools.leermateriaal.render_competentie_fiche import render_competentie
+
+        competentie = {
+            "id": "test-comp",
+            "titel": "Test competentie",
+            "status": "voorgesteld",
+            "schema_version": "1.1",
+            "programmaonderdelen": ["1.4"],
+            "voortkomend_uit": {"taken": [], "kenniselementen": []},
+            "gebaseerd_op_concepten": ["concept-a", "concept-b"],
+            "procedure_grondslag": {
+                "wettelijk_pct": 80,
+                "praktijk_pct": 20,
+                "motivering": "Test.",
+            },
+            "stappen": [
+                {
+                    "nr": 1,
+                    "titel": "Eerste stap",
+                    "wat": "Wat-uitleg.",
+                    "hoe": "1. Doe X.\n2. Doe Y.",
+                    "grondslag": "[[concept-a]]",
+                    "voorbeeld": {
+                        "scenario": "Scenario met Aurelia.",
+                        "substappen": [
+                            {"nr": 1, "titel": "Sub", "type": "balans", "data": "| A |\n|---|"},
+                        ],
+                    },
+                }
+            ],
+        }
+        md = render_competentie(competentie)
+        assert "🛠️ Hoe" in md or "**Hoe**" in md
+        assert "Doe X." in md
+        assert "Scenario met Aurelia." in md
+        assert "📊" in md or "Substap" in md
+
+    def test_valkuil_advies_titel_fallback_op_correctie(self) -> None:
+        """Valkuil-render gebruikt advies-veld; valt terug op correctie."""
+        from tools.leermateriaal.render_competentie_fiche import render_competentie
+
+        for valkuil_dict in [
+            {"advies": "Doe altijd Z", "vaak_fout": "Y vergeten", "grondslag": "[[a]]"},
+            {"correctie": "Doe altijd Z", "foute_aanname": "Y vergeten", "grondslag": "[[a]]"},
+        ]:
+            competentie = {
+                "id": "test", "titel": "T", "status": "voorgesteld",
+                "schema_version": "1.0", "programmaonderdelen": ["1.4"],
+                "voortkomend_uit": {"taken": [], "kenniselementen": []},
+                "gebaseerd_op_concepten": ["a", "b"],
+                "procedure_grondslag": {"wettelijk_pct": 100, "praktijk_pct": 0, "motivering": "T"},
+                "stappen": [{
+                    "nr": 1, "titel": "S", "grondslag": "[[a]]",
+                    "valkuilen": [valkuil_dict],
+                }],
+            }
+            md = render_competentie(competentie)
+            assert "Doe altijd Z" in md
+            assert "Y vergeten" in md
+
+
 # ─── Tests: CLI --help ─────────────────────────────────────────────────────────
 
 
