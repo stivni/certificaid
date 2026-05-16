@@ -4,35 +4,15 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": [
-    "1.4.I.F",
-    "1.4.I.C",
-    "1.4.II",
-    "1.4.II.A",
-    "1.4.II.C",
-    "1.4.taak.1"
-  ],
+  "linked_anchors": ["1.4.I.F", "1.4.I.C", "1.4.II", "1.4.II.A", "1.4.II.C", "1.4.taak.1"],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.F",
-    "dekt_ook_anchors": [
-      "1.4.I.C",
-      "1.4.II",
-      "1.4.II.A",
-      "1.4.II.C",
-      "1.4.taak.1"
-    ],
+    "dekt_ook_anchors": ["1.4.I.C", "1.4.II", "1.4.II.A", "1.4.II.C", "1.4.taak.1"],
     "reviewed_by": null,
     "enrich_runs": [
-      {
-        "run_id": "enrich-run-20260515T141848Z",
-        "model": "claude-opus-4-7",
-        "gaps_verwerkt": [
-          "drempelwaarden.ontbreekt"
-        ],
-        "uitgevoerd_op": "2026-05-15T15:00:00+00:00"
-      }
+      {"run_id": "enrich-run-20260515T141848Z", "model": "claude-opus-4-7", "gaps_verwerkt": ["drempelwaarden.ontbreekt"], "uitgevoerd_op": "2026-05-15T15:00:00+00:00"}
     ],
     "schema_1_4_migration": {
       "uitgevoerd_op": "2026-05-16T00:11Z",
@@ -50,338 +30,176 @@
       "uitgevoerd_op": "2026-05-16T00:17Z",
       "tool": "jargon_pass3.py",
       "scope": "deterministische jargon-substituties + cast-namen in voorbeeld-velden (regels 6 + 7)",
-      "aantal_substituties": 9,
-      "voorbeelden": [
-        {
-          "pad": ".definitie.text",
-          "oude_term": "consoliderende vennootschap",
-          "nieuwe_term": "moedervennootschap"
-        },
-        {
-          "pad": ".definitie.text",
-          "oude_term": "consoliderende vennootschap",
-          "nieuwe_term": "moedervennootschap"
-        },
-        {
-          "pad": ".bouwstenen[3].wat",
-          "oude_term": "consoliderende vennootschap",
-          "nieuwe_term": "moedervennootschap"
-        },
-        {
-          "pad": ".bouwstenen[4].wat",
-          "oude_term": "consoliderende vennootschap",
-          "nieuwe_term": "moedervennootschap"
-        },
-        {
-          "pad": ".bouwstenen[4].wat",
-          "oude_term": "in de consolidatie opgenomen dochters",
-          "nieuwe_term": "dochters in de consolidatiekring"
-        }
+      "aantal_substituties": 9
+    },
+    "deep_rewrite_2026_05_16": {
+      "door": "deep-rewrite-batch-2-concepten",
+      "op": "2026-05-16T02:55Z",
+      "velden_gewijzigd": [
+        "definitie.text (stagiair-toon)",
+        "voorbeeld_inline op record-niveau toegevoegd",
+        "bouwstenen[*].wat (stagiair-toon) + waarom + voorbeeld_inline",
+        "in_praktijk[*].betekenis (stagiair-toon)",
+        "valkuilen[*].text (stagiair-toon)",
+        "edges: types geverifieerd"
       ]
     }
   },
   "definitie": {
-    "text": "De jaarrekening die het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel (moedervennootschap + dochterondernemingen in de consolidatiekring) opneemt alsof het om één enkele vennootschap ging. Bestaat uit balans, resultatenrekening en toelichting; deze stukken vormen één geheel. Wordt opgesteld op dezelfde datum als de jaarrekening van de moedervennootschap (KB WVV art. 3:109) en in euro uitgedrukt (KB WVV art. 3:103 jo. WVV art. 3:30, § 2). Geconsolideerde balans en resultatenrekening moeten voortvloeien uit een samenhangend en controleerbaar boekhoudsysteem dat de continuïteit van het ene op het andere jaar verzekert.",
+    "text": "De jaarrekening die het vermogen, de financiële positie en het resultaat van de hele groep (moeder + alle dochters in de consolidatiekring) presenteert alsof het om één bedrijf gaat. Ze bestaat uit balans, resultatenrekening en toelichting — samen één geheel. Ze wordt afgesloten op dezelfde datum als de jaarrekening van de moeder (KB WVV art. 3:109) en uitgedrukt in euro (KB WVV art. 3:103 jo. WVV art. 3:30, § 2). De cijfers moeten voortvloeien uit een samenhangend, controleerbaar boekhoudsysteem dat van jaar tot jaar consistent blijft.",
     "confidence": "grounded",
-    "source": {
-      "type": "kb",
-      "short": "KB WVV art. 3:103 jo. art. 3:107 jo. art. 3:123"
-    },
+    "source": {"type": "kb", "short": "KB WVV art. 3:103 jo. art. 3:107 jo. art. 3:123"},
     "references": [
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:103 (samenstelling)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:104 (toepasselijke standaard — BEGAAP of IFRS)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:105 (getrouw beeld)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:107 (vormvereisten + belangen van derden afzonderlijk)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:108 (boekhoudkundige continuïteit)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:109 (afsluitingsdatum)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:123 (één economische entiteit)"
-      },
-      {
-        "type": "richtlijn",
-        "short": "Richtlijn 2013/34/EU art. 21"
-      },
-      {
-        "type": "wet",
-        "short": "WIB92 art. 321/1, 13° (fiscaal-technische definitie)"
-      }
+      {"type": "kb", "short": "KB WVV art. 3:103 (samenstelling)"},
+      {"type": "kb", "short": "KB WVV art. 3:104 (toepasselijke standaard — BEGAAP of IFRS)"},
+      {"type": "kb", "short": "KB WVV art. 3:105 (getrouw beeld)"},
+      {"type": "kb", "short": "KB WVV art. 3:107 (vormvereisten + belangen van derden afzonderlijk)"},
+      {"type": "kb", "short": "KB WVV art. 3:108 (boekhoudkundige continuïteit)"},
+      {"type": "kb", "short": "KB WVV art. 3:109 (afsluitingsdatum)"},
+      {"type": "kb", "short": "KB WVV art. 3:123 (één economische entiteit)"},
+      {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 21"},
+      {"type": "wet", "short": "WIB92 art. 321/1, 13° (fiscaal-technische definitie)"}
     ],
     "_provenance": {
       "inputs": [
-        {
-          "id": "KB-WVV-2019__art_3_81",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "KB-WVV-2019__art_3_82",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "KB-WVV-2019__art_3_83",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "KB-WVV-2019__art_3_84",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "KB-WVV-2019__art_3_97",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "WIB92__art_321/1__sub_13deg",
-          "sha256": null,
-          "version": "rag-v1"
-        }
+        {"id": "KB-WVV-2019__art_3_81", "sha256": null, "version": "rag-v1"},
+        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"},
+        {"id": "KB-WVV-2019__art_3_83", "sha256": null, "version": "rag-v1"},
+        {"id": "KB-WVV-2019__art_3_84", "sha256": null, "version": "rag-v1"},
+        {"id": "KB-WVV-2019__art_3_97", "sha256": null, "version": "rag-v1"},
+        {"id": "WIB92__art_321/1__sub_13deg", "sha256": null, "version": "rag-v1"}
       ]
-    }
+    },
+    "_corrected_from": [
+      {"field": "text", "from": "De jaarrekening die het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel (moedervennootschap + dochterondernemingen in de consolidatiekring) opneemt alsof het om één enkele vennootschap ging. Bestaat uit balans, resultatenrekening en toelichting; deze stukken vormen één geheel. Wordt opgesteld op dezelfde datum als de jaarrekening van de moedervennootschap (KB WVV art. 3:109) en in euro uitgedrukt (KB WVV art. 3:103 jo. WVV art. 3:30, § 2). Geconsolideerde balans en resultatenrekening moeten voortvloeien uit een samenhangend en controleerbaar boekhoudsysteem dat de continuïteit van het ene op het andere jaar verzekert.", "reason": "Stagiair-toon: 'het geconsolideerde geheel' → 'de hele groep'; 'alsof het om één enkele vennootschap ging' → 'alsof het om één bedrijf gaat' (regel 6)."}
+    ]
   },
+  "voorbeeld_inline": "Aurelia Holding NV stelt op 31 december 20X1 één geconsolideerde jaarrekening op die de cijfers van Aurelia + Brugse Brouwerij BV (80 %) + Bouwwerf Beerse BV (100 %) samenvoegt — alsof alledrie samen één bedrijf zijn. Onderlinge vorderingen tussen Aurelia en Brugse verdwijnen; 20 % van het eigen vermogen van Brugse staat apart als belangen van derden.",
   "bouwstenen": [
     {
-      "titel": "Beginsel van één economische entiteit",
-      "wat": "In de geconsolideerde jaarrekening worden het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel opgenomen 'alsof het om één enkele vennootschap ging'. Deze fictie verklaart de eliminatie van intra-groeptransacties en de afzondering van belangen van derden.",
+      "titel": "Eén economische entiteit",
+      "wat": "In de geconsolideerde jaarrekening verschijnt de hele groep (moeder + dochters in de consolidatiekring) alsof het één bedrijf is. Die fictie verklaart waarom je transacties binnen de groep schrapt en waarom belangen van derden apart komen.",
+      "waarom": "Beleggers, schuldeisers en andere derden willen zien hoe de groep er als geheel voorstaat — niet de versnipperde cijfers van elke vennootschap apart. De fictie 'één bedrijf' levert dat groepsbeeld.",
+      "voorbeeld_inline": "Aurelia verkoopt voor 50 aan Brugse; in de geconsolideerde jaarrekening verdwijnt die verkoop, omdat de groep niet aan zichzelf kan verkopen.",
       "grondslag": "KB WVV art. 3:123",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:123"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_97",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
+      "source": {"type": "kb", "short": "KB WVV art. 3:123"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_97", "sha256": null, "version": "rag-v1"}]},
       "_corrected_from": {
-        "veld": "bouwsteen[naam→titel, text→wat]",
-        "oude_naam": "Beginsel van één economische entiteit (KB WVV art. 3:123)",
-        "reden": "Schema 1.2→1.4: bouwsteen-blok met titel/wat/grondslag. Wetsartikel uit titel naar grondslag (regel 11). Stagiair-toon-rewrite pending mens-review."
+        "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
+        "oude_wat": "In de geconsolideerde jaarrekening worden het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel opgenomen 'alsof het om één enkele vennootschap ging'. Deze fictie verklaart de eliminatie van intra-groeptransacties en de afzondering van belangen van derden.",
+        "reden": "Stagiair-toon + cast-voorbeeld (regels 6 + 7 + 11)."
       }
     },
     {
-      "titel": "Vormvereisten",
-      "wat": "De geconsolideerde jaarrekening moet duidelijk worden opgesteld en stelselmatig weergeven, op afsluitingsdatum, de aard en het bedrag van de bezittingen/rechten, schulden/verplichtingen en eigen middelen van het geconsolideerde geheel, alsook voor het boekjaar de aard en het bedrag van de opbrengsten en kosten. Belangen van derden worden afzonderlijk vermeld in balans en resultatenrekening. Compensatie tussen tegoeden en schulden, tussen rechten en verplichtingen, en tussen opbrengsten en kosten is verboden behoudens uitzonderingen in dit hoofdstuk.",
+      "titel": "Vormvereisten en compensatieverbod",
+      "wat": "De geconsolideerde jaarrekening moet duidelijk en stelselmatig opgemaakt worden. Op afsluitingsdatum moet ze de bezittingen en rechten, schulden en verplichtingen en eigen middelen van de hele groep tonen, en voor het boekjaar de opbrengsten en kosten. Belangen van derden vermeld je apart op de balans en in de resultatenrekening. Tegoeden en schulden, rechten en verplichtingen, opbrengsten en kosten mag je niet tegen elkaar wegstrepen — behalve waar het KB dat expliciet toestaat.",
+      "waarom": "Het compensatieverbod beschermt de informatiewaarde van de jaarrekening: zonder dat verbod zou een groep tegoeden tegen schulden kunnen wegstrepen en zo de werkelijke omvang van haar verplichtingen verbergen.",
+      "voorbeeld_inline": "Aurelia heeft 200 tegoeden bij niet-verbonden klanten en 150 schulden aan niet-verbonden leveranciers; beide blijven in de geconsolideerde balans afzonderlijk staan.",
       "grondslag": "KB WVV art. 3:107",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:107"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_83",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
+      "source": {"type": "kb", "short": "KB WVV art. 3:107"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_83", "sha256": null, "version": "rag-v1"}]},
       "_corrected_from": {
-        "veld": "bouwsteen[naam→titel, text→wat]",
-        "oude_naam": "Vormvereisten (KB WVV art. 3:107)",
-        "reden": "Schema 1.2→1.4: bouwsteen-blok met titel/wat/grondslag. Wetsartikel uit titel naar grondslag (regel 11). Stagiair-toon-rewrite pending mens-review."
+        "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
+        "oude_wat": "De geconsolideerde jaarrekening moet duidelijk worden opgesteld en stelselmatig weergeven, op afsluitingsdatum, de aard en het bedrag van de bezittingen/rechten, schulden/verplichtingen en eigen middelen van het geconsolideerde geheel, alsook voor het boekjaar de aard en het bedrag van de opbrengsten en kosten. Belangen van derden worden afzonderlijk vermeld in balans en resultatenrekening. Compensatie tussen tegoeden en schulden, tussen rechten en verplichtingen, en tussen opbrengsten en kosten is verboden behoudens uitzonderingen in dit hoofdstuk.",
+        "reden": "Stagiair-toon + waarom + voorbeeld (regels 6 + 11)."
       }
     },
     {
-      "titel": "Keuze tussen Belgisch boekhoudrecht en IFRS",
-      "wat": "Standaard: opstellen overeenkomstig de bepalingen van titel 2 van het KB WVV (Belgisch consolidatierecht). § 2: het bestuursorgaan kan beslissen om de geconsolideerde jaarrekening op te stellen met toepassing van het geheel van de internationale boekhoudnormen (IFRS zoals aangenomen door de EU op grond van Verordening 1606/2002). Deze beslissing is onherroepbaar; de toelichting vermeldt dat de onderneming over de nodige middelen beschikt en dat zij alle door de Europese Commissie aangenomen IFRS toepast.",
+      "titel": "Keuze tussen BEGAAP en IFRS",
+      "wat": "Standaard volg je het Belgisch consolidatierecht (titel 2 KB WVV). Het bestuursorgaan kan beslissen om in plaats daarvan IFRS te gebruiken (zoals door de EU aangenomen — Verordening 1606/2002). Die keuze is definitief: je kunt achteraf niet meer terugschakelen. In de toelichting bevestig je dat de onderneming over de nodige middelen beschikt en dat ze alle IFRS-normen toepast die de Europese Commissie heeft aangenomen.",
+      "waarom": "De onherroepelijkheid voorkomt dat een groep heen en weer schakelt tussen normenstelsels naargelang dat in een bepaald jaar gunstig uitkomt. Voor lezers van de jaarrekening blijven cijfers van jaar tot jaar vergelijkbaar.",
+      "voorbeeld_inline": "Aurelia Holding NV beslist in 20X1 om voor de geconsolideerde jaarrekening over te stappen naar IFRS. Vanaf dat boekjaar volgt ze IFRS; terugschakelen naar BEGAAP is niet meer mogelijk.",
       "grondslag": "KB WVV art. 3:104",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:104"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_82",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
+      "source": {"type": "kb", "short": "KB WVV art. 3:104"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}]},
       "_corrected_from": {
-        "veld": "bouwsteen[naam→titel, text→wat]",
-        "oude_naam": "Keuze tussen Belgisch boekhoudrecht en IFRS (KB WVV art. 3:104)",
-        "reden": "Schema 1.2→1.4: bouwsteen-blok met titel/wat/grondslag. Wetsartikel uit titel naar grondslag (regel 11). Stagiair-toon-rewrite pending mens-review."
+        "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
+        "oude_wat": "Standaard: opstellen overeenkomstig de bepalingen van titel 2 van het KB WVV (Belgisch consolidatierecht). § 2: het bestuursorgaan kan beslissen om de geconsolideerde jaarrekening op te stellen met toepassing van het geheel van de internationale boekhoudnormen (IFRS zoals aangenomen door de EU op grond van Verordening 1606/2002). Deze beslissing is onherroepbaar; de toelichting vermeldt dat de onderneming over de nodige middelen beschikt en dat zij alle door de Europese Commissie aangenomen IFRS toepast.",
+        "reden": "Stagiair-toon + waarom + voorbeeld (regels 6 + 11)."
       }
     },
     {
       "titel": "Afsluitingsdatum",
-      "wat": "De geconsolideerde jaarrekening wordt op dezelfde datum afgesloten als de jaarrekening van de moedervennootschap. Andere datum is mogelijk om rekening te houden met de balansdatum van de meeste of belangrijkste in de consolidatie opgenomen ondernemingen — mits motivering in de toelichting (KB WVV art. 3:111).",
-      "grondslag": "KB WVV art. 3:109",
+      "wat": "De geconsolideerde jaarrekening sluit in principe af op dezelfde datum als de jaarrekening van de moeder. Wijk je af, dan moet die andere datum rekening houden met de afsluitingsdatum van de meeste of belangrijkste dochters in de consolidatie — en je motiveert het in de toelichting (KB WVV art. 3:111).",
+      "waarom": "Eén gemeenschappelijke afsluitingsdatum garandeert dat je de cijfers van moeder en dochters kunt optellen zonder vergelijkbaarheidsproblemen.",
+      "voorbeeld_inline": "Aurelia (afsluitdatum 31 december) consolideert Brugse en Bouwwerf Beerse, die beide op 31 december afsluiten → geconsolideerde jaarrekening op 31 december.",
+      "grondslag": "KB WVV art. 3:109 jo. art. 3:111",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:109 jo. art. 3:111"
-      },
+      "source": {"type": "kb", "short": "KB WVV art. 3:109 jo. art. 3:111"},
       "_provenance": {
         "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_85",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "KB-WVV-2019__art_3_87",
-            "sha256": null,
-            "version": "rag-v1"
-          }
+          {"id": "KB-WVV-2019__art_3_85", "sha256": null, "version": "rag-v1"},
+          {"id": "KB-WVV-2019__art_3_87", "sha256": null, "version": "rag-v1"}
         ]
       },
       "_corrected_from": {
-        "veld": "bouwsteen[naam→titel, text→wat]",
-        "oude_naam": "Afsluitingsdatum (KB WVV art. 3:109)",
-        "reden": "Schema 1.2→1.4: bouwsteen-blok met titel/wat/grondslag. Wetsartikel uit titel naar grondslag (regel 11). Stagiair-toon-rewrite pending mens-review."
+        "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
+        "oude_wat": "De geconsolideerde jaarrekening wordt op dezelfde datum afgesloten als de jaarrekening van de moedervennootschap. Andere datum is mogelijk om rekening te houden met de balansdatum van de meeste of belangrijkste in de consolidatie opgenomen ondernemingen — mits motivering in de toelichting (KB WVV art. 3:111).",
+        "reden": "Stagiair-toon + waarom + voorbeeld (regels 6 + 11)."
       }
     },
     {
       "titel": "Volledigheid",
-      "wat": "Onverminderd specifieke eliminatie-/derden-bepalingen bevat de geconsolideerde jaarrekening alle bezittingen en schulden en alle rechten en verplichtingen van de moedervennootschap en van de dochters in de consolidatiekring op de afsluitingsdatum, alsmede alle opbrengsten en kosten.",
+      "wat": "Behalve voor de wettelijke eliminaties en de afzondering van derden bevat de geconsolideerde jaarrekening op afsluitingsdatum alle bezittingen en schulden, alle rechten en verplichtingen, en alle opbrengsten en kosten van de moeder en van de dochters in de consolidatiekring.",
+      "waarom": "Volledigheid is de keerzijde van de fictie 'één bedrijf': om de groep eerlijk weer te geven, mag je niets weglaten dat economisch tot de groep behoort.",
+      "voorbeeld_inline": "Aurelia heeft hangende borgstellingen voor Brugse en Bouwwerf Beerse → die staan integraal in de toelichting van de geconsolideerde jaarrekening, niet alleen in de enkelvoudige jaarrekening van Aurelia.",
       "grondslag": "KB WVV art. 3:110",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:110"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_86",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      },
+      "source": {"type": "kb", "short": "KB WVV art. 3:110"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_86", "sha256": null, "version": "rag-v1"}]},
       "_corrected_from": {
-        "veld": "bouwsteen[naam→titel, text→wat]",
-        "oude_naam": "Volledigheid (KB WVV art. 3:110)",
-        "reden": "Schema 1.2→1.4: bouwsteen-blok met titel/wat/grondslag. Wetsartikel uit titel naar grondslag (regel 11). Stagiair-toon-rewrite pending mens-review."
+        "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
+        "oude_wat": "Onverminderd specifieke eliminatie-/derden-bepalingen bevat de geconsolideerde jaarrekening alle bezittingen en schulden en alle rechten en verplichtingen van de moedervennootschap en van de dochters in de consolidatiekring op de afsluitingsdatum, alsmede alle opbrengsten en kosten.",
+        "reden": "Stagiair-toon + waarom + voorbeeld (regels 6 + 11)."
       }
     }
   ],
   "in_praktijk": [
     {
       "aspect": "Toewijzing van het resultaat van de moeder",
-      "betekenis": "Behalve wanneer KB WVV art. 3:109, tweede lid wordt toegepast, wordt de geconsolideerde balans opgesteld na toewijzing — d.w.z. na bestemming van het niet-geconsolideerde resultaat van de moedervennootschap (KB WVV art. 3:114).",
+      "betekenis": "De geconsolideerde balans wordt opgesteld nadat het resultaat van de moeder bestemd is — winstuitkering, reserveringen, overdracht naar volgend boekjaar (KB WVV art. 3:114). Uitzondering: als KB WVV art. 3:109, tweede lid wordt toegepast (afwijkende afsluitingsdatum), gebeurt dat anders.",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:114"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_90",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "kb", "short": "KB WVV art. 3:114"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_90", "sha256": null, "version": "rag-v1"}]}
     },
     {
-      "aspect": "Wijzigingen in de consolidatiekring (KB WVV art. 3:102 jo. art. 3:152)",
-      "betekenis": "Indien de samenstelling van het geconsolideerde geheel in de loop van het boekjaar een aanmerkelijke wijziging heeft ondergaan, moet de toelichting inlichtingen bevatten die een zinvolle vergelijking met vorige jaren mogelijk maken. Bij elke post wordt het bedrag van het overeenkomstige post van het vorige boekjaar vermeld (KB WVV art. 3:152).",
+      "aspect": "Wijzigingen in de consolidatiekring",
+      "betekenis": "Verandert de samenstelling van de groep tijdens het boekjaar wezenlijk (bv. Aurelia verwerft Bouwwerf Beerse in juni), dan moet de toelichting genoeg context geven om een zinvolle vergelijking met vorige boekjaren mogelijk te maken. Naast elke balans- of resultatenrekeningpost vermeld je het overeenkomstige bedrag van het vorige boekjaar (KB WVV art. 3:152).",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:102 jo. art. 3:152"
-      },
+      "source": {"type": "kb", "short": "KB WVV art. 3:102 jo. art. 3:152"},
       "_provenance": {
         "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_80",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "KB-WVV-2019__art_3_122",
-            "sha256": null,
-            "version": "rag-v1"
-          }
+          {"id": "KB-WVV-2019__art_3_80", "sha256": null, "version": "rag-v1"},
+          {"id": "KB-WVV-2019__art_3_122", "sha256": null, "version": "rag-v1"}
         ]
-      }
+      },
+      "_corrected_from": [
+        {"field": "betekenis", "from": "Indien de samenstelling van het geconsolideerde geheel in de loop van het boekjaar een aanmerkelijke wijziging heeft ondergaan, moet de toelichting inlichtingen bevatten die een zinvolle vergelijking met vorige jaren mogelijk maken. Bij elke post wordt het bedrag van het overeenkomstige post van het vorige boekjaar vermeld (KB WVV art. 3:152).", "reason": "Stagiair-toon + cast-voorbeeld (regels 6 + 7)."}
+      ]
     }
   ],
   "vergelijkingsparen": [],
   "valkuilen": [
     {
-      "text": "De keuze voor IFRS (KB WVV art. 3:104, § 2) is onherroepbaar — een onderneming die eenmaal voor IFRS-consolidatie heeft gekozen, kan niet meer terugschakelen naar Belgisch boekhoudrecht.",
+      "text": "De keuze voor IFRS (KB WVV art. 3:104, § 2) is onherroepbaar. Een onderneming die eenmaal voor IFRS-consolidatie heeft gekozen, kan niet meer terugschakelen naar Belgisch boekhoudrecht.",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:104, § 2"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_82",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "kb", "short": "KB WVV art. 3:104, § 2"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}]}
     },
     {
-      "text": "Een vennootschap die niet wettelijk consolidatieplichtig is maar vrijwillig of op grond van bijzondere bepalingen een geconsolideerde jaarrekening publiceert, moet die opstellen volgens hetzelfde wettelijke kader (KB WVV art. 3:112).",
+      "text": "Een vennootschap die niet wettelijk consolidatieplichtig is maar toch vrijwillig (of op grond van bijzondere bepalingen) een geconsolideerde jaarrekening publiceert, moet die opstellen volgens hetzelfde wettelijke kader (KB WVV art. 3:112). Vrijwillig consolideren = vrijwillig de regels volgen.",
       "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:112"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_88",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "kb", "short": "KB WVV art. 3:112"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_88", "sha256": null, "version": "rag-v1"}]}
     },
     {
-      "text": "De fiscale definitie in WIB92 art. 321/1, 13° verwijst naar 'multinationale groepen' (Pillar Two context). Verwar deze fiscaaltechnische definitie niet met het algemeen boekhoudrechtelijk begrip van de geconsolideerde jaarrekening (KB WVV).",
+      "text": "WIB92 art. 321/1, 13° geeft een fiscaaltechnische definitie voor 'multinationale groepen' (Pillar Two-context). Verwar die niet met de gewone boekhoudrechtelijke geconsolideerde jaarrekening (KB WVV). Verschillende doelen, andere drempels.",
       "confidence": "grounded",
-      "source": {
-        "type": "wet",
-        "short": "WIB92 art. 321/1, 13°"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "WIB92__art_321/1__sub_13deg",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "wet", "short": "WIB92 art. 321/1, 13°"},
+      "_provenance": {"inputs": [{"id": "WIB92__art_321/1__sub_13deg", "sha256": null, "version": "rag-v1"}]}
     }
   ],
   "drempelwaarden": [
@@ -389,64 +207,43 @@
       "naam": "Maximale afwijking afsluitingsdatum dochter ↔ geconsolideerde jaarrekening",
       "waarde": "3",
       "eenheid": "maanden",
-      "gevolg": "KB WVV art. 3:110, tweede lid: indien het uiterst moeilijk is om de bezittingen en schulden, rechten en verplichtingen, of de opbrengsten en kosten van de moedervennootschap of van een dochteronderneming op te nemen op de afsluitingsdatum van de geconsolideerde jaarrekening (of wanneer die opname de opstelling en openbaarmaking uitermate zou vertragen), mogen die op een ander tijdstip in aanmerking worden genomen — mits tussen beide data of beschouwde periodes 'onder geen enkel beding' meer dan drie maanden ligt. De afwijking geldt zowel vóór als na de afsluitingsdatum (CBN-praktijk bevestigt deze interpretatie). De toepassing moet in de toelichting worden gemotiveerd.",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:110, tweede lid"
-      },
+      "gevolg": "KB WVV art. 3:110, tweede lid: als het uiterst moeilijk is om bezittingen, schulden, rechten, verplichtingen, opbrengsten of kosten van de moeder of van een dochter op te nemen op de afsluitingsdatum van de geconsolideerde jaarrekening (of als dat de opstelling en publicatie sterk zou vertragen), mag je ze op een ander tijdstip in aanmerking nemen — mits er tussen beide data of periodes 'onder geen enkel beding' meer dan drie maanden zit. Geldt zowel vóór als na de afsluitingsdatum. Motivering in de toelichting verplicht. Bv. Aurelia (afsluiting 31 december) consolideert Holsters Horst BV (afsluiting 30 september) → afwijking precies 3 maanden, nog binnen de regel.",
+      "source": {"type": "kb", "short": "KB WVV art. 3:110, tweede lid"},
       "confidence": "grounded",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_86",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_86", "sha256": null, "version": "rag-v1"}]}
     }
   ],
   "edges": [
     {
-      "type": "contrasteert-met",
+      "type": "bevat",
       "target": "geconsolideerd-jaarverslag",
-      "redenering": "De geconsolideerde jaarrekening is een gestandaardiseerd cijfermatig stuk (balans, resultatenrekening, toelichting). Het geconsolideerd jaarverslag is een vrij toelichtend stuk dat de evolutie en de toekomstverwachtingen van de groep beschr",
+      "redenering": "Het geconsolideerd jaarverslag begeleidt altijd de geconsolideerde jaarrekening (samen opgesteld, gecontroleerd en gepubliceerd). De jaarrekening is het cijfermatige deel, het jaarverslag het narratieve deel.",
       "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+        "veld": "contrasteert-met → bevat",
+        "reden": "Schema 1.4 regel 9: relatie is compositioneel (samenpaard), niet contrast."
       },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "_provenance": {"inputs": [{"id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1"}]}
     },
     {
-      "type": "contrasteert-met",
+      "type": "getriggerd-door",
       "target": "consolidatieverplichting",
-      "redenering": "Consolidatieverplichting is de juridische plicht; de geconsolideerde jaarrekening is het uitvoerend product van die plicht.",
+      "redenering": "De plicht om een geconsolideerde jaarrekening op te stellen volgt uit de consolidatieverplichting (controle + geen vrijstelling).",
       "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+        "veld": "contrasteert-met → getriggerd-door",
+        "reden": "Schema 1.4 regel 9: relatie is functioneel (gevolg van plicht), niet contrast."
       },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_82",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}]}
     },
     {
       "type": "vereist-kennis-van",
       "target": "consolidatiekring",
-      "redenering": "Geconsolideerde jaarrekening dekt alleen de vennootschappen in de consolidatiekring.",
+      "redenering": "De geconsolideerde jaarrekening dekt alleen de vennootschappen die binnen de consolidatiekring vallen.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "bevat",
+      "target": "minderheidsbelangen",
+      "redenering": "Belangen van derden (minderheidsbelangen) worden expliciet apart vermeld in balans en resultatenrekening van de geconsolideerde jaarrekening (KB WVV art. 3:107).",
       "confidence": "inferred"
     }
   ]

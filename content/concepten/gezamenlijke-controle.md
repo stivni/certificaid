@@ -20,36 +20,41 @@ gegenereerd_op: '2026-05-16'
 ---
 # Gezamenlijke controle ⚖️
 
-> De controle die een beperkt aantal vennoten samen uitoefenen, wanneer zij zijn overeengekomen dat beslissingen omtrent de oriëntatie van het beleid niet zonder hun gemeenschappelijke instemming kunnen worden genomen. Een gemeenschappelijke dochtervennootschap is de vennootschap ten opzichte waarvan een gezamenlijke controle bestaat. In geval van gezamenlijke controle geldt een wettelijk en onweerlegbaar vermoeden van controle door de vennoten die de gezamenlijke controle uitoefenen.
+> De controle die een beperkt aantal vennoten samen uitoefenen, op grond van een overeenkomst dat beleidsbeslissingen alleen met hun gemeenschappelijke instemming kunnen worden genomen. De vennootschap die het voorwerp is van die gezamenlijke controle heet een gemeenschappelijke dochter. Onweerlegbaar vermoeden: elk van de vennoten die de gezamenlijke controle uitoefent wordt wettelijk geacht controle te hebben over de gemeenschappelijke dochter.
 >
 > _Bron: CBN 2017/02 — Gezamenlijke controle (groottecriteria-update)_
 
 
 > [!summary] Korte definitie
-> De controle die een beperkt aantal vennoten samen uitoefenen, wanneer zij zijn overeengekomen dat beslissingen omtrent de oriëntatie van het beleid niet zonder hun gemeenschappelijke instemming kunnen worden genomen.
+> De controle die een beperkt aantal vennoten samen uitoefenen, op grond van een overeenkomst dat beleidsbeslissingen alleen met hun gemeenschappelijke instemming kunnen worden genomen.
 
 > [!info] Specialisatie van: [[controle]]
 ## In de praktijk
 
 ### Gevolg voor consolidatie {id="gevolg-voor-consolidatie"}
 
-De gemeenschappelijke dochter wordt in regel evenredig (proportioneel) geconsolideerd: de bezittingen en schulden, opbrengsten en kosten worden opgenomen naar rato van de kapitaalrechten in de dochter (KB WVV art. 3:140). Bij gemeenschappelijke dochters waarvan het bedrijf niet nauw geïntegreerd is in het bedrijf van de moeder, kan in plaats daarvan de vermogensmutatiemethode worden toegepast. ⚖️
+Standaard wordt de gemeenschappelijke dochter evenredig (pro-rata) geconsolideerd: Cardinal Group en Energiehuis Evergem nemen elk 50 % van de bezittingen, schulden, opbrengsten en kosten van Filmstudio Florence op (KB WVV art. 3:140). Uitzondering: als het bedrijf van Filmstudio Florence niet nauw geïntegreerd is in dat van de moeders, mag in plaats daarvan de vermogensmutatiemethode worden toegepast. ⚖️
 
 **Herkenningspunt**: Twee vennootschappen elk 50 % met aandeelhoudersovereenkomst over beleid → gezamenlijke controle → evenredige consolidatie.
 
-### Onweerlegbaar vermoeden van controle door elke gezamenlijke vennoot {id="onweerlegbaar-vermoeden-van-controle-door-elke-gezamenlijke-vennoot"}
+### Onweerlegbaar vermoeden van individuele controle {id="onweerlegbaar-vermoeden-van-individuele-controle"}
 
-In geval van gezamenlijke controle wordt elke vennoot afzonderlijk vermoed controle uit te oefenen (onweerlegbaar). Dit heeft o.a. tot gevolg dat elke vennoot en de gemeenschappelijke dochter 'verbonden vennootschappen' worden, met impact op de groottecriteria en op de transparantievereisten. ⚖️
+Bij gezamenlijke controle wordt elke vennoot afzonderlijk geacht individueel controle te hebben — onweerlegbaar. Gevolg: elke vennoot en de gemeenschappelijke dochter worden 'verbonden vennootschappen' (met impact op groottecriteria en transparantievereisten). Bv. zowel Cardinal Group als Energiehuis Evergem zijn elk verbonden met Filmstudio Florence; zij zijn echter níet onderling verbonden met elkaar. ⚖️
 
 
 ## Voorwaarden
 
 - Een beperkt aantal vennoten (typisch 2 of 3) die samen het beleid bepalen. ⚖️
-- Een overeenkomst (uitdrukkelijk of impliciet, vaak in een aandeelhoudersovereenkomst) dat beleidsbeslissingen alleen met gemeenschappelijke instemming kunnen worden genomen. ⚖️
+- Er is een overeenkomst (uitdrukkelijk of impliciet, vaak in een aandeelhoudersovereenkomst) dat beleidsbeslissingen alleen met gemeenschappelijke instemming mogen worden genomen. ⚖️
 ## Valkuilen
 
-- ⚠️ Twee vennootschappen die elk 50 % bezitten zonder overeenkomst over beleidsbeslissingen vormen géén gezamenlijke controle — er is dan helemaal geen controle. Geen overeenkomst, geen vermoeden. ⚖️
-- ⚠️ De vennoten die samen een gemeenschappelijke dochter controleren, zijn daardoor niet automatisch onderling 'verbonden vennootschappen' — uit geen enkele WVV-bepaling volgt dat. Enkel elke vennoot afzonderlijk is verbonden met de gemeenschappelijke dochter. ⚖️
+- ⚠️ Twee vennootschappen die elk 50 % bezitten zonder overeenkomst over beleidsbeslissingen vormen géén gezamenlijke controle — er is dan helemaal geen controle. Geen overeenkomst, geen vermoeden. Bv. zonder aandeelhoudersovereenkomst tussen Cardinal Group en Energiehuis Evergem is Filmstudio Florence geen gemeenschappelijke dochter. ⚖️
+- ⚠️ De vennoten die samen een gemeenschappelijke dochter controleren zijn daardoor niet automatisch onderling 'verbonden vennootschappen'. Cardinal Group en Energiehuis Evergem zijn elk wel met Filmstudio Florence verbonden, maar niet met elkaar. ⚖️
+
+## Zie ook
+
+- **Getriggerd door**: [[gemeenschappelijke-dochteronderneming]]
+- **Getriggerd door**: [[evenredige-consolidatie]]
 
 ## Bronnen
 

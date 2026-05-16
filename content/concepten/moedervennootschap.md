@@ -22,31 +22,34 @@ gegenereerd_op: '2026-05-16'
 ---
 # Moedervennootschap ⚖️
 
-> De vennootschap die een controlebevoegdheid uitoefent over een andere vennootschap (de dochtervennootschap). De moedervennootschap is in beginsel verplicht om een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen, te laten controleren en bekend te maken indien zij, alleen of gezamenlijk, één of meer dochterondernemingen controleert. De moedervennootschap is de moedervennootschap die in een concreet consolidatie-oefening de jaarrekening opstelt.
+> Een vennootschap die controle uitoefent over een andere vennootschap (de dochter). De moeder is in principe verplicht om een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te stellen, te laten controleren door de commissaris en te publiceren, zodra ze — alleen of samen met anderen — minstens één dochter controleert.
 >
 > _Bron: WVV art. 1:15, 1° jo. art. 3:22_
 
 
 > [!summary] Korte definitie
-> De vennootschap die een controlebevoegdheid uitoefent over een andere vennootschap (de dochtervennootschap).
+> Een vennootschap die controle uitoefent over een andere vennootschap (de dochter).
 
 > [!info] Behoort tot: [[consolidatiekring]]
+> [!info] Bestaat uit: [[dochteronderneming]]
 ## In de praktijk
 
-### Onderscheid moedervennootschap versus moedervennootschap {id="onderscheid-moedervennootschap-versus-moedervennootschap"}
+### Onderscheid moeder versus moeder-die-effectief-consolideert {id="onderscheid-moeder-versus-moeder-die-effectief-consolideert"}
 
-Elke moedervennootschap is een moedervennootschap, maar niet elke moedervennootschap consolideert effectief (bv. vrijstelling van subconsolidatie indien de eigen moedervennootschap hogerop al consolideert en aan de voorwaarden is voldaan). 'Consoliderende vennootschap' is dus een rol binnen één concrete consolidatie-oefening; 'moedervennootschap' is een juridisch statuut. 🤖
+Elke moeder is in beginsel consolidatieplichtig, maar niet elke moeder consolideert effectief. Zo kan een tussenliggende moeder vrijgesteld zijn van subconsolidatie wanneer haar eigen moeder hogerop al consolideert (en aan de voorwaarden voldoet). 'Moeder die consolideert' is dus een rol binnen één concrete oefening; 'moeder' tout court is een juridisch statuut. Voorbeeld-keten: Kappers Köln GmbH (top-moeder) → Aurelia Holding NV (tussen-moeder) → Brugse Brouwerij BV. Zowel Kappers als Aurelia zijn moeder; alleen Kappers consolideert effectief (Aurelia geniet vrijstelling subconsolidatie). 🤖
 
-**Herkenningspunt**: Bij een keten M-A-B: zowel M als A zijn moedervennootschappen (M t.o.v. A en B; A t.o.v. B); enkel M (of A, indien M niet consolideert) is moedervennootschap.
+**Herkenningspunt**: Bij een groepsketen: identificeer eerst alle moeder-relaties; bepaal pas daarna wie effectief moet consolideren.
 
 
 ## Valkuilen
 
-- ⚠️ Een maatschap zonder rechtspersoonlijkheid kan niet als moedervennootschap kwalificeren — zelfs niet wanneer zij economisch alle deelnemingen aanhoudt. Bijgevolg kan een geconsolideerde jaarrekening op het niveau van de maatschap niet worden opgesteld en vervalt de vrijstelling van subconsolidatie voor de onderliggende vennootschappen. ⚖️
-- ⚠️ Een natuurlijke persoon die meerderheidsstemrechten in twee vennootschappen aanhoudt, vormt geen moedervennootschap — de twee vennootschappen vormen mogelijk een consortium met gezamenlijke consolidatieverplichting, maar de natuurlijke persoon zelf is niet consolidatieplichtig. ⚖️
+- ⚠️ Een maatschap zonder rechtspersoonlijkheid kan geen moeder zijn — zelfs niet als zij economisch alle deelnemingen aanhoudt. Gevolg: er kan geen geconsolideerde jaarrekening op het niveau van de maatschap worden opgesteld, en de vrijstelling van subconsolidatie voor de onderliggende vennootschappen vervalt. ⚖️
+- ⚠️ Een natuurlijke persoon (zoals Pieter Vermeulen) die meerderheidsstemrechten in twee vennootschappen aanhoudt, is daarmee zelf geen moeder. De twee vennootschappen vormen mogelijk wel een consortium met gezamenlijke consolidatieplicht, maar Pieter Vermeulen zelf hoeft géén geconsolideerde jaarrekening op te stellen. ⚖️
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Zie ook
+
+- **Getriggerd door**: [[consolidatieverplichting]]
+- **Vereist kennis van**: [[controle]]
 
 ## Bronnen
 

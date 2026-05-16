@@ -21,29 +21,33 @@ gegenereerd_op: '2026-05-16'
 ---
 # IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12) 🤖
 
-> Het geheel van IAS/IFRS-standaarden die het wettelijk kader voor geconsolideerde jaarrekeningen onder IFRS vormen, in het bijzonder IFRS 3 (bedrijfscombinaties), IFRS 10 (geconsolideerde jaarrekeningen / definitie controle), IFRS 11 (gezamenlijke regelingen) en IFRS 12 (informatieverschaffing over belangen in andere entiteiten). Voor een Belgische moedervennootschap is dit raamwerk slechts van toepassing wanneer ofwel (a) een wettelijke verplichting bestaat om onder IFRS te consolideren (bv. beursgenoteerd op een gereglementeerde EU-markt — Verordening 1606/2002 art. 4), ofwel (b) het bestuursorgaan op grond van KB WVV art. 3:104, § 2 onherroepbaar voor IFRS-consolidatie heeft gekozen.
+> De verzameling IAS/IFRS-standaarden die het wettelijk kader bepalen voor een geconsolideerde jaarrekening onder IFRS. Voor consolidatie zijn vier standaarden centraal: IFRS 3 (bedrijfscombinaties), IFRS 10 (geconsolideerde jaarrekeningen + definitie van controle), IFRS 11 (gezamenlijke regelingen) en IFRS 12 (informatieverschaffing over belangen). Voor een Belgische moeder geldt dit raamwerk in twee gevallen: (a) verplicht wanneer ze beursgenoteerd is op een gereglementeerde EU-markt (Verordening 1606/2002 art. 4); (b) vrijwillig wanneer haar bestuursorgaan op basis van KB WVV art. 3:104, § 2 onherroepelijk voor IFRS-consolidatie kiest.
 >
 > _Bron: EU Verordening 1606/2002 jo. KB WVV art. 3:104, § 2_
 
 
 > [!summary] Korte definitie
-> Het geheel van IAS/IFRS-standaarden die het wettelijk kader voor geconsolideerde jaarrekeningen onder IFRS vormen, in het bijzonder IFRS 3 (bedrijfscombinaties), IFRS 10 (geconsolideerde jaarrekeningen / definitie controle), IFRS 11 (gezamenlijke regelingen) en IFRS 12 (informatieverschaffing over belangen in andere entiteiten).
+> De verzameling IAS/IFRS-standaarden die het wettelijk kader bepalen voor een geconsolideerde jaarrekening onder IFRS.
 
 ## Bouwstenen
 
-### Verordening 1606/2002 — verplichte IFRS ⚖️
+### Verplichte IFRS voor genoteerde groepen ⚖️
 
-De verordening verplicht beursgenoteerde EU-vennootschappen om hun geconsolideerde jaarrekening op te stellen volgens de IAS/IFRS zoals aangenomen door de Europese Commissie. 'Internationale standaarden voor jaarrekeningen' omvat IAS, IFRS en de daarmee verband houdende interpretaties (SIC/IFRIC), wijzigingen, en toekomstige standaarden vastgesteld of goedgekeurd door de IASB.
+Verordening 1606/2002 verplicht beursgenoteerde EU-vennootschappen om hun geconsolideerde jaarrekening op te stellen volgens de IAS/IFRS zoals aangenomen door de Europese Commissie. 'Internationale standaarden voor jaarrekeningen' omvat IAS, IFRS, de bijbehorende interpretaties (SIC/IFRIC), wijzigingen, en toekomstige standaarden vastgesteld of goedgekeurd door de IASB.
 
+**Waarom?** Eén gemeenschappelijke taal voor genoteerde groepen in heel de EU bevordert vergelijkbaarheid tussen ondernemingen en grensoverschrijdende investeringen.
 
+**Voorbeeld**: Aurelia Holding NV (beursgenoteerd op Euronext Brussels) consolideert verplicht onder IFRS; een niet-genoteerde groep zoals Antwerpse Investments NV mag onder BEGAAP blijven (tenzij het bestuur vrijwillig voor IFRS kiest).
 
-_Grondslag: Verordening 1606/2002 art. 2_
+_Grondslag: Verordening 1606/2002 art. 2 jo. art. 4_
 
-### Onherroepelijke keuze in BEGAAP-context ⚖️
+### Onherroepelijke vrijwillige IFRS-keuze ⚖️
 
-Onder KB WVV art. 3:104, § 2 kan elke moedervennootschap kiezen voor IFRS — die keuze is onherroepbaar en moet in de toelichting worden gemotiveerd (administratieve en organisatorische middelen, volledige toepassing van alle door de EC aangenomen IFRS).
+Niet-genoteerde moeders kunnen op basis van KB WVV art. 3:104, § 2 vrijwillig voor IFRS-consolidatie kiezen. Die keuze is onherroepelijk: terugschakelen naar BEGAAP is niet meer mogelijk. In de toelichting motiveer je dat de onderneming over de nodige administratieve en organisatorische middelen beschikt en dat ze alle door de EC aangenomen IFRS toepast.
 
+**Waarom?** De onherroepelijkheid verhindert dat een groep van jaar tot jaar van normenstelsel verandert naargelang dat in dat jaar gunstig uitkomt — wat de vergelijkbaarheid van de cijfers zou ondermijnen.
 
+**Voorbeeld**: Antwerpse Investments NV beslist in boekjaar 20X1 vrijwillig voor IFRS-consolidatie. Vanaf 20X1 volgt Antwerpse IFRS; terugschakelen naar BEGAAP in latere jaren kan niet meer.
 
 _Grondslag: KB WVV art. 3:104, § 2_
 
@@ -52,21 +56,22 @@ _Grondslag: KB WVV art. 3:104, § 2_
 
 ### Verschillen met Belgisch boekhoudrecht — overzichtsniveau {id="verschillen-met-belgisch-boekhoudrecht-overzichtsniveau"}
 
-De volledige tekst van IFRS 3, 10, 11 en 12 is niet in de huidige Certificaid-corpus aanwezig. Op overzichtsniveau zijn echter de volgende verschillen relevant voor het examen: (a) IFRS 10 definieert controle ruimer en op basis van 'power, exposure to variable returns, en de mogelijkheid om die returns te beïnvloeden' — minder mechanisch dan de stemrechtentests van WVV art. 1:14; (b) IFRS 11 schaft proportionele integratie af voor 'joint ventures' (enkel vermogensmutatie) maar behoudt het wel voor 'joint operations'; (c) IFRS 3 vereist 'full goodwill'-meting (volledige reële waarde van de overname); negatieve goodwill (bargain purchase) wordt onmiddellijk in resultaat geboekt; (d) IFRS 12 vereist uitgebreide informatieverschaffing over alle deelnemingen. 🤖
+De volledige tekst van IFRS 3, 10, 11 en 12 is niet in de huidige Certificaid-corpus opgenomen. Op overzichtsniveau zijn deze verschillen examen-relevant: (a) IFRS 10 definieert controle ruimer dan WVV art. 1:14, op basis van 'power, exposure to variable returns en de mogelijkheid om die returns te beïnvloeden' — minder mechanisch dan de stemrechtentests; (b) IFRS 11 schaft evenredige consolidatie af voor 'joint ventures' (enkel vermogensmutatie), maar behoudt ze voor 'joint operations'; (c) IFRS 3 vereist 'full goodwill'-meting (volledige reële waarde van de overname); negatieve goodwill (bargain purchase) wordt onmiddellijk in resultaat geboekt — anders dan onder BEGAAP; (d) IFRS 12 vereist uitgebreide informatieverschaffing over alle deelnemingen. 🤖
 
-**Herkenningspunt**: Bij een examenvraag over IFRS-consolidatie: controleer of het over genoteerde groep gaat (verplicht IFRS) of over een vrijwillige IFRS-keuze; verifieer dat de specifieke regel uit het Cijferzakboekje of de aangereikte tekst komt — geen geheugenvragen over IFRS-paragraafnummers verwachten.
+**Herkenningspunt**: Bij een examenvraag over IFRS-consolidatie: ga eerst na of het over een genoteerde groep gaat (verplicht IFRS) of over een vrijwillige IFRS-keuze; verifieer dat een specifieke regel uit het Cijferzakboekje of uit aangereikte tekst komt — er worden geen geheugenvragen over IFRS-paragraafnummers verwacht.
 
 ### Toepasselijkheid op consortium {id="toepasselijkheid-op-consortium"}
 
-Wanneer een lid van een consortium beursgenoteerd is en op grond van Verordening 1606/2002 onder IFRS consolideert, blijft de geconsolideerde jaarrekening van het consortium zelf onder Belgisch boekhoudrecht — tenzij het consortium ook onder de IFRS-keuze of -plicht valt (CBN 2016/19). ⚖️
+Is één lid van een consortium beursgenoteerd en consolideert het op basis van Verordening 1606/2002 onder IFRS in zijn eigen geconsolideerde jaarrekening? Dan blijft de geconsolideerde jaarrekening van het consortium zelf onder Belgisch boekhoudrecht — tenzij het consortium zelf onder een IFRS-plicht of -keuze valt (CBN 2016/19). ⚖️
 
 
 ## Valkuilen
 
-- ⚠️ Detail-vragen over IFRS 3, 10, 11, 12 paragraafnummers liggen buiten het bereik van wat met de huidige Certificaid-corpus volledig kan worden onderbouwd. De volledige tekst van deze IFRS-standaarden is niet in het corpus aanwezig; verwijzingen in CBN-adviezen blijven beperkt. Bij examenvragen rond IFRS: focus op de structuur (verplicht voor genoteerden via Verordening 1606/2002; vrijwillig via KB WVV art. 3:104, § 2) en op overzicht-niveau-verschillen met BEGAAP, niet op detailparagrafen. 🤖
+- ⚠️ Detailvragen over IFRS 3, 10, 11, 12 paragraafnummers liggen buiten het bereik van wat met de huidige Certificaid-corpus volledig kan worden onderbouwd. De volledige tekst van die IFRS-standaarden zit niet in het corpus; CBN-verwijzingen blijven beperkt. Bij IFRS-examenvragen: focus op de structuur (verplicht voor genoteerden via Verordening 1606/2002; vrijwillig via KB WVV art. 3:104, § 2) en op overzichtsniveau-verschillen met BEGAAP — geen detailparagrafen uit het hoofd leren. 🤖
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Zie ook
+
+- **Getriggerd door**: [[consolidatieverplichting]]
 
 ## Bronnen
 

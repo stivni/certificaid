@@ -4,31 +4,15 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": [
-    "1.4.I.F",
-    "1.4.I.C",
-    "1.4.II.C",
-    "1.4.taak.1"
-  ],
+  "linked_anchors": ["1.4.I.F", "1.4.I.C", "1.4.II.C", "1.4.taak.1"],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.F",
-    "dekt_ook_anchors": [
-      "1.4.I.C",
-      "1.4.II.C",
-      "1.4.taak.1"
-    ],
+    "dekt_ook_anchors": ["1.4.I.C", "1.4.II.C", "1.4.taak.1"],
     "reviewed_by": null,
     "enrich_runs": [
-      {
-        "run_id": "enrich-run-20260515T141848Z",
-        "model": "claude-opus-4-7",
-        "gaps_verwerkt": [
-          "in_praktijk.ontbreekt"
-        ],
-        "uitgevoerd_op": "2026-05-15T15:00:00+00:00"
-      }
+      {"run_id": "enrich-run-20260515T141848Z", "model": "claude-opus-4-7", "gaps_verwerkt": ["in_praktijk.ontbreekt"], "uitgevoerd_op": "2026-05-15T15:00:00+00:00"}
     ],
     "schema_1_4_migration": {
       "uitgevoerd_op": "2026-05-16T00:11Z",
@@ -41,173 +25,114 @@
         "atomaire formule-split + variabelen + invulling_voorbeeld (regel 12)",
         "synthese-voorbeelden bij voorbeeld-minimum-gaps (regel 14 bron 3)"
       ]
-    }
-  },
-  "definitie": {
-    "text": "Het door het bestuursorgaan opgestelde toelichtende verslag dat samen met de geconsolideerde jaarrekening wordt opgemaakt, gecontroleerd en bekendgemaakt door elke consolidatieplichtige moedervennootschap (of, voor een consortium, gezamenlijk door de leden). Beschrijft de evolutie van de zaken, het resultaat en de positie van de geconsolideerde groep; verwijst naar belangrijke gebeurtenissen na balansdatum, voornaamste risico's en onzekerheden, vooruitzichten, en alle informatie die door de wet of door de regels van behoorlijke ondernemingscommunicatie vereist is.",
-    "confidence": "inferred-from-aggregation",
-    "source": {
-      "type": "wet",
-      "short": "WVV art. 3:32 (jaarverslag); art. 3:35 (gecondenseerd voor consolidatie)"
     },
-    "references": [
-      {
-        "type": "wet",
-        "short": "WVV art. 3:32 (algemeen jaarverslag)"
-      },
-      {
-        "type": "advies",
-        "short": "CBN 2022/11 — Toepassingsgebied (vermelding plicht jaarverslag)"
-      },
-      {
-        "type": "advies",
-        "short": "CBN 2022/09 — Consolidatieverplichting bij consortium"
-      },
-      {
-        "type": "richtlijn",
-        "short": "Richtlijn 2013/34/EU art. 29"
-      }
-    ],
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatieverplichting-consoliderende-vennootschap",
-          "sha256": null,
-          "version": "rag-v1"
-        }
+    "deep_rewrite_2026_05_16": {
+      "door": "deep-rewrite-batch-2-concepten",
+      "op": "2026-05-16T02:50Z",
+      "velden_gewijzigd": [
+        "definitie.text (stagiair-toon)",
+        "voorbeeld_inline op record-niveau toegevoegd",
+        "in_praktijk[*].betekenis (stagiair-toon)",
+        "valkuilen[*].text (stagiair-toon)",
+        "edges: getriggerd-door consolidatieverplichting + bevat consolidatieverplichting verwijderd, contrasteert-met blijft"
       ]
     }
   },
+  "definitie": {
+    "text": "Het narratieve (toelichtende) verslag dat het bestuursorgaan samen met de geconsolideerde jaarrekening opmaakt, laat controleren en publiceert. Het beschrijft de evolutie van de zaken, het resultaat en de positie van de groep, gebeurtenissen na balansdatum, de voornaamste risico's, vooruitzichten, en alle informatie die de wet of behoorlijke ondernemingscommunicatie vereist. Bij een consortium maken de leden het samen op.",
+    "confidence": "inferred-from-aggregation",
+    "source": {"type": "wet", "short": "WVV art. 3:32 (jaarverslag); art. 3:35 (gecondenseerd voor consolidatie)"},
+    "references": [
+      {"type": "wet", "short": "WVV art. 3:32 (algemeen jaarverslag)"},
+      {"type": "advies", "short": "CBN 2022/11 — Toepassingsgebied (vermelding plicht jaarverslag)"},
+      {"type": "advies", "short": "CBN 2022/09 — Consolidatieverplichting bij consortium"},
+      {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 29"}
+    ],
+    "_provenance": {
+      "inputs": [
+        {"id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1"},
+        {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatieverplichting-consoliderende-vennootschap", "sha256": null, "version": "rag-v1"}
+      ]
+    },
+    "_corrected_from": [
+      {"field": "text", "from": "Het door het bestuursorgaan opgestelde toelichtende verslag dat samen met de geconsolideerde jaarrekening wordt opgemaakt, gecontroleerd en bekendgemaakt door elke consolidatieplichtige moedervennootschap (of, voor een consortium, gezamenlijk door de leden). Beschrijft de evolutie van de zaken, het resultaat en de positie van de geconsolideerde groep; verwijst naar belangrijke gebeurtenissen na balansdatum, voornaamste risico's en onzekerheden, vooruitzichten, en alle informatie die door de wet of door de regels van behoorlijke ondernemingscommunicatie vereist is.", "reason": "Stagiair-toon: korte zinnen; 'bekendgemaakt' → 'gepubliceerd' (regel 6)."}
+    ]
+  },
+  "voorbeeld_inline": "Aurelia Holding NV is consolidatieplichtig en maakt jaarlijks zowel een geconsolideerde jaarrekening op als een geconsolideerd jaarverslag dat de evolutie van de groep (Aurelia + Brugse Brouwerij BV + Bouwwerf Beerse BV) bespreekt, met groepsbrede risico's en eigen-aandelen-overzicht.",
   "in_praktijk": [
     {
-      "aspect": "Samen met de jaarrekening",
-      "betekenis": "De moedervennootschap die consolidatieplichtig is, moet niet alleen een geconsolideerde jaarrekening opmaken, maar ook een jaarverslag daarover, dat moet worden gecontroleerd en bekendgemaakt (CBN 2022/11). Bij een consortium gebeurt dit gezamenlijk door de leden (CBN 2022/09).",
+      "aspect": "Altijd samen met de jaarrekening",
+      "betekenis": "Een consolidatieplichtige moeder maakt niet alleen een geconsolideerde jaarrekening op, maar daarbovenop ook een geconsolideerd jaarverslag. Allebei worden ze gecontroleerd door de commissaris en gepubliceerd (CBN 2022/11). Bij een consortium maken de leden dit samen op (CBN 2022/09).",
       "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2022/11; CBN 2022/09"
-      },
+      "source": {"type": "advies", "short": "CBN 2022/11; CBN 2022/09"},
       "_provenance": {
         "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatieverplichting-consoliderende-vennootschap",
-            "sha256": null,
-            "version": "rag-v1"
-          }
+          {"id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1"},
+          {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatieverplichting-consoliderende-vennootschap", "sha256": null, "version": "rag-v1"}
         ]
-      }
+      },
+      "_corrected_from": [
+        {"field": "betekenis", "from": "De moedervennootschap die consolidatieplichtig is, moet niet alleen een geconsolideerde jaarrekening opmaken, maar ook een jaarverslag daarover, dat moet worden gecontroleerd en bekendgemaakt (CBN 2022/11). Bij een consortium gebeurt dit gezamenlijk door de leden (CBN 2022/09).", "reason": "Stagiair-toon (regel 6)."}
+      ]
     },
     {
-      "aspect": "Inhoud — minimum-aanvullingen op het 'gewone' bestuursverslag",
-      "betekenis": "Richtlijn 2013/34/EU art. 29, lid 1 schrijft voor dat het geconsolideerd bestuursverslag minstens de informatie van het 'gewone' bestuursverslag (art. 19 en 20 van die richtlijn) bevat, op een wijze die de beoordeling van de positie van het geheel van de in de consolidatie opgenomen ondernemingen vergemakkelijkt. Lid 2 voegt twee aanpassingen toe: (a) bij opgave van verkregen eigen aandelen wordt het aantal en de nominale waarde (of fractiewaarde) vermeld van alle aandelen in de moederonderneming die worden gehouden door die moederonderneming, door dochterondernemingen of door een persoon in eigen naam maar voor rekening van een of meer van die ondernemingen; (b) bij opgave van interne controle- en risicobeheersystemen vermeldt de verklaring inzake corporate governance de belangrijkste kenmerken van die systemen voor het geheel van de in de consolidatie opgenomen ondernemingen.",
-      "herkenningspunt": "Examenrelevante checklist: eigen-aandelen-overzicht op groepsniveau + groepsbrede interne controle/risicobeheer-verklaring.",
+      "aspect": "Inhoud — minimum-aanvullingen op het gewone bestuursverslag",
+      "betekenis": "Het geconsolideerd jaarverslag bevat minstens dezelfde info als het gewone bestuursverslag (Richtlijn 2013/34/EU art. 19-20), maar dan op een manier die de positie van de hele groep duidelijk maakt. Twee extra punten op groepsniveau (art. 29, lid 2): (a) eigen aandelen — vermeld het aantal en de nominale waarde van alle aandelen in de moeder die in handen zijn van de moeder zelf, van dochters of van iemand die ze voor hen aanhoudt; (b) interne controle en risicobeheer — de verklaring corporate governance beschrijft de belangrijkste kenmerken van die systemen voor de groep als geheel.",
+      "herkenningspunt": "Examen-checklist: eigen-aandelen-overzicht op groepsniveau + groepsbrede interne-controle/risicobeheer-verklaring.",
       "confidence": "grounded",
-      "source": {
-        "type": "richtlijn",
-        "short": "Richtlijn 2013/34/EU art. 29, lid 1 en 2"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "Richtlijn-2013-34-EU__art_29__sub_lid1-lid5_part1",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 29, lid 1 en 2"},
+      "_provenance": {"inputs": [{"id": "Richtlijn-2013-34-EU__art_29__sub_lid1-lid5_part1", "sha256": null, "version": "rag-v1"}]},
+      "_corrected_from": [
+        {"field": "betekenis", "from": "Richtlijn 2013/34/EU art. 29, lid 1 schrijft voor dat het geconsolideerd bestuursverslag minstens de informatie van het 'gewone' bestuursverslag (art. 19 en 20 van die richtlijn) bevat, op een wijze die de beoordeling van de positie van het geheel van de in de consolidatie opgenomen ondernemingen vergemakkelijkt. Lid 2 voegt twee aanpassingen toe: (a) bij opgave van verkregen eigen aandelen wordt het aantal en de nominale waarde (of fractiewaarde) vermeld van alle aandelen in de moederonderneming die worden gehouden door die moederonderneming, door dochterondernemingen of door een persoon in eigen naam maar voor rekening van een of meer van die ondernemingen; (b) bij opgave van interne controle- en risicobeheersystemen vermeldt de verklaring inzake corporate governance de belangrijkste kenmerken van die systemen voor het geheel van de in de consolidatie opgenomen ondernemingen.", "reason": "Stagiair-toon: korte zinnen en concrete groepsuitleg (regel 6)."}
+      ]
     },
     {
       "aspect": "Geconsolideerde duurzaamheidsrapportering",
-      "betekenis": "Moederondernemingen van een grote groep (zoals bedoeld in Richtlijn 2013/34/EU art. 3, lid 7) nemen in hun geconsolideerd bestuursverslag informatie op die nodig is om inzicht te krijgen in de effecten van de groep op duurzaamheidskwesties, alsook informatie die nodig is om te begrijpen hoe duurzaamheidskwesties van invloed zijn op de ontwikkeling, de prestaties en de positie van de groep (CSRD-implementatie via art. 29 van de Richtlijn).",
-      "herkenningspunt": "Grote groep + duurzaamheidskwesties → geconsolideerde duurzaamheidsrapportering verplicht.",
+      "betekenis": "Moeders van een grote groep (Richtlijn 2013/34/EU art. 3, lid 7) nemen in hun geconsolideerd jaarverslag ook duurzaamheidsinformatie op: hoe de groep de wereld beïnvloedt én hoe duurzaamheidskwesties de groep beïnvloeden (ontwikkeling, prestaties, positie). Dat is de CSRD-vertaling via art. 29 van de Richtlijn.",
+      "herkenningspunt": "Grote groep → geconsolideerde duurzaamheidsrapportering verplicht (binnen het geconsolideerd jaarverslag).",
       "confidence": "grounded",
-      "source": {
-        "type": "richtlijn",
-        "short": "Richtlijn 2013/34/EU art. 29 (geconsolideerde duurzaamheidsrapportering)"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "Richtlijn-2013-34-EU__art_29__sub_lid1-lid5_part1",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 29 (geconsolideerde duurzaamheidsrapportering)"},
+      "_provenance": {"inputs": [{"id": "Richtlijn-2013-34-EU__art_29__sub_lid1-lid5_part1", "sha256": null, "version": "rag-v1"}]}
     },
     {
-      "aspect": "Vrijstellingstrigger valt samen met de jaarrekening",
-      "betekenis": "Wanneer een vennootschap deel uitmaakt van een groep van beperkte omvang, is zij vrijgesteld 'van de verplichting om een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen' (CBN 2022/11, art. 1:26 § 1 WVV). De vrijstelling voor het jaarverslag is dus niet zelfstandig: zij volgt steeds de vrijstelling voor de jaarrekening.",
-      "herkenningspunt": "Groep van beperkte omvang → één vrijstelling die jaarrekening én jaarverslag dekt.",
+      "aspect": "Vrijstelling valt samen met die van de jaarrekening",
+      "betekenis": "Maakt een vennootschap deel uit van een groep van beperkte omvang, dan is ze vrijgesteld van zowel de geconsolideerde jaarrekening als van het bijhorende jaarverslag (WVV art. 1:26 § 1; CBN 2022/11). Het jaarverslag heeft geen eigen vrijstellingsregime: het volgt altijd het regime van de jaarrekening.",
+      "herkenningspunt": "Groep van beperkte omvang → één vrijstelling dekt zowel jaarrekening als jaarverslag.",
       "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2022/11 — Toepassingsgebied"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "advies", "short": "CBN 2022/11 — Toepassingsgebied"},
+      "_provenance": {"inputs": [{"id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1"}]}
     }
   ],
   "vergelijkingsparen": [],
   "valkuilen": [
     {
-      "text": "De vrijstelling van de verplichting om een geconsolideerde jaarrekening op te stellen (groep van beperkte omvang of subconsolidatie) omvat ook de vrijstelling van het geconsolideerd jaarverslag. Beide vallen samen.",
+      "text": "De vrijstelling voor de geconsolideerde jaarrekening (bv. groep van beperkte omvang of vrijstelling subconsolidatie) omvat altijd ook de vrijstelling voor het geconsolideerd jaarverslag. Je hebt niet twee verschillende vrijstellingen — ze vallen samen.",
       "confidence": "inferred-from-aggregation",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2022/11"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "advies", "short": "CBN 2022/11"},
+      "_provenance": {"inputs": [{"id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1"}]}
     }
   ],
   "edges": [
     {
-      "type": "contrasteert-met",
-      "target": "geconsolideerde-jaarrekening",
-      "redenering": "De jaarrekening is het cijfermatige product (balans, resultatenrekening, toelichting). Het jaarverslag is het narratieve, toelichtende stuk. Beide moeten samen worden opgesteld, gecontroleerd en bekendgemaakt — maar verschillen in vorm en i",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "onderdeel-van",
       "target": "geconsolideerde-jaarrekening",
-      "redenering": "Het jaarverslag begeleidt de geconsolideerde jaarrekening.",
+      "redenering": "Het geconsolideerd jaarverslag begeleidt de geconsolideerde jaarrekening; ze worden samen opgemaakt, gecontroleerd en gepubliceerd.",
+      "_corrected_from": {
+        "veld": "vergelijkingsparen + dubbele edge gesaneerd",
+        "reden": "Schema 1.4 regel 9: contrasteert-met overlapte met onderdeel-van; behouden alleen 'onderdeel-van'."
+      },
+      "_provenance": {"inputs": [{"id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "consolidatieverplichting",
+      "redenering": "Wie consolidatieplichtig is, moet ook het geconsolideerd jaarverslag opmaken. De plicht voor het jaarverslag wordt dus getriggerd door de algemene consolidatieverplichting.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "geconsolideerde-jaarrekening",
+      "redenering": "Om het jaarverslag te begrijpen moet je weten wat de geconsolideerde jaarrekening inhoudt — het verslag becommentarieert die cijfers.",
       "confidence": "inferred"
     }
   ]

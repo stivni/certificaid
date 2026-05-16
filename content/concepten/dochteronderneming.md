@@ -22,41 +22,46 @@ gegenereerd_op: '2026-05-16'
 ---
 # Dochteronderneming ⚖️
 
-> De vennootschap (dochtervennootschap) of het organisme (in ruime zin volgens WVV art. 3:22) ten opzichte waarvan een controlebevoegdheid door een andere vennootschap (de moedervennootschap) bestaat. De WVV-definitie van 'dochteronderneming' is ruimer dan die van 'dochtervennootschap' en omvat eveneens elke instelling naar Belgisch of buitenlands recht, al dan niet openbaar, met of zonder winstuitkering, die — al dan niet ingevolge haar statutaire opdracht — een activiteit uitoefent van commerciële, financiële of industriële aard. Daardoor kunnen ook verenigingen en stichtingen tot de consolidatiekring behoren, op voorwaarde dat zij door een vennootschap worden gecontroleerd.
+> Een vennootschap waarover een andere vennootschap (de moeder) controle uitoefent. In het WVV is 'dochteronderneming' ruimer dan 'dochtervennootschap': het omvat ook elke instelling naar Belgisch of buitenlands recht — al dan niet openbaar, met of zonder winstoogmerk — zolang ze een commerciële, financiële of industriële activiteit uitoefent. Daardoor kunnen ook verenigingen en stichtingen tot de consolidatiekring horen, op voorwaarde dat een vennootschap er controle over heeft.
 >
 > _Bron: WVV art. 1:15, 2° jo. art. 3:22_
 
 
 > [!summary] Korte definitie
-> De vennootschap (dochtervennootschap) of het organisme (in ruime zin volgens WVV art.
+> Een vennootschap waarover een andere vennootschap (de moeder) controle uitoefent.
 
 > [!info] Behoort tot: [[consolidatiekring]]
 ## In de praktijk
 
 ### Soorten dochterondernemingen voor consolidatiedoeleinden {id="soorten-dochterondernemingen-voor-consolidatiedoeleinden"}
 
-(a) Dochteronderneming onder exclusieve controle → integrale consolidatie (KB WVV art. 3:124, 1°). (b) Gemeenschappelijke dochteronderneming onder gezamenlijke controle → evenredige consolidatie (KB WVV art. 3:124, 2° jo. 3:140), uitzonderlijk vermogensmutatie wanneer het bedrijf niet nauw geïntegreerd is in dat van de moeder. (c) Dochteronderneming waarover slechts controle in feite bestaat en waarvan opname het getrouwe beeld zou aantasten → buiten consolidatie, opname via vermogensmutatie (KB WVV art. 3:98 jo. art. 3:100). ⚖️
+(a) Onder exclusieve controle → integrale consolidatie (KB WVV art. 3:124, 1°). Bv. Aurelia Holding NV heeft 80 % stemrechten in Brugse Brouwerij BV. (b) Onder gezamenlijke controle (gemeenschappelijke dochter) → in principe evenredige consolidatie (KB WVV art. 3:124, 2° jo. 3:140); vermogensmutatie als de dochter niet nauw met de groep is geïntegreerd. Bv. Cardinal Group NV en Energiehuis Evergem NV controleren Filmstudio Florence BV elk voor 50 %. (c) Onder enkel controle in feite, waarvan opname het getrouwe beeld zou verstoren → buiten de consolidatie + opname via vermogensmutatie (KB WVV art. 3:98 jo. art. 3:100). ⚖️
 
-**Herkenningspunt**: De toepasselijke consolidatietechniek volgt uit het type controle, niet uit een vast percentage.
+**Herkenningspunt**: De keuze van de consolidatietechniek hangt af van het type controle (exclusief, gezamenlijk, in feite), niet van een vast percentage.
 
 ### Uitsluitingsgronden uit de consolidatie (KB WVV art. 3:97) {id="uitsluitingsgronden-uit-de-consolidatie-kb-wvv-art-3-97"}
 
-Een dochteronderneming mág buiten de consolidatie worden gelaten in vier gevallen: (1) van te verwaarlozen betekenis (cumulatief beoordeeld bij meerdere kleine dochters); (2) ingrijpende en duurzame beperkingen op de uitoefening van de controlebevoegdheid of de aanwending van het vermogen; (3) gegevens niet zonder onevenredige kosten/vertraging beschikbaar; (4) aandelen uitsluitend met het oog op latere vervreemding gehouden. Toepassing moet in de toelichting worden gemotiveerd. ⚖️
+Een dochter mag buiten de consolidatie blijven in vier gevallen: (1) van te verwaarlozen betekenis — bij meerdere kleine dochters samen toetsen; (2) ingrijpende en duurzame beperkingen op de uitoefening van de controle of op het beheer van het vermogen (bv. wettelijk gevorderde sancties); (3) gegevens niet zonder overdreven kosten of vertraging beschikbaar; (4) aandelen worden enkel aangehouden om ze later weer te verkopen. Elke toepassing moet je in de toelichting motiveren. ⚖️
 
 
 <details>
 <summary><strong>Niet verwarren met</strong> (1 vergelijkingen)</summary>
 
-- **vs [[geassocieerde-onderneming]]** — Dochteronderneming = vennootschap onder controle (in rechte/feite, exclusief/gezamenlijk). Geassocieerde onderneming = vennootschap waarop slechts invloed van betekenis bestaat, zonder controle. Dochter → integrale of evenredige consolidatie; geassocieerde → vermogensmutatie.
-  - _Trigger_: Toets de controlevraag: bestaat er beslissende invloed (al dan niet gezamenlijk)? Zo ja: dochter. Zo nee maar wel deelname aan beleid: geassocieerde.
+- **vs [[geassocieerde-onderneming]]** — Dochteronderneming = vennootschap onder controle van de moeder (in rechte of in feite, exclusief of gezamenlijk). Geassocieerde onderneming = vennootschap waar alleen invloed van betekenis bestaat — meedoen aan beleid zonder de baas te spelen. Dochter → integrale of evenredige consolidatie; geassocieerde → vermogensmutatie.
+  - _Trigger_: Stel de controlevraag: heeft de moeder beslissende invloed (eventueel samen met enkele anderen)? Zo ja: dochter. Zo nee maar wel betekenisvolle invloed (typisch 20-50 %): geassocieerde.
 
 </details>
 
 
 ## Valkuilen
 
-- ⚠️ Verenigingen en stichtingen met commerciële, financiële of industriële activiteit zijn dochterondernemingen in de zin van WVV art. 3:22 zodra een vennootschap er controle over heeft. Onder het oude W.Venn. werden zij doorgaans uitgesloten — dit is sinds het WVV niet meer mogelijk. ⚖️
-- ⚠️ Een dochteronderneming die buiten de consolidatie wordt gelaten op grond van KB WVV art. 3:98 of 3:99 (controle in feite met aantasting van het getrouwe beeld; bepaalde uitsluitingsgronden) moet via de vermogensmutatiemethode worden opgenomen — niet zomaar uitgesloten worden. ⚖️
+- ⚠️ Een vereniging of stichting (vzw of stichting) met een commerciële, financiële of industriële activiteit is een dochteronderneming in de zin van WVV art. 3:22 zodra een vennootschap er controle over heeft. Onder het oude W.Venn. werden zulke entiteiten vaak uitgesloten — dat is sinds het WVV niet meer mogelijk. ⚖️
+- ⚠️ Een dochter die je buiten de consolidatie laat op grond van KB WVV art. 3:98 of 3:99 (controle in feite die het getrouwe beeld zou verstoren; bepaalde uitsluitingsgronden) moet je via de vermogensmutatiemethode opnemen — niet zomaar weglaten. ⚖️
+
+## Zie ook
+
+- **Vereist kennis van**: [[controle]]
+- **Getriggerd door**: [[integrale-consolidatie]]
 
 ## Bronnen
 
@@ -66,6 +71,5 @@ Een dochteronderneming mág buiten de consolidatie worden gelaten in vier gevall
 [^4]: `KB-WVV-2019__art_3_77`
 [^5]: `KB-WVV-2019__art_3_78`
 [^6]: `KB-WVV-2019__art_3_76`
-[^7]: `KB-WVV-2019__art_3_108`
-[^8]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking`
-[^9]: `CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen`
+[^7]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking`
+[^8]: `CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen`

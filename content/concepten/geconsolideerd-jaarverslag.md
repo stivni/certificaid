@@ -20,46 +20,48 @@ gegenereerd_op: '2026-05-16'
 ---
 # Geconsolideerd jaarverslag 🤖
 
-> Het door het bestuursorgaan opgestelde toelichtende verslag dat samen met de geconsolideerde jaarrekening wordt opgemaakt, gecontroleerd en bekendgemaakt door elke consolidatieplichtige moedervennootschap (of, voor een consortium, gezamenlijk door de leden). Beschrijft de evolutie van de zaken, het resultaat en de positie van de geconsolideerde groep; verwijst naar belangrijke gebeurtenissen na balansdatum, voornaamste risico's en onzekerheden, vooruitzichten, en alle informatie die door de wet of door de regels van behoorlijke ondernemingscommunicatie vereist is.
+> Het narratieve (toelichtende) verslag dat het bestuursorgaan samen met de geconsolideerde jaarrekening opmaakt, laat controleren en publiceert. Het beschrijft de evolutie van de zaken, het resultaat en de positie van de groep, gebeurtenissen na balansdatum, de voornaamste risico's, vooruitzichten, en alle informatie die de wet of behoorlijke ondernemingscommunicatie vereist. Bij een consortium maken de leden het samen op.
 >
 > _Bron: WVV art. 3:32 (jaarverslag); art. 3:35 (gecondenseerd voor consolidatie)_
 
 
 > [!summary] Korte definitie
-> Het door het bestuursorgaan opgestelde toelichtende verslag dat samen met de geconsolideerde jaarrekening wordt opgemaakt, gecontroleerd en bekendgemaakt door elke consolidatieplichtige moedervennootschap (of, voor een consortium, gezamenlijk door de leden).
+> Het narratieve (toelichtende) verslag dat het bestuursorgaan samen met de geconsolideerde jaarrekening opmaakt, laat controleren en publiceert.
 
 > [!info] Behoort tot: [[geconsolideerde-jaarrekening]]
 ## In de praktijk
 
-### Samen met de jaarrekening {id="samen-met-de-jaarrekening"}
+### Altijd samen met de jaarrekening {id="altijd-samen-met-de-jaarrekening"}
 
-De moedervennootschap die consolidatieplichtig is, moet niet alleen een geconsolideerde jaarrekening opmaken, maar ook een jaarverslag daarover, dat moet worden gecontroleerd en bekendgemaakt (CBN 2022/11). Bij een consortium gebeurt dit gezamenlijk door de leden (CBN 2022/09). ⚖️
+Een consolidatieplichtige moeder maakt niet alleen een geconsolideerde jaarrekening op, maar daarbovenop ook een geconsolideerd jaarverslag. Allebei worden ze gecontroleerd door de commissaris en gepubliceerd (CBN 2022/11). Bij een consortium maken de leden dit samen op (CBN 2022/09). ⚖️
 
-### Inhoud — minimum-aanvullingen op het 'gewone' bestuursverslag {id="inhoud-minimum-aanvullingen-op-het-gewone-bestuursverslag"}
+### Inhoud — minimum-aanvullingen op het gewone bestuursverslag {id="inhoud-minimum-aanvullingen-op-het-gewone-bestuursverslag"}
 
-Richtlijn 2013/34/EU art. 29, lid 1 schrijft voor dat het geconsolideerd bestuursverslag minstens de informatie van het 'gewone' bestuursverslag (art. 19 en 20 van die richtlijn) bevat, op een wijze die de beoordeling van de positie van het geheel van de in de consolidatie opgenomen ondernemingen vergemakkelijkt. Lid 2 voegt twee aanpassingen toe: (a) bij opgave van verkregen eigen aandelen wordt het aantal en de nominale waarde (of fractiewaarde) vermeld van alle aandelen in de moederonderneming die worden gehouden door die moederonderneming, door dochterondernemingen of door een persoon in eigen naam maar voor rekening van een of meer van die ondernemingen; (b) bij opgave van interne controle- en risicobeheersystemen vermeldt de verklaring inzake corporate governance de belangrijkste kenmerken van die systemen voor het geheel van de in de consolidatie opgenomen ondernemingen. ⚖️
+Het geconsolideerd jaarverslag bevat minstens dezelfde info als het gewone bestuursverslag (Richtlijn 2013/34/EU art. 19-20), maar dan op een manier die de positie van de hele groep duidelijk maakt. Twee extra punten op groepsniveau (art. 29, lid 2): (a) eigen aandelen — vermeld het aantal en de nominale waarde van alle aandelen in de moeder die in handen zijn van de moeder zelf, van dochters of van iemand die ze voor hen aanhoudt; (b) interne controle en risicobeheer — de verklaring corporate governance beschrijft de belangrijkste kenmerken van die systemen voor de groep als geheel. ⚖️
 
-**Herkenningspunt**: Examenrelevante checklist: eigen-aandelen-overzicht op groepsniveau + groepsbrede interne controle/risicobeheer-verklaring.
+**Herkenningspunt**: Examen-checklist: eigen-aandelen-overzicht op groepsniveau + groepsbrede interne-controle/risicobeheer-verklaring.
 
 ### Geconsolideerde duurzaamheidsrapportering {id="geconsolideerde-duurzaamheidsrapportering"}
 
-Moederondernemingen van een grote groep (zoals bedoeld in Richtlijn 2013/34/EU art. 3, lid 7) nemen in hun geconsolideerd bestuursverslag informatie op die nodig is om inzicht te krijgen in de effecten van de groep op duurzaamheidskwesties, alsook informatie die nodig is om te begrijpen hoe duurzaamheidskwesties van invloed zijn op de ontwikkeling, de prestaties en de positie van de groep (CSRD-implementatie via art. 29 van de Richtlijn). ⚖️
+Moeders van een grote groep (Richtlijn 2013/34/EU art. 3, lid 7) nemen in hun geconsolideerd jaarverslag ook duurzaamheidsinformatie op: hoe de groep de wereld beïnvloedt én hoe duurzaamheidskwesties de groep beïnvloeden (ontwikkeling, prestaties, positie). Dat is de CSRD-vertaling via art. 29 van de Richtlijn. ⚖️
 
-**Herkenningspunt**: Grote groep + duurzaamheidskwesties → geconsolideerde duurzaamheidsrapportering verplicht.
+**Herkenningspunt**: Grote groep → geconsolideerde duurzaamheidsrapportering verplicht (binnen het geconsolideerd jaarverslag).
 
-### Vrijstellingstrigger valt samen met de jaarrekening {id="vrijstellingstrigger-valt-samen-met-de-jaarrekening"}
+### Vrijstelling valt samen met die van de jaarrekening {id="vrijstelling-valt-samen-met-die-van-de-jaarrekening"}
 
-Wanneer een vennootschap deel uitmaakt van een groep van beperkte omvang, is zij vrijgesteld 'van de verplichting om een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen' (CBN 2022/11, art. 1:26 § 1 WVV). De vrijstelling voor het jaarverslag is dus niet zelfstandig: zij volgt steeds de vrijstelling voor de jaarrekening. ⚖️
+Maakt een vennootschap deel uit van een groep van beperkte omvang, dan is ze vrijgesteld van zowel de geconsolideerde jaarrekening als van het bijhorende jaarverslag (WVV art. 1:26 § 1; CBN 2022/11). Het jaarverslag heeft geen eigen vrijstellingsregime: het volgt altijd het regime van de jaarrekening. ⚖️
 
-**Herkenningspunt**: Groep van beperkte omvang → één vrijstelling die jaarrekening én jaarverslag dekt.
+**Herkenningspunt**: Groep van beperkte omvang → één vrijstelling dekt zowel jaarrekening als jaarverslag.
 
 
 ## Valkuilen
 
-- ⚠️ De vrijstelling van de verplichting om een geconsolideerde jaarrekening op te stellen (groep van beperkte omvang of subconsolidatie) omvat ook de vrijstelling van het geconsolideerd jaarverslag. Beide vallen samen. 🤖
+- ⚠️ De vrijstelling voor de geconsolideerde jaarrekening (bv. groep van beperkte omvang of vrijstelling subconsolidatie) omvat altijd ook de vrijstelling voor het geconsolideerd jaarverslag. Je hebt niet twee verschillende vrijstellingen — ze vallen samen. 🤖
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Zie ook
+
+- **Getriggerd door**: [[consolidatieverplichting]]
+- **Vereist kennis van**: [[geconsolideerde-jaarrekening]]
 
 ## Bronnen
 

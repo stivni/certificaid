@@ -20,44 +20,54 @@ gegenereerd_op: '2026-05-16'
 ---
 # Vrijstelling van subconsolidatie ⚖️
 
-> Een tussenliggende (sub)moedervennootschap wordt vrijgesteld van de verplichting om een geconsolideerde jaarrekening en jaarverslag op te stellen, indien zij zelf de dochtervennootschap is van een moedervennootschap die hogerop een geconsolideerde jaarrekening en jaarverslag opstelt, laat controleren en openbaar maakt — en aan een aantal aanvullende voorwaarden wordt voldaan. De vrijstelling van subconsolidatie is echter niet van toepassing wanneer alle of een deel van de aandelen die zijn uitgegeven door één van de te consolideren vennootschappen (de submoeder zelf of een van haar dochters) zijn genoteerd.
+> Een tussenliggende (sub)moeder is vrijgesteld van de plicht om een geconsolideerde jaarrekening en jaarverslag op te stellen, op voorwaarde dat: (1) ze zelf dochter is van een hogere moeder die hogerop al consolideert; (2) die hogere moeder de geconsolideerde jaarrekening en het jaarverslag opmaakt, laat controleren en publiceert volgens een gelijkwaardige standaard; (3) aan de aanvullende voorwaarden is voldaan. De vrijstelling vervalt zodra de submoeder zelf of één van haar dochters genoteerd is op een gereglementeerde markt.
 >
 > _Bron: CBN 2012/12_
 
 
 > [!summary] Korte definitie
-> Een tussenliggende (sub)moedervennootschap wordt vrijgesteld van de verplichting om een geconsolideerde jaarrekening en jaarverslag op te stellen, indien zij zelf de dochtervennootschap is van een moedervennootschap die hogerop een geconsolideerde jaarrekening en jaarverslag opstelt, laat controleren en openbaar maakt — en aan een aantal aanvullende voorwaarden wordt voldaan.
+> Een tussenliggende (sub)moeder is vrijgesteld van de plicht om een geconsolideerde jaarrekening en jaarverslag op te stellen, op voorwaarde dat: (1) ze zelf dochter is van een hogere moeder die hogerop al consolideert; (2) die hogere moeder de geconsolideerde jaarrekening en het jaarverslag opmaakt, laat controleren en publiceert volgens een gelijkwaardige standaard; (3) aan de aanvullende voorwaarden is voldaan.
 
 > [!info] Uitzondering op: [[consolidatieverplichting]]
 ## In de praktijk
 
 ### Interpretatie 'één van de vennootschappen die moeten worden geconsolideerd' {id="interpretatie-een-van-de-vennootschappen-die-moeten-worden-geconsolideerd"}
 
-Volgens CBN 2012/12 doelt deze formulering op de vennootschap die zich op de vrijstelling beroept (de submoeder) en haar dochters — niet op de hogere moeder. Concreet: indien moedervennootschap X dochter is van een genoteerde vennootschap Y, blijft X in beginsel vrijgesteld van subconsolidatie tenzij X zelf of een van haar dochters genoteerd is. De notering van Y wijzigt daar niets aan. ⚖️
+Volgens CBN 2012/12 gaat het hierbij om de vennootschap die zich op de vrijstelling beroept (de submoeder) én haar dochters — niet om de hogere moeder. Concreet: ook al is Kappers Köln GmbH genoteerd, dan blijft Aurelia Holding NV vrijgesteld van subconsolidatie zolang Aurelia zelf en de dochters van Aurelia (Brugse Brouwerij BV) niet genoteerd zijn. De notering hogerop is niet doorslaggevend. ⚖️
 
-**Herkenningspunt**: De vraag 'is er iemand genoteerd in de keten?' — beperk je tot de submoeder en haar dochters, niet tot de bovenliggende moeders.
+**Herkenningspunt**: De vraag 'is er iemand genoteerd in de keten?' beperk je tot de submoeder en haar dochters, niet tot de moeders erbóven.
 
 ### Gevolgen voor maatschap-structuren {id="gevolgen-voor-maatschap-structuren"}
 
-Een maatschap zonder rechtspersoonlijkheid kan niet kwalificeren als moedervennootschap. Indien een maatschap economisch de top vormt, kan zij géén bevrijdende geconsolideerde jaarrekening opstellen. De onderliggende vennootschappen kunnen aldus geen vrijstelling van subconsolidatie inroepen en moeten zelf consolideren. ⚖️
+Een maatschap zonder rechtspersoonlijkheid kan geen moeder zijn. Vormt een maatschap economisch de top van de groep, dan kan zij geen bevrijdende geconsolideerde jaarrekening opstellen. Gevolg: de onderliggende vennootschappen kunnen geen vrijstelling van subconsolidatie inroepen en moeten zelf consolideren. ⚖️
 
 ### Consortium en vrijstelling van subconsolidatie {id="consortium-en-vrijstelling-van-subconsolidatie"}
 
-Wanneer de leden van een consortium een geconsolideerde jaarrekening op consortium-niveau opstellen en openbaar maken, kunnen de dochters van die leden de vrijstelling van subconsolidatie inroepen — onder dezelfde notering- en gelijkwaardigheidsvoorwaarden. ⚖️
+Stellen de leden van een consortium een geconsolideerde jaarrekening op consortium-niveau op en maken ze die openbaar? Dan kunnen de dochters van die leden de vrijstelling van subconsolidatie inroepen — onder dezelfde notering- en gelijkwaardigheidsvoorwaarden. ⚖️
 
 
 ## Voorwaarden
 
-- De submoeder is zelf een dochter van een hogere moedervennootschap. ⚖️
-- De hogere moedervennootschap stelt een geconsolideerde jaarrekening en jaarverslag op, laat die controleren en maakt die openbaar volgens een gelijkwaardige standaard (Belgisch boekhoudrecht of een gelijkwaardige standaard). ⚖️
-- Noch de submoeder zelf, noch één van de tot haar consolidatiekring behorende dochters is genoteerd op een gereglementeerde markt. Bij notering vervalt de vrijstelling. ⚖️
+- De submoeder is zelf dochter van een hogere moeder. ⚖️
+- De hogere moeder stelt zelf een geconsolideerde jaarrekening en jaarverslag op, laat die controleren en maakt die openbaar — volgens een gelijkwaardige standaard (Belgisch boekhoudrecht of een gelijkwaardige). ⚖️
+- Noch de submoeder zelf, noch een van haar dochters is genoteerd op een gereglementeerde markt. Bij notering binnen de eigen consolidatiekring vervalt de vrijstelling. ⚖️
+<details>
+<summary><strong>Niet verwarren met</strong> (1 vergelijkingen)</summary>
+
+- **vs [[groottecriteria-consolidatie]]** — Vrijstelling op grond van groottecriteria geldt voor de hele moeder en haar groep wanneer ze beperkt van omvang is — kwantitatieve drempelvraag. Vrijstelling van subconsolidatie geldt voor een tussenmoeder onder een hogere moeder die al consolideert — kwalitatieve structuurvraag, los van groottecriteria. Beide vrijstellingen kunnen elkaar niet vervangen.
+  - _Trigger_: Examen-keuze-vraag: 'Welke vrijstelling beroept Aurelia zich op?' → toets eerst structuur (is er een top-moeder die al consolideert? → subconsolidatie), daarna omvang (zit de groep onder de drempels? → beperkte omvang).
+
+</details>
+
+
 ## Valkuilen
 
-- ⚠️ De vrijstelling 'verspringt' niet door noteringen op een hoger niveau. Een tussenliggende moeder X kan vrijgesteld blijven, ook al is haar moeder Y genoteerd — zolang X en haar dochters zelf niet genoteerd zijn (CBN 2012/12). ⚖️
-- ⚠️ Wanneer een vennootschap via vermogensmutatie wordt opgenomen (i.p.v. integraal), wijzigt de consolidatieverplichting niet. De groep blijft consolidatieplichtig zolang er ten minste één gecontroleerde dochter is. ⚖️
+- ⚠️ De vrijstelling 'verspringt' niet door noteringen hogerop. Aurelia Holding NV kan vrijgesteld blijven, ook al is de moeder Kappers Köln GmbH genoteerd — zolang Aurelia en haar dochters zelf niet genoteerd zijn (CBN 2012/12). ⚖️
+- ⚠️ Wordt een dochter via vermogensmutatie opgenomen (in plaats van integraal), dan verandert dat de consolidatieverplichting niet. De groep blijft consolidatieplichtig zolang er minstens één gecontroleerde dochter is. ⚖️
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Zie ook
+
+- **Vereist kennis van**: [[consolidatiekring]]
 
 ## Bronnen
 

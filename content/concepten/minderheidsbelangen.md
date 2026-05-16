@@ -20,60 +20,88 @@ gegenereerd_op: '2026-05-16'
 ---
 # Belangen van derden / Aandeel van derden in het resultaat (minderheidsbelangen) ⚖️
 
-> Het deel van het eigen vermogen en van het resultaat van integraal geconsolideerde dochters dat kan worden toegerekend aan aandelen die worden gehouden door andere personen dan de moedervennootschap of de dochters in de consolidatiekring. Op de geconsolideerde balans verschijnen die als 'Belangen van derden' aan passiefzijde; in de geconsolideerde resultatenrekening als 'Aandeel van derden in het resultaat'. Dit fenomeen ontstaat uitsluitend bij integrale consolidatie van een dochter waar de moeder minder dan 100 % van het kapitaal aanhoudt.
+> Het deel van het eigen vermogen en van het resultaat van een integraal geconsolideerde dochter dat toebehoort aan andere aandeelhouders dan de moeder of de andere dochters in de consolidatiekring. Op de geconsolideerde balans verschijnt dat als 'Belangen van derden' aan passiefzijde; in de geconsolideerde resultatenrekening als 'Aandeel van derden in het resultaat'. Dit fenomeen ontstaat enkel bij integrale consolidatie van een dochter waarvan de moeder minder dan 100 % bezit.
 >
 > _Bron: KB WVV art. 3:137 (resultaat); art. 3:130 (herberekening)_
 
 
 > [!summary] Korte definitie
-> Het deel van het eigen vermogen en van het resultaat van integraal geconsolideerde dochters dat kan worden toegerekend aan aandelen die worden gehouden door andere personen dan de moedervennootschap of de dochters in de consolidatiekring.
+> Het deel van het eigen vermogen en van het resultaat van een integraal geconsolideerde dochter dat toebehoort aan andere aandeelhouders dan de moeder of de andere dochters in de consolidatiekring.
 
-> [!info] Behoort tot: [[belangenpercentage]] · [[integrale-consolidatie]]
+> [!info] Behoort tot: [[integrale-consolidatie]]
 ## Berekening
 
 ### Aandeel van derden — balans en resultatenrekening
 
-**Aandeel van derden — balans en resultatenrekening** 
+**Belangen van derden (balans, passiefzijde)** 
 ```
-Belangen van derden (balans) = (1 − belang%) × eigen vermogen dochter op afsluitingsdatum;
-Aandeel van derden in resultaat = (1 − belang%) × resultaat van het boekjaar van de geconsolideerde dochter
+belangen van derden = (1 − belangenpercentage moeder) × eigen vermogen dochter op afsluitingsdatum
 ```
 
-*De moeder consolideert 100 % van de activa, passiva, opbrengsten en kosten van de dochter; het deel dat economisch aan derden toebehoort wordt afgezonderd zodat de geconsolideerde gegevens transparant tonen welk deel van eigen vermogen en resultaat aan de groep en welk deel aan minderheidsaandeelhouders toekomt.*
+| Symbool | Betekenis | Eenheid |
+|---|---|---|
+| `belangenpercentage moeder` | Aandeel van moeder in kapitaal dochter (zie [[belangenpercentage]]) | % |
+| `eigen vermogen dochter op afsluitingsdatum` | Kapitaal + reserves + overgedragen resultaat + resultaat boekjaar van de dochter, einde boekjaar | EUR |
+
+**Voorbeeld-invulling**: belangenpercentage Aurelia = 80 %; EV Brugse op afsluitingsdatum = 500
+
+```
+(1 − 80 %) × 500 = 20 % × 500 = 100
+```
+
+_Resultaat in EUR_
+**Aandeel van derden in het resultaat (resultatenrekening)** 
+```
+aandeel derden in resultaat = (1 − belangenpercentage moeder) × resultaat dochter boekjaar
+```
+
+| Symbool | Betekenis | Eenheid |
+|---|---|---|
+| `belangenpercentage moeder` | Aandeel van moeder in kapitaal dochter | % |
+| `resultaat dochter boekjaar` | Winst of verlies van de dochter in dit boekjaar | EUR |
+
+**Voorbeeld-invulling**: belangenpercentage Aurelia = 80 %; resultaat Brugse boekjaar = 100
+
+```
+(1 − 80 %) × 100 = 20 % × 100 = 20
+```
+
+_Resultaat in EUR_
+*Bij integrale consolidatie wordt 100 % van de cijfers van de dochter samengevoegd, ook al houdt de moeder slechts (bv.) 80 %. Het deel dat economisch aan minderheidsaandeelhouders toebehoort, wordt apart gepresenteerd zodat de geconsolideerde jaarrekening transparant toont welk deel aan de groep toekomt en welk deel aan derden.*
 
 ### . 
 
-**Voorbeeld**: Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV (integrale consolidatie). Eigen vermogen van Brugse Brouwerij BV op afsluitingsdatum = 500 (incl. resultaat boekjaar 100). Resultaat boekjaar D = 100.
+**Voorbeeld**: Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV (integrale consolidatie). Eigen vermogen van Brugse op afsluitingsdatum = 500 (incl. resultaat boekjaar 100). Resultaat boekjaar Brugse = 100.
 
 ```
-Belang% (M in D) = 80 %. Derden-percentage = 20 %.
+Belang% (Aurelia in Brugse) = 80 %. Derden-percentage = 20 %.
 Belangen van derden (balans, passief) = 20 % × 500 = 100.
 Aandeel van derden in het resultaat (resultatenrekening) = 20 % × 100 = 20.
-M-deel van het resultaat (na aftrek derden) = 80 % × 100 = 80.
+Deel van het resultaat voor Aurelia (na aftrek derden) = 80 % × 100 = 80.
 ```
 
-Resultaat: In de geconsolideerde balans verschijnen 'Belangen van derden' voor 100; in de geconsolideerde resultatenrekening verschijnt 'Aandeel van derden in het resultaat' voor 20. De resterende 80 wordt toegerekend aan de moedervennootschap (geconsolideerd resultaat van de groep).
+Resultaat: In de geconsolideerde balans: 'Belangen van derden' = 100 (passiefzijde). In de geconsolideerde resultatenrekening: 'Aandeel van derden in het resultaat' = 20. De resterende 80 zit in het geconsolideerd resultaat van de groep dat aan Aurelia toekomt.
 
 ## In de praktijk
 
 ### Enkel bij integrale consolidatie {id="enkel-bij-integrale-consolidatie"}
 
-Minderheidsbelangen verschijnen enkel bij integrale consolidatie (waarbij 100 % van de dochter wordt opgenomen). Bij evenredige consolidatie wordt het derden-deel gewoon niet opgenomen → geen aparte derden-post nodig. Bij vermogensmutatie wordt enkel het pro-rata aandeel van de moeder geboekt → ook geen derden-post. ⚖️
+Minderheidsbelangen verschijnen alleen bij integrale consolidatie (waarbij 100 % van de dochter wordt opgenomen). Bij evenredige consolidatie wordt het derden-deel gewoon niet opgenomen → geen aparte derden-post nodig. Bij vermogensmutatie zit alleen het pro-rata aandeel van de moeder in de balans → ook geen derden-post. ⚖️
 
-**Herkenningspunt**: Examen: zie je een post 'Belangen van derden' in een balans? → integrale consolidatie. Geen 'Belangen van derden' → evenredig of vermogensmutatie.
+**Herkenningspunt**: Examen: zie je een post 'Belangen van derden' op een geconsolideerde balans? → integrale consolidatie. Geen 'Belangen van derden' → evenredige consolidatie of vermogensmutatie.
 
 ### Negatief aandeel van derden {id="negatief-aandeel-van-derden"}
 
-Indien een dochter een verlies maakt en de moeder integraal consolideert, kan het derden-aandeel ook negatief zijn (wat het derden-belang op de balans vermindert). Geen specifieke beperking zoals bij vermogensmutatie (waar boekwaarde niet onder nul gaat); bij integrale consolidatie wordt het volledige resultaat opgenomen, en het derden-deel volgt naar evenredigheid. 🤖
+Maakt een dochter een verlies en consolideert de moeder integraal, dan kan het derden-aandeel ook negatief uitkomen (waardoor 'Belangen van derden' op de balans afneemt). Anders dan bij vermogensmutatie (waar de boekwaarde niet onder nul mag gaan) wordt bij integrale consolidatie het volledige resultaat opgenomen, en het derden-deel volgt naar evenredigheid — ook in min. 🤖
 
 
 ## Valkuilen
 
-- ⚠️ Het derden-aandeel wordt berekend op het eigen vermogen van de dochter ná herberekening van onder-/overgewaardeerde activa (KB WVV art. 3:130, lid 4). De derden-correctie wordt dus ook toegepast op de stille meer-/minderwaarden die bij eerste consolidatie zijn vastgesteld — niet enkel op het boekhoudkundige EV. ⚖️
+- ⚠️ Het derden-aandeel bereken je op het eigen vermogen van de dochter ná herberekening van onder- of overgewaardeerde bezittingen en schulden (KB WVV art. 3:130, lid 4). De derden-correctie geldt dus ook voor stille meer- of minderwaarden die bij eerste consolidatie zijn vastgesteld — niet enkel voor het boekhoudkundige EV. Voorbeeld: bij Brugse Brouwerij BV werden terreinen 50 opgewaardeerd; dan komt 20 % × 50 = 10 erbij in 'Belangen van derden'. ⚖️
 
 ## Zie ook
 
-- **Getriggerd door**: [[integrale-consolidatie]]
+- **Vereist kennis van**: [[belangenpercentage]]
 
 ## Bronnen
 

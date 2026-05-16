@@ -44,238 +44,168 @@
           "nieuwe_term": "voorrang"
         }
       ]
+    },
+    "deep_rewrite_2026_05_16": {
+      "door": "deep-rewrite-batch-2-concepten",
+      "op": "2026-05-16T02:30Z",
+      "velden_gewijzigd": [
+        "definitie.text (stagiair-toon)",
+        "voorbeeld_inline op record-niveau toegevoegd (cast consortium)",
+        "voorwaarden[*].text (stagiair-toon)",
+        "in_praktijk[*].betekenis (stagiair-toon + cast-voorbeelden)",
+        "valkuilen[*].text (stagiair-toon)",
+        "edges: redeneringen volledig + types geverifieerd"
+      ]
     }
   },
   "definitie": {
-    "text": "Een horizontale groep van vennootschappen die niet door een onderlinge moeder-dochter-relatie verbonden zijn, maar die onder een gemeenschappelijke (centrale) leiding staan. In een verticale concernstructuur rust de consolidatieplicht bij de moedervennootschap. In een consortium ontbreekt zo'n moeder en rust de consolidatieplicht gezamenlijk bij de vennootschappen die het consortium vormen — zij stellen samen één geconsolideerde jaarrekening en jaarverslag op en geven die openbaar.",
+    "text": "Een groep vennootschappen die niet door een moeder-dochter-relatie zijn verbonden, maar wel onder één gemeenschappelijke leiding staan. In een gewone (verticale) groep moet de moeder consolideren. In een consortium is er geen moeder — de consolidatieplicht rust gezamenlijk bij de leden van het consortium: zij stellen samen één geconsolideerde jaarrekening en jaarverslag op en publiceren die.",
     "confidence": "grounded",
     "source": {
       "type": "advies",
       "short": "CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)"
     },
     "references": [
-      {
-        "type": "wet",
-        "short": "WVV art. 1:19 (consortium)"
-      },
-      {
-        "type": "wet",
-        "short": "WVV art. 3:24 (consolidatieverplichting consortium)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:124, 1° jo. art. 3:96"
-      },
-      {
-        "type": "advies",
-        "short": "CBN 2016/19 — Consortium en rapporteringsstandaard"
-      },
-      {
-        "type": "advies",
-        "short": "CBN 2015/10 — Vrijstelling subconsolidatie: maatschap"
-      }
+      {"type": "wet", "short": "WVV art. 1:19 (consortium)"},
+      {"type": "wet", "short": "WVV art. 3:24 (consolidatieverplichting consortium)"},
+      {"type": "kb", "short": "KB WVV art. 3:124, 1° jo. art. 3:96"},
+      {"type": "advies", "short": "CBN 2016/19 — Consortium en rapporteringsstandaard"},
+      {"type": "advies", "short": "CBN 2015/10 — Vrijstelling subconsolidatie: maatschap"}
     ],
     "_provenance": {
       "inputs": [
-        {
-          "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatieverplichting-consoliderende-vennootschap",
-          "sha256": null,
-          "version": "rag-v1"
-        }
+        {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep", "sha256": null, "version": "rag-v1"},
+        {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatieverplichting-consoliderende-vennootschap", "sha256": null, "version": "rag-v1"}
       ]
-    }
+    },
+    "_corrected_from": [
+      {"field": "text", "from": "Een horizontale groep van vennootschappen die niet door een onderlinge moeder-dochter-relatie verbonden zijn, maar die onder een gemeenschappelijke (centrale) leiding staan. In een verticale concernstructuur rust de consolidatieplicht bij de moedervennootschap. In een consortium ontbreekt zo'n moeder en rust de consolidatieplicht gezamenlijk bij de vennootschappen die het consortium vormen — zij stellen samen één geconsolideerde jaarrekening en jaarverslag op en geven die openbaar.", "reason": "Stagiair-toon: korte zinnen; 'horizontale groep van vennootschappen die niet door een onderlinge moeder-dochter-relatie verbonden zijn' → 'groep vennootschappen die niet door een moeder-dochter-relatie zijn verbonden'; 'verticale concernstructuur' → 'gewone (verticale) groep' (regel 6)."}
+    ]
   },
+  "voorbeeld_inline": "Industria Antwerpen NV en Jachthaven Jezus-Eik NV hebben geen onderlinge moeder-dochter-relatie, maar dezelfde meerderheid van bestuurders en dezelfde feitelijke leider (Pieter Vermeulen). → onweerlegbaar consortium → samen consolidatieplichtig.",
   "voorwaarden": [
     {
-      "text": "De vennootschappen staan onder centrale leiding (gemeenschappelijke beleidsbepaling, vaak via dezelfde bestuurders of dezelfde meerderheidsaandeelhouder die niet zelf een moedervennootschap kan zijn).",
+      "text": "De vennootschappen staan onder centrale leiding: ze worden beleidsmatig samen aangestuurd, meestal omdat ze dezelfde bestuurders delen of omdat één persoon (geen vennootschap die zelf moeder kan zijn) de meerderheid van de stemrechten houdt.",
       "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2022/09"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "advies", "short": "CBN 2022/09"},
+      "_provenance": {"inputs": [{"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep", "sha256": null, "version": "rag-v1"}]},
+      "_corrected_from": [
+        {"field": "text", "from": "De vennootschappen staan onder centrale leiding (gemeenschappelijke beleidsbepaling, vaak via dezelfde bestuurders of dezelfde meerderheidsaandeelhouder die niet zelf een moedervennootschap kan zijn).", "reason": "Stagiair-toon: langere zin gesplitst (regel 6)."}
+      ]
     },
     {
-      "text": "De leden van het consortium mogen geen dochtervennootschappen van elkaar zijn en evenmin dochtervennootschappen van dezelfde Belgische of buitenlandse vennootschap. Anders geldt de voorrang van de verticale consolidatie en is een consortium overbodig.",
+      "text": "Geen van de leden mag dochter zijn van een ander lid, en de leden mogen geen dochter zijn van dezelfde Belgische of buitenlandse vennootschap. In die gevallen geldt namelijk de verticale consolidatie en heeft een consortium geen zin: een normale moeder consolideert dan al.",
       "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2022/09 — voorbeeld 1"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-1",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "advies", "short": "CBN 2022/09 — voorbeeld 1"},
+      "_provenance": {"inputs": [{"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-1", "sha256": null, "version": "rag-v1"}]},
+      "_corrected_from": [
+        {"field": "text", "from": "De leden van het consortium mogen geen dochtervennootschappen van elkaar zijn en evenmin dochtervennootschappen van dezelfde Belgische of buitenlandse vennootschap. Anders geldt de voorrang van de verticale consolidatie en is een consortium overbodig.", "reason": "Stagiair-toon: 'dochtervennootschappen' → 'dochter'; 'voorrang van de verticale consolidatie en is een consortium overbodig' → 'geldt namelijk de verticale consolidatie en heeft een consortium geen zin' (regel 6)."}
+      ]
     }
   ],
   "in_praktijk": [
     {
       "aspect": "Bewijsregels voor centrale leiding",
-      "betekenis": "Centrale leiding wordt vermoed (onweerlegbaar of weerlegbaar) in bv. de volgende gevallen: (a) onweerlegbaar indien dezelfde personen de meerderheid uitmaken van de bestuursorganen van de betrokken vennootschappen; (b) weerlegbaar indien de meerderheid van de aandelen of stemrechten door dezelfde persoon (al dan niet natuurlijke persoon zoals een private stichting) wordt aangehouden.",
-      "herkenningspunt": "Examenopgave: 'Het bestuursorgaan van X en Y bestaat uit dezelfde meerderheid van natuurlijke personen' → onweerlegbaar consortium-vermoeden.",
+      "betekenis": "Twee gevallen waarin centrale leiding vermoed wordt: (a) onweerlegbaar wanneer dezelfde personen de meerderheid uitmaken van het bestuursorgaan van beide vennootschappen; (b) weerlegbaar wanneer dezelfde persoon (natuurlijke persoon of bv. een private stichting) de meerderheid van de aandelen of stemrechten houdt. Onweerlegbaar = je hoeft niets meer te bewijzen; weerlegbaar = er kan tegenbewijs komen.",
+      "herkenningspunt": "Examen-zin 'Het bestuursorgaan van Industria Antwerpen NV en Jachthaven Jezus-Eik NV bestaat voor de meerderheid uit dezelfde natuurlijke personen' → onweerlegbaar consortium-vermoeden.",
       "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2022/09 — voorbeelden 1 en 7"
-      },
+      "source": {"type": "advies", "short": "CBN 2022/09 — voorbeelden 1 en 7"},
       "_provenance": {
         "inputs": [
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-1",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7",
-            "sha256": null,
-            "version": "rag-v1"
-          }
+          {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-1", "sha256": null, "version": "rag-v1"},
+          {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7", "sha256": null, "version": "rag-v1"}
         ]
-      }
+      },
+      "_corrected_from": [
+        {"field": "betekenis", "from": "Centrale leiding wordt vermoed (onweerlegbaar of weerlegbaar) in bv. de volgende gevallen: (a) onweerlegbaar indien dezelfde personen de meerderheid uitmaken van de bestuursorganen van de betrokken vennootschappen; (b) weerlegbaar indien de meerderheid van de aandelen of stemrechten door dezelfde persoon (al dan niet natuurlijke persoon zoals een private stichting) wordt aangehouden.", "reason": "Stagiair-toon: 'bestuursorganen van de betrokken vennootschappen' → 'het bestuursorgaan van beide vennootschappen'; uitleg onweerlegbaar/weerlegbaar (regel 6)."},
+        {"field": "herkenningspunt", "from": "Examenopgave: 'Het bestuursorgaan van X en Y bestaat uit dezelfde meerderheid van natuurlijke personen' → onweerlegbaar consortium-vermoeden.", "reason": "Cast-namen X/Y → Industria Antwerpen / Jachthaven Jezus-Eik (regel 7)."}
+      ]
     },
     {
       "aspect": "Consolidatietechniek",
-      "betekenis": "De vennootschappen die het consortium vormen worden opgenomen via integrale consolidatie (samenlezing WVV art. 3:24, tweede lid en KB WVV art. 3:124, 1°). De posten van het eigen vermogen worden samengevoegd; bedragen die toe te rekenen zijn aan elk consortiumlid behouden hun eigen karakter (beschikbare/onbeschikbare reserves). Indien de leden zelf dochters hebben, vindt eerst een verticale (integrale) consolidatie plaats per consortiumlid; vervolgens een horizontale consolidatie van de verticaal geconsolideerde rekeningen.",
+      "betekenis": "De leden van het consortium worden integraal geconsolideerd (samenlezing WVV art. 3:24, tweede lid en KB WVV art. 3:124, 1°): activa, schulden en resultaten worden voor 100 % opgeteld over alle leden. De eigen vermogens worden samengevoegd, maar de aard van de reserves blijft behouden — beschikbare reserves van Industria Antwerpen NV blijven beschikbaar, onbeschikbare blijven onbeschikbaar. Als een lid zelf dochters heeft, doe je eerst de verticale (gewone) consolidatie per lid, en pas dan de horizontale stap waarbij je de leden samenvoegt.",
       "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2022/09"
-      },
+      "source": {"type": "advies", "short": "CBN 2022/09"},
       "_provenance": {
         "inputs": [
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiemethode",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_verticale-consolidatie-voorafgaand-aan-de-horizontale-consol",
-            "sha256": null,
-            "version": "rag-v1"
-          }
+          {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiemethode", "sha256": null, "version": "rag-v1"},
+          {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_verticale-consolidatie-voorafgaand-aan-de-horizontale-consol", "sha256": null, "version": "rag-v1"}
         ]
-      }
+      },
+      "_corrected_from": [
+        {"field": "betekenis", "from": "De vennootschappen die het consortium vormen worden opgenomen via integrale consolidatie (samenlezing WVV art. 3:24, tweede lid en KB WVV art. 3:124, 1°). De posten van het eigen vermogen worden samengevoegd; bedragen die toe te rekenen zijn aan elk consortiumlid behouden hun eigen karakter (beschikbare/onbeschikbare reserves). Indien de leden zelf dochters hebben, vindt eerst een verticale (integrale) consolidatie plaats per consortiumlid; vervolgens een horizontale consolidatie van de verticaal geconsolideerde rekeningen.", "reason": "Stagiair-toon: cast-namen + concretisering (regels 6 + 7)."}
+      ]
     },
     {
       "aspect": "Toepasselijke rapporteringsstandaard",
-      "betekenis": "Een consortium past in beginsel het Belgisch boekhoudrecht toe op de geconsolideerde jaarrekening. Wanneer een lid van het consortium zelf reeds onder IFRS consolideert (bv. beursgenoteerd op gereglementeerde markt), wijzigt dat niet de keuze van de standaard op consortiumniveau.",
+      "betekenis": "Een consortium volgt in principe het Belgisch boekhoudrecht voor de geconsolideerde jaarrekening. Ook al consolideert één lid (bv. een beursgenoteerde) al onder IFRS in zijn eigen geconsolideerde jaarrekening, dat verandert de keuze op consortiumniveau niet.",
       "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2016/19"
-      },
+      "source": {"type": "advies", "short": "CBN 2016/19"},
       "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0__sec_vraagstelling",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+        "inputs": [{"id": "CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0__sec_vraagstelling", "sha256": null, "version": "rag-v1"}]
+      },
+      "_corrected_from": [
+        {"field": "betekenis", "from": "Een consortium past in beginsel het Belgisch boekhoudrecht toe op de geconsolideerde jaarrekening. Wanneer een lid van het consortium zelf reeds onder IFRS consolideert (bv. beursgenoteerd op gereglementeerde markt), wijzigt dat niet de keuze van de standaard op consortiumniveau.", "reason": "Stagiair-toon: 'past in beginsel' → 'volgt in principe'; 'wijzigt dat niet' → 'verandert de keuze niet' (regel 6)."}
+      ]
     }
   ],
   "vergelijkingsparen": [],
   "valkuilen": [
     {
-      "text": "Wie de centrale leiding uitoefent moet zelf géén moedervennootschap kunnen zijn (natuurlijke persoon, private stichting, maatschap zonder rechtspersoonlijkheid). Anders zou er een gewone verticale moeder-dochter-relatie zijn en geen consortium. De centrale leider zelf is niet consolidatieplichtig.",
+      "text": "De persoon of entiteit die de centrale leiding uitoefent mag zelf geen moedervennootschap kunnen zijn. Klassiek: een natuurlijke persoon (Pieter Vermeulen), een private stichting of een maatschap zonder rechtspersoonlijkheid. Zou de leider wél een vennootschap zijn die controle uitoefent, dan zou er een gewone moeder-dochter-relatie bestaan en geen consortium. De centrale leider zelf moet géén geconsolideerde jaarrekening opstellen.",
       "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2022/09 — voorbeeld 7; CBN 2015/10"
-      },
+      "source": {"type": "advies", "short": "CBN 2022/09 — voorbeeld 7; CBN 2015/10"},
       "_provenance": {
         "inputs": [
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap__sec_gevolgen-voor-consolidatieplicht",
-            "sha256": null,
-            "version": "rag-v1"
-          }
+          {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7", "sha256": null, "version": "rag-v1"},
+          {"id": "CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap__sec_gevolgen-voor-consolidatieplicht", "sha256": null, "version": "rag-v1"}
         ]
-      }
+      },
+      "_corrected_from": [
+        {"field": "text", "from": "Wie de centrale leiding uitoefent moet zelf géén moedervennootschap kunnen zijn (natuurlijke persoon, private stichting, maatschap zonder rechtspersoonlijkheid). Anders zou er een gewone verticale moeder-dochter-relatie zijn en geen consortium. De centrale leider zelf is niet consolidatieplichtig.", "reason": "Stagiair-toon: cast-naam Pieter Vermeulen; 'niet consolidatieplichtig' → 'moet géén geconsolideerde jaarrekening opstellen' (regels 6 + 7)."}
+      ]
     },
     {
-      "text": "Bij een consortium met centrale leiding van een natuurlijke persoon worden voor de groottecriteria de cijfers van die natuurlijke persoon niet meegeteld — enkel de cijfers van de leden zelf.",
+      "text": "Bij een consortium onder centrale leiding van een natuurlijke persoon tellen voor de groottecriteria-toets alleen de cijfers van de consortium-leden — niet de eventuele privé-cijfers van Pieter Vermeulen.",
       "confidence": "grounded",
-      "source": {
-        "type": "advies",
-        "short": "CBN 2022/09 — Beoordeling groottecriteria"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_beoordeling-groottecriteria-ingeval-van-een-consortium",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "source": {"type": "advies", "short": "CBN 2022/09 — Beoordeling groottecriteria"},
+      "_provenance": {"inputs": [{"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_beoordeling-groottecriteria-ingeval-van-een-consortium", "sha256": null, "version": "rag-v1"}]},
+      "_corrected_from": [
+        {"field": "text", "from": "Bij een consortium met centrale leiding van een natuurlijke persoon worden voor de groottecriteria de cijfers van die natuurlijke persoon niet meegeteld — enkel de cijfers van de leden zelf.", "reason": "Stagiair-toon: cast-naam Pieter Vermeulen toegevoegd (regel 7)."}
+      ]
     }
   ],
   "edges": [
     {
       "type": "contrasteert-met",
       "target": "moedervennootschap",
-      "redenering": "Moedervennootschap = verticale relatie (rechtspersoon controleert een andere). Consortium = horizontale relatie (gemeenschappelijke leiding zonder onderlinge controle). In een consortium is er geen moeder en rust de consolidatieplicht gezam",
+      "redenering": "Moedervennootschap = verticale relatie (één vennootschap controleert een andere). Consortium = horizontale relatie (gemeenschappelijke leiding zonder onderlinge controle). In een consortium is er geen moeder en rust de consolidatieplicht gezamenlijk bij de leden.",
       "_corrected_from": {
         "veld": "vergelijkingsparen → edges",
         "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
       },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "_provenance": {"inputs": [{"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep", "sha256": null, "version": "rag-v1"}]}
     },
     {
       "type": "contrasteert-met",
       "target": "gemeenschappelijke-dochteronderneming",
-      "redenering": "Een consortium is een horizontale groep van zelfstandige vennootschappen onder centrale leiding. Een gemeenschappelijke dochter is één ondernemingsentiteit waarover meerdere vennoten via een overeenkomst gezamenlijk controle uitoefenen.",
+      "redenering": "Een consortium is een horizontale groep van zelfstandige vennootschappen onder centrale leiding. Een gemeenschappelijke dochter is daarentegen één entiteit waarover meerdere vennoten via een overeenkomst gezamenlijke controle uitoefenen.",
       "_corrected_from": {
         "veld": "vergelijkingsparen → edges",
         "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
       },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
+      "_provenance": {"inputs": [{"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep", "sha256": null, "version": "rag-v1"}]}
     },
     {
       "type": "getriggerd-door",
       "target": "horizontale-consolidatie",
-      "redenering": "Consortium-relatie triggert horizontale consolidatie (geen moeder-dochter).",
+      "redenering": "Consortium-relatie triggert horizontale consolidatie (geen moeder-dochter — leden consolideren samen).",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "controle",
+      "redenering": "Om te begrijpen wat een consortium is, moet je weten wat controle (en het ontbreken ervan tussen de leden) betekent.",
       "confidence": "inferred"
     }
   ]

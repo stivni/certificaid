@@ -19,54 +19,65 @@ gegenereerd_op: '2026-05-16'
 ---
 # Step acquisition (trapsgewijze verwerving) ⚖️
 
-> Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt, met als gevolg dat (a) een participatie van invloed van betekenis wordt verworven of (b) een bestaande geassocieerde onderneming wordt opgeschaald — al dan niet naar een dochteronderneming. Bij elke trap moet worden beoordeeld of de kwalificatie (geen invloed → invloed van betekenis → controle) wijzigt; bij een kwalificatieverandering volgt een wijziging van consolidatietechniek (van geen consolidatie naar vermogensmutatie, of van vermogensmutatie naar integrale/evenredige consolidatie).
+> Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt — met als gevolg dat (a) een eerste deelneming met invloed van betekenis ontstaat of (b) een bestaande geassocieerde wordt opgeschaald, al dan niet tot dochter. Bij elke trap controleer je of de kwalificatie verandert (geen invloed → invloed van betekenis → controle). Verandert ze, dan schakelt ook de consolidatietechniek (van geen consolidatie naar vermogensmutatie, of van vermogensmutatie naar integrale of evenredige consolidatie).
 >
 > _Bron: CBN 2013/3 — De boekhoudkundige verwerking van step acquisitions (update)_
 
 
 > [!summary] Korte definitie
-> Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt, met als gevolg dat (a) een participatie van invloed van betekenis wordt verworven of (b) een bestaande geassocieerde onderneming wordt opgeschaald — al dan niet naar een dochteronderneming.
+> Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt — met als gevolg dat (a) een eerste deelneming met invloed van betekenis ontstaat of (b) een bestaande geassocieerde wordt opgeschaald, al dan niet tot dochter.
 
 > [!info] Specialisatie van: [[wijziging-consolidatiekring]]
 ## Bouwstenen
 
 ### Variant 1 — geassocieerde blijft geassocieerd ⚖️
 
-Verhoging van een belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft. De aanvullende deelneming wordt geboekt als een verhoging van 'Vennootschappen waarop vermogensmutatie is toegepast', met eventueel een bijkomend consolidatieverschil op het bijkomend belang.
+Je verhoogt het belang in een geassocieerde maar blijft onder de controlegrens — de geassocieerde blijft geassocieerd. De bijkomende aankoop verhoog je gewoon de post 'Vennootschappen waarop vermogensmutatie is toegepast' en bereken je eventueel een extra consolidatieverschil op het bijkomend belang.
 
+**Waarom?** Geen kwalificatieverandering = geen wisseling van techniek. De vermogensmutatie blijft de juiste methode; alleen het bedrag en het residu groeien mee.
 
+**Voorbeeld**: Antwerpse Investments NV bezit 25 % in Drukkerij Dendermonde BV (vermogensmutatie) en koopt 5 % bij → nu 30 %, nog steeds geassocieerd → 'Vennootschappen waarop vermogensmutatie is toegepast' wordt verhoogd met het pro-rata bedrag + eventueel consolidatieverschil op de bijkomende 5 %.
 
 _Grondslag: CBN 2013/3_
 
 ### Variant 2 — geassocieerde wordt dochter ⚖️
 
-Verhoging van een belang in een geassocieerde onderneming met overschrijding van de controlegrens — vermogensmutatie wordt verlaten en integrale consolidatie begint. Het bestaande consolidatieverschil wordt geherwaardeerd; de activa en passiva van de nieuwe dochter worden volledig opgenomen op de datum waarop controle wordt verworven.
+Je verhoogt het belang en overschrijdt de controlegrens — de geassocieerde wordt dochter. De vermogensmutatie eindigt; vanaf nu pas je integrale consolidatie toe. Voor het bijkomende belang bereken je een nieuw consolidatieverschil op de datum waarop controle is verworven; activa en schulden van de nieuwe dochter komen voor 100 % in de geconsolideerde balans (met derden-aandeel apart).
 
+**Waarom?** Een wisseling van consolidatietechniek wijst op een fundamenteel andere economische werkelijkheid: van 'meepraten over beleid' naar 'beleid bepalen'. De jaarrekening moet die overgang weergeven.
 
+**Voorbeeld**: Antwerpse bezit 25 % in Drukkerij Dendermonde (vermogensmutatie). In 20X3 koopt Antwerpse 35 % bij → totaal 60 % → exclusieve controle → integrale consolidatie. Voor de bijkomende 35 % wordt een nieuw consolidatieverschil berekend op datum 20X3.
 
 _Grondslag: CBN 2013/3_
 
 ### Variant 3 — niet-geassocieerde wordt geassocieerd ⚖️
 
-Eerste verwerving van een belang dat invloed van betekenis triggert (typisch ≥ 20 %). Eerste consolidatie volgens vermogensmutatie; berekening van het consolidatieverschil zoals bij eerste consolidatie.
+Eerste verwerving van een belang dat invloed van betekenis triggert (typisch ≥ 20 %). Eerste consolidatie via vermogensmutatie: je berekent het consolidatieverschil zoals bij elke eerste consolidatie (aanschaffingswaarde − pro-rata aandeel in EV; toerekenen aan stille meer-/minderwaarden; residu boeken).
 
+**Waarom?** Bij het kantelmoment 'geen invloed → invloed van betekenis' begin je effectief met consolideren — er moet dus een eerste consolidatieverschil worden vastgesteld, op basis van de aanschaffingsdatum van de eerste tranche.
 
+**Voorbeeld**: Antwerpse Investments NV verwerft in 20X1 een eerste tranche van 25 % in Drukkerij Dendermonde BV voor 200; EV Drukkerij op aankoopdatum = 600 → pro-rata = 150; consolidatieverschil = 200 − 150 = 50, te boeken bij eerste consolidatie via vermogensmutatie.
 
 _Grondslag: CBN 2013/3_
 
 
 ## In de praktijk
 
-### Kantelpunt detecteren {id="kantelpunt-detecteren"}
+### Kantelpunten detecteren {id="kantelpunten-detecteren"}
 
-Bij elke verwerving moet eerst worden gecontroleerd of de kwalificatie verandert. Drie kantelpunten: 0% → 20 % (geen → geassocieerd), 20–50 % → > 50 % (geassocieerd → dochter), > 50 % → 100 % (controle behouden maar belang gewijzigd). Bij elk kantelpunt schakelt de consolidatietechniek mogelijk over. ⚖️
+Bij elke trap controleer je éérst of de kwalificatie verandert. Drie typische kantelpunten: 0 % → ≥ 20 % (geen invloed → geassocieerde), 20–50 % → > 50 % (geassocieerde → dochter), > 50 % → hoger % (controle behouden maar belang gewijzigd → enkel pro-rata-aanpassing). Bij elk kantelpunt schakelt mogelijk de consolidatietechniek. ⚖️
 
-**Herkenningspunt**: Examen vraag 'eerst 20 %, later +40 % verwerving': eerst vermogensmutatie, daarna integrale consolidatie — niet één continue rekening.
+**Herkenningspunt**: Examen-zin 'Antwerpse koopt eerst 25 %, daarna 35 % bij': twee opeenvolgende kwalificaties — eerst vermogensmutatie (25 %), daarna integrale consolidatie (totaal 60 %). Het is geen één continue boekhoudkundige rekening, maar twee afzonderlijke regimes.
 
 
 ## Valkuilen
 
-- ⚠️ Bij overgang van vermogensmutatie naar integrale consolidatie wordt het reeds bestaande consolidatieverschil niet weggewerkt — wel moet voor het bijkomend belang een nieuw consolidatieverschil worden berekend op basis van de aanschaffingsdatum van die nieuwe tranche. ⚖️
+- ⚠️ Bij de overgang van vermogensmutatie naar integrale consolidatie verdwijnt het bestaande consolidatieverschil niet. Voor de bijkomende tranche bereken je een nieuw consolidatieverschil op de aanschaffingsdatum van die nieuwe tranche; het oude residu blijft bestaan voor de eerdere tranche. ⚖️
+
+## Zie ook
+
+- **Getriggerd door**: [[eerste-consolidatie]]
+- **Vereist kennis van**: [[consolidatieverschil]]
 
 ## Bronnen
 

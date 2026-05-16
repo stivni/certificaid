@@ -20,46 +20,44 @@ gegenereerd_op: '2026-05-16'
 ---
 # Consortium (horizontale groep) ⚖️
 
-> Een horizontale groep van vennootschappen die niet door een onderlinge moeder-dochter-relatie verbonden zijn, maar die onder een gemeenschappelijke (centrale) leiding staan. In een verticale concernstructuur rust de consolidatieplicht bij de moedervennootschap. In een consortium ontbreekt zo'n moeder en rust de consolidatieplicht gezamenlijk bij de vennootschappen die het consortium vormen — zij stellen samen één geconsolideerde jaarrekening en jaarverslag op en geven die openbaar.
+> Een groep vennootschappen die niet door een moeder-dochter-relatie zijn verbonden, maar wel onder één gemeenschappelijke leiding staan. In een gewone (verticale) groep moet de moeder consolideren. In een consortium is er geen moeder — de consolidatieplicht rust gezamenlijk bij de leden van het consortium: zij stellen samen één geconsolideerde jaarrekening en jaarverslag op en publiceren die.
 >
 > _Bron: CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)_
 
 
 > [!summary] Korte definitie
-> Een horizontale groep van vennootschappen die niet door een onderlinge moeder-dochter-relatie verbonden zijn, maar die onder een gemeenschappelijke (centrale) leiding staan.
+> Een groep vennootschappen die niet door een moeder-dochter-relatie zijn verbonden, maar wel onder één gemeenschappelijke leiding staan.
 
 ## In de praktijk
 
 ### Bewijsregels voor centrale leiding {id="bewijsregels-voor-centrale-leiding"}
 
-Centrale leiding wordt vermoed (onweerlegbaar of weerlegbaar) in bv. de volgende gevallen: (a) onweerlegbaar indien dezelfde personen de meerderheid uitmaken van de bestuursorganen van de betrokken vennootschappen; (b) weerlegbaar indien de meerderheid van de aandelen of stemrechten door dezelfde persoon (al dan niet natuurlijke persoon zoals een private stichting) wordt aangehouden. ⚖️
+Twee gevallen waarin centrale leiding vermoed wordt: (a) onweerlegbaar wanneer dezelfde personen de meerderheid uitmaken van het bestuursorgaan van beide vennootschappen; (b) weerlegbaar wanneer dezelfde persoon (natuurlijke persoon of bv. een private stichting) de meerderheid van de aandelen of stemrechten houdt. Onweerlegbaar = je hoeft niets meer te bewijzen; weerlegbaar = er kan tegenbewijs komen. ⚖️
 
-**Herkenningspunt**: Examenopgave: 'Het bestuursorgaan van X en Y bestaat uit dezelfde meerderheid van natuurlijke personen' → onweerlegbaar consortium-vermoeden.
+**Herkenningspunt**: Examen-zin 'Het bestuursorgaan van Industria Antwerpen NV en Jachthaven Jezus-Eik NV bestaat voor de meerderheid uit dezelfde natuurlijke personen' → onweerlegbaar consortium-vermoeden.
 
 ### Consolidatietechniek {id="consolidatietechniek"}
 
-De vennootschappen die het consortium vormen worden opgenomen via integrale consolidatie (samenlezing WVV art. 3:24, tweede lid en KB WVV art. 3:124, 1°). De posten van het eigen vermogen worden samengevoegd; bedragen die toe te rekenen zijn aan elk consortiumlid behouden hun eigen karakter (beschikbare/onbeschikbare reserves). Indien de leden zelf dochters hebben, vindt eerst een verticale (integrale) consolidatie plaats per consortiumlid; vervolgens een horizontale consolidatie van de verticaal geconsolideerde rekeningen. ⚖️
+De leden van het consortium worden integraal geconsolideerd (samenlezing WVV art. 3:24, tweede lid en KB WVV art. 3:124, 1°): activa, schulden en resultaten worden voor 100 % opgeteld over alle leden. De eigen vermogens worden samengevoegd, maar de aard van de reserves blijft behouden — beschikbare reserves van Industria Antwerpen NV blijven beschikbaar, onbeschikbare blijven onbeschikbaar. Als een lid zelf dochters heeft, doe je eerst de verticale (gewone) consolidatie per lid, en pas dan de horizontale stap waarbij je de leden samenvoegt. ⚖️
 
 ### Toepasselijke rapporteringsstandaard {id="toepasselijke-rapporteringsstandaard"}
 
-Een consortium past in beginsel het Belgisch boekhoudrecht toe op de geconsolideerde jaarrekening. Wanneer een lid van het consortium zelf reeds onder IFRS consolideert (bv. beursgenoteerd op gereglementeerde markt), wijzigt dat niet de keuze van de standaard op consortiumniveau. ⚖️
+Een consortium volgt in principe het Belgisch boekhoudrecht voor de geconsolideerde jaarrekening. Ook al consolideert één lid (bv. een beursgenoteerde) al onder IFRS in zijn eigen geconsolideerde jaarrekening, dat verandert de keuze op consortiumniveau niet. ⚖️
 
 
 ## Voorwaarden
 
-- De vennootschappen staan onder centrale leiding (gemeenschappelijke beleidsbepaling, vaak via dezelfde bestuurders of dezelfde meerderheidsaandeelhouder die niet zelf een moedervennootschap kan zijn). ⚖️
-- De leden van het consortium mogen geen dochtervennootschappen van elkaar zijn en evenmin dochtervennootschappen van dezelfde Belgische of buitenlandse vennootschap. Anders geldt de voorrang van de verticale consolidatie en is een consortium overbodig. ⚖️
+- De vennootschappen staan onder centrale leiding: ze worden beleidsmatig samen aangestuurd, meestal omdat ze dezelfde bestuurders delen of omdat één persoon (geen vennootschap die zelf moeder kan zijn) de meerderheid van de stemrechten houdt. ⚖️
+- Geen van de leden mag dochter zijn van een ander lid, en de leden mogen geen dochter zijn van dezelfde Belgische of buitenlandse vennootschap. In die gevallen geldt namelijk de verticale consolidatie en heeft een consortium geen zin: een normale moeder consolideert dan al. ⚖️
 ## Valkuilen
 
-- ⚠️ Wie de centrale leiding uitoefent moet zelf géén moedervennootschap kunnen zijn (natuurlijke persoon, private stichting, maatschap zonder rechtspersoonlijkheid). Anders zou er een gewone verticale moeder-dochter-relatie zijn en geen consortium. De centrale leider zelf is niet consolidatieplichtig. ⚖️
-- ⚠️ Bij een consortium met centrale leiding van een natuurlijke persoon worden voor de groottecriteria de cijfers van die natuurlijke persoon niet meegeteld — enkel de cijfers van de leden zelf. ⚖️
+- ⚠️ De persoon of entiteit die de centrale leiding uitoefent mag zelf geen moedervennootschap kunnen zijn. Klassiek: een natuurlijke persoon (Pieter Vermeulen), een private stichting of een maatschap zonder rechtspersoonlijkheid. Zou de leider wél een vennootschap zijn die controle uitoefent, dan zou er een gewone moeder-dochter-relatie bestaan en geen consortium. De centrale leider zelf moet géén geconsolideerde jaarrekening opstellen. ⚖️
+- ⚠️ Bij een consortium onder centrale leiding van een natuurlijke persoon tellen voor de groottecriteria-toets alleen de cijfers van de consortium-leden — niet de eventuele privé-cijfers van Pieter Vermeulen. ⚖️
 
 ## Zie ook
 
 - **Getriggerd door**: [[horizontale-consolidatie]]
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+- **Vereist kennis van**: [[controle]]
 
 ## Bronnen
 
