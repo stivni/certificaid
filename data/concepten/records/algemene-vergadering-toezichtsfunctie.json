@@ -1,0 +1,57 @@
+{
+  "id": "algemene-vergadering-toezichtsfunctie",
+  "naam": "Algemene vergadering — toezichtsfunctie op jaarrekening",
+  "node_type": "actor",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.3.I.D"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.3.I.D",
+    "dekt_ook_anchors": [],
+    "reviewed_by": null,
+    "cross_po_overlap": "AV als orgaan kan ook in PO 1.2 / vennootschapsrecht voorkomen. Hier focus op toezichtsfunctie m.b.t. de jaarrekening."
+  },
+  "definitie": {
+    "text": "De algemene vergadering van aandeelhouders (of leden bij een VZW) is het orgaan dat de jaarrekening goedkeurt. Het bestuursorgaan licht aan de algemene vergadering de financiële toestand en de uitvoering van de begroting toe; de AV beslist of ze de cijfers aanvaardt en kwijting geeft aan bestuurders en commissaris.",
+    "confidence": "grounded",
+    "source": {"type": "wet", "short": "WVV art. 9:19 (en analoge artikelen per rechtsvorm)"},
+    "_provenance": {"inputs": [{"id": "WVV__art_9_17", "sha256": null, "version": "rag-v1"}]}
+  },
+  "bouwstenen": [
+    {
+      "titel": "Toelichting door bestuursorgaan",
+      "wat": "Het bestuursorgaan licht aan de algemene vergadering de financiële toestand en de uitvoering van de begroting toe. De AV stelt vragen en beoordeelt.",
+      "waarom": "De AV is de uiteindelijke beslisser; haar kwijting bepaalt of bestuurders aansprakelijk blijven voor het beleid van het boekjaar.",
+      "voorbeeld_inline": "Op de gewone AV van Rotex Roeselare NV in mei 20X2 licht de CEO de jaarrekening 20X1 toe. AV stemt over goedkeuring en kwijting.",
+      "grondslag": "WVV art. 9:19 (VZW-context) en analoog voor andere rechtsvormen",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WVV art. 9:19"},
+      "_provenance": {"inputs": [{"id": "WVV__art_9_17", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Goedkeuring en kwijting",
+      "wat": "Twee aparte stemmingen: (a) goedkeuring van de jaarrekening (validatie van de cijfers), (b) kwijting aan bestuurders en commissaris (vrijwaring tegen aansprakelijkheid voor het uitgevoerde boekjaar).",
+      "waarom": "Goedkeuring zonder kwijting is mogelijk (AV vindt cijfers OK maar wil bestuurders aansprakelijk kunnen blijven houden).",
+      "voorbeeld_inline": "Bij Rotex Roeselare NV: 100 % vóór goedkeuring; 98 % vóór kwijting (Robert Vandenberghe, minderheidsaandeelhouder, onthoudt zich wegens hangend geschil).",
+      "grondslag": "WVV (per rechtsvorm)",
+      "confidence": "inferred",
+      "source": {"type": "wet", "short": "WVV"},
+      "_provenance": {"inputs": [{"id": "WVV__art_9_17", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Datum kwijting = signaal voor analist",
+      "betekenis": "Een uitgestelde of geweigerde kwijting is een signaal dat aandeelhouders niet tevreden zijn met het beleid — relevant voor analist bij beoordeling van governance.",
+      "anker_slug": "1.3.I.D",
+      "confidence": "inferred",
+      "source": {"type": "vakdoctrine", "short": "Financial analysis + corporate governance"},
+      "_provenance": {"inputs": [{"id": "anchor-1.3.I.D", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "vereist-kennis-van", "target": "bestuursverslag", "redenering": "Bestuursverslag wordt voor goedkeuring aan AV voorgelegd.", "confidence": "inferred"}
+  ]
+}

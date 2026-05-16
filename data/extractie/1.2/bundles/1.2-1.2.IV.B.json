@@ -1,0 +1,194 @@
+{
+  "po": "1.2",
+  "anchor_id": "1.2.IV.B",
+  "anchor": {
+    "tekst": "Grootte van vennootschappen (micro, klein, groot) en verenigingen",
+    "anchor_type": "",
+    "verbose": "",
+    "synoniemen": []
+  },
+  "matches_source": "data/extractie/matches/latest.json",
+  "bundle_size": 20,
+  "bundle": [
+    {
+      "chunk_id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen",
+      "chunk_sha": "7c14f125530b2724",
+      "bron": "2022/03",
+      "bron_rol": "advies",
+      "sectie": "Definitie van kleine vennootschappen en microvennootschappen",
+      "score": 0.8017,
+      "text": "[CBN-advies 2022/03 — CBN-advies 2022/03 - Beoordeling van de groottecriteria overeenkomstig…]\n\nDefinitie van kleine vennootschappen en microvennootschappen\n\nArtikel 1:24 van het Wetboek van vennootschappen en verenigingen (hierna: WVV) maakt een onderscheid tussen ‘kleine’ vennootschappen en vennootschappen die niet als dusdanig kunnen worden gekwalificeerd. Volgens artikel 1:24, § 1 WVV zijn kleine vennootschappen deze met rechtspersoonlijkheid[^2] die op balansdatum van het laatst afgesloten boekjaar, niet meer dan één van de volgende criteria overschrijden:\n\n- jaargemiddelde van het aantal werknemers: 50; \n- jaaromzet, exclusief de belasting over de toegevoegde waarde: 9.000.000 euro; \n- balanstotaal: 4.500.000 euro. \n\nArtikel 1:25 WVV definieert microvennootschappen als kleine vennootschappen met rechtspersoonlijkheid die op balansdatum van het laatst afgesloten boekjaar geen dochtervennootschap of moedervennootschap zijn en die niet meer dan één der volgende criteria overschrijden:\n\n- jaargemiddelde van het aantal werknemers: 10; \n- jaaromzet, exclusief de belasting over de toegevoegde waarde: 700.000 euro; \n- balanstotaal: 350.000 euro. \n\nMicrovennootschappen worden gedefinieerd als een subcategorie van kleine vennootschappen. Bijgevolg zijn de bepalingen die gelden voor kleine vennootschappen onder bepaalde voorwaarden ook van toepassing op microvennootschappen (*infra* randnummer 20)."
+    },
+    {
+      "chunk_id": "CBN-2018-22-groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde__sec_vennootschap-a-1-000",
+      "chunk_sha": "27b551bce5bbaa89",
+      "bron": "2018/22",
+      "bron_rol": "advies",
+      "sectie": "Vennootschap A: 1.000",
+      "score": 0.7065,
+      "text": "[CBN-advies 2018/22 — CBN-advies 2018/22 – Groottecriteria – Alternatieve berekening van de omzet op…]\n\nVennootschap A: 1.000\n\nVennootschap B: 12.000.000\n\nDe vennootschap A is een moedervennootschappen zodat voor de bepaling van de groottecriteria de in aanmerking te nemen omzet plaatsvindt op geconsolideerde basis of op geaggregeerde basis.[^37]"
+    },
+    {
+      "chunk_id": "CBN-2017-10-groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata__sec_wijziging-verbondenheid",
+      "chunk_sha": "9e240661e64cb60d",
+      "bron": "2017/10",
+      "bron_rol": "advies",
+      "sectie": "Wijziging verbondenheid",
+      "score": 0.701,
+      "text": "[CBN-advies 2017/10 — CBN-advies 2017/10 – Groottecriteria artikel 15 W.Venn. – Verbonden…]\n\nWijziging verbondenheid\n\nDe beoordeling van de groottecriteria vindt voor moedervennootschappen plaats op geconsolideerde (of geaggregeerde) basis.[^8]\n De Commissie benadrukt dat voor de beoordeling van de grootte van een vennootschap de verbondenheid principieel moet worden beoordeeld op de balansdatum van het betreffende boekjaar. Indien een wijziging van de verbondenheid heeft plaatsgevonden tijdens het boekjaar, heeft dit aldus gevolgen voor de wijze waarop de groottecriteria voor deze vennootschap moeten worden beoordeeld voor dat boekjaar.\n\nIndien een vennootschap op balansdatum niet verbonden is, vindt de toetsing van de groottecriteria, ook voor de voorgaande jaren, plaats op enkelvoudige basis. Indien een vennootschap op balansdatum een moedervennootschap is, vindt de toetsing van de groottecriteria, ook voor de voorgaande jaren, plaats op geconsolideerde (of geaggregeerde) basis ongeacht of deze vennootschap zelf tijdens die voorgaande jaren een moedervennootschap is. Hierbij worden de geconsolideerde (of geaggregeerde) cijfers in aanmerking genomen van de vennootschappen waarmee deze vennootschap in de voorgaande jaren verbonden was.\n\nHierna volgen een aantal voorbeelden ter verduidelijking.\n\nLegende:\n\n<< Op de balansdatum van het huidige boekjaar wordt maximaal één van de criteria van artikel 15/1 W.Venn. overschreden;\n\n< Op de balansdatum van het huidige boekjaar wordt maximaal één van de criteria van artikel 15 W.Venn. overschreden;\n\n> Op de balansdatum van het huidige boekjaar wordt meer dan één van de criteria van artikel 15 W.Venn. overschreden;\n\n**Voorbeeld 1: microvennootschap A verwerft kleine vennootschap B in N. Op geconsolideerde basis overschrijden (A + B) in jaar N de groottecriteria van artikel 15 W.Venn.**\n\nEen microvennootschap A verwerft tijdens het boekjaar N een kleine vennootschap B. Op geconsolideerde basis overschrijden (A+B) in het boekjaar N meer dan één van de criteria van artikel 15, § 1 W.Venn.\n\nVennootschap A is op 31/12/N een moedervennootschap. Bijgevolg kan de vennootschap A geen microvennootschap zijn tijdens het jaar N. De groottecriteria voor de vennootschap A moeten op geconsolideerde basis worden beoordeeld. Op 31/12/N-1 en 31/12/N-2 is de vennootschap A met geen enkele andere vennootschap verbonden en overschreed niet meer dan één van de criteria vermeld in artikel 15, § 1 W.Venn. Bijgevolg is de vennootschap A een kleine vennootschap tijdens het boekjaar N. Wanneer alle gegevens hetzelfde blijven wordt vennootschap A voor het eerst een *grote[^9]*  vennootschap in boekjaar N+2.\n\n**Voorbeeld 2: moedervennootschap A wordt een niet-verbonden vennootschap in N. Op geconsolideerde basis overschrijden (A + A1 + A2) zowel in N-2 als in N-1 de groottecriteria van artikel 15 W.Venn.**\n\nEen *grote*[^10] moedervennootschap A die op enkelvoudige basis niet meer dan één van de criteria van artikel 15/1, § 1 W.Venn. overschrijdt, wordt tijdens het boekjaar N een niet-verbonden vennootschap[^11].\n\nOp 31/12/N is de vennootschap A geen moedervennootschap. Bijgevolg worden de groottecriteria van de vennootschap A op enkelvoudige basis beoordeeld. Op 31/12/N-1 en 31/12/N-2 overschrijdt de vennootschap A niet meer dan één van de criteria vermeld in artikel 15/1, § 1 W.Venn. Bijgevolg is de vennootschap A een microvennootschap tijdens het boekjaar N.\n\n**Voorbeeld 3: een dochtervennootschap A wordt een moedervennootschap in N. Op geconsolideerde basis overschrijden (A + X) op 31/12/N de groottecriteria van artikel 15 W.Venn. niet. Op 31/12/N-2 en 31/12/N-1 overschrijden (B + A) op geconsolideerde basis de groottecriteria van artikel 15 W.Venn. wel.**\n\nDe vennootschap A is een verbonden vennootschap doch is geen moedervennootschap in N-2 en N-1. Tijdens het boekjaar N wordt de vennootschap A een moedervennootschap. De groottecriteria voor de vennootschap A moeten aldus op geconsolideerde basis worden beoordeeld. Op 31/12/N-1 en 31/12/N-2 is de vennootschap A verbonden met de vennootschap B[^12] en op geconsolideerde basis overschrijden de vennootschappen A en B meer dan één van de criteria vermeld in artikel 15, § 1 W.Venn. Bijgevolg is de vennootschap A een *grote[^13]*  vennootschap tijdens het boekjaar N. Wanneer alle gegevens hetzelfde blijven, wordt vennootschap A voor het eerst een kleine vennootschap in boekjaar N+2. \n\n[^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 28 februari 2017 ter consultatie werd gepubliceerd op de website van de CBN.\n\n[^2]: Randnummer 32 van CBN-advies 2016/3 - Beoordeling groottecriteria artikelen 15 en 15/1 W.Venn.\n\n[^3]: Artikelen 15, § 1 en 15/1, § 1 W.Venn. en randnummer 30 van het CBN-advies 2016/3 - Beoordeling groottecriteria artikelen 15 en 15/1 W.Venn.\n\n[^4]: Artikel 15, § 6 W.Venn.\n\n[^5]: Artikel 15, § 7 W.Venn.\n\n[^6]: Randnummer 31 van het CBN-advies 2016/3 - Beoordeling groottecriteria artikelen 15 en 15/1 W.Venn. In voormeld advies 2016/3 werd er voor de eenvoud steeds van uitgegaan dat de afsluitingsdata van al de verbonden vennootschappen gelijk zijn.\n\n[^7]: De balansdatum van MIDCO, zie ook randnummer 4.\n\n[^8]: Artikel 15, § 6 en § 7 W.Venn.\n\n[^9]: Het W.Venn. definieert wat moet worden verstaan onder een kleine vennootschap maar bevat geen definitie van een grote vennootschap. In onderhavig advies wordt met een grote vennootschap bedoeld een vennootschap die niet aan de criteria voldoet om aangemerkt te worden als een kleine vennootschap. De Commissie benadrukt dat met een grote vennootschap dus niet wordt bedoeld de grote ondernemingen zoals bepaald in voormelde Richtlijn 2013/34/EU van het Europees parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad.\n\n[^10]: Het W.Venn. definieert wat moet worden verstaan onder een kleine vennootschap maar bevat geen definitie van een grote vennootschap. In onderhavig advies wordt met een grote vennootschap bedoeld een vennootschap die niet aan de criteria voldoet om aangemerkt te worden als een kleine vennootschap. De Commissie benadrukt dat met een grote vennootschap dus niet wordt bedoeld de grote ondernemingen zoals bepaald in voormelde Richtlijn 2013/34/EU.\n\n[^11]: En vormt dus evenmin met een andere vennootschap een consortium.\n\n[^12]: Wat betreft de beoordeling van de grootte van de vennootschap B tijdens het boekjaar N merkt de Commissie op dat de vennootschap B op 31/12/N geen moedervennootschap is. Bijgevolg worden de groottecriteria voor de vennootschap B voor het jaar N beoordeeld op basis van de enkelvoudige jaarrekening van de vennootschap B op 31/12/N-2 en 31/12/N-1.\n\n[^13]: Het W.Venn. definieert wat moet worden verstaan onder een kleine vennootschap maar bevat geen definitie van een grote vennootschap. In onderhavig advies wordt met een grote vennootschap bedoeld een vennootschap die niet aan de criteria voldoet om aangemerkt te worden als een kleine vennootschap. De Commissie benadrukt dat met een grote vennootschap dus niet wordt bedoeld de grote ondernemingen zoals bepaald in voormelde Richtlijn 2013/34/EU."
+    },
+    {
+      "chunk_id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_toepassingsgebied",
+      "chunk_sha": "5b7bfa3a02046898",
+      "bron": "2022/03",
+      "bron_rol": "advies",
+      "sectie": "Toepassingsgebied",
+      "score": 0.6919,
+      "text": "[CBN-advies 2022/03 — CBN-advies 2022/03 - Beoordeling van de groottecriteria overeenkomstig…]\n\nToepassingsgebied\n\nIn principe is de enkelvoudige jaarrekening de basis voor de beoordeling of de groottecriteria worden nageleefd.[^13] \n\nDe wetgever heeft evenwel voorzien dat voor verbonden vennootschappen de berekening van het al dan niet overschrijden van de limieten zoals bepaald in artikel 1:24, § 1 WVV, gebeurt op geconsolideerde[^14] of geaggregeerde[^15] basis. Sedert de omzetting van Richtlijn 2013/34/EU betreft deze regel enkel de moedervennootschappen zoals bepaald in artikel 1:15, 1° WVV, namelijk de vennootschappen die in rechte of in feite een controle uitoefenen op één of meerdere andere vennootschappen. \n\nNaast de moedervennootschappen *sensu stricto*, worden eveneens bedoeld: \n\n- vennootschappen die zijn opgericht met als enig doel de verslaggeving van bepaalde informatie te ontwijken[^16]; \n- vennootschappen die een consortium vormen aangezien deze worden gelijkgesteld met een moedervennootschap[^17]. \n\nDe andere verbonden vennootschappen in de zin van artikel 1:20, 1° WVV – hoofdzakelijk de dochtervennootschappen – worden aldus niet beoogd door deze uitzondering, voor zover zij zelf geen moedervennootschap zijn. \n\nEen beoordeling van de groottecriteria op geconsolideerde basis impliceert niet dat de moedervennootschap effectief een geconsolideerde jaarrekening moet publiceren.\n\nDe Commissie merkt op dat wanneer de groottecriteria moeten worden beoordeeld op geconsolideerde of geaggregeerde basis, er rekening moet worden gehouden met de gegevens van alle verbonden vennootschappen, inclusief de verbonden vennootschappen die, door de toepassing van de door het KB WVV voorziene bepalingen inzake consolidatie, buiten de consolidatiekring vallen.[^18]\n De in artikelen 3:97 tot 3:99 KB WVV geboden mogelijkheid of verplichting om dochterondernemingen buiten de consolidatie te laten, wordt immers niet overgenomen door artikel 1:24, § 6 WVV.\n\nIn het geval van een microvennootschap moet, enerzijds, de naleving van de groottecriteria zoals bepaald in artikel 1:24, § 1 WVV op geconsolideerde of geaggregeerde basis worden nagegaan, en, anderzijds, moet de naleving van de criteria van artikel 1:25, § 1 WVV op enkelvoudige basis worden beoordeeld.\n\nArtikel 1:25, § 2 WVV verwijst voor het bepalen van het al dan niet overschrijden van de limieten bedoeld in artikel 1:24, § 1 WVV immers naar §§ 2 tot 5 en § 8 van artikel 1:24 WVV. §§ 6 en 7 van artikel 1:24 WVV die respectievelijk handelen over de berekening van de grensbedragen op geconsolideerde of geaggregeerde basis voor verbonden vennootschappen en over de gelijkstelling van vennootschappen die deel uitmaken van een consortium met een moedervennootschap, zijn niet van toepassing op microvennootschappen. Dit wordt verantwoord door het feit dat een vennootschap enkel een microvennootschap kan zijn indien zij geen moedervennootschap, noch een dochtervennootschap van een andere vennootschap is.\n\nDe Commissie is van oordeel dat het gebrek aan verwijzing naar § 7 van artikel 1:24 WVV in artikel 1:25, § 2 WVV inzake microvennootschappen tot gevolg heeft dat het niet kan worden toegestaan om de kwalificatie als microvennootschap automatisch te weigeren aan een entiteit die voldoet aan de criteria zoals opgenomen in artikel 1:25, §§ 1 en 2 WVV, alleen maar omdat zij zou behoren tot een consortium.\n\nIn toepassing van wat voorafgaat, moeten de criteria via dewelke wordt beoordeeld of een vennootschap die behoort tot een consortium een microvennootschap is, niet worden toegepast op geconsolideerde of geaggregeerde basis.\n\nBijgevolg kan een consortium worden samengesteld uit meerdere microvennootschappen, zelfs indien deze microvennootschappen op geconsolideerde of geaggregeerde basis de criteria van artikel 1:25, § 1 WVV overschrijden.\n\nDaar een microvennootschap een subcategorie is van een kleine vennootschap, kan een vennootschap enkel als microvennootschap worden beschouwd indien zij de criteria van artikel 1:24, § 1 WVV niet overschrijdt. In principe wordt er aan deze voorwaarde voldaan aangezien de grensbedragen van artikel 1:24, § 1 WVV hoger zijn dan die opgenomen in artikel 1:25, § 1 WVV. Aangezien er sprake is van een consortium, moet de beoordeling van de grensbedragen van artikel 1:24 § 1 WVV echter plaatsvinden op geconsolideerde of geaggregeerde basis, namelijk door rekening te houden met de gegevens van alle vennootschappen die deel uitmaken van het consortium in toepassing van artikel 1:24, §§ 6 en 7 WVV. In bepaalde gevallen kan het dus voorkomen dat indien het aantal microvennootschappen binnen het consortium zodanig is gestegen dat de criteria van artikel 1:24 WVV op geconsolideerde of geaggregeerde basis eveneens worden overschreden, deze vennootschappen niet meer als ‘klein’ kunnen worden beschouwd. Zo zal kwalificatie als microvennootschap eveneens worden uitgesloten, zelfs indien de vennootschappen die het consortium uitmaken, op individuele basis de grensbedragen van artikel 1:25 WVV niet overschrijden."
+    },
+    {
+      "chunk_id": "CBN-2018-22-groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde__sec_vennootschap-a-1-000-000_2",
+      "chunk_sha": "ccc4d2772a8be891",
+      "bron": "2018/22",
+      "bron_rol": "advies",
+      "sectie": "Vennootschap A: 1.000.000",
+      "score": 0.6856,
+      "text": "[CBN-advies 2018/22 — CBN-advies 2018/22 – Groottecriteria – Alternatieve berekening van de omzet op…]\n\nVennootschap A: 1.000.000\n\nVennootschap B: 9.400.000 (d.i. 200.000 + 9.200.000)[^31] \n\nVennootschap C: 9.100.000\n\nDe vennootschappen B en C zijn echter moedervennootschappen zodat voor de bepaling van de groottecriteria de in aanmerking te nemen omzet plaatsvindt op geconsolideerde basis of op geaggregeerde basis.[^32]"
+    },
+    {
+      "chunk_id": "CBN-2018-22-groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde__sec_vennootschap-a-1-000-000",
+      "chunk_sha": "72a8f822b2f3874c",
+      "bron": "2018/22",
+      "bron_rol": "advies",
+      "sectie": "Vennootschap A: 1.000.000",
+      "score": 0.6855,
+      "text": "[CBN-advies 2018/22 — CBN-advies 2018/22 – Groottecriteria – Alternatieve berekening van de omzet op…]\n\nVennootschap A: 1.000.000\n\nVennootschap B: 9.400.000 (d.i. 200.000 + 9.200.000)[^27] \n\nVennootschap C: 9.100.000\n\nDe vennootschappen B en C zijn echter moedervennootschappen zodat voor de bepaling van de groottecriteria de in aanmerking te nemen omzet plaatsvindt op geconsolideerde basis of op geaggregeerde basis.[^28]"
+    },
+    {
+      "chunk_id": "CBN-2017-10-groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata__sec_algemeen",
+      "chunk_sha": "77f4d101a617de82",
+      "bron": "2017/10",
+      "bron_rol": "advies",
+      "sectie": "Algemeen",
+      "score": 0.6842,
+      "text": "[CBN-advies 2017/10 — CBN-advies 2017/10 – Groottecriteria artikel 15 W.Venn. – Verbonden…]\n\nAlgemeen\n\nOnderhavig advies brengt verduidelijking over de wijze waarop de in artikel 15 W.Venn. vermelde groottecriteria moeten worden beoordeeld wanneer een vennootschap verbonden is met één of meerdere vennootschappen. Onderhavig advies vormt een aanvulling op het CBN-advies 2016/3 - *Beoordeling groottecriteria artikelen* 15 en 15/1 *W.Venn.* waarin uitsluitend de gevallen aan bod kwamen waarbij de balansdata van de verbonden vennootschappen dezelfde zijn en waarbij er geen wijziging in de consolidatiekring plaats heeft gevonden.\n\nIn het bijzonder wordt eerst toegelicht welke jaarrekeningen (balansdata) van de verbonden vennootschappen in aanmerking moeten worden genomen voor de beoordeling van de groottecriteria. Vervolgens wordt gepreciseerd hoe de groottecriteria moeten worden beoordeeld wanneer de verbondenheid met een andere vennootschap tijdens het boekjaar ontstaan of weggevallen is.\n\nDe Commissie brengt in herinnering dat ter bepaling van de geconsolideerde (of geaggregeerde) omzet geen proratering plaatsvindt in functie van de periode dat de vennootschap tot een groep behoort.[^2] \n\nDe beoordeling van de groottecriteria vindt plaats op de balansdatum van de vennootschap waarvan de grootte wordt vastgesteld.[^3]\n Als de vennootschap op deze balansdatum met één of meer andere vennootschappen verbonden is in de zin van artikel 11 W.Venn., worden de groottecriteria beoordeeld op geconsolideerde (of op geaggregeerde) basis.[^4]\n Dit geldt ongeacht wanneer de verbondenheid is ontstaan. De beoordeling op geconsolideerde (of op geaggregeerde) basis vindt evenwel uitsluitend plaats voor vennootschappen die op de balansdatum van het boekjaar waarvoor de groottecriteria onderzocht worden moedervennootschappen zijn.[^5]"
+    },
+    {
+      "chunk_id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_voorbeeld-1",
+      "chunk_sha": "1c07fc22710849a6",
+      "bron": "2022/03",
+      "bron_rol": "advies",
+      "sectie": "Voorbeeld 1",
+      "score": 0.6832,
+      "text": "[CBN-advies 2022/03 — CBN-advies 2022/03 - Beoordeling van de groottecriteria overeenkomstig…]\n\nVoorbeeld 1\n\nVennootschap X heeft geen dochtervennootschappen en maakt deel uit van een consortium.\nDe criteria van artikel 1:24, § 1 WVV worden op geconsolideerde of geaggregeerde basis niet overschreden:\n-> X is een kleine vennootschap.\nX voldoet aan de criteria zoals bepaald in artikel 1:25 WVV:\n-> X kan niet worden gelijkgesteld met een moedervennootschap voor de toepassing van artikel 1:25 WVV;\n-> X is een microvennootschap."
+    },
+    {
+      "chunk_id": "CBN-2017-10-groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata__sec_in-aanmerking-te-nemen-balansdata",
+      "chunk_sha": "5020bac243f559cf",
+      "bron": "2017/10",
+      "bron_rol": "advies",
+      "sectie": "In aanmerking te nemen balansdata",
+      "score": 0.6803,
+      "text": "[CBN-advies 2017/10 — CBN-advies 2017/10 – Groottecriteria artikel 15 W.Venn. – Verbonden…]\n\nIn aanmerking te nemen balansdata\n\nWanneer de balansdata van de verbonden vennootschappen van elkaar verschillen, vindt de beoordeling van de groottecriteria plaats op basis van de laatst opgemaakte jaarrekeningen van de verbonden vennootschappen.[^6]\n Met de*laatst opgemaakte jaarrekening* kan uitsluitend worden bedoeld de *jaarrekening met betrekking tot het laatst afgesloten boekjaar*.\n\n***Voorbeeld*** \n\nTOPCO: Afsluitingsdatum boekjaar 31/03 \n\nMIDCO: Dochtervennootschap van TOPCO; afsluitingsdatum boekjaar 31/12 \n\nSUBCO1: Dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 31/12 \n\nSUBCO2: Dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 30/11 \n\nSUBCO3: Dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 31/01\n\n**TOPCO** \n\nDe beoordeling van de grootte van TOPCO op 31/03/N vindt plaats op basis van:\n\n1. de geconsolideerde cijfers van TOPCO op 31/03/N (consolidatie TOPCO, MIDCO, SUBCO1, SUBCO2, SUBCO3, rekening houdend met de gegevens op 31/03/N voor elke vennootschap); of \n2. de geaggregeerde cijfers (+20%-methode) van TOPCO 31/03/N; MIDCO 31/12/N-1; SUBCO1 31/12/N-1; SUBCO2 30/11/N-1; SUBCO3 31/01/N. \n\n**MIDCO** \n\nDe beoordeling van de grootte van MIDCO op 31/12/N vindt plaats op basis van:\n\n1. de geconsolideerde cijfers van TOPCO op **31/12/N[^7]**  (consolidatie TOPCO, MIDCO, SUBCO1, SUBCO2, SUBCO3, rekening houdend met de gegevens op 31/12/N voor elke vennootschap); of \n2. de geaggregeerde cijfers (+20%-methode) van TOPCO 31/03/N; MIDCO 31/12/N; SUBCO1 31/12/N; SUBCO2 30/11/N; SUBCO3 31/01/N."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_51",
+      "chunk_sha": "64182c075d362274",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:62",
+      "score": 0.6796,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Vorm en inhoud van de jaarrekening]\n\nArt. 3:62\n\nDe vennootschappen, VZW's, IVZW's en stichtingen mogen in de toelichting de rubrieken en onderrubrieken die verplicht moeten worden vermeld verder indelen.  De omschrijving van de in de schema's door een hoofdletter aangegeven rubrieken en van de onderrubrieken moet, wanneer de naleving van het voorschrift van artikel 3:1, eerste lid, dit vereist, aangepast worden aan de bijzondere aard van de werkzaamheden, van het vermogen en van de opbrengsten en kosten van de vennootschap, VZW, IVZW of stichting."
+    },
+    {
+      "chunk_id": "CBN-2024-07-gevolgen-verhoging-groottecriteria-voor-vennootschappen__sec_voorbeeld-1-boekjaar-loopt-gelijk-met-kalenderjaar",
+      "chunk_sha": "1d9647fc8f1dd7c3",
+      "bron": "2024/07",
+      "bron_rol": "advies",
+      "sectie": "Voorbeeld 1: boekjaar loopt gelijk met kalenderjaar",
+      "score": 0.6747,
+      "text": "[CBN-advies 2024/07 — CBN-advies 2024/07 – Gevolgen verhoging groottecriteria voor vennootschappen]\n\nVoorbeeld 1: boekjaar loopt gelijk met kalenderjaar\n\nEen vennootschap voert een boekhouding per kalenderjaar. Voor de boekjaren 2021, 2022 en 2023 werd de vennootschap aangemerkt als een “grote” vennootschap. De vennootschap heeft de volgende kencijfers[^20]:\n\n| | 31/12/2023| 31/12/2024| 31/12/2025|\n|---|---|---|---|\n| Jaargemiddelde personeelsbestand| 60| 60| 60|\n| Omzet[^21] | 10.000.000| 11.000.000| 12.000.000|\n| Balanstotaal| 4.800.000| 5.000.000| 5.200.000|\n\nVoor de beoordeling of de vennootschap voor het boekjaar 2024, dit is het eerste boekjaar dat aanvangt na 31 december 2023, wordt aangemerkt als een kleine of een “grote” vennootschap, moet uitsluitend worden nagegaan of zij op 31 december 2024, zijnde de balansdatum van het boekjaar met betrekking tot de eerste op te stellen jaarrekening na 31 december 2023, meer dan één van de verhoogde criteria van het aangepaste artikel 1:24 WVV overschrijdt. \n\nOp balansdatum 31 december 2024 overschreed de vennootschap slechts één van de criteria vermeld in artikel 1:24 WVV: \n\n- jaargemiddelde van het personeelsbestand: 60 > 50; \n- omzet: 11.000.000 < 11.250.000; \n- balanstotaal: 5.000.000 < 6.000.000. \n\nBijgevolg wordt de vennootschap voor het boekjaar 2024 meteen aangemerkt als een kleine vennootschap.\n\nVanaf het daaropvolgende boekjaar, met name het boekjaar dat aanvangt op 1 januari 2025, geldt opnieuw de gewone regeling, met name dat wanneer meer dan één van de criteria vermeld in artikel 1:24 WVV worden overschreden of niet meer worden overschreden, dit slechts gevolgen heeft wanneer dit zich gedurende twee opeenvolgende boekjaren voordoet. De gevolgen hiervan gaan in dat geval in vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk, op balansdatum, meer dan één van de criteria voor de tweede keer werden overschreden of niet meer werden overschreden. \n\nOp balansdatum 31 december 2024 heeft de vennootschap maar één van de criteria overschreden. Ook op balansdatum 31 december 2023 werd er maar één van de (verhoogde) drempelwaarden overschreden.[^22]\n De vennootschap blijft klein in boekjaar 2025. \n\nOp balansdatum 31 december 2025 heeft de vennootschap meer dan één van de criteria overschreden:\n\n- jaargemiddelde van het personeelsbestand: 60 > 50; \n- omzet: 12.000.000 > 11.250.000; \n- balanstotaal: 5.200.000 < 6.000.000. \n\nDoor de uitgestelde werking blijft de vennootschap ook in boekjaar 2026 klein, aangezien de overschrijding van meer dan één van de criteria van artikel 1:24, § 2 WVV zich nog niet gedurende twee achtereenvolgende boekjaren heeft voorgedaan."
+    },
+    {
+      "chunk_id": "CBN-2019-12-groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting__sec_algemeen",
+      "chunk_sha": "26809b2eddc5bb07",
+      "bron": "2019/12",
+      "bron_rol": "advies",
+      "sectie": "Algemeen",
+      "score": 0.6736,
+      "text": "[CBN-advies 2019/12 — CBN-advies 2019/12 – Groottecriteria verenigingen en stichtingen - schema van…]\n\nAlgemeen\n\nDe wijze waarop verenigingen zonder winstoogmerk (vzw’s), internationale verenigingen zonder winstoogmerk (ivzw’s) en stichtingen hun boekhouding moeten voeren en hun jaarrekening moeten opstellen en neerleggen is afhankelijk van hun grootte. Met de overheveling[^2] van de jaarrekeningrechtelijke bepalingen die gelden voor (i)vzw’s en stichtingen naar het Wetboek voor vennootschappen en verenigingen (hierna: WVV), heeft de wetgever van de gelegenheid gebruik gemaakt om, naar analogie met wat geldt voor de microvennootschappen, ook voor de microverenigingen en de microstichtingen te voorzien in de mogelijkheid om de jaarrekening op te stellen en neer te leggen volgens een microschema indien deze (i)vzw of stichting een dubbele boekhouding voert.\n\nDe Commissie merkt op dat net zoals voorheen de (i)vzw’s en de stichtingen die een vereenvoudigde boekhouding voeren nog steeds een vereenvoudigd schema van jaarrekening kunnen opstellen en neerleggen evenwel met een aanpassing van de criteria.\n\nDe boekhoudkundige verplichtingen, met inbegrip van de interne jaarrekening, bevinden zich voortaan in het Wetboek van Economisch recht (hierna: WER) en het uitvoeringsbesluit (hierna: KB WER) terwijl de jaarrekeningrechtelijke verplichtingen (externe jaarrekening) voortaan zijn opgenomen in het WVV en het uitvoeringsbesluit (hierna: KB WVV).[^3] \n\nMet onderhavig advies verduidelijkt de Commissie de beoordeling van de groottecriteria voor een (i)vzw of stichting en de daarbij horende vorm van de neer te leggen jaarrekening. Wat betreft de praktische wijze waarop een vereenvoudigde boekhouding respectievelijk dubbele boekhouding moet worden gevoerd door de betreffende (i)vzw’s en stichtingen, wordt verwezen naar het CBN-advies 174/1 – *Beginselen van een regelmatige boekhouding*.[^4] \n\nHet CBN-advies 2011/1 – *Toelichting bij de mogelijkheid voor kleine verenigingen en stichtingen om zich te onderwerpen aan de boekhoudkundige verplichtingen opgelegd aan de grote verenigingen en stichtingen* wordt opgeheven omdat het zonder voorwerp is geworden."
+    },
+    {
+      "chunk_id": "CBN-2019-12-groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting__sec_grootte-van-een-vzw-die-een-dubbele-boekhouding-voert",
+      "chunk_sha": "c21264e71d4971d6",
+      "bron": "2019/12",
+      "bron_rol": "advies",
+      "sectie": "Grootte van een vzw die een dubbele boekhouding voert",
+      "score": 0.671,
+      "text": "[CBN-advies 2019/12 — CBN-advies 2019/12 – Groottecriteria verenigingen en stichtingen - schema van…]\n\nGrootte van een vzw die een dubbele boekhouding voert\n\nHet WVV geeft een definitie van wat moet worden begrepen onder een kleine vzw en een micro-vzw[^5]. Daarbij is gezorgd voor een perfecte harmonie met de beoordelingscriteria voor kleine en micro vennootschappen. Een kleine vzw die haar boekhouding voert volgens de regels van het dubbel boekhouden kan haar jaarrekening opmaken en neerleggen volgens een verkort schema dat de Koning vaststelt[^6]. Een micro-vzw die haar boekhouding voert volgens de regels van het dubbel boekhouden kan haar jaarrekening opmaken en neerleggen volgens een microschema dat de Koning vaststelt[^7].\n\nEen kleine vzw is een vzw die op de balansdatum van het laatst afgesloten boekjaar niet meer dan één van de volgende criteria overschrijdt:[^8] \n\n- Jaargemiddelde van het aantal werknemers: 50; \n- Jaaromzet, exclusief btw: 9.000.000 euro; \n- Balanstotaal: 4.500.000 euro. \n\nEen micro-vzw is een kleine vzw die op de balansdatum van het laatst afgesloten boekjaar niet meer dan één van de volgende criteria overschrijdt:[^9] \n\n- Jaargemiddelde van het aantal werknemers: 10; \n- Jaaromzet, exclusief btw: 700.000 euro; \n- Balanstotaal: 350.000 euro. \n\nDe Commissie benadrukt dat een vzw nooit een geconsolideerde jaarrekening moet opmaken en dat de groottecriteria van een vzw nooit op geconsolideerde basis moeten worden beoordeeld. Evenmin is bijgevolg de geaggregeerde methode hier van toepassing."
+    },
+    {
+      "chunk_id": "WIB92__art_2__sub_5deg_1",
+      "chunk_sha": "8e85867440f5d839",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 2 — 5°/1",
+      "score": 0.6705,
+      "text": "[WIB92 → PERSONENBELASTING → HOOFDSTUK I → Art. 2 → 5°/1]\n\nArt. 2 — 5°/1\n\n5°/1 Groep van vennootschappen\n\nOnder groep van vennootschappen wordt verstaan het geheel van vennootschappen die met elkaar verbonden zijn in de zin van artikel 1:20 van het Wetboek van vennootschappen en verenigingen."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_70",
+      "chunk_sha": "852ed697d7a3048b",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:87",
+      "score": 0.6669,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Jaarrekening → Diverse bepalingen en overgangsbepalingen]\n\nArt. 3:87\n\nDe resultatenrekening van het microschema van de jaarrekening wordt opgesteld overeenkomstig het schema van de resultatenrekening van de jaarrekening in verkorte vorm, zoals opgenomen in bijlage 4.\n\n3. Inhoud van de toelichting.\n\n\n1. Inhoud van bepaalde rubrieken van de balans.\n\n2. Inhoud van bepaalde rubrieken van de resultatenrekening.\n\n3. Inhoud van bepaalde verplichte vermeldingen in de toelichting."
+    },
+    {
+      "chunk_id": "CBN-2018-22-groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde__sec_moedervennootschap-berekening-op-geconsolideerde-basis_2",
+      "chunk_sha": "bf3118e90e7ad9d1",
+      "bron": "2018/22",
+      "bron_rol": "advies",
+      "sectie": "Moedervennootschap: berekening op geconsolideerde basis",
+      "score": 0.6665,
+      "text": "[CBN-advies 2018/22 — CBN-advies 2018/22 – Groottecriteria – Alternatieve berekening van de omzet op…]\n\nMoedervennootschap: berekening op geconsolideerde basis\n\nIn het voorbeeld wordt er hypothetisch vanuit gegaan dat de vennootschappen A, B en C geen intragroepsomzet hebben gerealiseerd.\nOp geconsolideerde basis bestaan de opbrengsten die voortspruiten uit het gewoon bedrijf voor meer dan de helft uit opbrengsten die beantwoorden aan de omschrijving van de post ‘omzet’.\nIndien het bestuursorgaan opteert voor een berekening van de groottecriteria op geconsolideerde basis (en niet op geaggregeerde basis) bedraagt, voor de beoordeling van de groottecriteria, de in aanmerking te nemen omzet van de vennootschappen B en C 10.300.000."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_69",
+      "chunk_sha": "0960640a22d4aee3",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:86",
+      "score": 0.664,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Jaarrekening → Vorm en inhoud van de jaarrekening - Onderafdeling 3. - Microschema van de jaarrekening]\n\nArt. 3:86\n\nDe balans van het microschema van de jaarrekening wordt opgesteld overeenkomstig het schema van de balans van de jaarrekening in verkorte vorm, zoals opgenomen in bijlage 4.\n\n2. Schema van de resultatenrekening."
+    },
+    {
+      "chunk_id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_voorbeeld-2",
+      "chunk_sha": "daa8b6693007df97",
+      "bron": "2022/03",
+      "bron_rol": "advies",
+      "sectie": "Voorbeeld 2",
+      "score": 0.6634,
+      "text": "[CBN-advies 2022/03 — CBN-advies 2022/03 - Beoordeling van de groottecriteria overeenkomstig…]\n\nVoorbeeld 2\n\nVennootschap X heeft geen dochtervennootschappen en maakt deel uit van een consortium.\nDe criteria van artikel 1:24, § 1 WVV worden op geconsolideerde of geaggregeerde basis overschreden:\n-> de vennootschappen die het consortium vormen (inclusief X), zijn geen kleine vennootschappen;\n   -> X is geen microvennootschap ook al voldoet zij op enkelvoudige basis aan de criteria zoals bepaald in artikel 1:25 WVV."
+    },
+    {
+      "chunk_id": "CBN-2018-22-groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde__sec_vennootschap-a-205-000-d-i-200-000-5-000",
+      "chunk_sha": "d0c751fdc1b2434d",
+      "bron": "2018/22",
+      "bron_rol": "advies",
+      "sectie": "Vennootschap A: 205.000 (d.i. 200.000 + 5.000)",
+      "score": 0.6634,
+      "text": "[CBN-advies 2018/22 — CBN-advies 2018/22 – Groottecriteria – Alternatieve berekening van de omzet op…]\n\nVennootschap A: 205.000 (d.i. 200.000 + 5.000)\n\nVennootschap B: 8.700.000 \n\nVennootschap C: 6.601.500 (d.i. 100.000 + 1.500 + 6.500.000)[^13] \n\nDe vennootschap C is echter een moedervennootschap zodat voor de bepaling van de groottecriteria de in aanmerking te nemen omzet plaatsvindt op geconsolideerde basis of op geaggregeerde basis.[^14]"
+    },
+    {
+      "chunk_id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_voorbeeld-1_2",
+      "chunk_sha": "916b5d6a8c3b2a29",
+      "bron": "2022/03",
+      "bron_rol": "advies",
+      "sectie": "Voorbeeld 1",
+      "score": 0.6633,
+      "text": "[CBN-advies 2022/03 — CBN-advies 2022/03 - Beoordeling van de groottecriteria overeenkomstig…]\n\nVoorbeeld 1\n\nIn N+1 kan er niet worden vastgesteld dat, op balansdatum van boekjaar N en op basis van de werkelijke cijfers van boekjaar N, meer dan één van de groottecriteria werden overschreden in N. De vennootschap blijft dus ook in N+1 een kleine vennootschap.\n\nIn N+2 kan er worden vastgesteld dat, op balansdatum van boekjaar N+1 en op basis van de werkelijke cijfers van boekjaar N+1, meer dan één van de groottecriteria werden overschreden in N+1. Aangezien het de eerste keer is dat meer dan één van de criteria werden overschreden, blijft de vennootschap in N+2 een kleine vennootschap. Daar de criteria in boekjaar N+2 niet opnieuw worden overschreden, blijft de vennootschap ook in N+3 een kleine vennootschap.\n\nVoor de volgende boekjaren kan er worden vastgesteld dat de criteria nooit gedurende twee opeenvolgende boekjaren worden overschreden. De vennootschap blijft dus een kleine vennootschap en de jaarrekening wordt steeds opgemaakt volgens het verkort schema."
+    }
+  ]
+}

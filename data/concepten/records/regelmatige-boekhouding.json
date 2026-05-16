@@ -1,0 +1,289 @@
+{
+  "id": "regelmatige-boekhouding",
+  "naam": "Regelmatige boekhouding",
+  "node_type": "fenomeen",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.1.I",
+    "1.1.I.A",
+    "1.1.taak.1",
+    "1.2.III",
+    "1.2.III.B",
+    "1.2.III.C"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.1.I",
+    "dekt_ook_anchors": [
+      "1.1.I.A",
+      "1.1.taak.1"
+    ],
+    "reviewed_by": null,
+    "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met ['1.2.III', '1.2.III.B', '1.2.III.C'] door PO 1.2-extractie."
+  },
+  "definitie": {
+    "text": "Een boekhouding is **regelmatig** als ze drie dingen samen waarmaakt: ze is **passend** voor de aard en omvang van het bedrijf, ze is **volledig** (omvat alle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen) en ze is **onveranderlijk** (boekingen kun je niet zonder spoor wijzigen). Daarbovenop moeten alle verrichtingen zonder uitstel, getrouw, naar tijdsorde in een dagboek worden ingeschreven, gedragen door een verantwoordingsstuk, en minstens één keer per jaar afgesloten met een inventaris en jaarrekening (artikel III.83 en III.84 Wetboek van Economisch Recht (WER)).",
+    "confidence": "grounded",
+    "source": {
+      "type": "wet",
+      "short": "WER art. III.82 — III.84"
+    },
+    "references": [
+      {
+        "type": "wet",
+        "short": "WER art. III.83 (volledigheid)"
+      },
+      {
+        "type": "wet",
+        "short": "WER art. III.84 (dubbel boekhouden + dagboek)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 174/1 — Beginselen van een regelmatige boekhouding"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_III_71",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_III_70",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorbeeld_inline": "Meubelzaak Mertens BV boekt elke aankoopfactuur, verkoopfactuur en bankverrichting van € 1.250, € 3.400 of € 18.000 dagelijks in haar dagboeken; eind december 20X1 maakt zij een inventaris op (voorraad meubelen, vorderingen op klanten, schulden aan leveranciers) en stelt op die basis de jaarrekening op. Zonder dagboek-inschrijvingen of zonder inventaris is haar boekhouding niet regelmatig.",
+  "bouwstenen": [
+    {
+      "titel": "Passend bij aard en omvang",
+      "wat": "Het boekhoudsysteem moet aangepast zijn aan wat het bedrijf doet en hoe groot het is. Een kleine eenmanszaak met enkel facturen aan particulieren kiest een ander schema dan een productie-NV met voorraadbewegingen.",
+      "waarom": "Een te zwaar systeem is duur en onuitvoerbaar; een te licht systeem geeft geen betrouwbaar beeld. De wet laat ruimte voor schaal, maar de essentie blijft: bezittingen, schulden, kosten en opbrengsten moeten traceerbaar zijn.",
+      "voorbeeld_inline": "Praktijk Persenaire (eenmanszaak vrij beroep, omzet € 180.000) houdt een vereenvoudigde boekhouding (3 dagboeken). Meubelzaak Mertens BV (omzet € 2.400.000) voert een dubbele boekhouding met klantenrekeningen, leveranciersrekeningen en BTW-administratie.",
+      "grondslag": "WER art. III.82 — III.83; CBN 174/1",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.82 — III.83"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Volledigheid van boekhouding én inventaris",
+      "wat": "Alle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen — ook die niet op de balans staan (rechten en verplichtingen buiten balans) — moeten in de boekhouding voorkomen.",
+      "waarom": "Een onvolledige boekhouding misleidt de gebruiker (kredietverlener, fiscus, vennoot). Volledigheid is de hoeksteen van het getrouw beeld.",
+      "voorbeeld_inline": "Meubelzaak Mertens BV verkoopt op 28 december € 4.200 aan een klant, maar de factuur wordt pas in januari opgemaakt. De verkoop moet toch in boekjaar 20X1 worden opgenomen (toerekening) — en ook de huurverbintenis voor het nieuwe magazijn (verplichting buiten balans) verschijnt in de toelichting.",
+      "grondslag": "WER art. III.83; CBN 174/1",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.83"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Inschrijving zonder uitstel, getrouw, naar tijdsorde",
+      "wat": "Elke verrichting wordt direct, eerlijk en in chronologische volgorde geboekt in een dagboek (of hulpdagboek). Niet wachten tot maandeinde, niet selectief weglaten, niet later 'sorteren'.",
+      "waarom": "Tijdsorde + onmiddellijkheid maken het later moeilijk om de boekhouding bij te schaven. Het is de praktische tegenhanger van het onveranderlijkheidsbeginsel.",
+      "voorbeeld_inline": "Naaiatelier Ninove BV ontvangt op 5 maart een leveranciersfactuur van € 8.700. Die wordt op 5 of 6 maart in het aankoopdagboek geboekt, niet pas in juni 'omdat de boekhouder dan tijd heeft'.",
+      "grondslag": "WER art. III.84; CBN 174/1",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.84"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Verantwoordingsstuk per boeking",
+      "wat": "Elke boeking verwijst naar een gedagtekend stuk (factuur, bankuittreksel, contract, intern memo) dat de boeking onderbouwt. Geen boeking zonder stuk.",
+      "waarom": "Het verantwoordingsstuk is het bewijsstuk: zonder dat is de boeking niet controleerbaar en heeft ze geen bewijskracht.",
+      "voorbeeld_inline": "Aankoop van een drukpers door Uitgeverij Ukkel NV voor € 45.000 → boeking verwijst naar leveranciersfactuur nr. 2024-117 d.d. 12 april en naar bankuittreksel nr. 87 d.d. 15 april.",
+      "grondslag": "WER art. III.84; CBN 174/1",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.84"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inhoud-van-de-boekingen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Jaarlijkse inventaris en jaarrekening",
+      "wat": "Minstens één keer per jaar voert de onderneming de nodige opnemingen, verificaties en waarderingen uit om de inventaris op te maken van al haar bezittingen, vorderingen, schulden en verplichtingen. Op basis van die inventaris stelt zij de jaarrekening op.",
+      "waarom": "De doorlopende boekhouding wordt periodiek 'geverifieerd' tegen de werkelijkheid (echte voorraadtelling, klantenlijst, schuldenlijst). De inventaris is de brug tussen boekhouding en jaarrekening.",
+      "voorbeeld_inline": "Meubelzaak Mertens BV telt op 31 december de voorraad in het magazijn (1.240 stoelen × € 85 + 320 tafels × € 220 = € 175.800), vergelijkt met de boekhoudkundige voorraad, boekt het verschil als voorraadcorrectie en stelt op basis van de aangepaste cijfers de jaarrekening op.",
+      "grondslag": "WER art. III.89; CBN 174/1",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.89"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Materiële continuïteit van de dagboeken",
+      "betekenis": "De dagboeken vormen elk in hun soort een doorlopende reeks; ze dragen de vermelding van soort, plaats en volgnummer. Geen 'aparte' versies of parallelle reeksen die je naar believen kunt aanpassen.",
+      "herkenningspunt": "Examenvraag waar twee versies van een dagboek opduiken — dan kan de boekhouding nooit regelmatig zijn.",
+      "confidence": "grounded",
+      "source": {
+        "type": "advies",
+        "short": "CBN 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Bewijskracht volgt uit regelmatigheid",
+      "betekenis": "Een regelmatige boekhouding geeft een sterk vermoeden van waarheid in fiscale en civiele geschillen. Niet-naleving is op zich niet voldoende om de boekhouding bewijskrachtig of niet-bewijskrachtig te bestempelen — de rechter beoordeelt feitelijk of het geheel coherent is en de werkelijkheid weergeeft.",
+      "herkenningspunt": "Vraag over de bewijswaarde tegenover de fiscus: regelmatigheid = vermoeden, niet absolute bewijskracht.",
+      "confidence": "grounded",
+      "source": {
+        "type": "advies",
+        "short": "CBN 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_beginselen-van-een-regelmatige-boekhouding_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Verrichtingen uitsluitend in de rekeningen boeken — zonder doorgang door een dagboek — is in strijd met het beginsel van inschrijving in een dagboek (WER art. III.84). Naast verlies van controleerbaarheid raak je ook het spoor kwijt van waar boekingen vandaan komen.",
+      "confidence": "grounded",
+      "source": {
+        "type": "advies",
+        "short": "CBN 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Voor natuurlijke personen die zelfstandig zijn: de boekhouding heeft enkel betrekking op de zelfstandige beroepsactiviteit; particulier vermogen blijft erbuiten. Maar de eigen middelen die in het bedrijf zitten, moeten apart worden vermeld.",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.83"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_70",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [],
+  "edges": [
+    {
+      "type": "bevat",
+      "target": "dubbel-boekhouden",
+      "redenering": "Een regelmatige boekhouding voor boekhoudplichtigen wordt gevoerd volgens de gebruikelijke regels van het dubbel boekhouden (WER art. III.84)."
+    },
+    {
+      "type": "bevat",
+      "target": "dagboek",
+      "redenering": "Verrichtingen worden ingeschreven in een dagboek — kerntechniek van een regelmatige boekhouding."
+    },
+    {
+      "type": "bevat",
+      "target": "inventaris",
+      "redenering": "De jaarlijkse inventaris is een verplichte component."
+    },
+    {
+      "type": "bevat",
+      "target": "volledigheidsbeginsel",
+      "redenering": "Volledigheid van de boekhouding én inventaris is een hoeksteen."
+    },
+    {
+      "type": "bevat",
+      "target": "onveranderlijkheid-boekingen",
+      "redenering": "Onveranderlijkheid van de boekingen is centraal in het Belgisch boekhoudrecht (WER art. III.84)."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "verantwoordingsstuk",
+      "redenering": "Zonder verantwoordingsstuk is er geen rechtsgeldige boeking."
+    },
+    {
+      "type": "specialisatie-van",
+      "target": "vereenvoudigde-boekhouding",
+      "redenering": "Vereenvoudigde boekhouding is een toegelaten vorm voor kleine ondernemingen onder de drempel — een variant binnen het regelmatige-boekhouding-kader."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "ratio-vier-doelen-vergelijking",
+  "naam": "De vier analyse-doelen en hun ratio's — overzicht",
+  "node_type": "synthese",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.3.I.A",
+    "1.3.II.C",
+    "1.3.taak.1"
+  ],
+  "gebaseerd_op_concepten": [
+    "doelstellingen-financiele-analyse",
+    "liquiditeitsratio",
+    "current-ratio",
+    "quick-ratio",
+    "werkkapitaal",
+    "solvabiliteitsratio",
+    "debt-equity-ratio",
+    "rentabiliteit-eigen-vermogen-roe",
+    "rentabiliteit-totaal-activa-roa",
+    "cashflow-analyse",
+    "horizontale-analyse-jaarrekening",
+    "verticale-analyse-jaarrekening"
+  ],
+  "_provenance": {
+    "extractor_run": "synthese-po-1.3-2026-05-16T16:00Z",
+    "model": "claude-opus-4-7-verify-pass",
+    "anchor_id": "1.3.I.A",
+    "dekt_ook_anchors": ["1.3.II.C", "1.3.taak.1"],
+    "inputs": [
+      {"id": "anchor-1.3.I.A", "sha256": null, "version": "rag-v1"},
+      {"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"},
+      {"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden", "sha256": null, "version": "rag-v1"},
+      {"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-totaal-van-de-activa-voorbeeldmethoden", "sha256": null, "version": "rag-v1"}
+    ]
+  },
+  "inleiding": {
+    "text": "Financiële analyse van een jaarrekening hangt op vier doelen: liquiditeit (kan de onderneming haar korte schulden betalen?), solvabiliteit (is de kapitaalstructuur houdbaar?), rentabiliteit (genereert ze voldoende winst op het ingezet kapitaal?) en activiteit/groei (hoe efficiënt en in welk tempo). Bij elk doel hoort een eigen familie ratio's, met telkens een specifiek perspectief (aandeelhouder, kredietverlener, manager). Dit synthese-record toont per doel welke ratio's je inzet, welke balans-/resultaten-rekeningposten je nodig hebt, en welke vergelijkings-as je gebruikt om de uitkomst te interpreteren. Centrale examenvraag: 'welke ratio voor welke vraag?' — het antwoord begint bij het doel.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {"id": "anchor-1.3.I.A", "sha256": null, "version": "rag-v1"},
+        {"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}
+      ]
+    }
+  },
+  "vergelijkingstabel": {
+    "data": "| Analyse-doel | Kernvraag | Belangrijkste ratio's | Bron-component balans/RR | Typische gebruiker |\n|---|---|---|---|---|\n| **Liquiditeit** (KT betaalkracht) | Kan de onderneming haar schulden ≤ 1 jaar betalen met haar vlottende activa? | [[current-ratio\\|Current ratio]] · [[quick-ratio\\|Quick ratio]] · [[werkkapitaal\\|Werkkapitaal]] | Vlottende activa (voorraden + vorderingen ≤ 1 jaar + geldbeleggingen + liquide middelen); Schulden ≤ 1 jaar | Kredietverlener KT · leverancier · cashmanager |\n| **Solvabiliteit** (LT schokbestendigheid) | Hoe groot is het eigen vermogen tegenover totaal vermogen en schulden? | [[solvabiliteitsratio\\|Solvabiliteitsratio (EV / balanstotaal)]] · [[debt-equity-ratio\\|Debt-equity (VV / EV)]] | Eigen vermogen totaal; Balanstotaal; Schulden totaal | Bank LT · obligatiehouder · aandeelhouder structureel risico |\n| **Rentabiliteit** (winstgevendheid kapitaal) | Levert de zaak voldoende rendement op tegenover wat erin geïnvesteerd is? | [[rentabiliteit-eigen-vermogen-roe\\|ROE (winst / EV)]] · [[rentabiliteit-totaal-activa-roa\\|ROA (winst + kosten schulden / totaal activa)]] · Brutovarianten op [[cashflow-analyse\\|cashflow]] | Winst van het boekjaar; Eigen vermogen; Balanstotaal; Kosten van schulden; Niet-kaskosten | Aandeelhouder · investeerder · interne controller |\n| **Activiteit/groei** (operationele efficiëntie + dynamiek) | Hoe snel rouleren voorraden en handelsvorderingen? Groeit de omzet? | Rotatie voorraden · rotatie handelsvorderingen · [[horizontale-analyse-jaarrekening\\|Horizontale analyse]] op omzet en EBITDA | Omzet meerdere boekjaren; Voorraden gemiddeld; Vorderingen gemiddeld | Operationele manager · auditor · sector-analyst |",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {"id": "anchor-1.3.I.A", "sha256": null, "version": "rag-v1"},
+        {"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"},
+        {"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden", "sha256": null, "version": "rag-v1"}
+      ]
+    }
+  },
+  "beslisboom": {
+    "data": "```mermaid\nflowchart TD\n  A[Welke vraag stelt de gebruiker over de jaarrekening?] --> B{Vraagtype?}\n  B -->|Kan de onderneming binnen het jaar betalen?| L[Doel: Liquiditeit]\n  B -->|Is de kapitaalstructuur houdbaar op lange termijn?| S[Doel: Solvabiliteit]\n  B -->|Levert het ingezet kapitaal voldoende rendement op?| R[Doel: Rentabiliteit]\n  B -->|Hoe efficient en in welk tempo evolueert de onderneming?| G[Doel: Activiteit en groei]\n\n  L --> L1{Welke strengheid?}\n  L1 -->|Brede screening met voorraden| L1a[Current ratio]\n  L1 -->|Strenge toets zonder voorraden| L1b[Quick ratio]\n  L1 -->|Absolute buffer in euro| L1c[Werkkapitaal]\n\n  S --> S1{Welke invalshoek?}\n  S1 -->|Aandeel eigen vermogen in balanstotaal| S1a[Solvabiliteitsratio]\n  S1 -->|Hefboomeffect schuld tegenover EV| S1b[Debt-equity ratio]\n\n  R --> R1{Welk kapitaal als basis?}\n  R1 -->|Alleen eigen vermogen — aandeelhouderspersp.| R1a[ROE netto of bruto]\n  R1 -->|Totaal balanstotaal — economisch persp.| R1b[ROA netto of bruto]\n  R1 -->|Verschil tussen ROE en ROA leverage-effect| R1c[Combinatie ROE en ROA]\n\n  G --> G1{Welke as?}\n  G1 -->|Trend over boekjaren| G1a[Horizontale analyse]\n  G1 -->|Structuur binnen 1 boekjaar| G1b[Verticale analyse]\n  G1 -->|Snelheid kapitaalcyclus| G1c[Rotatie voorraden en vorderingen]\n\n  style L fill:#a8e6cf\n  style S fill:#74b9ff\n  style R fill:#ffeaa7\n  style G fill:#fdcb6e\n```",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {"id": "anchor-1.3.I.A", "sha256": null, "version": "rag-v1"},
+        {"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}
+      ]
+    }
+  },
+  "kerninzichten": [
+    {
+      "text": "De keuze van een ratio begint NOOIT bij de balans — ze begint bij de vraag van de gebruiker. Een kredietverlener op korte termijn kijkt eerst naar de quick ratio; een obligatiehouder eerst naar de solvabiliteit; een aandeelhouder eerst naar ROE. Wie eerst formules verzamelt en dan een verhaal zoekt, mist de analyse-discipline.",
+      "confidence": "inferred-from-aggregation",
+      "rationale": "Doelstellingenstructuur in `doelstellingen-financiele-analyse` koppelt elk doel expliciet aan een gebruikersrol."
+    },
+    {
+      "text": "ROE en ROA SAMEN lezen ontmaskert het leverage-effect. Bij Rotex Roeselare NV is netto-ROE 20,8 % terwijl netto-ROA 13,0 % is — het gat van 7,8 procentpunten zegt dat schulden de aandeelhouderswinst versterken. Als ROE lager wordt dan ROA, werkt de hefboom omgekeerd: de kost van schulden is dan groter dan het rendement op activa.",
+      "confidence": "grounded",
+      "rationale": "Voorbeeldcijfers uit `rentabiliteit-eigen-vermogen-roe` en `rentabiliteit-totaal-activa-roa`, beide grounded in CBN-2011/14."
+    },
+    {
+      "text": "Liquiditeit en solvabiliteit zijn complementair, geen synoniemen. Een vennootschap kan liquide zijn (vlottende activa > korte schulden) maar tegelijkertijd structureel zwak gefinancierd (laag eigen vermogen). Omgekeerd kan een solvabele onderneming tijdelijk illiquide zijn (cashtekort terwijl ze rijk is aan vaste activa). Examenvraag-camouflage: alleen op één van de twee letten = halve diagnose.",
+      "confidence": "inferred-from-aggregation",
+      "rationale": "Spiegeling tussen `liquiditeitsratio.vergelijkingsparen` en `solvabiliteitsratio.vergelijkingsparen`."
+    },
+    {
+      "text": "Een hoge ratio is niet automatisch goed. Een current ratio > 3 kan signaleren dat middelen vastliggen in onproductieve voorraden of trage vorderingen; een solvabiliteit > 70 % kan betekenen dat de onderneming te weinig hefboom benut. Interpretatie vereist altijd sectorvergelijking en historiek — de drie analyse-assen samen.",
+      "confidence": "inferred-from-aggregation",
+      "rationale": "Valkuilen geconsolideerd uit `current-ratio.valkuilen` en `solvabiliteitsratio.in_praktijk`."
+    },
+    {
+      "text": "Brutovarianten met cashflow (bruto-ROE, bruto-ROA) filteren niet-kaskosten weg en zijn moeilijker boekhoudkundig te manipuleren dan nettovarianten. Voor kredietdossiers en waarderingsvragen geven brutoratio's vaak een eerlijker beeld dan nettoratio's. Voor aandeelhoudersrendementsanalyse blijft netto-ROE de standaard.",
+      "confidence": "grounded",
+      "rationale": "CBN-2011/14 voorziet expliciet zowel netto- als brutovarianten."
+    }
+  ],
+  "verwante_competenties": []
+}

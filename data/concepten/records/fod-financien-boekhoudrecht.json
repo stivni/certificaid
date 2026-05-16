@@ -1,0 +1,75 @@
+{
+  "id": "fod-financien-boekhoudrecht",
+  "naam": "FOD Financiën (boekhoudrechtelijke rol)",
+  "node_type": "actor",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.2.II"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.2.II",
+    "dekt_ook_anchors": [],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "De Federale Overheidsdienst Financiën (FOD Financiën) is het federale ministerie verantwoordelijk voor fiscaliteit. Voor het boekhoudrecht heeft de FOD Financiën twee raakvlakken: (1) fiscale controle op de boekhouding (recht op inzage van boeken en stukken, art. 315 WIB), (2) afstemming tussen boekhoudkundig en fiscaal resultaat (start-aangifte van fiscale resultaat = boekhoudkundig resultaat).",
+    "confidence": "grounded",
+    "source": {"type": "wet", "short": "WIB art. 315 + 322"},
+    "references": [
+      {"type": "wet", "short": "WIB art. 315 (recht op inzage)"},
+      {"type": "wet", "short": "WIB art. 322 (vorderingen aan derden)"},
+      {"type": "wet", "short": "WER art. III.86 (bewaring stukken voor controle)"}
+    ],
+    "_provenance": {"inputs": [
+      {"id": "WBTW__art_93ter_2__sub_par1-par3", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Een fiscaal controleur van FOD Financiën vraagt bij Meubelzaak Mertens BV inzage in de aankoopdagboeken 2021-2024 → onderneming moet binnen redelijke termijn voorleggen (WIB art. 315).",
+  "bouwstenen": [
+    {
+      "titel": "Controle-bevoegdheid",
+      "wat": "FOD-controleurs hebben recht op inzage van alle boeken, dagboeken, verantwoordingsstukken en bewijsstukken — ter plaatse of via overlegging. De vennootschap kan niet weigeren behalve in zeer uitzonderlijke gevallen (beroepsgeheim, lopende procedure).",
+      "waarom": "Zonder inzage kan de fiscus de aangifte niet controleren.",
+      "voorbeeld_inline": "Controle bij Rotex Roeselare NV → controleur vraagt alle bankuittreksels 2023 → onderneming legt voor binnen 14 dagen.",
+      "grondslag": "WIB art. 315",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WIB art. 315"},
+      "_provenance": {"inputs": [
+        {"id": "WER__art_XV_62", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Boekhouding ↔ fiscale aangifte",
+      "wat": "Het boekhoudkundig resultaat is het vertrekpunt voor de fiscale aangifte. Vandaaruit worden specifieke fiscale correcties toegevoegd (niet-aftrekbare kosten, vrijgestelde inkomsten, fiscale meerwaarden). Boekhoud-fout → fiscale fout.",
+      "waarom": "Eén boekhouding vormt de basis voor twee rapporteringen — boekhoudkundige + fiscale.",
+      "voorbeeld_inline": "Meubelzaak Mertens BV boekt restaurantkost € 800 → boekhoudkundig kost. Fiscaal: 31% niet-aftrekbaar → € 248 toegevoegd aan belastbare basis.",
+      "grondslag": "WIB art. 24-25; primauteit boekhouding voor fiscus",
+      "confidence": "inferred",
+      "source": {"type": "wet", "short": "WIB"},
+      "_provenance": {"inputs": [
+        {"id": "CBN-2018-14-belastingen__sec_voorbeelden", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Onderscheid commissaris ↔ fiscale controleur",
+      "wat": "Commissaris controleert getrouw beeld + wettelijkheid jaarrekening voor aandeelhouders. Fiscale controleur controleert correcte berekening belastbare basis voor de fiscus. Twee aparte controles, met aparte bevoegdheden.",
+      "waarom": "Geen verwarring tussen privaatrechtelijke en publiekrechtelijke controle.",
+      "voorbeeld_inline": "Een fiscale controleur kan een vondst niet eigenmachtig aan de commissaris meedelen — beroepsgeheim. Hij maakt eigen aanslag op.",
+      "grondslag": "Algemene rechtsbeginselen + beroepsgeheim",
+      "confidence": "inferred",
+      "source": {"type": "wet", "short": "WIB + WVV"},
+      "_provenance": {"inputs": [
+        {"id": "WER__art_XV_62", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "bewaartermijn-boekhouding",
+      "redenering": "Bewaartermijn dient deels om fiscale controle mogelijk te maken.",
+      "confidence": "inferred"
+    }
+  ]
+}

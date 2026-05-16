@@ -1,0 +1,89 @@
+{
+  "id": "financiele-verrichtingen",
+  "naam": "Financiële verrichtingen (kosten + opbrengsten)",
+  "node_type": "fenomeen",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.1.II.O"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.1.II.O",
+    "dekt_ook_anchors": [],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "**Kosten en opbrengsten** uit de **financiële activiteit** van de onderneming: intresten op leningen en deposito's, kosten op leningen, opbrengsten/verliezen op effecten en deelnemingen, wisselkoersverschillen. Klasse 65 (financiële kosten) en 75 (financiële opbrengsten). Strikt gescheiden van het bedrijfsresultaat zodat de gebruiker operationele en financiële prestatie kan onderscheiden. Het verschil tussen klasse 75 en 65 = **financieel resultaat**.",
+    "confidence": "grounded",
+    "source": {"type": "wet", "short": "MAR klasse 65 + 75"},
+    "references": [
+      {"type": "wet", "short": "KB WVV jaarrekeningschema"}
+    ],
+    "_provenance": {"inputs": [
+      {"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"},
+      {"id": "MAR-ondernemingen__art_7", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Uitgeverij Ukkel NV 20X1: intrestlast hypothecaire lening € 28.500 (rekening 650 Intrestkosten), bankkosten en commissies € 1.250 (657 Diverse financiële kosten), wisselkoersverlies € 850 (654). Tegenover: rente op termijndeposito's € 4.500 (751), dividend op participatie € 18.000 (752 — financiële opbrengsten van FVA). Financieel resultaat = (€ 4.500 + € 18.000) − (€ 28.500 + € 1.250 + € 850) = −€ 7.100.",
+  "bouwstenen": [
+    {
+      "titel": "Klasse 65 — Financiële kosten",
+      "wat": "(650) Kosten van schulden (intresten leningen, krediettoeslagen), (651) Waardeverminderingen op vlottende activa andere dan voorraden, (652) Minderwaarden op realisatie van vlottende activa, (653) Disconto kosten bij wissels, (654) Wisselkoersverliezen, (657) Diverse financiële kosten.",
+      "waarom": "Aparte rubriek voor de prijs van financiering en wisselkoersrisico. Helpt om operationele performance te scheiden van schuldlastdruk.",
+      "voorbeeld_inline": "Uitgeverij Ukkel NV betaalt jaarlijks € 28.500 intrest op € 685.000 hypothecaire lening (4,16 %). Boeking: Debet 650 Intresten op leningen € 28.500 / Credit 550 Bank € 28.500.",
+      "grondslag": "MAR klasse 65",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "MAR"},
+      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Klasse 75 — Financiële opbrengsten",
+      "wat": "(750) Opbrengsten van financiële vaste activa (typisch dividenden van deelnemingen), (751) Opbrengsten van vlottende activa (rente op deposito's, geldbeleggingen), (752) Diverse financiële opbrengsten (terugname waardeverminderingen, meerwaarden op realisatie effecten), (754) Wisselkoerswinsten.",
+      "waarom": "Symmetrische tegenhanger van klasse 65. Dividend van een deelneming staat in 750, niet in 70 omzet — duidelijk gescheiden van de operationele cyclus.",
+      "voorbeeld_inline": "Aurelia Holding NV ontvangt dividend van Brugse Brouwerij BV € 80.000. Boeking: Debet 550 Bank € 80.000 / Credit 7501 Opbrengsten van deelnemingen in verbonden ondernemingen € 80.000.",
+      "grondslag": "MAR klasse 75",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "MAR"},
+      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_7", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Wisselkoersverschillen (654 / 754)",
+      "wat": "Bij vorderingen of schulden in vreemde valuta ontstaan wisselkoersverschillen tussen contractdatum en betalingsdatum (of balansdatum). Gerealiseerde verschillen direct in resultaat (654/754). Niet-gerealiseerde verschillen op balansdatum: voorzichtigheidsbeginsel — negatieve in resultaat, positieve in toelichting.",
+      "waarom": "Wisselkoersrisico is geen operationeel maar financieel risico; aparte boeking maakt het zichtbaar voor analyse.",
+      "voorbeeld_inline": "Uitgeverij Ukkel NV heeft een Britse vordering £ 50.000 (geboekt aan 1,20 = € 60.000) maar bij ontvangst is koers 1,15 → ontvangen € 57.500. Wisselkoersverlies € 2.500 op rekening 654.",
+      "grondslag": "MAR + KB WVV art. 3:39",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "MAR + KB WVV"},
+      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Intrestkost vs hoofdsom-betaling",
+      "betekenis": "Bij annuïtaire afbetaling van een lening betaal je elke maand een vast bedrag dat bestaat uit intrest (klasse 65) + aflossing hoofdsom (vermindering rekening 17/42). Aflossing hoofdsom is GEEN kost — alleen intrest is.",
+      "herkenningspunt": "Examen: maandannuïteit € 4.500, waarvan € 1.200 intrest, € 3.300 aflossing → € 1.200 op klasse 65, € 3.300 vermindert rekening 173.",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "MAR + accounting practice"},
+      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Aflossing van de hoofdsom van een lening is GEEN financiële kost — het vermindert enkel de schuld. Alleen intrest hoort in klasse 65.",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "MAR"},
+      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "text": "Dividenden ONTVANGEN = financiële opbrengst (klasse 750). Dividenden UITGEKEERD = winstbestemming via rekening 694, NIET klasse 65. Andere kant van de balans.",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "MAR klasse 6 vs 7"},
+      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_7", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "vergelijkingsparen": [],
+  "edges": [
+    {"type": "onderdeel-van", "target": "resultatenrekening", "redenering": "Financieel resultaat is het tweede niveau in de gestructureerde RR, na bedrijfsresultaat."},
+    {"type": "vergelijkt-met", "target": "bedrijfsresultaat", "redenering": "Twee strikt gescheiden segmenten van het resultaat."}
+  ]
+}

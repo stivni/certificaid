@@ -183,6 +183,105 @@
     "geconstateerd_op": "2026-05-15"
   },
   {
+    "record_id": "getrouw-beeld-jaarrekening",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[0].target = 'materieel-belang-financiele-analyse' maar dat record bestaat niet in records/. Het verwante record dat wél bestaat is 'materieel-belang-jaarrekening' (zelfde linked_anchors 1.3.*). Edge moet naar dat slug verwijzen of een nieuw record 'materieel-belang-financiele-analyse' moet gemaakt worden (waarschijnlijk dedupliceren — één materialiteitsconcept volstaat voor PO 1.3).",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.3-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "getrouw-beeld-jaarrekening",
+    "aspect": "records.overlappend-fenomeen",
+    "reden": "Twee records voor hetzelfde fenomeen 'getrouw beeld van de jaarrekening' (cross-PO duplicate): 'getrouw-beeld' (linked_anchors 1.1.I.B / 1.1.II.S / 1.2.V.A / 1.2.III.B) en 'getrouw-beeld-jaarrekening' (linked_anchors 1.3.I.A / 1.3.II.A / 1.3.II.B / 1.3.taak.1 / 1.2.V.A / 1.2.V / 1.2.IV / 1.2.taak.1). Beide gebaseerd op KB WVV art. 3:1. Aanbeveling extractie-rapport: mergen onder canonieke slug 'getrouw-beeld' met gecombineerde anchors. Schema 1.4 Regel 3 (één fenomeen, één record).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po-1.3-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "werkkapitaal",
+    "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+    "reden": "in_praktijk[0] introduceert het onderscheid werkkapitaal vs werkkapitaalbehoefte als examenrelevant ('Als werkkapitaal < werkkapitaalbehoefte → liquiditeitstekort') maar 'werkkapitaalbehoefte' staat noch als vergelijkingsparen.vergelijking_met, noch als edges.target, noch bestaat er een record met dat slug. Dit is een centraal concept-paar in financial-analysis examenvragen.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po-1.3-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "werkkapitaal",
+    "aspect": "records.ontbreekt",
+    "reden": "Geen record 'werkkapitaalbehoefte' (Besoin en Fonds de Roulement / BFR) terwijl het in `werkkapitaal.in_praktijk[0]` expliciet als sleutel-onderscheid voor liquiditeitstekort wordt aangehaald en in financial-analysis-doctrine een eigen begrip is (voorraad + handelsvorderingen − handelsschulden).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po-1.3-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "liquiditeitsratio",
+    "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+    "reden": "bouwstenen[0] introduceert drie hoofdvarianten — current, quick en cash ratio — en geeft een numeriek voorbeeld voor de cash ratio (€ 0,325 voor Rotex). Current en quick zijn gespiegeld via edges; de cash ratio heeft geen edge, geen vergelijkingspaar, en geen eigen record. Voor consistente minicursus-dekking is cash-ratio-spiegeling nodig.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.3-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "liquiditeitsratio",
+    "aspect": "records.ontbreekt",
+    "reden": "Geen record 'cash-ratio' terwijl `liquiditeitsratio.bouwstenen[0]` haar expliciet als derde hoofdvariant noemt en numeriek voorbeeld geeft. In voorraadintensieve sectoren is cash ratio de meest waardevolle van de drie — relevante exam-vraagvorm 'strengste liquiditeitstoets'.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.3-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "aspect_type": "bron-gap",
+    "aspect": "bron-corpus-uitbreiding",
+    "po": "1.3",
+    "anchor_id": "1.3.II.C",
+    "reden": "Acht ratio-records (current, quick, liquiditeit-categorie, solvabiliteit, debt-equity, werkkapitaal, horizontaal, verticaal) hebben hun formule/methodecategorie onderbouwd als 'inferred-common-knowledge' uit financial-analysis-vakdoctrine zonder Belgische trusted bron. Een gezaghebbend Belgisch handboek financial analysis zou deze formules grounded maken en de minicursus 1.3 verstevigen.",
+    "ontbrekende_kennis": "Belgisch gezaghebbend handboek met expliciete formules en interpretatieregels voor de klassieke jaarrekening-ratio's (liquiditeit/solvabiliteit/rentabiliteit/activiteit).",
+    "voorgestelde_bronnen": [
+      {
+        "naam": "Ooghe & Van Wymeersch — Financiële analyse van de onderneming (Intersentia, recente editie)",
+        "url": "https://www.intersentia.be",
+        "publiek": false,
+        "license": "auteursrechtelijk — bibliotheek of aankoop",
+        "redenering": "Standaardhandboek waarop ITAA-examen historisch leunt voor analyse-ratio-vragen. Voor PO 1.3 zou dit alle bron-arme ratio-formules een grounded basis geven."
+      },
+      {
+        "naam": "NBB-publicatie Statistieken financiële analyse (sectortabellen Bel-first)",
+        "url": "https://www.nbb.be",
+        "publiek": true,
+        "license": "publiek — NBB-publicaties",
+        "redenering": "Voor sectorvergelijkings-ratio's biedt NBB grounded benchmark-data."
+      }
+    ],
+    "menselijke_beslissing": null,
+    "prio": "midden",
+    "status": "open",
+    "geconstateerd_door": "verify-run-po-1.3-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16"
+  },
+  {
+    "record_id": "po-1.3-examenvragen",
+    "aspect": "examenvragen.labels-ontbreken",
+    "reden": "Check A (examenvraag-simulatie) is geskipt voor PO 1.3 omdat de examenvragen 2013-/2014-/2015- nog geen 1.3.* anchor-labels hebben. Zonder die labels kan de verify-pass geen 'onbeantwoordbaar uit records'-strandpunten loggen. Open werk: labelling-run voor PO 1.3 over de bestaande exam-corpus.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po-1.3-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open",
+    "aspect_type": "proces-gap"
+  },
+  {
     "aspect_type": "bron-gap",
     "aspect": "bron-corpus-uitbreiding",
     "po": "1.4",
@@ -203,5 +302,599 @@
     "status": "open",
     "geconstateerd_door": "concept-extractie-v2-2026-05-15T00:00:00Z",
     "geconstateerd_op": "2026-05-15"
+  },
+  {
+    "record_id": "jaarverslag",
+    "aspect": "records.overlappend-fenomeen",
+    "reden": "jaarverslag (PO 1.2-record, node_type begrip, WVV art. 3:32) en bestuursverslag (PO 1.3-record, node_type procedure, Richtlijn 2013/34/EU art. 19) beschrijven hetzelfde wettelijke document met andere terminologie. WVV-term = jaarverslag; richtlijn-term = bestuursverslag. Beide records melden de overlap zelf in cross_po_overlap-veld. Aanbeveling: merge tot één canoniek record (id 'jaarverslag-bestuursverslag') met beide naamvarianten en behoud van procedure-stappen (uit bestuursverslag) + begripsstructuur (uit jaarverslag). Cross-PO 1.2 + 1.3-anchors samenvoegen.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "bestuursverslag",
+    "aspect": "records.overlappend-fenomeen",
+    "reden": "Spiegel-entry van jaarverslag-overlap. Bestuursverslag heeft de procedure-stappen + corporate-governance-verklaring; jaarverslag heeft de niet-financiële verklaring (CSRD) + WVV-koppeling. Bij merge: combineer stappen + bouwstenen in één record met linked_anchors = 1.2.IV.D + 1.2.IV + 1.3.I.E + 1.3.I.D + 1.3.taak.1.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "fsma",
+    "aspect": "vergelijkingsparen.ontbreekt",
+    "reden": "FSMA wordt in de praktijk vaak verward met NBB (Nationale Bank van België) — beide zijn financiële toezichthouders. FSMA-record mist vergelijkingsparen met nationale-bank-belgie (Twin Peaks-model: NBB = prudentieel/macro, FSMA = gedrag/markttransparantie). Stagiair vraagt 'wie controleert wat?' — antwoord moet uit één record komen.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "fsma",
+    "aspect": "edges.geen-types",
+    "reden": "FSMA heeft slechts één edge (vereist-kennis-van naar europees-boekhoudrecht). Mist edges naar nationale-bank-belgie (vergelijkt-met), public-interest-entity (specialisatie-van — FSMA-toezicht geldt vooral voor PIEs), wet-2-augustus-2002 (getriggerd-door). Te dun edge-graf voor centrale autoriteit.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "fsma",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "FSMA heeft geen in_praktijk-blok. Voor een autoriteit-record is dit cruciaal: stagiair moet weten 'wanneer kom ik FSMA tegen in mijn cliënt-dossiers?' — antwoord: bij elke beursgenoteerde NV of PIE, bij prospectus-controle, bij financiële verslaggevingsdeadlines. Vergelijk uniforme rijkheid met `commissie-boekhoudkundige-normen` (heeft wél in_praktijk).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "itaa",
+    "aspect": "vergelijkingsparen.ontbreekt",
+    "reden": "ITAA (accountants) ↔ IBR (revisoren) is een klassieke verwarring voor stagiairs. ITAA-record heeft één vergelijkingspaar maar mist expliciete trigger 'wanneer welk beroep?' (commissarisopdracht = IBR-revisor; KMO-controle + boekhouding = ITAA-accountant). Examenvraag 'mag een ITAA-accountant commissarisopdracht uitvoeren?' moet beantwoordbaar zijn uit één record.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "ibr",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "IBR-record (Instituut van Bedrijfsrevisoren) mist in_praktijk én valkuilen én vergelijkingsparen. Dunner dan zustertekst ITAA-record. Stagiair moet weten: wanneer is IBR-revisor verplicht (commissaris bij grote vennootschap), welk gat tussen accountant/revisor, welke wet (Wet 7 december 2016).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "fod-financien-boekhoudrecht",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "FOD Financiën-record (boekhoudrecht-perspectief) mist in_praktijk + valkuilen + vergelijkingsparen. Centraal voor stagiair: wanneer is FOD Financiën actor in boekhoud-dossier (BTW-aangifte vs vennootschapsbelasting vs roerende voorheffing)? Hoe verhoudt zich FOD-controle tot FSMA-controle? Uniformiteit met andere autoriteit-records vraagt minstens één in_praktijk-entry.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "griffies-ondernemingsrechtbank",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Griffies-record mist in_praktijk, valkuilen en vergelijkingsparen. Voor stagiair: wanneer neerleggen bij griffie (BTW: ondernemingsdossier) vs bij NBB (jaarrekening)? Deze verwarring is examen-frequent. Minstens één in_praktijk-blok 'wanneer welke neerlegging?' is nodig.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "public-interest-entity",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "PIE-record mist in_praktijk én valkuilen. Voor een centraal begrip (definieert toepassingsgebied van IFRS, CSRD, audit committee, FSMA-toezicht) is dit te dun. Stagiair moet kunnen herkennen 'is mijn cliënt een PIE?' uit het record.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "kleine-vennootschap",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "kleine-vennootschap mist in_praktijk + valkuilen + vergelijkingsparen. Centrale concept met directe gevolgen (verkort schema, geen commissaris, geen jaarverslag). Mist vergelijkingsparen met microvennootschap (één schaal verschillend) en met groottecriteria-consolidatie (andere context). Examenvraag 'mag deze kleine vennootschap verkort schema?' moet uit dit record beantwoordbaar zijn.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "oprechtheidsbeginsel",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "oprechtheidsbeginsel mist in_praktijk én valkuilen. Centraal beginsel (substance-over-form). Zustertekst voorzichtigheidsbeginsel heeft beide. Uniforme rijkheid binnen de beginselen-records vraagt minstens één in_praktijk + valkuilen-entry over typische examenvraag (window-dressing-camouflage).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "hulpdagboeken",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "hulpdagboeken-record mist in_praktijk + valkuilen. Voor stagiair: welke hulpdagboeken zijn standaard (kas, bank, aankopen, verkopen, diverse verrichtingen)? Welke combinatie met centraal dagboek? Mist concretisering.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "aanvullende-boekhoudbeginselen",
+    "aspect": "records.overlappend-fenomeen",
+    "reden": "aanvullende-boekhoudbeginselen aggregeert 4 bestaande records (voorzichtigheidsbeginsel, oprechtheidsbeginsel, continuiteitsbeginsel, consistentiebeginsel) zonder eigen orginele inhoud — herclassificeer als node_type 'synthese' (schema 1.4 voorziet dit expliciet). Behoud bouwstenen als compacte samenvattingen, verwijder duplicate-content (uitgewerkte voorbeelden) en vervang door wikilinks naar de individuele records.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "wetboek-economisch-recht-boek-iii",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target verwijst naar 'dubbele-boekhouding' — bestaat niet als record. Canonieke slug is 'dubbel-boekhouden' (zoals gebruikt in andere PO 1.2-records). Vervang.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "boekhoudplichtige-onderneming",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target wijst naar 'dubbele-boekhouding' — bestaat niet (gebruik 'dubbel-boekhouden').",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "continuiteitsbeginsel",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target verwijst naar 'boekhoudkundige-beginselen', 'vereffening' en 'waarderingsregels' — geen van deze drie bestaat als record. Vervangen: 'aanvullende-boekhoudbeginselen' (bestaat), 'waarderingsregels-jaarrekening' (bestaat). Voor 'vereffening' bestaat geen record — eventueel records.ontbreekt-gap voor PO 1.6.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "voorzichtigheidsbeginsel",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target naar 'boekhoudkundige-beginselen', 'overeenstemmingsprincipe' en 'waarderingsregels' — geen bestaat. 'overeenstemmingsprincipe' = matching-principe (eventueel records.ontbreekt-gap). Andere twee vervangen door 'aanvullende-boekhoudbeginselen' en 'waarderingsregels-jaarrekening'.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "getrouw-beeld",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target naar 'boekhoudkundige-beginselen' — bestaat niet. Canoniek: 'aanvullende-boekhoudbeginselen'.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "onveranderlijkheid-boekingen",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target verwijst naar 'boekhoudkundige-beginselen' — bestaat niet. Vervang door 'aanvullende-boekhoudbeginselen' of (semantisch beter) 'regelmatige-boekhouding'.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "commissaris",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target naar 'accountant-itaa' — bestaat niet als record. Canoniek: 'itaa' (actor-record). De relatie is vergelijkt-met (commissaris = IBR-revisor; accountant = ITAA).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "itaa",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target naar 'itaa-normen' — bestaat niet als record. Optie 1: schrap edge. Optie 2: maak records.ontbreekt-gap voor 'itaa-normen' als afzonderlijk record (kan op zich voor PO 1.5 deontologie/normen relevant zijn).",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "europees-boekhoudrecht",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target naar 'ifrs-toepassingsgebied' — bestaat niet. Mogelijk records.ontbreekt-gap voor PO 1.3/1.4 (IFRS-toepassingsgebied is centraal bij geconsolideerde jaarrekening van PIEs).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "inventaris",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target naar 'jaarafsluiting' en 'waarderingsregels' — beide bestaan niet als record. 'jaarafsluiting' eventueel = 'eindejaarsverrichtingen' (bestaat). 'waarderingsregels' = 'waarderingsregels-jaarrekening' (bestaat).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "overlopende-rekeningen",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target naar 'jaarafsluiting' (= eindejaarsverrichtingen) en 'matching-principe' (bestaat niet als apart record; aspect van voorzichtigheidsbeginsel / aanvullende beginselen). Mogelijk records.ontbreekt-gap voor matching-principe als zelfstandig begrip.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "niet-in-balans-opgenomen-rechten-verplichtingen",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target naar 'voorzieningen-voor-risicos-en-kosten' — bestaat niet. Canoniek: 'voorzieningen' (bestaat als PO 1.1-record met cross-PO-extension naar 1.2).",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "oprichtingskosten",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target naar 'obligatielening' — bestaat niet. Mogelijk records.ontbreekt-gap voor PO 1.1 (oprichtingskosten van obligatielening is bouwsteen-onderwerp). Voorlopig: schrap edge.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "dagboek",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target naar 'verantwoordingsstuk' — bestaat niet als record. Centraal begrip in dubbel-boekhouden (KB-WVV art. 3:4); mogelijk records.ontbreekt-gap voor PO 1.1 of 1.2.III.D.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "regelmatige-boekhouding",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target naar 'verantwoordingsstuk' — bestaat niet. Zelfde gap als dagboek (records.ontbreekt-kandidaat).",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "getrouw-beeld-jaarrekening",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target naar 'materieel-belang-financiele-analyse' — bestaat niet. Mogelijk records.ontbreekt-gap voor PO 1.3 (materialiteit is centraal in financiële analyse).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "PO-1.2",
+    "aspect": "open-werk",
+    "reden": "Check A (Examenvraag-simulatie) skipped — examenvragen voor PO 1.2 nog niet geclassificeerd in data/examen_vragen/. Volg-up: classificeer examenvragen die over groottecriteria, jaarrekeningschema, autoriteiten-rolverdeling of waarderingsregels gaan onder PO 1.2-anchors zodra examen-mapping beschikbaar.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po12-2026-05-16T16:00Z",
+    "geconstateerd_op": "2026-05-16T16:00:00+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "po-1.1",
+    "aspect": "open-werk",
+    "reden": "Check A (Examenvraag-simulatie) overgeslagen voor PO 1.1: examenvragen in data/examen_vragen/ zijn nog niet geclassificeerd per anchor 1.1.X. Pas uitvoeren zodra PO 1.1-vraagclassificatie beschikbaar is.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "getrouw-beeld",
+    "aspect": "records.overlappend-fenomeen",
+    "reden": "Sterke conceptuele overlap met `getrouw-beeld-jaarrekening` (parallelle PO 1.2-run): beide beschrijven het getrouw-beeld-beginsel (WER art. III.89 / KB WVV). Mens-curatie: één canonical record + ander als alias of integreer jaarrekening-perspectief als in_praktijk/bouwsteen.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "bewaring-boekhoudstukken",
+    "aspect": "records.overlappend-fenomeen",
+    "reden": "Sterke overlap met `bewaartermijn-boekhouding` (PO 1.2): beide steunen op WER art. III.86 (7-jaars bewaartermijn). Mens-curatie: één canonical record kiezen, ander als redirect markeren.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "rechten-verplichtingen-buiten-balans",
+    "aspect": "records.overlappend-fenomeen",
+    "reden": "Drie records voor hetzelfde fenomeen: `rechten-verplichtingen-buiten-balans` (PO 1.1) + `klasse-0-niet-in-balans` + `niet-in-balans-opgenomen-rechten-verplichtingen` (beide PO 1.2/1.3). Merge tot één canonical record per fenomeen (klasse 0).",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "jaarrekening",
+    "aspect": "records.overlappend-fenomeen",
+    "reden": "Overlap met `jaarrekening-schema` en `samenstelling-statutaire-jaarrekening` (PO 1.2). PO 1.1-record is overkoepelend; PO 1.2-records zijn gespecialiseerde aspecten (schema-keuze + opmaak-procedure). Aanbeveling: link via `bevat`/`specialisatie-van` edges in plaats van merge.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "boekhoudkundige-beginselen",
+    "aspect": "records.ontbreekt",
+    "reden": "Boekhoudbeginselen-cluster heeft nu losse records (continuiteitsbeginsel, voorzichtigheidsbeginsel, getrouw-beeld, onveranderlijkheid-boekingen — PO 1.1 + consistentiebeginsel, oprechtheidsbeginsel, volledigheidsbeginsel, aanvullende-boekhoudbeginselen — PO 1.2) maar geen overkoepelend overzichts-record. Een canonical `boekhoudkundige-beginselen` ontbreekt — daarom wijzen 4 PO 1.1 edges met type `onderdeel-van` naar een niet-bestaand target.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "eigen-middelen",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Edge (type=`getriggerd-door`) → `alarmprocedure` wijst naar een niet-bestaand record. ENRICH-actie: ofwel record `alarmprocedure` aanmaken (vooral nuttig voor frequent terugkerende targets), ofwel edge weghalen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "financiele-vaste-activa",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Edge (type=`bevat`) → `deelneming` wijst naar een niet-bestaand record. ENRICH-actie: ofwel record `deelneming` aanmaken (vooral nuttig voor frequent terugkerende targets), ofwel edge weghalen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "financiele-vaste-activa",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Edge (type=`vergelijkt-met`) → `geldbelegging` wijst naar een niet-bestaand record. ENRICH-actie: ofwel record `geldbelegging` aanmaken (vooral nuttig voor frequent terugkerende targets), ofwel edge weghalen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "financiele-verrichtingen",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Edge (type=`onderdeel-van`) → `resultatenrekening` wijst naar een niet-bestaand record. ENRICH-actie: ofwel record `resultatenrekening` aanmaken (vooral nuttig voor frequent terugkerende targets), ofwel edge weghalen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "immateriele-vaste-activa",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Edge (type=`bevat`) → `goodwill` wijst naar een niet-bestaand record. ENRICH-actie: ofwel record `goodwill` aanmaken (vooral nuttig voor frequent terugkerende targets), ofwel edge weghalen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "resultaatverwerking",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Edge (type=`getriggerd-door`) → `jaarafsluiting` wijst naar een niet-bestaand record. ENRICH-actie: ofwel record `jaarafsluiting` aanmaken (vooral nuttig voor frequent terugkerende targets), ofwel edge weghalen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "bedrijfsresultaat",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Edge (type=`onderdeel-van`) → `resultatenrekening` wijst naar een niet-bestaand record. ENRICH-actie: ofwel record `resultatenrekening` aanmaken (vooral nuttig voor frequent terugkerende targets), ofwel edge weghalen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "materiele-vaste-activa",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Edge (type=`bevat`) → `terrein` wijst naar een niet-bestaand record. ENRICH-actie: ofwel record `terrein` aanmaken (vooral nuttig voor frequent terugkerende targets), ofwel edge weghalen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "niet-recurrente-verrichtingen",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Edge (type=`onderdeel-van`) → `resultatenrekening` wijst naar een niet-bestaand record. ENRICH-actie: ofwel record `resultatenrekening` aanmaken (vooral nuttig voor frequent terugkerende targets), ofwel edge weghalen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "jaarrekening",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Edge (type=`bevat`) → `balans` wijst naar een niet-bestaand record. ENRICH-actie: ofwel record `balans` aanmaken (vooral nuttig voor frequent terugkerende targets), ofwel edge weghalen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "jaarrekening",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Edge (type=`bevat`) → `resultatenrekening` wijst naar een niet-bestaand record. ENRICH-actie: ofwel record `resultatenrekening` aanmaken (vooral nuttig voor frequent terugkerende targets), ofwel edge weghalen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "jaarrekening",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Edge (type=`bevat`) → `toelichting` wijst naar een niet-bestaand record. ENRICH-actie: ofwel record `toelichting` aanmaken (vooral nuttig voor frequent terugkerende targets), ofwel edge weghalen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "jaarrekening",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Edge (type=`getriggerd-door`) → `jaarafsluiting` wijst naar een niet-bestaand record. ENRICH-actie: ofwel record `jaarafsluiting` aanmaken (vooral nuttig voor frequent terugkerende targets), ofwel edge weghalen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "financiele-vaste-activa",
+    "aspect": "vergelijkingsparen.target-ontbreekt",
+    "reden": "vergelijkingsparen[].vergelijking_met = `geldbelegging` wijst naar niet-bestaand record.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "leasing",
+    "aspect": "vergelijkingsparen.target-ontbreekt",
+    "reden": "vergelijkingsparen[].vergelijking_met = `huur` wijst naar niet-bestaand record.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "uitgiftepremie",
+    "aspect": "vergelijkingsparen.target-ontbreekt",
+    "reden": "vergelijkingsparen[].vergelijking_met = `beschikbare-reserves` wijst naar niet-bestaand record.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "bedrijfsvorderingen",
+    "aspect": "vergelijkingsparen.target-ontbreekt",
+    "reden": "vergelijkingsparen[].vergelijking_met = `vorderingen-op-meer-dan-een-jaar` wijst naar niet-bestaand record.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "wettelijke-reserve",
+    "aspect": "vergelijkingsparen.target-ontbreekt",
+    "reden": "vergelijkingsparen[].vergelijking_met = `beschikbare-reserves` wijst naar niet-bestaand record.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "voorzichtigheidsbeginsel",
+    "aspect": "vergelijkingsparen.target-ontbreekt",
+    "reden": "vergelijkingsparen[].vergelijking_met = `overeenstemmingsprincipe` wijst naar niet-bestaand record.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "resultatenrekening",
+    "aspect": "records.ontbreekt",
+    "reden": "Vier PO 1.1 records linken via `onderdeel-van` naar `resultatenrekening` (financiele-verrichtingen, bedrijfsresultaat, niet-recurrente-verrichtingen, jaarrekening). Geen canonical record. Hoog prio: resultatenrekening is een centraal stagiair-concept.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "balans",
+    "aspect": "records.ontbreekt",
+    "reden": "Edge `jaarrekening → bevat → balans` wijst naar niet-bestaand record. Balans als balans-document is een fundamenteel begrip dat een eigen record verdient.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "jaarafsluiting",
+    "aspect": "records.ontbreekt",
+    "reden": "Vier PO 1.1 records (inventaris, overlopende-rekeningen, resultaatverwerking, jaarrekening) gebruiken `getriggerd-door → jaarafsluiting`. Geen canonical record — concept van jaarafsluiting (timing + verplichte stappen) ontbreekt.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "waarderingsregels",
+    "aspect": "records.ontbreekt",
+    "reden": "Drie records (continuiteitsbeginsel, voorzichtigheidsbeginsel, inventaris) wijzen `vereist-kennis-van → waarderingsregels`. Concept verdient een eigen record (KB WVV art. 3:6 + 3:8 — verplicht in toelichting).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "verantwoordingsstuk",
+    "aspect": "records.ontbreekt",
+    "reden": "Twee records (regelmatige-boekhouding, dagboek) wijzen `vereist-kennis-van → verantwoordingsstuk`. Begrip van verantwoordingsstuk (WER art. III.83) ontbreekt — fundamenteel voor begrijpen van boekhoudingsplicht.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "niet-recurrente-verrichtingen",
+    "aspect": "vergelijkingsparen.ontbreekt",
+    "reden": "Stagiairs verwarren `niet-recurrent` met het oude `uitzonderlijk`. Record mist een vergelijkingspaar met `bedrijfsresultaat` (recurrent vs niet-recurrent) of een toelichting op de KB 21/10/2018-overgang.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "eigen-aandelen",
+    "aspect": "vergelijkingsparen.ontbreekt",
+    "reden": "Eigen aandelen vs gewone deelnemingen / financiele-vaste-activa is een klassieke valstrik (eigen aandelen → aftrek van eigen vermogen, niet als activa). Vergelijkingspaar ontbreekt.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "bewaring-boekhoudstukken",
+    "aspect": "vergelijkingsparen.ontbreekt",
+    "reden": "Bewaartermijn van boekhoudstukken (7 jaar, WER art. III.86) versus fiscale bewaarplicht (10 jaar, WIB art. 315) is een klassiek struikelblok. Vergelijkingspaar ontbreekt.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "financiele-verrichtingen",
+    "aspect": "bron-corpus-uitbreiding",
+    "reden": "Bundle 1.1.II.O bevatte vooral MAR-fragmenten + WIB-art. 2 definities; weinig CBN-adviezen over financiële opbrengsten van deelnemingen vs geldbeleggingen. Aan te vullen: CBN-adviezen over rubriek 750-751 (opbrengsten financiële vaste activa) en rubriek 755 (uit vlottende geldbeleggingen).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "kapitaalwijziging",
+    "aspect": "bron-corpus-uitbreiding",
+    "reden": "Bundle 1.1.II.T bevatte veel CBN-fusie/splitsings-adviezen (2021/10, 2022/12, 2022/13). Niet in deze pass verwerkt — fusies/splitsingen verdienen eigen records (open follow-up).",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
+    "geconstateerd_op": "2026-05-16T12:56:18+00:00",
+    "status": "open"
   }
 ]

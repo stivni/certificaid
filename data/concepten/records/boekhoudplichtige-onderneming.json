@@ -1,0 +1,96 @@
+{
+  "id": "boekhoudplichtige-onderneming",
+  "naam": "Boekhoudplichtige onderneming",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.2.III", "1.2.I.C"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.2.III",
+    "dekt_ook_anchors": ["1.2.I.C"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Een boekhoudplichtige onderneming is — luidens WER art. III.82 — iedere onderneming die onder het toepassingsgebied van Boek III WER valt en dus verplicht is een boekhouding te voeren. Dit omvat: alle rechtspersonen naar Belgisch recht, elke natuurlijke persoon met een zelfstandige beroepsactiviteit, en elke organisatie zonder rechtspersoonlijkheid met een economisch doel.",
+    "confidence": "grounded",
+    "source": {"type": "wet", "short": "WER art. III.82, § 1"},
+    "references": [
+      {"type": "wet", "short": "WER art. III.82"},
+      {"type": "wet", "short": "WER art. I.1 (begrippen)"},
+      {"type": "advies", "short": "CBN-advies 2019/09 — Boekhoudplichtige onderneming"}
+    ],
+    "_provenance": {"inputs": [
+      {"id": "CBN-2019-09-boekhoudplichtige-onderneming__sec_boekhoudplichtige-onderneming", "sha256": null, "version": "rag-v1"},
+      {"id": "CBN-2019-09-boekhoudplichtige-onderneming__sec_rechtspersonen-naar-belgisch-recht", "sha256": null, "version": "rag-v1"},
+      {"id": "WER__art_III_69", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Praktijk Persenaire (eenmanszaak vrij beroep), Meubelzaak Mertens BV (vennootschap) en VZW Quelle de Vie (vereniging met economische activiteit) zijn alle drie boekhoudplichtige onderneming.",
+  "bouwstenen": [
+    {
+      "titel": "Drie categorieën boekhoudplichtigen",
+      "wat": "(1) Alle rechtspersonen naar Belgisch recht (BV, NV, CV, VZW, IVZW, stichting, ...). (2) Natuurlijke personen die zelfstandig een beroepsactiviteit uitoefenen (handel, ambacht, vrije beroepen). (3) Organisaties zonder rechtspersoonlijkheid met economisch doel (bv. maatschap, feitelijke vereniging met handelsactiviteit).",
+      "waarom": "De wet wil dat élke economische actor — niet alleen vennootschappen — een minimum aan financiële transparantie biedt.",
+      "voorbeeld_inline": "Tom Lefèvre is vennoot van een maatschap zonder rechtspersoonlijkheid → de maatschap is boekhoudplichtig (organisatie zonder rechtspersoonlijkheid met economisch doel).",
+      "grondslag": "WER art. III.82, § 1",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WER art. III.82"},
+      "_provenance": {"inputs": [
+        {"id": "CBN-2019-09-boekhoudplichtige-onderneming__sec_rechtspersonen-naar-belgisch-recht", "sha256": null, "version": "rag-v1"},
+        {"id": "WER__art_III_69", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Uitzonderingen op de boekhoudplicht",
+      "wat": "Niet boekhoudplichtig zijn onder andere: (1) de Federale Staat en andere openbare overheden, (2) verenigingen zonder rechtspersoonlijkheid en zonder economisch doel, (3) bepaalde door bijzondere wet uitgesloten entiteiten. Dit zijn uitzonderingen — twijfel je? Dan ben je waarschijnlijk wél boekhoudplichtig.",
+      "waarom": "De boekhoudplicht is de regel, niet de uitzondering — voor de stagiair: 'twijfel = boekhouden'.",
+      "voorbeeld_inline": "Een sportclub-feitelijke-vereniging die enkel lidgelden int en geen handel drijft → niet boekhoudplichtig. Een feitelijke vereniging die een café uitbaat → wel boekhoudplichtig.",
+      "grondslag": "WER art. III.82, § 2",
+      "confidence": "grounded",
+      "source": {"type": "advies", "short": "CBN-advies 2019/09"},
+      "_provenance": {"inputs": [
+        {"id": "CBN-2019-09-boekhoudplichtige-onderneming__sec_rechtspersonen-naar-belgisch-recht", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Toepassingsgebied: Belgisch territorium",
+      "wat": "Voor een buitenlandse onderneming geldt de Belgische boekhoudplicht enkel voor haar in België gevestigde bijkantoor of centrum van werkzaamheden. Het hoofdkantoor in het buitenland blijft onder zijn eigen recht.",
+      "waarom": "Belgisch recht is territoriaal — buitenlandse hoofdzetels worden niet 'gepakt' door WER Boek III.",
+      "voorbeeld_inline": "Kappers Köln GmbH (Duits) heeft een Antwerps bijkantoor → het bijkantoor voert een Belgische boekhouding (KB-WVV regels); het hoofdkantoor blijft onder Duits recht.",
+      "grondslag": "WER art. III.82, § 3; CBN-advies 2022/14",
+      "confidence": "grounded",
+      "source": {"type": "advies", "short": "CBN-advies 2022/14"},
+      "_provenance": {"inputs": [
+        {"id": "CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belg", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Boekhoudplicht versus jaarrekening-plicht",
+      "betekenis": "Boekhoudplicht (WER) = je moet boeken. Jaarrekening-plicht (WVV) = je moet die boeken jaarlijks samenbrengen in een gestructureerde jaarrekening en die openbaar maken. Niet elk boekhoudplichtige is jaarrekening-plichtig: eenmanszaken met dubbele boekhouding bv. moeten geen jaarrekening neerleggen.",
+      "herkenningspunt": "Praktijk Persenaire (eenmanszaak) → wél boekhouden, géén jaarrekening neerleggen bij NBB.",
+      "confidence": "inferred-from-aggregation",
+      "source": {"type": "wet", "short": "WER Boek III + WVV Boek 3"},
+      "_provenance": {"inputs": [
+        {"id": "CBN-2019-09-boekhoudplichtige-onderneming__sec_boekhoudplichtige-onderneming", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "edges": [
+    {
+      "type": "getriggerd-door",
+      "target": "wetboek-economisch-recht-boek-iii",
+      "redenering": "WER Boek III stelt de boekhoudplicht in.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "dubbele-boekhouding",
+      "redenering": "Een boekhoudplichtige onderneming voert ofwel dubbele ofwel vereenvoudigde boekhouding.",
+      "confidence": "inferred"
+    }
+  ]
+}

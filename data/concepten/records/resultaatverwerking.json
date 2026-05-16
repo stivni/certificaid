@@ -1,0 +1,137 @@
+{
+  "id": "resultaatverwerking",
+  "naam": "Resultaatverwerking (winst- of verliesbestemming)",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.1.II.Q"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.1.II.Q",
+    "dekt_ook_anchors": [],
+    "reviewed_by": null
+  },
+  "verplichting": "Na bepaling van **winst (verlies) van het boekjaar vóór belasting** doorloopt de jaarrekening de **resultaatverwerking** in vier stappen: (1) belastingen op het resultaat (klasse 67), (2) overboeking belastingvrije reserves indien relevant, (3) toewijzing winstbestemming via klasse 69 (wettelijke reserve, beschikbare reserves, dividend, vergoeding bestuurders), (4) overdracht naar volgend boekjaar (rekening 140/141). Pas dan ligt de definitieve 'te bestemmen winst (verlies)' vast.",
+  "definitie": {
+    "text": "Het proces waarbij het boekhoudkundige resultaat na winstbelasting wordt verdeeld over de verschillende bestemmingen: opname van wettelijke reserve, vrije bestemming aan beschikbare reserves, dividenduitkering, vergoeding bestuurders, overdracht naar volgend boekjaar. De resultaatverwerking gebeurt formeel door **goedkeuring van de algemene vergadering** op voorstel van het bestuursorgaan; tot dan staat het resultaat als 'te bestemmen' (rekening 79 of voorlopig overgedragen).",
+    "confidence": "grounded",
+    "source": {"type": "wet", "short": "WVV art. 7:211 + 5:142; KB WVV"},
+    "references": [
+      {"type": "wet", "short": "MAR klasse 67 (belastingen) + 69 (winstbestemming)"}
+    ],
+    "_provenance": {"inputs": [
+      {"id": "MAR-ondernemingen__art_1", "sha256": null, "version": "rag-v1"},
+      {"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Bereken belastingen op het resultaat (klasse 67)",
+      "wat": "Verschuldigde vennootschapsbelasting op de fiscale winst van het boekjaar (670), aangevuld met regularisaties van vorige boekjaren (671) en gevormde fiscale voorzieningen (672, 6712).",
+      "waarom": "De vennootschapsbelasting is een echte kost die het resultaat verlaagt. Aparte rubriek toont de fiscale druk.",
+      "input": [{"artefact": "Fiscale aangifte", "veld": "Verschuldigde vennootschapsbelasting", "type": "boekhoudkundig-bedrag"}],
+      "output": [{"artefact": "Boekhouding", "veld": "Klasse 67 Belastingen", "type": "boekhoudkundig-bedrag"}],
+      "hoe": "1. Bepaal fiscale belastbare basis (= boekhoudkundige winst + verworpen uitgaven − fiscaal aftrekbare elementen).\n2. Pas tarief toe (25 % standaard, 20 % verlaagd op eerste schijf voor KMO's onder voorwaarden).\n3. Trek voorafbetalingen af.\n4. Boek: Debet 670 Verschuldigde belasting / Credit 4500 Verschuldigde belastingen op resultaat.\n",
+      "grondslag": "MAR klasse 67 + WIB92"
+    },
+    {
+      "nr": 2,
+      "titel": "Bereken winst (verlies) van het boekjaar (na belasting)",
+      "wat": "Resultaat vóór belasting min belastingen op het resultaat. Dit is het 'nettoresultaat' van de RR.",
+      "input": [
+        {"artefact": "RR", "veld": "Resultaat vóór belasting", "type": "boekhoudkundig-bedrag"},
+        {"artefact": "Klasse 67", "veld": "Belastingen", "type": "boekhoudkundig-bedrag"}
+      ],
+      "output": [{"artefact": "RR", "veld": "Winst (verlies) van het boekjaar", "type": "boekhoudkundig-bedrag"}],
+      "hoe": "1. Neem resultaat vóór belasting (uit klasse 70-66).\n2. Trek klasse 67 af.\n3. Resultaat = nettowinst (verlies).\n",
+      "grondslag": "MAR klasse 6 + 7"
+    },
+    {
+      "nr": 3,
+      "titel": "Voorstel winstbestemming (klasse 69)",
+      "wat": "Bestuursorgaan stelt winstbestemming voor: (6920) toevoeging wettelijke reserve, (6921) toevoeging onbeschikbare reserves, (6922/3) belastingvrije/beschikbare reserves, (694) vergoeding van kapitaal (dividend), (695) bestuurders/zaakvoerders, (696) overdracht naar volgend jaar.",
+      "waarom": "De winst wordt niet automatisch uitgekeerd; algemene vergadering beslist op voorstel van bestuur over verdeling. Klasse 69-rekeningen registreren elk bestemmings-element.",
+      "voorbeeld": {
+        "scenario": "Meubelzaak Mertens BV winst boekjaar 20X1 (na belasting) = € 42.000. Voorstel bestuur.",
+        "substappen": [
+          {"nr": 1, "titel": "Voorstel winstbestemming", "type": "berekening", "data": "Winst boekjaar:                           € 42.000\n(a) Wettelijke reserve (5 %):              € 2.100\n(b) Toevoeging beschikbare reserves:       € 10.000\n(c) Dividend aan aandeelhouders:           € 15.000\n(d) Vergoeding bestuurders:                € 5.000\n(e) Overdracht naar volgend jaar:          € 9.900\n**Totaal**:                                **€ 42.000** ✓"},
+          {"nr": 2, "titel": "Boekhoudkundige verwerking", "type": "boekingsregel", "data": "Debet 6920 Toevoeging wettelijke reserve € 2.100\nDebet 6921 Toevoeging onbeschikbare reserves €  0\nDebet 6923 Toevoeging beschikbare reserves € 10.000\nDebet 694 Vergoeding van het kapitaal (dividenden) € 15.000\nDebet 695 Vergoeding bestuurders € 5.000\nDebet 696 Overgedragen winst (overdracht) € 9.900\n  Credit 130 Wettelijke reserve € 2.100\n  Credit 133 Beschikbare reserves € 10.000\n  Credit 471 Tantièmes en dividenden te betalen € 20.000\n  Credit 140 Overgedragen winst € 9.900\n(Debet = Credit = € 42.000 ✓)"}
+        ]
+      },
+      "grondslag": "MAR klasse 69 + WVV art. 7:211"
+    },
+    {
+      "nr": 4,
+      "titel": "Goedkeuring door algemene vergadering",
+      "wat": "Algemene vergadering keurt de jaarrekening + winstbestemming goed. Dividend wordt opeisbaar; alle reserve-mutaties worden definitief.",
+      "waarom": "AV is het hoogste orgaan; haar goedkeuring is constitutief voor de uitkeerbaarheid van dividend en de juridische geldigheid van de bestemming.",
+      "hoe": "1. Bestuur stelt verslag op en roept AV bijeen (binnen 6 maanden na boekjaareinde).\n2. AV behandelt jaarrekening + bestemming + kwijting bestuursorgaan + commissaris.\n3. Notulen opmaken; neerlegging jaarrekening bij NBB.\n",
+      "grondslag": "WVV art. 7:181 (NV); 5:80 (BV) jaarvergadering"
+    }
+  ],
+  "tijdlijn": [
+    {
+      "stap": "Afsluiting boekjaar",
+      "termijn": "31 december (klassiek)",
+      "actor": "bestuursorgaan",
+      "actie": "Inventaris + opstelling jaarrekening",
+      "source": {"type": "wet", "short": "WER art. III.89; WVV"},
+      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "stap": "Bijeenroeping AV",
+      "termijn": "Binnen 6 maanden na boekjaareinde",
+      "actor": "bestuursorgaan",
+      "actie": "Bijeenroeping algemene vergadering voor goedkeuring",
+      "source": {"type": "wet", "short": "WVV art. 7:181"},
+      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "stap": "Neerlegging jaarrekening",
+      "termijn": "Binnen 30 dagen na goedkeuring door AV",
+      "actor": "bestuursorgaan",
+      "actie": "Neerlegging bij Nationale Bank van België",
+      "source": {"type": "wet", "short": "WVV"},
+      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Uitkeringstest BV: dubbele toets",
+      "betekenis": "Voor BV's geldt sinds WVV 2019 een dubbele uitkeringstest: (1) netto-actief-test (uitkering mag niet leiden tot negatief netto-actief), (2) liquiditeitstest (BV moet 12 maanden vooruit haar opeisbare schulden kunnen voldoen). Bestuursorgaan moet motiveren. Geen uitkering zonder positief uitkomst.",
+      "herkenningspunt": "Examen BV: 'mag dividend uitgekeerd worden van € 50.000?' → eerst beide testen uitvoeren.",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WVV art. 5:142 — 5:143"},
+      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_1", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "aspect": "Verliesverwerking",
+      "betekenis": "Bij verlies van het boekjaar: het bestuur stelt voor om over te dragen naar volgend boekjaar (rekening 141 Overgedragen verlies), eventueel met aanwending van beschikbare reserves of onttrekking aan kapitaal. Klasse 79 'Onttrekkingen aan reserves / kapitaal' wordt dan gebruikt.",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "MAR klasse 79"},
+      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Boekhoudkundig resultaat ≠ uitkeerbaar resultaat. De winst van het boekjaar wordt eerst gecorrigeerd voor wettelijke reserve, niet-uitkeerbare reserves en uitkeringstesten vóór er sprake is van dividend.",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WVV art. 7:211"},
+      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_1", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "text": "Dividenden boekhoudkundig: VERGOEDING VAN HET KAPITAAL (rekening 694), GEEN financiële kost. Onderscheid van klasse 65 cruciaal.",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "MAR klasse 69"},
+      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "vergelijkingsparen": [],
+  "edges": [
+    {"type": "getriggerd-door", "target": "jaarafsluiting", "redenering": "Resultaatverwerking volgt na de jaarafsluiting."},
+    {"type": "vereist-kennis-van", "target": "wettelijke-reserve", "redenering": "Toevoeging wettelijke reserve is verplichte eerste stap."},
+    {"type": "vereist-kennis-van", "target": "eigen-middelen", "redenering": "Resultaat wordt geïncorporeerd in eigen middelen via reserves en overgedragen winst."}
+  ]
+}

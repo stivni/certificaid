@@ -1,0 +1,126 @@
+{
+  "id": "commissaris",
+  "naam": "Commissaris",
+  "node_type": "actor",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.2.IV.E", "1.2.IV"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.2.IV.E",
+    "dekt_ook_anchors": ["1.2.IV"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Een commissaris is een door de algemene vergadering benoemde bedrijfsrevisor (IBR-lid) die de wettelijke jaarlijkse controle uitvoert op de jaarrekening en jaarverslag van de vennootschap. De commissaris vormt zich een onafhankelijk oordeel over het getrouw beeld van de jaarrekening en rapporteert daarover aan de algemene vergadering via een verslag (commissarisverslag).",
+    "confidence": "grounded",
+    "source": {"type": "wet", "short": "WVV art. 3:72-3:97"},
+    "references": [
+      {"type": "wet", "short": "WVV art. 3:72 (verplichting commissaris)"},
+      {"type": "wet", "short": "WVV art. 3:78 (verslag commissaris)"},
+      {"type": "wet", "short": "Wet 7 december 2016 (revisorenwet)"}
+    ],
+    "_provenance": {"inputs": [
+      {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"},
+      {"id": "ITAA-norm-kmo-controlenorm__sec_norm-met-betrekking-tot-de-contractuele-controle-van-kmo-s", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Sofie Janssens (bedrijfsrevisor, IBR-lid) wordt door de algemene vergadering van Rotex Roeselare NV benoemd tot commissaris voor een termijn van drie boekjaren — zij zal jaarlijks de jaarrekening controleren en haar bevindingen rapporteren aan de aandeelhouders.",
+  "bouwstenen": [
+    {
+      "titel": "Wanneer is een commissaris verplicht?",
+      "wat": "Verplicht voor (1) grote vennootschappen (overschrijden meer dan één van de drempels: 50 werknemers / € 11.250.000 omzet / € 6.000.000 balanstotaal), (2) genoteerde vennootschappen (Public Interest Entity, PIE), (3) grote VZW's en stichtingen, (4) vennootschappen die deel uitmaken van een groep die als geheel groot is. Kleine vennootschappen kunnen vrijwillig een commissaris benoemen.",
+      "waarom": "Externe controle waarborgt vertrouwen voor derden (banken, leveranciers, fiscus, aandeelhouders).",
+      "voorbeeld_inline": "Bouwwerf Beerse BV groeit boven de drempels in 2024 én 2025 → vanaf AV 2026 moet ze een commissaris aanstellen.",
+      "grondslag": "WVV art. 3:72",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WVV art. 3:72"},
+      "_provenance": {"inputs": [
+        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Drie kerntaken",
+      "wat": "(1) Verifiëren dat de jaarrekening een getrouw beeld geeft (audit volgens ISA-normen). (2) Verifiëren of het jaarverslag overeenstemt met de jaarrekening en de wet. (3) Controleren of de boekhouding en de jaarrekening regelmatig zijn opgesteld in overeenstemming met het Belgisch boekhoudrecht.",
+      "waarom": "Niet alleen 'getrouw beeld' maar ook 'wettelijk in orde' — twee dimensies van controle.",
+      "voorbeeld_inline": "Sofie Janssens controleert Rotex Roeselare NV's jaarrekening 2024 → toetst aan getrouw beeld (audit) + checkt naleving KB-WVV (compliance).",
+      "grondslag": "WVV art. 3:75",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WVV art. 3:75"},
+      "_provenance": {"inputs": [
+        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Drie soorten oordeel in het verslag",
+      "wat": "(1) Goedkeurend oordeel — jaarrekening geeft getrouw beeld. (2) Oordeel met voorbehoud — getrouw beeld behalve voor enkele punten. (3) Afkeurend oordeel of onthouding — jaarrekening geeft geen getrouw beeld of geen voldoende bewijsstukken beschikbaar. De keuze hangt af van de aard en grootte van de gevonden afwijkingen (materialiteit).",
+      "waarom": "Een gradatie laat de commissaris toe genuanceerd te rapporteren in plaats van een binaire 'OK / niet OK'.",
+      "voorbeeld_inline": "Sofie Janssens vindt een voorraadwaardering die € 250.000 te hoog is op € 2,1M totaal → materieel maar niet alomvattend → 'oordeel met voorbehoud'.",
+      "grondslag": "ISA-normen + WVV art. 3:78",
+      "confidence": "inferred-from-aggregation",
+      "source": {"type": "norm", "short": "ISA 700-705"},
+      "_provenance": {"inputs": [
+        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Onafhankelijkheid",
+      "wat": "Een commissaris moet onafhankelijk zijn van de gecontroleerde vennootschap. Geen bestuurder, geen werknemer, geen significante financiële band. Sommige niet-audit-diensten (bv. fiscale aangiften, bookkeeping voor dezelfde klant) zijn uitgesloten of beperkt. Het IBR houdt tucht over schendingen.",
+      "waarom": "Zonder onafhankelijkheid is de controle waardeloos — een commissaris moet 'mentale onafhankelijkheid' én 'schijnbare onafhankelijkheid' bewaren.",
+      "voorbeeld_inline": "Sofie Janssens kan geen commissaris worden bij Brugse Brouwerij BV omdat zij voorheen hun fiscale aangiften deed — cooling-off-periode van 2 jaar geldt.",
+      "grondslag": "WVV art. 3:73 + Wet 7 december 2016",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WVV art. 3:73"},
+      "_provenance": {"inputs": [
+        {"id": "ITAA-norm-kmo-controlenorm__sec_norm-met-betrekking-tot-de-contractuele-controle-van-kmo-s", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Benoeming en termijn",
+      "betekenis": "De algemene vergadering benoemt de commissaris voor een hernieuwbare termijn van drie boekjaren (WVV art. 3:72, § 1). Tussentijdse afzetting kan enkel om wettige redenen (bv. zwaarwichtige fout, langdurig onvermogen). De ondernemingsraad heeft bij grote vennootschappen een adviesrecht.",
+      "herkenningspunt": "Examen-scenario 'AV wil commissaris ontslaan zonder reden' → niet zomaar mogelijk, wettige reden vereist.",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WVV art. 3:72"},
+      "_provenance": {"inputs": [
+        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "aspect": "Verslag aan AV",
+      "betekenis": "Het commissarisverslag wordt samen met de jaarrekening voorgelegd aan de algemene vergadering en samen neergelegd bij de NBB. Het verslag is publiek raadpleegbaar.",
+      "herkenningspunt": "Wie een commissarisverslag wil inkijken → NBB-Balanscentrale, zelfde pagina als de jaarrekening.",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WVV art. 3:78 + 3:10"},
+      "_provenance": {"inputs": [
+        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "accountant-itaa",
+      "verschil": "Commissaris = wettelijke controle van jaarrekening grote/PIE-vennootschappen; revisor bij IBR; benoemd door AV. Accountant (ITAA) = adviserend + (gecertificeerd) ook contractuele KMO-controles; ITAA-lid; contractueel ingehuurd. Een vennootschap kan beide hebben — commissaris controleert achteraf, accountant helpt vooraf met boekhouding.",
+      "trigger": "Wettelijke controle grote NV → commissaris. KMO-boekhouding en advies → accountant.",
+      "_provenance": {"inputs": [
+        {"id": "ITAA-norm-kmo-controlenorm__sec_norm-met-betrekking-tot-de-contractuele-controle-van-kmo-s", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "ibr",
+      "redenering": "Een commissaris moet IBR-revisor zijn.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "groottecriteria-jaarrekening",
+      "redenering": "Groottecriteria bepalen of een commissaris verplicht is.",
+      "confidence": "inferred"
+    }
+  ]
+}

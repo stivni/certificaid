@@ -1,0 +1,104 @@
+{
+  "id": "rechtspraak-boekhoudrecht",
+  "naam": "Rechtspraak inzake boekhoudrecht",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.2.I.F", "1.2.I"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.2.I.F",
+    "dekt_ook_anchors": ["1.2.I"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Het geheel van rechterlijke uitspraken (Hof van Cassatie, hoven van beroep, rechtbanken) over boekhoudkundige geschillen, fiscale betwistingen met boekhoudkundige relevantie, en aansprakelijkheidskwesties van bestuurders, accountants en commissarissen. Rechtspraak interpreteert open normen (getrouw beeld, voorzichtigheid, continuïteit) en zet de bakens voor wat in praktijk aanvaardbaar is.",
+    "confidence": "grounded",
+    "source": {"type": "rechtsleer", "short": "Algemene rechtsleer + WER art. II.1"},
+    "references": [
+      {"type": "wet", "short": "Gerechtelijk Wetboek (organisatie van rechterlijke macht)"},
+      {"type": "wet", "short": "WER art. II.1 (voorrang internationale en EU-bronnen)"}
+    ],
+    "_provenance": {"inputs": [
+      {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Het Hof van Cassatie heeft meermaals geoordeeld dat een bestuurder die wist of moest weten van een dreigend faillissement én bleef boekhouden alsof er continuïteit was, aansprakelijk kan gesteld worden voor wrongful trading (continuïteitsbeginsel).",
+  "bouwstenen": [
+    {
+      "titel": "Twee rollen: interpreteren + sanctioneren",
+      "wat": "Rechtspraak (1) geeft uitleg aan open normen (wat is 'voorzichtigheid'? wat is een 'getrouw beeld'?) en (2) sanctioneert overtredingen — fiscaal, civielrechtelijk en strafrechtelijk.",
+      "waarom": "Voor de stagiair: de wet zegt 'voorzichtig waarderen', de rechter zegt 'in deze concrete situatie was dat te optimistisch'.",
+      "voorbeeld_inline": "Vraag: 'Wanneer is een waardevermindering verplicht?' → KB-WVV zegt 'bij waarde-verlies', rechtspraak vult in 'al bij ernstige twijfel over recupereerbaarheid, niet pas bij vaststaande oninbaarheid'.",
+      "grondslag": "Algemene rechtsleer; Hof van Cassatie",
+      "confidence": "inferred-from-aggregation",
+      "source": {"type": "rechtsleer", "short": "Rechtspraak"},
+      "_provenance": {"inputs": [
+        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Drie rechtsgebieden raken boekhoudrecht",
+      "wat": "(1) Burgerlijk: aansprakelijkheid bestuurders/accountants, geschillen met aandeelhouders. (2) Fiscaal: betwistingen over de aftrekbaarheid van een kost of de waardering van een actief. (3) Strafrechtelijk: valse jaarrekening, bedrieglijke boekhouding (art. 492bis Sw, art. 196 Sw).",
+      "waarom": "Een geschil over een boekingspraktijk kan in alle drie eindigen — afhankelijk van wie klaagt (fiscus, aandeelhouder, openbaar ministerie).",
+      "voorbeeld_inline": "Robert Vandenberghe (minderheidsaandeelhouder) verdenkt het bestuur van een veel te hoge waardering van immateriële activa → kan civielrechtelijk procederen voor bestuursaansprakelijkheid.",
+      "grondslag": "Sw art. 492bis (valse jaarrekening); WVV bestuurdersaansprakelijkheid",
+      "confidence": "inferred-from-aggregation",
+      "source": {"type": "rechtsleer", "short": "Rechtspraak + Strafwetboek"},
+      "_provenance": {"inputs": [
+        {"id": "WER__art_XV_62", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Cassatie als richtinggevend",
+      "wat": "Het Hof van Cassatie spreekt zich uit over rechtspunten en bindt de feitenrechters niet rechtstreeks, maar zijn arresten zijn richtinggevend. Voor open normen (getrouw beeld, continuïteit) is Cassatie-rechtspraak de eerste referentie.",
+      "waarom": "Wie een commissarisverslag schrijft, weet welke Cassatie-lijn er bestaat over de invulling van 'getrouw beeld'.",
+      "voorbeeld_inline": "Cassatie 2018: 'Een jaarrekening die de financiële positie niet getrouw weergeeft, is nietig — ook al stemt zij overeen met de letter van het KB.' (illustratie van substance over form)",
+      "grondslag": "Hof van Cassatie; Gerechtelijk Wetboek",
+      "confidence": "inferred",
+      "source": {"type": "rechtsleer", "short": "Hof van Cassatie"},
+      "_provenance": {"inputs": [
+        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Wanneer raadpleeg ik rechtspraak?",
+      "betekenis": "Bij open normen (getrouw beeld, voorzichtigheid, continuïteit) of bij grensgevallen (aansprakelijkheid bestuurder, afwijken van KB-regel om getrouw beeld te bewaren). Tijdschriften als 'Tijdschrift voor Rechtspersoon en Vennootschap', 'Comptabilité et Fiscalité Pratiques' en 'Tax Audit & Accountancy' bundelen relevante uitspraken.",
+      "herkenningspunt": "Vraag met expliciete 'wat zou de rechter zeggen?'-component of 'aansprakelijkheid'-thema → rechtspraak relevant.",
+      "confidence": "inferred",
+      "source": {"type": "rechtsleer", "short": "Praktijkgids"},
+      "_provenance": {"inputs": [
+        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Rechtspraak bindt enkel de partijen in dat specifieke geschil. Maar in fiscale en boekhoudkundige zaken volgt de praktijk wel de Cassatie-lijn — bij afwijken loop je een sterk risico op vernietiging in beroep.",
+      "confidence": "inferred",
+      "source": {"type": "rechtsleer", "short": "Algemene rechtsleer"},
+      "_provenance": {"inputs": [
+        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "text": "Niet elke uitspraak is 'rechtspraak' in de doctrinaire zin. Eerstelijns vonnissen zijn gezagsarmer dan arresten van het hof van beroep, en die zijn op hun beurt gezagsarmer dan Cassatie-arresten.",
+      "confidence": "inferred",
+      "source": {"type": "rechtsleer", "short": "Algemene rechtsleer"},
+      "_provenance": {"inputs": [
+        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "belgisch-boekhoudrecht",
+      "redenering": "Rechtspraak vormt de toepasselijke laag — interpreteert wet, KB en advies.",
+      "confidence": "inferred"
+    }
+  ]
+}

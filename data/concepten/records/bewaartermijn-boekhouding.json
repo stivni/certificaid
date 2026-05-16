@@ -1,0 +1,98 @@
+{
+  "id": "bewaartermijn-boekhouding",
+  "naam": "Bewaartermijn van boeken en verantwoordingsstukken",
+  "node_type": "regel",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.2.III", "1.2.III.D"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.2.III",
+    "dekt_ook_anchors": ["1.2.III.D"],
+    "reviewed_by": null
+  },
+  "main_rule": {
+    "text": "Boeken (dagboeken, centraal boek, inventarisboek) en verantwoordingsstukken (facturen, kasstukken, bankuittreksels) moeten gedurende 7 jaar bewaard worden, te rekenen vanaf 1 januari volgend op het afsluiten van het boekjaar waarop ze betrekking hebben. Voor stukken zonder bewijswaarde tegenover derden volstaat 3 jaar. Elektronische bewaring is toegelaten mits leesbaarheid en authenticiteit gewaarborgd blijven.",
+    "confidence": "grounded",
+    "source": {"type": "wet", "short": "WER art. III.86"},
+    "references": [
+      {"type": "wet", "short": "WER art. III.86 (bewaartermijn)"},
+      {"type": "advies", "short": "CBN-advies 2010/14 — Bewaring boeken en verantwoordingsstukken"},
+      {"type": "advies", "short": "CBN-advies 2016/22 — Geïnformatiseerde boekhouding"}
+    ],
+    "_provenance": {"inputs": [
+      {"id": "CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken__sec_belgische-ondernemingen", "sha256": null, "version": "rag-v1"},
+      {"id": "CBN-2016-22-bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekho", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Boekjaar Meubelzaak Mertens BV afgesloten 31/12/2024 → bewaartermijn loopt vanaf 1/1/2025 tot 31/12/2031 (7 jaar). Alle facturen, kasstukken, dagboeken moeten tot eind 2031 raadpleegbaar blijven.",
+  "drempelwaarden": [
+    {
+      "naam": "Bewaartermijn boeken + verantwoordingsstukken",
+      "waarde": "7 jaar",
+      "eenheid": "vanaf 1 januari na afsluitingsdatum boekjaar",
+      "gevolg": "Voorlegging mogelijk bij fiscale controle, accounting-audit, civiel of strafrechtelijk onderzoek.",
+      "source": {"type": "wet", "short": "WER art. III.86"},
+      "confidence": "grounded",
+      "_provenance": {"inputs": [
+        {"id": "CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken__sec_belgische-ondernemingen", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "naam": "Bewaartermijn stukken zonder bewijswaarde t.a.v. derden",
+      "waarde": "3 jaar",
+      "eenheid": "vanaf 1 januari na afsluitingsdatum boekjaar",
+      "gevolg": "Beperkter regime voor interne stukken die geen externe bewijskracht hebben.",
+      "source": {"type": "wet", "short": "WER art. III.86 § 2"},
+      "confidence": "grounded",
+      "_provenance": {"inputs": [
+        {"id": "CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken__sec_belgische-ondernemingen", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "bouwstenen": [
+    {
+      "titel": "Drie types bewaring",
+      "wat": "(1) Papier — origineel bewaren in leesbare staat. (2) Microfilm/scan — toegelaten als geen origineel meer nodig is en authenticiteit gewaarborgd. (3) Geïnformatiseerd — toegelaten mits leesbaarheid op redelijke termijn en niet-manipuleerbaarheid. Een back-up vereist (CBN-advies 2016/22).",
+      "waarom": "Elektronische bewaring is praktisch maar moet betrouwbaarheid garanderen voor latere controles.",
+      "voorbeeld_inline": "Meubelzaak Mertens BV scant facturen in PDF → mag papier vernietigen mits PDF-leesbaarheid + back-up + onveranderlijkheid.",
+      "grondslag": "WER art. III.86; CBN-advies 2016/22",
+      "confidence": "grounded",
+      "source": {"type": "advies", "short": "CBN-advies 2016/22"},
+      "_provenance": {"inputs": [
+        {"id": "CBN-2016-22-bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekho", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Wettelijke uitzonderingen — andere termijnen",
+      "wat": "BTW-stukken: 7 jaar (WBTW art. 60). Personeelsdossiers: 5 jaar na uitdiensttreding. Vastgoedstukken bij meerwaarde-belasting: 15 jaar. Fiscale aangiften aanvulling: 7 jaar standaard, 10 jaar bij ernstige fraude. Bij strafrechtelijk onderzoek: geen verjaring.",
+      "waarom": "Verschillende rechtsgebieden leggen verschillende termijnen op — de algemene 7-jaar-regel is een minimum.",
+      "voorbeeld_inline": "Rotex Roeselare NV ontvangt een aanslag voor boekjaar 2017 → bewaarplicht verlengt zich impliciet tot procedure afgerond.",
+      "grondslag": "Diverse wetten + WBTW art. 60",
+      "confidence": "inferred-from-aggregation",
+      "source": {"type": "wet", "short": "Diverse"},
+      "_provenance": {"inputs": [
+        {"id": "WBTW__art_93ter_2__sub_par1-par3", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Een vrijwillig kortere bewaring is geen verdediging tegen fiscale controle. Stelt de fiscus dat de boekhouding niet voorgelegd kan worden → forfaitaire aanslag mogelijk + boete.",
+      "confidence": "inferred",
+      "source": {"type": "wet", "short": "WER art. III.86 + WIB"},
+      "_provenance": {"inputs": [
+        {"id": "CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken__sec_belgische-ondernemingen", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "wetboek-economisch-recht-boek-iii",
+      "redenering": "WER art. III.86 stelt bewaartermijn in.",
+      "confidence": "inferred"
+    }
+  ]
+}

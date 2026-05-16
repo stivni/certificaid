@@ -1,0 +1,184 @@
+id: berekenen-interpreteren-rentabiliteitsratios
+titel: Berekenen en interpreteren van de rentabiliteitsratio's
+status: voorgesteld
+schema_version: "1.1"
+programmaonderdelen:
+- 1.3
+voortkomend_uit:
+  taken:
+  - 1.3.taak.1
+  kenniselementen:
+  - 1.3.II.C
+  - 1.3.II.C.4
+  - 1.3.I.A
+gebaseerd_op_concepten:
+- rentabiliteit-eigen-vermogen-roe
+- rentabiliteit-totaal-activa-roa
+- cashflow-analyse
+- analytische-balans
+- sectorvergelijking-financiele-analyse
+- historische-evolutie-financiele-analyse
+procedure_grondslag:
+  wettelijk_pct: 35
+  praktijk_pct: 65
+  motivering: CBN-2011/14 levert expliciete Belgische grondslag voor de netto- en bruto-ROE/ROA-formules (zowel resultaat- als cashflow-variant). De interpretatie tegen sectormediaan en de hefboom-redenering blijven vakdoctrine.
+stappen:
+- nr: 1
+  titel: Klaarzetten van de bouwstenen uit balans en resultatenrekening
+  wat: Verzamel resultaat, eigen vermogen en totaal activa op de juiste basis (netto en bruto).
+  waarom: ROE en ROA bestaan in netto- en brutovariant; je moet de juiste cijfers voor elk berekenen.
+  input:
+  - artefact: Resultatenrekening N
+    veld: Resultaat na belasting, financiële kosten, afschrijvingen + waardeverminderingen
+    type: boekhoudkundig-bedrag
+  - artefact: Analytische balans
+    veld: Eigen vermogen, totaal activa
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Werkblad rentabiliteit
+    veld: Vier bouwstenen klaargezet
+    type: document
+  hoe: |
+    1. Lees uit de resultatenrekening van Rotex Roeselare NV: resultaat van het boekjaar na belasting, financiële kosten, en afschrijvingen + waardeverminderingen.
+    2. Bereken **netto resultaat** = resultaat na belasting.
+    3. Bereken **bruto resultaat** = resultaat na belasting + financiële kosten + afschrijvingen + waardeverminderingen (= cashflow vóór financiering, conform [[cashflow-analyse]] §resultaat-plus-niet-kaskosten).
+    4. Neem **EV** en **totaal activa** uit de analytische balans (idealiter gemiddelde van begin- en eind-boekjaar voor stabielere ratio).
+  grondslag: "[[cashflow-analyse]] §cashflow-definitie, [[analytische-balans]] §herwerking"
+- nr: 2
+  titel: Berekenen van de rentabiliteit van het eigen vermogen (ROE)
+  wat: Bereken netto ROE = netto resultaat / EV en bruto ROE = cashflow / EV.
+  waarom: ROE toont het rendement voor de aandeelhouders; de bruto-variant filtert het effect van afschrijvingen weg.
+  input:
+  - artefact: Werkblad rentabiliteit
+    veld: Netto resultaat, cashflow, EV
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: ROE-paar (netto + bruto)
+    veld: Twee percentages
+    type: percentage
+  hoe: |
+    1. Pas de formules toe uit [[rentabiliteit-eigen-vermogen-roe]] §nettorentabiliteit en §brutorentabiliteit:
+       - **Netto ROE** = (resultaat na belasting / gemiddeld EV) × 100%.
+       - **Bruto ROE** = (cashflow / gemiddeld EV) × 100%.
+    2. Bereken beide en zet ze naast elkaar.
+    3. Lees af tegen vuistregel: ROE moet minstens de risicovrije rente + risicopremie overschrijden om aantrekkelijk te zijn.
+    4. Vergelijk met sectormediaan.
+  voorbeeld:
+    scenario: "Rotex Roeselare NV — resultaat na belasting € 2.500.000, afschrijvingen € 1.200.000, financiële kosten € 400.000, gemiddeld EV € 12.000.000."
+    substappen:
+    - nr: 1
+      titel: Bouwstenen
+      type: berekening
+      data: |
+        - Netto resultaat: € 2.500.000
+        - Cashflow = € 2.500.000 + € 1.200.000 + € 400.000 = € 4.100.000
+        - Gemiddeld EV: € 12.000.000
+    - nr: 2
+      titel: ROE-berekening
+      type: berekening
+      data: |
+        Netto ROE = € 2.500.000 / € 12.000.000 × 100% = **20,8%**
+        Bruto ROE = € 4.100.000 / € 12.000.000 × 100% = **34,2%**
+    - nr: 3
+      titel: Interpretatie
+      type: opmerking
+      data: |
+        Netto ROE 20,8% — ruim boven risicopremie. Bruto ROE 34,2% bevestigt
+        sterke kasstroomgeneratie. Sector-mediaan industriële NV's: 10-15%.
+        Rotex presteert bovengemiddeld.
+  grondslag: "[[rentabiliteit-eigen-vermogen-roe]] §formule (CBN-2011/14)"
+- nr: 3
+  titel: Berekenen van de rentabiliteit van het totaal activa (ROA)
+  wat: Bereken netto ROA en bruto ROA — beide vóór financiële kosten van schulden.
+  waarom: ROA toont de rendabiliteit van de exploitatie los van financieringsstructuur — direct vergelijkbaar tussen ondernemingen met verschillende schuldgraad.
+  input:
+  - artefact: Werkblad rentabiliteit
+    veld: Resultaat + financiële kosten, balanstotaal
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: ROA-paar (netto + bruto)
+    veld: Twee percentages
+    type: percentage
+  hoe: |
+    1. Pas de formules toe uit [[rentabiliteit-totaal-activa-roa]] §nettorentabiliteit en §brutorentabiliteit:
+       - **Netto ROA** = (resultaat na belasting + financiële kosten van schulden) / gemiddeld balanstotaal × 100%.
+       - **Bruto ROA** = (cashflow) / gemiddeld balanstotaal × 100%.
+    2. Bereken beide.
+    3. Vergelijk netto ROA met de gemiddelde rente op schulden — verschil = hefboommarge.
+  voorbeeld:
+    scenario: "Rotex Roeselare NV — balanstotaal gemiddeld € 25.000.000."
+    substappen:
+    - nr: 1
+      titel: ROA-berekening
+      type: berekening
+      data: |
+        Netto ROA = (€ 2.500.000 + € 400.000) / € 25.000.000 × 100% = **11,6%**
+        Bruto ROA = € 4.100.000 / € 25.000.000 × 100% = **16,4%**
+    - nr: 2
+      titel: Interpretatie
+      type: opmerking
+      data: |
+        Netto ROA 11,6% > gemiddelde rente schulden (geschat 3%) → positieve
+        hefboom. Vreemd vermogen versterkt rendement op EV — verklaart waarom
+        ROE (20,8%) boven ROA (11,6%) ligt.
+  grondslag: "[[rentabiliteit-totaal-activa-roa]] §formule (CBN-2011/14)"
+- nr: 4
+  titel: Verklaren van het verschil tussen ROE en ROA via hefboomeffect
+  wat: Toon hoe schuldfinanciering ROE optilt boven ROA en wanneer dat omslaat in destructief effect.
+  waarom: Een hoge ROE zonder hefboom-analyse is misleidend — kan teken zijn van risicovolle financieringsstructuur.
+  input:
+  - artefact: ROE en ROA uit stap 2 en 3
+    veld: Beide percentages
+    type: percentage
+  - artefact: Debt-equity ratio uit [[berekenen-interpreteren-solvabiliteitsratios]]
+    veld: Hefboomgraad
+    type: percentage
+  output:
+  - artefact: Hefboom-paragraaf in rapport
+    veld: Diagnose financieringseffect
+    type: document
+  hoe: |
+    1. Bereken het verschil ROE – ROA.
+    2. Verklaar het: als ROA > gemiddelde kostprijs vreemd vermogen, dan tilt elke euro extra schuld het ROE op. Omgekeerd vergroot ze het verlies.
+    3. Combineer met debt-equity uit competentie [[berekenen-interpreteren-solvabiliteitsratios]].
+    4. Conclusie: positief hefboomeffect = duurzaam zolang ROA stabiel boven kostprijs schuld blijft; signaal als ROA daalt richting kostprijs schuld.
+  valkuilen:
+  - advies: Een hoge ROE met negatieve hefboom betekent niet automatisch een gezonde onderneming.
+    vaak_fout: ROE als de enige rentabiliteits-meter gebruiken zonder ROA en debt-equity ernaast te zetten.
+    grondslag: "[[rentabiliteit-totaal-activa-roa]] §waarom-ROA"
+  grondslag: "[[rentabiliteit-eigen-vermogen-roe]] §hefboom-effect, vakdoctrine"
+- nr: 5
+  titel: Plaatsen in historische evolutie en sectorvergelijking
+  wat: Bereken ROE en ROA voor drie boekjaren en vergelijk met sectormediaan.
+  waarom: Stijgende rentabiliteit in vlakke sector wijst op bedrijfsspecifieke kracht; dalende rentabiliteit in groeiende sector op zwakte.
+  input:
+  - artefact: ROE/ROA voor N, N-1, N-2
+    veld: Zes percentages
+    type: percentage
+  - artefact: Sectormediaan
+    veld: Sectorale ratio's
+    type: percentage
+  output:
+  - artefact: Rentabiliteit-trendparagraaf
+    veld: Diagnose evolutie
+    type: document
+  hoe: |
+    1. Bereken ROE en ROA op N, N-1 en N-2 conform [[historische-evolutie-financiele-analyse]] §3-5-boekjaren.
+    2. Isoleer eenmalige effecten (zie [[voorbereiden-financiele-analyse]] stap 4) — bv. uitzonderlijke meerwaarden.
+    3. Bereken een **recurrente ROE** = ROE zonder eenmalige effecten — vergelijk dat met sector.
+    4. Plaats in tabelvorm en interpreteer.
+  grondslag: "[[historische-evolutie-financiele-analyse]] §onderscheid-eenmalig-vs-structureel, [[sectorvergelijking-financiele-analyse]] §sectorgrenzen"
+voorbeelden:
+- situatie: "Rotex Roeselare NV had een ROE van 35% in boekjaar N door eenmalige meerwaarde van € 800.000 op verkoop deelneming. Recurrente ROE = 20,8%."
+  conclusie: "Sofie Janssens rapporteert beide cijfers afzonderlijk: ROE bruto 35% (met eenmalig effect) versus recurrente ROE 20,8%. Voor cliënt-beoordeling is de recurrente cijfer de juiste benchmark."
+  grondslag: "[[rentabiliteit-eigen-vermogen-roe]] §nettorentabiliteit, [[historische-evolutie-financiele-analyse]] §eenmalig-effect"
+  redenering: Eenmalige meerwaarden zijn geen herhaalbare bron van rendement. Het rapport moet de structurele rentabiliteit tonen, niet de boekhoudkundige eindkop.
+- situatie: "Meubelzaak Mertens BV toont ROE 8%, ROA 7,5%, debt-equity 0,3. Sectormediaan ROE 12%."
+  conclusie: "Klein verschil ROE-ROA bevestigt minimale hefboom — Meubelzaak gebruikt weinig vreemd vermogen. Onder sectormediaan: rendement kan stijgen door gedoseerde inzet van bankfinanciering, mits ROA hoger blijft dan kredietkostprijs. Sofie stelt voor om een investerings-en-financieringssimulatie te maken."
+  grondslag: "[[rentabiliteit-totaal-activa-roa]] §hefboom-marge"
+  redenering: Het verschil ROE – ROA verklaart de afwezigheid van schuldhefboom. Sectorvergelijking suggereert ruimte voor verbetering via dosering van bankfinanciering — maar enkel als ROA voldoende marge boven kredietkostprijs houdt.
+_provenance:
+  voorgesteld_door: competentie-destillatie-v2-po-1.3-run-20260516
+  voorgesteld_op: '2026-05-16T00:00:00Z'
+  gecureerd_door: null
+  gecureerd_op: null

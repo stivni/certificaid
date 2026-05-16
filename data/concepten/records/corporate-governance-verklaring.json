@@ -1,0 +1,78 @@
+{
+  "id": "corporate-governance-verklaring",
+  "naam": "Corporate-governance-verklaring",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.3.I.E", "1.3.I.D"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.3.I.E",
+    "dekt_ook_anchors": ["1.3.I.D"],
+    "reviewed_by": null
+  },
+  "verplichting": {
+    "text": "Vennootschappen als bedoeld in artikel 2, lid 1, punt a) van Richtlijn 2013/34/EU (i.e. genoteerde en bepaalde andere) moeten een verklaring inzake corporate governance in hun bestuursverslag opnemen. Die verklaring vormt een specifiek deel van het bestuursverslag.",
+    "confidence": "grounded",
+    "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 20, lid 1"},
+    "_provenance": {"inputs": [{"id": "Richtlijn-2013-34-EU__art_20__sub_lid1-lid4", "sha256": null, "version": "rag-v1"}]}
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Vermeld toepasselijke corporate-governance-code",
+      "wat": "Verwijs naar de code waaraan de vennootschap onderworpen is, of die ze vrijwillig toepast. Geef ook eventuele aanvullende governance-praktijken die ze toepast bovenop de wettelijke vereisten.",
+      "actor": "bestuursorgaan",
+      "input": [{"artefact": "Corporate-governance-code", "veld": "Volledige tekst + locatie publicatie", "type": "narratief"}],
+      "output": [{"artefact": "Corporate-governance-verklaring", "veld": "Rubriek 'Code'", "type": "narratief"}],
+      "hoe": "1. Identificeer de van toepassing zijnde code (bv. Belgian Corporate Governance Code voor genoteerde NV's).\n2. Vermeld waar de code publiek beschikbaar is.\n3. Indien aanvullende praktijken: omschrijf deze en maak ze publiek beschikbaar.\n",
+      "grondslag": "Richtlijn 2013/34/EU art. 20, lid 1, a)"
+    },
+    {
+      "nr": 2,
+      "titel": "Comply-or-explain",
+      "wat": "Bij afwijking van de code: motiveer per onderdeel waarom (de zogeheten 'pas toe of leg uit'-regel).",
+      "actor": "bestuursorgaan",
+      "hoe": "1. Loop de bepalingen van de code af.\n2. Voor elke afwijking: identificeer + motiveer (bv. 'gezien beperkte omvang van het bestuursorgaan wordt het audit-comité gevormd door de volledige raad').\n",
+      "grondslag": "Richtlijn 2013/34/EU art. 20, lid 1, b)"
+    },
+    {
+      "nr": 3,
+      "titel": "Beschrijf interne controle en risicobeheersystemen",
+      "wat": "Beschrijf de belangrijkste kenmerken van de interne controle- en risicobeheersystemen in verband met de financiële verslaggeving.",
+      "actor": "bestuursorgaan",
+      "hoe": "1. Documenteer hoe transacties worden geboekt en gevalideerd.\n2. Documenteer functiescheidingen, controlepunten, interne audit-procedures.\n3. Beschrijf hoe risico's op materiële afwijking worden gedetecteerd.\n",
+      "grondslag": "Richtlijn 2013/34/EU art. 20, lid 1, c)"
+    },
+    {
+      "nr": 4,
+      "titel": "OPA-informatie + werking algemene vergadering + bestuursorgaan",
+      "wat": "Vermeld de gegevens die Richtlijn 2004/25/EG vereist voor overnames; beschrijf de werking en bevoegdheden van de algemene vergadering en aandeelhoudersrechten; beschrijf samenstelling en werking van het leidinggevend, toezichthoudend en bestuursorgaan en hun comités.",
+      "actor": "bestuursorgaan",
+      "hoe": "1. Verwijs naar OPA-info (alleen voor vennootschappen die onder Richtlijn 2004/25 vallen).\n2. Beschrijf hoe AV werkt: oproepingstermijn, agenda, stemrechten, agendapuntrecht.\n3. Beschrijf bestuursstructuur: monistisch of duaal, comités (audit, remuneratie, benoeming).\n",
+      "grondslag": "Richtlijn 2013/34/EU art. 20, lid 1, d)–f)"
+    },
+    {
+      "nr": 5,
+      "titel": "Beschrijf diversiteitsbeleid",
+      "wat": "Beschrijf het diversiteitsbeleid met betrekking tot het bestuursorgaan, leidinggevend en toezichthoudend orgaan (geslacht, leeftijd, opleiding, beroepservaring, handicap, achtergrond).",
+      "actor": "bestuursorgaan",
+      "hoe": "1. Beschrijf doelstellingen van het diversiteitsbeleid.\n2. Beschrijf hoe het beleid wordt uitgevoerd.\n3. Beschrijf de behaalde resultaten in het verslagjaar.\n",
+      "grondslag": "Richtlijn 2013/34/EU art. 20, lid 1, g)"
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Apart deel van bestuursverslag",
+      "betekenis": "De corporate-governance-verklaring is een specifiek apart deel — niet versmolten in het lopend verhaal. Een gebruiker moet ze als een herkenbare sectie kunnen vinden.",
+      "anker_slug": "1.3.I.E",
+      "confidence": "grounded",
+      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 20, lid 1"},
+      "_provenance": {"inputs": [{"id": "Richtlijn-2013-34-EU__art_20__sub_lid1-lid4", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "bestuursverslag", "redenering": "Specifiek apart deel van het bestuursverslag.", "confidence": "inferred"}
+  ]
+}

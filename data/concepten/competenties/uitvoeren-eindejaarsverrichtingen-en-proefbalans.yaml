@@ -1,0 +1,167 @@
+id: uitvoeren-eindejaarsverrichtingen-en-proefbalans
+titel: Uitvoeren van eindejaarsverrichtingen en opmaken van proefbalans
+status: voorgesteld
+schema_version: "1.1"
+programmaonderdelen:
+- 1.1
+voortkomend_uit:
+  taken:
+  - 1.1.taak.1
+  kenniselementen:
+  - 1.1.II
+  - 1.1.I.A
+gebaseerd_op_concepten:
+- inventaris
+- afschrijvingen
+- waardeverminderingen
+- voorzieningen
+- overlopende-rekeningen
+- regelmatige-boekhouding
+- jaarrekening
+procedure_grondslag:
+  wettelijk_pct: 70
+  praktijk_pct: 30
+  motivering: De inventarisplicht (WER art. III.84) en de eindejaarsverrichtingen volgen uit het boekhoudrecht. Het opmaken van de proefbalans en de volgorde van verrichtingen zijn beroepspraktijk — best practices uit ITAA-normen.
+stappen:
+- nr: 1
+  titel: Maak een eindejaars-checklist op
+  wat: Stel een gestructureerde lijst op van alle posten die op balansdatum gecontroleerd of aangepast moeten worden.
+  waarom: Een checklist verzekert dat geen relevante verrichting wordt vergeten — sluitend bewijsstuk bij audit en controle.
+  input:
+  - artefact: Vorige jaarrekening + balansrubriek-overzicht
+    veld: Alle openstaande rubrieken
+    type: document
+  output:
+  - artefact: Eindejaars-checklist
+    veld: "Per rubriek: vereiste actie + verantwoordelijke + deadline"
+    type: document
+  hoe: |
+    1. Loop alle balansrubrieken af en noteer welke actie nodig is:
+       - Klasse 2: afschrijvingsdotaties, eventuele waardeverminderingen, herwaarderingen
+       - Klasse 3 (voorraden): fysieke inventaris + waardering + waardeverminderingen
+       - Klasse 4 (vorderingen/schulden): leveranciersafstemming, klanten-ouderdomsanalyse, btw-aansluiting
+       - Klasse 5 (banken/kas): bankreconciliatie, kasstaat
+       - Klasse 6/7: overlopende posten, voorzieningen, resultatenrekeningen
+    2. Documenteer in cliëntdossier.
+  grondslag: "[[regelmatige-boekhouding]] §eindejaars-procedure"
+- nr: 2
+  titel: Voer fysieke inventaris uit (klasse 3 + andere activa)
+  wat: Tel en waardeer alle voorraden, controleer aanwezigheid en staat van vaste activa.
+  waarom: Inventarisplicht is wettelijk; verschillen met boekhoudkundige stand wijzen op fouten of diefstal.
+  input:
+  - artefact: Inventaris-formulieren + magazijnplan
+    veld: Lokaal-overzicht, artikel-lijst
+    type: document
+  output:
+  - artefact: Inventarisstaat
+    veld: Werkelijke aantal × waardering = voorraad-waarde
+    type: balans
+  hoe: |
+    1. Volg [[inventaris]] §opmaak — fysieke telling per lokaal/magazijn, bevestigingsbrieven aan klanten/leveranciers, bankbevestiging.
+    2. Waardeer voorraad volgens vastgelegde regels (FIFO of GGP) — zie competentie [[waarderen-en-boeken-voorraden-fifo-ggp]].
+    3. Vergelijk met boekhoudkundige stand op 31/12; boek inventarisverschillen via 60X of 70X.
+    4. Voor Meubelzaak Mertens BV — inventaris 30/12/2026, fysieke telling levert € 156.000 voorraad; boekhoudkundige stand € 159.500 → tekort € 3.500: D 609 Voorraadwijziging € 3.500; C 34 Handelsgoederen € 3.500.
+    5. Documenteer inventaris-rapport.
+  grondslag: "[[inventaris]] §opmaak, WER art. III.84"
+- nr: 3
+  titel: Boek alle resultaatsmatigingen (afschrijvingen, waardeverminderingen, voorzieningen, overlopende posten)
+  wat: Voer de eindejaarsboekingen uit die het resultaat aanpassen aan economisch verbruik en risico's.
+  waarom: Zonder deze boekingen geeft het resultaat geen getrouw beeld — kostencomponenten ontbreken of zijn niet correct toegerekend.
+  input:
+  - artefact: Eindejaars-checklist stap 1 + inventaris stap 2
+    veld: Te boeken bedragen per categorie
+    type: berekening
+  output:
+  - artefact: Pakket eindejaarsboekingen
+    veld: Set journaalposten
+    type: boekingsregel
+  hoe: |
+    1. Afschrijvingen — volg afschrijvingstabel; boek per categorie. Zie competentie [[opstellen-afschrijvingsplan-vaste-activa]].
+    2. Waardeverminderingen — toets dubieuze klanten en incourante voorraden. Zie competentie [[boeken-waardeverminderingen-op-vorderingen-en-voorraden]].
+    3. Voorzieningen — toets nieuwe risico's + aanpassing bestaande. Zie competentie [[boeken-voorzieningen-voor-risicos-en-kosten]].
+    4. Overlopende rekeningen — toepassing matching-principe. Zie competentie [[verwerken-overlopende-rekeningen-matching]].
+    5. Btw-eindafsaldering — saldeer 411 en 451; boek 4500 te betalen of 4110 terug te vorderen.
+    6. Bezoldigingen, vakantiegeld, eindejaarspremie — toets aansluiting met sociaal secretariaat.
+    7. Belastingschattingen — boek voorlopige belastingschuld op 6700 / 4500.
+  grondslag: "[[afschrijvingen]] §dotatie, [[waardeverminderingen]] §boeking-vorderingen, [[voorzieningen]] §boeking, [[overlopende-rekeningen]] §boeking"
+- nr: 4
+  titel: Stel de proefbalans en saldibalans op
+  wat: Bereken alle rekening-saldi en toets de gelijkheid debet=credit.
+  waarom: De proefbalans bewijst dat het dubbel-boekhoudsysteem mathematisch sluit; saldibalans is basis voor jaarrekening.
+  input:
+  - artefact: Centralisaties grootboek
+    veld: "Per rekening: bewegingen + saldo"
+    type: balans
+  output:
+  - artefact: Proef- en saldibalans
+    veld: Rekening | debet-totaal | credit-totaal | saldo
+    type: balans
+  hoe: |
+    1. Voor elke rekening: bereken ∑ debet en ∑ credit; netto saldo = ∑ debet - ∑ credit (positief = debetsaldo, negatief = creditsaldo).
+    2. Som alle debet-totalen en credit-totalen — moet gelijk zijn (controle door balans).
+    3. Bij ongelijkheid: foutopsporing — meest voorkomende oorzaken: dubbele boeking, fout tegenrekening, btw-fout, overdracht-fout.
+    4. Documenteer proefbalans als bewijs van sluitende boekhouding.
+  voorbeelden:
+    scenario: "Meubelzaak Mertens BV — proefbalans 31/12/2026 (uittreksel)."
+    substappen:
+    - nr: 1
+      titel: Proefbalans-uittreksel
+      type: balans
+      data: |
+        | Rekening | Debet beweg. | Credit beweg. | Saldo (D+ / C-) |
+        |---|---|---|---|
+        | 22 Terreinen + gebouwen | € 450.000 | € 0 | D € 450.000 |
+        | 24 Materieel | € 35.000 | € 9.330 | D € 25.670 |
+        | 34 Handelsgoederen | € 159.500 | € 3.500 | D € 156.000 |
+        | 4000 Handelsvorderingen | € 1.243.000 | € 1.230.000 | D € 13.000 |
+        | 5500 Bank | € 1.756.000 | € 1.708.500 | D € 47.500 |
+        | 100 Kapitaal | € 0 | € 200.000 | C € 200.000 |
+        | 130 Wettelijke reserve | € 0 | € 14.500 | C € 14.500 |
+        | 70 Omzet | € 0 | € 1.250.000 | C € 1.250.000 |
+        | 600 Grondstoffen + handelsgoederen | € 875.000 | € 0 | D € 875.000 |
+        | TOTAAL | € 4.518.500 | € 4.518.500 | 0 (balanseert) |
+  grondslag: "[[regelmatige-boekhouding]] §proefbalans"
+- nr: 5
+  titel: Genereer voorlopige jaarrekening en bestemming resultaat
+  wat: Stel op basis van saldibalans de balans en resultatenrekening op + bereken resultaat van het boekjaar.
+  waarom: Jaarrekening is wettelijk vereist als afsluiting boekjaar; bestemming resultaat moet door algemene vergadering goedgekeurd worden.
+  input:
+  - artefact: Saldibalans stap 4
+    veld: Saldi per rekening
+    type: balans
+  output:
+  - artefact: Voorlopige balans + resultatenrekening
+    veld: Schema KB-WVV
+    type: balans
+  hoe: |
+    1. Klasseer saldi: klasse 1-2 op actief (uitzondering: gecumuleerde afschr. negatief presenteren), klasse 1-4-5 op passief/actief volgens debet- of creditsaldo, klasse 6 als kost in resultaat, klasse 7 als opbrengst.
+    2. Bereken resultaat = ∑ opbrengsten (klasse 7) - ∑ kosten (klasse 6).
+    3. Bij Mertens BV — voorbeeld: opbrengsten € 1.250.000 - kosten € 1.183.000 = winst € 67.000. Boek: D 692 Te bestemmen winst € 67.000; C 14 Overgedragen resultaat € 67.000 (voorlopig).
+    4. Bereid voorstel resultaatbestemming voor algemene vergadering — zie competentie [[boeken-resultaatverwerking-en-bestemming]].
+    5. Verlies-jaar: omgekeerde boeking via 691.
+  grondslag: "[[jaarrekening]] §opmaak, [[regelmatige-boekhouding]] §resultaatberekening, KB-WVV art. 3:1"
+beslisboom:
+- vraag: Klopt de proefbalans (debet-totaal = credit-totaal)?
+  ja: Ga door naar opmaak jaarrekening.
+  nee: Eerst fout opsporen — geen jaarrekening op onsluitende boekhouding.
+- vraag: Is er een werkelijk inventaris-verschil > materialiteit?
+  ja: Onderzoek oorzaak (diefstal, fout, schade) + boek correctie + documenteer.
+  nee: Boek klein verschil rechtstreeks via 60X / 70X.
+voorbeelden:
+- situatie: Meubelzaak Mertens BV op 31/12/2026 — eindejaar. Boekhouder moet alle eindejaars-verrichtingen uitvoeren en proefbalans opmaken.
+  conclusie: "Sequentie: (1) checklist opmaken; (2) fysieke inventaris 30/12 — verschil € 3.500 in min op voorraad; (3) afschrijvingen € 35.000 totaal + waardeverminderingen klant Wegener € 3.512; (4) voorzieningen geen nieuwe + overlopende rekeningen € 9.000 op 490; (5) proefbalans opstellen, debet=credit € 4.518.500; (6) resultaat € 67.000 winst → voorlopig op 14 Overgedragen resultaat."
+  grondslag: "[[regelmatige-boekhouding]] §eindejaar; [[inventaris]] §opmaak"
+  redenering: "Sequentie respecteert afhankelijkheden: inventaris vóór waardevermindering voorraad, afschrijving vóór resultaat. Verschil voorraad direct via 609."
+- situatie: Naaiatelier Ninove BV — proefbalans 31/12/2026 toont debet-totaal € 2.345.500 en credit-totaal € 2.349.000. Verschil € 3.500.
+  conclusie: "NIET overgaan tot jaarrekening — fout opsporen. Verschil € 3.500 wijst vaak op een rekening die enkel gedebiteerd is zonder tegenpost (of omgekeerd). Volg systematiek: btw-aansluiting (411/451), klanten-leveranciers reconciliaties, dagboek-controlebalans."
+  grondslag: "[[regelmatige-boekhouding]] §controle-door-de-balans"
+  redenering: Onsluitende boekhouding maakt jaarrekening ongeldig. Foutopsporing eerst — pas dan kunnen eindejaars-verrichtingen voltooid worden.
+- situatie: Praktijk Persenaire (vereenvoudigde boekhouding eenmanszaak) moet ook een inventaris opmaken?
+  conclusie: "Ja — inventarisplicht (WER art. III.84) geldt ook voor vereenvoudigde boekhouding. Vereenvoudigde inventaris volstaat: lijst van openstaande vorderingen/schulden, voorraad bij benadering, vaste activa volgens fiscale afschrijvingstabel."
+  grondslag: "[[inventaris]] §toepassingsgebied; WER art. III.84"
+  redenering: Inventaris is universele plicht; alleen de complexiteit van waardering kan vereenvoudigd zijn — niet de plicht zelf.
+_provenance:
+  voorgesteld_door: competentie-destillatie-v2-po11-20260516
+  voorgesteld_op: '2026-05-16T00:00:00Z'
+  gecureerd_door: null
+  gecureerd_op: null

@@ -1,0 +1,108 @@
+programmaonderdeel: "1.3"
+titel: "Analyse en kritische beoordeling van de jaarrekening"
+status: voorgesteld
+schema_version: "1.0"
+hoofdstukken:
+  - type: oriëntatie
+    titel: "Waarom analyseer je een jaarrekening? Doelstellingen, gebruikers en getrouw beeld"
+    rationale_hint: >-
+      Open vanuit het idee dat de jaarrekening géén doel op zich is maar een
+      communicatiemiddel naar uiteenlopende [[gebruikers-jaarrekening]] — bank,
+      aandeelhouder, fiscus, werknemer — die elk een andere vraag stellen.
+      Verbind dit met de [[doelstellingen-financiele-analyse]] (kredietwaardig?
+      rendabel? continuïteit? fiscale basis?) en met het ankerbeginsel
+      [[getrouw-beeld-jaarrekening]]: pas wanneer de cijfers een getrouw beeld
+      geven, kan een analyse betrouwbaar zijn. Sluit af met de notie van
+      [[materieel-belang-jaarrekening]] als filter dat bepaalt welke posten
+      en herwerkingen daadwerkelijk relevant zijn voor de gestelde vraag.
+
+  - type: thematisch
+    titel: "De jaarrekening als studieobject: structuur en aangrijpingspunten"
+    concepten:
+      - jaarrekening-als-studieobject
+      - getrouw-beeld-jaarrekening
+      - materieel-belang-jaarrekening
+      - doelstellingen-financiele-analyse
+      - gebruikers-jaarrekening
+
+  - type: synthese
+    synthese_id: ratio-vier-doelen-vergelijking
+    rationale_hint: >-
+      Plaats deze synthese vroeg in het leerpad als kapstok: vóór de student
+      één enkele ratio leert berekenen, ziet hij in één tabel welke vier
+      doelen (liquiditeit, solvabiliteit, rentabiliteit, structuur/trend)
+      financiële analyse nastreeft en welke ratio bij welk doel hoort. Dit
+      voorkomt dat de student ratio's als losse formules onthoudt; elke
+      volgende competentie hangt nu aan een herkenbaar doel.
+
+  - type: competentie
+    competentie_id: voorbereiden-financiele-analyse
+
+  - type: competentie
+    competentie_id: opstellen-analytische-balans
+
+  - type: competentie
+    competentie_id: berekenen-interpreteren-liquiditeitsratios
+
+  - type: competentie
+    competentie_id: berekenen-interpreteren-solvabiliteitsratios
+
+  - type: competentie
+    competentie_id: berekenen-interpreteren-rentabiliteitsratios
+
+  - type: synthese
+    synthese_id: liquiditeitstoets-beslisboom
+    rationale_hint: >-
+      Na de drie ratio-competenties komt de student onvermijdelijk voor de
+      vraag te staan: welke liquiditeitstoets gebruik ik eigenlijk in welk
+      scenario? Deze beslisboom voorkomt dat current-ratio, quick-ratio en
+      werkkapitaal als drie willekeurige getallen blijven hangen, en
+      illustreert hoe verschillende toetsen op één diagnose convergeren. Ze
+      maakt de overgang naar de bredere structuur- en kasstroom-analyses
+      die hierna volgen.
+
+  - type: competentie
+    competentie_id: uitvoeren-horizontale-verticale-analyse
+
+  - type: competentie
+    competentie_id: beoordelen-werkkapitaal-en-kasstroom
+
+  - type: competentie
+    competentie_id: confronteren-toelichting-en-off-balance
+
+  - type: competentie
+    competentie_id: beoordelen-bestuursverslag-en-niet-financiele-info
+
+  - type: thematisch
+    titel: "Vergelijken in tijd en sector: trend, benchmark en controle-norm"
+    concepten:
+      - historische-evolutie-financiele-analyse
+      - sectorvergelijking-financiele-analyse
+      - cijferanalyses-controle-norm
+
+  - type: competentie
+    competentie_id: formuleren-financiele-diagnose-en-adviezen
+
+  - type: competentie
+    competentie_id: positioneren-toezichtsorganen-rond-jaarrekening
+
+  - type: oriëntatie
+    titel: "Kritische blik: wat zegt een financiële analyse NIET?"
+    rationale_hint: >-
+      Sluit het leerpad af met een reflectief blok dat de beperkingen van
+      financiële analyse expliciet maakt. Verbind hier de notie
+      [[materieel-belang-jaarrekening]] (drempels waarbinnen verschillen
+      irrelevant zijn) met [[getrouw-beeld-jaarrekening]] (de jaarrekening
+      kan zelf vertekend zijn), en met [[cijferanalyses-controle-norm]] (een
+      cijferanalyse signaleert, maar bewijst niet). Roep ook
+      [[historische-evolutie-financiele-analyse]] terug: trends in het
+      verleden voorspellen de toekomst niet, en niet-financiële informatie
+      uit het [[bestuursverslag]] en de toelichting is onmisbaar om de
+      cijfers te duiden. Eindig met de boodschap dat diagnose een oordeel
+      blijft en dat de stagiair leert wáár hij voorzichtig moet zijn.
+
+_provenance:
+  voorgesteld_door: "leerpad-propose-v1-leerpad-run-20260516T000000Z"
+  voorgesteld_op: "2026-05-16T00:00:00+00:00"
+  gecureerd_door: null
+  gecureerd_op: null

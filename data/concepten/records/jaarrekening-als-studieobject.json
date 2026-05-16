@@ -1,0 +1,139 @@
+{
+  "id": "jaarrekening-als-studieobject",
+  "naam": "Jaarrekening als studieobject van financiële analyse",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.3.II.B",
+    "1.3.taak.1",
+    "1.2.IV",
+    "1.2.IV.C",
+    "1.2.V"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.3.II.B",
+    "dekt_ook_anchors": [
+      "1.3.taak.1"
+    ],
+    "reviewed_by": null,
+    "cross_po_overlap": "PO 1.2 dekt de jaarrekening als opstellings-object (jaarrekeningenrecht). Hier focus: jaarrekening als input voor analyse.",
+    "po_1_2_extension": "2026-05-16: +['1.2.IV', '1.2.IV.C', '1.2.V']"
+  },
+  "definitie": {
+    "text": "Voor de financiële analist is de jaarrekening het samenspel van balans, resultatenrekening en toelichting waarop alle structuur-, ratio- en evolutie-analyses worden gevoerd. Het is geen kennisbron op zich maar het te onderzoeken object — vergelijkbaar met een patiëntdossier voor een arts.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "anker-itaa",
+      "short": "ITAA-examenprogramma 1.3.II.B"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_de-jaarrekening",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2018-25-voorzieningen__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Balans, resultatenrekening, toelichting",
+      "wat": "De drie kerncomponenten samen. Balans = momentopname; resultatenrekening = boekjaarflow; toelichting = duiding bij beide.",
+      "waarom": "Eén component is onvoldoende — balans toont de cumulatieve toestand, resultatenrekening hoe die toestand evolueerde, toelichting waar de cijfers vandaan komen.",
+      "voorbeeld_inline": "Bij Rotex Roeselare NV: balans toont eigen vermogen € 12.000.000 op 31/12/20X1; resultatenrekening toont hoe winst van € 2.500.000 daar dit jaar bijkwam; toelichting expliciteert dat € 1.500.000 hangend geschil niet in balans zit.",
+      "grondslag": "CBN-0174-1 §jaarrekening",
+      "confidence": "grounded",
+      "source": {
+        "type": "cbn",
+        "short": "CBN-0174-1 §de jaarrekening"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_de-jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Vloeit uit boekhouding",
+      "wat": "De jaarrekening moet bij ondernemingen met volledige boekhouding rechtstreeks (zonder toevoeging of weglating) voortvloeien uit de proef- en saldibalans, na overeenstemming met de inventarisgegevens.",
+      "waarom": "Dat principe verzekert dat de jaarrekening niet 'samengesteld' wordt maar het resultaat is van een rigoureus boekhoudingsproces — basis voor betrouwbaarheid.",
+      "voorbeeld_inline": "Bij Rotex: balanstotaal van € 30.000.000 op 31/12 = som van inventaris-bevestigde saldi op alle balansrekeningen.",
+      "grondslag": "CBN-0174-1 §jaarrekening (na inventarisaanpassing)",
+      "confidence": "grounded",
+      "source": {
+        "type": "cbn",
+        "short": "CBN-0174-1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_de-jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Lees ALLE drie",
+      "betekenis": "Studenten vergeten vaak de toelichting. Een analyse zonder toelichting is incompleet: niet in balans opgenomen verplichtingen, waarderingsregels, verbonden partijen — allemaal in de toelichting.",
+      "anker_slug": "1.3.II.B",
+      "confidence": "inferred",
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.B",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Statutaire jaarrekening ≠ geconsolideerde jaarrekening. Bij analyse van een groep: gebruik consolidatie (toont totaalbeeld). Bij analyse van één rechtsentiteit (bv. voor leverancierscontract): statutair.",
+      "confidence": "inferred",
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.B",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "getrouw-beeld-jaarrekening",
+      "redenering": "Object voldoet aan getrouw-beeld-eis.",
+      "confidence": "inferred"
+    }
+  ]
+}

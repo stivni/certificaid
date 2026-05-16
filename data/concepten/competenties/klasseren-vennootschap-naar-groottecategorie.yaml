@@ -1,0 +1,196 @@
+id: klasseren-vennootschap-naar-groottecategorie
+titel: Klasseren van een vennootschap als micro, klein of groot volgens de groottecriteria
+status: voorgesteld
+schema_version: "1.1"
+programmaonderdelen:
+- 1.2
+voortkomend_uit:
+  taken: []
+  kenniselementen:
+  - 1.2.IV.B
+  - 1.2.IV
+gebaseerd_op_concepten:
+- groottecriteria-jaarrekening
+- kleine-vennootschap
+- microvennootschap
+- vennootschapsvormen-typologie
+procedure_grondslag:
+  wettelijk_pct: 95
+  praktijk_pct: 5
+  motivering: De criteria, drempels, lock-in-regel en verbondenheidsregel staan letterlijk in WVV art. 1:24-1:25 en in CBN-advies 2022/03. Praktijkoordeel beperkt zich tot het correct berekenen van de jaargemiddelde personeelsbezetting en de omzet op alternatieve basis bij omzetschommelingen.
+stappen:
+- nr: 1
+  titel: Verzamel de drie criteria-waarden op balansdatum
+  wat: Bereken jaargemiddelde personeelsbezetting, jaaromzet excl. BTW en balanstotaal van het afgesloten boekjaar.
+  waarom: Zonder de drie cijfers is geen toets mogelijk.
+  input:
+  - artefact: Loonadministratie en sociale balans
+    veld: Jaargemiddelde personeel (VTE)
+    type: getal
+  - artefact: Resultatenrekening + BTW-aangiftes
+    veld: Jaaromzet excl. BTW (rubriek 70)
+    type: boekhoudkundig-bedrag
+  - artefact: Voorlopige balans
+    veld: Balanstotaal (totaal activa)
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Toets-werkblad
+    veld: Drie cijfers + boekjaar-eind
+    type: berekening
+  hoe: |
+    1. Lees de jaargemiddelde personeelsbezetting uit de sociale balans (totaal uurtellingen ÷ normuren, in VTE).
+    2. Lees de jaaromzet excl. BTW uit rubriek 70 van de resultatenrekening van Meubelzaak Mertens BV.
+    3. Lees het balanstotaal uit het voorlopige balans-totaal van de activa-zijde.
+    4. Bij verbonden vennootschappen: bereken de cijfers op geconsolideerde of geaggregeerde basis — zie stap 3.
+  grondslag: "[[groottecriteria-jaarrekening]] §criteria, WVV art. 1:24 § 1"
+- nr: 2
+  titel: Toets aan de drie drempels voor 'kleine vennootschap'
+  wat: Vergelijk de drie cijfers met de WVV-drempels en pas de regel 'maximaal één criterium overschreden' toe.
+  waarom: Slechts één criterium mag worden overschreden; twee of drie maken de vennootschap groot.
+  input:
+  - artefact: Toets-werkblad stap 1
+    veld: Drie cijfers
+    type: berekening
+  output:
+  - artefact: Tussenstand
+    veld: Klein OF (potentieel) groot
+    type: conclusie
+  hoe: |
+    1. Lees de actuele drempels uit [[groottecriteria-jaarrekening]] §drempels (cijferzakboekje): personeel ≤ 50, omzet ≤ € 11.250.000, balanstotaal ≤ € 6.000.000.
+    2. Tel het aantal overschreden criteria.
+    3. Eén overschrijding (of geen) → klein. Twee of drie → potentieel groot, maar eerst stap 4 (lock-in).
+  voorbeeld:
+    scenario: "Meubelzaak Mertens BV op 31/12/2024: 12 werknemers (VTE), € 4.500.000 omzet, € 2.100.000 balanstotaal."
+    substappen:
+    - nr: 1
+      titel: Toets per criterium
+      type: berekening
+      data: |
+        | Criterium | Waarde Mertens | Drempel klein | Overschreden? |
+        |---|---:|---:|:---|
+        | Personeel (VTE) | 12 | 50 | Nee |
+        | Omzet excl. BTW | € 4.500.000 | € 11.250.000 | Nee |
+        | Balanstotaal | € 2.100.000 | € 6.000.000 | Nee |
+    - nr: 2
+      titel: Tussenstand
+      type: opmerking
+      data: |
+        Geen enkele drempel overschreden → klein. Ga door naar microtoets (stap 3).
+  grondslag: "[[kleine-vennootschap]] §criteria, [[groottecriteria-jaarrekening]] §drempels"
+- nr: 3
+  titel: Toets aan de micro-drempels en bijkomende voorwaarde
+  wat: Als de vennootschap klein is, ga na of ze ook microvennootschap is.
+  waarom: Een micro-vennootschap mag het microschema gebruiken — kleinste schema met laagste rapporteringslast.
+  input:
+  - artefact: Tussenstand stap 2
+    veld: Klein OF (potentieel) groot
+    type: conclusie
+  - artefact: Aandeelhoudersregister + KBO van eventuele deelnemingen
+    veld: Bestaat moeder- of dochter-relatie?
+    type: document
+  output:
+  - artefact: Werknotitie
+    veld: Micro / klein / groot
+    type: conclusie
+  hoe: |
+    1. Was de vennootschap in stap 2 al groot? → micro-toets niet relevant; stop hier.
+    2. Lees de strengere micro-drempels uit [[microvennootschap]] §drempels: personeel ≤ 10, omzet ≤ € 900.000, balanstotaal ≤ € 450.000.
+    3. Tel ook hier maximum één overschrijding toelaten.
+    4. Kruistoets: is de vennootschap moeder of dochter? Zo ja → géén micro, maximaal klein ([[microvennootschap]] §bijkomende-voorwaarde).
+    5. Beide voorwaarden vervuld → micro. Anders → klein.
+  voorbeeld:
+    scenario: "Oprichtingen Oostende BV in jaar 1: 4 werknemers, € 400.000 omzet, € 380.000 balanstotaal, geen deelnemingen."
+    substappen:
+    - nr: 1
+      titel: Toets micro-drempels
+      type: berekening
+      data: |
+        | Criterium | Waarde Oostende | Drempel micro | Overschreden? |
+        |---|---:|---:|:---|
+        | Personeel | 4 | 10 | Nee |
+        | Omzet | € 400.000 | € 900.000 | Nee |
+        | Balanstotaal | € 380.000 | € 450.000 | Nee |
+    - nr: 2
+      titel: Bijkomende voorwaarde
+      type: opmerking
+      data: |
+        Geen moeder, geen dochter → bijkomende voorwaarde vervuld.
+        → Microvennootschap.
+  valkuilen:
+  - advies: Een dochter in een groep is nooit microvennootschap, ook al blijft ze onder de drempels.
+    vaak_fout: Een 100%-dochter van Aurelia Holding NV als micro aanmerken op grond van haar lage cijfers.
+    grondslag: "[[microvennootschap]] §bijkomende-voorwaarde"
+  grondslag: "[[microvennootschap]] §criteria, WVV art. 1:25"
+- nr: 4
+  titel: Pas de lock-in-regel en de verbondenheidsregel toe
+  wat: Toets of de overschrijding twee opeenvolgende boekjaren standhoudt en of verbonden vennootschappen meegerekend moeten worden.
+  waarom: Eénmalig overschrijden kantelt de status niet; een 'kleine' dochter van een grote groep wordt voor de jaarrekening als groot behandeld.
+  input:
+  - artefact: Tussenstand stap 2 of 3
+    veld: Status van het huidige jaar
+    type: conclusie
+  - artefact: Cijfers vorig boekjaar + groepsstructuur
+    veld: Drie criteria + lijst verbonden vennootschappen
+    type: berekening
+  output:
+  - artefact: Definitieve grootteklasse
+    veld: Micro / klein / groot
+    type: conclusie
+  hoe: |
+    1. Als de overschrijding nieuw is in het huidige jaar: kijk naar het vorige boekjaar. Twee jaar overschrijding op rij? → grootteklasse kantelt vanaf het volgende boekjaar (zie [[groottecriteria-jaarrekening]] §lock-in).
+    2. Maakt de vennootschap deel uit van een groep? Bereken de drie criteria op geconsolideerde of geaggregeerde basis (som van de groepscijfers) — zie [[groottecriteria-jaarrekening]] §verbondenheid.
+    3. Als de groep groot is, wordt de individuele vennootschap voor jaarrekening behandeld als groot, zelfs als ze op zich klein is.
+    4. Documenteer de definitieve grootteklasse in het dossier.
+  voorbeeld:
+    scenario: "Naaiatelier Ninove BV is op zich klein (€ 3M omzet, 25 werknemers, € 2M balans), maar dochter van Aurelia Holding NV. De Aurelia-groep heeft samen 280 werknemers en € 60M omzet."
+    substappen:
+    - nr: 1
+      titel: Verbondenheidstoets
+      type: berekening
+      data: |
+        | Niveau | Personeel | Omzet | Balans | Status |
+        |---|---:|---:|---:|:---|
+        | Naaiatelier individueel | 25 | € 3M | € 2M | klein |
+        | Aurelia-groep | 280 | € 60M | € 22M | groot |
+    - nr: 2
+      titel: Conclusie
+      type: opmerking
+      data: |
+        Naaiatelier behoort tot een grote groep → voor jaarrekening behandeld als groot
+        → volledig schema, jaarverslag, mogelijk commissaris (afhankelijk van eigen toets).
+  valkuilen:
+  - advies: Pas de lock-in-regel toe vóór je een schemawissel adviseert.
+    vaak_fout: Een vennootschap onmiddellijk van klein naar groot kantelen na één jaar overschrijding.
+    grondslag: "[[groottecriteria-jaarrekening]] §lock-in"
+  grondslag: "[[groottecriteria-jaarrekening]] §lock-in, [[groottecriteria-jaarrekening]] §verbondenheid"
+beslisboom:
+- vraag: Overschrijdt de vennootschap meer dan één van de klein-drempels (personeel/omzet/balans)?
+  ja: Toets eerst lock-in (2 jaar?) — pas dan groot.
+  nee: Klein — ga naar micro-toets.
+- vraag: Voldoet ze ook aan de strengere micro-drempels?
+  ja: Toets bijkomende voorwaarde (geen moeder/dochter).
+  nee: Klein.
+- vraag: Is ze moeder of dochter?
+  ja: Geen micro — eindstand klein (of groot via verbondenheid).
+  nee: Microvennootschap.
+- vraag: Behoort de vennootschap tot een groep die op geconsolideerde basis groot is?
+  ja: Behandeld als groot voor de jaarrekening, ongeacht eigen cijfers.
+  nee: Eigen status geldt.
+voorbeelden:
+- situatie: "Oprichtingen Oostende BV in haar eerste boekjaar: 4 werknemers, € 400.000 omzet, € 380.000 balanstotaal, geen deelnemingen, geen moeder."
+  conclusie: "Microvennootschap — onder alle micro-drempels, geen moeder/dochter."
+  grondslag: "[[microvennootschap]] §criteria"
+  redenering: Drie criteria onder de micro-drempels + bijkomende voorwaarde vervuld. Mag microschema gebruiken vanaf eerste jaarrekening.
+- situatie: "Rotex Roeselare NV: 550 werknemers, € 95.000.000 omzet, € 42.000.000 balanstotaal."
+  conclusie: "Grote vennootschap — alle drie criteria ver boven kleine-drempels."
+  grondslag: "[[groottecriteria-jaarrekening]] §drempels"
+  redenering: "Geen twijfel — drie van de drie overschreden. Verplicht: volledig schema, jaarverslag, commissaris."
+- situatie: "Brugse Brouwerij BV: 55 werknemers (te hoog), € 4M omzet (OK), € 3M balanstotaal (OK)."
+  conclusie: "Klein — slechts één criterium overschreden, dus 'max één overschrijding' is gerespecteerd."
+  grondslag: "[[groottecriteria-jaarrekening]] §één-criterium-regel"
+  redenering: De regel is geen som; één overschrijding is toegelaten. Brugse blijft klein, mag verkort schema.
+_provenance:
+  voorgesteld_door: competentie-destillatie-v2-po12-20260516
+  voorgesteld_op: '2026-05-16T00:00:00Z'
+  gecureerd_door: null
+  gecureerd_op: null

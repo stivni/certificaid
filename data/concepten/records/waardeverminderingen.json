@@ -1,0 +1,189 @@
+{
+  "id": "waardeverminderingen",
+  "naam": "Waardeverminderingen",
+  "node_type": "methode",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.1.II.B",
+    "1.1.II.C",
+    "1.1.II.E",
+    "1.1.II.F",
+    "1.1.II.G",
+    "1.2.V.B",
+    "1.2.V",
+    "1.2.taak.1"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.1.II.B",
+    "dekt_ook_anchors": [
+      "1.1.II.C",
+      "1.1.II.E",
+      "1.1.II.F",
+      "1.1.II.G"
+    ],
+    "reviewed_by": null,
+    "po_1_2_extension": "2026-05-16: +['1.2.V.B', '1.2.V', '1.2.taak.1']"
+  },
+  "doel": "Correcties boeken op de aanschaffingswaarde van actiefbestanddelen om rekening te houden met **al-dan-niet-definitieve ontwaardingen** op balansdatum — voor activa met **onbeperkte gebruiksduur** of voor **vlottende activa** (voorraden, vorderingen, geldbeleggingen).",
+  "definitie": {
+    "text": "Onder **waardeverminderingen** verstaat men de correcties op de aanschaffingswaarde van actiefbestanddelen — andere dan die met beperkte gebruiksduur (waarvoor afschrijvingen gelden) — om rekening te houden met al dan niet als definitief aan te merken ontwaardingen bij het afsluiten van het boekjaar. Toepassing: terreinen (onbeperkt), financiële vaste activa, voorraden, handelsvorderingen, geldbeleggingen. De gecumuleerde waardeverminderingen worden in mindering gebracht van de actiefposten waarop ze betrekking hebben (KB WVV art. 3:23, lid 2).",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV art. 3:23"
+    },
+    "references": [
+      {
+        "type": "advies",
+        "short": "CBN 2019/04 — Afwaardering van vlottende en vaste activa"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-2019__art_3_18",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-bre__sec_afwaardering-van-vlottende-en-vaste-activa",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorbeeld_inline": "Meubelzaak Mertens BV heeft een handelsvordering van € 18.000 op klant X. Op balansdatum 31/12 wordt klant X dubbel aangemaand zonder reactie; advocaat schat 70 % verlies. Waardevermindering = 70 % × € 18.000 = € 12.600. Boeking: Debet 6340 Waardeverminderingen op handelsvorderingen € 12.600 / Credit 409 Geboekte waardeverminderingen op handelsvorderingen € 12.600.",
+  "bouwstenen": [
+    {
+      "titel": "Wanneer waardevermindering vs afschrijving",
+      "wat": "Afschrijving = activa met BEPERKTE gebruiksduur (gebouw, machine, software). Waardevermindering = activa met ONBEPERKTE gebruiksduur (terrein, financiële vaste activa) of VLOTTENDE activa (voorraden, handelsvorderingen, geldbeleggingen).",
+      "waarom": "Beperkte gebruiksduur impliceert een gestructureerd plan; onbeperkte gebruiksduur of vlottende activa hebben geen 'natuurlijke' afnamecurve, dus eventuele correcties zijn ad-hoc reactie op vastgestelde ontwaarding.",
+      "voorbeeld_inline": "Naaiatelier Ninove BV bezit een terrein (aanschaffingswaarde € 320.000) en een gebouw erop (€ 480.000). Het gebouw wordt jaarlijks afgeschreven; het terrein NIET. Als het terrein verontreinigd geraakt en € 90.000 zakt in waarde → waardevermindering op terrein.",
+      "grondslag": "KB WVV art. 3:23 lid 1 vs lid 2",
+      "confidence": "grounded",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:23"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_18",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Geboekt op rekening eindigend op 9",
+      "wat": "Gecumuleerde waardeverminderingen verschijnen op rekeningen waarvan de subrekening eindigt op 9 (bv. 409 'Geboekte waardeverminderingen op handelsvorderingen', 349 'Geboekte waardeverminderingen op voorraad', 519 'Geboekte waardeverminderingen op geldbeleggingen').",
+      "waarom": "Het MAR-systeem groepeert correctierekeningen consistent: 0 = aanschaffingswaarde, 8 = meerwaarden, 9 = afschrijvingen/waardeverminderingen. Zo is de bruto-aanschaffingswaarde altijd zichtbaar.",
+      "voorbeeld_inline": "Op de balans van Meubelzaak Mertens BV: rekening 400 Handelsdebiteuren € 145.000; rekening 409 Geboekte waardeverminderingen op handelsvorderingen € −12.600. Netto klantenvordering = € 132.400.",
+      "grondslag": "MAR + KB WVV art. 3:23",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "MAR"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Terugname als ontwaarding wegvalt",
+      "wat": "Wanneer de oorzaak van de ontwaarding wegvalt (klant betaalt alsnog, voorraadprijs herstelt, financiële markt veert op), wordt de eerder geboekte waardevermindering teruggenomen ten gunste van het resultaat.",
+      "waarom": "De waardevermindering reflecteert een toestand op balansdatum; als die toestand wijzigt, moet ook de boekhouding worden bijgewerkt.",
+      "voorbeeld_inline": "Klant X van Meubelzaak Mertens betaalt onverwacht € 15.000 van de € 18.000 vordering. Terugname waardevermindering: van € 12.600 wordt € 9.600 teruggenomen (€ 15.000 effectief ontvangen × 70 % was geprovisioneerd → 70 % × € 15.000 = € 10.500 niet meer nodig; pragmatisch terugname op niveau van de werkelijke ontvangst). Boeking: Debet 409 / Credit 7340 Terugname waardeverminderingen.",
+      "grondslag": "KB WVV art. 3:23 + algemene voorzichtigheid",
+      "confidence": "inferred-from-aggregation",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:23"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-bre__sec_afwaardering-van-vlottende-en-vaste-activa",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Voorzichtigheid: voorzien zodra waarschijnlijk",
+      "betekenis": "Waardevermindering wordt al geboekt zodra de ontwaarding waarschijnlijk is — niet pas wanneer ze 'zeker' is. Een vordering op een klant met betalingsmoeilijkheden wordt niet gewacht tot de curator een dividend bekendmaakt; de ontwaarding moet redelijk geraamd worden bij afsluiting.",
+      "herkenningspunt": "Examen: 'klant heeft 6 maanden niet betaald, advocaat aangemaand' — waardevermindering verplicht in lopend boekjaar.",
+      "confidence": "grounded",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:6 + 3:23"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-bre__sec_afwaardering-van-vlottende-en-vaste-activa",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Waardevermindering is GEEN voorziening. Waardevermindering = correctie op een specifiek actief (vordering, voorraad, terrein). Voorziening = passief-post voor een toekomstig risico of last (rechtsgeding, herstelling). Examen: 'reservering voor een toekomstig gerechtelijk verlies' → voorziening, niet waardevermindering.",
+      "confidence": "inferred-from-aggregation",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:11 (voorzieningen) vs. 3:23 (waardeverminderingen)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_18",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "afschrijvingen",
+      "verschil": "Afschrijvingen: planmatig, voor activa met beperkte gebruiksduur (gebouw, machine, software, oprichtingskosten). Waardeverminderingen: ad-hoc, voor activa met onbeperkte gebruiksduur (terrein) of vlottende activa (voorraden, vorderingen, geldbeleggingen).",
+      "trigger": "Examen: 'voorraad goederen waarvan marktprijs daalt' → waardevermindering (vlottend actief). 'machine waarvan technische ontwaarding sneller dan voorzien' → niet-recurrente afschrijving (beperkte gebruiksduur)."
+    },
+    {
+      "vergelijking_met": "voorzieningen",
+      "verschil": "Waardevermindering = correctie op een specifiek actief; staat aan actiefzijde als negatieve correctie. Voorziening = passief-post voor toekomstig risico/last; staat aan passiefzijde.",
+      "trigger": "Examen: 'wij verwachten een vonnis tegen ons van € 80.000' → voorziening. 'klant zal vermoedelijk niet betalen' → waardevermindering."
+    }
+  ],
+  "edges": [
+    {
+      "type": "vergelijkt-met",
+      "target": "afschrijvingen",
+      "redenering": "Twee parallelle mechanismen voor waarde-correctie, afhankelijk van het type actief."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "voorzieningen",
+      "redenering": "Frequente examen-verwarring: actief-correctie vs passief-post."
+    }
+  ]
+}

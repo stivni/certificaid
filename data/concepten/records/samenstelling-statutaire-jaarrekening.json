@@ -1,0 +1,174 @@
+{
+  "id": "samenstelling-statutaire-jaarrekening",
+  "naam": "Samenstelling van de statutaire jaarrekening",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.2.taak.1", "1.2.IV", "1.2.III.D"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.2.taak.1",
+    "dekt_ook_anchors": ["1.2.IV", "1.2.III.D"],
+    "reviewed_by": null
+  },
+  "verplichting": "Aan het einde van elk boekjaar stelt het bestuursorgaan, op basis van de proef- en saldibalans en de uitgevoerde eindejaarsverrichtingen, de statutaire jaarrekening op volgens het toepasselijke schema (volledig / verkort / micro). De jaarrekening bevat balans, resultatenrekening, toelichting (+ sociale balans bij volledig en verkort schema) en wordt ter goedkeuring voorgelegd aan de algemene vergadering.",
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Schema-keuze op basis van grootteklasse",
+      "wat": "Bepaal het toepasselijke schema (volledig / verkort / micro) op basis van groottecriteria (WVV art. 1:24-1:25).",
+      "waarom": "Het schema bepaalt detailniveau en verplichte rubrieken.",
+      "hoe": "1. Bepaal de drie cijfers: personeel (VTE), omzet excl. BTW, balanstotaal. 2. Vergelijk met drempels. 3. Test verbondenheid: groep groot? 4. Conclusie: micro / klein / groot → schema.",
+      "grondslag": "WVV art. 1:24-1:25"
+    },
+    {
+      "nr": 2,
+      "titel": "Vertrek vanuit definitieve proef- en saldibalans",
+      "wat": "Na alle eindejaarsverrichtingen (afschrijvingen, waardeverminderingen, voorzieningen, overlopende rekeningen, voorraad-aanpassing) is de PS-balans definitief. Vanuit die PS-balans worden de balans- en RR-cijfers opgesteld.",
+      "waarom": "PS-balans is het brutogegevens-overzicht — jaarrekening is de gestructureerde presentatie.",
+      "hoe": "1. Vraag definitieve PS-balans op. 2. Controleer som debet = som credit. 3. Map elke rekening op de juiste jaarrekening-rubriek.",
+      "grondslag": "CBN-advies 174/1; KB-WVV bijlagen"
+    },
+    {
+      "nr": 3,
+      "titel": "Opstellen balans",
+      "wat": "Sommatie van rekeningsaldi per rubriek volgens schema. Klasse 1 (passiva) en klassen 2-3-4-5 (activa). Eindresultaat van het boekjaar wordt geboekt op 14 'Overgedragen resultaat' (winst toevoegen, verlies aftrekken).",
+      "waarom": "Balans toont vermogen op balansdatum — activa = eigen vermogen + schulden.",
+      "voorbeeld": {
+        "scenario": "Meubelzaak Mertens BV op 31/12/2024: voorraad € 350.000, klanten € 130.000, bank € 75.000, materieel actief € 180.000 (na afschr.); leveranciers € 220.000, kapitaal € 18.500, reserves € 90.000, overgedragen resultaat € 406.500.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Activa-zijde",
+            "type": "balans",
+            "data": "| Activa                                  |          |\n|-----------------------------------------|---------:|\n| Materiële vaste activa (klasse 22-26)   | € 180.000 |\n| Voorraad (klasse 30-37)                 | € 350.000 |\n| Klanten (klasse 40)                     | € 130.000 |\n| Liquide middelen (klasse 55)            | € 75.000  |\n| **Totaal activa**                       | **€ 735.000** |"
+          },
+          {
+            "nr": 2,
+            "titel": "Passiva-zijde",
+            "type": "balans",
+            "data": "| Passiva                                  |          |\n|------------------------------------------|---------:|\n| Kapitaal (klasse 10)                     | € 18.500  |\n| Reserves (klasse 13)                     | € 90.000  |\n| Overgedragen resultaat (klasse 14)       | € 406.500 |\n| Leveranciers (klasse 44)                 | € 220.000 |\n| **Totaal passiva**                       | **€ 735.000** |"
+          }
+        ]
+      },
+      "grondslag": "KB-WVV bijlage 2 (verkort schema)"
+    },
+    {
+      "nr": 4,
+      "titel": "Opstellen resultatenrekening",
+      "wat": "Sommatie van klasse 6 (kosten) en klasse 7 (opbrengsten) volgens schema. Onderscheid bedrijfsresultaat / financieel resultaat / uitzonderlijk resultaat. Berekening van resultaat vóór belasting → belasting → resultaat na belasting.",
+      "waarom": "RR toont het resultaat van het boekjaar — opbrengsten min kosten.",
+      "voorbeeld": {
+        "scenario": "Meubelzaak Mertens BV boekjaar 2024: omzet € 4.500.000, aankopen € 2.800.000, personeelskosten € 950.000, afschrijvingen € 45.000, overige € 320.000.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Resultatenrekening-opbouw",
+            "type": "berekening",
+            "data": "Omzet                          = € 4.500.000\nAankopen                       = − € 2.800.000\nPersoneelskosten               = − € 950.000\nAfschrijvingen                 = − € 45.000\nOverige bedrijfskosten         = − € 320.000\n**Bedrijfsresultaat**          = **€ 385.000**\nFinancieel resultaat (saldo)   = − € 8.000\nResultaat vóór belasting       = € 377.000\nVennootschapsbelasting (25%)   = − € 94.250\n**Resultaat na belasting**     = **€ 282.750**"
+          }
+        ]
+      },
+      "grondslag": "KB-WVV bijlage 2 (verkort schema)"
+    },
+    {
+      "nr": 5,
+      "titel": "Opstellen toelichting",
+      "wat": "Vul de verplichte rubrieken van de toelichting in: waarderingsregels, staat van vaste activa, niet-balansrechten, vergoedingen bestuurders, transacties met verbonden partijen, etc. (afhankelijk van schema).",
+      "waarom": "Toelichting maakt de jaarrekening interpreteerbaar.",
+      "hoe": "Volg de rubriek-lijst uit het toepasselijke KB-WVV-bijlage. Vink elke rubriek af.",
+      "grondslag": "KB-WVV bijlagen 1-3"
+    },
+    {
+      "nr": 6,
+      "titel": "Voorlegging aan AV + neerlegging",
+      "wat": "Bestuursorgaan keurt de jaarrekening goed → legt voor aan algemene vergadering binnen 6 maanden na boekjaar-einde → AV stemt → neerlegging bij NBB binnen 30 dagen na AV.",
+      "waarom": "Bestuur stelt op, AV beslist, NBB publiceert — drie stappen voor governance + openbaarmaking.",
+      "hoe": "Zie procedure-record [[openbaarmaking-jaarrekening]] voor detail.",
+      "grondslag": "WVV art. 3:10 + 5:73 (BV) / 7:53 (NV)"
+    }
+  ],
+  "tijdlijn": [
+    {
+      "stap": "Afsluiting boekjaar",
+      "termijn": "T = 0",
+      "actor": "vennootschap",
+      "actie": "Boeken sluiten + inventarisatie",
+      "source": {"type": "wet", "short": "WER art. III.85"},
+      "_provenance": {"inputs": [{"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "stap": "Opstellen jaarrekening",
+      "termijn": "binnen 6 maanden na T",
+      "actor": "bestuursorgaan + boekhouder/accountant",
+      "actie": "Stappen 1-5 hierboven",
+      "source": {"type": "wet", "short": "WVV art. 3:1"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_2", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "stap": "Controle door commissaris (indien benoemd)",
+      "termijn": "vóór AV",
+      "actor": "commissaris",
+      "actie": "Audit + commissarisverslag",
+      "source": {"type": "wet", "short": "WVV art. 3:75"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "stap": "Goedkeuring AV + neerlegging NBB",
+      "termijn": "binnen 6 maanden na T; neerlegging binnen 30 dagen na AV",
+      "actor": "algemene vergadering + bestuur",
+      "actie": "Stemming + elektronische neerlegging",
+      "source": {"type": "wet", "short": "WVV art. 3:10"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Volgorde is kritiek",
+      "betekenis": "Eerst groottecriteria → schema-keuze; daarna inventaris + eindejaarsverrichtingen; daarna definitieve PS-balans; daarna balans + RR + toelichting; daarna AV + NBB. Overslaan van een stap leidt tot een onvolledige jaarrekening.",
+      "herkenningspunt": "Examen-scenario 'stel jaarrekening op' → volg deze zes-stappen-checklist.",
+      "confidence": "inferred-from-aggregation",
+      "source": {"type": "wet", "short": "WVV + KB-WVV + CBN-advies 174/1"},
+      "_provenance": {"inputs": [
+        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Bij twijfel over groottecategorie: kies de strengere optie. Een 'micro' die eigenlijk klein is → te beperkt schema → mogelijke fiscale en commerciële sancties. Een 'klein' die eigenlijk micro is → onnodige administratieve last maar minder risico.",
+      "confidence": "inferred",
+      "source": {"type": "wet", "short": "WVV art. 1:24-1:25"},
+      "_provenance": {"inputs": [
+        {"id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "groottecriteria-jaarrekening",
+      "redenering": "Stap 1 vereist groottecriteria-test.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "eindejaarsverrichtingen",
+      "redenering": "Stap 2 voorafgaande eindejaarsverrichtingen.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "jaarrekening-schema",
+      "redenering": "Stap 3-5 zijn volgens het juiste schema.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "openbaarmaking-jaarrekening",
+      "redenering": "Stap 6 leidt direct tot de openbaarmaking-procedure.",
+      "confidence": "inferred"
+    }
+  ]
+}

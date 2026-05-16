@@ -1,0 +1,120 @@
+{
+  "id": "vennootschapsvormen-typologie",
+  "naam": "Typologie van vennootschaps- en verenigingsvormen",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.2.IV.A", "1.2.IV"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.2.IV.A",
+    "dekt_ook_anchors": ["1.2.IV"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Het WVV onderscheidt verschillende vennootschapsvormen (rechtspersonen met winstoogmerk) en verenigingsvormen (rechtspersonen zonder of met sociaal oogmerk). Voor het boekhoudrecht zijn de vorm-keuze en de keuze tussen rechtspersoonlijkheid en geen rechtspersoonlijkheid bepalend: rechtspersonen volgen altijd dubbele boekhouding + jaarrekening-plicht; verenigingen volgen aangepaste schema's.",
+    "confidence": "grounded",
+    "source": {"type": "wet", "short": "WVV Boek 1 + Boeken 5-11"},
+    "references": [
+      {"type": "wet", "short": "WVV Boek 5 (BV)"},
+      {"type": "wet", "short": "WVV Boek 7 (NV)"},
+      {"type": "wet", "short": "WVV Boek 6 (CV)"},
+      {"type": "wet", "short": "WVV Boek 4 (VOF, CommV, maatschap)"},
+      {"type": "wet", "short": "WVV Boek 9 (VZW, IVZW, stichting)"}
+    ],
+    "_provenance": {"inputs": [
+      {"id": "WVV__art_15", "sha256": null, "version": "rag-v1"},
+      {"id": "WVV__art_16", "sha256": null, "version": "rag-v1"},
+      {"id": "CBN-2019-09-boekhoudplichtige-onderneming__sec_rechtspersonen-naar-belgisch-recht", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Meubelzaak Mertens BV (besloten vennootschap, beperkte aansprakelijkheid) → dubbele boekhouding, jaarrekening verkort schema. Tom Lefèvre's maatschap (geen rechtspersoonlijkheid) → onbeperkte aansprakelijkheid vennoten, alleen boekhoudplicht (geen jaarrekening bij NBB).",
+  "bouwstenen": [
+    {
+      "titel": "Rechtspersonen vs geen rechtspersoonlijkheid",
+      "wat": "Rechtspersonen (BV, NV, CV, VOF, CommV met rechtspersoonlijkheid, VZW, IVZW, stichting) zijn drager van eigen rechten en plichten — los van hun leden. Maatschap heeft geen rechtspersoonlijkheid → vennoten zijn rechtstreeks aansprakelijk en de maatschap zelf is geen 'drager'.",
+      "waarom": "Rechtspersoonlijkheid → beperkte aansprakelijkheid (meestal) + eigen boekhoudplicht + jaarrekening-plicht.",
+      "voorbeeld_inline": "Aurelia Holding NV (rechtspersoon) is zelf eigenaar van haar gebouw. Tom Lefèvre's maatschap (geen rechtspersoon): het gebouw staat op naam van de vennoten in onverdeeldheid.",
+      "grondslag": "WVV art. 1:1 e.v.",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WVV art. 1:5"},
+      "_provenance": {"inputs": [
+        {"id": "WVV__art_15", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Vier basisvormen voor ondernemingen",
+      "wat": "(1) **BV** (besloten vennootschap) — meest gebruikte KMO-vorm, beperkte aansprakelijkheid, geen kapitaalvereiste sinds WVV, flexibele governance. (2) **NV** (naamloze vennootschap) — voor grotere ondernemingen, kapitaal € 61.500 minimum, vrije overdraagbaarheid aandelen. (3) **CV** (coöperatieve vennootschap) — coöperatief gedachtegoed, samenwerking onder vennoten. (4) **VOF/CommV** — vennootschap onder firma / commanditaire vennootschap, onbeperkte aansprakelijkheid van vennoten.",
+      "waarom": "Vorm bepaalt aansprakelijkheid, governance, fiscaliteit én boekhoud-modaliteiten.",
+      "voorbeeld_inline": "Meubelzaak Mertens BV — kapitaal € 18.500 (vrij gekozen), 2 vennoten, beperkte aansprakelijkheid. Rotex Roeselare NV — kapitaal € 5M, 1.200 aandeelhouders, beursgenoteerd.",
+      "grondslag": "WVV Boek 5 (BV), Boek 7 (NV), Boek 6 (CV), Boek 4 (VOF/CommV)",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WVV Boeken 4-7"},
+      "_provenance": {"inputs": [
+        {"id": "WVV__art_15", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Drie verenigingsvormen",
+      "wat": "(1) **VZW** (vereniging zonder winstoogmerk) — Belgisch, niet-winstgevend doel. (2) **IVZW** (internationale vereniging zonder winstoogmerk) — internationale werking, koninklijk besluit-erkenning. (3) **Stichting** — vermogen toegewijd aan een doel, geen leden. Sinds WVV 2019: een VZW mag wel commerciële activiteiten ontplooien zolang de winst niet wordt uitgekeerd aan leden.",
+      "waarom": "Belangrijk voor de boekhoud-keuze — verenigingen volgen aparte schema's (KB-WVV art. 3:184 e.v.).",
+      "voorbeeld_inline": "VZW Quelle de Vie heeft een café-uitbating (commerciële activiteit) maar mag winst niet uitkeren aan leden — winst herinvesteren of fondsen vormen.",
+      "grondslag": "WVV Boek 9",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WVV Boek 9"},
+      "_provenance": {"inputs": [
+        {"id": "CBN-2019-09-boekhoudplichtige-onderneming__sec_rechtspersonen-naar-belgisch-recht", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Europese vormen",
+      "wat": "Naast de Belgische vormen bestaan er Europese rechtsvormen: Europese vennootschap (SE — WVV Boek 15), Europese coöperatieve vennootschap (SCE — WVV Boek 16), Europees economisch samenwerkingsverband (EESV). Worden zelden gebruikt; relevant bij grensoverschrijdende structuren.",
+      "waarom": "Faciliteert grensoverschrijdende mobiliteit binnen de EU.",
+      "voorbeeld_inline": "Een Belgisch-Nederlands consortium kan kiezen voor de SE-vorm — één wet voor beide vestigingen.",
+      "grondslag": "WVV Boeken 15-16",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WVV Boek 15 + 16"},
+      "_provenance": {"inputs": [
+        {"id": "WVV__art_15", "sha256": null, "version": "rag-v1"},
+        {"id": "WVV__art_16", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Boekhoudkundige gevolgen per vorm",
+      "betekenis": "Eenmanszaak → vereenvoudigde optie onder omzetgrens. BV/NV/CV → altijd dubbel + jaarrekening + neerlegging NBB. VZW klein → vereenvoudigde boekhouding mogelijk; VZW groot → schema voor verenigingen. Stichting → idem als VZW. Maatschap → boekhoudplichtig maar geen jaarrekening-plicht voor de maatschap zelf.",
+      "herkenningspunt": "Examen-vraag begint met rechtsvorm → eerst boekhoud-regime kiezen, dan jaarrekening-regime.",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WER + WVV"},
+      "_provenance": {"inputs": [
+        {"id": "CBN-2019-09-boekhoudplichtige-onderneming__sec_rechtspersonen-naar-belgisch-recht", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Sinds WVV 2019 is het kapitaalbegrip verlaten in de BV — er is geen wettelijk minimumkapitaal meer. Bestaande BVBA's werden automatisch BV. Examenopgaven met 'minimum 18.550 euro kapitaal BV' verwijzen naar de oude regeling.",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WVV art. 5:1 e.v."},
+      "_provenance": {"inputs": [
+        {"id": "WVV__art_15", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "wetboek-vennootschappen-verenigingen",
+      "redenering": "Vormen zijn vastgelegd in het WVV.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "boekhoudplichtige-onderneming",
+      "redenering": "Vorm beïnvloedt het boekhoud-regime.",
+      "confidence": "inferred"
+    }
+  ]
+}

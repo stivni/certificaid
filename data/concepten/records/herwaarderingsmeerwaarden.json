@@ -1,0 +1,218 @@
+{
+  "id": "herwaarderingsmeerwaarden",
+  "naam": "Herwaarderingsmeerwaarden",
+  "node_type": "fenomeen",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.1.II.B",
+    "1.1.II.H",
+    "1.2.V.B",
+    "1.2.V"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.1.II.B",
+    "dekt_ook_anchors": [
+      "1.1.II.H"
+    ],
+    "reviewed_by": null,
+    "po_1_2_extension": "2026-05-16: +['1.2.V.B', '1.2.V']"
+  },
+  "definitie": {
+    "text": "Een **uitzonderlijke opwaardering** van een materieel of financieel vast actief boven zijn aanschaffingswaarde, geboekt als 'herwaarderingsmeerwaarde' aan de passiefzijde van de balans (rubriek III. binnen eigen middelen). Toegelaten enkel onder strikte voorwaarden (KB WVV art. 3:35): (a) zekere en duurzame meerwaarde; (b) onontbeerlijk voor de continuïteit van de bedrijfsactiviteit; (c) past binnen het getrouw beeld. Niet-uitkeerbaar zolang niet gerealiseerd. Wanneer het actief afschrijfbaar is, wordt ook de herwaardering afgeschreven.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV art. 3:35"
+    },
+    "references": [
+      {
+        "type": "advies",
+        "short": "CBN 2011/14 — Herwaarderingsmeerwaarden"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 113/6 — Herwaardering afschrijfbare activa"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_onderscheid-tussen-terugname-afschrijvingen-en-herwaardering",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-0113-06-herwaardering-van-afschrijfbare-activa-intercommunale-verenigingen-e__sec_de-hoofdkenmerken-daarvan-zijn-de-volgende",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorbeeld_inline": "Naaiatelier Ninove BV heeft een productiehal aangeschaft in 2005 voor € 320.000 (terrein) — werkelijke waarde nu € 580.000 door bestemmingswijziging tot bouwgrond. Bestuur beslist herwaardering toe te passen: Debet 220 Terreinen € 260.000 / Credit 12 Herwaarderingsmeerwaarden € 260.000. Niet-uitkeerbaar; bij latere verkoop wordt de meerwaarde gerealiseerd en kan ze deels naar reserves.",
+  "bouwstenen": [
+    {
+      "titel": "Strikte voorwaarden: zeker, duurzaam, onontbeerlijk",
+      "wat": "Herwaardering is alleen mogelijk wanneer: (1) de meerwaarde **zeker** is (geen vermoeden), (2) **duurzaam** (geen tijdelijke marktopstoot), (3) **onontbeerlijk voor de continuïteit** van de bedrijfsactiviteit (de boekhoudkundige waarde geeft anders een misleidend beeld).",
+      "waarom": "Het voorzichtigheidsbeginsel verbiedt normaal het boeken van latente meerwaarden. De uitzondering bestaat alleen voor uitzonderlijke gevallen waarin het beeld anders zwaar verstoord zou zijn. Strikte criteria voorkomen oneigenlijk gebruik.",
+      "voorbeeld_inline": "Solaris Sint-Truiden BV heeft een aandelenportefeuille (aanschaffing € 450.000, marktwaarde € 620.000) — fluctueert marktconform. NIET geschikt voor herwaardering: te volatiel, niet onontbeerlijk voor de continuïteit.",
+      "grondslag": "KB WVV art. 3:35, § 1",
+      "confidence": "grounded",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:35"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0113-06-herwaardering-van-afschrijfbare-activa-intercommunale-verenigingen-e__sec_de-hoofdkenmerken-daarvan-zijn-de-volgende",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Boeking aan passiefzijde, onder eigen vermogen",
+      "wat": "De herwaarderingsmeerwaarde verschijnt op rekening 12 'Herwaarderingsmeerwaarden' onder rubriek III van het eigen vermogen. NIET via de resultatenrekening; het is geen winst van het boekjaar.",
+      "waarom": "De meerwaarde is nog niet gerealiseerd; opname in resultaat zou een spookwinst genereren. Plaatsing in eigen vermogen maakt de opwaardering wel zichtbaar maar buiten het uitkeerbaar resultaat.",
+      "voorbeeld_inline": "Naaiatelier Ninove BV: aanvang 20X1 terrein op € 320.000; eind 20X1 herwaardering naar € 580.000. Boeking: Debet 220 € 260.000 / Credit 12 € 260.000. Resultaat 20X1 niet beïnvloed.",
+      "grondslag": "KB WVV art. 3:35, § 2; MAR klasse 12",
+      "confidence": "grounded",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:35"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_onderscheid-tussen-terugname-afschrijvingen-en-herwaardering",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Afschrijfbaar actief: herwaardering volgt afschrijvingsplan",
+      "wat": "Als het geherwaardeerd actief afschrijfbaar is (bv. gebouw), wordt de herwaardering proportioneel mee afgeschreven over de resterende gebruiksduur. Naarmate afgeschreven wordt, kan de herwaarderingsmeerwaarde naar reserves worden overgeboekt (gerealiseerd via afschrijving).",
+      "waarom": "Anders zou de balanswaarde stelselmatig oplopen terwijl het actief economisch verbruikt wordt. Realisatie door gebruik (via afschrijving) rechtvaardigt de overboeking naar reserves.",
+      "voorbeeld_inline": "Naaiatelier Ninove BV herwaardeert haar gebouw (boekwaarde € 350.000, herwaardering +€ 150.000 → € 500.000). Resterende gebruiksduur 20 jaar. Jaarlijkse extra-afschrijving op herwaardering = € 150.000 / 20 = € 7.500; tegelijk overboeking € 7.500 van rekening 12 naar 14 Beschikbare reserves (gerealiseerd door gebruik).",
+      "grondslag": "CBN 2011/14",
+      "confidence": "grounded",
+      "source": {
+        "type": "advies",
+        "short": "CBN 2011/14"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_onderscheid-tussen-terugname-afschrijvingen-en-herwaardering",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Niet-uitkeerbaar zolang niet gerealiseerd",
+      "wat": "De herwaarderingsmeerwaarde mag NIET worden uitgekeerd zolang ze niet gerealiseerd is (door verkoop of door gebruik via afschrijving). Bij verkoop van het actief wordt het overblijvend deel van de meerwaarde gerealiseerd en kan het naar de winst van het jaar (of beschikbare reserves) gaan.",
+      "waarom": "De meerwaarde is een boekhoudkundige zichtbaarmaking, geen liquide vermogen. Uitkering zou kapitaal-uitholling betekenen.",
+      "voorbeeld_inline": "Naaiatelier Ninove BV mag de € 260.000 herwaarderingsmeerwaarde op het terrein NIET in dividend uitkeren. Bij latere verkoop van het terrein voor € 600.000: gerealiseerd verschil komt eerst in resultaat, na bestemming kan het naar beschikbare reserves of dividend.",
+      "grondslag": "KB WVV art. 3:35, § 3",
+      "confidence": "grounded",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:35"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_onderscheid-tussen-terugname-afschrijvingen-en-herwaardering",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Terugname afschrijving vs herwaardering",
+      "betekenis": "Een volledig afgeschreven actief dat plots een nieuwe gebruiksduur krijgt (bv. exploitatievergunning verlengd) kan op twee manieren worden gecorrigeerd: (1) herwaardering volgens KB WVV art. 3:35 (mits voorwaarden), of (2) terugname van eerdere afschrijvingen (alleen voor activa met beperkte gebruiksduur waar de oorspronkelijke afschrijving te snel was). Verschil: herwaardering boekt nieuwe waarde boven aanschaffingswaarde; terugname blijft binnen aanschaffingswaarde.",
+      "herkenningspunt": "Examen: 'volledig afgeschreven gebouw, nieuwe exploitatievergunning verlengt levensduur' — keuze tussen terugname afschrijving of herwaardering hangt af van of de nieuwe waarde boven of binnen de oorspronkelijke aanschaffingswaarde ligt.",
+      "confidence": "grounded",
+      "source": {
+        "type": "advies",
+        "short": "CBN 2011/14"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_onderscheid-tussen-terugname-afschrijvingen-en-herwaardering",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Herwaardering is GEEN gewone optie. De toepassingsvoorwaarden (zeker + duurzaam + onontbeerlijk voor continuïteit) zijn cumulatief en streng. De facto wordt ze in de praktijk weinig toegepast — meestal alleen voor terreinen of historische gebouwen met duidelijke duurzame waardestijging.",
+      "confidence": "inferred-from-aggregation",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:35"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0113-06-herwaardering-van-afschrijfbare-activa-intercommunale-verenigingen-e__sec_de-hoofdkenmerken-daarvan-zijn-de-volgende",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Herwaarderingsmeerwaarden zijn NIET vrij uitkeerbaar. Verwarring met beschikbare reserves: rekening 12 staat onder eigen vermogen MAAR is een gebonden reserve.",
+      "confidence": "grounded",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:35"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_onderscheid-tussen-terugname-afschrijvingen-en-herwaardering",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "aanschaffingswaarde",
+      "verschil": "Aanschaffingswaarde = historische kostprijs, blijft stabiel op de balans. Herwaardering = uitzonderlijke opwaardering boven aanschaffingswaarde, geboekt als afzonderlijke meerwaarde-rubriek met eigen passief-tegenpost.",
+      "trigger": "Examen: 'aanpassen waarde van een terrein boven aankoopprijs' → herwaardering (mits voorwaarden), niet aanschaffingswaarde wijzigen."
+    }
+  ],
+  "edges": [
+    {
+      "type": "vergelijkt-met",
+      "target": "aanschaffingswaarde",
+      "redenering": "Herwaardering is de uitzondering op de stabiele historische kostprijs."
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "eigen-middelen",
+      "redenering": "Herwaarderingsmeerwaarde verschijnt onder eigen middelen (rubriek III), niet als resultaat."
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+programmaonderdeel: "1.2"
+titel: "Boekhoudrecht en jaarrekeningenrecht"
+status: voorgesteld
+schema_version: "1.0"
+hoofdstukken:
+  - type: oriëntatie
+    titel: "Waarom een boekhoudrecht? Regelmatige en getrouwe boekhouding als spil"
+    rationale_hint: >-
+      Vertrek vanuit het idee dat een boekhouding niet enkel een interne
+      stuurmaatregel is, maar ook een wettelijk informatie-instrument voor
+      derden (aandeelhouders, schuldeisers, werknemers, fiscus, NBB). Verbind
+      de begrippen 'regelmatige boekhouding' en 'getrouw beeld' met de
+      stakeholders en het bewijswaarde-aspect van de boekhouding. Maak
+      duidelijk dat het boekhoudrecht een gelaagd rechtsdomein is — geen
+      monoliet — en dat de stagiair leert redeneren door af te dalen van wet
+      naar advies naar rechtspraak. Sluit aan bij de begrippen
+      boekhoudplichtige-onderneming, jaarrekening-als-studieobject en
+      regelmatige-boekhouding uit de meegeleverde records.
+
+  - type: synthese
+    synthese_id: rechtsbronnen-boekhoudrecht-piramide
+    rationale_hint: >-
+      Plaats de piramide vroeg als visuele kapstok: vijf lagen (EU → WER
+      Boek III + WVV → KB-WVV → CBN-advies → rechtspraak) met telkens hun
+      bindende kracht en typische examenrol. De student kent de begrippen
+      nog niet allemaal, maar ziet meteen welke bronnen de wet gebruikt om
+      een boekhoudvraag te beantwoorden. Verderop in het leerpad wordt elke
+      laag uitgediept; deze synthese is de globale kaart van het hele
+      programmaonderdeel.
+
+  - type: competentie
+    competentie_id: identificeren-rechtsbron-boekhoudrecht
+
+  - type: synthese
+    synthese_id: autoriteiten-boekhoudrecht-landschap
+    rationale_hint: >-
+      Na de bronnen-piramide brengt deze synthese het actor-landschap in
+      kaart: wie maakt regels (CBN, NBB voor IFRS-PIEs), wie houdt toezicht
+      (FSMA op markten, NBB op banken en verzekeraars), wie controleert
+      (commissaris, ITAA-leden, IBR-leden), wie publiceert (NBB-balanscentrale,
+      griffies) en wie taxeert (FOD Financiën). Verbind elke actor met de
+      laag uit de piramide waar die actor handelt — zodat de student per
+      casus weet bij welk loket aan te kloppen.
+
+  - type: competentie
+    competentie_id: identificeren-administratieve-autoriteit
+
+  - type: thematisch
+    titel: "Grondslag van de boekhoudplicht: wie moet boekhouden en hoe?"
+    concepten:
+      - boekhoudplichtige-onderneming
+      - regelmatige-boekhouding
+      - dubbel-boekhouden
+      - vereenvoudigde-boekhouding
+      - minimum-algemeen-rekeningenstelsel
+      - dagboek
+      - hulpdagboeken
+      - inventaris
+      - proef-en-saldibalans
+      - eindejaarsverrichtingen
+      - onveranderlijkheid-boekingen
+      - bewaartermijn-boekhouding
+
+  - type: synthese
+    synthese_id: boekjaar-eindprocedure-checklist
+    rationale_hint: >-
+      Deze checklist bundelt de stappen van een ordelijke boekjaareinde-
+      procedure (inventaris, eindejaarsverrichtingen, proef-en-saldibalans,
+      jaarrekening opstellen) tot één procedureel overzicht. Plaats vlak na
+      het thematische cluster over boekhoudplicht-grondslag: de student
+      heeft net geleerd welke boeken er bestaan en kan nu zien hoe ze in
+      de tijd op elkaar volgen om een regelmatige boekhouding af te ronden.
+
+  - type: competentie
+    competentie_id: kwalificeren-boekhoudplichtige-onderneming
+
+  - type: competentie
+    competentie_id: kwalificeren-jaarrekeningregime-vzw-stichting
+
+  - type: synthese
+    synthese_id: vennootschapsgrootte-cascade
+    rationale_hint: >-
+      Zodra duidelijk is wie boekhoudplichtig is, komt de groottevraag: de
+      cascade micro / klein / groot bepaalt jaarrekeningschema, commissaris-
+      verplichting, openbaarmakingsvorm en consolidatieplicht. Deze synthese
+      toont in één tabel de drempels (omzet / balanstotaal / personeel) én
+      de gevolgketen per categorie. Plaats vóór de twee daaropvolgende
+      competenties zodat de student de groottecriteria niet drie keer
+      apart leert maar als één gelaagd toetsingsmechanisme.
+
+  - type: competentie
+    competentie_id: klasseren-vennootschap-naar-groottecategorie
+
+  - type: competentie
+    competentie_id: bepalen-jaarrekeningschema
+
+  - type: thematisch
+    titel: "De jaarrekening als studieobject: bestanddelen en samenstelling"
+    concepten:
+      - jaarrekening-als-studieobject
+      - samenstelling-statutaire-jaarrekening
+      - toelichting-jaarrekening
+      - sociale-balans
+      - bestuursverslag
+      - jaarverslag
+      - klasse-0-niet-in-balans
+      - niet-in-balans-opgenomen-rechten-verplichtingen
+
+  - type: thematisch
+    titel: "Boekhoudbeginselen en waarderingsregels: het redeneerkader bij twijfel"
+    concepten:
+      - getrouw-beeld
+      - getrouw-beeld-jaarrekening
+      - voorzichtigheidsbeginsel
+      - continuiteitsbeginsel
+      - oprechtheidsbeginsel
+      - consistentiebeginsel
+      - volledigheidsbeginsel
+      - aanvullende-boekhoudbeginselen
+      - waarderingsregels-jaarrekening
+      - aanschaffingswaarde
+      - afschrijvingen
+      - waardeverminderingen
+      - herwaarderingsmeerwaarden
+      - voorzieningen
+      - oprichtingskosten
+      - overlopende-rekeningen
+
+  - type: synthese
+    synthese_id: boekhoudbeginselen-overzicht
+    rationale_hint: >-
+      Plaats deze synthese vlak vóór de toepassings-competentie als
+      vergelijkingstabel van de vijf hoofd-boekhoudbeginselen (voorzichtig-
+      heid, continuïteit, oprechtheid, consistentie, volledigheid) plus de
+      aanvullende beginselen. De student ziet per beginsel: wat het zegt,
+      welk artikel het verankert, welk type waarderingsvraagstuk het stuurt
+      en welk getrouw-beeld-aspect het beschermt. Dit overzicht maakt de
+      overstap naar de competentie expliciet: de stagiair moet niet alleen
+      één beginsel kunnen toepassen, maar herkennen wélk beginsel domineert
+      bij een gegeven waarderingsvraag.
+
+  - type: competentie
+    competentie_id: toepassen-boekhoudbeginselen-op-waarderingsvraagstuk
+
+  - type: thematisch
+    titel: "Toezicht en openbaarmaking: de externe controle-keten"
+    concepten:
+      - commissaris
+      - public-interest-entity
+      - openbaarmaking-jaarrekening
+
+  - type: competentie
+    competentie_id: beoordelen-commissaris-verplichting
+
+  - type: competentie
+    competentie_id: uitvoeren-openbaarmaking-jaarrekening
+
+  - type: oriëntatie
+    titel: "Reflectie: een levend rechtsdomein — CBN-adviezen in de praktijk"
+    rationale_hint: >-
+      Sluit af met een korte reflectie op de dynamiek van het boekhoudrecht:
+      hoewel WER Boek III en WVV stabiele kaders bieden, evolueert het
+      domein voortdurend via CBN-adviezen (niet-bindend maar gezaghebbend),
+      via Europese richtlijnen (CSRD, duurzaamheidsrapportering) en via
+      cassatierechtspraak over getrouw-beeld en substance-over-form. Verwijs
+      naar de rol van CBN-adviezen zoals beschreven in de piramide-synthese
+      en in het record cbn-adviezen: de stagiair moet leren dat een CBN-
+      advies geen wet is, maar bij twistgeval wél het eerste argumentatieve
+      anker. Maak de overstap naar PO 1.3 (analyse) en PO 1.4 (consolidatie)
+      door op te merken dat dezelfde rechtsbronnen-piramide daar opnieuw
+      gebruikt wordt.
+
+_provenance:
+  voorgesteld_door: "leerpad-propose-v1-po-1.2-2026-05-16T16:30Z"
+  voorgesteld_op: "2026-05-16T16:30:00+00:00"
+  gecureerd_door: null
+  gecureerd_op: null

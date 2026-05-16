@@ -1,0 +1,743 @@
+{
+  "po": "1.2",
+  "anchor_id": "1.2.IV.A",
+  "anchor": {
+    "tekst": "Soorten vennootschappen en verenigingen",
+    "anchor_type": "",
+    "verbose": "",
+    "synoniemen": []
+  },
+  "matches_source": "data/extractie/matches/latest.json",
+  "bundle_size": 81,
+  "bundle": [
+    {
+      "chunk_id": "KB-WVV-2019__art_3_51",
+      "chunk_sha": "64182c075d362274",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:62",
+      "score": 0.6982,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Vorm en inhoud van de jaarrekening]\n\nArt. 3:62\n\nDe vennootschappen, VZW's, IVZW's en stichtingen mogen in de toelichting de rubrieken en onderrubrieken die verplicht moeten worden vermeld verder indelen.  De omschrijving van de in de schema's door een hoofdletter aangegeven rubrieken en van de onderrubrieken moet, wanneer de naleving van het voorschrift van artikel 3:1, eerste lid, dit vereist, aangepast worden aan de bijzondere aard van de werkzaamheden, van het vermogen en van de opbrengsten en kosten van de vennootschap, VZW, IVZW of stichting."
+    },
+    {
+      "chunk_id": "VCF__art_1.1.0.0.2__sub_21deg",
+      "chunk_sha": "99b4368c2fc7096b",
+      "bron": "Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF)",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 1.1.0.0.2. — 21°",
+      "score": 0.6965,
+      "text": "[Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF) → Inleidende bepalingen → Algemene bepalingen en definities → Art. 1.1.0.0.2. → 21°]\n\nArt. 1.1.0.0.2. — 21°\n\n21° vennootschappen : een vennootschap, vereniging,  inrichting of instelling die regelmatig is opgericht,  rechtspersoonlijkheid  bezit  en  een  onderneming  exploiteert of zich bezighoudt met verrichtingen van  winstgevende aard. Lichamen met rechtspersoonlijkheid  die naar Belgisch recht zijn opgericht en die voor de  toepassing van de inkomstenbelastingen worden geacht  geen rechtspersoonlijkheid te bezitten, worden niet als  vennootschappen aangemerkt;"
+    },
+    {
+      "chunk_id": "WVV__art_14_29",
+      "chunk_sha": "c65249d2c245f639",
+      "bron": "Wetboek van vennootschappen en verenigingen 23/03/2019",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 14:31",
+      "score": 0.6862,
+      "text": "[Wetboek van vennootschappen en verenigingen 23/03/2019 → Herstructurering en omzetting. - BOEK 14. Omzetting van vennootschappen, verenigingen en stichtingen → Omzetting van een vennootschap in een VZW of IVZW]\n\nArt. 14:31\n\nEen vennootschap met rechtspersoonlijkheid kan worden omgezet in een VZW of een IVZW.  Deze omzetting laat de rechtspersoonlijkheid van de vennootschap die blijft voortbestaan in de vorm van een VZW of een IVZW, onverlet."
+    },
+    {
+      "chunk_id": "WVV__art_14_41",
+      "chunk_sha": "f6d8defac33f24ec",
+      "bron": "Wetboek van vennootschappen en verenigingen 23/03/2019",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 14:46",
+      "score": 0.664,
+      "text": "[Wetboek van vennootschappen en verenigingen 23/03/2019 → Herstructurering en omzetting. - BOEK 14. Omzetting van vennootschappen, verenigingen en stichtingen → Omzetting van verenigingen → Nationale omzetting]\n\nArt. 14:46\n\nEen VZW kan worden omgezet in een IVZW. Een IVZW kan worden omgezet in een VZW.  Die omzetting laat de rechtspersoonlijkheid van de vereniging die in een andere vorm blijft voortbestaan, onverlet."
+    },
+    {
+      "chunk_id": "WVV__art_14_34",
+      "chunk_sha": "7b048460eaf38f6a",
+      "bron": "Wetboek van vennootschappen en verenigingen 23/03/2019",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 14:37",
+      "score": 0.6639,
+      "text": "[Wetboek van vennootschappen en verenigingen 23/03/2019 → Herstructurering en omzetting. - BOEK 14. Omzetting van vennootschappen, verenigingen en stichtingen → Omzetting van een vennootschap in een VZW of IVZW]\n\nArt. 14:37\n\nDe VZW kan worden omgezet in een erkende CVSO of een CV erkend als SO.  Deze omzetting laat de rechtspersoonlijkheid van de VZW die blijft voortbestaan in de vorm van een coöperatieve vennootschap, onverlet."
+    },
+    {
+      "chunk_id": "WVV__art_9",
+      "chunk_sha": "9b3de5e0786672dc",
+      "bron": "Wetboek van vennootschappen en verenigingen 23/03/2019",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 9:1",
+      "score": 0.6621,
+      "text": "[Wetboek van vennootschappen en verenigingen 23/03/2019 → Erkenning van vennootschappen → Algemene bepalingen]\n\nArt. 9:1\n\nDe VZW is een vereniging met rechtspersoonlijkheid waarvan de leden in die hoedanigheid niet aansprakelijk zijn voor de verbintenissen die de vereniging aangaat."
+    },
+    {
+      "chunk_id": "CBN-2019-11-de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder__sec_beoogde-personen-rechtsvorm",
+      "chunk_sha": "7177e67b26d9ce96",
+      "bron": "2019/11",
+      "bron_rol": "advies",
+      "sectie": "Beoogde personen - rechtsvorm",
+      "score": 0.6543,
+      "text": "[CBN-advies 2019/11 — CBN-advies 2019/11 – De vereenvoudigde boekhouding van een natuurlijke persoon,…]\n\nBeoogde personen - rechtsvorm\n\nDe mogelijkheid tot het voeren van een vereenvoudigde boekhouding is uitsluitend voorbehouden voor de boekhoudplichtige ondernemingen in één van de volgende rechtsvormen: \n\n- natuurlijke personen die zelfstandig een beroepsactiviteit uitoefenen; \n- organisaties zonder rechtspersoonlijkheid; \n- vennootschappen onder firma (VOF); \n- commanditaire vennootschappen (CommV). \n\nEen besloten vennootschap (BV), een coöperatieve vennootschap (CV), een naamloze vennootschap (NV), een Europese vennootschap (SE) en een Europese coöperatieve vennootschap (SCE) moet steeds een boekhouding voeren volgens de regels van het dubbel boekhouden, ongeacht de omvang van haar omzet."
+    },
+    {
+      "chunk_id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen",
+      "chunk_sha": "7c14f125530b2724",
+      "bron": "2022/03",
+      "bron_rol": "advies",
+      "sectie": "Definitie van kleine vennootschappen en microvennootschappen",
+      "score": 0.654,
+      "text": "[CBN-advies 2022/03 — CBN-advies 2022/03 - Beoordeling van de groottecriteria overeenkomstig…]\n\nDefinitie van kleine vennootschappen en microvennootschappen\n\nArtikel 1:24 van het Wetboek van vennootschappen en verenigingen (hierna: WVV) maakt een onderscheid tussen ‘kleine’ vennootschappen en vennootschappen die niet als dusdanig kunnen worden gekwalificeerd. Volgens artikel 1:24, § 1 WVV zijn kleine vennootschappen deze met rechtspersoonlijkheid[^2] die op balansdatum van het laatst afgesloten boekjaar, niet meer dan één van de volgende criteria overschrijden:\n\n- jaargemiddelde van het aantal werknemers: 50; \n- jaaromzet, exclusief de belasting over de toegevoegde waarde: 9.000.000 euro; \n- balanstotaal: 4.500.000 euro. \n\nArtikel 1:25 WVV definieert microvennootschappen als kleine vennootschappen met rechtspersoonlijkheid die op balansdatum van het laatst afgesloten boekjaar geen dochtervennootschap of moedervennootschap zijn en die niet meer dan één der volgende criteria overschrijden:\n\n- jaargemiddelde van het aantal werknemers: 10; \n- jaaromzet, exclusief de belasting over de toegevoegde waarde: 700.000 euro; \n- balanstotaal: 350.000 euro. \n\nMicrovennootschappen worden gedefinieerd als een subcategorie van kleine vennootschappen. Bijgevolg zijn de bepalingen die gelden voor kleine vennootschappen onder bepaalde voorwaarden ook van toepassing op microvennootschappen (*infra* randnummer 20)."
+    },
+    {
+      "chunk_id": "WIB92__art_2__sub_5deg_1",
+      "chunk_sha": "8e85867440f5d839",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 2 — 5°/1",
+      "score": 0.6532,
+      "text": "[WIB92 → PERSONENBELASTING → HOOFDSTUK I → Art. 2 → 5°/1]\n\nArt. 2 — 5°/1\n\n5°/1 Groep van vennootschappen\n\nOnder groep van vennootschappen wordt verstaan het geheel van vennootschappen die met elkaar verbonden zijn in de zin van artikel 1:20 van het Wetboek van vennootschappen en verenigingen."
+    },
+    {
+      "chunk_id": "WIB92__art_2__sub_5deg",
+      "chunk_sha": "40ac2b298cd5a3cd",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 2 — 5°",
+      "score": 0.6523,
+      "text": "[WIB92 → PERSONENBELASTING → HOOFDSTUK I → Art. 2 → 5°]\n\nArt. 2 — 5°\n\n5° Vennootschappen\n\nEr wordt verstaan onder :\n\na) vennootschap : enigerlei vennootschap, vereniging, inrichting of instelling die een onderneming exploiteert of zich bezighoudt met verrichtingen van winstgevende aard\n\nen die\n\n- ofwel rechtspersoonlijkheid bezit naar het recht, Belgisch of buitenlands, dat haar beheerst;\n\n- ofwel wordt beheerst door een buitenlands recht die haar geen rechtspersoonlijkheid toekent maar een rechtsvorm heeft die vergelijkbaar is met die van een vennootschap met rechtspersoonlijkheid naar Belgisch recht en voldoet aan de definitie van binnenlandse vennootschap als bedoeld onder\nb) hieronder.\n\nLichamen met rechtspersoonlijkheid die naar Belgisch recht zijn opgericht en voor de toepassing van de inkomstenbelastingen worden geacht geen rechtspersoonlijkheid te bezitten, worden niet als vennootschappen aangemerkt ;\n\nb) binnenlandse vennootschap : enigerlei vennootschap die in België, haar voornaamste inrichting of haar zetel van bestuur of beheer heeft en niet van de vennootschapsbelasting is uitgesloten ;\n\nDe vennootschap die haar statutaire zetel in België heeft, wordt behoudens tegenbewijs vermoed daar ook haar voornaamste inrichting of haar zetel van bestuur of beheer te hebben. Het tegenbewijs wordt enkel aanvaard indien er bovendien is aangetoond dat de fiscale woonplaats van de vennootschap in een andere Staat dan België is gevestigd volgens de fiscale wetgeving van deze andere Staat;\n\nb)bis intra-Europese vennootschap: iedere vennootschap van een Lidstaat van de Europese Unie:\n\n- die geen binnenlandse vennootschap is,\n\n- die een rechtsvorm heeft genoemd in bijlage I, deel A, bij de Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil met betrekking tot vennootschappen uit verschillende lidstaten en voor de verplaatsing van de statutaire zetel van een SE of een SCE van een lidstaat naar een andere lidstaat, met dien verstande dat, met betrekking tot de vennootschappen naar Belgisch recht bedoeld in punt b van deze bijlage, de verwijzingen naar \"besloten vennootschap met beperkte aansprakelijkheid\", \"coöperatieve vennootschap met beperkte aansprakelijkheid\", \"coöperatieve vennootschap met onbeperkte aansprakelijkheid\", en naar \"gewone commanditaire vennootschap\" ook moeten worden verstaan als een verwijzing naar respectievelijk de \"besloten vennootschap\", de \"coöperatieve vennootschap \"en de \"commanditaire vennootschap\".\n\n- die volgens de fiscale wetgeving van een Lidstaat van de Europese Unie, andere dan België, wordt geacht fiscaal in die Staat te zijn gevestigd zonder volgens een met een derde Staat gesloten verdrag inzake dubbele belastingheffing te worden geacht fiscaal buiten de Europese Unie te zijn gevestigd, en\n\n- die, zonder mogelijkheid van keuze en zonder ervan te zijn vrijgesteld, is onderworpen aan een van de belastingen gelijkaardig aan de vennootschapsbelasting opgesomd in bijlage I, deel B van de voormelde richtlijn ;\n\nc) buitenlandse vennootschap : onverminderd de bepaling onder 5°, b, enigerlei vennootschap die in België geen voornaamste inrichting of zetel van bestuur of beheer heeft ;\n\nc)bis kleine vennootschap: enigerlei vennootschap die op grond van artikel 1:24, §§ 1 tot 6, van het Wetboek van vennootschappen en verenigingen als kleine vennootschap wordt aangemerkt of die, wanneer dit artikel 1:24 niet op haar van toepassing is, op overeenkomstige wijze beantwoordt aan de criteria opgenomen in dit artikel 1:24, §§ 1 tot 6;\n\nd) financieringsvennootschap : enigerlei vennootschap die zich uitsluitend of hoofdzakelijk bezighoudt met dienstverrichtingen van financiële aard ten voordele van vennootschappen die met de dienstverrichtende vennootschap noch rechtstreeks noch onrechtstreeks een groep vormen ;\n\ne) thesaurievennootschap : enigerlei vennootschap waarvan de werkzaamheid uitsluitend of hoofdzakelijk bestaat in het verrichten van geldbeleggingen ;\n\nf) beleggingsvennootschap : enigerlei vennootschap die het gemeenschappelijk beleggen van kapitaal tot doel heeft ;\n\ng) gereglementeerde vastgoedvennootschap : enigerlei openbare of institutionele gereglementeerde vastgoedvennootschap, zoals bedoeld in artikel 2 van de wet van 12 mei 2014 betreffende de gereglementeerde vastgoedvennootschappen;\n\nh) beleggingsvennootschap met vast kapitaal voor belegging in vastgoed : enigerlei beleggingsvennootschap met vast kapitaal, zoals bedoeld in de artikelen 195 en 288 van de wet van 19 april 2014 betreffende de alternatieve instellingen voor collectieve belegging en hun beheerders, die als uitsluitend doel hebben de belegging in de in artikel 183, eerste lid, 3°, van dezelfde wet bedoelde categorie van toegelaten beleggingen;\n\ni) Europese langetermijnbeleggingsinstelling: elke alternatieve instelling voor collectieve belegging die bij statuten is geregeld en die opgericht is in de vorm van een vennootschap naar Belgisch recht met rechtspersoonlijkheid en die vóór de aanvang van haar werkzaamheden door de FSMA is erkend overeenkomstig Verordening (EU) 2015/760 van het Europees Parlement en de Raad van 29 april 2015 betreffende Europese langetermijnbeleggingsinstellingen."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_25",
+      "chunk_sha": "b33e51f637ada6c0",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:30",
+      "score": 0.6521,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Algemene principes → Voorzieningen]\n\nArt. 3:30\n\nDe voorzieningen voor risico's en kosten worden geïndividualiseerd naar gelang van de risico's en kosten met dezelfde aard die ze moeten dekken. Onder de risico's en kosten met dezelfde aard moeten de soorten van risico's en kosten worden verstaan die bij wijze van voorbeeld in artikel 3:32 zijn vermeld."
+    },
+    {
+      "chunk_id": "WVV__art_10_9",
+      "chunk_sha": "ef14c2dfa5ecc736",
+      "bron": "Wetboek van vennootschappen en verenigingen 23/03/2019",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 10:9",
+      "score": 0.6492,
+      "text": "[Wetboek van vennootschappen en verenigingen 23/03/2019 → De verenigingen en stichtingen. - BOEK 10. IVZW → Algemene bepalingen → Bestuur → <Opgeheven bij W 2020-04-28/06, art. 185, 002; Inwerkingtreding : 16-05-2020>]\n\nArt. 10:9\n\nDe statuten bepalen de vorm, de samenstelling, de werkwijze en de bevoegdheden van het bestuursorgaan.  De statuten bepalen de wijze van aanwijzing van de personen bevoegd om de IVZW te vertegenwoordigen tegenover derden."
+    },
+    {
+      "chunk_id": "WIB92__art_29",
+      "chunk_sha": "dc33b877b4a12cd0",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 29",
+      "score": 0.6469,
+      "text": "[WIB92 → PERSONENBELASTING → HOOFDSTUK II → Beroepsinkomen → Belastbare inkomsten]\n\nArt. 29\n\n§ 1. In vennootschappen of verenigingen zonder rechtspersoonlijkheid, andere dan deze bedoeld in artikel 2, § 1, 5°, a, eerste lid, tweede streepje, die winst of baten verkrijgen, worden de opnemingen van de vennoten of leden en hun deel in de verdeelde of onverdeelde winst of baten, als winst of baten van de vennoten of leden aangemerkt.\n\n§ 2. Voor de toepassing van § 1, worden geacht verenigingen zonder rechtspersoonlijkheid te zijn :\n\n1° …\n\n2° vennootschappen erkend als landbouwonderneming, als bedoeld in artikel 8:2 van het Wetboek van vennootschappen en verenigingen, en die de rechtsvorm hebben van een vennootschap onder firma of commanditaire vennootschap, behalve indien deze voor de heffing van de vennootschapsbelasting hebben gekozen ; de Koning bepaalt (1) de voorwaarden waaraan de keuze en het behoud ervan zijn onderworpen ;\n\n------------------------------\n(1) art. 12 tot 16, KB/WIB 92.\n\n3° Europese economische samenwerkingsverbanden ;\n\n4° de vennootschappen onder firma voortkomende uit de omvorming van een economisch samenwerkingsverband bij toepassing van artikel 41 van het Wetboek van vennootschappen en verenigingen op voorwaarde dat de activiteiten van de vennootschap onder firma uitsluitend tot doel hebben om de economische bedrijvigheid van haar vennoten te vergemakkelijken of te ontwikkelen, dan wel de resultaten van die bedrijvigheid te verbeteren of te vergroten; daarenboven moet de bedrijvigheid van de vennootschap onder firma aansluiten bij deze van haar vennoten en van ondergeschikte betekenis zijn;\n\n5° verenigingen van medeëigenaars die krachtens artikel 3.86, § 1, van het Burgerlijk Wetboek rechtspersoonlijkheid bezitten.\n\nF.- Bezoldigingen."
+    },
+    {
+      "chunk_id": "WVV__art_14_2",
+      "chunk_sha": "4e683c23cd6f2058",
+      "bron": "Wetboek van vennootschappen en verenigingen 23/03/2019",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 14:2",
+      "score": 0.6454,
+      "text": "[Wetboek van vennootschappen en verenigingen 23/03/2019 → Herstructurering en omzetting. - BOEK 14. Omzetting van vennootschappen, verenigingen en stichtingen → Omzetting van vennootschappen → Nationale omzetting → Formaliteiten die het besluit tot omzetting van een vennootschap voorafgaan]\n\nArt. 14:2\n\nWanneer een vennootschap, opgericht in een van de rechtsvormen genoemd in artikel 1:5, § 2, een andere van die rechtsvormen aanneemt, blijft haar rechtspersoonlijkheid onveranderd voortbestaan in de nieuwe vorm."
+    },
+    {
+      "chunk_id": "CBN-2022-02-uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv__sec_inleiding",
+      "chunk_sha": "9fc89ede3cc76b80",
+      "bron": "2022/02",
+      "bron_rol": "advies",
+      "sectie": "Inleiding",
+      "score": 0.6439,
+      "text": "[CBN-advies 2022/02 — CBN-advies 2022/02 – Uittreding en uitsluiting lastens het…]\n\nInleiding\n\nHet Wetboek van vennootschappen en verenigingen (WVV) voorziet dat de besloten vennootschap (BV) in haar statuten een uittredings- en uitsluitingsmogelijkheid ten laste van het vennootschapsvermogen kan uitwerken[^2] naar analogie met wat geldt voor de coöperatieve vennootschap (CV). Een belangrijk verschilpunt ten opzichte van de CV is dat dit voor een BV slechts mogelijk is indien de statuten een uittreding of uitsluiting lastens het vennootschapsvermogen expliciet voorzien, terwijl dit voor de CV altijd mogelijk is, zelfs als de statuten dit zouden verbieden.[^3] \n\nOnderhavig advies verduidelijkt de boekhoudkundige verwerking in hoofde van de BV en CV in geval dat een aandeelhouder uittreedt of uitgesloten wordt lastens het vennootschapsvermogen."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_27",
+      "chunk_sha": "a90d18be1d41b868",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:32",
+      "score": 0.6433,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Algemene principes → Voorzieningen]\n\nArt. 3:32\n\nVoorzieningen moeten, onder meer, gevormd worden met het oog op:  a) de verplichtingen die op de vennootschap, VZW, IVZW of stichting rusten inzake rust- en overlevingspensioenen, werkloosheid met bedrijfstoeslag en andere gelijkaardige pensioenen of renten;  b) de kosten van grote herstellings- of onderhoudswerken;  c) de verlies- of kostenrisico's die voor de vennootschap, VZW, IVZW of stichting voortvloeien uit persoonlijke of zakelijke zekerheden, verstrekt tot waarborg van schulden of verbintenissen van derden, uit verbintenissen tot aan- of verkoop van vaste activa, uit de uitvoering van gedane of ontvangen bestellingen, uit termijnposities of overeenkomsten in deviezen, termijnposities of overeenkomsten op goederen, uit technische waarborgen verbonden aan reeds door de vennootschap, VZW, IVZW of stichting verrichte verkopen of diensten, uit hangende geschillen;  d) de kosten van een milieuverplichting."
+    },
+    {
+      "chunk_id": "CBN-2011-20-verbonden-ondernemingen__sec_de-vennootschappen-a-en-b",
+      "chunk_sha": "533dd63e495e7146",
+      "bron": "2011/20",
+      "bron_rol": "advies",
+      "sectie": "De vennootschappen A en B",
+      "score": 0.6427,
+      "text": "[CBN-advies 2011/20 — CBN-advies 2011/20 – Verbonden ondernemingen]\n\nDe vennootschappen A en B\n\nMet een vennootschap verbonden vennootschappen betreffen \n\n1. de vennootschappen waarover zij zelf een controlebevoegdheid uitoefent (artikel 11, 1°, a) W.Venn.); \n2. de vennootschappen die een controlebevoegdheid over haar uitoefenen (artikel 11, 1°, b) W.Venn.); \n3. de vennootschappen waarmee zij een consortium vormt (artikel 11, 1°, c) W.Venn.) alsook \n4. de andere vennootschappen die, bij weten van haar bestuursorgaan, onder de controle staan van de vennootschappen bedoeld in a), b) en c) (artikel 11, 1°, d) W.Venn.). \n\nUit “de andere vennootschappen die, bij weten van haar bestuursorgaan, onder de controle staan van de vennootschappen bedoeld in b)” vloeit voort dat ook de vennootschappen A en B met elkaar verbonden vennootschappen zijn. BVBA A en B staan immers onder gezamenlijke controle van NV X en BVBA Y. NV X en BVBA Y oefenen zowel over BVBA A als over BVBA B controle uit. \n\n*Hieruit volgt dat ook de vennootschappen A en B met elkaar verbonden vennootschappen zijn.*"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_47",
+      "chunk_sha": "ce3d5d9f2809f548",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:57",
+      "score": 0.6426,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Vorm en inhoud van de jaarrekening]\n\nArt. 3:57\n\nBij inbreng van een bedrijfsafdeling of een algemeenheid van goederen zoals gedefinieerd in de artikelen 12:9 tot 12:11 van het Wetboek van vennootschappen en verenigingen [ 1 of bij een met een splitsing gelijkgestelde grensoverschrijdende verrichting zoals gedefinieerd in artikel 12:8, 3°, van het Wetboek van vennootschappen en verenigingen] 1 of bij toepassing van artikel 13:1 van hetzelfde wetboek, worden de ingebrachte [ 1 of overgedragen] 1 activa, passiva, rechten en verplichtingen opgenomen in de boekhouding van de [ 1 verkrijgende] 1 vennootschap, VZW, IVZW of stichting [ 1 ...] 1 tegen de waarde waarvoor zij op [ 1 de datum van de verrichting] 1 in de boekhouding van de inbrengende [ 1 of overdragende] 1 vennootschap, VZW, IVZW of stichting voorkwamen.  ----------  ( 1 )<KB 2023-11-26/05, art. 3, 005; Inwerkingtreding : 21-12-2023>"
+    },
+    {
+      "chunk_id": "CBN-2020-12-correctie-van-de-jaarrekening-0__sec_correctie-van-de-jaarrekening",
+      "chunk_sha": "b25648925507cc28",
+      "bron": "2020/12",
+      "bron_rol": "advies",
+      "sectie": "Correctie van de jaarrekening",
+      "score": 0.642,
+      "text": "[CBN-advies 2020/12 — CBN-advies 2020/12 - Correctie van de jaarrekening]\n\nCorrectie van de jaarrekening\n\nDe jaarrekening van vennootschappen, VZW’s, IVZW’s of stichtingen, zelfs al werd die reeds goedgekeurd door respectievelijk de vennoten verenigd in vergadering of algemene vergadering (bij vennootschappen), de algemene vergadering (bij VZW’s en IVZW’s) of het bestuursorgaan (bij stichtingen), kan of moet het voorwerp uitmaken van een correctie.\n\nHet Wetboek van vennootschappen en verenigingen voert twee vormen van correctie in:\n\n- de “vrijwillige” correctie (artikelen 3:19, § 1, eerste lid WVV (vennootschappen); 3:49, § 1 eerste lid WVV (VZW’s & IVZW’s); en 3:53, eerste lid WVV (stichtingen); \n- de “verplichte” correctie (artikelen 3:19, § 1, tweede lid WVV (vennootschappen); 3:49, § 1, tweede lid WVV (VZW’s & IVZW’s); en 3:53 tweede lid WVV (stichtingen)). \n\nVoor beleidsbeslissingen en te goeder trouw verworven rechten werden er specifieke regels voorzien[^32]. De Commissie bestudeert eveneens de impact van een correctie van de statutaire jaarrekening van een vennootschap die tot een groep behoort op de geconsolideerde jaarrekening van deze groep[^33]."
+    },
+    {
+      "chunk_id": "VCF__art_1.1.0.0.2__sub_5deg__dup3",
+      "chunk_sha": "3ceb82c97115eb89",
+      "bron": "Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF)",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 1.1.0.0.2. — 5°",
+      "score": 0.6401,
+      "text": "[Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF) → Inleidende bepalingen → Algemene bepalingen en definities → Art. 1.1.0.0.2. → 5°]\n\nArt. 1.1.0.0.2. — 5°\n\n5° vennootschap: in afwijking van het eerste lid, 21°, een  vennootschap als vermeld in het Wetboek van  vennootschappen en verenigingen.\n\nIn titel 2, hoofdstuk 4, wordt verstaan onder :  Au titre 2, chapitre 4, on entend par :"
+    },
+    {
+      "chunk_id": "CBN-2020-13-overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze__sec_inleiding",
+      "chunk_sha": "962b5bf61a954dd6",
+      "bron": "2020/13",
+      "bron_rol": "advies",
+      "sectie": "Inleiding",
+      "score": 0.6397,
+      "text": "[CBN-advies 2020/13 — CBN-advies 2020/13 – Overgang van een kapitaalhoudende coöperatieve…]\n\nInleiding\n\nIngevolge de*wet van 23 maart 2019* *tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen* werd het aantal vennootschapsvormen verminderd. Een van de behouden rechtsvormen is de coöperatieve vennootschap (CV). Bij de opstelling van het WVV heeft de wetgever de rechtsvorm van de CV echter opnieuw exclusief voorbehouden voor vennootschappen die een onderneming voeren op basis van het coöperatief gedachtengoed.[^2] \n\nDe rechtsvormen coöperatieve vennootschap met beperkte aansprakelijkheid (CVBA) en coöperatieve vennootschap met onbeperkte aansprakelijkheid (CVOA), gedefinieerd in het Wetboek van vennootschappen (W.Venn.), verdwijnen. De vennootschappen die bestonden op 1 mei 2019 en de rechtsvorm hadden van een CVBA of een CVOA moeten aldus in één van de resterende rechtsvormen worden omgezet of gaan er van rechtswege in over. \n\nDe flexibiliteit die het WVV voorziet voor de besloten vennootschap (BV) heeft tot gevolg dat ondernemingen die onder het W.Venn. werden opgericht in de rechtsvorm van een CVBA en die hun onderneming niet voeren op basis van het voormelde coöperatief gedachtengoed, een BV zullen worden, tenzij ze kiezen voor een andere rechtsvorm. \n\nOnderhavig advies verduidelijkt, in aanvulling op het CBN-advies 2019/14 - *Van een kapitaalhoudende BVBA naar een kapitaalloze BV*, de boekhoudkundige gevolgen voor de CVBA en de CVOA naar aanleiding van hun omvorming van een kapitaalhoudende naar een kapitaalloze vennootschap. \n\nHet advies behandelt in hoofdzaak Hoofdstuk IV, Afdeling II *Overgangsregeling en inwerkingtreding van de wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen[^3]*  zoals gewijzigd door de artikelen 234 en 235 van de *wet van 28 april 2020 tot omzetting van Richtlijn (EU) 2017/828 van het Europees Parlement en de Raad van 17 mei 2017 tot wijziging van richtlijn 2007/36/EG wat het bevorderen van de langetermijnbetrokkenheid van aandeelhouders betreft, en houdende diverse bepalingen inzake vennootschappen en verenigingen (1)[^4]*. Het advies gaat niet nader in op de omzetting van een vennootschap die plaatsvindt in toepassing van Boek XII*Omzetting van vennootschappen van het Wetboek van vennootschappen* of in toepassing van Boek 14 *Omzetting van vennootschappen, verenigingen en stichtingen* van het WVV."
+    },
+    {
+      "chunk_id": "WIB92__art_2__sub_6deg",
+      "chunk_sha": "2093daf013033b44",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 2 — 6°",
+      "score": 0.6363,
+      "text": "[WIB92 → PERSONENBELASTING → HOOFDSTUK I → Art. 2 → 6°]\n\nArt. 2 — 6°\n\n6° Kapitaal\n\nEr wordt verstaan onder:\n\na) \"Kapitaal\", in hoofde van een vennootschap:\n\n1) het kapitaal van een naamloze vennootschap zoals bedoeld in het Wetboek van vennootschappen en verenigingen, of, in geval van een vennootschap met een andere rechtsvorm waarvoor het Belgisch of buitenlands recht dat haar beheerst in een gelijkaardig begrip voorziet, het begrip zoals bedoeld in dat recht;\n\n2) voor vennootschapsvormen waarvoor het Belgisch of buitenlands recht dat de vennootschap beheerst niet in een gelijkaardig begrip voorziet, het eigen vermogen van de vennootschap als bedoeld in het Belgisch recht of het buitenlands recht dat de vennootschap beheerst, in zoverre het gevormd wordt door inbrengen in geld of in natura, andere dan inbrengen in nijverheid.\n\nb) Gestort kapitaal\n\nZowel voor een binnenlandse als voor een buitenlandse vennootschap, het werkelijk gestort kapitaal zoals het geldt terzake van de vennootschapsbelasting."
+    },
+    {
+      "chunk_id": "WVV__art_14",
+      "chunk_sha": "ae7ed7a8c085c05c",
+      "bron": "Wetboek van vennootschappen en verenigingen 23/03/2019",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 14:1",
+      "score": 0.6359,
+      "text": "[Wetboek van vennootschappen en verenigingen 23/03/2019 → Herstructurering en omzetting. - BOEK 14. Omzetting van vennootschappen, verenigingen en stichtingen → Omzetting van vennootschappen → Nationale omzetting → Inleidende bepaling]\n\nArt. 14:1\n\n§ 1. Deze titel is van toepassing op alle vennootschappen met rechtspersoonlijkheid die dit wetboek regelt, onverminderd de specifieke bepalingen van toepassing op de SE of SCE.  De bepalingen van deze titel zijn eveneens van toepassing op de omzetting van andere rechtspersonen dan vennootschappen in een van de rechtsvormen van vennootschappen genoemd in artikel 1:5, § 2, voor zover de bijzondere wetten betreffende deze rechtspersonen dat bepalen en met naleving van de bijzondere bepalingen van diezelfde bijzondere wetten.  § 2. In een naamloze vennootschap met een duaal bestuur als bedoeld in deel 2, boek 7, titel 4, hoofdstuk 1, afdeling 3, oefent de raad van toezicht de bevoegdheden uit die dit boek 14 toewijst aan het bestuursorgaan."
+    },
+    {
+      "chunk_id": "WIB92__art_181",
+      "chunk_sha": "ae16b5c28c8a3275",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 181",
+      "score": 0.6341,
+      "text": "[WIB92 → VENNOOTSCHAPSBELASTING → HOOFDSTUK I]\n\nArt. 181\n\nAan de vennootschapsbelasting zijn ook niet onderworpen, verenigingen zonder winstoogmerk en andere rechtspersonen die geen winstoogmerk nastreven en :\n\n1° uitsluitend of hoofdzakelijk het bestuderen, het beschermen en het bevorderen van de professionele of interprofessionele belangen van hun leden tot doel hebben ;\n\n2° het verlengstuk of de emanatie zijn van rechtspersonen als vermeld onder 1°, wanneer ze uitsluitend of hoofdzakelijk tot doel hebben het vervullen, in naam en voor rekening van hun aangeslotenen, van alle of van een deel van de verplichtingen of formaliteiten die aan die aangeslotenen zijn opgelegd wegens het feit dat zij personeel tewerkstellen of ter uitvoering van de fiscale of sociale wetgeving, of het helpen van hun aangeslotenen bij het vervullen van die verplichtingen of formaliteiten ;\n\n3° ter uitvoering van de sociale wetgeving belast zijn met het innen, centraliseren, kapitaliseren en verdelen van de fondsen bestemd voor de toekenning van de voordelen bepaald in die wetgeving ;\n\n4° uitsluitend of hoofdzakelijk het verstrekken of het steunen van onderwijs tot doel hebben ;\n\n5° uitsluitend of hoofdzakelijk het organiseren van handelsbeurzen of tentoonstellingen tot doel hebben ;\n\n6° door de bevoegde organen van de\nGemeenschappen als dienst voor gezins- en bejaardenhulp zijn erkend ;\n\n7° erkend zijn voor de toepassing van artikel\n14533, § 1, eerste lid, 1°, b, d, e, h tot l, 2° en\n3°, of erkend zouden zijn indien ze daartoe een aanvraag indienden of omdat ze aan alle voorwaarden voldoen waaraan de erkenning is onderworpen behoudens die welke erin bestaat de bedrijvigheid op nationaal vlak te ontwikkelen of een invloedssfeer te hebben die één van de gemeenschappen of gewesten of het gehele land bestrijkt, naar het geval.\n\n8° onder toepassing vallen van Deel 3 van het\nWetboek van vennootschappen en verenigingen, voor zover hun activiteit louter bestaat in certificatie in de zin van de wet van 15 juli 1998 betreffende de certificatie van effecten uitgegeven door handelsvennootschappen, en de door hen uitgegeven certificaten krachtens artikel 13,\n§ 1, eerste lid, van dezelfde wet voor de toepassing van het WIB 1992 gelijkgesteld worden met de effecten waarop ze betrekking hebben."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_26",
+      "chunk_sha": "9f82bfc505fe822a",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:31",
+      "score": 0.633,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Algemene principes → Voorzieningen]\n\nArt. 3:31\n\nDe voorzieningen voor risico's en kosten moeten stelselmatig worden gevormd volgens de door de vennootschap, VZW, IVZW of stichting overeenkomstig artikel 3:6, § 1, vastgelegde methoden. Ze mogen niet afhangen van het resultaat van het boekjaar."
+    },
+    {
+      "chunk_id": "VCF__art_1.1.0.0.2__sub_8deg__dup2",
+      "chunk_sha": "bf9657c1353d4205",
+      "bron": "Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF)",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 1.1.0.0.2. — 8°",
+      "score": 0.6301,
+      "text": "[Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF) → Inleidende bepalingen → Algemene bepalingen en definities → Art. 1.1.0.0.2. → 8°]\n\nArt. 1.1.0.0.2. — 8°\n\n8° vennootschap: in afwijking van het eerste lid, 21°, een  vennootschap  als  vermeld  in  het  Wetboek  van  vennootschappen en verenigingen.\n\nIn titel 2, hoofdstuk 3, wordt verstaan onder :"
+    },
+    {
+      "chunk_id": "CBN-2010-01-de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis__sec_tweede-categorie",
+      "chunk_sha": "ef4477a6409d968a",
+      "bron": "2010/1",
+      "bron_rol": "advies",
+      "sectie": "Tweede categorie",
+      "score": 0.628,
+      "text": "[CBN-advies 2010/1 — CBN-advies 2010/1 - De interpretatie van de openbaarmakingsverplichting van…]\n\nTweede categorie\n\n*Naamloze* vennootschappen die niet tot de eerder vermelde drie categorieën van ondernemingen behoren kunnen zich beperken tot het vermelden van enkel de van enig betekenis zijnde transacties, buiten normale marktvoorwaarden, die direct of indirect zijn aangegaan tussen de vennootschap en haar voornaamste aandeelhouders en de vennootschap en de leden van de leidinggevende, de toezichthoudende of de bestuursorganen."
+    },
+    {
+      "chunk_id": "CBN-2017-16-onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening__sec_onbeperkte-aansprakelijkheid-overzicht",
+      "chunk_sha": "3aa841009663ba90",
+      "bron": "2017/16",
+      "bron_rol": "advies",
+      "sectie": "Onbeperkte aansprakelijkheid: overzicht",
+      "score": 0.6265,
+      "text": "[CBN-advies 2017/16 — CBN-advies 2017/16 – Onbeperkt aansprakelijke vennoot: vermeldingen in de…]\n\nOnbeperkte aansprakelijkheid: overzicht\n\nIn vennootschappen met onbeperkte aansprakelijkheid zijn de vennoten onbeperkt gehouden voor de schulden van de vennootschap, d.w.z. dat zij bovenop hun inbreng ook kunnen aangesproken worden op hun eigen vermogen (of zelfs meer).[^4]\n Hierna volgt een overzicht van de meest courante gevallen waarin de vennoot onbeperkt aansprakelijk is.\n\nVoor wat betreft de Belgische vennootschapsvormen zijn dit vooreerst de vennootschap onder firma (VOF), de gewone commanditaire vennootschap (Comm.V), (de beherende vennoten van de) commanditaire vennootschap op aandelen (Comm.VA) en de coöperatieve vennootschap met onbeperkte aansprakelijkheid (CVOA).[^5]\n Daarnaast zijn ook de Europese coöperatieve vennootschap met onbeperkte aansprakelijkheid en het Economisch samenwerkingsverband (ESV) vennootschapsvormen met onbeperkte aansprakelijkheid.\n\nNaast een deelname in voormelde Belgische rechtspersonen kan ook sprake zijn van een deelname in een buitenlandse onderneming met onbeperkte aansprakelijkheid[^6], van de (Belgische) vennoot.\n\nDe Commissie spreekt zich in dit advies niet uit over de verplichtingen in hoofde van de vennoten van Belgische ondernemingen zonder rechtspersoonlijkheid, aangezien de onbeperkte aansprakelijkheid voor deze vennoten rechtstreeks voortvloeit uit het gebrek aan rechtspersoonlijkheid. In overeenstemming met artikel III.83, derde lid van het Wetboek van economisch recht (hierna: WER), wordt de boekhouding van deze vennootschapsvormen zonder rechtspersoonlijkheid reeds geïntegreerd in de boekhouding van de deelgenoot. Hierdoor wordt het aandeel van de vennoot in dergelijke entiteiten reeds aan de cijfers van de vennoot toegevoegd.[^7]"
+    },
+    {
+      "chunk_id": "WIB92__art_179",
+      "chunk_sha": "c239accebb3d0dd6",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 179",
+      "score": 0.6257,
+      "text": "[WIB92 → VENNOOTSCHAPSBELASTING → HOOFDSTUK I]\n\nArt. 179\n\nAan de vennootschapsbelasting zijn de binnenlandse vennootschappen onderworpen en de organismen voor de financiering van pensioenen bedoeld in artikel 8 van de wet van 27 oktober 2006 betreffende het toezicht op de instellingen voor bedrijfspensioenvoorziening."
+    },
+    {
+      "chunk_id": "CBN-2019-12-groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting__sec_vorm-van-de-jaarrekening",
+      "chunk_sha": "3c4494a5db6b4deb",
+      "bron": "2019/12",
+      "bron_rol": "advies",
+      "sectie": "Vorm van de jaarrekening",
+      "score": 0.6238,
+      "text": "[CBN-advies 2019/12 — CBN-advies 2019/12 – Groottecriteria verenigingen en stichtingen - schema van…]\n\nVorm van de jaarrekening\n\nDe vorm van de jaarrekening van de vzw wordt bepaald door bepalingen uit het WER[^25] en het WVV[^26] en de bijhorende uitvoeringsbesluiten.\n\nDe vzw’s die een dubbele boekhouding voeren, gebruiken het schema van de balans en de resultatenrekening zoals bepaald in bijlage 6 bij het KB WVV; de kleine vzw’s, met inbegrip van de micro-vzw’s mogen het verkorte schema gebruiken zoals bepaald in bijlage 7 bij het KB WVV. De vzw’s die een vereenvoudigde boekhouding voeren gebruiken het schema zoals bepaald in bijlage 8 bij het KB WVV."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_49",
+      "chunk_sha": "e14632d6c2c34fdc",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:60",
+      "score": 0.6235,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Vorm en inhoud van de jaarrekening]\n\nArt. 3:60\n\nKunnen actief- of passiefbestanddelen tot meer dan één rubriek of onderrubriek van de balans behoren, of opbrengsten dan wel kosten tot meer dan één rubriek of onderrubriek van de resultatenrekening, dan worden ze ingeschreven onder die post welke ten opzichte van het voorschrift van artikel 3:1, eerste lid, het meest is aangewezen. In dergelijk geval wordt in de toelichting bij de waarderingsregels het verband met de andere posten vermeld."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3",
+      "chunk_sha": "e98aae808ddcf0a7",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:1",
+      "score": 0.6227,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Algemene principes]\n\nArt. 3:1\n\nDe jaarrekening moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de vennootschap, VZW, IVZW of stichting.  Wanneer de toepassing van de bepalingen van deze titel, titel 2 en titel 3 niet volstaat om te voldoen aan dit voorschrift moeten aanvullende inlichtingen worden verstrekt in de toelichting."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_5",
+      "chunk_sha": "b0ee9f7eb5b20095",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:6",
+      "score": 0.6221,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Algemene principes → Algemene beginselen]\n\nArt. 3:6\n\n§ 1. Het bestuursorgaan van de vennootschap, VZW, IVZW of stichting bepaalt de regels die gelden voor de waardering van de inventaris bedoeld in artikel III.89, § 1, van het Wetboek van economisch recht. Deze regels worden bepaald met nakoming van de bepalingen van deze titel, titel 2 en titel 3, doch rekening houdende met de eigen kenmerken van de vennootschap, VZW, IVZW of stichting.  Deze regels worden vastgelegd in het boek bedoeld in artikel III.89, § 1, van het Wetboek van economisch recht. Ze worden samengevat in de toelichting; overeenkomstig hetgeen is bepaald in artikel 3:1, eerste lid, moet deze samenvatting voldoende nauwkeurig zijn zodat inzicht wordt verkregen in de toegepaste waarderingsmethoden.  Onverminderd paragraaf 2 wordt bij de vaststelling en toepassing van deze waarderingsregels ervan uitgegaan dat de vennootschap, VZW, IVZW of stichting haar bedrijf zal voortzetten.  § 2. De bepalingen van deze titel, titel 2 en titel 3 zijn van toepassing op de vennootschappen, VZW's, IVZW's en stichtingen in vereffening.  Indien de vennootschap, VZW, IVZW of stichting - al dan niet ingevolge een beslissing tot invereffeningstelling - besluit haar bedrijf stop te zetten of indien, in tegenstelling met het bepaalde in paragraaf 1, derde lid, er niet meer kan van worden uitgegaan dat de vennootschap, VZW, IVZW of stichting haar bedrijf zal voortzetten, worden de waarderingsregels dienovereenkomstig aangepast en geldt in het bijzonder het volgende:  a) de oprichtingskosten moeten volledig worden afgeschreven;  b) voor de vaste en de vlottende activa moet zo nodig tot aanvullende afschrijvingen of waardeverminderingen worden overgegaan om de boekwaarde terug te brengen tot de vermoedelijke realisatiewaarde;  c) een voorziening moet worden gevormd voor de kosten die verbonden zijn aan de beëindiging van de werkzaamheden, inzonderheid voor de aan het personeel uit te keren vergoedingen.  Hetzelfde geldt, ingeval een bedrijfsonderdeel of een vestiging van de vennootschap, VZW, IVZW of stichting wordt gesloten. In dat geval is het tweede lid van toepassing op de activa, de passiva en de verplichtingen die betrekking hebben op dat bedrijfsonderdeel of die vestiging."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_50",
+      "chunk_sha": "f339c4e88246097e",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:61",
+      "score": 0.6214,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Vorm en inhoud van de jaarrekening]\n\nArt. 3:61\n\nDe toelichting bevat, indien van materieel belang zoals gedefinieerd in artikel 3:58, § 5, tweede lid:  1° een samenvatting van de waarderingsregels krachtens artikel 3:6, § 1, tweede lid;  2° de vermeldingen die in voorkomend geval moeten worden opgenomen krachtens de artikelen 3:1, tweede lid, 3:2, § 2 en § 3, 3:7, tweede en derde lid, 3:8, derde lid, 3:11, 3:12, 3:15, 3:16, derde lid, 3:21, derde lid, 3:35, § 1, tweede lid, 3:36, tweede lid, 3:38, tweede lid, 3:39, § 1, eerste en vierde lid, 3:42, § 1, eerste lid, 3:44, § 1, 3:49, tweede en derde lid, 3:59, tweede lid, 3:60, 3:63, tweede lid;  3° naargelang de vorm en de grootte van de vennootschap, VZW, IVZW of stichting, de aanvullende gegevens zoals vermeld in de artikelen 3:82, 3:85, 3:88, 3:164, 3:167 en 3:170.  Onverminderd artikel 3:1, tweede lid, zijn de aanvullende of bijkomende gegevens die door dit besluit worden opgelegd in de samenvatting van de waarderingsregels niet van toepassing op microvennootschappen."
+    },
+    {
+      "chunk_id": "EU-Richtlijn-fusie-2009-133__art_2__sub_f",
+      "chunk_sha": "a72bdc300398215b",
+      "bron": "Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)",
+      "bron_rol": "wettekst",
+      "sectie": "Artikel 2 — f)",
+      "score": 0.6198,
+      "text": "[Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie) → Artikel 2 → f)]\n\nArtikel 2 — f)\n\nf) „inbrengende vennootschap”: de vennootschap die de activa  en passiva van haar vermogen overdraagt of haar gehele dan  wel één of meer takken van haar bedrijvigheid inbrengt;\n\n## g) „ontvangende vennootschap”: de vennootschap die de activa  en passiva van het vermogen dan wel alle of één of meer\n\ntakken van bedrijvigheid van de inbrengende vennootschap  ontvangt;\n\n## h) „verworven vennootschap”: de vennootschap waarin een an\n\ndere vennootschap een deelneming verwerft door middel van  een effectenruil;\n\n## i) „verwervende vennootschap”: de vennootschap die een deel\n\nneming verwerft door middel van een effectenruil;"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_4",
+      "chunk_sha": "7bd7fb64f0b78f85",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:4",
+      "score": 0.6191,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Algemene principes → Algemene beginselen]\n\nArt. 3:4\n\nHet rekeningenstelsel van de vennootschap, VZW, IVZW of stichting moet zodanig worden opgevat of aangepast dat de balans en de resultatenrekening zonder toevoeging of weglating voortvloeien uit de balans van de desbetreffende rekeningen, opgemaakt na het in overeenstemming brengen bedoeld in artikel III.90, § 1, van het Wetboek van economisch recht."
+    },
+    {
+      "chunk_id": "CBN-2019-12-groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting__sec_algemeen",
+      "chunk_sha": "26809b2eddc5bb07",
+      "bron": "2019/12",
+      "bron_rol": "advies",
+      "sectie": "Algemeen",
+      "score": 0.6175,
+      "text": "[CBN-advies 2019/12 — CBN-advies 2019/12 – Groottecriteria verenigingen en stichtingen - schema van…]\n\nAlgemeen\n\nDe wijze waarop verenigingen zonder winstoogmerk (vzw’s), internationale verenigingen zonder winstoogmerk (ivzw’s) en stichtingen hun boekhouding moeten voeren en hun jaarrekening moeten opstellen en neerleggen is afhankelijk van hun grootte. Met de overheveling[^2] van de jaarrekeningrechtelijke bepalingen die gelden voor (i)vzw’s en stichtingen naar het Wetboek voor vennootschappen en verenigingen (hierna: WVV), heeft de wetgever van de gelegenheid gebruik gemaakt om, naar analogie met wat geldt voor de microvennootschappen, ook voor de microverenigingen en de microstichtingen te voorzien in de mogelijkheid om de jaarrekening op te stellen en neer te leggen volgens een microschema indien deze (i)vzw of stichting een dubbele boekhouding voert.\n\nDe Commissie merkt op dat net zoals voorheen de (i)vzw’s en de stichtingen die een vereenvoudigde boekhouding voeren nog steeds een vereenvoudigd schema van jaarrekening kunnen opstellen en neerleggen evenwel met een aanpassing van de criteria.\n\nDe boekhoudkundige verplichtingen, met inbegrip van de interne jaarrekening, bevinden zich voortaan in het Wetboek van Economisch recht (hierna: WER) en het uitvoeringsbesluit (hierna: KB WER) terwijl de jaarrekeningrechtelijke verplichtingen (externe jaarrekening) voortaan zijn opgenomen in het WVV en het uitvoeringsbesluit (hierna: KB WVV).[^3] \n\nMet onderhavig advies verduidelijkt de Commissie de beoordeling van de groottecriteria voor een (i)vzw of stichting en de daarbij horende vorm van de neer te leggen jaarrekening. Wat betreft de praktische wijze waarop een vereenvoudigde boekhouding respectievelijk dubbele boekhouding moet worden gevoerd door de betreffende (i)vzw’s en stichtingen, wordt verwezen naar het CBN-advies 174/1 – *Beginselen van een regelmatige boekhouding*.[^4] \n\nHet CBN-advies 2011/1 – *Toelichting bij de mogelijkheid voor kleine verenigingen en stichtingen om zich te onderwerpen aan de boekhoudkundige verplichtingen opgelegd aan de grote verenigingen en stichtingen* wordt opgeheven omdat het zonder voorwerp is geworden."
+    },
+    {
+      "chunk_id": "WVV__art_15_31",
+      "chunk_sha": "72fd4037e8d3f994",
+      "bron": "Wetboek van vennootschappen en verenigingen 23/03/2019",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 15:34",
+      "score": 0.6161,
+      "text": "[Wetboek van vennootschappen en verenigingen 23/03/2019 → De Europese rechtsvormen. - BOEK 16. De Europese coöperatieve vennootschap → Algemene bepalingen → Definities en toepasselijk recht]\n\nArt. 15:34\n\nDe strafbepalingen van dit wetboek betreffende de naamloze vennootschap zijn van overeenkomstige toepassing op de SE."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_46",
+      "chunk_sha": "bde6f5b4cba01e9d",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:55",
+      "score": 0.6158,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Algemene principes → Bijzondere regels - Onderafdeling 12. - Bijzondere regels betreffende bestanddelen verworven in het kader van een inbreng van algemeenheid of van bedrijfstak]\n\nArt. 3:55\n\nDe artikelen 3:45 en 3:51 zijn van overeenkomstige toepassing op de schulden van overeenstemmende aard en looptijd."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_52",
+      "chunk_sha": "8c09de3a1a7869ff",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:63",
+      "score": 0.6157,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Openbaarmaking van de jaarrekening en van de geconsolideerde jaarrekening → Bijzondere regels - Onderafdeling 1. - Opmaak van de jaarrekening waarvan de openbaarmaking door het Wetboek van vennootschappen en verenigingen is voorgeschreven]\n\nArt. 3:63\n\nDe voorstelling van de jaarrekening moet identiek zijn van het ene jaar tot het andere.  Ze wordt echter gewijzigd wanneer, onder meer ingevolge een belangrijke wijziging in de structuur van het vermogen, van de opbrengsten en van de kosten van de vennootschap, VZW, IVZW of stichting ze niet meer beantwoordt aan het voorschrift van artikel 3:1, eerste lid. Deze wijzigingen worden vermeld en verantwoord bij de waarderingsregels in de toelichting die behoort tot het boekjaar waarin ze werden ingevoerd.  De huidige bepaling is niet van toepassing op de jaarrekening over het eerste boekjaar waarop voor een vennootschap, VZW, IVZW of stichting de bepalingen van deze titel, titel 2 en titel 3 van toepassing zijn."
+    },
+    {
+      "chunk_id": "CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch__sec_buitenlandse-vennootschappen-die-indien-zij-vennootschappen-_part4",
+      "chunk_sha": "5c85f64cd0dcad36",
+      "bron": "2022/14",
+      "bron_rol": "advies",
+      "sectie": "Buitenlandse vennootschappen die - indien zij vennootschappen naar Belgisch recht zouden zijn - op grond van hun rechtsvorm of hun geringe omvang, niet verplicht zouden zijn hun jaarrekening openbaar te maken",
+      "score": 0.615,
+      "text": "[^61]: Art. 3:9, 1°, WVV a contrario.\n\n[^62]: Art. 3:9, 2°, WVV a contrario.\n\n[^63]: Behalve indien ze gelijk worden gesteld met vennootschappen met beperkte aansprakelijkheid volgens de accountingrichtlijn.\n\n[^64]: Het gaat bijvoorbeeld om een Europese vennootschap met een rechtsvorm vergelijkbaar met een VOF of een CommV die niet wordt aangeduid als een kleine vennootschap in de zin van artikel 1:24 WVV. en waarvan één van zijn onbeperkt aansprakelijke vennoten een Europese NV is en de andere natuurlijke personen zijn. Als de vennootschap Belgisch was, zou ze aan de publicatieverplichting onderworpen zijn, maar indien ze niet valt onder de accountingrichtlijn, aangezien niet al haar directe en indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn, is ze niet onderworpen aan de publicatieverplichting in België.\n\n[^65]: Art. 3:9, 1° WVV.\n\n[^66]: Art. 3:9, 2° WVV.\n\n[^67]: Répertoire pratique de droit belge, v° Sociétés anonymes, deel XII, Brussel, Bruylant, 1943, 677, nr. 3094; J. Gabriel, “succursales de sociétés étrangères en Belgique”, Revue de droit des affaires internationales, 1987, 270-271; M. Sergent, “Les obligations des sociétés étrangères ayant établi une succursale en Belgique en matière d’établissement de comptes annuels, de leur contrôle et de leur publication”, C&FP, november 1996, 39; C. Fischer, “Les obligations comptables des succursales belges et des sièges d’opération belges de sociétés étrangères”, in La réglementation sur les comptes annuels et le plan comptable (grandes sociétés), Volume 1, nr. 1067; C. Fischer, “Succursale et établissement stable, similitudes et différences”, C&FP, 2007, nr. 12, 337; M. Vander Linden, “Succursales de sociétés étrangères établies en Belgique”, Pacioli, nr. 220, 2006, 6.\n\n[^68]: Nationale Bank van België, Departement micro-economische informatie, Dienst Balanscentrale, “Verplichting tot openbaarmaking van de jaarrekening van een buitenlandse vereniging zonder winstoogmerk met een centrum van werkzaamheden in België”, beschikbaar op https://www.nbb.be/nl/balanscentrale/jaarrekeningen-neerleggen/wie-moet-neerleggen/buitenlandse-vennootschappen-en.\n\n[^69]: Reeds vóór de omzetting van de elfde richtlijn, beoogde het vroegere artikel 198 GWHV, vandaag opgenomen in deze artikelen, de buitenlandse vennootschappen die in België een bijkantoor oprichten, te onderwerpen aan dezelfde publicatieregeling als de vennootschappen naar Belgisch recht.\n\n[^70]: De Richtlijn 2017/1132 heeft met name tot doel om “ten aanzien van de openbaarmaking [een einde te maken aan] [...] een zekere ongelijkheid ten aanzien van de bescherming van de aandeelhouders en van derden tussen, enerzijds, vennootschappen die door middel van de oprichting van bijkantoren en, anderzijds, vennootschappen die door middel van de oprichting van dochterondernemingen in andere lidstaten werkzaam zijn” (overweging 15).\n\n[^71]: Accountingrichtlijn, art. 30. Artikel 31 van Richtlijn 2017/1132 betreft namelijk “de boekhoudbescheiden van de vennootschap zoals opgesteld, gecontroleerd en openbaar gemaakt volgens het recht van de lidstaat van de vennootschap overeenkomstig Richtlijn 2006/43/EG [...] en Richtlijn 2013/34/EU” en artikel 38 betreft “de boekhoudbescheiden van de vennootschap zoals die zijn opgesteld, gecontroleerd en openbaar gemaakt volgens het recht van de Staat van de vennootschap”.\n\n[^72]: “De artikelen 3:12 tot 3:16 [WVV] zijn van toepassing op de stukken bedoeld in paragraaf 1 [hetzij de jaarrekening en de geconsolideerde jaarrekening]”.\n\n[^73]: Het bestuursorgaan dient zich ervan te vergewissen dat de voornoemde vrijstelling strookt met de accountingrichtlijn of met de vergelijkbare bepaling van buitenlands recht."
+    },
+    {
+      "chunk_id": "CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce__sec_ontbinding",
+      "chunk_sha": "aa5d80fae542f90e",
+      "bron": "2022/04",
+      "bron_rol": "advies",
+      "sectie": "Ontbinding",
+      "score": 0.614,
+      "text": "[CBN-advies 2022/04 — CBN-advies 2022/04 - Verslaggeving bij ontbinding en vereffening van BV, CV,…]\n\nOntbinding\n\nHet WVV bepaalt dat de vennootschap ontbonden wordt[^4]:\n\n- door een besluit van de algemene vergadering (dit wordt als een “vrijwillige ontbinding” gekwalificeerd, zie punt I.A. hierna); \n- van rechtswege, als gevolg van een door de wet omschreven feit of gebeurtenis (dit wordt als een “ontbinding van rechtswege” aanzien, zie punt I.B. hierna); \n- door een gerechtelijke beslissing (zie punt I.C. hierna). \n\nIn wat volgt, bespreekt de Commissie welke verslaggevingsplichten gekoppeld worden aan deze ontbindingsvormen onder het WVV."
+    },
+    {
+      "chunk_id": "WVV__art_10",
+      "chunk_sha": "218a52dee4b950c0",
+      "bron": "Wetboek van vennootschappen en verenigingen 23/03/2019",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 10:1",
+      "score": 0.6139,
+      "text": "[Wetboek van vennootschappen en verenigingen 23/03/2019 → De verenigingen en stichtingen. - BOEK 10. IVZW → Algemene bepalingen → Inleidende bepalingen]\n\nArt. 10:1\n\nDe IVZW is een vereniging waarvan de rechtspersoonlijkheid wordt erkend door de Koning en die een doel van internationaal nut nastreeft. Haar leden zijn in die hoedanigheid niet aansprakelijk voor de verbintenissen die de vereniging aangaat."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_21",
+      "chunk_sha": "fba67baf937a8cd5",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:26",
+      "score": 0.6139,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Algemene principes → Afschrijvingen en waardeverminderingen]\n\nArt. 3:26\n\nDe afschrijvingen en de waardeverminderingen moeten stelselmatig worden gevormd volgens de door de vennootschap, VZW, IVZW of stichting overeenkomstig artikel 3:6, § 1, vastgelegde methoden. Ze mogen niet afhangen van het resultaat van het boekjaar."
+    },
+    {
+      "chunk_id": "WIB92__art_2__sub_3deg__dup2",
+      "chunk_sha": "7d870778ad9d0de3",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 2 — 3°",
+      "score": 0.6129,
+      "text": "[WIB92 → PERSONENBELASTING → HOOFDSTUK I → Art. 2 → 3°]\n\nArt. 2 — 3°\n\n3° een vennootschap, vereniging, inrichting, instelling of entiteit betreft, andere dan deze bedoeld in de bepaling onder 1° of 2° of artikel 29, § 2, die rechtspersoonlijkheid bezit, en die, krachtens de bepalingen van de wetgeving van de Staat of het rechtsgebied waar hij gevestigd is, aldaar ofwel niet aan een inkomstenbelasting wordt onderworpen ofwel onderworpen wordt aan een inkomstenbelasting die minder dan 1 pct. bedraagt van het belastbaar inkomen van deze juridische constructie dat wordt vastgesteld overeenkomstig de regels die van toepassing zijn voor het vestigen van de Belgische belasting op daarmee overeenstemmende inkomsten.\n\n…\n\nBehalve in het geval de belastingplichtige het bewijs levert dat de vennootschap, vereniging, inrichting, instelling of entiteit geen juridische constructie is, worden de volgende gevallen vermoed een juridische constructie te zijn:\n\n- een vennootschap, vereniging, inrichting, instelling of entiteit, die rechtspersoonlijkheid bezit en die gevestigd is in een rechtsgebied dat op het einde van het belastbare tijdperk werd opgenomen op de EU-lijst van niet coöperatieve rechtsgebieden of op de lijst van Staten zonder of met een lage belasting als bedoeld in artikel 307, § 1/2;\n\n- een in de bepaling onder 13° /1, tweede tot vierde lid, bedoeld geval;\n\n- een in het tweede lid, 2°, bedoeld geval.\n\nDe Koning zal bij de Kamer van volksvertegenwoordigers, onmiddellijk indien ze in zitting is, zo niet bij de opening van de eerstvolgende zitting, een wetsontwerp indienen tot bekrachtiging van de in uitvoering van het tweede lid, genomen besluiten. Deze besluiten worden geacht geen uitwerking te hebben gehad indien ze niet bij wet zijn bekrachtigd binnen de 12 maanden na de datum van hun bekendmaking in het Belgisch Staatsblad.\n\nc) een overeenkomst, in de mate dat die overeenkomst :\n\n- in ruil voor betaling van één of meerdere premies, in de loop van de duurtijd van deze overeenkomst of bij afloop ervan, voorziet in de uitbetaling van de inkomsten die werden verkregen van een in de bepaling onder a) of b) bedoelde juridische constructie, of, in de uitkering van de economische rechten, de aandelen of de activa van een in de bepaling onder a) of b) bedoelde juridische constructie;\n\n- in ruil voor de inbreng van de economische rechten, van de aandelen of van de activa van een in de bepaling onder a) of b) bedoelde juridische constructie, in de loop van het contract of bij afloop van het contract, voorziet in de uitbetaling of uitkering van de ingebrachte rechten, aandelen of activa of van de tegenwaarde ervan."
+    },
+    {
+      "chunk_id": "WIB92__art_180",
+      "chunk_sha": "9fd8fa17f8ba3990",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 180",
+      "score": 0.6124,
+      "text": "[WIB92 → VENNOOTSCHAPSBELASTING → HOOFDSTUK I]\n\nArt. 180\n\nAan de vennootschapsbelasting zijn niet onderworpen :\n\n1° in het tweede lid bedoelde intercommunales, samenwerkingsverbanden, projectverenigingen, autonome gemeentebedrijven en verenigingen die, in het kader van hun maatschappelijk belang, hoofdzakelijk :\n\n- een ziekenhuis zoals gedefinieerd in artikel 2 van de gecoördineerde wet van 10 juli 2008 op de ziekenhuizen en andere verzorgingsinrichtingen, uitbaten; of\n\n- een instelling die oorlogsslachtoffers, mindervaliden, bejaarden, beschermde minderjarigen of behoeftigen bijstaat, uitbaten;\n\n2° …\n\n3° de Delcredere;\n\n4° de Belgische Maatschappij voor de\nFinanciering van de Nijverheid ;\n\n5° …;\n\n5°bis het Participatiefonds - Vlaanderen, het\nParticipatiefonds - Wallonië en het\nParticipatiefonds - Brussel;\n\n6° de Waalse vervoersoperator \"Opérateur de\nTransport de Wallonie\";\n\n7° de Vlaamse Vervoermaatschappij en de autonome exploitatieëntiteiten binnen de Maatschappij ;\n\n8° de Maatschappij voor het Intercommunaal\nVervoer te Brussel ;\n\n9° waterzuiveringsmaatschappijen beheerst door de wet van 26 maart 1971 ;\n\n10° ... ;\n\n11° de vennootschap van publiek recht met sociaal oogmerk Enabel, Belgisch Ontwikkelingsagentschap;\n\n12° de naamloze vennootschap van publiek recht\nInfrabel ;\n\n13° de naamloze vennootschap van publiek recht\nASEVA.\n\nDe in het eerste lid, 1° bedoelde intercommunales, samenwerkingsverbanden, projectverenigingen, autonome gemeentebedrijven en verenigingen zijn :\n\na) intercommunales beheerst door de wet van\n22 december 1986 betreffende de intercommunales;\n\nb) intercommunales beheerst door het decreet van het Waalse Gewest van 19 juli 2006 tot wijziging van Boek V van het eerste deel van het Wetboek van de plaatselijke democratie en de decentralisatie en betreffende de wijzen van samenwerking tussen gemeenten;\n\nc) samenwerkingsverbanden, met uitzondering van interlokale verenigingen, beheerst door het decreet van de Vlaamse Gemeenschap van 6 juli 2001 houdende de intergemeentelijke samenwerking;\n\nd) projectverenigingen beheerst door het decreet van het Waalse Gewest van 19 juli 2006 tot wijziging van Boek V van het eerste deel van het Wetboek van de plaatselijke democratie en de decentralisatie en betreffende de wijzen van samenwerking tussen gemeenten;\n\ne) autonome gemeentebedrijven beheerst door de nieuwe gemeentewet van 24 juni 1988;\n\nf) autonome gemeentebedrijven beheerst door het gemeentedecreet van de Vlaamse Gemeenschap van 15 juli 2005;\n\ng) de verenigingen beheerst door hoofdstuk XII van de organieke wet van 8 juli 1976 betreffende de openbare centra voor maatschappelijk welzijn;\n\nh) de verenigingen beheerst door titel VIII van het decreet van de Vlaamse Gemeenschap van 19 december 2008 betreffende de organisatie van de openbare centra voor maatschappelijk welzijn."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_144",
+      "chunk_sha": "2f020d1275ab370b",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:183",
+      "score": 0.6097,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening van VZW, IVZW en stichtingen die een vereenvoudigde boekhouding voeren → Vorm en inhoud van de jaarrekening]\n\nArt. 3:183\n\nDe toelichting bevat de inlichtingen zoals bepaald in de artikelen 3:178, 3:179, 3:181 en 3:184 alsook een staat van het vermogen van de VZW, IVZW of stichting. Zij moet worden opgemaakt overeenkomstig het minimaal schema in bijlage 8 van dit besluit."
+    },
+    {
+      "chunk_id": "CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1__sec_vzw-s-ivzw-s-en-stichtingen_2",
+      "chunk_sha": "e289b9e6f7bd7913",
+      "bron": "2021/07",
+      "bron_rol": "advies",
+      "sectie": "VZW’s, IVZW’s en stichtingen",
+      "score": 0.6092,
+      "text": "[CBN-advies 2021/07 — CBN-advies 2021/07 - Invloed van het buitengerechtelijk minnelijk akkoord en de…]\n\nVZW’s, IVZW’s en stichtingen\n\nDe boekhoudkundige verwerking van renteloze schulden bij een VZW, IVZW of stichting is vergelijkbaar met die bij vennootschappen. \n\nDe Commissie verwijst naar punt III.A."
+    },
+    {
+      "chunk_id": "WVV__art_14_30",
+      "chunk_sha": "45166864324f0e43",
+      "bron": "Wetboek van vennootschappen en verenigingen 23/03/2019",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 14:32",
+      "score": 0.6092,
+      "text": "[Wetboek van vennootschappen en verenigingen 23/03/2019 → Herstructurering en omzetting. - BOEK 14. Omzetting van vennootschappen, verenigingen en stichtingen → Omzetting van een vennootschap in een VZW of IVZW]\n\nArt. 14:32\n\nHet bestuursorgaan licht het voorstel tot omzetting, haar redenen en haar gevolgen voor de rechten van de vennoten of aandeelhouders toe in een verslag dat wordt vermeld in de agenda van de algemene vergadering.  Bij dat verslag worden de volgende documenten gevoegd:  1° het ontwerp van statuten van de VZW of IVZW waarin de vennootschap zal worden omgezet;  2° een staat van activa en passiva van de vennootschap, die niet meer dan drie maanden vóór de algemene vergadering die over het voorstel tot omzetting moet besluiten is afgesloten;  3° het verslag van de commissaris van de vennootschap of, als er geen commissaris is, een door het bestuursorgaan aangewezen bedrijfsrevisor of [ 1 gecertificeerd accountant] 1 over die staat, waarin hij inzonderheid aangeeft of het nettoactief werd overgewaardeerd.  ----------  ( 1 )<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_2",
+      "chunk_sha": "6ccfb3ac476813d1",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:2",
+      "score": 0.6087,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Algemene principes]\n\nArt. 3:2\n\n§ 1. De jaarrekening moet duidelijk worden opgesteld en stelselmatig weergeven, enerzijds, de aard en het bedrag, op de dag waarop het boekjaar wordt afgesloten, van de bezittingen en rechten van de vennootschap, VZW, IVZW of stichting, van haar schulden en verplichtingen evenals van haar eigen middelen, en anderzijds, voor het op die dag afgesloten boekjaar, de aard en het bedrag van haar kosten en haar opbrengsten.  § 2. Compensatie tussen tegoeden en schulden, tussen rechten en verplichtingen en tussen kosten en opbrengsten is verboden, behalve in de gevallen voorzien door deze titel, titel 2 of titel 3 van onderhavig boek. In dergelijke gevallen worden de te verrekenen bedragen als brutobedragen in de toelichting bij de jaarrekening vermeld.  § 3. In de toelichting worden per soort vermeld de rechten en verplichtingen die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap, VZW, IVZW of stichting aanmerkelijk kunnen beïnvloeden.  Belangrijke rechten en verplichtingen die niet kunnen worden becijferd, worden op passende wijze vermeld in de toelichting."
+    },
+    {
+      "chunk_id": "CBN-2010-16-boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in__sec_inleiding",
+      "chunk_sha": "bb19e2c4d0408864",
+      "bron": "2010/16",
+      "bron_rol": "advies",
+      "sectie": "Inleiding",
+      "score": 0.6087,
+      "text": "[CBN-advies 2010/16 — CBN-advies 2010/16 - Boekhoudkundige verwerking van subsidies, schenkingen en…]\n\nInleiding\n\nGrote[^1] en zeer grote[^2] verenigingen en stichtingen zijn gehouden hun boekhouding te voeren en hun jaarrekening op te stellen overeenkomstig de bepalingen van toepassing op handels- en industriële vennootschappen, meer bepaald overeenkomstig de wet van 17 juli 1975 met betrekking tot de boekhouding van de ondernemingen en haar uitvoeringsbesluiten, evenals het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna KB W.Venn.). Deze bepalingen werden aangepast aan de bijzondere aard van hun werkzaamheden en hun wettelijk statuut door het koninklijk besluit van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen (hierna KB van 19 december 2003)[^3].\n\nVerenigingen en stichtingen verkrijgen dikwijls geldmiddelen en goederen om niet met het oog op het realiseren van bepaalde vormen van dienstverlening of het uitvoeren van bepaalde programma’s. Het kan bijvoorbeeld gaan om:\n\n- subsidies in contanten door de overheid of een andere non-profitinstelling periodiek overgemaakt; \n- schenkingen of subsidies, hetzij in contanten hetzij in natura, gegeven door privépersonen of –instellingen, al dan niet gekoppeld aan een afgesproken doelstelling qua besteding; \n- legaten (zowel in contanten als in natura) ontvangen ten gevolge van een erfenis, al dan niet gepaard gaande met een bepaalde doelstelling of voorwaarden die aan de vereniging worden opgelegd[^4]; of \n- subsidies in de vorm van een kwijtschelding van schulden. \n\nHet verschil tussen een schenking[^5] en een subsidie is niet steeds duidelijk, aangezien deze juridische begrippen bij verenigingen en stichtingen dicht bij elkaar aanleunen.\n\nNaar de mening van de Commissie wou de wetgever het begrip subsidie in feite een ruimere draagwijdte toekennen bij verenigingen en stichtingen dan bij handels- en industriële vennootschappen. Deze interpretatie berust op twee elementen:\n\n- de subsidies die in resultaat worden genomen, worden geboekt als bedrijfsopbrengsten onder de post I.D. *Lidgeld, schenkingen, legaten en subsidies[^6]* ; \n- de woorden “van overheidswege” worden weggelaten in de definitie van de inhoud van de post VI. *Kapitaalsubsidies* in artikel 95, § 2 KB W.Venn., zoals van toepassing op verenigingen en stichtingen bedoeld in het KB van 19 december 2003[^7]. \n\nSubsidies, in de zin van dit advies, kunnen dus toegekend worden door de overheid, door privépersonen of door elke andere entiteit[^8].\n\nOp boekhoudkundig vlak voert het KB van 19 december 2003 een nieuwe subsidievorm in, uitsluitend bestemd voor de duurzame ondersteuning van de activiteit van de vereniging of stichting. Deze wordt geboekt als permanente financiering onder de fondsen van de vereniging of stichting. \n\nIn het KB van 19 december 2003 wordt aldus een onderscheid gemaakt tussen drie grote categorieën van subsidies:\n\n- subsidies uitsluitend bestemd om duurzaam bij te dragen tot de activiteit van de vereniging of stichting en die zodoende leiden tot een permanente vergroting van de fondsen van de vereniging of de stichting, op te nemen onder de permanente financiering; \n- subsidies die tot doel hebben te investeren in vaste activa, op te nemen onder de kapitaalsubsidies (geboekt binnen het eigen vermogen); en \n- exploitatie- of interestsubsidies ter dekking van bepaalde werkings- of financieringskosten, verbonden aan de lopende activiteiten van de vereniging of de stichting, op te nemen in de resultatenrekening. \n\nDit advies behandelt de boekhoudkundige verwerking van subsidies, schenkingen en legaten toegekend in contanten, met inbegrip van de kwijtschelding van schulden, vanuit het oogpunt van de begunstigde vereniging of stichting. Bestemde fondsen komen niet aan bod[^9]. \n\nEr dient opgemerkt te worden dat de principes die opgenomen zijn in de adviezen die de Commissie hieromtrent reeds gepubliceerd heeft in het kader van haar bevoegdheden inzake de boekhouding van handels- en industriële vennootschappen, eveneens van toepassing zijn op verenigingen en stichtingen onderworpen aan het KB van 19 december 2003, uiteraard zonder afbreuk te doen aan de bijzondere bepalingen ontwikkeld in dit advies. \n\nDe Commissie wenst in het bijzonder te verwijzen naar advies 2009/3 dat handelt over investeringssubsidies waarvan de toekenning en/of betaling gespreid wordt over meerdere jaren, zoals de VIPA-subsidiëring[^10]."
+    },
+    {
+      "chunk_id": "CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1__sec_vzw-s-ivzw-s-en-stichtingen",
+      "chunk_sha": "29884505462d80d4",
+      "bron": "2021/07",
+      "bron_rol": "advies",
+      "sectie": "VZW’s, IVZW’s en stichtingen",
+      "score": 0.6085,
+      "text": "[CBN-advies 2021/07 — CBN-advies 2021/07 - Invloed van het buitengerechtelijk minnelijk akkoord en de…]\n\nVZW’s, IVZW’s en stichtingen\n\nDe boekhoudkundige verwerking van de kwijtschelding van schulden bij een VZW, IVZW of stichting is vergelijkbaar met die bij vennootschappen. \n\nDe artikelen 48 en 48/1 WIB 92 worden enkel toegepast indien de VZW, IVZW of stichting onderworpen is aan de vennootschapsbelasting. \n\nDe Commissie verwijst naar punt II.A betreffende de vennootschappen (met of zonder kapitaal) voor de boekhoudkundige verwerking van de kwijtschelding van schulden."
+    },
+    {
+      "chunk_id": "CBN-2019-12-groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting__sec_voorbeelden",
+      "chunk_sha": "b0c49f2bc9b1f3e5",
+      "bron": "2019/12",
+      "bron_rol": "advies",
+      "sectie": "Voorbeelden",
+      "score": 0.6069,
+      "text": "[CBN-advies 2019/12 — CBN-advies 2019/12 – Groottecriteria verenigingen en stichtingen - schema van…]\n\nVoorbeelden\n\nAan de hand van de onderstaande voorbeelden wordt toegelicht welke vzw’s kunnen opteren om een vereenvoudigde boekhouding te voeren (aangeduid met een jokersymbool). Met VOL, VKT, MIC wordt verwezen naar het jaarrekeningschema volgens het respectievelijke volledig, verkort of micromodel. Bij de voorbeelden wordt abstractie gemaakt van het consistentiebeginsel."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_48",
+      "chunk_sha": "6b881c6677716acf",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:59",
+      "score": 0.6065,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Vorm en inhoud van de jaarrekening]\n\nArt. 3:59\n\nBij elke rubriek en onderrubriek van de balans en van de resultatenrekening wordt het bedrag van de overeenkomstige post van het voorafgaande boekjaar vermeld. Wanneer evenwel een vennootschap, VZW, IVZW of stichting, die haar jaarrekening over het voorafgaande boekjaar heeft opgesteld overeenkomstig artikel 3:58, § 2 of § 3, haar jaarrekening over het nieuwe boekjaar overeenkomstig artikel 3:58, § 1 of respectievelijk artikel 3:58, § 1 of § 2 opstelt, volstaat het dat zij als vergelijkende cijfers voor het voorafgaande boekjaar de bedragen vermeldt die als zodanig voorkwamen in de jaarrekening over dat boekjaar.  Wanneer de bedragen van het boekjaar niet vergelijkbaar zijn met die van het voorafgaande boekjaar, mogen de bedragen van het voorafgaande boekjaar worden aangepast met het oog op hun vergelijkbaarheid; in dat geval worden deze aanpassingen, behalve indien zij onbelangrijk zijn, in de toelichting bij de waarderingsregels vermeld en onder verwijzing naar de betrokken rubrieken, toegelicht. Worden de bedragen van het voorafgaande boekjaar niet aangepast, dan moet de toelichting de nodige gegevens bevatten om een vergelijking mogelijk te maken.  Voor vennootschappen is deze bepaling niet van toepassing op de jaarrekening over het eerste boekjaar waarop de bepalingen van deze titel en van titel 2 van toepassing zijn.  Voor VZW's, IVZW's en stichtingen geldt deze bepaling niet voor de jaarrekening van het eerste boekjaar waarop de bepalingen van deze titel en titel 3 van toepassing zijn. De cijfers van de openingsbalans, vastgelegd in overeenstemming met artikel 3:175 van onderhavig besluit worden beschouwd als de cijfers van de balans van het vorige boekjaar."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_136",
+      "chunk_sha": "14bce94f72234afa",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:174",
+      "score": 0.6056,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Diverse bepalingen]\n\nArt. 3:174\n\nElke VZW, IVZW of stichting die niet langer haar boekhouding voert in overeenstemming met het model van de vereenvoudigde boekhouding zoals bedoeld in artikel III.85, § 2 van het Wetboek van economisch recht, moet de wijziging van de toepasselijke regels vermelden in de toelichting bij haar jaarrekening en de belangrijkste gevolgen van deze wijziging voor de VZW, IVZW of stichting vermelden. Vanaf dat moment voert ze haar boekhouding met inachtneming van de gebruikelijke regels van het dubbel boekhouden zoals bepaald in boek III, titel 3, hoofdstuk 2 van het Wetboek van economisch recht en stelt ze haar jaarrekening op met de exclusieve toepassing van de bepalingen van titel 1 en onderhavige titel."
+    },
+    {
+      "chunk_id": "WER__art_VII_181",
+      "chunk_sha": "ae07ba13ef342465",
+      "bron": "Wetboek van Economisch Recht",
+      "bron_rol": "wettekst",
+      "sectie": "Art. VII.161",
+      "score": 0.6055,
+      "text": "[Wetboek van Economisch Recht → [ 1 BETALINGS- EN KREDIETDIENSTEN.] 1 → [ 1 – Kredietovereenkomsten.] 1 → [ 1 Toegang tot de activiteit van de kredietgevers en de kredietbemiddelaars.] 1 → [ 1 Kredietgevers naar Belgisch recht.] 1 - Onderafdeling 1. [ 1 – Vergunningsvoorwaarden.] 1]\n\nArt. VII.161\n\n[ 1 De kredietgevers moeten worden opgericht in een van de volgende vennootschapsvormen: coöperatieve vennootschap, naamloze vennootschap, Europese vennootschap of Europese coöperatieve vennootschap, of als rechtspersoon voor de Europese economische samenwerkingsverbanden die geen vennootschap zijn, met inachtneming van de specifieke vereisten die neergelegd zijn in deze wet, het Wetboek van vennootschappen en verenigingen of in de Europese regelgeving.] 1\n\n----------  ( 1 )<W 2021-06-27/09, art. 297, 099; Inwerkingtreding : 19-07-2021>"
+    },
+    {
+      "chunk_id": "ITAA-norm-ontbinding-vereffening__sec_definities",
+      "chunk_sha": "9c2e547d62949332",
+      "bron": "ITAA-norm-ontbinding-vereffening",
+      "bron_rol": "norm",
+      "sectie": "Definities",
+      "score": 0.6031,
+      "text": "[Norm — ITAA-norm-ontbinding-vereffening]\n\nDefinities\n\n5. Voor de toepassing van onderhavige norm wordt verstaan onder:\n\n(i) “WVV”: Wetboek van vennootschappen en verenigingen;\n(ii) “KB/WVV”: Koninklijk Besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen;\n(iii) “Wet 17 maart 2019”: de wet van 17 maart 2019 betreffende de beroepen van accountant en belastingadviseur;\n(iv) “Wet van 7 december 2016”: de wet van 7 december 2016 tot\norganisatie van het beroep van en het publiek toezicht op de bedrijfsrevisoren;\n(v) “Gecertificeerd accountant”: de hoedanigheid verleend aan de\n17 maart 2019 beantwoordt om, als zelfstandige in hoofdberoep\nof bijberoep, voor rekening van derden, de beroepsactiviteiten\nwordt bedoeld in artikel 3, 1° tot en met 12°, van diezelfde wet, uit te oefenen;\n(vi) de wet van 7 december 2016. In voorkomend geval betreft deze term de commissaris;\n(vii) “Beroepsbeoefenaar”: deze term betreft de commissaris, of als er geen commissaris is, een door het bestuursorgaan, in voorkomend geval door de algemene vergadering (VOF en CommV), aangewezen bedrijfsrevisor of een gecertificeerd accountant;\n\nbedoeld door artikel 61 van de wet van 17 maart 2019 betreffende de beroepen van accountant en belastingadviseur;\n\n(ix) “IBR”: het Instituut van de bedrijfsrevisoren, bedoeld door artikel 64 van het wet van 7 december 2016 tot organisatie van het beroep van en het publiek toezicht op de bedrijfsrevisoren;\n(x) “Gemeenschappelijke KMO-norm”: de norm van 18 december 2018 met betrekking tot de contractuele controle van KMO’s en kleine (I)VZW’s en stichtingen en de gedeelde wettelijk voorbehouden opdrachten bij KMO’s en kleine (I)VZW’s en stichtingen, zoals geformuleerd door het Instituut van de\nAccountants en de Belastingconsulenten en het Instituut van de Bedrijfsrevisoren, goedgekeurd door de Hoge Raad voor de\nEconomische Beroepen en de federale minister van Economie en waarvoor een bericht in het Belgisch Staatsblad werd gepubliceerd.\n(xi) “Boekhoudkundig referentiestelsel”:\n\n- Inzake het voeren van de boekhouding betreft dit :\n\no het Wetboek van economisch recht, artikel III.83 e.v. o het KB/WVV; o het WVV.\n- Inzake het opstellen van de jaarrekening betreft dit het WVV (art. 3:1) en het KB/WVV.\n\nDe betrokken vennootschap kan ook onderworpen zijn aan de toepassing van een specifiek boekhoudkundig referentiestelsel.\n(xii) “Materialiteit”: het begrip gedefinieerd in bijlage 1 van de\n\nGemeenschappelijke KMO-norm of in ISA 320, Materialiteit bij de planning en uitvoering van een controle;\n(xiii) “Afwijking(en) van materieel belang”: het begrip gedefinieerd in bijlage 1 van de Gemeenschappelijke KMO-norm of in ISA 320, Materialiteit bij de planning en uitvoering van een controle;\n(xiv) “Met een diepgaande invloed”: het begrip gedefinieerd in bijlage 1\n\nvan de Gemeenschappelijke KMO-norm of in ISA 705 (Herzien), Aanpassingen van het oordeel in de controleverklaring van de onafhankelijke auditor;\n\n(xv) “Interne beheersing”: het proces gedefinieerd in bijlage 1 van de\n\nGemeenschappelijke KMO-norm of in paragraaf 4, (c) van ISA 315 (Herzien), Risico’s op een afwijking van materieel belang\nidentificeren en inschatten door inzicht te verwerven in de entiteit en haar omgeving."
+    },
+    {
+      "chunk_id": "Wetboek-Invordering__art_56",
+      "chunk_sha": "94b0720c0a63e0e7",
+      "bron": "Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 56",
+      "score": 0.6022,
+      "text": "[Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen → De gedwongen invordering → De rechten en voorrechten van de Schatkist → De hoofdelijke aansprakelijkheid voor de fiscale en niet-fiscale schulden van een aannemer of onderaannemer]\n\nArt. 56\n\nDe vennoten van een vennootschap zonder rechtspersoonlijkheid zijn onderling hoofdelijk aansprakelijk voor de betaling van de sommen die in uitvoering van de artikelen 54 en 55 door de vennootschap zonder rechtspersoonlijkheid verschuldigd zijn."
+    },
+    {
+      "chunk_id": "CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch__sec_vennootschappen-die-gelet-op-hun-rechtsvorm-wettelijk-verpli",
+      "chunk_sha": "e4f7e3d8147ab9d6",
+      "bron": "2022/14",
+      "bron_rol": "advies",
+      "sectie": "Vennootschappen die, gelet op hun rechtsvorm, wettelijk verplicht zijn hun jaarrekening zowel in België als in hun Staat van herkomst openbaar te maken",
+      "score": 0.602,
+      "text": "[CBN-advies 2022/14 — CBN-advies 2022/14 - Belgische bijkantoren van buitenlandse vennootschappen:…]\n\nVennootschappen die, gelet op hun rechtsvorm, wettelijk verplicht zijn hun jaarrekening zowel in België als in hun Staat van herkomst openbaar te maken\n\n##### Bedoelde vennootschappen\nTot deze categorie behoren: \n\n1. de Europese vennootschappen onderworpen aan Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad (hierna: de accountingrichtlijn), namelijk de Europese vennootschappen die een rechtsvorm hebben vergelijkbaar met: \n\n  1. de naamloze vennootschappen (NV’s), \n  2. de besloten vennootschappen (BV’s), en \n  3. de vennootschappen die krachtens artikel 1, § 1, b van de accountingrichtlijn gelijkgesteld zijn met een vennootschap met beperkte aansprakelijkheid, namelijk de vennootschappen met onbeperkte aansprakelijkheid[^46] waarvan “alle directe of indirecte vennoten die anders onbeperkt aansprakelijk zouden zijn, de facto beperkt aansprakelijk zijn omdat die vennoten [vennootschappen zijn als bedoeld onder a of b][^47]\n”; \n\n2. de andere Europese vennootschappen dan die bedoeld onder (i), die, krachtens hun nationaal recht, verplicht zijn om hun jaarrekening openbaar te maken en die zijn opgericht in een vorm die hen in België publicatieplichtig zou maken. \n3. de niet-Europese vennootschappen die zijn opgericht met een rechtsvorm op grond waarvan zij in België onderworpen zouden zijn aan de verplichting om hun jaarrekening openbaar te maken en die, krachtens de wetgeving van hun Staat van herkomst, een jaarrekening dienen op te stellen en openbaar te maken. \n\n##### Toepassing van de artikelen 2:24 en 3:20 WVV\n###### Verplichting\nWanneer buitenlandse vennootschappen in België werkzaam zijn via een bijkantoor, moeten deze vennootschappen vóór de opening van dit bijkantoor[^48] hun jaarrekening neerleggen ter griffie van de ondernemingsrechtbank van het rechtsgebied waarbinnen het bijkantoor zal worden gevestigd en daarna jaarlijks[^49] bij de Balanscentrale van de Nationale Bank van België[^50]. \n\nZe moeten, vóór de opening van het bijkantoor, tevens overgaan tot neerlegging van de documenten opgesomd in de artikelen 2:24, § 1 en 2 WVV (Europese en niet-Europese vennootschappen) ter griffie van de ondernemingsrechtbank van het rechtsgebied waarbinnen het bijkantoor zal worden gevestigd (of ingeval verscheidene bijkantoren worden geopend, ter griffie van de ondernemingsrechtbank van het rechtsgebied waarbinnen een bijkantoor zal worden gevestigd, naar keuze van de vennootschap).[^51]\n De griffie schrijft hen in in het rechtspersonenregister, onderdeel van de Kruispuntbank van Ondernemingen, en ze krijgen een ondernemingsnummer toegekend.[^52] \n\nDe buitenlandse vennootschappen dienen zich vervolgens tot het ondernemingsloket van hun keuze te richten, en dit vóór de aanvang van hun activiteiten in België, om in de hoedanigheid van inschrijvingsplichtige onderneming[^53] ingeschreven te worden in de Kruispuntbank van Ondernemingen en om een vestigingsnummer[^54] aan het Belgisch bijkantoor toegekend te krijgen. \n\n###### Vorm van de jaarrekening\nDe jaarrekening wordt ter griffie van de ondernemingsrechtbank van het rechtsgebied waarbinnen het bijkantoor zal worden gevestigd, neergelegd en daarna jaarlijks bij de Balanscentrale in de vorm waarin zij in de Staat van herkomst is opgesteld, gecontroleerd en openbaar gemaakt[^55]. Die vennootschappen moeten, met andere woorden, geen andere (nieuwe of herwerkte) jaarrekening of aanvullende informatie openbaar maken dan die welke zij in hun Staat van herkomst moeten publiceren. Ze leggen er hun jaarrekening dus neer in de originele versie, met andere woorden desgevallend uitgedrukt in een vreemde munt[^56] en niet voorgesteld volgens een standaardschema van de Nationale Bank van België[^57]. Ze dienen zich echter wel te houden aan de wettelijke bepalingen inzake het taalgebruik. \n\nHieruit volgt onder meer dat: \n\n1. indien een Staat van herkomst, met toepassing van artikel 31, § 1, van de accountingrichtlijn of door een vergelijkbare bepaling van buitenlands recht, de kleine vennootschappen heeft vrijgesteld van de publicatie van hun resultatenrekeningen en hun jaarverslagen, die vrijstelling ook zal gelden voor de in België neer te leggen jaarrekening, ook al heeft België die bepaling van de accountingrichtlijn niet toegepast; \n2. indien een Staat van herkomst, met toepassing van artikel 36 van de accountingrichtlijn of door een vergelijkbare bepaling van buitenlands recht, de microvennootschappen heeft vrijgesteld van de publicatie van hun jaarrekening en hun jaarverslagen, die vrijstelling ook zal gelden voor de in België neer te leggen jaarrekening, ook al heeft België die bepaling van de accountingrichtlijn niet toegepast; \n3. indien een Staat van herkomst, overeenkomstig de accountingrichtlijn of door een vergelijkbare bepaling van buitenlands recht, aan de betrokken vennootschap vrijstelling verleent van de publicatie van de jaarrekening, op voorwaarde dat zij een andere financiële staat publiceert, de in de Staat van herkomst geldende openbaarmakingsregeling ook in België zal gelden. \n4. De Commissie is dan ook van oordeel dat wanneer een buitenlandse dochtervennootschap vrijgesteld is van de publicatie van haar jaarrekening in haar Staat van herkomst, in toepassing van artikel 37 van de accountingrichtlijn of van een vergelijkbare bepaling van buitenlands recht (dat onder meer de opstelling vereist door de moedervennootschap van financiële geconsolideerde overzichten alsook de openbaarmaking door deze dochtervennootschap van de geconsolideerde jaarrekening in haar Staat van herkomst), een neerlegging bij de Balanscentrale van deze geconsolideerde jaarrekening voldoet aan de voorschriften van de artikelen 2:24, § 1, 7°, 2:24, § 2, 8°, 2:24, § 3, 2° en 3:20, § 1, 1ste en 2de lid WVV; indien een Staat van herkomst bepaalde opties van de accountingrichtlijn strenger omzet dan België of strengere interne bepalingen voorziet, de jaarrekening in België openbaar moet worden gemaakt volgens die strengere voorschriften, ook al legt de Belgische wetgeving geen dergelijke vereisten op aan de vennootschappen naar Belgisch recht;[^58] \n5. niet-Europese vennootschappen die in hun Staat van herkomst een jaarrekening dienen op te stellen en openbaar te maken, wanneer zij in België een bijkantoor vestigen, hier hun jaarrekening moeten publiceren in de vorm waarin zij werd opgesteld, gecontroleerd en openbaar gemaakt in de Staat van herkomst, zelfs indien die jaarrekening niet op gelijkwaardige wijze is opgesteld als in de accountingrichtlijn. België heeft trouwens geen gebruik gemaakt van de door artikel 38, § 1 van Richtlijn 2017/1132 geboden mogelijkheid om in dat geval te eisen dat boekhoudstukken zouden worden opgesteld en openbaar gemaakt over de werkzaamheden van het bijkantoor. \n\n###### Afwezigheid van publicatie in de Staat van herkomst\nWanneer een buitenlandse vennootschap met een Belgisch bijkantoor in haar Staat van herkomst haar jaarrekening niet openbaar maakt (met overtreding van de wetgeving van die Staat en, in voorkomend geval, van de accountingrichtlijn), betekent dit niet dat zij wordt vrijgesteld van de verplichting om haar jaarrekening in België openbaar te maken."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_146",
+      "chunk_sha": "86c1f41ccd906477",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:185",
+      "score": 0.602,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening van VZW, IVZW en stichtingen die een vereenvoudigde boekhouding voeren → Openbaarmaking]\n\nArt. 3:185\n\nEen VZW, IVZW of stichting die een vereenvoudigde boekhouding kan voeren en haar jaarrekening kan opmaken overeenkomstig de bepalingen van deze titel, kan evenwel beslissen zich vrijwillig te onderwerpen aan de verplichtingen die gelden voor de VZW's, IVZW's en stichtingen die niet voldoen aan de voorwaarden zoals bepaald in artikel III.85, § 2, van het Wetboek van economisch recht.  In dit geval past de VZW, IVZW of stichting het geheel van de bepalingen toe die gelden voor de opmaak en openbaarmaking van de jaarrekening van de VZW's, IVZW's en stichtingen die niet voldoen aan de voorwaarden zoals bepaald in artikel III.85, § 2, van het Wetboek van economisch recht.  Ingeval de VZW, IVZW of stichting later beslist opnieuw een vereenvoudigde boekhouding te voeren wordt deze beslissing vermeld en verantwoord in de toelichting bij de jaarrekening met opgave van de belangrijkste gevolgen voor de VZW, IVZW of stichting."
+    },
+    {
+      "chunk_id": "WER__art_III_76",
+      "chunk_sha": "0a47e97bb93e30ac",
+      "bron": "Wetboek van Economisch Recht",
+      "bron_rol": "wettekst",
+      "sectie": "Art. III.91",
+      "score": 0.6013,
+      "text": "[Wetboek van Economisch Recht → [ 1 Vrijheid van vestiging, dienstverlening en algemene verplichtingen van de ondernemingen.] 1 → [ 1 Algemene verplichtingen van de ondernemingen.] 1 → [ 1 Boekhouding van de ondernemingen.] 1]\n\nArt. III.91\n\n[ 1 § 1. De openbare instellingen naar Belgisch recht die een statutaire opdracht vervullen van commerciële, financiële of industriële aard, met uitzondering van de ondernemingen die bedoeld zijn in artikel III.95, § 1, moeten zich gedragen naar de bepalingen van het Wetboek van Vennootschappen en de uitvoeringsbesluiten ervan voor wat de vorm, de inhoud, de controle en de neerlegging van een geconsolideerde jaarrekening en geconsolideerd jaarverslag betreft.  De inhoud en de omvang van hun verplichtingen wordt bepaald op basis van dezelfde criteria inzake personeelsbestand, jaaromzet en balanstotaal als degene die gelden voor de ondernemingen onderworpen aan het Wetboek van Vennootschappen.  De Koning kan het toepassingsgebied van de in het tweede lid bedoelde bepalingen uitbreiden tot andere [ 2\n\nboekhoudplichtige] 2 ondernemingen.  § 2. De Koning kan de door Hem op grond van artikelen III.84, [ 2 zevende] 2 lid, III.89, § 2, III.90 en III.91, § 1, gestelde regels aanpassen, aanvullen of er geheel of gedeeltelijk vrijstelling van verlenen naargelang van de omvang van de onderneming alsmede de bedrijfstakken en de economische sectoren waarin zij werkzaam is.] 1\n\n----------  ( 1 )<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>  ( 2 )<W 2018-04-15/14, art. 87, 059; Inwerkingtreding : 01-11-2018>"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_28",
+      "chunk_sha": "d934b8a2f53fff74",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:34",
+      "score": 0.6012,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Algemene principes → Voorzieningen]\n\nArt. 3:34\n\nDe herwaarderingen zijn specifiek voor de actiefbestanddelen waarop ze betrekking hebben. Voor actiefbestanddelen met volkomen identieke technische of juridische kenmerken mogen echter globale herwaarderingen geacteerd worden."
+    },
+    {
+      "chunk_id": "WVV__art_14_36",
+      "chunk_sha": "55e4f8e5f3621da6",
+      "bron": "Wetboek van vennootschappen en verenigingen 23/03/2019",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 14:39",
+      "score": 0.6009,
+      "text": "[Wetboek van vennootschappen en verenigingen 23/03/2019 → Herstructurering en omzetting. - BOEK 14. Omzetting van vennootschappen, verenigingen en stichtingen → Omzetting van een vennootschap in een VZW of IVZW]\n\nArt. 14:39\n\nHet besluit tot omzetting is onderworpen aan de voorwaarden van artikel 9:21, derde en vierde lid.  Onmiddellijk na het besluit tot omzetting worden de statuten van de coöperatieve vennootschap die uit deze omzetting is ontstaan, vastgesteld onder dezelfde voorwaarden. Bij gebrek daaraan blijft het besluit tot omzetting zonder gevolg.  In de oproepingsbrief voor de algemene vergadering wordt de tekst van het eerste en tweede lid opgenomen."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_145",
+      "chunk_sha": "0dda86c5a4e3cf64",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:184",
+      "score": 0.6006,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening van VZW, IVZW en stichtingen die een vereenvoudigde boekhouding voeren → Vorm en inhoud van de jaarrekening]\n\nArt. 3:184\n\nDe staat van het vermogen vloeit rechtstreeks voort uit de in artikel III.89, § 1, van het Wetboek van economisch recht bedoelde inventaris.  De staat moet op de datum van de afsluiting van het boekjaar stelselmatig de aard en het bedrag van het geheel van de bezittingen en van de schulden van de VZW, IVZW of stichting vermelden.  De staat van het vermogen moet bovendien de rechten en de verplichtingen vermelden die een belangrijke invloed kunnen hebben op de financiële toestand van de VZW, IVZW of stichting. Ingeval deze rechten en verplichtingen niet in cijfers kunnen worden vertaald, worden zij enkel op passende wijze in de toelichting vermeld."
+    },
+    {
+      "chunk_id": "CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap__sec_kenmerken-van-een-maatschap",
+      "chunk_sha": "23afb81fd6bf2f1a",
+      "bron": "2015/10",
+      "bron_rol": "advies",
+      "sectie": "Kenmerken van een maatschap",
+      "score": 0.6003,
+      "text": "[CBN-advies 2015/10 — CBN-advies 2015/10 – Vrijstelling van subconsolidatie: de maatschap]\n\nKenmerken van een maatschap\n\nDe maatschap wordt beheerst door de bepalingen van het W.Venn. en door haar statuten. Het ontbreken van enige vorm van rechtspersoonlijkheid[^3] heeft onder meer tot gevolg dat de maatschap[^4] niet over een afgescheiden maatschappelijk vermogen beschikt en dat zij niet in rechte kan optreden."
+    },
+    {
+      "chunk_id": "CBN-2022-16-omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening__sec_structuur-van-de-jaarrekening",
+      "chunk_sha": "f652fe258fb85bca",
+      "bron": "2022/16",
+      "bron_rol": "advies",
+      "sectie": "Structuur van de jaarrekening",
+      "score": 0.6,
+      "text": "[CBN-advies 2022/16 — CBN-advies 2022/16 – Omzetting van een vennootschap: gevolgen voor de…]\n\nStructuur van de jaarrekening\n\nDe balans en de resultatenrekening van de jaarrekening geven voor elk van de rubrieken en subrubrieken de overeenkomstige bedragen weer van het vorige boekjaar. Voor vennootschappen geldt deze verplichting niet voor de jaarrekening van het eerste boekjaar waarop de bepalingen van boek 3, titel 1 en 2 KB WVV van toepassing zijn[^13].\n\nHoewel vennootschappen waarop de bepalingen van boek 3, titel 1 en 2 KB WVV voor het eerst van toepassing zijn na de omzetting niet bij wet verplicht zijn de overeenkomstige bedragen van het vorige boekjaar in de jaarrekening op te nemen, meent de Commissie dat dergelijke opname nuttig zou zijn om, enerzijds, de leesbaarheid van de jaarrekening te verhogen en, anderzijds, derden correct te kunnen informeren.\n\n[^1]: Onderhavig advies is tot stand gekomen nadat het ontwerpadvies op 23 juni 2022 ter publieke consultatie werd gepubliceerd op de website van de CBN.\n\n[^2]: Onderhavig advies heeft enkel betrekking op de omzetting van een vennootschap in België, met uitsluiting van grensoverschrijdende omzettingen.\n\n[^3]: Artikel 14:2 WVV.\n\n[^4]: Artikel 3:10 WVV.\n\n[^5]: Artikel 3:67, § 1, 6° KB WVV.\n\n[^6]: Artikel 14:10, eerste lid WVV.\n\n[^7]: Hierop bestaat evenwel een uitzondering, die in artikel 14:14 WVV als volgt wordt geformuleerd: “Wanneer de statuten van een vennootschap onder firma bepalen dat de vennootschap bij het overlijden van een vennoot zal voortduren met zijn rechtverkrijgenden of sommigen ervan, en dat zij de hoedanigheid van stille vennoot zullen hebben, vinden de artikelen 14:3 tot 14:12 geen toepassing op de omzetting die uit deze statutaire bepaling voortvloeit. De omzetting wordt vastgesteld hetzij door een authentieke akte, hetzij door een onderhandse akte, die bij uittreksel openbaar wordt gemaakt op de wijze bepaald in de artikelen 2:8, § 2, en 2:14, 1°.”\n\n[^8]: Artikel 14:10, derde lid WVV.\n\n[^9]: Bij de omzetting van een VOF in een BV moet er worden opgemerkt dat de oorspronkelijke vennoten aansprakelijk blijven voor de verplichtingen die vóór de omzetting werden aangegaan in naam en voor rekening van de vennootschap. Dit is immers een garantie voor derden. Hiervan moet in de toelichting melding worden gemaakt onder de niet in de balans opgenomen rechten en verplichtingen.\n\n[^10]: Artikel 3:9, 1° WVV.\n\n[^11]: Er moet worden opgemerkt dat bij BV’s (alsook bij CV’s) de dubbele uitkeringstest niet langer van toepassing is indien de BV (of CV) op het ogenblik van de algemene vergadering niet meer bestaat. Over het algemeen zal de omzetting van een vennootschap gevolgen hebben die verder reiken dan de jaarrekening, onder meer op belangrijke gebeurtenissen die voorkomen na balansdatum. Tal van regels (met name de alarmbelprocedure) zijn aldus onmiddellijk van toepassing vanaf de datum waarop de vennootschap wordt omgezet.\n\n[^12]: Artikel 3:9, 1° WVV.\n\n[^13]: Artikel 3:59, derde lid KB WVV."
+    },
+    {
+      "chunk_id": "CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch__sec_vennootschappen-opgericht-in-een-rechtsvorm-waarvoor-in-belg",
+      "chunk_sha": "18fb0bc86952a8b2",
+      "bron": "2022/14",
+      "bron_rol": "advies",
+      "sectie": "Vennootschappen opgericht in een rechtsvorm waarvoor in België een wettelijke verplichting tot openbaarmaking van de jaarrekening bestaat, terwijl dat niet het geval is in hun Staat van herkomst",
+      "score": 0.5997,
+      "text": "[CBN-advies 2022/14 — CBN-advies 2022/14 - Belgische bijkantoren van buitenlandse vennootschappen:…]\n\nVennootschappen opgericht in een rechtsvorm waarvoor in België een wettelijke verplichting tot openbaarmaking van de jaarrekening bestaat, terwijl dat niet het geval is in hun Staat van herkomst\n\n##### Niet-Europese vennootschappen met beperkte aansprakelijkheid of hiermee gelijkgestelde vennootschappen en Europese vennootschappen met beperkte aansprakelijkheid\nOnder deze categorie vallen, enerzijds, de niet-Europese vennootschappen die een rechtsvorm hebben vergelijkbaar met een NV, een BV, een CV of een door de accountingrichtlijn hiermee gelijkgestelde vennootschap, en anderzijds, de Europese vennootschappen die een rechtsvorm hebben vergelijkbaar met een vennootschap met beperkte aansprakelijkheid.\n\nDeze vennootschappen dienen in hun Staat van herkomst niet altijd hun jaarrekening te publiceren. \n\nZowel krachtens Richtlijn 2017/1132 als krachtens de artikelen 2:24, § 2, 8° en 3:20 WVV, moeten de vennootschappen, wanneer ze in België een bijkantoor oprichten of hebben opgericht, er hun jaarrekening openbaar maken, tenzij ze zijn vrijgesteld van publicatie in hun Staat van herkomst door vergelijkbare bepalingen als degene voorzien in de accountingrichtlijn.[^59] \n\nBehalve in dit laatste geval, is het ontbreken in de Staat van herkomst van een verplichting om hun jaarrekening openbaar te maken, voor dergelijke vennootschappen geen afdoende reden om in de Staat van vestiging van het bijkantoor niet tot die openbaarmaking over te gaan. \n\nDe betrokken vennootschappen mogen zich niet beperken tot de neerlegging van de geconsolideerde jaarrekening bij de Balanscentrale.[^60]\n Zowel de tekst als de doelstellingen van de Richtlijn 2017/1132 en van de artikelen 2:24 en 3:20 WVV vereisen de openbaarmaking van de jaarrekening van de vennootschap in de Staat van vestiging van het bijkantoor. \n\n##### (Europese of niet-Europese) buitenlandse vennootschappen met onbeperkte aansprakelijkheid\n###### Bedoelde vennootschappen\nEnerzijds vallen onder deze categorie de Europese vennootschappen die een rechtsvorm hebben vergelijkbaar met een VOF en CommV en anderzijds, de niet-Europese vennootschappen met een vergelijkbare rechtsvorm als deze vennootschappen die de twee volgende cumulatieve voorwaarden vervullen: \n\n1. ze zijn niet “klein” zoals bedoeld in artikel 1:24 WVV[^61], en \n2. alle of een deel van hun onbeperkt aansprakelijke vennoten zijn geen natuurlijke personen.[^62] \n\n###### Toepassing van de artikelen 2:24 en 3:20 WVV\nDeze vennootschappen vallen noch onder het toepassingsgebied van Richtlijn 2017/1132, noch onder dat van de accountingrichtlijn (behalve indien ze gelijk worden gesteld met vennootschappen met beperkte aansprakelijkheid).\n\nDe bescherming van derden en meer bepaald van schuldeisers die via een bijkantoor in zakelijk contact treden met dergelijke buitenlandse vennootschappen, wordt verzekerd door de onbeperkte aansprakelijkheid van hun vennoten. Voor zover deze aansprakelijkheid de facto beperkt zou zijn, in geval alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn vennootschappen met beperkte aansprakelijkheid zouden zijn, zouden de bedoelde vennootschappen onder het toepassingsgebied van de accountingrichtlijn vallen en zouden ze zo verplicht worden hun jaarrekening in België te publiceren (zie hierboven, nr. 22). \n\nDe Commissie is bijgevolg van mening dat de bedoelde vennootschappen[^63] hun jaarrekening niet moeten publiceren in België, zelfs indien ze zijn opgericht in een vorm en met een omvang die hen, indien zij als vennootschappen naar Belgisch recht waren opgericht, publicatieplichtig zou maken.[^64]"
+    },
+    {
+      "chunk_id": "WIB92__art_224",
+      "chunk_sha": "a60d7725d08f1523",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 224",
+      "score": 0.5996,
+      "text": "[WIB92 → RECHTSPERSONENBELASTING → HOOFDSTUK III]\n\nArt. 224\n\nDe in artikel 180, 1°, bedoelde intercommunales, samenwerkingsverbanden, projectverenigingen, autonome gemeentebedrijven en verenigingen zijn eveneens belastbaar op het totale bedrag van de sommen toegekend als dividenden aan enige vennootschap of andere rechtspersoon, met uitzondering van die toegekend aan de Staat, de gemeenschappen, de gewesten, de provincies, de agglomeraties, de federaties van gemeenten, de gemeenten en de openbare centra voor maatschappelijk welzijn.\n\n\nBerekening van de belasting."
+    },
+    {
+      "chunk_id": "WVV__art_14_31",
+      "chunk_sha": "ee8259af9a5b133f",
+      "bron": "Wetboek van vennootschappen en verenigingen 23/03/2019",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 14:33",
+      "score": 0.599,
+      "text": "[Wetboek van vennootschappen en verenigingen 23/03/2019 → Herstructurering en omzetting. - BOEK 14. Omzetting van vennootschappen, verenigingen en stichtingen → Omzetting van een vennootschap in een VZW of IVZW]\n\nArt. 14:33\n\nEen kopie van het verslag van het bestuursorgaan en van de bijlagen erbij worden meegedeeld aan de vennoten of aandeelhouders samen met de oproeping tot de algemene vergadering overeenkomstig de artikelen 5:83, 6:70, § 1, 7:128 en 7:129. In de vennootschappen onder firma en in de commanditaire vennootschappen worden zij gevoegd aan de oproeping tot de algemene vergadering.  Overeenkomstig artikel 2:32 worden die documenten eveneens onverwijld overgezonden aan de personen die hebben voldaan aan de statutair voorgeschreven formaliteiten om tot de vergadering te worden toegelaten.  Iedere vennoot of aandeelhouder of houder van andere effecten heeft bovendien het recht om, vijftien dagen vóór de vergadering, ter zetel van de vennootschap tegen overlegging van zijn effect of van het in artikel 7:41 bedoelde attest, kosteloos een exemplaar van diezelfde stukken te verkrijgen."
+    },
+    {
+      "chunk_id": "CBN-2022-16-omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening__sec_inleiding",
+      "chunk_sha": "c3ac667cd7934f4a",
+      "bron": "2022/16",
+      "bron_rol": "advies",
+      "sectie": "Inleiding",
+      "score": 0.5988,
+      "text": "[CBN-advies 2022/16 — CBN-advies 2022/16 – Omzetting van een vennootschap: gevolgen voor de…]\n\nInleiding\n\nDe omzetting van een vennootschap[^2] kan worden gedefinieerd als de aanname van een nieuwe rechtsvorm met behoud van de rechtspersoonlijkheid van de vennootschap.[^3]"
+    },
+    {
+      "chunk_id": "CBN-2011-20-verbonden-ondernemingen__sec_inleiding",
+      "chunk_sha": "7a83544e556b1e28",
+      "bron": "2011/20",
+      "bron_rol": "advies",
+      "sectie": "Inleiding",
+      "score": 0.5988,
+      "text": "[CBN-advies 2011/20 — CBN-advies 2011/20 – Verbonden ondernemingen]\n\nInleiding\n\nAan de Commissie voor Boekhoudkundige Normen werd de volgende groepsstructuur voorgelegd:\n\nDe natuurlijke personen I en J zijn gehuwd en bezitten elk 50 % van de aandelen van NV X. Zij zijn tevens beiden bestuurder in NV X. \n\nDe natuurlijke personen K en L zijn gehuwd. Ze bezitten elk 50 % van BVBA Y en zijn tevens zaakvoerder in deze vennootschap. \n\nDe aandelen van BVBA A en BVBA B zijn op hun beurt voor 50 % in handen van NV X en BVBA Y en worden door deze twee laatste vennootschappen gezamenlijk gecontroleerd. BVBA A heeft één zaakvoerder: de natuurlijk persoon I, BVBA B heeft als enige zaakvoerder de natuurlijk persoon K.\n\nDe vennootschappen A, C, D en E zijn actief in een andere sector dan de vennootschappen B, F, G en H.\n\nDe vennootschappen C, D en E hebben elk drie zaakvoerders: BVBA A, NV X en natuurlijk persoon I.\n\nDe vennootschappen F, G en H hebben elk drie zaakvoerders: BVBA B, BVBA Y en natuurlijk persoon K. \n\nAan de Commissie werd vervolgens de vraag gesteld welke vennootschappen met elkaar verbonden zijn in de zin van artikel 11 van het Wetboek van vennootschappen (hierna: W.Venn.). \n\nOp basis van de bovenstaande informatie is de Commissie tot de volgende conclusie gekomen."
+    },
+    {
+      "chunk_id": "WVV__art_14_11",
+      "chunk_sha": "e726d936daeccdad",
+      "bron": "Wetboek van vennootschappen en verenigingen 23/03/2019",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 14:12",
+      "score": 0.5977,
+      "text": "[Wetboek van vennootschappen en verenigingen 23/03/2019 → Herstructurering en omzetting. - BOEK 14. Omzetting van vennootschappen, verenigingen en stichtingen → Omzetting van vennootschappen → Nationale omzetting → Aansprakelijkheid bij omzetting]\n\nArt. 14:12\n\nNiettegenstaande andersluidende bepaling, zijn de vennoten van een vennootschap onder firma, de gecommanditeerde vennoten van een commanditaire vennootschap en de leden van het bestuursorgaan van ieder andere om te zetten vennootschap jegens de betrokkenen hoofdelijk gehouden:  1° tot betaling van het eventuele verschil tussen het nettoactief van de vennootschap na omzetting en het bij dit wetboek voorgeschreven minimumbedrag van het kapitaal;  2° voor de overwaardering van het nettoactief, zoals dit blijkt uit de bij artikel 14:3 bedoelde staat;  3° tot vergoeding van de schade die het onmiddellijke en rechtstreekse gevolg is, hetzij van de nietigheid van de omzettingsverrichting wegens de niet-naleving van de regels bepaald in de artikelen 5:13, 2° tot 4°, 6:14, 2° tot 4°, 7:15, 2° tot 4°, die naar analogie worden toegepast, of artikel 14:10, eerste lid, hetzij wegens het ontbreken of de onjuistheid van de vermeldingen voorgeschreven in de artikelen 5:12, eerste lid, met uitzondering van het 5° en het 8°, 6:13, eerste lid, met uitzondering van het 5° en het 8°, 7:14, met uitzondering van het 7°, en de punten 10° tot 12°, en 14:10, tweede lid."
+    },
+    {
+      "chunk_id": "WIB92__art_208",
+      "chunk_sha": "378bde0a75cbf7f5",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 208",
+      "score": 0.5974,
+      "text": "[WIB92 → VENNOOTSCHAPSBELASTING → HOOFDSTUK II → Ontbinding en vereffening]\n\nArt. 208\n\nVennootschappen in vereffening blijven aan de vennootschapsbelasting onderworpen volgens de bepalingen van de artikelen 183 tot 207/2.\n\nHun winst bevat mede de meerwaarden die worden verwezenlijkt of vastgesteld naar aanleiding van de verdeling van hun vermogen."
+    },
+    {
+      "chunk_id": "EU-Richtlijn-moeder-dochter-2011-96__art_11__sub_a-y",
+      "chunk_sha": "1d1b2575b3c4de02",
+      "bron": "Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke fiscale regeling voor moedermaatschappijen en dochterondernemingen uit verschillende lidstaten",
+      "bron_rol": "wettekst",
+      "sectie": "Artikel 11 — a)–y)",
+      "score": 0.5959,
+      "text": "[Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke fiscale regeling voor moedermaatschappijen en dochterondernemingen uit verschillende lidstaten → B → Artikel 11 → a)–y)]\n\nArtikel 11 — a)–y)\n\na) De vennootschappen opgericht overeenkomstig Verordening (EG) nr. 2157/2001 van de Raad van 8 oktober 2001  betreffende het statuut van de Europese vennootschap (SE) ( 1 ), Richtlijn 2001/86/EG van de Raad van 8 oktober 2001  tot aanvulling van het statuut van de Europese vennootschap met betrekking tot de rol van de werknemers ( 2 ) en de  coöperatieve vennootschappen opgericht overeenkomstig Verordening (EG) nr. 1435/2003 van de Raad van 22 juli  2003 betreffende het statuut voor een Europese Coöperatieve Vennootschap (SCE) ( 3 ) en Richtlijn 2003/72/EG van de  Raad van 22 juli 2003 tot aanvulling van het statuut van een Europese coöperatieve vennootschap met betrekking tot  de rol van de werknemers ( 4 ).\n\nb) De vennootschappen naar Belgisch recht, geheten „société anonyme”/„naamloze vennootschap”, „société en com mandite par actions”/„commanditaire vennootschap op aandelen”, „société privée à responsabilité limitée”/„besloten  vennootschap met beperkte aansprakelijkheid”, „société coopérative à responsabilité limitée”/„coöperatieve vennoot schap met beperkte aansprakelijkheid”, „société coopérative à responsabilité illimitée”/„coöperatieve vennootschap met  onbeperkte aansprakelijkheid”, „société en nom collectif”/„vennootschap onder firma”, „société en commandite sim ple”/„gewone commanditaire vennootschap”, de overheidsbedrijven die een van vorengenoemde rechtsvormen hebben  aangenomen, alsmede andere vennootschappen die zijn opgericht naar Belgisch recht en die onder de Belgische  vennootschapsbelasting vallen.\n\nc)  De vennootschappen naar Bulgaars recht, geheten: „събирателно дружество”, „командитно дружество”, „дружество с  ограничена отговорност”, „акционерно дружество”, „командитно дружество с акции”, „неперсонифицирано дружество”,  „кооперации”, „кооперативни съюзи”, „държавни предприятия”, die zijn opgericht naar Bulgaars recht en commerciële  activiteiten uitoefenen.\n\nd) De vennootschappen naar Tsjechisch recht, geheten: „akciová společnost”, „společnost s ručením omezeným”.\n\ne)  De vennootschappen naar Deense recht, geheten „aktieselskab” en „anpartsselskab”, alsmede de overige overeenkom stig de wet op de vennootschapsbelasting belastingplichtige ondernemingen, voor zover hun belastbare inkomsten  worden berekend en belast volgens de algemene fiscaalrechtelijke regels van toepassing op „aktieselskaber”.\n\nf)  De vennootschappen naar Duits recht, geheten „Aktiengesellschaft”, „Kommanditgesellschaft auf Aktien”, „Gesellschaft  mit beschränkter Haftung”, „Versicherungsverein auf Gegenseitigkeit”, „Erwerbs- und Wirtschaftsgenossenschaft”, „Be triebe gewerblicher Art von juristischen Personen des öffentlichen Rechts”, alsmede andere vennootschappen die zijn  opgericht naar Duits recht en die onder de Duitse vennootschapsbelasting vallen.\n\ng) De vennootschappen naar Ests recht, geheten: „täisühing”, „usaldusühing”, „osaühing”, „aktsiaselts”, „tulundusühistu”.\n\nh) De vennootschappen die zijn opgericht naar of handelen onder Iers recht, de lichamen die zijn geregistreerd krachtens  de Industrial and Provident Societies Act, de „building societies” die zijn opgericht onder de Building Societies ACTS,  en de „trustee savings banks” in de zin van de Trustee Savings Banks Act van 1989.\n\ni)  De vennootschappen naar Grieks recht, geheten „ανώνυμη εταιρεία”, „εταιρεία περιορισμένης ευθύνης (Ε.Π.Ε.)” alsmede  andere vennootschappen die zijn opgericht naar Grieks recht en die onder de Griekse vennootschapsbelasting vallen.\n\nj)  De vennootschappen naar Spaans recht, geheten: „sociedad anónima”, „sociedad comanditaria por acciones”, „sociedad  de responsabilidad limitada”, de publiekrechtelijke lichamen die privaatrechtelijk werkzaam zijn. Andere naar Spaans  recht opgerichte entiteiten die onderworpen zijn aan de Spaanse vennootschapsbelasting („impuesto sobre socieda des”).\n\nk) De vennootschappen naar Frans recht, geheten „société anonyme”, „société en commandite par actions”, „société à  responsabilité limitée”, „sociétés par actions simplifiées”, „sociétés d'assurances mutuelles”, „caisses d'épargne et de  prévoyance”, „sociétés civiles” die automatisch aan de vennootschapsbelasting onderworpen zijn, „coopératives”,  „unions de coopératives”, de overheidsinstellingen en -bedrijven met een industrieel of commercieel karakter, alsmede  andere vennootschappen die zijn opgericht naar Frans recht en die onder de Franse vennootschapsbelasting vallen.\n\nl)  De vennootschappen naar Italiaans recht, geheten „società per azioni”, „società in accomandita per azioni”, „società a  responsabilità limitata”, „società cooperative”, „società di mutua assicurazione”, alsook de particuliere en publieke  lichamen met uitsluitend of hoofdzakelijk commerciële werkzaamheden.\n\n( 1 ) PB L 294 van 10.11.2001, blz. 1.  ( 2 ) PB L 294 van 10.11.2001, blz. 22.  ( 3 ) PB L 207 van 18.8.2003, blz. 1.  ( 4 ) PB L 207 van 18.8.2003, blz. 25.\n\nm) „εταιρείες” naar Cyprisch recht, als omschreven in de wet op de inkomstenbelastingen.\n\nn) De vennootschappen naar Lets recht, geheten: „akciju sabiedrība”, „sabiedrība ar ierobežotu atbildību”.\n\no) De naar Litouws recht opgerichte vennootschappen.\n\np) De vennootschappen naar Luxemburgs recht, geheten „société anonyme”, „société en commandite par actions”,  „société à responsabilité limitée”, „société coopérative”, „société coopérative organisée comme une société anonyme”,  „association d'assurances mutuelles”, „association d'épargne-pension”, „entreprise de nature commerciale, industrielle  ou minière de l'Etat, des communes, des syndicats de communes, des établissements publics et des autres personnes  morales de droit public”, alsmede andere vennootschappen die zijn opgericht naar Luxemburgs recht en die onder de  Luxemburgse vennootschapsbelasting vallen.\n\nq) De vennootschappen naar Hongaars recht, geheten: „közkereseti társaság”, „betéti társaság”, „közös vállalat”, „korlátolt  felelősségű társaság”, „részvénytársaság”, „egyesülés”, „szövetkezet”.\n\nr)  De vennootschappen naar Maltees recht, geheten: „Kumpaniji ta’ Responsabilita' Limitata”, „Soċjetajiet en commandite  li l-kapital tagħhom maqsum f'azzjonijiet”.\n\ns)  De vennootschappen naar Nederlands recht, geheten „naamloze vennootschap”, „besloten vennootschap met beperkte  aansprakelijkheid”, „open commanditaire vennootschap”, „coöperatie”, „onderlinge waarborgmaatschappij”, „fonds  voor gemene rekening”, „vereniging op coöperatieve grondslag”, en „vereniging welke op onderlinge grondslag als  verzekeraar of kredietinstelling optreedt”, alsmede andere vennootschappen die zijn opgericht naar Nederlands recht  en die onder de Nederlandse vennootschapsbelasting vallen.\n\nt)  De vennootschappen naar Oostenrijks recht, geheten „Aktiengesellschaft”, „Gesellschaft mit beschränkter Haftung”,  „Versicherungsvereine auf Gegenseitigkeit”, „Erwerbs- und Wirtschaftsgenossenschaften”, „Betriebe gewerblicher Art  von Körperschaften des öffentlichen Rechts”, „Sparkassen”, alsmede andere vennootschappen die zijn opgericht naar  Oostenrijks recht en die onder de Oostenrijkse vennootschapsbelasting vallen.\n\nu) De vennootschappen naar Pools recht, geheten: „spółka akcyjna”, „spółka z ograniczoną odpowiedzialnością”.\n\nv) De naar Portugees recht opgerichte handelsvennootschappen of burgerlijke vennootschappen met handelsvorm,  coöperatieven en overheidsbedrijven.\n\nw) De vennootschappen naar Roemeens recht, geheten: „societăți pe acțiuni”, „societăți în comandită pe acțiuni”,  „societăți cu răspundere limitată”.\n\nx) De vennootschappen naar Sloveens recht, geheten: „delniška družba”, „komanditna družba”, „družba z omejeno  odgovornostjo”.\n\ny) De vennootschappen naar Slowaaks recht, geheten: „akciová spoločnosť”, „spoločnosť s ručením obmedzeným”,  „komanditná spoločnosť”."
+    },
+    {
+      "chunk_id": "WIB92__art_2__sub_13deg",
+      "chunk_sha": "4a4d4a54a2a19040",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 2 — 13°",
+      "score": 0.5957,
+      "text": "[WIB92 → PERSONENBELASTING → HOOFDSTUK I → Art. 2 → 13°]\n\nArt. 2 — 13°\n\n13° Onder een juridische constructie wordt verstaan :\n\na) een rechtsverhouding, die door een rechtshandeling van de oprichter of door een rechterlijke beslissing in het leven wordt geroepen, waarbij goederen of rechten onder de macht van een beheerder worden gebracht om ze te besturen ten behoeve van een of meerdere begunstigden of voor een bepaald doel. Die rechtsverhouding heeft de volgende kenmerken :\n\n- de eigendomstitel betreffende de goederen of rechten van de juridische constructie is opgesteld op naam van een beheerder of op naam van een andere persoon voor rekening van de beheerder;\n\n- de goederen van de juridische constructie vormen een afzonderlijk vermogen en maken geen deel uit van het vermogen van de beheerder;\n\n- de beheerder heeft de bevoegdheid en de plicht, ter zake waarvan hij verantwoording verschuldigd is, om in overeenstemming met de bepalingen van de juridische constructie en de bijzondere verplichtingen waaraan hij door de wet is onderworpen, de goederen van de juridische constructie te besturen, te beheren of erover te beschikken.\n\nb) enigerlei vennootschap, vereniging, inrichting, instelling of entiteit, die rechtspersoonlijkheid bezit naar het recht dat haar beheerst of die een rechtsvorm heeft die vergelijkbaar is met die van een vennootschap of vereniging met rechtspersoonlijkheid naar Belgisch recht, en die, krachtens de bepalingen van de wetgeving van de Staat of het rechtsgebied waar hij gevestigd is, aldaar ofwel niet aan een inkomstenbelasting is onderworpen ofwel onderworpen is aan een inkomstenbelasting die minder dan 15 pct. bedraagt van het belastbaar inkomen van deze juridische constructie dat wordt vastgesteld overeenkomstig de regels die van toepassing zijn voor het vestigen van de Belgische belasting op daarmee overeenstemmende inkomsten.\n\nDe in het eerste lid bedoelde vennootschap, vereniging, inrichting, instelling of entiteit is geen juridische constructie indien deze gevestigd is in een Staat of rechtsgebied dat behoort tot de Europese Economische Ruimte, behalve indien het:"
+    },
+    {
+      "chunk_id": "CBN-2018-07-vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de__sec_vennootschapsrechtelijke-bepalingen",
+      "chunk_sha": "2ee712f586857843",
+      "bron": "2018/07",
+      "bron_rol": "advies",
+      "sectie": "Vennootschapsrechtelijke bepalingen",
+      "score": 0.5956,
+      "text": "[CBN-advies 2018/07 — CBN-advies 2018/07 – Vereniging van aandelen in handen van één enkele…]\n\nVennootschapsrechtelijke bepalingen\n\nEen vennootschap vereist in principe steeds een samenwerking tussen verschillende personen en dus meerdere aandeelhouders.[^2]\n Enkel voor de naamloze vennootschap (hierna: NV) en de besloten vennootschap met beperkte aansprakelijkheid (hierna: BVBA) voorzien resp. de artikelen 646 en 213 van het Wetboek van Vennootschappen (hierna: W.Venn.) in de mogelijkheid om slechts één aandeelhouder te hebben, in de praktijk vaak omschreven als “eenhoofdigheid” of een “eenhoofdige vennootschap”.\n\nIn bepaalde gevallen is een belangrijk gevolg gekoppeld aan de eenhoofdigheid van een NV en BVBA, nl. een hoofdelijke borgstelling door de enige aandeelhouder voor de verbintenissen van de eenhoofdige vennootschap.[^3]\n Artikel 646, § 1 W.Venn. schrijft meer bepaald voor dat, indien binnen het jaar geen nieuwe aandeelhouder in de vennootschap is opgenomen of deze niet geldig is omgezet in een BVBA of ontbonden, de enige aandeelhouder geacht wordt hoofdelijk borg te staan voor alle verbintenissen van de vennootschap, ontstaan na de vereniging van alle aandelen in zijn hand, tot een nieuwe aandeelhouder in de vennootschap wordt opgenomen of tot de bekendmaking van haar omzetting in een BVBA of van haar ontbinding. Artikel 213, § 2 W.Venn. bevat een gelijkaardige bepaling voor het geval waarin in de eenhoofdig geworden BVBA de enige vennoot een rechtspersoon is.[^4] \n\n| \n\n*Voorbeeld*\n\nWanneer alle aandelen van de vennootschap op 1 januari X in handen van vennootschap A verenigd zijn, dan wordt A vanaf 1 januari X+1 hoofdelijk aansprakelijk voor de in het jaar X ontstane verbintenissen van de vennootschap wanneer ondertussen geen nieuwe aandeelhouder is toegetreden of wanneer in tussentijd het ontbindingsbesluit niet is openbaar gemaakt. Treedt op 1 juni X+1 een nieuwe aandeelhouder toe of werd op die dag het ontbindingsbesluit openbaar gemaakt dan blijft A met de vennootschap aansprakelijk voor de voorheen ontstane verbintenissen maar niet voor de verbintenissen die na 1 juni X+1 zijn ontstaan.[^5] \n\n |"
+    },
+    {
+      "chunk_id": "CBN-2022-13-boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen__sec_toepassingsgebied",
+      "chunk_sha": "26a0f8856c247962",
+      "bron": "2022/13",
+      "bron_rol": "advies",
+      "sectie": "Toepassingsgebied",
+      "score": 0.5952,
+      "text": "[CBN-advies 2022/13 — CBN-advies 2022/13 – Boekhoudkundige verwerking van fusies tussen verenigingen…]\n\nToepassingsgebied\n\nDe regelgeving inzake herstructureringen van verenigingen en stichtingen betreft de verrichtingen die door VZW’s, IVZW’s en stichtingen werden uitgevoerd. De verkrijgende rechtspersoon moet rekening houden met een bepaald aantal beperkingen die gelinkt zijn aan de aard van de inbrengende vereniging of stichting.\n\nEen VZW of IVZW kan niet enkel ontbonden worden en haar vermogen inbrengen in een andere VZW of IVZW, maar ook in een stichting, universiteit of publiekrechtelijke rechtspersoon die het belangeloos doel ervan of een doel dat daar zo nauw mogelijk bij aansluit, moet nastreven.[^8]\n In dit geval is de verscheidenheid aan mogelijke verkrijgende rechtspersonen vrij groot.\n\nHet vermogen van een private stichting zal daarentegen enkel kunnen worden ingebracht in een andere private stichting of in een andere stichting van openbaar nut, universiteit of publiekrechtelijke rechtspersoon teneinde een niet gepersonaliseerd fonds erin op te richten om het belangeloos doel ervan na te streven.[^9] \n\nEen stichting van openbaar nut kan op haar beurt slechts overgaan tot een fusie ten behoeve van een andere stichting van openbaar nut, een universiteit of een publiekrechtelijke rechtspersoon teneinde een niet gepersonaliseerd fonds erin op te richten om het belangeloos doel ervan na te streven.[^10]"
+    },
+    {
+      "chunk_id": "WIB92__art_240",
+      "chunk_sha": "d4bcb3970e9e7095",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 240",
+      "score": 0.5946,
+      "text": "[WIB92 → BELASTING VAN NIET-INWONERS → HOOFDSTUK III → Vaststelling van het nettobedrag van de samen te voegen inkomsten]\n\nArt. 240\n\nTen name van vennootschappen, verenigingen, instellingen of lichamen vermeld in artikel 227, 2°, omvat de belastbare winst het totale bedrag van de in België verkregen inkomsten met als enige aftrek uit hoofde van in artikel 195 vermelde beroepskosten, de bezoldigingen en de erop betrekking hebbende sociale lasten, die worden toegerekend op de resultaten van een Belgische inrichting waarover die belastingplichtigen beschikken, wegens de in die inrichting uitgeoefende werkzaamheden.\n\nTen name van de in het eerste lid vermelde vennootschappen zijn de bepalingen inzake investeringsaftrek en belastingkrediet voor onderzoek en ontwikkeling de bepalingen die van toepassing zijn voor de vennootschapsbelasting."
+    },
+    {
+      "chunk_id": "CBN-2022-13-boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen__sec_inleiding",
+      "chunk_sha": "d1775ccad92c3de0",
+      "bron": "2022/13",
+      "bron_rol": "advies",
+      "sectie": "Inleiding",
+      "score": 0.5939,
+      "text": "[CBN-advies 2022/13 — CBN-advies 2022/13 – Boekhoudkundige verwerking van fusies tussen verenigingen…]\n\nInleiding\n\nNaar aanleiding van de invoering van het Wetboek van vennootschappen en verenigingen (hierna: WVV) heeft de wetgever een regeling uitgewerkt inzake de fusie en splitsing van verenigingen zonder winstoogmerk (VZW’s), internationale verenigingen zonder winstoogmerk (IVZW’s) en stichtingen. \n\nDeze nieuwe regelgeving is duidelijk gebaseerd op de regeling die van toepassing is op vennootschappen met rechtspersoonlijkheid en biedt een alternatief voor de verrichtingen die door de Commissie worden gekwalificeerd als “pseudo-fusies” in CBN-adviezen 2013/1 – *De boekhoudkundige verwerking van (pseudo-)fusies van verenigingen en stichtingen* en 2015/3 – *Verplichting tot opstelling en publicatie van de jaarrekening door de inbrengende vereniging in het kader van een pseudo-fusie*.[^2] \n\nHoewel boek 13 WVV zowel fusies als splitsingen behandelt, beperkt onderhavig advies zich enkel tot fusies. Splitsingen van verenigingen en stichtingen zullen behandeld worden in een afzonderlijk advies.\n\nBovendien worden in onderhavig advies enkel de fusies behandeld tussen rechtspersonen die onder Belgisch recht vallen (aangezien de wet geen mogelijkheid biedt tot grensoverschrijdende fusies)."
+    },
+    {
+      "chunk_id": "WVV__art_9_23",
+      "chunk_sha": "c1e83c65607b38d9",
+      "bron": "Wetboek van vennootschappen en verenigingen 23/03/2019",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 9:26",
+      "score": 0.5938,
+      "text": "[Wetboek van vennootschappen en verenigingen 23/03/2019 → Erkenning van vennootschappen → Buitenlandse verenigingen]\n\nArt. 9:26\n\nAlle akten of stukken uitgaande van de vereniging erkend als beroepsvereniging of federatie van verenigingen erkend als beroepsvereniging vermelden haar hoedanigheid als VZW erkend als beroepsvereniging of als federatie van beroepsverenigingen."
+    },
+    {
+      "chunk_id": "CBN-2022-12-boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen__sec_voorbeeld",
+      "chunk_sha": "676304879a5e4e3b",
+      "bron": "2022/12",
+      "bron_rol": "advies",
+      "sectie": "Voorbeeld",
+      "score": 0.5937,
+      "text": "[CBN-advies 2022/12 — CBN-advies 2022/12 – Boekhoudkundige verwerking van splitsingen van…]\n\nVoorbeeld\n\nVennootschap A is een NV met een eigen vermogen dat als volgt wordt samengesteld:"
+    }
+  ]
+}

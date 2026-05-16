@@ -1,0 +1,185 @@
+id: berekenen-interpreteren-liquiditeitsratios
+titel: Berekenen en interpreteren van de liquiditeitsratio's
+status: voorgesteld
+schema_version: "1.1"
+programmaonderdelen:
+- 1.3
+voortkomend_uit:
+  taken:
+  - 1.3.taak.1
+  kenniselementen:
+  - 1.3.II.C
+  - 1.3.II.C.2
+gebaseerd_op_concepten:
+- liquiditeitsratio
+- current-ratio
+- quick-ratio
+- werkkapitaal
+- analytische-balans
+- sectorvergelijking-financiele-analyse
+procedure_grondslag:
+  wettelijk_pct: 5
+  praktijk_pct: 95
+  motivering: Liquiditeitsratio's zijn vakdoctrine — geen Belgische wettekst legt de formules op. Wettelijke link is uitsluitend dat de balansposten zelf uit KB WVV komen. Vereist mens-review wegens praktijk_pct > 70%.
+stappen:
+- nr: 1
+  titel: Vertrekken vanuit de analytische balans
+  wat: Gebruik de geherklasseerde analytische balans als basis, niet de officiële balans.
+  waarom: Herklassificaties (zoals effectenportefeuille van vast naar vlottend) wijzigen de teller of noemer en dus de ratio.
+  input:
+  - artefact: Analytische balans uit competentie [[opstellen-analytische-balans]]
+    veld: Vier blokken activa, vier blokken passiva
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Werkblad liquiditeit
+    veld: Te gebruiken bedragen + bron-cellen
+    type: document
+  hoe: |
+    1. Open de analytische balans uit [[analytische-balans]] §herwerking.
+    2. Markeer de cellen die je nodig hebt: voorraden, vorderingen ≤ 1 jaar, geldbeleggingen, liquide middelen, schulden ≤ 1 jaar.
+    3. Noteer per cel of er een herklassificatie is gebeurd (bv. effectenportefeuille verplaatst).
+    4. Zet de bedragen klaar in je werkblad.
+  grondslag: "[[analytische-balans]] §herwerking"
+- nr: 2
+  titel: Berekenen van de current ratio (algemene liquiditeit)
+  wat: Bereken (vlottende activa) / (schulden ≤ 1 jaar).
+  waarom: Dit toont of de onderneming haar korte schulden kan dekken met haar volledige korte termijn-actief.
+  input:
+  - artefact: Werkblad liquiditeit uit stap 1
+    veld: Voorraden + vorderingen + geldbeleggingen + liquide
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Current ratio
+    veld: Verhouding (kommagetal of percentage)
+    type: percentage
+  hoe: |
+    1. Tel volgens [[current-ratio]] §vlottende-activa-tegenover-korte-schulden alle vlottende activa op: voorraden + vorderingen ≤ 1 jaar + geldbeleggingen + liquide middelen + overlopende rekeningen actief.
+    2. Tel alle schulden ≤ 1 jaar + overlopende rekeningen passief op.
+    3. Deel teller door noemer.
+    4. Lees af: > 1 = comfortzone; ongeveer 1 = grens; < 1 = ontoereikend zonder her-onderhandeling.
+    5. Vergelijk met de sectormediaan ([[sectorvergelijking-financiele-analyse]] §mediaan-boven-gemiddelde).
+  voorbeeld:
+    scenario: "Rotex Roeselare NV — current ratio voor boekjaar N."
+    substappen:
+    - nr: 1
+      titel: Bouwstenen
+      type: balans
+      data: |
+        | Element                       | Bedrag       |
+        |-------------------------------|-------------:|
+        | Voorraden                     | € 2.500.000  |
+        | Vorderingen ≤ 1 jaar          | € 3.800.000  |
+        | Geldbeleggingen + liquide     | € 1.500.000  |
+        | **Vlottende activa totaal**   | **€ 7.800.000** |
+        | Schulden ≤ 1 jaar             | € 4.800.000  |
+    - nr: 2
+      titel: Berekening
+      type: berekening
+      data: |
+        Current ratio = € 7.800.000 / € 4.800.000 = **1,63**
+    - nr: 3
+      titel: Interpretatie
+      type: opmerking
+      data: |
+        1,63 > 1 → comfortzone. Sectormediaan voor industriële NV's ligt rond
+        1,3-1,5. Rotex zit boven mediaan — gezonde liquiditeit op het eerste
+        gezicht. Test wordt verfijnd met quick ratio (stap 3).
+  grondslag: "[[current-ratio]] §formule, vakdoctrine"
+- nr: 3
+  titel: Berekenen van de quick ratio (verfijnde liquiditeit)
+  wat: Bereken (vlottende activa – voorraden) / (schulden ≤ 1 jaar).
+  waarom: Voorraden zijn de minst liquide vlottende activa — door ze weg te nemen zie je de echte korte-termijn-betaalcapaciteit.
+  input:
+  - artefact: Werkblad liquiditeit uit stap 1
+    veld: Vlottende activa zonder voorraden
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Quick ratio
+    veld: Verhouding (kommagetal)
+    type: percentage
+  hoe: |
+    1. Neem de teller van current ratio en trek de voorraden af volgens [[quick-ratio]] §vlottende-activa-zonder-voorraden.
+    2. De noemer blijft schulden ≤ 1 jaar.
+    3. Deel teller door noemer.
+    4. Lees af: > 1 = sterke acid test; tussen 0,7 en 1 = aanvaardbaar voor onderneming met snel voorraadrotatie; < 0,7 = zwak.
+    5. Combineer met current ratio: groot gat tussen current en quick → voorraden domineren — sectorafhankelijk normaal of risicovol.
+  voorbeeld:
+    scenario: "Rotex Roeselare NV — quick ratio voor boekjaar N."
+    substappen:
+    - nr: 1
+      titel: Berekening
+      type: berekening
+      data: |
+        Quick ratio = (€ 7.800.000 – € 2.500.000) / € 4.800.000
+                    = € 5.300.000 / € 4.800.000
+                    = **1,10**
+    - nr: 2
+      titel: Interpretatie
+      type: opmerking
+      data: |
+        Quick ratio 1,10 > 1 — Rotex kan haar korte schulden dekken zonder een
+        enkele voorraadpost te verkopen. Verschil current (1,63) – quick (1,10)
+        = 0,53 wijst op significant voorraadbeslag. Normaal voor industriële NV;
+        geen alarmsignaal.
+  valkuilen:
+  - advies: Voor handelsondernemingen met snelle voorraadrotatie is een quick ratio < 1 vaak gezond.
+    vaak_fout: Mechanisch < 1 = problematisch toepassen ongeacht de sector.
+    grondslag: "[[sectorvergelijking-financiele-analyse]] §sectorgrenzen"
+  grondslag: "[[quick-ratio]] §formule, vakdoctrine"
+- nr: 4
+  titel: Vergelijken met sectormediaan en historische evolutie
+  wat: Plaats current en quick ratio naast sectormediaan en de eigen evolutie over drie boekjaren.
+  waarom: Een ratio krijgt pas betekenis door vergelijking — absoluut zegt het te weinig.
+  input:
+  - artefact: Berekende ratio's huidig boekjaar
+    veld: Current + quick ratio
+    type: percentage
+  - artefact: Ratio's N-1 en N-2
+    veld: Idem voorgaande boekjaren
+    type: percentage
+  - artefact: Sectorgegevens (NBB, Belfius, Bel-first)
+    veld: Sectormediaan + spreiding
+    type: percentage
+  output:
+  - artefact: Interpretatie-paragraaf
+    veld: Diagnose liquiditeit
+    type: document
+  hoe: |
+    1. Bereken current en quick ratio op N, N-1 en N-2.
+    2. Zet ze in een evolutie-tabel ([[historische-evolutie-financiele-analyse]] §3-5-boekjaren).
+    3. Vergelijk met sectormediaan; de mediaan is robuuster dan het gemiddelde tegen uitschieters.
+    4. Trek conclusies: dalende ratio's met vlakke sector = bedrijfsspecifieke verslechtering; gelijke beweging als sector = conjunctuur.
+    5. Documenteer in één paragraaf met cijfers + interpretatie.
+  voorbeeld:
+    scenario: "Rotex Roeselare NV — evolutie en sectorvergelijking."
+    substappen:
+    - nr: 1
+      titel: Evolutie- en vergelijkingstabel
+      type: berekening
+      data: |
+        | Ratio          | N    | N-1  | N-2  | Sectormediaan |
+        |----------------|-----:|-----:|-----:|--------------:|
+        | Current ratio  | 1,63 | 1,52 | 1,48 | 1,40          |
+        | Quick ratio    | 1,10 | 1,02 | 0,98 | 0,95          |
+    - nr: 2
+      titel: Interpretatie
+      type: opmerking
+      data: |
+        Beide ratio's stijgen geleidelijk en liggen boven sectormediaan.
+        Liquiditeitspositie versterkt zich; geen knipperlicht.
+  grondslag: "[[sectorvergelijking-financiele-analyse]] §sectorgrenzen, [[historische-evolutie-financiele-analyse]] §3-5-boekjaren"
+voorbeelden:
+- situatie: "Meubelzaak Mertens BV (kleine handels-BV) toont een current ratio van 1,8 maar een quick ratio van 0,4. De zaakvoerder vraagt of dit een probleem is."
+  conclusie: "Sofie Janssens stelt dat het verschil normaal is voor een meubelzaak: voorraad maakt het grootste deel van vlottend actief uit. Belangrijker is hoe snel die voorraad omloopt — daarvoor wordt de voorraadrotatie berekend."
+  grondslag: "[[quick-ratio]] §rol-voorraad, [[sectorvergelijking-financiele-analyse]] §sectorgrenzen"
+  redenering: In handelsondernemingen is voorraad de motor van omzet. Zolang de voorraadrotatie de sectormediaan benadert, is een lage quick ratio geen knipperlicht. Zonder sectorcontext is een geïsoleerde ratio misleidend.
+- situatie: "Solaris Sint-Truiden BV heeft een current ratio van 0,9. De effectenportefeuille van € 1.500.000 staat onder financiële vaste activa maar is binnen 6 maanden verkoopbaar."
+  conclusie: "Na herklassificatie van € 1.500.000 naar vlottend stijgt de current ratio tot 1,4. De analyse moet dit expliciet vermelden — anders trekt de gebruiker een verkeerde conclusie."
+  grondslag: "[[analytische-balans]] §herklassificaties-voor-analyse, [[current-ratio]] §formule"
+  redenering: De wettelijke kwalificatie 'financiële vaste activa' is bestemmings-gedreven, niet liquiditeits-gedreven. Voor liquiditeit moet de analyse-balans de werkelijke liquiditeit volgen.
+_provenance:
+  voorgesteld_door: competentie-destillatie-v2-po-1.3-run-20260516
+  voorgesteld_op: '2026-05-16T00:00:00Z'
+  gecureerd_door: null
+  gecureerd_op: null
+  flag_mens_review: "praktijk_pct = 95% (> 70%) — financial-analysis-formules zijn vakdoctrine zonder Belgische wettekst-grondslag. Review aanbevolen."

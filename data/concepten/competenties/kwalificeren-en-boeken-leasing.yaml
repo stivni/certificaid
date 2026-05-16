@@ -1,0 +1,172 @@
+id: kwalificeren-en-boeken-leasing
+titel: Kwalificeren en boeken van leasing (operationeel vs financieel)
+status: voorgesteld
+schema_version: "1.1"
+programmaonderdelen:
+- 1.1
+voortkomend_uit:
+  taken:
+  - 1.1.taak.1
+  kenniselementen:
+  - 1.1.II.W
+gebaseerd_op_concepten:
+- leasing
+- materiele-vaste-activa
+- afschrijvingen
+- schulden
+procedure_grondslag:
+  wettelijk_pct: 65
+  praktijk_pct: 35
+  motivering: De boekhoudkundige kwalificatie (KB-WVV art. 3:46 en 3:47, CBN 2015/04) is wettelijk; toepassing op een concreet contract vergt analyse van risico's en voordelen — dat is praktijkbeoordeling.
+stappen:
+- nr: 1
+  titel: Lees het leasingcontract en identificeer kerngegevens
+  wat: "Verzamel de cruciale parameters: contractduur, totale leasingbetalingen, optieprijs, onderhoudsverantwoordelijkheid, restwaarde."
+  waarom: De kwalificatie hangt af van een aantal contractuele indicatoren — zonder volledig contract kan geen correcte boekhoudkundige verwerking gebeuren.
+  input:
+  - artefact: Leasingcontract
+    veld: Leasinggever, leasingnemer, looptijd, periodiek bedrag, optie, restwaarde, onderhoudsclausule
+    type: document
+  output:
+  - artefact: Werknotitie kerngegevens
+    veld: Tabel met parameters
+    type: conclusie
+  hoe: |
+    1. Lees het contract volledig. Voor Transport Tongeren BV — vrachtwagen MAN, contract met leasinggever Bestleasing NV.
+    2. Noteer: aanvangsdatum 01/04/2026, looptijd 60 maanden, periodiek bedrag € 1.450/maand excl. btw, koopoptie aan einde € 5.000, totale leasingbetalingen € 87.000.
+    3. Catalogusprijs (referentie aanschaffingswaarde) € 95.000.
+    4. Onderhoud + verzekering: ten laste van leasingnemer.
+    5. Eigendomsoverdracht: niet automatisch; optie tegen € 5.000 (5,3% catalogusprijs).
+  grondslag: "[[leasing]] §contractanalyse, CBN 2015/04"
+- nr: 2
+  titel: Toets de kwalificatie-criteria (financieel of operationeel)
+  wat: Bepaal of het contract overdracht van risico's en voordelen impliceert — dan financiële leasing — of niet — dan operationele leasing.
+  waarom: Financiële leasing wordt geactiveerd + schuld op balans; operationele leasing blijft buiten balans als huurkost. Het verschil bepaalt het hele beeld van de balans.
+  input:
+  - artefact: Werknotitie stap 1
+    veld: Parameters contract
+    type: berekening
+  output:
+  - artefact: Kwalificatie-conclusie
+    veld: Financieel of operationeel + grondslag
+    type: conclusie
+  hoe: |
+    1. Toets aan de KB-WVV art. 3:46-criteria voor financiële leasing — zie [[leasing]] §kwalificatie:
+       a. Looptijd ≥ bulk van de economische gebruiksduur.
+       b. Som van leasingbetalingen ≥ kapitaal-component (= catalogusprijs minus restwaarde).
+       c. Koopoptie tegen prijs lager dan vermoedelijke marktwaarde op einde contract.
+       d. Activum is dermate specifiek dat enkel de leasingnemer het zinvol kan gebruiken.
+    2. Volstaat één criterium → financiële leasing.
+    3. Voor Transport Tongeren BV: contractduur 5 jaar ≈ economische levensduur van vrachtwagen; som leasingbetalingen € 87.000 + optie € 5.000 = € 92.000 ≈ catalogusprijs € 95.000. → Financiële leasing.
+    4. Operationeel: bv. kortlopende huur van kantoorruimte (3 jaar) waar verhuurder onderhoud verzorgt — risico/voordeel bij verhuurder.
+  valkuilen:
+  - advies: Kijk niet alleen naar contractbenaming — een "huurcontract" kan boekhoudkundig financiële leasing zijn als de criteria vervuld zijn.
+    vaak_fout: Vertrouwen op de woorden 'huur' of 'leasing' op het contract zonder de KB-WVV-criteria toe te passen.
+    grondslag: "[[leasing]] §substance-over-form"
+  grondslag: "[[leasing]] §kwalificatie-criteria, KB-WVV art. 3:46"
+- nr: 3
+  titel: "Boek bij financiële leasing: activering + schuld bij aanvang"
+  wat: Activeer het gehuurde goed onder rubriek 25 en boek de uitstaande schuld onder 172/422.
+  waarom: Substance-over-form — economisch is leasingnemer eigenaar zoals bij koop; balans moet dit weergeven.
+  input:
+  - artefact: Kwalificatie financieel stap 2
+    veld: Bedragen
+    type: berekening
+  output:
+  - artefact: Aanvangsboeking + afschrijvingsplan + schuldenschema
+    veld: Activering + schuld + interest-schema
+    type: boekingsregel
+  hoe: |
+    1. Bereken de kapitaal-component = som leasingbetalingen + optie - interestcomponent. Bij Transport Tongeren BV: totaal € 92.000; kapitaal-component (catalogusprijs) € 95.000 ≈ activeringsbasis. Interestcomponent = som termijnen - kapitaal-component ≈ € 5.000 over 5 jaar (interest spreiding).
+    2. Boek bij aanvang: Debet 25 Vaste activa in leasing — voertuig € 95.000; Credit 172 Schulden uit leasing langlopend € 75.000; Credit 422 Schulden uit leasing kortlopend (deel < 1 jaar) € 20.000.
+    3. Stel afschrijvingsplan op zoals voor een gekocht voertuig — zie competentie [[opstellen-afschrijvingsplan-vaste-activa]].
+    4. Periodieke termijn splitsen in interest (kost 650) + kapitaalaflossing (vermindering 172/422).
+    5. Op einde contract bij uitoefening optie: Debet 24 Materiële vaste activa — eigen + Credit 25 Vaste activa in leasing.
+  voorbeeld:
+    scenario: "Transport Tongeren BV — leasing vrachtwagen 01/04/2026, 5 jaar, € 1.450/maand, optie € 5.000. Kwalificatie: financieel. Activeringsbasis: € 95.000."
+    substappen:
+    - nr: 1
+      titel: Aanvangsboeking
+      type: boekingsregel
+      data: |
+        | Datum | Rekening | Omschrijving | Debet | Credit |
+        |---|---|---|---|---|
+        | 01/04/2026 | 25 Vaste activa in leasing — voertuig | aanvang leasing MAN | € 95.000,00 | |
+        | 01/04/2026 | 172 Leasingschulden langlopend (> 1 jaar) | -- | | € 75.000,00 |
+        | 01/04/2026 | 422 Leasingschulden kortlopend (< 1 jaar) | -- | | € 20.000,00 |
+    - nr: 2
+      titel: Maandelijkse termijn — splitsing
+      type: berekening
+      data: |
+        Termijn € 1.450 = ~ € 1.350 kapitaal + ~ € 100 interest (gemiddeld; werkelijk varieert volgens schuldsaldo).
+    - nr: 3
+      titel: Boeking maandtermijn
+      type: boekingsregel
+      data: |
+        | Datum | Rekening | Omschrijving | Debet | Credit |
+        |---|---|---|---|---|
+        | 01/05/2026 | 422 Leasingschulden kortlopend | kapitaalaflossing | € 1.350,00 | |
+        | 01/05/2026 | 650 Kosten van schulden — interest leasing | interest | € 100,00 | |
+        | 01/05/2026 | 411 Aftrekbare btw 21% | btw op termijn | € 304,50 | |
+        | 01/05/2026 | 5500 Bank — KBC | betaling Bestleasing | | € 1.754,50 |
+  grondslag: "[[leasing]] §boeking-financieel, KB-WVV art. 3:46-3:47"
+- nr: 4
+  titel: "Boek bij operationele leasing: huurkost zonder activering"
+  wat: Boek elke leasingtermijn als huurkost op rubriek 610 — geen activering, geen schuldopname.
+  waarom: Bij operationele leasing zijn risico's en voordelen bij verhuurder; balans van leasingnemer toont alleen de periodieke kost.
+  input:
+  - artefact: Kwalificatie operationeel stap 2
+    veld: Contractgegevens
+    type: berekening
+  output:
+  - artefact: Maandelijkse boekingen + toelichting niet-in-balans
+    veld: Kost + btw + toelichting jaarrekening
+    type: boekingsregel
+  hoe: |
+    1. Boek elke termijn: Debet 610 Huur en huurlasten; Debet 411 Aftrekbare btw; Credit 4400 Leverancier of 5500 Bank.
+    2. Geen actief, geen schuld op balans.
+    3. Wel toelichting verplicht in jaarrekening — totale toekomstige leasingverplichtingen vermelden onder "rechten en verplichtingen buiten balans" (zie [[rechten-verplichtingen-buiten-balans]] §huurverplichtingen).
+    4. Vermeld in toelichting de bedragen: < 1 jaar, 1-5 jaar, > 5 jaar.
+  grondslag: "[[leasing]] §boeking-operationeel, KB-WVV art. 3:80"
+- nr: 5
+  titel: Documenteer kwalificatie en boekingen
+  wat: Bewaar het werkdocument met kwalificatie-analyse, leasingschema en afschrijvingstabel.
+  waarom: Bij latere controle (commissaris, fiscale audit) moet de keuze tussen financieel en operationeel reproduceerbaar zijn.
+  input:
+  - artefact: Werknotitie + boekingen
+    veld: Volledig dossier
+    type: document
+  output:
+  - artefact: Leasingdossier
+    veld: Contract + kwalificatie + schema's
+    type: document
+  hoe: |
+    1. Voeg toe: contract, KB-WVV-criteria-analyse, kapitaal/interest-schema, afschrijvingsplan.
+    2. Vermeld classificatie in waarderingsregels-toelichting.
+    3. Update jaarlijks de toelichting met openstaande bedragen.
+  grondslag: "[[leasing]] §dossierplicht, [[waarderingsregels-jaarrekening]] §vastlegging"
+beslisboom:
+- vraag: Looptijd ≥ economische levensduur OF som leasingbetalingen ≥ catalogusprijs OF lage koopoptie OF activum gespecialiseerd voor leasingnemer?
+  ja: Financiële leasing — activeer rubriek 25 + schuld 172/422.
+  nee: Operationele leasing — huurkost op 610, toelichting buiten balans.
+- vraag: Wordt de koopoptie aan het einde uitgeoefend?
+  ja: Verplaats van 25 naar 24 (eigen materieel) tegen optieprijs; afschrijvingsplan verder voeren.
+  nee: Activum keert terug naar leasinggever; restwaarde uitboeken.
+voorbeelden:
+- situatie: Transport Tongeren BV sluit leasing vrachtwagen MAN op 01/04/2026, 60 maanden, € 1.450/maand excl. btw, koopoptie € 5.000 op einde contract. Catalogusprijs € 95.000.
+  conclusie: Financiële leasing — looptijd ≈ economische gebruiksduur + som termijnen € 87.000 + optie € 5.000 = € 92.000 ≈ catalogusprijs. Activering op 25 € 95.000; schuld € 75.000 op 172 + € 20.000 op 422. Afschrijving 5 jaar lineair = € 19.000/jaar. Termijnen splitsen in kapitaal + interest.
+  grondslag: "[[leasing]] §kwalificatie-criteria"
+  redenering: Twee van de vier criteria zijn duidelijk vervuld; substance-over-form maakt dit een quasi-koop. Activering geeft getrouw beeld.
+- situatie: Praktijk Persenaire huurt kantoorruimte voor € 1.200/maand voor 3 jaar. Verhuurder verzorgt structureel onderhoud en draagt verzekering. Geen koopoptie.
+  conclusie: "Operationele leasing — geen overdracht risico's. Maandelijkse kost op 6101 Huur kantoor + btw. Toelichting jaarrekening: openstaande verplichting 24 maand × € 1.200 = € 28.800."
+  grondslag: "[[leasing]] §operationeel; [[rechten-verplichtingen-buiten-balans]] §huurverplichtingen"
+  redenering: Geen koopoptie, kort contract, structureel onderhoud bij verhuurder → typische operationele huur. Toelichtingsplicht blijft.
+- situatie: Naaiatelier Ninove BV huurt een productiemachine voor 8 jaar — leasingbetalingen totaal € 320.000, machinewaarde € 350.000 nieuw, geen koopoptie maar machine is sector-specifiek aangepast voor Naaiatelier.
+  conclusie: Financiële leasing — gespecialiseerd activum (criterium d) ondanks afwezigheid koopoptie. Activeren rubriek 25 voor € 320.000 (kapitaal-component); afschrijving 8 jaar.
+  grondslag: "[[leasing]] §gespecialiseerd-activum"
+  redenering: Specialisatie maakt activum onbruikbaar voor andere leasingnemers — risico en gebruik volledig bij Naaiatelier. Substance-over-form overheerst formele afwezigheid koopoptie.
+_provenance:
+  voorgesteld_door: competentie-destillatie-v2-po11-20260516
+  voorgesteld_op: '2026-05-16T00:00:00Z'
+  gecureerd_door: null
+  gecureerd_op: null

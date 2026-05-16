@@ -1,0 +1,80 @@
+{
+  "id": "bewaring-boekhoudstukken",
+  "naam": "Bewaring van boekhoudkundige stukken",
+  "node_type": "regel",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.1.taak.1", "1.1.I.A"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.1.taak.1",
+    "dekt_ook_anchors": ["1.1.I.A"],
+    "reviewed_by": null
+  },
+  "main_rule": {
+    "text": "Boeken, rekeningen en verantwoordingsstukken moeten gedurende **7 jaar** worden bewaard, te rekenen vanaf 1 januari volgend op het boekjaar waarop ze betrekking hebben (WER art. III.86). Verantwoordingsstukken die geen verband houden met boekhoudkundige verrichtingen mogen 3 jaar worden bewaard. Bewaring kan ook digitaal en in het buitenland, mits **rechtstreekse on-line toegankelijkheid** vanaf de Belgische bedrijfszetel.",
+    "confidence": "grounded",
+    "source": {"type": "wet", "short": "WER art. III.86"},
+    "references": [
+      {"type": "advies", "short": "CBN 2010/14 — Bewaring van boeken en verantwoordingsstukken"}
+    ],
+    "_provenance": {"inputs": [
+      {"id": "CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken__sec_belgische-ondernemingen", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Naaiatelier Ninove BV moet de aankoopfacturen, verkoopfacturen, dagboeken en jaarrekening van boekjaar 20X1 (1/1 — 31/12/20X1) bewaren tot 31/12/20X8 (7 jaar vanaf 1/1/20X2). De BV kiest voor digitale archivering op een cloud-server in Frankrijk; vanuit de zetel te Ninove blijven alle documenten on-line consulteerbaar.",
+  "bouwstenen": [
+    {
+      "titel": "7 jaar voor boekhoudkundige stukken",
+      "wat": "Voor alle stukken met direct verband met de boekhouding (dagboeken, hulpdagboeken, centraal boek, inventarisboek, aankoopfacturen, verkoopfacturen, bankuittreksels, contracten) geldt een bewaringstermijn van 7 jaar.",
+      "waarom": "Deze termijn dekt de fiscale, sociale en commerciële controles. Fiscus heeft typisch tot 3 jaar terug; in geval van fraude of speciale procedures kan dit uitgebreid worden, vandaar 7 jaar als veilige minimum.",
+      "voorbeeld_inline": "Aankoopfactuur Naaiatelier Ninove BV voor textiel d.d. 14 maart 20X1 → bewaren tot 31 december 20X8 (7 jaar vanaf 1/1/20X2).",
+      "grondslag": "WER art. III.86, § 1",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WER art. III.86"},
+      "_provenance": {"inputs": [{"id": "CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken__sec_belgische-ondernemingen", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "3 jaar voor niet-boekhoudkundige verantwoordingsstukken",
+      "wat": "Verantwoordingsstukken die geen verband houden met boekhoudkundige verrichtingen (bv. interne nota's, correspondentie zonder financiële weerslag) mogen na 3 jaar weg.",
+      "waarom": "Voor stukken zonder boekhoudkundige relevantie is een kortere termijn evenredig met het belang. Voor cijfer-impact: 7 jaar.",
+      "voorbeeld_inline": "Een interne nota over een marketing-strategie, zonder financiële boeking, hoeft maar 3 jaar bewaard te worden.",
+      "grondslag": "WER art. III.86, § 1",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WER art. III.86"},
+      "_provenance": {"inputs": [{"id": "CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken__sec_belgische-ondernemingen", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Digitale bewaring + bewaring in buitenland",
+      "wat": "De wet legt geen fysieke plaats op. Digitale archivering is toegelaten; ook bewaring op een server in het buitenland — op voorwaarde van **rechtstreekse on-line toegankelijkheid** vanuit de Belgische bedrijfszetel, en behoud van leesbaarheid gedurende de hele bewaringstermijn.",
+      "waarom": "Cloud-archivering is praktisch en kostbesparend. De wetgever staat het toe mits de essentiële controlefunctie (toegankelijkheid door commissaris, fiscus, sociale inspectie) niet wordt belemmerd.",
+      "voorbeeld_inline": "Uitgeverij Ukkel NV archiveert alle facturen elektronisch op een Microsoft Azure-server in Ierland. Vanuit haar zetel te Ukkel kan de boekhouder elke factuur binnen seconden ophalen via een beveiligde webportal — voldoet aan de eis.",
+      "grondslag": "CBN 2010/14",
+      "confidence": "grounded",
+      "source": {"type": "advies", "short": "CBN 2010/14"},
+      "_provenance": {"inputs": [{"id": "CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken__sec_belgische-ondernemingen", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Verantwoordelijkheid bestuursorgaan",
+      "betekenis": "Het bestuursorgaan blijft eindverantwoordelijk voor de naleving van de bewaringsplicht — ook als de archivering uitbesteed wordt aan een externe boekhouder of cloud-provider. Bij verlies of onbereikbaarheid van stukken kan het bestuursorgaan aansprakelijk worden gesteld.",
+      "confidence": "grounded",
+      "source": {"type": "advies", "short": "CBN 2010/14"},
+      "_provenance": {"inputs": [{"id": "CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken__sec_belgische-ondernemingen", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Vrijwillige vernietiging vóór de 7-jaars-termijn = schending boekhoudregelgeving + fiscaal probleem (controlbaarheid weg). Ook bij overstap van papier naar digitaal: oude papieren stukken niet vernietigen zonder eerst gecertificeerde digitale kopie maken.",
+      "confidence": "inferred-from-aggregation",
+      "source": {"type": "wet", "short": "WER art. III.86"},
+      "_provenance": {"inputs": [{"id": "CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken__sec_belgische-ondernemingen", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "vergelijkingsparen": [],
+  "edges": [
+    {"type": "onderdeel-van", "target": "regelmatige-boekhouding", "redenering": "Bewaring is een uitvloeisel van het onveranderlijkheids- en controleerbaarheidsbeginsel."}
+  ]
+}

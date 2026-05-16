@@ -1,0 +1,84 @@
+{
+  "id": "kleine-vennootschap",
+  "naam": "Kleine vennootschap (WVV art. 1:24)",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.2.IV.B", "1.2.IV"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.2.IV.B",
+    "dekt_ook_anchors": ["1.2.IV"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Een kleine vennootschap is een vennootschap met rechtspersoonlijkheid die op balansdatum maximaal één van de groottecriteria overschrijdt (WVV art. 1:24): personeelsbezetting ≤ 50, omzet excl. BTW ≤ € 11.250.000, balanstotaal ≤ € 6.000.000. Geniet vereenvoudigingen: verkort schema, vrijstelling jaarverslag, vrijstelling commissaris (tenzij groepsbreed groot).",
+    "confidence": "grounded",
+    "source": {"type": "wet", "short": "WVV art. 1:24"},
+    "references": [
+      {"type": "wet", "short": "WVV art. 1:24"},
+      {"type": "advies", "short": "CBN-advies 2022/03 — Beoordeling groottecriteria"}
+    ],
+    "_provenance": {"inputs": [
+      {"id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Meubelzaak Mertens BV — 12 werknemers (≤50), € 4,5M omzet (≤€11,25M), € 2,1M balanstotaal (≤€6M) → onder alle drie drempels → kleine vennootschap.",
+  "bouwstenen": [
+    {
+      "titel": "Vier voordelen ten opzichte van groot",
+      "wat": "(1) Verkort schema toegestaan. (2) Geen jaarverslag verplicht. (3) Geen commissaris verplicht (tenzij deel uitmaakt van grote groep). (4) Vereenvoudigde toelichting met minder verplichte rubrieken.",
+      "waarom": "Proportionele last — kleinere onderneming = minder rapportering-eisen.",
+      "voorbeeld_inline": "Meubelzaak Mertens BV (klein) → verkort schema, geen jaarverslag, geen commissaris, eenvoudige toelichting.",
+      "grondslag": "WVV art. 3:6 + 3:32 + 3:72",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WVV"},
+      "_provenance": {"inputs": [
+        {"id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Verlies van klein-statuut",
+      "wat": "Verliest het statuut wanneer twee opeenvolgende boekjaren meer dan één drempel overschreden worden. Het nieuwe regime begint op het derde boekjaar — gefaseerde transitie, niet onmiddellijk.",
+      "waarom": "Beschermt de vennootschap tegen heen-en-weer-statuswisselingen door éénmalige uitschieters.",
+      "voorbeeld_inline": "Brugse Brouwerij BV (klein) groeit explosief: 2024 én 2025 → 75 werknemers + € 13M omzet (twee drempels) → vanaf boekjaar 2026 groot.",
+      "grondslag": "WVV art. 1:24 § 4",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WVV art. 1:24 § 4"},
+      "_provenance": {"inputs": [
+        {"id": "CBN-2017-10-groottecriteria-artikel-15-w-venn-verbonden__sec_wijziging-verbondenheid", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Groepsconsolidatie-test",
+      "wat": "Een vennootschap die individueel klein is maar deel uitmaakt van een groep (moeder of dochter) die als geheel groot is, wordt voor jaarrekening-doeleinden behandeld als groot. De individuele cijfers worden op geconsolideerde basis getest.",
+      "waarom": "Voorkomt fiscale en rapporterings-arbitrage door opsplitsing in kleine entiteiten.",
+      "voorbeeld_inline": "Aurelia Holding NV (€ 4M omzet zelf) bezit 4 dochters met € 25M omzet → groep is groot → Aurelia rapporteert als grote NV.",
+      "grondslag": "WVV art. 1:24 § 5",
+      "confidence": "grounded",
+      "source": {"type": "advies", "short": "CBN-advies 2017/10"},
+      "_provenance": {"inputs": [
+        {"id": "CBN-2017-10-groottecriteria-artikel-15-w-venn-verbonden__sec_algemeen", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "microvennootschap",
+      "verschil": "Klein heeft hogere drempels (50/€11,25M/€6M). Micro is strikter (10/€900K/€450K) én geen moeder/dochter mogen zijn. Micro krijgt het kleinste schema (microschema bijlage 3).",
+      "trigger": "Examen: omzet € 500K → check micro-drempels eerst; als ook personeel ≤ 10 én balans ≤ € 450K én niet moeder/dochter → micro. Zo niet → klein.",
+      "_provenance": {"inputs": [
+        {"id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "edges": [
+    {
+      "type": "specialisatie-van",
+      "target": "groottecriteria-jaarrekening",
+      "redenering": "Een klassiek instantie van de drie-categorieën-classificatie.",
+      "confidence": "inferred"
+    }
+  ]
+}

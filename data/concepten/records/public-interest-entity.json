@@ -1,0 +1,79 @@
+{
+  "id": "public-interest-entity",
+  "naam": "Public Interest Entity (PIE)",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.2.II", "1.2.IV", "1.2.IV.E"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.2.II",
+    "dekt_ook_anchors": ["1.2.IV", "1.2.IV.E"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Een Public Interest Entity (PIE) is een vennootschap waarop strengere transparantie- en controle-eisen wegen omwille van haar maatschappelijke belang. PIE's zijn: (1) beursgenoteerde vennootschappen (gereglementeerde markt EU), (2) kredietinstellingen, (3) verzekeringsondernemingen, (4) andere door lidstaat aangewezen entiteiten. PIE's moeten IFRS-consolidatie publiceren, hebben strengere auditregels en staan onder bijkomend FSMA-toezicht.",
+    "confidence": "inferred-from-aggregation",
+    "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 2(1)"},
+    "references": [
+      {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 2(1) — definitie"},
+      {"type": "verordening", "short": "Verordening 1606/2002 (IFRS-verplichting)"},
+      {"type": "wet", "short": "Wet 7 december 2016 (revisorenwet — PIE-controles)"}
+    ],
+    "_provenance": {"inputs": [
+      {"id": "Richtlijn-2013-34-EU__art_2__sub_d", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Een Belgisch beursgenoteerde bank → PIE (zowel beursgenoteerd als kredietinstelling). Verplicht: IFRS-consolidatie, FSMA-toezicht, rotatie revisor om de 10 jaar.",
+  "bouwstenen": [
+    {
+      "titel": "Vier categorieën PIE",
+      "wat": "(1) Vennootschappen waarvan effecten genoteerd zijn op een gereglementeerde markt in de EU. (2) Kredietinstellingen (banken). (3) Verzekeringsondernemingen. (4) Andere door de lidstaat aangewezen entiteiten van groot openbaar belang.",
+      "waarom": "Sectoren met systemisch belang of brede impact op stakeholders krijgen strenger regime.",
+      "voorbeeld_inline": "Beursgenoteerde holding op Euronext Brussels → PIE. Niet-genoteerde verzekeringsmaatschappij → PIE (sector). Niet-genoteerde gewone NV → geen PIE.",
+      "grondslag": "Richtlijn 2013/34/EU art. 2(1)",
+      "confidence": "inferred-from-aggregation",
+      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU"},
+      "_provenance": {"inputs": [
+        {"id": "Richtlijn-2013-34-EU__art_2__sub_d", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "titel": "Drie strengere regels",
+      "wat": "(1) IFRS-consolidatie verplicht (verordening 1606/2002). (2) Rotatie van revisor — een commissaris kan maximaal 10 jaar (eventueel verlengbaar met openbare aanbesteding) dezelfde PIE controleren. (3) Audit committee (auditcomité) verplicht in de raad van bestuur.",
+      "waarom": "Hogere drempel voor onafhankelijkheid en kwaliteit van controle bij entiteiten van openbaar belang.",
+      "voorbeeld_inline": "Een PIE moet vanaf jaar 11 een nieuwe revisor benoemen — Sofie Janssens kan dus niet voor 20 jaar achter elkaar de commissarisrol vervullen bij eenzelfde PIE.",
+      "grondslag": "Wet 7 december 2016 + Verordening (EU) 537/2014",
+      "confidence": "inferred",
+      "source": {"type": "verordening", "short": "Verordening (EU) 537/2014"},
+      "_provenance": {"inputs": [
+        {"id": "Richtlijn-2013-34-EU__art_2__sub_d", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "groottecriteria-jaarrekening",
+      "verschil": "Groottecriteria onderscheiden klein/groot op basis van personeel, omzet, balans. PIE is een aparte categorie die los van grootte werkt — een kleine PIE bestaat in principe niet (genoteerde + kredietinstelling + verzekering zijn altijd groot in praktijk).",
+      "trigger": "Vraag 'verkort schema toegestaan?' → eerst PIE-test (zo ja: nooit verkort) → dan groottetest.",
+      "_provenance": {"inputs": [
+        {"id": "Richtlijn-2013-34-EU__art_2__sub_d", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "fsma",
+      "redenering": "FSMA houdt strenger toezicht op beursgenoteerde PIE's.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "europees-boekhoudrecht",
+      "redenering": "PIE-statuut is gedefinieerd in Europese richtlijn.",
+      "confidence": "inferred"
+    }
+  ]
+}

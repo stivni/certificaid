@@ -1,0 +1,381 @@
+{
+  "id": "oprichtingskosten",
+  "naam": "Oprichtingskosten",
+  "node_type": "fenomeen",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.1.II.A",
+    "1.1.II.B",
+    "1.2.V.B"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.1.II.A",
+    "dekt_ook_anchors": [
+      "1.1.II.B"
+    ],
+    "reviewed_by": null,
+    "po_1_2_extension": "2026-05-16: +['1.2.V.B']"
+  },
+  "definitie": {
+    "text": "Kosten verbonden met de **oprichting, verdere ontwikkeling of herstructurering** van een vennootschap, in het bijzonder: (a) kosten van oprichting of kapitaalverhoging (notariskosten, registratierechten, advies), (b) kosten bij uitgifte van leningen (bankkosten, noteringskosten, publicatiekosten bij obligatieleningen), (c) herstructureringskosten met duurzame impact op rentabiliteit. De onderneming kan **kiezen** ze als kost te boeken in het jaar zelf, OF ze te activeren onder rubriek 20 'Oprichtingskosten' aan de actiefzijde van de balans en af te schrijven over **minstens 5 jaar** (jaarlijkse tranche ≥ 20 %; KB WVV art. 3:36 + 3:37).",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV art. 3:36 jo. art. 3:37"
+    },
+    "references": [
+      {
+        "type": "advies",
+        "short": "CBN 2010/15 — Afschrijvingsmethoden"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2019/07 — Boekhoudkundige verwerking van obligatieleningen"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2011/24 — Herstructureringskosten"
+      },
+      {
+        "type": "wet",
+        "short": "MAR rubriek 20 (200 oprichting/kap, 201 uitgifte leningen, 202 overige, 204 herstructurering)"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-2019__art_3_30",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_31",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2010-15-afschrijvingsmethoden__sec_oprichtingskosten",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorbeeld_inline": "Oprichtingen Oostende BV wordt opgericht met notariskosten € 3.200, advieskosten € 1.800, registratierechten € 600 → totaal € 5.600 oprichtingskosten. De BV kiest om te activeren op rekening 200 'Kosten van oprichting en kapitaalverhoging' aan de actiefzijde. Afschrijvingsplan: 20 % per jaar = € 1.120/jaar gedurende 5 jaar. Eerste jaar: Debet 6300 Afschrijvingen oprichtingskosten € 1.120 / Credit 2009 Afschrijvingen op oprichtingskosten € 1.120.",
+  "bouwstenen": [
+    {
+      "titel": "Keuze: kost of activeren",
+      "wat": "Twee mogelijkheden: (1) de oprichtingskost meteen ten laste nemen in het boekjaar zelf (klasse 6 of 61), of (2) activeren op klasse 20 en spreiden in de tijd via afschrijving. De keuze maakt de onderneming bij de boeking.",
+      "waarom": "Activeren spreidt de kost over meerdere jaren waarin de onderneming de baten geniet (matching). Meteen ten laste nemen is conservatiever en transparanter. Beide zijn toegelaten.",
+      "voorbeeld_inline": "Meubelzaak Mertens BV maakt bij kapitaalverhoging notariskosten van € 4.500. Keuze: ofwel meteen Debet 6181 Andere financiële kosten € 4.500, ofwel Debet 200 € 4.500 → activering en afschrijving over minstens 5 jaar.",
+      "grondslag": "KB WVV art. 3:36",
+      "confidence": "grounded",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:36"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_30",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Minimaal 20 % afschrijving per jaar",
+      "wat": "Geactiveerde oprichtingskosten worden afgeschreven per jaarlijkse tranches van **minstens 20 %** van de werkelijk uitgegeven bedragen. In de praktijk: lineair over 5 jaar of korter, niet over langer dan 5 jaar.",
+      "waarom": "Oprichtingskosten hebben geen tastbare onderliggende waarde die jaren mee gaat. De wetgever forceert een snelle afbouw om geen 'spookactivum' lang op de balans te houden.",
+      "voorbeeld_inline": "Oprichtingen Oostende BV activeert € 5.600 → maximaal 5 jaar afschrijven aan € 1.120/jaar. Mag sneller: bv. € 2.000/jaar over 3 jaar, of meteen € 5.600 in jaar 1.",
+      "grondslag": "KB WVV art. 3:37",
+      "confidence": "grounded",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:37"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_31",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Uitzondering: kosten uitgifte van leningen",
+      "wat": "Kosten bij de uitgifte van een lening (obligatielening, bankkosten, noteringskosten) mogen worden afgeschreven **over de volledige looptijd van de lening** — ook als die langer is dan 5 jaar.",
+      "waarom": "Uitgiftekosten hebben een direct verband met de lening waarvan de looptijd vastligt; matching met de rentelast over de hele looptijd is logischer dan een geforceerde 5-jaars-afschrijving.",
+      "voorbeeld_inline": "Uitgeverij Ukkel NV geeft een obligatielening uit op 10 jaar; uitgiftekosten € 35.000. Activering op rekening 201 'Kosten bij uitgifte van leningen' en afschrijving over 10 jaar = € 3.500/jaar (in plaats van € 7.000 over 5 jaar).",
+      "grondslag": "KB WVV art. 3:37, tweede zin",
+      "confidence": "grounded",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:37"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Herstructureringskosten — strikte voorwaarden",
+      "wat": "Herstructureringskosten mogen alleen worden geactiveerd als: (1) het gaat om welbepaalde kosten verbonden met een ingrijpende wijziging in structuur of organisatie, EN (2) ze ertoe strekken een **gunstige en duurzame invloed** te hebben op de rentabiliteit. Motivering in de toelichting is verplicht.",
+      "waarom": "Zonder strikte voorwaarden zou elke kost als 'herstructurering' kunnen worden afgevoerd naar de balans — wat het resultaat artificieel zou opkrikken. De wetgever beperkt dit tot duidelijk-duurzame ingrepen.",
+      "voorbeeld_inline": "Rotex Roeselare NV reorganiseert haar productieafdeling met sluiting van een vestiging; ontslagvergoedingen € 280.000, advieskosten € 45.000 = totaal € 325.000. Activering op rekening 204 'Herstructureringskosten' alleen mogelijk als duurzaam rentabiliteitseffect aantoonbaar; motivatie in toelichting. Anders meteen kost.",
+      "grondslag": "KB WVV art. 3:36, tweede zin; CBN 2011/24",
+      "confidence": "grounded",
+      "source": {
+        "type": "advies",
+        "short": "CBN 2011/24"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-24-herstructureringskosten-verwerking-in-de-jaarrekening__volledig",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Aftrek van bedrijfs- of financiële kosten — zichtbaarheid",
+      "wat": "Wanneer herstructureringskosten met het karakter van bedrijfskosten/financiële kosten worden geactiveerd, gebeurt dat door ze 'op zichtbare wijze in mindering te brengen' van het totaal van die kosten in de resultatenrekening.",
+      "waarom": "De gebruiker mag niet misleid worden door een artificieel verlaagde kostenlijn; het effect moet expliciet zichtbaar zijn naast de bruto-kosten.",
+      "voorbeeld_inline": "Bij Rotex Roeselare NV: bedrijfskosten 20X1 zijn bruto € 8.450.000 inclusief herstructureringskosten € 280.000. Op de RR verschijnt: bedrijfskosten € 8.450.000 — geactiveerde herstructureringskosten −€ 280.000 = € 8.170.000 netto.",
+      "grondslag": "KB WVV art. 3:36, derde zin",
+      "confidence": "grounded",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:36"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_30",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "berekeningsmethode": [
+    {
+      "naam": "Afschrijvingsschema oprichtingskosten",
+      "ratio": "Standaard 20 % per jaar over 5 jaar; voor uitgiftekosten van leningen mag spreiding over de looptijd.",
+      "stappen": [
+        {
+          "nr": 1,
+          "titel": "Bepaal het te activeren bedrag",
+          "wat": "Som alle kosten die voldoen aan de definitie van oprichtingskosten (oprichting, kapitaalverhoging, uitgifte leningen, herstructurering met duurzame impact).",
+          "waarom": "Niet alle 'eerste kosten' van een vennootschap zijn activeerbaar — alleen welbepaalde categorieën met substantiële economische impact.",
+          "hoe": "1. Verzamel facturen: notariskosten, advies, registratierechten, bankkosten lening, publicatiekosten.\n2. Sluit uit: routine-bedrijfskosten (lonen eerste maanden, kantoorkosten), die zijn klasse 6.\n3. Som = activeerbaar bedrag.\n",
+          "grondslag": "KB WVV art. 3:36"
+        },
+        {
+          "nr": 2,
+          "titel": "Stel het afschrijvingsplan op",
+          "wat": "Bepaal afschrijvingsduur (minstens 20 %/jaar = max 5 jaar voor normale oprichtingskosten; tot looptijd voor uitgiftekosten leningen).",
+          "waarom": "Een formeel plan is nodig voor consistentie tussen jaren en als voorwerp van controle.",
+          "input": [
+            {
+              "artefact": "Boekhouding 20X1",
+              "veld": "Geactiveerd bedrag",
+              "type": "boekhoudkundig-bedrag"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Afschrijvingsplan oprichtingskosten",
+              "veld": "Jaarlijkse tranche",
+              "type": "boekhoudkundig-bedrag"
+            }
+          ],
+          "hoe": "1. Klassieke oprichtingskosten: lineair 20 % over 5 jaar.\n2. Bij snellere afbouw mogelijk: 25 %, 33 %, of zelfs 100 % in jaar 1.\n3. Uitgiftekosten leningen: looptijd van de lening (bv. 10 jaar → 10 %/jaar).\n",
+          "voorbeeld": {
+            "scenario": "Oprichtingen Oostende BV activeert € 5.600 oprichtingskosten + € 12.000 uitgiftekosten van een 8-jarige bedrijfslening.",
+            "substappen": [
+              {
+                "nr": 1,
+                "titel": "Afschrijvingsplan",
+                "type": "berekening",
+                "data": "| Rubriek                          | Te activeren | Termijn | Jaarlijks |\n|----------------------------------|-------------:|---------|----------:|\n| 200 Kosten oprichting/kap        |    € 5.600   | 5 jaar  | € 1.120   |\n| 201 Kosten uitgifte lening       |   € 12.000   | 8 jaar  | € 1.500   |\n| **Totaal jaarlijkse afschrijving** | **€ 17.600** |        | **€ 2.620** |"
+              },
+              {
+                "nr": 2,
+                "titel": "Boeking eind jaar 1",
+                "type": "boekingsregel",
+                "data": "Debet 6300 Afschrijvingen oprichtingskosten € 2.620\n  Credit 2009 Afschrijvingen op kosten oprichting/kap € 1.120\n  Credit 2019 Afschrijvingen op kosten uitgifte leningen € 1.500\n(Som debet = som credit ✓)"
+              }
+            ]
+          },
+          "grondslag": "KB WVV art. 3:37"
+        }
+      ],
+      "concreet_voorbeeld": {
+        "scenario": "Oprichtingen Oostende BV maakt bij oprichting € 5.600 aan notaris- en advieskosten en geeft tegelijk een 8-jarige obligatielening uit met uitgiftekosten € 12.000.",
+        "berekening": "Klassieke oprichtingskosten € 5.600: max 5 jaar afschrijving → € 1.120/jaar. Uitgiftekosten lening € 12.000: spreiding over 8 jaar (looptijd) → € 1.500/jaar. Totale jaarlijkse afschrijving = € 2.620.",
+        "resultaat": "Op de balans staat in jaar 1 onder rubriek 20: aanschaffingswaarde € 17.600 minus afschrijving € 2.620 = nettowaarde € 14.980. In de resultatenrekening rekening 6300 'Afschrijvingen oprichtingskosten' = € 2.620."
+      },
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:36 + 3:37"
+      },
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_30",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_31",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
+      "formules": [
+        {
+          "id": "jaarlijkse-afschrijving-oprichting",
+          "naam": "Jaarlijkse afschrijving op klassieke oprichtingskosten",
+          "wiskunde": "jaarlijkse afschrijving = werkelijk uitgegeven bedrag × afschrijvingspercentage (≥ 20 %)",
+          "variabelen": [
+            {
+              "symbool": "werkelijk uitgegeven bedrag",
+              "betekenis": "Som van de geactiveerde oprichtingskosten",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "afschrijvingspercentage",
+              "betekenis": "Gekozen percentage, minstens 20 % per jaar",
+              "eenheid": "%"
+            }
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "Oprichtingen Oostende BV: € 5.600 × 20 %",
+            "berekening": "€ 5.600 × 20 % = € 1.120 per jaar gedurende 5 jaar",
+            "eenheid_resultaat": "EUR"
+          }
+        },
+        {
+          "id": "afschrijving-uitgiftekosten-lening",
+          "naam": "Afschrijving op kosten bij uitgifte van leningen",
+          "wiskunde": "jaarlijkse afschrijving = uitgiftekosten / looptijd lening (in jaren)",
+          "variabelen": [
+            {
+              "symbool": "uitgiftekosten",
+              "betekenis": "Bankkosten, noteringskosten, publicatiekosten bij uitgifte lening/obligatie",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "looptijd lening",
+              "betekenis": "Volledige looptijd van de onderliggende lening",
+              "eenheid": "jaar"
+            }
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "Uitgiftekosten = € 12.000; looptijd = 8 jaar",
+            "berekening": "€ 12.000 / 8 = € 1.500 per jaar",
+            "eenheid_resultaat": "EUR"
+          }
+        }
+      ]
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Rubrieken in MAR (klasse 20)",
+      "betekenis": "Rekening 200 'Kosten van oprichting en kapitaalverhoging', 201 'Kosten bij uitgifte van leningen', 202 'Overige oprichtingskosten', 204 'Herstructureringskosten'. Bijhorende afschrijvingsrekeningen 2009, 2019, 2029, 2049 (eindigend op 9 = afschrijvingen/waardeverminderingen).",
+      "herkenningspunt": "Examen: kostentype bepaalt subrekening — notariskosten oprichting → 200; uitgiftekosten obligatielening → 201; herstructureringskosten → 204.",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "MAR klasse 2 + KB 21/10/2018"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Niet alle 'eerste kosten' van een vennootschap zijn oprichtingskosten. Lopende werkingskosten (lonen, huur, ICT) blijven gewone bedrijfskosten — ook in jaar 1. Activering geldt alleen voor specifiek welomschreven categorieën uit KB WVV art. 3:36.",
+      "confidence": "grounded",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:36"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_30",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Herstructureringskosten activeren = motivering verplicht in toelichting. Zonder onderbouwde duurzame rentabiliteitsimpact: meteen kost boeken, geen activering.",
+      "confidence": "grounded",
+      "source": {
+        "type": "advies",
+        "short": "CBN 2011/24"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-24-herstructureringskosten-verwerking-in-de-jaarrekening__volledig",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "immateriele-vaste-activa",
+      "verschil": "Oprichtingskosten (rubriek 20) = kosten verbonden met het bestaan/de structuur van de vennootschap; afschrijving min. 20 %/jaar. Immateriële vaste activa (rubriek 21) = identificeerbare niet-monetaire activa zonder fysieke substantie (concessies, octrooien, goodwill); afschrijving over geschatte gebruiksduur, niet beperkt tot 5 jaar.",
+      "trigger": "Examen: 'patentaankoop voor € 80.000' → immaterieel vast actief (rubr. 21), NIET oprichtingskosten."
+    }
+  ],
+  "edges": [
+    {
+      "type": "vergelijkt-met",
+      "target": "immateriele-vaste-activa",
+      "redenering": "Beide rubrieken op de actiefzijde met afschrijvingen, maar fundamenteel andere aard en regime."
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "obligatielening",
+      "redenering": "Uitgifte van een obligatielening genereert uitgiftekosten die onder rubriek 201 vallen."
+    }
+  ]
+}

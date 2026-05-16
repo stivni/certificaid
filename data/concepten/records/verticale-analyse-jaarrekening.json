@@ -1,0 +1,127 @@
+{
+  "id": "verticale-analyse-jaarrekening",
+  "naam": "Verticale analyse (percentageanalyse, common-size)",
+  "node_type": "methode",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.3.I.C", "1.3.II.B", "1.3.II.C", "1.3.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.3.I.C",
+    "dekt_ook_anchors": ["1.3.II.B", "1.3.II.C", "1.3.taak.1"],
+    "reviewed_by": null,
+    "bron_gap": "Methode-naam zonder Belgische bronvermelding. Vakdoctrine."
+  },
+  "doel": {
+    "text": "De samenstelling van balans en resultatenrekening uitdrukken in procenten van een gemeenschappelijke noemer (balanstotaal voor de balans, omzet voor de resultatenrekening). Zo wordt vergelijking tussen ondernemingen van verschillende grootte mogelijk.",
+    "confidence": "inferred-common-knowledge",
+    "source": {"type": "vakdoctrine", "short": "Algemene financial-analysis-doctrine"},
+    "_provenance": {"inputs": [{"id": "anchor-1.3.I.C", "sha256": null, "version": "rag-v1"}]}
+  },
+  "bouwstenen": [
+    {
+      "titel": "Balanspost als % van balanstotaal",
+      "wat": "Voor elke balanspost: deel door het balanstotaal en druk uit als percentage. Het totaal van de actief-zijde is 100 %; idem passiefzijde.",
+      "waarom": "Zo zie je de structuur: hoeveel vaste activa, vlottende activa, eigen vermogen, lange schulden, korte schulden — zonder dat schaal de blik verstoort.",
+      "voorbeeld_inline": "Rotex Roeselare NV (balanstotaal € 30.000.000): vaste activa € 18.000.000 = 60 %; vlottende activa € 12.000.000 = 40 %. Eigen vermogen 40 %; lange schulden 43 %; korte schulden 17 %.",
+      "grondslag": "Vakdoctrine",
+      "confidence": "inferred-common-knowledge",
+      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
+      "_provenance": {"inputs": [{"id": "anchor-1.3.I.C", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Resultatenpost als % van omzet",
+      "wat": "Voor elke kost en opbrengst: deel door de omzet. Omzet is 100 %; alle andere posten een percentage daarvan.",
+      "waarom": "Toont kostenstructuur en marges. Geeft direct zicht op brutomarge, bedrijfsresultaatmarge, nettomarge.",
+      "voorbeeld_inline": "Rotex Roeselare NV (omzet € 50.000.000): handelsgoederen € 30.000.000 = 60 %; personeelskosten € 8.000.000 = 16 %; afschrijvingen € 1.500.000 = 3 %; nettowinst € 2.500.000 = 5 %.",
+      "grondslag": "Vakdoctrine",
+      "confidence": "inferred-common-knowledge",
+      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
+      "_provenance": {"inputs": [{"id": "anchor-1.3.I.C", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "berekeningsmethode": [
+    {
+      "naam": "Common-size balans en resultatenrekening",
+      "ratio": "Door alles als percentage van eenzelfde noemer uit te drukken, zijn balansen of resultatenrekeningen van zeer verschillende grootte rechtstreeks vergelijkbaar — zowel met andere ondernemingen als met sectorgemiddelden.",
+      "stappen": [
+        {
+          "nr": 1,
+          "titel": "Kies noemer per overzicht",
+          "wat": "Balans → balanstotaal; resultatenrekening → omzet (of bedrijfsopbrengsten als omzet niet bruikbaar is).",
+          "hoe": "1. Voor Rotex Roeselare NV: balans-noemer € 30.000.000; resultatenrekening-noemer omzet € 50.000.000.\n",
+          "grondslag": "Vakdoctrine"
+        },
+        {
+          "nr": 2,
+          "titel": "Bereken percentages per post",
+          "wat": "Voor elke post: (post / noemer) × 100.",
+          "hoe": "1. Bv. eigen vermogen Rotex: € 12.000.000 / € 30.000.000 × 100 = 40 %.\n2. Bv. personeelskosten Rotex: € 8.000.000 / € 50.000.000 × 100 = 16 %.\n",
+          "voorbeeld": {
+            "scenario": "Rotex Roeselare NV — common-size balans (kant passief, boekjaar 20X1).",
+            "substappen": [
+              {
+                "nr": 1,
+                "titel": "Common-size passief",
+                "type": "balans",
+                "data": "| Rubriek                          | Bedrag (€)     | Aandeel |\n|----------------------------------|---------------:|--------:|\n| Eigen vermogen                   |     12.000.000 |   40 %  |\n| Voorzieningen + uitgest. bel.    |      1.000.000 |    3 %  |\n| Schulden > 1 jaar                |     13.000.000 |   43 %  |\n| Schulden ≤ 1 jaar                |      3.800.000 |   13 %  |\n| Overlopende rekeningen passief   |        200.000 |    1 %  |\n| **Balanstotaal**                 | **30.000.000** | **100 %** |"
+              }
+            ]
+          },
+          "grondslag": "Vakdoctrine"
+        },
+        {
+          "nr": 3,
+          "titel": "Vergelijk met sector of vorig boekjaar",
+          "wat": "De common-size cijfers laten zich direct vergelijken met sectormediaan of met vorig boekjaar — schaalverschillen verdwijnen.",
+          "hoe": "1. Vergelijk Rotex passief-mix (40 % EV) met sectormediaan (32 % EV) → conclusie: Rotex is robuuster gefinancierd dan sector.\n2. Bv. de personeelskosten-marge stijgt van 14 % naar 16 % over 2 jaar → productiviteit onder druk.\n",
+          "grondslag": "Vakdoctrine"
+        }
+      ],
+      "concreet_voorbeeld": {
+        "scenario": "Rotex Roeselare NV — common-size resultatenrekening boekjaar 20X1; omzet € 50.000.000.",
+        "berekening": "Handelsgoederen € 30M / € 50M = 60 %; personeelskosten € 8M / € 50M = 16 %; afschrijvingen € 1,5M / € 50M = 3 %; bedrijfsresultaat € 4,2M / € 50M = 8,4 %; nettowinst € 2,5M / € 50M = 5 %.",
+        "resultaat": "Brutomarge 40 % (na handelsgoederen); bedrijfsmarge 8,4 %; nettomarge 5 %. In één tabel zichtbaar; vergelijkbaar met sectorgemiddelden en met vorig boekjaar."
+      },
+      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": [{"id": "anchor-1.3.I.C", "sha256": null, "version": "rag-v1"}]},
+      "formules": [
+        {
+          "id": "verticaal-percentage",
+          "naam": "Verticale-analyse-percentage",
+          "wiskunde": "aandeel_post = (post / noemer) × 100",
+          "variabelen": [
+            {"symbool": "post", "betekenis": "Te analyseren balans- of resultatenpost", "eenheid": "EUR"},
+            {"symbool": "noemer", "betekenis": "Balanstotaal (voor balans) of omzet (voor resultatenrekening)", "eenheid": "EUR"}
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "Personeelskosten Rotex 20X1 = € 8.000.000; omzet = € 50.000.000",
+            "berekening": "(€ 8.000.000 / € 50.000.000) × 100 = 16,0 %",
+            "eenheid_resultaat": "%"
+          }
+        }
+      ]
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "horizontale-analyse-jaarrekening",
+      "verschil": "Verticaal = samenstelling op één moment (alle posten als % van zelfde noemer). Horizontaal = evolutie over tijd (elke post vs. basisjaar). Verticaal toont structuur, horizontaal toont trend.",
+      "trigger": "Examen 'samenstelling of trend?': samenstelling = verticaal; trend = horizontaal.",
+      "_provenance": {"inputs": [{"id": "anchor-1.3.I.C", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Bij vennootschappen zonder echte 'omzet' (financieel actief, holding) is omzet als noemer onbruikbaar. Gebruik dan 'bedrijfsopbrengsten' of een totaal-noemer.",
+      "confidence": "inferred",
+      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
+      "_provenance": {"inputs": [{"id": "anchor-1.3.I.C", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "vergelijkt-met", "target": "horizontale-analyse-jaarrekening", "redenering": "Verticaal vs. horizontaal — twee assen van analyse.", "confidence": "inferred"}
+  ]
+}

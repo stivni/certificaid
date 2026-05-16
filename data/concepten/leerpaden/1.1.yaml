@@ -1,0 +1,185 @@
+programmaonderdeel: "1.1"
+titel: "Algemene boekhouding"
+status: voorgesteld
+schema_version: "1.0"
+hoofdstukken:
+  - type: oriëntatie
+    titel: "Wat doet een boekhouding? Van enkelvoudig naar dubbel, en waarom dat ertoe doet"
+    rationale_hint: >-
+      Open vanuit het verschil tussen [[regelmatige-boekhouding]] en
+      [[vereenvoudigde-boekhouding]]: de keuze is geen administratieve
+      smaakkwestie maar volgt de WER-grootte en bepaalt of een onderneming
+      [[dubbel-boekhouden]] moet toepassen via [[dagboek]] en grootboek. Verbind
+      dit met de bredere rol van de boekhouding als wettelijk
+      informatie-instrument voor stakeholders (aandeelhouders, schuldeisers,
+      werknemers, fiscus, NBB) en als bewijsmiddel — niet enkel als interne
+      stuurmaatregel. Maak duidelijk dat alle volgende hoofdstukken één doel
+      dienen: een boekhouding die getrouw weergeeft wat in de onderneming
+      gebeurd is.
+
+  - type: thematisch
+    titel: "De fundamentele beginselen: het redeneerkader achter elke boeking"
+    concepten:
+      - continuiteitsbeginsel
+      - voorzichtigheidsbeginsel
+      - getrouw-beeld
+      - onveranderlijkheid-boekingen
+      - consistentiebeginsel
+      - oprechtheidsbeginsel
+      - volledigheidsbeginsel
+      - aanvullende-boekhoudbeginselen
+
+  - type: synthese
+    synthese_id: boekhoudbeginselen-overzicht
+    rationale_hint: >-
+      Plaats deze synthese onmiddellijk na het thematisch beginsel-cluster als
+      kapstok: de student heeft net acht beginselen leren kennen, en zou
+      anders niet weten hoe ze samenhangen. Het overzicht toont in één tabel
+      per beginsel wat het zegt, welk artikel het verankert, welk type
+      waarderingsvraag het stuurt en welk getrouw-beeld-aspect het beschermt.
+      Hierdoor wordt zichtbaar dat de beginselen elkaar niet doubleren maar
+      elk een eigen rol spelen — en dat ze samen het redeneerkader vormen
+      voor elke boeking en waardering die in de rest van het leerpad volgt.
+
+  - type: competentie
+    competentie_id: voeren-regelmatige-dubbele-boekhouding
+
+  - type: competentie
+    competentie_id: toepassen-fundamentele-boekhoudbeginselen
+
+  - type: thematisch
+    titel: "De gewone bedrijfsuitoefening: aankopen, verkopen, btw en vorderingen"
+    concepten:
+      - bedrijfsvorderingen
+      - schulden
+      - bedrijfsresultaat
+
+  - type: competentie
+    competentie_id: boeken-aankoop-verkoop-met-btw
+
+  - type: thematisch
+    titel: "Vaste activa: oprichtingskosten, materiële, immateriële en financiële"
+    concepten:
+      - oprichtingskosten
+      - aanschaffingswaarde
+      - materiele-vaste-activa
+      - immateriele-vaste-activa
+      - financiele-vaste-activa
+      - herwaarderingsmeerwaarden
+      - afschrijvingen
+      - waardeverminderingen
+
+  - type: competentie
+    competentie_id: boeken-oprichtings-en-kapitaalverhogingskosten
+
+  - type: competentie
+    competentie_id: opstellen-afschrijvingsplan-vaste-activa
+
+  - type: thematisch
+    titel: "Vlottende activa: voorraden, vorderingen, geldbeleggingen en liquide middelen"
+    concepten:
+      - voorraden
+      - geldbeleggingen
+
+  - type: competentie
+    competentie_id: waarderen-en-boeken-voorraden-fifo-ggp
+
+  - type: competentie
+    competentie_id: boeken-waardeverminderingen-op-vorderingen-en-voorraden
+
+  - type: thematisch
+    titel: "Eigen vermogen, voorzieningen en lange-termijn-schulden"
+    concepten:
+      - eigen-middelen
+      - uitgiftepremie
+      - wettelijke-reserve
+      - voorzieningen
+      - kapitaalwijziging
+
+  - type: competentie
+    competentie_id: boeken-voorzieningen-voor-risicos-en-kosten
+
+  - type: thematisch
+    titel: "Overlopende rekeningen en het matching-principe"
+    concepten:
+      - overlopende-rekeningen
+
+  - type: competentie
+    competentie_id: verwerken-overlopende-rekeningen-matching
+
+  - type: synthese
+    synthese_id: resultaat-categorisatie-beslisboom
+    rationale_hint: >-
+      Nadat de student de bedrijfsuitoefening, de vaste/vlottende activa, het
+      eigen vermogen en de overlopende rekeningen geboekt heeft, komt de
+      vraag: in welke resultaatcategorie hoort elke verrichting? Deze
+      beslisboom (bedrijfs- · financieel · niet-recurrent) plaatst de
+      categorisatie als één samenhangend keuze-algoritme i.p.v. drie losse
+      definities. Verbind met [[bedrijfsresultaat]],
+      [[financiele-verrichtingen]] en [[niet-recurrente-verrichtingen]]: de
+      beslisboom maakt expliciet welk criterium dominant is in twijfelgevallen
+      en bereidt de student voor op de eindejaarsverrichtingen die hierna
+      volgen.
+
+  - type: thematisch
+    titel: "Bijzondere transacties: leasing, obligaties, eigen aandelen en eigendom"
+    concepten:
+      - leasing
+      - obligatielening
+      - eigen-aandelen
+      - opsplitsing-eigendom
+      - rechten-verplichtingen-buiten-balans
+
+  - type: competentie
+    competentie_id: kwalificeren-en-boeken-leasing
+
+  - type: competentie
+    competentie_id: boeken-uitgifte-en-aflossing-obligatielening
+
+  - type: competentie
+    competentie_id: voeren-boekhouding-vzw-met-economische-activiteit
+
+  - type: synthese
+    synthese_id: boekjaar-eindprocedure-checklist
+    rationale_hint: >-
+      Vlak vóór de twee afsluit-competenties brengt deze checklist de
+      eindejaarsverrichtingen in chronologische volgorde: inventaris,
+      afschrijvingen, waardeverminderingen, voorzieningen, overlopende
+      rekeningen, proefbalans, jaarrekening, bestemming, neerlegging. De
+      student heeft elk stuk apart leren boeken; hier ziet hij hoe ze in de
+      tijd op elkaar volgen om een regelmatige boekhouding correct af te
+      sluiten. Verbind met [[inventaris]], [[bewaring-boekhoudstukken]] en
+      [[jaarrekening]] — de checklist is de kapstok voor het hele
+      boekjaareinde-traject.
+
+  - type: competentie
+    competentie_id: uitvoeren-eindejaarsverrichtingen-en-proefbalans
+
+  - type: competentie
+    competentie_id: boeken-resultaatverwerking-en-bestemming
+
+  - type: thematisch
+    titel: "Vereffening en de levenscyclus voorbij continuïteit"
+    concepten:
+      - vereffening
+
+  - type: oriëntatie
+    titel: "Reflectie: digitalisering, e-invoicing en de boekhouding van morgen"
+    rationale_hint: >-
+      Sluit af met een korte reflectie op de evolutie van het beroep: hoewel
+      de [[regelmatige-boekhouding]] in WER en KB-WVV verankerd blijft,
+      verandert haar uitvoering ingrijpend door e-invoicing (Peppol vanaf
+      2026), real-time btw-rapportering, geautomatiseerde
+      [[dagboek]]-boekingen via OCR/AI en de groeiende invloed van IFRS op
+      Belgische groepen. Verwijs naar [[onveranderlijkheid-boekingen]] en
+      [[bewaring-boekhoudstukken]]: digitale boekhouding moet dezelfde
+      principes blijven respecteren, maar via andere technische middelen.
+      Eindig met de boodschap dat de stagiair de wettelijke logica leert om
+      bij elke nieuwe tool te kunnen blijven oordelen wat regelmatig is en
+      wat niet.
+
+_provenance:
+  voorgesteld_door: "leerpad-propose-v1-po-1.1-2026-05-16T17:00Z"
+  voorgesteld_op: "2026-05-16T17:00:00+00:00"
+  gecureerd_door: null
+  gecureerd_op: null

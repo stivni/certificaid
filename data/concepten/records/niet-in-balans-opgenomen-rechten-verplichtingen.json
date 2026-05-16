@@ -1,0 +1,231 @@
+{
+  "id": "niet-in-balans-opgenomen-rechten-verplichtingen",
+  "naam": "Niet in de balans opgenomen rechten en verplichtingen",
+  "node_type": "regel",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.3.II.D",
+    "1.3.taak.1",
+    "1.2.III.B",
+    "1.2.V",
+    "1.2.IV.C"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.3.II.D",
+    "dekt_ook_anchors": [
+      "1.3.taak.1"
+    ],
+    "reviewed_by": null,
+    "po_1_2_extension": "2026-05-16: +['1.2.III.B', '1.2.V', '1.2.IV.C']"
+  },
+  "main_rule": {
+    "text": "In de toelichting worden per soort de rechten en verplichtingen vermeld die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden. Belangrijke rechten en verplichtingen die niet kunnen worden becijferd, worden op passende wijze in de toelichting vermeld.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB W.Venn. art. 25 §3 — herhaald in KB WVV via Richtlijn 2013/34/EU art. 16, 1, d"
+    },
+    "references": [
+      {
+        "type": "kb",
+        "short": "KB W.Venn. art. 91 (volledig schema) / art. 94 (verkort schema) / art. 94/3 (microschema)"
+      },
+      {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU art. 16, 1, d"
+      },
+      {
+        "type": "cbn",
+        "short": "CBN-2017/07"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_vermelding-van-rechten-en-verplichtingen-in-de-toelichting",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Wat hoort eronder",
+      "wat": "Garanties, zekerheden, leasing- en huurverplichtingen, hangende geschillen, financiële verplichtingen, onvoorziene gebeurtenissen, persoonlijke of zakelijke zekerheden gesteld door of voor de vennootschap, pensioenverplichtingen, verplichtingen jegens verbonden of geassocieerde ondernemingen.",
+      "waarom": "Deze items raken het vermogen of risicoprofiel zonder dat ze op de balans verschijnen. De gebruiker zou ze missen als ze niet expliciet werden vermeld.",
+      "voorbeeld_inline": "Rotex Roeselare NV staat zich borg voor een lening van € 2.000.000 die haar dochter Brugse Brouwerij BV bij de bank aanging. Op de balans van Rotex zelf staat niets, maar de toelichting moet de borgstelling vermelden.",
+      "grondslag": "Richtlijn 2013/34/EU art. 16, 1, d) — KB W.Venn. art. 91 / 94 / 94/3",
+      "confidence": "grounded",
+      "source": {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU art. 16, 1, d)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_vermelding-van-rechten-en-verplichtingen-in-de-toelichting",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Subsidiariteit — enkel als nog niet op balans",
+      "wat": "Een recht of verplichting die al integraal in de balans of resultatenrekening verwerkt is, hoort niet meer in de toelichting onder deze rubriek. Subsidiair: alleen wat ontbreekt op de balans.",
+      "waarom": "Dubbele vermelding zou misleiden — alsof er meer verplichtingen zijn dan in werkelijkheid.",
+      "voorbeeld_inline": "Een schuld aan een leverancier van € 50.000 staat al op de passiefzijde — niet ook nog eens onder 'niet in balans opgenomen verplichtingen' vermelden.",
+      "grondslag": "CBN-2017/07 §subsidiariteit",
+      "confidence": "grounded",
+      "source": {
+        "type": "cbn",
+        "short": "CBN-2017/07 §subsidiariteit"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_subsidiariteit",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Klasse-0-rekeningen",
+      "wat": "Niet-balansrechten en verplichtingen worden boekhoudkundig genoteerd op klasse-0-rekeningen (rekeningen 00 tot 07). KB W.Venn. art. 97 omschrijft de inhoud.",
+      "waarom": "Klasse 0 is buiten de gewone activa/passiva-balans: het is een 'spiegel-boeking' om verplichtingen te tracken zonder ze in de balans te tellen.",
+      "voorbeeld_inline": "De borgstelling van Rotex Roeselare NV voor € 2.000.000 wordt in de boekhouding genoteerd op een klasse-0-rekening (bv. 03 Persoonlijke zekerheden gesteld voor rekening van derden).",
+      "grondslag": "KB W.Venn. art. 97; CBN-2017/07 §rekeningen klasse 0",
+      "confidence": "grounded",
+      "source": {
+        "type": "cbn",
+        "short": "CBN-2017/07 §rekeningen van de klasse 0"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_rekeningen-van-de-klasse-0",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Lijst is niet limitatief",
+      "wat": "De opsomming in artikel 91 (volledig schema), artikel 94 (verkort schema) en artikel 94/3 (microschema) is illustratief — niet limitatief. Andere relevante rechten en verplichtingen moeten ook vermeld worden.",
+      "waarom": "Anders zou een vennootschap zich kunnen verschuilen achter het ontbreken van de specifieke verplichting in de lijst.",
+      "voorbeeld_inline": "Een onbenoemd risico zoals een hangend antitrust-onderzoek dat een boete kan opleveren — niet in de lijst maar wel materieel belangrijk → toelichting vermelden.",
+      "grondslag": "CBN-2017/07 §niet-limitativiteit",
+      "confidence": "grounded",
+      "source": {
+        "type": "cbn",
+        "short": "CBN-2017/07 §niet-limitativiteit"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_niet-limitativiteit-van-de-bestaande-lijsten",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Cruciaal voor financiële analyse",
+      "betekenis": "Voor een eerlijke risico-analyse moet je de toelichting lezen. Een vennootschap met € 5.000.000 EV en € 8.000.000 borgstellingen heeft een totaal risicoprofiel dat groter is dan haar balans suggereert.",
+      "herkenningspunt": "Bij een sterke balans en zwakke analyse-conclusie altijd de toelichting checken op verborgen verplichtingen.",
+      "anker_slug": "1.3.II.D",
+      "confidence": "grounded",
+      "source": {
+        "type": "cbn",
+        "short": "CBN-2017/07"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_vermelding-van-rechten-en-verplichtingen-in-de-toelichting",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Onbecijferbare verplichtingen ook vermelden",
+      "betekenis": "Als een verplichting belangrijk is maar moeilijk in een bedrag uit te drukken (hangend geschil met onzekere afloop), wordt ze 'op passende wijze' beschreven in de toelichting — bv. door aard, partijen, mogelijke gevolgen.",
+      "anker_slug": "1.3.II.D",
+      "confidence": "grounded",
+      "source": {
+        "type": "kb",
+        "short": "KB W.Venn. art. 25 §3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_vermelding-van-rechten-en-verplichtingen-in-de-toelichting",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "voorzieningen-voor-risicos-en-kosten",
+      "verschil": "Een voorziening is een geboekte schatting van een waarschijnlijk verlies — die staat WEL op de balans. Een niet-balansverplichting is doorgaans onzekerder of niet-becijferbaar — die staat NIET op de balans maar in de toelichting.",
+      "trigger": "Examenvraag 'voorziening of niet in balans?': becijferbaar + waarschijnlijk = voorziening (balans); onzeker of onbecijferbaar = niet in balans (toelichting).",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_subsidiariteit",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Schemas verschillen: volledig schema vraagt veel detail (KB art. 91); microschema beperkt zich tot het belangrijkste (KB art. 94/3). Toepasselijk schema dus eerst bepalen aan de hand van groottecriteria.",
+      "confidence": "grounded",
+      "source": {
+        "type": "cbn",
+        "short": "CBN-2017/07"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_vermelding-van-rechten-en-verplichtingen-in-de-toelichting",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "getrouw-beeld-jaarrekening",
+      "redenering": "Vermelding ondersteunt het getrouwe beeld — anders is de jaarrekening onvolledig.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "bevat",
+      "target": "klasse-0-niet-in-balans",
+      "redenering": "Boekhoudkundige tegenhanger in klasse-0-rekeningen.",
+      "confidence": "inferred"
+    }
+  ]
+}
