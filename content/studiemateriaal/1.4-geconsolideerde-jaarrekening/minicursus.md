@@ -300,47 +300,55 @@ Twee denkpatronen keren terug. Eén: nooit op één feit beslissen — de plicht
 
 ## Competentie-index
 
-[[competenties/afbakenen-consolidatiekring|Afbakenen van de consolidatiekring en beoordelen van uitsluitings- of weglatingsgronden]]
-[[competenties/bepalen-consolidatieverplichting|Bepalen of een vennootschap een geconsolideerde jaarrekening moet opstellen]]
-[[competenties/berekenen-controle-en-belangenpercentage|Berekenen van controle- en belangenpercentage in een ketenstructuur]]
-[[competenties/kiezen-consolidatiemethode|Kiezen van de toe te passen consolidatietechniek per entiteit]]
-[[competenties/kwalificeren-relatie-deelneming|Kwalificeren van de relatie met een deelneming (controle, gezamenlijke controle of invloed van betekenis)]]
-[[competenties/toepassen-uniforme-waarderingsregels|Toepassen van uniforme waarderingsregels en hercorrigeren van enkelvoudige cijfers]]
-[[competenties/uitvoeren-eerste-consolidatie|Uitvoeren van de eerste consolidatie van een nieuw verworven dochter of geassocieerde onderneming]]
-[[competenties/uitvoeren-intragroep-eliminaties|Uitvoeren van intragroep-eliminaties en berekenen van het aandeel van derden]]
-[[competenties/verwerken-wijziging-consolidatiekring|Verwerken van een wijziging in de consolidatiekring (inclusief step acquisition)]]
+<div class="two-column-list">
+
+- [[competenties/afbakenen-consolidatiekring|Afbakenen van de consolidatiekring en beoordelen van uitsluitings- of weglatingsgronden]]
+- [[competenties/bepalen-consolidatieverplichting|Bepalen of een vennootschap een geconsolideerde jaarrekening moet opstellen]]
+- [[competenties/berekenen-controle-en-belangenpercentage|Berekenen van controle- en belangenpercentage in een ketenstructuur]]
+- [[competenties/kiezen-consolidatiemethode|Kiezen van de toe te passen consolidatietechniek per entiteit]]
+- [[competenties/kwalificeren-relatie-deelneming|Kwalificeren van de relatie met een deelneming (controle, gezamenlijke controle of invloed van betekenis)]]
+- [[competenties/toepassen-uniforme-waarderingsregels|Toepassen van uniforme waarderingsregels en hercorrigeren van enkelvoudige cijfers]]
+- [[competenties/uitvoeren-eerste-consolidatie|Uitvoeren van de eerste consolidatie van een nieuw verworven dochter of geassocieerde onderneming]]
+- [[competenties/uitvoeren-intragroep-eliminaties|Uitvoeren van intragroep-eliminaties en berekenen van het aandeel van derden]]
+- [[competenties/verwerken-wijziging-consolidatiekring|Verwerken van een wijziging in de consolidatiekring (inclusief step acquisition)]]
+
+</div>
 
 ## Concept-index
 
-[[minderheidsbelangen|Belangen van derden / Aandeel van derden in het resultaat (minderheidsbelangen)]] · `fenomeen`
-[[belangenpercentage|Belangenpercentage]] · `begrip`
-[[consolidatiekring|Consolidatiekring]] · `begrip`
-[[consolidatieverplichting|Consolidatieverplichting]] · `regel`
-[[consolidatieverschil|Consolidatieverschil]] · `fenomeen`
-[[consortium|Consortium (horizontale groep)]] · `actor`
-[[controle|Controle]] · `begrip`
-[[controlepercentage|Controlepercentage]] · `begrip`
-[[consolidatiemethodes-vergelijking|De vier consolidatiemethodes vergeleken]] · `synthese`
-[[dochteronderneming|Dochteronderneming]] · `actor`
-[[eerste-consolidatie|Eerste consolidatie]] · `fenomeen`
-[[evenredige-consolidatie|Evenredige consolidatie (proportionele consolidatie)]] · `methode`
-[[exclusieve-controle|Exclusieve controle]] · `begrip`
-[[geassocieerde-onderneming|Geassocieerde onderneming]] · `actor`
-[[geconsolideerd-jaarverslag|Geconsolideerd jaarverslag]] · `begrip`
-[[geconsolideerde-jaarrekening|Geconsolideerde jaarrekening]] · `begrip`
-[[gemeenschappelijke-dochteronderneming|Gemeenschappelijke dochteronderneming]] · `actor`
-[[gezamenlijke-controle|Gezamenlijke controle]] · `begrip`
-[[groep-van-beperkte-omvang|Groep van beperkte omvang]] · `begrip`
-[[groottecriteria-consolidatie|Groottecriteria voor de consolidatievrijstelling]] · `drempel`
-[[horizontale-consolidatie|Horizontale consolidatie]] · `procedure`
-[[ifrs-consolidatieraamwerk|IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12)]] · `begrip`
-[[integrale-consolidatie|Integrale consolidatie]] · `methode`
-[[intragroep-eliminaties|Intragroep-eliminaties]] · `procedure`
-[[invloed-van-betekenis|Invloed van betekenis]] · `begrip`
-[[moedervennootschap|Moedervennootschap]] · `actor`
-[[consolidatieplicht-beslisboom|Moet ik consolideren? — Beslisboom]] · `synthese`
-[[step-acquisition|Step acquisition (trapsgewijze verwerving)]] · `fenomeen`
-[[uniforme-waarderingsregels-consolidatie|Uniforme waarderingsregels in de consolidatie]] · `regel`
-[[vermogensmutatiemethode|Vermogensmutatiemethode (equity method)]] · `methode`
-[[vrijstelling-subconsolidatie|Vrijstelling van subconsolidatie]] · `regel`
-[[wijziging-consolidatiekring|Wijziging van de consolidatiekring]] · `fenomeen`
+<div class="two-column-list">
+
+- [[minderheidsbelangen|Belangen van derden / Aandeel van derden in het resultaat (minderheidsbelangen)]] · `fenomeen`
+- [[belangenpercentage|Belangenpercentage]] · `begrip`
+- [[consolidatiekring|Consolidatiekring]] · `begrip`
+- [[consolidatieverplichting|Consolidatieverplichting]] · `regel`
+- [[consolidatieverschil|Consolidatieverschil]] · `fenomeen`
+- [[consortium|Consortium (horizontale groep)]] · `actor`
+- [[controle|Controle]] · `begrip`
+- [[controlepercentage|Controlepercentage]] · `begrip`
+- [[consolidatiemethodes-vergelijking|De vier consolidatiemethodes vergeleken]] · `synthese`
+- [[dochteronderneming|Dochteronderneming]] · `actor`
+- [[eerste-consolidatie|Eerste consolidatie]] · `fenomeen`
+- [[evenredige-consolidatie|Evenredige consolidatie (proportionele consolidatie)]] · `methode`
+- [[exclusieve-controle|Exclusieve controle]] · `begrip`
+- [[geassocieerde-onderneming|Geassocieerde onderneming]] · `actor`
+- [[geconsolideerd-jaarverslag|Geconsolideerd jaarverslag]] · `begrip`
+- [[geconsolideerde-jaarrekening|Geconsolideerde jaarrekening]] · `begrip`
+- [[gemeenschappelijke-dochteronderneming|Gemeenschappelijke dochteronderneming]] · `actor`
+- [[gezamenlijke-controle|Gezamenlijke controle]] · `begrip`
+- [[groep-van-beperkte-omvang|Groep van beperkte omvang]] · `begrip`
+- [[groottecriteria-consolidatie|Groottecriteria voor de consolidatievrijstelling]] · `drempel`
+- [[horizontale-consolidatie|Horizontale consolidatie]] · `procedure`
+- [[ifrs-consolidatieraamwerk|IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12)]] · `begrip`
+- [[integrale-consolidatie|Integrale consolidatie]] · `methode`
+- [[intragroep-eliminaties|Intragroep-eliminaties]] · `procedure`
+- [[invloed-van-betekenis|Invloed van betekenis]] · `begrip`
+- [[moedervennootschap|Moedervennootschap]] · `actor`
+- [[consolidatieplicht-beslisboom|Moet ik consolideren? — Beslisboom]] · `synthese`
+- [[step-acquisition|Step acquisition (trapsgewijze verwerving)]] · `fenomeen`
+- [[uniforme-waarderingsregels-consolidatie|Uniforme waarderingsregels in de consolidatie]] · `regel`
+- [[vermogensmutatiemethode|Vermogensmutatiemethode (equity method)]] · `methode`
+- [[vrijstelling-subconsolidatie|Vrijstelling van subconsolidatie]] · `regel`
+- [[wijziging-consolidatiekring|Wijziging van de consolidatiekring]] · `fenomeen`
+
+</div>

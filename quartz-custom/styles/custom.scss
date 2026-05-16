@@ -104,6 +104,27 @@ article table {
   overflow-x: auto;
 }
 
+// Twee-koloms bullet-lijsten (concept-index, competentie-index in minicursus)
+.two-column-list {
+  ul {
+    column-count: 2;
+    column-gap: 2rem;
+    list-style-position: inside;
+    padding-left: 0;
+
+    li {
+      break-inside: avoid;
+      margin-bottom: 0.15rem;
+    }
+  }
+
+  @media (max-width: 750px) {
+    ul {
+      column-count: 1;
+    }
+  }
+}
+
 // Compact Nodig / Uitkomst blockquotes side by side
 .step-io {
   display: flex;

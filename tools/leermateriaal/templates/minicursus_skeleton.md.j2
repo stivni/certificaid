@@ -123,12 +123,20 @@
 
 ## Competentie-index
 
+<div class="two-column-list">
+
 {% for comp in gesorteerde_competenties %}
-[[competenties/{{ comp.id }}|{{ comp.titel }}]]
+- [[competenties/{{ comp.id }}|{{ comp.titel }}]]
 {% endfor %}
+
+</div>
 
 ## Concept-index
 
+<div class="two-column-list">
+
 {% for rec in gesorteerde_records %}
-[[{{ rec.id }}|{{ rec.naam }}]] · `{{ rec.node_type }}`
+- [[{{ rec.id }}|{{ rec.naam }}]] · `{{ rec.node_type }}`
 {% endfor %}
+
+</div>
