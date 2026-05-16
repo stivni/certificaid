@@ -677,6 +677,85 @@ class TestCalloutConventies:
         assert "Conclusie Y." in md
         assert "Redenering Z." in md
 
+    def test_edge_callout_gevolgd_door_blank_line(self) -> None:
+        """Edge-breadcrumb-callout heeft een blank line tussen callout en definition-text (anti-merge)."""
+        from tools.leermateriaal.render_concept_fiche import render_record
+
+        record = self._maak_record(
+            definitie={"text": "Definitie-tekst hier."},
+            edges=[{"type": "specialisatie-van", "target": "parent-x"}],
+        )
+        md = render_record(record)
+        # Verwachte volgorde: callout-regel, blank line, definition-paragraaf
+        # Niet acceptabel: callout-regel direct gevolgd door definition (zou mergen)
+        callout_lijn = "> [!info] Specialisatie van: [[parent-x]]"
+        idx = md.find(callout_lijn)
+        assert idx >= 0, "edge-callout ontbreekt"
+        na_callout = md[idx + len(callout_lijn):]
+        # Eerste karakters na de callout-regel moeten dubbele newline (= blank line) zijn
+        assert na_callout.startswith("\n\n"), (
+            f"edge-callout moet gevolgd worden door blank line (Quartz lazy-continuation): "
+            f"got {na_callout[:30]!r}"
+        )
+
+    def test_consecutive_valkuilen_gescheiden_door_blank_line(self) -> None:
+        """Twee opeenvolgende valkuilen worden door blank line gescheiden (anti-merge)."""
+        from tools.leermateriaal.render_concept_fiche import render_record
+
+        record = self._maak_record(
+            definitie={"text": "Test."},
+            valkuilen=[
+                {"text": "Eerste valkuil.", "confidence": "grounded"},
+                {"text": "Tweede valkuil.", "confidence": "grounded"},
+            ],
+        )
+        md = render_record(record)
+        # Zoek de eerste en tweede [!warning]- callout
+        eerste = md.find("> [!warning]- Eerste valkuil")
+        tweede = md.find("> [!warning]- Tweede valkuil")
+        assert eerste >= 0 and tweede > eerste
+        # Tussen einde van eerste callout-blok en begin tweede moet een blank line zitten
+        tussen = md[eerste:tweede]
+        assert "\n\n" in tussen, (
+            f"twee valkuilen moeten door blank line gescheiden zijn, anders mergden ze in Quartz: "
+            f"tussen={tussen!r}"
+        )
+
+    def test_eerste_zin_filter_behoudt_eurobedragen(self) -> None:
+        """eerste_zin-filter splitst NIET op duizendtal-punten in €-bedragen."""
+        from tools.leermateriaal.lib.jinja_env import _eerste_zin
+
+        tekst = "Aurelia betaalt € 1.600.000 voor Brugse. Geen verdere details."
+        # Eerste zin moet het volledige bedrag bevatten
+        resultaat = _eerste_zin(tekst, 120)
+        assert "€ 1.600.000" in resultaat
+        assert "voor Brugse" in resultaat
+
+    def test_eerste_zin_filter_behoudt_wetsverwijzingen(self) -> None:
+        """eerste_zin-filter splitst NIET op 'art.' wanneer dat een Belgisch-juridische afkorting is."""
+        from tools.leermateriaal.lib.jinja_env import _eerste_zin
+
+        tekst = "De plicht staat in WVV art. 3:22 e.v. Vrijstellingen staan elders."
+        resultaat = _eerste_zin(tekst, 120)
+        assert "WVV art. 3:22" in resultaat
+
+    def test_gebaseerd_op_concepten_geen_trailing_separator(self) -> None:
+        """Lijst van concepten in competentie-fiche eindigt zonder dangling ` · `."""
+        from tools.leermateriaal.render_competentie_fiche import render_competentie
+
+        competentie = {
+            "id": "test", "titel": "T", "status": "voorgesteld",
+            "schema_version": "1.1", "programmaonderdelen": ["1.4"],
+            "voortkomend_uit": {"taken": [], "kenniselementen": []},
+            "gebaseerd_op_concepten": ["concept-a", "concept-b", "concept-c"],
+            "procedure_grondslag": {"wettelijk_pct": 80, "praktijk_pct": 20, "motivering": "T"},
+            "stappen": [{"nr": 1, "titel": "S", "grondslag": "[[a]]"}],
+        }
+        md = render_competentie(competentie)
+        # Laatste wikilink mag niet gevolgd worden door ` · ` voor newline
+        assert "[[concept-c]] · " not in md, "trailing separator detected"
+        assert "[[concept-c]]" in md
+
     def test_geen_beslisboom_in_competentie(self) -> None:
         """Beslisboom-blok wordt NIET gerenderd in competentie-fiche (ADR-010 §C.1)."""
         from tools.leermateriaal.render_competentie_fiche import render_competentie

@@ -115,6 +115,24 @@ Quartz-callouts (`> [!type]`) zijn de visuele drager voor "pedagogische kruimels
 - Niet-collapsibele inline-callouts (breadcrumb-style) blijven tot maximaal 1 regel
 - Geen geneste callouts (bv. valkuil binnen voorbeeld) — splits in twee aparte callouts
 
+### Jinja2-template-discipline (2026-05-16)
+
+Quality-pass na Sessie 4 onthulde een terugkerend patroon van rendering-bugs door het samenspel van Jinja2 `trim_blocks=True` (zie `tools/leermateriaal/lib/jinja_env.py`) en CommonMark blockquote-lazy-continuation. Discipline-regels voor alle templates in `tools/leermateriaal/templates/`:
+
+1. **Twee blank lines tussen callout en volgende blok** — `trim_blocks` eet de newline na een `{% endif %}` of `{% endfor %}` op. Eén bron-blank-line wordt dus één output-newline, wat Quartz/CommonMark als lazy-continuation behandelt: de volgende paragraaf wordt opgenomen in de callout. **Vereist**: twee bron-blank-lines tussen `> [!type]`-callout en wat erna komt.
+
+2. **Twee blank lines binnen `{% for %}`-loops** met opeenvolgende callouts (bv. valkuilen, vergelijkingsparen) — zelfde oorzaak: één blank-line tussen iteraties wordt na trim één newline, dus consecutive callouts mergden in één blokquote. **Vereist**: twee bron-blank-lines aan het einde van de loop-body.
+
+3. **Geen geneste callouts** — Quartz rendert `> > [!type]` niet als geneste expandable; splits in twee parallelle callouts.
+
+4. **`> `-prefix op elke regel binnen een callout** — `{{ tekst | indent(2) }}` is FOUT voor callout-content (2 spaces breken eruit). Gebruik `{{ tekst | replace('\n', '\n> ') }}` om elke regel als blockquote-content te houden.
+
+5. **`eerste_zin`-filter i.p.v. `.split('.')[0]`** voor callout-titels — `.split('.')` brak op Belgische €-bedragen (€ 1.600.000) en juridische afkortingen (WVV art. 1:26). De `eerste_zin`-filter (in `jinja_env.py`) is duizendtal- en afkorting-veilig.
+
+6. **Loop-separators met `loop.last`-check** — `[[X]] · {% endfor %}` produceert een dangling ` · ` aan het einde. Gebruik altijd `{% if not loop.last %} · {% endif %}` of het Jinja `join`-filter.
+
+7. **Render-output-bescherming** — `render_minicursus.py` overschrijft geen bestaande minicursus.md wanneer die geen `<!-- TODO: Opus-glue` placeholders meer bevat (Opus-glue is dan al ingevuld). Override via `--forceer`-flag.
+
 Render-implementatie in `tools/leermateriaal/templates/partials/*.md.j2` — wijzigingen aan deze conventie vereisen template-aanpassing + tests in `tests/test_leermateriaal_render.py`.
 
 Verwijzingen: ADR-007 §schema 1.4 (stap-blok + bouwsteen-blok + formule-blok + edges-types + node_type synthese + cast-conventie + voorbeeld-minimum); ADR-008 §14–17.
