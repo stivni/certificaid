@@ -444,6 +444,87 @@ ervan uit dat `matches/latest.json` synchroon is met de huidige
 trust-state. Een hand-geschreven trust-promotie zonder `--refresh` is
 een proces-fout, geen geldige tussenstand.
 
+### 9.1 Matches-store — delta-driven SQLite met state-fingerprints
+
+**Probleem**: de huidige `match_bronnen.py` berekent bij elke run een volledige cosine-matrix van ~1.500 anchors × ~21.860 chunks (~33M ops) en herschrijft `matches/latest.json` integraal. Bij één toegevoegde of getrustte bron met ~200 chunks is dat 100× te veel werk — en blokkeert het refresh-gate-flows in praktijk uren-lang. Bovendien is een herschreven JSON-blob niet selectief te updaten zonder de hele file te herschrijven.
+
+**Beslissing**: vervang `matches/latest.json` door **`data/extractie/matches.sqlite3`** met state-fingerprints per rij, en herschrijf `match_bronnen.py` als delta-driven script dat de diff tussen actuele state en SQLite afleidt. Principe: correct + robuust > snel & afwijkende paden.
+
+**Schema**:
+
+```sql
+CREATE TABLE matches (
+    anchor_id           TEXT NOT NULL,
+    chunk_id            TEXT NOT NULL,
+    score               REAL NOT NULL,
+    in_bundle           INTEGER NOT NULL,    -- 0/1, top-margin band
+    chunk_sha           TEXT NOT NULL,       -- chunk-sha bij match-tijd
+    anchor_vector_hash  TEXT NOT NULL,       -- anchor-vector-hash bij match-tijd
+    matched_at          TEXT NOT NULL,       -- ISO8601 UTC
+    PRIMARY KEY (anchor_id, chunk_id)
+);
+CREATE INDEX idx_matches_chunk         ON matches(chunk_id);
+CREATE INDEX idx_matches_anchor_bundle ON matches(anchor_id, in_bundle);
+```
+
+`chunk_sha` en `anchor_vector_hash` zijn **state-fingerprints**: bij elke run vergelijkt het script de fingerprints met de actuele ChromaDB-shas en anchors.json-vectorhashes. Mismatch → rij is stale, wordt verwijderd en opnieuw berekend.
+
+**Delta-algoritme** (één draaiing, ongeacht trigger):
+
+```
+huidig_chunks  = {chunk_id: chunk_sha} uit ChromaDB
+huidige_anchors = {anchor_id: vector_hash} uit anchors.json
+
+# Diff bepalen
+chunks_weg     = SELECT chunk_id WHERE chunk_id NOT IN huidig_chunks
+chunks_nieuw   = huidig_chunks.keys() - SELECT DISTINCT chunk_id
+chunks_stale   = SELECT chunk_id WHERE chunk_sha != huidig_chunks[chunk_id]
+
+anchors_weg    = SELECT anchor_id WHERE anchor_id NOT IN huidige_anchors
+anchors_nieuw  = huidige_anchors.keys() - SELECT DISTINCT anchor_id
+anchors_stale  = SELECT anchor_id WHERE anchor_vector_hash != huidige_anchors[anchor_id]
+
+# Verwijderen
+DELETE FROM matches WHERE chunk_id  IN chunks_weg  ∪ chunks_stale
+DELETE FROM matches WHERE anchor_id IN anchors_weg ∪ anchors_stale
+
+# Herberekenen
+for chunk_id in chunks_nieuw ∪ chunks_stale:
+    embedding = ChromaDB.get(chunk_id, include='embeddings')
+    scores    = anchor_matrix @ embedding         # ~1.500 cosines per chunk
+    INSERT rijen waar score ≥ floor
+
+for anchor_id in anchors_nieuw ∪ anchors_stale:
+    vector = anchors.json[anchor_id].vector
+    scores = chunk_matrix @ vector                # ~21K cosines per anchor (eerstwerk)
+    INSERT rijen waar score ≥ floor
+
+# Strict re-rank per geraakte anchor
+for anchor_id in unieke_geraakte_anchors:
+    top1 = MAX(score) WHERE anchor_id = ?
+    UPDATE matches SET in_bundle = (score >= MAX(floor, top1 - margin))
+```
+
+**Vijf event-typen die het algoritme zonder triggers afhandelt**:
+
+| Event | Detectie | Actie |
+|---|---|---|
+| Chunk toegevoegd (nieuwe bron / nieuw-trusted) | `chunk_id ∈ chunks_nieuw` | cosine tegen alle anchors → insert |
+| Chunk verwijderd (bron verwijderd / detrust) | `chunk_id ∈ chunks_weg` | `DELETE WHERE chunk_id = ?` |
+| Chunk inhoud gewijzigd (her-ETL) | `chunk_sha != huidige_sha` | als verwijderd + nieuw |
+| Anchor toegevoegd (examenprogramma-update) | `anchor_id ∈ anchors_nieuw` | cosine tegen alle chunks → insert |
+| Anchor-vector veranderd (tekst-rewrite / model-upgrade) | `vector_hash != huidige_hash` | `DELETE WHERE anchor_id = ?` + opnieuw |
+
+**Robuustheidsgevolg**: ook als refresh-gate niet wordt aangeroepen — bv. iemand muteert chunks via een omweg of het indexerproces crasht halverwege — vangt de volgende run het op via de fingerprint-vergelijking. Geen blind vertrouwen op trigger-discipline.
+
+**Geen migratie**: bestaande `matches/latest.json` wordt verlaten. Bij eerste run is de SQLite leeg → alle chunks vallen in `chunks_nieuw` → algoritme vult incrementeel. Eerstwerk = volledige matrix (~33M ops in numpy ≈ seconden, niet uren — bge-m3-laden en niet-gebatchte numpy waren de oude bottlenecks). Volgende runs zijn delta.
+
+**Geen aparte `--rebuild-all`-mode**: als massa anchor-vectoren stale worden (model-upgrade) handelt het algoritme dat correct af via `anchors_stale`. Trage een-keer-gebeurtenis acceptabel boven een afwijkend pad dat zelden gebruikt wordt en sneller stuk gaat.
+
+**Embedding-source-of-truth blijft ChromaDB**: SQLite is alleen matches-store. Chunk-embeddings worden batched opgehaald via `collection.get(ids=[...], include=['embeddings'])` tijdens herberekening. Geen embedding-duplicatie.
+
+**Consumer-aanpassing**: `tools/extractie/export_bundle.py` en downstream consumers lezen niet meer uit `matches/latest.json` maar via een query-helper (`tools/lib/matches_store.py`) die de SQLite leest. Top-margin-bundle per anchor → `SELECT chunk_id, score FROM matches WHERE anchor_id = ? AND in_bundle = 1`.
+
 ## Output-contract per fase (testbaarheid)
 
 Elke fase produceert een testbaar artefact:
