@@ -254,6 +254,60 @@ def duplicate_check(
     return _local_duplicate_check(naam, resolved_path, threshold, top_n)
 
 
+def delete_concept(
+    concept_id: str,
+    chroma_path: str | None = None,
+) -> bool:
+    """
+    Verwijder één concept-id uit de `concepten`-collection.
+
+    Probeert de daemon; valt terug op in-process bij daemon-downtime.
+
+    Returns:
+        True als verwijderd, False als niet gevonden in collection.
+
+    Raises:
+        RuntimeError: onherstelbare fout bij verwijdering
+    """
+    resolved_path = chroma_path or str(ROOT / "data" / "rag" / "main")
+    if not Path(resolved_path).is_absolute():
+        resolved_path = str(ROOT / resolved_path)
+
+    resultaat = _post("delete-concept", {
+        "concept_id": concept_id,
+        "chroma_path": resolved_path,
+    })
+    if resultaat is not None:
+        return resultaat.get("ok", False)
+
+    # In-process fallback
+    return _local_delete_concept(concept_id, resolved_path)
+
+
+def _local_delete_concept(concept_id: str, chroma_path: str) -> bool:
+    """Fallback: concept verwijderen zonder daemon (direct ChromaDB-toegang)."""
+    logger.warning(
+        "Daemon niet beschikbaar — in-process delete voor %s", concept_id
+    )
+    from pathlib import Path as _Path
+    try:
+        import chromadb  # type: ignore
+        client = chromadb.PersistentClient(path=chroma_path)
+        try:
+            collectie = client.get_collection("concepten")
+        except Exception:
+            return False  # collectie bestaat niet → concept bestaat ook niet
+
+        bestaand = collectie.get(ids=[concept_id], include=[])
+        if not bestaand.get("ids"):
+            return False  # niet gevonden
+        collectie.delete(ids=[concept_id])
+        return True
+    except Exception as exc:
+        logger.error("In-process delete mislukt voor %s: %s", concept_id, exc)
+        return False
+
+
 def index_concept(
     record: dict,
     chroma_path: str | None = None,
