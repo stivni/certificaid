@@ -45,35 +45,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 1e3b30b6-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:39:00Z'
+  generated_at: '2026-05-16T23:55:21Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:26:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: unclosed ** in voetnoot 55 (regel 484) - ETL-artefact bij verwerking van een boekverwijs in cursief.'
+    confirmed_at: '2026-05-16T23:58:49Z'
+    confirmed_by: cbn-rerun-2026-05-17
+    rationale: "Re-run 2026-05-17: D4 unclosed ** in voetnoot 55 ('Succursales … België **\"') blijft staan — het asterisk-paar zit rond een Frans woord met afsluitend dubbel-aanhalingsteken, nog niet door _cleanup_markdown gevangen."
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260512-233938
-      run_at: '2026-05-12T23:39:43Z'
-      heading_count: 39
-      max_section_chars: 22466
-      file_size_chars: 65573
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:26:31Z'
-      rationale: 'D4: unclosed ** in voetnoot 55 (regel 484) - ETL-artefact bij verwerking van een boekverwijs in cursief.'
-      concrete_problemen:
-        - regel: 484
-          categorie: D4
-          type: unclosed-bold
-          voorbeeld: '[^55]: ...Succursales de sociétés étrangères en Belgique **"'
 ---
 # CBN-advies 2022/15 – Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)
 

@@ -10,7 +10,7 @@ norm: ISA 706 (herzien) — Paragrafen ter benadrukking van bepaalde aangelegenh
   en paragrafen inzake overige aangelegenheden in de controleverklaring van de onafhankelijke
   auditor
 provenance:
-  generated_at: '2026-05-16T19:30:12Z'
+  generated_at: '2026-05-17T00:03:11Z'
   inputs:
   - id: https://www.ibr-ire.be/docs/default-source/nl/documents/regelgeving-en-publicaties/rechtsleer/normen-en-aanbevelingen/isa-s/nieuwe-en-herziene-isa-s/new-and-revised-isas-2017-update-24062019/isa-706-(herzien)_nl_2023.pdf
     sha256: 0b233378b5530942ef6ff2a047622e4445e8c6ec10323a2ed06f0d9ee190a7d6
@@ -19,23 +19,20 @@ provenance:
   stale_reason: null
   tooling:
     model: null
-    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5)
+    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5) + tools/etl/apply_isa_transformers.py
     pipeline_version: '1.0'
     prompt_version: null
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: pymupdf-conversie via tools/download/scrape_ibr_isa.py extraheerde
-      tekst lineair zonder structurele heading-injectie (0 ##-headings in body). Page-footers
-      ('ALGEHELE DOELSTELLINGEN ... ISA 200 NBA-IBR 2022 N/M Originele bron: Handbook ... Versie
-      2023') repeteren ~elke pagina inline. Paragraph-numbers ('1.', '2.') staan op aparte
-      regels van hun body-tekst, en bullets ('• item') zijn losgekoppeld van hun bullet-marker.
-      RAG-chunking faalt zonder heading-grenzen — ETL-fix nodig: inject_headings_isa +
-      strip_isa_page_footers transformers.
+    confirmed_at: '2026-05-17T00:04:00Z'
+    confirmed_by: subagent-isa-transformers-2026-05-17
     layer1: null
     layer2: null
+    rationale: 'QA-pass 2026-05-17: post-strip_isa_page_footers + inject_headings_isa:
+      0 NBA-IBR page-footer regels in body en ≥7 ##-headings (Inleiding, Doelstelling(en),
+      Definities, Vereisten, Toepassingsgerichte teksten, Ingangsdatum, Bijlage).
+      Sentence-flow visueel intact; RAG-chunking nu structureel ankerbaar. Promoted
+      naar trusted.'
+    status: trusted
 status: beschikbaar
 tags:
 - ISA
@@ -67,18 +64,6 @@ paragrafen inzake overige
 aangelegenheden in de 
 controleverklaring van de 
 onafhankelijke auditor
-
-PARAGRAFEN TER BENADRUKKING VAN BEPAALDE AANGELEGENHEDEN EN PARAGRAFEN INZAKE OVERIGE AANGELEGENHEDEN IN DE 
-CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR  
- 
-ISA 706 (herzien) 
-NBA-IBR 2022 
- 2/18 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Over de IAASB 
  
 Copyright IFAC 
@@ -123,17 +108,17 @@ deze normen (voor de verslagperioden die op of na 15 december aanvangen).
  
 INHOUDSOPGAVE 
 Paragraaf 
-Inleiding  
+## Inleiding
 Toepassingsgebied van deze ISA  ............................................................................................. 1-4 
 Ingangsdatum  ............................................................................................................................... 5 
 Doelstelling .................................................................................................................................. 6 
 Definities ...................................................................................................................................... 7 
-Vereisten  
+## Vereisten
 Paragrafen ter benadrukking van bepaalde aangelegenheden in de  
 controleverklaring ....................................................................................................................... 8-9 
 Paragrafen inzake overige aangelegenheden in de controleverklaring  ................................ 10-11 
 Communicatie met de met governance belaste personen  ......................................................... 12 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 Paragrafen ter benadrukking van bepaalde aangelegenheden in de  
 controleverklaring .................................................................................................................. A1-A3 
 Paragrafen inzake overige aangelegenheden in de controleverklaring  ............................... A4-A6 
@@ -144,36 +129,24 @@ De plaats van paragrafen ter benadrukking van bepaalde aangelegenheden
 en paragrafen inzake overige aangelegenheden in de controleverklaring ....................... A16-A17 
 Communicatie met de met governance belaste personen  ....................................................... A18 
  
-Bijlage 1: Lijst van ISA’s die vereisten voor paragrafen ter benadrukking van bepaalde 
+## Bijlage 1: Lijst van ISA’s die vereisten voor paragrafen ter benadrukking van bepaalde
 aangelegenheden bevatten 
-Bijlage 2: Lijst van ISA’s die vereisten voor paragrafen inzake overige aangelegenheden bevatten 
-Bijlage 3: Voorbeelden van een controleverklaring met een sectie Kernpunten van de controle, een 
+## Bijlage 2: Lijst van ISA’s die vereisten voor paragrafen inzake overige aangelegenheden bevatten
+## Bijlage 3: Voorbeelden van een controleverklaring met een sectie Kernpunten van de controle, een
 paragraaf ter benadrukking van bepaalde aangelegenheden, en een paragraaf inzake overige 
 aangelegenheden 
-Bijlage 4: Voorbeelden van controleverklaring met een oordeel met beperking als gevolg van een 
+## Bijlage 4: Voorbeelden van controleverklaring met een oordeel met beperking als gevolg van een
 afwijking van het van toepassing zijnde stelsel inzake financiële verslaggeving, en met een 
 paragraaf ter benadrukking van aangelegenheden
-
-PARAGRAFEN TER BENADRUKKING VAN BEPAALDE AANGELEGENHEDEN EN PARAGRAFEN INZAKE OVERIGE AANGELEGENHEDEN IN DE 
-CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR  
- 
-ISA 706 (herzien) 
-NBA-IBR 2022 
- 4/18 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 International Standard on Auditing (ISA) 706 (herzien), Paragrafen ter benadrukking van bepaalde 
 aangelegenheden en paragrafen inzake overige aangelegenheden in de controleverklaring van de 
 onafhankelijke auditor, moet worden gelezen in samenhang met ISA 200, Algehele doelstellingen 
 van de onafhankelijke auditor, alsmede het uitvoeren van een controle overeenkomstig de 
 International Standards on Auditing.
 
-Inleiding 
+## Inleiding
  
-Toepassingsgebied van deze ISA 
+## Toepassingsgebied van deze ISA
   
 1. 
 Deze International Standard on Auditing (ISA) behandelt de opname van aanvullende informatie 
@@ -206,13 +179,13 @@ paragrafen ter benadrukking van bepaalde aangelegenheden of paragrafen inzake ov
 aangelegenheden in de controleverklaring op te nemen. In die omstandigheden zijn de vereisten 
 in deze ISA  met betrekking tot de vorm van dergelijke paragrafen van toepassing (Zie par. A4). 
  
-Ingangsdatum 
+## Ingangsdatum
   
 5. 
 Deze ISA is van toepassing op controles van financiële overzichten over verslagperioden die op 
 of na 15 december 2016 worden afgesloten.  
  
-Doelstelling 
+## Doelstelling
  
 6. 
 Gezien het gevormde oordeel, bestaat de doelstelling van de auditor, eruit, indien hij dit op grond 
@@ -228,7 +201,7 @@ Naargelang passend, elke andere aangelegenheid die relevant is voor het begrip v
 gebruikers van de controle, de verantwoordelijkheden van de auditor of de 
 controleverklaring. 
  
-Definities 
+## Definities
  
 7. 
 Voor de toepassing van de ISA’s en hebben de volgende termen de hierna weergegeven 
@@ -245,18 +218,6 @@ ISA 701, Het communiceren van kernpunten van de controle in de controleverklarin
 ISA 570 (herzien), Continuïteit. 
 3  
 ISA 720 (herzien), De verantwoordelijkheden van de auditor met betrekking tot andere informatie.
-
-PARAGRAFEN TER BENADRUKKING VAN BEPAALDE AANGELEGENHEDEN EN PARAGRAFEN INZAKE OVERIGE AANGELEGENHEDEN IN DE 
-CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR  
- 
-ISA 706 (herzien) 
-NBA-IBR 2022 
- 6/18 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 oordeelsvorming van de auditor, dermate belangrijk is dat ze fundamenteel is voor het 
 begrip van gebruikers van de financiële overzichten; 
 (b) 
@@ -266,7 +227,7 @@ overzichten gepresenteerde of toegelichte aangelegenheden die, op grond van de
 oordeelsvorming van de auditor, relevant is voor het begrip van gebruikers van de controle, 
 de verantwoordelijkheden van de auditor of de controleverklaring. 
  
-Vereisten 
+## Vereisten
  
 Paragrafen ter benadrukking van bepaalde aangelegenheden in de controleverklaring 
  
@@ -328,18 +289,6 @@ bepaalde aangelegenheden of een paragraaf inzake overige aangelegenheden zal opn
  
 4  
 ISA 705 (herzien), Aanpassingen van het oordeel in de controleverklaring van de onafhankelijke auditor.
-
-PARAGRAFEN TER BENADRUKKING VAN BEPAALDE AANGELEGENHEDEN EN PARAGRAFEN INZAKE OVERIGE AANGELEGENHEDEN IN DE 
-CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR  
- 
-ISA 706 (herzien) 
-NBA-IBR 2022 
- 7/18 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 dient hij deze verwachting en de formulering van deze paragraaf aan de met governance 
 belaste personen mee te delen. (Zie par. A18) 
  
@@ -347,7 +296,7 @@ belaste personen mee te delen. (Zie par. A18)
 **** 
  
  
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
  
 De relatie tussen paragrafen ter benadrukking van bepaalde aangelegenheden en kernpunten 
 van de controle in de controleverklaring (Zie par. 2, 8(b)) 
@@ -403,18 +352,6 @@ bij wet- of regelgeving is voorgeschreven.
  
 5  
 ISA 260 (herzien), Communicatie met de met governance belaste personen, paragraaf 16.
-
-PARAGRAFEN TER BENADRUKKING VAN BEPAALDE AANGELEGENHEDEN EN PARAGRAFEN INZAKE OVERIGE AANGELEGENHEDEN IN DE 
-CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR  
- 
-ISA 706 (herzien) 
-NBA-IBR 2022 
- 8/18 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 • 
 De gebruikers erop attenderen dat de financiële overzichten zijn opgesteld in 
 overeenstemming met een stelsel voor bijzondere doeleinden. 
@@ -500,18 +437,6 @@ ISA 560, paragraaf 6.
 ISA 570 (herzien), paragrafen 22-23. 
 9 
 ISA 260 (herzien), paragraaf 15.
-
-PARAGRAFEN TER BENADRUKKING VAN BEPAALDE AANGELEGENHEDEN EN PARAGRAFEN INZAKE OVERIGE AANGELEGENHEDEN IN DE 
-CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR  
- 
-ISA 706 (herzien) 
-NBA-IBR 2022 
- 9/18 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 kernpunten van de controle zijn vanwege de wijze waarop kernpunten van de controle zijn 
 gedefinieerd in ISA 701. Wet-of regelgeving kunnen echter van de auditor vereisen om te 
 communiceren over aangelegenheden met betrekking tot planning en reikwijdte in de 
@@ -570,19 +495,6 @@ partijen.
  
 10  Zie paragraaf 13(b)(ii) van ISA 705 (herzien) voor een bespreking van deze omstandigheid. 
 11  ISA 700 (herzien), Het vormen van een oordeel en het rapporteren over financiële overzichten, paragraaf 43-45.
-
-PARAGRAFEN TER BENADRUKKING VAN BEPAALDE AANGELEGENHEDEN EN PARAGRAFEN INZAKE OVERIGE AANGELEGENHEDEN IN DE 
-CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR  
- 
-ISA 706 (herzien) 
-NBA-IBR 2022 
- 10/18 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Het in de controleverklaring opnemen van een paragraaf inzake overige aangelegenheden 
  
 A15. De inhoud van een paragraaf inzake overige aangelegenheden laat duidelijk zien dat een 
@@ -644,18 +556,6 @@ worden opgenomen als een aparte sectie na de Controleverklaring over de controle
 12  Bijvoorbeeld, zoals vereist door ISA 210, Het overeenkomen van de voorwaarden van controleopdrachten, paragraaf 19 en 
 ISA 800, Bijzondere overwegingen – controles van financiële overzichten die zijn opgesteld in overeenstemming met stelsels 
 voor bijzondere doeleinden, paragraaf 14.
-
-PARAGRAFEN TER BENADRUKKING VAN BEPAALDE AANGELEGENHEDEN EN PARAGRAFEN INZAKE OVERIGE AANGELEGENHEDEN IN DE 
-CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR  
- 
-ISA 706 (herzien) 
-NBA-IBR 2022 
- 11/18 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 de financiële overzichten en de Verklaring betreffende overige op grond van wet- en 
 regelgeving gestelde vereisten 
  
@@ -676,20 +576,7 @@ aangelegenheden met betrekking tot een bepaalde aangelegenheid in de controlever
 elke latere opdracht opnieuw wordt opgenomen, kan de auditor bepalen dat het niet nodig is deze 
 informatie bij elke opdracht te herhalen, tenzij anderszins vereist is door wet- of regelgeving om 
 dit te doen.
-
-PARAGRAFEN TER BENADRUKKING VAN BEPAALDE AANGELEGENHEDEN EN PARAGRAFEN INZAKE OVERIGE AANGELEGENHEDEN IN DE 
-CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR  
- 
-ISA 706 (herzien) 
-NBA-IBR 2022 
- 12/18 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
-Bijlage 1  
+## Bijlage 1
 (Zie par. 4, A4) 
  
 Lijst van ISA’s die vereisten voor paragrafen ter benadrukking van bepaalde 
@@ -707,20 +594,7 @@ ISA 560, Gebeurtenissen na de einddatum van de verslagperiode – paragraaf 12(b
 • 
 ISA 800, Bijzondere overwegingen – Controles van financiële overzichten die zijn opgesteld in 
 overeenstemming met stelsels voor bijzondere doeleinden – paragraaf 14.
-
-PARAGRAFEN TER BENADRUKKING VAN BEPAALDE AANGELEGENHEDEN EN PARAGRAFEN INZAKE OVERIGE AANGELEGENHEDEN IN DE 
-CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR  
- 
-ISA 706 (herzien) 
-NBA-IBR 2022 
- 13/18 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
-Bijlage 2  
+## Bijlage 2
 (Zie par. 4) 
  
 Lijst van ISA’s die vereisten voor paragrafen inzake overige aangelegenheden 
@@ -736,19 +610,7 @@ ISA 560, Gebeurtenissen na de einddatum van de verslagperiode – paragraaf 12(b
 • 
 ISA 710, Ter vergelijking opgenomen informatie – Overeenkomstige cijfers en vergelijkende 
 financiële overzichten – paragraaf 13-14, 16-17 en 19
-
-PARAGRAFEN TER BENADRUKKING VAN BEPAALDE AANGELEGENHEDEN EN PARAGRAFEN INZAKE OVERIGE AANGELEGENHEDEN IN DE 
-CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR  
- 
-ISA 706 (herzien) 
-NBA-IBR 2022 
- 14/18 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
-Bijlage 3 
+## Bijlage 3
 (Zie par. A17) 
  
 Voorbeeld van een controleverklaring waarin een paragraaf ter benadrukking  
@@ -824,18 +686,6 @@ Verklaring over de controle van de financiële overzichten14
 auditors van groepsonderdelen).  
 14  De subtitel “Verklaring over de controle van de financiële overzichten” is niet noodzakelijk wanneer de tweede subtitel 
 “Verklaring betreffende overige door de wet- of regelgeving gestelde eisen” niet van toepassing is. )
-
-PARAGRAFEN TER BENADRUKKING VAN BEPAALDE AANGELEGENHEDEN EN PARAGRAFEN INZAKE OVERIGE AANGELEGENHEDEN IN DE 
-CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR  
- 
-ISA 706 (herzien) 
-NBA-IBR 2022 
- 15/18 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Oordeel 
  
 Wij hebben de financiële overzichten van vennootschap ABC (de Vennootschap) gecontroleerd, die 
@@ -885,18 +735,6 @@ overzichten en de controleverklaring over deze overzichten”]
 15  Zoals vermeld in paragraaf A16 kan een paragraaf ter benadrukking van de aangelegenheid worden gepresenteerd ofwel net 
 voor dan wel net na de sectie “Kernpunten van de controle” gebaseerd op de professionele oordeelsvorming van de auditor 
 met betrekking tot het relatieve belang van de informatie vervat in de paragraaf ter benadrukking van de aangelegenheid.
-
-PARAGRAFEN TER BENADRUKKING VAN BEPAALDE AANGELEGENHEDEN EN PARAGRAFEN INZAKE OVERIGE AANGELEGENHEDEN IN DE 
-CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR  
- 
-ISA 706 (herzien) 
-NBA-IBR 2022 
- 16/18 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Verantwoordelijkheden van het management en de met governance van de financiële 
 overzichten belaste personen16 
  
@@ -922,19 +760,7 @@ rechtsgebied]
 16  In deze voorbeelden van controleverklaringen kunnen de termen ‘management’ en ‘de met governance belaste personen’ 
 worden vervangen door andere bewoordingen die passend zijn in de context van het wettelijke kader van het specifieke 
 rechtsgebied.
-
-PARAGRAFEN TER BENADRUKKING VAN BEPAALDE AANGELEGENHEDEN EN PARAGRAFEN INZAKE OVERIGE AANGELEGENHEDEN IN DE 
-CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR  
- 
-ISA 706 (herzien) 
-NBA-IBR 2022 
- 17/18 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
-Bijlage 4 
+## Bijlage 4
 (Zie par. A8) 
  
 Voorbeeld van een controleverklaring met een oordeel met beperking als gevolg 
@@ -1007,18 +833,6 @@ en niet-gerealiseerde resultaten, het mutatieoverzicht van het eigen vermogen en
  
 17  De subtitel “Verklaring over de controle van de financiële overzichten” is niet nodig in de omstandigheden dat de tweede 
 subtitel “Verklaring betreffende overige door wet- of regelgeving gestelde eisen” niet van toepassing is.
-
-PARAGRAFEN TER BENADRUKKING VAN BEPAALDE AANGELEGENHEDEN EN PARAGRAFEN INZAKE OVERIGE AANGELEGENHEDEN IN DE 
-CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR  
- 
-ISA 706 (herzien) 
-NBA-IBR 2022 
- 18/18 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 kasstroomoverzicht voor het boekjaar afgesloten op die datum, evenals de toelichting met inbegrip van 
 een overzicht van de belangrijke grondslagen voor financiële verslaggeving. 
 Uitgezonderd de effecten van de aangelegenheid beschreven in de sectie ‘Basis voor ons oordeel met 

@@ -191,6 +191,8 @@ def extract(cfg: dict, source_name: str) -> str:
     body, _fixes = fix_norm_artefacts(body)
 
     # 3. Promote bold-titels en structuurlabels naar ##-headings
-    body, _n_headings = inject_norm_headings(body)
+    # filename meegeven zodat file-specifieke overrides voor TOC-glitches
+    # (bv. ITAA-norm-aww-geconsolideerd, sectie 4) kunnen aanslaan.
+    body, _n_headings = inject_norm_headings(body, filename=f"{source_name}.md")
 
     return body

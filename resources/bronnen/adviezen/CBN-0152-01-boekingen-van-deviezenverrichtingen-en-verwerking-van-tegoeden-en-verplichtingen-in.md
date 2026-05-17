@@ -59,59 +59,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 1e3b30b6-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:37:52Z'
+  generated_at: '2026-05-16T23:55:05Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:27:07Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere categorieën aangetroffen. A3: regels 152-153 bevatten een tweede volledige TOC als doorlopende tekst met '--'-separatoren in plaats van de gestructureerde genummerde TOC op regels 86-149 — dit is een dubbel TOC-artefact. A9: 'niet¬monetaire' (U+00AC NOT SIGN) op regels 199 en 1167 i.p.v. een gewone koppelteken. G3: op regel 288 staat '[^6]' als alleenstaande regel zonder volgend footnote-definitie-blok (de definitie staat verderop bij de eindnoten), wat in de body als orphaned inline footnote-ref verschijnt. D4: 'Bank USA' op regel 450 i.p.v. 'Bank USD' zoals consequent elders gebruikt — inconsistentie die een OCR/scrape-fout suggereert. C3: journaalboeking op regel 624 zonder pipe-table ('493 Over te dragen opbrengsten / aan 756 ...'), terwijl alle andere boekingen wél als tabel zijn opgemaakt. Tabel op regels 1087-1094 heeft inconsistente celtellingen (dubbele lege cellen als pseudo-kolom-alignment)."
+    status: trusted
+    confirmed_at: '2026-05-16T23:58:49Z'
+    confirmed_by: cbn-rerun-2026-05-17
+    rationale: "Re-run 2026-05-17: 'niet¬monetaire' / 'nietmonetaire' opgelost. Document heeft 14 ## + 14 ####; structuur en typografie nu navigeerbaar."
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260512-233938
-      run_at: '2026-05-12T23:39:40Z'
-      heading_count: 49
-      max_section_chars: 16370
-      file_size_chars: 105762
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:27:07Z'
-      rationale: "Meerdere categorieën aangetroffen. A3: regels 152-153 bevatten een tweede volledige TOC als doorlopende tekst met '--'-separatoren in plaats van de gestructureerde genummerde TOC op regels 86-149 — dit is een dubbel TOC-artefact. A9: 'niet¬monetaire' (U+00AC NOT SIGN) op regels 199 en 1167 i.p.v. een gewone koppelteken. G3: op regel 288 staat '[^6]' als alleenstaande regel zonder volgend footnote-definitie-blok (de definitie staat verderop bij de eindnoten), wat in de body als orphaned inline footnote-ref verschijnt. D4: 'Bank USA' op regel 450 i.p.v. 'Bank USD' zoals consequent elders gebruikt — inconsistentie die een OCR/scrape-fout suggereert. C3: journaalboeking op regel 624 zonder pipe-table ('493 Over te dragen opbrengsten / aan 756 ...'), terwijl alle andere boekingen wél als tabel zijn opgemaakt. Tabel op regels 1087-1094 heeft inconsistente celtellingen (dubbele lege cellen als pseudo-kolom-alignment)."
-      concrete_problemen:
-        - regel: 152
-          categorie: A3
-          type: other
-          voorbeeld: -- ALGEMEEN -- DE OMREKENINGSKOERS -- VERRICHTINGEN WAARUIT...
-        - regel: 199
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: vermogensbestanddelen zijn niet¬monetaire posten
-        - regel: 1167
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: risico verbonden aan niet¬samenvallende vervaldagen
-        - regel: 288
-          categorie: G3
-          type: other
-          voorbeeld: '[^6]  (alleenstaande footnote-ref zonder body-context)'
-        - regel: 450
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: '| | 55 | Bank USA | 41.100 | | (i.p.v. Bank USD)'
-        - regel: 624
-          categorie: C3
-          type: pseudo-table
-          voorbeeld: 493 Over te dragen opbrengsten / aan 756 Diverse financiële opbrengsten
-        - regel: 1087
-          categorie: E2
-          type: other
-          voorbeeld: '| | | **Effect A (geldbelegging) ** | | **Effect B...** | (lege tussencellen als kolom-alignment)'
 ---
 # CBN-advies 152/1 - Boekingen van deviezenverrichtingen en verwerking van tegoeden en verplichtingen in deviezen in de jaarrekening
 

@@ -203,6 +203,244 @@ _PAT_F = re.compile(
 _VEREISTEN_MARKER = re.compile(r"\bVEREISTEN\b|\bTOEPASSINGSMODALITEITEN\b")
 
 
+# ─── TOC-parse + missing-section synthesis (two-column glitch fix) ───────────
+#
+# Sommige BeExcellent twee-kolom-PDFs (bv. ITAA-norm-aww-geconsolideerd)
+# verliezen tijdens NL-kolom-extractie de standalone "N. Titel"-regels voor
+# meerdere hoofdsecties. De subsecties "N.x." duiken dan op in de body zonder
+# voorafgaande heading. Patroon A vindt dan niets om te promoveren.
+#
+# De TOC zelf overleeft de extractie wél: regel "N." gevolgd door een
+# ALL-CAPS titel + dotted leader + paginanummer (bv.
+# "ORGANISATIE EN INTERNE CONTROLE -------- 5"). We parsen die op om een
+# canonieke {section_num: TitleCase}-map te bouwen en injecteren synthetisch
+# "N. <TitleCase>"-regels vóór de eerste "N.x."-subsectie als er nog geen
+# parent-heading was. Inline gegluede koppen ("7. Titel Body...") worden in
+# dezelfde pass gesplitst.
+#
+# Werkt zonder file-specifieke triggers: enige voorwaarde is dat de body
+# een TOC-blok bevat met ≥2 ``^N\.$`` standalone-regels.
+
+_TOC_NUM_LINE = re.compile(r"^([1-9][0-9]*)\.\s*$")
+# TOC-titel-regel: ALL-CAPS woorden, optioneel met spaties/leestekens,
+# afgesloten met dotted-leader (---- of ....) + paginanummer.
+_TOC_TITLE_LINE = re.compile(
+    r"^([A-ZÉÀÙÔÎÄËÏÖÜ][A-ZÉÀÙÔÎÄËÏÖÜ\s,\(\)/°'’\"-]{4,200}?)\s*[-.]{4,}\s*\d+\s*$"
+)
+
+
+def _to_title_case_nl(allcaps: str) -> str:
+    """Convert ALL-CAPS NL-titel naar zin-hoofdletter (eerste woord cap).
+
+    Behoudt accent-letters en functiewoorden in lowercase (van, de, het,
+    en, op, te, in, voor, ...). Geen full title-case omdat NL-conventie
+    alleen het eerste woord en eigennamen capitaliseert.
+    """
+    _LOW = {
+        "van", "de", "het", "een", "en", "of", "in", "op", "bij", "aan",
+        "voor", "tot", "met", "als", "uit", "over", "om", "naar", "te",
+        "per", "via", "na", "rond", "zonder", "dat", "die", "wat",
+        "ten", "ter",
+    }
+    words = allcaps.split()
+    out: list[str] = []
+    for idx, w in enumerate(words):
+        wl = w.lower()
+        # Eerste woord altijd cap, rest behoudt lowercase voor functiewoorden
+        if idx == 0:
+            out.append(wl[:1].upper() + wl[1:])
+        elif wl in _LOW:
+            out.append(wl)
+        else:
+            out.append(wl)
+    return " ".join(out)
+
+
+# Fallback voor sectie-titels die de NL-kolom-extractie volledig verliest
+# (lange titels die over twee regels wrapten in het PDF-original). Per
+# bestandsnaam: ``{section_num: TitleCase}``.
+#
+# Reden voor hardcoded fallback i.p.v. body-scan: zonder de TOC-regel zien
+# we alleen subsectie-titels in de body — die geven semantisch de verkeerde
+# scope ("Clientacceptatiebeleid" is een subsectie van "Waakzaamheid ...").
+# Een handmatig geverifieerde fallback is robuuster.
+_SECTION_TITLE_OVERRIDES: dict[str, dict[int, str]] = {
+    "ITAA-norm-aww-geconsolideerd.md": {
+        4: "Waakzaamheid ten aanzien van de cliënten en de verrichtingen",
+    },
+}
+
+
+def _extract_toc_section_titles(body: str) -> dict[int, str]:
+    """Parse de TOC-regio en lever ``{section_num: TitleCase}`` op.
+
+    Detecteert het patroon ``N.\\n<ALLCAPS titel> ------- <pagenr>`` waar de
+    titel-regel direct (zonder tussenliggende blanke regels) op de
+    nummer-regel volgt. Een blanke regel tussen ``N.`` en de eerstvolgende
+    tekst betekent dat de echte titel verloren is in de extractie (twee-
+    kolom-glitch); we noteren géén titel voor die sectie en laten een
+    eventuele override de gap vullen.
+
+    Stopt zodra niet-TOC regels komen na ≥2 succesvolle TOC-matches.
+    Retourneert lege dict als geen TOC herkend wordt.
+    """
+    lines = body.split("\n")
+    titles: dict[int, str] = {}
+
+    i = 0
+    n = len(lines)
+    while i < n:
+        m_num = _TOC_NUM_LINE.match(lines[i])
+        if m_num and i + 1 < n:
+            section_num = int(m_num.group(1))
+            # Titel-regel MOET direct volgen (geen blanke ertussen). Anders
+            # is de titel verloren in de twee-kolom-extractie.
+            next_line = lines[i + 1].strip()
+            if next_line:
+                m_title = _TOC_TITLE_LINE.match(next_line)
+                if m_title:
+                    raw_title = m_title.group(1).strip()
+                    titles[section_num] = _to_title_case_nl(raw_title)
+                    i += 2
+                    continue
+        i += 1
+
+    return titles
+
+
+def _split_inline_section_heading(
+    line: str, toc_titles: dict[int, str]
+) -> tuple[str, str] | None:
+    """Detecteer een inline gegluede sectie-kop ``N. Titel Body...``.
+
+    Retourneert ``(heading_line, body_rest)`` als de regel met een TOC-titel
+    begint en daarna nog body-tekst volgt. ``None`` als geen match.
+
+    Algoritme: probeer per N in toc_titles of de regel begint met
+    ``"N. " + <TOC-titel>``. Als de regel langer is dan dat prefix én
+    er volgt méér content, splits.
+    """
+    for num, title in toc_titles.items():
+        prefix = f"{num}. {title}"
+        if line.startswith(prefix):
+            rest = line[len(prefix):].lstrip()
+            if rest:
+                # Inline glue gevonden — splits op heading vs body-rest
+                return prefix, rest
+    return None
+
+
+# Subsectie-detectie: "N.x." of "N.x" of "N.x.y" aan begin van regel
+_SUBSECTION_RE = re.compile(r"^([1-9][0-9]*)\.[0-9]+(?:\.|\s|$)")
+
+# Standalone parent-heading: "N. Titel" aan begin van regel (zonder decimaalpunt)
+_PARENT_HEADING_RE = re.compile(r"^([1-9][0-9]*)\.\s+[A-ZÉÀÙÔÎ]")
+
+# Bijlage inline-glue: "BIJLAGE IV: Titel Body..." of "Bijlage IV. Titel Body..."
+# We grijpen het Romeins-numerieke gedeelte plus alles t/m de laatste "low-case
+# afsluit" en splitten daarna. Heuristiek: titel eindigt op een woord met een
+# zin-eindeteken óf op een titel-finale frase ("ter illustratie", "in overweging
+# te nemen", ...). Pragmatisch: titel is alles tot de eerste capital-letter-na-
+# spatie waar geen functiewoord aan voorafgaat.
+_BIJLAGE_INLINE_RE = re.compile(
+    r"^(?P<head>(?:Bijlage|BIJLAGE)\s+(?P<num>[IVX]+|[0-9]+)\s*[:\.]\s*"
+    r"(?P<title>[A-Za-zÉÀÙÔÎÄËÏÖÜéèàùôîïëüäö\s\(\)/,'’\"-]{3,90}?))"
+    r"\s+(?P<body>[A-ZÉÀÙÔÎ][a-z][^\n]*)$"
+)
+
+
+def _split_inline_bijlage_heading(line: str) -> tuple[str, str] | None:
+    """Detecteer een inline-gegluede Bijlage-kop ``BIJLAGE IV: Titel Body``.
+
+    Heuristiek: regel begint met ``Bijlage|BIJLAGE <NUM>: <Titel>`` waar
+    ``<Titel>`` korte Title-Case-frase is, gevolgd door een nieuwe zin
+    (``Capital + lowercase``).
+
+    Retourneert ``(heading_line, body_rest)`` of ``None``.
+    """
+    m = _BIJLAGE_INLINE_RE.match(line)
+    if not m:
+        return None
+    num = m.group("num")
+    title = m.group("title").strip()
+    body_rest = m.group("body").strip()
+    if not body_rest:
+        return None
+    # Normaliseer naar "Bijlage <NUM>. <Titel>" (consistent met Pattern D)
+    heading = f"Bijlage {num}. {title}"
+    return heading, body_rest
+
+
+def _inject_missing_section_anchors(body: str, toc_titles: dict[int, str]) -> str:
+    """Injecteer ``N. <Title>``-regels vóór de eerste ``N.x.``-subsectie
+    waarvan de parent-heading ontbreekt. Splits ook inline gegluede koppen
+    (zowel ``N. Titel Body`` als ``BIJLAGE IV: Titel Body``).
+
+    Werkt voor de N-N.x-fix alleen als ``toc_titles`` niet-leeg is; de
+    Bijlage-inline-split werkt altijd (geen TOC-afhankelijkheid).
+    """
+    lines = body.split("\n")
+    out: list[str] = []
+    seen_parent: set[int] = set()
+
+    for line in lines:
+        stripped = line.strip()
+
+        # 0. Bijlage inline-glue (werkt onafhankelijk van TOC)
+        bijlage_split = _split_inline_bijlage_heading(stripped)
+        if bijlage_split is not None:
+            heading_line, rest = bijlage_split
+            if out and out[-1].strip():
+                out.append("")
+            out.append(heading_line)
+            out.append("")
+            out.append(rest)
+            continue
+
+        # 1. Inline-glue check: regel begint met "N. <TocTitle> Body..."
+        split = _split_inline_section_heading(stripped, toc_titles)
+        if split is not None:
+            heading_line, rest = split
+            # Match het sectie-nummer voor seen_parent
+            m = re.match(r"^([1-9][0-9]*)\.", heading_line)
+            if m:
+                seen_parent.add(int(m.group(1)))
+            # Emit heading en body-rest als aparte regels
+            if out and out[-1].strip():
+                out.append("")
+            out.append(heading_line)
+            out.append("")
+            out.append(rest)
+            continue
+
+        # 2. Standalone parent-heading "N. Titel" — markeer als gezien
+        m_parent = _PARENT_HEADING_RE.match(stripped)
+        if m_parent and not re.match(r"^[1-9][0-9]*\.[0-9]", stripped):
+            seen_parent.add(int(m_parent.group(1)))
+            out.append(line)
+            continue
+
+        # 3. Subsectie "N.x." — check of parent gezien is
+        m_sub = _SUBSECTION_RE.match(stripped)
+        if m_sub:
+            section_num = int(m_sub.group(1))
+            if section_num in toc_titles and section_num not in seen_parent:
+                # Injecteer synthetic parent-heading
+                title = toc_titles[section_num]
+                synthetic = f"{section_num}. {title}"
+                if out and out[-1].strip():
+                    out.append("")
+                out.append(synthetic)
+                out.append("")
+                seen_parent.add(section_num)
+            out.append(line)
+            continue
+
+        out.append(line)
+
+    return "\n".join(out)
+
+
 def inject_headings(
     body: str,
     filename: str = "",
@@ -213,6 +451,19 @@ def inject_headings(
 
     use_bilingual: activeer Patroon F voor tweetalige NL/FR-normen
     """
+    # Pre-pass: TOC-parse + synthese van ontbrekende parent-headings +
+    # split inline gegluede Bijlage/Sectie-koppen. Lost de "two-column
+    # glitch" op waar sectie 2-4/6-10 in body-text verdwenen zijn na
+    # NL-kolom-extractie (ITAA-norm-aww-geconsolideerd).
+    toc_titles = _extract_toc_section_titles(body)
+    # Override-map: vul gaten waar de NL-kolom-extractie de TOC-titel
+    # volledig verloor (zie _SECTION_TITLE_OVERRIDES voor rationale).
+    overrides = _SECTION_TITLE_OVERRIDES.get(filename, {})
+    for num, title in overrides.items():
+        toc_titles.setdefault(num, title)
+    # Altijd runnen — de Bijlage-inline-split werkt zonder TOC.
+    body = _inject_missing_section_anchors(body, toc_titles)
+
     lines = body.split("\n")
     result: list[str] = []
     prev_blank = True   # begin van body telt als "na blanco"

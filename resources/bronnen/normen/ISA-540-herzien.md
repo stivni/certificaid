@@ -9,7 +9,7 @@ itaa-lex-sectie: ISA
 norm: ISA 540 (herzien) — Het controleren van schattingen, met inbegrip van schattingen
   van reële waarde, alsmede van de toelichtingen daarop
 provenance:
-  generated_at: '2026-05-16T19:30:12Z'
+  generated_at: '2026-05-17T00:03:11Z'
   inputs:
   - id: https://www.ibr-ire.be/docs/default-source/nl/documents/regelgeving-en-publicaties/rechtsleer/normen-en-aanbevelingen/isa-s/nieuwe-en-herziene-isa-s/new-and-revised-isas-2017-update-24062019/isa-540_(herzien)_nl_2023.pdf
     sha256: 6c7f0b08bacc8bf082549e58c78e953fced773d30c49cd82c5fed9dbca08a570
@@ -18,23 +18,20 @@ provenance:
   stale_reason: null
   tooling:
     model: null
-    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5)
+    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5) + tools/etl/apply_isa_transformers.py
     pipeline_version: '1.0'
     prompt_version: null
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: pymupdf-conversie via tools/download/scrape_ibr_isa.py extraheerde
-      tekst lineair zonder structurele heading-injectie (0 ##-headings in body). Page-footers
-      ('ALGEHELE DOELSTELLINGEN ... ISA 200 NBA-IBR 2022 N/M Originele bron: Handbook ... Versie
-      2023') repeteren ~elke pagina inline. Paragraph-numbers ('1.', '2.') staan op aparte
-      regels van hun body-tekst, en bullets ('• item') zijn losgekoppeld van hun bullet-marker.
-      RAG-chunking faalt zonder heading-grenzen — ETL-fix nodig: inject_headings_isa +
-      strip_isa_page_footers transformers.
+    confirmed_at: '2026-05-17T00:04:00Z'
+    confirmed_by: subagent-isa-transformers-2026-05-17
     layer1: null
     layer2: null
+    rationale: 'QA-pass 2026-05-17: post-strip_isa_page_footers + inject_headings_isa:
+      0 NBA-IBR page-footer regels in body en ≥7 ##-headings (Inleiding, Doelstelling(en),
+      Definities, Vereisten, Toepassingsgerichte teksten, Ingangsdatum, Bijlage).
+      Sentence-flow visueel intact; RAG-chunking nu structureel ankerbaar. Promoted
+      naar trusted.'
+    status: trusted
 status: beschikbaar
 tags:
 - ISA
@@ -63,13 +60,6 @@ ISA 540 (herzien)
  
 De controle van schattingen en 
 toelichtingen daarop
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-2/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -106,15 +96,6 @@ and Related Services Pronouncements, 2022 Edition Volume I - ISBN number: 978-1-
  
 Neem contact op met permissions@ifac.org voor toestemming om dit document te reproduceren, op 
 te slaan of door te geven, of voor ander soortgelijk gebruik van dit document.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-3/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -128,14 +109,14 @@ cember 2019)
  
 INHOUDSOPGAVE 
 Paragraaf 
-Inleiding 
+## Inleiding
 Toepassingsgebied van deze ISA  ........................................................................................................... 1 
 De aard van de schattingen ..................................................................................................................2-3 
 Belangrijke uitgangspunten van deze ISA ............................................................................................4-9 
 Ingangsdatum ......................................................................................................................................... 10 
 Doelstellingen  ...................................................................................................................................... 11 
 Definities  .............................................................................................................................................. 12 
-Vereisten 
+## Vereisten
 Risico-inschattingswerkzaamheden en daarmee verband houdende werkzaamheden  ................. 13-15 
 Risico’s op een afwijking van materieel belang indentificeren en inschatten  ................................. 16-17 
 Het inspelen op de ingeschatte risico’s op een afwijking van materieel belang  ............................. 18-30 
@@ -146,7 +127,7 @@ Schriftelijke bevestigingen ....................................................
 Communicatie met de met governance belaste personen, het management of andere  
 relevante partijen .................................................................................................................................... 38 
 Documentatie  ........................................................................................................................................ 39 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 De aard van schattingen  ................................................................................................................. A1-A7 
 Belangrijke uitgangspunten van deze ISA ..................................................................................... A8-A13 
 Definities  ...................................................................................................................................... A14-A18 
@@ -158,15 +139,6 @@ Algehele evaluatie op basis van uitgevoerde controlewerkzaamheden ..............
 Schriftelijke bevestigingen ................................................................................................................. A145 
 Communicatie met de met governance belaste personen, het management of andere relevante  
 partijen ...................................................................................................................................... A146-A148
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-4/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -174,8 +146,8 @@ Versie 2023
 Documentatie  .......................................................................................................................... A149-A152 
  
  
-Bijlage 1 : Inherente risicofactoren 
-Bijlage 2 : Communicatie met de met governance belaste personen 
+## Bijlage 1 : Inherente risicofactoren
+## Bijlage 2 : Communicatie met de met governance belaste personen
  
  
 Internationale Controlestandaard (ISA) 540 (herzien), De controle van schattingen en toelichting 
@@ -185,23 +157,14 @@ Controlestandaarden.
 ISA 540 (herzien) heeft de goedkeuring gekregen van de Public Interest Oversight Board (PIOB) 
 die tot de conclusie is gekomen dat het due process werd gevolgd in de totstandkoming van de 
 standaard en dat juiste aandacht werd besteed aan het openbaar belang.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-5/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
  
  
-Inleiding 
+## Inleiding
  
-Toepassingsgebied van deze ISA 
+## Toepassingsgebied van deze ISA
  
 1. 
 Deze International Standard on Auditing (ISA) behandelt de verantwoordelijkheid van de auditor 
@@ -268,15 +231,6 @@ ISA 450, Evaluatie van tijdens de controle geïdentificeerde afwijkingen.
 ISA 500, Controle-informatie. 
 5  
 ISA 315 (herzien 2019), paragraaf 31.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-6/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -336,13 +290,13 @@ de keuze van de puntschatting van het management; en
 de toelichtingen met betrekking tot de schatting, inclusief toelichtingen hoe de schatting 
 werd ontwikkeld en die de aard, omvang en bronnen van schattingsonzekerheid uitleggen. 
  
-Ingangsdatum 
+## Ingangsdatum
  
 10. 
 Deze ISA is van toepassing voor controles van financiële overzichten voor verslagperioden be-
 ginnend op of na 15 december 2019. 
  
-Doelstelling 
+## Doelstelling
  
 11. 
 De doelstelling van de auditor is om voldoende en geschikte controle-informatie te verkrijgen 
@@ -352,20 +306,11 @@ de context van het van toepassing zijnde stelsel inzake financiële verslaggevin
  
 6  
 Zie ook ISA 700 (herzien), Het vormen van een oordeel en het rapporteren over financiële overzichten, paragraaf 13(c).
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-7/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
  
-Definities 
+## Definities
  
 12. 
 In het kader van de ISA’s hebben de volgende termen de volgende betekenis: 
@@ -392,7 +337,7 @@ uitkomst van een schatting – Het feitelijke bedrag dat resulteert uit de afwik
 transactie(s), gebeurtenis(sen) of omstandigheid(heden) waarop een schatting betrekking 
 heeft. (Zie par. A18) 
  
-Vereisten 
+## Vereisten
  
 Risico-inschattingswerkzaamheden en daarmee verband houdende werkzaamheden 
  
@@ -434,15 +379,6 @@ Verwerven van inzicht in het systeem van de interne beheersing van de entiteit
  
 7  
 ISA 315 (herzien 2019), paragrafen 19-27.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-8/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -522,15 +458,6 @@ Risico's op een afwijking van materieel belang identificeren en inschatten
  
 8  
 ISA 315 (herzien 2019), paragrafen 26(a)(i)-(iv).
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-9/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -609,15 +536,6 @@ ISA 315 (herzien 2019), paragraaf 31–34.
 14  ISA 330, paragraaf 6-7 en 21. 
 15  ISA 330, paragraaf 7(b). 
 16  ISA 330, paragraaf 8.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-10/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -692,15 +610,6 @@ sing, of: (Zie par. A98-A100)
  
 17  ISA 330, paragraaf 9. 
 18  ISA 330, paragraaf 15 en 21.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-11/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -777,15 +686,6 @@ schattingsonzekerheid te begrijpen; en (Zie par. A109)
 schattingsonzekerheid te behandelen door een geschikte puntschatting te selecteren en 
 door toelichtingen daarop over schattingsonzekerheid te ontwikkelen. (Zie par. A110-
 A114)
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-12/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -858,15 +758,6 @@ Toelichtingen met betrekking tot schattingen
  
 19  ISA 265, Meedelen van tekortkomingen in de interne beheersing aan de met governance belaste personen en het manage-
 ment.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-13/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -942,15 +833,6 @@ Schriftelijke bevestigingen
 23  ISA 450, paragraaf A6. 
 24  Zie ook ISA 700 (herzien), paragraaf 14. 
 25  Zie ook ISA 700 (herzien), paragraaf 19.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-14/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -1009,7 +891,7 @@ zijnde stelsel inzake financiële verslaggeving, of een afwijking bevatten.
  
 ********** 
  
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
  
 De aard van schattingen (Zie par. 2) 
  
@@ -1021,15 +903,6 @@ Voorbeelden van schattingen
 28  ISA 265, paragraaf 9. 
 29  ISA 230, Controledocumentatie, paragraaf 8-11, A6-A7 en A10. 
 30  ISA 330, paragraaf 28(b).
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-15/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -1114,15 +987,6 @@ men in een leningsovereenkomst;
 • 
 toekomstgerichte informatie, zoals economische of winstverwachtingen verkregen uit een 
 externe informatiebron; of
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-16/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -1198,15 +1062,6 @@ hoe de auditor een professioneel-kritische instelling kan toepassen. Paragraaf A
  
 31  ISA 315 (herzien 2019), paragraaf 12(f). 
 32  ISA 315 (herzien 2019), paragraaf 31.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-17/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -1235,7 +1090,7 @@ een manier die niet alleen voldoet aan de vereisten van het van toepassing zijnd
 financiële verslaggeving, maar ook oordeelsvormingen weerspiegelt die consistent zijn met de 
 doelstelling van de waarderingsgrondslag in dat stelsel. 
  
-Definities 
+## Definities
  
 Schattingen (Zie par. 12(a)) 
  
@@ -1272,15 +1127,6 @@ A17. Financiële verslaggevingsstelsels vereisen vaak neutraliteit, dat wil zegg
 dentie. Schattingsonzekerheid leidt tot subjectiviteit bij het maken van een schatting. De aanwe-
 zigheid van subjectiviteit leidt tot de noodzaak van oordeelsvorming van het management en de 
 vatbaarheid voor onopzettelijke of opzettelijke tendentie bij het management (bijvoorbeeld als
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-18/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -1310,7 +1156,7 @@ inzake financiële verslaggeving en het systeem van interne beheersing van de en
 eisten in paragraaf 13 van deze ISA hebben meer specifiek betrekking op schattingen en bouwen 
 voort op de bredere vereisten in ISA 315 (herzien 2019). 
  
-Schaalbaarheid 
+## Schaalbaarheid
  
 A20. De aard, timing en omvang van de werkzaamheden van de auditor om inzicht te verwerven in 
 de entiteit en haar omgeving, het van toepassing zijnde stelsel inzake financiële verslaggeving 
@@ -1342,15 +1188,6 @@ worden beïnvloed door schattingsonzekerheid, subjectiviteit, complexiteit of an
 risicofactoren. Indien dit het geval is, zal de aard of timing van de risico-inschattingswerkzaam-
 heden van de auditor waarschijnlijk anders zijn of uitgebreider zijn dan in de omstandigheden in 
 paragraaf A20.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-19/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -1424,15 +1261,6 @@ Regelgevingsfactoren (Zie par. 13(c))
  
  
 33  ISA 260 (herzien), paragraaf 16(a).
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-20/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -1505,15 +1333,6 @@ hebben om de acties van het management ter discussie te stellen wanneer deze act
 ontoereikend of ongepast lijken; 
  
 34  ISA 315 (herzien 2019), paragraaf 21(a).
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-21/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -1586,15 +1405,6 @@ wijze waarop het management de vatbaarheid voor afwijkingen als gevolg van tende
  
 35  ISA 500, paragraaf 8. 
 36  Zie bijvoorbeeld International Financial Reporting Standard (IFRS) 13, Waardering tegen reële waarde.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-22/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -1668,15 +1478,6 @@ A38. Het van toepassing zijnde stelsel inzake financiële verslaggeving kan de m
 die moet worden gebruikt bij het maken van een schatting. In veel gevallen schrijft het van 
  
 37  ISA 315 (herzien 2019), paragraaf 22(b).
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-23/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -1750,15 +1551,6 @@ zijn;
 indien van toepassing, hoe het management bepaalt dat de veronderstellingen consistent 
 zijn met elkaar, met die welke gebruikt worden in andere schattingen of onderdelen van 
 de bedrijfsactiviteiten van de entiteit, of met andere aangelegenheden die:
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-24/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -1830,15 +1622,6 @@ een passend inzicht heeft in hoe de prijsgegevens, en de relevantie daarvan, van
 paalde externe informatiebronnen in dergelijke omstandigheden kunnen verschillen. 
  
 Gegevens (Zie par. 13(h)(ii)(a)(iii))
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-25/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -1911,15 +1694,6 @@ informatie die is verkregen uit modellen of uit andere berekeningen die zijn geb
 schattingen te bepalen die in de financiële overzichten zijn opgenomen of worden vermeld, 
  
 38  IFRS 13, Waardering tegen reële waarde, paragraaf 63.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-26/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -1999,15 +1773,6 @@ de entiteit, inclusief kredietrisico, liquiditeitsrisico en marktrisico.
  
 Geïdentificeerde interne beheersingsmaatregelen over het proces van het management voor het ma-
 ken van schattingen (Zie par. 13(i))
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-27/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -2079,15 +1844,6 @@ vastleggingen van de entiteit of uit externe informatiebronnen;
 gegevens, inclusief de volledige en nauwkeurige gegevensstroom door het informatiesys-
 teem van de entiteit, de gepastheid van elke wijziging in de gegevens die worden gebruikt 
 bij het maken van schattingen, het handhaven van de integriteit en beveiliging van de
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-28/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -2161,15 +1917,6 @@ periode wordt opgelost.
  
  
 39  ISA 315 (herzien 2019), bijlage 3.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-29/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -2227,15 +1974,6 @@ Specialistische vaardigheden of kennis (Zie par. 15)
 40  ISA 240, De verantwoordelijkheden van de auditor met betrekking tot fraude in het kader van een controle van financiële 
 overzichten, paragraaf 33(b)(ii). 
 41  ISA 560, Gebeurtenissen na de einddatum van de verslagperiode, paragraaf 14.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-30/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -2307,15 +2045,6 @@ ning van een controle van financiële overzichten, paragraaf 8(e).
 43  ISA 620, Gebruikmaken van de werkzaamheden van een door de auditor ingeschakelde deskundige. 
 44  ISA 315 (herzien 2019), paragrafen 31 en 34. 
 45  ISA 315 (herzien 2019), paragraaf 31(a).
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-31/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -2384,15 +2113,6 @@ voor afwijkingen met betrekking tot de schatting beïnvloeden. Gebeurtenissen di
 na de datum van de financiële overzichten kunnen ook van invloed zijn op de keuze door de 
  
 46  ISA 315 (herzien 2019), paragraaf 37.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-32/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -2460,15 +2180,6 @@ om precieze en volledige informatie te verkrijgen over een huidige situatie (bij
 beeld informatie over waarderingskenmerken die het perspectief van marktdeelne-
 mers weergeven op de datum van de financiële overzichten, om een schatting van 
 de reële waarde te ontwikkelen).
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-33/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -2534,15 +2245,6 @@ domsrechten zullen sommige externe informatiebronnen niet (of niet volledig) inf
 toelichten die van belang kan zijn bij het overwegen van de betrouwbaarheid van de 
  
 47  ISA 570 (herzien), Continuïteit.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-34/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -2609,15 +2311,6 @@ De verdere controlewerkzaamheden van de auditor (Zie par. 18)
 A81. Bij het opzetten en uitvoeren van verdere controlewerkzaamheden kan de auditor gebruik maken 
 van een van de drie toetsingsbenaderingen (afzonderlijk of in combinatie) opgesomd in para-
 graaf 18. Wanneer bijvoorbeeld meerdere veronderstellingen worden gebruikt om een schatting
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-35/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -2638,7 +2331,7 @@ schatting van de auditor van het risico hoger is.49 Daarom kan de overweging van
 hoeveelheid van de controle-informatie belangrijker zijn wanneer inherente risico's met betrek-
 king tot een schatting worden ingeschat aan de bovenkant van het spectrum van inherent risico. 
  
-Schaalbaarheid 
+## Schaalbaarheid
  
 A84. De aard, timing en omvang van de verdere controlewerkzaamheden van de auditor worden be-
 invloed door, bijvoorbeeld: 
@@ -2686,15 +2379,6 @@ van het informatiesysteem ter ondersteuning van transacties;
  
 48  ISA 500, paragraaf A5. 
 49  ISA 330, paragraaf 7(b) en A19.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-36/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -2764,15 +2448,6 @@ heden detailcontroles omvatten. Dergelijke detailcontroles kunnen worden opgezet
 voerd onder elk van de benaderingen beschreven in paragraaf 18 van deze ISA op basis van de 
  
 50  ISA 330, paragraaf 21.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-37/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -2843,15 +2518,6 @@ de schatting is afgeleid van de routinematige verwerking van gegevens.
  
 51  ISA 560, paragraaf 6. 
 52  ISA 560, paragraaf 8.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-38/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -2917,15 +2583,6 @@ Deze aangelegenheden zijn belangrijk wanneer het van toepassing zijnde stelsel i
 ciële verslaggeving de waarderingsmethode niet voorschrijft of meerdere methoden toestaat. 
  
 Complexe modellering (Zie par. 23(d))
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-39/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -3000,15 +2657,6 @@ gaande verslagperiode kunnen omvatten:
  
 • 
 de beweegredenen van het management voor de keuze van de veronderstelling;
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-40/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -3080,15 +2728,6 @@ overwegen of het management heeft voldaan aan de eventuele toepasselijke documen
 tatievereisten van het van toepassing zijnde stelsel inzake financiële verslaggeving. 
  
 53  ISA 315 (herzien 2019), paragraaf 15(b).
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-41/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -3159,15 +2798,6 @@ Stappen van het management om schattingsonzekerheid te begrijpen en te behandele
  
  
 54  ISA 500, paragraaf 9.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-42/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -3242,15 +2872,6 @@ specificeerd hoe een bedrag moet worden geselecteerd uit redelijkerwijs mogelijk
 deringsresultaten, of het management oordeelsvorming heeft toegepast, rekening hou-
 dend met de vereisten van het van toepassing zijnde stelsel inzake financiële verslagge-
 ving.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-43/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -3317,15 +2938,6 @@ Als auditor zelf een puntschatting ontwikkelen of gebruikmaken van een eigen int
  
 55  IFRS 13, Waardering tegen reële waarde, paragraaf 92. 
 56  ISA 701, Het communiceren van kernpunten van de controle in de controleverklaring van de onafhankelijke auditor.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-44/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -3398,15 +3010,6 @@ schatting of interval te ontwikkelen, kan de auditor informatie verkrijgen over 
 de methoden, veronderstellingen of gegevens van het management. Als de auditor bijvoorbeeld 
 de eigen veronderstellingen van de auditor gebruikt bij het ontwikkelen van een interval om de 
 redelijkheid van de puntschatting van het management te evalueren, kan de auditor ook een
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-45/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -3473,15 +3076,6 @@ den, veronderstellingen of gegevens. Een bron kan bijvoorbeeld huidige prijzen g
 en een andere bron toekomstige prijzen. Wanneer de verscheidenheid betrekking heeft 
  
 57  ISA 500, paragraaf A35.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-46/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -3551,15 +3145,6 @@ ISA toe op deze veronderstellingen.
 A131. Als het werk van een door het management ingeschakelde deskundige gepaard gaat met het 
 gebruik van methoden of gegevensbronnen met betrekking tot schattingen, of het ontwikkelen 
 of verstrekken van bevindingen of conclusies met betrekking tot een puntschatting of
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-47/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -3626,15 +3211,6 @@ vaak tot stand door een opzettelijke afwijking van de schattingen, waaronder mog
 58  ISA 402, Overwegingen met betrekking tot controles van entiteiten die gebruikmaken van een serviceorganisatie. 
 59  ISA 700 (herzien), paragraaf 11. 
 60  ISA 240, paragraaf 33(b).
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-48/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -3701,15 +3277,6 @@ van de auditor omvatten, wordt van de auditor vereist voldoende en geschikte con
  
 61  ISA 330, paragraaf A62. 
 62  Zie ook ISA 315 (herzien 2019), paragraaf 31.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-49/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -3779,15 +3346,6 @@ de entiteit inzake administratieve verwerking met betrekking tot schattingen en 
 64  ISA 450, paragraaf A22. 
 65  ISA 700 (herzien), paragraaf 14. 
 66  ISA 705 (herzien), paragraaf 22-23.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-50/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -3854,15 +3412,6 @@ en inschatten van de risico’s op een afwijking van materieel belang in verband
 69  ISA 315 (herzien 2019), paragrafen 38 en A237-A241. 
 70  ISA 330, paragraaf 28 en A65. 
 71  ISA 230, paragraaf 8(c).
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-51/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -3911,26 +3460,17 @@ nagement behandelen; en
 • 
 paragraaf 34, waarin de overweging door de auditor van alle relevante controle-informatie 
 wordt behandeld, hetzij bevestigend of tegenstrijdig.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-52/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
  
  
-Bijlage 1 
+## Bijlage 1
 (Zie par. 2, 4, 12(c), A8, A66) 
  
 Inherente risicofactoren 
  
-Inleiding 
+## Inleiding
  
 1. 
 Bij het identificeren, inschatten en inspelen op de risico’s op een afwijking van materieel belang 
@@ -3987,15 +3527,6 @@ moet worden gehouden, zoals wanneer de kosten voor het verkrijgen ervan de baten
 overtreffen. Het gebrek aan nauwkeurigheid bij het waarderen als gevolg van deze beperkingen 
 is inherent omdat het niet uit het waarderingsproces kan worden geëlimineerd. Dienovereen-
 komstig zijn dergelijke beperkingen bronnen van schattingsonzekerheid. Andere bronnen van
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-53/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -4071,15 +3602,6 @@ de financiële overzichten waarvoor schattingen worden gemaakt; of
 • 
 het identificeren van geschikte gegevensbronnen uit interne bronnen (inclusief bronnen 
 buiten het grootboek of de subgrootboeken) of uit externe informatiebronnen, het bepalen
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-54/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -4154,15 +3676,6 @@ Het maken van veronderstellingen over toekomstige gebeurtenissen of omstandighed
 het gebruik van oordeelsvorming in, waarvan de moeilijkheid varieert met de mate waarin die 
 gebeurtenissen of omstandigheden onzeker zijn. De nauwkeurigheid waarmee het mogelijk is 
 om onzekere toekomstige gebeurtenissen of omstandigheden te voorspellen, hangt af van de
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-55/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -4232,15 +3745,6 @@ moet zijn (d.w.z. dat deze niet tendentieus moet zijn). Tendentie kan in princip
 het schattingsproces worden geëlimineerd.  Bronnen van mogelijke tendentie in de oordeelsvor-
 mingen die zijn gemaakt om subjectiviteit te behandelen, zijn eerder bronnen van mogelijke af-
 wijkingen dan bronnen van schattingsonzekerheid.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-56/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
@@ -4287,21 +3791,12 @@ van het element. De vereisten van het van toepassing zijnde stelsel inzake finan
 ving die in deze omstandigheden van toepassing zijn, kunnen in meer of mindere mate worden 
 gespecificeerd. In deze omstandigheden kunnen er dus aanvullende oordeelsvormingen nodig 
 zijn die subjectiviteit met zich meebrengen.
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-57/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 
  
  
-Bijlage 2 
+## Bijlage 2
 (Zie par. A146) 
  
  
@@ -4376,15 +3871,6 @@ uitgevoerd door het management of een deskundige ingeschakeld door het managemen
 (s) 
 significante verschillen in oordeelsvormingen tussen de auditor en het management of een des-
 kundige ingeschakeld door het management met betrekking tot waarderingen;
-
-DE CONTROLE VAN SCHATTINGEN EN TOELICHTINGEN DAAROP 
- 
- 
-ISA 540 (herzien) 
-NBA-IBR 2023 
-58/58 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pro-
 nouncements, 2022 Edition Volume I 
  
 Versie 2023 

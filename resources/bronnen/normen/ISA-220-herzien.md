@@ -8,7 +8,7 @@ chunk:
 itaa-lex-sectie: ISA
 norm: ISA 220 (herzien) — Kwaliteitsmanagement voor een controle van financiële overzichten
 provenance:
-  generated_at: '2026-05-16T19:30:12Z'
+  generated_at: '2026-05-17T00:03:11Z'
   inputs:
   - id: https://www.ibr-ire.be/docs/default-source/nl/documents/regelgeving-en-publicaties/rechtsleer/normen-en-aanbevelingen/isa-s/nieuwe-en-herziene-isa-s/new-and-revised-isas-2017-update-24062019/isa-220_(herzien)_nl_2023.pdf
     sha256: 60f1efd4b4e8d052be62aa2198c9c91df90b254da20e03bcb260773a058ddbd5
@@ -17,23 +17,20 @@ provenance:
   stale_reason: null
   tooling:
     model: null
-    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5)
+    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5) + tools/etl/apply_isa_transformers.py
     pipeline_version: '1.0'
     prompt_version: null
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: pymupdf-conversie via tools/download/scrape_ibr_isa.py extraheerde
-      tekst lineair zonder structurele heading-injectie (0 ##-headings in body). Page-footers
-      ('ALGEHELE DOELSTELLINGEN ... ISA 200 NBA-IBR 2022 N/M Originele bron: Handbook ... Versie
-      2023') repeteren ~elke pagina inline. Paragraph-numbers ('1.', '2.') staan op aparte
-      regels van hun body-tekst, en bullets ('• item') zijn losgekoppeld van hun bullet-marker.
-      RAG-chunking faalt zonder heading-grenzen — ETL-fix nodig: inject_headings_isa +
-      strip_isa_page_footers transformers.
+    confirmed_at: '2026-05-17T00:04:00Z'
+    confirmed_by: subagent-isa-transformers-2026-05-17
     layer1: null
     layer2: null
+    rationale: 'QA-pass 2026-05-17: post-strip_isa_page_footers + inject_headings_isa:
+      0 NBA-IBR page-footer regels in body en ≥7 ##-headings (Inleiding, Doelstelling(en),
+      Definities, Vereisten, Toepassingsgerichte teksten, Ingangsdatum, Bijlage).
+      Sentence-flow visueel intact; RAG-chunking nu structureel ankerbaar. Promoted
+      naar trusted.'
+    status: trusted
 status: beschikbaar
 tags:
 - ISA
@@ -61,16 +58,6 @@ Kwaliteitsmanagement voor een
 controle van financiële overzichten 
 Definitieve uitspraak 
 December 2020
-
-KWALITEITSMANAGEMENT VOOR EEN CONTROLE VAN FINANCIËLE OVERZICHTEN 
- 
-ISA 220 (herzien) 
-NBA-IBR 2022 
-2/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 Over de IAASB 
  
 Copyright IFAC 
@@ -99,16 +86,6 @@ Related Services Pronouncements, 2022 Edition Volume I - ISBN number: 978-1-6081
  
 Neem contact op met permissions@ifac.org voor toestemming om dit document te reproduceren, op te 
 slaan of door te geven, of voor ander soortgelijk gebruik van dit document.
-
-KWALITEITSMANAGEMENT VOOR EEN CONTROLE VAN FINANCIËLE OVERZICHTEN 
- 
-ISA 220 (herzien) 
-NBA-IBR 2022 
-3/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 INTERNATIONALE CONTROLESTANDAARD 220 (HERZIEN) 
  
 KWALITEITSMANAGEMENT VOOR EEN CONTROLE VAN 
@@ -118,13 +95,13 @@ verslagperioden die op of na 15 december 2022 aanvangen)
  
 INHOUDSOPGAVE 
 Paragraaf 
-Inleiding 
+## Inleiding
 Toepassingsgebied van deze ISA  .......................................................................................................... 1 
 Kwaliteitsmanagementsysteem van het kantoor en rol van opdrachtteams ......................................... 2-9 
 Ingangsdatum ........................................................................................................................................ 10 
 Doelstelling  .......................................................................................................................................... 11 
 Definities  .............................................................................................................................................. 12 
-Vereisten 
+## Vereisten
 Verantwoordelijkheden van de leiding voor het managen en bereiken van kwaliteit  
 op controles  ...................................................................................................................................... 13-15 
 Relevante ethische voorschriften, met inbegrip van die betreffende onafhankelijkheid  .................. 16-21 
@@ -134,7 +111,7 @@ Uitvoering van de opdracht  ....................................................
 Monitoren en remediëren  ...................................................................................................................... 39 
 Algehele verantwoordelijkheid nemen voor het managen en bereiken van kwaliteit ............................ 40 
 Documentatie  ........................................................................................................................................ 41 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 Toepassingsgebied van deze ISA  ........................................................................................................A1 
 Kwaliteitsmanagementsysteem van het kantoor en rol van opdrachtteams .................................. A2-A14 
 Definities....................................................................................................................................... A15-A27 
@@ -143,16 +120,6 @@ op controles  ..................................................................
 Relevante ethische voorschriften, met inbegrip van die betreffende onafhankelijkheid  ............. A38-A48 
 Aanvaarding en continuering van cliëntrelaties en controleopdrachten  ..................................... A49-A58 
 Middelen voor de opdracht .......................................................................................................... A59-A79
-
-KWALITEITSMANAGEMENT VOOR EEN CONTROLE VAN FINANCIËLE OVERZICHTEN 
- 
-ISA 220 (herzien) 
-NBA-IBR 2022 
-4/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 Uitvoering van de opdracht  ....................................................................................................... A80-A108 
 Monitoren en remediëren  ........................................................................................................ A109-A112 
 Algehele verantwoordelijkheid nemen voor het managen en bereiken van kwaliteit .............. A113-A116 
@@ -163,17 +130,9 @@ International Standard on Auditing (ISA) 220, "Kwaliteitsmanagement voor een con
 overzichten", moet worden gelezen in samenhang met ISA 200, "Algehele doelstellingen van de 
 onafhankelijke auditor, alsmede het uitvoeren van een controle overeenkomstig de International 
 Standards on Auditing".
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-5/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
+## Inleiding
  
-Inleiding 
- 
-Toepassingsgebied van deze ISA 
+## Toepassingsgebied van deze ISA
  
 1. 
 Deze International Standard on Auditing (ISA) behandelt de specifieke verantwoordelijkheden van 
@@ -246,14 +205,6 @@ standaarden en met van toepassing zijnde vereisten uit wet- en regelgeving. Het 
  
 1  
 ISQM 1, paragraaf 14.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-6/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 doelstellingen van deze standaarden en het naleven van de van toepassing zijnde vereisten uit wet- 
 of regelgeving houden de toepassing van professionele oordeelsvorming in, alsmede de uitoefening 
 van een professioneel-kritische houding. 
@@ -272,7 +223,7 @@ communicaties kunnen specifieke stappen inhouden om belemmeringen te beperken di
 passende uitoefening van een professioneel-kritische houding kunnen aantasten, zoals onbewuste 
 vooringenomenheden of beperkingen van de middelen. (Zie par. A33-A36) 
  
-Schaalbaarheid 
+## Schaalbaarheid
  
 8. 
 Het is de bedoeling dat de vereisten van deze ISA worden toegepast in het kader van de aard en 
@@ -301,26 +252,18 @@ uitdrukkelijk de bedoeling van deze ISA dat de opdrachtpartner aan de vereiste v
 verantwoordelijkheid vervult en de opdrachtpartner informatie van het kantoor of van andere leden 
 van het opdrachtteam kan verkrijgen. (Zie par. A22-A25) 
  
-Ingangsdatum 
+## Ingangsdatum
  
 10. 
 Deze ISA is van toepassing op controles van financiële overzichten die op of na 15 december 2022 
 aanvangen. 
  
-Doelstelling 
+## Doelstelling
  
  
 2  
 ISA 200, “Algehele doelstellingen van de onafhankelijke auditor, alsmede het uitvoeren van een controle overeenkomstig de 
 International Standards on Auditing”, paragrafen 15-16 en A20‒A24.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-7/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 11. 
 De doelstelling van de auditor is de kwaliteit te managen op opdrachtniveau om een redelijke mate 
 van zekerheid te verkrijgen dat kwaliteit werd bereikt, zodat: 
@@ -332,7 +275,7 @@ wet- of regelgeving ; en
 (b) 
 de uitgebrachte controleverklaring in de gegeven omstandigheden passend is. 
  
-Definities 
+## Definities
  
 12. 
 Voor de toepassing van de ISA’s hebben de volgende termen de hieronder weergegeven betekenis: 
@@ -392,14 +335,6 @@ ISA 610 (herzien in 2013), Gebruikmaken van de werkzaamheden van interne auditor
 van directe ondersteuning. Deze ISA erkent tevens dat het de externe auditor door wet- of regelgeving verboden kan zijn om 
 directe ondersteuning door interne auditors te verkrijgen. Het gebruikmaken van directe ondersteuning is dan ook beperkt tot de 
 situaties waarin dit wordt toegelaten.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-8/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 (j) 
 Professionele standaarden – De International Standards on Auditing (ISA's) en relevante 
 ethische voorschriften. 
@@ -435,7 +370,7 @@ Procedures zijn acties ter uitvoering van de beleidslijnen.
 Medewerkers- Professionals, anders dan partners, met inbegrip van eventuele deskundigen 
 die door het kantoor worden tewerkgesteld. 
  
-Vereisten 
+## Vereisten
  
 Verantwoordelijkheden van de leiding voor het managen en bereiken van kwaliteit op controles 
  
@@ -473,14 +408,6 @@ opdrachtteam gedurende de gehele controleopdracht.
 Indien de opdrachtpartner de opzet of uitvoering van werkzaamheden, taken of handelingen ten 
 aanzien van een vereiste van deze ISA toewijst aan andere leden van het opdrachtteam, om de 
 opdrachtpartner te ondersteunen bij het naleven van de vereisten van deze ISA, dient de
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-9/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 opdrachtpartner de algehele verantwoordelijkheid te nemen voor het managen en bereiken van 
 kwaliteit op de controleopdracht door middel van aansturing van, en toezicht op, die leden van het 
 opdrachtteam, en de beoordeling van hun werk. (Zie par. 9, A37) 
@@ -544,14 +471,6 @@ conclusies die hieromtrent zijn getrokken, passend zijn. (Zie par. A49-A52, A58)
  
 6  
 ISA 250 (herzien), "Het in aanmerking nemen van wet- en regelgeving bij een controle van financiële overzichten"
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-10/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 23. 
 Bij het plannen en uitvoeren van de controleopdracht overeenkomstig de ISA's en bij het naleven 
 van de vereisten van deze ISA dient de opdrachtpartner rekening te houden met informatie die werd 
@@ -615,15 +534,6 @@ kantoor aan het opdrachtteam zijn toegewezen of ter beschikking zijn gesteld.
  
 7  
 ISA 300, Planning van een controle van financiële overzichten, paragraaf 11.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-11/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
- 
 31. 
 De opdrachtpartner dient de controledocumentatie op passende tijdstippen gedurende de 
 controleopdracht te beoordelen, met inbegrip van controledocumentatie met betrekking tot: (Zie par. 
@@ -691,14 +601,6 @@ ISA 230, Controledocumentatie, paragraaf 8(c).
 ISA 701, Het communiceren van kernpunten van de controle in de controleverklaring van de onafhankelijke auditor. 
 10  ISA 700 (herzien), Het vormen van een oordeel en het rapporteren over financiële overzichten, of ISA 705 (herzien), 
 “Aanpassingen van het oordeel in de controleverklaring van de onafhankelijke auditor.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-12/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 36. 
 Voor controleopdrachten waarvoor een opdrachtgerichte kwaliteitsbeoordeling is vereist, dient de 
 opdrachtpartner: (Zie par. A103) 
@@ -774,14 +676,6 @@ A113-A116)
 (a) 
 de betrokkenheid van de opdrachtpartner gedurende de gehele controleopdracht voldoende 
 en passend is geweest, zodat de opdrachtpartner over de basis beschikt om te bepalen of de
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-13/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 gemaakte significante oordeelsvormingen en de getrokken conclusies passend zijn, gelet op 
 de aard en omstandigheden van de opdracht; en 
 (b) 
@@ -827,7 +721,7 @@ datum van de controleverklaring afgerond is.
 * 
 * 
  
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
  
 Toepassingsgebied van deze ISA (Zie par. 1) 
  
@@ -855,14 +749,6 @@ gebruiken om de componenten van het kwaliteitsmanagementsysteem te beschrijven. 
 11  ISA 230, paragrafen 8-11 en A6. 
 12 ISA 600, Bijzondere overwegingen - Controles van financiële overzichten van een groep (inclusief de werkzaamheden van 
 auditors van groepsonderdelen).
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-14/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 vereisten die betrekking hebben op de verantwoordelijkheden van het kantoor om een 
 kwaliteitsmanagementsysteem op te zetten, te implementeren en in werking te stellen, zijn ten minste 
 even veeleisend als ISQM 1, wanneer zij de vereisten van ISQM 1 regelen en het kantoor 
@@ -930,14 +816,6 @@ bepalen of het reacties op het niveau van de opdracht moet opzetten en implement
  
 13  ISQM 1, paragraaf 49(b). 
 14  ISQM 1, paragraaf 49(a).
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-15/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 verdergaan dan die uiteengezet in de beleidslijnen of procedures van het kantoor om aan de 
 doelstelling van deze ISA te voldoen.15 
  
@@ -992,14 +870,6 @@ ook paragraaf A70 met betrekking tot voldoende en geschikte middelen.
  
 15  ISA 200 vereist dat de auditor professionele oordeelsvorming toepast bij het plannen en uitvoeren van een controle van financiële 
 overzichten.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-16/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 Informatie die relevant is voor kwaliteitsmanagement op opdrachtniveau (Zie par. 6) 
  
 A12. Het naleven van de vereisten in andere ISA's kan informatie opleveren die relevant is voor het 
@@ -1040,7 +910,7 @@ A14. De vereisten met betrekking tot de aansturing van, het toezicht op en de be
 van andere leden van het opdrachtteam zijn alleen relevant als het opdrachtteam leden telt anders 
 dan de opdrachtpartner. 
  
-Definities 
+## Definities
  
 Opdrachtteam (Zie par. 12(d)) 
  
@@ -1056,14 +926,6 @@ controleverklaring van de auditor te ondersteunen, wordt voornamelijk verkregen 
  
 16  ISA 315 (herzien 2019), "Risico’s op een afwijking van materieel belang identificeren en inschatten" 
 17  ISA 500, Controle-informatie, paragraaf A10.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-17/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 controlewerkzaamheden 
 die 
 in 
@@ -1148,14 +1010,6 @@ met inbegrip van tests van beheersingsmaatregelen en gegevensgerichte controles.
 22 ISA 520, «Cijferanalyses. 
 23  ISQM 1, paragraaf 16(v). 
 24  Zie ISA 620, paragrafen 12-13 en ISA 610 (herzien 2013), paragrafen 21- 25.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-18/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 uitgevoerd door een interne auditor die directe ondersteuning biedt, en controlewerkzaamheden 
 uitvoert op het werk van een door de auditor ingeschakelde deskundige. 
  
@@ -1209,14 +1063,6 @@ beleidslijnen of procedures van het kantoor kunnen stipuleren dat dit inzicht we
 door andere handelingen, zoals door informatie, handleidingen of gebruiksaanwijzingen die de 
 bepalingen bevatten van de relevante ethische voorschriften die van toepassing zijn op de 
 controleopdracht te verstrekken aan die persoon.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-19/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 • 
 zijn of haar onafhankelijkheid zal bevestigen. Personen die geen personeel zijn, zullen mogelijk 
 niet in staat zijn om onafhankelijkheidsverklaringen rechtstreeks in te vullen in de 
@@ -1269,15 +1115,7 @@ aangezien zij bij het uitvoeren van de opdracht het verwachte gedrag vertonen.
  
  
 25  Zie paragraaf 35.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-20/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
-Schaalbaarheid 
+## Schaalbaarheid
  
 A29. De aard en omvang van de acties van de opdrachtpartner om de commitment ten aanzien van 
 kwaliteit van het kantoor aan te tonen, kunnen afhankelijk zijn van een verscheidenheid aan factoren, 
@@ -1347,14 +1185,6 @@ controleopdracht. Omstandigheden die inherent zijn aan sommige controleopdrachte
  
 26  Zie ISA 610 (herzien 2013), paragraaf A41. 
 27  Zie ISA 620, paragrafen 11(c) en A30.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-21/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 het opdrachtteam een druk uitoefenen die een passende professioneel-kritische houding bij het 
 opzetten en uitvoeren van controlewerkzaamheden en het evalueren van controle-informatie kan 
 belemmeren. Bij het ontwikkelen van de algehele controleaanpak overeenkomstig ISA 300, kan het 
@@ -1416,14 +1246,6 @@ creativiteit of individuele verantwoordelijkheid ontmoedigen.
 • 
 Zelfoverschattingsvooringenomenheid, d.i. de neiging om het eigen vermogen om risico's of 
 andere oordelen of beslissingen correct in te schatten, te overschatten.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-22/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 • 
 Verankeringsvooringenomenheid, d.i. de neiging om een eerste stukje informatie te gebruiken 
 als anker waartegen daaropvolgende informatie onvoldoende wordt beoordeeld. 
@@ -1488,14 +1310,6 @@ Communiceren met de met governance belaste personen wanneer het management
 ongepaste druk uitoefent of het opdrachtteam moeilijkheden ondervindt bij het verkrijgen van 
 toegang tot vastleggingen, faciliteiten, bepaalde werknemers, klanten, leveranciers of anderen 
 aan wie om controle-informatie kan worden verzocht.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-23/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 Werkzaamheden, taken of handelingen toewijzen aan andere leden van het opdrachtteam (Zie par. 15) 
  
 A37. Dat er gedurende de gehele controleopdracht een voldoende en passende betrokkenheid bestaat bij 
@@ -1552,14 +1366,6 @@ zijn) of om raadpleging te houden over kwesties met betrekking tot relevante eth
 voorschriften. 
  
 28  ISA 200, paragrafen 14 en A16-A19.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-24/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 • 
 Beleidslijnen of procedures opstellen voor opdrachtteamleden om relevante en betrouwbare 
 informatie te communiceren aan de aangewezen partijen binnen het kantoor of aan de 
@@ -1617,14 +1423,6 @@ en gevolgen van de schendingen.
  
  
 29  IESBA-code, paragraaf 330.3 A2.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-25/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 Passende actie ondernemen (Zie par. 20) 
  
 A46. Passende acties kunnen bijvoorbeeld omvatten: 
@@ -1683,14 +1481,6 @@ of het management en de met governance belaste personen hun verantwoordelijkhede
 betrekking tot de opdracht hebben erkend; 
  
 30  ISA 700 (herzien), paragraaf 28(c).
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-26/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 • 
 of het opdrachtteam over de competentie en capaciteiten, met inbegrip van voldoende tijd, 
 beschikt om de opdracht uit te voeren; en 
@@ -1754,14 +1544,6 @@ in overeenstemming met ISA 620; en
 31  ISA 210, Overeenkomen van de voorwaarden van controleopdrachten, paragraaf 9.  
 32  ISA 240, De verantwoordelijkheden van de auditor met betrekking tot fraude in het kader van een controle van financiële 
 overzichten.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-27/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 • 
 de governancestructuur van de entiteit in overeenstemming met ISA 260 (herzien)33 en ISA 
 265.34 
@@ -1817,14 +1599,6 @@ intellectuele middelen.
  
 33  ISA 260 (herzien), Communicatie met de met governance belaste personen. 
 34  ISA 265, Meedelen van tekortkomingen in de interne beheersing aan de met governance belaste personen en management.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-28/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 A60. Middelen voor een controleopdracht worden voornamelijk door het kantoor toegewezen of ter 
 beschikking gesteld, hoewel er omstandigheden kunnen zijn waarin het opdrachtteam rechtstreeks 
 middelen voor de controleopdracht verkrijgt. Dit kan bijvoorbeeld het geval zijn wanneer van een 
@@ -1895,14 +1669,6 @@ opdrachtteam.
  
  
 35  ISA 600, paragraaf 3.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-29/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 A66. De beleidslijnen of procedures van het kantoor kunnen het gebruik van bepaalde IT-toepassingen of 
 functies van IT-toepassingen specifiek verbieden (bv. software die nog niet specifiek is goedgekeurd 
 voor gebruik door het kantoor). Bij wijze van alternatief kunnen de beleidslijnen of procedures van 
@@ -1961,15 +1727,6 @@ Competentie en capaciteiten van het opdrachtteam (Zie par. 26)
  
 A71. Bij het bepalen of het opdrachtteam over de passende competentie en capaciteiten beschikt, kan de 
 opdrachtpartner aangelegenheden met betrekking tot het team in overweging nemen zoals:
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-30/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
- 
 • 
 inzicht in, en praktische ervaring met, controleopdrachten van een soortgelijke aard en 
 complexiteit, verkregen door middel van passende training en participatie; 
@@ -2032,14 +1789,6 @@ cultuur die in het hele kantoor bestaat, die de rol van het kantoor ten dienste 
 36  ISA 610 (herzien 2013), paragraaf 15. 
 37  ISA 620, paragraaf 9. 
 38  zie ISA 300, paragraaf 9.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-31/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 belang erkent en versterkt door het consistent uitvoeren van opdrachten gekenmerkt door kwaliteit, 
 alsook het belang van kwaliteit in de strategische beslissingen en acties van het kantoor, met inbegrip 
 van de financiële en operationele prioriteiten van het kantoor. ISQM 1 pakt ook de 
@@ -2094,14 +1843,6 @@ beschikt;
 de beleidslijnen of procedures van het kantoor voor het teruggeven van de controleopdracht 
 volgen, wanneer teruggave mogelijk is op grond van de van toepassing zijnde wet- en 
 regelgeving.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-32/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 Overwegingen die specifiek voor entiteiten in de publieke sector gelden (Zie par. 25-28) 
  
 A79. In de publieke sector kunnen gespecialiseerde vaardigheden benodigd zijn om de voorwaarden van 
@@ -2153,14 +1894,6 @@ A84. Voortdurende bespreking en communicatie tussen leden van het opdrachtteam b
 ervaren leden van het opdrachtteam de mogelijkheid om tijdig vragen voor te leggen aan meer 
 ervaren leden van het opdrachtteam (met inbegrip van de opdrachtpartner) en maken daadwerkelijke 
 aansturing, toezicht en beoordeling mogelijk overeenkomstig paragraaf 30.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-33/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 Aansturing 
  
 A85. Het aansturen van het opdrachtteam omvat mogelijk het informeren van de leden van het 
@@ -2241,15 +1974,6 @@ Beoordeling
  
 A87. De beoordeling van de werkzaamheden van het opdrachtteam biedt ondersteuning voor de conclusie 
 dat de vereisten van deze ISA werden aangepakt.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-34/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
- 
 A88. De beoordeling van het werk van het opdrachtteam omvat de overweging of, bijvoorbeeld: 
  
 • 
@@ -2317,14 +2041,6 @@ personeel dat deskundigheid toepast in een gespecialiseerd gebied van financiël
 verslaggeving of controles; 
  
 39 ISA 230, paragraaf 9(c).
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-35/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 o 
 de inzet van personeel van service delivery centers. 
  
@@ -2395,14 +2111,6 @@ procedures van het kantoor kunnen bijvoorbeeld inhouden dat:
 • 
 de aansturing, het toezicht en de beoordeling van werkzaamheden die gepland zijn voor 
 tussentijdse uitvoering gelijktijdig met de uitvoering van de procedures moeten plaatsvinden,
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-36/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 in plaats van op het einde van de periode, zodat eventueel benodigde remediërende 
 maatregelen tijdig kunnen worden genomen. 
 • 
@@ -2418,7 +2126,7 @@ waarin
 dergelijke 
 aangelegenheden naar verwachting zullen worden beoordeeld. 
  
-Schaalbaarheid 
+## Schaalbaarheid
  
 A95. De aanpak van de aansturing, het toezicht en de beoordeling kan worden aangepast  afhankelijk 
 van, bijvoorbeeld: 
@@ -2472,14 +2180,6 @@ transactie mogelijk moeten wijzigen.
 A97. Overeenkomstig paragraaf 30(b) is de opdrachtpartner vereist om vast te stellen dat de aanpak van 
 de aansturing, het toezicht en de beoordeling wordt afgestemd op de aard en omstandigheden van 
 de controleopdracht. Als bijvoorbeeld een meer ervaren lid van het opdrachtteam onbeschikbaar
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-37/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 wordt om deel te nemen aan het toezicht en de beoordeling van het opdrachtteam, kan het nodig 
 zijn dat de opdrachtpartner de omvang van het toezicht en de beoordeling van de minder ervaren 
 leden van het opdrachtteam vergroot. 
@@ -2538,14 +2238,6 @@ kwaliteitsbeoordelingen overeenkomstig ISQM 2 41  behandelen en die voor bepaald
  
 40  ISA 701, paragrafen 9 en A14. 
 41  ISQM 2, Opdrachtgerichte kwaliteitsbeoordelingen.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-38/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 opdrachten een opdrachtgerichte kwaliteitsbeoordeling voorschrijven. 42  ISQM 2 behandelt het 
 aanstellen 
 en 
@@ -2611,14 +2303,6 @@ Monitoren en remediëren (Zie par. 39)
 42  ISQM 1, paragraaf 34(f). 
 43  ISA 700 (herzien), paragraaf 49. 
 44   ISQM 2, paragraaf 26.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-39/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 A109. ISQM 1 zet vereisten uiteen voor het proces van monitoren en remediëren van het kantoor. ISQM 1 
 vereist dat het kantoor aan de opdrachtteams informatie communiceert over het proces van 
 monitoren en remediëren, zodat zij snel passende actie kunnen ondernemen in overeenstemming 
@@ -2673,14 +2357,6 @@ beschreven in paragraaf A118.
  
  
 45  ISQM 1, paragraaf 47.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-40/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 A115. Aanwijzingen dat de opdrachtpartner mogelijk niet op voldoende en passende wijze betrokken is 
 geweest, omvatten bijvoorbeeld: 
  
@@ -2742,14 +2418,6 @@ aftekeningen en vastleggingen van de tijd (« time sheets ») die de opdrachtpar
 opdracht heeft besteed, kunnen informatie opleveren over de betrokkenheid van de 
  
 46  ISA 230, paragraaf A7.
-
-ISA 220 (herzien) 
-NBA-IBR 2022 
-41/41 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2023 
- 
 opdrachtpartner gedurende de gehele controleopdracht en het toezicht door andere leden van 
 het opdrachtteam; of 
 • 

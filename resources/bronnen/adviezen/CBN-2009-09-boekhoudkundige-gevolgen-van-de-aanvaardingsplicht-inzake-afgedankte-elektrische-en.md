@@ -25,39 +25,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 1e3b30b6-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:38:04Z'
+  generated_at: '2026-05-16T23:55:17Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:26:29Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: mixing van * en ** markers rond geciteerde wettekst op regel 454. ETL-artefact bij rendering van geciteerde wettekst met italic. L1 warn voor max_section_size (27912 chars) is acceptabel (auto-split door chunker).'
+    status: trusted
+    confirmed_at: '2026-05-16T23:58:49Z'
+    confirmed_by: cbn-rerun-2026-05-17
+    rationale: 'Re-run 2026-05-17: D4 mixing van * en ** bij geciteerde wettekst opgelost.'
+    caveat: 'Caveat: max_section_size warning (~27k chars) blijft staan — wordt auto-gechunkt door adaptive chunker; niet RAG-blokkerend.'
     layer1:
-      status: warn
-      run_id: 20260512-233938
-      run_at: '2026-05-12T23:39:41Z'
-      heading_count: 43
-      max_section_chars: 27911
-      file_size_chars: 107705
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ###-niveau: 27911 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:26:29Z'
-      rationale: 'D4: mixing van * en ** markers rond geciteerde wettekst op regel 454. ETL-artefact bij rendering van geciteerde wettekst met italic. L1 warn voor max_section_size (27912 chars) is acceptabel (auto-split door chunker).'
-      concrete_problemen:
-        - regel: 454
-          categorie: D4
-          type: unclosed-bold
-          voorbeeld: § 18. *"Voorzieningen...artikel 20, lid 1[^75] **,
 ---
 # CBN-advies 2009/9 - Boekhoudkundige gevolgen van de aanvaardingsplicht inzake afgedankte elektrische en elektronische apparaten
 

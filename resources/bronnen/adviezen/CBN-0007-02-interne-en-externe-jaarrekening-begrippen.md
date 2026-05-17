@@ -20,35 +20,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 1e3b30b6-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:37:14Z'
+  generated_at: '2026-05-16T23:54:53Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:26:26Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: gecombineerde bold/italic marker op regel 56 (*Bull. **CBN* nr. 2) is fout gesloten door ETL; mixing van inline formatting. Verder schoon advies.'
+    confirmed_at: '2026-05-16T23:58:49Z'
+    confirmed_by: cbn-rerun-2026-05-17
+    rationale: "Re-run 2026-05-17: B4-fix toegepast, maar D4 bold/italic mix bij '*Bull. **CBN*' (regel 49) nog aanwezig — vereist aparte _cleanup_markdown-rule voor genest bold-italic in inline references."
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260512-233938
-      run_at: '2026-05-12T23:39:38Z'
-      heading_count: 1
-      max_section_chars: 6895
-      file_size_chars: 6895
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:26:26Z'
-      rationale: 'D4: gecombineerde bold/italic marker op regel 56 (*Bull. **CBN* nr. 2) is fout gesloten door ETL; mixing van inline formatting. Verder schoon advies.'
-      concrete_problemen:
-        - regel: 56
-          categorie: D4
-          type: unclosed-bold
-          voorbeeld: '*Bull. **CBN* nr. 2 - gecombineerd * en ** marker'
 ---
 # CBN advies 7-2 - Interne en externe jaarrekening – Begrippen
 De Commissie heeft in een aantal gevallen enige begripsverwarring vastgesteld inzake het onderscheid dat uit de boekhoudwet en haar uitvoeringsbesluiten voortvloeit, tussen enerzijds de zogenaamde interne jaarrekening, en anderzijds de externe jaarrekening.[^1] 

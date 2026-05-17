@@ -713,12 +713,32 @@ def convert_collection(
     *,
     dry_run: bool = False,
     limit: int | None = None,
+    items: list[str] | None = None,
+    rate_limit_seconds: float = 0.0,
 ) -> int:
-    """Verwerk alle items uit een collection.
+    """Verwerk items uit een collection.
 
-    Returnt het aantal succesvol geschreven items. `limit` beperkt de batch
-    voor smoketests.
+    Parameters
+    ----------
+    name:
+        Collection-naam (bv. ``cbn-adviezen``, ``itaa-normen``).
+    dry_run:
+        Pipeline draaien zonder naar schijf te schrijven.
+    limit:
+        Beperk batch tot eerste N items (smoketest).
+    items:
+        Optionele lijst met bestand-stems (zonder ``.md``-extensie). Als
+        meegegeven, beperkt de batch tot enkel die items. Onbekende stems
+        worden expliciet gemeld. Vermijdt de trust-cascade bij re-runs van
+        een handvol items (sessie 2026-05-17).
+    rate_limit_seconds:
+        Aantal seconden ``time.sleep`` tussen items. Default 0 (geen wait).
+        Gebruikt bij CBN-rerun om de remote server niet te overbelasten.
+
+    Returnt het aantal succesvol geschreven items.
     """
+    import time as _time
+
     collections = load_collections()
     if name not in collections:
         print(f"Collection '{name}' niet gevonden in source_config.yaml")
@@ -735,15 +755,27 @@ def convert_collection(
     # Skip INDEX.md
     md_paths = [p for p in md_paths if p.name != "INDEX.md"]
 
+    if items is not None:
+        wanted = set(items)
+        all_stems = {p.stem for p in md_paths}
+        unknown = sorted(wanted - all_stems)
+        for stem in unknown:
+            print(f"  ⚠️  --items: stem '{stem}' niet gevonden in {cfg['output_dir']}")
+        md_paths = [p for p in md_paths if p.stem in wanted]
+
     if limit is not None:
         md_paths = md_paths[:limit]
 
     print(f"\n{'='*60}")
     print(f"Collection: {name}  |  items: {len(md_paths)}  |  output: {cfg['output_dir']}")
+    if items is not None:
+        print(f"  --items filter actief: {len(items)} stem(s) opgegeven")
     print("=" * 60)
 
     done = 0
-    for md_path in md_paths:
+    for i, md_path in enumerate(md_paths):
+        if rate_limit_seconds > 0 and i > 0:
+            _time.sleep(rate_limit_seconds)
         out = convert_collection_item(md_path, name, cfg, dry_run=dry_run)
         if out is not None:
             done += 1
@@ -778,6 +810,13 @@ def main() -> None:
                         help="Naam van een collection (bv. cbn-adviezen, itaa-normen)")
     parser.add_argument("--limit", type=int, default=None,
                         help="Beperk --collection tot de eerste N items (smoketest)")
+    parser.add_argument("--items", default=None,
+                        help="Komma-gescheiden lijst bestand-stems voor --collection "
+                             "(re-run zonder cascade op andere items). "
+                             "Bv. --items 'CBN-2024-03-foo,CBN-2024-09-bar'")
+    parser.add_argument("--rate-limit-seconds", type=float, default=0.0,
+                        help="Sleep tussen items in een collection-run (default 0; "
+                             "gebruik bv. 2.0 voor CBN-scrape om server niet te overbelasten)")
     parser.add_argument("--all", action="store_true",
                         help="Alle bronnen behalve handcrafted/derived")
     parser.add_argument("--list", action="store_true", help="Toon overzicht")
@@ -796,8 +835,15 @@ def main() -> None:
         return
 
     if args.collection:
+        items_list = None
+        if args.items:
+            items_list = [s.strip() for s in args.items.split(",") if s.strip()]
         convert_collection(
-            args.collection, dry_run=args.dry_run, limit=args.limit,
+            args.collection,
+            dry_run=args.dry_run,
+            limit=args.limit,
+            items=items_list,
+            rate_limit_seconds=args.rate_limit_seconds,
         )
         return
 

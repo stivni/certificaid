@@ -9,9 +9,9 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
 | Wetteksten | 187 | 177 | — | 10 | — | — |
-| Normen | 55 | 17 | — | 38 | — | — |
-| Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **678** | 616 | — | 62 | — | — |
+| Normen | 55 | 55 | — | — | — | — |
+| Adviezen | 436 | 433 | — | 3 | — | — |
+| **Totaal** | **678** | 665 | — | 13 | — | — |
 
 ## Wetteksten (187)
 
@@ -269,47 +269,47 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
-| `ISA-200.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 200 — Algehele doelstellingen van de onafhankelijke auditor en het uitvoeren van ee… |
-| `ISA-210.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 210 — Overeenkomen van de voorwaarden van controleopdrachten |
-| `ISA-220-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 220 (herzien) — Kwaliteitsmanagement voor een controle van financiële overzichten |
-| `ISA-230.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 230 — Controledocumentatie |
-| `ISA-240.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 240 — De verantwoordelijkheden van de auditor met betrekking tot fraude in het kade… |
-| `ISA-250-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 250 (herzien) — Het in aanmerking nemen van wet- en regelgeving bij een controle va… |
-| `ISA-260-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 260 (herzien) — Communicatie met de met governance belaste personen |
-| `ISA-265.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 265 — Het communiceren van tekortkomingen in de interne beheersing aan de met gover… |
-| `ISA-300.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 300 — Planning van een controle van financiële overzichten |
-| `ISA-315-herzien-2019.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 315 (herzien-2019) — Risico's op een afwijking van materieel belang identificeren e… |
-| `ISA-320.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 320 — Materialiteit bij de planning en uitvoering van een controle |
-| `ISA-330.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 330 — Inspelen door de auditor op ingeschatte risico's |
-| `ISA-402.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 402 — Overwegingen met betrekking tot controles van entiteiten die gebruikmaken van… |
-| `ISA-450.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 450 — Evaluatie van tijdens de controle geïdentificeerde afwijkingen |
-| `ISA-500.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 500 — Controle-informatie |
-| `ISA-501.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 501 — Controle-informatie — Specifieke overwegingen voor geselecteerde elementen |
-| `ISA-505.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 505 — Externe bevestigingen |
-| `ISA-510.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 510 — Initiële controleopdrachten — Beginsaldi |
-| `ISA-520.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 520 — Cijferanalyses |
-| `ISA-530.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 530 — Het gebruiken van steekproeven bij een controle |
-| `ISA-540-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 540 (herzien) — Het controleren van schattingen, met inbegrip van schattingen van r… |
-| `ISA-550.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 550 — Verbonden partijen |
-| `ISA-560.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 560 — Gebeurtenissen na de einddatum van de verslagperiode |
-| `ISA-570-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA-570-herzien |
-| `ISA-580.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 580 — Schriftelijke bevestigingen |
-| `ISA-600.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 600 — Bijzondere overwegingen — Controles van financiële overzichten van groepen (i… |
-| `ISA-610-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 610 (herzien) — Gebruikmaken van de werkzaamheden van interne auditors |
-| `ISA-620.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 620 — Gebruikmaken van de werkzaamheden van een door de auditor ingeschakelde desku… |
-| `ISA-700-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 700 (herzien) — Het vormen van een oordeel en het rapporteren over financiële overz… |
-| `ISA-701.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 701 — Het communiceren van kernpunten van de controle in de controleverklaring van … |
-| `ISA-705-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 705 (herzien) — Aanpassingen van het oordeel in de controleverklaring van de onafha… |
-| `ISA-706-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 706 (herzien) — Paragrafen ter benadrukking van bepaalde aangelegenheden en paragra… |
-| `ISA-710.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 710 — Ter vergelijking opgenomen informatie — Overeenkomstige cijfers en vergelijke… |
-| `ISA-720-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 720 (herzien) — De verantwoordelijkheden van de auditor met betrekking tot andere i… |
-| `ISA-800-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 800 (herzien) — Bijzondere overwegingen — Controles van financiële overzichten die … |
-| `ISA-805-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 805 (herzien) — Bijzondere overwegingen — Controles van enkelvoudige financiële ove… |
-| `ISA-810-herzien.md` | ⚠️ needs-rework | — | — | subagent-qa-2026-05-16 | ISA 810 (herzien) — Opdrachten om te rapporteren betreffende samengevatte financiële ov… |
-| `ITAA-norm-aww-geconsolideerd.md` | ⚠️ needs-rework | — | — | human | ITAA-norm-aww-geconsolideerd |
 | `IESBA-code-of-ethics-2024.md` | ✅ trusted | — | — | hoofdsessie-tdd-fix-2026-05-16 | IESBA-code-of-ethics-2024 |
+| `ISA-200.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 200 — Algehele doelstellingen van de onafhankelijke auditor en het uitvoeren van ee… |
+| `ISA-210.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 210 — Overeenkomen van de voorwaarden van controleopdrachten |
+| `ISA-220-herzien.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 220 (herzien) — Kwaliteitsmanagement voor een controle van financiële overzichten |
+| `ISA-230.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 230 — Controledocumentatie |
+| `ISA-240.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 240 — De verantwoordelijkheden van de auditor met betrekking tot fraude in het kade… |
+| `ISA-250-herzien.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 250 (herzien) — Het in aanmerking nemen van wet- en regelgeving bij een controle va… |
+| `ISA-260-herzien.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 260 (herzien) — Communicatie met de met governance belaste personen |
+| `ISA-265.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 265 — Het communiceren van tekortkomingen in de interne beheersing aan de met gover… |
+| `ISA-300.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 300 — Planning van een controle van financiële overzichten |
+| `ISA-315-herzien-2019.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 315 (herzien-2019) — Risico's op een afwijking van materieel belang identificeren e… |
+| `ISA-320.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 320 — Materialiteit bij de planning en uitvoering van een controle |
+| `ISA-330.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 330 — Inspelen door de auditor op ingeschatte risico's |
+| `ISA-402.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 402 — Overwegingen met betrekking tot controles van entiteiten die gebruikmaken van… |
+| `ISA-450.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 450 — Evaluatie van tijdens de controle geïdentificeerde afwijkingen |
+| `ISA-500.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 500 — Controle-informatie |
+| `ISA-501.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 501 — Controle-informatie — Specifieke overwegingen voor geselecteerde elementen |
+| `ISA-505.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 505 — Externe bevestigingen |
+| `ISA-510.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 510 — Initiële controleopdrachten — Beginsaldi |
+| `ISA-520.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 520 — Cijferanalyses |
+| `ISA-530.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 530 — Het gebruiken van steekproeven bij een controle |
+| `ISA-540-herzien.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 540 (herzien) — Het controleren van schattingen, met inbegrip van schattingen van r… |
+| `ISA-550.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 550 — Verbonden partijen |
+| `ISA-560.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 560 — Gebeurtenissen na de einddatum van de verslagperiode |
+| `ISA-570-herzien.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA-570-herzien |
+| `ISA-580.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 580 — Schriftelijke bevestigingen |
+| `ISA-600.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 600 — Bijzondere overwegingen — Controles van financiële overzichten van groepen (i… |
+| `ISA-610-herzien.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 610 (herzien) — Gebruikmaken van de werkzaamheden van interne auditors |
+| `ISA-620.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 620 — Gebruikmaken van de werkzaamheden van een door de auditor ingeschakelde desku… |
+| `ISA-700-herzien.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 700 (herzien) — Het vormen van een oordeel en het rapporteren over financiële overz… |
+| `ISA-701.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 701 — Het communiceren van kernpunten van de controle in de controleverklaring van … |
+| `ISA-705-herzien.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 705 (herzien) — Aanpassingen van het oordeel in de controleverklaring van de onafha… |
+| `ISA-706-herzien.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 706 (herzien) — Paragrafen ter benadrukking van bepaalde aangelegenheden en paragra… |
+| `ISA-710.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 710 — Ter vergelijking opgenomen informatie — Overeenkomstige cijfers en vergelijke… |
+| `ISA-720-herzien.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 720 (herzien) — De verantwoordelijkheden van de auditor met betrekking tot andere i… |
+| `ISA-800-herzien.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 800 (herzien) — Bijzondere overwegingen — Controles van financiële overzichten die … |
+| `ISA-805-herzien.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 805 (herzien) — Bijzondere overwegingen — Controles van enkelvoudige financiële ove… |
+| `ISA-810-herzien.md` | ✅ trusted | — | — | subagent-isa-transformers-2026-05-17 | ISA 810 (herzien) — Opdrachten om te rapporteren betreffende samengevatte financiële ov… |
 | `ITAA-deontologie-beroepsgeheim.md` | ✅ trusted | — | — | human | ITAA-deontologie-beroepsgeheim |
 | `ITAA-norm-algemene-controlenorm.md` | ✅ trusted | — | — | human | ITAA-norm-algemene-controlenorm |
+| `ITAA-norm-aww-geconsolideerd.md` | ✅ trusted ⚠️[^ITAA-norm-aww-geconsolideerd.md] | — | — | itaa-aww-fix-2026-05-17 | ITAA-norm-aww-geconsolideerd |
 | `ITAA-norm-aww-procedurereglement.md` | ✅ trusted | — | — | human | ITAA-norm-aww-procedurereglement |
 | `ITAA-norm-aww-reglement.md` | ✅ trusted | — | — | human | ITAA-norm-aww-reglement |
 | `ITAA-norm-aww-richtlijn-bibf.md` | ✅ trusted | — | — | human | ITAA-norm-aww-richtlijn-bibf |
@@ -325,24 +325,17 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `ITAA-norm-permanente-vorming.md` | ✅ trusted | — | — | human | ITAA-norm-permanente-vorming |
 | `ITAA-norm-samenstellingsopdrachten-isrs4410.md` | ✅ trusted | — | — | human | ITAA-norm-samenstellingsopdrachten-isrs4410 |
 
+**Caveats** (bekende beperkingen van trusted-bronnen):
+
+[^ITAA-norm-aww-geconsolideerd.md]: `ITAA-norm-aww-geconsolideerd.md` — Sectie 9 (Overgangsbepalingen) en 10 (Slotbepalingen) ontbreken in de body — de NL-kolom-extractie met column_split=300 verloor zowel heading als content. Follow-up: column_split verhogen of bilingual-extractor reviewen voor lange titels die naar de FR-kolom wrappen.
+
 ## Adviezen (436)
 
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
-| `CBN-0007-02-interne-en-externe-jaarrekening-begrippen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 7/2 |
-| `CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | CBN-advies S100 |
-| `CBN-0126-05-vervaardigingsprijs.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 126/5 |
-| `CBN-0139-08-uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 139/8 |
-| `CBN-0147-02-inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 147/2 |
-| `CBN-0152-01-boekingen-van-deviezenverrichtingen-en-verwerking-van-tegoeden-en-verplichtingen-in.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 152/1 |
-| `CBN-0166-02-verwerking-in-de-jaarrekening-van-bepaalde-verrichtingen-als-bedoeld-in-artikel-677-van.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 166/2 |
-| `CBN-0167-02-boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 167/2 |
-| `CBN-0173-05-toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 173/5 |
-| `CBN-2009-03-boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2009/3 |
-| `CBN-2009-09-boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | CBN-advies 2009/9 |
-| `CBN-2022-15-belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2022/15 |
-| `CBN-2024-03-gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2024/03 |
-| `CBN-2024-09-verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2024/09 |
+| `CBN-0007-02-interne-en-externe-jaarrekening-begrippen.md` | ⚠️ needs-rework | — | — | cbn-rerun-2026-05-17 | CBN-advies 7/2 |
+| `CBN-0126-05-vervaardigingsprijs.md` | ⚠️ needs-rework | — | — | cbn-rerun-2026-05-17 | CBN-advies 126/5 |
+| `CBN-2022-15-belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige.md` | ⚠️ needs-rework | — | — | cbn-rerun-2026-05-17 | CBN-advies 2022/15 |
 | `CBN-0003-01-tijdstip-waarop-de-aan-of-verkoop-van-een-onroerend-goed-in-de-boekhouding-dient.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 3/1 |
 | `CBN-0003-02-niet-in-de-balans-opgenomen-rechten-en-verplichtingen-0.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 3/2 |
 | `CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 3/3 |
@@ -362,6 +355,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-0100-02-aanpassing-van-het-rekeningstelsel-van-de-onderneming.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies R100/2 |
 | `CBN-0100-omzet-begrip.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 100 |
 | `CBN-0100-verwerking-in-de-geconsolideerde-jaarrekening-van-de-vermogensbestanddelen-en-de.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies C100 |
+| `CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md` | ✅ trusted ⚠️[^CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md] | — | — | cbn-rerun-2026-05-17 | CBN-advies S100 |
 | `CBN-0101-01-zakelijke-waarborgen-gesteld-voor-rekening-van-derden.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies R101/1 |
 | `CBN-0101-02-aandelen-als-waarborg-van-de-goede-uitoefening-van-een-mandaat-als-bestuurder-of.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies R101/2 |
 | `CBN-0102-01-uitgegeven-cheques-werking-van-rekening-559.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies R102/1 |
@@ -486,10 +480,12 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-0139-05-obligaties-met-warrant-0.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 139/5 |
 | `CBN-0139-06-aandelen-met-warrant-0.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 139/6 |
 | `CBN-0139-07-verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 139/7 |
+| `CBN-0139-08-uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of.md` | ✅ trusted ⚠️[^CBN-0139-08-uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of.md] | — | — | cbn-rerun-2026-05-17 | CBN-advies 139/8 |
 | `CBN-0140-overeenstemming-tussen-de-boekhouding-en-de-jaarrekening.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 140 |
 | `CBN-0146-01-belastingschulden-sociale-schulden-verwijlinteresten.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 146/1 |
 | `CBN-0146-02-vooruitbetalingen-van-sociale-zekerheidsbijdragen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 146/2 |
 | `CBN-0147-01-vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 147/1 |
+| `CBN-0147-02-inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten.md` | ✅ trusted ⚠️[^CBN-0147-02-inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten.md] | — | — | cbn-rerun-2026-05-17 | CBN-advies 147/2 |
 | `CBN-0147-03-meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 147/3 |
 | `CBN-0148-01-overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 148/1 |
 | `CBN-0148-02-vakantiegeld.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 148/2 |
@@ -502,6 +498,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-0150-04-investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 150/4 |
 | `CBN-0151-01-kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 151/1 |
 | `CBN-0151-02-toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 151/2 |
+| `CBN-0152-01-boekingen-van-deviezenverrichtingen-en-verwerking-van-tegoeden-en-verplichtingen-in.md` | ✅ trusted | — | — | cbn-rerun-2026-05-17 | CBN-advies 152/1 |
 | `CBN-0152-02-boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 152/2 |
 | `CBN-0152-03-boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-inbreng-van-een.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 152/3 |
 | `CBN-0152-04-niet-monetaire-financiele-activa-in-deviezen-deelnemingen-en-aandelen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 152/4 |
@@ -521,6 +518,8 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-0162-01-boekhoudkundige-verwerking-van-het-vruchtgebruik-van-aandelen-dat-onder-bezwarende-titel.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 162/1 |
 | `CBN-0163-boekhoudkundige-verwerking-van-in-substance-defeasance.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 163 |
 | `CBN-0164-passende-boekhoudkundige-verwerking-van-de-tegenwaarde-van-participatiecertificaten-cpcs.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 164 |
+| `CBN-0166-02-verwerking-in-de-jaarrekening-van-bepaalde-verrichtingen-als-bedoeld-in-artikel-677-van.md` | ✅ trusted | — | — | cbn-rerun-2026-05-17 | CBN-advies 166/2 |
+| `CBN-0167-02-boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen.md` | ✅ trusted | — | — | cbn-rerun-2026-05-17 | CBN-advies 167/2 |
 | `CBN-0168-01-boekhoudkundige-verwerking-van-deelnemingen-in-vennootschappen-naar-buitenlands-recht-die.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 168/1 |
 | `CBN-0169-01-verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 169/1 |
 | `CBN-0169-02-verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 169/2 |
@@ -531,6 +530,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-0173-02-boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 173/2 |
 | `CBN-0173-03-toelichting-bij-de-datum-vanaf-wanneer-ondernemingen-waarvan-het-boekjaar-niet-samenvalt.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 173/3 |
 | `CBN-0173-04-vervroegde-vaststelling-van-de-bilaterale-wisselkoersen-in-mei-1998-gevolgen-voor-het.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 173/4 |
+| `CBN-0173-05-toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de.md` | ✅ trusted | — | — | cbn-rerun-2026-05-17 | CBN-advies 173/5 |
 | `CBN-0173-06-verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 173/6 |
 | `CBN-0173-07-afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 173/7 |
 | `CBN-0173-08-aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 173/8 |
@@ -542,8 +542,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-0178-01-advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 178/1 |
 | `CBN-0179-01-boekhoudkundige-verwerking-van-broeikasgasemissierechten.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 179/1 |
 | `CBN-0180-01-verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 180/1 |
+| `CBN-2009-03-boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling.md` | ✅ trusted ⚠️[^CBN-2009-03-boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling.md] | — | — | cbn-rerun-2026-05-17 | CBN-advies 2009/3 |
 | `CBN-2009-04-model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2009/4 |
 | `CBN-2009-07-de-boekhoudkundige-verwerking-van-grensoverschrijdende-fusies.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2009/7 |
+| `CBN-2009-09-boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en.md` | ✅ trusted ⚠️[^CBN-2009-09-boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en.md] | — | — | cbn-rerun-2026-05-17 | CBN-advies 2009/9 |
 | `CBN-2009-10-bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2009/10 |
 | `CBN-2009-11-de-boekhoudkundige-verwerking-van-partiele-splitsingen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2009/11 |
 | `CBN-2009-12-de-sociale-balans-en-de-statutaire-werknemers.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2009/12 |
@@ -758,10 +760,21 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-2022-16-omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2022/16 |
 | `CBN-2024-01-vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2024/01 |
 | `CBN-2024-02-belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2024/02 |
+| `CBN-2024-03-gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding.md` | ✅ trusted ⚠️[^CBN-2024-03-gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding.md] | — | — | cbn-rerun-2026-05-17 | CBN-advies 2024/03 |
 | `CBN-2024-04-terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2024/04 |
 | `CBN-2024-05-boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2024/05 |
 | `CBN-2024-06-openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2024/06 |
 | `CBN-2024-07-gevolgen-verhoging-groottecriteria-voor-vennootschappen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2024/07 |
 | `CBN-2024-08-gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2024/08 |
+| `CBN-2024-09-verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen.md` | ✅ trusted | — | — | cbn-rerun-2026-05-17 | CBN-advies 2024/09 |
 | `CBN-2024-10-verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2024/10 |
 | `CBN-NFP-aanbevelingen-inzake-de-gelijkwaardigheid-van-boekhoud-en-jaarrekeningregels-opgelegd-door.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies NFP |
+
+**Caveats** (bekende beperkingen van trusted-bronnen):
+
+[^CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md]: `CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md` — Caveat: 'DE ZIEKENHUIZEN'-heading komt mogelijk te hoog uit (## ipv #####) door de generieke single-word ALL-CAPS-promotie; inhoudelijke nesting blijft volgbaar.
+[^CBN-0139-08-uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of.md]: `CBN-0139-08-uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of.md` — Caveat: heading-hiërarchie springt op één plaats van h1→h4 (B2); structuur blijft leesbaar maar niet ideaal genest.
+[^CBN-0147-02-inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten.md]: `CBN-0147-02-inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten.md` — Caveat: (**) voetnootmarkering binnen tabel-headers is een bron-conventie; geen markdown-bold-mismatch.
+[^CBN-2009-03-boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling.md]: `CBN-2009-03-boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling.md` — Caveat: 3 tabellen (Tabel 1/2/3) blijven als plain-text placeholders — source-side (CBN-HTML levert deze niet als HTML-table). Tekst-context blijft voldoende om de inhoud te volgen via de inline (n)-referenties.
+[^CBN-2009-09-boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en.md]: `CBN-2009-09-boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en.md` — Caveat: max_section_size warning (~27k chars) blijft staan — wordt auto-gechunkt door adaptive chunker; niet RAG-blokkerend.
+[^CBN-2024-03-gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding.md]: `CBN-2024-03-gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding.md` — Caveat: advies heeft geen ##-substructuur — het is één doorlopende bespreking. Niet RAG-blokkerend (chunker werkt op zinsniveau).

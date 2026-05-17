@@ -161,7 +161,7 @@ def test_norm_extractor_uses_known_pdfs_mapping_when_pdf_exists(
     monkeypatch.setattr(itaa_norm, "fix_norm_artefacts",
                         lambda body: (body, []))
     monkeypatch.setattr(itaa_norm, "inject_norm_headings",
-                        lambda body: (body, 0))
+                        lambda body, **kw: (body, 0))
 
     body = itaa_norm.extract({}, "ITAA-norm-fake")
     assert "Heading" in body

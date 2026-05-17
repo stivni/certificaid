@@ -103,28 +103,31 @@ def extract_nl_column(
     return extract_bilingual(pdf_path, split)
 
 
-def inject_norm_headings(body: str) -> tuple[str, int]:
+def inject_norm_headings(body: str, *, filename: str = "") -> tuple[str, int]:
     """Promoot bold-titels en structuurlabels naar ``##``-headings.
 
-    Wikkelt :func:`tools.etl.inject_norm_headings.inject_headings`. Gebruikt
-    de generieke patroonset (geen file-specifieke triggers); de telling
-    geeft het verschil in aantal ``##``-headings vóór en na injectie.
+    Wikkelt :func:`tools.etl.inject_norm_headings.inject_headings`.
 
     Parameters
     ----------
     body
         Markdown-body (zonder frontmatter).
+    filename
+        Optioneel — bestandsnaam (bv. ``"ITAA-norm-aww-geconsolideerd.md"``).
+        Activeert file-specifieke overrides voor sectie-titels die in de
+        NL-kolom-extractie verloren zijn gegaan (two-column glitch).
 
     Returns
     -------
     tuple
-        ``(nieuwe_body, aantal_promoties)``.
+        ``(nieuwe_body, aantal_promoties)`` — de telling geeft het verschil
+        in aantal ``##``-headings vóór en na injectie.
     """
     if not body:
         return body, 0
 
     before = _count_h2(body)
-    new_body = inject_headings(body, filename="", use_bilingual=False)
+    new_body = inject_headings(body, filename=filename, use_bilingual=False)
     after = _count_h2(new_body)
     return new_body, max(0, after - before)
 

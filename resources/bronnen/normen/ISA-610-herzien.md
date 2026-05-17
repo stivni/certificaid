@@ -8,7 +8,7 @@ chunk:
 itaa-lex-sectie: ISA
 norm: ISA 610 (herzien) — Gebruikmaken van de werkzaamheden van interne auditors
 provenance:
-  generated_at: '2026-05-16T19:30:12Z'
+  generated_at: '2026-05-17T00:03:11Z'
   inputs:
   - id: https://www.ibr-ire.be/docs/default-source/nl/documents/regelgeving-en-publicaties/rechtsleer/normen-en-aanbevelingen/isa-s/nieuwe-en-herziene-isa-s/new-and-revised-isas-2017-update-24062019/isa-610-(herzien)_nl_2023.pdf
     sha256: a3e5b2a69645b729b2f3b833e7d4f94a74d2f2236bcd9fdcb2ad3dffe089f05b
@@ -17,23 +17,20 @@ provenance:
   stale_reason: null
   tooling:
     model: null
-    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5)
+    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5) + tools/etl/apply_isa_transformers.py
     pipeline_version: '1.0'
     prompt_version: null
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: pymupdf-conversie via tools/download/scrape_ibr_isa.py extraheerde
-      tekst lineair zonder structurele heading-injectie (0 ##-headings in body). Page-footers
-      ('ALGEHELE DOELSTELLINGEN ... ISA 200 NBA-IBR 2022 N/M Originele bron: Handbook ... Versie
-      2023') repeteren ~elke pagina inline. Paragraph-numbers ('1.', '2.') staan op aparte
-      regels van hun body-tekst, en bullets ('• item') zijn losgekoppeld van hun bullet-marker.
-      RAG-chunking faalt zonder heading-grenzen — ETL-fix nodig: inject_headings_isa +
-      strip_isa_page_footers transformers.
+    confirmed_at: '2026-05-17T00:04:00Z'
+    confirmed_by: subagent-isa-transformers-2026-05-17
     layer1: null
     layer2: null
+    rationale: 'QA-pass 2026-05-17: post-strip_isa_page_footers + inject_headings_isa:
+      0 NBA-IBR page-footer regels in body en ≥7 ##-headings (Inleiding, Doelstelling(en),
+      Definities, Vereisten, Toepassingsgerichte teksten, Ingangsdatum, Bijlage).
+      Sentence-flow visueel intact; RAG-chunking nu structureel ankerbaar. Promoted
+      naar trusted.'
+    status: trusted
 status: beschikbaar
 tags:
 - ISA
@@ -60,17 +57,6 @@ ISA 610 (herzien 2013)
 Gebruikmaken van de 
 werkzaamheden van interne 
 auditors
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-2/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Over de IAASB 
  
 Copyright IFAC 
@@ -98,16 +84,6 @@ Related Services Pronouncements, 2022 Edition Volume I - ISBN number: 978-1-6081
  
 Neem contact op met permissions@ifac.org voor toestemming om dit document te reproduceren, op te 
 slaan of door te geven, of voor ander soortgelijk gebruik van dit document.
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-3/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 INTERNATIONALE CONTROLESTANDAARD 610 (herzien 2013) 
 GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE 
 AUDITORS 
@@ -121,14 +97,14 @@ na 15 december 2014 aanvangen) (*)
  
 INHOUDSOPGAVE 
 Paragraaf 
-Inleiding 
+## Inleiding
 Toepassingsgebied van deze ISA ............................................................................................................ 1 -5 
 Relatie tussen ISA 315 (herzien 2019) en ISA 610 (herzien 2013) ..................................................... 6-10 
 De verantwoordelijkheid van de externe auditor voor de controle .......................................................... 11  
 Ingangsdatum ....................................................................................................................................................  12 
 Doelstellingen .....................................................................................................................................  13 
 Definities ...................................................................................................................................................... 14 
-Vereisten 
+## Vereisten
 Het bepalen of, in welke gebieden, en in welke mate, er van de werkzaamheden  
 van een interne auditfunctie gebruik kan worden gemaakt ............................................................... 15-20 
 Gebruikmaken van de werkzaamheden van de interne auditfunctie ................................................. 21-25 
@@ -136,7 +112,7 @@ Bepalen of, in welke gebieden, en in welke mate er gebruik kan worden
 gemaakt van interne auditors om directe ondersteuning te verschaffen ........................................... 26-32 
 Gebruikmaken van interne auditors om directe ondersteuning te verschaffen  ................................ 33-35 
 Documentatie ...................................................................................................................................  36-37 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 Definitie van de interne auditfunctie ................................................................................................. A1-A4 
 Het bepalen of, in welke gebieden, en in welke mate, er van de werkzaamheden 
 van de interne auditfunctie gebruik kan worden gemaakt .............................................................. A5-A23 
@@ -149,19 +125,7 @@ International Standard on Auditing (ISA) 610 (herzien 2013), “Gebruikmaken van
 van interne auditors”, moet worden gelezen in samenhang met ISA 200, “Algehele doelstellingen van 
 de onafhankelijke auditor, alsmede het uitvoeren van een controle overeenkomstig de International 
 Standards on Auditing”.
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-4/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
-Inleiding 
+## Inleiding
  
 Reikwijdte van deze ISA 
  
@@ -235,16 +199,6 @@ de entiteit en in het onderkennen en inschatten van risico's van een afwijking v
 ISA 315 (herzien 2019), Het identificeren en inschatten van de risico’s van een afwijking van materieel belang. 
 2  
 ISA 200, Algehele doelstellingen van de onafhankelijke auditor, en het uitvoeren van een controle volgens ISAs, paragraaf A60.
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-5/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 ISA 315 (herzien 2019)3 behandelt tevens op welke wijze doeltreffende communicatie tussen de 
 interne en externe auditors een omgeving creëert waarin de externe auditor kan worden 
 geïnformeerd over significante aangelegenheden die de werkzaamheden van de externe auditor 
@@ -298,7 +252,7 @@ controle . De vereisten zijn ontworpen om voor de oordeelsvorming van de externe
 betrekking tot het gebruikmaken van de werkzaamheden van interne auditors een raamwerk te 
 verschaffen om bovenmatig of ongepast gebruik van dergelijke werkzaamheden te voorkomen.  
  
-Ingangsdatum 
+## Ingangsdatum
  
 12. 
 Deze ISA is van toepassing op controles van financiële overzichten over verslagperioden eindigend 
@@ -313,17 +267,7 @@ Zie par. 15-25.
 ISA 330, De wijze van inspelen door de auditor op ingeschatte risico’s. 
 6  
 ISA 200, paragraaf 14.
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-6/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
-Doelstellingen 
+## Doelstellingen
  
 13. 
 De doelstellingen van de externe auditor, in het geval de entiteit een interne auditfunctie heeft en de 
@@ -358,7 +302,7 @@ beheersingsprocessen van de entiteit te evalueren en te verbeteren. (Zie par. A1
 Directe ondersteuning - Het gebruikmaken van interne auditors om controlewerkzaamheden 
 uit te voeren onder de aansturing, het toezicht en de beoordeling van de externe auditor.   
  
-Vereisten 
+## Vereisten
  
 Het bepalen of, op welke gebieden, en in welke mate, er van de werkzaamheden van de interne 
 auditfunctie gebruik kan worden gemaakt 
@@ -396,16 +340,6 @@ kan worden gemaakt
  
 17. 
 Als basis voor het bepalen van de gebieden waarop en de mate waarin van de werkzaamheden van
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-7/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 de interne auditfunctie gebruik kan worden gemaakt, dient de externe auditor de aard en reikwijdte 
 van de werkzaamheden die door de interne auditfunctie zijn uitgevoerd of die zijn gepland om te 
 worden uitgevoerd, en de relevantie daarvan voor de algehele controleaanpak en voor het 
@@ -480,16 +414,6 @@ De getrokken conclusies onder de gegeven omstandigheden passend zijn en de rappo
  
 7  
 ISA 260 (herzien), Communicatie met de met governance belaste personen, paragraaf 15.
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-8/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 die door de interne auditfunctie zijn opgesteld consistent zijn met de uitkomsten van de 
 uitgevoerde werkzaamheden. (Zie par. A27-A30) 
  
@@ -564,17 +488,6 @@ Het evalueren van de verzamelde controle-informatie;
  
 8  
 Zie par. 18.
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-9/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 (b) 
 Het ingeschatte risico van een afwijking van materieel belang; en  
 (c) 
@@ -649,17 +562,6 @@ controle-informatie.
 9  
 ISA 260 (herzien), Communicatie met de met governance belaste personen, paragraaf 15. 
 10  ISA 220 (herzien), Kwaliteitsmanagement voor een controle van financiële overzichten.
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-10/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 De aansturing, het toezicht en de beoordeling door de externe auditor van de werkzaamheden die 
 door de interne auditors zijn uitgevoerd dienen voor de externe auditor voldoende te zijn om vast 
 te stellen dat de interne auditors voldoende geschikte controle-informatie hebben verkregen om de 
@@ -719,7 +621,7 @@ directe ondersteuning hebben verschaft.
  
 **** 
  
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
  
 Definitie van de interne auditfunctie (Zie par. 2, 14(a)) 
  
@@ -732,16 +634,6 @@ Activiteiten die betrekking hebben op governance
  
  
 11  ISA 230, Controledocumentatie.
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-11/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 • 
 De interne auditfunctie kan het governance-proces beoordelen op het realiseren van 
 doelstellingen  voor normen en waarden, prestatiemanagement en verantwoording, met het 
@@ -828,16 +720,6 @@ interne
 beheersingsmaatregelen kunnen uitvoeren die overeenkomstig ISA 330 kunnen worden getoetst.12 
  
 12  Zie par. 10.
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-12/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Om deze reden zou het monitoren van interne beheersingsmaatregelen dat door een eigenaar-
 bestuurder wordt uitgevoerd niet als het equivalent worden beschouwd voor een interne auditfunctie.  
  
@@ -904,16 +786,6 @@ functionaris met de juiste bevoegdheid, of, indien de interne auditfunctie rappo
 13  ISA 315 (herzien 2019), paragraaf 14(a). 
 14  Zie par. 15-25. 
 15  Zie par. 26-35.
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-13/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 management, de vraag of de interne auditfunctie directe toegang heeft tot de met governance 
 belaste personen;  
 • 
@@ -983,17 +855,6 @@ beheersingmaatregelen die binnen de entiteit kunnen worden uitgevoerd.
 A11. Factoren die van invloed kunnen zijn op de vaststelling door de externe auditor of de interne 
 auditfunctie een systematische en gedisciplineerde benadering toepast, zijn onder meer de 
 volgende:
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-14/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 • 
 Het bestaan, adequaat zijn en gebruik van gedocumenteerde interne auditwerkzaamheden of 
 van leidraden die gebieden beslaan zoals risico-inschattingen, werkprogramma's, 
@@ -1053,16 +914,6 @@ of gepland zijn om te worden uitgevoerd, relevant zijn voor de algehele controle
 16  The International Ethics Standards Board for Accountants’ (IESBA) Code of Ethics for Professional Accountants (IFAC Code), 
 Section 290.194. 
 17  IFAC Code, Section 290.190–290.195.
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-15/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 controleprogramma dat de externe auditor overeenkomstig ISA 30018 heeft opgesteld. 
   
 A16. Voorbeelden van werkzaamheden van de interne auditfunctie waarvan door de externe auditor 
@@ -1138,16 +989,6 @@ meer oordeelsvorming er vaak betrokken is bij het plannen en uitvoeren van de
 18  ISA 300, Planning van een controle van financiële overzichten. 
 19  ISA 600, Speciale overwegingen – Controles van financiële overzichten van de groep (inclusief de werkzaamheden van auditors 
 van groepsonderdelen).
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-16/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 controlewerkzaamheden en het evalueren van de uitkomsten daarvan. In dergelijke omstandigheden 
 zal het nodig zijn dat de externe auditor meer werkzaamheden overeenkomstig paragraaf 18 van 
 deze ISA zelf uitvoert, en derhalve minder gebruikmaken van de werkzaamheden van de interne 
@@ -1221,16 +1062,6 @@ De externe auditor de interne auditors informeert over significante aangelegenhe
 20  ISA 200, paragraaf A32. 
 21  ISA 315 (herzien 2019), paragraaf 12(l). 
 22  ISA 260 (herzien), paragraaf 15.
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-17/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 interne auditfunctie zouden kunnen beïnvloeden. 
 • 
 De externe auditor op de hoogte wordt gebracht van of toegang heeft tot relevante rapportages 
@@ -1297,17 +1128,6 @@ Het opnieuw uitvoeren (Zie par. 24)
 24  ISA 315 (herzien 2019), Bijlage 4. 
 25  ISA 315 (herzien 2019), Bijlage 4 met betrekking tot ISA 240, De verantwoordelijkheid van de auditor met betrekking tot fraude in 
 het kader van een controle van financiële overzichten.
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-18/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 A30. In het kader van deze ISA heeft het opnieuw uitvoeren betrekking op het onafhankelijk uitvoeren van 
 werkzaamheden door de externe auditor om de conclusies die door de interne auditfunctie zijn 
 getrokken, te valideren. Deze doelstelling kan worden bereikt door items te onderzoeken die reeds 
@@ -1369,16 +1189,6 @@ ondersteuning te verschaffen met betrekking tot het uitvoeren van werkzaamheden 
  
 26  ISA 600, paragraaf 40(b). 
 27  Zie par. A7.
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-19/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 hebben met het vormen van significante oordelen in de controle of die te maken hebben met hogere 
 risico's op een afwijking van materieel belang waar het oordeel dat vereist is bij het uitvoeren van 
 relevante controlewerkzaamheden of bij het evalueren van de verzamelde controle-informatie meer 
@@ -1439,16 +1249,6 @@ Daarom zal de betrokkenheid van de externe auditor bij het aansturen van, toezic
  
 28  ISA 315 (herzien 2019), paragraaf 14(a). 
 29  ISA 505, Externe confirmaties, paragrafen 7 en 16.
-
-GEBRUIKMAKEN VAN DE WERKZAAMHEDEN VAN INTERNE AUDITORS 
-ISA 610 (herzien 2013) 
-NBA-IBR 2022 
-20/20 
- 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 beoordelen van de werkzaamheden die door interne auditors zijn uitgevoerd, over het algemeen van 
 een andere aard en uitgebreider zijn dan wanneer leden van het opdrachtteam de werkzaamheden 
 uitvoeren.  

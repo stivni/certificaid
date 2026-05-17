@@ -9,7 +9,7 @@ itaa-lex-sectie: ISA
 norm: ISA 705 (herzien) — Aanpassingen van het oordeel in de controleverklaring van
   de onafhankelijke auditor
 provenance:
-  generated_at: '2026-05-16T19:30:12Z'
+  generated_at: '2026-05-17T00:03:11Z'
   inputs:
   - id: https://www.ibr-ire.be/docs/default-source/nl/documents/regelgeving-en-publicaties/rechtsleer/normen-en-aanbevelingen/isa-s/nieuwe-en-herziene-isa-s/new-and-revised-isas-2017-update-24062019/isa-705-(herzien)_nl_2023.pdf
     sha256: 1383ba94823f9d9bddfaaa82b92037132344843d979eb5094f554b8453c243f7
@@ -18,23 +18,20 @@ provenance:
   stale_reason: null
   tooling:
     model: null
-    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5)
+    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5) + tools/etl/apply_isa_transformers.py
     pipeline_version: '1.0'
     prompt_version: null
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: pymupdf-conversie via tools/download/scrape_ibr_isa.py extraheerde
-      tekst lineair zonder structurele heading-injectie (0 ##-headings in body). Page-footers
-      ('ALGEHELE DOELSTELLINGEN ... ISA 200 NBA-IBR 2022 N/M Originele bron: Handbook ... Versie
-      2023') repeteren ~elke pagina inline. Paragraph-numbers ('1.', '2.') staan op aparte
-      regels van hun body-tekst, en bullets ('• item') zijn losgekoppeld van hun bullet-marker.
-      RAG-chunking faalt zonder heading-grenzen — ETL-fix nodig: inject_headings_isa +
-      strip_isa_page_footers transformers.
+    confirmed_at: '2026-05-17T00:04:00Z'
+    confirmed_by: subagent-isa-transformers-2026-05-17
     layer1: null
     layer2: null
+    rationale: 'QA-pass 2026-05-17: post-strip_isa_page_footers + inject_headings_isa:
+      0 NBA-IBR page-footer regels in body en ≥7 ##-headings (Inleiding, Doelstelling(en),
+      Definities, Vereisten, Toepassingsgerichte teksten, Ingangsdatum, Bijlage).
+      Sentence-flow visueel intact; RAG-chunking nu structureel ankerbaar. Promoted
+      naar trusted.'
+    status: trusted
 status: beschikbaar
 tags:
 - ISA
@@ -62,20 +59,6 @@ ISA 705 (herzien)
 Aanpassingen van het oordeel in 
 de controleverklaring van de 
 onafhankelijke auditor
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
- 
- 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-2/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 Over de IAASB 
  
 Copyright IFAC 
@@ -104,19 +87,6 @@ and Related Services Pronouncements, 2022 Edition Volume I - ISBN number: 978-1-
  
 Neem contact op met permissions@ifac.org voor toestemming om dit document te reproduceren, op te 
 slaan of door te geven, of voor ander soortgelijk gebruik van dit document.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
- 
- 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-3/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 INTERNATIONALE CONTROLESTANDAARD 705 (HERZIEN) 
 AANPASSINGEN VAN HET OORDEEL IN DE 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
@@ -130,45 +100,33 @@ normen (voor de verslagperiode die op of na 15 december aanvangen)
  
 INHOUDSOPGAVE 
 Paragraaf 
-Inleiding 
+## Inleiding
 Toepassingsgebied van deze ISA ...........................................................................................................  1 
 Soorten aangepaste oordelen .............................................................................................................. 2 
 Ingangsdatum .................................................................................................................................................. 3 
 Doelstelling........................................................................................................................................  4 
 Definities ................................................................................................................................................... 5 
-Vereisten 
+## Vereisten
 Omstandigheden waarbij een aanpassing van het oordeel van de auditor vereist is .......................... 6 
 Het bepalen van het soort aanpassing van het oordeel van de auditor ......................................... 7-15 
 Vorm en inhoud van de controleverklaring indien het oordeel wordt aangepast ......................... 16-29 
 Communicatie met de met governance belaste personen ................................................................  30 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 Soorten aangepaste oordelen ........................................................................................................... A1 
 Aard van afwijkingen van materieel belang ............................................................................... A2-A12 
 Het bepalen van het soort aanpassing van het oordeel van de auditor .................................. A13-A16 
 Vorm en inhoud van de controleverklaring indien het oordeel wordt aangepast .................... A17-A26 
 Communicatie met de met governance belaste personen .............................................................. A27 
  
-Bijlage 1: Voorbeelden van controleverklaringen met aanpassingen van het oordeel 
+## Bijlage 1: Voorbeelden van controleverklaringen met aanpassingen van het oordeel
  
 International Standard on Auditing (ISA) 705 (herzien), Communicatie met de met governance belaste 
 personen, moet worden gelezen in samenhang met ISA 200, Algehele doelstellingen van de 
 onafhankelijke auditor, alsmede het uitvoeren van een controle overeenkomstig de International 
 Standards on Auditing.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-4/31 
+## Inleiding
  
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
-Inleiding 
- 
-Toepassingsgebied van deze ISA 
+## Toepassingsgebied van deze ISA
   
 1. 
 Deze ISA behandelt de verantwoordelijkheid van de auditor om een passende verklaring af te 
@@ -196,13 +154,13 @@ afwijking van materieel belang bevatten; en
 De oordeelsvorming van de auditor over de diepgaande invloed van de gevolgen of 
 mogelijke gevolgen van de aangelegenheid op de financiële overzichten. (Zie par. A1) 
  
-Ingangsdatum 
+## Ingangsdatum
  
 3. 
 Deze ISA is van toepassing op controles van financiële overzichten over verslagperioden die op 
 of na 15 december 2016 worden afgesloten.  
  
-Doelstelling 
+## Doelstelling
  
 4. 
 De doelstelling van de auditor is het duidelijk tot uitdrukking brengen van een op passende wijze 
@@ -216,7 +174,7 @@ De auditor niet in staat is voldoende en geschikte controle-informatie te verkri
 concluderen dat de financiële overzichten als geheel geen afwijking van materieel belang 
 bevatten. 
  
-Definities 
+## Definities
  
 5. 
 Voor de toepassing van de ISA en hebben de volgende termen de hierna weergegeven betekenis:  
@@ -231,19 +189,6 @@ financiële overzichten zijn die welke, op grond van de oordeelsvorming van de a
  
 1  
 ISA 700 (herzien), Het vormen van een oordeel en het rapporteren over financiële overzichten.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-5/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
- 
 (i) 
 Niet beperkt zijn tot specifieke elementen, rekeningen of posten van de financiële 
 overzichten;  
@@ -258,7 +203,7 @@ gebruikers van de financiële overzichten.
 Aangepast oordeel – Een oordeel met beperking, een afkeurend oordeel of een 
 oordeelonthouding bij de financiële overzichten. 
  
-Vereisten 
+## Vereisten
  
 Omstandigheden waarin een aanpassing van het oordeel van de auditor vereist is 
  
@@ -310,18 +255,6 @@ zouden kunnen hebben.
 10. 
 De auditor dient een oordeelonthouding te formuleren als, in uiterst zeldzame omstandigheden 
 waarin meerdere onzekerheden meespelen, hij tot de conclusie komt dat, ondanks het feit dat hij
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-6/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 voldoende en geschikte controle-informatie heeft verkregen met betrekking tot elk van de 
 afzonderlijke onzekerheden, het niet mogelijk is een oordeel over de financiële overzichten te 
 vormen vanwege de mogelijke interactie tussen de onzekerheden en het mogelijke cumulatieve 
@@ -384,18 +317,6 @@ rekeningen of posten van een financieel overzicht te bevatten. In deze omstandig
  
 2  
 ISA 260 (herzien), Communicatie met de met governance belaste personen, paragraaf 13
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-7/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 opnemen van een dergelijk goedkeurend oordeel in dezelfde verklaring3 in tegenspraak zijn met 
 het afkeurend oordeel of de oordeelonthouding van de auditor over de financiële overzichten als 
 geheel. (Zie par. A16). 
@@ -458,18 +379,6 @@ Oordeelonthouding
 ISA 805, Bijzondere overwegingen - Controles van een enkel financieel overzicht en controles van specifieke elementen, 
 rekeningen of posten van een financieel overzicht, behandelt omstandigheden waarin de auditor de opdracht krijgt een 
 afzonderlijk oordeel over een of meer elementen, rekeningen of posten van een financieel overzicht tot uitdrukking te brengen.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-8/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 19. 
 Als de auditor een oordeelonthouding formuleert vanwege de onmogelijkheid om voldoende en 
 geschikte controle-informatie te verkrijgen, dient hij:  
@@ -538,18 +447,6 @@ Als de auditor een oordeel met beperking of afkeurend oordeel tot uitdrukking br
 auditor de vermelding dat de controle-informatie voldoende en geschikt is om een basis te vormen 
 voor zijn oordeel zoals vereist in paragraaf 28(d) van ISA 700 (herzien) aan te passen en, al naar 
 gelang passend, te wijzigen in “oordeel met beperking” of “afkeurend oordeel”.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-9/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 26. 
 Als de auditor een oordeelonthouding formuleert, dient de controleverklaring niet de elementen 
 die vereist zijn in paragrafen 28(b) en 28(d) van ISA 700 (herzien) te bevatten. Die elementen 
@@ -617,19 +514,7 @@ ISA 701, Het communiceren van kernpunten van de controle in de controleverklarin
 paragrafen 11-13. 
 5  
 ISA 720, De verantwoordelijkheden van de auditor met betrekking tot andere informatie.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-10/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
  
 Soorten aangepaste oordelen (Zie par. 2) 
  
@@ -702,18 +587,6 @@ Geschiktheid van de geselecteerde grondslagen voor financiële verslaggeving
 ISA 700 (herzien), paragraaf 11 
 7  
 ISA 450, Evaluatie van tijdens de controle geïdentificeerde afwijkingen, paragraaf 11.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-11/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 A4. 
 Met betrekking tot de geschiktheid van de door het management geselecteerde grondslagen voor 
 financiële verslaggeving kan een afwijking van materieel belang in de financiële overzichten 
@@ -783,18 +656,6 @@ De onmogelijkheid van de auditor om voldoende en geschikte controle-informatie t
  
 (a) 
 Omstandigheden waarover de entiteit geen controle heeft;
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-12/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 (b) 
 Omstandigheden die verband houden met de aard of timing van de werkzaamheden van 
 de auditor; of 
@@ -859,18 +720,6 @@ A14. In bepaalde omstandigheden is het wellicht niet mogelijk om de controleopdr
 als de auditor op grond van wet- of regelgeving verplicht is de controleopdracht voort te zetten. 
 Dit kan het geval zijn voor een auditor die is aangesteld om de financiële overzichten van 
 entiteiten in de publieke sector te controleren. Ook kan dit het geval zijn in rechtsgebieden waar
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-13/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 de auditor is aangesteld om financiële overzichten te controleren die op een specifieke periode 
 betrekking hebben of waar de auditor voor een specifieke periode is aangesteld en het verboden 
 is de controleopdracht terug te geven vóór de controle van die financiële overzichten is voltooid, 
@@ -929,18 +778,6 @@ aangelegenheden in de controleverklaring van de onafhankelijke auditor, paragraa
 Zie paragraaf A31 van ISA 700 (herzien) voor een beschrijving van deze omstandigheid. 
 10 ISA 510, Initiële controleopdrachten – Beginsaldi, paragraaf 10. 
 11 ISA 570 (herzien), Continuïteit.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-14/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 A19. Het aanpassen van deze titel maakt het voor de gebruiker duidelijk dat het oordeel van de auditor 
 aangepast is en geeft het soort aanpassing aan. 
  
@@ -999,18 +836,6 @@ Overwegingen wanneer de auditor een oordeelonthouding bij de financiële overzic
 par. 29) 
 A26. Het verschaffen van de redenen voor de onmogelijkheid van de auditor om voldoende en 
 geschikte controle-informatie in de sectie Basis voor onze oordeelonthouding in de
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-15/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 controleverklaring verschaft nuttige informatie voor gebruikers bij het begrijpen waarom de auditor 
 een oordeelonthouding bij de financiële overzichten heeft geformuleerd en kan hun verder 
 behoeden voor ongepast vertrouwen hierop. Echter communicatie van andere kernpunten van 
@@ -1051,19 +876,7 @@ bevestigen; en
 Geeft de met governance belaste personen de gelegenheid, in voorkomend geval, om aan 
 de auditor verdere informatie en uitleg te verschaffen over de aangelegenheid 
 (aangelegenheden) die aanleiding geeft (geven) tot de verwachte aanpassing(en).
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-16/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
-Bijlage 
+## Bijlage
 (Zie par. A17–A18, A25) 
 Voorbeelden van controleverklaringen over financiële overzichten (*) 
 • 
@@ -1084,18 +897,6 @@ betrekking tot één enkel element van de geconsolideerde financiële overzichte
 Voorbeeld 5: Een controleverklaring die oordeelonthouding omvat als gevolg van de 
 onmogelijkheid van de auditor om voldoende en geschikte controle-informatie te verkrijgen 
 betreffende meerdere elementen van de financiële overzichten.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-17/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 Voorbeeld 1 – Oordeel met beperking als gevolg van het feit dat de financiële overzichten 
 een van materieel belang zijnde afwijking bevatten  
  
@@ -1156,18 +957,6 @@ rapporteringsverplichtingen op grond van lokale wetgeving.
 12  ISA 600, Bijzondere overwegingen – Controles van financiële overzichten van een groep (Inclusief de werkzaamheden van 
 auditors van groepsonderdelen). 
 13  ISA 210, Overeenkomen van de voorwaarden van controleopdrachten.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-18/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
 Aan de aandeelhouders van Vennootschap ABC [of andere passende geaddresseerde]  
 Verklaring over de controle van de financiële overzichten14 
@@ -1206,18 +995,6 @@ overzichten en de controleverklaring over deze overzichten”]
  
 14  De subtitel “Verklaring over de controle van de financiële overzichten” is niet nodig in de omstandigheden dat de tweede 
 subtitel “Verklaring betreffende overige door wet- of regelgeving gestelde eisen” niet van toepassing is.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-19/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 [Verslaggeving overeenkomstig ISA 720 (herzien) – zie voorbeeld 6 in bijlage 2 van ISA 720 (herzien). 
 De laatste paragraaf van de sectie “Andere informatie” in voorbeeld 6 zal aangepast worden om het 
 specifiek punt te beschrijven dat aan de basis ligt van het oordeel met beperking en dat tevens een 
@@ -1251,18 +1028,6 @@ rechtsgebied]
 15  In deze voorbeelden van controleverklaringen kunnen de termen ‘management’ en ‘de met governance belaste personen’ 
 worden vervangen door andere bewoordingen die passend zijn in de context van het wettelijke kader van het specifieke 
 rechtsgebied.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-20/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 Voorbeeld 2 – Afkeurend oordeel als gevolg van het feit dat de geconsolideerde financiële 
 overzichten een afwijking van materieel belang bevatten 
 Voor de doelstellingen van dit voorbeeld van controleverklaring worden de volgende 
@@ -1309,18 +1074,6 @@ personen.
 • 
 Naast de controle van de geconsolideerde financiële overzichten heeft de auditor overige 
 rapporteringsverplichtingen op grond van lokale wetgeving.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-21/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
  
 Aan de aandeelhouders van Vennootschap ABC [of andere passende geadresseerde]  
@@ -1361,18 +1114,6 @@ overzichten en de controleverklaring over deze overzichten”]
  
 16  De subtitel “Verklaring over de controle van de financiële overzichten” is niet noodzakelijk wanneer de tweede subtitel 
 “Verklaring betreffende overige door de wet- of regelgeving gestelde eisen” niet van toepassing is.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-22/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 [Verslaggeving overeenkomstig ISA 720 (herzien) – zie voorbeeld 7 in bijlage 2 van ISA 720 (herzien). 
 De laatste paragraaf van de sectie “Andere informatie” in voorbeeld 7 zal aangepast worden om het 
 specifiek punt te beschrijven dat aan de basis ligt van het oordeel met beperking en dat tevens een 
@@ -1404,19 +1145,6 @@ rechtsgebied]
  
  
 17  Of andere bewoordingen die passend zijn in de context van het juridisch kader van het betrokken rechtsgebied.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-23/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
- 
 Voorbeeld 3 – Oordeel met beperking als gevolg van de onmogelijkheid van de auditor om 
 voldoende en geschikte controle-informatie te verkrijgen met betrekking tot een in het 
 buitenland verworven geassocieerde deelneming 
@@ -1461,18 +1189,6 @@ personen;
 • 
 Naast de controle van de geconsolideerde financiële overzichten heeft de auditor overige 
 rapporteringsverplichtingen op grond van lokale wetgeving.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-24/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
 Aan: de aandeelhouders van Vennootschap ABC [of andere passende geadresseerde]  
 Verklaring over de controle van de geconsolideerde financiële overzichten18 
@@ -1512,18 +1228,6 @@ overzichten en de controleverklaring over deze overzichten”]
  
 18  De subtitel “Verklaring over de controle van de financiële overzichten” is niet noodzakelijk wanneer de tweede subtitel 
 “Verklaring betreffende overige door de wet- of regelgeving gestelde.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-25/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 [Verslaggeving overeenkomstig ISA 720 (herzien) – zie Voorbeeld 6 in bijlage 2 van ISA 720 (herzien). 
 De laatste paragraaf van de sectie “Andere informatie” in voorbeeld 6 zal aangepast worden om het 
 specifiek punt te beschrijven dat aan de basis ligt van het oordeel met beperking en dat tevens een 
@@ -1556,18 +1260,6 @@ rechtsgebied]
  
 19  Of andere bewoordingen die passend zijn in de context van het juridisch kader van het betrokken rechtsgebied eisen” niet 
 van toepassing is.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-26/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 Voorbeeld 4 – Oordeelonthouding als gevolg van de onmogelijkheid van de auditor om 
 voldoende en geschikte controle-informatie te verkrijgen met betrekking tot één enkel 
 element van de geconsolideerde financiële overzichten 
@@ -1607,18 +1299,6 @@ vereist;
 • 
 Naast de controle van de geconsolideerde financiële overzichten heeft de auditor overige 
 rapporteringsverplichtingen op grond van lokale wetgeving.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-27/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
  
 Aan de aandeelhouders van Vennootschap ABC [of andere passende geadresseerde]  
@@ -1659,18 +1339,6 @@ sectie ‘Basis voor onze oordeelonthouding’ van onze verklaring, zijn we echt
 20  De subtitel “Verklaring over de controle van de financiële overzichten” is niet noodzakelijk wanneer de tweede subtitel 
 “Verklaring betreffende overige door de wet- of regelgeving gestelde eisen” niet van toepassing is. 
 21  Of andere bewoordingen die passend zijn in de context van het juridisch kader van het betrokken rechtsgebied.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-28/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 voldoende en geschikte controle-informatie te verkrijgen om een basis voor een controleoordeel over 
 deze geconsolideerde financiële overzichten te verschaffen.  
 Wij zijn onafhankelijk van de Groep in overeenstemming met de ethische vereisten die relevant zijn voor 
@@ -1685,18 +1353,6 @@ onafhankelijke auditor, is [Naam]
 rechtsgebied] 
 [Adres van de Auditor]  
 [Datum]
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-29/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 Voorbeeld 5 – Oordeelonthouding als gevolg van de onmogelijkheid van de auditor om 
 voldoende en geschikte controle-informatie te verkrijgen met betrekking tot meerdere 
 elementen van de financiële overzichten 
@@ -1731,18 +1387,6 @@ Een beperktere beschrijving van de sectie over de verantwoordelijkheden van de a
 • 
 Naast de controle van de financiële overzichten heeft de auditor overige rapporterings-
 verplichtingen op grond van lokale wetgeving.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-30/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
 Aan de aandeelhouders van Vennootschap ABC [of andere passende geadresseerde]  
 Verklaring over de controle van de geconsolideerde financiële overzichten22 
@@ -1783,18 +1427,6 @@ te voeren overeenkomstig de International Standards on Auditing en om een contro
 22  De subtitel “Verklaring over de controle van de financiële overzichten” is niet noodzakelijk wanneer de tweede subtitel 
 “Verklaring betreffende overige door de wet- of regelgeving gestelde eisen” niet van toepassing is. 
 23  Of andere bewoordingen die passend zijn in de context van het juridisch kader van het betrokken rechtsgebied.
-
-AANPASSINGEN VAN HET OORDEEL IN DE CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
-ISA 705 (herzien) 
-NBA-IBR 2022 
-31/31 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 brengen. Vanwege de significantie van de aangelegenheid beschreven in de sectie ‘Basis voor onze 
 oordeelonthouding’ van onze verklaring, zijn we echter niet in staat geweest om voldoende en 
 geschikte controle-informatie te verkrijgen om een basis voor een controleoordeel over deze financiële 

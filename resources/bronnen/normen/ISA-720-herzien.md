@@ -9,7 +9,7 @@ itaa-lex-sectie: ISA
 norm: ISA 720 (herzien) — De verantwoordelijkheden van de auditor met betrekking tot
   andere informatie
 provenance:
-  generated_at: '2026-05-16T19:30:12Z'
+  generated_at: '2026-05-17T00:03:11Z'
   inputs:
   - id: https://www.ibr-ire.be/docs/default-source/nl/documents/regelgeving-en-publicaties/rechtsleer/normen-en-aanbevelingen/isa-s/nieuwe-en-herziene-isa-s/new-and-revised-isas-2017-update-24062019/isa-720-(herzien)_nl_2023.pdf
     sha256: a6e4e798a8c86aaf934f3e31eaf0a36444a7e836e9f8211c973358f0228191b6
@@ -18,23 +18,20 @@ provenance:
   stale_reason: null
   tooling:
     model: null
-    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5)
+    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5) + tools/etl/apply_isa_transformers.py
     pipeline_version: '1.0'
     prompt_version: null
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: pymupdf-conversie via tools/download/scrape_ibr_isa.py extraheerde
-      tekst lineair zonder structurele heading-injectie (0 ##-headings in body). Page-footers
-      ('ALGEHELE DOELSTELLINGEN ... ISA 200 NBA-IBR 2022 N/M Originele bron: Handbook ... Versie
-      2023') repeteren ~elke pagina inline. Paragraph-numbers ('1.', '2.') staan op aparte
-      regels van hun body-tekst, en bullets ('• item') zijn losgekoppeld van hun bullet-marker.
-      RAG-chunking faalt zonder heading-grenzen — ETL-fix nodig: inject_headings_isa +
-      strip_isa_page_footers transformers.
+    confirmed_at: '2026-05-17T00:04:00Z'
+    confirmed_by: subagent-isa-transformers-2026-05-17
     layer1: null
     layer2: null
+    rationale: 'QA-pass 2026-05-17: post-strip_isa_page_footers + inject_headings_isa:
+      0 NBA-IBR page-footer regels in body en ≥7 ##-headings (Inleiding, Doelstelling(en),
+      Definities, Vereisten, Toepassingsgerichte teksten, Ingangsdatum, Bijlage).
+      Sentence-flow visueel intact; RAG-chunking nu structureel ankerbaar. Promoted
+      naar trusted.'
+    status: trusted
 status: beschikbaar
 tags:
 - ISA
@@ -62,16 +59,6 @@ ISA 720 (herzien)
 De verantwoordelijkheden van de 
 auditor met betrekking tot andere 
 informatie
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-2/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Over de IAASB 
  
 Copyright IFAC 
@@ -100,16 +87,6 @@ and Related Services Pronouncements, 2022 Edition Volume I - ISBN number: 978-1-
  
 Neem contact op met permissions@ifac.org voor toestemming om dit document te reproduceren, op te 
 slaan of door te geven, of voor ander soortgelijk gebruik van dit document.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-3/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 INTERNATIONALE CONTROLESTANDAARD 720 (HERZIEN) 
  
 DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET 
@@ -124,12 +101,12 @@ normen (voor de verslagperiode die op of na 15 december aanvangen).
  
 INHOUDSOPGAVE 
 Paragraaf 
-Inleiding 
+## Inleiding
 Toepassingsgebied van deze ISA ......................................................................................................... 1-9 
 Ingangsdatum................................................................................................................................................  10 
 Doelstellingen .................................................................................................................................  11 
 Definities ................................................................................................................................................. 12 
-Vereisten 
+## Vereisten
 Verkrijgen van andere informatie ....................................................................................................... 13 
 Lezen en overwegen van de andere informatie  ......................................................................... 14-15 
 Reageren wanneer een inconsistentie van materieel belang lijkt te bestaan of de andere 
@@ -141,7 +118,7 @@ financiële overzichten bestaat of het inzicht van de auditor in de entiteit en 
 worden geactualiseerd ....................................................................................................................... 20 
 Rapportage ................................................................................................................................... 21-24 
 Documentatie ..................................................................................................................................... 25 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 Definities  ................................................................................................................................... A1-A10 
 Verkrijgen van andere informatie ............................................................................................. A11-A22 
 Lezen en overwegen van de andere informatie ....................................................................... A23-A38 
@@ -150,20 +127,10 @@ informatie een afwijking van materieel belang lijkt te bevatten ................
 Reageren wanneer de auditor concludeert dat er een afwijking van materieel belang in de 
 andere informatie bestaat ........................................................................................................ A44-A50 
 Reageren wanneer er een afwijking van materieel belang in de financiële overzichten bestaat
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-4/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 of het inzicht van de auditor in de entiteit en haar omgeving moet worden geactualiseerd ........... A51 
 Rapportage ............................................................................................................................. A52-A59 
  
-Bijlage 1:  Voorbeelden van bedragen of andere elementen die kunnen worden opgenomen in de 
+## Bijlage 1:  Voorbeelden van bedragen of andere elementen die kunnen worden opgenomen in de
 andere informatie  
 Bijlage 2: 
 Voorbeelden van controleverklaringen met betrekking tot andere informatie 
@@ -172,19 +139,9 @@ International Standard on Auditing (ISA) 720 (herzien), De verantwoordelijkheden
 betrekking tot andere informatie, moet worden gelezen in samenhang met ISA 200, Algehele 
 doelstellingen van de onafhankelijke auditor, alsmede het uitvoeren van een controle overeenkomstig 
 de International Standards on Auditing.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-5/45 
+## Inleiding
  
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
-Inleiding 
- 
-Toepassingsgebied van deze ISA 
+## Toepassingsgebied van deze ISA
  
 1. 
 Deze ISA behandelt de verantwoordelijkheden van de auditor met betrekking tot andere 
@@ -251,27 +208,17 @@ ISA 200, Algehele doelstellingen van de onafhankelijke auditor, alsmede het uitv
 International Standards on Auditing. 
 2  
 International Ethics Standards Board for Auditors Code of Ethics for Professional Accountants (IFAC Code), paragraph R111.2.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-6/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 9. 
 Wet- of regelgeving kan additionele verplichtingen aan de auditor opleggen met betrekking tot 
 andere informatie die verder gaan dan de reikwijdte van deze ISA. 
   
-Ingangsdatum 
+## Ingangsdatum
  
 10. 
 Deze ISA is van toepassing op controles van financiële overzichten over verslagperioden die op 
 of na 15 december 2016 worden afgesloten.  
  
-Doelstellingen 
+## Doelstellingen
  
 11. 
 De doelstellingen van de auditor zijn, nadat hij de andere informatie heeft gelezen: 
@@ -290,7 +237,7 @@ te bevatten; en
 (d) 
 Om overeenkomstig deze ISA te rapporteren. 
  
-Definities 
+## Definities
  
 12. 
 Voor de toepassing van de ISA’s en hebben de volgende termen de hierna weergegeven 
@@ -317,7 +264,7 @@ Andere informatie – Financiële of niet-financiële informatie (anders dan de 
 overzichten en de daarbij horende controleverklaring ) opgenomen in het jaarrapport van 
 een entiteit. (Zie par. A8-A10) 
  
-Vereisten 
+## Vereisten
  
 Verkrijgen van de andere informatie 
  
@@ -332,16 +279,6 @@ document(en) door de entiteit;
 Passende afspraken te maken met het management om tijdig en, indien mogelijk, vóór de 
 datum van de controleverklaring, de definitieve versie van het(de) document(en) waaruit 
 het jaarrapport bestaat te verkrijgen; en
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-7/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 (c) 
 Wanneer sommige of alle documenten bepaald in (a) niet beschikbaar zijn tot na de datum 
 van de controleverklaring, het management te verzoeken om een schriftelijke bevestiging 
@@ -413,16 +350,6 @@ passende maatregelen te nemen, inclusief: (Zie par. A44)
  
 (a) 
 De implicaties voor de controleverklaring te overwegen en te communiceren met de
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-8/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 personen belast met governance over hoe de auditor plant om de afwijking van materieel 
 belang in de controleverklaring te behandelen (zie paragraaf 22(e)(ii)); of (Zie par. A45) 
 (b) 
@@ -498,16 +425,6 @@ Wanneer andere informatie is verkregen vóór de datum van de controleverklaring
  
 (i) 
 Een vermelding dat de auditor niets heeft te rapporteren; of
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-9/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 (ii) 
 Als de auditor heeft geconcludeerd dat er een ongecorrigeerde afwijking van 
 materieel belang in de andere informatie is, een vermelding die de ongecorrigeerde 
@@ -552,9 +469,9 @@ vereiste werk heeft uitgevoerd.
  
 **** 
  
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
  
-Definities 
+## Definities
  
 Jaarrapport (Zie par. 12(a)) 
  
@@ -580,16 +497,6 @@ overzichten (b.v. een jaarrapport) bij wijze van één enkel document of twee of
 ISA 705 (herzien), Aanpassingen van het oordeel in de controleverklaring van de onafhankelijke auditor. 
 4  
 ISA 230, Controledocumentatie, paragrafen 8-11.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-10/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 documenten die in combinatie hetzelfde doel dienen. Bijvoorbeeld, afhankelijk van wet- of 
 regelgeving of gebruik in een bepaald rechtsgebied, kunnen één of meer van de volgende 
 documenten deel uitmaken van het jaarrapport: 
@@ -665,16 +572,6 @@ gebruikers als een groep. De gebruikers van de andere informatie worden veronder
 dezelfde te zijn als de gebruikers van de financiële overzichten aangezien dergelijke 
 gebruikers worden verondersteld de andere informatie te lezen om de financiële 
 overzichten van context te voorzien;
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-11/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 • 
 Oordeelsvormingen over materialiteit houden rekening met de specifieke omstandigheden 
 van de afwijking, overwegend of gebruikers beïnvloed zouden worden door het effect van 
@@ -740,17 +637,6 @@ Bijvoorbeeld IFRS 7, “Financiële instrumenten: Toelichtingen” staat toe om 
 in de financiële overzichten te geven of met verwijzing vanuit de financiële overzichten op te nemen in een ander overzicht 
 zoals het management commentaar of de risicorapportage, die beschikbaar is voor gebruikers van de financiële 
 overzichten op dezelfde voorwaarden als de financiële overzichten en op dezelfde tijd.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-12/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 A14. De communicatie waarnaar wordt verwezen in paragraaf A13 kan bijzonder geschikt zijn 
 bijvoorbeeld: 
  
@@ -820,16 +706,6 @@ ISA 5607 bij te werken.
 ISA 210, Overeenkomen van de voorwaarden van controleopdrachten, paragraaf A24. 
 7  
 ISA 560, Gebeurtenissen na de einddatum van de verslagperiode.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-13/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 A22. ISA 5808 stelt vereisten vast en geeft leidraden voor het gebruik van schriftelijke bevestigingen. 
 De schriftelijke bevestiging vereist in paragraaf 13 (c) met betrekking tot andere informatie die 
 beschikbaar zal zijn na de datum van de controleverklaring, is bedoeld ter ondersteuning van de 
@@ -899,16 +775,6 @@ ISA 580, Schriftelijke bevestigingen.
 ISA 200, paragraaf 15. 
 10  ISA 220 (herzien), Kwaliteitsmanagement voor een controle van financiële overzichten, paragrafen 29-30. 
 11  ISA 220 (herzien), paragraaf 30(a).
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-14/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Beschouwen of er een inconsistentie van materieel belang is tussen de andere informatie en de 
 financiële overzichten (Zie par. 14(a)) 
  
@@ -983,16 +849,6 @@ Vergelijken van elementen in de aansluiting met de financiële overzichten en de
 andere informatie; en 
 o 
 Controleren of de berekeningen in de aansluiting rekenkundig juist zijn.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-15/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 A29. Evalueren van de consistentie van geselecteerde bedragen of andere elementen in de andere 
 informatie met de financiële overzichten omvat, wanneer dit relevant is gegeven de aard van de 
 andere informatie, de wijze van hun presentatie vergeleken met de financiële overzichten. 
@@ -1058,17 +914,6 @@ belang bestaat tussen de andere informatie en de kennis van de auditor verkregen
 zonder dat het noodzakelijk is om verdere actie te ondernemen. 
  
 12  ISA 315 (herzien 2019), Risico’s op een afwijking van materieel belang identificeren en inschatten, paragraaf 19-27.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-16/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 A35. De auditor kan bepalen dat het verwijzen naar relevante controledocumentatie of het bij relevante 
 leden van het opdrachtteam of relevante auditors van groepsonderdelen verzoeken om 
 inlichtingen geschikt is als basis voor de overweging van de auditor of een inconsistentie van 
@@ -1131,16 +976,6 @@ het management worden verzocht onderbouwingen te verstrekken welke de vermelding
 het management in de andere informatie ondersteunen. Verdere informatie of uitleg van het 
  
 13  IESBA Code, paragraaf R111.2.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-17/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 management kan de auditor ervan overtuigen dat de andere informatie geen afwijking van 
 materieel belang bevat. Uitleg van het management kan bijvoorbeeld redelijke en voldoende 
 gronden voor geldige verschillen van oordeelsvorming aangeven. 
@@ -1201,16 +1036,6 @@ niet maken van de correctie twijfel over de integriteit of eerlijkheid van het m
 personen belast met governance verhoogt, zoals wanneer de auditor een intentie om te misleiden 
 vermoedt. De auditor kan ook het passend achten om juridisch advies in te winnen. In sommige 
 gevallen kan van de auditor worden vereist door wet- of regelgeving of andere professionele
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-18/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 standaarden om de aangelegenheid te communiceren met een regelgever of toezichthouder of 
 relevante beroepsorganisatie. 
  
@@ -1271,16 +1096,6 @@ gewijzigde controleverklaring te verstrekken aan
 gebruikers voor wie de controleverklaring wordt opgesteld. Daarbij kan het nodig zijn dat 
 de auditor het eventuele effect op de datum van de nieuwe of gewijzigde controleverklaring 
 overweegt, met het oog op de vereisten van de ISA’s of toepasselijke wet- of regelgeving.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-19/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 De auditor kan ook de stappen genomen door het management om de nieuwe of gewijzigde 
 controleverklaring aan dergelijke gebruikers te verschaffen, beoordelen; 
 • 
@@ -1346,16 +1161,6 @@ zijn zoals beschreven in de paragrafen A55-A58.
 14  ISA 315 (herzien 2019), paragrafen 19-26 en 37. 
 15 ISA 450, Evaluatie van tijdens de controle geïdentificeerde afwijkingen. 
 16 ISA 560, paragrafen 10 en 14.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-20/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Oordeel met beperking vanwege een afwijking van materieel belang in de financiële overzichten 
  
 A55. In omstandigheden waarin de auditor een oordeel met beperking tot uitdrukking brengt, kan 
@@ -1416,31 +1221,10 @@ de elementen die in paragraaf 24 zijn geïdentificeerd, is opgenomen in de contr
 de controleverklaring verwijzen naar de International Standards on Auditing. Dienovereenkomstig, 
  
 17 ISA 200, paragraaf A60.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-21/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 in dergelijke omstandigheden wordt de auditor geacht te hebben voldaan aan de vereisten van 
 deze ISA, zelfs wanneer de lay-out en de formulering van de controleverklaring worden 
 gespecificeerd door vereisten op grond van wet- of regelgeving.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-22/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
-Bijlage 1 
+## Bijlage 1
 (Zie par. 14, A8) 
  
 Voorbeelden van bedragen of andere elementen die kunnen worden opgenomen in de andere 
@@ -1515,16 +1299,6 @@ gebeurtenissen,
 inclusief 
 kwalitatieve beoordelingen van het management van gerelateerde uitstaande bedragen van de 
 entiteit.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-23/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 • 
 Beschrijvingen van de wijzigingen in wet- en regelgeving, zoals nieuwe belastingen of 
 milieuvoorschriften, die een materiële invloed hebben gehad op de activiteiten van de entiteit of 
@@ -1546,17 +1320,7 @@ Contrasten van vraag, aanbod en regelgevende omstandigheden tussen geografische 
 • 
 Uitleg van specifieke factoren die de winstgevendheid van de entiteit in specifieke segmenten 
 beïnvloeden.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-24/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
-Bijlage 2 
+## Bijlage 2
 (Zie par. 21-22, A53) 
  
 Voorbeelden van controleverklaringen betreffende andere informatie 
@@ -1598,16 +1362,6 @@ Voorbeeld 7 : Controleverklaring over financiële overzichten van een beursgenot
 niet-beursgenoteerde entiteit, die een afkeurend oordeel omvat, wanneer de auditor alle andere 
 informatie heeft verkregen voor de datum van zijn controleverklaring en zijn afkeurend oordeel 
 over de geconsolideerde financiële overzichten tevens de andere informatie betreft
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-25/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Voorbeeld 1 – Controleverklaring over financiële overzichten van een beursgenoteerde of van 
 een niet-beursgenoteerde entiteit, die een niet-aangepast oordeel omvat, wanneer de auditor alle 
 andere informatie heeft verkregen voor de datum van de controleverklaring en heeft geen 
@@ -1655,16 +1409,6 @@ op grond van lokale wetgeving.
  
  
 18  ISA 570 (herzien), Continuïteit.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-26/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
  
 Aan: de aandeelhouders van Vennootschap ABC [of andere passende geadresseerde]  
@@ -1723,16 +1467,6 @@ verkregen in de controle, dan wel of een afwijking van materieel belang in de an
 21  Of andere bewoordingen die passend zijn in de context van het wettelijke kader van het specifieke rechtsgebied 
 22  Een meer specifieke beschrijving voor het aanduiden van de andere informatie kan gehanteerd worden, bijvoorbeeld “het 
 management rapport of de mededeling van de voorzitter”.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-27/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 bestaat. Indien wij, in het licht van de werkzaamheden die wij hebben uitgevoerd, concluderen dat 
 een afwijking van materieel belang in de andere informatie bestaat, dienen wij u dit te communiceren. 
 Wij hebben u hierover niets te rapporteren. 
@@ -1765,16 +1499,6 @@ rechtsgebied]
 financiële overzichten voor algemene doeleinden van beursgenoteerde entiteiten, tenzij in zeldzame omstandigheden, van 
 een dergelijke toelichting redelijkerwijs verwacht wordt dat deze leidt tot een significante bedreiging voor de persoonlijke 
 veiligheid. (ISA 700 (herzien), paragraaf 46).
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-28/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Voorbeeld 2 – Controleverklaring over financiële overzichten van een beursgenoteerde entiteit, 
 die een niet-aangepast oordeel omvat, wanneer de auditor een deel van de andere informatie 
 heeft verkregen voor de datum van zijn controleverklaring en verwacht de andere informatie te 
@@ -1816,16 +1540,6 @@ het opstellen van de financiële overzichten belaste personen;
 • 
 Naast de controle van de financiële overzichten heeft de auditor overige rapporteringsverplichtingen 
 op grond van lokale wetgeving.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-29/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
  
 Aan: de aandeelhouders van Vennootschap ABC [of andere passende geadresseerde]  
@@ -1884,16 +1598,6 @@ verkregen in de controle, dan wel of een afwijking van materieel belang in de an
 27  Of andere bewoordingen die passend zijn in de context van het wettelijke kader van het specifieke rechtsgebied 
 28  Een meer specifieke beschrijving voor het aanduiden van de andere informatie kan gehanteerd worden, bijvoorbeeld “het 
 management rapport of de mededeling van de voorzitter”.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-30/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 bestaat.  
  
 Indien wij, in het licht van de werkzaamheden die wij hebben uitgevoerd, concluderen dat een afwijking 
@@ -1935,16 +1639,6 @@ heeft om desbetreffend specifieke maatregelen te nemen.
 financiële overzichten voor algemene doeleinden van beursgenoteerde entiteiten, tenzij in zeldzame omstandigheden, van 
 een dergelijke toelichting redelijkerwijs verwacht wordt dat deze leidt tot een significante bedreiging voor de persoonlijke 
 veiligheid. (ISA 700 (herzien), paragraaf 46).
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-31/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Voorbeeld 3 : Controleverklaring over financiële overzichten van een niet-beursgenoteerde 
 entiteit, die een niet-aangepast oordeel omvat, wanneer de auditor een deel van de andere 
 informatie heeft verkregen voor de datum van zijn controleverklaring, geen afwijking van 
@@ -1989,16 +1683,6 @@ het opstellen van de financiële overzichten belaste personen;
 • 
 Naast de controle van de financiële overzichten heeft de auditor overige rapporteringsverplichtingen 
 op grond van lokale wetgeving.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-32/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
  
 Aan: de aandeelhouders van Vennootschap ABC [of andere passende geadresseerde]  
@@ -2057,17 +1741,6 @@ overzichten belaste personen 36
 35  Een meer specifieke beschrijving voor het aanduiden van de andere informatie kan gehanteerd worden, bijvoorbeeld “het 
 management rapport of de mededeling van de voorzitter”.  
 36  Of andere passende bewoordingen die passend zijn in de context van het wettelijke kader van het specifieke rechtsgebied.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-33/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Verantwoordelijkheden van de auditor voor de controle van de financiële overzichten 
 [Verslaggeving overeenkomstig ISA 700 (herzien) – zie Voorbeeld 1 in ISA 700 (herzien)] 
  
@@ -2080,16 +1753,6 @@ rechtsgebied]
 [Adres van de Auditor]  
  
 [Datum]
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-34/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Voorbeeld 4 : Controleverklaring over financiële overzichten van een beursgenoteerde entiteit, 
 die een niet-aangepast oordeel omvat, wanneer de auditor geen andere informatie heeft 
 verkregen voor de datum van zijn controleverklaring, maar verwacht de andere informatie te 
@@ -2131,16 +1794,6 @@ het opstellen van de financiële overzichten belaste personen;
 • 
 Naast de controle van de financiële overzichten heeft de auditor overige rapporteringsverplichtingen 
 op grond van lokale wetgeving.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-35/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
  
 Aan: de aandeelhouders van Vennootschap ABC [of andere passende geadresseerde]  
@@ -2199,16 +1852,6 @@ verkregen in de controle, dan wel of een afwijking van materieel belang in de an
 38  Of andere bewoordingen die passend zijn in de context van het wettelijke kader van het specifieke rechtsgebied 
 39  Een meer specifieke beschrijving voor het aanduiden van de andere informatie kan gehanteerd worden, bijvoorbeeld “het 
 management rapport of de mededeling van de voorzitter”.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-36/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 bestaat.  
  
  [Indien wij, bij het lezen van rapport X, concluderen dat een afwijking van materieel belang in dit 
@@ -2246,16 +1889,6 @@ heeft om desbetreffend specifieke maatregelen te nemen.
 financiële overzichten voor algemene doeleinden van beursgenoteerde entiteiten, tenzij in zeldzame omstandigheden, van 
 een dergelijke toelichting redelijkerwijs verwacht wordt dat deze leidt tot een significante bedreiging voor de persoonlijke 
 veiligheid. (ISA 700 (herzien), paragraaf 46).
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-37/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Voorbeeld 5 : Controleverklaring over financiële overzichten van een beursgenoteerde of van 
 een niet-beursgenoteerde entiteit, die een niet-aangepast oordeel omvat, wanneer de auditor alle 
 andere informatie heeft verkregen voor de datum van zijn controleverklaring en geen afwijking 
@@ -2297,16 +1930,6 @@ het opstellen van de financiële overzichten belaste personen;
 • 
 Naast de controle van de financiële overzichten heeft de auditor overige rapporteringsverplichtingen 
 op grond van lokale wetgeving.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-38/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
  
 Aan: de aandeelhouders van Vennootschap ABC [of andere passende geadresseerde]  
@@ -2367,16 +1990,6 @@ rechtsgebied
 45  
 Een meer specifieke beschrijving voor het aanduiden van de andere informatie kan gehanteerd worden, 
 bijvoorbeeld “het management rapport of de mededeling van de voorzitter”.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-39/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 [Kernpunten van onze controle46 
 Kernpunten van onze controle betreffen die aangelegenheden die naar ons professioneel oordeel het 
 meest significant waren bij de controle van de financiële overzichten van de huidige verslagperiode. 
@@ -2415,16 +2028,6 @@ De sectie “Kernpunten van onze controle” is enkel vereist in het geval van b
 financiële overzichten voor algemene doeleinden van beursgenoteerde entiteiten, tenzij in zeldzame omstandigheden, van 
 een dergelijke toelichting redelijkerwijs verwacht wordt dat deze leidt tot een significante bedreiging voor de persoonlijke 
 veiligheid. (ISA 700 (herzien), paragraaf 46).
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-40/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Voorbeeld 6 : Controleverklaring over financiële overzichten van een beursgenoteerde of van 
 een niet-beursgenoteerde entiteit, die een oordeel met beperking omvat, wanneer de auditor alle 
 andere informatie heeft verkregen voor de datum van zijn controleverklaring en er een beperking 
@@ -2470,16 +2073,6 @@ verschillend van de met het opstellen van de geconsolideerde financiële overzic
 personen; 
 • 
 De auditor heeft geen overige rapporteringsverplichtingen op grond van lokale wetgeving.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-41/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
  
 Aan: de aandeelhouders van Vennootschap ABC [of andere passende geadresseerde]  
@@ -2539,16 +2132,6 @@ rechtsgebied
 50  
 Een meer specifieke beschrijving voor het aanduiden van de andere informatie kan gehanteerd worden, 
 bijvoorbeeld “het management rapport of de mededeling van de voorzitter”.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-42/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 belang in de andere informatie bestaat.  
  
 Indien wij, in het licht van de werkzaamheden die wij hebben uitgevoerd, concluderen dat een afwijking 
@@ -2597,16 +2180,6 @@ van toepassing is.
 financiële overzichten voor algemene doeleinden van beursgenoteerde entiteiten, tenzij in zeldzame omstandigheden, van 
 een dergelijke toelichting redelijkerwijs verwacht wordt dat deze leidt tot een significante bedreiging voor de persoonlijke 
 veiligheid. (ISA 700 (herzien), paragraaf 46).
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-43/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Voorbeeld 7 : Controleverklaring over financiële overzichten van een beursgenoteerde of van 
 een niet-beursgenoteerde entiteit, die een afkeurend oordeel omvat, wanneer de auditor alle 
 andere informatie heeft verkregen voor de datum van zijn controleverklaring en zijn afkeurend 
@@ -2652,16 +2225,6 @@ verschillend van de met het opstellen van de geconsolideerde financiële overzic
 personen. 
 • 
 De auditor heeft geen overige rapporteringsverplichtingen op grond van lokale wetgeving.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-44/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
  
 Aan: de aandeelhouders van Vennootschap ABC [of andere passende geadresseerde]  
@@ -2720,16 +2283,6 @@ belang in de andere informatie bestaat.
 54  Of andere bewoordingen die passend zijn in de context van het wettelijke kader van het specifieke rechtsgebied 
 55  Een meer specifieke beschrijving voor het aanduiden van de andere informatie kan gehanteerd worden, bijvoorbeeld “het 
 management rapport of de mededeling van de voorzitter”.
-
-DE VERANTWOORDELIJKHEDEN VAN DE AUDITOR MET BETREKKING TOT ANDERE INFORMATIE 
-ISA 720 (herzien) 
-NBA-IBR 2022 
-45/45 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Indien wij, in het licht van de werkzaamheden die wij hebben uitgevoerd, concluderen dat een afwijking 
 van materieel belang in de andere informatie bestaat, dienen wij u dit te communiceren. Zoals 
 beschreven in de sectie “Basis voor ons afkeurend oordeel”, zou de dochtervennootschap XYZ moeten 

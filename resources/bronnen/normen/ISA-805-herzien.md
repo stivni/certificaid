@@ -9,7 +9,7 @@ itaa-lex-sectie: ISA
 norm: ISA 805 (herzien) — Bijzondere overwegingen — Controles van enkelvoudige financiële
   overzichten en specifieke elementen, rekeningen of posten van een financieel overzicht
 provenance:
-  generated_at: '2026-05-16T19:30:12Z'
+  generated_at: '2026-05-17T00:03:11Z'
   inputs:
   - id: https://www.ibr-ire.be/docs/default-source/nl/documents/regelgeving-en-publicaties/rechtsleer/normen-en-aanbevelingen/isa-s/nieuwe-en-herziene-isa-s/isa-805-herzien-def.pdf
     sha256: 71520a94bd2afe4a1466d7930d48daa0001ce14bdbc120b9e3fc280f28c6e5de
@@ -18,23 +18,20 @@ provenance:
   stale_reason: null
   tooling:
     model: null
-    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5)
+    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5) + tools/etl/apply_isa_transformers.py
     pipeline_version: '1.0'
     prompt_version: null
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: pymupdf-conversie via tools/download/scrape_ibr_isa.py extraheerde
-      tekst lineair zonder structurele heading-injectie (0 ##-headings in body). Page-footers
-      ('ALGEHELE DOELSTELLINGEN ... ISA 200 NBA-IBR 2022 N/M Originele bron: Handbook ... Versie
-      2023') repeteren ~elke pagina inline. Paragraph-numbers ('1.', '2.') staan op aparte
-      regels van hun body-tekst, en bullets ('• item') zijn losgekoppeld van hun bullet-marker.
-      RAG-chunking faalt zonder heading-grenzen — ETL-fix nodig: inject_headings_isa +
-      strip_isa_page_footers transformers.
+    confirmed_at: '2026-05-17T00:04:00Z'
+    confirmed_by: subagent-isa-transformers-2026-05-17
     layer1: null
     layer2: null
+    rationale: 'QA-pass 2026-05-17: post-strip_isa_page_footers + inject_headings_isa:
+      0 NBA-IBR page-footer regels in body en ≥7 ##-headings (Inleiding, Doelstelling(en),
+      Definities, Vereisten, Toepassingsgerichte teksten, Ingangsdatum, Bijlage).
+      Sentence-flow visueel intact; RAG-chunking nu structureel ankerbaar. Promoted
+      naar trusted.'
+    status: trusted
 status: beschikbaar
 tags:
 - ISA
@@ -131,16 +128,16 @@ ISA 700 (herzien) is opgesteld, evenals bepaalde bepalingen uit de normen ISA 26
  
 INHOUDSOPGAVE 
 Paragraaf 
-Inleiding 
+## Inleiding
 Toepassingsgebied van deze ISA ........................................................................................................... 1-3 
 Ingangsdatum ........................................................................................................................................ 4 
 Doelstellingen ............................................................................................................................................ 5 
 Definities ............................................................................................................................................... 6 
-Vereisten 
+## Vereisten
 Overwegingen bij het aanvaarden van de opdracht ............................................................................ 7-9 
 Overwegingen bij het plannen en uitvoeren van de controle ............................................................... 10 
 Het vormen van een oordeel en overwegingen bij het rapporteren ................................................ 11-17 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 Reikwijdte van deze ISA ........................................................ Error! Reference source not found.-A4 
 Overwegingen bij het aanvaarden van de opdracht .......................................................................... A5-A9 
 Overwegingen bij het plannen en uitvoeren van de controle ....................................................... 10-A15 
@@ -155,20 +152,8 @@ financieel overzicht en controles van specifieke elementen, rekeningen of posten
 overzicht, moet worden gelezen in samenhang met ISA 200, Algehele doelstellingen van de 
 onafhankelijke auditor, alsmede het uitvoeren van een controle overeenkomstig de International 
 Standards on Auditing.
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
- 
-ISA 805 (herzien)           
-NBA-IBR 2025  
-4/27                                                
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
- 
- 
-Inleiding 
-Toepassingsgebied van deze ISA 
+## Inleiding
+## Toepassingsgebied van deze ISA
 1. 
 De ISA’s in de reeksen 100 tot en met 700 zijn van toepassing op een controle van financiële 
 overzichten en dienen voor zover noodzakelijk te worden toegepast onder de omstandigheden 
@@ -191,14 +176,14 @@ van een groep. (Zie ISA 600 (herzien)2).
 Deze ISA doet geen afbreuk aan de vereisten van de overige ISA’s; noch is zij erop gericht alle 
 bijzondere overwegingen te behandelen die relevant kunnen zijn in de omstandigheden van de 
 opdracht. 
-Ingangsdatum 
+## Ingangsdatum
 4. 
 Deze ISA is van toepassing op controles van enkele financiële overzichten of op controles van 
 specifieke elementen, rekeningen of posten over verslagperioden die op of na 15 december 2016 
 worden afgesloten. In het geval van controles van enkele financiële overzichten of controles van 
 specifieke elementen, rekeningen of posten van een financieel overzicht op een bepaalde datum, 
 is deze ISA alleen van toepassing op controles van dergelijke informatie vanaf 15 december 2016. 
-Doelstelling 
+## Doelstelling
 5. 
 De doelstelling van de auditor, wanneer de ISA’s worden toegepast bij een controle van een enkel 
 financieel overzicht of van een specifiek element, rekening of post van een financieel overzicht, is 
@@ -207,7 +192,7 @@ a) de aanvaarding van de opdracht;
 b) het plannen en uitvoeren van die opdracht; alsmede 
 c) het vormen van een oordeel en het rapporteren over het enkel financieel overzicht of over het 
 specifieke element, de rekening of de post van een financieel overzicht. 
-Definities 
+## Definities
 6. 
 In het kader van deze ISA, verwijst: 
 a) element van een financieel overzicht of element - Naar een ‘element, rekening of post van 
@@ -217,21 +202,13 @@ een financieel overzicht.
 stelsels voor bijzondere doeleinden. 
 2 ISA 600 (herzien), Bijzondere overwegingen – controles van financiële overzichten van een groep (inclusief de 
 werkzaamheden van auditors van groepsonderdelen)
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien)                                                                            NBA-IBR 2025                                                                                              5/27                                          
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
- 
 b) International Financial Reporting Standards - Naar de International Financial Reporting 
 Standards (IFRS) uitgebracht door de International Accounting Standards Board; alsmede 
 c) een enkel financieel overzicht of een specifiek element van een financieel overzicht - Mede 
 naar de daarop betrekking hebbende toelichtingen. De toelichtingen bestaan gewoonlijk uit 
 verklarende of andere beschrijvende informatie die relevant is voor het financieel overzicht of 
 voor het element. (Zie Par. A2) 
-Vereisten 
+## Vereisten
 Overwegingen bij het aanvaarden van de opdracht 
 Toepassing van de ISA’s 
 7. 
@@ -287,14 +264,6 @@ International Standards on Auditing, paragraaf 18.
 6 ISA 200, paragraaf 2. 
 7 Paragraaf 13 f) van ISA 200 uitlegt dat de term “financiële overzichten” gewoonlijk naar een complete set financiële 
 overzichten zoals vastgelegd door de vereisten van het van toepassing zijnde stelsel inzake financiële verslaggeving verwijst.
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien)                                                                            NBA-IBR 2025                                                                                              6/27                                          
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
- 
 Het vormen van een oordeel en overwegingen bij het rapporteren 
 11. 
 Bij het vormen van een oordeel en het rapporteren over een enkel financieel overzicht of over een 
@@ -350,14 +319,6 @@ aangelegenheden in de controleverklaring van de onafhankelijke auditor
 12 ISA 701, Het communiceren van kernpunten van de controle in de controleverklaring van de onafhankelijke auditor, paragraaf 
 13 
 13 ISA 720 (herzien), De verantwoordelijkheden van de auditor met betrekking tot andere informatie, paragraaf 22(e)(ii)
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien)                                                                            NBA-IBR 2025                                                                                              7/27                                          
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
- 
 15. 
 Indien de auditor concludeert dat het noodzakelijk is om een afkeurend oordeel tot uitdrukking te 
 brengen, of om een oordeelonthouding over de volledige set van financiële overzichten als geheel 
@@ -395,7 +356,7 @@ controleverklaring die het afkeurend oordeel of de oordeelonthouding bevat. Dit 
 enkel financieel overzicht wordt geacht een aanzienlijk deel van die financiële overzichten uit te 
 maken. 
 *** 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 Reikwijdte van deze ISA (Zie Par. 1 en 6(c)) 
 A1.  ISA 200 definieert de term ‘historische financiële informatie’ als informatie die tot uitdrukking is 
 gebracht in financiële termen in relatie tot een bepaalde entiteit, voornamelijk ontleend aan het 
@@ -416,14 +377,6 @@ door het van toepassing zijnde stelsel inzake financiële verslaggeving, in het 
  
 14 ISA 705 (herzien), paragraaf 15 
 15 ISA 200, paragraaf 13(g)
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien)                                                                            NBA-IBR 2025                                                                                              8/27                                          
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
- 
 overzicht zelf of in de toelichtingen of zijn daarin opgenomen door kruisverwijzingen.16 Zoals 
 opgemerkt in paragraaf 6(c), omvat verwijzing naar een enkel financieel overzicht of specifiek 
 element van een financieel overzicht, de daarop betrekking hebbende toelichtingen. 
@@ -477,14 +430,6 @@ bespreken of een ander type opdracht beter uitvoerbaar zou kunnen zijn.
 18 ISAE 3000 (herzien), Assurance-opdrachten anders dan opdrachten dan opdrachten tot controle of beoordeling van 
 historische financiële 
 19 ISA 200, paragraaf 14, 18, en 22–23
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien)                                                                            NBA-IBR 2025                                                                                              9/27                                          
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
- 
 Aanvaardbaarheid van het stelsel inzake financiële verslaggeving (Zie Par. 8) 
 A7.  Een enkel financieel overzicht of een specifiek element van een financieel overzicht kan worden 
 opgesteld in overeenstemming met een van toepassing zijnd stelsel inzake financiële 
@@ -535,14 +480,6 @@ overzicht:
  
 20 ISA 200, paragraaf 8 
 21 ISA 700 (herzien), paragraaf 25–26
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien)                                                                            NBA-IBR 2025                                                                                              10/27                                        
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
- 
 o 
 volledig zal voldoen aan alle eisen die gesteld zijn door het stelsel dat relevant is voor dat 
 bepaalde financieel overzicht of voor dat bepaalde element, alsmede de vraag of de 
@@ -601,14 +538,6 @@ overzichten
 24 ISA 260 (herzien), Communicatie met de met governance belaste personen, paragraaf 11 
 25 ISA 260 (herzien), paragraaf 10(b), 13, A1 (derde punt), A2 en A8. 
 26 ISA 200, paragraaf 2
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien)                                                                            NBA-IBR 2025                                                                                              11/27                                        
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
- 
 van de entiteit bij de controle van het financieel overzicht of van het element. De ISA’s vereisen 
 van de auditor evenwel om de controle van het financieel overzicht of element te plannen en uit 
 te voeren teneinde voldoende en geschikte controle-informatie te verkrijgen waarop het oordeel 
@@ -658,14 +587,6 @@ hieronder nuttig achten.
 Continuïteit 
  
 27 ISA 700 (herzien), paragraaf 13(e)
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien)                                                                            NBA-IBR 2025                                                                                              12/27                                        
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
- 
 A19.  Afhankelijk van het van toepassing zijnde stelsel voor financiële verslaggeving dat gebruikt is voor 
 het opstellen van het enkele financieel overzicht of het specifieke element van een financieel 
 overzicht, kan het noodzakelijk zijn om de vereiste beschrijving in de controleverklaring van de 
@@ -719,14 +640,6 @@ daarbij horende controleverklaring. Overwegen of een aangelegenheid in de contro
 30 ISA 700 (herzien), paragraaf 30 
 31 ISA 700 (herzien), paragraaf 31 
 32 ISA 700 (herzien), paragraaf 46 en A61–A63.
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien)                                                                            NBA-IBR 2025                                                                                              13/27                                        
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
- 
 over de volledige set van financiële overzichten relevant is in de context van een opdracht om te 
 rapporteren over een enkel financieel overzicht of een specifiek element van een financieel 
 overzicht, is een kwestie van professionele oordeelsvorming. 
@@ -783,14 +696,6 @@ in de
 controleverklaring over de volledige set van financiële overzichten. 
  
 33 ISA 706 (herzien), paragraaf 10–11.
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien)                                                                            NBA-IBR 2025                                                                                              14/27                                        
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
- 
 Afkeurend oordeel of oordeelonthouding in de controleverklaring over de volledige set van financiële 
 overzichten van een entiteit (Zie Par. 15) 
  
@@ -807,19 +712,7 @@ kasstromen en niet op de financiële overzichten als geheel.34
  
  
 34 ISA 510, Initiële controleopdrachten – beginsaldi, paragraaf A16
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien) – Bijlage 2 
- 
-NBA-IBR 2025 
-  15/27                                     
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
- 
- 
-Bijlage 1 
+## Bijlage 1
 (Zie Par. A3) 
 Voorbeelden van specifieke elementen, rekeningen of items van een financieel 
 overzicht 
@@ -840,16 +733,6 @@ toelichtingen;
 • 
 een overzicht van winstdeelnemingen of van bonussen voor werknemers, met inbegrip van 
 verklarende toelichtingen.
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien) – Bijlage 2 
- 
-NBA-IBR 2025 
-  16/27                                     
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
  
  
  
@@ -858,13 +741,9 @@ Versie 2025
  
  
  
- 
- 
- 
- 
-        Bijlage 2 
+## Bijlage 2
  (Zie Par. A17) 
-Bijlage 2: Voorbeelden van controleverklaringen van de onafhankelijke auditor 
+## Bijlage 2: Voorbeelden van controleverklaringen van de onafhankelijke auditor
 betreffende een enkel financieel overzicht en betreffende een specifiek element 
 van een financieel overzicht 
 • 
@@ -882,20 +761,6 @@ Voorbeeld 3: Een controleverklaring betreffende een specifiek element van een fi
 overzicht van een beursgenoteerde entiteit, dat is opgesteld in overeenstemming met 
 een stelsel voor bijzondere doeleinden (in het kader van dit voorbeeld, een compliance-
 stelsel).
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien) – Bijlage 2 
- 
-NBA-IBR 2025 
-  17/27                                     
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
- 
- 
- 
- 
  
  
  
@@ -973,16 +838,6 @@ de met het opstellen van het financieel overzicht belaste personen.
 • 
 De auditor heeft geen overige rapporteringsverplichtingen op grond van lokale wet- of 
 regelgeving.
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien) – Bijlage 2 
- 
-NBA-IBR 2025 
-  18/27                                     
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
 [Passende geadresseerde] 
 Oordeel 
@@ -1033,16 +888,6 @@ of van fouten, en het uitbrengen van een controleverklaring waarin ons oordeel i
  
 1 In de huidige voorbeelden van de rapporten van de auditor, zouden de termen 'directie' en 'verantwoordelijken voor het bestuur' 
 mogelijk vervangen moeten worden door andere geschikte benamingen in de juridische context van het land.
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien) – Bijlage 2 
- 
-NBA-IBR 2025 
-  19/27                                     
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
 redelijke mate van zekerheid is een hoog niveau van zekerheid, maar is geen garantie dat een controle 
 die overeenkomstig de ISA’s is uitgevoerd altijd een afwijking van materieel belang ontdekt wanneer die 
 bestaat. Afwijkingen kunnen zich voordoen als gevolg van fraude of fouten en worden als van materieel 
@@ -1105,29 +950,8 @@ naargelang van het specifieke rechtsgebied]
  
 2 Deze zin zal indien nodig worden aangepast in situaties waarin de auditor de verantwoordelijkheid heeft om een oordeel over 
 de effectiviteit van de interne controle toe te voegen aan zijn oordeel over de financiële staat.
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien) – Bijlage 2 
- 
-NBA-IBR 2025 
-  20/27                                     
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
- 
 [Adres van de auditor] 
 [Datum]
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien) – Bijlage 2 
- 
-NBA-IBR 2025 
-  21/27                                     
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
 Voorbeeld 2: Een controleverklaring betreffende een enkel financieel overzicht van een 
 entiteit die geen beursgenoteerde entiteit is, dat is opgesteld in overeenstemming met een 
 stelsel voor bijzondere doeleinden. 
@@ -1195,16 +1019,6 @@ de administratieve verwerking van kasontvangsten en-uitgaven.
  
 3 ISA 800 (herzien) bevat vereisten en aanwijzingen met betrekking tot de vorm en inhoud van de financiële staten die zijn 
 opgesteld in overeenstemming met een kader voor specifiek gebruik.
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien) – Bijlage 2 
- 
-NBA-IBR 2025 
-  22/27                                     
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
 Basis voor ons oordeel 
 Wij hebben onze controle uitgevoerd volgens de internationale controlestandaarden (International Standards 
 on Auditing, ISA’s). Onze verantwoordelijkheden op grond van deze standaarden zijn verder beschreven in 
@@ -1248,16 +1062,6 @@ genomen door gebruikers op basis van dit financieel overzicht, beïnvloeden.
  
  
 4 Indien van toepassing, gebruik andere benamingen die geschikt zijn in de juridische context van het land.
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien) – Bijlage 2 
- 
-NBA-IBR 2025 
-  23/27                                     
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
 Paragraaf 41 (b) van ISA 700 (herzien) legt uit dat de in schaduw hieronder voorgestelde tekst kan worden opgenomen in een 
 bijlage bij de controleverklaring. Paragraaf 41 (c) van ISA 700 (herzien) legt uit dat wanneer wet- en regelgeving of nationale 
 controlestandaarden op expliciete wijze dit toelaten, een verwijzing kan worden gemaakt naar een website van een bevoegde 
@@ -1318,16 +1122,6 @@ naargelang van het specifieke rechtsgebied]
  
 5 Deze zin zal indien nodig worden aangepast in situaties waarin de auditor de verantwoordelijkheid heeft om een oordeel over 
 de effectiviteit van de interne controle toe te voegen aan zijn oordeel over de financiële situatie.
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien) – Bijlage 2 
- 
-NBA-IBR 2025 
-  24/27                                     
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
 Voorbeeld 3: Een controleverklaring betreffende een specifiek element van een financieel 
 overzicht van een beursgenoteerde entiteit, dat is opgesteld in overeenstemming met een 
 stelsel voor bijzondere doeleinden.  
@@ -1390,16 +1184,6 @@ bepalingen inzake financiële verslaggeving die door de regelgever of toezichtho
  
 6 ISA 800 (herzien) bevat vereisten en aanwijzingen met betrekking tot de vorm en inhoud van de financiële overzichten die zijn 
 opgesteld in overeenstemming met een kader voor specifiek gebruik
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien) – Bijlage 2 
- 
-NBA-IBR 2025 
-  25/27                                     
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
 Basis voor ons oordeel 
 Wij hebben onze controle uitgevoerd volgens de internationale controlestandaarden (International 
 Standards on Auditing, ISA’s). Onze verantwoordelijkheden op grond van deze standaarden zijn verder 
@@ -1458,16 +1242,6 @@ genomen door gebruikers op basis van dit overzicht, beïnvloeden.
  
  
 7 Indien van toepassing, gebruik andere benamingen die geschikt zijn in de juridische context van het land.
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien) – Bijlage 2 
- 
-NBA-IBR 2025 
-  26/27                                     
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
 Paragraaf 41 (b) van ISA 700 (herzien) legt uit dat de in schaduw hieronder voorgestelde tekst kan worden opgenomen in 
 een bijlage bij de controleverklaring. Paragraaf 41 (c) van ISA 700 (herzien) legt uit dat wanneer wet- en regelgeving of 
 nationale controlestandaarden op expliciete wijze dit toelaten, een verwijzing kan worden gemaakt naar een website van een 
@@ -1520,17 +1294,6 @@ controle.
  
 8 Deze zin zou indien nodig worden aangepast in situaties waarin de auditor de verantwoordelijkheid heeft om een oordeel over 
 de effectiviteit van de interne controle toe te voegen aan zijn oordeel over de balans.
-
-BIJZONDERE OVERWEGINGEN - CONTROLES VAN ENKEL FINANCIEEL OVERZICHT EN CONTROLES VAN SPECIFIEKE ELEMENTEN, 
-REKENINGEN OF POSTEN VAN EEN FINANCIEEL OVERZICHT  
-ISA 805 (herzien) – Bijlage 2 
- 
-NBA-IBR 2025 
-  27/27                                     
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services Pronouncements, 
-2022 Edition Volume I 
-Versie 2025 
- 
 De voor de controleopdracht verantwoordelijke vennoot, zoals tot uiting komt in deze verklaring van de 
 onafhankelijke auditor, is [naam]. 
 [Handtekening in naam van het auditkantoor, de persoonlijke naam van de auditor, of beide, naargelang 

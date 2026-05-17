@@ -28,18 +28,18 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 15302c50
+    pipeline_version: 1e3b30b6-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-14T20:17:52Z'
+  generated_at: '2026-05-17T00:04:57Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T20:34:11Z'
-    confirmed_by: human
-    rationale: "Spot-check 2026-05-16: slechts 5 ## headings terwijl de norm 10 hoofdsecties (+ 4 bijlagen) heeft. De two-column PDF-extractie via pdftotext (geen -layout) fragmenteert sectie-koppen 2-4 en 6-10 in body-text zonder ze als heading te promoveren. Voorbeeld: '2.1. Elke beroepsbeoefenaar...' verschijnt zonder voorafgaande '## 2. Organisatie en interne controle'-heading. Dit is een patroon dat de huidige inject_norm_headings.py niet pakt voor dit specifieke document; vereist refactoring in tools/etl/inject_norm_headings.py (patroon A guard te zwak voor two-column glitches)."
-    caveat:
+    status: trusted
+    confirmed_at: '2026-05-17T00:10:00Z'
+    confirmed_by: itaa-aww-fix-2026-05-17
+    rationale: "Two-column heading-fragmentatie gefixed in inject_norm_headings.py (TOC-parse + synthese van missing parent-secties + inline-glue split voor secties 7/8 en Bijlage IV + override-map voor TOC-titels die de NL-kolom-extractie verloor). H2-count: 5 → 12. Alle 8 hoofdsecties (1-8) en alle 4 bijlagen (I-IV) zijn nu correct gepromoot. Sectie 9 (Overgangsbepalingen) en 10 (Slotbepalingen) ontbreken omdat de bilingual-extractor (column_split=300) ze volledig dropt — buiten scope van inject_norm_headings."
+    caveat: "Sectie 9 (Overgangsbepalingen) en 10 (Slotbepalingen) ontbreken in de body — de NL-kolom-extractie met column_split=300 verloor zowel heading als content. Follow-up: column_split verhogen of bilingual-extractor reviewen voor lange titels die naar de FR-kolom wrappen."
     layer1:
     layer2:
 ---
@@ -109,6 +109,8 @@ Toepassingsgebied ratione personae 1.3. De bepalingen van deze geconsolideerde v
 
 bedoelde functie door die persoon zelf uitgeoefend.
 
+## 2. Organisatie en interne controle
+
 2.2. Elke beroepsbeoefenaar moet in toepassing van artikel 9, §2 van de Wet, een AMLCO aanduiden.
 
 Van zodra het kantoor minstens tien beroepsbeoefenaars telt, in de zin van punt 1.1, 9°, a) of b) van deze geconsolideerde van het BIBF, die een activiteit uitoefenen en/of een deelname hebben en/of lid zijn van het wettelijk bestuursorgaan, moet de AMLCO een van de in punt 2.1 van deze geconsolideerde tekst van de norm van het IAB en de richtlijn van het BIBF onderscheiden persoon zijn.
@@ -135,6 +137,8 @@ Interne procedures 2.8. Alle in de Wet vermelde gedragslijnen, procedures en int
 2.10. De AMLCO voorziet in schriftelijke, op papier en/of digitaal, gedragslijnen, procedures en interne controlemaatregelen inzake sensibilisering en opleidingen van de medewerkers met betrekking tot de voorkoming van het WG/FT.
 
 Om uit te maken welke personen geviseerd zijn en wat de inhoud en frequentie van voormelde sensibilisering en opleiding is, dient die de medewerkers verrichten voor de cliënten, de verrichtingen die deze uitvoeren,
+
+## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar
 
 3.3.
 De algemene risicobeoordeling wordt bepaald en uitgevoerd onder de effectieve verantwoordelijkheid van de AMLCO en goedgekeurd op het hoogste niveau door het wettelijk bestuursorgaan of door de effectieve leiding.
@@ -167,6 +171,8 @@ De AMLCO verifieert bovendien minstens jaarlijks of de algemene
 
 Het cliëntacceptatiebeleid maakt het ook mogelijk om bindende bepalingen betreffende financiële embargo's zoals bedoeld in artikel 4,
 6° van de Wet ten uitvoer te leggen.
+
+## 4. Waakzaamheid ten aanzien van de cliënten en de verrichtingen
 
 4.2.
 Het cliëntacceptatiebeleid van de beroepsbeoefenaar bepaalt dat cliënten die mogelijk een specifiek risico vormen, pas als cliënt worden aanvaard na een passend onderzoek en er op een geschikt hiërarchisch niveau een beslissing is genomen.
@@ -220,15 +226,21 @@ Op basis van deze nieuwe beoordeling en van het in punt 4 van deze geconsolideer
 
 - en, in het algemeen, alle informatie in geconsolideerde tekst van de norm van het IAB en de richtlijn van het BIBF opgelegde verplichtingen.
 
+## 6. Documentatie en bewaring van documenten
+
 6.3. De algemene risicobeoordeling wordt gedocumenteerd, bijgewerkt en ter beschikking gehouden van de Toezichtautoriteit en dit op papier of op elektronische drager.
 
 6.4. Deze documenten moeten bewaard worden gedurende 10 jaar vanaf het einde van datum van een occasionele verrichting.
 
-7. Beperkingen van het gebruik van contanten Wanneer de beroepsbeoefenaar weet, vermoedt of redelijke gronden heeft om te vermoeden dat feiten of verrichtingen die geleid hebben tot een gift of betaling in contanten verband houden met het WG/FT dient hij dit vermoeden onmiddellijk te melden aan de CFI.
+## 7. Beperkingen van het gebruik van contanten
+
+Wanneer de beroepsbeoefenaar weet, vermoedt of redelijke gronden heeft om te vermoeden dat feiten of verrichtingen die geleid hebben tot een gift of betaling in contanten verband houden met het WG/FT dient hij dit vermoeden onmiddellijk te melden aan de CFI.
 
 Voor zover nodig, verwijzen de beroepsbeoefenaars naar de mededelingen van hun respectievelijke instituten.
 
-8. Toezicht en controle Teneinde de Toezichtautoriteit toe te laten de
+## 8. Toezicht en controle
+
+Teneinde de Toezichtautoriteit toe te laten de
 
 BIJLAGEN
 
@@ -326,7 +338,9 @@ b) landen die volgens geloofwaardige bronnen significante niveaus van corruptie 
 a) landen waarvoor sancties, embargo's of soortgelijke maatregelen gelden die b) landen die financiering of ondersteuning verschaffen voor terroristische activiteiten, of
 op het grondgebied waarvan als terroristisch aangemerkte organisaties actief zijn.
 
-BIJLAGE IV: Beslissingsbomen ter illustratie Elk kantoor is ertoe gehouden een methodologie vast te leggen teneinde de gedragslijnen, procedures
+## Bijlage IV. Beslissingsbomen ter illustratie
+
+Elk kantoor is ertoe gehouden een methodologie vast te leggen teneinde de gedragslijnen, procedures
 en interne controlemaatregelen te bepalen en toe te passen die evenredig zijn met de aard en omvang van het kantoor.
 
 In dit opzicht, kunnen de hierna volgende beslissingsbomen door de kantoren als voorbeeld worden gebruikt. Ze hebben betrekking op:

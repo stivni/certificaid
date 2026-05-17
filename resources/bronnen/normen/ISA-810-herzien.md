@@ -9,7 +9,7 @@ itaa-lex-sectie: ISA
 norm: ISA 810 (herzien) — Opdrachten om te rapporteren betreffende samengevatte financiële
   overzichten
 provenance:
-  generated_at: '2026-05-16T19:30:12Z'
+  generated_at: '2026-05-17T00:03:11Z'
   inputs:
   - id: https://www.ibr-ire.be/docs/default-source/nl/documents/regelgeving-en-publicaties/rechtsleer/normen-en-aanbevelingen/isa-s/nieuwe-en-herziene-isa-s/isa-810-herzien-def.pdf
     sha256: 04c49faf609000c8dc1b1e3630822c2fcda17bc6b452f4b726038ee46575ac17
@@ -18,23 +18,20 @@ provenance:
   stale_reason: null
   tooling:
     model: null
-    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5)
+    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5) + tools/etl/apply_isa_transformers.py
     pipeline_version: '1.0'
     prompt_version: null
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: pymupdf-conversie via tools/download/scrape_ibr_isa.py extraheerde
-      tekst lineair zonder structurele heading-injectie (0 ##-headings in body). Page-footers
-      ('ALGEHELE DOELSTELLINGEN ... ISA 200 NBA-IBR 2022 N/M Originele bron: Handbook ... Versie
-      2023') repeteren ~elke pagina inline. Paragraph-numbers ('1.', '2.') staan op aparte
-      regels van hun body-tekst, en bullets ('• item') zijn losgekoppeld van hun bullet-marker.
-      RAG-chunking faalt zonder heading-grenzen — ETL-fix nodig: inject_headings_isa +
-      strip_isa_page_footers transformers.
+    confirmed_at: '2026-05-17T00:04:00Z'
+    confirmed_by: subagent-isa-transformers-2026-05-17
     layer1: null
     layer2: null
+    rationale: 'QA-pass 2026-05-17: post-strip_isa_page_footers + inject_headings_isa:
+      0 NBA-IBR page-footer regels in body en ≥7 ##-headings (Inleiding, Doelstelling(en),
+      Definities, Vereisten, Toepassingsgerichte teksten, Ingangsdatum, Bijlage).
+      Sentence-flow visueel intact; RAG-chunking nu structureel ankerbaar. Promoted
+      naar trusted.'
+    status: trusted
 status: beschikbaar
 tags:
 - ISA
@@ -121,12 +118,12 @@ ISA 700 (herzien) is opgesteld, evenals bepaalde bepalingen uit de normen ISA 26
  
 INHOUDSOPGAVE 
 Paragraaf 
-Inleiding 
+## Inleiding
 Toepassingsgebied van deze ISA .............................................................................................................. 1 
 Ingangsdatum ........................................................................................................................................ 2 
 Doelstelling ................................................................................................................................................ 3 
 Definities ............................................................................................................................................... 4 
-Vereisten 
+## Vereisten
 Aanvaarding van de opdracht ............................................................................................................. 5-7 
 Aard van de werkzaamheden ................................................................................................................ 8 
 Vorm van het oordeel ........................................................................................................................ 9-11 
@@ -152,7 +149,7 @@ Vergelijke cijfers .............................................................
 Niet gecontroleerde aanvullende informatie die wordt gepresenteerd samen met samengevatte financiële 
 overzichten........................................................................................................................................... 25 
 Associëren van de auditor .............................................................................................................. 26-27 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 Aanvaarding van de opdracht ........................................................................................................ A1-A7 
 Het evalueren van de beschikbaarheid van de gecontroleerde financiële overzichten ........................A8 
 Vorm van het oordeel ................................................................................................................................ A9 
@@ -171,25 +168,18 @@ International Standard on Auditing (ISA) 810 (herzien), Opdrachten om te rapport
 samengevatte financiële overzichten, moet worden gelezen in samenhang met ISA 200, Algehele 
 doelstellingen van de onafhankelijke auditor, alsmede het uitvoeren van een controle overeenkomstig 
 de International Standards on Auditing.
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (herzien)                                                          NBA-IBR 2025  
-4/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
-Inleiding 
-Toepassingsgebied van deze ISA 
+## Inleiding
+## Toepassingsgebied van deze ISA
 1. 
 Deze Standaard behandelt de verantwoordelijkheden van de auditor die verband houden met 
 een opdracht om te rapporteren betreffende samengevatte financiële overzichten die zijn 
 afgeleid van de door diezelfde auditor overeenkomstig de ISA’s gecontroleerde financiële 
 overzichten. 
-Ingangsdatum 
+## Ingangsdatum
 2. 
 Deze ISA is van toepassing op opdrachten met betrekking tot de samengevatte jaarekeningen 
 van afgesloten perioden vanaf 15 december 2016.  
-Doelstelling 
+## Doelstelling
 3. 
 De doelstellingen van de auditor zijn: 
  
@@ -202,7 +192,7 @@ van een evaluatie van de conclusies die zijn getrokken uit de verworven controle
 informatie; en 
 ii) dit oordeel helder tot uitdrukking te brengen door middel van een schriftelijke 
 rapportering die ook de onderbouwing voor dat oordeel beschrijft. 
-Definities 
+## Definities
 4. 
 In het kader van deze ISA hebben de volgende termen de hierna weergegeven betekenissen: 
 a) toegepaste criteria – De criteria die door het management worden toegepast bij het 
@@ -217,7 +207,7 @@ van de economische middelen of verplichtingen die verschaft worden door de finan
 overzichten van de entiteit op een bepaald tijdstip dan wel van de veranderingen daarin 
 over een bepaalde periode.2 Verschillende rechtsgebieden kunnen verschillende 
 terminologie gebruiken om dergelijke historische financiële informatie te beschrijven. 
-Vereisten 
+## Vereisten
 Aanvaarding van de opdracht 
 5. 
 De auditor dient een opdracht om te rapporteren betreffende samengevatte financiële 
@@ -226,13 +216,6 @@ overzichten overeenkomstig deze ISA alleen te aanvaarden wanneer de auditor de o
 1 ISA 200, Algehele doelstellingen van de onafhankelijke auditor, alsmede het uitvoeren van een controle overeenkomstig de 
 International Standards on Auditing, paragraaf 13(f), definieert de term ‘financiële overzichten’ 
 2 ISA 200, paragraaf 13(f)
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (herzien)                                                          NBA-IBR 2025  
-5/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 heeft gekregen tot het uitvoeren van een controle overeenkomstig de ISA’s van de financiële 
 overzichten waarvan de samengevatte financiële overzichten zijn afgeleid. (Zie Par. A1) 
 6. 
@@ -286,13 +269,6 @@ samengevatte financiële overzichten en die de criteria vaststelt voor het opste
 van de samengevatte financiële overzichten. 
 c) evalueren of de samengevatte financiële overzichten op adequate wijze de toegepaste 
 criteria uiteenzetten;
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (herzien)                                                          NBA-IBR 2025  
-6/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 d) de samengevatte financiële overzichten vergelijken met de gerelateerde informatie in de 
 gecontroleerde financiële overzichten, teneinde te bepalen of de samengevatte financiële 
 overzichten overeenkomen met of herberekend kunnen worden vanuit de gerelateerde 
@@ -352,13 +328,6 @@ De controleverklaring betreffende de samengevatte financiële overzichten kan va
 datum zijn dan de datum van de controleverklaring bij de gecontroleerde financiële overzichten. 
 In dergelijke gevallen dient de controleverklaring bij de samengevatte financiële overzichten te 
 vermelden dat de samengevatte financiële overzichten en de gecontroleerde financiële
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (herzien)                                                          NBA-IBR 2025  
-7/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 overzichten geen weergave zijn van de invloed van gebeurtenissen die plaatsvonden na de 
 datum van de controleverklaring bij de gecontroleerde financiële overzichten. (Zie Par. A10) 
 13. 
@@ -418,13 +387,6 @@ van die verklaring alsmede, met toepassing van paragraaf 19 en 20, het feit dat 
 3 ISA 560, Gebeurtenissen na de einddatum van de verslagperiode 
 4 Paragraaf 19–20, die betrekking hebben op situaties waarin het verslag van de auditor over de gecontroleerde financiële 
 overzichten is aangepast, vereisen aanvullende elementen naast in deze paragraaf vermelde.
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (herzien)                                                          NBA-IBR 2025  
-8/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 goedkeurend oordeel tot uitdrukking is gebracht bij de gecontroleerde financiële 
 overzichten; 
 i) 
@@ -477,13 +439,6 @@ aangelegenheden in de controleverklaring van de onafhankelijke auditor
 9 ISA 570 (Herzien), Continuïteit,  paragraaf 22 
 10 ISA 701, Het communiceren van kernpunten van de controle in de controleverklaring van de onafhankelijke 
 auditor
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (herzien)                                                          NBA-IBR 2025  
-9/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 e) een vermelding die een niet gecorrigeerde afwijking van materieel belang betreffende de 
 andere informatie in overeenstemming met ISA 720 (Herzien) beschrijft;11 
 en de auditor ervan overtuigd is dat de samengevatte financiële overzichten, in alle van materieel 
@@ -546,13 +501,6 @@ verslaggevingsgrondslagen
 Wanneer het verspreiden of het gebruik van de controleverklaring betreffende de 
  
 11 ISA 720 (Herzien), De verantwoordelijkheden van de auditor met betrekking tot andere informatie
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (herzien)                                                          NBA-IBR 2025  
-10/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 gecontroleerde financiële overzichten beperkt wordt, of de controleverklaring bij de 
 gecontroleerde financiële overzichten lezers erop attendeert dat de gecontroleerde financiële 
 overzichten zijn opgesteld in overeenstemming met een stelsel voor bijzondere doeleinden, 
@@ -607,14 +555,6 @@ b) de vermelding niet de indruk wekt dat de auditor heeft gerapporteerd over de 
 financiële overzichten. 
  
 12 ISA 710, Ter vergelijking opgenomen informatie – Overeenkomstige cijfers en vergelijkende financiële overzichten
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (herzien)                                                          NBA-IBR 2025  
-11/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
- 
 Indien noch aan (a) noch aan (b) wordt voldaan, dient de auditor het management te verzoeken 
 de vermelding zodanig te wijzigen dat die daaraan wel voldoet, dan wel in het document niet 
 naar de auditor te verwijzen. Anderzijds kan de entiteit de auditor de opdracht geven om te 
@@ -627,7 +567,7 @@ informeren dat de auditor het niet eens is met de verwijzing naar de auditor en 
 andere passende acties te bepalen en uit te voeren die zijn opgezet om te voorkomen dat het 
 management op ongepaste wijze naar de auditor verwijst. (Zie Par. A27) 
 *** 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 Aanvaarding van de opdracht (Zie Par. 5 en 6) 
 A1.  
 De controle van de financiële overzichten waarvan de samengevatte financiële overzichten zijn 
@@ -670,13 +610,6 @@ A5.
 De criteria voor het opstellen van samengevatte financiële overzichten kunnen worden 
 vastgesteld door een geautoriseerde of erkende instantie die ISA’s vaststelt (standards setting 
 organization) of bij wet- of regelgeving. Zoals dit het geval is voor financiële overzichten, zoals
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (herzien)                                                          NBA-IBR 2025  
-12/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 uiteengezet in ISA 210,13 kan de auditor in veel van dergelijke gevallen ervan uitgaan dat 
 dergelijke criteria aanvaardbaar zijn. 
  
@@ -728,13 +661,6 @@ uitdrukking te brengen dat één van de bewoordingen uit paragraaf 9 bevat. De b
 de auditor over de vraag welke bewoordingen hij zal gebruiken, kan worden beïnvloed door 
  
 13 ISA 210, Overeenkomen van de voorwaarden van controleopdrachten, paragraaf A3 en A8–A9
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (herzien)                                                          NBA-IBR 2025  
-13/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 algemeen aanvaard gebruik in het desbetreffende rechtsgebied. 
  
 Timing van werkzaamheden en gebeurtenissen na de datum van de controleverklaring bij de 
@@ -791,13 +717,6 @@ behandeld is in de informatie in een document dat de samengevatte financiële ov
  
 14 International Ethics Standards Board for Accountants’ International Code of Ethics for Professional Accountants  (IESBA Code), 
 paragraaf R111.2
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (herzien)                                                          NBA-IBR 2025  
-14/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 de daarbij horende controleverklaring omvat, kan er een materiële inconsistentie tussen de 
 samengevatte financiële overzichten en die informatie bestaan of kan de informatie misleidend 
 zijn. 
@@ -854,13 +773,6 @@ A21.
 Paragraaf 19(i) van deze ISA vereist van de auditor om een vermelding in de controleverklaring 
 betreffende de samengevatte financiële overzichten op te nemen wanneer de controleverklaring 
 betreffende de gecontroleerde financiële overzichten communicatie van kernpunten van de
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (herzien)                                                          NBA-IBR 2025  
-15/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 controle in overeenstemming met ISA 701 bevat.15 Van de auditor is echter niet vereist om de 
 individuele kernpunten van de controle te beschrijven in de controleverklaring betreffende de 
 samengevatte financiële overzichten. 
@@ -912,13 +824,6 @@ van dienst kunnen zijn bij het toepassen van de vereiste in paragraaf 25.
 15 ISA 701, paragraaf 13 
  
 16 ISA 700 (Herzien), Het vormen van een oordeel en het rapporteren over financiële overzichten, paragraaf 53–54
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (herzien)                                                          NBA-IBR 2025  
-16/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 Associëren van de auditor (Zie Par. 26 en 27) 
 A27.  
 Tot andere passende acties die de auditor kan ondernemen wanneer het management niet de 
@@ -926,15 +831,7 @@ actie onderneemt waartoe is verzocht, kunnen behoren het informeren van de beoog
 gebruikers en overige bekende derde gebruikers over de ongepaste verwijzing naar de auditor. 
 De handelwijze van de auditor hangt af van de wettelijke rechten en verplichtingen van de 
 auditor. Derhalve kan de auditor het passend achten om juridisch advies in te winnen.
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (Herzien) - Bijlage 
-NBA-IBR 2025  
-17/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
-Bijlage 
+## Bijlage
 (Zie Par. A23) 
 Bijlage: Voorbeelden van verklaringen betreffende samengevatte financiële 
 overzichten 
@@ -986,14 +883,6 @@ het niet mogelijk is om een niet-aangepast oordeel tot uitdrukking te brengen ov
 samengevatte financiële overzichten. De controleverklaring over de samengevatte financiële 
 overzichten is van dezelfde datum als de datum van de controleverklaring over de financiële 
 overzichten waarvan de samengevatte financiële overzichten zijn afgeleid.
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (Herzien) - Bijlage 
-NBA-IBR 2025  
-18/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 Voorbeeld 1: 
 De omstandigheden omvatten het volgende: 
 • 
@@ -1047,14 +936,6 @@ heeft geleden ten belope van ZZZ gedurende het boekjaar afgesloten op 31 decembe
 17 Zoals uiteengezet in paragraaf 15 van ISA 701, is een van materieel belang zijnde onzekerheid met betrekking tot continuïteit, 
 door haar aard, een kernpunt van de controle, maar dient deze te worden gerapporteerd in een aparte sectie van de 
 controleverklaring overeenkomstig paragraaf 22 van ISA 570 (herzien).
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (Herzien) - Bijlage 
-NBA-IBR 2025  
-19/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 dat op die datum de kortlopende schulden, de totale activa van de vennootschap ABC overschreden 
 met YYY. Deze gebeurtenissen of omstandigheden, stamen met overige aangelegenheden die in 
 Toelichting 6 bij de gecontroleerde financiële overzichten zijn uiteengezet, vormen een aanwijzing 
@@ -1096,16 +977,6 @@ zijn om het woord "andere" op te nemen in de vermelding met betrekking tot de co
 19 De auditor kan aanvullende uitleg verstrekken over kernpunten van de controle die nuttig worden geacht voor gebruikers van 
 de controleverklaring over de samengevatte financiële overzichten. 
 20 Of een andere bewoording die passend is in de context van het wettelijke kader van het specifieke rechtsgebied.
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (Herzien) - Bijlage 
-NBA-IBR 2025  
-20/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
- 
- 
 Voorbeeld 2: 
 De omstandigheden omvatten het volgende: 
 • 
@@ -1155,14 +1026,6 @@ opgenomen in het jaarrapport over 20X1. De bespreking en analyse door het manage
 opgenomen niet gecorrigeerde afwijking van materieel belang in de andere informatie, zijn ook 
 opgenomen in het samengevatte jaarrapport over 20X1.] [Omschrijf de niet gecorrigeerde afwijking van 
 materieel belang in de andere informatie].
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (Herzien) - Bijlage 
-NBA-IBR 2025  
-21/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 Verantwoordelijkheid van het management21 voor de samengevatte financiële overzichten 
 Het management is verantwoordelijk voor het opstellen van de samengevatte financiële overzichten in 
 overeenstemming met de in Toelichting X beschreven grondslag inzake financiële verslaggeving. 
@@ -1199,14 +1062,6 @@ Opdrachten om te rapporteren betreffende samengevatte financiële overzichten.
  
  
 21  Of een andere bewoording die passend is in de context van het wettelijke kader van het specifieke rechtsgebied.
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (Herzien) - Bijlage 
-NBA-IBR 2025  
-22/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 Voorbeeld 3: 
 De omstandigheden omvatten het volgende: 
 • 
@@ -1260,14 +1115,6 @@ financiële overzichten in de sectie met betrekking tot het oordeel over de same
 begrijpen dat, hoewel de auditor een niet-aangepast oordeel tot uitdrukking heeft gebracht over de samengevatte financiële 
 overzichten, deze laatste een weergave zijn van gecontroleerde financiële overzichten die een afwijking van materieel belang 
 bevatten.
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (Herzien) - Bijlage 
-NBA-IBR 2025  
-23/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 bedrag van xxx zou vereist zijn om de voorraden af te schrijven tot hun nettoyerkoopwaarde. 
 Dienovereenkomstig zou de kostprijs van de omzet gestegen zijn met xxx, en de belastingen over de 
 winst, de nettowinst en het eigen vermogen zouden gedaald zijn met respectievelijk xxx, xxx en xxx.  
@@ -1297,14 +1144,6 @@ Opdrachten om te rapporteren betreffende samengevatte financiële overzichten.
  
  
 23 Of een andere bewoording die passend is in de context van het wettelijke kader van het specifieke rechtsgebied.
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (Herzien) - Bijlage 
-NBA-IBR 2025  
-24/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 Voorbeeld 4: 
 De omstandigheden omvatten het volgende: 
 • 
@@ -1351,28 +1190,12 @@ Het is onze verantwoordelijkheid een oordeel tot uitdrukking te brengen over de 
 samengevatte financiële overzichten in alle van materieel belang zijnde opzichten consistent zijn met 
  
 24 Of een andere bewoording die passend is in de context van het wettelijke kader van het specifieke rechtsgebied.
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (Herzien) - Bijlage 
-NBA-IBR 2025  
-25/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 (of een getrouwe samenvatting zijn van) de gecontroleerde financiële overzichten op basis van onze 
 werkzaamheden uitgevoerd overeenkomstig de Internationale controlestandaard (ISA) 810 (herzien), 
 Opdrachten om te rapporteren betreffende samengevatte financiële overzichten. 
 [Handtekening van de auditor] 
 [Adres van de auditor] 
 [Datum van de controleverklaring]
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (Herzien) - Bijlage 
-NBA-IBR 2025  
-26/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 Voorbeeld 5: 
 De omstandigheden omvatten het volgende: 
 • 
@@ -1421,14 +1244,6 @@ Het management is verantwoordelijk voor het opstellen van de samengevatte financ
 overeenstemming met [omschrijf de vastgestelde criteria]. 
  
 25 Of een andere bewoording die passend is in de context van het wettelijke kader van het specifieke rechtsgebied.
-
-OPDRACHTEN OM TE RAPPORTEREN BETREFFENDE SAMENGEVATTE FINANCIELE OVERZICHTEN 
-ISA 810 (Herzien) - Bijlage 
-NBA-IBR 2025  
-27/27 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Version 2025 
 Verantwoordelijkheid van de auditor 
 Het is onze verantwoordelijkheid een oordeel tot uitdrukking te brengen over de vraag of de 
 samengevatte financiële overzichten in alle van materieel belang zijnde opzichten consistent zijn met 

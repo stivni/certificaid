@@ -33,39 +33,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 1e3b30b6-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:37:49Z'
+  generated_at: '2026-05-16T23:55:02Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:26:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: twee keer (**) als voetnootmarkering (regels 69 en 120) - ETL heeft dit gerenderd als unclosed bold in plaats van als voetnootmarkering.'
+    status: trusted
+    confirmed_at: '2026-05-16T23:58:49Z'
+    confirmed_by: cbn-rerun-2026-05-17
+    rationale: 'Re-run 2026-05-17: De (**)-markers zijn binnen tabel-headers gebruikt als voetnootmarkering naar regel 118 — dit is bron-stijl, geen ETL-artefact. Tabellen zijn structureel correct.'
+    caveat: 'Caveat: (**) voetnootmarkering binnen tabel-headers is een bron-conventie; geen markdown-bold-mismatch.'
     layer1:
-      status: pass
-      run_id: 20260512-233938
-      run_at: '2026-05-12T23:39:40Z'
-      heading_count: 0
-      max_section_chars: 7138
-      file_size_chars: 7138
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:26:28Z'
-      rationale: 'D4: twee keer (**) als voetnootmarkering (regels 69 en 120) - ETL heeft dit gerenderd als unclosed bold in plaats van als voetnootmarkering.'
-      concrete_problemen:
-        - regel: 69
-          categorie: D4
-          type: unclosed-bold
-          voorbeeld: (**) Toepassing van artikelen 29, § 2 - dubbele haakjes als footnote marker
-        - regel: 120
-          categorie: D4
-          type: unclosed-bold
-          voorbeeld: (**) Toepassing van artikelen 29, § 2 - tweede instantie
 ---
 # CBN-advies 147/2 - Inresultaatneming van het actuariële rendement van vastrentende effecten
 

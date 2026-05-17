@@ -37,35 +37,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 1e3b30b6-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:39:03Z'
+  generated_at: '2026-05-16T23:55:26Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:26:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B4: "HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING" (regel 171) is plain-text-header zonder ##-prefix. Overige headings correct aangemaakt.'
+    status: trusted
+    confirmed_at: '2026-05-16T23:58:49Z'
+    confirmed_by: cbn-rerun-2026-05-17
+    rationale: "Re-run 2026-05-17: B4-fix promoveert 'HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING' naar ##."
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260512-233938
-      run_at: '2026-05-12T23:39:43Z'
-      heading_count: 13
-      max_section_chars: 20685
-      file_size_chars: 29361
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:26:31Z'
-      rationale: 'B4: "HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING" (regel 171) is plain-text-header zonder ##-prefix. Overige headings correct aangemaakt.'
-      concrete_problemen:
-        - regel: 171
-          categorie: B4
-          type: allcaps-struct-label
-          voorbeeld: HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING
 ---
 # CBN-advies 2024/09 – Verslaggeving bij de heropening van de vereffening van de vennootschappen
 

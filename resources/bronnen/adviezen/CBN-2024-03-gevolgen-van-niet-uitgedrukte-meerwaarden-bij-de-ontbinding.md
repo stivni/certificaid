@@ -34,35 +34,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 1e3b30b6-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:39:01Z'
+  generated_at: '2026-05-16T23:55:23Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:26:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: lege anchor-link met **** (4 asterisken) op regel 38 - ETL-artefact bij rendering van een PDF-hyperlink als markdown. De link bevat geen tekst.'
+    status: trusted
+    confirmed_at: '2026-05-16T23:58:49Z'
+    confirmed_by: cbn-rerun-2026-05-17
+    rationale: 'Re-run 2026-05-17: D4 quad-asterisk (****) op anchor-link verwijderd.'
+    caveat: 'Caveat: advies heeft geen ##-substructuur — het is één doorlopende bespreking. Niet RAG-blokkerend (chunker werkt op zinsniveau).'
     layer1:
-      status: pass
-      run_id: 20260512-233938
-      run_at: '2026-05-12T23:39:43Z'
-      heading_count: 0
-      max_section_chars: 10399
-      file_size_chars: 10399
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:26:31Z'
-      rationale: 'D4: lege anchor-link met **** (4 asterisken) op regel 38 - ETL-artefact bij rendering van een PDF-hyperlink als markdown. De link bevat geen tekst.'
-      concrete_problemen:
-        - regel: 38
-          categorie: D4
-          type: unclosed-bold
-          voorbeeld: '****[](https://www.cbn-cnc.be/system/files/...) - lege link met 4 asterisken'
 ---
 # CBN-advies 2024/03 – Gevolgen van niet-uitgedrukte meerwaarden bij de ontbinding
 

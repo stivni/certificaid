@@ -9,7 +9,7 @@ itaa-lex-sectie: ISA
 norm: ISA 250 (herzien) — Het in aanmerking nemen van wet- en regelgeving bij een
   controle van financiële overzichten
 provenance:
-  generated_at: '2026-05-16T19:30:12Z'
+  generated_at: '2026-05-17T00:03:11Z'
   inputs:
   - id: https://www.ibr-ire.be/docs/default-source/nl/documents/regelgeving-en-publicaties/rechtsleer/normen-en-aanbevelingen/isa-s/nieuwe-en-herziene-isa-s/new-and-revised-isas-2017-update-24062019/isa-250_(herzien)_nl_2023.pdf
     sha256: 004c0a10d36a2eb336f1eb7ad1bb939287dc4a394d06d40ca1a6820eae8ff318
@@ -18,23 +18,20 @@ provenance:
   stale_reason: null
   tooling:
     model: null
-    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5)
+    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5) + tools/etl/apply_isa_transformers.py
     pipeline_version: '1.0'
     prompt_version: null
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: pymupdf-conversie via tools/download/scrape_ibr_isa.py extraheerde
-      tekst lineair zonder structurele heading-injectie (0 ##-headings in body). Page-footers
-      ('ALGEHELE DOELSTELLINGEN ... ISA 200 NBA-IBR 2022 N/M Originele bron: Handbook ... Versie
-      2023') repeteren ~elke pagina inline. Paragraph-numbers ('1.', '2.') staan op aparte
-      regels van hun body-tekst, en bullets ('• item') zijn losgekoppeld van hun bullet-marker.
-      RAG-chunking faalt zonder heading-grenzen — ETL-fix nodig: inject_headings_isa +
-      strip_isa_page_footers transformers.
+    confirmed_at: '2026-05-17T00:04:00Z'
+    confirmed_by: subagent-isa-transformers-2026-05-17
     layer1: null
     layer2: null
+    rationale: 'QA-pass 2026-05-17: post-strip_isa_page_footers + inject_headings_isa:
+      0 NBA-IBR page-footer regels in body en ≥7 ##-headings (Inleiding, Doelstelling(en),
+      Definities, Vereisten, Toepassingsgerichte teksten, Ingangsdatum, Bijlage).
+      Sentence-flow visueel intact; RAG-chunking nu structureel ankerbaar. Promoted
+      naar trusted.'
+    status: trusted
 status: beschikbaar
 tags:
 - ISA
@@ -64,16 +61,6 @@ ISA 250 (herzien)
 Het in aanmerking nemen van 
 wet- en regelgeving bij een 
 controle van financiële overzichten
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-2/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
 Over de IAASB 
  
 Copyright IFAC 
@@ -102,18 +89,6 @@ and Related Services Pronouncements, 2022 Edition Volume I - ISBN number: 978-1-
  
 Neem contact op met permissions@ifac.org voor toestemming om dit document te reproduceren, op te 
 slaan of door te geven, of voor ander soortgelijk gebruik van dit document.
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-3/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
- 
- 
 INTERNATIONALE CONTROLESTANDAARD 250 (HERZIEN) 
  
 HET IN AANMERKING NEMEN VAN WET EN REGELGEVING BIJ 
@@ -123,19 +98,19 @@ op of na 15 december 2017)
  
 INHOUDSOPGAVE 
 Paragraaf 
-Inleiding 
+## Inleiding
 Toepassingsgebied van deze ISA  ........................................................................................................... 1 
 Invloed van wet- en regelgeving............................................................................................................... 2 
 Verantwoordelijkheid voor het naleven van wet- en regelgeving ......................................................... 3-9 
 Ingangsdatum ......................................................................................................................................... 10 
 Doelstellingen  ...................................................................................................................................... 11 
 Definities  .............................................................................................................................................. 12 
-Vereisten 
+## Vereisten
 Het overwegen door de auditor van het naleven van wet- en regelgeving  ..................................... 13-18 
 Controlewerkzaamheden wanneer niet naleving werd geïdentificeerd of vermoed  ....................... 19-22 
 Het communiceren en rapporteren van geïdentificeerde of vermoede niet-naleving  ..................... 23-29 
 Documentatie  ........................................................................................................................................ 30 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 Verantwoordelijkheid voor het naleven van wet- en regelgeving  .................................................... A1-A8 
 Definities ......................................................................................................................................... A9-A10 
 Het overwegen door de auditor van het naleven van wet- en regelgeving  ................................. A11-A16 
@@ -153,17 +128,7 @@ controle overeenkomstig de Internationale Controlestandaarden.
 ISA 250 (herzien) heeft de goedkeuring gekregen van de Public Interest Oversight Board (PIOB) 
 die tot de conclusie is gekomen dat het due process werd gevolgd in de totstandkoming van de 
 standaard en dat juiste aandacht werd besteed aan het openbaar belang.
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-4/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
-Inleiding 
+## Inleiding
  
 Toepassingsgebied van deze Standaard 
  
@@ -225,16 +190,6 @@ ISA 200, Algehele doelstellingen van de onafhankelijke auditor, alsmede het uitv
 Internationale Controlestandaarden, paragraaf 5. 
 2  
 ISA 200, paragrafen A51-A52.
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-5/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
 • 
 Er bestaan veel wets- en regelgevingsvoorschriften, in hoofdzaak met betrekking tot de 
 bedrijfsvoeringsaspecten van een entiteit, die door de aard ervan geen invloed hebben op 
@@ -301,16 +256,6 @@ die kunnen verschillen van of verder gaan dan deze ISA, zoals: (Zie par. A8)
  
 3  
 ISA 200, paragraaf 15.
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-6/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
 (a) 
 inspelen op geïdentificeerde of vermoede niet-naleving van wet- en regelgeving, inclusief 
 vereisten met betrekking tot specifieke communicatie met het management en de personen 
@@ -327,13 +272,13 @@ Naleven van additionele verantwoordelijkheden kan verdere informatie verschaffen
 het werk van de auditor in overeenstemming met deze en andere ISAs (b.v. met betrekking tot de 
 integriteit van het management of, in voorkomend geval, de personen belast met governance). 
  
-Ingangsdatum 
+## Ingangsdatum
  
 10. 
 Deze ISA is van toepassing op controles van financiële overzichten over verslagperiodes die op 
 of na 15 december 2017 aanvangen. 
  
-Doelstellingen 
+## Doelstellingen
  
 11. 
 De doelstellingen van de auditor zijn: 
@@ -351,7 +296,7 @@ invloed van materieel belang kan hebben op de financiële overzichten; en
 het op passende wijze inspelen op tijdens de controle geïdentificeerde of vermoede niet-
 naleving van wet- en regelgeving. 
  
-Definities 
+## Definities
  
 12. 
 Voor de toepassing van de ISAs heeft de volgende term de hierna weergegeven betekenis: 
@@ -363,7 +308,7 @@ leiding van de entiteit. Persoonlijke misdragingen (die geen verband houden met 
 activiteiten van de entiteit) door de met governance belaste personen, het management of 
 werknemers van de entiteit vallen niet onder niet-naleving. (Zie par. A9-A10) 
  
-Vereisten 
+## Vereisten
  
 Het overwegen door de auditor van het naleven van wet- en regelgeving 
  
@@ -377,16 +322,6 @@ waarbinnen de entiteit actief is; en
  
 4  
 ISA 315 (herzien 2019), Risico’s op een afwijking van materieel belang identificeren en inschatten, paragraaf 11.
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-7/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
 (b) 
 de manier waarop de entiteit dat kader naleeft. (Zie par. A11) 
  
@@ -455,16 +390,6 @@ par. A20-A22)
 Indien niet voldoende informatie omtrent vermoedens van niet-naleving kan worden verkregen, 
 dient de auditor de invloed van het gebrek aan voldoende en geschikte controle-informatie op zijn 
 oordeel te evalueren.
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-8/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
 22. 
 De auditor dient de gevolgen van geïdentificeerde of vermoede niet-naleving met betrekking tot 
 de andere aspecten van de controle te evalueren, met inbegrip van de risico-inschatting van de 
@@ -531,16 +456,6 @@ ISA 260 (herzien), Communicatie met de met governance belaste personen, paragraa
 ISA 705 (herzien), Aanpassingen van het oordeel in de controleverklaring van de onafhankelijke auditor, paragraaf 7-8. 
 7  
 ISA 705 (herzien), paragrafen 7 en 9.
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-9/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
 29. 
 Indien de auditor gevallen van niet-naleving van wet- en regelgeving heeft geïdentificeerd of 
 indien hij deze vermoedt, dient de auditor te bepalen of wet-of regelgeving of relevante ethische 
@@ -569,7 +484,7 @@ gereageerd op de aangelegenheid.
  
 *** 
  
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
  
 Verantwoordelijkheden voor het naleven van wet- en regelgeving (Zie par. 3-9) 
   
@@ -612,17 +527,6 @@ vastlegging van klachten.
  
 8  
 ISA 230, Controledocumentatie, paragrafen 8-11 en A6.
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-10/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
-  
 Bij grotere entiteiten kunnen deze beleidslijnen en procedures worden aangevuld met het toewijzen van 
 passende verantwoordelijkheden aan: 
  
@@ -694,16 +598,6 @@ betrekking tot het in aanmerking nemen van wet- en regelgeving die verband houde
 ISA 700 (herzien), Het vormen van een oordeel en het rapporteren over financiële overzichten, paragraaf 38. 
 10  ISA 800 (herzien), Bijzondere overwegingen: controles van financiële overzichten die zijn opgesteld in overeenstemming met 
 stelsels voor bijzondere doeleinden, paragraaf 11.
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-11/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
 controle van financiële overzichten of die ook andere aspecten van de activiteiten van de entiteit 
 kunnen omvatten. 
  
@@ -767,16 +661,6 @@ het bepalen van bedragen en toelichtingen in de financiële overzichten die van 
  
  
 11  Zie secties 225.21–225.22 van de IESBA Code.
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-12/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
 A12. Bepaalde wet- en regelgeving is goed ontwikkeld, bekend bij de entiteit en binnen haar branche 
 of sector en relevant voor de financiële overzichten (zoals beschreven in paragraaf 6(a)). 
 Dergelijke wet- en regelgeving kan onder meer betrekking hebben op: 
@@ -839,16 +723,6 @@ het vragen aan het management en de interne of externe juridisch adviseur van de
 naar rechtszaken, claims en inschattingen; en 
  
 12  Zie ISA 570 (herzien), Continuïteit.
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-13/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
 • 
 het uitvoeren van gegevensgerichte detailcontroles op categorieën van transactiestromen, 
 rekeningsaldi of in de financiële overzichten opgenomen toelichtingen. 
@@ -930,16 +804,6 @@ de mogelijke financiële gevolgen van geïdentificeerde of vermoede niet-nalevin
 en regelgeving voor de financiële overzichten, waaronder het opleggen van boetes, 
  
 13  ISA 580, Schriftelijke bevestigingen, paragraaf 4.
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-14/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
 strafvorderingen, schadevergoedingen, de dreiging van inbeslagneming van activa, de 
 gedwongen beëindiging van de activiteiten, alsmede rechtszaken; 
 • 
@@ -997,16 +861,6 @@ de gevolgen die voortvloeien uit de betrokkenheid van het hoogste gezag binnen d
 vermeld in paragraaf 9, kan naleving van wet- en regelgeving of relevante ethische voorschriften 
 door de auditor verdere informatie verstrekken die relevant is voor de verantwoordelijkheden van 
 de auditor in overeenstemming met paragraaf 22.
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-15/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
 A24. Er zijn omstandigheden die ertoe kunnen leiden dat de auditor de implicaties van geïdentificeerde 
 of vermoede niet-naleving voor de betrouwbaarheid van schriftelijke bevestigingen ontvangen 
 van het management en, waar van toepassing, de personen belast met governance evalueert. 
@@ -1073,16 +927,6 @@ overwegen om de geïdentificeerde of vermoede niet-naleving van wet- en regelgev
  
 14  ISA 220 (herzien), Kwaliteitsmanagement voor een controle van financiële overzichten. 
 15  ISA 701, Het communiceren van kernpunten van de controle in de controleverklaring van de onafhankelijke auditor.
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-16/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
 beschrijven in een paragraaf inzake overige aangelegenheden in overeenstemming met 
 ISA 706.16 
  
@@ -1143,16 +987,6 @@ buiten de entiteit te rapporteren. De auditor kan bijvoorbeeld wanneer hij de fi
 aangelegenheden in de controleverklaring van de onafhankelijke auditor. 
 17  Zie bijvoorbeeld Sectie 225.29 en Secties 225.33–225.36 van de IESBA Code. 
 18  Zie bijvoorbeeld Sectie 140.7 en Sectie 225.35 van de IESBA Code.
-
-ISA 250 (herzien) 
-NBA-IBR 2023 
- 
-17/17 
-Originele bron: Handbook of International Quality Control, Review, Other Assurance, and Related Services 
-Pronouncements, 2021 Edition Volume  
- 
-Versie 2023 
- 
 van financiële instellingen controleert, het recht hebben onder wet-of regelgeving om 
 aangelegenheden zoals geïdentificeerde of vermoede niet-naleving van wet- en regelgeving met 
 een toezichthoudende instantie te bespreken. 

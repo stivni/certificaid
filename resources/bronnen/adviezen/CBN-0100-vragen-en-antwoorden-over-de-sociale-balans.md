@@ -25,51 +25,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 1e3b30b6-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:37:17Z'
+  generated_at: '2026-05-16T23:54:55Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:26:49Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie ETL-bugs bevestigd in huidige body: (1) B4: regel 239 'DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW' staat als plain-text zonder heading-prefix (vergelijking met omliggende ##### headings toont dat dit een subsectie-heading had moeten zijn). (2) E2: tabel regels 717-750 is zwaar verminkt — header gesplitst over twee regels (r717-719) en totaalrij met cel-inhoud verspreid over meerdere regels met tabs (r735-754). (3) C4: regels 280-286 tonen genummerde list-items '1.' en '2.' die elk als aparte paragraaf staan in plaats van als doorlopende list-items."
+    status: trusted
+    confirmed_at: '2026-05-16T23:58:49Z'
+    confirmed_by: cbn-rerun-2026-05-17
+    rationale: "Re-run 2026-05-17: B4-fix promoveert 'DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW' (r.197) tot ## — structuur nu navigeerbaar (12 ## + 35 ####)."
+    caveat: "Caveat: 'DE ZIEKENHUIZEN'-heading komt mogelijk te hoog uit (## ipv #####) door de generieke single-word ALL-CAPS-promotie; inhoudelijke nesting blijft volgbaar."
     layer1:
-      status: warn
-      run_id: 20260512-233938
-      run_at: '2026-05-12T23:39:38Z'
-      heading_count: 91
-      max_section_chars: 25937
-      file_size_chars: 120965
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ###-niveau: 25937 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:26:49Z'
-      rationale: "Drie ETL-bugs bevestigd in huidige body: (1) B4: regel 239 'DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW' staat als plain-text zonder heading-prefix (vergelijking met omliggende ##### headings toont dat dit een subsectie-heading had moeten zijn). (2) E2: tabel regels 717-750 is zwaar verminkt — header gesplitst over twee regels (r717-719) en totaalrij met cel-inhoud verspreid over meerdere regels met tabs (r735-754). (3) C4: regels 280-286 tonen genummerde list-items '1.' en '2.' die elk als aparte paragraaf staan in plaats van als doorlopende list-items."
-      concrete_problemen:
-        - regel: 239
-          categorie: B4
-          type: other
-          voorbeeld: DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW — all-caps plain-text, geen heading-prefix
-        - regel: 717
-          categorie: E2
-          type: pseudo-table
-          voorbeeld: '| *Op het einde \n\t\t\t\tvan de maand* | — tabelkop gesplitst over twee regels'
-        - regel: 735
-          categorie: E2
-          type: pseudo-table
-          voorbeeld: '| **Totaal** | | Som A | ... Som C \n\t\t\t\t= (Som A) + \n\t\t\t\t(Som B.b) | — cel-inhoud over meerdere regels'
-        - regel: 280
-          categorie: C4
-          type: other
-          voorbeeld: 1. \n\nonafhankelijk van de grootte... — genummerd listpunt als aparte paragraaf gespat
 ---
 # CBN-advies S100 - Vragen en antwoorden over de sociale balans
 

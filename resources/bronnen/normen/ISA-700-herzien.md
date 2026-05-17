@@ -9,7 +9,7 @@ itaa-lex-sectie: ISA
 norm: ISA 700 (herzien) — Het vormen van een oordeel en het rapporteren over financiële
   overzichten
 provenance:
-  generated_at: '2026-05-16T19:30:12Z'
+  generated_at: '2026-05-17T00:03:11Z'
   inputs:
   - id: https://www.ibr-ire.be/docs/default-source/nl/documents/regelgeving-en-publicaties/rechtsleer/normen-en-aanbevelingen/isa-s/nieuwe-en-herziene-isa-s/new-and-revised-isas-2017-update-24062019/isa-700-(herzien)_nl_2023.pdf
     sha256: c79da260d3cc504f8979cbfe85db06b6532ecb16064a416f8d8e92e6867a4862
@@ -18,23 +18,20 @@ provenance:
   stale_reason: null
   tooling:
     model: null
-    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5)
+    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5) + tools/etl/apply_isa_transformers.py
     pipeline_version: '1.0'
     prompt_version: null
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: pymupdf-conversie via tools/download/scrape_ibr_isa.py extraheerde
-      tekst lineair zonder structurele heading-injectie (0 ##-headings in body). Page-footers
-      ('ALGEHELE DOELSTELLINGEN ... ISA 200 NBA-IBR 2022 N/M Originele bron: Handbook ... Versie
-      2023') repeteren ~elke pagina inline. Paragraph-numbers ('1.', '2.') staan op aparte
-      regels van hun body-tekst, en bullets ('• item') zijn losgekoppeld van hun bullet-marker.
-      RAG-chunking faalt zonder heading-grenzen — ETL-fix nodig: inject_headings_isa +
-      strip_isa_page_footers transformers.
+    confirmed_at: '2026-05-17T00:04:00Z'
+    confirmed_by: subagent-isa-transformers-2026-05-17
     layer1: null
     layer2: null
+    rationale: 'QA-pass 2026-05-17: post-strip_isa_page_footers + inject_headings_isa:
+      0 NBA-IBR page-footer regels in body en ≥7 ##-headings (Inleiding, Doelstelling(en),
+      Definities, Vereisten, Toepassingsgerichte teksten, Ingangsdatum, Bijlage).
+      Sentence-flow visueel intact; RAG-chunking nu structureel ankerbaar. Promoted
+      naar trusted.'
+    status: trusted
 status: beschikbaar
 tags:
 - ISA
@@ -62,17 +59,6 @@ ISA 700 (herzien)
 Het vormen van een oordeel en 
 het rapporteren over financiële 
 overzichten
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 2/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Over de IAASB 
  
 Copyright IFAC 
@@ -101,17 +87,6 @@ and Related Services Pronouncements, 2022 Edition Volume I - ISBN number: 978-1-
  
 Neem contact op met permissions@ifac.org voor toestemming om dit document te reproduceren, op te 
 slaan of door te geven, of voor ander soortgelijk gebruik van dit document.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 3/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 INTERNATIONALE CONTROLESTANDAARD 700 (HERZIEN) 
 HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN  
 OVER FINANCIËLE OVERZICHTEN 
@@ -124,17 +99,17 @@ normen (voor de verslagperiode die op of na 15 december 2016 aanvangen).
  
 INHOUDSOPGAVE 
 Paragraaf 
-Inleiding 
+## Inleiding
 Toepassingsgebied van deze ISA ........................................................................................................ 1-4 
 Ingangsdatum ...........................................................................................................................................5 
 Doelstellingen  ........................................................................................................................................6 
 Definities ............................................................................................................................................. 7-9 
-Vereisten  
+## Vereisten
 Het vormen van een oordeel over de financiële overzichten  .......................................................... 10-15 
 Vorm van het oordeel  ...................................................................................................................... 16-19 
 Controleverklaring  ........................................................................................................................... 20-52 
 Aanvullende informatie gepresenteerd bij de financiële overzichten  .............................................. 53-54 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 Kwalitatieve aspecten van de praktijken van de entiteit inzake administratieve dienstverlening .... A1-A3 
 Grondslagen voor financiële verslaggeving op passende wijze toegelicht in de financiële  
 overzichten  ........................................................................................................................................... A4 
@@ -149,34 +124,13 @@ Controleverklaring  ............................................................
 Aanvullende informatie gepresenteerd bij de financiële overzichten  ......................................... A78-A84 
  
 Bijlage: Voorbeelden van controleverklaringen van de onafhankelijke auditor over financiële overzichten
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 4/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 International Standard on Auditing (ISA) 700 (herzien), Het vormen van een oordeel en het rapporteren 
 over financiële overzichten, moet worden gelezen in samenhang met ISA 200, Algehele doelstellingen 
 van de onafhankelijke auditor, alsmede het uitvoeren van een controle overeenkomstig de International 
 Standards on Auditing.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 5/50 
+## Inleiding
  
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
-Inleiding 
- 
-Toepassingsgebied van deze ISA 
+## Toepassingsgebied van deze ISA
  
 1. 
 Deze International Standards on Auditing (ISA) behandelt de verantwoordelijkheid van de auditor 
@@ -215,13 +169,13 @@ erkende standaarden zijn uitgevoerd, makkelijker herkenbaar te maken. Consistent
 controleverklaring is tevens bevorderlijk voor het begrip van de gebruiker, alsmede voor het 
 identificeren van ongebruikelijke omstandigheden wanneer deze zich voordoen. 
  
-Ingangsdatum 
+## Ingangsdatum
  
 5. 
 Deze ISA is van toepassing op controles van financiële overzichten over verslagperioden die op 
 of na 15 december 2016 worden afgesloten. 
  
-Doelstellingen 
+## Doelstellingen
  
 6. 
 De doelstellingen van de auditor zijn: 
@@ -243,21 +197,11 @@ voor bijzondere doeleinden.
 5  
 ISA 805, Bijzondere overwegingen - Controles van een enkel financieel overzicht en controles van specifieke elementen, 
 rekeningen of posten van een financieel overzicht.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 6/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 (b) 
 Dat oordeel op duidelijke wijze tot uitdrukking te brengen door middel van een schriftelijke 
 verklaring. 
  
-Definities 
+## Definities
  
 7. 
 Voor de toepassing van de ISA’s hebben de volgende termen de hierna weergegeven betekenis: 
@@ -308,7 +252,7 @@ bedoeld, en wordt met ‘International Public Sector Accounting Standards’ (IP
 International Public Sector Accounting Standards uitgebracht door de International Public Sector 
 Accounting Standards Board (IPSASB) bedoeld. 
  
-Vereisten 
+## Vereisten
  
 Het vormen van een oordeel over de financiële overzichten 
  
@@ -321,16 +265,6 @@ De paragrafen 25-26 behandelen de gebruikte formuleringen om dit oordeel tot uit
 respectievelijk een getrouw-beeld-stelsel en een compliance-stelsel. 
 8  
 ISA 200, paragraaf 13(f), zet de inhoud van de financiële overzichten uiteen.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 7/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 10. 
 De auditor dient een oordeel te vormen over de vraag of de financiële overzichten in alle van 
 materieel belang zijnde opzichten zijn opgesteld in overeenstemming met het van toepassing 
@@ -405,16 +339,6 @@ ISA 200, paragraaf 11.
 respectievelijk een getrouw-beeld-stelsel en een compliance-stelsel. 
 11  ISA 330, Inspelen door de auditor op ingeschatte risico's, paragraaf 26. 
 12  ISA 450, Evaluatie van tijdens de controle geïdentificeerde afwijkingen, paragraaf 11.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 8/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 omvatten of de financiële overzichten een getrouwe weergave vormen. De evaluatie door de 
 accountant van de vraag of de financiële overzichten een getrouwe weergave vormen dient in te 
 houden dat het volgende wordt overwogen (Zie par. A7-A9): 
@@ -481,16 +405,6 @@ De controleverklaring dient een titel te hebben die duidelijk aangeeft dat het e
 een onafhankelijke auditor betreft. (Zie par. A20) 
  
 Geadresseerde
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 9/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 22. 
 De controleverklaring dient te worden geadresseerd, naar gelang passend, op basis van, de 
 omstandigheden van de opdracht. (Zie par. A21) 
@@ -565,16 +479,6 @@ met de ethische voorschriften die relevant zijn voor de controle van de financi�
 overzichten en de overige ethische verantwoordelijkheden nageleefd in overeenstemming 
 met deze vereisten heeft nageleefd. Deze vermelding zal het oorspronkelijk rechtsgebied 
 van deze relevante ethische voorschriften aangeven of verwijzen naar de Code of Ethics
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 10/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 for Professional Accountants van de International Ethics Standards Board for Accountants 
 (IFAC Code); en (Zie par. A34-A39) 
 (d) 
@@ -643,16 +547,6 @@ het wettelijke kader in het desbetreffende rechtsgebied gepast is.(Zie par. A49)
 13  ISA 570 (herzien), Continuïteit, par. 21-23 
 14  ISA 720 (herzien), De verantwoordelijkheden van de auditor met betrekking tot andere informatie. 
 15  ISA 570 (herzien), paragraaf 2
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 11/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 36. 
 Wanneer de financiële overzichten in overeenstemming met een getrouw-beeld-stelsel zijn 
 opgesteld dient de beschrijving van de verantwoordelijkheden voor de financiële overzichten in 
@@ -726,16 +620,6 @@ effectiviteit van de interne beheersing van de entiteit. In omstandigheden waari
 auditor tevens de verantwoordelijkheid heeft om een oordeel tot uitdrukking te 
  
 16  ISA 320, Materialiteit bij planning en uitvoering van een controle, paragraaf 2.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 12/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 brengen over de effectiviteit van de interne beheersing in samenhang met de 
 controle van de financiële overzichten, dient de auditor de formulering weg te laten 
 dat het door de auditor overwegen van de interne beheersing niet bedoeld is om een 
@@ -814,16 +698,6 @@ met [de met governance belaste personen], de auditor die aangelegenheden bepaalt
  
 17  ISA 600, Bijzondere overwegingen – Controles van financiële overzichten van de groep (Inclusief de werkzaamheden van 
 auditor van groepsonderdelen).
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 13/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 het meest significant waren bij de controle van de financiële overzichten van de huidige 
 periode en derhalve kernpunten van de controle zijn. De auditor beschrijft deze 
 aangelegenheden in de controleverklaring tenzij wet- of regelgeving openbaarmaking van 
@@ -898,16 +772,6 @@ Naam van de opdrachtpartner
 46. 
 De naam van de opdrachtpartner dient in de controleverklaring te worden opgenomen voor 
 controles van volledige sets van financiële overzichten voor algemene doeleinden van
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 14/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 beursgenoteerde entiteiten, tenzij in zeldzame omstandigheden, van een dergelijke toelichting 
 redelijkerwijs verwacht wordt dat deze leidt tot een significante bedreiging voor de persoonlijke 
 veiligheid. In de zeldzame omstandigheden dat de auditor van plan is om de naam van de 
@@ -978,16 +842,6 @@ en hiermee niet in strijd is;
 (h) 
 Waar van toepassing, een sectie die de informatie bevat die op grond van ISA 701 is 
 vereist, of aanvullende informatie over de controle die op grond van wet- of regelgeving is
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 15/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 voorgeschreven en de rapporteringsvereisten in die ISA behandelt en hiermee niet in strijd 
 is;18 (Zie par. A72-A75) 
 (i) 
@@ -1056,16 +910,6 @@ omvat.
  
  
 18  ISA 701, paragrafen 11-16.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 16/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 54. 
 Indien aanvullende informatie die niet wordt vereist door het van toepassing zijnde stelsel inzake 
 financiële verslaggeving niet wordt beschouwd als een integrerend onderdeel van het 
@@ -1079,7 +923,7 @@ dat die aanvullende informatie niet is gecontroleerd.
  
  
 **** 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
  
 Kwalitatieve aspecten van de praktijken van de entiteit inzake administratieve verwerking (Zie 
 par. 12) 
@@ -1125,16 +969,6 @@ als:
  
 19  ISA 260 (herzien), Communicatie met de met governance belaste personen, Bijlage 2. 
 20  ISA 540 (herzien), De controle van schattingen en de toelichtingen daarop, paragraaf 21.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 17/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 • 
 Of alle toelichtingen met betrekking tot de belangrijke grondslagen voor financiële 
 verslaggeving die vereist zijn om te worden opgenomen op grond van het van toepassing 
@@ -1197,16 +1031,6 @@ o
 De gebruikte methoden en de gemaakte veronderstellingen en oordeelsvormingen 
 en veranderingen daarin, die van invloed zijn op de gepresenteerde of anderszins 
 toegelichte bedragen inclusief relevante gevoeligheidsanalyses.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 18/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Evalueren of de financiële overzichten een getrouwe weergave vormen (Zie par. 14) 
  
 A7. 
@@ -1270,16 +1094,6 @@ vereisten in de IFRS ontoereikend is om gebruikers in staat te stellen om de imp
 gebeurtenissen en omstandigheden op financiële prestaties van de entiteit te begrijpen (International Accounting Standard 1 
 Presentatie van de financiële overzichten paragraaf 17 (c)). 
 24  ISA 200, paragraaf A4-A5.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 19/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 geen adequate beschrijving van dat stelsel, aangezien het gebruikers van de financiële 
 overzichten kan misleiden. 
  
@@ -1337,16 +1151,6 @@ de secties Oordeel en Basis voor het oordeel, stelt deze ISA geen vereisten vast
 van de elementen van de controleverklaring. Deze ISA vereist echter wel het gebruik van 
  
 25  ISA 210, “Overeenkomen van de voorwaarden van controleopdrachten”, paragraaf 6(a).
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 20/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 specifieke titels, die bedoeld zijn om te helpen om controleverklaringen die verwijzen naar 
 controles die zijn uitgevoerd overeenkomstig ISA en, herkenbaarder te maken, in het bijzonder in 
 situaties waar de elementen van de controleverklaring zijn weergegeven in een volgorde die 
@@ -1411,16 +1215,6 @@ A25. Als de auditor een goedkeurend oordeel tot uitdrukking brengt, is het niet 
 formuleringen te gebruiken zoals “met de voorgaande uitleg” of “behoudens” in de relatie tot het 
 oordeel aangezien deze een voorwaardelijk oordeel of een verzwakking of een aanpassing van 
 het oordeel suggereren.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 21/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Beschrijving van de financiële overzichten en de aangelegenheden zij weergeven 
    
 A26. Het oordeel van de auditor omvat de volledige set financiële overzichten zoals gedefinieerd door 
@@ -1480,16 +1274,6 @@ individueel genomen, worden twee oordelen tot uitdrukking gebracht: dat de finan
 overzichten zijn opgesteld in overeenstemming met één van de van toepassing zijnde 
  
 26  ISA 210, paragraaf 18.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 22/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 stelsels inzake financiële verslaggeving (bijv. het nationale stelsel) en dat de financiële 
 overzichten zijn opgesteld in overeenstemming met het andere van toepassing zijnde 
 stelsel inzake financiële verslaggeving (bijv. de IFRS). Deze oordelen kunnen afzonderlijk 
@@ -1558,16 +1342,6 @@ ethische voorschriften binnen een beperkt aantal bronnen is gevat, kan de audito
 om de relevante bron(nen) te noemen, (bijv. de naam van de code, wet- of regelgeving die in het 
  
 27. ISA 200, paragraaf A17.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 23/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 rechtsgebied van toepassing is) of hij kan naar een voorwaarde verwijzen die doorgaans 
 algemeen wordt begrepen en die op gepaste wijze die bronnen samenvat (bijv. 
 onafhankelijkheidsvereisten voor controle van niet-beursgenoteerde entiteiten in rechtsgebied X). 
@@ -1626,16 +1400,6 @@ relevante wet- of regelgeving.30 Op grond van ISA 210 wordt tevens vereist dat d
 28  ISA 600, paragraaf A37. 
 29  ISA 600, paragrafen 19-20. 
 30  ISA 210, paragrafen 9 en A22.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 24/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 opdrachtbevestiging of een andere geschikte vorm van schriftelijke overeenkomst een verwijzing 
 bevat naar de verwachte vorm en inhoud van de rapportages die door de auditor worden 
 uitgebracht.31 Wanneer van de auditor niet anderszins is vereist om kernpunten van de controle 
@@ -1694,16 +1458,6 @@ beschrijven zoals op grond van paragraaf 34(a) van deze ISA is vereist. Ter aanv
 32  ISA 210, paragraaf A25. 
 33  ISA 200, paragraaf 13(j). 
 34  ISA 210, paragraaf 6(b)(i)-(ii).
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 25/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 opnemen van de beschrijving van de verantwoordelijkheden van het management in de 
 controleverklaring zoals vereist op grond van paragraaf 34, kan de auditor verwijzen naar een 
 gedetailleerdere beschrijving van deze verantwoordelijkheden door een verwijzing op te nemen 
@@ -1761,16 +1515,6 @@ toepassing zijnd stelsel inzake financiële verslaggeving anders dan IFRS wordt 
 het nodig zijn dat de voorbeelden van vermeldingen die in de bijlage van deze ISA worden 
  
 35  ISA 315 (herzien 2019), Risico's op een afwijking van materieel belang identificeren en inschatten, paragraaf 4(c).
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 26/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 weergegeven worden aangepast om de toepassing van het andere van toepassing zijnde stelsel 
 inzake financiële verslaggeving in de omstandigheden weer te geven. 
  
@@ -1827,17 +1571,6 @@ vinden op [geef het paginanummer of andere specifieke referentie naar de plaats 
 beschrijving ], vormt onderdeel van onze controleverklaring. 
  
 Referentie naar een website van een bevoegde instantie (Zie par. 41(c), 42)
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 27/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 A56. In paragraaf 41 wordt uitgelegd dat de auditor kan verwijzen naar een beschrijving van de 
 verantwoordelijkheden van de auditor die te vinden is op een website van een bevoegde instantie, 
 mits dit uitdrukkelijk wordt toegestaan door wet- of regelgeving of nationale controlestandaarden. 
@@ -1894,16 +1627,6 @@ zijn dat de auditor daarover rapporteert in een afzonderlijke verklaring.
  
 A60. Paragrafen 43-45 van deze ISA staan een gecombineerde presentatie van overige 
 rapporteringsverantwoordelijkheden en de verantwoordelijkheden van de auditor onder de ISA’s
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 28/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 en toe wanneer deze dezelfde onderwerpen behandelen en de bewoordingen van de 
 controleverklaring 
 duidelijk 
@@ -1970,16 +1693,6 @@ Handtekening van de auditor (Zie par. 47)
  
 36  ISQM 1, Kwaliteitsmanagement voor kantoren die controles of beoordelingen van financiële overzichten, of andere assurance 
 opdrachten of opdrachten voor aan assurance verwante diensten uitvoeren, paragraaf 14.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 29/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 A64. De handtekening van de auditor wordt geplaatst hetzij in naam van het auditkantoor, in 
 persoonlijke naam van de auditor, hetzij beide, naargelang passend voor het specifieke 
 rechtsgebied. Naast de handtekening van de auditor, kan in bepaalde rechtsgebieden van de 
@@ -2040,16 +1753,6 @@ aantal elementen uiteen die in de controleverklaring zijn opgenomen om een verwi
  
 37  ISA 560, Gebeurtenissen na de einddatum van de verslagperiode, paragrafen 10-17. 
 38  ISA 200, paragraaf A60.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 30/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 te maken naar de International Standards on Auditing In dergelijke omstandigheden hoeven de 
 vereisten uit paragrafen 21-49 die niet zijn opgenomen in paragraaf 50(a)-(o) niet te worden 
 toegepast, inclusief bijvoorbeeld de vereiste volgorde van de secties Oordeel en Basis voor het 
@@ -2112,16 +1815,6 @@ is uitgevoerd.39
  
  
 39  ISA 210, paragraaf 21.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 31/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Overwegingen specifiek voor entiteiten in de publieke sector 
  
 A75. 
@@ -2182,16 +1875,6 @@ beschouwen die duidelijk onderscheiden kan worden van de financiële overzichten
  
  
 40  ISA 200, paragraaf A61.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 32/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 A80. In de controleverklaring hoeft niet specifiek te worden verwezen naar de aanvullende informatie 
 die door het oordeel van de auditor is omvat indien de in de inleidende paragraaf opgenomen 
 verwijzing naar de toelichtingen in de beschrijving van de overzichten die samen de financiële 
@@ -2226,17 +1909,7 @@ kunnen verkeerd worden geïnterpreteerd als zijnde gecontroleerd.
  
 A84. Het feit dat aanvullende informatie niet gecontroleerd is, ontheft de auditor niet van zijn 
 verantwoordelijkheden die in ISA 720 (herzien) zijn beschreven.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 33/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
-Bijlage 
+## Bijlage
 (Zie par. A19) 
 Voorbeelden 
 van 
@@ -2281,16 +1954,6 @@ algemene doeleinden.
  
 (*) Gezien het groot aantal wijzigingen aan de voorbeelden van controleverklaringen, werden deze niet 
 aangeduid in het grijs in de hiernavolgende teksten.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 34/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Voorbeeld 1 – Controleverklaring over financiële overzichten van een beursgenoteerde 
 entiteit opgesteld in overeenstemming met een getrouw-beeld-stelsel 
  
@@ -2341,16 +2004,6 @@ de
 auditor 
 overige 
 rapporteringsverplichtingen op grond van lokale wetgeving.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 35/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
 Aan: de aandeelhouders van Vennootschap ABC [of andere passende geadresseerde]  
 Verklaring over de controle van de financiële overzichten41 
@@ -2388,16 +2041,6 @@ overzichten en de controleverklaring over deze overzichten”]
  
 41  De subtitel “Verklaring over de controle van de financiële overzichten” is niet noodzakelijk wanneer de tweede subtitel 
 “Verklaring betreffende overige door de wet- of regelgeving gestelde eisen” niet van toepassing is. )
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 36/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Verantwoordelijkheden van het management en de met governance van de financiële 
 overzichten belaste personen42 
 Het management is verantwoordelijk voor het opstellen en getrouw weergeven van de financiële 
@@ -2461,16 +2104,6 @@ rechtsgebied.
 43  Waar het de verantwoordelijkheid is van het management om financiële overzichten op te stellen die een getrouw beeld 
 geven, kan dit als volgt luiden: “Management is verantwoordelijk voor het opstellen van de financiële overzichten die een 
 getrouw beeld geven in overeenstemming met International Financial Reporting Standards, en voor een (…)”.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 37/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 niet zijn gericht op het geven van een oordeel over de effectiviteit van de interne beheersing van 
 de entiteit44; 
 • 
@@ -2525,16 +2158,6 @@ De verslaggeving betreffende de overige
 44  Deze zin wordt aangepast, waar nodig, in de omstandigheden dat de auditor tevens een verantwoordelijkheid heeft om een 
 oordeel tot uitdrukking te brengen over de effectiviteit van de interne beheersing die relevant is voor de controle van de 
 financiële overzichten.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 38/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 rapporteringsverplichtingen die dezelfde topics behandelen als diegene die door de ISA’s zijn vereist, 
 kan worden gecombineerd (i.e., ondergebracht in de sectie “Verklaring over de controle van de 
 financiële overzichten” onder de passende subtitel), voorgenomen dat er in de bewoordingen van de 
@@ -2555,16 +2178,6 @@ onafhankelijke auditor, is [Naam]
 rechtsgebied] 
 [Adres van de Auditor]  
 [Datum]
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 39/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Voorbeeld 2 – Een controleverklaring over geconsolideerde financiële overzichten van 
 een beursgenoteerde entiteit opgesteld in overeenstemming met een getrouw-beeld-
 stelsel 
@@ -2607,16 +2220,6 @@ personen;
 • 
 Naast de controle van de geconsolideerde financiële overzichten heeft de auditor overige 
 rapporteringsverplichtingen op grond van lokale wetgeving.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 40/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
  
 Aan de aandeelhouders van Vennootschap ABC [of andere passende geadresseerde]  
@@ -2655,16 +2258,6 @@ overzichten en de controleverklaring over deze overzichten”]
  
 45  De subtitel “Verklaring over de controle van de financiële overzichten” is niet noodzakelijk wanneer de tweede subtitel 
 “Verklaring betreffende overige door de wet- of regelgeving gestelde eisen” niet van toepassing is.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 41/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Verantwoordelijkheden van het management en de met governance van de financiële 
 overzichten belaste personen46 
 Het management is verantwoordelijk voor het opstellen en getrouw weergeven van de geconsolideerde 
@@ -2716,16 +2309,6 @@ opzettelijk verkeerd voorstellen van zaken of het doorbreken van de interne behe
 getrouw beeld geven, kan dit als volgt luiden: “Management is verantwoordelijk voor het opstellen van de geconsolideerde 
 financiële overzichten die een getrouw beeld geven in overeenstemming met International Financial Reporting Standards, en 
 voor een (...)”.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 42/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 • 
 het verkrijgen van inzicht in de interne beheersing die relevant is voor de controle met als doel 
 controlewerkzaamheden op te zetten die in de gegeven omstandigheden geschikt zijn maar die 
@@ -2787,16 +2370,6 @@ or regelgeving of door nationale controlestandaarden (aangeduid met de term “o
 48  Deze zin wordt aangepast, waar nodig, in de omstandigheden dat de auditor tevens een verantwoordelijkheid heeft om een 
 oordeel tot uitdrukking te brengen over de effectiviteit van de interne beheersing die relevant is voor de controle van de 
 geconsolideerde financiële overzichten.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 43/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 rapporteringsverplichtingen”) dienen in deze sectie te worden behandeld, tenzij de overige 
 rapporteringsverplichtingen dezelfde topics behandelen als diegene gepresenteerd onder de 
 rapporteringsverplichtingen die door de ISA’s vereist zijn als onderdeel van de sectie “Verklaring over 
@@ -2813,16 +2386,6 @@ onafhankelijke auditor, is [Naam]
 rechtsgebied] 
 [Adres van de Auditor]  
 [Datum]
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 44/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Voorbeeld 3 – Een controleverklaring over financiële overzichten van een entiteit anders 
 dan een beursgenoteerde entiteit opgesteld in overeenstemming met een getrouw-
 beeld-stelsel 
@@ -2865,16 +2428,6 @@ De auditor heeft geen overige rapporteringsverplichtingen op grond van lokale we
 • 
 De auditor kiest ervoor om te refereren aan de beschrijving van de verantwoordelijkheid van 
 de auditor zoals opgenomen op een website van een bevoegde instantie.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 45/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
  
 Aan: de aandeelhouders van Vennootschap ABC [of andere passende geadresseerde]  
@@ -2917,16 +2470,6 @@ liquideren of om de bedrijfsactiviteiten te beëindigen of geen realistisch alte
 50  Waar het de verantwoordelijkheid is van het management om financiële overzichten op te stellen die een getrouw beeld 
 geven, kan dit als volgt luiden: “Management is verantwoordelijk voor het opstellen van de financiële overzichten die een 
 getrouw beeld geven in overeenstemming met International Financial Reporting Standards, en voor een (...)” .
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 46/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 De met governance belaste personen zijn verantwoordelijk voor het uitoefenen van toezicht op het 
 proces van financiële verslaggeving van de Vennootschap. 
 Verantwoordelijkheden van de auditor voor de controle van de financiële overzichten 
@@ -2948,16 +2491,6 @@ onafhankelijke auditor, is [Naam]
 rechtsgebied]  
 [Adres van de Auditor]  
 [Datum]
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 47/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Voorbeeld 4 – Een controleverklaring over financiële overzichten van een entiteit, anders 
 dan een beursgenoteerde entiteit, opgesteld in overeenstemming met een compliance-
 stelsel voor algemene doeleinden  
@@ -3000,17 +2533,6 @@ De met het toezicht over de financiële overzichten belaste personen zijn versch
 met het opstellen van de financiële overzichten belaste personen. 
 • 
 De auditor heeft geen overige rapporteringsverplichtingen op grond van lokale wetgeving.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 48/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
 [Passende geadresseerde] 
 Oordeel 
@@ -3060,16 +2582,6 @@ proces van financiële verslaggeving van de Vennootschap.
 52  Waar het de verantwoordelijkheid is van het management om financiële overzichten op te stellen die een getrouw beeld 
 geven, kan dit als volgt luiden: “Management is verantwoordelijk voor het opstellen van de financiële overzichten die een 
 getrouw beeld geven in overeenstemming met International Financial Reporting Standards, en voor een (...)”.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 49/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
 Verantwoordelijkheden van de auditor voor de controle van de financiële overzichten 
 Onze doelstellingen zijn het verkrijgen van een redelijke mate van zekerheid over de vraag of de 
 financiële overzichten als geheel geen afwijking van materieel belang bevatten die het gevolg is van 
@@ -3128,17 +2640,6 @@ tekortkomingen in de interne beheersing die wij identificeren gedurende onze con
 53  Deze zin wordt aangepast, waar nodig, in de omstandigheden dat de auditor tevens een verantwoordelijkheid heeft om een 
 oordeel tot uitdrukking te brengen over de effectiviteit van de interne beheersing die relevant is voor de controle van de 
 financiële overzichten.
-
-HET VORMEN VAN EEN OORDEEL EN HET RAPPORTEREN OVER FINANCIËLE OVERZICHTEN 
-ISA 700 (herzien) 
-NBA – IBR 2022 
- 50/50 
- 
-Originele bron : Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 De partner verantwoordelijk voor de controle, zoals tot uiting komt in deze verklaring van de 
 onafhankelijke auditor, is [Naam] 
  

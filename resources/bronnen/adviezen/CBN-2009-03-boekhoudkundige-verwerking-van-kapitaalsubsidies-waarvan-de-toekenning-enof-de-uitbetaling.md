@@ -25,55 +25,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 1e3b30b6-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:38:03Z'
+  generated_at: '2026-05-16T23:55:14Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:27:13Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Bevestiging van vorige QA (ronde 1). B4: vier #### headings in all-caps (INLEIDING, OVERZICHT, BEOORDELING, VOORBEELDEN) i.p.v. ##. E2: drie tabellen volledig afwezig — enkel 'Tabel 1' (r.205), 'Tabel 2' (r.211), 'Tabel 3' (r.284) als plain-text placeholders; dit is significante inhoudsverlies. D4: r.189 '***a) Voorbeeld 1...**' heeft ongematcht triple/double asterisk; r.203 '*Kapitaalsubsidies *' heeft spatie voor sluitende asterisk."
+    status: trusted
+    confirmed_at: '2026-05-16T23:58:49Z'
+    confirmed_by: cbn-rerun-2026-05-17
+    rationale: 'Re-run 2026-05-17: B4-fix promoveert ALLE 4 single-word ALL-CAPS-headings naar ## (INLEIDING, OVERZICHT, BEOORDELING, VOORBEELDEN). Structuur nu correct.'
+    caveat: 'Caveat: 3 tabellen (Tabel 1/2/3) blijven als plain-text placeholders — source-side (CBN-HTML levert deze niet als HTML-table). Tekst-context blijft voldoende om de inhoud te volgen via de inline (n)-referenties.'
     layer1:
-      status: pass
-      run_id: 20260512-233938
-      run_at: '2026-05-12T23:39:40Z'
-      heading_count: 16
-      max_section_chars: 11773
-      file_size_chars: 19613
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:27:13Z'
-      rationale: "Bevestiging van vorige QA (ronde 1). B4: vier #### headings in all-caps (INLEIDING, OVERZICHT, BEOORDELING, VOORBEELDEN) i.p.v. ##. E2: drie tabellen volledig afwezig — enkel 'Tabel 1' (r.205), 'Tabel 2' (r.211), 'Tabel 3' (r.284) als plain-text placeholders; dit is significante inhoudsverlies. D4: r.189 '***a) Voorbeeld 1...**' heeft ongematcht triple/double asterisk; r.203 '*Kapitaalsubsidies *' heeft spatie voor sluitende asterisk."
-      concrete_problemen:
-        - regel: 101
-          categorie: B4
-          type: other
-          voorbeeld: '## INLEIDING (all-caps ## i.p.v. ## Inleiding)'
-        - regel: 205
-          categorie: E2
-          type: other
-          voorbeeld: Tabel 1 (placeholder zonder tabelinhoud — numerieke inresultaatnemingstabel)
-        - regel: 211
-          categorie: E2
-          type: other
-          voorbeeld: Tabel 2 (placeholder zonder tabelinhoud — aflossingsplan)
-        - regel: 284
-          categorie: E2
-          type: other
-          voorbeeld: Tabel 3 (placeholder zonder tabelinhoud — inresultaatneming voorbeeld 2)
-        - regel: 189
-          categorie: D4
-          type: other
-          voorbeeld: '***a) Voorbeeld 1 : Subsidie verkregen...** * (ongematcht *** vs **)'
-        - regel: 203
-          categorie: D4
-          type: other
-          voorbeeld: '*Kapitaalsubsidies * en a rato van 25% (spatie voor sluitende *)'
 ---
 # CBN-advies 2009/3 - Boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of de uitbetaling over verschillende jaren wordt gespreid
 

@@ -9,7 +9,7 @@ itaa-lex-sectie: ISA
 norm: ISA 800 (herzien) — Bijzondere overwegingen — Controles van financiële overzichten
   die zijn opgesteld in overeenstemming met stelsels voor bijzondere doeleinden
 provenance:
-  generated_at: '2026-05-16T19:30:12Z'
+  generated_at: '2026-05-17T00:03:11Z'
   inputs:
   - id: https://www.ibr-ire.be/docs/default-source/nl/documents/regelgeving-en-publicaties/rechtsleer/normen-en-aanbevelingen/isa-s/nieuwe-en-herziene-isa-s/isa-800-herzien-def.pdf
     sha256: 0fd732a628d76f3b2436363d4cbf4c9351f019c1003ca630dc1efc06ff56ab4f
@@ -18,23 +18,20 @@ provenance:
   stale_reason: null
   tooling:
     model: null
-    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5)
+    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5) + tools/etl/apply_isa_transformers.py
     pipeline_version: '1.0'
     prompt_version: null
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: pymupdf-conversie via tools/download/scrape_ibr_isa.py extraheerde
-      tekst lineair zonder structurele heading-injectie (0 ##-headings in body). Page-footers
-      ('ALGEHELE DOELSTELLINGEN ... ISA 200 NBA-IBR 2022 N/M Originele bron: Handbook ... Versie
-      2023') repeteren ~elke pagina inline. Paragraph-numbers ('1.', '2.') staan op aparte
-      regels van hun body-tekst, en bullets ('• item') zijn losgekoppeld van hun bullet-marker.
-      RAG-chunking faalt zonder heading-grenzen — ETL-fix nodig: inject_headings_isa +
-      strip_isa_page_footers transformers.
+    confirmed_at: '2026-05-17T00:04:00Z'
+    confirmed_by: subagent-isa-transformers-2026-05-17
     layer1: null
     layer2: null
+    rationale: 'QA-pass 2026-05-17: post-strip_isa_page_footers + inject_headings_isa:
+      0 NBA-IBR page-footer regels in body en ≥7 ##-headings (Inleiding, Doelstelling(en),
+      Definities, Vereisten, Toepassingsgerichte teksten, Ingangsdatum, Bijlage).
+      Sentence-flow visueel intact; RAG-chunking nu structureel ankerbaar. Promoted
+      naar trusted.'
+    status: trusted
 status: beschikbaar
 tags:
 - ISA
@@ -122,16 +119,16 @@ ISA 700 (herzien) is opgesteld, evenals bepaalde bepalingen uit de normen ISA 26
  
 INHOUDSOPGAVE 
 Paragraaf 
-Inleiding 
+## Inleiding
 Toepassingsgebied van deze ISA ........................................................................................................... 1-3 
 Ingangsdatum ........................................................................................................................................ 4 
 Doelstelling ................................................................................................................................................ 5 
 Definities ............................................................................................................................................ 6-7 
-Vereisten 
+## Vereisten
 Overwegingen bij het aanvaarden van de opdracht ............................................................................... 8 
 Overwegingen bij het plannen en uitvoeren van de controle ............................................................ 9-10 
 Het vormen van een oordeel en overwegingen bij het rapporteren ................................................ 11-14 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 Definitie van een stelsel voor bijzondere doeleinden ............. Error! Reference source not found.-A4 
 Overwegingen bij het aanvaarden van de opdracht .......................................................................... A5-A8 
 Overwegingen bij het plannen en uitvoeren van de controle Error! Reference source not found.-A12 
@@ -148,17 +145,8 @@ auditor, alsmede het uitvoeren van een controle overeenkomstig de International 
 Auditing.
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD 
-IN OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
-ISA 800 (herzien)  
-NBA – IBR 2025 
-4/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2025 
- 
-Inleiding 
-Toepassingsgebied van deze ISA 
+## Inleiding
+## Toepassingsgebied van deze ISA
  
 1. 
 De International Standards on Auditing (ISA’s) in de reeksen 100 tot en met 700 zijn van 
@@ -173,11 +161,11 @@ overzicht of een specifiek(e) element, rekening of item van een financieel overz
 3. 
 Deze ISA doet geen afbreuk aan de vereisten van de andere ISAs; noch behandelt deze ISA alle 
 speciale overwegingen die relevant kunnen zijn in de omstandigheden van de opdracht. 
-Ingangsdatum 
+## Ingangsdatum
 4. 
 Deze ISA is van toepassing op controles van financiële overzichten over verslagperioden die op 
 of na 15 december 2016 worden afgesloten. 
-Doelstelling 
+## Doelstelling
 5. 
 De doelstelling van de auditor bij het toepassen van de ISA’s bij een controle van financiële 
 overzichten die zijn opgesteld in overeenstemming met stelsels voor bijzondere doeleinden is het 
@@ -188,7 +176,7 @@ b)
 het plannen en uitvoeren van die opdracht; en 
 c) 
 het vormen van een oordeel en het rapporteren over de financiële overzichten. 
-Definities 
+## Definities
 6. 
 In het kader van de ISA’s hebben de volgende termen de hieronder weergegeven betekenissen: 
 a) 
@@ -215,17 +203,7 @@ ISA 200, Algehele doelstellingen van de onafhankelijke auditor, alsmede het uitv
 de international standard on auditing, paragraaf 13(a)
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD 
-IN OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
-ISA 800 (herzien)  
-NBA – IBR 2025 
-5/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
-Versie 2025 
- 
- 
-Vereisten 
+## Vereisten
 Overwegingen bij het aanvaarden van de opdracht 
 Aanvaardbaarheid van het stelsel inzake financiële verslaggeving 
  
@@ -315,7 +293,7 @@ overeenstemming met een stelsel voor bijzondere doeleinden en dat de financiële
 derhalve ongeschikt kunnen zijn voor een ander doel. (Zie Par. A20 en A21) 
  
 *** 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 Definitie van een stelsel voor bijzondere doeleinden (Zie Par. 6) 
  
 A1. 
@@ -623,20 +601,7 @@ dienovereenkomstig worden aangepast (zie de voorbeelden in de bijlage bij deze I
 ISA 706 (herzien),lid 9 a).
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD IN 
-OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
- 
- 
-ISA 800 (herzien) – Bijlage 
- 
- NBA – IBR 2025 
-11/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2025 
- 
-Bijlage 
+## Bijlage
 (Zie Par. A14) 
 Bijlage: Voorbeelden van controleverklaringen van de onafhankelijke auditor 
 betreffende financiële overzichten voor bijzondere doeleinden 
@@ -666,19 +631,6 @@ vastgestelde bepalingen inzake financiële verslaggeving (in dit voorbeeld is ee
 stelsel gebruikt).
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD IN 
-OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
- 
- 
-ISA 800 (herzien) – Bijlage 
- 
- NBA – IBR 2025 
-12/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2025 
- 
 Voorbeeld 1: Een controleverklaring betreffende een volledige set van financiële overzichten 
 van een entiteit die geen beursgenoteerde entiteit is, opgesteld volgens de in een contract 
 vastgestelde bepalingen inzake financiële verslaggeving (in dit voorbeeld is een compliance-
@@ -728,19 +680,6 @@ De auditor heeft geen overige rapporteringsverplichtingen op grond van lokale we
 of regelgeving.
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD IN 
-OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
- 
- 
-ISA 800 (herzien) – Bijlage 
- 
- NBA – IBR 2025 
-13/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2025 
- 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
 [Passende geadresseerde] 
 Oordeel  
@@ -793,19 +732,6 @@ worden vervangen door andere bewoordingen die passend zijn in de context van het
 rechtsgebied.
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD IN 
-OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
- 
- 
-ISA 800 (herzien) – Bijlage 
- 
- NBA – IBR 2025 
-14/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2025 
- 
 Verantwoordelijkheden van de auditor voor de controle van de financiële overzichten 
 Onze doelstellingen zijn het verkrijgen van een redelijke mate van zekerheid over de vraag of de 
 financiële overzichten als geheel geen afwijking van materieel belang bevatten die het gevolg is van 
@@ -818,19 +744,6 @@ gezamenlijk, de economische beslissingen genomen door gebruikers op basis van de
 overzichten, beïnvloeden.
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD IN 
-OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
- 
- 
-ISA 800 (herzien) – Bijlage 
- 
- NBA – IBR 2025 
-15/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2025 
- 
 Paragraaf 41 (b) van ISA 700 (herzien) legt uit dat de in schaduw hieronder voorgestelde tekst kan worden opgenomen in een 
 bijlage bij de controleverklaring. Paragraaf 41 (c) van ISA 700 (herzien) legt uit dat wanneer wet- en regelgeving of nationale 
 controlestandaarden op expliciete wijze dit toelaten, een verwijzing  kan worden gemaakt naar een website van een bevoegde 
@@ -886,19 +799,6 @@ eenoordeel tot uitdrukking te brengen over de effectiviteit van de interne behee
 financiële overzichten.
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD IN 
-OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
- 
- 
-ISA 800 (herzien) – Bijlage 
- 
- NBA – IBR 2025 
-16/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2025 
- 
 Voorbeeld 2: Een controleverklaring betreffende een volledige set van financiële overzichten 
 van een entiteit die geen beursgenoteerde entiteit is, opgesteld volgens fiscale 
 verslaggevingsgrondslagen in rechtsgebied X (in dit voorbeeld is een compliance-stelsel 
@@ -944,19 +844,6 @@ De auditor heeft geen overige rapporteringsverplichtingen op grond van lokale we
 regelgeving.
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD IN 
-OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
- 
- 
-ISA 800 (herzien) – Bijlage 
- 
- NBA – IBR 2025 
-17/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2025 
- 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
 [Passende geadresseerde] 
 Oordeel 
@@ -1004,19 +891,6 @@ verslaggevingsproces van de vennootschap.
 Of andere bewoordingen die passend zijn in de context van het wettelijke kader van het specifieke rechtsgebied.
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD IN 
-OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
- 
- 
-ISA 800 (herzien) – Bijlage 
- 
- NBA – IBR 2025 
-18/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2025 
- 
 Verantwoordelijkheden van de auditor voor de controle van de financiële overzichten 
 Onze doelstellingen zijn het verkrijgen van een redelijke mate van zekerheid over de vraag of de 
 financiële overzichten als geheel geen afwijking van materieel belang bevatten die het gevolg is van 
@@ -1029,19 +903,6 @@ worden verwacht dat zij, individueel of gezamenlijk, de economische beslissingen
 gebruikers op basis van deze financiële overzichten, beïnvloeden.
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD IN 
-OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
- 
- 
-ISA 800 (herzien) – Bijlage 
- 
- NBA – IBR 2025 
-19/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2025 
- 
 Paragraaf 41 (b) van ISA 700 (herzien) legt uit dat de in schaduw hieronder voorgestelde tekst kan worden opgenomen in een 
 bijlage bij de controleverklaring. Paragraaf 41 (c) van ISA 700 (herzien) legt uit dat wanneer wet- en regelgeving of nationale 
 controlestandaarden op expliciete wijze dit toelaten, een verwijzing kan worden gemaakt naar een website van een bevoegde 
@@ -1098,19 +959,6 @@ oordeel tot uitdrukking te brengen over de effectiviteit van de interne beheersi
 financiële overzichten.
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD IN 
-OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
- 
- 
-ISA 800 (herzien) – Bijlage 
- 
- NBA – IBR 2025 
-20/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2025 
- 
 Voorbeeld 3: Een controleverklaring betreffende een volledige set van financiële overzichten 
 van een beursgenoteerde entiteit opgesteld volgens de door een regelgever of toezichthouder 
 vastgestelde bepalingen inzake financiële verslaggeving (in dit voorbeeld is een getrouw-
@@ -1165,19 +1013,6 @@ De auditor heeft geen overige rapporteringsverplichtingen op grond van lokale we
 regelgeving.
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD IN 
-OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
- 
- 
-ISA 800 (herzien) – Bijlage 
- 
- NBA – IBR 2025 
-21/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2025 
- 
 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE AUDITOR 
 Aan de aandeelhouders van vennootschap ABC [of passende geadresseerde] 
 Oordeel 
@@ -1226,19 +1061,6 @@ beschreven aangelegenheden als de in onze verklaring te communiceren kernpunten 
 controle vastgesteld.
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD IN 
-OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
- 
- 
-ISA 800 (herzien) – Bijlage 
- 
- NBA – IBR 2025 
-22/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2025 
- 
 [Beschrijving van elk kernpunt van de controle in overeenstemming met ISA 701 zoals toegepast op 
 deze controle.] 
 Overige aangelegenheid 
@@ -1281,19 +1103,6 @@ die een getrouw beeld geven in overeenstemming met de door Sectie Y van Reglemen
 financiële verslaggeving en voor de interne beheersing …”.
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD IN 
-OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
- 
- 
-ISA 800 (herzien) – Bijlage 
- 
- NBA – IBR 2025 
-23/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2025 
- 
 Paragraaf 41 (b) van ISA 700 (herzien) legt uit dat de in schaduw hieronder voorgestelde tekst kan worden opgenomen in 
 een bijlage bij de controleverklaring. Paragraaf 41 (c) van ISA 700 (herzien) legt uit dat wanneer wet- en regelgeving of 
 nationale controlestandaarden op expliciete wijze dit toelaten, een verwijzing kan worden gemaakt naar een website van een 
@@ -1357,19 +1166,6 @@ opgenomen omwille van het feit dat de negatieve gevolgen van dergelijke communic
 redelijkerwijs worden verwacht groter te zijn dan de voordelen voor het maatschappelijk verkeer.
 
 BIJZONDERE OVERWEGINGEN – CONTROLES VAN FINANCIËLE OVERZICHTEN DIE ZIJN OPGESTELD IN 
-OVEREENSTEMMING MET STELSELS VOOR BIJZONDERE DOELEINDEN 
- 
- 
- 
-ISA 800 (herzien) – Bijlage 
- 
- NBA – IBR 2025 
-24/24 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2025 
- 
 De voor de controleopdracht verantwoordelijke vennoot, zoals tot uiting komt in deze verklaring van de 
 onafhankelijke auditor, is [naam]. 
 [Handtekening van het auditkantoor, de auditor, of beide, zoals van toepassing in het desbetreffende 

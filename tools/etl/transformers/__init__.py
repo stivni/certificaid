@@ -51,6 +51,8 @@ from tools.etl.transformers.strip_duplicate_toc_headings import strip_duplicate_
 from tools.etl.transformers.promote_roman_rubrieken import promote_roman_rubrieken
 from tools.etl.transformers.reorder_heading_cluster import reorder_heading_cluster
 from tools.etl.transformers.split_long_art_heading import split_long_art_heading
+from tools.etl.transformers.strip_isa_page_footers import strip_isa_page_footers
+from tools.etl.transformers.inject_headings_isa import inject_headings_isa
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -94,6 +96,8 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "promote_roman_rubrieken": promote_roman_rubrieken,
     "reorder_heading_cluster": reorder_heading_cluster,
     "split_long_art_heading": split_long_art_heading,
+    "strip_isa_page_footers": strip_isa_page_footers,
+    "inject_headings_isa": inject_headings_isa,
 }
 
 

@@ -33,47 +33,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 1e3b30b6-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:37:47Z'
+  generated_at: '2026-05-16T23:55:00Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:27:05Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B2: heading-hiërarchie springt van H1 (regel 58) direct naar H4 (regel 66) zonder H2 of H3 ertussen — een extractie-artefact. C1: vijf regels starten met bullet-glyph • (U+2022) in plaats van markdown - (regels 113, 121, 126, 128, 139). A6: inline voetnootmarkers veroorzaken spurious line-breaks waarbij de zin op de volgende regel verdergaat (bv. regels 60-61, 87-88). Inhoud is volledig met alle vier subsecties aanwezig.'
+    status: trusted
+    confirmed_at: '2026-05-16T23:58:49Z'
+    confirmed_by: cbn-rerun-2026-05-17
+    rationale: 'Re-run 2026-05-17: C1 bullet-glyphs (•) gerefactord naar markdown (-) — alle 5 regels nu correct.'
+    caveat: 'Caveat: heading-hiërarchie springt op één plaats van h1→h4 (B2); structuur blijft leesbaar maar niet ideaal genest.'
     layer1:
-      status: pass
-      run_id: 20260512-233938
-      run_at: '2026-05-12T23:39:40Z'
-      heading_count: 10
-      max_section_chars: 10968
-      file_size_chars: 21954
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:27:05Z'
-      rationale: 'B2: heading-hiërarchie springt van H1 (regel 58) direct naar H4 (regel 66) zonder H2 of H3 ertussen — een extractie-artefact. C1: vijf regels starten met bullet-glyph • (U+2022) in plaats van markdown - (regels 113, 121, 126, 128, 139). A6: inline voetnootmarkers veroorzaken spurious line-breaks waarbij de zin op de volgende regel verdergaat (bv. regels 60-61, 87-88). Inhoud is volledig met alle vier subsecties aanwezig.'
-      concrete_problemen:
-        - regel: 66
-          categorie: B2
-          type: other
-          voorbeeld: '#### Uitgifte van obligaties met het recht tot inschrijving op aandelen'
-        - regel: 113
-          categorie: C1
-          type: bullet-glyph
-          voorbeeld: • Als dit bedrag wordt vergeleken met de geactualiseerde waarde...
-        - regel: 60
-          categorie: A6
-          type: other
-          voorbeeld: In haar advies 139/7[^1]\n heeft de Commissie onderzocht hoe warrants...
-        - regel: 103
-          categorie: C3
-          type: pseudo-table
-          voorbeeld: 1.000.000 = 747.258\n\n   (1,06)5
 ---
 # CBN-advies 139/8 - Uitgifte van obligaties met inschrijvingsrechten die in aandelen converteerbaar of terugbetaalbaar zijn, en van aandelen waaraan het recht is gekoppeld om in te schrijven op later uit te geven aandelen
 

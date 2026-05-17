@@ -40,51 +40,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 1e3b30b6-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:37:57Z'
+  generated_at: '2026-05-16T23:55:09Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:27:14Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere ETL-artefacten bevestigd na re-QA: D4 op r.435 en r.442 ('** 20.09.91**' / '** 01.10.91**' met spatie na openings-**); A9 op r.474 ('Aanschaffigswaarde', ontbrekende 't') en r.498 ('op terminijn', dubbele 'i'); E2 op r.252-254 en r.515 (multi-line tabelcellen die kolommen splitsen over meerdere regels, standaard markdown-rendering breekt). Structuur en inhoud omvangrijk maar herkenbaar."
+    status: trusted
+    confirmed_at: '2026-05-16T23:58:49Z'
+    confirmed_by: cbn-rerun-2026-05-17
+    rationale: "Re-run 2026-05-17: D4 spatie-na-** patroon ('** 20.09.91**') gefixt. 24 ## heading-structuur intact."
+    caveat:
     layer1:
-      status: pass
-      run_id: 20260512-233938
-      run_at: '2026-05-12T23:39:40Z'
-      heading_count: 29
-      max_section_chars: 22781
-      file_size_chars: 39949
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:27:14Z'
-      rationale: "Meerdere ETL-artefacten bevestigd na re-QA: D4 op r.435 en r.442 ('** 20.09.91**' / '** 01.10.91**' met spatie na openings-**); A9 op r.474 ('Aanschaffigswaarde', ontbrekende 't') en r.498 ('op terminijn', dubbele 'i'); E2 op r.252-254 en r.515 (multi-line tabelcellen die kolommen splitsen over meerdere regels, standaard markdown-rendering breekt). Structuur en inhoud omvangrijk maar herkenbaar."
-      concrete_problemen:
-        - regel: 435
-          categorie: D4
-          type: other
-          voorbeeld: '** 20.09.91**'
-        - regel: 442
-          categorie: D4
-          type: other
-          voorbeeld: '** 01.10.91**'
-        - regel: 474
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: 510... | Aandelen - Aanschaffigswaarde | 12.600
-        - regel: 498
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: op terminijn verkochte effecten | 100 |
-        - regel: 252
-          categorie: E2
-          type: pseudo-table
-          voorbeeld: '| Noteringsdata | | Koers van de optie \n | | Koers van het aandeel...'
 ---
 # Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen (Err., Bull. CBN, nr. 30, februari 1993, p. 8)
 

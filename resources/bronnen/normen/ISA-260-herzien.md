@@ -8,7 +8,7 @@ chunk:
 itaa-lex-sectie: ISA
 norm: ISA 260 (herzien) — Communicatie met de met governance belaste personen
 provenance:
-  generated_at: '2026-05-16T19:30:12Z'
+  generated_at: '2026-05-17T00:03:11Z'
   inputs:
   - id: https://www.ibr-ire.be/docs/default-source/nl/documents/regelgeving-en-publicaties/rechtsleer/normen-en-aanbevelingen/isa-s/nieuwe-en-herziene-isa-s/new-and-revised-isas-2017-update-24062019/isa-260_(herzien)_nl_2023.pdf
     sha256: 8ac42fe9df5603a1b680fb91130bcb589af1c27a944d1992bfb9008bb250abeb
@@ -17,23 +17,20 @@ provenance:
   stale_reason: null
   tooling:
     model: null
-    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5)
+    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5) + tools/etl/apply_isa_transformers.py
     pipeline_version: '1.0'
     prompt_version: null
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: pymupdf-conversie via tools/download/scrape_ibr_isa.py extraheerde
-      tekst lineair zonder structurele heading-injectie (0 ##-headings in body). Page-footers
-      ('ALGEHELE DOELSTELLINGEN ... ISA 200 NBA-IBR 2022 N/M Originele bron: Handbook ... Versie
-      2023') repeteren ~elke pagina inline. Paragraph-numbers ('1.', '2.') staan op aparte
-      regels van hun body-tekst, en bullets ('• item') zijn losgekoppeld van hun bullet-marker.
-      RAG-chunking faalt zonder heading-grenzen — ETL-fix nodig: inject_headings_isa +
-      strip_isa_page_footers transformers.
+    confirmed_at: '2026-05-17T00:04:00Z'
+    confirmed_by: subagent-isa-transformers-2026-05-17
     layer1: null
     layer2: null
+    rationale: 'QA-pass 2026-05-17: post-strip_isa_page_footers + inject_headings_isa:
+      0 NBA-IBR page-footer regels in body en ≥7 ##-headings (Inleiding, Doelstelling(en),
+      Definities, Vereisten, Toepassingsgerichte teksten, Ingangsdatum, Bijlage).
+      Sentence-flow visueel intact; RAG-chunking nu structureel ankerbaar. Promoted
+      naar trusted.'
+    status: trusted
 status: beschikbaar
 tags:
 - ISA
@@ -59,19 +56,6 @@ ISA 260 (herzien)
  
 Communicatie met de met 
 governance belaste personen
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-2/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 Over de IAASB 
  
 Copyright IFAC 
@@ -100,18 +84,6 @@ and Related Services Pronouncements, 2022 Edition Volume I - ISBN number: 978-1-
  
 Neem contact op met permissions@ifac.org voor toestemming om dit document te reproduceren, op te 
 slaan of door te geven, of voor ander soortgelijk gebruik van dit document.
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-3/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 INTERNATIONALE CONTROLESTANDAARD 260 (herzien) 
  
 COMMUNICATIE MET DE MET GOVERNANCE BELASTE 
@@ -122,19 +94,19 @@ of na 15 december 2016 worden afgesloten)
  
 INHOUDSOPGAVE 
 Paragraaf 
-Inleiding 
+## Inleiding
 Toepassingsgebied van deze ISA ...........................................................................................................  1 -3 
 De rol van communicatie  ..................................................................................................................... 4-7 
 Ingangsdatum.......................................................................................................................................................  8 
 Doelstellingen ........................................................................................................................................ 9 
 Definities ...................................................................................................................................................... 10 
-Vereisten 
+## Vereisten
 De met governance belaste personen ...............................................................................................11-13 
 Mee te delen aangelegenheden 
  ................................................................................................  14-17 
 Het communicatieproces .................................................................................................................  18-22 
 Documentatie ........................................................................................................................................  23 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 De met governance belaste personen ............................................................................................. A1-A8 
 Mee te delen aangelegenheden .................................................................................................... A9-A36 
 Het communicatieproces ............................................................................................................. A37-A53 
@@ -151,21 +123,9 @@ International Standard on Auditing (ISA) 260 (herzien), “Communicatie met de m
 personen”, moet worden gelezen in samenhang met ISA 200, “Algehele doelstellingen van de 
 onafhankelijke auditor, alsmede het uitvoeren van een controle overeenkomstig de International 
 Standards on Auditing”.
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
+## Inleiding
  
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-4/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
-Inleiding 
- 
-Toepassingsgebied van deze ISA 
+## Toepassingsgebied van deze ISA
  
 1. 
 Deze International Standard on Auditing (ISA) behandelt de communicatieverantwoordelijkheid 
@@ -239,18 +199,6 @@ deze
 1  
 ISA 265, Meedelen van tekortkomingen in de interne beheersing aan de met governance belaste personen en het 
 management.
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-5/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 verantwoordelijkheid. Evenmin ontslaat het meedelen door het management aan de met 
 governance belaste personen van aangelegenheden waarvan de auditor wordt vereist dat hij ze 
 meedeelt, de auditor van zijn verplichting om deze zelf ook mee te delen. Het door het 
@@ -276,13 +224,13 @@ krachtens anti-witwas wetgeving. In deze omstandigheden kunnen de kwesties die w
 overwogen door de auditor complex van aard zijn en kan de auditor het geschikt achten om 
 juridisch advies in te winnen. 
  
-Ingangsdatum 
+## Ingangsdatum
  
 8. 
 Deze ISA is van toepassing op controles van financiële overzichten over verslagperioden die op 
 of na 15 december 2016 worden afgesloten.  
  
-Doelstellingen 
+## Doelstellingen
  
 9. 
 De doelstellingen van de auditor zijn: 
@@ -302,7 +250,7 @@ om toezicht uit te oefenen op het proces van financiële verslaggeving; en
 doeltreffende wederzijdse communicatie tussen de auditor en de met governance belaste 
 personen te bevorderen. 
  
-Definities 
+## Definities
  
 10. 
 Voor de toepassing van de ISA’s hebben de volgende termen de hierna weergegeven 
@@ -317,18 +265,6 @@ toezicht op het proces van financiële verslaggeving. Voor bepaalde entiteiten i
 rechtsgebieden kan ook leidinggevend personeel behoren tot de met governance belaste 
 personen, bijvoorbeeld bij het dagelijks bestuur betrokken leden van een governance-
 orgaan van een entiteit in de private of publieke sector of een eigenaar-bestuurder. Zie de
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-6/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 paragrafen A1-A8 voor een bespreking van de verschillende vormen van governance-
 structuren. 
 (b) 
@@ -338,7 +274,7 @@ bepaalde entiteiten in sommige rechtsgebieden behoren sommige of alle met govern
 belaste personen tot het management, bijvoorbeeld bij het dagelijks bestuur betrokken 
 leden van een governance-orgaan of een eigenaar-bestuurder. 
  
-Vereisten 
+## Vereisten
  
 De met governance belaste personen  
  
@@ -392,18 +328,6 @@ De geplande reikwijdte en timing van de controle
 De auditor dient een overzicht van de geplande reikwijdte en de timing van de controle aan de 
 met governance belaste personen mee te delen, welke de communicatie bevat over de 
 significante risico’s die door de auditor zijn geïdentificeerd. (Zie par. A11-A16)
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-7/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Specifieke bevindingen uit de controle 
  
 16. 
@@ -472,19 +396,6 @@ A32).
 Het communicatieproces 
  
 Het tot stand brengen van het communicatieproces
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-8/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 18. 
 De auditor dient aan de met governance belaste personen de vorm, de timing en de verwachte 
 algemene inhoud van de communicatie mee te delen. (Zie par. A37-A45) 
@@ -531,7 +442,7 @@ bewaren als onderdeel van de controledocumentatie2. (Zie par. A54)
 **** 
  
  
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
  
 De met governance belaste personen (Zie par. 11) 
  
@@ -556,18 +467,6 @@ behoren zowel de toezichthoudende als de met het dagelijks bestuur verband houde
  
 2  
 ISA 230, Controledocumentatie, paragrafen 8-11 en A6.
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-9/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 taken tot de wettelijke verantwoordelijkheid van één enkele of een één geheel vormende 
 raad (een monistische bestuursstructuur); 
 • 
@@ -642,18 +541,6 @@ ISA 315 (herzien 2019), Risico’s op een afwijking van materieel belang identif
 5  
 ISA 600, Bijzondere overwegingen – Controles van financiële overzichten van een groep (inclusief de werkzaamheden van 
 auditors van groepsonderdelen), paragraaf 49.
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-10/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 gemeenschappelijke raad van bestuur) kan overlapping worden voorkomen door in het kader van 
 de communicatie deze groepsonderdelen gezamenlijk te behandelen. 
  
@@ -720,18 +607,6 @@ Mee te delen aangelegenheden
  
 De verantwoordelijkheden van de auditor met betrekking tot de controle van financiële overzichten (Zie 
 par. 14)
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-11/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 A9. 
 De verantwoordelijkheden van de auditor met betrekking tot de controle van financiële 
 overzichten worden dikwijls vermeld in de opdrachtbrief of in een andere passende vorm van een 
@@ -804,18 +679,6 @@ uit te oefenen op het proces van financiële verslaggeving.
 ISA 210, Het overeenkomen van de voorwaarden van controleopdrachten, paragraaf 10. 
 7  
 ISA 701, Het communiceren van kernpunten van de controle in de controleverklaring van de onafhankelijke auditor.
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-12/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 A13. Aangelegenheden die worden meegedeeld, zijn onder meer: 
  
 • 
@@ -890,18 +753,6 @@ ISA 320, Materialiteit bij planning en uitvoering van een controle.
 9  
 Zie ISA 620, Gebruikmaken van de werkzaamheden van een door de auditor ingeschakelde deskundige. 
 10  ISA 610 (herzien 2013), Gebruikmaken van de werkzaamheden van interne auditors, paragrafen 20 en 31.
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-13/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 van dergelijke ontwikkelingen op, bijvoorbeeld de algehele presentatie, structuur en inhoud 
 van de financiële overzichten, waaronder: 
  
@@ -963,18 +814,6 @@ schattingen. Bovendien kunnen wet- en regelgeving of stelsels inzake financiële
 de toelichting van een samenvatting van significante grondslagen voor de financiële 
  
 11  ISA 701, paragrafen 9-10.
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-14/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 verslaggeving vereisen of verwijzen naar ”kritieke schattingen” of “kritieke grondslagen voor de 
 financiële verslaggeving en praktijken inzake administratieve verwerking” om aanvullende 
 informatie te identificeren en deze aan gebruikers te verschaffen inzake de moeilijkste, de meest 
@@ -1036,18 +875,6 @@ correspondentie zijn geweest, kunnen onder meer zijn:
 Significante gebeurtenissen of transacties die zich tijdens het jaar hebben voorgedaan; 
  
 12  ISA 705 (herzien), Aanpassingen van het oordeel in de controleverklaring van de onafhankelijke auditor.
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-15/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 • 
 Zakelijke omstandigheden die de activiteiten van de entiteit beïnvloeden, alsmede 
 bedrijfsplannen en strategieën die van invloed kunnen zijn op de risico’s op een afwijking 
@@ -1112,18 +939,6 @@ is in de andere informatie in overeenstemming met ISA 720 (herzien)19.
 18  ISA 706 (herzien), Paragrafen ter benadrukking van bepaalde aangelegenheden en paragrafen inzake overige 
 aangelegenheden in de controleverklaring van de onafhankelijke auditor, paragraaf 12. 
 19  ISA 720 (herzien), De verantwoordelijkheden van de accountant met betrekking tot andere informatie, paragraaf 18(a).
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-16/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 In dergelijke omstandigheden kan de auditor het nuttig achten om aan de met governance belaste 
 personen een concept van de controleverklaring te verstrekken als hulpmiddel bij de bespreking 
 van de wijze waarop er op dergelijke aangelegenheden in de controleverklaring wordt ingespeeld. 
@@ -1183,19 +998,6 @@ kantoor zelf.
 22  ISA 300, Planning van een controle van financiële overzichten, paragraaf A15. 
 23  ISA 200, Algehele doelstellingen van de onafhankelijke auditor, alsmede het uitvoeren van een controle overeenkomstig de 
 International Standards on Auditing, paragraaf 14.
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-17/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 A31. Relevante ethische voorschriften of wet- of regelgeving kunnen ook bepaalde mededelingen aan 
 de met governance belaste personen specificeren in omstandigheden waar overtredingen van 
 onafhankelijkheidsvereisten zijn geïdentificeerd. De International Federation of Accountants’ 
@@ -1255,18 +1057,6 @@ aangelegenheden bestaan.
  
 24  Zie Secties R400.80-R400.82 en R400.81 van de IESBA Code, die het overtreden van de onafhankelijkheidsvereisten 
 behandelen.
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-18/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Het communicatieproces 
  
 Het tot stand brengen van het communicatieproces (Zie par. 18) 
@@ -1329,18 +1119,6 @@ auditor deze met het management bespreken, tenzij dit niet passend is. Zo is het
 passend vragen over de competenties en de integriteit van het management met het 
 management zelf te bespreken. Deze voorafgaande besprekingen houden niet alleen een 
 erkenning in van de met het dagelijks bestuur verband houdende verantwoordelijkheid van het
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-19/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 management, maar kunnen ook duidelijkheid brengen over bepaalde feiten en kwesties en het 
 management de gelegenheid bieden verdere informatie en uitleg te verschaffen. Op gelijksoortige 
 wijze kan de auditor, wanneer de entiteit beschikt over een interne auditfunctie, aangelegenheden 
@@ -1403,18 +1181,6 @@ governance belaste personen wordt verstrekt.
 A47. Naast de significantie van een specifieke aangelegenheid kunnen ook andere factoren van 
 invloed zijn op de communicatievorm (bijv. de vraag of op mondelinge dan wel op schriftelijke 
 wijze moet worden gecommuniceerd, de mate waarin details en samenvattingen in de
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-20/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 mededeling worden opgenomen, alsmede de vraag of op een gestructureerde dan wel op een 
 ongestructureerde wijze moet worden gecommuniceerd), bijvoorbeeld: 
  
@@ -1483,18 +1249,6 @@ aangelegenheden verder te bespreken bij het communiceren over significante
 controlebevindingen; 
  
 25  ISA 265, paragrafen 9 en A14.
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-21/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 • 
 communicatie met betrekking tot onafhankelijkheid kan passend zijn in alle gevallen waarin 
 significante 
@@ -1570,18 +1324,6 @@ de vorm, de timing en de verwachte algemene inhoud van de communicatie;
 wanneer alle of sommige van de met governance belaste personen betrokken zijn bij het 
 leiden van de entiteit, hun klaarblijkelijke kennis van de wijze waarop met de auditor 
 besproken aangelegenheden van invloed zijn op zowel hun verantwoordelijkheden inzake
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-22/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 governance in de brede betekenis van het woord als op hun leidinggevende 
 verantwoordelijkheden; 
 • 
@@ -1627,19 +1369,7 @@ bewaard indien deze notulen een passende vastlegging van de communicatie vormen.
  
  
 26  ISA 315 (herzien 2019), bijlage 3.
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-23/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
-Bijlage 1  
+## Bijlage 1
 (Zie par. 3) 
  
 Specifieke vereisten in ISQM 1 en andere ISA’s met betrekking tot de 
@@ -1711,19 +1441,7 @@ informatie, paragrafen 17-19.
 27  Internationale Standaard inzake kwaliteitsmanagement (ISQM) 1, “Kwaliteitsmanagement voor kantoren die controles of 
 beoordelingen van financiële overzichten, of andere assurance opdrachten of opdrachten voor aan assurance verwante 
 diensten uitvoeren”.
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-24/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
-Bijlage 2  
+## Bijlage 2
 (Zie par. 16(a), A19–A20) 
  
 Kwalitatieve aspecten van praktijken inzake administratieve verwerking 
@@ -1783,18 +1501,6 @@ Verwante aangelegenheden
 het mogelijke effect op de financiële overzichten van significante risico’s, de onderhevigheid 
 aan risico’s en onzekerheden, zoals lopende rechtszaken, waarover in de financiële 
 overzichten een toelichting wordt opgenomen;
-
-COMMUNICATIE MET DE MET GOVERNANCE BELASTE PERSONEN 
- 
-ISA 260 (herzien) 
-NBA-IBR 2023 
- 
-25/25 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 • 
 de mate waarin de financiële overzichten worden beïnvloed door significante transacties die 
 zich buiten het kader van de normale bedrijfsvoering van de entiteit bevinden, of die 

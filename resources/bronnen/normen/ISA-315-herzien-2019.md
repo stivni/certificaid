@@ -9,7 +9,7 @@ itaa-lex-sectie: ISA
 norm: ISA 315 (herzien-2019) — Risico's op een afwijking van materieel belang identificeren
   en inschatten
 provenance:
-  generated_at: '2026-05-16T19:30:12Z'
+  generated_at: '2026-05-17T00:03:11Z'
   inputs:
   - id: https://www.ibr-ire.be/docs/default-source/nl/documents/regelgeving-en-publicaties/rechtsleer/normen-en-aanbevelingen/isa-s/nieuwe-en-herziene-isa-s/new-and-revised-isas-2017-update-24062019/isa-315_(herzien-2019)_nl_2023.pdf
     sha256: 308d6fe2403e0dcbd957f8177d833817f5ad69d46f801184c474f20e62f1ed35
@@ -18,23 +18,20 @@ provenance:
   stale_reason: null
   tooling:
     model: null
-    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5)
+    pipeline: tools/download/scrape_ibr_isa.py (subagent a2fee1b5) + tools/etl/apply_isa_transformers.py
     pipeline_version: '1.0'
     prompt_version: null
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T20:31:37Z'
-    confirmed_by: subagent-qa-2026-05-16
-    rationale: >-
-      QA-pass 2026-05-16: pymupdf-conversie via tools/download/scrape_ibr_isa.py extraheerde
-      tekst lineair zonder structurele heading-injectie (0 ##-headings in body). Page-footers
-      ('ALGEHELE DOELSTELLINGEN ... ISA 200 NBA-IBR 2022 N/M Originele bron: Handbook ... Versie
-      2023') repeteren ~elke pagina inline. Paragraph-numbers ('1.', '2.') staan op aparte
-      regels van hun body-tekst, en bullets ('• item') zijn losgekoppeld van hun bullet-marker.
-      RAG-chunking faalt zonder heading-grenzen — ETL-fix nodig: inject_headings_isa +
-      strip_isa_page_footers transformers.
+    confirmed_at: '2026-05-17T00:04:00Z'
+    confirmed_by: subagent-isa-transformers-2026-05-17
     layer1: null
     layer2: null
+    rationale: 'QA-pass 2026-05-17: post-strip_isa_page_footers + inject_headings_isa:
+      0 NBA-IBR page-footer regels in body en ≥7 ##-headings (Inleiding, Doelstelling(en),
+      Definities, Vereisten, Toepassingsgerichte teksten, Ingangsdatum, Bijlage).
+      Sentence-flow visueel intact; RAG-chunking nu structureel ankerbaar. Promoted
+      naar trusted.'
+    status: trusted
 status: beschikbaar
 tags:
 - ISA
@@ -64,18 +61,6 @@ ISA 315 (herzien 2019)
 Risico’s op een afwijking van 
 materieel belang identificeren en 
 inschatten
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-2/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Over de IAASB 
  
 Copyright IFAC 
@@ -104,18 +89,6 @@ and Related Services Pronouncements, 2022 Edition Volume I - ISBN number: 978-1-
  
 Neem contact op met permissions@ifac.org voor toestemming om dit document te reproduceren, op te 
 slaan of door te geven, of voor ander soortgelijk gebruik van dit document.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-3/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 INTERNATIONALE CONTROLESTANDAARD 315 (HERZIEN 2019) 
  
 RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG 
@@ -125,20 +98,20 @@ IDENTIFICEREN EN INSCHATTEN
  
 INHOUDSOPGAVE 
 Paragraaf 
-Inleiding 
+## Inleiding
 Toepassingsgebied van deze ISA  ...........................................................................................................1 
 Belangrijke uitgangspunten ......................................................................................................................2 
 Schaalbaarheid .........................................................................................................................................9 
 Ingangsdatum ........................................................................................................................................ 10 
 Doelstelling  ......................................................................................................................................... 11 
 Definities  .............................................................................................................................................. 12 
-Vereisten 
+## Vereisten
 Risico-inschattingswerkzaamheden en daarmee verband houdende werkzaamheden  ................. 13-18 
 Het verwerven van inzicht in de entiteit en haar omgeving, het van toepassing zijnde stelsel  
 inzake financiële verslaggeving en het interne beheersingssysteem van de entiteit  ...................... 19-27 
 Het identificeren en inschatten van de risico’s op een afwijking van materieel belang ................... 28-37 
 Documentatie ........................................................................................................................................ 38 
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
 Definities ........................................................................................................................................ A1-A10 
 Risico-inschattingswerkzaamheden en daarmee verband houdende werkzaamheden  ............ A11-A47 
 Het verwerven van inzicht in de entiteit en haar omgeving, het van toepassing zijnde stelsel  
@@ -146,27 +119,12 @@ inzake financiële verslaggeving en het interne beheersingssysteem van de entite
 Het identificeren en inschatten van de risico’s op een afwijking van materieel belang........... A184-A236 
 Documentatie .......................................................................................................................... A237-A241 
  
-Bijlage 1: Overwegingen voor het verwerven van inzicht in de entiteit en haar bedrijfsmodellen 
-Bijlage 2: Inzicht verwerven in inherente risicofactoren 
-Bijlage 3: Inzicht in het systeem van interne beheersing van de entiteit 
-Bijlage 4: Overwegingen voor het verwerven van inzicht in de interne auditfunctie van een entiteit 
-Bijlage 5: Overwegingen voor het verwerven van inzicht in informatietechnologie (IT) 
-Bijlage 6: Overwegingen voor het verwerven van inzicht in general IT controls
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-4/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
- 
- 
+## Bijlage 1: Overwegingen voor het verwerven van inzicht in de entiteit en haar bedrijfsmodellen
+## Bijlage 2: Inzicht verwerven in inherente risicofactoren
+## Bijlage 3: Inzicht in het systeem van interne beheersing van de entiteit
+## Bijlage 4: Overwegingen voor het verwerven van inzicht in de interne auditfunctie van een entiteit
+## Bijlage 5: Overwegingen voor het verwerven van inzicht in informatietechnologie (IT)
+## Bijlage 6: Overwegingen voor het verwerven van inzicht in general IT controls
  
  
  
@@ -179,27 +137,15 @@ de Internationale Controlestandaarden.
 ISA 315 (herzien 2019) heeft de goedkeuring gekregen van de Public Interest Oversight Board (PIOB) 
 die tot de conclusie is gekomen dat het due process werd gevolgd in de totstandkoming van de 
 standaard en dat juiste aandacht werd besteed aan het openbaar belang.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
+## Inleiding
  
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-5/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
-Inleiding 
- 
-Toepassingsgebied van deze ISA 
+## Toepassingsgebied van deze ISA
  
 1. 
 Deze ISA behandelt de verantwoordelijkheid van de auditor om de risico’s op een afwijking van 
 materieel belang in de financiële overzichten te identificeren en in te schatten.  
  
-Belangrijke uitgangspunten in deze ISA 
+## Belangrijke uitgangspunten in deze ISA
  
 2. 
 ISA 200 behandelt de algehele doelstellingen van de auditor bij het uitvoeren van een controle 
@@ -270,18 +216,6 @@ ISA 200, paragraaf A37.
 ISA 200, paragrafen 15-16. 
 6  
 ISA 200, paragraaf A46 en ISA 330, Inspelen door de auditor op ingeschatte risico’s, paragraaf 6.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-6/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 leidraden zijn opgenomen in ISA 240 7 met betrekking tot risico-inschattingswerkzaamheden en 
 daarmee verband houdende werkzaamheden voor het verkrijgen van informatie die wordt 
 gebruikt om de risico’s op een afwijking van materieel belang die het gevolg is van fraude te 
@@ -320,7 +254,7 @@ controlewerkzaamheden opzet en uitvoert waarvan de aard, timing en omvang zijn g
 en die inspelen op de ingeschatte risico’s op een afwijking van materieel belang op het niveau 
 van beweringen. 9 
  
-Schaalbaarheid 
+## Schaalbaarheid
  
 9. 
 ISA 200 stelt dat sommige ISA’s schaalbaarheidsoverwegingen bevatten die de toepassing van 
@@ -331,13 +265,13 @@ zowel minder als meer complexe entiteiten, in voorkomend geval. Hoewel de omvang
 entiteit een indicatie kan zijn van de complexiteit ervan, kunnen sommige kleinere entiteiten 
 complex zijn en sommige grotere entiteiten minder complex zijn.  
  
-Ingangsdatum 
+## Ingangsdatum
  
 10. 
 Deze ISA is van toepassing voor controles van financiële overzichten voor verslagperioden 
 beginnend op of na 15 december 2021. 
  
-Doelstelling 
+## Doelstelling
  
 11. 
 De doelstelling van de auditor is het identificeren en inschatten van de risico’s op een afwijking 
@@ -355,19 +289,7 @@ ISA 330, paragraaf 5.
 9  
 ISA 330, paragraaf 6. 
 10  ISA 200, paragraaf A69.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-7/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
-Definities 
+## Definities
  
 12. 
 Voor de toepassing van de ISA’s hebben de volgende termen de hierna weergegeven betekenis: 
@@ -448,18 +370,6 @@ de IT-infrastructuur omvat het netwerk, besturingssystemen en databases en hun
 gerelateerde hardware en software. 
  
 11  ISA 240, paragrafen A24-A27.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-8/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 (iii) 
 de IT-processen zijn de processen van de entiteit om de toegang tot de IT-omgeving 
 te beheren, programmawijzigingen of wijzigingen in de IT-omgeving te beheren en 
@@ -521,7 +431,7 @@ het informatiesysteem en communicatie; en
 (v) 
 interne beheersingsactiviteiten.  
  
-Vereisten 
+## Vereisten
  
 Risico-inschattingswerkzaamheden en daarmee verband houdende werkzaamheden 
  
@@ -531,18 +441,6 @@ informatie te verkrijgen die een geschikte basis biedt voor: (Zie par. A11-A18)
  
  
 12  ISA 240, paragraaf 27 en ISA 550, Verbonden partijen, paragraaf 18.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-9/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 (a) 
 de identificatie en inschatting van risico's op een afwijking van materieel belang als gevolg 
 van fraude of fouten, op het niveau van de financiële overzichten en beweringen; en  
@@ -615,18 +513,6 @@ bedrijfsmodel, inclusief de mate waarin het bedrijfsmodel het gebruik van IT
 integreert; (Zie par. A56-A67) 
 (ii) 
 sector, regelgevende en andere externe factoren; (Zie par. A68-A73) en
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-10/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 (iii) 
 de maatregelen die intern en extern zijn gebruikt om de financiële prestaties van de 
 entiteit te beoordelen; (Zie par. A74-A81) 
@@ -735,18 +621,6 @@ Het risico-inschattingsproces van de entiteit
 22. De auditor dient door het uitvoeren van risico-inschattingswerkzaamheden inzicht te verwerven 
 in het risico-inschattingsproces van de entiteit dat relevant is voor het opstellen van de financiële 
 overzichten, door:
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-11/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 (a) inzicht te verwerven in het proces van de 
 entiteit voor: (Zie par. A109-A110) 
  
@@ -840,18 +714,6 @@ van de entiteit. (Zie par. A121-A122)
 Informatiesysteem en communicatie, en interne beheersingsactiviteiten (Zie par. A123-A130) 
  
 Het informatiesysteem en communicatie
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-12/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 25. De auditor dient door middel van risico-inschattingswerkzaamheden inzicht te verwerven in het 
 informatiesysteem en de communicatie van de entiteit die relevant is voor het opstellen van de 
 financiële overzichten, door: (Zie par. A131) 
@@ -956,18 +818,6 @@ stelsel
 inzake 
 financiële verslaggeving ondersteunen. (Zie 
 par. A146)
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-13/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 (ii) tussen 
 management 
 en 
@@ -1088,18 +938,6 @@ inlichtingen
 bij 
 het 
 personeel van de entiteit.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-14/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 (c) voor dergelijke IT-applicaties en andere 
 aspecten van de IT omgeving geïdentificeerd 
 in (b), het identificeren van: (Zie par. A173-
@@ -1166,18 +1004,6 @@ beïnvloeden; en
 de risico’s op een afwijking van materieel belang op het niveau van de financiële 
 overzichten de inschatting van inherent risico voor risico's op een afwijking van materieel 
 belang op het niveau van beweringen beïnvloeden. (Zie par. A215-A216)
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-15/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 32. 
 De auditor dient te bepalen of een of meer van de ingeschatte risico's op een afwijking van 
 materieel belang een significant risico is. (Zie par. A218-A221) 
@@ -1245,18 +1071,6 @@ niveau van de financiële overzichten en op het niveau van beweringen, inclusief
 significante risico's en risico's waarvoor gegevensgerichte werkzaamheden alleen niet 
  
 13  ISA 230, Controledocumentatie, paragrafen 8-11 en A6-A7.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-16/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 voldoende en geschikte controle-informatie kunnen verschaffen, en de beweegreden voor 
 de significante oordeelsvormingen die gemaakt zijn. 
  
@@ -1265,7 +1079,7 @@ de significante oordeelsvormingen die gemaakt zijn.
 ********** 
  
  
-Toepassingsgerichte en overige verklarende teksten 
+## Toepassingsgerichte en overige verklarende teksten
  
 Definities (Zie par. 12) 
  
@@ -1334,18 +1148,6 @@ beheersingsmaatregelen, waaronder die voor informatieverwerking of general IT co
  
  
 14  ISA 580, Schriftelijke bevestigingen.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-17/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Inherente risicofactoren (Zie par. 12(f)) 
  
 Bijlage 2 bevat verdere overwegingen met betrekking tot het verwerven van inzicht in inherente 
@@ -1423,19 +1225,6 @@ en leidraden voor het identificeren en inschatten van risico's op een afwijking 
 met betrekking tot specifieke aangelegenheden of omstandigheden: 
  
 15  ISA 240, paragrafen 12-27.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-18/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 • 
 ISA 540 (herzien) 16 met betrekking tot schattingen; 
 • 
@@ -1503,19 +1292,6 @@ analistenrapporten of informatie over handelsactiviteit.
 17  ISA 570 (herzien), Continuïteit. 
 18  ISA 600, Speciale overwegingen - Controles van financiële overzichten van de groep (inclusief het werk van groepsauditors). 
 19  Zie de paragrafen A37-A38.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-19/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 Ongeacht de informatiebron houdt de auditor rekening met de relevantie en betrouwbaarheid van 
 de informatie die moet worden gebruikt als controle-informatie in overeenstemming met ISA 
 500. 20 
@@ -1578,18 +1354,6 @@ en haar omgeving, het van toepassing zijnde stelsel inzake financiële verslagge
 20  ISA 500, Controle-informatie, paragraaf 7. 
 21  ISA 500, paragrafen A14-A17 en A21-A25. 
 22  ISA 500, paragraaf A12.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-20/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 interne beheersingssysteem van de entiteit (Zie par. 19-26), wordt van de auditor niet vereist om 
 ze allemaal uit te voeren voor elk aspect van dat inzicht. Andere werkzaamheden kunnen worden 
 uitgevoerd wanneer de te verkrijgen informatie nuttig kan zijn bij het identificeren van risico’s op 
@@ -1652,19 +1416,6 @@ risico's.
 Overwegingen specifiek voor entiteiten in de publieke sector 
  
 23  ISA 260 (herzien), Communicatie met de met governance belaste personen, paragraaf 4(b).
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-21/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 A24. Bij verzoeken om inlichtingen bij personen die informatie kunnen hebben die waarschijnlijk zal 
 helpen bij het identificeren van risico’s op een afwijking van materieel belang, kunnen auditors 
 van entiteiten in de publieke sector informatie verkrijgen van aanvullende informatiebronnen zoals 
@@ -1722,18 +1473,6 @@ kunnen de resultaten van die cijferanalyses een eerste globale indicatie geven v
 waarschijnlijkheid van een afwijking van materieel belang. 
  
 Voorbeeld:
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-22/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Bij de controle van veel entiteiten, waaronder die met minder complexe bedrijfsmodellen en 
 processen en een minder complex informatiesysteem, kan de auditor een eenvoudige vergelijking 
 van informatie uitvoeren, zoals de wijziging in tussentijdse of maandelijkse rekeningsaldi ten opzichte 
@@ -1777,7 +1516,7 @@ A32. Waarneming en inspectie kunnen verzoeken om inlichtingen bij het management
 ondersteunen, bevestigen of tegenspreken en kunnen ook informatie verschaffen over de entiteit 
 en haar omgeving.  
  
-Schaalbaarheid  
+## Schaalbaarheid
  
 A33. Wanneer beleidslijnen of procedures niet zijn gedocumenteerd of de entiteit minder 
 geformaliseerde interne beheersingsmaatregelen heeft, kan de auditor nog steeds enige 
@@ -1799,18 +1538,6 @@ Waarneming en inspectie als risico-inschattingswerkzaamheden
  
  
 24  ISA 520, Cijferanalyses.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-23/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 A34. Risico-inschattingswerkzaamheden kunnen waarneming of inspectie van het volgende omvatten: 
  
 • 
@@ -1876,18 +1603,6 @@ cliëntrelatie of de controleopdracht in overeenstemming met ISA 220 (herzien), 
 conclusies die hierover zijn getrokken; 25 
  
 25  ISA 220 (herzien), Kwaliteitsmanagement voor een controle van financiële overzichten, paragraaf 22-24.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-24/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 • 
 andere opdrachten voor de entiteit die door de opdrachtpartner zijn uitgevoerd. De 
 opdrachtpartner kan kennis hebben verkregen die relevant is voor de controle, inclusief 
@@ -1949,18 +1664,6 @@ voor afwijkingen van materieel belang:
 • 
 biedt een kans voor meer ervaren leden van het opdrachtteam, waaronder de 
 opdrachtpartner, om de op hun kennis van de entiteit gebaseerde inzichten te delen. Het
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-25/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 delen van informatie draagt bij aan een verbeterd inzicht door alle leden van het 
 opdrachtteam;  
 • 
@@ -1997,7 +1700,7 @@ bijzonder belangrijk is en wat kan leiden tot de betrokkenheid van meer ervaren 
 opdrachtteam die voldoende bekwaam zijn om betrokken te zijn bij de uitvoering van 
 controlewerkzaamheden met betrekking tot deze gebieden. 
  
-Schaalbaarheid 
+## Schaalbaarheid
  
 A44. Wanneer de opdracht wordt uitgevoerd door een enkele persoon, zoals een zelfstandige auditor 
 (d.w.z. waar een opdrachtteam bespreking niet mogelijk is), kan overweging van de in de 
@@ -2020,18 +1723,6 @@ Bespreking van toelichtingen in het van toepassing zijnde stelsel inzake financi
  
  
 26  ISA 240, paragraaf 16.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-26/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 A46. Als onderdeel van de bespreking binnen het opdrachtteam, helpt rekening houden met de 
 toelichtingsvereisten van het van toepassing zijnde stelsel inzake financiële verslaggeving in het 
 begin van de controle bij het identificeren van mogelijke risico’s op een afwijking van materieel 
@@ -2099,18 +1790,6 @@ inzake financiële verslaggeving, helpt de auditor bij het verwerven van inzicht
 gebeurtenissen en omstandigheden die relevant zijn voor de entiteit en bij het identificeren hoe 
 inherente risicofactoren de vatbaarheid van beweringen voor afwijkingen bij het opstellen van de 
 financiële overzichten beïnvloeden, in overeenstemming met het van toepassing zijnde stelsel
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-27/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 inzake financiële verslaggeving en de mate waarin zij dit doen. Dergelijke informatie vormt een 
 referentiekader waarbinnen de auditor risico's op een afwijking van materieel belang identificeert 
 en inschat. Dit referentiekader helpt de auditor ook bij het plannen van de controle en het 
@@ -2153,7 +1832,7 @@ het evalueren van de toereikendheid en geschiktheid van verkregen controle-infor
 (bijv. met betrekking tot veronderstellingen of mondelinge en schriftelijke bevestigingen van 
 het management). 
  
-Schaalbaarheid 
+## Schaalbaarheid
  
 A52. De aard en omvang van het vereiste inzicht is een aangelegenheid van professionele 
 oordeelsvorming door de auditor en varieert van entiteit tot entiteit gebaseerd op de aard en 
@@ -2180,18 +1859,6 @@ verwachting minder zijn dan het inzicht dat het management bezit bij het leiden 
 28  ISA 700 (herzien), Het vormen van een oordeel vormen en het rapporteren over financiële overzichten, paragraaf 13(e). 
 29  ISA 320, Materialiteit bij het plannen en uitvoeren van een controle, paragrafen 10-11. 
 30  ISA 520, paragraaf 5.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-28/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 A54. Sommige stelsels inzake financiële verslaggeving staan kleinere entiteiten toe om eenvoudigere 
 en minder gedetailleerde toelichtingen te verschaffen in de financiële overzichten. Dit ontslaat de 
 auditor echter niet van zijn verantwoordelijkheid om inzicht te verwerven in de entiteit en haar 
@@ -2255,19 +1922,6 @@ servicecentrum voor centraal beheer van IT-processen in een groep).
 31  ISA 550 stelt vereisten vast en geeft leidraden over de overwegingen van de auditor met betrekking tot verbonden partijen. 
 32  ISA 260, paragrafen A1 en A2 bieden leidraden voor de identificatie van de met governance belaste personen en legt uit dat 
 in sommige gevallen sommige of alle personen belast met governance betrokken kunnen zijn bij het leiden van de entiteit.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-29/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 Geautomatiseerde hulpmiddelen en technieken 
  
 A57. De auditor kan geautomatiseerde hulpmiddelen en technieken gebruiken om inzicht te verwerven 
@@ -2326,18 +1980,6 @@ de verantwoordelijkheden van de met governance belaste personen voor het toezich
 de financiële verslaggeving, inclusief goedkeuring van de financiële overzichten. 
  
 Het bedrijfsmodel van de entiteit
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-30/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Bijlage 1 bevat aanvullende overwegingen voor het verwerven van inzicht in de entiteit en haar 
 bedrijfsmodel, evenals aanvullende overwegingen voor het controleren van voor een bijzonder doel 
 opgerichte entiteiten. 
@@ -2412,18 +2054,6 @@ omvatten:
 • 
 ontwikkelingen in de sector, zoals het gebrek aan personeel of expertise om de 
 veranderingen in de sector aan te pakken;
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-31/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 • 
 nieuwe producten en diensten die kunnen leiden tot hogere productaansprakelijkheid;  
 • 
@@ -2502,18 +2132,6 @@ capaciteiten. 33
  
  
 33  ISA 220 (herzien), paragrafen 25-28.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-32/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Regelgevingsfactoren  
  
 A70. Het regelgevingskader behoort tot de relevante regelgevingsfactoren. Het regelgevingskader 
@@ -2576,18 +2194,6 @@ A76. Het management en anderen meten en beoordelen gewoonlijk de aangelegenheden
 belangrijk achten. Uit verzoeken om inlichtingen bij het management kan blijken dat het 
  
 34  ISA 250 (herzien), paragraaf 13.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-33/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 management zich baseert op bepaalde belangrijke indicatoren, openbaar beschikbaar of niet, 
 voor het evalueren van financiële prestaties en het nemen van actie. In dergelijke gevallen kan 
 de auditor relevante prestatiemaatstaven identificeren, intern of extern, door de informatie die de 
@@ -2661,18 +2267,6 @@ vakbonden;
 financiers. 
  
 Dergelijke financiële informatie kan vaak worden verkregen van de gecontroleerde entiteit.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-34/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 A80. Het meten en beoordelen van financiële prestaties is niet hetzelfde als het monitoren van het 
 systeem van interne beheersing (besproken als onderdeel van het systeem van interne 
 beheersing in paragrafen A114-A122), hoewel hun doelen elkaar kunnen overlappen: 
@@ -2739,18 +2333,6 @@ o
 het effect van significante grondslagen voor financiële verslaggeving in 
 controversiële of nieuwe gebieden waarvoor er een gebrek is aan gezaghebbende 
 leidraden of consensus;
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-35/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 o 
 wijzigingen in de omgeving, zoals wijzigingen in het van toepassing zijnde stelsel 
 inzake financiële verslaggeving of belastinghervormingen die een wijziging in de 
@@ -2808,18 +2390,6 @@ waarschijnlijkheid en de orde van grootte van een mogelijke afwijking bij het in
 inherente risico in overeenstemming met paragraaf 31(a). Overeenkomstig, kan inzicht in de 
 inherente risicofactoren de auditor ook helpen bij het opzetten en verder uitvoeren van 
 controlewerkzaamheden in overeenstemming met ISA 330.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-36/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 A86. De identificatie door de auditor van risico's op een afwijking van materieel belang op het niveau 
 van beweringen en de inschatting van inherent risico kan ook worden beïnvloed door controle-
 informatie 
@@ -2886,19 +2456,7 @@ verschillende aspecten van het systeem van interne beheersing te beschrijven. Vo
 doelstelling van een controle kunnen auditors ook andere terminologie of stelsels gebruiken, mits 
 alle componenten die in deze ISA worden beschreven in aanmerking worden genomen. 
  
-Schaalbaarheid
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-37/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
+## Schaalbaarheid
 A92. De manier waarop het interne beheersingssysteem van de entiteit is ontworpen, 
 geïmplementeerd en onderhouden varieert met de grootte en complexiteit van een entiteit. Minder 
 complexe entiteiten kunnen bijvoorbeeld minder gestructureerde of eenvoudigere interne 
@@ -2957,18 +2515,6 @@ inschattingsproces van de entiteit en het proces van de entiteit om het systeem 
 beheersing te monitoren, zijn voornamelijk indirecte interne beheersingsmaatregelen (d.w.z. 
 interne beheersingsmaatregelen die niet voldoende nauwkeurig zijn om afwijkingen op het niveau 
 van beweringen te voorkomen, detecteren of te corrigeren, maar die andere interne
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-38/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 beheersingsmaatregelen ondersteunen en daarom een indirect effect kunnen hebben op de 
 waarschijnlijkheid dat een afwijking tijdig gedetecteerd of voorkomen wordt). Sommige interne 
 beheersingsmaatregelen binnen deze componenten kunnen echter ook directe interne 
@@ -2999,7 +2545,7 @@ omvang van de verdere werkzaamheden van de auditor. 35
  
 Inzicht verwerven in de interne beheersingsomgeving (Zie par. 21)  
  
-Schaalbaarheid 
+## Schaalbaarheid
  
 A99. De aard van de interne beheersingsomgeving in een minder complexe entiteit zal waarschijnlijk 
 verschillen van de interne beheersingsomgeving in een meer complexe entiteit. Zo is het 
@@ -3029,18 +2575,6 @@ in plaats daarvan een cultuur die het belang van integriteit en ethisch gedrag b
 mondelinge communicatie en door voorbeeldgedrag van het management. Bijgevolg zijn de 
  
 35  ISA 330, paragrafen A1-A3.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-39/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 houding, het bewustzijn en handelingen van het management of de eigenaar-bestuurder van 
 bijzonder belang voor het inzicht van de auditor in de interne beheersingsomgeving van een 
 minder complexe entiteit. 
@@ -3102,19 +2636,6 @@ groei- en andere doelstellingen te realiseren en kan ook significant bijdragen a
 systeem van interne beheersing. Anderzijds kan een dergelijke concentratie van kennis en autoriteit 
 ook leiden tot een hogere vatbaarheid voor afwijkingen door het doorbreken van interne 
 beheersmaatregelen door het management.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-40/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 A106. De auditor kan overwegen hoe de verschillende elementen van de interne beheersingsomgeving 
 kunnen worden beïnvloed door de filosofie en werkstijl van het senior management, rekening 
 houdend met de betrokkenheid van onafhankelijke leden van de met governance belaste 
@@ -3176,19 +2697,6 @@ overzichten van de entiteit en andere aspecten van haar interne beheersingssyste
 Evalueren van het risico-inschattingsproces van de entiteit (Zie par. 22(b)) 
  
 36  ISA 240, paragraaf 19.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-41/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 Waarom de auditor evalueert of het risico-inschattingsproces van de entiteit geschikt is  
  
 A111.  De evaluatie door de auditor van het risico-inschattingsproces van de entiteit kan de auditor 
@@ -3205,7 +2713,7 @@ Evalueren of het risico-inschattingsproces van de entiteit geschikt is (Zie par.
 A112. De evaluatie door de auditor van de geschiktheid van het risico-inschattingsproces van de entiteit 
 is gebaseerd op het inzicht verkregen in overeenstemming met paragraaf 22(a).  
  
-Schaalbaarheid 
+## Schaalbaarheid
  
 A113. Of het risico-inschattingsproces van de entiteit geschikt is voor de omstandigheden gezien de 
 aard en complexiteit van de entiteit is een kwestie van professionele oordeelsvorming door de 
@@ -3223,7 +2731,7 @@ management kan blijken dat het management in feite risico-inschattingswerkzaamhe
 Het verwerven van inzicht in het proces van de entiteit om het interne beheersingssysteem van de 
 entiteit te monitoren (Zie par. 24) 
  
-Schaalbaarheid 
+## Schaalbaarheid
  
 A114. In minder complexe entiteiten, en met name door de eigenaar bestuurde entiteiten, is het inzicht 
 van de auditor van het proces van de entiteit om het systeem van interne beheersing te monitoren 
@@ -3245,19 +2753,6 @@ Inzicht in het proces van de entiteit om het systeem van interne beheersing te m
  
 A116. Aangelegenheden die relevant kunnen zijn voor de auditor om te overwegen bij het verwerven 
 van inzicht hoe de entiteit haar systeem van interne beheersing monitort, omvatten:
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-42/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 • 
 de opzet van de monitoringactiviteiten, bijvoorbeeld of het periodieke of doorlopende 
 monitoring is; 
@@ -3327,18 +2822,6 @@ Inzicht verwerven in de informatiebronnen (Zie par. 24(b))
  
  
 37  ISA 610 (herzien 2013), Gebruikmaken van het werk van interne auditors.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-43/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 A119. Tot de monitoringactiviteiten van het management kan behoren het gebruikmaken van informatie 
 die uit communicatie met externe partijen is verkregen zoals klachten van klanten of opmerkingen 
 van regelgevende instanties die kunnen duiden op problemen of die de aandacht vestigen op 
@@ -3398,18 +2881,6 @@ opstellen van de financiële overzichten, en
 • 
 evalueren of de component op passende wijze het opstellen van de financiële overzichten 
 van de entiteit ondersteunt, de identificatie en inschatting van de auditor van risico's op een
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-44/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 afwijking van materieel belang op het niveau van beweringen ondersteunt. Dit inzicht en 
 deze evaluatie kunnen ook leiden tot de identificatie van risico’s op een afwijking van 
 materieel belang op het niveau van de financiële overzichten, wanneer de resultaten van 
@@ -3467,18 +2938,6 @@ risico’s kan bijvoorbeeld alleen te onderkennen zijn wanneer de auditor het in
 het niveau van beweringen heeft ingeschat in overeenstemming met paragraaf 31. Bovendien 
 kunnen interne beheersingsmaatregelen die inspelen op risico's waarvoor de auditor heeft 
 vastgesteld dat gegevensgerichte werkzaamheden alleen niet voldoende en geschikte controle-
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-45/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 informatie verschaffen, (in overeenstemming met paragraaf 33), ook pas te onderkennen zijn als 
 de inschattingen van het inherente risico door de auditor zijn uitgevoerd.  
  
@@ -3509,7 +2968,7 @@ Inzicht verwerven in het informatiesysteem en de communicatie (Zie par. 25)
 Bijlage 3, paragrafen 15-19, bevat verdere overwegingen met betrekking tot het informatiesysteem 
 en communicatie. 
  
-Schaalbaarheid 
+## Schaalbaarheid
  
 A131. Het informatiesysteem en gerelateerde bedrijfsprocessen in minder complexe entiteiten zullen 
 waarschijnlijk minder geavanceerd zijn dan in grotere entiteiten, en zal waarschijnlijk een minder 
@@ -3556,19 +3015,6 @@ de competentie van de personen die het werk uitvoeren;
 of er voldoende middelen zijn; en 
 • 
 of er sprake is van een passende functiescheiding.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-46/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 A134.  Aangelegenheden die de auditor kan overwegen bij het verwerven van inzicht in de beleidslijnen 
 die de informatiestromen definiëren met betrekking tot de significante transactiestromen, 
 rekeningsaldi en toelichtingen van de entiteit in de component “informatiesysteem en 
@@ -3642,18 +3088,6 @@ geproduceerd en toegelicht in de financiële overzichten;
 • 
 informatie toegelicht in de financiële overzichten die is verkregen uit modellen of uit andere 
 berekeningen die gebruikt zijn om schattingen te ontwikkelen die zijn opgenomen of
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-47/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 toegelicht worden in de financiële overzichten, inclusief informatie met betrekking tot de 
 onderliggende gegevens en veronderstellingen die gebruikt zijn in die modellen, zoals: 
  
@@ -3713,22 +3147,9 @@ rekening saldi en toelichtingen in, door en uit het informatiesysteem van de ent
  
 Het verwerven van inzicht in de communicatie van de entiteit (Zie par. 25(b)) 
  
-Schaalbaarheid 
+## Schaalbaarheid
  
 38  ISA 570, paragrafen 19-20.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-48/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 A144. In grotere, meer complexe entiteiten, kan informatie die de auditor kan overwegen bij het 
 verwerven van inzicht in de communicatie van de entiteit afkomstig zijn van handboeken over 
 beleidsprocedures en over financiële verslaggeving.  
@@ -3792,18 +3213,6 @@ beheersingsmaatregelen die andere interne beheersingsmaatregelen ondersteunen en
 interne beheersingsmaatregel die worden overwogen echter is, hoe minder effectief die interne 
 beheersingsmaatregel kan zijn bij het voorkomen, of detecteren en corrigeren van gerelateerde 
 afwijkingen.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-49/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Voorbeeld: 
 Gewoonlijk is een beoordeling door een verkoopmanager van een samenvatting van de 
 verkoopactiviteit voor specifieke winkels per regio alleen indirect gerelateerd aan de risico’s op een 
@@ -3880,18 +3289,6 @@ interne beheersingsmaatregelen omvatten die zijn vastgesteld door het management
 op risico’s op een afwijking van materieel belang in verband met toelichtingen die niet in 
 overeenstemming met het van toepassing zijnde stelsel inzake financiële verslaggeving zijn 
 opgesteld. Dergelijke interne beheersingsmaatregelen kunnen betrekking hebben op informatie
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-50/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 die is opgenomen in de financiële overzichten die is verkregen buiten het grootboek en 
 subgrootboeken.  
  
@@ -3952,18 +3349,6 @@ Voorbeeld:
  
 39  ISA 240, paragraaf A28. 
 40  ISA 330, paragraaf 21.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-51/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Indien er sprake is van eenmalige gebeurtenissen, zoals de ontvangst van een kennisgeving van een 
 significante rechtszaak, kan bij het overwegen van de manier waarop de entiteit hierop heeft 
 ingespeeld rekening worden gehouden met aangelegenheden zoals de vragen of de entiteit al dan 
@@ -4021,18 +3406,6 @@ par. 26(a)(iii))
  
  
 41  ISA 240, paragrafen 28 en A33.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-52/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 A162. De auditor bepaalt of er risico's op een afwijking van materieel belang op het niveau van 
 beweringen bestaan waarvoor het niet mogelijk is om voldoende en geschikte controle-informatie 
 te verkrijgen door gegevensgerichte werkzaamheden alleen. Van de auditor wordt vereist, in 
@@ -4105,18 +3478,6 @@ gebruik van IT en general IT controls (Zie par. 26(b)-(c))
 42  ISA 330, paragraaf 8(b). 
 43  ISA 330, paragraaf 8(a). 
 44  ISA 402, Overwegingen met betrekking tot controles van entiteiten die gebruikmaken van een serviceorganisatie.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-53/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Bijlage 5 bevat voorbeeldkenmerken van IT-applicaties en andere aspecten van de IT omgeving en 
 leidraden met betrekking tot die kenmerken, die relevant kunnen zijn bij het identificeren van IT 
 applicaties en andere aspecten van de IT-omgeving die onderhevig zijn aan risico's die voortkomen 
@@ -4176,18 +3537,6 @@ Wanneer er significante of uitgebreide programmeringswijzigingen in een IT-appli
 of herziene rapportagevereisten van het van toepassing zijnde stelsel inzake financiële verslaggeving 
 te behandelen, kan dit een indicator zijn voor de complexiteit van de nieuwe vereisten en hun effect 
 op de financiële overzichten van de entiteit. Wanneer dergelijke uitgebreide programmering of
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-54/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 veranderingen in gegevens voorkomen, is de IT-applicatie waarschijnlijk ook onderhevig aan risico's 
 die voortkomen uit het gebruik van IT. 
  
@@ -4244,7 +3593,7 @@ beheersingsmaatregelen over de door het systeem gegenereerde rapporten en van pl
 direct de inputs en outputs van dergelijke rapporten te toetsen, in welk geval de auditor mogelijk 
 niet de gerelateerde IT-applicaties identificeert als onderhevig aan risico's die voortkomen uit IT.  
  
-Schaalbaarheid  
+## Schaalbaarheid
  
 A170. De mate van inzicht van de auditor in de IT-processen, inclusief de mate waarin de entiteit 
 beschikt over general IT controls, zal variëren met de aard en de omstandigheden van de entiteit 
@@ -4254,18 +3603,6 @@ onderhevig zijn aan risico's die voortkomen uit het gebruik van IT zal ook vari�
 deze factoren.  
  
 Voorbeelden:
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-55/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 • 
 Een entiteit die commerciële software gebruikt en geen toegang heeft tot de broncode om 
 programmawijzigingen 
@@ -4334,18 +3671,6 @@ omgeving en de redenen waarom risico's kunnen ontstaan uit het gebruik van IT. V
 geïdentificeerde IT-applicaties of andere aspecten van de IT-omgeving, kan de auditor van 
 toepassing zijnde risico's identificeren die voortkomen uit het gebruik van IT en die voornamelijk 
 betrekking hebben op niet-geautoriseerde toegang of ongeautoriseerde programmawijzigingen,
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-56/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 evenals risico's die verband houden met ongepaste gegevenswijzigingen (bijvoorbeeld het risico 
 op ongepaste wijzigingen in de gegevens door directe databasetoegang of de mogelijkheid om 
 informatie rechtstreeks te manipuleren). 
@@ -4420,18 +3745,6 @@ Als een
 interne 
 beheersingsmaatregel echter niet effectief is opgezet of geïmplementeerd, heeft het geen 
 voordeel om deze te toetsen. Wanneer de auditor van plan is een interne beheersingsmaatregel
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-57/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 te toetsen, is de informatie die verkregen is over de mate waarin de interne beheersingsmaatregel 
 inspeelt op risico(s) op een afwijking van materieel belang, een input voor de risico-inschatting 
 van de auditor van de interne beheersingsmaatregel op het niveau van beweringen.  
@@ -4516,18 +3829,6 @@ omvatten aangelegenheden zoals:
 management, paragraaf 8. 
 48  ISA 265, paragrafen A6-A7 beschrijven indicatoren van significante tekortkomingen en zijn van belang om te bepalen of een 
 tekort, of een combinatie van tekortkomingen, in de interne beheersing vormt een significant tekort.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-58/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 • 
 de identificatie van fraude van elke omvang waarbij het senior management betrokken is; 
 • 
@@ -4598,18 +3899,6 @@ Het gebruik van beweringen
  
  
 49  ISA 200, paragraaf A16.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-59/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 A189. Bij het identificeren en inschatten van de risico’s op een afwijking van materieel belang kan de 
 auditor de categorieën van beweringen gebruiken zoals beschreven in paragraaf A190 (a)-(b) 
 hieronder of kan deze anders weergeven mits alle hieronder beschreven aspecten zijn 
@@ -4688,19 +3977,6 @@ A191. De beweringen beschreven in paragraaf A190(a)-(b) hierboven, zo nodig aang
 worden gebruikt door de auditor bij het overwegen van de verschillende soorten afwijkingen die 
 kunnen voorkomen in toelichtingen die niet direct verband houden met vastgelegde 
 transactiestromen, gebeurtenissen of rekeningsaldi.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-60/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 Voorbeeld: 
 Als voorbeeld van een dergelijke toelichting, kan van de entiteit vereist worden door het van 
 toepassing zijnde stelsel inzake financiële verslaggeving om zijn blootstelling aan risico's die 
@@ -4758,18 +4034,6 @@ van financiering die nog niet is veilig gesteld. In een dergelijke omstandigheid
 dat de continuïteitsveronderstelling aanleiding geeft tot een risico op een afwijking van materieel 
  
 50  ISA 330, paragraaf 5.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-61/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 belang op het niveau van de financiële overzichten. In deze situatie moet het stelsel inzake financiële 
 verslaggeving mogelijk worden toegepast met gebruik van een liquidatiebasis wat waarschijnlijk 
 invloed zal hebben op alle beweringen.  
@@ -4828,18 +4092,6 @@ dat er significante twijfels zijn over de toestand en betrouwbaarheid van de adm
 vastleggingen van de entiteit. In dergelijke omstandigheden kan de auditor bepalen dat het 
 onwaarschijnlijk is dat voldoende en geschikte controle-informatie beschikbaar zal zijn ter 
 onderbouwing van een goedkeurend oordeel over de financiële overzichten.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-62/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 A199. ISA 705 51 stelt eisen vast en geeft leidraden bij het bepalen of het nodig is voor de auditor om 
 een gekwalificeerd oordeel te geven of een oordeelonthouding af te geven of, indien vereist in 
 sommige gevallen, om de opdracht terug te geven indien dat onder de van toepassing zijnde wet 
@@ -4899,18 +4151,6 @@ A204. Significante toelichtingen omvatten zowel kwantitatieve als kwalitatieve t
 een of meer relevante beweringen zijn. Voorbeelden van toelichtingen die kwalitatieve aspecten 
  
 51  ISA 705, Aanpassingen van het oordeel in de controleverklaring van de onafhankelijke auditor.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-63/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 hebben en die mogelijk relevante beweringen hebben en die daarom door de auditor als 
 significant kunnen worden beschouwd, omvatten toelichtingen over:  
  
@@ -4974,19 +4214,6 @@ Spectrum van inherent risico
 A208. Bij het inschatten van het inherente risico past de auditor professionele oordeelsvorming toe bij 
 het bepalen van de significantie van de combinatie van de waarschijnlijkheid en de orde van 
 grootte van een afwijking.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-64/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 A209.  Het ingeschatte inherente risico met betrekking tot een bepaald risico op een afwijking van 
 materieel belang op het niveau van beweringen vertegenwoordigt een oordeelsvorming binnen 
 een interval van lager naar hoger over het spectrum van inherent risico. De oordeelsvorming over 
@@ -5042,18 +4269,6 @@ als risico’s op het niveau van de financiële overzichten vanwege hun diepgaan
 aantal beweringen en identificeerbaar zijn met specifieke beweringen, is van de auditor vereist 
 om rekening houden met die risico's bij het inschatten van het inherente risico voor risico’s op 
 een afwijking van materieel belang op het niveau van beweringen.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-65/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Overwegingen specifiek voor entiteiten in de publieke sector 
  
 A217. Bij het uitoefenen van professionele oordeelsvorming over de inschatting van het risico op een 
@@ -5118,18 +4333,6 @@ de bovengrens van het spectrum van inherent risico ligt, en daarom significante 
 55  ISA 701, Communicatie van kernpunten van de controle in de controleverklaring van de onafhankelijke auditor, paragraaf 9. 
 56  ISA 220 (herzien), paragrafen 32 en A87-A89. 
 57  ISA 600, paragrafen 30-31.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-66/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 een kwestie van professionele oordeelsvorming, tenzij het risico moet worden behandeld als een 
 significant risico in overeenstemming met de vereisten van een andere ISA. ISA 240 biedt verdere 
 vereisten en leidraden met betrekking tot de identificatie en inschatting van de risico’s op een 
@@ -5193,18 +4396,6 @@ te voeren.
  
 58  ISA 240, paragrafen 26-28. 
 59  ISA 330, paragraaf 8.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-67/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Bepalen van risico's waarvoor gegevensgerichte werkzaamheden alleen niet voldoende en geschikte 
 controle-informatie bieden 
  
@@ -5280,18 +4471,6 @@ om de verwachting van de auditor dat de interne beheersingsmaatregelen effectief
 bevestigen. De auditor kan van plan zijn om zowel directe als indirecte interne 
  
 60  ISA 540 (herzien), paragrafen A87-A89.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-68/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 beheersingsmaatregelen te toetsen, met inbegrip van general IT-controls, en, zo ja, bij de 
 inschatting van het interne beheersingsrisico rekening te houden met het gecombineerde 
 verwachte effect van de interne beheersingsmaatregelen. Naar de mate waarin de te toetsen 
@@ -5349,18 +4528,6 @@ het identificeren en inschatten van de risico’s op een afwijking van materieel
 61  ISA 330, paragrafen A29-A30. 
 62  ISA 500, paragraaf A1. 
 63  ISA 320, paragraaf A1.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-69/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 transactiestromen, rekeningsaldi en toelichtingen. De bepaling van de materialiteit door de auditor 
 is een kwestie van professionele oordeelsvorming en wordt beïnvloed door de perceptie van de 
 auditor van de financiële informatiebehoeften van gebruikers van de financiële overzichten. 64 
@@ -5418,18 +4585,6 @@ de auditor evalueerde dat informatie inclusief de professionele oordeelsvorming 
 64  ISA 320, paragraaf 4. 
 65  ISA 330, paragraaf 18. 
 66  ISA 230, paragraaf A7.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-70/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 of de controle-informatie een geschikte basis biedt voor de identificatie en inschatting van de 
 risico’s op een afwijking van materieel belang door de auditor. Voorbeelden van andere vereisten 
 in deze ISA waarvoor documentatie informatie kan leveren over de uitoefening van een 
@@ -5468,7 +4623,7 @@ paragraaf 36, die vereist dat de auditor, indien van toepassing, evalueert of be
 de auditor dat er geen risico's zijn op een afwijking van materieel belang zijn voor een 
 materiële transactiestroom, rekeningsaldo of toelichting passend blijft. 
  
-Schaalbaarheid 
+## Schaalbaarheid
  
 A239. De manier waarop de vereisten van paragraaf 38 zijn gedocumenteerd, is voor de auditor om te 
 bepalen met behulp van professionele oordeelsvorming.  
@@ -5502,18 +4657,6 @@ van materieel belang op het niveau van beweringen te documenteren.
  
  
 67  ISA 230, paragraaf 8.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-71/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Voorbeeld: 
 Bij controles van minder complexe entiteiten kan controledocumentatie van de auditor worden 
 opgenomen in zijn documentatie van de algemene strategie en het controleplan. 68 Evenzo kunnen 
@@ -5526,19 +4669,7 @@ verdere controlewerkzaamheden van de auditor. 69
  
 68  ISA 300, Planning van een controle van financiële overzichten, paragrafen 7, 9 en A11. 
 69  ISA 330, paragraaf 28.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-72/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
-Bijlage 1 
+## Bijlage 1
 (Zie par. A61-A67) 
  
 Overwegingen voor het verwerven van inzicht in de entiteit en haar 
@@ -5608,18 +4739,6 @@ Een bedrijfsrisico kan een onmiddellijk gevolg hebben voor het risico op een afw
 materieel belang voor transactiestromen, rekeningsaldi en toelichtingen op het niveau van 
 beweringen of het niveau van de financiële overzichten. Bijvoorbeeld het bedrijfsrisico dat 
 voortkomt uit een significante daling van de marktwaarde van onroerend goed kan het risico op
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-73/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 een afwijking van materieel belang die verband houdt met de bewering van de waardering voor 
 een kredietverstrekker van leningen op middellange termijn met vastgoed als onderpand 
 verhogen. Hetzelfde risico, met name in combinatie met een ernstige economische neergang die 
@@ -5691,18 +4810,6 @@ dochterondernemingen
 en 
 verbonden 
 entiteiten, inclusief geconsolideerde en niet-geconsolideerde structuren.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-74/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 • 
 Structuur van de schulden en bijbehorende voorwaarden, inclusief niet in de balans 
 opgenomen financierings-en leaseovereenkomsten. 
@@ -5742,19 +4849,7 @@ opgerichte entiteit is betrokken.
  
  
 70  ISA 550, paragraaf A7.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-75/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
-Bijlage 2 
+## Bijlage 2
 (Zie par. 12(f), 19(c), A7-A8, A85-A89) 
  
 Inzicht verwerven in inherente risicofactoren 
@@ -5810,18 +4905,6 @@ keuze of een subjectieve oordeelsvorming moet maken over de juiste benadering om
 resulterende informatie op te nemen in de financiële overzichten. Vanwege verschillende 
  
 71  ISA 240, paragrafen A24-A27.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-76/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 benaderingen bij het opstellen van de vereiste informatie, zouden verschillende uitkomsten 
 kunnen voortkomen uit de juiste toepassing van de vereisten van het van toepassing zijnde 
 stelsel inzake financiële verslaggeving. Naarmate beperkingen in kennis of gegevens 
@@ -5876,18 +4959,6 @@ A1-A5 van ISA 240.
 Wanneer complexiteit een inherente risicofactor is, kan er een inherente behoefte aan 
 complexere processen bij het opstellen van de informatie en dergelijke processen kunnen 
 inherent moeilijker toe te passen zijn. Als gevolg hiervan kan het toepassen van gespecialiseerde
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-77/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 vaardigheden of kennis vereist zijn en kan het nodig zijn om gebruik te maken van een  
 deskundige ingeschakeld door het management.  
  
@@ -5957,18 +5028,6 @@ Klant verlies:
 • 
 Continuïteits- en liquiditeitsproblemen, waaronder verlies van significante 
 klanten.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-78/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Sectormodel:  
 • 
 Veranderingen in de sector waarin de entiteit actief is. 
@@ -6055,35 +5114,10 @@ verwerking en financiële verslaggeving.
 Tekortkomingen in de interne beheersing - met name in de interne beheersingsomgeving, het 
 risico-inschattingsproces en  het proces voor monitoring, en met name die niet door het 
 management worden aangepakt.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-79/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 • 
 Afwijkingen in het verleden, een verleden van fouten of een significant aantal correcties aan het 
 einde van de verslagperiode.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-80/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
-Bijlage 3 
+## Bijlage 3
 (Zie par. 12(m), 21-26, A90-A181) 
  
 Inzicht in het systeem van interne beheersing van de entiteit 
@@ -6136,18 +5170,6 @@ vormen tegen de druk op het management met betrekking tot de financiële verslag
 voortkomen uit marktverwachtingen of beloningsregelingen. De effectiviteit van de opzet van de 
 interne beheersingsomgeving in relatie tot de betrokkenheid van de met governance belaste 
 personen wordt daarom beïnvloed door aangelegenheden als:
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-81/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 • 
 Hun onafhankelijkheid van het management en hun bekwaamheid om de handelingen van 
 management te evalueren. 
@@ -6206,18 +5228,6 @@ Beleidslijnen en communicatie gericht op het waarborgen dat al het personeel de
 doelstellingen van de entiteit begrijpt, weet hoe hun individuele handelingen 
 samenhangen en bijdraagt aan die doelstellingen, en herkent hoe en waarvoor ze 
 verantwoordelijk worden gehouden.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-82/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 (d) 
 Hoe de entiteit competente personen aantrekt, ontwikkelt en behoudt in overeenstemming 
 met haar doelstellingen. Dit omvat hoe de entiteit ervoor zorgt dat de personen de 
@@ -6285,18 +5295,6 @@ financiële overzichten identificeert en analyseert.
 9. 
 Risico's die relevant zijn voor betrouwbare financiële verslaggeving omvatten externe en interne 
 gebeurtenissen, transacties of omstandigheden die kunnen voorkomen en die een negatieve
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-83/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 invloed hebben op de mogelijkheid van een entiteit om financiële informatie te initiëren, vast te 
 leggen, te verwerken en te rapporteren die consistent is met de beweringen van het management 
 in de financiële overzichten. Het management kan plannen, programma's of handelingen initiëren 
@@ -6361,18 +5359,6 @@ noodzakelijke corrigerende maatregelen tijdig te nemen. Het proces van de entite
 beheersingssysteem van de entiteit te monitoren kan bestaan uit doorlopende activiteiten, 
 afzonderlijke evaluaties (periodiek uitgevoerd) of een combinatie van beide. Doorlopende 
 monitoringactiviteiten zijn vaak in de normale terugkerende activiteiten van een entiteit
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-84/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 geïntegreerd en kunnen reguliere management- en toezichthoudende activiteiten omvatten. Het 
 proces van de entiteit zal waarschijnlijk variëren in reikwijdte en frequentie afhankelijk van de 
 inschatting van de risico's door de entiteit.  
@@ -6427,19 +5413,6 @@ management bij het uitvoeren van monitoringactiviteiten rekening houden met mede
 door auditors met betrekking tot het systeem van interne beheersing van de entiteit. 
  
 72  ISA 610 en Bijlage 4 van deze ISA bieden verdere leidraden met betrekking tot interne audit.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-85/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 Het informatiesysteem en de communicatie 
  
 15. 
@@ -6510,18 +5483,6 @@ Communicatie door de entiteit van de financiële verslaggevingsrollen en -verant
 en van significante aangelegenheden met betrekking tot financiële verslaggeving omvat het 
 verschaffen van inzicht in individuele rollen en verantwoordelijkheden met betrekking tot het 
 systeem van interne beheersing van de entiteit dat relevant is voor financiële verslaggeving. Het
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-86/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 kan aangelegenheden omvatten als de mate waarin het personeel begrijpt hoe hun activiteiten in 
 het informatiesysteem betrekking hebben op het werk van anderen en de middelen om 
 uitzonderingen op een passend hoger niveau binnen de entiteit te rapporteren. 
@@ -6584,18 +5545,6 @@ o
 De periodieke tellingen en vergelijkingen met bedragen in controlebestanden 
 (bijvoorbeeld het vergelijken van de resultaten van tellingen van contant geld, 
 effecten en voorraden met de administratieve vastleggingen).
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-87/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 De mate waarin fysieke interne beheersingsmaatregelen ter voorkoming van diefstal van 
 activa relevant zijn voor de betrouwbaarheid van de opstelling van de financiële 
 overzichten hangt af van omstandigheden zoals wanneer activa zijn zeer vatbaar voor 
@@ -6647,18 +5596,6 @@ effectief werkt, bijvoorbeeld als informatie die wordt verzameld ten behoeve van
 beheersingssysteem van de entiteit (bijvoorbeeld een uitzonderingsrapport) niet effectief wordt 
 gebruikt omdat de persoon die verantwoordelijk is voor het beoordelen van de informatie het doel 
 ervan niet begrijpt of nalaat passende maatregelen te nemen.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-88/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 23. 
 Bovendien kunnen interne beheersingsmaatregelen worden omzeild door samenspanning van 
 twee of meer mensen of doordat het management op ongepaste wijze interne 
@@ -6702,19 +5639,7 @@ interne
 beheersingsmaatregelen oordeelsvormingen maken over de aard en de omvang van de interne 
 beheersingsmaatregelen die het wil implementeren en de aard en de omvang van de risico's die 
 het wenst te aanvaarden.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-89/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
-Bijlage 4  
+## Bijlage 4
 (Zie par. 14(a), 24(a)(ii), A25-A28, A118) 
  
 Overwegingen voor het verwerven van inzicht in de interne auditfunctie van een 
@@ -6766,18 +5691,6 @@ te wijzigen of de omvang daarvan te verminderen. 73 Verzoeken om inlichtingen di
 bijzonder relevant zijn, kunnen zowel aangelegenheden betreffen die de interne auditfunctie heeft 
  
 73  De relevante vereisten zijn opgenomen in ISA 610 (herzien 2013).
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-90/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 besproken met de met governance belaste personen als de uitkomsten van het eigen risico-
 inschattingsproces van de interne auditfunctie. 
  
@@ -6832,18 +5745,6 @@ governance belaste personen.
  
  
 74  ISA 240, paragraaf 19.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-91/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 9. 
 Indien op basis van het voorlopige inzicht van de auditor in de interne auditfunctie, de auditor 
 verwacht om gebruik te maken van de werkzaamheden van de interne auditfunctie om de aard 
@@ -6875,20 +5776,7 @@ identificatie en inschatting van risico's op een afwijking van materieel belang 
  
  
 75  ISA 200, paragraaf 7.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-92/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
-Bijlage 5 
+## Bijlage 5
 (Zie par. 25(a), 26(b)-(c), A94, A166-A172) 
  
 Overwegingen voor het verwerven van inzicht in informatietechnologie (IT) 
@@ -6970,18 +5858,6 @@ effectiever zijn dan handmatige interne beheersingsmaatregelen:
 Grote aantallen van terugkerende transacties, of in situaties waarin te voorziene of te 
 voorspellen fouten kunnen worden voorkomen, of gedetecteerd en gecorrigeerd door 
 automatisering.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-93/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 • 
 Interne beheersingsmaatregelen waarbij de specifieke manieren voor de uitvoering 
 daarvan adequaat kunnen worden opgezet en geautomatiseerd.  
@@ -7079,19 +5955,6 @@ Complexe
 geautomatiseerde rapport 
 logica; rapport generator 
 software
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-94/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 Voorbeelden van typische kenmerken van: 
  
 Niet complexe 
@@ -7237,19 +6100,6 @@ of meer verschillende bronnen (zoals meerdere databases) waaruit rapporten kunne
 entiteit kunnen worden gebruikt voor andere data analyse-activiteiten. Een rapportgenerator is een IT-applicatie die wordt 
 gebruikt om gegevens te extraheren uit een of meer bronnen (zoals een datawarehouse, een database of een IT-applicatie) 
 en die de gegevens presenteert in een gespecificeerd formaat.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-95/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 Voorbeelden van typische kenmerken van: 
  
 Niet complexe 
@@ -7406,19 +6256,6 @@ gebaseerde
 applicaties met 
 Meerdere platforms met 
 web-gebaseerde toegang
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-96/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 Voorbeelden van typische kenmerken van: 
  
 Niet complexe 
@@ -7560,18 +6397,6 @@ conversie
 Aanzienlijke versie 
 upgrade, nieuwe release, 
 platform verandering
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-97/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Nieuwe technologieën 
  
 5. 
@@ -7589,7 +6414,7 @@ geïdentificeerde general IT controls in overeenstemming met paragraaf 26 (b) - 
  
  
  
-Schaalbaarheid 
+## Schaalbaarheid
  
 6. 
 Het verwerven van inzicht in de IT-omgeving van de entiteit kan gemakkelijker worden bereikt 
@@ -7629,18 +6454,6 @@ Complexe IT-omgevingen kunnen sterk aangepaste of in hoge mate geïntegreerde IT
 omvatten en het kan daarom meer moeite vereisen om deze te begrijpen. Financiële 
 verslaggevingsprocessen of IT-applicaties kunnen worden geïntegreerd met andere IT-
 applicaties. Een dergelijke integratie kan betrekking hebben op IT-applicaties die worden gebruikt
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-98/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 in de bedrijfsactiviteiten van de entiteit en die informatie verstrekken aan de IT-applicaties die 
 relevant zijn voor de transactiestromen en informatieverwerking in het informatiesysteem van de 
 entiteit. In zulke omstandigheden kunnen bepaalde IT-applicaties die worden gebruikt in de 
@@ -7717,18 +6530,6 @@ interne
 beheersingsmaatregelen over het opstellen en het onderhoud van het rapport te toetsen, in welk 
 geval de IT-applicatie waaruit het is geproduceerd, waarschijnlijk onderhevig is aan risico's die 
 voortkomen uit het gebruik van IT. Naast het toetsen van de volledigheid en nauwkeurigheid van
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-99/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 het rapport, kan de auditor van plan zijn om de effectieve werking van general IT controls die 
 inspelen 
 op 
@@ -7793,23 +6594,11 @@ bijvoorbeeld interne beheersingsmaatregelen die het extraheren van gegevens 'bew
 zoals het aansluiten van het rapport op de gegevens waarvan het is afgeleid, het 
 vergelijken van de individuele gegevens uit het rapport met de bron en vice versa, en 
 interne beheersingsmaatregelen die de formules of macro's controleren; of
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-100/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 • 
 Gebruik van validatie softwarehulpmiddelen, die formules of macro's controleren, zoals 
 spreadsheet integriteitshulpmiddelen.  
  
-Schaalbaarheid 
+## Schaalbaarheid
  
 15. 
 De mogelijkheid van de entiteit om de integriteit te handhaven van de informatie die in het 
@@ -7923,18 +6712,6 @@ auditor
 ook 
 heeft 
 geïdentificeerd.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-101/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 beheersingsmaatregelen geïdentificeerd in 
 overeenstemming met paragraaf 26(a). 
 • 
@@ -7998,18 +6775,6 @@ onnauwkeurige gegevens verwerken, of beide, zoals:
 Onbevoegde toegang tot gegevens die kan leiden tot vernietiging van gegevens of 
 ongepaste wijzigingen in gegevens, inclusief het opnemen van ongeautoriseerde of niet-
 bestaande transacties of het onjuist vastleggen van transacties. Bijzondere risico's kunnen
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-102/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 ontstaan wanneer meerdere gebruikers toegang hebben tot een gemeenschappelijke 
 database. 
 • 
@@ -8079,37 +6844,11 @@ Dit komt omdat deze aspecten het meest betrokken bij de informatieverwerking en 
 informatie in het informatiesysteem van de entiteit. Bij het identificeren van general IT controls 
 kan de auditor de interne beheersing van handelingen van zowel eindgebruikers als van het IT-
 personeel van de entiteit of IT-serviceproviders overwegen.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-103/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
 23. 
 Bijlage 6 geeft een nadere toelichting op de aard van de general IT controls doorgaans 
 geïmplementeerd voor verschillende aspecten van de IT-omgeving. Bovendien worden 
 voorbeelden van general IT controls voor verschillende IT-processen gegeven.
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-104/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
-Bijlage 6  
+## Bijlage 6
 (Zie par. 26(c), A173-A174) 
  
 Overwegingen voor het verwerven van inzicht in general IT controls 
@@ -8163,21 +6902,6 @@ noodzaak van toegang op afstand kunnen toenemen.
 2. 
 Voorbeelden van general IT-controls die kunnen bestaan, georganiseerd door IT-processen, 
 omvatten:
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-105/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
- 
- 
- 
 (a) 
 Proces om toegang te beheren: 
  
@@ -8246,18 +6970,6 @@ Proces om programma- of andere wijzigingen in de IT-omgeving te beheren:
  
 • 
 Change management proces
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-106/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 Interne beheersingsmaatregelen over het proces om wijzigingen naar een productie 
 (d.w.z. eindgebruiker) omgeving op te zetten, te programmeren, te toetsen en te 
 migreren. 
@@ -8343,18 +7055,6 @@ complex
 Grote of 
 complexe IT 
 applicaties
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-107/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 uit het 
 gebruik van 
 IT 
@@ -8487,18 +7187,6 @@ voor
 bepaalde 
 applicaties 
 Ja
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-108/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 aan 
 mitigerende 
 interne 
@@ -8633,18 +7321,6 @@ en multi-factor
 authenticatie 
  
 Ja
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-109/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 beperken 
 tot 
 naar behoren 
@@ -8769,18 +7445,6 @@ Ja voor niet-
 commerciële 
 software 
 Ja
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-110/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 erde 
 algoritmen, 
 geautomatise
@@ -8929,18 +7593,6 @@ beheersingsm
 aat-regelen 
 Ja 
 Ja
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-111/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 verouderde, of 
 onnauwkeurig
 e 
@@ -9036,18 +7688,6 @@ authenticatie
 methode 
 Ja 
 Ja
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-112/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 account-
 vergrendeling) 
 Netwerk 
@@ -9146,18 +7786,6 @@ Ja
 met 
 oordeelsvormi
 ng
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-113/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 door 
 het 
 netwerk 
@@ -9289,18 +7917,6 @@ voor
 bepaalde 
 applicaties 
 Ja
-
-RISICO’S OP EEN AFWIJKING VAN MATERIEEL BELANG IDENTIFICEREN EN INSCHATTEN 
- 
- 
-ISA 315 (herzien) 
-NBA-IBR 2023 
-114/114 
-Originele bron: Handbook of International Quality Management, Auditing, Review, Other Assurance, and Related Services 
-Pronouncements, 2022 Edition Volume I 
- 
-Versie 2023 
- 
 voor 
 succesvolle 
 implementatie
