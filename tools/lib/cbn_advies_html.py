@@ -1089,6 +1089,50 @@ def _cleanup_markdown(md: str) -> str:
         md,
     )
 
+    # ─── 5b. Aangrenzende `</em><em>` artefact (D4-SP2, CBN-0007-02) ────────
+    # Twee opeenvolgende italic-spans zonder tussenliggende content
+    # (`<em>X </em><em>Y</em>`) renderen naar `*X **Y*` — een nep-bold-marker
+    # die de italic-span breekt. Repareer naar twee aparte italic-spans
+    # (`*X* *Y*`).
+    #
+    # Detectie-criterium:
+    #   `*<TEXT1> **<TEXT2>*`
+    #   waar TEXT2 geen asterisk bevat en niet eindigt op `*` (anders zou het
+    #   genuine `*X **Y***` zijn, een legit italic-met-nested-bold).
+    #
+    # We vereisen dat TEXT1 met `\S` start (geen lege italic-span) en dat de
+    # `**` direct (zonder spatie) volgt op de spatie na TEXT1 — exact het
+    # patroon dat de parser produceert bij `</em><em>` zonder tussenruimte.
+    md = re.sub(
+        r'(?<!\*)\*(\S[^*\n]{0,200}?) \*\*([^*\n]{1,200}?)\*(?!\*)',
+        lambda m: '*' + m.group(1).rstrip() + '* *' + m.group(2) + '*',
+        md,
+    )
+
+    # ─── 5c. Stray `**` direct vóór sluitend aanhalingsteken (D4-SP3) ───────
+    # CBN-2022-15 voetnoot 55: de bron-HTML bevat letterlijk een onafgesloten
+    # `**` direct vóór een sluitend aanhalingsteken (`Belgique **",`). De
+    # editor heeft per ongeluk asterisken getypt; geen paired `**` elders in
+    # dezelfde regel. Strippen — het is content-niveau ruis.
+    #
+    # Detectie-criterium:
+    #   regel bevat `<woord> **<quote>`
+    #   met `<quote>` ∈ {`"`, `”`, `»`, `'`, `’`}
+    #   EN geen paired `**` elders in dezelfde regel (om legitieme
+    #   `**"woord"**` te beschermen).
+    def _strip_stray_bold_before_quote(line: str) -> str:
+        # Tel `**`-paren in regel; als het aantal even is, lijkt het paired —
+        # niet aanraken.
+        if line.count('**') % 2 == 0:
+            return line
+        # Vind `<woord> **<quote>` waar quote een sluitend leesteken is.
+        return re.sub(
+            r'(\w) \*\*(?=[\"”»\'’])',
+            r'\1',
+            line,
+        )
+    md = '\n'.join(_strip_stray_bold_before_quote(ln) for ln in md.split('\n'))
+
     # ─── 6. Losse asterisk-regels strippen ───────────────────────────────────
     md = re.sub(r'^\s*\*+(\s*\*+)*\s*$', '', md, flags=re.MULTILINE)
 

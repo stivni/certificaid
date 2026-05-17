@@ -45,17 +45,17 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1e3b30b6-dirty
+    pipeline_version: 9f70bd30
     model:
     prompt_version:
-  generated_at: '2026-05-16T23:55:21Z'
+  generated_at: '2026-05-17T13:55:28Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T23:58:49Z'
-    confirmed_by: cbn-rerun-2026-05-17
-    rationale: "Re-run 2026-05-17: D4 unclosed ** in voetnoot 55 ('Succursales … België **\"') blijft staan — het asterisk-paar zit rond een Frans woord met afsluitend dubbel-aanhalingsteken, nog niet door _cleanup_markdown gevangen."
+    status: trusted
+    confirmed_at: '2026-05-17T13:57:36Z'
+    confirmed_by: human
+    rationale: 'D4-SP3 fix toegepast: stray onafgesloten ** vóór sluitend aanhalingsteken (Belgique ** in voetnoot 55) gestript via _cleanup_markdown sectie 5c. Test: test_cleanup_strips_unclosed_bold_before_closing_quote.'
     caveat:
     layer1:
     layer2:
@@ -542,7 +542,7 @@ Als het bestuursorgaan van de buitenlandse vennootschap heeft besloten het Belgi
 
 [^54]: Art. III.90, § 2, tweede lid, WER.
 
-[^55]: Oud CBN-advies 110/4 – Bijkantoren of centra van werkzaamheden in België van ondernemingen naar buitenlands recht - Toepassing van artikel 10, par. 2 van de Boekhoudwet en van artikel 198 van de Vennootschapswet. Zie ook J. GABRIEL, “Succursales de sociétés étrangères en Belgique **”, Revue de droit des affaires internationales, 1987, nr. 2, 274-275.
+[^55]: Oud CBN-advies 110/4 – Bijkantoren of centra van werkzaamheden in België van ondernemingen naar buitenlands recht - Toepassing van artikel 10, par. 2 van de Boekhoudwet en van artikel 198 van de Vennootschapswet. Zie ook J. GABRIEL, “Succursales de sociétés étrangères en Belgique”, Revue de droit des affaires internationales, 1987, nr. 2, 274-275.
 
 [^56]: Art. 2:149 WVV.
 

@@ -20,17 +20,17 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1e3b30b6-dirty
+    pipeline_version: 9f70bd30
     model:
     prompt_version:
-  generated_at: '2026-05-16T23:54:53Z'
+  generated_at: '2026-05-17T13:55:15Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T23:58:49Z'
-    confirmed_by: cbn-rerun-2026-05-17
-    rationale: "Re-run 2026-05-17: B4-fix toegepast, maar D4 bold/italic mix bij '*Bull. **CBN*' (regel 49) nog aanwezig — vereist aparte _cleanup_markdown-rule voor genest bold-italic in inline references."
+    status: trusted
+    confirmed_at: '2026-05-17T13:57:27Z'
+    confirmed_by: human
+    rationale: 'D4-SP2 fix toegepast: aangrenzende </em><em>-artefact (Bull. CBN regel 49) gerepareerd via _cleanup_markdown sectie 5b. Test: test_cleanup_repairs_adjacent_em_tags_artefact.'
     caveat:
     layer1:
     layer2:
@@ -46,7 +46,7 @@ Wordt één van de criteria bepaald bij artikel 12 van de boekhoudwet (i.e. bala
 
 Deze jaarrekening wordt, samen met de inventarisstukken tot staving ervan, krachtens artikel 7, derde lid, overgeschreven in een boek dat moet beantwoorden aan de vormvereisten bepaald bij artikel 8, § 2 van de wet. 
 
-De externe jaarrekening daarentegen wordt bedoeld in artikel 10 van de wet dat de Koning machtigt vorm en inhoud te bepalen van balans, resultatenrekening en toelichting die volgens «voorschrift van de wet» moeten worden neergelegd. De externe jaarrekening mag worden omschreven als de jaarrekening die aan een wettelijke regeling van openbaarmaking is onderworpen (cf. advies 110 in *Bull. **CBN* nr. 2). 
+De externe jaarrekening daarentegen wordt bedoeld in artikel 10 van de wet dat de Koning machtigt vorm en inhoud te bepalen van balans, resultatenrekening en toelichting die volgens «voorschrift van de wet» moeten worden neergelegd. De externe jaarrekening mag worden omschreven als de jaarrekening die aan een wettelijke regeling van openbaarmaking is onderworpen (cf. advies 110 in *Bull.* *CBN* nr. 2). 
 
 Belangrijk in verband met artikel 10 is de vaststelling dat de boekhoudwet zelf geen publicatieverplichtingen oplegt. Artikel 10 verwijst ter zake louter naar het geldende recht. 
 

@@ -274,3 +274,93 @@ def test_html_indentation_in_cell_not_extra_pipes():
             assert n_pipes == 4, f"Verwacht 4 pipes voor 3 cellen, kreeg {n_pipes}: {line!r}"
             return
     raise AssertionError("Geen rij met 'Eerste cel' gevonden")
+
+
+# ─── D4-SP2: aangrenzende `</em><em>` artefact (CBN-0007-02) ─────────────────
+
+def test_cleanup_repairs_adjacent_em_tags_artefact():
+    """REGRESSIE-FIX (CBN-0007-02 r.49): twee aaneengesloten `<em>` tags
+    (`<em>Bull. </em><em>CBN</em>`) renderen naar `*Bull. **CBN*` —
+    een nep-bold-marker (`**`) die de italic-span breekt. De cleanup moet
+    dit herstellen naar twee aparte italic-spans (`*Bull.* *CBN*`).
+
+    Detectie-criterium: `*<TEXT1> **<TEXT2>*` met TEXT2 zonder asterisk en
+    geen sluitende `**` na TEXT2 in dezelfde alinea.
+    """
+    md = "cf. advies 110 in *Bull. **CBN* nr. 2).\n"
+    result = _cleanup_markdown(md)
+    # Het artefact `**CBN*` moet weg
+    assert "**CBN*" not in result
+    # En `*Bull. **` (italic gevolgd door bold-open zonder close) ook weg
+    assert "*Bull. **" not in result
+    # De content moet bewaard blijven
+    assert "Bull." in result
+    assert "CBN" in result
+    assert "nr. 2)" in result
+
+
+def test_cleanup_preserves_legitimate_nested_bold_in_italic():
+    """Genuine `*X **Y***` (3 stars aan eind, italic met geneste bold) blijft
+    bewaard — geen fix nodig.
+    """
+    md = "Een *citaat met **bold accent*** in italic.\n"
+    result = _cleanup_markdown(md)
+    # Drie sluitende stars moeten blijven (legitieme nested)
+    assert "**bold accent***" in result
+
+
+def test_cleanup_preserves_isolated_italic():
+    """Plain italic (`*...*`) blijft bewaard — adjacent-em-fix
+    mag isolated italic-spans niet aanraken.
+    """
+    md = "Een gewone zin met *italic accent* erin.\n"
+    result = _cleanup_markdown(md)
+    assert "*italic accent*" in result
+
+
+def test_cleanup_preserves_isolated_bold():
+    """Plain bold (`**...**`) blijft bewaard."""
+    md = "Een gewone zin met **bold woorden** erin.\n"
+    result = _cleanup_markdown(md)
+    assert "**bold woorden**" in result
+
+
+# ─── D4-SP3: stray onafgesloten `**` (CBN-2022-15 voetnoot 55) ───────────────
+
+def test_cleanup_strips_unclosed_bold_before_closing_quote():
+    """REGRESSIE-FIX (CBN-2022-15 voetnoot 55): de bron-HTML bevat een
+    stray `**` direct vóór een sluitend aanhalingsteken (`Belgique **",`).
+    Geen paired `**` elders in dezelfde regel/alinea → stray artefact.
+    De cleanup moet het strippen.
+
+    Patroon: `<woord> **<quote>` waar geen ander `**` in dezelfde
+    paragraaf/regel sluit.
+    """
+    md = (
+        'Zie ook J. GABRIEL, "Succursales de sociétés étrangères '
+        'en Belgique **", Revue de droit, 1987.\n'
+    )
+    result = _cleanup_markdown(md)
+    # De stray `**` voor de closing quote moet weg
+    assert 'Belgique **"' not in result
+    assert 'Belgique **”' not in result
+    # Maar de content blijft
+    assert "Belgique" in result
+    assert "Revue de droit" in result
+
+
+def test_cleanup_strips_unclosed_bold_before_curly_quote():
+    """Idem als hierboven, maar met curly-quote `”` (CBN-2022-15 echte versie)."""
+    md = 'titel "Succursales en Belgique **”, Revue, 1987.\n'
+    result = _cleanup_markdown(md)
+    assert 'Belgique **”' not in result
+    assert "Belgique" in result
+
+
+def test_cleanup_preserves_paired_bold_with_quote():
+    """Genuine paired bold rond gequoteerde tekst blijft bewaard:
+    `**"woord"**` is legitiem en mag niet aangetast worden.
+    """
+    md = 'De titel **"Het Boek"** is van Jan.\n'
+    result = _cleanup_markdown(md)
+    assert '**"Het Boek"**' in result
