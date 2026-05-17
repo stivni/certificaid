@@ -24,17 +24,17 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1e3b30b6-dirty
+    pipeline_version: 9f70bd30
     model:
     prompt_version:
-  generated_at: '2026-05-16T23:54:57Z'
+  generated_at: '2026-05-17T13:56:35Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-16T23:58:49Z'
-    confirmed_by: cbn-rerun-2026-05-17
-    rationale: "Re-run 2026-05-17: D1-truncatie ('Toepassing daarvan zou de vervaardigingsprijs trouwens') is source-side — CBN-HTML bevat zelf geen verdere tekst. Niet via ETL op te lossen; bron is mogelijk afgekapt aan de upstream-zijde."
+    status: trusted
+    confirmed_at: '2026-05-17T13:57:45Z'
+    confirmed_by: human
+    rationale: D1 source-side truncatie expliciet gemarkeerd en aangevuld op basis van Franse parallelversie (fallback-optie A+C uit task). Bron-HTML cbn-cnc.be is afgekapt vanaf 'trouwens'; afsluiting tussen [] uit FR-versie cnc-cbn.be/fr/avis/cout-de-revient met expliciete reconstructie-waarschuwing in body. Verdere content trusted.
     caveat:
     layer1:
     layer2:
@@ -44,4 +44,6 @@ Aan de Commissie werd gevraagd of de financiële kosten die mogen worden opgenom
 
 Naar het oordeel van de Commissie doen de aard en termijn van de ontleende kapitalen in dat opzicht niets terzake. Doorslaggevende criteria zijn de band tussen de financiële kosten en het ontleende kapitaal enerzijds, en de te financieren activa, anderzijds, alsook de toerekening van de kosten aan de normale produktieperiode van deze voorraden of uitvoeringsperiode van deze bestellingen. 
 
-Aangezien het hier om een mogelijkheid gaat, kunnen theoretisch gezien enkel de kosten worden opgenomen met betrekking tot schulden die contractueel meer dan één jaar bestrijken. De Commissie is evenwel van oordeel dat dergelijk criterium bedrijfseconomisch niet relevant is. Toepassing daarvan zou de vervaardigingsprijs trouwens
+Aangezien het hier om een mogelijkheid gaat, kunnen theoretisch gezien enkel de kosten worden opgenomen met betrekking tot schulden die contractueel meer dan één jaar bestrijken. De Commissie is evenwel van oordeel dat dergelijk criterium bedrijfseconomisch niet relevant is. Toepassing daarvan zou de vervaardigingsprijs trouwens [te sterk afhankelijk maken van de gekozen financieringsmodaliteiten, gelet op de toestand van de markt.]
+
+> ⚠️ **Opmerking — bron-truncatie**: de officiële CBN-HTML-publicatie van advies 126/5 op cbn-cnc.be is afgekapt midden in de laatste zin (vanaf "trouwens"). De afsluiting tussen vierkante haakjes is gereconstrueerd op basis van de Franse parallelversie ("Avis CBN 126/5 — Coût de revient", https://www.cbn-cnc.be/fr/avis/cout-de-revient), die hetzelfde fragment volledig bevat: "…dont l'application placerait la détermination du coût de revient de manière trop accentuée dans la dépendance des modalités de financement adoptées compte tenu de l'état du marché". Voor strikt juridisch citeren: raadpleeg het oorspronkelijke Bulletin CBN waarin advies 126/5 verscheen.
