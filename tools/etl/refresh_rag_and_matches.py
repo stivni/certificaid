@@ -13,7 +13,7 @@ en missen ze de net getrustete bron volledig.
 Dit script lost dat op door beide stappen achter elkaar te draaien:
 
     1. `python3 tools/rag/rag_index.py`        — incremental upsert (SHA-check)
-    2. `python3 -m tools.extractie.match_bronnen` — verse anchor-bundles
+    2. `python3 -m tools.extractie.match_bronnen` — delta-driven SQLite-store
 
 Gebruik
 -------
@@ -40,7 +40,6 @@ tussen index en bundles).
 from __future__ import annotations
 
 import argparse
-import shutil
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -48,7 +47,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 RAG_INDEX = ROOT / "tools" / "rag" / "rag_index.py"
-MATCHES_LATEST = ROOT / "data" / "extractie" / "matches" / "latest.json"
+MATCHES_DB = ROOT / "data" / "extractie" / "matches.sqlite3"
 
 
 def _now() -> str:
@@ -81,21 +80,21 @@ def refresh(
         rag_cmd += ["--include-unreviewed"]
     _run(rag_cmd, label="Stap 1/2 — RAG-index incremental upsert")
 
-    # Stap 2 — Bron-matching (anchor-bundles)
+    # Stap 2 — Bron-matching (delta-driven SQLite-store)
     match_cmd: list[str] = [sys.executable, "-m", "tools.extractie.match_bronnen"]
     if match_margin is not None:
         match_cmd += ["--margin", str(match_margin)]
     if match_threshold is not None:
         match_cmd += ["--threshold", str(match_threshold)]
-    _run(match_cmd, label="Stap 2/2 — Bron-matching (anchor-bundles)")
+    _run(match_cmd, label="Stap 2/2 — Bron-matching delta-driven SQLite-store")
 
     # Final-state samenvatting
     print(f"\n=== [{_now()}] Refresh klaar ===")
-    if MATCHES_LATEST.exists() or MATCHES_LATEST.is_symlink():
-        target = MATCHES_LATEST.resolve()
-        print(f"matches/latest.json → {target.name}")
+    if MATCHES_DB.exists():
+        size_kb = MATCHES_DB.stat().st_size // 1024
+        print(f"matches.sqlite3  ({size_kb} KB)")
     else:
-        print("WAARSCHUWING: matches/latest.json ontbreekt — match-script schreef niets.")
+        print("WAARSCHUWING: matches.sqlite3 ontbreekt — match-script schreef niets.")
 
 
 def main() -> None:

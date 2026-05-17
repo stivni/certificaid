@@ -418,8 +418,8 @@ RAG-index én de anchor-bundles. Pas daarna mag nieuw concept-extractie-
 werk aanvangen op de bijgewerkte staat.
 
 **Achtergrond**: `mark_trusted.py` raakt op zich alleen de
-provenance-frontmatter aan; de RAG-index (`data/rag/main`) en het
-anchor-matches-artefact (`data/extractie/matches/latest.json`) zijn pas
+provenance-frontmatter aan; de RAG-index (`data/rag/main`) en de
+anchor-matches-store (`data/extractie/matches.sqlite3`) zijn pas
 consistent nadat respectievelijk `rag_index.py` en `match_bronnen.py`
 opnieuw gedraaid zijn. Tussen die twee momenten zit een venster waarin
 extractie-bundles een nieuw-trustede bron volledig missen — wat in PO
@@ -435,14 +435,60 @@ heeft opgeleverd zonder de juiste primaire referenties.
   trust-mutatie geschreven is. Dit is de aanbevolen route voor elke
   agent-batch-promotie (`--apply-from-verdicts ... --refresh`).
 - Beide stappen zijn incrementeel: SHA-check in `rag_index.py` skipt
-  ongewijzigde chunks; `match_bronnen.py` herschrijft één matches-file
-  per run en update de `latest.json`-symlink.
+  ongewijzigde chunks; `match_bronnen.py` is delta-driven en herberekent
+  alleen de anchors die geraakt worden door chunk- of vector-wijzigingen
+  (ADR-005 §9.1 — SQLite-store met state-fingerprints).
 
 **Operationele consequentie**: scripts die concept-bundles consumeren
 (`tools/extractie/export_bundle.py`, downstream extractie-prompts) gaan
-ervan uit dat `matches/latest.json` synchroon is met de huidige
-trust-state. Een hand-geschreven trust-promotie zonder `--refresh` is
-een proces-fout, geen geldige tussenstand.
+ervan uit dat `data/extractie/matches.sqlite3` synchroon is met de
+huidige trust-state. Een hand-geschreven trust-promotie zonder `--refresh`
+is een proces-fout, geen geldige tussenstand.
+
+### 9.1. Matches-store — delta-driven SQLite met state-fingerprints
+
+**Store**: `data/extractie/matches.sqlite3` — SQLite-database, gitignored
+(herbouwbaar via `python3 -m tools.extractie.match_bronnen`).
+
+**Schema** (tabel `matches`):
+
+| Kolom | Type | Beschrijving |
+|---|---|---|
+| `anchor_id` | TEXT | anchor-identificatie (bv. `1.1.taak.1`) |
+| `chunk_id` | TEXT | chunk-id uit ChromaDB |
+| `score` | REAL | cosine-similarity (0–1) |
+| `in_bundle` | INTEGER | 1 = in definitieve bundle, 0 = onder de drempel |
+| `chunk_sha` | TEXT | vingerafdruk van chunk-inhoud (uit ChromaDB metadata) |
+| `anchor_vector_hash` | TEXT | sha256 van anchor-vector bytes, eerste 16 hex |
+
+Primaire sleutel: `(anchor_id, chunk_id)`.
+Twee indices: `(anchor_id, in_bundle)` voor bundle-queries; `(chunk_id)` voor delta-detectie.
+
+**Delta-algoritme**:
+
+1. Vergelijk huidige ChromaDB-chunks met store op `chunk_sha`:
+   → `chunks_weg`, `chunks_nieuw`, `chunks_stale`
+2. Vergelijk huidige anchors.json-vectorhashes met store:
+   → `anchors_weg`, `anchors_nieuw`, `anchors_stale`
+3. DELETE rijen voor `chunks_weg` en `anchors_weg`.
+4. Bepaal te herberekenen anchors:
+   - `anchors_nieuw` + `anchors_stale` (eigen vector veranderd)
+   - Alle anchors die een match hadden met `chunks_weg` of `chunks_stale`
+   - Als er `chunks_nieuw` zijn: alle anchors in de store (nieuwe chunks kunnen voor elk anchor relevant zijn)
+5. Herbereken cosine-scores voor geraakte anchors (batched numpy, 50 anchors per batch).
+6. Strict re-rank per anchor: herbereken `in_bundle` flag op basis van
+   `max(threshold, top1 - margin)`.
+7. Idempotent: als er geen delta is én de store niet leeg is → 0 mutaties.
+
+**Geen `--rebuild-all` mode**: het algoritme handelt massa-staleness
+correct af via de batch-herberekening van alle geraakte anchors.
+
+**Helpers** (`tools/lib/matches_store.py`):
+
+- `open_store(db_path) -> sqlite3.Connection` — schema-init bij eerste call
+- `get_bundle(conn, anchor_id) -> list[tuple[chunk_id, score]]` — alleen `in_bundle = 1`
+- `current_chunks_with_sha(chroma_path) -> dict[chunk_id, chunk_sha]` — uit ChromaDB
+- `current_anchors_with_hash(anchors_path) -> dict[anchor_id, vector_hash]` — uit anchors.json
 
 ### 9.1 Matches-store — delta-driven SQLite met state-fingerprints
 

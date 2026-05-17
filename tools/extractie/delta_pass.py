@@ -1,6 +1,7 @@
 """
 Delta-rapport: identificeer record-upgrade- en concept-discover-kandidaten
-op basis van bundle-diff tussen oude en nieuwe matches/-runs (ADR-005 §9 +
+op basis van bundle-diff tussen de huidige SQLite matches-store en de
+bundle-samenstelling vastgelegd in record-provenance (ADR-005 §9.1 +
 ADR-008 §13.8-voorstel).
 
 Twee dimensies:
@@ -8,7 +9,7 @@ Twee dimensies:
 1. **Records-dimensie** ("EXPAND-kandidaten")
    Voor elk bestaand record:
      - Welke linked_anchors heeft het record?
-     - Welke chunks zijn in de nieuwe bundle voor die anchors die NIET in
+     - Welke chunks zijn in de huidige bundle voor die anchors die NIET in
        de record's eigen `_provenance.inputs[]` zitten?
      - Prio-bucket:
          HIGH    — record heeft `_provenance.bron_gap` ≠ null OF ≥1 veld
@@ -22,7 +23,7 @@ Twee dimensies:
 
 2. **Anchors-dimensie** ("DISCOVER-kandidaten")
    Voor elke anchor:
-     - Welke chunks zitten in de nieuwe bundle maar raken geen bestaand
+     - Welke chunks zitten in de bundle maar raken geen bestaand
        record (geen enkel record gebruikt die chunk in zijn inputs)?
      - Per anchor: aantal "orphan-chunks" + bron-samenvatting
 
@@ -30,17 +31,12 @@ Output: `data/extractie/delta-rapport.json` met machine-leesbare entries +
 `data/extractie/delta-rapport.md` met mens-leesbare samenvatting per PO.
 
 Gebruik:
-    python3 -m tools.extractie.delta_pass \\
-        --oud data/extractie/matches/run-20260515T060527Z.json \\
-        --nieuw data/extractie/matches/run-20260517T100230Z.json
-
-    # Default: oud = vorige run, nieuw = latest.json
     python3 -m tools.extractie.delta_pass
+    python3 -m tools.extractie.delta_pass --db-path data/extractie/matches.sqlite3
 """
 from __future__ import annotations
 
 import argparse
-import json
 import re
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -48,9 +44,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 RECORDS_DIR = ROOT / "data" / "concepten" / "records"
-MATCHES_DIR = ROOT / "data" / "extractie" / "matches"
 OUTPUT_JSON = ROOT / "data" / "extractie" / "delta-rapport.json"
 OUTPUT_MD = ROOT / "data" / "extractie" / "delta-rapport.md"
+
+import json
+from tools.lib.matches_store import DEFAULT_DB_PATH, open_store, get_bundle
 
 
 def _bron_uit_chunk_id(cid: str) -> str:
@@ -60,13 +58,12 @@ def _bron_uit_chunk_id(cid: str) -> str:
 
 # Primaire-bron-prefixen: wetteksten + IFRS + ISA + IESBA. Secundair = CBN-adviezen.
 _PRIMAIR_PREFIXEN = ("IAS-", "IFRS-", "IFRIC-", "ISA-", "IESBA-")
-_PRIMAIR_WETTEXT_RE = re.compile(r"^[A-Z][A-Z0-9-]+-\d", re.IGNORECASE)  # bv. WVV, KB-WVV-2019
 
 
 def _is_primair(bron_naam: str) -> bool:
     if any(bron_naam.startswith(p) for p in _PRIMAIR_PREFIXEN):
         return True
-    # Wetteksten zoals WVV, ITAA-norm-*, Antiwitwaswet-* etc.
+    # Wetteksten zoals WVV, WER, KB-*, ITAA-norm-*, WIB, WBTW
     if bron_naam.startswith(("WVV", "WER", "KB-", "ITAA-norm-", "WIB", "WBTW", "BBHR-", "BV-")):
         return True
     if "wet" in bron_naam.lower() and "advies" not in bron_naam.lower():
@@ -74,13 +71,17 @@ def _is_primair(bron_naam: str) -> bool:
     return False
 
 
-def _load_bundles(matches_path: Path) -> dict[str, set[str]]:
-    """Laad anchor → set(chunk_id) uit een matches-file."""
-    data = json.loads(matches_path.read_text(encoding="utf-8"))
-    return {
-        a["anchor_id"]: {c["chunk_id"] for c in a.get("bundle", [])}
-        for a in data["anchors"]
-    }
+def _load_bundles_from_store(db_path: Path) -> dict[str, set[str]]:
+    """Laad anchor → set(chunk_id) uit de SQLite matches-store."""
+    conn = open_store(db_path)
+    rows = conn.execute(
+        "SELECT anchor_id, chunk_id FROM matches WHERE in_bundle = 1"
+    ).fetchall()
+    conn.close()
+    bundles: dict[str, set[str]] = defaultdict(set)
+    for anchor_id, chunk_id in rows:
+        bundles[anchor_id].add(chunk_id)
+    return dict(bundles)
 
 
 def _load_records() -> list[dict]:
@@ -165,42 +166,33 @@ def _po_uit_anchor(anchor_id: str) -> str:
 
 def main() -> None:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("--oud", type=Path, default=None,
-                   help="oude matches-file (default: voor-laatste run)")
-    p.add_argument("--nieuw", type=Path, default=MATCHES_DIR / "latest.json",
-                   help="nieuwe matches-file (default: latest.json)")
+    p.add_argument(
+        "--db-path",
+        type=Path,
+        default=None,
+        help="pad naar SQLite matches-store (default: data/extractie/matches.sqlite3)",
+    )
     args = p.parse_args()
 
-    nieuw_path = args.nieuw.resolve()
-    if not nieuw_path.exists():
-        raise SystemExit(f"nieuwe matches-file niet gevonden: {nieuw_path}")
+    db_path = args.db_path or DEFAULT_DB_PATH
+    if not db_path.is_absolute():
+        db_path = ROOT / db_path
 
-    # Auto-detect oude run als niet gegeven: de runs gesorteerd op naam, eentje vóór de nieuwe
-    if args.oud is None:
-        runs = sorted(MATCHES_DIR.glob("run-*.json"))
-        nieuw_naam = nieuw_path.resolve().name if nieuw_path.is_symlink() else nieuw_path.name
-        # Vind de nieuwste run die ouder is dan nieuw
-        for r in reversed(runs):
-            if r.name < nieuw_naam:
-                args.oud = r
-                break
-        if args.oud is None:
-            raise SystemExit("Geen oudere run gevonden om tegen te vergelijken")
-    oud_path = args.oud.resolve()
+    if not db_path.exists():
+        raise SystemExit(
+            f"SQLite matches-store niet gevonden: {db_path}. "
+            "Draai eerst `python3 -m tools.extractie.match_bronnen`."
+        )
 
-    print(f"Vergelijk:\n  OUD = {oud_path.name}\n  NIEUW = {nieuw_path.name}\n")
-
-    oud_bundles = _load_bundles(oud_path)
-    nieuw_bundles = _load_bundles(nieuw_path)
+    print(f"Bundles laden uit: {db_path.relative_to(ROOT)}\n")
+    bundles = _load_bundles_from_store(db_path)
+    print(f"Anchors met bundle: {len(bundles)}")
 
     records = _load_records()
     print(f"Records geladen: {len(records)}")
 
     # === Records-dimensie ===
-    # We tellen ALLEEN delta-chunks uit ECHT NIEUWE bronnen (IFRS/IAS/IFRIC/ISA).
-    # Threshold-shift tussen oude en nieuwe matches verbreed bundles ook voor oude
-    # bronnen — dat is geen "stale-impact" maar algoritme-verandering, dus niet
-    # informatief. Echt-nieuwe-bron-filter geeft de scherpe diff.
+    # Filter op echt-nieuwe-bron-chunks (IFRS/IAS/IFRIC/ISA) om threshold-drift uit te sluiten.
     def _is_echt_nieuw(cid: str) -> bool:
         bron = _bron_uit_chunk_id(cid)
         return bron.startswith(("IAS-", "IFRS-", "IFRIC-", "ISA-"))
@@ -210,22 +202,15 @@ def main() -> None:
         used_chunks = _gather_used_chunks(r)
         linked_anchors = r.get("linked_anchors", [])
 
-        # Per record: union van NIEUWE-bron-chunks in nieuwe bundles van zijn anchors
-        echt_nieuwe_beschikbaar = set()
+        # Union van echt-nieuwe-bron-chunks in de huidige bundles van zijn anchors
+        beschikbaar = set()
         for aid in linked_anchors:
-            for cid in nieuw_bundles.get(aid, set()):
+            for cid in bundles.get(aid, set()):
                 if _is_echt_nieuw(cid):
-                    echt_nieuwe_beschikbaar.add(cid)
+                    beschikbaar.add(cid)
 
-        # Hoeveel daarvan zaten in oude bundle van zijn anchors? (waren al beschikbaar)
-        oud_echt_nieuw = set()
-        for aid in linked_anchors:
-            for cid in oud_bundles.get(aid, set()):
-                if _is_echt_nieuw(cid):
-                    oud_echt_nieuw.add(cid)
-
-        # Echte delta = nu beschikbaar uit nieuwe bron, vroeger niet, en record gebruikt 'm niet
-        echte_delta = echt_nieuwe_beschikbaar - oud_echt_nieuw - used_chunks
+        # Echte delta = beschikbaar maar record gebruikt 'm niet
+        echte_delta = beschikbaar - used_chunks
 
         if not echte_delta and not r.get("_provenance", {}).get("bron_gap"):
             continue  # geen werk
@@ -254,21 +239,15 @@ def main() -> None:
         })
 
     # === Anchors-dimensie ===
-    # Per anchor: chunks in nieuwe bundle uit ECHT NIEUWE bronnen die door GEEN
-    # record gebruikt worden. Idem als records-dimensie: filter op IFRS/IAS/IFRIC/ISA
-    # om threshold-shift uit te sluiten.
     alle_gebruikte_chunks: set[str] = set()
     for r in records:
         alle_gebruikte_chunks |= _gather_used_chunks(r)
 
     anchors_rapport = []
-    for aid, nieuw_chunks in sorted(nieuw_bundles.items()):
-        oud_chunks = oud_bundles.get(aid, set())
-        # Alleen echt-nieuwe-bron chunks die nu in bundle maar vroeger niet, en geen record raakt
-        nieuwe_uit_nieuwe_bron = {c for c in nieuw_chunks if _is_echt_nieuw(c)}
-        oude_uit_nieuwe_bron = {c for c in oud_chunks if _is_echt_nieuw(c)}
-        nieuw_beschikbaar = nieuwe_uit_nieuwe_bron - oude_uit_nieuwe_bron
-        orphan_chunks = nieuw_beschikbaar - alle_gebruikte_chunks
+    for aid, chunks in sorted(bundles.items()):
+        # Alleen echt-nieuwe-bron chunks die geen record raken
+        nieuwe_uit_nieuwe_bron = {c for c in chunks if _is_echt_nieuw(c)}
+        orphan_chunks = nieuwe_uit_nieuwe_bron - alle_gebruikte_chunks
         if not orphan_chunks:
             continue
 
@@ -287,8 +266,7 @@ def main() -> None:
     # === Output JSON ===
     out = {
         "gegenereerd_op": datetime.now(timezone.utc).isoformat(),
-        "oud_run": oud_path.name,
-        "nieuw_run": nieuw_path.name,
+        "store": str(db_path.relative_to(ROOT)),
         "records": records_rapport,
         "anchors": anchors_rapport,
     }
@@ -298,10 +276,10 @@ def main() -> None:
 
     # === Output MD ===
     md = []
-    md.append(f"# Delta-rapport — bron-refresh-impact")
+    md.append("# Delta-rapport — bron-refresh-impact")
     md.append("")
     md.append(f"_Gegenereerd op {out['gegenereerd_op']}._")
-    md.append(f"_Vergelijking: `{oud_path.name}` → `{nieuw_path.name}`_")
+    md.append(f"_Store: `{out['store']}`_")
     md.append("")
 
     md.append("## Samenvatting")
@@ -335,9 +313,9 @@ def main() -> None:
     for po in alle_po:
         h = per_po_records[po]["HIGH"]
         m = per_po_records[po]["MEDIUM"]
-        l = per_po_records[po]["LOW"]
+        lc = per_po_records[po]["LOW"]
         o = per_po_anchors[po]
-        md.append(f"| {po} | {h} | {m} | {l} | {o} |")
+        md.append(f"| {po} | {h} | {m} | {lc} | {o} |")
     md.append("")
 
     # Top-HIGH records
@@ -350,7 +328,6 @@ def main() -> None:
     md.append("")
     md.append("| Record | PO | echte-delta | Top bronnen (chunks) |")
     md.append("|---|---|---|---|")
-    high_records.sort(key=lambda r: -r["echte_delta_count"])
     for r in high_records[:30]:
         po = _po_uit_anchor(r["linked_anchors"][0]) if r["linked_anchors"] else "?"
         bronnen = ", ".join(f"{b['bron'][:30]} ({b['n']})" for b in r["top_bronnen"][:3])
@@ -362,7 +339,7 @@ def main() -> None:
     # Top anchors met orphan chunks
     md.append("## Top anchors met orphan-chunks (DISCOVER-kandidaten)")
     md.append("")
-    md.append("Anchors waar nieuwe primaire-bron-chunks beschikbaar zijn die nog géén record raken — mogelijk nieuwe fenomenen.")
+    md.append("Anchors waar echt-nieuwe-bron-chunks beschikbaar zijn die nog géén record raken — mogelijk nieuwe fenomenen.")
     md.append("")
     md.append("| Anchor | PO | orphan-count | Top bronnen (chunks) |")
     md.append("|---|---|---|---|")

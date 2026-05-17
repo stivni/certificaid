@@ -1,5 +1,5 @@
 """
-Smoke-tests voor `tools.etl.refresh_rag_and_matches` (ADR-005 §9).
+Smoke-tests voor `tools.etl.refresh_rag_and_matches` (ADR-005 §9 + §9.1).
 
 We mocken `subprocess.run` zodat we de wrapper-orchestratie controleren
 zonder daadwerkelijk MPS-embedding of cosine-matching te draaien.

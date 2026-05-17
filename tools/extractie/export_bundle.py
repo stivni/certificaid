@@ -2,14 +2,15 @@
 Exporteer de bundel van één anchor met volledige chunk-teksten — input voor
 de per-anchor concept-extractie subagent (ADR-008 fase C).
 
+Leest de bundle uit de SQLite matches-store (ADR-005 §9.1).
+
 Output: data/extractie/<po>/bundles/<po>-<anchor-id-slug>.json
 met:
   - anchor info (tekst, verbose, synoniemen)
   - bundle: lijst van chunks met chunk_id, bron, sectie, score, EN volle tekst
 
 Gebruik:
-  python3 -m tools.extractie.export_bundle --po 4.0 --anchor-id 4.0.I.D.7 \\
-      --matches-file data/extractie/4.0/matches/4.0-matches.json
+  python3 -m tools.extractie.export_bundle --po 4.0 --anchor-id 4.0.I.D.7
 """
 
 from __future__ import annotations
@@ -22,8 +23,11 @@ from pathlib import Path
 import chromadb
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 
+from tools.lib.matches_store import DEFAULT_DB_PATH, open_store, get_bundle
+
 ROOT = Path(__file__).resolve().parent.parent.parent
 EMBEDDING_MODEL = "BAAI/bge-m3"
+DEFAULT_ANCHORS_PATH = ROOT / "data" / "programma" / "anchors.json"
 
 
 def slugify(s: str) -> str:
@@ -37,15 +41,16 @@ _BRON_DIRS = (
 )
 
 
-def _warn_if_matches_stale(matches_path: Path) -> None:
-    """Loud-warning als de matches-file ouder is dan een trusted bron-MD.
+def _warn_if_store_stale(db_path: Path) -> None:
+    """
+    Loud-warning als de SQLite-store ouder is dan een trusted bron-MD.
 
     Implementeert de ADR-005 §9 refresh-gate als runtime-sanity-check. Blokkeert
-    de export niet (soms wil je expliciet een oud matches-bestand gebruiken)
-    maar maakt zichtbaar dat je extractie mogelijk stale input draait.
+    de export niet (soms wil je expliciet een oude store gebruiken) maar maakt
+    zichtbaar dat je extractie mogelijk stale input draait.
     """
     try:
-        matches_mtime = matches_path.stat().st_mtime
+        store_mtime = db_path.stat().st_mtime
     except FileNotFoundError:
         return
 
@@ -57,7 +62,7 @@ def _warn_if_matches_stale(matches_path: Path) -> None:
             if f.name in {"INDEX.md", "README.md", "WETTEKSTEN-INDEX.md"}:
                 continue
             try:
-                if f.stat().st_mtime > matches_mtime:
+                if f.stat().st_mtime > store_mtime:
                     newer.append(f.name)
             except FileNotFoundError:
                 continue
@@ -67,7 +72,7 @@ def _warn_if_matches_stale(matches_path: Path) -> None:
         suffix = "" if len(newer) <= 5 else f" (+{len(newer) - 5} meer)"
         print(
             f"[bundle][WAARSCHUWING] {len(newer)} bron-MD's zijn nieuwer dan "
-            f"{matches_path.name}: {sample}{suffix}.\n"
+            f"de matches-store {db_path.name}: {sample}{suffix}.\n"
             f"[bundle]                ADR-005 §9 refresh-gate: draai "
             f"`python3 -m tools.etl.refresh_rag_and_matches` voor je nieuwe "
             f"extracties start, anders zit deze bundel mogelijk niet meer "
@@ -79,37 +84,42 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--po", required=True)
     parser.add_argument("--anchor-id", required=True)
-    parser.add_argument("--matches-file", required=True,
-                        help="bv. data/extractie/4.0/matches/4.0-matches.json")
+    parser.add_argument(
+        "--db-path",
+        default=None,
+        help="pad naar SQLite matches-store (default: data/extractie/matches.sqlite3)",
+    )
     parser.add_argument("--anchors-file", default=None,
                         help="optioneel: enriched/clean anchors-bestand (voor verbose+syns)")
     parser.add_argument("--chroma-path", default=None,
-                        help="default: data/rag/<po>")
+                        help="default: data/rag/main")
     args = parser.parse_args()
 
-    matches_path = Path(args.matches_file)
-    if not matches_path.is_absolute():
-        matches_path = ROOT / matches_path
-    matches = json.loads(matches_path.read_text())
+    db_path = Path(args.db_path) if args.db_path else DEFAULT_DB_PATH
+    if not db_path.is_absolute():
+        db_path = ROOT / db_path
 
-    _warn_if_matches_stale(matches_path)
+    _warn_if_store_stale(db_path)
 
-    # Vind het anchor
-    anchor_view = next(
-        (a for a in matches["anchors"] if a["anchor_id"] == args.anchor_id),
-        None,
-    )
-    if anchor_view is None:
-        raise SystemExit(f"Anchor {args.anchor_id} niet gevonden in {matches_path}")
+    conn = open_store(db_path)
+    bundle_chunks = get_bundle(conn, args.anchor_id)
+    conn.close()
 
-    bundle_chunk_ids = [c["chunk_id"] for c in anchor_view["bundle"]]
-    if not bundle_chunk_ids:
-        raise SystemExit(f"Anchor {args.anchor_id} heeft een lege bundle")
+    if not bundle_chunks:
+        raise SystemExit(
+            f"Anchor {args.anchor_id} heeft geen bundle in {db_path}. "
+            "Controleer of match_bronnen.py gedraaid heeft."
+        )
+
+    bundle_chunk_ids = [chunk_id for chunk_id, _score in bundle_chunks]
+    bundle_scores = {chunk_id: score for chunk_id, score in bundle_chunks}
 
     print(f"[bundle] {len(bundle_chunk_ids)} chunks voor {args.anchor_id}")
 
     # Haal volle tekst op uit ChromaDB
-    chroma_path = Path(args.chroma_path) if args.chroma_path else (ROOT / f"data/rag/{args.po}")
+    chroma_path = Path(args.chroma_path) if args.chroma_path else (ROOT / "data" / "rag" / "main")
+    if not chroma_path.is_absolute():
+        chroma_path = ROOT / chroma_path
     if not chroma_path.exists():
         chroma_path = ROOT / "data" / "rag" / "main"
 
@@ -122,12 +132,12 @@ def main() -> None:
     by_id = {cid: (doc, meta) for cid, doc, meta in zip(res["ids"], res["documents"], res["metadatas"])}
 
     # Optioneel: enriched anchors-bestand voor verbose + synoniemen
-    anchor_meta = {}
-    if args.anchors_file:
-        af = Path(args.anchors_file)
-        if not af.is_absolute():
-            af = ROOT / af
-        for a in json.loads(af.read_text())["anchors"]:
+    anchor_meta: dict = {}
+    anchors_file = Path(args.anchors_file) if args.anchors_file else DEFAULT_ANCHORS_PATH
+    if not anchors_file.is_absolute():
+        anchors_file = ROOT / anchors_file
+    if anchors_file.exists():
+        for a in json.loads(anchors_file.read_text(encoding="utf-8"))["anchors"]:
             if a["anchor_id"] == args.anchor_id:
                 anchor_meta = {
                     "tekst": a.get("tekst", ""),
@@ -137,19 +147,18 @@ def main() -> None:
                 }
                 break
 
-    # Bouw output: bundle items met volle tekst, gesorteerd op score (al gesorteerd)
+    # Bouw output: bundle items met volle tekst, gesorteerd op score (hoog → laag)
     bundle_with_text = []
-    for c in anchor_view["bundle"]:
-        cid = c["chunk_id"]
-        if cid in by_id:
-            doc, meta = by_id[cid]
+    for chunk_id in bundle_chunk_ids:
+        if chunk_id in by_id:
+            doc, meta = by_id[chunk_id]
             bundle_with_text.append({
-                "chunk_id": cid,
-                "chunk_sha": c.get("chunk_sha") or meta.get("chunk_sha"),
+                "chunk_id": chunk_id,
+                "chunk_sha": meta.get("chunk_sha"),
                 "bron": meta.get("bron", ""),
                 "bron_rol": meta.get("bron_rol", ""),
                 "sectie": meta.get("sectie") or meta.get("artikel_ref", ""),
-                "score": c["score"],
+                "score": bundle_scores[chunk_id],
                 "text": doc,
             })
 
@@ -157,12 +166,12 @@ def main() -> None:
         "po": args.po,
         "anchor_id": args.anchor_id,
         "anchor": anchor_meta or {
-            "tekst": anchor_view.get("tekst", ""),
-            "anchor_type": anchor_view.get("anchor_type", ""),
-            "verbose": anchor_view.get("verbose", ""),
-            "synoniemen": anchor_view.get("synoniemen", []),
+            "tekst": "",
+            "anchor_type": "",
+            "verbose": "",
+            "synoniemen": [],
         },
-        "matches_source": str(matches_path.relative_to(ROOT)),
+        "matches_source": str(db_path.relative_to(ROOT)),
         "bundle_size": len(bundle_with_text),
         "bundle": bundle_with_text,
     }
@@ -170,11 +179,11 @@ def main() -> None:
     out_dir = ROOT / "data" / "extractie" / args.po / "bundles"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / f"{args.po}-{slugify(args.anchor_id)}.json"
-    out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2))
+    out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
 
     total_chars = sum(len(c["text"]) for c in bundle_with_text)
     print(f"[output] {out_path.relative_to(ROOT)}")
-    print(f"         {len(bundle_with_text)} chunks, ~{total_chars:,} chars (~{total_chars//4:,} tokens)")
+    print(f"         {len(bundle_with_text)} chunks, ~{total_chars:,} chars (~{total_chars // 4:,} tokens)")
 
 
 if __name__ == "__main__":

@@ -70,3 +70,4 @@ venv/
 .leesbaarheid-*.md
 .student-feedback*.md
 data/extractie/matches/
+data/extractie/matches.sqlite3
