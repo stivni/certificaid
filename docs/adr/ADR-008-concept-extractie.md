@@ -6,6 +6,7 @@
 
 ## Changelog
 
+- **2026-05-17** — §18 toegevoegd: EXTRACT v4 als research-and-draft-agent met event-driven scope. ENRICH wordt herzien als EXTRACT met gap-event (zelfde agent, andere initial-ctx). VERIFY-feedback splitst in tactisch (per-record gap-event) en strategisch (prompt-/cast-evolutie). Records hitten concept-RAG meteen via records-API (ADR-019). v1.0-mindset: geen draft-status. Coordinator-pattern uitgesteld tot post-pilot.
 - **2026-05-16** — §17 toegevoegd: schema 1.4-implicaties voor extractie-prompts. Concept-extractie-v4 gebruikt stap-blok + bouwsteen-blok + formule-blok + cast-conventie (zie ADR-007 schema 1.4). VERIFY krijgt drie nieuwe aspect-types (`voorbeeld.ontbreekt`, `stap.skeleton`, `bouwsteen.geen-waarom`). ENRICH-prompt v2 dekt deze. Empirisch gevalideerd via twee deep-rewrite-batches op PO 1.4 (29/31 records → schema 1.4 op 2026-05-16).
 - **2026-05-15** — §14 (Fase D: Competentie-destillatie), §15 (Fase E: Leerpad-opstelling), §16 (gaps.json type-discriminator) toegevoegd. Drie-lagen leermateriaal-uitbreiding (BRON → CONCEPT → COMPETENTIE → minicursus) gegrond in pedagogische output-vraag. Examenvragen blijven uitgesloten als input (anti-circulariteit); exam_patterns is wel toegestaan.
 - **2026-05-15** — §13 toegevoegd: monotone enrichment-loop (4-bloks-flow EXTRACT → VERIFY → ENRICH → AUTO-MERGE+LOG). Records worden PO-overschrijdend flat in `data/concepten/records/<id>.json` opgeslagen; PO-linkage via `linked_anchors[]` per record. Gaps en enrich-warnings globaal in `data/extractie/`.
@@ -466,6 +467,69 @@ ENRICH-prompt v1 wordt uitgebreid met deze aspect-types in de "rationale-aspect"
 - `consolidatieplicht-beslisboom` — vijfstappenboom "moet ik consolideren?"
 
 ENRICH-pass kan synthese-records voorstellen wanneer ≥ 3 concept-records onderling cross-refs hebben.
+
+### 18. EXTRACT v4 — research-and-draft-agent met event-driven scope (2026-05-17)
+
+Herziening van §13. EXTRACT, VERIFY en ENRICH zijn formeel nog drie stappen, maar in de werkwijze convergeren EXTRACT en ENRICH tot **één agent met verschillende event-types**. De stage-naam ENRICH blijft alleen als procesfase ("oplossen van VERIFY-bevindingen"), niet als aparte tool of prompt.
+
+#### 18.1 EXTRACT is een research-and-draft-agent
+
+De agent krijgt:
+
+- **Scope-declaratie**: één van drie event-types (zie §18.2)
+- **Initial-ctx (bounded)**: kerncontext op basis van scope (chunks, records, anchors)
+- **Retrieval-tools on-demand**: concept-RAG, bronnen-RAG, file-reads — agent beslist zelf wanneer hij meer ophaalt
+
+De agent schrijft direct naar disk + concept-RAG via de records-API (ADR-019). Er is geen aparte "drafts"-laag, geen APPLY-stap. Wat de agent schrijft *is* de waarheid op het moment dat hij het schrijft.
+
+**v1.0-mindset**: records hebben geen `draft`-status. Het *gedrag* is dat de agent v1.0-kwaliteit produceert — geen "we polijsten dat later wel"-houding. Iteratieve verbetering gebeurt op prompt- en cast-niveau, niet op record-niveau.
+
+#### 18.2 Drie event-types — één agent
+
+| Event | Scope | Initial-ctx (kern) |
+|---|---|---|
+| **Nieuwe PO** | Alle anchors van PO + cross-PO records die `linked_anchors` delen | Anchor-bundles + cross-PO records (via concept-RAG) |
+| **Nieuwe bron** | Alle anchors waar bron-chunks raken + records op die anchors | Nieuwe bron-chunks + geraakte anchor-bundles + bestaande records |
+| **Gap-set uit VERIFY** | Records met gaps | Gap-rapporten + de records + relevante chunks via hun anchors |
+
+Bij elk event: zelfde agent, zelfde tools, zelfde records-API. Alleen het initial-ctx verschilt. Daarmee verdwijnt ENRICH als aparte tool — een gap-event is gewoon een EXTRACT-trigger met een ander initial-ctx.
+
+#### 18.3 VERIFY blijft routinematig
+
+Per EXTRACT-batch draait VERIFY automatisch op de gewijzigde records (niet per individuele record — per batch). Findings stromen op twee manieren terug:
+
+- **Tactisch (per-record)**: VERIFY-gaps worden zelf een event → triggeren een nieuwe EXTRACT-run met gap-scope. Loop draait tot VERIFY clean rapporteert of max-iteraties bereikt.
+- **Strategisch (per-prompt)**: patronen over VERIFY-findings (bv. "5 records missen `in_praktijk`-blok") sturen prompt- of cast-evolutie. Periodiek, door mens of audit-agent.
+
+VERIFY moet meestal niets vinden. Wanneer hij wél iets vindt, is dat een echt regressie-signaal. Hij blijft routinematig draaien ook al is hij meestal groen — discipline voorkomt sluipende erosie.
+
+#### 18.4 Pipeline (vervangt §13's lineaire EXTRACT → VERIFY → ENRICH → AUTO-MERGE)
+
+```
+EVENT (nieuwe PO / nieuwe bron / gap-set)
+   │
+   ▼
+EXTRACT (research-and-draft-agent)
+   - Records → records-API → disk + concept-RAG (atomair, ADR-019)
+   │
+   ▼
+VERIFY (regressienet, op gewijzigde set)
+   │
+   └─ gaps niet leeg → EVENT met gap-scope → terug naar EXTRACT
+```
+
+AUTO-MERGE is overbodig: records-API schrijft direct, geen aparte merge-stap.
+
+#### 18.5 Pilot-aanpak
+
+Voor de eerste implementatie van §18 starten we **single-agent op kleinste scope** (één anchor met enkele chunks en bestaande records). Coordinator + sub-agenten zijn een mogelijke schaalstrategie maar pas-na-pilot-evaluatie. Eerst zien wat single-agent oplevert op realistische data.
+
+#### 18.6 Open punten (post-pilot)
+
+- **Coordinator-pattern**: wanneer scope te groot wordt voor één agent-sessie, hoe verdeelt een coördinator-agent het in disjuncte sub-scopes zonder write-conflicts?
+- **Sub-agent eigenaarschap voor verwijderingen**: mag een sub-agent records verwijderen die niet door hemzelf zijn aangemaakt? Veiliger om delete-suggesties via coordinator te leiden.
+- **Loop-limiet bij gap-events**: na N iteraties zonder convergentie → human review. Bestaande `run_enrichment_cycle.py`-mechanisme hergebruikt.
+- **EXTRACT v4-prompt zelf**: concrete tekst van de prompt + cast-uitbreidingen worden iteratief vastgesteld op basis van pilot-uitkomsten, niet voor-de-pilot vastgelegd.
 
 ## Empirische onderbouwing
 
