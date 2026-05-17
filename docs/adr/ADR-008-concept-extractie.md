@@ -490,15 +490,17 @@ De agent schrijft direct naar disk + concept-RAG via de records-API (ADR-019). E
 |---|---|---|
 | **Nieuwe PO** | Alle anchors van PO + cross-PO records die `linked_anchors` delen | Anchor-bundles + cross-PO records (via concept-RAG) |
 | **Nieuwe bron** | Alle anchors waar bron-chunks raken + records op die anchors | Nieuwe bron-chunks + geraakte anchor-bundles + bestaande records |
-| **Gap-set uit VERIFY** | Records met gaps | Gap-rapporten + de records + relevante chunks via hun anchors |
+| **Feedback-set uit VERIFY** | Records met VERIFY-feedback | Feedback-rapport (concrete punten per record) + de records + relevante chunks via hun anchors + neighbors via retrieval |
 
 Bij elk event: zelfde agent, zelfde tools, zelfde records-API. Alleen het initial-ctx verschilt. Daarmee verdwijnt ENRICH als aparte tool — een gap-event is gewoon een EXTRACT-trigger met een ander initial-ctx.
 
 #### 18.3 VERIFY blijft routinematig
 
-Per EXTRACT-batch draait VERIFY automatisch op de gewijzigde records (niet per individuele record — per batch). Findings stromen op twee manieren terug:
+Per EXTRACT-batch draait VERIFY automatisch op de gewijzigde records (niet per individuele record — per batch). VERIFY's initial-scope = de gewijzigde set, maar de agent mag (en moet vaak) **neighbors via retrieval ophalen** om vergelijkingen te kunnen maken: cross-record overlap-checks, edge-consistentie, terminologie-uniformiteit. VERIFY is dus zelf óók een research-agent — kleine startcontext, retrieval-on-demand.
 
-- **Tactisch (per-record)**: VERIFY-gaps worden zelf een event → triggeren een nieuwe EXTRACT-run met gap-scope. Loop draait tot VERIFY clean rapporteert of max-iteraties bereikt.
+Findings stromen op twee manieren terug:
+
+- **Tactisch (per-record)**: VERIFY-feedback wordt zelf een event → triggert een nieuwe EXTRACT-run met dezelfde anchor-context aangevuld met de feedback-punten als input. Loop convergeert idealiter naar clean, maar 0-gaps is een doel, geen regel — sommige feedback is fundamenteel (bron mist info, examenvraag onoplosbaar). Max-iteraties + mens-review bij stall.
 - **Strategisch (per-prompt)**: patronen over VERIFY-findings (bv. "5 records missen `in_praktijk`-blok") sturen prompt- of cast-evolutie. Periodiek, door mens of audit-agent.
 
 VERIFY moet meestal niets vinden. Wanneer hij wél iets vindt, is dat een echt regressie-signaal. Hij blijft routinematig draaien ook al is hij meestal groen — discipline voorkomt sluipende erosie.
@@ -515,7 +517,8 @@ EXTRACT (research-and-draft-agent)
    ▼
 VERIFY (regressienet, op gewijzigde set)
    │
-   └─ gaps niet leeg → EVENT met gap-scope → terug naar EXTRACT
+   └─ feedback niet leeg → EVENT met feedback + zelfde anchor-context → EXTRACT
+                                                 (loop met max-iter + stall-review)
 ```
 
 AUTO-MERGE is overbodig: records-API schrijft direct, geen aparte merge-stap.
