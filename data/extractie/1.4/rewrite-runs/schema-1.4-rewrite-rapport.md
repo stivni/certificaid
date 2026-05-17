@@ -181,6 +181,6 @@ grep -l '_corrected_from' data/concepten/records/*.json | wc -l
 1. Mens-review of design-sparring op de twee twijfelpunten boven.
 2. Deep-rewrite-pass per record (Sonnet-agent kan dit doen, één record per agent-call), te starten met de prioriteitslijst hierboven.
 3. Hernieuwde RAG-indexering nadat de rewrite-pass volledig is (concepten-collection
-   in ChromaDB; zie `tools/extractie/index_concept_incremental.py`).
+   in ChromaDB; zie `python3 -m tools.lib.records_api reindex-all` — ADR-019).
 4. Eventueel scriptische cleanup van `_corrected_from`-velden zodra mens-review klaar is —
    ze zijn handig voor traceability maar opbouw van pollutie in de records op termijn.

@@ -35,7 +35,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-RECORDS_DIR = ROOT / "data" / "concept_records"
+sys.path.insert(0, str(ROOT))
+
+from tools.lib.records_api import save_record  # noqa: E402
+
+RECORDS_DIR = ROOT / "data" / "concepten" / "records"
 WARNINGS_FILE = ROOT / "data" / "extractie" / "enrich-warnings.json"
 
 
@@ -199,12 +203,9 @@ def verwerk_record(
     if warnings:
         voeg_warnings_toe(warnings, WARNINGS_FILE, droog)
 
-    # Schrijf het bijgewerkte record terug (alleen als er hard-merges waren)
+    # Schrijf het bijgewerkte record terug via de centrale records-API (ADR-019)
     if gerevert > 0 and not droog:
-        pad.write_text(
-            json.dumps(nieuw_record, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
+        save_record(nieuw_record)
 
     return gerevert, gelogd
 
