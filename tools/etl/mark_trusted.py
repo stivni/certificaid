@@ -334,6 +334,10 @@ def main() -> None:
     p.add_argument("--only-status", nargs="+", choices=TRUST_VALID_STATUSES,
                    help="(alleen met --apply-from-verdicts) filter op aanbevolen-statussen")
     p.add_argument("--subagent-id", help="(alleen met --apply-from-verdicts) modelnaam-suffix voor confirmed_by")
+    p.add_argument("--refresh", action="store_true",
+                   help="na schrijven RAG-index + bron-matches refreshen "
+                        "(via tools.etl.refresh_rag_and_matches). Aanbevolen na elke "
+                        "trust-promotie — anders blijven anchor-bundles stale.")
 
     args = p.parse_args()
 
@@ -347,6 +351,11 @@ def main() -> None:
         cmd_scope(args)
     elif args.apply_from_verdicts:
         cmd_apply_from_verdicts(args)
+
+    if args.refresh and not args.dry_run:
+        print("\n=== --refresh: RAG-index + bron-matches verversen ===")
+        from tools.etl.refresh_rag_and_matches import refresh
+        refresh()
 
 
 if __name__ == "__main__":

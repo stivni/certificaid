@@ -22,6 +22,7 @@ provenance:
     - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs
       sha256:
       version:
+      pages:
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 9f70bd30
@@ -32,10 +33,10 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-17T13:57:45Z'
+    confirmed_at: '2026-05-17T15:04:28Z'
     confirmed_by: human
-    rationale: D1 source-side truncatie expliciet gemarkeerd en aangevuld op basis van Franse parallelversie (fallback-optie A+C uit task). Bron-HTML cbn-cnc.be is afgekapt vanaf 'trouwens'; afsluiting tussen [] uit FR-versie cnc-cbn.be/fr/avis/cout-de-revient met expliciete reconstructie-waarschuwing in body. Verdere content trusted.
-    caveat:
+    rationale: Source-side truncatie expliciet gemarkeerd; CBN-HTML zelf afgekapt, geen PDF/Bull-CBN gevonden. Caveat 'truncatie aan einde'.
+    caveat: tekst is afgekapt in CBN-HTML-publicatie (officiële bron); 1 onafgemaakte zin aan einde
     layer1:
     layer2:
 ---

@@ -68,6 +68,17 @@ class Input:
     id: str
     sha256: Optional[str] = None  # None for URL-sourced inputs we don't locally cache
     version: Optional[str] = None
+    # Optional sub-source pointer: bv. "53-118" voor "deze bron is gegenereerd uit
+    # pagina's 53-118 van het input-PDF". Wordt door split-tools (zie
+    # tools/etl/split_ifrs_verordening.py) gebruikt om traceerbaarheid per
+    # uitgesplitste markdown te bewaren. Geen gedwongen formaat — vrije string.
+    pages: Optional[str] = None
+
+    @classmethod
+    def from_dict(cls, data: dict) -> "Input":
+        """Tolerant constructor — negeer onbekende velden (forward-compat)."""
+        known = {f for f in cls.__dataclass_fields__}
+        return cls(**{k: v for k, v in data.items() if k in known})
 
 
 @dataclass
@@ -155,7 +166,7 @@ class Provenance:
     def from_dict(cls, data: dict) -> "Provenance":
         trust_data = data.get("trust")
         return cls(
-            inputs=[Input(**i) for i in data["inputs"]],
+            inputs=[Input.from_dict(i) for i in data["inputs"]],
             tooling=Tooling(**data["tooling"]),
             generated_at=data["generated_at"],
             stale=data.get("stale", False),

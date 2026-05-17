@@ -37,6 +37,7 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 |---|---|
 | Bron toevoegen of herconverteren | ADR-005 (ETL), ADR-004 (provenance bij output), ADR-003 (reprocessing) |
 | Bron als trusted markeren / kwaliteits-gate doorlopen | ADR-005 §7 (Laag 1 + Laag 2 + mens-override + snapshot-vangnet), ADR-004 (`provenance.trust` schema) |
+| RAG-index + anchor-bundles synchroon houden na trust-mutatie | ADR-005 §9 (refresh-gate) — `tools/etl/mark_trusted.py --refresh` of `tools/etl/refresh_rag_and_matches.py` |
 | ETL-pipeline aanpassen (extractor of transformer) | ADR-005 §3 (extractors), §4 (transformers), §1 (determinisme) — vergeet snapshot-vangnet niet (`tests/test_pipeline_snapshots*.py`) |
 | RAG-index bouwen of bevragen | ADR-006 (RAG-strategie) |
 | Concept-record maken of aanvullen | ADR-007 (model, schema 1.1), ADR-008 (extractie), ADR-002 (kenniselement-koppeling), ADR-010 (confidence-labeling), ADR-018 (embedding-daemon voor live duplicate-check) |

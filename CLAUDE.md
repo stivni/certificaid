@@ -19,6 +19,7 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 | Bron toevoegen of verwerken | [`docs/bronnen-pipeline.md`](docs/bronnen-pipeline.md) *(legacy; ADR-005 bij Fase 1)* |
 | Bronnen-overzicht (type + trust-status per bron) | [`resources/bronnen/INDEX.md`](resources/bronnen/INDEX.md) — auto-gegenereerd via `python3 tools/lib/bronnen_index.py --force`; machine-leesbaar in `data/bronnen-index.json` |
 | Provenance van een artefact bekijken / stale-flaggen | `tools/etl/add_provenance.py`, `tools/etl/mark_stale.py` |
+| Trust-status zetten + index/bundles in één klap verversen | `tools/etl/mark_trusted.py --refresh` (of direct `python3 -m tools.etl.refresh_rag_and_matches`) — ADR-005 §9 |
 | RAG-index herbouwen of bevragen | `tools/rag/rag_index.py`, `tools/rag/rag_query.py` *(wacht op Fase 2)* |
 | **Render leermateriaal** (concept-fiches, competentie-fiches, minicursus) | `tools/leermateriaal/` — ADR-007 schema 1.3, ADR-008 Fase D+E, ADR-010 §drie-lagen |
 | Fiche schrijven / programmaonderdeel-build *(legacy)* | [`docs/content-richtlijnen.md`](docs/content-richtlijnen.md), [`docs/po-builder.md`](docs/po-builder.md) *(vervalt bij Fase 5)* |

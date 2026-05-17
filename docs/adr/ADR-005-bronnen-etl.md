@@ -409,6 +409,41 @@ Chunk-id-stabiliteit (ADR-004, ADR-006 §3.1) + ChromaDB upsert + chunk-sha-skip
 maken het toevoegen van een nieuw-trusted bron volledig incrementeel: bestaande
 chunks behouden hun id én worden niet opnieuw geëmbed.
 
+### 9. Refresh-gate — trust-wijziging bindt index én bundles
+
+**Regel**: een trust-statuswijziging die de set indexeerbare bronnen
+verandert (`unreviewed`/`needs-rework`/`rejected` → `trusted`, of
+omgekeerd) wordt onmiddellijk gevolgd door een herloop van de
+RAG-index én de anchor-bundles. Pas daarna mag nieuw concept-extractie-
+werk aanvangen op de bijgewerkte staat.
+
+**Achtergrond**: `mark_trusted.py` raakt op zich alleen de
+provenance-frontmatter aan; de RAG-index (`data/rag/main`) en het
+anchor-matches-artefact (`data/extractie/matches/latest.json`) zijn pas
+consistent nadat respectievelijk `rag_index.py` en `match_bronnen.py`
+opnieuw gedraaid zijn. Tussen die twee momenten zit een venster waarin
+extractie-bundles een nieuw-trustede bron volledig missen — wat in PO
+1.5-1.9 voor ISA-bronnen en IFRS-wetteksten gebeurd is en concept-records
+heeft opgeleverd zonder de juiste primaire referenties.
+
+**Implementatie**:
+
+- `tools/etl/refresh_rag_and_matches.py` voert beide stappen achter
+  elkaar uit. Faalt stap 1 dan wordt stap 2 niet aangevuurd (anders
+  mismatch tussen index en bundles).
+- `tools/etl/mark_trusted.py --refresh` roept de wrapper aan zodra de
+  trust-mutatie geschreven is. Dit is de aanbevolen route voor elke
+  agent-batch-promotie (`--apply-from-verdicts ... --refresh`).
+- Beide stappen zijn incrementeel: SHA-check in `rag_index.py` skipt
+  ongewijzigde chunks; `match_bronnen.py` herschrijft één matches-file
+  per run en update de `latest.json`-symlink.
+
+**Operationele consequentie**: scripts die concept-bundles consumeren
+(`tools/extractie/export_bundle.py`, downstream extractie-prompts) gaan
+ervan uit dat `matches/latest.json` synchroon is met de huidige
+trust-state. Een hand-geschreven trust-promotie zonder `--refresh` is
+een proces-fout, geen geldige tussenstand.
+
 ## Output-contract per fase (testbaarheid)
 
 Elke fase produceert een testbaar artefact:

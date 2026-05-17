@@ -30,6 +30,51 @@ def slugify(s: str) -> str:
     return re.sub(r"[^a-zA-Z0-9.-]+", "-", s).strip("-")
 
 
+_BRON_DIRS = (
+    ROOT / "resources" / "bronnen" / "wetteksten",
+    ROOT / "resources" / "bronnen" / "normen",
+    ROOT / "resources" / "bronnen" / "adviezen",
+)
+
+
+def _warn_if_matches_stale(matches_path: Path) -> None:
+    """Loud-warning als de matches-file ouder is dan een trusted bron-MD.
+
+    Implementeert de ADR-005 §9 refresh-gate als runtime-sanity-check. Blokkeert
+    de export niet (soms wil je expliciet een oud matches-bestand gebruiken)
+    maar maakt zichtbaar dat je extractie mogelijk stale input draait.
+    """
+    try:
+        matches_mtime = matches_path.stat().st_mtime
+    except FileNotFoundError:
+        return
+
+    newer: list[str] = []
+    for d in _BRON_DIRS:
+        if not d.exists():
+            continue
+        for f in d.glob("*.md"):
+            if f.name in {"INDEX.md", "README.md", "WETTEKSTEN-INDEX.md"}:
+                continue
+            try:
+                if f.stat().st_mtime > matches_mtime:
+                    newer.append(f.name)
+            except FileNotFoundError:
+                continue
+
+    if newer:
+        sample = ", ".join(sorted(newer)[:5])
+        suffix = "" if len(newer) <= 5 else f" (+{len(newer) - 5} meer)"
+        print(
+            f"[bundle][WAARSCHUWING] {len(newer)} bron-MD's zijn nieuwer dan "
+            f"{matches_path.name}: {sample}{suffix}.\n"
+            f"[bundle]                ADR-005 §9 refresh-gate: draai "
+            f"`python3 -m tools.etl.refresh_rag_and_matches` voor je nieuwe "
+            f"extracties start, anders zit deze bundel mogelijk niet meer "
+            f"synchroon met de trust-state."
+        )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--po", required=True)
@@ -46,6 +91,8 @@ def main() -> None:
     if not matches_path.is_absolute():
         matches_path = ROOT / matches_path
     matches = json.loads(matches_path.read_text())
+
+    _warn_if_matches_stale(matches_path)
 
     # Vind het anchor
     anchor_view = next(
