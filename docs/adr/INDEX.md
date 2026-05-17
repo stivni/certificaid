@@ -26,6 +26,7 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | [ADR-009](ADR-009-examenpatronen.md) | Examenpatronen (parallelle observatielaag) | Draft |
 | [ADR-010](ADR-010-leermateriaal-tutor.md) | Leermateriaal & tutor | Draft |
 | [ADR-018](ADR-018-embedding-daemon.md) | Embedding-daemon voor concept-extractie | Draft |
+| [ADR-019](ADR-019-records-api.md) | Centrale records-API + RAG-parity discipline | Draft |
 
 ## Roadmap
 
@@ -40,7 +41,8 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | RAG-index + anchor-bundles synchroon houden na trust-mutatie | ADR-005 §9 (refresh-gate) — `tools/etl/mark_trusted.py --refresh` of `tools/etl/refresh_rag_and_matches.py` |
 | ETL-pipeline aanpassen (extractor of transformer) | ADR-005 §3 (extractors), §4 (transformers), §1 (determinisme) — vergeet snapshot-vangnet niet (`tests/test_pipeline_snapshots*.py`) |
 | RAG-index bouwen of bevragen | ADR-006 (RAG-strategie) |
-| Concept-record maken of aanvullen | ADR-007 (model, schema 1.1), ADR-008 (extractie), ADR-002 (kenniselement-koppeling), ADR-010 (confidence-labeling), ADR-018 (embedding-daemon voor live duplicate-check) |
+| Concept-record maken of aanvullen | ADR-007 (model, schema 1.1), ADR-008 (extractie), ADR-002 (kenniselement-koppeling), ADR-010 (confidence-labeling), ADR-018 (embedding-daemon voor live duplicate-check), ADR-019 (records-API als enige schrijfweg) |
+| Concept-record hernoemen of verwijderen | ADR-019 (`rename_record` / `delete_record` — geen directe disk-ops) |
 | Embedding-daemon starten/stoppen/diagnose | ADR-018 |
 | Examenvraag analyseren of genereren | ADR-009 (patronen), ADR-008 (extractie wanneer nieuw concept blijkt nodig) |
 | Leermateriaal-snapshot publiceren | ADR-010 (snapshots), ADR-002 (kenniselement-dekkingscheck) |
