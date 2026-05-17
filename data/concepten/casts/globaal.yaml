@@ -108,6 +108,24 @@ vennootschappen:
   - naam: "Verffabriek Veurne BV"
     rol_default: "BV-in-vereffening"
 
+  # ─── PO 1.5/1.6/1.7/1.8/1.9 (IFRS, audit, controle, analytische, analyse) ───
+
+  # Letter W: audit-firma met bedrijfsrevisor-status
+  - naam: "Wolters & Partners CVBA"
+    rol_default: "audit-firma-bedrijfsrevisor"
+
+  # Letter X: gespecialiseerde adviesfirma + intern-controle-context
+  - naam: "Xenon Expertise BV"
+    rol_default: "advies-en-interne-controle"
+
+  # Letter Y: productie-eenheid / kostencentrum (analytische boekhouding)
+  - naam: "Yperse Werkplaats BV"
+    rol_default: "productie-eenheid-met-kostencentra"
+
+  # Letter Z: beursgenoteerde vennootschap (IFRS-rapportering)
+  - naam: "Zelena Bio NV"
+    rol_default: "beursgenoteerde-NV-IFRS"
+
 # Scenario-archetypen: rol-combinaties die in voorbeelden vaak voorkomen.
 # Bevat GEEN bedragen of percentages (die kiest de extractor zelf, plausibel
 # en in € + duizendtal-notatie volgens formatting-conventie hieronder).
@@ -194,6 +212,41 @@ scenarios:
   vereffening_scenario:
     omschrijving: "BV in vereffening; resultaatverwerking, eindafrekening. Demo voor PO 1.1 II.T."
     vennootschap: "Verffabriek Veurne BV"
+
+  # ─── PO 1.5/1.6/1.7/1.8/1.9 scenarios ───
+
+  ifrs_rapportering:
+    omschrijving: "Beursgenoteerde NV met IFRS-rapportering — IAS 1 presentatie, IFRS 9/15/16 toepassing. Demo voor PO 1.5."
+    vennootschap: "Zelena Bio NV"
+    alternatief_rotex: "Rotex Roeselare NV (grote-NV in IFRS-context)"
+
+  audit_engagement_groot:
+    omschrijving: "Audit-firma voert wettelijke controle uit op grote NV. Demo voor PO 1.6 + ISA-standaarden."
+    auditor: "Wolters & Partners CVBA"
+    cliënt: "Rotex Roeselare NV"
+
+  audit_engagement_klein:
+    omschrijving: "Vrijwillige controle op een KMO. Demo voor PO 1.6 KMO-controlenorm + ISRS 4410."
+    auditor: "Wolters & Partners CVBA"
+    cliënt: "Meubelzaak Mertens BV"
+
+  intern_controle_systeem:
+    omschrijving: "Productieonderneming met intern-controle-systeem voor risicobeheer. Demo voor PO 1.7."
+    vennootschap: "Yperse Werkplaats BV"
+    advies: "Xenon Expertise BV"
+
+  kostenanalyse_volledig:
+    omschrijving: "Productie-onderneming met volledige kostencalculatie (directe + indirecte + ABC). Demo voor PO 1.8 III.A/F."
+    vennootschap: "Yperse Werkplaats BV"
+    kostencentra: ["Spinnerij", "Weverij", "Confectie"]
+
+  break_even_analyse:
+    omschrijving: "Break-even-berekening voor een productlijn. Demo voor PO 1.8 III.D."
+    vennootschap: "Yperse Werkplaats BV"
+
+  financiele_diagnose_bekwaamheid:
+    omschrijving: "Diepere financiële analyse met cashflow + ratio-set voor diagnose. Demo voor PO 1.9 (bekwaamheid-niveau, niet alleen toelating zoals 1.3)."
+    vennootschap: "Rotex Roeselare NV"
 
 # Formatting-conventie voor bedragen in voorbeelden
 formatting:
