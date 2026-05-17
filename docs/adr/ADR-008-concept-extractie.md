@@ -527,7 +527,16 @@ AUTO-MERGE is overbodig: records-API schrijft direct, geen aparte merge-stap.
 
 Voor de eerste implementatie van §18 starten we **single-agent op kleinste scope** (één anchor met enkele chunks en bestaande records). Coordinator + sub-agenten zijn een mogelijke schaalstrategie maar pas-na-pilot-evaluatie. Eerst zien wat single-agent oplevert op realistische data.
 
-#### 18.6 Open punten (post-pilot)
+#### 18.6 Agent-gedrag — bevindingen pilot 2026-05-18
+
+Eerste pilot op anchor `1.5.V.C` (IAS 17 / IFRS 16 leasing) bevestigde een paar werkregels die we expliciet vastleggen voor toekomstige EXTRACT-runs:
+
+- **Anchor-tekst volgen, niet verbeteren**. De anchor zei "IAS 17" terwijl de huidige standaard IFRS 16 is. Records dekken de huidige norm; de spanning wordt gedocumenteerd via `historische_noot` in het record zelf. `data/programma/anchors.json` reflecteert het aangeleverde examenprogramma woordelijk — wij wijzigen dat niet ook al voelt het outdated.
+- **Edge-only-update op bestaande records mag** wanneer de tekst-inhoud al v1.0 is en de wijziging zuiver een cross-link is. Geen verplichting om elk geraakt record tekstueel te herschrijven. Bij twijfel: behoud + edge toevoegen is veilig.
+- **Synthese-records hebben geen vast schema**. Schema 1.4 specificeert geen verplichte veld-shape voor `node_type: synthese` (geen `definitie`, geen `main_rule` top-level). De agent stelt de shape voor op basis van wat de synthese vereist (vergelijkingstabel, beslisboom, Mermaid-diagram). Het voorbeeld-minimum uit ADR-007 schema 1.4 blijft wel gelden — een uitgewerkt voorbeeld of vergelijking is verplicht.
+- **Bron-gaps signaleren, niet maskeren**. Wanneer de chunker een bronstuk verbergt (bv. een heading niet als sectie-grens herkent waardoor cruciale alinea's onder een verkeerde sectie hangen), schrijft de agent een `bron-gap`-entry in `gaps.json` ipv het te omzeilen. De ETL-bug wordt apart behandeld; EXTRACT moet eerlijk zijn over wat retrieval mist.
+
+#### 18.7 Open punten (post-pilot)
 
 - **Coordinator-pattern**: wanneer scope te groot wordt voor één agent-sessie, hoe verdeelt een coördinator-agent het in disjuncte sub-scopes zonder write-conflicts?
 - **Sub-agent eigenaarschap voor verwijderingen**: mag een sub-agent records verwijderen die niet door hemzelf zijn aangemaakt? Veiliger om delete-suggesties via coordinator te leiden.

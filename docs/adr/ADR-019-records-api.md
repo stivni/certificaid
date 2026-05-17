@@ -84,6 +84,43 @@ Beste-inspanning-atomair via volgorde:
 
 Daemon-uitbreiding nodig (ADR-018): nieuw endpoint `POST /delete-concept {id, chroma_path}`. Serialiseert via dezelfde `_operatie_lock` als `/index-concept`.
 
+### Timeout-mitigatie (pilot-bevinding 2026-05-18)
+
+De volgorde "daemon → 200 OK → disk write" werkt bij een nette daemon-fout (HTTP 4xx/5xx) maar **breekt bij timeout**: de client weet niet of de server het deed. In de EXTRACT v4-pilot op anchor 1.5.V.C gebeurde precies dat — eerste `save_record` hit timeout op cold-start (10s te kort voor bge-m3-warm-up), client raisde `DaemonUnavailableError`, maar daemon had de upsert wél doorgevoerd. Resultaat: ghost in RAG, niets op disk, geen automatische rollback.
+
+Drielagige mitigatie:
+
+1. **Verlengde cold-start timeout**: eerste `save_record`-call na proces-start krijgt 60s timeout (vs. 10s default). Voldoende voor bge-m3 cold-start (~5-15s) plus ChromaDB-init.
+2. **Idempotente daemon-endpoints**: `/index-concept` is al idempotent (ChromaDB upsert per id), `/delete-concept` ook (DELETE WHERE id = ? is no-op als id niet bestaat). Client mag dus veilig retry'en bij timeout. Documenteer dit als contract.
+3. **Post-failure parity-recovery**: na elke `save_record`-fout (timeout of anders) draait client automatisch `audit_parity()`. Detecteert ghost (record in RAG, niet op disk) → roept `/delete-concept` aan om RAG-state te herstellen. Logt loud zodat operator weet dat een recovery is gebeurd.
+
+Pseudocode-update voor `save_record`:
+
+```python
+def save_record(record):
+    try:
+        daemon_post("/index-concept", record, timeout=cold_start_timeout())
+        disk_write(record)
+    except (Timeout, DaemonUnavailableError, OSError) as e:
+        # Mogelijk consistente staat onbekend — verifieer
+        parity = audit_parity()
+        ghost = record['id'] in parity['ghosts']
+        if ghost:
+            daemon_post("/delete-concept", {'id': record['id']})
+            log.warn("Rollback ghost na save_record-fout: %s", record['id'])
+        raise
+```
+
+Failure modes-tabel uitgebreid:
+
+| Scenario | Detectie | Reactie |
+|---|---|---|
+| Daemon-call timeout op cold start | `requests.Timeout` met elapsed < 30s | Behandel als mogelijke succes; audit_parity bepaalt of rollback nodig |
+| Daemon-call timeout op warm call | `requests.Timeout` met elapsed > 30s | Idem; cold-start uitgesloten dus ofwel daemon-bug ofwel zware load |
+| Daemon-restart tijdens save | `ConnectionError` op disk-write | audit_parity → rollback indien ghost |
+
+Verificatie-eis (aanvulling op §"Unit tests"): test voor `save_record` met gesimuleerde daemon-timeout waar daemon *wel* upsertte — verwacht: ghost wordt automatisch opgeruimd en exception bubblet door.
+
 ### Pre-commit hook
 
 `scripts/pre-commit-records-parity.sh`:
