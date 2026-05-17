@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
-# Pre-commit hook: draai de test-suite voor we committen.
+# Pre-commit hook: draai parity-check + test-suite voor we committen.
+#
+# Stappen:
+#   1. records-parity audit (ADR-019) — blokkeert bij drift in concept-records
+#   2. pytest -q -m 'not slow'
 #
 # Installeer via: scripts/install-git-hooks.sh
 # Skip eenmalig via: git commit --no-verify
@@ -8,5 +12,9 @@ set -euo pipefail
 REPO_ROOT="$(git rev-parse --show-toplevel)"
 cd "$REPO_ROOT"
 
+# Stap 1: records-parity audit (ADR-019)
+bash "$REPO_ROOT/scripts/git-hooks/pre-commit-records-parity.sh"
+
+# Stap 2: test-suite
 echo "→ pre-commit: pytest -q -m 'not slow'"
 python3 -m pytest tests/ -q --no-header -m "not slow"

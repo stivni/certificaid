@@ -8,8 +8,8 @@
 
 Tijdens concept-extractie (ADR-008 fase C) indexeert de Opus-subagent elk nieuw concept-record:
 
-1. `index_concept_incremental.py --duplicaat-check "<naam>"` — embed naam, query `concepten`-collection
-2. `index_concept_incremental.py --concept <pad>` — embed record, upsert in `concepten`-collection
+1. `records_api.py reindex <id>` — embed één record, upsert in `concepten`-collection (ADR-019)
+2. `/duplicate-check` endpoint — embed naam, query `concepten`-collection (via `embedding_client.duplicate_check`)
 
 Elk script-aanroep laadt het bge-m3 model van disk (~1.2 GB, ~5–15 sec cold-start). Voor één PO met 74 anchors (PO 1.1 Algemene boekhouding) betekent dat 148 model-loads = **~20–30 minuten puur cold-start overhead**, voor een totale extractie-batch van ~90 minuten Opus-reasoning.
 
@@ -127,7 +127,7 @@ def embed_or_fallback(texts: list[str]) -> list[list[float]]:
         return _local_embed(texts)
 ```
 
-Voordeel: scripts (`index_concept_incremental.py`, `rag_query.py`) blijven functioneren ook als de daemon niet draait. CI/eerste-run werkt zonder LaunchAgent.
+Voordeel: scripts (`tools.lib.records_api`, `rag_query.py`) blijven functioneren ook als de daemon niet draait. CI/eerste-run werkt zonder LaunchAgent.
 
 ### Foutmodi
 
@@ -152,7 +152,7 @@ Voordeel: scripts (`index_concept_incremental.py`, `rag_query.py`) blijven funct
   - `~/Library/LaunchAgents/com.certificaid.embedding-daemon.plist` — auto-start config
   - `tools/extractie/install_daemon.sh` — installer voor de plist + dependencies-check
 - **Aanpassingen**:
-  - `tools/extractie/index_concept_incremental.py` — gebruikt `embedding_client` ipv directe bge-m3-load
+  - `tools/lib/records_api.py` (ADR-019) — centrale records-API gebruikt `embedding_client` voor upsert en delete
   - `tools/rag/rag_query.py` — optioneel via daemon
 - **Niet geraakt**:
   - `tools/rag/rag_index.py` — blijft zijn eigen bge-m3 laden voor bron-rebuilds (zelden, niet performance-kritisch)

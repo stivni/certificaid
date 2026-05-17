@@ -59,6 +59,7 @@ from tools.lib.provenance import (  # noqa: E402
     walk_concept_provenance,
     write_provenance,
 )
+from tools.lib.records_api import save_record  # noqa: E402
 
 
 # ─── Modus 1: bron-MD's ──────────────────────────────────────────────────────
@@ -310,12 +311,9 @@ def _scan_concepten(
                 if gelukt:
                     stale_velden_in_record.append(r.veldpad)
 
-        # Schrijf record terug als er velden bijgewerkt zijn
+        # Schrijf record terug via de centrale records-API (ADR-019)
         if apply and stale_velden_in_record:
-            record_pad.write_text(
-                json.dumps(record, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
-            )
+            save_record(record)
             records_met_stale_velden += 1
             print(
                 f"  [geschreven] {record_rel}  ({len(stale_velden_in_record)} veld(en) bijgewerkt)"

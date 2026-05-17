@@ -205,6 +205,11 @@ class IndexConceptRequest(BaseModel):
     chroma_path: Optional[str] = None
 
 
+class DeleteConceptRequest(BaseModel):
+    concept_id: str
+    chroma_path: Optional[str] = None
+
+
 class RefreshRequest(BaseModel):
     chroma_path: str
 
@@ -331,6 +336,38 @@ async def index_concept(req: IndexConceptRequest):
             raise HTTPException(status_code=500, detail=f"Upsert mislukt: {exc}")
 
     logger.info("✓ Concept geïndexeerd: %s", concept_id)
+    return {"id": concept_id, "ok": True}
+
+
+@app.post("/delete-concept")
+async def delete_concept(req: DeleteConceptRequest):
+    global _last_write
+    chroma_path = req.chroma_path or str(ROOT / "data" / "chroma_db")
+    try:
+        collectie = _get_concepten_collectie(chroma_path)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+
+    concept_id = req.concept_id
+
+    async with _operatie_lock:
+        try:
+            # Controleer of het id bestaat voordat we proberen te verwijderen
+            bestaand = collectie.get(ids=[concept_id], include=[])
+            if not bestaand.get("ids"):
+                raise HTTPException(
+                    status_code=404,
+                    detail=f"Concept niet gevonden in collectie: {concept_id}",
+                )
+            collectie.delete(ids=[concept_id])
+            _get_chroma_client(chroma_path).heartbeat()
+            _last_write = datetime.now(timezone.utc).isoformat()
+        except HTTPException:
+            raise
+        except Exception as exc:
+            raise HTTPException(status_code=500, detail=f"Delete mislukt: {exc}")
+
+    logger.info("✓ Concept verwijderd uit RAG: %s", concept_id)
     return {"id": concept_id, "ok": True}
 
 

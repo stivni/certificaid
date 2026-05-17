@@ -492,7 +492,7 @@ ENRICH-pass kan synthese-records voorstellen wanneer ≥ 3 concept-records onder
 
 - `match_bronnen.py` — bron-first matching (deterministisch, geen LLM)
 - `export_bundle.py` — exporteert anchor-bundle met volledige chunk-tekst voor LLM-pass
-- `embedding_daemon.py` + `index_concept_incremental.py` — concept-record indexering (ADR-018)
+- `embedding_daemon.py` + `tools/lib/records_api.py` — concept-record indexering (ADR-018, ADR-019)
 
 Geen `anthropic` import in deze scripts.
 

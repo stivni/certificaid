@@ -717,5 +717,5 @@ Vermoedens leven in `data/extractie/<programmaonderdeel>/vermoedens/<programmaon
 
 - Eén bestaand record (`clientacceptatiebeleid.json`) moet hertypeerd worden van `procedure` naar `afwegingskader` en de top-level `_provenance` moet inline gemaakt worden. Geen separaat migratiescript — handmatig of regenereren.
 - `prompts/seed-v1.md` wordt herschreven om type-specifieke sleutelvelden, `references[]` en inline `_provenance` voor te schrijven.
-- `tools/extractie/index_concept_incremental.py` raakt provenance-paden niet aan voor embedding (gebruikt enkel `naam`-veld) — geen aanpassing nodig.
+- `tools/lib/records_api.py` (ADR-019) raakt provenance-paden niet aan voor embedding (gebruikt enkel `naam`-veld via de daemon) — geen aanpassing nodig.
 - Latere tooling (`mark_stale.py`, `remove_bron.py`) leest provenance via inline-paden (`record["main_rule"]["_provenance"]["inputs"]`) ipv top-level. Nog niet bestaand, dus geen breaking change.
