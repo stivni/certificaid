@@ -10,6 +10,17 @@ Atomiciteitscontract per operatie (ADR-019 §"Atomiciteitscontract"):
   rename_record: daemon /delete-concept(oud) → daemon /index-concept(nieuw) → disk delete + write.
   delete_record: disk delete → daemon /delete-concept (log loud bij stap-2-fail).
 
+Timeout-mitigatie (ADR-019 §"Timeout-mitigatie"):
+  1. Cold-start timeout: eerste daemon-call na proces-start krijgt 60s timeout (i.p.v. 10s).
+     Dit absorbeert bge-m3 warm-up (~5-15s) + ChromaDB-init.
+  2. Idempotente daemon-endpoints: /index-concept (ChromaDB upsert per id) en /delete-concept
+     (DELETE WHERE id = ? is no-op als id niet bestaat) zijn beide idempotent.
+     Client mag veilig retry'en bij timeout — dubbele call heeft geen verkeerd neveneffect.
+  3. Post-failure ghost-recovery: na elke save_record-fout (timeout, daemon-fout, disk-fout)
+     roept de client automatisch audit_parity() aan. Als het record-id in 'ghosts' voorkomt
+     (in RAG maar niet op disk), wordt /delete-concept aangeroepen om RAG-state te herstellen.
+     Warning wordt gelogd. Originele exception bubblet altijd door.
+
 Gebruik:
   from tools.lib.records_api import save_record, rename_record, delete_record, audit_parity
 
@@ -38,9 +49,16 @@ CHROMA_PATH_DEFAULT = ROOT / "data" / "rag" / "main"
 COLLECTIE_NAAM = "concepten"
 
 DAEMON_URL = "http://127.0.0.1:8765"
-DAEMON_TIMEOUT = 10  # seconden — ADR-019 §"Failure modes": >10s → raise
+DAEMON_TIMEOUT = 10          # seconden — ADR-019 §"Failure modes": >10s → raise
+DAEMON_COLD_START_TIMEOUT = 60  # seconden — ADR-019 §"Timeout-mitigatie": eerste call na start
 
 ALLOWED_DATA_PREFIX = str(ROOT / "data")
+
+# Cold-start timeout tracking (ADR-019 §"Timeout-mitigatie" mitigatie 1).
+# Eerste daemon-call na proces-start krijgt DAEMON_COLD_START_TIMEOUT (60s);
+# alle volgende calls gebruiken DAEMON_TIMEOUT (10s).
+# Alleen geldig binnen één proces; multi-process callers hebben elk hun eigen state.
+_eerste_daemon_call_gedaan: bool = False
 
 
 # ---------------------------------------------------------------------------
@@ -63,17 +81,43 @@ def _default_chroma_path() -> str:
     return str(CHROMA_PATH_DEFAULT)
 
 
+def _cold_start_timeout() -> int:
+    """
+    Geeft de juiste timeout (seconden) terug voor de volgende daemon-call.
+
+    Eerste call na proces-start → DAEMON_COLD_START_TIMEOUT (60s).
+    Alle volgende calls → DAEMON_TIMEOUT (10s).
+
+    ADR-019 §"Timeout-mitigatie" mitigatie 1.
+    """
+    global _eerste_daemon_call_gedaan
+    if not _eerste_daemon_call_gedaan:
+        _eerste_daemon_call_gedaan = True
+        return DAEMON_COLD_START_TIMEOUT
+    return DAEMON_TIMEOUT
+
+
 def _post_daemon(endpoint: str, payload: dict, chroma_path: str) -> dict:
     """
     POST naar daemon-endpoint. Gooit DaemonUnavailableError bij connectie-probleem,
-    RuntimeError bij HTTP-fout, requests.Timeout bij overschrijding DAEMON_TIMEOUT.
+    RuntimeError bij HTTP-fout, requests.Timeout bij overschrijding van de actieve timeout.
+
+    De eerste call na proces-start gebruikt DAEMON_COLD_START_TIMEOUT (60s) om de
+    bge-m3 warm-up en ChromaDB-init te absorberen (ADR-019 §"Timeout-mitigatie" mitigatie 1).
+    Alle volgende calls gebruiken DAEMON_TIMEOUT (10s).
+
+    Daemon-endpoints zijn idempotent (ADR-019 §"Timeout-mitigatie" mitigatie 2):
+      /index-concept — ChromaDB upsert per id; dubbele call heeft geen neveneffect.
+      /delete-concept — DELETE WHERE id = ? is no-op als id niet bestaat.
+    Client mag veilig retry'en bij timeout.
     """
+    timeout = _cold_start_timeout()
     volledig_payload = dict(payload, chroma_path=chroma_path)
     try:
         r = requests.post(
             f"{DAEMON_URL}/{endpoint}",
             json=volledig_payload,
-            timeout=DAEMON_TIMEOUT,
+            timeout=timeout,
         )
         r.raise_for_status()
         return r.json()
@@ -84,7 +128,9 @@ def _post_daemon(endpoint: str, payload: dict, chroma_path: str) -> dict:
         ) from exc
     except requests.exceptions.Timeout as exc:
         raise DaemonUnavailableError(
-            f"Embedding-daemon timeout (>{DAEMON_TIMEOUT}s) op /{endpoint}."
+            f"Embedding-daemon timeout (>{timeout}s) op /{endpoint}. "
+            "Mogelijk cold-start of zware belasting. "
+            "Ghost-detectie volgt automatisch (ADR-019 §'Timeout-mitigatie')."
         ) from exc
     except requests.exceptions.HTTPError as exc:
         raise RuntimeError(
@@ -126,6 +172,75 @@ def _laad_disk_ids() -> set[str]:
 
 
 # ---------------------------------------------------------------------------
+# Interne ghost-recovery helper
+# ---------------------------------------------------------------------------
+
+
+def _ghost_recovery(concept_id: str, chroma_path: str, context: str = "") -> None:
+    """
+    Post-failure ghost-recovery (ADR-019 §"Timeout-mitigatie" mitigatie 3).
+
+    Na een fout bij save_record / rename_record / delete_record is de RAG-state
+    onzeker: bij een timeout kan de daemon de upsert al hebben uitgevoerd terwijl
+    de client een exception ontving. Dit leidt tot een ghost (record in RAG, niet op disk).
+
+    Deze helper:
+    1. Roept audit_parity() aan (read-only).
+    2. Als concept_id in 'ghosts' → roept /delete-concept aan om te rollbacken.
+    3. Logt warning zodat operator weet dat een automatische recovery heeft plaatsgevonden.
+
+    Fouten in audit_parity() of /delete-concept worden gelogd maar NIET geraised —
+    de originele exception bubbelt altijd door via de caller.
+
+    Args:
+        concept_id: het record-id dat mogelijk een ghost veroorzaakte
+        chroma_path: ChromaDB-pad voor audit_parity
+        context: korte beschrijving van de aanleiding (voor logging)
+    """
+    prefix = f"[ghost-recovery{' (' + context + ')' if context else ''}]"
+    try:
+        parity = audit_parity(chroma_path=chroma_path)
+        if concept_id in parity["ghosts"]:
+            logger.warning(
+                "%s Ghost gedetecteerd voor %s — rollback via /delete-concept …",
+                prefix,
+                concept_id,
+            )
+            try:
+                _post_daemon(
+                    "delete-concept",
+                    {"concept_id": concept_id},
+                    chroma_path,
+                )
+                logger.warning(
+                    "%s Ghost opgeruimd: %s verwijderd uit RAG. "
+                    "Controleer de operatie en voer indien nodig save_record opnieuw uit.",
+                    prefix,
+                    concept_id,
+                )
+            except Exception as delete_exc:
+                logger.error(
+                    "%s /delete-concept MISLUKT voor ghost %s: %s. "
+                    "Voer `records_api audit --fix` uit om de ghost manueel op te ruimen.",
+                    prefix,
+                    concept_id,
+                    delete_exc,
+                )
+        else:
+            logger.debug(
+                "%s Geen ghost voor %s — geen rollback nodig.", prefix, concept_id
+            )
+    except Exception as audit_exc:
+        logger.error(
+            "%s audit_parity() mislukt — ghost-status van %s onbekend: %s. "
+            "Voer `records_api audit` manueel uit.",
+            prefix,
+            concept_id,
+            audit_exc,
+        )
+
+
+# ---------------------------------------------------------------------------
 # Publieke API
 # ---------------------------------------------------------------------------
 
@@ -161,8 +276,16 @@ def save_record(
     resolved_chroma = chroma_path or _default_chroma_path()
 
     # Stap 1: daemon upsert (RAG eerst — atomiciteitscontract)
-    _post_daemon("index-concept", {"record": record}, resolved_chroma)
-    logger.debug("save_record: daemon /index-concept OK voor %s", concept_id)
+    try:
+        _post_daemon("index-concept", {"record": record}, resolved_chroma)
+        logger.debug("save_record: daemon /index-concept OK voor %s", concept_id)
+    except Exception as exc:
+        # Daemon-fout (timeout, ConnectionError, HTTP-fout) —
+        # bij timeout is het onzeker of de daemon de upsert al uitvoerde.
+        # Post-failure ghost-recovery (ADR-019 §"Timeout-mitigatie" mitigatie 3):
+        # audit_parity bepaalt of er een ghost is en ruimt die op.
+        _ghost_recovery(concept_id, resolved_chroma, context="daemon-fout bij /index-concept")
+        raise
 
     # Stap 2: disk write
     pad = _record_pad(concept_id)
@@ -173,7 +296,7 @@ def save_record(
             encoding="utf-8",
         )
     except OSError as exc:
-        # Disk-write mislukt → rollback RAG
+        # Disk-write mislukt → rollback RAG (directe rollback + ghost-recovery als failsafe)
         logger.error(
             "save_record: disk-write mislukt voor %s, rollback RAG …", concept_id
         )
@@ -189,10 +312,12 @@ def save_record(
             )
         except Exception as rollback_exc:
             logger.error(
-                "save_record: rollback RAG ook mislukt voor %s: %s",
+                "save_record: directe rollback RAG mislukt voor %s: %s — ghost-recovery volgt",
                 concept_id,
                 rollback_exc,
             )
+            # Failsafe: audit_parity-gebaseerde ghost-recovery als directe rollback ook faalt
+            _ghost_recovery(concept_id, resolved_chroma, context="disk-write mislukt")
         raise OSError(
             f"Disk-write mislukt voor {concept_id}: {exc}"
         ) from exc

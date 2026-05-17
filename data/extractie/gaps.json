@@ -1506,5 +1506,19 @@
     "geconstateerd_door": "verify-run-po17-2026-05-17",
     "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
     "status": "open"
+  },
+  {
+    "aspect_type": "bron-gap",
+    "aspect": "chunking-artefact",
+    "po": "1.5",
+    "anchor_id": "1.5.V.C",
+    "reden": "IFRS 16 alinea 98-103 (sale-and-leaseback) zit gechunkt binnen `IFRS-16-leaseovereenkomsten__sec_informatieverschaffing_2` i.p.v. een eigen `__sec_sale-and-leaseback`-chunk. De sectie-header SALE-AND-LEASEBACKTRANSACTIES is door de chunker over het hoofd gezien. Effect: bron-first matching mist de relevante chunk voor anchors over sale-and-leaseback (zoekt op 'verkoper-lessee', krijgt ALLEEN transition-chunks C17/C18 i.p.v. de substantive alinea 98-103). De pilot-extractie kon de inhoud wel manueel terugvinden door de IFRS-16 source-file rechtstreeks te grep'pen, maar dat schaalt niet.",
+    "ontbrekende_kennis": "Hersluiting van IFRS-16-source-chunking zodat 'SALE-AND-LEASEBACKTRANSACTIES'-header een eigen sectie krijgt (zoals dat al gebeurt voor 'Lessee', 'Lessor', 'Presentatie', 'Informatieverschaffing'). Geen nieuwe bron nodig — alleen de ETL-chunker bijwerken om deze sectie-header (hoofdletters, mogelijk geen blank line ervoor) te detecteren.",
+    "voorgestelde_bronnen": [],
+    "menselijke_beslissing": null,
+    "prio": "midden",
+    "status": "open",
+    "geconstateerd_door": "pilot-extract-v4-2026-05-18",
+    "geconstateerd_op": "2026-05-18"
   }
 ]
