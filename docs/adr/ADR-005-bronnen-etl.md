@@ -447,52 +447,7 @@ is een proces-fout, geen geldige tussenstand.
 
 ### 9.1. Matches-store — delta-driven SQLite met state-fingerprints
 
-**Store**: `data/extractie/matches.sqlite3` — SQLite-database, gitignored
-(herbouwbaar via `python3 -m tools.extractie.match_bronnen`).
-
-**Schema** (tabel `matches`):
-
-| Kolom | Type | Beschrijving |
-|---|---|---|
-| `anchor_id` | TEXT | anchor-identificatie (bv. `1.1.taak.1`) |
-| `chunk_id` | TEXT | chunk-id uit ChromaDB |
-| `score` | REAL | cosine-similarity (0–1) |
-| `in_bundle` | INTEGER | 1 = in definitieve bundle, 0 = onder de drempel |
-| `chunk_sha` | TEXT | vingerafdruk van chunk-inhoud (uit ChromaDB metadata) |
-| `anchor_vector_hash` | TEXT | sha256 van anchor-vector bytes, eerste 16 hex |
-
-Primaire sleutel: `(anchor_id, chunk_id)`.
-Twee indices: `(anchor_id, in_bundle)` voor bundle-queries; `(chunk_id)` voor delta-detectie.
-
-**Delta-algoritme**:
-
-1. Vergelijk huidige ChromaDB-chunks met store op `chunk_sha`:
-   → `chunks_weg`, `chunks_nieuw`, `chunks_stale`
-2. Vergelijk huidige anchors.json-vectorhashes met store:
-   → `anchors_weg`, `anchors_nieuw`, `anchors_stale`
-3. DELETE rijen voor `chunks_weg` en `anchors_weg`.
-4. Bepaal te herberekenen anchors:
-   - `anchors_nieuw` + `anchors_stale` (eigen vector veranderd)
-   - Alle anchors die een match hadden met `chunks_weg` of `chunks_stale`
-   - Als er `chunks_nieuw` zijn: alle anchors in de store (nieuwe chunks kunnen voor elk anchor relevant zijn)
-5. Herbereken cosine-scores voor geraakte anchors (batched numpy, 50 anchors per batch).
-6. Strict re-rank per anchor: herbereken `in_bundle` flag op basis van
-   `max(threshold, top1 - margin)`.
-7. Idempotent: als er geen delta is én de store niet leeg is → 0 mutaties.
-
-**Geen `--rebuild-all` mode**: het algoritme handelt massa-staleness
-correct af via de batch-herberekening van alle geraakte anchors.
-
-**Helpers** (`tools/lib/matches_store.py`):
-
-- `open_store(db_path) -> sqlite3.Connection` — schema-init bij eerste call
-- `get_bundle(conn, anchor_id) -> list[tuple[chunk_id, score]]` — alleen `in_bundle = 1`
-- `current_chunks_with_sha(chroma_path) -> dict[chunk_id, chunk_sha]` — uit ChromaDB
-- `current_anchors_with_hash(anchors_path) -> dict[anchor_id, vector_hash]` — uit anchors.json
-
-### 9.1 Matches-store — delta-driven SQLite met state-fingerprints
-
-**Probleem**: de huidige `match_bronnen.py` berekent bij elke run een volledige cosine-matrix van ~1.500 anchors × ~21.860 chunks (~33M ops) en herschrijft `matches/latest.json` integraal. Bij één toegevoegde of getrustte bron met ~200 chunks is dat 100× te veel werk — en blokkeert het refresh-gate-flows in praktijk uren-lang. Bovendien is een herschreven JSON-blob niet selectief te updaten zonder de hele file te herschrijven.
+**Probleem**: de oorspronkelijke `match_bronnen.py` berekende bij elke run een volledige cosine-matrix van ~1.500 anchors × ~21.860 chunks (~33M ops) en herschreef `matches/latest.json` integraal. Bij één toegevoegde of getrustte bron met ~200 chunks was dat 100× te veel werk — en blokkeerde refresh-gate-flows in praktijk uren-lang. Bovendien was een herschreven JSON-blob niet selectief te updaten.
 
 **Beslissing**: vervang `matches/latest.json` door **`data/extractie/matches.sqlite3`** met state-fingerprints per rij, en herschrijf `match_bronnen.py` als delta-driven script dat de diff tussen actuele state en SQLite afleidt. Principe: correct + robuust > snel & afwijkende paden.
 
@@ -570,6 +525,15 @@ for anchor_id in unieke_geraakte_anchors:
 **Embedding-source-of-truth blijft ChromaDB**: SQLite is alleen matches-store. Chunk-embeddings worden batched opgehaald via `collection.get(ids=[...], include=['embeddings'])` tijdens herberekening. Geen embedding-duplicatie.
 
 **Consumer-aanpassing**: `tools/extractie/export_bundle.py` en downstream consumers lezen niet meer uit `matches/latest.json` maar via een query-helper (`tools/lib/matches_store.py`) die de SQLite leest. Top-margin-bundle per anchor → `SELECT chunk_id, score FROM matches WHERE anchor_id = ? AND in_bundle = 1`.
+
+**Helpers** (`tools/lib/matches_store.py`):
+
+- `open_store(db_path) -> sqlite3.Connection` — schema-init bij eerste call
+- `get_bundle(conn, anchor_id) -> list[tuple[chunk_id, score]]` — alleen `in_bundle = 1`
+- `current_chunks_with_sha(chroma_path) -> dict[chunk_id, chunk_sha]` — uit ChromaDB
+- `current_anchors_with_hash(anchors_path) -> dict[anchor_id, vector_hash]` — uit anchors.json (`vector_hash` = sha256 van vector-bytes, eerste 16 hex)
+
+**Idempotent**: tweede run zonder mutaties levert 0 wijzigingen (de fingerprint-diff is dan leeg).
 
 ## Output-contract per fase (testbaarheid)
 
