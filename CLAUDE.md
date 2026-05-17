@@ -15,6 +15,7 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 | Taak | Zie |
 |---|---|
 | Roadmap & fase-status | [`docs/roadmap.md`](docs/roadmap.md) |
+| Openstaand werk overzicht / TODO | [`docs/TODO.md`](docs/TODO.md) — Fase A (records 1.x) · B (PO-rollout) · C (bronnen) · D (render) · E (continu) |
 | Architectuurbeslissing opzoeken of toevoegen | [`docs/adr/INDEX.md`](docs/adr/INDEX.md) |
 | Bron toevoegen of verwerken | [`docs/bronnen-pipeline.md`](docs/bronnen-pipeline.md) *(legacy; ADR-005 bij Fase 1)* |
 | Bronnen-overzicht (type + trust-status per bron) | [`resources/bronnen/INDEX.md`](resources/bronnen/INDEX.md) — auto-gegenereerd via `python3 tools/lib/bronnen_index.py --force`; machine-leesbaar in `data/bronnen-index.json` |
