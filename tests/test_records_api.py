@@ -438,3 +438,240 @@ def test_save_record_concurrentie_serialiseert(patched_api, test_record):
     assert fouten == [], f"Fouten bij concurrent schrijven: {fouten}"
     for i in range(5):
         assert (patched_api.records_dir / f"concurrent-{i}.json").exists()
+
+
+# ─── Timeout-mitigatie (ADR-019 §"Timeout-mitigatie") ────────────────────────
+
+
+def test_cold_start_timeout_eerste_call_60s(monkeypatch, records_dir, test_record):
+    """
+    Eerste save_record-call na module-import gebruikt 60s timeout (cold-start).
+    Tweede call gebruikt 10s.
+
+    ADR-019 §"Timeout-mitigatie" mitigatie 1.
+    """
+    import importlib
+    import tools.lib.records_api as api
+    import requests
+
+    # Reset de cold-start-state door de module-variabele terug te zetten
+    monkeypatch.setattr(api, "_eerste_daemon_call_gedaan", False)
+    monkeypatch.setattr(api, "RECORDS_DIR", records_dir)
+
+    ontvangen_timeouts: list[int] = []
+
+    def mock_requests_post(url, json=None, timeout=None, **kwargs):
+        ontvangen_timeouts.append(timeout)
+        mock_response = MagicMock()
+        mock_response.status_code = 200
+        mock_response.raise_for_status = lambda: None
+        mock_response.json.return_value = {"ok": True}
+        return mock_response
+
+    monkeypatch.setattr(requests, "post", mock_requests_post)
+
+    # Eerste call — verwacht: 60s timeout
+    api.save_record(test_record, chroma_path=str(records_dir / "rag"))
+    assert ontvangen_timeouts[0] == 60, (
+        f"Eerste call verwachtte 60s timeout, kreeg {ontvangen_timeouts[0]}s"
+    )
+
+    # Tweede call — verwacht: 10s timeout (DAEMON_TIMEOUT)
+    record_2 = dict(test_record, id="test-concept-2")
+    api.save_record(record_2, chroma_path=str(records_dir / "rag"))
+    assert ontvangen_timeouts[1] == 10, (
+        f"Tweede call verwachtte 10s timeout, kreeg {ontvangen_timeouts[1]}s"
+    )
+
+
+def test_timeout_met_server_success_ghost_recovery(monkeypatch, records_dir, test_record):
+    """
+    Scenario: daemon ontvangt verzoek + voert RAG-upsert uit, maar client hit timeout.
+    Gevolg: ghost in RAG, record niet op disk.
+
+    Verwacht gedrag (ADR-019 §"Timeout-mitigatie" mitigatie 3):
+    - save_record triggert audit_parity → detecteert ghost
+    - roept /delete-concept aan voor ghost-rollback
+    - logt warning
+    - re-raiset de originele timeout-exception
+
+    ADR-019 §"Timeout-mitigatie" mitigatie 2 + 3.
+    """
+    import tools.lib.records_api as api
+    import requests
+
+    monkeypatch.setattr(api, "_eerste_daemon_call_gedaan", True)  # Sla cold-start over
+    monkeypatch.setattr(api, "RECORDS_DIR", records_dir)
+
+    concept_id = test_record["id"]
+
+    # Bijhouden welke daemon-endpoints zijn aangeroepen
+    daemon_calls: list[str] = []
+
+    def mock_post_daemon(endpoint: str, payload: dict, chroma_pad: str) -> dict:
+        daemon_calls.append(endpoint)
+        if endpoint == "index-concept":
+            # Simuleer: daemon doet de upsert maar client ziet timeout
+            raise requests.exceptions.Timeout("Gesimuleerde timeout na server-success")
+        if endpoint == "delete-concept":
+            # Rollback geslaagd
+            return {"ok": True}
+        return {"ok": True}
+
+    monkeypatch.setattr(api, "_post_daemon", mock_post_daemon)
+
+    # audit_parity moet de ghost detecteren: daemon deed de upsert (concept_id in RAG)
+    # maar record staat niet op disk (records_dir is leeg)
+    def mock_audit_parity(chroma_path=None):
+        return {
+            "disk_ids": set(),
+            "rag_ids": {concept_id},
+            "ghosts": [concept_id],   # concept_id is ghost (RAG maar niet disk)
+            "missing": [],
+            "ok": False,
+        }
+
+    monkeypatch.setattr(api, "audit_parity", mock_audit_parity)
+
+    # save_record moet: exception re-raisen + ghost opgeruimd hebben
+    with pytest.raises((api.DaemonUnavailableError, requests.exceptions.Timeout)):
+        api.save_record(test_record, chroma_path=str(records_dir / "rag"))
+
+    # Ghost-rollback: /delete-concept moet aangeroepen zijn
+    assert "delete-concept" in daemon_calls, (
+        "Ghost-rollback via /delete-concept niet aangeroepen na timeout + ghost-detectie"
+    )
+
+    # Record mag niet op disk staan (timeout voor disk-write)
+    assert not (records_dir / f"{concept_id}.json").exists(), (
+        "Record staat onterecht op disk na timeout-failure"
+    )
+
+
+def test_disk_fail_na_daemon_success_ghost_recovery(monkeypatch, patched_api, test_record):
+    """
+    Scenario: daemon-call slaagt (RAG-upsert OK), maar disk-write gooit OSError.
+    Gevolg zonder mitigatie: ghost in RAG.
+
+    Verwacht gedrag (ADR-019 §"Atomiciteitscontract"):
+    - save_record triggert audit_parity na de OSError
+    - detecteert ghost → roept /delete-concept aan
+    - re-raiset OSError
+
+    Dit test de post-failure ghost-recovery ook bij disk-fouten.
+    """
+    import tools.lib.records_api as api
+
+    concept_id = test_record["id"]
+
+    # Originele _post_daemon is al gemockt door patched_api (succesvol).
+    # Laat alleen disk-write falen.
+    originele_write = Path.write_text
+    schrijf_teller = {"n": 0}
+
+    def slechte_write(self, *args, **kwargs):
+        schrijf_teller["n"] += 1
+        if schrijf_teller["n"] == 1 and concept_id in str(self):
+            raise OSError("Gesimuleerde disk-fout na geslaagde daemon-call")
+        return originele_write(self, *args, **kwargs)
+
+    monkeypatch.setattr(Path, "write_text", slechte_write)
+
+    # audit_parity simuleert de ghost-toestand
+    def mock_audit_parity(chroma_path=None):
+        return {
+            "disk_ids": set(),
+            "rag_ids": {concept_id},
+            "ghosts": [concept_id],
+            "missing": [],
+            "ok": False,
+        }
+
+    monkeypatch.setattr(api, "audit_parity", mock_audit_parity)
+
+    with pytest.raises(OSError, match="Disk-write mislukt"):
+        api.save_record(test_record, chroma_path=patched_api.chroma_path)
+
+    # Ghost-rollback: zowel de initiële rollback (huidig pad) als de parity-recovery
+    # moeten /delete-concept aanroepen. In beide gevallen: delete-concept in daemon_calls.
+    endpoints = [c[0] for c in patched_api.daemon_calls]
+    assert "delete-concept" in endpoints, (
+        "/delete-concept niet aangeroepen na disk-fout + ghost-detectie"
+    )
+
+
+def test_geen_valse_rollback_bij_fout_voor_daemon_call(monkeypatch, patched_api, test_record):
+    """
+    Scenario: save_record faalt vóór de daemon-call (bv. ValueError op ontbrekend id-veld).
+    In dit geval is er geen ghost in RAG → geen /delete-concept aanroep verwacht.
+
+    Verwacht gedrag: audit_parity wordt eventueel aangeroepen maar detecteert geen ghost
+    → geen rollback.
+
+    ADR-019 §"Timeout-mitigatie": "Geen valse rollback" scenario.
+    """
+    import tools.lib.records_api as api
+
+    # Record zonder id → faalt vóór daemon-call
+    record_zonder_id = {"naam": "Geen id"}
+
+    with pytest.raises(ValueError, match="geen 'id'-veld"):
+        api.save_record(record_zonder_id, chroma_path=patched_api.chroma_path)
+
+    # Geen daemon-calls
+    assert len(patched_api.daemon_calls) == 0, (
+        f"Daemon onterecht aangeroepen: {patched_api.daemon_calls}"
+    )
+
+    # Geen rollback via /delete-concept
+    delete_calls = [c for c in patched_api.daemon_calls if c[0] == "delete-concept"]
+    assert delete_calls == [], "Valse rollback: /delete-concept aangeroepen zonder ghost"
+
+
+def test_geen_valse_rollback_bij_fout_voor_daemon_call_connection_error(
+    monkeypatch, records_dir, test_record
+):
+    """
+    Scenario: save_record faalt doordat de daemon niet bereikbaar is (ConnectionError).
+    Daemon heeft niets gedaan → geen ghost → geen /delete-concept rollback verwacht.
+
+    audit_parity zou het concept_id als MISSING (niet als ghost) rapporteren
+    want het staat niet op disk én niet in RAG.
+    """
+    import tools.lib.records_api as api
+
+    monkeypatch.setattr(api, "_eerste_daemon_call_gedaan", True)
+    monkeypatch.setattr(api, "RECORDS_DIR", records_dir)
+
+    concept_id = test_record["id"]
+    delete_calls: list[str] = []
+
+    def mock_post_daemon(endpoint: str, payload: dict, chroma_pad: str) -> dict:
+        if endpoint == "index-concept":
+            raise api.DaemonUnavailableError("Daemon niet bereikbaar")
+        if endpoint == "delete-concept":
+            delete_calls.append(endpoint)
+            return {"ok": True}
+        return {"ok": True}
+
+    monkeypatch.setattr(api, "_post_daemon", mock_post_daemon)
+
+    # audit_parity: geen ghost (daemon deed niets)
+    def mock_audit_parity(chroma_path=None):
+        return {
+            "disk_ids": set(),
+            "rag_ids": set(),   # daemon deed niets → geen ghost
+            "ghosts": [],
+            "missing": [],
+            "ok": True,
+        }
+
+    monkeypatch.setattr(api, "audit_parity", mock_audit_parity)
+
+    with pytest.raises(api.DaemonUnavailableError):
+        api.save_record(test_record, chroma_path=str(records_dir / "rag"))
+
+    # Geen valse rollback: /delete-concept niet aangeroepen want geen ghost
+    assert delete_calls == [], (
+        f"Valse rollback: /delete-concept aangeroepen zonder ghost. Calls: {delete_calls}"
+    )
