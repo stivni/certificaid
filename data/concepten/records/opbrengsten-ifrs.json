@@ -1,0 +1,157 @@
+{
+  "id": "opbrengsten-ifrs",
+  "naam": "Opbrengsten onder IFRS (IFRS 15) — 5-stappen-model",
+  "node_type": "methode",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.5.V.D", "1.5.V"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.5.V.D",
+    "dekt_ook_anchors": ["1.5.V"],
+    "reviewed_by": null,
+    "historische_noot": "PO 1.5-anchor verwijst naar IAS 18 (Opbrengsten uit gewone activiteiten), die vervangen werd door IFRS 15 — Opbrengsten van contracten met klanten, van kracht voor boekjaren beginnend op of na 1 januari 2018. Records reflecteren IFRS 15."
+  },
+  "doel": {
+    "text": "IFRS 15 — Opbrengsten van contracten met klanten vervangt sinds 1 januari 2018 IAS 18 (Opbrengsten uit gewone activiteiten) en IAS 11 (Onderhanden projecten in opdracht van derden). Het **kernprincipe** (alinea 2): een entiteit neemt opbrengsten op om de overdracht van beloofde goederen of diensten aan klanten weer te geven, voor een bedrag dat de vergoeding weerspiegelt waarop de entiteit recht zal hebben in ruil. De toepassing volgt een **5-stappen-model**: (1) identificeer het contract met de klant; (2) identificeer de prestatieverplichtingen in het contract; (3) bepaal de transactieprijs; (4) wijs de transactieprijs toe aan de prestatieverplichtingen; (5) neem opbrengsten op wanneer (of naarmate) een prestatieverplichting wordt vervuld. Het model is **principe-georiënteerd** en geldt voor alle sectoren, met uitzondering van leasing (IFRS 16), verzekeringen (IFRS 17) en financiële instrumenten (IFRS 9).",
+    "confidence": "grounded",
+    "source": {"type": "ifrs", "short": "IFRS 15 alinea 2 + 9-46"},
+    "references": [
+      {"type": "ifrs", "short": "IFRS 15 alinea 2 (kernprincipe)"},
+      {"type": "ifrs", "short": "IFRS 15 alinea 9-13 (stap 1: identificeer contract)"},
+      {"type": "ifrs", "short": "IFRS 15 alinea 22-30 (stap 2: prestatieverplichtingen)"},
+      {"type": "ifrs", "short": "IFRS 15 alinea 47-72 (stap 3: transactieprijs)"},
+      {"type": "ifrs", "short": "IFRS 15 alinea 73-86 (stap 4: toewijzing)"},
+      {"type": "ifrs", "short": "IFRS 15 alinea 31-45 (stap 5: opname op tijdstip of over periode)"}
+    ],
+    "_provenance": {"inputs": [
+      {"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_doel", "sha256": null, "version": "rag-v1"},
+      {"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname", "sha256": null, "version": "rag-v1"},
+      {"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_waardering", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Identificeer het contract met de klant",
+      "wat": "Een contract is alleen administratief te verwerken onder IFRS 15 als VIJF criteria vervuld zijn (alinea 9): (a) partijen hebben het contract goedgekeurd en zich verbonden tot nakoming; (b) rechten over te dragen goederen/diensten zijn identificeerbaar; (c) betalingsvoorwaarden zijn identificeerbaar; (d) het contract heeft economische betekenis; (e) inbaarheid van de vergoeding is waarschijnlijk.",
+      "waarom": "Een contract is de basis: zonder afdwingbare rechten en verplichtingen ontstaan er geen prestatieverplichtingen en dus geen IFRS 15-opbrengst. Het waarschijnlijkheidscriterium (e) sluit klanten met onbetwijfeld slecht krediet uit van opbrengstopname.",
+      "input": [{"artefact": "Schriftelijk of mondeling contract met klant", "veld": "Voorwaarden", "type": "contractdocument"}],
+      "output": [{"artefact": "Boekhoudkundige bestempeling", "veld": "Contract erkend onder IFRS 15", "type": "beslissing"}],
+      "hoe": "1. Zelena Bio NV ontvangt een bestelling van Brugse Brouwerij BV voor 500.000 doseflesjes ingrediënt X, prijs € 0,80/flesje (€ 400.000 totaal), levering Q3 2026, betaling 60 dagen na levering.\n2. Check criterium (a): Brugse heeft schriftelijke bestelorder gestuurd, Zelena heeft die bevestigd. → OK.\n3. Check (b): 500.000 doseflesjes ingrediënt X — duidelijk geïdentificeerd. → OK.\n4. Check (c): € 0,80/flesje, betaling 60 dagen. → OK.\n5. Check (d): Zelena verwacht een nieuwe kasstroom; Brugse krijgt een bedrijfsmiddel. → OK.\n6. Check (e): Brugse is een gevestigde klant met goede betaalhistoriek. → OK.\n7. Contract is opnemeer onder IFRS 15.",
+      "grondslag": "IFRS 15 alinea 9-13"
+    },
+    {
+      "nr": 2,
+      "titel": "Identificeer de prestatieverplichtingen",
+      "wat": "Een **prestatieverplichting** (performance obligation, PO) is een belofte om aan de klant een **onderscheiden** goed/dienst (of bundel/reeks daarvan) over te dragen (alinea 22). Goed/dienst is onderscheiden als (a) de klant ervan kan profiteren op zichzelf of in combinatie met gemakkelijk beschikbare middelen, EN (b) de belofte is afzonderlijk identificeerbaar van andere beloften in het contract (alinea 27).",
+      "waarom": "Een contract bevat soms meerdere afzonderlijke prestaties (verkoop machine + installatie + onderhoud). Elke prestatie kan op een ander moment vervuld zijn → opbrengstopname op verschillende tijdstippen. Eén grote bundel als één PO behandelen zou de timing vervalsen.",
+      "input": [
+        {"artefact": "Contract Zelena-Brugse", "veld": "Lijst van beloofde goederen/diensten", "type": "contractdocument"}
+      ],
+      "output": [{"artefact": "PO-inventaris", "veld": "Lijst van onderscheiden prestatieverplichtingen", "type": "registerlijst"}],
+      "hoe": "1. Bekijk wat Zelena Bio aan Brugse Brouwerij belooft: 500.000 doseflesjes ingrediënt X (productverkoop) — één PO.\n2. Geen aparte installatie of onderhoud beloofd → één onderscheiden PO.\n3. Was het contract complexer (bv. productverkoop + 12 maanden helpdesk + 3 trainingssessies), dan zou de stagiair drie PO's identificeren — mits elk onderscheiden is in de zin van alinea 27.",
+      "grondslag": "IFRS 15 alinea 22-30"
+    },
+    {
+      "nr": 3,
+      "titel": "Bepaal de transactieprijs",
+      "wat": "De transactieprijs is de vergoeding waarop de entiteit verwacht recht te hebben in ruil voor de overdracht — exclusief namens derden geïnde bedragen (bv. btw). Mee in rekening houden: vaste bedragen, variabele bedragen (kortingen, prestatiebonussen — schatten via verwachte waarde of meest waarschijnlijk bedrag, alinea 53), beperking van schattingen variabele vergoeding (alinea 56-58), significante financieringscomponent (alinea 60-65), niet-geldelijke vergoeding (66-69), aan klant te betalen vergoeding (70-72).",
+      "waarom": "De transactieprijs is wat ECHT zal worden ontvangen — niet wat er op het contract staat als 'kale prijs'. Variabele componenten (kortingen, bonus) maken de werkelijke verwachting anders dan de lijstprijs.",
+      "input": [{"artefact": "Contract Zelena-Brugse", "veld": "Prijsbedingen + kortingsregels", "type": "contractdocument"}],
+      "output": [{"artefact": "Transactieprijs", "veld": "Verwachte vergoeding", "type": "boekhoudkundig-bedrag"}],
+      "hoe": "1. Zelena's prijs: € 0,80/flesje × 500.000 = € 400.000 vaste prijs.\n2. Variabele component: Brugse krijgt 2% korting bij betaling binnen 30 dagen. Verwachte waarschijnlijkheid betaling binnen 30 dagen = 70% → verwachte korting = 70% × 2% × € 400.000 = € 5.600.\n3. Transactieprijs = € 400.000 − € 5.600 = € 394.400.\n4. Geen significante financieringscomponent (betaaltermijn ≤ 1 jaar — alinea 63 praktische oplossing).",
+      "grondslag": "IFRS 15 alinea 47-58"
+    },
+    {
+      "nr": 4,
+      "titel": "Wijs de transactieprijs toe aan de prestatieverplichtingen",
+      "wat": "Bij meerdere PO's: verdeel de transactieprijs **proportioneel** op basis van de **opzichzelfstaande verkoopprijs** (standalone selling price) van elke PO bij contractaanvang. Als die niet observeerbaar is: schatten via marktbenadering (aangepaste prijzen vergelijkbare entiteiten), kostprijsplus-marge of restwaarde-benadering (alinea 79).",
+      "waarom": "Bij een bundel-aanbod (machine + installatie + onderhoud aan gebundelde prijs) moet de totale prijs eerlijk verdeeld worden over de drie PO's, anders krijgt één PO te veel en een andere te weinig opbrengst.",
+      "input": [
+        {"artefact": "PO-inventaris", "veld": "Lijst PO's", "type": "registerlijst"},
+        {"artefact": "Prijslijst Zelena Bio", "veld": "Opzichzelfstaande prijs per PO", "type": "boekhoudkundig-bedrag"}
+      ],
+      "output": [{"artefact": "Toewijzingstabel", "veld": "Transactieprijs per PO", "type": "boekhoudkundig-bedrag"}],
+      "hoe": "1. Zelena-Brugse heeft maar één PO (productverkoop ingrediënt X) → volledige € 394.400 aan die PO toegewezen. Geen splitsing nodig.\n2. Was er ook € 30.000 helpdesk (opzichzelfstaande prijs) en € 10.000 training (opzichzelfstaande prijs), bij gebundelde totaalprijs € 400.000: verdelen op basis van prijsverhouding 400 : 30 : 10 → product € 363.636, helpdesk € 27.273, training € 9.091.",
+      "grondslag": "IFRS 15 alinea 73-80"
+    },
+    {
+      "nr": 5,
+      "titel": "Neem opbrengst op bij vervulling prestatieverplichting",
+      "wat": "Opname is **over een periode** (over time) of **op een tijdstip** (point in time). Over periode (alinea 35) bij minstens één van drie criteria: (a) klant ontvangt en consumeert gelijktijdig de voordelen; (b) prestaties creëren of versterken een actief waarover klant zeggenschap heeft naarmate dat actief wordt gecreëerd; (c) prestaties creëren geen actief met alternatieve gebruiksmogelijkheid voor entiteit én entiteit heeft afdwingbaar recht op betaling voor reeds verrichte prestaties. Anders: opname op het **tijdstip** waarop de klant zeggenschap over het goed verkrijgt (alinea 38) — indicatoren: actueel betalingsrecht, juridische eigendom, fysiek bezit, risico's en beloningen overgedragen, aanvaarding door klant.",
+      "waarom": "Een productverkoop wordt typisch op één tijdstip overgedragen (klant ontvangt het goed → opbrengstopname). Een dienst zoals consultancy of bouwproject loopt over tijd → opbrengstopname proportioneel aan de voortgang (input- of outputmethode, alinea 41).",
+      "input": [
+        {"artefact": "PO + transactieprijs", "veld": "PO-status", "type": "registerlijst"},
+        {"artefact": "Leveringsdocumentatie", "veld": "Datum overdracht zeggenschap", "type": "datum"}
+      ],
+      "output": [{"artefact": "Boeking opbrengst", "veld": "Bedrag + tijdstip", "type": "boekingsregel"}],
+      "hoe": "1. Zelena's PO is een productverkoop → opname op tijdstip van overdracht zeggenschap.\n2. Leveringsdatum Q3 2026, bv. 15 september 2026. Op die datum: juridische eigendom over, fysiek bezit over, risico's over → alle indicatoren wijzen op overdracht.\n3. Boek opbrengst € 394.400 op 15 september 2026; tegelijk vordering € 394.400 op Brugse.\n4. Bij betaling op 15 oktober 2026 (binnen 30 dagen, korting realiseerbaar): klant betaalt € 392.000 (€ 400.000 − 2%). Gerealiseerde korting € 8.000 was deels al voorzien (€ 5.600). Verschil € 2.400 → aanpassing variabele vergoeding in W&V.",
+      "voorbeeld": {
+        "scenario": "Zelena Bio NV verkoopt 500.000 doseflesjes ingrediënt X aan Brugse Brouwerij BV, contract 1 mei 2026, levering 15 september 2026, betaling 15 oktober 2026 (binnen 30 dagen, 2% korting effectief gerealiseerd).",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Boeking opbrengst en vordering bij levering (15 september 2026)",
+            "type": "boekingsregel",
+            "data": "Debet 4000 Handelsvorderingen          € 394.400\nCredit 7000 Opbrengsten productverkoop        € 394.400\n\nDebet 6040 Kostprijs voorraad verkocht       € 200.000\nCredit 3000 Voorraad ingrediënt X            € 200.000"
+          },
+          {
+            "nr": 2,
+            "titel": "Ontvangst betaling met korting (15 oktober 2026)",
+            "type": "boekingsregel",
+            "data": "Debet 5500 Bank                              € 392.000\nDebet 7300 Aanpassing variabele vergoeding    € 2.400\nCredit 4000 Handelsvorderingen               € 394.400"
+          }
+        ]
+      },
+      "grondslag": "IFRS 15 alinea 31-45"
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Btw en andere namens-derden geïnde bedragen zijn GEEN onderdeel van de transactieprijs (alinea 47). Opbrengst wordt netto-vergoeding gerapporteerd.",
+      "confidence": "grounded",
+      "source": {"type": "ifrs", "short": "IFRS 15 alinea 47"},
+      "_provenance": {"inputs": [{"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_waardering", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "text": "Variabele vergoeding (kortingen, bonus, terugbetalingen) wordt in de transactieprijs opgenomen alleen tot het bedrag waar het 'zeer waarschijnlijk' is dat geen significante terugneming zal plaatsvinden (alinea 56). Te optimistische schatting → onnodige opbrengstcorrecties later.",
+      "confidence": "grounded",
+      "source": {"type": "ifrs", "short": "IFRS 15 alinea 56-58"},
+      "_provenance": {"inputs": [{"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_waardering", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "text": "Voorschotbetalingen vóór levering creëren GEEN opbrengst maar een **contractverplichting** (deferred revenue). Pas bij vervulling van de prestatieverplichting wordt de contractverplichting omgezet in opbrengst.",
+      "confidence": "grounded",
+      "source": {"type": "ifrs", "short": "IFRS 15 alinea 105-107"},
+      "_provenance": {"inputs": [{"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_presentatie", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "text": "Het 'aanvaarden van de klant' is slechts één indicator voor zeggenschapsoverdracht — niet doorslaggevend. Een entiteit mag opbrengst opnemen bij overdracht van fysiek bezit en risico's, ook al heeft de klant nog niet formeel 'aanvaard'.",
+      "confidence": "grounded",
+      "source": {"type": "ifrs", "short": "IFRS 15 alinea 38"},
+      "_provenance": {"inputs": [{"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "prestatieverplichting-ifrs-15",
+      "redenering": "Prestatieverplichting is het kernconcept van IFRS 15 — verder uitgewerkt in eigen record.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "opbrengsten",
+      "redenering": "IFRS 15 versus oude IAS 18 + BE-GAAP-opbrengstregels.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vervangt",
+      "target": "ias-18-opbrengsten",
+      "redenering": "IFRS 15 vervangt IAS 18 en IAS 11 vanaf 1 januari 2018 — anchor van PO 1.5 is historisch.",
+      "confidence": "grounded"
+    }
+  ]
+}

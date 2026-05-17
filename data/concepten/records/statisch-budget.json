@@ -1,0 +1,36 @@
+{
+  "id": "statisch-budget",
+  "naam": "Statisch budget",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.VI.B"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.VI.B",
+    "dekt_ook_anchors": [],
+    "reviewed_by": null,
+    "bron_gap": "Vakdoctrine"
+  },
+  "definitie": {
+    "text": "Een statisch budget is een budget dat opgesteld werd voor één gepland activiteitenniveau en niet wordt aangepast aan latere wijzigingen in productie- of verkoopvolume. Het is de oorspronkelijke 'plan'-versie zoals goedgekeurd in december.",
+    "confidence": "inferred-common-knowledge",
+    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Yperse Werkplaats BV statisch budget Confectie 20X2: 7.500 tapijten, totaal € 950.000. Aan jaareinde wordt dit niet aangepast aan het werkelijke productievolume (9.000 stuks) — dat zou een flexibel budget zijn.",
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "flexibel-budget",
+      "verschil": "Statisch budget = vast bedrag voor gepland volume. Flexibel budget = herrekend voor werkelijk volume. Voor budget-vs-realisatie-vergelijking geeft flexibel zuiverder beeld.",
+      "trigger": "Vraag op afwijkingsanalyse: gebruik flexibel budget om volume-effect af te splitsen.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "vergelijkt-met", "target": "flexibel-budget", "redenering": "Tegenpool.", "confidence": "inferred"},
+    {"type": "onderdeel-van", "target": "budgetbeheer", "redenering": "Standaardvorm van budget.", "confidence": "inferred"}
+  ]
+}

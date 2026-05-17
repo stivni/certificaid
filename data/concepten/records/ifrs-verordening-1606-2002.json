@@ -1,0 +1,135 @@
+{
+  "id": "ifrs-verordening-1606-2002",
+  "naam": "IFRS-verordening 1606/2002 — verplichte toepassing IFRS",
+  "node_type": "regel",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.5.II", "1.5.III", "1.5.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.5.II",
+    "dekt_ook_anchors": ["1.5.III", "1.5.taak.1"],
+    "reviewed_by": null
+  },
+  "main_rule": {
+    "text": "Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 verplicht **beursgenoteerde EU-ondernemingen** om hun geconsolideerde jaarrekening op te stellen volgens de internationale standaarden (International Accounting Standards / International Financial Reporting Standards, kortweg IAS/IFRS) die door de Europese Commissie zijn goedgekeurd. Deze verplichting geldt voor elk boekjaar dat begint op of na 1 januari 2005. Onder 'internationale standaarden' verstaat de verordening: de IAS, de IFRS, de bijhorende interpretaties (Standing Interpretations Committee/IFRS Interpretations Committee, SIC/IFRIC) en alle latere wijzigingen, vastgesteld door de International Accounting Standards Board (IASB). Een verordening werkt rechtstreeks in alle lidstaten — er is geen omzetting in Belgisch recht nodig. Lidstaten mogen wel uitbreiden: ze mogen ook andere (niet-beursgenoteerde) ondernemingen toestaan of verplichten IFRS toe te passen, en ze mogen IFRS ook openstellen voor enkelvoudige jaarrekeningen. België heeft die uitbreiding zeer beperkt gehouden.",
+    "confidence": "grounded",
+    "source": {"type": "verordening", "short": "Verordening (EG) 1606/2002 art. 1, 2, 4, 5"},
+    "references": [
+      {"type": "verordening", "short": "EU-IFRS-verordening 1606/2002 art. 1 (doel)"},
+      {"type": "verordening", "short": "EU-IFRS-verordening 1606/2002 art. 2 (definitie internationale standaarden)"},
+      {"type": "verordening", "short": "EU-IFRS-verordening 1606/2002 art. 4 (verplichting beursgenoteerden)"},
+      {"type": "verordening", "short": "EU-IFRS-verordening 1606/2002 art. 5 (keuzemogelijkheden lidstaten)"}
+    ],
+    "_provenance": {"inputs": [
+      {"id": "EU-IFRS-verordening-1606-2002__art_1", "sha256": null, "version": "rag-v1"},
+      {"id": "EU-IFRS-verordening-1606-2002__art_2", "sha256": null, "version": "rag-v1"},
+      {"id": "EU-IFRS-verordening-1606-2002__art_4", "sha256": null, "version": "rag-v1"},
+      {"id": "EU-IFRS-verordening-1606-2002__art_5", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Zelena Bio NV is beursgenoteerd op Euronext Brussel en moet voor boekjaar 2026 haar **geconsolideerde** jaarrekening (omzet groep € 350.000.000) opstellen volgens de door de Europese Commissie goedgekeurde IFRS. Haar enkelvoudige jaarrekening (statutaire jaarrekening Zelena Bio NV als rechtspersoon) blijft echter volgens Belgisch GAAP (KB WVV) opgesteld — IFRS wordt in België niet toegelaten voor enkelvoudige rekeningen van vennootschappen.",
+  "bouwstenen": [
+    {
+      "titel": "Doel: harmonisatie en transparantie",
+      "wat": "De verordening wil de **financiële informatie van beursgenoteerde EU-ondernemingen vergelijkbaar maken**. Eén taal voor alle EU-beurskoersen → betere werking van de kapitaalmarkt en de interne markt.",
+      "waarom": "Investeerders vergelijken aandelen over landsgrenzen heen. Als elke lidstaat een eigen jaarrekeningstaal heeft, wordt vergelijken duur of onmogelijk. IFRS lost dat op met één set regels.",
+      "voorbeeld_inline": "Een Duitse pensioenfondsbeheerder kan Zelena Bio NV (België) rechtstreeks vergelijken met een Italiaanse en een Spaanse beursgenoteerde tegenhanger — alle drie rapporteren in IFRS.",
+      "grondslag": "Verordening 1606/2002 art. 1",
+      "confidence": "grounded",
+      "source": {"type": "verordening", "short": "Verordening 1606/2002 art. 1"},
+      "_provenance": {"inputs": [{"id": "EU-IFRS-verordening-1606-2002__art_1", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Verplichting beursgenoteerden — geconsolideerd",
+      "wat": "Een onderneming valt onder de verplichte IFRS-toepassing als (1) zij onder het recht van een EU-lidstaat valt én (2) haar effecten op de balansdatum zijn toegelaten tot de handel op een gereglementeerde markt van een lidstaat. De verplichting geldt **alleen voor de geconsolideerde jaarrekening** — niet voor de enkelvoudige jaarrekening van de moeder.",
+      "waarom": "Het beleggerspubliek koopt typisch aandelen van een groep, niet van een enkele rechtspersoon. De groepscijfers (geconsolideerd) zijn dus de relevante informatie. De enkelvoudige cijfers blijven dienen voor uitkeerbaarheid en fiscale doeleinden, waarvoor Belgisch GAAP volstaat.",
+      "voorbeeld_inline": "Zelena Bio NV bezit 100 % van Brugse Brouwerij BV en 80 % van Drukkerij Dendermonde BV. De geconsolideerde jaarrekening Zelena Bio Groep volgt IFRS. De statutaire jaarrekening van Zelena Bio NV (als rechtspersoon, met haar deelnemingen als balanspost) volgt Belgisch GAAP.",
+      "grondslag": "Verordening 1606/2002 art. 4",
+      "confidence": "grounded",
+      "source": {"type": "verordening", "short": "Verordening 1606/2002 art. 4"},
+      "_provenance": {"inputs": [{"id": "EU-IFRS-verordening-1606-2002__art_4", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Goedkeuringsprocedure — endorsement",
+      "wat": "Niet elke door de IASB uitgegeven standaard geldt automatisch in de EU. De Europese Commissie beslist via een aparte procedure (artikel 6 lid 2) of een standaard goedgekeurd ('endorsed') wordt. Goedgekeurde standaarden worden gepubliceerd in een EU-verordening — voor de praktijk vooral Verordening (EU) 2023/1803 (geconsolideerde IFRS-tekst). Bij elke nieuwe IFRS-versie checkt de stagiair eerst: is dit al endorsed?",
+      "waarom": "De EU houdt soevereiniteit over wat er in haar jaarrekeningen geldt. De endorsement-stap is een filter: standaarden moeten in het Europees openbaar belang zijn en voldoen aan begrijpelijkheid, relevantie, betrouwbaarheid en vergelijkbaarheid.",
+      "voorbeeld_inline": "IFRS 17 Verzekeringscontracten is door de IASB in 2017 uitgegeven maar pas door de EU goedgekeurd op 19 november 2021 (Verordening 2021/2036). Een Belgische verzekeraar mocht IFRS 17 dus niet eerder toepassen in zijn endorsed-set.",
+      "grondslag": "Verordening 1606/2002 art. 3 + art. 6",
+      "confidence": "grounded",
+      "source": {"type": "verordening", "short": "Verordening 1606/2002 art. 3"},
+      "_provenance": {"inputs": [{"id": "EU-IFRS-verordening-1606-2002__art_3", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Lidstatenoptie — niet-beursgenoteerden",
+      "wat": "Lidstaten **mogen** toestaan of verplichten dat (a) beursgenoteerden hun **enkelvoudige** jaarrekening eveneens onder IFRS opstellen, of (b) **niet-beursgenoteerden** hun geconsolideerde en/of enkelvoudige jaarrekening onder IFRS opstellen. België heeft van die optie weinig gebruik gemaakt: voor banken/verzekeraars en voor consolidatie van consortia bestaat een beperkte mogelijkheid (zie CBN 2016/19); voor de doorsnee onderneming blijft IFRS-toepassing een uitzondering.",
+      "waarom": "Lidstaten kiezen op basis van hun economische realiteit. België heeft veel kleine en middelgrote ondernemingen voor wie de IFRS-overgang te zwaar zou zijn; Belgisch GAAP volstaat voor die doelgroep.",
+      "voorbeeld_inline": "Rotex Roeselare NV (grote NV, niet beursgenoteerd) heeft géén optie om vrijwillig op IFRS over te stappen voor haar enkelvoudige jaarrekening. Wil zij toch IFRS-informatie tonen aan een Amerikaanse financier? Dan stelt zij een aparte IFRS-rapportering op naast haar wettelijke Belgisch-GAAP-jaarrekening.",
+      "grondslag": "Verordening 1606/2002 art. 5 + CBN 2016/19",
+      "confidence": "grounded",
+      "source": {"type": "verordening", "short": "Verordening 1606/2002 art. 5"},
+      "_provenance": {"inputs": [
+        {"id": "EU-IFRS-verordening-1606-2002__art_5", "sha256": null, "version": "rag-v1"},
+        {"id": "CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0__sec_toepasselijke-rapporteringsstandaard", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Endorsed IFRS vs. IASB-IFRS",
+      "betekenis": "De endorsed-set (EU-IFRS) loopt typisch enkele maanden tot een paar jaar achter op de IASB-set (full IFRS). Voor een examen: 'IFRS' in een Belgische context betekent endorsed IFRS, tenzij anders aangegeven.",
+      "herkenningspunt": "EUR-Lex CELEX 32023R1803 is de huidige geconsolideerde verordening met endorsed IFRS-tekst.",
+      "confidence": "grounded",
+      "source": {"type": "verordening", "short": "Verordening (EU) 2023/1803 — geconsolideerde endorsed IFRS"},
+      "_provenance": {"inputs": [{"id": "EU-IFRS-verordening-1606-2002__art_3", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "drempelwaarden": [
+    {
+      "naam": "Verplichting IFRS-toepassing",
+      "waarde": "Beursnotering op een gereglementeerde markt van een EU-lidstaat op balansdatum + EU-rechtsvorm",
+      "eenheid": "kwalitatief criterium",
+      "gevolg": "Verplichte IFRS-toepassing op geconsolideerde jaarrekening voor boekjaren beginnend op of na 1 januari 2005",
+      "source": {"type": "verordening", "short": "Verordening 1606/2002 art. 4"},
+      "confidence": "grounded",
+      "_provenance": {"inputs": [{"id": "EU-IFRS-verordening-1606-2002__art_4", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "richtlijn-2013-34-eu",
+      "verschil": "Een **verordening** (1606/2002) werkt rechtstreeks in alle lidstaten — geen omzetting nodig; een **richtlijn** (2013/34/EU) verplicht lidstaten om hun nationale wetgeving aan te passen. Daarom citeer je de IFRS-verordening rechtstreeks; voor BE-GAAP citeer je de Belgische omzetting (WVV / KB WVV), niet de richtlijn zelf.",
+      "trigger": "Bij vraag naar 'juridisch instrument' of 'rechtsbron': verordening = direct EU-recht, richtlijn = omgezet in nationaal recht.",
+      "_provenance": {"inputs": [{"id": "EU-IFRS-verordening-1606-2002__art_1", "sha256": null, "version": "rag-v1"}, {"id": "Richtlijn-2013-34-EU__art_1", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "De verordening verplicht alleen beursgenoteerde **EU**-ondernemingen voor hun **geconsolideerde** jaarrekening. Een beursgenoteerde Amerikaanse onderneming op Euronext is niet onderworpen aan deze verordening — die volgt US-GAAP of een gelijkwaardig kader.",
+      "confidence": "grounded",
+      "source": {"type": "verordening", "short": "Verordening 1606/2002 art. 4"},
+      "_provenance": {"inputs": [{"id": "EU-IFRS-verordening-1606-2002__art_4", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "text": "Niet elke IASB-IFRS is endorsed. Een examenvraag over 'verplichte IFRS' bedoelt altijd de EU-endorsed-set. Niet-endorsed standaarden mag een onderneming in haar wettelijke jaarrekening NIET toepassen.",
+      "confidence": "grounded",
+      "source": {"type": "verordening", "short": "Verordening 1606/2002 art. 3"},
+      "_provenance": {"inputs": [{"id": "EU-IFRS-verordening-1606-2002__art_3", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "ifrs-toepassingsgebied-belgie",
+      "redenering": "De verordening definieert het EU-kader; voor de Belgische concretisering (wie precies IFRS moet of mag toepassen) is een apart concept-record nodig.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "ifrs-eerste-toepassing",
+      "redenering": "Wie voor het eerst onder de verordening valt (typisch nieuw beursgenoteerde onderneming) past IFRS 1 toe voor de overgang.",
+      "confidence": "grounded"
+    }
+  ]
+}

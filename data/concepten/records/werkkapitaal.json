@@ -4,20 +4,38 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.3.II.C", "1.3.taak.1"],
+  "linked_anchors": [
+    "1.3.II.C",
+    "1.3.taak.1",
+    "1.9.IV.D",
+    "1.9.V.D"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.3.II.C",
-    "dekt_ook_anchors": ["1.3.taak.1"],
+    "dekt_ook_anchors": [
+      "1.3.taak.1"
+    ],
     "reviewed_by": null,
     "bron_gap": "Geen Belgische bronvermelding in bundle. Vakdoctrine."
   },
   "definitie": {
     "text": "Werkkapitaal is het verschil tussen vlottende activa en schulden op ten hoogste een jaar. Het toont de absolute buffer waarmee de onderneming haar lopende activiteiten kan financieren zonder beroep te doen op nieuwe schulden.",
     "confidence": "inferred-common-knowledge",
-    "source": {"type": "vakdoctrine", "short": "Algemene financial-analysis-doctrine"},
-    "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Algemene financial-analysis-doctrine"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.II.C",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -27,8 +45,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV: werkkapitaal = € 8.000.000 − € 4.000.000 = € 4.000.000 positief. Meubelzaak Mertens BV: € 800.000 − € 600.000 = € 200.000 positief. Beide hebben current ratio rond 1,3 maar zeer verschillende absolute buffers.",
       "grondslag": "Vakdoctrine",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Positief werkkapitaal = comfortzone",
@@ -37,8 +66,19 @@
       "voorbeeld_inline": "Solaris Sint-Truiden BV met vlottende activa € 1.200.000 en korte schulden € 1.500.000 heeft een negatief werkkapitaal van € 300.000 — waarschuwingssignaal.",
       "grondslag": "Vakdoctrine",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -47,16 +87,38 @@
       "betekenis": "Het werkkapitaal (zoals hierboven berekend) is wat er is. De werkkapitaalbehoefte is wat er nodig is om de operationele cyclus (voorraad + handelsvorderingen − handelsschulden) te financieren. Als werkkapitaal < werkkapitaalbehoefte → liquiditeitstekort.",
       "anker_slug": "1.3.II.C",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Evolutie volgen",
       "betekenis": "Een stijgend werkkapitaal kan komen door winstaccumulatie (goed) of door oplopende voorraden / trage debiteuren (slecht). Decomponeer altijd waar de stijging vandaan komt.",
       "anker_slug": "1.3.II.C",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -64,19 +126,48 @@
       "vergelijking_met": "current-ratio",
       "verschil": "Werkkapitaal = absoluut verschil (€); current ratio = verhouding (geen eenheid). Werkkapitaal toont schaal, current ratio is vergelijkbaar tussen bedrijven van verschillende grootte.",
       "trigger": "Examenvraag 'absolute buffer of relatieve dekking?': absoluut = werkkapitaal; relatief = current ratio.",
-      "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Een positief werkkapitaal kan misleiden als de samenstelling slecht is (vooral voorraden + dubieuze vorderingen). Combineer altijd met quick ratio en de rotatie van voorraden/vorderingen.",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "liquiditeitsratio", "redenering": "Werkkapitaal is een absolute uitdrukking van liquiditeit.", "confidence": "inferred"},
-    {"type": "vergelijkt-met", "target": "current-ratio", "redenering": "Werkkapitaal (absoluut) vs current ratio (relatief).", "confidence": "inferred"}
+    {
+      "type": "onderdeel-van",
+      "target": "liquiditeitsratio",
+      "redenering": "Werkkapitaal is een absolute uitdrukking van liquiditeit.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "current-ratio",
+      "redenering": "Werkkapitaal (absoluut) vs current ratio (relatief).",
+      "confidence": "inferred"
+    }
   ]
 }

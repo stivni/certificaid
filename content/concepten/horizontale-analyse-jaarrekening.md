@@ -4,19 +4,24 @@ tags:
 - concept
 - methode
 - po-1-3
+- po-1-9
 linked_anchors:
 - 1.3.I.C
 - 1.3.II.A
 - 1.3.II.C
 - 1.3.taak.1
+- 1.9.III
+- 1.9.III.D
+- 1.9.taak.1
 programmaonderdelen:
 - '1.3'
+- '1.9'
 confidence: inferred
 node_type: methode
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/horizontale-analyse-jaarrekening.json
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Horizontale analyse (evolutie-analyse) 🤖
 

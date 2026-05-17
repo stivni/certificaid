@@ -1,0 +1,34 @@
+{
+  "id": "auditcyclus-fasen-synthese",
+  "naam": "Auditcyclus — vier fasen vergeleken",
+  "node_type": "synthese",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.III", "1.6.III.A", "1.6.III.B", "1.6.III.C", "1.6.IV"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.III",
+    "dekt_ook_anchors": ["1.6.III.A", "1.6.III.B", "1.6.III.C", "1.6.IV"],
+    "reviewed_by": null
+  },
+  "gebaseerd_op_concepten": [
+    "auditplanning",
+    "auditstrategie",
+    "werkprogramma-audit",
+    "risico-inschatting-audit",
+    "gegevensgerichte-werkzaamheden",
+    "toetsing-interne-beheersing",
+    "controledocumentatie",
+    "controleoordeel-types",
+    "controleverslag-elementen"
+  ],
+  "vergelijkingstabel": "| Fase | Doel | Kern-output | Norm-referentie |\n|---|---|---|---|\n| 1. Aanvaarding + opdrachtbrief | Scope vastleggen, randvoorwaarden checken, ethische voorschriften toetsen | Opdrachtbrief + acceptatie-memo | KMO-norm §2 + Norm Opdrachtbrief |\n| 2. Planning + risico-inschatting | Strategie + werkprogramma opbouwen op basis van inzicht in cliënt + IC | Risk assessment memo + werkprogramma | KMO-norm §70-§77 |\n| 3. Uitvoering + assurance-informatie | Test of controls + gegevensgerichte werkzaamheden uitvoeren, evidence verzamelen | Werkpapieren + getoetste populaties + bevindingen | KMO-norm §85-§115 |\n| 4. Conclusie + verslag | Oordeel vormen, verslag schrijven, communicatie afsluiten | Controleverslag + management letter + management representation letter | KMO-norm §116-§120 + Algemene controlenorm §2 |",
+  "beslisboom": "```mermaid\nflowchart LR\n    A[Fase 1: Aanvaarding] --> B[Fase 2: Planning + risico]\n    B --> C[Fase 3: Uitvoering]\n    C --> D[Fase 4: Oordeel + verslag]\n    D --> E{Goedkeuring zonder voorbehoud?}\n    E -->|Ja| F[Standaardverslag]\n    E -->|Nee, materieel + niet-diepgaand| G[Oordeel met voorbehoud]\n    E -->|Nee, materieel + diepgaand| H[Afkeurend oordeel]\n    E -->|Geen assurance-info + diepgaand| I[Onthouding van oordeel]\n    C -.->|Nieuwe risico's| B\n```",
+  "_provenance": {"inputs": [
+    {"id": "ITAA-norm-kmo-controlenorm__sec_3-1-1-planning", "sha256": null, "version": "rag-v1"},
+    {"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"},
+    {"id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel", "sha256": null, "version": "rag-v1"},
+    {"id": "ITAA-norm-algemene-controlenorm__sec_3-werkschema", "sha256": null, "version": "rag-v1"}
+  ]}
+}

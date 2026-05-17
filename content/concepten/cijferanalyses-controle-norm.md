@@ -4,18 +4,22 @@ tags:
 - concept
 - regel
 - po-1-3
+- po-1-9
 linked_anchors:
-- 1.3.II.C
 - 1.3.I.D
+- 1.3.II.C
 - 1.3.taak.1
+- 1.9.V.E
+- 1.9.VI.A
 programmaonderdelen:
 - '1.3'
+- '1.9'
 confidence: grounded
 node_type: regel
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/cijferanalyses-controle-norm.json
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Cijferanalyses (controlenorm KMO) ⚖️
 

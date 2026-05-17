@@ -1,0 +1,53 @@
+{
+  "id": "inbreng-in-natura-verslag",
+  "naam": "Verslag bij inbreng in natura",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T11:17Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.taak.1",
+    "dekt_ook_anchors": [],
+    "reviewed_by": null
+  },
+  "verplichting": "Wettelijke verplichting bij inbreng van goederen of activiteit als deel van kapitaal (WVV art. 5:7 voor BV, art. 7:7 voor NV). Een externe accountant of bedrijfsrevisor maakt het verslag op vóór oprichting of kapitaalverhoging.",
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Identificatie + opdrachtbrief",
+      "wat": "Aanstellingsdocumenten verifiëren; opdrachtbrief opmaken met onafhankelijkheidsverklaring.",
+      "waarom": "Zonder geldige aanstelling: verslag heeft geen wettelijke geldigheid.",
+      "hoe": "1. Verifieer bestuursbesluit/oprichtingsakte.\n2. Controleer onafhankelijkheid (KB plichtenleer art. 13).\n3. Opdrachtbrief tekent inbrengende partij + accountant.",
+      "grondslag": "WVV art. 5:7 + ITAA-norm-algemene-controlenorm"
+    },
+    {
+      "nr": 2,
+      "titel": "Beschrijving + waardering",
+      "wat": "Inbreng identificeren (welke goederen of activiteit), waarderingsmethode beoordelen, redelijkheid waarde verifiëren.",
+      "waarom": "Overwaardering = kapitaalvorming met fictieve waarde — schadelijk voor schuldeisers.",
+      "hoe": "1. Lijst alle ingebrachte goederen.\n2. Beoordeel waarderingsmethode (markt, vervangingswaarde, going-concern).\n3. Verkrijg supporting documents (taxatie, koopovereenkomsten, technische rapporten).\n4. Voer kritische review uit.",
+      "voorbeeld": {
+        "scenario": "Yperse Werkplaats BV brengt productiehal in nieuwe dochter Yperse Werkplaats Polen sp. z o.o.",
+        "substappen": [
+          {"nr": 1, "titel": "Goed", "type": "opmerking", "data": "Productiehal te Ieper, 2.500m², bouwjaar 2018."},
+          {"nr": 2, "titel": "Waardering", "type": "berekening", "data": "Markttaxatie door erkend deskundige: € 850.000\nBoekwaarde in Yperse Werkplaats BV: € 620.000\nVerschil: € 230.000 (markt > boek) — meerwaarde verantwoord toegelicht."}
+        ]
+      },
+      "grondslag": "WVV art. 5:7 §3 + ITAA-norm"
+    },
+    {
+      "nr": 3,
+      "titel": "Verslag opmaken + conclusie",
+      "wat": "Schriftelijk verslag met identificatie + beschrijving + waarderingsanalyse + conclusie over of inbreng minstens overeenkomt met de waarde waarvoor aandelen worden uitgegeven.",
+      "waarom": "Conclusie is de wettelijke waarborg voor schuldeisers + aandeelhouders.",
+      "hoe": "1. Structureer per WVV-vereisten.\n2. Conclusie expliciet: 'Op basis van mijn werkzaamheden, kom ik tot het besluit dat de waarde van de inbreng minstens overeenkomt met...'.\n3. Onderteken in eigen naam (KB plichtenleer art. 18).\n4. Neerleggen bij notaris vóór akte.",
+      "grondslag": "WVV art. 5:7 + KB plichtenleer art. 18"
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "bijzondere-verslagen-overzicht", "redenering": "Type wettelijk verslag."},
+    {"type": "vereist-kennis-van", "target": "onafhankelijkheid-externe-accountant", "redenering": "Onafhankelijkheid is voorwaarde voor wettelijke verslagen."}
+  ]
+}

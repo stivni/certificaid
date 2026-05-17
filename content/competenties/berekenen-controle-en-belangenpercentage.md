@@ -8,7 +8,7 @@ programmaonderdelen:
 status: voorgesteld
 schema_version: '1.1'
 gegenereerd_uit: data/concepten/competenties/berekenen-controle-en-belangenpercentage.yaml
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Berekenen van controle- en belangenpercentage in een ketenstructuur
 

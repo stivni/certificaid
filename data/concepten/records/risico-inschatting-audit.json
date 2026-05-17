@@ -1,0 +1,64 @@
+{
+  "id": "risico-inschatting-audit",
+  "naam": "Risico-inschatting (audit)",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.II.B", "1.6.II.A", "1.6.II"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.II.B",
+    "dekt_ook_anchors": ["1.6.II.A", "1.6.II"],
+    "reviewed_by": null
+  },
+  "verplichting": {
+    "text": "De beroepsbeoefenaar identificeert en schat de risico's op een afwijking van materieel belang in op het niveau van de financiële overzichten én op het niveau van de beweringen (assertions), als gevolg van fraude of fouten. Hij doet dit door inzicht te verwerven in de cliënt en haar omgeving — inclusief de interne beheersing.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA KMO-controlenorm §74-§77"},
+    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif", "sha256": null, "version": "rag-v1"}]}
+  },
+  "voorbeeld_inline": "Bij Rotex Roeselare NV verwerft Sofie Janssens inzicht door bevragingen bij de CFO + de productieleider, doorlezen van het beleid, cijferanalyses op de afgelopen drie boekjaren, en een rondgang op de werkvloer. Daaruit identificeert ze drie risicogebieden: voorraadwaardering, een aanhangig fiscaal geschil, en het hoge ondernemingskrediet.",
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Inzicht verwerven in cliënt + omgeving + IC",
+      "wat": "Sectorspecifieke factoren, regelgeving, aard van de cliënt (activiteiten, eigendom, governance, financiering), grondslagen voor financiële verslaggeving, doelstellingen en strategieën, prestatiemeting, interne beheersing.",
+      "hoe": "1. Bevragingen bij management en met governance belaste personen. 2. Cijferanalyses van openings- en ontwikkelingscijfers. 3. Waarneming (rondgang) + inspectie (documenten).",
+      "grondslag": "ITAA KMO-controlenorm §76-§77"
+    },
+    {
+      "nr": 2,
+      "titel": "Risico's identificeren op twee niveaus",
+      "wat": "Op overall-niveau (jaarrekening als geheel) én op assertion-niveau (per transactiestroom, rekeningsaldo, toelichting × bewering: bestaan, volledigheid, juistheid, waardering, rubricering, rechten/verplichtingen).",
+      "hoe": "Bouw een risico-matrix: rijen = balansrubrieken/transactiestromen; kolommen = beweringen; cellen = risico-inschatting (laag/midden/hoog) + onderliggende argumenten.",
+      "grondslag": "ITAA KMO-controlenorm §74"
+    },
+    {
+      "nr": 3,
+      "titel": "Significante risico's apart markeren",
+      "wat": "Risico's die volgens je professioneel oordeel speciale aandacht vragen tijdens de audit krijgen het label 'significant'. Voor zulke risico's altijd substantive procedures.",
+      "hoe": "Triggers: complexe of niet-routinematige transactie, fraude-indicator, transacties met verbonden partijen, schattingen met grote onzekerheid.",
+      "grondslag": "ITAA KMO-controlenorm Bijlage 1 (Significant risico)"
+    },
+    {
+      "nr": 4,
+      "titel": "Documenteren",
+      "wat": "Leg het verworven inzicht en de risico-inschatting vast: belangrijke kenmerken, gebruikte informatiebronnen, uitgevoerde inschattingswerkzaamheden.",
+      "hoe": "Standaard sjabloon in dossier: 'risk assessment memo' per cliënt-cyclus.",
+      "grondslag": "ITAA KMO-controlenorm §77"
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Risico-inschattingswerkzaamheden zijn GEEN substantive werkzaamheden. Zij geven enkel inzicht — niet voldoende assurance op zichzelf. Je moet ze opvolgen met gerichte werkzaamheden om de assertions te toetsen.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §85"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "vereist-kennis-van", "target": "auditrisicomodel", "redenering": "Risico-inschatting populeert de input van het risicomodel."},
+    {"type": "getriggerd-door", "target": "auditplanning", "redenering": "Risico-inschatting is een planningsstap."}
+  ]
+}

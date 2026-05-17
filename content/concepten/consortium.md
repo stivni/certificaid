@@ -16,7 +16,7 @@ node_type: actor
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/consortium.json
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Consortium (horizontale groep) ⚖️
 

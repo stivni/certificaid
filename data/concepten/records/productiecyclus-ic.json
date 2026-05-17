@@ -1,0 +1,47 @@
+{
+  "id": "productiecyclus-ic",
+  "naam": "Productiecyclus — interne controle",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.IX.B", "1.7.IX"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T10:37Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.IX.B",
+    "dekt_ook_anchors": ["1.7.IX"],
+    "reviewed_by": null,
+    "bron_gap": "Cyclusanalyse — auditvakdoctrine. Inferred-common-knowledge."
+  },
+  "verplichting": "Boekhoudkundige verplichting tot juiste voorraadwaardering en cost-allocation.",
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Productieplanning + uitgifte grondstoffen",
+      "wat": "Productieorder maken; grondstoffen uit magazijn uitgeven volgens stuklijst (BOM).",
+      "waarom": "Zonder formele uitgifte tracking: 'verdwijnen' van grondstoffen niet detecteerbaar.",
+      "hoe": "1. Productieorder met BOM in ERP.\n2. Magazijnier geeft uit; ERP boekt voorraadafname.\n3. Afwijking BOM ↔ werkelijk verbruik: opvolgen.",
+      "grondslag": "Productie-IC-doctrine"
+    },
+    {
+      "nr": 2,
+      "titel": "Productie-uitvoering + rapportering",
+      "wat": "Voltooide producten naar voorraad gereed product; afval/uitval boeken.",
+      "waarom": "Afval niet boeken = voorraad te hoog gewaardeerd; ook signaal voor proces-inefficiëntie of diefstal.",
+      "hoe": "1. Operator scant voltooide eenheid + uitval.\n2. ERP boekt automatisch in voorraad gereed product.\n3. Periodieke yield-analyse per machine + operator.",
+      "grondslag": "Productie-IC-doctrine"
+    },
+    {
+      "nr": 3,
+      "titel": "Kostprijsberekening + voorraadwaardering",
+      "wat": "Grondstoffenkost + directe arbeid + overhead toewijzen aan voltooide producten.",
+      "waarom": "Verkeerde kostprijs → verkeerde voorraadwaardering → verkeerd brutoresultaat.",
+      "hoe": "1. Maandelijks: actual cost rekenen op basis van werkelijke productie.\n2. Vergelijk met standaardkost; analyseer variantie.\n3. Adjustments boeken indien materiële afwijking.",
+      "grondslag": "KB WVV — voorraadwaardering"
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Productiecyclus is hoofdcyclus voor productie-ondernemingen."},
+    {"type": "vereist-kennis-van", "target": "functiescheiding", "redenering": "Productie/voorraad/boekhouding gescheiden."}
+  ]
+}

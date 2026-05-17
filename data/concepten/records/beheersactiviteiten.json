@@ -1,0 +1,45 @@
+{
+  "id": "beheersactiviteiten",
+  "naam": "Beheersactiviteiten (COSO-component 3)",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.VIII.D", "1.7.VIII", "1.7.X.D"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T09:43Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.VIII.D",
+    "dekt_ook_anchors": ["1.7.VIII", "1.7.X.D"],
+    "reviewed_by": null,
+    "bron_gap": "COSO-component 'control activities' is vakdoctrine. Inferred-common-knowledge."
+  },
+  "definitie": {
+    "text": "Beheersactiviteiten zijn de concrete procedures en handelingen die de onderneming inzet om de geïdentificeerde risico's te beheersen. Ze omvatten zowel preventieve (vóór de transactie) als detectieve (na de transactie) maatregelen, en kunnen handmatig of geautomatiseerd zijn.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Bij Yperse Werkplaats BV: (preventief) facturen > € 25.000 vereisen handtekening van CFO David; (detectief) maandelijkse afstemming bank-grootboek door iemand anders dan de boeker; (geautomatiseerd) ERP weigert input van prijs > 20% afwijking van laatste aankoopprijs zonder override.",
+  "bouwstenen": [
+    {
+      "titel": "Vier hoofdcategorieën",
+      "wat": "(1) Autorisaties + goedkeuringen (wie mag wat tot welk bedrag). (2) Verificaties + afstemmingen (kruiscontrole tussen registers, bank-grootboek). (3) Functiescheiding (zie [[functiescheiding]]). (4) Fysieke controles (toegangsbeperking magazijn, sleutels, alarm).",
+      "waarom": "Een goed IC-systeem combineert minstens uit elke categorie — geen enkele aanpak dekt alles af.",
+      "voorbeeld_inline": "Bij Yperse Werkplaats BV: toegangsbadge magazijn (fysiek) + dubbele handtekening boven drempel (autorisatie) + maandelijkse stockcount door extern (verificatie) + scheiding aankoop/ontvangst/betaling (segregation).",
+      "grondslag": "COSO-doctrine",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "titel": "Preventief versus detectief",
+      "wat": "Preventief = ontwerpt fouten/fraude weg vóór ze gebeuren (autorisaties, functiescheiding). Detectief = ontdekt fouten/fraude nadat ze gebeurd zijn (afstemmingen, inventaris, analyse). Een sluitend systeem gebruikt beide.",
+      "waarom": "Preventief alleen verzwakt door management override; detectief alleen laat fouten doorlopen tot de detectie — soms te laat.",
+      "grondslag": "COSO-doctrine",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Derde COSO-component."},
+    {"type": "bevat", "target": "functiescheiding", "redenering": "Functiescheiding is de prototypische beheersactiviteit."}
+  ]
+}

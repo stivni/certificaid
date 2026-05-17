@@ -1,0 +1,47 @@
+{
+  "id": "gecertificeerd-accountant-ga",
+  "naam": "Gecertificeerd accountant (GA)",
+  "node_type": "actor",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.I.B", "1.6.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.I.B",
+    "dekt_ook_anchors": ["1.6.taak.1"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Een gecertificeerd accountant (GA) is een door het ITAA (Instituut van de Belastingadviseurs en de Accountants) erkend beroepsbeoefenaar bevoegd voor het organiseren van boekhouding, opmaken van jaarrekeningen, fiscaal advies en — in een aantal gevallen, in monopolie of gedeeld met de bedrijfsrevisor — voor opdrachten met attestering of expertiseverslag bestemd voor derden.",
+    "confidence": "grounded",
+    "source": {"type": "wet", "short": "Wet 17 maart 2019 (ITAA-wet) art. 3"},
+    "_provenance": {"inputs": [{"id": "Wet-ITAA-2019__art_3", "sha256": null, "version": "rag-v1"}]}
+  },
+  "voorbeeld_inline": "Sofie Janssens is gecertificeerd accountant bij Wolters & Partners. Zij organiseert de boekhouding van Meubelzaak Mertens BV, stelt de fiscale aangifte op en voert vrijwillig een contractuele controle uit op de jaarrekening 2025 — geen commissariaat (dat is voorbehouden aan de bedrijfsrevisor).",
+  "bouwstenen": [
+    {
+      "titel": "Twaalf hoofd-beroepsactiviteiten",
+      "wat": "Het organiseren van de boekhouding (1°), bepalen van resultaten en jaarrekening (2°), boekingen openen/houden/centraliseren/sluiten (3°), boekhoudstukken nazien en corrigeren (4°), analyse van positie/werking/kredietwaardigheid (5°), expertise (6°), monopolie-opdrachten met attestering (7°), wettelijke opdrachten (8°), fiscaal advies (9°), bijstand belastingplichtige (10°), vertegenwoordiging bij belastingdiensten (11°), administratieve organisatie (12°) + sinds 2024: bijstand duurzaamheidsinformatie (13°).",
+      "waarom": "De wet ITAA 2019 bundelt drie historische beroepen (accountants + belastingconsulenten + bekwaamheidsexamen) onder één titel met een afgebakend takenpakket.",
+      "grondslag": "Wet ITAA 2019 art. 3",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "Wet ITAA 2019 art. 3"},
+      "_provenance": {"inputs": [{"id": "Wet-ITAA-2019__art_3", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Wat NIET tot zijn monopolie behoort",
+      "wat": "Wettelijke controle van de jaarrekening (commissariaat) — dat is exclusief voor de bedrijfsrevisor. De GA mag wel contractuele controles uitvoeren onder de ITAA-normen.",
+      "waarom": "De wettelijke audit van grote ondernemingen is voorbehouden aan één beroep met publiek toezicht.",
+      "voorbeeld_inline": "Wolters & Partners CVBA kan voor Meubelzaak Mertens BV een contractuele audit doen, maar moet een bedrijfsrevisor aanduiden als commissaris voor Rotex Roeselare NV.",
+      "grondslag": "ITAA KMO-controlenorm §4 + Wet 7 december 2016",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §4"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "itaa", "redenering": "GA's worden georganiseerd via het Instituut van de Belastingadviseurs en de Accountants."},
+    {"type": "vergelijkt-met", "target": "bedrijfsrevisor", "redenering": "Twee verwante beroepen met deels overlappende, deels gescheiden bevoegdheden."}
+  ]
+}

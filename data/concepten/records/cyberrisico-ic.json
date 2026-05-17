@@ -1,0 +1,46 @@
+{
+  "id": "cyberrisico-ic",
+  "naam": "Cyberrisico in IC-context",
+  "node_type": "fenomeen",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.X.A", "1.7.X", "1.7.X.D"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T11:29Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.X.A",
+    "dekt_ook_anchors": ["1.7.X", "1.7.X.D"],
+    "reviewed_by": null,
+    "bron_gap": "Cyberrisico-doctrine is generieke IT-security-vakkennis. Belgische context: NIS-2-richtlijn (omgezet), AVG voor persoonsdata. Inferred-common-knowledge voor algemene principes."
+  },
+  "definitie": {
+    "text": "Cyberrisico is het risico van financiële, operationele of reputationele schade door cyber-incidenten — ongeautoriseerde toegang, ransomware, phishing, dataverlies, business interruption. Voor IC: vereist specifieke technische én organisatorische maatregelen die de klassieke IC-componenten aanvullen.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Bij Yperse Werkplaats BV trof in 2025 een ransomware-aanval het ERP-systeem; productie lag 4 dagen stil, dataverlies € 35.000 herstel + omzetderving € 280.000. Post-incident: investering in EDR-systeem, 2FA voor alle externe toegang, maandelijkse phishing-trainingen, off-line backup off-site.",
+  "in_praktijk": [
+    {
+      "aspect": "Vier hoofdtypen cyberdreigingen",
+      "betekenis": "(1) Ransomware: encryptie + losgeld. (2) Phishing: misleiding om credentials of geld af te halen ('CEO fraud'). (3) Data exfiltratie: diefstal van gevoelige data voor verkoop of chantage. (4) Business email compromise: bankgegevens van leveranciers vervangen door fraudeurs.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "IC-maatregelen",
+      "betekenis": "(1) Technisch: firewall, EDR/antivirus, 2FA, encryptie, patch management. (2) Organisatorisch: gebruikersbeheer, awareness training, incident response plan, backups offline. (3) Verificatie: bij wijziging bankgegevens van leverancier altijd telefonisch terugbellen via bekend nummer (niet uit e-mail).",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "Reglementaire kant",
+      "betekenis": "NIS-2-richtlijn (2022/2555, omgezet in België) verplicht middelgrote en grote ondernemingen in essentiële en belangrijke sectoren tot cyberbeveiligingsmaatregelen + meldingsplicht. AVG-meldingsplicht bij datalek (72 uur).",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "geinformatiseerde-omgeving-ic", "redenering": "Cyberrisico is een specifieke risicocategorie in geïnformatiseerde omgeving."},
+    {"type": "vereist-kennis-van", "target": "avg-interne-controle", "redenering": "Datalek-implicaties van cyberincident."}
+  ]
+}

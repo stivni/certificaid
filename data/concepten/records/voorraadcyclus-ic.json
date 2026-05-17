@@ -1,0 +1,60 @@
+{
+  "id": "voorraadcyclus-ic",
+  "naam": "Voorraad — fysieke controle en veiligheid",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.IX.E", "1.7.IX"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T10:43Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.IX.E",
+    "dekt_ook_anchors": ["1.7.IX"],
+    "reviewed_by": null,
+    "bron_gap": "Voorraad-IC-doctrine — KB 21.10.2018 (boekhoudkundige verplichtingen) vereist inventarisatie. Specifieke procedurele uitwerking is vakdoctrine."
+  },
+  "verplichting": "Jaarlijkse inventaris (KB 21.10.2018 boekhoudkundige verplichtingen).",
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Fysieke bewaking + toegangscontrole",
+      "wat": "Magazijn op slot; toegang beperkt tot magazijnpersoneel via badge; camerabewaking bij waardevolle voorraad.",
+      "waarom": "Open magazijn = directe diefstal-mogelijkheid voor élke medewerker.",
+      "hoe": "1. Badge-toegang met log per persoon per uur.\n2. Camerabewaking ingang en hoge-waarde-zones.\n3. Verzegeling buiten kantooruren.",
+      "grondslag": "Fysieke-beveiliging-doctrine"
+    },
+    {
+      "nr": 2,
+      "titel": "Permanente voorraad in ERP",
+      "wat": "Elke ingang en uitgang van voorraad direct boeken; saldo zichtbaar in real-time.",
+      "waarom": "Zonder permanente voorraad ontdekken verschillen pas bij jaarlijkse telling — te laat.",
+      "hoe": "1. Magazijnier scant elke beweging.\n2. ERP houdt saldo per artikel + locatie.\n3. Discrepantie tussen sticker en saldo: direct opvolgen.",
+      "grondslag": "Voorraadbeheer-doctrine"
+    },
+    {
+      "nr": 3,
+      "titel": "Periodieke + jaarlijkse inventaris",
+      "wat": "Cycle counts (steekproef) maandelijks + volledige inventaris jaarlijks; telling door iemand anders dan magazijnier.",
+      "waarom": "Tellen door magazijnier = niemand kan zijn fouten of diefstal ontdekken.",
+      "hoe": "1. Maandelijks: 10% van artikelen wisselend tellen.\n2. Jaarlijks (typisch eind december): volledige telling met externe persoon (bv. medewerker boekhouding).\n3. Verschillen ≥ drempel: onderzoeken + boeking + actieplan.",
+      "grondslag": "KB 21.10.2018 + ITAA-norm voorraadcontrole"
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Magazijnier die zelf telt is geen onafhankelijke controle. Vereiste: 2e persoon, idealiter uit andere afdeling.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "text": "Bestellingen in uitvoering (rekening 37) hebben een eigen waarderingsproblematiek (CBN 2012/15, 2016/14) — niet zomaar als voorraad behandelen.",
+      "confidence": "grounded",
+      "source": {"type": "advies", "short": "CBN 2012/15, 2016/14"},
+      "_provenance": {"inputs": [{"id": "CBN-2012-15-bestellingen-in-uitvoering__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Voorraadcyclus is een cyclus met hoog fysiek-risicoprofiel."},
+    {"type": "vereist-kennis-van", "target": "functiescheiding", "redenering": "Bewaring (magazijn) en telling moeten gescheiden zijn."}
+  ]
+}

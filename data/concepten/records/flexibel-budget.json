@@ -1,0 +1,37 @@
+{
+  "id": "flexibel-budget",
+  "naam": "Flexibel budget",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.VI.B", "1.8.VI.D"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.VI.B",
+    "dekt_ook_anchors": ["1.8.VI.D"],
+    "reviewed_by": null,
+    "bron_gap": "Vakdoctrine"
+  },
+  "definitie": {
+    "text": "Een flexibel budget herrekent het budget op basis van het werkelijke productie- of verkoopvolume. Variabele kosten worden aangepast aan werkelijke volume; vaste kosten blijven gelijk. Resultaat: een 'gecorrigeerd budget' dat eerlijker vergeleken kan worden met de realisatie.",
+    "confidence": "inferred-common-knowledge",
+    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Yperse Werkplaats BV start met statisch budget Confectie: 7.500 tapijten, € 950.000 (€ 800.000 vast + € 150.000 variabel = € 20/stuk variabel). Realisatie: 9.000 tapijten, € 1.025.000. Flexibel budget bij 9.000 stuks = € 800.000 vast + 9.000 × € 20 = € 980.000. Werkelijk vs. flexibel: € 1.025.000 − € 980.000 = € 45.000 ongunstig. Werkelijk vs. statisch: € 1.025.000 − € 950.000 = € 75.000 ongunstig — waarvan € 30.000 'volume-effect' (logisch, want meer geproduceerd) en € 45.000 'echt' ongunstig.",
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "statisch-budget",
+      "verschil": "Statisch budget = oorspronkelijk plan, niet aangepast aan werkelijk volume. Flexibel budget = aangepast aan werkelijk volume. Vergelijking realisatie vs. statisch mengt volume- en efficiëntie-effect; flexibel scheidt beide.",
+      "trigger": "Examen-vraag: 'is dit verschil te wijten aan andere productie of aan inefficiëntie?' → flexibel budget is nodig om te scheiden.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "vergelijkt-met", "target": "statisch-budget", "redenering": "Tegenpool.", "confidence": "inferred"},
+    {"type": "onderdeel-van", "target": "budgetbeheer", "redenering": "Variant van budget.", "confidence": "inferred"},
+    {"type": "vereist-kennis-van", "target": "verschillenboekhouding", "redenering": "Flexibel budget is input voor zuivere verschillenanalyse.", "confidence": "inferred"}
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "isa-standaarden-ic",
+  "naam": "ISA-standaarden in IC-context",
+  "node_type": "synthese",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.7.XII.B",
+    "1.7.XII",
+    "1.7.V.E"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T11:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.XII.B",
+    "dekt_ook_anchors": [
+      "1.7.XII",
+      "1.7.V.E"
+    ],
+    "reviewed_by": null,
+    "inputs": [
+      {
+        "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
+        "sha256": null,
+        "version": "rag-v1"
+      },
+      {
+        "id": "ITAA-norm-kmo-controlenorm__sec_3-1-1-planning",
+        "sha256": null,
+        "version": "rag-v1"
+      }
+    ],
+    "note": "Synthese-record: _provenance.inputs sloeg eerder onderaan; nu correct gevuld op record-niveau."
+  },
+  "gebaseerd_op_concepten": [
+    "interne-controle",
+    "auditrisicomodel",
+    "toetsing-interne-beheersing"
+  ],
+  "vergelijkingstabel": "| ISA-nummer | Titel | IC-relevantie |\n|---|---|---|\n| ISA 200 | Algemene doelstellingen en uitvoering audit | Algemeen kader |\n| ISA 240 | Verantwoordelijkheid auditor m.b.t. fraude | Fraude-detectie binnen IC |\n| ISA 250 | Wet- en regelgeving | Compliance-controles |\n| ISA 260 | Communicatie met governance | Auditcomité-rapportering |\n| ISA 265 | Mededeling IC-tekortkomingen aan management | Management letter |\n| ISA 315 | Identificatie + inschatting risico's via begrip onderneming + IC | Centraal voor IC-toetsing |\n| ISA 330 | Reactie auditor op ingeschatte risico's | Toetsing IC + substantief werk |\n| ISA 402 | Service organizations | IC bij outsourcing/cloud |\n| ISA 610 | Gebruik van werk interne audit | Externe ↔ interne audit |",
+  "voorbeeld_inline": "Bij Rotex Roeselare NV moet commissaris Sofie Janssens van Wolters & Partners CVBA bij elke audit ISA 315 toepassen — uitgebreid begrip van de onderneming + IC opbouwen, risico's identificeren op assertion-niveau. Als IC sterk is, ISA 330 → minder substantieve werkzaamheden. ISA 402: voor cloud-ERP moet ze het SOC 2-rapport van de provider analyseren.",
+  "beslisboom": "1. **Algemene aanpak?** → ISA 200.\n2. **Risico-inschatting starten?** → ISA 315 (entity + IC begrip).\n3. **Reactie plannen?** → ISA 330.\n4. **Outsourcing aanwezig?** → ISA 402.\n5. **Fraude-risico's?** → ISA 240.\n6. **IA aanwezig?** → ISA 610.\n7. **Rapportering aan governance?** → ISA 260 + 265."
+}

@@ -1,0 +1,79 @@
+---
+title: Ohlson O-score (faillissement-predictiemodel via logit)
+tags:
+- concept
+- methode
+- po-1-9
+linked_anchors:
+- 1.9.VI.B
+- 1.9.VI
+programmaonderdelen:
+- '1.9'
+confidence: inferred
+node_type: methode
+status: seed
+schema_version: '1.4'
+gegenereerd_uit: data/concepten/records/ohlson-o-score.json
+gegenereerd_op: '2026-05-17'
+---
+# Ohlson O-score (faillissement-predictiemodel via logit) 🤖
+
+> [!summary] Korte inhoud
+> Het Ohlson O-model voorspelt de kans op faillissement via logistische regressie op negen variabelen uit de jaarrekening.
+
+> [!info] Behoort tot: [[kwantitatieve-financiele-diagnose]]
+
+Het Ohlson O-model voorspelt de kans op faillissement via logistische regressie op negen variabelen uit de jaarrekening. Anders dan Altman geeft Ohlson een kansprobabiliteit (tussen 0 en 1) — niet een score-zone.
+
+_Bron: Ohlson (1980) — internationale doctrine_
+
+
+## Bouwstenen
+
+### Negen variabelen via logit-regressie 🤖
+
+O combineert negen indicatoren: (1) log(TA/CPI) — ondernemingsgrootte; (2) VV/TA — schuldgraad; (3) NBK/TA — werkkapitaalpositie; (4) VK/VlA — vlottende schulden/vlottende activa; (5) indicator VV>TA (negatief eigen vermogen); (6) Netto resultaat/TA; (7) CF uit bedrijfsvoering/VV; (8) indicator twee opeenvolgende verlies-jaren; (9) procentuele wijziging nettoresultaat.
+
+**Waarom?** Ohlson koos variabelen die zowel niveau (1-7) als evolutie (8-9) en categorische gebeurtenissen (5, 8) vangen. Logistische regressie levert dan een coefficiënt-vector die naar een kans tussen 0 en 1 wordt afgebeeld.
+
+**Voorbeeld**: Rotex Roeselare NV met O-score = − 2,5 → kans = 1/(1+e^2,5) ≈ 0,08 (8% kans op faillissement). Verffabriek Veurne BV met O-score = +1,2 → kans ≈ 0,77 (77% kans).
+
+_Grondslag: Ohlson (1980)_
+
+### Probabiliteit als output 🤖
+
+De logit-functie transformeert de gewogen som naar een kans p = 1/(1+e^(-O)). Cut-off klassiek op p > 0,50 = voorspelling faillissement; p < 0,50 = voorspelling overleven. De cut-off kan strenger gezet worden bij conservatieve diagnose.
+
+**Waarom?** Een kans is interpretatiekrachtiger dan een score-positie — een bankier kan 77% kans op faillissement direct vertalen naar een kredietbeslissing, terwijl een Altman-zone moeilijker te quantitatieveren is.
+
+**Voorbeeld**: Voor Verffabriek Veurne BV: O = 1,2 → p ≈ 0,77 → bankier zal kredietaanvraag wellicht afwijzen of zware waarborgen vragen.
+
+_Grondslag: Ohlson (1980) + bankpraktijk_
+
+
+## In de praktijk
+
+<h3 id="1.9.VI.B">Examen-positie</h3>
+
+> [!tip]- Examen-positie
+> Ohlson wordt op het examen vooral conceptueel bevraagd (kennis van het bestaan, verschil met Altman, type output = kans). De exacte 9-variabelen-formule is niet centraal — wel het inzicht 'logit i.p.v. discriminant' en 'kans i.p.v. zone'. 🤖
+
+
+> [!info]- Niet verwarren met [[altman-z-score]]
+> Output: Ohlson = kans (0-1); Altman = score met drie zones. Techniek: Ohlson = logit; Altman = discriminant-analyse. Aantal variabelen: Ohlson = 9; Altman = 5. Richting: hoge Ohlson = slecht; hoge Altman = goed.
+>
+> _Trigger_: Examenvraag 'welk model levert wat?': Ohlson → kans; Altman → zone.
+
+
+## Valkuilen
+
+> [!warning]- Een hogere O-score betekent een hogere kans op falen (let op het teken in de logit-formule)
+> ⚠️ Een hogere O-score betekent een hogere kans op falen (let op het teken in de logit-formule). Onthoud: Altman → hoog = goed; Ohlson → hoog = slecht. Een examenvalkuil bij vergelijking. 🤖
+>
+> _Bron: Ohlson (1980)_
+
+
+
+## Bronnen
+
+[^1]: `anchor-1.9.VI.B`

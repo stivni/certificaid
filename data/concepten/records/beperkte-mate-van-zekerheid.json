@@ -1,0 +1,35 @@
+{
+  "id": "beperkte-mate-van-zekerheid",
+  "naam": "Beperkte mate van zekerheid",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.I.A", "1.6.IV", "1.6.IV.C"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.IV.C",
+    "dekt_ook_anchors": ["1.6.I.A", "1.6.IV"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Een beperkte mate van zekerheid (limited assurance) is het zekerheidsniveau bij een beoordelingsopdracht: het risico dat de beroepsbeoefenaar een verkeerde uitspraak doet wordt tot een aanvaardbaar (maar hoger dan bij een controle) niveau gebracht. De conclusie wordt geformuleerd in negatieve vorm.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA KMO-controlenorm §2"},
+    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+  },
+  "voorbeeld_inline": "Sofie Janssens beoordeelt de tussentijdse cijfers van Naaiatelier Ninove BV per 30 juni 2025. Beperkte werkzaamheden (vooral cijferanalyses en bevragingen). Haar conclusie: 'op basis van onze beoordeling zijn ons geen feiten gebleken die ons doen geloven dat de tussentijdse cijfers geen getrouw beeld geven'.",
+  "in_praktijk": [
+    {
+      "aspect": "Werkzaamheden vs. controle",
+      "betekenis": "Bij een beoordeling beperkt de beroepsbeoefenaar zich tot lichtere werkzaamheden: vooral inquiry (bevragingen) en analytical procedures (cijferanalyses). Hij voert weinig of geen detailcontroles uit. Dat verklaart de lagere zekerheid en de negatieve formulering.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §2"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "vergelijkt-met", "target": "redelijke-mate-van-zekerheid", "redenering": "Twee zekerheidsniveaus die in elk examen uit elkaar gehouden moeten worden."},
+    {"type": "getriggerd-door", "target": "contractuele-beoordelingsopdracht", "redenering": "Beoordelingsopdrachten leveren beperkte zekerheid."}
+  ]
+}

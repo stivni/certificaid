@@ -1,0 +1,35 @@
+{
+  "id": "auditstrategie",
+  "naam": "Auditstrategie (algehele strategie van de opdracht)",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.III", "1.6.III.A"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.III",
+    "dekt_ook_anchors": ["1.6.III.A"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "De auditstrategie is het overkoepelende plan voor de hele opdracht: ze bepaalt de reikwijdte, het tijdschema en de omvang, en geeft richtlijnen voor het opstellen van het werkprogramma. De strategie weegt opdrachtkenmerken, doelstellingen, professionele oordeelsfactoren, ervaring uit eerdere opdrachten, en de aard/timing/omvang van de benodigde middelen.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA KMO-controlenorm §71-§72"},
+    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-1-1-planning", "sha256": null, "version": "rag-v1"}]}
+  },
+  "voorbeeld_inline": "Voor Rotex Roeselare NV 2025 legt Sofie Janssens de auditstrategie vast in oktober: scope volledige jaarrekening + jaarverslag-consistentie + IFRS-toelichtingen, twee fases (interim december + eindfase februari), team van 5 personen (1 senior + 3 juniors + zijzelf), externe valuator voor goodwill-impairment, deadline verslag = 15 maart 2026.",
+  "in_praktijk": [
+    {
+      "aspect": "Vier afwegingen volgens §72",
+      "betekenis": "(1) Kenmerken van de opdracht die de reikwijdte bepalen (bv. versterkte controle bij eerstejaars-opdracht). (2) Doelstellingen voor het uit te brengen verslag (timing + aard van communicaties). (3) Professionele oordeelsfactoren om het team te sturen. (4) Resultaten van eerder werk en relevante ervaring met de cliënt. (5) Aard, timing en omvang van benodigde middelen.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §72"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-1-1-planning", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "bevat", "target": "werkprogramma-audit", "redenering": "Werkprogramma is de operationele uitwerking van de strategie."},
+    {"type": "onderdeel-van", "target": "auditplanning", "redenering": "Auditstrategie is de output van de planningsfase op overall niveau."}
+  ]
+}

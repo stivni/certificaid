@@ -1,0 +1,80 @@
+{
+  "id": "contractuele-controleopdracht",
+  "naam": "Contractuele controleopdracht",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.I.A", "1.6.I.C", "1.6.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.I.A",
+    "dekt_ook_anchors": ["1.6.I.C", "1.6.taak.1"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Een contractuele controleopdracht is een opdracht waarbij de gecertificeerd accountant (of bedrijfsrevisor) op verzoek van de cliënt — niet door wet opgelegd — een redelijke mate van zekerheid verschaft over de betrouwbaarheid van historische financiële informatie zoals een jaarrekening. De beroepsbeoefenaar brengt een oordeel in positieve vorm tot uitdrukking ('de financiële overzichten geven een getrouw beeld').",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA KMO-controlenorm §2"},
+    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+  },
+  "voorbeeld_inline": "Meubelzaak Mertens BV (KMO onder de drempels) wil bij een bankaanvraag van € 750.000 extra geloofwaardigheid. De zaakvoerder vraagt Wolters & Partners CVBA om een contractuele controle uit te voeren over boekjaar 2025. Sofie Janssens voert een volledige audit uit volgens de KMO-controlenorm en levert een verslag af met een positief oordeel.",
+  "bouwstenen": [
+    {
+      "titel": "Vrijwillig, geen wettelijke verplichting",
+      "wat": "De cliënt vraagt de opdracht zelf — er is geen commissaris benoemd en geen wettelijke verplichting tot externe controle. Vaak voor banken, kandidaat-overnemers of aandeelhouders.",
+      "waarom": "Externe partijen vertrouwen liever op een audit dan op zelfgemaakte cijfers.",
+      "voorbeeld_inline": "Een bank vraagt aan Meubelzaak Mertens BV een gecontroleerde jaarrekening vooraleer een krediet van € 750.000 toe te kennen.",
+      "grondslag": "ITAA KMO-controlenorm §2",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §2"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Redelijke mate van zekerheid",
+      "wat": "De beroepsbeoefenaar voert voldoende werkzaamheden uit om het risico op een verkeerde uitspraak tot een vaktechnisch aanvaardbaar laag niveau terug te brengen.",
+      "waarom": "Volledige zekerheid is onmogelijk — 'redelijke zekerheid' is het hoogste niveau dat in een audit haalbaar is.",
+      "voorbeeld_inline": "Sofie Janssens kan na haar werkzaamheden met redelijke zekerheid zeggen: 'de jaarrekening van Meubelzaak Mertens BV geeft een getrouw beeld'. Niet 'met 100 % zekerheid'.",
+      "grondslag": "ITAA KMO-controlenorm §2",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §2"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Oordeel in positieve vorm",
+      "wat": "Het verslag formuleert een uitdrukkelijk oordeel: 'naar ons oordeel geeft de jaarrekening een getrouw beeld'. Niet 'wij hebben geen aanwijzingen gevonden dat ...'.",
+      "waarom": "Positief = de auditor staat actief in voor de uitspraak. Negatief (limited assurance) = enkel afwezigheid van aanwijzingen.",
+      "grondslag": "ITAA KMO-controlenorm §2",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §2"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "wettelijke-controleopdracht-commissaris",
+      "verschil": "Contractuele controle = op vraag van de cliënt, zonder commissaris-mandaat. Wettelijke controle (commissaris) = opgelegd door WVV art. 3:72 voor grote vennootschappen. Beide leveren redelijke zekerheid, maar de wettelijke kent specifiek bedrijfsrevisor-mandaat + IBR-toezicht.",
+      "trigger": "Examenvraag: 'is een commissaris benoemd?' Zo nee + audit gevraagd → contractuele controle (KMO-controlenorm). Zo ja → wettelijke controle (ISA + bedrijfsrevisor).",
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "vergelijking_met": "contractuele-beoordelingsopdracht",
+      "verschil": "Controle = redelijke mate van zekerheid + oordeel in positieve vorm. Beoordeling = beperkte mate van zekerheid + conclusie in negatieve vorm ('wij hebben geen aanwijzingen gevonden dat ...'). Beoordeling vraagt minder werk en is goedkoper.",
+      "trigger": "Examen-keuze: zoekt de cliënt 'audit'/'controle' → controleopdracht; zoekt hij 'review'/'beperkte controle'/'beperkt nazicht' → beoordelingsopdracht.",
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "De norm geldt niet als er een commissaris aangesteld is. Wanneer een vennootschap al een commissaris heeft, wordt elke wettelijk voorbehouden opdracht door de commissaris uitgevoerd, niet door een externe accountant onder de KMO-controlenorm.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §2"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "specialisatie-van", "target": "assurance-opdracht", "redenering": "Controleopdracht is een type assurance-opdracht (samen met beoordeling)."},
+    {"type": "vereist-kennis-van", "target": "redelijke-mate-van-zekerheid", "redenering": "Het kernverschil met beoordeling zit in het zekerheidsniveau."},
+    {"type": "getriggerd-door", "target": "opdrachtbrief", "redenering": "Elke contractuele opdracht start met een opdrachtbrief die de scope vastlegt."}
+  ]
+}

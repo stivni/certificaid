@@ -1,0 +1,63 @@
+{
+  "id": "controleproces-organisatie",
+  "naam": "Controleproces in de organisatie",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.II.F", "1.7.II.E", "1.7.II"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T11:20Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.II.F",
+    "dekt_ook_anchors": ["1.7.II.E", "1.7.II"],
+    "reviewed_by": null,
+    "bron_gap": "Het generieke 'controleproces' (planning → uitvoering → meting → bijsturing) is vakdoctrine. Inferred-common-knowledge."
+  },
+  "verplichting": "Geen wettelijke verplichting; managementinstrument.",
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Doelstellingen vastleggen",
+      "wat": "Definieer wat moet worden bereikt — SMART (specifiek, meetbaar, aanvaardbaar, realistisch, tijdsgebonden).",
+      "waarom": "Zonder doel: geen meetbare prestatie, geen zinvolle bijsturing.",
+      "hoe": "1. Strategisch doel formuleren.\n2. Operationaliseren in concrete KPI's met streefwaarden.\n3. Verantwoordelijken aanwijzen.",
+      "grondslag": "Managementcontrole-doctrine"
+    },
+    {
+      "nr": 2,
+      "titel": "Plan + middelen toewijzen",
+      "wat": "Budget, mensen, technologie toewijzen aan elk doel.",
+      "waarom": "Doel zonder middelen blijft wens.",
+      "hoe": "Budget per kostencentrum + verantwoordelijke + termijn.",
+      "grondslag": "Managementcontrole-doctrine"
+    },
+    {
+      "nr": 3,
+      "titel": "Uitvoeren + meten",
+      "wat": "Werkelijke prestaties registreren via informatiesysteem.",
+      "waarom": "Zonder meting: subjectieve indrukken in plaats van objectieve evaluatie.",
+      "hoe": "Maandelijkse KPI-rapportering uit ERP.",
+      "grondslag": "Managementcontrole-doctrine"
+    },
+    {
+      "nr": 4,
+      "titel": "Vergelijken + analyseren afwijkingen",
+      "wat": "Werkelijk vs gepland; analyseer oorzaken van afwijking > drempel.",
+      "waarom": "Niet elke afwijking is problematisch; alleen significante afwijkingen actie vragen.",
+      "hoe": "Per KPI: drempel definiëren (bv. >5% afwijking) → root cause analyse.",
+      "grondslag": "Variantieanalyse"
+    },
+    {
+      "nr": 5,
+      "titel": "Bijsturen",
+      "wat": "Actie ondernemen op basis van analyse: doel wijzigen, middelen aanpassen, proces verbeteren.",
+      "waarom": "Cyclus is zinloos zonder corrigerende actie.",
+      "hoe": "Actieplan met termijn + eigenaar + opvolging in volgende periode.",
+      "grondslag": "PDCA-cyclus"
+    }
+  ],
+  "edges": [
+    {"type": "vergelijkt-met", "target": "interne-controle", "redenering": "Controleproces (management) is breder dan IC (risicobeheersing); overlapt op meting + bijsturing."},
+    {"type": "vereist-kennis-van", "target": "managementcontrole", "redenering": "Controleproces is operationele vertaling van managementcontrole."}
+  ]
+}

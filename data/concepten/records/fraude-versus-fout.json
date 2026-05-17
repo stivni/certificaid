@@ -1,0 +1,49 @@
+{
+  "id": "fraude-versus-fout",
+  "naam": "Fraude versus fout in een audit",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.II.B", "1.6.II.A"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.II.B",
+    "dekt_ook_anchors": ["1.6.II.A"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Fraude is een opzettelijke handeling — door management, met governance belaste personen, werknemers of derden — waarbij misleiding wordt gebruikt om een onrechtmatig of onwettig voordeel te verkrijgen. Fout is daarentegen een ONopzettelijke handeling die tot een afwijking in de financiële overzichten leidt, inclusief het weglaten van bedragen of toelichtingen.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1"},
+    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2", "sha256": null, "version": "rag-v1"}]}
+  },
+  "voorbeeld_inline": "Bij Meubelzaak Mertens BV stelt Sofie Janssens vast dat de zaakvoerder bewust voorraden heeft overgewaardeerd met € 75.000 om de bank een mooi rapport te tonen → FRAUDE (opzettelijke misleiding). In een andere klantdossier was eenzelfde fout het gevolg van een verkeerd ingegeven Excel-formule → FOUT (onopzettelijk).",
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "afwijking-van-materieel-belang",
+      "verschil": "Afwijking = elke afwijking (fout of fraude) tussen jaarrekening en het stelsel. Fraude vs. fout = ONDERSCHEID in opzet. Materieel belang = onderscheid in OMVANG. Een fraude kan klein maar wel kwalitatief materieel zijn.",
+      "trigger": "Examen-zin met 'opzettelijk' of 'om te misleiden' → fraude. 'Vergissing' / 'verkeerde inschatting' → fout.",
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Fraude-risico altijd op tafel",
+      "betekenis": "De auditor moet bij elke audit het risico op fraude inschatten — specifiek opbrengstverantwoording (vermoeden van fraude) en management override van de IC. Documenteren is verplicht.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §93"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "aspect": "Verantwoordelijkheid voor preventie",
+      "betekenis": "De PRIMAIRE verantwoordelijkheid voor preventie en detectie van fraude ligt bij het management en de met governance belaste personen — niet bij de auditor. De auditor verschaft enkel redelijke zekerheid dat de financiële overzichten geen materiële afwijking bevatten door fraude of fouten.",
+      "confidence": "inferred-from-aggregation",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §74 + ISA 240 (algemene principes)"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "vereist-kennis-van", "target": "materieel-belang-audit", "redenering": "Materialiteit bepaalt of een fraude of fout ertoe doet."}
+  ]
+}

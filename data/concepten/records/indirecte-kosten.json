@@ -1,0 +1,96 @@
+{
+  "id": "indirecte-kosten",
+  "naam": "Indirecte kosten",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.II.A", "1.8.II.D", "1.8.III.A", "1.8.III.F"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.II.A",
+    "dekt_ook_anchors": ["1.8.II.D", "1.8.III.A", "1.8.III.F"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Indirecte kosten zijn kosten die meerdere kostendragers of kostencentra gemeenschappelijk ondersteunen en daarom enkel via een verdeelsleutel aan een specifiek product, opdracht of afdeling kunnen worden toegerekend. Typische voorbeelden: huur fabriekspand, energie, salaris afdelingshoofd, afschrijving algemene machines, kwaliteitscontrole.",
+    "confidence": "inferred-common-knowledge",
+    "source": {"type": "cbn", "short": "CBN 132/7 §2.1 — 'evenredig deel van de productiekosten die slechts onrechtstreeks aan het individueel product kunnen worden toegerekend'"},
+    "_provenance": {
+      "inputs": [
+        {"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs", "sha256": null, "version": "rag-v1"}
+      ]
+    }
+  },
+  "voorbeeld_inline": "Yperse Werkplaats BV betaalt huur € 80.000/jaar voor het volledige weverij-gebouw waarin drie productlijnen draaien. De huur is een indirecte kost: ze ondersteunt alle drie producten gezamenlijk en moet via een sleutel (bv. m² of machine-uren) verdeeld worden.",
+  "bouwstenen": [
+    {
+      "titel": "Wettelijk verplicht in vervaardigingsprijs",
+      "wat": "De vervaardigingsprijs in de boekhoudwet omvat — naast directe kosten — ook 'een evenredig deel van de productiekosten die slechts onrechtstreeks aan het individueel product kunnen worden toegerekend'.",
+      "waarom": "Anders zou de voorraadwaardering te laag uitkomen en zou de winst van het boekjaar vertekend zijn.",
+      "voorbeeld_inline": "Yperse Werkplaats BV moet bij de voorraadwaardering van gereed product naast de wol (€ 12.000 direct) ook een deel van de fabriekshuur en energiekosten meerekenen — bv. € 3.500 indirect via machine-uren-sleutel.",
+      "grondslag": "CBN 132/7 §2.1 · KB 21.10.2018 art. 22",
+      "confidence": "grounded",
+      "source": {"type": "cbn", "short": "CBN 132/7 §2.1"},
+      "_provenance": {
+        "inputs": [
+          {"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs", "sha256": null, "version": "rag-v1"}
+        ]
+      }
+    },
+    {
+      "titel": "Keuzevrijheid: full of direct costing",
+      "wat": "Indirecte kosten mogen in de vervaardigingsprijs worden opgenomen ('full costing') of er buiten worden gehouden ('direct costing'). De keuze moet in de waarderingsregels worden opgenomen en consistent worden toegepast.",
+      "waarom": "Direct costing reflecteert beter het variabele kostengedrag (interne sturing); full costing dekt alle productiekosten (fiscaal-conservatiever).",
+      "voorbeeld_inline": "Yperse Werkplaats BV kiest full costing: voorraad ruwwol-garen wordt gewaardeerd aan € 15.000 (€ 12.000 direct + € 3.000 indirect verdeeld). Bij direct costing zou de voorraad € 12.000 zijn en zou € 3.000 als periodekost in de RR vallen.",
+      "grondslag": "CBN 2012/15 §waarderingsaspecten full costing / direct costing",
+      "confidence": "grounded",
+      "source": {"type": "cbn", "short": "CBN 2012/15"},
+      "_provenance": {
+        "inputs": [
+          {"id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-full-costing", "sha256": null, "version": "rag-v1"},
+          {"id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing", "sha256": null, "version": "rag-v1"}
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Verdeelsleutel — vrij maar verantwoord",
+      "betekenis": "Klassieke sleutels: machine-uren, directe arbeidsuren, oppervlakte, kostprijs directe materialen. De keuze moet causaal verantwoord zijn (de sleutel weerspiegelt het gebruik van de gemeenschappelijke bron). Een sleutel die niets verklaart (bv. omzet) leidt tot kostprijs-vertekening.",
+      "herkenningspunt": "Bij ABC-methode wordt deze sleutel-discussie ver doorgetrokken: meerdere kostengroepen, elk met een aparte cost-driver.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "directe-kosten",
+      "verschil": "Directe kosten = rechtstreeks aan kostendrager toewijsbaar zonder sleutel. Indirecte kosten = enkel via verdeelsleutel, omdat ze meerdere kostendragers samen ondersteunen.",
+      "trigger": "Examen-vraag op kostprijs-berekening: identificeer per kostpost of ze direct of indirect is.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Een willekeurige verdeelsleutel maakt de kostprijs schijn-precies. Als 80 % van de kosten indirect is en de sleutel is niet causaal, weerspiegelt de 'kostprijs' eerder de boekhoudkundige keuze dan de economische realiteit. Dit is de hoofdmotivatie voor ABC.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "text": "Algemene administratie- en commerciële kosten (klasse 61-64) worden meestal NIET in de vervaardigingsprijs opgenomen — ook niet in full costing. Enkel productie-gerelateerde indirecte kosten horen erbij (CBN 132/7).",
+      "confidence": "grounded",
+      "source": {"type": "cbn", "short": "CBN 132/7 §2.1"},
+      "_provenance": {
+        "inputs": [{"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs", "sha256": null, "version": "rag-v1"}]
+      }
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "typologie-van-kosten", "redenering": "Dimensie 'toewijsbaarheid'.", "confidence": "inferred"},
+    {"type": "vergelijkt-met", "target": "directe-kosten", "redenering": "Tegenpool.", "confidence": "inferred"},
+    {"type": "vereist-kennis-van", "target": "verdeelsleutel", "redenering": "Indirecte kosten worden via verdeelsleutel toegerekend.", "confidence": "inferred"},
+    {"type": "getriggerd-door", "target": "abc-methode", "redenering": "ABC is de geavanceerde aanpak voor indirecte kosten.", "confidence": "inferred"}
+  ]
+}

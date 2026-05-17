@@ -5,21 +5,25 @@ tags:
 - begrip
 - po-1-2
 - po-1-3
+- po-1-9
 linked_anchors:
-- 1.3.II.B
-- 1.3.taak.1
 - 1.2.IV
 - 1.2.IV.C
 - 1.2.V
+- 1.3.II.B
+- 1.3.taak.1
+- 1.9.II
+- 1.9.taak.1
 programmaonderdelen:
 - '1.2'
 - '1.3'
+- '1.9'
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/jaarrekening-als-studieobject.json
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Jaarrekening als studieobject van financiële analyse 🤖
 

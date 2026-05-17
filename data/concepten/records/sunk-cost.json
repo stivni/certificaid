@@ -1,0 +1,42 @@
+{
+  "id": "sunk-cost",
+  "naam": "Sunk cost (reeds gemaakte kost)",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.III.E", "1.8.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.III.E",
+    "dekt_ook_anchors": ["1.8.taak.1"],
+    "reviewed_by": null,
+    "bron_gap": "Vakdoctrine"
+  },
+  "definitie": {
+    "text": "Een sunk cost is een kost die al gemaakt is en onomkeerbaar — niet meer te beïnvloeden door een toekomstige beslissing. Sunk costs zijn nooit relevant voor beslissingen over de toekomst (extra-order, make-or-buy, stopzetting).",
+    "confidence": "inferred-common-knowledge",
+    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Yperse Werkplaats BV heeft 3 jaar geleden een naaimachine gekocht voor € 280.000 (sunk). Boekwaarde nu € 196.000. Wanneer de directie nu kiest tussen 'opdracht uitvoeren' en 'opdracht weigeren', telt deze € 196.000 niet mee in de keuze — alleen de toekomstige extra kost (variabele kost, eventuele extra arbeidsuren).",
+  "in_praktijk": [
+    {
+      "aspect": "Verschil met vaste kost",
+      "betekenis": "Een vaste kost (huur, abonnement) wordt nog steeds elke maand vastgelegd; ze is vermijdbaar bij stopzetting van de activiteit. Een sunk cost is al uitgegeven. Verwarring: 'de kost is al begroot dus we kunnen er niet meer aan ontsnappen' = nee, alleen als ze contractueel onomkeerbaar is, is ze sunk.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Klassieke sunk-cost-fallacy: 'we hebben al € 500.000 in dit project geïnvesteerd, we moeten doorgaan'. Foute redenering — die € 500.000 is verloren, ongeacht beslissing. Vraag is: wat zal de toekomstige investering opleveren?",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "vergelijkt-met", "target": "vaste-kosten", "redenering": "Klassieke verwarring.", "confidence": "inferred"},
+    {"type": "vereist-kennis-van", "target": "kostenanalyse-make-or-buy", "redenering": "Sunk-cost-uitsluiting is regel in make-or-buy.", "confidence": "inferred"}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "controle-omgeving",
+  "naam": "Controle-omgeving (COSO-component 1)",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.III.A", "1.7.III.B", "1.7.III", "1.7.XII.D"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T09:36Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.III.A",
+    "dekt_ook_anchors": ["1.7.III.B", "1.7.III", "1.7.XII.D"],
+    "reviewed_by": null,
+    "bron_gap": "COSO I (1992/2013) is internationale vakdoctrine; geen specifieke Belgische bron. Inferred-common-knowledge."
+  },
+  "definitie": {
+    "text": "De controle-omgeving is het geheel van waarden, integriteit, ethiek en cultuur dat in een onderneming heerst, vastgesteld door het bestuur en gedragen door alle medewerkers. Het is het fundament waarop alle andere IC-componenten rusten — een slechte controle-omgeving maakt de andere componenten waardeloos. Kernidee: 'tone at the top'.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Bij Yperse Werkplaats BV ondertekent directeur Pieter Vermeulen jaarlijks de gedragscode publiek voor het personeel; sancties bij overtreding worden consequent toegepast; integriteit zit in elke jaarlijkse evaluatie. Bij een andere KMO waar de bestuurder regelmatig 'creatief' boekt staan procedures op papier — maar niemand neemt ze ernstig.",
+  "in_praktijk": [
+    {
+      "aspect": "Vijf elementen volgens COSO",
+      "betekenis": "(1) Integriteit en ethische waarden. (2) Toezicht door governance-orgaan (raad van bestuur, auditcomité). (3) Organisatiestructuur, rapporteringslijnen, autoriteit. (4) HR-praktijken (selectie, opleiding, evaluatie). (5) Verantwoording vragen voor performance.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Eerste van de vijf COSO-componenten — fundament voor de andere vier."},
+    {"type": "vereist-kennis-van", "target": "ethiek-organisatie-ic", "redenering": "Ethiek is de kernpijler van de controle-omgeving."}
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "auditcomite",
+  "naam": "Auditcomité",
+  "node_type": "actor",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.V.D", "1.7.V", "1.7.IV"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T09:58Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.V.D",
+    "dekt_ook_anchors": ["1.7.V", "1.7.IV"],
+    "reviewed_by": null,
+    "bron_gap": "Auditcomité is wettelijk geregeld in WVV voor organisaties van openbaar belang en grote NV's. Specifieke wetsartikelen niet in geretrieved bundels — vakdoctrine-niveau."
+  },
+  "definitie": {
+    "text": "Een auditcomité is een gespecialiseerd comité binnen de raad van bestuur, samengesteld uit niet-uitvoerende bestuurders (waarvan minstens één onafhankelijk en met expertise in financiën of audit). Het comité houdt toezicht op de financiële verslaggeving, het IC-systeem, het werk van de interne en externe auditor, en op risicobeheer. Verplicht voor organisaties van openbaar belang en grote vennootschappen onder voorwaarden.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Bij Rotex Roeselare NV (beursgenoteerd) telt het auditcomité 3 niet-uitvoerende bestuurders, waaronder Robert Vandenberghe (ex-CFO van een bank, onafhankelijk + financiële expertise). Het comité vergadert 4x per jaar, ontvangt het IA-rapport van Sofie Janssens, bespreekt management letter van commissaris Wolters & Partners CVBA, valideert de jaarrekening vóór ze naar de RvB gaat.",
+  "in_praktijk": [
+    {
+      "aspect": "Vier kerntaken",
+      "betekenis": "(1) Toezicht op de financiële verslaggeving (jaarrekening, halfjaarrapport). (2) Toezicht op het IC- en risicobeheerssysteem. (3) Toezicht op interne audit (programma, bemensing, bevindingen). (4) Relatie met externe auditor (onafhankelijkheid, prestaties, niet-audit-diensten).",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "Wettelijk verplicht voor",
+      "betekenis": "Organisaties van openbaar belang (beursgenoteerd, kredietinstellingen, verzekeraars) zijn verplicht een auditcomité op te richten. Andere grote vennootschappen kunnen vrijwillig of via Corporate Governance Code. KMO's hebben deze verplichting niet.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "drie-lijnen-model", "redenering": "Auditcomité staat boven de drie lijnen — oversight-orgaan voor het geheel."},
+    {"type": "vereist-kennis-van", "target": "interne-audit", "redenering": "IA rapporteert idealiter aan auditcomité voor maximale onafhankelijkheid."}
+  ]
+}

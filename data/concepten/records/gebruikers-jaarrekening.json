@@ -4,22 +4,41 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.3.I.B", "1.3.taak.1"],
+  "linked_anchors": [
+    "1.3.I.B",
+    "1.3.taak.1",
+    "1.9.I"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.3.I.B",
-    "dekt_ook_anchors": ["1.3.taak.1"],
+    "dekt_ook_anchors": [
+      "1.3.taak.1"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "De jaarrekening wordt opgesteld voor en gebruikt door verschillende belanghebbenden met uiteenlopende informatiebehoeften. Elke gebruiker leest dezelfde cijfers met een eigen bril, wat bepaalt welke ratio's en kengetallen voor hem relevant zijn.",
     "confidence": "inferred-from-aggregation",
-    "source": {"type": "anker-itaa", "short": "ITAA-examenprogramma 1.3.I.B"},
-    "_provenance": {"inputs": [
-      {"id": "CBN-2018-15-boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen__sec_a-algemeen", "sha256": null, "version": "rag-v1"},
-      {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_de-jaarrekening", "sha256": null, "version": "rag-v1"}
-    ]}
+    "source": {
+      "type": "anker-itaa",
+      "short": "ITAA-examenprogramma 1.3.I.B"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2018-15-boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen__sec_a-algemeen",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_de-jaarrekening",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -29,8 +48,19 @@
       "voorbeeld_inline": "Een aandeelhouder van Rotex Roeselare NV vergelijkt het rendement op zijn aandelen (ROE 20,8 %) met alternatieven zoals aandelen van vergelijkbare beursvennootschappen.",
       "grondslag": "Vakdoctrine + anker 1.3.I.B",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.I.B", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.I.B",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Kredietverleners (banken, leveranciers)",
@@ -39,8 +69,19 @@
       "voorbeeld_inline": "Een bank evalueert een kredietaanvraag van Rotex Roeselare NV op basis van debt-equity (1,5) en cashflow (€ 4.200.000) → terugbetalingscapaciteit.",
       "grondslag": "Vakdoctrine + anker 1.3.I.B",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.I.B", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.I.B",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Werknemers en sociale partners",
@@ -49,8 +90,19 @@
       "voorbeeld_inline": "De ondernemingsraad van Rotex Roeselare NV bespreekt jaarlijks de jaarrekening en het bestuursverslag — verplichte sociaal-economische informatie.",
       "grondslag": "WVV + sociale wetgeving",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.I.B", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.I.B",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Fiscale en sociale overheden",
@@ -59,8 +111,19 @@
       "voorbeeld_inline": "De fiscus baseert haar aanslag vennootschapsbelasting op het belastbaar resultaat dat van de jaarrekening Rotex Roeselare NV vertrekt.",
       "grondslag": "WIB92 art. 321/1, 13°",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WIB92 art. 321/1, 13°"},
-      "_provenance": {"inputs": [{"id": "WIB92__art_321/1__sub_13deg", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WIB92 art. 321/1, 13°"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WIB92__art_321/1__sub_13deg",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Klanten en leveranciers",
@@ -69,8 +132,19 @@
       "voorbeeld_inline": "Een leverancier overweegt of hij Meubelzaak Mertens BV nog op 60 dagen wil leveren — bekijkt liquiditeit en evolutie van overgedragen resultaat.",
       "grondslag": "Vakdoctrine",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.I.B", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.I.B",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Het brede publiek",
@@ -79,8 +153,19 @@
       "voorbeeld_inline": "Een onderzoeksjournalist analyseert de jaarrekening van Rotex Roeselare NV om een artikel over de Vlaamse industriebasis te onderbouwen.",
       "grondslag": "WVV + KB WVV (publicatie)",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Belgisch jaarrekeningenrecht"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.I.B", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Belgisch jaarrekeningenrecht"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.I.B",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -89,19 +174,46 @@
       "betekenis": "Een 'goede analyse' bestaat niet abstract — ze is goed of slecht vanuit een specifiek gebruikersperspectief. Begin elke analyse met de vraag: voor wie analyseer ik?",
       "anker_slug": "1.3.I.B",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.I.B", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.I.B",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Belangen van gebruikers kunnen tegenstrijdig zijn. Een hoog dividend (aandeelhoudersgunstig) vermindert de buffer voor schuldeisers. De jaarrekening dient ze allemaal, maar de analyse interpreteert vanuit één perspectief tegelijk.",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.I.B", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.I.B",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "doelstellingen-financiele-analyse", "redenering": "Gebruikersperspectief stuurt de analyse-doelen.", "confidence": "inferred"}
+    {
+      "type": "vereist-kennis-van",
+      "target": "doelstellingen-financiele-analyse",
+      "redenering": "Gebruikersperspectief stuurt de analyse-doelen.",
+      "confidence": "inferred"
+    }
   ]
 }

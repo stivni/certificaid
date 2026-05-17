@@ -896,5 +896,615 @@
     "geconstateerd_door": "verify-run-20260516T130000Z-po1.1",
     "geconstateerd_op": "2026-05-16T12:56:18+00:00",
     "status": "open"
+  },
+  {
+    "record_id": "beroepsgeheim-accountant",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target 'plichtenleer-accountant' (type=onderdeel-van) wijst naar niet-bestaand record. KB-1998-plichtenleer / deontologie — record bestaat niet; mogelijke kandidaten: maak een nieuw record \"plichtenleer-accountant\" als kapstok of vervang door edge naar concreet sub-deel (bv. beroepsgeheim-accountant).",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "contractuele-controleopdracht",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target 'assurance-opdracht' (type=specialisatie-van) wijst naar niet-bestaand record. Geen record \"assurance-opdracht\"; suggestie: vervang door edge naar \"opdrachttypes-zekerheidsniveaus-synthese\" (bestaat) of maak nieuw kapstok-record.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "contractuele-controleopdracht",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target 'opdrachtbrief' (type=getriggerd-door) wijst naar niet-bestaand record. Vermoedelijk bedoeld \"opdrachtbrief-accountant\" (bestaat) — rename target.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "getrouw-beeld-controle",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target 'regelmatig-jaarrekening' (type=vergelijkt-met) wijst naar niet-bestaand record. Vermoedelijk bedoeld \"regelmatigheid-jaarrekening-audit\" (bestaat) — rename target.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "contractuele-beoordelingsopdracht",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target 'assurance-opdracht' (type=specialisatie-van) wijst naar niet-bestaand record. Geen record \"assurance-opdracht\"; suggestie: vervang door edge naar \"opdrachttypes-zekerheidsniveaus-synthese\" (bestaat) of maak nieuw kapstok-record.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "redelijke-mate-van-zekerheid",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target 'controlerisico' (type=vereist-kennis-van) wijst naar niet-bestaand record. Geen apart record; controlerisico = audit-risk = product, beschreven in \"auditrisicomodel\". Vervang target door \"auditrisicomodel\".",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "samenstellingsopdracht-isrs4410",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target 'opdrachten-gecertificeerd-accountant' (type=onderdeel-van) wijst naar niet-bestaand record. Geen kapstok-record; mogelijk vervangen door \"gecertificeerd-accountant-ga\" (bestaat) of \"opdrachttypes-zekerheidsniveaus-synthese\".",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "itaa-algemene-controlenorm",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target 'auditwerkschema' (type=bevat) wijst naar niet-bestaand record. Geen record; vermoedelijk bedoeld \"werkprogramma-audit\" (bestaat). Rename target.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "opvolging-voorganger-accountant",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target 'plichtenleer-accountant' (type=onderdeel-van) wijst naar niet-bestaand record. KB-1998-plichtenleer / deontologie — record bestaat niet; mogelijke kandidaten: maak een nieuw record \"plichtenleer-accountant\" als kapstok of vervang door edge naar concreet sub-deel (bv. beroepsgeheim-accountant).",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "controledocumentatie",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target 'auditcyclus' (type=onderdeel-van) wijst naar niet-bestaand record. Geen record met die exacte id; bestaat wel \"auditcyclus-fasen-synthese\". Rename target.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "assurance-informatie",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target 'externe-bevestiging' (type=bevat) wijst naar niet-bestaand record. Vermoedelijk bedoeld \"externe-bevestiging-audit\" (bestaat). Rename target.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "materieel-belang-audit",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target 'afwijking-van-materieel-belang' (type=vereist-kennis-van) wijst naar niet-bestaand record. Geen apart record; concept is beschreven binnen \"materieel-belang-audit\" + \"controleoordeel-types\". Verwijder edge of vervang door \"controleoordeel-types\".",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "onafhankelijkheid-externe-accountant",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target 'plichtenleer-accountant' (type=onderdeel-van) wijst naar niet-bestaand record. KB-1998-plichtenleer / deontologie — record bestaat niet; mogelijke kandidaten: maak een nieuw record \"plichtenleer-accountant\" als kapstok of vervang door edge naar concreet sub-deel (bv. beroepsgeheim-accountant).",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "gedeelde-wettelijk-voorbehouden-opdracht",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target 'controle-inbreng-in-natura' (type=bevat) wijst naar niet-bestaand record. Geen record; specifieke wettelijke opdracht voor commissaris/BR (WVV art. 5:7, 7:7). Mogelijk nieuw record waardig (gedeelde wettelijk voorbehouden opdracht-detail), maar in 1.5 (oprichting/inbreng) niet 1.6.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "opdrachtbrief-accountant",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edges[].target 'antiwitwas-meldingsplicht' (type=vereist-kennis-van) wijst naar niet-bestaand record. Geen record in 1.6-scope; concept ligt in 1.10/1.11 (anti-witwas). Vervang door extern-doc-link of verwijder edge.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "fraude-versus-fout",
+    "aspect": "vergelijkingsparen.target-ontbreekt",
+    "reden": "vergelijkingsparen[].vergelijking_met 'afwijking-van-materieel-belang' wijst naar niet-bestaand record. Geen record; concept ligt in \"controleoordeel-types\" + \"materieel-belang-audit\". Vervang target door \"controleoordeel-types\".",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "beroepsaansprakelijkheid-accountant",
+    "aspect": "vergelijkingsparen.target-ontbreekt",
+    "reden": "vergelijkingsparen[].vergelijking_met 'tuchtrechtelijke-aansprakelijkheid-accountant' wijst naar niet-bestaand record. Geen record; concept hoort in PO 1.6.I.B (rechtstatuut), kan worden toegevoegd als apart record (KB 1998 plichtenleer + Wet ITAA 2019 art. 124 e.v.). Voorlopig: verwijder paar of voeg later toe.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "intern-beheersingsrisico",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Concept 'intern-beheersingsrisico' (auditrisico-component) heeft geen edge naar PO1.7-record 'interne-controle' of 'coso-raamwerk'. Beide bestaan in de records-set. Cross-PO-brug ontbreekt — minicursus die in 1.6 deze term gebruikt kan niet doorlinken naar de 1.7-uitwerking.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "toetsing-interne-beheersing",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Methode 'toetsing-interne-beheersing' (test of controls) heeft geen edge naar PO1.7-record 'interne-controle'. De toets-methode veronderstelt het concept dat in 1.7 wordt uitgewerkt — een edge type 'vereist-kennis-van' of 'getriggerd-door' is gepast.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po-1.6-2026-05-17T00:00Z",
+    "geconstateerd_op": "2026-05-17T00:55:34.183928+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "ohlson-o-score",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Ohlson-record heeft slechts één edge (onderdeel-van kwantitatieve-financiele-diagnose). Tegenhanger `altman-z-score` heeft 3 edges incl. vereist-kennis-van werkkapitaal + solvabiliteitsratio. Ohlson-formule gebruikt nettowinst/totale-passiva, NBK/TA, current-ratio-achtige termen — edges naar `falen-van-de-onderneming`, `solvabiliteitsratio` en `current-ratio` zijn pedagogisch nodig voor uniforme rijkheid.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po-1.9-2026-05-17T03:00Z",
+    "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "kasstroomoverzicht-drie-segmenten",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Synthese-record heeft `gebaseerd_op_concepten` (4 records) maar leeg `edges[]`-veld. Andere synthese-records (zoals ratio-vier-doelen-vergelijking) hebben wel edges per onderdeel-concept. Aan te bevelen: edges type `bevat` of `samenvatting-van` naar cashflow-analyse, behoefte-aan-bedrijfskapitaal, financiering-met-eigen-vermogen, financiering-met-derdenkapitaal.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.9-2026-05-17T03:00Z",
+    "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "kwantitatieve-financiele-diagnose",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Synthese-record lijst `gebaseerd_op_concepten` (altman-z-score, ohlson-o-score, falen-van-de-onderneming) maar heeft geen `edges[]`. Voor RAG-graph-retrieval beter expliciete edges type `bevat` (altman, ohlson) en `getriggerd-door` (falen-van-de-onderneming).",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.9-2026-05-17T03:00Z",
+    "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "herstructurering-resultatenrekening",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Methode-record zonder `in_praktijk[]`. Andere methode-records in PO 1.9 (toegevoegde-waarde-financiele-analyse, interpretatie-financiele-ratios) hebben wel een in_praktijk-blok met examen-relevant 'wat moet je hieruit halen?'. Concretisering naar Rotex Roeselare NV met verkort-vs-volledig-schema-tegenstelling zou rijkheid uitbalanceren.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.9-2026-05-17T03:00Z",
+    "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "po-1.9-bron-corpus",
+    "aspect": "bron-corpus-uitbreiding",
+    "reden": "PO 1.9 leunt sterk op vakdoctrine: 9 van 13 nieuwe records dragen `confidence: inferred-common-knowledge` met `bron_gap` naar Belgische vakliteratuur (Ooghe-Van Wymeersch, Vereeck) en internationale werken (Altman 1968, Ohlson 1980). Een Belgisch handboek financiële analyse zou een groot aantal claims tegelijk grounden. Hoog praktijk_pct in 1.9-competenties is rechtstreeks gevolg.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po-1.9-2026-05-17T03:00Z",
+    "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+    "status": "open",
+    "aspect_type": "bron-gap"
+  },
+  {
+    "record_id": "po-1.9-anchor-1.9.IV.A",
+    "aspect": "open-werk",
+    "reden": "Anchor 1.9.IV.A ('Kasstroom en bedrijfscyclus') wordt overkoepelend gedekt door cashflow-analyse + behoefte-aan-bedrijfskapitaal + kasstroomoverzicht-drie-segmenten samen, maar er is geen synthese-record dat de cash-conversion-cycle visualiseert. Mogelijk follow-up: `kasstroom-bedrijfscyclus-overzicht`. Voor minicursus 1.9 niet blokkerend.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po-1.9-2026-05-17T03:00Z",
+    "geconstateerd_op": "2026-05-17T01:05:18.477963+00:00",
+    "status": "open",
+    "aspect_type": "proces-gap"
+  },
+  {
+    "record_id": "onderhanden-projecten-ifrs",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Edge 'vervangt → ias-11-onderhanden-projecten' wijst naar niet-bestaand record. Historische IAS 11 is geen apart record; markeren als historische_noot in _provenance volstaat. Edge verwijderen of stub-record toevoegen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-1.5-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:07:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": "opbrengsten-ifrs",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "Edge 'vergelijkt-met → opbrengsten' wijst naar niet-bestaand BE-GAAP-record. PO 1.1 heeft (nog) geen 'opbrengsten'-record (realisatiebeginsel zit verspreid in andere fiches). Aanbevolen: BE-GAAP-pendant `opbrengsten` aanmaken in PO 1.1.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-1.5-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:07:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": "wijziging-boekhoudkundig-referentiestelsel",
+    "aspect": "stappen.onvolledig",
+    "reden": "node_type=procedure maar 0 stappen — terwijl andere PO 1.5-procedures (ifrs-eerste-toepassing 5 stappen, correctie-jaarrekening-ifrs 3 stappen) wel een uitgewerkte stappen-lijst hebben. Wisseling-procedure (CBN 2022/08) verdient minimaal 3-4 stappen: beslissing AV, IFRS-openingsbalans, parallel-rapportering, eerste IFRS-jaarrekening + aansluitingen.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-run-1.5-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:07:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": "afschrijvingen-ifrs",
+    "aspect": "stappen.onvolledig",
+    "reden": "node_type=methode maar 0 stappen; bijzondere-waardevermindering-ias-36 (ook methode) heeft 4 stappen, opbrengsten-ifrs (methode) heeft 5 stappen. Inconsistente rijkheid binnen node_type. Afschrijvings-methode-keuze (lineair/degressief/units-of-production) + componentenbenadering + restwaarde-herziening verdient procedurele stappen.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-1.5-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:07:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": "herwaarderingsmodel-ias-16",
+    "aspect": "stappen.onvolledig",
+    "reden": "node_type=methode met 0 stappen — terwijl bijzondere-waardevermindering-ias-36 (ook methode) wel 4 stappen heeft. Herwaarderingsproces (frequentie, OCI-boeking, realisatie, terugname) heeft duidelijke procedurele structuur die ontbreekt.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-1.5-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:07:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": "componentenbenadering-ias-16",
+    "aspect": "stappen.onvolledig",
+    "reden": "node_type=methode met 0 stappen; identificatie van significante componenten + apart afschrijvingsplan per component + vervanging is een procedurele cyclus.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-1.5-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:07:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": "leaseverplichting-ifrs",
+    "aspect": "valkuilen.ontbreekt",
+    "reden": "0 valkuilen terwijl andere begrippen (ias-1-jaarrekening-componenten 2, prestatieverplichting-ifrs-15 2) wel minstens 1 valkuil hebben. Klassieke fouten bij leaseverplichting: verkeerde rentevoet (lessor-impliciet zonder onderbouwing), variabele omzet-huur ten onrechte opgenomen, geen herwaardering bij optie-herziening — verdienen documentatie.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-1.5-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:07:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": "right-of-use-actief",
+    "aspect": "valkuilen.ontbreekt",
+    "reden": "0 valkuilen; andere begrip-records hebben er 1-2. Typische fouten: vergeten initiële directe kosten en ontmantelingsverplichting in eerste waardering; verkeerde afschrijvingsduur kiezen (lager van lease-periode versus gebruiksduur — niet andersom).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-1.5-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:07:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": "ias-1-winst-en-totaalresultaat",
+    "aspect": "valkuilen.ontbreekt",
+    "reden": "Slechts 2 valkuilen waarvan inhoudelijk weinig geld-impact. OCI-items reclassificatie versus geen reclassificatie is een notoire examenval bij dit begrip — niet als valkuil gedocumenteerd.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-1.5-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:07:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": "be-gaap-vs-ifrs-overzicht",
+    "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+    "reden": "Synthese-record vergelijkt 10 BE-GAAP/IFRS-paren maar `vergelijkingstabel` rijen verwijzen in vrije tekst naar 'IFRS 16 single model' zonder structurele link naar `leasing-ifrs`; idem voor IAS 38 onderzoek/ontwikkeling zonder link naar `immateriele-vaste-activa-ifrs`. Verifieer of `gebaseerd_op_concepten[]` deze allemaal opvangt; zoniet → links spiegelen.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-1.5-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:07:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": "opbrengsten-ifrs",
+    "aspect": "records.ontbreekt",
+    "reden": "BE-GAAP-tegenhanger record `opbrengsten` (realisatiebeginsel KB WVV art. 3:18 + 3:46) ontbreekt in corpus — terwijl vergelijkingsparen[] en edges[] hem nodig hebben voor symmetrische BE-GAAP↔IFRS-15-vergelijking. Aanmaken in PO 1.1-scope.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-1.5-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:07:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": "be-gaap-vs-ifrs-overzicht",
+    "aspect": "records.ontbreekt",
+    "reden": "Voor PO 1.5.V.C bestaat geen aparte synthese over lessee-versus-lessor onder IFRS 16. Lessor-classificatie (operationeel/financieel — alinea 61-66) blijft asymmetrisch t.o.v. lessee single-model; één pedagogisch synthese-record (`ifrs-16-lessee-vs-lessor-overzicht`) is bruikbaar maar facultatief.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-1.5-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:07:55Z",
+    "status": "open"
+  },
+  {
+    "record_id": "prijsverschil-arbeid",
+    "aspect": "berekeningsmethode.formule",
+    "reden": "Record beschrijft tariefverschil + efficiëntieverschil in vrije tekst (definitie) maar mist structurele berekeningsmethode + formules + variabelen + invulling_voorbeeld. Voor een methodisch berekenbaar verschil-mechanisme is dat ondervoldoende voor minicursus.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-1.8-2026-05-17",
+    "geconstateerd_op": "2026-05-17T12:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": "prijsverschil-arbeid",
+    "aspect": "berekeningsmethode.concreet_voorbeeld",
+    "reden": "Geen numeriek voorbeeld bij splitsing tariefverschil / efficiëntieverschil — verschillenboekhouding-record dekt materiaal maar arbeid wordt hier alleen tekstueel beschreven.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-1.8-2026-05-17",
+    "geconstateerd_op": "2026-05-17T12:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": "werkelijke-kostencalculatie",
+    "aspect": "stappen.onvolledig",
+    "reden": "Node_type 'methode' maar geen stappen, geen berekeningsmethode, geen in_praktijk. Alleen één bouwsteen + één vergelijkingspaar. Een methode-record behoort minstens een procedure of formule te dragen — niet enkel een conceptuele afbakening tegenover voorbepaalde-kosten.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-1.8-2026-05-17",
+    "geconstateerd_op": "2026-05-17T12:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": "registratiesysteem-waarderingsneutraal",
+    "aspect": "stappen.onvolledig",
+    "reden": "Methode-record maar zonder stappen of berekeningsmethode. De CBN-3/3-waarderingsneutraliteit wordt in één bouwsteen geponeerd maar de concrete reconciliatieprocedure (klasse 6 ↔ klasse 9) ontbreekt — terwijl in_praktijk wel naar zo'n procedure verwijst.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-1.8-2026-05-17",
+    "geconstateerd_op": "2026-05-17T12:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": "registratiesysteem-eenvoudige-integratie",
+    "aspect": "stappen.onvolledig",
+    "reden": "Methode-record met enkel bouwstenen; geen stap-procedure die toont hoe klasse-9-rekeningen ingericht worden of geboekt. Voor examenvraag 'beschrijf het registratiesysteem' onvoldoende.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-1.8-2026-05-17",
+    "geconstateerd_op": "2026-05-17T12:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": "registratiesysteem-proportionele-integratie",
+    "aspect": "stappen.onvolledig",
+    "reden": "Methode-record zonder stappen of berekening; alleen bouwstenen. Voor het analytische scenario waarbij algemene en analytische boekhouding gekoppeld zijn met vaste sleutels, ontbreekt het procedurele draaiboek.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-1.8-2026-05-17",
+    "geconstateerd_op": "2026-05-17T12:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": "kostprijs-per-eenheid",
+    "aspect": "berekeningsmethode.formule",
+    "reden": "Centraal-genoeg begrip waarvan drie gebruiksvormen (vervaardiging / volledig / variabel) elk een eigen rekenwijze hebben. Record beschrijft het tekstueel maar mist berekeningsmethode + formule + numeriek voorbeeld die de drie waarden ontleedt.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-1.8-2026-05-17",
+    "geconstateerd_op": "2026-05-17T12:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": "statisch-budget",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Begrip-record dunne uitwerking: alleen definitie + één vergelijkingspaar. Voor uniforme rijkheid met flexibel-budget zou een in_praktijk-blok of voorbeeld_inline met cast-bedragen gewenst zijn.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-1.8-2026-05-17",
+    "geconstateerd_op": "2026-05-17T12:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": "flexibel-budget",
+    "aspect": "berekeningsmethode.concreet_voorbeeld",
+    "reden": "Definitie + één vergelijkingspaar maar geen numeriek voorbeeld van het aanpassen van budgetbedragen aan een werkelijk volumeniveau — terwijl dat de hele toegevoegde waarde van flexibel budget vormt.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-1.8-2026-05-17",
+    "geconstateerd_op": "2026-05-17T12:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": "opportuniteitskost",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Beslissings-economisch begrip met centraal belang voor make-or-buy en marginale-analyse. Record heeft alleen definitie + één in_praktijk-item; mist een voorbeeld_inline met cast-bedragen en cross-link naar make-or-buy-procedure.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-1.8-2026-05-17",
+    "geconstateerd_op": "2026-05-17T12:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": "kostendrager",
+    "aspect": "vergelijkingsparen.ontbreekt",
+    "reden": "Kostendrager wordt in praktijk verward met kostencentrum (waarheen verdelen vs. waarop verzamelen). Geen expliciet vergelijkingspaar tegenover kostencentrum, terwijl dat bij studenten een hoog verwarringsrisico is.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-1.8-2026-05-17",
+    "geconstateerd_op": "2026-05-17T12:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": "budgetboekhouding",
+    "aspect": "definitie.onvolledig",
+    "reden": "Definitie blijft kort en geeft niet duidelijk aan hoe budget-rekeningen (klasse 9 budgettair) zich verhouden tot werkelijke analytische rekeningen — terwijl record bedoeld is als brug naar verschillenboekhouding.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-1.8-2026-05-17",
+    "geconstateerd_op": "2026-05-17T12:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": "verschillenboekhouding",
+    "aspect": "records.overlappend-fenomeen",
+    "reden": "Verschillenboekhouding én prijsverschil-arbeid beschrijven beide de splitsing tariefverschil/efficiëntieverschil maar voor verschillende kostcomponenten. Risico op gedupliceerde uitleg; overweeg merge (prijsverschil-arbeid als sectie binnen verschillenboekhouding) of duidelijke afbakening met cross-link.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-1.8-2026-05-17",
+    "geconstateerd_op": "2026-05-17T12:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": "kostenanalyse-make-or-buy",
+    "aspect": "stappen.onvolledig",
+    "reden": "Afwegingskader-record met alleen bouwstenen + in_praktijk; geen procedurele stappen die de stagiair leiden door de beslissing (relevante kost identificeren → sunk weglaten → opportuniteitskost inbrengen → vergelijken → kwalitatieve factoren). Voor competentie-destillatie te dun als enige bron.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-1.8-2026-05-17",
+    "geconstateerd_op": "2026-05-17T12:00Z",
+    "status": "open"
+  },
+  {
+    "record_id": "aankoopcyclus-ic",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Record bevat enkel `verplichting` (189 chars over btw + KB 21.10.2018). Geen `bouwstenen`, geen `voorbeeld_inline`, geen `in_praktijk`. Te dun voor minicursus-stap \"aankoopcyclus-controle inrichten\" zoals 1.7.IX.A vraagt.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po17-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "verkoopcyclus-ic",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Record bevat enkel `verplichting` (77 chars). Geen IC-specifieke bouwstenen (controlepoorten, credit-check, factuurmatch). Anchor 1.7.IX.C niet didactisch dekkend.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po17-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "productiecyclus-ic",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Record bevat enkel `verplichting` (78 chars). Geen bouwstenen voor productiebon-flow, voorraad-WIP-controle, cost-allocation-toets. Anchor 1.7.IX.B niet uitvoerbaar.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po17-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "hr-cyclus-ic",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Record bevat enkel `verplichting` (82 chars). Geen bouwstenen voor ghost-employee-risico, loonberekening-controle, AVG-personeelsdata-link. Anchor 1.7.IX.D niet didactisch.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po17-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "voorraadcyclus-ic",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Record bevat enkel `verplichting` (69 chars, KB 21.10.2018) + 2 valkuilen. Geen bouwstenen voor inventaris-procedure, voorraadtelling-functiescheiding, cycle-counts. Anchor 1.7.IX.E niet didactisch.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po17-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "uitvoering-interne-controle",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Anchor 1.7.VIII.A \"uitvoering van IC\" — record bevat enkel `verplichting` + 2 valkuilen. Geen bouwstenen die de 5 COSO-componenten in uitvoering tonen. Centraal anchor te dun.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po17-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "evaluatie-interne-controle",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Anchor 1.7.VIII.F + 1.7.XI \"evaluatie IC\" — record bevat enkel `verplichting` (267 chars) + 1 in_praktijk. Geen bouwstenen voor design vs operating effectiveness, walk-through, sample-tests. Centraal anchor voor evaluatie-competentie te dun.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po17-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "controleproces-organisatie",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Record bevat enkel `verplichting` (51 chars: \"managementinstrument\"). Geen bouwstenen voor planning/uitvoering/feedback-fasen, PDCA-link. Anchor 1.7.II.F niet didactisch.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po17-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "inbreng-in-natura-verslag",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Record bevat enkel `verplichting` (227 chars). Geen bouwstenen voor inhoud verslag, waarderingsmethoden, vergelijking met quasi-inbreng, niet-rendabele-inbreng. Anchor 1.7.taak.1 + 1.7.XIII te dun voor bijzondere-verslagen-competentie.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po17-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "interne-controle",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edge `vergelijkt-met` wijst naar 'coso-i-erm-framework' — bestaat niet. Bedoeld is waarschijnlijk 'coso-ii-erm-framework' (ERM-uitbreiding).",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po17-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "functiescheiding",
+    "aspect": "edges.target-ontbreekt",
+    "reden": "edge wijst naar 'vier-functies-segregatie' — record bestaat niet. De vier functies zijn beschreven als bouwsteen binnen `functiescheiding` zelf; edge is overbodig of moet hertarget worden naar 'taakverdeling-ic'.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-run-po17-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "auditrisico-1-7-context",
+    "aspect": "records.overlappend-fenomeen",
+    "reden": "Record beschrijft auditrisico in IC-context (1.7.V.E) maar 1.6 heeft al `auditrisicomodel` (IR x CR x DR). Overlap-risico voor minicursus 1.7: lezer ziet twee records over hetzelfde fenomeen. Beslissen: ofwel mergen ofwel `auditrisico-1-7-context` herpositioneren als pure cross-link.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po17-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "externe-controle",
+    "aspect": "vergelijkingsparen.vrije-tekst-niet-gespiegeld",
+    "reden": "Record beschrijft externe controle door commissaris/accountant/fiscale-controleur (1.7.I.B). 1.2-context (fiscale + sociale controle-autoriteiten) wordt vermeld in vrije tekst maar geen `vergelijkingsparen` of `edges` naar 1.2-records (bv. `fiscale-administratie-bevoegdheid`). Stagiair die 1.7 leert mist linkjes naar 1.2-actoren.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-run-po17-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": "cyclus-analyse-ic",
+    "aspect": "in_praktijk.ontbreekt",
+    "reden": "Synthese-record verwijst naar 5 cyclus-records (aankoop/productie/verkoop/hr/voorraad) die allemaal als enige veld een `verplichting` < 200 chars hebben. Uniforme rijkheid (Regel 5 v3) is geschonden: synthese kan niet correct vergelijken zonder onderliggende bouwstenen.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-run-po17-2026-05-17",
+    "geconstateerd_op": "2026-05-17T01:10:40.809699+00:00",
+    "status": "open"
   }
 ]

@@ -1,0 +1,45 @@
+{
+  "id": "coso-ii-erm-framework",
+  "naam": "COSO II — Enterprise Risk Management",
+  "node_type": "methode",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.XII.E", "1.7.XII.F", "1.7.XII"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T10:51Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.XII.E",
+    "dekt_ook_anchors": ["1.7.XII.F", "1.7.XII"],
+    "reviewed_by": null,
+    "bron_gap": "COSO II (2004, herziene versie 2017 'ERM-Integrating with Strategy and Performance'). Internationale vakdoctrine. Inferred-common-knowledge."
+  },
+  "doel": {
+    "text": "COSO II breidt COSO I uit naar Enterprise Risk Management — een geïntegreerde benadering van risicobeheer die strategie, prestaties en cultuur in één framework brengt. Centraal: risicobeheer is geen afzonderlijke functie maar verweven in elke strategische beslissing. Herziening 2017 verlegt klemtoon naar 'risk in strategy setting' en 'risk appetite'.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Bij Rotex Roeselare NV (groot, beursgenoteerd): COSO II ondersteunt het risicobeheer op enterprise-niveau. Strategie 'expansie naar Duitse markt' krijgt risico-assessment (regelgeving, valuta, concurrentie, reputatie) en wordt afgewogen tegen risk appetite vastgesteld door RvB.",
+  "bouwstenen": [
+    {
+      "titel": "Vijf samenstellende delen (2017)",
+      "wat": "(1) Governance & cultuur. (2) Strategy & objective setting. (3) Performance (incl. risicoresponsen). (4) Review & revision. (5) Information, communication & reporting. Daaronder 20 principes.",
+      "waarom": "Integreert risico in strategische cyclus — niet alleen operationeel.",
+      "grondslag": "COSO 2017 herziening",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "titel": "Risk appetite",
+      "wat": "De hoeveelheid risico die de onderneming bewust wil nemen om strategische doelstellingen te halen. Wordt door bestuur vastgesteld, kwalitatief én kwantitatief.",
+      "waarom": "Zonder expliciete risk appetite worden risico's ad-hoc beoordeeld — inconsistent en moeilijk te delegeren.",
+      "voorbeeld_inline": "RvB Rotex Roeselare NV: 'maximum 2% van EBITDA aan operationele losses; geen tolerance voor compliance-overtredingen'. Operationele directies werken binnen deze envelop.",
+      "grondslag": "COSO 2017",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "vergelijkt-met", "target": "coso-i-framework", "redenering": "COSO II breidt I uit met strategisch + enterprise-perspectief."},
+    {"type": "vergelijkt-met", "target": "iso-31000-risicobeheer", "redenering": "ISO 31000 is generiekere risicostandaard; COSO is gerichter op US-audit-context."}
+  ]
+}

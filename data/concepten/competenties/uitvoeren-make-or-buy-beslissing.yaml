@@ -1,0 +1,171 @@
+id: uitvoeren-make-or-buy-beslissing
+titel: Uitvoeren van een make-or-buy-beslissing op basis van kostenanalyse
+status: voorgesteld
+schema_version: "1.1"
+programmaonderdelen:
+- 1.8
+voortkomend_uit:
+  taken:
+  - 1.8.taak.1
+  kenniselementen:
+  - 1.8.III.E
+  - 1.8.taak.1
+gebaseerd_op_concepten:
+- kostenanalyse-make-or-buy
+- marginale-kostprijs
+- variabele-kosten
+- vaste-kosten
+- opportuniteitskost
+- sunk-cost
+- contributiemarge
+- volledige-kostencalculatie
+procedure_grondslag:
+  wettelijk_pct: 0
+  praktijk_pct: 100
+  motivering: Make-or-buy-analyse is management-accounting-doctrine zonder Belgische wettelijke grondslag. Vereist mens-review wegens praktijk_pct > 70%.
+stappen:
+- nr: 1
+  titel: Afbakenen van de beslissingshorizon en scope
+  wat: Bepaal of de beslissing korte termijn (capaciteit vaststaat) of lange termijn (capaciteit kan wijzigen) is, en welke alternatieven realistisch zijn.
+  waarom: Op korte termijn zijn vaste kosten meestal sunk; op lange termijn worden ze opnieuw relevant. Verkeerde horizon = verkeerde kost.
+  input:
+  - artefact: Productie-/inkoop-vraagstuk
+    veld: Welk onderdeel of welke fase, voor welk volume, welke termijn
+    type: document
+  - artefact: Capaciteitsstatus
+    veld: Vrije capaciteit of beperking
+    type: document
+  output:
+  - artefact: Beslissingskader
+    veld: Horizon + alternatieven + capaciteits-context
+    type: document
+  hoe: |
+    1. Definieer alternatief A (zelf maken) tegen alternatief B (uitbesteden of inkopen).
+    2. Klasseer horizon: incidenteel (1-3 maanden) of structureel (> 1 jaar).
+    3. Toets capaciteit: heeft 'maken' nog vrije capaciteit of moet er geïnvesteerd worden?
+    4. Beslis welke kostendefinitie van toepassing is: marginaal (korte termijn) of
+       volledig (lange termijn) volgens [[kostenanalyse-make-or-buy]] §horizon.
+  grondslag: "[[kostenanalyse-make-or-buy]] §horizon, [[marginale-kostprijs]] §korte-termijn"
+- nr: 2
+  titel: Identificeren van relevante kosten — sunk-cost-filter en opportuniteits-toets
+  wat: Selecteer alleen kosten die door de beslissing wijzigen; elimineer sunk costs en breng eventuele opportuniteitskost in beeld.
+  waarom: Beslissen op basis van niet-relevante kosten leidt tot foute conclusies — een klassieke examenval.
+  input:
+  - artefact: Volledige kostprijs-uitsplitsing alternatief A en B
+    veld: Per kostensoort + classificatie
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Tabel relevante kosten per alternatief
+    veld: Inkrementele kosten + opportuniteit
+    type: boekhoudkundig-bedrag
+  hoe: |
+    1. Pas [[sunk-cost]] §filter toe: schrap eerder gemaakte uitgaven (bv. al
+       afgeschreven machine, al betaalde opleiding).
+    2. Pas [[opportuniteitskost]] §beslissingsregel toe: zou de capaciteit anders
+       worden ingezet bij keuze 'kopen'? Tel die gederfde contributiemarge bij de
+       kost van 'maken'.
+    3. Voor 'kopen': verwerk inkomende kost + ontvangstcontrole + transport in inkoopprijs.
+    4. Vermijd full-costing-allocaties van algemene overhead die toch blijft lopen.
+  grondslag: "[[sunk-cost]] §filter, [[opportuniteitskost]] §beslissingsregel, [[kostenanalyse-make-or-buy]] §relevant-kost"
+- nr: 3
+  titel: Berekenen en vergelijken van de twee alternatieven
+  wat: Bereken de totale inkrementele kost (inclusief opportuniteit) per alternatief en vergelijk.
+  waarom: De numerieke kern van make-or-buy is een directe vergelijking van relevante kosten — wat overblijft na de filter.
+  input:
+  - artefact: Tabel relevante kosten uit stap 2
+    veld: Bedragen per alternatief
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Voorkeurs-alternatief op kost-basis
+    veld: Verschil €
+    type: conclusie
+  hoe: |
+    1. Totaal alternatief A (maken) = variabele kost zelf-productie + inkrementele
+       vaste kost (alleen als die wijzigt) + opportuniteitskost capaciteit.
+    2. Totaal alternatief B (kopen) = inkoopprijs × volume + ontvangstkosten +
+       eventuele resterende interne kost.
+    3. Kies het laagste totaal — maar zie stap 4 voor kwalitatieve factoren.
+  voorbeeld:
+    scenario: "Yperse Werkplaats BV overweegt om de Spinnerij te outsourcen. Jaarvraag = 8.000 mach-uren spinwerk voor de productie. Externe spinnerij vraagt € 70/uur. Interne variabele kost = € 45/uur. Vaste kosten Spinnerij € 200.000 (bij outsourcing 60 % vermijdbaar). Vrijgekomen capaciteit kan extra weverij-werk doen met contributiemarge € 30.000/jaar."
+    substappen:
+    - nr: 1
+      titel: Relevante kosten zelf-spinnen (A)
+      type: berekening
+      data: |
+        | Component                          | Bedrag       |
+        |------------------------------------|-------------:|
+        | Variabele kost (8.000 u × € 45)    | € 360.000    |
+        | Vermijdbare vaste kost             | € 120.000    |
+        | Opportuniteitskost (vrijgekomen)   | €  30.000    |
+        | **Totaal A**                       | **€ 510.000** |
+    - nr: 2
+      titel: Relevante kosten uitbesteden (B)
+      type: berekening
+      data: |
+        | Component                          | Bedrag       |
+        |------------------------------------|-------------:|
+        | Inkoopprijs (8.000 u × € 70)       | € 560.000    |
+        | **Totaal B**                       | **€ 560.000** |
+    - nr: 3
+      titel: Conclusie
+      type: opmerking
+      data: |
+        Zelf maken is € 50.000 goedkoper op jaarbasis. Zelf-maken behouden, tenzij
+        kwalitatieve factoren anders aangeven (zie stap 4).
+  grondslag: "[[kostenanalyse-make-or-buy]] §vergelijking, [[opportuniteitskost]] §beslissingsregel"
+- nr: 4
+  titel: Toetsen aan kwalitatieve factoren en risico's
+  wat: "Weeg niet-financiële criteria mee: kwaliteitscontrole, leveringszekerheid, kennis-behoud, strategische afhankelijkheid, sociale gevolgen."
+  waarom: Een 'goedkopere' uitbesteding kan operationeel duurder uitvallen door kwaliteitsproblemen, langere doorlooptijd of personeels-afvloeiing.
+  input:
+  - artefact: Voorkeur op kost-basis uit stap 3
+    veld: A of B met verschil €
+    type: conclusie
+  - artefact: Lijst kwalitatieve factoren
+    veld: Risico's + opportuniteiten
+    type: document
+  output:
+  - artefact: Eindadvies
+    veld: Maken / kopen + voorwaarden
+    type: conclusie
+  hoe: |
+    1. Inventariseer kwalitatieve factoren in een SWOT-stijl tabel:
+       - Sterkte/Zwakte: kwaliteit, kennis, capaciteit, kostenstructuur.
+       - Kans/Bedreiging: leverancier-marktmacht, afhankelijkheid, doorlooptijd.
+    2. Test het verschil uit stap 3 op gevoeligheid: bij welke prijsstijging van de
+       leverancier kantelt de beslissing? Bij welke daling van interne efficiëntie?
+    3. Indien financieel verschil klein (< 10 %) én strategisch risico hoog
+       (kennis-verlies, single source): meestal zelf-maken houden.
+    4. Documenteer eindadvies met expliciete voorwaarden (bv. heronderhandel
+       leveranciersprijs binnen 6 maanden).
+  valkuilen:
+  - advies: "Filter alle sunk costs (afgeschreven machines, vorige opleidingen) eruit vóór je gaat vergelijken."
+    vaak_fout: "Sunk costs meetellen in de make-zijde — leidt tot te dure 'maken' en onterechte voorkeur voor 'kopen'."
+    grondslag: "[[sunk-cost]] §filter"
+  - advies: "Voer altijd de opportuniteitskost-toets uit voor capaciteit die vrijkomt of die elders ingezet kan worden."
+    vaak_fout: "Vergeten dat vrijgekomen capaciteit alternatieve contributiemarge kan leveren — leidt tot verkeerde voorkeur."
+    grondslag: "[[opportuniteitskost]] §beslissingsregel"
+  - advies: "Onderzoek of vermeende 'vaste kosten' bij outsourcing werkelijk vermijdbaar zijn (afvloeiing, machine-verkoop, opzegtermijnen)."
+    vaak_fout: "Vaste kosten 100 % als vermijdbaar inschatten terwijl ze deels blijven doorlopen."
+    grondslag: "[[vaste-kosten]] §vermijdbaar-versus-doorlopend"
+  grondslag: "[[kostenanalyse-make-or-buy]] §kwalitatieve-toets"
+beslisboom:
+- vraag: "Is dit een korte-termijn-beslissing met vaste capaciteit?"
+  ja: "Werk met marginale kostprijs (variabele kost + opportuniteit)."
+  nee: "Werk met volledige inkrementele kost (inclusief inkrementele vaste kosten en vermijdbaarheid)."
+- vraag: "Komt door 'kopen' capaciteit vrij die rendabel ingezet kan worden?"
+  ja: "Tel de gederfde contributiemarge bij de make-kost als opportuniteitskost."
+  nee: "Opportuniteitskost = 0."
+- vraag: "Is het financieel verschil kleiner dan 10 % en het strategisch risico hoog?"
+  ja: "Behoud zelf-maken ondanks marginale meerkost."
+  nee: "Volg de kost-uitkomst."
+voorbeelden:
+- situatie: "Yperse Werkplaats BV — outsourcen van de Spinnerij voor 8.000 mach-uren tegen € 70/uur."
+  conclusie: "Zelf-maken is € 50.000 goedkoper op jaarbasis (relevant total € 510.000 vs. € 560.000); zelf-spinnen behouden tenzij kennis-/kwaliteitsrisico's anders bepalen."
+  grondslag: "[[kostenanalyse-make-or-buy]] §vergelijking, [[opportuniteitskost]]"
+  redenering: "Relevante kost = variabel + vermijdbaar vast + opportuniteit. Sunk costs (al afgeschreven spinmachines) blijven buiten beschouwing."
+_provenance:
+  voorgesteld_door: "competentie-destillatie-v2-1.8-2026-05-17"
+  voorgesteld_op: "2026-05-17T12:00Z"
+  gecureerd_door: null
+  gecureerd_op: null

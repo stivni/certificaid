@@ -1,0 +1,85 @@
+{
+  "id": "arbeidskosten",
+  "naam": "Arbeidskosten",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.II.C", "1.8.II.A"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.II.C",
+    "dekt_ook_anchors": ["1.8.II.A"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Arbeidskosten in analytische zin omvatten het brutoloon plus alle bijhorende werkgeverslasten (sociale zekerheid, vakantiegeld, eindejaarspremie, verzekering arbeidsongevallen, bedrijfsvoorheffing als doorstortingsplicht). Het bruto-loon alleen onderschat de werkelijke arbeidskost met typisch 25-40 %.",
+    "confidence": "grounded",
+    "source": {"type": "wet", "short": "WIB92 art. 30-31 (begrip bezoldiging); KB MAR klasse 62"},
+    "_provenance": {
+      "inputs": [
+        {"id": "WIB92__art_30", "sha256": null, "version": "rag-v1"},
+        {"id": "WIB92__art_31", "sha256": null, "version": "rag-v1"}
+      ]
+    }
+  },
+  "voorbeeld_inline": "Een naaister bij Yperse Werkplaats BV verdient bruto € 2.800/maand. Werkgeversbijdragen RSZ ± 27 % = € 756; voorzieningen vakantiegeld en eindejaarspremie ± € 420. Totale maandkost voor de werkgever ≈ € 3.976. Bij 152 uur/maand → arbeidskost per uur ± € 26.",
+  "bouwstenen": [
+    {
+      "titel": "Componenten van de arbeidskost",
+      "wat": "(1) Bruto-loon, (2) werkgeversbijdrage RSZ, (3) vakantiegeld en eindejaarspremie, (4) arbeidsongevallenverzekering, (5) maaltijdcheques en andere voordelen, (6) opleidings- en outplacementkosten. Sommige worden via provisie verdeeld over de maanden.",
+      "waarom": "Volledig zicht op kost per uur of per stuk; vereist voor kostprijsberekening en make-or-buy-vergelijkingen.",
+      "voorbeeld_inline": "Yperse Werkplaats BV hanteert in haar analytische boekhouding een standaard arbeidskost van € 25/uur (afgerond, inclusief alle werkgeverslasten en gemiddelde productiviteit). Dit standaardtarief wordt aan elk order toegewezen op basis van de geregistreerde werkbon-uren.",
+      "grondslag": "Wet 3 juli 1978 (arbeidsovereenkomsten) · WIB92 art. 30-31 (begrip bezoldiging)",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WIB92 art. 30"},
+      "_provenance": {
+        "inputs": [
+          {"id": "WIB92__art_30", "sha256": null, "version": "rag-v1"},
+          {"id": "Wet-3-juli-1978__art_2", "sha256": null, "version": "rag-v1"}
+        ]
+      }
+    },
+    {
+      "titel": "Directe vs. indirecte arbeid",
+      "wat": "Directe arbeid = uren die rechtstreeks aan een specifiek order/product zijn besteed en op werkbon zijn geregistreerd. Indirecte arbeid = uren die meerdere orders ondersteunen (afdelingshoofd, onderhoud, kwaliteitscontrole) of niet-toewijsbare tijd (omsteltijd, wachttijd, opleidingstijd).",
+      "waarom": "Beslist of de arbeidskost rechtstreeks in de kostprijs gaat of via overhead-sleutel.",
+      "voorbeeld_inline": "Bij Yperse Werkplaats BV registreren de naaisters elke ochtend via badge welk order ze starten — directe arbeid. Het loon van de productieleider Marleen De Cock (€ 6.000/maand inclusief lasten) wordt over alle Confectie-orders verdeeld via directe arbeidsuren als sleutel — indirecte arbeid.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Niet-productieve uren",
+      "betekenis": "Per fulltime werknemer telt een jaar ± 1.560 productieve uren (na vakantie, ziekte, feestdagen, opleiding). Wie de jaarkost deelt door 2.080 uur (40h × 52 weken) onderschat de uurkost met ± 25 %.",
+      "herkenningspunt": "Make-or-buy-vragen: gebruik altijd productieve uren in de noemer.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "Bedrijfsvoorheffing en RSZ als verplichting",
+      "betekenis": "WIB92 art. 30 omschrijft bezoldigingen breed: 'alle beloningen die voor de werknemer de opbrengst zijn van arbeid in dienst van een werkgever'. De werkgever is verantwoordelijk voor inhouding bedrijfsvoorheffing en doorstorting RSZ — deze lasten zijn kost voor de werkgever, niet voor de werknemer.",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "WIB92 art. 30-31"},
+      "_provenance": {
+        "inputs": [
+          {"id": "WIB92__art_30", "sha256": null, "version": "rag-v1"},
+          {"id": "WIB92__art_31", "sha256": null, "version": "rag-v1"}
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Bedrijfsleider-bezoldiging en zelfstandige bijdragen volgen een ander regime (bedrijfsleidersbezoldigingen op rekening 618, niet 62). Bij een vennootschap met enkel een zaakvoerder: 'arbeidskost' van die zaakvoerder zit niet in klasse 62.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "kostensoort", "redenering": "Arbeid is één van de drie hoofdsoorten.", "confidence": "inferred"},
+    {"type": "bevat", "target": "directe-kosten", "redenering": "Directe arbeid is een directe kost.", "confidence": "inferred"},
+    {"type": "bevat", "target": "indirecte-kosten", "redenering": "Indirecte arbeid is een indirecte kost.", "confidence": "inferred"}
+  ]
+}

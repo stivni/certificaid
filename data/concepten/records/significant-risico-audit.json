@@ -1,0 +1,37 @@
+{
+  "id": "significant-risico-audit",
+  "naam": "Significant risico (audit)",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.II.B", "1.6.III.A"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.II.B",
+    "dekt_ook_anchors": ["1.6.III.A"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Een significant risico is een onderkend en ingeschat risico op een afwijking van materieel belang waaraan — volgens het oordeel van de beroepsbeoefenaar — tijdens de controle SPECIALE aandacht moet worden besteed. Voor zulke risico's altijd substantive procedures plannen, ook als de IC sterk lijkt.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1 + §93"},
+    "_provenance": {"inputs": [
+      {"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"},
+      {"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Bij Rotex Roeselare NV markeert Sofie Janssens de waardering van een grote impairment-test (€ 4.500.000 goodwill) als significant risico: hoge schattingsonzekerheid + management-bias mogelijk. Gevolg: uitgebreide substantive procedures + onafhankelijke valuator + extra dossierdiepte.",
+  "in_praktijk": [
+    {
+      "aspect": "Klassieke significante risico's",
+      "betekenis": "Opbrengstverantwoording (vermoeden van fraude — altijd), management override van IC (altijd), niet-routinematige significante transacties, complexe schattingen, transacties met verbonden partijen, going concern bij twijfel.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §93"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "risico-inschatting-audit", "redenering": "Uitkomst van de risico-inschatting."}
+  ]
+}

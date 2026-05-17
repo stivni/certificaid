@@ -1,0 +1,41 @@
+{
+  "id": "met-governance-belaste-personen",
+  "naam": "Met governance belaste personen",
+  "node_type": "actor",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.III.E", "1.6.II.A"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.III.E",
+    "dekt_ook_anchors": ["1.6.II.A"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "De met governance belaste personen zijn de persoon (personen) of organisatie(s) — bv. de bestuurders van een vennootschap — die verantwoordelijk zijn voor het uitoefenen van toezicht op de strategische aansturing van de onderneming en op haar verantwoordingsverplichtingen. Hun verantwoordelijkheid omvat het toezicht op het proces van financiële verslaggeving.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1"},
+    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2", "sha256": null, "version": "rag-v1"}]}
+  },
+  "voorbeeld_inline": "Bij Rotex Roeselare NV: de bestuurders Marleen De Cock, Pieter Vermeulen en Robert Vandenberghe samen vormen 'de met governance belaste personen'. Bij Meubelzaak Mertens BV (eenpersoons-BV): de zaakvoerder is tegelijk eigenaar-bestuurder.",
+  "in_praktijk": [
+    {
+      "aspect": "Onderscheid 'management' vs. 'governance'",
+      "betekenis": "Management = uitvoerend (CEO, CFO, directie). Met governance belaste personen = toezichthoudend (bestuurders, raad van toezicht). In KMO's vaak dezelfde personen — dan moet de auditor extra alert zijn voor management override.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "aspect": "Verplichte communicatie",
+      "betekenis": "De auditor moet tijdig communiceren met deze personen over scope, planning, bevindingen en tekortkomingen in de IC. Documentatie van die communicatie is verplicht in het dossier.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §63-§67"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_2-2-9-communicatie-met-het-management-of-de-met-governance-b", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "vereist-kennis-van", "target": "communicatie-met-management-governance", "redenering": "Communicatie is een verplichte interactie."}
+  ]
+}

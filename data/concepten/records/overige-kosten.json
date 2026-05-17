@@ -1,0 +1,76 @@
+{
+  "id": "overige-kosten",
+  "naam": "Overige kosten (diensten, diverse goederen, afschrijvingen)",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.II.D", "1.8.II.A"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.II.D",
+    "dekt_ook_anchors": ["1.8.II.A"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Overige kosten in een analytische boekhouding zijn alle productie- en exploitatiekosten die geen materiaal of arbeid zijn: diensten en diverse goederen (huur, energie, telecom, externe consultants, onderhoud), afschrijvingen op productie-activa, verzekeringen, en eventueel provisies voor toekomstige kosten. In de algemene boekhouding zitten ze grotendeels op rekeningen 61, 63 en 64.",
+    "confidence": "grounded",
+    "source": {"type": "kb", "short": "KB 21.10.2018 Bijlage 1 MAR — klasse 61, 63, 64"},
+    "_provenance": {
+      "inputs": [
+        {"id": "Minimum-Algemeen-Rekeningstelsel-voor-boekhoudplichtige-ondernemingen__klasse_6", "sha256": null, "version": "rag-v1"}
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Diensten en diverse goederen (klasse 61)",
+      "wat": "Aankopen van diensten van derden: huur, leasing, onderhoud, ICT, accountant, advocaat, transport (uitbesteed), publiciteit. Plus diverse goederen die geen voorraad worden (klein gereedschap, kantoorbenodigdheden).",
+      "waarom": "Vaak een groot deel van de exploitatiekost; vaak indirect (verdeelsleutel nodig in analytische boekhouding).",
+      "voorbeeld_inline": "Yperse Werkplaats BV: huur weverij € 80.000/jaar, energie € 145.000/jaar, ICT-diensten € 24.000/jaar, accountant € 18.000/jaar. Total klasse 61 ≈ € 380.000.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "titel": "Afschrijvingen (klasse 630)",
+      "wat": "Periodieke kost die de waardevermindering van vaste activa weerspiegelt over hun gebruiksduur. In de analytische boekhouding worden afschrijvingen per kostencentrum toegerekend (machine X staat in afdeling Y).",
+      "waarom": "Afschrijvingen zijn de manier waarop de aankoopprijs van een productie-activum over zijn levensduur in de kostprijs van het product komt.",
+      "voorbeeld_inline": "Yperse Werkplaats BV schaft in 20X1 een nieuwe spinmachine aan voor € 280.000 (afschrijvingstermijn 10 jaar lineair). Jaarlijkse afschrijving € 28.000 wordt volledig aan kostencentrum Spinnerij toegerekend.",
+      "grondslag": "KB 21.10.2018 art. 28 e.v. (afschrijvingsregels)",
+      "confidence": "grounded",
+      "source": {"type": "kb", "short": "KB 21.10.2018 art. 28"},
+      "_provenance": {"inputs": []}
+    },
+    {
+      "titel": "Voorzieningen en verzekeringen (klasse 635, 61)",
+      "wat": "Voorzieningen voor toekomstige kosten (groot onderhoud, garanties, geschillen) worden via provisie elke periode gespreid. Verzekeringspremies (klasse 613) zijn vaak een vaste periodekost per kostencentrum.",
+      "waarom": "Matching-beginsel: kost in de periode toerekenen waarop ze betrekking heeft.",
+      "voorbeeld_inline": "Yperse Werkplaats BV bouwt jaarlijks € 35.000 voorziening op voor 5-jaarlijks groot onderhoud van de weverij. Die € 35.000 wordt elk jaar in de kosten van kostencentrum Weverij geboekt — niet pas in het jaar van de uitgave.",
+      "grondslag": "CBN 2018/25 (voorzieningen)",
+      "confidence": "grounded",
+      "source": {"type": "cbn", "short": "CBN 2018/25"},
+      "_provenance": {
+        "inputs": [
+          {"id": "CBN-2018-25-voorzieningen__sec_inleiding", "sha256": null, "version": "rag-v1"}
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Productie versus algemene overhead",
+      "betekenis": "Voor de wettelijke vervaardigingsprijs (CBN 132/7) tellen enkel productie-gerelateerde overige kosten mee. Algemene administratie- en commerciële kosten worden NIET in de vervaardigingsprijs opgenomen, ook niet bij full costing. In de analytische boekhouding kan wel een 'volledige kostprijs' worden gemaakt die ook commerciële en administratieve kosten bevat — voor interne sturing, niet voor voorraadwaardering.",
+      "confidence": "grounded",
+      "source": {"type": "cbn", "short": "CBN 132/7 §2.1"},
+      "_provenance": {
+        "inputs": [
+          {"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs", "sha256": null, "version": "rag-v1"}
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "kostensoort", "redenering": "Derde hoofdsoort naast materiaal en arbeid.", "confidence": "inferred"},
+    {"type": "vereist-kennis-van", "target": "afschrijvingen", "redenering": "Afschrijvingen zijn aparte conceptkennis (zie PO 1.1).", "confidence": "inferred"}
+  ]
+}

@@ -8,7 +8,7 @@ programmaonderdelen:
 status: voorgesteld
 schema_version: '1.1'
 gegenereerd_uit: data/concepten/competenties/kiezen-consolidatiemethode.yaml
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Kiezen van de toe te passen consolidatietechniek per entiteit
 

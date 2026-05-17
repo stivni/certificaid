@@ -1,0 +1,66 @@
+{
+  "id": "herstructurering-resultatenrekening",
+  "naam": "Herstructurering van de resultatenrekening",
+  "node_type": "methode",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.9.III.B", "1.9.III.C", "1.9.III"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T10:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.9.III.B",
+    "dekt_ook_anchors": ["1.9.III.C", "1.9.III"],
+    "reviewed_by": null,
+    "bron_gap": "Vakdoctrine — KB WVV-schema's RR (volledig, verkort, micro) zijn de juridische bron; de herwerking naar analytisch-functionele groepering komt uit financiële-analyse-praktijk."
+  },
+  "doel": {
+    "text": "De resultatenrekening wordt herwerkt zodat ze leesbaar wordt vanuit economisch perspectief: opbrengsten en kosten worden gegroepeerd in bedrijfs-, financiële, uitzonderlijke en belastingblokken; binnen het bedrijfsblok wordt de toegevoegde waarde geïsoleerd. Voor verkort/microschema's vraagt dat meer werk omdat sommige rubrieken samengevoegd zijn.",
+    "confidence": "inferred-common-knowledge",
+    "source": {"type": "vakdoctrine", "short": "Financiële analyse — NBB-balansanalyse"},
+    "_provenance": {"inputs": [{"id": "anchor-1.9.III.B", "sha256": null, "version": "rag-v1"}]}
+  },
+  "bouwstenen": [
+    {
+      "titel": "Vier blokken: bedrijf, financieel, uitzonderlijk, belasting",
+      "wat": "Groepeer de RR-rubrieken volgens hun aard: bedrijfsopbrengsten/kosten (60-64 + 70-74), financiële opbrengsten/kosten (65 + 75), uitzonderlijke opbrengsten/kosten (66 + 76 — verdwijnt in NIEUW WVV-schema), belastingen op resultaat (67 + 77).",
+      "waarom": "Elk blok beantwoordt een ander analyse-onderwerp: bedrijf = winstgevendheid kernactiviteit; financieel = financieringskost-impact; uitzonderlijk = eenmalige items te filteren; belasting = effectieve aanslagvoet.",
+      "voorbeeld_inline": "Rotex Roeselare NV — bedrijfsresultaat € 6.000.000, financieel resultaat − € 600.000, belastingen − € 1.500.000, nettoresultaat € 2.500.000 (geen uitzonderlijk in nieuw schema).",
+      "grondslag": "KB WVV — schema resultatenrekening",
+      "confidence": "grounded",
+      "source": {"type": "kb", "short": "KB WVV — schema RR"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-schema-RR", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Isoleer de toegevoegde waarde",
+      "wat": "Binnen het bedrijfsblok wordt eerst de toegevoegde waarde berekend (zie [[toegevoegde-waarde-financiele-analyse]]). Onder de TW staan: personeelskosten, afschrijvingen, andere bedrijfskosten — als verdeling.",
+      "waarom": "Dit maakt de RR een productiviteits-document: TW per VTE wordt zichtbaar, en de verdeling personeel/kapitaal/overheid is uitleesbaar.",
+      "voorbeeld_inline": "Rotex Roeselare NV — TW € 18.000.000 − personeelskosten € 12.000.000 − afschrijvingen € 1.500.000 − andere bedrijfskosten = bedrijfsresultaat € 6.000.000 (na correctie).",
+      "grondslag": "Vakdoctrine financiële analyse",
+      "confidence": "inferred-common-knowledge",
+      "source": {"type": "vakdoctrine", "short": "NBB-balansanalyse"},
+      "_provenance": {"inputs": [{"id": "anchor-1.9.III.B", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Verkort/microschema vraagt meer werk",
+      "wat": "In verkort schema (rubrieken 60/61 samengevoegd) of microschema (verdere samenvoegingen) zijn aankopen handelsgoederen en diensten in één post — de TW-berekening vereist een schatting of toelichting.",
+      "waarom": "Een grondige analyse van een kleine BV (verkort/micro) vraagt om bijkomende informatie buiten de jaarrekening (toelichting, navragen bij bestuursorgaan). Dit is een gekende beperking, geen fout in de analyse.",
+      "voorbeeld_inline": "Meubelzaak Mertens BV (verkort schema): rubriek 60/61 = € 600.000 — onmogelijk om aankopen handelsgoederen van diensten te scheiden zonder toelichting. TW-detail blijft dus geschat.",
+      "grondslag": "KB WVV — verkort en microschema",
+      "confidence": "grounded",
+      "source": {"type": "kb", "short": "KB WVV — verkort/microschema"},
+      "_provenance": {"inputs": [{"id": "KB-WVV-schema-RR", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "analytische-balans",
+      "verschil": "Analytische balans = herstructurering van de balans (activa/passiva op functioneel-economische rubrieken); herstructurering RR = herstructurering van de resultatenrekening (opbrengsten/kosten in vier blokken + TW-isolatie). Beide samen vormen de basis voor ratio-analyse.",
+      "trigger": "Examenvraag 'herstructurering jaarrekening': beide aspecten benoemen, niet alleen balans.",
+      "_provenance": {"inputs": [{"id": "anchor-1.9.III.B", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "vereist-kennis-van", "target": "analytische-balans", "redenering": "Balans en RR worden samen herwerkt voor de analyse.", "confidence": "grounded"},
+    {"type": "vereist-kennis-van", "target": "toegevoegde-waarde-financiele-analyse", "redenering": "TW-isolatie is het centrale element van de RR-herwerking.", "confidence": "grounded"}
+  ]
+}

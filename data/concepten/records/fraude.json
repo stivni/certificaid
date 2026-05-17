@@ -1,0 +1,69 @@
+{
+  "id": "fraude",
+  "naam": "Fraude",
+  "node_type": "fenomeen",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.VI.B", "1.7.VI"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T10:11Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.VI.B",
+    "dekt_ook_anchors": ["1.7.VI"],
+    "reviewed_by": null,
+    "bron_gap": "Fraude-driehoek (Cressey, 1953) en typologie ACFE zijn vakdoctrine. Belgisch wettelijk kader: Strafwetboek art. 479 (oplichting), art. 488 (informaticabedrog), misbruik van vertrouwen — wel grondbaar."
+  },
+  "definitie": {
+    "text": "Fraude is een opzettelijke handeling van één of meer personen binnen of buiten een onderneming, met als doel onrechtmatig voordeel te verkrijgen via misleiding. In tegenstelling tot fouten is er opzet — manipulatie van informatie, verduistering van activa, of corruptie. Strafrechtelijk vaak gekwalificeerd als oplichting (Strafwetboek art. 479), informaticabedrog (art. 488), misbruik van vertrouwen of valsheid in geschriften.",
+    "confidence": "grounded",
+    "source": {"type": "wet", "short": "Strafwetboek 2024 Boek 2 art. 479 + 488"},
+    "_provenance": {
+      "inputs": [
+        {"id": "Strafwetboek2024-boek2__art_479", "sha256": null, "version": "rag-v1"},
+        {"id": "Strafwetboek2024-boek2__art_488", "sha256": null, "version": "rag-v1"}
+      ]
+    }
+  },
+  "voorbeeld_inline": "Bij Yperse Werkplaats BV manipuleert een aankoper systematisch leveranciersfacturen: hij richt een schaduwfirma op, factureert fictieve consultancy en boekt de betaling op zijn rekening. Strafrechtelijk: oplichting (art. 479) + valsheid in geschriften + misbruik van vertrouwen. Detectie pas na bezoek nieuwe externe auditor Sofie Janssens (cijferanalyse + leveranciers-due-diligence).",
+  "bouwstenen": [
+    {
+      "titel": "Drie elementen van de fraude-driehoek",
+      "wat": "(1) Druk/motief: financiële stress, levensstijl, doelen halen. (2) Gelegenheid: zwakke IC, geen functiescheiding, geen monitoring. (3) Rationalisatie: 'ik leen het maar', 'iedereen doet het', 'ze betalen me te weinig'. Fraude ontstaat waar drie samenkomen.",
+      "waarom": "Sterk IC kan het element 'gelegenheid' beperken — de andere twee zijn buiten controle van de onderneming.",
+      "voorbeeld_inline": "Aankoper met gokverslaving (druk) + ontbrekende functiescheiding aankoop-betaling (gelegenheid) + 'het bedrijf merkt het toch niet' (rationalisatie) = fraude-risico hoog.",
+      "grondslag": "Cressey (1953) — vakdoctrine",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "titel": "Drie hoofdtypen volgens ACFE",
+      "wat": "(a) Fraudulente financiële verslaggeving: cijfers vervalsen om resultaat te verbeteren (manipulatie omzet, fictieve voorraad, uitgestelde kosten). (b) Misappropriation of assets: verduistering van geld, voorraad of immaterieel. (c) Corruption: omkoping, kickbacks, belangenconflicten.",
+      "waarom": "Elk type vraagt andere preventie + detectie. Financiële vervalsing detecteer je in jaarrekening-analyse; verduistering in kasprocessen; corruptie in due-diligence + klokkenluiders.",
+      "voorbeeld_inline": "Type (b) bij Yperse Werkplaats BV: magazijnier neemt afgekeurde producten mee 'voor privé'. Type (a) bij Rotex Roeselare NV: WIP overschat om omzetdoelen te halen. Type (c): aankoper krijgt persoonlijke commissie van leverancier.",
+      "grondslag": "ACFE Report to the Nations — vakdoctrine",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Verantwoordelijkheid voor preventie en detectie",
+      "betekenis": "Preventie en detectie van fraude is primair de verantwoordelijkheid van management + governance (raad van bestuur). De externe auditor heeft een verantwoordelijkheid om 'redelijke zekerheid' te geven dat de jaarrekening vrij is van materiële afwijkingen door fraude (ISA 240) — maar niet om alle fraude te ontdekken. Verwarring hierover leidt tot 'expectation gap'.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "Klokkenluiders als detectie-kanaal",
+      "betekenis": "Tips zijn het meest effectieve detectie-mechanisme volgens ACFE-studies. De Belgische klokkenluiderswet van 28 november 2022 verplicht middelgrote en grote ondernemingen om een intern meldkanaal op te zetten. Zie [[klokkenluiderregeling]].",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "Wet 28 november 2022 klokkenluiders"},
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "vergelijkt-met", "target": "fouten-ic", "redenering": "Onderscheid opzet/onopzet is centraal."},
+    {"type": "onderdeel-van", "target": "fouten-en-fraude", "redenering": "Onderdeel synthese-overzicht."},
+    {"type": "vereist-kennis-van", "target": "klokkenluiderregeling", "redenering": "Klokkenluiders zijn een primair detectiemechanisme."},
+    {"type": "vereist-kennis-van", "target": "functiescheiding", "redenering": "Functiescheiding beperkt de 'gelegenheid' uit fraude-driehoek."}
+  ]
+}

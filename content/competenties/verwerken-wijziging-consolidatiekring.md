@@ -8,7 +8,7 @@ programmaonderdelen:
 status: voorgesteld
 schema_version: '1.1'
 gegenereerd_uit: data/concepten/competenties/verwerken-wijziging-consolidatiekring.yaml
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Verwerken van een wijziging in de consolidatiekring (inclusief step acquisition)
 

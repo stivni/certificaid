@@ -1,0 +1,55 @@
+{
+  "id": "itaa-algemene-controlenorm",
+  "naam": "ITAA Algemene Controlenorm",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.I.C", "1.6.II", "1.6.III"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.I.C",
+    "dekt_ook_anchors": ["1.6.II", "1.6.III"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "De ITAA Algemene Controlenorm is een door het ITAA uitgevaardigde norm die de algemene principes vastlegt voor elke controleopdracht uitgevoerd door een gecertificeerd accountant: bekwaamheid, onafhankelijkheid, werkschema, werkdocumenten, opvolging, controlewerkzaamheden, verslag en toezicht via de Commissie van Toezicht.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA-norm-algemene-controlenorm"},
+    "_provenance": {"inputs": [{"id": "ITAA-norm-algemene-controlenorm__sec_1-inleiding", "sha256": null, "version": "rag-v1"}]}
+  },
+  "voorbeeld_inline": "Sofie Janssens voert een contractuele controle uit op de jaarrekening van Naaiatelier Ninove BV. Zij baseert haar werkzaamheden op (1) de wettekst die haar opdracht omschrijft, (2) de opdrachtbrief, (3) de algemene controlenorm van ITAA en (4) gespecialiseerde vakliteratuur — exact in die volgorde voorgeschreven door §1 van de norm.",
+  "bouwstenen": [
+    {
+      "titel": "Hiërarchie van bronnen voor de accountant",
+      "wat": "Bij elke opdracht moet de accountant zich laten leiden door: (1) de wettekst die de opdracht omschrijft, (2) de overeenkomst met de cliënt, (3) bijzondere ITAA-aanbevelingen, (4) gespecialiseerde vakliteratuur — in die volgorde.",
+      "waarom": "Wet boven contract, contract boven norm, norm boven vakliteratuur — hiërarchie waarborgt rechtszekerheid.",
+      "grondslag": "ITAA Algemene Controlenorm §1",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA-norm-algemene-controlenorm §1"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-algemene-controlenorm__sec_1-inleiding", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Zeven kerngebieden",
+      "wat": "(1) Inleiding/onafhankelijkheid, (2) Verslag, (3) Werkschema, (4) Werkdocumenten, (5) Opvolging, (6) Controles, (7) Commissie van Toezicht.",
+      "waarom": "Sluit aan op de auditcyclus: aanvaarding, planning, dossier, uitvoering, oordeel, toezicht.",
+      "grondslag": "ITAA-norm-algemene-controlenorm (structuur)",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA-norm-algemene-controlenorm"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-algemene-controlenorm__sec_1-inleiding", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "itaa-kmo-controlenorm",
+      "verschil": "Algemene controlenorm = brede principes voor elke controleopdracht door een accountant. KMO-controlenorm = specifieke en gedetailleerde norm voor contractuele controle/beoordeling bij KMO's en kleine vzw's (risicogestuurde audit, definitieslijst, paragraaf-nummering). De KMO-norm is de uitgewerkte 'how-to'; de algemene is het breder kader.",
+      "trigger": "Examenvraag: 'welke norm regelt een contractuele audit bij een KMO?' → KMO-controlenorm. 'Welke norm regelt de algemene plichten van de accountant bij elke controle?' → Algemene controlenorm.",
+      "_provenance": {"inputs": [{"id": "ITAA-norm-algemene-controlenorm__sec_1-inleiding", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "bevat", "target": "auditwerkschema", "redenering": "§3 van de norm regelt het werkschema."},
+    {"type": "bevat", "target": "controledocumentatie", "redenering": "§4 van de norm regelt de werkdocumenten."},
+    {"type": "bevat", "target": "opvolging-voorganger-accountant", "redenering": "§5 regelt de opvolging van een collega."}
+  ]
+}

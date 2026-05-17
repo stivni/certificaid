@@ -1,0 +1,55 @@
+{
+  "id": "evaluatie-interne-controle",
+  "naam": "Evaluatie van de interne controle",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.VIII.F", "1.7.XI"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T10:26Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.VIII.F",
+    "dekt_ook_anchors": ["1.7.XI"],
+    "reviewed_by": null,
+    "bron_gap": "Generieke IC-evaluatiecriteria (effectivity, efficiency, opzet/werking) zijn vakdoctrine. ITAA-norm raakt aan toetsing van IC door externe auditor."
+  },
+  "verplichting": "Geen algemene wettelijke verplichting voor onderneming om IC zelf te evalueren. Wel: externe auditor moet IC-werking begrijpen (ITAA-norm-kmo-controlenorm §97). Voor grote vennootschappen + organisaties van openbaar belang: jaarlijkse self-assessment via auditcomité.",
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Bepaal evaluatiecriteria",
+      "wat": "Definieer waarop je IC zal beoordelen: opzet (is procedure goed ontworpen?), werking (wordt ze nageleefd?), effectiviteit (vermijdt ze risico's?), efficiëntie (kost ze niet meer dan ze oplevert?).",
+      "waarom": "Een IC-evaluatie zonder vooraf gestelde criteria wordt vaag — niet objectief beoordeelbaar.",
+      "hoe": "1. Lijst per proces 3-5 criteria op.\n2. Maak ze meetbaar (% naleving, # afwijkingen).\n3. Stel drempel voor 'voldoende'.\n4. Documenteer in evaluatieprotocol.",
+      "grondslag": "COSO + ITAA-norm-kmo-controlenorm §97"
+    },
+    {
+      "nr": 2,
+      "titel": "Verzamel evidence",
+      "wat": "Documentanalyse + interviews + walkthroughs + steekproeven (test of controls). Vergelijkbaar met externe-audit-aanpak.",
+      "waarom": "Een evaluatie zonder bewijs is een opinie — niet acceptabel.",
+      "hoe": "1. Selecteer steekproef transacties per proces.\n2. Volg elke transactie door alle controles.\n3. Documenteer afwijkingen.\n4. Interview procesverantwoordelijken over afwijkingen.",
+      "grondslag": "ITAA-norm-kmo-controlenorm §97-§98"
+    },
+    {
+      "nr": 3,
+      "titel": "Rapport + aanbevelingen",
+      "wat": "Schriftelijk verslag met bevindingen + impact + aanbevelingen + actieplan + termijn + eigenaar.",
+      "waarom": "Een evaluatie zonder follow-up is verspilling van tijd.",
+      "hoe": "1. Classificeer bevindingen (kritisch / belangrijk / verbetering).\n2. Bespreek conceptrapport met procesverantwoordelijken.\n3. Stel actieplan op met termijnen.\n4. Rapporteer aan directie / auditcomité.\n5. Volg op na 3-6 maanden.",
+      "grondslag": "IIA Standards"
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Wie voert de evaluatie uit",
+      "betekenis": "(1) Interne audit (indien aanwezig). (2) Externe consultant (bv. Xenon Expertise BV bij Yperse Werkplaats BV). (3) Externe accountant in adviesrol — let op onafhankelijkheidsregels bij gelijktijdige wettelijke controle. (4) Self-assessment door management — minst objectief maar wel waardevol als trigger.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Evaluatie is monitoring-component (COSO 5)."},
+    {"type": "vergelijkt-met", "target": "toetsing-interne-beheersing", "redenering": "Toetsing door externe auditor is gerelateerd maar specifieker (binnen ISA-kader)."}
+  ]
+}

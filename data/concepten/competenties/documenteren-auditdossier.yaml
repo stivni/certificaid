@@ -1,0 +1,111 @@
+id: documenteren-auditdossier
+titel: "Documenteren van de revisiewerkzaamheden in het auditdossier"
+status: voorgesteld
+schema_version: "1.1"
+programmaonderdelen: [1.6]
+voortkomend_uit:
+  taken: [1.6.taak.1]
+  kenniselementen: [1.6.III.C, 1.6.III.B, 1.6.III.D]
+gebaseerd_op_concepten:
+  - controledocumentatie
+  - kwaliteitsbeheersing-opdrachtniveau
+  - werkprogramma-audit
+  - assurance-informatie
+procedure_grondslag:
+  wettelijk_pct: 80
+  praktijk_pct: 20
+  motivering: "De ITAA KMO-controlenorm §41-§50 (en de algemene controlenorm: bewaartermijn 10 jaar versus KMO-norm: 5 jaar) leggen minimuminhoud, vorm en bewaartermijn van het dossier wettelijk vast. Concrete dossier-indeling, naamgeving werkpapieren en gebruik van software (CaseWare, AuditFile) is praktische uitwerking."
+stappen:
+  - nr: 1
+    titel: "Permanent dossier opbouwen en up-to-date houden"
+    wat: "Verzamel cliënt-info met meerjarige relevantie (statuten, organogram, waarderingsregels, mandaten, fiscale gegevens) op één plaats en update jaarlijks."
+    waarom: "Permanent dossier bespaart heropbouw-werk elk jaar en is referentie bij interne reviews + tucht."
+    input:
+      - artefact: "Statuten, UBO, fiscale dossiers, mandaatovereenkomsten"
+        veld: "Documenten met multi-jaar relevantie"
+        type: "document"
+    output:
+      - artefact: "Permanent dossier sectie A-Z"
+        veld: "Geactualiseerde sectie + datum laatste review"
+        type: "document"
+    hoe: |
+      1. Volg de standaardindeling van Wolters & Partners CVBA — typisch: A (statuten + governance), B (boekhoudsysteem), C (interne beheersing), D (verbonden partijen), E (significant contracts).
+      2. Bij elke jaarlijkse audit: review per sectie of er wijzigingen zijn en datumstempel het update-moment.
+      3. Volgens [[controledocumentatie]] §permanent vs jaardossier: enkel info met multi-jaar relevantie in permanent, jaarlijkse werkdocumenten in jaardossier.
+    grondslag: "[[controledocumentatie]] §permanent-dossier, ITAA KMO-controlenorm §44"
+  - nr: 2
+    titel: "Jaardossier opbouwen tijdens uitvoering"
+    wat: "Documenteer alle werkzaamheden van de specifieke audit-opdracht — strategie, werkprogramma, testresultaten, conclusies, communicatie."
+    waarom: "Het jaardossier is het bewijs dat voldoende geschikt audit-bewijs is verzameld voor het oordeel."
+    input:
+      - artefact: "Werkprogramma's + testbevindingen + correspondentie"
+        veld: "Alle stukken van de actuele audit"
+        type: "document"
+    output:
+      - artefact: "Jaardossier sectie 1-9"
+        veld: "Compleet dossier per indeling"
+        type: "document"
+    hoe: |
+      1. Standaardindeling van het jaardossier (volgens [[controledocumentatie]] §indeling): (1) planning + strategie, (2) risico-inschatting + materialiteit, (3) interne beheersing, (4) werkprogramma + uitvoering per rubriek, (5) externe bevestigingen, (6) cijferanalyses, (7) communicatie cliënt, (8) reviewers' notes, (9) finale conclusies + verslag.
+      2. Vermeld op elk werkpapier: cliënt, boekjaar, paragraaf werkprogramma, opsteller + datum, reviewer + datum.
+      3. Cross-reference werkpapieren naar werkprogramma-cel en risicomatrix.
+      4. Documenteer significante professionele oordelen (bv. waarom je bepaalde tests niet uitvoerde) expliciet.
+    valkuilen:
+      - advies: "Documenteer professionele oordelen expliciet — niet alleen het resultaat van een test, maar ook waarom je voor die test gekozen hebt."
+        vaak_fout: "Werkpapieren met alleen cijfers en tikteken-symbolen — een buitenstaander kan de redenering niet reconstrueren."
+        grondslag: "[[controledocumentatie]] §reproduceerbaarheid"
+    grondslag: "[[controledocumentatie]] §jaardossier, ITAA KMO-controlenorm §41"
+  - nr: 3
+    titel: "Reviewers de dossiers laten aftekenen"
+    wat: "Iedere senior + opdrachtverantwoordelijke + eventueel kwaliteitsreviewer tekent de werkpapieren binnen zijn verantwoordelijkheid af vóór het verslag wordt ondertekend."
+    waarom: "Volgens [[kwaliteitsbeheersing-opdrachtniveau]] §review is gestructureerde review onmisbaar voor de kwaliteit én aansprakelijkheid van de opdracht."
+    input:
+      - artefact: "Werkpapieren stap 2"
+        veld: "Concept-status"
+        type: "document"
+    output:
+      - artefact: "Werkpapieren met reviewer-handtekening + datum + opmerkingen"
+        veld: "Gereviewed status"
+        type: "document"
+    hoe: |
+      1. Senior reviewer (typisch manager): inhoudelijke review van werkpapieren juniors. Datum + handtekening + 'review notes' indien vragen.
+      2. Opdrachtverantwoordelijke (Sofie Janssens): tweede review op materiële posten + significant risks + finale conclusie.
+      3. Engagement Quality Reviewer (indien aangewezen): onafhankelijke review op kritische elementen (oordeel, schattingen, going concern).
+      4. Alle review-notes worden afgesloten ('cleared') vóór ondertekening van het verslag — geen openstaande vragen bij ondertekening.
+    grondslag: "[[kwaliteitsbeheersing-opdrachtniveau]] §review-lagen, ITAA KMO-controlenorm §48"
+  - nr: 4
+    titel: "Dossier afsluiten en bewaren binnen de wettelijke termijn"
+    wat: "Sluit het dossier binnen 60 dagen na ondertekening van het verslag definitief af en bewaar het volgens de wettelijke termijn."
+    waarom: "Na afsluiting zijn wijzigingen verboden behalve gemotiveerde correcties (file assembly cut-off)."
+    input:
+      - artefact: "Volledig jaardossier"
+        veld: "Inclusief verslag + bevestigingsbrief management"
+        type: "document"
+    output:
+      - artefact: "Afgesloten + gearchiveerd dossier"
+        veld: "Datum afsluiting + verantwoordelijke + locatie"
+        type: "document"
+    hoe: |
+      1. Stel binnen 60 dagen na datum verslag het assembly-pakket samen — controleer compleetheid via een sluitlijst.
+      2. Sluit het digitaal of fysiek dossier af (write-protect / verzegeling).
+      3. Bewaartermijn: 5 jaar volgens ITAA KMO-controlenorm; 10 jaar volgens de algemene controlenorm — kies de strengste termijn die op de opdracht van toepassing is.
+      4. Wijzigingen na assembly: alleen toegelaten als 'addendum' met datum, motivering en handtekening.
+    valkuilen:
+      - advies: "Wijzigingen na afsluiting altijd als gedateerd addendum met motivering — nooit retro-actief in bestaande werkpapieren wijzigen."
+        vaak_fout: "Bij review-vraag een werkpapier 'even bijwerken' zonder addendum — leidt tot integriteitsproblemen bij tuchtonderzoek."
+        grondslag: "[[controledocumentatie]] §file-assembly-cut-off"
+    grondslag: "[[controledocumentatie]] §bewaartermijn-en-afsluiting, ITAA KMO-controlenorm §49-§50, Wet ITAA 2019"
+voorbeelden:
+  - situatie: "Audit van Rotex Roeselare NV verslag ondertekend op 30 april 2026. Op 15 juni 2026 (45 dagen later) ontdekt Sofie Janssens dat het werkpapier 'Voorraden – cut-off test' geen handtekening van de reviewer draagt. Het werk werd wel uitgevoerd en mondeling besproken."
+    conclusie: "Voeg een addendum toe gedateerd 15/06/2026 met handtekening reviewer + motivering. Niet retro-actief de oorspronkelijke werkpaper aanpassen. Het dossier wordt definitief afgesloten binnen de 60-dagen-termijn (uiterlijk 29/06/2026 voor verslag van 30/04)."
+    grondslag: "[[controledocumentatie]] §file-assembly-cut-off"
+    redenering: "Assembly-cut-off van 60 dagen laat aanvullingen toe; daarna alleen via addendum-mechanisme. Retro-actief wijzigen is integriteitschending."
+  - situatie: "Voor Meubelzaak Mertens BV (vrijwillige controle) past Sofie Janssens de ITAA KMO-controlenorm toe → bewaartermijn 5 jaar. Voor Rotex Roeselare NV (wettelijke controle, commissaris) geldt de algemene controlenorm → 10 jaar."
+    conclusie: "Twee aparte bewaarregimes. Indien beide audits door Wolters & Partners CVBA: praktisch beleid kiezen voor uniforme 10-jaar-termijn (strengste) op alle dossiers vermijdt verwarring."
+    grondslag: "[[controledocumentatie]] §bewaartermijn-vergelijking"
+    redenering: "Differentiële bewaartermijnen per opdrachttype zijn risicovol bij accidenteel vroegtijdig vernietigen. Uniform strengste regime is verdedigbaar praktijkbeleid."
+_provenance:
+  voorgesteld_door: "competentie-destillatie-v2-po16-2026-05-17T08:00Z"
+  voorgesteld_op: "2026-05-17T08:00:00Z"
+  gecureerd_door: null
+  gecureerd_op: null

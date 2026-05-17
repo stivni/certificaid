@@ -1,0 +1,57 @@
+{
+  "id": "auditplanning",
+  "naam": "Auditplanning",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.III.A", "1.6.III"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.III.A",
+    "dekt_ook_anchors": ["1.6.III"],
+    "reviewed_by": null
+  },
+  "verplichting": {
+    "text": "De beroepsbeoefenaar plant de controle zodanig dat de opdracht efficiënt kan worden uitgevoerd. De planning bestaat uit twee lagen: de algemene strategie (reikwijdte, timing, omvang) en het controleprogramma (concrete werkzaamheden). De planning moet doorlopend worden bijgestuurd.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA KMO-controlenorm §70-§73"},
+    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-1-1-planning", "sha256": null, "version": "rag-v1"}]}
+  },
+  "voorbeeld_inline": "Voor de audit van Rotex Roeselare NV (boekjaar 2025) stelt Sofie Janssens een algemene strategie op in oktober 2025: scope = jaarrekening volledig schema, timing = tussenfase december + eindfase februari-maart, risicogebieden = voorraden + voorzieningen, team = vier juniors + één manager. Daarop bouwt zij het concrete controleprogramma met testen en steekproeven.",
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Algemene strategie opstellen",
+      "wat": "Bepaal de reikwijdte, het tijdschema en de omvang van de opdracht. Vergewis je van de doelstellingen, het tijdschema voor de uit te brengen verslagen, en de aard van de gevraagde mededelingen.",
+      "hoe": "1. Identificeer de kenmerken van de opdracht (eerstejaars-opdracht? geconsolideerde audit?). 2. Stel de timing vast (tussenfase + eindfase). 3. Bepaal de middelen (team-samenstelling, externe specialisten). 4. Houd rekening met ervaring uit eerdere opdrachten bij dezelfde cliënt.",
+      "grondslag": "ITAA KMO-controlenorm §72"
+    },
+    {
+      "nr": 2,
+      "titel": "Controleprogramma ontwikkelen",
+      "wat": "Werk de strategie uit in concrete controlewerkzaamheden per balansrubriek, per assertion en per geïdentificeerd risico.",
+      "hoe": "Voor elk risico op een afwijking van materieel belang: bepaal of je test van de interne beheersing en/of gegevensgerichte werkzaamheden uitvoert; leg de aard, timing en omvang vast.",
+      "grondslag": "ITAA KMO-controlenorm §71"
+    },
+    {
+      "nr": 3,
+      "titel": "Doorlopend bijsturen",
+      "wat": "Het controleprogramma moet worden geactualiseerd telkens dit nodig blijkt (bv. wanneer nieuwe risico's opduiken, of wanneer interne beheersing zwakker blijkt dan verwacht).",
+      "hoe": "Documenteer significante wijzigingen + redenen in het controledossier (zie §45 documentatie).",
+      "grondslag": "ITAA KMO-controlenorm §73"
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Bij een eerstejaars-opdracht moet de aard en reikwijdte van de controle versterkt worden (bv. controle van openingsbalansen + waarderingsregels). Niet hetzelfde scoping gebruiken als bij een lopend mandaat.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §72"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-1-1-planning", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "bevat", "target": "werkprogramma-audit", "redenering": "Het controleprogramma is het uitvoerbare deel van de planning."},
+    {"type": "vereist-kennis-van", "target": "risico-inschatting-audit", "redenering": "Planning bouwt op de risico-analyse."}
+  ]
+}

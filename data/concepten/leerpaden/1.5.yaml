@@ -1,0 +1,143 @@
+programmaonderdeel: "1.5"
+titel: "Beginselen van de Europese wetgeving en de IFRS-normen"
+status: voorgesteld
+schema_version: "1.0"
+hoofdstukken:
+  - type: oriëntatie
+    titel: "Waarom IFRS naast Belgisch GAAP? Twee referentiestelsels, één economische realiteit"
+    rationale_hint: >-
+      Vertrek vanuit het idee dat een Belgische onderneming haar jaarrekening
+      in beginsel opstelt volgens BE-GAAP (KB-WVV + WER Boek III), maar dat
+      sommige ondernemingen ook of zelfs uitsluitend IFRS moeten of mogen
+      toepassen. Verbind het verschil tussen de twee stelsels met hun
+      doelpubliek: BE-GAAP dient vooral fiscus, schuldeisers en kleine
+      aandeelhouders (voorzichtigheidsbeginsel, historische kostprijs), IFRS
+      richt zich op kapitaalmarkten en internationale investeerders (fair
+      value, getrouw economisch beeld). Maak duidelijk dat IFRS in België
+      verplicht is voor de geconsolideerde jaarrekening van beursgenoteerde
+      groepen (Verordening 1606/2002) en optioneel voor sommige niet-genoteerde
+      groepen. Sluit aan bij de begrippen `ifrs-verordening-1606-2002`,
+      `ifrs-toepassingsgebied-belgie` en `be-gaap-vs-ifrs-overzicht` uit de
+      meegeleverde records — die fungeren als kapstok voor de hele cursus.
+
+  - type: thematisch
+    titel: "Het Europese kader: richtlijn 2013/34/EU en verordening 1606/2002"
+    concepten:
+      - richtlijn-2013-34-eu
+      - ifrs-verordening-1606-2002
+      - ifrs-toepassingsgebied-belgie
+
+  - type: synthese
+    synthese_id: be-gaap-vs-ifrs-overzicht
+    rationale_hint: >-
+      Plaats deze synthese vroeg als visuele kapstok: de student kent IFRS
+      nog niet in detail, maar ziet meteen waar de twee stelsels fundamenteel
+      verschillen — fair value vs. historische kostprijs, componentenbenadering
+      vs. globale afschrijving, IFRS 16 single-model lessee vs. operationele/
+      financiële lease, 5-stappen-model vs. realisatiebeginsel. Elke rij van
+      de vergelijkingstabel wordt verderop in het leerpad uitgewerkt; deze
+      synthese is de globale kaart die de student doorheen het hele
+      programmaonderdeel meeneemt.
+
+  - type: competentie
+    competentie_id: bepalen-toepasselijkheid-ifrs-belgie
+
+  - type: thematisch
+    titel: "IAS 1 — Presentatie van de jaarrekening: vijf componenten en presentatiebeginselen"
+    concepten:
+      - ias-1-jaarrekening-componenten
+      - ias-1-presentatie-beginselen
+      - ias-1-balans-presentatie
+      - ias-1-winst-en-totaalresultaat
+      - ias-1-mutatieoverzicht-eigen-vermogen
+      - ias-1-toelichtingsvereisten
+
+  - type: competentie
+    competentie_id: presenteren-ifrs-jaarrekening-volgens-ias-1
+
+  - type: thematisch
+    titel: "Vaste activa onder IFRS: IAS 16 en IAS 38 — kostprijs, herwaardering en componenten"
+    concepten:
+      - materiele-vaste-activa-ifrs
+      - immateriele-vaste-activa-ifrs
+      - herwaarderingsmodel-ias-16
+      - componentenbenadering-ias-16
+      - afschrijvingen-ifrs
+
+  - type: competentie
+    competentie_id: waarderen-materiele-vaste-activa-ifrs
+
+  - type: thematisch
+    titel: "Bijzondere waardevermindering onder IAS 36: indicaties, CGU en realiseerbare waarde"
+    concepten:
+      - bijzondere-waardevermindering-ias-36
+
+  - type: competentie
+    competentie_id: toetsen-bijzondere-waardevermindering-ias-36
+
+  - type: thematisch
+    titel: "Opbrengsten onder IFRS 15: het vijf-stappen-model en prestatieverplichtingen"
+    concepten:
+      - opbrengsten-ifrs
+      - prestatieverplichting-ifrs-15
+      - onderhanden-projecten-ifrs
+
+  - type: competentie
+    competentie_id: toepassen-vijf-stappen-model-opbrengsten-ifrs
+
+  - type: thematisch
+    titel: "Voorraden onder IFRS: IAS 2 en het verbod op LIFO"
+    concepten:
+      - voorraden-ifrs
+
+  - type: synthese
+    synthese_id: ifrs-16-lessee-vs-lessor-overzicht
+    rationale_hint: >-
+      Plaats deze synthese vóór de leasing-competentie: ze maakt in één
+      vergelijking expliciet hoe IFRS 16 het BE-GAAP-onderscheid tussen
+      operationele en financiële leasing aan lessee-zijde heeft afgeschaft
+      (single-model: alle leases op balans als right-of-use-actief +
+      leaseverplichting), terwijl aan lessor-zijde het oude onderscheid
+      operationele/financiële lease behouden blijft. Deze asymmetrie is
+      examenkritisch en wordt door de daaropvolgende competentie uitgewerkt
+      vanuit lessee-perspectief.
+
+  - type: thematisch
+    titel: "Leasing onder IFRS 16: right-of-use-actief en leaseverplichting bij lessee"
+    concepten:
+      - leasing-ifrs
+      - right-of-use-actief
+      - leaseverplichting-ifrs
+
+  - type: competentie
+    competentie_id: verwerken-leasing-ifrs-lessee
+
+  - type: thematisch
+    titel: "Correctie en wijziging van het boekhoudkundig referentiestelsel"
+    concepten:
+      - correctie-jaarrekening-ifrs
+      - wijziging-boekhoudkundig-referentiestelsel
+
+  - type: competentie
+    competentie_id: uitvoeren-eerste-toepassing-ifrs
+
+  - type: oriëntatie
+    titel: "Reflectie: IFRS als levend normenstelsel — IAS 17 → IFRS 16 en IAS 18 → IFRS 15"
+    rationale_hint: >-
+      Sluit af met een reflectie op de dynamiek van IFRS: het ITAA-anker
+      noemt nog IAS 11, IAS 17 en IAS 18, maar die zijn intussen vervangen
+      door IFRS 15 (opbrengsten, vervangt IAS 11 + IAS 18) en IFRS 16
+      (leasing, vervangt IAS 17). Verwijs naar de `edges[]` met type
+      `vervangt` in de records `leasing-ifrs`, `opbrengsten-ifrs` en
+      `onderhanden-projecten-ifrs`: de student moet leren dat IFRS niet
+      stilstaat en dat het examen zowel de huidige stand (IFRS 15/16) als
+      de historische ankering (IAS 11/17/18) kan toetsen. Maak de overstap
+      naar PO 1.4 (consolidatie onder IFRS 10/11/3) en naar PO 1.1 (BE-GAAP
+      als referentiekader) expliciet: dezelfde economische gebeurtenis
+      krijgt onder elk stelsel een andere boekhoudkundige neerslag.
+
+_provenance:
+  voorgesteld_door: "leerpad-propose-v1-po-1.5-2026-05-17T12:00Z"
+  voorgesteld_op: "2026-05-17T12:00:00+00:00"
+  gecureerd_door: null
+  gecureerd_op: null

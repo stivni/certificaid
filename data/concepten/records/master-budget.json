@@ -1,0 +1,52 @@
+{
+  "id": "master-budget",
+  "naam": "Master-budget (geconsolideerd budget)",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.VI.D", "1.8.VI"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.VI.D",
+    "dekt_ook_anchors": ["1.8.VI"],
+    "reviewed_by": null,
+    "bron_gap": "Vakdoctrine"
+  },
+  "definitie": {
+    "text": "Het master-budget is het geconsolideerde geheel van alle deelbudgetten, uitgedrukt in drie geprojecteerde financiële overzichten: pro-forma resultatenrekening, pro-forma balans en pro-forma kasstroomtabel voor het komende boekjaar. Het bestaat uit een operationeel budget (verkopen, productie, kosten, resultaat) en een financieel budget (kasstromen, investeringen, financiering).",
+    "confidence": "inferred-common-knowledge",
+    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
+    "_provenance": {"inputs": []}
+  },
+  "bouwstenen": [
+    {
+      "titel": "Operationeel budget",
+      "wat": "(1) Verkoopbudget (omzet per productlijn/klant). (2) Productiebudget (volume per centrum). (3) Materiaalverbruiksbudget. (4) Arbeidsbudget. (5) Overheadbudget. (6) Commercieel + administratief budget. (7) Pro-forma resultatenrekening.",
+      "waarom": "Toont geprojecteerde winstgevendheid van de operationele activiteit.",
+      "voorbeeld_inline": "Yperse Werkplaats BV master-budget 20X2: omzet € 4.500.000, totale kost € 3.700.000, EBIT € 800.000, geprojecteerde belasting € 200.000, nettowinst € 600.000.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "titel": "Financieel budget",
+      "wat": "(1) Investeringsbudget (CAPEX). (2) Kasstroom-budget (cash in / cash out per maand). (3) Financieringsbudget (leningen, kapitaal). (4) Pro-forma balans (eindbalans 31/12 volgend jaar).",
+      "waarom": "Toont liquiditeit en solvabiliteit; signaleert nood aan extra financiering.",
+      "voorbeeld_inline": "Yperse 20X2 investeringsbudget: nieuwe naaimachines € 280.000 (Q2). Kasstroom-projectie toont negatieve cash in mei (loonbetalingen + investering); financieringsbudget voorziet trekking € 150.000 op kredietlijn.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Bottom-up aggregatie",
+      "betekenis": "Master-budget ontstaat uit de optelling van afdelingsbudgetten, na consolidatie en eliminatie van interne verrekeningen (intra-firm-leveringen tussen kostencentra mogen niet als externe omzet verschijnen).",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "budgetbeheer", "redenering": "Eindproduct van de budgetprocedure.", "confidence": "inferred"},
+    {"type": "vereist-kennis-van", "target": "budgetprocedure", "redenering": "Procedure levert master-budget op.", "confidence": "inferred"}
+  ]
+}

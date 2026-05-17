@@ -1,0 +1,69 @@
+{
+  "id": "drie-lijnen-model",
+  "naam": "Drie-lijnen-model (Three Lines of Defense)",
+  "node_type": "methode",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.IV", "1.7.V", "1.7.V.A", "1.7.V.B"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T09:55Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.IV",
+    "dekt_ook_anchors": ["1.7.V", "1.7.V.A", "1.7.V.B"],
+    "reviewed_by": null,
+    "bron_gap": "IIA 'Three Lines Model' (oorspronkelijk 2013, geüpdatet 2020). Internationale vakdoctrine — geen Belgische trusted bron. Inferred-common-knowledge."
+  },
+  "doel": {
+    "text": "Het drie-lijnen-model verdeelt verantwoordelijkheid voor risicobeheer en IC over drie onafhankelijke lijnen: (1) operationeel management (eigenaar van risico's, voert IC uit), (2) risk- en compliancefuncties (beleidsmatig toezicht en methodologie), (3) interne audit (onafhankelijke assurance). Doel: vermijden dat één rol zowel risico's loopt als ze evalueert.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Bij Rotex Roeselare NV: lijn 1 = aankoopdirecteur (eigenaar aankooprisico's + uitvoert IC), lijn 2 = compliance officer (test of policy nageleefd wordt + adviseert), lijn 3 = Sofie Janssens als interne auditor (jaarlijks audit van de hele cyclus, onafhankelijk verslag aan auditcomité).",
+  "bouwstenen": [
+    {
+      "titel": "Lijn 1 — operationeel management",
+      "wat": "De afdelingen en processen die risico's nemen in hun dagelijkse werking en de IC-procedures uitvoeren. Eerste verdedigingslijn omdat zij als eerste fouten of fraude detecteren in hun eigen proces.",
+      "waarom": "IC moet ingebed zijn waar het risico ontstaat — niet pas later van buitenaf opgelegd worden.",
+      "voorbeeld_inline": "Aankoopdirecteur Tom Lefèvre tekent elke bestelling > € 25.000 af; magazijnier Bart toetst goederen tegen bestelbon. Beiden zitten in lijn 1.",
+      "grondslag": "IIA Three Lines Model",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "titel": "Lijn 2 — risk- en compliancefuncties",
+      "wat": "Beleidsmatige functies (risk management, compliance, kwaliteit) die methodologie ontwikkelen, beleid schrijven en lijn 1 ondersteunen. Tweede verdedigingslijn omdat zij toezicht houden zonder zelf operationeel uit te voeren.",
+      "waarom": "Operationele lijn heeft niet altijd tijd of expertise om de juiste methodologie te kiezen — lijn 2 brengt expertise.",
+      "voorbeeld_inline": "Risk Officer Marleen De Cock werkt de risicomatrix uit, doet compliance reviews, adviseert directie over framework-wijzigingen.",
+      "grondslag": "IIA Three Lines Model",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "titel": "Lijn 3 — interne audit",
+      "wat": "Onafhankelijke evaluatie van zowel lijn 1 als lijn 2. Rapporteert aan raad van bestuur / auditcomité, niet aan operationeel management. Geeft objectieve assurance over de werking van het hele IC-systeem.",
+      "waarom": "Zonder onafhankelijke derde lijn kunnen lijnen 1 en 2 elkaar dekken — niemand kijkt critisch naar het geheel.",
+      "voorbeeld_inline": "Sofie Janssens (IA-directeur) test in haar jaarprogramma 4 cycli volledig en rapporteert bevindingen + actieplan aan het auditcomité.",
+      "grondslag": "IIA Three Lines Model",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Buiten de drie lijnen",
+      "betekenis": "Externe auditor (commissaris) en regulator (NBB, FSMA) staan BUITEN de drie lijnen — zij geven externe assurance aan derden. Sommige modellen spreken van een 'vierde lijn' (regelgever) maar dat is niet de klassieke IIA-indeling.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "KMO-aanpassing",
+      "betekenis": "Bij KMO's zijn de drie lijnen vaak samengeperst in dezelfde persoon. Compensatie via externe accountant + periodieke management self-assessment. Volledige scheiding is onmogelijk; bewustzijn van het model helpt om risico's te benoemen.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Organisatieprincipe voor IC-actoren."},
+    {"type": "bevat", "target": "interne-audit", "redenering": "Lijn 3 IS interne audit."}
+  ]
+}

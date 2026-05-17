@@ -1,0 +1,72 @@
+{
+  "id": "controleoordeel-types",
+  "naam": "Types van controleoordeel",
+  "node_type": "afwegingskader",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.IV", "1.6.IV.B", "1.6.IV.C"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.IV",
+    "dekt_ook_anchors": ["1.6.IV.B", "1.6.IV.C"],
+    "reviewed_by": null
+  },
+  "doel": {
+    "text": "Op het einde van een audit formuleert de beroepsbeoefenaar een controleoordeel. Vier types: (1) goedkeurend oordeel zonder voorbehoud, (2) oordeel met voorbehoud, (3) afkeurend oordeel, (4) onthouding van oordeel. De keuze hangt af van (a) of afwijkingen materieel zijn én of zij diepgaande invloed hebben, en (b) of voldoende en geschikte assurance-informatie kon worden verkregen.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA KMO-controlenorm §116-§120"},
+    "_provenance": {"inputs": [
+      {"id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel", "sha256": null, "version": "rag-v1"},
+      {"id": "ITAA-norm-kmo-controlenorm__sec_3-3-2-aangepast-oordeel", "sha256": null, "version": "rag-v1"},
+      {"id": "ITAA-norm-kmo-controlenorm__sec_3-3-2-1-financi-le-overzichten-bevatten-afwijkingen-van-mate", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "bouwstenen": [
+    {
+      "titel": "Goedkeurend oordeel zonder voorbehoud",
+      "wat": "De jaarrekening geeft in alle van materieel belang zijnde opzichten een getrouw beeld. Geen materiële afwijkingen, voldoende assurance-informatie.",
+      "waarom": "De default-uitkomst als de audit niets materieels heeft gedetecteerd.",
+      "voorbeeld_inline": "Bij Rotex Roeselare NV vindt Sofie Janssens geen materiële afwijkingen → goedkeurend oordeel zonder voorbehoud.",
+      "grondslag": "ITAA KMO-controlenorm §117",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §117"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Oordeel met voorbehoud (qualified)",
+      "wat": "(a) Er zijn materiële afwijkingen vastgesteld die echter geen diepgaande invloed hebben, OF (b) er kon geen voldoende assurance-informatie worden verkregen, maar de mogelijke effecten zijn niet diepgaand.",
+      "waarom": "Tussenoordeel: er zijn problemen, maar niet zo erg dat de hele jaarrekening onbruikbaar wordt.",
+      "voorbeeld_inline": "Sofie Janssens stelt vast dat één deelneming van Rotex met € 250.000 te hoog gewaardeerd is — materieel maar geïsoleerd. Oordeel met voorbehoud: 'naar ons oordeel, behoudens de overwaardering van de deelneming X, geeft de jaarrekening een getrouw beeld'.",
+      "grondslag": "ITAA KMO-controlenorm §119",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §119"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-3-2-1-financi-le-overzichten-bevatten-afwijkingen-van-mate", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Afkeurend oordeel (adverse)",
+      "wat": "Materiële afwijkingen MET diepgaande invloed: de jaarrekening geeft GEEN getrouw beeld.",
+      "waarom": "Wanneer de afwijking zo erg is dat één paragraaf voorbehoud niet volstaat — een afzonderlijke afwijking benoemen zou misleiden.",
+      "voorbeeld_inline": "Sofie Janssens stelt vast dat Naaiatelier Ninove BV haar voorraden globaal en systematisch met € 1.200.000 heeft overgewaardeerd, wat de hele balans en het resultaat omslaat. Afkeurend oordeel.",
+      "grondslag": "ITAA KMO-controlenorm §120",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §120"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-3-2-1-financi-le-overzichten-bevatten-afwijkingen-van-mate", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Onthouding van oordeel (disclaimer)",
+      "wat": "Onmogelijk om voldoende en geschikte assurance-informatie te verkrijgen, EN de mogelijke effecten kunnen diepgaand zijn. De auditor kan geen oordeel formuleren.",
+      "waarom": "Bv. de cliënt weigert toegang tot kerndocumenten, of een scope-beperking maakt audit onmogelijk.",
+      "voorbeeld_inline": "Meubelzaak Mertens BV weigert de openingsbalans en de aankoopfacturen voor de eerste jaarhelft beschikbaar te stellen. Sofie Janssens kan de voorraadwaardering niet auditeren → onthouding van oordeel.",
+      "grondslag": "ITAA KMO-controlenorm §118",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §118"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-3-2-aangepast-oordeel", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "vergelijkingstabel": "| Aard probleem | Niet-diepgaand | Diepgaand |\n|---|---|---|\n| Materiële afwijking aanwezig | Oordeel met voorbehoud | Afkeurend oordeel |\n| Geen voldoende assurance-informatie | Oordeel met voorbehoud | Onthouding van oordeel |\n| Geen probleem | Goedkeurend oordeel zonder voorbehoud | — |",
+  "edges": [
+    {"type": "vereist-kennis-van", "target": "materieel-belang-audit", "redenering": "Materialiteit en diepgaandheid sturen de keuze."},
+    {"type": "bevat", "target": "aangepast-oordeel", "redenering": "Drie van de vier types zijn 'aangepaste' oordelen."}
+  ]
+}

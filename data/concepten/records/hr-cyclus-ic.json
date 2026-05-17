@@ -1,0 +1,47 @@
+{
+  "id": "hr-cyclus-ic",
+  "naam": "HR-cyclus — interne controle",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.IX.D", "1.7.IX"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T10:40Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.IX.D",
+    "dekt_ook_anchors": ["1.7.IX"],
+    "reviewed_by": null,
+    "bron_gap": "Wet 3 juli 1978 (arbeidsovereenkomsten) + sociale wetgeving raken de cyclus. Loon-IC-doctrine zelf is vakdoctrine."
+  },
+  "verplichting": "Wet 3 juli 1978 arbeidsovereenkomsten; sociale zekerheid; AVG voor personeelsdata.",
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Aanwerving + autorisatie",
+      "wat": "Vacature openzetten op basis van goedgekeurde headcount; aanwervingsproces met arbeidsovereenkomst.",
+      "waarom": "Zonder formele headcount-autorisatie: 'ghost employees' (fictieve werknemers) of overstaffing.",
+      "hoe": "1. HR opent vacature alleen op goedgekeurde rol.\n2. Arbeidsovereenkomst getekend door bevoegd persoon.\n3. Dimona-aangifte (RSZ-aanmelding) door HR, gescheiden van loonberekening.",
+      "grondslag": "Sociale zekerheidswet + Wet arbeidsovereenkomsten"
+    },
+    {
+      "nr": 2,
+      "titel": "Tijdsregistratie + loonberekening",
+      "wat": "Werktijd vastleggen; sociaal secretariaat berekent lonen op basis van contractgegevens + prestaties.",
+      "waarom": "Manipulatie van uren of toelagen = klassieke loonfraude.",
+      "hoe": "1. Operator klokt in/uit; supervisor valideert weeklijst.\n2. HR levert prestaties aan sociaal secretariaat (bv. Acerta).\n3. Sociaal secretariaat berekent loonfiches.",
+      "grondslag": "RSZ-wetgeving"
+    },
+    {
+      "nr": 3,
+      "titel": "Betaling + controle",
+      "wat": "Loonbetaling door CFO; vergelijking betalingen vs loonfiches; periodieke review werknemerslijst.",
+      "waarom": "Functiescheiding HR/payroll/betaling vermijdt ghost employees.",
+      "hoe": "1. CFO David tekent loonbestand af vóór betaling.\n2. Maandelijks: vergelijk aantal werknemers in payroll vs Dimona-lijst RSZ.\n3. Jaarlijks: review actieve werknemerslijst door directie.",
+      "grondslag": "Functiescheiding-doctrine"
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "HR-cyclus is hoofdcyclus, hoog fraude-risico zonder controles."},
+    {"type": "vereist-kennis-van", "target": "avg-interne-controle", "redenering": "Personeelsdata is gevoelig — AVG-implicaties zwaar."}
+  ]
+}

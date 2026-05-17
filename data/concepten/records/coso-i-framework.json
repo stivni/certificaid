@@ -1,0 +1,45 @@
+{
+  "id": "coso-i-framework",
+  "naam": "COSO I — Internal Control Integrated Framework",
+  "node_type": "methode",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.XII.D", "1.7.XII"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T10:48Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.XII.D",
+    "dekt_ook_anchors": ["1.7.XII"],
+    "reviewed_by": null,
+    "bron_gap": "COSO I (1992, herziene versie 2013) — uitgegeven door Committee of Sponsoring Organizations of the Treadway Commission (privé sector US, niet wettelijk in België). Geen Belgische trusted bron. Inferred-common-knowledge."
+  },
+  "doel": {
+    "text": "COSO I is het internationaal meest gebruikte referentiekader voor interne controle. Bevat een gestructureerde aanpak met drie doelstellingen (operationeel, rapportering, compliance), vijf componenten (controle-omgeving, risico-inschatting, beheersactiviteiten, informatie & communicatie, monitoring) en 17 onderliggende principes (sinds herziening 2013). Doel: hulpmiddel voor management en externe stakeholders om IC te ontwerpen en te beoordelen.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Bij Rotex Roeselare NV gebruikt het auditcomité COSO 2013 als referentie voor self-assessment: jaarlijks scoort elke afdeling de 17 principes (volledig / deels / niet aanwezig). Resultaat: gap-analyse en actieplan voor 2026.",
+  "bouwstenen": [
+    {
+      "titel": "Drie doelstellingen × vijf componenten × drie niveaus",
+      "wat": "COSO-kubus: 3 doelstellingen (Operations, Reporting, Compliance), 5 componenten (CE, RA, CA, I&C, M) en 3 organisatieniveaus (entity, division, operating unit, function). 45 cellen waar elke IC-activiteit kan worden gepositioneerd.",
+      "waarom": "Forceert systematisch denken — geen blinde vlekken in dimensie X of Y.",
+      "grondslag": "COSO 2013",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "titel": "17 principes (sinds 2013)",
+      "wat": "Elke component is uitgewerkt in 3-4 principes met points of focus. Bv. Component 1 (Controle-omgeving) bevat principe 1 (integriteit en ethiek), principe 2 (governance oversight), principe 3 (organisatiestructuur), principe 4 (commitment to competence), principe 5 (accountability).",
+      "waarom": "Operationaliseert de abstracte componenten naar concrete toetsbare punten.",
+      "grondslag": "COSO 2013 herziening",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "vergelijkt-met", "target": "coso-ii-erm-framework", "redenering": "COSO II breidt I uit naar enterprise-level risk management."},
+    {"type": "vergelijkt-met", "target": "iso-31000-risicobeheer", "redenering": "ISO 31000 is alternatief generiek raamwerk; COSO is meer audit-georiënteerd."},
+    {"type": "vereist-kennis-van", "target": "interne-controle", "redenering": "COSO concretiseert het abstracte IC-begrip."}
+  ]
+}

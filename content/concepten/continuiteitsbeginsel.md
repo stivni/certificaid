@@ -19,7 +19,7 @@ node_type: beginsel
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/continuiteitsbeginsel.json
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Boekhoudkundig continuïteitsbeginsel (going concern) ⚖️
 

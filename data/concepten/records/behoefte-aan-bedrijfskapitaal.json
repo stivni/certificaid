@@ -1,0 +1,103 @@
+{
+  "id": "behoefte-aan-bedrijfskapitaal",
+  "naam": "Behoefte aan bedrijfskapitaal (BBK)",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.9.IV.D", "1.9.IV", "1.9.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T10:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.9.IV.D",
+    "dekt_ook_anchors": ["1.9.IV", "1.9.taak.1"],
+    "reviewed_by": null,
+    "bron_gap": "Vakdoctrine. Term komt niet als zodanig in KB WVV-schema voor; wordt afgeleid uit balansrubrieken (voorraden, vorderingen, leverancierskredieten)."
+  },
+  "definitie": {
+    "text": "De behoefte aan bedrijfskapitaal (BBK) is het bedrag dat de onderneming permanent moet financieren omdat haar exploitatiecyclus geld vastzet in voorraden en handelsvorderingen voordat zij van haar klanten betaling krijgt — vermindert door wat ze zelf op krediet bij leveranciers koopt.",
+    "confidence": "inferred-common-knowledge",
+    "source": {"type": "vakdoctrine", "short": "Financiële analyse — Belgische vakliteratuur (Ooghe-Van Wymeersch, Vereeck e.a.)"},
+    "_provenance": {"inputs": [{"id": "anchor-1.9.IV.D", "sha256": null, "version": "rag-v1"}]}
+  },
+  "bouwstenen": [
+    {
+      "titel": "Voorraad + handelsvorderingen − leverancierskrediet",
+      "wat": "Som van wat operationeel vastzit (voorraden, handelsvorderingen) min wat van leveranciers nog niet betaald is (handelsschulden). Het positief verschil is geld dat permanent moet voorgefinancierd worden.",
+      "waarom": "Een groeiende handelsactiviteit vreet vanzelf cash via de exploitatiecyclus — zonder financiering komt het bedrijf in liquiditeitsproblemen ondanks winstgevendheid.",
+      "voorbeeld_inline": "Rotex Roeselare NV heeft voorraden van € 6.000.000, handelsvorderingen € 8.000.000 en handelsschulden € 4.500.000. BBK = € 6.000.000 + € 8.000.000 − € 4.500.000 = € 9.500.000.",
+      "grondslag": "Vakdoctrine",
+      "confidence": "inferred-common-knowledge",
+      "source": {"type": "vakdoctrine", "short": "Financiële analyse"},
+      "_provenance": {"inputs": [{"id": "anchor-1.9.IV.D", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Werkkapitaal moet de BBK dekken",
+      "wat": "Het werkkapitaal (permanente middelen − vaste activa) moet de BBK financieren. Werkkapitaal > BBK levert positieve nettokas; werkkapitaal < BBK betekent dat kortlopend bankkrediet de exploitatiecyclus moet dichtdekken.",
+      "waarom": "Dit verklaart waarom een winstgevend bedrijf toch in liquiditeitsproblemen kan komen: groeiende omzet → groeiende BBK → werkkapitaal niet meer toereikend → kasspanning.",
+      "voorbeeld_inline": "Rotex Roeselare NV: werkkapitaal = € 8.000.000, BBK = € 9.500.000 → nettokas = − € 1.500.000 (kortlopende bankkrediet nodig).",
+      "grondslag": "Vakdoctrine",
+      "confidence": "inferred-common-knowledge",
+      "source": {"type": "vakdoctrine", "short": "Financiële analyse"},
+      "_provenance": {"inputs": [{"id": "anchor-1.9.IV.D", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "berekeningsmethode": [
+    {
+      "naam": "Behoefte aan bedrijfskapitaal",
+      "formules": [
+        {
+          "id": "bbk",
+          "naam": "BBK (statisch)",
+          "wiskunde": "BBK = voorraden + handelsvorderingen − handelsschulden",
+          "variabelen": [
+            {"symbool": "voorraden", "betekenis": "Klasse 3 — voorraden en bestellingen in uitvoering", "eenheid": "EUR"},
+            {"symbool": "handelsvorderingen", "betekenis": "Klasse 40 — vorderingen op ten hoogste 1 jaar", "eenheid": "EUR"},
+            {"symbool": "handelsschulden", "betekenis": "Klasse 44 — handelsschulden", "eenheid": "EUR"}
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "voorraden = € 6.000.000, vorderingen = € 8.000.000, schulden = € 4.500.000",
+            "berekening": "€ 6.000.000 + € 8.000.000 − € 4.500.000 = € 9.500.000",
+            "eenheid_resultaat": "EUR"
+          }
+        },
+        {
+          "id": "nettokas",
+          "naam": "Nettokas (afgeleide)",
+          "wiskunde": "nettokas = werkkapitaal − BBK",
+          "afhankelijk_van": ["bbk"],
+          "variabelen": [
+            {"symbool": "werkkapitaal", "betekenis": "Zie [[werkkapitaal]] — permanent geïnvesteerd in exploitatiecyclus", "eenheid": "EUR"}
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "werkkapitaal = € 8.000.000, BBK = € 9.500.000",
+            "berekening": "€ 8.000.000 − € 9.500.000 = − € 1.500.000",
+            "eenheid_resultaat": "EUR"
+          }
+        }
+      ],
+      "source": {"type": "vakdoctrine", "short": "Financiële analyse"},
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": [{"id": "anchor-1.9.IV.D", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "werkkapitaal",
+      "verschil": "Werkkapitaal is de financieringsbron (permanente middelen min vaste activa); BBK is de behoefte (voorraden + vorderingen min handelsschulden). Het verschil tussen beide is de nettokas — positief = ruimte, negatief = kasspanning.",
+      "trigger": "Bij examenvraag 'continuïteit / liquiditeitsanalyse': controleer of werkkapitaal de BBK dekt. Niet hetzelfde concept verwarren.",
+      "_provenance": {"inputs": [{"id": "anchor-1.9.IV.D", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Een groeiend BBK is niet noodzakelijk slecht: het kan signaal zijn van een groeiende activiteit. Het wordt problematisch wanneer de BBK sneller groeit dan de omzet (verslechtering inning klanten of voorraadrotatie).",
+      "confidence": "inferred-common-knowledge",
+      "source": {"type": "vakdoctrine", "short": "Financiële analyse"},
+      "_provenance": {"inputs": [{"id": "anchor-1.9.IV.D", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "vereist-kennis-van", "target": "werkkapitaal", "redenering": "Werkkapitaal is de financieringsbron die de BBK moet dekken.", "confidence": "inferred"},
+    {"type": "onderdeel-van", "target": "kasstroomoverzicht-drie-segmenten", "redenering": "Wijziging in BBK is een component van de operationele kasstroom (indirecte methode).", "confidence": "inferred"}
+  ]
+}

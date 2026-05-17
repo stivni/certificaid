@@ -1,0 +1,219 @@
+id: opzetten-analytisch-rekeningenstelsel
+titel: Opzetten van een analytisch rekeningenstelsel met kostencentra en kostendragers
+status: voorgesteld
+schema_version: "1.1"
+programmaonderdelen:
+- 1.8
+voortkomend_uit:
+  taken:
+  - 1.8.taak.1
+  kenniselementen:
+  - 1.8.I
+  - 1.8.I.A
+  - 1.8.IV
+  - 1.8.IV.A
+  - 1.8.IV.B
+  - 1.8.IV.C
+gebaseerd_op_concepten:
+- analytische-boekhouding
+- doelstellingen-analytische-boekhouding
+- rekeningenstelsel-analytisch
+- kostensoort
+- kostencentrum
+- kostendrager
+- verdeelsleutel
+- registratiesysteem-waarderingsneutraal
+- registratiesysteem-eenvoudige-integratie
+- registratiesysteem-proportionele-integratie
+procedure_grondslag:
+  wettelijk_pct: 25
+  praktijk_pct: 75
+  motivering: KB 21.10.2018 (MAR) reserveert klasse 9 vrij voor analytische rekeningen en CBN-advies 3/3 vraagt waarderingsneutraliteit, maar het feitelijke ontwerp (welke kostencentra, welke verdeelsleutels, koppeling met algemene boekhouding) is vakdoctrine en bedrijfsafhankelijk. Vereist mens-review wegens praktijk_pct > 70%.
+stappen:
+- nr: 1
+  titel: Bepalen van de informatiebehoeften en doelstellingen
+  wat: Identificeer welke beslissingen het analytisch stelsel moet ondersteunen (prijszetting, voorraadwaardering, budgetcontrole, performantie per centrum).
+  waarom: Het ontwerp van het stelsel volgt de informatievraag — anders riskeer je een fijnmazige indeling die niemand gebruikt.
+  input:
+  - artefact: Bedrijfsplan + organogram
+    veld: Productlijnen, afdelingen, sturingsritme
+    type: document
+  - artefact: Gesprekken met directie/controlling
+    veld: Welke vragen moet de boekhouding maandelijks beantwoorden
+    type: document
+  output:
+  - artefact: Lijst informatie-objecten
+    veld: Producten, klanten, opdrachten, afdelingen
+    type: conclusie
+  hoe: |
+    1. Lees de vier klassieke doelen volgens [[doelstellingen-analytische-boekhouding]]:
+       voorraadwaardering, prijszetting, beslissingen, prestatiebeoordeling.
+    2. Inventariseer welke doelen voor de cliënt prioritair zijn — niet elke onderneming
+       heeft alle vier even sterk nodig.
+    3. Vertaal elk doel naar concrete informatie-objecten:
+       voorraadwaardering → kost per product; performantie → kost per kostencentrum;
+       beslissingen → kost per order of klant.
+    4. Documenteer keuzes in een ontwerpnota; vraag bevestiging van directie.
+  grondslag: "[[doelstellingen-analytische-boekhouding]] §vier-doelen, [[analytische-boekhouding]] §scope"
+- nr: 2
+  titel: Definiëren van kostensoorten, kostencentra en kostendragers
+  wat: "Bouw de drie dimensies van de analytische registratie op: kostensoorten (klasse 6 spiegel), kostencentra (waar wordt verbruikt), kostendragers (waaraan wordt toegerekend)."
+  waarom: Zonder duidelijke afbakening loopt kost-informatie door elkaar en wordt geen enkele dimensie betrouwbaar.
+  input:
+  - artefact: Lijst informatie-objecten uit stap 1
+    veld: Producten + afdelingen + opdrachten
+    type: document
+  - artefact: MAR-klasse 9 (Bijlage 1 KB 21.10.2018)
+    veld: Vrije nummering binnen klasse 9
+    type: document
+  output:
+  - artefact: Drie rekening-lijsten
+    veld: Kostensoorten, kostencentra, kostendragers met code + omschrijving
+    type: document
+  hoe: |
+    1. Lijst de kostensoorten op volgens [[kostensoort]] — vaak een spiegel van klasse 6
+       (60 grondstoffen, 61 diensten, 62 personeel, 63 afschrijvingen, 64 andere).
+    2. Lijst de kostencentra op volgens [[kostencentrum]] §afbakening: hulp-centra
+       (bv. onderhoud) tegenover hoofd-centra (productie-afdelingen).
+       Voor Yperse Werkplaats BV: Spinnerij, Weverij, Confectie.
+    3. Lijst de kostendragers op volgens [[kostendrager]] §scope: producten, productgroepen,
+       opdrachten of klanten.
+    4. Vermijd verwarring tussen centra (waar) en dragers (waarop) — zie examen-valkuilen.
+    5. Wijs codes toe binnen klasse 9 (vrij): bv. 90 kostensoorten, 91 centra, 92 dragers.
+  voorbeeld:
+    scenario: "Yperse Werkplaats BV — productie van wollen tapijten met drie kostencentra (Spinnerij, Weverij, Confectie) en productlijnen (tapijt-standaard / tapijt-luxe / kleed-handgeknoopt)."
+    substappen:
+    - nr: 1
+      titel: Kostensoorten (klasse 90)
+      type: balans
+      data: |
+        | Code  | Kostensoort                    |
+        |-------|--------------------------------|
+        | 9000  | Grondstoffen (wol, garen)      |
+        | 9001  | Hulpstoffen (kleurstoffen)     |
+        | 9020  | Directe arbeid                 |
+        | 9021  | Indirecte arbeid               |
+        | 9030  | Afschrijvingen productiemachines |
+        | 9040  | Energiekosten                  |
+        | 9050  | Onderhoud                      |
+    - nr: 2
+      titel: Kostencentra (klasse 91)
+      type: balans
+      data: |
+        | Code  | Kostencentrum  | Type        |
+        |-------|----------------|-------------|
+        | 9100  | Onderhoud      | Hulp-centrum |
+        | 9101  | Stroomvoorziening | Hulp-centrum |
+        | 9110  | Spinnerij      | Hoofd-centrum |
+        | 9120  | Weverij        | Hoofd-centrum |
+        | 9130  | Confectie      | Hoofd-centrum |
+        | 9140  | Administratie  | Algemeen     |
+    - nr: 3
+      titel: Kostendragers (klasse 92)
+      type: balans
+      data: |
+        | Code  | Kostendrager           |
+        |-------|------------------------|
+        | 9200  | Tapijt-standaard       |
+        | 9201  | Tapijt-luxe            |
+        | 9202  | Kleed-handgeknoopt     |
+  valkuilen:
+  - advies: "Houd kostencentrum (plaats van verbruik) en kostendrager (object van toerekening) consequent gescheiden."
+    vaak_fout: "Een afdeling als drager registreren of een product als centrum — leidt tot onbruikbare rapporten."
+    grondslag: "[[kostencentrum]] §verschil-met-drager, [[kostendrager]] §scope"
+  grondslag: "[[kostensoort]] §klassen-9, [[kostencentrum]] §afbakening, [[kostendrager]] §scope, [[rekeningenstelsel-analytisch]] §MAR-bijlage-1, KB 21.10.2018 art. MAR"
+- nr: 3
+  titel: Kiezen van verdeelsleutels voor indirecte kosten
+  wat: Stel per indirecte-kosten-categorie een verdeelsleutel vast die de oorzakelijkheid tussen het verbruik en de drager benadert.
+  waarom: De verdeelsleutel bepaalt de toegerekende kost — een verkeerde sleutel vertekent zowel voorraadwaardering als prijszetting.
+  input:
+  - artefact: Lijst indirecte kostensoorten
+    veld: Onderhoud, energie, leiding, etc.
+    type: document
+  - artefact: Historische data + kennis productieproces
+    veld: Drijvers van verbruik
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Sleutelmatrix
+    veld: Per indirecte kost een toewijzingsbasis (uren, m², kWh, ...)
+    type: document
+  hoe: |
+    1. Volg [[verdeelsleutel]] §oorzakelijkheidsprincipe: kies een grootheid die het
+       werkelijk verbruik weerspiegelt (machine-uren voor energie, m² voor huur).
+    2. Onderscheid primaire verdeling (kost → centrum) van secundaire verdeling
+       (hulp-centra → hoofd-centra) volgens [[verdeelsleutel]] §primair-secundair.
+    3. Test plausibiliteit: pas de sleutel toe op een historische maand en kijk
+       of de toerekening realistisch is.
+    4. Documenteer keuzes (waarom deze sleutel) — onmisbaar voor consistentie en audit.
+    5. Voor toewijzing aan dragers: gebruik bij voorkeur cost-drivers zoals in
+       [[abc-methode]] §activiteit-drivers; alleen bij beperkte complexiteit volstaat
+       één globale opslag.
+  grondslag: "[[verdeelsleutel]] §oorzakelijkheidsprincipe, [[abc-methode]] §activiteit-drivers"
+- nr: 4
+  titel: Kiezen van het registratiesysteem (koppeling met algemene boekhouding)
+  wat: Beslis hoe analytische klasse-9-rekeningen gekoppeld worden aan de algemene boekhouding (eenvoudige spiegel, proportionele integratie, of waarderingsneutrale variant).
+  waarom: De koppeling bepaalt hoe en wanneer reconciliatie tussen klasse 6 en klasse 9 gebeurt en of analytische cijfers kunnen afwijken van algemene.
+  input:
+  - artefact: Vereisten uit stap 1
+    veld: Sturingsritme + audit-traceerbaarheid
+    type: document
+  output:
+  - artefact: Geselecteerd registratiesysteem
+    veld: Type + reconciliatie-procedure
+    type: conclusie
+  hoe: |
+    1. Vergelijk de drie systemen:
+       - [[registratiesysteem-eenvoudige-integratie]]: klasse-9 spiegelt klasse-6
+         één-op-één, zelfde waardering, geen reconciliatie nodig.
+       - [[registratiesysteem-proportionele-integratie]]: vaste verdeelsleutel-koppeling,
+         geschikt voor stabiele productieprocessen.
+       - [[registratiesysteem-waarderingsneutraal]]: analytische waardering mag afwijken
+         (bv. opportuniteitskost) mits expliciet verklaard — conform CBN 3/3 §principe.
+    2. Voor Yperse Werkplaats BV: eenvoudige integratie volstaat voor de jaarrekening;
+       maandelijkse rapportering werkt waarderingsneutraal voor management-besluiten.
+    3. Documenteer reconciliatie-procedure: hoe vaak, door wie, welke verschillen mogen
+       voorkomen en hoe ze worden verklaard.
+  valkuilen:
+  - advies: "Sluit aan op bestaande IT-systemen en analytische rapporteringsroutines vóór je kiest."
+    vaak_fout: "Een theoretisch zuiver systeem kiezen dat in de praktijk niet onderhouden wordt."
+    grondslag: "[[registratiesysteem-waarderingsneutraal]] §praktijk"
+  grondslag: "[[registratiesysteem-eenvoudige-integratie]], [[registratiesysteem-proportionele-integratie]], [[registratiesysteem-waarderingsneutraal]] §CBN-3-3"
+- nr: 5
+  titel: Testen, documenteren en uitrollen
+  wat: Test het stelsel op een proefmaand, documenteer alle keuzes in een analytisch handboek en train de gebruikers.
+  waarom: Zonder testrun blijven inconsistenties verborgen; zonder documentatie verwatert het stelsel binnen een jaar.
+  input:
+  - artefact: Reeël boekhoud-maand
+    veld: Werkelijke aankoop-, verbruik- en personeelsdata
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Analytisch handboek + opleiding
+    veld: Rekeningenkader, sleutels, procedures
+    type: document
+  hoe: |
+    1. Boek één maand parallel in algemene én analytische boekhouding.
+    2. Vergelijk klasse-6-totalen met klasse-9-totalen — verschil moet verklaarbaar zijn.
+    3. Stel een schriftelijke procedure op: wie boekt wat in klasse 9, wanneer worden
+       hulp-centra naar hoofd-centra verdeeld, wie reconcilieert.
+    4. Geef opleiding aan boekhouding én aan de afdelingsverantwoordelijken die de
+       analytische rapporten gaan lezen.
+    5. Plan een eerste-jaars-evaluatie: zijn de informatie-objecten uit stap 1 werkelijk
+       gehaald? Stel bij waar nodig.
+  grondslag: "[[analytische-boekhouding]] §implementatie"
+beslisboom:
+- vraag: "Wil de onderneming één analytische cijferreeks die exact aansluit bij de jaarrekening?"
+  ja: "Kies [[registratiesysteem-eenvoudige-integratie]] of [[registratiesysteem-proportionele-integratie]]."
+  nee: "Kies [[registratiesysteem-waarderingsneutraal]] voor management-cijfers + eenvoudige spiegel voor jaarrekening."
+- vraag: "Zijn er meerdere productlijnen met sterk verschillend resourceverbruik?"
+  ja: "Plan kostendragers per productlijn én ABC-toerekening volgens [[abc-methode]]."
+  nee: "Volstaan met één opslag per kostencentrum-uur."
+voorbeelden:
+- situatie: "Yperse Werkplaats BV (productie wollen tapijten) wil maandelijks kostprijs per productlijn én voorraadwaardering op balansdatum."
+  conclusie: "Drie hoofdcentra (Spinnerij, Weverij, Confectie), drie kostendragers (tapijt-standaard, tapijt-luxe, kleed-handgeknoopt), eenvoudige integratie tegenover klasse 6 voor balans, waarderingsneutrale module voor maandsturing."
+  grondslag: "[[analytische-boekhouding]] §implementatie, [[registratiesysteem-waarderingsneutraal]]"
+  redenering: "Productieproces met afgebakende afdelingen rechtvaardigt centra. Maandelijkse sturing vraagt aanvullende cijfers (opportuniteitskosten) die waarderingsneutraal kunnen worden ingebracht."
+_provenance:
+  voorgesteld_door: "competentie-destillatie-v2-1.8-2026-05-17"
+  voorgesteld_op: "2026-05-17T12:00Z"
+  gecureerd_door: null
+  gecureerd_op: null

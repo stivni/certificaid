@@ -1,0 +1,73 @@
+{
+  "id": "interne-audit",
+  "naam": "Interne audit",
+  "node_type": "fenomeen",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.I.D", "1.7.V.A", "1.7.V.B", "1.7.V", "1.7.IV"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T09:18Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.V.A",
+    "dekt_ook_anchors": ["1.7.I.D", "1.7.V.B", "1.7.V", "1.7.IV"],
+    "reviewed_by": null,
+    "bron_gap": "Geen Belgische trusted bron voor de IIA-definitie van interne audit (Institute of Internal Auditors). Vakdoctrine internationaal (IIA Standards, ISA 610 voor externe auditor die gebruik maakt van IA-werk). Inferred-common-knowledge voor het brede begrip; gegrond waar ITAA-norm-algemene-controlenorm raakt aan documentatie + onafhankelijkheid."
+  },
+  "definitie": {
+    "text": "Interne audit is een onafhankelijke, objectieve evaluatie- en adviesactiviteit binnen een onderneming die de werking van het interne-controle-systeem, het risicobeheer en de governance toetst. De interne auditor rapporteert hiërarchisch aan de hoogste leiding (raad van bestuur of auditcomité), niet aan het management van het proces dat hij beoordeelt — dat geeft hem zijn onafhankelijkheid binnen de onderneming.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Bij Rotex Roeselare NV werkt Sofie Janssens als interne auditor. Ze rapporteert aan het auditcomité van de raad van bestuur. In 2026 voert ze een review uit van de aankoopcyclus: ze test of de procedure 'drie handtekeningen + leverancier-due-diligence' systematisch wordt nageleefd. Ze rapporteert haar bevindingen aan het auditcomité, niet aan de aankoopdirecteur.",
+  "in_praktijk": [
+    {
+      "aspect": "Vier kerntaken interne auditor",
+      "betekenis": "(1) Evaluatie van het IC-systeem: werkt het zoals beoogd? (2) Risicobeheer-evaluatie: zijn de juiste risico's geïdentificeerd en beheerst? (3) Governance-review: functioneren de overlegorganen correct? (4) Adviesrol: aanbevelingen voor verbetering.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "Onafhankelijkheid binnen de onderneming",
+      "betekenis": "De interne auditor is werknemer maar staat hiërarchisch los van de gecontroleerde processen. Rapporteert rechtstreeks aan auditcomité of raad van bestuur, niet aan operationeel management. Mag geen taken uitvoeren in de cyclus die hij audit (anders zit hij zichzelf te beoordelen).",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "Wanneer wettelijk verplicht in België",
+      "betekenis": "Voor de meeste ondernemingen niet wettelijk verplicht — wel in financiële sector (banken, verzekeraars onder toezicht van NBB), beursgenoteerde vennootschappen (Code Buysse / Code 2020), en grote overheidsentiteiten. Yperse Werkplaats BV (KMO) heeft géén wettelijke verplichting; Rotex Roeselare NV (groot, beursgenoteerd) wel via de Corporate Governance Code.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Interne auditor ≠ interne controleur. De controleur zit ingebed in het proces (tekent facturen af, doet inventaris). De interne auditor evalueert achteraf of die controles werken — hij voert ze niet uit.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "text": "Bij externe audit mag de externe auditor 'gebruik maken van' werk van interne audit (ISA 610) — maar blijft volledig verantwoordelijk voor zijn eigen oordeel. Hij delegeert niet, hij steunt waar zinvol.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "externe-controle",
+      "verschil": "Interne audit = werknemer van de onderneming, evalueert continu intern. Externe controle = onafhankelijke buitenstaander, controleert periodiek (typisch jaarlijks).",
+      "trigger": "Wie betaalt de auditor en wie krijgt het verslag? Eigen werknemer + intern verslag → IA. Externe firma + extern verslag → externe controle.",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "vergelijking_met": "interne-controle",
+      "verschil": "Interne controle = de procedures zelf. Interne audit = de evaluator van die procedures. Een IC-medewerker doet IC, een interne auditor doet IA.",
+      "trigger": "Voor elke 'controle': gebeurt het bij elke transactie (= IC) of periodiek/steekproefsgewijs (= IA)?",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "drie-lijnen-model", "redenering": "Interne audit is de derde verdedigingslijn in het 3-lines-of-defense-model — onafhankelijke assurance."},
+    {"type": "vergelijkt-met", "target": "interne-controle", "redenering": "IC en IA worden vaak verward maar zijn complementair, niet identiek."},
+    {"type": "vereist-kennis-van", "target": "auditcomite", "redenering": "Interne audit rapporteert idealiter aan het auditcomité voor maximale onafhankelijkheid."}
+  ]
+}

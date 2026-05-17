@@ -1,0 +1,87 @@
+{
+  "id": "analytische-boekhouding",
+  "naam": "Analytische boekhouding",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.8.I",
+    "1.8.I.A",
+    "1.8.taak.1",
+    "1.8.IV"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.I.A",
+    "dekt_ook_anchors": ["1.8.I", "1.8.taak.1", "1.8.IV"],
+    "reviewed_by": null,
+    "bron_gap": "Belgisch boekhoudrecht definieert 'analytische boekhouding' niet rechtstreeks; het concept leeft in management-accounting-doctrine. De algemene boekhouding (CBN 174/1) wordt wel wettelijk gedefinieerd. Vakdoctrine-claims gemarkeerd als 'inferred-common-knowledge'."
+  },
+  "definitie": {
+    "text": "De analytische boekhouding (ook: bedrijfseconomische boekhouding of kostprijsboekhouding) is een intern, vrij in te vullen registratiesysteem waarin kosten en opbrengsten worden herverdeeld over kostendragers (producten, opdrachten, klanten) en kostencentra (afdelingen, machines). Doel: beslissingsinformatie leveren — niet de wettelijke jaarrekening. Ze loopt parallel met de algemene boekhouding en put uit dezelfde brongegevens, maar met een andere indeling.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — geen Belgische trusted bron"
+    },
+    "_provenance": {
+      "inputs": [
+        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_beginselen-van-een-regelmatige-boekhouding_part1", "sha256": null, "version": "rag-v1"}
+      ]
+    }
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Verschil met algemene boekhouding",
+      "betekenis": "De algemene boekhouding (klasse 1 t/m 7) is wettelijk verplicht en gericht op externe verslaggeving (jaarrekening, fiscus). De analytische boekhouding (typisch klasse 9 in het MAR) is vrijwillig, gericht op interne besluitvorming, en groepeert kosten per kostencentrum/kostendrager — niet per kostensoort.",
+      "herkenningspunt": "Klasse-9-rekeningen in de proef- en saldibalans → analytische boekhouding aanwezig.",
+      "confidence": "inferred-common-knowledge",
+      "source": {"type": "vakdoctrine", "short": "MAR KB 21.10.2018 Bijlage 1 — klasse 9 'vrij in te vullen'"},
+      "_provenance": {
+        "inputs": [
+          {"id": "Minimum-Algemeen-Rekeningstelsel-voor-boekhoudplichtige-ondernemingen__klasse_9", "sha256": null, "version": "rag-v1"}
+        ]
+      }
+    },
+    {
+      "aspect": "Toepassing in voorbeeld-onderneming",
+      "betekenis": "Yperse Werkplaats BV (textielproductie) houdt een analytische boekhouding bij over drie kostencentra: Spinnerij, Weverij en Confectie. De stagiair moet kunnen herkennen dat een kostencentrum-rapport (bv. 'Confectie 3e kwartaal: € 250.000 totale kosten, € 180.000 directe, € 70.000 indirect verdeeld') een output is van die analytische boekhouding — niet van de wettelijke jaarrekening.",
+      "herkenningspunt": "Rapportage per afdeling/product/order zonder dat het op de balans verschijnt.",
+      "confidence": "inferred-common-knowledge",
+      "source": {"type": "cast", "short": "Yperse Werkplaats BV — scenario kostenanalyse_volledig"},
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "algemene-boekhouding",
+      "verschil": "Algemene boekhouding = wettelijk verplicht, kostensoort-georiënteerd (61, 62, 63, ...), output = jaarrekening. Analytische boekhouding = vrijwillig, kostencentrum/-drager-georiënteerd, output = interne rapporten (kostprijs per product, marge per klant, budget vs. realisatie).",
+      "trigger": "Vraag in examen: 'wordt deze rapportage extern of intern gebruikt?' → extern + kostensoort = algemene; intern + per product/afdeling = analytische.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Niet verwarren met 'bedrijfsboekhouding' — die term wordt soms breder gebruikt en omvat ook financiële rapportering. Analytische boekhouding is enger: enkel het deel dat kostprijs en marges per object berekent.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "text": "Analytische cijfers moeten aansluiten op de algemene boekhouding (totaal kosten klasse 6 = totaal kosten in analytische rapportage), tenzij expliciet onderscheid wordt gemaakt voor interne sturing (bv. opportuniteitskosten, kapitaalkost). Mismatch zonder verklaring = zwakke interne controle.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "bevat", "target": "kostencentrum", "redenering": "Een analytische boekhouding structureert kosten per kostencentrum.", "confidence": "inferred"},
+    {"type": "bevat", "target": "kostendrager", "redenering": "Idem voor kostendragers (producten, orders, klanten).", "confidence": "inferred"},
+    {"type": "bevat", "target": "typologie-van-kosten", "redenering": "De typologie (vast/variabel, direct/indirect) is fundament van elke analytische boekhouding.", "confidence": "inferred"},
+    {"type": "vergelijkt-met", "target": "algemene-boekhouding", "redenering": "Twee parallelle systemen — vaak gevraagd in examen.", "confidence": "inferred"},
+    {"type": "getriggerd-door", "target": "doelstellingen-analytische-boekhouding", "redenering": "Waarom een onderneming een analytische boekhouding bijhoudt.", "confidence": "inferred"},
+    {"type": "vereist-kennis-van", "target": "rekeningenstelsel-analytisch", "redenering": "Hoe je het MAR (klasse 9) inricht.", "confidence": "inferred"}
+  ]
+}

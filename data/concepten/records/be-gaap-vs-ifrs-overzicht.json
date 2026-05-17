@@ -1,0 +1,38 @@
+{
+  "id": "be-gaap-vs-ifrs-overzicht",
+  "naam": "Belgisch GAAP versus IFRS — overzicht van hoofdverschillen",
+  "node_type": "synthese",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.5.IV.C", "1.5.IV", "1.5.V"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.5.IV.C",
+    "dekt_ook_anchors": ["1.5.IV", "1.5.V"],
+    "reviewed_by": null
+  },
+  "gebaseerd_op_concepten": [
+    "richtlijn-2013-34-eu",
+    "ifrs-verordening-1606-2002",
+    "ifrs-toepassingsgebied-belgie",
+    "ias-1-jaarrekening-componenten",
+    "ias-1-presentatie-beginselen",
+    "materiele-vaste-activa-ifrs",
+    "immateriele-vaste-activa-ifrs",
+    "leasing-ifrs",
+    "opbrengsten-ifrs",
+    "voorraden-ifrs"
+  ],
+  "vergelijkingstabel": "| Aspect                          | Belgisch GAAP (KB WVV)                                              | IFRS                                                                                       | Belangrijkste gevolg                                                                                       |\n|--------------------------------|---------------------------------------------------------------------|--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|\n| **Algemeen kader**             | Rule-based, vast schema, juridisch-fiscaal georiënteerd             | Principle-based, flexibele presentatie, investeerders-georiënteerd                          | IFRS vereist meer professional judgment, BE-GAAP meer schemavolgen                                          |\n| **Componenten jaarrekening**   | Balans + W&V + toelichting (3); voor groot schema: kasstroom + bestuursverslag | 5 verplichte componenten: balans + totaalresultaat + mutaties EV + kasstroom + toelichting | IFRS verplicht mutatieoverzicht EV en kasstroom voor iedereen                                              |\n| **Materiële vaste activa**     | Kostprijsmodel; herwaardering uitzonderlijk + voor financiële + materiële vaste activa | Kostprijs- of herwaarderingsmodel (keuze per categorie) — IAS 16                            | IFRS staat structurele herwaardering tegen reële waarde toe; BE-GAAP veel terughoudender                    |\n| **Onderzoekskosten**           | Activering mogelijk (KB WVV art. 3:31)                              | Verbod op activering — moet als kost (IAS 38 alinea 54)                                     | Eerste IFRS-toepassing: schrappen geactiveerde onderzoekskosten, ingehouden winsten −                       |\n| **Ontwikkelingskosten**        | Activering mogelijk onder strikte voorwaarden                       | Activering verplicht bij 6 cumulatieve criteria (IAS 38 alinea 57)                          | IFRS strikter inhoudelijk maar dwingender in toepassing                                                     |\n| **Goodwill**                   | Afschrijving over vermoedelijke gebruiksduur (KB WVV art. 3:131)    | GEEN afschrijving — jaarlijkse impairment-test (IAS 36 / IFRS 3)                            | IFRS-resultaat schommelt meer (impairment-shock vs. gladde afschrijving)                                    |\n| **Leasing — lessee**           | Operationele lease off-balance; financiële lease op balans          | ALLE leases on-balance: gebruiksrecht-actief + leaseverplichting (IFRS 16)                  | IFRS toont meer activa én meer schulden; ratio's debt/equity stijgen                                       |\n| **Opbrengsten**                | 'Aangenomen wanneer winsten gerealiseerd zijn op balansdatum' — KB WVV art. 3:18 | 5-stappen-model (IFRS 15) — vergoeding ↔ prestatieverplichtingen                            | IFRS analyseert contract diepgaander; soms andere tijdsbepaling van opbrengst                              |\n| **Voorraden**                  | LIFO, FIFO of gewogen gemiddelde toegelaten                          | LIFO **verboden**; alleen FIFO of gewogen gemiddelde (IAS 2 alinea 25)                      | IFRS-overgang dwingt LIFO-gebruikers tot herrekening                                                       |\n| **Voorzieningen**              | Voor 'voorzienbare risico's' — soms ruim ingeschat                  | Strikte 3 criteria: huidige verplichting + waarschijnlijke uitstroom + betrouwbaar schatbaar (IAS 37) | IFRS staat minder 'reserve-vorming' toe — voorzieningen die niet aan criteria voldoen, worden teruggenomen |\n| **Reële waarde**               | Beperkt — sommige financiële instrumenten                            | Centraal kader (IFRS 13) — uitgebreid gebruik bij financiële activa, vastgoedbeleggingen, biologische activa | IFRS-resultaat volatieler; meer hierarchie 1/2/3 toelichtingen                                              |\n| **Uitgestelde belastingen**    | Toelichting vermeld; opname terughoudend                            | Volledige opname verplicht (IAS 12) — verschillen tussen boekwaarde en fiscale waarde      | IFRS-balans heeft meer uitgestelde belastingactiva/passiva zichtbaar                                       |",
+  "beslisboom": "```mermaid\nflowchart TD\n    A[Welke jaarrekening?] --> B{Welk niveau?}\n    B -->|Enkelvoudig statutair| C[Verplicht Belgisch GAAP — KB WVV]\n    B -->|Geconsolideerd| D{Beursgenoteerd op gereglementeerde markt EU?}\n    D -->|Ja| E[Verplicht IFRS — Verordening 1606/2002 art. 4]\n    D -->|Nee| F{Belgische krediet-/verzekeringsinstelling?}\n    F -->|Ja| G[Verplicht IFRS — sectorregelgeving]\n    F -->|Nee| H{Vrijwillige keuze IFRS?}\n    H -->|Ja, toegestaan via uitzondering| I[IFRS — eenmalige beslissing, IFRS 1]\n    H -->|Nee/standaard| J[Belgisch GAAP — KB WVV consolidatie]\n```",
+  "_provenance": {"inputs": [
+    {"id": "EU-IFRS-verordening-1606-2002__art_4", "sha256": null, "version": "rag-v1"},
+    {"id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding", "sha256": null, "version": "rag-v1"},
+    {"id": "CBN-2010-21-de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van__sec_de-internationale-financi-le-rapporteringsstandaarden-ifrs-i", "sha256": null, "version": "rag-v1"},
+    {"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"},
+    {"id": "IFRS-16-leaseovereenkomsten__sec_opname", "sha256": null, "version": "rag-v1"},
+    {"id": "IAS-2-voorraden__sec_waardering-van-voorraden", "sha256": null, "version": "rag-v1"},
+    {"id": "IAS-38-immateriele-activa__sec_opname-en-waardering", "sha256": null, "version": "rag-v1"}
+  ]}
+}

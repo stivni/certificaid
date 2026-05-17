@@ -1,0 +1,176 @@
+{
+  "id": "interne-controle",
+  "naam": "Interne controle",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.7.I.A",
+    "1.7.I",
+    "1.7.II.E",
+    "1.7.III.A",
+    "1.7.III.B",
+    "1.7.IV",
+    "1.7.taak.1"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T09:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.I.A",
+    "dekt_ook_anchors": ["1.7.I", "1.7.II.E", "1.7.III.A", "1.7.III.B", "1.7.IV", "1.7.taak.1"],
+    "reviewed_by": null,
+    "bron_gap": "De ITAA-norm-kmo-controlenorm definieert 'interne beheersing' vanuit auditperspectief (Bijlage 1). De brede COSO-definitie ('proces om redelijke zekerheid te verschaffen over doelstellingen rond rapportering, werking en compliance') is hier overgenomen want sluit aan bij die norm. Geen specifieke Belgische bron voor de bredere COSO-doctrine (control environment, risk assessment, control activities, information & communication, monitoring) — vakdoctrine met inferred-common-knowledge."
+  },
+  "definitie": {
+    "text": "Interne controle is het geheel van procedures, gedragsregels en organisatorische maatregelen dat een onderneming opzet om met redelijke zekerheid haar doelstellingen te halen rond drie zaken: (1) betrouwbaarheid van de financiële rapportering, (2) effectiviteit en efficiëntie van de bedrijfsvoering, en (3) naleving van wet- en regelgeving. Het is een proces dat door bestuur, management én personeel wordt gedragen — geen aparte dienst die toezicht houdt.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA-norm-kmo-controlenorm Bijlage 1 (definitie 'Interne beheersing')"},
+    "references": [
+      {"type": "norm", "short": "ITAA-norm-kmo-controlenorm §96-§98"},
+      {"type": "norm", "short": "ITAA-norm-algemene-controlenorm §6"}
+    ],
+    "_provenance": {
+      "inputs": [
+        {"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3", "sha256": null, "version": "rag-v1"},
+        {"id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen", "sha256": null, "version": "rag-v1"}
+      ]
+    }
+  },
+  "voorbeeld_inline": "Yperse Werkplaats BV (productie-onderneming, omzet € 8.000.000) zet een intern-controle-systeem op met hulp van Xenon Expertise BV: aankoopfacturen moeten drie handtekeningen krijgen (besteller, magazijnier, financieel verantwoordelijke); voorraadtellingen worden 2x per jaar gedaan door iemand anders dan de magazijnier; loonberekening wordt opgemaakt door HR maar betaald door financieel verantwoordelijke. Doel: redelijke zekerheid dat de cijfers kloppen, dat er niet wordt gestolen, en dat de wet wordt nageleefd.",
+  "bouwstenen": [
+    {
+      "titel": "Drie doelstellingen van interne controle",
+      "wat": "Elke interne-controle-maatregel werkt aan minstens één van deze drie doelen: betrouwbare cijfers (financiële rapportering), efficiënt werken (operationele doelstellingen), of regels naleven (compliance).",
+      "waarom": "Zonder duidelijk doel weet je niet of een maatregel zinvol is. Door elke controle aan een doelstelling te koppelen vermijd je 'controles om de controles'.",
+      "voorbeeld_inline": "Bij Yperse Werkplaats BV: dubbele handtekening op betalingen > € 25.000 = compliance + betrouwbaarheid; maandelijkse omzetreview = operationeel + betrouwbaarheid.",
+      "grondslag": "ITAA-norm-kmo-controlenorm Bijlage 1",
+      "confidence": "grounded",
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Redelijke, geen absolute zekerheid",
+      "wat": "Interne controle geeft 'redelijke' zekerheid — nooit 100%. Elk systeem heeft inherente beperkingen: menselijke fout, samenspanning, management override en kosten-baten-afweging.",
+      "waarom": "Een systeem dat alle fouten en fraude zou uitsluiten is onbetaalbaar én verlamt de werking. De manager moet kiezen welke risico's hij accepteert.",
+      "voorbeeld_inline": "Yperse Werkplaats BV controleert niet elke factuur < € 500 dubbel — het kost meer dan het oplevert. Het risico wordt geaccepteerd binnen redelijke grenzen.",
+      "grondslag": "ITAA-norm-kmo-controlenorm Bijlage 1",
+      "confidence": "grounded",
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Vijf bouwstenen (COSO-componenten)",
+      "wat": "De internationale vakdoctrine (COSO I, 1992/2013) onderscheidt vijf samenhangende componenten: (1) controle-omgeving (cultuur, integriteit), (2) risico-inschatting, (3) controle-activiteiten (procedures), (4) informatie en communicatie, (5) monitoring (opvolging).",
+      "waarom": "Deze vijf moeten samen werken — een sterke controle-omgeving zonder activiteiten is bla-bla; sterke activiteiten zonder monitoring verzwakken in de tijd.",
+      "voorbeeld_inline": "Bij Yperse Werkplaats BV: directeur Pieter Vermeulen tekent gedragscode (omgeving), risicomatrix wordt jaarlijks bijgewerkt (risico-inschatting), aankoopprocedure beschreven (activiteit), maandelijkse KPI-dashboard (info), interne audit door Sofie Janssens (monitoring).",
+      "grondslag": "COSO I (1992/2013) — vakdoctrine, geen Belgische wetgeving",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "titel": "Wie draagt het systeem",
+      "wat": "Het bestuursorgaan stelt de toon en keurt het kader goed; het management implementeert en houdt het systeem in stand; elke medewerker past de procedures dagelijks toe.",
+      "waarom": "Verantwoordelijkheid is niet delegeerbaar naar 'de boekhouder' of 'de auditor'. Een systeem dat enkel door één laag wordt gedragen valt om bij personeelswissel.",
+      "voorbeeld_inline": "Bij Yperse Werkplaats BV: raad van bestuur keurt jaarlijks het risico-rapport goed; CFO is operationeel verantwoordelijk; elke magazijnier tekent voor ontvangst.",
+      "grondslag": "ITAA-norm-kmo-controlenorm Bijlage 1",
+      "confidence": "grounded",
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Verschil met interne audit",
+      "betekenis": "Interne controle = de procedures zelf (preventief, ingebed in elk proces). Interne audit = een onafhankelijke evaluator die nakijkt of die procedures werken (detectief, periodiek). De magazijnier die elke pallet aftekent doet interne controle; Sofie Janssens die 2x per jaar de procedure test doet interne audit.",
+      "herkenningspunt": "Vraag bij elke 'controle': gebeurt het bij elke transactie (= IC) of periodiek door iemand anders (= IA)?",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "Verschil met externe audit",
+      "betekenis": "Externe audit = onafhankelijke beroepsbeoefenaar (bv. commissaris) die de jaarrekening controleert voor derden. Interne controle is een instrument dat de externe auditor mag gebruiken om minder substantief te testen (zie [[toetsing-interne-beheersing]]).",
+      "herkenningspunt": "Externe audit dient externe gebruikers (aandeelhouders, fiscus, banken); interne controle dient de organisatie zelf.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA-norm-kmo-controlenorm §97"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "aspect": "Dubbele dimensie (1.7.III.A)",
+      "betekenis": "Interne controle heeft twee dimensies: (1) een 'hard' luik = procedures, formulieren, IT-controles, geschreven richtlijnen; (2) een 'zacht' luik = cultuur, gedrag, integriteit, voorbeeldfunctie van het management ('tone at the top'). Zonder zacht luik wordt het harde luik genegeerd; zonder hard luik is goede wil niet meetbaar.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Interne controle is GEEN aparte afdeling of GEEN losse procedurebundel — het is een proces dat verweven zit in elke dagelijkse handeling. Als je het systeem afzondert ('dat is voor de IC-medewerker'), verlies je de essentie.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "text": "Management override: zelfs het beste systeem kan omzeild worden door directie die het bewust passeert. De externe auditor moet hier altijd alert op zijn (zie [[fraude]]).",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA-norm-kmo-controlenorm §96"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "text": "'Redelijke zekerheid' is examenval: studenten schrijven soms 'absolute zekerheid' of 'volledige zekerheid'. Dat is fout — onmogelijk in elk reëel systeem.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA-norm-kmo-controlenorm Bijlage 1"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "interne-audit",
+      "verschil": "Interne controle = het systeem zelf (procedures, ingebed). Interne audit = de evaluator van dat systeem (onafhankelijk, periodiek).",
+      "trigger": "Vraagt het examen 'wie tekent de factuur af'? → IC. 'Wie evalueert of de procedure werkt?' → IA.",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "vergelijking_met": "externe-controle",
+      "verschil": "Interne controle = georganiseerd door en voor de onderneming zelf. Externe controle = uitgevoerd door onafhankelijke derden (commissaris, accountant, fiscale controleur) voor externe stakeholders.",
+      "trigger": "Examenvraag spreekt over 'wie steunt op wie': de externe auditor (Sofie Janssens) steunt op de interne controle om zijn werk te beperken — niet andersom.",
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {
+      "type": "bevat",
+      "target": "controle-omgeving",
+      "redenering": "De controle-omgeving (cultuur, integriteit, tone at the top) is COSO-component 1 — fundament van het IC-systeem."
+    },
+    {
+      "type": "bevat",
+      "target": "risico-inschatting-organisatie",
+      "redenering": "Risico-inschatting is COSO-component 2 — zonder identificatie van risico's geen gerichte controles."
+    },
+    {
+      "type": "bevat",
+      "target": "beheersactiviteiten",
+      "redenering": "Beheersactiviteiten zijn COSO-component 3 — de concrete procedures (autorisaties, verificaties, functiescheiding)."
+    },
+    {
+      "type": "bevat",
+      "target": "informatie-en-communicatie-ic",
+      "redenering": "Informatie en communicatie is COSO-component 4 — relevante info bereikt de juiste personen op tijd."
+    },
+    {
+      "type": "bevat",
+      "target": "monitoring-interne-controle",
+      "redenering": "Monitoring is COSO-component 5 — de IC wordt zelf opgevolgd en bijgestuurd."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "functiescheiding",
+      "redenering": "Functiescheiding is de meest centrale beheersactiviteit. Wie IC wil begrijpen moet eerst de vier-functies-regel kennen."
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "toetsing-interne-beheersing",
+      "redenering": "Wanneer de externe auditor op IC wil steunen voert hij toetsingen van de IC uit (ITAA-norm-kmo-controlenorm §97)."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "coso-i-erm-framework",
+      "redenering": "COSO I is het meest gebruikte referentiekader voor IC; nationaal of sectorspecifiek aangevuld."
+    }
+  ]
+}

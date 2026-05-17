@@ -1,0 +1,73 @@
+{
+  "id": "voorraadwaardering",
+  "naam": "Voorraadwaardering (kostprijsmethoden)",
+  "node_type": "regel",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.II.B", "1.8.III.A"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.II.B",
+    "dekt_ook_anchors": ["1.8.III.A"],
+    "reviewed_by": null,
+    "extractie_opmerking": "Overlapt sterk met PO 1.1 voorraadboekhouding. Hier behouden vanuit perspectief 'kostprijsberekening in analytische boekhouding'. PO 1.1 zou volledige voorraadboekhouding-record kunnen bezitten."
+  },
+  "main_rule": {
+    "text": "Voorraden worden gewaardeerd aan aanschaffingswaarde (gekochte goederen) of vervaardigingsprijs (zelf vervaardigde producten), eventueel verminderd tot lagere marktwaarde (laagstewaarderegel). Voor identieke goederen waarvan de prijs schommelt, wordt één van de wettelijk toegestane berekeningsmethoden consistent toegepast: individueel, gewogen gemiddelde of FIFO.",
+    "confidence": "grounded",
+    "source": {"type": "cbn", "short": "CBN-advies 132/7 — Boeking en waardering van voorraden"},
+    "_provenance": {
+      "inputs": [
+        {"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_waardering-van-voorraden-grond-en-hulpstoffen-goederen-in-bewerking", "sha256": null, "version": "rag-v1"},
+        {"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_marktwaarde", "sha256": null, "version": "rag-v1"}
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Drie toegestane berekeningsmethoden",
+      "wat": "(1) Individuele waardering: per stuk traceerbaar (geschikt voor unieke goederen, machines). (2) Gewogen gemiddelde: gemiddelde aankoopprijs bij elke nieuwe instroom. (3) FIFO: eerst aangekochte goederen eerst verbruikt. LIFO is in België niet meer toegestaan voor de jaarrekening (KB 21.10.2018).",
+      "waarom": "Bepaalt welke aankoopprijs aan de uitgaande hoeveelheid wordt toegerekend bij prijsschommelingen.",
+      "voorbeeld_inline": "Yperse Werkplaats BV koopt wol in 3 partijen: 500 kg × € 4,71 + 800 kg × € 5,10 + 700 kg × € 5,30. Verbruik 1.500 kg. Gewogen gemiddelde: (500×4,71 + 800×5,10 + 700×5,30) / 2.000 = € 5,06/kg → verbruik € 7.590. FIFO: 500×4,71 + 800×5,10 + 200×5,30 = € 7.495.",
+      "grondslag": "KB 21.10.2018 art. 18 · CBN 132/7",
+      "confidence": "grounded",
+      "source": {"type": "cbn", "short": "CBN 132/7"},
+      "_provenance": {
+        "inputs": [
+          {"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_waardering-van-voorraden-grond-en-hulpstoffen-goederen-in-bewerking", "sha256": null, "version": "rag-v1"}
+        ]
+      }
+    },
+    {
+      "titel": "Laagstewaarderegel",
+      "wat": "Op balansdatum: vergelijk aanschaffingswaarde met marktwaarde. De laagste van beide wordt opgenomen. Waardevermindering tot werkelijke waarde bij blijvende marktdaling.",
+      "waarom": "Voorzichtigheidsbeginsel; vermijdt opgeblazen voorraadwaarde.",
+      "voorbeeld_inline": "Yperse Werkplaats BV heeft wol in voorraad aan € 5,06/kg gemiddeld. Marktprijs op balansdatum: € 4,30/kg. Waardevermindering naar marktwaarde verplicht → afboeking van het verschil als waardevermindering.",
+      "grondslag": "CBN 132/7 §Marktwaarde",
+      "confidence": "grounded",
+      "source": {"type": "cbn", "short": "CBN 132/7"},
+      "_provenance": {
+        "inputs": [
+          {"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_marktwaarde", "sha256": null, "version": "rag-v1"}
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Methodewissel (bv. van gewogen gemiddelde naar FIFO) vereist motivering in de toelichting; vergelijkbaarheid met vorige jaarrekening moet worden uitgelegd.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "text": "FIFO geeft in een inflatie-omgeving een hogere voorraadwaarde (recente, hogere prijzen blijven in voorraad) en daardoor hogere winst dan gewogen gemiddelde. Bij deflatie omgekeerd. Examen-valkuil: studenten denken dat FIFO altijd 'objectiever' is.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "vereist-kennis-van", "target": "materiaalkosten", "redenering": "Voorraad is hoofdzakelijk materiaal.", "confidence": "inferred"},
+    {"type": "vereist-kennis-van", "target": "vervaardigingsprijs", "redenering": "Vervaardigingsprijs is waarderingsbasis voor zelf vervaardigde voorraad.", "confidence": "inferred"}
+  ]
+}

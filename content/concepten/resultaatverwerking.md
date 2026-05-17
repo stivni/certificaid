@@ -13,7 +13,7 @@ node_type: procedure
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/resultaatverwerking.json
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Resultaatverwerking (winst- of verliesbestemming) ⚖️
 

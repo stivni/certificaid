@@ -1,0 +1,176 @@
+{
+  "id": "ifrs-eerste-toepassing",
+  "naam": "Eerste toepassing van IFRS (IFRS 1)",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.5.IV.A", "1.5.IV"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.5.IV.A",
+    "dekt_ook_anchors": ["1.5.IV"],
+    "reviewed_by": null
+  },
+  "verplichting": {
+    "text": "IFRS 1 — Eerste toepassing van International Financial Reporting Standards (IFRSs) bepaalt hoe een entiteit die voor het eerst een jaarrekening volledig conform IFRS uitbrengt, de overgang van haar oude grondslagen (typisch Belgisch GAAP / KB WVV) naar IFRS uitvoert. Het doel is dat de eerste IFRS-jaarrekening: (a) transparant is en vergelijkbaar over verslagperioden, (b) een geschikt uitgangspunt vormt voor toekomstige IFRS-verslaggeving, en (c) wordt opgesteld tegen kosten die de voordelen niet overtreffen. Centraal staat de **datum van overgang naar IFRS**: dat is de begindatum van de eerste vergelijkende periode in de eerste IFRS-jaarrekening. Op die datum stelt de entiteit een **IFRS-openingsoverzicht van de financiële positie** op — alle activa en verplichtingen volgens IFRS-criteria geherwaardeerd, herclassificeerd of opgenomen, met aanpassingsverschil rechtstreeks in de ingehouden winsten.",
+    "confidence": "grounded",
+    "source": {"type": "ifrs", "short": "IFRS 1 alinea's 1-12"},
+    "references": [
+      {"type": "ifrs", "short": "IFRS 1 alinea 1 (doel)"},
+      {"type": "ifrs", "short": "IFRS 1 alinea 3 (definitie eerste IFRS-jaarrekening)"},
+      {"type": "ifrs", "short": "IFRS 1 alinea 6 (openingsoverzicht)"},
+      {"type": "ifrs", "short": "IFRS 1 alinea 10 (vier acties: opnemen, niet opnemen, herclassificeren, waarderen)"},
+      {"type": "ifrs", "short": "IFRS 1 alinea 11 (aanpassingsverschil in ingehouden winsten)"},
+      {"type": "ifrs", "short": "IFRS 1 alinea's 14-17 + bijlage B (uitzonderingen op retroactieve toepassing)"},
+      {"type": "ifrs", "short": "IFRS 1 bijlagen C-E (vrijstellingen)"},
+      {"type": "ifrs", "short": "IFRS 1 alinea 23 + 24 (toelichting + aansluiting)"}
+    ],
+    "_provenance": {"inputs": [
+      {"id": "IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_doel", "sha256": null, "version": "rag-v1"},
+      {"id": "IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_opname-en-waardering", "sha256": null, "version": "rag-v1"},
+      {"id": "EU-IFRS-verordening-1606-2002__art_1", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Bepaal de datum van overgang naar IFRS",
+      "wat": "Identificeer (a) de eerste verslagperiode waarin je een volledig IFRS-conforme jaarrekening uitbrengt — bv. boekjaar 31 december 2027 — en (b) de begindatum van de daarbij gepresenteerde vergelijkende periode. Die laatste datum is je **datum van overgang naar IFRS**.",
+      "waarom": "IFRS vereist minstens één vergelijkbare periode. De openingsbalans op de overgangsdatum moet al volledig IFRS-conform zijn, anders is de vergelijking onmogelijk.",
+      "input": [{"artefact": "Beslissing tot IFRS-toepassing", "veld": "Eerste IFRS-verslagperiode", "type": "datum"}],
+      "output": [{"artefact": "IFRS-overgangsdossier", "veld": "Datum van overgang", "type": "datum"}],
+      "hoe": "1. Zelena Bio NV beslist begin 2027 om voor boekjaar eindigend 31 december 2027 voor het eerst IFRS-jaarrekening uit te brengen.\n2. Vergelijkende periode = boekjaar 2026.\n3. Begindatum vergelijkende periode = 1 januari 2026.\n4. Datum van overgang naar IFRS = **1 januari 2026**.",
+      "grondslag": "IFRS 1 alinea 3 + 6 + voorbeeld in 'Achtergrond'-sectie"
+    },
+    {
+      "nr": 2,
+      "titel": "Stel het IFRS-openingsoverzicht op",
+      "wat": "Maak een balans (overzicht van de financiële positie) op de overgangsdatum die volledig voldoet aan IFRS — alsof je altijd al IFRS had toegepast. Vier acties: (a) activa/verplichtingen opnemen die IFRS vereist maar BE-GAAP niet had; (b) activa/verplichtingen NIET opnemen die BE-GAAP wel had maar IFRS niet toestaat; (c) herclassificeren waar IFRS een andere categorie gebruikt; (d) volgens IFRS-grondslagen waarderen.",
+      "waarom": "Het openingsoverzicht is je IFRS-vertrekpunt. Foute openingsbalans → alle volgende IFRS-cijfers fout.",
+      "input": [
+        {"artefact": "Belgisch-GAAP-balans op overgangsdatum", "veld": "Alle activa en passiva", "type": "boekhoudkundig-bedrag"},
+        {"artefact": "IFRS-grondslagenkeuze", "veld": "Per categorie kostprijs of reële waarde", "type": "beleidskeuze"}
+      ],
+      "output": [{"artefact": "IFRS-openingsoverzicht financiële positie", "veld": "Balans per overgangsdatum", "type": "jaarrekening-overzicht"}],
+      "hoe": "1. Neem de Belgisch-GAAP-balans van Zelena Bio NV per 1 januari 2026: activa € 200.000.000, passiva € 75.000.000, eigen vermogen € 125.000.000.\n2. Check categorie per categorie:\n   - Onderzoekskosten € 2.500.000 (geactiveerd onder BE-GAAP): IFRS staat geen activering toe (IAS 38, art. 54) → **schrappen**, ingehouden winsten −€ 2.500.000.\n   - Operationele leasing wagenpark: BE-GAAP toonde alleen leasebedrag als kost. IFRS 16 vereist gebruiksrecht-actief + leaseverplichting. → Berekenen en **opnemen**.\n   - Goodwill uit acquisitie 2020: BE-GAAP schreef gestaag af; IFRS 3 → niet langer afschrijven maar jaarlijks toetsen op bijzondere waardevermindering (impairment).\n3. Resultaat: nieuwe balans met IFRS-cijfers per 1 januari 2026.",
+      "grondslag": "IFRS 1 alinea 10 (vier acties)"
+    },
+    {
+      "nr": 3,
+      "titel": "Pas verplichte uitzonderingen en optionele vrijstellingen toe",
+      "wat": "IFRS 1 voorziet **verplichte uitzonderingen** op retroactieve toepassing (waar het niet wenselijk is een IFRS volledig terug te draaien — bv. eerdere schattingen, hedging-aanwijzingen, niet-beheersbelangen). Daarnaast biedt het **optionele vrijstellingen** (in bijlagen C tot en met E): je mág kiezen om bv. de reële waarde op de overgangsdatum als 'veronderstelde kostprijs' te gebruiken voor materiële vaste activa.",
+      "waarom": "Volledige retroactieve toepassing is praktisch onhaalbaar of zou misleidende resultaten geven (bv. herzien van schattingen achteraf met kennis van vandaag). De uitzonderingen vermijden dat probleem; de vrijstellingen geven een redelijke kostengrens.",
+      "input": [
+        {"artefact": "IFRS 1 bijlage B (verplichte uitzonderingen)", "veld": "Toepasselijke uitzonderingen", "type": "regelset"},
+        {"artefact": "IFRS 1 bijlage D (vrijstellingen)", "veld": "Optionele vrijstellingen", "type": "regelset"}
+      ],
+      "output": [{"artefact": "IFRS-overgangsdossier", "veld": "Keuzen en motivering per actief/passief-categorie", "type": "beleidskeuze"}],
+      "hoe": "1. Zelena Bio's terreinen (boekwaarde Belgisch GAAP € 12.000.000, marktwaarde 1 januari 2026 € 18.000.000): de stagiair gebruikt de vrijstelling 'reële waarde als veronderstelde kostprijs' (D5) → terreinen op € 18.000.000 in IFRS-openingsbalans, herwaarderingsverschil € 6.000.000 in ingehouden winsten.\n2. Schattingen van uitgestelde belastingen die in 2020 onder BE-GAAP werden gemaakt: NIET herzien (verplichte uitzondering — IFRS 1 alinea 14).\n3. Documentatie: per gebruikte vrijstelling vermelden in de toelichting.",
+      "grondslag": "IFRS 1 alinea's 13-17 + bijlagen B, C, D, E"
+    },
+    {
+      "nr": 4,
+      "titel": "Verwerk het aanpassingsverschil in ingehouden winsten",
+      "wat": "Het verschil tussen de oude (BE-GAAP) en nieuwe (IFRS) balans op de overgangsdatum komt **rechtstreeks** in de ingehouden winsten — niet in winst of verlies. Latere boekjaren gebruiken de IFRS-cijfers als vertrekpunt.",
+      "waarom": "De aanpassing weerspiegelt feiten van vóór de overgangsdatum. Ze hoort niet thuis in het resultaat van de overgangsperiode, anders zou één jaar de last/baat dragen van een correctie die over jaren is opgebouwd.",
+      "input": [
+        {"artefact": "BE-GAAP-balans op overgangsdatum", "veld": "Eigen vermogen", "type": "boekhoudkundig-bedrag"},
+        {"artefact": "IFRS-openingsbalans", "veld": "Eigen vermogen", "type": "boekhoudkundig-bedrag"}
+      ],
+      "output": [{"artefact": "IFRS-openingsbalans", "veld": "Ingehouden winsten (aangepast)", "type": "boekhoudkundig-bedrag"}],
+      "hoe": "1. Zelena Bio: eigen vermogen onder BE-GAAP per 1 januari 2026 = € 125.000.000.\n2. Aanpassingen: schrap onderzoek −€ 2.500.000; opname leaseverplichting netto-effect −€ 4.000.000; reële-waarde-uplift terreinen +€ 6.000.000; impairment-correctie goodwill +€ 1.500.000; saldo = +€ 1.000.000.\n3. Eigen vermogen onder IFRS per 1 januari 2026 = € 126.000.000.\n4. Het verschil van € 1.000.000 boek je in 'Ingehouden winsten' van de IFRS-openingsbalans.",
+      "grondslag": "IFRS 1 alinea 11"
+    },
+    {
+      "nr": 5,
+      "titel": "Stel aansluiting + toelichting op",
+      "wat": "Vermeld in de eerste IFRS-jaarrekening: (a) aansluiting tussen BE-GAAP- en IFRS-eigen vermogen op zowel de overgangsdatum als de einddatum van de laatste BE-GAAP-jaarrekening; (b) aansluiting tussen BE-GAAP- en IFRS-totaalresultaat over de laatste BE-GAAP-periode; (c) als impairment voor het eerst is opgenomen of teruggenomen: extra IAS 36-informatie.",
+      "waarom": "Gebruikers van de jaarrekening (beleggers, analisten) moeten **traceerbaar** kunnen zien hoe de cijfers veranderden. De aansluiting voorkomt dat de overgang lijkt op een 'cijfermachine' zonder verklaring.",
+      "input": [
+        {"artefact": "BE-GAAP-cijfers vorige periode", "veld": "Eigen vermogen + totaalresultaat", "type": "boekhoudkundig-bedrag"},
+        {"artefact": "IFRS-cijfers vergelijkende periode", "veld": "Eigen vermogen + totaalresultaat", "type": "boekhoudkundig-bedrag"}
+      ],
+      "output": [{"artefact": "Toelichting eerste IFRS-jaarrekening", "veld": "Aansluitingstabellen", "type": "toelichtingsnoot"}],
+      "hoe": "1. Maak een tabel met als startpunt: 'EV onder BE-GAAP per 1 januari 2026 = € 125.000.000'.\n2. Per aanpassing één regel: 'Schrappen onderzoekskosten (IAS 38) −€ 2.500.000', 'Opname leaseverplichting netto (IFRS 16) −€ 4.000.000', etc.\n3. Eindlijn: 'EV onder IFRS per 1 januari 2026 = € 126.000.000'.\n4. Herhaal dezelfde oefening voor 31 december 2026 (de einddatum van de vergelijkende periode).\n5. Doe een vergelijkbare oefening voor het totaalresultaat 2026 (BE-GAAP → IFRS).",
+      "voorbeeld": {
+        "scenario": "Aansluiting eigen vermogen Zelena Bio NV per 1 januari 2026 (datum van overgang naar IFRS)",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Aansluitingstabel EV op overgangsdatum",
+            "type": "berekening",
+            "data": "| Post                                                            | Bedrag (€)       |\n|-----------------------------------------------------------------|-----------------:|\n| Eigen vermogen volgens Belgisch GAAP (1 januari 2026)           |   125.000.000    |\n| Schrappen geactiveerde onderzoekskosten (IAS 38 art. 54)        |    −2.500.000    |\n| Opname gebruiksrecht wagenpark (IFRS 16) — actief +20.000.000   |                  |\n|   minus leaseverplichting −24.000.000 → netto                   |    −4.000.000    |\n| Reële waarde terreinen als veronderstelde kostprijs (IFRS 1 D5) |    +6.000.000    |\n| Terugname jaarlijkse goodwill-afschrijving 2020-2025            |    +1.500.000    |\n| **Eigen vermogen volgens IFRS (1 januari 2026)**                |  **126.000.000** |"
+          }
+        ]
+      },
+      "grondslag": "IFRS 1 alinea's 23-25 (toelichting en aansluitingen)"
+    }
+  ],
+  "tijdlijn": [
+    {
+      "stap": "Datum van overgang naar IFRS — IFRS-openingsbalans opstellen",
+      "termijn": "Begindatum vergelijkende periode (typisch 1 januari Y−1)",
+      "actor": "Onderneming + IFRS-team",
+      "actie": "Volledige IFRS-openingsbalans opstellen, aanpassingen in ingehouden winsten",
+      "source": {"type": "ifrs", "short": "IFRS 1 alinea 6"},
+      "_provenance": {"inputs": [{"id": "IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_opname-en-waardering", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "stap": "Vergelijkende verslagperiode — registreer alle transacties parallel onder IFRS",
+      "termijn": "Eerste vergelijkende boekjaar (Y−1)",
+      "actor": "Onderneming",
+      "actie": "Schaduw-rapportering onder IFRS naast de wettelijke BE-GAAP-rapportering",
+      "source": {"type": "ifrs", "short": "IFRS 1 alinea 7"},
+      "_provenance": {"inputs": [{"id": "IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_opname-en-waardering", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "stap": "Eerste IFRS-verslagperiode — publicatie eerste IFRS-jaarrekening",
+      "termijn": "Eerste IFRS-boekjaar (Y)",
+      "actor": "Onderneming + commissaris",
+      "actie": "Publicatie eerste IFRS-jaarrekening met aansluitingstabellen + IAS 1 minimum drie balansen (Y, Y−1, openingsbalans Y−1)",
+      "source": {"type": "ifrs", "short": "IFRS 1 alinea 21 + IAS 1 alinea 40A"},
+      "_provenance": {"inputs": [{"id": "IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_presentatie-en-informatieverschaffing", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Het aanpassingsverschil bij eerste toepassing gaat **niet** via winst of verlies maar rechtstreeks naar ingehouden winsten. Wie dat fout doet, vervuilt het IFRS-resultaat van de overgangsperiode met correcties die feitelijk over alle voorgaande jaren slaan.",
+      "confidence": "grounded",
+      "source": {"type": "ifrs", "short": "IFRS 1 alinea 11"},
+      "_provenance": {"inputs": [{"id": "IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_opname-en-waardering", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "text": "Eenmalige vrijstelling 'reële waarde als veronderstelde kostprijs' (IFRS 1 D5) mag alleen bij **eerste** toepassing worden gebruikt — niet later. Een onderneming die de overgang miste, kan dat voordeel niet meer benutten.",
+      "confidence": "grounded",
+      "source": {"type": "ifrs", "short": "IFRS 1 bijlage D"},
+      "_provenance": {"inputs": [{"id": "IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_opname-en-waardering", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "text": "Schattingen die op de overgangsdatum onder BE-GAAP gemaakt waren, mogen alleen herzien worden als er objectieve aanwijzingen waren dat de oude schatting fout was. Nieuwe informatie die ná de overgangsdatum kwam, gebruik je niet om de openingsbalans aan te passen — dat zou hindsight zijn (IFRS 1 alinea 14-15).",
+      "confidence": "grounded",
+      "source": {"type": "ifrs", "short": "IFRS 1 alinea 14-15"},
+      "_provenance": {"inputs": [{"id": "IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_opname-en-waardering", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {
+      "type": "getriggerd-door",
+      "target": "ifrs-verordening-1606-2002",
+      "redenering": "Een nieuwe verplichting tot IFRS (nieuwe beursnotering of stelselwissel) triggert IFRS 1.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "ias-1-jaarrekening-componenten",
+      "redenering": "De eerste IFRS-jaarrekening moet voldoen aan IAS 1 — drie balansen verplicht.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "wijziging-boekhoudkundig-referentiestelsel",
+      "redenering": "IFRS 1 dekt eerste IFRS-toepassing; CBN 2022/08 dekt de algemene wisseling-procedure (incl. terugkeer naar BE-GAAP).",
+      "confidence": "grounded"
+    }
+  ]
+}

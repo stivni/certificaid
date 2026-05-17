@@ -1,0 +1,40 @@
+---
+title: Flexibel budget
+tags:
+- concept
+- begrip
+- po-1-8
+linked_anchors:
+- 1.8.VI.B
+- 1.8.VI.D
+programmaonderdelen:
+- '1.8'
+confidence: inferred
+node_type: begrip
+status: seed
+schema_version: '1.4'
+gegenereerd_uit: data/concepten/records/flexibel-budget.json
+gegenereerd_op: '2026-05-17'
+---
+# Flexibel budget 🤖
+
+> [!summary] Korte inhoud
+> Een flexibel budget herrekent het budget op basis van het werkelijke productie- of verkoopvolume.
+
+> [!info] Behoort tot: [[budgetbeheer]]
+
+Een flexibel budget herrekent het budget op basis van het werkelijke productie- of verkoopvolume. Variabele kosten worden aangepast aan werkelijke volume; vaste kosten blijven gelijk. Resultaat: een 'gecorrigeerd budget' dat eerlijker vergeleken kan worden met de realisatie.
+
+_Bron: Management accounting — bron-gap_
+
+
+> [!info]- Niet verwarren met [[statisch-budget]]
+> Statisch budget = oorspronkelijk plan, niet aangepast aan werkelijk volume. Flexibel budget = aangepast aan werkelijk volume. Vergelijking realisatie vs. statisch mengt volume- en efficiëntie-effect; flexibel scheidt beide.
+>
+> _Trigger_: Examen-vraag: 'is dit verschil te wijten aan andere productie of aan inefficiëntie?' → flexibel budget is nodig om te scheiden.
+
+
+## Zie ook
+
+- **Vereist kennis van**: [[verschillenboekhouding]]
+

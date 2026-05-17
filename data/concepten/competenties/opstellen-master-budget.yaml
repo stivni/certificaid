@@ -1,0 +1,193 @@
+id: opstellen-master-budget
+titel: Opstellen van een master-budget (operationeel + financieel)
+status: voorgesteld
+schema_version: "1.1"
+programmaonderdelen:
+- 1.8
+voortkomend_uit:
+  taken:
+  - 1.8.taak.1
+  kenniselementen:
+  - 1.8.V
+  - 1.8.VI
+  - 1.8.VI.A
+  - 1.8.VI.B
+  - 1.8.VI.C
+  - 1.8.VI.D
+gebaseerd_op_concepten:
+- master-budget
+- budgetbeheer
+- budgetprocedure
+- budget-cyclus
+- statisch-budget
+- flexibel-budget
+- vaste-kosten
+- variabele-kosten
+- volledige-kostencalculatie
+procedure_grondslag:
+  wettelijk_pct: 5
+  praktijk_pct: 95
+  motivering: Budgetbeheer en master-budget zijn integraal vakdoctrine. Het enige wettelijke raakpunt is dat het bestuursorgaan via WVV-bepalingen (bv. art. 7:228, 5:153) een alarmbelprocedure moet starten wanneer het netto-actief dreigt onder kritieke drempels te dalen — daarbij is een budget vaak praktisch instrument, maar niet wettelijk verplicht. Vereist mens-review wegens praktijk_pct > 70%.
+stappen:
+- nr: 1
+  titel: Plannen van de budgetcyclus en uitgangspunten
+  wat: Bepaal de horizon (jaarbudget, eventueel rolling-forecast), de granulariteit (per maand, per kwartaal) en de top-down/bottom-up-mix.
+  waarom: Zonder afgesproken cyclus en uitgangspunten loopt het budgetproces vast in onderhandelingen en blijft het zonder eigenaarschap.
+  input:
+  - artefact: Strategisch plan + commerciële verwachtingen
+    veld: Groei-aannames, prijsbeleid
+    type: document
+  - artefact: Vorig jaar-budget + werkelijke cijfers
+    veld: Realisatie + verschillen
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Budget-kalender + uitgangspuntennota
+    veld: Mijlpalen, verantwoordelijken, basisaannames
+    type: document
+  hoe: |
+    1. Lees [[budget-cyclus]] §fasen: voorbereiden, opstellen, goedkeuren, opvolgen.
+    2. Definieer planninghorizon (typisch 12 maanden, eventueel rolling).
+    3. Documenteer basis-aannames (inflatie-index, loonindexering, energieprijs-scenario).
+    4. Plan de top-down-richtlijnen door directie en de bottom-up-input door
+       afdelingsverantwoordelijken volgens [[budgetprocedure]] §participatie.
+  grondslag: "[[budget-cyclus]] §fasen, [[budgetprocedure]] §participatie, [[budgetbeheer]] §doel"
+- nr: 2
+  titel: Opstellen van het verkoop- en productiebudget
+  wat: Bouw het verkoopbudget (volume × prijs per productlijn × periode) en leid daaruit het productiebudget af (rekening houdend met voorraadwijzigingen).
+  waarom: Het verkoopbudget is het anker van het master-budget — alle andere onderdelen volgen uit het verwachte volume.
+  input:
+  - artefact: Marktanalyse + orderboek + sales-prognoses
+    veld: Volume + prijs per maand per productlijn
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Verkoopbudget + productiebudget
+    veld: Volumes + omzet per periode
+    type: nieuwe-balanspost
+  hoe: |
+    1. Bouw het verkoopbudget per productlijn per maand: volume × verkoopprijs.
+    2. Productie-volume = verkoopvolume + eindvoorraad gewenst − aanvangsvoorraad.
+    3. Splits productievolume per kostencentrum (Spinnerij/Weverij/Confectie bij
+       Yperse Werkplaats BV).
+    4. Documenteer de aannames (sales-conversiepercentage, seizoenseffect).
+  voorbeeld:
+    scenario: "Yperse Werkplaats BV — jaarverkoopbudget tapijt-standaard: 25.000 stuks à € 60."
+    substappen:
+    - nr: 1
+      titel: Verkoopbudget tapijt-standaard
+      type: balans
+      data: |
+        | Kwartaal | Volume (stuks) | Omzet         |
+        |----------|---------------:|--------------:|
+        | Q1       |  5.000         | €   300.000   |
+        | Q2       |  6.500         | €   390.000   |
+        | Q3       |  6.000         | €   360.000   |
+        | Q4       |  7.500         | €   450.000   |
+        | **Totaal** | **25.000**   | **€ 1.500.000** |
+  grondslag: "[[master-budget]] §verkoopbudget, [[budgetprocedure]] §uitgangspunten"
+- nr: 3
+  titel: Opstellen van de afgeleide operationele budgetten
+  wat: "Bouw uit het productie-budget de afgeleide budgetten: inkoop grondstoffen, directe arbeid, indirecte productiekosten, commerciële + administratieve kosten."
+  waarom: Pas dan staat de volledige bedrijfskostenstructuur op tafel — operationeel budget = verkoop − totale operationele kosten.
+  input:
+  - artefact: Productiebudget uit stap 2
+    veld: Volume per centrum
+    type: boekhoudkundig-bedrag
+  - artefact: Normverbruik en standaard-tarieven
+    veld: Kg/uur per eenheid, € per kg, € per uur
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Vier afgeleide budgetten
+    veld: Inkoop, arbeid, indirect, S&A
+    type: nieuwe-balanspost
+  hoe: |
+    1. Inkoopbudget = productievolume × normverbruik × inkoopprijs (verhoog met
+       wenselijke voorraadtoename).
+    2. Arbeidsbudget = productievolume × normuren × standaard-uurtarief
+       (€ 25/u bij Yperse).
+    3. Indirect-productie-budget per kostencentrum volgens
+       [[toepassen-volledige-kostencalculatie]] stap 2-3.
+    4. Commercieel + administratief budget op basis van vorig jaar + indexering.
+  grondslag: "[[master-budget]] §afgeleide-budgetten, [[volledige-kostencalculatie]] §toewijzing-naar-drager, [[budgetprocedure]] §participatie"
+- nr: 4
+  titel: Bouwen van het financiële luik (cashflow + budget-balans + budget-RR)
+  wat: Vertaal de operationele budgetten naar een budget-kasstroomoverzicht, een budget-balans en een budget-resultatenrekening.
+  waarom: Het financiële luik toont of de operationele plannen leiden tot positieve cashflow, gezonde solvabiliteit en winstgevendheid.
+  input:
+  - artefact: Operationele budgetten uit stap 3
+    veld: Verkoop, inkoop, arbeid, etc.
+    type: boekhoudkundig-bedrag
+  - artefact: Openingsbalans
+    veld: Vorderingen + schulden + kas
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Master-budget-bundel
+    veld: Cashflow, balans, RR per kwartaal
+    type: nieuwe-balanspost
+  hoe: |
+    1. Budget-RR: omzet − variabele kosten − vaste kosten − belasting = budget-resultaat.
+    2. Cashflow-budget: omzet × inning-pattern − inkopen × betaal-pattern − salarissen
+       − BTW − belastingen − investeringen = netto kasstroom.
+    3. Budget-balans: openingsbalans + budgetbewegingen volgens
+       [[master-budget]] §integratie-RR-en-balans.
+    4. Test: dekt cashflow alle kasuitgaven? Anders kredietlijn of timing aanpassen.
+  voorbeeld:
+    scenario: "Yperse Werkplaats BV — geconsolideerd master-budget jaar 20X2."
+    substappen:
+    - nr: 1
+      titel: Budget-RR (samenvatting)
+      type: balans
+      data: |
+        | Component                | Bedrag         |
+        |--------------------------|---------------:|
+        | Omzet                    | € 1.500.000    |
+        | − Variabele kosten       | € 325.000      |
+        | **Contributiemarge**     | **€ 1.175.000** |
+        | − Vaste kosten           | € 800.000      |
+        | **Bedrijfsresultaat**    | **€ 375.000**  |
+        | − Belasting (25 %)       | € 93.750       |
+        | **Netto resultaat**      | **€ 281.250**  |
+  grondslag: "[[master-budget]] §integratie-RR-en-balans, [[budget-cyclus]] §financieel-luik"
+- nr: 5
+  titel: Beslissen statisch versus flexibel + goedkeuren
+  wat: Beslis of het budget statisch (één volume) of flexibel (meerdere volume-scenario's) wordt opgevolgd en laat het door directie of bestuur formeel goedkeuren.
+  waarom: Statisch en flexibel hebben elk eigen sturings-toepassing; zonder formele goedkeuring blijft het budget vrijblijvend.
+  input:
+  - artefact: Master-budget-draft uit stap 4
+    veld: Volledige bundel
+    type: document
+  - artefact: Verwachte volume-variabiliteit
+    veld: Bandbreedte
+    type: document
+  output:
+  - artefact: Goedgekeurd master-budget
+    veld: Statisch of flexibel + bandbreedte
+    type: document
+  hoe: |
+    1. Vergelijk [[statisch-budget]] (één volume, snel maar starre referentie) tegen
+       [[flexibel-budget]] (meerdere niveaus, beter voor variantie-analyse achteraf).
+    2. Voor stabiele productie: statisch budget volstaat.
+    3. Voor seizoenale of grillige vraag: flexibel met range bv. 80 %–120 % van baseline.
+    4. Leg goedkeuringstraject vast in raadsbesluit; communiceer aan afdelings-
+       verantwoordelijken samen met hun deel-budget.
+  valkuilen:
+  - advies: "Plan vooraf welke variantie-versie van het budget gebruikt zal worden bij verschillen-analyse achteraf."
+    vaak_fout: "Statisch budget bouwen en achteraf willen flexibiliseren — leidt tot inconsistente verschillen-analyse."
+    grondslag: "[[flexibel-budget]] §gebruik-in-variantie-analyse"
+  grondslag: "[[statisch-budget]], [[flexibel-budget]], [[master-budget]] §goedkeuring"
+beslisboom:
+- vraag: "Is het verwachte verkoopvolume stabiel?"
+  ja: "Statisch budget volstaat."
+  nee: "Bouw een flexibel budget met expliciete volume-scenario's."
+- vraag: "Toont het cashflow-luik een negatief saldo in een of meer maanden?"
+  ja: "Plan kredietlijn of pas timing aan vóór goedkeuring."
+  nee: "Goedkeuring kan voor."
+voorbeelden:
+- situatie: "Yperse Werkplaats BV bouwt het jaarbudget 20X2: verkoop 25.000 tapijten à € 60, vaste kosten € 800.000."
+  conclusie: "Master-budget met budget-RR (netto resultaat € 281.250), positieve cashflow per kwartaal, statisch budget gekozen wegens stabiele productie."
+  grondslag: "[[master-budget]] §integratie-RR-en-balans, [[statisch-budget]]"
+  redenering: "Productie volgt stabiele jaarprognose; geen seizoenpieken meer dan ± 25 %, dus statisch budget is bruikbaar zonder informatieverlies."
+_provenance:
+  voorgesteld_door: "competentie-destillatie-v2-1.8-2026-05-17"
+  voorgesteld_op: "2026-05-17T12:00Z"
+  gecureerd_door: null
+  gecureerd_op: null

@@ -1,0 +1,194 @@
+{
+  "po": "1.7",
+  "anchor_id": "1.7.II.B",
+  "anchor": {
+    "tekst": "Informatiesysteem",
+    "anchor_type": "",
+    "verbose": "",
+    "synoniemen": []
+  },
+  "matches_source": "data/extractie/matches/latest.json",
+  "bundle_size": 20,
+  "bundle": [
+    {
+      "chunk_id": "WBTW-MB29apr2024-certificatie-kassasysteem__art_1__sub_1deg",
+      "chunk_sha": "d3f0e93df3d22cc7",
+      "bron": "M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 1 — 1°",
+      "score": 0.674,
+      "text": "[M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem → Art. 1 → 1°]\n\nArt. 1 — 1°\n\n1° `Kassasysteem': elk geïnformatiseerd systeem dat gebruikt kan worden om verkooptransacties te registreren in een B2C omgeving, ongeacht zijn benaming of de gebruikte technologie;"
+    },
+    {
+      "chunk_id": "WBTW-MB29apr2024-certificatie-kassasysteem__art_1__sub_6deg",
+      "chunk_sha": "3e8fc11af4f0fc5c",
+      "bron": "M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 1 — 6°",
+      "score": 0.6003,
+      "text": "[M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem → Art. 1 → 6°]\n\nArt. 1 — 6°\n\n6° `Event': elke gebeurtenis die plaatsvindt op het kassasysteem en waarbij data wordt aangemaakt en verzonden tussen het kassasysteem en de fiscal data module.\nEen kassasysteem kan de volgende events aanmaken:\n- event Normal (label N);\n- event Financial (label F);\n- event Social (label S);\n- event Report (label R);\n- event Pro Forma (label P);\n- event Invoice (label I);\n\n- event Training (label T);\n- event Copy (label C)."
+    },
+    {
+      "chunk_id": "WIB92__art_321ter__sub_1deg__dup2",
+      "chunk_sha": "3c6ccbbdd5fd7072",
+      "bron": "WIB92",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 321ter — 1°",
+      "score": 0.596,
+      "text": "[WIB92 → VESTIGING EN INNING VAN DE BELASTINGEN → HOOFDSTUK III → quater. - Plichten van rapporterende → Art. 321ter → 1°]\n\nArt. 321ter — 1°\n\n1° \"Platform\": de term \"platform\" betekent elke software, met inbegrip van een website of onderdeel daarvan en toepassingen waaronder mobiele toepassingen, die toegankelijk zijn voor gebruikers en waardoor verkopers in staat worden gesteld verbonden te zijn met andere gebruikers voor het verrichten van een relevante activiteit, direct of indirect, ten behoeve van dergelijke andere gebruikers. Daaronder begrepen zijn ook alle regelingen voor de inning en betaling van een tegenprestatie met betrekking tot de relevante activiteit.\n\nDe term \"platform\" omvat niet de software die zonder enige verdere interventie bij het verrichten van een relevante activiteit uitsluitend een van de volgende activiteiten mogelijk maakt:\n\na) het uitvoeren van betalingen in verband met een relevante activiteit;\n\nb) het aanbieden of adverteren van een relevante activiteit door gebruikers;\n\nc) het doorverwijzen of overbrengen van gebruikers naar een platform;"
+    },
+    {
+      "chunk_id": "WBTW-MB29apr2024-certificatie-kassasysteem__art_13",
+      "chunk_sha": "096f85467920af0f",
+      "bron": "M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 13",
+      "score": 0.5932,
+      "text": "[M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem → TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM → Technische eisen ten aanzien van het gecertificeerd kassasysteem → Verplichte functionaliteiten → Registratie van events]\n\nArt. 13\n\nHet kassasysteem kent aan elk event een nummer toe. Deze nummering moet doorlopend zijn over alle events heen, per event label, per terminal of een combinatie van voorgaande mogelijkheden."
+    },
+    {
+      "chunk_id": "WBTW-MB29apr2024-certificatie-kassasysteem__art_2",
+      "chunk_sha": "cbb58d59a79573a5",
+      "bron": "M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 2",
+      "score": 0.5895,
+      "text": "[M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem → TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM]\n\nArt. 2\n\nVoor de toepassing van dit besluit worden de volgende afkortingen gebruikt: API - Application Programming Interface B2C - Business-to-Consumer\n\nCE - Conformité Européenne\nCSAM - Control Sequence Access Method\nDBMS - DataBase Management System\nEEPROM - Electrically Erasable Programmable Read-Only Memory\nFDM - Fiscal Data Module\nGDPR - General Data Protection Regulation\nGKS - Geregistreerd KassaSysteem\nGPIO - General Purpose Input/Output\nGPS - Global Positioning System\nGraphQL - Graph Query Language\nHTTP - HyperText Transfer Protocol\nINSZ - IdentificatieNummer Sociale Zekerheid\nJSON - JavaScript Object Notation\nJWT - JSON Web Token\nKBO - KruispuntBank voor Ondernemingen\nLAN - Local Area Network\nLiPo - Lithium-Polymeer\nLTE - Long Time Evolution mTLS - Mutual Transport Layer Securiy\nNOP - No Operation\nPD - Powered Device\nPLU - Price Look-Up code\nPoE - Power over Ethernet\nPOS - Point Of Sale\nQR code - Quick Response code\nRTC - Real Time Clock\nSHA - Secure Hash Algorithm\nURL - Uniform Resource Locator\nUSB - Universal Serial Bus\nWiFi - Wireless Fidelity"
+    },
+    {
+      "chunk_id": "WBTW-MB29apr2024-certificatie-kassasysteem__art_10",
+      "chunk_sha": "126645cd4a9041ee",
+      "bron": "M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 10 — Event Report",
+      "score": 0.5874,
+      "text": "[M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem → TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM → Technische eisen ten aanzien van het gecertificeerd kassasysteem → Verplichte functionaliteiten → Registratie van events]\n\nArt. 10 — Event Report\n\nHet aanmaken van fiscale rapporten met betrekking tot de omzet of de gebruikers met gegevens afkomstig van het kassasysteem en de FDM zoals beschreven in de artikelen. 21 tot en met 30."
+    },
+    {
+      "chunk_id": "WBTW-MB29apr2024-certificatie-kassasysteem__art_23",
+      "chunk_sha": "0080f38b4212c755",
+      "bron": "M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 23",
+      "score": 0.5872,
+      "text": "[M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem → TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM → Technische eisen ten aanzien van het gecertificeerd kassasysteem → Verplichte functionaliteiten → De rapporten]\n\nArt. 23\n\nEen Z-rapport `omzet' wordt fiscaal gelijkgesteld met een digitaal gehouden dagboek van ontvangsten."
+    },
+    {
+      "chunk_id": "WBTW-MB29apr2024-certificatie-kassasysteem__art_17",
+      "chunk_sha": "b79bbc43c434a358",
+      "bron": "M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 17",
+      "score": 0.5848,
+      "text": "[M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem → TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM → Technische eisen ten aanzien van het gecertificeerd kassasysteem → Verplichte functionaliteiten → Te gebruiken btw-codes]\n\nArt. 17\n\nEen overzicht van alle configuratie-instellingen en de database tabellen moet op eenvoudig verzoek ter beschikking kunnen gesteld worden aan de controlerende ambtenaar."
+    },
+    {
+      "chunk_id": "WBTW-MB29apr2024-certificatie-kassasysteem__art_36",
+      "chunk_sha": "03616f168a897308",
+      "bron": "M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 36",
+      "score": 0.5803,
+      "text": "[M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem → TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM → Technische eisen ten aanzien van het gecertificeerd kassasysteem → Verplichte functionaliteiten → Afdrukken]\n\nArt. 36\n\nEr dient voor de toepassing van dit besluit steeds een duidelijk onderscheid gemaakt worden tussen de volgende begrippen: EVENT << >> AFDRUK << >> BERICHT naar de FDM.\nELK event resulteert ALTIJD in een bericht naar de FDM, maar niet noodzakelijk in een afdruk."
+    },
+    {
+      "chunk_id": "WBTW-MB29apr2024-certificatie-kassasysteem__art_9",
+      "chunk_sha": "f7c9e1ddfe00507a",
+      "bron": "M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 9 — Event Social",
+      "score": 0.5787,
+      "text": "[M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem → TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM → Technische eisen ten aanzien van het gecertificeerd kassasysteem → Verplichte functionaliteiten → Registratie van events]\n\nArt. 9 — Event Social\n\nDe registratie van start- of einduur van de aanwezigheid op de arbeidsplek van een personeelslid."
+    },
+    {
+      "chunk_id": "WBTW-MB29apr2024-certificatie-kassasysteem__art_22",
+      "chunk_sha": "2c2e171548a23f8d",
+      "bron": "M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 22",
+      "score": 0.5773,
+      "text": "[M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem → TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM → Technische eisen ten aanzien van het gecertificeerd kassasysteem → Verplichte functionaliteiten → De rapporten]\n\nArt. 22\n\nHet kassasysteem mag, bijkomend, voorzien in andere rapporten, ter ondersteuning van het dagelijks beheer van de onderneming. Deze rapporten moeten volledig in overeenstemming zijn met de inhoud van de verplichte Z-rapporten. Hiermee worden onder meer periodieke omzetrapporten per artikel/artikelgroep/uitbating en periodieke gebruikersrapporten bedoeld.\nIndien voor een openingsperiode geen of slechts één van beide verplichte Z rapporten werd aangemaakt, dient het kassasysteem bij het aanmaken van het eerstvolgende rapport (ongeacht of het een X of een Z rapport betreft) voor de daaropvolgende openingsperiode eerst alle ontbrekende Z rapporten aan te maken, die de data bevatten met betrekking tot de voorgaande openingsperiode(s).\nHet kassasysteem mag voorzien zijn van een functionaliteit voor het automatisch aanmaken van deze rapporten. De Z-rapporten dienen steeds duidelijk te vermelden op welke periode zij betrekking hebben."
+    },
+    {
+      "chunk_id": "WBTW-MB29apr2024-certificatie-kassasysteem__art_33",
+      "chunk_sha": "592808fb26923f14",
+      "bron": "M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 33",
+      "score": 0.5761,
+      "text": "[M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem → TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM → Technische eisen ten aanzien van het gecertificeerd kassasysteem → Verplichte functionaliteiten → Consolidatieregels]\n\nArt. 33\n\nAlle gegevens van de aangemaakte facturen moeten als een subboek voor uitgaande facturen uit het geregistreerd kassasysteem kunnen worden geëxporteerd."
+    },
+    {
+      "chunk_id": "WBTW-MB29apr2024-certificatie-kassasysteem__art_7",
+      "chunk_sha": "d8d35909a9c55a42",
+      "bron": "M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 7 — Event Training",
+      "score": 0.5748,
+      "text": "[M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem → TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM → Technische eisen ten aanzien van het gecertificeerd kassasysteem → Verplichte functionaliteiten → Registratie van events]\n\nArt. 7 — Event Training\n\nAlle registraties die aangemaakt worden terwijl ofwel het kassasysteem ofwel de gebruiker zich in een trainingmodus bevindt."
+    },
+    {
+      "chunk_id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part5",
+      "chunk_sha": "ef7052f945863a24",
+      "bron": "ITAA-norm-kmo-controlenorm",
+      "bron_rol": "norm",
+      "sectie": "BIJLAGE 1 : DEFINITIES",
+      "score": 0.5745,
+      "text": "aanvullende informatie die de beroepsbeoefenaar aan het management en, in voorkomend geval aan de met governance belaste personen kan vragen voor het doel van de controle; en onbeperkte toegang tot de personen binnen de “kmo of kleine vzw” van wie de beroepsbeoefenaar vaststelt dat het noodzakelijk is dat van hen assurance- informatie wordt verkregen.\nUitvoeringsmaterialiteit: het bedrag of de bedragen die door de beroepsbeoefenaar op een lager materialiteitsniveau dan voor de financiële overzichten als geheel is (zijn) vastgesteld om de waarschijnlijkheid dat het totaal van niet-gecorrigeerde en niet-gedetecteerde afwijkingen het materialiteitsniveau voor de financiële overzichten als geheel overschrijdt, tot een passend laag niveau terug te brengen. Indien van toepassing wordt met uitvoeringsmaterialiteit tevens het bedrag of de bedragen bedoeld die door de beroepsbeoefenaar voor bijzondere transactiestromen, rekeningsaldi of in de financiële overzichten opgenomen toelichtingen op een lager niveau of op lagere niveaus dan het materialiteitsniveau of de materialiteitsniveaus zijn vastgesteld.\nUitzondering: een reactie waaruit een verschil blijkt tussen informatie waarvan bevestiging is gevraagd of informatie die in de vastleggingen van de “kmo of kleine vzw” is opgenomen, en informatie die door de bevestigende partij wordt verstrekt.\nVan toepassing zijnd stelsel inzake financiële verslaggeving: het stelsel inzake financiële verslaggeving dat door het management of de met governance belaste personen wordt gehanteerd bij het opstellen van de financiële overzichten, dat aanvaardbaar is in het licht van de aard van de “kmo of kleine vzw” en de doelstelling van die financiële overzichten, dan wel dat op grond van wet- of regelgeving is vereist. Het stelsel inzake financiële verslaggeving kan een getrouw-beeld-stelsel zijn, dan wel een compliance-stelsel.\n\nDe term “getrouw-beeld-stelsel” wordt gebruikt om te verwijzen naar een stelsel inzake financiële verslaggeving dat de naleving van de door het stelsel gestelde vereisten voorschrijft, en dat:\nexpliciet of impliciet erkent dat, opdat de financiële overzichten een getrouwe weergave vormen, het nodig kan zijn dat het management of de met governance belaste personen toelichtingen verstrekt die verder gaan dan de toelichtingen die specifiek door het stelsel vereist zijn; of\nexpliciet erkent dat het noodzakelijk kan zijn dat het management of de met governance belaste personen van een door het stelsel gesteld vereiste afwijkt opdat de financiële overzichten een getrouwe weergave vormen. Dergelijke afwijkingen worden uitsluitend in buitengewoon zeldzame omstandigheden noodzakelijke geacht\nDe term “compliance-stelsel” wordt gebruikt om te verwijzen naar een stelsel inzake financiële verslaggeving dat de naleving van de door het stelsel gestelde vereisten voorschrijft, maar de hierboven onder (i) of (ii) genoemde erkenningen niet bevat.\nVerbonden partij: een partij die:\neen verbonden partij is zoals omschreven in het van toepassing zijnde stelsel inzake financiële verslaggeving; of\nwaar het van toepassing zijnde stelsel inzake financiële verslaggeving minimale of geen eisen inzake verbonden partijen stelt:\neen persoon of een andere “kmo of kleine vzw” is die direct of indirect overheersende zeggenschap heeft over, dan wel een significante invloed uitoefent, door één of meerdere tussenpersonen, op de rapporterende “kmo of kleine vzw”;\neen andere “kmo of kleine vzw” is waarover de rapporterende “kmo of kleine vzw” overheersende zeggenschap heeft of significante invloed, direct of indirect door één of meerdere tussenpersonen;\neen andere “kmo of kleine vzw” die onder gemeenschappelijke zeggenschap valt samen met de rapporterende “kmo of kleine vzw”, door het hebben van:\ngemeenschappelijke eigendom met zeggenschap;\neigenaren die naaste familieleden zijn; of\neen gemeenschappelijk management.\n“Kmo’s of kleine vzw’s” die echter onder de gemeenschappelijke zeggenschap vallen van een overheidsinstantie (dat wil zeggen een nationale, regionale of lokale overheid) worden niet als verbonden beschouwd tenzij zij significante transacties aangaan of op significante wijze onderling middelen delen.\n\nVooringenomenheid bij het management of de met governance belaste personen: het ontbreken van neutraliteit bij het management of de met governance belaste personen bij het opstellen van informatie.\n\n7 De term “oordeel” vervangt de term “verklaring” uit de voorgaande normen.\n8 Of oordeel met voorbehoud.\n9 Vertaling van “cut-off”.\n10 Soms wordt ook de term “werkdocumenten” gebruikt.\n11 Ook bekend onder de term « substantieve testen »."
+    },
+    {
+      "chunk_id": "WER__art_I_6",
+      "chunk_sha": "64216a3d523bcd46",
+      "bron": "Wetboek van Economisch Recht",
+      "bron_rol": "wettekst",
+      "sectie": "Art. I.17/1",
+      "score": 0.5744,
+      "text": "[Wetboek van Economisch Recht → [ 1 - Definities eigen aan boek XVI.] 1]\n\nArt. I.17/1\n\n[ 1 Voor de toepassing van boek XI, titels 8/1, 9/1 en 10, hoofdstuk 4/1, gelden de volgende definities:  1° bedrijfsgeheim: informatie die aan de volgende cumulatieve voorwaarden voldoet:  a) ze is geheim in die zin dat zij, in haar geheel dan wel in de juiste samenstelling en ordening van haar bestanddelen, niet algemeen bekend is bij of gemakkelijk toegankelijk is voor personen binnen de kringen die zich gewoonlijk bezighouden met de desbetreffende soort informatie;  b) ze bezit handelswaarde omdat zij geheim is;  c) ze is door de persoon die rechtmatig daarover beschikt onderworpen aan redelijke maatregelen, gezien de omstandigheden, om deze geheim te houden;  2° houder van het bedrijfsgeheim: iedere natuurlijke of rechtspersoon die rechtmatig over een bedrijfsgeheim beschikt;  3° inbreukmaker: iedere natuurlijke of rechtspersoon die een bedrijfsgeheim onrechtmatig heeft verkregen, gebruikt of openbaar gemaakt;  4° inbreukmakende goederen: goederen waarvan het ontwerp, de kenmerken, de werking, het productieproces of het in de handel brengen aanzienlijk baat hebben bij bedrijfsgeheimen die onrechtmatig zijn verkregen, gebruikt of openbaar gemaakt.] 1\n\n----------  ( 1 )<Ingevoegd bij W 2018-07-30/18, art. 2, 064; Inwerkingtreding : 24-08-2018>\n\n\n----------  ( 1 )<Ingevoegd bij W 2013-12-15/51, art. 2, 010; Inwerkingtreding : 31-05-2014>\n\n[ 2 14° verordening 910/2014 : de verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn 1999/93/EG;  15° certificaathouder : een natuurlijke persoon of rechtspersoon aan wie een vertrouwensdienstverlener respectievelijk een certificaat voor elektronische handtekeningen of een certificaat voor elektronische zegels heeft afgegeven;  16° Toezichthoudend orgaan : het orgaan bedoeld in artikel 17, paragraaf 1, van verordening 910/2014, opgericht binnen de Federale Overheidsdienst Economie, KMO, Middenstand en Energie dat is samengesteld uit de in artikel XV.2 bedoelde ambtenaren en belast is met het toezicht op de in België gevestigde verleners van vertrouwensdiensten, met inbegrip van de elektronische archiveringsdiensten;  17° elektronische archiveringsdienst : vertrouwensdienst ter aanvulling van de diensten bedoeld in artikel 3, paragraaf 16, van verordening 910/2014, die bestaat in het bewaren van elektronische gegevens of het digitaliseren van papieren documenten en die aangeboden wordt door een vertrouwensdienstverlener in de zin van artikel 3, paragraaf 19, van verordening 910/2014 of die voor eigen rekening wordt uitgebaat door een openbare instantie of een natuurlijke persoon of rechtspersoon;  18° gekwalificeerde elektronische archiveringsdienst : elektronische archiveringsdienst verleend door een gekwalificeerde vertrouwensdienstverlener in de zin van artikel 3, paragraaf 20, van verordening 910/2014 die zich houdt aan de bepalingen van titel 2 en van bijlage I van boek XII of die voor eigen rekening wordt uitgebaat door een openbare instantie of een natuurlijke persoon of rechtspersoon die zich houdt aan de bepalingen van dezelfde titel en dezelfde bijlage met uitzondering van de bepalingen onder e), i), j) en k);] 2\n\n----------  ( 1 )<Ingevoegd bij W 2013-12-15/51, art. 2, 010; Inwerkingtreding : 31-05-2014>   ( 2 )<W 2016-07-21/40, art. 2, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>   ( 3 )<W 2024-05-15/13, art. 8, 137; Inwerkingtreding : 01-10-2024>\n\n\n----------  ( 1 )<Ingevoegd bij W 2014-04-04/41, art. 2, 018; Inwerkingtreding : 13-05-2014>"
+    },
+    {
+      "chunk_id": "WBTW-MB29apr2024-certificatie-kassasysteem__art_1__sub_5deg",
+      "chunk_sha": "d527da6e4f25a9b8",
+      "bron": "M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 1 — 5°",
+      "score": 0.5729,
+      "text": "[M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem → Art. 1 → 5°]\n\nArt. 1 — 5°\n\n5° `Ingebrachte gegevens': de gegevens vermeld in artikel 2, punten 1 en 2 van het koninklijk besluit van 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem moet voldoen en betrekking hebben op: - de registraties van leveringen van goederen en diensten (incl. toepasselijk btw-tarief);\n- de registratie van aanvang en einde van de arbeidsprestatie;\n- de aanmaak van training events;\n- de aanmaak van pro forma events;\n- wijzigingen van prijzen en toepasselijk btw-tarief;\n- correcties en terugnames;\n- geregistreerde betalingen, inclusief fooien en afrondingen;\n- openingen van de geldlade via de eventueel voorziene kassafunctionaliteit (met inbegrip van het startgeld, in-/output in speciën, geldtellingen);\n- aanmaak van rapporten;\n- programma -en configuratiewijzigingen hieronder begrepen dataclear, dump, elke vorm van terugzetting (reset), wijziging PLU-instellingen en wijzigingen van systeemparameters;\n- elke boeking binnen een functionaliteit die een registratie tijdelijk kan onderbreken, pauzeren en hervatten."
+    },
+    {
+      "chunk_id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
+      "chunk_sha": "b7eb54bebc76b5ff",
+      "bron": "ITAA-norm-kmo-controlenorm",
+      "bron_rol": "norm",
+      "sectie": "BIJLAGE 1 : DEFINITIES",
+      "score": 0.5727,
+      "text": "Voorkomen en rechten en verplichtingen: de toegelichte gebeurtenissen, transacties en overige aangelegenheden hebben inderdaad plaatsgevonden en hebben betrekking op de “kmo of kleine vzw”.\nVolledigheid: alle toelichtingen die in de financiële overzichten hadden moeten worden opgenomen, zijn ook opgenomen.\nRubricering en begrijpelijkheid: de financiële informatie is juist gepresenteerd en beschreven, en de toelichtingen zijn duidelijk geformuleerd.\nNauwkeurigheid en waardering: de financiële en overige informatie is getrouw en voor de juiste bedragen weergegeven.\nCijferanalyses: evaluaties van financiële informatie door analyse van aannemelijke verbanden tussen zowel financiële als niet-financiële gegevens. Voor zover noodzakelijk worden cijferanalyses tevens geïdentificeerde fluctuaties of relaties onderzocht die inconsistent zijn met andere relevante informatie of die significant verschillen van de verwachte waarden.\nContinuïteitsveronderstelling : Uitgaande van de continuïteitsveronderstelling worden de financiële overzichten opgesteld onder de veronderstelling dat de continuïteit van de “kmo of kleine vzw” gehandhaafd blijft en zij haar activiteiten in de voorzienbare toekomst zal voortzetten. Financiële overzichten voor algemene doeleinden worden opgesteld op basis van de continuïteitsveronderstelling, tenzij het management voornemens is de “kmo of kleine vzw” te liquideren of de activiteiten te beëindigen dan wel hiervoor geen realistisch alternatief heeft. Bij het opstellen van financiële overzichten voor speciale doeleinden kan, gezien het van toepassing zijnde stelsel inzake financiële verslaggeving, de continuïteitsbasis al dan niet relevant zijn (bijv. in sommige rechtsgebieden is de continuïteitsveronderstelling niet van belang voor bepaalde financiële overzichten die zijn opgesteld op basis van een fiscale grondslag). Wanneer het hanteren van de continuïteitsveronderstelling passend is, worden activa en passiva opgenomen uitgaande van de veronderstelling dat de “kmo of kleine vzw” in staat zal zijn in het kader van de normale bedrijfsvoering haar activa te realiseren en haar verplichtingen na te komen.\n\nControledocumentatie: de vastlegging van de uitgevoerde controlewerkzaamheden, de verkregen relevante assurance-informatie en de conclusies die de beroepsbeoefenaar heeft getrokken10.\nControledossier: een of meer mappen of andere fysieke of elektronische gegevensdragers die de vastleggingen bevatten die de controledocumentatie van een specifieke controleopdracht uitmaken.\nControlerisico: het risico dat de beroepsbeoefenaar een onjuist controleoordeel tot uitdrukking brengt wanneer de financiële overzichten een afwijking van materieel belang bevatten. Het controlerisico staat in functie van de risico’s op een afwijking van materieel belang en het ontdekkingsrisico.\nDe drie samenstellende gegevens van het risico zijn:\ninherent risico;\nintern beheersingsrisico ;\nontdekkingsrisico.\nDatum van de controleverklaring: De datum waarop de beroepsbeoefenaar de verklaring bij de financiële overzichten dateert.\nDatum van de financiële overzichten: De einddatum van de laatste verslagperiode waarop de financiële overzichten betrekking hebben.\nDe met governance belaste personen: de persoon (personen) of organisatie(s), bijvoorbeeld een bestuurder van een vennootschap, die verantwoordelijk is (zijn) voor het uitoefenen van toezicht op de strategische aansturing van de “kmo of kleine vzw” en op de verplichtingen van de “kmo of kleine vzw” met betrekking tot het afleggen van verantwoording. Deze verantwoordelijkheid omvat het uitoefenen van toezicht op het proces van financiële verslaggeving. Voor bepaalde “kmo’s of kleine vzw’s” kan ook leidinggevend personeel tot het toezichthoudend orgaan behoren, bijvoorbeeld leidinggevende leden van een bestuursorgaan van een “kmo of kleine vzw” in de private of publieke sector dan wel een eigenaar-bestuurder.\nDoor het management ingeschakelde deskundige: een persoon of organisatie die deskundig is op een ander gebied dan financiële verslaggeving of controle, en van wie of waarvan het werk op dat gebied door de “kmo of kleine vzw” wordt gebruikt als hulpmiddel bij het opstellen van de financiële overzichten.\nErvaren beroepsbeoefenaar: een beroepsbeoefenaar (binnen of buiten het kantoor) die praktische controle-ervaring bezit en een redelijk begrip heeft van:\nde controleprocessen;\nnormen, aanbevelingen en de van toepassing zijnde door wet- en regelgeving gestelde vereisten;\nde omgeving waarin de “kmo of kleine vzw” werkzaam is, en de controle- en financiële verslaggevingskwesties die relevant zijn voor de sector van de “kmo of kleine vzw”.\nExterne bevestigingen: assurance-informatie die is verkregen in de vorm van een van een derde partij (de bevestigende partij) afkomstige rechtstreekse schriftelijke reactie op papier, op elektronische of op andere gegevensdragers aan de beroepsbeoefenaar.\nFinanciële overzichten: een gestructureerde weergave van historische financiële informatie, met inbegrip van de daarop betrekking hebbende toelichtingen, bedoeld om economische middelen of verplichtingen die een “kmo of kleine vzw” op een zeker tijdstip heeft, of de veranderingen die zich daarin over een tijdsperiode hebben voorgedaan, in overeenstemming met een stelsel inzake financiële verslaggeving te communiceren. De daarop betrekking hebbende toelichtingen omvatten gewoonlijk een overzicht van belangrijke gehanteerde grondslagen voor financiële verslaggeving en andere toelichtingen. De term ‘financiële overzichten’ verwijst gewoonlijk naar een complete set van financiële overzichten zoals vastgelegd door de vereisten van het van toepassing zijnde stelsel inzake financiële verslaggeving, maar kan ook verwijzen naar één enkel financieel overzicht of een tussentijds financieel overzicht.\nFout: een onopzettelijke handeling die leidt tot een afwijking in de financiële overzichten, inclusief het weglaten van een bedrag of een in de financiële overzichten op te nemen toelichting.\nFraude: een opzettelijke handeling door een of meer leden van het management, de met governance belaste personen, werknemers of derden, waarbij gebruik wordt gemaakt van misleiding teneinde een onrechtmatig of onwettig voordeel te verkrijgen.\nGebeurtenissen na de einddatum van de verslagperiode: gebeurtenissen die zich voordoen tussen de datum van de financiële overzichten en de datum van de controleverklaring alsmede feiten die de beroepsbeoefenaar bekend worden na de datum van de controleverklaring.\nGegevensgerichte werkzaamheden11: controlewerkzaamheden die zijn opgezet om afwijkingen van materieel belang op het niveau van beweringen te ontdekken. Gegevensgerichte controles bestaan uit detailcontroles (van transactiestromen, rekeningsaldi en in de financiële overzichten opgenomen toelichtingen) en gegevensgerichte cijferanalyses.\nGoedkeuringsdatum van de financiële overzichten: De datum waarop alle overzichten die de financiële overzichten vormen, inclusief de daarbij horende toelichtingen, zijn opgesteld en de personen met de erkende bevoegdheid hebben verklaard dat zij de verantwoordelijkheid voor deze financiële overzichten op zich hebben genomen\nHet gebruiken van steekproeven bij een controle: het verrichten van controlewerkzaamheden op minder dan 100% van de elementen binnen een voor de controle relevante populatie op zodanige wijze dat alle afzonderlijke elementen geselecteerd kunnen worden, zodat de beroepsbeoefenaar een redelijke basis krijgt voor conclusies over de populatie als geheel.\nHistorische financiële informatie : Informatie betreffende een specifieke “kmo of kleine vzw” die in financiële termen is uitgedrukt, in eerste instantie ontleend is aan het administratieve systeem van die “kmo of kleine vzw” en betrekking heeft op economische gebeurtenissen die in verslagperioden in het verleden hebben plaatsgevonden of op economische situaties of omstandigheden die zich op bepaalde momenten in het verleden hebben voorgedaan."
+    },
+    {
+      "chunk_id": "WBTW-MB29apr2024-certificatie-kassasysteem__art_3",
+      "chunk_sha": "69c2496ca4fca265",
+      "bron": "M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3",
+      "score": 0.5713,
+      "text": "[M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem → TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM → Technische eisen ten aanzien van het gecertificeerd kassasysteem → Verplichte functionaliteiten → Registratie van events]\n\nArt. 3\n\nEen geregistreerd kassasysteem zoals bedoeld in artikel 2 van de wet van 30 juli 2013 met betrekking tot de certificatie van een geregistreerd kassasysteem bestaat uit een gecertificeerd kassasysteem en een gecertificeerde Fiscal Data Module (FDM). Beide onderdelen moeten voldoen aan de technische eisen openomen in Titel II van dit besluit."
+    },
+    {
+      "chunk_id": "WBTW-KB-GKS__art_2",
+      "chunk_sha": "d791f40fe025f27d",
+      "bron": "K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem moet voldoen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 2 [+ 2bis]",
+      "score": 0.5708,
+      "text": "[K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem moet voldoen]\n\nArt. 2\n\nTOEKOMSTIG RECHT.\n\nHet geregistreerd kassasysteem dient te voldoen aan volgende minimale technische vereisten en dient volgende waarborgen te bieden :\n1. de onveranderlijkheid van de ingebrachte gegevens, vanaf het moment van invoer in het kassasysteem tot op het einde van de wettelijke bewaartermijnen;\n2. de bewaring van alle ingebrachte gegevens, gelijktijdig met de aanmaak van het kasticket [1 in de zin van artikel 21bis]1 van het koninklijk besluit nr. 1 van 29 december 1992, in een elektronisch journaal of journaalbestand; dit bevat tevens elke wijziging van de software of programmaparameters en elk gebruik van specifieke functionaliteiten;\n3. de mogelijkheid tot controle door de ambtenaren van [2 de administratie belast met de belasting over de toegevoegde waarde]2;\n4. een minimum verplichte inhoud van het kasticket bepaald als volgt :"
+    },
+    {
+      "chunk_id": "WBTW-MB29apr2024-certificatie-kassasysteem__art_1__sub_2deg",
+      "chunk_sha": "2b7aff30fe43deab",
+      "bron": "M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 1 — 2°",
+      "score": 0.5703,
+      "text": "[M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem → Art. 1 → 2°]\n\nArt. 1 — 2°\n\n2° `Gecertificeerd kassaysteem': een kassasysteem dat voldoet aan de technische eisen opgenomen in de artikelen 4 tot 57 van dit besluit en waarvoor de bevoegde dienst bij de FOD Financiën een certificaat heeft uitgereikt;"
+    }
+  ]
+}

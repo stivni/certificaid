@@ -1,0 +1,212 @@
+{
+  "po": "1.9",
+  "anchor_id": "1.9.III.C",
+  "anchor": {
+    "tekst": "Herstructurering van het verkort en microschema van de resultatenrekening en van de tabel van toevoegingen en onttrekkingen",
+    "anchor_type": "",
+    "verbose": "",
+    "synoniemen": []
+  },
+  "matches_source": "data/extractie/matches/latest.json",
+  "bundle_size": 22,
+  "bundle": [
+    {
+      "chunk_id": "KB-WVV-2019__art_3_135",
+      "chunk_sha": "3f3487260365adf2",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:169",
+      "score": 0.701,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Diverse bepalingen]\n\nArt. 3:169\n\nDe resultatenrekening van het microschema van de jaarrekening wordt opgesteld overeenkomstig het schema van de resultatenrekening van de jaarrekening in verkorte vorm, zoals opgenomen in bijlage 7.\n\n3. Inhoud van de toelichting.\n\n\n1. Inhoud van bepaalde rubrieken van de balans.\n\n2. Inhoud van bepaalde rubrieken van de resultatenrekening.\n\n3. Inhoud van bepaalde verplichte vermeldingen in de toelichting."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_70",
+      "chunk_sha": "852ed697d7a3048b",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:87",
+      "score": 0.6923,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Jaarrekening → Diverse bepalingen en overgangsbepalingen]\n\nArt. 3:87\n\nDe resultatenrekening van het microschema van de jaarrekening wordt opgesteld overeenkomstig het schema van de resultatenrekening van de jaarrekening in verkorte vorm, zoals opgenomen in bijlage 4.\n\n3. Inhoud van de toelichting.\n\n\n1. Inhoud van bepaalde rubrieken van de balans.\n\n2. Inhoud van bepaalde rubrieken van de resultatenrekening.\n\n3. Inhoud van bepaalde verplichte vermeldingen in de toelichting."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_69",
+      "chunk_sha": "0960640a22d4aee3",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:86",
+      "score": 0.6709,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Jaarrekening → Vorm en inhoud van de jaarrekening - Onderafdeling 3. - Microschema van de jaarrekening]\n\nArt. 3:86\n\nDe balans van het microschema van de jaarrekening wordt opgesteld overeenkomstig het schema van de balans van de jaarrekening in verkorte vorm, zoals opgenomen in bijlage 4.\n\n2. Schema van de resultatenrekening."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_134",
+      "chunk_sha": "d266c485b9023727",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:168",
+      "score": 0.6674,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Vorm en inhoud van de jaarrekening - Onderafdeling 4. - Microschema van de jaarrekening]\n\nArt. 3:168\n\nDe balans van het microschema van de jaarrekening wordt opgesteld overeenkomstig het schema van de balans van de jaarrekening in verkorte vorm, zoals opgenomen in bijlage 7.\n\n2. Schema van de resultatenrekening."
+    },
+    {
+      "chunk_id": "CBN-2020-01-neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe__sec_volledig-verkort-en-micromodel-van-de-jaarrekening-samenstel",
+      "chunk_sha": "48190ea389c4aa02",
+      "bron": "2020/01",
+      "bron_rol": "advies",
+      "sectie": "Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalvennootschappen",
+      "score": 0.6474,
+      "text": "[CBN-advies 2020/01 — CBN-advies 2020/01 – Neerlegging van de enkelvoudige jaarrekening bij de…]\n\nVolledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalvennootschappen\n\nVolledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalloze vennootschappen[^16] *\n\n- in de schema’s van de balansen van de vennootschappen wordt een uitsplitsing gevraagd van de onbeschikbare reserves naargelang de reden van deze onbeschikbaarheid. Hierin is voorzien in een subrubriek ‘Overige’. Op deze subrubriek ‘Overige’ wordt onder meer de onbeschikbare reserve geboekt die ontstaat bij de omzetting van een VZW in een erkende CVSO of een coöperatieve vennootschap erkend als SO zoals bedoeld in artikel 14:37 WVV;"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_68",
+      "chunk_sha": "7a39acb8d260b328",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:84",
+      "score": 0.6435,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Jaarrekening → Vorm en inhoud van de jaarrekening - Onderafdeling 3. - Microschema van de jaarrekening]\n\nArt. 3:84\n\nDe resultatenrekening wordt opgesteld overeenkomstig het schema opgenomen in bijlage 4.\n\n3. Inhoud van de toelichting.\n\n\n1. Schema van de balans."
+    },
+    {
+      "chunk_id": "CBN-2017-08-cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model__sec_inleiding",
+      "chunk_sha": "5b15c4ebdd670434",
+      "bron": "2017/08",
+      "bron_rol": "advies",
+      "sectie": "Inleiding",
+      "score": 0.6425,
+      "text": "[CBN-advies 2017/08 — CBN-advies 2017/08 – Cijfers van het vorig boekjaar bij opmaak jaarrekening…]\n\nInleiding\n\nHet koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad[^2], heeft een aantal wijzigingen aangebracht aan het volledige en verkorte schema van de balans- en resultatenrekening. Daarnaast werd tevens het microschema ontwikkeld.\n\nZo worden in het verkorte en volledige schema de uitzonderlijke resultaten geschrapt als afzonderlijke rubriek van de resultatenrekening en worden deze ondergebracht onder de bedrijfsresultaten dan wel de financiële resultaten. Ze worden voortaan aangeduid als niet-recurrente resultaten, evenwel zonder dat op inhoudelijk vlak, i.e. met betrekking tot de kwalificatie, een wijziging plaatsvindt.[^3]\n Daarnaast wordt er voor het volledige en verkorte schema van de balans een verdere uitsplitsing gevraagd binnen de voorzieningen. Voor wat betreft het verkorte schema en het microschema wordt er binnen de financiële opbrengsten tevens een aparte lijn toegevoegd die betrekking heeft op de recurrente financiële opbrengsten afkomstig van kapitaal- en interestsubsidies.\n\nAls gevolg van de nieuwe rubriceringen en de introductie van het schema voor de microvennootschappen zullen de vergelijkende cijfers bij de jaarrekening die wordt neergelegd over het boekjaar dat aanvangt op of na 1 januari 2016 niet meer overeenstemmen met de rubricering in de jaarrekening die werd neergelegd over het boekjaar dat aanving vóór 1 januari 2016 en dus als vergelijkend boekjaar zal fungeren voor boekjaren die aanvatten op of na 1 januari 2016."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_133",
+      "chunk_sha": "1e700f806050c755",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:166",
+      "score": 0.6418,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Vorm en inhoud van de jaarrekening - Onderafdeling 4. - Microschema van de jaarrekening]\n\nArt. 3:166\n\nDe resultatenrekening wordt opgesteld overeenkomstig het schema opgenomen in bijlage 7.\n\n3. Inhoud van de toelichting.\n\n\n1. Schema van de balans."
+    },
+    {
+      "chunk_id": "CBN-2016-24-uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015__sec_schema-van-de-resultatenrekening",
+      "chunk_sha": "45f28fed184ed1dc",
+      "bron": "2016/24",
+      "bron_rol": "advies",
+      "sectie": "Schema van de resultatenrekening",
+      "score": 0.6263,
+      "text": "[CBN-advies 2016/24 — CBN-advies 2016/24 – Uitzonderlijke resultaten: wijzigingen door het koninklijk…]\n\nSchema van de resultatenrekening\n\nAls gevolg van het nieuwe schema van de resultatenrekening dat is opgenomen als bijlage bij de Richtlijn, is bij de omzetting van deze richtlijn de indeling van de resultatenrekening[^4] aangepast. De nieuwe schema’s van de resultatenrekening bij de Richtlijn voorzien namelijk geen rubrieken meer voor de uitzonderlijke opbrengsten en de uitzonderlijke kosten. Deze resultaten moeten dus voortaan worden gekwalificeerd, naargelang hun aard, als zijnde bedrijfsresultaten of financiële resultaten.[^5] \n\nZowel het volledig schema[^6] als het verkort schema[^7] van de resultatenrekening ondergaan bijgevolg enkele noodzakelijke aanpassingen aangezien het op basis van de Richtlijn niet langer mogelijk is om het uitzonderlijk resultaat afzonderlijk in de resultatenrekening te vermelden. Om de opbrengsten en kosten met uitzonderlijk karakter te onderscheiden van andere bedrijfsopbrengsten en -kosten of andere financiële opbrengsten en kosten die voortvloeien uit de gewone bedrijfsactiviteit van de vennootschap en opdat de uitzonderlijke resultaten blijvend zichtbaar zouden zijn in de resultatenrekening, worden nieuwe rubrieken ingevoegd die de niet-recurrente aard van deze opbrengsten en kosten benadrukken. Teneinde het onderscheid met het vorige systeem duidelijk te maken, werd bij de omzetting van de richtlijn geopteerd om voortaan de terminologie *niet-recurrent* in plaats van *uitzonderlijk* te hanteren.[^8]\n Dit geldt *mutatis mutandis* voor het microschema van de resultatenrekening.[^9]\n Ook het schema van de resultatenrekening van de geconsolideerde jaarrekening wordt op overeenstemmende wijze aangepast.[^10] \n\nDe Commissie merkt op dat deze wijziging, net zoals ook werd gemotiveerd in het Verslag aan de Koning, slechts de indeling van de resultatenrekening betreft, waarbij de uitzonderlijke resultaten voortaan dienen te worden gekwalificeerd ofwel als bedrijfsresultaat ofwel als financieel resultaat.[^11]\n De Commissie meent dus dat in deze context in de praktijk geen verschil moet worden gezocht tussen de bewoordingen *uitzonderlijk* en *niet-recurrent*.\n\n*Voorbeeld*\n\nHerstructureringskosten kunnen van verschillende aard zijn: uitzonderlijke afschrijvingen, studiekosten, verhuizingskosten, opzeggingsvergoedingen, kosten voor herscholing van het personeel, aankoop van nieuw materieel, voorzieningen voor kosten, enz. Naar aanleiding van het schrappen van de rubriek uitzonderlijke kosten in de resultatenrekening moeten deze kosten worden geboekt naargelang hun aard als bedrijfskost dan wel als financiële kost. Hun boeking aan de actiefzijde met de bedoeling ze te verdelen over latere boekjaren vindt plaats door ze ondubbelzinnig en globaal in mindering te brengen van respectievelijk de bedrijfskosten of de financiële kosten.[^12] \n\n***Overzicht MAR-rekeningen “Niet-recurrente resultaten”***\n\n| **Niet-recurrente bedrijfsopbrengsten**|\n|---|\n| *7600*|*Terugneming van afschrijvingen op immateriële vaste activa*|\n| *7601*|*Terugneming van afschrijvingen op materiële vaste activa*|\n| *7620*|*Terugneming van voorzieningen voor niet-recurrente bedrijfsrisico’s en kosten*|\n| *7630*|*Meerwaarde op de realisatie van immateriële en materiële vaste activa*|\n| *764 > 768*|*Andere niet-recurrente bedrijfsopbrengsten*|\n| **Niet-recurrente bedrijfskosten** |\n| *6600*|*Niet-recurrente afschrijvingen en waardeverminderingen op oprichtingskosten*|\n| *6601*|*Niet-recurrente afschrijvingen en waardeverminderingen op immateriële vaste activa*|\n| *6602*|*Niet-recurrente afschrijvingen en waardeverminderingen op materiële vaste activa*|\n| *6620*|*Voorzieningen voor niet-recurrente bedrijfsrisico’s en kosten*|\n| | *66200 Toevoeging*|\n| | *66201 Besteding (-)*|\n| *6630*|*Minderwaarde op de realisatie van immateriële en materiële vaste activa*|\n| *664 > 667*|*Andere niet-recurrente bedrijfskosten*|\n| *6690*|*Als herstructureringskosten geactiveerde niet-recurrente bedrijfskosten (-)*|\n| **Niet-recurrente financiële opbrengsten**|\n| *761*|*Terugneming van waardeverminderingen op financiële vaste activa*|\n| *7621*|*Terugneming van voorzieningen voor niet-recurrente financiële risico’s en kosten*|\n| *7631*|*Meerwaarde op de realisatie van financiële vaste activa*|\n| *769*|*Andere niet-recurrente financiële opbrengsten*|\n| **Niet-recurrente financiële kosten** |\n| *661*|*Waardeverminderingen op financiële vaste activa (toevoeging)*|\n| *6621*|*Voorzieningen voor niet-recurrente financiële risico’s en kosten*|\n| | *66210 Toevoeging*|\n| | *66211 Besteding (-)*|\n| *6631*|*Minderwaarde op de realisatie van financiële vaste activa*|\n| *668*|*Andere niet-recurrente financiële kosten*|\n| *6691*|*Als herstructureringskosten geactiveerde niet-recurrente financiële kosten (-)*|"
+    },
+    {
+      "chunk_id": "Richtlijn-2013-34-EU__art_14",
+      "chunk_sha": "5b24a11a580ca07d",
+      "bron": "Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen",
+      "bron_rol": "wettekst",
+      "sectie": "Artikel 14",
+      "score": 0.6248,
+      "text": "[Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen]\n\nArtikel 14\n\nVereenvoudigingen voor kleine en middelgrote ondernemingen\n\n1.  De lidstaten kunnen kleine ondernemingen toestaan een verkorte  balans op te stellen waarin slechts de met letters en Romeinse cijfers  aangeduide posten uit de bijlagen III en IV zijn opgenomen, met af zonderlijke vermelding van:\n\na) de in bijlage III bij post D II onder „Activa” en bij post C onder  „Eigen vermogen en passiva” tussen haakjes vereiste informatie,  maar geaggregeerd voor elke post; of\n\nb) de in bijlage IV bij post D II tussen haakjes vereiste informatie.\n\n2.  De lidstaten kunnen toestaan dat kleine en middelgrote onder nemingen een verkorte winst-en-verliesrekening opstellen binnen de  volgende grenzen:\n\na) in bijlage V kunnen de posten 1 tot en met 5 in een post „Bruto-  omzetresultaat” worden samengevoegd;\n\nb) in bijlage VI kunnen de posten 1, 2, 3 en 6 in een post „Bruto-  omzetresultaat” worden samengevoegd.\n\nTOELICHTINGEN BIJ DE FINANCIËLE OVERZICHTEN"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_131",
+      "chunk_sha": "bd69e48a9bf628ff",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:163",
+      "score": 0.6157,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Vorm en inhoud van de jaarrekening - Onderafdeling 3. - Jaarrekening in verkorte vorm]\n\nArt. 3:163\n\nDe resultatenrekening wordt opgesteld overeenkomstig het schema opgenomen in bijlage 6.\n\n3. Inhoud van de toelichting.\n\n\n1. Schema van de balans"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_66",
+      "chunk_sha": "09dbab297edadbcc",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:81",
+      "score": 0.6153,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Jaarrekening → Vorm en inhoud van de jaarrekening - Onderafdeling 2. - Jaarrekening in verkorte vorm]\n\nArt. 3:81\n\nDe resultatenrekening wordt opgesteld overeenkomstig het schema opgenomen in bijlage 3.\n\n3. Inhoud van de toelichting.\n\n\n1. Schema van de balans."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_ongenummerd_4",
+      "chunk_sha": "a0270f8f75090519",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. N8 . Bijlage 8. - Schema van de jaarrekening van de verenigingen en stichtingen die een vereenvoudigde boekhouding voeren.  Genormaliseerd minimaal schema van de staat van de ontvangsten en uitgaven.",
+      "score": 0.6152,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Diverse bepalingen → Uitvoeringsbepaling]\n\nArt. N8 . Bijlage 8. - Schema van de jaarrekening van de verenigingen en stichtingen die een vereenvoudigde boekhouding voeren.  Genormaliseerd minimaal schema van de staat van de ontvangsten en uitgaven.\n\nUitgaven Ontvangsten\n\nGoederen Lidgelden\n\nBezoldigingen Schenkingen en legaten\n\nDiensten en diverse goederen Subsidies\n\nAndere uitgaven Andere ontvangsten\n\nTotaal uitgaven Totaal ontvangsten\n\nSchema van de toelichting  1. Samenvatting van de waarderingsregels  2. Aanpassing van de waarderingsregels  3. Bijkomende inlichtingen  4. Genormaliseerd minimaal schema van de staat van het vermogen\n\nBezittingen Schulden\n\nOnroerende goederen (terreinen, ...) Financiële schulden\n\nMachines, installaties en uitrusting Schulden ten aanzien van leveranciers\n\nMeubilair en rollend materieel Schulden ten aanzien van leden\n\nVoorraden Schulden met betrekking tot belastingen, bezoldigingen en sociale lasten\n\nVorderingen\n\nGeldbeleggingen\n\nLiquide middelen\n\nAndere activa Andere schulden\n\nRechten Verplichtingen\n\nBeloofde subsidies Hypotheken en hypotheekbeloften\n\n5. Belangrijke rechten en verplichtingen die niet in cijfers kunnen worden weergegeven"
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_51",
+      "chunk_sha": "64182c075d362274",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:62",
+      "score": 0.609,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Gemeenschappelijke bepalingen voor vennootschappen met rechtspersoonlijkheid, VZW,'s, IVZW's en stichtingen → Vorm en inhoud van de jaarrekening]\n\nArt. 3:62\n\nDe vennootschappen, VZW's, IVZW's en stichtingen mogen in de toelichting de rubrieken en onderrubrieken die verplicht moeten worden vermeld verder indelen.  De omschrijving van de in de schema's door een hoofdletter aangegeven rubrieken en van de onderrubrieken moet, wanneer de naleving van het voorschrift van artikel 3:1, eerste lid, dit vereist, aangepast worden aan de bijzondere aard van de werkzaamheden, van het vermogen en van de opbrengsten en kosten van de vennootschap, VZW, IVZW of stichting."
+    },
+    {
+      "chunk_id": "CBN-2018-14-belastingen__sec_voor-alle-schema-s-van-de-jaarrekening",
+      "chunk_sha": "81635748535fa7cc",
+      "bron": "2018/14",
+      "bron_rol": "advies",
+      "sectie": "Voor alle schema’s van de jaarrekening",
+      "score": 0.6072,
+      "text": "[CBN-advies 2018/14 — COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN]\n\nVoor alle schema’s van de jaarrekening\n\nDe Commissie wijst expliciet op het algemene beginsel dat stelt dat de jaarrekening een getrouw beeld moet geven van het vermogen, de financiële positie en het resultaat van de vennootschap. Wanneer de toepassing van de bepalingen van titel I van het KB W.Venn. niet volstaat om te voldoen aan dit voorschrift moeten aanvullende inlichtingen worden verstrekt in de toelichting.[^41]\n Deze toelichtingen worden opgenomen in het volledig model, het verkort model en het micromodel op de respectievelijke pagina’s VOL 6.20, VKT 6.9, MIC 6.6."
+    },
+    {
+      "chunk_id": "CBN-2010-20-gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen__sec_de-minimumindeling-van-het-algemeen-rekeningenstelsel-mar",
+      "chunk_sha": "12dc47be42bd8412",
+      "bron": "2010/20",
+      "bron_rol": "advies",
+      "sectie": "De minimumindeling van het algemeen rekeningenstelsel (MAR)",
+      "score": 0.6032,
+      "text": "[CBN-advies 2010/20 — CBN-advies 2010/20 - Gebruik van uniforme boekhoudsoftware door internationale…]\n\nDe minimumindeling van het algemeen rekeningenstelsel (MAR)\n\nOvereenkomstig artikel 4, vijfde lid van de Boekhoudwet moeten ondernemingen de rekeningen onderbrengen in een voor het bedrijf van de onderneming passend rekeningenstelsel. Dit rekeningenstelsel dient te beantwoorden aan de minimumindeling van het algemeen rekeningenstelsel (hierna: MAR).[^2]\n Deze minimum normalisering werd doorgevoerd teneinde de rekeningstelsels af te stemmen op het schema van de balans en van de jaarrekening.[^3] \n\nZodoende zal elk boekhoudpakket van een in ons land gevestigde onderneming minimaal de in het koninklijk besluit voorgeschreven rekeningen moeten bevatten, met de opgegeven nummers.[^4]\n Dit rekeningenplan kan uitgebreid worden volgens de behoeften en werkzaamheden van de onderneming, namelijk door een aanpassing van de benaming van de rekeningen, door het aanleggen van subrekeningen of door de toevoeging van bijkomende rekeningen.[^5] \n\nArtikel 14 van de Boekhoudwet bepaalt dat de minister van Economische Zaken of de minister van Middenstand (voor vennootschappen en andere ondernemingen die als klein kunnen worden beschouwd in de zin van het W.Venn.), evenwel in bijzondere gevallen, na een met redenen omkleed advies van de CBN, kan toestaan dat wordt afgeweken van de regels vastgesteld op grond van artikel 4, zesde lid van de Boekhoudwet.[^6]\n Hieruit blijkt dat de regering duidelijk oog had voor de moeilijkheden die bij het invoeren van een verplicht rekeningenstelsel kunnen ontstaan. De activiteiten van ondernemingen of vennootschapsgroepen kunnen immers worden uitgeoefend in verscheidene landen die elk zoniet een genormaliseerd stelsel, dan toch uiteenlopende bijzondere wetgevingen inzake boekhouding hebben.[^7] \n\nDe Commissie is echter van oordeel dat artikel 14 van de Boekhoudwet geen algehele afwijkingsmogelijkheid bevat.[^8]\n Er kan dus geen volledige vrijstelling op het verplichte gebruik van het genormaliseerd rekeningenstelsel toegekend worden aan internationale ondernemingen. \n\nDe Commissie meent dat een gedeeltelijke oplossing voor het boekhoudkundig probleem van de internationale ondernemingen kan gevonden worden in het houden van een dubbel rekeningstelsel.\n\nAlhoewel de voorkeur van de Commissie oorspronkelijk uitging naar het werken met één enkel rekeningenstelsel en zij het houden van een dubbel rekeningenstelsel (met name het MAR en het door de moederonderneming opgelegde groepsrekeningenstelsel) niet als de gelukkigste oplossing beschouwde, uitte zij in advies R100/3 geen principiële bezwaren tegen deze methode. De minimumvereiste was wel dat eenmaal per maand de totale debet- en creditbewegingen per rekening van het algemeen rekeningenstelsel werden overgeboekt en dat zowel de basisverrichtingen als de verantwoordingsstukken via een rechtstreekse of onrechtstreekse, maar structurele binding tussen beide stelsels konden worden teruggevonden.[^9] \n\nAangezien potentiële investeerders die actief zijn op internationale of buitenlandse kapitaalmarkten al te vaak afgeschrikt worden door deze zware additionele administratieve verplichting, is de Commissie van mening dat advies R100/3 niet langer weerhouden kan worden. \n\nEen onderneming mag een van het MAR verschillend rekeningenplan gebruiken, op voorwaarde dat zij op ieder ogenblik d.m.v. een concordantietabel een proef- en saldibalans kan voorleggen, opgesteld conform de voorschriften van het koninklijk besluit van 12 september 1983 m.b.t. het MAR, en dit zonder verplichte “één-op-één relatie”.[^10] \n\nDit betekent dat met behulp van deze concordantietabel telkens een bestaande MAR-rekening moet kunnen worden aangeduid die tegenover een of meerdere rekeningen uit een ander rekeningenstelsel staat. Bovendien moet voor elke MAR-grootboekrekening een historiek kunnen worden opgevraagd, met directe verwijzing naar de betrokken verantwoordingsstukken.[^11]\n De concordantietabel wordt zowel in de zetel als in de belangrijke boekhoudingsafdelingen van de onderneming voortdurend ter beschikking gehouden van belanghebbenden. \n\nWat betreft de taal waarin de boekhouding wordt gevoerd, wenst de Commissie te benadrukken dat ondernemingen zich dienen te houden aan de wettelijke bepalingen inzake het taalgebruik.[^12]"
+    },
+    {
+      "chunk_id": "CBN-2019-12-groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting__sec_voorbeelden",
+      "chunk_sha": "b0c49f2bc9b1f3e5",
+      "bron": "2019/12",
+      "bron_rol": "advies",
+      "sectie": "Voorbeelden",
+      "score": 0.6014,
+      "text": "[CBN-advies 2019/12 — CBN-advies 2019/12 – Groottecriteria verenigingen en stichtingen - schema van…]\n\nVoorbeelden\n\nAan de hand van de onderstaande voorbeelden wordt toegelicht welke vzw’s kunnen opteren om een vereenvoudigde boekhouding te voeren (aangeduid met een jokersymbool). Met VOL, VKT, MIC wordt verwezen naar het jaarrekeningschema volgens het respectievelijke volledig, verkort of micromodel. Bij de voorbeelden wordt abstractie gemaakt van het consistentiebeginsel."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_124",
+      "chunk_sha": "c35ded31aba776e7",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:155",
+      "score": 0.6003,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Geconsolideerde jaarrekening → Vorm en inhoud van de geconsolideerde jaarrekening - Onderafdeling 2. - Geconsolideerde jaarrekening]\n\nArt. 3:155\n\nNaar gelang van de gekozen opsplitsing van de bedrijfsresultaten moet de resultatenrekening worden opgesteld overeenkomstig de schema's opgenomen in bijlage 5.\n\n3. Inhoud van de toelichting."
+    },
+    {
+      "chunk_id": "CBN-2018-22-groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde__sec_berekening-op-geaggregeerde-basis-20-methode",
+      "chunk_sha": "47347fde5145944c",
+      "bron": "2018/22",
+      "bron_rol": "advies",
+      "sectie": "Berekening op geaggregeerde basis (+ 20%-methode)",
+      "score": 0.5999,
+      "text": "[CBN-advies 2018/22 — CBN-advies 2018/22 – Groottecriteria – Alternatieve berekening van de omzet op…]\n\nBerekening op geaggregeerde basis (+ 20%-methode)\n\nIndien de vennootschap ervoor kiest om de beoordeling van de groottecriteria toe te passen op de *geaggregeerde gegevens*, kan zij er zich toe beperken om de cijfers van de enkelvoudige jaarrekeningen op te tellen en vervolgens de aldus bekomen bedragen te vergelijken met het grensbedrag van de maximale jaaromzet, verhoogd met 20 procent.\n\nIndien, berekend op geaggregeerde basis, het totaal van de opbrengsten die voortspruiten uit het gewoon bedrijf voor meer dan de helft bestaan uit opbrengsten die *niet* aan de omschrijving beantwoorden van de post ‘omzet’, dan moet voor de beoordeling van de groottecriteria onder omzet worden verstaan: het totaal van de bedrijfs- en financiële opbrengsten, berekend op geaggregeerde basis, met uitsluiting van de niet-recurrente opbrengsten."
+    },
+    {
+      "chunk_id": "CBN-2020-01-neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe__sec_schema-van-de-enkelvoudige-jaarrekening-voor-vennootschappen",
+      "chunk_sha": "c3298094539c73b0",
+      "bron": "2020/01",
+      "bron_rol": "advies",
+      "sectie": "Schema van de enkelvoudige jaarrekening voor vennootschappen met rechtspersoonlijkheid",
+      "score": 0.5996,
+      "text": "[CBN-advies 2020/01 — CBN-advies 2020/01 – Neerlegging van de enkelvoudige jaarrekening bij de…]\n\nSchema van de enkelvoudige jaarrekening voor vennootschappen met rechtspersoonlijkheid\n\nHet bestuursorgaan is verplicht om elk jaar een inventaris op te maken volgens de waarderingsregels bepaald door de Koning, evenals een jaarrekening in de vorm en met de inhoud bepaald door de Koning.[^5]\n De jaarrekening moet binnen zes maanden na de afsluitdatum van het boekjaar ter goedkeuring worden voorgelegd aan de vennoten verenigd in vergadering of de algemene vergadering.[^6]\n Kleine vennootschappen kunnen hun jaarrekening opmaken volgens een verkort schema dat de Koning vaststelt.[^7]\n Microvennootschappen kunnen hun jaarrekeningen opstellen volgens een door de Koning vastgesteld microschema.[^8]\n De jaarrekening, waarvan de openbaarmaking door het WVV wordt voorgeschreven, moet door toedoen van het bestuursorgaan worden neergelegd bij de Nationale Bank van België.[^9]\n Deze neerlegging gebeurt binnen dertig dagen nadat de jaarrekening is goedgekeurd, en ten laatste zeven maanden na de datum van afsluiting van het boekjaar. Dit houdt in dat, als de jaarrekening zeven maand na de eindeboekjaardatum nog niet is goedgekeurd door de algemene vergadering, het bestuursorgaan van de vennootschap de jaarrekening toch moet publiceren met inachtneming van art. 3:3, § 1, tweede lid KB WVV. De neerlegging van de daarna definitief door de algemene vergadering goedgekeurde jaarrekening vormt dan een verbeterde neerlegging.\n\nDe nieuwe schema’s van de jaarrekening[^10] verschillen op zich weinig van de schema’s die destijds waren opgenomen in het uitvoeringsbesluit bij het Wetboek van vennootschappen.[^11]\n De voornaamste wijzigingen ten opzichte van de destijds geldende schema’s van de balans en de resultatenrekening zijn de volgende[^12]:\n\n- voortaan wordt een onderscheid gemaakt tussen het schema van de balans van enerzijds de kapitaalvennootschappen[^13] en anderzijds de kapitaalloze vennootschappen[^14]. Zo wordt bij kapitaalloze vennootschappen niet langer het begrip ‘Kapitaal’ gebruikt, maar wordt dit vervangen door ‘Inbreng’. Voor kapitaalvennootschappen wordt in het schema van de balans een onderscheid gemaakt tussen het gedeelte van de inbreng dat bestaat uit kapitaal en het gedeelte van de inbreng buiten kapitaal. Onder inbreng buiten kapitaal wordt vervolgens nog een onderscheid gemaakt tussen de uitgiftepremies en de overige inbrengen buiten kapitaal. Onder de overige inbrengen buiten kapitaal worden onder meer de ingebrachte gelden geboekt die worden ontvangen ingevolge de uitgifte van winstbewijzen. \n\nZoals blijkt uit onderstaande figuren wordt zowel in het geval van een kapitaalvennootschap als in het geval van een kapitaalloze vennootschap als verzamelnaam voor alle inbrengen voortaan de titulatuur “Inbreng” ingevoerd."
+    },
+    {
+      "chunk_id": "KB-WVV-2019__art_3_64",
+      "chunk_sha": "16738d50dacb715d",
+      "bron": "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3:79",
+      "score": 0.5986,
+      "text": "[Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen → Jaarrekening, geconsolideerde jaarrekening en formaliteiten inzake de openbaarmaking → Jaarrekening en geconsolideerde jaarrekening van vennootschappen met rechtspersoonlijkheid: bijzondere bepalingen → Jaarrekening → Vorm en inhoud van de jaarrekening - Onderafdeling 1. - Jaarrekening volgens het volledige schema]\n\nArt. 3:79\n\nDe latente meerwaarden die worden uitgedrukt in toepassing van de artikelen 14:38 en 14:42 van het Wetboek van vennootschappen en verenigingen en betrekking hebben op vaste activa met een beperkte gebruiksduur moeten worden afgeschreven volgens een overeenkomstig artikel 3:6, § 1, opgemaakt plan dat ertoe strekt de vastgestelde waarde af te schrijven over de vermoedelijke residuele gebruiksduur van de betrokken activa.\n\n\n1. Schema van de balans."
+    },
+    {
+      "chunk_id": "CBN-2018-22-groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde__sec_berekening-op-geconsolideerde-basis",
+      "chunk_sha": "3038374afae0af71",
+      "bron": "2018/22",
+      "bron_rol": "advies",
+      "sectie": "Berekening op geconsolideerde basis",
+      "score": 0.5966,
+      "text": "[CBN-advies 2018/22 — CBN-advies 2018/22 – Groottecriteria – Alternatieve berekening van de omzet op…]\n\nBerekening op geconsolideerde basis\n\nIndien de vennootschap ervoor kiest om de beoordeling van de groottecriteria toe te passen op de geconsolideerde gegevens, moet[^7] de vennootschap hiertoe de geconsolideerde cijfers vaststellen volgens de consolidatiebepalingen van het KB W.Venn., hetgeen onder meer betekent dat de weglatingen en verrekeningen vermeld in de artikelen 137, 144 en 146 KB W.Venn. worden toegepast.[^8] \n\nIndien, berekend op geconsolideerde basis, het totaal van de opbrengsten die voortspruiten uit het gewoon bedrijf voor meer dan de helft bestaan uit opbrengsten die *niet* beantwoorden aan de omschrijving van de post ‘omzet’, dan moet voor de beoordeling van de groottecriteria onder ‘omzet’ worden verstaan: het totaal van de geconsolideerde bedrijfs- en financiële opbrengsten met uitsluiting van de niet-recurrente opbrengsten."
+    }
+  ]
+}

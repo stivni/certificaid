@@ -1,0 +1,98 @@
+{
+  "id": "intern-beheersingsrisico",
+  "naam": "Intern beheersingsrisico",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.6.II.B",
+    "1.6.II.C",
+    "1.7.V.E",
+    "1.7.III.B",
+    "1.7.VIII.F"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.II.B",
+    "dekt_ook_anchors": [
+      "1.6.II.C",
+      "1.7.V.E",
+      "1.7.III.B",
+      "1.7.VIII.F"
+    ],
+    "reviewed_by": null,
+    "po_1_7_upgrade": {
+      "op": "2026-05-17",
+      "reden": "Concept dekt ook 1.7-anchors (interne controle): linked_anchors aangevuld via concept-extractie-v4 voor 1.7."
+    }
+  },
+  "definitie": {
+    "text": "Intern beheersingsrisico is het risico dat een afwijking die kan optreden in een bewering (over een transactiestroom, rekeningsaldo of toelichting) — afzonderlijk of samen met andere van materieel belang — niet wordt voorkomen of niet tijdig wordt gedetecteerd en hersteld door de interne beheersing van de cliënt.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorbeeld_inline": "Bij Meubelzaak Mertens BV doet één persoon zowel kasontvangsten, boekhouding als bankreconciliatie — geen functiescheiding. Het intern beheersingsrisico op kasontvangsten is hoog. Sofie Janssens zal extra substantive testing op de kasstromen moeten doen.",
+  "in_praktijk": [
+    {
+      "aspect": "Onmogelijk volledig nul",
+      "betekenis": "Zelfs een sterke interne beheersing kan niet alle risico's elimineren — beperkingen zoals management override, menselijke fout en cost-benefit-afwegingen blijven. Intern beheersingsrisico > 0 is dus normaal.",
+      "confidence": "inferred-from-aggregation",
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §96"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Steunen op interne beheersing → testen verplicht",
+      "betekenis": "Wil de auditor steunen op de effectieve werking van de interne beheersing om minder gegevensgerichte werkzaamheden te doen, dan MOET hij toetsingen van interne beheersing uitvoeren (test of controls). Pas dan mag hij het intern beheersingsrisico als laag inschatten.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §97"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "auditrisicomodel",
+      "redenering": "Eén van de drie componenten."
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "toetsing-interne-beheersing",
+      "redenering": "Bij lage inschatting verplicht testen."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "kwantitatieve-financiele-diagnose",
+  "naam": "Kwantitatieve modellen voor financiële diagnose — overzicht",
+  "node_type": "synthese",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.9.VI", "1.9.VI.B"],
+  "gebaseerd_op_concepten": [
+    "altman-z-score",
+    "ohlson-o-score",
+    "falen-van-de-onderneming"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T10:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.9.VI",
+    "dekt_ook_anchors": ["1.9.VI.B"],
+    "reviewed_by": null,
+    "bron_gap": "Internationale financiële-analyse-vakdoctrine. NBB-tools (Score Belfius, Graydon Multiscore) zijn Belgische commerciële afgeleiden — buiten examenscope."
+  },
+  "vergelijkingstabel": "| Model | Techniek | Aantal variabelen | Output | Interpretatie hoog | Interpretatie laag |\n|---|---|---|---|---|---|\n| **Altman Z** | Discriminant-analyse | 5 | Score met 3 zones | Z ≥ 2,99 = gezond | Z < 1,81 = distress |\n| **Ohlson O** | Logistische regressie | 9 | Kans 0-1 | Hoog = hoog risico | Laag = laag risico |\n| **Belgische varianten** (Score Belfius, Graydon Multiscore) | Eigen propriëtaire modellen op Belgische data | Onbekend | Score 0-100 of letter-rating | Variabel — afhankelijk van bron | Variabel |",
+  "beslisboom": "```mermaid\nflowchart TD\n  A[Onderneming met ratio-zwakte] --> B{Welk type vraag?}\n  B -->|Zone-positionering| C[Altman Z-score]\n  B -->|Kansprobabiliteit| D[Ohlson O-score]\n  B -->|Belgische context met sector-vergelijking| E[Belgische varianten]\n  C --> F[Z < 1,81: distress → diepere kwalitatieve analyse]\n  C --> G[1,81-2,99: grey zone → combineer met andere indicatoren]\n  C --> H[Z ≥ 2,99: safe zone]\n  D --> I[p > 0,5: voorspelling faillissement]\n  D --> J[p < 0,5: voorspelling overleven]\n  F --> K[Triangulair lezen + bestuursverslag + cash-positie]\n  I --> K\n```",
+  "in_praktijk": [
+    {
+      "aspect": "Gebruik in combinatie, niet alleen",
+      "betekenis": "Geen enkel kwantitatief model is 100% accuraat. Best practice: bereken Altman én Ohlson, combineer met kwalitatieve analyse van bestuursverslag, risicoparagraaf en sector-context. Een eensluidende slechte score van beide modellen + kwalitatieve signalen = robuste diagnose.",
+      "anker_slug": "1.9.VI",
+      "confidence": "inferred-common-knowledge",
+      "source": {"type": "vakdoctrine", "short": "Financiële diagnose"},
+      "_provenance": {"inputs": [{"id": "anchor-1.9.VI", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "aspect": "Voor examenvraag: weet wat ze meten",
+      "betekenis": "Op bekwaamheid-niveau wordt getoetst of de student het mechanisme begrijpt: 'wat is een discriminant-model versus een logit-model?', 'welke variabelen vangt elk?', 'wat is het verschil tussen score en kans?'. Niet: de exacte coefficiënten uit het hoofd kennen.",
+      "anker_slug": "1.9.VI.B",
+      "confidence": "inferred",
+      "source": {"type": "vakdoctrine", "short": "Examencontext"},
+      "_provenance": {"inputs": [{"id": "anchor-1.9.VI.B", "sha256": null, "version": "rag-v1"}]}
+    }
+  ]
+}

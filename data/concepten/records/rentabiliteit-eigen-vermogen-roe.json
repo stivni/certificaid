@@ -4,20 +4,46 @@
   "node_type": "methode",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.3.II.C", "1.3.I.A", "1.3.taak.1"],
+  "linked_anchors": [
+    "1.3.I.A",
+    "1.3.II.C",
+    "1.3.taak.1",
+    "1.9.V",
+    "1.9.V.B",
+    "1.9.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.3.II.C",
-    "dekt_ook_anchors": ["1.3.I.A", "1.3.taak.1"],
+    "dekt_ook_anchors": [
+      "1.3.I.A",
+      "1.3.taak.1"
+    ],
     "reviewed_by": null
   },
   "doel": {
     "text": "Meten welk rendement de onderneming behaalt op het eigen vermogen — het kapitaal dat de aandeelhouders hebben ingezet of laten staan. ROE staat voor 'Return On Equity'. Het kerngetal voor aandeelhouders die willen weten of hun ingezet kapitaal voldoende oplevert.",
     "confidence": "grounded",
-    "source": {"type": "cbn", "short": "CBN-2011/14 §rentabiliteit van het eigen vermogen: voorbeeldmethoden"},
-    "references": [{"type": "cbn", "short": "CBN-2011/14 §rentabiliteitsvoorwaarden"}],
-    "_provenance": {"inputs": [{"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "cbn",
+      "short": "CBN-2011/14 §rentabiliteit van het eigen vermogen: voorbeeldmethoden"
+    },
+    "references": [
+      {
+        "type": "cbn",
+        "short": "CBN-2011/14 §rentabiliteitsvoorwaarden"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -27,8 +53,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV: winst boekjaar € 2.500.000; eigen vermogen € 12.000.000. Nettorentabiliteit EV = € 2.500.000 / € 12.000.000 = 20,8 %.",
       "grondslag": "CBN-2011/14 §rentabiliteit eigen vermogen",
       "confidence": "grounded",
-      "source": {"type": "cbn", "short": "CBN-2011/14 §rentabiliteit eigen vermogen"},
-      "_provenance": {"inputs": [{"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "cbn",
+        "short": "CBN-2011/14 §rentabiliteit eigen vermogen"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Brutorentabiliteit van het eigen vermogen",
@@ -37,8 +74,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV: nettoresultaat € 2.500.000 + afschrijvingen € 1.500.000 + waardeverminderingen € 200.000 = cashflow € 4.200.000. Brutorentabiliteit EV = € 4.200.000 / € 12.000.000 = 35,0 %.",
       "grondslag": "CBN-2011/14 §rentabiliteit eigen vermogen",
       "confidence": "grounded",
-      "source": {"type": "cbn", "short": "CBN-2011/14 §rentabiliteit eigen vermogen"},
-      "_provenance": {"inputs": [{"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "cbn",
+        "short": "CBN-2011/14 §rentabiliteit eigen vermogen"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "berekeningsmethode": [
@@ -52,10 +100,18 @@
           "wat": "Neem het bedrag 'Winst (verlies) van het boekjaar' (rubriek na belastingen, vóór resultaatverwerking) uit de resultatenrekening van de onderneming.",
           "waarom": "Dit cijfer is wat de aandeelhouder potentieel kan toe-eigenen via dividend of reserve.",
           "input": [
-            {"artefact": "Resultatenrekening", "veld": "Winst (verlies) van het boekjaar na belastingen", "type": "boekhoudkundig-bedrag"}
+            {
+              "artefact": "Resultatenrekening",
+              "veld": "Winst (verlies) van het boekjaar na belastingen",
+              "type": "boekhoudkundig-bedrag"
+            }
           ],
           "output": [
-            {"artefact": "Werkblad analyse", "veld": "Teller netto-ROE", "type": "boekhoudkundig-bedrag"}
+            {
+              "artefact": "Werkblad analyse",
+              "veld": "Teller netto-ROE",
+              "type": "boekhoudkundig-bedrag"
+            }
           ],
           "hoe": "1. Open de resultatenrekening van Rotex Roeselare NV.\n2. Zoek de regel 'Winst van het boekjaar' onderaan, na belastingen op het resultaat.\n3. Noteer het bedrag (bv. € 2.500.000).\n",
           "grondslag": "CBN-2011/14 §rentabiliteit eigen vermogen"
@@ -66,10 +122,18 @@
           "wat": "Neem de totaalrubriek 'Eigen vermogen' uit de passiefzijde van de balans op afsluitingsdatum.",
           "waarom": "Dat is het bedrag waaraan we het resultaat zullen relateren — wat de aandeelhouders aan kapitaal en reserves in de zaak hebben staan.",
           "input": [
-            {"artefact": "Balans (passief)", "veld": "Eigen vermogen totaal", "type": "boekhoudkundig-bedrag"}
+            {
+              "artefact": "Balans (passief)",
+              "veld": "Eigen vermogen totaal",
+              "type": "boekhoudkundig-bedrag"
+            }
           ],
           "output": [
-            {"artefact": "Werkblad analyse", "veld": "Noemer ROE", "type": "boekhoudkundig-bedrag"}
+            {
+              "artefact": "Werkblad analyse",
+              "veld": "Noemer ROE",
+              "type": "boekhoudkundig-bedrag"
+            }
           ],
           "hoe": "1. Open de balans van Rotex Roeselare NV.\n2. Tel kapitaal + uitgiftepremies + herwaarderingsmeerwaarden + reserves + overgedragen resultaat (eventueel + kapitaalsubsidies).\n3. Noteer het totaal (bv. € 12.000.000).\n",
           "grondslag": "KB WVV (balansschema)"
@@ -80,11 +144,23 @@
           "wat": "Deel de winst door het eigen vermogen. Druk uit als percentage.",
           "waarom": "Het percentage maakt vergelijking mogelijk met sector, historiek en alternatieve beleggingen.",
           "input": [
-            {"artefact": "Werkblad", "veld": "Winst boekjaar", "type": "boekhoudkundig-bedrag"},
-            {"artefact": "Werkblad", "veld": "Eigen vermogen", "type": "boekhoudkundig-bedrag"}
+            {
+              "artefact": "Werkblad",
+              "veld": "Winst boekjaar",
+              "type": "boekhoudkundig-bedrag"
+            },
+            {
+              "artefact": "Werkblad",
+              "veld": "Eigen vermogen",
+              "type": "boekhoudkundig-bedrag"
+            }
           ],
           "output": [
-            {"artefact": "Ratio-tabel", "veld": "Netto-ROE", "type": "percentage"}
+            {
+              "artefact": "Ratio-tabel",
+              "veld": "Netto-ROE",
+              "type": "percentage"
+            }
           ],
           "hoe": "1. Bereken: € 2.500.000 / € 12.000.000 = 0,208.\n2. Vermenigvuldig met 100 = 20,8 %.\n3. Plaats in evolutie- en sectorvergelijking (bv. ROE Rotex vorig jaar 18 %; sector-mediaan 12 %).\n",
           "voorbeeld": {
@@ -112,10 +188,18 @@
           "wat": "Tel bij de winst de niet-kaskosten op (afschrijvingen, waardeverminderingen, voorzieningen). Deel die cashflow door het eigen vermogen.",
           "waarom": "Bruto-ROE filtert boekhoudkundige niet-kaselementen weg en toont het kasgenererend vermogen.",
           "input": [
-            {"artefact": "Resultatenrekening", "veld": "Afschrijvingen, waardeverminderingen, voorzieningen", "type": "boekhoudkundig-bedrag"}
+            {
+              "artefact": "Resultatenrekening",
+              "veld": "Afschrijvingen, waardeverminderingen, voorzieningen",
+              "type": "boekhoudkundig-bedrag"
+            }
           ],
           "output": [
-            {"artefact": "Ratio-tabel", "veld": "Bruto-ROE", "type": "percentage"}
+            {
+              "artefact": "Ratio-tabel",
+              "veld": "Bruto-ROE",
+              "type": "percentage"
+            }
           ],
           "hoe": "1. Zoek de niet-kaskosten van Rotex (bv. afschrijvingen € 1.500.000, waardeverminderingen € 200.000).\n2. Cashflow = winst € 2.500.000 + niet-kaskosten € 1.700.000 = € 4.200.000.\n3. Bruto-ROE = € 4.200.000 / € 12.000.000 = 35,0 %.\n",
           "grondslag": "CBN-2011/14 §rentabiliteit eigen vermogen (cashflow-variant)"
@@ -126,17 +210,36 @@
         "berekening": "Netto-ROE = € 2.500.000 / € 12.000.000 = 20,8 %. Cashflow = € 2.500.000 + € 1.700.000 = € 4.200.000. Bruto-ROE = € 4.200.000 / € 12.000.000 = 35,0 %.",
         "resultaat": "Een netto-ROE van 20,8 % is sterk; verschil met bruto-ROE (35 %) signaleert dat de niet-kaskosten een aanzienlijk deel van de bruto-cashgeneratie afromen — relevant voor financieringsbeslissingen."
       },
-      "source": {"type": "cbn", "short": "CBN-2011/14 §rentabiliteit eigen vermogen"},
+      "source": {
+        "type": "cbn",
+        "short": "CBN-2011/14 §rentabiliteit eigen vermogen"
+      },
       "confidence": "grounded",
-      "_provenance": {"inputs": [{"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden", "sha256": null, "version": "rag-v1"}]},
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "formules": [
         {
           "id": "netto-roe",
           "naam": "Nettorentabiliteit van het eigen vermogen",
           "wiskunde": "netto ROE = winst (verlies) van het boekjaar / eigen vermogen",
           "variabelen": [
-            {"symbool": "winst van het boekjaar", "betekenis": "Resultaat na belastingen, vóór resultaatverwerking, uit de resultatenrekening", "eenheid": "EUR"},
-            {"symbool": "eigen vermogen", "betekenis": "Totaal eigen vermogen op balansdatum (passiefzijde balans)", "eenheid": "EUR"}
+            {
+              "symbool": "winst van het boekjaar",
+              "betekenis": "Resultaat na belastingen, vóór resultaatverwerking, uit de resultatenrekening",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "eigen vermogen",
+              "betekenis": "Totaal eigen vermogen op balansdatum (passiefzijde balans)",
+              "eenheid": "EUR"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "winst Rotex Roeselare NV = € 2.500.000; eigen vermogen = € 12.000.000",
@@ -148,10 +251,20 @@
           "id": "bruto-roe",
           "naam": "Brutorentabiliteit van het eigen vermogen (op cashflow)",
           "wiskunde": "bruto ROE = cashflow / eigen vermogen",
-          "afhankelijk_van": ["cashflow"],
+          "afhankelijk_van": [
+            "cashflow"
+          ],
           "variabelen": [
-            {"symbool": "cashflow", "betekenis": "Nettoresultaat na belasting + niet-kaskosten (afschrijvingen, waardeverminderingen, voorzieningen)", "eenheid": "EUR"},
-            {"symbool": "eigen vermogen", "betekenis": "Totaal eigen vermogen op balansdatum", "eenheid": "EUR"}
+            {
+              "symbool": "cashflow",
+              "betekenis": "Nettoresultaat na belasting + niet-kaskosten (afschrijvingen, waardeverminderingen, voorzieningen)",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "eigen vermogen",
+              "betekenis": "Totaal eigen vermogen op balansdatum",
+              "eenheid": "EUR"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "cashflow Rotex = € 4.200.000; eigen vermogen = € 12.000.000",
@@ -169,8 +282,19 @@
       "herkenningspunt": "Examenvalkuil: ROE-conclusie geven zonder context-referentie.",
       "anker_slug": "1.3.II.C",
       "confidence": "grounded",
-      "source": {"type": "cbn", "short": "CBN-2011/14 §rentabiliteitsvoorwaarden"},
-      "_provenance": {"inputs": [{"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteitsvoorwaarden_part1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "cbn",
+        "short": "CBN-2011/14 §rentabiliteitsvoorwaarden"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteitsvoorwaarden_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Effect van een herwaardering",
@@ -178,8 +302,19 @@
       "herkenningspunt": "Bij een onderneming die net herwaardeerde — neem dat mee in je interpretatie.",
       "anker_slug": "1.3.II.C",
       "confidence": "grounded",
-      "source": {"type": "cbn", "short": "CBN-2011/14 §rentabiliteitsvoorwaarden"},
-      "_provenance": {"inputs": [{"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteitsvoorwaarden_part2", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "cbn",
+        "short": "CBN-2011/14 §rentabiliteitsvoorwaarden"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteitsvoorwaarden_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -187,29 +322,76 @@
       "vergelijking_met": "rentabiliteit-totaal-activa-roa",
       "verschil": "ROE meet rendement tegenover het eigen vermogen (perspectief aandeelhouder). ROA meet rendement tegenover het volledige balanstotaal (economisch perspectief, los van financieringswijze). Het verschil tussen beide signaleert het leverage-effect: hoge ROE bij lage ROA betekent dat schulden de winst voor de aandeelhouder versterken.",
       "trigger": "Examenvraag 'welke ratio voor welke vraag?': aandeelhoudersrendement = ROE; economische winstgevendheid van de bedrijfsmiddelen = ROA.",
-      "_provenance": {"inputs": [
-        {"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-totaal-van-de-activa-voorbeeldmethoden", "sha256": null, "version": "rag-v1"}
-      ]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-totaal-van-de-activa-voorbeeldmethoden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Een hoog ROE kan komen door een laag eigen vermogen (hefboomeffect met veel schuld), niet door sterke winstgevendheid. Combineer ROE altijd met solvabiliteit en ROA voor een eerlijk beeld.",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Neem het eigen vermogen op afsluitingsdatum — niet op aanvangsdatum. Sommige varianten werken met gemiddeld eigen vermogen ((begin + einde) / 2); vermeld in de toelichting welke variant je gebruikt.",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "doelstellingen-financiele-analyse", "redenering": "ROE operationaliseert de doelstelling 'rendabiliteit' in een ratio.", "confidence": "inferred"},
-    {"type": "vergelijkt-met", "target": "rentabiliteit-totaal-activa-roa", "redenering": "ROE en ROA samen tonen het leverage-effect.", "confidence": "inferred"},
-    {"type": "vereist-kennis-van", "target": "cashflow-analyse", "redenering": "Bruto-ROE gebruikt cashflow.", "confidence": "inferred"}
+    {
+      "type": "onderdeel-van",
+      "target": "doelstellingen-financiele-analyse",
+      "redenering": "ROE operationaliseert de doelstelling 'rendabiliteit' in een ratio.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "rentabiliteit-totaal-activa-roa",
+      "redenering": "ROE en ROA samen tonen het leverage-effect.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "cashflow-analyse",
+      "redenering": "Bruto-ROE gebruikt cashflow.",
+      "confidence": "inferred"
+    }
   ]
 }

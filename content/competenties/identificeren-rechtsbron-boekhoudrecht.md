@@ -8,7 +8,7 @@ programmaonderdelen:
 status: voorgesteld
 schema_version: '1.1'
 gegenereerd_uit: data/concepten/competenties/identificeren-rechtsbron-boekhoudrecht.yaml
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Identificeren van de toepasselijke rechtsbron bij een vraag uit het boekhoudrecht
 

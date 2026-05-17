@@ -1,0 +1,44 @@
+{
+  "id": "continuiteitsveronderstelling-audit",
+  "naam": "Continuïteitsveronderstelling (audit-perspectief)",
+  "node_type": "beginsel",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.IV.A", "1.6.II.B"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.IV.A",
+    "dekt_ook_anchors": ["1.6.II.B"],
+    "reviewed_by": null
+  },
+  "main_rule": {
+    "text": "De financiële overzichten worden opgesteld onder de veronderstelling dat de continuïteit van de onderneming gehandhaafd blijft en dat zij haar activiteiten in de voorzienbare toekomst zal voortzetten — tenzij het management voornemens is te liquideren of geen realistisch alternatief heeft. De auditor evalueert deze veronderstelling als onderdeel van zijn opdracht.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1 (Continuïteitsveronderstelling) + §93"},
+    "_provenance": {"inputs": [
+      {"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2", "sha256": null, "version": "rag-v1"},
+      {"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Naaiatelier Ninove BV heeft twee jaar op rij verlies en een negatief eigen vermogen. Sofie Janssens vraagt aan het management een liquiditeitsbegroting op 18 maanden + onderbouwing van de geplande herfinanciering. Resultaat: redelijk plan met krediettoezegging van de bank → continuïteit blijft als veronderstelling aanvaardbaar, maar Sofie neemt een paragraaf ter benadrukking op in haar verslag over de materiële onzekerheid.",
+  "in_praktijk": [
+    {
+      "aspect": "Bij twijfel: extra werk",
+      "betekenis": "Bij signalen van continuïteitsproblemen (verliesreeks, negatief netto-actief, schending van convenants, juridische geschillen, sleutelpersoneel verlies) moet de auditor de continuïteitsbeoordeling van het management uitdagend toetsen + extra documenteren.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §93"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "aspect": "Drie scenario's in het verslag",
+      "betekenis": "(1) Continuïteit OK → geen vermelding. (2) Materiële onzekerheid maar gerechtvaardigd → paragraaf ter benadrukking. (3) Continuïteit verbroken EN niet juist verwerkt → aangepast oordeel.",
+      "confidence": "inferred-from-aggregation",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §118-§120"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-3-2-1-financi-le-overzichten-bevatten-afwijkingen-van-mate", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "vereist-kennis-van", "target": "paragraaf-ter-benadrukking", "redenering": "Standaardgereedschap om materiële continuïteitsonzekerheid te signaleren."}
+  ]
+}

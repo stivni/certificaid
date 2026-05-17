@@ -5,21 +5,24 @@ tags:
 - procedure
 - po-1-2
 - po-1-3
+- po-1-9
 linked_anchors:
-- 1.3.I.E
-- 1.3.I.D
-- 1.3.taak.1
-- 1.2.IV.D
 - 1.2.IV
+- 1.2.IV.D
+- 1.3.I.D
+- 1.3.I.E
+- 1.3.taak.1
+- 1.9.I
 programmaonderdelen:
 - '1.2'
 - '1.3'
+- '1.9'
 confidence: grounded
 node_type: procedure
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/bestuursverslag.json
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Bestuursverslag (jaarverslag) ⚖️
 

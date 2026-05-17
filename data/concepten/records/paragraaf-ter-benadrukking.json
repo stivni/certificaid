@@ -1,0 +1,39 @@
+{
+  "id": "paragraaf-ter-benadrukking",
+  "naam": "Paragraaf ter benadrukking van bepaalde aangelegenheden",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.IV.C", "1.6.IV.B"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.IV.C",
+    "dekt_ook_anchors": ["1.6.IV.B"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Een paragraaf ter benadrukking van bepaalde aangelegenheden (emphasis of matter) is een paragraaf in de controleverklaring die verwijst naar een aangelegenheid die op PASSENDE wijze in de financiële overzichten is gepresenteerd of toegelicht, maar die — naar het oordeel van de beroepsbeoefenaar — zo belangrijk is dat ze fundamenteel is voor het begrip van de gebruikers. De verklaring zelf wordt NIET aangepast.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1"},
+    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"}]}
+  },
+  "voorbeeld_inline": "Naaiatelier Ninove BV heeft een materiële onzekerheid rond de continuïteit, maar deze is correct toegelicht in toelichting 12. Sofie Janssens neemt een paragraaf ter benadrukking op die naar toelichting 12 verwijst — zonder haar oordeel aan te passen.",
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "paragraaf-overige-aangelegenheden",
+      "verschil": "Paragraaf ter benadrukking → aangelegenheid IS in de financiële overzichten gepresenteerd. Paragraaf overige aangelegenheden → aangelegenheid is NIET in de financiële overzichten gepresenteerd of toegelicht, maar wel relevant voor het begrip van de controle of de verantwoordelijkheden van de auditor.",
+      "trigger": "Examen: 'toelichting in jaarrekening wijst op X' → benadrukking. 'Niet in jaarrekening, wel in verslag wegens audit-context' → overige.",
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "vergelijking_met": "aangepast-oordeel",
+      "verschil": "Paragraaf ter benadrukking → oordeel BLIJFT goedkeurend zonder voorbehoud. Aangepast oordeel → oordeel wijzigt (voorbehoud / afkeurend / onthouding).",
+      "trigger": "Is er een materiële afwijking of scope-beperking? Ja → aangepast oordeel. Nee, maar wel belangrijk gevolg dat correct in jaarrekening staat → paragraaf ter benadrukking.",
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "vergelijkt-met", "target": "paragraaf-overige-aangelegenheden", "redenering": "Verwarringsrisico: examen-favoriet."}
+  ]
+}

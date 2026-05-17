@@ -1,0 +1,36 @@
+{
+  "id": "kostprijs-per-eenheid",
+  "naam": "Kostprijs per eenheid",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.III.A", "1.8.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.III.A",
+    "dekt_ook_anchors": ["1.8.taak.1"],
+    "reviewed_by": null,
+    "bron_gap": "Vakdoctrine"
+  },
+  "definitie": {
+    "text": "De kostprijs per eenheid is het bedrag aan opgeofferde middelen om één eenheid van een product, dienst of order te realiseren. De kostprijs kan een vervaardigingsprijs zijn (wettelijk, CBN 132/7), een volledige bedrijfskostprijs (interne, inclusief commercieel + administratief) of een variabele kostprijs (direct costing). De interpretatie hangt af van het beoogde gebruik (voorraadwaardering / verkoopprijszetting / beslissing).",
+    "confidence": "inferred-common-knowledge",
+    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Yperse Werkplaats BV tapijt — drie kostprijsbegrippen: vervaardigingsprijs € 18 (materiaal + directe arbeid + productie-overhead), volledige bedrijfskostprijs € 22 (+ commercieel + administratief), variabele kostprijs € 13 (alleen variabele kosten). Verkoopprijs € 60. Welke kostprijs gebruiken? Hangt af van vraag.",
+  "in_praktijk": [
+    {
+      "aspect": "Drie gebruiksdoelen, drie cijfers",
+      "betekenis": "Voor voorraadwaardering: vervaardigingsprijs (wettelijk verplicht voor balans). Voor lange-termijn-prijszetting: volledige bedrijfskostprijs (dekt alle overhead). Voor extra-order-beslissingen: variabele kostprijs of marginale kostprijs (vaste kost is sunk). Examen-valkuil: één kostprijs gebruiken voor alle vragen.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "vereist-kennis-van", "target": "vervaardigingsprijs", "redenering": "Wettelijke variant.", "confidence": "inferred"},
+    {"type": "vereist-kennis-van", "target": "marginale-kostprijs", "redenering": "Beslissingsvariant.", "confidence": "inferred"},
+    {"type": "onderdeel-van", "target": "analytische-boekhouding", "redenering": "Hoofduitkomst van analytische boekhouding.", "confidence": "inferred"}
+  ]
+}

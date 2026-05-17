@@ -1,0 +1,47 @@
+{
+  "id": "cyclus-analyse-ic",
+  "naam": "Cyclusanalyse bij IC — synthese",
+  "node_type": "synthese",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.7.IX",
+    "1.7.IX.A",
+    "1.7.IX.B",
+    "1.7.IX.C",
+    "1.7.IX.D",
+    "1.7.IX.E"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T11:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.IX",
+    "dekt_ook_anchors": [
+      "1.7.IX.A",
+      "1.7.IX.B",
+      "1.7.IX.C",
+      "1.7.IX.D",
+      "1.7.IX.E"
+    ],
+    "reviewed_by": null,
+    "inputs": [
+      {
+        "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
+        "sha256": null,
+        "version": "rag-v1"
+      }
+    ],
+    "note": "Synthese-record: _provenance.inputs sloeg eerder onderaan; nu correct gevuld op record-niveau."
+  },
+  "gebaseerd_op_concepten": [
+    "aankoopcyclus-ic",
+    "verkoopcyclus-ic",
+    "productiecyclus-ic",
+    "hr-cyclus-ic",
+    "voorraadcyclus-ic",
+    "functiescheiding"
+  ],
+  "vergelijkingstabel": "| Cyclus | Hoofdrisico's | Kritische IC-maatregelen |\n|---|---|---|\n| Aankoop | Fictieve facturen, kickbacks, ongeautoriseerde uitgaven | 3-way match + autorisatie-drempels + functiescheiding inkoper/ontvanger/boeker/betaler |\n| Verkoop | Fictieve omzet, oninbare vorderingen, cut-off | Krediettoetsing + delivery-order match + DSO-monitoring |\n| Productie | Verkeerde kostprijs, voorraadafwijking, afval-fraude | BOM-tracking + yield-analyse + standaard vs actual variance |\n| HR | Ghost employees, loonmanipulatie | Functiescheiding HR/payroll/betaling + jaarlijkse werknemerslijst-review + Dimona-cross-check |\n| Voorraad | Diefstal, verkeerde waardering, telmiss | Fysieke beveiliging + permanent voorraad + onafhankelijke inventaris |",
+  "beslisboom": "Voor elke cyclus, doorloop de IC-evaluatie in 3 stappen:\n1. **Identificeer kerngerichten** (welke beweringen worden geraakt: bestaan, volledigheid, juistheid, cut-off, waardering, presentatie).\n2. **Map de proces-stappen** (van trigger tot eindboeking).\n3. **Test functiescheiding + autorisaties + verificaties + monitoring** per stap.",
+  "voorbeeld_inline": "Bij Yperse Werkplaats BV doet Sofie Janssens als externe auditor een walkthrough per cyclus: één transactie per cyclus volledig doorlopen, IC-zwakkere punten identificeren, dan substantieve werkzaamheden waar nodig."
+}

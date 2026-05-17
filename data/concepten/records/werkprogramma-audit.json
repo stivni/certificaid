@@ -1,0 +1,42 @@
+{
+  "id": "werkprogramma-audit",
+  "naam": "Werkprogramma / werkschema audit",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.III.B", "1.6.III.A"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.III.B",
+    "dekt_ook_anchors": ["1.6.III.A"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Een werkprogramma (of werkschema) is een schriftelijke beschrijving van de controlewerkzaamheden die uitgevoerd zullen worden — met aanduiding van wanneer en hoe ze gebeuren en hoeveel tijd ze in beslag nemen. Het is de uitvoeringsblauwdruk van de audit: per assertie, per rekeningsaldo of per transactiestroom geeft het werkprogramma aan welke procedures de auditor zal toepassen.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA Algemene controlenorm §3"},
+    "_provenance": {"inputs": [{"id": "ITAA-norm-algemene-controlenorm__sec_3-werkschema", "sha256": null, "version": "rag-v1"}]}
+  },
+  "voorbeeld_inline": "Sofie Janssens bouwt voor de audit Rotex Roeselare NV een werkprogramma per rubriek: bv. 'Voorraden — uitvoeren fysieke telling 31 dec, steekproef 30 SKU's met waardering tegen FIFO, testen cut-off december/januari, bevraging consignatievoorraad'. Geschatte tijd: 40 uur, uitvoerder: Tom (junior), review: Sofie.",
+  "in_praktijk": [
+    {
+      "aspect": "Aanpasbaar tijdens uitvoering",
+      "betekenis": "Het werkprogramma is geen contract maar een gids — naarmate de opdracht vordert wordt het bijgestuurd. Belangrijke wijzigingen worden gedocumenteerd in het dossier.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA Algemene controlenorm §3"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-algemene-controlenorm__sec_3-werkschema", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "aspect": "Bewaarplicht 10 jaar",
+      "betekenis": "De werkdocumenten — inclusief het werkprogramma — moeten minimum 10 jaar bewaard worden. Toezichthouder (Commissie van Toezicht) kan ze op elk moment opvragen.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA Algemene controlenorm §3"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-algemene-controlenorm__sec_3-werkschema", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "auditplanning", "redenering": "Werkprogramma is de operationele kern van de planning."},
+    {"type": "vereist-kennis-van", "target": "controledocumentatie", "redenering": "Werkprogramma is een verplicht onderdeel van het controledossier."}
+  ]
+}

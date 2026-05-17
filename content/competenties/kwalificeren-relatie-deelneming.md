@@ -9,7 +9,7 @@ programmaonderdelen:
 status: voorgesteld
 schema_version: '1.1'
 gegenereerd_uit: data/concepten/competenties/kwalificeren-relatie-deelneming.yaml
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Kwalificeren van de relatie met een deelneming (controle, gezamenlijke controle of invloed van betekenis)
 

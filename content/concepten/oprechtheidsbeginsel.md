@@ -15,7 +15,7 @@ node_type: beginsel
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/oprechtheidsbeginsel.json
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Oprechtheidsbeginsel (boekhouding) ⚖️
 

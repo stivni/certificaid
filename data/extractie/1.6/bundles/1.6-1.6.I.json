@@ -1,0 +1,239 @@
+{
+  "po": "1.6",
+  "anchor_id": "1.6.I",
+  "anchor": {
+    "tekst": "ALGEMENE KENMERKEN VAN DE OPDRACHT VAN DE GECERTIFICEERD ACCOUNTANT",
+    "anchor_type": "",
+    "verbose": "",
+    "synoniemen": []
+  },
+  "matches_source": "data/extractie/matches/latest.json",
+  "bundle_size": 25,
+  "bundle": [
+    {
+      "chunk_id": "Wet-ITAA-2019__art_3",
+      "chunk_sha": "36f6a865a5f228b2",
+      "bron": "Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Accountants",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3",
+      "score": 0.7533,
+      "text": "[Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Accountants → Beroepsactiviteiten, dragen van de titel en recht om deze werkzaamheden uit te oefenen → Recht om de beroepsactiviteiten van gecertificeerd accountant uit te oefenen]\n\nArt. 3\n\nEen gecertificeerd accountant voert hoofdzakelijk de volgende beroepsactiviteiten uit :  1° de boekhouding en de boekhoudkundige diensten organiseren en advies verstrekken inzake de boekhoudkundige organisatie bij ondernemingen;  2° het bepalen van de resultaten en het opmaken van de jaarrekening conform de wettelijke bepalingen ter zake;  3° het openen, het houden, het centraliseren en het sluiten van boekingen, geschikt voor het opmaken van de rekeningen;  4° alle boekhoudstukken nazien en corrigeren die niet leiden tot een attestering of een expertiseverslag bestemd om aan derden te worden afgegeven;  5° de analyse met boekhoudtechnische procedés van de positie en werking van ondernemingen vanuit het oogpunt van hun kredietwaardigheid, rentabiliteit en risico's die niet leidt tot een attestering of een expertiseverslag bestemd om aan derden te worden afgegeven;  6° zowel privé- als gerechtelijke expertise met betrekking tot de boekhouding van ondernemingen;  7° elke opdracht bedoeld in 4° tot en met 6° uitgevoerd door een gecertificeerd accountant, andere dan de gebruikelijke beroepsbeoefenaar, die leidt tot een attestering of een expertiseverslag bestemd om aan derden te worden afgegeven;  8° andere opdrachten waarvan de uitvoering bij of krachtens de wet zijn voorbehouden aan de gecertificeerd accountant;  9° het verstrekken van advies in alle fiscale aangelegenheden;  10° het bijstaan van de belastingplichtige bij het nakomen van zijn fiscale verplichtingen;  11° het vertegenwoordigen van de belastingplichtige bij de belastingdiensten;  12° het organiseren van administratieve diensten en advies verstrekken over de administratieve organisatie van ondernemingen;  [ 1 13° de ondernemingen bijstaan bij het opstellen van duurzaamheidsinformatie.] 1\n\n----------  ( 1 )<W 2024-12-02/07, art. 101, 009; Inwerkingtreding : 30-12-2024>"
+    },
+    {
+      "chunk_id": "ITAA-norm-ontbinding-vereffening__sec_2-verantwoordelijkheden-van-de-gecertificeerd-accountant",
+      "chunk_sha": "48f256293471db7e",
+      "bron": "ITAA-norm-ontbinding-vereffening",
+      "bron_rol": "norm",
+      "sectie": "2. Verantwoordelijkheden van de gecertificeerd accountant",
+      "score": 0.7393,
+      "text": "[Norm — ITAA-norm-ontbinding-vereffening]\n\n2. Verantwoordelijkheden van de gecertificeerd accountant\n\nDe beroepsbeoefenaar verbindt zich ertoe om:\n\n Het verkrijgen, op basis van zijn controle, van een redelijke mate van zekerheid dat de staat van\nactiva en passiva geen afwijking van materieel belang bevat die het gevolg is van fraude of van fouten.\n Het uitbrengen van een verslag waarin zijn oordeel is opgenomen.\n van commissaris waarneemt, en dat in de afgelopen twaalf maanden geen confrater eerder\nwerd aangezocht om een assurance-opdracht binnen de vennootschap van de cliënt uit te voeren."
+    },
+    {
+      "chunk_id": "ITAA-norm-algemene-controlenorm__sec_2-verslag",
+      "chunk_sha": "67cb0f4e314186cf",
+      "bron": "ITAA-norm-algemene-controlenorm",
+      "bron_rol": "norm",
+      "sectie": "2. Verslag",
+      "score": 0.7122,
+      "text": "[Norm — ITAA-norm-algemene-controlenorm]\n\n2. Verslag\n\nIn zijn verslag vermeldt de accountant binnen het kader van welke wettelijke, contractuele en technische grenzen hij zijn opdracht heeft uitgevoerd. Wanneer het gaat om een opdracht die hem door of krachtens de wet is toevertrouwd, mag de accountant geen enkele contractuele beperking aanvaarden die de opdracht, zoals die door de wet is omschreven, zou wijzigen of de geest ervan zou veranderen.\nVooraleer een opdracht te aanvaarden, moet de accountant er zich van vergewissen:\ndat hij over de vereiste bekwaamheid en ervaring beschikt om zijn werk tot een goed einde te brengen;\ndat hij desgevallend over het vereiste personeel en de nodige werkinstrumenten beschikt om zijn opdracht te kunnen uitvoeren;\ndat hij over de nodige tijd beschikt om zijn taak te kunnen afwerken binnen de gestelde wettelijke of contractuele termijn;\ndat hij zich noch tegenover zijn cliënt, noch tegenover iemand anders bevindt in een verband van rechtstreekse of onrechtstreekse ondergeschiktheid die zijn beoordeling zou kunnen beïnvloeden.\nDe accountant voert zijn opdracht uit en stelt zijn besluiten op in een geest van totale onafhankelijkheid; daarvoor moet hij zijn beste krachten inzetten en desgevallend een beroep doen op het advies van confraters of van andere erkende beroepsbeoefenaars, zonder evenwel zijn gedragslijn door laatstgenoemden te laten beïnvloeden.\nDe accountant dient geen oordeel uit te spreken over de opportuniteit van de beslissingen die aan zijn opdracht ten grondslag liggen. Toch dient hij, met naleving van het beroepsgeheim waartoe hij gehouden is, erover te waken dat alle betrokken partijen op correcte wijze voorgelicht worden over de mogelijke gevolgen van de genomen beslissingen, met name wanneer de beslissingen de continuïteit van het bedrijf in het gedrang zouden kunnen brengen."
+    },
+    {
+      "chunk_id": "ITAA-norm-algemene-controlenorm__sec_1-inleiding",
+      "chunk_sha": "d81eee08865c2f1c",
+      "bron": "ITAA-norm-algemene-controlenorm",
+      "bron_rol": "norm",
+      "sectie": "1. Inleiding",
+      "score": 0.7047,
+      "text": "[Norm — ITAA-norm-algemene-controlenorm]\n\n1. Inleiding\n\nElk door de accountant afgeleverd attest steunt op de onafhankelijke beoordeling die hij heeft opgedaan ingevolge een passende en daadwerkelijke controle die hij heeft uitgevoerd.\nBij de uitvoering van zijn opdrachten moet de accountant zich laten leiden:\ndoor de wettekst die zijn opdracht omschrijft en die de vorm van de controle bepaalt;\ndoor de overeenkomst die de accountant met zijn cliënt heeft afgesloten;\ndoor de bijzondere aanbevelingen die uitgaan van het Instituut van de Accountants en de Belastingconsulenten;\ndoor de gespecialiseerde vakliteratuur."
+    },
+    {
+      "chunk_id": "ITAA-norm-opdrachtbrief__sec_3-uitvoering-van-de-opdracht",
+      "chunk_sha": "ccfef81bc89779bb",
+      "bron": "ITAA-norm-opdrachtbrief",
+      "bron_rol": "norm",
+      "sectie": "3. Uitvoering van de opdracht",
+      "score": 0.6993,
+      "text": "[Norm — ITAA-norm-opdrachtbrief]\n\n3. Uitvoering van de opdracht\n\n1) Bijstand en vertegenwoordiging bij de uitvoering van opdrachten\nDe vertegenwoordiger-natuurlijke persoon van de rechtspersoon draagt de eindverantwoordelijkheid\nvoor de uitvoering van de opdracht.\n\nDit betekent echter niet dat hij alle aspecten van de opdracht ook persoonlijk moet uitvoeren: hij mag\nzich laten bijstaan en zelfs vertegenwoordigen door interne werknemers en/of zelfstandige\nonderaannemers 8. Bij de keuze van de medewerkers waar hij beroep op doet, moet de\nvertegenwoordiger-natuurlijke persoon zich laten leiden door zijn professioneel oordeel. De\nonderaannemers moeten bovendien vanzelfsprekend de hoedanigheid bezitten om op zelfstandige\nwijze boekhoudkundige en/of fiscale activiteiten te verrichten voor derden.\n\n    2) Specifieke regels bij de uitvoering van de opdrachten die voorbehouden zijn aan gecertificeerde\n       accountants\na. Schriftelijke aantekening van de aard van de verrichte werkzaamheden bij opdrachten die\n   voorbehouden zijn aan gecertificeerd accountants\n\n     De beroepsbeoefenaar moet schriftelijk aantekening houden of doen houden van de aard van de\n     door hem of zijn medewerkers verrichte werkzaamheden zodat een getrouwe weergave van de\n     uitvoering van de opdracht kan verkregen worden 9.\n\nb. Geen delegatie van handtekeningsbevoegdheid bij opdrachten die voorbehouden zijn aan\n   gecertificeerd accountants\n\n7 Artikel 42 van de wet van 17 maart 2019 betreffende de accountants en de belastingadviseurs\n\nBijvoorbeeld bij het indienen van de fiscale aangifte via Tax-on-web.\n9 Artikel 16 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants\n\n    De vertegenwoordiger-natuurlijke persoon kan zijn handtekening niet delegeren in het kader van\n    opdrachten die voorbehouden zijn aan gecertificeerd accountants 10.\n\n    Bij opdrachten die voorbehouden zijn aan gecertificeerd accountants draagt de vertegenwoordiger-\n    natuurlijke persoon dan ook niet enkel de deontologische verantwoordelijkheid in de zin van artikel\n    42 van de Wet, maar dient hij ook zelf tot ondertekening van de verklaring, certificering of verslag\n    over te gaan.\n\n c.     Bijstand door een andere gecertificeerde accountant, door zijn stagiairs of door zijn vaste\n    medewerkers\n\n    De vertegenwoordiger-natuurlijke persoon kan zich bij de uitvoering van opdrachten die\n    voorbehouden zijn aan gecertificeerde accountants, enkel laten bijstaan door een andere\n    gecertificeerde accountant of een persoon die in het buitenland een gelijkwaardige hoedanigheid\n    bezit, door zijn stagiairs of door zijn vaste medewerkers 11. Daarnaast kan hij onder zijn eigen\n    verantwoordelijkheid ook beroep doen op diensten van een onafhankelijk deskundige uit een\n    andere discipline 12.\n\n d. Verbod op overdracht van essentiële elementen van een aan gecertificeerd accountants\nvoorbehouden opdracht\n\n    De vertegenwoordiger-natuurlijke persoon kan geen essentiële elementen van een aan de\n    gecertificeerd accountant voorbehouden opdrachten overdragen, tenzij in uitzonderlijke\n    omstandigheden. In dat geval moet hij dit ook schriftelijke motiveren 13.\n\n10 Artikel 16 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants\n11 Artikel 17 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants\n\n Artikel 17 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants\n13 Artikel 17 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants"
+    },
+    {
+      "chunk_id": "KB-1998-plichtenleer__art_9",
+      "chunk_sha": "3b52b6debc9c9c09",
+      "bron": "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 9. De externe accountant moet een opdracht weigeren, of ervan afzien de uitvoering van dergelijke opdracht voort te zetten, zodra hij het bestaan vaststelt van invloeden, feiten of banden die zijn onafhankelijkheid, zijn wils- of beoordelingsvrijheid, of zijn onpartijdigheid kunnen aantasten.",
+      "score": 0.6924,
+      "text": "[Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants → Onafhankelijkheid]\n\nArt. 9. De externe accountant moet een opdracht weigeren, of ervan afzien de uitvoering van dergelijke opdracht voort te zetten, zodra hij het bestaan vaststelt van invloeden, feiten of banden die zijn onafhankelijkheid, zijn wils- of beoordelingsvrijheid, of zijn onpartijdigheid kunnen aantasten.\n\nHij dient eveneens te waken over de onafhankelijkheid, de onpartijdigheid en de wils- en beoordelingsvrijheid van zijn medewerkers en van de persoon waarop hij een beroep doet.\n Het eerste lid geldt eveneens voor de accountant die zijn werkzaamheden uitoefent in het raam van een arbeidsovereenkomst of van een door de overheid bezoldigde betrekking, onverminderd zijn verplichting te handelen volgens de bevelen en de instructies die hem worden gegeven door zijn werkgever.\n In geval van onverenigbaarheid tussen de instructies van zijn werkgever en de deontologische regels, heeft de accountant die zijn werkzaamheden uitoefent in het kader van een arbeidsovereenkomst of van een door de overheid bezoldigde betrekking, de plicht in overleg met zijn werkgever voor dit probleem een oplossing na te streven die in overeenstemming is met de deontologische regels. Als dergelijke oplossing niet kan gevonden worden, dient hij dit probleem voor te leggen aan de Voorzitter van het Instituut of zijn afgevaardigde."
+    },
+    {
+      "chunk_id": "KB-1998-plichtenleer__art_16",
+      "chunk_sha": "879213ec8748fd35",
+      "bron": "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 16. De accountant moet steeds al zijn opdrachten gewetensvol en met vereiste zorg uitvoeren.",
+      "score": 0.6855,
+      "text": "[Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants → Uitvoering van de opdrachten]\n\nArt. 16. De accountant moet steeds al zijn opdrachten gewetensvol en met vereiste zorg uitvoeren.\n\nVoor iedere monopolieopdracht die hem wordt toevertrouwd moet de externe accountant schriftelijk aantekening houden of doen houden van de aard van de door hem of zijn medewerkers verrichte werkzaamheden zodat een getrouwe weergave van de uitvoering van de opdracht kan verkregen worden.\n De externe accountant die alleen werkt of in vereniging of in vennootschap dient zijn burgerlijke beroepsaansprakelijkheid te verzekeren overeenkomstig de richtlijnen van de Raad.\n De werkdocumenten dienen door de externe accountant die de opdracht heeft uitgevoerd te worden bewaard gedurende een periode van vijf jaar, vanaf de datum van het verslag dat op basis van de werkdocumenten werd opgesteld."
+    },
+    {
+      "chunk_id": "KB-1998-plichtenleer__art_18",
+      "chunk_sha": "7528fd4c6520d1b1",
+      "bron": "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 18. Elke verklaring, certificering of verslag over boekhoudkundige staten van ondernemingen moet worden ondertekend door een externe accountant, natuurlijke persoon, die in voorkomend geval optreedt als vertegenwoordiger van een vennootschap of vereniging van accountants.",
+      "score": 0.672,
+      "text": "[Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants → Uitvoering van de opdrachten]\n\nArt. 18. Elke verklaring, certificering of verslag over boekhoudkundige staten van ondernemingen moet worden ondertekend door een externe accountant, natuurlijke persoon, die in voorkomend geval optreedt als vertegenwoordiger van een vennootschap of vereniging van accountants.\n\nDe externe accountant die de verantwoordelijkheid opneemt een verklaring, een certificering of een verslag af te leveren moet in eigen naam tekenen met vermelding van zijn functie.\n Wanneer een externe accountant, lid van een accountantsvennootschap, in eigen naam een opdracht wordt toevertrouwd, dan kan hij niet tekenen in de hoedanigheid van vertegenwoordiger van de vennootschap.\n In geval van overmacht kan de externe accountant zijn bevoegdheid om te tekenen aan een andere externe accountant delegeren."
+    },
+    {
+      "chunk_id": "KB-1998-plichtenleer__art_19",
+      "chunk_sha": "99df8946d1b17616",
+      "bron": "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 19. De accountant die zijn beroep uitoefent in het kader van een arbeidsovereenkomst of van een door de overheid bezoldigde functie dient persoonlijk de regels van plichtenleer na te leven.",
+      "score": 0.6709,
+      "text": "[Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants → Samenwerkingsverbanden]\n\nArt. 19. De accountant die zijn beroep uitoefent in het kader van een arbeidsovereenkomst of van een door de overheid bezoldigde functie dient persoonlijk de regels van plichtenleer na te leven.\n\nEen externe accountant die een andere accountant tewerkstelt is ertoe gehouden deze in de mogelijkheid te stellen het beroep overeenkomstig de regels van plichtenleer uit te oefenen."
+    },
+    {
+      "chunk_id": "KB-1998-plichtenleer__art_12",
+      "chunk_sha": "b48a4a0c19bafb93",
+      "bron": "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 12. In elk attest of verslag, opgesteld door een externe accountant in uitvoering van een monopolieopdracht, moet vermeld worden of de accountant al dan niet andere prestaties levert of heeft geleverd voor rekening van de betrokken onderneming, de vereniging, de vennootschap of de onderneming verbonden met de betrokken vereniging of vennootschap, voor de periode waarop zijn verslag of zijn attest betrekking heeft.",
+      "score": 0.6699,
+      "text": "[Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants → Onafhankelijkheid]\n\nArt. 12. In elk attest of verslag, opgesteld door een externe accountant in uitvoering van een monopolieopdracht, moet vermeld worden of de accountant al dan niet andere prestaties levert of heeft geleverd voor rekening van de betrokken onderneming, de vereniging, de vennootschap of de onderneming verbonden met de betrokken vereniging of vennootschap, voor de periode waarop zijn verslag of zijn attest betrekking heeft."
+    },
+    {
+      "chunk_id": "KB-1998-plichtenleer__art_32",
+      "chunk_sha": "0a81feed112582ae",
+      "bron": "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 32. Onverminderd de voor de externe accountant geldende wettelijke bepalingen betreffende het beroepsgeheim, is iedere accountant, ongeacht zijn statuut, gehouden tot naleving van zijn beroepsdiscretieplicht.",
+      "score": 0.6627,
+      "text": "[Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants → Permanente beroepsopleiding]\n\nArt. 32. Onverminderd de voor de externe accountant geldende wettelijke bepalingen betreffende het beroepsgeheim, is iedere accountant, ongeacht zijn statuut, gehouden tot naleving van zijn beroepsdiscretieplicht.\n\nDeze discretieplicht omvat de verplichting tot geheimhouding van gegevens die hem uitdrukkelijk of stilzwijgend in zijn hoedanigheid van accountant worden toevertrouwd en van de feiten met een vertrouwelijk karakter die hij in de uitoefening van zijn beroep zelf heeft vastgesteld. Er kan de accountant geen inbreuk op de tuchtvoorschriften inzake beroepsdiscretieplicht ten laste gelegd worden :\n - wanneer hij geroepen wordt om in rechte getuigenis af te leggen;\n - wanneer de wet hem tot mededeling van gegevens verplicht;\n - in de uitoefening van zijn recht van verdediging in tuchtaangelegenheden;\n - wanneer hij, met het oog op de behartiging van de deontologische regelen, en na alle interne middelen bij zijn werkgever te hebben uitgeput, vertrouwelijke gegevens van zijn werkgever aan de Raad meedeelt;\n - wanneer en in de mate waarin hij, betreffende aangelegenheden die zijn opdrachtgever persoonlijk aanbelangen, door deze laatste uitdrukkelijk van zijn discretieplicht ontslagen werd.\n Indien de accountant vertrouwelijke informatie deelt met zijn stagiairs en andere medewerkers, moet hij erop toezien dat zij het vertrouwelijk karakter daarvan eerbiedigen."
+    },
+    {
+      "chunk_id": "ITAA-deontologie-beroepsgeheim__sec_2-wat-is-de-reden-van-bestaan-van-het-beroepsgeheim-1",
+      "chunk_sha": "92f9d275cfa02156",
+      "bron": "ITAA-deontologie-beroepsgeheim",
+      "bron_rol": "norm",
+      "sectie": "2. Wat is de reden van bestaan van het beroepsgeheim?1",
+      "score": 0.6606,
+      "text": "[Norm — ITAA-deontologie-beroepsgeheim]\n\n2. Wat is de reden van bestaan van het beroepsgeheim?1\n\nHet gereglementeerde beroep van accountant en belastingadviseur beantwoordt aan de behoefte van algemeen belang2 dat ondernemingen en belastingplichtigen moeten kunnen genieten van competente en ethische dienstverlening op het vlak van boekhoudkundig, fiscaal en beheer3. Door dit beroep aan het beroepsgeheim te onderwerpen is de wetgever van oordeel geweest dat dit algemeen belang rechtvaardigt dat ondernemingen en belastingplichtigen in alle vertrouwen een beroep kunnen doen op een accountant of een belastingadviseur zonder te hoeven vrezen dat de vertrouwelijke elementen, waarvan deze kennis zouden krijgen bij het uitoefenen van hun opdracht, openbaar zouden worden gemaakt.4\nAccountants en belastingadviseurs moeten in omstandigheden kunnen werken die hen toelaten hun opdrachten met volledige kennis van zaken uit te voeren. Daarom moeten ze hun klanten volledig vertrouwen kunnen inboezemen, zodat ze niet aarzelen om hen gevoelige informatie toe te vertrouwen, waarbij hun wordt verzekerd dat de vertrouwelijkheid van deze informatie zal worden gerespecteerd. Zonder dit zouden klanten, wanneer ze een opdracht toevertrouwen aan hun accountant of aan hun belastingadviseur, zich ervoor behoeden om hen bepaalde informatie te melden uit vrees dat deze onthuld worden om vervolgens tegen hen gebruikt te worden.\nIn dergelijke omstandigheden zouden accountants en belastingadviseurs hun professioneel oordeel enkel kunnen baseren op onvolledige of fragmentarische informatie die hen verschaft wordt door hun klanten. Derhalve zouden accountants en belastingadviseurs zonder het beroepsgeheim niet in staat zijn de opdracht die hen wordt toevertrouwd in het algemeen belang uit te voeren. Hieruit vloeit voort dat accountants en externe belastingadviseurs voor het uitvoeren van hun opdracht noodzakelijkerwijs moeten beschikken over informatie van vertrouwelijke aard."
+    },
+    {
+      "chunk_id": "KB-1998-plichtenleer__art_14",
+      "chunk_sha": "91b24d9d1261f7d9",
+      "bron": "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 14. De externe accountants mogen hun activiteit niet derwijze beperken dat hun beroepsinkomsten uitsluitend afhankelijk zijn, of van een zeer beperkt aantal onderscheiden opdrachten of functies, of van opdrachten en functies die concreet alle afhankelijk zijn van één enkele belangengroep of van éénzelfde gezag.",
+      "score": 0.6604,
+      "text": "[Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants → Onafhankelijkheid]\n\nArt. 14. De externe accountants mogen hun activiteit niet derwijze beperken dat hun beroepsinkomsten uitsluitend afhankelijk zijn, of van een zeer beperkt aantal onderscheiden opdrachten of functies, of van opdrachten en functies die concreet alle afhankelijk zijn van één enkele belangengroep of van éénzelfde gezag."
+    },
+    {
+      "chunk_id": "KB-1998-plichtenleer__art_11",
+      "chunk_sha": "380e50f73655ba97",
+      "bron": "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 11. Het is de externe accountant verboden om, rechtstreeks of onrechtstreeks, een opdracht, een functie of een mandaat te aanvaarden of voort te zetten, wanneer de uitoefening daarvan hem in een positie van belangenconflict dreigt te plaatsen die van aard is het onafhankelijke oordeel dat hij moet uitbrengen in het gedrang te brengen. Hij moet zijn cliënt onmiddellijk daarvan op de hoogte brengen en erop toezien dat elke maatregel genomen wordt, opdat de belangen van de cliënt gevrijwaard zouden worden.",
+      "score": 0.6595,
+      "text": "[Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants → Onafhankelijkheid]\n\nArt. 11. Het is de externe accountant verboden om, rechtstreeks of onrechtstreeks, een opdracht, een functie of een mandaat te aanvaarden of voort te zetten, wanneer de uitoefening daarvan hem in een positie van belangenconflict dreigt te plaatsen die van aard is het onafhankelijke oordeel dat hij moet uitbrengen in het gedrang te brengen. Hij moet zijn cliënt onmiddellijk daarvan op de hoogte brengen en erop toezien dat elke maatregel genomen wordt, opdat de belangen van de cliënt gevrijwaard zouden worden.\n\nDit beginsel is van toepassing op de accountant, op de vennootschap of vereniging waarvan hij deel uitmaakt, op zijn vennoten en zijn vaste medewerkers."
+    },
+    {
+      "chunk_id": "ITAA-norm-opdrachtbrief__sec_5-de-draagwijdte-van-de-aansprakelijkheid",
+      "chunk_sha": "e5463156fe97ace2",
+      "bron": "ITAA-norm-opdrachtbrief",
+      "bron_rol": "norm",
+      "sectie": "5. De draagwijdte van de aansprakelijkheid",
+      "score": 0.6579,
+      "text": "[Norm — ITAA-norm-opdrachtbrief]\n\n5. De draagwijdte van de aansprakelijkheid\n\nVia de opdrachtbrief is het mogelijk om clausules in te voegen die een beperking voorzien van\nuw aansprakelijkheid. Dit is echter niet toegestaan in geval van een fout gepleegd met bedrieglijk\nopzet of met het oogmerk te schaden. Evenmin bij opdrachten voorbehouden aan gecertificeerde\naccountants 4."
+    },
+    {
+      "chunk_id": "ITAA-norm-kmo-controlenorm__sec_2-2-3-uitvoering-van-de-opdracht",
+      "chunk_sha": "2d97bf670d4ebd2f",
+      "bron": "ITAA-norm-kmo-controlenorm",
+      "bron_rol": "norm",
+      "sectie": "2.2.3. Uitvoering van de opdracht",
+      "score": 0.6557,
+      "text": "[Norm — ITAA-norm-kmo-controlenorm]\n\n2.2.3. Uitvoering van de opdracht\n\n§42. Bij de uitvoering van de opdracht met betrekking tot financiële overzichten dient de beroepsbeoefenaar :\nde relevante ethische voorschriften na te leven, met inbegrip van de onafhankelijkheidsbepalingen die van toepassing zijn op de opdrachten voor de controle van financiële overzichten;\nde opdracht vanuit een professioneel-kritische instelling – te plannen en uit te voeren, waarbij hij er rekening mee houdt dat er omstandigheden kunnen bestaan die ertoe leiden dat de financiële overzichten een afwijking van materieel belang bevatten;\nzijn professionele oordeelsvorming toe te passen bij het plannen en uitvoeren van de opdracht met betrekking tot de financiële overzichten;\n\nvoldoende en geschikte assurance-informatie te verkrijgen teneinde het risico naar een aanvaardbaar laag niveau terug te brengen hetgeen hem in staat stelt om redelijke conclusies te trekken waarop hij zijn oordeel kan baseren;\nzijn opdracht uit te oefenen in overeenstemming met de huidige norm."
+    },
+    {
+      "chunk_id": "KB-1998-plichtenleer__art_3",
+      "chunk_sha": "799f07fb9bdb3a2e",
+      "bron": "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 3. De accountant is ertoe gehouden elke handeling of houding te vermijden die in strijd is met de waardigheid, de rechtschapenheid of de kiesheid, of die onverenigbaar is met de eerbied verschuldigd aan zijn confraters of met de onafhankelijkheid die de uitoefening van een vrij beroep kenmerkt.",
+      "score": 0.6551,
+      "text": "[Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants → Algemene bepalingen]\n\nArt. 3. De accountant is ertoe gehouden elke handeling of houding te vermijden die in strijd is met de waardigheid, de rechtschapenheid of de kiesheid, of die onverenigbaar is met de eerbied verschuldigd aan zijn confraters of met de onafhankelijkheid die de uitoefening van een vrij beroep kenmerkt."
+    },
+    {
+      "chunk_id": "ITAA-norm-algemene-controlenorm__sec_6-controles",
+      "chunk_sha": "524ebe3adb22572a",
+      "bron": "ITAA-norm-algemene-controlenorm",
+      "bron_rol": "norm",
+      "sectie": "6. Controles",
+      "score": 0.6551,
+      "text": "[Norm — ITAA-norm-algemene-controlenorm]\n\n6. Controles\n\nBij de vaststelling van zijn keuze moet de accountant:\nerover waken dat hij een degelijke kennis heeft van het bedrijf en van de werkzaamheden van dit laatste;\nde administratieve en boekhoudkundige organisatie van het bedrijf analyseren en met name nagaan in hoever de in de schoot van het bedrijf uitgevoerde interne controles betrouwbaar zijn;\nde moeilijkheid en de kosten van de technieken die normaal dienen te worden aangewend om zijn opdracht tot een goed einde te brengen niet beschouwen als alleenstaande criteria welke van die aard zijn dat zij moeten worden afgewezen."
+    },
+    {
+      "chunk_id": "KB-1998-plichtenleer__art_2",
+      "chunk_sha": "5c6d34c88a0740c9",
+      "bron": "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 2. De accountant is ertoe gehouden de wettelijke en reglementaire bepalingen alsmede de gebruikelijke controlenormen van het Instituut na te leven. Al naar gelang de omstandigheden zal hij eveneens rekening houden met de aanbevelingen van de Raad van het Instituut.",
+      "score": 0.655,
+      "text": "[Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants → Algemene bepalingen]\n\nArt. 2. De accountant is ertoe gehouden de wettelijke en reglementaire bepalingen alsmede de gebruikelijke controlenormen van het Instituut na te leven. Al naar gelang de omstandigheden zal hij eveneens rekening houden met de aanbevelingen van de Raad van het Instituut."
+    },
+    {
+      "chunk_id": "ITAA-deontologie-beroepsgeheim__sec_de-accountant-of-de-belastingadviseur-als-belastingplichtige",
+      "chunk_sha": "65edd6cd9335c405",
+      "bron": "ITAA-deontologie-beroepsgeheim",
+      "bron_rol": "norm",
+      "sectie": "De accountant of de belastingadviseur als belastingplichtige",
+      "score": 0.6528,
+      "text": "[Norm — ITAA-deontologie-beroepsgeheim]\n\nDe accountant of de belastingadviseur als belastingplichtige\n\nDe beroepsbeoefenaar kan zich niet verschuilen achter zijn beroepsgeheim om te ontsnappen aan de fiscale controle60. Wel moet hij de overgemaakte documenten krachtens zijn beroepsgeheim anoniem maken zodat zijn klanten niet geïdentificeerd kunnen worden61."
+    },
+    {
+      "chunk_id": "ITAA-deontologie-beroepsgeheim__sec_het-beroepsgeheim-van-de-accountant-en-de-belastingadviseur",
+      "chunk_sha": "0c3e6332f324b481",
+      "bron": "ITAA-deontologie-beroepsgeheim",
+      "bron_rol": "norm",
+      "sectie": "Het beroepsgeheim van de accountant en de belastingadviseur",
+      "score": 0.6516,
+      "text": "[Norm — ITAA-deontologie-beroepsgeheim]\n\nHet beroepsgeheim van de accountant en de belastingadviseur\n\nHet beroepsgeheim is geen trofee waarmee men pronkt. Het is noch een privilege, noch een voorrecht, maar een last die de gewone discretieplicht overstijgt en de accountant en de belastingadviseur kan blootstellen aan de woede van de openbare autoriteiten wanneer ze dit als een hindernis ervaren. Het is een gewetenszaak die de accountant of de belastingadviseur ertoe aanzet te peilen naar het doel van zijn opdracht, verder dan het specifieke belang van de klant.\nOnderstaande bijdrage worden de algemene regels uiteengezet. Het is de taak van de accountants en de belastingadviseurs die geconfronteerd worden met kwesties die betrekking hebben op het beroepsgeheim, om deze in eer en geweten en ten aanzien van het doel van hun opdracht, geval per geval te beoordelen.\n\nWat is de rechtsgrondslag van het beroepsgeheim?\nWat is de reden van bestaan van het beroepsgeheim?\nWelke personen zijn gehouden tot het beroepsgeheim?\nWelke activiteiten zijn beschermd door het beroepsgeheim?\nWelke elementen vallen onder het beroepsgeheim?\nStrekt de bescherming van het beroepsgeheim van de accountant/belastingadviseur zich uit tot zijn brieven of nota's die bij de klant worden aangetroffen?\nKan de klant verzaken aan de bescherming van het beroepsgeheim?\nGeldt het beroepsgeheim in geval van wangedrag van de beroepsbeoefenaar?\nWelke gevolgen heeft het beroepsgeheim ten aanzien van de gerechtelijke autoriteiten?\nIs het beroepsgeheim van toepassing ten aanzien van de Cel voor Financiële Informatieverwerking (CFI)?\nWelke gevolgen heeft het beroepsgeheim ten aanzien van de fiscale administratie?\nIs het beroepsgeheim van toepassing ten aanzien van het ITAA?\nIs het beroepsgeheim van toepassing ten aanzien van de curator van de klant?"
+    },
+    {
+      "chunk_id": "KB-1998-plichtenleer__art_17",
+      "chunk_sha": "4dae15f7f36a451a",
+      "bron": "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 17. Bij de uitvoering van zijn monopolieopdrachten kan de externe accountant zich enkel laten bijstaan door een andere accountant, door zijn stagiairs of door zijn vaste medewerkers.",
+      "score": 0.6503,
+      "text": "[Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants → Uitvoering van de opdrachten]\n\nArt. 17. Bij de uitvoering van zijn monopolieopdrachten kan de externe accountant zich enkel laten bijstaan door een andere accountant, door zijn stagiairs of door zijn vaste medewerkers.\n\nBehoudens uitzonderlijke omstandigheden, schriftelijk behoorlijk gemotiveerd, kan hij geen essentiële elementen van een monopolieopdracht overdragen.\n Daarnaast kan de externe accountant binnen de grenzen bepaald door de gebruikelijke controlenormen en onder zijn eigen verantwoordelijkheid :\n 1° een beroep doen op de medewerking van een andere accountant of van een persoon die in het buitenland een hoedanigheid bezit die als gelijkwaardig erkend is met deze van accountant;\n 2° een beroep doen op de diensten van een onafhankelijk deskundige uit een andere discipline, indien zijn onderzoek dit vereist;\n 3° beslissen over het gebruik dat hij zou kunnen maken van sommige onderzoeken uitgevoerd door het personeel van de gecontroleerde vennootschap."
+    },
+    {
+      "chunk_id": "KB-1998-plichtenleer__art_15",
+      "chunk_sha": "24e1dddb7ea5a9c9",
+      "bron": "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 15. Het is de externe accountant verboden in een onderneming waar hij een opdracht uitvoert, of in een daarmee verbonden onderneming, een andere taak, mandaat of opdracht te aanvaarden, die van aard zou zijn de onafhankelijke uitoefening van zijn opdracht in het gedrang te brengen.",
+      "score": 0.6482,
+      "text": "[Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants → Uitvoering van de opdrachten]\n\nArt. 15. Het is de externe accountant verboden in een onderneming waar hij een opdracht uitvoert, of in een daarmee verbonden onderneming, een andere taak, mandaat of opdracht te aanvaarden, die van aard zou zijn de onafhankelijke uitoefening van zijn opdracht in het gedrang te brengen."
+    },
+    {
+      "chunk_id": "ITAA-norm-opdrachtbrief__sec_5-moment-van-de-ondertekening",
+      "chunk_sha": "42ae577e3e5373b0",
+      "bron": "ITAA-norm-opdrachtbrief",
+      "bron_rol": "norm",
+      "sectie": "5. Moment van de ondertekening",
+      "score": 0.6476,
+      "text": "[Norm — ITAA-norm-opdrachtbrief]\n\n5. Moment van de ondertekening\n\nDe wet vereist dat de beroepsbeoefenaar voorafgaandelijk aan de uitvoering van iedere opdracht, in\noverleg met zijn cliënt, een opdrachtbrief opmaakt. In de praktijk blijkt de voorafgaandelijke\nondertekening van de opdrachtbrief niet altijd even evident (bijvoorbeeld indien er dringend prestaties\nmoeten verricht worden ter vrijwaring van de rechten van de cliënt).\n\nDegelijke situatie mag niet toe te rekenen zijn aan de beroepsbeoefenaar zelf die dit naar alle\nredelijkheid zal moeten kunnen verantwoorden bij een eventueel deontologisch onderzoek.\n\nIn ieder geval is het dan aangewezen om in de opdrachtbrief te voorzien dat deze retroactief van\ntoepassing is op deze eerder uitgevoerde prestaties.\n\nUitvoering van de opdrachtbrief\n1. De hoedanigheid van de vertegenwoordiger – natuurlijk persoon\nDe vertegenwoordiger-natuurlijke persoon staat in voor de uitvoering van de opdracht in naam en voor\nrekening van de rechtspersoon. Voor deze vertegenwoordiger gelden dezelfde voorwaarden en\ndezelfde tuchtrechtelijke aansprakelijkheid als wanneer hij die opdracht in eigen naam en voor eigen\nrekening zou vervullen” 7.\n\nHieruit volgt dat de vertegenwoordiger-natuurlijke persoon niet alleen beroepsbeoefenaar moet zijn,\nmaar ook de hoedanigheid moet bezitten die vereist is voor de uitvoering van de opdracht. Zo kunnen\nenkel personen met de hoedanigheid van gecertificeerd accountant de opdrachten vermeld in artikel 3,\n6° tot en met 8° van de wet uitvoeren."
+    },
+    {
+      "chunk_id": "KB-1998-plichtenleer__art_13",
+      "chunk_sha": "e9dbe63cf9509bff",
+      "bron": "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants",
+      "bron_rol": "wettekst",
+      "sectie": "Art. 13. § 1. De externe accountant mag geen controleopdracht over de jaarrekening of andere boekhoudkundige bescheiden van een onderneming aanvaarden wanneer hij, hetzij de functie van bestuurder of zaakvoerder, hetzij een verantwoordelijkheid in de leiding met een belangrijke invloed op de boekhouddienst in de onderneming of in een verbonden onderneming uitoefent of minder dan twee jaar geleden heeft uitgeoefend. De verbodsbepaling geldt eveneens voor de vennootschap van accountants waarvan hij deel uitmaakt en voor de vennoten van dergelijke vennootschap. Een medewerker van de externe accountant of van de vennootschap van accountants, die zich in een dergelijke positie zou bevinden, mag niet bij de controlewerkzaamheden betrokken worden.",
+      "score": 0.6446,
+      "text": "[Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants → Onafhankelijkheid]\n\nArt. 13. § 1. De externe accountant mag geen controleopdracht over de jaarrekening of andere boekhoudkundige bescheiden van een onderneming aanvaarden wanneer hij, hetzij de functie van bestuurder of zaakvoerder, hetzij een verantwoordelijkheid in de leiding met een belangrijke invloed op de boekhouddienst in de onderneming of in een verbonden onderneming uitoefent of minder dan twee jaar geleden heeft uitgeoefend. De verbodsbepaling geldt eveneens voor de vennootschap van accountants waarvan hij deel uitmaakt en voor de vennoten van dergelijke vennootschap. Een medewerker van de externe accountant of van de vennootschap van accountants, die zich in een dergelijke positie zou bevinden, mag niet bij de controlewerkzaamheden betrokken worden.\n\n§ 2. De externe accountant, belast met de controle op de jaarrekening of andere boekhoudkundige bescheiden van de onderneming, mag geen andere functie, mandaat of opdracht aanvaarden die hem ertoe zouden brengen zich in te laten met het beheer of de onderneming te vertegenwoordigen in welke hoedanigheid dan ook, met uitzondering van de vertegenwoordiging van deze in fiscale zaken. Deze regel is van toepassing op zijn vaste medewerkers en op zijn stagiairs.\n § 3. Wanneer de personen met wie de externe accountant een overeenkomst van vereniging of van beroepsmatige samenwerking heeft afgesloten een functie, mandaat of opdracht van welke aard ook uitoefenen waarvan het voorwerp gebeurlijk door de externe accountant moet worden gecontroleerd in het kader van zijn controleopdracht, dan zal hij nagaan of de aard en de omvang van die diensten zijn eigen onafhankelijkheid niet in het gedrang brengen. De bepaling doelt ook op iedere activiteit van het voeren van een boekhouding, dit wil zeggen de boekhoudkundige verrichtingen die gaan tot het opstellen van de rekeningenbalans na inventaris."
+    }
+  ]
+}

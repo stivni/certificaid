@@ -1,0 +1,42 @@
+{
+  "id": "itaa-normen-ic",
+  "naam": "ITAA-normen en interne controle",
+  "node_type": "synthese",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.7.XII.C",
+    "1.7.XII.G",
+    "1.7.XII"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T11:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.XII.C",
+    "dekt_ook_anchors": [
+      "1.7.XII.G",
+      "1.7.XII"
+    ],
+    "reviewed_by": null,
+    "inputs": [
+      {
+        "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
+        "sha256": null,
+        "version": "rag-v1"
+      },
+      {
+        "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3",
+        "sha256": null,
+        "version": "rag-v1"
+      }
+    ],
+    "note": "Synthese-record: _provenance.inputs sloeg eerder onderaan; nu correct gevuld op record-niveau."
+  },
+  "gebaseerd_op_concepten": [
+    "itaa-kmo-controlenorm",
+    "itaa-algemene-controlenorm",
+    "samenstellingsopdracht-isrs4410"
+  ],
+  "vergelijkingstabel": "| ITAA-norm | Domein | IC-aspect |\n|---|---|---|\n| Algemene controlenorm | Wettelijke + contractuele audit (algemeen) | Auditor moet IC begrijpen + waar zinvol op steunen |\n| KMO-controlenorm | Audit bij KMO's | Specifieke IC-aanpassingen voor KMO-context, lichtere documentatie |\n| Samenstellingsopdracht (ISRS 4410) | Geen audit, wel hulp bij jaarrekening | Geen IC-toetsing maar wel awareness van zwakke IC |\n| Norm intern kwaliteitsmanagement | Kantoor van de accountant zelf | IC voor het accountantskantoor |\n| Norm fusie/splitsing | Specifieke opdrachten WVV | IC-controle bij waardering + ruilverhouding |\n| AWW (anti-witwassen) reglement | Witwasvoorkoming | IC op cliëntenidentificatie + monitoring |\n| Norm permanente vorming | Beroepsuitoefening | Update kennis IC + audit |",
+  "voorbeeld_inline": "Bij Yperse Werkplaats BV doet Sofie Janssens (commissaris) de wettelijke controle volgens ITAA-norm-kmo-controlenorm. §96-§98 sturen haar aanpak: ze moet IC begrijpen, het IC-risico inschatten en — als ze op IC wil steunen — toetsen uitvoeren. Voor een samenstellingsopdracht (geen controle) gelden andere normen — geen IC-toetsing maar wel besef van risico's."
+}

@@ -1,0 +1,138 @@
+{
+  "id": "richtlijn-2013-34-eu",
+  "naam": "Richtlijn 2013/34/EU — Europese jaarrekeningenrichtlijn",
+  "node_type": "regel",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.5.I", "1.5.taak.1"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.5.I",
+    "dekt_ook_anchors": ["1.5.taak.1"],
+    "reviewed_by": null
+  },
+  "main_rule": {
+    "text": "Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 is het **Europese basiskader** voor de jaarlijkse financiële overzichten, geconsolideerde overzichten en aanverwante verslagen van bepaalde ondernemingsvormen. Zij vervangt de oude Vierde Richtlijn (78/660/EEG) en Zevende Richtlijn (83/349/EEG) en is in Belgisch recht omgezet door het Koninklijk Besluit (KB) van 18 december 2015. Deze richtlijn schrijft voor wat er minstens in de jaarrekening moet staan, welke algemene beginselen gelden (continuïteitsbeginsel, voorzichtigheidsbeginsel, consistentie, toerekening) en op welke punten de lidstaten mogen afwijken. Voor stagiair Sofie Janssens bij Wolters & Partners CVBA: deze richtlijn is de Europese onderlegger van het Belgische jaarrekeningenrecht in het Wetboek van vennootschappen en verenigingen (WVV) en het bijhorende KB WVV.",
+    "confidence": "grounded",
+    "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 1, 4, 6"},
+    "references": [
+      {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 1 (toepassingsgebied)"},
+      {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 4 (algemene bepalingen + getrouw beeld)"},
+      {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 6 (algemene beginselen voor financiële verslaglegging)"},
+      {"type": "kb", "short": "KB 18 december 2015 (omzetting in Belgisch recht)"}
+    ],
+    "_provenance": {"inputs": [
+      {"id": "Richtlijn-2013-34-EU__art_1", "sha256": null, "version": "rag-v1"},
+      {"id": "Richtlijn-2013-34-EU__art_4", "sha256": null, "version": "rag-v1"},
+      {"id": "Richtlijn-2013-34-EU__art_6", "sha256": null, "version": "rag-v1"},
+      {"id": "CBN-2017-08-cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model__sec_inleiding", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Rotex Roeselare NV (grote NV) maakt jaarrekening op volgens het volledig schema in KB WVV. Dat schema is de Belgische omzetting van Richtlijn 2013/34/EU: balans + winst-en-verliesrekening + toelichting (art. 4 lid 1), opgesteld volgens continuïteits-, voorzichtigheids- en toerekeningsbeginsel (art. 6).",
+  "bouwstenen": [
+    {
+      "titel": "Minimuminhoud jaarrekening",
+      "wat": "Elke jaarrekening bevat ten minste **drie onderdelen**: balans, winst-en-verliesrekening en toelichting. Lidstaten mogen voor middelgrote en grote ondernemingen méér eisen — zoals een kasstroomoverzicht of mutatieoverzicht van het eigen vermogen.",
+      "waarom": "Drie onderdelen geven samen het volledige beeld: balans (positie op een moment), winst-en-verlies (prestatie over een periode), toelichting (uitleg bij de cijfers). Eén ervan weglaten breekt het systeem.",
+      "voorbeeld_inline": "Meubelzaak Mertens BV (kleine BV) volstaat met balans + winst-en-verliesrekening + toelichting volgens microschema. Rotex Roeselare NV (grote NV) krijgt daarbovenop de verplichting tot kasstroomoverzicht en bestuursverslag.",
+      "grondslag": "Richtlijn 2013/34/EU art. 4 lid 1",
+      "confidence": "grounded",
+      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 4 lid 1"},
+      "_provenance": {"inputs": [{"id": "Richtlijn-2013-34-EU__art_4", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Getrouw beeld — overrulet specifieke regels",
+      "wat": "De jaarrekening moet een **getrouw beeld** geven van activa, passiva, financiële positie en winst of verlies. Geeft de strikte toepassing van de richtlijn geen getrouw beeld, dan moet je extra informatie in de toelichting geven. In uitzonderlijke gevallen mag je zelfs van een richtlijnbepaling afwijken — met uitleg in de toelichting.",
+      "waarom": "Regels kunnen nooit elk feitenpatroon vangen. Het getrouw-beeld-beginsel werkt als veiligheidsklep: het inhoudelijke doel (gebruiker correct informeren) gaat boven de letterlijke regel.",
+      "voorbeeld_inline": "Rotex Roeselare NV verkoopt eind december een dochter; standaardpresentatie zou de transactie pas in het volgende boekjaar tonen. Voor een getrouw beeld neemt Rotex in de toelichting een gebeurtenis-na-balansdatum op met cijfermatige impact (€ 12.500.000 boekwaarde) — vereist door art. 4 lid 3.",
+      "grondslag": "Richtlijn 2013/34/EU art. 4 lid 3 en lid 4",
+      "confidence": "grounded",
+      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 4"},
+      "_provenance": {"inputs": [{"id": "Richtlijn-2013-34-EU__art_4", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Algemene boekhoudbeginselen (art. 6)",
+      "wat": "Tien beginselen voor opname en waardering: continuïteit, consistentie, voorzichtigheid (winsten alleen als gerealiseerd; verplichtingen wél; waardecorrecties altijd), toerekening, openingsbalans = eindbalans vorig jaar, individuele waardering per actief/passief, geen verrekening, substance over form, aanschaffings- of vervaardigingsprijs als waarderingsgrondslag.",
+      "waarom": "Deze tien beginselen zijn de **morele code** van de jaarrekening: ze maken cijfers vergelijkbaar tussen ondernemingen en boekjaren. Het Belgisch boekhoudrecht haalt zijn beginselen uit deze bron.",
+      "voorbeeld_inline": "Sofie Janssens (commissaris) controleert: heeft Rotex Roeselare NV haar voorraad gewaardeerd tegen aanschaffingsprijs (beginsel i) en is geen tussentijdse winst geboekt op nog niet verkochte voorraad (beginsel c-i)? Beide zijn art. 6-vereisten.",
+      "grondslag": "Richtlijn 2013/34/EU art. 6 lid 1",
+      "confidence": "grounded",
+      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 6"},
+      "_provenance": {"inputs": [{"id": "Richtlijn-2013-34-EU__art_6", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Vrijstelling consolidatie kleine groepen",
+      "wat": "Kleine groepen zijn **vrijgesteld** van de verplichting om een geconsolideerde jaarrekening en geconsolideerd bestuursverslag op te stellen. Uitzondering: zodra één groepsonderneming een 'organisatie van openbaar belang' is (typisch beursgenoteerd of bank/verzekeraar), valt de vrijstelling weg. Lidstaten *kunnen* die vrijstelling ook uitbreiden naar middelgrote groepen.",
+      "waarom": "Consolidatie kost veel werk en is voor kleine groepen disproportioneel zwaar — gebruikers van die kleine cijfers (typisch banken, leveranciers) krijgen voldoende beeld via de enkelvoudige cijfers. Bij beursgenoteerde ondernemingen weegt het publiek belang zwaarder en valt de vrijstelling weg.",
+      "voorbeeld_inline": "Aurelia Holding NV + Brugse Brouwerij BV vormen samen een kleine groep (omzet < € 6.000.000, balanstotaal < € 3.000.000). Vrijgesteld van consolidatie. Zou Aurelia Holding beursgenoteerd zijn (zoals Zelena Bio NV), dan vervalt de vrijstelling en is consolidatie verplicht.",
+      "grondslag": "Richtlijn 2013/34/EU art. 23 lid 1",
+      "confidence": "grounded",
+      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 23 lid 1"},
+      "_provenance": {"inputs": [{"id": "Richtlijn-2013-34-EU__art_23__sub_lid1-lid9_part1", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Toelichting bij financiële overzichten",
+      "wat": "Naast de cijfers vraagt de richtlijn een toelichting met onder meer: gehanteerde grondslagen voor financiële verslaglegging, herwaarderingsreserves (indien van toepassing), reële-waardeposten met hypothesen, en kwantitatieve uitsplitsing per categorie financiële instrumenten. Inhoud schaalt met de grootte van de onderneming.",
+      "waarom": "Cijfers alleen zeggen niets — dezelfde € 250.000 omzet kan totaal verschillend tot stand komen. De toelichting geeft de context die de cijfers leesbaar maakt.",
+      "voorbeeld_inline": "Rotex Roeselare NV vermeldt in haar toelichting dat ze haar materiële vaste activa volgens het kostprijsmodel waardeert (geen herwaardering) en dat haar valutatermijncontracten tegen reële waarde geboekt zijn met € 125.000 niet-gerealiseerde winst (art. 16, lid 1, c)).",
+      "grondslag": "Richtlijn 2013/34/EU art. 15, art. 16",
+      "confidence": "grounded",
+      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 15-16"},
+      "_provenance": {"inputs": [{"id": "Richtlijn-2013-34-EU__art_15", "sha256": null, "version": "rag-v1"}, {"id": "Richtlijn-2013-34-EU__art_16", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Relatie tot Belgisch recht",
+      "betekenis": "Richtlijn 2013/34/EU is **niet rechtstreeks van toepassing** op Belgische ondernemingen. Het Belgisch recht heeft de richtlijn omgezet in het Wetboek van vennootschappen en verenigingen (WVV) en het KB WVV van 29 april 2019. Stagiairs werken in de praktijk met het KB WVV; de richtlijn is enkel relevant om de EU-oorsprong van een regel te begrijpen of voor interpretatievraagstukken.",
+      "herkenningspunt": "In CBN-adviezen wordt vaak verwezen naar 'de richtlijn' of 'Richtlijn 2013/34' wanneer een Belgische regel teruggaat op een EU-verplichting.",
+      "confidence": "grounded",
+      "source": {"type": "advies", "short": "CBN 2017/08 — omzetting Richtlijn 2013/34/EU"},
+      "_provenance": {"inputs": [{"id": "CBN-2017-08-cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "aspect": "Twee EU-jaarrekeningenkaders naast elkaar",
+      "betekenis": "Een beursgenoteerde groep zoals Zelena Bio NV valt voor haar **geconsolideerde** jaarrekening verplicht onder IFRS (Verordening 1606/2002). Haar **enkelvoudige** jaarrekening volgt nog steeds Belgisch GAAP (afgeleid van Richtlijn 2013/34/EU). Een grote niet-beursgenoteerde NV zoals Rotex Roeselare volgt Belgisch GAAP voor beide niveaus.",
+      "confidence": "grounded",
+      "source": {"type": "verordening", "short": "EU-IFRS-verordening 1606/2002 art. 4 + Richtlijn 2013/34/EU"},
+      "_provenance": {"inputs": [{"id": "EU-IFRS-verordening-1606-2002__art_4", "sha256": null, "version": "rag-v1"}, {"id": "Richtlijn-2013-34-EU__art_4", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "ifrs-verordening-1606-2002",
+      "verschil": "Richtlijn 2013/34/EU regelt het **basiskader** voor alle EU-ondernemingen (omgezet in nationale wet); Verordening 1606/2002 verplicht **uitsluitend beursgenoteerde groepen** om hun geconsolideerde jaarrekening volgens IFRS op te stellen (rechtstreeks van toepassing in alle lidstaten).",
+      "trigger": "Examenvraag: 'Welke EU-norm bepaalt of een onderneming IFRS moet toepassen?' → Verordening 1606/2002. 'Welke EU-norm bepaalt de minimuminhoud van een Belgische jaarrekening?' → Richtlijn 2013/34/EU.",
+      "_provenance": {"inputs": [{"id": "EU-IFRS-verordening-1606-2002__art_4", "sha256": null, "version": "rag-v1"}, {"id": "Richtlijn-2013-34-EU__art_4", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "De richtlijn is GEEN rechtstreekse rechtsregel voor Belgische ondernemingen. Niet citeren als bron in een audit-dossier of jaarrekeningnoot — gebruik altijd de Belgische omzettingstekst (WVV / KB WVV).",
+      "confidence": "inferred",
+      "source": {"type": "doctrine", "short": "Algemene Europese rechtsleer"},
+      "_provenance": {"inputs": [{"id": "CBN-2017-08-cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "text": "Richtlijn 2013/34/EU is geen IFRS. Wie 'Europese boekhoudregels' zegt, bedoelt typisch deze richtlijn (= BE-GAAP-basis), niét IFRS. IFRS is geregeld in een aparte verordening (1606/2002).",
+      "confidence": "grounded",
+      "source": {"type": "verordening", "short": "EU-IFRS-verordening 1606/2002 art. 1"},
+      "_provenance": {"inputs": [{"id": "EU-IFRS-verordening-1606-2002__art_1", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "boekhoudbeginselen-overzicht",
+      "redenering": "Art. 6 van de richtlijn bevat de tien algemene boekhoudbeginselen die de basis vormen voor het Belgische boekhoudrecht.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "jaarrekening",
+      "redenering": "De richtlijn bepaalt wat een jaarrekening minstens moet bevatten en hoe ze opgesteld wordt.",
+      "confidence": "grounded"
+    }
+  ]
+}

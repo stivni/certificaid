@@ -1,0 +1,41 @@
+{
+  "id": "bijzondere-verslagen-overzicht",
+  "naam": "Bijzondere verslagen — overzicht",
+  "node_type": "synthese",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.7.taak.1",
+    "1.7.XIII"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T11:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.taak.1",
+    "dekt_ook_anchors": [
+      "1.7.XIII"
+    ],
+    "reviewed_by": null,
+    "inputs": [
+      {
+        "id": "ITAA-norm-fusie-splitsing__sec_2-werkprogramma",
+        "sha256": null,
+        "version": "rag-v1"
+      },
+      {
+        "id": "ITAA-norm-algemene-controlenorm__sec_1-inleiding",
+        "sha256": null,
+        "version": "rag-v1"
+      }
+    ],
+    "note": "Synthese-record: _provenance.inputs sloeg eerder onderaan; nu correct gevuld op record-niveau."
+  },
+  "gebaseerd_op_concepten": [
+    "wettelijke-controleopdracht-commissaris",
+    "contractuele-controleopdracht",
+    "samenstellingsopdracht-isrs4410"
+  ],
+  "vergelijkingstabel": "| Type verslag | Wettelijke grondslag | Doel | Voorbeeld |\n|---|---|---|---|\n| Commissarisverslag | WVV (jaarrekening grote NV's) | Wettelijke audit met redelijke zekerheid | Jaarverslag Rotex Roeselare NV |\n| Bijzonder verslag bestuursorgaan | WVV bij specifieke verrichtingen | Documentatie verantwoording bestuursorgaan | Bij inbreng in natura, fusie, ontbinding |\n| Inbreng-in-natura-verslag | WVV art. 5:7 (BV) / 7:7 (NV) | Verifieer waardering ingebrachte goederen | Inbreng van gebouw in nieuwe BV |\n| Fusie-/splitsingsverslag | WVV art. 12 + ITAA-norm-fusie-splitsing | Verifieer ruilverhouding | Fusie van twee dochterondernemingen |\n| Ontbinding-vereffening-verslag | WVV + ITAA-norm-ontbinding-vereffening | Vermogenssituatie bij vereffening | Verffabriek Veurne BV in vereffening |\n| Samenstellingsopdracht (ISRS 4410) | Contractueel | Hulp bij opmaak jaarrekening (geen zekerheid) | KMO zonder commissaris |\n| Contractuele controleopdracht | Contractueel | Audit op vrijwillige basis | Bank vraagt extra zekerheid bij KMO |\n| Beoordeling (beperkte zekerheid) | ISRE-norm | Lichtere review met beperkte zekerheid | Tussentijdse cijfers |",
+  "voorbeeld_inline": "Bij Yperse Werkplaats BV vraagt aandeelhouder een inbreng in natura van een productiehal (waarde € 850.000). Externe accountant van Xenon Expertise BV maakt het inbreng-in-natura-verslag volgens WVV art. 5:7: waardering verifiëren, methode beoordelen, conclusie afgeven. Geen audit van jaarrekening — wel specifieke verifierende opdracht.",
+  "beslisboom": "1. **Wettelijke verplichting?** → Welke wet/norm (WVV, ITAA-norm).\n2. **Welk niveau zekerheid?** → Redelijke (audit), beperkte (beoordeling), geen (samenstellingsopdracht).\n3. **Eénmalig of jaarlijks?** → Eenmalig (juridische verrichting) of cyclisch (commissaris).\n4. **Welk verslagmodel?** → ITAA-norm bevat verslagmodellen per type."
+}

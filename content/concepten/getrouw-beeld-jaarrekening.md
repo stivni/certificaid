@@ -5,24 +5,28 @@ tags:
 - beginsel
 - po-1-2
 - po-1-3
+- po-1-9
 linked_anchors:
+- 1.2.IV
+- 1.2.V
+- 1.2.V.A
+- 1.2.taak.1
 - 1.3.I.A
 - 1.3.II.A
 - 1.3.II.B
 - 1.3.taak.1
-- 1.2.V.A
-- 1.2.V
-- 1.2.IV
-- 1.2.taak.1
+- 1.9.I
+- 1.9.II
 programmaonderdelen:
 - '1.2'
 - '1.3'
+- '1.9'
 confidence: grounded
 node_type: beginsel
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/getrouw-beeld-jaarrekening.json
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Getrouw beeld van de jaarrekening ⚖️
 

@@ -1,0 +1,168 @@
+id: bepalen-behoefte-aan-bedrijfskapitaal
+titel: Bepalen van de behoefte aan bedrijfskapitaal en de nettokas-positie
+status: voorgesteld
+schema_version: "1.1"
+programmaonderdelen:
+- 1.9
+voortkomend_uit:
+  taken:
+  - 1.9.taak.1
+  kenniselementen:
+  - 1.9.IV
+  - 1.9.IV.D
+  - 1.9.V.D
+gebaseerd_op_concepten:
+- behoefte-aan-bedrijfskapitaal
+- werkkapitaal
+- analytische-balans
+- liquiditeitsratio
+procedure_grondslag:
+  wettelijk_pct: 15
+  praktijk_pct: 85
+  motivering: Geen wettelijke definitie van BBK; volledig vakdoctrine (Ooghe-Van Wymeersch, Vereeck). De balansrubrieken die als input dienen (voorraden klasse 3, vorderingen klasse 40, schulden klasse 44) zijn wel KB WVV-verankerd. Vereist mens-review wegens praktijk_pct > 70%.
+stappen:
+- nr: 1
+  titel: Identificeren van de exploitatiecyclus-rubrieken
+  wat: Selecteer uit de analytische balans de drie operationele rubrieken die de BBK vormen — voorraden, handelsvorderingen en handelsschulden.
+  waarom: De BBK meet enkel het cyclus-gerelateerde werkkapitaal. Andere vorderingen en schulden (financieel, fiscaal) horen er niet bij — anders ontstaat verwarring met werkkapitaal in enge zin.
+  input:
+  - artefact: Analytische balans (volgens [[analytische-balans]])
+    veld: Rubrieken 3 (voorraden), 40 (handelsvorderingen ≤ 1 jaar), 44 (handelsschulden)
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Drie BBK-bouwstenen
+    veld: voorraden, handelsvorderingen, handelsschulden — telkens één bedrag
+    type: boekhoudkundig-bedrag
+  hoe: |
+    1. Open de analytische balans (zie [[analytische-balans]] §functioneel-economische-rubrieken).
+    2. Lees rubriek 3 (voorraden + bestellingen in uitvoering) — opletten dat ontvangen vooruitbetalingen geen voorraad-inkomende-vooruit zijn die geneutraliseerd moeten worden.
+    3. Lees rubriek 40 (handelsvorderingen ≤ 1 jaar). Exclusief: 41 (overige vorderingen), 50 (geldbeleggingen).
+    4. Lees rubriek 44 (handelsschulden). Exclusief: financiële schulden (43), fiscale schulden (45-46), salarissen (45).
+  grondslag: "[[behoefte-aan-bedrijfskapitaal]] §formule, [[analytische-balans]] §functioneel-economische-rubrieken"
+- nr: 2
+  titel: Berekenen van de behoefte aan bedrijfskapitaal
+  wat: Bereken BBK = voorraden + handelsvorderingen − handelsschulden.
+  waarom: Het verschil toont hoeveel geld de exploitatiecyclus permanent vastzet — voor groeiende ondernemingen groeit dit cijfer mee met de omzet.
+  input:
+  - artefact: Drie BBK-bouwstenen (stap 1)
+    veld: Bedragen voorraden + vorderingen + schulden
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: BBK in €
+    veld: Eén bedrag op balansdatum + evolutie over 3 boekjaren
+    type: nieuwe-balanspost
+  hoe: |
+    1. Pas de formule toe uit [[behoefte-aan-bedrijfskapitaal]] §formule: BBK = voorraden + handelsvorderingen − handelsschulden.
+    2. Bereken op datum N, N-1 en N-2 voor evolutie.
+    3. Plaats de BBK-evolutie naast de omzet-evolutie: BBK/omzet-ratio (vaak 15-30% in industrie, lager in dienstverlening).
+    4. Bereken Δ BBK = BBK(N) − BBK(N-1) als input voor cashflow-analyse (zie [[kasstroomoverzicht-drie-segmenten]] §operationeel-cfo).
+  voorbeeld:
+    scenario: "Rotex Roeselare NV — BBK berekening 20X3."
+    substappen:
+    - nr: 1
+      titel: Bouwstenen
+      type: balans
+      data: |
+        | Post | Bedrag 20X3 | Bedrag 20X2 |
+        |---|---:|---:|
+        | Voorraden (3) | € 6.000.000 | € 5.500.000 |
+        | Handelsvorderingen (40) | € 8.000.000 | € 7.200.000 |
+        | Handelsschulden (44) | € 4.500.000 | € 4.800.000 |
+    - nr: 2
+      titel: Berekening
+      type: berekening
+      data: |
+        BBK 20X3 = € 6.000.000 + € 8.000.000 − € 4.500.000 = **€ 9.500.000**
+        BBK 20X2 = € 5.500.000 + € 7.200.000 − € 4.800.000 = € 7.900.000
+        Δ BBK = + € 1.600.000 (BBK groeide)
+        BBK/omzet 20X3 = € 9.500.000 / € 50.000.000 = 19% (consistent met industriegemiddelde)
+  grondslag: "[[behoefte-aan-bedrijfskapitaal]] §formule"
+- nr: 3
+  titel: Berekenen van het werkkapitaal als financieringsbron
+  wat: "Bereken werkkapitaal = permanent kapitaal − vaste activa (of equivalent: vlottende activa − kortlopende schulden)."
+  waarom: De BBK moet worden gefinancierd door iets — als werkkapitaal niet volstaat, moet de onderneming bankkrediet op KT aanwenden, met hogere rentekost als gevolg.
+  input:
+  - artefact: Analytische balans
+    veld: Permanent kapitaal (10/14 + 16 + 17), vaste activa (20-28)
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Werkkapitaal in €
+    veld: Eén bedrag op balansdatum
+    type: boekhoudkundig-bedrag
+  hoe: |
+    1. Bereken werkkapitaal volgens [[werkkapitaal]] §absolute-tegenhanger op twee manieren:
+       - Methode permanent kapitaal: (rubrieken 10/14 + 16 + 17) − rubrieken 20-28.
+       - Methode vlottende activa: vlottende activa − kortlopende schulden.
+    2. Beide methodes moeten identiek zijn (controle op consistente herwerking).
+    3. Bereken op N, N-1, N-2 voor evolutie-analyse.
+  voorbeeld:
+    scenario: "Rotex Roeselare NV — werkkapitaal 20X3."
+    substappen:
+    - nr: 1
+      titel: Methode permanent kapitaal
+      type: berekening
+      data: |
+        Permanent kapitaal = € 12.000.000 (EV) + € 9.000.000 (VV > 1 jaar) = € 21.000.000
+        Vaste activa = € 13.000.000
+        Werkkapitaal = € 21.000.000 − € 13.000.000 = **€ 8.000.000**
+  grondslag: "[[werkkapitaal]] §absolute-tegenhanger"
+- nr: 4
+  titel: Confronteren van werkkapitaal met BBK — berekenen van de nettokas
+  wat: Bereken nettokas = werkkapitaal − BBK. Positief = comfortabele kas; negatief = onderneming financiert exploitatiecyclus met kort bankkrediet.
+  waarom: Dit is de diagnose-stap. Een winstgevende onderneming met groeiende omzet kan structureel in een nettokas-tekort komen — paradoxaal liquiditeitsprobleem ondanks rentabiliteit. Op bekwaamheid-niveau wordt verwacht dat de student deze paradox detecteert.
+  input:
+  - artefact: BBK (stap 2) + werkkapitaal (stap 3)
+    veld: Twee bedragen
+    type: boekhoudkundig-bedrag
+  output:
+  - artefact: Nettokas in € + diagnose
+    veld: Eén bedrag + interpretatie
+    type: conclusie
+  hoe: |
+    1. Pas de formule toe uit [[behoefte-aan-bedrijfskapitaal]] §nettokas: nettokas = werkkapitaal − BBK.
+    2. Interpretatie:
+       - Positieve nettokas + groeiende omzet = onderneming bouwt financiële reserves op.
+       - Negatieve nettokas = onderneming gebruikt RC-bankkrediet voor exploitatiecyclus → check kosten en duurzaamheid.
+       - Sterk dalende nettokas zonder omzetdaling = efficiëntie-verlies (langere klant-betaaltermijnen, voorraad-opbouw).
+    3. Combineer met current ratio en quick ratio voor compleet liquiditeitsbeeld (zie [[liquiditeitsratio]]).
+  voorbeeld:
+    scenario: "Rotex Roeselare NV — nettokas 20X3."
+    substappen:
+    - nr: 1
+      titel: Berekening
+      type: berekening
+      data: |
+        Nettokas = € 8.000.000 − € 9.500.000 = **− € 1.500.000**
+        → Klein kastekort: € 1,5M wordt gedekt met kort bankkrediet (rubriek 43).
+    - nr: 2
+      titel: Diagnose
+      type: opmerking
+      data: |
+        Rotex heeft een licht negatieve nettokas in 20X3 — niet alarmerend gezien:
+        - Sterke solvabiliteit 40% (zie [[solvabiliteitsratio]]).
+        - BBK/omzet stabiel op 19% (geen efficiëntie-verlies).
+        - Banklening op LT (rubriek 17) heeft ruimte.
+        Aanbeveling: monitor BBK/omzet bij verdere omzetgroei — bij stijging boven 22% wordt nettokas-tekort structureel.
+  valkuilen:
+  - advies: Werkkapitaal en BBK zijn TWEE verschillende concepten — werkkapitaal is de financieringsbron, BBK de behoefte.
+    vaak_fout: BBK en werkkapitaal als synoniem behandelen, of beide via dezelfde formule berekenen.
+    grondslag: "[[behoefte-aan-bedrijfskapitaal]] §vergelijkingsparen, [[werkkapitaal]] §positief-werkkapitaal"
+  - advies: Groeiende BBK is niet automatisch slecht — pas problematisch als BBK sneller groeit dan omzet (efficiëntie-verlies).
+    vaak_fout: Elke stijging van BBK als alarm-signaal interpreteren.
+    grondslag: "[[behoefte-aan-bedrijfskapitaal]] §valkuilen"
+  grondslag: "[[behoefte-aan-bedrijfskapitaal]] §nettokas, [[werkkapitaal]] §positief-werkkapitaal"
+voorbeelden:
+- situatie: "Meubelzaak Mertens BV: werkkapitaal € 100.000 positief, BBK € 350.000. De zaakvoerder gebruikt structureel een rekening-courant overschrijding van € 250.000."
+  conclusie: "Sofie Janssens detecteert dat de RC-overschrijding € 250.000 structureel werkkapitaal financiert — dat is duurder (intrestvoet 8-12%) dan een vaste LT-krediet (intrestvoet 3-5%). Voorstel: omzetting in investeringskrediet of factoring van vorderingen (versnelt inning, verlaagt BBK). Het probleem is geen winst-probleem maar een structuur-probleem."
+  grondslag: "[[behoefte-aan-bedrijfskapitaal]] §nettokas, [[werkkapitaal]] §positief-werkkapitaal"
+  redenering: Korte-termijn-overschrijdingen zijn duur en wegen op rentabiliteit. Structureel BBK-tekort hoort gedekt met langere financiering of via cyclus-verkorting (factoring, snellere klant-inning, leveranciers-krediet onderhandelen).
+- situatie: "Verffabriek Veurne BV in vereffening: voorraden € 800.000 (niet-verkoopbaar), handelsvorderingen € 1.200.000 (40% > 90 dagen oud), handelsschulden € 2.500.000."
+  conclusie: "BBK = € 800.000 + € 1.200.000 − € 2.500.000 = − € 500.000. Negatieve BBK betekent dat leveranciers de onderneming financieren — typisch teken van late betaling aan leveranciers, geen efficiëntiewinst. Sofie meldt dit als signaal van manifest falen: BBK ombuigt naar negatief omdat leveranciers niet meer betaald worden."
+  grondslag: "[[behoefte-aan-bedrijfskapitaal]] §nettokas, [[falen-van-de-onderneming]] §drie-stadia"
+  redenering: Een negatieve BBK is uitzonderlijk en wijst meestal op betalingsproblemen aan leveranciers — geen efficiëntie maar distress. Combineer met DSO (dagen vorderingen) en DPO (dagen schulden) voor bevestiging.
+_provenance:
+  voorgesteld_door: competentie-destillatie-v2-po-1.9-run-2026-05-17T03:00Z
+  voorgesteld_op: '2026-05-17T03:00:00Z'
+  gecureerd_door: null
+  gecureerd_op: null
+  flag_mens_review: "praktijk_pct = 85% (> 70%). BBK-concept zelf is volledig vakdoctrine. Belgisch handboek (Ooghe-Van Wymeersch) zou de hoofdformule en de BBK/omzet-benchmarks grounden. Mens-review voor: (1) bevestiging BBK/omzet-percentages per NACE-sector; (2) precisie van rubrieken-cast (vooral handelsvorderingen vs overige vorderingen)."

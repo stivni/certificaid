@@ -1,0 +1,104 @@
+{
+  "id": "abc-methode",
+  "naam": "ABC-methode (Activity Based Costing)",
+  "node_type": "methode",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.III.F"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.III.F",
+    "dekt_ook_anchors": [],
+    "reviewed_by": null,
+    "bron_gap": "ABC-methode is management-accounting-doctrine (Cooper-Kaplan jaren '80). Belgisch boekhoudrecht definieert het niet rechtstreeks. Stappen + cost-driver-concept zijn vakdoctrine, geen wettelijke basis."
+  },
+  "doel": {
+    "text": "Activity Based Costing (ABC) verfijnt de kostentoewijzing door indirecte kosten niet via één algemene sleutel maar via meerdere activiteiten en cost drivers naar producten te verdelen. ABC herkent dat verschillende indirecte kosten verschillende oorzaken hebben (set-up versus productie-uren versus orderafhandeling) en wijst elke kost toe op basis van zijn eigen drijver. Resultaat: nauwkeuriger kostprijs, vooral voor producten met sterk verschillende complexiteit of seriegrootte.",
+    "confidence": "inferred-common-knowledge",
+    "source": {"type": "vakdoctrine", "short": "Cooper-Kaplan ABC-methode (management accounting) — bron-gap"},
+    "_provenance": {"inputs": []}
+  },
+  "bouwstenen": [
+    {
+      "titel": "Stap 1: identificeer activiteiten",
+      "wat": "Splits het bedrijfsproces op in activiteiten (set-up, kwaliteitscontrole, inkooporder, klantadvies, verzending). Een activiteit is een herhaalbare handeling met meetbare kost.",
+      "waarom": "Eén overhead-pool is te grof; activiteiten geven granulariteit.",
+      "voorbeeld_inline": "Yperse Werkplaats BV identificeert in Confectie 5 activiteiten: (1) machine omstellen, (2) kwaliteitscontrole tapijt, (3) verpakken, (4) klant-callcenter, (5) verzending.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "titel": "Stap 2: koppel kosten aan activiteiten",
+      "wat": "Verdeel de indirecte kosten over de activiteiten op basis van resource drivers (tijd, vloeroppervlakte, lonen). Elke activiteit krijgt een totale kost (cost pool).",
+      "waarom": "Bepaalt hoeveel elke activiteit kost om uit te voeren.",
+      "voorbeeld_inline": "Yperse Werkplaats BV: omstellen-activiteit kost € 180.000/jaar (loon 2 omstellers + machine-leegloop). Kwaliteitscontrole € 96.000/jaar (loon 2 kwaliteitscontroleurs).",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "titel": "Stap 3: bepaal cost driver per activiteit",
+      "wat": "Voor elke activiteit kies een drijver die de inzet veroorzaakt: aantal set-ups, aantal kwaliteitscontroles, aantal verzonden orders.",
+      "waarom": "Causaal verband tussen activiteit en kostendrager wordt zichtbaar.",
+      "voorbeeld_inline": "Yperse Werkplaats BV — cost drivers: omstellen → aantal omstellingen (jaar: 1.200); kwaliteitscontrole → aantal gecontroleerde tapijten (jaar: 20.000); verzending → aantal orders (jaar: 800).",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "titel": "Stap 4: bereken activity-rate",
+      "wat": "Cost pool per activiteit / totaal cost-driver-eenheden = kost per cost-driver-eenheid.",
+      "waarom": "Tarief om de activiteitenkost over kostendragers te verdelen.",
+      "voorbeeld_inline": "Yperse: omstellen-rate = € 180.000 / 1.200 = € 150 per omstelling. Kwaliteitscontrole-rate = € 96.000 / 20.000 = € 4,80 per tapijt. Verzending-rate = € 60.000 / 800 = € 75 per order.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "titel": "Stap 5: wijs toe aan kostendragers",
+      "wat": "Voor elke kostendrager: tel het verbruik per activiteit op (aantal omstellingen, controles, orders). Vermenigvuldig met activity-rate.",
+      "waarom": "Geeft per kostendrager een toegerekende overhead die zijn werkelijk verbruik weerspiegelt.",
+      "voorbeeld_inline": "Yperse: order grootwarenhuis (5.000 tapijten, 1 omstelling, 1 verzending) → overhead = € 150 (omstellen) + 5.000 × € 4,80 (controle) + € 75 (verzending) = € 24.225 → € 4,85/tapijt overhead. Order boetiek-keten (200 tapijten, 1 omstelling, 1 verzending) → € 150 + 200×4,80 + 75 = € 1.185 → € 5,93/tapijt. Kleine order draagt méér per stuk — wat klassieke sleutel verbergt.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Wanneer ABC nuttig is",
+      "betekenis": "ABC loont vooral bij (1) hoog aandeel indirecte kosten (> 30 % van totale kosten), (2) diverse productmix met verschillende seriegroottes, (3) producten of klanten met sterk verschillende complexiteit. Bij een homogene productlijn met dominante directe kosten levert ABC weinig extra inzicht maar wel extra administratielast.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "Verfijning, geen vervanging",
+      "betekenis": "ABC vervangt full costing niet conceptueel — het verfijnt de tweede stap (overhead-verdeling). De grootste meerwaarde zit in 'rare events' (omstellingen, complexe orders) die in traditionele sleutels onder de radar vallen.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "volledige-kostencalculatie",
+      "verschil": "Traditionele full costing: 1-2 verdeelsleutels per kostencentrum (typisch arbeidsuren of machine-uren). ABC: meerdere activiteiten per centrum, elk met eigen cost driver. ABC geeft accuratere kostprijs, vooral voor laag-volume-/hoog-complexiteit-producten die in klassieke aanpak ondergerapporteerd raken.",
+      "trigger": "Bij examen-vraag op kostprijs van klein order met veel omsteltijd: klassieke sleutel onderschat de overhead; ABC herstelt.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "ABC is duur in opzet en onderhoud. Per activiteit moeten metingen worden bijgehouden — vaak 50-100 activiteiten in middelgrote ondernemingen. Voor KMO's vaak overgedimensioneerd; eenvoudiger systeem met 5-10 cost drivers volstaat (Time-Driven ABC).",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "text": "ABC is geen wettelijke voorraadwaarderingsmethode in België — voor de jaarrekening blijft de wettelijke vervaardigingsprijs (CBN 132/7) gelden. ABC dient als interne informatie, niet voor voorraadwaardering in de balans (behalve indien resultaten dicht bij full costing liggen).",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "specialisatie-van", "target": "volledige-kostencalculatie", "redenering": "ABC verfijnt de overhead-verdeling van full costing.", "confidence": "inferred"},
+    {"type": "vereist-kennis-van", "target": "verdeelsleutel", "redenering": "Cost drivers zijn verfijnde verdeelsleutels.", "confidence": "inferred"},
+    {"type": "onderdeel-van", "target": "costing-methodes-vergelijking", "redenering": "Een van de hoofdmethodes.", "confidence": "inferred"}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "opvolging-verrichtingen-ic",
+  "naam": "Opvolging van verrichtingen",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.VIII.C", "1.7.VIII"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T11:40Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.VIII.C",
+    "dekt_ook_anchors": ["1.7.VIII"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Opvolging van verrichtingen is het systematisch nakijken of geboekte transacties echt hebben plaatsgevonden, juist zijn geregistreerd en in de juiste periode geboekt. Het is detectieve IC — fouten en fraude ontdekken na de feiten. Typische technieken: bank-grootboek-afstemming, debiteuren/crediteuren-bevestiging, voorraadtelling, cijferanalyses (trends, ratio's).",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Bij Yperse Werkplaats BV doet boekhouder Cindy elke maand: (1) bank ↔ grootboek-afstemming (saldo's gelijk?), (2) debiteurenlijst per leeftijd (welke vorderingen > 60 dagen?), (3) voorraad spot-check (10 willekeurige artikelen), (4) cijferanalyse omzet/marge per kostencentrum. Afwijkingen meldt ze aan CFO David.",
+  "edges": [
+    {"type": "onderdeel-van", "target": "monitoring-interne-controle", "redenering": "Opvolging van verrichtingen is praktische vorm van monitoring."},
+    {"type": "vergelijkt-met", "target": "cijferanalyses-audit", "redenering": "Cijferanalyses zijn één van de technieken voor opvolging."}
+  ]
+}

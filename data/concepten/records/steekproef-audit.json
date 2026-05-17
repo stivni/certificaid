@@ -1,0 +1,33 @@
+{
+  "id": "steekproef-audit",
+  "naam": "Steekproef bij een audit (audit sampling)",
+  "node_type": "methode",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.II.C"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.II.C",
+    "reviewed_by": null
+  },
+  "doel": {
+    "text": "Een steekproef bij een audit is het verrichten van controlewerkzaamheden op minder dan 100 % van de elementen binnen een relevante populatie, op zodanige wijze dat alle elementen geselecteerd kunnen worden. Het doel: een redelijke basis krijgen voor conclusies over de hele populatie zonder alles te testen.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1 (Steekproef)"},
+    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2", "sha256": null, "version": "rag-v1"}]}
+  },
+  "voorbeeld_inline": "Rotex Roeselare NV heeft 4.500 aankoopfacturen 2025. Sofie Janssens kan onmogelijk alle 4.500 testen. Zij selecteert een statistische steekproef van 60 facturen — gestratificeerd naar bedrag — en toetst per factuur of de IC-controles werden uitgevoerd. Steekproefrisico: 0 fouten in steekproef garandeert niet dat er 0 fouten in de populatie zitten.",
+  "in_praktijk": [
+    {
+      "aspect": "Steekproefrisico — twee soorten foutieve conclusies",
+      "betekenis": "(a) Conclude dat de IC effectief werkt of dat er geen materiële afwijking is, terwijl dit niet zo is — gevaarlijke fout, beïnvloedt effectiviteit van de audit en de kans op een verkeerd oordeel. (b) Conclude dat de IC niet werkt of dat er een afwijking is, terwijl dit niet zo is — minder gevaarlijk maar verhoogt audit-kost (extra werk om de eerste conclusie te corrigeren).",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1 (Steekproefrisico)"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "ontdekkingsrisico", "redenering": "Steekproefrisico is een component van ontdekkingsrisico."}
+  ]
+}

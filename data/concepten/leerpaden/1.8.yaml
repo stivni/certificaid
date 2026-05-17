@@ -1,0 +1,132 @@
+programmaonderdeel: "1.8"
+titel: "Analytische boekhouding en management accounting"
+status: voorgesteld
+schema_version: "1.0"
+hoofdstukken:
+  - type: oriëntatie
+    titel: "Waarom een tweede boekhouding? Van financieel verslag naar interne sturing"
+    rationale_hint: >-
+      Open vanuit het contrast tussen [[algemene-boekhouding]] (extern,
+      wettelijk verplicht, jaarrekening-gedreven) en [[analytische-boekhouding]]
+      (intern, vrij van vorm, beslissingsgericht). Verbind dit met de
+      [[doelstellingen-analytische-boekhouding]]: prijszetting, productmix,
+      make-or-buy, budgetopvolging, performance van een afdeling. Maak duidelijk
+      dat dezelfde uitgaande factuur in de algemene boekhouding één
+      kostenrekening voedt, maar in de analytische boekhouding via een
+      [[kostensoort]], een [[kostencentrum]] en een [[kostendrager]] in
+      verschillende richtingen wordt gesplitst. Eindig met de boodschap dat alle
+      volgende hoofdstukken één centrale vraag dienen: wat kost iets écht, en
+      waar wordt waarde gecreëerd of verspild?
+
+  - type: thematisch
+    titel: "Het analytisch rekeningenstelsel: bouwstenen en registratie-architectuur"
+    concepten:
+      - rekeningenstelsel-analytisch
+      - kostensoort
+      - kostencentrum
+      - kostendrager
+      - verdeelsleutel
+      - registratiesysteem-waarderingsneutraal
+      - registratiesysteem-eenvoudige-integratie
+      - registratiesysteem-proportionele-integratie
+      - budgetboekhouding
+
+  - type: competentie
+    competentie_id: opzetten-analytisch-rekeningenstelsel
+
+  - type: thematisch
+    titel: "Kostencomponenten: typologie naar gedrag, herkomst en toewijsbaarheid"
+    concepten:
+      - typologie-van-kosten
+      - directe-kosten
+      - indirecte-kosten
+      - vaste-kosten
+      - variabele-kosten
+      - materiaalkosten
+      - arbeidskosten
+      - overige-kosten
+
+  - type: competentie
+    competentie_id: bepalen-vervaardigingsprijs-kb-21-10-2018
+
+  - type: synthese
+    synthese_id: costing-methodes-vergelijking
+    rationale_hint: >-
+      Plaats deze synthese als kapstok tussen de wettelijke vervaardigingsprijs
+      en het management-accounting-luik. De student heeft net de
+      grounded basis (KB 21.10.2018 + CBN 132/7) leren toepassen; nu ziet hij
+      in één tabel hoe [[volledige-kostencalculatie]], [[direct-costing]],
+      [[werkelijke-kostencalculatie]] en [[abc-methode]] zich tot elkaar
+      verhouden — wélke kosten elke methode opneemt, voor welk doel ze geschikt
+      is en waarom de wettelijke voorraadwaardering een eigen plek behoudt.
+      Hierdoor wordt zichtbaar dat de volgende vier competenties geen
+      losse technieken zijn maar varianten op één keuze: hoe ver verdeel je
+      vaste en indirecte kosten door tot op de kostendrager?
+
+  - type: competentie
+    competentie_id: toepassen-volledige-kostencalculatie
+
+  - type: competentie
+    competentie_id: toepassen-direct-costing-en-contributiemarge
+
+  - type: competentie
+    competentie_id: uitvoeren-break-even-analyse
+
+  - type: competentie
+    competentie_id: toepassen-abc-methode-op-productlijn
+
+  - type: thematisch
+    titel: "Beslissingsrelevante kosten: marginaal, opportuniteit en sunk"
+    concepten:
+      - marginale-kostprijs
+      - opportuniteitskost
+      - sunk-cost
+      - gemiddelde-kostprijs
+      - kostprijs-per-eenheid
+
+  - type: competentie
+    competentie_id: uitvoeren-make-or-buy-beslissing
+
+  - type: synthese
+    synthese_id: budget-cyclus
+    rationale_hint: >-
+      Plaats deze synthese als overgang van het kost-luik naar het
+      budget-luik. De student heeft tot hier kosten leren berekenen en
+      beslissingen leren onderbouwen; nu volgt de vraag hoe een onderneming
+      die kosten en opbrengsten vooruit plant, opvolgt en bijstuurt. De
+      kapstok toont de cyclus [[budgetbeheer]] → [[budgetprocedure]] →
+      [[master-budget]] → realisatie → [[verschillenboekhouding]] →
+      bijsturing, en illustreert hoe [[statisch-budget]] en [[flexibel-budget]]
+      twee complementaire ijkpunten zijn. Hierdoor begrijpt de student dat
+      master-budget opstellen en budgetverschillen analyseren niet twee losse
+      vaardigheden zijn maar twee fasen van dezelfde cyclus.
+
+  - type: competentie
+    competentie_id: opstellen-master-budget
+
+  - type: competentie
+    competentie_id: berekenen-interpreteren-budgetverschillen
+
+  - type: oriëntatie
+    titel: "Grenzen van kostencalculatie en brug naar de financiële analyse"
+    rationale_hint: >-
+      Sluit het leerpad af met een reflectie op wat kostencalculatie en
+      budgetopvolging wél en niet kunnen. Verbind hier
+      [[verdeelsleutel]]-arbitrage (elke sleutel is een keuze, geen waarheid)
+      met de beperkingen van [[volledige-kostencalculatie]] (vaste kosten
+      doorduwen tot op de eenheid kan beslissingen vertekenen) en
+      [[abc-methode]] (verfijning kost ook geld). Roep
+      [[verschillenboekhouding]] terug: een verschil signaleert, maar
+      verklaart niet — context, marktomstandigheden en
+      niet-financiële indicatoren blijven nodig. Sluit af met de brug naar
+      PO 1.9: waar deze module intern, vooruit en sturing-gericht kijkt,
+      vertrekt PO 1.9 vanuit de externe jaarrekening om
+      ex-post-conclusies te trekken. Eindig met de boodschap dat
+      de stagiair beide blikken nodig heeft om als accountant écht te kunnen
+      adviseren.
+
+_provenance:
+  voorgesteld_door: "leerpad-propose-v1-po-1.8-2026-05-17T00:00Z"
+  voorgesteld_op: "2026-05-17T00:00:00+00:00"
+  gecureerd_door: null
+  gecureerd_op: null

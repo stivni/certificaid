@@ -1,0 +1,39 @@
+{
+  "id": "fouten-ic",
+  "naam": "Fouten in IC-context",
+  "node_type": "fenomeen",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.VI.A", "1.7.VI"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T10:08Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.VI.A",
+    "dekt_ook_anchors": ["1.7.VI"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Een fout is een onopzettelijke afwijking in de boekhouding, rapportering of bedrijfsvoering — door vergissing, onkunde, slordigheid of slecht ontworpen proces. Onderscheidt zich van fraude door het ontbreken van opzet. IC moet zoveel mogelijk fouten preventief vermijden (procedures, checks) en residuele fouten detecteren (afstemmingen, analyses).",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Bij Yperse Werkplaats BV boekt een nieuwe boekhouder een factuur van € 12.000 onder verkeerd kostencentrum (Spinnerij i.p.v. Weverij). Geen opzet — gewoon vergissing. IC-respons: maandelijkse review per kostencentrum door afdelingschef pikt afwijking op; correctie + verduidelijking in instructie.",
+  "in_praktijk": [
+    {
+      "aspect": "Typische foutsoorten",
+      "betekenis": "(1) Invoerfouten: verkeerd bedrag, verkeerde rekening, verkeerd kostencentrum. (2) Rekenfouten: optellingen, BTW-berekening. (3) Procesfouten: stap vergeten (bv. tegenboeking). (4) Interpretatiefouten: verkeerde toepassing van regels (bv. fiscale aftrek).",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "Preventie vs detectie",
+      "betekenis": "Preventie: automatische plausibility checks in ERP (bedrag binnen range), drempelwaardes met manuele review, vier-ogen-principe op kritische posten. Detectie: maandelijkse afstemming bank/grootboek, cijferanalyses (trend, ratio's), spotcheck-samples door supervisor.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "vergelijkt-met", "target": "fraude", "redenering": "Centrale examen-valkuil: fouten = onopzettelijk; fraude = opzettelijk."},
+    {"type": "onderdeel-van", "target": "fouten-en-fraude", "redenering": "Onderdeel van het synthese-overzicht."}
+  ]
+}

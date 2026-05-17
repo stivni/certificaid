@@ -1,0 +1,45 @@
+{
+  "id": "werkelijke-kostencalculatie",
+  "naam": "Werkelijke kostencalculatie (vastgestelde kosten)",
+  "node_type": "methode",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.III.A", "1.8.III.B", "1.8.III.C"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.III.A",
+    "dekt_ook_anchors": ["1.8.III.B", "1.8.III.C"],
+    "reviewed_by": null,
+    "bron_gap": "Vakdoctrine"
+  },
+  "doel": {
+    "text": "Werkelijke kostencalculatie (synoniem: post-calculatie, vastgestelde kostencalculatie) berekent de kostprijs op basis van de werkelijk geboekte kosten, achteraf bekend uit de boekhouding. Tegenpool van voorbepaalde kostencalculatie (standaardkosten). Vereist een afgesloten boekhoudperiode vóór de kostprijs definitief is.",
+    "confidence": "inferred-common-knowledge",
+    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
+    "_provenance": {"inputs": []}
+  },
+  "bouwstenen": [
+    {
+      "titel": "Volledige of gedeeltelijke werkelijke kostprijs",
+      "wat": "Werkelijke kostencalculatie kan zowel met full costing (volledige werkelijke kost) als met direct costing (alleen variabele werkelijke kost) gebeuren. Het label 'werkelijk' slaat op de tijdsdimensie (achteraf), niet op de scope (volledig vs. gedeeltelijk).",
+      "waarom": "Verduidelijkt dat 'volledige kostencalculatie' (anchor 1.8.III.A) en 'werkelijke kostencalculatie' twee verschillende assen zijn — geen synoniemen.",
+      "voorbeeld_inline": "Yperse Werkplaats BV berekent na afsluiting 20X1 dat een partij tapijten in werkelijkheid € 21.500 heeft gekost (€ 12.000 wol + € 4.800 directe arbeid + € 4.700 indirect). Een vergelijking met de standaardkostprijs van € 20.000 toont een verschil van € 1.500 ongunstig.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "voorbepaalde-kosten",
+      "verschil": "Werkelijke kostencalculatie: cijfers achteraf, traag maar exact. Voorbepaalde: vooraf, snel maar gemiddelde. Voor jaarrekening werkelijk; voor maandsturing voorbepaald.",
+      "trigger": "Examen: welke kost gebruik je voor balans-voorraadwaarde?",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "vergelijkt-met", "target": "voorbepaalde-kosten", "redenering": "Tegenpool.", "confidence": "inferred"},
+    {"type": "onderdeel-van", "target": "costing-methodes-vergelijking", "redenering": "Een van de hoofdmethodes.", "confidence": "inferred"}
+  ]
+}

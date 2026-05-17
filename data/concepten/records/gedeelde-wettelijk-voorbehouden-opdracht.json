@@ -1,0 +1,52 @@
+{
+  "id": "gedeelde-wettelijk-voorbehouden-opdracht",
+  "naam": "Gedeelde wettelijk voorbehouden opdracht",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.I.A", "1.6.I.B", "1.6.I.C"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.I.A",
+    "dekt_ook_anchors": ["1.6.I.B", "1.6.I.C"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Een gedeelde wettelijk voorbehouden opdracht is een opdracht die door of krachtens de wet wordt toevertrouwd aan ofwel een gecertificeerd accountant ofwel een bedrijfsrevisor (gedeeld monopolie). Voorbeelden: inbreng in natura, quasi-inbreng, omzetting van rechtsvorm, ontbinding-vereffening. Geldt enkel als er geen commissaris is — heeft de vennootschap er één, dan voert die de opdracht uit.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA KMO-controlenorm §2 (definitie + ratione materiae)"},
+    "_provenance": {"inputs": [
+      {"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"},
+      {"id": "ITAA-norm-ontbinding-vereffening__sec_2-verantwoordelijkheden-van-de-gecertificeerd-accountant", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Meubelzaak Mertens BV wil omzetten van BV naar NV. Aangezien er geen commissaris is, vraagt de zaakvoerder Sofie Janssens (gecertificeerd accountant) om het wettelijk verplicht verslag op te stellen — een typische gedeelde wettelijk voorbehouden opdracht.",
+  "bouwstenen": [
+    {
+      "titel": "Gedeeld monopolie",
+      "wat": "Twee beroepen mogen de opdracht uitvoeren: gecertificeerd accountant of bedrijfsrevisor. De cliënt mag kiezen.",
+      "waarom": "De wetgever erkent dat beide beroepen de vereiste vakbekwaamheid bezitten voor specifieke vennootschapsrechtelijke verrichtingen.",
+      "voorbeeld_inline": "Voor de inbreng in natura van € 250.000 in Oprichtingen Oostende BV mag de oprichter kiezen tussen Sofie Janssens (gecertificeerd accountant) of een bedrijfsrevisor.",
+      "grondslag": "Wet 17 maart 2019 (ITAA-wet) art. 3 jo. specifieke WVV-bepalingen",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "Wet ITAA 2019 art. 3, 8°"},
+      "_provenance": {"inputs": [{"id": "Wet-ITAA-2019__art_3", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "titel": "Uitsluiting bij commissaris",
+      "wat": "Heeft de vennootschap een commissaris, dan vervalt het 'gedeelde' karakter — de commissaris is exclusief bevoegd.",
+      "waarom": "Vermijdt dubbele controles + de commissaris kent de vennootschap al.",
+      "voorbeeld_inline": "Rotex Roeselare NV (met commissaris Wolters & Partners) doet een quasi-inbreng → de commissaris voert de opdracht uit, niet een externe accountant.",
+      "grondslag": "ITAA KMO-controlenorm §2",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §2"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "uitzondering-op", "target": "wettelijke-controleopdracht-commissaris", "redenering": "Wanneer geen commissaris, kan een externe gecertificeerd accountant deze wettelijke opdracht doen."},
+    {"type": "bevat", "target": "controle-inbreng-in-natura", "redenering": "Inbreng in natura is een typisch voorbeeld."},
+    {"type": "bevat", "target": "ontbinding-vereffening-opdracht", "redenering": "Ontbinding-vereffening is een typisch voorbeeld."}
+  ]
+}

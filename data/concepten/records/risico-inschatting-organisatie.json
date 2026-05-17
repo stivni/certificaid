@@ -1,0 +1,51 @@
+{
+  "id": "risico-inschatting-organisatie",
+  "naam": "Risico-inschatting binnen de organisatie (COSO-component 2)",
+  "node_type": "methode",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.XII.F", "1.7.XII.E", "1.7.III.B"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T09:40Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.XII.F",
+    "dekt_ook_anchors": ["1.7.XII.E", "1.7.III.B"],
+    "reviewed_by": null,
+    "bron_gap": "COSO ERM (II) + ISO 31000 zijn internationale standaarden; geen Belgische trusted bron. Inferred-common-knowledge."
+  },
+  "doel": {
+    "text": "Risico-inschatting is het systematisch identificeren, analyseren en evalueren van wat fout kan gaan in het halen van de doelstellingen van de onderneming. Doel: bepalen welke risico's onaanvaardbaar zijn en gerichte controles inzetten. Zonder risico-inschatting werkt IC blind — overal controles of nergens.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Bij Yperse Werkplaats BV werkt Xenon Expertise BV een risicomatrix uit: voor elk proces (aankoop, productie, verkoop, HR) wordt 'kans × impact' geschat op een schaal 1-5. Aankopen > € 50.000 krijgen risicoscore 4×5 = 20 → strikte autorisatieprocedure. Telefoonkosten krijgen 2×1 = 2 → geen extra controle.",
+  "bouwstenen": [
+    {
+      "titel": "Drie stappen",
+      "wat": "(1) Identificeren: welke risico's bedreigen de doelstellingen? (2) Analyseren: hoe groot is de kans, hoe groot de impact? (3) Evalueren: aanvaardbaar binnen risk appetite, of beheersmaatregel nodig?",
+      "waarom": "Zonder stap 3 wordt risico-inschatting een academische oefening; zonder stap 1 mis je de echte risico's.",
+      "voorbeeld_inline": "Yperse Werkplaats BV identificeert 'IT-uitval' (kans 3, impact 5 = 15) → maatregel: dagelijkse off-site backup + business continuity plan.",
+      "grondslag": "COSO ERM / ISO 31000",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "COSO II (ERM, 2017) breidt uit naar strategische risico's",
+      "betekenis": "COSO I (1992/2013) focuste op operationele/rapporterings-/compliance-risico's. COSO II (Enterprise Risk Management, 2004 + update 2017) breidt uit met strategische risico's en integreert risk management in besluitvorming. Voor KMO's blijft COSO I praktisch voldoende; voor grote ondernemingen biedt COSO II rijker raamwerk.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "ISO 31000 als alternatief raamwerk",
+      "betekenis": "ISO 31000 ('Risk management — Guidelines') is generiek en sectoronafhankelijk, bruikbaar naast COSO. Kernelementen: leadership & commitment, integratie in besluitvorming, design, implementation, evaluation, improvement. In België niet wettelijk opgelegd maar wel referentie voor publieke sector en financiële instellingen.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Tweede COSO-component, drijft de keuze van controle-activiteiten."},
+    {"type": "vergelijkt-met", "target": "auditrisicomodel", "redenering": "Risicomodel van auditor (IR × CR × DR) is verwant maar specifiek voor audit; risico-inschatting van management dekt veel breder."}
+  ]
+}

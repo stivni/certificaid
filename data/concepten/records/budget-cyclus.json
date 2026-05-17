@@ -1,0 +1,38 @@
+{
+  "id": "budget-cyclus",
+  "naam": "Budgetcyclus",
+  "node_type": "synthese",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.V", "1.8.VI", "1.8.VI.C"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.V",
+    "dekt_ook_anchors": ["1.8.VI", "1.8.VI.C"],
+    "reviewed_by": null,
+    "bron_gap": "Vakdoctrine"
+  },
+  "gebaseerd_op_concepten": [
+    "budgetbeheer",
+    "budgetprocedure",
+    "budgetboekhouding",
+    "verschillenboekhouding",
+    "master-budget"
+  ],
+  "vergelijkingstabel": "| Fase | Wanneer (kalender) | Eigenaar | Output | Boekhoudkundige verankering |\n|---|---|---|---|---|\n| **Plannen** (richtlijnen) | september | Directie + CFO | Budget-brief | Geen |\n| **Ramen** (decentraal) | oktober | Afdelingshoofden | Deelbudgetten | Geen |\n| **Consolideren** | november | CFO | Master-budget concept | Geen |\n| **Goedkeuren + opnemen** | december | Raad van bestuur | Goedgekeurd master-budget | Inboeking klasse 9 (budgetboekhouding) |\n| **Realiseren + meten** | januari-december | Operationeel + boekhouding | Maandelijkse realisaties | Klasse 6 (algemene) + klasse 9 (analytische) |\n| **Verschillen analyseren** | maandelijks | Controlling | Verschillenrapport | Klasse 98 (verschillenrekeningen) |\n| **Bijsturen / forecast** | per kwartaal | Directie | Rolling forecast | Update klasse 9 |",
+  "beslisboom": "```mermaid\nflowchart LR\n  A[Plannen] --> B[Ramen]\n  B --> C[Consolideren]\n  C --> D[Goedkeuren]\n  D --> E[Realiseren]\n  E --> F[Meten realisatie]\n  F --> G{Significante<br>afwijking?}\n  G -->|Nee| E\n  G -->|Ja| H[Verschillen analyseren]\n  H --> I[Bijsturen of<br>forecast updaten]\n  I --> E\n```",
+  "in_praktijk": [
+    {
+      "aspect": "Cyclus is jaarcontinue",
+      "betekenis": "Terwijl het lopende boekjaar wordt opgevolgd (E→F→G→H→I), begint in september al de planning voor het volgende boekjaar. Een grote onderneming zit dus altijd in twee cycli tegelijk: lopend boekjaar (opvolging) + volgend boekjaar (voorbereiding).",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "bevat", "target": "budgetprocedure", "redenering": "Plannen-tot-goedkeuren-fasen.", "confidence": "inferred"},
+    {"type": "bevat", "target": "budgetboekhouding", "redenering": "Goedkeuring + meten + verschillen-fase.", "confidence": "inferred"},
+    {"type": "bevat", "target": "verschillenboekhouding", "redenering": "Analyse-fase.", "confidence": "inferred"}
+  ]
+}

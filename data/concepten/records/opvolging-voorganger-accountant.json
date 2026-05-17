@@ -1,0 +1,59 @@
+{
+  "id": "opvolging-voorganger-accountant",
+  "naam": "Opvolging van een collega-accountant",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.III.E", "1.6.III.D", "1.6.II.A"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.III.E",
+    "dekt_ook_anchors": ["1.6.III.D", "1.6.II.A"],
+    "reviewed_by": null
+  },
+  "verplichting": {
+    "text": "Elke accountant die een confrater of een bedrijfsrevisor opvolgt, moet vooraf met hem in contact treden. De opvolger mag de werkdocumenten van zijn voorganger inzien, maar de voorganger mag zijn oorspronkelijke stukken niet uit handen geven. Bovendien moet hij — bij elke opdrachtaanvaarding — nagaan of een andere externe accountant in de laatste 12 maanden bij dezelfde cliënt heeft gewerkt en deze schriftelijk inlichten.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA Algemene controlenorm §5 + KB plichtenleer art. 25"},
+    "_provenance": {"inputs": [
+      {"id": "ITAA-norm-algemene-controlenorm__sec_5-opvolging", "sha256": null, "version": "rag-v1"},
+      {"id": "KB-1998-plichtenleer__art_25", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Wolters & Partners CVBA wordt benoemd als nieuwe controleaccountant van Naaiatelier Ninove BV, na ontslag van de vorige accountant. Sofie Janssens contacteert haar voorganger schriftelijk, vraagt inzage in zijn werkdocumenten (vooral risico-evaluatie en eindbevindingen), en informeert ook de externe accountant die in de laatste 12 maanden samenstellingsopdrachten heeft uitgevoerd.",
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Contact opnemen vóór aanvaarding",
+      "wat": "Voorafgaand de voorganger schriftelijk inlichten over het nieuwe mandaat; vraag toelating om dossier te raadplegen.",
+      "hoe": "Aangetekende brief of bevestigde mail. Vraag of er deontologische redenen zijn waarom je de opdracht zou weigeren.",
+      "grondslag": "ITAA Algemene controlenorm §5 + KB plichtenleer art. 25"
+    },
+    {
+      "nr": 2,
+      "titel": "Inzage werkdocumenten",
+      "wat": "Mag inzien; voorganger geeft GEEN originele stukken weg (blijft eigendom van de voorganger).",
+      "hoe": "Bezoek ter plaatse + kopieën waar nuttig (mits beroepsgeheim).",
+      "grondslag": "ITAA Algemene controlenorm §5"
+    },
+    {
+      "nr": 3,
+      "titel": "Informeer parallelle accountants (12-maanden-regel)",
+      "wat": "Wanneer een andere externe accountant in de laatste 12 maanden voor dezelfde cliënt werkt of werkte, hem schriftelijk informeren van je tussenkomst.",
+      "hoe": "Verstuur kopie van de opdrachtbrief of een korte mededeling — bij voorkeur schriftelijk.",
+      "grondslag": "KB plichtenleer art. 25"
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "De plicht geldt voor elk soort opdracht — niet alleen audits. Ook bij overname van een samenstellingsopdracht of fiscale opdracht: voorganger contacteren. Negeren is een tuchtrechtelijke overtreding.",
+      "confidence": "grounded",
+      "source": {"type": "wet", "short": "KB plichtenleer art. 25"},
+      "_provenance": {"inputs": [{"id": "KB-1998-plichtenleer__art_25", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "plichtenleer-accountant", "redenering": "Confraterniteitsregel onder het KB plichtenleer."}
+  ]
+}

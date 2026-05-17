@@ -1,0 +1,59 @@
+{
+  "id": "registratiesysteem-proportionele-integratie",
+  "naam": "Proportionele integratie (registratiesysteem)",
+  "node_type": "methode",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.IV.C", "1.8.IV"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.IV.C",
+    "dekt_ook_anchors": ["1.8.IV"],
+    "reviewed_by": null
+  },
+  "doel": {
+    "text": "Bij proportionele integratie worden kosten en opbrengsten 'rubriek per rubriek, proportioneel met het aandeel' opgenomen. CBN 3/3 formuleert dit voor tijdelijke verenigingen; in analytische boekhouding wordt het analoog toegepast wanneer een gemeenschappelijke kost over meerdere centra of dragers pro-rata moet worden verdeeld.",
+    "confidence": "grounded",
+    "source": {"type": "cbn", "short": "CBN-advies 3/3 — De proportionele integratie van kosten en opbrengsten"},
+    "_provenance": {
+      "inputs": [
+        {"id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-proportionele-integratie-van-kosten-en-opbrengsten", "sha256": null, "version": "rag-v1"}
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Pro-rata-verdeling per rubriek",
+      "wat": "Elke kost-/opbrengstpost wordt individueel pro-rata verdeeld volgens een vooraf afgesproken percentage of sleutel. Vergt aparte 'verdeelboekingen'.",
+      "waarom": "Maakt aandeel per centrum/partner zichtbaar; vereiste bij meervoudige eigenaars of bij sterk gedeelde resources.",
+      "voorbeeld_inline": "Yperse Werkplaats BV verdeelt de gezamenlijke energiekost weverij € 145.000/jaar proportioneel over de drie productlijnen volgens machine-uren: 40 % Tapijten, 35 % Stoffenrol, 25 % Garen. Verdeelboeking: Tapijten € 58.000, Stoffenrol € 50.750, Garen € 36.250.",
+      "grondslag": "CBN 3/3",
+      "confidence": "grounded",
+      "source": {"type": "cbn", "short": "CBN 3/3"},
+      "_provenance": {
+        "inputs": [
+          {"id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-proportionele-integratie-van-kosten-en-opbrengsten", "sha256": null, "version": "rag-v1"}
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "registratiesysteem-eenvoudige-integratie",
+      "verschil": "Proportioneel: pro-rata-verdeling per rubriek. Eenvoudig: direct aan één centrum toegewezen.",
+      "trigger": "Bij gedeelde infrastructuur of joint-venture-vergelijkbare context.",
+      "confidence": "grounded",
+      "source": {"type": "cbn", "short": "CBN 3/3"},
+      "_provenance": {
+        "inputs": [
+          {"id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-proportionele-integratie-van-kosten-en-opbrengsten", "sha256": null, "version": "rag-v1"}
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "rekeningenstelsel-analytisch", "redenering": "Inrichtingsoptie.", "confidence": "inferred"},
+    {"type": "vergelijkt-met", "target": "registratiesysteem-eenvoudige-integratie", "redenering": "Tegenpool.", "confidence": "inferred"}
+  ]
+}

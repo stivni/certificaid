@@ -4,19 +4,42 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.3.II.C", "1.3.II.B", "1.3.taak.1"],
+  "linked_anchors": [
+    "1.3.II.B",
+    "1.3.II.C",
+    "1.3.taak.1",
+    "1.9.IV",
+    "1.9.IV.C",
+    "1.9.IV.G",
+    "1.9.IV.H",
+    "1.9.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.3.II.C",
-    "dekt_ook_anchors": ["1.3.II.B", "1.3.taak.1"],
+    "dekt_ook_anchors": [
+      "1.3.II.B",
+      "1.3.taak.1"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Cashflow is het nettoresultaat na belastingen, verhoogd met de niet-kaskosten (afschrijvingen, waardeverminderingen, voorzieningen). Het is een benadering van de cash die de onderneming uit haar eigen werking genereert, vóór investeringen of financieringsbeslissingen.",
     "confidence": "grounded",
-    "source": {"type": "cbn", "short": "CBN-2011/14 §rentabiliteit eigen vermogen (cashflow-definitie)"},
-    "_provenance": {"inputs": [{"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "cbn",
+      "short": "CBN-2011/14 §rentabiliteit eigen vermogen (cashflow-definitie)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -26,8 +49,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV: nettowinst € 2.500.000 + afschrijvingen € 1.500.000 + waardeverminderingen € 200.000 = cashflow € 4.200.000.",
       "grondslag": "CBN-2011/14",
       "confidence": "grounded",
-      "source": {"type": "cbn", "short": "CBN-2011/14 §rentabiliteit eigen vermogen"},
-      "_provenance": {"inputs": [{"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "cbn",
+        "short": "CBN-2011/14 §rentabiliteit eigen vermogen"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Cashflow als waarderingsfactor",
@@ -36,8 +70,19 @@
       "voorbeeld_inline": "Een bank evalueert het kredietdossier van Rotex Roeselare NV met een schuld op meer dan een jaar van € 13.000.000 — cashflow van € 4.200.000 betekent een terugbetalingstermijn van ongeveer 3,1 jaar.",
       "grondslag": "Vakdoctrine + CBN-2011/14 (cashflow als rentabiliteitsmaatstaf)",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "cbn", "short": "CBN-2011/14"},
-      "_provenance": {"inputs": [{"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "cbn",
+        "short": "CBN-2011/14"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -46,16 +91,38 @@
       "betekenis": "Cashflow (in de analytische zin: winst + niet-kaskosten) is een approximate. Een volledig kasstroomoverzicht (cash flow statement) corrigeert ook werkkapitaalwijzigingen — toename voorraden vreet cash, afname levert cash.",
       "anker_slug": "1.3.II.B",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Belgisch schema heeft geen kasstroomoverzicht verplicht",
       "betekenis": "Het Belgisch volledig schema bevat geen verplicht kasstroomoverzicht (anders dan IFRS). De analist berekent de cashflow zelf uit balans en resultatenrekening, of vertrouwt op de bedrijfscashflow zoals CBN-2011/14 die definieert.",
       "anker_slug": "1.3.II.B",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Belgisch jaarrekeningenrecht — vergelijking met IFRS"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Belgisch jaarrekeningenrecht — vergelijking met IFRS"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -63,20 +130,54 @@
       "vergelijking_met": "rentabiliteit-eigen-vermogen-roe",
       "verschil": "Cashflow is een tussenresultaat (€-bedrag). Bruto-ROE en bruto-ROA gebruiken cashflow als teller — cashflow is dus een component, geen ratio.",
       "trigger": "Examenvraag 'cijfer of ratio?': cashflow is een €-bedrag; ROE/ROA op cashflow zijn percentages.",
-      "_provenance": {"inputs": [{"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Niet alle niet-kaskosten zijn even structureel. Een uitzonderlijke voorziening of waardevermindering kan de cashflow van één boekjaar fors verhogen zonder dat de onderliggende kasgeneratie wijzigt. Filter eenmalige effecten uit voor trendanalyse.",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "rentabiliteit-eigen-vermogen-roe", "redenering": "Cashflow is teller in bruto-ROE.", "confidence": "inferred"},
-    {"type": "vereist-kennis-van", "target": "rentabiliteit-totaal-activa-roa", "redenering": "Cashflow is teller in bruto-ROA.", "confidence": "inferred"},
-    {"type": "onderdeel-van", "target": "doelstellingen-financiele-analyse", "redenering": "Cashflow ondersteunt analyse van rendabiliteit en betalingscapaciteit.", "confidence": "inferred"}
+    {
+      "type": "vereist-kennis-van",
+      "target": "rentabiliteit-eigen-vermogen-roe",
+      "redenering": "Cashflow is teller in bruto-ROE.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "rentabiliteit-totaal-activa-roa",
+      "redenering": "Cashflow is teller in bruto-ROA.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "doelstellingen-financiele-analyse",
+      "redenering": "Cashflow ondersteunt analyse van rendabiliteit en betalingscapaciteit.",
+      "confidence": "inferred"
+    }
   ]
 }

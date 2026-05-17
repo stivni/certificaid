@@ -1,0 +1,154 @@
+{
+  "id": "auditrisicomodel",
+  "naam": "Auditrisicomodel (controlerisico)",
+  "node_type": "methode",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.6.II.B",
+    "1.6.II",
+    "1.6.III.A",
+    "1.7.V.E"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.II.B",
+    "dekt_ook_anchors": [
+      "1.6.II",
+      "1.6.III.A",
+      "1.7.V.E"
+    ],
+    "reviewed_by": null,
+    "po_1_7_upgrade": {
+      "op": "2026-05-17",
+      "reden": "Concept dekt ook 1.7-anchors (interne controle): linked_anchors aangevuld via concept-extractie-v4 voor 1.7."
+    }
+  },
+  "doel": {
+    "text": "Het auditrisicomodel structureert de risico-aanpak van de auditor. Het controlerisico — het risico dat de auditor een verkeerd oordeel geeft terwijl de financiële overzichten een materiële afwijking bevatten — wordt opgesplitst in drie componenten: inherent risico, intern beheersingsrisico en ontdekkingsrisico. De auditor stuurt het ontdekkingsrisico (= hoeveel werk hij doet) op basis van zijn inschatting van de eerste twee.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1 (Controlerisico)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "berekeningsmethode": [
+    {
+      "naam": "Controlerisico als product van componenten",
+      "formules": [
+        {
+          "id": "controlerisico",
+          "naam": "Controlerisico (audit risk)",
+          "wiskunde": "controlerisico = inherent risico × intern beheersingsrisico × ontdekkingsrisico",
+          "variabelen": [
+            {
+              "symbool": "inherent risico",
+              "betekenis": "Kans op afwijking vóór interne beheersing",
+              "eenheid": "% / kans"
+            },
+            {
+              "symbool": "intern beheersingsrisico",
+              "betekenis": "Kans dat interne beheersing een afwijking mist",
+              "eenheid": "% / kans"
+            },
+            {
+              "symbool": "ontdekkingsrisico",
+              "betekenis": "Kans dat audit-werkzaamheden de afwijking niet ontdekken",
+              "eenheid": "% / kans"
+            }
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "Bij Rotex Roeselare NV schat Sofie Janssens in: inherent risico = 60 % (complexe groep), intern beheersingsrisico = 30 % (sterke IC), gewenst controlerisico = 5 %.",
+            "berekening": "ontdekkingsrisico = 5 % / (60 % × 30 %) = 5 % / 18 % ≈ 28 %",
+            "eenheid_resultaat": "% / kans"
+          }
+        }
+      ],
+      "ratio": "Het model maakt de relatie expliciet: als inherent of intern beheersingsrisico hoger zijn, moet ontdekkingsrisico lager — wat betekent: meer en gerichtere werkzaamheden door de auditor.",
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm Bijlage 1"
+      },
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "bouwstenen": [
+    {
+      "titel": "Drie componenten",
+      "wat": "Inherent risico (vatbaarheid van een bewering voor afwijking vóór interne beheersing) + intern beheersingsrisico (kans dat de IC een afwijking mist) = risico op een afwijking van materieel belang. Ontdekkingsrisico = de auditor zelf.",
+      "waarom": "Splits het 'globale' risico in onderdelen die je apart kan inschatten en beïnvloeden.",
+      "grondslag": "ITAA KMO-controlenorm Bijlage 1",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm Bijlage 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Wat de auditor kan beïnvloeden",
+      "wat": "Enkel het ontdekkingsrisico. Inherent en intern beheersingsrisico zijn EIGENSCHAPPEN van de cliënt — de auditor schat ze in, hij verlaagt ze niet.",
+      "waarom": "Zo focust het model op de stuurknop van de auditor: omvang, timing en aard van zijn werkzaamheden.",
+      "voorbeeld_inline": "Sofie Janssens kan niet de IT-controles van Rotex verbeteren, maar zij kan beslissen om méér substantive testing te doen op voorraadwaardering wanneer de IC daar zwak is.",
+      "grondslag": "ITAA KMO-controlenorm §96",
+      "confidence": "inferred-from-aggregation",
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §96"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "bevat",
+      "target": "inherent-risico",
+      "redenering": "Component 1."
+    },
+    {
+      "type": "bevat",
+      "target": "intern-beheersingsrisico",
+      "redenering": "Component 2."
+    },
+    {
+      "type": "bevat",
+      "target": "ontdekkingsrisico",
+      "redenering": "Component 3 — door auditor stuurbaar."
+    }
+  ]
+}

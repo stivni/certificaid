@@ -1,0 +1,48 @@
+{
+  "id": "externe-auditor-relatie-ic",
+  "naam": "Externe auditor en interne controle — relatie",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.V.C", "1.7.I.B", "1.7.V"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T11:46Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.V.C",
+    "dekt_ook_anchors": ["1.7.I.B", "1.7.V"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "De externe auditor (commissaris, externe accountant) controleert de jaarrekening voor derden en moet daartoe het IC-systeem van de cliënt begrijpen. Als hij op IC wil steunen, voert hij toetsingen uit (ITAA-norm-kmo-controlenorm §97). Sterke IC → minder substantieve werkzaamheden nodig → efficiënter audit-budget. Hij geeft ook feedback aan management over IC-tekortkomingen via 'management letter' (ISA 265).",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA-norm-kmo-controlenorm §97-§98 + ITAA-algemene-controlenorm §6"},
+    "_provenance": {
+      "inputs": [
+        {"id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen", "sha256": null, "version": "rag-v1"},
+        {"id": "ITAA-norm-algemene-controlenorm__sec_6-controles", "sha256": null, "version": "rag-v1"}
+      ]
+    }
+  },
+  "voorbeeld_inline": "Bij Rotex Roeselare NV doet commissaris Sofie Janssens (Wolters & Partners CVBA) in planningsfase een walkthrough per cyclus. Aankoopcyclus: IC sterk → ze toetst 25 facturen op functiescheiding-naleving → 0 fouten → CR laag → minder substantief werk. Verkoopcyclus: IC zwak (geen krediettoetsing nieuwe klanten) → CR hoog → volledige substantieve testen van vorderingen. Management letter wijst op verkoop-IC-zwakte met aanbevelingen.",
+  "in_praktijk": [
+    {
+      "aspect": "Vier momenten van interactie",
+      "betekenis": "(1) Planning: IC-begrip opbouwen via walkthroughs + documentatie-review. (2) Risico-inschatting: combineer IR + CR (ITAA-norm §97). (3) Uitvoering: test of controls + substantive testing op basis van risico-inschatting. (4) Afsluiting: management letter met IC-tekortkomingen (ISA 265).",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA-norm-kmo-controlenorm §97-§98"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "aspect": "Adviesrol — voorzichtig",
+      "betekenis": "De externe auditor mag IC-aanbevelingen doen maar mag niet IC voor de cliënt OPZETTEN — anders verliest hij onafhankelijkheid (zelf-audit-risico). Bij KMO's is dit grijs gebied; KB plichtenleer en ITAA-deontologie vereisen voorzichtigheid.",
+      "confidence": "grounded",
+      "source": {"type": "kb", "short": "KB plichtenleer art. 13 + ITAA-deontologie"},
+      "_provenance": {"inputs": [{"id": "KB-1998-plichtenleer__art_13", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "vereist-kennis-van", "target": "toetsing-interne-beheersing", "redenering": "Externe auditor toetst IC volgens vaste methode."},
+    {"type": "vereist-kennis-van", "target": "onafhankelijkheid-externe-accountant", "redenering": "Onafhankelijkheid is voorwaarde voor zinvolle externe rol."},
+    {"type": "vergelijkt-met", "target": "interne-audit", "redenering": "Externe auditor mag op IA-werk steunen onder ISA 610-voorwaarden."}
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "marginale-kostprijs",
+  "naam": "Marginale kostprijs",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.III.E"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.III.E",
+    "dekt_ook_anchors": [],
+    "reviewed_by": null,
+    "bron_gap": "Vakdoctrine"
+  },
+  "definitie": {
+    "text": "De marginale kostprijs is de kost van één extra geproduceerde of verkochte eenheid. Bij lineair kostengedrag valt dat samen met de variabele kost per eenheid; in werkelijkheid kan ze afwijken door schaalsprong (extra ploeg, overuren, capaciteitsuitbreiding).",
+    "confidence": "inferred-common-knowledge",
+    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Yperse Werkplaats BV produceert 20.000 tapijten/jaar bij normale productie. De marginale kostprijs voor het 20.001ste tapijt = variabele kost € 13. Maar boven 22.000 stuks moet overuren gedraaid worden (€ 35/uur i.p.v. € 25); de marginale kostprijs stijgt dan tot € 17/stuk.",
+  "in_praktijk": [
+    {
+      "aspect": "Beslissingsrelevant getal",
+      "betekenis": "Voor beslissingen 'extra-order accepteren of niet?': als de aangeboden verkoopprijs > marginale kost, is de order winstgevend (mits de vaste kosten al gedekt zijn). Sunk costs en gedekte vaste overhead spelen geen rol — die zijn al betaald.",
+      "herkenningspunt": "Examenvraag 'klant biedt korting; aannemen?' → vergelijk korting-prijs met marginale kost, niet met volledige kostprijs.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "Gemiddelde versus marginale",
+      "betekenis": "De gemiddelde kostprijs (totale kosten / aantal eenheden) en de marginale kostprijs (extra kost van één eenheid extra) verschillen sterk bij hoge vaste kosten. Bij volledige bezetting: gemiddelde > marginale. Verwarring tussen beide is een klassieke examen-valkuil.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "gemiddelde-kostprijs",
+      "verschil": "Gemiddelde kostprijs = totale kost / aantal eenheden (bevat vaste kost-aandeel). Marginale kostprijs = extra kost van één extra eenheid (typisch enkel variabele kost). Voor 'doorga of stop'-beslissingen: marginaal. Voor 'verkoopprijs op lange termijn': gemiddeld.",
+      "trigger": "Examen-vraag op extra-order, dumping-prijs, make-or-buy → marginaal. Vraag over verkoopprijs op lange termijn → gemiddeld.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "vergelijkt-met", "target": "gemiddelde-kostprijs", "redenering": "Klassieke verwarring.", "confidence": "inferred"},
+    {"type": "vereist-kennis-van", "target": "variabele-kosten", "redenering": "Marginale kost ≈ variabele kost in lineair model.", "confidence": "inferred"}
+  ]
+}

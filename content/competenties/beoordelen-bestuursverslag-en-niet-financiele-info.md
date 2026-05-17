@@ -8,7 +8,7 @@ programmaonderdelen:
 status: voorgesteld
 schema_version: '1.1'
 gegenereerd_uit: data/concepten/competenties/beoordelen-bestuursverslag-en-niet-financiele-info.yaml
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Beoordelen van het bestuursverslag en de niet-financiële informatie
 

@@ -1,0 +1,47 @@
+{
+  "id": "informatiesysteem-onderneming",
+  "naam": "Informatiesysteem van de onderneming",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.II.B", "1.7.II.C", "1.7.II.D", "1.7.II"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T09:25Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.II.B",
+    "dekt_ook_anchors": ["1.7.II.C", "1.7.II.D", "1.7.II"],
+    "reviewed_by": null,
+    "bron_gap": "Algemene IS-vakdoctrine — geen Belgische trusted bron specifiek voor IC-context. ITAA-norm raakt aan informatie als kwaliteitsdimensie van IC (info & communication = COSO-component 4)."
+  },
+  "definitie": {
+    "text": "Het informatiesysteem is het geheel van procedures, mensen, software en hardware dat data in een onderneming verzamelt, verwerkt, opslaat en distribueert. Voor interne controle is het cruciaal: zonder betrouwbare informatie kan het management niet sturen, kan de boekhouding niet kloppen en kan de externe auditor niet steunen op de cijfers.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Bij Yperse Werkplaats BV omvat het informatiesysteem: ERP-pakket (Odoo) voor aankopen-voorraad-verkoop, payroll-software, MS Office voor rapportering. Stromen: aankoopfactuur → boekhouding → kostencentrum-toewijzing → maandrapport voor directie. Een fout in één schakel (bv. verkeerd kostencentrum) breekt de hele rapportering.",
+  "in_praktijk": [
+    {
+      "aspect": "Drie soorten stromen (1.7.II.C)",
+      "betekenis": "(1) Fysieke stromen — goederen, voorraden die door de onderneming bewegen. (2) Financiële stromen — geld, betalingen, vorderingen. (3) Informatiestromen — data en documenten die de eerste twee begeleiden. De drie moeten op elkaar afgestemd zijn: als een goederenontvangst niet in de informatiestroom belandt, weet niemand dat er moet betaald worden.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "Kwaliteitseisen informatie (1.7.II.D)",
+      "betekenis": "Informatie moet zijn: relevant (raakt de beslissing), betrouwbaar (klopt), tijdig (op tijd beschikbaar), volledig (geen kritieke ontbrekende elementen), en begrijpelijk voor de gebruiker. Het ontbreken van één van deze ondermijnt de stuurkracht.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "ERP-pakket ≠ IC-systeem. Een gecentraliseerd ERP geeft veel data maar zonder geconfigureerde autorisaties, audit trail en functiescheiding in de software is er geen IC — alleen efficiëntere fouten.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Informatie & communicatie is COSO-component 4 — een pijler van het IC-systeem."},
+    {"type": "vereist-kennis-van", "target": "geinformatiseerde-omgeving-ic", "redenering": "Moderne IS draaien op IT-systemen — IT-general-controls zijn een eigen IC-domein."}
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "kenmerken-interne-controle",
+  "naam": "Kenmerken van interne controle",
+  "node_type": "synthese",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.7.III",
+    "1.7.III.A",
+    "1.7.III.B"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T11:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.III",
+    "dekt_ook_anchors": [
+      "1.7.III.A",
+      "1.7.III.B"
+    ],
+    "reviewed_by": null,
+    "inputs": [
+      {
+        "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3",
+        "sha256": null,
+        "version": "rag-v1"
+      }
+    ],
+    "note": "Synthese-record: _provenance.inputs sloeg eerder onderaan; nu correct gevuld op record-niveau."
+  },
+  "gebaseerd_op_concepten": [
+    "interne-controle",
+    "controle-omgeving",
+    "functiescheiding"
+  ],
+  "vergelijkingstabel": "| Kenmerk | Wat het betekent | Wat het uitsluit |\n|---|---|---|\n| Proces, geen evenement | IC is continu, ingebakken in dagelijkse werking | Geen jaarlijkse 'opkuis' of 'IC-week' |\n| Door mensen gedragen | Iedereen draagt bij — bestuur, management, personeel | Geen 'IC-afdeling' die het alleen doet |\n| Redelijke, geen absolute zekerheid | Aanvaardt residual risk | Geen droom van foutloos systeem |\n| Gericht op doelstellingen | Werkt aan operationele, rapporterings-, compliance-doelen | Geen IC om de IC |\n| Aanpasbaar aan context | Schaalt mee met grootte, sector, risico | Geen one-size-fits-all standaardpakket |\n| Dubbele dimensie | Hard (procedures) + zacht (cultuur) | Geen procedures alleen, geen cultuur alleen |",
+  "beslisboom": "Test of IC-systeem voldoet aan de zes kenmerken:\n1. Werkt IC continu mee in dagelijks proces? Zo nee → niet meer dan papierwerk.\n2. Draagt élke laag verantwoordelijkheid? Zo nee → systeem is geïsoleerd.\n3. Aanvaardt management residual risk? Zo nee → onrealistische verwachtingen.\n4. Zijn doelstellingen expliciet? Zo nee → IC zonder kompas.\n5. Is systeem aangepast aan context? Zo nee → over- of onder-engineering.\n6. Is er aandacht voor cultuur naast procedures? Zo nee → procedures slijten weg.",
+  "voorbeeld_inline": "Bij Yperse Werkplaats BV werkt IC ingebed: elke factuur passeert procedure (continu); van CEO Pieter Vermeulen tot magazijnier Bart heeft elk een rol (door iedereen); 100% controle is niet haalbaar (redelijke zekerheid); 3 doelstellingen expliciet (rapportering, productie-efficiëntie, compliance); systeem aangepast aan KMO-context met externe ondersteuning Xenon Expertise BV; gedragscode + procedures samen (dubbele dimensie)."
+}

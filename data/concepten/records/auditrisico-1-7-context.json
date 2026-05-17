@@ -1,0 +1,32 @@
+{
+  "id": "auditrisico-1-7-context",
+  "naam": "Auditrisico's in IC-context",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.V.E", "1.7.V"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T10:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.V.E",
+    "dekt_ook_anchors": ["1.7.V"],
+    "reviewed_by": null,
+    "note": "Cross-referentie naar [[auditrisicomodel]] (PO 1.6). Hier focus op de IC-implicaties: hoe inschatting van IR + CR de strategie van de externe auditor stuurt."
+  },
+  "definitie": {
+    "text": "Auditrisico is het risico dat de auditor een verkeerde controleverklaring afgeeft over een jaarrekening die in werkelijkheid materieel afwijkend is. Audit risico = Inherent risico × Intern beheersingsrisico × Detectierisico (zie [[auditrisicomodel]]). In de context van IC: hoe sterker het IC-systeem, hoe lager het intern beheersingsrisico, hoe minder substantief testwerk de auditor nodig heeft.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA-norm-kmo-controlenorm Bijlage 1 + §97-§98"},
+    "_provenance": {
+      "inputs": [
+        {"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"},
+        {"id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen", "sha256": null, "version": "rag-v1"}
+      ]
+    }
+  },
+  "voorbeeld_inline": "Bij Yperse Werkplaats BV inschat Sofie Janssens het inherente risico op voorraadwaardering als 'middel-hoog' (productie-WIP, schatting nodig). Intern beheersingsrisico = 'laag' want maandelijkse stockcount + ERP met audit trail. Dus IR×CR = middel → detectierisico mag iets hoger → minder substantieve testwerk nodig.",
+  "edges": [
+    {"type": "specialisatie-van", "target": "auditrisicomodel", "redenering": "Specifieke toepassing van auditrisicomodel in IC-evaluatie-context."},
+    {"type": "vereist-kennis-van", "target": "toetsing-interne-beheersing", "redenering": "Een lage CR-inschatting moet ondersteund worden door toetsing-van-controls (test of controls)."}
+  ]
+}

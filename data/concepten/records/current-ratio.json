@@ -4,20 +4,38 @@
   "node_type": "methode",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.3.II.C", "1.3.taak.1"],
+  "linked_anchors": [
+    "1.3.II.C",
+    "1.3.taak.1",
+    "1.9.V.D",
+    "1.9.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.3.II.C",
-    "dekt_ook_anchors": ["1.3.taak.1"],
+    "dekt_ook_anchors": [
+      "1.3.taak.1"
+    ],
     "reviewed_by": null,
     "bron_gap": "Geen Belgische trusted bron in de bundle voor de current-ratio-formule. Het is een standaard analyse-instrument uit financial-analysis-vakdoctrine. Confidence: inferred-common-knowledge."
   },
   "doel": {
     "text": "Meten of de vennootschap genoeg vlottende activa heeft tegenover haar schulden op ten hoogste een jaar. De current ratio is de breedst gebruikte liquiditeitsratio in ruime zin.",
     "confidence": "inferred-common-knowledge",
-    "source": {"type": "vakdoctrine", "short": "Algemene financial-analysis-doctrine"},
-    "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Algemene financial-analysis-doctrine"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.II.C",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -27,8 +45,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV: vlottende activa € 8.000.000; schulden op ten hoogste een jaar € 4.000.000. Current ratio = € 8.000.000 / € 4.000.000 = 2,0.",
       "grondslag": "Vakdoctrine financial analysis",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "berekeningsmethode": [
@@ -42,10 +71,18 @@
           "wat": "Som de balansposten: voorraden + handelsvorderingen + andere vorderingen op ten hoogste een jaar + geldbeleggingen + liquide middelen + overlopende rekeningen actiefzijde.",
           "waarom": "Dit is de buffer waarmee de onderneming haar korte verplichtingen kan dekken.",
           "input": [
-            {"artefact": "Balans (actief)", "veld": "Voorraden, vorderingen, geldbeleggingen, liquide middelen", "type": "boekhoudkundig-bedrag"}
+            {
+              "artefact": "Balans (actief)",
+              "veld": "Voorraden, vorderingen, geldbeleggingen, liquide middelen",
+              "type": "boekhoudkundig-bedrag"
+            }
           ],
           "output": [
-            {"artefact": "Werkblad", "veld": "Totaal vlottende activa", "type": "boekhoudkundig-bedrag"}
+            {
+              "artefact": "Werkblad",
+              "veld": "Totaal vlottende activa",
+              "type": "boekhoudkundig-bedrag"
+            }
           ],
           "hoe": "1. Open de balans van Rotex Roeselare NV.\n2. Tel rubriek VI (voorraden + bestellingen) + VII (vorderingen op ten hoogste een jaar) + VIII (geldbeleggingen) + IX (liquide middelen) + X (overlopende rekeningen).\n3. Voor Rotex: € 2.500.000 + € 4.000.000 + € 500.000 + € 800.000 + € 200.000 = € 8.000.000.\n",
           "grondslag": "Vakdoctrine + KB WVV balansschema"
@@ -56,10 +93,18 @@
           "wat": "Neem rubriek IX van de passiefzijde 'Schulden op ten hoogste een jaar' (financiële schulden ≤ 1 jaar, handelsschulden, fiscale en sociale schulden, andere) + overlopende rekeningen passiefzijde.",
           "waarom": "Dit zijn de verplichtingen die binnen 12 maanden moeten worden voldaan.",
           "input": [
-            {"artefact": "Balans (passief)", "veld": "Schulden op ten hoogste een jaar", "type": "boekhoudkundig-bedrag"}
+            {
+              "artefact": "Balans (passief)",
+              "veld": "Schulden op ten hoogste een jaar",
+              "type": "boekhoudkundig-bedrag"
+            }
           ],
           "output": [
-            {"artefact": "Werkblad", "veld": "Totaal korte schulden", "type": "boekhoudkundig-bedrag"}
+            {
+              "artefact": "Werkblad",
+              "veld": "Totaal korte schulden",
+              "type": "boekhoudkundig-bedrag"
+            }
           ],
           "hoe": "1. Open passiefzijde balans Rotex.\n2. Lees rubriek IX totaal (€ 3.800.000) + overlopende rekeningen passief (€ 200.000) = € 4.000.000.\n",
           "grondslag": "KB WVV balansschema"
@@ -70,10 +115,18 @@
           "wat": "Deel de vlottende activa door de korte schulden.",
           "waarom": "Geeft één getal — boven 1 = positief, onder 1 = signaal van mogelijk liquiditeitsprobleem.",
           "input": [
-            {"artefact": "Werkblad", "veld": "Teller en noemer", "type": "boekhoudkundig-bedrag"}
+            {
+              "artefact": "Werkblad",
+              "veld": "Teller en noemer",
+              "type": "boekhoudkundig-bedrag"
+            }
           ],
           "output": [
-            {"artefact": "Ratio-tabel", "veld": "Current ratio", "type": "verhoudingsgetal"}
+            {
+              "artefact": "Ratio-tabel",
+              "veld": "Current ratio",
+              "type": "verhoudingsgetal"
+            }
           ],
           "hoe": "1. € 8.000.000 / € 4.000.000 = 2,0.\n2. Plaats in vergelijking: vorig jaar 1,7; sectormediaan 1,5. Conclusie: liquiditeit verbeterd, sterker dan sector.\n",
           "voorbeeld": {
@@ -101,17 +154,36 @@
         "berekening": "Current ratio = € 8.000.000 / € 4.000.000 = 2,0.",
         "resultaat": "Een current ratio van 2,0 wordt traditioneel als comfortabel gezien. Lager dan 1 betekent dat de korte schulden de vlottende activa overschrijden — een waarschuwingssignaal."
       },
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]},
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "formules": [
         {
           "id": "current-ratio-formule",
           "naam": "Current ratio",
           "wiskunde": "current ratio = vlottende activa / schulden op ten hoogste een jaar",
           "variabelen": [
-            {"symbool": "vlottende activa", "betekenis": "Voorraden + vorderingen ≤ 1 jaar + geldbeleggingen + liquide middelen + overlopende rekeningen actief", "eenheid": "EUR"},
-            {"symbool": "schulden op ten hoogste een jaar", "betekenis": "Passief-rubriek IX (financiële, handels, fiscale, sociale en andere schulden ≤ 1 jaar) + overlopende rekeningen passief", "eenheid": "EUR"}
+            {
+              "symbool": "vlottende activa",
+              "betekenis": "Voorraden + vorderingen ≤ 1 jaar + geldbeleggingen + liquide middelen + overlopende rekeningen actief",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "schulden op ten hoogste een jaar",
+              "betekenis": "Passief-rubriek IX (financiële, handels, fiscale, sociale en andere schulden ≤ 1 jaar) + overlopende rekeningen passief",
+              "eenheid": "EUR"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "Rotex: vlottende activa € 8.000.000; korte schulden € 4.000.000",
@@ -129,8 +201,19 @@
       "herkenningspunt": "Examenanalyse: niet alleen 'ratio = 2,0' maar plaats in evolutie + sectorvergelijking + samen met de quick ratio.",
       "anker_slug": "1.3.II.C",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -139,26 +222,71 @@
       "vergelijking_met": "quick-ratio",
       "verschil": "Current ratio neemt alle vlottende activa, ook voorraden. Quick ratio (zuurtegraad) sluit voorraden uit omdat die niet zo snel cash worden. Bij voorraadintensieve sectoren (groothandel, productie) ligt current ratio veel hoger dan quick ratio.",
       "trigger": "Examenvraag 'liquiditeit in ruime / enge zin?': ruim = current; eng = quick.",
-      "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Een hoge current ratio is niet automatisch goed. Bij overdreven voorraden of trage handelsvorderingen is de liquiditeit cijfermatig sterk maar operationeel zwak. Check altijd de quick ratio en de rotatie van voorraden/vorderingen.",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Sommige balansen tonen 'Vorderingen op meer dan een jaar' onder vaste activa. Zorg dat je enkel vorderingen op ten hoogste een jaar in de teller meeneemt, anders overschat je de liquiditeit.",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.II.C", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.II.C",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "liquiditeitsratio", "redenering": "Current ratio is een specifieke vorm van liquiditeitsratio (ruime zin).", "confidence": "inferred"},
-    {"type": "vergelijkt-met", "target": "quick-ratio", "redenering": "Current vs quick = liquiditeit in ruime vs enge zin.", "confidence": "inferred"},
-    {"type": "vereist-kennis-van", "target": "werkkapitaal", "redenering": "Werkkapitaal = (vlottende activa − korte schulden) is de absolute tegenhanger van current ratio (verhouding).", "confidence": "inferred"}
+    {
+      "type": "onderdeel-van",
+      "target": "liquiditeitsratio",
+      "redenering": "Current ratio is een specifieke vorm van liquiditeitsratio (ruime zin).",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "quick-ratio",
+      "redenering": "Current vs quick = liquiditeit in ruime vs enge zin.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "werkkapitaal",
+      "redenering": "Werkkapitaal = (vlottende activa − korte schulden) is de absolute tegenhanger van current ratio (verhouding).",
+      "confidence": "inferred"
+    }
   ]
 }

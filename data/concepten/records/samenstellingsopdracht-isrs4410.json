@@ -1,0 +1,75 @@
+{
+  "id": "samenstellingsopdracht-isrs4410",
+  "naam": "Samenstellingsopdracht (ISRS 4410)",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.I.A", "1.6.I.C", "1.6.IV.C"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.I.A",
+    "dekt_ook_anchors": ["1.6.I.C", "1.6.IV.C"],
+    "reviewed_by": null
+  },
+  "verplichting": {
+    "text": "Bij een samenstellingsopdracht (ISRS 4410) past de gecertificeerd accountant zijn vakkennis inzake financiële verslaggeving en boekhoudkundige verwerking toe om het management bij te staan bij het opmaken en presenteren van historische financiële informatie zonder een assurance-oordeel uit te brengen. Het is dus géén audit of review.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA-norm Samenstellingsopdrachten (ISRS 4410 herzien)"},
+    "_provenance": {"inputs": [
+      {"id": "ITAA-norm-samenstellingsopdrachten-isrs4410__sec_norm-inzake-de-samenstellingsopdrachten", "sha256": null, "version": "rag-v1"},
+      {"id": "ITAA-norm-samenstellingsopdrachten-isrs4410__sec_toepassing-van-isrs-4410-herzien-samenstellingsopdrachten-in", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Meubelzaak Mertens BV doet haar boekhouding zelf maar wil hulp bij de jaarafsluiting. Sofie Janssens (gecertificeerd accountant) verwerkt afschrijvingen, herclassificeert posten en stelt de jaarrekening op in het wettelijk schema. Haar samenstellingsverslag vermeldt expliciet: 'wij hebben geen audit of beoordelingswerkzaamheden uitgevoerd — er is geen oordeel of conclusie'.",
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Opdracht aanvaarden + ethische voorschriften",
+      "wat": "Toets onafhankelijkheid is NIET vereist (geen assurance), maar wel andere ethische voorschriften (integriteit, vakbekwaamheid). Opdrachtbrief opstellen.",
+      "hoe": "1. Check of de cliënt het van toepassing zijnde verslaggevingsstelsel begrijpt (vaak Belgisch jaarrekeningenrecht / KB WVV). 2. Stel opdrachtbrief op met scope, verantwoordelijkheden, ereloon. 3. Laat de cliënt erkennen dat zij verantwoordelijk blijft voor de financiële overzichten.",
+      "grondslag": "ITAA-norm Samenstellingsopdrachten (ISRS 4410) §Doelstellingen"
+    },
+    {
+      "nr": 2,
+      "titel": "Inzicht verwerven in de cliënt",
+      "wat": "De beroepsbeoefenaar moet de aard van de cliënt, haar activiteiten en haar boekhoudkundige systemen begrijpen — voldoende om de opdracht uit te voeren.",
+      "hoe": "Bevragingen bij management, doorlezen van vorige jaarrekeningen, kennen van sector en grondslagen voor financiële verslaggeving.",
+      "grondslag": "ITAA-norm Samenstellingsopdrachten (ISRS 4410)"
+    },
+    {
+      "nr": 3,
+      "titel": "Cijfers samenstellen + onjuistheden corrigeren",
+      "wat": "De beroepsbeoefenaar verwerkt onderliggende stukken en stelt de financiële overzichten op. Bij onjuistheden, onvolledigheid of misleiding moet hij de cliënt verzoeken bij te sturen.",
+      "hoe": "Boekhoudkundige verwerking, classificatie, schemakeuze (volledig/verkort/microschema). Bij weigering tot correctie: verslag aanpassen of opdracht terugtrekken.",
+      "grondslag": "ITAA-norm Samenstellingsopdrachten (ISRS 4410)"
+    },
+    {
+      "nr": 4,
+      "titel": "Samenstellingsverslag uitbrengen",
+      "wat": "Schriftelijk verslag met o.m. titel, geadresseerde, identificatie van de financiële overzichten, beschrijving werkzaamheden, expliciete mededeling 'geen assurance', handtekening en datum.",
+      "hoe": "Volg de modelverslagen in de norm. Cruciaal: vermeld dat noch audit noch beoordeling werd uitgevoerd.",
+      "grondslag": "ITAA-norm Samenstellingsopdrachten (ISRS 4410) §Modellen van samenstellingsverslagen"
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "contractuele-beoordelingsopdracht",
+      "verschil": "Samenstelling = GEEN assurance, geen oordeel, geen conclusie. Beoordeling = beperkte assurance, conclusie in negatieve vorm. Bij samenstelling helpt de accountant de cijfers opmaken; bij beoordeling toetst hij ze.",
+      "trigger": "Examenvraag: 'wordt zekerheid verschaft over de jaarrekening?' Nee → samenstelling. Ja, beperkt → beoordeling. Ja, redelijk → controle.",
+      "_provenance": {"inputs": [{"id": "ITAA-norm-samenstellingsopdrachten-isrs4410__sec_norm-inzake-de-samenstellingsopdrachten", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Onafhankelijkheid is NIET vereist (geen assurance) — wel andere ethische voorschriften (integriteit, vakbekwaamheid, vertrouwelijkheid, professioneel gedrag). Foutieve aanname in examens: alle accountantsopdrachten zouden onafhankelijkheid vereisen. Bij samenstelling niet.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA-norm Samenstellingsopdrachten (ISRS 4410)"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-samenstellingsopdrachten-isrs4410__sec_norm-inzake-de-samenstellingsopdrachten", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "vergelijkt-met", "target": "contractuele-beoordelingsopdracht", "redenering": "Beide zonder volledige audit, maar beoordeling is wél assurance."},
+    {"type": "onderdeel-van", "target": "opdrachten-gecertificeerd-accountant", "redenering": "Behoort tot het brede palet aan opdrachten van een gecertificeerd accountant."}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "schriftelijke-bevestiging-management",
+  "naam": "Schriftelijke bevestiging van het management (management representation letter)",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.II.C", "1.6.III.E"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.II.C",
+    "dekt_ook_anchors": ["1.6.III.E"],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Een schriftelijke bevestiging is een schriftelijke verklaring van het management — verstrekt aan de beroepsbeoefenaar — met als doel bepaalde aangelegenheden te bevestigen of andere assurance-informatie te onderbouwen. Schriftelijke bevestigingen omvatten NIET de financiële overzichten zelf, niet de daarin opgenomen beweringen en niet de onderliggende boekingen.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1"},
+    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"}]}
+  },
+  "voorbeeld_inline": "Aan het einde van de audit van Rotex 2025 vraagt Sofie Janssens een 'management representation letter' aan de CFO + de voorzitter RvB: bevestigingen over volledigheid van geschillen, alle relevante info verschaft, geen gekende fraude, gebruik van continuïteitsveronderstelling, juistheid van schattingen. De brief is ondertekend en gedateerd vóór de datum van het controleverslag.",
+  "in_praktijk": [
+    {
+      "aspect": "Niet vervangbaar door audit-werk",
+      "betekenis": "Een management representation letter is GEEN substantive audit evidence — het is een aanvulling, geen vervanging. Een bevestiging dat 'voorraden correct gewaardeerd zijn' compenseert geen ontbrekende inventarisatie.",
+      "confidence": "inferred-from-aggregation",
+      "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "assurance-informatie", "redenering": "Bron van assurance-informatie — laag in de hiërarchie."}
+  ]
+}

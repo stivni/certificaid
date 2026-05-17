@@ -1,0 +1,126 @@
+{
+  "id": "toetsing-interne-beheersing",
+  "naam": "Toetsing van interne beheersing (test of controls)",
+  "node_type": "methode",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": [
+    "1.6.II.C",
+    "1.6.II.B",
+    "1.7.V.C",
+    "1.7.VIII.F",
+    "1.7.XI"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.II.C",
+    "dekt_ook_anchors": [
+      "1.6.II.B",
+      "1.7.V.C",
+      "1.7.VIII.F",
+      "1.7.XI"
+    ],
+    "reviewed_by": null,
+    "po_1_7_upgrade": {
+      "op": "2026-05-17",
+      "reden": "Concept dekt ook 1.7-anchors (interne controle): linked_anchors aangevuld via concept-extractie-v4 voor 1.7."
+    }
+  },
+  "doel": {
+    "text": "Een toetsing van interne beheersing is een controlemaatregel die de auditor opzet om te evalueren of de interne beheersing van de cliënt werkt zoals beoogd — d.w.z. of zij afwijkingen op het niveau van beweringen voorkomt of tijdig ontdekt en corrigeert.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1 + §97-§98"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "voorbeeld_inline": "Sofie Janssens wil bij Rotex Roeselare NV steunen op de IC rond aankopen. Zij test 25 willekeurig gekozen aankoopfacturen: voor elk gaat ze na of er drie handtekeningen op zitten (besteller, magazijnier, CFO) en of het bedrag binnen de delegatieprocuratie blijft. 0 fouten → IC werkt → minder substantive testing nodig.",
+  "bouwstenen": [
+    {
+      "titel": "Wanneer toetsen",
+      "wat": "Wanneer de auditor wil STEUNEN op de werking van een IC-maatregel om minder gegevensgerichte werkzaamheden te doen. Anders niet verplicht.",
+      "waarom": "Toetsen kost tijd — alleen lonend wanneer je daarna kunt schalen op de IC.",
+      "grondslag": "ITAA KMO-controlenorm §97",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §97"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Overwegingen bij opzet",
+      "wat": "Aard en draagwijdte van de IC, gedekte periode, frequentie van uitvoering, belangrijke veranderingen tijdens het boekjaar, afhankelijkheid van andere IC-maatregelen.",
+      "waarom": "Een IC die alleen aan het einde van het boekjaar werd ingevoerd kan niet over de volledige periode gesteund worden.",
+      "grondslag": "ITAA KMO-controlenorm §98",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §98"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Hoe sterker je op een IC wil steunen, hoe overtuigender de assurance-informatie moet zijn. Niet 5 items testen en concluderen 'IC werkt' — de omvang van de steekproef hangt af van de mate van steun.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §97"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "assurance-informatie",
+      "redenering": "Bron van audit-bewijs."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "gegevensgerichte-werkzaamheden",
+      "redenering": "Twee complementaire manieren om assurance te verkrijgen."
+    }
+  ]
+}

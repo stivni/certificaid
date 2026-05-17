@@ -19,7 +19,7 @@ node_type: regel
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/niet-in-balans-opgenomen-rechten-verplichtingen.json
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Niet in de balans opgenomen rechten en verplichtingen ⚖️
 

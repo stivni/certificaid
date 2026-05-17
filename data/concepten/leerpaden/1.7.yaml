@@ -1,0 +1,224 @@
+programmaonderdeel: "1.7"
+titel: "Interne controle"
+status: voorgesteld
+schema_version: "1.0"
+hoofdstukken:
+  - type: oriëntatie
+    titel: "Waarom interne controle? Van procedure naar systeem"
+    rationale_hint: >-
+      Vertrek vanuit de vraag waarom een organisatie eigen controlemechanismen
+      opzet, naast de externe controle. Verbind de drie doelstellingen-categorieën
+      uit COSO (operationeel, financiële rapportering, compliance) met de
+      stakeholders die hier belang bij hebben: bestuur, management,
+      aandeelhouders, fiscus, werknemers, externe auditor. Maak duidelijk dat
+      interne controle geen losse procedurelijst is maar een geïntegreerd
+      systeem — een onderscheid dat in heel PO 1.7 terugkeert. Verwijs naar
+      de records interne-controle, controle-begrip-algemeen en externe-controle
+      voor de afbakening tegenover externe controle (audit, fiscale en sociale
+      autoriteiten) en naar onderneming-begrip-ic + stromen-onderneming als
+      het organisatorische canvas waarop het IC-systeem zit. Maak de stagiair
+      bewust dat het examen vooral toetst of hij IC kan redeneren — niet of
+      hij procedurelijstjes uit het hoofd kent.
+
+  - type: synthese
+    synthese_id: kenmerken-interne-controle
+    rationale_hint: >-
+      Plaats deze synthese vroeg als kapstok voor het hele begrippen-luik.
+      Ze brengt de kenmerken van een goed IC-systeem (effectief, efficiënt,
+      adequaat, betrouwbaar, redelijke zekerheid) samen tegenover de
+      inherente beperkingen (collusion, management override, kostenbatenanalyse).
+      De student krijgt meteen het mentale model: IC is een ontwerp-evenwicht,
+      geen perfectie-oefening. Dit hoofdstuk fundeert het redeneren in de
+      latere COSO-, risico- en controle-activiteiten-blokken.
+
+  - type: thematisch
+    titel: "Begrippen-fundament: interne controle, informatie en ethiek"
+    concepten:
+      - controle-begrip-algemeen
+      - onderneming-begrip-ic
+      - stromen-onderneming
+      - informatiesysteem-onderneming
+      - informatie-kwaliteit-ic
+      - ethiek-organisatie-ic
+
+  - type: synthese
+    synthese_id: actoren-interne-controle
+    rationale_hint: >-
+      Na het begrippen-fundament volgt de wie-vraag. Deze synthese ordent
+      alle actoren rond IC: bestuursorgaan + algemene vergadering
+      (toezichtsrol), management (eerste lijn, opzet en uitvoering),
+      auditcomité (toezicht op IC), interne auditor (onafhankelijke
+      verzekering, derde lijn), externe auditor/commissaris (controle van
+      jaarrekening), en de medewerkers (operationele uitvoering). De
+      synthese plaatst hen op het drie-lijnen-model en verwijst naar het
+      governance-luik dat later in concrete competenties terugkeert.
+
+  - type: thematisch
+    titel: "Actoren en organen: management, interne audit, auditcomité"
+    concepten:
+      - managementcontrole
+      - interne-audit
+      - functie-interne-auditor
+      - auditcomite
+      - drie-lijnen-model
+      - externe-auditor-relatie-ic
+      - externe-controle
+
+  - type: synthese
+    synthese_id: coso-componenten-synthese
+    rationale_hint: >-
+      Hier komt het centrale raamwerk van PO 1.7 op tafel. Plaats de vijf
+      COSO 2013-componenten (controle-omgeving, risico-inschatting,
+      controle-activiteiten, informatie en communicatie, monitoring) in
+      één visueel overzicht, met per component de 17 principes als bijlage
+      en de doorverwijzing naar het uitgebreidere COSO ERM-framework (COSO
+      II). Dit hoofdstuk fundeert de zes competenties die hierop volgen —
+      elke competentie kan teruggevoerd worden naar één of meerdere
+      COSO-componenten. Verbind ook met coso-i-framework en
+      coso-ii-erm-framework als referentie-records.
+
+  - type: competentie
+    competentie_id: ontwerpen-intern-controlesysteem-coso
+
+  - type: thematisch
+    titel: "Risicobeheer en digitale omgeving: van auditrisicomodel naar cyberrisico"
+    concepten:
+      - auditrisicomodel
+      - auditrisico-1-7-context
+      - intern-beheersingsrisico
+      - geinformatiseerde-omgeving-ic
+      - cyberrisico-ic
+
+  - type: competentie
+    competentie_id: uitvoeren-risicoanalyse-organisatie
+
+  - type: competentie
+    competentie_id: implementeren-functiescheiding-transactiecycli
+
+  - type: thematisch
+    titel: "Controle-activiteiten en monitoring in detail"
+    concepten:
+      - uitvoering-interne-controle
+      - controleproces-organisatie
+      - controlemiddelen-ic
+      - toetsing-interne-beheersing
+
+  - type: competentie
+    competentie_id: opzetten-controleactiviteiten-en-monitoring
+
+  - type: synthese
+    synthese_id: fouten-en-fraude
+    rationale_hint: >-
+      Deze synthese geeft de student het drieluik fout-fraude-verspilling
+      met definities, juridische gevolgen en detectie-strategie per
+      categorie. Verbind met de fraudedriehoek (Cressey) en ACFE-typologie
+      als vakdoctrine, en met de Wet 28 november 2022 klokkenluiderregeling
+      als wettelijke verankering. De synthese fundeert de competentie
+      identificeren-fouten-fraude-verspilling die hierna komt.
+
+  - type: competentie
+    competentie_id: identificeren-fouten-fraude-verspilling
+
+  - type: synthese
+    synthese_id: cyclus-analyse-ic
+    rationale_hint: >-
+      Vergelijkende synthese over de vijf transactiecycli (aankoop, verkoop,
+      productie, HR/loon, voorraad/kas) met per cyclus de typische risico's,
+      kritische controles en functiescheidings-eisen. Dit hoofdstuk is de
+      praktische landing van wat eerder conceptueel werd ontwikkeld
+      (functiescheiding + controle-activiteiten) op concrete bedrijfsprocessen.
+      Let op: de onderliggende cyclus-records zijn nog dun (zie gaps);
+      deze synthese geeft de student het overzicht dat in de minicursus
+      moet worden uitgediept.
+
+  - type: thematisch
+    titel: "Transactiecycli in detail: aankoop, verkoop, productie, HR, voorraad"
+    concepten:
+      - aankoopcyclus-ic
+      - verkoopcyclus-ic
+      - productiecyclus-ic
+      - hr-cyclus-ic
+      - voorraadcyclus-ic
+      - taakverdeling-ic
+      - opvolging-verrichtingen-ic
+
+  - type: synthese
+    synthese_id: wettelijk-kader-ic
+    rationale_hint: >-
+      Plaats het Belgische en internationale wettelijk kader van interne
+      controle als één overzicht: WVV-bepalingen (bestuursorgaan,
+      auditcomité, IC voor grote NV en organisaties van openbaar belang),
+      Corporate Governance Code 2020, AVG voor data-aspecten, Wet
+      klokkenluider 2022. Dit hoofdstuk wordt ondersteund door de twee
+      vervolg-syntheses (ISA en ITAA-normen) en dient als juridische
+      ankerpunt voor de student.
+
+  - type: synthese
+    synthese_id: isa-standaarden-ic
+    rationale_hint: >-
+      Korte synthese over hoe ISA 315 (IC-begrip), ISA 240 (fraude) en
+      ISA 330 (responses) de externe auditor naar het IC-systeem laten
+      kijken. Voor PO 1.7 vooral relevant omdat het kader bepaalt welke
+      verwachting de externe auditor heeft over IC-design en operating
+      effectiveness — een spiegel die het IC-ontwerp en de interne-audit-
+      methodologie indirect stuurt. Sluit aan met de ITAA-normen-synthese
+      hieronder; samen vormen ze het normenkader voor het IC-werk.
+
+  - type: synthese
+    synthese_id: itaa-normen-ic
+    rationale_hint: >-
+      Synthese over de ITAA-normen die IC raken: algemene controlenorm
+      en KMO-controlenorm (§96-§98) over IC-begrip en -toetsing, plus de
+      relevante deontologische normen. Beperk je hier tot wat de student
+      examenmatig moet kennen: welke normen welk aspect raken, niet de
+      volledige tekst. Hier sluit het normen-blok aan op de wettelijke
+      synthese — samen leveren ze het volledige normatieve kader voor
+      de competenties die hierna komen.
+
+  - type: competentie
+    competentie_id: beoordelen-effectiviteit-ic-via-interne-audit
+
+  - type: competentie
+    competentie_id: opstellen-intern-audit-rapport
+
+  - type: competentie
+    competentie_id: integreren-avg-compliance-in-ic
+
+  - type: competentie
+    competentie_id: adviseren-management-ic-design-als-externe-adviseur
+
+  - type: synthese
+    synthese_id: bijzondere-verslagen-overzicht
+    rationale_hint: >-
+      Synthese over de bijzondere verslagen onder WVV (inbreng in natura
+      art. 5:7/7:7, quasi-inbreng art. 5:8/7:8, uitkeringen art. 5:142/7:212,
+      ontbinding art. 2:71 et seq.) met per verslagtype de bevoegde
+      verslaggever (bedrijfsrevisor versus gecertificeerd accountant),
+      wettelijke vereisten en typische valkuilen. Plaatst de
+      bijzondere-verslagen-competentie in haar wettelijke context.
+
+  - type: competentie
+    competentie_id: opstellen-bijzondere-verslagen-en-ic-evaluaties
+
+  - type: oriëntatie
+    titel: "Reflectie: interne controle als systeem, niet als procedurelijst"
+    rationale_hint: >-
+      Sluit af met een synthetiserende reflectie. Hervat de drie centrale
+      inzichten van PO 1.7: (1) IC is een geïntegreerd systeem met design
+      én operating effectiveness, niet een verzameling losse controles
+      (verbind met records kenmerken-interne-controle en evaluatie-interne-
+      controle); (2) de vijf COSO-componenten zijn een denkkader, geen
+      checklist (record coso-componenten-synthese); (3) IC werkt alleen
+      als de juiste actoren in de juiste lijn zitten — drie-lijnen-model
+      als organisatorische vertaling (records drie-lijnen-model en
+      actoren-interne-controle). Maak de overstap naar PO 1.6 (externe
+      controle) door op te merken dat de externe auditor IC-design en
+      operating effectiveness toetst als basis voor zijn risicoanalyse, en
+      naar PO 1.2 (boekhoudkundige organisatie) door te tonen dat IC en
+      boekhoudorganisatie elkaar onderling versterken.
+
+_provenance:
+  voorgesteld_door: "leerpad-propose-v1-po-1.7-2026-05-17T00:00Z"
+  voorgesteld_op: "2026-05-17T00:00:00+00:00"
+  gecureerd_door: null
+  gecureerd_op: null

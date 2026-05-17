@@ -1,0 +1,69 @@
+{
+  "id": "ifrs-16-lessee-vs-lessor-overzicht",
+  "naam": "IFRS 16 — lessee versus lessor: overzicht en asymmetrie",
+  "node_type": "synthese",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.5.V.C", "1.5.V"],
+  "_provenance": {
+    "extractor_run": "verify-run-1.5-2026-05-17",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.5.V.C",
+    "dekt_ook_anchors": ["1.5.V"],
+    "reviewed_by": null,
+    "motivering_synthese": "IFRS 16 vervangt IAS 17 voor lessees met een single model (alle leases on-balance), maar bewaart voor lessors het oude binaire model operationele/financiële lease (alinea 61-66). Deze asymmetrie is een notoir examenval en wordt nergens als één coherent pedagogisch overzicht samengebracht. De synthese koppelt `leasing-ifrs`, `right-of-use-actief` en `leaseverplichting-ifrs` aan het lessor-perspectief dat in geen enkel ander record uitgewerkt is."
+  },
+  "gebaseerd_op_concepten": [
+    "leasing-ifrs",
+    "right-of-use-actief",
+    "leaseverplichting-ifrs",
+    "leasing"
+  ],
+  "vergelijkingstabel": "| Aspect                          | Lessee (huurder) onder IFRS 16                                                          | Lessor (verhuurder) onder IFRS 16                                                                                |\n|---------------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|\n| **Klassificatiemodel**         | **Single model** — geen onderscheid meer; alle leases on-balance (alinea 22)             | **Binair model bewaard** uit IAS 17 — operationele versus financiële lease (alinea 61)                            |\n| **Balansopname**               | ROU-actief + leaseverplichting bij aanvang (alinea 22-26)                                | Financiële lease: vordering ter waarde van netto-investering; operationele lease: actief blijft op balans lessor   |\n| **Klassificatiecriteria**      | Niet van toepassing — single model                                                       | Risico- en voordelen-overdracht (alinea 63-65): eigendomsoverdracht, koopoptie, leaseperiode ≈ economische levensduur, contante waarde leasebetalingen ≈ reële waarde activum |\n| **Resultatenrekening lessee**  | Splitsing: **afschrijving ROU** (lineair, IAS 16-model) + **rentelast** (effectief)        | Niet van toepassing                                                                                              |\n| **Resultatenrekening lessor**  | Niet van toepassing                                                                      | Financiële lease: **rente-inkomsten** (effectieve methode); operationele lease: **huuropbrengst** (lineair over leaseperiode, alinea 81) |\n| **Vrijstellingen**             | Kortlopend (≤ 12 mnd, geen koopoptie) + lage waarde (≤ ca. € 5.000); huurlast in W&V       | Geen vrijstellingen — elke lease klassificeren                                                                    |\n| **Disconteringsvoet**          | Impliciete rentevoet OF marginale rentevoet lessee (alinea 26)                            | Impliciete rentevoet van de leaseovereenkomst (gekend door lessor)                                                |\n| **Verkoop-en-terugleasing**    | Lessee na transactie: ROU + leaseverplichting (IFRS 15-criteria voor 'verkoop')           | Lessor neemt actief op als koper, klassificeert dan opnieuw als operationeel/financieel                            |",
+  "beslisboom": "```mermaid\nflowchart TD\n    A[Leaseovereenkomst IFRS 16] --> B{Lessee of lessor?}\n    B -->|Lessee| L1[Single model — alinea 22]\n    L1 --> L2{Kortlopend of lage waarde?}\n    L2 -->|Ja, gekozen| L3[Huurlast in W&V — alinea 5-6]\n    L2 -->|Nee| L4[ROU-actief + leaseverplichting bij aanvang]\n    L4 --> L5[Afschrijving ROU + rentelast leaseverplichting]\n    B -->|Lessor| R1{Risico's en voordelen overgedragen?}\n    R1 -->|Substantieel ja| R2[**Financiële lease** — alinea 67-73]\n    R2 --> R3[Boek leasevordering = netto-investering; rente-inkomsten effectief]\n    R1 -->|Nee, behoud lessor| R4[**Operationele lease** — alinea 81-87]\n    R4 --> R5[Activum blijft op balans lessor; huur lineair over leaseperiode]\n    R1 -->|Twijfel — typische triggers?| R6[Test 5 indicatoren alinea 63: eigendomsoverdracht / koopoptie / 75-80% economische levensduur / contante waarde ≈ reële waarde / gespecialiseerd actief]\n```",
+  "valkuilen": [
+    {
+      "text": "Symmetrie veronderstellen tussen lessee en lessor is een klassieke examenval: een lease die voor de lessee on-balance staat (ROU + verplichting), is voor de lessor niet automatisch financieel. Zelena Bio NV huurt productiehal van Vastgoed Veurne NV — Zelena boekt ROU € 3.894.000 + leaseverplichting € 3.894.000; Vastgoed Veurne klassificeert mogelijk operationeel (geen risico-overgang) en houdt het gebouw op haar balans plus lineaire huuropbrengst € 480.000/jaar.",
+      "confidence": "grounded",
+      "source": {"type": "ifrs", "short": "IFRS 16 alinea 22 (lessee) versus 61-62 (lessor)"},
+      "_provenance": {"inputs": [
+        {"id": "IFRS-16-leaseovereenkomsten__sec_lessee", "sha256": null, "version": "rag-v1"},
+        {"id": "IFRS-16-leaseovereenkomsten__sec_lessor", "sha256": null, "version": "rag-v1"}
+      ]}
+    },
+    {
+      "text": "Lessor-klassificatie gebeurt bij aanvang en wordt niet herzien tenzij wijziging in voorwaarden (alinea 66). Wie achteraf 'operationeel' herklassificeert omdat de markt verandert, miskent dat alleen contractuele wijziging een nieuwe klassificatie triggert.",
+      "confidence": "grounded",
+      "source": {"type": "ifrs", "short": "IFRS 16 alinea 66"},
+      "_provenance": {"inputs": [
+        {"id": "IFRS-16-leaseovereenkomsten__sec_lessor", "sha256": null, "version": "rag-v1"}
+      ]}
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "leasing-ifrs",
+      "redenering": "Synthese verdiept de twee perspectieven die in `leasing-ifrs` beknopt vermeld zijn.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "right-of-use-actief",
+      "redenering": "Lessee-zijde gebruikt ROU-concept.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "leaseverplichting-ifrs",
+      "redenering": "Lessee-zijde gebruikt leaseverplichting-concept.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "leasing",
+      "redenering": "BE-GAAP-leasing (CBN 2015/04) bewaart het binaire model voor zowel lessee als lessor — anders dan IFRS 16-lessee-single-model.",
+      "confidence": "grounded"
+    }
+  ]
+}

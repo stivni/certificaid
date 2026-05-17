@@ -1,0 +1,40 @@
+{
+  "id": "verspilling",
+  "naam": "Verspilling (rationeel gebruik van middelen)",
+  "node_type": "fenomeen",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.VI.C", "1.7.VI"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T10:14Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.VI.C",
+    "dekt_ook_anchors": ["1.7.VI"],
+    "reviewed_by": null,
+    "bron_gap": "Verspilling/economie van middelen als IC-onderwerp is geen Belgisch wetsbegrip. Inferred-common-knowledge."
+  },
+  "definitie": {
+    "text": "Verspilling is het niet-optimaal inzetten van middelen — geen fraude (geen opzet om te verrijken) maar wel ondoelmatig gebruik. IC moet niet alleen fouten en fraude voorkomen, maar ook bijdragen tot efficiëntie: middelen worden gebruikt waarvoor ze nodig zijn, en geen overstock, geen idle capaciteit, geen overprocurement. Hoort bij COSO-doelstelling 'effectiviteit en efficiëntie van activiteiten'.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Bij Yperse Werkplaats BV staat een productiemachine 30% van de tijd stil door slechte planning. Geen fraude, geen fout in de boekhouding — maar significant verspild kapitaal en arbeid. Een IC-evaluatie door Sofie Janssens (interne auditor) kan dit signaleren via capaciteitsanalyse en operatie-KPI's. Aanbeveling: planningsmodule in ERP, betere productieplanning.",
+  "in_praktijk": [
+    {
+      "aspect": "Typische bronnen van verspilling",
+      "betekenis": "(1) Overstock: te veel voorraad → kapitaalkosten + bederfrisico. (2) Underutilization: machines, ruimtes, personeel niet voldoende ingezet. (3) Process inefficiency: dubbele invoer, wachttijden, niet-toegevoegde-waarde-stappen. (4) Buying waste: betalen voor diensten die niet (volledig) gebruikt worden — abonnementen, licenties.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "IC-respons",
+      "betekenis": "Periodieke evaluatie van KPI's (capaciteitsbezetting, voorraadrotatie, kost per eenheid), benchmarking, beslissingsdrempels bij grote aankopen, periodieke review abonnementen + licenties. Niet primair een boekhoudkundige controle maar managementcontrole-uitwerking.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Een van de drie IC-doelstellingen is efficiëntie/effectiviteit — verspilling tegengaan."},
+    {"type": "vergelijkt-met", "target": "managementcontrole", "redenering": "Verspilling-detectie ligt op snijpunt van IC en managementcontrole."}
+  ]
+}

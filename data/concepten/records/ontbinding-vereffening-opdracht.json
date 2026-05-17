@@ -1,0 +1,44 @@
+{
+  "id": "ontbinding-vereffening-opdracht",
+  "naam": "Ontbinding-vereffening opdracht van de gecertificeerd accountant",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.6.I.B", "1.6.I.A", "1.6.IV.C"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.I.B",
+    "dekt_ook_anchors": ["1.6.I.A", "1.6.IV.C"],
+    "reviewed_by": null
+  },
+  "verplichting": {
+    "text": "Bij ontbinding-vereffening verleent de gecertificeerd accountant (of bedrijfsrevisor) een wettelijk verplicht verslag over de staat van actief en passief op een datum die maximaal drie maanden voor de algemene vergadering ligt. Dit is een gedeelde wettelijk voorbehouden opdracht: enkel uit te voeren door GA of bedrijfsrevisor, en alleen door de commissaris indien er één is.",
+    "confidence": "grounded",
+    "source": {"type": "norm", "short": "ITAA-norm Ontbinding-vereffening §2 + IV"},
+    "_provenance": {"inputs": [
+      {"id": "ITAA-norm-ontbinding-vereffening__sec_2-verantwoordelijkheden-van-de-gecertificeerd-accountant", "sha256": null, "version": "rag-v1"},
+      {"id": "ITAA-norm-ontbinding-vereffening__sec_iv-oordeel-en-verslag-iv-1-het-vormen-van-het-oordeel", "sha256": null, "version": "rag-v1"}
+    ]}
+  },
+  "voorbeeld_inline": "Verffabriek Veurne BV wil zich ontbinden. De aandeelhouders besluiten tot vrijwillige vereffening. Geen commissaris → Sofie Janssens (gecertificeerd accountant) krijgt de opdracht. Zij toetst de staat van actief en passief, beoordeelt de continuïteit van de waardering, controleert of de waarderingsregels zijn aangepast aan stopzetting (going concern → going-out-of-business), en levert haar verslag af aan de buitengewone algemene vergadering.",
+  "in_praktijk": [
+    {
+      "aspect": "Verslag aan de buitengewone algemene vergadering",
+      "betekenis": "Het ontbindingsverslag wordt voorgelegd aan de BAV samen met het bestuursverslag. Het bevat een conclusie over of de staat van actief en passief een getrouw beeld geeft.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA-norm Ontbinding-vereffening IV.2"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-ontbinding-vereffening__sec_iv-2-verslag", "sha256": null, "version": "rag-v1"}]}
+    },
+    {
+      "aspect": "Werkdocumenten + bewaring",
+      "betekenis": "Specifieke documentatieverplichting: alle gegevens en oordelen die het verslag onderbouwen worden bewaard in een controledossier dat valt onder beroepsgeheim en bewaarplicht van de Algemene Controlenorm.",
+      "confidence": "grounded",
+      "source": {"type": "norm", "short": "ITAA-norm Ontbinding-vereffening I.5"},
+      "_provenance": {"inputs": [{"id": "ITAA-norm-ontbinding-vereffening__sec_i-5-documentatie", "sha256": null, "version": "rag-v1"}]}
+    }
+  ],
+  "edges": [
+    {"type": "specialisatie-van", "target": "gedeelde-wettelijk-voorbehouden-opdracht", "redenering": "Typisch voorbeeld van gedeelde wettelijk voorbehouden opdracht."}
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "costing-methodes-vergelijking",
+  "naam": "Kostencalculatiemethoden vergeleken",
+  "node_type": "synthese",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.III", "1.8.III.A", "1.8.III.B", "1.8.III.C", "1.8.III.F"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.III",
+    "dekt_ook_anchors": ["1.8.III.A", "1.8.III.B", "1.8.III.C", "1.8.III.F"],
+    "reviewed_by": null
+  },
+  "gebaseerd_op_concepten": [
+    "volledige-kostencalculatie",
+    "direct-costing",
+    "voorbepaalde-kosten",
+    "abc-methode"
+  ],
+  "vergelijkingstabel": "| Methode | Welke kosten in kostprijs? | Voorraadwaarde | Beste voor | Wettelijk voor jaarrekening? |\n|---|---|---|---|---|\n| **Volledige kostencalculatie (full costing)** | Alle directe + alle indirecte productiekosten | Hoog (vaste kost gaat in voorraad) | Voorraadwaardering, lange-termijn-prijszetting | Ja (CBN 132/7 — standaard) |\n| **Direct costing** | Alleen variabele kosten | Laag (vaste kost meteen in RR) | Break-even, marge-analyse, beslissingen | Ja, mits in waarderingsregels (CBN 2012/15) |\n| **Voorbepaalde / standaardkosten** | Norm-tarieven × werkelijke hoeveelheid | Norm-niveau (verschillen apart) | Snelle kostencontrole, budgetbeheer | Enkel als afwijking klein is |\n| **ABC-methode** | Alle kosten, maar verdeeld via activiteiten en cost drivers | Vergelijkbaar met full costing | Productmix-analyse, complexiteits-kosten | Niet expliciet — proxy voor full costing |",
+  "beslisboom": "```mermaid\nflowchart TD\n  A[Welke kostencalculatiemethode kiezen?] --> B{Doel: jaarrekening<br>of interne sturing?}\n  B -->|Jaarrekening| C[Volledige kostencalculatie<br>standaard CBN 132/7]\n  B -->|Sturing| D{Wat wil je weten?}\n  D -->|Break-even, marge,<br>extra-order| E[Direct costing]\n  D -->|Verschillen vs. budget,<br>snelle controle| F[Voorbepaalde kosten]\n  D -->|Complexiteits-kosten,<br>klant-/product-rendabiliteit| G[ABC-methode]\n  C -.alternatief.- E\n  E -.combineerbaar met.- F\n```",
+  "in_praktijk": [
+    {
+      "aspect": "Combinatie in praktijk",
+      "betekenis": "Veel ondernemingen combineren: full costing voor jaarrekening + direct costing voor interne sturing + standaardkosten voor budgetopvolging + ABC voor periodieke product-portfolio-analyse. Yperse Werkplaats BV kan bijvoorbeeld jaarlijks zijn jaarrekening sluiten met full costing en intern maandelijks direct-costing-rapporten draaien voor commercieel team.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "aspect": "Toelichtingsverplichting",
+      "betekenis": "De gekozen voorraadwaarderingsmethode (full of direct costing) moet in de toelichting bij de jaarrekening worden vermeld; wijziging vereist motivatie en kan vergelijkbaarheid met voorgaande jaarrekening aantasten (CBN 2012/15).",
+      "confidence": "grounded",
+      "source": {"type": "cbn", "short": "CBN 2012/15"},
+      "_provenance": {
+        "inputs": [
+          {"id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing", "sha256": null, "version": "rag-v1"}
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {"type": "bevat", "target": "volledige-kostencalculatie", "redenering": "Een van de vergeleken methodes.", "confidence": "inferred"},
+    {"type": "bevat", "target": "direct-costing", "redenering": "Een van de vergeleken methodes.", "confidence": "inferred"},
+    {"type": "bevat", "target": "voorbepaalde-kosten", "redenering": "Een van de vergeleken methodes.", "confidence": "inferred"},
+    {"type": "bevat", "target": "abc-methode", "redenering": "Een van de vergeleken methodes.", "confidence": "inferred"}
+  ]
+}

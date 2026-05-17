@@ -1,0 +1,26 @@
+{
+  "id": "informatie-en-communicatie-ic",
+  "naam": "Informatie en communicatie (COSO-component 4)",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.II.B", "1.7.II.D", "1.7.II"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T09:46Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.II.D",
+    "dekt_ook_anchors": ["1.7.II.B", "1.7.II"],
+    "reviewed_by": null,
+    "bron_gap": "COSO-component vakdoctrine. Inferred-common-knowledge."
+  },
+  "definitie": {
+    "text": "Informatie en communicatie als COSO-component betekent dat relevante, betrouwbare, tijdige informatie tot bij de juiste personen geraakt — zowel naar boven (rapportering aan management), naar beneden (richtlijnen naar uitvoerders), als horizontaal (tussen afdelingen) en extern (naar stakeholders).",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Bij Yperse Werkplaats BV: maandelijkse KPI-dashboard naar directie (omhoog), wekelijkse productie-targets naar voormannen (omlaag), dagelijkse aankoop-productie-afstemming (horizontaal), kwartaalrapport naar bank en aandeelhouders (extern).",
+  "edges": [
+    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Vierde COSO-component."},
+    {"type": "vereist-kennis-van", "target": "informatiesysteem-onderneming", "redenering": "Het informatiesysteem is de drager van informatie & communicatie."}
+  ]
+}

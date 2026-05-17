@@ -9,7 +9,7 @@ programmaonderdelen:
 status: voorgesteld
 schema_version: '1.1'
 gegenereerd_uit: data/concepten/competenties/bepalen-jaarrekeningschema.yaml
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-17'
 ---
 # Bepalen welk jaarrekening-schema (volledig, verkort, micro) een vennootschap moet gebruiken
 

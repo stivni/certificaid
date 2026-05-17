@@ -1,0 +1,81 @@
+{
+  "id": "aankoopcyclus-ic",
+  "naam": "Aankoopcyclus — interne controle",
+  "node_type": "procedure",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.7.IX.A", "1.7.IX"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T10:30Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.IX.A",
+    "dekt_ook_anchors": ["1.7.IX"],
+    "reviewed_by": null,
+    "bron_gap": "Cyclusanalyse als IC-techniek is auditvakdoctrine — geen specifiek Belgisch wetsartikel. ITAA-norm-kmo-controlenorm raakt enkel generiek aan cycli. Inferred-common-knowledge."
+  },
+  "verplichting": "Geen wettelijke verplichting voor specifieke aankoopcyclus-controles. Wel: btw-aftrek vereist correcte facturen (WBTW); boekhoudkundige verplichtingen vereisen documentatie (KB 21.10.2018).",
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Behoeftebepaling + bestelaanvraag",
+      "wat": "De inkoper of behoeftesteller identificeert wat nodig is en doet een bestelaanvraag.",
+      "waarom": "Zonder formele aanvraag riskeer je dubbele aankopen, onnodige aankopen, niet-geautoriseerde aankopen.",
+      "hoe": "1. Aanvraag via standaardformulier of ERP-module.\n2. Specificeer leverancier, hoeveelheid, prijs, kostencentrum.\n3. Verstuur naar autoriserende verantwoordelijke.",
+      "grondslag": "Audit-cyclusanalyse-doctrine"
+    },
+    {
+      "nr": 2,
+      "titel": "Autorisatie",
+      "wat": "Goedkeuring door bevoegde persoon volgens delegatie-procuratie (typisch op basis van bedrag).",
+      "waarom": "Onbevoegd aankopen = ongeautoriseerde uitgaven, mogelijk fraude (kickbacks bij bevriende leveranciers).",
+      "hoe": "1. Inkoper Tom Lefèvre tekent < € 5.000.\n2. CFO David tekent < € 25.000.\n3. Algemeen Directeur Pieter Vermeulen tekent ≥ € 25.000.\n4. Boven drempel: dubbele handtekening + voorafgaande mededeling aan RvB.",
+      "voorbeeld": {
+        "scenario": "Bij Yperse Werkplaats BV bestelt productie € 35.000 grondstoffen.",
+        "substappen": [
+          {"nr": 1, "titel": "Procuratie-drempel-overschrijding", "type": "opmerking", "data": "€ 35.000 > € 25.000 → dubbele handtekening verplicht: CFO David + Algemeen Directeur Pieter Vermeulen + voorafgaande melding RvB."}
+        ]
+      },
+      "grondslag": "Delegatie-procuratie-doctrine"
+    },
+    {
+      "nr": 3,
+      "titel": "Bestelling + ontvangst",
+      "wat": "Bestelling verzenden naar leverancier; bij ontvangst goederen tellen + controleren tegen bestelbon.",
+      "waarom": "Zonder ontvangstcontrole riskeer je 'paying for nothing' — facturen betalen voor goederen die nooit zijn geleverd.",
+      "hoe": "1. Bestelbon in ERP creëert verwacht-record.\n2. Magazijnier Bart controleert leveringsbon tegen bestelbon (aantal, kwaliteit).\n3. Tekent voor ontvangst; ERP-bestelbon wordt 'geleverd' gestempeld.\n4. Bij afwijking: meld direct aan inkoper + boekhouding.",
+      "grondslag": "Cyclus-three-way-match-principe"
+    },
+    {
+      "nr": 4,
+      "titel": "Factuurcontrole + boeking",
+      "wat": "Boekhouder controleert factuur tegen bestelbon én leveringsbon ('three-way match') vóór boeking.",
+      "waarom": "Three-way match detecteert facturen voor niet-bestelde of niet-geleverde goederen, prijsafwijkingen, BTW-fouten.",
+      "hoe": "1. Boekhouder Cindy haalt bestelbon en leveringsbon op.\n2. Vergelijkt: aantal, prijs, totaal, BTW.\n3. Bij match: boek in ERP onder juiste kostencentrum.\n4. Bij afwijking: terug naar inkoper voor opheldering.",
+      "grondslag": "Three-way-match-doctrine"
+    },
+    {
+      "nr": 5,
+      "titel": "Betaling",
+      "wat": "Betaling door iemand anders dan de boeker, opnieuw met handtekening volgens drempels.",
+      "waarom": "Wie boekt + betaalt kan fictieve facturen aanmaken en uitbetalen. Scheiding is essentieel.",
+      "hoe": "1. CFO David selecteert facturen voor betaling.\n2. Klassieke uitvoering: digitale ondertekening in bankplatform vóór upload.\n3. Bedragen boven € 25.000: dubbele digitale ondertekening.\n4. Periodieke review bankuittreksels door zaakvoerder Pieter Vermeulen.",
+      "grondslag": "Functiescheiding-doctrine"
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Spoedaankopen omzeilen vaak de hele procedure. Definieer expliciet uitzonderingsprotocol (welke bedragen, welke autorisatie achteraf, welke termijn voor inhaalcontrole).",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    },
+    {
+      "text": "'Persoonlijke aankopen via bedrijfsrekening' is fraude (verduistering). Klassieke detectie: ongebruikelijke leveranciers, ongewone factuuradressen, recurrente kleine bedragen.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Aankoopcyclus is een van de hoofdcycli waarin IC wordt uitgewerkt."},
+    {"type": "vereist-kennis-van", "target": "functiescheiding", "redenering": "Functiescheiding is de ruggengraat van aankoop-IC."}
+  ]
+}

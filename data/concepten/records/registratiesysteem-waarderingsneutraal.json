@@ -1,0 +1,52 @@
+{
+  "id": "registratiesysteem-waarderingsneutraal",
+  "naam": "Waarderingsneutraal registratiesysteem",
+  "node_type": "methode",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.IV.B", "1.8.IV.C"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.IV.B",
+    "dekt_ook_anchors": ["1.8.IV.C"],
+    "reviewed_by": null
+  },
+  "doel": {
+    "text": "Een waarderingsneutraal registratiesysteem vermijdt waarderingsconflicten door belangrijke beslissingen (afschrijvingen, waardeverminderingen, voorraadwaardering) centraal te coördineren en consistent toe te passen tussen algemene en analytische boekhouding. CBN 3/3 beschrijft hiervoor vijf principes — toepasbaar zowel voor joint-ventures als binnen een analytische boekhouding-systeem.",
+    "confidence": "grounded",
+    "source": {"type": "cbn", "short": "CBN-advies 3/3 — Methode die waarderingsneutraal is (5 principes)"},
+    "_provenance": {
+      "inputs": [
+        {"id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_methode-die-waarderingsneutraal-is-5-principes_part1", "sha256": null, "version": "rag-v1"}
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Vermijden van waarderingsconflicten",
+      "wat": "Afschrijvingen, waardeverminderingen en voorraadwaardering eenduidig vaststellen; analytische boekhouding mag niet conflicteren met algemene boekhouding zonder expliciete reden (bv. opportuniteitskost).",
+      "waarom": "Anders raken cijfers per kostencentrum of per drager bezoedeld door methodische verschillen.",
+      "voorbeeld_inline": "Yperse Werkplaats BV past 10-jaar lineaire afschrijving toe op productiemachines in algemene boekhouding én in analytische — geen 'productie-uren-afschrijving' alleen in analytische. Mismatch zou kostprijs onstabiel maken.",
+      "grondslag": "CBN 3/3",
+      "confidence": "grounded",
+      "source": {"type": "cbn", "short": "CBN 3/3"},
+      "_provenance": {
+        "inputs": [
+          {"id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_methode-die-waarderingsneutraal-is-5-principes_part1", "sha256": null, "version": "rag-v1"}
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Algemene-versus-analytische reconciliatie",
+      "betekenis": "Periodieke reconciliatie tussen klasse 6 (algemene) en klasse 9 (analytische) is een sleutel-controle. Verschillen mogen, maar moeten verklaarbaar zijn (interne verrekeningen, opportuniteitskost, verschillen tussen werkelijke en standaardkost).",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "onderdeel-van", "target": "rekeningenstelsel-analytisch", "redenering": "Methodisch principe voor opzet.", "confidence": "inferred"}
+  ]
+}

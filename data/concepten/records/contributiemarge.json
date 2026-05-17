@@ -1,0 +1,114 @@
+{
+  "id": "contributiemarge",
+  "naam": "Contributiemarge",
+  "node_type": "begrip",
+  "schema_version": "1.4",
+  "status": "seed",
+  "linked_anchors": ["1.8.III.B", "1.8.III.D", "1.8.III.E"],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.8.III.B",
+    "dekt_ook_anchors": ["1.8.III.D", "1.8.III.E"],
+    "reviewed_by": null,
+    "bron_gap": "Vakdoctrine"
+  },
+  "definitie": {
+    "text": "De contributiemarge is het verschil tussen verkoopprijs en variabele kost per eenheid (eenheidscontributie) of tussen omzet en totale variabele kosten (totale contributiemarge). Dit bedrag draagt eerst bij aan het dekken van de vaste kosten en daarna aan de winst.",
+    "confidence": "inferred-common-knowledge",
+    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
+    "_provenance": {"inputs": []}
+  },
+  "voorbeeld_inline": "Yperse Werkplaats BV verkoopt een tapijt voor € 60 met variabele kost € 13 per stuk. Eenheidscontributie = € 60 − € 13 = € 47. Bij 10.000 stuks: totale contributiemarge € 470.000.",
+  "berekeningsmethode": [
+    {
+      "naam": "Eenheidscontributie en contributiemarge-ratio",
+      "ratio": "Twee parallelle uitdrukkingen: per stuk in EUR (eenheidscontributie) of als percentage van omzet (contributiemarge-ratio).",
+      "stappen": [
+        {
+          "nr": 1,
+          "titel": "Bereken variabele kost per eenheid",
+          "wat": "Som van directe materiaalkost, directe arbeidskost (indien variabel), variabele indirecte kosten per eenheid.",
+          "hoe": "Verzamel materiaalbon (€ wol), uurregistratie × uurtarief, variabele machine-energie per eenheid.",
+          "grondslag": "[[variabele-kosten]]"
+        },
+        {
+          "nr": 2,
+          "titel": "Bereken eenheidscontributie",
+          "wat": "Verkoopprijs − variabele kost per eenheid.",
+          "hoe": "Eenvoudige aftrekking; output is het bedrag dat elke eenheid bijdraagt aan dekking vaste kost en winst.",
+          "grondslag": "[[direct-costing]]"
+        },
+        {
+          "nr": 3,
+          "titel": "Bereken contributiemarge-ratio",
+          "wat": "Eenheidscontributie / verkoopprijs × 100 % = percentage van elke euro omzet dat bijdraagt aan vaste kost + winst.",
+          "hoe": "Praktisch voor multi-product-mix: een ratio van 35 % betekent dat 35 % van elke verkochte euro voor vaste kost en winst beschikbaar is.",
+          "grondslag": "Vakdoctrine"
+        }
+      ],
+      "formules": [
+        {
+          "id": "eenheidscontributie",
+          "naam": "Eenheidscontributie",
+          "wiskunde": "eenheidscontributie = verkoopprijs per eenheid − variabele kost per eenheid",
+          "variabelen": [
+            {"symbool": "verkoopprijs per eenheid", "betekenis": "Prijs aan klant per stuk", "eenheid": "EUR/stuk"},
+            {"symbool": "variabele kost per eenheid", "betekenis": "Som van alle variabele kosten per stuk", "eenheid": "EUR/stuk"}
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "Yperse Werkplaats BV tapijt: verkoopprijs € 60; variabele kost € 13",
+            "berekening": "€ 60 − € 13 = € 47",
+            "eenheid_resultaat": "EUR/stuk"
+          }
+        },
+        {
+          "id": "totale-contributiemarge",
+          "naam": "Totale contributiemarge",
+          "wiskunde": "totale contributiemarge = omzet − totale variabele kosten",
+          "afhankelijk_van": ["eenheidscontributie"],
+          "variabelen": [
+            {"symbool": "omzet", "betekenis": "Verkochte eenheden × verkoopprijs", "eenheid": "EUR"},
+            {"symbool": "totale variabele kosten", "betekenis": "Verkochte eenheden × variabele kost per stuk", "eenheid": "EUR"}
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "10.000 stuks × € 60 = € 600.000 omzet; 10.000 × € 13 = € 130.000 variabele kost",
+            "berekening": "€ 600.000 − € 130.000 = € 470.000",
+            "eenheid_resultaat": "EUR"
+          }
+        },
+        {
+          "id": "contributiemarge-ratio",
+          "naam": "Contributiemarge-ratio (CM-ratio)",
+          "wiskunde": "CM-ratio = eenheidscontributie / verkoopprijs",
+          "afhankelijk_van": ["eenheidscontributie"],
+          "variabelen": [
+            {"symbool": "eenheidscontributie", "betekenis": "Zie formule eenheidscontributie", "eenheid": "EUR/stuk"},
+            {"symbool": "verkoopprijs", "betekenis": "Verkoopprijs per eenheid", "eenheid": "EUR/stuk"}
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "Eenheidscontributie € 47; verkoopprijs € 60",
+            "berekening": "€ 47 / € 60 = 78,3 %",
+            "eenheid_resultaat": "%"
+          }
+        }
+      ],
+      "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Multi-product-mix",
+      "betekenis": "Bij meerdere producten gebruikt men de gewogen gemiddelde contributiemarge: ∑ (mix-percentage × eenheidscontributie). Bij Yperse Werkplaats BV: 60 % tapijten (€ 47) + 40 % garen (€ 30) → gewogen CM = 0,60×47 + 0,40×30 = € 40,20.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {"inputs": []}
+    }
+  ],
+  "edges": [
+    {"type": "vereist-kennis-van", "target": "variabele-kosten", "redenering": "Variabele kost is component van eenheidscontributie.", "confidence": "inferred"},
+    {"type": "vereist-kennis-van", "target": "break-even-analyse", "redenering": "Contributiemarge is noemer in break-even.", "confidence": "inferred"},
+    {"type": "onderdeel-van", "target": "direct-costing", "redenering": "Contributiemarge is hoofd-output van direct costing.", "confidence": "inferred"}
+  ]
+}
