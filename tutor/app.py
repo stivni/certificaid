@@ -28,6 +28,15 @@ import streamlit as st  # noqa: E402 (streamlit voor sys.path-insert)
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 
+# RAG bootstrap: download de chroma-index uit de "embeddings-latest" GitHub
+# Release als die er nog niet is. Idempotent (setup.sh skipt zelf bij hit).
+# Op Streamlit Cloud staat data/rag/main niet in de repo (gitignored sinds
+# de LFS->Release-migratie), dus moet hij eerst opgehaald worden.
+_chroma_target = ROOT / "data" / "rag" / "main"
+if not (_chroma_target / "chroma.sqlite3").exists() and os.environ.get("CERTIFICAID_CHROMA_PATH") is None:
+    import subprocess
+    subprocess.run(["bash", str(ROOT / "setup.sh")], check=True)
+
 from lib.retrieval import (
     EMBEDDING_MODEL,
     build_retrieval_stack,
