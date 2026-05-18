@@ -27,17 +27,23 @@ EXAMEN_VRAGEN_DIR = ROOT / "data" / "programma" / "examen_vragen"
 TIER_VOLGORDE = {"A": 0, "B": 1, "C": 2}
 
 
-class ExamenfocusCallout(TypedDict):
-    """Render-data voor één examenfocus-voorbeeldvraag (⚖️)."""
-    examenfocus_id: str
-    examenfocus_naam: str
+class ExamenfocusVraag(TypedDict):
+    """Eén voorbeeldvraag binnen een examenfocus-groep."""
     examen_id: str
     vraag_id: str
     vraag_nr: str
     tier: str
     vraag_tekst: str
     antwoord_motivering: str | None
-    patroon_naam: str | None
+
+
+class ExamenfocusGroep(TypedDict):
+    """Eén examenfocus-object — focus-intro + één-of-meer voorbeeldvragen."""
+    id: str
+    naam: str
+    wat_getoetst_wordt: str
+    is_bootstrap: bool
+    vragen: list[ExamenfocusVraag]
 
 
 class VoorbeeldvraagCallout(TypedDict):
@@ -69,18 +75,20 @@ def _laad_examenvraag(examen_id: str, vraag_id: str) -> dict | None:
     return None
 
 
-def laad_examenfocus_callouts(records_van_po: set[str]) -> list[ExamenfocusCallout]:
-    """Vind alle examenfocus-voorbeeldvragen voor records van een PO.
+def laad_examenfocus_groepen(records_van_po: set[str]) -> list[ExamenfocusGroep]:
+    """Vind alle examenfocus-groepen voor records van een PO.
 
-    Filter: `examenfocus.concept_ids ⊆ records_van_po`. Pak alle voorbeeldvragen
-    uit elke matchende focus en sorteer tier A → B → C, daarbinnen op examen-id.
+    Filter: `examenfocus.concept_ids ⊆ records_van_po`. Returnt één groep per
+    examenfocus-object met alle voorbeeldvragen erin (tier-gesorteerd).
+    Groepen zelf zijn gesorteerd: niet-bootstrap eerst (echte curatie), dan
+    bootstrap-stubs; binnen elke set op laagste-tier-vraag.
 
     Returnt lege lijst als `data/exam_focus/` niet bestaat of leeg is.
     """
     if not EXAM_FOCUS_DIR.exists():
         return []
 
-    callouts: list[ExamenfocusCallout] = []
+    groepen: list[ExamenfocusGroep] = []
     for pad in sorted(EXAM_FOCUS_DIR.glob("examenfocus--*.json")):
         try:
             ef = json.loads(pad.read_text(encoding="utf-8"))
@@ -91,26 +99,40 @@ def laad_examenfocus_callouts(records_van_po: set[str]) -> list[ExamenfocusCallo
         if not concept_ids or not concept_ids.issubset(records_van_po):
             continue
 
-        patroon_naam = ef.get("naam") or ef.get("id", "")
+        curator = (ef.get("_provenance") or {}).get("curator", "")
+        is_bootstrap = curator == "bootstrap"
+
+        vragen: list[ExamenfocusVraag] = []
         for vv in ef.get("voorbeeldvragen", []) or []:
             examen_id = vv.get("examen_id", "")
             vraag_id = vv.get("vraag_id", "")
             vraag_detail = _laad_examenvraag(examen_id, vraag_id)
-            callouts.append(ExamenfocusCallout(
-                examenfocus_id=ef.get("id", ""),
-                examenfocus_naam=patroon_naam,
+            vragen.append(ExamenfocusVraag(
                 examen_id=examen_id,
                 vraag_id=vraag_id,
                 vraag_nr=vv.get("vraag_nr", ""),
                 tier=vv.get("tier", "C"),
                 vraag_tekst=(vraag_detail or {}).get("vraagtekst", ""),
                 antwoord_motivering=(vraag_detail or {}).get("antwoord_motivering"),
-                patroon_naam=patroon_naam,
             ))
+        vragen.sort(key=lambda v: (TIER_VOLGORDE.get(v["tier"], 9), v["examen_id"], v["vraag_id"]))
 
-    # Sortering: tier A → B → C, dan examen-id chronologisch
-    callouts.sort(key=lambda c: (TIER_VOLGORDE.get(c["tier"], 9), c["examen_id"], c["vraag_id"]))
-    return callouts
+        groepen.append(ExamenfocusGroep(
+            id=ef.get("id", ""),
+            naam=ef.get("naam") or ef.get("id", ""),
+            wat_getoetst_wordt=ef.get("wat_getoetst_wordt", "") if not is_bootstrap else "",
+            is_bootstrap=is_bootstrap,
+            vragen=vragen,
+        ))
+
+    # Niet-bootstrap eerst (echte curatie), dan bootstrap; binnen elke groep
+    # op laagste tier-vraag (= best representative)
+    def _sortsleutel(g: ExamenfocusGroep) -> tuple:
+        beste_tier = min((TIER_VOLGORDE.get(v["tier"], 9) for v in g["vragen"]), default=9)
+        return (g["is_bootstrap"], beste_tier, g["naam"])
+
+    groepen.sort(key=_sortsleutel)
+    return groepen
 
 
 def laad_voorbeeldvragen_synthetisch(records_van_po: set[str]) -> list[VoorbeeldvraagCallout]:

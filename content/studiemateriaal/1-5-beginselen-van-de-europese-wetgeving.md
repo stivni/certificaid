@@ -86,7 +86,7 @@ gegenereerd_op: '2026-05-18'
 
 ## Het Europese kader: richtlijn 2013/34/EU en verordening 1606/2002
 
-> [!info] Hoort bij taak: **1.5.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+> [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
 <!-- TODO: Opus-glue thematisch-intro -->
 
@@ -136,7 +136,7 @@ flowchart TD
 _Bouwt op_: [[eu-harmonisatie-jaarrekeningenrecht]] · [[verplichte-ifrs-eu-beursgenoteerden]] · [[endorsement-procedure-eu]] · [[ifrs-toepassingsgebied-belgie]] · [[jaarrekening-componenten-ifrs]] · [[presentatiebeginselen-jaarrekening-ifrs]] · [[materiele-vaste-activa-ifrs]] · [[immateriele-vaste-activa-ifrs]] · [[leasing-ifrs]] · [[opbrengsten-ifrs]] · [[voorraden-ifrs]]
 ## Bepalen of een onderneming IFRS moet of mag toepassen in België
 
-> [!info] Hoort bij taak: **1.5.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+> [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
 <!-- TODO: Opus-glue competentie-intro -->
 
@@ -161,7 +161,7 @@ _Bouwt op_: [[eu-harmonisatie-jaarrekeningenrecht]] · [[verplichte-ifrs-eu-beur
 
 ## Vaste activa onder IFRS: IAS 16 en IAS 38 — kostprijs, herwaardering en componenten
 
-> [!info] Hoort bij taak: **1.5.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+> [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
 <!-- TODO: Opus-glue thematisch-intro -->
 
@@ -173,7 +173,7 @@ _Bouwt op_: [[eu-harmonisatie-jaarrekeningenrecht]] · [[verplichte-ifrs-eu-beur
 
 ## Waarderen van materiële vaste activa onder IAS 16 (kostprijs- of herwaarderingsmodel)
 
-> [!info] Hoort bij taak: **1.5.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+> [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
 <!-- TODO: Opus-glue competentie-intro -->
 
@@ -193,7 +193,7 @@ _Bouwt op_: [[eu-harmonisatie-jaarrekeningenrecht]] · [[verplichte-ifrs-eu-beur
 
 ## Opbrengsten onder IFRS 15: het vijf-stappen-model en prestatieverplichtingen
 
-> [!info] Hoort bij taak: **1.5.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+> [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
 <!-- TODO: Opus-glue thematisch-intro -->
 
@@ -203,7 +203,7 @@ _Bouwt op_: [[eu-harmonisatie-jaarrekeningenrecht]] · [[verplichte-ifrs-eu-beur
 
 ## Toepassen van het 5-stappen-model van IFRS 15 voor opbrengstenherkenning
 
-> [!info] Hoort bij taak: **1.5.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+> [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
 <!-- TODO: Opus-glue competentie-intro -->
 
@@ -211,7 +211,7 @@ _Bouwt op_: [[eu-harmonisatie-jaarrekeningenrecht]] · [[verplichte-ifrs-eu-beur
 
 ## Voorraden onder IFRS: IAS 2 en het verbod op LIFO
 
-> [!info] Hoort bij taak: **1.5.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+> [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
 <!-- TODO: Opus-glue thematisch-intro -->
 
@@ -223,7 +223,7 @@ _Bouwt op_: [[eu-harmonisatie-jaarrekeningenrecht]] · [[verplichte-ifrs-eu-beur
 
 ## Leasing onder IFRS 16: right-of-use-actief en leaseverplichting bij lessee
 
-> [!info] Hoort bij taak: **1.5.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+> [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
 <!-- TODO: Opus-glue thematisch-intro -->
 
@@ -233,7 +233,7 @@ _Bouwt op_: [[eu-harmonisatie-jaarrekeningenrecht]] · [[verplichte-ifrs-eu-beur
 
 ## Verwerken van een leaseovereenkomst onder IFRS 16 als lessee (right-of-use + lease-verplichting)
 
-> [!info] Hoort bij taak: **1.5.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+> [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
 <!-- TODO: Opus-glue competentie-intro -->
 
@@ -241,7 +241,7 @@ _Bouwt op_: [[eu-harmonisatie-jaarrekeningenrecht]] · [[verplichte-ifrs-eu-beur
 
 ## Correctie en wijziging van het boekhoudkundig referentiestelsel
 
-> [!info] Hoort bij taak: **1.5.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+> [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
 <!-- TODO: Opus-glue thematisch-intro -->
 
@@ -250,7 +250,7 @@ _Bouwt op_: [[eu-harmonisatie-jaarrekeningenrecht]] · [[verplichte-ifrs-eu-beur
 
 ## Uitvoeren van de eerste toepassing van IFRS overeenkomstig IFRS 1
 
-> [!info] Hoort bij taak: **1.5.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+> [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
 <!-- TODO: Opus-glue competentie-intro -->
 
@@ -312,7 +312,9 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 <!-- TODO: Opus-glue examenfocus -->
 
-> [!question]- 📃 Wetgeving jaarrekening + IFRS · ITAA 2024-1 vraag 7 (tier A)
+### Wetgeving jaarrekening + IFRS 📃
+
+> [!question]- ITAA 2024-1 vraag 7 (tier A)
 > 7 IFRS
 > A. Onder IAS/ IFRS zijn volgende methoden mogelijk: ( Juist/ fout)
 > A. Fifo, Lifo, gewogen gemiddelde, individueel.

@@ -278,12 +278,12 @@ def render_skeleton(
 
     # Examenfocus-rubriek (ADR-009 §6 + §7, ADR-010 §implicatie-4)
     from tools.leermateriaal.lib.examenfocus_binding import (
-        laad_examenfocus_callouts,
+        laad_examenfocus_groepen,
         laad_voorbeeldvragen_synthetisch,
     )
     po_record_ids = {r.get("id") for r in records} | {c.get("id") for c in competenties}
     po_record_ids.discard(None)
-    examenfocus_callouts = laad_examenfocus_callouts(po_record_ids)
+    examenfocus_groepen = laad_examenfocus_groepen(po_record_ids)
     voorbeeldvragen_synth = laad_voorbeeldvragen_synthetisch(po_record_ids)
 
     # Taak-binding per hoofdstuk (ADR-010 §implicatie-5B/5C)
@@ -332,7 +332,7 @@ def render_skeleton(
         po_taken=po_taken,
         hoofdstuk_taak_markers=hoofdstuk_taak_markers,
         taak_dekking=taak_dekking,
-        examenfocus_callouts=examenfocus_callouts,
+        examenfocus_groepen=examenfocus_groepen,
         voorbeeldvragen_synth=voorbeeldvragen_synth,
     )
 

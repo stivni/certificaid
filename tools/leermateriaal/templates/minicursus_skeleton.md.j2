@@ -69,7 +69,7 @@
 ## {{ hoofdstuk.competentie.titel }}
 
 {% if markers %}
-> [!info] Hoort bij {% if markers | length > 1 %}taken{% else %}taak{% endif %}: {% for m in markers %}**{{ m.code }}** ({{ m.tekst | eerste_zin(80) }}){% if not loop.last %} · {% endif %}{% endfor %}
+> [!info] Hoort bij {% if markers | length > 1 %}taken{% else %}taak{% endif %}: {% for m in markers %}{{ m.tekst | eerste_zin(120) }}{% if not loop.last %} · {% endif %}{% endfor %}
 
 
 {% endif %}
@@ -81,7 +81,7 @@
 ## {{ hoofdstuk.titel }}
 
 {% if markers %}
-> [!info] Hoort bij {% if markers | length > 1 %}taken{% else %}taak{% endif %}: {% for m in markers %}**{{ m.code }}** ({{ m.tekst | eerste_zin(80) }}){% if not loop.last %} · {% endif %}{% endfor %}
+> [!info] Hoort bij {% if markers | length > 1 %}taken{% else %}taak{% endif %}: {% for m in markers %}{{ m.tekst | eerste_zin(120) }}{% if not loop.last %} · {% endif %}{% endfor %}
 
 
 {% endif %}
@@ -200,17 +200,33 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 {{ glue.examenfocus | default('<!-- TODO: Opus-glue examenfocus -->') }}
 
-{% if examenfocus_callouts or voorbeeldvragen_synth %}
-{% for c in examenfocus_callouts %}
-> [!question]- 📃 {{ c.patroon_naam }} · ITAA {{ c.examen_id }} vraag {{ c.vraag_nr }} (tier {{ c.tier }})
-> {{ c.vraag_tekst | replace('\n', '\n> ') }}
-{% if c.antwoord_motivering %}
+{% if examenfocus_groepen or voorbeeldvragen_synth %}
+{% for groep in examenfocus_groepen %}
+### {{ groep.naam }} 📃
+
+{% if groep.wat_getoetst_wordt %}
+{{ groep.wat_getoetst_wordt }}
+
+
+{% endif %}
+{% for v in groep.vragen %}
+> [!question]- ITAA {{ v.examen_id }} vraag {{ v.vraag_nr }} (tier {{ v.tier }})
+> {{ v.vraag_tekst | replace('\n', '\n> ') }}
+{% if v.antwoord_motivering %}
 >
 > > [!success]- Antwoord-motivering
-> > {{ c.antwoord_motivering | replace('\n', '\n> > ') }}
+> > {{ v.antwoord_motivering | replace('\n', '\n> > ') }}
 {% endif %}
 
 {% endfor %}
+
+{% endfor %}
+{% if voorbeeldvragen_synth %}
+### Synthetische oefenvarianten 🤖
+
+> [!info] AI-gegenereerd op basis van patronen × concepten van dit programmaonderdeel. Gebruik als oefening, niet als toetssteen voor wat het examen letterlijk vraagt.
+
+
 {% for v in voorbeeldvragen_synth %}
 > [!question]- 🤖 {{ v.patroon_naam | default(v.id) }} · synthetische variant
 > {{ v.vraag_tekst | replace('\n', '\n> ') }}
@@ -227,6 +243,7 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 {% endfor %}
 
+{% endif %}
 {% else %}
 <!-- TODO: geen examenfocus--*.json voor dit PO; genereer via tools/examen/genereer_examenfocus_uit_classificatie.py of laat een agent examenfocus-objecten curateren -->
 
