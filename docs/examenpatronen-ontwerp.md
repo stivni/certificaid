@@ -174,8 +174,8 @@ data/
 ├── exam_focus/
 │   ├── examenfocus--meldingsplicht-aww-toepassen.json
 │   └── ...
-├── generated_questions/
-│   ├── gvraag--aww-meldingsplicht-reeks-001.json
+├── voorbeeldvragen-synthetisch/
+│   ├── voorbeeldvraag--aww-meldingsplicht-reeks-001.json
 │   └── ...
 └── concept_records/
     └── (ongewijzigd — geen examenvelden)
@@ -188,7 +188,7 @@ data/
 Formaat: `JJJJMMDD.N` (bv. `20260506.1`, `20260506.2`)
 
 - Datum + volgnummer binnen die dag
-- Wanneer een patroon een nieuwe versie krijgt → alle `generated_questions` die dat patroon gebruiken krijgen `herzieningsstatus: "stale"`
+- Wanneer een patroon een nieuwe versie krijgt → alle synthetische voorbeeldvragen die dat patroon gebruiken krijgen `herzieningsstatus: "stale"`
 - Review via `python3 tools/examen/question_review.py --flag --revise`
 
 ---
@@ -222,7 +222,7 @@ Stap 4  Patronen als generatieve templates voor andere vakken
 
 ```json
 {
-  "id": "gvraag:aww-meldingsplicht-reeks-001",
+  "id": "voorbeeldvraag:aww-meldingsplicht-reeks-001",
   "concept_id": "concept:meldingsplicht-aww",
   "po": "4.0",
   "vraagvorm_id": "vraagvorm:uitzondering-in-reeks",

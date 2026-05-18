@@ -106,17 +106,17 @@ Volledige spec in [ADR-009 §6](adr/ADR-009-examenpatronen.md) en [ADR-010 §imp
 **Vorm**: `> [!question]-` callouts (collapsed). **Eén callout per voorbeeldvraag** — bij multi-voorbeeldvragen onder dezelfde examenfocus krijgt elke vraag een eigen callout (zie [ADR-009 §6](adr/ADR-009-examenpatronen.md)):
 - **Callout-titel**: `<examenpatroon-naam> · <examen-ID> vraag <vraag-nr>` — **geen** vraag-tekst in de titel (anti-spoiler)
 - **Callout-body** (geopend door student): de exacte vraag-tekst uit `data/programma/examen_vragen/<examen_id>.json`
-- **Optioneel binnen body**: `> [!success]-` collapsed met `antwoord_motivering` (uit examen-vragen-JSON, indien beschikbaar) of `redenering` (voor `gvraag`)
+- **Optioneel binnen body**: `> [!success]-` collapsed met `antwoord_motivering` (uit examen-vragen-JSON, indien beschikbaar) of `redenering` (voor `voorbeeldvraag`)
 
-Voor `gvraag--*.json` is er per object één voorbeeldvraag (de gegenereerde vraag zelf) → één callout per gvraag.
+Voor `voorbeeldvraag--*.json` is er per object één voorbeeldvraag (de gegenereerde vraag zelf) → één callout per voorbeeldvraag.
 
 **Twee subkoppen onder Examenfocus** (geen mixing):
 1. *Voorbeeldvragen uit ITAA/BIBF-examens* (⚖️) — gerenderd per voorbeeldvraag uit alle `examenfocus--*.json` waarvan `concept_ids ⊆ records(PO X)`. Sortering: tier A → B → C, binnen tier op examen-jaar.
-2. *Synthetische oefenvarianten* (🤖) — gerenderd per `gvraag--*.json`. Sortering: alfabetisch op patroon-naam.
+2. *Synthetische oefenvarianten* (🤖) — gerenderd per `voorbeeldvraag--*.json`. Sortering: alfabetisch op patroon-naam.
 
 **Wat NIET in deze rubriek**:
 - Studieadvies ("oefen dit vaak", "let op valkuilen") — hoort in concept-record `valkuilen[]` of synthese-`kerninzichten`
-- Vraag-tekst zonder grondingsobject (examenfocus of gvraag) — alle vragen moeten een onderliggend object hebben
+- Vraag-tekst zonder grondingsobject (examenfocus of voorbeeldvraag) — alle vragen moeten een onderliggend object hebben
 
 ---
 
@@ -215,7 +215,7 @@ Deze zinnen worden letterlijk gebruikt in de **niveau-callout** van de vroege or
 ## 10. Verwijzingen
 
 - [ADR-007](adr/ADR-007-conceptmodel.md) — Conceptmodel (schema 1.6, leerpad-schema 1.1)
-- [ADR-009](adr/ADR-009-examenpatronen.md) — Examenpatronen (§6 render-integratie, §7 schema examenfocus/gvraag)
+- [ADR-009](adr/ADR-009-examenpatronen.md) — Examenpatronen (§6 render-integratie, §7 schema examenfocus/voorbeeldvraag)
 - [ADR-010](adr/ADR-010-leermateriaal-tutor.md) — Leermateriaal & tutor (§interpretatieve-laag, implicaties 1–5)
 - [concept-schrijfregels](concept-schrijfregels.md) — Data-laag schrijfregels (parallel document)
 - [TODO §6](TODO.md) — Fase 6 sub-taken (6.0 schrijfregels-doc, 6.1–6.5 code-werk, 6.6 pilot)

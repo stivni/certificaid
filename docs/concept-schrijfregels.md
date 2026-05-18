@@ -132,6 +132,37 @@ Triggers in bronnen die deze splitsing rechtvaardigen: *"onder IFRS / BE-GAAP"*,
 
 ---
 
+## Titel-conventie — afkortingen en anderstalige namen
+
+De `naam`-veld van een record (en de h1-titel van zijn fiche) volgt deze regels:
+
+**1. Officiële afkorting** — als de entiteit een wettelijk of professioneel erkende afkorting heeft, neem die mee in de titel tussen haakjes:
+
+- ✅ `Anti-Money Laundering Compliance Officer (AMLCO)`
+- ✅ `Cel voor Financiële Informatieverwerking (CFI)`
+- ✅ `Uiteindelijke begunstigde (UBO)`
+- ✅ `Wetboek van Vennootschappen en Verenigingen (WVV)`
+- ❌ `Materiële vaste activa (MVA)` — MVA is geen officiële afkorting, niet opnemen
+- ❌ `Interne controle (IC)` — IC niet in woordenboek, niet officieel — alleen voluit als titel
+
+**2. Anderstalige naam** — als de entiteit zowel een meest-courante naam (vaak Engels in audit-/IFRS-territorium) als een Nederlandstalige tegenhanger heeft: meest-courante als titel, andere als **ondertitel** (`naam_alternatief`-veld):
+
+```yaml
+naam: "Anti-Money Laundering Compliance Officer (AMLCO)"
+naam_alternatief: "verantwoordelijke voor de naleving van de antiwitwas-verplichtingen"
+```
+
+Render-output:
+
+```
+# Anti-Money Laundering Compliance Officer (AMLCO)
+*verantwoordelijke voor de naleving van de antiwitwas-verplichtingen*
+```
+
+**3. Combinatie**: officiële afkorting + anderstalige naam — beide opnemen, afkorting in haakjes bij de courante naam.
+
+**4. Geen anderstalige tegenhanger nodig**: voor termen die alleen in één taal courant zijn (bv. `Beroepsgeheim`, `Antiwitwaswet`), laat `naam_alternatief` leeg.
+
 ## Afkortingen — vuistregel
 
 > **Vuistregel**: staat de afkorting in een hedendaags Nederlands woordenboek?

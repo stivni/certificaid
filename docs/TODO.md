@@ -167,7 +167,7 @@ Omkerings-labels per edge-type (ADR-010 §bidirectionele-edge-render). 6/7 edges
 - `render_minicursus.py`: eind-rubriek "Examenfocus" als laatste H2 vóór "Verder lezen".
 - `> [!question]-` callouts, twee subkoppen (echte ITAA-vragen ⚖️ vs. synthetische varianten 🤖).
 - Back-reference run-time: scan `data/exam_focus/*.json` voor `concept_ids` ⊆ records van PO X.
-- `gvraag--*.json` schema-veld `voorbeeld_oplossing` verplicht maken (ADR-009 §6).
+- `voorbeeldvraag--*.json` schema-veld `voorbeeld_oplossing` verplicht maken (ADR-009 §6).
 
 ### 6.5 — Examenprogramma sturend in minicursus (ADR-010 §implicatie-5)
 - Nieuw `tools/leermateriaal/lib/taak_binding.py`: `resolve_taken(hoofdstuk, programma_json) → set[taak_code]`. Ketting: hoofdstuk → records → `linked_anchors` → anchor_id → taak (direct of via kenniselement → doelstelling).

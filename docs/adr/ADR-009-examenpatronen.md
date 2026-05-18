@@ -1,15 +1,15 @@
 # ADR-009: Examenpatronen
 
 **Status**: Draft
-**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-18 (render-rubriek in minicursus + AI-varianten + eenrichtingsverkeer + schema-detail examenfocus/gvraag)
+**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-18 (render-rubriek in minicursus + AI-varianten + eenrichtingsverkeer + schema-detail examenfocus/voorbeeldvraag)
 
 ## Changelog
 
-- **2026-05-18 (later)** — Schema-detail voor `examenfocus--*.json` en `gvraag--*.json` vastgepind in §7. Beide objecttypes hadden tot dan toe een impliciet schema; nu expliciet met validatie-regels (`tools/examen/validate_examenfocus.py`, `tools/examen/validate_gvraag.py`). Confidence-afleiding ⚖️/🤖 op render-tijd vanuit voorbeeldvragen-tier (geen `bron`-veld op examenfocus zelf — multi-tier-aggregatie). Stale-detectie op concept-/patroon-update via `rebuild_triggers[]` op gvraag, run-time scan op examenfocus. §7 oorspronkelijk "Wat NIET in" → hernummerd naar §8.
+- **2026-05-18 (later)** — Schema-detail voor `examenfocus--*.json` en `voorbeeldvraag--*.json` vastgepind in §7. Hernoeming van `gvraag` (afkorting, schond CLAUDE.md regel 8) naar `voorbeeldvraag` met `bron`-property als first-class onderscheid (`"examen"` voor echte vragen in `data/programma/examen_vragen/<jaar>.json`; `"synthetisch"` voor AI-varianten in `data/voorbeeldvragen-synthetisch/`). Beide objecttypes hadden tot dan toe een impliciet schema; nu expliciet met validatie-regels (`tools/examen/validate_examenfocus.py`, `tools/examen/validate_voorbeeldvraag.py`). Confidence-afleiding ⚖️/🤖 op render-tijd vanuit voorbeeldvragen-tier (geen `bron`-veld op examenfocus zelf — multi-tier-aggregatie). Stale-detectie op concept-/patroon-update via `rebuild_triggers[]` op synthetische voorbeeldvraag, run-time scan op examenfocus. §7 oorspronkelijk "Wat NIET in" → hernummerd naar §8.
 - **2026-05-18** — Drie verfijningen na ontwerp leermateriaal-laag (ADR-010 §interpretatieve-laag):
   1. **Eenrichtingsverkeer concept ↔ patroon** expliciet gemaakt. `examenfocus`-objecten verwijzen naar concept-IDs; concepten verwijzen **niet terug** — geen edge-type `getoetst-door` in concept-records. Reden: anti-circulariteit (ADR-008 §0). Examenvragen mogen voortbouwen op concepten; concepten mogen niet vormgegeven worden door examenvragen. Render-laag (minicursus) doet de back-reference run-time door alle `examenfocus`-objecten te scannen voor `concept_id in {records van deze PO}`.
   2. **Render-plek in minicursus** vastgelegd als **eind-rubriek per minicursus** (niet per sectie). Reden: studenten moeten "ken ik deze stof voldoende?" kunnen toetsen *zonder* tijdens het lezen al naar de patroon-camouflage geduwd te worden. Rubriek-vorm: `> [!question]-` callouts (collapsed) met examenpatroon-titel, optioneel link naar voorbeeldvraag-tekst. Geen vraag-spoilers in fiche- of sectie-headers.
-  3. **AI-gegenereerde varianten** (`gvraag--*.json` in `data/generated_questions/`) krijgen **verplicht `confidence: "inferred"`** (🤖) en worden in render altijd als 🤖 gemarkeerd — niet visueel verwisselbaar met echte ITAA-vragen. Per `gvraag` ook verplicht een `voorbeeld_oplossing`-veld (eveneens 🤖) zodat de student de patroon-instantiatie kan beoordelen zonder zelf op te lossen. Render-laag groepeert eerst echte vragen, dan 🤖-varianten, in twee subkoppen onder de eind-rubriek.
+  3. **AI-gegenereerde varianten** (`voorbeeldvraag--*.json` in `data/voorbeeldvragen-synthetisch/`) krijgen **verplicht `confidence: "inferred"`** (🤖) en worden in render altijd als 🤖 gemarkeerd — niet visueel verwisselbaar met echte ITAA-vragen. Per `voorbeeldvraag` ook verplicht een `voorbeeld_oplossing`-veld (eveneens 🤖) zodat de student de patroon-instantiatie kan beoordelen zonder zelf op te lossen. Render-laag groepeert eerst echte vragen, dan 🤖-varianten, in twee subkoppen onder de eind-rubriek.
 
 ## Context
 
@@ -35,7 +35,7 @@ Tegelijk zijn patronen niet bijzaak: ze sturen mee waar concept-extractie diep m
 
 - **Lens** bij concept-extractie (ADR-008): de patronen die op een concept zitten tonen welke diepte het examen verwacht. Stuurt de extractie-prompt en stress-tests.
 - **Validator** van de conceptenset: dekken de huidige concepten de gevonden patronen? Gat-rapport (concept ontbreekt of is te oppervlakkig) → trigger voor extractie-uitbreiding.
-- **Generator** van oefenvragen: patroon-templates × concept-record = synthetische oefenvragen, opgeslagen in `data/generated_questions/`.
+- **Generator** van oefenvragen: patroon-templates × concept-record = synthetische oefenvragen, opgeslagen in `data/voorbeeldvragen-synthetisch/`.
 
 ### 4. Voorbeeldexamens als ground truth
 
@@ -61,15 +61,15 @@ Examenpatronen + voorbeeldvragen + AI-varianten verschijnen voor de student **ui
 **Vorm**: `> [!question]-` callouts (collapsed), **één callout per voorbeeldvraag** (niet per examenfocus-object). Bij multi-voorbeeldvragen onder dezelfde examenfocus krijgt elke voorbeeldvraag een eigen callout met dezelfde patroon-aanduiding maar verschillende examen-bron:
 - **Titel**: `<examenpatroon-naam> · <examen-ID> vraag <vraag-nr>` — geen vraag-tekst in de titel (anti-spoiler)
 - **Body (geopend)**: de exacte vraag-tekst uit `data/programma/examen_vragen/<examen_id>.json`
-- **Optioneel binnen body**: `> [!success]-` collapsed met `antwoord_motivering` (uit examen-vragen-JSON, indien `antwoord_bron` gevuld) of `redenering` (voor `gvraag`)
+- **Optioneel binnen body**: `> [!success]-` collapsed met `antwoord_motivering` (uit examen-vragen-JSON, indien `antwoord_bron` gevuld) of `redenering` (voor `voorbeeldvraag`)
 
-Voor `gvraag--*.json` is er per object steeds één voorbeeldvraag (de gegenereerde vraag zelf) → één callout per gvraag.
+Voor `voorbeeldvraag--*.json` is er per object steeds één voorbeeldvraag (de gegenereerde vraag zelf) → één callout per voorbeeldvraag.
 
 **Render-sortering** binnen de "Voorbeeldvragen"-subkop: tier A → B → C uit `voorbeeldvragen[].tier` (zie §7 schema), zodat moderne, meer representatieve vragen bovenaan staan.
 
 **Confidence-presentatie**:
 - Echte ITAA/BIBF-vragen (callout afgeleid uit `examenfocus.voorbeeldvragen[].tier ∈ {A, B, C}`): ⚖️
-- AI-gegenereerde varianten (`gvraag--*.json`, `confidence: "inferred"`): altijd 🤖, plus subkop "Synthetische oefenvarianten (🤖)" als visuele groepering
+- AI-gegenereerde varianten (`voorbeeldvraag--*.json`, `confidence: "inferred"`): altijd 🤖, plus subkop "Synthetische oefenvarianten (🤖)" als visuele groepering
 - Geen mixing in dezelfde lijst — twee subkoppen onder de eind-rubriek
 
 **Eenrichtings-edge (anti-circulariteit)**: `examenfocus.concept_ids[]` verwijst naar concept-records; concept-records hebben **geen** `getoetst-door`-edge terug. Reden: een concept-record mag niet vorm krijgen door een examenvraag (zie ADR-008 §0). Render-laag doet de back-reference run-time: minicursus voor PO X scant alle `examenfocus`-objecten en selecteert die waarvan `concept_ids` ⊆ records van PO X.
@@ -81,13 +81,13 @@ Voor `gvraag--*.json` is er per object steeds één voorbeeldvraag (de gegeneree
 4. Minicursus voor betrokken PO's herrenderen — eind-rubriek pakt de update vanzelf op
 
 **AI-variant-genereren** (optioneel, op verzoek):
-1. Patroon-template × concept-record → `gvraag--*.json` via `tools/examen/generate.py`
+1. Patroon-template × concept-record → `voorbeeldvraag--*.json` via `tools/examen/generate.py`
 2. Verplichte velden: `vraag_tekst`, `voorbeeld_oplossing`, `redenering`, `confidence: "inferred"`, `gebaseerd_op_patroon: <patroon_id>`, `gebaseerd_op_concepten: [<concept_ids>]`
 3. Render groepeert onder de "Synthetische oefenvarianten (🤖)"-subkop
 
-### 7. Schema-detail voor `examenfocus`- en `gvraag`-objecten (2026-05-18)
+### 7. Schema-detail voor `examenfocus`- en `voorbeeldvraag`-objecten (2026-05-18)
 
-§6 noemt beide objecttypes maar laat het schema impliciet. Deze sectie pinnt het schema vast. Beide leven niet in `data/programma/exam_patterns/` (waar de patroon-types `vraagvorm` en `complexiteit` wonen) — `examenfocus` woont in `data/exam_focus/`, `gvraag` in `data/generated_questions/`, juist omdat zij **instantiaties** zijn (concept × patroon × bron) en niet de patroon-types zelf.
+§6 noemt beide objecttypes maar laat het schema impliciet. Deze sectie pinnt het schema vast. Beide leven niet in `data/programma/exam_patterns/` (waar de patroon-types `vraagvorm` en `complexiteit` wonen) — `examenfocus` woont in `data/exam_focus/`, `voorbeeldvraag` in `data/voorbeeldvragen-synthetisch/`, juist omdat zij **instantiaties** zijn (concept × patroon × bron) en niet de patroon-types zelf.
 
 #### `examenfocus--<slug>.json` (schema 1.0)
 
@@ -157,13 +157,20 @@ _provenance:
 - Bij elke vraag-record-update (zeldzaam — alleen bij correctie): idem voor `voorbeeldvragen[].vraag_id`.
 - Curator handelt stale-flag af: bevestig (touch `updated_at`) of revisor schrijft focus opnieuw.
 
-#### `gvraag--<slug>.json` (schema 1.0)
+#### `voorbeeldvraag--<slug>.json` (schema 1.0) — synthetische tak
 
-AI-gegenereerde oefenvraag, instantiatie van een patroon-template × concept-record(s). Niet visueel verwisselbaar met echte ITAA-vragen.
+`voorbeeldvraag` is het objecttype voor een oefenvraag. Het kent twee bronnen:
+- **`bron: "examen"`** — echte vraag uit een ITAA- of BIBF-examen, opgeslagen als entry in `data/programma/examen_vragen/<jaar>.json` (geaggregeerd per examen-PDF). Geen apart `voorbeeldvraag--*.json`-bestand.
+- **`bron: "synthetisch"`** — AI-gegenereerde variant, opgeslagen als één-bestand-per-vraag in `data/voorbeeldvragen-synthetisch/voorbeeldvraag--<slug>.json` (schema hieronder).
+
+Echte voorbeeldvragen leven in examen-JSON's omdat ze in PDF-batches verschijnen (1 PDF = 1 examen = N vragen); synthetische voorbeeldvragen leven los omdat ze één-per-één gegenereerd worden uit een patroon-template × concept-record.
+
+Het schema hieronder geldt voor de **synthetische tak** (`bron: "synthetisch"`); de echte tak volgt het bestaande examen-vragen-schema in `data/programma/examen_vragen/<jaar>.json`.
 
 ```yaml
-id: "gvraag--<slug>"
+id: "voorbeeldvraag--<slug>"
 schema_version: "1.0"
+bron: "synthetisch"      # verplicht; expliciet first-class property zodat render-laag en consumer eenduidig weten
 vraag_tekst: |
   De BVBA Alfa heeft op 31/12/2025 een kapitaal van 100.000 EUR en een nettoactief van 25.000 EUR.
   De raad van bestuur heeft de jaarrekening op 15/03/2026 vastgesteld.
@@ -192,16 +199,17 @@ _provenance:
   tool: "tools/examen/generate.py"
   agent_run: "<run-id>"
   created_at: "2026-05-18T13:00:00Z"
-  rebuild_triggers:           # invalidatie-set: één van deze wijzigt → gvraag stale
+  rebuild_triggers:           # invalidatie-set: één van deze wijzigt → voorbeeldvraag stale
     - "concept:alarmbelprocedure"
     - "concept:nettoactief-test"
     - "patroon:complex-feiten-schijngelijkenis"
 ```
 
-**Validatie-regels** (`tools/examen/validate_gvraag.py`):
+**Validatie-regels** (`tools/examen/validate_voorbeeldvraag.py`):
 
 | Regel | Falen → |
 |---|---|
+| `bron == "synthetisch"` (verplicht voor objects in `data/voorbeeldvragen-synthetisch/`) | error |
 | `confidence == "inferred"` (verplicht, geen escape naar grounded) | error |
 | `vraag_tekst`, `voorbeeld_oplossing`, `redenering` alle drie aanwezig en ≥40 chars | error |
 | `gebaseerd_op_concepten[]` niet leeg en bestaande records | error |
@@ -209,15 +217,15 @@ _provenance:
 | `rebuild_triggers[]` bevat alle concept- en patroon-IDs uit boven (consistentie) | error |
 | `gerelateerd_aan_examenfocus` (indien gevuld) bestaat | warning |
 
-**Stale-detectie**: bij elke concept- of patroon-update, scan `gvraag`-objecten waar de ID in `rebuild_triggers[]` zit → markeer stale → bij volgende run van `tools/examen/generate.py --rebuild-stale` worden ze opnieuw gegenereerd.
+**Stale-detectie**: bij elke concept- of patroon-update, scan `voorbeeldvraag`-objecten waar de ID in `rebuild_triggers[]` zit → markeer stale → bij volgende run van `tools/examen/generate.py --rebuild-stale` worden ze opnieuw gegenereerd.
 
 #### Render-confidence-afleiding (consumer-zijde)
 
 Minicursus-render bepaalt ⚖️/🤖 niet uit een `bron`-veld op `examenfocus` zelf, maar afgeleid:
 
 - Een `examenfocus`-object met minstens 1 `voorbeeldvragen[]` uit tier A/B/C examen-JSON → render ⚖️ in de minicursus-eindrubriek (echte vraag).
-- Een `gvraag--*.json`-object → altijd 🤖 in de minicursus-eindrubriek (synthetische variant), gegroepeerd onder eigen subkop.
-- Géén mixing van examenfocus en gvraag in dezelfde lijst — twee subkoppen onder "Examenfocus" (ADR-009 §6).
+- Een `voorbeeldvraag--*.json`-object → altijd 🤖 in de minicursus-eindrubriek (synthetische variant), gegroepeerd onder eigen subkop.
+- Géén mixing van examenfocus en voorbeeldvraag in dezelfde lijst — twee subkoppen onder "Examenfocus" (ADR-009 §6).
 
 Reden voor afleiding (i.p.v. `bron`-veld op examenfocus): een examenfocus aggregeert vragen uit meerdere examens (multi-tier). Een single `bron`-veld zou geen recht doen aan die aggregatie. Tier-info zit op voorbeeldvraag-niveau, render-laag aggregeert.
 
@@ -231,7 +239,7 @@ Reden voor afleiding (i.p.v. `bron`-veld op examenfocus): een examenfocus aggreg
 
 - `data/programma/exam_patterns/` — `vraagvorm--*.json` + `complexiteit--*.json`
 - `data/exam_focus/` — `examenfocus--*.json` (brug-objecten)
-- `data/generated_questions/` — `gvraag--*.json`
+- `data/voorbeeldvragen-synthetisch/` — `voorbeeldvraag--*.json`
 - `tools/examen/` — extract, label, generate, review
 - Patronen krijgen provenance net als andere artefacten (ADR-004); examenfocus verwijst expliciet naar concept-IDs zodat een concept-update tot stale-flag op de focus leidt
 - Anti-oogkleppen-regel uit ADR-008 blijft gelden: een patroon-vraag definieert nooit een nieuw concept, hooguit een nieuwe focus op een bestaand concept

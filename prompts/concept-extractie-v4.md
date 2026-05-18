@@ -524,6 +524,15 @@ Werkwijze bij verouderde anchor:
    - In alle gevallen: zorg dat de **algemene cluster** (`balans-presentatie`) bestaat die de specialisaties via `specialisatie-van`-edges verbindt
 11. **Compositie-naam-smell**: record-naam met `+`, `&`, `en` of komma's tussen termen (`jaarrekeningplicht + groottecriteria`, `aankoop & verkoop`, `risicogebaseerde-aanpak-en-materiality`) is een teken van **gecondenseerd multi-concept**. Splits naar twee aparte records, met edges (vaak `vereist-kennis-van` of `vergelijkt-met`) tussen.
 
+13. **Titel-conventie — afkortingen en anderstalige namen** (zie `docs/concept-schrijfregels.md` §"Titel-conventie"):
+   - **Officiële afkorting** mee in `naam`-veld tussen haakjes: bv. `naam: "Anti-Money Laundering Compliance Officer (AMLCO)"`. Niet-officiële kortvormen (`MVA`, `IC`, ...) niet opnemen — alleen voluit.
+   - **Anderstalige tegenhanger**: meest-courante naam als `naam`, andere als optioneel `naam_alternatief`-veld (rendert als ondertitel onder de h1). Voorbeeld:
+     ```yaml
+     naam: "Anti-Money Laundering Compliance Officer (AMLCO)"
+     naam_alternatief: "verantwoordelijke voor de naleving van de antiwitwas-verplichtingen"
+     ```
+   - Geen anderstalige variant nodig: laat `naam_alternatief` leeg/weggelaten.
+
 Cross-bron-synthese: wanneer hetzelfde fenomeen in 2+ chunks uit 2+ bronnen wordt aangehaald, aggregeer tot één expliciete enumeratie of vergelijking met confidence `inferred-from-aggregation` en alle bijdragende chunk-ids in `_provenance.inputs`.
 
 ---
@@ -591,52 +600,48 @@ Top-level provenance-blok per record:
 }
 ```
 
-### Dangling-references
+### Gaps.json — unified feedback-stroom
 
-Voor termen die je ziet maar geen record voor maakt, schrijf naar:
-`data/concepten/quality_checks/<programmaonderdeel>/dangling-references-<run_id>.json`
+Alle gestructureerde feedback op records (dangling-references, ontbrekende records, bron-gaps, granulariteits-twijfels) gaat naar **één bestand**: `data/extractie/gaps.json` (append-only JSON-array). Zo deelt EXTRACT dezelfde feedback-pijplijn als VERIFY en kan een latere re-extract-pass alle open gaps in één keer inlezen.
 
-```json
-{
-  "programmaonderdeel": "<code>",
-  "run_id": "concept-extractie-v4-<ISO-datum>",
-  "items": [
-    {
-      "term": "<term>",
-      "voorkomens": [{"chunk_id": "...", "context": "..."}],
-      "agent_oordeel": "voldoende-vermeld-geen-record-gemaakt | bewust-uit-scope | onzeker",
-      "suggestie": "<optionele aanbeveling>"
-    }
-  ]
-}
-```
-
-### Gaps.json
-
-Voor ontbrekende records (pattern 1 modus b), bron-gaps en granulariteits-twijfels, schrijf naar `data/extractie/gaps.json` (append-only):
+Schema per entry:
 
 ```json
 {
-  "record_id": "<betrokken record of null>",
-  "aspect": "records.ontbreekt | bron-gap | granulariteit.beslissing-nodig",
-  "reden": "<concrete uitleg>",
-  "prio": "hoog | middel | laag",
+  "record_id": "<betrokken record-slug of null als de gap een niet-bestaand record betreft>",
+  "aspect": "<zie vocabulaire hieronder>",
+  "reden": "<1-3 zinnen: concrete uitleg, met chunk-ids/voorkomens waar van toepassing>",
+  "prio": "hoog | midden | laag",
   "geconstateerd_door": "concept-extractie-v4-<run_id>",
-  "geconstateerd_op": "<ISO-datum>",
+  "geconstateerd_op": "<ISO-8601-UTC>",
   "status": "open"
 }
 ```
+
+**Aspect-vocabulaire voor EXTRACT** (subset van de gedeelde VERIFY-vocabulaire):
+- `dangling-reference` — term die je in een chunk hebt gezien maar geen eigen record voor hebt gemaakt; `reden` bevat term + voorkomens (chunk-ids + context-snippets) + jouw oordeel (`voldoende-vermeld-geen-record-gemaakt` / `bewust-uit-scope` / `onzeker`) + optionele suggestie
+- `records.ontbreekt` — een concept dat vermoedelijk een eigen record verdient bestaat niet (pattern 1 modus b)
+- `bron-gap` — bron-chunks ontbreken voor een verwacht fenomeen; volgende corpus-uitbreiding nodig
+- `granulariteit.beslissing-nodig` — granulariteit-twijfel die mens moet beslissen (ADR-007 §Granulariteit-beslisregels)
+- `context-edge-ontbreekt` — record onder een specifiek regime/niveau/overkoepelend fenomeen mist de verplichte `specialisatie-van` / `onderdeel-van` / `vereist-kennis-van`-edge naar dat overkoepelende concept (zie context-via-edges-verplichting elders in deze prompt)
+
+**Append-procedure**:
+1. Lees bestaande `data/extractie/gaps.json` (leeg array `[]` als afwezig).
+2. Voeg nieuwe gap-objecten toe; verwijder of muteer bestaande entries **niet** (status-updates zijn voorbehouden aan een aparte EXTRACT-feedback-event-pass).
+3. Deduplicatie: vóór append, check of er al een open entry bestaat met dezelfde (`record_id`, `aspect`, kern-term-in-reden). Zo ja: niet opnieuw toevoegen.
+4. Schrijf de volledige bijgewerkte array terug.
+
+**Prioriteitsgids**: `hoog` als de gap een examenvraag onbeantwoordbaar zou maken of een centraal concept ontbreekt; `midden` als minicursus-kwaliteit verlaagt maar examen niet blokkeert; `laag` als structurele volledigheid maar geen directe examenimpact.
 
 ### Afsluitend rapport
 
 `data/extractie/<programmaonderdeel>/v4-extraction-rapport.md` met:
 - Aantal records (nieuw / bijgewerkt / hernoemd / verwijderd)
-- Aantal dangling-references gelogd
-- Aantal gaps aangemaakt (per aspect-type)
+- Aantal gaps aangemaakt in `gaps.json`, uitgesplitst per `aspect`-waarde
 - Migraties oud type → nieuw type (schema 1.5)
 - Migraties `voorbeeld_inline` → `voorbeelden[]`
 - Claims `inferred-from-aggregation`
-- Open observaties
+- Open observaties (narratieve patronen, niet-record-specifieke bevindingen — horen hier, niet in `gaps.json`)
 
 ---
 
