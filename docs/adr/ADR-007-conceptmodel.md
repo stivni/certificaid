@@ -8,7 +8,8 @@
 ## Changelog
 
 - **2026-05-18** — Leerpad-schema 1.1: nieuw hoofdstuk-type `voorbereiding` (naast bestaande `oriëntatie` / `competentie` / `thematisch`). Voor concept-clusters die fundament zijn voor meerdere taken zonder zelf één-op-één op één taak te mappen. Render-laag (ADR-010 §implicatie-5) plaatst geen taak-marker en omleidt deze hoofdstukken om het eind-dashboard "Heb je deze taken in de vingers?" — student wordt niet getoetst op fundament. Schema-shape: `{type: voorbereiding, titel, concepten[], rationale_hint?}`. Validatie: een PO mag niet voor 100% uit `voorbereiding`-hoofdstukken bestaan. Geen migratie — bestaande leerpaden (schema 1.0) blijven geldig; curator promoveert hoofdstukken naar `voorbereiding` waar zinvol bij volgende leerpad-touch.
-- **2026-05-18** — Schema 1.6: nieuw veld `situering` (string, optioneel) op `begrip` en `cluster`. Korte tekst (2–4 zinnen) die antwoordt op *"waarom bestaat dit concept, in welk veld zit het, welk probleem lost het op?"*. Niet hetzelfde als `definitie` (wat is het) of `in_praktijk[]` (hoe gebruik je het). Heuristiek voor laag-plaatsing: situering verandert mee met de regel zelf (samen-aanpassen) — daarom data-laag, niet leermateriaal-laag (ADR-010 §interpretatieve-laag). Niet op `regel`, `autoriteit`, `synthese`, `competentie` — die hebben hun eigen situerende velden (`main_rule.text`, `rol`, `gebaseerd_op_concepten`, `doel`). Geen batch-migratie — EXTRACT v4 vult bij elke natuurlijke pass; bestaande records zonder veld blijven geldig (sparse-fields-norm, §Designprincipes). Render plaatst situering bovenaan de concept-fiche, boven TL;DR-callout (ADR-010 §callout-conventies).
+- **2026-05-18 (later)** — Schema 1.6 herzien op empirische grond: `situering` op **alle 6 node-types** in plaats van alleen begrip/cluster. Aanleiding: 53/89 cluster-records gebruiken `doel`-veld dat semantisch overlapt met situering ("Het auditrisicomodel structureert de risico-aanpak van de auditor…" = functie + plaatsing in één). Eén uniform veld is schoner dan `doel` op cluster / `situering` op begrip. **`doel`-veld geschrapt** uit type-specifieke sleutelvelden. **Mechanische migratie**: 55 records (53 cluster + 1 begrip + 1 regel) hernoemen `doel` → `situering` via records-API. Competenties hebben empirisch geen `doel`-veld (essentie zit in `titel` + `stappen[]`) — krijgen `situering` als nieuwe veld bij natuurlijke EXTRACT-pass (geen migratie). Render-plek (ADR-010 §implicatie-1): bovenaan élke concept-fiche, boven TL;DR.
+- **2026-05-18** — Schema 1.6 (oorspronkelijk voorstel, gesuperseded door bovenstaande): `situering` alleen op begrip/cluster met `doel` behouden. Verworpen wegens duplicatie cluster-`doel`/`situering`.
 - **2026-05-18** — Schema 1.5 (deel 2): concretiserings-inhoud uitgewerkt. Drie velden vervangen `voorbeeld_inline`: `in_praktijk[]` (lijstje of rich), `voorbeelden[]` (eenvoudig of scenario), `illustraties[]` (boeking / balans-fragment / verslag-fragment / mermaid-diagram). Multi-niveau-placement: record-top, bouwsteen, berekeningsmethode + inline per competentie-stap. Illustraties **inline** binnen voorbeeld-scenarios. Migratie `voorbeeld_inline` → `voorbeelden[{vorm: eenvoudig}]` bij elke natuurlijke EXTRACT-pass.
 - **2026-05-18** — Schema 1.5 (deel 1): node_type-taxonomie geconsolideerd van 11 → 6 (`begrip` · `regel` · `cluster` · `synthese` · `autoriteit` · `competentie`). `fenomeen` → `cluster`, `actor` → `autoriteit`, `skill` → `competentie`. `procedure`/`methode`/`afwegingskader`/`beginsel`/`drempel`/`casus` opgegaan in andere types. Bouwsteen-definitie expliciet gemaakt. Granulariteits-test verfijnd ("buiten één framework testbaar"). Edges-taxonomie van ~20 → 7 canonieke types. Nieuw patroon: regime-specialisatie via `specialisatie-van` met facet-veld `regime`. Concept en competentie wonen in hetzelfde format (records-API, ADR-019). Schrijfregels nu gecentraliseerd in [`docs/concept-schrijfregels.md`](../concept-schrijfregels.md) — `content-richtlijnen.md` is uitgefaseerd. Aanleiding: empirische analyse + gap-mining-rapport 2026-05-18 (5 systemic patterns) + EXTRACT v4-pilot op anchor 1.5.V.C. Migratie-mapping in §"Schema 1.5".
 
@@ -340,22 +341,30 @@ Alle illustraties hebben `confidence`, optioneel `source`, optioneel `cast_used`
 
 **Migratie `voorbeeld_inline` → `voorbeelden[]`**: bestaand schema 1.2-veld `voorbeeld_inline` (block met `text`) wordt bij EXTRACT-pass omgezet naar `voorbeelden: [{vorm: "eenvoudig", omschrijving: <text>, cast: [...], confidence, source}]`. Geen batch-migratie — bij elke natuurlijke EXTRACT-touch op een record. Tijdens overgang lezen agents beide vormen; nieuwe records schrijven enkel de nieuwe vorm.
 
-### Situering (schema 1.6) — context-veld op begrip/cluster
+### Situering (schema 1.6) — context-veld op alle node-types
 
-`situering` is een **optionele string** (2–4 zinnen, geen markdown-blocks) bovenaan een `begrip`- of `cluster`-record die antwoordt op:
+`situering` is een **optionele string** (2–4 zinnen, geen markdown-blocks) bovenaan elk record (alle 6 node-types) die antwoordt op:
 
 - *Waarom bestaat dit concept?* (welk probleem of belang lost het op?)
 - *In welk veld zit het?* (vennootschapsrecht-kapitaalbescherming, boekhoudrecht-jaarrekening, fiscaal-DBI, …)
 - *Waar staat het in het grotere geheel?* (één zin oriëntatie, geen volledige edges-render)
 
-**Niet op `regel` / `autoriteit` / `synthese` / `competentie`** — die hebben hun eigen situerende velden:
-- `regel.main_rule.text` doet al "wat verplicht/verbiedt dit"
-- `autoriteit.rol` doet al "welke functie heeft deze actor"
-- `synthese.gebaseerd_op_concepten[]` plus `vergelijkingstabel` doet al de oriëntatie
-- `competentie.doel` doet al "wat moet de stagiair kunnen"
+**Vervangt `doel`-veld**: tot 2026-05-18 droegen 53/89 cluster-records (60%) een `doel`-veld dat empirisch precies dit deed — *"Het auditrisicomodel structureert de risico-aanpak van de auditor…"* combineert functie en plaatsing in één paragraaf. Schoner: één uniform veld dat overal hetzelfde betekent.
 
-**Onderscheid t.o.v. nabije velden**:
-| Veld | Vraag | Voorbeeld (concept "wettelijke reserve") |
+**Per node-type — hoe vult situering zich**:
+
+| Node-type | Wat situering antwoordt | Voorbeeld |
+|---|---|---|
+| `begrip` | Waarom bestaat dit, in welk veld? | *aanschaffingswaarde*: "Basiswaarde voor alle activa op de balans; fundament voor afschrijvingen, waardeverminderingen en eliminaties bij consolidatie. Zit onder de waarderingsregels van het Belgisch boekhoudrecht." |
+| `regel` | In welk regime, welk probleem reguleert het? | *getrouw-beeld-jaarrekening*: "Externe gebruikers (aandeelhouders, kredietverleners, fiscus) moeten op basis van de jaarrekening correcte beslissingen kunnen nemen. Getrouw beeld is de overkoepelende eis in WVV en Boekhoudbesluit." |
+| `cluster` | Wat structureert dit cluster, in welk vakgebied? | *auditrisicomodel*: "Structureert de risico-aanpak van de auditor. Verbindt controlerisico, inherent risico en detectierisico tot één werkbare formule. Centraal in ISA 200 en in de ITAA-controlemethodiek." |
+| `autoriteit` | Welk veld, welk mandaat? | *FSMA*: "Belgische toezichthouder op de financiële markten. Houdt toezicht op beursgenoteerde vennootschappen, gereguleerde tussenpersonen en marktintegriteit; werkt samen met ECB en ESMA." |
+| `synthese` | Welke beslissing of vergelijking faciliteert deze synthese? | *consolidatiemethoden-vergelijking*: "Faciliteert de keuze tussen integrale, evenredige en vermogensmutatiemethode op basis van zeggenschap. Brengt de drie scenarios samen in één beslisboom." |
+| `competentie` | In welke werkcontext, welk type opdracht? | *aanvaarden-audit-opdracht*: "Eerste stap van elke wettelijke controle. Zonder onafhankelijkheid-, integriteit- en bekwaamheidstoets mag de stagiair geen opdracht aanvaarden. Reguleerd door ITAA-normen en IESBA-code." |
+
+**Onderscheid t.o.v. nabije velden** (begrip-voorbeeld "wettelijke reserve"):
+
+| Veld | Vraag | Voorbeeld |
 |---|---|---|
 | `definitie` | Wat is dit? | "5% van nettowinst die in reserve gehouden wordt tot 10% van kapitaal bereikt is." |
 | `situering` | Waarom bestaat dit, in welk veld? | "Onderdeel van het regime kapitaalbescherming in het WVV. Beschermt schuldeisers tegen uitkering van inbreng als dividend." |
@@ -369,7 +378,7 @@ Alle illustraties hebben `confidence`, optioneel `source`, optioneel `cast_used`
 
 **Render**: bovenaan de concept-fiche, **boven** de TL;DR-callout, als plain paragraph (geen callout). Reden: het is contextuele oriëntatie, geen kerncategorie — een callout zou het visueel even zwaar maken als de definitie zelf. Zie ADR-010 §callout-conventies.
 
-**Migratie**: geen batch — EXTRACT v4 vult `situering` bij elke natuurlijke pass op `begrip`/`cluster`-records. Records zonder veld blijven geldig (sparse-fields-norm, §Designprincipes). Validator klaagt niet over afwezigheid.
+**Migratie `doel` → `situering`** (eenmalig, 2026-05-18): 55 records (53 cluster + 1 begrip + 1 regel) hernoemen via records-API. Veldwaarde 1:1 overgenomen; `_provenance.veld_renamed_at` ingesteld. Geen content-wijziging, alleen veldnaam. Voor records zonder bestaand `doel`-veld: geen migratie — `situering` is optioneel en wordt door EXTRACT v4 bij natuurlijke pass aangevuld. Sparse-fields-norm (§Designprincipes) blijft gelden.
 
 **Laag-heuristiek (waarom hier, niet in leermateriaal)**: situering verandert mee wanneer de regel/definitie verandert (een nieuwe wettelijke regime-shift wijzigt zowel hoofdregel als situering). Dat is het criterium voor data-laag (ADR-010 §interpretatieve-laag): samen-aanpassen → concept-laag; bij-cursus-schrijven → leermateriaal-laag. Pedagogische framing per leerpad ("dit is één van drie reserves; vergelijk met onbeschikbare en beschikbare") hoort daarom **niet** hier maar in de minicursus.
 
@@ -393,8 +402,10 @@ Elk node-type krijgt een hoofdveld dat past bij de aard van de kennis. **`main_r
 |---|---|---|---|
 | `begrip`, `autoriteit`, `cluster` | `definitie` | — | Wat is dit ding of fenomeen? |
 | `regel` | `main_rule` | — | Wat is de verplichting/het principe? |
-| `competentie` | `doel` + `stappen[]` | `beoordelings_criteria`, `voorbeelden[]` | Wat moet de stagiair kunnen? |
+| `competentie` | `titel` + `stappen[]` | `beoordelings_criteria`, `voorbeelden[]` | Wat moet de stagiair kunnen? |
 | `synthese` | `gebaseerd_op_concepten[]` | `vergelijkingstabel`, `beslisboom`, `kerninzichten` | Cross-record vergelijking of beslisboom |
+
+**`doel`-veld geschrapt** (schema 1.6, 2026-05-18): voorheen op cluster (60% gebruik) en op competentie (theoretisch hoofdveld). Op cluster overlapte het met de nieuwe `situering` — beide werden gemigreerd. Op competentie bleek empirisch dat geen enkele competentie-record een `doel`-veld droeg; de essentie zit in `titel` + `stappen[]`. Daarom: `doel` als veldnaam gepensioneerd; functie van situerende paragraaf zit voortaan in het uniforme `situering`-veld (zie §situering).
 
 > **Historische mapping (schema 1.4 → 1.5)**: `actor` → `autoriteit`, `fenomeen` → `cluster`, `skill` → `competentie`, `methode` → `cluster`, `afwegingskader` → `cluster`, `beginsel` → `regel`, `drempel` → `regel`. Zie §"Migratie 1.4 → 1.5" voor beslisregels.
 

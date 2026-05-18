@@ -163,11 +163,11 @@ Subagent (Opus, één per PO) verwerkt anchors sequentieel.
 
 **Drie emergente mechanismen** (zonder mens-pre-werk):
 
-1. **Cross-referentie-detectie tijdens extractie** — wanneer een record verwijst naar een term ("...uitgaande van het belangenpercentage...", "...wanneer invloed van betekenis bestaat...") en die term geen eigen record heeft, log de term in `data/concepten/quality_checks/<po>/dangling-references-<run_id>.json`. Termen die >3× over chunks van >2 bronnen verwezen worden = sterke kandidaat voor eigen record.
+1. **Cross-referentie-detectie tijdens extractie** — wanneer een record verwijst naar een term ("...uitgaande van het belangenpercentage...", "...wanneer invloed van betekenis bestaat...") en die term geen eigen record heeft, log de term als gap-entry in `data/extractie/gaps.json` met `aspect: dangling-reference` (zie `prompts/concept-extractie-v4.md` §Gaps.json voor schema). Termen die >3× over chunks van >2 bronnen verwezen worden = sterke kandidaat voor eigen record (mens-cureert).
 
 2. **Recursive deepening tijdens extractie** — voor elk hoofd-concept, identificeer ingebakken begrippen in `definitie.text` of `main_rule.text`. Als ze in 2+ chunks van 2+ bronnen voorkomen: **direct als eigen record aanmaken** (extractor heeft toestemming, geen wacht-en-vraag). Liberale aanpak — anti-twijfel-regel: bij twijfel "is dit een eigen record?" kies "ja".
 
-3. **Agent-judgment in quality-check** — een tweede agent (Opus, via `quality-check-v1`) probeert examenvragen of synthese-tests met enkel concept-records op te lossen en flagt expliciet ontbrekende begrippen. Output naar `data/concepten/quality_checks/<po>/examen-eval-*.json`.
+3. **Agent-judgment in VERIFY Check A** — een tweede agent (Opus, via `concept-verify-v1`) probeert examenvragen met enkel concept-records op te lossen en flagt expliciet ontbrekende begrippen of niet-beantwoordbare vragen. Output gaat naar dezelfde `data/extractie/gaps.json` met aspecten als `records.ontbreekt`, `definitie.onvolledig`, `valkuilen.ontbreekt`, etc. (Voorheen schreef een legacy `quality-check-v1`-agent een apart `examen-eval-*.json`-bestand naar `data/concepten/quality_checks/<po>/`; die route is opgeheven 2026-05-18 ten gunste van unified gaps-stroom.)
 
 Outputs van de drie mechanismen zijn input voor **prompt v4 hercirculatie**: de volgende extractie-pass krijgt de dangling/missing-list als "expand-here"-instructie (feedback-set event — zie §18.2).
 
@@ -351,11 +351,10 @@ Géén LLM, géén mens-blockade. Twee niveaus:
 
 | Artefact | Locatie | Levensduur |
 |---|---|---|
-| Gaps-backlog | `data/extractie/gaps.json` | Permanent, append-only |
+| Gaps-backlog (unified) | `data/extractie/gaps.json` | Permanent, append-only — bevat dangling-references, ontbrekende records, examen-evaluatie-bevindingen, bron-gaps en granulariteits-twijfels (zowel EXTRACT- als VERIFY-output) |
 | Enrich-warnings | `data/extractie/enrich-warnings.json` | Permanent, append-only |
 | Bron-voorstellen | `data/extractie/_bron_voorstellen.json` | Permanent (zie §5.2) |
-| Dangling-references | `data/concepten/quality_checks/<po>/dangling-references-*.json` | Per-run snapshot |
-| Examen-evaluaties | `data/concepten/quality_checks/<po>/examen-eval-*.json` | Per-run snapshot |
+| Extraction-rapport | `data/extractie/<po>/v4-extraction-rapport.md` | Per-run snapshot (narratieve patronen, niet-record-specifieke observaties) |
 
 #### 13.6 Loop-volgorde, niet altijd alle blokken
 

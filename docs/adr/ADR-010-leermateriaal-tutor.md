@@ -172,7 +172,7 @@ Concept-fiches zijn opzoek-vorm + tutor-RAG-context, **geen** zelfdragend leesma
 
 Wel toegevoegd op de fiche: **situering**-paragraph (ADR-007 schema 1.6) bovenaan, boven TL;DR. Dat is data-laag-content (samen-aanpassen-criterium) en biedt minimale zelfdragendheid voor wie via tutor of zoek-resultaat binnenkomt zonder de minicursus te lezen.
 
-`render_concept_fiche.py` aanpassing: na frontmatter → situering-paragraph (indien aanwezig) → TL;DR-callout → rest. Geen callout-wrapper rond situering (zie ADR-007 §situering).
+`render_concept_fiche.py` aanpassing: na frontmatter → situering-paragraph (indien aanwezig) → TL;DR-callout → rest. Geen callout-wrapper rond situering (zie ADR-007 §situering). Geldt voor **alle 6 node-types** (begrip / regel / cluster / synthese / autoriteit / competentie) — sinds schema 1.6-revisie 2026-05-18 is `situering` uniform i.p.v. type-specifiek. `render_competentie_fiche.py` krijgt dezelfde plek-conventie. Voor synthese-records (die geen losse fiche krijgen, §implicatie-2): situering rendert mee in de minicursus-inbedding als opening-zin van de synthese-blok.
 
 #### Implicatie 2 — Synthese-records: geen losse fiche, wel volwaardig record
 
