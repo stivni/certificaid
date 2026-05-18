@@ -54,6 +54,18 @@ Zelena's productielijn Y in 2028 (twee jaar na impairment): nieuwe regelgeving v
 
 _Grondslag: IAS 36 alinea 114-117 + 124_
 
+### BE-GAAP-tegenhanger: art. 3:42 KB WVV ⚖️
+
+Onder Belgisch boekhoudrecht heet een vergelijkbare verlaging geen 'impairment' maar een **aanvullende of niet-recurrente afschrijving** (art. 3:42 § 1, tweede lid KB WVV) voor MVA met beperkte gebruiksduur, of een **waardevermindering wegens duurzame minderwaarde** (art. 3:42 § 2) voor MVA met onbeperkte gebruiksduur. De trigger lijkt op IAS 36: 'boekhoudkundige waarde hoger dan gebruikswaarde voor de vennootschap' wegens technische ontwaarding of gewijzigde economische/technologische omstandigheden.
+
+**Waarom?** Belgisch boekhoudrecht kent geen formele realiseerbare-waarde-test met FVLCD/VIU-tweesporenbenadering en geen verplichte jaarlijkse goodwill-test. De afweging gebeurt 'naar redelijkheid' onder voorzichtigheidsbeginsel; documentatie-eisen zijn lichter dan onder IAS 36 (kein discounted cash flow-formule voorgeschreven).
+
+
+**In de praktijk**: Praktisch verschil voor de stagiair: een IFRS-rapporteur moet jaarlijks scannen op aanwijzingen en het realiseerbare-waarde-onderzoek documenteren; een BE-GAAP-rapporteur boekt aanvullende afschrijving wanneer 'duidelijk' is dat de gebruiks- of marktwaarde lager is dan de boekwaarde. Bij dubbele rapportage (BE-GAAP + IFRS, bv. beursgenoteerde groep) ontstaan vaak tijdsverschillen omdat de IFRS-test eerder triggers oppikt.
+
+
+_Grondslag: KB WVV art. 3:42 § 1 tweede lid + § 2_
+
 
 ## Berekening
 
@@ -169,9 +181,10 @@ Na een impairment moet het afschrijvingsplan voor het actief worden herzien: de 
 
 **🛠️ Hoe**:
 
-1. Zelena's productielijn Y nieuwe boekwaarde = € 7.200.000; resterende gebruiksduur 5 jaar; restwaarde € 0.
-2. Nieuwe jaarafschrijving = € 7.200.000 / 5 = € 1.440.000/jaar.
-3. Oude afschrijving was € 8.500.000 / 5 = € 1.700.000/jaar; verschil − € 260.000/jaar minder afschrijving over toekomst.
+1. Zelena's productielijn Y nieuwe boekwaarde = € 7.200.000 na impairment.
+2. Resterende gebruiksduur ook herzien wegens versnelde technologische veroudering: 5 jaar (i.p.v. 4,25 jaar die rekenkundig zou volgen uit een ongewijzigd plan).
+3. Nieuwe jaarafschrijving = € 7.200.000 / 5 = € 1.440.000/jaar.
+4. Oorspronkelijk afschrijvingsplan bedroeg € 10.000.000 / 5 = € 2.000.000/jaar; het herziene plan ligt € 560.000/jaar lager — de impairment heeft de jaarlijkse W&V-impact significant gereduceerd.
 
 **Grondslag**: IAS 36 alinea 63
 
@@ -180,6 +193,11 @@ Na een impairment moet het afschrijvingsplan voor het actief worden herzien: de 
 > Impairment (IAS 36) is een **verlaging** van boekwaarde wanneer realiseerbare waarde gedaald is — een verlies. Herwaardering (IAS 16 alinea 31) is een **verhoging** naar marktwaarde — geen verlies maar reserve in OCI. Beide kunnen elkaar afwisselen voor hetzelfde actief: een herwaardering vergroten, dan impairment dat eerst de herwaarderingsreserve verbruikt voor het in W&V terechtkomt.
 >
 > _Trigger_: Examen: 'boekwaarde > marktwaarde' → impairment (verlaging, W&V); 'marktwaarde > boekwaarde + herwaarderingsmodel' → herwaardering (verhoging, OCI).
+
+> [!info]- Niet verwarren met [[aanvullende-afschrijving-be-gaap]]
+> IAS 36 vereist formele realiseerbare-waarde-test (hoogste van FVLCD en VIU) en jaarlijkse test voor goodwill + immaterieel-onbepaald. Art. 3:42 KB WVV vereist alleen dat aanvullende afschrijving wordt geboekt zodra de boekhoudkundige waarde 'hoger' is dan de gebruikswaarde voor de vennootschap — zonder voorgeschreven rekenmethode. Goodwill onder BE-GAAP wordt afgeschreven (art. 3:42 § 1), niet jaarlijks getest zoals onder IAS 36.
+>
+> _Trigger_: Examen: 'Onder welk regime werd deze waardevermindering geboekt?' → toets op aanwezigheid van DCF-onderbouwing en CGU-allocatie (= IFRS) versus eenvoudige verwijzing naar duurzame minderwaarde (= BE-GAAP).
 
 
 ## Valkuilen
@@ -208,13 +226,13 @@ Na een impairment moet het afschrijvingsplan voor het actief worden herzien: de 
 
 _Personages: Zelena Bio NV_
 
-Zelena Bio NV's productielijn Y in farma-divisie: kostprijs 2024 € 10.000.000, afschrijving lineair over 5 jaar (€ 2.000.000/jaar). Boekwaarde 31 december 2026 vóór impairment: € 10.000.000 − 1,5 × € 2.000.000 = € 8.500.000 (anderhalf jaar gebruikt, dus alleen prorata afschrijving op productielijn die mid-2025 in dienst kwam). In december 2026 kondigt de EU regelgeving aan die het product per 2030 verbiedt — interne aanwijzing voor impairment.
+Zelena Bio NV's productielijn Y in farma-divisie: aanschaffingswaarde € 10.000.000 op **1 april 2026**, gebruiksduur 5 jaar lineair (€ 2.000.000/jaar), restwaarde € 0. Op 31 december 2026 (9 maanden in gebruik, dus 0,75 jaar) geaccumuleerde afschrijving = 0,75 × € 2.000.000 = € 1.500.000 → boekwaarde vóór impairment = **€ 8.500.000**. In december 2026 kondigt de EU regelgeving aan die het product per 2030 verbiedt — interne aanwijzing voor impairment.
 
 1. Identificeer aanwijzingen: regulatoire wijziging EU 2030 (extern) + jaarlijkse verkoop daalt 30% versus budget (intern).
 2. Bereken realiseerbare waarde: FVLCD € 6.000.000 (markt voor tweedehands productielijnen); VIU € 7.200.000 (DCF over resterende 5 jaar, WACC 8%). Hoogste = € 7.200.000.
 3. Vergelijk: boekwaarde € 8.500.000 > realiseerbare waarde € 7.200.000 → impairment € 1.300.000.
-4. Boek het verlies (zie illustratie) en herzie afschrijvingsplan: nieuwe boekwaarde € 7.200.000 / 5 jaar = € 1.440.000/jaar.
-5. Twee jaar later (2028): EU versoepelt regelgeving. Boekwaarde 31 december 2028 (= € 7.200.000 − 2 × € 1.440.000) = € 4.320.000. Hypothetische boekwaarde zonder impairment = € 8.500.000 − 2 × € 2.000.000 = € 4.500.000. Realiseerbare waarde nu € 5.500.000. Terugneming = min(€ 5.500.000 − € 4.320.000, € 4.500.000 − € 4.320.000) = € 180.000 in W&V (ceiling = hypothetische boekwaarde zonder impairment minus huidige boekwaarde).
+4. Boek het verlies (zie illustratie) en herzie het afschrijvingsplan. Wegens dezelfde gewijzigde technologische omstandigheden wordt ook de **resterende gebruiksduur** herijkt naar 5 jaar (versnelde veroudering, IAS 36 alinea 63). Nieuwe afschrijving = € 7.200.000 / 5 jaar = € 1.440.000/jaar.
+5. Twee jaar later (31 december 2028): EU versoepelt regelgeving. Werkelijke boekwaarde = € 7.200.000 − 2 × € 1.440.000 = € 4.320.000. Hypothetische boekwaarde zonder oorspronkelijke impairment (gebruik blijft 2,75 jaar sinds 1 april 2026): € 10.000.000 − 2,75 × € 2.000.000 = **€ 4.500.000** (ceiling, IAS 36 alinea 117). Realiseerbare waarde nu € 5.500.000. Terugneming begrensd: min(€ 5.500.000 − € 4.320.000, € 4.500.000 − € 4.320.000) = min(€ 1.180.000, € 180.000) = **€ 180.000** in W&V.
 #### Impairment-boeking 31 december 2026
 _Debet- en credit-totaal beide € 1.300.000. De geaccumuleerde waardevermindering is een tegenpost op het brutoactief — boekwaarde valt naar € 7.200.000._
 
@@ -239,3 +257,4 @@ _Symmetrische tegenboeking. Maximum begrensd door hypothetische-boekwaarde-zonde
 
 [^1]: `IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname`
 [^2]: `IAS-38-immateriele-activa__sec_realiseerbaarheid-van-de-boekwaarde-bijzondere-waardeverminderingsverliezen`
+[^3]: `KB-WVV-2019__art_3_29`

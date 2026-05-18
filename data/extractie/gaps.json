@@ -2004,5 +2004,35 @@
     "geconstateerd_op": "2026-05-18",
     "status": "open",
     "aspect_type": "parallel-regime-algemene-cluster"
+  },
+  {
+    "record_id": "bijzondere-waardevermindering",
+    "aspect": "records.ontbreekt",
+    "reden": "Algemene cluster 'bijzondere-waardevermindering' ontbreekt boven de regime-specialisatie 'bijzondere-waardevermindering-ifrs'. Per §17 regel 12 moet de algemene cluster de regime-overstijgende kern dekken (definitie, wanneer-trigger, vergelijking-tussen-regimes als bouwsteen). Triggert automatisch eens parallel-regime-record bestaat.",
+    "prio": "middel",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-18T-revisit-1.5.V.A",
+    "geconstateerd_op": "2026-05-18T11:45:02+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "bijzondere-waardevermindering-be-gaap",
+    "aspect": "records.ontbreekt",
+    "reden": "Parallel-regime-record voor BE-GAAP ontbreekt. Bron-dekking voldoende in 1.5.V.A-bundle (KB WVV art. 3:42 § 1 lid 2 + § 2, art. 3:35 — chunks KB-WVV-2019__art_3_29 t/m __art_3_36 — score ≥ 0,65). Het generieke 'waardeverminderingen'-record (linked_anchors 1.1.II.*, 1.2.V.*) dekt vorderingen/voorraden/financiële-vaste-activa onder BE-GAAP, maar niet specifiek de MVA-tegenhanger van IAS 36. Aspect: parallel-regime-ontbreekt. Tijdelijke mitigatie: bouwsteen 'BE-GAAP-tegenhanger: art. 3:42 KB WVV' + vergelijkingspaar 'aanvullende-afschrijving-be-gaap' (target_status pending) toegevoegd aan bijzondere-waardevermindering-ifrs.",
+    "prio": "hoog",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-18T-revisit-1.5.V.A",
+    "geconstateerd_op": "2026-05-18T11:45:02+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "bijzondere-waardevermindering-ifrs",
+    "aspect": "vergelijkingsparen.target-ontbreekt",
+    "reden": "vergelijkingsparen[].vergelijking_met wijst naar 'aanvullende-afschrijving-be-gaap' maar dat record bestaat nog niet. Dit is bewust — markeert toekomstige BE-GAAP-tegenhanger-creatie en houdt parallel-regime-aansluiting expliciet (§17 regel 12).",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-18T-revisit-1.5.V.A",
+    "geconstateerd_op": "2026-05-18T11:45:02+00:00",
+    "status": "open",
+    "aspect_type": "concept-gap"
   }
 ]
