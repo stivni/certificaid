@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.3'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/formuleren-financiele-diagnose-en-adviezen.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/formuleren-financiele-diagnose-en-adviezen.json
+gegenereerd_op: '2026-05-18'
 ---
 # Formuleren van een financiële diagnose en concrete verbeteradviezen
 

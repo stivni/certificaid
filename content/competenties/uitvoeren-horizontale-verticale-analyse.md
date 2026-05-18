@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.3'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/uitvoeren-horizontale-verticale-analyse.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/uitvoeren-horizontale-verticale-analyse.json
+gegenereerd_op: '2026-05-18'
 ---
 # Uitvoeren van een horizontale en verticale analyse van de jaarrekening
 

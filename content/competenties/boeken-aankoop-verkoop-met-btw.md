@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.1'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/boeken-aankoop-verkoop-met-btw.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/boeken-aankoop-verkoop-met-btw.json
+gegenereerd_op: '2026-05-18'
 ---
 # Boeken van een aankoop en verkoop met btw en betaling
 

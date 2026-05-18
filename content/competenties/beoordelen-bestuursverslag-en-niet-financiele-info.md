@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.3'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/beoordelen-bestuursverslag-en-niet-financiele-info.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/beoordelen-bestuursverslag-en-niet-financiele-info.json
+gegenereerd_op: '2026-05-18'
 ---
 # Beoordelen van het bestuursverslag en de niet-financiële informatie
 

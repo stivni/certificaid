@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.8'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/uitvoeren-make-or-buy-beslissing.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/uitvoeren-make-or-buy-beslissing.json
+gegenereerd_op: '2026-05-18'
 ---
 # Uitvoeren van een make-or-buy-beslissing op basis van kostenanalyse
 

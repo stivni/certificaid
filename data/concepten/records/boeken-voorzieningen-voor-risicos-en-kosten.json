@@ -1,0 +1,214 @@
+{
+  "id": "boeken-voorzieningen-voor-risicos-en-kosten",
+  "naam": "Boeken van een voorziening voor risico's en kosten",
+  "node_type": "competentie",
+  "schema_version": "1.5",
+  "titel": "Boeken van een voorziening voor risico's en kosten",
+  "status": "voorgesteld",
+  "programmaonderdelen": [
+    1.1
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "1.1.taak.1"
+    ],
+    "kenniselementen": [
+      "1.1.II.I"
+    ]
+  },
+  "gebaseerd_op_concepten": [
+    "voorzieningen",
+    "voorzichtigheidsbeginsel",
+    "rechten-verplichtingen-buiten-balans",
+    "bedrijfsresultaat"
+  ],
+  "procedure_grondslag": {
+    "wettelijk_pct": 75,
+    "praktijk_pct": 25,
+    "motivering": "De boekhoudkundige verplichting (KB-WVV art. 3:11 en CBN 2018/25) is wettelijk; de inschatting van waarschijnlijkheid en bedrag vraagt professional judgment."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Identificeer de potentiële last of risico",
+      "wat": "Stel vast of er op balansdatum een gebeurtenis is die in de toekomst tot uitgave zal leiden.",
+      "waarom": "Een voorziening is alleen gerechtvaardigd als er werkelijk een toekomstige verplichting bestaat ter gevolge van een gebeurtenis vóór balansdatum.",
+      "input": [
+        {
+          "artefact": "Bestuurlijke briefing + juridische dossiers + contracten",
+          "veld": "Lopende geschillen, garanties, herstructureringsplannen, pensioenbeloftes",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Lijst risico-events",
+          "veld": "Per event: oorsprong, waarschijnlijkheid, geschat bedrag",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Overloop met bestuurder de lopende geschillen, garanties, beloftes — zie [[voorzieningen]] §types.\n2. Typische categorieën: pensioenverplichtingen (rubriek 160), belastingverplichtingen (161), grote herstellingen/onderhoud (162), andere risico's en kosten (163-164).\n3. Bij Naaiatelier Ninove BV — schade-claim € 22.000 wegens defecte levering, advocaat oordeelt \"veroordeling waarschijnlijk in 2027\".\n4. Bij Rotex Roeselare NV — herstructureringsplan aangekondigd in december 2026, ontslagvergoedingen geschat € 480.000.\n5. Documenteer in werkdocument.\n",
+      "grondslag": "[[voorzieningen]] §scope, KB-WVV art. 3:11"
+    },
+    {
+      "nr": 2,
+      "titel": "Toets de drie voorwaarden voor verplichte voorziening",
+      "wat": "Verifieer of de gebeurtenis voldoet aan de cumulatieve voorwaarden van het voorzichtigheidsbeginsel.",
+      "waarom": "Niet elk risico vraagt voorziening — alleen waarschijnlijke verplichtingen waarvan oorsprong vóór balansdatum ligt en bedrag betrouwbaar te schatten is.",
+      "input": [
+        {
+          "artefact": "Risico-event uit stap 1",
+          "veld": "Oorsprong, waarschijnlijkheid, bedrag",
+          "type": "conclusie"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Beslissing voorziening Ja/Nee",
+          "veld": "Conclusie + grondslag",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Toets voorwaarde 1 — Oorsprong vóór balansdatum (bv. dagvaarding ontvangen, fout in product geleverd): Ja/Nee.\n2. Toets voorwaarde 2 — Waarschijnlijke uitstroom (> 50% kans): Ja/Nee.\n3. Toets voorwaarde 3 — Betrouwbare schatting van bedrag mogelijk: Ja/Nee.\n4. Drie maal Ja → verplichte voorziening volgens [[voorzichtigheidsbeginsel]] §verplichting.\n5. Als 1 of 2 niet voldaan: alleen toelichting buiten balans (zie [[rechten-verplichtingen-buiten-balans]]).\n6. Als 3 niet voldaan: best estimate van bandbreedte; bij ontbreken toets aan IFRS-praktijk (range-midpoint).\n",
+      "valkuilen": [
+        {
+          "advies": "Boek geen voorziening voor toekomstige bedrijfsverliezen — die zijn pas erkenbaar wanneer ze zich voordoen, niet vooraf.",
+          "vaak_fout": "Voorziening boeken voor verwachte slechte tijden zonder concrete gebeurtenis vóór balansdatum.",
+          "grondslag": "[[voorzieningen]] §verboden-gebruik"
+        }
+      ],
+      "grondslag": "[[voorzieningen]] §drie-voorwaarden, [[voorzichtigheidsbeginsel]] §verplichting"
+    },
+    {
+      "nr": 3,
+      "titel": "Bepaal het bedrag (beste schatting)",
+      "wat": "Schat het bedrag dat het bestuur het meest waarschijnlijk moet uitgeven bij realisatie van de verplichting.",
+      "waarom": "Voorziening moet realistisch zijn — overdrijven verlaagt onterecht winst en is fiscaal niet aftrekbaar; onderschatten geeft geen getrouw beeld.",
+      "input": [
+        {
+          "artefact": "Documenten met cijfermateriaal",
+          "veld": "Schade-eisen, contracten, externe expertise",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Schattings-onderbouwing",
+          "veld": "Bedrag + methode + bronnen",
+          "type": "berekening"
+        }
+      ],
+      "hoe": "1. Bij éénduidig bedrag: gebruik dat bedrag (bv. eis schadeclaim met advocaat-inschatting).\n2. Bij bandbreedte: gebruik beste schatting; bij gelijke waarschijnlijkheid → midden van bandbreedte.\n3. Voor langlopende voorzieningen (pensioenen, grote herstellingen): contant maken aan een passende rente — zie CBN 2018/25.\n4. Bij Naaiatelier Ninove BV — schade € 22.000 is concrete claim; geen contantmaking nodig (kort verwachte uitstroom).\n5. Bij Rotex Roeselare NV — herstructurering € 480.000; bestaat uit ontslagvergoedingen volgens CAO-berekening + outplacement.\n",
+      "grondslag": "[[voorzieningen]] §bedragbepaling, CBN 2018/25"
+    },
+    {
+      "nr": 4,
+      "titel": "Boek de voorziening op balansdatum",
+      "wat": "Boek de dotatie als kost op rekening 6370 en de tegenpost op de passende voorzienings-rubriek (16X).",
+      "waarom": "De voorziening verschijnt op passief-zijde van balans en vermindert het resultaat — beide effecten zijn de boekhoudkundige uitdrukking van het voorzichtigheidsbeginsel.",
+      "input": [
+        {
+          "artefact": "Schattingsbedrag stap 3",
+          "veld": "Voorzieningsbedrag",
+          "type": "berekening"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Boeking voorziening",
+          "veld": "Dotatie + voorzieningsrubriek",
+          "type": "boekingsregel"
+        }
+      ],
+      "hoe": "1. Boek: Debet 6370 Voorzieningen voor risico's en kosten — toevoeging; Credit 16X Voorzieningen (160 pensioenen, 161 belastingen, 162 grote herstellingen, 163 andere risico's en kosten).\n2. Voor Naaiatelier Ninove BV — claim € 22.000: D 6370 € 22.000; C 163 Andere voorzieningen voor risico's en kosten € 22.000.\n3. Vermeld aard en bedrag in toelichting bij jaarrekening (KB-WVV art. 3:74).\n",
+      "voorbeeld": {
+        "scenario": "Naaiatelier Ninove BV — schade-claim € 22.000 ontvangen 27/12/2026, advocaat-inschatting 'veroordeling waarschijnlijk in 2027'.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Boeking voorziening",
+            "type": "boekingsregel",
+            "data": "| Datum | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| 31/12/2026 | 6370 Voorzieningen voor risico's en kosten — toev. | schade-claim | € 22.000,00 | |\n| 31/12/2026 | 163 Andere voorzieningen voor risico's en kosten | claim Ninove | | € 22.000,00 |\n"
+          },
+          {
+            "nr": 2,
+            "titel": "Toelichting bij jaarrekening",
+            "type": "opmerking",
+            "data": "In de toelichting onder \"Voorzieningen\": \"Op 27/12/2026 ontvingen wij een schade-eis van € 22.000 wegens defecte levering. Advocaat-advies oordeelt veroordeling waarschijnlijk in 2027.\"\n"
+          }
+        ]
+      },
+      "grondslag": "[[voorzieningen]] §boeking, KB-WVV art. 3:11"
+    },
+    {
+      "nr": 5,
+      "titel": "Beheer de voorziening in volgende boekjaren",
+      "wat": "Pas de voorziening jaarlijks aan naar nieuwe inschatting en hef ze op bij realisatie of bij wegvallen van het risico.",
+      "waarom": "Voorzieningen zijn dynamisch — overdotatie wordt teruggenomen (opbrengst), onderdotatie aangevuld (extra kost), realisatie boekt de daadwerkelijke uitgave.",
+      "input": [
+        {
+          "artefact": "Voortgangsrapport per voorziening",
+          "veld": "Status risico, nieuwe inschatting",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Aanpassingsboeking",
+          "veld": "Toename, terugname of besteding",
+          "type": "boekingsregel"
+        }
+      ],
+      "hoe": "1. Bij toename inschatting: Debet 6370; Credit 16X (extra dotatie).\n2. Bij afname inschatting: Debet 16X; Credit 7370 Voorzieningen — terugneming.\n3. Bij realisatie: Debet 16X; Credit 4400 Schuld of 5500 Bank (uitbetaling); eventueel verschil via 6370 of 7370.\n4. Bij volledig wegvallen risico (vonnis in voordeel onderneming): volledige terugneming via 7370.\n5. Bij Naaiatelier Ninove BV — uitspraak in 2027: veroordeling € 19.500 → besteding D 163 € 22.000; C 5500 Bank € 19.500; C 7370 Terugneming € 2.500 (overschatting).\n",
+      "grondslag": "[[voorzieningen]] §dynamisch-beheer, CBN 2018/25 §opvolging"
+    }
+  ],
+  "beslisboom": [
+    {
+      "vraag": "Ligt de oorzaak vóór balansdatum + waarschijnlijke uitstroom + bedrag schatbaar?",
+      "ja": "Verplichte voorziening boeken.",
+      "nee": "Toelichting buiten balans (rechten/verplichtingen klasse 0) of niets."
+    },
+    {
+      "vraag": "Verandert de inschatting materieel in volgend boekjaar?",
+      "ja": "Aanpassen via dotatie of terugname.",
+      "nee": "Bedrag ongewijzigd laten."
+    },
+    {
+      "vraag": "Treedt de werkelijke uitgave op?",
+      "ja": "Voorziening bestedingsboeking + eventueel verschil verwerken.",
+      "nee": "Verder als jaarlijkse review."
+    }
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Naaiatelier Ninove BV ontvangt op 27/12/2026 een schade-eis € 22.000 van klant wegens defecte naaimachine-levering. Advocaat: \"veroordeling waarschijnlijk in 2027\".",
+      "conclusie": "Drie voorwaarden voldaan (oorsprong defect in 2026, waarschijnlijke uitstroom, bedrag schatbaar) → voorziening € 22.000 op 163; dotatie 6370. Toelichting jaarrekening verplicht.",
+      "grondslag": "[[voorzieningen]] §drie-voorwaarden; [[voorzichtigheidsbeginsel]] §verplichting",
+      "redenering": "Anders dan schuld (uitkomst nog onzeker, geen vonnis), maar wel waarschijnlijk genoeg om buiten balans niet te volstaan."
+    },
+    {
+      "situatie": "Rotex Roeselare NV kondigt in december 2026 herstructureringsplan aan met 30 ontslagen. CAO-berekende opzegvergoedingen totaal € 480.000, outplacement € 60.000.",
+      "conclusie": "Voorziening € 540.000 op rubriek 163. Voorwaarde \"oorsprong vóór balansdatum\" voldaan door formeel aangekondigd plan + onomkeerbare communicatie naar ondernemingsraad. Dotatie 6370 € 540.000.",
+      "grondslag": "[[voorzieningen]] §herstructureringen; CBN 2018/25",
+      "redenering": "Aankondiging vóór balansdatum + onomkeerbaarheid maken het een feitelijke verplichting; bedrag berekenbaar via CAO."
+    },
+    {
+      "situatie": "Meubelzaak Mertens BV vreest \"moeilijke economische tijden in 2027\". Mag het bestuur een voorziening € 50.000 boeken \"om buffer te creëren\"?",
+      "conclusie": "NEE. Geen concrete gebeurtenis vóór balansdatum, geen waarschijnlijke uitstroom, geen specifieke verplichting. Toekomstige bedrijfsverliezen mogen niet worden voorzien — voorziening verboden.",
+      "grondslag": "[[voorzieningen]] §verboden-gebruik",
+      "redenering": "Voorzieningen zijn geen winst-egalisatie-instrument. Algemene economische vooruitzichten zijn niet specifiek genoeg."
+    }
+  ],
+  "_provenance": {
+    "voorgesteld_door": "competentie-destillatie-v2-po11-20260516",
+    "voorgesteld_op": "2026-05-16T00:00:00Z",
+    "gecureerd_door": null,
+    "gecureerd_op": null
+  },
+  "linked_anchors": [
+    "1.1.taak.1",
+    "1.1.II.I"
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+}

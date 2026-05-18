@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.7'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/opstellen-bijzondere-verslagen-en-ic-evaluaties.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/opstellen-bijzondere-verslagen-en-ic-evaluaties.json
+gegenereerd_op: '2026-05-18'
 ---
 # Opstellen van bijzondere verslagen en IC-evaluaties voor specifieke verrichtingen
 

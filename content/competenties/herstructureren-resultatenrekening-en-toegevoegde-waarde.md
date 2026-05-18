@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.9'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/herstructureren-resultatenrekening-en-toegevoegde-waarde.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/herstructureren-resultatenrekening-en-toegevoegde-waarde.json
+gegenereerd_op: '2026-05-18'
 ---
 # Herstructureren van de resultatenrekening en isoleren van de toegevoegde waarde
 

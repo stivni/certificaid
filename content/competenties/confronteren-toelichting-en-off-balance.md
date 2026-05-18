@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.3'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/confronteren-toelichting-en-off-balance.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/confronteren-toelichting-en-off-balance.json
+gegenereerd_op: '2026-05-18'
 ---
 # Confronteren van de financiële analyse met de toelichting en off-balance posten
 

@@ -1,0 +1,229 @@
+{
+  "id": "boeken-waardeverminderingen-op-vorderingen-en-voorraden",
+  "naam": "Boeken van waardeverminderingen op vorderingen en voorraden",
+  "node_type": "competentie",
+  "schema_version": "1.5",
+  "titel": "Boeken van waardeverminderingen op vorderingen en voorraden",
+  "status": "voorgesteld",
+  "programmaonderdelen": [
+    1.1
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "1.1.taak.1"
+    ],
+    "kenniselementen": [
+      "1.1.II.D",
+      "1.1.II.E",
+      "1.1.II.F"
+    ]
+  },
+  "gebaseerd_op_concepten": [
+    "waardeverminderingen",
+    "voorzichtigheidsbeginsel",
+    "bedrijfsvorderingen",
+    "voorraden"
+  ],
+  "procedure_grondslag": {
+    "wettelijk_pct": 70,
+    "praktijk_pct": 30,
+    "motivering": "De boekingsregels (rubrieken 407/409 dubieuze klanten en 30X9 waardevermindering voorraden) zijn voorgeschreven in KB-WVV en KB-MAR; het voorzichtigheidsbeginsel verplicht boeking. Praktijk komt kijken bij de inschatting van het verlies-percentage en het criterium \"dubieus\" (al dan niet meer dan 6 maanden achterstand)."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Identificeer dubieuze vorderingen",
+      "wat": "Stel een lijst op van klanten waarvan inning onzeker is op balansdatum.",
+      "waarom": "Niet elke openstaande vordering is dubieus; alleen wanneer inning onzeker is, moet waardevermindering geboekt worden.",
+      "input": [
+        {
+          "artefact": "Klantenbalans + ouderdomsanalyse",
+          "veld": "Openstaand bedrag per klant + ouderdom",
+          "type": "berekening"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Lijst dubieuze klanten",
+          "veld": "Klant + bedrag + reden onzekerheid",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Maak een ouderdomsanalyse van de klantenrekening (4000) per balansdatum.\n2. Identificeer klanten met betalingsachterstand > 6 maanden, klanten in WCO/faillissement, klanten waarvan dagvaarding loopt.\n3. Bij Meubelzaak Mertens BV — klant Wegener heeft € 8.500 sinds maart openstaan; geen reactie op aanmaningen; geen formele dagvaarding maar bestuurder schat 50% kans op verlies.\n4. Klanten in faillissement: boek volledig dubieus (100% waardevermindering tot eventueel uitkering).\n5. Documenteer in werkdocument met datum aanmaningen + reactie klant.\n",
+      "grondslag": "[[bedrijfsvorderingen]] §dubieus-criterium, [[voorzichtigheidsbeginsel]] §risico-detectie"
+    },
+    {
+      "nr": 2,
+      "titel": "Verschuif dubieuze klanten van 4000 naar 407",
+      "wat": "Boek een tussenboeking die de dubieuze vordering uit de gewone klantenrekening verwijdert.",
+      "waarom": "Aparte rubriek 407 maakt zichtbaar dat het niet langer een gewone vordering is en respecteert de informatieplicht in de toelichting.",
+      "input": [
+        {
+          "artefact": "Lijst dubieuze klanten stap 1",
+          "veld": "Bedragen per klant",
+          "type": "berekening"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Journaalpost verschuiving",
+          "veld": "Boeking 407 ← 4000 incl. btw",
+          "type": "boekingsregel"
+        }
+      ],
+      "hoe": "1. Boek inclusief btw — de hele vordering verschuift, niet alleen het netto bedrag.\n2. Debet 407 Dubieuze handelsvorderingen [bedrag incl. btw]; Credit 4000 Handelsvorderingen [bedrag incl. btw].\n3. Bij Meubelzaak Mertens BV — Wegener € 8.500 incl. btw: D 407 € 8.500; C 4000 € 8.500.\n4. Geen waardevermindering nog — die volgt in stap 3.\n",
+      "grondslag": "[[bedrijfsvorderingen]] §verschuiving-dubieus"
+    },
+    {
+      "nr": 3,
+      "titel": "Boek de waardevermindering op het netto-bedrag (excl. btw)",
+      "wat": "Boek het waarschijnlijke verlies op het netto bedrag, zonder btw, omdat btw bij definitief verlies later teruggevorderd wordt.",
+      "waarom": "Voorzichtigheidsbeginsel verplicht boeking van waarschijnlijk verlies; btw wordt apart via btw-aangifte teruggevorderd bij definitief verlies (KB nr. 4 art. 3).",
+      "input": [
+        {
+          "artefact": "Journaalpost stap 2",
+          "veld": "Verplaatste bedragen op 407",
+          "type": "balans"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Waardevermindering-boeking",
+          "veld": "Dotatie + waardeverminderingsrekening",
+          "type": "boekingsregel"
+        }
+      ],
+      "hoe": "1. Bereken het waarschijnlijke verlies — vaak een percentage (50%, 75% of 100% afhankelijk van situatie).\n2. Werk op het netto bedrag (excl. btw) — bij € 8.500 incl. btw 21% = € 7.024,79 excl. btw.\n3. Voor Mertens BV — Wegener 50% verlies × € 7.024,79 = € 3.512,40.\n4. Boek: Debet 6340 Waardeverminderingen op handelsvorderingen (dotatie); Credit 4079 Waardeverminderingen op dubieuze klanten (correctief actiefrekening).\n5. Op balansdatum: rubriek 407 staat voor brutowaarde € 8.500; rubriek 4079 voor € 3.512; netto € 4.987.\n",
+      "voorbeeld": {
+        "scenario": "Meubelzaak Mertens BV — klant Wegener € 8.500 incl. btw 21%, 8 maanden achterstand, geschat 50% verlies.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Verschuiving naar dubieus",
+            "type": "boekingsregel",
+            "data": "| Datum | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| 31/12/2026 | 407 Dubieuze handelsvorderingen — Wegener | herklassering | € 8.500,00 | |\n| 31/12/2026 | 4000 Handelsvorderingen — Wegener | -- | | € 8.500,00 |\n"
+          },
+          {
+            "nr": 2,
+            "titel": "Boeking waardevermindering",
+            "type": "boekingsregel",
+            "data": "| Datum | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| 31/12/2026 | 6340 Waardeverm. op handelsvord. — dotatie | 50% × € 7.024,79 | € 3.512,40 | |\n| 31/12/2026 | 4079 Waardeverm. op dubieuze klanten | correctief actief | | € 3.512,40 |\n"
+          }
+        ]
+      },
+      "valkuilen": [
+        {
+          "advies": "Boek waardevermindering op het netto bedrag excl. btw — de btw kan apart teruggevorderd worden bij definitief verlies.",
+          "vaak_fout": "De waardevermindering boeken op het totaal incl. btw en zo dubbel verlies registreren.",
+          "grondslag": "[[bedrijfsvorderingen]] §btw-bij-verlies, KB nr. 4 art. 3"
+        }
+      ],
+      "grondslag": "[[waardeverminderingen]] §boeking-vorderingen, [[voorzichtigheidsbeginsel]] §waarschijnlijke-verliezen"
+    },
+    {
+      "nr": 4,
+      "titel": "Boek waardevermindering op voorraden bij ondergewaardeerde of incourante voorraad",
+      "wat": "Indien de marktwaarde of realisatiewaarde van voorraad onder de aanschaffingswaarde valt, boek het verschil als waardevermindering.",
+      "waarom": "Voorraadwaardering volgt de regel \"laagste van aanschaffingswaarde of marktwaarde\" (Lower of Cost or Market) — zonder waardevermindering wordt voorraad overgewaardeerd.",
+      "input": [
+        {
+          "artefact": "Voorraadwaarderingsstaat",
+          "veld": "Per artikel: aantal, aanschaffingswaarde, marktwaarde",
+          "type": "berekening"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Waardevermindering-boeking",
+          "veld": "Dotatie + correctief actiefrekening 30X9",
+          "type": "boekingsregel"
+        }
+      ],
+      "hoe": "1. Bereken per artikel: marktwaarde minus aanschaffingswaarde (kan negatief zijn).\n2. Indien negatief: boek waardevermindering ter grootte van het verschil — zie [[voorraden]] §waardering.\n3. Voor Naaiatelier Ninove BV — voorraad oude collectie 2024 nog € 12.000 aanschaffingswaarde, marktwaarde tweedehandsmarkt € 7.000: waardevermindering € 5.000.\n4. Boek: Debet 6310 Waardeverminderingen op voorraden (dotatie); Credit 30X9 Geboekte waardeverminderingen op voorraden (correctief op rubriek 30 grondstoffen, 31 hulpstoffen, 32 goederen in bewerking, 33 gereed product of 34 handelsgoederen).\n5. Bij incourant artikel zonder marktwaarde: 100% afwaarderen.\n",
+      "voorbeeld": {
+        "scenario": "Naaiatelier Ninove BV — voorraad oude collectie 2024: aanschaffingswaarde € 12.000, geschatte netto-realisatiewaarde € 7.000 op balansdatum 31/12/2026.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Boeking waardevermindering voorraad",
+            "type": "boekingsregel",
+            "data": "| Datum | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| 31/12/2026 | 6310 Waardeverm. op voorraden — dotatie | oude collectie 2024 | € 5.000,00 | |\n| 31/12/2026 | 3409 Geboekte waardeverm. op handelsgoederen | -- | | € 5.000,00 |\n"
+          }
+        ]
+      },
+      "grondslag": "[[voorraden]] §waardering-lower-of-cost-or-market, [[waardeverminderingen]] §boeking-voorraden, KB-WVV art. 3:15"
+    },
+    {
+      "nr": 5,
+      "titel": "Herzie of stop waardevermindering wanneer reden wegvalt",
+      "wat": "Indien klant alsnog betaalt of voorraad terug in waarde stijgt, terugnemen of bij definitief verlies definitief boeken.",
+      "waarom": "Waardevermindering is geen blijvende boeking; voortdurende herevaluatie verplicht (CBN 2010/15).",
+      "input": [
+        {
+          "artefact": "Latere informatie",
+          "veld": "Betaling, faillissement, voorraadherwaardering",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Terugname of definitieve boeking",
+          "veld": "7600 Terugname waardeverm. of 642 Minderwaarde",
+          "type": "boekingsregel"
+        }
+      ],
+      "hoe": "1. Bij alsnog betaling: terugname via Debet 4079; Credit 7600 Terugneming van waardeverminderingen op handelsvorderingen.\n2. Bij definitief verlies (vonnis, faillissement-afsluiting): boek volledig verlies via 6420 Minderwaarden op realisatie van handelsvorderingen + btw-terugvordering via 411.\n3. Voor voorraden: indien marktwaarde stijgt boven aanschaffingswaarde — waardevermindering terugnemen (maar boekwaarde NOOIT boven historische kost).\n4. Documenteer beslissing in cliëntdossier.\n",
+      "grondslag": "[[waardeverminderingen]] §terugname, CBN 2010/15"
+    }
+  ],
+  "beslisboom": [
+    {
+      "vraag": "Is de klant in faillissement of de vordering > 6 maanden onbetaald?",
+      "ja": "Verschuif naar 407 en boek waardevermindering op basis van geschat verlies (vaak 50%-100%).",
+      "nee": "Geen waardevermindering; gewone klantenrekening 4000 behouden."
+    },
+    {
+      "vraag": "Is de marktwaarde voorraad onder aanschaffingswaarde?",
+      "ja": "Boek waardevermindering tot marktwaarde.",
+      "nee": "Geen waardevermindering; voorraad blijft op aanschaffingswaarde."
+    },
+    {
+      "vraag": "Vervalt de reden van waardevermindering (alsnog betaling, voorraadherwaardering)?",
+      "ja": "Terugname via 7600 (vorderingen) of vermindering correctief (voorraden), nooit boven historische kost.",
+      "nee": "Behouden of versterken."
+    }
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Meubelzaak Mertens BV heeft op 31/12/2026 vordering € 8.500 incl. btw 21% op klant Wegener (8 maanden onbetaald, geen dagvaarding maar bestuurder schat 50% verlies). Daarnaast staat een vordering € 3.025 op klant Lievegem die in faillissement is verklaard sinds 15/10.",
+      "conclusie": "Wegener — verschuiving naar 407 (€ 8.500), waardevermindering 50% op netto € 7.024,79 = € 3.512,40 op 4079 + dotatie 6340. Lievegem — verschuiving naar 407 (€ 3.025), waardevermindering 100% op netto € 2.500 = € 2.500 op 4079 + dotatie 6340. Btw terugvordering pas bij afsluiting curatele.",
+      "grondslag": "[[bedrijfsvorderingen]] §dubieus; [[waardeverminderingen]] §percentage",
+      "redenering": "8 maanden zonder reactie rechtvaardigt 50%-inschatting (matig risico). Faillissement rechtvaardigt 100%, maar btw blijft afhankelijk van curator-rapport."
+    },
+    {
+      "situatie": "Naaiatelier Ninove BV — voorraad oude textielcollectie 2024 staat op 31/12/2026 nog op € 12.000 aanschaffingswaarde, netto-realisatiewaarde tweedehandsmarkt € 7.000.",
+      "conclusie": "Waardevermindering € 5.000 op 3409 Correctief op handelsgoederen, dotatie via 6310. Voorraad blijft op rubriek 34 voor € 12.000 bruto; netto presentatie € 7.000 na correctief.",
+      "grondslag": "[[voorraden]] §lower-of-cost-or-market",
+      "redenering": "Voorzichtigheidsbeginsel vraagt afwaardering tot netto-realisatiewaarde wanneer markt onder historische kost zakt; voorraad mag niet bovenwaarde getoond worden."
+    },
+    {
+      "situatie": "In juni 2027 betaalt Wegener alsnog € 6.000 (zonder rechtszaak). Hoe boeken bij Mertens BV?",
+      "conclusie": "Boek inkomst Debet 5500 Bank € 6.000; Credit 407 Dubieuze handelsvorderingen — Wegener € 6.000. Resterend saldo 407 = € 2.500. Terugname waardevermindering ter grootte van het deel dat geïnd is — Debet 4079 € 3.512,40 — Credit 7600 Terugneming € 3.512,40. Resterend 407 € 2.500 verder opvolgen.",
+      "grondslag": "[[waardeverminderingen]] §terugname; [[bedrijfsvorderingen]] §gedeeltelijke-inning",
+      "redenering": "Inning vermindert de dubieuze vordering en doet de geboekte waardevermindering volledig terugnemen — eerder pessimisme corrigeren."
+    }
+  ],
+  "_provenance": {
+    "voorgesteld_door": "competentie-destillatie-v2-po11-20260516",
+    "voorgesteld_op": "2026-05-16T00:00:00Z",
+    "gecureerd_door": null,
+    "gecureerd_op": null
+  },
+  "linked_anchors": [
+    "1.1.taak.1",
+    "1.1.II.D",
+    "1.1.II.E",
+    "1.1.II.F"
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+}

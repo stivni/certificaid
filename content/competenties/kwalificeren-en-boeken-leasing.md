@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.1'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/kwalificeren-en-boeken-leasing.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/kwalificeren-en-boeken-leasing.json
+gegenereerd_op: '2026-05-18'
 ---
 # Kwalificeren en boeken van leasing (operationeel vs financieel)
 

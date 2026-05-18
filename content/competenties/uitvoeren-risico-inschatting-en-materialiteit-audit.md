@@ -7,9 +7,9 @@ tags:
 programmaonderdelen:
 - '1.6'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/uitvoeren-risico-inschatting-en-materialiteit-audit.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/uitvoeren-risico-inschatting-en-materialiteit-audit.json
+gegenereerd_op: '2026-05-18'
 ---
 # Uitvoeren van risico-inschatting en bepalen van het materieel belang in een audit
 

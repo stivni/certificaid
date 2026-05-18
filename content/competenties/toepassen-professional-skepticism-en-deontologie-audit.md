@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.6'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/toepassen-professional-skepticism-en-deontologie-audit.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/toepassen-professional-skepticism-en-deontologie-audit.json
+gegenereerd_op: '2026-05-18'
 ---
 # Toepassen van professional skepticism en deontologische normen tijdens de audit
 

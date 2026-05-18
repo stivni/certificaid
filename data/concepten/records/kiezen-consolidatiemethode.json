@@ -1,0 +1,251 @@
+{
+  "id": "kiezen-consolidatiemethode",
+  "naam": "Kiezen van de toe te passen consolidatietechniek per entiteit",
+  "node_type": "competentie",
+  "schema_version": "1.5",
+  "titel": "Kiezen van de toe te passen consolidatietechniek per entiteit",
+  "status": "voorgesteld",
+  "programmaonderdelen": [
+    1.4
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "1.4.taak.1"
+    ],
+    "kenniselementen": [
+      "1.4.I.D",
+      "1.4.I.E",
+      "1.4.I.B",
+      "1.4.II.C"
+    ]
+  },
+  "gebaseerd_op_concepten": [
+    "integrale-consolidatie",
+    "evenredige-consolidatie",
+    "vermogensmutatiemethode",
+    "horizontale-consolidatie",
+    "dochteronderneming",
+    "gemeenschappelijke-dochteronderneming",
+    "geassocieerde-onderneming",
+    "consortium"
+  ],
+  "procedure_grondslag": {
+    "wettelijk_pct": 80,
+    "praktijk_pct": 20,
+    "motivering": "De koppeling kwalificatie → techniek is wettelijk: KB WVV art. 3:124 en volgende dwingen integrale consolidatie voor dochters, evenredige voor gemeenschappelijke dochters, vermogensmutatie voor geassocieerden. Alleen 'nauwe integratie' van een gemeenschappelijke dochter is een beoordelingselement."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Vaststellen van de kwalificatie per entiteit",
+      "wat": "Neem voor elke entiteit in de kring de kwalificatie over uit [[kwalificeren-relatie-deelneming]].",
+      "waarom": "De kwalificatie bepaalt mechanisch welke techniek wettelijk vereist is.",
+      "input": [
+        {
+          "artefact": "Werkpapier kwalificatie (uit [[kwalificeren-relatie-deelneming]])",
+          "veld": "Kwalificatie per entiteit",
+          "type": "conclusie"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werkpapier methode-keuze",
+          "veld": "Eén kwalificatie per entiteit in de kring",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Open het werkpapier kwalificatie van [[kwalificeren-relatie-deelneming]].\n2. Lijst per entiteit de kwalificatie op: dochter, gemeenschappelijke dochter, geassocieerde of gewone deelneming.\n3. Voeg ook entiteiten toe die zijn weggelaten op grond van art. 3:98 of 3:99 (zie [[afbakenen-consolidatiekring]] stap 4).\n4. Bij een consortium: noteer ook welke vennootschappen consortium-lid zijn.\n",
+      "grondslag": "[[controle]] §kwalificatie (pre-requisite)"
+    },
+    {
+      "nr": 2,
+      "titel": "Integrale consolidatie op exclusief gecontroleerde dochters",
+      "wat": "Wijs integrale consolidatie toe aan alle exclusief gecontroleerde dochters in de kring.",
+      "waarom": "Integrale consolidatie geeft het beeld 'alsof het geheel één onderneming was' en is de standaardtechniek voor exclusieve dochters.",
+      "input": [
+        {
+          "artefact": "Werkpapier methode-keuze",
+          "veld": "Dochterondernemingen",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werkpapier methode-keuze",
+          "veld": "Beslissing: integrale consolidatie + afzondering belangen van derden",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Voor elke dochter waarover exclusieve controle bestaat (bv. Brugse Brouwerij BV onder Aurelia Holding NV): wijs integrale consolidatie toe.\n2. Verifieer dat de dochter in de consolidatiekring zit (niet weggelaten op grond van KB WVV art. 3:97).\n3. Stuur de dochter door naar [[uitvoeren-eerste-consolidatie]] en [[uitvoeren-intragroep-eliminaties]] voor de uitvoering.\n4. Belangen van derden = (1 − belangenpercentage) × eigen vermogen dochter, apart presenteren in 'Belangen van derden' (balans) en 'Aandeel van derden in het resultaat' (resultatenrekening).\n",
+      "voorbeeld": {
+        "scenario": "Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV (exclusieve controle in rechte).",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Toewijzing techniek",
+            "type": "opmerking",
+            "data": "Kwalificatie: dochter → integrale consolidatie.\n100 % van Brugse-activa en -passiva opnemen, 20 % afzonderen als belangen van derden.\n"
+          }
+        ]
+      },
+      "grondslag": "[[integrale-consolidatie]] §toepassingsgebied, KB WVV art. 3:124 lid 1"
+    },
+    {
+      "nr": 3,
+      "titel": "Evenredige consolidatie op gemeenschappelijke dochters",
+      "wat": "Wijs evenredige consolidatie toe aan gemeenschappelijke dochters die nauw geïntegreerd zijn in de groepsactiviteit, anders vermogensmutatie.",
+      "waarom": "Evenredige consolidatie weerspiegelt het gezamenlijke karakter van de controle. Bij gebrek aan integratie volstaat vermogensmutatie.",
+      "input": [
+        {
+          "artefact": "Werkpapier methode-keuze",
+          "veld": "Gemeenschappelijke dochters",
+          "type": "document"
+        },
+        {
+          "artefact": "Bedrijfsbeschrijving van de gemeenschappelijke dochter",
+          "veld": "Mate van operationele integratie met moeder",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werkpapier methode-keuze",
+          "veld": "Evenredige consolidatie OF vermogensmutatie per gemeenschappelijke dochter",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Voor elke gemeenschappelijke dochter (bv. Filmstudio Florence BV, 50/50 tussen Cardinal Group NV en Energiehuis Evergem BV): beoordeel de mate van operationele integratie.\n2. Nauwe integratie? → evenredige consolidatie: activa/passiva pro-rata (belangenpercentage × bedragen), geen afzondering van derden.\n3. Geen nauwe integratie? → vermogensmutatie (zie stap 4).\n4. Documenteer in werkpapier waarom integratie wel of niet 'nauw' is.\n",
+      "voorbeeld": {
+        "scenario": "Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % in Filmstudio Florence BV. Filmstudio levert exclusief postproductie aan beide partners en gebruikt hun gemeenschappelijke ICT-systemen.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Toets nauwe integratie",
+            "type": "opmerking",
+            "data": "Operationele indicatoren: exclusieve dienstverlening aan partners + gedeelde ICT → nauw geïntegreerd.\n"
+          },
+          {
+            "nr": 2,
+            "titel": "Toewijzing techniek",
+            "type": "opmerking",
+            "data": "Evenredige consolidatie voor Cardinal én voor Energiehuis (elk 50 %).\nGeen aandeel van derden geboekt (omdat het derden-deel niet wordt opgenomen).\n"
+          }
+        ]
+      },
+      "valkuilen": [
+        {
+          "advies": "Bij evenredige consolidatie nooit een aandeel van derden boeken.",
+          "vaak_fout": "Aannemen dat ook bij evenredige consolidatie een aandeel van derden moet worden geboekt voor het deel buiten de groep.",
+          "grondslag": "[[evenredige-consolidatie]] §geen-aandeel-van-derden"
+        }
+      ],
+      "grondslag": "[[evenredige-consolidatie]] §toepassingsgebied, KB WVV art. 3:135"
+    },
+    {
+      "nr": 4,
+      "titel": "Vermogensmutatiemethode op geassocieerden en specifieke dochters",
+      "wat": "Wijs vermogensmutatie toe aan geassocieerde ondernemingen, niet-nauw-geïntegreerde gemeenschappelijke dochters en dochters die zijn uitgesloten op grond van art. 3:98 of 3:99.",
+      "waarom": "Vermogensmutatie weerspiegelt invloed (niet controle) over het netto-actief en het resultaat van de geassocieerde.",
+      "input": [
+        {
+          "artefact": "Werkpapier methode-keuze",
+          "veld": "Geassocieerden + uitgesloten dochters",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werkpapier methode-keuze",
+          "veld": "Vermogensmutatie per geselecteerde entiteit",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Voor elke geassocieerde (bv. Drukkerij Dendermonde BV onder Antwerpse Investments NV, 25 %): wijs vermogensmutatie toe.\n2. Voor elke niet-nauw-geïntegreerde gemeenschappelijke dochter: idem.\n3. Voor elke dochter uitgesloten op grond van art. 3:98 of 3:99: idem (KB WVV verplicht dit).\n4. Initiële boeking: pro-rata aandeel in eigen vermogen op aankoopdatum + eventueel consolidatieverschil. Jaarlijkse aanpassing: pro-rata aandeel in wijzigingen van het eigen vermogen.\n5. Volg [[vermogensmutatiemethode]] §boeking voor de uitvoering.\n",
+      "grondslag": "[[vermogensmutatiemethode]] §toepassingsgebied, KB WVV art. 3:141"
+    },
+    {
+      "nr": 5,
+      "titel": "Horizontale consolidatie bij een consortium",
+      "wat": "Bij een consortium: voer eerst per lid een verticale consolidatie uit, dan integraal horizontaal samenvoegen.",
+      "waarom": "Bij een consortium ontbreekt een verticale moeder; de geconsolideerde jaarrekening wordt gezamenlijk opgesteld.",
+      "input": [
+        {
+          "artefact": "Vaststelling consortium uit [[afbakenen-consolidatiekring]]",
+          "veld": "Lijst van consortium-leden",
+          "type": "conclusie"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werkpapier methode-keuze",
+          "veld": "Plan voor verticale + horizontale consolidatie",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Voor elk consortium-lid (bv. Industria Antwerpen NV, Jachthaven Jezus-Eik NV): voer eerst een verticale consolidatie uit van zijn eigen dochters volgens de gebruikelijke technieken.\n2. Voeg vervolgens de verticaal geconsolideerde cijfers van alle leden integraal samen via horizontale consolidatie.\n3. Behoud het karakter van de eigen-vermogenposten per lid (geen samenvoeging van kapitaal van verschillende leden).\n4. Volg [[horizontale-consolidatie]] §uitvoering voor de techniek.\n",
+      "grondslag": "[[horizontale-consolidatie]] §toepassingsgebied, WVV art. 3:24 + KB WVV art. 3:124 lid 1"
+    }
+  ],
+  "beslisboom": [
+    {
+      "vraag": "Is er een consortium (horizontale groep)?",
+      "ja": "Horizontale consolidatie (voor elk lid eerst verticaal, dan samenvoegen). Stop hier voor de keuze.",
+      "nee": "Ga per entiteit naar volgende vraag."
+    },
+    {
+      "vraag": "Bestaat exclusieve controle?",
+      "ja": "Integrale consolidatie.",
+      "nee": "Ga naar volgende vraag."
+    },
+    {
+      "vraag": "Bestaat gezamenlijke controle en is de dochter nauw geïntegreerd?",
+      "ja": "Evenredige consolidatie.",
+      "nee": "Bestaat gezamenlijke controle maar zonder nauwe integratie, of invloed van betekenis? → Vermogensmutatie."
+    },
+    {
+      "vraag": "Werd de dochter uitgesloten op grond van KB WVV art. 3:98 of art. 3:99?",
+      "ja": "Toch opnemen via vermogensmutatie (KB WVV vereist dit).",
+      "nee": "—"
+    }
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Aurelia Holding NV bezit 100 % in Brugse Brouwerij BV (exclusieve controle). Aurelia bezit ook 50 % in Filmstudio Florence BV, samen met Cardinal Group NV (50 %) onder aandeelhoudersovereenkomst, met nauwe operationele integratie. Aurelia bezit verder 25 % in Drukkerij Dendermonde BV met bestuursvertegenwoordiging.",
+      "conclusie": "Brugse wordt integraal geconsolideerd. Filmstudio wordt evenredig geconsolideerd (50 %). Drukkerij Dendermonde wordt opgenomen via vermogensmutatie.",
+      "grondslag": "[[integrale-consolidatie]] §exclusieve-controle; [[evenredige-consolidatie]] §gezamenlijke-controle-nauwe-integratie; [[vermogensmutatiemethode]] §geassocieerde-onderneming",
+      "redenering": "De kwalificatie van elke entiteit dwingt mechanisch een techniek af. Voor Filmstudio is nauwe integratie aanwezig, dus evenredige consolidatie eerder dan vermogensmutatie."
+    },
+    {
+      "situatie": "Industria Antwerpen NV bezit 100 % van een eigen dochter. Industria en Jachthaven Jezus-Eik NV staan onder centrale leiding van Pieter Vermeulen (consortium).",
+      "conclusie": "Industria voert eerst een verticale integrale consolidatie uit (Industria + haar dochter). Vervolgens worden de verticaal geconsolideerde cijfers van Industria en Jachthaven horizontaal samengevoegd via integrale consolidatie, met behoud van het eigen-vermogenkarakter per consortium-lid.",
+      "grondslag": "[[horizontale-consolidatie]] §stappen; [[consortium]] §gezamenlijke-plicht",
+      "redenering": "Het consortium triggert horizontale consolidatie. Eigen dochters van een lid worden eerst verticaal verwerkt voordat horizontale samenvoeging plaatsvindt."
+    }
+  ],
+  "_provenance": {
+    "voorgesteld_door": "competentie-destillatie-v1-competentie-run-20260515T183709Z",
+    "voorgesteld_op": "2026-05-15T18:37:09Z",
+    "gecureerd_door": null,
+    "gecureerd_op": null,
+    "rewrite_naar_schema_1_1": {
+      "door": "competentie-deep-rewrite-2026-05-16",
+      "op": "2026-05-16T00:00:00Z",
+      "velden_gewijzigd": [
+        "stappen[*].wat (nieuw)",
+        "stappen[*].hoe (nieuw)",
+        "stappen[*].input/output gestructureerd (artefact/veld/type)",
+        "stappen[*].voorbeeld.substappen (nieuw bij stap 2 en 3)",
+        "valkuilen[*]: correctie → advies, foute_aanname → vaak_fout",
+        "tekstvelden: stagiair-toon, cast-namen (Aurelia/Brugse/Cardinal/Energiehuis/Filmstudio/Antwerpse/Drukkerij Dendermonde/Industria/Jachthaven/Pieter Vermeulen)"
+      ]
+    }
+  },
+  "linked_anchors": [
+    "1.4.taak.1",
+    "1.4.I.D",
+    "1.4.I.E",
+    "1.4.I.B",
+    "1.4.II.C"
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+}

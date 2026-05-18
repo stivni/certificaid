@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.5'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/presenteren-ifrs-jaarrekening-volgens-ias-1.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/presenteren-ifrs-jaarrekening-volgens-ias-1.json
+gegenereerd_op: '2026-05-18'
 ---
 # Presenteren van een IFRS-jaarrekening volgens IAS 1 (5 componenten en presentatiebeginselen)
 

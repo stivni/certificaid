@@ -7,9 +7,9 @@ tags:
 programmaonderdelen:
 - '1.2'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/kwalificeren-boekhoudplichtige-onderneming.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/kwalificeren-boekhoudplichtige-onderneming.json
+gegenereerd_op: '2026-05-18'
 ---
 # Kwalificeren of een onderneming boekhoudplichtig is en welk type boekhouding zij moet voeren
 

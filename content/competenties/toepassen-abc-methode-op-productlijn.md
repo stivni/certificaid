@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.8'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/toepassen-abc-methode-op-productlijn.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/toepassen-abc-methode-op-productlijn.json
+gegenereerd_op: '2026-05-18'
 ---
 # Toepassen van de ABC-methode (Activity Based Costing) op een productlijn
 

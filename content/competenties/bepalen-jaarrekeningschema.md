@@ -7,9 +7,9 @@ tags:
 programmaonderdelen:
 - '1.2'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/bepalen-jaarrekeningschema.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/bepalen-jaarrekeningschema.json
+gegenereerd_op: '2026-05-18'
 ---
 # Bepalen welk jaarrekening-schema (volledig, verkort, micro) een vennootschap moet gebruiken
 

@@ -1,0 +1,231 @@
+{
+  "id": "beoordelen-werkkapitaal-en-kasstroom",
+  "naam": "Beoordelen van het werkkapitaal en de kasstroom van een onderneming",
+  "node_type": "competentie",
+  "schema_version": "1.5",
+  "titel": "Beoordelen van het werkkapitaal en de kasstroom van een onderneming",
+  "status": "voorgesteld",
+  "programmaonderdelen": [
+    1.3
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "1.3.taak.1"
+    ],
+    "kenniselementen": [
+      "1.3.II.C",
+      "1.3.II.C.2",
+      "1.3.II.C.3"
+    ]
+  },
+  "gebaseerd_op_concepten": [
+    "werkkapitaal",
+    "cashflow-analyse",
+    "analytische-balans",
+    "historische-evolutie-financiele-analyse",
+    "liquiditeitsratio"
+  ],
+  "procedure_grondslag": {
+    "wettelijk_pct": 15,
+    "praktijk_pct": 85,
+    "motivering": "Werkkapitaal-formule en cashflow-definitie zijn vakdoctrine. CBN-2011/14 levert wel een Belgische grondslag voor de cashflow-definitie (resultaat + niet-kaskosten). Verdere interpretatie en behoeftenwerkkapitaal is praktijk. Vereist mens-review wegens praktijk_pct > 70%."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Berekenen van het werkkapitaal in twee richtingen",
+      "wat": "Bereken werkkapitaal volgens vlottende-activa-methode én permanent-kapitaal-methode.",
+      "waarom": "Beide methodes moeten hetzelfde getal opleveren — controle op consistente herwerking van de balans.",
+      "input": [
+        {
+          "artefact": "Analytische balans",
+          "veld": "Vier blokken activa, vier blokken passiva",
+          "type": "boekhoudkundig-bedrag"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werkkapitaal in €",
+          "veld": "Eén getal, met beide berekeningswijzen als controle",
+          "type": "boekhoudkundig-bedrag"
+        }
+      ],
+      "hoe": "1. Bereken volgens [[werkkapitaal]] §absolute-tegenhanger op twee manieren:\n   - **Methode 1 (van onder)**: Vlottende activa – schulden ≤ 1 jaar.\n   - **Methode 2 (van boven)**: Permanent kapitaal – vaste activa.\n2. Vergelijk: beide moeten identiek zijn. Verschil = rekenfout of vergeten herklassificatie.\n3. Bereken het werkkapitaal op N, N-1 en N-2 voor evolutie-analyse.\n",
+      "voorbeeld": {
+        "scenario": "Rotex Roeselare NV — werkkapitaal-controle.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Beide methodes",
+            "type": "berekening",
+            "data": "Methode 1: € 7.800.000 – € 4.800.000 = € 3.000.000\nMethode 2: € 21.000.000 – € 18.000.000 = € 3.000.000\n→ Beide methodes geven € 3.000.000 → consistent.\n"
+          }
+        ]
+      },
+      "grondslag": "[[werkkapitaal]] §absolute-tegenhanger"
+    },
+    {
+      "nr": 2,
+      "titel": "Beoordelen van de behoefte aan werkkapitaal",
+      "wat": "Bereken werkkapitaalbehoefte als vorderingen ≤ 1 jaar + voorraden – leveranciersschulden.",
+      "waarom": "Toont hoeveel kapitaal de exploitatiecyclus permanent vraagt — niet hetzelfde als beschikbaar werkkapitaal.",
+      "input": [
+        {
+          "artefact": "Analytische balans",
+          "veld": "Voorraden, vorderingen ≤ 1 jaar, leveranciersschulden",
+          "type": "boekhoudkundig-bedrag"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werkkapitaalbehoefte in €",
+          "veld": "Behoefte op N + evolutie",
+          "type": "boekhoudkundig-bedrag"
+        }
+      ],
+      "hoe": "1. Bereken **werkkapitaalbehoefte (operationele cyclus)**: voorraden + vorderingen ≤ 1 jaar – leveranciers- en overige niet-bancaire korte schulden.\n2. Vergelijk werkkapitaal (stap 1) met werkkapitaalbehoefte:\n   - Werkkapitaal > werkkapitaalbehoefte → kasoverschot, comfortabel.\n   - Werkkapitaal < werkkapitaalbehoefte → kastekort, gefinancierd via bankkrediet KT.\n3. Plaats de evolutie van werkkapitaalbehoefte naast omzetgroei — sterk dalende behoefte zonder omzetdaling = efficiëntiewinst op werkkapitaal.\n",
+      "voorbeeld": {
+        "scenario": "Rotex Roeselare NV — werkkapitaalbehoefte.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Bouwstenen",
+            "type": "balans",
+            "data": "| Post                                  | Bedrag       |\n|---------------------------------------|-------------:|\n| Voorraden                             | € 2.500.000  |\n| Vorderingen ≤ 1 jaar (handelsvord.)   | € 3.500.000  |\n| Leveranciersschulden                  | € 2.800.000  |\n"
+          },
+          {
+            "nr": 2,
+            "titel": "Berekening",
+            "type": "berekening",
+            "data": "Werkkapitaalbehoefte = € 2.500.000 + € 3.500.000 – € 2.800.000 = **€ 3.200.000**\nWerkkapitaal = € 3.000.000\n→ Werkkapitaal (3M) < Werkkapitaalbehoefte (3,2M) → klein kastekort van € 200.000.\n"
+          },
+          {
+            "nr": 3,
+            "titel": "Interpretatie",
+            "type": "opmerking",
+            "data": "Kastekort € 200.000 wordt overbrugd via kort bankkrediet of overschrijding\nrekening-courant. Niet alarmerend bij Rotex (sterke solvabiliteit) maar\nwel een aandachtspunt: kleine omzetdaling zou de behoefte verder vergroten.\n"
+          }
+        ]
+      },
+      "grondslag": "[[werkkapitaal]] §positief-werkkapitaal, vakdoctrine"
+    },
+    {
+      "nr": 3,
+      "titel": "Berekenen van de cashflow uit de resultatenrekening",
+      "wat": "Bereken cashflow = resultaat na belasting + afschrijvingen + waardeverminderingen + voorzieningen.",
+      "waarom": "Cashflow toont de werkelijke kasgeneratie — los van afschrijvingen en boekhoudkundige niet-kasbewegingen.",
+      "input": [
+        {
+          "artefact": "Resultatenrekening N",
+          "veld": "Resultaat, afschrijvingen, waardeverminderingen, voorzieningen-mutatie",
+          "type": "boekhoudkundig-bedrag"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Cashflow in €",
+          "veld": "Bedrag + bouwstenen",
+          "type": "boekhoudkundig-bedrag"
+        }
+      ],
+      "hoe": "1. Pas de formule toe uit [[cashflow-analyse]] §resultaat-plus-niet-kaskosten: resultaat na belasting + afschrijvingen + waardeverminderingen + dotaties voorzieningen – terugnames voorzieningen.\n2. Deze \"vereenvoudigde cashflow\" benadert de operationele kasgeneratie zonder volledig kasstroomoverzicht.\n3. Vergelijk met afschrijvingen alleen — als cashflow ≈ afschrijvingen, dan is de onderneming nauwelijks winstgevend in cash.\n4. Bereken cashflow/EV en cashflow/balanstotaal — alternatieve rentabiliteitsmaten ([[rentabiliteit-eigen-vermogen-roe]] §brutorentabiliteit).\n",
+      "voorbeeld": {
+        "scenario": "Rotex Roeselare NV — cashflow boekjaar N.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Bouwstenen",
+            "type": "berekening",
+            "data": "- Resultaat na belasting: € 2.500.000\n- Afschrijvingen: € 1.200.000\n- Waardeverminderingen: € 100.000\n- Netto-dotatie voorzieningen: € 300.000\n"
+          },
+          {
+            "nr": 2,
+            "titel": "Berekening",
+            "type": "berekening",
+            "data": "Cashflow = € 2.500.000 + € 1.200.000 + € 100.000 + € 300.000 = **€ 4.100.000**\nCashflow/omzet = € 4.100.000 / € 50.000.000 = 8,2%\n"
+          }
+        ]
+      },
+      "grondslag": "[[cashflow-analyse]] §resultaat-plus-niet-kaskosten (CBN-2011/14)"
+    },
+    {
+      "nr": 4,
+      "titel": "Confronteren van cashflow met financiële verplichtingen",
+      "wat": "Toets of de cashflow voldoende is om aflossingen, rentelasten en investeringen te dragen.",
+      "waarom": "Dit is de echte test voor financiële houdbaarheid — winst zegt niets als de kas leeg loopt.",
+      "input": [
+        {
+          "artefact": "Cashflow uit stap 3",
+          "veld": "Operationele cashflow",
+          "type": "boekhoudkundig-bedrag"
+        },
+        {
+          "artefact": "Aflossingstabel + investeringsplan",
+          "veld": "LT aflossingen + capex",
+          "type": "boekhoudkundig-bedrag"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Dekkings-tabel",
+          "veld": "Per categorie: dekking ja/nee",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Verzamel de geplande aflossingen op lange-termijn-schulden voor het komende jaar.\n2. Voeg de geschatte investeringen (capex) toe op basis van het bestuursverslag of investeringsplan.\n3. Tel rentelasten op (uit resultatenrekening of geprojecteerd).\n4. Toets: cashflow – aflossingen – capex – rentelasten = vrije kasstroom.\n5. Positief = onderneming financiert zichzelf; negatief = bijkomende financiering of EV-injectie nodig.\n",
+      "voorbeeld": {
+        "scenario": "Rotex Roeselare NV — vrije kasstroomtest jaar N+1.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Dekkings-tabel",
+            "type": "berekening",
+            "data": "| Element                         | Bedrag       |\n|---------------------------------|-------------:|\n| Cashflow                        | + € 4.100.000 |\n| Aflossingen LT-schulden         | – € 1.200.000 |\n| Capex (investeringen N+1)       | – € 1.500.000 |\n| Rentelasten                     | – € 400.000  |\n| **Vrije kasstroom**             | **+ € 1.000.000** |\n"
+          },
+          {
+            "nr": 2,
+            "titel": "Interpretatie",
+            "type": "opmerking",
+            "data": "Vrije kasstroom € 1M positief — Rotex genereert zelf voldoende kas om\naflossingen + capex + rente te dragen. Geen externe financieringsbehoefte.\n"
+          }
+        ]
+      },
+      "valkuilen": [
+        {
+          "advies": "Trek altijd ook de geplande capex af, niet alleen de aflossingen.",
+          "vaak_fout": "Vrije kasstroom berekenen zonder capex — onderschat de werkelijke financieringsbehoefte van een groeiende onderneming.",
+          "grondslag": "[[cashflow-analyse]] §cashflow-als-waarderingsfactor"
+        }
+      ],
+      "grondslag": "[[cashflow-analyse]] §cashflow-als-waarderingsfactor, vakdoctrine"
+    }
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Verffabriek Veurne BV staat in vereffening. Cashflow N = € 200.000, aflossingen LT = € 800.000.",
+      "conclusie": "Sofie Janssens flagt dit als ernstig signaal: cashflow dekt aflossingen niet. Bij een onderneming in vereffening is dit verwacht maar moet expliciet in het rapport — schuldeisers moeten weten dat de operationele kas onvoldoende is.",
+      "grondslag": "[[cashflow-analyse]] §cashflow-als-waarderingsfactor, [[werkkapitaal]] §positief-werkkapitaal",
+      "redenering": "Vereffeningsvennootschappen zijn structureel verlieslatend in cashflow — de realiteit van wat er resteert na verkoop activa primeert op cashflow uit exploitatie. Maar het signaal moet expliciet zijn voor schuldeisers."
+    },
+    {
+      "situatie": "Bij Meubelzaak Mertens BV is werkkapitaal € 100.000 positief, maar werkkapitaalbehoefte € 350.000. De zaakvoerder gebruikt structureel een rekening-courant overschrijding.",
+      "conclusie": "Sofie legt uit dat de RC-overschrijding € 250.000 structureel werkkapitaal financiert — dat is duurder dan een vaste lange-termijn-krediet. Voorstel: omzetting in een investeringskrediet of factoring van vorderingen om de cyclus te bekorten.",
+      "grondslag": "[[werkkapitaal]] §positief-werkkapitaal, [[cashflow-analyse]] §cashflow-als-waarderingsfactor",
+      "redenering": "Korte-termijn-overschrijdingen zijn duur en wegen op rentabiliteit. Een structureel werkkapitaaltekort hoort gedekt te zijn met langere financiering of een operationele cyclus-verkorting (factoring, kortere klantbetaaltermijnen)."
+    }
+  ],
+  "_provenance": {
+    "voorgesteld_door": "competentie-destillatie-v2-po-1.3-run-20260516",
+    "voorgesteld_op": "2026-05-16T00:00:00Z",
+    "gecureerd_door": null,
+    "gecureerd_op": null,
+    "flag_mens_review": "praktijk_pct = 85% (> 70%) — werkkapitaalbehoefte-formule en vrije-kasstroom-redenering zijn vakdoctrine. Cashflow-definitie zelf is wel grounded in CBN-2011/14. Review aanbevolen."
+  },
+  "linked_anchors": [
+    "1.3.taak.1",
+    "1.3.II.C",
+    "1.3.II.C.2",
+    "1.3.II.C.3"
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+}

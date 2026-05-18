@@ -1,0 +1,233 @@
+{
+  "id": "aanvaarden-audit-opdracht",
+  "naam": "Aanvaarden van een audit-opdracht en opmaken van de opdrachtbrief",
+  "node_type": "competentie",
+  "schema_version": "1.5",
+  "titel": "Aanvaarden van een audit-opdracht en opmaken van de opdrachtbrief",
+  "status": "voorgesteld",
+  "programmaonderdelen": [
+    1.6
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "1.6.taak.1"
+    ],
+    "kenniselementen": [
+      "1.6.I.A",
+      "1.6.I.B",
+      "1.6.III.A",
+      "1.6.III.E"
+    ]
+  },
+  "gebaseerd_op_concepten": [
+    "opdrachtbrief-accountant",
+    "randvoorwaarden-controle",
+    "opvolging-voorganger-accountant",
+    "onafhankelijkheid-externe-accountant",
+    "kwaliteitsbeheersing-opdrachtniveau"
+  ],
+  "procedure_grondslag": {
+    "wettelijk_pct": 80,
+    "praktijk_pct": 20,
+    "motivering": "De aanvaarding en opdrachtbrief zijn strak gereguleerd door de ITAA-norm Opdrachtbrief, KB 1998 plichtenleer (art. 17–18 overname van opdracht), de ITAA KMO-controlenorm §29-§50 (randvoorwaarden + onafhankelijkheid) en Wet ITAA 2019 art. 44 (aansprakelijkheid). Eigen oordeel beperkt zich tot de inschatting van integriteit van het management en operationele inrichting (team, ereloon)."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Toetsen van de randvoorwaarden vóór aanvaarding",
+      "wat": "Ga na of het toepasselijke financieel rapporteringsstelsel aanvaardbaar is en of het management zijn drie basisverantwoordelijkheden erkent.",
+      "waarom": "Zonder aanvaardbaar stelsel en erkende verantwoordelijkheden mist de audit een referentiekader en is een controle-oordeel onmogelijk te onderbouwen.",
+      "input": [
+        {
+          "artefact": "Statuten + jaarrekening-stelsel van de cliënt",
+          "veld": "BE GAAP / IFRS / specifiek vzw-stelsel",
+          "type": "document"
+        },
+        {
+          "artefact": "Notulen bestuursorgaan + bestuurdersverklaring",
+          "veld": "Erkenning verantwoordelijkheden jaarrekening + IC + toegang",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werkpapier randvoorwaarden-check",
+          "veld": "Go / no-go op aanvaarding",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Identificeer het rapporteringsstelsel dat Rotex Roeselare NV toepast — BE GAAP volledig schema in dit voorbeeld — en toets dit aan [[randvoorwaarden-controle]] §aanvaardbaar-stelsel.\n2. Verkrijg een schriftelijke bevestiging van het bestuursorgaan dat het management zich verantwoordelijk acht voor (a) de jaarrekening, (b) de interne beheersing en (c) toegang verlenen tot alle informatie.\n3. Indien één van de drie ontbreekt: aanvaard de opdracht niet of trek je terug vóór ondertekening.\n",
+      "valkuilen": [
+        {
+          "advies": "Verkrijg de bestuurdersverklaring schriftelijk vóór ondertekening van de opdrachtbrief.",
+          "vaak_fout": "De randvoorwaarden mondeling laten bevestigen en de discussie pas voeren bij de schriftelijke bevestiging op het einde van de audit.",
+          "grondslag": "[[randvoorwaarden-controle]] §schriftelijke-bevestiging"
+        }
+      ],
+      "grondslag": "[[randvoorwaarden-controle]] §toepassingsgebied, ITAA KMO-controlenorm §29"
+    },
+    {
+      "nr": 2,
+      "titel": "Beoordelen van onafhankelijkheid en belangenconflicten",
+      "wat": "Toets de eigen positie + die van het kantoor + nauwe verwanten aan de onafhankelijkheidsregels, en bewaar het bewijs in het dossier.",
+      "waarom": "Onafhankelijkheid is wettelijk geregeld (Wet ITAA 2019 + KB 1998 plichtenleer art. 12). Schending leidt tot tucht en nietigheid van het verslag.",
+      "input": [
+        {
+          "artefact": "Onafhankelijkheidsverklaring per teamlid",
+          "veld": "Financiële, familiale, zakelijke banden",
+          "type": "document"
+        },
+        {
+          "artefact": "Cliëntenregister Wolters & Partners CVBA",
+          "veld": "Andere opdrachten bij dezelfde cliënt of verbonden partijen",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Onafhankelijkheidsdossier",
+          "veld": "Bevestiging onafhankelijk + bewaarmaatregelen",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Vraag aan elk teamlid de jaarlijkse onafhankelijkheidsverklaring volgens [[onafhankelijkheid-externe-accountant]] §teamverklaring.\n2. Controleer of Wolters & Partners CVBA in de voorbije drie jaar andere niet-audit-diensten heeft geleverd aan Rotex Roeselare NV die de onafhankelijkheid in het gedrang kunnen brengen.\n3. Identificeer bedreigingen (eigenbelang, zelftoetsing, vertrouwdheid, belangenbehartiging, intimidatie) en pas waarborgen toe (rotatie, externe review, terugtrekking uit subopdracht).\n4. Documenteer de slotsom: onafhankelijk → ga door; bedreiging niet te verhelpen → weiger de opdracht.\n",
+      "grondslag": "[[onafhankelijkheid-externe-accountant]] §toets, Wet ITAA 2019 art. 14 + KB 1998 plichtenleer art. 12"
+    },
+    {
+      "nr": 3,
+      "titel": "Contacteren van de voorgaande accountant",
+      "wat": "Bij overname van een lopend mandaat: neem schriftelijk contact op met de voorganger om redenen van vervanging en eventuele beletselen te kennen.",
+      "waarom": "KB 1998 plichtenleer art. 17–18 en de ITAA-deontologie verplichten een collegiaal contact vóór aanvaarding bij overname.",
+      "input": [
+        {
+          "artefact": "Mandaatovereenkomst voorganger",
+          "veld": "Naam vorige accountant + datum einde mandaat",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werkpapier 'overname mandaat'",
+          "veld": "Antwoord voorganger + slotsom go/no-go",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Vraag Rotex Roeselare NV om de naam van de voorgaande beroepsbeoefenaar.\n2. Stuur een gestandaardiseerde brief naar de voorganger met vraag naar (a) reden van beëindiging, (b) eventuele professionele bedenkingen, (c) toegang tot historische dossiers — volgens [[opvolging-voorganger-accountant]] §contactbrief.\n3. Wacht een redelijke termijn (typisch 30 dagen) op antwoord vóór je de opdrachtbrief ondertekent.\n4. Bij signalen van conflict, niet-betaling of integriteitsprobleem: heroverweeg aanvaarding.\n",
+      "valkuilen": [
+        {
+          "advies": "Wacht het schriftelijk antwoord van de voorganger af vóór ondertekening van de opdrachtbrief.",
+          "vaak_fout": "De cliënt's verklaring over de redenen van wissel klakkeloos overnemen zonder cross-check bij de voorganger.",
+          "grondslag": "[[opvolging-voorganger-accountant]] §verplicht-contact"
+        }
+      ],
+      "grondslag": "[[opvolging-voorganger-accountant]] §collegialiteit, KB 1998 plichtenleer art. 17"
+    },
+    {
+      "nr": 4,
+      "titel": "Opstellen en laten ondertekenen van de opdrachtbrief",
+      "wat": "Stel een opdrachtbrief op die scope, timing, ereloon, verantwoordelijkheden, beroepsgeheim en aansprakelijkheidsbeperking vastlegt — en laat beide partijen ondertekenen vóór de uitvoering start.",
+      "waarom": "De opdrachtbrief is het juridische kader van de opdracht en de hefboom voor aansprakelijkheidsbeperking (Wet ITAA 2019 art. 44).",
+      "input": [
+        {
+          "artefact": "Conclusies stap 1–3",
+          "veld": "Stelsel + onafhankelijkheid + voorgangerresultaat",
+          "type": "document"
+        },
+        {
+          "artefact": "ITAA-modelopdrachtbrief",
+          "veld": "Standaardclausules",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Ondertekende opdrachtbrief",
+          "veld": "Scope, ereloon, aansprakelijkheid, verantwoordelijkheden",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Volg [[opdrachtbrief-accountant]] §stappen — identificatie van partijen, verplichtingen langs cliënt- én accountantzijde, ereloon, aansprakelijkheidsbeperking.\n2. Pas geen aansprakelijkheidsplafond toe bij wettelijk voorbehouden opdrachten (Wet ITAA 2019 art. 44) — alleen toegelaten bij contractuele opdrachten.\n3. Laat zowel een bevoegde bestuurder van Rotex Roeselare NV als de vertegenwoordiger-natuurlijke persoon van Wolters & Partners CVBA (Sofie Janssens) ondertekenen.\n4. Bewaar het origineel in het permanent dossier; bewaartermijn = bewaartermijn auditdossier ([[controledocumentatie]]).\n",
+      "voorbeeld": {
+        "scenario": "Wolters & Partners CVBA aanvaardt de wettelijke controleopdracht voor Rotex Roeselare NV voor boekjaren 2025–2027 (drie jaar mandaat). Sofie Janssens is de aangeduide bedrijfsrevisor-natuurlijke persoon.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Sjabloon-opening opdrachtbrief",
+            "type": "opmerking",
+            "data": "\"Tussen Rotex Roeselare NV, vertegenwoordigd door bestuurder Marleen De Cock,\nen Wolters & Partners CVBA, vertegenwoordigd door bedrijfsrevisor Sofie Janssens,\nwordt overeengekomen dat Wolters & Partners de wettelijke controleopdracht\nvan commissaris zal uitvoeren voor de boekjaren 2025–2027.\"\n"
+          },
+          {
+            "nr": 2,
+            "titel": "Ereloon-clausule",
+            "type": "opmerking",
+            "data": "Vast ereloon: € 45.000 per boekjaar (excl. btw), forfaitair voor de\njaarrekeningcontrole. Bijkomend werk (bv. bijzondere verslagen bij\nkapitaalverhoging) factureerbaar aan uurtarief € 165.\n"
+          },
+          {
+            "nr": 3,
+            "titel": "Aansprakelijkheid (geen beperking want wettelijk)",
+            "type": "opmerking",
+            "data": "Geen contractuele beperking — Wet ITAA 2019 art. 44 sluit beperking uit\nvoor wettelijk voorbehouden opdrachten. Alleen burgerlijke aansprakelijkheid\nvolgens gemeen recht is van toepassing.\n"
+          }
+        ]
+      },
+      "valkuilen": [
+        {
+          "advies": "Bij wettelijk voorbehouden opdrachten geen aansprakelijkheidsplafond opnemen.",
+          "vaak_fout": "De standaardclausule met plafond drie keer ereloon overnemen, ook bij een commissarismandaat — clausule is dan nietig.",
+          "grondslag": "[[opdrachtbrief-accountant]] §valkuil-wettelijk-voorbehouden"
+        }
+      ],
+      "grondslag": "[[opdrachtbrief-accountant]] §sjabloon, ITAA-norm Opdrachtbrief §2-§7, Wet ITAA 2019 art. 44"
+    },
+    {
+      "nr": 5,
+      "titel": "Bevestigen van kwaliteitsbeheersing op opdrachtniveau",
+      "wat": "Wijs een opdrachtverantwoordelijke aan, beoordeel of een opdracht-kwaliteitsreviewer nodig is en documenteer de aanvaardingsslotsom in het kwaliteitsdossier.",
+      "waarom": "Op kantoorniveau (KB ITAA-kwaliteitsregeling) en op opdrachtniveau moet de aanvaarding traceerbaar zijn.",
+      "input": [
+        {
+          "artefact": "Risico-inschatting van het mandaat (complexiteit, beursnotering)",
+          "veld": "Risicocategorie",
+          "type": "conclusie"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Kwaliteitsbeheersingsdossier Wolters & Partners CVBA",
+          "veld": "Mandaat-aanvaardingsformulier",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Beoordeel via [[kwaliteitsbeheersing-opdrachtniveau]] §criteria of een afzonderlijke kwaliteitsreviewer (Engagement Quality Reviewer) vereist is — typisch bij OOB's, beursgenoteerde of complexe mandaten.\n2. Wijs de opdrachtverantwoordelijke aan (Sofie Janssens) en de tweede ondertekenaar binnen Wolters & Partners CVBA.\n3. Sluit het aanvaardingsdossier af met handtekening van de opdrachtverantwoordelijke + datum.\n",
+      "grondslag": "[[kwaliteitsbeheersing-opdrachtniveau]] §aanvaarding, ITAA KMO-controlenorm §47"
+    }
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Meubelzaak Mertens BV vraagt aan Wolters & Partners CVBA een vrijwillige (contractuele) controle van de jaarrekening 2025. Er is geen voorgaande controle-accountant. Het management aanvaardt schriftelijk de drie verantwoordelijkheden. Sofie Janssens stelt vast dat haar zus aandeelhouder is voor 2 % — geen significante bedreiging na opname van een waarborg (uitsluiting van haar uit het team).",
+      "conclusie": "Aanvaardbaar. Opdrachtbrief vermeldt: contractuele controleopdracht volgens ITAA KMO-controlenorm + ISA, ereloon € 12.500 forfait, aansprakelijkheidsplafond drie keer ereloon (toegelaten want contractueel, niet wettelijk voorbehouden), bewaartermijn dossier 5 jaar.",
+      "grondslag": "[[opdrachtbrief-accountant]] §sjabloon; [[onafhankelijkheid-externe-accountant]] §waarborgen; [[randvoorwaarden-controle]] §schriftelijke-bevestiging",
+      "redenering": "Geen wettelijke verplichting → contractuele opdracht → plafond toegelaten. Aandeelhouderschap zus < 5 % en buiten directe lijn → waarborg (teamuitsluiting) volstaat."
+    },
+    {
+      "situatie": "Sofie Janssens wordt aangesproken om Rotex Roeselare NV als commissaris over te nemen van een vorige bedrijfsrevisor. De vorige revisor antwoordt op haar contactbrief dat zijn ereloon onbetaald is gebleven en dat hij twijfels heeft bij de waardering van de voorraad.",
+      "conclusie": "Niet meteen weigeren, maar wel verdiepend gesprek: vraag Rotex Roeselare NV om uitleg over de twee signalen. Documenteer beide. Verdere stappen: betalingsregeling met voorganger aanmoedigen + bijkomende risicofocus op voorraadwaardering in het werkprogramma. Pas aanvaarden na deze verdieping.",
+      "grondslag": "[[opvolging-voorganger-accountant]] §signalen; [[opdrachtbrief-accountant]] §ereloon",
+      "redenering": "Onbetaald ereloon van voorganger is een rode vlag voor toekomstige betaling én voor relatie. Twijfels over voorraadwaardering vormen een significant inherent risico dat de auditstrategie moet bepalen."
+    }
+  ],
+  "_provenance": {
+    "voorgesteld_door": "competentie-destillatie-v2-po16-2026-05-17T08:00Z",
+    "voorgesteld_op": "2026-05-17T08:00:00Z",
+    "gecureerd_door": null,
+    "gecureerd_op": null
+  },
+  "linked_anchors": [
+    "1.6.taak.1",
+    "1.6.I.A",
+    "1.6.I.B",
+    "1.6.III.A",
+    "1.6.III.E"
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+}

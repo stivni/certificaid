@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.7'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/identificeren-fouten-fraude-verspilling.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/identificeren-fouten-fraude-verspilling.json
+gegenereerd_op: '2026-05-18'
 ---
 # Identificeren van fouten, fraude en verspilling in een organisatie
 

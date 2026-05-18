@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.3'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/opstellen-analytische-balans.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/opstellen-analytische-balans.json
+gegenereerd_op: '2026-05-18'
 ---
 # Opstellen van een analytische balans voor een vennootschap
 

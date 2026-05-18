@@ -1,0 +1,194 @@
+{
+  "id": "toepassen-boekhoudbeginselen-op-waarderingsvraagstuk",
+  "naam": "Toepassen van de boekhoudbeginselen op een concreet waarderingsvraagstuk",
+  "node_type": "competentie",
+  "schema_version": "1.5",
+  "titel": "Toepassen van de boekhoudbeginselen op een concreet waarderingsvraagstuk",
+  "status": "voorgesteld",
+  "programmaonderdelen": [
+    1.2
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "1.2.taak.1"
+    ],
+    "kenniselementen": [
+      "1.2.V",
+      "1.2.V.A",
+      "1.2.V.B"
+    ]
+  },
+  "gebaseerd_op_concepten": [
+    "voorzichtigheidsbeginsel",
+    "continuiteitsbeginsel",
+    "oprechtheidsbeginsel",
+    "consistentiebeginsel",
+    "volledigheidsbeginsel",
+    "getrouw-beeld-jaarrekening",
+    "waarderingsregels-jaarrekening",
+    "aanvullende-boekhoudbeginselen"
+  ],
+  "procedure_grondslag": {
+    "wettelijk_pct": 80,
+    "praktijk_pct": 20,
+    "motivering": "De vijf boekhoudbeginselen + getrouw-beeld-vereiste zijn wettelijk verankerd in WVV art. 3:1 en KB-WVV art. 3:32 e.v. De toepassing op een concreet geval (welke waardering gebruiken, welk risico boeken) vraagt echter professional judgment — verzekerd door verwijzing naar CBN-adviezen en concept-grondslagen."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Identificeer het waarderingsvraagstuk",
+      "wat": "Beschrijf wat moet worden gewaardeerd of geboekt en op welk moment.",
+      "waarom": "Beginselen zijn pas operationeel zodra duidelijk is welk concreet vraagstuk men aanpakt.",
+      "input": [
+        {
+          "artefact": "Boekhoudverrichting of balanspost",
+          "veld": "Korte beschrijving, bedrag, datum, partijen",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werknotitie",
+          "veld": "Vraagstuk + balansdatum + waardering-keuzes",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Lees de cliëntsituatie. Voorbeeld bij Meubelzaak Mertens BV: er hangt een lopende klantvordering van € 18.000 die volgens de bestuurder wellicht oninbaar wordt.\n2. Bepaal het waarderingsobject: actief (welke balansrubriek?), passief (voorziening, schuld?), of een resultaat-element.\n3. Bepaal het waarderingsmoment: op balansdatum, op verrichtingsdatum, of bij overdracht.\n4. Noteer de keuze-alternatieven (bv. waardevermindering boeken of niet, voorziening boeken of niet).\n",
+      "grondslag": "[[waarderingsregels-jaarrekening]] §toepassingsgebied"
+    },
+    {
+      "nr": 2,
+      "titel": "Loop de boekhoudbeginselen systematisch af",
+      "wat": "Test elk beginsel op het waarderingsvraagstuk en formuleer wat het beginsel concreet voorschrijft.",
+      "waarom": "Beginselen kunnen tegen elkaar inwerken; pas door ze één voor één te toetsen weet je welke keuze juist is.",
+      "input": [
+        {
+          "artefact": "Werknotitie stap 1",
+          "veld": "Waarderingsvraagstuk",
+          "type": "conclusie"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Beginselen-tabel",
+          "veld": "Per beginsel een gevolg + grondslag",
+          "type": "berekening"
+        }
+      ],
+      "hoe": "1. [[continuiteitsbeginsel]]: kan de onderneming verder? Zo nee → liquidatiewaardering, ander regime.\n2. [[voorzichtigheidsbeginsel]]: opbrengsten pas boeken als zeker, kosten en risico's al boeken als waarschijnlijk. Welke waardering levert de meest voorzichtige uitkomst?\n3. [[volledigheidsbeginsel]]: zijn alle relevante verrichtingen en rechten/verplichtingen opgenomen, ook buiten balans?\n4. [[oprechtheidsbeginsel]]: weerspiegelt de boeking de werkelijke economische realiteit? Geen vorm boven inhoud, geen window-dressing.\n5. [[consistentiebeginsel]]: pas dezelfde regel toe als vorig boekjaar, of motiveer en kwantificeer een wijziging.\n6. Vul de beginselen-tabel met per beginsel een korte conclusie.\n",
+      "voorbeeld": {
+        "scenario": "Meubelzaak Mertens BV heeft een vordering € 18.000 op cliënt X die sinds 9 maanden niet betaalt. Bestuurder schat 60% kans op definitief verlies.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Toets per beginsel",
+            "type": "opmerking",
+            "data": "| Beginsel | Toepassing op vordering Mertens |\n|---|---|\n| Continuïteit | Mertens BV is going concern → vordering blijft op activa-zijde, geen liquidatie-discount. |\n| Voorzichtigheid | Waardevermindering boeken voor het waarschijnlijke verlies — 60% × € 18.000 = € 10.800. |\n| Volledigheid | Indien de cliënt al een vonnis tegen zich heeft: ook eventuele aanmaningskosten en gerechtskosten boeken. |\n| Oprechtheid | Niet wachten met boekingen tot na balansdatum om winstcijfer op te smukken. |\n| Consistentie | Toepassen dezelfde grens als vorig jaar (bv. 9 maanden + risico-oordeel) of nieuwe regel motiveren. |\n"
+          }
+        ]
+      },
+      "grondslag": "[[aanvullende-boekhoudbeginselen]] §systematische-toepassing"
+    },
+    {
+      "nr": 3,
+      "titel": "Verifieer aan de getrouw-beeld-eis",
+      "wat": "Toets of de keuze die volgt uit de beginselen samen een getrouw beeld geeft.",
+      "waarom": "Indien strikte regeltoepassing geen getrouw beeld oplevert, moet afgeweken worden (en in de toelichting verantwoord).",
+      "input": [
+        {
+          "artefact": "Beginselen-tabel stap 2",
+          "veld": "Beginselen-conclusies",
+          "type": "berekening"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Gevolgschema",
+          "veld": "Boeking + toelichting + eventuele afwijking",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Geeft de strikte regeltoepassing volgens stap 2 een getrouw beeld van het vermogen, de financiële positie en het resultaat? Zie [[getrouw-beeld-jaarrekening]] §toets.\n2. Bij overeenstemming: voer de boeking uit volgens stap 2.\n3. Bij onvoldoende getrouw beeld: pas KB-WVV art. 3:32 § 3 toe — wijk af van de standaardregel en motiveer in de toelichting.\n4. Documenteer beslissing en grondslag.\n",
+      "valkuilen": [
+        {
+          "advies": "Een afwijking van een waarderingsregel is enkel toegelaten wanneer strikte toepassing geen getrouw beeld geeft — niet om resultaten te sturen.",
+          "vaak_fout": "De afwijkingsbepaling gebruiken om vrij te kiezen tussen alternatieve waarderingen.",
+          "grondslag": "[[getrouw-beeld-jaarrekening]] §uitzondering"
+        }
+      ],
+      "grondslag": "[[getrouw-beeld-jaarrekening]] §toets, KB-WVV art. 3:32 § 3"
+    },
+    {
+      "nr": 4,
+      "titel": "Boek en documenteer met grondslag-verwijzing",
+      "wat": "Voer de boeking uit en leg in een werkdocument vast welk beginsel doorslaggevend was.",
+      "waarom": "Bij latere controle (commissaris, fiscale audit) moet de redenering reproduceerbaar zijn.",
+      "input": [
+        {
+          "artefact": "Gevolgschema stap 3",
+          "veld": "Boekingsregel + toelichtingstekst",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Boekhouddossier",
+          "veld": "Boeking + werkdocument",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Boek de verrichting (bv. waardevermindering op handelsvorderingen):\n   Debet 6340 Waardeverminderingen op handelsvorderingen — € 10.800\n   Credit 4071 Waardeverminderingen op handelsvorderingen (correctief) — € 10.800\n2. Voeg een toelichting-paragraaf toe over de toegepaste waarderingsregel.\n3. Bewaar in cliëntdossier de motivering met grondslag-verwijzing naar het concept en het wetsartikel.\n",
+      "grondslag": "[[waarderingsregels-jaarrekening]] §documentatie (praktijk-discipline)"
+    }
+  ],
+  "beslisboom": [
+    {
+      "vraag": "Is going concern aangetast?",
+      "ja": "Pas liquidatiewaardering toe — herwaardering vaste activa, voorzieningen aanvullen.",
+      "nee": "Standaard waardering volgens KB-WVV."
+    },
+    {
+      "vraag": "Bestaat er een waarschijnlijk verlies, last of risico op balansdatum?",
+      "ja": "Voorzichtigheidsbeginsel — boek waardevermindering of voorziening.",
+      "nee": "Geen extra boeking, maar wel kruistoets volledigheidsbeginsel."
+    },
+    {
+      "vraag": "Geeft strikte regeltoepassing een getrouw beeld?",
+      "ja": "Voer boeking uit volgens regel.",
+      "nee": "Afwijken (KB-WVV art. 3:32 § 3) + motivering in toelichting."
+    }
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Meubelzaak Mertens BV heeft op 31/12/2024 een vordering € 18.000 op cliënt X. Cliënt betaalt sinds april niet meer. Bestuurder schat 60% kans op verlies.",
+      "conclusie": "Voorzichtigheidsbeginsel + volledigheidsbeginsel → waardevermindering boeken van € 10.800 (60%) op rubriek 4071. Niet wachten tot definitief faillissement.",
+      "grondslag": "[[voorzichtigheidsbeginsel]] §waarschijnlijke-verliezen; [[volledigheidsbeginsel]] §risicodekking",
+      "redenering": "60% risico maakt verlies 'waarschijnlijk'. Voorzichtigheidsbeginsel verlangt boeken vóór realisatie. Bedrag is best estimate; bij verdere informatie aanpassen volgens consistentiebeginsel."
+    },
+    {
+      "situatie": "Naaiatelier Ninove BV had vorig boekjaar voorraden gewaardeerd op FIFO. Voor 2024 wil het bestuur overschakelen naar gewogen gemiddelde prijs (GGP) omdat dit beter aansluit bij de productieprocesvoorraden.",
+      "conclusie": "Consistentiebeginsel laat wijziging toe mits motivering in toelichting + kwantificering effect. Wijziging is gerechtvaardigd door procesargument; impact op resultaat documenteren.",
+      "grondslag": "[[consistentiebeginsel]] §wijziging-waarderingsregels",
+      "redenering": "Wisselen van waarderingsmethode is toegelaten, niet vrij. Toelichting moet vermelden waarom (procesvoorraden) en hoeveel het bruto bedrijfsresultaat anders uitvalt dan onder FIFO."
+    },
+    {
+      "situatie": "Verffabriek Veurne BV is in vereffening per 30/06/2024 — going concern niet langer van toepassing.",
+      "conclusie": "Continuïteitsbeginsel niet meer toepasselijk → herwaardering volgens liquidatiewaarde; voorraden tegen verwachte opbrengstwaarde; voorzieningen voor opzegvergoedingen aanvullen.",
+      "grondslag": "[[continuiteitsbeginsel]] §opheffing",
+      "redenering": "Bij wegvallen going concern verandert het waarderingsregime fundamenteel. Vaste activa worden mogelijk afgewaardeerd, voorraden tegen realisatiewaarde. Toelichting moet dit duidelijk maken."
+    }
+  ],
+  "_provenance": {
+    "voorgesteld_door": "competentie-destillatie-v2-po12-20260516",
+    "voorgesteld_op": "2026-05-16T00:00:00Z",
+    "gecureerd_door": null,
+    "gecureerd_op": null
+  },
+  "linked_anchors": [
+    "1.2.taak.1",
+    "1.2.V",
+    "1.2.V.A",
+    "1.2.V.B"
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+}

@@ -1,0 +1,207 @@
+{
+  "id": "uitvoeren-risicoanalyse-organisatie",
+  "naam": "Uitvoeren van een risico-identificatie en -analyse voor het IC-systeem",
+  "node_type": "competentie",
+  "schema_version": "1.5",
+  "titel": "Uitvoeren van een risico-identificatie en -analyse voor het IC-systeem",
+  "status": "voorgesteld",
+  "programmaonderdelen": [
+    1.7
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "1.7.taak.1"
+    ],
+    "kenniselementen": [
+      "1.7.III.B",
+      "1.7.XII.E",
+      "1.7.XII.F",
+      "1.7.VI",
+      "1.7.VI.A",
+      "1.7.VI.B",
+      "1.7.VIII.E"
+    ]
+  },
+  "gebaseerd_op_concepten": [
+    "risico-inschatting-organisatie",
+    "coso-ii-erm-framework",
+    "iso-31000-risicobeheer",
+    "fouten-en-fraude",
+    "fraude",
+    "fouten-ic",
+    "cyberrisico-ic"
+  ],
+  "procedure_grondslag": {
+    "wettelijk_pct": 15,
+    "praktijk_pct": 85,
+    "motivering": "Geen Belgische wet schrijft een specifieke risicoanalyse-methode voor (uitgezonderd sectorale verplichtingen zoals NIS-2 cyberrisico en AVG art. 35 DPIA). De methodologie volgt uit internationale vakdoctrine (COSO ERM 2017, ISO 31000:2018, ITAA-norm-kmo-controlenorm §96). Voor organisaties van openbaar belang verplicht WVV een risico-rapport door bestuursorgaan."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Risico's identificeren per proces en risicocategorie",
+      "wat": "Identificeer per kritische bedrijfsproces en per risicocategorie (strategisch, operationeel, financieel, compliance, cyber) potentiële gebeurtenissen die de doelstellingen kunnen frustreren.",
+      "waarom": "Wat niet geïdentificeerd is, kan niet beheerst worden. Identificatie vooraf is goedkoper dan een crisis achteraf.",
+      "input": [
+        {
+          "artefact": "Procesinventaris (uit IC-handboek)",
+          "veld": "Kritische processen per cyclus",
+          "type": "document"
+        },
+        {
+          "artefact": "Workshop-output bestuur en proceseigenaren",
+          "veld": "Brainstorm-output per categorie",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Risico-register versie 1",
+          "veld": "Risico-ID, beschrijving, proces, categorie, eigenaar",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Volg [[risico-inschatting-organisatie]] §stappen-1: bottom-up via proceseigenaren én top-down via bestuursorgaan-perspectief.\n2. Gebruik vier hoofdcategorieën (COSO ERM 2017): strategisch, operationeel, rapportering, compliance — voeg expliciet cyber/IT toe via [[cyberrisico-ic]] §typologie.\n3. Inventariseer per proces zowel fout-risico ([[fouten-ic]]: oordeels-, uitvoerings-, datafouten) als fraude-risico ([[fraude]] §driehoek: druk, gelegenheid, rationalisatie).\n4. Onderscheid inherente risico's (los van controles) van residuele risico's (na bestaande controles) — werk in deze stap met inherent niveau.\n",
+      "valkuilen": [
+        {
+          "advies": "Bevraag zowel bestuur (strategische blik) als operationele medewerkers (daadwerkelijke gebeurtenissen) — niet één van beide.",
+          "vaak_fout": "Risico-workshop enkel met directie — operationele kennis ontbreekt en blinde vlekken blijven.",
+          "grondslag": "[[risico-inschatting-organisatie]] §bottom-up-top-down"
+        }
+      ],
+      "grondslag": "[[risico-inschatting-organisatie]] §identificatie, [[coso-ii-erm-framework]] §risicocategorieen, [[fraude]] §driehoek"
+    },
+    {
+      "nr": 2,
+      "titel": "Risico's analyseren — kans × impact + risk-appetite",
+      "wat": "Schat per risico de waarschijnlijkheid en de impact in (kwalitatief of kwantitatief) en confronteer met de door het bestuur bepaalde risk-appetite.",
+      "waarom": "Zonder ranking is elk risico even belangrijk en raakt het IC-budget verspreid in niet-prioritaire controles.",
+      "input": [
+        {
+          "artefact": "Risico-register versie 1",
+          "veld": "Geïdentificeerde risico's",
+          "type": "document"
+        },
+        {
+          "artefact": "Risk-appetite-verklaring bestuursorgaan",
+          "veld": "Tolerantie per categorie (€-drempel of impact-klasse)",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Risicomatrix",
+          "veld": "Heatmap kans × impact met risk-appetite-grens",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Pas een 5×5 of 3×3 schaal toe (kans: zeer laag → zeer hoog; impact: insignificant → catastrofaal) volgens [[iso-31000-risicobeheer]] §analyseproces.\n2. Bepaal voor financiële impact concrete €-drempels (bv. < € 25.000 = laag, € 25.000-€ 250.000 = middel, > € 250.000 = hoog) — gebruik cast-cijfers uit context.\n3. Plot elk risico op een heatmap. Risico's boven de risk-appetite-lijn vereisen respons.\n4. Onderscheid bruto- (zonder controles) en netto- (na bestaande controles) inschatting — visualiseer de \"control gap\".\n",
+      "grondslag": "[[risico-inschatting-organisatie]] §analyse, [[iso-31000-risicobeheer]] §kans-impact, [[coso-ii-erm-framework]] §risk-appetite"
+    },
+    {
+      "nr": 3,
+      "titel": "Risico-respons kiezen per risico",
+      "wat": "Bepaal per risico boven de appetite-lijn: vermijden, verminderen (controle toevoegen), delen (verzekering of outsourcing) of accepteren — en wijs een actiehouder toe.",
+      "waarom": "Een risicomatrix zonder respons-acties is een papier-oefening. De respons is het scharnier naar concrete controle-activiteiten.",
+      "input": [
+        {
+          "artefact": "Risicomatrix stap 2",
+          "veld": "Risico's boven appetite-grens",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Actieplan risicoreductie",
+          "veld": "Per risico: respons-type, actiehouder, deadline, kosten",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Pas de vier responsen toe uit [[risico-inschatting-organisatie]] §respons en [[iso-31000-risicobeheer]] §treatment.\n2. Vermijden: stop met de risicovolle activiteit (bv. exotische valuta-handel).\n3. Verminderen: introduceer of versterk een control — koppel aan een beheersactiviteit ([[beheersactiviteiten]]).\n4. Delen: verzekering, hedging, of outsourcing aan gespecialiseerde partij.\n5. Accepteren: documenteer expliciete bewuste keuze door bestuursorgaan (gemotiveerd).\n",
+      "valkuilen": [
+        {
+          "advies": "Documenteer 'accepteren' altijd met expliciete bestuursbeslissing en motivering — anders is het verzuim, geen acceptatie.",
+          "vaak_fout": "Risico's stilzwijgend accepteren ('we doen er niets aan') — bij incident is er geen verdediging dat het bewust was.",
+          "grondslag": "[[coso-ii-erm-framework]] §respons-types"
+        }
+      ],
+      "grondslag": "[[risico-inschatting-organisatie]] §respons, [[iso-31000-risicobeheer]] §treatment"
+    },
+    {
+      "nr": 4,
+      "titel": "Risico-register integreren in IC-systeem en jaarlijks updaten",
+      "wat": "Integreer het risico-register in het IC-handboek en plan een minimaal jaarlijkse update — én ad hoc bij significante veranderingen (nieuwe activiteit, regelwijziging, incident).",
+      "waarom": "Risico's evolueren. Cyber-, regelgevings- en bedrijfsrisico's veranderen sneller dan een jaarlijkse cyclus — monitoring is permanent.",
+      "input": [
+        {
+          "artefact": "Actieplan stap 3",
+          "veld": "Acties en deadlines",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Risico-register versie 2 in IC-handboek",
+          "veld": "Live document met versie-historiek",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Plan een vaste jaarlijkse risico-review (typisch bij budget- of strategie-cyclus) met bestuursorgaan + proceseigenaren.\n2. Definieer triggers voor ad-hoc update: incident, nieuwe regelgeving (bv. NIS-2, AVG-aanpassing), nieuwe activiteit, M&A.\n3. Rapporteer kwartaalstatus van actieplan-deadlines aan het auditcomité (indien aanwezig — [[auditcomite]]) of de zaakvoerder.\n4. Zorg dat de externe auditor toegang krijgt tot het risico-register als input voor zijn eigen risico-inschatting ([[risico-inschatting-audit]]).\n",
+      "voorbeeld": {
+        "scenario": "Yperse Werkplaats BV voert haar eerste structurele risicoanalyse uit met Marleen De Cock (interim Risk Officer aangeleverd door Xenon Expertise BV). De workshop is 1 dag met bestuursorgaan + 5 proceseigenaren.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Top-5 geïdentificeerde inherente risico's",
+            "type": "opmerking",
+            "data": "1. Frauduleuze leveranciersfacturen (operationeel — kans midden, impact hoog: € 350.000/jaar potentieel)\n2. Cyberaanval op ERP (cyber — kans midden, impact catastrofaal: > € 1.000.000)\n3. Voorraadverspilling productie-restanten (operationeel — kans hoog, impact middel: € 80.000/jaar)\n4. Verkeerde periodetoerekening omzet (rapportering — kans laag, impact middel)\n5. AVG-inbreuk personeelsdata (compliance — kans laag, impact hoog: boete tot 4% omzet)\n"
+          },
+          {
+            "nr": 2,
+            "titel": "Risicomatrix-positionering",
+            "type": "opmerking",
+            "data": "Boven appetite-grens (€ 100.000 of catastrofaal): risico 1, 2, 5.\nBinnen appetite: risico 3, 4.\n"
+          },
+          {
+            "nr": 3,
+            "titel": "Gekozen respons",
+            "type": "opmerking",
+            "data": "R1: verminderen (drie-weg-match + leverancierscredibiliteit)\nR2: delen (cyberverzekering € 5M) + verminderen (back-up + MFA)\nR3: accepteren (€ 80.000 binnen appetite, monitoring KPI)\nR4: verminderen (cut-off-procedure einde maand)\nR5: verminderen (AVG-register + DPIA — zie [[integreren-avg-compliance-in-ic]])\n"
+          }
+        ]
+      },
+      "grondslag": "[[risico-inschatting-organisatie]] §monitoring, [[coso-ii-erm-framework]] §continu, [[auditcomite]] §rapportering"
+    }
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Praktijk Persenaire (eenmanszaak vrij beroep, 1 medewerker) vraagt: 'risicoanalyse hoort toch alleen bij grote bedrijven?'",
+      "conclusie": "Ook bij eenmanszaak nuttig — proportioneel. Maak één A4 met drie kolommen: top-5 risico's (bv. cliëntfraude, AVG-lek, ziekte zaakvoerder, fiscale boete door late aangifte, banksaldofout) + kans/impact-inschatting + één compensatie-actie per risico. Externe accountant doet jaarlijkse check.",
+      "grondslag": "[[risico-inschatting-organisatie]] §proportionaliteit",
+      "redenering": "Aanvalsvlak is kleiner maar concentratiegevoel hoger (één persoon = single point of failure). Minimale gestructureerde aanpak vermindert blinde vlekken."
+    },
+    {
+      "situatie": "Bij Rotex Roeselare NV ontdekt Sofie Janssens (commissaris) dat het risico-register geen cyberrisico's bevat hoewel er een SAP-implementatie loopt. Hoe moet dit gevolg krijgen?",
+      "conclusie": "Communiceer als 'significant deficiency' aan het auditcomité ([[communicatie-met-management-governance]]). Het management moet een DPIA-achtige cyberrisico-analyse opzetten met aandacht voor de SAP-migratie. Voor de audit zelf: verhoog het ingeschatte controle-risico (CR) voor IT-afhankelijke beweringen.",
+      "grondslag": "[[cyberrisico-ic]] §typologie, [[communicatie-met-management-governance]] §deficiency",
+      "redenering": "Significante ICT-verandering zonder bijhorende risicoanalyse is een design-gebrek in component 2 (risk assessment). ISA 315 vereist auditrespons."
+    }
+  ],
+  "_provenance": {
+    "voorgesteld_door": "competentie-destillatie-v2-po17-2026-05-17T12:00Z",
+    "voorgesteld_op": "2026-05-17T12:00:00Z",
+    "gecureerd_door": null,
+    "gecureerd_op": null
+  },
+  "linked_anchors": [
+    "1.7.taak.1",
+    "1.7.III.B",
+    "1.7.XII.E",
+    "1.7.XII.F",
+    "1.7.VI",
+    "1.7.VI.A",
+    "1.7.VI.B",
+    "1.7.VIII.E"
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+}

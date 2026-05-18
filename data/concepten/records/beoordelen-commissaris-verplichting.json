@@ -1,0 +1,187 @@
+{
+  "id": "beoordelen-commissaris-verplichting",
+  "naam": "Beoordelen of een vennootschap een commissaris moet benoemen en welk regime van toepassing is",
+  "node_type": "competentie",
+  "schema_version": "1.5",
+  "titel": "Beoordelen of een vennootschap een commissaris moet benoemen en welk regime van toepassing is",
+  "status": "voorgesteld",
+  "programmaonderdelen": [
+    1.2
+  ],
+  "voortkomend_uit": {
+    "taken": [],
+    "kenniselementen": [
+      "1.2.IV.E",
+      "1.2.IV"
+    ]
+  },
+  "gebaseerd_op_concepten": [
+    "commissaris",
+    "groottecriteria-jaarrekening",
+    "kleine-vennootschap",
+    "public-interest-entity",
+    "ibr",
+    "vennootschapsvormen-typologie"
+  ],
+  "procedure_grondslag": {
+    "wettelijk_pct": 90,
+    "praktijk_pct": 10,
+    "motivering": "De plicht tot commissaris-benoeming is voorzien in WVV art. 3:72 e.v., met afwijkingen voor kleine vennootschappen en strengere regels voor PIE's. Praktijkoordeel betreft vooral de vraag of de groep-context de vennootschap toch onder commissarisplicht brengt."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Kwalificeer de vennootschap qua grootte en aard",
+      "wat": "Bepaal of de vennootschap klein/groot is en of ze een PIE is.",
+      "waarom": "Kleine vennootschappen zijn in beginsel vrijgesteld; PIE's hebben strengere regels.",
+      "input": [
+        {
+          "artefact": "Werknotitie groottecriteria + statuten",
+          "veld": "Grootteklasse + PIE-status",
+          "type": "conclusie"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werknotitie",
+          "veld": "Klein/groot + wel/niet PIE",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Open de resultaten van [[klasseren-vennootschap-naar-groottecategorie]].\n2. Toets PIE-status volgens [[public-interest-entity]] §criteria: beursnotering op gereglementeerde markt, kredietinstelling, verzekeringsonderneming.\n3. Noteer beide elementen in de werknotitie.\n",
+      "grondslag": "[[commissaris]] §toepassingsgebied, WVV art. 3:72"
+    },
+    {
+      "nr": 2,
+      "titel": "Pas de hoofdregel toe voor kleine vennootschappen",
+      "wat": "Kleine vennootschappen zijn in beginsel vrijgesteld van commissaris-benoeming, tenzij ze deel uitmaken van een grote groep.",
+      "waarom": "Vrijstelling beperkt de kost voor KMO's; verbondenheid heft de vrijstelling op.",
+      "input": [
+        {
+          "artefact": "Werknotitie stap 1",
+          "veld": "Klein/groot, PIE-status, eventueel groep",
+          "type": "conclusie"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Tussenstand",
+          "veld": "Wel of niet commissaris",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Klein én geen PIE én geen lid van een grote groep? → geen commissaris verplicht ([[commissaris]] §uitzondering-klein).\n2. Toets groep-context: indien de groep als geheel groot is, vervalt de vrijstelling — zie [[groottecriteria-jaarrekening]] §verbondenheid.\n3. Klein én lid grote groep → wel commissaris.\n4. Documenteer beslissing en grondslag.\n",
+      "voorbeeld": {
+        "scenario": "Meubelzaak Mertens BV (klein, geen deelnemingen) en Naaiatelier Ninove BV (klein op zich, dochter van Aurelia Holding NV — groep groot).",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Toets per cliënt",
+            "type": "opmerking",
+            "data": "| Cliënt | Eigen grootte | Groep-context | Commissaris? |\n|---|:---:|:---:|:---:|\n| Meubelzaak Mertens BV | klein | geen groep | Nee |\n| Naaiatelier Ninove BV | klein | groep groot | Ja |\n"
+          }
+        ]
+      },
+      "valkuilen": [
+        {
+          "advies": "Toets verbondenheid voor je 'geen commissaris' adviseert aan een kleine vennootschap.",
+          "vaak_fout": "Aannemen dat een kleine dochter altijd vrijgesteld is van commissaris-benoeming.",
+          "grondslag": "[[commissaris]] §verbondenheid"
+        }
+      ],
+      "grondslag": "[[commissaris]] §uitzondering-klein, WVV art. 3:72"
+    },
+    {
+      "nr": 3,
+      "titel": "Pas de regel toe voor grote vennootschappen en PIE's",
+      "wat": "Grote vennootschappen en PIE's moeten een commissaris benoemen.",
+      "waarom": "Externe wettelijke controle is verplicht voor entiteiten met ruimere stakeholderkring.",
+      "input": [
+        {
+          "artefact": "Werknotitie stap 1",
+          "veld": "Groot of PIE",
+          "type": "conclusie"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Beslissingsnota",
+          "veld": "Commissaris verplicht + bijzondere PIE-vereisten",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Groot en geen PIE → één commissaris (of college) benoemen door de algemene vergadering (AV) op voordracht van het bestuursorgaan, na advies van de ondernemingsraad indien aanwezig.\n2. PIE → strengere regels: rotatieplicht (maximum-mandaatduur), beperkte non-audit-diensten, toezicht door auditcomité. Zie [[public-interest-entity]] §strengere-eisen en EU-Verordening 537/2014.\n3. Termijn van benoeming: drie jaar, hernieuwbaar ([[commissaris]] §mandaatduur).\n4. Benoeming registreren bij de griffie van de ondernemingsrechtbank en bij het [[ibr]] (commissaris is IBR-lid).\n",
+      "grondslag": "[[commissaris]] §benoeming, WVV art. 3:72 § 1, [[public-interest-entity]] §strengere-eisen"
+    },
+    {
+      "nr": 4,
+      "titel": "Formuleer het advies aan de cliënt",
+      "wat": "Stel een korte nota op met de conclusie, de grondslag en de praktische stappen voor benoeming of vrijstelling.",
+      "waarom": "De cliënt heeft een duidelijk antwoord nodig, met geargumenteerde verwijzing naar wetsartikelen.",
+      "input": [
+        {
+          "artefact": "Beslissingsnota stap 2 of 3",
+          "veld": "Conclusie + grondslag",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Cliëntbrief",
+          "veld": "Advies + uit te voeren stappen",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Schrijf één conclusiezin: \"Een commissaris is wel/niet verplicht voor [cliënt].\"\n2. Voeg de wettelijke grondslag toe (WVV art. 3:72 + groep-context indien relevant).\n3. Bij verplichting: lijst van stappen — agenderen op AV, kandidaat voordragen, benoemingsduur (3 jaar), publicatie in Belgisch Staatsblad, communicatie ondernemingsraad.\n4. Bij vrijstelling: vermeld dat dit kan herzien worden bij wijziging grootteklasse of groep-context.\n",
+      "grondslag": "[[commissaris]] §benoemingsprocedure (praktijk-discipline)"
+    }
+  ],
+  "beslisboom": [
+    {
+      "vraag": "Is de vennootschap een PIE?",
+      "ja": "Commissaris verplicht met PIE-regime (rotatie, non-audit-beperkingen).",
+      "nee": "Volg de grootteklasse."
+    },
+    {
+      "vraag": "Is de vennootschap groot?",
+      "ja": "Commissaris verplicht (standaardregime).",
+      "nee": "Klein — toets verbondenheid."
+    },
+    {
+      "vraag": "Behoort de kleine vennootschap tot een groep die op geconsolideerde basis groot is?",
+      "ja": "Commissaris verplicht (vrijstelling vervalt).",
+      "nee": "Geen commissaris verplicht."
+    }
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Meubelzaak Mertens BV is een onafhankelijke kleine BV (12 werknemers, € 4,5M omzet) zonder deelnemingen.",
+      "conclusie": "Geen commissaris verplicht — kleine vennootschap zonder groep-context.",
+      "grondslag": "[[commissaris]] §uitzondering-klein",
+      "redenering": "Geen PIE, niet groot, geen groep. Klassieke KMO-vrijstelling."
+    },
+    {
+      "situatie": "Rotex Roeselare NV (groot, 550 werknemers, niet-beursgenoteerd).",
+      "conclusie": "Commissaris verplicht — standaardregime van drie jaar, benoemd door AV op voordracht bestuursorgaan.",
+      "grondslag": "[[commissaris]] §benoeming",
+      "redenering": "Grote vennootschap → externe wettelijke controle vereist. Geen PIE → geen rotatieplicht, geen auditcomité-vereiste op zich."
+    },
+    {
+      "situatie": "Naaiatelier Ninove BV (25 werknemers, € 3M omzet, klein op zich) is 100%-dochter van Aurelia Holding NV (groep samen groot).",
+      "conclusie": "Commissaris verplicht — vrijstelling 'klein' vervalt door verbondenheid met grote groep.",
+      "grondslag": "[[commissaris]] §verbondenheid; [[groottecriteria-jaarrekening]] §verbondenheid",
+      "redenering": "De groep wordt op geconsolideerde basis als groot geclassificeerd. Dat tilt elke deelvennootschap onder commissarisplicht, ook al is ze op zich klein."
+    }
+  ],
+  "_provenance": {
+    "voorgesteld_door": "competentie-destillatie-v2-po12-20260516",
+    "voorgesteld_op": "2026-05-16T00:00:00Z",
+    "gecureerd_door": null,
+    "gecureerd_op": null
+  },
+  "linked_anchors": [
+    "1.2.IV.E",
+    "1.2.IV"
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+}

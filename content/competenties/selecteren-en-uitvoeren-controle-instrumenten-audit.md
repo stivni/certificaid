@@ -7,9 +7,9 @@ tags:
 programmaonderdelen:
 - '1.6'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/selecteren-en-uitvoeren-controle-instrumenten-audit.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/selecteren-en-uitvoeren-controle-instrumenten-audit.json
+gegenereerd_op: '2026-05-18'
 ---
 # Selecteren en uitvoeren van controle-instrumenten (test of controls + gegevensgerichte werkzaamheden)
 

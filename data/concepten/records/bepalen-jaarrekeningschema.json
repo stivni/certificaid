@@ -1,0 +1,191 @@
+{
+  "id": "bepalen-jaarrekeningschema",
+  "naam": "Bepalen welk jaarrekening-schema (volledig, verkort, micro) een vennootschap moet gebruiken",
+  "node_type": "competentie",
+  "schema_version": "1.5",
+  "titel": "Bepalen welk jaarrekening-schema (volledig, verkort, micro) een vennootschap moet gebruiken",
+  "status": "voorgesteld",
+  "programmaonderdelen": [
+    1.2
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "1.2.taak.1"
+    ],
+    "kenniselementen": [
+      "1.2.IV.C",
+      "1.2.IV"
+    ]
+  },
+  "gebaseerd_op_concepten": [
+    "jaarrekening-schema",
+    "groottecriteria-jaarrekening",
+    "kleine-vennootschap",
+    "microvennootschap",
+    "kb-wvv-uitvoering",
+    "sociale-balans",
+    "toelichting-jaarrekening"
+  ],
+  "procedure_grondslag": {
+    "wettelijk_pct": 95,
+    "praktijk_pct": 5,
+    "motivering": "De drie schema's en hun bijhorende grootteklassen zijn rechtstreeks geregeld in KB-WVV (bijlagen 1, 2 en 3) en in WVV art. 3:5-3:7. Praktijkoordeel beperkt zich tot het beoordelen van overgangsperiodes (vorig schema voortzetten of niet) en sectorspecifieke aanpassingen."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Haal de grootteklasse op",
+      "wat": "Bepaal of de vennootschap micro, klein of groot is voor het betrokken boekjaar.",
+      "waarom": "De grootteklasse stuurt rechtstreeks de schemakeuze.",
+      "input": [
+        {
+          "artefact": "Werknotitie groottecriteria-toets",
+          "veld": "Definitieve grootteklasse",
+          "type": "conclusie"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werknotitie",
+          "veld": "Grootteklasse (micro / klein / groot)",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Open het resultaat van de competentie [[klasseren-vennootschap-naar-groottecategorie]] voor het boekjaar.\n2. Voer ontbrekend de toets uit volgens [[groottecriteria-jaarrekening]] §criteria.\n3. Noteer expliciet welke grootteklasse geldt voor het rapporteringsjaar.\n",
+      "grondslag": "[[groottecriteria-jaarrekening]] §grootteklassen"
+    },
+    {
+      "nr": 2,
+      "titel": "Selecteer het bijhorende KB-WVV-schema",
+      "wat": "Wijs het schema toe volgens de regel groot → bijlage 1, klein → bijlage 2, micro → bijlage 3.",
+      "waarom": "Elk schema heeft een ander detailniveau in balans, resultatenrekening en toelichting.",
+      "input": [
+        {
+          "artefact": "Werknotitie stap 1",
+          "veld": "Grootteklasse",
+          "type": "conclusie"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Schemakeuze",
+          "veld": "Volledig / verkort / micro",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Groot → volledig schema, [[jaarrekening-schema]] §volledig-schema, KB-WVV bijlage 1.\n2. Klein (niet micro) → verkort schema, [[jaarrekening-schema]] §verkort-schema, KB-WVV bijlage 2.\n3. Micro → microschema, [[jaarrekening-schema]] §microschema, KB-WVV bijlage 3.\n4. VZW / IVZW / stichting → apart vereenvoudigd of klein VZW-schema (KB-WVV art. 3:184 e.v.) — niet identiek aan vennootschapsschema's.\n",
+      "voorbeeld": {
+        "scenario": "Drie cliënten op 31/12/2024: Rotex Roeselare NV (groot), Meubelzaak Mertens BV (klein, niet micro), Oprichtingen Oostende BV (micro).",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Schema-toewijzing",
+            "type": "opmerking",
+            "data": "| Cliënt | Grootteklasse | Schema | KB-WVV-bijlage |\n|---|:---:|:---:|:---:|\n| Rotex Roeselare NV | groot | volledig | bijlage 1 |\n| Meubelzaak Mertens BV | klein | verkort | bijlage 2 |\n| Oprichtingen Oostende BV | micro | micro | bijlage 3 |\n"
+          }
+        ]
+      },
+      "grondslag": "[[jaarrekening-schema]] §schema-per-grootte, KB-WVV art. 3:2 + bijlagen 1-3"
+    },
+    {
+      "nr": 3,
+      "titel": "Maak gevolgen voor sociale balans en toelichting expliciet",
+      "wat": "Bepaal of de sociale balans verplicht is en welk detail van toelichting van toepassing is.",
+      "waarom": "Schema bepaalt niet alleen presentatie maar ook welke bijlage-onderdelen wel of niet vereist zijn.",
+      "input": [
+        {
+          "artefact": "Schemakeuze stap 2",
+          "veld": "Schema",
+          "type": "conclusie"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Documentenlijst",
+          "veld": "Balans + RR + toelichting (+ eventueel sociale balans + jaarverslag)",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Volledig schema en verkort schema → sociale balans verplicht ([[sociale-balans]] §verplichting). Microschema → géén sociale balans verplicht.\n2. Toelichting: volledig schema → uitgebreid (kapitaalstaat, staat vaste activa, niet-balansrechten in detail). Verkort → beperkter. Micro → minimaal — zie [[toelichting-jaarrekening]] §detail-per-schema.\n3. Jaarverslag: volledig schema → verplicht voor grote vennootschappen. Verkort en micro → niet verplicht (tenzij PIE of beursnotering).\n4. Stel een documentenlijst op die je in de neerlegging zult opnemen.\n",
+      "valkuilen": [
+        {
+          "advies": "Sociale balans hoort bij verkort EN volledig schema, niet bij micro.",
+          "vaak_fout": "Een microvennootschap toch een sociale balans laten opmaken.",
+          "grondslag": "[[sociale-balans]] §verplichting"
+        }
+      ],
+      "grondslag": "[[jaarrekening-schema]] §componenten, [[toelichting-jaarrekening]] §detail-per-schema"
+    },
+    {
+      "nr": 4,
+      "titel": "Behandel een wijziging van schema bij grootteverandering",
+      "wat": "Stel de overgangsregels op als de vennootschap van grootteklasse verandert.",
+      "waarom": "Bij wisseling moet de vergelijkende kolom van het vorige boekjaar in het nieuwe schema worden gepresenteerd.",
+      "input": [
+        {
+          "artefact": "Schemakeuze huidig + vorig boekjaar",
+          "veld": "Schema beide jaren",
+          "type": "conclusie"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Overgangs-werkblad",
+          "veld": "Mapping rubrieken oud-nieuw + vergelijkende kolom",
+          "type": "berekening"
+        }
+      ],
+      "hoe": "1. Vergelijk schemakeuze huidig boekjaar met dat van vorig boekjaar.\n2. Identiek? Geen overgangswerk — gebruik standaard vergelijkende kolom.\n3. Verschillend (bv. klein → groot na lock-in)? Map elke rubriek van het verkort schema naar de uitgebreidere rubrieken van het volledig schema. Zie [[jaarrekening-schema]] §wijziging-bij-grootteverandering.\n4. Documenteer in de toelichting de schemawissel en de impact op de vergelijkbaarheid.\n",
+      "grondslag": "[[jaarrekening-schema]] §wijziging-bij-grootteverandering, WVV art. 1:24 § 4"
+    }
+  ],
+  "beslisboom": [
+    {
+      "vraag": "Is de vennootschap een PIE (beursgenoteerd, kredietinstelling, verzekeringsonderneming)?",
+      "ja": "Volledig schema verplicht, ongeacht groottecriteria.",
+      "nee": "Volg de grootteklasse."
+    },
+    {
+      "vraag": "Is de vennootschap micro (en geen moeder/dochter)?",
+      "ja": "Microschema.",
+      "nee": "Ga naar volgende vraag."
+    },
+    {
+      "vraag": "Is de vennootschap klein?",
+      "ja": "Verkort schema.",
+      "nee": "Volledig schema."
+    }
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Meubelzaak Mertens BV (klein, geen deelnemingen, geen beursnotering).",
+      "conclusie": "Verkort schema (KB-WVV bijlage 2). Sociale balans verplicht. Jaarverslag niet verplicht.",
+      "grondslag": "[[jaarrekening-schema]] §verkort-schema; [[kleine-vennootschap]] §gevolgen",
+      "redenering": "Klein → verkort. Sociale balans hoort bij verkort schema. Jaarverslag valt weg."
+    },
+    {
+      "situatie": "Rotex Roeselare NV (groot, 550 werknemers, € 95M omzet).",
+      "conclusie": "Volledig schema (KB-WVV bijlage 1). Sociale balans + uitgebreide toelichting + jaarverslag verplicht.",
+      "grondslag": "[[jaarrekening-schema]] §volledig-schema",
+      "redenering": "Grote vennootschap → alle componenten verplicht. Volledige toelichting bevat onder andere staat vaste activa, kapitaalstaat, ARO."
+    },
+    {
+      "situatie": "Oprichtingen Oostende BV in boekjaar 1 (4 werknemers, € 400.000 omzet, geen deelneming).",
+      "conclusie": "Microschema (KB-WVV bijlage 3). Geen sociale balans, geen jaarverslag, minimale toelichting.",
+      "grondslag": "[[jaarrekening-schema]] §microschema; [[microvennootschap]] §gevolgen",
+      "redenering": "Onder alle micro-drempels + geen moeder/dochter → microschema. Laagste rapporteringslast."
+    }
+  ],
+  "_provenance": {
+    "voorgesteld_door": "competentie-destillatie-v2-po12-20260516",
+    "voorgesteld_op": "2026-05-16T00:00:00Z",
+    "gecureerd_door": null,
+    "gecureerd_op": null
+  },
+  "linked_anchors": [
+    "1.2.taak.1",
+    "1.2.IV.C",
+    "1.2.IV"
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+}

@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.8'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/toepassen-volledige-kostencalculatie.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/toepassen-volledige-kostencalculatie.json
+gegenereerd_op: '2026-05-18'
 ---
 # Toepassen van de volledige kostencalculatie (full costing) op een productie-eenheid
 

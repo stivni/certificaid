@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.8'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/uitvoeren-break-even-analyse.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/uitvoeren-break-even-analyse.json
+gegenereerd_op: '2026-05-18'
 ---
 # Uitvoeren van een break-even-analyse en bepalen van de veiligheidsmarge
 

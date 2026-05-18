@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.1'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/opstellen-afschrijvingsplan-vaste-activa.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/opstellen-afschrijvingsplan-vaste-activa.json
+gegenereerd_op: '2026-05-18'
 ---
 # Opstellen van het afschrijvingsplan voor materiële vaste activa
 

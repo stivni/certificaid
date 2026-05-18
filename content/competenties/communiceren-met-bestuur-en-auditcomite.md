@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.6'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/communiceren-met-bestuur-en-auditcomite.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/communiceren-met-bestuur-en-auditcomite.json
+gegenereerd_op: '2026-05-18'
 ---
 # Communiceren met audit-comité en bestuur over auditbevindingen
 

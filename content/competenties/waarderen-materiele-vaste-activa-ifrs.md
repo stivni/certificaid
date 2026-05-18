@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.5'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/waarderen-materiele-vaste-activa-ifrs.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/waarderen-materiele-vaste-activa-ifrs.json
+gegenereerd_op: '2026-05-18'
 ---
 # Waarderen van materiële vaste activa onder IAS 16 (kostprijs- of herwaarderingsmodel)
 

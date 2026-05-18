@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.8'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/bepalen-vervaardigingsprijs-kb-21-10-2018.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/bepalen-vervaardigingsprijs-kb-21-10-2018.json
+gegenereerd_op: '2026-05-18'
 ---
 # Bepalen van de vervaardigingsprijs volgens KB 21.10.2018 en CBN 132/7
 

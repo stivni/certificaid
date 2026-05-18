@@ -1,0 +1,197 @@
+{
+  "id": "gebruiken-financiele-analyse-software",
+  "naam": "Gebruiken van financiële-analyse-software voor ratio-set en sectorvergelijking",
+  "node_type": "competentie",
+  "schema_version": "1.5",
+  "titel": "Gebruiken van financiële-analyse-software voor ratio-set en sectorvergelijking",
+  "status": "voorgesteld",
+  "programmaonderdelen": [
+    1.9
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "1.9.taak.1"
+    ],
+    "kenniselementen": [
+      "1.9.VII",
+      "1.9.VII.A",
+      "1.9.VII.B",
+      "1.9.VII.C"
+    ]
+  },
+  "gebaseerd_op_concepten": [
+    "financiele-analyse-software",
+    "sectorvergelijking-financiele-analyse",
+    "ratio-vier-doelen-vergelijking",
+    "interpretatie-financiele-ratios"
+  ],
+  "procedure_grondslag": {
+    "wettelijk_pct": 10,
+    "praktijk_pct": 90,
+    "motivering": "Commerciële tools (Bel-First, NBB-Online, Graydon, Belfius Score) zijn marktrealiteit zonder normatieve bron. De NBB-Centrale voor Balansen is wel wettelijk verankerd (Boek III WVV) en levert de standaard-data-bron. Vereist mens-review wegens praktijk_pct > 70%."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Kiezen van een gepaste tool voor de analyse-vraag",
+      "wat": "Selecteer de geschikte financiële-analyse-software op basis van het type analyse — individuele onderneming, sectorvergelijking, kredietrating of going-concern-screening.",
+      "waarom": "Tools verschillen in scope en abonnementskost. NBB-Online is gratis voor individuele ondernemingen; Bel-First levert sector-databases; Graydon en Belfius Score focussen op kredietratings. Verkeerde keuze leidt tot ofwel onnodige kost ofwel ontbrekende functies.",
+      "input": [
+        {
+          "artefact": "Analyse-vraag van de cliënt",
+          "veld": "Type opdracht (jaarrekening-analyse, kredietdossier, fusie/overname, going-concern-toets)",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Tool-keuze",
+          "veld": "Naam van tool + motivatie",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Plaats de analyse-vraag in een van de vier categorieën uit [[financiele-analyse-software]] §belgische-marktspelers:\n   - Individuele onderneming, ratio's + visualisatie → NBB-Online (gratis) of Bel-First.\n   - Sectorvergelijking via NACE → Bel-First (uitgebreid).\n   - Kredietrating + betaalmoraliteit → Graydon.\n   - Banksector-screening kredietaanvraag → Belfius Score.\n2. Controleer of de cliënt zelf een abonnement heeft of dat het kantoor zijn licentie inzet.\n3. Bij twijfel: NBB-Online volstaat voor de meeste examen-relevante analyses.\n",
+      "grondslag": "[[financiele-analyse-software]] §belgische-marktspelers"
+    },
+    {
+      "nr": 2,
+      "titel": "Importeren van de jaarrekening",
+      "wat": "Laad de jaarrekening in de gekozen tool — manueel of via XBRL-import uit de NBB-Centrale voor Balansen.",
+      "waarom": "Tools steunen op de gestandaardiseerde NBB-rapportering. Manuele input is mogelijk voor niet-neergelegde rapporten (interne tussentijdse balansen) maar invoer-fouten kunnen de hele analyse vervuilen.",
+      "input": [
+        {
+          "artefact": "Jaarrekening",
+          "veld": "NBB-Centrale URL of XBRL-bestand of manuele invoer-velden",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Geïmporteerde dataset in tool",
+          "veld": "Balans + RR + bijlagen, geladen per boekjaar",
+          "type": "nieuwe-balanspost"
+        }
+      ],
+      "hoe": "1. Open de tool (bv. Bel-First) en zoek de onderneming op via ondernemingsnummer (BCE-nummer).\n2. Selecteer minstens 3 opeenvolgende boekjaren — voor evolutie-analyse vereist door [[interpretatie-financiele-ratios]] §evolutie-lezen.\n3. Controleer dat het correcte schema (volledig/verkort/micro) wordt herkend.\n4. Voor niet-neergelegde data (bv. tussentijdse jaarrekening): gebruik manuele invoer + flag dat dit niet uit NBB komt.\n5. Verifieer dat balanstotaal activa = balanstotaal passiva (controle import-integriteit).\n",
+      "grondslag": "[[financiele-analyse-software]] §functionaliteit, KB WVV — neerlegging jaarrekening"
+    },
+    {
+      "nr": 3,
+      "titel": "Genereren en lezen van de automatisch berekende ratio-set",
+      "wat": "Laat de tool de standaard-ratio-set berekenen (liquiditeit, solvabiliteit, rentabiliteit, productiviteit) en controleer de formule-keuze.",
+      "waarom": "Tools gebruiken vaak licht afwijkende formule-varianten — bv. cashflow-definitie of solvabiliteits-formule. Een ratio uit Bel-First kan licht verschillen van die uit een handboek. Op bekwaamheid-niveau wordt verwacht dat de student dit herkent.",
+      "input": [
+        {
+          "artefact": "Geïmporteerde dataset (stap 2)",
+          "veld": "Drie boekjaren",
+          "type": "boekhoudkundig-bedrag"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Ratio-tabel",
+          "veld": "Ratio's per doel-categorie + bedrijfs- en sectorgemiddelden",
+          "type": "berekening"
+        }
+      ],
+      "hoe": "1. Vraag de tool om de standaard-ratio-set (bv. in Bel-First: tabblad \"Ratios\").\n2. Vergelijk de berekende ratio's met je eigen handmatige berekening van de hoofdratio's:\n   - Current ratio = vlottende activa / kortlopende schulden.\n   - Solvabiliteitsratio = eigen vermogen / totaal activa.\n   - ROE = nettoresultaat / eigen vermogen.\n3. Indien afwijking > 5%: open de tool-documentatie en achterhaal welke formule-variant wordt gebruikt. Documenteer dit in je rapport.\n4. Plaats elke ratio in een van de vier doel-categorieën volgens [[ratio-vier-doelen-vergelijking]].\n",
+      "voorbeeld": {
+        "scenario": "Rotex Roeselare NV — Bel-First ratio-output 20X3.",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Ratio-tabel",
+            "type": "berekening",
+            "data": "| Ratio (Bel-First) | Waarde Rotex | Sector NACE 1623 |\n|---|---:|---:|\n| Current ratio | 1,45 | 1,80 |\n| Quick ratio | 0,75 | 0,85 |\n| Solvabiliteit (EV/TA) | 40,0% | 32,5% |\n| ROE | 32,5% | 18,7% |\n| Altman Z (geautomatiseerd) | 3,15 | n.v.t. |\n"
+          }
+        ]
+      },
+      "grondslag": "[[financiele-analyse-software]] §functionaliteit, [[ratio-vier-doelen-vergelijking]]"
+    },
+    {
+      "nr": 4,
+      "titel": "Sectorvergelijking via NACE-code en interpretatie",
+      "wat": "Vergelijk de ratio-set van de onderneming met het sector-gemiddelde (NACE-niveau 4 of 5) en interpreteer de afwijkingen.",
+      "waarom": "Een ratio in absolute zin is moeilijk te interpreteren — pas in vergelijking met de sector wordt zinvol. De tool levert de sector-data; de interpretatie blijft mensenwerk.",
+      "input": [
+        {
+          "artefact": "Ratio-tabel + NACE-code",
+          "veld": "Eigen ratio's + sector-mediaan + percentiel-positie",
+          "type": "berekening"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Sectorvergelijkings-rapport",
+          "veld": "Per ratio: positie in sector + signalering",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Bevestig de NACE-code van de onderneming via [[sectorvergelijking-financiele-analyse]] §NACE-classificatie. Voor diversifieerders: gebruik hoofd-activiteit.\n2. Vraag in de tool de sector-mediaan en de kwartielen (Q1, Q3) op voor minstens de hoofdratio's.\n3. Plaats de onderneming in de sector-distributie (boven mediaan, in Q1, etc.).\n4. Onderzoek elke afwijking > 1 standaarddeviatie (of buiten Q1-Q3 interval):\n   - Is het signaal van zwakte (slecht beheer)?\n   - Of strategische keuze (specialisatie, premium-positionering)?\n   - Of cyclus-fase (groei vs volwassen)?\n5. Combineer met de interpretatie-methode uit [[interpretatie-financiele-ratios]] §triangulair-lezen.\n",
+      "voorbeeld": {
+        "scenario": "Rotex Roeselare NV — sectorvergelijking 20X3 in NACE 1623 (kuiperij/houtbewerking).",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Positionering",
+            "type": "berekening",
+            "data": "- Current ratio 1,45 < sector 1,80 → onder sector, in 1ste kwartiel.\n- Solvabiliteit 40% > sector 32,5% → boven sector, in 3de kwartiel.\n- ROE 32,5% >> sector 18,7% → ver boven sector, in 4de kwartiel.\n"
+          },
+          {
+            "nr": 2,
+            "titel": "Interpretatie",
+            "type": "opmerking",
+            "data": "Rotex is conservatief gefinancierd (hoge solvabiliteit) en zeer rentabel (hoge ROE). De lage current ratio is geen alarm — past bij efficiënt werkkapitaal-beheer (kort BBK-cyclus). Strategische keuze, geen zwakte. Aanbeveling: monitor evolutie van de current ratio; daling onder 1,2 zou wel zorgwekkend zijn.\n"
+          }
+        ]
+      },
+      "valkuilen": [
+        {
+          "advies": "Lees de tool-output kritisch — vergelijk met je eigen berekening voor de hoofdratio's.",
+          "vaak_fout": "De tool-output blind overnemen zonder formule-controle. Verschillende tools gebruiken licht afwijkende cashflow- of solvabiliteits-formules.",
+          "grondslag": "[[financiele-analyse-software]] §valkuilen"
+        },
+        {
+          "advies": "Combineer sector-benchmark met evolutie over 3+ jaren én met business-context.",
+          "vaak_fout": "Een afwijking van sector-mediaan automatisch als probleem labelen — vaak is het een strategische keuze.",
+          "grondslag": "[[interpretatie-financiele-ratios]] §plaats-ratio-in-doel-categorie"
+        },
+        {
+          "advies": "Documenteer welke tool werd gebruikt en welke versie / data-snapshot.",
+          "vaak_fout": "Tool-output overnemen zonder bronvermelding — bij latere herziening of audit niet meer reproduceerbaar.",
+          "grondslag": "Beroepsstandaard documentatie"
+        }
+      ],
+      "grondslag": "[[financiele-analyse-software]] §functionaliteit, [[sectorvergelijking-financiele-analyse]]"
+    }
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "De cliënt vraagt een kredietrating voor zijn onderneming voor een bankaanvraag van € 500.000.",
+      "conclusie": "Sofie Janssens kiest Graydon Multiscore — gespecialiseerd in betaalmoraliteit en kredietratings. Bel-First zou ratio's geven maar geen kredietrating-score. Voor banken die intern werken met Belfius Score: aanvragen via dezelfde tool. Belangrijk: de rating wordt geleverd door de tool, maar de eindverantwoordelijke voor het kredietdossier blijft de accountant + de bank — niet de tool.",
+      "grondslag": "[[financiele-analyse-software]] §belgische-marktspelers",
+      "redenering": "Verschillende tools dekken verschillende vragen. Voor kredietratings is Graydon de norm; voor sector-vergelijkende analyses Bel-First. Verkeerde tool levert dure én onvolledige output."
+    },
+    {
+      "situatie": "Een micro-onderneming heeft verkort schema gepubliceerd. De accountant ziet dat Bel-First slechts 4 ratio's berekent in plaats van de gebruikelijke 15.",
+      "conclusie": "Sofie Janssens documenteert in haar rapport dat het verkorte schema (model 11) beperking oplegt: rubrieken 60 en 61 zijn samengevoegd, waardoor TW-detail ontbreekt. Bel-First detecteert dit en levert geen TW-gebaseerde ratio's. Sofie vraagt aanvullende gegevens op bij het bestuursorgaan (split aankopen / diensten) om alsnog de analyse te kunnen voltooien.",
+      "grondslag": "[[financiele-analyse-software]] §functionaliteit, [[herstructurering-resultatenrekening]] §verkort-microschema",
+      "redenering": "De tool past zich aan aan het schema — wat ontbreekt aan input ontbreekt ook aan output. Aanvullende data opvragen is de juiste reactie, geen verzonnen invulling."
+    }
+  ],
+  "_provenance": {
+    "voorgesteld_door": "competentie-destillatie-v2-po-1.9-run-2026-05-17T03:00Z",
+    "voorgesteld_op": "2026-05-17T03:00:00Z",
+    "gecureerd_door": null,
+    "gecureerd_op": null,
+    "flag_mens_review": "praktijk_pct = 90% (>> 70%). Tool-keuze en gebruik zijn beroepspraktijk zonder normatieve bron. Mens-review nodig voor: (1) actualiteit tool-namen (markt evolueert); (2) Belgische beroepsvereiste-richtlijnen (ITAA) over IT-tool-gebruik in opdrachten; (3) GDPR-aspecten bij data-export naar commerciële tools."
+  },
+  "linked_anchors": [
+    "1.9.taak.1",
+    "1.9.VII",
+    "1.9.VII.A",
+    "1.9.VII.B",
+    "1.9.VII.C"
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+}

@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.8'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/opzetten-analytisch-rekeningenstelsel.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/opzetten-analytisch-rekeningenstelsel.json
+gegenereerd_op: '2026-05-18'
 ---
 # Opzetten van een analytisch rekeningenstelsel met kostencentra en kostendragers
 

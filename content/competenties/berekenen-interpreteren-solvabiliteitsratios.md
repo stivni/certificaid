@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.3'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/berekenen-interpreteren-solvabiliteitsratios.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/berekenen-interpreteren-solvabiliteitsratios.json
+gegenereerd_op: '2026-05-18'
 ---
 # Berekenen en interpreteren van de solvabiliteitsratio's
 

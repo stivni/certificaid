@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.5'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/toetsen-bijzondere-waardevermindering-ias-36.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/toetsen-bijzondere-waardevermindering-ias-36.json
+gegenereerd_op: '2026-05-18'
 ---
 # Toetsen van een actief op bijzondere waardevermindering onder IAS 36
 

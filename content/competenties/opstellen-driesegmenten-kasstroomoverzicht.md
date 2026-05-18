@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.9'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/opstellen-driesegmenten-kasstroomoverzicht.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/opstellen-driesegmenten-kasstroomoverzicht.json
+gegenereerd_op: '2026-05-18'
 ---
 # Opstellen van een drie-segmenten-kasstroomoverzicht (CFO, CFI, CFF)
 

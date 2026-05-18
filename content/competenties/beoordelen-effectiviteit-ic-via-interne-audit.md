@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.7'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/beoordelen-effectiviteit-ic-via-interne-audit.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/beoordelen-effectiviteit-ic-via-interne-audit.json
+gegenereerd_op: '2026-05-18'
 ---
 # Beoordelen van de effectiviteit van een intern-controlesysteem (interne audit)
 

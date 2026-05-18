@@ -1,0 +1,196 @@
+{
+  "id": "identificeren-rechtsbron-boekhoudrecht",
+  "naam": "Identificeren van de toepasselijke rechtsbron bij een vraag uit het boekhoudrecht",
+  "node_type": "competentie",
+  "schema_version": "1.5",
+  "titel": "Identificeren van de toepasselijke rechtsbron bij een vraag uit het boekhoudrecht",
+  "status": "voorgesteld",
+  "programmaonderdelen": [
+    1.2
+  ],
+  "voortkomend_uit": {
+    "taken": [],
+    "kenniselementen": [
+      "1.2.I",
+      "1.2.I.A",
+      "1.2.I.C",
+      "1.2.I.D",
+      "1.2.I.E",
+      "1.2.I.F"
+    ]
+  },
+  "gebaseerd_op_concepten": [
+    "belgisch-boekhoudrecht",
+    "europees-boekhoudrecht",
+    "wetboek-economisch-recht-boek-iii",
+    "wetboek-vennootschappen-verenigingen",
+    "kb-wvv-uitvoering",
+    "cbn-adviezen",
+    "rechtspraak-boekhoudrecht"
+  ],
+  "procedure_grondslag": {
+    "wettelijk_pct": 90,
+    "praktijk_pct": 10,
+    "motivering": "De hiërarchie van bronnen is wettelijk vastgelegd (Richtlijn 2013/34, WER Boek III, WVV Boek 3, KB-WVV). Enkel het wegen van CBN-adviezen en rechtspraak (niet-bindend) vraagt enig oordeel."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Kwalificeer het type vraag",
+      "wat": "Bepaal of de vraag gaat over de boekhoudplicht zelf, de jaarrekening, een waardering, openbaarmaking of een toezichtskwestie.",
+      "waarom": "Verschillende vragen vallen onder verschillende bronnen — WER versus WVV versus KB-WVV.",
+      "input": [
+        {
+          "artefact": "Cliëntdossier of examenvraag",
+          "veld": "Onderwerp van de vraag",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Werknotitie",
+          "veld": "Categorie van de vraag (boekhoudplicht / jaarrekening / waardering / openbaarmaking / toezicht)",
+          "type": "conclusie"
+        }
+      ],
+      "hoe": "1. Lees de vraag bij Meubelzaak Mertens BV: gaat het over hoe de boekhouding gevoerd wordt of over de jaarrekening?\n2. Plaats de vraag in één van vijf rubrieken volgens [[belgisch-boekhoudrecht]] §domeinen: boekhoudplicht, jaarrekening, waardering, openbaarmaking, toezicht.\n3. Bij overlap (bv. een waarderingsregel die ook de jaarrekening raakt): noteer beide categorieën — dat kan tot meerdere bronnen leiden.\n",
+      "grondslag": "[[belgisch-boekhoudrecht]] §domeinen"
+    },
+    {
+      "nr": 2,
+      "titel": "Pas de bronhiërarchie toe",
+      "wat": "Loop de hiërarchie van rechtsbronnen door van hoog naar laag tot de vraag beantwoord is.",
+      "waarom": "Hogere bronnen primeren op lagere — beginnen bij EU of WER bespaart fouten.",
+      "input": [
+        {
+          "artefact": "Werknotitie stap 1",
+          "veld": "Categorie van de vraag",
+          "type": "conclusie"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Bronlijst voor de vraag",
+          "veld": "Hiërarchisch geordende lijst van toepasselijke bronnen",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Begin bovenaan met [[europees-boekhoudrecht]] (Richtlijn 2013/34/EU, IFRS-Verordening voor genoteerde groepen). Vraag: legt EU rechtstreeks iets op?\n2. Daal af naar wet-niveau: voor boekhoudplicht en bewaren → [[wetboek-economisch-recht-boek-iii]] art. III.82-III.95. Voor jaarrekening + vennootschapsstructuur → [[wetboek-vennootschappen-verenigingen]] Boek 3.\n3. Daal af naar het uitvoerings-KB: [[kb-wvv-uitvoering]] regelt MAR, schema's, waarderingsregels.\n4. Stop zodra de vraag rechtstreeks beantwoord is — noteer artikel-referenties.\n",
+      "voorbeeld": {
+        "scenario": "Sofie Janssens krijgt van Meubelzaak Mertens BV de vraag: 'moet onze BV verkort of volledig schema gebruiken?'",
+        "substappen": [
+          {
+            "nr": 1,
+            "titel": "Categorie",
+            "type": "opmerking",
+            "data": "Vraag over jaarrekening-presentatie → categorie 'jaarrekening'.\n"
+          },
+          {
+            "nr": 2,
+            "titel": "Toepasselijke bronnen",
+            "type": "opmerking",
+            "data": "| Niveau | Bron | Artikel | Relevant? |\n|---|---|---|---|\n| EU | Richtlijn 2013/34/EU | art. 14, 16 | Indirect (geïmplementeerd in WVV) |\n| Wet | WVV | art. 3:5 en 3:6, art. 1:24 | Ja — kernregel |\n| KB | KB-WVV | bijlagen 1-3 | Ja — bevat de schema's zelf |\n| Advies | CBN | 2022/03 | Aanvullend voor grenstoetsing |\n"
+          }
+        ]
+      },
+      "grondslag": "[[belgisch-boekhoudrecht]] §hiërarchie"
+    },
+    {
+      "nr": 3,
+      "titel": "Raadpleeg CBN-adviezen en rechtspraak voor interpretatie",
+      "wat": "Zoek aanvullende CBN-adviezen of rechtspraak als de wettekst meerduidig is.",
+      "waarom": "Adviezen en rechtspraak verduidelijken hoe een open norm in de praktijk wordt toegepast — niet bindend, wel gezaghebbend.",
+      "input": [
+        {
+          "artefact": "Bronlijst stap 2",
+          "veld": "Wettekst-passages",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Interpretatienota",
+          "veld": "Toepassingscriteria + grondslag",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Is de wettekst eenduidig? Stop hier.\n2. Open de CBN-adviezenbank en zoek op het sleutelwoord (bv. 'groottecriteria'). Zie [[cbn-adviezen]] §gezag.\n3. Plaats het advies in zijn context: een advies legt uit hoe het wettelijke begrip in een concrete situatie wordt ingevuld. Niet-bindend maar gezaghebbend.\n4. Heeft een hof van beroep of het Hof van Cassatie zich uitgesproken? Raadpleeg [[rechtspraak-boekhoudrecht]] §gezag-rechtspraak.\n5. Documenteer in het dossier: wet → advies → eventueel rechtspraak.\n",
+      "valkuilen": [
+        {
+          "advies": "Beschouw een CBN-advies nooit als bindend recht — vermeld het altijd als aanvullende doctrine.",
+          "vaak_fout": "Een CBN-advies citeren als ware het een wetsartikel.",
+          "grondslag": "[[cbn-adviezen]] §gezag"
+        }
+      ],
+      "grondslag": "[[cbn-adviezen]] §toepassing, [[rechtspraak-boekhoudrecht]] §gezag"
+    },
+    {
+      "nr": 4,
+      "titel": "Formuleer het antwoord met grondslag-vermelding",
+      "wat": "Schrijf het cliëntantwoord en vermeld voor elke claim de exacte bron.",
+      "waarom": "Zonder traceerbare grondslag is het advies niet verdedigbaar — kernregel voor de stagiair.",
+      "input": [
+        {
+          "artefact": "Bronlijst + interpretatienota",
+          "veld": "Wetsartikelen + advies-nummers",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Cliëntnota",
+          "veld": "Antwoord + grondslagen",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Schrijf één conclusiezin per vraag.\n2. Voeg per claim de bronnen toe in volgorde: wet (WER/WVV-art.) → KB-artikel → CBN-advies → rechtspraak.\n3. Vermeld het type bron expliciet ('bindend', 'doctrinair', 'rechtspraak hof X').\n",
+      "grondslag": "[[belgisch-boekhoudrecht]] §grondslag-vermelding (praktijk-discipline)"
+    }
+  ],
+  "beslisboom": [
+    {
+      "vraag": "Gaat de vraag over de boekhouding zelf (voeren, bewaren)?",
+      "ja": "Start bij [[wetboek-economisch-recht-boek-iii]].",
+      "nee": "Gaat het over jaarrekening/vennootschapsstructuur? Start bij [[wetboek-vennootschappen-verenigingen]]."
+    },
+    {
+      "vraag": "Is de wettelijke regel eenduidig?",
+      "ja": "Antwoord direct, met wetsartikel.",
+      "nee": "Raadpleeg [[cbn-adviezen]] en eventueel [[rechtspraak-boekhoudrecht]]."
+    },
+    {
+      "vraag": "Is de vennootschap beursgenoteerd of behoort ze tot een EU-groep met IFRS-rapportering?",
+      "ja": "Toets eerst aan [[europees-boekhoudrecht]] (IAS-Verordening).",
+      "nee": "Belgisch boekhoudrecht primeert."
+    }
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Praktijk Persenaire (eenmanszaak vrij beroep, omzet € 280.000) vraagt of zij dubbele boekhouding moet voeren.",
+      "conclusie": "Toepasselijke hoofdbron is [[wetboek-economisch-recht-boek-iii]] art. III.82-III.85, niet WVV. Eenmanszaak met omzet onder € 500.000 mag vereenvoudigde boekhouding voeren.",
+      "grondslag": "[[belgisch-boekhoudrecht]] §domeinen; [[wetboek-economisch-recht-boek-iii]] §boekhoudplicht",
+      "redenering": "Een natuurlijke persoon met zelfstandige beroepsactiviteit valt niet onder WVV (geen rechtspersoon) maar wel onder WER Boek III. De drempel voor vereenvoudigde boekhouding staat in WER art. III.85 + KB."
+    },
+    {
+      "situatie": "Rotex Roeselare NV (grote NV, niet-beursgenoteerd) wil weten welk afschrijvingsregime fiscaal en boekhoudkundig geldt voor een nieuwe productielijn van € 850.000.",
+      "conclusie": "Boekhoudkundige grondslag in [[kb-wvv-uitvoering]] art. 3:39 e.v. (degressief of lineair). Aanvullend [[cbn-adviezen]] 2012/18 voor componentenbenadering. Fiscaal regime apart in WIB.",
+      "grondslag": "[[waarderingsregels-jaarrekening]] §afschrijvingen; [[kb-wvv-uitvoering]] §art.3:39",
+      "redenering": "Afschrijving is een waarderingsregel → KB-WVV. CBN-advies legt componentenbenadering uit — niet in de wettekst zelf. Fiscaal recht staat los van boekhoudrecht, daarom apart vermelden."
+    }
+  ],
+  "_provenance": {
+    "voorgesteld_door": "competentie-destillatie-v2-po12-20260516",
+    "voorgesteld_op": "2026-05-16T00:00:00Z",
+    "gecureerd_door": null,
+    "gecureerd_op": null
+  },
+  "linked_anchors": [
+    "1.2.I",
+    "1.2.I.A",
+    "1.2.I.C",
+    "1.2.I.D",
+    "1.2.I.E",
+    "1.2.I.F"
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+}

@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.3'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/positioneren-toezichtsorganen-rond-jaarrekening.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/positioneren-toezichtsorganen-rond-jaarrekening.json
+gegenereerd_op: '2026-05-18'
 ---
 # Positioneren van de toezichtsorganen rond de jaarrekening
 

@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.3'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/beoordelen-werkkapitaal-en-kasstroom.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/beoordelen-werkkapitaal-en-kasstroom.json
+gegenereerd_op: '2026-05-18'
 ---
 # Beoordelen van het werkkapitaal en de kasstroom van een onderneming
 

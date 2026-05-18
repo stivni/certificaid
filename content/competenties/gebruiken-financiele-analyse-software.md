@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.9'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/gebruiken-financiele-analyse-software.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/gebruiken-financiele-analyse-software.json
+gegenereerd_op: '2026-05-18'
 ---
 # Gebruiken van financiële-analyse-software voor ratio-set en sectorvergelijking
 

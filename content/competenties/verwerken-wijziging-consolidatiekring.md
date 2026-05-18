@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.4'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/verwerken-wijziging-consolidatiekring.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/verwerken-wijziging-consolidatiekring.json
+gegenereerd_op: '2026-05-18'
 ---
 # Verwerken van een wijziging in de consolidatiekring (inclusief step acquisition)
 

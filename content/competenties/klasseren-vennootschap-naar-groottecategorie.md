@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.2'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/klasseren-vennootschap-naar-groottecategorie.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/klasseren-vennootschap-naar-groottecategorie.json
+gegenereerd_op: '2026-05-18'
 ---
 # Klasseren van een vennootschap als micro, klein of groot volgens de groottecriteria
 

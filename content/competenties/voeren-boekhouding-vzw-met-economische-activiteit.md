@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.1'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/voeren-boekhouding-vzw-met-economische-activiteit.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/voeren-boekhouding-vzw-met-economische-activiteit.json
+gegenereerd_op: '2026-05-18'
 ---
 # Voeren van de boekhouding van een VZW met economische activiteit
 

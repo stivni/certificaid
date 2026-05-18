@@ -7,9 +7,9 @@ tags:
 programmaonderdelen:
 - '1.2'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/kwalificeren-jaarrekeningregime-vzw-stichting.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/kwalificeren-jaarrekeningregime-vzw-stichting.json
+gegenereerd_op: '2026-05-18'
 ---
 # Kwalificeren welk boekhoud- en jaarrekeningregime van toepassing is op een VZW, IVZW of stichting
 

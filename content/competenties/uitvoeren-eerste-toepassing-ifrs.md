@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.5'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/uitvoeren-eerste-toepassing-ifrs.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/uitvoeren-eerste-toepassing-ifrs.json
+gegenereerd_op: '2026-05-18'
 ---
 # Uitvoeren van de eerste toepassing van IFRS overeenkomstig IFRS 1
 

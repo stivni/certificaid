@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.5'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/bepalen-toepasselijkheid-ifrs-belgie.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/bepalen-toepasselijkheid-ifrs-belgie.json
+gegenereerd_op: '2026-05-18'
 ---
 # Bepalen of een onderneming IFRS moet of mag toepassen in België
 

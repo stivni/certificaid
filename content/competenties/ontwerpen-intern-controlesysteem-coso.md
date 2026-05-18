@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.7'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/ontwerpen-intern-controlesysteem-coso.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/ontwerpen-intern-controlesysteem-coso.json
+gegenereerd_op: '2026-05-18'
 ---
 # Ontwerpen van een intern-controlesysteem volgens de vijf COSO-componenten
 

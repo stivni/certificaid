@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.1'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/waarderen-en-boeken-voorraden-fifo-ggp.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/waarderen-en-boeken-voorraden-fifo-ggp.json
+gegenereerd_op: '2026-05-18'
 ---
 # Waarderen en boeken van voorraden volgens FIFO of gewogen gemiddelde
 

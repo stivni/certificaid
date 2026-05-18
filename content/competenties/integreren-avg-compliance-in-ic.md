@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.7'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/integreren-avg-compliance-in-ic.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/integreren-avg-compliance-in-ic.json
+gegenereerd_op: '2026-05-18'
 ---
 # Integreren van AVG-compliance in het intern-controlesysteem
 

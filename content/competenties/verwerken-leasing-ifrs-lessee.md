@@ -7,9 +7,9 @@ tags:
 programmaonderdelen:
 - '1.5'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/verwerken-leasing-ifrs-lessee.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/verwerken-leasing-ifrs-lessee.json
+gegenereerd_op: '2026-05-18'
 ---
 # Verwerken van een leaseovereenkomst onder IFRS 16 als lessee (right-of-use + lease-verplichting)
 

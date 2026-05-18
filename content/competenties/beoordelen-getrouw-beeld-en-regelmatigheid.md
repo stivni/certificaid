@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.6'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/beoordelen-getrouw-beeld-en-regelmatigheid.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/beoordelen-getrouw-beeld-en-regelmatigheid.json
+gegenereerd_op: '2026-05-18'
 ---
 # Beoordelen van regelmatigheid, waarachtigheid en getrouw beeld van de jaarrekening
 

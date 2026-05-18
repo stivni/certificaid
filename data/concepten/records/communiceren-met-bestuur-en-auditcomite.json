@@ -1,0 +1,192 @@
+{
+  "id": "communiceren-met-bestuur-en-auditcomite",
+  "naam": "Communiceren met audit-comité en bestuur over auditbevindingen",
+  "node_type": "competentie",
+  "schema_version": "1.5",
+  "titel": "Communiceren met audit-comité en bestuur over auditbevindingen",
+  "status": "voorgesteld",
+  "programmaonderdelen": [
+    1.6
+  ],
+  "voortkomend_uit": {
+    "taken": [
+      "1.6.taak.1"
+    ],
+    "kenniselementen": [
+      "1.6.III.E",
+      "1.6.IV.B"
+    ]
+  },
+  "gebaseerd_op_concepten": [
+    "met-governance-belaste-personen",
+    "opdrachtbrief-accountant",
+    "kwaliteitsbeheersing-opdrachtniveau",
+    "controleverslag-elementen",
+    "onafhankelijkheid-externe-accountant"
+  ],
+  "procedure_grondslag": {
+    "wettelijk_pct": 70,
+    "praktijk_pct": 30,
+    "motivering": "Communicatie met de met governance belaste personen is opgelegd door de ITAA KMO-controlenorm §131-§138 + art. 3:75 WVV (verslag) en — voor commissaris bij OOB — door art. 7:99 WVV (auditcomité). Inhoud en frequentie van mondelinge tussentijdse update is professioneel oordeel en praktijkbeleid van het kantoor."
+  },
+  "stappen": [
+    {
+      "nr": 1,
+      "titel": "Identificeren wie 'met governance belaste personen' zijn",
+      "wat": "Bepaal wie binnen de cliënt de toezichtsrol vervult — bestuursorgaan, audit-comité, raad van commissarissen of equivalent.",
+      "waarom": "Het bestuur (operationeel) verschilt vaak van de toezichthouder; communicatie moet de toezichthouder bereiken, niet alleen de boekhouder.",
+      "input": [
+        {
+          "artefact": "Statuten + governance-structuur",
+          "veld": "Wie houdt toezicht op management?",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Adressen-lijst 'governance-aansprakers'",
+          "veld": "Wie, rol, contact",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Lees de statuten en het organogram volgens [[met-governance-belaste-personen]] §identificatie.\n2. Bij KMO zonder audit-comité: bestuursorgaan = governance-orgaan.\n3. Bij OOB / grote vennootschap met audit-comité: het audit-comité is de primaire gesprekspartner (art. 7:99 WVV).\n4. Bij eenmansbestuur (bv. Meubelzaak Mertens BV — zaakvoerder Robert Vandenberghe): hij is zowel bestuurder als governance-orgaan; communicatie wordt schriftelijk afgehandeld om paper trail te garanderen.\n",
+      "grondslag": "[[met-governance-belaste-personen]] §identificatie, art. 7:99 WVV"
+    },
+    {
+      "nr": 2,
+      "titel": "Planningscommunicatie afleveren bij aanvang opdracht",
+      "wat": "Communiceer aan het governance-orgaan de scope, timing, sleutelrisico's, materialiteitsdrempels en kostenraming vóór de uitvoering.",
+      "waarom": "Transparantie bij start vermijdt verrassingen bij het verslag en creëert een gedeelde verwachtingshorizon.",
+      "input": [
+        {
+          "artefact": "Auditstrategie + werkprogramma uit [[opstellen-auditstrategie-en-werkprogramma]]",
+          "veld": "Scope, sleutelrisico's, timing",
+          "type": "document"
+        },
+        {
+          "artefact": "Materialiteitsbedrag",
+          "veld": "Bedrag + benchmark",
+          "type": "boekhoudkundig-bedrag"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Planningsmemo aan bestuur / audit-comité",
+          "veld": "Schriftelijk document",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Stuur of presenteer een planningsmemo aan het governance-orgaan (typisch een vergadering vroeg in het boekjaar of bij aanvang tussenfase).\n2. Inhoud: scope, deadlines, vermoede sleutelrisico's, gekozen materialiteit, teamopstelling, onafhankelijkheidsbevestiging.\n3. Bij beursgenoteerde: voor de start van de audit ook informatie geven over fees-mix tussen audit + niet-audit.\n4. Documenteer ontvangst (notulen, getekend ontvangstbewijs) in het dossier.\n",
+      "grondslag": "[[met-governance-belaste-personen]] §planningscommunicatie, ITAA KMO-controlenorm §131"
+    },
+    {
+      "nr": 3,
+      "titel": "Tussentijdse rapportering over significante bevindingen",
+      "wat": "Bij significante bevindingen tijdens veldwerk (fraude-vermoeden, materiële afwijking, going-concern-twijfel): communiceer onverwijld aan het governance-orgaan.",
+      "waarom": "Tussentijdse communicatie geeft het governance-orgaan kans tot correctie vóór het verslag — en is bovendien wettelijk verplicht in sommige situaties (bv. art. 3:69 WVV bij continuïteitsgevaar).",
+      "input": [
+        {
+          "artefact": "Lijst significante bevindingen",
+          "veld": "Onderwerp + impact + voorgestelde correctie",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Tussentijds rapport / brief aan governance",
+          "veld": "Schriftelijk + getekend",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Bij fraude-vermoeden of materiële afwijking: schrijf een vertrouwelijke nota aan voorzitter audit-comité of bestuur — niet alleen aan management.\n2. Bij continuïteitsgevaar dat het bestuur niet zelf aanpakt: art. 3:69 WVV-procedure starten (alarmbel bij commissaris).\n3. Bij vaststelling van zwakke IC: een 'management letter' opmaken met aanbevelingen — typisch na tussenfase of bij eindfase.\n4. Bewaar alle communicatie in dossier-sectie 'governance-communicatie'.\n",
+      "valkuilen": [
+        {
+          "advies": "Bij fraude-vermoeden communiceer rechtstreeks aan het hoogste governance-niveau, niet aan het management dat verdacht is.",
+          "vaak_fout": "Het volledig management informeren over een fraude-vermoeden waarbij één manager zelf verdacht is — risico op tippen-off.",
+          "grondslag": "[[met-governance-belaste-personen]] §kanaal-bij-fraude"
+        }
+      ],
+      "grondslag": "[[met-governance-belaste-personen]] §tussentijds, ITAA KMO-controlenorm §134"
+    },
+    {
+      "nr": 4,
+      "titel": "Eindrapportering vóór ondertekening verslag",
+      "wat": "Bespreek vóór ondertekening met het governance-orgaan: type oordeel, eventuele paragrafen, ongereinigde afwijkingen, zwakheden in IC, andere wettelijke vermeldingen.",
+      "waarom": "Het governance-orgaan moet kans krijgen om afwijkingen alsnog te corrigeren — anders volgt aangepast oordeel.",
+      "input": [
+        {
+          "artefact": "Concept-verslag uit [[opstellen-controleverslag-en-formuleren-oordeel]] stap 3",
+          "veld": "Oordeel + paragrafen",
+          "type": "document"
+        },
+        {
+          "artefact": "Summary of Audit Differences",
+          "veld": "Niet-gecorrigeerde afwijkingen",
+          "type": "boekhoudkundig-bedrag"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Notulen eindvergadering audit-comité / bestuur",
+          "veld": "Beslissingen + bevestigingen",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Plan een eindvergadering met het governance-orgaan (audit-comité bij OOB, anders bestuur).\n2. Bespreek systematisch: type oordeel + redenen, paragrafen, ongereinigde afwijkingen, zwakheden IC, sleutelaangelegenheden (KAM).\n3. Geef het governance-orgaan tijd te beslissen of het corrigeert.\n4. Documenteer eindbeslissingen in een schriftelijke nota + bevestiging dat onafhankelijkheid behouden bleef.\n",
+      "grondslag": "[[met-governance-belaste-personen]] §eindcommunicatie, art. 7:99 WVV §3"
+    },
+    {
+      "nr": 5,
+      "titel": "Onafhankelijkheid en niet-audit-diensten formeel bevestigen",
+      "wat": "Bij wettelijke controle: bevestig schriftelijk aan het audit-comité de onafhankelijkheid van het audit-team en geef overzicht van niet-audit-diensten die werden geleverd.",
+      "waarom": "Art. 7:99 §4 WVV vereist een onafhankelijkheidsbevestiging per controlecyclus. Onontbeerlijk voor het auditcomité om zijn toezichtsrol uit te oefenen.",
+      "input": [
+        {
+          "artefact": "Onafhankelijkheidsverklaring team Wolters & Partners CVBA",
+          "veld": "Bedreigingen + waarborgen",
+          "type": "document"
+        },
+        {
+          "artefact": "Cliëntenregister niet-audit-diensten",
+          "veld": "Per dienst: bedrag + bedreiging",
+          "type": "document"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Onafhankelijkheidsbevestigingsbrief aan audit-comité",
+          "veld": "Slotsom + fees-overzicht",
+          "type": "document"
+        }
+      ],
+      "hoe": "1. Verzamel verklaringen van alle teamleden volgens [[onafhankelijkheid-externe-accountant]] §teamverklaring.\n2. Lijst alle niet-audit-diensten gefactureerd in het boekjaar op (per dienst + bedrag).\n3. Toets fees-ratio (niet-audit / audit) tegen wettelijke limieten — typisch < 70 % bij OOB over drie jaar.\n4. Onderteken de bevestigingsbrief persoonlijk en geef aan het audit-comité vóór de eindvergadering.\n",
+      "grondslag": "[[onafhankelijkheid-externe-accountant]] §formele-bevestiging, art. 7:99 §4 WVV"
+    }
+  ],
+  "voorbeelden": [
+    {
+      "situatie": "Bij Rotex Roeselare NV vinden Sofie Janssens en haar team in december 2025 aanwijzingen van fictieve facturen ten belope van € 350.000 (boven materialiteit). Eén managementlid lijkt betrokken. Sofie overweegt hoe te communiceren.",
+      "conclusie": "Niet via management. Vertrouwelijke nota aan de voorzitter van het bestuur (of audit-comité indien aanwezig) — niet aan het verdachte managementlid. Plan met governance een gespecialiseerd forensisch onderzoek. Documenteer alle stappen in dossier-sectie 'governance-communicatie'.",
+      "grondslag": "[[met-governance-belaste-personen]] §kanaal-bij-fraude",
+      "redenering": "Tipping-off-risico is reëel bij fraude-vermoeden waarbij management betrokken kan zijn. Hoogste governance-niveau is correct kanaal — onafhankelijk van management."
+    },
+    {
+      "situatie": "Bij Meubelzaak Mertens BV (geen audit-comité, eenmansbestuur Robert Vandenberghe) eindigt de audit met € 18.000 niet-gecorrigeerde afwijking onder materialiteit. Sofie Janssens overweegt de scope van eindcommunicatie.",
+      "conclusie": "Schriftelijke 'closing letter' aan Robert Vandenberghe als enige bestuurder + governance-orgaan: type oordeel (goedkeurend), kleine afwijkingen onder materialiteit, vastgestelde IC-zwakte (geen scheiding tussen boeken en betalen), aanbevelingen, onafhankelijkheidsbevestiging.",
+      "grondslag": "[[met-governance-belaste-personen]] §eenmansbestuur",
+      "redenering": "Eenmansbestuur = governance + management samen, maar formaliteit blijft. Schriftelijke trail biedt latere verdedigbaarheid + helpt cliënt zijn IC te verbeteren."
+    }
+  ],
+  "_provenance": {
+    "voorgesteld_door": "competentie-destillatie-v2-po16-2026-05-17T08:00Z",
+    "voorgesteld_op": "2026-05-17T08:00:00Z",
+    "gecureerd_door": null,
+    "gecureerd_op": null
+  },
+  "linked_anchors": [
+    "1.6.taak.1",
+    "1.6.III.E",
+    "1.6.IV.B"
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+}

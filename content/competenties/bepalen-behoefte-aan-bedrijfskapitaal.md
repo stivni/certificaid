@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.9'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/bepalen-behoefte-aan-bedrijfskapitaal.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/bepalen-behoefte-aan-bedrijfskapitaal.json
+gegenereerd_op: '2026-05-18'
 ---
 # Bepalen van de behoefte aan bedrijfskapitaal en de nettokas-positie
 

@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.2'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/identificeren-rechtsbron-boekhoudrecht.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/identificeren-rechtsbron-boekhoudrecht.json
+gegenereerd_op: '2026-05-18'
 ---
 # Identificeren van de toepasselijke rechtsbron bij een vraag uit het boekhoudrecht
 

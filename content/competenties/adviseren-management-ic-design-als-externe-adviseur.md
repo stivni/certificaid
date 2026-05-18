@@ -6,9 +6,9 @@ tags:
 programmaonderdelen:
 - '1.7'
 status: voorgesteld
-schema_version: '1.1'
-gegenereerd_uit: data/concepten/competenties/adviseren-management-ic-design-als-externe-adviseur.yaml
-gegenereerd_op: '2026-05-17'
+schema_version: '1.5'
+gegenereerd_uit: data/concepten/records/adviseren-management-ic-design-als-externe-adviseur.json
+gegenereerd_op: '2026-05-18'
 ---
 # Adviseren van het management bij IC-design als externe adviseur
 
