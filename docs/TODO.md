@@ -178,8 +178,19 @@ Omkerings-labels per edge-type (ADR-010 §bidirectionele-edge-render). 6/7 edges
 - Validatie: hoofdstuk zonder taak-binding (en `type != voorbereiding`) → curator-warning. Taak zonder dekking in eind-dashboard → ✗ + warning. PO 100% voorbereiding → warning.
 - Glue-prompt v3 (§6.3): PO-niveau als input, werkwoorden in hoofdstuk-intro's moeten niveau respecteren (open richtlijn — zie §6.0).
 
-### 6.6 — Pilot-render PO 1.5 end-to-end
-Na 6.0–6.5: render PO 1.5 (waar centrale concept-laag-pass net op draait) volledig end-to-end. Validatie: kloppen wikilinks, klopt situering, kloppen bidirectionele edges, klopt taak-binding (oriëntatie + markers + dashboard), klopt examen-rubriek? Eventuele blocking issues terug naar betreffende sub-taak.
+### 6.6 — Pilot-render PO 1.5 end-to-end (✅ gedaan 2026-05-18)
+
+**Bevindingen**: pilot-rapport `/tmp/pilot-po-1.5-rapport.md`. Render-laag (§6.1, §6.2, §6.3, §6.5) is **gezond** — geen functionele bugs op PO 1.5. Eén render-fix doorgevoerd (kerninzichten-bullets newlines). Validator-helper geleverd als `tools/leermateriaal/validate_minicursus.py` (herhaalbaar voor alle PO's).
+
+**Twee follow-up acties die volgen uit de pilot**:
+
+1. **Curator-pass §6.5-output op 7 minicursussen**. PO 1.1, 1.2, 1.3, 1.6, 1.7, 1.8, 1.9 hebben ingevulde glue maar geen oriëntatie-sectie / niveau-callout / taak-markers / eind-dashboard (glue werd ingevuld vóór §6.5 in de template landde). Per PO kiezen: A. forceer-rerender + glue v3 opnieuw vullen, of B. handmatige injectie van §6.5-blocks zonder glue te raken.
+2. **Data-issues doorgeven aan concept-extractie-sessie**:
+   - 17 dangling fiche-wikilinks over 4 PO's (zie validator-output of pilot-rapport voor lijst)
+   - 15 leerpad-refs ontbrekend in `leerpaden/1.5.yaml` (records hernoemd of opgegaan; al deels in TODO doorlopend onderhoud §"Bron-genaamde records")
+   - 1 mogelijke synthese aan te maken: `ifrs-16-lessee-vs-lessor-overzicht`
+
+**Notitie**: PO 1.4 en 1.5 glue is verloren door pilot --forceer-renders. Beide PO's wachten op nieuwe Opus-subagent-pass met glue-v3-prompt — perfect moment om v3 voor het eerst te valideren.
 
 ### 6.7 — Diff-changelog vanaf v1.0 (ADR-010 §versionering-vervangen)
 - `tools/leermateriaal/build_changelog.py`: git-diff vs laatste publieke tag, filter content/concepten + competenties + studiemateriaal, classificeer inhoudelijk vs render-only, aggregeer per minicursus.
