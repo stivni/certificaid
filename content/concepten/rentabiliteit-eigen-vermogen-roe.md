@@ -15,23 +15,18 @@ linked_anchors:
 programmaonderdelen:
 - '1.3'
 - '1.9'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/rentabiliteit-eigen-vermogen-roe.json
 gegenereerd_op: '2026-05-18'
 ---
-# Rentabiliteit van het eigen vermogen (ROE) ⚖️
-
-> [!summary] Korte inhoud
-> Meten welk rendement de onderneming behaalt op het eigen vermogen — het kapitaal dat de aandeelhouders hebben ingezet of laten staan.
-
-> [!info] Behoort tot: [[doelstellingen-financiele-analyse]]
+# Rentabiliteit van het eigen vermogen (ROE) 🤖
 
 Meten welk rendement de onderneming behaalt op het eigen vermogen — het kapitaal dat de aandeelhouders hebben ingezet of laten staan. ROE staat voor 'Return On Equity'. Het kerngetal voor aandeelhouders die willen weten of hun ingezet kapitaal voldoende oplevert.
 
-_Bron: CBN-2011/14 §rentabiliteit van het eigen vermogen: voorbeeldmethoden_
+> [!info] Behoort tot: [[doelstellingen-financiele-analyse]]
 
 
 ## Bouwstenen

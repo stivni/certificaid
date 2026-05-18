@@ -30,6 +30,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Getrouw beeld van de jaarrekening ⚖️
 
+Externe gebruikers (aandeelhouders, kredietverleners, fiscus, werknemers) moeten op basis van de jaarrekening correcte beslissingen kunnen nemen. Het getrouwe beeld is geen detailregel maar het inhoudelijke richtsnoer waaraan alle waarderings- en presentatieregels worden afgemeten.
+
 > [!summary] Korte inhoud
 > De jaarrekening moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de vennootschap.
 

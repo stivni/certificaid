@@ -23,12 +23,7 @@ gegenereerd_op: '2026-05-18'
 ---
 # Sectorvergelijking (benchmarking) 🤖
 
-> [!summary] Korte inhoud
-> De ratio's en kengetallen van een onderneming plaatsen tegenover de mediaan of het gemiddelde van haar sector.
-
 De ratio's en kengetallen van een onderneming plaatsen tegenover de mediaan of het gemiddelde van haar sector. Een ratio die in absolute zin lijkt zwak (of sterk), kan in sectorcontext normaal zijn. Sectorvergelijking maakt de analyse interpreteerbaar.
-
-_Bron: Algemene financial-analysis-doctrine_
 
 
 ## Bouwstenen

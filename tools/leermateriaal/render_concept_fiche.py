@@ -122,8 +122,17 @@ def render_record(record: dict) -> str:
     )
 
 
-def render_naar_bestand(record: dict, output_dir: Path, droog: bool = False) -> Path:
+def is_synthese_record(record: dict) -> bool:
+    """True voor records met node_type='synthese' (ADR-010 §implicatie-2)."""
+    return record.get("node_type") == "synthese"
+
+
+def render_naar_bestand(record: dict, output_dir: Path, droog: bool = False) -> Path | None:
     """Render een record en schrijf naar content/concepten/<id>.md.
+
+    Synthese-records (node_type='synthese') krijgen géén losse fiche (ADR-010
+    §implicatie-2): ze leven uitsluitend ingebed in een minicursus.
+    Returnt None voor synthese-records; bestaande fiche wordt verwijderd.
 
     Args:
         record: concept-record dict
@@ -131,10 +140,15 @@ def render_naar_bestand(record: dict, output_dir: Path, droog: bool = False) -> 
         droog: als True, schrijf niets weg
 
     Returns:
-        pad van het output-bestand
+        pad van het output-bestand, of None voor synthese-records
     """
     record_id = record.get("id", "onbekend")
     output_pad = output_dir / f"{record_id}.md"
+
+    if is_synthese_record(record):
+        if not droog and output_pad.exists():
+            output_pad.unlink()
+        return None
 
     inhoud = render_record(record)
 
@@ -189,19 +203,23 @@ def main() -> None:
 
     # Renderen
     verwerkt = 0
+    geskipt_synthese = 0
     output_paden: list[Path] = []
 
     for record in te_renderen:
         record_id = record.get("id", "?")
         try:
             pad = render_naar_bestand(record, output_dir, droog=args.droog)
-            output_paden.append(pad)
+            if pad is None:
+                geskipt_synthese += 1
+            else:
+                output_paden.append(pad)
             verwerkt += 1
         except Exception as fout:
             print(f"  [FOUT] {record_id}: {fout}", file=sys.stderr)
 
     # Rapport
-    print(f"[render_concept_fiche] {verwerkt} records verwerkt.")
+    print(f"[render_concept_fiche] {verwerkt} records verwerkt ({geskipt_synthese} synthese-skips).")
     if args.droog:
         print("  [droog] Geen bestanden weggeschreven.")
     else:

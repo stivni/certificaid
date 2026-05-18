@@ -9,23 +9,18 @@ linked_anchors:
 - 1.6.II.B
 programmaonderdelen:
 - '1.6'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/gegevensgerichte-werkzaamheden.json
 gegenereerd_op: '2026-05-18'
 ---
-# Gegevensgerichte werkzaamheden (substantive procedures) ⚖️
-
-> [!summary] Korte inhoud
-> Gegevensgerichte werkzaamheden zijn controlewerkzaamheden die zijn opgezet om afwijkingen van materieel belang op het niveau van beweringen te ontdekken.
-
-> [!info] Behoort tot: [[assurance-informatie]]
+# Gegevensgerichte werkzaamheden (substantive procedures) 🤖
 
 Gegevensgerichte werkzaamheden zijn controlewerkzaamheden die zijn opgezet om afwijkingen van materieel belang op het niveau van beweringen te ontdekken. Twee soorten: detailcontroles (transactiestromen, rekeningsaldi, toelichtingen) en gegevensgerichte cijferanalyses.
 
-_Bron: ITAA KMO-controlenorm Bijlage 1 + §85_
+> [!info] Behoort tot: [[assurance-informatie]]
 
 
 ## Bouwstenen
@@ -66,5 +61,5 @@ Sofie Janssens test de waardering van de top-20 voorraadposten van Rotex Roesela
 ## Bronnen
 
 [^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4`
-[^2]: `ITAA-norm-kmo-controlenorm__sec_gegevensgerichte-werkzaamheden6`
-[^3]: `ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s`
+[^2]: `ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s`
+[^3]: `ITAA-norm-kmo-controlenorm__sec_gegevensgerichte-werkzaamheden6`

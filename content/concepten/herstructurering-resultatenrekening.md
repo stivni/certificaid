@@ -19,12 +19,7 @@ gegenereerd_op: '2026-05-18'
 ---
 # Herstructurering van de resultatenrekening 🤖
 
-> [!summary] Korte inhoud
-> De resultatenrekening wordt herwerkt zodat ze leesbaar wordt vanuit economisch perspectief: opbrengsten en kosten worden gegroepeerd in bedrijfs-, financiële, uitzonderlijke en belastingblokken; binnen het bedrijfsblok wordt de toegevoegde waarde geïsoleerd.
-
 De resultatenrekening wordt herwerkt zodat ze leesbaar wordt vanuit economisch perspectief: opbrengsten en kosten worden gegroepeerd in bedrijfs-, financiële, uitzonderlijke en belastingblokken; binnen het bedrijfsblok wordt de toegevoegde waarde geïsoleerd. Voor verkort/microschema's vraagt dat meer werk omdat sommige rubrieken samengevoegd zijn.
-
-_Bron: Financiële analyse — NBB-balansanalyse_
 
 
 ## Bouwstenen
@@ -79,5 +74,5 @@ _Grondslag: KB WVV — verkort en microschema_
 
 ## Bronnen
 
-[^1]: `anchor-1.9.III.B`
-[^2]: `KB-WVV-schema-RR`
+[^1]: `KB-WVV-schema-RR`
+[^2]: `anchor-1.9.III.B`

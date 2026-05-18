@@ -25,12 +25,7 @@ gegenereerd_op: '2026-05-18'
 ---
 # Verticale analyse (percentageanalyse, common-size) 🤖
 
-> [!summary] Korte inhoud
-> De samenstelling van balans en resultatenrekening uitdrukken in procenten van een gemeenschappelijke noemer (balanstotaal voor de balans, omzet voor de resultatenrekening).
-
 De samenstelling van balans en resultatenrekening uitdrukken in procenten van een gemeenschappelijke noemer (balanstotaal voor de balans, omzet voor de resultatenrekening). Zo wordt vergelijking tussen ondernemingen van verschillende grootte mogelijk.
-
-_Bron: Algemene financial-analysis-doctrine_
 
 
 ## Bouwstenen

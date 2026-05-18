@@ -18,14 +18,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Voorbepaalde kosten (standaardkostencalculatie) 🤖
 
-> [!summary] Korte inhoud
-> Voorbepaalde kosten (standaardkosten) zijn vooraf vastgelegde normbedragen voor materiaal, arbeid en overhead per eenheid product.
-
-> [!info] Behoort tot: [[costing-methodes-vergelijking]]
-
 Voorbepaalde kosten (standaardkosten) zijn vooraf vastgelegde normbedragen voor materiaal, arbeid en overhead per eenheid product. Ze worden gebruikt om de werkelijke kosten meteen tegen een norm af te zetten en zo afwijkingen (verschillen) snel te detecteren. Dit ondersteunt budgetbeheer, kostencontrole en prijszetting.
 
-_Bron: Management accounting — bron-gap_
+> [!info] Behoort tot: [[costing-methodes-vergelijking]]
 
 
 ## Bouwstenen

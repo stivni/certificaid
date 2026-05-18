@@ -22,14 +22,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Current ratio (liquiditeit in ruime zin) 🤖
 
-> [!summary] Korte inhoud
-> Meten of de vennootschap genoeg vlottende activa heeft tegenover haar schulden op ten hoogste een jaar.
-
-> [!info] Behoort tot: [[liquiditeitsratio]]
-
 Meten of de vennootschap genoeg vlottende activa heeft tegenover haar schulden op ten hoogste een jaar. De current ratio is de breedst gebruikte liquiditeitsratio in ruime zin.
 
-_Bron: Algemene financial-analysis-doctrine_
+> [!info] Behoort tot: [[liquiditeitsratio]]
 
 
 ## Bouwstenen

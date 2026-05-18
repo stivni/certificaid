@@ -23,6 +23,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Dubbel boekhouden ⚖️
 
+Elke economische verrichting in twee gelijke kanten registreren (debet = credit), zodat de boekhouding op elk moment in balans is en de oorsprong en bestemming van elke euro traceerbaar zijn.
+
 > [!summary] Korte inhoud
 > Een boekhoudtechniek waarin elke verrichting wordt geboekt in **minstens twee rekeningen**: een debet- en een creditzijde, voor exact hetzelfde totaalbedrag.
 

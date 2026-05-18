@@ -22,14 +22,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Debt-equity ratio (schuldgraad) 🤖
 
-> [!summary] Korte inhoud
-> Direct meten hoe groot de vreemde-vermogen-financiering is tegenover het eigen vermogen.
-
-> [!info] Behoort tot: [[doelstellingen-financiele-analyse]]
-
 Direct meten hoe groot de vreemde-vermogen-financiering is tegenover het eigen vermogen. Toont de hefboom: 1,5 betekent dat er € 1,50 vreemd vermogen tegenover elke € 1 eigen vermogen staat.
 
-_Bron: Algemene financial-analysis-doctrine_
+> [!info] Behoort tot: [[doelstellingen-financiele-analyse]]
 
 
 ## Bouwstenen

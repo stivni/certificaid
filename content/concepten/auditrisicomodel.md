@@ -13,21 +13,16 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 - '1.7'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/auditrisicomodel.json
 gegenereerd_op: '2026-05-18'
 ---
-# Auditrisicomodel (controlerisico) ⚖️
-
-> [!summary] Korte inhoud
-> Het auditrisicomodel structureert de risico-aanpak van de auditor.
+# Auditrisicomodel (controlerisico) 🤖
 
 Het auditrisicomodel structureert de risico-aanpak van de auditor. Het controlerisico — het risico dat de auditor een verkeerd oordeel geeft terwijl de financiële overzichten een materiële afwijking bevatten — wordt opgesplitst in drie componenten: inherent risico, intern beheersingsrisico en ontdekkingsrisico. De auditor stuurt het ontdekkingsrisico (= hoeveel werk hij doet) op basis van zijn inschatting van de eerste twee.
-
-_Bron: ITAA KMO-controlenorm Bijlage 1 (Controlerisico)_
 
 
 ## Bouwstenen

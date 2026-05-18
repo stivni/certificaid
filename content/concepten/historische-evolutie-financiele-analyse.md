@@ -23,12 +23,7 @@ gegenereerd_op: '2026-05-18'
 ---
 # Historische evolutie in financiële analyse 🤖
 
-> [!summary] Korte inhoud
-> Een ratio of kengetal pas interpreteren in het licht van de eigen historiek over meerdere boekjaren (typisch 3 tot 5).
-
 Een ratio of kengetal pas interpreteren in het licht van de eigen historiek over meerdere boekjaren (typisch 3 tot 5). Trends zijn vaak informatiever dan momentopnames — een verslechterende solvabiliteit is alarmerender dan een statisch lage solvabiliteit.
-
-_Bron: Algemene financial-analysis-doctrine_
 
 
 ## Bouwstenen

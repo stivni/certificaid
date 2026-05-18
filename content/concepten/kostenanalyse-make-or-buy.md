@@ -18,12 +18,7 @@ gegenereerd_op: '2026-05-18'
 ---
 # Make-or-buy-analyse 🤖
 
-> [!summary] Korte inhoud
-> De make-or-buy-analyse vergelijkt de kost van zelf produceren met de kost van uitbesteden, gericht op de relevante kosten (vermijdbare kosten bij uitbesteden vs. inkoopprijs + transactiekost).
-
 De make-or-buy-analyse vergelijkt de kost van zelf produceren met de kost van uitbesteden, gericht op de relevante kosten (vermijdbare kosten bij uitbesteden vs. inkoopprijs + transactiekost). Sunk costs en niet-vermijdbare overhead doen niet ter zake.
-
-_Bron: Management accounting — bron-gap_
 
 
 ## Bouwstenen

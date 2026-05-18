@@ -11,21 +11,16 @@ linked_anchors:
 - 1.5.V
 programmaonderdelen:
 - '1.5'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/bijzondere-waardevermindering-ifrs.json
 gegenereerd_op: '2026-05-18'
 ---
-# Bijzondere waardevermindering onder IFRS (IAS 36) ⚖️
-
-> [!summary] Korte inhoud
-> IAS 36 — Bijzondere waardevermindering van activa zorgt ervoor dat een entiteit haar activa niet boven hun **realiseerbare waarde** (recoverable amount) waardeert.
+# Bijzondere waardevermindering onder IFRS (IAS 36) 🤖
 
 IAS 36 — Bijzondere waardevermindering van activa zorgt ervoor dat een entiteit haar activa niet boven hun **realiseerbare waarde** (recoverable amount) waardeert. Op elke balansdatum: beoordeel of er **aanwijzingen** zijn voor waardevermindering. Voor goodwill, immateriële activa met onbepaalde gebruiksduur en nog-niet-beschikbare-voor-gebruik immateriële activa: jaarlijkse test **verplicht**, ongeacht aanwijzingen. Een bijzondere waardevermindering (impairment) treedt op wanneer de **boekwaarde** de **realiseerbare waarde** overschrijdt. De realiseerbare waarde = de **hoogste** van: (a) **reële waarde minus verkoopkosten** (fair value less costs of disposal); of (b) **bedrijfswaarde** (value in use, contante waarde van toekomstige kasstromen uit voortgezet gebruik + vervreemding). Impairment-verlies in winst of verlies (tenzij activa onder herwaarderingsmodel — dan eerst herwaarderingsreserve aanspreken). Voor goodwill: nooit terugneembaar. Voor andere activa: terugneembaar bij verbeterde omstandigheden, maximum tot oorspronkelijke kostprijs minus normale afschrijvingen.
-
-_Bron: IAS 36 algemeen_
 
 
 ## Bouwstenen
@@ -255,6 +250,6 @@ _Symmetrische tegenboeking. Maximum begrensd door hypothetische-boekwaarde-zonde
 
 ## Bronnen
 
-[^1]: `IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname`
-[^2]: `IAS-38-immateriele-activa__sec_realiseerbaarheid-van-de-boekwaarde-bijzondere-waardeverminderingsverliezen`
-[^3]: `KB-WVV-2019__art_3_29`
+[^1]: `IAS-38-immateriele-activa__sec_realiseerbaarheid-van-de-boekwaarde-bijzondere-waardeverminderingsverliezen`
+[^2]: `KB-WVV-2019__art_3_29`
+[^3]: `IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname`

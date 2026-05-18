@@ -9,23 +9,18 @@ linked_anchors:
 - 1.8.IV.C
 programmaonderdelen:
 - '1.8'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/registratiesysteem-waarderingsneutraal.json
 gegenereerd_op: '2026-05-18'
 ---
-# Waarderingsneutraal registratiesysteem ⚖️
-
-> [!summary] Korte inhoud
-> Een waarderingsneutraal registratiesysteem vermijdt waarderingsconflicten door belangrijke beslissingen (afschrijvingen, waardeverminderingen, voorraadwaardering) centraal te coördineren en consistent toe te passen tussen algemene en analytische boekhouding.
-
-> [!info] Behoort tot: [[rekeningenstelsel-analytisch]]
+# Waarderingsneutraal registratiesysteem 🤖
 
 Een waarderingsneutraal registratiesysteem vermijdt waarderingsconflicten door belangrijke beslissingen (afschrijvingen, waardeverminderingen, voorraadwaardering) centraal te coördineren en consistent toe te passen tussen algemene en analytische boekhouding. CBN 3/3 beschrijft hiervoor vijf principes — toepasbaar zowel voor joint-ventures als binnen een analytische boekhouding-systeem.
 
-_Bron: CBN-advies 3/3 — Methode die waarderingsneutraal is (5 principes)_
+> [!info] Behoort tot: [[rekeningenstelsel-analytisch]]
 
 
 ## Bouwstenen

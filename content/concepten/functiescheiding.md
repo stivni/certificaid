@@ -19,12 +19,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Functiescheiding (segregation of duties) 🤖
 
-> [!summary] Korte inhoud
-> Functiescheiding is het verdelen van vier kritische taken — autoriseren, uitvoeren, bewaren en registreren — over verschillende personen zodat geen enkele individu een transactie van begin tot einde kan controleren.
+Functiescheiding is het verdelen van vier kritische taken — autoriseren, uitvoeren, bewaren en registreren — over verschillende personen zodat geen enkele individu een transactie van begin tot einde kan controleren. Doel: fouten ontdekken door natuurlijke kruiscontrole en fraude bemoeilijken door samenspanning nodig te maken.
 
 > [!info] Behoort tot: [[interne-controle]]
-
-Functiescheiding is het verdelen van vier kritische taken — autoriseren, uitvoeren, bewaren en registreren — over verschillende personen zodat geen enkele individu een transactie van begin tot einde kan controleren. Doel: fouten ontdekken door natuurlijke kruiscontrole en fraude bemoeilijken door samenspanning nodig te maken.
 
 
 ## Bouwstenen

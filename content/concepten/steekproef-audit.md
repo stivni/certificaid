@@ -8,23 +8,18 @@ linked_anchors:
 - 1.6.II.C
 programmaonderdelen:
 - '1.6'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/steekproef-audit.json
 gegenereerd_op: '2026-05-18'
 ---
-# Steekproef bij een audit (audit sampling) ⚖️
-
-> [!summary] Korte inhoud
-> Een steekproef bij een audit is het verrichten van controlewerkzaamheden op minder dan 100 % van de elementen binnen een relevante populatie, op zodanige wijze dat alle elementen geselecteerd kunnen worden.
-
-> [!info] Behoort tot: [[ontdekkingsrisico]]
+# Steekproef bij een audit (audit sampling) 🤖
 
 Een steekproef bij een audit is het verrichten van controlewerkzaamheden op minder dan 100 % van de elementen binnen een relevante populatie, op zodanige wijze dat alle elementen geselecteerd kunnen worden. Het doel: een redelijke basis krijgen voor conclusies over de hele populatie zonder alles te testen.
 
-_Bron: ITAA KMO-controlenorm Bijlage 1 (Steekproef)_
+> [!info] Behoort tot: [[ontdekkingsrisico]]
 
 
 ## In de praktijk
@@ -41,5 +36,5 @@ Rotex Roeselare NV heeft 4.500 aankoopfacturen 2025. Sofie Janssens kan onmogeli
 
 ## Bronnen
 
-[^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2`
-[^2]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4`
+[^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4`
+[^2]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2`

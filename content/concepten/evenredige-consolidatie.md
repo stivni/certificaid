@@ -11,23 +11,18 @@ linked_anchors:
 - 1.4.taak.1
 programmaonderdelen:
 - '1.4'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/evenredige-consolidatie.json
 gegenereerd_op: '2026-05-18'
 ---
-# Evenredige consolidatie (proportionele consolidatie) ⚖️
-
-> [!summary] Korte inhoud
-> Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke gezamenlijk controlerende moeder op naar rato van haar aandeel in het kapitaal (of i….
-
-> [!info] Behoort tot: [[consolidatiemethodes-vergelijking]]
+# Evenredige consolidatie (proportionele consolidatie) 🤖
 
 Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke gezamenlijk controlerende moeder op naar rato van haar aandeel in het kapitaal (of in de inbreng bij vennootschappen zonder kapitaal). Alleen jouw pro-rata stuk van de bezittingen, schulden, opbrengsten en kosten komt erin — geen afzonderlijke 'belangen van derden' nodig, want het deel buiten de groep wordt simpelweg niet opgenomen.
 
-_Bron: KB WVV art. 3:124, 2° jo. art. 3:140_
+> [!info] Behoort tot: [[consolidatiemethodes-vergelijking]]
 
 
 ## Bouwstenen
@@ -289,11 +284,11 @@ Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Flo
 
 ## Bronnen
 
-[^1]: `KB-WVV-2019__art_3_111`
-[^2]: `KB-WVV-2019__art_3_110`
-[^3]: `CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen`
-[^4]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking`
-[^5]: `KB-WVV-2019__art_3_108`
-[^6]: `KB-WVV-2019__art_3_106`
-[^7]: `CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_voorbeeld-2`
-[^8]: `KB-WVV-2019__art_3_98`
+[^1]: `CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen`
+[^2]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking`
+[^3]: `KB-WVV-2019__art_3_111`
+[^4]: `KB-WVV-2019__art_3_108`
+[^5]: `KB-WVV-2019__art_3_106`
+[^6]: `CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_voorbeeld-2`
+[^7]: `KB-WVV-2019__art_3_98`
+[^8]: `KB-WVV-2019__art_3_110`

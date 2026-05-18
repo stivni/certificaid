@@ -18,14 +18,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Break-even-analyse 🤖
 
-> [!summary] Korte inhoud
-> De break-even-analyse (kosten-volume-winst-analyse, CVP) berekent welke omzet of welk volume nodig is om alle vaste kosten te dekken — het punt waarop de onderneming geen verlies en geen winst maakt.
-
-> [!info] Behoort tot: [[direct-costing]]
-
 De break-even-analyse (kosten-volume-winst-analyse, CVP) berekent welke omzet of welk volume nodig is om alle vaste kosten te dekken — het punt waarop de onderneming geen verlies en geen winst maakt. Aan dat volume betekent elke extra eenheid winst; eronder wordt verlies geleden.
 
-_Bron: Management accounting — bron-gap_
+> [!info] Behoort tot: [[direct-costing]]
 
 
 ## Bouwstenen

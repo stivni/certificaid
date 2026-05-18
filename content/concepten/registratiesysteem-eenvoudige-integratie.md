@@ -9,23 +9,18 @@ linked_anchors:
 - 1.8.IV
 programmaonderdelen:
 - '1.8'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/registratiesysteem-eenvoudige-integratie.json
 gegenereerd_op: '2026-05-18'
 ---
-# Eenvoudige integratie (registratiesysteem) ⚖️
-
-> [!summary] Korte inhoud
-> Bij eenvoudige integratie neemt elke deelnemer of elke onderneming in eigen boekhouding rechtstreeks zijn aandeel in de kosten en opbrengsten op — zonder aparte 'tussen-boekhouding'.
-
-> [!info] Behoort tot: [[rekeningenstelsel-analytisch]]
+# Eenvoudige integratie (registratiesysteem) 🤖
 
 Bij eenvoudige integratie neemt elke deelnemer of elke onderneming in eigen boekhouding rechtstreeks zijn aandeel in de kosten en opbrengsten op — zonder aparte 'tussen-boekhouding'. In analytische context betekent het: kosten en opbrengsten worden meteen aan de kostendrager toegerekend zonder extra registratielaag.
 
-_Bron: CBN-advies 3/3 — De eenvoudige integratie van kosten en opbrengsten (joint-venture-context, analoog gebruikt voor registratiesystemen)_
+> [!info] Behoort tot: [[rekeningenstelsel-analytisch]]
 
 
 ## Bouwstenen

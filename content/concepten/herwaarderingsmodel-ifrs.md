@@ -9,23 +9,18 @@ linked_anchors:
 - 1.5.V
 programmaonderdelen:
 - '1.5'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/herwaarderingsmodel-ifrs.json
 gegenereerd_op: '2026-05-18'
 ---
-# Herwaarderingsmodel onder IFRS (IAS 16) ⚖️
-
-> [!summary] Korte inhoud
-> Het herwaarderingsmodel (IAS 16 alinea 31) waardeert materiële vaste activa **na eerste opname tegen geherwaardeerde waarde**: de reële waarde op de datum van herwaardering, verminderd met latere geaccumuleerde afschrijvingen en bijzondere waardeverminderingsverliezen.
-
-> [!info] Behoort tot: [[materiele-vaste-activa-ifrs]] · Specialisatie van: [[herwaarderingsmeerwaarden]]
+# Herwaarderingsmodel onder IFRS (IAS 16) 🤖
 
 Het herwaarderingsmodel (IAS 16 alinea 31) waardeert materiële vaste activa **na eerste opname tegen geherwaardeerde waarde**: de reële waarde op de datum van herwaardering, verminderd met latere geaccumuleerde afschrijvingen en bijzondere waardeverminderingsverliezen. Doel: gebruikers van de jaarrekening een actueler beeld geven van de werkelijke economische waarde van het bedrijfskapitaal, in plaats van vast te houden aan historische kostprijs die snel verouderd kan zijn. Het model is een **alternatief** voor het kostprijsmodel; een entiteit kiest per categorie materiële vaste activa welk van beide ze toepast.
 
-_Bron: IAS 16 alinea 31_
+> [!info] Behoort tot: [[materiele-vaste-activa-ifrs]] · Specialisatie van: [[herwaarderingsmeerwaarden]]
 
 
 ## Bouwstenen

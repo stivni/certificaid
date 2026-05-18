@@ -14,23 +14,18 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 - '1.7'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/toetsing-interne-beheersing.json
 gegenereerd_op: '2026-05-18'
 ---
-# Toetsing van interne beheersing (test of controls) ⚖️
-
-> [!summary] Korte inhoud
-> Een toetsing van interne beheersing is een controlemaatregel die de auditor opzet om te evalueren of de interne beheersing van de cliënt werkt zoals beoogd — d.w.z. of zij afwijkingen op het niveau van beweringen voorkomt of tijdig ontdekt en corrigeert.
-
-> [!info] Behoort tot: [[assurance-informatie]]
+# Toetsing van interne beheersing (test of controls) 🤖
 
 Een toetsing van interne beheersing is een controlemaatregel die de auditor opzet om te evalueren of de interne beheersing van de cliënt werkt zoals beoogd — d.w.z. of zij afwijkingen op het niveau van beweringen voorkomt of tijdig ontdekt en corrigeert.
 
-_Bron: ITAA KMO-controlenorm Bijlage 1 + §97-§98_
+> [!info] Behoort tot: [[assurance-informatie]]
 
 
 ## Bouwstenen
@@ -73,5 +68,5 @@ Sofie Janssens wil bij Rotex Roeselare NV steunen op de IC rond aankopen. Zij te
 
 ## Bronnen
 
-[^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4`
-[^2]: `ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen`
+[^1]: `ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen`
+[^2]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4`

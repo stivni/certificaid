@@ -180,6 +180,28 @@ def _laad_disk_ids() -> set[str]:
     }
 
 
+def _laad_synthese_ids() -> set[str]:
+    """Lees alle ids van records met node_type='synthese'.
+
+    ADR-010 §implicatie-2: synthese-records krijgen géén losse content-fiche
+    (ze leven uitsluitend ingebed in een minicursus). Audit-parity moet hen
+    daarom niet als content_ontbreekt rapporteren.
+    """
+    if not RECORDS_DIR.exists():
+        return set()
+    synthese_ids: set[str] = set()
+    for pad in RECORDS_DIR.glob("*.json"):
+        if pad.name.startswith("_"):
+            continue
+        try:
+            record = json.loads(pad.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        if record.get("node_type") == "synthese":
+            synthese_ids.add(pad.stem)
+    return synthese_ids
+
+
 def _laad_content_ids(content_dir: Optional[Path] = None) -> set[str]:
     """
     Lees alle concept-ids waarvoor een markdown-fiche bestaat in content/concepten/.
@@ -942,16 +964,23 @@ def audit_parity(
     - disk ↔ RAG: ghosts (in RAG, niet op disk) + missing (op disk, niet in RAG)
     - disk ↔ content: content_ontbreekt (op disk, geen markdown) + content_extra (markdown, niet op disk)
 
+    Synthese-uitsluiting (ADR-010 §implicatie-2): records met node_type='synthese'
+    krijgen géén losse content-fiche. Ze worden uit `content_ontbreekt` gefilterd
+    en apart gerapporteerd via `synthese_zonder_fiche` (verwacht gedrag, geen drift).
+
     Returns:
         {
           'disk_ids': set[str],
           'rag_ids': set[str],
-          'content_ids': set[str],         # ids met bestaande markdown-fiche
-          'ghosts': list[str],             # in RAG, niet op disk
-          'missing': list[str],            # op disk, niet in RAG
-          'content_ontbreekt': list[str],  # op disk, niet als markdown-fiche
-          'content_extra': list[str],      # markdown-fiche bestaat, niet op disk
-          'ok': bool,                      # True alleen als alle lijsten leeg zijn
+          'content_ids': set[str],            # ids met bestaande markdown-fiche
+          'synthese_ids': set[str],           # disk-records met node_type='synthese'
+          'ghosts': list[str],                # in RAG, niet op disk
+          'missing': list[str],               # op disk, niet in RAG
+          'content_ontbreekt': list[str],     # op disk, niet als markdown-fiche (synthese uitgesloten)
+          'content_extra': list[str],         # markdown-fiche bestaat, niet op disk
+          'synthese_zonder_fiche': list[str], # synthese-records zonder fiche (verwacht)
+          'synthese_met_fiche': list[str],    # synthese-records mét fiche (DRIFT — ADR-010 schending)
+          'ok': bool,                         # True alleen als alle drift-lijsten leeg zijn
         }
 
     Veilig om vaak te draaien — geen mutaties.
@@ -960,27 +989,35 @@ def audit_parity(
     disk_ids = _laad_disk_ids()
     rag_ids = _laad_rag_ids(resolved_chroma)
     content_ids = _laad_content_ids(content_dir)
+    synthese_ids = _laad_synthese_ids()
 
     ghosts = sorted(rag_ids - disk_ids)
     missing = sorted(disk_ids - rag_ids)
-    content_ontbreekt = sorted(disk_ids - content_ids)
+    # Synthese uitsluiten van content_ontbreekt (zij krijgen géén fiche, ADR-010)
+    content_ontbreekt = sorted((disk_ids - content_ids) - synthese_ids)
     content_extra = sorted(content_ids - disk_ids)
+    synthese_zonder_fiche = sorted(synthese_ids - content_ids)
+    synthese_met_fiche = sorted(synthese_ids & content_ids)
 
     alles_ok = (
         len(ghosts) == 0
         and len(missing) == 0
         and len(content_ontbreekt) == 0
         and len(content_extra) == 0
+        and len(synthese_met_fiche) == 0
     )
 
     return {
         "disk_ids": disk_ids,
         "rag_ids": rag_ids,
         "content_ids": content_ids,
+        "synthese_ids": synthese_ids,
         "ghosts": ghosts,
         "missing": missing,
         "content_ontbreekt": content_ontbreekt,
         "content_extra": content_extra,
+        "synthese_zonder_fiche": synthese_zonder_fiche,
+        "synthese_met_fiche": synthese_met_fiche,
         "ok": alles_ok,
     }
 
@@ -999,9 +1036,12 @@ def _cli_audit(chroma_path: Optional[str], fix: bool) -> int:
     missing = parity["missing"]
     content_ontbreekt = parity["content_ontbreekt"]
     content_extra = parity["content_extra"]
+    synthese_met_fiche = parity["synthese_met_fiche"]
+    synthese_count = len(parity["synthese_ids"])
 
     print(
-        f"[audit] disk: {len(parity['disk_ids'])} records, "
+        f"[audit] disk: {len(parity['disk_ids'])} records "
+        f"({synthese_count} synthese), "
         f"RAG: {len(parity['rag_ids'])} records, "
         f"content: {len(parity['content_ids'])} fiches"
     )
@@ -1029,6 +1069,14 @@ def _cli_audit(chroma_path: Optional[str], fix: bool) -> int:
         print(f"[audit] {len(content_extra)} extra markdown-fiche(s) zonder record:")
         for concept_id in content_extra:
             print(f"  CONTENT_EXTRA  {concept_id}")
+
+    if synthese_met_fiche:
+        print(
+            f"[audit] {len(synthese_met_fiche)} synthese-record(s) mét fiche "
+            "(ADR-010 §implicatie-2 schending — synthese hoort géén losse fiche te hebben):"
+        )
+        for concept_id in synthese_met_fiche:
+            print(f"  SYNTHESE_MET_FICHE  {concept_id}")
 
     if not fix:
         print(
@@ -1079,6 +1127,15 @@ def _cli_audit(chroma_path: Optional[str], fix: bool) -> int:
             print(f"  [fix] extra content-fiche verwijderd: {concept_id}")
         except Exception as exc:
             print(f"  [fix] extra content-fiche NIET verwijderd ({concept_id}): {exc}", file=sys.stderr)
+            herstel_fouten += 1
+
+    # Verwijder synthese-fiches (ADR-010 §implicatie-2 — synthese krijgt géén losse fiche)
+    for concept_id in synthese_met_fiche:
+        try:
+            _verwijder_concept_fiche(concept_id)
+            print(f"  [fix] synthese-fiche verwijderd: {concept_id}")
+        except Exception as exc:
+            print(f"  [fix] synthese-fiche NIET verwijderd ({concept_id}): {exc}", file=sys.stderr)
             herstel_fouten += 1
 
     totaal_items = len(ghosts) + len(missing) + len(content_ontbreekt) + len(content_extra)

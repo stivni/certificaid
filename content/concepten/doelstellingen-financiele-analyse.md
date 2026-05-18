@@ -22,6 +22,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Doelstellingen van financiële analyse 🤖
 
+De analist transformeert de cijfers in een onderbouwd oordeel over de financiële gezondheid en risico's van de onderneming, vanuit het perspectief van een specifieke gebruiker (kredietverlener, aandeelhouder, manager).
+
 > [!summary] Korte inhoud
 > De doelstellingen van financiële analyse zijn de specifieke vragen die de analyst over de jaarrekening wil beantwoorden: kan de onderneming haar korte schulden betalen (liquiditeit), is de schuldenstructuur houdbaar (solvabiliteit), levert de onderneming voldoende winst op het in….
 

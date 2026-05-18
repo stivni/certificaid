@@ -10,23 +10,18 @@ linked_anchors:
 - 1.6.III
 programmaonderdelen:
 - '1.6'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/cijferanalyses-audit.json
 gegenereerd_op: '2026-05-18'
 ---
-# Cijferanalyses bij een audit ⚖️
-
-> [!summary] Korte inhoud
-> Cijferanalyses (analytical procedures) zijn evaluaties van financiële informatie door de analyse van aannemelijke verbanden tussen zowel financiële als niet-financiële gegevens.
-
-> [!info] Behoort tot: [[gegevensgerichte-werkzaamheden]] · [[risico-inschatting-audit]]
+# Cijferanalyses bij een audit 🤖
 
 Cijferanalyses (analytical procedures) zijn evaluaties van financiële informatie door de analyse van aannemelijke verbanden tussen zowel financiële als niet-financiële gegevens. De auditor onderzoekt fluctuaties of relaties die inconsistent zijn met andere relevante informatie of significant verschillen van verwachte waarden.
 
-_Bron: ITAA KMO-controlenorm Bijlage 1 + §111_
+> [!info] Behoort tot: [[gegevensgerichte-werkzaamheden]] · [[risico-inschatting-audit]]
 
 
 ## Bouwstenen
@@ -60,6 +55,6 @@ Sofie Janssens vergelijkt voor Rotex Roeselare NV de bruto-marge per productlijn
 
 ## Bronnen
 
-[^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2`
-[^2]: `ITAA-norm-kmo-controlenorm__sec_3-2-4-cijferanalyses`
-[^3]: `ITAA-norm-algemene-controlenorm__sec_4-werkdocumenten`
+[^1]: `ITAA-norm-kmo-controlenorm__sec_3-2-4-cijferanalyses`
+[^2]: `ITAA-norm-algemene-controlenorm__sec_4-werkdocumenten`
+[^3]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2`

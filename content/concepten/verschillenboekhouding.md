@@ -19,14 +19,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Verschillenboekhouding 🤖
 
-> [!summary] Korte inhoud
-> Verschillenboekhouding (variance accounting) registreert systematisch het verschil tussen werkelijke kost en budget- of standaardkost, en splitst dat verschil in oorzaakcomponenten (prijsverschil, hoeveelheidverschil, mix-verschil, efficiëntieverschil).
-
-> [!info] Behoort tot: [[budgetbeheer]]
-
 Verschillenboekhouding (variance accounting) registreert systematisch het verschil tussen werkelijke kost en budget- of standaardkost, en splitst dat verschil in oorzaakcomponenten (prijsverschil, hoeveelheidverschil, mix-verschil, efficiëntieverschil). Doel: snel lokaliseren waar afwijkingen vandaan komen om gericht bij te sturen.
 
-_Bron: Management accounting — bron-gap_
+> [!info] Behoort tot: [[budgetbeheer]]
 
 
 ## Bouwstenen

@@ -9,23 +9,18 @@ linked_anchors:
 - 1.8.III
 programmaonderdelen:
 - '1.8'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/volledige-kostencalculatie.json
 gegenereerd_op: '2026-05-18'
 ---
-# Volledige kostencalculatie (full costing) ⚖️
-
-> [!summary] Korte inhoud
-> De volledige kostencalculatie (synoniem: full costing, absorption costing) berekent een 'volledige kostprijs' per kostendrager door alle directe én alle (productie-)indirecte kosten op te tellen en aan het product toe te wijzen.
-
-> [!info] Behoort tot: [[costing-methodes-vergelijking]]
+# Volledige kostencalculatie (full costing) 🤖
 
 De volledige kostencalculatie (synoniem: full costing, absorption costing) berekent een 'volledige kostprijs' per kostendrager door alle directe én alle (productie-)indirecte kosten op te tellen en aan het product toe te wijzen. Dit is de wettelijke aanpak voor de vervaardigingsprijs in de Belgische boekhouding (CBN 132/7), maar in management-accounting wordt full costing soms uitgebreid tot een 'volledige bedrijfskostprijs' die ook administratieve en commerciële overhead bevat — voor interne sturing.
 
-_Bron: CBN 132/7 §2.1 jo. CBN 2012/15_
+> [!info] Behoort tot: [[costing-methodes-vergelijking]]
 
 
 ## Bouwstenen
@@ -93,5 +88,5 @@ Yperse Werkplaats BV: vervaardigingsprijs partij tapijten = € 20.100. Bij toev
 ## Bronnen
 
 [^1]: `CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-full-costing`
-[^2]: `CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs`
-[^3]: `CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing`
+[^2]: `CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing`
+[^3]: `CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs`

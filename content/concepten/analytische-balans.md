@@ -25,12 +25,7 @@ gegenereerd_op: '2026-05-18'
 ---
 # Analytische balans (herstructureringsschema) 🤖
 
-> [!summary] Korte inhoud
-> De wettelijke balans omvormen tot een herwerkt schema dat de analyse vereenvoudigt: activa gerangschikt naar liquiditeit, passiva naar opeisbaarheid; bepaalde posten geherklasseerd zodat economisch verband en risico zichtbaar worden.
-
 De wettelijke balans omvormen tot een herwerkt schema dat de analyse vereenvoudigt: activa gerangschikt naar liquiditeit, passiva naar opeisbaarheid; bepaalde posten geherklasseerd zodat economisch verband en risico zichtbaar worden.
-
-_Bron: Algemene financial-analysis-doctrine_
 
 
 ## Bouwstenen

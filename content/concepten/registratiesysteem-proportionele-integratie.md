@@ -9,23 +9,18 @@ linked_anchors:
 - 1.8.IV
 programmaonderdelen:
 - '1.8'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/registratiesysteem-proportionele-integratie.json
 gegenereerd_op: '2026-05-18'
 ---
-# Proportionele integratie (registratiesysteem) ⚖️
-
-> [!summary] Korte inhoud
-> Bij proportionele integratie worden kosten en opbrengsten 'rubriek per rubriek, proportioneel met het aandeel' opgenomen.
-
-> [!info] Behoort tot: [[rekeningenstelsel-analytisch]]
+# Proportionele integratie (registratiesysteem) 🤖
 
 Bij proportionele integratie worden kosten en opbrengsten 'rubriek per rubriek, proportioneel met het aandeel' opgenomen. CBN 3/3 formuleert dit voor tijdelijke verenigingen; in analytische boekhouding wordt het analoog toegepast wanneer een gemeenschappelijke kost over meerdere centra of dragers pro-rata moet worden verdeeld.
 
-_Bron: CBN-advies 3/3 — De proportionele integratie van kosten en opbrengsten_
+> [!info] Behoort tot: [[rekeningenstelsel-analytisch]]
 
 
 ## Bouwstenen

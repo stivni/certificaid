@@ -10,21 +10,16 @@ linked_anchors:
 - 1.6.IV.C
 programmaonderdelen:
 - '1.6'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/controleoordeel-types.json
 gegenereerd_op: '2026-05-18'
 ---
-# Types van controleoordeel ⚖️
-
-> [!summary] Korte inhoud
-> Op het einde van een audit formuleert de beroepsbeoefenaar een controleoordeel.
+# Types van controleoordeel 🤖
 
 Op het einde van een audit formuleert de beroepsbeoefenaar een controleoordeel. Vier types: (1) goedkeurend oordeel zonder voorbehoud, (2) oordeel met voorbehoud, (3) afkeurend oordeel, (4) onthouding van oordeel. De keuze hangt af van (a) of afwijkingen materieel zijn én of zij diepgaande invloed hebben, en (b) of voldoende en geschikte assurance-informatie kon worden verkregen.
-
-_Bron: ITAA KMO-controlenorm §116-§120_
 
 
 ## Bouwstenen
@@ -85,5 +80,5 @@ _Grondslag: ITAA KMO-controlenorm §118_
 ## Bronnen
 
 [^1]: `ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel`
-[^2]: `ITAA-norm-kmo-controlenorm__sec_3-3-2-aangepast-oordeel`
-[^3]: `ITAA-norm-kmo-controlenorm__sec_3-3-2-1-financi-le-overzichten-bevatten-afwijkingen-van-mate`
+[^2]: `ITAA-norm-kmo-controlenorm__sec_3-3-2-1-financi-le-overzichten-bevatten-afwijkingen-van-mate`
+[^3]: `ITAA-norm-kmo-controlenorm__sec_3-3-2-aangepast-oordeel`

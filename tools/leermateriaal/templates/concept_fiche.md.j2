@@ -1,7 +1,14 @@
 {{ frontmatter_yaml | safe -}}
 # {{ record.naam }} {{ mode_confidence_label }}
 
-{% set hoofdveld = record.definitie or record.main_rule or record.verplichting or record.doel %}
+{% if record.situering %}
+{% set situering_text = record.situering.text if record.situering is mapping else record.situering %}
+{% if situering_text %}
+{{ situering_text }}
+
+{% endif %}
+{% endif %}
+{% set hoofdveld = record.definitie or record.main_rule or record.verplichting %}
 {% set kern = (hoofdveld or {}).get('text', '') if hoofdveld is mapping else '' %}
 {% if not kern and hoofdveld %}{% set kern = hoofdveld | string %}{% endif %}
 {% if kern %}

@@ -25,12 +25,7 @@ gegenereerd_op: '2026-05-18'
 ---
 # Horizontale analyse (evolutie-analyse) 🤖
 
-> [!summary] Korte inhoud
-> De evolutie van balans- en resultatenposten over meerdere boekjaren in kaart brengen.
-
 De evolutie van balans- en resultatenposten over meerdere boekjaren in kaart brengen. Elke post wordt uitgedrukt als verandering tegenover een basisjaar (in absolute euro's of in procenten), zodat trends zichtbaar worden.
-
-_Bron: Algemene financial-analysis-doctrine_
 
 
 ## Bouwstenen

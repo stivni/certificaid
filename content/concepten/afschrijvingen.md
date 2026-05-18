@@ -24,6 +24,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Afschrijvingen ⚖️
 
+De aanschaffingswaarde van vaste activa met beperkte gebruiksduur **systematisch spreiden** over de jaren waarin het actief economisch wordt gebruikt — zodat de kost in elk jaar verschijnt waarin het actief baten oplevert (matching).
+
 > [!summary] Korte inhoud
 > Bedragen ten laste van de resultatenrekening genomen met betrekking tot **oprichtingskosten** en **immateriële en materiële vaste activa met beperkte gebruiksduur**, om hetzij de aanschaffingswaarde te spreiden over de waarschijnlijke gebruiksduur, hetzij de kost te nemen op het….
 

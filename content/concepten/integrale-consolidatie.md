@@ -11,23 +11,18 @@ linked_anchors:
 - 1.4.taak.1
 programmaonderdelen:
 - '1.4'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/integrale-consolidatie.json
 gegenereerd_op: '2026-05-18'
 ---
-# Integrale consolidatie ⚖️
-
-> [!summary] Korte inhoud
-> De geconsolideerde jaarrekening voorstellen alsof het geheel van de consoliderende vennootschap en haar exclusief gecontroleerde dochterondernemingen één enkele economische entiteit vormt.
-
-> [!info] Behoort tot: [[consolidatieverschil]] · [[minderheidsbelangen]] · [[consolidatiemethodes-vergelijking]]
+# Integrale consolidatie 🤖
 
 De geconsolideerde jaarrekening voorstellen alsof het geheel van de consoliderende vennootschap en haar exclusief gecontroleerde dochterondernemingen één enkele economische entiteit vormt. De activa, passiva, rechten, verplichtingen, opbrengsten en kosten van de moeder en van haar exclusief gecontroleerde dochters worden integraal opgenomen (voor 100 %); het deel dat toebehoort aan derden (minderheidsaandeelhouders) wordt afzonderlijk gepresenteerd in 'Belangen van derden' (balans) en 'Aandeel van derden in het resultaat' (resultatenrekening).
 
-_Bron: KB WVV art. 3:123 jo. art. 3:124, 1°_
+> [!info] Behoort tot: [[consolidatieverschil]] · [[minderheidsbelangen]] · [[consolidatiemethodes-vergelijking]]
 
 
 ## Bouwstenen
@@ -374,19 +369,19 @@ Resultaat: In de geconsolideerde balans staan de € 3.000.000 activa en € 1.0
 
 ## Bronnen
 
-[^1]: `KB-WVV-2019__art_3_97`
-[^2]: `KB-WVV-2019__art_3_98`
-[^3]: `KB-WVV-2019__art_3_108`
-[^4]: `KB-WVV-2019__art_3_75`
-[^5]: `KB-WVV-2019__art_3_76`
-[^6]: `KB-WVV-2019__art_3_100`
-[^7]: `KB-WVV-2019__art_3_101`
-[^8]: `KB-WVV-2019__art_3_102`
-[^9]: `KB-WVV-2019__art_3_106`
-[^10]: `KB-WVV-2019__art_3_107`
-[^11]: `CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiemethode`
-[^12]: `KB-WVV-2019__art_3_105`
-[^13]: `KB-WVV-2019__art_3_111`
-[^14]: `KB-WVV-2019__art_3_112`
-[^15]: `KB-WVV-2019__art_3_109`
-[^16]: `KB-WVV-2019__art_3_110`
+[^1]: `KB-WVV-2019__art_3_98`
+[^2]: `KB-WVV-2019__art_3_75`
+[^3]: `KB-WVV-2019__art_3_76`
+[^4]: `KB-WVV-2019__art_3_100`
+[^5]: `KB-WVV-2019__art_3_101`
+[^6]: `KB-WVV-2019__art_3_102`
+[^7]: `KB-WVV-2019__art_3_106`
+[^8]: `KB-WVV-2019__art_3_107`
+[^9]: `KB-WVV-2019__art_3_108`
+[^10]: `CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiemethode`
+[^11]: `KB-WVV-2019__art_3_105`
+[^12]: `KB-WVV-2019__art_3_111`
+[^13]: `KB-WVV-2019__art_3_112`
+[^14]: `KB-WVV-2019__art_3_109`
+[^15]: `KB-WVV-2019__art_3_110`
+[^16]: `KB-WVV-2019__art_3_97`

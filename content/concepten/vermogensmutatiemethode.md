@@ -12,23 +12,18 @@ linked_anchors:
 - 1.4.taak.1
 programmaonderdelen:
 - '1.4'
-confidence: grounded
+confidence: inferred
 node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/vermogensmutatiemethode.json
 gegenereerd_op: '2026-05-18'
 ---
-# Vermogensmutatiemethode (equity method) ⚖️
-
-> [!summary] Korte inhoud
-> Een deelneming verschijnt in de geconsolideerde jaarrekening niet activum-per-activum, maar als één samengevatte balanspost.
-
-> [!info] Behoort tot: [[consolidatiemethodes-vergelijking]]
+# Vermogensmutatiemethode (equity method) 🤖
 
 Een deelneming verschijnt in de geconsolideerde jaarrekening niet activum-per-activum, maar als één samengevatte balanspost. Bij de eerste opname waardeer je die post aan jouw pro-rata aandeel in het eigen vermogen van de andere onderneming op de datum van aankoop. Daarna pas je die boekwaarde elk boekjaar aan met jouw aandeel in het resultaat en in directe wijzigingen van het eigen vermogen. Je gebruikt deze methode voor (a) geassocieerde ondernemingen (invloed van betekenis, geen controle), (b) gemeenschappelijke dochters waarvan de activiteit niet nauw geïntegreerd is in die van de moeder, en (c) dochters die uit de consolidatie zijn gelaten op grond van KB WVV art. 3:98 of art. 3:99.
 
-_Bron: KB WVV art. 3:142 jo. art. 3:141 — 3:145_
+> [!info] Behoort tot: [[consolidatiemethodes-vergelijking]]
 
 
 ## Bouwstenen
@@ -496,23 +491,23 @@ Antwerpse Investments NV koopt 25 % van Drukkerij Dendermonde BV voor € 350.00
 
 ## Bronnen
 
-[^1]: `CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied`
-[^2]: `CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie`
-[^3]: `KB-WVV-2019__art_3_113`
-[^4]: `KB-WVV-2019__art_3_115`
-[^5]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding`
-[^6]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking`
-[^7]: `KB-WVV-2019__art_3_78`
-[^8]: `KB-WVV-2019__art_3_77`
-[^9]: `CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld`
-[^10]: `CBN-2022-11-vermogensmutatiemethode__sec_latere-consolidaties`
-[^11]: `CBN-2014-03-de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde__sec_inleiding`
-[^12]: `KB-WVV-2019__art_3_112`
-[^13]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1`
-[^14]: `CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver`
-[^15]: `CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_2`
-[^16]: `CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_3`
-[^17]: `CBN-2022-11-vermogensmutatiemethode__sec_intra-groepsverkopen-upstream-downstream-sales`
-[^18]: `CBN-2022-11-vermogensmutatiemethode__sec_toepassing-van-de-vermogensmutatiemethode`
-[^19]: `CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld-2-verkoop-van-de-deelnemingen-waarop-vermogensmuta`
-[^20]: `CBN-2022-11-vermogensmutatiemethode__sec_directe-mutaties-binnen-het-eigen-vermogen-van-de-geassociee`
+[^1]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding`
+[^2]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking`
+[^3]: `KB-WVV-2019__art_3_78`
+[^4]: `KB-WVV-2019__art_3_77`
+[^5]: `CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie`
+[^6]: `CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld`
+[^7]: `KB-WVV-2019__art_3_113`
+[^8]: `CBN-2022-11-vermogensmutatiemethode__sec_latere-consolidaties`
+[^9]: `CBN-2014-03-de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde__sec_inleiding`
+[^10]: `KB-WVV-2019__art_3_112`
+[^11]: `KB-WVV-2019__art_3_115`
+[^12]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1`
+[^13]: `CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver`
+[^14]: `CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_2`
+[^15]: `CBN-2022-11-vermogensmutatiemethode__sec_herberekening-van-het-bedrag-van-de-deelneming-waarop-de-ver_3`
+[^16]: `CBN-2022-11-vermogensmutatiemethode__sec_intra-groepsverkopen-upstream-downstream-sales`
+[^17]: `CBN-2022-11-vermogensmutatiemethode__sec_toepassing-van-de-vermogensmutatiemethode`
+[^18]: `CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld-2-verkoop-van-de-deelnemingen-waarop-vermogensmuta`
+[^19]: `CBN-2022-11-vermogensmutatiemethode__sec_directe-mutaties-binnen-het-eigen-vermogen-van-de-geassociee`
+[^20]: `CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied`
