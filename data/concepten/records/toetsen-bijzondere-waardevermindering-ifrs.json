@@ -1,6 +1,6 @@
 {
-  "id": "toetsen-bijzondere-waardevermindering-ias-36",
-  "naam": "Toetsen van een actief op bijzondere waardevermindering onder IAS 36",
+  "id": "toetsen-bijzondere-waardevermindering-ifrs",
+  "naam": "Toetsen van een actief op bijzondere waardevermindering onder IFRS (IAS 36)",
   "node_type": "competentie",
   "schema_version": "1.5",
   "titel": "Toetsen van een actief op bijzondere waardevermindering onder IAS 36",
@@ -19,7 +19,7 @@
     ]
   },
   "gebaseerd_op_concepten": [
-    "bijzondere-waardevermindering-ias-36",
+    "bijzondere-waardevermindering-ifrs",
     "materiele-vaste-activa-ifrs",
     "immateriele-vaste-activa-ifrs",
     "afschrijvingen-ifrs"
@@ -54,8 +54,8 @@
           "type": "conclusie"
         }
       ],
-      "hoe": "1. Volg [[bijzondere-waardevermindering-ias-36]] §stap-1 voor de standaardlijst van aanwijzingen (alinea 12).\n2. Doorloop voor Zelena Bio NV: marktrentes gestegen (externe aanwijzing — verhoogde disconteringsvoet kan bedrijfswaarde drukken); operationele marges productielijn 'PL-3' gedaald van 18 % naar 6 % (interne aanwijzing — slechtere prestaties); een patent verloopt over 2 jaar (interne aanwijzing — kortere kasstroomhorizon).\n3. Conclusie: lijst activa/CGU's voor volledige test = productielijn PL-3 (€ 12.000.000 boekwaarde) + goodwill segment 'Bio-feed' (€ 8.500.000, jaarlijkse test sowieso verplicht).\n4. Documenteer aanwijzingen + scope in werkpapier.\n",
-      "grondslag": "[[bijzondere-waardevermindering-ias-36]] §stap-1, IAS 36 alinea 9-17"
+      "hoe": "1. Volg [[bijzondere-waardevermindering-ifrs]] §stap-1 voor de standaardlijst van aanwijzingen (alinea 12).\n2. Doorloop voor Zelena Bio NV: marktrentes gestegen (externe aanwijzing — verhoogde disconteringsvoet kan bedrijfswaarde drukken); operationele marges productielijn 'PL-3' gedaald van 18 % naar 6 % (interne aanwijzing — slechtere prestaties); een patent verloopt over 2 jaar (interne aanwijzing — kortere kasstroomhorizon).\n3. Conclusie: lijst activa/CGU's voor volledige test = productielijn PL-3 (€ 12.000.000 boekwaarde) + goodwill segment 'Bio-feed' (€ 8.500.000, jaarlijkse test sowieso verplicht).\n4. Documenteer aanwijzingen + scope in werkpapier.\n",
+      "grondslag": "[[bijzondere-waardevermindering-ifrs]] §stap-1, IAS 36 alinea 9-17"
     },
     {
       "nr": 2,
@@ -76,8 +76,8 @@
           "type": "conclusie"
         }
       ],
-      "hoe": "1. Volg [[bijzondere-waardevermindering-ias-36]] §cgu-afbakening voor de criteria.\n2. Voor productielijn PL-3 van Zelena Bio: lijn produceert biologisch veevoer dat afzonderlijk wordt verkocht aan klanten → onafhankelijke kasstroom mogelijk → CGU = de productielijn zelf met haar machines + voorraad + werkkapitaal (boekwaarde € 12.000.000).\n3. Voor goodwill 'Bio-feed' segment: goodwill genereert zelf geen kasstromen → toets op het **laagste niveau** waar de goodwill wordt opgevolgd (alinea 80) — typisch business segment. CGU = volledig segment Bio-feed (€ 45.000.000 boekwaarde inclusief goodwill).\n4. Documenteer CGU-grenzen, consistentie met vorige periodes (alinea 72), en de allocatie van goodwill aan CGU's.\n",
-      "grondslag": "[[bijzondere-waardevermindering-ias-36]] §cgu-afbakening, IAS 36 alinea 65-87"
+      "hoe": "1. Volg [[bijzondere-waardevermindering-ifrs]] §cgu-afbakening voor de criteria.\n2. Voor productielijn PL-3 van Zelena Bio: lijn produceert biologisch veevoer dat afzonderlijk wordt verkocht aan klanten → onafhankelijke kasstroom mogelijk → CGU = de productielijn zelf met haar machines + voorraad + werkkapitaal (boekwaarde € 12.000.000).\n3. Voor goodwill 'Bio-feed' segment: goodwill genereert zelf geen kasstromen → toets op het **laagste niveau** waar de goodwill wordt opgevolgd (alinea 80) — typisch business segment. CGU = volledig segment Bio-feed (€ 45.000.000 boekwaarde inclusief goodwill).\n4. Documenteer CGU-grenzen, consistentie met vorige periodes (alinea 72), en de allocatie van goodwill aan CGU's.\n",
+      "grondslag": "[[bijzondere-waardevermindering-ifrs]] §cgu-afbakening, IAS 36 alinea 65-87"
     },
     {
       "nr": 3,
@@ -108,7 +108,7 @@
           "type": "berekening"
         }
       ],
-      "hoe": "1. Volg [[bijzondere-waardevermindering-ias-36]] §realiseerbare-waarde voor de definitie.\n2. **Reële waarde min verkoopkosten** productielijn PL-3: taxatie tweedehandsmarkt machines € 7.500.000 − afbraakkosten € 200.000 = **€ 7.300.000**.\n3. **Bedrijfswaarde** PL-3: prognose 5 jaar netto-kasstroom (€ 2.000.000; € 1.800.000; € 1.500.000; € 1.200.000; € 900.000) + terminal value (kasstroom jaar 5 × 2) = € 1.800.000. Disconteringsvoet 9 % (WACC vóór belasting, asset-specifiek aangepast). Contante waarde = bv. € 1.835.000 + € 1.515.000 + € 1.158.000 + € 850.000 + € 585.000 + terminal contante € 1.170.000 = **€ 7.113.000**.\n4. Realiseerbare waarde = max(€ 7.300.000; € 7.113.000) = **€ 7.300.000**.\n5. Aandachtspunt: kasstromen mogen GEEN financieringscashflows of belastingen bevatten (alinea 50-51).\n",
+      "hoe": "1. Volg [[bijzondere-waardevermindering-ifrs]] §realiseerbare-waarde voor de definitie.\n2. **Reële waarde min verkoopkosten** productielijn PL-3: taxatie tweedehandsmarkt machines € 7.500.000 − afbraakkosten € 200.000 = **€ 7.300.000**.\n3. **Bedrijfswaarde** PL-3: prognose 5 jaar netto-kasstroom (€ 2.000.000; € 1.800.000; € 1.500.000; € 1.200.000; € 900.000) + terminal value (kasstroom jaar 5 × 2) = € 1.800.000. Disconteringsvoet 9 % (WACC vóór belasting, asset-specifiek aangepast). Contante waarde = bv. € 1.835.000 + € 1.515.000 + € 1.158.000 + € 850.000 + € 585.000 + terminal contante € 1.170.000 = **€ 7.113.000**.\n4. Realiseerbare waarde = max(€ 7.300.000; € 7.113.000) = **€ 7.300.000**.\n5. Aandachtspunt: kasstromen mogen GEEN financieringscashflows of belastingen bevatten (alinea 50-51).\n",
       "voorbeeld": {
         "scenario": "Berekening realiseerbare waarde productielijn PL-3 Zelena Bio NV op 31 december 2027.",
         "substappen": [
@@ -132,7 +132,7 @@
           }
         ]
       },
-      "grondslag": "[[bijzondere-waardevermindering-ias-36]] §realiseerbare-waarde, IAS 36 alinea 18-57"
+      "grondslag": "[[bijzondere-waardevermindering-ifrs]] §realiseerbare-waarde, IAS 36 alinea 18-57"
     },
     {
       "nr": 4,
@@ -158,7 +158,7 @@
           "type": "boekingsregel"
         }
       ],
-      "hoe": "1. Volg [[bijzondere-waardevermindering-ias-36]] §boeking-impairment voor de boekingsregel.\n2. Voor productielijn PL-3 Zelena Bio: boekwaarde € 12.000.000 versus realiseerbare waarde € 7.300.000 → **impairment € 4.700.000**.\n3. Allocatie: PL-3 bevat geen goodwill, dus heel het bedrag verlaagt activa pro rata over de componenten van de CGU. Bv. machines −€ 3.200.000; gebouw −€ 1.000.000; werkkapitaal niet onder grens (alinea 105 — actief mag niet onder hogere van reële waarde, bedrijfswaarde, nul gedrukt worden).\n4. Boek: debet 'Bijzondere waardeverminderingen' € 4.700.000 (W&V); credit 'Cumulatieve waardevermindering productielijn PL-3' € 4.700.000.\n5. Bij CGU met goodwill (Bio-feed segment): vergelijk goodwill € 8.500.000 + andere activa. Stel realiseerbare waarde € 38.000.000 versus boekwaarde € 45.000.000 = impairment € 7.000.000. Eerst goodwill afboeken: − € 7.000.000 → goodwill van € 8.500.000 daalt naar € 1.500.000. Andere activa onaangetast.\n6. Belangrijke regel: **goodwill-impairment kan nooit worden teruggenomen** (alinea 124). Voor andere activa: terugname mogelijk indien aanwijzingen wijzigen.\n",
+      "hoe": "1. Volg [[bijzondere-waardevermindering-ifrs]] §boeking-impairment voor de boekingsregel.\n2. Voor productielijn PL-3 Zelena Bio: boekwaarde € 12.000.000 versus realiseerbare waarde € 7.300.000 → **impairment € 4.700.000**.\n3. Allocatie: PL-3 bevat geen goodwill, dus heel het bedrag verlaagt activa pro rata over de componenten van de CGU. Bv. machines −€ 3.200.000; gebouw −€ 1.000.000; werkkapitaal niet onder grens (alinea 105 — actief mag niet onder hogere van reële waarde, bedrijfswaarde, nul gedrukt worden).\n4. Boek: debet 'Bijzondere waardeverminderingen' € 4.700.000 (W&V); credit 'Cumulatieve waardevermindering productielijn PL-3' € 4.700.000.\n5. Bij CGU met goodwill (Bio-feed segment): vergelijk goodwill € 8.500.000 + andere activa. Stel realiseerbare waarde € 38.000.000 versus boekwaarde € 45.000.000 = impairment € 7.000.000. Eerst goodwill afboeken: − € 7.000.000 → goodwill van € 8.500.000 daalt naar € 1.500.000. Andere activa onaangetast.\n6. Belangrijke regel: **goodwill-impairment kan nooit worden teruggenomen** (alinea 124). Voor andere activa: terugname mogelijk indien aanwijzingen wijzigen.\n",
       "voorbeeld": {
         "scenario": "Bijzondere waardevermindering productielijn PL-3 op 31 december 2027.",
         "substappen": [
@@ -186,17 +186,17 @@
         {
           "advies": "Bij CGU met goodwill: eerst alle goodwill afboeken vóór andere activa te raken — en goodwill-impairment is nooit terug te nemen.",
           "vaak_fout": "Goodwill-impairment in latere jaren terugnemen omdat de markt opnieuw aantrekt. IAS 36 alinea 124 verbiedt dit categorisch.",
-          "grondslag": "[[bijzondere-waardevermindering-ias-36]] §terugname"
+          "grondslag": "[[bijzondere-waardevermindering-ifrs]] §terugname"
         }
       ],
-      "grondslag": "[[bijzondere-waardevermindering-ias-36]] §boeking-impairment, IAS 36 alinea 58-99 + 104 + 124"
+      "grondslag": "[[bijzondere-waardevermindering-ifrs]] §boeking-impairment, IAS 36 alinea 58-99 + 104 + 124"
     }
   ],
   "voorbeelden": [
     {
       "situatie": "Zelena Bio NV doet eind 2027 een impairment-test op haar Bio-feed-segment (boekwaarde € 45.000.000 inclusief goodwill € 8.500.000) na aanhoudende margedaling. Realiseerbare waarde bepaald op € 38.000.000.",
       "conclusie": "Impairment = € 45.000.000 − € 38.000.000 = € 7.000.000. Allocatie: eerst volledige € 8.500.000 goodwill afboeken — maar dat zou méér dan € 7.000.000 zijn; dus € 7.000.000 volledig tegen goodwill (goodwill daalt van € 8.500.000 naar € 1.500.000). Andere activa van het segment blijven onaangetast. Boeking: debet 'Bijzondere waardevermindering goodwill' € 7.000.000 / credit 'Cumulatieve waardevermindering goodwill Bio-feed' € 7.000.000. In latere boekjaren: zelfs als de markt herstelt, blijft deze impairment definitief (IAS 36 alinea 124).",
-      "grondslag": "[[bijzondere-waardevermindering-ias-36]] §goodwill-volgorde; IAS 36 alinea 104 + 124",
+      "grondslag": "[[bijzondere-waardevermindering-ifrs]] §goodwill-volgorde; IAS 36 alinea 104 + 124",
       "redenering": "De volgorde van afboeking (eerst goodwill, dan pro rata andere activa) is dwingend en is een vaak-getoetst examenpunt. Het permanente karakter van goodwill-impairment onderscheidt zich van andere activa, waar terugname mogelijk blijft als de aanwijzingen wijzigen."
     }
   ],
@@ -212,5 +212,14 @@
     "1.5.V.B",
     "1.5.IV.C"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "edges": [],
+  "rename_propagation_log": [
+    {
+      "from": "toetsen-bijzondere-waardevermindering-ias-36",
+      "to": "toetsen-bijzondere-waardevermindering-ifrs",
+      "pass": "concept-extractie-v4-1.5.V",
+      "reason": "Bron-prefix smell (§17 regel 11): record-id bevatte bron-aanduiding zonder werkelijk parallel-regime onder andere bron."
+    }
+  ]
 }

@@ -61,7 +61,7 @@ Splits het actief in delen waarvan de kostprijs significant is t.o.v. het totaal
 
 **🛠️ Hoe**:
 
-1. Volg [[componentenbenadering-ias-16]] §identificatie voor het detecteren van significante componenten.
+1. Volg [[componentenbenadering]] §identificatie voor het detecteren van significante componenten.
 2. Voor de Zelena-productie-installatie van € 9.000.000: identificeer (a) machine-kern € 6.500.000 / 20 jaar, (b) regelsysteem € 1.500.000 / 8 jaar, (c) bekabeling € 800.000 / 10 jaar, (d) ontmantelingsdeel € 200.000 / 20 jaar.
 3. Kies per component een afschrijvingsmethode die het verbruikspatroon van de economische voordelen weerspiegelt: lineair, degressief of units-of-production (alinea 62). Geen 'opbrengstenmethode' (alinea 62A — verboden).
 4. Reken de jaarlijkse afschrijving per component uit en sommeer.
@@ -82,7 +82,7 @@ Splits het actief in delen waarvan de kostprijs significant is t.o.v. het totaal
 >    
 >
 
-**Grondslag**: [[componentenbenadering-ias-16]] §identificatie, [[afschrijvingen-ifrs]] §methodekeuze, IAS 16 alinea 43-62A
+**Grondslag**: [[componentenbenadering]] §identificatie, [[afschrijvingen-ifrs]] §methodekeuze, IAS 16 alinea 43-62A
 
 ### 3. Kies tussen kostprijs- en herwaarderingsmodel per klasse
 
@@ -99,19 +99,19 @@ Beslis per klasse van materiële vaste activa (terreinen, gebouwen, machines, vo
 
 **🛠️ Hoe**:
 
-1. Volg [[herwaarderingsmodel-ias-16]] §toepassingsvoorwaarden voor het herwaarderingsmodel.
+1. Volg [[herwaarderingsmodel-ifrs]] §toepassingsvoorwaarden voor het herwaarderingsmodel.
 2. Voor Zelena Bio: terreinen → herwaarderingsmodel (reële waarde betrouwbaar te bepalen via externe taxateur jaarlijks); gebouwen → kostprijsmodel (eenvoudiger, geen volatiele markt); machines → kostprijsmodel.
 3. Bij keuze herwaarderingsmodel: herwaarderingen moeten frequent genoeg gebeuren zodat boekwaarde nooit substantieel afwijkt van reële waarde (alinea 31 + 34).
 4. Vermelding in toelichting: gekozen model + (bij herwaarderingsmodel) datum laatste herwaardering + onafhankelijke taxateur + grondslagen voor reële-waarde-bepaling (alinea 77).
 
 
-**Grondslag**: [[herwaarderingsmodel-ias-16]] §toepassingsvoorwaarden, IAS 16 alinea 29-31
+**Grondslag**: [[herwaarderingsmodel-ifrs]] §toepassingsvoorwaarden, IAS 16 alinea 29-31
 
 > [!warning]- Bij keuze voor herwaarderingsmodel: ga deze keuze pas aan als reële waarde betrouwbaar én regelmatig kan worden vastgesteld — niet voor uniek of moeilijk meetbaar actief.
 >
 > _Vaak fout gedaan_: Het herwaarderingsmodel kiezen om de balans op te poetsen, zonder structurele frequentie van herwaarderen. Dit produceert misleidende stille meerwaarden.
 >
-> _Grondslag_: [[herwaarderingsmodel-ias-16]] §frequentie
+> _Grondslag_: [[herwaarderingsmodel-ifrs]] §frequentie
 
 ### 4. Pas het gekozen model toe (kostprijs OF herwaardering)
 
@@ -130,7 +130,7 @@ Voor kostprijsmodel: kostprijs − cumulatieve afschrijving − cumulatieve bijz
 
 1. Bij kostprijsmodel: boek jaarlijkse afschrijving per component conform plan stap 2 → debet 'Afschrijvingskosten', credit 'Cumulatieve afschrijving'.
 2. Bij herwaarderingsmodel: vergelijk reële waarde met boekwaarde op herwaarderingsdatum. Eerste opwaardering → boek het verschil in **OCI** als 'Herwaarderingsreserve' (alinea 39). Latere afwaardering → eerst tegen de bestaande herwaarderingsreserve van hetzelfde actief in OCI, dan pas in W&V (alinea 40).
-3. Toets op elke balansdatum of er aanwijzingen zijn voor bijzondere waardevermindering — zo ja, volg [[toetsen-bijzondere-waardevermindering-ias-36]].
+3. Toets op elke balansdatum of er aanwijzingen zijn voor bijzondere waardevermindering — zo ja, volg [[toetsen-bijzondere-waardevermindering-ifrs]].
 4. Bij realisatie (verkoop): herwaarderingsreserve mag overgeboekt worden naar ingehouden winsten — NIET via W&V (alinea 41).
 
 
@@ -159,6 +159,6 @@ Voor kostprijsmodel: kostprijs − cumulatieve afschrijving − cumulatieve bijz
 >
 > _Vaak fout gedaan_: Een afwaardering meteen in W&V boeken terwijl er nog een eerdere opwaardering in OCI staat. IAS 16 alinea 40 vereist die eerst terug te draaien.
 >
-> _Grondslag_: [[herwaarderingsmodel-ias-16]] §symmetrische-verwerking
+> _Grondslag_: [[herwaarderingsmodel-ifrs]] §symmetrische-verwerking
 
 

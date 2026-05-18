@@ -1,5 +1,5 @@
 ---
-title: 'IFRS 16 — lessee versus lessor: overzicht en asymmetrie'
+title: Lessee versus lessor onder IFRS 16 — overzicht en asymmetrie
 tags:
 - concept
 - synthese
@@ -13,10 +13,10 @@ confidence: inferred
 node_type: synthese
 status: seed
 schema_version: '1.5'
-gegenereerd_uit: data/concepten/records/ifrs-16-lessee-vs-lessor-overzicht.json
+gegenereerd_uit: data/concepten/records/lessee-vs-lessor-leasing-ifrs.json
 gegenereerd_op: '2026-05-18'
 ---
-# IFRS 16 — lessee versus lessor: overzicht en asymmetrie 🤖
+# Lessee versus lessor onder IFRS 16 — overzicht en asymmetrie 🤖
 
 > [!info] Behoort tot: [[leasing-ifrs]]
 

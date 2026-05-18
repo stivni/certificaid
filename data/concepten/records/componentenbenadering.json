@@ -1,6 +1,6 @@
 {
-  "id": "componentenbenadering-ias-16",
-  "naam": "Componentenbenadering (IAS 16) — afschrijving per onderdeel",
+  "id": "componentenbenadering",
+  "naam": "Componentenbenadering — afschrijving per onderdeel",
   "node_type": "cluster",
   "schema_version": "1.5",
   "status": "seed",
@@ -289,5 +289,13 @@
       "confidence": "grounded"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "rename_propagation_log": [
+    {
+      "from": "componentenbenadering-ias-16",
+      "to": "componentenbenadering",
+      "pass": "concept-extractie-v4-1.5.V",
+      "reason": "Bron-prefix smell (§17 regel 11): record-id bevatte bron-aanduiding zonder werkelijk parallel-regime onder andere bron."
+    }
+  ]
 }

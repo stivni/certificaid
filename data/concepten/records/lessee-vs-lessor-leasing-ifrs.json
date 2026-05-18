@@ -1,6 +1,6 @@
 {
-  "id": "ifrs-16-lessee-vs-lessor-overzicht",
-  "naam": "IFRS 16 — lessee versus lessor: overzicht en asymmetrie",
+  "id": "lessee-vs-lessor-leasing-ifrs",
+  "naam": "Lessee versus lessor onder IFRS 16 — overzicht en asymmetrie",
   "node_type": "synthese",
   "schema_version": "1.5",
   "status": "seed",
@@ -23,7 +23,7 @@
     "right-of-use-actief",
     "leaseverplichting-ifrs",
     "leasing",
-    "sale-and-leaseback-ifrs-16"
+    "sale-and-leaseback-ifrs"
   ],
   "vergelijkingstabel": "| Aspect                          | Lessee (huurder) onder IFRS 16                                                          | Lessor (verhuurder) onder IFRS 16                                                                                |\n|---------------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|\n| **Klassificatiemodel**         | **Single model** — geen onderscheid meer; alle leases on-balance (alinea 22)             | **Binair model bewaard** uit IAS 17 — operationele versus financiële lease (alinea 61)                            |\n| **Balansopname**               | ROU-actief + leaseverplichting bij aanvang (alinea 22-26)                                | Financiële lease: vordering ter waarde van netto-investering; operationele lease: actief blijft op balans lessor   |\n| **Klassificatiecriteria**      | Niet van toepassing — single model                                                       | Risico- en voordelen-overdracht (alinea 63-65): eigendomsoverdracht, koopoptie, leaseperiode ≈ economische levensduur, contante waarde leasebetalingen ≈ reële waarde activum |\n| **Resultatenrekening lessee**  | Splitsing: **afschrijving ROU** (lineair, IAS 16-model) + **rentelast** (effectief)        | Niet van toepassing                                                                                              |\n| **Resultatenrekening lessor**  | Niet van toepassing                                                                      | Financiële lease: **rente-inkomsten** (effectieve methode); operationele lease: **huuropbrengst** (lineair over leaseperiode, alinea 81) |\n| **Vrijstellingen**             | Kortlopend (≤ 12 mnd, geen koopoptie) + lage waarde (≤ ca. € 5.000); huurlast in W&V       | Geen vrijstellingen — elke lease klassificeren                                                                    |\n| **Disconteringsvoet**          | Impliciete rentevoet OF marginale rentevoet lessee (alinea 26)                            | Impliciete rentevoet van de leaseovereenkomst (gekend door lessor)                                                |\n| **Verkoop-en-terugleasing**    | Lessee na transactie: ROU + leaseverplichting (IFRS 15-criteria voor 'verkoop')           | Lessor neemt actief op als koper, klassificeert dan opnieuw als operationeel/financieel                            |",
   "beslisboom": "```mermaid\nflowchart TD\n    A[Leaseovereenkomst IFRS 16] --> B{Lessee of lessor?}\n    B -->|Lessee| L1[Single model — alinea 22]\n    L1 --> L2{Kortlopend of lage waarde?}\n    L2 -->|Ja, gekozen| L3[Huurlast in W&V — alinea 5-6]\n    L2 -->|Nee| L4[ROU-actief + leaseverplichting bij aanvang]\n    L4 --> L5[Afschrijving ROU + rentelast leaseverplichting]\n    B -->|Lessor| R1{Risico's en voordelen overgedragen?}\n    R1 -->|Substantieel ja| R2[**Financiële lease** — alinea 67-73]\n    R2 --> R3[Boek leasevordering = netto-investering; rente-inkomsten effectief]\n    R1 -->|Nee, behoud lessor| R4[**Operationele lease** — alinea 81-87]\n    R4 --> R5[Activum blijft op balans lessor; huur lineair over leaseperiode]\n    R1 -->|Twijfel — typische triggers?| R6[Test 5 indicatoren alinea 63: eigendomsoverdracht / koopoptie / 75-80% economische levensduur / contante waarde ≈ reële waarde / gespecialiseerd actief]\n```",
@@ -103,6 +103,14 @@
         "sale-and-leaseback-ifrs-16"
       ],
       "reden": "VERIFY 2026-05-18: deprecated `bevat`-edge. Sale-and-leaseback heeft al `onderdeel-van: leasing-ifrs`. De synthese hoeft sale-and-leaseback niet te 'bevatten' — vermelding in `gebaseerd_op_concepten[]` is voldoende. v4 §9 correctie-regel."
+    }
+  ],
+  "rename_propagation_log": [
+    {
+      "from": "ifrs-16-lessee-vs-lessor-overzicht",
+      "to": "lessee-vs-lessor-leasing-ifrs",
+      "pass": "concept-extractie-v4-1.5.V",
+      "reason": "Bron-prefix smell (§17 regel 11): record-id bevatte bron-aanduiding zonder werkelijk parallel-regime onder andere bron."
     }
   ]
 }

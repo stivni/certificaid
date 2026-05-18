@@ -1,5 +1,5 @@
 ---
-title: Prestatieverplichting (performance obligation) onder IFRS 15
+title: Prestatieverplichting (performance obligation)
 tags:
 - concept
 - begrip
@@ -13,10 +13,10 @@ confidence: grounded
 node_type: begrip
 status: seed
 schema_version: '1.5'
-gegenereerd_uit: data/concepten/records/prestatieverplichting-ifrs-15.json
+gegenereerd_uit: data/concepten/records/prestatieverplichting.json
 gegenereerd_op: '2026-05-18'
 ---
-# Prestatieverplichting (performance obligation) onder IFRS 15 ⚖️
+# Prestatieverplichting (performance obligation) ⚖️
 
 > [!summary] Korte inhoud
 > Een **prestatieverplichting** (performance obligation, PO) is een belofte in een contract met een klant om aan die klant over te dragen: (a) een **onderscheiden** goed of dienst (of bundel van onderscheiden goederen of diensten); OF (b) een reeks van onderscheiden goederen of die….

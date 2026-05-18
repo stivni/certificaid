@@ -21,6 +21,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > IAS 38 — Immateriële activa regelt de boekhoudkundige verwerking van **identificeerbare, niet-monetaire activa zonder fysieke vorm** (alinea 8).
 
+> [!info] Specialisatie van: [[immateriele-vaste-activa]]
+
 IAS 38 — Immateriële activa regelt de boekhoudkundige verwerking van **identificeerbare, niet-monetaire activa zonder fysieke vorm** (alinea 8). Drie cumulatieve definitie-eisen: (1) identificeerbaar — afscheidbaar OF voortkomend uit contractuele/juridische rechten; (2) entiteit heeft de zeggenschap (control); (3) toekomstige economische voordelen verwacht. Daarnaast twee opnamecriteria (alinea 21): waarschijnlijke instroom van economische voordelen + betrouwbaar bepaalbare kostprijs. Bij eerste opname tegen kostprijs (alinea 24). Na eerste opname: kostprijsmodel of herwaarderingsmodel (alinea 72-75) — maar herwaardering vereist een **actieve markt**, wat voor de meeste immateriële activa NIET het geval is. Twee scherpe regels: (a) **onderzoek wordt nooit geactiveerd** — kosten in winst of verlies (alinea 54-55); (b) **intern gegenereerde goodwill, merken, klantenbestanden mogen niet opgenomen worden** (alinea 48, 63). Voor afschrijving onderscheidt IAS 38 tussen activa met **beperkte gebruiksduur** (lineaire of andere methode, jaarlijks herzien) en **onbepaalde gebruiksduur** (geen afschrijving; jaarlijks impairment-test onder IAS 36).
 
 _Bron: IAS 38 alinea's 8, 12, 21, 24, 48, 54-57, 72_
@@ -94,7 +96,7 @@ _Grondslag: IAS 38 alinea 33-35 + IFRS 3_
 
 ## Zie ook
 
-- **Vereist kennis van**: [[bijzondere-waardevermindering-ias-36]]
+- **Vereist kennis van**: [[bijzondere-waardevermindering-ifrs]]
 
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.

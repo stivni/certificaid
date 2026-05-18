@@ -1,6 +1,6 @@
 {
-  "id": "herwaarderingsmodel-ias-16",
-  "naam": "Herwaarderingsmodel onder IAS 16",
+  "id": "herwaarderingsmodel-ifrs",
+  "naam": "Herwaarderingsmodel onder IFRS (IAS 16)",
   "node_type": "cluster",
   "schema_version": "1.5",
   "status": "seed",
@@ -275,11 +275,20 @@
       "confidence": "grounded"
     },
     {
-      "type": "vergelijkt-met",
+      "type": "specialisatie-van",
       "target": "herwaarderingsmeerwaarden",
-      "redenering": "Belgisch GAAP kent ook herwaarderingsmeerwaarden (KB WVV) maar met strengere voorwaarden — verwarringsrisico.",
-      "confidence": "grounded"
+      "redenering": "Regime-specialisatie (v4 §7): dit record is de IFRS-variant van de algemene cluster `herwaarderingsmeerwaarden`. Belgisch GAAP kent ook herwaarderingsmeerwaarden (KB WVV) maar met strengere voorwaarden — verwarringsrisico.",
+      "confidence": "grounded",
+      "regime": "IFRS"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "rename_propagation_log": [
+    {
+      "from": "herwaarderingsmodel-ias-16",
+      "to": "herwaarderingsmodel-ifrs",
+      "pass": "concept-extractie-v4-1.5.V",
+      "reason": "Bron-prefix smell (§17 regel 11): record-id bevatte bron-aanduiding zonder werkelijk parallel-regime onder andere bron."
+    }
+  ]
 }

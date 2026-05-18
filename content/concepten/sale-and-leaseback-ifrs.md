@@ -1,5 +1,5 @@
 ---
-title: Sale-and-leaseback onder IFRS 16
+title: Sale-and-leaseback onder IFRS (IFRS 16)
 tags:
 - concept
 - cluster
@@ -13,10 +13,10 @@ confidence: grounded
 node_type: cluster
 status: seed
 schema_version: '1.5'
-gegenereerd_uit: data/concepten/records/sale-and-leaseback-ifrs-16.json
+gegenereerd_uit: data/concepten/records/sale-and-leaseback-ifrs.json
 gegenereerd_op: '2026-05-18'
 ---
-# Sale-and-leaseback onder IFRS 16 ⚖️
+# Sale-and-leaseback onder IFRS (IFRS 16) ⚖️
 
 > [!summary] Korte inhoud
 > Een **sale-and-leaseback** (verkoop-en-terugleasing) is een samengestelde transactie waarbij één onderneming (de **verkoper-lessee**) een actief verkoopt aan een andere onderneming (de **koper-lessor**) en datzelfde actief onmiddellijk van de koper terugleaset (alinea 98).
@@ -125,7 +125,7 @@ _Grondslag: IFRS 16 B45-B47_
 
 - **Vereist kennis van**: [[right-of-use-actief]]
 - **Vereist kennis van**: [[leaseverplichting-ifrs]]
-- **Vereist kennis van**: [[prestatieverplichting-ifrs-15]]
+- **Vereist kennis van**: [[prestatieverplichting]]
 
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.

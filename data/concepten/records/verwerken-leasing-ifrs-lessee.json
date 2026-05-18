@@ -22,7 +22,7 @@
     "leasing-ifrs",
     "right-of-use-actief",
     "leaseverplichting-ifrs",
-    "ifrs-16-lessee-vs-lessor-overzicht",
+    "lessee-vs-lessor-leasing-ifrs",
     "leasing"
   ],
   "procedure_grondslag": {
@@ -216,7 +216,7 @@
     {
       "situatie": "Vergelijking: Zelena Bio NV (IFRS) versus Rotex Roeselare NV (BE-GAAP) sluiten elk een identiek 10-jarig huurcontract voor een productiehal, € 480.000/jaar. Rotex behandelt het als operationele lease.",
       "conclusie": "Zelena onder IFRS 16: ROU-actief € 3.894.000 + leaseverplichting € 3.894.000 op aanvangsdatum; W&V-last jaar 1 = afschrijving € 389.400 + rente € 155.760 = € 545.160. Rotex onder BE-GAAP (CBN 2015/04 — operationele lease): geen balansopname; W&V-last = € 480.000 (huurlast). Verschil EBITDA: Zelena toont € 480.000 hoger EBITDA (geen huur in EBITDA, wel afschrijving daaronder); ratio's debt/equity stijgen voor Zelena.",
-      "grondslag": "[[leasing-ifrs]] §single-model; [[leasing]] §be-gaap-onderscheid; [[ifrs-16-lessee-vs-lessor-overzicht]] §vergelijkingstabel",
+      "grondslag": "[[leasing-ifrs]] §single-model; [[leasing]] §be-gaap-onderscheid; [[lessee-vs-lessor-leasing-ifrs]] §vergelijkingstabel",
       "redenering": "IFRS 16 schaft het lessee-onderscheid operationeel/financieel af; BE-GAAP behoudt het. Dezelfde economische realiteit, twee verschillende balansposities en verschillende W&V-patronen. Examenvragen toetsen vaak dit verschil door één feiten-situatie onder beide stelsels te laten verwerken."
     }
   ],

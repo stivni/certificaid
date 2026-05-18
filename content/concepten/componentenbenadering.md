@@ -1,5 +1,5 @@
 ---
-title: Componentenbenadering (IAS 16) — afschrijving per onderdeel
+title: Componentenbenadering — afschrijving per onderdeel
 tags:
 - concept
 - cluster
@@ -14,10 +14,10 @@ confidence: grounded
 node_type: cluster
 status: seed
 schema_version: '1.5'
-gegenereerd_uit: data/concepten/records/componentenbenadering-ias-16.json
+gegenereerd_uit: data/concepten/records/componentenbenadering.json
 gegenereerd_op: '2026-05-18'
 ---
-# Componentenbenadering (IAS 16) — afschrijving per onderdeel ⚖️
+# Componentenbenadering — afschrijving per onderdeel ⚖️
 
 > [!summary] Korte inhoud
 > De componentenbenadering (IAS 16 alinea 43-47) verplicht een entiteit om elk **bestanddeel** (component) van een materieel vast actief met een **substantiële kostprijs** in verhouding tot de totale kostprijs van het actief **afzonderlijk af te schrijven** wanneer dat bestanddeel….

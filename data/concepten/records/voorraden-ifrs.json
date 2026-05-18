@@ -319,9 +319,10 @@
   ],
   "edges": [
     {
-      "type": "vergelijkt-met",
+      "type": "specialisatie-van",
       "target": "voorraden",
-      "redenering": "BE-GAAP versus IAS 2 — LIFO-verbod is het hoofdverschil.",
+      "regime": "IFRS",
+      "redenering": "Regime-specialisatie (v4 §7): dit record is de IFRS-variant van de algemene cluster `voorraden`. BE-GAAP versus IAS 2 — LIFO-verbod is het hoofdverschil.",
       "confidence": "grounded"
     },
     {
@@ -337,5 +338,14 @@
       "omschrijving": "Zelena Bio NV's voorraden grondstoffen op 31 december 2026: ingrediënt X — 50.000 kg, kostprijs gewogen gemiddelde € 12,50/kg = € 625.000. Vervangingskostprijs op balansdatum € 11,80/kg (markt prijs gedaald). Maar verwacht gereed product blijft boven kostprijs verkoopbaar → géén afschrijving van grondstof tot NRV (alinea 32). Boekwaarde voorraad ingrediënt X = € 625.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "edges_cleanup_log": [
+    {
+      "pass": "concept-extractie-v4-1.5.V",
+      "removed_deprecated_edges": [],
+      "migrated_to_specialisatie_van": [
+        "vergelijkt-met -> voorraden  →  specialisatie-van (regime=IFRS)"
+      ]
+    }
+  ]
 }

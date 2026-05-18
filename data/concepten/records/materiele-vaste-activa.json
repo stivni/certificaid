@@ -204,11 +204,6 @@
   ],
   "edges": [
     {
-      "type": "bevat",
-      "target": "terrein",
-      "redenering": "Terreinen zijn een specifieke subrubriek (220) met afwijkend regime (geen afschrijving)."
-    },
-    {
       "type": "vereist-kennis-van",
       "target": "afschrijvingen",
       "redenering": "MVA met beperkte gebruiksduur worden afgeschreven."
@@ -225,5 +220,14 @@
       "omschrijving": "Naaiatelier Ninove BV bezit: terrein € 320.000 (rubriek 220), gebouw € 480.000 (221), snij-installaties € 145.000 (230), machines en gereedschap € 218.000 (231), kantoormeubilair € 22.000 (240) en bedrijfswagens € 65.000 (242). Totaal bruto-aanschaffingswaarde € 1.250.000; netto-boekwaarde na cumul. afschrijvingen € 815.000 op de balans onder rubriek III 'Materiële vaste activa'."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "edges_cleanup_log": [
+    {
+      "pass": "concept-extractie-v4-1.5.V",
+      "removed_deprecated_edges": [
+        "bevat -> terrein"
+      ],
+      "migrated_to_specialisatie_van": []
+    }
+  ]
 }

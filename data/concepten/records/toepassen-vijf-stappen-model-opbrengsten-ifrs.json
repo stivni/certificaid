@@ -20,7 +20,7 @@
   },
   "gebaseerd_op_concepten": [
     "opbrengsten-ifrs",
-    "prestatieverplichting-ifrs-15",
+    "prestatieverplichting",
     "onderhanden-projecten-ifrs",
     "be-gaap-vs-ifrs-overzicht"
   ],
@@ -71,15 +71,15 @@
           "type": "conclusie"
         }
       ],
-      "hoe": "1. Volg [[prestatieverplichting-ifrs-15]] §onderscheiden-criteria voor de twee toetsen.\n2. Inventariseer alle beloofde goederen/diensten: bv. Zelena's contract = (a) softwarelicentie € 600.000, (b) implementatieservice € 200.000, (c) onderhoud 2 jaar € 200.000.\n3. Toets criterium (a) — afzonderlijk voordeel: licentie zonder implementatie kan klant elders laten doen → ja. Onderhoud is geen onderdeel van licentie zelf → ja.\n4. Toets criterium (b) — onderscheidbaar binnen context: implementatie is hoog-gestandaardiseerd en niet specifiek geïntegreerd met de software → ja, onderscheiden.\n5. Conclusie: 3 prestatieverplichtingen.\n",
+      "hoe": "1. Volg [[prestatieverplichting]] §onderscheiden-criteria voor de twee toetsen.\n2. Inventariseer alle beloofde goederen/diensten: bv. Zelena's contract = (a) softwarelicentie € 600.000, (b) implementatieservice € 200.000, (c) onderhoud 2 jaar € 200.000.\n3. Toets criterium (a) — afzonderlijk voordeel: licentie zonder implementatie kan klant elders laten doen → ja. Onderhoud is geen onderdeel van licentie zelf → ja.\n4. Toets criterium (b) — onderscheidbaar binnen context: implementatie is hoog-gestandaardiseerd en niet specifiek geïntegreerd met de software → ja, onderscheiden.\n5. Conclusie: 3 prestatieverplichtingen.\n",
       "valkuilen": [
         {
           "advies": "Voer beide criteria (afzonderlijk voordeel + onderscheidbaar in context) uit — niet één van de twee.",
           "vaak_fout": "Elke factuurregel automatisch als afzonderlijke prestatieverplichting beschouwen. Wanneer implementatie sterk geïntegreerd is met software (één combined output), is het één gecombineerde prestatieverplichting.",
-          "grondslag": "[[prestatieverplichting-ifrs-15]] §onderscheiden-binnen-context"
+          "grondslag": "[[prestatieverplichting]] §onderscheiden-binnen-context"
         }
       ],
-      "grondslag": "[[opbrengsten-ifrs]] §stap-2, [[prestatieverplichting-ifrs-15]] §criteria, IFRS 15 alinea 22-30"
+      "grondslag": "[[opbrengsten-ifrs]] §stap-2, [[prestatieverplichting]] §criteria, IFRS 15 alinea 22-30"
     },
     {
       "nr": 3,

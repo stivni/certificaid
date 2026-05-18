@@ -1,5 +1,5 @@
 ---
-title: Bijzondere waardevermindering (impairment) onder IAS 36
+title: Bijzondere waardevermindering onder IFRS (IAS 36)
 tags:
 - concept
 - cluster
@@ -15,10 +15,10 @@ confidence: grounded
 node_type: cluster
 status: seed
 schema_version: '1.5'
-gegenereerd_uit: data/concepten/records/bijzondere-waardevermindering-ias-36.json
+gegenereerd_uit: data/concepten/records/bijzondere-waardevermindering-ifrs.json
 gegenereerd_op: '2026-05-18'
 ---
-# Bijzondere waardevermindering (impairment) onder IAS 36 ⚖️
+# Bijzondere waardevermindering onder IFRS (IAS 36) ⚖️
 
 > [!summary] Korte inhoud
 > IAS 36 — Bijzondere waardevermindering van activa zorgt ervoor dat een entiteit haar activa niet boven hun **realiseerbare waarde** (recoverable amount) waardeert.

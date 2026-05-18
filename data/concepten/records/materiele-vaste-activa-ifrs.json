@@ -295,9 +295,10 @@
   ],
   "edges": [
     {
-      "type": "vergelijkt-met",
+      "type": "specialisatie-van",
       "target": "materiele-vaste-activa",
-      "redenering": "BE-GAAP versus IFRS-tegenhanger.",
+      "regime": "IFRS",
+      "redenering": "Regime-specialisatie (v4 §7): dit record is de IFRS-variant van de algemene cluster `materiele-vaste-activa`. BE-GAAP versus IFRS-tegenhanger.",
       "confidence": "grounded"
     },
     {
@@ -308,7 +309,7 @@
     },
     {
       "type": "vereist-kennis-van",
-      "target": "herwaarderingsmodel-ias-16",
+      "target": "herwaarderingsmodel-ifrs",
       "redenering": "Het herwaarderingsmodel is een bouwsteen die als apart concept verder uitgewerkt is.",
       "confidence": "grounded"
     }
@@ -319,5 +320,14 @@
       "omschrijving": "Zelena Bio NV verwerft een productie-installatie voor € 12.500.000 (aankoopprijs) + € 350.000 transport + € 750.000 installatie + € 200.000 ontmantelingsverplichting (verdisconteerd). Kostprijs IAS 16 = € 13.800.000. De installatie bestaat uit drie componenten met verschillende gebruiksduur: motor (€ 4.000.000, 8 jaar), reactor (€ 7.000.000, 20 jaar), bedieningssoftware (€ 2.800.000, 5 jaar) — elk afzonderlijk afgeschreven volgens IAS 16 alinea 43."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "edges_cleanup_log": [
+    {
+      "pass": "concept-extractie-v4-1.5.V",
+      "removed_deprecated_edges": [],
+      "migrated_to_specialisatie_van": [
+        "vergelijkt-met -> materiele-vaste-activa  →  specialisatie-van (regime=IFRS)"
+      ]
+    }
+  ]
 }

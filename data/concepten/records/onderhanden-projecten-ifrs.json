@@ -302,12 +302,6 @@
       "target": "opbrengsten-ifrs",
       "redenering": "Onderhanden projecten zijn een specifieke toepassing van IFRS 15 — over-periode-opname.",
       "confidence": "grounded"
-    },
-    {
-      "type": "vervangt",
-      "target": "ias-11-onderhanden-projecten",
-      "redenering": "IFRS 15 vervangt IAS 11 sinds 2018.",
-      "confidence": "grounded"
     }
   ],
   "voorbeelden": [
@@ -316,5 +310,14 @@
       "omschrijving": "Constructies Cattoir BV bouwt een specifiek geïnstalleerde productie-eenheid voor Zelena Bio NV (contract € 4.500.000, looptijd 18 maanden). De productie-eenheid is volledig op maat (geen alternatieve gebruiksmogelijkheid voor Cattoir — criterium c) en Cattoir heeft contractueel afdwingbaar recht op betaling van reeds verrichte prestaties bij eventuele beëindiging. → Opbrengstopname over periode via inputmethode: 'kosten gemaakt tot dusver / totaal verwachte kosten × transactieprijs'."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "edges_cleanup_log": [
+    {
+      "pass": "concept-extractie-v4-1.5.V",
+      "removed_deprecated_edges": [
+        "vervangt -> ias-11-onderhanden-projecten"
+      ],
+      "migrated_to_specialisatie_van": []
+    }
+  ]
 }

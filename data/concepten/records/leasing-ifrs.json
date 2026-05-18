@@ -269,12 +269,6 @@
   ],
   "edges": [
     {
-      "type": "vergelijkt-met",
-      "target": "leasing",
-      "redenering": "BE-GAAP versus IFRS 16 — materiële balansimpact bij eerste toepassing.",
-      "confidence": "grounded"
-    },
-    {
       "type": "specialisatie-van",
       "target": "leasing",
       "regime": "IFRS",
@@ -419,6 +413,10 @@
         "sale-and-leaseback-ifrs-16"
       ],
       "reden": "VERIFY 2026-05-18: deprecated `bevat`-edges; v4 §9 vereist correctie naar inverse `onderdeel-van` op target. Beide targets (right-of-use-actief, sale-and-leaseback-ifrs-16) hebben de inverse `onderdeel-van: leasing-ifrs` al; deprecated edges hier zijn dus redundant."
+    },
+    {
+      "pass": "concept-extractie-v4-1.5.V",
+      "reason": "Redundant vergelijkt-met -> leasing verwijderd; specialisatie-van -> leasing dekt de relatie al canoniek (v4 §9)."
     }
   ]
 }

@@ -21,6 +21,8 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > IAS 2 — Voorraden regelt de boekhoudkundige verwerking van voorraden onder IFRS. **Voorraden** (alinea 6) zijn activa: (a) aangehouden voor verkoop in het kader van de normale bedrijfsvoering; (b) in het productieproces voor dergelijke verkoop; OF (c) grond-/hulpstoffen die tijde….
 
+> [!info] Specialisatie van: [[voorraden]]
+
 IAS 2 — Voorraden regelt de boekhoudkundige verwerking van voorraden onder IFRS. **Voorraden** (alinea 6) zijn activa: (a) aangehouden voor verkoop in het kader van de normale bedrijfsvoering; (b) in het productieproces voor dergelijke verkoop; OF (c) grond-/hulpstoffen die tijdens het productieproces of de dienstverlening worden verbruikt. **Waarderingsregel**: voorraden worden gewaardeerd tegen de **laagste waarde** van **kostprijs** en **opbrengstwaarde** (net realisable value, NRV) — alinea 9. De **kostprijs** bestaat uit inkoopkosten + conversiekosten + andere kosten om voorraden op huidige locatie en in huidige staat te brengen (alinea 10). De **opbrengstwaarde** is de geschatte verkoopprijs in de normale bedrijfsvoering minus geschatte kosten van voltooiing en minus geschatte kosten om de verkoop te realiseren (alinea 6). Voor toerekening van kosten aan voorraadbestanddelen: **specifieke identificatie** voor niet-onderling-uitwisselbare voorraden of specifieke projecten (alinea 23); **FIFO** (eerst in, eerst uit) of **gewogen gemiddelde kostprijs** voor alle andere (alinea 25). **LIFO is verboden** onder IFRS — een belangrijk verschil met Belgisch GAAP.
 
 _Bron: IAS 2 alinea's 6, 9, 10, 25_

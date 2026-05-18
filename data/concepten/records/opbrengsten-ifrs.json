@@ -283,22 +283,29 @@
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "prestatieverplichting-ifrs-15",
+      "target": "prestatieverplichting",
       "redenering": "Prestatieverplichting is het kernconcept van IFRS 15 — verder uitgewerkt in eigen record.",
       "confidence": "grounded"
     },
     {
-      "type": "vergelijkt-met",
+      "type": "specialisatie-van",
       "target": "opbrengsten",
-      "redenering": "IFRS 15 versus oude IAS 18 + BE-GAAP-opbrengstregels.",
-      "confidence": "grounded"
-    },
-    {
-      "type": "vervangt",
-      "target": "ias-18-opbrengsten",
-      "redenering": "IFRS 15 vervangt IAS 18 en IAS 11 vanaf 1 januari 2018 — anchor van PO 1.5 is historisch.",
+      "regime": "IFRS",
+      "redenering": "Regime-specialisatie (v4 §7): dit record is de IFRS-variant van de algemene cluster `opbrengsten`. IFRS 15 versus oude IAS 18 + BE-GAAP-opbrengstregels.",
       "confidence": "grounded"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "vergelijkingsparen": [],
+  "edges_cleanup_log": [
+    {
+      "pass": "concept-extractie-v4-1.5.V",
+      "removed_deprecated_edges": [
+        "vervangt -> ias-18-opbrengsten"
+      ],
+      "migrated_to_specialisatie_van": [
+        "vergelijkt-met -> opbrengsten  →  specialisatie-van (regime=IFRS)"
+      ]
+    }
+  ]
 }

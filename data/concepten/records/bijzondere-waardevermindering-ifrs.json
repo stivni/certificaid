@@ -1,6 +1,6 @@
 {
-  "id": "bijzondere-waardevermindering-ias-36",
-  "naam": "Bijzondere waardevermindering (impairment) onder IAS 36",
+  "id": "bijzondere-waardevermindering-ifrs",
+  "naam": "Bijzondere waardevermindering onder IFRS (IAS 36)",
   "node_type": "cluster",
   "schema_version": "1.5",
   "status": "seed",
@@ -428,5 +428,13 @@
       ]
     }
   ],
-  "v4_pilot_v2_touched_at": "2026-05-18T03:00:00Z"
+  "v4_pilot_v2_touched_at": "2026-05-18T03:00:00Z",
+  "rename_propagation_log": [
+    {
+      "from": "bijzondere-waardevermindering-ias-36",
+      "to": "bijzondere-waardevermindering-ifrs",
+      "pass": "concept-extractie-v4-1.5.V",
+      "reason": "Bron-prefix smell (§17 regel 11): record-id bevatte bron-aanduiding zonder werkelijk parallel-regime onder andere bron."
+    }
+  ]
 }

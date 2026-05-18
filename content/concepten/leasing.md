@@ -21,8 +21,6 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > Een overeenkomst waarbij een **leasinggever** het gebruik van een goed (auto, machine, gebouw) afstaat aan een **leasingnemer** tegen periodieke vergoeding.
 
-> [!info] Specialisatie van: [[materiele-vaste-activa]]
-
 Een overeenkomst waarbij een **leasinggever** het gebruik van een goed (auto, machine, gebouw) afstaat aan een **leasingnemer** tegen periodieke vergoeding. Twee soorten met fundamenteel verschillende boekhoudkundige verwerking: (1) **Financiële leasing** — de leasingvergoedingen dekken de **integrale wedersamenstelling van het kapitaal** dat de gever in het goed investeerde (plus rente). Economisch een aankoop met financiering → activering bij leasingnemer (rubriek 25 MVA in leasing). (2) **Operationele leasing** — vergoedingen dekken NIET de integrale wedersamenstelling. Economisch een huur → kost in resultaat bij leasingnemer.
 
 _Bron: CBN 2015/04 — Leasing + KB WVV art. 3:43 (oud art. 95 KB W.Venn.)_
@@ -97,6 +95,7 @@ _Grondslag: CBN 2015/04_
 
 ## Zie ook
 
+- **Vereist kennis van**: [[materiele-vaste-activa]]
 - **Vereist kennis van**: [[afschrijvingen]]
 
 > [!todo] Voorbeeld ontbreekt voor dit concept

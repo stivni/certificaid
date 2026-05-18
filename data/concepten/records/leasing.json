@@ -219,20 +219,14 @@
   ],
   "edges": [
     {
-      "type": "specialisatie-van",
+      "type": "vereist-kennis-van",
       "target": "materiele-vaste-activa",
-      "redenering": "Financiële leasing leidt tot activering onder rubriek 25 MVA in leasing."
+      "redenering": "Financiële leasing activeert het actief onder rubriek 25 MVA: leasing als fenomeen is geen regime-specialisatie van MVA, maar veronderstelt MVA-kennis (v4 §9 correctie)."
     },
     {
       "type": "vereist-kennis-van",
       "target": "afschrijvingen",
       "redenering": "Geleased actief wordt afgeschreven volgens normale MVA-regels."
-    },
-    {
-      "type": "vergelijkt-met",
-      "target": "sale-and-leaseback-ifrs-16",
-      "redenering": "Belgische GAAP-behandeling van sale-and-leaseback (art. 63 KB W.Venn., uitgestelde meerwaarde via overlopende rekening) verschilt fundamenteel van IFRS 16 alinea 98-103.",
-      "confidence": "grounded"
     }
   ],
   "voorbeelden": [
@@ -241,5 +235,15 @@
       "omschrijving": "Transport Tongeren BV neemt een vrachtwagen (werkelijke waarde € 85.000) in financiële leasing voor 5 jaar; jaarlijkse vergoeding € 18.500 (kapitaal € 17.000 + intrest € 1.500) + koopoptie € 5.000 (5,9 % van € 85.000 < 15 %, dus financieel). Boekingen aanvang: Debet 252 MVA in leasing — meubilair/rollend € 85.000 / Credit 172 Leasingschulden € 85.000. Per jaar: Debet 172 € 17.000 + Debet 650 Intresten € 1.500 / Credit 550 Bank € 18.500; en afschrijving Debet 6302 € 17.000 / Credit 2529 € 17.000 (lineair 5 jaar)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "edges_cleanup_log": [
+    {
+      "pass": "concept-extractie-v4-1.5.V",
+      "reason": "vergelijkt-met -> sale-and-leaseback-ifrs verwijderd: sale-and-leaseback is een leasing-substructuur (al onder leasing-ifrs via onderdeel-van), geen verwarring-risico-paar (v4 §9)."
+    },
+    {
+      "pass": "concept-extractie-v4-1.5.V",
+      "reason": "Onjuiste specialisatie-van -> materiele-vaste-activa gemigreerd naar vereist-kennis-van: leasing is geen regime-/subtype-specialisatie van MVA."
+    }
+  ]
 }

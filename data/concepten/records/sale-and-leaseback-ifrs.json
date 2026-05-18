@@ -1,6 +1,6 @@
 {
-  "id": "sale-and-leaseback-ifrs-16",
-  "naam": "Sale-and-leaseback onder IFRS 16",
+  "id": "sale-and-leaseback-ifrs",
+  "naam": "Sale-and-leaseback onder IFRS (IFRS 16)",
   "node_type": "cluster",
   "schema_version": "1.5",
   "status": "seed",
@@ -353,7 +353,7 @@
     },
     {
       "type": "vereist-kennis-van",
-      "target": "prestatieverplichting-ifrs-15",
+      "target": "prestatieverplichting",
       "redenering": "IFRS 16 alinea 99 verwijst expliciet naar IFRS 15-criteria om te beoordelen of de overdracht een verkoop is — IFRS 15-prestatieverplichting-toets moet doorlopen worden.",
       "confidence": "grounded"
     },
@@ -370,5 +370,13 @@
       "omschrijving": "Zelena Bio NV bezit haar productiehal in Antwerpen (boekwaarde € 4.000.000, reële waarde € 6.000.000). Op 1 januari 2026 verkoopt zij de hal aan Aurelia Holding NV voor € 6.000.000 én sluit gelijktijdig een 10-jarige lease aan € 480.000/jaar (marginale rentevoet 4%, contante waarde betalingen ≈ € 3.894.000). De overdracht voldoet aan IFRS 15: Aurelia heeft de zeggenschap verworven. Onder IFRS 16 alinea 100 boekt Zelena: (1) actief wegboeken voor boekwaarde € 4.000.000; (2) ROU opnemen voor het *behouden* gebruiksrecht = € 4.000.000 × (€ 3.894.000 / € 6.000.000) = € 2.596.000; (3) leaseverplichting € 3.894.000; (4) winst op verkoop alleen op het *overgedragen* deel = (€ 6.000.000 − € 4.000.000) × ((€ 6.000.000 − € 3.894.000) / € 6.000.000) = € 2.000.000 × 0,351 ≈ € 702.000. Geen volledige winstrealisatie van € 2.000.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "rename_propagation_log": [
+    {
+      "from": "sale-and-leaseback-ifrs-16",
+      "to": "sale-and-leaseback-ifrs",
+      "pass": "concept-extractie-v4-1.5.V",
+      "reason": "Bron-prefix smell (§17 regel 11): record-id bevatte bron-aanduiding zonder werkelijk parallel-regime onder andere bron."
+    }
+  ]
 }

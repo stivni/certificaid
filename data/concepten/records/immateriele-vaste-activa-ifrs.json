@@ -259,14 +259,15 @@
   ],
   "edges": [
     {
-      "type": "vergelijkt-met",
+      "type": "specialisatie-van",
       "target": "immateriele-vaste-activa",
-      "redenering": "BE-GAAP versus IFRS-tegenhanger.",
+      "regime": "IFRS",
+      "redenering": "Regime-specialisatie (v4 §7): dit record is de IFRS-variant van de algemene cluster `immateriele-vaste-activa`. BE-GAAP versus IFRS-tegenhanger.",
       "confidence": "grounded"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "bijzondere-waardevermindering-ias-36",
+      "target": "bijzondere-waardevermindering-ifrs",
       "redenering": "Onbepaalde-gebruiksduur-immateriële activa worden jaarlijks getest op impairment onder IAS 36.",
       "confidence": "grounded"
     }
@@ -277,5 +278,14 @@
       "omschrijving": "Zelena Bio NV ontwikkelt een nieuw farmaceutisch productieproces. Uitgaven 2025 totaal € 1.000.000, waarvan € 900.000 vóór 1 december 2025 (onderzoeksfase — als kost) en € 100.000 ná 1 december 2025 (ontwikkelingsfase — geactiveerd want zes criteria alinea 57 vervuld). Immaterieel actief op balans per 31 december 2025 = € 100.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "edges_cleanup_log": [
+    {
+      "pass": "concept-extractie-v4-1.5.V",
+      "removed_deprecated_edges": [],
+      "migrated_to_specialisatie_van": [
+        "vergelijkt-met -> immateriele-vaste-activa  →  specialisatie-van (regime=IFRS)"
+      ]
+    }
+  ]
 }

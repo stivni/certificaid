@@ -1,5 +1,5 @@
 ---
-title: Toetsen van een actief op bijzondere waardevermindering onder IAS 36
+title: Toetsen van een actief op bijzondere waardevermindering onder IFRS (IAS 36)
 tags:
 - concept
 - competentie
@@ -15,10 +15,10 @@ confidence: inferred
 node_type: competentie
 status: voorgesteld
 schema_version: '1.5'
-gegenereerd_uit: data/concepten/records/toetsen-bijzondere-waardevermindering-ias-36.json
+gegenereerd_uit: data/concepten/records/toetsen-bijzondere-waardevermindering-ifrs.json
 gegenereerd_op: '2026-05-18'
 ---
-# Toetsen van een actief op bijzondere waardevermindering onder IAS 36 🤖
+# Toetsen van een actief op bijzondere waardevermindering onder IFRS (IAS 36) 🤖
 
 
 ## Stappen
@@ -38,13 +38,13 @@ Toets op balansdatum (of vaker bij triggers) op externe en interne aanwijzingen 
 
 **🛠️ Hoe**:
 
-1. Volg [[bijzondere-waardevermindering-ias-36]] §stap-1 voor de standaardlijst van aanwijzingen (alinea 12).
+1. Volg [[bijzondere-waardevermindering-ifrs]] §stap-1 voor de standaardlijst van aanwijzingen (alinea 12).
 2. Doorloop voor Zelena Bio NV: marktrentes gestegen (externe aanwijzing — verhoogde disconteringsvoet kan bedrijfswaarde drukken); operationele marges productielijn 'PL-3' gedaald van 18 % naar 6 % (interne aanwijzing — slechtere prestaties); een patent verloopt over 2 jaar (interne aanwijzing — kortere kasstroomhorizon).
 3. Conclusie: lijst activa/CGU's voor volledige test = productielijn PL-3 (€ 12.000.000 boekwaarde) + goodwill segment 'Bio-feed' (€ 8.500.000, jaarlijkse test sowieso verplicht).
 4. Documenteer aanwijzingen + scope in werkpapier.
 
 
-**Grondslag**: [[bijzondere-waardevermindering-ias-36]] §stap-1, IAS 36 alinea 9-17
+**Grondslag**: [[bijzondere-waardevermindering-ifrs]] §stap-1, IAS 36 alinea 9-17
 
 ### 2. Identificeer het kasstroomgenererende niveau (individueel actief of CGU)
 
@@ -60,13 +60,13 @@ Bepaal of het actief zelfstandig kasstromen genereert (dan: individueel testen) 
 
 **🛠️ Hoe**:
 
-1. Volg [[bijzondere-waardevermindering-ias-36]] §cgu-afbakening voor de criteria.
+1. Volg [[bijzondere-waardevermindering-ifrs]] §cgu-afbakening voor de criteria.
 2. Voor productielijn PL-3 van Zelena Bio: lijn produceert biologisch veevoer dat afzonderlijk wordt verkocht aan klanten → onafhankelijke kasstroom mogelijk → CGU = de productielijn zelf met haar machines + voorraad + werkkapitaal (boekwaarde € 12.000.000).
 3. Voor goodwill 'Bio-feed' segment: goodwill genereert zelf geen kasstromen → toets op het **laagste niveau** waar de goodwill wordt opgevolgd (alinea 80) — typisch business segment. CGU = volledig segment Bio-feed (€ 45.000.000 boekwaarde inclusief goodwill).
 4. Documenteer CGU-grenzen, consistentie met vorige periodes (alinea 72), en de allocatie van goodwill aan CGU's.
 
 
-**Grondslag**: [[bijzondere-waardevermindering-ias-36]] §cgu-afbakening, IAS 36 alinea 65-87
+**Grondslag**: [[bijzondere-waardevermindering-ifrs]] §cgu-afbakening, IAS 36 alinea 65-87
 
 ### 3. Bereken de realiseerbare waarde (hoogste van reële waarde min verkoopkosten en bedrijfswaarde)
 
@@ -84,7 +84,7 @@ Bepaal of het actief zelfstandig kasstromen genereert (dan: individueel testen) 
 
 **🛠️ Hoe**:
 
-1. Volg [[bijzondere-waardevermindering-ias-36]] §realiseerbare-waarde voor de definitie.
+1. Volg [[bijzondere-waardevermindering-ifrs]] §realiseerbare-waarde voor de definitie.
 2. **Reële waarde min verkoopkosten** productielijn PL-3: taxatie tweedehandsmarkt machines € 7.500.000 − afbraakkosten € 200.000 = **€ 7.300.000**.
 3. **Bedrijfswaarde** PL-3: prognose 5 jaar netto-kasstroom (€ 2.000.000; € 1.800.000; € 1.500.000; € 1.200.000; € 900.000) + terminal value (kasstroom jaar 5 × 2) = € 1.800.000. Disconteringsvoet 9 % (WACC vóór belasting, asset-specifiek aangepast). Contante waarde = bv. € 1.835.000 + € 1.515.000 + € 1.158.000 + € 850.000 + € 585.000 + terminal contante € 1.170.000 = **€ 7.113.000**.
 4. Realiseerbare waarde = max(€ 7.300.000; € 7.113.000) = **€ 7.300.000**.
@@ -122,7 +122,7 @@ Bepaal of het actief zelfstandig kasstromen genereert (dan: individueel testen) 
 >    
 >
 
-**Grondslag**: [[bijzondere-waardevermindering-ias-36]] §realiseerbare-waarde, IAS 36 alinea 18-57
+**Grondslag**: [[bijzondere-waardevermindering-ifrs]] §realiseerbare-waarde, IAS 36 alinea 18-57
 
 ### 4. Vergelijk met boekwaarde en boek de bijzondere waardevermindering
 
@@ -139,7 +139,7 @@ Indien realiseerbare waarde < boekwaarde → boek het verschil als bijzondere wa
 
 **🛠️ Hoe**:
 
-1. Volg [[bijzondere-waardevermindering-ias-36]] §boeking-impairment voor de boekingsregel.
+1. Volg [[bijzondere-waardevermindering-ifrs]] §boeking-impairment voor de boekingsregel.
 2. Voor productielijn PL-3 Zelena Bio: boekwaarde € 12.000.000 versus realiseerbare waarde € 7.300.000 → **impairment € 4.700.000**.
 3. Allocatie: PL-3 bevat geen goodwill, dus heel het bedrag verlaagt activa pro rata over de componenten van de CGU. Bv. machines −€ 3.200.000; gebouw −€ 1.000.000; werkkapitaal niet onder grens (alinea 105 — actief mag niet onder hogere van reële waarde, bedrijfswaarde, nul gedrukt worden).
 4. Boek: debet 'Bijzondere waardeverminderingen' € 4.700.000 (W&V); credit 'Cumulatieve waardevermindering productielijn PL-3' € 4.700.000.
@@ -174,12 +174,12 @@ Indien realiseerbare waarde < boekwaarde → boek het verschil als bijzondere wa
 >    
 >
 
-**Grondslag**: [[bijzondere-waardevermindering-ias-36]] §boeking-impairment, IAS 36 alinea 58-99 + 104 + 124
+**Grondslag**: [[bijzondere-waardevermindering-ifrs]] §boeking-impairment, IAS 36 alinea 58-99 + 104 + 124
 
 > [!warning]- Bij CGU met goodwill: eerst alle goodwill afboeken vóór andere activa te raken — en goodwill-impairment is nooit terug te nemen.
 >
 > _Vaak fout gedaan_: Goodwill-impairment in latere jaren terugnemen omdat de markt opnieuw aantrekt. IAS 36 alinea 124 verbiedt dit categorisch.
 >
-> _Grondslag_: [[bijzondere-waardevermindering-ias-36]] §terugname
+> _Grondslag_: [[bijzondere-waardevermindering-ifrs]] §terugname
 
 
