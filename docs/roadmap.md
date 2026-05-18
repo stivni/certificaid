@@ -2,6 +2,8 @@
 
 Werkdocument — geen ADR. Beschrijft *welke fasen* in welke volgorde worden aangepakt en wat "klaar genoeg om door te schuiven" per fase betekent. Architecturale beslissingen leven in [`docs/adr/`](adr/INDEX.md).
 
+> **Update 2026-05-18**: Fasen 0-4 zijn substantieel geleverd. Schema 1.5 + EXTRACT v4 + records-API met content-sync + matches-store delta-driven zijn operationeel. Eerste content-review-pass loopt op PO 1.5. Zie [`docs/TODO.md`](TODO.md) voor operationele next steps.
+
 ## Mindset
 
 - **POC met protoduction-aanname** — alle code wordt productie-code. We bouwen geen wegwerpprototype.
