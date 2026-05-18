@@ -74,7 +74,9 @@ gegenereerd_op: '2026-05-18'
 
 ## Leesgids
 
-Deze cursus loopt van het EU-kader naar de individuele IFRS-standaarden naar de overgangsmechanismen. Begin bij de twee referentiestelsels (BE-GAAP versus IFRS) en de vraag *wie* IFRS moet of mag toepassen — daarna duiken we per onderwerp (IAS 1, IAS 16, IAS 36, IFRS 15, IAS 2, IFRS 16) in de standaard zelf én in de competentie om hem toe te passen. De cheatsheet onderaan bundelt drempelwaarden en verwarrende paren voor laatste herhaling.
+Deze cursus loopt van het EU-kader naar de individuele IFRS-standaarden naar de overgangsmechanismen. Begin bij de twee referentiestelsels (BE-GAAP versus IFRS) en de vraag *wie* IFRS moet of mag toepassen — pas daarna heeft het zin om in de standaarden zelf te duiken. Per onderwerp (IAS 1, IAS 16, IAS 36, IFRS 15, IAS 2, IFRS 16) krijg je eerst een thematisch overzicht en daarna de bijhorende competentie om de regels op een dossier toe te passen.
+
+De laatste sectie ("Synthese-stappenplan") bundelt het hele proces tot één werkschema voor een groep die overstapt. De cheatsheet onderaan dient als snelreferentie tijdens laatste herhaling — drempelwaarden, verwarrende paren met BE-GAAP, en de matrix van conceptuele tegenstellingen.
 
 ## Waarom dit programmaonderdeel telt
 
@@ -82,13 +84,15 @@ Het Belgisch boekhoudrecht en IFRS staan naast elkaar — niet door elkaar. Voor
 
 ## Waarom IFRS naast Belgisch GAAP? Twee referentiestelsels, één economische realiteit
 
-Eén onderneming kan onder twee stelsels een verschillende jaarrekening krijgen — niet door rekenfouten, maar door fundamenteel andere uitgangspunten. BE-GAAP is rule-based en juridisch-fiscaal georiënteerd; IFRS is principle-based en gericht op investeerders die vergelijkbare cijfers willen zien over EU-grenzen heen. Wie de twee stelsels naast elkaar leert lezen, ziet sneller waar de échte beslissingsmomenten zitten — en kan een groep helpen die tussen beide moet schakelen.
+Eén onderneming kan onder twee stelsels een wezenlijk andere jaarrekening krijgen — niet door rekenfouten, maar door fundamenteel andere uitgangspunten. BE-GAAP is rule-based en juridisch-fiscaal georiënteerd: vaste schema's, voorzichtigheidsbeginsel, weinig ruimte voor reële waarde. IFRS is principle-based en gericht op investeerders die vergelijkbare cijfers willen zien over EU-grenzen heen: meer professional judgment, ruimere herwaardering, strengere voorwaarden voor activering.
+
+Voor jou betekent dit een dubbele leesvaardigheid. Je moet bij elke jaarrekening eerst weten *onder welk stelsel* je naar de cijfers kijkt — anders interpreteer je een herwaarderingsmeerwaarde, een impairment of een leaseverplichting verkeerd. Wie de twee stelsels naast elkaar leert lezen, ziet ook sneller waar de échte beslissingsmomenten zitten en kan een groep helpen die tussen beide moet schakelen.
 
 ## Het Europese kader: richtlijn 2013/34/EU en verordening 1606/2002
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Het EU-kader bestaat uit twee instrumenten met andere reikwijdte. De richtlijn harmoniseert de *minimuminhoud* van nationale jaarrekeningen (geïmplementeerd in België via het KB WVV — zie [[eu-harmonisatie-jaarrekeningenrecht]]). De verordening verplicht *IFRS* voor geconsolideerde rekeningen van EU-beursgenoteerden ([[verplichte-ifrs-eu-beursgenoteerden]]) en regelt de [[endorsement-procedure-eu|endorsement-procedure]] waarmee IASB-standaarden in EU-recht omgezet worden.
+Het EU-kader bestaat uit twee instrumenten met andere reikwijdte, en ze worden vaak verward op het examen. De richtlijn harmoniseert de *minimuminhoud* van nationale jaarrekeningen — Belgisch geïmplementeerd via het KB WVV (zie [[eu-harmonisatie-jaarrekeningenrecht]]). De verordening verplicht *IFRS* voor geconsolideerde rekeningen van EU-beursgenoteerden ([[verplichte-ifrs-eu-beursgenoteerden]]) en regelt de [[endorsement-procedure-eu|endorsement-procedure]] waarmee IASB-standaarden door EFRAG en de Europese Commissie in EU-recht omgezet worden. Onthoud het verschil: richtlijn = nationale jaarrekening, verordening = direct toepasbare IFRS voor beursgenoteerden.
 
 - [[richtlijn-2013-34-eu]] — record niet gevonden
 - [[ifrs-verordening-1606-2002]] — record niet gevonden
@@ -96,7 +100,9 @@ Het EU-kader bestaat uit twee instrumenten met andere reikwijdte. De richtlijn h
 
 ## Belgisch GAAP versus IFRS — overzicht van hoofdverschillen
 
-Hieronder een vergelijking op de twaalf assen waar BE-GAAP en IFRS materieel verschillen, gevolgd door de beslisboom *"welke jaarrekening moet ik hier maken?"*. Lees de tabel verticaal per onderwerp en horizontaal per stelsel — zo herken je in een casus snel welk regime de bron-cijfers verklaart.
+Tijd om de twee stelsels naast elkaar te leggen. De tabel hieronder vergelijkt op twaalf assen waar BE-GAAP en IFRS materieel verschillen — van het algemene kader tot specifieke posten zoals leasing, opbrengsten en voorzieningen. De beslisboom daaronder beantwoordt de openingsvraag van elk dossier: *"welke jaarrekening moet ik hier maken?"*
+
+Lees de tabel verticaal per onderwerp en horizontaal per stelsel. Probeer telkens vóór je naar de "belangrijkste gevolg"-kolom kijkt zelf het effect op de balans of de resultatenrekening te voorspellen — dat is de oefening die je op het examen ook moet maken. Onder de tabel staan de kerninzichten die de stagiair-bril aanreiken: drie thematische clusters waaronder elk verschil valt te ordenen.
 
 | Aspect                          | Belgisch GAAP (KB WVV)                                              | IFRS                                                                                       | Belangrijkste gevolg                                                                                       |
 |--------------------------------|---------------------------------------------------------------------|--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
@@ -138,13 +144,17 @@ _Bouwt op_: [[eu-harmonisatie-jaarrekeningenrecht]] · [[verplichte-ifrs-eu-beur
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Bij elke nieuwe opdracht doorloop je eerst deze beslissingsketen: enkelvoudig of geconsolideerd → beursnotering → sector. Het antwoord bepaalt of je überhaupt IFRS-vragen mag stellen. De volledige stappenprocedure plus uitzonderingen voor consortia en kleine groepen vind je in de competentie.
+Bij elke nieuwe opdracht doorloop je eerst deze beslissingsketen: enkelvoudig of geconsolideerd → beursnotering → sector → vrijwillige optie? Het antwoord bepaalt niet alleen welk stelsel je hanteert, maar ook of bepaalde regels überhaupt van toepassing zijn. Een enkelvoudige Belgische NV-jaarrekening kan nooit IFRS zijn — dat is BE-GAAP, ongeacht beursnotering van de groep.
+
+De volledige stappenprocedure inclusief uitzonderingen voor consortia, vrijwillige IFRS-toepassing (zeldzaam), en de overgangsregels bij verlies van beursnotering vind je in de competentie. Werk dit door als eerste oefening — alle andere standaarden bouwen op deze beslissing voort.
 
 [[competenties/bepalen-toepasselijkheid-ifrs-belgie|→ Volledige procedure]]
 
 ## IAS 1 — Presentatie van de jaarrekening: vijf componenten en presentatiebeginselen
 
-Onder IFRS ziet de jaarrekening er anders uit dan onder BE-GAAP: vijf componenten in plaats van drie ([[jaarrekening-componenten-ifrs]]), met verplicht mutatieoverzicht eigen vermogen en kasstroomoverzicht voor *elke* IFRS-toepasser — geen drempels. De [[presentatiebeginselen-jaarrekening-ifrs|presentatiebeginselen]] (continuïteit, accrual basis, materialiteit, going concern) bepalen *hoe* je de cijfers presenteert.
+Onder IFRS ziet de jaarrekening er fundamenteel anders uit dan onder BE-GAAP. Waar het Belgisch schema drie componenten kent (balans + W&V + toelichting, plus kasstroom en bestuursverslag voor groot schema), eist IAS 1 vijf verplichte componenten — voor *iedereen* die IFRS toepast, ongeacht omvang ([[jaarrekening-componenten-ifrs]]). Het mutatieoverzicht eigen vermogen en het kasstroomoverzicht zijn dus geen optie maar regel.
+
+De [[presentatiebeginselen-jaarrekening-ifrs|presentatiebeginselen]] (continuïteit, accrual basis, materialiteit, consistentie, going concern) bepalen *hoe* je de cijfers presenteert. Vooral materialiteit en consistentie zijn examen-relevant: ze sturen welke toelichtingen je opneemt en wanneer je een grondslag mag wijzigen.
 
 - [[ias-1-jaarrekening-componenten]] — record niet gevonden
 - [[ias-1-presentatie-beginselen]] — record niet gevonden
@@ -155,7 +165,9 @@ Onder IFRS ziet de jaarrekening er anders uit dan onder BE-GAAP: vijf componente
 
 ## Presenteren van een IFRS-jaarrekening
 
-Bij het opstellen van een IFRS-rekening werk je de vijf componenten af in een vaste volgorde, met materialiteit als rode draad voor wat in toelichtingen komt. De competentie zet de stappen op een rij — van rubrieken-keuze tot toelichtingsstructuur.
+Bij het opstellen van een IFRS-rekening werk je de vijf componenten af in een vaste volgorde, met materialiteit als rode draad voor wat in toelichtingen komt en wat je weglaat. De volgorde is geen detail: vlottende/niet-vlottende presentatie in balans, scheiding W&V en overig totaalresultaat (OCI) in resultaat, mutaties per categorie in eigen vermogen. Een afwijkende volgorde kan rechtmatig zijn maar vereist toelichting.
+
+De competentie zet de stappen op een rij — van rubrieken-keuze tot toelichtingsstructuur — en wijst op de plekken waar BE-GAAP-gewoontes je in de weg zitten.
 
 [[competenties/presenteren-ifrs-jaarrekening-volgens-ias-1|→ Volledige procedure]]
 
@@ -163,7 +175,9 @@ Bij het opstellen van een IFRS-rekening werk je de vijf componenten af in een va
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Materiële en immateriële vaste activa volgen onder IFRS hetzelfde basisprincipe (kostprijs of herwaardering, keuze per categorie) maar verschillen in toepassing: bij [[materiele-vaste-activa-ifrs|materiële activa (IAS 16)]] is de componentenbenadering verplicht zodra onderdelen substantieel zijn, bij [[immateriele-vaste-activa-ifrs|immateriële activa (IAS 38)]] geldt een striktere opname-test (onderzoek nooit activeren, ontwikkeling bij 6 criteria). De [[afschrijvingen-ifrs|afschrijvingsregels]] tonen waar BE-GAAP en IFRS uiteenlopen.
+Materiële en immateriële vaste activa volgen onder IFRS hetzelfde basisprincipe (kostprijs- of herwaarderingsmodel, keuze per categorie van activa) maar verschillen sterk in toepassing. Bij [[materiele-vaste-activa-ifrs|materiële activa (IAS 16)]] is de componentenbenadering verplicht zodra onderdelen substantieel zijn — een vliegtuig met motor, romp en interieur krijgt drie afschrijvingsplannen, geen één. Bij [[immateriele-vaste-activa-ifrs|immateriële activa (IAS 38)]] geldt een striktere opname-test: onderzoek mag *nooit* worden geactiveerd, ontwikkeling alleen bij zes cumulatieve criteria.
+
+Het herwaarderingsmodel is een grondslagkeuze, geen jaarlijkse beslissing — eenmaal gekozen voor een categorie, blijft het van toepassing tot de groep er expliciet vanaf wil (IAS 8). De [[afschrijvingen-ifrs|afschrijvingsregels]] tonen waar BE-GAAP en IFRS uiteenlopen, vooral rond restwaarde en gebruiksduur-herziening.
 
 - [[materiele-vaste-activa-ifrs|Materiële vaste activa onder IFRS (IAS 16)]] · `regel`
 - [[immateriele-vaste-activa-ifrs|Immateriële activa onder IFRS (IAS 38)]] · `regel`
@@ -175,19 +189,25 @@ Materiële en immateriële vaste activa volgen onder IFRS hetzelfde basisprincip
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-De keuze tussen kostprijs- en herwaarderingsmodel maak je per *categorie* (niet per actief) en is een grondslagkeuze: een wissel achteraf vereist retroactieve aanpassing onder IAS 8. De competentie zet de afschrijvings- en herwaarderingsboekingen op een rij — inclusief de herwaarderingsreserve en de impact op uitgestelde belastingen.
+De keuze tussen kostprijs- en herwaarderingsmodel maak je per *categorie* (niet per actief) en is een grondslagkeuze. Een wissel achteraf vereist retroactieve aanpassing onder IAS 8, dus de eerste keuze weegt zwaar — vooral voor vastgoedportefeuilles waar herwaardering aanzienlijke impact heeft op het eigen vermogen.
+
+De competentie zet de afschrijvings- en herwaarderingsboekingen op een rij — inclusief de herwaarderingsreserve (in OCI, niet via resultaat), de jaarlijkse realisatie van de meerwaarde naar ingehouden winsten, en de impact op uitgestelde belastingen. Voor casussen op het examen: leer hoe een herwaardering een latere impairment beïnvloedt (eerst de reserve afbouwen, pas daarna naar W&V).
 
 [[competenties/waarderen-materiele-vaste-activa-ifrs|→ Volledige procedure]]
 
 ## Bijzondere waardevermindering onder IAS 36: indicaties, CGU en realiseerbare waarde
 
-Niet elk verlies aan waarde is een impairment: IAS 36 vraagt een specifieke procedure waarbij je eerst indicaties zoekt, dan de [[bijzondere-waardevermindering-ifrs|realiseerbare waarde]] vergelijkt met de boekwaarde — vaak op CGU-niveau omdat individuele activa geen eigen kasstromen genereren. Het verschil tussen impairment (verlaging) en herwaardering (verhoging) loopt via twee verschillende balansrubrieken, ook in dezelfde periode.
+Niet elk verlies aan waarde is een impairment, en niet elke impairment-test gebeurt op individueel niveau. IAS 36 vraagt een specifieke procedure: zoek indicaties (extern: marktwaarde gedaald; intern: schade, leegstand), bepaal het toetsingsniveau (individueel actief óf CGU als het actief geen eigen kasstromen genereert), en vergelijk de [[bijzondere-waardevermindering-ifrs|realiseerbare waarde]] met de boekwaarde.
+
+Het verschil tussen impairment (verlaging) en herwaardering (verhoging) loopt via twee verschillende balansrubrieken, en dezelfde post kan in eenzelfde periode beide ondergaan. Goodwill verdient extra aandacht: de jaarlijkse impairment-test is verplicht, ongeacht indicaties — een unieke uitzondering op de "alleen bij indicatie"-regel die voor andere activa geldt.
 
 - [[bijzondere-waardevermindering-ias-36]] — record niet gevonden
 
 ## Toetsen van een actief op bijzondere waardevermindering
 
-Bij een impairment-toets doorloop je vier vragen in volgorde: bestaat er een indicatie, op welk niveau toets je (individueel actief of CGU), wat is de realiseerbare waarde, en hoeveel boek je. De competentie toont de berekening met DCF-onderbouwing en de allocatie binnen een CGU bij goodwill.
+Bij een impairment-toets doorloop je vier vragen in volgorde: bestaat er een indicatie (of geldt jaarlijkse toets voor goodwill/onbepaalde gebruiksduur), op welk niveau toets je (individueel actief of CGU), wat is de realiseerbare waarde (hoogste van marktwaarde minus verkoopkosten OF gebruikswaarde via DCF), en hoeveel boek je. Bij een CGU met goodwill geldt een specifieke allocatie-volgorde: eerst de goodwill afboeken, daarna de andere activa pro rata.
+
+De competentie toont de berekening met DCF-onderbouwing, de allocatie binnen een CGU, en de boeking in BE-GAAP-vergelijkingstabel. Werk hem door op een case waar zowel goodwill als materiële activa een impairment ondergaan — dat is een klassieker op het examen.
 
 [[competenties/toetsen-bijzondere-waardevermindering-ias-36|→ Volledige procedure]]
 
@@ -195,7 +215,9 @@ Bij een impairment-toets doorloop je vier vragen in volgorde: bestaat er een ind
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-IFRS 15 vervangt de oude transactie-georiënteerde opbrengsterkenning door een [[opbrengsten-ifrs|contract-georiënteerde aanpak]]: je analyseert het contract, identificeert de afzonderlijke [[prestatieverplichting|prestatieverplichtingen]], bepaalt de vergoeding, alloceert die over de verplichtingen, en herkent opbrengst pas wanneer een verplichting vervuld is. Voor [[onderhanden-projecten-ifrs|onderhanden projecten]] (bouw, software op maat) bepaalt dit model of je opbrengst *over de tijd* (percentage of completion) of *op een tijdstip* boekt.
+IFRS 15 heeft een fundamentele draai gemaakt in de opbrengsterkenning. Onder de oude IAS 18 (transactie-georiënteerd) keek je naar het overgaan van risico's en voordelen; onder IFRS 15 ([[opbrengsten-ifrs|contract-georiënteerd]]) analyseer je het contract als geheel.
+
+Het vijf-stappen-model loopt zo: (1) identificeer het contract, (2) identificeer de afzonderlijke [[prestatieverplichting|prestatieverplichtingen]] daarin, (3) bepaal de vergoeding (transactieprijs), (4) alloceer die over de verplichtingen, (5) herken opbrengst telkens wanneer een verplichting vervuld is. Voor [[onderhanden-projecten-ifrs|onderhanden projecten]] (bouw, software op maat) bepaalt dit model of je opbrengst *over de tijd* (percentage of completion) of *op een tijdstip* boekt — een keuze met grote winst-impact per kwartaal.
 
 - [[opbrengsten-ifrs|Opbrengsten onder IFRS (IFRS 15) — 5-stappen-model]] · `cluster`
 - [[prestatieverplichting-ifrs-15]] — record niet gevonden
@@ -205,7 +227,9 @@ IFRS 15 vervangt de oude transactie-georiënteerde opbrengsterkenning door een [
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Het model lijkt mechanisch maar vergt overal oordeel: vooral stap 2 (welke prestaties zijn *distinct*) en stap 4 (variable consideration, financieringscomponent) bepalen of meerdere contracten samenklappen of juist uiteenvallen. Werk de competentie door op een casus om te zien hoe de stappen elkaar in een keten beïnvloeden.
+Het model lijkt mechanisch maar vergt overal oordeel — daarom is het examen-favoriet. Vooral stap 2 (welke prestaties zijn écht *distinct* of vormen samen één geheel) en stap 4 (omgaan met variabele vergoeding, kortingen, financieringscomponent) bepalen of meerdere contracten samenklappen tot één opbrengst of juist uiteenvallen.
+
+Werk de competentie door op een casus zoals een softwarecontract met implementatie + licentie + onderhoud — dan zie je hoe de stappen elkaar in een keten beïnvloeden en hoe je de juiste keuze maakt voor *over de tijd* versus *op een tijdstip*-herkenning.
 
 [[competenties/toepassen-vijf-stappen-model-opbrengsten-ifrs|→ Volledige procedure]]
 
@@ -213,19 +237,25 @@ Het model lijkt mechanisch maar vergt overal oordeel: vooral stap 2 (welke prest
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-[[voorraden-ifrs|IAS 2]] laat alleen FIFO en gewogen gemiddelde toe — LIFO is verboden, anders dan onder BE-GAAP. Voor onderneming die migreren is dit een directe overgangsimpact: voorraad herrekenen op de openingsbalans, verschil naar ingehouden winsten.
+[[voorraden-ifrs|IAS 2]] laat alleen FIFO en gewogen gemiddelde toe — LIFO is verboden, anders dan onder BE-GAAP. Klein voorbeeld van een groot principe: IFRS prefereert methoden die de feitelijke voorraadbeweging volgen en die niet kunstmatig de winst kunnen aanpassen via boekhoudkundige keuzes.
+
+Voor een onderneming die overstapt is dit een directe overgangsimpact: alle voorraad herrekenen op de openingsbalans onder FIFO of gewogen gemiddelde, het verschil rechtstreeks naar ingehouden winsten. Voor jaarrekening-vergelijking tussen Belgische en internationale spelers verklaart dit deels waarom voorraadwaarderingen kunnen verschillen.
 
 - [[voorraden-ifrs|Voorraden onder IFRS (IAS 2)]] · `regel`
 
 ## ifrs-16-lessee-vs-lessor-overzicht
 
-Onder IFRS 16 zijn lessee en lessor *asymmetrisch* behandeld: de lessee herkent vrijwel altijd een [[right-of-use-actief|gebruiksrecht-actief]] en [[leaseverplichting-ifrs|leaseverplichting]] op de balans, de lessor maakt nog steeds onderscheid tussen operationele en financiële leasing zoals onder IAS 17. Bij het lezen van een groep-jaarrekening let je dus op beide kanten van een lease-contract.
+Onder IFRS 16 zijn lessee en lessor *asymmetrisch* behandeld — een belangrijke wijziging ten opzichte van IAS 17 waarin beide partijen dezelfde classificatie volgden. De lessee herkent vrijwel altijd een [[right-of-use-actief|gebruiksrecht-actief]] en [[leaseverplichting-ifrs|leaseverplichting]] op de balans (alleen heel korte leases of leases voor activa van lage waarde mogen off-balance blijven). De lessor maakt nog steeds onderscheid tussen operationele en financiële leasing zoals onder IAS 17 — die balans-impact is bij lessor onveranderd.
+
+Bij het lezen van een groep-jaarrekening let je dus op beide kanten van een lease-contract: als je een leaseverplichting ziet bij lessee, moet je niet automatisch een vordering bij lessor verwachten. De economische realiteit is dezelfde, de boekhoudkundige weerspiegeling niet.
 
 ## Leasing onder IFRS 16: right-of-use-actief en leaseverplichting bij lessee
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-De grote breuk met BE-GAAP zit hier: onder [[leasing-ifrs|IFRS 16]] komen *alle* leases on-balance bij de lessee. Het gebruiksrecht-actief wordt afgeschreven, de leaseverplichting financieel opgebouwd via rente — dus de jaarlijkse last is niet meer één huurkost maar een combinatie van afschrijving + rente. Ratio's debt/equity en EBITDA stijgen direct na overgang.
+Hier zit de grote breuk met BE-GAAP. Onder [[leasing-ifrs|IFRS 16]] komen *alle* leases on-balance bij de lessee, met enkele beperkte uitzonderingen. Het gebruiksrecht-actief wordt afgeschreven over de leaseperiode, de leaseverplichting wordt financieel opgebouwd via een effectieve-rente-methode — de jaarlijkse last is dus niet meer één huurkost maar een combinatie van afschrijving (vast over de looptijd) en rente (degressief, hoog in het begin).
+
+Direct na een eerste IFRS-toepassing zien lessee-balansen er dramatisch anders uit: meer activa, meer schulden, hogere debt/equity-ratio, hogere EBITDA (huurkost verdween uit operationele kosten, rente staat onder de EBITDA-lijn). Het is een van de meest zichtbare overgangs-effecten voor analisten en banken.
 
 - [[leasing-ifrs|Leasing onder IFRS (IFRS 16) — lessee-perspectief]] · `cluster`
 - [[right-of-use-actief|Right-of-use-actief (gebruiksrecht-actief) onder IFRS 16]] · `begrip`
@@ -235,7 +265,9 @@ De grote breuk met BE-GAAP zit hier: onder [[leasing-ifrs|IFRS 16]] komen *alle*
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-De competentie doorloopt de boekingsstappen: lease-betalingen contant maken aan de incrementele rentevoet, gebruiksrecht-actief en leaseverplichting opstellen, jaarlijks afschrijving (gebruiksrecht) plus rente (verplichting) splitsen. Voor [[sale-and-leaseback-ifrs|sale-and-leaseback]] geldt een extra IFRS 15-toets vooraf.
+De competentie doorloopt de boekingsstappen die je in praktijk maakt: lease-betalingen contant maken aan de incrementele rentevoet van de lessee (niet de marktrente), gebruiksrecht-actief en leaseverplichting initieel meten, en jaarlijks de afschrijving (vast) + rente (degressief) splitsen. Voor lease-modificaties (verlenging, scope-uitbreiding) geldt een herwaardering van zowel actief als verplichting.
+
+Voor [[sale-and-leaseback-ifrs|sale-and-leaseback]] geldt een extra IFRS 15-toets vooraf: als de verkoop kwalificeert als echte verkoop, splits je de transactie in twee delen; zo niet, blijft het actief op de balans van de verkoper-lessee en is de "opbrengst" een financiering.
 
 [[competenties/verwerken-leasing-ifrs-lessee|→ Volledige procedure]]
 
@@ -243,7 +275,9 @@ De competentie doorloopt de boekingsstappen: lease-betalingen contant maken aan 
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-Twee scenario's met andere mechaniek: een [[correctie-jaarrekening-ifrs|correctie]] onder IAS 8 / CBN 2020/12 betreft fouten of grondslagwijzigingen *binnen* één stelsel (retroactief). Een [[wijziging-boekhoudkundig-referentiestelsel|wissel van referentiestelsel]] (BE-GAAP ↔ IFRS) is iets anders — daar gelden IFRS 1 of CBN 2022/08 met openingsbalans-herrekening. Een examenvraag begint vaak met "Onderneming wijzigt..." — bepaal eerst *welk* type wijziging voordat je een artikel kiest.
+Het examen mixt graag drie soorten "wijzigingen" en de stagiair moet ze uit elkaar houden. Een [[correctie-jaarrekening-ifrs|correctie]] onder IAS 8 / CBN 2020/12 betreft fouten (typo's, foute toepassing) of grondslagwijzigingen *binnen* één stelsel — retroactief verwerken via aanpassing van openingsbalansen en vergelijkende cijfers. Een schattingswijziging (bv. herziening van afschrijvingsmethode) is iets totaal anders: prospectief, geen retroactieve aanpassing.
+
+Een [[wijziging-boekhoudkundig-referentiestelsel|wissel van referentiestelsel]] (BE-GAAP ↔ IFRS) loopt via een aparte procedure: IFRS 1 voor de richting BE-GAAP → IFRS, CBN 2022/08 voor IFRS → BE-GAAP, beide met volledige openingsbalans-herrekening. Een examenvraag begint vaak met "Onderneming wijzigt..." — bepaal eerst *welk* type wijziging dit is voordat je een artikel kiest. De verwarringsmatrix in de cheatsheet toont de drie scenario's met hun bron-regels.
 
 - [[correctie-jaarrekening-ifrs|Correctie van de jaarrekening — IAS 8 versus CBN 2020/12]] · `cluster`
 - [[wijziging-boekhoudkundig-referentiestelsel|Wijziging van boekhoudkundig referentiestelsel naar BE GAAP (CBN 2022/08)]] · `cluster`
@@ -252,13 +286,17 @@ Twee scenario's met andere mechaniek: een [[correctie-jaarrekening-ifrs|correcti
 
 > [!info] Hoort bij taak: Opstellen van de individuele en geconsolideerde jaarrekening
 
-[[ifrs-eerste-toepassing|IFRS 1]] is een eigen procedure die een groep ééns doorloopt: openingsbalans op de datum van transitie samenstellen, vrijstellingen kiezen waar IFRS 1 die toelaat, alle voorgaande BE-GAAP-poses retroactief converteren, aansluitingstabellen presenteren voor balans en resultaat. Het aanpassingsverschil komt rechtstreeks in ingehouden winsten — niet in resultaat van de overgangsperiode.
+[[ifrs-eerste-toepassing|IFRS 1]] is een eigen procedure die een groep ééns doorloopt en die volgens een vast stramien verloopt. Stel de openingsbalans op de datum van transitie samen — meestal het begin van het eerste vergelijkende boekjaar. Kies de vrijstellingen die IFRS 1 toelaat (typisch deemed cost voor materiële vaste activa, of een uitzondering op IAS 21 voor cumulatieve omrekeningsverschillen). Converteer alle BE-GAAP-poses retroactief, presenteer aansluitingstabellen voor balans (drie momenten: opening, eind vorig jaar, eind huidig jaar) én voor resultaat.
+
+Het aanpassingsverschil komt rechtstreeks in ingehouden winsten — niet in het resultaat van de overgangsperiode. Dat is een fundamentele eigenschap: IFRS-overgang is geen winst-event, het is een herwaardering van het eigen vermogen. Communiceer deze logica vooraf aan banken en analisten, anders ontstaat verwarring.
 
 [[competenties/uitvoeren-eerste-toepassing-ifrs|→ Volledige procedure]]
 
 ## Reflectie: IFRS als levend normenstelsel — IAS 17 → IFRS 16 en IAS 18 → IFRS 15
 
-IFRS evolueert. IAS 17 (leasing) is vervangen door IFRS 16, IAS 18 (opbrengsten) door IFRS 15 — beide met fundamenteel ander uitgangspunt. Bij oude case-materiaal moet je altijd checken welke versie destijds geldig was; bij nieuwe casussen werk je met de huidige standaard.
+IFRS staat niet stil. Twee grote vervangingen in de laatste jaren tonen waarom: IAS 17 (leasing) werd in 2019 vervangen door IFRS 16, IAS 18 (opbrengsten) in 2018 door IFRS 15. Beide met een fundamenteel ander uitgangspunt, niet alleen een verfijning.
+
+Voor jou als stagiair betekent dit twee dingen. Bij oude case-materiaal moet je altijd checken welke versie destijds geldig was — een impairment in 2017 onder IAS 17 verschilt sterk van een impairment in 2025 onder IFRS 16. Bij nieuwe casussen werk je met de huidige standaard. En verwacht dat er weer een grote wijziging komt: bijvoorbeeld de revisie van IAS 1 (presentatie) waarvan delen al van kracht zijn vanaf 2027.
 
 
 ## Synthese-stappenplan
@@ -310,7 +348,9 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 ## Examenfocus
 
-Het examen toetst hier vooral het *vermogen* om twee referentiestelsels naast elkaar te lezen — niet de details van een individuele standaard. Verwacht juist/fout-stellingen die BE-GAAP-regels naast IFRS-regels zetten (LIFO, voorzichtigheidsprincipe, leasing), plus open vragen over de wettelijke toepasselijkheid van IFRS in België. Check vóór elke vraag: gaat het over enkelvoudig of geconsolideerd, en onder welk regime is het cijfer berekend?
+Het examen toetst hier vooral het *vermogen* om twee referentiestelsels naast elkaar te lezen — niet de details van een individuele standaard. Verwacht juist/fout-stellingen die BE-GAAP-regels naast IFRS-regels zetten: LIFO toegestaan of niet, voorzichtigheidsprincipe versus reële waarde, leasing on-balance of off-balance. Daarnaast open vragen over de wettelijke toepasselijkheid van IFRS in België — wanneer mag of moet een onderneming overstappen?
+
+Voor elke vraag check je twee dingen vóór je antwoordt. Eerst: gaat het over enkelvoudig of geconsolideerd? Dat bepaalt het hele scenario. Tweede: onder welk regime is het cijfer berekend? Als de vraag zwijgt over BE-GAAP of IFRS, lees je kontext-aanwijzingen (beursnotering, sector, omvang) om te beslissen welk antwoord juist is. Een veelgemaakte fout is het automatisch toepassen van het stelsel dat je het beste kent — beide stelsels eisen actieve overweging.
 
 ### Wetgeving jaarrekening + IFRS 📃
 
