@@ -90,7 +90,25 @@ _Grondslag: IAS 1 alinea 54-55_
 
 ## Voorbeelden
 
-In de IFRS-balans van Zelena Bio NV per 31 december 2026: niet-vlottende activa: materiële vaste activa € 145.000.000, immateriële activa € 25.000.000, vastgoedbeleggingen € 18.000.000; vlottende activa: voorraden € 32.000.000, handelsvorderingen € 28.000.000, geldmiddelen € 15.000.000. Niet-vlottende passiva: langlopende obligatielening € 60.000.000 (vervalt 2031); vlottende passiva: handelsschulden € 18.000.000, kortlopende bankleningen € 12.000.000.
+### IFRS-balans Zelena Bio NV per 31 december 2026 (vereenvoudigd, courant/niet-courant)
+
+_Personages: Zelena Bio NV_
+
+Geconsolideerde IFRS-balans Zelena Bio NV per 31 december 2026. Vlottend/niet-vlottend-presentatie (productiebedrijf). Eigen vermogen sluit aan op het mutatieoverzicht.
+#### Overzicht financiële positie (vereenvoudigd)
+_Totaal activa = € 266.500.000 = Totaal passiva. Vlottend/niet-vlottend duidelijk gescheiden per alinea 60. De 17 minimumposten zijn aanwezig (sommige met € 0 — geen biologische activa, geen aangehouden-voor-verkoop)._
+
+| Activa | Bedrag | Passiva | Bedrag |
+|---|---:|---|---:|
+| Niet-vlottende activa — Materiële vaste activa | 145000000 | Eigen vermogen — Geplaatst kapitaal + reserves | 138500000 |
+| Niet-vlottende activa — Immateriële activa | 25000000 | Niet-vlottende verplichtingen — Obligatielening (vervalt 2031) | 60000000 |
+| Niet-vlottende activa — Vastgoedbeleggingen | 18000000 | Vlottende verplichtingen — Handelsschulden | 18000000 |
+| Niet-vlottende activa — Uitgestelde belastingvorderingen | 3500000 | Vlottende verplichtingen — Kortlopende bankleningen | 12000000 |
+| Vlottende activa — Voorraden | 32000000 | Vlottende verplichtingen — Belastingverplichtingen | 38000000 |
+| Vlottende activa — Handelsvorderingen | 28000000 |  |  |
+| Vlottende activa — Geldmiddelen + kasequivalenten | 15000000 |  |  |
+
+
 
 ## Bronnen
 

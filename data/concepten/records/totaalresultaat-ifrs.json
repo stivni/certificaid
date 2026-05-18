@@ -147,6 +147,23 @@
   ],
   "valkuilen": [
     {
+      "text": "Niet alle OCI-posten worden ooit door winst of verlies herzien. **Reclassifiable** (effectief deel kasstroom-hedge, omrekeningsverschillen buitenlandse activiteit, FVOCI-schuldinstrumenten) gaat bij realisatie via W&V. **Non-reclassifiable** (herwaarderingsreserves IAS 16/38, actuariële herwaarderingen IAS 19, FVOCI-eigenvermogensinstrumenten via election) gaat bij realisatie rechtstreeks naar ingehouden winsten — nooit via W&V. Het overzicht moet beide groepen apart presenteren (alinea 82A). Examenval: een stagiair die alle OCI 'ooit door W&V' veronderstelt zit fout.",
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 82A + 7 (definitie reclassificatie)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_definities",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
       "text": "Buitengewone resultaten ('extraordinary items') mogen onder IFRS NIET als aparte categorie worden gepresenteerd (alinea 87). Belgisch GAAP had die wel — een typische bron van verschillen bij eerste IFRS-toepassing.",
       "confidence": "grounded",
       "source": {
@@ -203,6 +220,13 @@
       "run_id": "concept-extractie-v4-2026-05-18-1.5.IV",
       "old_id": "ias-1-winst-en-totaalresultaat",
       "reden": "v4 §17 regel 11 naming-conventie: <concept>-<specialisatie>, niet <specialisatie>-<concept>. ias-1- prefix = bron-prefix; bron-relatie staat al in source.short."
+    }
+  ],
+  "revisit_log": [
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18T-revisit-1.5.IV.B",
+      "reden": "1.5.IV.B revisit-pass: §17 r9 cijfer-consistentie + §10 reflectieve rijkheid"
     }
   ]
 }

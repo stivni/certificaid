@@ -84,7 +84,7 @@ _Grondslag: IAS 1 alinea 106A + IAS 8_
 
 ## Voorbeelden
 
-Zelena Bio NV mutatieoverzicht 2026 (vereenvoudigd, in € miljoenen): kapitaal € 50M + agio € 18M + herwaarderingsreserve € 8M (begin) + winst 2026 € 35M − dividend € 15M + herwaardering terreinen +€ 4,5M (OCI) − wisselkoers Argentinië −€ 0,8M = totaal eigen vermogen einde 2026 € 99,7M.
+Zelena Bio NV mutatieoverzicht 2026 (vereenvoudigd, in € miljoenen, kolom 'Toerekenbaar aan eigenaars van de moeder' — NCI-kolom apart): kapitaal € 50M + agio € 18M + herwaarderingsreserve € 8M + ingehouden winsten € 95M (begin) + winst 2026 toerekenbaar aan eigenaars € 31,5M − dividend € 15M + herwaardering terreinen +€ 4,5M (OCI) − wisselkoers Argentinië −€ 0,8M = totaal toerekenbaar aan eigenaars einde 2026 = € 191,2M. Naast deze kolom een aparte kolom 'Belangen zonder zeggenschap' met +€ 3,5M winsttoerekening NCI.
 
 ## Bronnen
 

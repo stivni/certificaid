@@ -182,7 +182,7 @@
   "voorbeelden": [
     {
       "vorm": "eenvoudig",
-      "omschrijving": "Zelena Bio NV mutatieoverzicht 2026 (vereenvoudigd, in € miljoenen): kapitaal € 50M + agio € 18M + herwaarderingsreserve € 8M (begin) + winst 2026 € 35M − dividend € 15M + herwaardering terreinen +€ 4,5M (OCI) − wisselkoers Argentinië −€ 0,8M = totaal eigen vermogen einde 2026 € 99,7M."
+      "omschrijving": "Zelena Bio NV mutatieoverzicht 2026 (vereenvoudigd, in € miljoenen, kolom 'Toerekenbaar aan eigenaars van de moeder' — NCI-kolom apart): kapitaal € 50M + agio € 18M + herwaarderingsreserve € 8M + ingehouden winsten € 95M (begin) + winst 2026 toerekenbaar aan eigenaars € 31,5M − dividend € 15M + herwaardering terreinen +€ 4,5M (OCI) − wisselkoers Argentinië −€ 0,8M = totaal toerekenbaar aan eigenaars einde 2026 = € 191,2M. Naast deze kolom een aparte kolom 'Belangen zonder zeggenschap' met +€ 3,5M winsttoerekening NCI."
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
@@ -192,6 +192,13 @@
       "run_id": "concept-extractie-v4-2026-05-18-1.5.IV",
       "old_id": "ias-1-mutatieoverzicht-eigen-vermogen",
       "reden": "v4 §17 regel 11 naming-conventie: <concept>-<specialisatie>, niet <specialisatie>-<concept>. ias-1- prefix = bron-prefix; bron-relatie staat al in source.short."
+    }
+  ],
+  "revisit_log": [
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18T-revisit-1.5.IV.B",
+      "reden": "1.5.IV.B revisit-pass: §17 r9 cijfer-consistentie + §10 reflectieve rijkheid"
     }
   ]
 }

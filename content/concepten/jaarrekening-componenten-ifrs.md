@@ -49,7 +49,7 @@ Twee onderdelen: **winst of verlies** (de klassieke W&V-rekening) + **overige on
 
 
 
-Zelena Bio NV behaalt in 2026 een winst van € 35.000.000 (uit verkoop biofarmaceutische producten). Daarnaast OCI: herwaardering productieterrein +€ 4.500.000 (kostprijsmodel? Nee — Zelena past het herwaarderingsmodel toe op terreinen). Totaalresultaat = € 39.500.000.
+Zelena Bio NV behaalt in 2026 een winst van € 35.000.000 (uit verkoop biofarmaceutische producten). Daarnaast OCI: herwaardering productieterrein +€ 4.500.000 (Zelena past het herwaarderingsmodel toe op terreinen — IAS 16 alinea 31). Totaalresultaat = € 39.500.000.
 
 _Grondslag: IAS 1 alinea 10A + 81A + 82A_
 

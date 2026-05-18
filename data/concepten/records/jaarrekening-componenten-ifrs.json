@@ -112,7 +112,7 @@
       "voorbeelden": [
         {
           "vorm": "eenvoudig",
-          "omschrijving": "Zelena Bio NV behaalt in 2026 een winst van € 35.000.000 (uit verkoop biofarmaceutische producten). Daarnaast OCI: herwaardering productieterrein +€ 4.500.000 (kostprijsmodel? Nee — Zelena past het herwaarderingsmodel toe op terreinen). Totaalresultaat = € 39.500.000."
+          "omschrijving": "Zelena Bio NV behaalt in 2026 een winst van € 35.000.000 (uit verkoop biofarmaceutische producten). Daarnaast OCI: herwaardering productieterrein +€ 4.500.000 (Zelena past het herwaarderingsmodel toe op terreinen — IAS 16 alinea 31). Totaalresultaat = € 39.500.000."
         }
       ]
     },
@@ -297,7 +297,7 @@
   "voorbeelden": [
     {
       "vorm": "eenvoudig",
-      "omschrijving": "De geconsolideerde IFRS-jaarrekening 2026 van Zelena Bio NV bevat: (1) overzicht financiële positie per 31 december 2026 + per 31 december 2025; (2) overzicht totaalresultaat 2026 + 2025; (3) mutatieoverzicht eigen vermogen 2026 + 2025; (4) kasstroomoverzicht 2026 + 2025; (5) toelichting met grondslagen, segment-informatie, leasing-uitsplitsing, etc. Bij eerste IFRS-toepassing zat er ook een derde balans bij — de openingsbalans per 1 januari 2025."
+      "omschrijving": "De geconsolideerde IFRS-jaarrekening 2027 van Zelena Bio NV (eerste IFRS-jaar) bevat: (1) overzicht financiële positie per 31 december 2027 + per 31 december 2026; (2) overzicht totaalresultaat 2027 + 2026; (3) mutatieoverzicht eigen vermogen 2027 + 2026; (4) kasstroomoverzicht 2027 + 2026; (5) toelichting met grondslagen, segment-informatie, leasing-uitsplitsing, etc. Omdat 2027 het eerste IFRS-jaar is, hoort er ook een derde balans bij — de openingsbalans per 1 januari 2026 (overgangsdatum, IFRS 1)."
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
@@ -308,6 +308,13 @@
       "run_id": "concept-extractie-v4-2026-05-18-1.5.IV",
       "old_id": "ias-1-jaarrekening-componenten",
       "reden": "v4 §17 regel 11 naming-conventie: <concept>-<specialisatie>, niet <specialisatie>-<concept>. ias-1- prefix = bron-prefix; bron-relatie staat al in source.short."
+    }
+  ],
+  "revisit_log": [
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18T-revisit-1.5.IV.B",
+      "reden": "1.5.IV.B revisit-pass: §17 r9 cijfer-consistentie + §10 reflectieve rijkheid"
     }
   ]
 }

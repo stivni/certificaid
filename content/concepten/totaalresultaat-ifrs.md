@@ -69,6 +69,12 @@ _Grondslag: IAS 1 alinea 82-83_
 
 ## Valkuilen
 
+> [!warning]- Niet alle OCI-posten worden ooit door winst of verlies herzien. **Reclassifiable** (effectief deel kasstroom-hedge, omrekeningsverschillen b…
+> ⚠️ Niet alle OCI-posten worden ooit door winst of verlies herzien. **Reclassifiable** (effectief deel kasstroom-hedge, omrekeningsverschillen buitenlandse activiteit, FVOCI-schuldinstrumenten) gaat bij realisatie via W&V. **Non-reclassifiable** (herwaarderingsreserves IAS 16/38, actuariële herwaarderingen IAS 19, FVOCI-eigenvermogensinstrumenten via election) gaat bij realisatie rechtstreeks naar ingehouden winsten — nooit via W&V. Het overzicht moet beide groepen apart presenteren (alinea 82A). Examenval: een stagiair die alle OCI 'ooit door W&V' veronderstelt zit fout. ⚖️
+>
+> _Bron: IAS 1 alinea 82A + 7 (definitie reclassificatie)_
+
+
 > [!warning]- Buitengewone resultaten ('extraordinary items') mogen onder IFRS NIET als aparte categorie worden gepresenteerd (alinea 87)
 > ⚠️ Buitengewone resultaten ('extraordinary items') mogen onder IFRS NIET als aparte categorie worden gepresenteerd (alinea 87). Belgisch GAAP had die wel — een typische bron van verschillen bij eerste IFRS-toepassing. ⚖️
 >
