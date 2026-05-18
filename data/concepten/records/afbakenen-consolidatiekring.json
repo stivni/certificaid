@@ -2,7 +2,7 @@
   "id": "afbakenen-consolidatiekring",
   "naam": "Afbakenen van de consolidatiekring en beoordelen van uitsluitings- of weglatingsgronden",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Afbakenen van de consolidatiekring en beoordelen van uitsluitings- of weglatingsgronden",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -215,6 +215,15 @@
         "valkuilen[*]: correctie → advies, foute_aanname → vaak_fout",
         "tekstvelden: stagiair-toon, cast-namen (Aurelia/Brugse/Logistics Lille/Gent Garantie/Cardinal/Energiehuis/Filmstudio/Drukkerij Dendermonde)"
       ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
+      ]
     }
   },
   "linked_anchors": [
@@ -224,5 +233,16 @@
     "1.4.I.G",
     "1.4.II.D"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "edges": [],
+  "naam_alternatief": "delineate the consolidation scope",
+  "situering": {
+    "text": "Een toepassingscompetentie binnen het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2) — de eerste stap in elke consolidatie-opdracht. De stagiair vertaalt de groepsstructuur en de uitsluitings- en weglatingsgronden naar een concrete kring van wel/niet/equity te consolideren entiteiten.",
+    "confidence": "inferred",
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

@@ -18,11 +18,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uitvoeren-risicoanalyse-organisatie.json
 gegenereerd_op: '2026-05-18'
 ---
 # Uitvoeren van een risico-identificatie en -analyse voor het IC-systeem 🤖
+
+Deze competentie operationaliseert COSO-component 2 (risico-inschatting) als concrete stagiair-handeling: voer een gestructureerde risico-identificatie + analyse uit voor een organisatie, lever een risico-register af, en integreer het in het IC-systeem. Geen Belgische wet schrijft een specifieke methode voor (uitgezonderd sectorale: NIS-2 cyberrisico, AVG art. 35 DPIA). De methodologie volgt uit internationale doctrine: COSO ERM 2017, ISO 31000:2018, en ITAA-controlenorm §96. Examen-vraagstellingen toetsen typisch het gestructureerd doorlopen van identificatie → analyse → respons → monitoring.
 
 
 ## Stappen

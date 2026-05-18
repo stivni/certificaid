@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/boeken-waardeverminderingen-op-vorderingen-en-voorraden.json
 gegenereerd_op: '2026-05-18'
 ---
 # Boeken van waardeverminderingen op vorderingen en voorraden 🤖
+
+De toepassingscompetentie op het voorzichtigheidsbeginsel langs de actiefzijde: zodra de waarschijnlijke realisatiewaarde onder de aanschaffingswaarde zakt, moet een waardevermindering worden geboekt. Voor een stagiair-GA: een terugkerende eindjaarsboeking waarbij beoordelingsmarge (welk percentage twijfelachtige debiteuren?) wordt gevraagd én onderbouwd.
 
 
 ## Stappen

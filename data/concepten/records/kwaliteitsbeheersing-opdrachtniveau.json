@@ -1,27 +1,48 @@
 {
   "id": "kwaliteitsbeheersing-opdrachtniveau",
   "naam": "Kwaliteitsbeheersing op opdrachtniveau",
-  "node_type": "procedure",
+  "naam_alternatief": "engagement-level quality management",
+  "node_type": "cluster",
   "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
     "1.6.III.D"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.III.D",
-    "reviewed_by": null
+    "linked_anchors": [
+      "1.6.III.D"
+    ],
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "type_migration": {
+      "van": "procedure",
+      "naar": "cluster",
+      "op": "2026-05-18",
+      "reden": "Schema 1.5: 'procedure' niet langer toegelaten; kwaliteitsbeheersing-op-opdrachtniveau is een samengesteld fenomeen (leiderschap + ethiek + aanvaarding + middelen + uitvoering + monitoring + documentatie) — cluster met bouwstenen past."
+    }
   },
-  "verplichting": {
-    "text": "De opdrachtpartner draagt verantwoordelijkheid voor de algemene kwaliteit van elke opdracht. Hij waakt door observatie, controle van documenten en bevragingen of relevante ethische voorschriften en professionele normen worden nageleefd. Dat omvat: leiden + toezicht + uitvoering volgens de norm, evaluaties van het team, voldoende assurance-informatie, bespreking van significante zaken, kwaliteitsbeheersingsevaluatie, en geschiktheid van het verslag.",
+  "definitie": {
+    "text": "Kwaliteitsbeheersing op opdrachtniveau is het geheel aan procedures dat de opdrachtpartner toepast om redelijke zekerheid te verkrijgen dat de individuele audit-opdracht voldoet aan de professionele standaarden, de wettelijke vereisten en het kwaliteitsmanagementsysteem van het kantoor (ISQM 1). De opdrachtpartner behoudt de eindverantwoordelijkheid en kan geen verantwoordingsplicht delegeren — wel taken.",
     "confidence": "grounded",
     "source": {
       "type": "norm",
-      "short": "ITAA KMO-controlenorm §29-§31"
+      "short": "ISA 220 (herzien) §9, §13 + ITAA KMO-controlenorm §29-§31"
     },
     "_provenance": {
       "inputs": [
+        {
+          "id": "ISA-220-herzien__sec_schaalbaarheid",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ISA-220-herzien__sec_vereisten_2_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        },
         {
           "id": "ITAA-norm-kmo-controlenorm__sec_2-1-7-kwaliteitsbeheersing-en-toezicht",
           "sha256": null,
@@ -30,6 +51,181 @@
       ]
     }
   },
+  "situering": {
+    "text": "Sinds 2022 vervangt ISA 220 (herzien) het oudere quality-control-paradigma door een proactief kwaliteitsmanagement-paradigma — gekoppeld aan ISQM 1 (kantoor-niveau) en ISQM 2 (Engagement Quality Review). Het zwaartepunt verschuift van checklist-conformiteit naar professional skepticism, verantwoorde middelen-toewijzing en doorlopende opdrachtpartner-betrokkenheid. Voor de stagiair is het belangrijk te begrijpen dat kwaliteit niet pas bij review opduikt maar in elke fase aanwezig moet zijn: aanvaarding, planning, uitvoering, review, ondertekening.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 220 (herzien) §A1-A3"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-220-herzien__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Eindverantwoordelijkheid opdrachtpartner",
+      "wat": "De opdrachtpartner draagt de algehele verantwoordelijkheid voor het managen en bereiken van kwaliteit op de opdracht en moet 'voldoende en op passende wijze' betrokken zijn doorheen de hele controle, zodat hij eigen oordeelsvormingen over significante zaken kan vormen.",
+      "waarom": "Kwaliteit kan niet gedelegeerd worden naar een teamlid. Bij tucht- of toezichtonderzoek is het de opdrachtpartner die verantwoording aflegt, ongeacht wie het werk uitvoerde.",
+      "in_praktijk": "Tekenen voor ontvangst, planningsmemo paraferen, deelnemen aan team-briefings, eindreview van werkdocumenten met significante oordeelsvorming.",
+      "grondslag": "ISA 220 (herzien) §13, §9",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 220 (herzien) §13"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-220-herzien__sec_vereisten_2_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Cultuur + verwacht teamgedrag",
+      "wat": "Creëer een opdrachtcultuur die de nadruk legt op kwaliteit en professional skepticism: duidelijke, consistente maatregelen die de commitment van het kantoor aan kwaliteit weergeven, en heldere verwachtingen voor teamleden.",
+      "waarom": "Kwaliteitscultuur op kantoorniveau (ISQM 1) moet zich vertalen in concrete gedragsverwachtingen op opdrachtniveau — anders blijft het bij beleid op papier.",
+      "in_praktijk": "Kick-off-vergadering met heldere boodschap over scepticisme, fraude-alertheid, tijdige documentatie en open communicatie bij twijfel.",
+      "grondslag": "ISA 220 (herzien) §14",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 220 (herzien) §14"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-220-herzien__sec_vereisten_2_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Ethiek + onafhankelijkheid bewaken",
+      "wat": "De opdrachtpartner overweegt — gedurende de hele opdracht — of het team de relevante ethische voorschriften naleeft, met inbegrip van onafhankelijkheid. Bedreigingen identificeren, evalueren en aanpakken via passende maatregelen, anders teruggave van de opdracht overwegen.",
+      "waarom": "Onafhankelijkheid kan tijdens de opdracht aangetast raken (cliënt-werving van teamlid, nieuwe verbonden diensten, financieel belang). De opdrachtpartner mag niet achteraf 'verrast' worden.",
+      "in_praktijk": "Onafhankelijkheidsverklaringen bij teamstart + halverwege + bij ondertekening. Bij nieuwe diensten aan de cliënt direct herevalueren.",
+      "grondslag": "ISA 220 (herzien) §16-§21 + IESBA Code R120",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 220 (herzien) §16-§21"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-220-herzien__sec_vereisten",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Aanvaarding en continuering van de cliëntrelatie",
+      "wat": "Vóór aanvang en bij elke heraanvaarding: bepaal of de opdracht aanvaardbaar is op basis van integriteit cliënt, competentie team, ethische conformiteit en haalbare uitvoering. Bij twijfel raadpleging op kantoorniveau.",
+      "waarom": "Slechte aanvaarding genereert systeem-fouten in alle volgende fasen — een onbruikbare cliënt of onvoldoende middelen worden zelden later 'opgelost'.",
+      "in_praktijk": "Aanvaardingsformulier met checklist (integriteit, onafhankelijkheid, competentie, randvoorwaarden) en handtekening opdrachtpartner.",
+      "grondslag": "ISA 220 (herzien) §22-§24",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 220 (herzien) §22-§24"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-220-herzien__sec_vereisten",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Aansturing, toezicht en review (delegatie)",
+      "wat": "De opdrachtpartner bepaalt aard, timing en omvang van aansturing, toezicht en review van het werk van teamleden. Hij reviewt de controledocumentatie op passende tijdstippen — met inbegrip van werk over significante aangelegenheden, significante oordeelsvormingen en andere zaken die hij significant acht.",
+      "waarom": "Junior-werk dat niet tijdig wordt gereviewed kan niet meer worden gecorrigeerd zonder dossier-herwerk. Schaalbaarheid: ervaren teamleden op routine-werk vragen minder review dan een junior op een complex risico-gebied.",
+      "in_praktijk": "Review-strategie aanpassen aan ervaring, complexiteit en risico-niveau van elk werkdocument; aftekenen door reviewer in werkdocument.",
+      "grondslag": "ISA 220 (herzien) §29-§31",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 220 (herzien) §29-§31"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-220-herzien__sec_vereisten_2_part3",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ISA-220-herzien__sec_schaalbaarheid_3_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Opdrachtgerichte kwaliteitsbeoordeling (EQR)",
+      "wat": "Voor controles van beursgenoteerde entiteiten en andere opdrachten waar het kantoor of wetgeving dit vereist: een onafhankelijke EQ-reviewer beoordeelt vóór ondertekening de significante oordeelsvormingen van het opdrachtteam en de bereikte conclusies. Geen 'tweede mening' op alles, wel objectieve uitdaging op de risicovolste oordelen.",
+      "waarom": "EQR voegt een tweede paar ogen toe voor opdrachten met hoog publiek belang. ISQM 2 regelt wanneer een EQR verplicht is en wat de reviewer onafhankelijkheidsvereisten zijn.",
+      "in_praktijk": "EQR voltooid op of vóór de datum van het controleverslag. Verschillen van mening tussen reviewer en team volgen kantoorprocedure.",
+      "grondslag": "ISA 220 (herzien) §32-§36 + ISQM 2",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 220 (herzien) §32-§36"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-220-herzien__sec_definities",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ISA-220-herzien__sec_schaalbaarheid_3_part4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Documentatie van kwaliteitsbeheersing",
+      "wat": "Documenteer in het auditdossier: identiteit en kwalificaties van de EQR-reviewer (indien van toepassing), aftekeningen + tijdsbestedingen die de betrokkenheid van de opdrachtpartner aantonen, raadplegingen over moeilijke aangelegenheden, en de oplossing van verschillen van mening.",
+      "waarom": "Zonder documentatie is de kwaliteitsbeheersing onbewijsbaar — kwaliteitstoezicht (ITAA-CTR) en tuchtrechtelijke instanties beoordelen vooral wat traceerbaar is in het dossier.",
+      "grondslag": "ISA 220 (herzien) §41 + ISA 230 §A7",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 220 (herzien) §41"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-220-herzien__sec_schaalbaarheid_3_part4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
   "in_praktijk": [
     {
       "aspect": "Eindverantwoordelijkheid bij één persoon",
@@ -73,18 +269,108 @@
       }
     }
   ],
+  "valkuilen": [
+    {
+      "text": "Denken dat 'review aan het einde' volstaat. ISA 220 (herzien) vereist betrokkenheid doorheen de hele opdracht — een laat-stadium-review kan significante oordeelsvormingen niet meer rechtzetten zonder dossier-herwerk.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 220 (herzien) §13, §A28-A37"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-220-herzien__sec_vereisten_2_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Verwarren van delegatie van het werk met delegatie van de verantwoordelijkheid. De opdrachtpartner blijft eindverantwoordelijk, ook wanneer een ervaren senior de meeste werkzaamheden uitvoert.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 220 (herzien) §9 + KB plichtenleer art. 18"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-220-herzien__sec_schaalbaarheid",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Een EQR verwarren met een 'tweede mening' over alles. EQR is gericht op significante oordeelsvormingen; de EQ-reviewer mag de uitvoering niet 'overdoen' maar moet wel de redenering objectief kunnen evalueren.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 220 (herzien) §A107-A109"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-220-herzien__sec_schaalbaarheid_3_part3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "opvolging-voorganger-accountant",
-      "redenering": "Specifieke kwaliteitsregel bij opvolging."
+      "target_id": "opdrachtgerichte-kwaliteitsbeoordeling",
+      "redenering": "EQR is een specifieke component binnen kwaliteitsbeheersing — eigen record (ISQM 2)."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "delegatie-en-supervisie-audit",
+      "redenering": "Delegatie + supervisie is operationeel onderdeel van kwaliteit op opdrachtniveau.",
+      "target_status": "pending"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target_id": "opvolging-voorganger-accountant",
+      "redenering": "Specifieke kwaliteitsregel bij opvolging van een collega."
+    },
+    {
+      "type": "verwijst-naar",
+      "target_id": "documenteren-auditdossier",
+      "redenering": "Kwaliteit moet documenteerbaar zijn — dossier-kwaliteit is bewijslast."
+    },
+    {
+      "type": "verwijst-naar",
+      "target_id": "onafhankelijkheid-externe-accountant",
+      "redenering": "Onafhankelijkheid is een doorlopende kwaliteitsdimensie."
     }
   ],
   "voorbeelden": [
     {
       "vorm": "eenvoudig",
       "omschrijving": "Sofie Janssens is opdrachtpartner voor de audit van Rotex Roeselare NV. Zij leidt het team van 5, controleert de werkpapieren van elke junior, bespreekt elke significante professionele oordeelsvorming en laat een onafhankelijke kwaliteitsreviewer (collega-partner Pieter Vermeulen) het dossier herlezen vóór ondertekening van het verslag."
+    },
+    {
+      "vorm": "scenario",
+      "titel": "EQR bij beursgenoteerde controle",
+      "cast": [
+        "Verffabriek Veurne BV",
+        "Sofie Janssens",
+        "Pieter Vermeulen"
+      ],
+      "omschrijving": "Verffabriek Veurne BV is recent beursgenoteerd geworden op Euronext Brussels. Sofie Janssens is opdrachtpartner; haar collega-partner Pieter Vermeulen wordt als EQR-reviewer aangewezen.",
+      "stappen": [
+        "1. Pieter Vermeulen wordt formeel aangewezen vóór planningsfase — hij is onafhankelijk van Verffabriek Veurne BV en deed geen werk op het dossier (ISQM 2-onafhankelijkheidsvereiste).",
+        "2. Pieter reviewt de planningsmemo, de risico-inschatting en de gekozen materialiteit (€ 280.000) — focus op significante oordeelsvormingen rond goodwill-impairment en omzetbeginsel.",
+        "3. Pieter heeft tijdens uitvoering toegang tot het dossier; bespreekt met Sofie elke significante issue (correctie op continuïteits-toelichting).",
+        "4. Eindreview EQR voltooid op 12 maart, datum verslag 14 maart — voldoet aan 'voltooid op of vóór datum verslag' (ISQM 2 §26).",
+        "5. EQR-evaluatie + aftekening opgenomen in dossier; geen verschil van mening met opdrachtteam."
+      ]
     }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  ]
 }

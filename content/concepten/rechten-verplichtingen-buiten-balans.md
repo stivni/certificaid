@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/rechten-verplichtingen-buiten-balans.json
 gegenereerd_op: '2026-05-18'
 ---
 # Rechten en verplichtingen buiten balans ⚖️
+
+Een aanvulling op de balans-paragrafen: rechten en verplichtingen die op balansdatum bestaan maar geen actief/passief vormen, moeten toch via klasse 0 en de toelichting worden vermeld. Voor een stagiair-GA: een geliefd auditelement (zekerheden, persoonlijke borgen, leasingverbintenissen die nog niet onder MVA staan) waar het getrouw beeld dwingt tot expliciete vermelding ook al staat het niet 'in' de balans.
 
 > [!summary] Korte inhoud
 > **Rechten en verplichtingen** die op balansdatum bestaan maar GEEN actief- of passiefbestanddeel vormen in de zin van het KB WVV (geen vermogensbestanddeel met onmiddellijke balansimpact).

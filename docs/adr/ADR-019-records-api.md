@@ -260,6 +260,31 @@ Failure modes-tabel uitgebreid:
 
 Verificatie-eis (aanvulling op §"Unit tests"): test voor `save_record` met gesimuleerde daemon-timeout waar daemon *wel* upsertte — verwacht: ghost wordt automatisch opgeruimd en exception bubblet door.
 
+### Worktree-isolatie veroorzaakt disk/RAG-divergentie — workaround verplicht (2026-05-18, gerectificeerd)
+
+**Vorige beschrijving was deels fout**. Empirische test (PO 1.7 batch 3) toonde aan: de embedding-daemon (ADR-018) is gekoppeld aan de **hoofdrepo**-RAG (`/Users/stivni/Documents/ITAA/certificaid/data/rag/main/`), maar de records-API **client** in `tools/lib/records_api.py` schrijft de JSON-disk-write **vanuit de cwd van de aanroeper**. Wanneer een sub-agent in een git-worktree draait (cwd = `.claude/worktrees/agent-X/`), gebeurt:
+
+- ✅ RAG-update via daemon → naar hoofdrepo-RAG (correct)
+- ❌ Disk-write via Path → naar worktree-disk (NIET hoofdrepo)
+- ❌ Content-render via daemon → daemon weet niet welke disk → mogelijk inconsistent
+
+Resultaat: RAG en disk **diveregren**. Audit vanuit worktree kan groen lijken, vanuit hoofdrepo toont ghosts/missing/content_ontbreekt.
+
+**Verplichte werkregels voor agents in worktree-isolatie**:
+1. **Cwd switchen vóór records-API-call**: `os.chdir('/Users/stivni/Documents/ITAA/certificaid')` of `cd /Users/stivni/Documents/ITAA/certificaid && python3 ...` voor élke save/rename/delete.
+2. Lees records uitsluitend via records-API helpers (de daemon's RAG is canoniek). Geen direct `Path`-IO op `data/concepten/records/`.
+3. Eind-audit vanuit hoofdrepo, niet worktree.
+
+**Recovery-protocol bij divergentie** (zoals 2026-05-18 batch 3):
+1. `diff -q` of `stat`-vergelijking tussen `worktree/data/concepten/records/` en `data/concepten/records/`.
+2. Voor records waar worktree nieuwer is: `cp` worktree → hoofdrepo.
+3. Voor rename-restanten in hoofdrepo (oude-naam-file blijft staan): `rm` en `audit --fix`.
+4. `python3 -m tools.lib.records_api audit --fix` — herstelt content-fiches automatisch.
+
+**Voorkeur**: launch EXTRACT v4-agents **zonder worktree-isolatie** (Agent-tool default zonder `isolation: "worktree"`). De isolatie biedt geen veiligheidswinst (records-API doet last-write-wins via daemon, niet via filesystem) en het divergentie-risico is reëel.
+
+**TODO (open)**: aanpassing in `tools/lib/records_api.py` om disk-pad altijd te resolven tegen de daemon's repo-root (uit health-endpoint) ipv tegen cwd. Maakt worktree-veilig.
+
 ### Pre-commit hook
 
 `scripts/pre-commit-records-parity.sh`:

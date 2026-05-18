@@ -2,7 +2,7 @@
   "id": "controle",
   "naam": "Controle",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -53,6 +53,16 @@
         "bouwstenen[*].wat (stagiair-toon)",
         "voorbeeld_inline op record-niveau toegevoegd",
         "edges: types toegevoegd (vereist-kennis-van consolidatieverplichting, getriggerd-door integrale-consolidatie/vermogensmutatiemethode)"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -2",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -348,18 +358,6 @@
       "target": "integrale-consolidatie",
       "redenering": "Exclusieve controle is de trigger voor integrale consolidatie (KB WVV art. 3:124, 1°).",
       "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "exclusieve-controle",
-      "redenering": "Exclusieve controle is een soort controle: één vennootschap oefent alléén de beslissende invloed uit.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "gezamenlijke-controle",
-      "redenering": "Gezamenlijke controle is de andere soort controle: een beperkt aantal vennoten samen, op basis van een overeenkomst dat beleidsbeslissingen alleen gemeenschappelijk worden genomen.",
-      "confidence": "inferred"
     }
   ],
   "voorbeelden": [
@@ -368,5 +366,19 @@
       "omschrijving": "Aurelia Holding NV heeft 80 % van de stemrechten in Brugse Brouwerij BV → onweerlegbaar controle in rechte → Brugse is dochter van Aurelia, Aurelia is consolidatieplichtig."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": "control",
+  "situering": {
+    "text": "Het sleutelbegrip van het Belgische vennootschapsrecht (WVV) waarop de hele groepskwalificatie scharniert. Wie controle uitoefent over een vennootschap is per definitie haar moeder, wat consolidatieplicht, transparantieverplichtingen en bestuurdersaansprakelijkheid in werking zet.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "WVV — controle in rechte/in feite"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

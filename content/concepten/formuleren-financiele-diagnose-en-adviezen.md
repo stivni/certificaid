@@ -15,11 +15,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/formuleren-financiele-diagnose-en-adviezen.json
 gegenereerd_op: '2026-05-18'
 ---
 # Formuleren van een financiële diagnose en concrete verbeteradviezen 🤖
+
+Sluitsteen-competentie: de losse cijferconclusies (liquiditeit, solvabiliteit, rentabiliteit, werkkapitaal, off-balance) samenballen in één diagnose en daaruit concrete verbeteradviezen formuleren. De stagiair leert dat een goede diagnose altijd gericht is op de specifieke gebruiker en zijn beslissing.
 
 
 ## Stappen
@@ -215,3 +217,6 @@ Schrijf een gestructureerd analyserapport dat de cliënt kan lezen zonder voorke
 
 
 
+## Bronnen
+
+[^1]: `anchor-1.3.taak.4`

@@ -1,8 +1,8 @@
 {
   "id": "intragroep-eliminaties",
   "naam": "Intragroep-eliminaties",
-  "node_type": "procedure",
-  "schema_version": "1.5",
+  "node_type": "cluster",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.D",
@@ -72,6 +72,17 @@
         "berekeningsmethode[0].stappen[*].voorbeeld.substappen (fix C): tabellen + boekingen met €-bedragen",
         "berekeningsmethode[0].concreet_voorbeeld (fix C): scenario + berekening + resultaat in €-formaat",
         "berekeningsmethode[0].formules[*].invulling_voorbeeld (fix C): €-formaat"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -1",
+        "type procedure→cluster",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -816,27 +827,6 @@
           }
         ]
       }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "vermogensmutatiemethode",
-      "redenering": "Bij vermogensmutatie worden de activa/passiva van de geassocieerde niet in de geconsolideerde balans opgenomen — eliminatie op balansniveau is dus niet nodig. Wel wordt het pro-rata aandeel in intra-groepswinsten begrepen in de waarde van de deelneming gecorrigeerd (CBN 2022/11 — upstream/downstream sales).",
-      "_corrected_from": [
-        {
-          "field": "type",
-          "from": "vergelijkingsparen → edges",
-          "reason": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-        }
-      ],
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_intra-groepsverkopen-upstream-downstream-sales",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
     }
   ],
   "voorbeelden": [
@@ -845,5 +835,19 @@
       "omschrijving": "Aurelia Holding NV verkoopt voor € 500.000 goederen aan Brugse Brouwerij BV met 30 % marge; Brugse heeft op balansdatum nog 40 % in voorraad → schrap omzet € 500.000 en kostprijs € 500.000 uit de geconsolideerde resultatenrekening (RR), en schrap € 200.000 × 30 % = € 60.000 uit de voorraad en de reserves van de geconsolideerde balans."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "intercompany eliminations",
+  "situering": {
+    "text": "Een centraal correctie-mechanisme in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2). Het zorgt dat onderlinge transacties tussen groepsleden niet dubbel verschijnen of het groepsresultaat opblazen — zonder eliminaties zou de geconsolideerde jaarrekening de externe economische werkelijkheid niet weergeven.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

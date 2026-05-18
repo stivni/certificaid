@@ -2,7 +2,7 @@
   "id": "toepassen-direct-costing-en-contributiemarge",
   "naam": "Toepassen van direct costing en contributiemarge-analyse",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Toepassen van direct costing en contributiemarge-analyse",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -218,5 +218,23 @@
     "1.8.II",
     "1.8.II.A"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "situering": {
+    "text": "Competentie waarmee de stagiair direct costing toepast en contributiemarge gebruikt voor beslissingen: extra-order accepteren, productmix bij capaciteitsbeperking, marge per klant. Variabele kost als kostprijsbasis, contributiemarge (verkoopprijs − variabele kost) als beslissingscriterium. Voorraadwaardering bij direct costing is wettelijk toegelaten mits expliciet in waarderingsregels (CBN 2012/15). De stagiair moet onderscheid maken tussen interne marge-analyse (direct costing volstaat) en jaarrekening-voorraadwaardering (waar full costing standaard is).",
+    "confidence": "grounded",
+    "source": {
+      "type": "cbn",
+      "short": "CBN 2012/15"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

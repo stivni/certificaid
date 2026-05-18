@@ -2,7 +2,7 @@
 title: Moedervennootschap
 tags:
 - concept
-- autoriteit
+- begrip
 - po-1-4
 linked_anchors:
 - 1.4.I.C
@@ -14,13 +14,15 @@ linked_anchors:
 programmaonderdelen:
 - '1.4'
 confidence: grounded
-node_type: autoriteit
+node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/moedervennootschap.json
 gegenereerd_op: '2026-05-18'
 ---
 # Moedervennootschap ⚖️
+
+De spilrol in het Belgische groepsregime (WVV): de vennootschap die controle uitoefent over een andere. Zij draagt de consolidatieverplichting, de plicht tot een geconsolideerd jaarverslag, en — boven de groottedrempel — de verplichte commissariscontrole van de geconsolideerde rekening.
 
 > [!summary] Korte inhoud
 > Een vennootschap die controle uitoefent over een andere vennootschap (de dochter).
@@ -79,4 +81,3 @@ Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV → controle in rechte →
 [^4]: `CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7`
 [^5]: `CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding`
 [^6]: `CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap__sec_gevolgen-voor-consolidatieplicht`
-[^7]: `CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep`

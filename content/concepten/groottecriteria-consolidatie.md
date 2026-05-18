@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/groottecriteria-consolidatie.json
 gegenereerd_op: '2026-05-18'
 ---
 # Groottecriteria voor de consolidatievrijstelling ⚖️
+
+Een proportionaliteits-uitzondering op de consolidatieverplichting in het Belgische vennootschapsrecht (WVV). De groep wordt gewogen op personeel, omzet en balanstotaal; blijft ze onder twee van de drie drempels, dan vervalt de plicht tot geconsolideerde rapportering — tenzij een groepslid genoteerd is.
 
 > [!summary] Korte inhoud
 > Een moeder is vrijgesteld van de plicht om een geconsolideerde jaarrekening en jaarverslag op te stellen wanneer haar groep hoogstens één van de groottecriteria van WVV art. 1:26, § 1 overschrijdt.
@@ -81,7 +83,7 @@ _Bron: WVV art. 1:26 jo. art. 1:24_
 
 - **Getriggerd door**: [[consolidatieverplichting]]
 - **Vereist kennis van**: [[groep-van-beperkte-omvang]]
-- **Wordt voorondersteld in** (1): [[groep-van-beperkte-omvang]]
+
 ## Voorbeelden
 
 Aurelia Holding NV met dochter Gent Garantie BV: geaggregeerde omzet 20 mln EUR, balanstotaal 12 mln EUR, 180 personeelsleden. Slechts één drempel (personeel) overschreden → vrijstelling consolidatieplicht (groep van beperkte omvang).
@@ -94,4 +96,3 @@ Aurelia Holding NV met dochter Gent Garantie BV: geaggregeerde omzet 20 mln EUR,
 [^4]: `CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_consolidatie-moedervennootschap`
 [^5]: `CBN-2024-07-gevolgen-verhoging-groottecriteria-voor-vennootschappen__sec_voorbeeld-5-beoordeling-op-geconsolideerde-of-geaggregeerde-_part2`
 [^6]: `CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_beoordeling-groottecriteria-ingeval-van-een-consortium`
-[^7]: `CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding`

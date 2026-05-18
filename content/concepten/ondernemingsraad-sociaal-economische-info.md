@@ -11,11 +11,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: autoriteit
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/ondernemingsraad-sociaal-economische-info.json
 gegenereerd_op: '2026-05-18'
 ---
 # Ondernemingsraad — sociaal-economische informatie 🤖
+
+In vennootschappen met een ondernemingsraad heeft die OR recht op uitgebreide sociaal-economische en financiële informatie: basisinformatie bij installatie, jaarinformatie binnen drie maanden na boekjaar, en trimestriële periodieke informatie. De OR keurt de jaarrekening niet goed maar geeft advies — een informatiekanaal naast aandeelhouders en commissaris.
 
 > [!summary] Korte inhoud
 > De ondernemingsraad is een paritair orgaan (vertegenwoordigers werkgever + werknemers) in vennootschappen met gemiddeld minstens 100 werknemers.
@@ -51,3 +53,4 @@ _Grondslag: KB 27 november 1973 + paritaire akkoorden_
 ## Bronnen
 
 [^1]: `anchor-1.3.I.D`
+[^2]: `anchor-1.3.III`

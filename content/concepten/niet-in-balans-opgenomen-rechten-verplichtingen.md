@@ -17,16 +17,16 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/niet-in-balans-opgenomen-rechten-verplichtingen.json
 gegenereerd_op: '2026-05-18'
 ---
 # Niet in de balans opgenomen rechten en verplichtingen ⚖️
 
+Sommige rechten en verplichtingen verschijnen niet in de balans (bv. een afgegeven persoonlijke borgstelling, een operationele lease, een derivaat), maar moeten **wel** in de toelichting per soort vermeld worden. Voor de stagiair-GA klassieke valkuil: balans lijkt schoon, maar de toelichting toont een grote off-balance-blootstelling — getrouw-beeld-implicaties.
+
 > [!summary] Korte inhoud
 > In de toelichting worden per soort de rechten en verplichtingen vermeld die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden.
-
-> [!info] Bestaat uit (1): [[klasse-0-niet-in-balans]]
 
 In de toelichting worden per soort de rechten en verplichtingen vermeld die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden. Belangrijke rechten en verplichtingen die niet kunnen worden becijferd, worden op passende wijze in de toelichting vermeld.
 
@@ -118,10 +118,11 @@ _Grondslag: CBN-2017/07 §niet-limitativiteit_
 ## Zie ook
 
 - **Vereist kennis van**: [[getrouw-beeld-jaarrekening]]
-- **Wordt voorondersteld in** (1): [[materieel-belang-jaarrekening]]
+
 ## Bronnen
 
 [^1]: `CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_vermelding-van-rechten-en-verplichtingen-in-de-toelichting`
 [^2]: `CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_subsidiariteit`
 [^3]: `CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_rekeningen-van-de-klasse-0`
 [^4]: `CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_niet-limitativiteit-van-de-bestaande-lijsten`
+[^5]: `aggregate`

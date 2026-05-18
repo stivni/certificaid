@@ -17,11 +17,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/continuiteitsbeginsel.json
 gegenereerd_op: '2026-05-18'
 ---
 # Boekhoudkundig continuïteitsbeginsel (going concern) ⚖️
+
+De jaarrekening wordt opgesteld onder de premisse dat de onderneming **haar bedrijf zal voortzetten** (going concern). Stagiairs moeten begrijpen wat er kantelt als deze premisse vervalt: vaste activa worden niet langer afgeschreven over hun gebruiksduur maar gewaardeerd tegen liquidatiewaarde. Examenscenario: bestuursverslag meldt continuïteitsrisico — wat verandert in de waardering?
 
 > [!summary] Korte inhoud
 > De jaarrekening wordt opgemaakt in de **veronderstelling dat de onderneming haar bedrijf zal voortzetten** (going concern).
@@ -96,7 +98,7 @@ _Grondslag: CBN 2018/18 §verslaggeving_
 
 - **Vereist kennis van**: [[waarderingsregels]]
 - **Getriggerd door**: [[vereffening]]
-- **Wordt voorondersteld in** (1): [[wijziging-boekhoudkundig-referentiestelsel]]- **Triggert** (1): [[vereffening]]
+
 ## Voorbeelden
 
 Naaiatelier Ninove BV koopt een naaimachine voor € 24.000 met geschatte gebruiksduur van 6 jaar. Onder going concern: afschrijving € 4.000/jaar, restwaarde aan eind van jaar 3 op de balans = € 12.000. Bij stopzetting in jaar 3 (uitzondering): waardering naar liquidatiewaarde, bv. tweedehandsmarkt € 7.500 → bijkomende afschrijving € 4.500 in jaar 3.

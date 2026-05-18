@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: autoriteit
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/commissie-boekhoudkundige-normen.json
 gegenereerd_op: '2026-05-18'
 ---
 # Commissie voor Boekhoudkundige Normen (CBN) ⚖️
+
+De CBN is de federale adviescommissie die het Belgisch boekhoudrecht **doctrinair** uitlegt via gepubliceerde adviezen. Geen reglementaire bevoegdheid, wel hoog autoritair gezag. Voor stagiairs is dit de instantie naar wie je gaat bij interpretatievragen — en de bron waarvan je adviezen moet kunnen citeren in werknotities.
 
 > [!summary] Korte inhoud
 > De CBN is een federale adviescommissie die het Belgisch boekhoudrecht doctrinaire toelichting geeft.

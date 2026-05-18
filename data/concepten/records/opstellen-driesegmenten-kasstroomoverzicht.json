@@ -2,7 +2,7 @@
   "id": "opstellen-driesegmenten-kasstroomoverzicht",
   "naam": "Opstellen van een drie-segmenten-kasstroomoverzicht (CFO, CFI, CFF)",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Opstellen van een drie-segmenten-kasstroomoverzicht (CFO, CFI, CFF)",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -222,7 +222,9 @@
     "voorgesteld_op": "2026-05-17T03:00:00Z",
     "gecureerd_door": null,
     "gecureerd_op": null,
-    "flag_mens_review": "praktijk_pct = 75% (> 70%). Belgisch volledig schema kent geen verplicht kasstroomoverzicht; alle structuur is vakdoctrine (IAS 7 als referentie). Mens-review aanbevolen voor: (1) consistentie indirecte-methode-formule met Belgische vakliteratuur; (2) IFRS-cross-link voor Zelena Bio-voorbeeld."
+    "flag_mens_review": "praktijk_pct = 75% (> 70%). Belgisch volledig schema kent geen verplicht kasstroomoverzicht; alle structuur is vakdoctrine (IAS 7 als referentie). Mens-review aanbevolen voor: (1) consistentie indirecte-methode-formule met Belgische vakliteratuur; (2) IFRS-cross-link voor Zelena Bio-voorbeeld.",
+    "note": "PO 1.9 wave-2: schema 1.5→1.6 + situering + naam_alternatief",
+    "touched_at": "2026-05-19T00:00:00Z"
   },
   "linked_anchors": [
     "1.9.taak.1",
@@ -232,5 +234,27 @@
     "1.9.IV.G",
     "1.9.IV.H"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": {
+    "text": "Operationele competentie: vanuit de balans, resultatenrekening en toelichtingsstaten (tabel van waardemutaties, mutatietabel eigen vermogen) een kasstroomoverzicht reconstrueren met de drie segmenten CFO, CFI, CFF. Sluitend met de mutatie van liquide middelen in de balans. Verplicht voor de stagiair bij verkort/microschema-jaarrekeningen waar de bedrijfscijfers het kasstroomoverzicht niet rechtstreeks meegeven.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Vakdoctrine financial analysis — IAS 7-methodologie"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "aggregate",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "naam_alternatief": [
+    "Preparing three-segment cash flow statement",
+    "Opbouw CFO/CFI/CFF"
+  ],
+  "migrated_doel_to_situering_at": "2026-05-19T00:00:00Z"
 }

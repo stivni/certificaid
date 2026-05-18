@@ -2,7 +2,7 @@
   "id": "uitvoeren-eerste-consolidatie",
   "naam": "Uitvoeren van de eerste consolidatie van een nieuw verworven dochter of geassocieerde onderneming",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Uitvoeren van de eerste consolidatie van een nieuw verworven dochter of geassocieerde onderneming",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -298,6 +298,15 @@
         "voorbeelden[0] (geassocieerde: 200/600/150/50 → € 350.000/€ 1.250.000/€ 312.500/€ 37.500; jaarafschrijving € 7.500)"
       ],
       "reden": "cast-consistente €-bedragen, parallel aan Sessie 3 records-update (basis_consolidatie + geassocieerde scenario's)"
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
+      ]
     }
   },
   "linked_anchors": [
@@ -307,5 +316,16 @@
     "1.4.I.G",
     "1.4.II.D"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "edges": [],
+  "naam_alternatief": "perform initial consolidation",
+  "situering": {
+    "text": "Een toepassingscompetentie binnen het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2) — gericht op het boekjaar van eerste opname. De stagiair waardeert de overgenomen netto-activa, bepaalt het consolidatieverschil (goodwill of negatief verschil) en boekt het in conform de toepasselijke techniek.",
+    "confidence": "inferred",
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

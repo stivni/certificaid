@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/arbeidskosten.json
 gegenereerd_op: '2026-05-18'
 ---
 # Arbeidskosten ⚖️
+
+Arbeidskosten omvatten brutoloon plus alle werkgeverslasten (sociale zekerheid, vakantiegeld, eindejaarspremie, verzekeringen) en eventuele extralegale voordelen. In de algemene boekhouding zitten ze typisch op klasse 62 (bezoldigingen). In analytische zin worden ze gesplitst in directe arbeid (rechtstreeks toewijsbaar aan een order/product) en indirecte arbeid (toezicht, onderhoud, kwaliteit). Vormen samen met materiaalkosten en overige kosten de drie hoofdsoorten van kostensoort.
 
 > [!summary] Korte inhoud
 > Arbeidskosten in analytische zin omvatten het brutoloon plus alle bijhorende werkgeverslasten (sociale zekerheid, vakantiegeld, eindejaarspremie, verzekering arbeidsongevallen, bedrijfsvoorheffing als doorstortingsplicht).
@@ -77,9 +79,6 @@ Bij Yperse Werkplaats BV registreren de naaisters elke ochtend via badge welk or
 
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (1): [[prijsverschil-arbeid]]
 ## Voorbeelden
 
 Een naaister bij Yperse Werkplaats BV verdient bruto € 2.800/maand. Werkgeversbijdragen RSZ ± 27 % = € 756; voorzieningen vakantiegeld en eindejaarspremie ± € 420. Totale maandkost voor de werkgever ≈ € 3.976. Bij 152 uur/maand → arbeidskost per uur ± € 26.
@@ -89,3 +88,4 @@ Een naaister bij Yperse Werkplaats BV verdient bruto € 2.800/maand. Werkgevers
 [^1]: `WIB92__art_30`
 [^2]: `WIB92__art_31`
 [^3]: `Wet-3-juli-1978__art_2`
+[^4]: `Minimum-Algemeen-Rekeningstelsel-voor-boekhoudplichtige-ondernemingen__klasse_6`

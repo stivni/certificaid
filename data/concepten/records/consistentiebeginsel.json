@@ -2,7 +2,7 @@
   "id": "consistentiebeginsel",
   "naam": "Consistentiebeginsel",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.V.A",
@@ -157,5 +157,7 @@
       "omschrijving": "Naaiatelier Ninove BV waardeert haar grondstoffen sinds altijd via FIFO. In 2024 wil zij overstappen naar gewogen gemiddelde → moet motiveren in toelichting + impact (bv. 'voorraad-waardering daalt met € 45.000, resultaat met € 32.000 na belasting')."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "Het consistentiebeginsel (bestendigheid van waarderingsregels) zegt: gebruik dezelfde waarderingsregels van jaar tot jaar. Wijzigt je vennootschap toch — bv. een andere afschrijvingsmethode — dan moet dat in de toelichting verantwoord én cijfermatig herrekend worden. Stagiairs missen vaak het tweede deel: de wijziging is niet verboden, maar wel transparantieplichtig.",
+  "naam_alternatief": "consistency principle / principe de constance"
 }

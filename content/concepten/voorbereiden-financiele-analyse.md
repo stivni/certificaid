@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voorbereiden-financiele-analyse.json
 gegenereerd_op: '2026-05-18'
 ---
 # Voorbereiden van een financiële analyse van de jaarrekening 🤖
+
+Competentie om vóór de eigenlijke ratio-analyse de opdracht goed te kaderen: opdrachtgever en doel identificeren, perimeter bepalen (enkelvoudige vs. geconsolideerde jaarrekening), beschikbare bronnen verzamelen en analytische balans opstellen. Zonder deze voorbereiding loopt elke analyse risico op verkeerde focus.
 
 
 ## Stappen
@@ -149,3 +151,6 @@ Doorloop balans, resultatenrekening en toelichting en flag wat eruit springt.
 
 
 
+## Bronnen
+
+[^1]: `anchor-1.3.taak.1`

@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/confronteren-toelichting-en-off-balance.json
 gegenereerd_op: '2026-05-18'
 ---
 # Confronteren van de financiële analyse met de toelichting en off-balance posten 🤖
+
+Competentie om financiële analyse op cijfers te confronteren met wat ernaast staat: de toelichting (waarderingsregels, off-balance-engagementen, lopende geschillen) en hors-balansposten. Zonder die confrontatie blijft de analyse oppervlakkig — een sterke solvabiliteit kan verbleken zodra borgstellingen en operationele leases meegenomen worden.
 
 
 ## Stappen
@@ -170,3 +172,6 @@ Schrijf één paragraaf over off-balance in je rapport.
 
 
 
+## Bronnen
+
+[^1]: `anchor-1.3.taak.3`

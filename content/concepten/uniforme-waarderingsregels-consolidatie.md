@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uniforme-waarderingsregels-consolidatie.json
 gegenereerd_op: '2026-05-18'
 ---
 # Uniforme waarderingsregels in de consolidatie ⚖️
+
+Een coherentie-beginsel in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2). Door dezelfde waarderingsregels op alle groepsleden toe te passen, ontstaat een geconsolideerd beeld dat economisch vergelijkbaar is — los van toevallige verschillen tussen de enkelvoudige boekhoudingen van dochters.
 
 > [!summary] Korte inhoud
 > Voor haar geconsolideerde jaarrekening past de moeder dezelfde waarderingsregels toe als voor haar enkelvoudige jaarrekening (onverminderd KB WVV art. 3:118).

@@ -4,12 +4,15 @@ tags:
 - concept
 - begrip
 - po-1-6
+- po-1-7
 linked_anchors:
 - 1.6.I.A
 - 1.6.I.B
 - 1.6.I.C
+- 1.7.taak.1
 programmaonderdelen:
 - '1.6'
+- '1.7'
 confidence: grounded
 node_type: begrip
 status: seed
@@ -23,8 +26,6 @@ De gedeelde wettelijk voorbehouden opdracht is het tweede luik van het opdrachte
 
 > [!summary] Korte inhoud
 > Een gedeelde wettelijk voorbehouden opdracht is een opdracht die door of krachtens de wet wordt toevertrouwd aan ofwel een gecertificeerd accountant ofwel een bedrijfsrevisor (gedeeld monopolie).
-
-> [!info] Specialisaties (4): [[effectennorm-opdracht]] · [[fusie-splitsing-controleopdracht]] · [[omzetting-vennootschap-opdracht]] · [[ontbinding-vereffening-opdracht]]
 
 Een gedeelde wettelijk voorbehouden opdracht is een opdracht die door of krachtens de wet wordt toevertrouwd aan ofwel een gecertificeerd accountant ofwel een bedrijfsrevisor (gedeeld monopolie). Voorbeelden: inbreng in natura, quasi-inbreng, omzetting van rechtsvorm, ontbinding-vereffening. Geldt enkel als er geen commissaris is — heeft de vennootschap er één, dan voert die de opdracht uit.
 

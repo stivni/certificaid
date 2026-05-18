@@ -2,7 +2,7 @@
   "id": "arbeidskosten",
   "naam": "Arbeidskosten",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.II.C",
@@ -136,18 +136,6 @@
       "target": "kostensoort",
       "redenering": "Arbeid is één van de drie hoofdsoorten.",
       "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "directe-kosten",
-      "redenering": "Directe arbeid is een directe kost.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "indirecte-kosten",
-      "redenering": "Indirecte arbeid is een indirecte kost.",
-      "confidence": "inferred"
     }
   ],
   "voorbeelden": [
@@ -156,5 +144,24 @@
       "omschrijving": "Een naaister bij Yperse Werkplaats BV verdient bruto € 2.800/maand. Werkgeversbijdragen RSZ ± 27 % = € 756; voorzieningen vakantiegeld en eindejaarspremie ± € 420. Totale maandkost voor de werkgever ≈ € 3.976. Bij 152 uur/maand → arbeidskost per uur ± € 26."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "labour costs",
+  "situering": {
+    "text": "Arbeidskosten omvatten brutoloon plus alle werkgeverslasten (sociale zekerheid, vakantiegeld, eindejaarspremie, verzekeringen) en eventuele extralegale voordelen. In de algemene boekhouding zitten ze typisch op klasse 62 (bezoldigingen). In analytische zin worden ze gesplitst in directe arbeid (rechtstreeks toewijsbaar aan een order/product) en indirecte arbeid (toezicht, onderhoud, kwaliteit). Vormen samen met materiaalkosten en overige kosten de drie hoofdsoorten van kostensoort.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB 21.10.2018 — MAR klasse 62"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "Minimum-Algemeen-Rekeningstelsel-voor-boekhoudplichtige-ondernemingen__klasse_6",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

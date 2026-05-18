@@ -2,7 +2,7 @@
   "id": "opstellen-master-budget",
   "naam": "Opstellen van een master-budget (operationeel + financieel)",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Opstellen van een master-budget (operationeel + financieel)",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -233,5 +233,17 @@
     "1.8.VI.C",
     "1.8.VI.D"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "situering": {
+    "text": "Competentie waarmee de stagiair een master-budget consolideert uit de afzonderlijke deelbudgetten (verkoop, productie, materiaal-inkoop, arbeid, overhead, investeringen, kasstroom) en de drie pro-forma overzichten oplevert: pro-forma resultatenrekening, pro-forma balans, pro-forma kasstroomtabel. Vereist consistentie tussen deelbudgetten (verkoop drijft productieplan; productieplan drijft inkoop en arbeid) en realistische aannames over loonindexering, prijsverandering grondstoffen en betalingstermijnen. Eindpunt van de budgetprocedure (1.8.VI.C).",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }

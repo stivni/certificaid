@@ -15,11 +15,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/afbakenen-consolidatiekring.json
 gegenereerd_op: '2026-05-18'
 ---
 # Afbakenen van de consolidatiekring en beoordelen van uitsluitings- of weglatingsgronden 🤖
+
+Een toepassingscompetentie binnen het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2) — de eerste stap in elke consolidatie-opdracht. De stagiair vertaalt de groepsstructuur en de uitsluitings- en weglatingsgronden naar een concrete kring van wel/niet/equity te consolideren entiteiten.
 
 
 ## Stappen

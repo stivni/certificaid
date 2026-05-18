@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: procedure
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/corporate-governance-verklaring.json
 gegenereerd_op: '2026-05-18'
 ---
 # Corporate-governance-verklaring ⚖️
+
+De corporate-governance-verklaring is een verplicht apart deel van het bestuursverslag voor genoteerde vennootschappen waarin de governance-code, afwijkingen daarvan, en de werking van bestuurs- en controleorganen worden toegelicht. Voor de analist is het de plaats om governance-risico's te detecteren los van de cijfers.
 
 > [!summary] Korte inhoud
 > Vennootschappen als bedoeld in artikel 2, lid 1, punt a) van Richtlijn 2013/34/EU (i.e. genoteerde en bepaalde andere) moeten een verklaring inzake corporate governance in hun bestuursverslag opnemen.
@@ -115,3 +117,4 @@ Beschrijf het diversiteitsbeleid met betrekking tot het bestuursorgaan, leidingg
 ## Bronnen
 
 [^1]: `Richtlijn-2013-34-EU__art_20__sub_lid1-lid4`
+[^2]: `anchor-1.3.III`

@@ -2,7 +2,7 @@
 title: Gemeenschappelijke dochteronderneming
 tags:
 - concept
-- autoriteit
+- begrip
 - po-1-4
 linked_anchors:
 - 1.4.I.C
@@ -11,13 +11,15 @@ linked_anchors:
 programmaonderdelen:
 - '1.4'
 confidence: grounded
-node_type: autoriteit
+node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/gemeenschappelijke-dochteronderneming.json
 gegenereerd_op: '2026-05-18'
 ---
 # Gemeenschappelijke dochteronderneming ⚖️
+
+Een groepsfiguur uit het Belgische boekhoudrecht (KB WVV Boek 3, Titel 2) voor vennootschappen onder gezamenlijke controle van een beperkt aantal vennoten op basis van een overeenkomst. Het begrip schept ruimte voor joint ventures en triggert evenredige consolidatie (of equity, naargelang de integratie).
 
 > [!summary] Korte inhoud
 > Een vennootschap waarover een beperkt aantal vennoten samen controle uitoefenen op basis van een overeenkomst dat beleidsbeslissingen alleen met hun gemeenschappelijke instemming kunnen worden genomen.
@@ -60,7 +62,7 @@ _Bron: CBN 2017/02 — Gezamenlijke controle_
 
 - **Getriggerd door**: [[gezamenlijke-controle]]
 - **Getriggerd door**: [[evenredige-consolidatie]]
-- **Triggert** (1): [[gezamenlijke-controle]]
+
 ## Voorbeelden
 
 Cardinal Group NV en Energiehuis Evergem NV bezitten elk 50 % van Filmstudio Florence BV. Hun aandeelhoudersovereenkomst legt vast dat strategische beslissingen alleen samen worden genomen → gezamenlijke controle → Filmstudio Florence is een gemeenschappelijke dochter → bij Cardinal en bij Energiehuis Evergem wordt Filmstudio voor 50 % evenredig geconsolideerd.
@@ -71,5 +73,3 @@ Cardinal Group NV en Energiehuis Evergem NV bezitten elk 50 % van Filmstudio Flo
 [^2]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking`
 [^3]: `CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2`
 [^4]: `KB-WVV-2019__art_3_111`
-[^5]: `KB-WVV-2019__art_3_98`
-[^6]: `CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep`

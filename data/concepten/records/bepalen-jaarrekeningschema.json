@@ -2,7 +2,7 @@
   "id": "bepalen-jaarrekeningschema",
   "naam": "Bepalen welk jaarrekening-schema (volledig, verkort, micro) een vennootschap moet gebruiken",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Bepalen welk jaarrekening-schema (volledig, verkort, micro) een vennootschap moet gebruiken",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -187,5 +187,6 @@
     "1.2.IV.C",
     "1.2.IV"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": "Welk schema (volledig, verkort, micro) een vennootschap moet gebruiken bepaalt rechtstreeks de structuur van haar jaarrekening, de noodzaak van een sociale balans en de detailgraad van de toelichting. De competentie hangt direct af van de grootteclassificatie (WVV art. 1:24-1:26) en de eventuele PIE-status. Voor de stagiair is dit een routine-cascade die elk dossier opent."
 }

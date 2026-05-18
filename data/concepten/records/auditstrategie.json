@@ -9,18 +9,19 @@
     "1.6.III.A"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.III",
     "dekt_ook_anchors": [
       "1.6.III.A"
     ],
     "reviewed_by": null,
-    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
     "edge_cleanup_v4": {
       "op": "2026-05-18",
       "reden": "deprecated 'bevat'-edge → onderdeel-van inverse op werkprogramma-audit; naam ontdaan van uitleg-parenthese"
-    }
+    },
+    "edge_key_migrated": "2026-05-18"
   },
   "definitie": {
     "text": "De auditstrategie is het overkoepelende plan voor de hele opdracht: ze bepaalt de reikwijdte, het tijdschema en de omvang, en geeft richtlijnen voor het opstellen van het werkprogramma. De strategie weegt opdrachtkenmerken, doelstellingen, professionele oordeelsfactoren, ervaring uit eerdere opdrachten, en de aard/timing/omvang van de benodigde middelen.",
@@ -80,8 +81,8 @@
   "edges": [
     {
       "type": "onderdeel-van",
-      "target": "auditplanning",
-      "redenering": "Auditstrategie is de output van de planningsfase op overall niveau."
+      "redenering": "Auditstrategie is de output van de planningsfase op overall niveau.",
+      "target_id": "auditplanning"
     }
   ],
   "voorbeelden": [

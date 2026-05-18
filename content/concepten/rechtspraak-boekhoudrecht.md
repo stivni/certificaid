@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/rechtspraak-boekhoudrecht.json
 gegenereerd_op: '2026-05-18'
 ---
 # Rechtspraak inzake boekhoudrecht ⚖️
+
+Rechtspraak is de **vijfde laag** van het Belgisch boekhoudrecht — uitspraken van Cassatie, hoven van beroep en rechtbanken interpreteren wet, KB en (indirect) CBN-adviezen. Voor de stagiair-GA praktisch belangrijk bij dispuut (fiscale rechtspraak met boekhoudkundige reflex) maar zelden gevolgd in dagelijkse verwerking — wet en KB blijven primair.
 
 > [!summary] Korte inhoud
 > Het geheel van rechterlijke uitspraken (Hof van Cassatie, hoven van beroep, rechtbanken) over boekhoudkundige geschillen, fiscale betwistingen met boekhoudkundige relevantie, en aansprakelijkheidskwesties van bestuurders, accountants en commissarissen.

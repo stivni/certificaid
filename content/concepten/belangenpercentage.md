@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/belangenpercentage.json
 gegenereerd_op: '2026-05-18'
 ---
 # Belangenpercentage 🤖
+
+Een meetbegrip uit het Belgische boekhoudrecht-consolidatieregime (Boek 3, Titel 2 van het KB WVV). Samen met het controlepercentage onderbouwt het de kwalificatie van de relatie met een deelneming en de keuze van de consolidatietechniek. Waar controle de macht meet, meet het belangenpercentage het economisch winstrecht.
 
 > [!summary] Korte inhoud
 > Het deel van het kapitaal (en dus van het winstrecht) dat een moeder in een dochter of geassocieerde onderneming bezit.
@@ -197,7 +199,7 @@ Resultaat: Aurelia Holding NV heeft een economisch belang van 48 % in B. Het aan
 
 - **Vereist kennis van**: [[controle]]
 - **Getriggerd door**: [[integrale-consolidatie]]
-- **Wordt voorondersteld in** (1): [[minderheidsbelangen]]
+
 ## Voorbeelden
 
 Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV → belangenpercentage = 80 %; aandeel van derden = 20 %.

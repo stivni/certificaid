@@ -1,7 +1,7 @@
 {
   "id": "controledocumentatie",
   "naam": "Controledocumentatie / controledossier",
-  "node_type": "begrip",
+  "node_type": "cluster",
   "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
@@ -9,13 +9,20 @@
     "1.6.III.B"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.III.C",
     "dekt_ook_anchors": [
       "1.6.III.B"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "type_migration": {
+      "van": "begrip",
+      "naar": "cluster",
+      "op": "2026-05-18",
+      "reden": "Heeft drie bouwstenen, drempelwaarden, valkuilen — voldoet aan 'samengesteld onderwerp met bouwstenen' (cluster-criterium). Begrip past meer bij één-zin-defineerbare concepten."
+    }
   },
   "definitie": {
     "text": "Controledocumentatie is de schriftelijke vastlegging van uitgevoerde controlewerkzaamheden, verkregen assurance-informatie en getrokken conclusies. Een controledossier bestaat uit één of meer mappen (fysiek of elektronisch) met alle vastleggingen van een specifieke controleopdracht.",
@@ -67,18 +74,23 @@
     },
     {
       "titel": "Ervaren-beroepsbeoefenaar-test",
-      "wat": "De documentatie moet zo voldoende zijn dat een ervaren beroepsbeoefenaar die de opdracht niet kent inzicht krijgt in: aard/timing/omvang werkzaamheden, wie ze deed en wanneer, wie ze reviewde, resultaten en getrokken conclusies, significante professionele oordeelsvormingen.",
+      "wat": "ISA 230 §8 (en ITAA KMO-controlenorm §44) vereisen dat de documentatie zo voldoende is dat een ervaren auditor (een persoon binnen of buiten het kantoor met praktische controle-ervaring) die voorheen niet bij de controle betrokken was, inzicht krijgt in: aard/timing/omvang werkzaamheden, wie ze uitvoerde en wanneer, wie ze reviewde, resultaten en getrokken conclusies, significante professionele oordeelsvormingen.",
       "waarom": "Dossier moet 'cold readable' zijn — zoniet is de bewijswaarde nul.",
-      "grondslag": "ITAA KMO-controlenorm §44",
+      "grondslag": "ISA 230 §6(c), §8 + ITAA KMO-controlenorm §44",
       "confidence": "grounded",
       "source": {
         "type": "norm",
-        "short": "ITAA KMO-controlenorm §44"
+        "short": "ISA 230 §8 + ITAA KMO-controlenorm §44"
       },
       "_provenance": {
         "inputs": [
           {
             "id": "ITAA-norm-kmo-controlenorm__sec_2-2-4-documentatie",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ISA-230__sec_vereisten_2",
             "sha256": null,
             "version": "rag-v1"
           }
@@ -105,6 +117,27 @@
         "inputs": [
           {
             "id": "ITAA-norm-algemene-controlenorm__sec_4-werkdocumenten",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Permanent dossier versus jaardossier",
+      "wat": "Het controledossier bestaat in de praktijk uit twee delen: het PERMANENT dossier (gegevens met blijvende relevantie zoals statuten, organogrammen, beschrijving van de cyclussen en interne controle, leveranciers- en cliëntencontracten van duurzaam belang) en het JAARDOSSIER (de werkdocumenten specifiek voor het boekjaar: planningsmemo, risico-evaluatie, werkschema, uitgevoerde tests, conclusies, eindverslag).",
+      "waarom": "Een dossier dat bij elke audit volledig zou worden opgebouwd kost onnodig tijd; permanent dossier wordt jaarlijks geüpdatet (niet herwerkt) terwijl het jaardossier per boekjaar nieuw opgebouwd wordt. Splitsing maakt review en kennisoverdracht naar nieuwe teamleden makkelijker.",
+      "in_praktijk": "Bij een eerste opdracht wordt het permanent dossier opgebouwd; bij vervolgjaren update je wat veranderd is (nieuwe filialen, statutenwijziging, ...) en bouw je een vers jaardossier op.",
+      "grondslag": "ISA 230 §A14 + ITAA-onderwijspraktijk",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 230 §A14 (combineerbare werkdocumenten over boekjaren)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-230__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part4",
             "sha256": null,
             "version": "rag-v1"
           }
@@ -152,6 +185,26 @@
           }
         ]
       }
+    },
+    {
+      "naam": "Termijn samenstelling definitief controledossier",
+      "waarde": "60 dagen",
+      "eenheid": "dagen na datum controleverslag",
+      "gevolg": "ISA 230 §14 + ISQM 1 vragen tijdige samenstelling van het definitieve dossier; de gangbare termijn die ISQM 1 als richtlijn aangeeft is binnen 60 dagen na datum controleverslag. Na samenstelling worden wijzigingen alleen toegelaten als ze worden gedateerd, gemotiveerd en geïdentificeerd.",
+      "source": {
+        "type": "norm",
+        "short": "ISA 230 §14-§16 + ISQM 1 §A60"
+      },
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-230__sec_vereisten",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
@@ -176,13 +229,28 @@
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "werkprogramma-audit",
-      "redenering": "Werkprogramma is verplicht dossier-element."
+      "redenering": "Werkprogramma is verplicht dossier-element.",
+      "target_id": "werkprogramma-audit"
     },
     {
       "type": "onderdeel-van",
-      "target": "auditcyclus",
-      "redenering": "Documenteren is een continu-lopende cyclusstap."
+      "redenering": "Documenteren loopt door alle fasen van de auditcyclus.",
+      "target_id": "auditcyclus-fasen-synthese"
+    },
+    {
+      "type": "verwijst-naar",
+      "target_id": "kwaliteitsbeheersing-opdrachtniveau",
+      "redenering": "Kwaliteit wordt onbewijsbaar zonder documentatie."
+    },
+    {
+      "type": "verwijst-naar",
+      "target_id": "delegatie-en-supervisie-audit",
+      "redenering": "Review-aftekening + supervisie-evidentie zit in dossier."
+    },
+    {
+      "type": "verwijst-naar",
+      "target_id": "beroepsgeheim-accountant",
+      "redenering": "Werkdocumenten zijn gedekt door het beroepsgeheim."
     }
   ],
   "voorbeelden": [
@@ -191,5 +259,27 @@
       "omschrijving": "Het controledossier 2025 van Rotex Roeselare NV bevat: opdrachtbrief, strategie + risico-evaluatie, werkprogramma per cyclus, alle steekproeven (met testresultaten en evaluatie), correspondentie met derden, management-letters, vergaderingsverslagen met de directie, en het ondertekende controleverslag. Sofie Janssens bewaart het dossier 10 jaar."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Controledocumentatie is meer dan administratie: het is het bewijs dat de auditor zijn beroep heeft uitgeoefend volgens de regels van de kunst. ISA 230 spreekt expliciet de 'ervaren-auditor-test': een externe collega die het dossier 'koud' opent, moet uit de documentatie kunnen reconstrueren wat is gedaan, door wie, met welk resultaat en welke conclusies. Het dossier wordt 'ingevroren' na samenstelling — wijzigingen achteraf moeten getraceerd worden, anders verliest het zijn bewijswaarde bij toezicht of in rechtbank. Belgisch + ITAA-normen vragen 5-10 jaar bewaring; KB plichtenleer beschermt de eigendom voor de accountant.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 230 §2 + §A1 + ITAA KMO-controlenorm §44-§49"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-230__sec_inleiding_2",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ISA-230__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

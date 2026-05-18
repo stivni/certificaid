@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vennootschapsvormen-typologie.json
 gegenereerd_op: '2026-05-18'
 ---
 # Typologie van vennootschaps- en verenigingsvormen ⚖️
+
+Het WVV onderscheidt **verschillende vennootschaps- en verenigingsvormen** (BV, NV, CV, VOF, VZW, IVZW, stichting). Voor PO 1.2 belangrijk omdat de vorm doorwerkt op boekhoudverplichtingen: een NV is altijd dubbele boekhouding, een eenmanszaak onder drempel mag vereenvoudigd.
 
 > [!summary] Korte inhoud
 > Het WVV onderscheidt verschillende vennootschapsvormen (rechtspersonen met winstoogmerk) en verenigingsvormen (rechtspersonen zonder of met sociaal oogmerk).
@@ -101,7 +103,7 @@ _Grondslag: WVV Boeken 15-16_
 
 - **Vereist kennis van**: [[wetboek-vennootschappen-verenigingen]]
 - **Vereist kennis van**: [[boekhoudplichtige-onderneming]]
-- **Wordt voorondersteld in** (1): [[jaarrekening-vzw-stichting]]
+
 ## Voorbeelden
 
 Meubelzaak Mertens BV (besloten vennootschap, beperkte aansprakelijkheid) → dubbele boekhouding, jaarrekening verkort schema. Tom Lefèvre's maatschap (geen rechtspersoonlijkheid) → onbeperkte aansprakelijkheid vennoten, alleen boekhoudplicht (geen jaarrekening bij NBB).

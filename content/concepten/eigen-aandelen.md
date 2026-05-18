@@ -11,11 +11,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/eigen-aandelen.json
 gegenereerd_op: '2026-05-18'
 ---
 # Beheer van eigen aandelen ⚖️
+
+Een uitzonderingsregime binnen het eigen vermogen: een vennootschap die haar eigen aandelen aanhoudt, neemt ze op onder geldbeleggingen (rubriek 50) met een **parallel verplichte onbeschikbare reserve voor hetzelfde bedrag**. Voor een stagiair-GA: een terugkerende valkuil bij de jaarrekening — wie de tegenpost-reserve vergeet, schendt de uitkeerbaarheidstoets en het netto-actief-criterium.
 
 > [!summary] Korte inhoud
 > Een vennootschap kan onder strikte voorwaarden **haar eigen aandelen inkopen** en aanhouden in haar portefeuille.

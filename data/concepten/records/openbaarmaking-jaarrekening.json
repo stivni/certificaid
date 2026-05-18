@@ -2,7 +2,7 @@
   "id": "openbaarmaking-jaarrekening",
   "naam": "Openbaarmaking van de jaarrekening",
   "node_type": "procedure",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.F",
@@ -227,5 +227,7 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": "De openbaarmaking is de **wettelijke neerleggingsplicht** bij de NBB-Balanscentrale (en bij griffie voor sommige stukken). Voor stagiair-GA cruciaal om termijnen, vorm (XBRL-tags), sancties (administratieve geldboete + civielrechtelijke aansprakelijkheid bestuurders) en kanaal-onderscheid te beheersen.",
+  "naam_alternatief": "publication of annual accounts / publication des comptes annuels"
 }

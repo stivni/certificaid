@@ -2,7 +2,7 @@
   "id": "consolidatiekring",
   "naam": "Consolidatiekring",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -60,6 +60,16 @@
         "bouwstenen[*].voorbeeld_inline (nieuw)",
         "bouwstenen[*].wat (stagiair-toon)",
         "voorbeeld_inline op record-niveau toegevoegd"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -2",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -397,48 +407,6 @@
   ],
   "edges": [
     {
-      "type": "contrasteert-met",
-      "target": "consolidatieverplichting",
-      "redenering": "Consolidatieverplichting bepaalt 'wel of niet consolideren'; consolidatiekring bepaalt 'wie wel of niet opnemen'. Een consolidatieplichtige moeder kan vrijgesteld zijn voor bepaalde dochters maar moet die dan via vermogensmutatie opnemen (art. 3:100).",
-      "_corrected_from": [
-        {
-          "field": "type",
-          "from": "vergelijkingsparen → edges",
-          "reason": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-        }
-      ],
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_78",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "wijziging-consolidatiekring",
-      "redenering": "Consolidatiekring is de momentopname van entiteiten. Wijziging van de consolidatiekring betreft de gebeurtenissen (verwerving, vervreemding, fusie) die nieuwe of vertrekkende leden in/uit de kring brengen — met specifieke boekhoudkundige gevolgen.",
-      "_corrected_from": [
-        {
-          "field": "type",
-          "from": "vergelijkingsparen → edges",
-          "reason": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-        }
-      ],
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "vereist-kennis-van",
       "target": "controle",
       "redenering": "De kring wordt bepaald door wie controle uitoefent en op wie.",
@@ -457,5 +425,19 @@
       "omschrijving": "Aurelia Holding NV controleert Brugse Brouwerij BV (100 %) en Drukkerij Dendermonde BV (25 %, invloed van betekenis). Consolidatiekring = Aurelia + Brugse; Drukkerij Dendermonde komt erbij via vermogensmutatie."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": "scope of consolidation",
+  "situering": {
+    "text": "Een operationeel kernbegrip uit het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2). Afbakening van de kring is de eerste stap in elke consolidatie en bepaalt welke entiteiten — en met welke techniek — in de geconsolideerde jaarrekening verschijnen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

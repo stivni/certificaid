@@ -2,7 +2,7 @@
   "id": "registratiesysteem-eenvoudige-integratie",
   "naam": "Eenvoudige integratie (registratiesysteem)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.IV.C",
@@ -104,5 +104,7 @@
       ]
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "simple integration / klasse 9 spiegel-boeking"
 }

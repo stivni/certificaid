@@ -2,7 +2,7 @@
   "id": "vereenvoudigde-boekhouding",
   "naam": "Vereenvoudigde boekhouding",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.I",
@@ -231,5 +231,7 @@
       "omschrijving": "Praktijk Persenaire (eenmanszaak vrij beroep, omzet € 180.000 in 20X1) voert een vereenvoudigde boekhouding: financieel dagboek (alle bankuittreksels en kasontvangsten/uitgaven), aankoopdagboek (huur praktijk, software-licentie, kantoorbenodigdheden), verkoopdagboek (consultatie-erelonen). Geen klantenrekeningen, geen 'klasse 6' — wel een opgave van het vermogen per 31/12."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": "Een **alternatief boekhoudregime** voor kleine ondernemingen onder de WER-drempels: geen rekeningenstelsel, wel een aankoop-, verkoop- en financieel dagboek + inventaris. Voor de stagiair-GA cruciaal om de drempels (WER art. III.85) te kennen én te zien wanneer je tóch dubbele boekhouding moet aanraden.",
+  "naam_alternatief": "simplified accounting / comptabilité simplifiée"
 }

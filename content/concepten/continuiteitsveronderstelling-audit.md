@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/continuiteitsveronderstelling-audit.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -41,10 +41,26 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 (Continuïteitsveronderstelling) + §93_
 > (1) Continuïteit OK → geen vermelding. (2) Materiële onzekerheid maar gerechtvaardigd → paragraaf ter benadrukking. (3) Continuïteit verbroken EN niet juist verwerkt → aangepast oordeel. 🤖
 
 
+## Valkuilen
+
+> [!warning]- Een materiële continuïteitsonzekerheid die correct in de jaarrekening is toegelicht en waarover voldoende controle-informatie is verkregen →…
+> ⚠️ Een materiële continuïteitsonzekerheid die correct in de jaarrekening is toegelicht en waarover voldoende controle-informatie is verkregen → GEEN aangepast oordeel, MAAR een verplichte aparte sectie 'Materiële onzekerheid over de continuïteit' in het verslag (ISA 570 §22). Dit is GEEN paragraaf ter benadrukking — het is een eigen genormeerde sectie. Verwarrend: oudere verslagen gebruikten emphasis daarvoor. ⚖️
+>
+> _Bron: ISA 570 (herzien) §22 + ISA 700 (herzien) §29_
+
+
+> [!warning]- Continuïteit niet correct toegelicht in de jaarrekening (terwijl er een materiële onzekerheid is) → aangepast oordeel: met voorbehoud (geïso…
+> ⚠️ Continuïteit niet correct toegelicht in de jaarrekening (terwijl er een materiële onzekerheid is) → aangepast oordeel: met voorbehoud (geïsoleerd) of afkeurend (diepgaand). NIET louter een paragraaf bijvoegen — het oordeel moet wijzigen. ⚖️
+>
+> _Bron: ISA 570 (herzien) §23 + ISA 705 (herzien)_
+
+
+
 ## Zie ook
 
 - **Vereist kennis van**: [[paragraaf-ter-benadrukking]]
-- **Wordt voorondersteld in** (2): [[beoordelen-getrouw-beeld-en-regelmatigheid]] · [[verwerven-kennis-van-clientonderneming-audit]]
+- **Vereist kennis van**: [[afwijking-van-materieel-belang]]
+
 ## Voorbeelden
 
 Naaiatelier Ninove BV heeft twee jaar op rij verlies en een negatief eigen vermogen. Sofie Janssens vraagt aan het management een liquiditeitsbegroting op 18 maanden + onderbouwing van de geplande herfinanciering. Resultaat: redelijk plan met krediettoezegging van de bank → continuïteit blijft als veronderstelling aanvaardbaar, maar Sofie neemt een paragraaf ter benadrukking op in haar verslag over de materiële onzekerheid.
@@ -55,3 +71,4 @@ Naaiatelier Ninove BV heeft twee jaar op rij verlies en een negatief eigen vermo
 [^2]: `ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s`
 [^3]: `ITAA-norm-kmo-controlenorm__sec_3-3-2-1-financi-le-overzichten-bevatten-afwijkingen-van-mate`
 [^4]: `ISA-570__sec_definities`
+[^5]: `ISA-700-herzien__sec_vereisten_2_part3`

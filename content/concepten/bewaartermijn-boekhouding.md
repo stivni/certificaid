@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bewaartermijn-boekhouding.json
 gegenereerd_op: '2026-05-18'
 ---
 # Bewaartermijn van boeken en verantwoordingsstukken ⚖️
+
+De wet legt op hoe lang boekhoudstukken bewaard moeten blijven: zeven jaar voor bewijsstukken tegenover derden, drie jaar voor de overige. Stagiairs onderschatten vaak het verschil — én ze missen dat de termijn loopt vanaf 1 januari ná het boekjaar. Voor het examen is dit een typische precisie-vraag (juiste termijn × juiste startdatum).
 
 > [!summary] Korte inhoud
 > Boeken (dagboeken, centraal boek, inventarisboek) en verantwoordingsstukken (facturen, kasstukken, bankuittreksels) moeten gedurende 7 jaar bewaard worden, te rekenen vanaf 1 januari volgend op het afsluiten van het boekjaar waarop ze betrekking hebben.
@@ -72,9 +74,6 @@ _Grondslag: Diverse wetten + WBTW art. 60_
 
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (1): [[fod-financien-boekhoudrecht]]
 ## Voorbeelden
 
 Boekjaar Meubelzaak Mertens BV afgesloten 31/12/2024 → bewaartermijn loopt vanaf 1/1/2025 tot 31/12/2031 (7 jaar). Alle facturen, kasstukken, dagboeken moeten tot eind 2031 raadpleegbaar blijven.

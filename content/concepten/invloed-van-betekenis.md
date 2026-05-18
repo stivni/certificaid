@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/invloed-van-betekenis.json
 gegenereerd_op: '2026-05-18'
 ---
 # Invloed van betekenis 🤖
+
+Een tussenpositie in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2): macht om mee te beslissen zonder controle. Het begrip onderscheidt deelnemingen die equity-gemuteerd moeten worden van zuivere financiële beleggingen die op kostprijs blijven staan.
 
 > [!summary] Korte inhoud
 > De macht om deel te nemen aan de financiële en operationele beleidsbeslissingen van een andere onderneming, zonder die beslissingen alleen of samen met anderen te kunnen sturen.
@@ -73,7 +75,7 @@ _Bron: WVV art. 1:22 (geassocieerde vennootschap)_
 
 - **Getriggerd door**: [[geassocieerde-onderneming]]
 - **Getriggerd door**: [[vermogensmutatiemethode]]
-- **Wordt voorondersteld in** (1): [[geassocieerde-onderneming]]- **Triggert** (1): [[vermogensmutatiemethode]]
+
 ## Voorbeelden
 
 Antwerpse Investments NV bezit 25 % van de stemrechten in Drukkerij Dendermonde BV en heeft een vertegenwoordiger in het bestuur. Geen controle (geen meerderheid, geen stemovereenkomst) → weerlegbaar vermoeden van invloed van betekenis → Drukkerij Dendermonde is geassocieerde onderneming van Antwerpse → vermogensmutatie.
@@ -83,4 +85,3 @@ Antwerpse Investments NV bezit 25 % van de stemrechten in Drukkerij Dendermonde 
 [^1]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking`
 [^2]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding`
 [^3]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1`
-[^4]: `CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen`

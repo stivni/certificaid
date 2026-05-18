@@ -7,7 +7,8 @@
   "linked_anchors": [
     "1.6.I.A",
     "1.6.I.C",
-    "1.6.IV.C"
+    "1.6.IV.C",
+    "1.7.taak.1"
   ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
@@ -18,7 +19,9 @@
       "1.6.I.C",
       "1.6.IV.C"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "cross_linked_1.7.taak.1": "2026-05-18T18:00Z",
+    "cross_link_reason": "Anchor 1.7.taak.1 (bijzondere verslagen / juridisch-contractuele opdrachten) dekt expliciet deze opdracht-records."
   },
   "vergelijkingsparen": [
     {

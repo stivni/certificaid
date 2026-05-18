@@ -1,8 +1,8 @@
 {
   "id": "consortium",
   "naam": "Consortium (horizontale groep)",
-  "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "node_type": "begrip",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -55,6 +55,17 @@
         "in_praktijk[*].betekenis (stagiair-toon + cast-voorbeelden)",
         "valkuilen[*].text (stagiair-toon)",
         "edges: redeneringen volledig + types geverifieerd"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -2",
+        "type autoriteit→begrip",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -310,42 +321,6 @@
   ],
   "edges": [
     {
-      "type": "contrasteert-met",
-      "target": "moedervennootschap",
-      "redenering": "Moedervennootschap = verticale relatie (één vennootschap controleert een andere). Consortium = horizontale relatie (gemeenschappelijke leiding zonder onderlinge controle). In een consortium is er geen moeder en rust de consolidatieplicht gezamenlijk bij de leden.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "gemeenschappelijke-dochteronderneming",
-      "redenering": "Een consortium is een horizontale groep van zelfstandige vennootschappen onder centrale leiding. Een gemeenschappelijke dochter is daarentegen één entiteit waarover meerdere vennoten via een overeenkomst gezamenlijke controle uitoefenen.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "getriggerd-door",
       "target": "horizontale-consolidatie",
       "redenering": "Consortium-relatie triggert horizontale consolidatie (geen moeder-dochter — leden consolideren samen).",
@@ -364,5 +339,19 @@
       "omschrijving": "Industria Antwerpen NV en Jachthaven Jezus-Eik NV hebben geen onderlinge moeder-dochter-relatie, maar dezelfde meerderheid van bestuurders en dezelfde feitelijke leider (Pieter Vermeulen). → onweerlegbaar consortium → samen consolidatieplichtig."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "consortium / horizontal group",
+  "situering": {
+    "text": "Een groepsfiguur uit het Belgische vennootschapsrecht (WVV) die naast de klassieke verticale moeder-dochter-groep bestaat: vennootschappen onder gemeenschappelijke leiding zonder dat één de andere controleert. Het concept ondervangt feitelijke groepen die ontstaan via personele unie of een leidingsovereenkomst en triggert horizontale consolidatie.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "WVV — definitie consortium"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

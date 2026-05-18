@@ -2,7 +2,7 @@
   "id": "materiaalkosten",
   "naam": "Materiaalkosten",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.II.B",
@@ -142,5 +142,24 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "material costs",
+  "situering": {
+    "text": "Materiaalkosten zijn kosten verbonden aan het verwerven, opslaan en verbruiken van grondstoffen, hulpstoffen, halffabrikaten en handelsgoederen. In de wettelijke vervaardigingsprijs (CBN 132/7) is dit het eerste bestanddeel: de aanschaffingsprijs van verbruikte grondstoffen. Voor de analytische verdeling per kostendrager telt het verbruik (niet de aankoop), gewaardeerd volgens de gekozen voorraadwaarderingsmethode (FIFO, gewogen gemiddelde — CBN 132/7).",
+    "confidence": "grounded",
+    "source": {
+      "type": "cbn",
+      "short": "CBN 132/7 §2.1"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

@@ -16,11 +16,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voorzieningen.json
 gegenereerd_op: '2026-05-18'
 ---
 # Voorzieningen voor risico's en kosten ⚖️
+
+Voorzieningen zijn **schattingen aan passiefzijde** voor waarschijnlijke kosten of verliezen uit voorzienbare risico's, zonder dat bedrag of moment vaststaat (juridisch geschil, herstructurering, milieurisico). Voor de stagiair-GA belangrijk om voorzieningen (passief) te onderscheiden van waardeverminderingen (rectificatie van actief).
 
 > [!summary] Korte inhoud
 > **Schattingen aan passiefzijde** die bestemd zijn om de kosten of verliezen te dekken die uit voorzienbare risico's en lasten **waarschijnlijk** zullen voortvloeien — zonder dat het bedrag of de exacte timing al vaststaat.
@@ -132,9 +134,6 @@ _Grondslag: CBN 2013/14 + KB WVV_
 
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (1): [[vereffening]]
 ## Voorbeelden
 
 Uitgeverij Ukkel NV heeft op 31/12 een lopend rechtsgeding waar een schadevergoeding van € 75.000 dreigt; juridisch advies wijst op verlies-waarschijnlijkheid > 50 %. Voorziening voor andere risico's en kosten van € 75.000 wordt geboekt: Debet 6371 Voorzieningen voor andere risico's en kosten — toevoeging € 75.000 / Credit 163 Voorzieningen voor overige risico's en kosten € 75.000.

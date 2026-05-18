@@ -17,11 +17,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/positioneren-toezichtsorganen-rond-jaarrekening.json
 gegenereerd_op: '2026-05-18'
 ---
 # Positioneren van de toezichtsorganen rond de jaarrekening 🤖
+
+Competentie om de rolverdeling tussen bestuursorgaan, commissaris, algemene vergadering, ondernemingsraad en Kamer voor ondernemingen in moeilijkheden te kennen. De stagiair leert wie wat doet (opstelling vs. controle vs. goedkeuring vs. informatieverstrekking vs. signaaldetectie) en wanneer elk orgaan verplicht is op basis van omvang en vorm.
 
 
 ## Stappen
@@ -187,3 +189,6 @@ Beschrijf de monitoring-rol van kredietverleners via ratio-covenants.
 
 
 
+## Bronnen
+
+[^1]: `anchor-1.3.III`

@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/obligatielening.json
 gegenereerd_op: '2026-05-18'
 ---
 # Obligatielening ⚖️
+
+Een markt-financieringsvorm die alleen door grotere vennootschappen wordt gebruikt — niet inwisselbaar met een banklening qua boekingen omdat coupons, agio/disagio, prorata-rente en aflossingsmodaliteiten elk hun eigen behandeling vragen. Voor een stagiair-GA: combineert verschillende boekhoudbeginselen (matching via prorata, voorzichtigheid bij disagio, getrouw beeld bij aflossing in tranches) en is daarmee een geliefd examen-onderwerp.
 
 > [!summary] Korte inhoud
 > Een **leningsovereenkomst** waarbij de vennootschap **obligaties** uitgeeft aan beleggers — verhandelbare schuldbewijzen met een vaste of variabele rente en een vooraf bepaalde looptijd (typisch 5 — 15 jaar).
@@ -98,7 +100,7 @@ _Grondslag: Boekhoudkundige verwerking_
 ## Zie ook
 
 - **Getriggerd door**: [[oprichtingskosten]]
-- **Triggert** (1): [[oprichtingskosten]]
+
 ## Voorbeelden
 
 Uitgeverij Ukkel NV geeft een 8-jarige obligatielening uit nominaal € 1.000.000 aan 4 % vast. Uitgifte tegen pari (€ 1.000.000 ontvangen). Uitgiftekosten € 12.000 (notaris, publicatie). Boekingen aanvang: Debet 550 Bank € 1.000.000 / Credit 170 Obligatieleningen € 1.000.000. Bovendien: Debet 201 Kosten uitgifte leningen € 12.000 / Credit 550 Bank € 12.000 (af te schrijven over 8 jaar = € 1.500/jaar).

@@ -2,7 +2,7 @@
   "id": "kostencentrum",
   "naam": "Kostencentrum",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.IV.A",
@@ -117,5 +117,18 @@
       "omschrijving": "Yperse Werkplaats BV organiseert drie hoofdkostencentra: Spinnerij (jaarbudget € 1.450.000), Weverij (€ 1.200.000) en Confectie (€ 950.000). Daarnaast hulpkostencentra: Onderhoud, Kwaliteitscontrole, Algemene leiding. De Spinnerij draagt haar kosten uiteindelijk over op het kostendrager 'partij ruwwol-garen 50 kg'."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "cost centre / cost center",
+  "situering": {
+    "text": "Een kostencentrum is een organisatie-eenheid (afdeling, machinepark, kantoor, project) waaraan kosten worden toegerekend voor opvolging en verdeling naar kostendragers. Antwoordt op de vraag 'wáár wordt de kost gemaakt?' — tegenover kostendrager ('waarvoor?') en kostensoort ('wat voor kost?'). Klassieke onderverdeling: productiecentra (creëren toegevoegde waarde aan kostendragers), hulpcentra (ondersteunend, kosten verder verdelen naar productiecentra), bestuurscentra (algemeen overhead).",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }

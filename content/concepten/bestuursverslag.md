@@ -20,16 +20,16 @@ programmaonderdelen:
 confidence: grounded
 node_type: procedure
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bestuursverslag.json
 gegenereerd_op: '2026-05-18'
 ---
 # Bestuursverslag (jaarverslag) ⚖️
 
+Voor grote vennootschappen is het bestuursverslag het document waarin het bestuursorgaan **duiding** geeft bij de cijfers: ontwikkeling, resultaten, positie, risico's, niet-financiële informatie. Het is wat de jaarrekening niet vertelt. Voor de stagiair-GA staat de procedurele kant centraal: wanneer is het verplicht (groot, of klein-met-groep), wat moet erin staan (WVV art. 3:5 e.v.), en hoe verschilt het van het commissarisverslag.
+
 > [!summary] Korte inhoud
 > Het bestuursorgaan stelt een bestuursverslag op dat een getrouw overzicht geeft van de ontwikkeling, de resultaten en de positie van de onderneming, alsmede een beschrijving van de voornaamste risico's en onzekerheden.
-
-> [!info] Bestaat uit (2): [[corporate-governance-verklaring]] · [[risicoparagraaf-bestuursverslag]]
 
 Het bestuursorgaan stelt een bestuursverslag op dat een getrouw overzicht geeft van de ontwikkeling, de resultaten en de positie van de onderneming, alsmede een beschrijving van de voornaamste risico's en onzekerheden. Het overzicht moet evenwichtig en volledig zijn, in verhouding tot omvang en complexiteit van het bedrijf.
 
@@ -159,7 +159,7 @@ Voor genoteerde vennootschappen (en sommige andere): een verklaring inzake corpo
 ## Zie ook
 
 - **Vereist kennis van**: [[getrouw-beeld-jaarrekening]]
-- **Wordt voorondersteld in** (1): [[algemene-vergadering-toezichtsfunctie]]
+
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
@@ -167,3 +167,4 @@ Voor genoteerde vennootschappen (en sommige andere): een verklaring inzake corpo
 
 [^1]: `Richtlijn-2013-34-EU__art_19__sub_lid1-lid2`
 [^2]: `Richtlijn-2013-34-EU__art_20__sub_lid1-lid4`
+[^3]: `aggregate`

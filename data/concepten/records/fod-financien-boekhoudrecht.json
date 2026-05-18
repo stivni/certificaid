@@ -2,7 +2,7 @@
   "id": "fod-financien-boekhoudrecht",
   "naam": "FOD Financiën (boekhoudrechtelijke rol)",
   "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.II"
@@ -139,5 +139,7 @@
       "omschrijving": "Een fiscaal controleur van FOD Financiën vraagt bij Meubelzaak Mertens BV inzage in de aankoopdagboeken 2021-2024 → onderneming moet binnen redelijke termijn voorleggen (WIB art. 315)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "De FOD Financiën heeft twee raakpunten met boekhoudrecht: (1) fiscale inkomstenbelasting bouwt op de boekhoudkundige resultaten voort (WIB-fiscaal recht volgt boekhoudrecht, tenzij anders bepaald), en (2) BTW-administratie vereist boekhoudkundige onderbouwing. Voor de stagiair-GA belangrijk om te onderscheiden: FOD Financiën is **toepasser** van het boekhoudrecht (via fiscaliteit), niet de uitlegger (dat is CBN).",
+  "naam_alternatief": "FPS Finance / SPF Finances"
 }

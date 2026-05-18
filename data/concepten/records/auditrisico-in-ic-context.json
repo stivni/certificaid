@@ -1,0 +1,167 @@
+{
+  "id": "auditrisico-in-ic-context",
+  "naam": "Auditrisico in IC-context",
+  "node_type": "begrip",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "1.7.V.E",
+    "1.7.V"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave2-1.7.V",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.V.E",
+    "dekt_ook_anchors": [
+      "1.7.V"
+    ],
+    "reviewed_by": null,
+    "note": "Wave 2 1.7.V.E: bouwstenen[] toegevoegd (transmissie IC→CR, verplichting test-of-controls, schaalbaarheid bij minder geformaliseerde IC). Edge naar evaluatie-interne-controle + toetsing-interne-beheersing al aanwezig.",
+    "touched_at": "2026-05-18T22:30:00Z"
+  },
+  "definitie": {
+    "text": "Auditrisico is het risico dat de auditor een verkeerde controleverklaring afgeeft over een jaarrekening die in werkelijkheid materieel afwijkend is. Audit risico = Inherent risico × Intern beheersingsrisico × Detectierisico (zie [[auditrisicomodel]]). In de context van IC: hoe sterker het IC-systeem, hoe lager het intern beheersingsrisico, hoe minder substantief testwerk de auditor nodig heeft.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA-norm-kmo-controlenorm Bijlage 1 + §97-§98"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "edges": [
+    {
+      "type": "specialisatie-van",
+      "target": "auditrisicomodel",
+      "redenering": "Specifieke toepassing van auditrisicomodel in IC-evaluatie-context."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "toetsing-interne-beheersing",
+      "redenering": "Een lage CR-inschatting moet ondersteund worden door toetsing-van-controls (test of controls)."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "evaluatie-interne-controle",
+      "redenering": "CR-inschatting volgt rechtstreeks uit de evaluatie van design + werking van IC."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "externe-auditor-relatie-ic",
+      "redenering": "De praktische toepassing van het IR-CR-DR-model door de externe auditor staat daar uitgewerkt."
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Bij Yperse Werkplaats BV inschat Sofie Janssens het inherente risico op voorraadwaardering als 'middel-hoog' (productie-WIP, schatting nodig). Intern beheersingsrisico = 'laag' want maandelijkse stockcount + ERP met audit trail. Dus IR×CR = middel → detectierisico mag iets hoger → minder substantieve testwerk nodig."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Het auditrisicomodel (AR = IR × CR × DR) krijgt in IC-context een specifieke focus: het intern beheersingsrisico (CR) wordt rechtstreeks gemoduleerd door de kwaliteit van het IC-systeem van de cliënt. Een sterk IC verlaagt CR — daardoor mag de auditor minder gegevensgerichte werkzaamheden inplannen zonder dat het audit-risico stijgt. Dit verband is de hefboom waarop de hele IC-toetsing van de externe auditor gebouwd is.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA-norm-kmo-controlenorm §97-§98 + Bijlage 1"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Sterk IC → lager CR → minder gegevensgericht werk",
+      "wat": "Het intern beheersingsrisico (CR) is rechtstreeks afhankelijk van het IC-systeem van de cliënt. Wanneer de auditor inschat dat de IC effectief is opgezet én operationeel werkt, kan hij CR op 'laag' inschatten. Bij een gewenst totaal-auditrisico (bv. 5 %) kan het ontdekkingsrisico (DR) dan hoger zijn → minder substantieve werkzaamheden volstaan.",
+      "waarom": "Dit is de economische rationale van IC-evaluatie door de externe auditor: tijd besparen op gegevensgerichte tests die hoog overlappen met IC-werking. Zonder dat IC-CR-verband zou audit duur en weinig efficiënt zijn.",
+      "in_praktijk": "Bij Rotex Roeselare NV met sterke aankoopcyclus-IC: enkele walkthroughs + 25 controle-tests + analytische review volstaan. Bij Transport Tongeren BV met zwakke verkoopcyclus-IC: volledige substantieve testen van vorderingen + bevestigingen + cut-off-tests.",
+      "grondslag": "ITAA-norm-kmo-controlenorm §97-§98; ISA 330 §6-7",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm-kmo-controlenorm §97"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Verplichte test-of-controls bij CR-verlaging",
+      "wat": "Als de auditor van plan is om CR lager dan 'maximum' in te schatten en daarop te steunen, moet hij dat onderbouwen met toetsingen van de werking van de interne beheersingsmaatregelen ('test of controls'). Inquiry en observatie alleen volstaan niet — er moet ook bewijs uit inspectie of heruitvoering komen.",
+      "waarom": "ISA 315 §34 verbiedt dat de auditor enkel op design-effectiviteit van IC steunt: hij moet de werking ook toetsen. Anders kan een mooi gedocumenteerd maar niet-uitgevoerd IC-stelsel onterecht tot CR-verlaging leiden.",
+      "in_praktijk": "Examenval: 'mag de auditor CR op laag zetten enkel op basis van een walkthrough?' → Nee. Walkthrough toont design + bestaan; werking vereist samples van transacties + inspectie van het bewijs van uitvoering (handtekeningen, ERP-logs, checklists).",
+      "grondslag": "ISA 315 (herzien-2019) §34; ISA 330 §8",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 315 §34"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_vereisten_2_part4",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Schaalbaarheid: minder geformaliseerde IC bij kleinere entiteiten",
+      "wat": "In een minder complexe entiteit kan de auditor inzicht in IC verwerven via directe waarneming (bv. fysieke voorraadtelling, functiescheiding observeren) ook al is de IC niet schriftelijk gedocumenteerd. Schaal van toetsing volgt schaal en complexiteit van de entiteit, niet een vast minimum.",
+      "waarom": "ISA 315 (herzien-2019) erkent expliciet de schaalbaarheid: kmo-audits volgen dezelfde principes maar met een proportionele aanpak. Documentatie-gebrek alleen is geen ground voor CR=maximum, mits de auditor andere controle-informatie verkrijgt.",
+      "in_praktijk": "Bij Yperse Werkplaats BV (15 VTE) is er geen IC-handboek. De commissaris observeert dat de zaakvoerder elke aankoopfactuur tekent vóór betaling én dat de boekhouder een tweede goedkeuring vraagt voor uitgaven > € 5.000. Dit volstaat als bewijs van IC-werking voor de aankoopcyclus.",
+      "grondslag": "ISA 315 (herzien-2019) §A33 + Schaalbaarheid",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 315 §A33"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_schaalbaarheid_8_part3",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "CR ≠ IC. CR is de risico-inschatting van de auditor; IC is de objectieve realiteit bij de cliënt. Een sterk IC verlaagt CR, maar een lage CR-inschatting is geen vervanging voor IC-werking — als IC tijdens het boekjaar verandert, moet CR opnieuw worden ingeschat.",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "text": "Ontdekkingsrisico (DR) staat los van IC — het is een eigenschap van de werkzaamheden van de auditor zelf. Een lager DR vergt méér en gerichtere substantieve werkzaamheden; IC kan DR niet beïnvloeden.",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ]
+}

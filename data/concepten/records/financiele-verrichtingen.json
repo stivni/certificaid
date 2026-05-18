@@ -2,7 +2,7 @@
   "id": "financiele-verrichtingen",
   "naam": "Financiële verrichtingen (kosten + opbrengsten)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.O"
@@ -12,7 +12,16 @@
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.O",
     "dekt_ook_anchors": [],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "definitie": {
     "text": "**Kosten en opbrengsten** uit de **financiële activiteit** van de onderneming: intresten op leningen en deposito's, kosten op leningen, opbrengsten/verliezen op effecten en deelnemingen, wisselkoersverschillen. Klasse 65 (financiële kosten) en 75 (financiële opbrengsten). Strikt gescheiden van het bedrijfsresultaat zodat de gebruiker operationele en financiële prestatie kan onderscheiden. Het verschil tussen klasse 75 en 65 = **financieel resultaat**.",
@@ -198,5 +207,15 @@
       "omschrijving": "Uitgeverij Ukkel NV 20X1: intrestlast hypothecaire lening € 28.500 (rekening 650 Intrestkosten), bankkosten en commissies € 1.250 (657 Diverse financiële kosten), wisselkoersverlies € 850 (654). Tegenover: rente op termijndeposito's € 4.500 (751), dividend op participatie € 18.000 (752 — financiële opbrengsten van FVA). Financieel resultaat = (€ 4.500 + € 18.000) − (€ 28.500 + € 1.250 + € 850) = −€ 7.100."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": "financial transactions / opérations financières",
+  "situering": {
+    "text": "De resultatenrekening-categorie die scheiding maakt tussen 'inkomen uit de bedrijfsactiviteit' (klasse 6/7) en 'inkomen uit financiering en geld' (klasse 65/75). Voor een stagiair-GA: cruciaal bij ratio-analyse (financiële lasten/EBIT, financiële autonomie) én bij correcte voorstelling — een intrest die per ongeluk op klasse 61 belandt, vervormt zowel het bedrijfsresultaat als de fiscale onderbouwing.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

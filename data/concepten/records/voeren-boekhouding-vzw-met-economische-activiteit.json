@@ -2,7 +2,7 @@
   "id": "voeren-boekhouding-vzw-met-economische-activiteit",
   "naam": "Voeren van de boekhouding van een VZW met economische activiteit",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Voeren van de boekhouding van een VZW met economische activiteit",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -206,12 +206,31 @@
     "voorgesteld_door": "competentie-destillatie-v2-po11-20260516",
     "voorgesteld_op": "2026-05-16T00:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "linked_anchors": [
     "1.1.taak.1",
     "1.1.I.A",
     "1.1.II"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "naam_alternatief": "keeping the accounts of a non-profit with economic activity",
+  "situering": {
+    "text": "Een specialisatie-competentie: VZW's met economische activiteit moeten een **dubbele boekhouding** voeren volgens hetzelfde KB WVV-schema als vennootschappen, met enkele eigen aanpassingen (geen kapitaal, wel 'fondsen', 'bestemde fondsen'). Voor een stagiair-GA: belangrijk omdat een groeiende VZW boven de drempel uit de vereenvoudigde boekhouding moet kantelen — een veel voorkomende vraag in de praktijk.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

@@ -2,7 +2,7 @@
 title: Horizontale consolidatie
 tags:
 - concept
-- procedure
+- cluster
 - po-1-4
 linked_anchors:
 - 1.4.I.C
@@ -13,13 +13,15 @@ linked_anchors:
 programmaonderdelen:
 - '1.4'
 confidence: grounded
-node_type: procedure
+node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/horizontale-consolidatie.json
 gegenereerd_op: '2026-05-18'
 ---
 # Horizontale consolidatie ⚖️
+
+De consolidatietechniek voor consortia onder het Belgische boekhoudrecht (KB WVV Boek 3, Titel 2): zustervennootschappen zonder moeder-dochter-relatie maar onder gemeenschappelijke leiding worden samengebracht in één geconsolideerde jaarrekening. Het regime ondervangt feitelijke groepen die anders aan de consolidatieplicht zouden ontsnappen.
 
 > [!summary] Korte inhoud
 > De consolidatietechniek die je toepast wanneer vennootschappen onder gemeenschappelijke leiding staan zonder dat één rechtspersoon de andere controleert — een consortium.
@@ -213,7 +215,7 @@ Verwijder alle wederzijdse vorderingen, schulden, verkopen, aankopen, intra-groe
 
 - **Getriggerd door**: [[consortium]]
 - **Vereist kennis van**: [[integrale-consolidatie]]
-- **Triggert** (1): [[consortium]]
+
 ## Voorbeelden
 
 Industria Antwerpen NV en Jachthaven Jezus-Eik NV staan onder gemeenschappelijke leiding van Pieter Vermeulen, zonder dat één van beide vennootschap de andere controleert → horizontale consolidatie: hun balansen, resultatenrekeningen en eigen-vermogensposten worden integraal samengevoegd in één geconsolideerde jaarrekening; de reserves van elk lid blijven afzonderlijk zichtbaar.

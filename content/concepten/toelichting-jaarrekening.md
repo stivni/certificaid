@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/toelichting-jaarrekening.json
 gegenereerd_op: '2026-05-18'
 ---
 # Toelichting bij de jaarrekening ⚖️
+
+De toelichting is het **derde verplichte onderdeel** van de jaarrekening (naast balans en resultatenrekening). Ze geeft uitleg bij rubrieken, vermeldt waarderingsregels, niet-in-balans-rechten en alle verklarende informatie. Voor de stagiair-GA belangrijk: een vormelijk correcte balans zonder voldoende toelichting voldoet niet aan getrouw-beeld.
 
 > [!summary] Korte inhoud
 > De toelichting is het derde verplichte onderdeel van de jaarrekening (naast balans en resultatenrekening).

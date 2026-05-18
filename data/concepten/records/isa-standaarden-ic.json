@@ -2,7 +2,7 @@
   "id": "isa-standaarden-ic",
   "naam": "ISA-standaarden in IC-context",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.XII.B",
@@ -10,7 +10,7 @@
     "1.7.V.E"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T11:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-po1.7.XII-wave2",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.XII.B",
     "dekt_ook_anchors": [
@@ -45,5 +45,88 @@
       "omschrijving": "Bij Rotex Roeselare NV moet commissaris Sofie Janssens van Wolters & Partners CVBA bij elke audit ISA 315 toepassen — uitgebreid begrip van de onderneming + IC opbouwen, risico's identificeren op assertion-niveau. Als IC sterk is, ISA 330 → minder substantieve werkzaamheden. ISA 402: voor cloud-ERP moet ze het SOC 2-rapport van de provider analyseren."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "De ISA-standaarden zijn de internationale audit-grondwet voor de wettelijke controle van financiële overzichten — in België via koninklijk besluit overgenomen voor commissarisopdrachten. Voor de stagiair zijn de ISA's relevant in IC-context omdat verschillende ISA's expliciet IC-werk vereisen: ISA 315 begint elke audit met een begrip van de interne beheersing, ISA 330 vertaalt dat in toetsen, ISA 265 verplicht communicatie van tekortkomingen, ISA 610 regelt het gebruik van interne audit. De examen-vraag is meestal niet 'wat staat in ISA X?' maar 'welke ISA is van toepassing op deze situatie?'.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-315__sec_overall-objective-and-introduction"
+        },
+        {
+          "id": "ISA-200__sec_toepassingsgerichte-en-overige-verklarende-teksten"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen"
+        }
+      ]
+    }
+  },
+  "migrated_to_schema_1.6_at": "2026-05-18",
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "iesba-code-of-ethics",
+      "redenering": "ISA's verwijzen naar de IESBA Code voor onafhankelijkheid + ethische verplichtingen — onderdeel van de audit-grondwet."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "communicatie-tekortkomingen-interne-beheersing",
+      "redenering": "ISA 265 verplicht expliciete communicatie van IC-tekortkomingen aan management/governance."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "gebruik-werk-interne-auditors-audit",
+      "redenering": "ISA 610 regelt wanneer de externe auditor op het werk van interne audit mag steunen."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "auditrisicomodel",
+      "redenering": "ISA 200 + ISA 315 leggen de modelvergelijking op die de hele audit-aanpak stuurt."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "itaa-normen-ic",
+      "redenering": "ITAA-normen zijn de Belgische vertaling/aanvulling op ISA voor wettelijke + contractuele controleopdrachten.",
+      "aspect": "internationaal-vs-belgisch"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "toetsing-interne-beheersing",
+      "redenering": "ISA 330 vertaalt het IC-begrip uit ISA 315 in concrete toetsingen op effectiveness."
+    }
+  ],
+  "valkuilen": [
+    {
+      "vaak_fout": "ISA's lezen als een gesloten cookbook met vaste stappen.",
+      "advies": "ISA's zijn principle-based: de auditor moet zelf risico-gebaseerd kiezen welke werkzaamheden voldoende + geschikt zijn. Schema's en standaard-werkprogramma's helpen, maar ontslaan niet van professional judgement.",
+      "grondslag": "ISA 200 §A26-A28",
+      "confidence": "grounded"
+    },
+    {
+      "vaak_fout": "ISA 315 (begrip onderneming + IC) overslaan bij KMO-audits omdat 'IC niet bestaat'.",
+      "advies": "Ook bij KMO's verplicht ISA 315: begrip van controle-omgeving, risicoproces (al is het rudimentair), monitoring + control-activities relevant voor risico's. De ITAA-KMO-controlenorm bevestigt dit + voegt schaalbaarheid toe.",
+      "grondslag": "ISA-315-herzien-2019 + ITAA-norm-kmo-controlenorm §3-1-1-planning",
+      "confidence": "grounded"
+    },
+    {
+      "vaak_fout": "ISA 402 (service organizations) vergeten bij cloud-gebaseerde boekhouding.",
+      "advies": "Wanneer onderdelen van de financiële verslaggevingscyclus worden uitbesteed (cloud-ERP, payroll, IT-hosting), verplicht ISA 402 een analyse van de IC bij de service organization — meestal via een SOC 1/SOC 2-rapport.",
+      "grondslag": "ISA-402 §toepassingsgebied",
+      "confidence": "grounded"
+    }
+  ],
+  "kerninzichten": [
+    "ISA's zijn de internationale audit-grondwet voor wettelijke jaarrekening-controles; in België via KB 26 april 2007 (wettelijke audit) overgenomen voor commissarisopdrachten.",
+    "De kerntrias voor IC-werk: ISA 315 (begrip + risico-inschatting via IC), ISA 330 (toetsing IC + substantieve werkzaamheden), ISA 265 (rapportering tekortkomingen).",
+    "ISA 200 zet de fundamenten: redelijke zekerheid, professional scepticism, ethische vereisten via IESBA, en het auditrisicomodel.",
+    "ISA's zijn niet rechtstreeks van toepassing op samenstellings- of beoordelingsopdrachten — daarvoor gelden ISRS 4410 / ISRE 2400. De aanpak van IC verschilt fundamenteel per opdrachttype."
+  ],
+  "in_praktijk": [
+    "Voor de stagiair GA: ISA's gelden volledig wanneer hij een commissaris-opdracht ondersteunt (in een revisor-kantoor) of een wettelijke controle uitvoert bij KMO's via de KMO-controlenorm.",
+    "Bij contractuele controles (vrijwillige audits) past de accountant ISA's analoog toe, gestuurd door de ITAA-algemene-controlenorm.",
+    "Bij samenstellingsopdrachten (ISRS 4410) is er géén IC-toetsing — wel professional scepticism + besef van risico's bij zwakke IC.",
+    "Examen-aanpak: vraag is meestal 'welke ISA(s) zijn relevant voor deze situatie?' — herken triggers: outsourcing → ISA 402, fraude → ISA 240, interne audit aanwezig → ISA 610, communicatie met governance → ISA 260 + 265."
+  ]
 }

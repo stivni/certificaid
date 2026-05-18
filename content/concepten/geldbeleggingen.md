@@ -11,16 +11,16 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/geldbeleggingen.json
 gegenereerd_op: '2026-05-18'
 ---
 # Geldbeleggingen en liquide middelen ⚖️
 
+Het oogmerk-onderscheid (korte termijn rendement of dagelijkse liquiditeit, niet duurzame ondersteuning van een andere onderneming) bepaalt waarom geldbeleggingen onder rubriek 50-53 en niet onder 28 vallen. Voor een stagiair-GA: vergeet niet dat ook eigen aandelen, deposito's en kortlopende effecten hier samenkomen — en dat afwaardering naar marktwaarde een vaste eindjaarsverrichting is.
+
 > [!summary] Korte inhoud
 > **Vlottende activa** (rubriek 5 MAR) waarin de onderneming tijdelijk haar overtollige middelen plaatst voor **korte-termijn-rendement** of voor **dagelijkse liquiditeit**.
-
-> [!info] Bestaat uit (1): [[eigen-aandelen]]
 
 **Vlottende activa** (rubriek 5 MAR) waarin de onderneming tijdelijk haar overtollige middelen plaatst voor **korte-termijn-rendement** of voor **dagelijkse liquiditeit**. Twee hoofdgroepen: (1) **Geldbeleggingen** rubriek 50-53 (eigen aandelen 50, aandelen 51, vastrentende effecten 52, termijndeposito's 53) — beleggingen voor rendement, en (2) **Liquide middelen** rubriek 55-58 (bankrekeningen 55, postchequerekening 56, kasmiddelen 57, interne overboekingen 58) — dagelijks betalingsverkeer. Waardering: aanschaffingsprijs; waardevermindering bij ontwaarding.
 

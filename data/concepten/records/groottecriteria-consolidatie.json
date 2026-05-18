@@ -2,7 +2,7 @@
   "id": "groottecriteria-consolidatie",
   "naam": "Groottecriteria voor de consolidatievrijstelling",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -40,6 +40,16 @@
         "in_praktijk[*].betekenis (stagiair-toon)",
         "valkuilen[*].text (stagiair-toon + cast)",
         "edges: contrasteert-met → uitzondering-op / specialisatie-van"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -1",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -270,24 +280,6 @@
       }
     },
     {
-      "type": "contrasteert-met",
-      "target": "vrijstelling-subconsolidatie",
-      "redenering": "Vrijstelling op grond van groottecriteria geldt voor de hele moeder en haar groep. Vrijstelling van subconsolidatie geldt voor een tussenliggende submoeder die zelf dochter is van een hogere moeder die al consolideert. Twee verschillende grondslagen, beide vrijstellingen — examen-relevant onderscheid.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "vereist-kennis-van",
       "target": "groep-van-beperkte-omvang",
       "redenering": "Groottecriteria zijn de kwantitatieve toets; 'groep van beperkte omvang' is de juridische kwalificatie die uit de toets volgt. Wie de criteria toepast, krijgt als output de kwalificatie.",
@@ -300,5 +292,19 @@
       "omschrijving": "Aurelia Holding NV met dochter Gent Garantie BV: geaggregeerde omzet 20 mln EUR, balanstotaal 12 mln EUR, 180 personeelsleden. Slechts één drempel (personeel) overschreden → vrijstelling consolidatieplicht (groep van beperkte omvang)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "size criteria for consolidation exemption",
+  "situering": {
+    "text": "Een proportionaliteits-uitzondering op de consolidatieverplichting in het Belgische vennootschapsrecht (WVV). De groep wordt gewogen op personeel, omzet en balanstotaal; blijft ze onder twee van de drie drempels, dan vervalt de plicht tot geconsolideerde rapportering — tenzij een groepslid genoteerd is.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "WVV — groottecriteria groep"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

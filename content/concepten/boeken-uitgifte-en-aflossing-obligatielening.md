@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/boeken-uitgifte-en-aflossing-obligatielening.json
 gegenereerd_op: '2026-05-18'
 ---
 # Boeken van uitgifte en aflossing van een obligatielening 🤖
+
+Een specialistischer financierings-competentie: meer dan een banklening vergt een obligatielening boekingen op uitgifte (eventueel met disagio of agio), prorata-rente op balansdatum, couponbetalingen, en aflossing. Voor een stagiair-GA: typisch examen-onderwerp omdat het verschillende boekhoudbeginselen tegelijk test (matching via prorata, voorzichtigheid bij disagio, voorstelling op de balans).
 
 
 ## Stappen

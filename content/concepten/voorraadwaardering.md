@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voorraadwaardering.json
 gegenereerd_op: '2026-05-18'
 ---
 # Voorraadwaardering (kostprijsmethoden) ⚖️
+
+Voorraadwaardering bepaalt aan welke prijs verbruikt materiaal in de kostprijs gaat en aan welke prijs eindvoorraad op de balans staat. Toegestane methodes onder Belgisch boekhoudrecht (CBN 132/7): individuele identificatie (uniek), gewogen gemiddelde, FIFO. LIFO is onder Belgian GAAP toegelaten maar niet onder IFRS (IAS 2 — verbiedt LIFO). Keuze gebeurt in de waarderingsregels; consistentie tussen jaren is verplicht voor vergelijkbaarheid.
 
 > [!summary] Korte inhoud
 > Voorraden worden gewaardeerd aan aanschaffingswaarde (gekochte goederen) of vervaardigingsprijs (zelf vervaardigde producten), eventueel verminderd tot lagere marktwaarde (laagstewaarderegel).
@@ -68,8 +70,9 @@ _Grondslag: CBN 132/7 §Marktwaarde_
 
 - **Vereist kennis van**: [[materiaalkosten]]
 - **Vereist kennis van**: [[vervaardigingsprijs]]
-- **Wordt voorondersteld in** (1): [[materiaalkosten]]
+
 ## Bronnen
 
 [^1]: `CBN-0132-07-boeking-en-waardering-van-voorraden__sec_waardering-van-voorraden-grond-en-hulpstoffen-goederen-in-bewerking`
 [^2]: `CBN-0132-07-boeking-en-waardering-van-voorraden__sec_marktwaarde`
+[^3]: `CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs`

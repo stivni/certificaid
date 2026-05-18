@@ -2,7 +2,7 @@
   "id": "controleverslag-elementen",
   "naam": "Elementen van het controleverslag (revisieverslag)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.6.IV.C",
@@ -10,7 +10,7 @@
     "1.6.IV"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18T14:28Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T16:22:12Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.IV.C",
     "dekt_ook_anchors": [
@@ -18,13 +18,21 @@
       "1.6.IV"
     ],
     "reviewed_by": null,
-    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T14:28Z",
     "type_migratie_v4": {
       "op": "2026-05-18",
       "van": "procedure",
       "naar": "cluster",
       "reden": "Descriptief domein-object met paragraaf-bouwstenen volgens ISA 700/705/706/701/720; competentie-kant zit in opstellen-controleverslag-en-formuleren-oordeel."
-    }
+    },
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T16:22:12Z",
+    "last_extract_at": "2026-05-18T16:22:12Z",
+    "notes": [
+      {
+        "op": "2026-05-18",
+        "note": "edges toegevoegd naar kernpunten-van-controle, paragraaf-overige-aangelegenheden, afwijking-van-materieel-belang (1.6.IV.C pass)"
+      }
+    ]
   },
   "valkuilen": [
     {
@@ -99,6 +107,21 @@
       "type": "vereist-kennis-van",
       "target": "assurance-informatie",
       "redenering": "Voldoende-en-geschikte assurance-informatie is voorwaarde voor het oordeel en wordt expliciet bevestigd in basis-voor-oordeel."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "kernpunten-van-controle",
+      "redenering": "KAM is verplichte bouwsteen bij OOB-verslagen onder ISA 701."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "paragraaf-overige-aangelegenheden",
+      "redenering": "Other-matter is een aparte optionele paragraaf naast emphasis."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "afwijking-van-materieel-belang",
+      "redenering": "Basis voor het oordeel wordt aangepast wanneer een materiële afwijking is vastgesteld."
     }
   ],
   "voorbeelden": [

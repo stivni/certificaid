@@ -2,7 +2,7 @@
 title: Intragroep-eliminaties
 tags:
 - concept
-- procedure
+- cluster
 - po-1-4
 linked_anchors:
 - 1.4.I.D
@@ -12,13 +12,15 @@ linked_anchors:
 programmaonderdelen:
 - '1.4'
 confidence: grounded
-node_type: procedure
+node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/intragroep-eliminaties.json
 gegenereerd_op: '2026-05-18'
 ---
 # Intragroep-eliminaties ⚖️
+
+Een centraal correctie-mechanisme in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2). Het zorgt dat onderlinge transacties tussen groepsleden niet dubbel verschijnen of het groepsresultaat opblazen — zonder eliminaties zou de geconsolideerde jaarrekening de externe economische werkelijkheid niet weergeven.
 
 > [!summary] Korte inhoud
 > Bij het opstellen van de geconsolideerde jaarrekening moet je alle onderlinge opbrengsten en kosten, vorderingen en schulden, en niet-gerealiseerde winsten of verliezen tussen groepsleden schrappen.

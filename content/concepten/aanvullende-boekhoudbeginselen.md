@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/aanvullende-boekhoudbeginselen.json
 gegenereerd_op: '2026-05-18'
 ---
 # Aanvullende boekhoudbeginselen (voorzichtigheid, oprechtheid, continuïteit, consistentie) ⚖️
+
+Naast de drie 'voorwaardelijke' boekhoudbeginselen (volledigheid, oprechtheid, onveranderlijkheid) zijn er vier aanvullende beginselen die de **waarderings- en presentatiekeuzes** sturen: voorzichtigheid, oprechtheid, continuïteit en consistentie. Ze staan niet in één wetsartikel maar zijn verspreid in KB-WVV art. 3:6 en 3:35 e.v. Voor het examen is dit cluster één van de meest getoetste theorie-blokken: vragen vertrekken meestal vanuit een concreet waarderings-dilemma en peilen welk beginsel je toepast.
 
 > [!summary] Korte inhoud
 > Naast de algemene boekhoudbeginselen (regelmatigheid, volledigheid, getrouw beeld) gelden aanvullende beginselen die specifiek de waardering en de presentatie sturen.

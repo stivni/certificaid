@@ -2,7 +2,7 @@
   "id": "doelstellingen-financiele-analyse",
   "naam": "Doelstellingen van financiële analyse",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.3.I.A",
@@ -191,30 +191,6 @@
   ],
   "edges": [
     {
-      "type": "bevat",
-      "target": "liquiditeitsratio",
-      "redenering": "Liquiditeit als doelstelling wordt gemeten met liquiditeitsratio's.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "solvabiliteitsratio",
-      "redenering": "Solvabiliteit als doelstelling wordt gemeten met solvabiliteitsratio's.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "rentabiliteit-eigen-vermogen-roe",
-      "redenering": "Rendabiliteit als doelstelling wordt o.a. gemeten met ROE.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "rentabiliteit-totaal-activa-roa",
-      "redenering": "Rendabiliteit als doelstelling wordt o.a. gemeten met ROA.",
-      "confidence": "inferred"
-    },
-    {
       "type": "onderdeel-van",
       "target": "getrouw-beeld-jaarrekening",
       "redenering": "Doelstellingen van financiële analyse hangen onder het overkoepelende doel: gebruikers correct laten beslissen op basis van een getrouw beeld.",
@@ -239,5 +215,8 @@
       ]
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "naam_alternatief": [
+    "Objectives of financial analysis"
+  ]
 }

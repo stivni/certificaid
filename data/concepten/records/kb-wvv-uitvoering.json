@@ -2,7 +2,7 @@
   "id": "kb-wvv-uitvoering",
   "naam": "KB tot uitvoering van het WVV (KB-WVV)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.I.D",
@@ -255,5 +255,7 @@
       "omschrijving": "Hoe moet Meubelzaak Mertens BV haar voorraad waarderen? → KB-WVV art. 3:35 e.v. (waarderingsregels) + KB-WVV art. 3:44 (voorraad-waardering)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "Het KB van 29 april 2019 (kortweg KB-WVV) werkt het WVV gedetailleerd uit. **Boek 3** regelt jaarrekening en boekhouding — de bron van bijna alle praktische voorschriften (schemas, waarderingsregels, toelichtingsinhoud). Voor de stagiair-GA het meest geraadpleegde boekhoudrechtelijke instrument naast WVV zelf.",
+  "naam_alternatief": "Royal Decree implementing the CCA / Arrêté royal d'exécution du CSA"
 }

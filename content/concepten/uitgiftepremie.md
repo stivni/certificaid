@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uitgiftepremie.json
 gegenereerd_op: '2026-05-18'
 ---
 # Uitgiftepremie ⚖️
+
+Een hybride post: boekhoudkundig geen reserve (rubriek 11, niet 13), juridisch wel gelijkgesteld met kapitaal voor de uitkeerbaarheidstoets en het netto-actief-criterium. Voor een stagiair-GA: vereist begrip dat 'verboden uit te keren' niet samenvalt met 'op rubriek 13 staan' — de juridische bescherming reikt verder dan de boekhoudkundige rubrieks-naam suggereert.
 
 > [!summary] Korte inhoud
 > Het **verschil tussen de uitgifteprijs van nieuwe aandelen** bij een kapitaalverhoging en de **fractiewaarde** (of vroeger 'nominale waarde').
@@ -90,9 +92,6 @@ _Grondslag: CBN 2021/01_
 
 
 
-## Zie ook
-
-- **Triggert** (1): [[kapitaalwijziging]]
 ## Voorbeelden
 
 Oprichtingen Oostende BV heeft kapitaal € 50.000 verdeeld over 500 aandelen (fractiewaarde € 100). De BV gaat door een kapitaalverhoging via uitgifte van 200 nieuwe aandelen aan € 250 per stuk. Inbreng = 200 × € 250 = € 50.000. Hiervan: 200 × € 100 = € 20.000 naar kapitaal (rekening 100), en 200 × € 150 = € 30.000 naar uitgiftepremie (rekening 11). Nieuw eigen vermogen: kapitaal € 70.000 + uitgiftepremie € 30.000.

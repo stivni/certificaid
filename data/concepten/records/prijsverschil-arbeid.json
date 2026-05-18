@@ -2,7 +2,7 @@
   "id": "prijsverschil-arbeid",
   "naam": "Tariefverschil en efficiëntieverschil bij arbeid",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.II.C",
@@ -49,5 +49,108 @@
       "omschrijving": "Yperse Werkplaats BV — partij 100 tapijten: standaard 5 uur/tapijt × € 25/uur. Werkelijk: 530 uur × € 26,50/uur. Tariefverschil = 530 × (26,50 − 25,00) = € 795 ongunstig. Efficiëntieverschil = (530 − 500) × € 25 = € 750 ongunstig. Totaal: € 1.545 ongunstig."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "labour rate variance / labour efficiency variance",
+  "situering": {
+    "text": "Tariefverschil en efficiëntieverschil zijn de twee componenten van het arbeidskosten-verschil in een standaardkostencalculatie. Het totale verschil tussen werkelijke en standaard arbeidskost wordt gesplitst in (1) een tariefcomponent — werkelijk uurtarief versus standaard, gevolg van HR-/loonbeleid — en (2) een efficiëntiecomponent — gebruikte uren versus norm-uren, gevolg van productie-efficiëntie. Deze splitsing is de basis van verschillenboekhouding bij arbeid en wijst aan wélke factor sturing nodig heeft.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "berekeningsmethode": [
+    {
+      "naam": "Splitsing arbeidskosten-verschil in tarief en efficiëntie",
+      "formules": [
+        {
+          "id": "tariefverschil",
+          "naam": "Tariefverschil arbeid (labour rate variance)",
+          "wiskunde": "tariefverschil = werkelijke_uren × (werkelijk_uurtarief − standaard_uurtarief)",
+          "variabelen": [
+            {
+              "symbool": "werkelijke_uren",
+              "betekenis": "Effectief gepresteerde arbeidsuren",
+              "eenheid": "uren"
+            },
+            {
+              "symbool": "werkelijk_uurtarief",
+              "betekenis": "Werkelijk betaalde all-in uurkost",
+              "eenheid": "EUR/uur"
+            },
+            {
+              "symbool": "standaard_uurtarief",
+              "betekenis": "Begroot all-in uurtarief (norm)",
+              "eenheid": "EUR/uur"
+            }
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "werkelijke_uren = 530, werkelijk_uurtarief = € 26,50, standaard_uurtarief = € 25,00",
+            "berekening": "530 × (€ 26,50 − € 25,00) = 530 × € 1,50 = € 795 ongunstig",
+            "eenheid_resultaat": "EUR"
+          }
+        },
+        {
+          "id": "efficientieverschil",
+          "naam": "Efficiëntieverschil arbeid (labour efficiency variance)",
+          "wiskunde": "efficientieverschil = (werkelijke_uren − standaarduren) × standaard_uurtarief",
+          "variabelen": [
+            {
+              "symbool": "werkelijke_uren",
+              "betekenis": "Effectief gepresteerde arbeidsuren",
+              "eenheid": "uren"
+            },
+            {
+              "symbool": "standaarduren",
+              "betekenis": "Toegestane norm-uren voor de werkelijke output",
+              "eenheid": "uren"
+            },
+            {
+              "symbool": "standaard_uurtarief",
+              "betekenis": "Begroot all-in uurtarief",
+              "eenheid": "EUR/uur"
+            }
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "werkelijke_uren = 530, standaarduren = 100 × 5 = 500 (100 tapijten × 5 uur norm), standaard_uurtarief = € 25,00",
+            "berekening": "(530 − 500) × € 25 = 30 × € 25 = € 750 ongunstig",
+            "eenheid_resultaat": "EUR"
+          }
+        },
+        {
+          "id": "totaal-arbeidsverschil",
+          "naam": "Totaal arbeidskosten-verschil",
+          "wiskunde": "totaal = tariefverschil + efficientieverschil",
+          "afhankelijk_van": [
+            "tariefverschil",
+            "efficientieverschil"
+          ],
+          "variabelen": [
+            {
+              "symbool": "tariefverschil",
+              "betekenis": "Resultaat tarief-formule",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "efficientieverschil",
+              "betekenis": "Resultaat efficiëntie-formule",
+              "eenheid": "EUR"
+            }
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "tariefverschil = € 795 ongunstig, efficientieverschil = € 750 ongunstig",
+            "berekening": "€ 795 + € 750 = € 1.545 ongunstig",
+            "eenheid_resultaat": "EUR"
+          }
+        }
+      ],
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ]
 }

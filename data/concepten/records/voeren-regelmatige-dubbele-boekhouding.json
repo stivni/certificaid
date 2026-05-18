@@ -2,7 +2,7 @@
   "id": "voeren-regelmatige-dubbele-boekhouding",
   "naam": "Voeren van een regelmatige dubbele boekhouding voor een onderneming",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Voeren van een regelmatige dubbele boekhouding voor een onderneming",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -202,7 +202,16 @@
     "voorgesteld_door": "competentie-destillatie-v2-po11-20260516",
     "voorgesteld_op": "2026-05-16T00:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "linked_anchors": [
     "1.1.taak.1",
@@ -210,5 +219,15 @@
     "1.1.I.A",
     "1.1.I.B"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "naam_alternatief": "keeping a regular double-entry bookkeeping",
+  "situering": {
+    "text": "De overkoepelende beroepscompetentie van een GA: een dubbele boekhouding voeren die voldoet aan **alle** wettelijke regelmaatscriteria (volledigheid, ononderbrokenheid, onveranderlijkheid, getrouw beeld, bewaring). Voor een stagiair-GA: dit is de competentie waar alle andere boekhoudkundige competenties samenkomen — beheersing ervan is het minimum voor het beroepsexamen.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

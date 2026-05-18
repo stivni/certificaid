@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uitvoeren-make-or-buy-beslissing.json
 gegenereerd_op: '2026-05-18'
 ---
 # Uitvoeren van een make-or-buy-beslissing op basis van kostenanalyse 🤖
+
+Competentie waarmee de stagiair een make-or-buy-beslissing onderbouwt: relevante kosten isoleren (variabel + vermijdbare vaste + opportuniteitskost; geen sunk costs en geen gemeenschappelijke vaste kosten), make-kost en buy-kost vergelijken, strategische factoren (knowhow, leveringszekerheid, IP) wegen en een gevoeligheidsanalyse uitvoeren op volume en leveranciersprijs. Vereiste discipline: scheid relevante van niet-relevante kosten consequent — een full-cost-rapportage is misleidend voor deze beslissing.
 
 
 ## Stappen

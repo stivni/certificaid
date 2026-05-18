@@ -2,7 +2,7 @@
   "id": "typologie-van-kosten",
   "naam": "Typologie van kosten",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.I.B",
@@ -59,35 +59,29 @@
   ],
   "edges": [
     {
-      "type": "bevat",
-      "target": "directe-kosten",
-      "redenering": "Eerste indelingscriterium.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "indirecte-kosten",
-      "redenering": "Eerste indelingscriterium.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "vaste-kosten",
-      "redenering": "Tweede indelingscriterium.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "variabele-kosten",
-      "redenering": "Tweede indelingscriterium.",
-      "confidence": "inferred"
-    },
-    {
       "type": "onderdeel-van",
       "target": "analytische-boekhouding",
       "redenering": "Typologie is conceptueel fundament van elke analytische boekhouding.",
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "situering": {
+    "text": "De typologie van kosten is het indelingsraster waarmee elke kost in een analytische boekhouding gelabeld wordt. Drie hoofdassen — toewijsbaarheid (direct/indirect), gedrag (vast/variabel) en functie (productie/commercieel/administratie) — bepalen welk kostprijsmodel toepasbaar is en welke verdeelsleutels nodig zijn. Dit syntheserecord brengt vijf bouwsteen-begrippen samen en levert het beslisraster voor alle berekeningsmethodes in 1.8.III.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting + CBN 132/7 §2.1"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

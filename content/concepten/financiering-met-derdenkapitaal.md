@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/financiering-met-derdenkapitaal.json
 gegenereerd_op: '2026-05-18'
 ---
 # Financiering met derdenkapitaal (vreemd vermogen) ⚖️
+
+Vreemd vermogen op de passiefzijde: bankleningen, obligatieleningen, leveranciersschulden, fiscale en sociale schulden (rubrieken 16-19 + 42-48). Maakt deel uit van de structurele financieringsmix samen met eigen vermogen; bepaalt de solvabiliteit en de gevoeligheid voor renteschommelingen en herfinancieringsrisico.
 
 > [!summary] Korte inhoud
 > Financiering met derdenkapitaal omvat alle middelen die de onderneming aantrekt van externe schuldeisers: banken (bankleningen), obligatiehouders (obligatieleningen), leveranciers (handelsschulden), de fiscus (uitgestelde belastingen) en het personeel (sociale schulden).

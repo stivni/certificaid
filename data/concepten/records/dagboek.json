@@ -2,7 +2,7 @@
   "id": "dagboek",
   "naam": "Dagboek",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.I",
@@ -220,5 +220,7 @@
       "omschrijving": "Meubelzaak Mertens BV voert vier hulpdagboeken: aankoopdagboek (alle leveranciersfacturen, gemiddeld 40 per maand), verkoopdagboek (klantenfacturen, ~250/maand), financieel dagboek (bankuittreksels en kasstukken) en diversendagboek (afschrijvingen, herwaarderingen). Eind elke maand wordt elk dagboek gecentraliseerd in het centraal boek met één samenvattende boeking."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "Het dagboek is het **chronologisch register** waarin elke verrichting wordt geboekt op de dag dat ze gebeurt. Voor stagiairs essentieel om twee vormen te kennen: het ongesplitst dagboek (alles in één) en het stelsel met hulpdagboeken (per type: aankoop, verkoop, financieel). Examenvraag draait vaak rond de juiste boekingsplaats (financieel ↔ centraal).",
+  "naam_alternatief": "journal / livre journal"
 }

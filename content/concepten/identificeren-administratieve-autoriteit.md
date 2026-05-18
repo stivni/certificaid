@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/identificeren-administratieve-autoriteit.json
 gegenereerd_op: '2026-05-18'
 ---
 # Identificeren van de juiste administratieve autoriteit bij een boekhoudrechtelijke vraag 🤖
+
+Bij elke boekhoudrechtelijke vraag is de eerste reflex: 'naar welke autoriteit ga ik?' De keuze hangt af van de aard van de vraag (interpretatie → CBN, openbaarmaking → NBB, toezicht beurs → FSMA, tucht accountant → ITAA, tucht revisor → IBR). Voor stagiairs essentiële competentie omdat het dossier de verkeerde autoriteit aanspreken bijna altijd tijdverlies oplevert.
 
 
 ## Stappen

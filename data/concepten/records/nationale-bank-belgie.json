@@ -2,7 +2,7 @@
   "id": "nationale-bank-belgie",
   "naam": "Nationale Bank van België (NBB)",
   "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.II",
@@ -159,5 +159,7 @@
       "omschrijving": "Rotex Roeselare NV moet binnen 30 dagen na de algemene vergadering haar jaarrekening (volledig schema) elektronisch neerleggen bij de NBB-Balanscentrale."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "De NBB-Balanscentrale is de **centrale autoriteit voor neerlegging van jaarrekeningen**: elke vennootschap deponeert haar goedgekeurde jaarrekening (en jaarverslag, commissarisverslag) digitaal via de NBB binnen 30 dagen na goedkeuring + uiterlijk 7 maanden na boekjaar-einde. Voor de stagiair-GA hét aandachtspunt qua deadlines en sancties bij laattijdige neerlegging.",
+  "naam_alternatief": "National Bank of Belgium / Banque nationale de Belgique"
 }

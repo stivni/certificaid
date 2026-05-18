@@ -2,7 +2,7 @@
   "id": "hulpdagboeken",
   "naam": "Hulpdagboeken",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.III.C",
@@ -123,5 +123,7 @@
       "omschrijving": "Meubelzaak Mertens BV houdt 5 hulpdagboeken bij: aankopen, verkopen, financieel (ING bank), financieel (KBC bank), diversen. Eind maand: centralisatie naar centraal boek."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "Hulpdagboeken zijn **gespecialiseerde dagboeken per verrichtingstype** (aankoop, verkoop, financieel) naast het centraal dagboek. Stagiairs moeten weten welke verrichting waar hoort en dat alle hulpdagboeken periodisch centraliseren in het centraal boek.",
+  "naam_alternatief": "subsidiary journals / journaux auxiliaires"
 }

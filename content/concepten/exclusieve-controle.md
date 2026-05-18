@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/exclusieve-controle.json
 gegenereerd_op: '2026-05-18'
 ---
 # Exclusieve controle 🤖
+
+Een sub-vorm van controle in het Belgische vennootschapsrecht (WVV) — controle uitgeoefend door één vennootschap alleen, zonder gezamenlijk akkoord met andere vennoten. Het is het normaal-typische groepsverband dat integrale consolidatie als consolidatietechniek triggert.
 
 > [!summary] Korte inhoud
 > De controle die één vennootschap alleen uitoefent over een andere — niet samen met andere vennoten.
@@ -98,7 +100,7 @@ _Bron: WVV art. 1:14, § 2 jo. art. 1:16_
 ## Zie ook
 
 - **Getriggerd door**: [[integrale-consolidatie]]
-- **Triggert** (1): [[integrale-consolidatie]]
+
 ## Voorbeelden
 
 Aurelia Holding NV bezit 80 % van de stemrechten in Brugse Brouwerij BV. → onweerlegbaar exclusieve controle in rechte (WVV art. 1:14, § 2) → integrale consolidatie van Brugse in de geconsolideerde jaarrekening van Aurelia.

@@ -9,7 +9,8 @@
     "1.6.I.A",
     "1.6.I.B",
     "1.6.I.C",
-    "1.6.taak.1"
+    "1.6.taak.1",
+    "1.7.taak.1"
   ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-18T16:05Z",
@@ -21,7 +22,9 @@
       "1.6.I.C",
       "1.6.taak.1"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "cross_linked_1.7.taak.1": "2026-05-18T18:00Z",
+    "cross_link_reason": "Anchor 1.7.taak.1 (bijzondere verslagen / juridisch-contractuele opdrachten) dekt expliciet deze opdracht-records."
   },
   "definitie": {
     "text": "Het verslag bij fusie of splitsing is een gedeelde wettelijk voorbehouden opdracht (commissaris, bedrijfsrevisor of — bij afwezigheid van commissaris — gecertificeerd accountant) waarbij de beroepsbeoefenaar nagaat of de inlichtingen in het fusie- of splitsingsvoorstel en de bestuursverslagen de algemene vergadering toelaten met volkomen kennis van zaken te beslissen. Hij verklaart inzonderheid in welke mate de aandelen-ruilverhouding redelijk is vanuit het standpunt van de aandeelhouders van de vennootschap aan wie hij verslag uitbrengt.",

@@ -2,7 +2,7 @@
   "id": "kwantitatieve-financiele-diagnose",
   "naam": "Kwantitatieve modellen voor financiële diagnose — overzicht",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.9.VI",
@@ -21,7 +21,9 @@
       "1.9.VI.B"
     ],
     "reviewed_by": null,
-    "bron_gap": "Internationale financiële-analyse-vakdoctrine. NBB-tools (Score Belfius, Graydon Multiscore) zijn Belgische commerciële afgeleiden — buiten examenscope."
+    "bron_gap": "Internationale financiële-analyse-vakdoctrine. NBB-tools (Score Belfius, Graydon Multiscore) zijn Belgische commerciële afgeleiden — buiten examenscope.",
+    "note": "PO 1.9 wave-2: schema 1.5→1.6 + situering + naam_alternatief",
+    "touched_at": "2026-05-19T00:00:00Z"
   },
   "vergelijkingstabel": "| Model | Techniek | Aantal variabelen | Output | Interpretatie hoog | Interpretatie laag |\n|---|---|---|---|---|---|\n| **Altman Z** | Discriminant-analyse | 5 | Score met 3 zones | Z ≥ 2,99 = gezond | Z < 1,81 = distress |\n| **Ohlson O** | Logistische regressie | 9 | Kans 0-1 | Hoog = hoog risico | Laag = laag risico |\n| **Belgische varianten** (Score Belfius, Graydon Multiscore) | Eigen propriëtaire modellen op Belgische data | Onbekend | Score 0-100 of letter-rating | Variabel — afhankelijk van bron | Variabel |",
   "beslisboom": "```mermaid\nflowchart TD\n  A[Onderneming met ratio-zwakte] --> B{Welk type vraag?}\n  B -->|Zone-positionering| C[Altman Z-score]\n  B -->|Kansprobabiliteit| D[Ohlson O-score]\n  B -->|Belgische context met sector-vergelijking| E[Belgische varianten]\n  C --> F[Z < 1,81: distress → diepere kwalitatieve analyse]\n  C --> G[1,81-2,99: grey zone → combineer met andere indicatoren]\n  C --> H[Z ≥ 2,99: safe zone]\n  D --> I[p > 0,5: voorspelling faillissement]\n  D --> J[p < 0,5: voorspelling overleven]\n  F --> K[Triangulair lezen + bestuursverslag + cash-positie]\n  I --> K\n```",
@@ -65,5 +67,27 @@
       }
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Overzicht-fiche: welke kwantitatieve modellen kan de stagiair inzetten naast klassieke ratio-analyse om falen te voorspellen? Altman Z (discriminantmodel, score-zones, 2-jaarshorizon), Ohlson O (logistische regressie, kansprobabiliteit), aangevuld met sector- en evolutiebenchmarks. Geen vervanging voor inhoudelijk oordeel — wel een tweede toets om signaalsterkte te wegen.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Syntheseschema vakdoctrine financial analysis"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "aggregate",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "naam_alternatief": [
+    "Quantitative financial distress models",
+    "Overzicht failure-predictiemodellen"
+  ],
+  "migrated_doel_to_situering_at": "2026-05-19T00:00:00Z"
 }

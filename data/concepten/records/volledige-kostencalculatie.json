@@ -2,7 +2,7 @@
   "id": "volledige-kostencalculatie",
   "naam": "Volledige kostencalculatie (full costing)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.A",
@@ -130,12 +130,6 @@
   ],
   "edges": [
     {
-      "type": "bevat",
-      "target": "vervaardigingsprijs",
-      "redenering": "Kernbestanddeel.",
-      "confidence": "inferred"
-    },
-    {
       "type": "vergelijkt-met",
       "target": "direct-costing",
       "redenering": "Tegenpool.",
@@ -177,5 +171,7 @@
       ]
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "full costing / absorption costing"
 }

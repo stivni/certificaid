@@ -2,7 +2,7 @@
   "id": "eindejaarsverrichtingen",
   "naam": "Eindejaarsverrichtingen (jaarafsluiting)",
   "node_type": "procedure",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.taak.1",
@@ -294,5 +294,7 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": "De eindejaarsverrichtingen (afsluitingsboekingen) zijn de boekingen die de boekhoudkundige cijfers tot **economische waarheid** brengen op balansdatum: afschrijvingen, waardeverminderingen, voorzieningen, overlopende rekeningen, periodisering. Voor de stagiair-GA is dit het meest praktische thema van PO 1.2 — examen-cases vertrekken vaak vanuit één missing eindejaarsverrichting.",
+  "naam_alternatief": "year-end closing entries / écritures de clôture"
 }

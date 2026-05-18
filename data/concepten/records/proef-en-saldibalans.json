@@ -2,7 +2,7 @@
   "id": "proef-en-saldibalans",
   "naam": "Proef- en saldibalans",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.III.D",
@@ -172,5 +172,7 @@
       "omschrijving": "Meubelzaak Mertens BV maakt eind 2024 een proef- en saldibalans op: rekening 604 Aankopen toont debet € 230.000, credit € 0, saldo € 230.000 debet. Som debet alle rekeningen = som credit alle rekeningen → balans in evenwicht."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": "De proef- en saldibalans is de **transitielijst** tussen boekjaar en jaarrekening: alle rekeningen met hun debet- en credit-totalen en saldi. Voor de stagiair-GA het werkpapier waarop afschrijvingen, waardeverminderingen en correcties worden aangebracht voor het opstellen van de jaarrekening.",
+  "naam_alternatief": "trial balance / balance générale"
 }

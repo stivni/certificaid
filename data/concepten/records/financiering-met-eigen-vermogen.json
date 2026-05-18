@@ -2,7 +2,7 @@
   "id": "financiering-met-eigen-vermogen",
   "naam": "Financiering met eigen vermogen",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.9.IV.F",
@@ -16,7 +16,9 @@
       "1.9.IV"
     ],
     "reviewed_by": null,
-    "bron_gap": "Algemene begrippen-context zonder specifieke Belgische trusted-bron-bundle voor PO 1.9. WVV-context (kapitaal, reserves, overgedragen resultaat) is wel beschikbaar."
+    "bron_gap": "Algemene begrippen-context zonder specifieke Belgische trusted-bron-bundle voor PO 1.9. WVV-context (kapitaal, reserves, overgedragen resultaat) is wel beschikbaar.",
+    "note": "PO 1.9 wave-2: schema 1.5→1.6 + situering + naam_alternatief",
+    "touched_at": "2026-05-19T00:00:00Z"
   },
   "definitie": {
     "text": "Financiering met eigen vermogen verzamelt alle middelen die door de aandeelhouders zijn ingebracht of in de onderneming gereserveerd. Op de balans: kapitaal, uitgiftepremies, herwaarderingsmeerwaarden, reserves en het overgedragen resultaat (rubrieken 10/15).",
@@ -125,5 +127,28 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Middelen ingebracht door aandeelhouders of door de onderneming gereserveerd: kapitaal, uitgiftepremies, herwaarderingsmeerwaarden, reserves, overgedragen resultaat (rubrieken 10/15). Vormt de stabiliteitsbasis van de financieringsstructuur — geen contractuele aflossing, draagt onbeperkt verlies. Solvabiliteit = eigen vermogen / totaal vermogen.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Vakdoctrine financial analysis + WVV-rubrieken"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.9.IV.F",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "naam_alternatief": [
+    "Equity financing",
+    "Eigen vermogen",
+    "Financement par fonds propres"
+  ],
+  "migrated_doel_to_situering_at": "2026-05-19T00:00:00Z"
 }

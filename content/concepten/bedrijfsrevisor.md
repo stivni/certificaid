@@ -4,16 +4,20 @@ tags:
 - concept
 - autoriteit
 - po-1-6
+- po-1-7
 linked_anchors:
 - 1.6.I.B
 - 1.6.I.A
 - 1.6.taak.1
+- 1.7.XII.G
+- 1.7.XII
 programmaonderdelen:
 - '1.6'
+- '1.7'
 confidence: inferred-from-aggregation
 node_type: autoriteit
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bedrijfsrevisor.json
 gegenereerd_op: '2026-05-18'
 ---

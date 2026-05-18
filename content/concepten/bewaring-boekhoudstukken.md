@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bewaring-boekhoudstukken.json
 gegenereerd_op: '2026-05-18'
 ---
 # Bewaring van boekhoudkundige stukken ⚖️
+
+Een formele verplichting uit het WER en het KB WVV die het skelet van de regelmatige boekhouding bewaakt: zonder bewaarde stukken kan een audit, controle of fiscale verificatie achteraf niet worden uitgevoerd. Voor een stagiair-GA is dit een van de eerste cliëntenvragen ('hoe lang moet ik dit nog houden?'); een fout antwoord (te kort bewaard) brengt de cliënt direct in fiscale en strafrechtelijke moeilijkheden.
 
 > [!summary] Korte inhoud
 > Boeken, rekeningen en verantwoordingsstukken moeten gedurende **7 jaar** worden bewaard, te rekenen vanaf 1 januari volgend op het boekjaar waarop ze betrekking hebben (WER art. III.86).

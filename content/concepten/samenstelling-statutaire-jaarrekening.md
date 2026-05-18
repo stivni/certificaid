@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: procedure
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/samenstelling-statutaire-jaarrekening.json
 gegenereerd_op: '2026-05-18'
 ---
 # Samenstelling van de statutaire jaarrekening 🤖
+
+Aan het einde van elk boekjaar stelt het bestuursorgaan, op basis van proef- en saldibalans en de eindejaarsverrichtingen, de **statutaire jaarrekening** op volgens het toepasselijke schema. Voor de stagiair-GA de procedurele kapstok van PO 1.2: deze procedure verbindt alle deelthema's (beginselen, schema, openbaarmaking, commissaris).
 
 > [!summary] Korte inhoud
 > Aan het einde van elk boekjaar stelt het bestuursorgaan, op basis van de proef- en saldibalans en de uitgevoerde eindejaarsverrichtingen, de statutaire jaarrekening op volgens het toepasselijke schema (volledig / verkort / micro).

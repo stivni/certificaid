@@ -2,7 +2,7 @@
   "id": "identificeren-administratieve-autoriteit",
   "naam": "Identificeren van de juiste administratieve autoriteit bij een boekhoudrechtelijke vraag",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Identificeren van de juiste administratieve autoriteit bij een boekhoudrechtelijke vraag",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -182,5 +182,6 @@
   "linked_anchors": [
     "1.2.II"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": "Bij elke boekhoudrechtelijke vraag is de eerste reflex: 'naar welke autoriteit ga ik?' De keuze hangt af van de aard van de vraag (interpretatie → CBN, openbaarmaking → NBB, toezicht beurs → FSMA, tucht accountant → ITAA, tucht revisor → IBR). Voor stagiairs essentiële competentie omdat het dossier de verkeerde autoriteit aanspreken bijna altijd tijdverlies oplevert."
 }

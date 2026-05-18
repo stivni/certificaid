@@ -17,7 +17,9 @@
       "1.6.I.A",
       "1.6.I.B"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T17:35Z",
+    "last_extract_at": "2026-05-18T17:35:00Z"
   },
   "main_rule": {
     "text": "De gecertificeerd accountant is onderworpen aan tuchtrechtelijke aansprakelijkheid voor inbreuken op de wettelijke en reglementaire verplichtingen, het KB van 1 maart 1998 (plichtenleer) en de ITAA-deontologie. Tuchtinstanties zijn de tuchtcommissies van het ITAA in eerste aanleg en de commissie van beroep. Sancties zijn — in stijgende ernst — waarschuwing, berisping, schorsing (max. één jaar) en schrapping. Tuchtsporen verlopen onafhankelijk van een civiele schadeprocedure: de twee kunnen samen lopen.",
@@ -89,6 +91,16 @@
       "facet": {
         "aspect": "spoor"
       }
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "gecertificeerd-accountant-ga",
+      "redenering": "Tuchtrechtelijke aansprakelijkheid geldt uit hoofde van het beroep van gecertificeerd accountant; ITAA als tuchtinstantie organiseert dit beroep."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "itaa",
+      "redenering": "Tuchtinstanties (tuchtcommissies in eerste aanleg + commissie van beroep) zijn organen van het ITAA."
     }
   ],
   "voorbeelden": [

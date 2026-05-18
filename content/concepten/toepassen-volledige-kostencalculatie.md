@@ -15,11 +15,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/toepassen-volledige-kostencalculatie.json
 gegenereerd_op: '2026-05-18'
 ---
 # Toepassen van de volledige kostencalculatie (full costing) op een productie-eenheid 🤖
+
+Competentie waarmee de stagiair full costing toepast op een kostendrager: alle directe kosten optellen + indirecte productiekosten verdelen via verdeelsleutels (traditionele aanpak) of via cost drivers per activiteit (ABC-verfijning). Resultaat: een volledige kostprijs die zowel voor voorraadwaardering (CBN 132/7 — wettelijk) als voor lange-termijn-prijszetting bruikbaar is. Sluit aan op bepalen-vervaardigingsprijs (de wettelijke kern) en is parent-competentie van toepassen-abc-methode (een verfijning van stap 4).
 
 
 ## Stappen
@@ -186,3 +188,6 @@ Bereken per hoofd-centrum een opslag-tarief (bv. per machine-uur of per directe-
 
 
 
+## Bronnen
+
+[^1]: `CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs`

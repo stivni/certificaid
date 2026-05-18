@@ -2,7 +2,7 @@
   "id": "opzetten-controleactiviteiten-en-monitoring",
   "naam": "Opzetten van controle-activiteiten en monitoringsmechanismen",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Opzetten van controle-activiteiten en monitoringsmechanismen",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -173,7 +173,9 @@
     "voorgesteld_door": "competentie-destillatie-v2-po17-2026-05-17T12:00Z",
     "voorgesteld_op": "2026-05-17T12:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "touched_at": "2026-05-18T18:20:48Z",
+    "last_extractor_run": "concept-extractie-v4-2026-05-18-wave1b4"
   },
   "linked_anchors": [
     "1.7.taak.1",
@@ -185,5 +187,22 @@
     "1.7.X.D",
     "1.7.XI"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": {
+    "text": "Deze competentie operationaliseert COSO-componenten 3 (beheersactiviteiten) + 5 (monitoring) als concrete stagiair-handeling: ontwerp het control-portfolio van een organisatie (preventief en detectief, manueel en geautomatiseerd), koppel evidence-middelen, organiseer reconciliaties en bouw monitoring op twee niveaus (doorlopend + periodiek). Methodologie volgt uit ITAA-controlenorm §97–98 + COSO 2013. Examen-vraagstellingen toetsen typisch een case waar de stagiair een control-design-tabel moet opstellen voor een gegeven risico-set.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA-controlenorm §97–98 + COSO 2013"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

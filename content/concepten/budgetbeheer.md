@@ -13,16 +13,16 @@ programmaonderdelen:
 confidence: inferred
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/budgetbeheer.json
 gegenereerd_op: '2026-05-18'
 ---
 # Budgetbeheer 🤖
 
+Budgetbeheer is het management-proces waarbij toekomstige kosten, opbrengsten en kasstromen vooraf worden geraamd in een geheel van deelbudgetten, en waarbij realisaties periodiek tegen die ramingen worden gemeten (verschillenboekhouding). Centraal stuurinstrument naast de boekhoudkundige rapportage: koppelt strategie aan operationele uitvoering. Omvat budgetprocedure (hoe stel je budget op), budgetboekhouding (registratie van budgetcijfers), en verschillenboekhouding (analyse afwijkingen).
+
 > [!summary] Korte inhoud
 > Budgetbeheer is het management-proces waarbij toekomstige kosten, opbrengsten en cashstromen vooraf worden geraamd in een geheel van budgetten, en waarbij realisaties periodiek tegen die ramingen worden afgezet om bij te sturen.
-
-> [!info] Bestaat uit (6): [[budgetboekhouding]] · [[budgetprocedure]] · [[flexibel-budget]] · [[master-budget]] · [[statisch-budget]] · [[verschillenboekhouding]]
 
 Budgetbeheer is het management-proces waarbij toekomstige kosten, opbrengsten en cashstromen vooraf worden geraamd in een geheel van budgetten, en waarbij realisaties periodiek tegen die ramingen worden afgezet om bij te sturen. Het omvat zowel de budgetprocedure (opstellen) als de budgetcontrole (opvolging) en de verschillenboekhouding (analyse).
 
@@ -70,4 +70,4 @@ Yperse Werkplaats BV start in september met richtcijfers van directie (omzet-doe
 ## Zie ook
 
 - **Vereist kennis van**: [[analytische-boekhouding]]
-- **Wordt voorondersteld in** (1): [[kostencentrum]]
+

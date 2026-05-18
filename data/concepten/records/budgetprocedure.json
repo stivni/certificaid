@@ -1,8 +1,8 @@
 {
   "id": "budgetprocedure",
   "naam": "Budgetprocedure",
-  "node_type": "procedure",
-  "schema_version": "1.5",
+  "node_type": "cluster",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.VI.C",
@@ -18,96 +18,6 @@
     "reviewed_by": null,
     "bron_gap": "Vakdoctrine"
   },
-  "verplichting": {
-    "text": "Een budgetprocedure verloopt typisch in vijf opeenvolgende fasen: richtlijnen opstellen, decentraal ramen, consolidatie en confrontatie, goedkeuring en distributie, periodieke opvolging. Elke fase heeft een eigenaar en een doorlooptijd. Een degelijke procedure waarborgt dat alle afdelingen tijdig hun input leveren en dat het uiteindelijke budget intern gecommuniceerd is vóór het boekjaar start.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Management accounting — bron-gap"
-    },
-    "_provenance": {
-      "inputs": []
-    }
-  },
-  "stappen": [
-    {
-      "nr": 1,
-      "titel": "Stel richtlijnen op (september)",
-      "wat": "Directie en CFO formuleren strategische uitgangspunten: omzetdoel, marge-doel, investeringsbudget, loonindex, prijszettingsbeleid.",
-      "waarom": "Geeft afdelingen een kader om binnen te plannen — voorkomt dat 'alles van onderop' tot onsamenhangend totaal leidt.",
-      "actor": "Directie + CFO",
-      "hoe": "1. Directie evalueert markt-context en strategische plannen.\n2. CFO vertaalt naar budget-richtlijnen (% groei, marge-doel).\n3. Verspreid via een 'budget-brief' aan alle afdelingshoofden.\n",
-      "grondslag": "[[budgetbeheer]]"
-    },
-    {
-      "nr": 2,
-      "titel": "Decentraal ramen (oktober)",
-      "wat": "Elke afdeling stelt zijn eigen budget op binnen de gestelde kaders: omzet per productlijn (verkoop), productiekosten per centrum (productie), personeelsplan (HR), investeringen.",
-      "waarom": "Decentrale kennis benutten; verantwoordelijken hebben de meest accurate ramingen voor hun domein.",
-      "actor": "Afdelingshoofden",
-      "hoe": "1. Marleen De Cock (Confectie Yperse Werkplaats BV) raamt 7.500 tapijten + 18.000 garen-eenheden voor 20X2.\n2. Verkoopdirecteur raamt verkopen per klant-segment.\n3. HR-verantwoordelijke berekent loonkost-projectie inclusief indexering.\n4. Allen verzamelen ramingen in een standaard budget-template.\n",
-      "grondslag": "Vakdoctrine"
-    },
-    {
-      "nr": 3,
-      "titel": "Consolidatie en confrontatie (november)",
-      "wat": "CFO consolideert alle deelbudgetten tot een geprojecteerde resultatenrekening, balans en cashflow. Confronteer met de richtlijnen; vraag bijsturing waar nodig.",
-      "waarom": "Bottom-up cijfers wijken vaak af van top-down kader — iteratie nodig.",
-      "actor": "CFO + controlling-team",
-      "hoe": "1. Consolideer alle afdelingsbudgetten in één model.\n2. Bereken geprojecteerde omzet, marge, cashflow, eindbalans.\n3. Vergelijk met richtlijnen: omzet 8 % onder doel? → werk samen met verkoop voor bijsturing.\n4. Eventueel 2-3 iteraties.\n",
-      "grondslag": "Vakdoctrine"
-    },
-    {
-      "nr": 4,
-      "titel": "Goedkeuring en distributie (december)",
-      "wat": "Directie en eventueel raad van bestuur keuren het definitieve budget goed. Distributie naar afdelingshoofden en boekhouding (opname in budgetboekhouding).",
-      "waarom": "Formeel commitment van bestuur; basis voor opvolgingsrapporten in het volgende jaar.",
-      "actor": "Raad van bestuur + directie",
-      "hoe": "1. Directie presenteert budget aan raad van bestuur.\n2. Goedkeuring formeel in vergaderverslag.\n3. Budget wordt in budgetboekhouding ingeboekt (klasse 90 of vergelijkbaar).\n4. Afdelingshoofden krijgen hun definitief budget gecommuniceerd.\n",
-      "grondslag": "Vakdoctrine"
-    },
-    {
-      "nr": 5,
-      "titel": "Periodieke opvolging (jaarrond)",
-      "wat": "Maandelijks rapport budget vs. realisatie per kostencentrum. Bij significante afwijking: oorzakenanalyse en eventueel bijsturing van budget (rolling forecast).",
-      "waarom": "Snelle terugkoppeling maakt sturing mogelijk; alleen achteraf-vergelijking is te laat.",
-      "actor": "Controlling + afdelingshoofden",
-      "hoe": "1. Boekhouding levert per maand de realisatiecijfers per klasse 9-rekening.\n2. Controlling vergelijkt met budget; bereken verschil.\n3. Splits in prijs- en hoeveelheidverschil (zie [[verschillenboekhouding]]).\n4. Stuur rapport naar afdelingshoofden; bespreek significante afwijkingen.\n5. Bij blijvende afwijking >10 %: forecast updaten.\n",
-      "grondslag": "[[verschillenboekhouding]]"
-    }
-  ],
-  "tijdlijn": [
-    {
-      "stap": "Richtlijnen opstellen",
-      "termijn": "september (3-4 maanden vóór boekjaar)",
-      "actor": "directie + CFO",
-      "actie": "budget-brief versturen"
-    },
-    {
-      "stap": "Decentraal ramen",
-      "termijn": "oktober",
-      "actor": "afdelingshoofden",
-      "actie": "deelbudgetten indienen"
-    },
-    {
-      "stap": "Consolidatie",
-      "termijn": "november",
-      "actor": "CFO",
-      "actie": "consolideren + iteratie"
-    },
-    {
-      "stap": "Goedkeuring",
-      "termijn": "december",
-      "actor": "raad van bestuur",
-      "actie": "formeel goedkeuren"
-    },
-    {
-      "stap": "Periodieke opvolging",
-      "termijn": "maandelijks jaarrond",
-      "actor": "controlling",
-      "actie": "rapport budget vs. realisatie"
-    }
-  ],
   "valkuilen": [
     {
       "text": "Te late budgetstart (november-december) leidt tot opgejaagd proces en zwakke bottom-up-input. Beste praktijk: 4 maanden doorlooptijd vóór boekjaar.",
@@ -138,5 +48,96 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "type_migration": {
+    "from": "procedure",
+    "to": "cluster",
+    "reason": "Schema 1.5 deprecieert 'procedure' als node_type. Budgetprocedure beschrijft een bedrijfsproces (descriptief domein-object) — niet primair een stagiair-skill — dus cluster met berekeningsmethode-stappen past beter dan competentie.",
+    "migrated_at": "2026-05-18T22:00:00Z"
+  },
+  "naam_alternatief": "budget cycle procedure",
+  "definitie": {
+    "text": "Een budgetprocedure verloopt typisch in vijf opeenvolgende fasen: richtlijnen opstellen, decentraal ramen, consolidatie en confrontatie, goedkeuring en distributie, periodieke opvolging. Elke fase heeft een eigenaar en een doorlooptijd. Een degelijke procedure waarborgt dat alle afdelingen tijdig hun input leveren en dat het uiteindelijke budget intern gecommuniceerd is vóór het boekjaar start.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "situering": {
+    "text": "De budgetprocedure is het concrete vijf-fasen-proces (richtlijnen, decentrale ramen, consolidatie, goedkeuring, opvolging) waarmee een onderneming jaarlijks zijn budget opstelt en opvolgt. Eigenaarschap en doorlooptijden zijn cruciaal: een procedure die in november start raakt opgejaagd en levert zwakke ramingen. De vijfde fase (periodieke opvolging) verbindt budgetprocedure naadloos met verschillenboekhouding.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "berekeningsmethode": [
+    {
+      "naam": "Vijf-fasen budgetprocedure",
+      "ratio": "Standaard-procedure van richtlijnen tot opvolging. Indicatieve tijdlijn over een jaarcyclus:\n- Richtlijnen opstellen: september (3-4 maanden vóór boekjaar) — directie + CFO (budget-brief versturen)\n- Decentraal ramen: oktober — afdelingshoofden (deelbudgetten indienen)\n- Consolidatie: november — CFO (consolideren + iteratie)\n- Goedkeuring: december — raad van bestuur (formeel goedkeuren)\n- Periodieke opvolging: maandelijks jaarrond — controlling (rapport budget vs. realisatie)",
+      "stappen": [
+        {
+          "nr": 1,
+          "titel": "Stel richtlijnen op (september)",
+          "wat": "Directie en CFO formuleren strategische uitgangspunten: omzetdoel, marge-doel, investeringsbudget, loonindex, prijszettingsbeleid.",
+          "waarom": "Geeft afdelingen een kader om binnen te plannen — voorkomt dat 'alles van onderop' tot onsamenhangend totaal leidt.",
+          "actor": "Directie + CFO",
+          "hoe": "1. Directie evalueert markt-context en strategische plannen.\n2. CFO vertaalt naar budget-richtlijnen (% groei, marge-doel).\n3. Verspreid via een 'budget-brief' aan alle afdelingshoofden.\n",
+          "grondslag": "[[budgetbeheer]]"
+        },
+        {
+          "nr": 2,
+          "titel": "Decentraal ramen (oktober)",
+          "wat": "Elke afdeling stelt zijn eigen budget op binnen de gestelde kaders: omzet per productlijn (verkoop), productiekosten per centrum (productie), personeelsplan (HR), investeringen.",
+          "waarom": "Decentrale kennis benutten; verantwoordelijken hebben de meest accurate ramingen voor hun domein.",
+          "actor": "Afdelingshoofden",
+          "hoe": "1. Marleen De Cock (Confectie Yperse Werkplaats BV) raamt 7.500 tapijten + 18.000 garen-eenheden voor 20X2.\n2. Verkoopdirecteur raamt verkopen per klant-segment.\n3. HR-verantwoordelijke berekent loonkost-projectie inclusief indexering.\n4. Allen verzamelen ramingen in een standaard budget-template.\n",
+          "grondslag": "Vakdoctrine"
+        },
+        {
+          "nr": 3,
+          "titel": "Consolidatie en confrontatie (november)",
+          "wat": "CFO consolideert alle deelbudgetten tot een geprojecteerde resultatenrekening, balans en cashflow. Confronteer met de richtlijnen; vraag bijsturing waar nodig.",
+          "waarom": "Bottom-up cijfers wijken vaak af van top-down kader — iteratie nodig.",
+          "actor": "CFO + controlling-team",
+          "hoe": "1. Consolideer alle afdelingsbudgetten in één model.\n2. Bereken geprojecteerde omzet, marge, cashflow, eindbalans.\n3. Vergelijk met richtlijnen: omzet 8 % onder doel? → werk samen met verkoop voor bijsturing.\n4. Eventueel 2-3 iteraties.\n",
+          "grondslag": "Vakdoctrine"
+        },
+        {
+          "nr": 4,
+          "titel": "Goedkeuring en distributie (december)",
+          "wat": "Directie en eventueel raad van bestuur keuren het definitieve budget goed. Distributie naar afdelingshoofden en boekhouding (opname in budgetboekhouding).",
+          "waarom": "Formeel commitment van bestuur; basis voor opvolgingsrapporten in het volgende jaar.",
+          "actor": "Raad van bestuur + directie",
+          "hoe": "1. Directie presenteert budget aan raad van bestuur.\n2. Goedkeuring formeel in vergaderverslag.\n3. Budget wordt in budgetboekhouding ingeboekt (klasse 90 of vergelijkbaar).\n4. Afdelingshoofden krijgen hun definitief budget gecommuniceerd.\n",
+          "grondslag": "Vakdoctrine"
+        },
+        {
+          "nr": 5,
+          "titel": "Periodieke opvolging (jaarrond)",
+          "wat": "Maandelijks rapport budget vs. realisatie per kostencentrum. Bij significante afwijking: oorzakenanalyse en eventueel bijsturing van budget (rolling forecast).",
+          "waarom": "Snelle terugkoppeling maakt sturing mogelijk; alleen achteraf-vergelijking is te laat.",
+          "actor": "Controlling + afdelingshoofden",
+          "hoe": "1. Boekhouding levert per maand de realisatiecijfers per klasse 9-rekening.\n2. Controlling vergelijkt met budget; bereken verschil.\n3. Splits in prijs- en hoeveelheidverschil (zie [[verschillenboekhouding]]).\n4. Stuur rapport naar afdelingshoofden; bespreek significante afwijkingen.\n5. Bij blijvende afwijking >10 %: forecast updaten.\n",
+          "grondslag": "[[verschillenboekhouding]]"
+        }
+      ],
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Management accounting — bron-gap"
+      },
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ]
 }

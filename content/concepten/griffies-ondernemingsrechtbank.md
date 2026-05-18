@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: autoriteit
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/griffies-ondernemingsrechtbank.json
 gegenereerd_op: '2026-05-18'
 ---
 # Griffies van de ondernemingsrechtbank ⚖️
+
+De griffies van de ondernemingsrechtbanken houden het **ondernemingsdossier** bij waarin oprichtingsakten, statutenwijzigingen en bestuurdersbenoemingen worden gedeponeerd. Voor PO 1.2 relevant als het neerleggingskanaal voor stukken die niet bij de NBB terechtkomen (bv. statutenwijzigingen, ontslag bestuurder). Stagiair-valkuil: jaarrekening neerleggen ↔ statuten neerleggen verwarren.
 
 > [!summary] Korte inhoud
 > De griffies van de ondernemingsrechtbanken houden voor elke vennootschap en vereniging een ondernemingsdossier bij waarin oprichtingsakten, statutenwijzigingen, benoemingen van bestuurders, ontbindingsbesluiten en jaarrekening-vermeldingen worden neergelegd.

@@ -2,7 +2,7 @@
   "id": "functie-interne-auditor",
   "naam": "Functie van de interne auditor",
   "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.V.B",
@@ -10,7 +10,7 @@
     "1.7.V"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T11:58Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave2-1.7.V",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.V.B",
     "dekt_ook_anchors": [
@@ -18,11 +18,13 @@
       "1.7.V"
     ],
     "reviewed_by": null,
-    "bron_gap": "IIA-functieprofiel — vakdoctrine. Inferred-common-knowledge."
+    "bron_gap": "IIA-functieprofiel — vakdoctrine. Inferred-common-knowledge.",
+    "note": "Wave 2 1.7.V.B: bouwstenen[] toegevoegd (risk-based audit plan, audit charter, beperking operationele taken, ISA 610 evaluatie-perspectief). Edges uitgebreid naar gebruik-werk-interne-auditors-audit + iesba-code-of-ethics.",
+    "touched_at": "2026-05-18T22:30:00Z"
   },
   "definitie": {
     "text": "De interne auditor is de werknemer (of uitbestede dienstverlener) die binnen de onderneming onafhankelijke evaluatie en advies verschaft over IC, risicobeheer en governance. Rapporteert aan auditcomité of hoogste leiding, niet aan operationeel management. Vereist competentie in audit-methodologie, kennis van het bedrijf, en ethische onafhankelijkheid (IIA Code of Ethics).",
-    "confidence": "inferred-common-knowledge",
+    "confidence": "inferred",
     "_provenance": {
       "inputs": []
     }
@@ -31,7 +33,7 @@
     {
       "aspect": "Drie typen activiteiten",
       "betekenis": "(1) Assurance: onafhankelijke evaluatie van een proces, IC of governance-aspect. (2) Consulting: advisering op vraag van management — bv. design van IC voor nieuw proces — met behoud van onafhankelijkheid. (3) Special investigations: onderzoek bij vermoeden van fraude of significant incident.",
-      "confidence": "inferred-common-knowledge",
+      "confidence": "inferred",
       "_provenance": {
         "inputs": []
       }
@@ -39,7 +41,7 @@
     {
       "aspect": "Risk-based audit plan",
       "betekenis": "Niet alle processen elk jaar auditeren — onmogelijk. Selectie op basis van risico-inschatting: hoog risico → jaarlijks; middel → 2-jaarlijks; laag → 5-jaarlijks. Plan keurt auditcomité goed.",
-      "confidence": "inferred-common-knowledge",
+      "confidence": "inferred",
       "_provenance": {
         "inputs": []
       }
@@ -54,7 +56,17 @@
     {
       "type": "vereist-kennis-van",
       "target": "auditcomite",
-      "redenering": "Idealiter rapporteert IA aan auditcomité."
+      "redenering": "Idealiter rapporteert IA functioneel aan auditcomité voor onafhankelijkheid."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "gebruik-werk-interne-auditors-audit",
+      "redenering": "ISA 610 regelt hoe de externe auditor mag steunen op het werk van deze functie; evaluatiecriteria daar."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "iesba-code-of-ethics",
+      "redenering": "Objectiviteit en integriteit worden ook door IESBA bekeken; relevant bij combinatie van IA-werk en consulting door externe accountant."
     }
   ],
   "voorbeelden": [
@@ -63,5 +75,103 @@
       "omschrijving": "Bij Rotex Roeselare NV werkt Sofie Janssens als interne auditor (Director Internal Audit). Rapporteert aan het auditcomité (vergadert 4x/jaar). Stelt jaarlijks risk-based audit plan op (40-50 audits per jaar). Eigen team van 5 senior auditors. Mag geen operationele taken hebben in de afdelingen die zij audit."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "De functie van interne auditor is de uitvoerende rol binnen de derde verdedigingslijn van het drie-lijnen-model. De interne auditor is werknemer (of uitbesteed) maar staat hiërarchisch los van het management van de processen die zij audit — typisch rapporterend aan auditcomité of raad van bestuur. Vereist methodologische audit-competentie (IIA Standards) en ethische onafhankelijkheid (IIA Code of Ethics). In België meestal niet wettelijk verplicht behalve in financiële sector en bij beursgenoteerden via Corporate Governance Code.",
+    "confidence": "inferred",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "naam_alternatief": "internal auditor",
+  "bouwstenen": [
+    {
+      "titel": "Risk-based audit plan",
+      "wat": "De interne auditor stelt jaarlijks een audit-plan op gebaseerd op een eigen risico-inschatting van processen, entiteiten en risicogebieden. Hoog-risico-processen worden jaarlijks gepland, middel-risico om de 2 à 3 jaar, laag-risico met grotere intervallen. Het plan wordt door het auditcomité goedgekeurd.",
+      "waarom": "Volledige dekking van elk proces elk jaar is materieel onmogelijk en zou bovendien niet risico-gericht zijn. Risk-based planning concentreert audit-capaciteit op waar de governance-toegevoegde-waarde het hoogst is.",
+      "in_praktijk": "Toetsregel: wie keurt het plan goed? Auditcomité (sterke onafhankelijkheid) of CFO (zwakke onafhankelijkheid)? Beoordeel ook of frauderisico, IT-omgeving en nieuwe acquisities expliciet in het plan zijn opgenomen.",
+      "grondslag": "IIA International Standard 2010 + ISA 610 (herzien) §15(c)",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "titel": "Audit charter en rapporteringslijn",
+      "wat": "De scope, bevoegdheden, toegang tot dossiers en rapporteringslijn van de interne auditor worden vastgelegd in een schriftelijk 'internal audit charter' dat door het auditcomité (of, bij gebrek, het bestuursorgaan) wordt goedgekeurd. Het charter regelt ook hiërarchische rapportering (administratief naar CEO of CFO toegestaan; functioneel altijd naar auditcomité).",
+      "waarom": "Zonder schriftelijk mandaat is de bevoegdheid voor onderzoek (toegang tot vertrouwelijke informatie, IT-systemen, dochterondernemingen) juridisch onzeker. Het charter is bovendien het formele instrument waarmee onafhankelijkheid wordt gegarandeerd.",
+      "in_praktijk": "Examenval: 'aan wie rapporteert de interne auditor?' — antwoord onderscheidt administratief (dagelijks management, vakantie- en salarisbeheer) van functioneel (audit-bevindingen, planning, evaluatie). Het tweede moet altijd naar auditcomité of bestuursorgaan.",
+      "grondslag": "IIA International Standards 1000-1110; ISA 610 (herzien) §A6-A7",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-610-herzien__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Beperking op operationele taken (zelf-review-vermijden)",
+      "wat": "De interne auditor mag geen operationele verantwoordelijkheid hebben voor de processen die hij audit. Hij beoordeelt controles en formuleert aanbevelingen — hij voert de controles niet uit, beslist niet over transacties, en is geen co-eigenaar van procedures die hij later moet beoordelen.",
+      "waarom": "Zelf-review = de auditor evalueert zijn eigen werk. Dat ondermijnt objectiviteit volledig en is in IIA Code of Ethics én in ISA 610-evaluatiecriteria expliciet uitgesloten als grondslag voor onafhankelijkheid.",
+      "in_praktijk": "Bij een KMO zonder dedicated IA: pas op met een 'controller die ook interne audit doet' — die persoon ontwerpt typisch IC én zou het moeten beoordelen. Onafhankelijkheid is dan onhoudbaar.",
+      "grondslag": "IIA Code of Ethics — Objectivity; ISA 610 §15(a) + §A6",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-610-herzien__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Evaluatie-perspectief van de externe auditor",
+      "wat": "Wanneer de externe auditor wil steunen op het werk van de interne auditor (ISA 610), evalueert hij drie pijlers van de functie: (a) organisatorische positie en beleidslijnen die objectiviteit ondersteunen, (b) competentie (opleiding, ervaring, professionele certificering), en (c) systematische en gedisciplineerde aanpak (kwaliteitsbeheersing, documentatie).",
+      "waarom": "ISA 610 vereist dat de externe auditor de functie-kwaliteit zelf vaststelt vóór hij steunt — anders zou hij audit-zekerheid uitbesteden zonder controle op het onderliggende werk.",
+      "in_praktijk": "Voor de stagiair-commissaris: bij een audit waar interne audit een rol kan spelen — vraag aan auditcomité om het IA-charter, de meest recente externe kwaliteitsbeoordeling en de risk-based plan-rationale. Anders is geen onderbouwde ISA 610-evaluatie mogelijk.",
+      "grondslag": "ISA 610 (herzien) §15 + §A6-A9",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 610 §15"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-610-herzien__sec_vereisten",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Interne auditor ≠ controller. De controller produceert financiële informatie (eerste/tweede lijn). De interne auditor evalueert het IC-systeem dat die productie omkadert (derde lijn). Combinatie van rollen vernietigt onafhankelijkheid.",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "text": "Outsourcing van interne audit aan een extern bureau is toegelaten, maar als het bureau ook commissaris is van dezelfde entiteit ontstaat een onafhankelijkheids-probleem (IESBA Code R605.3 + Belgisch verbod op combinatie audit + IA voor dezelfde cliënt).",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "IESBA Code of Ethics §R605.3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IESBA-code-of-ethics-2024__sec_section-600-provision-of-non-assurance-services-to-an_part8",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "id": "materieel-belang-audit",
   "naam": "Materieel belang (materialiteit) in een audit",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.6.II.B",
@@ -10,7 +10,7 @@
     "1.6.IV"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18T14:29Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T16:22:12Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.II.B",
     "dekt_ook_anchors": [
@@ -18,8 +18,17 @@
       "1.6.IV"
     ],
     "reviewed_by": null,
-    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
-    "situering_added_v4_at": "2026-05-18"
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
+    "situering_added_v4_at": "2026-05-18",
+    "edge_key_migrated": "2026-05-18",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T16:22:12Z",
+    "last_extract_at": "2026-05-18T16:22:12Z",
+    "notes": [
+      {
+        "op": "2026-05-18",
+        "note": "pending edge naar afwijking-van-materieel-belang resolved — record nu aanwezig (1.6.IV.B pass)"
+      }
+    ]
   },
   "definitie": {
     "text": "Materieel belang is de drempel waarboven een afwijking — afzonderlijk of gezamenlijk — de economische beslissingen kan beïnvloeden die gebruikers nemen op basis van de financiële overzichten. Boven die drempel is een afwijking 'van materieel belang'. De beroepsbeoefenaar bepaalt de drempel aan het begin van de audit en gebruikt hem zowel bij de planning als bij de oordeelsvorming.",
@@ -121,14 +130,13 @@
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "afwijking-van-materieel-belang",
-      "redenering": "Materieel belang definieert wanneer een afwijking ertoe doet.",
-      "target_status": "pending"
+      "redenering": "Materialiteit definieert wanneer een afwijking 'van materieel belang' is — direct gekoppeld concept.",
+      "target": "afwijking-van-materieel-belang"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "auditrisicomodel",
-      "redenering": "Materialiteit is een input voor het auditrisicomodel."
+      "redenering": "Materialiteit is een input voor het auditrisicomodel.",
+      "target_id": "auditrisicomodel"
     }
   ],
   "voorbeelden": [

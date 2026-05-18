@@ -2,7 +2,7 @@
   "id": "gezamenlijke-controle",
   "naam": "Gezamenlijke controle",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -47,6 +47,16 @@
         "in_praktijk[*].betekenis (stagiair-toon)",
         "valkuilen[*].text (stagiair-toon)",
         "edges: redeneringen aangevuld"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -2",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -240,48 +250,12 @@
   ],
   "edges": [
     {
-      "type": "contrasteert-met",
-      "target": "exclusieve-controle",
-      "redenering": "Exclusieve controle = één vennootschap beslist alleen. Gezamenlijke controle = meerdere vennoten beslissen samen op basis van overeenkomst. Exclusief → integrale consolidatie; gezamenlijk → evenredige consolidatie of vermogensmutatie.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "getriggerd-door",
       "target": "gemeenschappelijke-dochteronderneming",
       "redenering": "Gezamenlijke controle is wat we vaststellen tussen vennoten; de gemeenschappelijke dochter is het object waarop die controle wordt uitgeoefend. Dezelfde relatie vanuit twee perspectieven. Bij examenwerk: identificeer eerst de dochter, dan de controlevorm.",
       "_corrected_from": {
         "veld": "contrasteert-met → getriggerd-door",
         "reden": "Relatie is constitutief: gemeenschappelijke dochter is per definitie het object van gezamenlijke controle."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "invloed-van-betekenis",
-      "redenering": "Bij invloed van betekenis kan de vennootschap geen veto uitoefenen op beleidsbeslissingen. Bij gezamenlijke controle is een veto net het kernkenmerk: geen beslissing zonder gemeenschappelijke instemming. Vermogensmutatie volstaat voor invloed; gezamenlijke controle vraagt evenredige consolidatie.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
       },
       "_provenance": {
         "inputs": [
@@ -312,5 +286,19 @@
       "omschrijving": "Cardinal Group NV en Energiehuis Evergem NV bezitten elk 50 % van Filmstudio Florence BV. Hun aandeelhoudersovereenkomst legt vast dat strategische beslissingen alleen samen worden genomen → gezamenlijke controle → Filmstudio is gemeenschappelijke dochter → evenredige consolidatie 50/50."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "joint control",
+  "situering": {
+    "text": "Een sub-vorm van controle in het Belgische boekhoudrecht (KB WVV Boek 3, Titel 2): controle uitgeoefend door een beperkt aantal vennoten samen, op grond van een overeenkomst die unanimiteit voor beleidsbeslissingen vereist. Het is de juridische voorwaarde om evenredig te consolideren.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

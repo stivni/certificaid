@@ -9,7 +9,7 @@
     "1.6.I.B"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.I",
     "linked_anchors": [
@@ -17,7 +17,8 @@
       "1.6.I.B"
     ],
     "reviewed_by": null,
-    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z"
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
+    "edge_key_migrated": "2026-05-18"
   },
   "main_rule": {
     "text": "Het is de externe accountant verboden om — rechtstreeks of onrechtstreeks — een opdracht, functie of mandaat te aanvaarden of voort te zetten wanneer de uitoefening daarvan hem in een positie van belangenconflict dreigt te plaatsen die zijn onafhankelijke oordeel in het gedrang kan brengen. Hij moet de cliënt onmiddellijk inlichten en maatregelen nemen om de belangen van de cliënt te vrijwaren.",
@@ -77,8 +78,8 @@
   "edges": [
     {
       "type": "onderdeel-van",
-      "target": "onafhankelijkheid-externe-accountant",
-      "redenering": "Belangenconflict is de operationele kant van het onafhankelijkheidsbeginsel."
+      "redenering": "Belangenconflict is de operationele kant van het onafhankelijkheidsbeginsel.",
+      "target_id": "onafhankelijkheid-externe-accountant"
     }
   ],
   "voorbeelden": [

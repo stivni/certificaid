@@ -2,7 +2,7 @@
   "id": "kenmerken-interne-controle",
   "naam": "Kenmerken van interne controle",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.III",
@@ -10,7 +10,7 @@
     "1.7.III.B"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T11:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave1b1",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.III",
     "dekt_ook_anchors": [
@@ -25,7 +25,8 @@
         "version": "rag-v1"
       }
     ],
-    "note": "Synthese-record: _provenance.inputs sloeg eerder onderaan; nu correct gevuld op record-niveau."
+    "note": "Synthese-record: _provenance.inputs sloeg eerder onderaan; nu correct gevuld op record-niveau. | Wave2-1.7.III.B2: added edges naar preventief-versus-detecterende-controle, kwaliteitscriteria-interne-controle (1.7.III.A en .B), en explicit prerequisites.",
+    "touched_at": "2026-05-18T19:39:46.758705+00:00"
   },
   "gebaseerd_op_concepten": [
     "interne-controle",
@@ -40,5 +41,46 @@
       "omschrijving": "Bij Yperse Werkplaats BV werkt IC ingebed: elke factuur passeert procedure (continu); van CEO Pieter Vermeulen tot magazijnier Bart heeft elk een rol (door iedereen); 100% controle is niet haalbaar (redelijke zekerheid); 3 doelstellingen expliciet (rapportering, productie-efficiëntie, compliance); systeem aangepast aan KMO-context met externe ondersteuning Xenon Expertise BV; gedragscode + procedures samen (dubbele dimensie)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "De 'kenmerken' zijn de inherente eigenschappen van interne controle — eigenschappen die je móet kennen om realistisch over IC te oordelen. Voor de stagiair is dit de examenstof voor anchor 1.7.III: waarom IC nooit absolute zekerheid biedt, waarom mensen + cultuur centraal staan, en waarom IC moet schalen aan grootte. Deze synthese vat de zes hoofdkenmerken samen in één vergelijkingstabel zodat verwarring bij oppervlakkige stof-herhaling vermeden wordt.",
+    "confidence": "inferred",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "kerninzichten": [
+    "IC is een continu proces (geen evenement). Op het examen 'periodieke IC-week' afwijzen.",
+    "IC wordt gedragen door mensen, niet door systemen. Een ERP is een hulpmiddel; IC blijft een menselijke verantwoordelijkheid.",
+    "Redelijke zekerheid — nooit absoluut. Inherente beperkingen blijven altijd: menselijke fout, samenspanning, management override, kosten-baten-grens.",
+    "IC dient operationele, rapporterings- en compliance-doelstellingen. Geen IC zonder duidelijk doel.",
+    "IC schaalt mee met de onderneming. Een KMO heeft een ander IC dan een groep — beide kunnen 'effectief' zijn.",
+    "Dubbele dimensie: hard (procedures, IT, autorisaties) én zacht (cultuur, ethiek, tone at the top). Eén zonder de andere werkt niet."
+  ],
+  "in_praktijk": [
+    "Bij examenvragen 'wat is een kenmerk van IC' is de meest voorkomende val: studenten antwoorden 'IC garandeert dat alle fouten worden voorkomen' — fout, het geeft alleen redelijke zekerheid.",
+    "Bij IC-advies aan cliënt: hamer op de proces-aard. Een eenmalige opkuis-actie is geen interne controle — het is een correctie."
+  ],
+  "edges": [
+    {
+      "type": "verwijst-naar",
+      "target": "preventief-versus-detecterende-controle"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "kwaliteitscriteria-interne-controle"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "redelijke-zekerheid"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "management-override"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "interne-controle"
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "id": "eigen-aandelen",
   "naam": "Beheer van eigen aandelen",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.U"
@@ -12,7 +12,16 @@
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.U",
     "dekt_ook_anchors": [],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "definitie": {
     "text": "Een vennootschap kan onder strikte voorwaarden **haar eigen aandelen inkopen** en aanhouden in haar portefeuille. Boekhoudkundig: opname op rekening **50 'Eigen aandelen'** onder de geldbeleggingen (rubriek IX activa). **Parallel** wordt een **'Reserve voor eigen aandelen'** (rekening 1310, **onbeschikbare reserve**) aangelegd voor hetzelfde bedrag. Bij verkoop of vernietiging: tegenboeking. Maximaal toegelaten: meestal 20 % van het kapitaal (WVV).",
@@ -175,5 +184,15 @@
       "omschrijving": "Rotex Roeselare NV koopt 5 % eigen aandelen terug voor € 350.000 op de beurs. Twee gelijktijdige boekingen: (a) Debet 50 Eigen aandelen € 350.000 / Credit 550 Bank € 350.000 (effecten als activum); (b) winstbestemming: Debet 6921 Toevoeging onbeschikbare reserves € 350.000 / Credit 1310 Reserve voor eigen aandelen € 350.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": "treasury shares / actions propres",
+  "situering": {
+    "text": "Een uitzonderingsregime binnen het eigen vermogen: een vennootschap die haar eigen aandelen aanhoudt, neemt ze op onder geldbeleggingen (rubriek 50) met een **parallel verplichte onbeschikbare reserve voor hetzelfde bedrag**. Voor een stagiair-GA: een terugkerende valkuil bij de jaarrekening — wie de tegenpost-reserve vergeet, schendt de uitkeerbaarheidstoets en het netto-actief-criterium.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

@@ -2,7 +2,7 @@
   "id": "budget-cyclus",
   "naam": "Budgetcyclus",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.V",
@@ -39,25 +39,18 @@
       }
     }
   ],
-  "edges": [
-    {
-      "type": "bevat",
-      "target": "budgetprocedure",
-      "redenering": "Plannen-tot-goedkeuren-fasen.",
-      "confidence": "inferred"
+  "edges": [],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "situering": {
+    "text": "De budgetcyclus is het tijdsverloop van budgetbeheer over één jaarcyclus — van het opstellen van richtlijnen (september vorig jaar) over de goedkeuring (december) tot maandelijkse opvolging en bijsturing (heel het jaar). Een synthese-record dat budgetprocedure, budgetboekhouding en verschillenboekhouding samenbrengt in een gemeenschappelijk tijdsraam: budget is geen eenmalige oefening maar een doorlopende cyclus van plannen, registreren, vergelijken en bijsturen.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
     },
-    {
-      "type": "bevat",
-      "target": "budgetboekhouding",
-      "redenering": "Goedkeuring + meten + verschillen-fase.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "verschillenboekhouding",
-      "redenering": "Analyse-fase.",
-      "confidence": "inferred"
+    "_provenance": {
+      "inputs": []
     }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  }
 }

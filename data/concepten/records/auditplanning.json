@@ -10,7 +10,7 @@
     "1.6.III"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.III.A",
     "linked_anchors": [
@@ -18,13 +18,14 @@
       "1.6.III"
     ],
     "reviewed_by": null,
-    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
     "type_migration": {
       "van": "procedure",
       "naar": "cluster",
       "op": "2026-05-18",
       "reden": "Schema 1.5: 'procedure' niet langer toegelaten; auditplanning is descriptief fenomeen met fasen, niet zelfstandige skill (die staat in opstellen-auditstrategie-en-werkprogramma-competentie)"
-    }
+    },
+    "edge_key_migrated": "2026-05-18"
   },
   "definitie": {
     "text": "Auditplanning is de fase waarin de auditor zijn opdracht uitstippelt voordat het veldwerk start. De planning levert twee outputs: (a) een algehele controleaanpak (auditstrategie) die scope, timing, omvang en richting vastlegt, en (b) een controleprogramma (werkprogramma) dat per rubriek/bewering de uit te voeren controlewerkzaamheden beschrijft. De planning is iteratief: ze wordt bijgestuurd telkens nieuwe informatie of risico's tijdens de uitvoering opduiken.",
@@ -195,13 +196,13 @@
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "risico-inschatting-audit",
-      "redenering": "Planning bouwt op de risico-analyse — zonder risico's geen gerichte werkzaamheden."
+      "redenering": "Planning bouwt op de risico-analyse — zonder risico's geen gerichte werkzaamheden.",
+      "target_id": "risico-inschatting-audit"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "materieel-belang-audit",
-      "redenering": "Materialiteit is een planningsparameter (ISA 320) die de strategie en steekproeven aanstuurt."
+      "redenering": "Materialiteit is een planningsparameter (ISA 320) die de strategie en steekproeven aanstuurt.",
+      "target_id": "materieel-belang-audit"
     }
   ],
   "voorbeelden": [

@@ -11,11 +11,13 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: autoriteit
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/fsma.json
 gegenereerd_op: '2026-05-18'
 ---
 # Financial Services and Markets Authority (FSMA) 🤖
+
+De FSMA controleert **beursgenoteerde uitgevers** op naleving van de financiële rapporteringsverplichtingen (IFRS-jaarrekening, kwartaalrapportering, transparantieregels). Voor PO 1.2 vooral relevant als afgrenzingsdomein: voor een gewone Belgische BV is de FSMA niet bevoegd — voor een beursgenoteerde holding wel.
 
 > [!summary] Korte inhoud
 > De FSMA (Autoriteit voor Financiële Diensten en Markten) is de Belgische toezichthouder op de financiële markten.
@@ -55,7 +57,7 @@ _Grondslag: Wet 2 augustus 2002 (toepassingsgebied)_
 ## Zie ook
 
 - **Vereist kennis van**: [[europees-boekhoudrecht]]
-- **Wordt voorondersteld in** (1): [[public-interest-entity]]
+
 ## Voorbeelden
 
 Een beursgenoteerde groep (Public Interest Entity) moet IFRS-consolidatie publiceren — de FSMA controleert of die financiële informatie tijdig en volledig wordt verspreid.

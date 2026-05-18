@@ -18,11 +18,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/beoordelen-effectiviteit-ic-via-interne-audit.json
 gegenereerd_op: '2026-05-18'
 ---
 # Beoordelen van de effectiviteit van een intern-controlesysteem (interne audit) 🤖
+
+Deze competentie integreert PO 1.7 (interne controle, met name kenniselementen IV en V) tot een uitvoerbaar audit-traject: van risicogebaseerd auditplan, via design- en operating-testen, tot bevindingenrapport met root-cause en remediatie. De stagiair die intern werkt of als externe accountant op interne-auditwerk wil steunen, moet de hele cyclus kunnen doorlopen — examen-vragen testen vooral stap-2 (scope en criteria) en stap-4 (significantie en root-cause).
 
 
 ## Stappen
@@ -129,3 +131,7 @@ Klasseer elke bevinding op significantie (hoog/midden/laag) en identificeer de r
 
 
 
+## Bronnen
+
+[^1]: `ISA-610-herzien__sec_doelstellingen`
+[^2]: `ISA-315-herzien-2019__sec_bijlage-4_part2`

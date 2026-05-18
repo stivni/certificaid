@@ -2,7 +2,7 @@
   "id": "rechtsbronnen-boekhoudrecht-piramide",
   "naam": "Rechtsbronnen-piramide van het Belgisch boekhoudrecht",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.I",
@@ -109,5 +109,6 @@
     "afdalen-piramide-bij-onzekere-verwerking",
     "onderscheiden-bindende-kracht-per-bron"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": "Synthese van de **vijfgelaagde hiërarchie** waaruit het Belgisch boekhoudrecht ontstaat: EU-bronnen → WER + WVV → KB-WVV → CBN-adviezen → rechtspraak. Voor de stagiair onmisbaar om te weten waar je in welke vraag in moet duiken; conflict tussen lagen wordt opgelost van boven naar beneden."
 }

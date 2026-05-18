@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/materiaalkosten.json
 gegenereerd_op: '2026-05-18'
 ---
 # Materiaalkosten ⚖️
+
+Materiaalkosten zijn kosten verbonden aan het verwerven, opslaan en verbruiken van grondstoffen, hulpstoffen, halffabrikaten en handelsgoederen. In de wettelijke vervaardigingsprijs (CBN 132/7) is dit het eerste bestanddeel: de aanschaffingsprijs van verbruikte grondstoffen. Voor de analytische verdeling per kostendrager telt het verbruik (niet de aankoop), gewaardeerd volgens de gekozen voorraadwaarderingsmethode (FIFO, gewogen gemiddelde — CBN 132/7).
 
 > [!summary] Korte inhoud
 > Materiaalkosten zijn kosten verbonden aan het verwerven, opslaan en verbruiken van grondstoffen, hulpstoffen, halffabrikaten en handelsgoederen.
@@ -77,7 +79,7 @@ Yperse Werkplaats BV houdt gemiddeld € 350.000 wolvoorraad aan. Bij kapitaalko
 ## Zie ook
 
 - **Vereist kennis van**: [[voorraadwaardering]]
-- **Wordt voorondersteld in** (1): [[voorraadwaardering]]
+
 ## Bronnen
 
 [^1]: `CBN-0132-07-boeking-en-waardering-van-voorraden__sec_begrip-voorraad`

@@ -10,33 +10,60 @@ linked_anchors:
 - 1.7.III.B
 programmaonderdelen:
 - '1.7'
-confidence: inferred
+confidence: inferred-from-aggregation
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/risico-inschatting-organisatie.json
 gegenereerd_op: '2026-05-18'
 ---
 # Risico-inschatting binnen de organisatie (COSO-component 2) 🤖
 
-Risico-inschatting is het systematisch identificeren, analyseren en evalueren van wat fout kan gaan in het halen van de doelstellingen van de onderneming. Doel: bepalen welke risico's onaanvaardbaar zijn en gerichte controles inzetten. Zonder risico-inschatting werkt IC blind — overal controles of nergens.
+Risico-inschatting van de organisatie is COSO-component 2 — het management identificeert, analyseert en prioriteert risico's voor het halen van doelstellingen. Voor de stagiair is dit conceptueel het bedrijfs-pendant van wat hij in zijn audit-rol zelf doet (audit risk assessment): de cliënt heeft zijn eigen risk-register en de auditor toetst of het effectief werkt. Examen-vragen vragen vaak het onderscheid bedrijfs-risicobeheer (ERM) versus audit-risicomodel.
+
+> [!summary] Korte inhoud
+> Risico-inschatting binnen de organisatie is het proces waarmee het management risico's identificeert die het halen van doelstellingen kunnen belemmeren, deze risico's analyseert (waarschijnlijkheid × impact) en beslist welke worden vermeden, gemitigeerd, gedeeld of geaccepteerd.
 
 > [!info] Behoort tot: [[interne-controle]]
+
+Risico-inschatting binnen de organisatie is het proces waarmee het management risico's identificeert die het halen van doelstellingen kunnen belemmeren, deze risico's analyseert (waarschijnlijkheid × impact) en beslist welke worden vermeden, gemitigeerd, gedeeld of geaccepteerd. Het is COSO-component 2 en drijft de keuze van welke controle-activiteiten (component 3) nodig zijn.
 
 
 ## Bouwstenen
 
-### Drie stappen 🤖
+### Drie stappen — identificeren, analyseren, behandelen 🤖
 
-(1) Identificeren: welke risico's bedreigen de doelstellingen? (2) Analyseren: hoe groot is de kans, hoe groot de impact? (3) Evalueren: aanvaardbaar binnen risk appetite, of beheersmaatregel nodig?
+(1) Identificeren: wat zou het halen van een doel kunnen verhinderen? (2) Analyseren: hoe waarschijnlijk is het, wat is de impact? (3) Behandelen: vermijden, verminderen, overdragen (verzekeren), accepteren.
 
-**Waarom?** Zonder stap 3 wordt risico-inschatting een academische oefening; zonder stap 1 mis je de echte risico's.
+**Waarom?** Risico's zonder behandeling zijn niet 'beheerd' maar gewoon gekend.
 
 
 
-Yperse Werkplaats BV identificeert 'IT-uitval' (kans 3, impact 5 = 15) → maatregel: dagelijkse off-site backup + business continuity plan.
 
-_Grondslag: COSO ERM / ISO 31000_
+_Grondslag: COSO ERM + ISO 31000_
+
+### Risk-appetite versus risk-tolerance 🤖
+
+Risk-appetite = strategisch niveau van risico dat de raad bereid is te lopen. Risk-tolerance = operationele afwijking die acceptabel is binnen die appetite.
+
+**Waarom?** Zonder formele appetite-uitspraak is risico-acceptatie willekeurig en niet auditable.
+
+
+**In de praktijk**: Stagiair-test: vraag het management hoeveel financieel risico ze bereid zijn te lopen. Een vaag antwoord = gebrek aan formele appetite-statement.
+
+
+_Grondslag: COSO ERM 2017_
+
+### Risk-register als operationeel artefact 🤖
+
+Lijst van geïdentificeerde risico's, eigenaars, controles, residueel risico, opvolgindicatoren — typisch in Excel of GRC-tool.
+
+**Waarom?** Risico-inschatting zonder document is mondelinge folklore; risk-register maakt opvolgbaar en auditable.
+
+
+
+
+_Grondslag: COSO ERM + ISO 31000_
 
 
 ## In de praktijk
@@ -52,10 +79,17 @@ _Grondslag: COSO ERM / ISO 31000_
 > ISO 31000 ('Risk management — Guidelines') is generiek en sectoronafhankelijk, bruikbaar naast COSO. Kernelementen: leadership & commitment, integratie in besluitvorming, design, implementation, evaluation, improvement. In België niet wettelijk opgelegd maar wel referentie voor publieke sector en financiële instellingen. 🤖
 
 
-## Zie ook
+## Valkuilen
 
-- **Wordt voorondersteld in** (1): [[uitvoering-interne-controle]]
+> [!warning]- Risico-inschatting verwarren met risico-inventaris
+> ⚠️ Risico-inschatting verwarren met risico-inventaris. Inventaris = lijst. Inschatting = ook prioritering, analyse, behandelingsbesluit. 🤖
+
+
+
 ## Voorbeelden
 
-Bij Yperse Werkplaats BV werkt Xenon Expertise BV een risicomatrix uit: voor elk proces (aankoop, productie, verkoop, HR) wordt 'kans × impact' geschat op een schaal 1-5. Aankopen > € 50.000 krijgen risicoscore 4×5 = 20 → strikte autorisatieprocedure. Telefoonkosten krijgen 2×1 = 2 → geen extra controle.
+Bij Yperse Werkplaats BV beheert directeur Pieter Vermeulen een risk-register met 12 risico's: top 3 = (a) afhankelijkheid van één hoofdklant (40% omzet), (b) vergrijzing technische ploeg, (c) cyber-risico ERP-systeem. Voor elk: waarschijnlijkheid (1-5), impact (1-5), mitigerende controle, eigenaar, review-datum.
 
+## Bronnen
+
+[^1]: `ISA-315-herzien-2019__sec_bijlage-3`

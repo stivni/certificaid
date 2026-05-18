@@ -2,7 +2,7 @@
   "id": "budgetboekhouding",
   "naam": "Budgetboekhouding",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.VI",
@@ -21,7 +21,7 @@
     "bron_gap": "Vakdoctrine"
   },
   "definitie": {
-    "text": "De budgetboekhouding is het deel van de analytische boekhouding waarin de goedgekeurde budgetbedragen worden opgenomen, zodat realisaties rechtstreeks tegen budgetcijfers kunnen worden vergeleken. Typisch ondergebracht in klasse 9 van het MAR (vaak rekeningen 90 'Niet-uitgevoerde verbintenissen' / budgetrekeningen).",
+    "text": "De budgetboekhouding is het deel van de analytische boekhouding waarin de goedgekeurde budgetbedragen worden vastgelegd in aparte rekeningen, zodat realisaties rechtstreeks tegen budget kunnen worden vergeleken. In het Belgische MAR (KB 21.10.2018, klasse 9 'vrij in te vullen') worden budgetcijfers typisch geregistreerd in sub-rekeningen van klasse 90 of in een aparte boekhoudkundige dimensie. De budgetboekhouding loopt parallel met de algemene en analytische boekhouding: dezelfde transacties worden zowel werkelijk (klasse 6, klasse 9) als budgetmatig (klasse 90-budget) geboekt, wat een directe oppositie 'budget − werkelijk' per kostencentrum oplevert.",
     "confidence": "inferred-common-knowledge",
     "source": {
       "type": "vakdoctrine",
@@ -29,7 +29,8 @@
     },
     "_provenance": {
       "inputs": []
-    }
+    },
+    "correction_reason": "Verduidelijkt MAR-positie (klasse 90 ipv vaag 'klasse 9') en parallel-boeken-mechanisme."
   },
   "bouwstenen": [
     {
@@ -83,5 +84,24 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "budget accounting / budgetary ledger",
+  "situering": {
+    "text": "De budgetboekhouding is het deel van de analytische boekhouding waarin de goedgekeurde budgetcijfers worden vastgelegd in aparte rekeningen — typisch in sub-rekeningen van klasse 90 in het Belgische MAR. Loopt parallel met de algemene en analytische boekhouding zodat realisaties rechtstreeks tegen budget vergelijkbaar zijn, wat de verschillenboekhouding mogelijk maakt. Sluitstuk tussen budgetprocedure (planning) en verschillenboekhouding (afwijkingsanalyse).",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB 21.10.2018 — MAR klasse 9"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "Minimum-Algemeen-Rekeningstelsel-voor-boekhoudplichtige-ondernemingen__klasse_9",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

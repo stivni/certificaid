@@ -14,7 +14,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/evenredige-consolidatie.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -23,8 +23,6 @@ gegenereerd_op: '2026-05-18'
 Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke gezamenlijk controlerende moeder op naar rato van haar aandeel in het kapitaal (of in de inbreng bij vennootschappen zonder kapitaal). Alleen jouw pro-rata stuk van de bezittingen, schulden, opbrengsten en kosten komt erin — geen afzonderlijke 'belangen van derden' nodig, want het deel buiten de groep wordt simpelweg niet opgenomen.
 
 > [!info] Behoort tot: [[consolidatiemethodes-vergelijking]]
-
-> [!info] Bestaat uit (1): [[intragroep-eliminaties]]
 
 
 ## Bouwstenen
@@ -279,7 +277,7 @@ Resultaat: In de geconsolideerde balans van Cardinal verschijnen € 2.750.000 a
 ## Zie ook
 
 - **Getriggerd door**: [[gezamenlijke-controle]]
-- **Triggert** (2): [[gemeenschappelijke-dochteronderneming]] · [[gezamenlijke-controle]]
+
 ## Voorbeelden
 
 Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV (gezamenlijke controle via aandeelhoudersovereenkomst). Cardinal neemt 50 % van elke balanspost en elke opbrengst/kost van Filmstudio Florence op in haar geconsolideerde jaarrekening. Geen post 'Belangen van derden'.

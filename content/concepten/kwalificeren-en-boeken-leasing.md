@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kwalificeren-en-boeken-leasing.json
 gegenereerd_op: '2026-05-18'
 ---
 # Kwalificeren en boeken van leasing (operationeel vs financieel) 🤖
+
+Een classificerings- en boekingscompetentie: eerst beslissen of de leasing financieel dan wel operationeel is volgens het criterium 'integrale wedersamenstelling van geïnvesteerd kapitaal', daarna pas de juiste boeking maken. Voor een stagiair-GA: een typisch examenscenario waarin het criterium concreet getoetst wordt op een nummerieke leasingovereenkomst.
 
 
 ## Stappen

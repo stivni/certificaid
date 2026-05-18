@@ -2,7 +2,7 @@
   "id": "beoordelen-bestuursverslag-en-niet-financiele-info",
   "naam": "Beoordelen van het bestuursverslag en de niet-financiële informatie",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Beoordelen van het bestuursverslag en de niet-financiële informatie",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -209,5 +209,26 @@
     "1.3.I.C.1",
     "1.3.I.D.2"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "naam_alternatief": [
+    "Assess management report & non-financial information"
+  ],
+  "situering": {
+    "text": "Competentie om naast de cijfers ook het narratieve luik van de jaarrekening kritisch te lezen: bestuursverslag, risicoparagraaf, niet-financiële informatie en commissarisverslag. De analist controleert volledigheid van verplichte rubrieken en weegt of risicobeschrijvingen concreet zijn of boilerplate.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Examenprogramma 1.3 — competentie"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.taak.3",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

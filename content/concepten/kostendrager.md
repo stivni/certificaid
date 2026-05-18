@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kostendrager.json
 gegenereerd_op: '2026-05-18'
 ---
 # Kostendrager 🤖
+
+Een kostendrager is het object waarvan je de kostprijs wil weten — product, productlijn, dienst, opdracht, klant, project of markt-segment. Alle kosten convergeren uiteindelijk naar kostendragers: directe kosten via toewijzing, indirecte kosten via kostencentra en verdeelsleutels. De keuze van granulariteit (per stuk, per order, per klant, per productlijn) bepaalt de bruikbaarheid van de analytische cijfers.
 
 > [!summary] Korte inhoud
 > Een kostendrager is het object waarvan je de kostprijs wil weten: een product, productlijn, dienst, opdracht, klant, project of markt-segment.

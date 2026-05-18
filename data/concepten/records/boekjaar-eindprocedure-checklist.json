@@ -2,7 +2,7 @@
   "id": "boekjaar-eindprocedure-checklist",
   "naam": "Boekjaar afsluiten &mdash; van proefbalans tot neerlegging",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.I",
@@ -35,7 +35,15 @@
       "1.1.II.Q",
       "1.1.taak.1",
       "1.2.taak.1"
-    ]
+    ],
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "edges-7deprecated"
+      ]
+    }
   },
   "inleiding": {
     "text": "Tussen de laatste maandelijkse boeking en het neergelegde jaarverslag liggen tien tot vijftien verplichte stappen. Stagiairs leren de losse boekingen (afschrijvingen, overlopende rekeningen, voorzieningen, resultaatverwerking) maar zien zelden de volledige volgorde. Een vergeten stap &mdash; bijvoorbeeld de wettelijke reserve voor het bedrag verwerkt wordt &mdash; produceert een formeel onregelmatige jaarrekening, ook al klopt elk cijfer afzonderlijk. Dit synthese-record toont de chronologie van proefbalans tot neerlegging bij de NBB.",
@@ -155,34 +163,6 @@
       "type": "onderdeel-van"
     },
     {
-      "target": "inventaris",
-      "type": "bevat"
-    },
-    {
-      "target": "afschrijvingen",
-      "type": "bevat"
-    },
-    {
-      "target": "waardeverminderingen",
-      "type": "bevat"
-    },
-    {
-      "target": "overlopende-rekeningen",
-      "type": "bevat"
-    },
-    {
-      "target": "voorzieningen",
-      "type": "bevat"
-    },
-    {
-      "target": "resultaatverwerking",
-      "type": "bevat"
-    },
-    {
-      "target": "jaarrekening",
-      "type": "bevat"
-    },
-    {
       "target": "wettelijke-reserve",
       "type": "vereist-kennis-van"
     },
@@ -191,5 +171,7 @@
       "type": "vereist-kennis-van"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": "Synthese die per stap toont wat een vennootschap aan het einde van haar boekjaar moet doen: inventaris opmaken, eindejaarsverrichtingen boeken, proef- en saldibalans opstellen, jaarrekening voorbereiden, goedkeuren en openbaarmaken. Voor de stagiair-GA is dit de praktische ruggengraat van zijn eerste boekjaar-afsluitingen.",
+  "naam_alternatief": "year-end closing procedure (trial balance to filing)"
 }

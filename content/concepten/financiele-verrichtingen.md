@@ -11,11 +11,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/financiele-verrichtingen.json
 gegenereerd_op: '2026-05-18'
 ---
 # Financiële verrichtingen (kosten + opbrengsten) ⚖️
+
+De resultatenrekening-categorie die scheiding maakt tussen 'inkomen uit de bedrijfsactiviteit' (klasse 6/7) en 'inkomen uit financiering en geld' (klasse 65/75). Voor een stagiair-GA: cruciaal bij ratio-analyse (financiële lasten/EBIT, financiële autonomie) én bij correcte voorstelling — een intrest die per ongeluk op klasse 61 belandt, vervormt zowel het bedrijfsresultaat als de fiscale onderbouwing.
 
 > [!summary] Korte inhoud
 > **Kosten en opbrengsten** uit de **financiële activiteit** van de onderneming: intresten op leningen en deposito's, kosten op leningen, opbrengsten/verliezen op effecten en deelnemingen, wisselkoersverschillen.

@@ -1,7 +1,7 @@
 {
   "id": "opvolging-voorganger-accountant",
   "naam": "Opvolging van een collega-accountant",
-  "node_type": "procedure",
+  "node_type": "competentie",
   "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
@@ -10,36 +10,22 @@
     "1.6.II.A"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.III.E",
     "dekt_ook_anchors": [
       "1.6.III.D",
       "1.6.II.A"
     ],
-    "reviewed_by": null
-  },
-  "verplichting": {
-    "text": "Elke accountant die een confrater of een bedrijfsrevisor opvolgt, moet vooraf met hem in contact treden. De opvolger mag de werkdocumenten van zijn voorganger inzien, maar de voorganger mag zijn oorspronkelijke stukken niet uit handen geven. Bovendien moet hij — bij elke opdrachtaanvaarding — nagaan of een andere externe accountant in de laatste 12 maanden bij dezelfde cliënt heeft gewerkt en deze schriftelijk inlichten.",
-    "confidence": "grounded",
-    "source": {
-      "type": "norm",
-      "short": "ITAA Algemene controlenorm §5 + KB plichtenleer art. 25"
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T17:00Z",
+    "type_migratie_v4": {
+      "op": "2026-05-18",
+      "van": "procedure",
+      "naar": "competentie",
+      "reden": "Stappenplan dat de stagiair zelf uitvoert bij elke nieuwe opdracht — applied skill (ADR-007 §node_type)."
     },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ITAA-norm-algemene-controlenorm__sec_5-opvolging",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "KB-1998-plichtenleer__art_25",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
+    "edge_key_migrated": "2026-05-18"
   },
   "stappen": [
     {
@@ -86,8 +72,13 @@
   "edges": [
     {
       "type": "onderdeel-van",
-      "target": "plichtenleer-accountant",
-      "redenering": "Confraterniteitsregel onder het KB plichtenleer."
+      "redenering": "Confraterniteitsregel onder het KB plichtenleer.",
+      "target_id": "plichtenleer-accountant"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "redenering": "Opvolging is een randvoorwaarde-aspect voor opdracht-aanvaarding.",
+      "target_id": "randvoorwaarden-controle"
     }
   ],
   "voorbeelden": [
@@ -96,5 +87,29 @@
       "omschrijving": "Wolters & Partners CVBA wordt benoemd als nieuwe controleaccountant van Naaiatelier Ninove BV, na ontslag van de vorige accountant. Sofie Janssens contacteert haar voorganger schriftelijk, vraagt inzage in zijn werkdocumenten (vooral risico-evaluatie en eindbevindingen), en informeert ook de externe accountant die in de laatste 12 maanden samenstellingsopdrachten heeft uitgevoerd."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "titel": "Opvolgen van een collega-accountant",
+  "situering": {
+    "text": "Wanneer een stagiair of accountant een nieuwe opdracht aanvaardt waarbij een andere accountant of bedrijfsrevisor de cliënt eerder bediende, treedt de confraterniteits-plicht in werking. KB plichtenleer art. 25 en ITAA Algemene controlenorm §5 schrijven voor dat de opvolger vóór aanvaarding contact opneemt met de voorganger en parallelle accountants schriftelijk informeert. Deze competentie operationaliseert die plicht stap-voor-stap.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA Algemene controlenorm §5 + KB plichtenleer art. 25"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-algemene-controlenorm__sec_5-opvolging",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-1998-plichtenleer__art_25",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "beoordelings_criteria": "Voor elke nieuwe opdracht waarbij een voorganger bestaat: dossiernotitie aanwezig met (a) schriftelijke kennisgeving aan voorganger met datum, (b) bewijs van verzoek tot inzage werkdocumenten, (c) screening van andere externe accountants in de laatste 12 maanden + indien aanwezig schriftelijke kennisgeving aan hen. Ontbreekt één van die elementen: tuchtrechtelijke blootstelling."
 }

@@ -2,7 +2,7 @@
   "id": "consolidatiemethodes-vergelijking",
   "naam": "De vier consolidatiemethodes vergeleken",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -26,7 +26,16 @@
       "1.4.I.D",
       "1.4.I.G",
       "1.4.taak.1"
-    ]
+    ],
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
+      ]
+    }
   },
   "inleiding": {
     "text": "Voor één en hetzelfde fenomeen — een groep van vennootschappen — bestaan vier consolidatiemethodes. Welke je toepast hangt af van het soort relatie tussen moeder en dochter (exclusieve controle, gezamenlijke controle, invloed van betekenis, of horizontale groep zonder moeder). Dit synthese-record toont de vier methodes naast elkaar en geeft een beslisboom.",
@@ -133,5 +142,16 @@
     "pilot-synthese-record",
     "schema-1.4-eerste-toepassing"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "edges": [],
+  "naam_alternatief": "comparison of consolidation methods",
+  "situering": {
+    "text": "Een vergelijkende synthese binnen het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2) die de vier consolidatietechnieken — integraal, evenredig, equity en buitenkring — naast elkaar plaatst. Doel: de stagiair laten zien wélke techniek bij welke relatie hoort en wat het verschil oplevert in de gepresenteerde groepscijfers.",
+    "confidence": "inferred",
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

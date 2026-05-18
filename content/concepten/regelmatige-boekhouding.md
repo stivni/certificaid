@@ -18,18 +18,18 @@ programmaonderdelen:
 confidence: grounded
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/regelmatige-boekhouding.json
 gegenereerd_op: '2026-05-18'
 ---
 # Regelmatige boekhouding ⚖️
 
+Een boekhouding is **regelmatig** als ze passend (aard + omvang van het bedrijf), volledig (alle verrichtingen, bezittingen en verplichtingen), oprecht (economische realiteit) en onveranderlijk (audit-trail) is. Voor de stagiair-GA het concept waaronder alle drie de 'voorwaardelijke' boekhoudbeginselen samenkomen — examenvragen vertrekken vaak vanuit 'is deze boekhouding regelmatig?'
+
 > [!summary] Korte inhoud
 > Een boekhouding is **regelmatig** als ze drie dingen samen waarmaakt: ze is **passend** voor de aard en omvang van het bedrijf, ze is **volledig** (omvat alle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen) en ze is **onveranderlijk** (boekingen kun je niet z….
 
 > [!info] Specialisatie van: [[vereenvoudigde-boekhouding]]
-
-> [!info]- Bestaat uit (8): [[bewaring-boekhoudstukken]] · [[boekhoudbeginselen-overzicht]] · [[boekjaar-eindprocedure-checklist]] · [[dagboek]] · [[dubbel-boekhouden]] · [[inventaris]] · [[onveranderlijkheid-boekingen]] · [[rechten-verplichtingen-buiten-balans]] · Specialisaties (1): [[vereenvoudigde-boekhouding]]
 
 Een boekhouding is **regelmatig** als ze drie dingen samen waarmaakt: ze is **passend** voor de aard en omvang van het bedrijf, ze is **volledig** (omvat alle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen) en ze is **onveranderlijk** (boekingen kun je niet zonder spoor wijzigen). Daarbovenop moeten alle verrichtingen zonder uitstel, getrouw, naar tijdsorde in een dagboek worden ingeschreven, gedragen door een verantwoordingsstuk, en minstens één keer per jaar afgesloten met een inventaris en jaarrekening (artikel III.83 en III.84 Wetboek van Economisch Recht (WER)).
 

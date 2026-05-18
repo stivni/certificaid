@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/boeken-voorzieningen-voor-risicos-en-kosten.json
 gegenereerd_op: '2026-05-18'
 ---
 # Boeken van een voorziening voor risico's en kosten 🤖
+
+De toepassings-competentie op het voorzichtigheidsbeginsel bij identificeerbare toekomstige verplichtingen: pensioen, grote herstellingen, geschillen, milieu. Voor een stagiair-GA: vereist het correct onderscheiden van **voorziening** (klasse 16, risico geïdentificeerd maar onzeker in bedrag of timing) versus **waardevermindering** (op een actief) versus **schuld** (vaststaand bedrag, datum).
 
 
 ## Stappen

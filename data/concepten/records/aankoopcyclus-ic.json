@@ -1,7 +1,8 @@
 {
   "id": "aankoopcyclus-ic",
-  "naam": "Aankoopcyclus — interne controle",
-  "node_type": "procedure",
+  "naam": "Aankoopcyclus en interne controle",
+  "naam_alternatief": "purchase-to-pay (P2P)",
+  "node_type": "cluster",
   "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
@@ -9,67 +10,223 @@
     "1.7.IX"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T10:30Z",
+    "extractor_run": "concept-extractie-v4-wave2-1.7.IX-20260518T202200Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.IX.A",
     "dekt_ook_anchors": [
       "1.7.IX"
     ],
     "reviewed_by": null,
-    "bron_gap": "Cyclusanalyse als IC-techniek is auditvakdoctrine — geen specifiek Belgisch wetsartikel. ITAA-norm-kmo-controlenorm raakt enkel generiek aan cycli. Inferred-common-knowledge."
+    "bron_gap": "Cyclusanalyse als IC-techniek is auditvakdoctrine — geen specifiek Belgisch wetsartikel. ITAA-norm-kmo-controlenorm raakt enkel generiek aan cycli.",
+    "last_touched_at": "2026-05-18T20:24:03.037888Z"
+  },
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_from_procedure_at": "2026-05-18T18:32:36Z",
+  "situering": "De aankoopcyclus is de keten die loopt van behoefte tot betaling van een leverancier. Interne controle in deze cyclus richt zich op het voorkomen van ongeoorloofde aankopen, fictieve leveranciers en dubbele betalingen. Drempelautorisaties, functiescheiding en de three-way match (bestelbon ↔ leveringsbon ↔ factuur) vormen de ruggengraat. Stagiairs komen dit tegen bij walkthroughs van procurement-processen en bij KMO-controle-opdrachten waar de aankoopstroom een hoog frauderisico draagt.",
+  "definitie": {
+    "text": "Interne controle in de aankoopcyclus is het geheel van organisatorische en geautomatiseerde maatregelen die de stadia behoefte → bestelling → ontvangst → factuur → betaling beheersen, met als doel ongeautoriseerde of fictieve aankopen, dubbele betalingen en kickbacks te voorkomen of te detecteren.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {
+      "inputs": []
+    }
   },
   "verplichting": "Geen wettelijke verplichting voor specifieke aankoopcyclus-controles. Wel: btw-aftrek vereist correcte facturen (WBTW); boekhoudkundige verplichtingen vereisen documentatie (KB 21.10.2018).",
-  "stappen": [
+  "bouwstenen": [
     {
-      "nr": 1,
-      "titel": "Behoeftebepaling + bestelaanvraag",
-      "wat": "De inkoper of behoeftesteller identificeert wat nodig is en doet een bestelaanvraag.",
-      "waarom": "Zonder formele aanvraag riskeer je dubbele aankopen, onnodige aankopen, niet-geautoriseerde aankopen.",
-      "hoe": "1. Aanvraag via standaardformulier of ERP-module.\n2. Specificeer leverancier, hoeveelheid, prijs, kostencentrum.\n3. Verstuur naar autoriserende verantwoordelijke.",
-      "grondslag": "Audit-cyclusanalyse-doctrine"
+      "titel": "Drempelautorisaties op bestellingen",
+      "wat": "Goedkeuringsbevoegdheid wordt verdeeld over rollen op basis van bedragsgrenzen, met dubbele handtekening boven een hogere drempel.",
+      "waarom": "Voorkomt onbevoegde uitgaven en bouwt een natuurlijke detectie-laag in voor ongebruikelijke aankoopvolumes.",
+      "in_praktijk": "In een KMO ondertekent de inkoper tot een eerste drempel, de financieel directeur tot een tweede drempel en daarboven steeds twee personen samen met voorafgaande melding aan het bestuur.",
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Yperse Werkplaats BV bestelt productie € 35.000 grondstoffen. Drempel € 25.000 wordt overschreden: dubbele handtekening door financieel directeur David Maes en algemeen directeur Pieter Vermeulen + voorafgaande melding aan de raad van bestuur.",
+          "cast": [
+            "Yperse Werkplaats BV",
+            "David Maes",
+            "Pieter Vermeulen"
+          ],
+          "confidence": "inferred-common-knowledge"
+        }
+      ],
+      "grondslag": "Delegatie-procuratie-doctrine + ISA 315 Bijlage 6 (autorisatie-controles)",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
-      "nr": 2,
-      "titel": "Autorisatie",
-      "wat": "Goedkeuring door bevoegde persoon volgens delegatie-procuratie (typisch op basis van bedrag).",
-      "waarom": "Onbevoegd aankopen = ongeautoriseerde uitgaven, mogelijk fraude (kickbacks bij bevriende leveranciers).",
-      "hoe": "1. Inkoper Tom Lefèvre tekent < € 5.000.\n2. CFO David tekent < € 25.000.\n3. Algemeen Directeur Pieter Vermeulen tekent ≥ € 25.000.\n4. Boven drempel: dubbele handtekening + voorafgaande mededeling aan RvB.",
-      "voorbeeld": {
-        "scenario": "Bij Yperse Werkplaats BV bestelt productie € 35.000 grondstoffen.",
-        "substappen": [
-          {
-            "nr": 1,
-            "titel": "Procuratie-drempel-overschrijding",
-            "type": "opmerking",
-            "data": "€ 35.000 > € 25.000 → dubbele handtekening verplicht: CFO David + Algemeen Directeur Pieter Vermeulen + voorafgaande melding RvB."
-          }
-        ]
-      },
-      "grondslag": "Delegatie-procuratie-doctrine"
+      "titel": "Three-way match",
+      "wat": "Bestelbon, leveringsbon en factuur worden tegen elkaar afgezet voor de factuur wordt geboekt en betaald.",
+      "waarom": "Detecteert facturen voor niet-bestelde of niet-geleverde goederen, prijsafwijkingen en btw-fouten — een centrale anti-fraude controle.",
+      "in_praktijk": "In een ERP-systeem wordt de factuur pas vrijgegeven voor boeking wanneer de drie documenten matchen op aantal, prijs en totaal binnen vooraf gedefinieerde toleranties.",
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Yperse Werkplaats BV haalt boekhouder Cindy Demeyer voor factuur Acerta de bestelbon (300 stuks × € 12) en de leveringsbon (300 stuks ontvangen) op. Factuur vermeldt 320 stuks × € 12 — afwijking → terug naar inkoper voor opheldering vóór boeking.",
+          "cast": [
+            "Yperse Werkplaats BV",
+            "Cindy Demeyer"
+          ],
+          "confidence": "inferred-common-knowledge"
+        }
+      ],
+      "grondslag": "Audit-doctrine + ISA 315 Bijlage 5 (geautomatiseerde three-way match als toepassings-IC)",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
-      "nr": 3,
-      "titel": "Bestelling + ontvangst",
-      "wat": "Bestelling verzenden naar leverancier; bij ontvangst goederen tellen + controleren tegen bestelbon.",
-      "waarom": "Zonder ontvangstcontrole riskeer je 'paying for nothing' — facturen betalen voor goederen die nooit zijn geleverd.",
-      "hoe": "1. Bestelbon in ERP creëert verwacht-record.\n2. Magazijnier Bart controleert leveringsbon tegen bestelbon (aantal, kwaliteit).\n3. Tekent voor ontvangst; ERP-bestelbon wordt 'geleverd' gestempeld.\n4. Bij afwijking: meld direct aan inkoper + boekhouding.",
-      "grondslag": "Cyclus-three-way-match-principe"
+      "titel": "Functiescheiding bestellen-ontvangen-boeken-betalen",
+      "wat": "De rollen besteller, ontvanger, boeker en betaler worden door verschillende personen ingevuld.",
+      "waarom": "Wie tegelijk bestelt, ontvangt, boekt én betaalt kan fictieve facturen aanmaken en uitbetalen zonder dat iemand het ziet.",
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Inkoper Tom Lefèvre plaatst bestellingen; magazijnier Bart Vandenberghe tekent voor ontvangst; boekhouder Cindy Demeyer boekt de factuur; financieel directeur David Maes geeft de betaling vrij. Geen rol valt samen met een andere.",
+          "cast": [
+            "Tom Lefèvre",
+            "Bart Vandenberghe",
+            "Cindy Demeyer",
+            "David Maes"
+          ],
+          "confidence": "inferred-common-knowledge"
+        }
+      ],
+      "grondslag": "[[functiescheiding]] §toepassing-aankoop",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
-      "nr": 4,
-      "titel": "Factuurcontrole + boeking",
-      "wat": "Boekhouder controleert factuur tegen bestelbon én leveringsbon ('three-way match') vóór boeking.",
-      "waarom": "Three-way match detecteert facturen voor niet-bestelde of niet-geleverde goederen, prijsafwijkingen, BTW-fouten.",
-      "hoe": "1. Boekhouder Cindy haalt bestelbon en leveringsbon op.\n2. Vergelijkt: aantal, prijs, totaal, BTW.\n3. Bij match: boek in ERP onder juiste kostencentrum.\n4. Bij afwijking: terug naar inkoper voor opheldering.",
-      "grondslag": "Three-way-match-doctrine"
-    },
+      "titel": "Leveranciersbestand-hygiëne",
+      "wat": "Aanmaken, wijzigen en deactiveren van leveranciers verloopt via een afzonderlijk goedkeuringsproces, los van het bestelproces.",
+      "waarom": "Fictieve leveranciers en gewijzigde bankrekeningnummers zijn klassieke fraude-vectoren; controle op masterdata sluit deze af.",
+      "in_praktijk": "Wijzigingen van bankrekening van een leverancier worden altijd telefonisch geverifieerd via een eerder bekend nummer, nooit via een nummer uit de e-mail die de wijziging aanvraagt.",
+      "grondslag": "Audit-doctrine — anti-business-email-compromise",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ],
+  "berekeningsmethode": [
     {
-      "nr": 5,
-      "titel": "Betaling",
-      "wat": "Betaling door iemand anders dan de boeker, opnieuw met handtekening volgens drempels.",
-      "waarom": "Wie boekt + betaalt kan fictieve facturen aanmaken en uitbetalen. Scheiding is essentieel.",
-      "hoe": "1. CFO David selecteert facturen voor betaling.\n2. Klassieke uitvoering: digitale ondertekening in bankplatform vóór upload.\n3. Bedragen boven € 25.000: dubbele digitale ondertekening.\n4. Periodieke review bankuittreksels door zaakvoerder Pieter Vermeulen.",
-      "grondslag": "Functiescheiding-doctrine"
+      "naam": "Procesgang aankoopcyclus — stappen + IC-haakpunten",
+      "stappen": [
+        {
+          "nr": 1,
+          "titel": "Behoeftebepaling en bestelaanvraag",
+          "wat": "De aanvrager identificeert wat nodig is en doet een formele bestelaanvraag via een standaardformulier of ERP-module.",
+          "waarom": "Zonder formele aanvraag riskeer je dubbele of niet-geautoriseerde aankopen.",
+          "input": [
+            {
+              "artefact": "Behoefte-trigger",
+              "veld": "specificatie",
+              "type": "bedrijfsproces"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Bestelaanvraag",
+              "veld": "leverancier, hoeveelheid, prijs, kostencentrum",
+              "type": "ERP-record"
+            }
+          ],
+          "hoe": "1. Aanvraag via standaardformulier of ERP-module.\n2. Specificeer leverancier, hoeveelheid, prijs, kostencentrum.\n3. Verstuur naar autoriserende verantwoordelijke.",
+          "grondslag": "Audit-cyclus-doctrine"
+        },
+        {
+          "nr": 2,
+          "titel": "Autorisatie volgens drempel",
+          "wat": "Goedkeuring door bevoegde persoon volgens delegatie-procuratie op basis van bedrag.",
+          "waarom": "Onbevoegd aankopen leidt tot ongeautoriseerde uitgaven of kickbacks bij bevriende leveranciers.",
+          "input": [
+            {
+              "artefact": "Bestelaanvraag",
+              "veld": "bedrag",
+              "type": "ERP-record"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Goedgekeurde bestelbon",
+              "veld": "handtekening(en)",
+              "type": "ERP-record"
+            }
+          ],
+          "hoe": "Toepassen drempelmatrix; boven hoogste drempel: dubbele handtekening + voorafgaande mededeling aan raad van bestuur.",
+          "grondslag": "[[functiescheiding]] §autorisaties"
+        },
+        {
+          "nr": 3,
+          "titel": "Bestelling versturen en ontvangst",
+          "wat": "Bestelling wordt verzonden naar leverancier; bij ontvangst worden goederen geteld en gecontroleerd tegen bestelbon.",
+          "waarom": "Zonder ontvangstcontrole riskeer je 'paying for nothing' — facturen betalen voor goederen die nooit zijn geleverd.",
+          "input": [
+            {
+              "artefact": "Bestelbon",
+              "veld": "aantallen, specificaties",
+              "type": "ERP-record"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Leveringsbon",
+              "veld": "ontvangstbevestiging",
+              "type": "ERP-record"
+            }
+          ],
+          "hoe": "1. Bestelbon in ERP creëert verwacht-record.\n2. Magazijnier controleert leveringsbon tegen bestelbon (aantal, kwaliteit).\n3. Tekent voor ontvangst; bestelbon wordt 'geleverd' gestempeld.\n4. Bij afwijking: meld direct aan inkoper + boekhouding.",
+          "grondslag": "Cyclus-three-way-match-principe"
+        },
+        {
+          "nr": 4,
+          "titel": "Factuurcontrole en boeking",
+          "wat": "Boekhouder controleert factuur tegen bestelbon én leveringsbon (three-way match) vóór boeking.",
+          "waarom": "Three-way match detecteert facturen voor niet-bestelde of niet-geleverde goederen, prijsafwijkingen en btw-fouten.",
+          "input": [
+            {
+              "artefact": "Factuur + bestelbon + leveringsbon",
+              "veld": "aantal, prijs, totaal, btw",
+              "type": "match-input"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Geboekte aankoopfactuur",
+              "veld": "rekening, btw-code",
+              "type": "boeking"
+            }
+          ],
+          "hoe": "1. Boekhouder haalt bestelbon en leveringsbon op.\n2. Vergelijkt aantal, prijs, totaal, btw.\n3. Bij match: boek in ERP onder juiste kostencentrum.\n4. Bij afwijking: terug naar inkoper.",
+          "grondslag": "Three-way-match-doctrine"
+        },
+        {
+          "nr": 5,
+          "titel": "Betaling",
+          "wat": "Betaling uitvoeren door iemand anders dan de boeker, met handtekening volgens drempels.",
+          "waarom": "Wie boekt én betaalt kan fictieve facturen aanmaken en uitbetalen — scheiding is essentieel.",
+          "input": [
+            {
+              "artefact": "Geboekte factuur",
+              "veld": "vervaldatum, IBAN",
+              "type": "betalingsorder"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Bankuittreksel",
+              "veld": "uitgevoerde betaling",
+              "type": "banktransactie"
+            }
+          ],
+          "hoe": "1. Financieel directeur selecteert facturen voor betaling.\n2. Digitale ondertekening in bankplatform.\n3. Bedragen boven hoogste drempel: dubbele digitale ondertekening.\n4. Periodieke review bankuittreksels door zaakvoerder.",
+          "grondslag": "[[functiescheiding]] §betaling"
+        }
+      ]
     }
   ],
   "valkuilen": [
@@ -81,7 +238,14 @@
       }
     },
     {
-      "text": "'Persoonlijke aankopen via bedrijfsrekening' is fraude (verduistering). Klassieke detectie: ongebruikelijke leveranciers, ongewone factuuradressen, recurrente kleine bedragen.",
+      "text": "Persoonlijke aankopen via bedrijfsrekening zijn verduistering. Klassieke detectie: ongebruikelijke leveranciers, ongewone factuuradressen, recurrente kleine bedragen onder de eerste drempel.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "text": "Een ERP dat three-way match niet hard afdwingt geeft schijnzekerheid. Audit-stap: toets de tolerantie-parameters en het percentage handmatig vrijgegeven mismatches.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
@@ -91,14 +255,87 @@
   "edges": [
     {
       "type": "onderdeel-van",
-      "target": "interne-controle",
-      "redenering": "Aankoopcyclus is een van de hoofdcycli waarin IC wordt uitgewerkt."
+      "target": "cyclus-analyse-ic",
+      "redenering": "Aankoopcyclus is een van de vijf hoofdcycli in de cyclusanalyse."
     },
     {
       "type": "vereist-kennis-van",
       "target": "functiescheiding",
       "redenering": "Functiescheiding is de ruggengraat van aankoop-IC."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "beheersactiviteiten",
+      "redenering": "De aankoopcyclus operationaliseert COSO-component 3 in concrete autorisatie- en verificatie-controles."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "fraudetypologie-acfe",
+      "redenering": "Aankoop-fraude (kickbacks, fictieve leveranciers) zijn klassieke ACFE-typologieën."
+    },
+    {
+      "type": "verwijst-naar",
+      "facet": {
+        "aspect": "geautomatiseerde matching-controles"
+      },
+      "target": "it-application-controls",
+      "redenering": "geautomatiseerde matching-controles"
+    },
+    {
+      "type": "vergelijkt-met",
+      "facet": {
+        "aspect": "spiegel-cyclus met symmetrische controlepoorten"
+      },
+      "target": "verkoopcyclus-ic",
+      "redenering": "spiegel-cyclus met symmetrische controlepoorten"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Three-way match betrapt fictieve leverancier bij Meubelzaak Mertens BV",
+      "cast": [
+        "Meubelzaak Mertens BV",
+        "Pieter Vermeulen",
+        "Marleen De Cock"
+      ],
+      "omschrijving": "Meubelzaak Mertens BV is een handels-BV met vijftien medewerkers. Aankoopverantwoordelijke Pieter Vermeulen kan in het ERP zowel leveranciers aanmaken als bestelbons goedkeuren onder € 5.000. Hij maakt een fictieve leverancier 'Houthandel Vermeulen' aan en boekt elke maand twee facturen van € 4.500 voor 'plaatmateriaal'. Boekhoudster Marleen De Cock detecteert het patroon pas wanneer ze een three-way-match-rapport instelt en de afwezige leveringsbons opvallen.",
+      "stappen": [
+        "1. IC-zwakte: Pieter combineert masterdata-beheer leveranciers + bestelautorisatie onder de drempel — bouwsteen 'Functiescheiding bestellen-ontvangen-boeken-betalen' en 'Leveranciersbestand-hygiëne' beide doorbroken.",
+        "2. Detectie: Marleen voert een query 'facturen geboekt zonder gekoppelde leveringsbon' over Q1 — 6 facturen × € 4.500 = € 27.000 zonder enige fysieke ontvangst.",
+        "3. Remediëring: leveranciersaanmaak wordt verplaatst naar de zaakvoerder; de drempel van € 5.000 wordt verlaagd naar € 1.500; het ERP wordt zo geparametreerd dat boeking pas mogelijk is na koppeling aan een leveringsbon.",
+        "4. Audit-implicatie: dit is fraudetypologie 'billing schemes' (oneigenlijke toe-eigening van activa, ACFE). Aangifte cel financiële informatie + ontslag om dringende reden."
+      ],
+      "illustraties": [
+        {
+          "type": "boeking",
+          "titel": "Fictieve aankoopboeking die de three-way match zou hebben tegengehouden",
+          "rijen": [
+            {
+              "rekening": "604 — Aankoop handelsgoederen",
+              "debet": 3719,
+              "credit": null
+            },
+            {
+              "rekening": "411 — Terug te vorderen btw",
+              "debet": 781,
+              "credit": null
+            },
+            {
+              "rekening": "440 — Leveranciers",
+              "debet": null,
+              "credit": 4500,
+              "omschrijving": "Houthandel Vermeulen — geen leveringsbon"
+            }
+          ]
+        },
+        {
+          "type": "mermaid-diagram",
+          "caption": "Three-way match — controlepoort die de fraude zou blokkeren",
+          "code": "flowchart LR\n  A[Bestelbon] --> M[Three-way match]\n  L[Leveringsbon] --> M\n  F[Factuur] --> M\n  M -->|alle drie aanwezig + bedrag matcht| OK[Boeking + betaling]\n  M -->|leveringsbon ontbreekt| BLOK[Geblokkeerd voor betaling]"
+        }
+      ],
+      "confidence": "inferred"
+    }
+  ]
 }

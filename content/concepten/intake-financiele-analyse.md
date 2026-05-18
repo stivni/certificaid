@@ -15,11 +15,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: procedure
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/intake-financiele-analyse.json
 gegenereerd_op: '2026-05-18'
 ---
 # Intake (scoping) van financiële analyse 🤖
+
+Eerste stap in elke financiële analyse-opdracht: scope vastleggen (vanuit welk perspectief? voor welke beslissing?), informatie verzamelen (jaarrekening + bestuursverslag + sectordata), en de analyse-aanpak afstemmen op het doel. Zonder expliciete scope-document is de analyse vatbaar voor verkeerde interpretatie.
 
 > [!summary] Korte inhoud
 > Vóór ratio's te berekenen, identificeer de scope: vanuit welke gebruikersperspectief analyseer je, welke onderneming, welke boekjaren, welke specifieke vragen moet de analyse beantwoorden, en welke bijzondere posten (uitzonderlijke voorzieningen, herwaarderingen, geconsolideerde….
@@ -108,3 +110,4 @@ Lees de toelichting en het bestuursverslag eerst. Identificeer: niet in balans o
 ## Bronnen
 
 [^1]: `anchor-1.3.II.A`
+[^2]: `aggregate`

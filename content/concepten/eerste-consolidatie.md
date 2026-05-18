@@ -15,11 +15,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/eerste-consolidatie.json
 gegenereerd_op: '2026-05-18'
 ---
 # Eerste consolidatie ⚖️
+
+Een sleutelmoment in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2): het eerste boekjaar waarin een dochter, geassocieerde of gemeenschappelijke dochter mee opgenomen wordt. Hier ontstaat het consolidatieverschil, hier worden eventueel reële waarden bepaald, en hier valt de aankoopprijs voor het eerst in een groepslogica.
 
 > [!summary] Korte inhoud
 > Het moment waarop een nieuw verworven dochter (of een dochter die je voor het eerst gaat consolideren) voor het eerst in de geconsolideerde jaarrekening wordt opgenomen.
@@ -63,9 +65,6 @@ _Bron: KB WVV art. 3:127, a) jo. art. 3:129 — 3:130_
 
 
 
-## Zie ook
-
-- **Triggert** (2): [[consolidatieverschil]] · [[step-acquisition]]
 ## Voorbeelden
 
 Aurelia Holding NV koopt op 1 januari 20X1 een belang van 80 % in Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) Brugse op die datum = € 1.500.000. Pro-rata aandeel = € 1.200.000; bruto-verschil = € 400.000, na toerekening € 250.000 aan ondergewaardeerde terreinen blijft € 150.000 als positief consolidatieverschil aan actiefzijde.
@@ -79,4 +78,3 @@ Aurelia Holding NV koopt op 1 januari 20X1 een belang van 80 % in Brugse Brouwer
 [^5]: `KB-WVV-2019__art_3_103`
 [^6]: `CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld`
 [^7]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding`
-[^8]: `CBN-2022-11-vermogensmutatiemethode__sec_latere-consolidaties`

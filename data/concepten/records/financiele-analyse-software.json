@@ -2,7 +2,7 @@
   "id": "financiele-analyse-software",
   "naam": "Financiële-analyse-software (IT-tools)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.9.VII",
@@ -20,7 +20,9 @@
       "1.9.VII.C"
     ],
     "reviewed_by": null,
-    "bron_gap": "Geen wettelijke of normatieve bron — commerciële tools in de Belgische markt. Common knowledge in vakkundige praktijk."
+    "bron_gap": "Geen wettelijke of normatieve bron — commerciële tools in de Belgische markt. Common knowledge in vakkundige praktijk.",
+    "note": "PO 1.9 wave-2: schema 1.5→1.6 + situering + naam_alternatief",
+    "touched_at": "2026-05-19T00:00:00Z"
   },
   "definitie": {
     "text": "Financiële-analyse-software is software die jaarrekening-gegevens importeert (uit NBB-Centrale voor Balansen of XBRL-bestanden), automatisch ratio's berekent, sector-benchmarking levert en visuele rapporten genereert. Voorbeelden in de Belgische markt: NBB-Online (gratis), Belfius Score, Graydon, Roularta Bel-First, Ondernemingsdatabank.",
@@ -147,5 +149,27 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "IT-tools die jaarrekeninggegevens uit NBB-Centrale voor Balansen of XBRL importeren, ratio-set automatisch berekenen, sectorbenchmarks toevoegen en grafische rapporten genereren. Maken de mechanische berekening snel — de stagiair blijft verantwoordelijk voor selectie, interpretatie en aanbeveling. Voorbeelden: NBB-Online, Belfius Score, Graydon, Roularta Trends.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Belgische marktpraktijk financiële analyse"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.9.VII",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "naam_alternatief": [
+    "Financial analysis software",
+    "Logiciel d'analyse financière"
+  ],
+  "migrated_doel_to_situering_at": "2026-05-19T00:00:00Z"
 }

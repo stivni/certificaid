@@ -2,7 +2,7 @@
   "id": "oprechtheidsbeginsel",
   "naam": "Oprechtheidsbeginsel (boekhouding)",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.V.A",
@@ -150,5 +150,7 @@
       "omschrijving": "Aurelia Holding NV mag een verkoop met terugkoopplicht niet boeken als gewone verkoop — economisch gaat het om een financieringsoperatie, dus substance over form: boek als 'verkoop met clausule' of leningstructuur."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": "Het oprechtheidsbeginsel verlangt dat de boekhouding de **werkelijke economische realiteit** weergeeft — geen vertekening, geen camouflage, geen window-dressing. Verrichtingen worden geboekt naar hun economische substantie, niet naar hun juridische vorm als die misleidend is. Klassiek examenscenario: sale-and-leaseback dat economisch een financiering is.",
+  "naam_alternatief": "true and fair principle / principe de sincérité"
 }

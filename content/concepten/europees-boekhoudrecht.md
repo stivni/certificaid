@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/europees-boekhoudrecht.json
 gegenereerd_op: '2026-05-18'
 ---
 # Europees boekhoudrecht ⚖️
+
+Het Belgisch boekhoudrecht is in laatste instantie afgeleid van **Europese instrumenten**: de Boekhoudrichtlijn 2013/34/EU (omgezet in WER en KB-WVV) en de IAS-verordening 1606/2002 (rechtstreeks geldig voor beursgenoteerde groepen). Voor de stagiair: begrijp dat de hiërarchie EU → nationaal nooit andersom werkt, en dat de IAS-verordening rechtstreekse werking heeft.
 
 > [!summary] Korte inhoud
 > De Europese rechtsbronnen die het Belgisch boekhoudrecht aansturen.
@@ -93,9 +95,6 @@ _Grondslag: Richtlijn 2013/34/EU + Verordening 1606/2002_
 
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (2): [[fsma]] · [[public-interest-entity]]
 ## Voorbeelden
 
 Rotex Roeselare NV is beursgenoteerd → moet IFRS toepassen op haar geconsolideerde jaarrekening (rechtstreekse werking IAS-verordening 1606/2002). Voor haar enkelvoudige jaarrekening blijft Belgisch GAAP gelden (geïmplementeerde Richtlijn 2013/34/EU).

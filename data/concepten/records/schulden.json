@@ -2,7 +2,7 @@
   "id": "schulden",
   "naam": "Schulden (LT en KT)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.J",
@@ -15,7 +15,16 @@
     "dekt_ook_anchors": [
       "1.1.II.K"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "definitie": {
     "text": "**Verplichtingen** van de onderneming tot betaling van een vastgesteld bedrag aan een derde, gewaardeerd tegen nominale **terugbetalingswaarde**. Onderscheid op de balans naar resterende looptijd op balansdatum: **schulden op meer dan één jaar** (rubriek VIII, MAR klasse 17 — financiële schulden, handelsschulden LT, ontvangen vooruitbetalingen LT) en **schulden op ten hoogste één jaar** (rubriek IX, MAR klasse 42 — schulden op meer dan één jaar die binnen het jaar vervallen, 43 — financiële schulden KT, 44 — leveranciers, 45 — schulden uit belastingen/lonen/sociale lasten, 48 — andere).",
@@ -227,5 +236,15 @@
       "omschrijving": "Uitgeverij Ukkel NV heeft op 31/12: hypothecaire lening 10 jaar — beginsaldo € 850.000, eindsaldo € 765.000 waarvan € 85.000 binnen het jaar vervalt. Boekhoudkundige presentatie: € 680.000 op rubriek VIII 'Schulden op meer dan één jaar' (rekening 173) en € 85.000 op rubriek IX 'Schulden op ten hoogste één jaar' (rekening 42). Daarnaast leveranciersschulden € 145.000 (44), BTW-schuld € 18.500 (4514), bezoldigingen € 32.000 (455)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "naam_alternatief": "debts / dettes",
+  "situering": {
+    "text": "De passief-zijde van de financiering — vergt scherp onderscheid op resterende looptijd (LT/KT) en aard (handels/financieel/overige). Voor een stagiair-GA: de overboeking van LT naar KT op het deel dat binnen twaalf maanden vervalt (rekening 42) is een vaste eindjaarsverrichting, en de waardering aan terugbetalingswaarde zonder actualisering is een Belgisch-GAAP-eigenheid t.o.v. IFRS.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

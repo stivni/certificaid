@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/sociale-balans.json
 gegenereerd_op: '2026-05-18'
 ---
 # Sociale balans ⚖️
+
+De sociale balans is een **afzonderlijk onderdeel** van de jaarrekening met informatie over tewerkstelling (aantal werknemers, kosten, opleidingen). Verplicht voor vennootschappen die ten minste één werknemer tewerkstellen. Voor de stagiair-GA niet onder elk schema verplicht (microschema kent geen sociale balans).
 
 > [!summary] Korte inhoud
 > De sociale balans is een afzonderlijk onderdeel van de jaarrekening (naast balans, RR en toelichting) dat informatie bevat over de tewerkstelling in de onderneming: aantal werknemers, evolutie, opleidingen, arbeidsregimes en personeelskosten.

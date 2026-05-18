@@ -2,7 +2,7 @@
   "id": "fsma",
   "naam": "Financial Services and Markets Authority (FSMA)",
   "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.II"
@@ -114,5 +114,7 @@
       "omschrijving": "Een beursgenoteerde groep (Public Interest Entity) moet IFRS-consolidatie publiceren — de FSMA controleert of die financiële informatie tijdig en volledig wordt verspreid."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "De FSMA controleert **beursgenoteerde uitgevers** op naleving van de financiële rapporteringsverplichtingen (IFRS-jaarrekening, kwartaalrapportering, transparantieregels). Voor PO 1.2 vooral relevant als afgrenzingsdomein: voor een gewone Belgische BV is de FSMA niet bevoegd — voor een beursgenoteerde holding wel.",
+  "naam_alternatief": "Financial Services and Markets Authority"
 }

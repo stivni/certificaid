@@ -12,18 +12,18 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kostensoort.json
 gegenereerd_op: '2026-05-18'
 ---
 # Kostensoort ⚖️
 
+Kostensoort is een van de drie indelingsperspectieven (naast kostencentrum en kostendrager) waarop een analytische boekhouding kosten registreert. Het organiseert kosten naar economische aard — handelsgoederen, grondstoffen, diensten, lonen, afschrijvingen — zoals het MAR (klasse 60-66) ook doet in de algemene boekhouding. Het antwoordt op de vraag 'wát voor kost is dit?', terwijl kostencentrum antwoordt op 'wáár' en kostendrager op 'wáárvoor'.
+
 > [!summary] Korte inhoud
 > Een kostensoort is een categorie van kosten naar economische aard: handelsgoederen, grond- en hulpstoffen, diensten en diverse goederen, bezoldigingen, afschrijvingen, financiële kosten, etc. De algemene boekhouding registreert standaard per kostensoort in klasse 60 t/m 65 van he….
 
 > [!info] Behoort tot: [[rekeningenstelsel-analytisch]]
-
-> [!info] Bestaat uit (3): [[arbeidskosten]] · [[materiaalkosten]] · [[overige-kosten]]
 
 Een kostensoort is een categorie van kosten naar economische aard: handelsgoederen, grond- en hulpstoffen, diensten en diverse goederen, bezoldigingen, afschrijvingen, financiële kosten, etc. De algemene boekhouding registreert standaard per kostensoort in klasse 60 t/m 65 van het Minimum Algemeen Rekeningstelsel.
 

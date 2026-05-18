@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/oprechtheidsbeginsel.json
 gegenereerd_op: '2026-05-18'
 ---
 # Oprechtheidsbeginsel (boekhouding) ⚖️
+
+Het oprechtheidsbeginsel verlangt dat de boekhouding de **werkelijke economische realiteit** weergeeft — geen vertekening, geen camouflage, geen window-dressing. Verrichtingen worden geboekt naar hun economische substantie, niet naar hun juridische vorm als die misleidend is. Klassiek examenscenario: sale-and-leaseback dat economisch een financiering is.
 
 > [!summary] Korte inhoud
 > Het oprechtheidsbeginsel verlangt dat de boekhouding en jaarrekening de werkelijke economische realiteit weergeven — geen vertekening, geen camouflage, geen 'window-dressing'.

@@ -2,7 +2,7 @@
   "id": "verwerken-overlopende-rekeningen-matching",
   "naam": "Verwerken van overlopende rekeningen volgens het matching-principe",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Verwerken van overlopende rekeningen volgens het matching-principe",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -203,11 +203,30 @@
     "voorgesteld_door": "competentie-destillatie-v2-po11-20260516",
     "voorgesteld_op": "2026-05-16T00:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "linked_anchors": [
     "1.1.taak.1",
     "1.1.II.L"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "naam_alternatief": "recording accruals according to the matching principle",
+  "situering": {
+    "text": "De directe toepassing van het matching-principe op de eindbalans: kosten en opbrengsten horen in het boekjaar waarop ze betrekking hebben, niet wanneer de factuur valt of de betaling gebeurt. Voor een stagiair-GA: een terugkerende eindjaarsverrichting (toe te rekenen kosten 492, over te dragen kosten 490, idem voor opbrengsten op 491/493) waarvan vergeten boeking een direct effect heeft op het bedrijfsresultaat.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

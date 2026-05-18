@@ -2,7 +2,7 @@
   "id": "liquiditeitsratio",
   "naam": "Liquiditeitsratio (begrip)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.3.I.A",
@@ -127,18 +127,6 @@
   ],
   "edges": [
     {
-      "type": "bevat",
-      "target": "current-ratio",
-      "redenering": "Current ratio is een liquiditeitsratio in ruime zin.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "quick-ratio",
-      "redenering": "Quick ratio is een liquiditeitsratio in enge zin.",
-      "confidence": "inferred"
-    },
-    {
       "type": "vergelijkt-met",
       "target": "solvabiliteitsratio",
       "redenering": "Liquiditeit (KT) versus solvabiliteit (LT) = twee complementaire perspectieven.",
@@ -151,5 +139,26 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": [
+    "Liquidity ratio"
+  ],
+  "situering": {
+    "text": "Liquiditeitsratio = verzamelnaam voor de ratio's die meten of een onderneming haar korte-termijn-verplichtingen kan voldoen met haar vlottende activa: current ratio (alle vlottende activa), quick ratio (zonder voorraden) en cash ratio (alleen cash + geldbeleggingen). In de analyse worden current en quick altijd samen gelezen.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Vakdoctrine financial analysis"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "aggregate",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

@@ -2,7 +2,7 @@
   "id": "identificeren-rechtsbron-boekhoudrecht",
   "naam": "Identificeren van de toepasselijke rechtsbron bij een vraag uit het boekhoudrecht",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Identificeren van de toepasselijke rechtsbron bij een vraag uit het boekhoudrecht",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -192,5 +192,6 @@
     "1.2.I.E",
     "1.2.I.F"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": "Bij een boekhoudrechtelijke vraag moet je weten **op welk niveau** je het antwoord moet zoeken: EU-richtlijn, WER, WVV, KB-WVV, CBN-advies of rechtspraak. De hiërarchie is strikt — een KB-bepaling kan niet afwijken van WVV, en CBN-adviezen kunnen geen wet vervangen. Voor de stagiair-GA basisvaardigheid: zonder rechtsbronkennis is geen werknotitie te schrijven."
 }

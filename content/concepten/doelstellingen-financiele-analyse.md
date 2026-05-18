@@ -16,7 +16,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/doelstellingen-financiele-analyse.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -28,8 +28,6 @@ De analist transformeert de cijfers in een onderbouwd oordeel over de financiël
 > De doelstellingen van financiële analyse zijn de specifieke vragen die de analyst over de jaarrekening wil beantwoorden: kan de onderneming haar korte schulden betalen (liquiditeit), is de schuldenstructuur houdbaar (solvabiliteit), levert de onderneming voldoende winst op het in….
 
 > [!info] Behoort tot: [[getrouw-beeld-jaarrekening]]
-
-> [!info] Bestaat uit (7): [[cashflow-analyse]] · [[debt-equity-ratio]] · [[getrouw-beeld-jaarrekening]] · [[liquiditeitsratio]] · [[rentabiliteit-eigen-vermogen-roe]] · [[rentabiliteit-totaal-activa-roa]] · [[solvabiliteitsratio]]
 
 De doelstellingen van financiële analyse zijn de specifieke vragen die de analyst over de jaarrekening wil beantwoorden: kan de onderneming haar korte schulden betalen (liquiditeit), is de schuldenstructuur houdbaar (solvabiliteit), levert de onderneming voldoende winst op het ingezet kapitaal (rendabiliteit), en groeit ze (activiteit/groei).
 
@@ -107,9 +105,6 @@ _Grondslag: Vakdoctrine financial analysis_
 
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (3): [[cijferanalyses-controle-norm]] · [[gebruikers-jaarrekening]] · [[intake-financiele-analyse]]
 ## Bronnen
 
 [^1]: `CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden`

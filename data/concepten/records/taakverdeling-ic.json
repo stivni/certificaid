@@ -2,23 +2,26 @@
   "id": "taakverdeling-ic",
   "naam": "Taakverdeling binnen interne controle",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.VIII.B",
     "1.7.VII"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T11:38Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave2-VIII",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.VIII.B",
     "dekt_ook_anchors": [
       "1.7.VII"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18-wave1b2",
+    "touched_at": "2026-05-18T20:08:00Z",
+    "note": "Wave2 — in_praktijk uitgebreid met drie instrumenten, valkuilen toegevoegd, edge naar uitvoering-interne-controle."
   },
   "definitie": {
-    "text": "Taakverdeling is het bewust opdelen van werk over verschillende personen zodat (1) verantwoordelijkheden duidelijk zijn, (2) functiescheiding wordt gerealiseerd, en (3) elke medewerker zijn gedeelte van het IC-systeem kent. Centraal instrument: functiebeschrijving + organogram + procuratie-tabel.",
+    "text": "Taakverdeling is het bewust opdelen van werk over verschillende personen zodat (1) verantwoordelijkheden duidelijk zijn, (2) functiescheiding wordt gerealiseerd, en (3) elke medewerker zijn gedeelte van het IC-systeem kent. Drie kerninstrumenten dragen het: functiebeschrijving, organogram en procuratie-tabel.",
     "confidence": "inferred-common-knowledge",
     "_provenance": {
       "inputs": []
@@ -27,7 +30,44 @@
   "in_praktijk": [
     {
       "aspect": "Drie instrumenten",
-      "betekenis": "(1) Organogram: hiërarchische lijnen + rapporteringsstructuur. (2) Functiebeschrijving: taken + bevoegdheden + competenties per rol. (3) Procuratie-tabel: wie tekent wat tot welk bedrag voor wie. Samen geven ze volledige beeld van wie wat doet.",
+      "betekenis": "(1) Organogram: hiërarchische lijnen + rapporteringsstructuur — wie rapporteert aan wie. (2) Functiebeschrijving: taken + bevoegdheden + competenties + rapporteringslijn per rol. (3) Procuratie-tabel: wie tekent wat tot welk bedrag voor wie. Samen geven ze het volledige beeld van wie wat doet, voor wie en binnen welke limiet.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "aspect": "Functiebeschrijving is IC-evidence",
+      "betekenis": "Een actuele functiebeschrijving (gedateerd, getekend door rolhouder + leidinggevende) is voor de externe auditor één van de eerste evidences van IC-design. Ontbreekt of is verouderd: rood vlag. Goede praktijk: jaarlijkse review en actualisatie.",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_bijlage-3_part5",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Procuratie-tabel als sluitstuk",
+      "betekenis": "De procuratie-tabel (volmachten-tabel) regelt de autoriteit: wie mag namens de vennootschap aangaan, tot welk bedrag, met of zonder co-tekenaar. Een goed gedocumenteerde procuratie-tabel maakt functiescheiding afdwingbaar en is bovendien een formeel vereiste voor bankrelaties en notariële handelingen.",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Verouderde functiebeschrijvingen na reorganisatie of personeelswissel: de papieren rolverdeling klopt niet meer met de praktijk. Auditor test door interview met rolhouder versus geschreven beschrijving.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "text": "Te ruime procuraties (één bestuurder mag alleen tekenen tot ongelimiteerd bedrag) ontnemen functiescheiding haar werking. Goede praktijk: dubbele handtekening boven materiële drempel (bv. 1% van eigen vermogen of vaste euro-drempel).",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
@@ -39,13 +79,29 @@
       "type": "vereist-kennis-van",
       "target": "functiescheiding",
       "redenering": "Functiescheiding is het belangrijkste principe achter taakverdeling."
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "uitvoering-interne-controle",
+      "redenering": "Taakverdeling vastleggen is fase 3 van de IC-uitwerking (uitvoering-interne-controle §bouwsteen 3)."
     }
   ],
   "voorbeelden": [
     {
       "vorm": "eenvoudig",
-      "omschrijving": "Bij Yperse Werkplaats BV documenteert HR per functie: taken (5-10 bullets), verantwoordelijkheden (autoriseren wat tot welk bedrag), rapporteringslijn, vereiste competenties. Bij personeelswissel: nieuwe medewerker leest functiebeschrijving en weet exact wat van hem verwacht wordt — minder gat in IC tijdens overdracht."
+      "omschrijving": "Bij Yperse Werkplaats BV documenteert HR per functie: taken (5-10 bullets), verantwoordelijkheden (autoriseren wat tot welk bedrag), rapporteringslijn, vereiste competenties. Bij personeelswissel: nieuwe medewerker leest functiebeschrijving en weet exact wat van haar verwacht wordt — minder gat in IC tijdens overdracht."
+    },
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Procuratie-tabel Yperse Werkplaats BV: zaakvoerder Anna tekent alleen tot € 25.000; boven dat bedrag samen met CFO David; boven € 100.000 vergt notulering door RvB. Bank-platform handhaaft drempels automatisch via twee-handtekening-validatie."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Taakverdeling is het concrete instrumentarium (organogram, functiebeschrijving, procuratie-tabel) waarmee een onderneming functiescheiding operationeel maakt. Het examenprogramma 1.7.VIII.B vraagt het te kennen als implementatie-laag onder de vier-functies-doctrine. Bij personeelswissel of organisatorische herschikking is een actuele taakverdeling cruciaal voor IC-continuïteit — verouderde functiebeschrijvingen zijn voor de auditor een rood vlag.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }

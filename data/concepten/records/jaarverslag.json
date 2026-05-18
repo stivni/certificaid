@@ -2,7 +2,7 @@
   "id": "jaarverslag",
   "naam": "Jaarverslag",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.D",
@@ -205,5 +205,7 @@
       "omschrijving": "Rotex Roeselare NV (grote NV) moet samen met haar jaarrekening een jaarverslag opstellen — met o.a. commentaar bij de cijfers, vooruitzichten 2025, risico's (cyberveiligheid, energieprijzen), en informatie over personeelsdiversiteit."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "Het jaarverslag (bestuursverslag) is het toelichtend document **naast** de jaarrekening waarin het bestuursorgaan commentaar geeft op resultaten, ontwikkelingen en risico's. Voor stagiair-GA belangrijk: niet elke vennootschap moet het opstellen (klein en geen groep-context = vrijgesteld), en de inhoud is voorgeschreven (WVV art. 3:5-3:6).",
+  "naam_alternatief": "annual report / rapport annuel"
 }

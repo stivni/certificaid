@@ -2,7 +2,7 @@
   "id": "itaa-normen-ic",
   "naam": "ITAA-normen en interne controle",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.XII.C",
@@ -10,7 +10,7 @@
     "1.7.XII"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T11:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-po1.7.XII-wave2",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.XII.C",
     "dekt_ook_anchors": [
@@ -40,11 +40,95 @@
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
-  "edges": [],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "algemene-controlenorm-accountant",
+      "redenering": "Algemene controlenorm is de basisnorm voor IC-werk binnen wettelijke + contractuele audits."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "kmo-controlenorm-accountant",
+      "redenering": "KMO-controlenorm specifieert hoe IC-begrip + toetsing in KMO-context schaalbaar wordt toegepast."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "intern-kwaliteitsmanagement-kantoor",
+      "redenering": "ITAA-norm intern kwaliteitsmanagement is de Belgische omzetting van ISQM 1 — IC voor het accountantskantoor zelf."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "samenstellingsopdracht",
+      "redenering": "ISRS 4410-norm regelt samenstellingsopdrachten; geen IC-toetsing maar wel IC-bewustzijn."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "antiwitwasmeldingsplicht-accountant",
+      "redenering": "AWW-reglement van het ITAA legt IC op cliëntenidentificatie + transactiemonitoring op."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "isa-standaarden-ic",
+      "redenering": "ITAA-normen zijn de Belgische vertaling/specifieke aanvulling op ISA — niet vervanging.",
+      "aspect": "belgisch-vs-internationaal"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "itaa",
+      "redenering": "Het ITAA stelt deze normen vast; zonder ITAA-orgaan geen normwerking."
+    }
+  ],
   "vergelijkingsparen": [],
   "gebaseerd_op_concepten": [
     "kmo-controlenorm-accountant",
     "algemene-controlenorm-accountant",
     "samenstellingsopdracht"
+  ],
+  "situering": {
+    "text": "De ITAA-normen vormen de Belgische operationele vertaling van de internationale audit- en kwaliteitsstandaarden naar de gecertificeerd accountant. Voor de stagiair is dit het kruispunt tussen ISA (internationaal) en eigen praktijk: welke norm geldt voor welk type opdracht (wettelijke controle, contractuele controle, samenstelling, bijzondere verslagen)? De normen leggen vast hoe de accountant interne controle benadert per opdrachttype, en welke documentatie- en kwaliteitsverwachtingen er gelden. Examen-vragen testen vaak het onderscheid algemene controlenorm versus KMO-controlenorm, of de toepassing van de norm intern kwaliteitsmanagement op het kantoor zelf.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3"
+        }
+      ]
+    }
+  },
+  "migrated_to_schema_1.6_at": "2026-05-18",
+  "valkuilen": [
+    {
+      "vaak_fout": "ITAA-normen zien als vrijblijvende good practice.",
+      "advies": "ITAA-normen zijn formeel reglementair: vastgesteld door het instituut + goedgekeurd bij ministerieel besluit. Niet-naleving = tuchtrechtelijke vervolging. Even afdwingbaar als de wet zelf.",
+      "grondslag": "Wet-ITAA-2019 art. 31",
+      "confidence": "grounded"
+    },
+    {
+      "vaak_fout": "Algemene controlenorm en KMO-controlenorm door elkaar toepassen.",
+      "advies": "KMO-controlenorm geldt enkel voor KMO-controles (WVV-criteria); algemene controlenorm voor alle andere wettelijke/contractuele audits. Bij twijfel: WVV-criteria toetsen (omzet, balanstotaal, FTE).",
+      "grondslag": "ITAA-norm-kmo-controlenorm + ITAA-norm-algemene-controlenorm",
+      "confidence": "grounded"
+    },
+    {
+      "vaak_fout": "Norm intern kwaliteitsmanagement zien als alleen voor 'het ITAA' in plaats van voor het eigen kantoor.",
+      "advies": "Deze norm verplicht elk accountantskantoor om zelf een kwaliteitsmanagementsysteem in te richten (leiderschap, ethiek, cliëntaanvaarding, opdrachtuitvoering, monitoring). Klein éénmanskantoor is niet vrijgesteld — wel schaalbaar.",
+      "grondslag": "ITAA-norm-intern-kwaliteitsmanagement (omzetting ISQM 1)",
+      "confidence": "inferred-from-aggregation"
+    }
+  ],
+  "kerninzichten": [
+    "ITAA-normen vormen het tweede normatieve laagje boven de ISA's voor de Belgische gecertificeerd accountant. Ze gelden bij elke opdracht waarin de GA als gereglementeerde beroepsbeoefenaar optreedt.",
+    "De vier hoofdgroepen: (1) controlenormen (algemene + KMO), (2) samenstellings- en beoordelingsnormen (ISRS 4410, ISRE 2400), (3) kwaliteitsnormen (intern kwaliteitsmanagement = ISQM 1), (4) deontologische + opdracht-specifieke normen (effectennorm, fusie-splitsing, ontbinding, AWW).",
+    "Voor IC-werk verlangen de controlenormen expliciet: begrip van IC + risico-inschatting + toetsing waar gesteund wordt + documentatie.",
+    "De normen zijn schaalbaar: KMO-controlenorm laat lichtere documentatie + procedure toe; algemene controlenorm vereist meer formele aanpak."
+  ],
+  "in_praktijk": [
+    "Eerste vraag bij elke opdracht: welk type? Wettelijke controle (commissarisopdracht) → algemene of KMO-controlenorm. Contractuele audit → algemene controlenorm. Samenstelling → ISRS 4410-norm. Specifieke opdracht (inbreng, ontbinding, effecten) → opdracht-specifieke norm.",
+    "Tweede vraag: ben ik KMO of niet? WVV-criteria toetsen (omzet, balanstotaal, FTE) — bepaalt of KMO-controlenorm mag.",
+    "Voor het eigen kantoor: norm intern kwaliteitsmanagement opzetten met de zes ISQM 1-elementen (leiderschap, ethiek, cliëntaanvaarding, opdrachtuitvoering, resources, monitoring).",
+    "Documentatie: ITAA-normen vereisen schriftelijke onderbouwing van auditbeslissingen — bij KMO licht maar niet afwezig. Een audit zonder werkdossier is per definitie norm-overtreding."
   ]
 }

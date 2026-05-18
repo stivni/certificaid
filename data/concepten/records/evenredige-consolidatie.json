@@ -2,7 +2,7 @@
   "id": "evenredige-consolidatie",
   "naam": "Evenredige consolidatie (proportionele consolidatie)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.D",
@@ -71,6 +71,15 @@
         "berekeningsmethode[0].stappen[*].hoe + voorbeeld.substappen (fix C): tabelbedragen met € + duizendtal-separator, joint_venture-scenario consistent",
         "berekeningsmethode[0].concreet_voorbeeld (fix C): scenario/berekening/resultaat met €-bedragen",
         "berekeningsmethode[0].formules[*].invulling_voorbeeld (fix C): €-formaat"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -2",
+        "naam_alternatief"
       ]
     }
   },
@@ -632,37 +641,10 @@
       }
     },
     {
-      "type": "bevat",
-      "target": "intragroep-eliminaties",
-      "redenering": "Ook bij evenredige consolidatie worden intragroep-vorderingen, schulden en winsten geschrapt — pro-rata.",
-      "confidence": "inferred"
-    },
-    {
       "type": "onderdeel-van",
       "target": "consolidatiemethodes-vergelijking",
       "redenering": "Een van de vier consolidatiemethodes (synthese-record vergelijkt ze).",
       "confidence": "inferred"
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "gemeenschappelijke-dochteronderneming",
-      "redenering": "De gemeenschappelijke dochter is het juridische object; evenredige consolidatie is de boekhoudkundige techniek die op dat object wordt toegepast.",
-      "_corrected_from": [
-        {
-          "field": "type",
-          "from": "vergelijkingsparen → edges",
-          "reason": "Schema 1.4 regel 9."
-        }
-      ],
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_111",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
     }
   ],
   "voorbeelden": [
@@ -715,5 +697,6 @@
       }
     ]
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "naam_alternatief": "proportionate consolidation"
 }

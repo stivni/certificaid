@@ -21,16 +21,16 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/jaarrekening-als-studieobject.json
 gegenereerd_op: '2026-05-18'
 ---
 # Jaarrekening als studieobject van financiële analyse 🤖
 
+Voor de financiële analist is de jaarrekening (balans + resultatenrekening + toelichting) het **belangrijkste object van studie**: alle structuur-, ratio- en evolutie-analyses bouwen erop voort. Voor PO 1.2 vooral relevant als ankerpunt vanuit boekhoudrecht: welke regels hebben de jaarrekening gevormd zoals ze nu voor de analist op tafel ligt?
+
 > [!summary] Korte inhoud
 > Voor de financiële analist is de jaarrekening het samenspel van balans, resultatenrekening en toelichting waarop alle structuur-, ratio- en evolutie-analyses worden gevoerd.
-
-> [!info] Bestaat uit (1): [[tabel-waardemutaties]]
 
 Voor de financiële analist is de jaarrekening het samenspel van balans, resultatenrekening en toelichting waarop alle structuur-, ratio- en evolutie-analyses worden gevoerd. Het is geen kennisbron op zich maar het te onderzoeken object — vergelijkbaar met een patiëntdossier voor een arts.
 
@@ -90,3 +90,4 @@ _Grondslag: CBN-0174-1 §jaarrekening (na inventarisaanpassing)_
 [^1]: `CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_de-jaarrekening`
 [^2]: `CBN-2018-25-voorzieningen__sec_inleiding`
 [^3]: `anchor-1.3.II.B`
+[^4]: `aggregate`

@@ -2,7 +2,7 @@
   "id": "tabel-waardemutaties",
   "naam": "Tabel van waardemutaties (mutatietabel vaste activa)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.9.IV.B",
@@ -16,7 +16,9 @@
       "1.9.IV"
     ],
     "reviewed_by": null,
-    "bron_gap": "Toelichtingsstaten in het Belgisch volledig schema (NBB-modellen) bevatten mutatietabellen per vaste-activa-rubriek; KB WVV bijlagen geven exacte vormvereisten."
+    "bron_gap": "Toelichtingsstaten in het Belgisch volledig schema (NBB-modellen) bevatten mutatietabellen per vaste-activa-rubriek; KB WVV bijlagen geven exacte vormvereisten.",
+    "note": "PO 1.9 wave-2: schema 1.5→1.6 + naam_alternatief",
+    "touched_at": "2026-05-19T00:00:00Z"
   },
   "bouwstenen": [
     {
@@ -125,5 +127,9 @@
       ]
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "naam_alternatief": [
+    "Tabel van waardemutaties",
+    "Statement of changes in fixed assets"
+  ]
 }

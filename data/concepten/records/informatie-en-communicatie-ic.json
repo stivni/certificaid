@@ -2,7 +2,7 @@
   "id": "informatie-en-communicatie-ic",
   "naam": "Informatie en communicatie (COSO-component 4)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.II.B",
@@ -10,7 +10,7 @@
     "1.7.II"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T09:46Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave2-1.7.II",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.II.D",
     "dekt_ook_anchors": [
@@ -18,7 +18,8 @@
       "1.7.II"
     ],
     "reviewed_by": null,
-    "bron_gap": "COSO-component vakdoctrine. Inferred-common-knowledge."
+    "bron_gap": "COSO-component vakdoctrine. Inferred-common-knowledge.",
+    "touched_at": "2026-05-18T19:00:00Z"
   },
   "definitie": {
     "text": "Informatie en communicatie als COSO-component betekent dat relevante, betrouwbare, tijdige informatie tot bij de juiste personen geraakt — zowel naar boven (rapportering aan management), naar beneden (richtlijnen naar uitvoerders), als horizontaal (tussen afdelingen) en extern (naar stakeholders).",
@@ -37,13 +38,92 @@
       "type": "vereist-kennis-van",
       "target": "informatiesysteem-onderneming",
       "redenering": "Het informatiesysteem is de drager van informatie & communicatie."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "communicatie-tekortkomingen-interne-beheersing",
+      "redenering": "Externe-auditor-verplichting (ISA 265) sluit communicatie-loop binnen component 4."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "informatie-kwaliteit-ic",
+      "redenering": "Kwaliteitseisen aan informatie zijn de toetssteen voor of de component werkt."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "stromen-onderneming",
+      "redenering": "Communicatiestroom is sub-stroom van informatiestroom."
     }
   ],
   "voorbeelden": [
     {
       "vorm": "eenvoudig",
-      "omschrijving": "Bij Yperse Werkplaats BV: maandelijkse KPI-dashboard naar directie (omhoog), wekelijkse productie-targets naar voormannen (omlaag), dagelijkse aankoop-productie-afstemming (horizontaal), kwartaalrapport naar bank en aandeelhouders (extern)."
+      "omschrijving": "Bij Yperse Werkplaats BV: maandelijks management-rapport (boven), wekelijkse veiligheidsmeeting magazijn (onder), wekelijkse stand-up sales-productie (horizontaal), kwartaal-update aan bankier (extern), klokkenluiderslijn via vertrouwenspersoon Anna Vermeulen."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Informatie en communicatie is COSO-component 4: de stromen die het IC-systeem operationeel maken. Voor de stagiair zijn dit twee zaken: (a) op systeemniveau — heeft de onderneming voldoende informatiekanalen (bottom-up, top-down, horizontaal) om risico's gemeld te krijgen; (b) op procesniveau — krijgen verantwoordelijken tijdig de cijfers die ze nodig hebben om bij te sturen. Examen-vragen testen of je deze component herkent én weet onderscheiden van pure IT (een ERP is geen 'informatie en communicatie', het is een middel ervoor).",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-315-herzien-2019__sec_bijlage-3",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Vier informatiestromen — boven, onder, horizontaal, extern",
+      "wat": "Naar boven: rapportering aan management en bestuur. Naar onder: richtlijnen, gedragscodes, training. Horizontaal: tussen afdelingen (sales ↔ productie ↔ boekhouding). Extern: communicatie naar stakeholders en regelgevers.",
+      "waarom": "Een COSO-component 4 die alleen 'top-down' werkt mist meldingen van problemen; een die alleen 'bottom-up' werkt mist sturing.",
+      "grondslag": "ISA 315 Bijlage 3 §18",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_bijlage-3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Communicatiekanalen en gedragscodes",
+      "wat": "Naast formele rapportering: gedragscodes, klokkenluiderskanalen, periodieke teamoverleg — elk een 'communicatiekanaal'.",
+      "waarom": "Een onderneming zonder veilige meldweg (klokkenluider) verliest cruciale signalen over fraude of ethische schendingen.",
+      "in_praktijk": "Examenvraag-truc: 'Hoe weet de raad van bestuur dat een procedure ergens omzeild wordt?' — Antwoord vraagt om communicatiekanaal (audit, klokkenluider, exception reports).",
+      "grondslag": "COSO 2013 + ISA 315",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_bijlage-3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Communicatie van IC-tekortkomingen",
+      "wat": "Externe auditor moet schriftelijk IC-tekortkomingen 'van materieel belang' communiceren aan governance + management — ISA 265 verplichting.",
+      "waarom": "IC-evaluatie zonder feedback aan bestuur is zinloos; sluit ook de externe communicatie-loop.",
+      "grondslag": "ISA 265 §9-§10",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-265__sec_vereisten",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ]
 }

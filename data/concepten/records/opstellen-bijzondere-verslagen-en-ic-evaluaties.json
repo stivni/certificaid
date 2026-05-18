@@ -2,7 +2,7 @@
   "id": "opstellen-bijzondere-verslagen-en-ic-evaluaties",
   "naam": "Opstellen van bijzondere verslagen en IC-evaluaties voor specifieke verrichtingen",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Opstellen van bijzondere verslagen en IC-evaluaties voor specifieke verrichtingen",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -25,7 +25,13 @@
     "inbreng-in-natura-verslag",
     "externe-controle",
     "evaluatie-interne-controle",
-    "evaluatiecriteria-ic"
+    "evaluatiecriteria-ic",
+    "quasi-inbreng-verslag",
+    "effectennorm-opdracht",
+    "omzetting-vennootschap-opdracht",
+    "fusie-splitsing-controleopdracht",
+    "ontbinding-vereffening-opdracht",
+    "opdrachtbrief-accountant"
   ],
   "procedure_grondslag": {
     "wettelijk_pct": 75,
@@ -188,7 +194,10 @@
     "voorgesteld_door": "competentie-destillatie-v2-po17-2026-05-17T12:00Z",
     "voorgesteld_op": "2026-05-17T12:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T18:00Z",
+    "last_extract_at": "2026-05-18T18:00:00Z",
+    "note_2026_05_18_taak1_pass": "gebaseerd_op_concepten uitgebreid met PO 1.6 opdracht-clusters die nu cross-linked zijn aan 1.7.taak.1 + nieuw record quasi-inbreng-verslag."
   },
   "linked_anchors": [
     "1.7.taak.1",
@@ -197,5 +206,17 @@
     "1.7.V.C",
     "1.7.VIII.F"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": {
+    "text": "Deze competentie raakt aan de wettelijk voorbehouden opdrachten van de gecertificeerd accountant: bijzondere verslagen bij specifieke vennootschapsrechtelijke verrichtingen (inbreng in natura, quasi-inbreng, fusie, splitsing, ontbinding, omzetting, uitkering uit reserves). Voor de stagiair is het centraal om snel te kunnen identificeren welk verslag vereist is gegeven een verrichting, welke wettelijke grondslag het verslag stuurt (WVV-artikel + ITAA-norm), en hoe de IC-evaluatie van de specifieke verrichting in het verslag wordt verwerkt. Examen-vragen toetsen meestal: 'gegeven deze verrichting, welk verslag?' of 'welke waarderingstoets is vereist?'.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen"
+        }
+      ]
+    }
+  },
+  "migrated_to_schema_1.6_at": "2026-05-18"
 }

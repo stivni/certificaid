@@ -2,7 +2,7 @@
   "id": "beoordelen-effectiviteit-ic-via-interne-audit",
   "naam": "Beoordelen van de effectiviteit van een intern-controlesysteem (interne audit)",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Beoordelen van de effectiviteit van een intern-controlesysteem (interne audit)",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -161,7 +161,10 @@
     "voorgesteld_door": "competentie-destillatie-v2-po17-2026-05-17T12:00Z",
     "voorgesteld_op": "2026-05-17T12:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "extractor_run_wave1b2": "concept-extractie-v4-2026-05-18-wave1b2",
+    "touched_at": "2026-05-18T17:35:07Z",
+    "note_wave1b2": "Situering toegevoegd; schema 1.6. gebaseerd_op_concepten bevat dangling refs (functie-interne-auditor, evaluatie-interne-controle, evaluatiecriteria-ic, monitoring-interne-controle) — gelogd als gaps."
   },
   "linked_anchors": [
     "1.7.taak.1",
@@ -173,5 +176,23 @@
     "1.7.XI",
     "1.7.IV"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": {
+    "text": "Deze competentie integreert PO 1.7 (interne controle, met name kenniselementen IV en V) tot een uitvoerbaar audit-traject: van risicogebaseerd auditplan, via design- en operating-testen, tot bevindingenrapport met root-cause en remediatie. De stagiair die intern werkt of als externe accountant op interne-auditwerk wil steunen, moet de hele cyclus kunnen doorlopen — examen-vragen testen vooral stap-2 (scope en criteria) en stap-4 (significantie en root-cause).",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-610-herzien__sec_doelstellingen",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ISA-315-herzien-2019__sec_bijlage-4_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

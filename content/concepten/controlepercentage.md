@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/controlepercentage.json
 gegenereerd_op: '2026-05-18'
 ---
 # Controlepercentage 🤖
+
+Een operationaliseringsmaatstaf uit het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2) die meet hoeveel stemrechten een moeder direct of indirect aanhoudt. Hij vormt de cijfermatige onderbouwing van de kwalificatie 'controle' en wordt gebruikt om de keuze van de consolidatietechniek te toetsen.
 
 > [!summary] Korte inhoud
 > Het percentage van de stemrechten dat een moeder direct of indirect (via dochters) in een andere vennootschap aanhoudt.

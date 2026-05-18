@@ -11,11 +11,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: autoriteit
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/fod-financien-boekhoudrecht.json
 gegenereerd_op: '2026-05-18'
 ---
 # FOD Financiën (boekhoudrechtelijke rol) ⚖️
+
+De FOD Financiën heeft twee raakpunten met boekhoudrecht: (1) fiscale inkomstenbelasting bouwt op de boekhoudkundige resultaten voort (WIB-fiscaal recht volgt boekhoudrecht, tenzij anders bepaald), en (2) BTW-administratie vereist boekhoudkundige onderbouwing. Voor de stagiair-GA belangrijk om te onderscheiden: FOD Financiën is **toepasser** van het boekhoudrecht (via fiscaliteit), niet de uitlegger (dat is CBN).
 
 > [!summary] Korte inhoud
 > De Federale Overheidsdienst Financiën (FOD Financiën) is het federale ministerie verantwoordelijk voor fiscaliteit.

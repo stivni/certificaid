@@ -2,7 +2,7 @@
   "id": "bewaartermijn-boekhouding",
   "naam": "Bewaartermijn van boeken en verantwoordingsstukken",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.III",
@@ -182,5 +182,7 @@
       "omschrijving": "Boekjaar Meubelzaak Mertens BV afgesloten 31/12/2024 → bewaartermijn loopt vanaf 1/1/2025 tot 31/12/2031 (7 jaar). Alle facturen, kasstukken, dagboeken moeten tot eind 2031 raadpleegbaar blijven."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "De wet legt op hoe lang boekhoudstukken bewaard moeten blijven: zeven jaar voor bewijsstukken tegenover derden, drie jaar voor de overige. Stagiairs onderschatten vaak het verschil — én ze missen dat de termijn loopt vanaf 1 januari ná het boekjaar. Voor het examen is dit een typische precisie-vraag (juiste termijn × juiste startdatum).",
+  "naam_alternatief": "retention period for accounting records / délai de conservation des documents comptables"
 }

@@ -20,11 +20,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/cashflow-analyse.json
 gegenereerd_op: '2026-05-18'
 ---
 # Cashflow (bedrijfscashflow) ⚖️
+
+De cashflow (resultaat na belasting + afschrijvingen + waardeverminderingen + dotaties voorzieningen) is de meest gebruikte proxy voor cashgenererend vermogen wanneer een Belgisch verkort schema geen volledig kasstroomoverzicht bevat. Het is een approximate — voor een volledig beeld zou ook werkkapitaalmutatie verrekend moeten worden zoals in IFRS-cashflow-statements.
 
 > [!summary] Korte inhoud
 > Cashflow is het nettoresultaat na belastingen, verhoogd met de niet-kaskosten (afschrijvingen, waardeverminderingen, voorzieningen).
@@ -95,8 +97,9 @@ _Grondslag: Vakdoctrine + CBN-2011/14 (cashflow als rentabiliteitsmaatstaf)_
 
 - **Vereist kennis van**: [[rentabiliteit-eigen-vermogen-roe]]
 - **Vereist kennis van**: [[rentabiliteit-totaal-activa-roa]]
-- **Wordt voorondersteld in** (1): [[rentabiliteit-eigen-vermogen-roe]]
+
 ## Bronnen
 
 [^1]: `CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden`
 [^2]: `anchor-1.3.II.C`
+[^3]: `aggregate`

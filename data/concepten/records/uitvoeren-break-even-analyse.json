@@ -2,7 +2,7 @@
   "id": "uitvoeren-break-even-analyse",
   "naam": "Uitvoeren van een break-even-analyse en bepalen van de veiligheidsmarge",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Uitvoeren van een break-even-analyse en bepalen van de veiligheidsmarge",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -186,5 +186,17 @@
     "1.8.III.D",
     "1.8.II.A"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "situering": {
+    "text": "Competentie waarmee de stagiair een break-even-analyse uitvoert: bereken de minimale omzet of het minimale volume waarbij de onderneming uit kost is (totale opbrengst = totale kost), splits in vaste en variabele kosten, en interpreteer het resultaat strategisch — veiligheidsmarge, gevoeligheid voor prijswijziging, multi-product-mix met gewogen gemiddelde contributiemarge. Vereiste cumulatieve kennis: contributiemarge (verkoopprijs − variabele kost) als noemer van de break-even-formule, vaste kosten als teller, multi-product-mix als gevoeligheidsdimensie.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }

@@ -2,7 +2,7 @@
   "id": "minderheidsbelangen",
   "naam": "Belangen van derden (minderheidsbelangen)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.D",
@@ -63,6 +63,16 @@
         "berekeningsmethode[0].concreet_voorbeeld.berekening (fix C): €-formaat",
         "berekeningsmethode[0].formules[*].invulling_voorbeeld (fix C): €-formaat",
         "valkuilen[].text (fix C): cast-voorbeeld met €-bedragen"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -1",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -461,24 +471,6 @@
           }
         ]
       }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "evenredige-consolidatie",
-      "redenering": "Evenredige consolidatie neemt alleen het pro-rata deel van de dochter op en kent dus geen 'Belangen van derden'-post. Integrale consolidatie neemt 100 % op met een afzonderlijke derden-post.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_111",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
     }
   ],
   "voorbeelden": [
@@ -487,5 +479,19 @@
       "omschrijving": "Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV; eigen vermogen (EV) Brugse op afsluitingsdatum = € 2.000.000 (resultaat boekjaar = € 500.000). 'Belangen van derden' = 20 % × € 2.000.000 = € 400.000 (passiefzijde balans). 'Aandeel van derden in het resultaat' = 20 % × € 500.000 = € 100.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "non-controlling interests (NCI)",
+  "situering": {
+    "text": "Een eigen-vermogenscomponent in de geconsolideerde jaarrekening onder het Belgische boekhoudrecht (KB WVV Boek 3, Titel 2) bij integrale consolidatie. Ze maken zichtbaar dat de groep niet 100 % bezit van een dochter en scheiden het derden-deel netjes af van het moeder-aandeel.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2 — belangen van derden"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

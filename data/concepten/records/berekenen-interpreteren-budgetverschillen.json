@@ -2,7 +2,7 @@
   "id": "berekenen-interpreteren-budgetverschillen",
   "naam": "Berekenen en interpreteren van budgetverschillen (verschillenboekhouding)",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Berekenen en interpreteren van budgetverschillen (verschillenboekhouding)",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -234,5 +234,17 @@
     "1.8.VI.D",
     "1.8.III.C"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "situering": {
+    "text": "Competentie waarmee de stagiair budgetverschillen splitst, kwantificeert en interpreteert: totaal-verschil decomposeren in prijs- en hoeveelheidcomponenten (materiaal), tarief- en efficiëntiecomponenten (arbeid), volume- en bestedingsverschil (overhead). Eindproduct: een verschillen-rapport per kostencentrum dat aanwijst wélke factor moet bijgestuurd worden — verkoop (volume), inkoop (materiaalprijs), HR (tarief), productie (efficiëntie). Sluit aan op de vijfde fase van budgetprocedure (periodieke opvolging) en is hartstuk van management-stuurinformatie.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }

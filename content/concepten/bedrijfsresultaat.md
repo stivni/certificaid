@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bedrijfsresultaat.json
 gegenereerd_op: '2026-05-18'
 ---
 # Bedrijfsresultaat (bedrijfskosten en bedrijfsopbrengsten) ⚖️
+
+Het bedrijfsresultaat is de **operationele kern** van de resultatenrekening — de klassieke vraag 'verdient de onderneming geld uit haar gewone activiteit?'. Voor een stagiair-GA is dit het eerste analyse-niveau: alvorens financiële kosten of niet-recurrente posten in beeld komen, moet de bedrijfsmarge zelf gezond zijn. Categorisatie-fouten tussen klasse 6/7 (bedrijf), 65/75 (financieel) en 66/76 (niet-recurrent) vervormen direct dit cijfer.
 
 > [!summary] Korte inhoud
 > Het verschil tussen **bedrijfsopbrengsten** (klasse 7, hoofdzakelijk omzet en voorraadwijzigingen) en **bedrijfskosten** (klasse 6, hoofdzakelijk handelsgoederen/grond- en hulpstoffen, diensten en diverse goederen, bezoldigingen + sociale lasten, afschrijvingen, waardeverminderin….

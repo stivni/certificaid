@@ -1,7 +1,7 @@
 {
   "id": "kennis-van-onderneming-omgeving",
   "naam": "Kennis van de onderneming en haar omgeving",
-  "node_type": "procedure",
+  "node_type": "cluster",
   "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
@@ -9,34 +9,19 @@
     "1.6.II.B"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T17:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.II.A",
     "dekt_ook_anchors": [
       "1.6.II.B"
     ],
-    "reviewed_by": null
-  },
-  "verplichting": {
-    "text": "De accountant moet bij elke controle een degelijke kennis hebben van het bedrijf en zijn werkzaamheden. Hij analyseert de administratieve en boekhoudkundige organisatie en gaat na in hoeverre de interne controles van het bedrijf betrouwbaar zijn. Deze kennis is de basis voor de risico-inschatting en het bepalen van de aard, timing en omvang van de werkzaamheden.",
-    "confidence": "grounded",
-    "source": {
-      "type": "norm",
-      "short": "ITAA Algemene controlenorm §6 + ITAA KMO-controlenorm §77"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ITAA-norm-algemene-controlenorm__sec_6-controles",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "type_migratie_v4": {
+      "op": "2026-05-18",
+      "van": "procedure",
+      "naar": "cluster",
+      "reden": "Descriptief samengesteld onderwerp met bouwstenen (zes domeinen + drie bronnen); de kunnen-actie zit in competentie verwerven-kennis-van-clientonderneming-audit (ADR-007 §node_type)."
     }
   },
   "bouwstenen": [
@@ -86,6 +71,16 @@
       "type": "vereist-kennis-van",
       "target": "risico-inschatting-audit",
       "redenering": "Kennisverwerving is de fundament-stap voor risico-inschatting."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "met-governance-belaste-personen",
+      "redenering": "Inquiry bij governance-niveau is één van de drie kennisbronnen."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "verbonden-partijen-audit",
+      "redenering": "Verbonden partijen worden geïdentificeerd als onderdeel van de kennis-verwerving."
     }
   ],
   "voorbeelden": [
@@ -94,5 +89,44 @@
       "omschrijving": "Vooraleer Sofie Janssens de audit van Rotex Roeselare NV start, verwerft zij inzicht: textielsector + Europese concurrentie, eigendomsstructuur (familieaandeelhouders), financiering (€ 12M bankkrediet + obligatielening), KPI's (omzet per m² + bezetting), interne beheersing (ERP + 3-handtekening-procuratie). Daaruit blijkt: voorraad + valuta-risico + continuïteit zijn focusgebieden."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "definitie": {
+    "text": "De accountant moet bij elke controle een degelijke kennis hebben van het bedrijf en zijn werkzaamheden. Hij analyseert de administratieve en boekhoudkundige organisatie en gaat na in hoeverre de interne controles van het bedrijf betrouwbaar zijn. Deze kennis is de basis voor de risico-inschatting en het bepalen van de aard, timing en omvang van de werkzaamheden.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA Algemene controlenorm §6 + ITAA KMO-controlenorm §77"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-algemene-controlenorm__sec_6-controles",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": {
+    "text": "Een audit begint nooit blind. De auditor moet de cliënt-onderneming, de sector waarin ze opereert en het regelgevend kader kennen vooraleer hij beslist waar de materiële risico's zitten. ISA 315 (herzien 2019) en de ITAA KMO-controlenorm §76–77 verplichten een gestructureerde kennis-verwerving over zes domeinen. Dit is de inputlaag voor de risico-inschatting en de planning van de werkzaamheden.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm §76–77 + ISA 315 (herzien 2019)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

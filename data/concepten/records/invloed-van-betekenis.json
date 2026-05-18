@@ -2,7 +2,7 @@
   "id": "invloed-van-betekenis",
   "naam": "Invloed van betekenis",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -41,6 +41,16 @@
         "in_praktijk[*].betekenis (stagiair-toon + cast)",
         "valkuilen[*].text (stagiair-toon)",
         "edges: contrasteert-met geassocieerde-onderneming → constitutief-voor (vereist-kennis-van)"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -2",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -213,42 +223,6 @@
   ],
   "edges": [
     {
-      "type": "contrasteert-met",
-      "target": "exclusieve-controle",
-      "redenering": "Invloed van betekenis = meepraten over beleid zonder dominante positie. Exclusieve controle = beslissende, eenzijdige invloed. Drempel: typisch 20–50 % stemrechten voor invloed; > 50 % stemrechten of controle in feite voor controle.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "gezamenlijke-controle",
-      "redenering": "Bij gezamenlijke controle is er een vetorecht op beleidsbeslissingen (via overeenkomst). Bij invloed van betekenis kan de vennoot meepraten maar niet blokkeren.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "getriggerd-door",
       "target": "geassocieerde-onderneming",
       "redenering": "Invloed van betekenis is de relatie; de geassocieerde onderneming is de status van de vennootschap waarop die invloed wordt uitgeoefend. Beide horen onlosmakelijk samen.",
@@ -285,5 +259,19 @@
       "omschrijving": "Antwerpse Investments NV bezit 25 % van de stemrechten in Drukkerij Dendermonde BV en heeft een vertegenwoordiger in het bestuur. Geen controle (geen meerderheid, geen stemovereenkomst) → weerlegbaar vermoeden van invloed van betekenis → Drukkerij Dendermonde is geassocieerde onderneming van Antwerpse → vermogensmutatie."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "significant influence",
+  "situering": {
+    "text": "Een tussenpositie in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2): macht om mee te beslissen zonder controle. Het begrip onderscheidt deelnemingen die equity-gemuteerd moeten worden van zuivere financiële beleggingen die op kostprijs blijven staan.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

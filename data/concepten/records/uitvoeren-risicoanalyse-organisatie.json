@@ -2,7 +2,7 @@
   "id": "uitvoeren-risicoanalyse-organisatie",
   "naam": "Uitvoeren van een risico-identificatie en -analyse voor het IC-systeem",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Uitvoeren van een risico-identificatie en -analyse voor het IC-systeem",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -26,7 +26,7 @@
     "risico-inschatting-organisatie",
     "coso-ii-erm-framework",
     "iso-31000-risicobeheer",
-    "fouten-en-fraude",
+    "fraude-versus-fout",
     "fraude",
     "fouten-ic",
     "cyberrisico-ic"
@@ -191,7 +191,9 @@
     "voorgesteld_door": "competentie-destillatie-v2-po17-2026-05-17T12:00Z",
     "voorgesteld_op": "2026-05-17T12:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "touched_at": "2026-05-18T18:20:48Z",
+    "last_extractor_run": "concept-extractie-v4-2026-05-18-wave1b4"
   },
   "linked_anchors": [
     "1.7.taak.1",
@@ -203,5 +205,12 @@
     "1.7.VI.B",
     "1.7.VIII.E"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": {
+    "text": "Deze competentie operationaliseert COSO-component 2 (risico-inschatting) als concrete stagiair-handeling: voer een gestructureerde risico-identificatie + analyse uit voor een organisatie, lever een risico-register af, en integreer het in het IC-systeem. Geen Belgische wet schrijft een specifieke methode voor (uitgezonderd sectorale: NIS-2 cyberrisico, AVG art. 35 DPIA). De methodologie volgt uit internationale doctrine: COSO ERM 2017, ISO 31000:2018, en ITAA-controlenorm §96. Examen-vraagstellingen toetsen typisch het gestructureerd doorlopen van identificatie → analyse → respons → monitoring.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }

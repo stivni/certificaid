@@ -2,14 +2,14 @@
   "id": "iso-31000-risicobeheer",
   "naam": "ISO 31000 — Risk Management Guidelines",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.XII.F",
     "1.7.XII"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T10:54Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-po1.7.XII-wave2",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.XII.F",
     "dekt_ook_anchors": [
@@ -44,5 +44,58 @@
       "inputs": []
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "definitie": "ISO 31000 is een internationale, generieke en sectoronafhankelijke standaard voor risicomanagement, uitgegeven door de ISO (International Organization for Standardization). De huidige versie dateert uit 2018. De standaard is niet certificeerbaar — het is een referentiekader dat principes, een framework voor organisatorische inbedding en een proces aanreikt.",
+  "bouwstenen": [
+    {
+      "titel": "Acht principes",
+      "wat": "Acht leidende principes voor effectief risicomanagement: geïntegreerd, gestructureerd + omvattend, op maat (customized), inclusief, dynamisch, gebaseerd op beste beschikbare informatie, rekening houdend met menselijke + culturele factoren, en continu verbeterend.",
+      "waarom": "Deze principes definiëren wat 'effectief' risicomanagement betekent en gelden voor elke organisatie ongeacht omvang of sector.",
+      "in_praktijk": "Examen-relevant: ISO 31000 is principle-based, niet rule-based — geen vaste 'COSO-componenten' maar leidende beginselen die in elk organisatorisch kader vertaald moeten worden.",
+      "grondslag": "ISO 31000:2018 §4",
+      "confidence": "inferred-common-knowledge"
+    },
+    {
+      "titel": "Framework — organisatorische inbedding",
+      "wat": "Het 'framework'-deel beschrijft hoe risicomanagement structureel ingebed wordt in de organisatie: leadership + commitment, integratie in de bedrijfsstructuur, ontwerp, implementatie, evaluatie en verbetering. Volgt een PDCA-cyclus (Plan-Do-Check-Act).",
+      "waarom": "Zonder structurele inbedding blijft risicomanagement een eenmalige oefening; het framework zorgt voor continuïteit + governance-koppeling.",
+      "in_praktijk": "Vergelijkbaar met de COSO-component 'controle-omgeving' maar dan generiek voor risico (niet specifiek voor IC of financial reporting).",
+      "grondslag": "ISO 31000:2018 §5",
+      "confidence": "inferred-common-knowledge"
+    },
+    {
+      "titel": "Proces — risico-cyclus",
+      "wat": "Het procesdeel beschrijft de operationele cyclus: communicatie + consultatie → scope/context/criteria vaststellen → risicobeoordeling (identificatie → analyse → evaluatie) → risicobehandeling → monitoring + review → recording + reporting.",
+      "waarom": "Dit is de operationele kern: hoe je elk individueel risico van identificatie tot afsluiting beheert.",
+      "in_praktijk": "De vier risicobehandelingsopties komen overeen met de klassieke Belgische taxonomie: vermijden (avoid), verminderen (reduce/mitigate), overdragen (transfer/share), accepteren (retain).",
+      "grondslag": "ISO 31000:2018 §6",
+      "confidence": "inferred-common-knowledge"
+    }
+  ],
+  "valkuilen": [
+    {
+      "vaak_fout": "ISO 31000 willen certificeren zoals ISO 9001 of ISO 27001.",
+      "advies": "ISO 31000 is bewust niet-certificeerbaar — het is een guideline (richtlijn), geen requirement-standaard. Voor certificeerbaar risk management bestaan andere standaarden (bv. ISO 27005 voor IT-security risk).",
+      "grondslag": "ISO 31000:2018 introduction",
+      "confidence": "inferred-common-knowledge"
+    },
+    {
+      "vaak_fout": "ISO 31000 inwisselbaar gebruiken met COSO ERM.",
+      "advies": "ISO 31000 is generic + sectoronafhankelijk, COSO ERM is gericht op enterprise-context met strategie-koppeling + ontwikkeld vanuit US-audit-context. Voor Belgische private ondernemingen domineert COSO; ISO 31000 zie je vooral bij overheden + grote infrastructuurspelers.",
+      "grondslag": "Vergelijking ISO 31000:2018 en COSO ERM 2017",
+      "confidence": "inferred-common-knowledge"
+    }
+  ],
+  "kerninzichten": [
+    "ISO 31000 = 3 hoofddelen: principes (wat = effectief), framework (waar = organisatorische inbedding), proces (hoe = operationele cyclus). Geen vaste componenten maar leidende beginselen.",
+    "Niet-certificeerbaar — referentiekader, geen audit-standaard. Wel internationaal erkend + sectoronafhankelijk.",
+    "Voor de Belgische GA-context: minder dominant dan COSO. Relevant wanneer onderneming overheid is, in publieke infrastructuur werkt, of internationaal samenwerkt met partners die ISO-taal hanteren.",
+    "De vier risicobehandelingsopties (vermijden, verminderen, overdragen, accepteren) zijn examen-stof — deze taxonomie komt ook in andere risk-standaarden voor."
+  ],
+  "naam_alternatief": "ISO 31000:2018",
+  "in_praktijk": [
+    "Voor de stagiair GA: weet dat ISO 31000 bestaat als alternatief raamwerk, maar bij Belgische audits + IC-werk zal je in de praktijk COSO tegenkomen.",
+    "Examen-relevant: kunnen verklaren waarom ISO 31000 generic is, niet-certificeerbaar, en hoe het zich onderscheidt van COSO ERM.",
+    "Bij grote internationale groepen kan ISO 31000-vocabulaire in een risk-register opduiken — dan moet je 'risk treatment plan', 'risk owner', 'risk criteria' herkennen."
+  ]
 }

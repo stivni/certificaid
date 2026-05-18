@@ -2,7 +2,7 @@
   "id": "werkkapitaal",
   "naam": "Werkkapitaal (working capital)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.3.II.C",
@@ -180,5 +180,27 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "naam_alternatief": [
+    "Working capital",
+    "Fonds de roulement"
+  ],
+  "situering": {
+    "text": "Werkkapitaal = vlottende activa − schulden op ten hoogste een jaar (absolute tegenhanger van de current ratio als verhouding). Het meet hoeveel cash er overblijft als alle korte schulden zouden moeten betaald worden uit vlottende activa. De werkkapitaalbehoefte (vorderingen + voorraden − leveranciers) toont hoeveel er nodig is — verschil tussen werkkapitaal en behoefte = netto-kaspositie.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Vakdoctrine financial analysis"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "aggregate",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

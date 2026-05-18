@@ -2,7 +2,7 @@
   "id": "wettelijke-reserve",
   "naam": "Wettelijke reserve",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.H",
@@ -15,7 +15,16 @@
     "dekt_ook_anchors": [
       "1.1.II.Q"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "main_rule": {
     "text": "**Verplichte jaarlijkse afhouding** van **5 % van de nettowinst** voor de **wettelijke reserve**, totdat deze reserve **10 % van het maatschappelijk kapitaal** bereikt (NV) of **één tiende van de eigen vermogensinbreng** (BV). Geboekt op rekening 130 'Wettelijke reserve'. Niet uitkeerbaar zolang ze niet boven het wettelijk minimum staat. De afhouding wordt opgenomen in de winstbestemming bij goedkeuring jaarrekening door algemene vergadering (WVV art. 7:211, § 1; 5:200).",
@@ -357,5 +366,15 @@
       "omschrijving": "Meubelzaak Mertens BV heeft kapitaal/eigen vermogensinbreng € 50.000 → wettelijk minimum wettelijke reserve = 10 % × € 50.000 = € 5.000. Wettelijke reserve op 1/1 = € 3.500. Winst 20X1 = € 42.000. Verplichte afhouding = 5 % × € 42.000 = € 2.100. Boeking: Debet 6921 Toevoeging aan wettelijke reserve € 2.100 / Credit 130 Wettelijke reserve € 2.100. Saldo eind 20X1: € 5.600 — boven minimum, dus volgend jaar geen verplichte afhouding meer."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "naam_alternatief": "legal reserve / réserve légale",
+  "situering": {
+    "text": "De wettelijk verplichte buffer in het eigen vermogen die de uitkeerbaarheid en de schuldeisersbescherming bewaakt — 5 % van de jaarwinst tot een minimum van 10 % van het kapitaal (NV) of eigen vermogensinbreng (BV) is bereikt. Voor een stagiair-GA: een terugkerende eindjaarsverrichting bij resultaatverwerking — vergeten van de afhouding ondergraaft direct de geldigheid van een dividendvoorstel.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

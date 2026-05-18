@@ -217,7 +217,7 @@
     }
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.I",
     "linked_anchors": [
@@ -229,7 +229,9 @@
     ],
     "reviewed_by": null,
     "last_extract_pass": "concept-extractie-v4-2026-05-18T14:35Z",
-    "last_extract_at": "2026-05-18T14:35:00Z"
+    "last_extract_at": "2026-05-18T14:35:00Z",
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
+    "edge_key_migrated": "2026-05-18"
   },
   "linked_anchors": [
     "1.6.taak.1",
@@ -243,23 +245,23 @@
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "opdrachtbrief-accountant"
+      "target_id": "opdrachtbrief-accountant"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "randvoorwaarden-controle"
+      "target_id": "randvoorwaarden-controle"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "opvolging-voorganger-accountant"
+      "target_id": "opvolging-voorganger-accountant"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "onafhankelijkheid-externe-accountant"
+      "target_id": "onafhankelijkheid-externe-accountant"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "kwaliteitsbeheersing-opdrachtniveau"
+      "target_id": "kwaliteitsbeheersing-opdrachtniveau"
     }
   ]
 }

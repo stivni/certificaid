@@ -2,7 +2,7 @@
   "id": "minimum-algemeen-rekeningenstelsel",
   "naam": "Minimum Algemeen Rekeningenstelsel (MAR)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.III.C",
@@ -167,5 +167,7 @@
       "omschrijving": "Aankoop koopwaren € 5.000 bij Meubelzaak Mertens BV → rekening 604000 'Aankopen koopwaren' (klasse 6, kosten). Klantbetaling op bank → rekening 550000 'Bank — zichtrekening' (klasse 5)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "Het MAR (Minimum Algemeen Rekeningenstelsel) is het **verplicht uniforme rekeningenkader** waarop elke Belgische dubbele boekhouding gestoeld is. Voor stagiairs essentieel om de klassenstructuur (1 tot 7 + klasse 0) te kennen omdat zowel jaarrekeningschema's, boekingen als analyses ervan afhankelijk zijn.",
+  "naam_alternatief": "Minimum Standard Chart of Accounts (MAR/PCMN) / Plan Comptable Minimum Normalisé"
 }

@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/volledigheidsbeginsel.json
 gegenereerd_op: '2026-05-18'
 ---
 # Volledigheidsbeginsel (boekhouding) ⚖️
+
+Het volledigheidsbeginsel verlangt dat álle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen in de boekhouding zijn opgenomen — ook niet-balans-rechten (in de toelichting). Voor de stagiair-GA klassieke examen-valkuil bij niet-balans-posten (borg, leasing, derivaten) die 'vergeten' worden vermeld.
 
 > [!summary] Korte inhoud
 > Het volledigheidsbeginsel verlangt dat álle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen van de onderneming in de boekhouding worden opgenomen.
@@ -79,7 +81,7 @@ _Grondslag: WER art. III.83_
 ## Zie ook
 
 - **Vereist kennis van**: [[inventaris]]
-- **Wordt voorondersteld in** (1): [[toelichting-jaarrekening]]
+
 ## Voorbeelden
 
 Rotex Roeselare NV heeft een hypotheek toegekend op een pand ten gunste van haar bank → wordt vermeld in de toelichting onder 'Niet in de balans opgenomen rechten en verplichtingen' (rubriek 9, klasse 0), ook al staat het niet op de balans zelf.

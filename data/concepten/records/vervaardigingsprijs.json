@@ -2,7 +2,7 @@
   "id": "vervaardigingsprijs",
   "naam": "Vervaardigingsprijs",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.A",
@@ -271,18 +271,6 @@
   ],
   "edges": [
     {
-      "type": "bevat",
-      "target": "directe-kosten",
-      "redenering": "Bestanddeel (a) en (b) zijn directe kosten.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "indirecte-kosten",
-      "redenering": "Bestanddeel (c) zijn indirecte productiekosten.",
-      "confidence": "inferred"
-    },
-    {
       "type": "vergelijkt-met",
       "target": "direct-costing",
       "redenering": "Tegenpool van full costing.",
@@ -295,5 +283,24 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "cost of production / Herstellungskosten",
+  "situering": {
+    "text": "De vervaardigingsprijs is de wettelijke ondergrens voor voorraadwaardering van zelf-vervaardigde producten — drie bestanddelen: aanschaffingsprijs verwerkt materiaal, directe productiekosten, en evenredig deel indirecte productiekosten (KB 21.10.2018 art. 22 + CBN 132/7 §2.1). De keuze van opname van het derde bestanddeel — volledige opname (full costing) of beperking tot variabel deel (direct costing, CBN 2012/15) — wordt in de waarderingsregels vastgelegd. Algemene administratie en commerciële kosten zijn altijd uitgesloten.",
+    "confidence": "grounded",
+    "source": {
+      "type": "cbn",
+      "short": "CBN 132/7 §2.1 + KB 21.10.2018 art. 22"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

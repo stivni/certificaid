@@ -2,7 +2,7 @@
   "id": "obligatielening",
   "naam": "Obligatielening",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.V",
@@ -15,7 +15,16 @@
     "dekt_ook_anchors": [
       "1.1.II.J"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "definitie": {
     "text": "Een **leningsovereenkomst** waarbij de vennootschap **obligaties** uitgeeft aan beleggers — verhandelbare schuldbewijzen met een vaste of variabele rente en een vooraf bepaalde looptijd (typisch 5 — 15 jaar). De vennootschap ontvangt het kapitaal en betaalt jaarlijkse coupons (rente) plus terugbetaling op vervaldag. Boekhoudkundig: rekening **170 'Obligatieleningen'** onder schulden op meer dan één jaar. Bijhorende kosten van uitgifte: rekening 201 (oprichtingskosten).",
@@ -212,5 +221,15 @@
       "omschrijving": "Uitgeverij Ukkel NV geeft een 8-jarige obligatielening uit nominaal € 1.000.000 aan 4 % vast. Uitgifte tegen pari (€ 1.000.000 ontvangen). Uitgiftekosten € 12.000 (notaris, publicatie). Boekingen aanvang: Debet 550 Bank € 1.000.000 / Credit 170 Obligatieleningen € 1.000.000. Bovendien: Debet 201 Kosten uitgifte leningen € 12.000 / Credit 550 Bank € 12.000 (af te schrijven over 8 jaar = € 1.500/jaar)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": "bond loan / emprunt obligataire",
+  "situering": {
+    "text": "Een markt-financieringsvorm die alleen door grotere vennootschappen wordt gebruikt — niet inwisselbaar met een banklening qua boekingen omdat coupons, agio/disagio, prorata-rente en aflossingsmodaliteiten elk hun eigen behandeling vragen. Voor een stagiair-GA: combineert verschillende boekhoudbeginselen (matching via prorata, voorzichtigheid bij disagio, getrouw beeld bij aflossing in tranches) en is daarmee een geliefd examen-onderwerp.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

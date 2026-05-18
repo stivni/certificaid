@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/boeken-aankoop-verkoop-met-btw.json
 gegenereerd_op: '2026-05-18'
 ---
 # Boeken van een aankoop en verkoop met btw en betaling 🤖
+
+De boekingscompetentie op alledaagse handelsverrichtingen — voor een stagiair-GA de meest voorkomende boeking en daarmee de bouwsteen waarop alle latere competenties (resultaatberekening, btw-aangifte, jaarrekening) steunen. Vereist beheersing van klasse 40/44 voor de vordering/schuld, klasse 60/70 voor de kost/opbrengst, en de rekening 411/451 voor de aftrekbare/verschuldigde btw.
 
 
 ## Stappen

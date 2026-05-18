@@ -2,7 +2,7 @@
   "id": "liquiditeitstoets-beslisboom",
   "naam": "Welke liquiditeitstoets gebruik ik? — Beslisboom",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.3.I.A",
@@ -102,5 +102,26 @@
     }
   ],
   "verwante_competenties": [],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": [
+    "Liquidity-test decision tree"
+  ],
+  "situering": {
+    "text": "Hulpstructuur voor de stagiair: welke liquiditeitsmaat is in welke context de juiste — current ratio voor algemene liquiditeit, quick ratio voor verfijnde toets bij voorraadintensieve sectoren, werkkapitaal als absolute aanvulling, cash ratio in stress-scenario's. De beslisboom maakt zichtbaar waarom één ratio nooit volstaat.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Vakdoctrine financial analysis — syntheseschema"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "aggregate",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

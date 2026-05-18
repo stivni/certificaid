@@ -2,7 +2,7 @@
   "id": "commissie-boekhoudkundige-normen",
   "naam": "Commissie voor Boekhoudkundige Normen (CBN)",
   "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.II",
@@ -133,5 +133,7 @@
       "omschrijving": "Een accountant met een twijfelgeval over de boeking van een overnametransactie kan een vraag stellen aan de CBN — antwoord komt als formeel advies of als individuele consultatie."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "De CBN is de federale adviescommissie die het Belgisch boekhoudrecht **doctrinair** uitlegt via gepubliceerde adviezen. Geen reglementaire bevoegdheid, wel hoog autoritair gezag. Voor stagiairs is dit de instantie naar wie je gaat bij interpretatievragen — en de bron waarvan je adviezen moet kunnen citeren in werknotities.",
+  "naam_alternatief": "Accounting Standards Commission / Commission des Normes Comptables (CNC)"
 }

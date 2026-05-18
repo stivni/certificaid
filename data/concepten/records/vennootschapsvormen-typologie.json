@@ -2,7 +2,7 @@
   "id": "vennootschapsvormen-typologie",
   "naam": "Typologie van vennootschaps- en verenigingsvormen",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.A",
@@ -237,5 +237,7 @@
       "omschrijving": "Meubelzaak Mertens BV (besloten vennootschap, beperkte aansprakelijkheid) → dubbele boekhouding, jaarrekening verkort schema. Tom Lefèvre's maatschap (geen rechtspersoonlijkheid) → onbeperkte aansprakelijkheid vennoten, alleen boekhoudplicht (geen jaarrekening bij NBB)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": "Het WVV onderscheidt **verschillende vennootschaps- en verenigingsvormen** (BV, NV, CV, VOF, VZW, IVZW, stichting). Voor PO 1.2 belangrijk omdat de vorm doorwerkt op boekhoudverplichtingen: een NV is altijd dubbele boekhouding, een eenmanszaak onder drempel mag vereenvoudigd.",
+  "naam_alternatief": "company forms typology / typologie des formes sociales"
 }

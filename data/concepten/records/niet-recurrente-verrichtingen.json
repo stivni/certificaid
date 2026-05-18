@@ -2,7 +2,7 @@
   "id": "niet-recurrente-verrichtingen",
   "naam": "Niet-recurrente verrichtingen",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.P",
@@ -15,7 +15,16 @@
     "dekt_ook_anchors": [
       "1.1.II.B"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "definitie": {
     "text": "Kosten en opbrengsten die **niet voortvloeien uit de normale, herhalende bedrijfsuitoefening** van de onderneming en die op de resultatenrekening worden gepresenteerd in afzonderlijke rubrieken: **klasse 66** (niet-recurrente kosten) en **klasse 76** (niet-recurrente opbrengsten). Typisch: niet-recurrente afschrijvingen, meer- of minderwaarden op realisatie van vaste activa, herstructureringskosten, schade-uitkeringen, geschillenuitspraak. Sinds invoering KB 21/10/2018: 'niet-recurrent' vervangt het oude 'uitzonderlijk'.",
@@ -179,5 +188,15 @@
       "omschrijving": "Rotex Roeselare NV verkoopt in 20X1 een verouderde productielijn (boekwaarde € 45.000) voor € 12.000 → minderwaarde € 33.000 op rekening 6630 'Minderwaarden op realisatie van vaste activa'. Tegelijk uitkering brandverzekering € 80.000 voor schade aan stockruimte → opbrengst op rekening 7610 'Niet-recurrente opbrengsten uit vaste activa'. Niet-recurrent resultaat = € 80.000 − € 33.000 = +€ 47.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": "non-recurring transactions / opérations non récurrentes",
+  "situering": {
+    "text": "De resultatenrekening-categorie die **éénmalige posten** afzondert zodat het bedrijfsresultaat trend-vergelijkbaar blijft. Voor een stagiair-GA: categorisatie-fouten tussen recurrent en niet-recurrent zijn een typische camouflage in examenvragen — een meerwaarde op realisatie van een MVA hoort op 763, niet op klasse 75 of klasse 7.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

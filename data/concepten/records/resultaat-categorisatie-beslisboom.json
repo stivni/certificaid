@@ -2,7 +2,7 @@
   "id": "resultaat-categorisatie-beslisboom",
   "naam": "Bedrijfs- · financieel · niet-recurrent &mdash; in welke categorie hoort deze verrichting?",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.M",
@@ -28,7 +28,16 @@
       "1.1.II.O",
       "1.1.II.Q",
       "1.1.II.S"
-    ]
+    ],
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "inleiding": {
     "text": "Sinds het KB van 21 oktober 2018 kent de resultatenrekening drie hoofdcategorieen: bedrijfsresultaat (klasse 60-64 + 70-74), financieel resultaat (65 + 75) en niet-recurrent resultaat (66 + 76). De oude 'uitzonderlijke' rubriek bestaat niet meer. Twee categorieen zorgen bij stagiairs voor twijfel: 'financieel' wordt verward met 'niet-recurrent' (bv. een uitzonderlijke meerwaarde op aandelen) en 'niet-recurrent' wordt verward met het oude 'uitzonderlijk' (dat een formele rubriek was; niet-recurrent is een feitelijke kwalificatie). Deze beslisboom toont de drie criteria die de categorie bepalen.",
@@ -138,5 +147,15 @@
       "type": "getriggerd-door"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "result categorisation decision tree",
+  "situering": {
+    "text": "Een visualisatie van de drie resultaten-categorieën (bedrijfs / financieel / niet-recurrent) die direct het camouflage-mechanisme in examenvragen aanpakt: voor elke verrichting moet eerst de aard worden bepaald, pas dan de klasse. Voor een stagiair-GA: studiehulp om de meest gemaakte categorisatie-fouten (rente op 61, meerwaarde op 75, wisselresultaat verkeerd) gestructureerd te vermijden.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

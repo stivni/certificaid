@@ -2,7 +2,7 @@
   "id": "kamer-ondernemingen-in-moeilijkheden",
   "naam": "Kamer voor ondernemingen in moeilijkheden",
   "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.3.I.D"
@@ -82,5 +82,26 @@
     }
   ],
   "edges": [],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": [
+    "Chamber for enterprises in difficulty"
+  ],
+  "situering": {
+    "text": "Bij elke ondernemingsrechtbank is een Kamer voor ondernemingen in moeilijkheden die signalen detecteert (negatief nettoactief, vervallen schulden, dagvaardingen, …) en de bestuurder uitnodigt voor een coachend gesprek. Voor de analist is een oproeping een rode vlag — onafhankelijk van wat de jaarrekening cijfermatig laat zien.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "WER Boek XX — Kamer voor ondernemingen in moeilijkheden"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.IV",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

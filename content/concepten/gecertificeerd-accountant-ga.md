@@ -4,15 +4,19 @@ tags:
 - concept
 - autoriteit
 - po-1-6
+- po-1-7
 linked_anchors:
 - 1.6.I.B
 - 1.6.taak.1
+- 1.7.XII.G
+- 1.7.XII
 programmaonderdelen:
 - '1.6'
+- '1.7'
 confidence: grounded
 node_type: autoriteit
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/gecertificeerd-accountant-ga.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -56,9 +60,6 @@ Wolters & Partners CVBA kan voor Meubelzaak Mertens BV een contractuele audit do
 _Grondslag: ITAA KMO-controlenorm §4 + Wet 7 december 2016_
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (3): [[algemene-controlenorm-accountant]] · [[beroepsgeheim-accountant]] · [[tuchtrechtelijke-aansprakelijkheid-accountant]]
 ## Voorbeelden
 
 Sofie Janssens is gecertificeerd accountant bij Wolters & Partners. Zij organiseert de boekhouding van Meubelzaak Mertens BV, stelt de fiscale aangifte op en voert vrijwillig een contractuele controle uit op de jaarrekening 2025 — geen commissariaat (dat is voorbehouden aan de bedrijfsrevisor).

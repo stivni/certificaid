@@ -2,7 +2,7 @@
   "id": "materieel-belang-jaarrekening",
   "naam": "Materieel belang (materiality)",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.3.I.A",
@@ -144,5 +144,27 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": [
+    "Materiality",
+    "Caractère significatif"
+  ],
+  "situering": {
+    "text": "Materieel belang (materiality) is de drempel waarboven een fout of weglating de beslissing van een gebruiker van de jaarrekening zou kunnen beïnvloeden. Het is altijd relatief — een bedrag dat materieel is voor een KMO is verwaarloosbaar voor een grote groep — en auditors gebruiken vuistregels (0,5–1 % omzet, 5 % resultaat, 1–2 % balanstotaal) als startpunt voor professionele oordeelsvorming.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "ISA 320 + vakdoctrine"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "aggregate",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

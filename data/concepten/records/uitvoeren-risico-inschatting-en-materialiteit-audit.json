@@ -207,7 +207,10 @@
     "gecureerd_door": null,
     "gecureerd_op": null,
     "last_extract_pass": "concept-extractie-v4-2026-05-18T14:35Z",
-    "last_extract_at": "2026-05-18T14:35:00Z"
+    "last_extract_at": "2026-05-18T14:35:00Z",
+    "vorige_extractor_run": "",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
+    "edge_key_migrated": "2026-05-18"
   },
   "linked_anchors": [
     "1.6.taak.1",
@@ -220,39 +223,39 @@
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "risico-inschatting-audit"
+      "target_id": "risico-inschatting-audit"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "auditrisicomodel"
+      "target_id": "auditrisicomodel"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "materieel-belang-audit"
+      "target_id": "materieel-belang-audit"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "significant-risico-audit"
+      "target_id": "significant-risico-audit"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "beweringen-audit"
+      "target_id": "beweringen-audit"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "fraude-versus-fout"
+      "target_id": "fraude-versus-fout"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "inherent-risico"
+      "target_id": "inherent-risico"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "intern-beheersingsrisico"
+      "target_id": "intern-beheersingsrisico"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "ontdekkingsrisico"
+      "target_id": "ontdekkingsrisico"
     }
   ]
 }

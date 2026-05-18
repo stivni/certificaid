@@ -2,7 +2,7 @@
   "id": "belgisch-boekhoudrecht",
   "naam": "Belgisch boekhoudrecht",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.I",
@@ -276,5 +276,7 @@
       "omschrijving": "Rotex Roeselare NV (Belgische grote NV) past het Belgisch boekhoudrecht toe: WER + WVV als wetsbasis, KB-WVV voor schema's, CBN-adviezen voor interpretatie, en de Europese jaarrekening-richtlijn (2013/34/EU) als bovenlaag."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "Het Belgisch boekhoudrecht is het hele regelkader dat bepaalt **hoe je een boekhouding moet voeren en een jaarrekening moet opstellen, openbaarmaken en bewaren**. Voor PO 1.2 is dit de paraplu-context: alle subkenniselementen (1.2.I rechtsbronnen, 1.2.II autoriteiten, 1.2.III boekhoudkundige verplichtingen, 1.2.IV jaarrekening, 1.2.V beginselen) gaan over deelaspecten hiervan. Een stagiair moet vooral de gelaagde structuur kennen — EU → federale wet → KB → CBN-adviezen → rechtspraak — om bij elke vraag de juiste bron te kunnen identificeren.",
+  "naam_alternatief": "Belgian accounting law / droit comptable belge"
 }

@@ -2,7 +2,7 @@
   "id": "verdeelsleutel",
   "naam": "Verdeelsleutel",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.IV.A",
@@ -95,5 +95,18 @@
       "omschrijving": "Yperse Werkplaats BV verdeelt de jaarhuur van € 240.000 over de drie productie-afdelingen volgens vloeroppervlakte: Spinnerij 1.500 m² (37,5 %), Weverij 1.800 m² (45 %), Confectie 700 m² (17,5 %). Spinnerij krijgt € 90.000, Weverij € 108.000, Confectie € 42.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "allocation key / cost driver (ABC)",
+  "situering": {
+    "text": "Een verdeelsleutel is de regel waarmee indirecte kosten over kostendragers of kostencentra worden gespreid. Klassiek 1-2 sleutels per kostencentrum (directe arbeidsuren, machine-uren, vloeroppervlakte); bij ABC verfijnd tot één driver per activiteit (aantal omstellingen, aantal kwaliteitscontroles). De keuze van de verdeelsleutel bepaalt de gerapporteerde kostprijs en is daarom kritiek bij examen-vragen over kostprijsberekening en kostprijsverschillen tussen methodes.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }

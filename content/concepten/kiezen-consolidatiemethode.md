@@ -15,11 +15,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kiezen-consolidatiemethode.json
 gegenereerd_op: '2026-05-18'
 ---
 # Kiezen van de toe te passen consolidatietechniek per entiteit 🤖
+
+Een beslis-competentie binnen het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2). De stagiair koppelt elke deelneming aan de juiste consolidatietechniek — integraal, evenredig, equity of buiten de kring — op basis van de aard van de zeggenschap en de mate van integratie in de groep.
 
 
 ## Stappen

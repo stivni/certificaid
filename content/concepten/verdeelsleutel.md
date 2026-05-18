@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/verdeelsleutel.json
 gegenereerd_op: '2026-05-18'
 ---
 # Verdeelsleutel 🤖
+
+Een verdeelsleutel is de regel waarmee indirecte kosten over kostendragers of kostencentra worden gespreid. Klassiek 1-2 sleutels per kostencentrum (directe arbeidsuren, machine-uren, vloeroppervlakte); bij ABC verfijnd tot één driver per activiteit (aantal omstellingen, aantal kwaliteitscontroles). De keuze van de verdeelsleutel bepaalt de gerapporteerde kostprijs en is daarom kritiek bij examen-vragen over kostprijsberekening en kostprijsverschillen tussen methodes.
 
 > [!summary] Korte inhoud
 > Een verdeelsleutel is de maatstaf waarmee een indirecte kost over meerdere kostencentra of kostendragers wordt verdeeld.
@@ -66,7 +68,7 @@ Bij Yperse Werkplaats BV draait de Confectie kleine series met veel omstel-tijd.
 ## Zie ook
 
 - **Getriggerd door**: [[abc-methode]]
-- **Wordt voorondersteld in** (3): [[abc-methode]] · [[indirecte-kosten]] · [[kostencentrum]]
+
 ## Voorbeelden
 
 Yperse Werkplaats BV verdeelt de jaarhuur van € 240.000 over de drie productie-afdelingen volgens vloeroppervlakte: Spinnerij 1.500 m² (37,5 %), Weverij 1.800 m² (45 %), Confectie 700 m² (17,5 %). Spinnerij krijgt € 90.000, Weverij € 108.000, Confectie € 42.000.

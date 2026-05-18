@@ -2,7 +2,7 @@
   "id": "boekhoudbeginselen-overzicht",
   "naam": "Boekhoudbeginselen &mdash; overzicht",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.I",
@@ -32,7 +32,14 @@
       "1.2.V",
       "1.2.V.A",
       "1.5.I"
-    ]
+    ],
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+"
+      ]
+    }
   },
   "inleiding": {
     "text": "Een regelmatige boekhouding rust op een set boekhoudkundige beginselen die niet apart in één wetsartikel staan, maar verspreid zijn over WER art. III.83-89, KB WVV art. 3:1-3:60, CBN-advies 174/1 en Richtlijn 2013/34/EU art. 6. Stagiairs leren ze vaak los, terwijl ze juist samen werken: drie 'voorwaarden voor een betrouwbare boekhouding' (volledigheid, oprechtheid, onveranderlijkheid) + drie 'waarderingsbeginselen' (continuiteit, voorzichtigheid, consistentie) + één 'eindbeginsel' dat de andere overkoepelt (getrouw beeld). Dit overzichts-record toont de zeven beginselen naast elkaar met functie, bron en typische valkuil.",
@@ -158,5 +165,7 @@
       "added_at": "2026-05-18T12:00:00Z",
       "reason": "richtlijn-2013-34-eu (bron-record) verwijderd; fenomeen-content leeft hier — propagatie voor coverage 1.5.I"
     }
-  ]
+  ],
+  "situering": "Synthese die de zeven boekhoudbeginselen in drie functionele lagen ordent: voorwaarden voor regelmatigheid (volledigheid, oprechtheid, onveranderlijkheid), waarderingssturing (continuïteit, voorzichtigheid, consistentie), en het eindbeginsel (getrouw beeld). Cruciaal voor stagiairs omdat losse memorisatie hier niet helpt — examenvragen toetsen welk beginsel doorslaggevend is bij conflicten (typisch: voorzichtigheid tegenover continuïteit).",
+  "naam_alternatief": "overview of accounting principles"
 }

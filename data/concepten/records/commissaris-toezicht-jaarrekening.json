@@ -2,21 +2,31 @@
   "id": "commissaris-toezicht-jaarrekening",
   "naam": "Commissaris (extern toezicht op jaarrekening)",
   "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.3.I.D",
     "1.3.taak.1"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T16:21:26Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.3.I.D",
     "dekt_ook_anchors": [
       "1.3.taak.1"
     ],
     "reviewed_by": null,
-    "cross_po_overlap": "Mogelijk uitgebreid in PO 2.x (audit/normen). Voor PO 1.3 focus: extern toezicht op getrouw beeld dat de financiële analist consumeert."
+    "cross_po_overlap": "Mogelijk uitgebreid in PO 2.x (audit/normen). Voor PO 1.3 focus: extern toezicht op getrouw beeld dat de financiële analist consumeert.",
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T16:21:26Z",
+    "last_extract_at": "2026-05-18T16:21:26Z",
+    "situering_added_v4_at": "2026-05-18",
+    "notes": [
+      {
+        "op": "2026-05-18",
+        "note": "situering toegevoegd (1.6.IV.B pass)"
+      }
+    ]
   },
   "definitie": {
     "text": "Een commissaris is een bedrijfsrevisor (lid van het IBR) die door de algemene vergadering benoemd wordt om de jaarrekening te controleren bij vennootschappen die de groottecriteria voor verplichte controle overschrijden. Hij geeft een verklaring af over het getrouwe beeld van de jaarrekening.",
@@ -123,5 +133,31 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "De commissaris is de bedrijfsrevisor die de wettelijke controle van de jaarrekening uitvoert in vennootschappen die de groottecriteria overschrijden of OOB zijn. Hij wordt benoemd door de algemene vergadering voor drie boekjaren (hernieuwbaar) en geeft een controleverklaring volgens ISA 700 (herzien). Voor de financiële analist (PO 1.3) is het type oordeel in het commissarisverslag een primair signaal over de betrouwbaarheid van de cijfers; voor de audit-stagiair (PO 1.6) is de commissaris het sluitstuk van de externe-controle-keten.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 3:72 + Wet 7 december 2016 + ISA 700 (herzien)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_9_17",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "naam_alternatief": [
+    "Statutory auditor",
+    "Commissaire"
+  ]
 }

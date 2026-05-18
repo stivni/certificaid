@@ -10,7 +10,7 @@
     "1.6.III"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.III.E",
     "linked_anchors": [
@@ -18,13 +18,14 @@
       "1.6.III"
     ],
     "reviewed_by": null,
-    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
     "type_migration": {
       "van": "procedure",
       "naar": "cluster",
       "op": "2026-05-18",
       "reden": "Schema 1.5: 'procedure' niet langer toegelaten; communicatie is descriptief fenomeen met fasen-bouwstenen, niet zelfstandige skill (de skill zit in opstellen-controleverslag-en-formuleren-oordeel-competentie en toepassen-professional-skepticism)"
-    }
+    },
+    "edge_key_migrated": "2026-05-18"
   },
   "definitie": {
     "text": "De auditor onderhoudt tijdens de hele opdracht twee parallelle communicatiestromen: één met het dagelijks management (CFO, boekhoudchef, interne controleur) over operationele aspecten, en één met de met governance belaste personen (raad van bestuur, auditcomité) over strategische aangelegenheden en significante bevindingen. ISA 260 (herzien) en de ITAA KMO-controlenorm §63-§67 vereisen tijdige, gedocumenteerde communicatie van verantwoordelijkheden, scope, timing, planningsoverzicht, vaststellingen en oordeel.",
@@ -201,8 +202,8 @@
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "met-governance-belaste-personen",
-      "redenering": "Het bestuursorgaan is de tegenhanger in de communicatie."
+      "redenering": "Het bestuursorgaan is de tegenhanger in de communicatie.",
+      "target_id": "met-governance-belaste-personen"
     }
   ],
   "voorbeelden": [

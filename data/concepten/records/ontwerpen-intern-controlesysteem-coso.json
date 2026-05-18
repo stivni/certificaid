@@ -2,7 +2,7 @@
   "id": "ontwerpen-intern-controlesysteem-coso",
   "naam": "Ontwerpen van een intern-controlesysteem volgens de vijf COSO-componenten",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Ontwerpen van een intern-controlesysteem volgens de vijf COSO-componenten",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -230,5 +230,17 @@
     "1.7.VIII.A",
     "1.7.XII.D"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": {
+    "text": "Deze competentie operationaliseert het COSO-framework als concrete ontwerpopdracht: een stagiair krijgt een onderneming en moet een IC-systeem volgens de vijf componenten opzetten (of evalueren). In de Belgische KMO-praktijk is dit zelden volledig wettelijk verplicht — de meeste vragen komen uit advies-opdrachten of audit-bevindingen waarbij de auditor het management adviseert. Examen-vragen toetsen vooral de proportionele toepassing: welke componenten zijn niet-onderhandelbaar (1, 3, 5), welke schaalbaar (2, 4)?",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen"
+        }
+      ]
+    }
+  },
+  "migrated_to_schema_1.6_at": "2026-05-18"
 }

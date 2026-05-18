@@ -2,7 +2,7 @@
   "id": "toepassen-uniforme-waarderingsregels",
   "naam": "Toepassen van uniforme waarderingsregels en hercorrigeren van enkelvoudige cijfers",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Toepassen van uniforme waarderingsregels en hercorrigeren van enkelvoudige cijfers",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -215,6 +215,15 @@
         "valkuilen[*]: correctie → advies, foute_aanname → vaak_fout",
         "tekstvelden: stagiair-toon, cast-namen (Aurelia/Holsters Horst — dochter met afwijkende waardering)"
       ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
+      ]
     }
   },
   "linked_anchors": [
@@ -223,5 +232,16 @@
     "1.4.I.B",
     "1.4.I.G"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "edges": [],
+  "naam_alternatief": "apply uniform accounting policies",
+  "situering": {
+    "text": "Een toepassingscompetentie binnen het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2). De stagiair identificeert waarderingsverschillen tussen groepsleden en brengt de enkelvoudige cijfers in lijn met de groeps-waarderingsregels vóór ze de eliminaties en aggregaties uitvoert.",
+    "confidence": "inferred",
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

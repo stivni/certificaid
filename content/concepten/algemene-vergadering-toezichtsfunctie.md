@@ -11,11 +11,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: autoriteit
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/algemene-vergadering-toezichtsfunctie.json
 gegenereerd_op: '2026-05-18'
 ---
 # Algemene vergadering — toezichtsfunctie op jaarrekening ⚖️
+
+De algemene vergadering oefent de externe toezichtsfunctie uit op de jaarrekening: het bestuursorgaan licht de cijfers toe, de aandeelhouders stemmen apart over goedkeuring én kwijting. Het is het laatste sluitstuk in de keten bestuur–commissaris–aandeelhouders waarmee de gepubliceerde jaarrekening haar formele kracht krijgt.
 
 > [!summary] Korte inhoud
 > De algemene vergadering van aandeelhouders (of leden bij een VZW) is het orgaan dat de jaarrekening goedkeurt.
@@ -68,3 +70,4 @@ _Grondslag: WVV (per rechtsvorm)_
 
 [^1]: `WVV__art_9_17`
 [^2]: `anchor-1.3.I.D`
+[^3]: `anchor-1.3.III`

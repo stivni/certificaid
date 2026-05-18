@@ -16,11 +16,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/werkkapitaal.json
 gegenereerd_op: '2026-05-18'
 ---
 # Werkkapitaal (working capital) 🤖
+
+Werkkapitaal = vlottende activa − schulden op ten hoogste een jaar (absolute tegenhanger van de current ratio als verhouding). Het meet hoeveel cash er overblijft als alle korte schulden zouden moeten betaald worden uit vlottende activa. De werkkapitaalbehoefte (vorderingen + voorraden − leveranciers) toont hoeveel er nodig is — verschil tussen werkkapitaal en behoefte = netto-kaspositie.
 
 > [!summary] Korte inhoud
 > Werkkapitaal is het verschil tussen vlottende activa en schulden op ten hoogste een jaar.
@@ -87,9 +89,7 @@ _Grondslag: Vakdoctrine_
 
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (3): [[altman-z-score]] · [[behoefte-aan-bedrijfskapitaal]] · [[current-ratio]]
 ## Bronnen
 
 [^1]: `anchor-1.3.II.C`
+[^2]: `aggregate`

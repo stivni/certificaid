@@ -2,20 +2,22 @@
 title: Resultaatverwerking (winst- of verliesbestemming)
 tags:
 - concept
-- procedure
+- cluster
 - po-1-1
 linked_anchors:
 - 1.1.II.Q
 programmaonderdelen:
 - '1.1'
 confidence: grounded
-node_type: procedure
+node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/resultaatverwerking.json
 gegenereerd_op: '2026-05-18'
 ---
 # Resultaatverwerking (winst- of verliesbestemming) ⚖️
+
+Het eindjaars-paraplu-proces dat AV-besluit, wettelijke reserve-toets en uitkeerbaarheid in één boekingscyclus samenbrengt. Voor een stagiair-GA: cruciaal om de wettelijke reserve niet te vergeten zolang het 10 %-minimum niet bereikt is, en om de uitkeerbaarheidstoets correct toe te passen vóór een dividend wordt voorgesteld.
 
 > [!summary] Korte inhoud
 > Het proces waarbij het boekhoudkundige resultaat na winstbelasting wordt verdeeld over de verschillende bestemmingen: opname van wettelijke reserve, vrije bestemming aan beschikbare reserves, dividenduitkering, vergoeding bestuurders, overdracht naar volgend boekjaar.
@@ -165,7 +167,7 @@ Algemene vergadering keurt de jaarrekening + winstbestemming goed. Dividend word
 - **Getriggerd door**: [[jaarafsluiting]]
 - **Vereist kennis van**: [[wettelijke-reserve]]
 - **Vereist kennis van**: [[eigen-middelen]]
-- **Triggert** (2): [[resultaat-categorisatie-beslisboom]] · [[wettelijke-reserve]]
+
 ## Bronnen
 
 [^1]: `MAR-ondernemingen__art_1`

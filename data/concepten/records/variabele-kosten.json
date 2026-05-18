@@ -2,7 +2,7 @@
   "id": "variabele-kosten",
   "naam": "Variabele kosten",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.II.A",
@@ -104,5 +104,24 @@
       "omschrijving": "Yperse Werkplaats BV verwerkt € 8 wol per tapijt en heeft € 5 variabele machine-energie per stuk. Bij 10.000 tapijten: totale variabele kost € 130.000. Bij 12.000 tapijten: € 156.000. Per stuk blijft het € 13."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "variable costs",
+  "situering": {
+    "text": "Variabele kosten veranderen proportioneel mee met productie- of verkoopvolume — grondstoffen, productie-arbeid bij stuktarief, energie per machine-uur. Hun totaal stijgt evenredig bij meer output; de kost per eenheid blijft (idealiter) constant. Variabele kosten zijn de basis voor contributiemarge (verkoopprijs − variabele kost), direct costing en break-even-redenering. CBN 2012/15 §waarderingsaspecten bij direct costing erkent het concept voor voorraadwaardering bij bestellingen in uitvoering.",
+    "confidence": "grounded",
+    "source": {
+      "type": "cbn",
+      "short": "CBN 2012/15"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

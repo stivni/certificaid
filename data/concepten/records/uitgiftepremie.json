@@ -2,7 +2,7 @@
   "id": "uitgiftepremie",
   "naam": "Uitgiftepremie",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.H",
@@ -15,7 +15,16 @@
     "dekt_ook_anchors": [
       "1.1.II.T"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "definitie": {
     "text": "Het **verschil tussen de uitgifteprijs van nieuwe aandelen** bij een kapitaalverhoging en de **fractiewaarde** (of vroeger 'nominale waarde'). Geboekt op rekening 11 'Uitgiftepremies' onder eigen middelen. Een uitgiftepremie is GEEN reserve in de zin van de wet: ze wordt fiscaal en boekhoudkundig met **kapitaal/eigen vermogensinbreng gelijkgesteld** voor wat betreft beschermingsregels — maar staat in een afzonderlijke balansrubriek voor transparantie.",
@@ -188,5 +197,15 @@
       "omschrijving": "Oprichtingen Oostende BV heeft kapitaal € 50.000 verdeeld over 500 aandelen (fractiewaarde € 100). De BV gaat door een kapitaalverhoging via uitgifte van 200 nieuwe aandelen aan € 250 per stuk. Inbreng = 200 × € 250 = € 50.000. Hiervan: 200 × € 100 = € 20.000 naar kapitaal (rekening 100), en 200 × € 150 = € 30.000 naar uitgiftepremie (rekening 11). Nieuw eigen vermogen: kapitaal € 70.000 + uitgiftepremie € 30.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "naam_alternatief": "issue premium / prime d'émission",
+  "situering": {
+    "text": "Een hybride post: boekhoudkundig geen reserve (rubriek 11, niet 13), juridisch wel gelijkgesteld met kapitaal voor de uitkeerbaarheidstoets en het netto-actief-criterium. Voor een stagiair-GA: vereist begrip dat 'verboden uit te keren' niet samenvalt met 'op rubriek 13 staan' — de juridische bescherming reikt verder dan de boekhoudkundige rubrieks-naam suggereert.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

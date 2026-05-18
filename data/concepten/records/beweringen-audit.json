@@ -9,13 +9,15 @@
     "1.6.II.C"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T17:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.II.B",
     "dekt_ook_anchors": [
       "1.6.II.C"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "situering_added_v4": "2026-05-18"
   },
   "definitie": {
     "text": "Beweringen (assertions) zijn de impliciete verklaringen die het management aflegt over elke transactiestroom, elk rekeningsaldo en elke toelichting in de jaarrekening. De auditor toetst per bewering of zij correct is. Typische beweringen: bestaan / voorkomen, volledigheid, rechten en verplichtingen, nauwkeurigheid en waardering, rubricering en begrijpelijkheid.",
@@ -85,5 +87,22 @@
       "omschrijving": "Voor de balanspost 'Handelsvorderingen € 1.250.000' bij Rotex Roeselare NV toetst Sofie Janssens vijf beweringen: (1) BESTAAN — bestaan deze klanten effectief en hebben ze openstaande schulden? (2) VOLLEDIGHEID — staan alle openstaande vorderingen erop? (3) RECHTEN — heeft Rotex effectief recht op invordering (geen factoring)? (4) WAARDERING — zijn dubieuze vorderingen afgeschreven? (5) RUBRICERING — staan ze correct onder 'kort/lang' geclassificeerd?"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Het management drukt — meestal impliciet — uit dat elke post in de jaarrekening voldoet aan een set beweringen: bestaan, volledigheid, juistheid, presentatie. De auditor verzamelt assurance-informatie per bewering om elk type fout afdoende te dekken. Risico-inschatting en controlewerkzaamheden zijn pas zinvol als ze tegen concrete beweringen worden afgezet (ISA 315 §A124–A129).",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 315 (herzien 2019) §A124–A129"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-315__sec_toepassingsgerichte-en-overige-verklarende-teksten",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

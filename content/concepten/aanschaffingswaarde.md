@@ -17,11 +17,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/aanschaffingswaarde.json
 gegenereerd_op: '2026-05-18'
 ---
 # Aanschaffingswaarde ⚖️
+
+De aanschaffingswaarde is de **basiswaarde** waaraan elk actief de boekhouding binnenkomt — vóór elke afschrijving of waardevermindering. Vrijwel alle latere waarderingsvragen (afschrijving, herwaardering, minderwaarde, vervreemdingsresultaat) vertrekken vanuit dit eerste cijfer. Voor een stagiair-GA is het de eerste boekhoudkundige beslissing in elke vaste-activacyclus: vergeet je een bijkomende kost of laat je een korting binnen, dan zit die fout vele jaren in de jaarrekening.
 
 > [!summary] Korte inhoud
 > De **basiswaarde** waartegen elk actiefbestanddeel bij verwerving in de boekhouding wordt opgenomen, vóór aftrek van afschrijvingen en waardeverminderingen.
@@ -105,7 +107,7 @@ _Grondslag: KB WVV art. 3:13 + bestendigheid_
 ## Zie ook
 
 - **Vereist kennis van**: [[afschrijvingen]]
-- **Wordt voorondersteld in** (1): [[afschrijvingen]]
+
 ## Voorbeelden
 
 Naaiatelier Ninove BV koopt een snij-installatie voor € 28.500 excl. BTW; bijkomende installatiekosten € 1.250 en transport € 750. Aanschaffingswaarde = € 28.500 + € 1.250 + € 750 = € 30.500 — dat is de basis waarop afschrijvingen worden berekend en die op de balans verschijnt onder rubriek 23 'Installaties, machines en uitrusting'.

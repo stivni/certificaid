@@ -12,18 +12,18 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/rekeningenstelsel-analytisch.json
 gegenereerd_op: '2026-05-18'
 ---
 # Rekeningenstelsel voor analytische boekhouding (klasse 9) ⚖️
 
+Het analytisch rekeningenstelsel is het deel van het rekeningenplan dat voor interne kostprijsregistratie wordt gebruikt — typisch klasse 9 in het Belgische MAR (KB 21.10.2018, Bijlage 1), die de wetgever bewust 'vrij in te vullen' heeft gelaten. Per kostencentrum, kostendrager of activiteit worden aparte sub-rekeningen aangemaakt; de keuze van de structuur is een autonoom managementbesluit. Sluit aan op klasse 6 en 7 van de algemene boekhouding via spiegelboekingen (registratiesystemen).
+
 > [!summary] Korte inhoud
 > Klasse 9 van het Minimum Algemeen Rekeningstelsel (KB 21.10.2018 Bijlage 1) is door de wetgever vrij gelaten voor analytische rekeningen, budgetrekeningen, niet-uitgevoerde verbintenissen en interne verrekeningen.
 
 > [!info] Behoort tot: [[analytische-boekhouding]]
-
-> [!info] Bestaat uit (4): [[kostensoort]] · [[registratiesysteem-eenvoudige-integratie]] · [[registratiesysteem-proportionele-integratie]] · [[registratiesysteem-waarderingsneutraal]]
 
 Klasse 9 van het Minimum Algemeen Rekeningstelsel (KB 21.10.2018 Bijlage 1) is door de wetgever vrij gelaten voor analytische rekeningen, budgetrekeningen, niet-uitgevoerde verbintenissen en interne verrekeningen. Elke onderneming richt klasse 9 in volgens haar eigen analytische behoeften — typisch met kostencentra, kostendragers en verschillenrekeningen.
 
@@ -66,7 +66,7 @@ Yperse Werkplaats BV: 930 Spinnerij, 931 Weverij, 932 Confectie, 940 Onderhoud (
 ## Zie ook
 
 - **Vereist kennis van**: [[kostencentrum]]
-- **Wordt voorondersteld in** (2): [[analytische-boekhouding]] · [[budgetboekhouding]]
+
 ## Bronnen
 
 [^1]: `Minimum-Algemeen-Rekeningstelsel-voor-boekhoudplichtige-ondernemingen__klasse_9`

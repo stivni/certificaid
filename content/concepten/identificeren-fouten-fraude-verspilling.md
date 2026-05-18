@@ -17,11 +17,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/identificeren-fouten-fraude-verspilling.json
 gegenereerd_op: '2026-05-18'
 ---
 # Identificeren van fouten, fraude en verspilling in een organisatie 🤖
+
+Deze competentie is taakgebonden onder 1.7.taak.1 ('opzetten en onderhouden van interne controle') en behandelt het scharnier waar de stagiair-accountant onregelmatigheden moet kunnen classificeren — fout, fraude of verspilling — en de gepaste reactie kan kiezen. De drie types vragen wezenlijk verschillende vervolgacties: foutcorrectie + procesoptimalisatie (fout), onderzoek + sanctie + meldingsplichten (fraude), procesinitiatieven (verspilling). Examen-vraagstellingen toetsen typisch een case waarin de stagiair eerst moet classificeren, dan handelen.
 
 
 ## Stappen
@@ -40,13 +42,13 @@ Classificeer elke vastgestelde onregelmatigheid als fout (onopzettelijk), fraude
 
 **🛠️ Hoe**:
 
-1. Volg [[fouten-en-fraude]] §typologie: onopzettelijk + correctie-mogelijk = fout; opzettelijk + bedrog/bevoordeling = fraude; legaal + suboptimaal = verspilling.
+1. Volg fouten-en-fraude §typologie: onopzettelijk + correctie-mogelijk = fout; opzettelijk + bedrog/bevoordeling = fraude; legaal + suboptimaal = verspilling.
 2. Voor fouten — gebruik [[fouten-ic]] §types: oordeelsfouten (verkeerde inschatting), uitvoeringsfouten (mens of systeem maakt fout), datafouten (foute invoer).
 3. Voor fraude — toets aan [[fraude]] §driehoek: druk + gelegenheid + rationalisatie. Geen driehoek = geen fraude (waarschijnlijk fout).
 4. Voor verspilling — categoriseer volgens [[verspilling]]: tijd, materiaal, kapitaal, informatie. Geen wetsovertreding, wel value destruction.
 
 
-**Grondslag**: [[fouten-en-fraude]] §typologie, [[fraude]] §driehoek, [[verspilling]] §types
+**Grondslag**: fouten-en-fraude §typologie, [[fraude]] §driehoek, [[verspilling]] §types
 
 > [!warning]- Documenteer altijd de intentie-analyse — bij ontbreken van bewijs van opzet classificeer als fout, niet als fraude.
 >

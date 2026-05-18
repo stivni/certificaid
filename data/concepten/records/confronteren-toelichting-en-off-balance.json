@@ -2,7 +2,7 @@
   "id": "confronteren-toelichting-en-off-balance",
   "naam": "Confronteren van de financiële analyse met de toelichting en off-balance posten",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Confronteren van de financiële analyse met de toelichting en off-balance posten",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -191,5 +191,26 @@
     "1.3.II.D",
     "1.3.I.A"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "naam_alternatief": [
+    "Confront notes & off-balance-sheet items"
+  ],
+  "situering": {
+    "text": "Competentie om financiële analyse op cijfers te confronteren met wat ernaast staat: de toelichting (waarderingsregels, off-balance-engagementen, lopende geschillen) en hors-balansposten. Zonder die confrontatie blijft de analyse oppervlakkig — een sterke solvabiliteit kan verbleken zodra borgstellingen en operationele leases meegenomen worden.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Examenprogramma 1.3 — competentie"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.taak.3",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

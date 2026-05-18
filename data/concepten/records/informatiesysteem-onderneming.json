@@ -2,7 +2,7 @@
   "id": "informatiesysteem-onderneming",
   "naam": "Informatiesysteem van de onderneming",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.II.B",
@@ -11,7 +11,7 @@
     "1.7.II"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T09:25Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave2-1.7.II",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.II.B",
     "dekt_ook_anchors": [
@@ -20,7 +20,8 @@
       "1.7.II"
     ],
     "reviewed_by": null,
-    "bron_gap": "Algemene IS-vakdoctrine — geen Belgische trusted bron specifiek voor IC-context. ITAA-norm raakt aan informatie als kwaliteitsdimensie van IC (info & communication = COSO-component 4)."
+    "bron_gap": "Algemene IS-vakdoctrine — geen Belgische trusted bron specifiek voor IC-context. ITAA-norm raakt aan informatie als kwaliteitsdimensie van IC (info & communication = COSO-component 4).",
+    "touched_at": "2026-05-18T19:00:00Z"
   },
   "definitie": {
     "text": "Het informatiesysteem is het geheel van procedures, mensen, software en hardware dat data in een onderneming verzamelt, verwerkt, opslaat en distribueert. Voor interne controle is het cruciaal: zonder betrouwbare informatie kan het management niet sturen, kan de boekhouding niet kloppen en kan de externe auditor niet steunen op de cijfers.",
@@ -49,8 +50,8 @@
   ],
   "valkuilen": [
     {
-      "text": "ERP-pakket ≠ IC-systeem. Een gecentraliseerd ERP geeft veel data maar zonder geconfigureerde autorisaties, audit trail en functiescheiding in de software is er geen IC — alleen efficiëntere fouten.",
-      "confidence": "inferred-common-knowledge",
+      "text": "Examen-val: alle IT-issues bij 'application controls' onderbrengen. Een zwak wachtwoordbeleid is GEEN application control — het is een IT-general-control. Beide zijn nodig.",
+      "confidence": "inferred",
       "_provenance": {
         "inputs": []
       }
@@ -66,13 +67,109 @@
       "type": "vereist-kennis-van",
       "target": "geinformatiseerde-omgeving-ic",
       "redenering": "Moderne IS draaien op IT-systemen — IT-general-controls zijn een eigen IC-domein."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "it-general-controls",
+      "redenering": "IT-general-controls zijn pijler onder elk modern informatiesysteem."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "it-application-controls",
+      "redenering": "Application controls leven binnen het informatiesysteem zelf."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "stromen-onderneming",
+      "redenering": "Informatiesysteem registreert de drie stromen (fysiek, financieel, informatie)."
     }
   ],
   "voorbeelden": [
     {
       "vorm": "eenvoudig",
-      "omschrijving": "Bij Yperse Werkplaats BV omvat het informatiesysteem: ERP-pakket (Odoo) voor aankopen-voorraad-verkoop, payroll-software, MS Office voor rapportering. Stromen: aankoopfactuur → boekhouding → kostencentrum-toewijzing → maandrapport voor directie. Een fout in één schakel (bv. verkeerd kostencentrum) breekt de hele rapportering."
+      "omschrijving": "Yperse Werkplaats BV werkt met Odoo ERP. Inkoopfacturen worden gescand en automatisch gematcht met bestelbon en goederenontvangst (application controls); de IT-verantwoordelijke heeft alleen Pieter Vermeulen + Sofie Janssens admin-rechten gegeven (IT-general-control toegangsbeheer); wekelijkse externe back-up via versleutelde cloud."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Het informatiesysteem (boekhoud-IT, ERP, rapportagestructuren) is in PO 1.7 een aparte invalshoek omdat IC-effectiviteit erop staat of valt. Voor de stagiair komt dit terug in elke audit-opdracht: ISA 315 verplicht hem om vóór risk assessment het informatiesysteem te doorgronden. In adviesopdrachten is dit waar 'IT-general-controls' binnenkomen — toegangsbeheer, change management, back-ups. Examen-vragen testen de koppeling IS ↔ COSO-component 'informatie en communicatie'.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-315-herzien-2019__sec_bijlage-3",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Vier IS-functies — initiëren, registreren, verwerken, rapporteren",
+      "wat": "Het informatiesysteem van de financiële verslaggeving doorloopt vier functies: (1) transacties initiëren (bv. inkooporder), (2) registreren (bv. boeking ontvangst), (3) verwerken (matching, validatie, journaalpost), (4) rapporteren (saldi naar grootboek, jaarrekening). Elke functie heeft eigen controle-aangrijpingspunten.",
+      "waarom": "Voor risk assessment (ISA 315) splitst de auditor het systeem in deze vier functies om risico's per fase in te schatten en application controls te identificeren.",
+      "in_praktijk": "Stagiair-oefening: voor de aankoopcyclus van Yperse Werkplaats BV, benoem per functie één application control (initiëren: 4-ogen-goedkeuring boven € 5.000; registreren: 3-way-match bestelbon-ontvangst-factuur; verwerken: automatische BTW-verdeling; rapporteren: maand-afsluitings-controle).",
+      "grondslag": "ISA 315 (herzien-2019) Bijlage 3 §15",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_bijlage-3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Wat het informatiesysteem doet voor de financiële verslaggeving",
+      "wat": "Het IS van de financiële verslaggeving initieert, registreert, verwerkt en rapporteert transacties — en verzorgt verantwoording over activa, passiva en eigen vermogen. Ook: omgaan met 'doorbroken' interne beheersing (override) en informatie verzamelen voor toelichtingen.",
+      "waarom": "Begrip van deze rol is voorwaarde om risico's op het niveau van beweringen in te schatten.",
+      "grondslag": "ISA 315 (herzien-2019) Bijlage 3 §15",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_bijlage-3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Application controls versus IT-general-controls",
+      "wat": "Application controls = controles binnen één applicatie (validatieregels, autorisatieworkflows). IT-general-controls = controles op de IT-omgeving zelf (toegangsbeheer, change management, back-up).",
+      "waarom": "Geen application control werkt zonder werkende IT-general-controls — een rolverdeling in een ERP is zinloos als iedereen admin-rechten heeft.",
+      "in_praktijk": "Bij IC-review: vraag aan IT-verantwoordelijke of er een gedocumenteerd change-management-proces is. 'Iedereen mag wijzigen' = rode vlag.",
+      "grondslag": "ISA 315 (herzien-2019)",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_bijlage-3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Kwaliteit van informatie bepaalt sturing en rapportering",
+      "wat": "De kwaliteit van informatie beïnvloedt zowel managementbeslissingen als betrouwbaarheid van financiële verslagen — slechte data leidt tot fout management én fouten in de cijfers.",
+      "waarom": "De relatie informatiesysteem ↔ COSO-component 4 is bidirectioneel: IS levert info, communicatie zorgt dat ze tot de juiste mensen geraakt.",
+      "grondslag": "ISA 315 Bijlage 3 §17",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_bijlage-3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ]
 }

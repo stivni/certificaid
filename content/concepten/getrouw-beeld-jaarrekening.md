@@ -24,7 +24,7 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/getrouw-beeld-jaarrekening.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -36,8 +36,6 @@ Externe gebruikers (aandeelhouders, kredietverleners, fiscus, werknemers) moeten
 > De jaarrekening moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de vennootschap.
 
 > [!info] Behoort tot: [[doelstellingen-financiele-analyse]]
-
-> [!info] Bestaat uit (5): [[consistentiebeginsel]] · [[doelstellingen-financiele-analyse]] · [[materieel-belang-jaarrekening]] · [[oprechtheidsbeginsel]] · [[volledigheidsbeginsel]]
 
 De jaarrekening moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de vennootschap. Volstaat de toepassing van de regels in titel 2 en 3 van het uitvoeringsbesluit niet om dat beeld te geven, dan moeten in de toelichting bijkomende inlichtingen worden verstrekt.
 
@@ -121,7 +119,7 @@ _Grondslag: CBN-2018/15 §6_
 
 - **Vereist kennis van**: [[materieel-belang-financiele-analyse]]
 - **Getriggerd door**: [[voorzichtigheidsbeginsel]]
-- **Wordt voorondersteld in** (5): [[aanvullende-boekhoudbeginselen]] · [[bestuursverslag]] · [[commissaris-toezicht-jaarrekening]] · [[jaarrekening-als-studieobject]] · [[niet-in-balans-opgenomen-rechten-verplichtingen]]
+
 ## Bronnen
 
 [^1]: `KB-WVV-2019__art_3`

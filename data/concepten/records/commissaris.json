@@ -2,7 +2,7 @@
   "id": "commissaris",
   "naam": "Commissaris",
   "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.E",
@@ -235,5 +235,7 @@
       "omschrijving": "Sofie Janssens (bedrijfsrevisor, IBR-lid) wordt door de algemene vergadering van Rotex Roeselare NV benoemd tot commissaris voor een termijn van drie boekjaren — zij zal jaarlijks de jaarrekening controleren en haar bevindingen rapporteren aan de aandeelhouders."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "De commissaris is de **wettelijke jaarlijkse controleur** van de jaarrekening — een door de algemene vergadering benoemde bedrijfsrevisor (IBR-lid). Voor de stagiair-GA cruciaal om te onderscheiden van de externe accountant (ITAA): de commissaris-opdracht is wettelijk voorbehouden aan bedrijfsrevisoren. Examenklassieker: 'mag een ITAA-accountant commissaris zijn?' — neen, alleen IBR-leden.",
+  "naam_alternatief": "statutory auditor / commissaire"
 }

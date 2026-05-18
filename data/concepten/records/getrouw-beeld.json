@@ -2,7 +2,7 @@
   "id": "getrouw-beeld",
   "naam": "Getrouw beeld",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.I.B",
@@ -192,5 +192,7 @@
       "added_at": "2026-05-18T12:00:00Z",
       "reason": "richtlijn-2013-34-eu (bron-record) verwijderd; fenomeen-content leeft hier — propagatie voor coverage 1.5.I"
     }
-  ]
+  ],
+  "situering": "Het getrouw-beeld-beginsel is het **eindbeginsel** van het Belgisch boekhoudrecht: de jaarrekening moet een getrouw beeld geven van vermogen, financiële positie en resultaat (Richtlijn 2013/34/EU art. 4 lid 3; KB-WVV art. 3:1). Het overstijgt alle andere beginselen — als strikte toepassing van de regels tot een vertekend beeld leidt, geldt een afwijkingsplicht met toelichting (true-and-fair-override). Voor het examen klassiek bij voorraad- of afschrijvingsvraagstukken.",
+  "naam_alternatief": "true and fair view / image fidèle"
 }

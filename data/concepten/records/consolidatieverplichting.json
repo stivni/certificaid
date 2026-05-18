@@ -2,7 +2,7 @@
   "id": "consolidatieverplichting",
   "naam": "Consolidatieverplichting",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -52,6 +52,15 @@
       "op": "2026-05-16",
       "velden_gewijzigd": [
         "edges[uitzondering-op → vrijstelling-subconsolidatie] herzien naar 'contrasteert-met' (fix A: edge-omkering — canonieke uitzondering-op-edge staat op vrijstelling-subconsolidatie.json en op groep-van-beperkte-omvang.json)"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -406,5 +415,19 @@
       "added_at": "2026-05-18T12:00:00Z",
       "reason": "richtlijn-2013-34-eu (bron-record) verwijderd; fenomeen-content leeft hier — propagatie voor coverage 1.5.I"
     }
-  ]
+  ],
+  "naam_alternatief": "consolidation obligation",
+  "situering": {
+    "text": "Een centrale verplichting uit het Belgische vennootschapsrecht (WVV) die de groeps-rapportagecyclus aanstuurt. Ze bepaalt of een moeder een geconsolideerde jaarrekening, een geconsolideerd jaarverslag en een commissarisverslag moet opstellen en publiceren, en is het vertrekpunt voor elke groeps-jaarafsluiting.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "WVV + KB WVV Boek 3, Titel 2"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

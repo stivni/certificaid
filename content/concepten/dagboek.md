@@ -18,18 +18,18 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/dagboek.json
 gegenereerd_op: '2026-05-18'
 ---
 # Dagboek ⚖️
 
+Het dagboek is het **chronologisch register** waarin elke verrichting wordt geboekt op de dag dat ze gebeurt. Voor stagiairs essentieel om twee vormen te kennen: het ongesplitst dagboek (alles in één) en het stelsel met hulpdagboeken (per type: aankoop, verkoop, financieel). Examenvraag draait vaak rond de juiste boekingsplaats (financieel ↔ centraal).
+
 > [!summary] Korte inhoud
 > Een **dagboek** is het chronologisch register waarin een onderneming al haar verrichtingen inschrijft op de dag dat ze gebeuren.
 
 > [!info] Behoort tot: [[regelmatige-boekhouding]]
-
-> [!info] Specialisaties (1): [[hulpdagboeken]]
 
 Een **dagboek** is het chronologisch register waarin een onderneming al haar verrichtingen inschrijft op de dag dat ze gebeuren. Twee vormen: (1) een **ongesplitst dagboek** waarin alle verrichtingen achter elkaar staan, of (2) een set **hulpdagboeken** (aankoopdagboek, verkoopdagboek, financieel dagboek, diversendagboek) waarbij elk soort verrichting in zijn eigen dagboek wordt geboekt en die periodiek (minstens maandelijks) gecentraliseerd worden in een centraal boek. Een boeking uitsluitend in de rekeningen — zonder doorgang door een dagboek — is niet toegelaten (WER art. III.84).
 
@@ -110,7 +110,7 @@ _Grondslag: CBN 174/1 — Inhoud van de boekingen_
 ## Zie ook
 
 - **Vereist kennis van**: [[verantwoordingsstuk]]
-- **Wordt voorondersteld in** (1): [[dubbel-boekhouden]]
+
 ## Voorbeelden
 
 Meubelzaak Mertens BV voert vier hulpdagboeken: aankoopdagboek (alle leveranciersfacturen, gemiddeld 40 per maand), verkoopdagboek (klantenfacturen, ~250/maand), financieel dagboek (bankuittreksels en kasstukken) en diversendagboek (afschrijvingen, herwaarderingen). Eind elke maand wordt elk dagboek gecentraliseerd in het centraal boek met één samenvattende boeking.

@@ -14,18 +14,18 @@ programmaonderdelen:
 confidence: grounded
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/minderheidsbelangen.json
 gegenereerd_op: '2026-05-18'
 ---
 # Belangen van derden (minderheidsbelangen) ⚖️
 
+Een eigen-vermogenscomponent in de geconsolideerde jaarrekening onder het Belgische boekhoudrecht (KB WVV Boek 3, Titel 2) bij integrale consolidatie. Ze maken zichtbaar dat de groep niet 100 % bezit van een dochter en scheiden het derden-deel netjes af van het moeder-aandeel.
+
 > [!summary] Korte inhoud
 > Het deel van het eigen vermogen en van het resultaat van een integraal geconsolideerde dochter dat toebehoort aan andere aandeelhouders dan de moeder of de andere dochters in de consolidatiekring.
 
 > [!info] Behoort tot: [[integrale-consolidatie]]
-
-> [!info] Bestaat uit (2): [[belangenpercentage]] · [[integrale-consolidatie]]
 
 Het deel van het eigen vermogen en van het resultaat van een integraal geconsolideerde dochter dat toebehoort aan andere aandeelhouders dan de moeder of de andere dochters in de consolidatiekring. Op de geconsolideerde balans verschijnt dat als 'Belangen van derden' aan passiefzijde; in de geconsolideerde resultatenrekening als 'Aandeel van derden in het resultaat'. Dit fenomeen ontstaat enkel bij integrale consolidatie van een dochter waarvan de moeder minder dan 100 % bezit.
 

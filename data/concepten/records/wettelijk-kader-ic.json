@@ -2,7 +2,7 @@
   "id": "wettelijk-kader-ic",
   "naam": "Wettelijk kader voor interne controle in België",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.XII.A",
@@ -11,7 +11,7 @@
     "1.7.XII"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T11:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-po1.7.XII-wave2",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.XII.A",
     "dekt_ook_anchors": [
@@ -42,7 +42,43 @@
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
-  "edges": [],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "avg-interne-controle",
+      "redenering": "AVG/GDPR-regel is een hoofdcomponent van het wettelijk IC-kader (persoonsgegevens-domein)."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "klokkenluiderregeling",
+      "redenering": "Klokkenluider-wet (28.11.2022) verplicht intern meldkanaal — een IC-bouwsteen voor middelgrote/grote ondernemingen."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "antiwitwasmeldingsplicht-accountant",
+      "redenering": "Anti-witwas-wet (18.09.2017) eist cliëntenidentificatie + monitoring — onderdeel van IC-kader op de accountancy-kant."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "public-interest-entity",
+      "redenering": "PIE-status (beursgenoteerd, financiële sector, grote onderneming) bepaalt welk regime van toepassing is — beïnvloedt audit-comité, IC-rapportering, sectoraal toezicht."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "kmo-controlenorm-accountant",
+      "redenering": "ITAA-norm voor KMO-controles concretiseert de IC-audit-aanpak binnen het Belgische kader."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "algemene-controlenorm-accountant",
+      "redenering": "Algemene ITAA-controlenorm regelt IC-begrip + toetsing bij wettelijke + contractuele audits."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "auditcomite",
+      "redenering": "WVV + Code 2020 verplichten een auditcomité bij beursgenoteerde ondernemingen — kernschakel in IC-governance."
+    }
+  ],
   "vergelijkingsparen": [],
   "gebaseerd_op_concepten": [
     "interne-controle",
@@ -50,5 +86,52 @@
     "algemene-controlenorm-accountant",
     "klokkenluiderregeling",
     "avg-interne-controle"
+  ],
+  "situering": {
+    "text": "Het wettelijk kader voor interne controle in België is geen één-stuks-wet maar een lappendeken van bronnen die elk een aspect van IC reguleren: boekhoudkundige verplichtingen (KB 21.10.2018), audit-toetsing (ITAA-normen), plichtenleer (KB 1998 + Wet ITAA 2019), persoonsgegevens (AVG), klokkenluiders (Wet 28.11.2022), witwasbestrijding (Wet 18.09.2017), corporate governance (WVV + Codes), sector-specifiek (NBB, FSMA). Voor de stagiair is het examen-relevant om te weten welke bronnen van toepassing zijn op een gegeven onderneming: een KMO valt onder een lichter regime dan een beursgenoteerde of financiële onderneming. De toets is meestal: 'gegeven deze onderneming, welke IC-verplichtingen?'.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3"
+        },
+        {
+          "id": "KB-1998-plichtenleer__art_13"
+        }
+      ]
+    }
+  },
+  "migrated_to_schema_1.6_at": "2026-05-18",
+  "valkuilen": [
+    {
+      "vaak_fout": "Eén-stuks-wet zoeken voor interne controle.",
+      "advies": "Het IC-kader is een lappendeken: KB 21.10.2018 (boekhouding), ITAA-normen (audit), KB 1998/Wet 2019 (deontologie), AVG (data), Wet 28.11.2022 (klokkenluiders), Wet 18.09.2017 (AWW), WVV + Codes (governance), NBB/FSMA (sector). Geen enkele wet dekt het geheel — toepasselijkheid hangt af van omvang + sector + status.",
+      "grondslag": "ITAA-norm-kmo-controlenorm §bijlage-1-definities + KB-1998-plichtenleer art. 13",
+      "confidence": "inferred-from-aggregation"
+    },
+    {
+      "vaak_fout": "Beursgenoteerde-regime toepassen op een KMO.",
+      "advies": "Eerst categoriseren: KMO of grote onderneming (WVV-criteria), PIE-status (beursgenoteerd of financieel), sectoraal toezicht (NBB/FSMA). Pas dan het regime aanvoeren. Veel verplichtingen (auditcomité, geconsolideerde verklaring inzake corporate governance, klokkenluiderkanaal) gelden alleen boven drempels.",
+      "grondslag": "[[public-interest-entity]]",
+      "confidence": "inferred-from-aggregation"
+    },
+    {
+      "vaak_fout": "De ITAA-normen vergeten als rechtsbron.",
+      "advies": "ITAA-beroepsnormen zijn formeel reglementair: vastgesteld door het ITAA en goedgekeurd bij ministerieel besluit. Een accountant die ze niet naleeft kan tuchtrechtelijk worden vervolgd. Geen vrijblijvende good practice.",
+      "grondslag": "Wet-ITAA-2019 art. 31 + KB-1998-plichtenleer",
+      "confidence": "inferred-from-aggregation"
+    }
+  ],
+  "kerninzichten": [
+    "Toepasselijkheid van het IC-kader hangt af van drie variabelen: omvang (KMO vs groot), PIE-status (beursgenoteerd / financieel / zorg) en sector (NBB/FSMA-toezicht). Eerst classificeren, dan regime toepassen.",
+    "Belgische IC-regelgeving bestaat uit drie lagen: algemene bedrijfswetgeving (WVV, KB boekhouding), domein-specifieke wetten (AVG, AWW, klokkenluiders) en beroepsnormen (ITAA, IBR). Alle drie zijn in principe afdwingbaar.",
+    "ITAA-normen + KB plichtenleer 1998 zijn formele rechtsbronnen — niet vrijblijvend — en samen met de Wet ITAA 2019 de kern van de deontologische IC-pijler.",
+    "Internationale standaarden (ISA, ISQM 1, IFRS) gelden via de Belgische omzetting: ISA via KB-jaarrekening-controle voor commissaris, ISQM 1 via ITAA-norm intern kwaliteitsmanagement, AVG rechtstreeks Europees."
+  ],
+  "in_praktijk": [
+    "Begin elk IC-dossier met een classificatie-vraag: KMO of groot? PIE? Sectorgereguleerd? Dit bepaalt 80% van wat van toepassing is.",
+    "Voor een typische Belgische KMO: KB 21.10.2018 + AVG + (eventueel) ITAA-controlenorm via de externe accountant. Geen auditcomité, geen geconsolideerde governance-verklaring, geen klokkenluiderkanaal tot 50+ werknemers.",
+    "Voor een beursgenoteerde NV: bovenop het KMO-pakket nog WVV-auditcomité, IC-verklaring in het jaarverslag, Code 2020 'pas toe of leg uit', ISA-volle audit + ISQM 1-kwaliteitsbeheersing bij het kantoor.",
+    "Voor een bank/verzekeraar: NBB-/FSMA-specifieke IC-vereisten (intern controleverslag, compliance-functie, risicofunctie) komen bovenop alles. Dit valt grotendeels buiten de scope van de stagiair GA, maar weet dat het bestaat."
   ]
 }

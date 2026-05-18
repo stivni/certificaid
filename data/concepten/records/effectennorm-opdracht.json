@@ -8,7 +8,8 @@
   "linked_anchors": [
     "1.6.I.A",
     "1.6.I.B",
-    "1.6.I.C"
+    "1.6.I.C",
+    "1.7.taak.1"
   ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-18T16:05Z",
@@ -19,7 +20,9 @@
       "1.6.I.B",
       "1.6.I.C"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "cross_linked_1.7.taak.1": "2026-05-18T18:00Z",
+    "cross_link_reason": "Anchor 1.7.taak.1 (bijzondere verslagen / juridisch-contractuele opdrachten) dekt expliciet deze opdracht-records."
   },
   "definitie": {
     "text": "De effectennorm-opdracht is een gedeelde wettelijk voorbehouden beoordelingsopdracht bij specifieke vennootschapsrechtelijke verrichtingen — uitgifte van nieuwe aandelen, converteerbare obligaties of inschrijvingsrechten, wijziging of opheffing van het voorkeurrecht, en wijziging van de rechten verbonden aan aandelensoorten. De beroepsbeoefenaar verschaft een beperkte mate van zekerheid over of de financiële en boekhoudkundige gegevens in het bestuursverslag in alle van materieel belang zijnde opzichten getrouw en voldoende zijn, zodat de aandeelhouders met geïnformeerde toestemming (informed consent) kunnen beslissen.",

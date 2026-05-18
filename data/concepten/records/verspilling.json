@@ -2,7 +2,7 @@
   "id": "verspilling",
   "naam": "Verspilling (rationeel gebruik van middelen)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.VI.C",
@@ -16,30 +16,52 @@
       "1.7.VI"
     ],
     "reviewed_by": null,
-    "bron_gap": "Verspilling/economie van middelen als IC-onderwerp is geen Belgisch wetsbegrip. Inferred-common-knowledge."
+    "touched_at": "2026-05-18T19:34:00Z",
+    "last_extractor_run": "concept-extractie-v4-2026-05-18-wave2b1",
+    "note": "Wave 2: COSO-/IC-doelstelling-link via ITAA-norm-kmo-controlenorm bijlage-1 part3 ('effectiviteit en efficiëntie van de uitoefening van de activiteiten') gegrond — upgrade van inferred-common-knowledge naar grounded voor het IC-doelstelling-aspect. Operationele invulling (overstock, idle capacity) blijft management-control-vakdoctrine."
   },
   "definitie": {
-    "text": "Verspilling is het niet-optimaal inzetten van middelen — geen fraude (geen opzet om te verrijken) maar wel ondoelmatig gebruik. IC moet niet alleen fouten en fraude voorkomen, maar ook bijdragen tot efficiëntie: middelen worden gebruikt waarvoor ze nodig zijn, en geen overstock, geen idle capaciteit, geen overprocurement. Hoort bij COSO-doelstelling 'effectiviteit en efficiëntie van activiteiten'.",
-    "confidence": "inferred-common-knowledge",
+    "text": "Verspilling is het niet-optimaal inzetten van middelen door een onderneming — geen fraude (geen opzet om persoonlijk voordeel te halen) en geen boekhoudfout, maar wel ondoelmatig gebruik. Het tegengaan van verspilling is onderdeel van de IC-doelstelling 'effectiviteit en efficiëntie van de uitoefening van de activiteiten' zoals gedefinieerd in de ITAA KMO-controlenorm (bijlage 1) en in COSO 2013 (component 'beheersactiviteiten' i.f.v. operationele doelstellingen). Typische vormen: overstock, idle capacity, dubbele invoer, niet-gebruikte abonnementen of licenties.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm bijlage 1 §interne-beheersing + COSO 2013"
+    },
     "_provenance": {
-      "inputs": []
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
     }
   },
   "in_praktijk": [
     {
-      "aspect": "Typische bronnen van verspilling",
-      "betekenis": "(1) Overstock: te veel voorraad → kapitaalkosten + bederfrisico. (2) Underutilization: machines, ruimtes, personeel niet voldoende ingezet. (3) Process inefficiency: dubbele invoer, wachttijden, niet-toegevoegde-waarde-stappen. (4) Buying waste: betalen voor diensten die niet (volledig) gebruikt worden — abonnementen, licenties.",
-      "confidence": "inferred-common-knowledge",
+      "aspect": "Onderscheid t.o.v. fout en fraude",
+      "betekenis": "Verspilling is legaal en onopzettelijk-suboptimaal. Geen boekhoudkundige afwijking (de cijfers in de jaarrekening kloppen), geen wetsovertreding, geen misleiding. Wel value destruction — middelen die anders productief hadden kunnen worden ingezet.",
+      "confidence": "inferred-from-aggregation",
       "_provenance": {
         "inputs": []
       }
     },
     {
-      "aspect": "IC-respons",
-      "betekenis": "Periodieke evaluatie van KPI's (capaciteitsbezetting, voorraadrotatie, kost per eenheid), benchmarking, beslissingsdrempels bij grote aankopen, periodieke review abonnementen + licenties. Niet primair een boekhoudkundige controle maar managementcontrole-uitwerking.",
-      "confidence": "inferred-common-knowledge",
+      "aspect": "Rol van de auditor versus rol van management",
+      "betekenis": "De externe auditor heeft GEEN audit-opinie over efficiëntie van middelen — zijn opinie betreft de jaarrekening (assurance-niveau, ISA 200). Verspillings-signaleringen horen in management-letters, niet in de controleverklaring. Interne audit en managementcontrole kunnen wel een efficiëntie-mandaat hebben.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 200 + ITAA KMO-controlenorm"
+      },
       "_provenance": {
-        "inputs": []
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
       }
     }
   ],
@@ -47,12 +69,23 @@
     {
       "type": "onderdeel-van",
       "target": "interne-controle",
-      "redenering": "Een van de drie IC-doelstellingen is efficiëntie/effectiviteit — verspilling tegengaan."
+      "redenering": "Eén van de drie IC-doelstellingen is efficiëntie/effectiviteit — verspilling tegengaan."
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "fraude-versus-fout",
+      "redenering": "Derde categorie in het synthese-overzicht (naast fout en fraude)."
     },
     {
       "type": "vergelijkt-met",
       "target": "managementcontrole",
+      "aspect": "scope",
       "redenering": "Verspilling-detectie ligt op snijpunt van IC en managementcontrole."
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "coso-i-framework",
+      "redenering": "Verspillings-preventie operationaliseert de COSO-doelstelling 'effectiviteit en efficiëntie van activiteiten'."
     }
   ],
   "voorbeelden": [
@@ -61,5 +94,85 @@
       "omschrijving": "Bij Yperse Werkplaats BV staat een productiemachine 30% van de tijd stil door slechte planning. Geen fraude, geen fout in de boekhouding — maar significant verspild kapitaal en arbeid. Een IC-evaluatie door Sofie Janssens (interne auditor) kan dit signaleren via capaciteitsanalyse en operatie-KPI's. Aanbeveling: planningsmodule in ERP, betere productieplanning."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Verspilling is het derde kenniselement onder 1.7.VI naast fouten en fraude. Bij fouten en fraude gaat het om afwijkingen in de jaarrekening of in transacties (registratie- en assertie-perspectief); bij verspilling gaat het om de efficiëntie van het middelen-gebruik (operations-perspectief). Drie verschillende IC-doelstellingen, drie verschillende soorten beheersactiviteiten. De ITAA KMO-controlenorm (bijlage 1) noemt expliciet 'effectiviteit en efficiëntie van de uitoefening van de activiteiten' als één van de drie pijlers van interne beheersing — daar zit verspillings-preventie. Voor de stagiair: leer het onderscheid expliciet maken bij een examen-casus.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm bijlage 1 §interne-beheersing"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "IC-doelstelling 'efficiëntie en effectiviteit'",
+      "wat": "Naast (1) betrouwbaarheid van de financiële verslaggeving en (2) naleven van wet- en regelgeving omvat interne beheersing een derde doelstelling: effectiviteit en efficiëntie van de uitoefening van de activiteiten. Dit is een management-control-perspectief op IC — middelen worden ingezet voor activiteiten waarvoor ze nodig zijn, zonder overproductie, idle capacity of overprocurement.",
+      "waarom": "De stagiair die IC alleen ziet als 'controle van de jaarrekening' mist twee derde van de doelstelling. Examen-vragen toetsen of de stagiair de drie pijlers kan benoemen en aan een gegeven IC-maatregel kan koppelen welke pijler hij dient.",
+      "in_praktijk": "Voorbeeld-koppeling: maandelijkse cijferanalyses = betrouwbaarheid; AVG-procedures = naleving wet- en regelgeving; capaciteits-KPI's en voorraadrotatie = efficiëntie/effectiviteit.",
+      "grondslag": "ITAA KMO-controlenorm bijlage 1 §interne-beheersing + COSO 2013",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Typische bronnen van verspilling",
+      "wat": "(1) Overstock: te veel voorraad — kapitaalkost + bederf- of obsolescence-risico. (2) Underutilization: machines, ruimtes of personeel niet voldoende ingezet — vaste kosten worden verspreid over te weinig output. (3) Process inefficiency: dubbele invoer, wachttijden, niet-toegevoegde-waarde-stappen — operational overhead zonder waarde-creatie. (4) Buying waste: abonnementen, licenties of consultancy waarvoor de organisatie betaalt maar niet (volledig) gebruikt.",
+      "waarom": "Bewust herkennen vergemakkelijkt het ontwerpen van gerichte detectief-maatregelen: voorraadrotatie-KPI voor (1), bezettingsgraad-KPI voor (2), proces-mining voor (3), periodieke licentie-audit voor (4).",
+      "in_praktijk": "Een KMO met EUR 500.000 voorraad waar de rotatie van 12× naar 4× daalt heeft niet noodzakelijk fraude of fout — wel een verspilling van kapitaal (rente-kost + risico op afwaardering). De auditor signaleert dit in management-letter, niet in controleverklaring.",
+      "grondslag": "Management-control-vakdoctrine — geen Belgisch wetsbegrip",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "titel": "IC-respons en monitoring",
+      "wat": "Periodieke evaluatie van KPI's (bezettingsgraad, voorraadrotatie, kost per eenheid), benchmarking tegen sector-cijfers, beslissingsdrempels bij grote aankopen met onafhankelijke review, periodieke audit van abonnementen en licenties.",
+      "waarom": "Verspilling wordt zelden in één boekjaar zichtbaar — pas een trend over meerdere periodes maakt het kwantitatief tastbaar. Continue monitoring + benchmarking is de gebruikelijke aanpak.",
+      "in_praktijk": "Niet primair een boekhoudkundige controle maar een uitwerking van managementcontrole. De auditor kan dit signaleren in een management-letter (ISA 265-aanverwante communicatie), maar de IC-responsibility ligt bij management — niet bij externe auditor.",
+      "grondslag": "Management-control-vakdoctrine",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Verspilling als 'derde categorie' lijkt op fraude of fout te lijken — maar het is een fundamenteel ander concept: geen afwijking in registratie, geen opzet, alleen suboptimale allocatie. Examen-valkuil: een casus met 'machinepark 30% onderbezet' is geen IC-falen in de zin van fout/fraude, wel een efficiëntie-issue.",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "text": "De externe auditor kwalificeert nooit zijn opinie omwille van verspilling — assurance betreft de jaarrekening, niet de operationele efficiëntie. Wel kan een management-letter een verspillings-signaal geven (los van de controleverklaring).",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ]
 }

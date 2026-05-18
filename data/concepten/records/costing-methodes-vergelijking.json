@@ -2,7 +2,7 @@
   "id": "costing-methodes-vergelijking",
   "naam": "Kostencalculatiemethoden vergeleken",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.III",
@@ -59,31 +59,24 @@
       }
     }
   ],
-  "edges": [
-    {
-      "type": "bevat",
-      "target": "volledige-kostencalculatie",
-      "redenering": "Een van de vergeleken methodes.",
-      "confidence": "inferred"
+  "edges": [],
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "situering": {
+    "text": "Vier centrale kostprijscalculatie-methodes — volledige (full costing), gedeeltelijke (direct costing), voorbepaalde (standaardkosten) en activiteit-gebaseerde (ABC) — vergeleken op scope, voorraadwaardering, bruikbaarheid en wettelijke status. Een synthese-record dat de keuze tussen methodes structureert: ondernemingen combineren typisch full costing voor jaarrekening + direct costing voor sturing + standaardkosten voor budgetopvolging + ABC voor portfolio-analyse.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting + CBN 132/7 + CBN 2012/15"
     },
-    {
-      "type": "bevat",
-      "target": "direct-costing",
-      "redenering": "Een van de vergeleken methodes.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "voorbepaalde-kosten",
-      "redenering": "Een van de vergeleken methodes.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "abc-methode",
-      "redenering": "Een van de vergeleken methodes.",
-      "confidence": "inferred"
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
     }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  }
 }

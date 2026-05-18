@@ -19,18 +19,18 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/liquiditeitsratio.json
 gegenereerd_op: '2026-05-18'
 ---
 # Liquiditeitsratio (begrip) 🤖
 
+Liquiditeitsratio = verzamelnaam voor de ratio's die meten of een onderneming haar korte-termijn-verplichtingen kan voldoen met haar vlottende activa: current ratio (alle vlottende activa), quick ratio (zonder voorraden) en cash ratio (alleen cash + geldbeleggingen). In de analyse worden current en quick altijd samen gelezen.
+
 > [!summary] Korte inhoud
 > Een liquiditeitsratio is een verhoudingsgetal dat de capaciteit van de vennootschap meet om haar schulden op korte termijn (≤ 1 jaar) te betalen met haar vlottende activa of een deel ervan.
 
 > [!info] Behoort tot: [[doelstellingen-financiele-analyse]]
-
-> [!info] Bestaat uit (3): [[current-ratio]] · [[quick-ratio]] · [[werkkapitaal]]
 
 Een liquiditeitsratio is een verhoudingsgetal dat de capaciteit van de vennootschap meet om haar schulden op korte termijn (≤ 1 jaar) te betalen met haar vlottende activa of een deel ervan. Het is een categorie van ratio's, geen één enkel cijfer.
 
@@ -78,3 +78,4 @@ _Grondslag: Vakdoctrine_
 ## Bronnen
 
 [^1]: `anchor-1.3.II.C`
+[^2]: `aggregate`

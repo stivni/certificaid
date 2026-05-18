@@ -2,7 +2,7 @@
   "id": "boekhoudplichtige-onderneming",
   "naam": "Boekhoudplichtige onderneming",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.III",
@@ -184,5 +184,7 @@
       "omschrijving": "Praktijk Persenaire (eenmanszaak vrij beroep), Meubelzaak Mertens BV (vennootschap) en VZW Quelle de Vie (vereniging met economische activiteit) zijn alle drie boekhoudplichtige onderneming."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "Eerste filter in élk boekhouddossier: is deze entiteit überhaupt onderworpen aan Boek III WER? Voor de stagiair-GA bepaalt dit antwoord of er een dubbele boekhouding moet, of een vereenvoudigde, of geen. De definitie (WER art. III.82) is ruim maar kent enkele uitzonderingen die regelmatig getoetst worden (kleine landbouwers, vrije beroepen onder drempels).",
+  "naam_alternatief": "undertaking subject to accounting obligations / entreprise assujettie à l'obligation comptable"
 }

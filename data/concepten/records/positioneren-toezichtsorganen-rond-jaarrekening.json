@@ -2,7 +2,7 @@
   "id": "positioneren-toezichtsorganen-rond-jaarrekening",
   "naam": "Positioneren van de toezichtsorganen rond de jaarrekening",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Positioneren van de toezichtsorganen rond de jaarrekening",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -217,5 +217,26 @@
     "1.3.I.D.4",
     "1.3.I.D.5"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "naam_alternatief": [
+    "Position supervisory bodies around annual accounts"
+  ],
+  "situering": {
+    "text": "Competentie om de rolverdeling tussen bestuursorgaan, commissaris, algemene vergadering, ondernemingsraad en Kamer voor ondernemingen in moeilijkheden te kennen. De stagiair leert wie wat doet (opstelling vs. controle vs. goedkeuring vs. informatieverstrekking vs. signaaldetectie) en wanneer elk orgaan verplicht is op basis van omvang en vorm.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Examenprogramma 1.3 — competentie"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.III",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

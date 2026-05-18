@@ -15,11 +15,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opstellen-bijzondere-verslagen-en-ic-evaluaties.json
 gegenereerd_op: '2026-05-18'
 ---
 # Opstellen van bijzondere verslagen en IC-evaluaties voor specifieke verrichtingen 🤖
+
+Deze competentie raakt aan de wettelijk voorbehouden opdrachten van de gecertificeerd accountant: bijzondere verslagen bij specifieke vennootschapsrechtelijke verrichtingen (inbreng in natura, quasi-inbreng, fusie, splitsing, ontbinding, omzetting, uitkering uit reserves). Voor de stagiair is het centraal om snel te kunnen identificeren welk verslag vereist is gegeven een verrichting, welke wettelijke grondslag het verslag stuurt (WVV-artikel + ITAA-norm), en hoe de IC-evaluatie van de specifieke verrichting in het verslag wordt verwerkt. Examen-vragen toetsen meestal: 'gegeven deze verrichting, welk verslag?' of 'welke waarderingstoets is vereist?'.
 
 
 ## Stappen
@@ -181,3 +183,6 @@ Stel het verslag op volgens WVV-vereisten, onderteken het met datum en handteken
 
 
 
+## Bronnen
+
+[^1]: `ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen`

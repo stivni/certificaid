@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/financiering-met-eigen-vermogen.json
 gegenereerd_op: '2026-05-18'
 ---
 # Financiering met eigen vermogen 🤖
+
+Middelen ingebracht door aandeelhouders of door de onderneming gereserveerd: kapitaal, uitgiftepremies, herwaarderingsmeerwaarden, reserves, overgedragen resultaat (rubrieken 10/15). Vormt de stabiliteitsbasis van de financieringsstructuur — geen contractuele aflossing, draagt onbeperkt verlies. Solvabiliteit = eigen vermogen / totaal vermogen.
 
 > [!summary] Korte inhoud
 > Financiering met eigen vermogen verzamelt alle middelen die door de aandeelhouders zijn ingebracht of in de onderneming gereserveerd.

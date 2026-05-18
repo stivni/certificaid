@@ -17,11 +17,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kwalificeren-relatie-deelneming.json
 gegenereerd_op: '2026-05-18'
 ---
 # Kwalificeren van de relatie met een deelneming (controle, gezamenlijke controle of invloed van betekenis) 🤖
+
+Een kwalificatie-competentie binnen het Belgische vennootschaps- en boekhoudrecht (WVV + KB WVV Boek 3, Titel 2). De stagiair beoordeelt — op basis van stemrechten, overeenkomsten en feitelijke invloed — of er sprake is van controle, gezamenlijke controle, invloed van betekenis of een loutere financiële belegging.
 
 
 ## Stappen

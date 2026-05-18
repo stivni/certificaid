@@ -2,21 +2,22 @@
   "id": "informatie-kwaliteit-ic",
   "naam": "Informatie en haar kwaliteitseisen",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.II.D",
     "1.7.II"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T11:53Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave2-1.7.II",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.II.D",
     "dekt_ook_anchors": [
       "1.7.II"
     ],
     "reviewed_by": null,
-    "bron_gap": "Kwaliteitseisen informatie (relevant, betrouwbaar, tijdig, volledig, begrijpelijk) sluiten aan bij IFRS conceptual framework en COSO; geen specifieke Belgische bron. Inferred-common-knowledge."
+    "bron_gap": "Kwaliteitseisen informatie (relevant, betrouwbaar, tijdig, volledig, begrijpelijk) sluiten aan bij IFRS conceptual framework en COSO; geen specifieke Belgische bron. Inferred-common-knowledge.",
+    "touched_at": "2026-05-18T19:00:00Z"
   },
   "definitie": {
     "text": "Informatie in IC-context is verwerkte data die geschikt is voor besluitvorming en rapportering. Voor bruikbaarheid moet ze voldoen aan kwaliteitseisen: (1) relevant — raakt de te nemen beslissing; (2) betrouwbaar — accuraat, neutraal, verifieerbaar; (3) tijdig — beschikbaar wanneer nodig; (4) volledig — geen kritieke ontbrekende elementen; (5) begrijpelijk — formaat past bij gebruiker.",
@@ -38,5 +39,67 @@
       "omschrijving": "Bij Yperse Werkplaats BV is een maandrapport drie weken te laat = niet tijdig → kan beslissingen niet sturen → niet bruikbaar voor IC. Als de gebruikte omzetgegevens steekproefachtig zijn en niet 100% van het boekjaar = niet volledig → vertekend beeld. Een rapport in technische jargon voor directie zonder financiële achtergrond = niet begrijpelijk → genegeerd."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Informatiekwaliteit is in PO 1.7 de minimumvoorwaarde voor zinvolle managementbeslissing en betrouwbare rapportering. Voor de stagiair komt dit overal terug: ISA 500 stelt kwaliteitseisen aan audit-evidence; ISA 315 vereist dat hij beoordeelt of de cliënt-informatie betrouwbaar is; bij adviesopdrachten is dit waarom een KPI 'zonder bron' geen managementbeslissing kan dragen. Examen-vragen testen vooral de vijf criteria (relevant, betrouwbaar, tijdig, volledig, begrijpelijk) en hoe te toetsen.",
+    "confidence": "inferred",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Vijf kwaliteitscriteria",
+      "wat": "(1) Relevant — raakt de beslissing. (2) Betrouwbaar — accuraat, neutraal, verifieerbaar. (3) Tijdig — op tijd voor de beslissing. (4) Volledig — geen kritieke elementen ontbreken. (5) Begrijpelijk — formaat past bij gebruiker.",
+      "waarom": "Een rapport dat één van de vijf mist is potentieel misleidend. Voor de externe auditor zijn (2) en (4) zwaarder; voor managementgebruik wegen (1) en (3) zwaarder.",
+      "grondslag": "ISA 315 Bijlage 3 §17 + algemene bedrijfsdoctrine",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_bijlage-3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Bron-traceerbaarheid",
+      "wat": "Voor elke beslissingscijfer moet de oorspronkelijke registratiebron achterhaalbaar zijn (audit trail).",
+      "waarom": "Zonder bron-trace kan niemand later achterhalen of een cijfer accuraat is — fataal voor zowel managementbeslissingen als audit.",
+      "in_praktijk": "Stagiair-test: vraag voor één KPI 'waar komt dit cijfer vandaan?'. Geen antwoord of vage 'het rapport zegt het' = kwaliteitsval.",
+      "grondslag": "ISA 500 + COBIT IT-audit-richtlijnen",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "titel": "Kwaliteit van controle-informatie (ISA 500)",
+      "wat": "ISA 500 vereist dat de auditor 'voldoende en geschikte' controle-informatie verkrijgt. 'Voldoende' = kwantiteit (genoeg bewijsstukken, schaalt met ingeschatte risico). 'Geschikt' = kwaliteit, met twee dimensies: (a) relevant — de informatie raakt de bewering die getoetst wordt; (b) betrouwbaar — afhankelijk van bron, aard en omstandigheden (origineel > kopie; extern > intern; geschreven > mondeling).",
+      "waarom": "De kwaliteitseisen aan auditbewijs zijn de externe-audit-vertaling van de algemene informatie-kwaliteitseisen op managementniveau. Begrip van beide laat de stagiair zien waarom een betrouwbaar IS bij de cliënt rechtstreeks de auditefficiency raakt.",
+      "in_praktijk": "Cliënt-rapport zonder audit trail naar onderliggende facturen = niet 'voldoende en geschikt' — auditor moet dan eigen detailtest doen.",
+      "grondslag": "ISA 500 §6-§9",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-500__sec_vereisten",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Kwaliteit verwarren met volume: 'we hebben heel veel data' bewijst geen kwaliteit. Een rapport van 50 pagina's met onverifiabele cijfers is informatie-kwantiteit zonder kwaliteit.",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ]
 }

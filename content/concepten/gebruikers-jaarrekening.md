@@ -15,11 +15,13 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/gebruikers-jaarrekening.json
 gegenereerd_op: '2026-05-18'
 ---
 # Gebruikers van de jaarrekening 🤖
+
+De jaarrekening kent meerdere primaire gebruikers — aandeelhouders, kredietverleners, leveranciers, werknemers, fiscus, overheid — elk met een ander informatie-belang. Geen analyse is goed of slecht in het abstracte: ze is goed of slecht vanuit het perspectief van een specifieke gebruiker.
 
 > [!summary] Korte inhoud
 > De jaarrekening wordt opgesteld voor en gebruikt door verschillende belanghebbenden met uiteenlopende informatiebehoeften.
@@ -124,10 +126,11 @@ _Grondslag: WVV + KB WVV (publicatie)_
 ## Zie ook
 
 - **Vereist kennis van**: [[doelstellingen-financiele-analyse]]
-- **Wordt voorondersteld in** (1): [[intake-financiele-analyse]]
+
 ## Bronnen
 
 [^1]: `CBN-2018-15-boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen__sec_a-algemeen`
 [^2]: `CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_de-jaarrekening`
 [^3]: `anchor-1.3.I.B`
 [^4]: `WIB92__art_321/1__sub_13deg`
+[^5]: `aggregate`

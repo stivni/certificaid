@@ -1,7 +1,8 @@
 {
   "id": "verkoopcyclus-ic",
-  "naam": "Verkoopcyclus — interne controle",
-  "node_type": "procedure",
+  "naam": "Verkoopcyclus en interne controle",
+  "naam_alternatief": "order-to-cash (O2C)",
+  "node_type": "cluster",
   "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
@@ -9,61 +10,273 @@
     "1.7.IX"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T10:34Z",
+    "extractor_run": "concept-extractie-v4-wave2-1.7.IX-20260518T202200Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.IX.C",
     "dekt_ook_anchors": [
       "1.7.IX"
     ],
     "reviewed_by": null,
-    "bron_gap": "Cyclusanalyse — auditvakdoctrine. Inferred-common-knowledge."
+    "bron_gap": "Cyclusanalyse — auditvakdoctrine.",
+    "last_touched_at": "2026-05-18T20:24:21.214647Z"
   },
-  "verplichting": "Boekhoudkundige + btw-verplichtingen (correcte facturen, tijdige uitreiking).",
-  "stappen": [
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_from_procedure_at": "2026-05-18T18:33:38Z",
+  "situering": "De verkoopcyclus is de keten van order tot inning van klantvorderingen. Interne controle focust op vermijden van fictieve omzet, niet-gefactureerde leveringen, oneigenlijke kortingen en oninbare vorderingen. Cut-off rond balansdatum is kritisch voor de juistheid van de resultatenrekening. Stagiairs komen dit tegen bij walkthroughs van het sales-proces en bij analytische review van DSO-evolutie.",
+  "definitie": {
+    "text": "Interne controle in de verkoopcyclus is het geheel van maatregelen die de stadia order → kredietacceptatie → levering → facturatie → inning beheersen, met als doel fictieve omzet, niet-gefactureerde leveringen, cut-off-fouten en oninbare vorderingen te voorkomen of te detecteren.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "verplichting": "Boekhoudkundige verplichtingen (KB 21.10.2018); btw-verplichtingen op factuurinhoud en uitreikingstermijn (WBTW art. 53 e.v.).",
+  "bouwstenen": [
     {
-      "nr": 1,
-      "titel": "Klantenacceptatie + krediettoekenning",
-      "wat": "Toets vooraf de kredietwaardigheid van de klant; ken een kredietlimiet toe.",
-      "waarom": "Levering zonder kredietcheck = risico op oninbare vordering.",
-      "hoe": "1. Nieuwe klant: doe due-diligence (KBO, jaarrekening, kredietverzekeraar).\n2. Bepaal kredietlimiet op basis van solvabiliteit en sector.\n3. ERP blokkeert leveringen aan klanten in over-limit of in mora.",
-      "grondslag": "Audit-cyclus-doctrine"
+      "titel": "Kredietacceptatie en kredietlimiet",
+      "wat": "De kredietwaardigheid van een klant wordt vooraf getoetst en vertaald in een kredietlimiet die het ERP-systeem afdwingt.",
+      "waarom": "Leveren zonder kredietcheck vergroot het risico op oninbare vorderingen; de limiet werkt als preventieve controle.",
+      "in_praktijk": "Bij een nieuwe klant raadpleegt de salesverantwoordelijke de KBO en de jaarrekening; bij grote bedragen wordt een kredietverzekeraar geconsulteerd. Het ERP-systeem blokkeert automatisch leveringen aan klanten in over-limit of in mora.",
+      "grondslag": "Audit-cyclus-doctrine + boekhoudkundige voorzichtigheid",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
-      "nr": 2,
-      "titel": "Order + leveringsautorisatie",
-      "wat": "Order aanvaarden + magazijn-uitlevering autoriseren.",
-      "waarom": "Levering zonder geldige order = leveringen op naam van fictieve klant, of leveringen die later 'vergeten' worden te factureren.",
-      "hoe": "1. Sales tekent order; ERP creëert delivery note.\n2. Magazijn levert uit op basis van delivery note (geen 'mondelinge instructie').",
-      "grondslag": "Functiescheiding-doctrine"
+      "titel": "Order-levering-facturatie-match",
+      "wat": "Order, levering en factuur worden tegen elkaar afgezet — een spiegel van de three-way match aan de aankoopzijde.",
+      "waarom": "Detecteert leveringen zonder factuur, facturen zonder levering en cut-off-fouten rond balansdatum.",
+      "in_praktijk": "Het ERP genereert maandelijks een lijst van delivery notes zonder bijhorende factuur; cut-off rond 31 december wordt apart gecontroleerd.",
+      "grondslag": "Audit-doctrine + WBTW factureringsverplichting",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
-      "nr": 3,
-      "titel": "Levering + facturatie",
-      "wat": "Goederen leveren tegen ondertekende leveringsbon; factuur uitschrijven binnen 15 dagen (BTW-vereiste).",
-      "waarom": "Time-gap tussen levering en factuur is fraude-risico (cut-off): omzet niet boeken in juiste periode.",
-      "hoe": "1. Klant tekent leveringsbon bij ontvangst.\n2. ERP genereert automatisch factuur uit delivery note.\n3. Maandelijks bestand: alle delivery notes zonder factuur — onderzoeken.",
-      "grondslag": "WBTW + cut-off-doctrine"
+      "titel": "Functiescheiding sales-levering-facturatie-inning",
+      "wat": "De rollen verkoper, magazijnier, facturator en inner worden door verschillende personen ingevuld.",
+      "waarom": "Wie verkoopt én factureert kan kortingen toekennen aan zichzelf bevriende klanten; wie factureert én int kan ontvangen bedragen onderscheppen.",
+      "grondslag": "[[functiescheiding]] §toepassing-verkoop",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
-      "nr": 4,
-      "titel": "Inning + opvolging",
-      "wat": "Klant betaalt; bij niet-tijdige betaling herinnering + ingebrekestelling.",
-      "waarom": "Vorderingen zonder follow-up worden oninbaar; cijferanalyse (DSO) detecteert problemen.",
-      "hoe": "1. Wekelijks: aged-receivables-rapport.\n2. > 30 dagen: herinnering.\n3. > 60 dagen: ingebrekestelling.\n4. > 90 dagen: juridische actie + voorziening voor dubieuze debiteuren.",
-      "grondslag": "Boekhoudkundige voorzichtigheid"
+      "titel": "Aged-receivables-opvolging",
+      "wat": "Wekelijkse rapportering van uitstaande klantenvorderingen per ouderdomsbucket triggert herinneringen, ingebrekestellingen en voorzieningen.",
+      "waarom": "Vorderingen zonder follow-up worden oninbaar; cijferanalyse via DSO detecteert sluipende problemen.",
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Yperse Werkplaats BV stuurt boekhouder Cindy Demeyer op dag 31 een herinnering, op dag 61 een ingebrekestelling, en op dag 91 wordt de vordering doorgegeven aan de juridische dienst van Helena Devos en wordt een voorziening voor dubieuze debiteuren geboekt.",
+          "cast": [
+            "Yperse Werkplaats BV",
+            "Cindy Demeyer",
+            "Helena Devos"
+          ],
+          "confidence": "inferred-common-knowledge"
+        }
+      ],
+      "grondslag": "Boekhoudkundige voorzichtigheid (KB 21.10.2018)",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ],
+  "berekeningsmethode": [
+    {
+      "naam": "Procesgang verkoopcyclus — stappen + IC-haakpunten",
+      "stappen": [
+        {
+          "nr": 1,
+          "titel": "Klantenacceptatie en krediettoekenning",
+          "wat": "Toets vooraf de kredietwaardigheid van de klant; ken een kredietlimiet toe.",
+          "waarom": "Levering zonder kredietcheck verhoogt het risico op oninbare vordering.",
+          "input": [
+            {
+              "artefact": "Klantvoorstel",
+              "veld": "KBO-data, jaarrekening",
+              "type": "due-diligence"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Klantmaster",
+              "veld": "kredietlimiet",
+              "type": "ERP-masterdata"
+            }
+          ],
+          "hoe": "1. Nieuwe klant: doe due-diligence (KBO, jaarrekening, kredietverzekeraar).\n2. Bepaal kredietlimiet op basis van solvabiliteit en sector.\n3. ERP blokkeert leveringen aan klanten in over-limit of in mora.",
+          "grondslag": "Audit-cyclus-doctrine"
+        },
+        {
+          "nr": 2,
+          "titel": "Order en leveringsautorisatie",
+          "wat": "Order aanvaarden en magazijn-uitlevering autoriseren.",
+          "waarom": "Levering zonder geldige order leidt tot leveringen op naam van fictieve klanten of leveringen die later worden 'vergeten' te factureren.",
+          "input": [
+            {
+              "artefact": "Order",
+              "veld": "klant, artikel, hoeveelheid, prijs",
+              "type": "ERP-record"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Delivery note",
+              "veld": "ondertekening sales",
+              "type": "ERP-record"
+            }
+          ],
+          "hoe": "1. Sales tekent order; ERP creëert delivery note.\n2. Magazijn levert uit op basis van delivery note (geen mondelinge instructie).",
+          "grondslag": "[[functiescheiding]] §sales-levering"
+        },
+        {
+          "nr": 3,
+          "titel": "Levering en facturatie",
+          "wat": "Goederen leveren tegen ondertekende leveringsbon; factuur uitschrijven binnen 15 dagen (btw-vereiste).",
+          "waarom": "Time-gap tussen levering en factuur is fraude-risico (cut-off): omzet niet boeken in juiste periode.",
+          "input": [
+            {
+              "artefact": "Delivery note",
+              "veld": "ondertekening klant",
+              "type": "ERP-record"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Verkoopfactuur",
+              "veld": "btw-conform",
+              "type": "boeking"
+            }
+          ],
+          "hoe": "1. Klant tekent leveringsbon bij ontvangst.\n2. ERP genereert automatisch factuur uit delivery note.\n3. Maandelijks: alle delivery notes zonder factuur onderzoeken.",
+          "grondslag": "WBTW + cut-off-doctrine"
+        },
+        {
+          "nr": 4,
+          "titel": "Inning en opvolging",
+          "wat": "Klant betaalt; bij niet-tijdige betaling herinnering, ingebrekestelling en eventueel juridische actie.",
+          "waarom": "Vorderingen zonder follow-up worden oninbaar; cijferanalyse (DSO) detecteert problemen.",
+          "input": [
+            {
+              "artefact": "Aged-receivables-rapport",
+              "veld": "ouderdom per klant",
+              "type": "ERP-rapport"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Voorziening dubieuze debiteuren",
+              "veld": "bedrag, klant",
+              "type": "boeking"
+            }
+          ],
+          "hoe": "1. Wekelijks: aged-receivables-rapport.\n2. > 30 dagen: herinnering.\n3. > 60 dagen: ingebrekestelling.\n4. > 90 dagen: juridische actie + voorziening voor dubieuze debiteuren.",
+          "grondslag": "Boekhoudkundige voorzichtigheid"
+        }
+      ]
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Cut-off rond balansdatum is een klassiek frauderisico: leveringen van december worden in januari gefactureerd om omzet te verschuiven. Substantieve test: zoek delivery notes van laatste week december tegen factuurdatum.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "text": "Kortingen en creditnota's zijn typische manipulatie-vectoren. Eis voor elke creditnota: aparte goedkeuring, traceerbare reden, geen link aan dezelfde persoon die de oorspronkelijke factuur boekte.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
     {
       "type": "onderdeel-van",
-      "target": "interne-controle",
-      "redenering": "Verkoopcyclus is hoofdcyclus voor IC-toepassing."
+      "target": "cyclus-analyse-ic",
+      "redenering": "Verkoopcyclus is een van de vijf hoofdcycli in de cyclusanalyse."
     },
     {
       "type": "vereist-kennis-van",
       "target": "functiescheiding",
-      "redenering": "Sales/levering/facturatie/inning moeten gescheiden zijn."
+      "redenering": "Sales-levering-facturatie-inning moeten gescheiden zijn."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "beheersactiviteiten",
+      "redenering": "De verkoopcyclus operationaliseert COSO-component 3 in concrete controles."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "fraudetypologie-acfe",
+      "redenering": "Fictieve verkopen en creditnota-manipulatie zijn klassieke ACFE-typologieën."
+    },
+    {
+      "type": "verwijst-naar",
+      "facet": {
+        "aspect": "kredietlimiet-blokkering en automatische cut-off-controle"
+      },
+      "target": "it-application-controls",
+      "redenering": "kredietlimiet-blokkering en automatische cut-off-controle"
+    },
+    {
+      "type": "vergelijkt-met",
+      "facet": {
+        "aspect": "spiegel-cyclus met symmetrische controlepoorten"
+      },
+      "target": "aankoopcyclus-ic",
+      "redenering": "spiegel-cyclus met symmetrische controlepoorten"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Cut-off-manipulatie en oneigenlijke creditnota's bij Rotex Roeselare NV",
+      "cast": [
+        "Rotex Roeselare NV",
+        "Robert Vandenberghe",
+        "Sofie Janssens"
+      ],
+      "omschrijving": "Rotex Roeselare NV is een grote NV (volledig schema). Salesdirecteur Robert Vandenberghe wil zijn jaardoel halen en factureert in week 52 voor € 850.000 aan leveringen die pas in week 2 van het nieuwe jaar effectief vertrekken. Tegelijk reikt hij in januari voor € 320.000 creditnota's uit aan dezelfde klanten — zonder retourbewijzen. Externe auditor Sofie Janssens detecteert de cut-off-breuk en de niet-gegronde creditnota's bij haar substantieve testen rond balansdatum.",
+      "stappen": [
+        "1. Cut-off-test: Sofie vergelijkt de datums op leveringsbons (van het magazijnsysteem) met factuurdatums voor de laatste 10 dagen van december en de eerste 10 dagen van januari. Resultaat: 14 facturen met factuurdatum ≤ 31/12 maar leveringsbon ≥ 02/01.",
+        "2. Creditnota-test: Sofie filtert alle creditnota's > € 10.000 in januari. Voor 9 van de 11 ontbreekt een retourbewijs of een goedgekeurde commerciële geste-aanvraag.",
+        "3. IC-zwakte: bouwsteen 'Functiescheiding sales-levering-facturatie-inning' niet hard genoeg — Robert kan zelf creditnota's autoriseren tot € 50.000. Bouwsteen 'Order-levering-facturatie-match' wordt niet automatisch afgedwongen voor cut-off rond balansdatum.",
+        "4. Audit-conclusie: omzet 20X1 wordt met € 850.000 verminderd, oninbare creditnota's worden teruggedraaid. Vermoeden van bewuste resultaatmanipulatie → ISA 240-respons (fraude in financiële verslaggeving)."
+      ],
+      "illustraties": [
+        {
+          "type": "boeking",
+          "titel": "Correctieboeking cut-off — omzet terug naar 20X2",
+          "rijen": [
+            {
+              "rekening": "700 — Verkopen",
+              "debet": 850000,
+              "credit": null,
+              "omschrijving": "Storno fictieve omzet december"
+            },
+            {
+              "rekening": "451 — Verschuldigde btw",
+              "debet": 178500,
+              "credit": null
+            },
+            {
+              "rekening": "400 — Handelsvorderingen",
+              "debet": null,
+              "credit": 1028500
+            }
+          ]
+        }
+      ],
+      "confidence": "inferred"
+    }
+  ]
 }

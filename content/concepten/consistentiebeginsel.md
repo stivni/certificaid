@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/consistentiebeginsel.json
 gegenereerd_op: '2026-05-18'
 ---
 # Consistentiebeginsel ⚖️
+
+Het consistentiebeginsel (bestendigheid van waarderingsregels) zegt: gebruik dezelfde waarderingsregels van jaar tot jaar. Wijzigt je vennootschap toch — bv. een andere afschrijvingsmethode — dan moet dat in de toelichting verantwoord én cijfermatig herrekend worden. Stagiairs missen vaak het tweede deel: de wijziging is niet verboden, maar wel transparantieplichtig.
 
 > [!summary] Korte inhoud
 > Het consistentiebeginsel (of 'bestendigheid van waarderingsregels') verlangt dat een vennootschap haar waarderingsregels van boekjaar tot boekjaar identiek toepast.
@@ -75,9 +77,6 @@ _Grondslag: KB-WVV art. 3:7_
 
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (1): [[waarderingsregels-jaarrekening]]
 ## Voorbeelden
 
 Naaiatelier Ninove BV waardeert haar grondstoffen sinds altijd via FIFO. In 2024 wil zij overstappen naar gewogen gemiddelde → moet motiveren in toelichting + impact (bv. 'voorraad-waardering daalt met € 45.000, resultaat met € 32.000 na belasting').

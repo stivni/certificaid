@@ -189,7 +189,7 @@ Na een impairment moet het afschrijvingsplan voor het actief worden herzien: de 
 >
 > _Trigger_: Examen: 'boekwaarde > marktwaarde' → impairment (verlaging, W&V); 'marktwaarde > boekwaarde + herwaarderingsmodel' → herwaardering (verhoging, OCI).
 
-> [!info]- Niet verwarren met [[aanvullende-afschrijving-be-gaap]]
+> [!info]- Niet verwarren met [[bijzondere-waardevermindering-be-gaap]]
 > IAS 36 vereist formele realiseerbare-waarde-test (hoogste van FVLCD en VIU) en jaarlijkse test voor goodwill + immaterieel-onbepaald. Art. 3:42 KB WVV vereist alleen dat aanvullende afschrijving wordt geboekt zodra de boekhoudkundige waarde 'hoger' is dan de gebruikswaarde voor de vennootschap — zonder voorgeschreven rekenmethode. Goodwill onder BE-GAAP wordt afgeschreven (art. 3:42 § 1), niet jaarlijks getest zoals onder IAS 36.
 >
 > _Trigger_: Examen: 'Onder welk regime werd deze waardevermindering geboekt?' → toets op aanwezigheid van DCF-onderbouwing en CGU-allocatie (= IFRS) versus eenvoudige verwijzing naar duurzame minderwaarde (= BE-GAAP).
@@ -214,7 +214,7 @@ Na een impairment moet het afschrijvingsplan voor het actief worden herzien: de 
 
 - **Vereist kennis van**: [[materiele-vaste-activa-ifrs]]
 - **Vereist kennis van**: [[immateriele-vaste-activa-ifrs]]
-- **Wordt voorondersteld in** (1): [[immateriele-vaste-activa-ifrs]]
+
 ## Voorbeelden
 
 ### Impairment + latere terugneming productielijn Y

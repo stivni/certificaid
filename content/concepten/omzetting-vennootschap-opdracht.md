@@ -4,13 +4,16 @@ tags:
 - concept
 - cluster
 - po-1-6
+- po-1-7
 linked_anchors:
 - 1.6.I.A
 - 1.6.I.B
 - 1.6.I.C
 - 1.6.taak.1
+- 1.7.taak.1
 programmaonderdelen:
 - '1.6'
+- '1.7'
 confidence: grounded
 node_type: cluster
 status: seed

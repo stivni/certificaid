@@ -9,13 +9,18 @@
     "1.6.II.B"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T17:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.II.C",
     "dekt_ook_anchors": [
       "1.6.II.B"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "edge_cleanup_v4": {
+      "op": "2026-05-18",
+      "reden": "Deprecated 'bevat'-edge verwijderd (§9); inverse 'onderdeel-van' bestaat al op cijferanalyses-audit."
+    }
   },
   "bouwstenen": [
     {
@@ -80,11 +85,6 @@
       "type": "onderdeel-van",
       "target": "assurance-informatie",
       "redenering": "Eén van de bronnen om assurance-informatie te verzamelen."
-    },
-    {
-      "type": "bevat",
-      "target": "cijferanalyses-audit",
-      "redenering": "Subtype 2: gegevensgerichte cijferanalyses."
     }
   ],
   "voorbeelden": [

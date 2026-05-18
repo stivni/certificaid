@@ -2,14 +2,14 @@
   "id": "coso-i-framework",
   "naam": "COSO I — Internal Control Integrated Framework",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.XII.D",
     "1.7.XII"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T10:48Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-po1.7.XII-wave2",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.XII.D",
     "dekt_ook_anchors": [
@@ -71,5 +71,37 @@
       "inputs": []
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "valkuilen": [
+    {
+      "vaak_fout": "COSO I behandelen als checklist van vakjes die afgevinkt moeten worden.",
+      "advies": "COSO is een ontwerpkader, geen audit-checklist. De vraag is altijd: zijn de vijf componenten + 17 principes effectief geïmplementeerd voor de risico's die deze onderneming loopt? Een onderneming kan zonder formele 'COSO-procedures' wel een werkende interne controle hebben.",
+      "grondslag": "COSO Internal Control Integrated Framework 2013, executive summary",
+      "confidence": "inferred-common-knowledge"
+    },
+    {
+      "vaak_fout": "Controle-omgeving (component 1) verwarren met controle-activiteiten (component 3).",
+      "advies": "Controle-omgeving = de 'toon aan de top', cultuur, ethische waarden, governance-structuur — soft. Controle-activiteiten = concrete procedures (autorisaties, reconciliaties, segregation of duties) — hard. Beide nodig, niet inwisselbaar.",
+      "grondslag": "[[controle-omgeving]] + [[beheersactiviteiten]]",
+      "confidence": "inferred-from-aggregation"
+    },
+    {
+      "vaak_fout": "Monitoring (component 5) reduceren tot interne audit.",
+      "advies": "Monitoring is breder: ongoing monitoring (continue zelfcontroles binnen processen) + separate evaluations (periodieke aparte beoordelingen, waarvan interne audit één vorm is) + rapportering van tekortkomingen. Alle drie nodig.",
+      "grondslag": "COSO IC-IF 2013 monitoring activities",
+      "confidence": "inferred-common-knowledge"
+    }
+  ],
+  "in_praktijk": [
+    "Voor de stagiair GA: COSO is het taalkader om over interne controle te praten. Als je IC moet beoordelen (bv. bij ISA 315), gebruik je dit raster om te checken of alle vijf componenten aanwezig + werkend zijn.",
+    "Bij een typische KMO: drie componenten zijn meestal zwak (controle-omgeving via beperkte segregation of duties; risicobeoordeling vaak ad hoc; monitoring beperkt). Dit is geen disqualificatie maar wel een aandachtspunt voor compenserende controles (bv. eigenaar-bestuurder die zelf reviews doet).",
+    "Bij grote of beursgenoteerde onderneming: alle vijf componenten formeel uitgewerkt + 17 principes documenteerbaar. Verwacht expliciete IC-handboeken, risk-registers, IT-controles, ICFR-rapportering.",
+    "COSO is het de facto wereldraamwerk. Wanneer de Belgische wet of ITAA-norm over 'interne controle' spreekt, wordt impliciet vaak het COSO-raster bedoeld — ook al staat dat zelden expliciet."
+  ],
+  "kerninzichten": [
+    "COSO 2013 = 5 componenten × 17 principes × (3 doelstellingen × 3 niveaus) — een 3D-kubus. De 17 principes zijn de meetlat: ze moeten allemaal 'present and functioning' zijn voor effectief IC.",
+    "De vijf componenten zijn niet opeenvolgend maar gelijktijdig aanwezig — geen 'fasen'. Een effectieve IC heeft alle vijf actief.",
+    "Effectiviteit = doelstellingen redelijk realiseren — geen absolute zekerheid. COSO erkent inherent limitations: human error, collusion, management override.",
+    "COSO IC-IF is gericht op IC over financiële rapportering, operationele doelstellingen en compliance. Strategische doelstellingen vallen in COSO ERM (COSO II)."
+  ]
 }

@@ -2,20 +2,44 @@
   "id": "kleine-vennootschap",
   "naam": "Kleine vennootschap (WVV art. 1:24)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
+    "1.1.II",
+    "1.1.IV",
+    "1.2.IV",
     "1.2.IV.B",
-    "1.2.IV"
+    "1.4.II",
+    "1.6.I.A",
+    "1.6.taak.1",
+    "1.7.V.C"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T16:41Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.IV.B",
     "dekt_ook_anchors": [
       "1.2.IV"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "linked_anchors": [
+      "1.1.II",
+      "1.1.IV",
+      "1.2.IV",
+      "1.2.IV.B",
+      "1.4.II",
+      "1.6.I.A",
+      "1.6.taak.1",
+      "1.7.V.C"
+    ],
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+"
+      ]
+    }
   },
   "definitie": {
     "text": "Een kleine vennootschap is een vennootschap met rechtspersoonlijkheid die op balansdatum maximaal één van de groottecriteria overschrijdt (WVV art. 1:24): personeelsbezetting ≤ 50, omzet excl. BTW ≤ € 11.250.000, balanstotaal ≤ € 6.000.000. Geniet vereenvoudigingen: verkort schema, vrijstelling jaarverslag, vrijstelling commissaris (tenzij groepsbreed groot).",
@@ -138,6 +162,20 @@
           }
         ]
       }
+    },
+    {
+      "vergelijking_met": "grote-vennootschap-wvv",
+      "verschil": "Klein heeft drempels 50/€11,25M/€6M en mag verkort schema, geen jaarverslag, geen commissaris. Middelgroot (de impliciete categorie tussen klein en groot, soms ook 'gewoon' genoemd) en groot vereisen volledig schema. Groot voegt extra eisen toe: commissaris verplicht, jaarverslag verplicht, vaak consolidatieverplichting.",
+      "trigger": "Examen: omzet € 15M, personeel 80, balans € 8M → overschrijdt 3 drempels → groot. Verkort niet meer toegestaan, commissaris verplicht.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
@@ -154,5 +192,41 @@
       "omschrijving": "Meubelzaak Mertens BV — 12 werknemers (≤50), € 4,5M omzet (≤€11,25M), € 2,1M balanstotaal (≤€6M) → onder alle drie drempels → kleine vennootschap."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "Voor de stagiair die zich afvraagt waarom 'klein' zo'n breed gebruikt onderscheid is: het Belgische vennootschapsrecht (WVV) bouwt heel zijn rapporterings- en controleregime op deze drie-categorieën-classificatie. 'Klein' levert proportioneel lichtere lasten op: verkort schema, geen commissaris, geen jaarverslag, eenvoudiger toelichting. Voor het examen is dit één van de meest getoetste structureel-onderscheid-begrippen — vrijwel elke vraag over jaarrekening-verplichting, commissaris-verplichting of consolidatieverplichting begint met de groottetoets.",
+  "in_praktijk": [
+    "De groottetoets gebeurt op balansdatum, retroactief over twee opeenvolgende boekjaren. Eenmalig overschrijden van twee criteria → blijft klein. Pas bij twee opeenvolgende boekjaren wijziging → nieuwe categorie vanaf het derde boekjaar.",
+    "Een individueel kleine vennootschap die deel uitmaakt van een grote groep (geconsolideerd > drempels) wordt voor jaarrekening-doeleinden behandeld als groot — de groepstest overruled het individuele statuut.",
+    "De kleine vennootschap is automatisch vrijgesteld van commissaris-aanduiding, behalve wanneer ze deel uitmaakt van een groep die als geheel groot is. Vervangend: een 'bedrijfsrevisor-light'-controle is niet vereist.",
+    "Klein-statuut geldt voor jaarrekening-rapportering. Voor andere domeinen (fiscaal, sociale zekerheid, btw) kunnen andere drempels gelden — niet de WVV-groottecriteria letterlijk overnemen.",
+    "Sinds WVV (2019) wordt het verkort schema afgekort als 'KMO-jaarrekening' in de praktijk. Het microschema (microvennootschap) is een aparte, nog kleinere categorie."
+  ],
+  "valkuilen": [
+    {
+      "advies": "Test eerst PIE-statuut. Een beursgenoteerde KMO is automatisch PIE en wordt voor jaarrekening behandeld als groot — geen klein-statuut.",
+      "vaak_fout": "Bij beursnotering blindelings naar de drie groottedrempels kijken en concluderen 'klein'.",
+      "grondslag": "Richtlijn 2013/34/EU + WVV art. 1:11"
+    },
+    {
+      "advies": "Drie drempels, één-criterium-overschrijding: een klein-statuut behoudt men ZOLANG niet méér dan ÉÉN drempel wordt overschreden. Twee drempels overschrijden → niet langer klein.",
+      "vaak_fout": "Alle drie de drempels willen overschrijden vóór categorie-wijziging — fout, één is al genoeg voor middelgroot/groot.",
+      "grondslag": "WVV art. 1:24 §1"
+    },
+    {
+      "advies": "Bij wijziging van statuut: het nieuwe regime begint op het derde boekjaar, niet onmiddellijk in het overschrijdings-jaar.",
+      "vaak_fout": "Onmiddellijke overstap naar groot regime bij eerste overschrijding — wettelijk is er een gefaseerde transitie.",
+      "grondslag": "WVV art. 1:24 §4"
+    },
+    {
+      "advies": "Bij groep-relatie: cijfers worden op geconsolideerde basis getest, niet individueel.",
+      "vaak_fout": "Een kleine dochter van een grote groep behandelen als klein — fout, de groep-test prevaleert.",
+      "grondslag": "WVV art. 1:24 §5 + CBN-advies 2017/10"
+    },
+    {
+      "advies": "Drempels worden uitgedrukt in EUR exclusief BTW (omzet) en absoluut bedrag (balanstotaal). Het personeelsbestand is FTE-equivalent over het boekjaar.",
+      "vaak_fout": "Omzet incl. BTW gebruiken of personeelsstand op één enkel moment (bv. balansdatum) nemen i.p.v. FTE-gemiddelde.",
+      "grondslag": "WVV art. 1:24 §1 + CBN-advies 2022/03"
+    }
+  ],
+  "naam_alternatief": "small company (WVV art. 1:24)"
 }

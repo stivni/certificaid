@@ -2,7 +2,7 @@
   "id": "wijziging-consolidatiekring",
   "naam": "Wijziging van de consolidatiekring",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.G",
@@ -46,6 +46,16 @@
         "in_praktijk[*].betekenis (stagiair-toon)",
         "valkuilen[*].text (stagiair-toon)",
         "edges: dubbel contrasteert-met → bevat + specialisatie-van"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -3",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -319,48 +329,6 @@
   ],
   "edges": [
     {
-      "type": "van-toepassing-op",
-      "target": "consolidatiekring",
-      "redenering": "De consolidatiekring is de momentopname; de wijziging is de dynamiek die op die kring inwerkt. Stand vs. beweging.",
-      "_corrected_from": {
-        "veld": "contrasteert-met → van-toepassing-op",
-        "reden": "Relatie is functioneel (wijziging werkt in op de kring), niet contrast."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_75",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "bevat",
-      "target": "eerste-consolidatie",
-      "redenering": "Eerste consolidatie is een specifieke vorm van wijziging consolidatiekring (toetreding van een nieuwe entiteit). Het bredere fenomeen omvat ook vertrek (vervreemding), verschuiving van techniek (van vermogensmutatie naar integraal) en herkringintegratie.",
-      "_corrected_from": {
-        "veld": "contrasteert-met → bevat",
-        "reden": "Eerste consolidatie is een sub-geval; relatie is hiërarchisch."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "bevat",
-      "target": "step-acquisition",
-      "redenering": "Step-acquisition is ook een specifieke vorm van wijziging consolidatiekring (graduele opbouw van een belang).",
-      "confidence": "inferred"
-    },
-    {
       "type": "getriggerd-door",
       "target": "consolidatieverschil",
       "redenering": "Het consolidatieverschil is een typisch boekhoudkundig gevolg van een wijziging in de consolidatiekring — in het bijzonder bij eerste consolidatie of step-acquisition.",
@@ -391,5 +359,19 @@
       "omschrijving": "Aurelia Holding NV consolideerde in 20X0 enkel Brugse Brouwerij BV. In 20X1 koopt ze 100 % van Bouwwerf Beerse BV → eerste consolidatie van Bouwwerf Beerse → wijziging consolidatiekring → toelichting bevat vergelijkende cijfers waarin Bouwwerf Beerse niet meedeed in 20X0."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "naam_alternatief": "change in consolidation scope",
+  "situering": {
+    "text": "Een verzamelthema in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2): elke wijziging in de samenstelling van de groep tussen twee boekjaren — verwerving, vervreemding, status-wissel, uittreding. Doel: tonen welke verschillen tussen openingsbalans en vergelijkende cijfers structureel zijn en welke louter van wijziging-in-kring komen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

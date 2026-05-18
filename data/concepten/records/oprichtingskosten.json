@@ -2,7 +2,7 @@
   "id": "oprichtingskosten",
   "naam": "Oprichtingskosten",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.A",
@@ -408,5 +408,7 @@
       "omschrijving": "Oprichtingen Oostende BV wordt opgericht met notariskosten € 3.200, advieskosten € 1.800, registratierechten € 600 → totaal € 5.600 oprichtingskosten. De BV kiest om te activeren op rekening 200 'Kosten van oprichting en kapitaalverhoging' aan de actiefzijde. Afschrijvingsplan: 20 % per jaar = € 1.120/jaar gedurende 5 jaar. Eerste jaar: Debet 6300 Afschrijvingen oprichtingskosten € 1.120 / Credit 2009 Afschrijvingen op oprichtingskosten € 1.120."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": "Oprichtingskosten zijn de kosten van **oprichting, kapitaalverhoging of herstructurering** van een vennootschap (notariskosten, registratierechten, eerste publicatiekosten). Voor de stagiair-GA belangrijk om te weten dat het KB-WVV deze activering toelaat (onder voorwaarden), maar afschrijving binnen maximaal vijf jaar oplegt.",
+  "naam_alternatief": "formation expenses / frais d'établissement"
 }

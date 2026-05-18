@@ -2,7 +2,7 @@
   "id": "budgetbeheer",
   "naam": "Budgetbeheer",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.V",
@@ -83,29 +83,24 @@
   ],
   "edges": [
     {
-      "type": "bevat",
-      "target": "budgetprocedure",
-      "redenering": "Procedure-fase.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "budgetboekhouding",
-      "redenering": "Boekhoudkundige verankering.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "verschillenboekhouding",
-      "redenering": "Opvolgingsfase.",
-      "confidence": "inferred"
-    },
-    {
       "type": "vereist-kennis-van",
       "target": "analytische-boekhouding",
       "redenering": "Budgetten worden meestal opgehangen aan kostencentra uit de analytische boekhouding.",
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "budget management / budgetary control",
+  "situering": {
+    "text": "Budgetbeheer is het management-proces waarbij toekomstige kosten, opbrengsten en kasstromen vooraf worden geraamd in een geheel van deelbudgetten, en waarbij realisaties periodiek tegen die ramingen worden gemeten (verschillenboekhouding). Centraal stuurinstrument naast de boekhoudkundige rapportage: koppelt strategie aan operationele uitvoering. Omvat budgetprocedure (hoe stel je budget op), budgetboekhouding (registratie van budgetcijfers), en verschillenboekhouding (analyse afwijkingen).",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }

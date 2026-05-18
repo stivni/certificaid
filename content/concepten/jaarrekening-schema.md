@@ -13,18 +13,18 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/jaarrekening-schema.json
 gegenereerd_op: '2026-05-18'
 ---
 # Jaarrekening-schema (volledig, verkort, micro) ⚖️
 
+Het jaarrekening-schema is de **voorgeschreven opbouw en presentatie** van balans, resultatenrekening en toelichting. Het KB-WVV onderscheidt drie modellen (volledig, verkort, micro) die rechtstreeks gekoppeld zijn aan grootteklasse. Voor stagiairs het tweede beslispunt bij elke jaarrekening: 'welk schema mag/moet deze vennootschap gebruiken?'
+
 > [!summary] Korte inhoud
 > Het 'schema' van een jaarrekening is de voorgeschreven opbouw en presentatie van balans, resultatenrekening en toelichting.
 
 > [!info] Behoort tot: [[kb-wvv-uitvoering]]
-
-> [!info] Bestaat uit (2): [[sociale-balans]] · [[toelichting-jaarrekening]] · Specialisaties (1): [[jaarrekening-vzw-stichting]]
 
 Het 'schema' van een jaarrekening is de voorgeschreven opbouw en presentatie van balans, resultatenrekening en toelichting. Het KB-WVV onderscheidt drie modellen: volledig (bijlage 1, voor grote vennootschappen), verkort (bijlage 2, voor kleine vennootschappen) en micro (bijlage 3, voor microvennootschappen). Verenigingen hebben aparte bijlagen.
 
@@ -104,7 +104,7 @@ _Grondslag: KB-WVV art. 3:184 e.v._
 ## Zie ook
 
 - **Getriggerd door**: [[groottecriteria-jaarrekening]]
-- **Wordt voorondersteld in** (2): [[groottecriteria-jaarrekening]] · [[samenstelling-statutaire-jaarrekening]]
+
 ## Voorbeelden
 
 Rotex Roeselare NV (grote) → volledig schema. Meubelzaak Mertens BV (klein) → verkort schema. Oprichtingen Oostende BV (micro, geen dochter) → microschema.

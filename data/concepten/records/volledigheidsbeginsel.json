@@ -2,7 +2,7 @@
   "id": "volledigheidsbeginsel",
   "naam": "Volledigheidsbeginsel (boekhouding)",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.III.B",
@@ -174,5 +174,7 @@
       "omschrijving": "Rotex Roeselare NV heeft een hypotheek toegekend op een pand ten gunste van haar bank → wordt vermeld in de toelichting onder 'Niet in de balans opgenomen rechten en verplichtingen' (rubriek 9, klasse 0), ook al staat het niet op de balans zelf."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": "Het volledigheidsbeginsel verlangt dat álle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen in de boekhouding zijn opgenomen — ook niet-balans-rechten (in de toelichting). Voor de stagiair-GA klassieke examen-valkuil bij niet-balans-posten (borg, leasing, derivaten) die 'vergeten' worden vermeld.",
+  "naam_alternatief": "completeness principle / principe d'exhaustivité"
 }

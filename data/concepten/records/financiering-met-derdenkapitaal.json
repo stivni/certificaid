@@ -2,7 +2,7 @@
   "id": "financiering-met-derdenkapitaal",
   "naam": "Financiering met derdenkapitaal (vreemd vermogen)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.9.IV.E",
@@ -16,7 +16,9 @@
       "1.9.IV"
     ],
     "reviewed_by": null,
-    "bron_gap": "Standaardconcept uit financiële analyse — KB WVV-rubrieken (16-19 schulden op meer dan 1 jaar; 42-48 schulden op ten hoogste 1 jaar) zijn bron voor de samenstelling."
+    "bron_gap": "Standaardconcept uit financiële analyse — KB WVV-rubrieken (16-19 schulden op meer dan 1 jaar; 42-48 schulden op ten hoogste 1 jaar) zijn bron voor de samenstelling.",
+    "note": "PO 1.9 wave-2: schema 1.5→1.6 + situering + naam_alternatief",
+    "touched_at": "2026-05-19T00:00:00Z"
   },
   "definitie": {
     "text": "Financiering met derdenkapitaal omvat alle middelen die de onderneming aantrekt van externe schuldeisers: banken (bankleningen), obligatiehouders (obligatieleningen), leveranciers (handelsschulden), de fiscus (uitgestelde belastingen) en het personeel (sociale schulden). Op de balans: rubrieken 16-19 (schulden op meer dan 1 jaar) + 42-48 (schulden op ten hoogste 1 jaar).",
@@ -125,5 +127,28 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Vreemd vermogen op de passiefzijde: bankleningen, obligatieleningen, leveranciersschulden, fiscale en sociale schulden (rubrieken 16-19 + 42-48). Maakt deel uit van de structurele financieringsmix samen met eigen vermogen; bepaalt de solvabiliteit en de gevoeligheid voor renteschommelingen en herfinancieringsrisico.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Vakdoctrine financial analysis + WVV-rubrieken"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.9.IV.E",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "naam_alternatief": [
+    "Debt financing",
+    "Vreemd vermogen",
+    "Financement par dettes"
+  ],
+  "migrated_doel_to_situering_at": "2026-05-19T00:00:00Z"
 }

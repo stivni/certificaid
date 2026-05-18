@@ -2,21 +2,22 @@
   "id": "controle-begrip-algemeen",
   "naam": "Controle — begrip algemeen",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.II.E",
     "1.7.II"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T11:55Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave2-1.7.II",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.II.E",
     "dekt_ook_anchors": [
       "1.7.II"
     ],
     "reviewed_by": null,
-    "bron_gap": "Het generieke begrip 'controle' (= verifiëren, beheersen) onderscheidt zich van controle in WVV (= bevoegdheid over een vennootschap). Twee homonymen die studenten verwarren. Inferred-common-knowledge voor onderscheid."
+    "bron_gap": "Het generieke begrip 'controle' (= verifiëren, beheersen) onderscheidt zich van controle in WVV (= bevoegdheid over een vennootschap). Twee homonymen die studenten verwarren. Inferred-common-knowledge voor onderscheid.",
+    "touched_at": "2026-05-18T19:00:00Z"
   },
   "definitie": {
     "text": "'Controle' heeft in IC-context twee onderscheiden betekenissen die studenten vaak verwarren: (1) controle = verifiëren of beheersen — een handeling van toetsen en bijsturen (synoniem: 'beheersing'). (2) controle in vennootschapsrechtelijke zin (WVV art. 1:14) = bevoegdheid om beslissend invloed uit te oefenen op een vennootschap. In dit programmaonderdeel betreft het bijna uitsluitend betekenis (1).",
@@ -29,6 +30,11 @@
       "inputs": [
         {
           "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
           "sha256": null,
           "version": "rag-v1"
         }
@@ -50,6 +56,11 @@
       "type": "vergelijkt-met",
       "target": "controle",
       "redenering": "Verwarring-risico tussen IC-controle en WVV-controle moet expliciet."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "interne-controle",
+      "redenering": "Generieke controle-handeling wordt in IC-context onderdeel van het IC-systeem."
     }
   ],
   "voorbeelden": [
@@ -58,5 +69,52 @@
       "omschrijving": "Bij Yperse Werkplaats BV: 'Sofie Janssens controleert de aankoopfacturen' = betekenis (1), zij verifieert. 'Aurelia Holding NV oefent controle uit op Brugse Brouwerij BV' = betekenis (2), zij beheert beslissend (WVV art. 1:14). Beide gebruiken het woord 'controle' — verschillende juridische ladingen."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Het woord 'controle' is in het ITAA-programma ambigu en de bron van veel examen-verwarring. Voor de stagiair is dit verschil cruciaal: in een vennootschapsrechtelijk advies (consolidatie, deelnemingsverhoudingen) bedoelt 'controle' het beslissende invloed-recht uit WVV art. 1:14; in een audit- of IC-opdracht bedoelt 'controle' een handeling van verifiëren of beheersen. Examen-vragen tikken vaak waar de student deze twee betekenissen door elkaar haalt.",
+    "confidence": "inferred",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Controle versus interne beheersing — taal-conventie",
+      "wat": "In ITAA-normen en Belgische audit-praktijk wordt 'interne controle' steeds vaker vervangen door 'interne beheersing' (vertaling van 'internal control') om het onderscheid met de WVV-betekenis van 'controle' (= bevoegdheid) duidelijk te maken. Een 'controlemaatregel' wordt dan een 'interne beheersingsmaatregel'. Examenvragen gebruiken beide termen door elkaar — de stagiair moet ze als synoniemen herkennen.",
+      "waarom": "Het verschil is taalkundig, niet inhoudelijk. ISA 315 (NL-vertaling) spreekt van 'interne beheersing'; oudere Belgische literatuur van 'interne controle'. Beide verwijzen naar hetzelfde COSO-systeem.",
+      "in_praktijk": "Bij ITAA-norm-toetsing leest de stagiair §97 'toetsingen van interne beheersingsmaatregelen' — dezelfde toets als 'tests of controls' in ISA-NL.",
+      "grondslag": "ITAA-norm-kmo-controlenorm §97 + ISA 315 vertaalconventie",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Drie controlemomenten — preventief, detectief, correctief",
+      "wat": "Preventief = voorkomt fout vóór ze optreedt (autorisatie vóór betaling). Detectief = vindt fout achteraf (afpunten bankafschrift). Correctief = herstelt of voorkomt herhaling (boekingscorrectie, procedure-update).",
+      "waarom": "Goed IC-ontwerp combineert de drie: alleen preventief is duur, alleen detectief mist real-time-bescherming.",
+      "grondslag": "IC-doctrine (COSO)",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "titel": "Handmatig versus geautomatiseerd",
+      "wat": "Handmatige controle = menselijke handeling (visuele check, paraaf). Geautomatiseerde controle = systeem-regel (ERP-validatie, drempelblokkering).",
+      "waarom": "Geautomatiseerd is consistenter; handmatig is flexibeler voor uitzonderingen. Examen-val: alle controle als 'handmatig' denken.",
+      "in_praktijk": "Bij review: tel hoeveel controles handmatig versus geautomatiseerd zijn. Te veel handmatig = schaalrisico bij groei.",
+      "grondslag": "IC-doctrine",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ]
 }

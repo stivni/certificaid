@@ -2,7 +2,7 @@
   "id": "opportuniteitskost",
   "naam": "Opportuniteitskost",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.E",
@@ -37,6 +37,30 @@
       "_provenance": {
         "inputs": []
       }
+    },
+    {
+      "aspect": "Schaarste-trigger",
+      "betekenis": "Opportuniteitskost speelt alleen wanneer een middel schaars is. Bij overcapaciteit (machines staan stil, mensen zijn niet volgeboekt) is de opportuniteitskost nul — een extra order met dekking van variabele kost is gunstig. Bij volle capaciteit moet je het verdrongen alternatief expliciet meenemen.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "aspect": "Make-or-buy",
+      "betekenis": "Bij de keuze tussen zelf produceren en uitbesteden hoort de opportuniteitskost van de zelf-productie: als de productiehal vrij komt door uit te besteden, wat kan ze dan opbrengen (verhuur, productie van iets winstgevenders)? Pas met dat alternatieve gebruik in rekening kan de make-or-buy-beslissing correct.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "aspect": "Examen-trigger",
+      "betekenis": "Wanneer een examen-vraag een beslissing tussen alternatieven beschrijft (productlijn A of B met dezelfde machine, eigen productie of uitbesteden, kapitaal investeren of beleggen) — herken dat de opportuniteitskost van het niet-gekozen alternatief in de redenering moet zitten.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
@@ -53,5 +77,18 @@
       "omschrijving": "Yperse Werkplaats BV krijgt een spoedorder voor 1.000 tapijten van klant Brugse Boutique. Acceptatie verdringt een lopend order voor klant Kappers Köln (margebijdrage € 35.000). Opportuniteitskost van Brugse-order = € 35.000 (verloren marge Köln). Pas als margebijdrage Brugse > € 35.000 + variabele kost is het order aantrekkelijk."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "opportunity cost",
+  "situering": {
+    "text": "De opportuniteitskost is de waarde van het opgegeven alternatief — wat je had kunnen verdienen door dezelfde middelen (tijd, machine-uren, kapitaal, vloeroppervlakte) anders in te zetten. Niet boekhoudkundig vastgelegd, want geen uitgaande betaling, maar onmisbaar bij beslissingen waar middelen schaars zijn (make-or-buy, productmix bij capaciteitsbeperking, kapitaalinvestering). Stagiair-valkuil: opportuniteitskost niet meerekenen omdat ze 'niet in de boekhouding staat'.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }

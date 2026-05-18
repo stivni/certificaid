@@ -2,7 +2,7 @@
   "id": "step-acquisition",
   "naam": "Step acquisition (trapsgewijze verwerving)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.G",
@@ -53,6 +53,14 @@
         "bouwstenen[Variant 3].voorbeeld_inline (fix C): 200/600/150/50 → € 350.000 / € 1.250.000 / € 312.500 / € 37.500; EV → eigen vermogen (EV) eerste gebruik",
         "in_praktijk[Kantelpunten detecteren].betekenis: a/b/c-oplijsting verwijderd, verwijst nu naar kantelpunten[]",
         "in_praktijk[Kantelpunten detecteren].herkenningspunt: cast voluit (Antwerpse Investments NV)"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "situering+"
       ]
     }
   },
@@ -365,5 +373,18 @@
       "omschrijving": "Antwerpse Investments NV verwerft in 20X1 een eerste tranche van 25 % in Drukkerij Dendermonde BV (aanschaffingswaarde € 350.000) → invloed van betekenis → vermogensmutatie. In 20X3 koopt Antwerpse 35 % bij (aanschaffingswaarde € 700.000) → totaal 60 % → kantelpunt naar exclusieve controle → vanaf dan integrale consolidatie van Drukkerij Dendermonde in de geconsolideerde jaarrekening van Antwerpse."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": {
+    "text": "Een transactiepatroon in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2) waarbij een deelneming geleidelijk wordt uitgebreid en daarbij een statuswissel doormaakt (financiële belegging → equity → controle). Het concept brengt de boekhoudkundige gevolgen van zo'n kwalificatiewijziging in beeld.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

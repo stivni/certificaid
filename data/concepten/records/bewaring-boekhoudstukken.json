@@ -2,7 +2,7 @@
   "id": "bewaring-boekhoudstukken",
   "naam": "Bewaring van boekhoudkundige stukken",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.taak.1",
@@ -15,7 +15,16 @@
     "dekt_ook_anchors": [
       "1.1.I.A"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "main_rule": {
     "text": "Boeken, rekeningen en verantwoordingsstukken moeten gedurende **7 jaar** worden bewaard, te rekenen vanaf 1 januari volgend op het boekjaar waarop ze betrekking hebben (WER art. III.86). Verantwoordingsstukken die geen verband houden met boekhoudkundige verrichtingen mogen 3 jaar worden bewaard. Bewaring kan ook digitaal en in het buitenland, mits **rechtstreekse on-line toegankelijkheid** vanaf de Belgische bedrijfszetel.",
@@ -173,5 +182,15 @@
       "omschrijving": "Naaiatelier Ninove BV moet de aankoopfacturen, verkoopfacturen, dagboeken en jaarrekening van boekjaar 20X1 (1/1 — 31/12/20X1) bewaren tot 31/12/20X8 (7 jaar vanaf 1/1/20X2). De BV kiest voor digitale archivering op een cloud-server in Frankrijk; vanuit de zetel te Ninove blijven alle documenten on-line consulteerbaar."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": "retention of accounting records / conservation des documents comptables",
+  "situering": {
+    "text": "Een formele verplichting uit het WER en het KB WVV die het skelet van de regelmatige boekhouding bewaakt: zonder bewaarde stukken kan een audit, controle of fiscale verificatie achteraf niet worden uitgevoerd. Voor een stagiair-GA is dit een van de eerste cliëntenvragen ('hoe lang moet ik dit nog houden?'); een fout antwoord (te kort bewaard) brengt de cliënt direct in fiscale en strafrechtelijke moeilijkheden.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

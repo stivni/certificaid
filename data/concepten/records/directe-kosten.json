@@ -2,7 +2,7 @@
   "id": "directe-kosten",
   "naam": "Directe kosten",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.II.A",
@@ -103,5 +103,24 @@
       "omschrijving": "Yperse Werkplaats BV produceert een order van 500 tapijten voor klant Brugse Boutique. De gebruikte wol (€ 12.000 op factuur, volledig in dit order verwerkt) en de loonkost van naaisters die op de werkbon voor dit order € 4.500 uren registreerden, zijn directe kosten."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "direct costs",
+  "situering": {
+    "text": "Directe kosten zijn kosten die op een ondubbelzinnige en economisch verantwoorde manier rechtstreeks aan één kostendrager (product, order, klant) kunnen worden toegewezen — geen verdeelsleutel nodig. CBN 132/7 §2.1 bouwt op dit begrip in de wettelijke definitie van de vervaardigingsprijs: directe productiekosten + evenredig deel indirecte productiekosten. De tegenpool is indirecte kosten.",
+    "confidence": "grounded",
+    "source": {
+      "type": "cbn",
+      "short": "CBN 132/7 §2.1"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

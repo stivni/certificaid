@@ -1,8 +1,8 @@
 {
   "id": "vereffening",
   "naam": "Vereffening van een vennootschap",
-  "node_type": "procedure",
-  "schema_version": "1.5",
+  "node_type": "cluster",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.T"
@@ -12,7 +12,17 @@
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.T",
     "dekt_ook_anchors": [],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "type:procedure->cluster",
+        "schema->1.6"
+      ]
+    }
   },
   "verplichting": "Bij **ontbinding** van een vennootschap (vrijwillig of gedwongen) volgt een **vereffeningsperiode** waarin alle activa worden geliquideerd, alle schulden voldaan en het saldo verdeeld onder de aandeelhouders. Een **vereffenaar** wordt benoemd door de algemene vergadering (of door de rechtbank bij gedwongen ontbinding) en treedt in plaats van het bestuursorgaan. Boekhoudkundig: overgang van going concern-waardering naar **liquidatie-waardering**.",
   "definitie": {
@@ -186,5 +196,15 @@
       "omschrijving": "Verffabriek Veurne BV (kapitaal € 100.000, beschikbare reserves € 25.000, overgedragen verlies € −18.000 → netto-actief € 107.000) wordt op 15 oktober ontbonden. Vereffenaar Pieter Vermeulen aangesteld. Liquidatie: machines verkocht € 38.000 (boekwaarde € 62.000 → minderwaarde € 24.000), voorraad € 18.500 (boekwaarde € 24.000), klanten geïnd € 42.000, leveranciers betaald € 35.000, vereffeningskosten € 12.000. Liquidatiebonus = aan aandeelhouders te verdelen overschot na alle aflossingen."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "liquidation / liquidation",
+  "situering": {
+    "text": "Het wettelijk geregeld proces dat een vennootschap door **opeenvolgende fasen** voert (besluit AV → benoeming vereffenaar → tegeldemaken → schulden voldoen → verdeling → sluiting). Voor een stagiair-GA: vereist begrip dat de vennootschap rechtspersoon BLIJFT tijdens vereffening, dat continuïteit niet meer geldt (overgang naar liquidatie-waardering), en dat er specifieke openings- en sluitingsbalansen zijn.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

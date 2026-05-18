@@ -1,8 +1,8 @@
 {
   "id": "moedervennootschap",
   "naam": "Moedervennootschap",
-  "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "node_type": "begrip",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -52,6 +52,17 @@
         "in_praktijk[*].betekenis (stagiair-toon + cast)",
         "valkuilen[*].text (stagiair-toon)",
         "edges: contrasteert-met dochteronderneming → onderdeel-van + bevat (correlatief paar)"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -2",
+        "type autoriteit→begrip",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -224,42 +235,6 @@
   ],
   "edges": [
     {
-      "type": "bevat",
-      "target": "dochteronderneming",
-      "redenering": "Moeder en dochter zijn correlatieve rollen uit WVV art. 1:15. De moeder 'bevat' in haar consolidatiekring de dochters waarover ze controle uitoefent.",
-      "_corrected_from": {
-        "veld": "contrasteert-met → bevat",
-        "reden": "Relatie is compositioneel (de moeder bevat dochters), niet contrast."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "consortium",
-      "redenering": "Een moeder kenmerkt een verticale concernstructuur (controle door één rechtspersoon over één of meer dochters). Een consortium is een horizontale groep van vennootschappen onder gemeenschappelijke leiding zonder onderlinge controle. In een consortium is er geen moeder; de consolidatieplicht rust gezamenlijk bij de leden.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "onderdeel-van",
       "target": "consolidatiekring",
       "redenering": "De moeder is de centrale actor in de consolidatiekring; de kring is moeder + alle door haar gecontroleerde dochters in de consolidatie.",
@@ -284,5 +259,19 @@
       "omschrijving": "Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV → controle in rechte → Aurelia is moeder van Brugse, Aurelia is consolidatieplichtig en moet een geconsolideerde jaarrekening + jaarverslag opmaken."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "parent company",
+  "situering": {
+    "text": "De spilrol in het Belgische groepsregime (WVV): de vennootschap die controle uitoefent over een andere. Zij draagt de consolidatieverplichting, de plicht tot een geconsolideerd jaarverslag, en — boven de groottedrempel — de verplichte commissariscontrole van de geconsolideerde rekening.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "WVV — moedervennootschap"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

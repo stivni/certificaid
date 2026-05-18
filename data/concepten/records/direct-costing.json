@@ -2,7 +2,7 @@
   "id": "direct-costing",
   "naam": "Direct costing (gedeeltelijke kostencalculatie)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.B",
@@ -129,12 +129,6 @@
   ],
   "edges": [
     {
-      "type": "bevat",
-      "target": "variabele-kosten",
-      "redenering": "Enkel variabele kosten in kostprijs.",
-      "confidence": "inferred"
-    },
-    {
       "type": "vergelijkt-met",
       "target": "volledige-kostencalculatie",
       "redenering": "Tegenpool.",
@@ -171,5 +165,7 @@
       ]
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "direct costing / variable costing / marginal costing"
 }

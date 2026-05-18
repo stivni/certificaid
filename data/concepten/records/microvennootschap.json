@@ -2,7 +2,7 @@
   "id": "microvennootschap",
   "naam": "Microvennootschap (WVV art. 1:25)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.B",
@@ -157,5 +157,7 @@
       "omschrijving": "Oprichtingen Oostende BV — 4 werknemers, € 380.000 omzet, € 380.000 balanstotaal, geen dochters, geen moeder → microvennootschap → mag microschema gebruiken."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "Een microvennootschap is een **kleine vennootschap onder de strengere micro-drempels** (≤10 werknemers, ≤€900.000 omzet, ≤€450.000 balanstotaal, niet moeder/dochter). Ze mag het microschema gebruiken (lichtst), maar verliest dat statuut bij verbondenheid. Examenvalkuil: micro-toets vergeten van verbondenheid → te lichte rapportering.",
+  "naam_alternatief": "micro company / micro-société"
 }

@@ -2,7 +2,7 @@
   "id": "werkelijke-kostencalculatie",
   "naam": "Werkelijke kostencalculatie (vastgestelde kosten)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.A",
@@ -74,5 +74,103 @@
       "inputs": []
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "actual costing / post-calculatie / vastgestelde kostencalculatie",
+  "definitie": {
+    "text": "Werkelijke kostencalculatie (post-calculatie, vastgestelde kostencalculatie) berekent de kostprijs op basis van de werkelijk geboekte kosten — achteraf bekend uit de algemene boekhouding van de afgesloten periode. Tegenpool van voorbepaalde kostencalculatie (standaardkosten, vóóraf bepaald). Werkelijke kostencalculatie kan zowel met full costing als met direct costing gebeuren; het label slaat op de tijdsdimensie (achteraf), niet op de scope.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "berekeningsmethode": [
+    {
+      "naam": "Werkelijke-kost-berekening achteraf (post-calculatie)",
+      "ratio": "Stappenschema waarmee na periodeafsluiting de werkelijke kostprijs per kostendrager (product, order) wordt opgebouwd uit de werkelijk geregistreerde kosten in de algemene boekhouding.",
+      "stappen": [
+        {
+          "nr": 1,
+          "titel": "Wacht op periode-afsluiting",
+          "wat": "Werkelijke kostencalculatie veronderstelt afgesloten boekjaar of -periode waarin alle facturen, lonen en overhead geregistreerd zijn.",
+          "hoe": "Eindvoorraad opgenomen, debiteuren/crediteuren bijgewerkt, periodeafsluitingen geboekt (afschrijvingen, vakantiegeld, voorzieningen).",
+          "grondslag": "CBN 174/1 (regelmatige boekhouding)"
+        },
+        {
+          "nr": 2,
+          "titel": "Verzamel werkelijk direct verbruik per order",
+          "wat": "Materiaalbonnen en uurregistratie per order/product gekoppeld aan werkelijke prijzen (voorraadwaardering volgens gekozen methode, werkelijke uurkosten).",
+          "hoe": "Uit ERP/productie-systeem: per order materiaalafgifte × FIFO-/gewogen gemiddelde prijs; loonregistratie × werkelijk all-in uurtarief.",
+          "grondslag": "[[directe-kosten]] · CBN 132/7 §2.1"
+        },
+        {
+          "nr": 3,
+          "titel": "Verzamel werkelijke indirecte productiekosten per kostencentrum",
+          "wat": "Tel alle indirecte productiekosten van het kostencentrum (huur, energie, leiding, onderhoud, afschrijvingen) over de periode.",
+          "hoe": "Uit grootboek klasse 61-64 gesegmenteerd op kostencentrum; afschrijvingen via boekingen klasse 630.",
+          "grondslag": "KB 21.10.2018 — MAR klasse 61-64"
+        },
+        {
+          "nr": 4,
+          "titel": "Bereken werkelijke sleutel-tarieven en verdeel",
+          "wat": "Per kostencentrum: werkelijke indirecte kosten / werkelijke sleutel-eenheden (uren, machine-uren) = werkelijk tarief. Toegewezen overhead = werkelijk tarief × verbruikte eenheden per kostendrager.",
+          "hoe": "Verschil met voorbepaalde aanpak: tarief wordt achteraf herrekend met werkelijke cijfers, niet vooraf begroot. Geen verschillenboekhouding nodig.",
+          "grondslag": "[[verdeelsleutel]]"
+        },
+        {
+          "nr": 5,
+          "titel": "Som werkelijke kostprijs per kostendrager",
+          "wat": "Tel directe materiaal + directe arbeid + toegerekende werkelijke indirecte productiekosten op per kostendrager. Vergelijk met voorbepaalde kostprijs voor verschillenanalyse (indien beide systemen lopen).",
+          "hoe": "Output: vervaardigingsprijs werkelijk versus standaard. Gebruik werkelijk voor voorraadwaardering in jaarrekening (CBN 132/7) — tenzij verschillen klein, dan mag standaard ook.",
+          "grondslag": "CBN 132/7 §2.1"
+        }
+      ],
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Management accounting + CBN 132/7"
+      },
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Voor de jaarrekening",
+      "betekenis": "De wettelijke voorraadwaardering vraagt 'werkelijke' vervaardigingsprijs (CBN 132/7). Een onderneming die intern met standaardkosten werkt, moet bij jaarafsluiting de standaardprijs naar werkelijke prijs corrigeren — verschillenboekhouding herleidt eindvoorraad naar werkelijk niveau.",
+      "confidence": "grounded",
+      "source": {
+        "type": "cbn",
+        "short": "CBN 132/7 §2.1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Tempo-nadeel",
+      "betekenis": "Werkelijke kostprijs is pas beschikbaar ná periodeafsluiting (week, maand, jaar). Voor snelle sturing tijdens de periode (offertes, korte termijn beslissingen) gebruikt men voorbepaalde kosten. Veel ondernemingen draaien beide systemen parallel.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "id": "wetboek-economisch-recht-boek-iii",
   "naam": "Wetboek van Economisch Recht — Boek III (boekhouding)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.I.C",
@@ -242,5 +242,7 @@
       "omschrijving": "Meubelzaak Mertens BV (handels-BV) is een 'onderneming' in de zin van WER art. III.82 → moet een dubbele boekhouding voeren volgens WER art. III.83."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": "Het WER (Wetboek van Economisch Recht) is sinds 2014 de centrale codificatie van het economisch recht. **Boek III** (art. III.82 tot III.95) bevat de algemene boekhoudplicht (wie moet, welk type) en is de wettelijke grondslag waarop het KB-WVV verder uitwerkt. Voor de stagiair-GA samen met WVV het primaire wetgevend kader van PO 1.2.",
+  "naam_alternatief": "Code of Economic Law Book III / Code de droit économique livre III"
 }

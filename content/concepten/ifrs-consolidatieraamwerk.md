@@ -15,11 +15,13 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/ifrs-consolidatieraamwerk.json
 gegenereerd_op: '2026-05-18'
 ---
 # IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12) 🤖
+
+Het internationale parallel naast het Belgische KB WVV-consolidatieregime, verplicht voor genoteerde groepen en geconsolideerde rekeningen van banken/verzekeraars. Het bouwt voort op de control-definitie van IFRS 10 en gebruikt IFRS 3 (acquisitie), IFRS 11 (joint arrangements) en IFRS 12 (toelichtingen) als bouwstenen.
 
 > [!summary] Korte inhoud
 > De verzameling IAS/IFRS-standaarden die het wettelijk kader bepalen voor een geconsolideerde jaarrekening onder IFRS.
@@ -95,4 +97,3 @@ Aurelia Holding NV is beursgenoteerd op Euronext Brussels → verplicht IFRS-con
 [^2]: `EU-IFRS-verordening-1606-2002__art_1`
 [^3]: `KB-WVV-2019__art_3_82`
 [^4]: `CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0__sec_vraagstelling`
-[^5]: `KB-WVV-2019__art_3_111`

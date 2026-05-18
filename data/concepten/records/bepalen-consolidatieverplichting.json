@@ -2,7 +2,7 @@
   "id": "bepalen-consolidatieverplichting",
   "naam": "Bepalen of een vennootschap een geconsolideerde jaarrekening moet opstellen",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Bepalen of een vennootschap een geconsolideerde jaarrekening moet opstellen",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -293,6 +293,15 @@
         "valkuilen[*]: correctie → advies, foute_aanname → vaak_fout",
         "tekstvelden: stagiair-toon, cast-namen (Aurelia/Brugse/Gent Garantie/Pieter Vermeulen/Industria/Jachthaven/Kappers Köln)"
       ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
+      ]
     }
   },
   "linked_anchors": [
@@ -301,5 +310,16 @@
     "1.4.I.B",
     "1.4.II.B"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "edges": [],
+  "naam_alternatief": "determine consolidation obligation",
+  "situering": {
+    "text": "Een toepassingscompetentie binnen het Belgische vennootschapsrecht (WVV) — de gatekeeper-vraag vóór elke consolidatie-opdracht. De stagiair toetst of de moeder consolidatieplichtig is, of zij valt onder een vrijstelling (grootte, subconsolidatie), en welke entiteiten in de groottetoets meewegen.",
+    "confidence": "inferred",
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

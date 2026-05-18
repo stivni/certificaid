@@ -13,16 +13,16 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/wijziging-consolidatiekring.json
 gegenereerd_op: '2026-05-18'
 ---
 # Wijziging van de consolidatiekring 🤖
 
+Een verzamelthema in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2): elke wijziging in de samenstelling van de groep tussen twee boekjaren — verwerving, vervreemding, status-wissel, uittreding. Doel: tonen welke verschillen tussen openingsbalans en vergelijkende cijfers structureel zijn en welke louter van wijziging-in-kring komen.
+
 > [!summary] Korte inhoud
 > Elke verandering in de samenstelling van de consolidatiekring tussen twee opeenvolgende boekjaren.
-
-> [!info] Specialisaties (2): [[eerste-consolidatie]] · [[step-acquisition]]
 
 Elke verandering in de samenstelling van de consolidatiekring tussen twee opeenvolgende boekjaren. Vijf typische gevallen: (1) opname van een nieuw verworven dochter (eerste consolidatie); (2) wegvallen van een verkochte of geliquideerde dochter; (3) verschuiving van kwalificatie (van geassocieerde naar dochter via step-acquisition, of omgekeerd); (4) wijziging van het type controle (van gezamenlijk naar exclusief of omgekeerd); (5) opname van een voorheen uitgesloten dochter. Elk geval vraagt specifieke boekhoudkundige verwerkingen: berekening van een (eventueel nieuw) consolidatieverschil, herbeoordeling van waarderingsregels en aanpassing van de vergelijkende cijfers in de toelichting.
 
@@ -129,6 +129,4 @@ Aurelia Holding NV consolideerde in 20X0 enkel Brugse Brouwerij BV. In 20X1 koop
 [^5]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking`
 [^6]: `CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update__sec_verband-met-de-berekening-van-de-groottecriteria-bij-transac`
 [^7]: `KB-WVV-2019__art_3_122`
-[^8]: `KB-WVV-2019__art_3_75`
-[^9]: `CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie`
-[^10]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1`
+[^8]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1`

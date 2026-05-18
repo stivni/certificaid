@@ -2,7 +2,7 @@
   "id": "ondernemingsraad-sociaal-economische-info",
   "naam": "Ondernemingsraad — sociaal-economische informatie",
   "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.3.I.D"
@@ -89,5 +89,26 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": [
+    "Works council — economic & financial information"
+  ],
+  "situering": {
+    "text": "In vennootschappen met een ondernemingsraad heeft die OR recht op uitgebreide sociaal-economische en financiële informatie: basisinformatie bij installatie, jaarinformatie binnen drie maanden na boekjaar, en trimestriële periodieke informatie. De OR keurt de jaarrekening niet goed maar geeft advies — een informatiekanaal naast aandeelhouders en commissaris.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "CAO nr. 9 + KB inlichting OR"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.III",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

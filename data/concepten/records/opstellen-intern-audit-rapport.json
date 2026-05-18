@@ -2,7 +2,7 @@
   "id": "opstellen-intern-audit-rapport",
   "naam": "Opstellen van een intern-audit-rapport",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Opstellen van een intern-audit-rapport",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -188,5 +188,17 @@
     "1.7.VIII.F",
     "1.7.XIII"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": {
+    "text": "Deze competentie operationaliseert de output-zijde van een interne audit-cyclus: hoe schrijf je een rapport dat een bestuursorgaan of auditcomité daadwerkelijk kan lezen en omzetten in remediation? Geen Belgische wet schrijft een specifieke vorm voor — de IIA International Standards (2400-2440) zijn de internationale vakdoctrine. Voor de stagiair is de toets vooral structureel: het 5C-format per bevinding (Condition, Criteria, Cause, Consequence, Corrective action), het recht-op-weerwoord van de auditee, en de keuze waar te rapporteren (bestuur versus auditcomité). Bij KMO's zonder auditcomité gaat het rapport naar het bestuursorgaan.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen"
+        }
+      ]
+    }
+  },
+  "migrated_to_schema_1.6_at": "2026-05-18"
 }

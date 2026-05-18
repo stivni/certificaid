@@ -2,7 +2,7 @@
   "id": "kostenanalyse-make-or-buy",
   "naam": "Make-or-buy-analyse",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.taak.1",
@@ -86,5 +86,58 @@
       "inputs": []
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "make-or-buy analysis",
+  "berekeningsmethode": [
+    {
+      "naam": "Make-or-buy beslissings-stappen",
+      "ratio": "Vijf-stappen-protocol om de keuze tussen zelf produceren (make) en uitbesteden (buy) financieel te onderbouwen — inclusief opportuniteitskosten en lange-termijn-overwegingen.",
+      "stappen": [
+        {
+          "nr": 1,
+          "titel": "Identificeer relevante kosten",
+          "wat": "Lijst kosten die wél veranderen door de beslissing: variabele productiekosten, vermijdbare directe vaste kosten (extra personeel, gehuurde machine), opportuniteitskosten van de inzet van vrije capaciteit.",
+          "hoe": "Schrap niet-relevante kosten: gemeenschappelijke vaste kosten (huur productiehal die je niet kan verminderen door uitbesteding), sunk costs (al gemaakte investering in machines).",
+          "grondslag": "[[sunk-cost]] · [[opportuniteitskost]]"
+        },
+        {
+          "nr": 2,
+          "titel": "Bereken make-kost",
+          "wat": "Som van relevante kosten bij zelf produceren: variabel materiaal + variabele arbeid + vermijdbare vaste kosten + opportuniteitskost van de schaarse middelen (machine, mensen, ruimte).",
+          "hoe": "Pas op met indirecte kosten: alleen vermijdbare meetellen, niet de volledig toegerekende overhead. Tip: vergelijk de incrementele kost van de make-optie, niet de full-cost-rapportage.",
+          "grondslag": "[[directe-kosten]] · [[indirecte-kosten]]"
+        },
+        {
+          "nr": 3,
+          "titel": "Bereken buy-kost",
+          "wat": "Externe prijs van leverancier + nevenkosten (transport, inkoopopvolging, kwaliteitscontrole, voorraadopslag). Subtraheer eventueel vermeden interne kosten.",
+          "hoe": "Externe offerte als basis; voeg verborgen kosten toe: keuringen, retourbeheer, dependency op leverancier (extra voorraad als buffer).",
+          "grondslag": "Vakdoctrine"
+        },
+        {
+          "nr": 4,
+          "titel": "Vergelijk + check strategische factoren",
+          "wat": "Financiële vergelijking + niet-financiële afweging: knowhow-behoud, leveringszekerheid, kwaliteitscontrole, IP-bescherming, sociaal-impact (jobverlies). Make wordt verkozen wanneer make-kost ≤ buy-kost en strategische factoren neutraal of pro-make. Buy bij omgekeerd plaatje.",
+          "hoe": "Maak een tabel: make-kost vs. buy-kost + 4-6 niet-financiële criteria met gewichten of pro/contra-notities.",
+          "grondslag": "Vakdoctrine"
+        },
+        {
+          "nr": 5,
+          "titel": "Gevoeligheidsanalyse",
+          "wat": "Test hoe de uitkomst verandert bij wijziging van volume (uitbesteder geeft schaalvoordeel? eigen productie schaalt minder?), prijsverandering leverancier, capaciteitsbenutting (overcapaciteit → make goedkoper).",
+          "hoe": "Twee à drie scenario's: pessimistisch (volume daalt 20 %), basis, optimistisch. Identificeer break-even-volume tussen make en buy.",
+          "grondslag": "Vakdoctrine"
+        }
+      ],
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Management accounting — bron-gap"
+      },
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ]
 }

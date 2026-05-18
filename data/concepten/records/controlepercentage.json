@@ -2,7 +2,7 @@
   "id": "controlepercentage",
   "naam": "Controlepercentage",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -47,6 +47,16 @@
         "berekeningsmethode[0].stappen[2].voorbeeld.substappen toegevoegd (worked example)",
         "berekeningsmethode[0].formules[*]: variabelen + invulling_voorbeeld toegevoegd",
         "voorbeeld_inline op record-niveau toegevoegd"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -1",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -336,27 +346,6 @@
   ],
   "edges": [
     {
-      "type": "contrasteert-met",
-      "target": "belangenpercentage",
-      "redenering": "Controlepercentage = stemrechten (zeggenschap); belangenpercentage = kapitaal/eigendomsverhouding. Bij ketens: controle wordt niet vermenigvuldigd, belang wel.",
-      "_corrected_from": [
-        {
-          "field": "type",
-          "from": "vergelijkingsparen → edges",
-          "reason": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-        }
-      ],
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "vereist-kennis-van",
       "target": "controle",
       "redenering": "Controlepercentage is een meetinstrument voor controle. Het percentage triggert vermoedens, maar controle blijft een kwalitatief oordeel (in rechte of in feite).",
@@ -375,5 +364,19 @@
       "omschrijving": "Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV; Brugse bezit op haar beurt 60 % stemrechten in Drukkerij Dendermonde BV → controlepercentage van Aurelia in Drukkerij Dendermonde = 60 % (niet 48 %; vermenigvuldigen geldt enkel voor belang)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "control percentage / voting rights percentage",
+  "situering": {
+    "text": "Een operationaliseringsmaatstaf uit het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2) die meet hoeveel stemrechten een moeder direct of indirect aanhoudt. Hij vormt de cijfermatige onderbouwing van de kwalificatie 'controle' en wordt gebruikt om de keuze van de consolidatietechniek te toetsen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

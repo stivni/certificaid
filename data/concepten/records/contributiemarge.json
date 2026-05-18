@@ -2,7 +2,7 @@
   "id": "contributiemarge",
   "naam": "Contributiemarge",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.B",
@@ -178,5 +178,18 @@
       "omschrijving": "Yperse Werkplaats BV verkoopt een tapijt voor € 60 met variabele kost € 13 per stuk. Eenheidscontributie = € 60 − € 13 = € 47. Bij 10.000 stuks: totale contributiemarge € 470.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "contribution margin",
+  "situering": {
+    "text": "De contributiemarge is het verschil tussen verkoopprijs en variabele kost — per eenheid (eenheidscontributie in EUR) of als percentage van omzet (CM-ratio). Dit bedrag dekt eerst de vaste kosten en draagt daarna bij aan winst. Centraal in direct costing en break-even-analyse: zonder contributiemarge geen marge-redenering, geen extra-order-beslissing, geen multi-product-mix-optimalisatie.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }

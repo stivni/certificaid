@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/financiele-analyse-software.json
 gegenereerd_op: '2026-05-18'
 ---
 # Financiële-analyse-software (IT-tools) 🤖
+
+IT-tools die jaarrekeninggegevens uit NBB-Centrale voor Balansen of XBRL importeren, ratio-set automatisch berekenen, sectorbenchmarks toevoegen en grafische rapporten genereren. Maken de mechanische berekening snel — de stagiair blijft verantwoordelijk voor selectie, interpretatie en aanbeveling. Voorbeelden: NBB-Online, Belfius Score, Graydon, Roularta Trends.
 
 > [!summary] Korte inhoud
 > Financiële-analyse-software is software die jaarrekening-gegevens importeert (uit NBB-Centrale voor Balansen of XBRL-bestanden), automatisch ratio's berekent, sector-benchmarking levert en visuele rapporten genereert.
@@ -82,3 +84,4 @@ _Grondslag: Beroepspraktijk_
 [^1]: `anchor-1.9.VII.A`
 [^2]: `anchor-1.9.VII.B`
 [^3]: `anchor-1.9.VII.C`
+[^4]: `anchor-1.9.VII`

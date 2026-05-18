@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: autoriteit
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/commissaris.json
 gegenereerd_op: '2026-05-18'
 ---
 # Commissaris ⚖️
+
+De commissaris is de **wettelijke jaarlijkse controleur** van de jaarrekening — een door de algemene vergadering benoemde bedrijfsrevisor (IBR-lid). Voor de stagiair-GA cruciaal om te onderscheiden van de externe accountant (ITAA): de commissaris-opdracht is wettelijk voorbehouden aan bedrijfsrevisoren. Examenklassieker: 'mag een ITAA-accountant commissaris zijn?' — neen, alleen IBR-leden.
 
 > [!summary] Korte inhoud
 > Een commissaris is een door de algemene vergadering benoemde bedrijfsrevisor (IBR-lid) die de wettelijke jaarlijkse controle uitvoert op de jaarrekening en jaarverslag van de vennootschap.
@@ -106,7 +108,7 @@ _Grondslag: WVV art. 3:73 + Wet 7 december 2016_
 
 - **Vereist kennis van**: [[ibr]]
 - **Getriggerd door**: [[groottecriteria-jaarrekening]]
-- **Wordt voorondersteld in** (3): [[bedrijfsrevisor]] · [[ibr]] · [[wettelijke-controleopdracht-commissaris]]
+
 ## Voorbeelden
 
 Sofie Janssens (bedrijfsrevisor, IBR-lid) wordt door de algemene vergadering van Rotex Roeselare NV benoemd tot commissaris voor een termijn van drie boekjaren — zij zal jaarlijks de jaarrekening controleren en haar bevindingen rapporteren aan de aandeelhouders.

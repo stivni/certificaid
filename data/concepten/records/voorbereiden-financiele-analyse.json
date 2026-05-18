@@ -2,7 +2,7 @@
   "id": "voorbereiden-financiele-analyse",
   "naam": "Voorbereiden van een financiële analyse van de jaarrekening",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Voorbereiden van een financiële analyse van de jaarrekening",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -191,5 +191,26 @@
     "1.3.I.B",
     "1.3.II.A"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "naam_alternatief": [
+    "Prepare financial analysis"
+  ],
+  "situering": {
+    "text": "Competentie om vóór de eigenlijke ratio-analyse de opdracht goed te kaderen: opdrachtgever en doel identificeren, perimeter bepalen (enkelvoudige vs. geconsolideerde jaarrekening), beschikbare bronnen verzamelen en analytische balans opstellen. Zonder deze voorbereiding loopt elke analyse risico op verkeerde focus.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Examenprogramma 1.3 — competentie"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.taak.1",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

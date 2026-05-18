@@ -16,23 +16,21 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/groottecriteria-jaarrekening.json
 gegenereerd_op: '2026-05-18'
 ---
 # Groottecriteria (jaarrekening-context) ⚖️
 
+De groottecriteria (WVV art. 1:24-1:26) bepalen of een vennootschap micro, klein of groot is — en sturen daarmee jaarrekening-schema, commissaris-verplichting, jaarverslag-plicht en consolidatieverplichting. Voor de stagiair-GA is dit de eerste rekenoefening bij elk nieuw dossier: drempels (personeel, omzet, balanstotaal) toetsen volgens de juiste regels (overschrijding tijdens twee opeenvolgende boekjaren, verbondenheidstoets).
+
 > [!summary] Korte inhoud
 > Vennootschappen en verenigingen worden onderverdeeld in drie groottecategorieën — micro, klein en groot — op basis van drie criteria (jaargemiddelde personeelsbezetting, jaaromzet excl. BTW, balanstotaal).
-
-> [!info] Specialisaties (1): [[kleine-vennootschap]]
 
 Vennootschappen en verenigingen worden onderverdeeld in drie groottecategorieën — micro, klein en groot — op basis van drie criteria (jaargemiddelde personeelsbezetting, jaaromzet excl. BTW, balanstotaal). Een vennootschap is 'klein' als ze op balansdatum maximaal één criterium overschrijdt; 'micro' als ze daarenboven ook nog onder de strengere microdrempels blijft én geen 'moeder' of 'dochter' is. Overschrijdt ze meer dan één criterium → 'groot'.
 
 _Bron: WVV art. 1:24 en 1:25_
 
-
-> [!info] Uitzonderingen (1): [[jaarverslag]]
 
 ## Bouwstenen
 
@@ -132,7 +130,7 @@ _Grondslag: WVV art. 1:25, § 2_
 
 - **Getriggerd door**: [[wetboek-vennootschappen-verenigingen]]
 - **Vereist kennis van**: [[jaarrekening-schema]]
-- **Wordt voorondersteld in** (2): [[eu-harmonisatie-jaarrekeningenrecht]] · [[samenstelling-statutaire-jaarrekening]]- **Triggert** (3): [[commissaris]] · [[jaarrekening-schema]] · [[microvennootschap]]
+
 ## Voorbeelden
 
 Meubelzaak Mertens BV heeft op 31/12/2024: 12 werknemers, € 4.500.000 omzet, € 2.100.000 balanstotaal → onder kleine-vennootschap-drempels op alle 3 criteria → kleine vennootschap → mag verkort schema gebruiken.

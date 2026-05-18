@@ -2,7 +2,7 @@
   "id": "controleoordeel-types",
   "naam": "Types van controleoordeel",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.6.IV",
@@ -10,7 +10,7 @@
     "1.6.IV.C"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18T14:26Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T16:22:12Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.IV",
     "dekt_ook_anchors": [
@@ -18,11 +18,19 @@
       "1.6.IV.C"
     ],
     "reviewed_by": null,
-    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T14:26Z",
     "edge_cleanup_v4": {
       "op": "2026-05-18",
       "reden": "Deprecated 'bevat' edge verwijderd; aangepast-oordeel heeft inverse onderdeel-van (§9)."
-    }
+    },
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T16:22:12Z",
+    "last_extract_at": "2026-05-18T16:22:12Z",
+    "notes": [
+      {
+        "op": "2026-05-18",
+        "note": "edges toegevoegd naar afwijking-van-materieel-belang en kernpunten-van-controle (1.6.IV pass)"
+      }
+    ]
   },
   "bouwstenen": [
     {
@@ -136,6 +144,16 @@
       "type": "vereist-kennis-van",
       "target": "materieel-belang-audit",
       "redenering": "Materialiteit en diepgaandheid sturen de keuze."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "afwijking-van-materieel-belang",
+      "redenering": "Het keuze-mechanisme tussen voorbehoud/afkeurend/onthouding wordt gestuurd door de aard van de afwijking (vs. scope-beperking) en haar materialiteit/diepgaandheid."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "kernpunten-van-controle",
+      "redenering": "Bij beursgenoteerden moet ook bij een goedkeurend oordeel een KAM-sectie opgenomen worden."
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",

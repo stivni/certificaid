@@ -11,11 +11,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/marginale-kostprijs.json
 gegenereerd_op: '2026-05-18'
 ---
 # Marginale kostprijs 🤖
+
+De marginale kostprijs is de kost van één extra geproduceerde of verkochte eenheid. Bij lineair kostengedrag valt ze samen met de variabele kost per eenheid; in werkelijkheid kan ze afwijken door schaalsprongen (extra ploeg inschakelen, overuren, capaciteitsuitbreiding). Centraal voor extra-order-beslissingen ('mag ik een order onder kostprijs accepteren?') en optimale productie-uitbreiding ('marginale opbrengst = marginale kost').
 
 > [!summary] Korte inhoud
 > De marginale kostprijs is de kost van één extra geproduceerde of verkochte eenheid.
@@ -50,7 +52,7 @@ _Bron: Management accounting — bron-gap_
 ## Zie ook
 
 - **Vereist kennis van**: [[variabele-kosten]]
-- **Wordt voorondersteld in** (3): [[kostenanalyse-make-or-buy]] · [[kostprijs-per-eenheid]] · [[opportuniteitskost]]
+
 ## Voorbeelden
 
 Yperse Werkplaats BV produceert 20.000 tapijten/jaar bij normale productie. De marginale kostprijs voor het 20.001ste tapijt = variabele kost € 13. Maar boven 22.000 stuks moet overuren gedraaid worden (€ 35/uur i.p.v. € 25); de marginale kostprijs stijgt dan tot € 17/stuk.

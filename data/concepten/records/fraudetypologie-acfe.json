@@ -1,0 +1,174 @@
+{
+  "id": "fraudetypologie-acfe",
+  "naam": "Fraudetypologie ACFE (drie hoofdtypen)",
+  "node_type": "begrip",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "1.7.VI",
+    "1.7.VI.B",
+    "1.6.II.B"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave1b4",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.VI.B",
+    "dekt_ook_anchors": [
+      "1.7.VI",
+      "1.6.II.B"
+    ],
+    "reviewed_by": null,
+    "inputs": [
+      {
+        "id": "ISA-240__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+        "sha256": null,
+        "version": "rag-v1"
+      }
+    ],
+    "bron_gap": "ACFE Report to the Nations is vakdoctrine, geen Belgische bron. ISA 240 §A2 verwijst impliciet naar de eerste twee types (frauduleuze financiële verslaggeving + oneigenlijke toeëigening van activa); corruption wordt apart benoemd in ISA 240 §A6."
+  },
+  "situering": {
+    "text": "De Association of Certified Fraud Examiners (ACFE) onderscheidt drie wezenlijk verschillende fraude-types — elk met eigen modus operandi, eigen red flags en eigen detectie-methodes. ISA 240 §A2 benoemt expliciet de eerste twee (frauduleuze financiële verslaggeving + oneigenlijke toeëigening van activa). Voor de stagiair is dit dé taxonomie om bij een gemeld fraudegeval het type te identificeren en de gepaste auditor- of IC-respons te kiezen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 240 §A2 + ACFE Report to the Nations"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-240__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "definitie": {
+    "text": "De ACFE-fraudetypologie verdeelt fraude in drie wezenlijk verschillende categorieën: (1) frauduleuze financiële verslaggeving — manipulatie van jaarrekening om beeld te verbeteren; (2) oneigenlijke toeëigening van activa (asset misappropriation) — verduistering van geld, voorraad, immaterieel; (3) corruption — omkoping, belangenconflicten, kickbacks. Elk type vraagt eigen preventie + detectie.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-240__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Frauduleuze financiële verslaggeving",
+      "wat": "Opzettelijke afwijkingen in de jaarrekening (inclusief weglatingen) om gebruikers te misleiden over prestaties of financiële positie. Typische schema's: omzet padding (vervroegd boeken, fictieve verkopen), kosten uitstellen, voorraad overwaarderen, schulden verbergen, off-balance-sheet-entiteiten.",
+      "waarom": "Wordt typisch gepleegd door of met medeweten van het management — dus moeilijk te detecteren met routine-controles. Auditor moet professioneel-kritisch zijn bij subjectieve waarderingen en periode-grensjes.",
+      "in_praktijk": "Detectie via: cijferanalyses op trends (omzetgroei vs. cash-flow-groei), cut-off-tests op grens financiële periode, journaalboeking-analyse (ISA 240 §32(a) verplicht), substantieve werkzaamheden op subjectieve schattingen.",
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Rotex Roeselare NV verschuift het management work-in-progress van € 200.000 naar 'klaar product' om omzet vroeger te kunnen erkennen — boekjaar haalt zo de bank-covenant. Geen verkoop, wel boeking."
+        }
+      ],
+      "grondslag": "ISA 240 §A2 + ACFE Report to the Nations",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-240__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Oneigenlijke toeëigening van activa (asset misappropriation)",
+      "wat": "Verduistering van middelen door werknemers of management: kasgeld, voorraad, vaste activa, intellectuele eigendom. Typische schema's: skimming (cash voor registratie), larceny (na registratie), ghost employees (fictieve werknemers in payroll), expense-fraud, voorraad-diefstal.",
+      "waarom": "Meest voorkomende fraudetype in KMO's — typisch lage bedragen per voorval, hoge frequentie. Treft het bedrijf direct in resultaat én kas.",
+      "in_praktijk": "Detectie via: bank- en kas-reconciliaties (skimming-detectie), periodieke fysieke voorraadtellingen, payroll-analyse (HR-data ↔ payroll), expense-claim-audits, surprise cash counts.",
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Meubelzaak Mertens BV neemt een magazijnier maandelijks afgekeurde meubels mee voor privé-verkoop. Detectie pas na 14 maanden via voorraadtelling-discrepantie + tip van collega."
+        }
+      ],
+      "grondslag": "ISA 240 §A2 + ACFE Report to the Nations",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-240__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Corruption (omkoping, kickbacks, belangenconflicten)",
+      "wat": "Misbruik van bedrijfspositie voor persoonlijk voordeel via externe partijen: kickbacks van leveranciers, omkoping van inkopers, ondoorzichtige consultancy-vergoedingen, belangenconflicten zonder disclosure. Vaak ondergewaardeerd in fraude-cijfers omdat het in twee organisaties tegelijk speelt.",
+      "waarom": "Raakt rechtstreeks de beslissingsketen van inkopen + contracten — kan grote bedragen omvatten zonder dat de jaarrekening direct fout is (de leverancier is wel duur, niet fictief).",
+      "in_praktijk": "Detectie via: leverancier-due-diligence, periodieke benchmark van inkoopprijzen, klokkenluider-kanaal, levensstijl-analyse sleutelmedewerkers, third-party-relationship-disclosures.",
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aankoper bij Yperse Werkplaats BV krijgt 5% kickback van een leverancier op orders > € 100.000. Leverancier is bestaand en levert echt — jaarrekening is technisch correct, maar de onderneming betaalt structureel 10% te veel."
+        }
+      ],
+      "grondslag": "ISA 240 §A6 + ACFE Report to the Nations",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-240__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Type bepaalt detectiestrategie",
+      "betekenis": "Elk type wordt op een andere plek detecteerd: financiële vervalsing in de jaarrekening-analyse (cijfertests, cut-off); asset misappropriation in kasprocessen + voorraad; corruption in leveranciers-due-diligence + klokkenluiders. Een fraude-detectie-strategie die alle drie negeert, mist het meeste.",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-240__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "fraude",
+      "redenering": "Typologie binnen het fraude-concept."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "klokkenluiderregeling",
+      "redenering": "Klokkenluiders zijn het #1 detectie-kanaal voor corruption (ACFE)."
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Een corruption-geval kan een 'cleane' jaarrekening hebben — een externe auditor die alleen rekent en niet vraagt naar leverancier-relaties zal het niet vinden. Audit-procedures moeten alle drie types adresseren.",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-240__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ]
+}

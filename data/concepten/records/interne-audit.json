@@ -2,7 +2,7 @@
   "id": "interne-audit",
   "naam": "Interne audit",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.I.D",
@@ -12,7 +12,7 @@
     "1.7.IV"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T09:18Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave2-1.7.I",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.V.A",
     "dekt_ook_anchors": [
@@ -22,11 +22,13 @@
       "1.7.IV"
     ],
     "reviewed_by": null,
-    "bron_gap": "Geen Belgische trusted bron voor de IIA-definitie van interne audit (Institute of Internal Auditors). Vakdoctrine internationaal (IIA Standards, ISA 610 voor externe auditor die gebruik maakt van IA-werk). Inferred-common-knowledge voor het brede begrip; gegrond waar ITAA-norm-algemene-controlenorm raakt aan documentatie + onafhankelijkheid."
+    "bron_gap": "Geen Belgische trusted bron voor de IIA-definitie van interne audit (Institute of Internal Auditors). Vakdoctrine internationaal (IIA Standards, ISA 610 voor externe auditor die gebruik maakt van IA-werk). Inferred-common-knowledge voor het brede begrip; gegrond waar ITAA-norm-algemene-controlenorm raakt aan documentatie + onafhankelijkheid.",
+    "note": "Wave 2 1.7.I: bouwstenen[] toegevoegd (cluster-vereiste), valkuil IESBA non-assurance services, edges naar gebruik-werk-interne-auditors-audit + iesba-code-of-ethics.",
+    "touched_at": "2026-05-18T20:30:00Z"
   },
   "definitie": {
     "text": "Interne audit is een onafhankelijke, objectieve evaluatie- en adviesactiviteit binnen een onderneming die de werking van het interne-controle-systeem, het risicobeheer en de governance toetst. De interne auditor rapporteert hiërarchisch aan de hoogste leiding (raad van bestuur of auditcomité), niet aan het management van het proces dat hij beoordeelt — dat geeft hem zijn onafhankelijkheid binnen de onderneming.",
-    "confidence": "inferred-common-knowledge",
+    "confidence": "inferred",
     "_provenance": {
       "inputs": []
     }
@@ -35,7 +37,7 @@
     {
       "aspect": "Vier kerntaken interne auditor",
       "betekenis": "(1) Evaluatie van het IC-systeem: werkt het zoals beoogd? (2) Risicobeheer-evaluatie: zijn de juiste risico's geïdentificeerd en beheerst? (3) Governance-review: functioneren de overlegorganen correct? (4) Adviesrol: aanbevelingen voor verbetering.",
-      "confidence": "inferred-common-knowledge",
+      "confidence": "inferred",
       "_provenance": {
         "inputs": []
       }
@@ -43,7 +45,7 @@
     {
       "aspect": "Onafhankelijkheid binnen de onderneming",
       "betekenis": "De interne auditor is werknemer maar staat hiërarchisch los van de gecontroleerde processen. Rapporteert rechtstreeks aan auditcomité of raad van bestuur, niet aan operationeel management. Mag geen taken uitvoeren in de cyclus die hij audit (anders zit hij zichzelf te beoordelen).",
-      "confidence": "inferred-common-knowledge",
+      "confidence": "inferred",
       "_provenance": {
         "inputs": []
       }
@@ -51,7 +53,7 @@
     {
       "aspect": "Wanneer wettelijk verplicht in België",
       "betekenis": "Voor de meeste ondernemingen niet wettelijk verplicht — wel in financiële sector (banken, verzekeraars onder toezicht van NBB), beursgenoteerde vennootschappen (Code Buysse / Code 2020), en grote overheidsentiteiten. Yperse Werkplaats BV (KMO) heeft géén wettelijke verplichting; Rotex Roeselare NV (groot, beursgenoteerd) wel via de Corporate Governance Code.",
-      "confidence": "inferred-common-knowledge",
+      "confidence": "inferred",
       "_provenance": {
         "inputs": []
       }
@@ -60,16 +62,32 @@
   "valkuilen": [
     {
       "text": "Interne auditor ≠ interne controleur. De controleur zit ingebed in het proces (tekent facturen af, doet inventaris). De interne auditor evalueert achteraf of die controles werken — hij voert ze niet uit.",
-      "confidence": "inferred-common-knowledge",
+      "confidence": "inferred",
       "_provenance": {
         "inputs": []
       }
     },
     {
       "text": "Bij externe audit mag de externe auditor 'gebruik maken van' werk van interne audit (ISA 610) — maar blijft volledig verantwoordelijk voor zijn eigen oordeel. Hij delegeert niet, hij steunt waar zinvol.",
-      "confidence": "inferred-common-knowledge",
+      "confidence": "inferred",
       "_provenance": {
         "inputs": []
+      }
+    },
+    {
+      "text": "Belangrijk voor de externe accountant: hij mag geen interne audit-dienst leveren aan zijn eigen audit-cliënt waarbij hij management-verantwoordelijkheid op zich neemt (IESBA Code R605.3). De cliënt moet altijd een eigen competente persoon aanstellen die de interne controle ontwerpt, monitort en onderhoudt; de externe accountant mag hooguit ondersteunend werken op specifieke risico-aspecten.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "IESBA Code of Ethics 2024 § R605.3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IESBA-code-of-ethics-2024__sec_section-600-provision-of-non-assurance-services-to-an_part8",
+            "version": "rag-v1"
+          }
+        ]
       }
     }
   ],
@@ -106,6 +124,17 @@
       "type": "vereist-kennis-van",
       "target": "auditcomite",
       "redenering": "Interne audit rapporteert idealiter aan het auditcomité voor maximale onafhankelijkheid."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "gebruik-werk-interne-auditors-audit",
+      "aspect": "externe-auditor-perspectief",
+      "redenering": "Wanneer de externe auditor steunt op interne audit, regelt ISA 610 de voorwaarden — dat staat in dat aparte record."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "iesba-code-of-ethics",
+      "redenering": "IESBA Code R605.3 beperkt de externe accountant in het leveren van interne audit-diensten aan zijn audit-cliënten."
     }
   ],
   "voorbeelden": [
@@ -114,5 +143,82 @@
       "omschrijving": "Bij Rotex Roeselare NV werkt Sofie Janssens als interne auditor. Ze rapporteert aan het auditcomité van de raad van bestuur. In 2026 voert ze een review uit van de aankoopcyclus: ze test of de procedure 'drie handtekeningen + leverancier-due-diligence' systematisch wordt nageleefd. Ze rapporteert haar bevindingen aan het auditcomité, niet aan de aankoopdirecteur."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Interne audit is de derde verdedigingslijn van het drie-lijnen-model: een onafhankelijke evaluatie- en adviesfunctie binnen de onderneming. Onderscheidt zich van interne controle (de operationele procedures zelf) en externe audit (door commissaris voor derden). Wettelijk verplicht in financiële sector (NBB-toezicht) en beursgenoteerd; vrijwillig bij andere grote ondernemingen. ISA 610 regelt hoe de externe auditor op het werk van interne audit mag steunen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 610 (herzien) + IIA International Professional Practices Framework"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-610-herzien__sec_doelstellingen",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "naam_alternatief": "internal audit",
+  "bouwstenen": [
+    {
+      "titel": "Onafhankelijkheid binnen de onderneming",
+      "wat": "De interne auditor is werknemer maar staat hiërarchisch los van de gecontroleerde processen. Rapporteert rechtstreeks aan het auditcomité of de raad van bestuur — niet aan het operationeel management dat hij beoordeelt.",
+      "waarom": "Zonder hiërarchische scheiding kan de auditor onder druk worden gezet of zichzelf moeten beoordelen. ISA 610 § A6-A7 noemt 'organisatorische positie' uitdrukkelijk als bepalende factor voor objectiviteit.",
+      "in_praktijk": "Toetsregel: vraag waaraan de interne auditor rapporteert. Aan de CFO of operationeel directeur → onafhankelijkheid is zwak. Aan auditcomité of raad van bestuur → sterk.",
+      "grondslag": "ISA 610 (herzien) § 15(a) + § A6-A7",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-610-herzien__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Competentie en systematische werkwijze",
+      "wat": "De interne audit-functie moet voldoende competentie hebben (opleiding, ervaring, professionele certificering zoals CIA) en werkt volgens een systematische, gedisciplineerde methode met risico-gebaseerde planning, toetsing en documentatie.",
+      "waarom": "Onafhankelijkheid zonder competentie levert geen bruikbare assurance. ISA 610 § A8-A9 vereist beide pijlers naast elkaar.",
+      "grondslag": "ISA 610 (herzien) § 15(b) + IIA International Professional Practices Framework",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-610-herzien__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Drie soorten interne-audit-werk",
+      "wat": "(1) Assurance over interne-controle-werking — toetst opzet, bestaan en werking. (2) Risico- en governance-evaluatie — toetst of significante blootstellingen geïdentificeerd en beheerst worden. (3) Compliance-review — toetst naleving van wet, regelgeving en interne beleidslijnen.",
+      "waarom": "Deze drie velden samen dekken de scope die ISA 610 § A1 toekent aan een typische interne-audit-functie. In de praktijk verschuift de balans naargelang de organisatie (financiële sector heeft veel compliance-werk; productie meer operationeel).",
+      "in_praktijk": "Bij een examenvraag 'wat doet de interne auditor concreet?' verwacht de gewicht-verdeling tussen deze drie activiteiten in plaats van een algemene 'hij kijkt of het werkt'.",
+      "grondslag": "ISA 610 (herzien) § A1",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-610-herzien__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Charter en mandaat",
+      "wat": "De scope, bevoegdheden en verantwoordingsplicht van de interne-audit-functie worden vastgelegd in een door het auditcomité goedgekeurd 'internal audit charter'. Bepaalt wat de auditor mag onderzoeken, aan wie hij rapporteert en welke ressources hem ter beschikking staan.",
+      "waarom": "Zonder schriftelijk mandaat is de bevoegdheid voor onderzoek (toegang tot dossiers, gesprekken, IT-systemen) juridisch onzeker. Het charter is ook het instrument waarmee onafhankelijkheid formeel wordt gegarandeerd.",
+      "in_praktijk": "Examenval: 'wie keurt het auditplan goed?' — antwoord is auditcomité, niet operationeel management.",
+      "grondslag": "IIA International Standard 1000, 1010",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "id": "sociale-balans",
   "naam": "Sociale balans",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.C",
@@ -133,5 +133,7 @@
       "omschrijving": "Rotex Roeselare NV's sociale balans 2024: gemiddelde personeelsbezetting 550 VTE, € 22M loonkosten, 4.500 opleidingsuren, 12% deeltijds, 88% voltijds."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": "De sociale balans is een **afzonderlijk onderdeel** van de jaarrekening met informatie over tewerkstelling (aantal werknemers, kosten, opleidingen). Verplicht voor vennootschappen die ten minste één werknemer tewerkstellen. Voor de stagiair-GA niet onder elk schema verplicht (microschema kent geen sociale balans).",
+  "naam_alternatief": "social balance sheet / bilan social"
 }

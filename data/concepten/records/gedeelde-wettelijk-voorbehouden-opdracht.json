@@ -7,7 +7,8 @@
   "linked_anchors": [
     "1.6.I.A",
     "1.6.I.B",
-    "1.6.I.C"
+    "1.6.I.C",
+    "1.7.taak.1"
   ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
@@ -21,7 +22,10 @@
     "reviewed_by": null,
     "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "last_extract_pass": "concept-extractie-v4-2026-05-18T16:10Z",
-    "last_extract_at": "2026-05-18T16:10:00Z"
+    "last_extract_at": "2026-05-18T16:10:00Z",
+    "cross_linked_1.7.taak.1": "2026-05-18T18:00Z",
+    "cross_link_reason": "Anchor 1.7.taak.1 (bijzondere verslagen / juridisch-contractuele opdrachten) dekt expliciet deze opdracht-records.",
+    "edges_completed_2026_05_18": true
   },
   "definitie": {
     "text": "Een gedeelde wettelijk voorbehouden opdracht is een opdracht die door of krachtens de wet wordt toevertrouwd aan ofwel een gecertificeerd accountant ofwel een bedrijfsrevisor (gedeeld monopolie). Voorbeelden: inbreng in natura, quasi-inbreng, omzetting van rechtsvorm, ontbinding-vereffening. Geldt enkel als er geen commissaris is — heeft de vennootschap er één, dan voert die de opdracht uit.",
@@ -144,6 +148,16 @@
       "type": "verwijst-naar",
       "target": "ontbinding-vereffening-opdracht",
       "redenering": "Ontbinding-vereffening is gedeelde wettelijk voorbehouden opdracht (bron-naar-doel)."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "inbreng-in-natura-verslag",
+      "redenering": "Een van de gedeelde wettelijk voorbehouden opdrachten (WVV art. 5:7 BV / 7:7 NV)."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "quasi-inbreng-verslag",
+      "redenering": "Een van de gedeelde wettelijk voorbehouden opdrachten (WVV art. 5:8 BV / 7:8 NV)."
     }
   ],
   "voorbeelden": [

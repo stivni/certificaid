@@ -13,7 +13,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/monitoring-interne-controle.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -21,9 +21,50 @@ gegenereerd_op: '2026-05-18'
 
 Monitoring is het continu en periodiek evalueren of het IC-systeem nog werkt zoals beoogd. Bestaat uit: (1) doorlopende monitoring ingebed in dagelijkse processen (bv. bank-grootboek-afstemming) en (2) afzonderlijke evaluaties (interne audit, externe audit, management self-assessment). Tekortkomingen worden gerapporteerd en bijgestuurd.
 
-> [!info] Behoort tot: [[interne-controle]]
+> [!summary] Korte inhoud
+> Monitoring (COSO-component 5) is de doorlopende en periodieke evaluatie of het IC-systeem nog werkt zoals beoogd.
 
-> [!info] Bestaat uit (1): [[opvolging-verrichtingen-ic]]
+> [!info] Behoort tot: [[interne-controle]] · [[coso-componenten-synthese]]
+
+Monitoring (COSO-component 5) is de doorlopende en periodieke evaluatie of het IC-systeem nog werkt zoals beoogd. Onderscheidt twee vormen: doorlopende monitoring (ingebed in dagelijkse processen, bv. supervisor-review van kasstaten) en afzonderlijke evaluaties (separate evaluations — interne audit, externe consultant, management self-assessment). Tekortkomingen worden gerapporteerd aan management en bestuursorgaan met opvolging tot remediation.
+
+
+## Bouwstenen
+
+### Doorlopende monitoring 🤖
+
+Continue monitoring is ingebed in dagelijkse werkzaamheden — supervisors reviewen output, KPI-dashboards signaleren afwijkingen, system-alerts blokkeren bij overschrijding van drempels.
+
+**Waarom?** Vangt afwijkingen vroeg op, voordat ze materieel worden — laagdrempeliger dan periodieke audits.
+
+
+
+Bij Rotex Roeselare NV reviewt elke afdelingschef maandelijks zijn control-self-assessment-checklist; CFO ziet KPI-dashboard met openstaande SOD-violations dagelijks.
+
+_Grondslag: COSO 2013 component 5 — Ongoing monitoring_
+
+### Afzonderlijke evaluaties 🤖
+
+Periodieke diepe reviews door interne audit, externe consultant of management self-assessment. Frequentie hangt af van risico-profiel: hoog-risico-processen jaarlijks, middel 2-jaarlijks, laag 5-jaarlijks.
+
+**Waarom?** Doorlopende monitoring is breed maar oppervlakkig — separate evaluations gaan diep en testen ook design effectiveness, niet alleen operating.
+
+
+
+Sofie Janssens auditeert jaarlijks vier kritische cycli volledig bij Rotex Roeselare NV; bij Yperse Werkplaats BV (KMO) doet Xenon Expertise BV een tweejaarlijkse IC-review als externe consultant.
+
+_Grondslag: COSO 2013 component 5 — Separate evaluations_
+
+### Reporting en remediation 🤖
+
+Tekortkomingen worden formeel gerapporteerd aan management en — bij OOB — aan auditcomité, met root cause + actieplan + termijn. Follow-up na 3-6 maanden om remediation te valideren.
+
+**Waarom?** Monitoring zonder follow-up is verspilling: bevinding vergt eigenaar, termijn en hertest om effect te bewijzen.
+
+
+
+
+_Grondslag: COSO 2013 component 5 + IIA Standard 2500_
 
 
 ## In de praktijk

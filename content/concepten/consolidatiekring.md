@@ -15,16 +15,16 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/consolidatiekring.json
 gegenereerd_op: '2026-05-18'
 ---
 # Consolidatiekring ⚖️
 
+Een operationeel kernbegrip uit het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2). Afbakening van de kring is de eerste stap in elke consolidatie en bepaalt welke entiteiten — en met welke techniek — in de geconsolideerde jaarrekening verschijnen.
+
 > [!summary] Korte inhoud
 > De lijst van vennootschappen die in de geconsolideerde jaarrekening worden opgenomen: de moeder en al haar dochters.
-
-> [!info] Bestaat uit (3): [[dochteronderneming]] · [[geassocieerde-onderneming]] · [[moedervennootschap]]
 
 De lijst van vennootschappen die in de geconsolideerde jaarrekening worden opgenomen: de moeder en al haar dochters. In bepaalde gevallen mag of moet een dochter buiten de lijst worden gehouden; dan wordt zij doorgaans via de vermogensmutatiemethode opgenomen. Natuurlijke personen horen nooit in de consolidatiekring — die zijn geen dochteronderneming in de zin van het WVV.
 
@@ -123,7 +123,7 @@ _Grondslag: KB WVV art. 3:100_
 ## Zie ook
 
 - **Vereist kennis van**: [[controle]]
-- **Wordt voorondersteld in** (3): [[geconsolideerde-jaarrekening]] · [[vrijstelling-subconsolidatie]] · [[wijziging-consolidatiekring]]
+
 ## Voorbeelden
 
 Aurelia Holding NV controleert Brugse Brouwerij BV (100 %) en Drukkerij Dendermonde BV (25 %, invloed van betekenis). Consolidatiekring = Aurelia + Brugse; Drukkerij Dendermonde komt erbij via vermogensmutatie.
@@ -137,4 +137,3 @@ Aurelia Holding NV controleert Brugse Brouwerij BV (100 %) en Drukkerij Dendermo
 [^5]: `KB-WVV-2019__art_3_78`
 [^6]: `CBN-2011-05-consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn__sec_aandelen-waarop-is-ingeschreven-met-het-oog-op-wederafstand-`
 [^7]: `CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7`
-[^8]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding`

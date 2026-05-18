@@ -8,10 +8,15 @@
     "1.6.II.C"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T17:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.II.C",
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "edge_cleanup_v4": {
+      "op": "2026-05-18",
+      "reden": "onderdeel-van → ontdekkingsrisico vervangen door verwijst-naar (regulerend, niet compositioneel); onderdeel-van → assurance-informatie toegevoegd."
+    }
   },
   "in_praktijk": [
     {
@@ -35,9 +40,14 @@
   ],
   "edges": [
     {
-      "type": "onderdeel-van",
+      "type": "verwijst-naar",
       "target": "ontdekkingsrisico",
-      "redenering": "Steekproefrisico is een component van ontdekkingsrisico."
+      "redenering": "Steekproef-omvang stuurt het ontdekkingsrisico — relatie is regulerend, niet compositioneel."
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "assurance-informatie",
+      "redenering": "Steekproef-techniek levert assurance-informatie over de populatie als geheel."
     }
   ],
   "voorbeelden": [

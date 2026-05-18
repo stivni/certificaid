@@ -2,14 +2,16 @@
   "id": "ibr",
   "naam": "Instituut van de Bedrijfsrevisoren (IBR)",
   "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.II",
-    "1.2.IV.E"
+    "1.2.IV.E",
+    "1.7.XII.G",
+    "1.7.XII"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-po1.7.XII-wave2",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.II",
     "dekt_ook_anchors": [
@@ -112,5 +114,13 @@
       "omschrijving": "Rotex Roeselare NV (grote NV) heeft de plicht een commissaris aan te stellen → die commissaris moet ingeschreven zijn bij het IBR (revisorenregister)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Het Instituut van de Bedrijfsrevisoren (IBR / IRE in het Frans) is de federatie + tuchtorgaan van de bedrijfsrevisoren in België. Vergelijkbaar met het ITAA aan accountancy-zijde: stelt beroepsnormen vast, organiseert toegang via stage + examen, oefent toezicht en tucht uit. Onder federaal publiek toezicht via het College van Toezicht op de Bedrijfsrevisoren (CTR). Voor PO 1.7.XII.G ('gereglementeerde beroepen') is het IBR hét sleutelinstituut aan revisor-zijde, parallel aan het ITAA.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "migrated_to_schema_1.6_at": "2026-05-18"
 }

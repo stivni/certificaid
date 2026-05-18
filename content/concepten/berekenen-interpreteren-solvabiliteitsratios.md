@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/berekenen-interpreteren-solvabiliteitsratios.json
 gegenereerd_op: '2026-05-18'
 ---
 # Berekenen en interpreteren van de solvabiliteitsratio's 🤖
+
+Competentie om de solvabiliteit (lange-termijn financiële gezondheid) te meten via solvabiliteitsratio, debt-equity-ratio en gerelateerde maatstaven. De stagiair leert dat solvabiliteit altijd in sectorcontext gelezen wordt — kapitaalsintensieve sectoren hebben fundamenteel andere normen dan dienstensectoren.
 
 
 ## Stappen
@@ -167,3 +169,6 @@ Vergelijk de berekende ratio's met de drempels die in bankcontracten staan.
 
 
 
+## Bronnen
+
+[^1]: `anchor-1.3.taak.1`

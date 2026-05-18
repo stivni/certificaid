@@ -2,7 +2,7 @@
 title: Dochteronderneming
 tags:
 - concept
-- autoriteit
+- begrip
 - po-1-4
 linked_anchors:
 - 1.4.I.C
@@ -14,13 +14,15 @@ linked_anchors:
 programmaonderdelen:
 - '1.4'
 confidence: grounded
-node_type: autoriteit
+node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/dochteronderneming.json
 gegenereerd_op: '2026-05-18'
 ---
 # Dochteronderneming ⚖️
+
+Een centrale rol in het Belgische vennootschapsrecht-groepsregime (WVV): elke entiteit waarover een andere vennootschap controle uitoefent. Het begrip is ruimer dan 'dochtervennootschap' want het omvat ook buitenlandse rechtsvormen en bepaalde instellingen, en het is de eerste hoeksteen van de consolidatiekring.
 
 > [!summary] Korte inhoud
 > Een vennootschap waarover een andere vennootschap (de moeder) controle uitoefent.
@@ -87,4 +89,3 @@ Aurelia Holding NV bezit 90 % van de stemrechten in Brugse Brouwerij BV (industr
 [^5]: `KB-WVV-2019__art_3_78`
 [^6]: `KB-WVV-2019__art_3_76`
 [^7]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking`
-[^8]: `CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen`

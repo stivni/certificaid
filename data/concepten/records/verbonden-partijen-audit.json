@@ -9,13 +9,15 @@
     "1.6.II.B"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T17:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.II.A",
     "dekt_ook_anchors": [
       "1.6.II.B"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "situering_added_v4": "2026-05-18"
   },
   "main_rule": {
     "text": "De beroepsbeoefenaar verwerft voldoende inzicht in de relaties en transacties met verbonden partijen om (a) eventuele fraude-risicofactoren te onderkennen die uit zulke relaties voortkomen, en (b) op basis van de verzamelde assurance-informatie te besluiten of de financiële overzichten — voor zover beïnvloed door deze relaties — een getrouw beeld geven en correct rapporteren.",
@@ -72,5 +74,22 @@
       "omschrijving": "De zaakvoerder van Meubelzaak Mertens BV verhuurt een loods aan zijn eigen vennootschap voor € 4.500/maand. Verbonden-partij-transactie. Sofie Janssens vraagt het huurcontract, vergelijkt met marktconforme huurprijzen, en checkt of de transactie correct werd toegelicht in de jaarrekening. Risico-indicator voor fraude indien niet at-arms-length."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Transacties met verbonden partijen (moeders, dochters, zusters, bestuurders en hun familie) zijn een klassieke vector voor manipulatie van het getrouwe beeld: verschuiven van winst, verdoezelen van schulden, niet-marktconforme prijzen. ISA 550 verplicht de auditor om hen te identificeren, transacties te begrijpen en de toelichtingsplicht na te gaan.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 550"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-550__sec_definities",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

@@ -2,7 +2,7 @@
   "id": "toepassen-volledige-kostencalculatie",
   "naam": "Toepassen van de volledige kostencalculatie (full costing) op een productie-eenheid",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Toepassen van de volledige kostencalculatie (full costing) op een productie-eenheid",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -19,18 +19,6 @@
       "1.8.II.A"
     ]
   },
-  "gebaseerd_op_concepten": [
-    "volledige-kostencalculatie",
-    "directe-kosten",
-    "indirecte-kosten",
-    "variabele-kosten",
-    "vaste-kosten",
-    "kostencentrum",
-    "kostendrager",
-    "verdeelsleutel",
-    "kostprijs-per-eenheid",
-    "vervaardigingsprijs"
-  ],
   "procedure_grondslag": {
     "wettelijk_pct": 35,
     "praktijk_pct": 65,
@@ -180,7 +168,7 @@
   "beslisboom": [
     {
       "vraag": "Wordt de berekende kostprijs gebruikt voor voorraadwaardering op de balans?",
-      "ja": "Beperk je tot vervaardigingsprijs-componenten (productiekosten); volg [[bepalen-vervaardigingsprijs-kb-21-10-2018]].",
+      "ja": "Beperk je tot vervaardigingsprijs-componenten (productiekosten); volg [[bepalen-vervaardigingsprijs]].",
       "nee": "Mag volledige bedrijfskostprijs zijn (productie + commercieel + administratief) voor prijszetting of performantie."
     },
     {
@@ -210,5 +198,37 @@
     "1.8.II",
     "1.8.II.A"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "edges": [],
+  "vergelijkingsparen": [],
+  "gebaseerd_op_concepten": [
+    "volledige-kostencalculatie",
+    "directe-kosten",
+    "indirecte-kosten",
+    "variabele-kosten",
+    "vaste-kosten",
+    "kostencentrum",
+    "kostendrager",
+    "verdeelsleutel",
+    "kostprijs-per-eenheid",
+    "vervaardigingsprijs"
+  ],
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "situering": {
+    "text": "Competentie waarmee de stagiair full costing toepast op een kostendrager: alle directe kosten optellen + indirecte productiekosten verdelen via verdeelsleutels (traditionele aanpak) of via cost drivers per activiteit (ABC-verfijning). Resultaat: een volledige kostprijs die zowel voor voorraadwaardering (CBN 132/7 — wettelijk) als voor lange-termijn-prijszetting bruikbaar is. Sluit aan op bepalen-vervaardigingsprijs (de wettelijke kern) en is parent-competentie van toepassen-abc-methode (een verfijning van stap 4).",
+    "confidence": "grounded",
+    "source": {
+      "type": "cbn",
+      "short": "CBN 132/7 §2.1"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

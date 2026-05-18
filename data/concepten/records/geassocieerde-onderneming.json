@@ -1,8 +1,8 @@
 {
   "id": "geassocieerde-onderneming",
   "naam": "Geassocieerde onderneming",
-  "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "node_type": "begrip",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.E",
@@ -47,6 +47,17 @@
         "in_praktijk[*].betekenis (stagiair-toon)",
         "valkuilen[*].text (stagiair-toon)",
         "edges: redeneringen volledig + vereist-kennis-van invloed-van-betekenis"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -2",
+        "type autoriteit→begrip",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -257,42 +268,6 @@
   ],
   "edges": [
     {
-      "type": "contrasteert-met",
-      "target": "dochteronderneming",
-      "redenering": "Dochter = onderneming onder controle (in rechte/feite, exclusief/gezamenlijk). Geassocieerde = onderneming met invloed van betekenis maar zonder controle. Dochter → integrale/evenredige consolidatie; geassocieerde → vermogensmutatie.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "gemeenschappelijke-dochteronderneming",
-      "redenering": "Een gemeenschappelijke dochter staat onder gezamenlijke controle (overeenkomst voor gezamenlijke besluitvorming) en wordt evenredig geconsolideerd. Een geassocieerde onderneming kent geen controle; opname via vermogensmutatie.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "getriggerd-door",
       "target": "vermogensmutatiemethode",
       "redenering": "Een geassocieerde onderneming wordt opgenomen via de vermogensmutatiemethode. De relatie is dus: het bestaan van een geassocieerde triggert die methode. Niet elke vermogensmutatie betreft echter een geassocieerde — ook bepaalde dochters (KB WVV art. 3:100) worden zo behandeld.",
@@ -329,5 +304,19 @@
       "omschrijving": "Antwerpse Investments NV bezit 25 % van de stemrechten in Drukkerij Dendermonde BV; geen controle in feite, geen stemovereenkomst. → weerlegbaar invloed van betekenis → Drukkerij Dendermonde is geassocieerde onderneming van Antwerpse → opname via vermogensmutatie in de geconsolideerde jaarrekening van Antwerpse."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "associate",
+  "situering": {
+    "text": "Een tussenpositie in het Belgische boekhoudrecht-consolidatieregime: een deelneming met invloed van betekenis maar zonder controle. Het begrip onderbouwt de keuze voor vermogensmutatiemethode in de geconsolideerde jaarrekening en grenst de cirkel van te-mutere deelnemingen af van zuivere belegging.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

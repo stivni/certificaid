@@ -2,7 +2,7 @@
   "id": "rentabiliteit-totaal-activa-roa",
   "naam": "Rentabiliteit van het totaal der activa (ROA)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.3.I.A",
@@ -374,5 +374,9 @@
       ]
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "naam_alternatief": [
+    "Return on assets",
+    "ROA"
+  ]
 }

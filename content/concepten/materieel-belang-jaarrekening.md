@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/materieel-belang-jaarrekening.json
 gegenereerd_op: '2026-05-18'
 ---
 # Materieel belang (materiality) ⚖️
+
+Materieel belang (materiality) is de drempel waarboven een fout of weglating de beslissing van een gebruiker van de jaarrekening zou kunnen beïnvloeden. Het is altijd relatief — een bedrag dat materieel is voor een KMO is verwaarloosbaar voor een grote groep — en auditors gebruiken vuistregels (0,5–1 % omzet, 5 % resultaat, 1–2 % balanstotaal) als startpunt voor professionele oordeelsvorming.
 
 > [!summary] Korte inhoud
 > Een element heeft materieel belang als 'redelijkerwijze kan worden verwacht dat de weglating of onjuiste vermelding ervan de beslissingen die een gebruiker op basis van de financiële overzichten van een onderneming neemt, zou kunnen beïnvloeden'.
@@ -72,8 +74,9 @@ _Grondslag: Richtlijn 2013/34/EU art. 2, 16)_
 ## Zie ook
 
 - **Vereist kennis van**: [[niet-in-balans-opgenomen-rechten-verplichtingen]]
-- **Wordt voorondersteld in** (1): [[cijferanalyses-controle-norm]]
+
 ## Bronnen
 
 [^1]: `Richtlijn-2013-34-EU__art_2__sub_b__dup2`
 [^2]: `anchor-1.3.I.A`
+[^3]: `aggregate`

@@ -2,7 +2,7 @@
   "id": "jaarrekening",
   "naam": "Jaarrekening (synthesedocumenten)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.S",
@@ -17,7 +17,16 @@
       "1.1.II.Q",
       "1.5.I"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "definitie": {
     "text": "Het **gestandaardiseerde overzicht** van de financiële toestand van een onderneming aan het einde van een boekjaar. Bestaat uit drie verplichte onderdelen: (1) de **balans** (vermogen op één moment), (2) de **resultatenrekening** (kosten en opbrengsten over het boekjaar), (3) de **toelichting** (uitleg bij de cijfers + waarderingsregels). Voor grote en niet-kleine ondernemingen ook (4) een **sociale balans**. De jaarrekening wordt opgesteld in één van drie schema's afhankelijk van de grootte: **volledig**, **verkort**, of **micro**.",
@@ -263,5 +272,15 @@
       "added_at": "2026-05-18T12:00:00Z",
       "reason": "richtlijn-2013-34-eu (bron-record) verwijderd; fenomeen-content leeft hier — propagatie voor coverage 1.5.I"
     }
-  ]
+  ],
+  "naam_alternatief": "annual accounts / comptes annuels",
+  "situering": {
+    "text": "Het eindproduct van het boekjaar — synthese van alle boekingen tot een **publiek leesbaar** drieluik (balans, RR, toelichting) volgens een door de KB WVV gestandaardiseerd model. Voor een stagiair-GA: bijna elke andere competentie (boekhoudbeginselen, eindejaarsverrichtingen, waardering) is uiteindelijk gericht op de correcte invulling van de juiste rubriek in de juiste schema-versie (volledig/verkort/micro).",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

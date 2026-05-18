@@ -2,7 +2,7 @@
   "id": "consolidatieverschil",
   "naam": "Consolidatieverschil",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.D",
@@ -85,6 +85,16 @@
         "berekeningsmethode[0].stappen[5].voorbeeld.substappen (fix C): werkblad-tabel + boeking + afschrijvingsplan met €-bedragen; RR voluit",
         "berekeningsmethode[0].concreet_voorbeeld (fix C): 1.000/700/300/150 → € 2.000.000 / € 1.400.000 / € 600.000 / € 300.000",
         "berekeningsmethode[0].formules[*].invulling_voorbeeld (fix C): bedragen €-formaat"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -1",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -337,8 +347,68 @@
   ],
   "oorzaken": [
     {
-      "text": "Overpaid goodwill — de moeder betaalt een premie boven het pro-rata aandeel in het netto-actief van de dochter. Die premie reflecteert economische waarden die in de enkelvoudige jaarrekening van de dochter niet konden worden geactiveerd: verwachte synergieën, marktpositie, klantenbestand, merken, knowhow. Twee perspectieven van hetzelfde fenomeen: (a) prijsperspectief — wat de moeder bereid is te betalen bovenop de boekhoudkundige nettowaarde; (b) substantieperspectief — waarom die premie niet kan worden toegerekend aan specifieke activa of schulden (KB WVV art. 3:130, eerste lid: toerekening enkel 'voor zover mogelijk') en daarom in het residu blijft zitten. Het residu wordt aan actiefzijde geboekt als 'Consolidatieverschillen' en afgeschreven over de vermoedelijke gebruiksduur (KB WVV art. 3:131, § 1). De Europese Richtlijn 2013/34/EU art. 24, lid 3, c) duidt dit residu uitdrukkelijk als 'goodwill'.",
-      "confidence": "inferred-from-aggregation",
+      "pool": "positief",
+      "text": "**[positief]** Onder-gewaardeerde activa van de dochter — werkelijke waarde > boekwaarde (stille meerwaarden op terreinen, gebouwen, voorraden, deelnemingen). Eerste stap (KB WVV art. 3:128 jo. art. 3:130, lid 1): het verschil toerekenen aan die onder- of overgewaardeerde posten vóór je het residu als consolidatieverschil boekt.",
+      "confidence": "grounded",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:128 + art. 3:130, lid 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_102",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "pool": "positief",
+      "text": "**[positief]** Over-gewaardeerde schulden of voorzieningen van de dochter — werkelijke waarde < boekwaarde (te ruim ingeschatte voorzieningen of schulden). KB WVV art. 3:130, eerste lid bepaalt dat het verschil zoveel mogelijk wordt toegerekend aan bezittingen en schulden waarvan de waarde afwijkt van de boekwaarde; een te hoog opgegeven schuld verlaagt na correctie het residu dat als consolidatieverschil overblijft.",
+      "confidence": "grounded",
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:130, eerste lid"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_102",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "pool": "positief",
+      "text": "**[positief]** Niet-geboekte immateriële vaste activa — intern opgebouwde merken, klantenrelaties, knowhow die in de enkelvoudige jaarrekening van de dochter niet activeerbaar waren maar wel economische waarde vertegenwoordigen. Bij eerste consolidatie kan het verschil aan deze posten worden toegerekend voor zover ze identificeerbaar en betrouwbaar waardeerbaar zijn (KB WVV art. 3:128 jo. art. 3:130, lid 1); wat niet toerekenbaar is blijft als consolidatieverschil zitten en gaat op in de werkelijke goodwill.",
+      "confidence": "inferred",
+      "source": {
+        "type": "doctrine",
+        "short": "klassieke doctrinaire categorie naast onder-/overgewaardeerde posten + goodwill; KB WVV art. 3:128"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_102",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "pool": "positief",
+      "text": "**[positief]** Werkelijke goodwill / overprijs — verwachte synergieën, controlepremie, marktpositie, strategische waarde die de moeder bereid is bovenop het netto-actief te betalen. Niet aan specifieke activa of schulden toerekenbaar (KB WVV art. 3:130, eerste lid: toerekening enkel 'voor zover mogelijk'); residu wordt aan actiefzijde geboekt als 'Consolidatieverschillen' en afgeschreven over de vermoedelijke gebruiksduur (KB WVV art. 3:131, § 1). Europese Richtlijn 2013/34/EU art. 24, lid 3, c) duidt dit residu uitdrukkelijk als 'goodwill'.",
+      "confidence": "grounded",
       "source": {
         "type": "richtlijn",
         "short": "Richtlijn 2013/34/EU art. 24, lid 3, c); KB WVV art. 3:130 jo. art. 3:131"
@@ -369,24 +439,8 @@
       }
     },
     {
-      "text": "Activa van de dochter zijn boekhoudkundig ondergewaardeerd (bv. terreinen tegen historische kostprijs); de moeder betaalt de werkelijke waarde. Eerste stap (KB WVV art. 3:128): het verschil toerekenen aan die onder- of overgewaardeerde posten voor je het residu als consolidatieverschil boekt.",
-      "confidence": "grounded",
-      "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:128 + CBN 2022/11 voorbeeld"
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "text": "Verwachte ongunstige resultaatsontwikkeling — een aankoopprijs lager dan het netto-actief op aankoopdatum kan voortvloeien uit de verwachting van komende verliezen; dan ontstaat een negatief consolidatieverschil.",
+      "pool": "negatief",
+      "text": "**[negatief]** Verwachte ongunstige resultaatsontwikkeling van de dochter — een aankoopprijs lager dan het netto-actief op aankoopdatum kan voortvloeien uit de verwachting van komende verliezen of voorziene risico's bij de dochter. Het verschil verschijnt dan als negatief consolidatieverschil aan passiefzijde van de geconsolideerde balans. KB WVV art. 3:131, § 2 staat opname in resultaat enkel toe naarmate die verwachte ongunstige ontwikkeling zich effectief realiseert — niet ineens als spookwinst.",
       "confidence": "grounded",
       "source": {
         "type": "kb",
@@ -403,11 +457,12 @@
       }
     },
     {
-      "text": "Schulden of voorzieningen van de dochter zijn boekhoudkundig overgewaardeerd (te hoge voorzieningen, te ruim ingeschatte schulden). KB WVV art. 3:130 bepaalt dat het verschil zoveel mogelijk wordt toegerekend aan bezittingen en schulden waarvan de waarde afwijkt van de boekwaarde. Een te hoog opgegeven schuld verlaagt na correctie het residu dat als consolidatieverschil overblijft.",
-      "confidence": "grounded",
+      "pool": "negatief",
+      "text": "**[negatief]** Over-gewaardeerde activa of onder-gewaardeerde schulden van de dochter — spiegelbeeld van de positieve oorzaken: als boekwaarden te optimistisch zijn (te hoog actief, te laag passief), dan ligt de werkelijke netto-actiefwaarde onder de boekwaarde en kan de moeder onder pro-rata EV betalen. Wordt eerst toegerekend (KB WVV art. 3:128 jo. art. 3:130, lid 1); pas het residu na toerekening is het negatief consolidatieverschil.",
+      "confidence": "inferred",
       "source": {
-        "type": "kb",
-        "short": "KB WVV art. 3:130, eerste lid"
+        "type": "doctrine",
+        "short": "logisch spiegelbeeld; KB WVV art. 3:128 toerekenings-procedure"
       },
       "_provenance": {
         "inputs": [
@@ -877,27 +932,6 @@
           }
         ]
       }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "vermogensmutatiemethode",
-      "redenering": "Bij vermogensmutatie wordt het consolidatieverschil onderscheiden van de balanspost 'Vennootschappen waarop vermogensmutatie is toegepast' en afzonderlijk afgeschreven (CBN 2022/11). Bij integrale consolidatie verschijnt het in de eigen post 'Consolidatieverschillen'.",
-      "_corrected_from": [
-        {
-          "field": "type",
-          "from": "vergelijkingsparen → edges",
-          "reason": "Schema 1.4 regel 9: relatie zonder examen-keuze-trigger als edge."
-        }
-      ],
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
     }
   ],
   "voorbeelden": [
@@ -906,5 +940,19 @@
       "omschrijving": "Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) van Brugse op aankoopdatum = € 1.500.000. Pro-rata aandeel = 80 % × € 1.500.000 = € 1.200.000. Bruto-verschil = € 1.600.000 − € 1.200.000 = € 400.000. Vastgoed van Brugse is € 250.000 ondergewaardeerd → € 250.000 toegerekend aan terreinen; residu € 150.000 wordt geboekt als 'Consolidatieverschillen' (actiefzijde)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": "goodwill on consolidation / consolidation difference",
+  "situering": {
+    "text": "Een conceptueel post in het Belgische boekhoudrecht-consolidatieregime die de prijs-vermogen-discrepantie bij de eerste consolidatie wegwerkt. Het wijst de over- of onderbetaling toe aan herwaarderingen of aan goodwill; zonder dat mechanisme zou de geconsolideerde jaarrekening de aankoopprijs niet kunnen integreren.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2 — eerste consolidatie"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

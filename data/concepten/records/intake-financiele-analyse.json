@@ -2,7 +2,7 @@
   "id": "intake-financiele-analyse",
   "naam": "Intake (scoping) van financiële analyse",
   "node_type": "procedure",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.3.II.A",
@@ -119,5 +119,26 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": [
+    "Scoping / intake financial analysis"
+  ],
+  "situering": {
+    "text": "Eerste stap in elke financiële analyse-opdracht: scope vastleggen (vanuit welk perspectief? voor welke beslissing?), informatie verzamelen (jaarrekening + bestuursverslag + sectordata), en de analyse-aanpak afstemmen op het doel. Zonder expliciete scope-document is de analyse vatbaar voor verkeerde interpretatie.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Vakdoctrine + ITAA-deontologie"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "aggregate",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

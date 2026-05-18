@@ -2,7 +2,7 @@
   "id": "groottecriteria-jaarrekening",
   "naam": "Groottecriteria (jaarrekening-context)",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.B",
@@ -326,5 +326,7 @@
       "added_at": "2026-05-18T12:00:00Z",
       "reason": "richtlijn-2013-34-eu (bron-record) verwijderd; fenomeen-content leeft hier — propagatie voor coverage 1.5.I"
     }
-  ]
+  ],
+  "situering": "De groottecriteria (WVV art. 1:24-1:26) bepalen of een vennootschap micro, klein of groot is — en sturen daarmee jaarrekening-schema, commissaris-verplichting, jaarverslag-plicht en consolidatieverplichting. Voor de stagiair-GA is dit de eerste rekenoefening bij elk nieuw dossier: drempels (personeel, omzet, balanstotaal) toetsen volgens de juiste regels (overschrijding tijdens twee opeenvolgende boekjaren, verbondenheidstoets).",
+  "naam_alternatief": "size criteria (annual accounts) / critères de taille"
 }

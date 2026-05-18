@@ -2,7 +2,7 @@
 title: Interne controle
 tags:
 - concept
-- begrip
+- cluster
 - po-1-7
 linked_anchors:
 - 1.7.I.A
@@ -15,18 +15,18 @@ linked_anchors:
 programmaonderdelen:
 - '1.7'
 confidence: grounded
-node_type: begrip
+node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/interne-controle.json
 gegenereerd_op: '2026-05-18'
 ---
 # Interne controle ⚖️
 
+Interne controle is het centrale beheersingsconcept binnen het examenprogramma — vakken Audit (PO 1.6), Interne controle (PO 1.7) en alle adviesopdrachten leunen erop. Voor de stagiair-accountant heeft het twee gezichten: in de adviesrol help je een cliënt het systeem opzetten of evalueren; in de auditrol toets je of het effectief werkt om je werkzaamheden te kunnen verminderen. Het Belgische normenkader (ITAA KMO-controlenorm) ent zich op het internationale COSO-kader; je examenvragen testen vooral of je de doelstellingen, componenten en inherente beperkingen goed kent.
+
 > [!summary] Korte inhoud
 > Interne controle is het geheel van procedures, gedragsregels en organisatorische maatregelen dat een onderneming opzet om met redelijke zekerheid haar doelstellingen te halen rond drie zaken: (1) betrouwbaarheid van de financiële rapportering, (2) effectiviteit en efficiëntie van….
-
-> [!info]- Bestaat uit (20): [[aankoopcyclus-ic]] · [[avg-interne-controle]] · [[beheersactiviteiten]] · [[controle-omgeving]] · [[drie-lijnen-model]] · [[ethiek-organisatie-ic]] · [[evaluatie-interne-controle]] · [[functiescheiding]] · [[geinformatiseerde-omgeving-ic]] · [[hr-cyclus-ic]] · [[informatie-en-communicatie-ic]] · [[informatiesysteem-onderneming]] · [[klokkenluiderregeling]] · [[monitoring-interne-controle]] · [[productiecyclus-ic]] · [[risico-inschatting-organisatie]] · [[uitvoering-interne-controle]] · [[verkoopcyclus-ic]] · [[verspilling]] · [[voorraadcyclus-ic]]
 
 Interne controle is het geheel van procedures, gedragsregels en organisatorische maatregelen dat een onderneming opzet om met redelijke zekerheid haar doelstellingen te halen rond drie zaken: (1) betrouwbaarheid van de financiële rapportering, (2) effectiviteit en efficiëntie van de bedrijfsvoering, en (3) naleving van wet- en regelgeving. Het is een proces dat door bestuur, management én personeel wordt gedragen — geen aparte dienst die toezicht houdt.
 
@@ -142,7 +142,7 @@ _Grondslag: ITAA-norm-kmo-controlenorm Bijlage 1_
 
 - **Vereist kennis van**: [[functiescheiding]]
 - **Getriggerd door**: [[toetsing-interne-beheersing]]
-- **Wordt voorondersteld in** (3): [[coso-i-framework]] · [[managementcontrole]] · [[onderneming-begrip-ic]]
+
 ## Voorbeelden
 
 Yperse Werkplaats BV (productie-onderneming, omzet € 8.000.000) zet een intern-controle-systeem op met hulp van Xenon Expertise BV: aankoopfacturen moeten drie handtekeningen krijgen (besteller, magazijnier, financieel verantwoordelijke); voorraadtellingen worden 2x per jaar gedaan door iemand anders dan de magazijnier; loonberekening wordt opgemaakt door HR maar betaald door financieel verantwoordelijke. Doel: redelijke zekerheid dat de cijfers kloppen, dat er niet wordt gestolen, en dat de wet wordt nageleefd.

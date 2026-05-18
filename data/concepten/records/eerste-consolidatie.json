@@ -2,7 +2,7 @@
   "id": "eerste-consolidatie",
   "naam": "Eerste consolidatie",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.G",
@@ -57,6 +57,16 @@
       "velden_gewijzigd": [
         "voorbeeld_inline op record-niveau (fix C): 320/300/240/80/50/30 → € 1.600.000 / € 1.500.000 / € 1.200.000 / € 400.000 / € 250.000 / € 150.000; eigen vermogen (EV) eerste gebruik voluit (consistent met consolidatieverschil-record)",
         "valkuilen[0].text (fix D): EV eerste gebruik → eigen vermogen (EV)"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -2",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -312,53 +322,6 @@
       }
     },
     {
-      "type": "bevat",
-      "target": "consolidatieverschil",
-      "redenering": "Het consolidatieverschil ontstaat als residu bij de eerste consolidatie. Latere consolidaties leiden enkel tot afschrijving of (bij gedeeltelijke verkoop) afboeking — niet tot een nieuw consolidatieverschil, behalve bij step acquisitions of bij common-control-transacties.",
-      "_corrected_from": [
-        {
-          "field": "type",
-          "from": "getriggerd-door consolidatieverschil",
-          "reason": "Richting omgekeerd: eerste consolidatie 'bevat' (of liever: produceert) een consolidatieverschil; de oorspronkelijke richting (getriggerd-door) was logisch fout."
-        }
-      ],
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_102",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "vermogensmutatiemethode",
-      "redenering": "Eerste consolidatie volgens vermogensmutatie betekent: aankoopwaarde vervangen door pro-rata EV op aankoopdatum + boeken van een afzonderlijk consolidatieverschil (CBN 2022/11). Daarna volgen 'latere consolidaties' die het pro-rata aandeel in resultaten en EV-veranderingen verwerken.",
-      "_corrected_from": [
-        {
-          "field": "type",
-          "from": "vergelijkingsparen → edges",
-          "reason": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-        }
-      ],
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_latere-consolidaties",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "onderdeel-van",
       "target": "integrale-consolidatie",
       "redenering": "De eerste consolidatie is de instapfase van zowel integrale consolidatie als evenredige consolidatie en vermogensmutatie. Bij integrale consolidatie produceert ze het consolidatieverschil en de allocatie aan stille meer-/minderwaarden.",
@@ -371,5 +334,19 @@
       "omschrijving": "Aurelia Holding NV koopt op 1 januari 20X1 een belang van 80 % in Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) Brugse op die datum = € 1.500.000. Pro-rata aandeel = € 1.200.000; bruto-verschil = € 400.000, na toerekening € 250.000 aan ondergewaardeerde terreinen blijft € 150.000 als positief consolidatieverschil aan actiefzijde."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "initial consolidation",
+  "situering": {
+    "text": "Een sleutelmoment in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2): het eerste boekjaar waarin een dochter, geassocieerde of gemeenschappelijke dochter mee opgenomen wordt. Hier ontstaat het consolidatieverschil, hier worden eventueel reële waarden bepaald, en hier valt de aankoopprijs voor het eerst in een groepslogica.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2 — eerste consolidatie"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

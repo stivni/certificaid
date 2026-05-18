@@ -2,7 +2,7 @@
   "id": "geconsolideerd-jaarverslag",
   "naam": "Geconsolideerd jaarverslag",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.F",
@@ -51,6 +51,15 @@
         "in_praktijk[*].betekenis (stagiair-toon)",
         "valkuilen[*].text (stagiair-toon)",
         "edges: getriggerd-door consolidatieverplichting + bevat consolidatieverplichting verwijderd, contrasteert-met blijft"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -255,5 +264,19 @@
       "omschrijving": "Aurelia Holding NV is consolidatieplichtig en maakt jaarlijks zowel een geconsolideerde jaarrekening op als een geconsolideerd jaarverslag dat de evolutie van de groep (Aurelia + Brugse Brouwerij BV + Bouwwerf Beerse BV) bespreekt, met groepsbrede risico's en eigen-aandelen-overzicht."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "consolidated annual report / management report",
+  "situering": {
+    "text": "Het narratieve sluitstuk naast de geconsolideerde jaarrekening binnen het Belgische vennootschapsrecht (WVV). Het verschaft externe gebruikers tekst-en-uitlegcontext — evolutie, risico's, vooruitzichten — die de cijfers alleen niet kunnen leveren, en is samen met de jaarrekening publicatieplichtig.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "WVV — geconsolideerd jaarverslag"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

@@ -1,8 +1,8 @@
 {
   "id": "gemeenschappelijke-dochteronderneming",
   "naam": "Gemeenschappelijke dochteronderneming",
-  "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "node_type": "begrip",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -40,6 +40,17 @@
         "in_praktijk[*].betekenis (stagiair-toon + cast)",
         "valkuilen[*].text (stagiair-toon)",
         "edges: redeneringen aangevuld"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -3",
+        "type autoriteit→begrip",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -220,65 +231,6 @@
   ],
   "edges": [
     {
-      "type": "contrasteert-met",
-      "target": "dochteronderneming",
-      "redenering": "Een gewone (exclusief gecontroleerde) dochter staat onder controle van één moeder en wordt integraal geconsolideerd. Een gemeenschappelijke dochter staat onder gezamenlijke controle van meerdere vennoten en wordt evenredig (of via vermogensmutatie) geconsolideerd.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_98",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "KB-WVV-2019__art_3_111",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "geassocieerde-onderneming",
-      "redenering": "Gemeenschappelijke dochter = gezamenlijke controle (overeenkomst met vetorecht over beleid). Geassocieerde onderneming = enkel invloed van betekenis, geen vetorecht. Eerste → evenredige consolidatie; tweede → vermogensmutatie.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "consortium",
-      "redenering": "Een gemeenschappelijke dochter is één entiteit waarover meerdere vennoten samen controle uitoefenen (verticale relatie). Een consortium is een horizontale groep van zelfstandige vennootschappen onder gemeenschappelijke leiding — zonder onderlinge controle.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "getriggerd-door",
       "target": "gezamenlijke-controle",
       "redenering": "Een gemeenschappelijke dochter ontstaat door gezamenlijke controle — zonder dat type controle is er geen gemeenschappelijke dochter.",
@@ -297,5 +249,19 @@
       "omschrijving": "Cardinal Group NV en Energiehuis Evergem NV bezitten elk 50 % van Filmstudio Florence BV. Hun aandeelhoudersovereenkomst legt vast dat strategische beslissingen alleen samen worden genomen → gezamenlijke controle → Filmstudio Florence is een gemeenschappelijke dochter → bij Cardinal en bij Energiehuis Evergem wordt Filmstudio voor 50 % evenredig geconsolideerd."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "joint venture / joint subsidiary",
+  "situering": {
+    "text": "Een groepsfiguur uit het Belgische boekhoudrecht (KB WVV Boek 3, Titel 2) voor vennootschappen onder gezamenlijke controle van een beperkt aantal vennoten op basis van een overeenkomst. Het begrip schept ruimte voor joint ventures en triggert evenredige consolidatie (of equity, naargelang de integratie).",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

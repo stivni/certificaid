@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/groep-van-beperkte-omvang.json
 gegenereerd_op: '2026-05-18'
 ---
 # Groep van beperkte omvang ⚖️
+
+Een proportionaliteits-classificatie uit het Belgische vennootschapsrecht (WVV) die kleine groepen ontslaat van de consolidatieverplichting. De drempel maakt deel uit van het bredere groottecriterium-regime dat lichtere rapporteringslasten oplegt aan structureel kleine ondernemingen.
 
 > [!summary] Korte inhoud
 > Een groep die op geconsolideerde of geaggregeerde basis hoogstens één van de drie criteria van WVV art. 1:26, § 1 overschrijdt: jaaromzet, balanstotaal en jaargemiddelde personeel.
@@ -70,7 +72,7 @@ _Bron: WVV art. 1:26, § 1_
 ## Zie ook
 
 - **Vereist kennis van**: [[groottecriteria-consolidatie]]
-- **Wordt voorondersteld in** (1): [[groottecriteria-consolidatie]]
+
 ## Voorbeelden
 
 Aurelia Holding NV (moeder) + Gent Garantie BV (dochter) hebben samen geaggregeerde omzet 20 mln EUR, balanstotaal 12 mln EUR en 180 personeelsleden. Slechts één drempel (personeel) overschreden → groep van beperkte omvang → Aurelia is vrijgesteld van geconsolideerde jaarrekening + jaarverslag.

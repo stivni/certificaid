@@ -2,7 +2,7 @@
   "id": "berekenen-interpreteren-rentabiliteitsratios",
   "naam": "Berekenen en interpreteren van de rentabiliteitsratio's",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Berekenen en interpreteren van de rentabiliteitsratio's",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -231,5 +231,26 @@
     "1.3.II.C.4",
     "1.3.I.A"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "naam_alternatief": [
+    "Compute & interpret profitability ratios"
+  ],
+  "situering": {
+    "text": "Competentie om de rentabiliteit van een onderneming te meten via ROE (eigen vermogen) en ROA (totaal activa), in netto en bruto vorm. De stagiair leert het verschil tussen bedrijfsrentabiliteit en netto rentabiliteit, en hoe het financiële hefboomeffect daartussen werkt.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Examenprogramma 1.3 — competentie"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.taak.1",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

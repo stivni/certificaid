@@ -2,7 +2,7 @@
   "id": "autoriteiten-boekhoudrecht-landschap",
   "naam": "Wie controleert wat? — Het autoriteiten-landschap van het Belgisch boekhoudrecht",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.II",
@@ -127,5 +127,6 @@
     "onderscheiden-accountant-revisor",
     "navigeren-neerleggingsplichten"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": "Synthese-overzicht van de zeven autoriteiten die samen het Belgisch boekhoudrecht bewaken (CBN, NBB, FSMA, ITAA, IBR, griffies ondernemingsrechtbank, FOD Financiën). Voor stagiairs-GA cruciaal omdat de eerste vraag bij elk praktisch dossier is: 'naar welke autoriteit ga ik?' — examenvragen camoufleren regelmatig wie waarvoor bevoegd is."
 }

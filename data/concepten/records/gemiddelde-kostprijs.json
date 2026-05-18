@@ -2,7 +2,7 @@
   "id": "gemiddelde-kostprijs",
   "naam": "Gemiddelde kostprijs",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.E"
@@ -61,5 +61,18 @@
       "omschrijving": "Yperse Werkplaats BV: totale kosten € 1.060.000/jaar (€ 800.000 vast + € 260.000 variabel bij 20.000 tapijten). Gemiddelde kostprijs = € 1.060.000 / 20.000 = € 53/tapijt. Bij 25.000 tapijten: € 1.125.000 / 25.000 = € 45/tapijt (vaste kost-aandeel per stuk daalt)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "average cost / unit cost",
+  "situering": {
+    "text": "De gemiddelde kostprijs is totale kost (vaste + variabele) gedeeld door aantal eenheden — een lange-termijn-indicator voor 'wat kost een stuk inclusief overhead'. Bruikbaar voor prijszetting en algemene rendementsbeoordeling, niet voor korte-termijn-beslissingen (waar marginale kost en contributiemarge tellen). Vertekent bij sterke volume-schommelingen want vaste kost per stuk daalt met meer output.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }

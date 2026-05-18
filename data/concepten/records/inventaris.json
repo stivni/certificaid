@@ -1,8 +1,8 @@
 {
   "id": "inventaris",
   "naam": "Inventaris",
-  "node_type": "procedure",
-  "schema_version": "1.5",
+  "node_type": "cluster",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.I",
@@ -26,7 +26,14 @@
       "1.2.taak.1"
     ],
     "reviewed_by": null,
-    "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met 1.2.III.E (jaarlijkse inventaris) + 1.2.III + 1.2.taak.1 door PO 1.2-extractie."
+    "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met 1.2.III.E (jaarlijkse inventaris) + 1.2.III + 1.2.taak.1 door PO 1.2-extractie.",
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "type:procedure->cluster"
+      ]
+    }
   },
   "verplichting": "Elke onderneming voert minstens één keer per jaar de nodige opnemingen, verificaties, onderzoekingen en waarderingen uit om op een door haar gekozen datum een **inventaris** op te maken van al haar bezittingen, vorderingen, schulden en verplichtingen, en van de eigen middelen verstrekt aan haar bedrijf. De inventaris wordt overgeschreven in een **inventarisboek** dat samen met de jaarrekening wordt bewaard.",
   "definitie": {
@@ -226,5 +233,7 @@
       "redenering": "Posten worden niet alleen geteld maar ook gewaardeerd volgens de geldende waarderingsregels."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": "De inventaris is het **gestructureerd overzicht** van alle bezittingen, vorderingen, schulden en verplichtingen op balansdatum. Voor de stagiair-GA cruciaal omdat de inventaris de **brug** vormt tussen het hele boekjaar (dagboeken, hulpdagboeken) en de jaarrekening: zonder correcte inventaris geen correcte jaarrekening. Examenvalkuil: inventaris ↔ proef- en saldibalans verwarren.",
+  "naam_alternatief": "inventory / inventaire"
 }

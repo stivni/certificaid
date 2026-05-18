@@ -2,7 +2,7 @@
   "id": "aanschaffingswaarde",
   "naam": "Aanschaffingswaarde",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.B",
@@ -220,5 +220,7 @@
       "omschrijving": "Naaiatelier Ninove BV koopt een snij-installatie voor € 28.500 excl. BTW; bijkomende installatiekosten € 1.250 en transport € 750. Aanschaffingswaarde = € 28.500 + € 1.250 + € 750 = € 30.500 — dat is de basis waarop afschrijvingen worden berekend en die op de balans verschijnt onder rubriek 23 'Installaties, machines en uitrusting'."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "De aanschaffingswaarde is de **basiswaarde** waaraan elk actief de boekhouding binnenkomt — vóór elke afschrijving of waardevermindering. Vrijwel alle latere waarderingsvragen (afschrijving, herwaardering, minderwaarde, vervreemdingsresultaat) vertrekken vanuit dit eerste cijfer. Voor een stagiair-GA is het de eerste boekhoudkundige beslissing in elke vaste-activacyclus: vergeet je een bijkomende kost of laat je een korting binnen, dan zit die fout vele jaren in de jaarrekening.",
+  "naam_alternatief": "acquisition cost / valeur d'acquisition"
 }

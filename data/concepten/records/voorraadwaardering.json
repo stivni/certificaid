@@ -2,7 +2,7 @@
   "id": "voorraadwaardering",
   "naam": "Voorraadwaardering (kostprijsmethoden)",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.II.B",
@@ -124,5 +124,24 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "inventory valuation / stock valuation",
+  "situering": {
+    "text": "Voorraadwaardering bepaalt aan welke prijs verbruikt materiaal in de kostprijs gaat en aan welke prijs eindvoorraad op de balans staat. Toegestane methodes onder Belgisch boekhoudrecht (CBN 132/7): individuele identificatie (uniek), gewogen gemiddelde, FIFO. LIFO is onder Belgian GAAP toegelaten maar niet onder IFRS (IAS 2 — verbiedt LIFO). Keuze gebeurt in de waarderingsregels; consistentie tussen jaren is verplicht voor vergelijkbaarheid.",
+    "confidence": "grounded",
+    "source": {
+      "type": "cbn",
+      "short": "CBN 132/7"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

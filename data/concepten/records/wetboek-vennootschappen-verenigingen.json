@@ -2,7 +2,7 @@
   "id": "wetboek-vennootschappen-verenigingen",
   "naam": "Wetboek van Vennootschappen en Verenigingen (WVV)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.I.C",
@@ -221,5 +221,7 @@
       "omschrijving": "Rotex Roeselare NV moet als grote NV haar jaarrekening in volledig schema neerleggen — verplichting uit WVV Boek 3, uitgewerkt in KB-WVV."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": "Het WVV (wet van 23 maart 2019) codificeert vennootschaps- én verenigingsrecht. **Boek 3** ('Jaarrekening en geconsolideerde jaarrekening') is voor boekhoudrecht het primaire wettelijke kader rond jaarrekening, schema, openbaarmaking en commissaris. Boek 9 regelt VZW-jaarrekening. Voor de stagiair-GA naast WER Boek III het basisinstrument.",
+  "naam_alternatief": "Companies and Associations Code (CCA) / Code des sociétés et des associations (CSA)"
 }

@@ -2,7 +2,7 @@
   "id": "groep-van-beperkte-omvang",
   "naam": "Groep van beperkte omvang",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -49,6 +49,15 @@
         "in_praktijk[*].betekenis (stagiair-toon)",
         "valkuilen[*].text (stagiair-toon)",
         "edges: contrasteert-met groottecriteria-consolidatie weggehaald (overlappend met uitzondering-op), uitzondering-op blijft"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -266,5 +275,19 @@
       "omschrijving": "Aurelia Holding NV (moeder) + Gent Garantie BV (dochter) hebben samen geaggregeerde omzet 20 mln EUR, balanstotaal 12 mln EUR en 180 personeelsleden. Slechts één drempel (personeel) overschreden → groep van beperkte omvang → Aurelia is vrijgesteld van geconsolideerde jaarrekening + jaarverslag."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "small group",
+  "situering": {
+    "text": "Een proportionaliteits-classificatie uit het Belgische vennootschapsrecht (WVV) die kleine groepen ontslaat van de consolidatieverplichting. De drempel maakt deel uit van het bredere groottecriterium-regime dat lichtere rapporteringslasten oplegt aan structureel kleine ondernemingen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "WVV — groottecriteria groep"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

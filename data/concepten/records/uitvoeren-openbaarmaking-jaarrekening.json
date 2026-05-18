@@ -2,7 +2,7 @@
   "id": "uitvoeren-openbaarmaking-jaarrekening",
   "naam": "Uitvoeren van de openbaarmaking van de jaarrekening bij de Nationale Bank",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Uitvoeren van de openbaarmaking van de jaarrekening bij de Nationale Bank",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -177,5 +177,6 @@
     "1.2.IV.F",
     "1.2.IV"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": "Praktische competentie: de stagiair-GA moet weten hoe je de jaarrekening **technisch indient** bij de NBB-Balanscentrale (XBRL-formaat, termijnen, kosten, controlestappen). Geen academisch maar uitvoerend."
 }

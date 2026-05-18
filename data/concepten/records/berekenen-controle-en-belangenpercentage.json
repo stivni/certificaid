@@ -2,7 +2,7 @@
   "id": "berekenen-controle-en-belangenpercentage",
   "naam": "Berekenen van controle- en belangenpercentage in een ketenstructuur",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Berekenen van controle- en belangenpercentage in een ketenstructuur",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -224,6 +224,15 @@
         "voorbeelden[1] (basis-variant 90 %: EV 1.000 → € 2.000.000; aandeel derden 100 → € 200.000)"
       ],
       "reden": "cast-consistente €-bedragen, parallel aan Sessie 3 records-update (basis_consolidatie EV-afsluit € 2.000.000). Ketenstructuur-voorbeeld (Aurelia 80 % → Brugse 60 % → Cardinal) ongewijzigd — het toont percentage-vermenigvuldiging, geen €-bedragen."
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
+      ]
     }
   },
   "linked_anchors": [
@@ -232,5 +241,16 @@
     "1.4.I.D",
     "1.4.I.E"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "edges": [],
+  "naam_alternatief": "compute control and interest percentages",
+  "situering": {
+    "text": "Een rekencompetentie binnen het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2). De stagiair berekent controle- en belangenpercentages in ketenstructuren — twee verschillende grootheden die samen de kwalificatie en de boekhoudkundige verwerking onderbouwen.",
+    "confidence": "inferred",
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

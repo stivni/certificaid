@@ -2,7 +2,7 @@
   "id": "overlopende-rekeningen",
   "naam": "Overlopende rekeningen",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.L",
@@ -16,7 +16,14 @@
     "anchor_id": "1.1.II.L",
     "dekt_ook_anchors": [],
     "reviewed_by": null,
-    "po_1_2_extension": "2026-05-16: +['1.2.V', '1.2.taak.1', '1.2.III.D']"
+    "po_1_2_extension": "2026-05-16: +['1.2.V', '1.2.taak.1', '1.2.III.D']",
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+"
+      ]
+    }
   },
   "definitie": {
     "text": "**Balansrekeningen** die het verschil tussen kasstroom en economische toerekening zichtbaar maken aan het eind van het boekjaar. Twee paren: (1) **Over te dragen kosten** (490, actief): al betaalde kosten die op een volgend boekjaar betrekking hebben — vooruitbetaalde huur, premie verzekering 12 maanden. (2) **Verkregen opbrengsten** (491, actief): opbrengsten verdiend in lopend jaar maar nog niet ontvangen — bv. te ontvangen rente. (3) **Toe te rekenen kosten** (492, passief): kosten die op lopend jaar slaan maar nog niet zijn betaald — bv. december-elektriciteit, gewerkte uren personeel. (4) **Over te dragen opbrengsten** (493, passief): ontvangen bedragen die op volgend jaar betrekking hebben — bv. vooruitbetaalde abonnementen.",
@@ -226,5 +233,6 @@
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
   "situering": "Kosten en opbrengsten **toerekenen aan het juiste boekjaar** (matching), ook al vond de feitelijke betaling of facturatie in een ander boekjaar plaats. Vier rubrieken op de balans: 490 'Over te dragen kosten' (actief), 491 'Verkregen opbrengsten' (actief), 492 'Toe te rekenen kosten' (passief), 493 'Over te dragen opbrengsten' (passief).",
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "naam_alternatief": "accruals and deferrals / comptes de régularisation"
 }

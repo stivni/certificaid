@@ -2,7 +2,7 @@
   "id": "identificeren-fouten-fraude-verspilling",
   "naam": "Identificeren van fouten, fraude en verspilling in een organisatie",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Identificeren van fouten, fraude en verspilling in een organisatie",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -21,14 +21,6 @@
       "1.7.XII.H"
     ]
   },
-  "gebaseerd_op_concepten": [
-    "fouten-en-fraude",
-    "fouten-ic",
-    "fraude",
-    "verspilling",
-    "klokkenluiderregeling",
-    "opvolging-verrichtingen-ic"
-  ],
   "procedure_grondslag": {
     "wettelijk_pct": 30,
     "praktijk_pct": 70,
@@ -54,7 +46,7 @@
           "type": "conclusie"
         }
       ],
-      "hoe": "1. Volg [[fouten-en-fraude]] §typologie: onopzettelijk + correctie-mogelijk = fout; opzettelijk + bedrog/bevoordeling = fraude; legaal + suboptimaal = verspilling.\n2. Voor fouten — gebruik [[fouten-ic]] §types: oordeelsfouten (verkeerde inschatting), uitvoeringsfouten (mens of systeem maakt fout), datafouten (foute invoer).\n3. Voor fraude — toets aan [[fraude]] §driehoek: druk + gelegenheid + rationalisatie. Geen driehoek = geen fraude (waarschijnlijk fout).\n4. Voor verspilling — categoriseer volgens [[verspilling]]: tijd, materiaal, kapitaal, informatie. Geen wetsovertreding, wel value destruction.\n",
+      "hoe": "1. Volg fouten-en-fraude §typologie: onopzettelijk + correctie-mogelijk = fout; opzettelijk + bedrog/bevoordeling = fraude; legaal + suboptimaal = verspilling.\n2. Voor fouten — gebruik [[fouten-ic]] §types: oordeelsfouten (verkeerde inschatting), uitvoeringsfouten (mens of systeem maakt fout), datafouten (foute invoer).\n3. Voor fraude — toets aan [[fraude]] §driehoek: druk + gelegenheid + rationalisatie. Geen driehoek = geen fraude (waarschijnlijk fout).\n4. Voor verspilling — categoriseer volgens [[verspilling]]: tijd, materiaal, kapitaal, informatie. Geen wetsovertreding, wel value destruction.\n",
       "valkuilen": [
         {
           "advies": "Documenteer altijd de intentie-analyse — bij ontbreken van bewijs van opzet classificeer als fout, niet als fraude.",
@@ -62,7 +54,7 @@
           "grondslag": "[[fraude]] §opzet-vereist"
         }
       ],
-      "grondslag": "[[fouten-en-fraude]] §typologie, [[fraude]] §driehoek, [[verspilling]] §types"
+      "grondslag": "fouten-en-fraude §typologie, [[fraude]] §driehoek, [[verspilling]] §types"
     },
     {
       "nr": 2,
@@ -186,7 +178,9 @@
     "voorgesteld_door": "competentie-destillatie-v2-po17-2026-05-17T12:00Z",
     "voorgesteld_op": "2026-05-17T12:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "touched_at": "2026-05-18T18:20:48Z",
+    "last_extractor_run": "concept-extractie-v4-2026-05-18-wave1b4"
   },
   "linked_anchors": [
     "1.7.taak.1",
@@ -197,5 +191,25 @@
     "1.7.XII.A",
     "1.7.XII.H"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "edges": [],
+  "vergelijkingsparen": [],
+  "gebaseerd_op_concepten": [
+    "fraude-versus-fout",
+    "fouten-ic",
+    "fraude",
+    "verspilling",
+    "klokkenluiderregeling",
+    "opvolging-verrichtingen-ic",
+    "fraudedriehoek",
+    "fraudetypologie-acfe",
+    "frauderisicofactoren"
+  ],
+  "situering": {
+    "text": "Deze competentie is taakgebonden onder 1.7.taak.1 ('opzetten en onderhouden van interne controle') en behandelt het scharnier waar de stagiair-accountant onregelmatigheden moet kunnen classificeren — fout, fraude of verspilling — en de gepaste reactie kan kiezen. De drie types vragen wezenlijk verschillende vervolgacties: foutcorrectie + procesoptimalisatie (fout), onderzoek + sanctie + meldingsplichten (fraude), procesinitiatieven (verspilling). Examen-vraagstellingen toetsen typisch een case waarin de stagiair eerst moet classificeren, dan handelen.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }

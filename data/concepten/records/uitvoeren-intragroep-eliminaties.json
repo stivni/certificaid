@@ -2,7 +2,7 @@
   "id": "uitvoeren-intragroep-eliminaties",
   "naam": "Uitvoeren van intragroep-eliminaties en berekenen van het aandeel van derden",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Uitvoeren van intragroep-eliminaties en berekenen van het aandeel van derden",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -343,6 +343,15 @@
         "voorbeelden[0] (basis 90 % + voorraad: idem bovenstaande bedragen)"
       ],
       "reden": "cast-consistente €-bedragen, parallel aan Sessie 3 records-update (basis_consolidatie + joint_venture intragroep-eliminatie)"
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
+      ]
     }
   },
   "linked_anchors": [
@@ -351,5 +360,16 @@
     "1.4.I.B",
     "1.4.I.F"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "edges": [],
+  "naam_alternatief": "perform intercompany eliminations",
+  "situering": {
+    "text": "Een toepassingscompetentie binnen het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2). De stagiair elimineert onderlinge vorderingen, schulden, kosten, opbrengsten en niet-gerealiseerde winsten, en berekent vervolgens het aandeel van derden in resultaat en eigen vermogen.",
+    "confidence": "inferred",
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

@@ -2,7 +2,7 @@
   "id": "coso-componenten-synthese",
   "naam": "COSO-componenten — synthese-overzicht",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.III",
@@ -11,7 +11,7 @@
     "1.7.VIII"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T11:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave1b1",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.XII.D",
     "dekt_ook_anchors": [
@@ -27,7 +27,8 @@
         "version": "rag-v1"
       }
     ],
-    "note": "Synthese-record: _provenance.inputs sloeg eerder onderaan; nu correct gevuld op record-niveau."
+    "note": "Synthese-record: _provenance.inputs sloeg eerder onderaan; nu correct gevuld op record-niveau.",
+    "touched_at": "2026-05-18T17:24:12Z"
   },
   "gebaseerd_op_concepten": [
     "controle-omgeving",
@@ -45,5 +46,28 @@
       "omschrijving": "Bij Yperse Werkplaats BV: alle vijf componenten zijn nodig — als één wegvalt, valt het hele systeem. Sterke procedures (3) zonder cultuur (1) worden genegeerd; sterke cultuur zonder controles werkt op vertrouwen alleen — niet schaalbaar."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "De vijf COSO-componenten zijn het organiserend kader voor interne controle in de internationale praktijk én in ISA 315 (herzien-2019) — de standaard die elke auditor moet volgen bij risk assessment. Voor de stagiair is dit dé synthese die hij moet kunnen reproduceren: de vijf componenten in volgorde, met onderlinge afhankelijkheden (controle-omgeving als fundament, monitoring als afsluiting). Examen-vragen testen of hij elk component aan een concreet voorbeeld kan koppelen.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-315-herzien-2019__sec_bijlage-3",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "kerninzichten": [
+    "Vijf componenten samen — niet één afzonderlijk volstaat. Een sterke controle-omgeving zonder activiteiten is folklore; sterke activiteiten zonder monitoring verzwakken in de tijd.",
+    "Volgorde is functioneel: controle-omgeving (1) is fundament; risico-inschatting (2) drijft keuze; activiteiten (3) zijn uitvoering; informatie/communicatie (4) is verbindingsweefsel; monitoring (5) is feedback-loop.",
+    "ISA 315 (herzien-2019) eist dat de auditor de vijf componenten doorgrondt vóór hij risk's op afwijking-van-materieel-belang inschat. Dat is geen vrijblijvende stap.",
+    "COSO is geen Belgische wet — het is internationale doctrine die wel via ISA's en ITAA-controlenormen wordt verankerd."
+  ],
+  "in_praktijk": [
+    "Bij een walkthrough-oefening op examenniveau: koppel elke geobserveerde maatregel aan één van de vijf componenten. Maatregel die geen component vindt = vermoedelijk niet relevant voor IC.",
+    "Bij een management-letter na audit: organiseer bevindingen per COSO-component voor een leesbare structuur."
+  ]
 }

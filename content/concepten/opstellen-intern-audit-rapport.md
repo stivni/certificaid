@@ -16,11 +16,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opstellen-intern-audit-rapport.json
 gegenereerd_op: '2026-05-18'
 ---
 # Opstellen van een intern-audit-rapport 🤖
+
+Deze competentie operationaliseert de output-zijde van een interne audit-cyclus: hoe schrijf je een rapport dat een bestuursorgaan of auditcomité daadwerkelijk kan lezen en omzetten in remediation? Geen Belgische wet schrijft een specifieke vorm voor — de IIA International Standards (2400-2440) zijn de internationale vakdoctrine. Voor de stagiair is de toets vooral structureel: het 5C-format per bevinding (Condition, Criteria, Cause, Consequence, Corrective action), het recht-op-weerwoord van de auditee, en de keuze waar te rapporteren (bestuur versus auditcomité). Bij KMO's zonder auditcomité gaat het rapport naar het bestuursorgaan.
 
 
 ## Stappen
@@ -172,3 +174,6 @@ Presenteer het rapport in de auditcomité-vergadering, bespreek significante bev
 
 
 
+## Bronnen
+
+[^1]: `ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen`

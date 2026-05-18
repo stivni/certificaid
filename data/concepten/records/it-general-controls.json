@@ -1,0 +1,209 @@
+{
+  "id": "it-general-controls",
+  "naam": "IT general controls (ITGC)",
+  "naam_alternatief": "general IT controls — toegang, change, operations",
+  "node_type": "cluster",
+  "schema_version": "1.5",
+  "status": "seed",
+  "linked_anchors": [
+    "1.7.X",
+    "1.7.X.A",
+    "1.7.X.B",
+    "1.7.X.D"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:38:46Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.7.X.D",
+    "dekt_ook_anchors": [
+      "1.7.X",
+      "1.7.X.A",
+      "1.7.X.B"
+    ],
+    "reviewed_by": null,
+    "inputs": [
+      {
+        "id": "ISA-315-herzien-2019__sec_bijlage-6_part2",
+        "sha256": null,
+        "version": "rag-v1"
+      },
+      {
+        "id": "ISA-315-herzien-2019__sec_bijlage-6-overwegingen-voor-het-verwerven-van-inzicht-in-gen",
+        "sha256": null,
+        "version": "rag-v1"
+      }
+    ]
+  },
+  "situering": "IT general controls (ITGC) zijn de overkoepelende interne controles op de IT-omgeving die de werking van geautomatiseerde controles binnen applicaties ondersteunen en beschermen. Ze beslaan vier lagen (applicatie, database, besturingssysteem, netwerk) en drie processen (toegang beheren, programma-wijzigingen beheren, IT-activiteiten beheren). Stagiairs komen ITGC tegen bij elke audit met ISA 315 risico-inschatting: als ITGC tekortschieten, kunnen geautomatiseerde controles in applicaties niet betrouwbaar steunen.",
+  "definitie": {
+    "text": "IT general controls (ITGC) zijn interne controles op het niveau van de gehele IT-omgeving (applicaties, databases, besturingssysteem, netwerk) die de integriteit van financiële informatie beschermen door ongeautoriseerde toegang, ongecontroleerde programma-wijzigingen en falen van IT-activiteiten te voorkomen of te detecteren.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 315 (herzien-2019) Bijlage 6"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-315-herzien-2019__sec_bijlage-6_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Toegang beheren",
+      "wat": "Authenticatie, autorisatie, het verlenen en intrekken van toegangsrechten, periodieke gebruikerstoegang-reviews en fysieke toegang tot datacenter.",
+      "waarom": "Ongeautoriseerde toegang ondermijnt elke geautomatiseerde controle en functiescheiding; toegangsbeheer is de eerste verdedigingslinie.",
+      "in_praktijk": "Rol-gebaseerde rechten (RBAC) waarbij de financieel directeur betalingen kan vrijgeven maar de boekhouder niet; toegang van een uitdienst getreden werknemer wordt op de dag van uitdiensttreding ingetrokken; jaarlijkse user-access-review per applicatie.",
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Yperse Werkplaats BV worden de access rights van werknemers maandelijks tegen het Dimona-bestand gematched: iedere actieve gebruiker moet een actief contract hebben. Verschillen worden opgevolgd door IT-verantwoordelijke Helena Devos.",
+          "cast": [
+            "Yperse Werkplaats BV",
+            "Helena Devos"
+          ],
+          "confidence": "inferred-common-knowledge"
+        }
+      ],
+      "grondslag": "ISA 315 (herzien-2019) Bijlage 6 par. 2(a)",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 315 Bijlage 6"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_bijlage-6_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Programma- en wijzigingsbeheer (change management)",
+      "wat": "Geformaliseerd proces voor het ontwerpen, testen en migreren van wijzigingen naar productie, met functiescheiding tussen wie wijzigt en wie migreert.",
+      "waarom": "Ongecontroleerde wijzigingen kunnen geautomatiseerde controles uitschakelen of ongemerkt frauduleuze logica introduceren.",
+      "in_praktijk": "Ontwikkelaars werken in een test-omgeving; een aparte release-manager migreert naar productie na goedkeuring; alle wijzigingen worden gelogd met traceerbare ticketnummers.",
+      "grondslag": "ISA 315 (herzien-2019) Bijlage 6 par. 2(b)",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 315 Bijlage 6"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_bijlage-6_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Beheer van IT-activiteiten (computer operations)",
+      "wat": "Taakplanning, taakmonitoring, back-up en herstel, en monitoring op indringers.",
+      "waarom": "Falen van back-ups bij ransomware of corruption van rapport-jobs verstoort de continuïteit van financiële verslaggeving.",
+      "in_praktijk": "Nightly back-up naar offline locatie; jaarlijkse restore-test; intrusion-detection-systeem met alerts naar IT-verantwoordelijke.",
+      "grondslag": "ISA 315 (herzien-2019) Bijlage 6 par. 2(c)",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 315 Bijlage 6"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_bijlage-6_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Vier lagen waarop ITGC werken",
+      "wat": "ITGC werken op vier lagen: applicatie, database, besturingssysteem en netwerk. Elke laag heeft eigen risico's en specifieke controles.",
+      "waarom": "Een controle op applicatieniveau (bijvoorbeeld autorisatie binnen ERP) wordt omzeild bij directe database-toegang als de database-laag niet apart wordt afgeschermd.",
+      "in_praktijk": "Een ERP-gebruiker mag enkel de bedrijfsfuncties van het ERP gebruiken; alleen DB-beheerders hebben SQL-toegang tot de onderliggende database; servers staan in een afgesloten serverroom met beperkte fysieke toegang.",
+      "grondslag": "ISA 315 (herzien-2019) Bijlage 6 par. 1",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 315 Bijlage 6 par. 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_bijlage-6_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Wanneer is steun op geautomatiseerde controles mogelijk?",
+      "betekenis": "ISA 315 (herzien-2019) stelt dat als de entiteit steunt op een IT-applicatie voor de integriteit van financiële informatie, de auditor de ITGC over die applicatie moet identificeren en toetsen. Falen van ITGC betekent dat geautomatiseerde controles binnen die applicatie niet betrouwbaar zijn als onderdeel van de risicorespons.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 315 (herzien-2019) par. 26(c) + Bijlage 5 par. 8"
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Cloud-uitbesteding verlegt sommige ITGC naar de provider, maar de entiteit blijft eindverantwoordelijk. Audit-stap: vraag SOC 2 type 2 of ISO 27001-rapport en lees de complementary user entity controls (de controles die de klant zelf moet inbouwen).",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "text": "ITGC enkel testen voor de applicatie-laag is onvolledig. Direct database access via SQL-tools, OS-admin rechten of netwerkverkeer kan applicatie-controles omzeilen. ISA 315 Bijlage 6 maakt deze vier-lagen-structuur expliciet.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 315 Bijlage 6 par. 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_bijlage-6_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "onderdeel-van",
+      "target": "geinformatiseerde-omgeving-ic",
+      "redenering": "ITGC zijn de overkoepelende controles binnen de geïnformatiseerde IC-omgeving."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "it-application-controls",
+      "facet": {
+        "aspect": "scope (omgeving versus applicatie)"
+      },
+      "redenering": "ITGC werken op infrastructuur-niveau; application controls werken op transactie-niveau binnen een applicatie. Belangrijk verwarrings-risico."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "functiescheiding",
+      "redenering": "Toegangsbeheer is functiescheiding in IT-context."
+    }
+  ]
+}

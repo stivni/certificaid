@@ -1,9 +1,9 @@
 {
-  "id": "bepalen-vervaardigingsprijs-kb-21-10-2018",
-  "naam": "Bepalen van de vervaardigingsprijs volgens KB 21.10.2018 en CBN 132/7",
+  "id": "bepalen-vervaardigingsprijs",
+  "naam": "Bepalen van de vervaardigingsprijs",
   "node_type": "competentie",
-  "schema_version": "1.5",
-  "titel": "Bepalen van de vervaardigingsprijs volgens KB 21.10.2018 en CBN 132/7",
+  "schema_version": "1.6",
+  "titel": "Bepalen van de vervaardigingsprijs",
   "status": "voorgesteld",
   "programmaonderdelen": [
     1.8
@@ -229,5 +229,24 @@
     "1.8.II.B",
     "1.8.III.A"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "rename_reason": "Bron-prefix-smell weggewerkt (ADR-007 §11): bron-refs zitten in `references`/`source.short` van de stappen, niet in id. Geen parallel-regime-record dat bron-prefix rechtvaardigt.",
+  "situering": {
+    "text": "Competentie waarmee de stagiair de wettelijke vervaardigingsprijs van zelf-vervaardigde voorraad bepaalt volgens KB 21.10.2018 art. 22 + CBN 132/7 §2.1: aanschaffingsprijs grondstoffen + directe productiekosten + evenredig deel indirecte productiekosten. Centrale toepassing in PO 1.8 — gevraagde uitkomst is een voorraadwaarde op de balans die juridisch verdedigbaar is. De stagiair moet expliciete keuzes maken over full vs. direct costing, behandeling van onderbezetting en uitsluiting van commerciële en administratieve kost.",
+    "confidence": "grounded",
+    "source": {
+      "type": "cbn",
+      "short": "KB 21.10.2018 art. 22 + CBN 132/7 §2.1"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

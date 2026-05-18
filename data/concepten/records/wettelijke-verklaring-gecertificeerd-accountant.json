@@ -1,0 +1,248 @@
+{
+  "id": "wettelijke-verklaring-gecertificeerd-accountant",
+  "naam": "Wettelijke verklaring van de gecertificeerd accountant",
+  "naam_alternatief": "statutory report of the certified accountant",
+  "node_type": "begrip",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "1.6.IV.B",
+    "1.6.IV"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-18T16:19:32Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.IV.B",
+    "linked_anchors": [
+      "1.6.IV.B",
+      "1.6.IV"
+    ],
+    "reviewed_by": null,
+    "note": "Wettelijke verklaring van GA als verzamelterm voor de assurance- en expertise-opdrachten die door of krachtens de wet aan de GA zijn toegewezen — onderscheiden van het commissarisverslag dat exclusief voor de bedrijfsrevisor is."
+  },
+  "situering": {
+    "text": "De wettelijke verklaring van de gecertificeerd accountant (GA) is de verzamelterm voor de schriftelijke verslagen die de GA aflevert in opdrachten die hem door of krachtens de wet zijn toegewezen — buiten het commissaris-mandaat dat exclusief voor de bedrijfsrevisor is. Vorm-elementen worden gedeeld (oordeels-structuur, vier oordeelstypes), maar de wettelijke grondslag en het object verschillen per opdracht (effectenverrichting, inbreng in natura, omzetting, ontbinding-vereffening, fusie/splitsing). Het anchor 1.6.IV.B onderscheidt deze GA-verklaring nadrukkelijk van de certificering door de bedrijfsrevisor.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "norm",
+      "short": "Wet ITAA 2019 art. 3 + KB plichtenleer art. 18 + ITAA-norm-effectennorm + ITAA-norm-ontbinding-vereffening"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "Wet-ITAA-2019__art_3",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-1998-plichtenleer__art_18",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-effectennorm__sec_1-context-en-toevertrouwde-opdracht",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-ontbinding-vereffening__sec_2-verantwoordelijkheden-van-de-gecertificeerd-accountant",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "definitie": {
+    "text": "Een wettelijke verklaring van de gecertificeerd accountant is een door of krachtens de wet voorgeschreven schriftelijke conclusie van een GA over een welomschreven boekhoudkundige aangelegenheid (jaarrekening voor niet-grote vennootschappen wanneer overeengekomen, staat van activa en passiva bij ontbinding, financiële gegevens bij een uitgifte van effecten, inbreng in natura, omzetting, fusie/splitsing, ...). De GA tekent persoonlijk (KB plichtenleer art. 18), bezorgt het verslag aan het ITAA voor confraternele controle (ITAA Algemene controlenorm §7) en kan een goedkeurend, voorbehouden, afkeurend of onthoudend oordeel formuleren (zelfde vier types als ISA 705).",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "wet",
+      "short": "Wet ITAA 2019 art. 3 + KB plichtenleer art. 18 + ITAA Algemene controlenorm §2 + §7"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "Wet-ITAA-2019__art_3",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-1998-plichtenleer__art_18",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-algemene-controlenorm__sec_2-verslag",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-algemene-controlenorm__sec_7-commissie-van-toezicht",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Niet hetzelfde als een commissarisverslag",
+      "betekenis": "De wettelijke controle van de jaarrekening (commissariaat, WVV art. 3:72) is voorbehouden aan de bedrijfsrevisor. Een GA kan daar geen wettelijke verklaring afleggen. De GA wel: bij specifieke verrichtingen (effectenuitgifte, inbreng in natura, omzetting, ontbinding, fusie/splitsing) of bij contractuele controle.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §1.1.2 + Wet ITAA 2019 art. 3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "Wet-ITAA-2019__art_3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Persoonlijke ondertekening + afschrift aan ITAA",
+      "betekenis": "Elke wettelijke verklaring wordt persoonlijk ondertekend door de GA-natuurlijke-persoon (KB plichtenleer art. 18) — niet door een vennootschap als rechtspersoon. Daarnaast wordt een afschrift bezorgd aan het ITAA met het oog op confraternele controle (ITAA Algemene controlenorm §7). Het beroepsgeheim blijft gevrijwaard bij die toezending.",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "KB plichtenleer art. 18 + ITAA Algemene controlenorm §7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-1998-plichtenleer__art_18",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ITAA-norm-algemene-controlenorm__sec_7-commissie-van-toezicht",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Vorm: omstandig + voorbehoud zichtbaar",
+      "betekenis": "Elke verklaring is schriftelijk en omstandig: vermeldt hoe de controle is uitgevoerd, welke informatie ontbreekt, op welke interne beheersing de GA heeft kunnen steunen, en — verplicht — het eventueel voorbehoud op bepaalde punten. De vier oordeelstypes (goedkeurend, voorbehoud, afkeurend, onthouding) volgen dezelfde structuur als bij een ISA-controleverslag.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA Algemene controlenorm §2 + §7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-algemene-controlenorm__sec_2-verslag",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ITAA-norm-algemene-controlenorm__sec_7-commissie-van-toezicht",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "wettelijke-controleopdracht-commissaris",
+      "verschil": "Commissaris-mandaat = wettelijke audit van de jaarrekening, EXCLUSIEF voorbehouden aan de bedrijfsrevisor, normenkader Wet 2016 + ISA's, verslag-toezending aan IBR. Wettelijke verklaring van GA = andere wettelijk voorbehouden opdrachten (effectenverrichtingen, inbreng in natura, omzetting, ontbinding, fusie/splitsing, contractuele controle), open voor GA en bedrijfsrevisor, normenkader Wet ITAA 2019 + KMO-controlenorm + bijzondere ITAA-normen, verslag-toezending aan ITAA.",
+      "trigger": "Examenvraag: 'jaarrekening grote NV, commissaris benoemd' → commissarisverslag van bedrijfsrevisor. 'Inbreng in natura zonder commissaris' → wettelijke verklaring van GA of bedrijfsrevisor naar keuze. 'Beoordelingsverslag effectenuitgifte' → wettelijke verklaring van GA of bedrijfsrevisor.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wet-ITAA-2019__art_3",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ITAA-norm-effectennorm__sec_1-context-en-toevertrouwde-opdracht",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "De wettelijke verklaring van de GA is geen 'kleinere commissarisverklaring'. Hij is een schriftelijk verslag binnen een eigen wettelijk kader (Wet ITAA 2019, KB plichtenleer 1998, ITAA-normen) — niet een ISA-controleverslag onder de Wet 7 december 2016. De GA mag GEEN commissariaat uitvoeren, ook niet onder een andere naam.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §1.1.2 + Wet 7 december 2016"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "De vier oordeelstypes (goedkeurend / voorbehoud / afkeurend / onthouding) gelden óók voor de wettelijke verklaring van de GA. Bij twijfel: kies bewust voor 'voorbehoud' of 'onthouding' — een goedkeurend oordeel met verborgen onzekerheid is een tuchtvergrijp.",
+      "confidence": "inferred-from-aggregation",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm-ontbinding-vereffening §IV.1 + ITAA Algemene controlenorm §2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-ontbinding-vereffening__sec_iv-oordeel-en-verslag-iv-1-het-vormen-van-het-oordeel",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "vergelijkt-met",
+      "target": "wettelijke-controleopdracht-commissaris",
+      "aspect": "GA-rol vs. revisor-rol",
+      "redenering": "Examen-onderscheid: wie mag wat? Beide leveren een schriftelijke verklaring maar binnen verschillende wettelijke kaders."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "gecertificeerd-accountant-ga",
+      "redenering": "De wettelijke verklaring is de output-zijde van de GA-bevoegdheden onder Wet ITAA 2019 art. 3."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "controleoordeel-types",
+      "redenering": "Zelfde vier oordeelstypes als bij ISA-controleverslag (goedkeurend/voorbehoud/afkeurend/onthouding)."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "bijzondere-verslagen-overzicht",
+      "redenering": "Bijzondere verslagen-overzicht somt de specifieke verslagtypes op die onder de wettelijke verklaring vallen."
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Yperse Werkplaats BV doet een inbreng in natura van een productiehal (€ 850.000). Geen commissaris in deze BV. Sofie Janssens, gecertificeerd accountant bij Wolters & Partners CVBA, stelt een wettelijke verklaring (inbreng-in-natura-verslag) op volgens WVV art. 5:7: zij verifieert de waardering, beoordeelt de gebruikte methode en formuleert een goedkeurend oordeel. Persoonlijke ondertekening + afschrift aan ITAA."
+    },
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Verffabriek Veurne BV wordt ontbonden. Geen commissaris. Sofie Janssens (GA) wordt aangewezen voor de wettelijke controle van de staat van activa en passiva volgens ITAA-norm-ontbinding-vereffening. Zij geeft een oordeel met voorbehoud omdat één rubriek (voorraden) onvoldoende auditeerbaar was."
+    }
+  ]
+}

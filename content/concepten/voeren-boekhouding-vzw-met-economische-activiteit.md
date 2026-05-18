@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voeren-boekhouding-vzw-met-economische-activiteit.json
 gegenereerd_op: '2026-05-18'
 ---
 # Voeren van de boekhouding van een VZW met economische activiteit 🤖
+
+Een specialisatie-competentie: VZW's met economische activiteit moeten een **dubbele boekhouding** voeren volgens hetzelfde KB WVV-schema als vennootschappen, met enkele eigen aanpassingen (geen kapitaal, wel 'fondsen', 'bestemde fondsen'). Voor een stagiair-GA: belangrijk omdat een groeiende VZW boven de drempel uit de vereenvoudigde boekhouding moet kantelen — een veel voorkomende vraag in de praktijk.
 
 
 ## Stappen

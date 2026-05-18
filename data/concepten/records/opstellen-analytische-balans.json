@@ -2,7 +2,7 @@
   "id": "opstellen-analytische-balans",
   "naam": "Opstellen van een analytische balans voor een vennootschap",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Opstellen van een analytische balans voor een vennootschap",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -213,5 +213,26 @@
     "1.3.II.B",
     "1.3.II.C.1"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "naam_alternatief": [
+    "Prepare analytical balance sheet"
+  ],
+  "situering": {
+    "text": "Competentie om de officiële balans te herklasseren tot analytische balans: activa naar liquiditeitsgraad geordend, passiva naar opeisbaarheid. Deze herklassering is de basis voor élke ratioberekening — de officiële balans dient als juridisch document, de analytische balans als analyse-instrument.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Examenprogramma 1.3 — competentie"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.II.A",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

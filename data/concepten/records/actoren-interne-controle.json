@@ -9,7 +9,7 @@
     "1.7.V"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T11:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T19:55Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.IV",
     "dekt_ook_anchors": [
@@ -23,7 +23,7 @@
         "version": "rag-v1"
       }
     ],
-    "note": "Synthese-record: _provenance.inputs sloeg eerder onderaan; nu correct gevuld op record-niveau."
+    "note": "Situering + kerninzichten toegevoegd."
   },
   "gebaseerd_op_concepten": [
     "interne-controle",
@@ -40,5 +40,18 @@
       "omschrijving": "Bij Yperse Werkplaats BV (KMO, geen IA, geen auditcomité): de drie lijnen worden gecondenseerd — zaakvoerder Pieter Vermeulen vervult deels lijn 1 (operationeel) en lijn 2 (toezicht); externe accountant Xenon Expertise BV vervult deels lijn 3 + externe controle. ITAA-norm-kmo-controlenorm erkent dit KMO-profiel."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Interne controle is een gedeelde verantwoordelijkheid van meerdere actoren binnen én buiten de onderneming. Het drie-lijnen-model verdeelt de operationele rollen (lijn 1-3), met daarboven het bestuursorgaan (auditcomité, raad van bestuur) als oversight en externe assurance (commissaris, regulator) als externe controleur. Dit synthese-record maakt de rolverdeling expliciet — een stagiair moet voor elke IC-vraag kunnen identificeren WIE de actor is.",
+    "confidence": "inferred",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "kerninzichten": [
+    "Geen enkele actor draagt alleen de verantwoordelijkheid: IC is een keten waar de eerste lijn (operationeel management) eigenaar blijft, ondersteund door tweede lijn (risk/compliance), gevalideerd door derde lijn (interne audit), met oversight door auditcomité/RvB en externe assurance door commissaris.",
+    "Bij KMO's worden lijnen samengeperst tot één persoon (zaakvoerder) of uitbesteed (externe accountant). Het model blijft conceptueel relevant: bewustzijn van de gemiste 'lijn' is een risico-indicator.",
+    "Het auditcomité staat boven de drie lijnen, niet binnen — het is een orgaan van governance, niet van uitvoering.",
+    "Externe auditor en regulator (NBB, FSMA) staan buiten de onderneming en geven assurance aan derden, niet aan management."
+  ]
 }

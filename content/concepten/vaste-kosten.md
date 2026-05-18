@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vaste-kosten.json
 gegenereerd_op: '2026-05-18'
 ---
 # Vaste kosten 🤖
+
+Vaste kosten (structuurkosten, periode-kosten) zijn kosten die binnen een relevante volumebandbreedte niet meebewegen met het productie- of verkoopvolume — huur, afschrijvingen, vast personeel, verzekeringen. Per geproduceerde eenheid daalt de vaste kost als het volume stijgt (degressie). Vaste kosten zijn fundament voor break-even-analyse en variantenanalyse: ze bepalen de minimum-omzet die nodig is om uit kost te zijn.
 
 > [!summary] Korte inhoud
 > Vaste kosten (ook: structuurkosten of periode-kosten) zijn kosten die binnen een relevante volumebandbreedte niet meebewegen met het productie- of verkoopvolume.
@@ -71,7 +73,7 @@ _Bron: Management accounting — bron-gap_
 ## Zie ook
 
 - **Vereist kennis van**: [[break-even-analyse]]
-- **Wordt voorondersteld in** (1): [[break-even-analyse]]
+
 ## Voorbeelden
 
 Yperse Werkplaats BV betaalt huur weverij € 80.000/jaar en het maandloon van het afdelingshoofd € 72.000/jaar — beide blijven gelijk of de weverij nu 10.000 of 14.000 tapijten produceert. Totale vaste kost: € 800.000/jaar.

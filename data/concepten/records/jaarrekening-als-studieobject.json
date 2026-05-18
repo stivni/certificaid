@@ -2,7 +2,7 @@
   "id": "jaarrekening-als-studieobject",
   "naam": "Jaarrekening als studieobject van financiële analyse",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV",
@@ -148,5 +148,22 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Voor de financiële analist is de jaarrekening (balans + resultatenrekening + toelichting) het **belangrijkste object van studie**: alle structuur-, ratio- en evolutie-analyses bouwen erop voort. Voor PO 1.2 vooral relevant als ankerpunt vanuit boekhoudrecht: welke regels hebben de jaarrekening gevormd zoals ze nu voor de analist op tafel ligt?",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "WVV-bestuursverslag + vakdoctrine"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "aggregate",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

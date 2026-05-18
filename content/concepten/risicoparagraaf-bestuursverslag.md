@@ -15,11 +15,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/risicoparagraaf-bestuursverslag.json
 gegenereerd_op: '2026-05-18'
 ---
 # Risicoparagraaf in het bestuursverslag ⚖️
+
+WVV-verplichte rubriek in het bestuursverslag waarin het bestuursorgaan de voornaamste risico's en onzekerheden beschrijft: prijsrisico, kredietrisico, liquiditeitsrisico, valutarisico. Voor de analist is dit de plaats waar toekomstgerichte bedreigingen geconcretiseerd worden — vaak doorslaggevend bij kredietbeoordeling.
 
 > [!summary] Korte inhoud
 > Het bestuursverslag bevat een beschrijving van de voornaamste risico's en onzekerheden waarmee de onderneming geconfronteerd wordt, met inbegrip van de doelstellingen en het beleid inzake het beheer van financiële risico's (prijsrisico, kredietrisico, liquiditeitsrisico en kasstr….
@@ -75,9 +77,7 @@ _Grondslag: Richtlijn 2013/34/EU art. 19, lid 2, e), i)_
 
 
 
-## Zie ook
-
-- **Triggert** (1): [[falen-van-de-onderneming]]
 ## Bronnen
 
 [^1]: `Richtlijn-2013-34-EU__art_19__sub_lid1-lid2`
+[^2]: `anchor-1.3.III`

@@ -2,20 +2,22 @@
 title: Vereffening van een vennootschap
 tags:
 - concept
-- procedure
+- cluster
 - po-1-1
 linked_anchors:
 - 1.1.II.T
 programmaonderdelen:
 - '1.1'
 confidence: grounded
-node_type: procedure
+node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vereffening.json
 gegenereerd_op: '2026-05-18'
 ---
 # Vereffening van een vennootschap ⚖️
+
+Het wettelijk geregeld proces dat een vennootschap door **opeenvolgende fasen** voert (besluit AV → benoeming vereffenaar → tegeldemaken → schulden voldoen → verdeling → sluiting). Voor een stagiair-GA: vereist begrip dat de vennootschap rechtspersoon BLIJFT tijdens vereffening, dat continuïteit niet meer geldt (overgang naar liquidatie-waardering), en dat er specifieke openings- en sluitingsbalansen zijn.
 
 > [!summary] Korte inhoud
 > Het **wettelijk geregelde proces** waarbij een vennootschap haar bedrijfsactiviteit beëindigt: activa worden te gelde gemaakt, schulden worden betaald, het saldo wordt onder de aandeelhouders verdeeld in functie van hun rechten.
@@ -139,7 +141,7 @@ Na betaling van alle schulden + sluitingskosten: het resterende eigen vermogen (
 
 - **Getriggerd door**: [[continuiteitsbeginsel]]
 - **Vereist kennis van**: [[voorzieningen]]
-- **Triggert** (1): [[continuiteitsbeginsel]]
+
 ## Voorbeelden
 
 Verffabriek Veurne BV (kapitaal € 100.000, beschikbare reserves € 25.000, overgedragen verlies € −18.000 → netto-actief € 107.000) wordt op 15 oktober ontbonden. Vereffenaar Pieter Vermeulen aangesteld. Liquidatie: machines verkocht € 38.000 (boekwaarde € 62.000 → minderwaarde € 24.000), voorraad € 18.500 (boekwaarde € 24.000), klanten geïnd € 42.000, leveranciers betaald € 35.000, vereffeningskosten € 12.000. Liquidatiebonus = aan aandeelhouders te verdelen overschot na alle aflossingen.

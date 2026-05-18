@@ -15,18 +15,18 @@ programmaonderdelen:
 confidence: grounded
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/consolidatieverschil.json
 gegenereerd_op: '2026-05-18'
 ---
 # Consolidatieverschil ⚖️
 
+Een conceptueel post in het Belgische boekhoudrecht-consolidatieregime die de prijs-vermogen-discrepantie bij de eerste consolidatie wegwerkt. Het wijst de over- of onderbetaling toe aan herwaarderingen of aan goodwill; zonder dat mechanisme zou de geconsolideerde jaarrekening de aankoopprijs niet kunnen integreren.
+
 > [!summary] Korte inhoud
 > Het verschil dat bij de **eerste consolidatie** van een dochter overblijft tussen (a) wat de moeder betaalde voor de aandelen van een dochter of geassocieerde onderneming en (b) haar pro-rata aandeel in het eigen vermogen (EV) van die onderneming op datum van aankoop — nadat je d….
 
 > [!info] Behoort tot: [[integrale-consolidatie]]
-
-> [!info] Bestaat uit (1): [[integrale-consolidatie]]
 
 Het verschil dat bij de **eerste consolidatie** van een dochter overblijft tussen (a) wat de moeder betaalde voor de aandelen van een dochter of geassocieerde onderneming en (b) haar pro-rata aandeel in het eigen vermogen (EV) van die onderneming op datum van aankoop — nadat je dat verschil zoveel mogelijk hebt toegerekend aan onder- of overgewaardeerde bezittingen en schulden. Wat dan nog overblijft, verschijnt in de geconsolideerde balans als 'Consolidatieverschillen': aan actiefzijde als het positief is, aan passiefzijde als het negatief is. Positieve consolidatieverschillen worden afgeschreven over hun vermoedelijke gebruiksduur. Belangrijke scope: bij **latere consolidaties** (volgende boekjaren waarin de dochter al in de consolidatiekring zit) wordt **geen nieuw** consolidatieverschil geboekt — wel de afschrijving op het positieve verschil (Koninklijk Besluit Wetboek van vennootschappen en verenigingen (KB WVV) art. 3:131) of opname van negatief verschil in resultatenrekening (RR) volgens de regels. Step-acquisition (verhoging van het belang in een bestaande dochter) is een uitzondering: voor de bijkomende tranche kan wél een extra consolidatieverschil ontstaan op de datum waarop het bijkomende belang werd verworven.
 
@@ -307,10 +307,12 @@ Resultaat: In de geconsolideerde balans wordt € 300.000 als positief consolida
 
 ## Oorzaken
 
-- Overpaid goodwill — de moeder betaalt een premie boven het pro-rata aandeel in het netto-actief van de dochter. Die premie reflecteert economische waarden die in de enkelvoudige jaarrekening van de dochter niet konden worden geactiveerd: verwachte synergieën, marktpositie, klantenbestand, merken, knowhow. Twee perspectieven van hetzelfde fenomeen: (a) prijsperspectief — wat de moeder bereid is te betalen bovenop de boekhoudkundige nettowaarde; (b) substantieperspectief — waarom die premie niet kan worden toegerekend aan specifieke activa of schulden (KB WVV art. 3:130, eerste lid: toerekening enkel 'voor zover mogelijk') en daarom in het residu blijft zitten. Het residu wordt aan actiefzijde geboekt als 'Consolidatieverschillen' en afgeschreven over de vermoedelijke gebruiksduur (KB WVV art. 3:131, § 1). De Europese Richtlijn 2013/34/EU art. 24, lid 3, c) duidt dit residu uitdrukkelijk als 'goodwill'. 🤖
-- Activa van de dochter zijn boekhoudkundig ondergewaardeerd (bv. terreinen tegen historische kostprijs); de moeder betaalt de werkelijke waarde. Eerste stap (KB WVV art. 3:128): het verschil toerekenen aan die onder- of overgewaardeerde posten voor je het residu als consolidatieverschil boekt. ⚖️
-- Verwachte ongunstige resultaatsontwikkeling — een aankoopprijs lager dan het netto-actief op aankoopdatum kan voortvloeien uit de verwachting van komende verliezen; dan ontstaat een negatief consolidatieverschil. ⚖️
-- Schulden of voorzieningen van de dochter zijn boekhoudkundig overgewaardeerd (te hoge voorzieningen, te ruim ingeschatte schulden). KB WVV art. 3:130 bepaalt dat het verschil zoveel mogelijk wordt toegerekend aan bezittingen en schulden waarvan de waarde afwijkt van de boekwaarde. Een te hoog opgegeven schuld verlaagt na correctie het residu dat als consolidatieverschil overblijft. ⚖️
+- **[positief]** Onder-gewaardeerde activa van de dochter — werkelijke waarde > boekwaarde (stille meerwaarden op terreinen, gebouwen, voorraden, deelnemingen). Eerste stap (KB WVV art. 3:128 jo. art. 3:130, lid 1): het verschil toerekenen aan die onder- of overgewaardeerde posten vóór je het residu als consolidatieverschil boekt. ⚖️
+- **[positief]** Over-gewaardeerde schulden of voorzieningen van de dochter — werkelijke waarde < boekwaarde (te ruim ingeschatte voorzieningen of schulden). KB WVV art. 3:130, eerste lid bepaalt dat het verschil zoveel mogelijk wordt toegerekend aan bezittingen en schulden waarvan de waarde afwijkt van de boekwaarde; een te hoog opgegeven schuld verlaagt na correctie het residu dat als consolidatieverschil overblijft. ⚖️
+- **[positief]** Niet-geboekte immateriële vaste activa — intern opgebouwde merken, klantenrelaties, knowhow die in de enkelvoudige jaarrekening van de dochter niet activeerbaar waren maar wel economische waarde vertegenwoordigen. Bij eerste consolidatie kan het verschil aan deze posten worden toegerekend voor zover ze identificeerbaar en betrouwbaar waardeerbaar zijn (KB WVV art. 3:128 jo. art. 3:130, lid 1); wat niet toerekenbaar is blijft als consolidatieverschil zitten en gaat op in de werkelijke goodwill. 🤖
+- **[positief]** Werkelijke goodwill / overprijs — verwachte synergieën, controlepremie, marktpositie, strategische waarde die de moeder bereid is bovenop het netto-actief te betalen. Niet aan specifieke activa of schulden toerekenbaar (KB WVV art. 3:130, eerste lid: toerekening enkel 'voor zover mogelijk'); residu wordt aan actiefzijde geboekt als 'Consolidatieverschillen' en afgeschreven over de vermoedelijke gebruiksduur (KB WVV art. 3:131, § 1). Europese Richtlijn 2013/34/EU art. 24, lid 3, c) duidt dit residu uitdrukkelijk als 'goodwill'. ⚖️
+- **[negatief]** Verwachte ongunstige resultaatsontwikkeling van de dochter — een aankoopprijs lager dan het netto-actief op aankoopdatum kan voortvloeien uit de verwachting van komende verliezen of voorziene risico's bij de dochter. Het verschil verschijnt dan als negatief consolidatieverschil aan passiefzijde van de geconsolideerde balans. KB WVV art. 3:131, § 2 staat opname in resultaat enkel toe naarmate die verwachte ongunstige ontwikkeling zich effectief realiseert — niet ineens als spookwinst. ⚖️
+- **[negatief]** Over-gewaardeerde activa of onder-gewaardeerde schulden van de dochter — spiegelbeeld van de positieve oorzaken: als boekwaarden te optimistisch zijn (te hoog actief, te laag passief), dan ligt de werkelijke netto-actiefwaarde onder de boekwaarde en kan de moeder onder pro-rata EV betalen. Wordt eerst toegerekend (KB WVV art. 3:128 jo. art. 3:130, lid 1); pas het residu na toerekening is het negatief consolidatieverschil. 🤖
 
 ## Valkuilen
 
@@ -336,7 +338,7 @@ Resultaat: In de geconsolideerde balans wordt € 300.000 als positief consolida
 ## Zie ook
 
 - **Getriggerd door**: [[eerste-consolidatie]]
-- **Wordt voorondersteld in** (1): [[step-acquisition]]- **Triggert** (1): [[wijziging-consolidatiekring]]
+
 ## Voorbeelden
 
 Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) van Brugse op aankoopdatum = € 1.500.000. Pro-rata aandeel = 80 % × € 1.500.000 = € 1.200.000. Bruto-verschil = € 1.600.000 − € 1.200.000 = € 400.000. Vastgoed van Brugse is € 250.000 ondergewaardeerd → € 250.000 toegerekend aan terreinen; residu € 150.000 wordt geboekt als 'Consolidatieverschillen' (actiefzijde).
@@ -347,5 +349,5 @@ Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1.600.000; eigen 
 [^2]: `KB-WVV-2019__art_3_103`
 [^3]: `KB-WVV-2019__art_3_104`
 [^4]: `CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1`
-[^5]: `Richtlijn-2013-34-EU__art_24__sub_lid1-lid14`
-[^6]: `CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld`
+[^5]: `CBN-2022-11-vermogensmutatiemethode__sec_voorbeeld`
+[^6]: `Richtlijn-2013-34-EU__art_24__sub_lid1-lid14`

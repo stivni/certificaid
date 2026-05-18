@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/berekenen-controle-en-belangenpercentage.json
 gegenereerd_op: '2026-05-18'
 ---
 # Berekenen van controle- en belangenpercentage in een ketenstructuur 🤖
+
+Een rekencompetentie binnen het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2). De stagiair berekent controle- en belangenpercentages in ketenstructuren — twee verschillende grootheden die samen de kwalificatie en de boekhoudkundige verwerking onderbouwen.
 
 
 ## Stappen

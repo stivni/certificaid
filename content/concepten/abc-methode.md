@@ -11,7 +11,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/abc-methode.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -113,4 +113,4 @@ Yperse: order grootwarenhuis (5.000 tapijten, 1 omstelling, 1 verzending) → ov
 ## Zie ook
 
 - **Vereist kennis van**: [[verdeelsleutel]]
-- **Triggert** (2): [[indirecte-kosten]] · [[verdeelsleutel]]
+

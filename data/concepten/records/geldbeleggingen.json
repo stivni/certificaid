@@ -2,7 +2,7 @@
   "id": "geldbeleggingen",
   "naam": "Geldbeleggingen en liquide middelen",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.G"
@@ -12,7 +12,17 @@
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.G",
     "dekt_ook_anchors": [],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "edges-1deprecated",
+        "schema->1.6"
+      ]
+    }
   },
   "definitie": {
     "text": "**Vlottende activa** (rubriek 5 MAR) waarin de onderneming tijdelijk haar overtollige middelen plaatst voor **korte-termijn-rendement** of voor **dagelijkse liquiditeit**. Twee hoofdgroepen: (1) **Geldbeleggingen** rubriek 50-53 (eigen aandelen 50, aandelen 51, vastrentende effecten 52, termijndeposito's 53) — beleggingen voor rendement, en (2) **Liquide middelen** rubriek 55-58 (bankrekeningen 55, postchequerekening 56, kasmiddelen 57, interne overboekingen 58) — dagelijks betalingsverkeer. Waardering: aanschaffingsprijs; waardevermindering bij ontwaarding.",
@@ -200,11 +210,6 @@
       "type": "vergelijkt-met",
       "target": "financiele-vaste-activa",
       "redenering": "Verschil zit in oogmerk bij verwerving."
-    },
-    {
-      "type": "bevat",
-      "target": "eigen-aandelen",
-      "redenering": "Eigen aandelen rekening 50 is een subcategorie binnen klasse 5."
     }
   ],
   "voorbeelden": [
@@ -213,5 +218,15 @@
       "omschrijving": "Solaris Sint-Truiden BV heeft op 31/12: rekening 51 Aandelen € 280.000 (kortetermijn-effectenportefeuille), rekening 53 Termijndeposito's € 150.000, rekening 550 Bankrekening Belfius € 87.500, rekening 570 Kassa € 1.250. Subtotaal liquide middelen + geldbeleggingen op de balans = € 518.750."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": "short-term investments / placements de trésorerie",
+  "situering": {
+    "text": "Het oogmerk-onderscheid (korte termijn rendement of dagelijkse liquiditeit, niet duurzame ondersteuning van een andere onderneming) bepaalt waarom geldbeleggingen onder rubriek 50-53 en niet onder 28 vallen. Voor een stagiair-GA: vergeet niet dat ook eigen aandelen, deposito's en kortlopende effecten hier samenkomen — en dat afwaardering naar marktwaarde een vaste eindjaarsverrichting is.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

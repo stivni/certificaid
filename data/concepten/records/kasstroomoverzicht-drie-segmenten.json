@@ -2,7 +2,7 @@
   "id": "kasstroomoverzicht-drie-segmenten",
   "naam": "Kasstroomoverzicht — operationeel, investerings- en financierings-kasstroom",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.9.IV",
@@ -26,7 +26,9 @@
       "1.9.taak.1"
     ],
     "reviewed_by": null,
-    "bron_gap": "Het Belgisch volledig schema (KB WVV) bevat geen verplicht kasstroomoverzicht — anders dan IFRS (IAS 7). De drie-segmenten-structuur komt uit IAS 7 en de financiële-analyse-vakdoctrine."
+    "bron_gap": "Het Belgisch volledig schema (KB WVV) bevat geen verplicht kasstroomoverzicht — anders dan IFRS (IAS 7). De drie-segmenten-structuur komt uit IAS 7 en de financiële-analyse-vakdoctrine.",
+    "note": "PO 1.9 wave-2: schema 1.5→1.6 + situering + naam_alternatief",
+    "touched_at": "2026-05-19T00:00:00Z"
   },
   "vergelijkingstabel": "| Segment | Wat zit erin? | Indirecte methode (vertrekpunt) | Wat zegt het over de onderneming? |\n|---|---|---|---|\n| **Operationeel (CFO)** | Kasstroom uit de eigen activiteit | Resultaat + niet-kaskosten − Δ BBK | Kan het bedrijfsmodel zichzelf bedruipen? |\n| **Investerings (CFI)** | In- en uitstroom door aan- en verkoop vaste activa | Aanschaffingen materiële vaste activa min desinvesteringen | Bouwt de onderneming op (negatief = uitbreiding) of leeft ze van afbouw (positief)? |\n| **Financierings (CFF)** | In- en uitstroom met kapitaalverschaffers | Nieuwe leningen + kapitaalverhogingen − terugbetalingen − dividenden | Hoe wordt het tekort tussen CFO en CFI overbrugd? |\n| **Δ kas en kasequivalenten** | Som van de drie segmenten | CFO + CFI + CFF | Verklaart de Δ liquide middelen op de balans. |",
   "beslisboom": "```mermaid\nflowchart TD\n  A[Resultaat na belastingen] --> B[+ niet-kaskosten<br/>afschrijvingen, voorzieningen]\n  B --> C[− Δ BBK<br/>voorraden, vorderingen, schulden]\n  C --> D[Kasstroom uit bedrijfsvoering<br/>CFO]\n  D --> E{Δ vaste activa?}\n  E -->|aanschaffingen − desinvesteringen| F[Kasstroom uit investeringen<br/>CFI<br/>meestal negatief]\n  F --> G{Δ vreemd + eigen vermogen?}\n  G -->|+ leningen − terugbetalingen<br/>+ kapitaal − dividenden| H[Kasstroom uit financiering<br/>CFF]\n  H --> I[Δ kas en kasequivalenten<br/>= CFO + CFI + CFF]\n```",
@@ -89,5 +91,28 @@
       }
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Het kasstroomoverzicht ontleedt de kasevolutie in drie segmenten: operationele kasstroom (CFO — uit exploitatie), investeringskasstroom (CFI — vaste activa) en financieringskasstroom (CFF — eigen vermogen en schulden). Sluit aan op de balans-evolutie van liquide middelen en is dé synthese die rentabiliteit (resultatenrekening) en vermogen (balans) verbindt met effectieve cash. Niet-verplicht voor verkort/microschema — moet gereconstrueerd worden uit balans, resultatenrekening en toelichtingsstaten.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Vakdoctrine financial analysis — IAS 7 / FAS 95 standaard"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "aggregate",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "naam_alternatief": [
+    "Cash flow statement",
+    "CFO/CFI/CFF",
+    "Tableau de flux de trésorerie"
+  ],
+  "migrated_doel_to_situering_at": "2026-05-19T00:00:00Z"
 }

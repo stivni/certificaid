@@ -2,22 +2,30 @@
   "id": "aangepast-oordeel",
   "naam": "Aangepast oordeel (modified opinion)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.6.IV",
     "1.6.IV.B"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18T14:26Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T16:22:12Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.IV",
     "dekt_ook_anchors": [
       "1.6.IV.B"
     ],
     "reviewed_by": null,
-    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
-    "situering_added_v4_at": "2026-05-18"
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T14:26Z",
+    "situering_added_v4_at": "2026-05-18",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T16:22:12Z",
+    "last_extract_at": "2026-05-18T16:22:12Z",
+    "notes": [
+      {
+        "op": "2026-05-18",
+        "note": "edge getriggerd-door afwijking-van-materieel-belang toegevoegd (1.6.IV.B pass)"
+      }
+    ]
   },
   "definitie": {
     "text": "Een aangepast oordeel is elk oordeel dat AFWIJKT van een goedkeurend oordeel zonder voorbehoud: een oordeel met voorbehoud, een afkeurend oordeel, of een onthouding van oordeel. De keuze hangt af van twee dimensies: bron van probleem (afwijking vs. scope-beperking) en intensiteit (niet-diepgaand vs. diepgaand).",
@@ -66,6 +74,12 @@
       "type": "onderdeel-van",
       "target": "controleoordeel-types",
       "redenering": "Drie van de vier types vallen onder 'aangepast'."
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "afwijking-van-materieel-belang",
+      "conditie": "Niet-gecorrigeerde afwijking van materieel belang (of scope-beperking met materiële mogelijke gevolgen)",
+      "redenering": "De aanwezigheid van een materiële afwijking is de directe trigger voor de aangepaste oordeels-modus."
     }
   ],
   "voorbeelden": [

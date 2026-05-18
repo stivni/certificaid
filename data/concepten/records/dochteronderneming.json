@@ -1,8 +1,8 @@
 {
   "id": "dochteronderneming",
   "naam": "Dochteronderneming",
-  "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "node_type": "begrip",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -51,6 +51,17 @@
         "in_praktijk[*].betekenis (stagiair-toon)",
         "valkuilen[*].text (stagiair-toon)",
         "edges: redeneringen volledig + vereist-kennis-van controle toegevoegd"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -1",
+        "type autoriteit→begrip",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -232,24 +243,6 @@
   ],
   "edges": [
     {
-      "type": "contrasteert-met",
-      "target": "gemeenschappelijke-dochteronderneming",
-      "redenering": "Gemeenschappelijke dochter is een dochter onder gezamenlijke controle (meerdere vennoten samen). 'Dochteronderneming' tout court omvat zowel exclusief gecontroleerde dochters als gemeenschappelijke dochters.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "onderdeel-van",
       "target": "consolidatiekring",
       "redenering": "Een dochteronderneming is een typische actor in de consolidatiekring; de kring is de verzameling van moeder + dochters (eventueel uitgebreid via WVV art. 3:22). Niet elke dochter zit in de kring (zie uitsluitingsgronden KB WVV art. 3:97).",
@@ -286,5 +279,19 @@
       "omschrijving": "Aurelia Holding NV bezit 90 % van de stemrechten in Brugse Brouwerij BV (industriële activiteit). Aurelia kan via die meerderheid de meeste bestuurders aanstellen → onweerlegbaar controle in rechte (WVV art. 1:14, § 2) → Brugse Brouwerij BV is dochteronderneming van Aurelia Holding NV. Aurelia consolideert Brugse integraal; 10 % van het eigen vermogen en het resultaat van Brugse staat apart als belangen van derden (KB WVV art. 3:137)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "subsidiary",
+  "situering": {
+    "text": "Een centrale rol in het Belgische vennootschapsrecht-groepsregime (WVV): elke entiteit waarover een andere vennootschap controle uitoefent. Het begrip is ruimer dan 'dochtervennootschap' want het omvat ook buitenlandse rechtsvormen en bepaalde instellingen, en het is de eerste hoeksteen van de consolidatiekring.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "WVV — dochteronderneming"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

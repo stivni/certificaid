@@ -2,7 +2,7 @@
   "id": "overige-kosten",
   "naam": "Overige kosten (diensten, diverse goederen, afschrijvingen)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.II.D",
@@ -131,5 +131,24 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "other costs / overhead",
+  "situering": {
+    "text": "Overige kosten in een analytische boekhouding zijn alle productie- en exploitatiekosten die geen materiaal of arbeid zijn: diensten en diverse goederen (huur, energie, ICT, onderhoud), afschrijvingen op productie-activa, verzekeringen, voorzieningen. In het MAR zitten ze grotendeels op klassen 61, 63 en 64. Voor de wettelijke vervaardigingsprijs (CBN 132/7) tellen enkel productie-gerelateerde overige kosten — algemene administratie en commercieel blijven buiten.",
+    "confidence": "grounded",
+    "source": {
+      "type": "cbn",
+      "short": "CBN 132/7 §2.1 + KB 21.10.2018 — MAR klasse 61-64"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

@@ -2,7 +2,7 @@
   "id": "falen-van-de-onderneming",
   "naam": "Falen van de onderneming (financiële diagnose)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.9.VI.A",
@@ -16,7 +16,9 @@
       "1.9.VI"
     ],
     "reviewed_by": null,
-    "bron_gap": "Conceptueel kader uit financiële-analyse-vakdoctrine; WER Boek XX (insolventieprocedures) en WVV (alarmbelprocedure) zijn de juridische bron voor sancties, maar het falen-fenomeen zelf is vakdoctrine."
+    "bron_gap": "Conceptueel kader uit financiële-analyse-vakdoctrine; WER Boek XX (insolventieprocedures) en WVV (alarmbelprocedure) zijn de juridische bron voor sancties, maar het falen-fenomeen zelf is vakdoctrine.",
+    "note": "PO 1.9 wave-2: schema 1.5→1.6 + situering + naam_alternatief",
+    "touched_at": "2026-05-19T00:00:00Z"
   },
   "definitie": {
     "text": "Falen van de onderneming is de toestand waarin de onderneming niet meer in staat is haar verbintenissen na te komen — vaak voorafgegaan door een geleidelijke verslechtering van rentabiliteit, solvabiliteit en liquiditeit. Het juridische sluitstuk is faillissement of gerechtelijke reorganisatie; de analist herkent de signalen vooraf.",
@@ -149,5 +151,28 @@
       "confidence": "grounded"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Falen wijst op het structurele onvermogen om verbintenissen na te komen. Het manifesteert zich eerst in dalende rentabiliteit, daarna in solvabiliteitserosie en uiteindelijk in acute liquiditeitsproblemen. Identificatie ervan via financiële diagnose (ratio-analyse + kwantitatieve modellen) is een kernopdracht van de gecertificeerd accountant in de rol van vertrouwensadviseur.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Vakdoctrine + ITAA-deontologie (early-warning verplichting)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.9.VI.A",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "naam_alternatief": [
+    "Corporate failure",
+    "Business failure",
+    "Défaillance d'entreprise"
+  ],
+  "migrated_doel_to_situering_at": "2026-05-19T00:00:00Z"
 }

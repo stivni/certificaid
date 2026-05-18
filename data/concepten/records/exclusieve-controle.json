@@ -2,7 +2,7 @@
   "id": "exclusieve-controle",
   "naam": "Exclusieve controle",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -58,6 +58,16 @@
         "voorwaarden[*].text (stagiair-toon)",
         "valkuilen[*].text (stagiair-toon)",
         "edges: redeneringen aangevuld + vereist-kennis-van controle"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -1",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -353,24 +363,6 @@
   ],
   "edges": [
     {
-      "type": "contrasteert-met",
-      "target": "invloed-van-betekenis",
-      "redenering": "Exclusieve controle = beslissende invloed (eenzijdig sturen). Invloed van betekenis = significante maar niet beslissende invloed (deelname zonder dominantie). Drempelmatig: > 50 % stemrechten → controle (in rechte); 20–50 % → vermoeden van invloed van betekenis (geassocieerde onderneming).",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "specialisatie-van",
       "target": "controle",
       "redenering": "Exclusieve controle is een specifieke vorm van controle (door één partij alléén uitgeoefend), naast gezamenlijke controle.",
@@ -389,5 +381,19 @@
       "omschrijving": "Aurelia Holding NV bezit 80 % van de stemrechten in Brugse Brouwerij BV. → onweerlegbaar exclusieve controle in rechte (WVV art. 1:14, § 2) → integrale consolidatie van Brugse in de geconsolideerde jaarrekening van Aurelia."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "exclusive control / sole control",
+  "situering": {
+    "text": "Een sub-vorm van controle in het Belgische vennootschapsrecht (WVV) — controle uitgeoefend door één vennootschap alleen, zonder gezamenlijk akkoord met andere vennoten. Het is het normaal-typische groepsverband dat integrale consolidatie als consolidatietechniek triggert.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "WVV — exclusieve controle"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

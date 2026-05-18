@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/step-acquisition.json
 gegenereerd_op: '2026-05-18'
 ---
 # Step acquisition (trapsgewijze verwerving) ⚖️
+
+Een transactiepatroon in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2) waarbij een deelneming geleidelijk wordt uitgebreid en daarbij een statuswissel doormaakt (financiële belegging → equity → controle). Het concept brengt de boekhoudkundige gevolgen van zo'n kwalificatiewijziging in beeld.
 
 > [!summary] Korte inhoud
 > Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt — met als gevolg dat (a) een eerste deelneming met invloed van betekenis ontstaat of (b) een bestaande geassocieerde wordt opgeschaald, al dan niet tot dochter.

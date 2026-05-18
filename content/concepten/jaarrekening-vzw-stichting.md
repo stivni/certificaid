@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/jaarrekening-vzw-stichting.json
 gegenereerd_op: '2026-05-18'
 ---
 # Jaarrekening van VZW, IVZW en stichtingen ⚖️
+
+VZW's, IVZW's en stichtingen hebben **eigen** jaarrekeningregels (WVV Boek 9 + KB-WVV art. 3:184 e.v.). Drie regimes naar grootte: zeer kleine (vereenvoudigde boekhouding), kleine (verkort schema), grote (volledig schema). Voor de stagiair-GA belangrijk om niet automatisch het vennootschapsregime toe te passen — VZW heeft eigen drempels.
 
 > [!summary] Korte inhoud
 > VZW's, IVZW's en stichtingen hebben eigen jaarrekening-regels (WVV Boek 9 + KB-WVV art. 3:184 e.v.).

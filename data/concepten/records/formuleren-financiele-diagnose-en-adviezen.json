@@ -2,7 +2,7 @@
   "id": "formuleren-financiele-diagnose-en-adviezen",
   "naam": "Formuleren van een financiële diagnose en concrete verbeteradviezen",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Formuleren van een financiële diagnose en concrete verbeteradviezen",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -239,5 +239,26 @@
     "1.3.I.D.4",
     "1.3.I.D.5"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "naam_alternatief": [
+    "Formulate financial diagnosis & recommendations"
+  ],
+  "situering": {
+    "text": "Sluitsteen-competentie: de losse cijferconclusies (liquiditeit, solvabiliteit, rentabiliteit, werkkapitaal, off-balance) samenballen in één diagnose en daaruit concrete verbeteradviezen formuleren. De stagiair leert dat een goede diagnose altijd gericht is op de specifieke gebruiker en zijn beslissing.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Examenprogramma 1.3 — competentie"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.taak.4",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

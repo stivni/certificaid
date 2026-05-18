@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: autoriteit
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/nationale-bank-belgie.json
 gegenereerd_op: '2026-05-18'
 ---
 # Nationale Bank van België (NBB) ⚖️
+
+De NBB-Balanscentrale is de **centrale autoriteit voor neerlegging van jaarrekeningen**: elke vennootschap deponeert haar goedgekeurde jaarrekening (en jaarverslag, commissarisverslag) digitaal via de NBB binnen 30 dagen na goedkeuring + uiterlijk 7 maanden na boekjaar-einde. Voor de stagiair-GA hét aandachtspunt qua deadlines en sancties bij laattijdige neerlegging.
 
 > [!summary] Korte inhoud
 > De Nationale Bank van België (NBB) is de Belgische centrale bank.
@@ -79,7 +81,7 @@ _Grondslag: WVV art. 2:74; KB tarifering toeslagen_
 ## Zie ook
 
 - **Vereist kennis van**: [[openbaarmaking-jaarrekening]]
-- **Wordt voorondersteld in** (1): [[openbaarmaking-jaarrekening]]
+
 ## Voorbeelden
 
 Rotex Roeselare NV moet binnen 30 dagen na de algemene vergadering haar jaarrekening (volledig schema) elektronisch neerleggen bij de NBB-Balanscentrale.

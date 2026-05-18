@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/hulpdagboeken.json
 gegenereerd_op: '2026-05-18'
 ---
 # Hulpdagboeken ⚖️
+
+Hulpdagboeken zijn **gespecialiseerde dagboeken per verrichtingstype** (aankoop, verkoop, financieel) naast het centraal dagboek. Stagiairs moeten weten welke verrichting waar hoort en dat alle hulpdagboeken periodisch centraliseren in het centraal boek.
 
 > [!summary] Korte inhoud
 > Hulpdagboeken zijn gespecialiseerde dagboeken die per type verrichting worden bijgehouden, naast het centrale dagboek.

@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bedrijfsvorderingen.json
 gegenereerd_op: '2026-05-18'
 ---
 # Bedrijfsvorderingen ⚖️
+
+Bedrijfsvorderingen vormen samen met de voorraden de **operationele werkkapitaal-component** van de onderneming. Voor een stagiair-GA komt het hier vooral aan op twee beslissingen die elk jaareinde terugkeren: (1) splitsing tussen kort- en langlopend, (2) tijdige boeking van een waardevermindering bij onzekere inbaarheid. Beide raken zowel het getrouw beeld als de fiscale aftrekbaarheid.
 
 > [!summary] Korte inhoud
 > **Vorderingen op derden** die voortkomen uit de gewone bedrijfsuitoefening (verkoop van goederen of diensten op krediet).

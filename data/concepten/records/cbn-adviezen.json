@@ -2,7 +2,7 @@
   "id": "cbn-adviezen",
   "naam": "CBN-adviezen",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.I.E",
@@ -253,5 +253,7 @@
       "omschrijving": "Moet Solaris Sint-Truiden BV haar effectenportefeuille als financiële vaste activa of als geldbelegging boeken? → CBN-advies 2020/16 verduidelijkt het onderscheid voor effecten met houdintentie."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "CBN-adviezen zijn de **doctrinaire toelichting** bij het Belgisch boekhoudrecht: hoe verwerk je iets als wet en KB geen helder antwoord geven? Ze zijn formeel niet bindend, maar in de praktijk autoritair: zowel ITAA, IBR, fiscus als rechtspraak volgen ze. Voor de stagiair-GA zijn ze het eerste raadpleegpunt bij twijfel over een verwerking.",
+  "naam_alternatief": "CBN/CNC opinions"
 }

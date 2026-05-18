@@ -2,7 +2,7 @@
   "id": "ifrs-consolidatieraamwerk",
   "naam": "IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.II",
@@ -50,6 +50,16 @@
         "in_praktijk[*].betekenis (stagiair-toon)",
         "valkuilen[*].text (stagiair-toon)",
         "edges: alternatief-voor consolidatieverplichting → alternatief-voor geconsolideerde-jaarrekening (raamwerk)"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -2",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -242,42 +252,6 @@
   ],
   "edges": [
     {
-      "type": "alternatief-voor",
-      "target": "geconsolideerde-jaarrekening",
-      "redenering": "IFRS is een alternatief raamwerk naast de Belgische consolidatieregels (titel 2 KB WVV). De Belgische moeder kan in twee gevallen onder IFRS consolideren — verplicht (genoteerd) of vrijwillig (onherroepelijke keuze).",
-      "_corrected_from": {
-        "veld": "alternatief-voor consolidatieverplichting → alternatief-voor geconsolideerde-jaarrekening",
-        "reden": "IFRS is geen alternatief voor de consolidatieplicht zelf, maar voor het raamwerk waarin de geconsolideerde jaarrekening wordt opgesteld."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_82",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "contrasteert-met",
-      "target": "evenredige-consolidatie",
-      "redenering": "Onder Belgisch boekhoudrecht is evenredige consolidatie de regel voor gemeenschappelijke dochters (KB WVV art. 3:124, 2°). Onder IFRS 11 wordt voor 'joint ventures' (een specifiek IFRS-subtype) verplicht de equity method (vermogensmutatie) gebruikt; voor 'joint operations' blijft gedeeltelijke opname van rechten en verplichtingen van toepassing.",
-      "_corrected_from": {
-        "veld": "vergelijkingsparen → edges",
-        "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_111",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "getriggerd-door",
       "target": "consolidatieverplichting",
       "redenering": "De keuze (of plicht) om onder IFRS te consolideren wordt pas relevant zodra er een consolidatieverplichting bestaat — anders is er geen geconsolideerde jaarrekening om standaarden op toe te passen.",
@@ -290,5 +264,19 @@
       "omschrijving": "Aurelia Holding NV is beursgenoteerd op Euronext Brussels → verplicht IFRS-consolidatie (Verordening 1606/2002 art. 4). In de toelichting van de geconsolideerde jaarrekening verwijst Aurelia naar de gebruikte IFRS-standaarden (IFRS 3, 10, 11, 12)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": "IFRS consolidation framework",
+  "situering": {
+    "text": "Het internationale parallel naast het Belgische KB WVV-consolidatieregime, verplicht voor genoteerde groepen en geconsolideerde rekeningen van banken/verzekeraars. Het bouwt voort op de control-definitie van IFRS 10 en gebruikt IFRS 3 (acquisitie), IFRS 11 (joint arrangements) en IFRS 12 (toelichtingen) als bouwstenen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "IFRS 3 / 10 / 11 / 12"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

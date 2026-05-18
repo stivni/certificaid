@@ -21,7 +21,9 @@
     "reviewed_by": null,
     "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "rename_from": "itaa-algemene-controlenorm",
-    "rename_reden": "Bron-prefix smell §17 r10: id was pure bron-aanduiding; refactor naar concept-naam"
+    "rename_reden": "Bron-prefix smell §17 r10: id was pure bron-aanduiding; refactor naar concept-naam",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T17:35Z",
+    "last_extract_at": "2026-05-18T17:35:00Z"
   },
   "definitie": {
     "text": "De algemene controlenorm bundelt voor de gecertificeerd accountant de basisprincipes die voor elke controleopdracht gelden: bekwaamheid en onafhankelijkheid van de beroepsbeoefenaar, opstellen van een werkschema, bijhouden van werkdocumenten, opvolgingsregels bij overname van een opdracht, uitvoering van controlewerkzaamheden, opmaken van een verslag en toezicht via de Commissie van Toezicht. De norm is uitgevaardigd door het ITAA (voorheen IAB).",
@@ -90,7 +92,23 @@
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
   "situering": "De Algemene controlenorm is de overkoepelende ITAA-norm die voor elke controleopdracht van een gecertificeerd accountant de basisprincipes vastlegt: bekwaamheid, onafhankelijkheid, werkschema, werkdocumenten, opvolging van een collega, controlewerkzaamheden en toezicht. Speelt de rol van 'algemene voorwaarden' waarop bijzondere normen (KMO-controlenorm, samenstellingsnorm, ontbinding-vereffening) zich enten. Belangrijk: de norm bepaalt ook de bronnenhiërarchie die de accountant volgt — wet → contract → ITAA-norm → vakliteratuur.",
-  "edges": [],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "gecertificeerd-accountant-ga",
+      "redenering": "De norm legt de plichten vast van elke gecertificeerd accountant bij een controleopdracht."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "opdrachtbrief-accountant",
+      "redenering": "De norm verwijst expliciet naar de overeenkomst met de cliënt als tweede element in de bronnenhiërarchie."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "onafhankelijkheid-externe-accountant",
+      "redenering": "Sectie 1 van de norm behandelt bekwaamheid en onafhankelijkheid als kernvereisten van de beroepsbeoefenaar."
+    }
+  ],
   "vergelijkingsparen": [
     {
       "vergelijking_met": "kmo-controlenorm-accountant",

@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/cbn-adviezen.json
 gegenereerd_op: '2026-05-18'
 ---
 # CBN-adviezen ⚖️
+
+CBN-adviezen zijn de **doctrinaire toelichting** bij het Belgisch boekhoudrecht: hoe verwerk je iets als wet en KB geen helder antwoord geven? Ze zijn formeel niet bindend, maar in de praktijk autoritair: zowel ITAA, IBR, fiscus als rechtspraak volgen ze. Voor de stagiair-GA zijn ze het eerste raadpleegpunt bij twijfel over een verwerking.
 
 > [!summary] Korte inhoud
 > Adviezen van de Commissie voor Boekhoudkundige Normen (CBN).
@@ -110,9 +112,6 @@ _Grondslag: Praktijk CBN; geen wetsregel_
 
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (1): [[commissie-boekhoudkundige-normen]]
 ## Voorbeelden
 
 Moet Solaris Sint-Truiden BV haar effectenportefeuille als financiële vaste activa of als geldbelegging boeken? → CBN-advies 2020/16 verduidelijkt het onderscheid voor effecten met houdintentie.

@@ -183,7 +183,10 @@
     "gecureerd_door": null,
     "gecureerd_op": null,
     "last_extract_pass": "concept-extractie-v4-2026-05-18T14:35Z",
-    "last_extract_at": "2026-05-18T14:35:00Z"
+    "last_extract_at": "2026-05-18T14:35:00Z",
+    "vorige_extractor_run": "",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
+    "edge_key_migrated": "2026-05-18"
   },
   "linked_anchors": [
     "1.6.taak.1",
@@ -195,23 +198,23 @@
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "met-governance-belaste-personen"
+      "target_id": "met-governance-belaste-personen"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "opdrachtbrief-accountant"
+      "target_id": "opdrachtbrief-accountant"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "kwaliteitsbeheersing-opdrachtniveau"
+      "target_id": "kwaliteitsbeheersing-opdrachtniveau"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "controleverslag-elementen"
+      "target_id": "controleverslag-elementen"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "onafhankelijkheid-externe-accountant"
+      "target_id": "onafhankelijkheid-externe-accountant"
     }
   ]
 }

@@ -17,11 +17,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/stellen-bekwaamheid-financiele-diagnose.json
 gegenereerd_op: '2026-05-18'
 ---
 # Stellen van een complete bekwaamheid-financiële diagnose met aanbevelingen aan het management 🤖
+
+Top-competentie van PO 1.9: alle deelcomponenten (rentabiliteit, solvabiliteit, liquiditeit, toegevoegde waarde, ratio-evolutie, sectorvergelijking, kwantitatieve faillissementsmodellen) integreren in één gestructureerde diagnose met onderbouwde aanbevelingen aan het management. Triangulair lezen — combinatie van ratio-categorieën — om de blinde vlek van één ratio te vermijden. De accountant tekent als vertrouwensadviseur.
 
 
 ## Stappen
@@ -239,3 +241,6 @@ Vertaal de diagnose naar 3-5 concrete aanbevelingen voor het bestuursorgaan — 
 
 
 
+## Bronnen
+
+[^1]: `anchor-1.9.taak.1`

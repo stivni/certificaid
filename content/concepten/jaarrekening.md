@@ -15,16 +15,16 @@ programmaonderdelen:
 confidence: grounded
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/jaarrekening.json
 gegenereerd_op: '2026-05-18'
 ---
 # Jaarrekening (synthesedocumenten) ⚖️
 
+Het eindproduct van het boekjaar — synthese van alle boekingen tot een **publiek leesbaar** drieluik (balans, RR, toelichting) volgens een door de KB WVV gestandaardiseerd model. Voor een stagiair-GA: bijna elke andere competentie (boekhoudbeginselen, eindejaarsverrichtingen, waardering) is uiteindelijk gericht op de correcte invulling van de juiste rubriek in de juiste schema-versie (volledig/verkort/micro).
+
 > [!summary] Korte inhoud
 > Het **gestandaardiseerde overzicht** van de financiële toestand van een onderneming aan het einde van een boekjaar.
-
-> [!info] Bestaat uit (1): [[resultaat-categorisatie-beslisboom]]
 
 Het **gestandaardiseerde overzicht** van de financiële toestand van een onderneming aan het einde van een boekjaar. Bestaat uit drie verplichte onderdelen: (1) de **balans** (vermogen op één moment), (2) de **resultatenrekening** (kosten en opbrengsten over het boekjaar), (3) de **toelichting** (uitleg bij de cijfers + waarderingsregels). Voor grote en niet-kleine ondernemingen ook (4) een **sociale balans**. De jaarrekening wordt opgesteld in één van drie schema's afhankelijk van de grootte: **volledig**, **verkort**, of **micro**.
 
@@ -122,7 +122,7 @@ _Grondslag: WVV art. 3:10 — 3:14_
 ## Zie ook
 
 - **Getriggerd door**: [[jaarafsluiting]]
-- **Wordt voorondersteld in** (2): [[boekhoudbeginselen-overzicht]] · [[eu-harmonisatie-jaarrekeningenrecht]]
+
 ## Voorbeelden
 
 Naaiatelier Ninove BV (omzet € 1.250.000, balanstotaal € 1.850.000, 18 werknemers) overschrijdt de drempel voor 'kleine vennootschap' op één criterium → moet jaarrekening in **verkort schema** opstellen. Balans + RR + toelichting + (geen sociale balans want < 20 VTE). Indiening bij NBB binnen 30 dagen na goedkeuring AV.

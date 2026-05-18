@@ -2,7 +2,7 @@
   "id": "bedrijfsvorderingen",
   "naam": "Bedrijfsvorderingen",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.F",
@@ -15,7 +15,16 @@
     "dekt_ook_anchors": [
       "1.1.II.D"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "definitie": {
     "text": "**Vorderingen op derden** die voortkomen uit de gewone bedrijfsuitoefening (verkoop van goederen of diensten op krediet). Hoofdzakelijk **handelsdebiteuren** (rekening 400) plus te innen bedragen wegens leveringen of dienstprestaties. Op de balans gegroepeerd onder rubriek VII (vlottende activa, vorderingen op ten hoogste één jaar) en rubriek V (vorderingen op meer dan één jaar). Waardering: **nominale waarde** verminderd met geboekte **waardeverminderingen** in geval van onzekerheid over geheel of gedeeltelijke inbaarheid (KB WVV art. 3:46).",
@@ -233,5 +242,15 @@
       "omschrijving": "Meubelzaak Mertens BV verkoopt voor € 8.500 + BTW € 1.785 = € 10.285 op factuur aan klant X (30 dagen krediet). Boeking: Debet 400 Handelsdebiteuren € 10.285 / Credit 700 Verkopen € 8.500 + Credit 451 BTW € 1.785. Bij niet-betaling na 6 maanden + aanmaningen: waardevermindering op rekening 409 voor 70 % = € 7.200."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": "trade receivables / créances commerciales",
+  "situering": {
+    "text": "Bedrijfsvorderingen vormen samen met de voorraden de **operationele werkkapitaal-component** van de onderneming. Voor een stagiair-GA komt het hier vooral aan op twee beslissingen die elk jaareinde terugkeren: (1) splitsing tussen kort- en langlopend, (2) tijdige boeking van een waardevermindering bij onzekere inbaarheid. Beide raken zowel het getrouw beeld als de fiscale aftrekbaarheid.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

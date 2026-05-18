@@ -16,11 +16,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opstellen-driesegmenten-kasstroomoverzicht.json
 gegenereerd_op: '2026-05-18'
 ---
 # Opstellen van een drie-segmenten-kasstroomoverzicht (CFO, CFI, CFF) 🤖
+
+Operationele competentie: vanuit de balans, resultatenrekening en toelichtingsstaten (tabel van waardemutaties, mutatietabel eigen vermogen) een kasstroomoverzicht reconstrueren met de drie segmenten CFO, CFI, CFF. Sluitend met de mutatie van liquide middelen in de balans. Verplicht voor de stagiair bij verkort/microschema-jaarrekeningen waar de bedrijfscijfers het kasstroomoverzicht niet rechtstreeks meegeven.
 
 
 ## Stappen
@@ -213,3 +215,6 @@ Lees het teken-patroon van de drie segmenten samen — verschillende combinaties
 
 
 
+## Bronnen
+
+[^1]: `aggregate`

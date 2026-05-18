@@ -2,7 +2,7 @@
   "id": "regelmatige-boekhouding",
   "naam": "Regelmatige boekhouding",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.I",
@@ -21,7 +21,14 @@
       "1.1.taak.1"
     ],
     "reviewed_by": null,
-    "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met ['1.2.III', '1.2.III.B', '1.2.III.C'] door PO 1.2-extractie."
+    "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met ['1.2.III', '1.2.III.B', '1.2.III.C'] door PO 1.2-extractie.",
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "edges-5deprecated"
+      ]
+    }
   },
   "definitie": {
     "text": "Een boekhouding is **regelmatig** als ze drie dingen samen waarmaakt: ze is **passend** voor de aard en omvang van het bedrijf, ze is **volledig** (omvat alle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen) en ze is **onveranderlijk** (boekingen kun je niet zonder spoor wijzigen). Daarbovenop moeten alle verrichtingen zonder uitstel, getrouw, naar tijdsorde in een dagboek worden ingeschreven, gedragen door een verantwoordingsstuk, en minstens één keer per jaar afgesloten met een inventaris en jaarrekening (artikel III.83 en III.84 Wetboek van Economisch Recht (WER)).",
@@ -275,31 +282,6 @@
   "vergelijkingsparen": [],
   "edges": [
     {
-      "type": "bevat",
-      "target": "dubbel-boekhouden",
-      "redenering": "Een regelmatige boekhouding voor boekhoudplichtigen wordt gevoerd volgens de gebruikelijke regels van het dubbel boekhouden (WER art. III.84)."
-    },
-    {
-      "type": "bevat",
-      "target": "dagboek",
-      "redenering": "Verrichtingen worden ingeschreven in een dagboek — kerntechniek van een regelmatige boekhouding."
-    },
-    {
-      "type": "bevat",
-      "target": "inventaris",
-      "redenering": "De jaarlijkse inventaris is een verplichte component."
-    },
-    {
-      "type": "bevat",
-      "target": "volledigheidsbeginsel",
-      "redenering": "Volledigheid van de boekhouding én inventaris is een hoeksteen."
-    },
-    {
-      "type": "bevat",
-      "target": "onveranderlijkheid-boekingen",
-      "redenering": "Onveranderlijkheid van de boekingen is centraal in het Belgisch boekhoudrecht (WER art. III.84)."
-    },
-    {
       "type": "vereist-kennis-van",
       "target": "verantwoordingsstuk",
       "redenering": "Zonder verantwoordingsstuk is er geen rechtsgeldige boeking."
@@ -316,5 +298,7 @@
       "omschrijving": "Meubelzaak Mertens BV boekt elke aankoopfactuur, verkoopfactuur en bankverrichting van € 1.250, € 3.400 of € 18.000 dagelijks in haar dagboeken; eind december 20X1 maakt zij een inventaris op (voorraad meubelen, vorderingen op klanten, schulden aan leveranciers) en stelt op die basis de jaarrekening op. Zonder dagboek-inschrijvingen of zonder inventaris is haar boekhouding niet regelmatig."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": "Een boekhouding is **regelmatig** als ze passend (aard + omvang van het bedrijf), volledig (alle verrichtingen, bezittingen en verplichtingen), oprecht (economische realiteit) en onveranderlijk (audit-trail) is. Voor de stagiair-GA het concept waaronder alle drie de 'voorwaardelijke' boekhoudbeginselen samenkomen — examenvragen vertrekken vaak vanuit 'is deze boekhouding regelmatig?'",
+  "naam_alternatief": "regular accounting / comptabilité régulière"
 }

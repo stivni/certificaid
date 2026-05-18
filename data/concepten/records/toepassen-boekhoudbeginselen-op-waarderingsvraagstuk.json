@@ -2,7 +2,7 @@
   "id": "toepassen-boekhoudbeginselen-op-waarderingsvraagstuk",
   "naam": "Toepassen van de boekhoudbeginselen op een concreet waarderingsvraagstuk",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Toepassen van de boekhoudbeginselen op een concreet waarderingsvraagstuk",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -190,5 +190,6 @@
     "1.2.V.A",
     "1.2.V.B"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": "Bij elk concreet waarderingsvraagstuk (voorraad, vaste activa, voorzieningen, debiteuren) moet de accountant **welke beginselen primeren** identificeren en consistent toepassen. Voor de stagiair-GA klassieke examenscenario: een feitencomplex met meerdere mogelijke verwerkingen — welk beginsel beslist?"
 }

@@ -2,7 +2,7 @@
   "id": "beoordelen-werkkapitaal-en-kasstroom",
   "naam": "Beoordelen van het werkkapitaal en de kasstroom van een onderneming",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Beoordelen van het werkkapitaal en de kasstroom van een onderneming",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -227,5 +227,26 @@
     "1.3.II.C.2",
     "1.3.II.C.3"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "naam_alternatief": [
+    "Assess working capital & cash flow"
+  ],
+  "situering": {
+    "text": "Competentie om de operationele liquiditeit van een onderneming integraal te beoordelen via werkkapitaal (twee berekeningswijzen), werkkapitaalbehoefte en cashflow (uit resultaat én balans). Deze invalshoeken samen tonen of de onderneming haar dagelijkse activiteit kan financieren en kasstroom genereert.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Examenprogramma 1.3 — competentie"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.taak.2",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/algemene-boekhouding.json
 gegenereerd_op: '2026-05-18'
 ---
 # Algemene boekhouding ⚖️
+
+De algemene boekhouding is het wettelijk verplichte registratiesysteem dat alle transacties van de onderneming chronologisch en systematisch vastlegt voor externe verslaggeving. Ze structureert kosten en opbrengsten per kostensoort (klasse 6 en 7 van het MAR) en produceert de jaarrekening. In PO 1.8 wordt ze opgevoerd als de tegenpool van de analytische boekhouding: dezelfde brongegevens, andere indeling en andere doelgroep (extern vs. intern).
 
 > [!summary] Korte inhoud
 > De algemene boekhouding is het wettelijk verplichte registratiesysteem waarin alle financiële transacties van de onderneming chronologisch en systematisch worden vastgelegd volgens het Minimum Algemeen Rekeningstelsel (KB 21.10.2018, Bijlage 1).

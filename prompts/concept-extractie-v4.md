@@ -19,6 +19,44 @@ Je schrijft uitsluitend via de **records-API** (`tools/lib/records_api.py`):
 
 Directe `Path.write_text`- of `json.dump`-writes naar `data/concepten/records/` zijn verboden.
 
+**Worktree-noot** (ADR-019 §Worktree-isolatie, gerectificeerd 2026-05-18):
+
+Als je in een git-worktree draait (cwd = `.claude/worktrees/agent-X/`), divergeert records-API: RAG-update gaat naar hoofdrepo (correct), maar disk-write gaat naar **worktree-disk** (NIET hoofdrepo). Resultaat: verlies van mutaties bij worktree-cleanup.
+
+**Verplicht**: switch cwd naar de hoofdrepo vóór elke `save_record`/`rename_record`/`delete_record`:
+
+```python
+import os
+os.chdir('/Users/stivni/Documents/ITAA/certificaid')
+# nu records-API-call
+```
+
+Of bij Bash-aanroepen:
+```bash
+cd /Users/stivni/Documents/ITAA/certificaid && python3 -c "from tools.lib.records_api import save_record; save_record(...)"
+```
+
+Reads via records-API helpers blijven daemon-canoniek (RAG). Geen direct `Path.read_text` op `data/concepten/records/`.
+
+**Gaps.json — extra zorgvuldigheid** (catastrofale data-loss-bug op 2026-05-18):
+
+`gaps.json` is **niet** door de records-API beheerd. Het is een gewone JSON-file. In een worktree heb je een stale snapshot. Als je hem **lokaal-leest-en-terugschrijft** vanuit de worktree, **overschrijf je de hoofdrepo met de stale versie + jouw nieuwe entries — alle andere batch-gaps gaan verloren**.
+
+Verplicht protocol voor `gaps.json`-mutaties:
+
+```python
+import json
+GAPS_PATH = '/Users/stivni/Documents/ITAA/certificaid/data/extractie/gaps.json'  # absolute pad — geen cwd-afhankelijkheid
+with open(GAPS_PATH) as f:
+    gaps = json.load(f)
+entries = gaps.get('entries', gaps) if isinstance(gaps, dict) else gaps
+entries.append(new_entry)
+with open(GAPS_PATH, 'w') as f:
+    json.dump(gaps, f, indent=2, ensure_ascii=False)
+```
+
+Nooit relatief pad. Nooit zonder hoofdrepo-pad expliciet hard-coded. Bij twijfel: laat het aan de orchestrator om gaps achteraf te mergen.
+
 ---
 
 ## 2. Drie event-types + scope
@@ -32,6 +70,8 @@ Je ontvangt altijd een **scope-declaratie** die aangeeft welk event je verwerkt.
 | **Feedback-set uit VERIFY** | Records met VERIFY-feedback (concrete punten per record) | Feedback-rapport + betrokken records + relevante bron-chunks via ankerbundels + buren via retrieval |
 
 Bij elk event: pre-EXTRACT centrale-ontbrekers-scan uitvoeren (zie §12).
+
+**Scope-trust**: de scope die je krijgt is vooraf gekozen via wave-planning (ADR-008 §18.7). Werk binnen die scope — verbreed niet zelf naar buren-ankers, het volledige programmaonderdeel of cross-programmaonderdeel-cleanup tenzij expliciet meegegeven. Smells buiten scope log je in `gaps.json` of vermeld je in je eindrapport; je probeert ze niet zelf op te lossen.
 
 ---
 

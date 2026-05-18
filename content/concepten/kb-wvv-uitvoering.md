@@ -13,18 +13,18 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kb-wvv-uitvoering.json
 gegenereerd_op: '2026-05-18'
 ---
 # KB tot uitvoering van het WVV (KB-WVV) ⚖️
 
+Het KB van 29 april 2019 (kortweg KB-WVV) werkt het WVV gedetailleerd uit. **Boek 3** regelt jaarrekening en boekhouding — de bron van bijna alle praktische voorschriften (schemas, waarderingsregels, toelichtingsinhoud). Voor de stagiair-GA het meest geraadpleegde boekhoudrechtelijke instrument naast WVV zelf.
+
 > [!summary] Korte inhoud
 > Het Koninklijk Besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (kortweg KB-WVV) werkt het WVV gedetailleerd uit.
 
 > [!info] Behoort tot: [[belgisch-boekhoudrecht]] · Specialisatie van: [[wetboek-vennootschappen-verenigingen]]
-
-> [!info] Bestaat uit (3): [[jaarrekening-schema]] · [[minimum-algemeen-rekeningenstelsel]] · [[waarderingsregels-jaarrekening]]
 
 Het Koninklijk Besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (kortweg KB-WVV) werkt het WVV gedetailleerd uit. Boek 3 van het KB regelt het minimum algemeen rekeningenstelsel (MAR), de schema's van de jaarrekening (volledig/verkort/micro), de waarderingsregels, en de inhoud van de toelichting. Boek 3 vervangt het oude KB van 30 januari 2001.
 

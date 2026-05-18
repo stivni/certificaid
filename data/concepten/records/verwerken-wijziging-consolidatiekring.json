@@ -2,7 +2,7 @@
   "id": "verwerken-wijziging-consolidatiekring",
   "naam": "Verwerken van een wijziging in de consolidatiekring (inclusief step acquisition)",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Verwerken van een wijziging in de consolidatiekring (inclusief step acquisition)",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -276,6 +276,15 @@
         "voorbeelden[1] (Brugse-realisatie: idem bovenstaande bedragen)"
       ],
       "reden": "cast-consistente €-bedragen, parallel aan Sessie 3 records-update (step-acquisition geassocieerde-scenario + basis-consolidatie realisatie)"
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
+      ]
     }
   },
   "linked_anchors": [
@@ -283,5 +292,16 @@
     "1.4.I.G",
     "1.4.II.D"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "edges": [],
+  "naam_alternatief": "account for changes in consolidation scope",
+  "situering": {
+    "text": "Een toepassingscompetentie binnen het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2). De stagiair verwerkt mutaties in de kring — nieuwe acquisities, step acquisitions, vervreemdingen, status-wissels — zodat het effect op cijfers en vergelijkende informatie correct in de jaarrekening verschijnt.",
+    "confidence": "inferred",
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

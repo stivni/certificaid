@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/externe-auditor-relatie-ic.json
 gegenereerd_op: '2026-05-18'
 ---
 # Externe auditor en interne controle — relatie ⚖️
+
+De externe auditor (commissaris, externe accountant met wettelijke controle-opdracht) heeft een gestructureerde relatie met het IC-systeem van zijn cliënt. Hij moet IC begrijpen om risico's in te schatten (ISA 315), kan op IC steunen om gegevensgerichte werkzaamheden te beperken (ISA 330 + ITAA-norm-kmo-controlenorm §97), maar mag IC niet zelf opzetten zonder onafhankelijkheid te verliezen. Aan het einde van de opdracht communiceert hij tekortkomingen via management letter (ISA 265).
 
 > [!summary] Korte inhoud
 > De externe auditor (commissaris, externe accountant) controleert de jaarrekening voor derden en moet daartoe het IC-systeem van de cliënt begrijpen.

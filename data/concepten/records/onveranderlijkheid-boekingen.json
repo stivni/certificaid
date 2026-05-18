@@ -2,7 +2,7 @@
   "id": "onveranderlijkheid-boekingen",
   "naam": "Onveranderlijkheid van de boekingen",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.I",
@@ -206,5 +206,7 @@
       "omschrijving": "Boekhouder van Meubelzaak Mertens BV ontdekt dat een aankoopboeking van 12 maart per ongeluk € 8.500 in plaats van € 5.800 vermeldt. Hij mag NIET het bedrag overschrijven. Wel: een correctieboeking op huidige datum waarin de fout wordt teruggedraaid en de juiste boeking opnieuw wordt gemaakt, met expliciete verwijzing naar de oorspronkelijke fouttenboeking."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": "Het onveranderlijkheidsbeginsel verbiedt dat een geboekte verrichting **onzichtbaar gewijzigd, weggelaten of toegevoegd** wordt. Wijzigingen zijn toegelaten, maar moeten leesbaar blijven (correctie via tegenboeking, niet door overschrijving). Voor de stagiair-GA grondslag voor de audit-trail discipline.",
+  "naam_alternatief": "unchangeability of entries / irréversibilité des écritures"
 }

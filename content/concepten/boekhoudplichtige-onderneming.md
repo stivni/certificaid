@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/boekhoudplichtige-onderneming.json
 gegenereerd_op: '2026-05-18'
 ---
 # Boekhoudplichtige onderneming ⚖️
+
+Eerste filter in élk boekhouddossier: is deze entiteit überhaupt onderworpen aan Boek III WER? Voor de stagiair-GA bepaalt dit antwoord of er een dubbele boekhouding moet, of een vereenvoudigde, of geen. De definitie (WER art. III.82) is ruim maar kent enkele uitzonderingen die regelmatig getoetst worden (kleine landbouwers, vrije beroepen onder drempels).
 
 > [!summary] Korte inhoud
 > Een boekhoudplichtige onderneming is — luidens WER art. III.82 — iedere onderneming die onder het toepassingsgebied van Boek III WER valt en dus verplicht is een boekhouding te voeren.
@@ -80,7 +82,7 @@ _Grondslag: WER art. III.82, § 3; CBN-advies 2022/14_
 
 - **Getriggerd door**: [[wetboek-economisch-recht-boek-iii]]
 - **Vereist kennis van**: [[dubbel-boekhouden]]
-- **Wordt voorondersteld in** (2): [[vennootschapsvormen-typologie]] · [[wetboek-economisch-recht-boek-iii]]
+
 ## Voorbeelden
 
 Praktijk Persenaire (eenmanszaak vrij beroep), Meubelzaak Mertens BV (vennootschap) en VZW Quelle de Vie (vereniging met economische activiteit) zijn alle drie boekhoudplichtige onderneming.

@@ -2,7 +2,7 @@
   "id": "vermogensmutatiemethode",
   "naam": "Vermogensmutatiemethode (equity method)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.E",
@@ -78,6 +78,15 @@
         "berekeningsmethode[0].concreet_voorbeeld scenario/berekening/resultaat (fix C): €-formaat",
         "berekeningsmethode[1].concreet_voorbeeld (hypothese 1-3) (fix C): bedragen ×10000 naar €-formaat (€ 1.500.000 / € 7.000.000 / € 375.000 etc.)",
         "berekeningsmethode[*].formules[*].invulling_voorbeeld (fix C): €-formaat"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -2",
+        "naam_alternatief"
       ]
     }
   },
@@ -1069,53 +1078,6 @@
       "confidence": "inferred"
     },
     {
-      "type": "contrasteert-met",
-      "target": "geassocieerde-onderneming",
-      "redenering": "De vermogensmutatiemethode is de boekhoudkundige techniek; de geassocieerde onderneming is het typische toepassingsobject. Niet alle vermogensmutatie-deelnemingen zijn echter geassocieerden — ook uitgesloten dochters (KB WVV art. 3:100) en niet-geïntegreerde gemeenschappelijke dochters vallen onder vermogensmutatie.",
-      "_corrected_from": [
-        {
-          "field": "type",
-          "from": "vergelijkingsparen → edges",
-          "reason": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
-        }
-      ],
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "KB-WVV-2019__art_3_78",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
-      "type": "bevat",
-      "target": "consolidatieverschil",
-      "redenering": "Bij de eerste consolidatie volgens vermogensmutatie ontstaat een consolidatieverschil (verschil tussen aankoopwaarde en pro-rata EV na toerekening). Dat verschil is een onderdeel van de techniek — niet de techniek zelf. Bij integrale consolidatie geldt hetzelfde.",
-      "_corrected_from": [
-        {
-          "field": "type",
-          "from": "getriggerd-door consolidatieverschil",
-          "reason": "Richting omgedraaid: vermogensmutatie produceert het consolidatieverschil, niet andersom (regel 9 — type-correctie)."
-        }
-      ],
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "onderdeel-van",
       "target": "consolidatiemethodes-vergelijking",
       "redenering": "Een van de vier consolidatiemethodes (synthese-record vergelijkt ze).",
@@ -1198,5 +1160,6 @@
       }
     ]
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "naam_alternatief": "equity method"
 }

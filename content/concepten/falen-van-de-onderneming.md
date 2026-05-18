@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/falen-van-de-onderneming.json
 gegenereerd_op: '2026-05-18'
 ---
 # Falen van de onderneming (financiële diagnose) 🤖
+
+Falen wijst op het structurele onvermogen om verbintenissen na te komen. Het manifesteert zich eerst in dalende rentabiliteit, daarna in solvabiliteitserosie en uiteindelijk in acute liquiditeitsproblemen. Identificatie ervan via financiële diagnose (ratio-analyse + kwantitatieve modellen) is een kernopdracht van de gecertificeerd accountant in de rol van vertrouwensadviseur.
 
 > [!summary] Korte inhoud
 > Falen van de onderneming is de toestand waarin de onderneming niet meer in staat is haar verbintenissen na te komen — vaak voorafgegaan door een geleidelijke verslechtering van rentabiliteit, solvabiliteit en liquiditeit.
@@ -75,7 +77,7 @@ _Grondslag: Vakdoctrine + bestuursverslag risicoparagraaf (KB WVV)_
 - **Vereist kennis van**: [[kwantitatieve-financiele-diagnose]]
 - **Vereist kennis van**: [[horizontale-analyse-jaarrekening]]
 - **Getriggerd door**: [[risicoparagraaf-bestuursverslag]]
-- **Wordt voorondersteld in** (1): [[interpretatie-financiele-ratios]]
+
 ## Bronnen
 
 [^1]: `anchor-1.9.VI.A`

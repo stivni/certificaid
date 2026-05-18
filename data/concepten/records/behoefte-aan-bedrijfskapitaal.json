@@ -2,7 +2,7 @@
   "id": "behoefte-aan-bedrijfskapitaal",
   "naam": "Behoefte aan bedrijfskapitaal (BBK)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.9.IV.D",
@@ -18,7 +18,9 @@
       "1.9.taak.1"
     ],
     "reviewed_by": null,
-    "bron_gap": "Vakdoctrine. Term komt niet als zodanig in KB WVV-schema voor; wordt afgeleid uit balansrubrieken (voorraden, vorderingen, leverancierskredieten)."
+    "bron_gap": "Vakdoctrine. Term komt niet als zodanig in KB WVV-schema voor; wordt afgeleid uit balansrubrieken (voorraden, vorderingen, leverancierskredieten).",
+    "note": "PO 1.9 wave-2: schema 1.5→1.6 + situering + naam_alternatief",
+    "touched_at": "2026-05-19T00:00:00Z"
   },
   "definitie": {
     "text": "De behoefte aan bedrijfskapitaal (BBK) is het bedrag dat de onderneming permanent moet financieren omdat haar exploitatiecyclus geld vastzet in voorraden en handelsvorderingen voordat zij van haar klanten betaling krijgt — vermindert door wat ze zelf op krediet bij leveranciers koopt.",
@@ -208,5 +210,29 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "De BBK toont de permanente liquiditeitsdruk uit de exploitatiecyclus: voorraden + vorderingen − leveranciersschulden. Combinatie met werkkapitaal levert de nettokas-positie: positief werkkapitaal − BBK = kassaldo. Centraal in liquiditeitsdiagnose voor productie- en handelsondernemingen.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Vakdoctrine financial analysis (BNB-publicaties, Ooghe & Van Wymeersch)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.9.IV.D",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "naam_alternatief": [
+    "Working capital requirement",
+    "WCR",
+    "Besoin en fonds de roulement",
+    "BFR"
+  ],
+  "migrated_doel_to_situering_at": "2026-05-19T00:00:00Z"
 }

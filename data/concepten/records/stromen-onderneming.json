@@ -2,7 +2,7 @@
   "id": "stromen-onderneming",
   "naam": "Stromen in de onderneming",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.II.C",
@@ -10,7 +10,7 @@
     "1.7.II.B"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T11:50Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave2-1.7.II",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.II.C",
     "dekt_ook_anchors": [
@@ -18,7 +18,8 @@
       "1.7.II.B"
     ],
     "reviewed_by": null,
-    "bron_gap": "Stromen-analyse als IC-concept is vakdoctrine. Inferred-common-knowledge."
+    "bron_gap": "Stromen-analyse als IC-concept is vakdoctrine. Inferred-common-knowledge.",
+    "touched_at": "2026-05-18T19:00:00Z"
   },
   "definitie": {
     "text": "Stromen zijn de bewegingen van goederen, geld of informatie door de onderneming. Voor IC kritisch omdat elke stroom potentiële uitlek-, verlies- of manipulatiepunten heeft. Drie hoofdstromen: (1) fysieke (goederen, voorraad), (2) financiële (geld, vorderingen, schulden), (3) informatie (documenten, data). De drie moeten onderling afgestemd zijn — bij elke fysieke beweging hoort een informatie- en typisch ook financiële tegenpost.",
@@ -47,13 +48,74 @@
       "type": "vereist-kennis-van",
       "target": "cyclus-analyse-ic",
       "redenering": "Cyclus-analyse vereist begrip van onderliggende stromen."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "informatie-en-communicatie-ic",
+      "redenering": "Informatiestroom als sub-stroom is operationele input voor COSO-component 4."
     }
   ],
   "voorbeelden": [
     {
       "vorm": "eenvoudig",
-      "omschrijving": "Bij Yperse Werkplaats BV bij aankoop grondstoffen: (a) fysieke stroom = grondstoffen komen binnen, magazijnier neemt in ontvangst; (b) informatiestroom = leveringsbon → bestelbon → factuur → boeking; (c) financiële stroom = leveranciersbetaling 30 dagen later. Als de informatiestroom faalt (factuur kwijt), worden de twee andere stromen ontkoppeld: betaling zonder boeking, of boeking zonder betaling."
+      "omschrijving": "Bij Yperse Werkplaats BV: een aankoop van staalplaten start met bestelbon (informatie), gevolgd door levering (fysiek), goederenontvangstbon (informatie), factuur (informatie), betaling via bank (financieel). Magazijnier Bart Maes tekent de goederenontvangstbon; boekhouder Karen De Backer matcht bestelbon-ontvangstbon-factuur (vier-ogen-aansluitingspunt) vóór betaling."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Het stromen-begrip is in PO 1.7 cruciaal omdat IC-ontwerp begint bij stroom-analyse: waar ontstaat een transactie, langs welke handen passeert ze, waar wordt ze geregistreerd? Voor de stagiair is dit de brug naar cyclusanalyse (PO 1.6 audit): elke aankoop-, verkoop-, voorraad- of personeels-cyclus volgt een stroom. Examen-vragen vragen vaak om controles aan stroompunten te koppelen ('waar in deze stroom zou je een vier-ogen-controle inbouwen?').",
+    "confidence": "inferred",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Drie hoofdstromen — fysiek, financieel, informatie",
+      "wat": "Fysieke stroom = goederen en personen (productieflow, voorraad, magazijn). Financiële stroom = geld (vorderingen, schulden, kas, bank). Informatiestroom = documenten en data (bestelbonnen, facturen, boekhoudgegevens).",
+      "waarom": "De drie zijn gekoppeld: bij elke fysieke beweging hoort een informatie-tegenpost en typisch ook een financieel gevolg. IC ontwerpt controles aan de aansluitingspunten.",
+      "grondslag": "Bedrijfsvoerings-doctrine + ISA 315 cyclus-aanpak",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "titel": "Aansluitingspunten als IC-hot-spots",
+      "wat": "Waar twee stromen elkaar kruisen (bv. goederenontvangst ↔ inboeking factuur, betaling ↔ bankafschrift) is het natuurlijke punt voor controle. Aansluitingsbreuken (bv. ontvangst zonder bon, betaling zonder factuur) zijn de meest voorkomende foutbron.",
+      "waarom": "IC-effectiviteit hangt af van of aansluitingscontroles werken — niet of er veel controles bestaan.",
+      "in_praktijk": "Vraag op IC-review: kun je voor één willekeurige aankoop het volledige spoor reconstrueren? Zo niet → ontwerpfout.",
+      "grondslag": "Cyclus-doctrine",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "titel": "Stromen mappen op cycli (aankoop / verkoop / voorraad / HR)",
+      "wat": "In de IC-praktijk worden stromen niet apart bekeken, maar per bedrijfscyclus geïntegreerd: aankoopcyclus = bestelstroom + ontvangstreglement + factuurverwerking + betalingsstroom; verkoopcyclus = orderstroom + leveringsstroom + facturatiestroom + ontvangststroom; voorraadcyclus = mutatiestroom + telstroom + waarderingsstroom. Elke cyclus stelt eigen risico's en eigen controles.",
+      "waarom": "Cyclus-aanpak is de operationele entrée voor ISA 315 risk assessment: per cyclus identificeert de auditor de relevante beweringen (completeness, accuracy, cut-off, valuation) en de controles die ze afdekken.",
+      "in_praktijk": "Bij IC-walkthrough: kies één transactie per cyclus en volg hem letterlijk door de drie stromen. Aansluiting-issues (fysieke levering zonder boeking, betaling zonder factuur) verschijnen meteen.",
+      "grondslag": "ISA 315 cyclus-aanpak + IC-doctrine",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_bijlage-3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Stromen alleen denken als 'goederenstromen' (productie-bias). In diensten-bedrijven dragen vooral informatie- en financiële stromen het IC-ontwerp.",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ]
 }

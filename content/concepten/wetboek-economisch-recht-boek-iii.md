@@ -13,18 +13,18 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/wetboek-economisch-recht-boek-iii.json
 gegenereerd_op: '2026-05-18'
 ---
 # Wetboek van Economisch Recht — Boek III (boekhouding) ⚖️
 
+Het WER (Wetboek van Economisch Recht) is sinds 2014 de centrale codificatie van het economisch recht. **Boek III** (art. III.82 tot III.95) bevat de algemene boekhoudplicht (wie moet, welk type) en is de wettelijke grondslag waarop het KB-WVV verder uitwerkt. Voor de stagiair-GA samen met WVV het primaire wetgevend kader van PO 1.2.
+
 > [!summary] Korte inhoud
 > Het Wetboek van Economisch Recht (WER) is sinds 2014 de centrale Belgische codificatie van het economisch recht.
 
 > [!info] Behoort tot: [[belgisch-boekhoudrecht]]
-
-> [!info] Bestaat uit (1): [[bewaartermijn-boekhouding]]
 
 Het Wetboek van Economisch Recht (WER) is sinds 2014 de centrale Belgische codificatie van het economisch recht. Boek III (artikelen III.82 tot III.95) bevat de algemene boekhoudplicht: wie moet een boekhouding voeren, welk type (volledige dubbele of vereenvoudigde), welke boeken en bewaartermijnen. Dit boek bouwt voort op de oude Boekhoudwet van 17 juli 1975.
 
@@ -97,7 +97,7 @@ _Grondslag: WER Boek III + WVV Boek 3_
 
 - **Vereist kennis van**: [[boekhoudplichtige-onderneming]]
 - **Getriggerd door**: [[dubbel-boekhouden]]
-- **Triggert** (1): [[boekhoudplichtige-onderneming]]
+
 ## Voorbeelden
 
 Meubelzaak Mertens BV (handels-BV) is een 'onderneming' in de zin van WER art. III.82 → moet een dubbele boekhouding voeren volgens WER art. III.83.

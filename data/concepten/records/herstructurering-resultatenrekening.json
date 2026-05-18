@@ -2,7 +2,7 @@
   "id": "herstructurering-resultatenrekening",
   "naam": "Herstructurering van de resultatenrekening",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.9.III.B",
@@ -18,7 +18,9 @@
       "1.9.III"
     ],
     "reviewed_by": null,
-    "bron_gap": "Vakdoctrine — KB WVV-schema's RR (volledig, verkort, micro) zijn de juridische bron; de herwerking naar analytisch-functionele groepering komt uit financiële-analyse-praktijk."
+    "bron_gap": "Vakdoctrine — KB WVV-schema's RR (volledig, verkort, micro) zijn de juridische bron; de herwerking naar analytisch-functionele groepering komt uit financiële-analyse-praktijk.",
+    "note": "PO 1.9 wave-2: schema 1.5→1.6 + naam_alternatief",
+    "touched_at": "2026-05-19T00:00:00Z"
   },
   "bouwstenen": [
     {
@@ -148,5 +150,8 @@
       ]
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "naam_alternatief": [
+    "Restructured income statement"
+  ]
 }

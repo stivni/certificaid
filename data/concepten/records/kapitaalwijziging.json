@@ -1,8 +1,8 @@
 {
   "id": "kapitaalwijziging",
   "naam": "Kapitaalwijziging (verhoging en vermindering)",
-  "node_type": "procedure",
-  "schema_version": "1.5",
+  "node_type": "cluster",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.T",
@@ -15,7 +15,17 @@
     "dekt_ook_anchors": [
       "1.1.II.H"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "type:procedure->cluster",
+        "schema->1.6"
+      ]
+    }
   },
   "verplichting": "Een wijziging van het kapitaal/de eigen vermogensinbreng vereist een **statutenwijziging** bij notariële akte. Voor kapitaalverhoging: storting in geld of inbreng in natura (laatste vereist verslag bedrijfsrevisor). Voor kapitaalvermindering: bescherming van schuldeisers via WVV-procedure (2 maanden bezwaartermijn).",
   "definitie": {
@@ -148,5 +158,15 @@
       "omschrijving": "Oprichtingen Oostende BV (kapitaal € 50.000) verhoogt door uitgifte van 200 nieuwe aandelen aan € 250 — totaal inbreng € 50.000 (200 × € 100 naar kapitaal, 200 × € 150 naar uitgiftepremie). Boekingen: Debet 550 Bank € 50.000 / Credit 100 Eigen vermogensinbreng € 20.000 + Credit 11 Uitgiftepremies € 30.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "change in capital / modification de capital",
+  "situering": {
+    "text": "Het paraplu-regime voor elke wijziging aan het wettelijke vermogensanker — vereist coördinatie tussen notarisakte, AV-besluit, boeking op rubriek 10/11 en effecten op uitkeerbaarheid + netto-actief-criterium. Voor een stagiair-GA: terugkerend examenonderwerp omdat het tegelijk vennootschapsrechtelijke en boekhoudkundige kennis vraagt.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

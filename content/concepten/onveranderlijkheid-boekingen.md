@@ -17,11 +17,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/onveranderlijkheid-boekingen.json
 gegenereerd_op: '2026-05-18'
 ---
 # Onveranderlijkheid van de boekingen ⚖️
+
+Het onveranderlijkheidsbeginsel verbiedt dat een geboekte verrichting **onzichtbaar gewijzigd, weggelaten of toegevoegd** wordt. Wijzigingen zijn toegelaten, maar moeten leesbaar blijven (correctie via tegenboeking, niet door overschrijving). Voor de stagiair-GA grondslag voor de audit-trail discipline.
 
 > [!summary] Korte inhoud
 > Een boeking mag **na inschrijving niet onzichtbaar gewijzigd, weggelaten of toegevoegd** worden.

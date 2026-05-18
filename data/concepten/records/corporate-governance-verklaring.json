@@ -2,7 +2,7 @@
   "id": "corporate-governance-verklaring",
   "naam": "Corporate-governance-verklaring",
   "node_type": "procedure",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.3.I.E",
@@ -119,5 +119,27 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": [
+    "Corporate governance statement",
+    "Déclaration de gouvernance d’entreprise"
+  ],
+  "situering": {
+    "text": "De corporate-governance-verklaring is een verplicht apart deel van het bestuursverslag voor genoteerde vennootschappen waarin de governance-code, afwijkingen daarvan, en de werking van bestuurs- en controleorganen worden toegelicht. Voor de analist is het de plaats om governance-risico's te detecteren los van de cijfers.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "WVV art. 3:6 §2 + Code 2020"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.III",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

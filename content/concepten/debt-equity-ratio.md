@@ -16,7 +16,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/debt-equity-ratio.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -161,9 +161,6 @@ Resultaat: Schuldgraad 1,5 = € 1,50 schuld tegenover € 1 eigen vermogen. Voo
 
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (2): [[financiering-met-derdenkapitaal]] · [[ratio-covenants]]
 ## Bronnen
 
 [^1]: `anchor-1.3.II.C`

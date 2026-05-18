@@ -1,44 +1,58 @@
 {
   "id": "fraude-versus-fout",
-  "naam": "Fraude versus fout in een audit",
-  "node_type": "begrip",
-  "schema_version": "1.5",
+  "naam": "Fraude versus fout — onderscheid in audit en interne controle",
+  "node_type": "synthese",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
+    "1.6.II.A",
     "1.6.II.B",
-    "1.6.II.A"
+    "1.7.VI",
+    "1.7.VI.A",
+    "1.7.VI.B"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave1b4",
     "model": "claude-opus-4-7",
-    "anchor_id": "1.6.II.B",
+    "anchor_id": "1.7.VI",
     "dekt_ook_anchors": [
-      "1.6.II.A"
+      "1.6.II.A",
+      "1.6.II.B",
+      "1.7.VI.A",
+      "1.7.VI.B"
     ],
-    "reviewed_by": null
-  },
-  "definitie": {
-    "text": "Fraude is een opzettelijke handeling — door management, met governance belaste personen, werknemers of derden — waarbij misleiding wordt gebruikt om een onrechtmatig of onwettig voordeel te verkrijgen. Fout is daarentegen een ONopzettelijke handeling die tot een afwijking in de financiële overzichten leidt, inclusief het weglaten van bedragen of toelichtingen.",
-    "confidence": "grounded",
-    "source": {
-      "type": "norm",
-      "short": "ITAA KMO-controlenorm Bijlage 1"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
+    "reviewed_by": null,
+    "inputs": [
+      {
+        "id": "ISA-240__sec_definities",
+        "sha256": null,
+        "version": "rag-v1"
+      },
+      {
+        "id": "ISA-450__sec_definities",
+        "sha256": null,
+        "version": "rag-v1"
+      },
+      {
+        "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
+        "sha256": null,
+        "version": "rag-v1"
+      },
+      {
+        "id": "ISA-240__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+        "sha256": null,
+        "version": "rag-v1"
+      }
+    ],
+    "note": "Geconsolideerd uit voormalige separate records 'fraude-versus-fout' (audit-perspectief, PO 1.6) en 'fouten-en-fraude' (IC-perspectief, PO 1.7). Synthese-upgrade naar één canonieke vergelijking met audit- én IC-respons-laag.",
+    "merged_from": "fouten-en-fraude",
+    "touched_at": "2026-05-18T18:17:36Z"
   },
   "vergelijkingsparen": [
     {
       "vergelijking_met": "afwijking-van-materieel-belang",
-      "verschil": "Afwijking = elke afwijking (fout of fraude) tussen jaarrekening en het stelsel. Fraude vs. fout = ONDERSCHEID in opzet. Materieel belang = onderscheid in OMVANG. Een fraude kan klein maar wel kwalitatief materieel zijn.",
-      "trigger": "Examen-zin met 'opzettelijk' of 'om te misleiden' → fraude. 'Vergissing' / 'verkeerde inschatting' → fout.",
+      "verschil": "Afwijking = elke afwijking (fout of fraude) tussen jaarrekening en stelsel. Fraude-vs-fout = ONDERSCHEID in opzet. Materieel belang = onderscheid in OMVANG. Een kleine fraude kan kwalitatief materieel zijn omdat ze management-integriteit raakt.",
+      "trigger": "Examen-zin met 'opzettelijk' / 'om te misleiden' → fraude. 'Vergissing' / 'verkeerde inschatting' → fout.",
       "_provenance": {
         "inputs": [
           {
@@ -48,21 +62,26 @@
           }
         ]
       }
+    },
+    {
+      "vergelijking_met": "verspilling",
+      "verschil": "Verspilling = legaal + onopzettelijk-suboptimaal gebruik van middelen (geen wetsovertreding). Fout = onopzettelijke afwijking in registratie. Fraude = opzettelijke misleiding voor onrechtmatig voordeel.",
+      "trigger": "Examen-zin met 'inefficiënt' / 'idle capacity' / 'overstock' zonder boekhoudfout → verspilling."
     }
   ],
   "in_praktijk": [
     {
-      "aspect": "Fraude-risico altijd op tafel",
-      "betekenis": "De auditor moet bij elke audit het risico op fraude inschatten — specifiek opbrengstverantwoording (vermoeden van fraude) en management override van de IC. Documenteren is verplicht.",
+      "aspect": "Fraude-risico altijd op tafel bij elke audit",
+      "betekenis": "De auditor moet bij elke audit het fraude-risico expliciet inschatten — opbrengstverantwoording en management-override van IC zijn altijd te beschouwen als significante fraude-risico's (ISA 240 §27 + §32). Documenteren is verplicht (ISA 240 §44).",
       "confidence": "grounded",
       "source": {
         "type": "norm",
-        "short": "ITAA KMO-controlenorm §93"
+        "short": "ISA 240 §27 + §32"
       },
       "_provenance": {
         "inputs": [
           {
-            "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+            "id": "ISA-240__sec_vereisten_2_part3",
             "sha256": null,
             "version": "rag-v1"
           }
@@ -71,16 +90,30 @@
     },
     {
       "aspect": "Verantwoordelijkheid voor preventie",
-      "betekenis": "De PRIMAIRE verantwoordelijkheid voor preventie en detectie van fraude ligt bij het management en de met governance belaste personen — niet bij de auditor. De auditor verschaft enkel redelijke zekerheid dat de financiële overzichten geen materiële afwijking bevatten door fraude of fouten.",
-      "confidence": "inferred-from-aggregation",
+      "betekenis": "De primaire verantwoordelijkheid voor preventie en detectie van fraude ligt bij het management en de met governance belaste personen. De auditor verschaft enkel redelijke zekerheid dat de financiële overzichten geen materiële afwijking bevatten door fraude of fouten. Verwarring hierover leidt tot een 'expectation gap'.",
+      "confidence": "grounded",
       "source": {
         "type": "norm",
-        "short": "ITAA KMO-controlenorm §74 + ISA 240 (algemene principes)"
+        "short": "ISA 240 §4 + ITAA KMO-controlenorm §74"
       },
       "_provenance": {
         "inputs": [
           {
             "id": "ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "IC-respons — preventief en detectief",
+      "betekenis": "Fouten worden best preventief vermeden (automatische ERP-validaties, vier-ogen-principe) en detectief opgevangen (afstemmingen, cijferanalyses). Fraude vereist daarboven: functiescheiding (beperkt gelegenheid), klokkenluiderkanaal (ACFE: tips zijn het meest effectieve detectie-mechanisme — ~40%), achtergrond-checks bij rekrutering, surprise-controles, tone-at-the-top.",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-240__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
             "sha256": null,
             "version": "rag-v1"
           }
@@ -92,14 +125,91 @@
     {
       "type": "vereist-kennis-van",
       "target": "materieel-belang-audit",
-      "redenering": "Materialiteit bepaalt of een fraude of fout ertoe doet."
+      "redenering": "Materialiteit bepaalt of een fraude of fout ertoe doet voor het oordeel."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "redelijke-zekerheid",
+      "redenering": "De auditor verschaft redelijke zekerheid — geen absolute zekerheid van fraude-detectie."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "professioneel-kritische-instelling",
+      "redenering": "Fraude-inschatting vereist verhoogde skepticism (ISA 240 §13)."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "fraudedriehoek",
+      "redenering": "Diagnostisch kader voor gelegenheid-identificatie in IC."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "fraudetypologie-acfe",
+      "redenering": "Drie types fraude (financial statement / asset misappropriation / corruption) bepalen welke detectie nodig is."
     }
   ],
   "voorbeelden": [
     {
+      "vorm": "scenario",
+      "titel": "Twee gelijksoortige afwijkingen, twee classificaties",
+      "cast": [
+        "Meubelzaak Mertens BV",
+        "Sofie Janssens"
+      ],
+      "omschrijving": "Sofie Janssens (commissaris) stelt bij Meubelzaak Mertens BV twee jaar na elkaar voorraad-overwaardering van € 75.000 vast. Telkens identiek bedrag, identieke balanspost.",
+      "stappen": [
+        "Jaar 1: zaakvoerder vraagt expliciet om voorraad op te trekken zodat de bank een betere ratio ziet voor de kredietherziening. E-mail-spoor + getuigenis. → FRAUDE (frauduleuze financiële verslaggeving, opzettelijk + misleiding). Auditor-respons: rapporteren governance (ISA 240 §41), gekwalificeerd oordeel als niet gecorrigeerd, eventueel meldplicht bij witwasvermoeden (CFI).",
+        "Jaar 2: nieuwe boekhouder hanteert verkeerde inventarisatie-methode. Geen voorkennis, geen misleidingsintentie. → FOUT (onopzettelijk). Auditor-respons: accumuleren onder ISA 450, vragen om correctie, geen escalatie tenzij niet-gecorrigeerd."
+      ]
+    },
+    {
       "vorm": "eenvoudig",
-      "omschrijving": "Bij Meubelzaak Mertens BV stelt Sofie Janssens vast dat de zaakvoerder bewust voorraden heeft overgewaardeerd met € 75.000 om de bank een mooi rapport te tonen → FRAUDE (opzettelijke misleiding). In een andere klantdossier was eenzelfde fout het gevolg van een verkeerd ingegeven Excel-formule → FOUT (onopzettelijk)."
+      "omschrijving": "Bij Yperse Werkplaats BV ontdekt boekhouder Cindy een kassa-tekort van € 8.000. (a) Onderzoek toont afronding/verkeerde boeking → FOUT, correctie + procedure aanpassen. (b) Systematische verdwijning over maanden + één bevoegde persoon → FRAUDE (oneigenlijke toeëigening van activa), intern onderzoek + arbeidsrechtelijke sanctie + eventueel aangifte."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "ISA 240 (fraude) en ISA 450 (afwijkingen) definiëren samen het tweelaags onderscheid: een 'afwijking' (ISA 450 §4(a)) is elk verschil tussen jaarrekening en stelsel; de oorzaak kan een fout (onopzettelijk) of fraude (opzettelijk + misleiding) zijn. Dezelfde tweedeling is structurerend voor interne controle: preventie- en detectie-maatregelen verschillen wezenlijk per oorzaak. De stagiair moet beide perspectieven beheersen — auditor-respons (ISA 240 §10 vereist documentatie van fraude-inschatting) én IC-respons (welke beheersactiviteiten welke oorzaak treffen).",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 240 §12 + ISA 450 §4(a) + ITAA KMO-controlenorm §63–67"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-240__sec_definities",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ISA-450__sec_definities",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "gebaseerd_op_concepten": [
+    "fouten-ic",
+    "fraude",
+    "verspilling",
+    "fraudedriehoek",
+    "fraudetypologie-acfe",
+    "functiescheiding",
+    "redelijke-zekerheid"
+  ],
+  "vergelijkingstabel": "| Aspect | Fout | Fraude |\n|---|---|---|\n| Opzet | Onopzettelijk — vergissing, onkunde, slordigheid | Opzettelijk — bewuste misleiding |\n| Norm-definitie | ISA 450 §4(a): afwijking die niet uit fraude voortkomt | ISA 240 §12(a): opzettelijke handeling met misleiding voor onrechtmatig voordeel |\n| Bron | Invoerfout, rekenfout, interpretatiefout, procesfout | Frauduleuze financiële verslaggeving / oneigenlijke toeëigening van activa / corruptie |\n| Auditor-respons (ISA) | Algemene cijferanalyses + substantive tests | Verhoogde professional-skepticism (ISA 240 §13) + specifieke fraudeprocedures (§30–32) + verplichte aandacht voor management-override (§32) |\n| IC-respons | Procedures + automatische plausibility checks + vier-ogen-principe | Functiescheiding + klokkenluiderkanaal + surprise-controles + management-tone |\n| Documentatie-vereiste | Accumulatie volgens ISA 450 §5 | Aanvullend ISA 240 §44–46 (frauderisicofactoren, communicatie governance) |\n| Strafrechtelijke gevolgen | Geen — correctie + opleiding | Mogelijke oplichting (Strafwetboek art. 479), informaticabedrog (art. 488), valsheid in geschrift, misbruik van vertrouwen |",
+  "beslisboom": "Bij een vastgestelde afwijking, doorloop:\n1. **Wijst bewijs op opzet?** (e-mail, tweede set boeken, fictieve documenten, doorbreking van IC met intentie) → Ja = vermoeden fraude; Nee = vermoedelijk fout.\n2. **Wie heeft voordeel?** Een persoon binnen de entiteit = misappropriation. Het management zelf (omzet/winst opkrikken) = frauduleuze financiële verslaggeving. Een externe via samenspanning = corruptie.\n3. **Welke IC-laag is doorbroken?** Functiescheiding gefaald = oorzaak vaak fraude met intentie. Procedurele check overgeslagen door drukte = oorzaak vaak fout.\n4. **Auditor-actie?** Fout = quantificeren (ISA 450) + corrigeren of in summary. Fraude (vermoed) = uitbreiden onderzoek, communiceren governance (ISA 240 §40–46), evalueren impact op risico-inschatting, eventueel meldplicht extern (CFI bij witwasvermoedens, art. 47 antiwitwaswet).\n5. **IC-actie?** Fout = procedure aanscherpen / automatiseren. Fraude = functiescheiding + meldkanaal + onafhankelijke review + eventueel disciplinair-strafrechtelijk.",
+  "kerninzichten": [
+    "Een 'afwijking van materieel belang' (ISA 450) is een neutraal containerbegrip; fout vs fraude is het onderscheid in oorzaak. Materialiteit blijft kwantitatief af te wegen — maar een kleine fraude kan kwalitatief materieel zijn omdat ze management-integriteit raakt.",
+    "De PRIMAIRE verantwoordelijkheid voor preventie en detectie van fraude ligt bij management + bestuursorgaan, niet bij de auditor (ISA 240 §4 + ITAA KMO-controlenorm §74). De auditor verschaft enkel redelijke zekerheid — geen absolute zekerheid en zelden alle fraude detecterend.",
+    "ISA 240 vereist bij elke audit aandacht voor twee gepresumeerde fraude-risico's: (i) opbrengstverantwoording en (ii) management-override van interne beheersing. Deze worden nooit overgeslagen, ongeacht entiteitskenmerken.",
+    "IC verhindert fraude door één element van de fraude-driehoek te verkleinen: gelegenheid (zie [[fraudedriehoek]]). De andere twee (motief, rationalisatie) liggen buiten controle van de onderneming."
+  ]
 }

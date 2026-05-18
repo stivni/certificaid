@@ -2,7 +2,7 @@
   "id": "boeken-aankoop-verkoop-met-btw",
   "naam": "Boeken van een aankoop en verkoop met btw en betaling",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Boeken van een aankoop en verkoop met btw en betaling",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -211,12 +211,31 @@
     "voorgesteld_door": "competentie-destillatie-v2-po11-20260516",
     "voorgesteld_op": "2026-05-16T00:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "linked_anchors": [
     "1.1.taak.1",
     "1.1.II.D",
     "1.1.II.F"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "naam_alternatief": "recording purchase and sale with VAT",
+  "situering": {
+    "text": "De boekingscompetentie op alledaagse handelsverrichtingen — voor een stagiair-GA de meest voorkomende boeking en daarmee de bouwsteen waarop alle latere competenties (resultaatberekening, btw-aangifte, jaarrekening) steunen. Vereist beheersing van klasse 40/44 voor de vordering/schuld, klasse 60/70 voor de kost/opbrengst, en de rekening 411/451 voor de aftrekbare/verschuldigde btw.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

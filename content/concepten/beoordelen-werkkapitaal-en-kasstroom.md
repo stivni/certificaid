@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/beoordelen-werkkapitaal-en-kasstroom.json
 gegenereerd_op: '2026-05-18'
 ---
 # Beoordelen van het werkkapitaal en de kasstroom van een onderneming 🤖
+
+Competentie om de operationele liquiditeit van een onderneming integraal te beoordelen via werkkapitaal (twee berekeningswijzen), werkkapitaalbehoefte en cashflow (uit resultaat én balans). Deze invalshoeken samen tonen of de onderneming haar dagelijkse activiteit kan financieren en kasstroom genereert.
 
 
 ## Stappen
@@ -204,3 +206,6 @@ Toets of de cashflow voldoende is om aflossingen, rentelasten en investeringen t
 
 
 
+## Bronnen
+
+[^1]: `anchor-1.3.taak.2`

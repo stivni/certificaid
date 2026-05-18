@@ -11,11 +11,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opsplitsing-eigendom.json
 gegenereerd_op: '2026-05-18'
 ---
 # Opsplitsing eigendom (vruchtgebruik, opstal, erfpacht) ⚖️
+
+Een fiscaal en boekhoudkundig regime dat vooral voor onroerend goed (bedrijfsleider koopt vruchtgebruik, vennootschap blote eigendom) of erfpacht- en opstalconstructies wordt gebruikt. Voor een stagiair-GA: belangrijk om het afschrijvingsregime (vruchtgebruiker schrijft af over de termijn, blote eigenaar niet) correct toe te passen en de overgang bij afloop boekhoudkundig te plaatsen.
 
 > [!summary] Korte inhoud
 > **Zakelijke rechten op onroerende goederen** waarbij de **volle eigendom wordt opgesplitst** in twee tijdelijk gescheiden rechten: (1) het **vruchtgebruik** — recht om het goed te gebruiken en de vruchten te trekken, met onderhoudsplicht (BW art. 578), en (2) de **blote eigendom*….

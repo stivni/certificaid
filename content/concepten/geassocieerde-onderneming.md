@@ -2,7 +2,7 @@
 title: Geassocieerde onderneming
 tags:
 - concept
-- autoriteit
+- begrip
 - po-1-4
 linked_anchors:
 - 1.4.I.E
@@ -12,13 +12,15 @@ linked_anchors:
 programmaonderdelen:
 - '1.4'
 confidence: grounded
-node_type: autoriteit
+node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/geassocieerde-onderneming.json
 gegenereerd_op: '2026-05-18'
 ---
 # Geassocieerde onderneming ⚖️
+
+Een tussenpositie in het Belgische boekhoudrecht-consolidatieregime: een deelneming met invloed van betekenis maar zonder controle. Het begrip onderbouwt de keuze voor vermogensmutatiemethode in de geconsolideerde jaarrekening en grenst de cirkel van te-mutere deelnemingen af van zuivere belegging.
 
 > [!summary] Korte inhoud
 > Een onderneming waarop een andere onderneming een invloed van betekenis heeft — maar niet voldoende om er controle over uit te oefenen.
@@ -79,7 +81,7 @@ _Bron: WVV art. 1:22_
 
 - **Getriggerd door**: [[vermogensmutatiemethode]]
 - **Vereist kennis van**: [[invloed-van-betekenis]]
-- **Triggert** (1): [[invloed-van-betekenis]]
+
 ## Voorbeelden
 
 Antwerpse Investments NV bezit 25 % van de stemrechten in Drukkerij Dendermonde BV; geen controle in feite, geen stemovereenkomst. → weerlegbaar invloed van betekenis → Drukkerij Dendermonde is geassocieerde onderneming van Antwerpse → opname via vermogensmutatie in de geconsolideerde jaarrekening van Antwerpse.

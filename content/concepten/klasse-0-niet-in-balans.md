@@ -15,11 +15,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/klasse-0-niet-in-balans.json
 gegenereerd_op: '2026-05-18'
 ---
 # Klasse 0 — niet in de balans opgenomen rekeningen ⚖️
+
+Klasse 0 (rekeningen 00 tot 07) is een **dubbele rekeningenklasse buiten balans** voor het registreren van niet in de balans opgenomen rechten en verplichtingen (waarborgen, leasing, derivaten). Voor de stagiair-GA belangrijk: deze rekeningen werken in spiegelpaar (recht ↔ verplichting), en hun aanwezigheid moet in de toelichting vermeld worden.
 
 > [!summary] Korte inhoud
 > Klasse 0 verzamelt de boekhoudrekeningen (rekeningen 00 tot 07) waarop de vennootschap haar niet in de balans opgenomen rechten en verplichtingen registreert.
@@ -70,3 +72,4 @@ _Grondslag: MAR Klasse 0_
 
 [^1]: `MAR-ondernemingen__art_0__sub_1deg-3deg`
 [^2]: `CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_rekeningen-van-de-klasse-0`
+[^3]: `aggregate`

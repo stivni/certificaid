@@ -2,7 +2,7 @@
   "id": "auditcomite",
   "naam": "Auditcomité",
   "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.V.D",
@@ -10,7 +10,7 @@
     "1.7.IV"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T09:58Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave2-1.7.V",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.V.D",
     "dekt_ook_anchors": [
@@ -18,11 +18,13 @@
       "1.7.IV"
     ],
     "reviewed_by": null,
-    "bron_gap": "Auditcomité is wettelijk geregeld in WVV voor organisaties van openbaar belang en grote NV's. Specifieke wetsartikelen niet in geretrieved bundels — vakdoctrine-niveau."
+    "bron_gap": "Auditcomité is wettelijk geregeld in WVV voor organisaties van openbaar belang en grote NV's. Specifieke wetsartikelen niet in geretrieved bundels — vakdoctrine-niveau.",
+    "note": "Wave 2 1.7.V.D: bouwstenen[] toegevoegd (wettelijk kader Richtlijn 2013/34/EU + WVV, samenstelling, ISA 260-communicatie, schakelfunctie), edge naar gebruik-werk-interne-auditors-audit + onafhankelijkheid-externe-accountant + functie-interne-auditor. Valkuilen toegevoegd.",
+    "touched_at": "2026-05-18T22:30:00Z"
   },
   "definitie": {
     "text": "Een auditcomité is een gespecialiseerd comité binnen de raad van bestuur, samengesteld uit niet-uitvoerende bestuurders (waarvan minstens één onafhankelijk en met expertise in financiën of audit). Het comité houdt toezicht op de financiële verslaggeving, het IC-systeem, het werk van de interne en externe auditor, en op risicobeheer. Verplicht voor organisaties van openbaar belang en grote vennootschappen onder voorwaarden.",
-    "confidence": "inferred-common-knowledge",
+    "confidence": "inferred",
     "_provenance": {
       "inputs": []
     }
@@ -31,7 +33,7 @@
     {
       "aspect": "Vier kerntaken",
       "betekenis": "(1) Toezicht op de financiële verslaggeving (jaarrekening, halfjaarrapport). (2) Toezicht op het IC- en risicobeheerssysteem. (3) Toezicht op interne audit (programma, bemensing, bevindingen). (4) Relatie met externe auditor (onafhankelijkheid, prestaties, niet-audit-diensten).",
-      "confidence": "inferred-common-knowledge",
+      "confidence": "inferred",
       "_provenance": {
         "inputs": []
       }
@@ -39,7 +41,7 @@
     {
       "aspect": "Wettelijk verplicht voor",
       "betekenis": "Organisaties van openbaar belang (beursgenoteerd, kredietinstellingen, verzekeraars) zijn verplicht een auditcomité op te richten. Andere grote vennootschappen kunnen vrijwillig of via Corporate Governance Code. KMO's hebben deze verplichting niet.",
-      "confidence": "inferred-common-knowledge",
+      "confidence": "inferred",
       "_provenance": {
         "inputs": []
       }
@@ -49,12 +51,27 @@
     {
       "type": "onderdeel-van",
       "target": "drie-lijnen-model",
-      "redenering": "Auditcomité staat boven de drie lijnen — oversight-orgaan voor het geheel."
+      "redenering": "Het auditcomité is het toezichtsorgaan boven de drie verdedigingslijnen."
     },
     {
       "type": "vereist-kennis-van",
       "target": "interne-audit",
-      "redenering": "IA rapporteert idealiter aan auditcomité voor maximale onafhankelijkheid."
+      "redenering": "Interne audit rapporteert idealiter aan het auditcomité; het comité valideert het auditplan."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "functie-interne-auditor",
+      "redenering": "Het comité houdt toezicht op de invulling van de IA-functie (charter, bemensing, onafhankelijkheid)."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "gebruik-werk-interne-auditors-audit",
+      "redenering": "ISA 610 §36-37: externe auditor moet aan het auditcomité communiceren hoe hij gebruik maakte van het werk van interne audit."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "onafhankelijkheid-externe-accountant",
+      "redenering": "Het auditcomité bewaakt continu de onafhankelijkheid van de commissaris (niet-audit-diensten, rotatie)."
     }
   ],
   "voorbeelden": [
@@ -63,5 +80,98 @@
       "omschrijving": "Bij Rotex Roeselare NV (beursgenoteerd) telt het auditcomité 3 niet-uitvoerende bestuurders, waaronder Robert Vandenberghe (ex-CFO van een bank, onafhankelijk + financiële expertise). Het comité vergadert 4x per jaar, ontvangt het IA-rapport van Sofie Janssens, bespreekt management letter van commissaris Wolters & Partners CVBA, valideert de jaarrekening vóór ze naar de RvB gaat."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Een auditcomité is een gespecialiseerde commissie binnen de raad van bestuur die toezicht houdt op financiële verslaggeving, interne en externe audit, en risicobeheer. Verplicht voor organisaties van openbaar belang (beursgenoteerd, banken, verzekeraars); vrijwillig bij andere grote vennootschappen. Bij KMO's neemt het bestuursorgaan deze rol typisch zelf op. Het comité fungeert als brug tussen management, externe auditor en raad van bestuur.",
+    "confidence": "inferred",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "naam_alternatief": "audit committee",
+  "bouwstenen": [
+    {
+      "titel": "Wettelijk kader en verplichting",
+      "wat": "Voor organisaties van openbaar belang (POBI: beursgenoteerd, kredietinstellingen, verzekeraars) is een auditcomité verplicht. Voor andere grote vennootschappen geldt de verplichting via Corporate Governance Code (Code 2020 of Code Buysse) of vrijwillige aanstelling.",
+      "waarom": "Richtlijn 2013/34/EU art. 34 schrijft voor dat financiële overzichten van POBI's en middelgrote/grote ondernemingen gecontroleerd worden door wettelijke auditors; de governance-structuur die daarop toezicht houdt (auditcomité) wordt parallel verplicht door de auditrichtlijn (2006/43/EG).",
+      "in_praktijk": "Toetsregel KMO: heeft de onderneming POBI-status of overschrijdt zij groottecriteria én is zij beursgenoteerd? Zo nee → geen wettelijke verplichting. Wel kan een aandeelhouderspact of bancaire voorwaarden vrijwillige aanstelling vereisen.",
+      "grondslag": "Richtlijn 2013/34/EU art. 34; WVV art. 7:99 (genoteerde NV's)",
+      "confidence": "grounded",
+      "source": {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU art. 34"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Richtlijn-2013-34-EU__art_34__sub_lid1-lid6",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Samenstelling: niet-uitvoerend, onafhankelijk, financieel expert",
+      "wat": "Het auditcomité bestaat uit niet-uitvoerende bestuurders. Minstens één lid is onafhankelijk en beschikt over deskundigheid op het gebied van boekhouding, audit of financiële verslaggeving. De voorzitter wordt aangeduid binnen het comité.",
+      "waarom": "Onafhankelijkheid en financiële expertise verzekeren dat het toezichtsorgaan inhoudelijk kan oordelen over jaarrekening, IC en commissarisbevindingen — niet enkel formeel registreren.",
+      "in_praktijk": "Examenval: 'volstaat het dat alle leden van het auditcomité bestuurder zijn?' → Nee. Er moet minstens één onafhankelijke + financieel-ervaren lid zijn (typisch een ex-CFO, ex-bedrijfsrevisor of academicus financiën).",
+      "grondslag": "WVV art. 7:99 §2; Richtlijn 2006/43/EG art. 39",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "titel": "Communicatie met de externe auditor (ISA 260)",
+      "wat": "Het auditcomité is bij beursgenoteerde en grote entiteiten doorgaans dé subgroep van de 'met governance belaste personen' waarmee de externe auditor communiceert in de zin van ISA 260. De auditor bepaalt wel of bepaalde aangelegenheden ook aan de volledige raad van bestuur moeten worden meegedeeld.",
+      "waarom": "ISA 260 §11-12 vereist dat de auditor de geschikte persoon kiest binnen de governance-structuur; communicatie met een subgroep (auditcomité) volstaat tenzij de aard van het onderwerp ook bredere mededeling vergt.",
+      "in_praktijk": "Drie typische onderwerpen die de commissaris met het auditcomité bespreekt: significante bevindingen, onafhankelijkheidskwesties, en — onder ISA 610 §36-37 — hoe hij gebruik heeft gemaakt van het werk van interne audit.",
+      "grondslag": "ISA 260 (herzien) §11-12; ISA 610 (herzien) §36-37",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 260 §11-12"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-260-herzien__sec_vereisten_2_part2",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Schakelfunctie tussen drie controlelijnen",
+      "wat": "Het auditcomité fungeert als brug tussen (a) het operationeel management en eerste/tweede lijn, (b) de interne audit (derde lijn), en (c) de externe commissaris. Het keurt het audit-charter, het jaarplan van interne audit en de aanstelling/vergoeding van de commissaris voor. Daarmee bewaakt het de onafhankelijkheid van beide audit-functies.",
+      "waarom": "Zonder een tussenliggend toezichtsorgaan zou de interne auditor moeten rapporteren aan dezelfde managers die hij beoordeelt, en zou de commissaris zijn bevindingen enkel met het management kunnen bespreken — beide situaties ondermijnen onafhankelijkheid.",
+      "in_praktijk": "Bij KMO's zonder auditcomité neemt het bestuursorgaan deze schakelrol op; bij een eenmanszaak verdwijnt de schakel volledig en spreekt de commissaris rechtstreeks met de zaakvoerder.",
+      "grondslag": "Drie-lijnen-model (IIA Three Lines) + ISA 260",
+      "confidence": "inferred-from-aggregation",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-260-herzien__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Auditcomité ≠ raad van bestuur. Het comité bereidt voor en adviseert; de raad neemt formele besluiten over jaarrekening, kwijting en commissaris-mandaat. Verwarring leidt tot examenfout 'het auditcomité keurt de jaarrekening goed' (fout — de raad doet dat na advies).",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "text": "Bij KMO's zonder POBI-status bestaat geen wettelijke verplichting tot auditcomité. Verwacht geen examenpunt voor 'ontbrekend auditcomité' bij Yperse Werkplaats BV — wel bij een beursgenoteerde Rotex Roeselare NV.",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ]
 }

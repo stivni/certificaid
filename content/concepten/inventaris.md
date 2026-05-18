@@ -2,7 +2,7 @@
 title: Inventaris
 tags:
 - concept
-- procedure
+- cluster
 - po-1-1
 - po-1-2
 linked_anchors:
@@ -17,13 +17,15 @@ programmaonderdelen:
 - '1.1'
 - '1.2'
 confidence: grounded
-node_type: procedure
+node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/inventaris.json
 gegenereerd_op: '2026-05-18'
 ---
 # Inventaris ⚖️
+
+De inventaris is het **gestructureerd overzicht** van alle bezittingen, vorderingen, schulden en verplichtingen op balansdatum. Voor de stagiair-GA cruciaal omdat de inventaris de **brug** vormt tussen het hele boekjaar (dagboeken, hulpdagboeken) en de jaarrekening: zonder correcte inventaris geen correcte jaarrekening. Examenvalkuil: inventaris ↔ proef- en saldibalans verwarren.
 
 > [!summary] Korte inhoud
 > Het **gestructureerd overzicht** van alle bezittingen, vorderingen, schulden, verplichtingen en eigen middelen van een onderneming op één gekozen datum (typisch balansdatum), opgesteld door fysieke telling, contractverificatie en waardering.
@@ -175,7 +177,7 @@ De volledige inventaris en de jaarrekening worden overgeschreven in een inventar
 
 - **Getriggerd door**: [[jaarafsluiting]]
 - **Vereist kennis van**: [[waarderingsregels]]
-- **Wordt voorondersteld in** (2): [[eindejaarsverrichtingen]] · [[volledigheidsbeginsel]]
+
 ## Bronnen
 
 [^1]: `CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden`

@@ -1,5 +1,5 @@
 ---
-title: Bepalen van de vervaardigingsprijs volgens KB 21.10.2018 en CBN 132/7
+title: Bepalen van de vervaardigingsprijs
 tags:
 - concept
 - competentie
@@ -15,11 +15,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
-gegenereerd_uit: data/concepten/records/bepalen-vervaardigingsprijs-kb-21-10-2018.json
+schema_version: '1.6'
+gegenereerd_uit: data/concepten/records/bepalen-vervaardigingsprijs.json
 gegenereerd_op: '2026-05-18'
 ---
-# Bepalen van de vervaardigingsprijs volgens KB 21.10.2018 en CBN 132/7 🤖
+# Bepalen van de vervaardigingsprijs 🤖
+
+Competentie waarmee de stagiair de wettelijke vervaardigingsprijs van zelf-vervaardigde voorraad bepaalt volgens KB 21.10.2018 art. 22 + CBN 132/7 §2.1: aanschaffingsprijs grondstoffen + directe productiekosten + evenredig deel indirecte productiekosten. Centrale toepassing in PO 1.8 — gevraagde uitkomst is een voorraadwaarde op de balans die juridisch verdedigbaar is. De stagiair moet expliciete keuzes maken over full vs. direct costing, behandeling van onderbezetting en uitsluiting van commerciële en administratieve kost.
 
 
 ## Stappen
@@ -190,3 +192,6 @@ Boek de voorraad in tegen vervaardigingsprijs, toets aan eventuele lagere realis
 
 
 
+## Bronnen
+
+[^1]: `CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs`

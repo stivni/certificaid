@@ -2,7 +2,7 @@
   "id": "kwalificeren-relatie-deelneming",
   "naam": "Kwalificeren van de relatie met een deelneming (controle, gezamenlijke controle of invloed van betekenis)",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Kwalificeren van de relatie met een deelneming (controle, gezamenlijke controle of invloed van betekenis)",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -267,6 +267,15 @@
         "valkuilen[*]: correctie → advies, foute_aanname → vaak_fout",
         "tekstvelden: stagiair-toon, cast-namen (Antwerpse/Drukkerij Dendermonde + Cardinal/Energiehuis/Filmstudio Florence)"
       ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
+      ]
     }
   },
   "linked_anchors": [
@@ -277,5 +286,16 @@
     "1.4.I.E",
     "1.4.II.B"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "edges": [],
+  "naam_alternatief": "qualify investment relationship",
+  "situering": {
+    "text": "Een kwalificatie-competentie binnen het Belgische vennootschaps- en boekhoudrecht (WVV + KB WVV Boek 3, Titel 2). De stagiair beoordeelt — op basis van stemrechten, overeenkomsten en feitelijke invloed — of er sprake is van controle, gezamenlijke controle, invloed van betekenis of een loutere financiële belegging.",
+    "confidence": "inferred",
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

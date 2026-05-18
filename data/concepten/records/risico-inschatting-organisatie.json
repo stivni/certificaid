@@ -2,7 +2,7 @@
   "id": "risico-inschatting-organisatie",
   "naam": "Risico-inschatting binnen de organisatie (COSO-component 2)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.XII.F",
@@ -10,7 +10,7 @@
     "1.7.III.B"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T09:40Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave1b1",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.XII.F",
     "dekt_ook_anchors": [
@@ -18,24 +18,40 @@
       "1.7.III.B"
     ],
     "reviewed_by": null,
-    "bron_gap": "COSO ERM (II) + ISO 31000 zijn internationale standaarden; geen Belgische trusted bron. Inferred-common-knowledge."
+    "bron_gap": "COSO ERM (II) + ISO 31000 zijn internationale standaarden; geen Belgische trusted bron. Inferred-common-knowledge.",
+    "touched_at": "2026-05-18T17:24:12Z"
   },
   "bouwstenen": [
     {
-      "titel": "Drie stappen",
-      "wat": "(1) Identificeren: welke risico's bedreigen de doelstellingen? (2) Analyseren: hoe groot is de kans, hoe groot de impact? (3) Evalueren: aanvaardbaar binnen risk appetite, of beheersmaatregel nodig?",
-      "waarom": "Zonder stap 3 wordt risico-inschatting een academische oefening; zonder stap 1 mis je de echte risico's.",
-      "grondslag": "COSO ERM / ISO 31000",
-      "confidence": "inferred-common-knowledge",
+      "titel": "Drie stappen — identificeren, analyseren, behandelen",
+      "wat": "(1) Identificeren: wat zou het halen van een doel kunnen verhinderen? (2) Analyseren: hoe waarschijnlijk is het, wat is de impact? (3) Behandelen: vermijden, verminderen, overdragen (verzekeren), accepteren.",
+      "waarom": "Risico's zonder behandeling zijn niet 'beheerd' maar gewoon gekend.",
+      "grondslag": "COSO ERM + ISO 31000",
+      "confidence": "inferred",
       "_provenance": {
         "inputs": []
-      },
-      "voorbeelden": [
-        {
-          "vorm": "eenvoudig",
-          "omschrijving": "Yperse Werkplaats BV identificeert 'IT-uitval' (kans 3, impact 5 = 15) → maatregel: dagelijkse off-site backup + business continuity plan."
-        }
-      ]
+      }
+    },
+    {
+      "titel": "Risk-appetite versus risk-tolerance",
+      "wat": "Risk-appetite = strategisch niveau van risico dat de raad bereid is te lopen. Risk-tolerance = operationele afwijking die acceptabel is binnen die appetite.",
+      "waarom": "Zonder formele appetite-uitspraak is risico-acceptatie willekeurig en niet auditable.",
+      "in_praktijk": "Stagiair-test: vraag het management hoeveel financieel risico ze bereid zijn te lopen. Een vaag antwoord = gebrek aan formele appetite-statement.",
+      "grondslag": "COSO ERM 2017",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "titel": "Risk-register als operationeel artefact",
+      "wat": "Lijst van geïdentificeerde risico's, eigenaars, controles, residueel risico, opvolgindicatoren — typisch in Excel of GRC-tool.",
+      "waarom": "Risico-inschatting zonder document is mondelinge folklore; risk-register maakt opvolgbaar en auditable.",
+      "grondslag": "COSO ERM + ISO 31000",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "in_praktijk": [
@@ -71,16 +87,38 @@
   "voorbeelden": [
     {
       "vorm": "eenvoudig",
-      "omschrijving": "Bij Yperse Werkplaats BV werkt Xenon Expertise BV een risicomatrix uit: voor elk proces (aankoop, productie, verkoop, HR) wordt 'kans × impact' geschat op een schaal 1-5. Aankopen > € 50.000 krijgen risicoscore 4×5 = 20 → strikte autorisatieprocedure. Telefoonkosten krijgen 2×1 = 2 → geen extra controle."
+      "omschrijving": "Bij Yperse Werkplaats BV beheert directeur Pieter Vermeulen een risk-register met 12 risico's: top 3 = (a) afhankelijkheid van één hoofdklant (40% omzet), (b) vergrijzing technische ploeg, (c) cyber-risico ERP-systeem. Voor elk: waarschijnlijkheid (1-5), impact (1-5), mitigerende controle, eigenaar, review-datum."
     }
   ],
   "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
   "situering": {
-    "text": "Risico-inschatting is het systematisch identificeren, analyseren en evalueren van wat fout kan gaan in het halen van de doelstellingen van de onderneming. Doel: bepalen welke risico's onaanvaardbaar zijn en gerichte controles inzetten. Zonder risico-inschatting werkt IC blind — overal controles of nergens.",
-    "confidence": "inferred-common-knowledge",
+    "text": "Risico-inschatting van de organisatie is COSO-component 2 — het management identificeert, analyseert en prioriteert risico's voor het halen van doelstellingen. Voor de stagiair is dit conceptueel het bedrijfs-pendant van wat hij in zijn audit-rol zelf doet (audit risk assessment): de cliënt heeft zijn eigen risk-register en de auditor toetst of het effectief werkt. Examen-vragen vragen vaak het onderscheid bedrijfs-risicobeheer (ERM) versus audit-risicomodel.",
+    "confidence": "inferred",
     "_provenance": {
       "inputs": []
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "definitie": {
+    "text": "Risico-inschatting binnen de organisatie is het proces waarmee het management risico's identificeert die het halen van doelstellingen kunnen belemmeren, deze risico's analyseert (waarschijnlijkheid × impact) en beslist welke worden vermeden, gemitigeerd, gedeeld of geaccepteerd. Het is COSO-component 2 en drijft de keuze van welke controle-activiteiten (component 3) nodig zijn.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-315-herzien-2019__sec_bijlage-3",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "valkuilen": [
+    {
+      "text": "Risico-inschatting verwarren met risico-inventaris. Inventaris = lijst. Inschatting = ook prioritering, analyse, behandelingsbesluit.",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ]
 }

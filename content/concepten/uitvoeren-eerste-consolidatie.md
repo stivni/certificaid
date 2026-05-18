@@ -16,11 +16,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uitvoeren-eerste-consolidatie.json
 gegenereerd_op: '2026-05-18'
 ---
 # Uitvoeren van de eerste consolidatie van een nieuw verworven dochter of geassocieerde onderneming 🤖
+
+Een toepassingscompetentie binnen het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2) — gericht op het boekjaar van eerste opname. De stagiair waardeert de overgenomen netto-activa, bepaalt het consolidatieverschil (goodwill of negatief verschil) en boekt het in conform de toepasselijke techniek.
 
 
 ## Stappen

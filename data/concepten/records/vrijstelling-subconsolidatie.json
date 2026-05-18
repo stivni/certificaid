@@ -2,7 +2,7 @@
   "id": "vrijstelling-subconsolidatie",
   "naam": "Vrijstelling van subconsolidatie",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -48,6 +48,15 @@
         "in_praktijk[*].betekenis (stagiair-toon + cast)",
         "valkuilen[*].text (stagiair-toon)",
         "edges: dubbel contrasteert-met / uitzondering-op consolidatieverplichting gesaneerd"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -316,5 +325,19 @@
       "omschrijving": "Kappers Köln GmbH (Duitse top-moeder) bezit 95 % van Aurelia Holding NV; Aurelia bezit 80 % van Brugse Brouwerij BV. Kappers Köln consolideert hogerop alle drie samen onder een gelijkwaardige standaard. Aurelia en Brugse zijn niet genoteerd → Aurelia is vrijgesteld van subconsolidatie en hoeft géén eigen geconsolideerde jaarrekening op te stellen."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "sub-consolidation exemption",
+  "situering": {
+    "text": "Een proportionaliteits-uitzondering in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2) voor tussenliggende moedervennootschappen. Wie zelf wordt opgenomen in een hogere geconsolideerde jaarrekening hoeft niet dubbel te consolideren — mits aan strikte transparantievoorwaarden is voldaan.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

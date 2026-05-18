@@ -2,7 +2,7 @@
   "id": "flexibel-budget",
   "naam": "Flexibel budget",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.VI.B",
@@ -66,5 +66,91 @@
       "omschrijving": "Yperse Werkplaats BV start met statisch budget Confectie: 7.500 tapijten, € 950.000 (€ 800.000 vast + € 150.000 variabel = € 20/stuk variabel). Realisatie: 9.000 tapijten, € 1.025.000. Flexibel budget bij 9.000 stuks = € 800.000 vast + 9.000 × € 20 = € 980.000. Werkelijk vs. flexibel: € 1.025.000 − € 980.000 = € 45.000 ongunstig. Werkelijk vs. statisch: € 1.025.000 − € 950.000 = € 75.000 ongunstig — waarvan € 30.000 'volume-effect' (logisch, want meer geproduceerd) en € 45.000 'echt' ongunstig."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "flexible budget",
+  "situering": {
+    "text": "Een flexibel budget herrekent de oorspronkelijke budgetbedragen op basis van het werkelijke productie- of verkoopvolume. Variabele kosten worden aangepast aan werkelijk volume; vaste kosten blijven gelijk. Doel: een eerlijke vergelijking maken tussen budget en werkelijkheid. Bij sterk afwijkend volume verbergt een statisch budget de volume-impact in het totale verschil; een flexibel budget isoleert het volume-effect zodat efficiëntie- en prijsverschillen zichtbaar worden.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "berekeningsmethode": [
+    {
+      "naam": "Flexibel-budget-herrekening",
+      "ratio": "Pas variabele kosten aan aan werkelijk volume; laat vaste kosten op de gebudgetteerde waarde staan.",
+      "formules": [
+        {
+          "id": "flexibel-budget",
+          "naam": "Flexibel-budget-bedrag per kostensoort",
+          "wiskunde": "flexibel_budget = vaste_kosten_budget + (variabele_kost_per_eenheid_budget × werkelijke_eenheden)",
+          "variabelen": [
+            {
+              "symbool": "vaste_kosten_budget",
+              "betekenis": "Gebudgetteerde vaste kosten van de periode",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "variabele_kost_per_eenheid_budget",
+              "betekenis": "Gebudgetteerde variabele kost per stuk",
+              "eenheid": "EUR/stuk"
+            },
+            {
+              "symbool": "werkelijke_eenheden",
+              "betekenis": "Werkelijk geproduceerd of verkocht aantal",
+              "eenheid": "stuks"
+            }
+          ],
+          "invulling_voorbeeld": {
+            "waarden": "Yperse Werkplaats BV: vaste kosten weverij € 80.000/maand, variabele kost € 13/tapijt budget; werkelijk volume 9.500 tapijten (budget was 10.000)",
+            "berekening": "€ 80.000 + (€ 13 × 9.500) = € 80.000 + € 123.500 = € 203.500",
+            "eenheid_resultaat": "EUR"
+          }
+        }
+      ],
+      "stappen": [
+        {
+          "nr": 1,
+          "titel": "Identificeer vaste en variabele componenten in oorspronkelijk budget",
+          "wat": "Splits het statisch budget per kostensoort in een vast en een variabel deel. Vaste kosten blijven onveranderd; variabele worden aangepast.",
+          "hoe": "Bouw op de kostentypologie ([[vaste-kosten]], [[variabele-kosten]]) — vaak per kostensoort in het rekeningenstelsel zichtbaar.",
+          "grondslag": "[[typologie-van-kosten]]"
+        },
+        {
+          "nr": 2,
+          "titel": "Bereken variabele kost per eenheid",
+          "wat": "Deel het variabele deel van het budget door het oorspronkelijke (begrote) volume.",
+          "hoe": "variabele_kost_per_eenheid = variabel_deel_budget / begroot_volume.",
+          "grondslag": "Vakdoctrine"
+        },
+        {
+          "nr": 3,
+          "titel": "Pas aan naar werkelijk volume",
+          "wat": "Vermenigvuldig variabele kost per eenheid met het werkelijke volume; tel vaste kosten erbij op.",
+          "hoe": "Levert het 'flexibele' budgetbedrag dat eerlijk vergelijkbaar is met de werkelijke kost bij dat volume.",
+          "grondslag": "Vakdoctrine"
+        },
+        {
+          "nr": 4,
+          "titel": "Splits totaalverschil in volume-, efficiëntie- en prijsverschil",
+          "wat": "Totaal verschil = statisch budget − werkelijk. Volume-verschil = statisch budget − flexibel budget. Efficiëntie + prijs = flexibel budget − werkelijk.",
+          "hoe": "Drie-staps-decompositie geeft inzicht in oorzaken — volume is verkoopsverantwoordelijkheid; efficiëntie en prijs zijn productie/inkoop.",
+          "grondslag": "[[verschillenboekhouding]]"
+        }
+      ],
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Management accounting — bron-gap"
+      },
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ]
 }

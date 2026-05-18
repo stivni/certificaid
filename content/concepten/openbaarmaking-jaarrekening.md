@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: procedure
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/openbaarmaking-jaarrekening.json
 gegenereerd_op: '2026-05-18'
 ---
 # Openbaarmaking van de jaarrekening 🤖
+
+De openbaarmaking is de **wettelijke neerleggingsplicht** bij de NBB-Balanscentrale (en bij griffie voor sommige stukken). Voor stagiair-GA cruciaal om termijnen, vorm (XBRL-tags), sancties (administratieve geldboete + civielrechtelijke aansprakelijkheid bestuurders) en kanaal-onderscheid te beheersen.
 
 > [!summary] Korte inhoud
 > Elke vennootschap, vereniging of stichting met jaarrekening-plicht moet haar goedgekeurde jaarrekening (en, indien van toepassing, jaarverslag, commissarisverslag, geconsolideerde jaarrekening, sociaal balans) elektronisch neerleggen bij de Balanscentrale van de Nationale Bank va….
@@ -120,7 +122,7 @@ Iedere internetgebruiker tikt naam of ondernemingsnummer in → ziet alle neerge
 
 - **Vereist kennis van**: [[nationale-bank-belgie]]
 - **Getriggerd door**: [[wetboek-vennootschappen-verenigingen]]
-- **Wordt voorondersteld in** (2): [[griffies-ondernemingsrechtbank]] · [[nationale-bank-belgie]]- **Triggert** (1): [[samenstelling-statutaire-jaarrekening]]
+
 ## Bronnen
 
 [^1]: `KB-WVV-2019__art_3_82`

@@ -2,7 +2,7 @@
   "id": "kwalificeren-boekhoudplichtige-onderneming",
   "naam": "Kwalificeren of een onderneming boekhoudplichtig is en welk type boekhouding zij moet voeren",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Kwalificeren of een onderneming boekhoudplichtig is en welk type boekhouding zij moet voeren",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -195,5 +195,6 @@
     "1.2.III.C",
     "1.2.I.C"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": "Eerste filter in elk boekhoudrechtelijk dossier: is deze onderneming **onder Boek III WER**? Zo ja, welk type boekhouding (dubbele of vereenvoudigde)? Voor de stagiair-GA basale instapcompetentie zonder dewelke geen verder advies mogelijk is."
 }

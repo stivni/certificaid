@@ -2,7 +2,7 @@
   "id": "ratio-covenants",
   "naam": "Ratiocovenants (financial covenants)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.3.I.D",
@@ -146,5 +146,26 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "naam_alternatief": [
+    "Financial covenants"
+  ],
+  "situering": {
+    "text": "Ratiocovenants zijn contractuele clausules in kredietovereenkomsten die de onderneming verbinden tot het respecteren van financiële drempels (max. debt-equity, min. solvabiliteit, min. interest coverage, …). Doorbreking triggert opeisbaarheid of strafrente. Voor de analist: een ratio die op zich sterk lijkt kan toch tegen een covenant-drempel aanleunen — het maakt covenant-clausules raadplegen tot een verplichte stap.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Vakdoctrine bankfinanciering + kredietpraktijk"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "aggregate",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

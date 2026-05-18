@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/geconsolideerd-jaarverslag.json
 gegenereerd_op: '2026-05-18'
 ---
 # Geconsolideerd jaarverslag 🤖
+
+Het narratieve sluitstuk naast de geconsolideerde jaarrekening binnen het Belgische vennootschapsrecht (WVV). Het verschaft externe gebruikers tekst-en-uitlegcontext — evolutie, risico's, vooruitzichten — die de cijfers alleen niet kunnen leveren, en is samen met de jaarrekening publicatieplichtig.
 
 > [!summary] Korte inhoud
 > Het narratieve (toelichtende) verslag dat het bestuursorgaan samen met de geconsolideerde jaarrekening opmaakt, laat controleren en publiceert.

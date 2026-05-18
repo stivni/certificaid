@@ -2,7 +2,7 @@
   "id": "toepassen-fundamentele-boekhoudbeginselen",
   "naam": "Toepassen van de fundamentele boekhoudbeginselen op een concrete verrichting",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Toepassen van de fundamentele boekhoudbeginselen op een concrete verrichting",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -188,11 +188,30 @@
     "voorgesteld_door": "competentie-destillatie-v2-po11-20260516",
     "voorgesteld_op": "2026-05-16T00:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "linked_anchors": [
     "1.1.taak.1",
     "1.1.I.B"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "naam_alternatief": "applying the fundamental accounting principles",
+  "situering": {
+    "text": "De competentie die de losse beginselen (regelmatigheid, voorzichtigheid, getrouw beeld, continuïteit, onveranderlijkheid, matching) verbindt tot één **professioneel oordeel** over een concrete verrichting. Voor een stagiair-GA: typisch examenscenario waarbij meerdere beginselen tegelijk getoetst worden en de juiste hiërarchie + uitkomst moet worden onderbouwd.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

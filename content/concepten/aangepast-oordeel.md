@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/aangepast-oordeel.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -40,7 +40,8 @@ _Bron: ISA 705 (herzien) §4 + ITAA KMO-controlenorm §118_
 
 ## Zie ook
 
-- **Wordt voorondersteld in** (1): [[opstellen-controleverslag-en-formuleren-oordeel]]
+- **Getriggerd door**: [[afwijking-van-materieel-belang]]
+
 ## Voorbeelden
 
 Bij Naaiatelier Ninove BV ontdekt Sofie Janssens dat de continuïteitsveronderstelling materieel onzeker is én onvoldoende toegelicht. Eén stevige afwijking → oordeel met voorbehoud (aangepast oordeel).

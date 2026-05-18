@@ -2,7 +2,7 @@
   "id": "immateriele-vaste-activa",
   "naam": "Immateriële vaste activa",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.B"
@@ -12,7 +12,16 @@
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.B",
     "dekt_ook_anchors": [],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "definitie": {
     "text": "**Ondernemingsmiddelen van onlichamelijke aard** die duurzaam voor de bedrijfsactiviteit worden gebruikt en waaruit toekomstige economische voordelen zullen vloeien. Het MAR groepeert ze onder rubriek 21, opgesplitst in: (1) **kosten van onderzoek en ontwikkeling** (210), (2) **concessies, octrooien, licenties, know-how, merken en soortgelijke rechten** (211), (3) **goodwill** (212) en (4) **vooruitbetalingen** (213). Waardering: aanschaffingswaarde min cumul. afschrijvingen en waardeverminderingen.",
@@ -226,5 +235,15 @@
       ],
       "migrated_to_specialisatie_van": []
     }
-  ]
+  ],
+  "naam_alternatief": "intangible fixed assets / immobilisations incorporelles",
+  "situering": {
+    "text": "Het regime voor activa zonder fysieke vorm (R&D, software, goodwill, octrooien) — vereist scherper bewijs van toekomstige economische voordelen dan materiële activa. Voor een stagiair-GA: de activering-vs-kost-keuze (vooral bij R&D en software-ontwikkeling) is een terugkerend examenscenario en heeft meerjareneffect op resultaat en eigen vermogen.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

@@ -2,7 +2,7 @@
   "id": "herwaarderingsmeerwaarden",
   "naam": "Herwaarderingsmeerwaarden",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.B",
@@ -240,5 +240,7 @@
       "omschrijving": "Naaiatelier Ninove BV heeft een productiehal aangeschaft in 2005 voor € 320.000 (terrein) — werkelijke waarde nu € 580.000 door bestemmingswijziging tot bouwgrond. Bestuur beslist herwaardering toe te passen: Debet 220 Terreinen € 260.000 / Credit 12 Herwaarderingsmeerwaarden € 260.000. Niet-uitkeerbaar; bij latere verkoop wordt de meerwaarde gerealiseerd en kan ze deels naar reserves."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "Een herwaardering is een **uitzonderlijke opwaardering** van een vast actief boven aanschaffingswaarde, waarbij de meerwaarde op het passief verschijnt als herwaarderingsreserve. Voor de stagiair belangrijk: dit is geen vrije keuze maar voorzien onder strikte voorwaarden (KB-WVV art. 3:35 §3); bovendien verandert de afschrijvingsbasis na herwaardering.",
+  "naam_alternatief": "revaluation surplus / plus-values de réévaluation"
 }

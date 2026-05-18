@@ -9,7 +9,8 @@
     "1.6.I.A",
     "1.6.I.B",
     "1.6.I.C",
-    "1.6.taak.1"
+    "1.6.taak.1",
+    "1.7.taak.1"
   ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-18T16:05Z",
@@ -21,7 +22,9 @@
       "1.6.I.C",
       "1.6.taak.1"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "cross_linked_1.7.taak.1": "2026-05-18T18:00Z",
+    "cross_link_reason": "Anchor 1.7.taak.1 (bijzondere verslagen / juridisch-contractuele opdrachten) dekt expliciet deze opdracht-records."
   },
   "definitie": {
     "text": "Het verslag bij omzetting van vennootschap is een gedeelde wettelijk voorbehouden beoordelingsopdracht: de gecertificeerd accountant of bedrijfsrevisor (bij afwezigheid van commissaris) beoordeelt de staat van activa en passiva die het bestuursorgaan opstelt vóór de omzetting van de rechtsvorm, en vermeldt inzonderheid of het nettoactief, in alle van materieel belang zijnde opzichten, niet overgewaardeerd is. Het is een beoordelingsopdracht met beperkte mate van zekerheid.",

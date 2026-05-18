@@ -1,5 +1,5 @@
 ---
-title: Drie-lijnen-model (Three Lines of Defense)
+title: Drie-lijnen-model
 tags:
 - concept
 - cluster
@@ -14,17 +14,15 @@ programmaonderdelen:
 confidence: inferred
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/drie-lijnen-model.json
 gegenereerd_op: '2026-05-18'
 ---
-# Drie-lijnen-model (Three Lines of Defense) 🤖
+# Drie-lijnen-model 🤖
 
 Het drie-lijnen-model verdeelt verantwoordelijkheid voor risicobeheer en IC over drie onafhankelijke lijnen: (1) operationeel management (eigenaar van risico's, voert IC uit), (2) risk- en compliancefuncties (beleidsmatig toezicht en methodologie), (3) interne audit (onafhankelijke assurance). Doel: vermijden dat één rol zowel risico's loopt als ze evalueert.
 
 > [!info] Behoort tot: [[interne-controle]]
-
-> [!info] Bestaat uit (2): [[auditcomite]] · [[interne-audit]]
 
 
 ## Bouwstenen

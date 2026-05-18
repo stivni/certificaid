@@ -9,7 +9,7 @@
     "1.6.III.E"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.I",
     "linked_anchors": [
@@ -17,7 +17,10 @@
       "1.6.III.E"
     ],
     "reviewed_by": null,
-    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z"
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T17:35Z",
+    "last_extract_at": "2026-05-18T17:35:00Z",
+    "edge_key_migrated": "2026-05-18"
   },
   "main_rule": {
     "text": "De externe accountant is gebonden door het beroepsgeheim (art. 458 Strafwetboek). Hij mag vertrouwelijke informatie niet vrijwillig delen — ook niet bij een verhoor door politieambtenaar of openbaar ministerie. Uitzonderingen: getuigenis in rechte voor een rechter, eigen verdediging in een tuchtprocedure of ereloon-betwisting, wettelijke meldingsplicht (antiwitwas).",
@@ -125,7 +128,30 @@
       }
     }
   ],
-  "edges": [],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "redenering": "Het beroepsgeheim is een wezenlijke pijler van het statuut van de gecertificeerd accountant.",
+      "target_id": "gecertificeerd-accountant-ga"
+    },
+    {
+      "type": "vergelijkt-met",
+      "redenering": "Twee deontologische pijlers: discretie tegenover derden (beroepsgeheim) versus oordeels- en wilsvrijheid tegenover de cliënt (onafhankelijkheid). Vaak verward in examen-casussen.",
+      "facet": {
+        "aspect": "deontologische-pijler"
+      },
+      "target_id": "onafhankelijkheid-externe-accountant"
+    },
+    {
+      "type": "getriggerd-door",
+      "redenering": "Antiwitwas-meldingsplicht (CFI) is een wettelijke uitzondering die het beroepsgeheim doorbreekt — record nog niet aanwezig.",
+      "facet": {
+        "conditie": "vermoeden-witwasoperatie"
+      },
+      "target_status": "pending",
+      "target_id": "antiwitwasmeldingsplicht-accountant"
+    }
+  ],
   "voorbeelden": [
     {
       "vorm": "eenvoudig",

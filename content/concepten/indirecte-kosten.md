@@ -14,18 +14,18 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/indirecte-kosten.json
 gegenereerd_op: '2026-05-18'
 ---
 # Indirecte kosten 🤖
 
+Indirecte kosten (overhead) zijn kosten die meerdere kostendragers of kostencentra gemeenschappelijk ondersteunen — huur productiehal, leiding, energie, IT — en die enkel via een verdeelsleutel aan een specifieke kostendrager kunnen worden toegerekend. Hoe deze toerekening gebeurt is het centrale dilemma van de analytische boekhouding: traditionele full costing gebruikt 1-2 sleutels per centrum, ABC verfijnt met cost drivers per activiteit. CBN 132/7 §2.1 vereist een evenredig deel ervan in de wettelijke vervaardigingsprijs.
+
 > [!summary] Korte inhoud
 > Indirecte kosten zijn kosten die meerdere kostendragers of kostencentra gemeenschappelijk ondersteunen en daarom enkel via een verdeelsleutel aan een specifiek product, opdracht of afdeling kunnen worden toegerekend.
 
 > [!info] Behoort tot: [[typologie-van-kosten]]
-
-> [!info] Bestaat uit (1): [[verdeelsleutel]]
 
 Indirecte kosten zijn kosten die meerdere kostendragers of kostencentra gemeenschappelijk ondersteunen en daarom enkel via een verdeelsleutel aan een specifiek product, opdracht of afdeling kunnen worden toegerekend. Typische voorbeelden: huur fabriekspand, energie, salaris afdelingshoofd, afschrijving algemene machines, kwaliteitscontrole.
 

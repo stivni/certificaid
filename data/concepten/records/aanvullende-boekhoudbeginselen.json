@@ -2,7 +2,7 @@
   "id": "aanvullende-boekhoudbeginselen",
   "naam": "Aanvullende boekhoudbeginselen (voorzichtigheid, oprechtheid, continuïteit, consistentie)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.V.A",
@@ -213,5 +213,7 @@
       "omschrijving": "Naaiatelier Ninove BV moet bij elke jaarafsluiting toetsen aan alle vier beginselen: voorraad waarderen volgens FIFO (consistent met vorige jaren), bij dalende grondstofprijzen voorzichtig waardevermindering boeken, balans presenteren onder going-concern-veronderstelling, en de cijfers oprecht weergeven zonder vertekening."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "Naast de drie 'voorwaardelijke' boekhoudbeginselen (volledigheid, oprechtheid, onveranderlijkheid) zijn er vier aanvullende beginselen die de **waarderings- en presentatiekeuzes** sturen: voorzichtigheid, oprechtheid, continuïteit en consistentie. Ze staan niet in één wetsartikel maar zijn verspreid in KB-WVV art. 3:6 en 3:35 e.v. Voor het examen is dit cluster één van de meest getoetste theorie-blokken: vragen vertrekken meestal vanuit een concreet waarderings-dilemma en peilen welk beginsel je toepast.",
+  "naam_alternatief": "supplementary accounting principles / principes comptables complémentaires"
 }

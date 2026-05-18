@@ -12,16 +12,16 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/belgisch-boekhoudrecht.json
 gegenereerd_op: '2026-05-18'
 ---
 # Belgisch boekhoudrecht ⚖️
 
+Het Belgisch boekhoudrecht is het hele regelkader dat bepaalt **hoe je een boekhouding moet voeren en een jaarrekening moet opstellen, openbaarmaken en bewaren**. Voor PO 1.2 is dit de paraplu-context: alle subkenniselementen (1.2.I rechtsbronnen, 1.2.II autoriteiten, 1.2.III boekhoudkundige verplichtingen, 1.2.IV jaarrekening, 1.2.V beginselen) gaan over deelaspecten hiervan. Een stagiair moet vooral de gelaagde structuur kennen — EU → federale wet → KB → CBN-adviezen → rechtspraak — om bij elke vraag de juiste bron te kunnen identificeren.
+
 > [!summary] Korte inhoud
 > Het geheel van regels in België dat bepaalt hoe een onderneming haar boekhouding moet voeren en haar jaarrekening moet opstellen, openbaar maken en bewaren.
-
-> [!info] Bestaat uit (6): [[cbn-adviezen]] · [[europees-boekhoudrecht]] · [[kb-wvv-uitvoering]] · [[rechtspraak-boekhoudrecht]] · [[wetboek-economisch-recht-boek-iii]] · [[wetboek-vennootschappen-verenigingen]]
 
 Het geheel van regels in België dat bepaalt hoe een onderneming haar boekhouding moet voeren en haar jaarrekening moet opstellen, openbaar maken en bewaren. Het bestaat uit gelaagde rechtsbronnen: Europese richtlijnen en verordeningen, federale wetten (WER en WVV), uitvoerende koninklijke besluiten, CBN-adviezen en rechtspraak.
 

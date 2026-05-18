@@ -1,74 +1,232 @@
 {
   "id": "inbreng-in-natura-verslag",
   "naam": "Verslag bij inbreng in natura",
-  "node_type": "procedure",
-  "schema_version": "1.5",
+  "naam_alternatief": "inbreng-in-natura-verslag (WVV art. 5:7 BV / 7:7 NV)",
+  "node_type": "cluster",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.taak.1"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T11:17Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.taak.1",
-    "dekt_ook_anchors": [],
-    "reviewed_by": null
+    "linked_anchors": [
+      "1.7.taak.1"
+    ],
+    "reviewed_by": null,
+    "migrated_from_procedure": "2026-05-18T18:00Z",
+    "migration_reason": "Schema 1.5 procedure-type → cluster. Inbreng in natura is een zelfstandig fenomeen met bouwstenen (waardering, conclusie, deponering), niet een loutere procedure. Parallel met andere opdracht-clusters (effectennorm, omzetting, fusie-splitsing, ontbinding).",
+    "previous_extractor_run": "concept-extractie-v4-2026-05-17T11:17Z"
   },
-  "verplichting": "Wettelijke verplichting bij inbreng van goederen of activiteit als deel van kapitaal (WVV art. 5:7 voor BV, art. 7:7 voor NV). Een externe accountant of bedrijfsrevisor maakt het verslag op vóór oprichting of kapitaalverhoging.",
-  "stappen": [
-    {
-      "nr": 1,
-      "titel": "Identificatie + opdrachtbrief",
-      "wat": "Aanstellingsdocumenten verifiëren; opdrachtbrief opmaken met onafhankelijkheidsverklaring.",
-      "waarom": "Zonder geldige aanstelling: verslag heeft geen wettelijke geldigheid.",
-      "hoe": "1. Verifieer bestuursbesluit/oprichtingsakte.\n2. Controleer onafhankelijkheid (KB plichtenleer art. 13).\n3. Opdrachtbrief tekent inbrengende partij + accountant.",
-      "grondslag": "WVV art. 5:7 + ITAA-norm-algemene-controlenorm"
+  "definitie": {
+    "text": "Het verslag bij inbreng in natura is een wettelijk voorbehouden opdracht waarbij een gecertificeerd accountant of bedrijfsrevisor (bij afwezigheid van commissaris) een verslag opstelt over de waardering van goederen of een bedrijfstak die als kapitaalinbreng worden ingebracht in een vennootschap, vóór de oprichtingsakte of de akte van kapitaalverhoging. De beroepsbeoefenaar verifieert of de toegepaste waardering ten minste overeenkomt met de te emitteren aandelen, zodat schuldeisers en mede-aandeelhouders niet benadeeld worden door een gefingeerde kapitaalvorming.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 5:7 (BV) en art. 7:7 (NV)"
     },
+    "references": [
+      {
+        "type": "wet",
+        "short": "WVV art. 5:7 (BV)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 7:7 (NV)"
+      },
+      {
+        "type": "norm",
+        "short": "ITAA-norm Opdrachtbrief (verplichting voor contractuele opdracht)"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-effectennorm__sec_v-2-verslag",
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-fusie-splitsing__sec_3-deontologische-aspecten",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": "Een onderneming kan kapitaal vormen of verhogen door geld in te brengen (inbreng in geld) of door iets anders dan geld — een gebouw, een handelsfonds, vorderingen, knowhow (inbreng in natura). Bij inbreng in natura ontstaat een waarderingsrisico: de inbrenger kan de waarde van zijn goederen overdrijven en zo aandelen ontvangen die meer vertegenwoordigen dan hij werkelijk heeft ingebracht. Het WVV (art. 5:7 voor BV, 7:7 voor NV) eist daarom een onafhankelijk verslag van een externe accountant of bedrijfsrevisor (of de commissaris) dat de waardering toetst en aan de oprichtingsakte wordt gehecht. Bij vennootschappen met commissaris is het zijn opdracht; anders gedeeld monopolie GA / bedrijfsrevisor.",
+  "bouwstenen": [
     {
-      "nr": 2,
-      "titel": "Beschrijving + waardering",
-      "wat": "Inbreng identificeren (welke goederen of activiteit), waarderingsmethode beoordelen, redelijkheid waarde verifiëren.",
-      "waarom": "Overwaardering = kapitaalvorming met fictieve waarde — schadelijk voor schuldeisers.",
-      "hoe": "1. Lijst alle ingebrachte goederen.\n2. Beoordeel waarderingsmethode (markt, vervangingswaarde, going-concern).\n3. Verkrijg supporting documents (taxatie, koopovereenkomsten, technische rapporten).\n4. Voer kritische review uit.",
-      "voorbeeld": {
-        "scenario": "Yperse Werkplaats BV brengt productiehal in nieuwe dochter Yperse Werkplaats Polen sp. z o.o.",
-        "substappen": [
+      "titel": "Identificatie en omschrijving inbreng",
+      "wat": "De beroepsbeoefenaar identificeert wat precies wordt ingebracht: lijst van goederen, een bedrijfstak, vorderingen, immateriële activa. Elke component wordt afzonderlijk beschreven met kenmerken (locatie, kwantiteit, juridische status).",
+      "waarom": "Zonder eenduidige beschrijving kan de waardering niet getoetst worden — en kan na de oprichting niet vastgesteld worden of de inbreng effectief is overgedragen.",
+      "grondslag": "WVV art. 5:7 §1",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 5:7 §1"
+      },
+      "_provenance": {
+        "inputs": [
           {
-            "nr": 1,
-            "titel": "Goed",
-            "type": "opmerking",
-            "data": "Productiehal te Ieper, 2.500m², bouwjaar 2018."
-          },
-          {
-            "nr": 2,
-            "titel": "Waardering",
-            "type": "berekening",
-            "data": "Markttaxatie door erkend deskundige: € 850.000\nBoekwaarde in Yperse Werkplaats BV: € 620.000\nVerschil: € 230.000 (markt > boek) — meerwaarde verantwoord toegelicht."
+            "id": "ITAA-norm-effectennorm__sec_v-2-verslag",
+            "version": "rag-v1"
           }
         ]
-      },
-      "grondslag": "WVV art. 5:7 §3 + ITAA-norm"
+      }
     },
     {
-      "nr": 3,
-      "titel": "Verslag opmaken + conclusie",
-      "wat": "Schriftelijk verslag met identificatie + beschrijving + waarderingsanalyse + conclusie over of inbreng minstens overeenkomt met de waarde waarvoor aandelen worden uitgegeven.",
-      "waarom": "Conclusie is de wettelijke waarborg voor schuldeisers + aandeelhouders.",
-      "hoe": "1. Structureer per WVV-vereisten.\n2. Conclusie expliciet: 'Op basis van mijn werkzaamheden, kom ik tot het besluit dat de waarde van de inbreng minstens overeenkomt met...'.\n3. Onderteken in eigen naam (KB plichtenleer art. 18).\n4. Neerleggen bij notaris vóór akte.",
-      "grondslag": "WVV art. 5:7 + KB plichtenleer art. 18"
+      "titel": "Toetsing waarderingsmethode",
+      "wat": "Toets of de toegepaste waarderingsmethode (markt, DCF, herwaarderingsbasis, expert-rapport) passend is voor de aard van de inbreng en consistent toegepast.",
+      "waarom": "Niet elke methode past bij elk type goed: vastgoed vraagt expert-rapport, vorderingen nominaal-met-correctie, immateriële activa DCF. Verkeerde methode = onbetrouwbare waardering.",
+      "grondslag": "WVV art. 5:7 §2 + ITAA-vakdoctrine",
+      "confidence": "inferred-from-aggregation",
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 5:7 §2"
+      },
+      "in_praktijk": "Bij vastgoed: vraag of vereis een onafhankelijk expert-rapport (taxatieverslag); bij vorderingen: toets recuperatierisico; bij handelsfondsen: DCF met sensitiviteits-analyse.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-effectennorm__sec_v-2-verslag",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Redelijkheid + verhouding tot uit te geven aandelen",
+      "wat": "Vergelijk de waardering met het aantal en de fractiewaarde van de te emitteren aandelen. De beroepsbeoefenaar concludeert of de inbreng tenminste overeenkomt met de aandelen.",
+      "waarom": "Onderwaardering benadeelt de inbrenger, overwaardering benadeelt de andere aandeelhouders en schuldeisers. De wettelijke waarborg is dat 'inbreng = aandelen' redelijk gewaarborgd is.",
+      "grondslag": "WVV art. 5:7 §3",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 5:7 §3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-effectennorm__sec_v-2-verslag",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Conclusie en deponering bij notaris",
+      "wat": "Schriftelijk verslag met identificatie, omschrijving, waardering, conclusie en handtekening. Wordt aan de oprichtingsakte of kapitaalverhogingsakte gehecht door de notaris en mee gedeponeerd bij de griffie binnen 15 dagen voor publicatie in het Belgisch Staatsblad.",
+      "waarom": "Het verslag is een onlosmakelijk deel van de notariële akte — zonder geldig verslag kan de akte aangevochten worden en de kapitaalvorming nietig zijn.",
+      "grondslag": "WVV art. 5:7 + KB plichtenleer art. 18 + ITAA-norm Opdrachtbrief",
+      "confidence": "inferred-from-aggregation",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Opdrachtbrief"
+      },
+      "in_praktijk": "Definitief verslag minstens 5 werkdagen vóór notarisakte beschikbaar — wijzigingen op de dag van akte zijn niet meer mogelijk.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-fusie-splitsing__sec_3-deontologische-aspecten",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Inbreng van een productiehal bij oprichting van een dochter",
+      "cast": [
+        "Yperse Werkplaats BV",
+        "Yperse Werkplaats Polen sp. z o.o.",
+        "Sofie Janssens"
+      ],
+      "omschrijving": "Yperse Werkplaats BV richt een Poolse dochter op en brengt haar productiehal in Ieper in als kapitaalinbreng. De zaakvoerder schakelt Sofie Janssens (gecertificeerd accountant) in voor het inbreng-in-natura-verslag.",
+      "stappen": [
+        "1. Identificatie: productiehal te Ieper, 2.500 m², bouwjaar 2018.",
+        "2. Waarderingsmethode: marktwaarde via taxatieverslag van een onafhankelijk vastgoedexpert.",
+        "3. Markttaxatie: € 850.000. Boekwaarde Yperse Werkplaats BV: € 620.000. Verschil van € 230.000 toegelicht als herwaardering tegen marktwaarde.",
+        "4. Yperse Werkplaats Polen emitteert 850 nieuwe aandelen aan fractiewaarde € 1.000 = € 850.000.",
+        "5. Slotsom: 'De waardering van € 850.000 komt ten minste overeen met het aantal en de fractiewaarde van de uit te geven aandelen, conform WVV art. 5:7.'"
+      ]
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Bij vastgoed of complexe activa: de accountant kan steunen op een expert-rapport maar moet de redelijkheid van de waardering bevestigen — niet zelf vastgoed waarderen zonder vastgoed-expertise.",
+      "confidence": "inferred-from-aggregation",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-vakdoctrine + KB plichtenleer art. 14 (bekwaamheid)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-fusie-splitsing__sec_3-deontologische-aspecten",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Bij wettelijk voorbehouden opdrachten (waaronder inbreng in natura) mag de aansprakelijkheid NIET worden beperkt — een beperkingsclausule in de opdrachtbrief is nietig (Wet ITAA 2019 art. 44).",
+      "confidence": "grounded",
+      "source": {
+        "type": "wet",
+        "short": "Wet ITAA 2019 art. 44"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wet-ITAA-2019__art_44",
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
     {
       "type": "onderdeel-van",
       "target": "bijzondere-verslagen-overzicht",
-      "redenering": "Type wettelijk verslag."
+      "redenering": "Eén van de typische bijzondere verslagen uit het WVV."
+    },
+    {
+      "type": "specialisatie-van",
+      "target": "gedeelde-wettelijk-voorbehouden-opdracht",
+      "redenering": "Gedeeld monopolie GA / bedrijfsrevisor wanneer geen commissaris."
     },
     {
       "type": "vereist-kennis-van",
       "target": "onafhankelijkheid-externe-accountant",
       "redenering": "Onafhankelijkheid is voorwaarde voor wettelijke verslagen."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "quasi-inbreng-verslag",
+      "redenering": "Beide WVV-waarderingsverslagen; verschil = inbreng bij oprichting/kapitaalverhoging vs. verwerving binnen 2 jaar na oprichting.",
+      "facet": {
+        "aspect": "moment van de verrichting"
+      }
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "quasi-inbreng-verslag",
+      "verschil": "Inbreng in natura = goederen worden bij oprichting of bij kapitaalverhoging direct als kapitaal ingebracht (WVV 5:7/7:7). Quasi-inbreng = de vennootschap verwerft binnen 2 jaar na oprichting een goed van een oprichter/bestuurder voor minstens 1/10 van het kapitaal (WVV 5:8/7:8) — dezelfde controle om ontwijking van inbreng-regels te beletten.",
+      "trigger": "Examen-keuze: 'goederen bij oprichting of kapitaalverhoging als kapitaal' → inbreng in natura. 'aankoop van goederen van oprichter/bestuurder binnen 2 jaar na oprichting voor ≥ 1/10 kapitaal' → quasi-inbreng.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-effectennorm__sec_v-2-verslag",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "migrated_to_schema_1.6_at": "2026-05-18"
 }

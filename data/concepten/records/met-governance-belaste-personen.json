@@ -2,20 +2,26 @@
   "id": "met-governance-belaste-personen",
   "naam": "Met governance belaste personen",
   "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
+    "1.6.II.A",
     "1.6.III.E",
-    "1.6.II.A"
+    "1.7.IV"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave1b2",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.III.E",
     "dekt_ook_anchors": [
       "1.6.II.A"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
+    "situering_added_v4": "2026-05-18",
+    "edge_key_migrated": "2026-05-18",
+    "touched_at": "2026-05-18T17:35:07Z",
+    "note": "Wave1 batch2 — 1.7.IV toegevoegd aan linked_anchors (cross-PO actor) + edge naar auditcomite."
   },
   "definitie": {
     "text": "De met governance belaste personen zijn de persoon (personen) of organisatie(s) — bv. de bestuurders van een vennootschap — die verantwoordelijk zijn voor het uitoefenen van toezicht op de strategische aansturing van de onderneming en op haar verantwoordingsverplichtingen. Hun verantwoordelijkheid omvat het toezicht op het proces van financiële verslaggeving.",
@@ -75,8 +81,13 @@
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "communicatie-met-management-governance",
-      "redenering": "Communicatie is een verplichte interactie."
+      "redenering": "Communicatie is een verplichte interactie.",
+      "target_id": "communicatie-met-management-governance"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "auditcomite",
+      "redenering": "ISA 260 §A2: auditcomité is een typische subgroep van de met governance belaste personen met gedelegeerde taken rond financiële verslaggeving en IC-oversight."
     }
   ],
   "voorbeelden": [
@@ -85,5 +96,22 @@
       "omschrijving": "Bij Rotex Roeselare NV: de bestuurders Marleen De Cock, Pieter Vermeulen en Robert Vandenberghe samen vormen 'de met governance belaste personen'. Bij Meubelzaak Mertens BV (eenpersoons-BV): de zaakvoerder is tegelijk eigenaar-bestuurder."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Met governance belaste personen zijn de personen of organen die toezien op de strategische richting en de verantwoording van de entiteit — typisch het bestuur, de raad van toezicht of een auditcomité. De accountant communiceert met hen (niet met de dagelijkse leiding) bij risico-inschatting, bevindingen over interne beheersing en eindrapportering. ISA 260 en 265 vormen de communicatie-as.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 260 + ISA 265"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-260__sec_definities",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

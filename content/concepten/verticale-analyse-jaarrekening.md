@@ -19,7 +19,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/verticale-analyse-jaarrekening.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -151,9 +151,6 @@ Resultaat: Brutomarge 40 % (na handelsgoederen); bedrijfsmarge 8,4 %; nettomarge
 
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (1): [[analytische-balans]]
 ## Bronnen
 
 [^1]: `anchor-1.3.I.C`

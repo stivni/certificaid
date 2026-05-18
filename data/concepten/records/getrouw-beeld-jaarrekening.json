@@ -2,7 +2,7 @@
   "id": "getrouw-beeld-jaarrekening",
   "naam": "Getrouw beeld van de jaarrekening",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV",
@@ -250,5 +250,6 @@
       ]
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "naam_alternatief": "true and fair view (financial statements) / image fidèle (comptes annuels)"
 }

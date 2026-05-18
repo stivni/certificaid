@@ -16,11 +16,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/ratio-covenants.json
 gegenereerd_op: '2026-05-18'
 ---
 # Ratiocovenants (financial covenants) 🤖
+
+Ratiocovenants zijn contractuele clausules in kredietovereenkomsten die de onderneming verbinden tot het respecteren van financiële drempels (max. debt-equity, min. solvabiliteit, min. interest coverage, …). Doorbreking triggert opeisbaarheid of strafrente. Voor de analist: een ratio die op zich sterk lijkt kan toch tegen een covenant-drempel aanleunen — het maakt covenant-clausules raadplegen tot een verplichte stap.
 
 > [!summary] Korte inhoud
 > Een ratiocovenant is een contractuele clausule (typisch in een bankkredietovereenkomst of obligatielening) die de kredietnemer verplicht om bepaalde financiële ratio's binnen een afgesproken bandbreedte te houden.
@@ -83,3 +85,4 @@ _Grondslag: Bankpraktijk_
 
 [^1]: `anchor-1.3.I.D`
 [^2]: `anchor-1.3.II.C`
+[^3]: `aggregate`

@@ -2,7 +2,7 @@
   "id": "uniforme-waarderingsregels-consolidatie",
   "naam": "Uniforme waarderingsregels in de consolidatie",
   "node_type": "regel",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.D",
@@ -49,6 +49,15 @@
         "in_praktijk[*].betekenis (stagiair-toon + cast)",
         "valkuilen[*].text (stagiair-toon)",
         "edges: contrasteert-met integrale-consolidatie → vereist-door"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -314,5 +323,19 @@
       "omschrijving": "Brugse Brouwerij BV (dochter van Aurelia Holding NV) schreef haar gebouwen fiscaal versneld af (15 jaar). Voor de geconsolideerde jaarrekening werkt Aurelia die afschrijvingen om naar economisch verantwoorde duur (30 jaar), zodat alle gebouwen van de groep volgens dezelfde regels in de geconsolideerde balans staan."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "uniform accounting policies in consolidation",
+  "situering": {
+    "text": "Een coherentie-beginsel in het Belgische boekhoudrecht-consolidatieregime (KB WVV Boek 3, Titel 2). Door dezelfde waarderingsregels op alle groepsleden toe te passen, ontstaat een geconsolideerd beeld dat economisch vergelijkbaar is — los van toevallige verschillen tussen de enkelvoudige boekhoudingen van dochters.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

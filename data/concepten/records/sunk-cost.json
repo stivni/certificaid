@@ -2,7 +2,7 @@
   "id": "sunk-cost",
   "naam": "Sunk cost (reeds gemaakte kost)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.E",
@@ -68,5 +68,18 @@
       "omschrijving": "Yperse Werkplaats BV heeft 3 jaar geleden een naaimachine gekocht voor € 280.000 (sunk). Boekwaarde nu € 196.000. Wanneer de directie nu kiest tussen 'opdracht uitvoeren' en 'opdracht weigeren', telt deze € 196.000 niet mee in de keuze — alleen de toekomstige extra kost (variabele kost, eventuele extra arbeidsuren)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "sunk cost / verzonken kost",
+  "situering": {
+    "text": "Een sunk cost is een al gemaakte, onomkeerbare kost — een uitgave die niet meer door een toekomstige beslissing beïnvloed kan worden. Sunk costs zijn principieel irrelevant voor beslissingen over de toekomst (extra-order accepteren, project stopzetten, machine vervangen). Toch worden ze in praktijk vaak meegeteld vanuit psychologische reden ('we hebben er al zoveel in gestoken') — een klassieke beslissingsbias.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }

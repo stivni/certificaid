@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voorbepaalde-kosten.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -87,4 +87,4 @@ Yperse: standaard materiaal 1,2 kg × € 5 = € 6. Werkelijk: 1,3 kg × € 5,
 ## Zie ook
 
 - **Vereist kennis van**: [[verschillenboekhouding]]
-- **Wordt voorondersteld in** (1): [[verschillenboekhouding]]
+

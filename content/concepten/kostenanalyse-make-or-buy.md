@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kostenanalyse-make-or-buy.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -46,6 +46,63 @@ Voor Yperse Werkplaats BV is wol-spinnen mogelijk een strategisch differentiatie
 
 
 
+## Berekening
+
+### Make-or-buy beslissings-stappen
+
+*Vijf-stappen-protocol om de keuze tussen zelf produceren (make) en uitbesteden (buy) financieel te onderbouwen — inclusief opportuniteitskosten en lange-termijn-overwegingen.*
+
+### 1. Identificeer relevante kosten
+
+Lijst kosten die wél veranderen door de beslissing: variabele productiekosten, vermijdbare directe vaste kosten (extra personeel, gehuurde machine), opportuniteitskosten van de inzet van vrije capaciteit.
+
+**🛠️ Hoe**:
+
+Schrap niet-relevante kosten: gemeenschappelijke vaste kosten (huur productiehal die je niet kan verminderen door uitbesteding), sunk costs (al gemaakte investering in machines).
+
+**Grondslag**: [[sunk-cost]] · [[opportuniteitskost]]
+
+### 2. Bereken make-kost
+
+Som van relevante kosten bij zelf produceren: variabel materiaal + variabele arbeid + vermijdbare vaste kosten + opportuniteitskost van de schaarse middelen (machine, mensen, ruimte).
+
+**🛠️ Hoe**:
+
+Pas op met indirecte kosten: alleen vermijdbare meetellen, niet de volledig toegerekende overhead. Tip: vergelijk de incrementele kost van de make-optie, niet de full-cost-rapportage.
+
+**Grondslag**: [[directe-kosten]] · [[indirecte-kosten]]
+
+### 3. Bereken buy-kost
+
+Externe prijs van leverancier + nevenkosten (transport, inkoopopvolging, kwaliteitscontrole, voorraadopslag). Subtraheer eventueel vermeden interne kosten.
+
+**🛠️ Hoe**:
+
+Externe offerte als basis; voeg verborgen kosten toe: keuringen, retourbeheer, dependency op leverancier (extra voorraad als buffer).
+
+**Grondslag**: Vakdoctrine
+
+### 4. Vergelijk + check strategische factoren
+
+Financiële vergelijking + niet-financiële afweging: knowhow-behoud, leveringszekerheid, kwaliteitscontrole, IP-bescherming, sociaal-impact (jobverlies). Make wordt verkozen wanneer make-kost ≤ buy-kost en strategische factoren neutraal of pro-make. Buy bij omgekeerd plaatje.
+
+**🛠️ Hoe**:
+
+Maak een tabel: make-kost vs. buy-kost + 4-6 niet-financiële criteria met gewichten of pro/contra-notities.
+
+**Grondslag**: Vakdoctrine
+
+### 5. Gevoeligheidsanalyse
+
+Test hoe de uitkomst verandert bij wijziging van volume (uitbesteder geeft schaalvoordeel? eigen productie schaalt minder?), prijsverandering leverancier, capaciteitsbenutting (overcapaciteit → make goedkoper).
+
+**🛠️ Hoe**:
+
+Twee à drie scenario's: pessimistisch (volume daalt 20 %), basis, optimistisch. Identificeer break-even-volume tussen make en buy.
+
+**Grondslag**: Vakdoctrine
+
+
 ## In de praktijk
 
 <h3 id="standaard-examen-valkuil">Standaard examen-valkuil</h3>
@@ -58,4 +115,4 @@ Voor Yperse Werkplaats BV is wol-spinnen mogelijk een strategisch differentiatie
 
 - **Vereist kennis van**: [[marginale-kostprijs]]
 - **Vereist kennis van**: [[variabele-kosten]]
-- **Wordt voorondersteld in** (1): [[sunk-cost]]
+

@@ -9,13 +9,16 @@
     "1.6.III.A"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.II.B",
     "dekt_ook_anchors": [
       "1.6.III.A"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T17:00Z",
+    "situering_added_v4": "2026-05-18",
+    "edge_key_migrated": "2026-05-18"
   },
   "definitie": {
     "text": "Een significant risico is een onderkend en ingeschat risico op een afwijking van materieel belang waaraan — volgens het oordeel van de beroepsbeoefenaar — tijdens de controle SPECIALE aandacht moet worden besteed. Voor zulke risico's altijd substantive procedures plannen, ook als de IC sterk lijkt.",
@@ -62,8 +65,8 @@
   "edges": [
     {
       "type": "onderdeel-van",
-      "target": "risico-inschatting-audit",
-      "redenering": "Uitkomst van de risico-inschatting."
+      "redenering": "Uitkomst van de risico-inschatting.",
+      "target_id": "risico-inschatting-audit"
     }
   ],
   "voorbeelden": [
@@ -72,5 +75,22 @@
       "omschrijving": "Bij Rotex Roeselare NV markeert Sofie Janssens de waardering van een grote impairment-test (€ 4.500.000 goodwill) als significant risico: hoge schattingsonzekerheid + management-bias mogelijk. Gevolg: uitgebreide substantive procedures + onafhankelijke valuator + extra dossierdiepte."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Significante risico's zijn risico's waarvoor de auditor in zijn risico-inschatting concludeert dat ze speciale aandacht vragen. ISA 315 (herzien 2019) verplicht hem om voor elk significant risico substantive procedures te plannen — ook als de IC sterk lijkt. Typische triggers: niet-routinematige transacties, schattings-risico, fraude-risico, complexe contracten.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 315 (herzien 2019) §27–32"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-315__sec_toepassingsgerichte-en-overige-verklarende-teksten",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

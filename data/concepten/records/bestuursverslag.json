@@ -2,7 +2,7 @@
   "id": "bestuursverslag",
   "naam": "Bestuursverslag (jaarverslag)",
   "node_type": "procedure",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV",
@@ -246,19 +246,25 @@
       "target": "getrouw-beeld-jaarrekening",
       "redenering": "Bestuursverslag is de narratieve tegenhanger van de cijfers — beide samen geven het getrouwe beeld.",
       "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "corporate-governance-verklaring",
-      "redenering": "Corporate-governance-verklaring is een apart deel van het bestuursverslag voor sommige vennootschappen.",
-      "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "risicoparagraaf-bestuursverslag",
-      "redenering": "Risico's en onzekerheden zijn een verplichte rubriek in het bestuursverslag.",
-      "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Voor grote vennootschappen is het bestuursverslag het document waarin het bestuursorgaan **duiding** geeft bij de cijfers: ontwikkeling, resultaten, positie, risico's, niet-financiële informatie. Het is wat de jaarrekening niet vertelt. Voor de stagiair-GA staat de procedurele kant centraal: wanneer is het verplicht (groot, of klein-met-groep), wat moet erin staan (WVV art. 3:5 e.v.), en hoe verschilt het van het commissarisverslag.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "WVV-bestuursverslag + vakdoctrine"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "aggregate",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "naam_alternatief": "directors' report / rapport de gestion"
 }

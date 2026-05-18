@@ -1,8 +1,8 @@
 {
   "id": "horizontale-consolidatie",
   "naam": "Horizontale consolidatie",
-  "node_type": "procedure",
-  "schema_version": "1.5",
+  "node_type": "cluster",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -58,6 +58,16 @@
       "op": "2026-05-16",
       "velden_gewijzigd": [
         "stappen[3].voorbeeld.substappen (fix C): balans-tabellen met €-bedragen (consortium Industria/Jachthaven, schaal € 4.000.000-niveau)"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "type procedure→cluster",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -432,5 +442,19 @@
       "omschrijving": "Industria Antwerpen NV en Jachthaven Jezus-Eik NV staan onder gemeenschappelijke leiding van Pieter Vermeulen, zonder dat één van beide vennootschap de andere controleert → horizontale consolidatie: hun balansen, resultatenrekeningen en eigen-vermogensposten worden integraal samengevoegd in één geconsolideerde jaarrekening; de reserves van elk lid blijven afzonderlijk zichtbaar."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "horizontal consolidation",
+  "situering": {
+    "text": "De consolidatietechniek voor consortia onder het Belgische boekhoudrecht (KB WVV Boek 3, Titel 2): zustervennootschappen zonder moeder-dochter-relatie maar onder gemeenschappelijke leiding worden samengebracht in één geconsolideerde jaarrekening. Het regime ondervangt feitelijke groepen die anders aan de consolidatieplicht zouden ontsnappen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2 — horizontale consolidatie"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

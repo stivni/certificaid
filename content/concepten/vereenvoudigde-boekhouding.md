@@ -17,18 +17,18 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/vereenvoudigde-boekhouding.json
 gegenereerd_op: '2026-05-18'
 ---
 # Vereenvoudigde boekhouding ⚖️
 
+Een **alternatief boekhoudregime** voor kleine ondernemingen onder de WER-drempels: geen rekeningenstelsel, wel een aankoop-, verkoop- en financieel dagboek + inventaris. Voor de stagiair-GA cruciaal om de drempels (WER art. III.85) te kennen én te zien wanneer je tóch dubbele boekhouding moet aanraden.
+
 > [!summary] Korte inhoud
 > Een **alternatieve boekhoudvorm** voor kleine ondernemingen onder de wettelijke drempelwaarden (WER art. III.85), die GEEN dubbele boekhouding vereist.
 
 > [!info] Specialisatie van: [[regelmatige-boekhouding]]
-
-> [!info] Specialisaties (1): [[regelmatige-boekhouding]]
 
 Een **alternatieve boekhoudvorm** voor kleine ondernemingen onder de wettelijke drempelwaarden (WER art. III.85), die GEEN dubbele boekhouding vereist. In plaats van een rekeningstelsel met debet/credit gebruikt de onderneming **drie aparte dagboeken**: een financieel dagboek (bank en kas), een aankoopdagboek (alle uitgaven) en een verkoopdagboek (alle inkomsten). De jaarrekening is een vereenvoudigd schema (staat van ontvangsten en uitgaven + opgave van het vermogen).
 

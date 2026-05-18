@@ -2,7 +2,7 @@
   "id": "samenstelling-statutaire-jaarrekening",
   "naam": "Samenstelling van de statutaire jaarrekening",
   "node_type": "procedure",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.taak.1",
@@ -240,5 +240,7 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": "Aan het einde van elk boekjaar stelt het bestuursorgaan, op basis van proef- en saldibalans en de eindejaarsverrichtingen, de **statutaire jaarrekening** op volgens het toepasselijke schema. Voor de stagiair-GA de procedurele kapstok van PO 1.2: deze procedure verbindt alle deelthema's (beginselen, schema, openbaarmaking, commissaris).",
+  "naam_alternatief": "preparation of statutory accounts / établissement des comptes annuels statutaires"
 }

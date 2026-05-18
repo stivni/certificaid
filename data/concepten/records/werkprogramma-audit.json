@@ -10,18 +10,19 @@
     "1.6.III"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.III.B",
     "dekt_ook_anchors": [
       "1.6.III.A"
     ],
     "reviewed_by": null,
-    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
     "edge_cleanup_v4": {
       "op": "2026-05-18",
       "reden": "vereist-kennis-van auditstrategie toegevoegd (compenseert gedeprecieerde bevat-edge op auditstrategie); situering toegevoegd"
-    }
+    },
+    "edge_key_migrated": "2026-05-18"
   },
   "definitie": {
     "text": "Een werkprogramma (of werkschema) is een schriftelijke beschrijving van de controlewerkzaamheden die uitgevoerd zullen worden — met aanduiding van wanneer en hoe ze gebeuren en hoeveel tijd ze in beslag nemen. Het is de uitvoeringsblauwdruk van de audit: per assertie, per rekeningsaldo of per transactiestroom geeft het werkprogramma aan welke procedures de auditor zal toepassen.",
@@ -81,18 +82,18 @@
   "edges": [
     {
       "type": "onderdeel-van",
-      "target": "auditplanning",
-      "redenering": "Werkprogramma is de operationele kern van de planning."
+      "redenering": "Werkprogramma is de operationele kern van de planning.",
+      "target_id": "auditplanning"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "controledocumentatie",
-      "redenering": "Werkprogramma is een verplicht onderdeel van het controledossier."
+      "redenering": "Werkprogramma is een verplicht onderdeel van het controledossier.",
+      "target_id": "controledocumentatie"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "auditstrategie",
-      "redenering": "Werkprogramma vertaalt de algehele strategie (ISA 300 §7) in concrete controlewerkzaamheden (§9). Strategie is input."
+      "redenering": "Werkprogramma vertaalt de algehele strategie (ISA 300 §7) in concrete controlewerkzaamheden (§9). Strategie is input.",
+      "target_id": "auditstrategie"
     }
   ],
   "voorbeelden": [

@@ -2,7 +2,7 @@
   "id": "leasing",
   "naam": "Leasing (financieel en operationeel)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.W",
@@ -15,7 +15,16 @@
     "dekt_ook_anchors": [
       "1.1.II.B"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "definitie": {
     "text": "Een overeenkomst waarbij een **leasinggever** het gebruik van een goed (auto, machine, gebouw) afstaat aan een **leasingnemer** tegen periodieke vergoeding. Twee soorten met fundamenteel verschillende boekhoudkundige verwerking: (1) **Financiële leasing** — de leasingvergoedingen dekken de **integrale wedersamenstelling van het kapitaal** dat de gever in het goed investeerde (plus rente). Economisch een aankoop met financiering → activering bij leasingnemer (rubriek 25 MVA in leasing). (2) **Operationele leasing** — vergoedingen dekken NIET de integrale wedersamenstelling. Economisch een huur → kost in resultaat bij leasingnemer.",
@@ -245,5 +254,15 @@
       "pass": "concept-extractie-v4-1.5.V",
       "reason": "Onjuiste specialisatie-van -> materiele-vaste-activa gemigreerd naar vereist-kennis-van: leasing is geen regime-/subtype-specialisatie van MVA."
     }
-  ]
+  ],
+  "naam_alternatief": "lease / leasing",
+  "situering": {
+    "text": "De Belgische GAAP-classificatie loopt fundamenteel anders dan IFRS — financieel/operationeel hangt af van wedersamenstellings-criterium, niet van risico-overdracht. Voor een stagiair-GA: cruciaal om beide regimes uit elkaar te houden en het juiste te kiezen volgens het toepasselijke kader (B-GAAP voor de meeste KMO's, IFRS bij genoteerd of consoliderende moeder).",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

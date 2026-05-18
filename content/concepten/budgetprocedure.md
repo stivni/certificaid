@@ -2,7 +2,7 @@
 title: Budgetprocedure
 tags:
 - concept
-- procedure
+- cluster
 - po-1-8
 linked_anchors:
 - 1.8.VI.C
@@ -10,13 +10,15 @@ linked_anchors:
 programmaonderdelen:
 - '1.8'
 confidence: inferred
-node_type: procedure
+node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/budgetprocedure.json
 gegenereerd_op: '2026-05-18'
 ---
 # Budgetprocedure 🤖
+
+De budgetprocedure is het concrete vijf-fasen-proces (richtlijnen, decentrale ramen, consolidatie, goedkeuring, opvolging) waarmee een onderneming jaarlijks zijn budget opstelt en opvolgt. Eigenaarschap en doorlooptijden zijn cruciaal: een procedure die in november start raakt opgejaagd en levert zwakke ramingen. De vijfde fase (periodieke opvolging) verbindt budgetprocedure naadloos met verschillenboekhouding.
 
 > [!summary] Korte inhoud
 > Een budgetprocedure verloopt typisch in vijf opeenvolgende fasen: richtlijnen opstellen, decentraal ramen, consolidatie en confrontatie, goedkeuring en distributie, periodieke opvolging.
@@ -28,17 +30,16 @@ Een budgetprocedure verloopt typisch in vijf opeenvolgende fasen: richtlijnen op
 _Bron: Management accounting — bron-gap_
 
 
-## Tijdlijn
+## Berekening
 
-| Stap | Termijn | Actor | Actie |
-|---|---|---|---|
-| Richtlijnen opstellen | september (3-4 maanden vóór boekjaar) | directie + CFO | budget-brief versturen |
-| Decentraal ramen | oktober | afdelingshoofden | deelbudgetten indienen |
-| Consolidatie | november | CFO | consolideren + iteratie |
-| Goedkeuring | december | raad van bestuur | formeel goedkeuren |
-| Periodieke opvolging | maandelijks jaarrond | controlling | rapport budget vs. realisatie |
+### Vijf-fasen budgetprocedure
 
-## Stappen
+*Standaard-procedure van richtlijnen tot opvolging. Indicatieve tijdlijn over een jaarcyclus:
+- Richtlijnen opstellen: september (3-4 maanden vóór boekjaar) — directie + CFO (budget-brief versturen)
+- Decentraal ramen: oktober — afdelingshoofden (deelbudgetten indienen)
+- Consolidatie: november — CFO (consolideren + iteratie)
+- Goedkeuring: december — raad van bestuur (formeel goedkeuren)
+- Periodieke opvolging: maandelijks jaarrond — controlling (rapport budget vs. realisatie)*
 
 ### 1. Stel richtlijnen op (september)
 
@@ -135,7 +136,7 @@ Maandelijks rapport budget vs. realisatie per kostencentrum. Bij significante af
 ## Zie ook
 
 - **Vereist kennis van**: [[verschillenboekhouding]]
-- **Wordt voorondersteld in** (1): [[master-budget]]
+
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

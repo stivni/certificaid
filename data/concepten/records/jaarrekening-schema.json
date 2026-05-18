@@ -2,7 +2,7 @@
   "id": "jaarrekening-schema",
   "naam": "Jaarrekening-schema (volledig, verkort, micro)",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.C",
@@ -221,5 +221,7 @@
       "omschrijving": "Rotex Roeselare NV (grote) → volledig schema. Meubelzaak Mertens BV (klein) → verkort schema. Oprichtingen Oostende BV (micro, geen dochter) → microschema."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "Het jaarrekening-schema is de **voorgeschreven opbouw en presentatie** van balans, resultatenrekening en toelichting. Het KB-WVV onderscheidt drie modellen (volledig, verkort, micro) die rechtstreeks gekoppeld zijn aan grootteklasse. Voor stagiairs het tweede beslispunt bij elke jaarrekening: 'welk schema mag/moet deze vennootschap gebruiken?'",
+  "naam_alternatief": "annual accounts schema / schéma des comptes annuels"
 }

@@ -2,7 +2,7 @@
   "id": "klasseren-vennootschap-naar-groottecategorie",
   "naam": "Klasseren van een vennootschap als micro, klein of groot volgens de groottecriteria",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Klasseren van een vennootschap als micro, klein of groot volgens de groottecriteria",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -253,5 +253,6 @@
     "1.2.IV.B",
     "1.2.IV"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": "Klasseren naar grootte (micro, klein of groot) is de basistoets die elke vennootschapsdossier opent — ze stuurt jaarrekening-schema, commissaris-verplichting en consolidatieverplichting. De competentie vergt rekenen met de drempels én correct toepassen van de cascade (twee-opeenvolgende-boekjaren-regel + verbondenheidstoets)."
 }

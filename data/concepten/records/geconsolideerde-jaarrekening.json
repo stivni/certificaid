@@ -2,7 +2,7 @@
   "id": "geconsolideerde-jaarrekening",
   "naam": "Geconsolideerde jaarrekening",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.F",
@@ -62,6 +62,16 @@
         "in_praktijk[*].betekenis (stagiair-toon)",
         "valkuilen[*].text (stagiair-toon)",
         "edges: types geverifieerd"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "deprecated edges -2",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -442,24 +452,6 @@
   ],
   "edges": [
     {
-      "type": "bevat",
-      "target": "geconsolideerd-jaarverslag",
-      "redenering": "Het geconsolideerd jaarverslag begeleidt altijd de geconsolideerde jaarrekening (samen opgesteld, gecontroleerd en gepubliceerd). De jaarrekening is het cijfermatige deel, het jaarverslag het narratieve deel.",
-      "_corrected_from": {
-        "veld": "contrasteert-met → bevat",
-        "reden": "Schema 1.4 regel 9: relatie is compositioneel (samenpaard), niet contrast."
-      },
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    },
-    {
       "type": "getriggerd-door",
       "target": "consolidatieverplichting",
       "redenering": "De plicht om een geconsolideerde jaarrekening op te stellen volgt uit de consolidatieverplichting (controle + geen vrijstelling).",
@@ -482,12 +474,6 @@
       "target": "consolidatiekring",
       "redenering": "De geconsolideerde jaarrekening dekt alleen de vennootschappen die binnen de consolidatiekring vallen.",
       "confidence": "inferred"
-    },
-    {
-      "type": "bevat",
-      "target": "minderheidsbelangen",
-      "redenering": "Belangen van derden (minderheidsbelangen) worden expliciet apart vermeld in balans en resultatenrekening van de geconsolideerde jaarrekening (KB WVV art. 3:107).",
-      "confidence": "inferred"
     }
   ],
   "voorbeelden": [
@@ -496,5 +482,19 @@
       "omschrijving": "Aurelia Holding NV stelt op 31 december 20X1 één geconsolideerde jaarrekening op die de cijfers van Aurelia + Brugse Brouwerij BV (80 %) + Bouwwerf Beerse BV (100 %) samenvoegt — alsof alledrie samen één bedrijf zijn. Onderlinge vorderingen tussen Aurelia en Brugse verdwijnen; 20 % van het eigen vermogen van Brugse staat apart als belangen van derden."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": "consolidated financial statements",
+  "situering": {
+    "text": "Het centrale rapporteringsproduct van een groep onder het Belgische vennootschapsrecht (WVV) en het KB WVV: één jaarrekening die moeder en dochters voorstelt alsof het één economische entiteit is. Ze maakt onderlinge transacties zichtbaar geëlimineerd en geeft een getrouw beeld op groepsniveau, los van de enkelvoudige rekeningen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "WVV + KB WVV Boek 3, Titel 2"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

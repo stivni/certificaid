@@ -2,7 +2,7 @@
   "id": "externe-auditor-relatie-ic",
   "naam": "Externe auditor en interne controle — relatie",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.V.C",
@@ -10,14 +10,16 @@
     "1.7.V"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T11:46Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave2-1.7.I",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.V.C",
     "dekt_ook_anchors": [
       "1.7.I.B",
       "1.7.V"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "note": "Wave 2 1.7.I.B: schema-bump 1.5→1.6 (situering al aanwezig).",
+    "touched_at": "2026-05-18T20:30:00Z"
   },
   "definitie": {
     "text": "De externe auditor (commissaris, externe accountant) controleert de jaarrekening voor derden en moet daartoe het IC-systeem van de cliënt begrijpen. Als hij op IC wil steunen, voert hij toetsingen uit (ITAA-norm-kmo-controlenorm §97). Sterke IC → minder substantieve werkzaamheden nodig → efficiënter audit-budget. Hij geeft ook feedback aan management over IC-tekortkomingen via 'management letter' (ISA 265).",
@@ -102,5 +104,21 @@
       "omschrijving": "Bij Rotex Roeselare NV doet commissaris Sofie Janssens (Wolters & Partners CVBA) in planningsfase een walkthrough per cyclus. Aankoopcyclus: IC sterk → ze toetst 25 facturen op functiescheiding-naleving → 0 fouten → CR laag → minder substantief werk. Verkoopcyclus: IC zwak (geen krediettoetsing nieuwe klanten) → CR hoog → volledige substantieve testen van vorderingen. Management letter wijst op verkoop-IC-zwakte met aanbevelingen."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "De externe auditor (commissaris, externe accountant met wettelijke controle-opdracht) heeft een gestructureerde relatie met het IC-systeem van zijn cliënt. Hij moet IC begrijpen om risico's in te schatten (ISA 315), kan op IC steunen om gegevensgerichte werkzaamheden te beperken (ISA 330 + ITAA-norm-kmo-controlenorm §97), maar mag IC niet zelf opzetten zonder onafhankelijkheid te verliezen. Aan het einde van de opdracht communiceert hij tekortkomingen via management letter (ISA 265).",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 315 + ISA 330 + ISA 265 + ITAA-norm-kmo-controlenorm §97"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

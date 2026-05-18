@@ -2,7 +2,7 @@
   "id": "consolidatieplicht-beslisboom",
   "naam": "Moet ik consolideren? — Beslisboom",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.B",
@@ -25,7 +25,16 @@
     "dekt_ook_anchors": [
       "1.4.I.G",
       "1.4.taak.1"
-    ]
+    ],
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
+      ]
+    }
   },
   "inleiding": {
     "text": "De vraag 'moet mijn cliënt een geconsolideerde jaarrekening opmaken' wordt nooit door één criterium beantwoord. Vijf elementen werken samen: bestaat er controle? heeft de moeder rechtspersoonlijkheid? overschrijdt de groep de groottecriteria? geldt er een vrijstelling? is de groep een consortium? Dit synthese-record volgt de wettelijke beslissingsvolgorde en koppelt elke vraag aan het concept-record dat het beantwoordt.",
@@ -127,5 +136,16 @@
     "bepalen-consolidatieverplichting",
     "afbakenen-consolidatiekring"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "edges": [],
+  "naam_alternatief": "consolidation obligation decision tree",
+  "situering": {
+    "text": "Een beslisboom-synthese binnen het Belgische vennootschapsrecht (WVV) die de gatekeeper-vraag — bestaat er een consolidatieverplichting? — in afzonderlijke beslismomenten ontvouwt. Doel: de stagiair leren systematisch door grootte-, vrijstellings- en uitzonderings-gronden te gaan vooraleer hij aan de techniek begint.",
+    "confidence": "inferred",
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

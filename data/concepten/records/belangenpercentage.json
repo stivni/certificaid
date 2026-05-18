@@ -2,7 +2,7 @@
   "id": "belangenpercentage",
   "naam": "Belangenpercentage",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.4.I.C",
@@ -59,6 +59,15 @@
         "berekeningsmethode[0].stappen[*]: skeleton → vol-blok (titel+wat+waarom+input+output+hoe+grondslag, voorbeeld.substappen op stap 3)",
         "berekeningsmethode[0].formules[*]: variabelen + invulling_voorbeeld toegevoegd",
         "edges: getriggerd-door consolidatieverschil-berekening (geen toevoeging — bestaande types behouden)"
+      ]
+    },
+    "po14_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "schema 1.5→1.6",
+        "naam_alternatief",
+        "situering+"
       ]
     }
   },
@@ -449,5 +458,19 @@
       "omschrijving": "Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV → belangenpercentage = 80 %; aandeel van derden = 20 %."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "interest percentage / ownership percentage",
+  "situering": {
+    "text": "Een meetbegrip uit het Belgische boekhoudrecht-consolidatieregime (Boek 3, Titel 2 van het KB WVV). Samen met het controlepercentage onderbouwt het de kwalificatie van de relatie met een deelneming en de keuze van de consolidatietechniek. Waar controle de macht meet, meet het belangenpercentage het economisch winstrecht.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV Boek 3, Titel 2 — consolidatie"
+    },
+    "_provenance": {
+      "tool": "po14-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:19Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.4 touch-up-pass"
+    }
+  }
 }

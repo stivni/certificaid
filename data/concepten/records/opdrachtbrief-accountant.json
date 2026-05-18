@@ -7,10 +7,11 @@
   "linked_anchors": [
     "1.6.I.A",
     "1.6.III.A",
-    "1.6.III.E"
+    "1.6.III.E",
+    "1.7.taak.1"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.I.A",
     "linked_anchors": [
@@ -20,7 +21,11 @@
     ],
     "reviewed_by": null,
     "last_extract_pass": "concept-extractie-v4-2026-05-18T16:05Z",
-    "last_extract_at": "2026-05-18T16:05:00Z"
+    "last_extract_at": "2026-05-18T16:05:00Z",
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
+    "edge_key_migrated": "2026-05-18",
+    "cross_linked_1.7.taak.1": "2026-05-18T18:00Z",
+    "cross_link_reason": "Anchor 1.7.taak.1 (bijzondere verslagen / juridisch-contractuele opdrachten) dekt expliciet deze opdracht-records."
   },
   "verplichting": {
     "text": "Voor elke contractuele opdracht stelt de externe accountant een opdrachtbrief op die de scope, de verantwoordelijkheden, het ereloon en de wederzijdse verplichtingen vastlegt vóór de uitvoering begint. De opdrachtbrief is het juridische kader van de opdracht en de hefboom voor aansprakelijkheidsbeperking en bewijslast.",
@@ -88,8 +93,8 @@
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "beroepsaansprakelijkheid-accountant",
-      "redenering": "De opdrachtbrief is de plaats voor geldige aansprakelijkheidsbeperking."
+      "redenering": "De opdrachtbrief is de plaats voor geldige aansprakelijkheidsbeperking.",
+      "target_id": "beroepsaansprakelijkheid-accountant"
     }
   ],
   "voorbeelden": [

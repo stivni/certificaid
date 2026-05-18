@@ -1,8 +1,8 @@
 {
   "id": "interne-controle",
   "naam": "Interne controle",
-  "node_type": "begrip",
-  "schema_version": "1.5",
+  "node_type": "cluster",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.7.I.A",
@@ -14,7 +14,7 @@
     "1.7.taak.1"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T09:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave2-1.7.I",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.I.A",
     "dekt_ook_anchors": [
@@ -26,7 +26,9 @@
       "1.7.taak.1"
     ],
     "reviewed_by": null,
-    "bron_gap": "De ITAA-norm-kmo-controlenorm definieert 'interne beheersing' vanuit auditperspectief (Bijlage 1). De brede COSO-definitie ('proces om redelijke zekerheid te verschaffen over doelstellingen rond rapportering, werking en compliance') is hier overgenomen want sluit aan bij die norm. Geen specifieke Belgische bron voor de bredere COSO-doctrine (control environment, risk assessment, control activities, information & communication, monitoring) — vakdoctrine met inferred-common-knowledge."
+    "bron_gap": "De ITAA-norm-kmo-controlenorm definieert 'interne beheersing' vanuit auditperspectief (Bijlage 1). De brede COSO-definitie ('proces om redelijke zekerheid te verschaffen over doelstellingen rond rapportering, werking en compliance') is hier overgenomen want sluit aan bij die norm. Geen specifieke Belgische bron voor de bredere COSO-doctrine (control environment, risk assessment, control activities, information & communication, monitoring) — vakdoctrine met inferred-common-knowledge.",
+    "touched_at": "2026-05-18T20:30:00Z",
+    "note": "Wave 2 1.7.I: 5 edges naar COSO-componenten + edges vergelijkt-met managementcontrole, externe-controle, interne-audit (gespiegeld aan vergelijkingsparen)."
   },
   "definitie": {
     "text": "Interne controle is het geheel van procedures, gedragsregels en organisatorische maatregelen dat een onderneming opzet om met redelijke zekerheid haar doelstellingen te halen rond drie zaken: (1) betrouwbaarheid van de financiële rapportering, (2) effectiviteit en efficiëntie van de bedrijfsvoering, en (3) naleving van wet- en regelgeving. Het is een proces dat door bestuur, management én personeel wordt gedragen — geen aparte dienst die toezicht houdt.",
@@ -251,31 +253,6 @@
   ],
   "edges": [
     {
-      "type": "bevat",
-      "target": "controle-omgeving",
-      "redenering": "De controle-omgeving (cultuur, integriteit, tone at the top) is COSO-component 1 — fundament van het IC-systeem."
-    },
-    {
-      "type": "bevat",
-      "target": "risico-inschatting-organisatie",
-      "redenering": "Risico-inschatting is COSO-component 2 — zonder identificatie van risico's geen gerichte controles."
-    },
-    {
-      "type": "bevat",
-      "target": "beheersactiviteiten",
-      "redenering": "Beheersactiviteiten zijn COSO-component 3 — de concrete procedures (autorisaties, verificaties, functiescheiding)."
-    },
-    {
-      "type": "bevat",
-      "target": "informatie-en-communicatie-ic",
-      "redenering": "Informatie en communicatie is COSO-component 4 — relevante info bereikt de juiste personen op tijd."
-    },
-    {
-      "type": "bevat",
-      "target": "monitoring-interne-controle",
-      "redenering": "Monitoring is COSO-component 5 — de IC wordt zelf opgevolgd en bijgestuurd."
-    },
-    {
       "type": "vereist-kennis-van",
       "target": "functiescheiding",
       "redenering": "Functiescheiding is de meest centrale beheersactiviteit. Wie IC wil begrijpen moet eerst de vier-functies-regel kennen."
@@ -286,9 +263,47 @@
       "redenering": "Wanneer de externe auditor op IC wil steunen voert hij toetsingen van de IC uit (ITAA-norm-kmo-controlenorm §97)."
     },
     {
+      "type": "verwijst-naar",
+      "target": "controle-omgeving",
+      "redenering": "COSO-component 1: cultuur en integriteit als basis voor alle andere componenten."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "risico-inschatting-organisatie",
+      "redenering": "COSO-component 2: identificatie en analyse van risico's op het halen van doelstellingen."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "beheersactiviteiten",
+      "redenering": "COSO-component 3: concrete procedures en controles ingebed in processen."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "informatie-en-communicatie-ic",
+      "redenering": "COSO-component 4: informatie- en communicatiestromen die IC mogelijk maken."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "monitoring-interne-controle",
+      "redenering": "COSO-component 5: opvolging en evaluatie van IC-effectiviteit over de tijd."
+    },
+    {
       "type": "vergelijkt-met",
-      "target": "coso-i-erm-framework",
-      "redenering": "COSO I is het meest gebruikte referentiekader voor IC; nationaal of sectorspecifiek aangevuld."
+      "target": "managementcontrole",
+      "aspect": "doel-van-de-controle",
+      "redenering": "IC beperkt risico's en zorgt voor betrouwbare cijfers. Managementcontrole stuurt performance via budget en KPI. Beide overlappen op betrouwbaarheid van rapportering."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "externe-controle",
+      "aspect": "actor-en-doelgroep",
+      "redenering": "IC is intern, voor management. Externe controle is door onafhankelijke derde, voor stakeholders. Vergelijkingspaar staat al in vergelijkingsparen[]."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "interne-audit",
+      "aspect": "uitvoeren-versus-evalueren",
+      "redenering": "IC = de procedures zelf. IA = de evaluator van die procedures. Vergelijkingspaar staat al in vergelijkingsparen[]."
     }
   ],
   "voorbeelden": [
@@ -297,5 +312,23 @@
       "omschrijving": "Yperse Werkplaats BV (productie-onderneming, omzet € 8.000.000) zet een intern-controle-systeem op met hulp van Xenon Expertise BV: aankoopfacturen moeten drie handtekeningen krijgen (besteller, magazijnier, financieel verantwoordelijke); voorraadtellingen worden 2x per jaar gedaan door iemand anders dan de magazijnier; loonberekening wordt opgemaakt door HR maar betaald door financieel verantwoordelijke. Doel: redelijke zekerheid dat de cijfers kloppen, dat er niet wordt gestolen, en dat de wet wordt nageleefd."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Interne controle is het centrale beheersingsconcept binnen het examenprogramma — vakken Audit (PO 1.6), Interne controle (PO 1.7) en alle adviesopdrachten leunen erop. Voor de stagiair-accountant heeft het twee gezichten: in de adviesrol help je een cliënt het systeem opzetten of evalueren; in de auditrol toets je of het effectief werkt om je werkzaamheden te kunnen verminderen. Het Belgische normenkader (ITAA KMO-controlenorm) ent zich op het internationale COSO-kader; je examenvragen testen vooral of je de doelstellingen, componenten en inherente beperkingen goed kent.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/bepalen-jaarrekeningschema.json
 gegenereerd_op: '2026-05-18'
 ---
 # Bepalen welk jaarrekening-schema (volledig, verkort, micro) een vennootschap moet gebruiken 🤖
+
+Welk schema (volledig, verkort, micro) een vennootschap moet gebruiken bepaalt rechtstreeks de structuur van haar jaarrekening, de noodzaak van een sociale balans en de detailgraad van de toelichting. De competentie hangt direct af van de grootteclassificatie (WVV art. 1:24-1:26) en de eventuele PIE-status. Voor de stagiair is dit een routine-cascade die elk dossier opent.
 
 
 ## Stappen

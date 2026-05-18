@@ -2,7 +2,7 @@
   "id": "rechtspraak-boekhoudrecht",
   "naam": "Rechtspraak inzake boekhoudrecht",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.I.F",
@@ -195,5 +195,7 @@
       "omschrijving": "Het Hof van Cassatie heeft meermaals geoordeeld dat een bestuurder die wist of moest weten van een dreigend faillissement én bleef boekhouden alsof er continuïteit was, aansprakelijk kan gesteld worden voor wrongful trading (continuïteitsbeginsel)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:11:45Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:11:45Z",
+  "situering": "Rechtspraak is de **vijfde laag** van het Belgisch boekhoudrecht — uitspraken van Cassatie, hoven van beroep en rechtbanken interpreteren wet, KB en (indirect) CBN-adviezen. Voor de stagiair-GA praktisch belangrijk bij dispuut (fiscale rechtspraak met boekhoudkundige reflex) maar zelden gevolgd in dagelijkse verwerking — wet en KB blijven primair.",
+  "naam_alternatief": "case law on accounting / jurisprudence comptable"
 }

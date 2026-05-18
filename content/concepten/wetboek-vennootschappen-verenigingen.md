@@ -13,18 +13,18 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/wetboek-vennootschappen-verenigingen.json
 gegenereerd_op: '2026-05-18'
 ---
 # Wetboek van Vennootschappen en Verenigingen (WVV) ⚖️
 
+Het WVV (wet van 23 maart 2019) codificeert vennootschaps- én verenigingsrecht. **Boek 3** ('Jaarrekening en geconsolideerde jaarrekening') is voor boekhoudrecht het primaire wettelijke kader rond jaarrekening, schema, openbaarmaking en commissaris. Boek 9 regelt VZW-jaarrekening. Voor de stagiair-GA naast WER Boek III het basisinstrument.
+
 > [!summary] Korte inhoud
 > Het Wetboek van Vennootschappen en Verenigingen (WVV) — wet van 23 maart 2019 — is de Belgische codificatie van het vennootschapsrecht én het verenigingsrecht.
 
 > [!info] Behoort tot: [[belgisch-boekhoudrecht]]
-
-> [!info] Bestaat uit (1): [[jaarverslag]] · Specialisaties (1): [[kb-wvv-uitvoering]]
 
 Het Wetboek van Vennootschappen en Verenigingen (WVV) — wet van 23 maart 2019 — is de Belgische codificatie van het vennootschapsrecht én het verenigingsrecht. Boek 3 ('Jaarrekening, geconsolideerde jaarrekening en openbaarmakingsformaliteiten') bevat de boekhoudkundige verplichtingen die specifiek voor vennootschappen en verenigingen gelden, bovenop de algemene boekhoudplicht uit het WER.
 
@@ -92,9 +92,6 @@ _Grondslag: WVV art. 1:14 tot art. 1:25_
 > _Trigger_: Vraag over een eenmanszaak (Praktijk Persenaire) → WER. Vraag over een NV of vzw → WVV.
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (1): [[vennootschapsvormen-typologie]]- **Triggert** (2): [[groottecriteria-jaarrekening]] · [[openbaarmaking-jaarrekening]]
 ## Voorbeelden
 
 Rotex Roeselare NV moet als grote NV haar jaarrekening in volledig schema neerleggen — verplichting uit WVV Boek 3, uitgewerkt in KB-WVV.

@@ -2,7 +2,7 @@
   "id": "toelichting-jaarrekening",
   "naam": "Toelichting bij de jaarrekening",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.C",
@@ -178,5 +178,7 @@
       "omschrijving": "Rotex Roeselare NV's toelichting bevat o.a.: 'Waarderingsregels - vaste activa lineair afgeschreven over 5-10 jaar; voorraad volgens gewogen gemiddelde; klantenvorderingen met individuele waardevermindering bij faillissement.'"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": "De toelichting is het **derde verplichte onderdeel** van de jaarrekening (naast balans en resultatenrekening). Ze geeft uitleg bij rubrieken, vermeldt waarderingsregels, niet-in-balans-rechten en alle verklarende informatie. Voor de stagiair-GA belangrijk: een vormelijk correcte balans zonder voldoende toelichting voldoet niet aan getrouw-beeld.",
+  "naam_alternatief": "notes to the financial statements / annexe aux comptes annuels"
 }

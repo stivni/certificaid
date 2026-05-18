@@ -2,7 +2,7 @@
   "id": "uitvoeren-make-or-buy-beslissing",
   "naam": "Uitvoeren van een make-or-buy-beslissing op basis van kostenanalyse",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Uitvoeren van een make-or-buy-beslissing op basis van kostenanalyse",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -207,5 +207,17 @@
     "1.8.taak.1",
     "1.8.III.E"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "situering": {
+    "text": "Competentie waarmee de stagiair een make-or-buy-beslissing onderbouwt: relevante kosten isoleren (variabel + vermijdbare vaste + opportuniteitskost; geen sunk costs en geen gemeenschappelijke vaste kosten), make-kost en buy-kost vergelijken, strategische factoren (knowhow, leveringszekerheid, IP) wegen en een gevoeligheidsanalyse uitvoeren op volume en leveranciersprijs. Vereiste discipline: scheid relevante van niet-relevante kosten consequent — een full-cost-rapportage is misleidend voor deze beslissing.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }

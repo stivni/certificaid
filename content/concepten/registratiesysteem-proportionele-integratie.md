@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/registratiesysteem-proportionele-integratie.json
 gegenereerd_op: '2026-05-18'
 ---

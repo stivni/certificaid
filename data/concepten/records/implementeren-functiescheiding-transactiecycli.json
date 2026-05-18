@@ -2,7 +2,7 @@
   "id": "implementeren-functiescheiding-transactiecycli",
   "naam": "Implementeren van functiescheiding op kritieke transactiecycli",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Implementeren van functiescheiding op kritieke transactiecycli",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -184,7 +184,10 @@
     "voorgesteld_door": "competentie-destillatie-v2-po17-2026-05-17T12:00Z",
     "voorgesteld_op": "2026-05-17T12:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "extractor_run_wave1b2": "concept-extractie-v4-2026-05-18-wave1b2",
+    "touched_at": "2026-05-18T17:35:07Z",
+    "note_wave1b2": "Situering toegevoegd; schema 1.6. gebaseerd_op_concepten bevat dangling refs (beheersactiviteiten, cyclus-analyse-ic, geinformatiseerde-omgeving-ic) — gelogd als gaps."
   },
   "linked_anchors": [
     "1.7.taak.1",
@@ -196,5 +199,23 @@
     "1.7.IX.D",
     "1.7.X.C"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": {
+    "text": "Deze competentie vertaalt het abstracte vier-functies-principe naar een concrete inrichting van transactiecycli (aankoop, verkoop, kas/bank, loon, voorraad). De stagiair moet per cyclus de functietoewijzingsmatrix kunnen opstellen, SOD-conflicten kunnen detecteren, compenserende controles kunnen ontwerpen en ERP-rolprofielen kunnen valideren. Examen-vragen testen vaak een KMO-context waarin volledige scheiding niet haalbaar is.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-315-herzien-2019__sec_bijlage-3_part5",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

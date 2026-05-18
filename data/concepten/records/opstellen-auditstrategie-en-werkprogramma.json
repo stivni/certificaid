@@ -168,10 +168,12 @@
     "voorgesteld_op": "2026-05-17T08:00:00Z",
     "gecureerd_door": null,
     "gecureerd_op": null,
-    "extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
     "situering_added_v4_at": "2026-05-18",
     "last_extract_pass": "concept-extractie-v4-2026-05-18T14:35Z",
-    "last_extract_at": "2026-05-18T14:35:00Z"
+    "last_extract_at": "2026-05-18T14:35:00Z",
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
+    "edge_key_migrated": "2026-05-18"
   },
   "linked_anchors": [
     "1.6.taak.1",
@@ -200,27 +202,27 @@
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "auditstrategie"
+      "target_id": "auditstrategie"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "auditplanning"
+      "target_id": "auditplanning"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "werkprogramma-audit"
+      "target_id": "werkprogramma-audit"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "risico-inschatting-audit"
+      "target_id": "risico-inschatting-audit"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "materieel-belang-audit"
+      "target_id": "materieel-belang-audit"
     },
     {
       "type": "vereist-kennis-van",
-      "target": "controledocumentatie"
+      "target_id": "controledocumentatie"
     }
   ]
 }

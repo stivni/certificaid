@@ -2,7 +2,7 @@
   "id": "waarderen-en-boeken-voorraden-fifo-ggp",
   "naam": "Waarderen en boeken van voorraden volgens FIFO of gewogen gemiddelde",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Waarderen en boeken van voorraden volgens FIFO of gewogen gemiddelde",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -203,11 +203,30 @@
     "voorgesteld_door": "competentie-destillatie-v2-po11-20260516",
     "voorgesteld_op": "2026-05-16T00:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "linked_anchors": [
     "1.1.taak.1",
     "1.1.II.E"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "naam_alternatief": "valuing and recording inventories under FIFO or weighted-average cost",
+  "situering": {
+    "text": "De toepassingscompetentie op de voorraad-waardering: FIFO en gewogen gemiddelde geven onder inflatie verschillende resultaten — FIFO toont een hogere voorraadwaarde en winst, gewogen gemiddelde een gedempte resultaatcurve. Voor een stagiair-GA: typisch examenscenario waar dezelfde voorraadbewegingen onder beide methodes worden uitgewerkt en de winsteffecten getoond.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

@@ -1,7 +1,8 @@
 {
   "id": "productiecyclus-ic",
-  "naam": "Productiecyclus — interne controle",
-  "node_type": "procedure",
+  "naam": "Productiecyclus en interne controle",
+  "naam_alternatief": "production cycle (make-cyclus)",
+  "node_type": "cluster",
   "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
@@ -9,53 +10,259 @@
     "1.7.IX"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T10:37Z",
+    "extractor_run": "concept-extractie-v4-wave2-1.7.IX-20260518T202323Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.IX.B",
     "dekt_ook_anchors": [
       "1.7.IX"
     ],
     "reviewed_by": null,
-    "bron_gap": "Cyclusanalyse — auditvakdoctrine. Inferred-common-knowledge."
+    "bron_gap": "Cyclusanalyse — auditvakdoctrine. Voor voorraadwaardering: KB 21.10.2018 en CBN 132/7 (bestellingen in uitvoering).",
+    "last_touched_at": "2026-05-18T20:24:03.037888Z"
   },
-  "verplichting": "Boekhoudkundige verplichting tot juiste voorraadwaardering en cost-allocation.",
-  "stappen": [
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_from_procedure_at": "2026-05-18T18:35:30Z",
+  "situering": "De productiecyclus transformeert grondstoffen via arbeid en machine-uren naar afgewerkte producten. Interne controle focust op correcte voorraadregistratie, kostprijsberekening en kwaliteitscontrole. Voor productiebedrijven (industrie, ambacht, bestellingen in uitvoering) is dit doorgaans de meest risicovolle cyclus voor zowel waardering als fraude (afval-fraude, ghost-output). Stagiairs komen dit tegen bij audits van industriële klanten of CBN 132/7-toepassingen.",
+  "definitie": {
+    "text": "Interne controle in de productiecyclus is het geheel van maatregelen die de stadia productieplanning → grondstofuitgifte → fabricage → voorraad gereed product → kostprijsberekening beheersen, met als doel rendementsverlies, voorraadafwijkingen, foute kostenverdeling en niet-geboekt afval te voorkomen of te detecteren.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "verplichting": "Boekhoudkundige verplichting tot juiste voorraadwaardering (KB 21.10.2018; CBN 132/7 voor bestellingen in uitvoering); inventarisplicht art. III.89 WER.",
+  "bouwstenen": [
     {
-      "nr": 1,
-      "titel": "Productieplanning + uitgifte grondstoffen",
-      "wat": "Productieorder maken; grondstoffen uit magazijn uitgeven volgens stuklijst (BOM).",
-      "waarom": "Zonder formele uitgifte tracking: 'verdwijnen' van grondstoffen niet detecteerbaar.",
-      "hoe": "1. Productieorder met BOM in ERP.\n2. Magazijnier geeft uit; ERP boekt voorraadafname.\n3. Afwijking BOM ↔ werkelijk verbruik: opvolgen.",
-      "grondslag": "Productie-IC-doctrine"
+      "titel": "BOM-tracking en grondstofuitgifte",
+      "wat": "Voor elke productieorder wordt de stuklijst (bill of materials, BOM) gevolgd; afwijking tussen BOM en werkelijk verbruik wordt opgevolgd.",
+      "waarom": "Zonder BOM-tracking blijft afval onzichtbaar en kan diefstal van grondstoffen niet gedetecteerd worden.",
+      "in_praktijk": "In een ERP-systeem wordt elke uitgifte uit het grondstoffenmagazijn gekoppeld aan een productieorder; periodieke yield-rapporten tonen welke order significant van de BOM afwijkt.",
+      "grondslag": "Productie-IC-doctrine",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
-      "nr": 2,
-      "titel": "Productie-uitvoering + rapportering",
-      "wat": "Voltooide producten naar voorraad gereed product; afval/uitval boeken.",
-      "waarom": "Afval niet boeken = voorraad te hoog gewaardeerd; ook signaal voor proces-inefficiëntie of diefstal.",
-      "hoe": "1. Operator scant voltooide eenheid + uitval.\n2. ERP boekt automatisch in voorraad gereed product.\n3. Periodieke yield-analyse per machine + operator.",
-      "grondslag": "Productie-IC-doctrine"
+      "titel": "Output-registratie en afval-boeking",
+      "wat": "Voltooide producten en uitval/afval worden afzonderlijk geregistreerd bij elke productiestap.",
+      "waarom": "Afval niet boeken betekent voorraad te hoog gewaardeerd; tegelijk is een hoog afvalpercentage een signaal voor proces-inefficiëntie of diefstal.",
+      "in_praktijk": "Bij elke voltooide eenheid scant de operator zowel de output als de uitval; het ERP boekt automatisch in voorraad gereed product en in een aparte afval-rekening.",
+      "grondslag": "Productie-IC-doctrine + KB 21.10.2018 voorraadwaardering",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
-      "nr": 3,
-      "titel": "Kostprijsberekening + voorraadwaardering",
-      "wat": "Grondstoffenkost + directe arbeid + overhead toewijzen aan voltooide producten.",
-      "waarom": "Verkeerde kostprijs → verkeerde voorraadwaardering → verkeerd brutoresultaat.",
-      "hoe": "1. Maandelijks: actual cost rekenen op basis van werkelijke productie.\n2. Vergelijk met standaardkost; analyseer variantie.\n3. Adjustments boeken indien materiële afwijking.",
-      "grondslag": "KB WVV — voorraadwaardering"
+      "titel": "Kostprijsberekening en variantie-analyse",
+      "wat": "Grondstoffenkost, directe arbeid en overhead worden toegewezen aan voltooide producten; standaardkost wordt vergeleken met actuele kost.",
+      "waarom": "Verkeerde kostprijs leidt tot verkeerde voorraadwaardering en daardoor tot verkeerd brutoresultaat. Variantie-analyse detecteert sluipende inefficiënties.",
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Yperse Werkplaats BV is de standaardkost per stuk € 80, de actuele kost over Q4 stijgt naar € 92. Variantie van € 12 per stuk × 4.000 stuks = € 48.000 negatieve variantie — directe Maandanalyse triggert onderzoek naar materiaalprijzen en yield.",
+          "cast": [
+            "Yperse Werkplaats BV"
+          ],
+          "confidence": "inferred-common-knowledge"
+        }
+      ],
+      "grondslag": "KB WVV art. 3:43 e.v. (waardering voorraden) + CBN 132/7",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "titel": "Functiescheiding productie-magazijn-boekhouding",
+      "wat": "Productie-operatoren, magazijnpersoneel en boekhouders zijn verschillende personen met verschillende systeem-rollen.",
+      "waarom": "Een operator die zelf de voorraad mag aanpassen kan eigen rendementsproblemen onzichtbaar maken.",
+      "grondslag": "[[functiescheiding]] §toepassing-productie",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
+    }
+  ],
+  "berekeningsmethode": [
+    {
+      "naam": "Procesgang productiecyclus — stappen + IC-haakpunten",
+      "stappen": [
+        {
+          "nr": 1,
+          "titel": "Productieplanning en uitgifte grondstoffen",
+          "wat": "Productieorder aanmaken; grondstoffen uit magazijn uitgeven volgens stuklijst.",
+          "waarom": "Zonder formele uitgifte tracking is verdwijnen van grondstoffen niet detecteerbaar.",
+          "input": [
+            {
+              "artefact": "Vraagprognose",
+              "veld": "volumes",
+              "type": "ERP-record"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Productieorder + uitgiftebon",
+              "veld": "BOM-uitgifte",
+              "type": "ERP-record"
+            }
+          ],
+          "hoe": "1. Productieorder met BOM in ERP.\n2. Magazijnier geeft uit; ERP boekt voorraadafname.\n3. Afwijking BOM ↔ werkelijk verbruik: opvolgen.",
+          "grondslag": "Productie-IC-doctrine"
+        },
+        {
+          "nr": 2,
+          "titel": "Productie-uitvoering en rapportering",
+          "wat": "Voltooide producten boeken naar voorraad gereed product; afval/uitval apart boeken.",
+          "waarom": "Afval niet boeken leidt tot overgewaardeerde voorraad en sluiert proces-inefficiëntie.",
+          "input": [
+            {
+              "artefact": "Productieorder",
+              "veld": "verwachte output",
+              "type": "ERP-record"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Voorraad gereed product + afval-rekening",
+              "veld": "aantallen, waarde",
+              "type": "boeking"
+            }
+          ],
+          "hoe": "1. Operator scant voltooide eenheid + uitval.\n2. ERP boekt automatisch in voorraad gereed product.\n3. Periodieke yield-analyse per machine en operator.",
+          "grondslag": "Productie-IC-doctrine"
+        },
+        {
+          "nr": 3,
+          "titel": "Kostprijsberekening en voorraadwaardering",
+          "wat": "Grondstoffenkost + directe arbeid + overhead toewijzen aan voltooide producten; variantie-analyse maandelijks.",
+          "waarom": "Verkeerde kostprijs leidt tot verkeerde voorraadwaardering en verkeerd brutoresultaat.",
+          "input": [
+            {
+              "artefact": "Werkelijke productie + standaardkost",
+              "veld": "uren, materialen, overhead",
+              "type": "kostenkengetal"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Adjusted voorraadwaardering",
+              "veld": "boekwaarde",
+              "type": "boeking"
+            }
+          ],
+          "hoe": "1. Maandelijks: actual cost rekenen op basis van werkelijke productie.\n2. Vergelijk met standaardkost; analyseer variantie.\n3. Adjustments boeken indien materiële afwijking.",
+          "grondslag": "KB WVV art. 3:43 e.v. voorraadwaardering"
+        }
+      ]
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Bestellingen in uitvoering (rekening 37) volgen een aparte waarderingslogica volgens CBN 132/7. Niet zomaar als voorraad gereed product behandelen — de POC (percentage of completion) raakt de resultatenrekening anders.",
+      "confidence": "grounded",
+      "source": {
+        "type": "advies",
+        "short": "CBN 132/7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-132-7-voorraden-en-bestellingen-in-uitvoering__sec_begrip",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Een ERP met standaard-kost-functionaliteit verbergt vaak grote actual-variances. Audit-stap: bevraag het variantie-rapport en de afronding-mechanismes — soms zit een fout in de overhead-allocatie verstopt.",
+      "confidence": "inferred-common-knowledge",
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
     {
       "type": "onderdeel-van",
-      "target": "interne-controle",
-      "redenering": "Productiecyclus is hoofdcyclus voor productie-ondernemingen."
+      "target": "cyclus-analyse-ic",
+      "redenering": "Productiecyclus is een van de vijf hoofdcycli."
     },
     {
       "type": "vereist-kennis-van",
       "target": "functiescheiding",
-      "redenering": "Productie/voorraad/boekhouding gescheiden."
+      "redenering": "Productie/voorraad/boekhouding scheiding is essentieel."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "voorraadcyclus-ic",
+      "redenering": "Output van productie is input van voorraad — directe afhankelijkheid."
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "fraudetypologie-acfe",
+      "redenering": "Ghost-output en afval-fraude zijn ACFE-typologieën."
+    },
+    {
+      "type": "verwijst-naar",
+      "facet": {
+        "aspect": "BOM-variantie-alerts en ERP-uitgiftecontroles"
+      },
+      "target": "it-application-controls",
+      "redenering": "BOM-variantie-alerts en ERP-uitgiftecontroles"
+    },
+    {
+      "type": "verwijst-naar",
+      "facet": {
+        "aspect": "kostprijs-input voor voorraadwaardering"
+      },
+      "target": "voorraadwaardering",
+      "redenering": "kostprijs-input voor voorraadwaardering"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "BOM-variantie onthult ongeboekt afval bij Naaiatelier Ninove BV",
+      "cast": [
+        "Naaiatelier Ninove BV",
+        "Marleen De Cock",
+        "Tom Lefèvre"
+      ],
+      "omschrijving": "Naaiatelier Ninove BV produceert werkpakken op maat. De stuklijst (BOM) voor model 'Aurora-XL' voorziet 2,4 meter stof per pak. Bedrijfsleider Marleen De Cock vraagt accountant Tom Lefèvre te controleren waarom de brutomarge het afgelopen kwartaal van 38% naar 24% zakte zonder dat de verkoopprijzen daalden. Tom analyseert de werkelijke uitgifte tegenover de BOM-norm en ontdekt een systematische over-uitgifte van 0,6 meter per pak — gemiddeld 25% afval per pak, dubbel de gebruikelijke 12,5%.",
+      "stappen": [
+        "1. Cijferanalyse: 4.200 pakken × 0,6 m extra × € 14/m = € 35.280 ongeboekt afval (of diefstal).",
+        "2. IC-zwakte: bouwsteen 'BOM-tracking en grondstofuitgifte' wordt geregistreerd maar er bestaat geen automatisch waarschuwingssignaal bij variantie > 10%. Bouwsteen 'Output-registratie en afval-boeking' niet apart geregistreerd — afval ging in de algemene 'uitgifte'-pot.",
+        "3. Root-cause-onderzoek: 30% van de over-uitgifte blijkt legitiem (nieuwe stoftrein vereist hertraining); 70% is grondstoffendiefstal door één operator die rollen meeneemt — gedetecteerd via camera-review.",
+        "4. Remediëring: ERP-alert ingesteld op BOM-variantie > 10% per productieorder. Wekelijkse uitgiftefiche verplicht door magazijnier én productieverantwoordelijke ondertekend (functiescheiding 'productie-magazijn-boekhouding')."
+      ],
+      "illustraties": [
+        {
+          "type": "mermaid-diagram",
+          "caption": "Productiecyclus — controlepoorten + lekzones",
+          "code": "flowchart TD\n  P[Productieorder + BOM] --> U[Grondstofuitgifte]\n  U --> F[Fabricage]\n  F --> O[Output-registratie]\n  F --> A[Afval-registratie]\n  U -.->|geen variantie-alert| LEK1[Lekzone 1: ongeboekt verbruik]\n  A -.->|niet apart geregistreerd| LEK2[Lekzone 2: onzichtbaar afval]\n  O --> K[Kostprijsberekening]\n  K --> V[Variantie-analyse standaard vs actual]"
+        },
+        {
+          "type": "boeking",
+          "titel": "Correctieboeking ontdekt afval (40% legitiem deel)",
+          "rijen": [
+            {
+              "rekening": "6094 — Voorraadwijzigingen grondstoffen (afval)",
+              "debet": 35280,
+              "credit": null,
+              "omschrijving": "Niet-geboekt grondstoffenverbruik Q3"
+            },
+            {
+              "rekening": "31 — Voorraden grondstoffen",
+              "debet": null,
+              "credit": 35280
+            }
+          ]
+        }
+      ],
+      "confidence": "inferred"
+    }
+  ]
 }

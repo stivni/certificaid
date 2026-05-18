@@ -2,13 +2,16 @@
   "id": "itaa",
   "naam": "Instituut van de Belastingadviseurs en Accountants (ITAA)",
   "node_type": "autoriteit",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
-    "1.2.II"
+    "1.2.II",
+    "1.7.XII.G",
+    "1.7.XII.C",
+    "1.7.XII"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-po1.7.XII-wave2",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.II",
     "dekt_ook_anchors": [],
@@ -130,5 +133,13 @@
       "omschrijving": "De gecertificeerd accountant die het bekwaamheidsexamen van het ITAA aflegt, krijgt na slagen het recht de beroepstitel te dragen — een wettelijk gereglementeerd beroep."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Het Instituut van de Belastingadviseurs en de Accountants (ITAA) is sinds de Wet van 17 maart 2019 de fusie-instantie die het oude IAB (Instituut van de Accountants en Belastingconsulenten) en het BIBF (Beroepsinstituut van erkende Boekhouders en Fiscalisten) verenigt. Het ITAA stelt beroepsnormen vast, controleert toegang via stage + examen, organiseert permanente vorming, oefent tuchtrechtelijke bevoegdheid uit, en is verantwoordelijk voor het reglementaire kader (deontologie, kwaliteit, AWW-toezicht) waarbinnen de gecertificeerd accountant en de belastingadviseur opereren. Voor PO 1.7.XII.G ('gereglementeerde beroepen') is het ITAA hét sleutelinstituut aan accountancy-zijde.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "migrated_to_schema_1.6_at": "2026-05-18"
 }

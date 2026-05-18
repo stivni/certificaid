@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/proef-en-saldibalans.json
 gegenereerd_op: '2026-05-18'
 ---
 # Proef- en saldibalans ⚖️
+
+De proef- en saldibalans is de **transitielijst** tussen boekjaar en jaarrekening: alle rekeningen met hun debet- en credit-totalen en saldi. Voor de stagiair-GA het werkpapier waarop afschrijvingen, waardeverminderingen en correcties worden aangebracht voor het opstellen van de jaarrekening.
 
 > [!summary] Korte inhoud
 > De proef- en saldibalans is een lijst van alle rekeningen uit de boekhouding, met per rekening: het totaal van de debetboekingen, het totaal van de creditboekingen, en het saldo (debet of credit).
@@ -81,7 +83,7 @@ _Grondslag: WER art. III.85; CBN-advies 174/1_
 
 - **Vereist kennis van**: [[minimum-algemeen-rekeningenstelsel]]
 - **Getriggerd door**: [[dubbel-boekhouden]]
-- **Triggert** (1): [[eindejaarsverrichtingen]]
+
 ## Voorbeelden
 
 Meubelzaak Mertens BV maakt eind 2024 een proef- en saldibalans op: rekening 604 Aankopen toont debet € 230.000, credit € 0, saldo € 230.000 debet. Som debet alle rekeningen = som credit alle rekeningen → balans in evenwicht.

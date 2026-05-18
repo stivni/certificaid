@@ -2,7 +2,7 @@
   "id": "toegevoegde-waarde-financiele-analyse",
   "naam": "Toegevoegde waarde (economische maatstaf in financiële analyse)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.9.V.A",
@@ -16,7 +16,9 @@
       "1.9.taak.1"
     ],
     "reviewed_by": null,
-    "bron_gap": "De wettelijke jaarrekeningschema's (KB WVV) hebben geen aparte rubriek 'toegevoegde waarde'; de term komt uit financiële-analyse-vakdoctrine en uit de NBB-Centrale-voor-Balansen die ze als afgeleide berekent."
+    "bron_gap": "De wettelijke jaarrekeningschema's (KB WVV) hebben geen aparte rubriek 'toegevoegde waarde'; de term komt uit financiële-analyse-vakdoctrine en uit de NBB-Centrale-voor-Balansen die ze als afgeleide berekent.",
+    "note": "PO 1.9 wave-2: schema 1.5→1.6 + naam_alternatief",
+    "touched_at": "2026-05-19T00:00:00Z"
   },
   "bouwstenen": [
     {
@@ -209,5 +211,9 @@
       ]
     }
   },
-  "migrated_doel_to_situering_at": "2026-05-18"
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "naam_alternatief": [
+    "Toegevoegde waarde",
+    "Value added"
+  ]
 }

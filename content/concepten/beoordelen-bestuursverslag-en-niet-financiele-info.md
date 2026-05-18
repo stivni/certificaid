@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/beoordelen-bestuursverslag-en-niet-financiele-info.json
 gegenereerd_op: '2026-05-18'
 ---
 # Beoordelen van het bestuursverslag en de niet-financiële informatie 🤖
+
+Competentie om naast de cijfers ook het narratieve luik van de jaarrekening kritisch te lezen: bestuursverslag, risicoparagraaf, niet-financiële informatie en commissarisverslag. De analist controleert volledigheid van verplichte rubrieken en weegt of risicobeschrijvingen concreet zijn of boilerplate.
 
 
 ## Stappen
@@ -189,3 +191,6 @@ Lees het commissarisverslag op voorbehouden, paragrafen ter benadrukking en kern
 
 
 
+## Bronnen
+
+[^1]: `anchor-1.3.taak.3`

@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/klasseren-vennootschap-naar-groottecategorie.json
 gegenereerd_op: '2026-05-18'
 ---
 # Klasseren van een vennootschap als micro, klein of groot volgens de groottecriteria 🤖
+
+Klasseren naar grootte (micro, klein of groot) is de basistoets die elke vennootschapsdossier opent — ze stuurt jaarrekening-schema, commissaris-verplichting en consolidatieverplichting. De competentie vergt rekenen met de drempels én correct toepassen van de cascade (twee-opeenvolgende-boekjaren-regel + verbondenheidstoets).
 
 
 ## Stappen

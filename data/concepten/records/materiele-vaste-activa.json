@@ -2,7 +2,7 @@
   "id": "materiele-vaste-activa",
   "naam": "Materiële vaste activa",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.B",
@@ -15,7 +15,16 @@
     "dekt_ook_anchors": [
       "1.1.II.W"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "schema->1.6"
+      ]
+    }
   },
   "definitie": {
     "text": "**Lichamelijke** activa die de onderneming aanhoudt voor gebruik in de productie of levering van goederen of diensten, voor verhuur aan derden of voor bestuurlijke doeleinden. Het MAR groepeert ze onder rubrieken 22 — 26: (22) terreinen en gebouwen, (23) installaties, machines en uitrusting, (24) meubilair en rollend materieel, (25) vaste activa in leasing, (26) andere materiële vaste activa (incl. buiten gebruik gesteld). Materiële vaste activa met beperkte gebruiksduur worden afgeschreven; activa met onbeperkte gebruiksduur (terreinen) krijgen indien nodig waardeverminderingen.",
@@ -229,5 +238,15 @@
       ],
       "migrated_to_specialisatie_van": []
     }
-  ]
+  ],
+  "naam_alternatief": "tangible fixed assets / immobilisations corporelles",
+  "situering": {
+    "text": "De grootste categorie vaste activa bij productie- en handelsondernemingen — bepaalt grotendeels de afschrijvingslast en daarmee het meerjaren-resultaat. Voor een stagiair-GA: het terrein vs gebouw-onderscheid, de leasing-activering onder rubriek 25, en de waardering aan aanschaffingswaarde of vervaardigingsprijs zijn vaste examenelementen.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

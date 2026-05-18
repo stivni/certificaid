@@ -2,7 +2,7 @@
   "id": "eigen-middelen",
   "naam": "Eigen middelen (eigen vermogen)",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.H",
@@ -17,7 +17,17 @@
       "1.1.II.Q",
       "1.1.II.T"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "po11_touchup_2026_05_18": {
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "scope": "schema-bump-1.6 + deprecated-edges + type-migraties + naam_alternatief + situering",
+      "changes": [
+        "naam_alternatief+",
+        "situering+",
+        "edges-3deprecated",
+        "schema->1.6"
+      ]
+    }
   },
   "definitie": {
     "text": "Het **netto-vermogen** van de onderneming dat toebehoort aan haar aandeelhouders/vennoten: activa minus schulden. In de balans onder rubriek I — VI: (10) kapitaal/eigen vermogensinbreng, (11) uitgiftepremies, (12) herwaarderingsmeerwaarden, (13) reserves (wettelijke, onbeschikbare, belastingvrije, beschikbare), (14) overgedragen winst/verlies, (15) kapitaalsubsidies. De toename van eigen middelen door winst van het jaar verschijnt onder rubriek 14 (na bestemming). Deze rubriek is centraal voor solvabiliteit, dividendpolitiek en alarmprocedure (WVV art. 5:153, 7:228).",
@@ -230,21 +240,6 @@
   "vergelijkingsparen": [],
   "edges": [
     {
-      "type": "bevat",
-      "target": "uitgiftepremie",
-      "redenering": "Uitgiftepremies vormen subrubriek 11 van eigen middelen."
-    },
-    {
-      "type": "bevat",
-      "target": "wettelijke-reserve",
-      "redenering": "Wettelijke reserve is verplichte subcategorie in rubriek 13."
-    },
-    {
-      "type": "bevat",
-      "target": "herwaarderingsmeerwaarden",
-      "redenering": "Herwaarderingsmeerwaarden vormen rubriek 12 binnen eigen middelen."
-    },
-    {
       "type": "getriggerd-door",
       "target": "alarmprocedure",
       "redenering": "Een te laag eigen vermogen activeert alarmprocedure WVV."
@@ -256,5 +251,15 @@
       "omschrijving": "Meubelzaak Mertens BV per 31/12: kapitaal € 50.000 (rubriek 100), uitgiftepremie € 20.000 (rubriek 11), wettelijke reserve € 5.000 (rubriek 130), beschikbare reserves € 80.000 (rubriek 133), overgedragen winst € 145.000 (rubriek 140). Totaal eigen middelen = € 300.000. Op de passiefzijde rubriek I-VI."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "naam_alternatief": "equity / fonds propres",
+  "situering": {
+    "text": "De passief-kant die de **financiering door de eigenaars** weerspiegelt en tegelijk het draagvlak vormt voor de uitkeerbaarheidstoets, het netto-actief-criterium en de wettelijke-reserve-verplichting. Voor een stagiair-GA: de basisparaplu die nodig is om resultaatverwerking, kapitaalwijzigingen en de balanslezing-met-getrouw-beeld correct te voeren.",
+    "confidence": "inferred-from-aggregation",
+    "_provenance": {
+      "tool": "po11-touchup-2026-05-18",
+      "uitgevoerd_op": "2026-05-18T21:55Z",
+      "note": "Schema 1.6 situering toegevoegd in PO 1.1 touch-up-pass (uitvoer)"
+    }
+  }
 }

@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/gezamenlijke-controle.json
 gegenereerd_op: '2026-05-18'
 ---
 # Gezamenlijke controle ⚖️
+
+Een sub-vorm van controle in het Belgische boekhoudrecht (KB WVV Boek 3, Titel 2): controle uitgeoefend door een beperkt aantal vennoten samen, op grond van een overeenkomst die unanimiteit voor beleidsbeslissingen vereist. Het is de juridische voorwaarde om evenredig te consolideren.
 
 > [!summary] Korte inhoud
 > De controle die een beperkt aantal vennoten samen uitoefenen, op grond van een overeenkomst dat beleidsbeslissingen alleen met hun gemeenschappelijke instemming kunnen worden genomen.
@@ -69,7 +71,7 @@ _Bron: CBN 2017/02 — Gezamenlijke controle (groottecriteria-update)_
 
 - **Getriggerd door**: [[gemeenschappelijke-dochteronderneming]]
 - **Getriggerd door**: [[evenredige-consolidatie]]
-- **Triggert** (2): [[evenredige-consolidatie]] · [[gemeenschappelijke-dochteronderneming]]
+
 ## Voorbeelden
 
 Cardinal Group NV en Energiehuis Evergem NV bezitten elk 50 % van Filmstudio Florence BV. Hun aandeelhoudersovereenkomst legt vast dat strategische beslissingen alleen samen worden genomen → gezamenlijke controle → Filmstudio is gemeenschappelijke dochter → evenredige consolidatie 50/50.

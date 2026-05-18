@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: inferred-from-aggregation
 node_type: autoriteit
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/commissaris-toezicht-jaarrekening.json
 gegenereerd_op: '2026-05-18'
 ---
 # Commissaris (extern toezicht op jaarrekening) 🤖
+
+De commissaris is de bedrijfsrevisor die de wettelijke controle van de jaarrekening uitvoert in vennootschappen die de groottecriteria overschrijden of OOB zijn. Hij wordt benoemd door de algemene vergadering voor drie boekjaren (hernieuwbaar) en geeft een controleverklaring volgens ISA 700 (herzien). Voor de financiële analist (PO 1.3) is het type oordeel in het commissarisverslag een primair signaal over de betrouwbaarheid van de cijfers; voor de audit-stagiair (PO 1.6) is de commissaris het sluitstuk van de externe-controle-keten.
 
 > [!summary] Korte inhoud
 > Een commissaris is een bedrijfsrevisor (lid van het IBR) die door de algemene vergadering benoemd wordt om de jaarrekening te controleren bij vennootschappen die de groottecriteria voor verplichte controle overschrijden.
@@ -70,3 +72,4 @@ _Grondslag: CBN-2020/09_
 [^1]: `WVV__art_9_17`
 [^2]: `CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris__sec_gegevens-van-de-leden-van-het-bestuursorgaan`
 [^3]: `anchor-1.3.I.D`
+[^4]: `ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae`

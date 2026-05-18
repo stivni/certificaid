@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: regel
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/wettelijke-reserve.json
 gegenereerd_op: '2026-05-18'
 ---
 # Wettelijke reserve ⚖️
+
+De wettelijk verplichte buffer in het eigen vermogen die de uitkeerbaarheid en de schuldeisersbescherming bewaakt — 5 % van de jaarwinst tot een minimum van 10 % van het kapitaal (NV) of eigen vermogensinbreng (BV) is bereikt. Voor een stagiair-GA: een terugkerende eindjaarsverrichting bij resultaatverwerking — vergeten van de afhouding ondergraaft direct de geldigheid van een dividendvoorstel.
 
 > [!summary] Korte inhoud
 > **Verplichte jaarlijkse afhouding** van **5 % van de nettowinst** voor de **wettelijke reserve**, totdat deze reserve **10 % van het maatschappelijk kapitaal** bereikt (NV) of **één tiende van de eigen vermogensinbreng** (BV).
@@ -200,7 +202,7 @@ Min(5 % × nettowinst, minimum − huidige reserve).
 ## Zie ook
 
 - **Getriggerd door**: [[resultaatverwerking]]
-- **Wordt voorondersteld in** (2): [[boekjaar-eindprocedure-checklist]] · [[resultaatverwerking]]
+
 ## Voorbeelden
 
 Meubelzaak Mertens BV heeft kapitaal/eigen vermogensinbreng € 50.000 → wettelijk minimum wettelijke reserve = 10 % × € 50.000 = € 5.000. Wettelijke reserve op 1/1 = € 3.500. Winst 20X1 = € 42.000. Verplichte afhouding = 5 % × € 42.000 = € 2.100. Boeking: Debet 6921 Toevoeging aan wettelijke reserve € 2.100 / Credit 130 Wettelijke reserve € 2.100. Saldo eind 20X1: € 5.600 — boven minimum, dus volgend jaar geen verplichte afhouding meer.

@@ -12,11 +12,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/niet-recurrente-verrichtingen.json
 gegenereerd_op: '2026-05-18'
 ---
 # Niet-recurrente verrichtingen ⚖️
+
+De resultatenrekening-categorie die **éénmalige posten** afzondert zodat het bedrijfsresultaat trend-vergelijkbaar blijft. Voor een stagiair-GA: categorisatie-fouten tussen recurrent en niet-recurrent zijn een typische camouflage in examenvragen — een meerwaarde op realisatie van een MVA hoort op 763, niet op klasse 75 of klasse 7.
 
 > [!summary] Korte inhoud
 > Kosten en opbrengsten die **niet voortvloeien uit de normale, herhalende bedrijfsuitoefening** van de onderneming en die op de resultatenrekening worden gepresenteerd in afzonderlijke rubrieken: **klasse 66** (niet-recurrente kosten) en **klasse 76** (niet-recurrente opbrengsten).

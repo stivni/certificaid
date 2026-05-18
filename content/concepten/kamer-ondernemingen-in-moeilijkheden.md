@@ -11,11 +11,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: autoriteit
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/kamer-ondernemingen-in-moeilijkheden.json
 gegenereerd_op: '2026-05-18'
 ---
 # Kamer voor ondernemingen in moeilijkheden 🤖
+
+Bij elke ondernemingsrechtbank is een Kamer voor ondernemingen in moeilijkheden die signalen detecteert (negatief nettoactief, vervallen schulden, dagvaardingen, …) en de bestuurder uitnodigt voor een coachend gesprek. Voor de analist is een oproeping een rode vlag — onafhankelijk van wat de jaarrekening cijfermatig laat zien.
 
 > [!summary] Korte inhoud
 > Een gespecialiseerde kamer binnen de ondernemingsrechtbank die proactief onderzoekt of ondernemingen in financiële moeilijkheden verkeren.
@@ -51,3 +53,4 @@ _Grondslag: Boek XX WER_
 ## Bronnen
 
 [^1]: `anchor-1.3.I.D`
+[^2]: `anchor-1.3.IV`

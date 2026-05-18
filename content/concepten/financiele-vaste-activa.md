@@ -11,11 +11,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/financiele-vaste-activa.json
 gegenereerd_op: '2026-05-18'
 ---
 # Financiële vaste activa ⚖️
+
+Onderscheid tussen financiële vaste activa (duurzaam oogmerk, rubriek 28) en geldbeleggingen (korte-termijn, rubriek 50-53) is een vaste examenvraag — het oogmerk-criterium bepaalt zowel de balansrubriek als de afschrijvings- en waardeverminderingsregels. Voor een stagiair-GA: een typisch beoordelingsmoment bij audit waar de aard van de belegging (duurzaam vs niet) niet uit de boeking maar uit de bedrijfscontext blijkt.
 
 > [!summary] Korte inhoud
 > **Vorderingen en deelnemingen** die de onderneming aanhoudt **om duurzaam de bedrijfsuitoefening** van een andere onderneming **te ondersteunen** of om er duurzame band mee te onderhouden.

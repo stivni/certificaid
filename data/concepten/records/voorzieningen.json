@@ -2,7 +2,7 @@
   "id": "voorzieningen",
   "naam": "Voorzieningen voor risico's en kosten",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.1.II.I",
@@ -274,5 +274,7 @@
       "omschrijving": "Uitgeverij Ukkel NV heeft op 31/12 een lopend rechtsgeding waar een schadevergoeding van € 75.000 dreigt; juridisch advies wijst op verlies-waarschijnlijkheid > 50 %. Voorziening voor andere risico's en kosten van € 75.000 wordt geboekt: Debet 6371 Voorzieningen voor andere risico's en kosten — toevoeging € 75.000 / Credit 163 Voorzieningen voor overige risico's en kosten € 75.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:11:45Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:11:45Z",
+  "situering": "Voorzieningen zijn **schattingen aan passiefzijde** voor waarschijnlijke kosten of verliezen uit voorzienbare risico's, zonder dat bedrag of moment vaststaat (juridisch geschil, herstructurering, milieurisico). Voor de stagiair-GA belangrijk om voorzieningen (passief) te onderscheiden van waardeverminderingen (rectificatie van actief).",
+  "naam_alternatief": "provisions / provisions"
 }

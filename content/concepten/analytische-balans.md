@@ -19,7 +19,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/analytische-balans.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -88,7 +88,7 @@ _Grondslag: Vakdoctrine_
 
 - **Vereist kennis van**: [[verticale-analyse-jaarrekening]]
 - **Vereist kennis van**: [[horizontale-analyse-jaarrekening]]
-- **Wordt voorondersteld in** (1): [[herstructurering-resultatenrekening]]
+
 ## Bronnen
 
 [^1]: `anchor-1.3.I.C`

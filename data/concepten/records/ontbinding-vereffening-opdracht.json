@@ -1,13 +1,14 @@
 {
   "id": "ontbinding-vereffening-opdracht",
   "naam": "Ontbinding-vereffening opdracht van de gecertificeerd accountant",
-  "node_type": "begrip",
-  "schema_version": "1.5",
+  "node_type": "cluster",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.6.I.B",
     "1.6.I.A",
-    "1.6.IV.C"
+    "1.6.IV.C",
+    "1.7.taak.1"
   ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
@@ -21,7 +22,10 @@
     "reviewed_by": null,
     "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "last_extract_pass": "concept-extractie-v4-2026-05-18T16:10Z",
-    "last_extract_at": "2026-05-18T16:10:00Z"
+    "last_extract_at": "2026-05-18T16:10:00Z",
+    "migrated_begrip_to_cluster": "2026-05-18T18:00Z",
+    "migration_reason": "Consistency met andere opdracht-clusters (effectennorm, omzetting, fusie-splitsing) — ontbinding-vereffening is een samengesteld onderwerp met bouwstenen, niet enkel een begrip.",
+    "cross_linked_1.7.taak.1": "2026-05-18T18:00Z"
   },
   "in_praktijk": [
     {
@@ -132,5 +136,64 @@
       }
     }
   ],
-  "naam_alternatief": "verslag bij ontbinding-vereffening (WVV art. 2:71 e.v.)"
+  "naam_alternatief": "verslag bij ontbinding-vereffening (WVV art. 2:71 e.v.)",
+  "bouwstenen": [
+    {
+      "titel": "Staat van actief en passief — max. 3 maanden oud",
+      "wat": "De accountant beoordeelt een staat van actief en passief opgesteld door het bestuursorgaan, die maximaal drie maanden vóór de buitengewone algemene vergadering dateert die de ontbinding besluit.",
+      "waarom": "Een verouderde staat geeft een onbetrouwbaar beeld van wat nog te verdelen valt; de 3-maanden-regel waarborgt actualiteit.",
+      "grondslag": "ITAA-norm Ontbinding-vereffening §IV",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Ontbinding-vereffening §IV"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-ontbinding-vereffening__sec_iv-oordeel-en-verslag-iv-1-het-vormen-van-het-oordeel",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Continuïteitsbeginsel valt weg — aangepaste waardering",
+      "wat": "Bij ontbinding stopt de going-concern-veronderstelling. De waarderingsregels worden aangepast naar een 'going-out-of-business'-perspectief: activa tegen liquidatiewaarde, voorzieningen voor vereffeningskosten en sociale verplichtingen.",
+      "waarom": "Zonder continuïteit zijn andere waarderingsgrondslagen relevant — bv. vlottende activa worden voorzichtiger gewaardeerd; verbouwingen verliezen hun economische waarde.",
+      "grondslag": "ITAA-norm Ontbinding-vereffening + KB WVV waarderingsregels",
+      "confidence": "inferred-from-aggregation",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Ontbinding-vereffening"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-ontbinding-vereffening__sec_iv-oordeel-en-verslag-iv-1-het-vormen-van-het-oordeel",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Verslag aan de buitengewone algemene vergadering",
+      "wat": "Het ontbindingsverslag wordt samen met het bestuursverslag aan de BAV voorgelegd. Het bevat een conclusie over of de staat van actief en passief een getrouw beeld geeft.",
+      "waarom": "De BAV beslist over de ontbinding op basis van het bestuursverslag en het accountantsverslag — zonder die documenten ontbreekt de basis voor een geïnformeerde stemming.",
+      "grondslag": "ITAA-norm Ontbinding-vereffening §IV.2",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Ontbinding-vereffening §IV.2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-ontbinding-vereffening__sec_iv-2-verslag",
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ]
 }

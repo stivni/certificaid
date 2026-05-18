@@ -12,7 +12,7 @@ programmaonderdelen:
 confidence: inferred
 node_type: cluster
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/volledige-kostencalculatie.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -21,8 +21,6 @@ gegenereerd_op: '2026-05-18'
 De volledige kostencalculatie (synoniem: full costing, absorption costing) berekent een 'volledige kostprijs' per kostendrager door alle directe én alle (productie-)indirecte kosten op te tellen en aan het product toe te wijzen. Dit is de wettelijke aanpak voor de vervaardigingsprijs in de Belgische boekhouding (CBN 132/7), maar in management-accounting wordt full costing soms uitgebreid tot een 'volledige bedrijfskostprijs' die ook administratieve en commerciële overhead bevat — voor interne sturing.
 
 > [!info] Behoort tot: [[costing-methodes-vergelijking]]
-
-> [!info] Bestaat uit (1): [[vervaardigingsprijs]] · Specialisaties (1): [[abc-methode]]
 
 
 ## Bouwstenen

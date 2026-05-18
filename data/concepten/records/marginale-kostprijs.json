@@ -2,7 +2,7 @@
   "id": "marginale-kostprijs",
   "naam": "Marginale kostprijs",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.III.E"
@@ -76,5 +76,18 @@
       "omschrijving": "Yperse Werkplaats BV produceert 20.000 tapijten/jaar bij normale productie. De marginale kostprijs voor het 20.001ste tapijt = variabele kost € 13. Maar boven 22.000 stuks moet overuren gedraaid worden (€ 35/uur i.p.v. € 25); de marginale kostprijs stijgt dan tot € 17/stuk."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "naam_alternatief": "marginal cost",
+  "situering": {
+    "text": "De marginale kostprijs is de kost van één extra geproduceerde of verkochte eenheid. Bij lineair kostengedrag valt ze samen met de variabele kost per eenheid; in werkelijkheid kan ze afwijken door schaalsprongen (extra ploeg inschakelen, overuren, capaciteitsuitbreiding). Centraal voor extra-order-beslissingen ('mag ik een order onder kostprijs accepteren?') en optimale productie-uitbreiding ('marginale opbrengst = marginale kost').",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }

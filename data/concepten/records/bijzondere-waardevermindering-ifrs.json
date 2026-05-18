@@ -20,7 +20,13 @@
       "1.5.V"
     ],
     "reviewed_by": null,
-    "last_correction_run": "concept-extractie-v4-2026-05-18T-revisit-1.5.V.A"
+    "last_correction_run": "concept-extractie-v4-2026-05-18T-revisit-1.5.V.A",
+    "extractor_runs_log": [
+      {
+        "run": "concept-extractie-v4-2026-05-19-gap-resolution-po1.5",
+        "actie": "vergelijkingspaar-target hernoemd: aanvullende-afschrijving-be-gaap → bijzondere-waardevermindering-be-gaap (nieuw aangemaakt parallel-regime-record)"
+      }
+    ]
   },
   "bouwstenen": [
     {
@@ -119,7 +125,7 @@
       }
     },
     {
-      "vergelijking_met": "aanvullende-afschrijving-be-gaap",
+      "vergelijking_met": "bijzondere-waardevermindering-be-gaap",
       "verschil": "IAS 36 vereist formele realiseerbare-waarde-test (hoogste van FVLCD en VIU) en jaarlijkse test voor goodwill + immaterieel-onbepaald. Art. 3:42 KB WVV vereist alleen dat aanvullende afschrijving wordt geboekt zodra de boekhoudkundige waarde 'hoger' is dan de gebruikswaarde voor de vennootschap — zonder voorgeschreven rekenmethode. Goodwill onder BE-GAAP wordt afgeschreven (art. 3:42 § 1), niet jaarlijks getest zoals onder IAS 36.",
       "trigger": "Examen: 'Onder welk regime werd deze waardevermindering geboekt?' → toets op aanwezigheid van DCF-onderbouwing en CGU-allocatie (= IFRS) versus eenvoudige verwijzing naar duurzame minderwaarde (= BE-GAAP).",
       "_provenance": {

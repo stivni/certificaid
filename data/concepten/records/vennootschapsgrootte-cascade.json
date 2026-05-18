@@ -2,7 +2,7 @@
   "id": "vennootschapsgrootte-cascade",
   "naam": "Vennootschapsgrootte-cascade: micro &mdash; klein &mdash; groot",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.B",
@@ -130,5 +130,6 @@
     "bepalen-schema-jaarrekening",
     "afleiden-cascade-verplichtingen-uit-grootte"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": "Synthese die in één beslisboom toont hoe de groottecategorie (micro/klein/groot) doorwerkt op jaarrekening-schema, commissaris-verplichting, jaarverslag-plicht en consolidatieverplichting. Voor stagiair-GA praktische ruggengraat bij elk vennootschapsdossier."
 }

@@ -2,7 +2,7 @@
   "id": "intern-beheersingsrisico",
   "naam": "Intern beheersingsrisico",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.6.II.B",
@@ -12,7 +12,7 @@
     "1.7.VIII.F"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18-wave1b1",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.II.B",
     "dekt_ook_anchors": [
@@ -25,7 +25,10 @@
     "po_1_7_upgrade": {
       "op": "2026-05-17",
       "reden": "Concept dekt ook 1.7-anchors (interne controle): linked_anchors aangevuld via concept-extractie-v4 voor 1.7."
-    }
+    },
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "situering_added_v4": "2026-05-18",
+    "touched_at": "2026-05-18T17:24:12Z"
   },
   "definitie": {
     "text": "Intern beheersingsrisico is het risico dat een afwijking die kan optreden in een bewering (over een transactiestroom, rekeningsaldo of toelichting) — afzonderlijk of samen met andere van materieel belang — niet wordt voorkomen of niet tijdig wordt gedetecteerd en hersteld door de interne beheersing van de cliënt.",
@@ -97,8 +100,75 @@
   "voorbeelden": [
     {
       "vorm": "eenvoudig",
-      "omschrijving": "Bij Meubelzaak Mertens BV doet één persoon zowel kasontvangsten, boekhouding als bankreconciliatie — geen functiescheiding. Het intern beheersingsrisico op kasontvangsten is hoog. Sofie Janssens zal extra substantive testing op de kasstromen moeten doen."
+      "omschrijving": "Sofie Janssens schat het beheersingsrisico voor verkoop-cyclus van Yperse Werkplaats BV in als 'midden': automatische ERP-validaties werken, maar één werknemer (Karen De Backer) heeft volledige toegang van bestelling tot betaling — beperkte functiescheiding. Daarom test ze 25 verkopen op effectiviteit van compenserende review-controle door Pieter Vermeulen."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Intern beheersingsrisico is het risico dat de interne beheersing van de cliënt een potentiële afwijking niet voorkomt of niet tijdig detecteert. Het is een eigenschap van de cliënt — de auditor beïnvloedt het niet, hij toetst het via test-of-controls en stuurt zijn substantive werkzaamheden ernaar. Samen met inherent risico vormt het het risico op een afwijking van materieel belang.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1 + ISA 200"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Plaats in het auditrisicomodel",
+      "wat": "Auditrisico = inherent risico × intern beheersingsrisico × detectierisico. Intern beheersingsrisico is een eigenschap van de cliënt, niet beïnvloedbaar door de auditor — hij toetst het en stuurt zijn werkzaamheden ernaar.",
+      "waarom": "Bij hoog intern beheersingsrisico moet de auditor zijn detectierisico verlagen door méér substantieve toetsen — direct kost-driver.",
+      "grondslag": "ISA 200 §13 + ISA 315 (herzien-2019)",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-200__sec_definities",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Inschatting begint met design en implementatie",
+      "wat": "De auditor moet eerst evalueren of de IC-maatregelen goed ontworpen zijn én daadwerkelijk geïmplementeerd vooraleer hij hun werking kan testen.",
+      "waarom": "Een prachtig ontworpen procedure die niemand uitvoert is geen IC. Walkthrough en inquiry zijn standaardprocedures hiervoor.",
+      "grondslag": "ISA 315 (herzien-2019)",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-315-herzien-2019__sec_bijlage-3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Test-of-controls bij lage inschatting",
+      "wat": "Wanneer de auditor het beheersingsrisico laag inschat en daarop wil steunen, MOET hij de werking effectief testen via test-of-controls — niet alleen ontwerp.",
+      "waarom": "Steunen op IC zonder werkingstoets = ongegrond optimisme.",
+      "grondslag": "ISA 330 §8",
+      "confidence": "grounded",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-330__sec_definities",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ]
 }

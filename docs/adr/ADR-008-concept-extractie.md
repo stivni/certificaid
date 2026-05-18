@@ -541,12 +541,47 @@ Eerste pilot op anchor `1.5.V.C` (IAS 17 / IFRS 16 leasing) bevestigde een paar 
 - **Synthese-records hebben geen vast schema**. Schema 1.4 specificeert geen verplichte veld-shape voor `node_type: synthese` (geen `definitie`, geen `main_rule` top-level). De agent stelt de shape voor op basis van wat de synthese vereist (vergelijkingstabel, beslisboom, Mermaid-diagram). Het voorbeeld-minimum uit ADR-007 schema 1.4 blijft wel gelden — een uitgewerkt voorbeeld of vergelijking is verplicht.
 - **Bron-gaps signaleren, niet maskeren**. Wanneer de chunker een bronstuk verbergt (bv. een heading niet als sectie-grens herkent waardoor cruciale alinea's onder een verkeerde sectie hangen), schrijft de agent een `bron-gap`-entry in `gaps.json` ipv het te omzeilen. De ETL-bug wordt apart behandeld; EXTRACT moet eerlijk zijn over wat retrieval mist.
 
-#### 18.7 Open punten (post-pilot)
+#### 18.7 Wave-planning per PO — scope-granulariteit voor agent-launches (2026-05-18)
 
-- **Coordinator-pattern**: wanneer scope te groot wordt voor één agent-sessie, hoe verdeelt een coördinator-agent het in disjuncte sub-scopes zonder write-conflicts?
-- **Sub-agent eigenaarschap voor verwijderingen**: mag een sub-agent records verwijderen die niet door hemzelf zijn aangemaakt? Veiliger om delete-suggesties via coordinator te leiden.
+EXTRACT v4 is per-agent **scope-gebonden**: één agent verwerkt één scope-eenheid. De launcher (de gespreks-agent of de mens) beslist welke scope-eenheid. Bij PO 1.5 en 1.6 is empirisch vastgesteld dat de scope-granulariteit een sweet spot heeft: te klein verspilt tokens op overhead, te groot verzwakt prompt-discipline na ~30-40 record-mutaties.
+
+**Indicator vooraf — anchor-count** + **record-count** (na 2026-05-19 update):
+
+| Anchor-count | Voorspelde records | Aanbevolen aanpak | Bewijs |
+|---|---|---|---|
+| < 5 | < 20 | Eén agent voor hele PO | — |
+| 5–13 anchors mét bestaande records | 25–60 | **One-shot**: één agent voor touch-up + lichte content-depth | PO 1.8 (53 records, 20 min, 180k tokens, 0 nieuwe gaps), PO 1.9 (44 records), PO 1.1–1.4 touch-ups (42–73 records elk) |
+| 10–15 nieuwe / greenfield | onbekend | Twee waves: top-level + sub-anchors | PO 1.5 (14 anchors, ~150 records) |
+| > 15 nieuwe / greenfield | > 100 | Wave 1 top-level + parent-batched wave 2 | PO 1.6 (20 anchors, ~165 records), PO 1.7 (58 anchors, 16 batches) |
+
+**One-shot empirisch gevalideerd 2026-05-19**: voor PO's met grotendeels bestaande records (schema-bump + situering + naam_alternatief + lichte content-depth) is one-shot 3-4× efficiënter dan parent-batched. Voor greenfield-content blijft wave-strategie superieur (focus + bestaansreden-test-rigor).
+
+Ruwe record-prognose: **anchor-count × 8–10 ≈ records**. PO 1.5 = 14 anchors → ~150 records. PO 1.6 = 20 anchors → ~165 records.
+
+**Indicator na wave 1 — record-count per top-level**:
+
+Na de wave-1 pass (één agent per top-level anchor) wordt de wave-2 granulariteit *empirisch* bepaald per parent-anchor:
+
+- Parent met ~10-25 records over sub-anchors → **één parent-batched agent** voor alle sub-anchors van die parent (token-besparing, cross-sub-anchor coherentie).
+- Parent met >25 records over sub-anchors → **per-sub-anchor agent** (kwaliteit voorop).
+
+**Trade-offs samengevat**:
+
+| Dimensie | Per-anchor | Parent-batched | Per-PO |
+|---|---|---|---|
+| Tijd (wall-clock) | Langzaamst (sequentieel) | Tussen | Snelst (mits scope past) |
+| Tokens | Duurst (overhead × N) | 30–40 % goedkoper | Goedkoopst |
+| Kwaliteit | Beste diepte per scope | Hogere cross-anchor coherentie | Risico op decay na 30+ mutaties |
+
+Parallelle agents zijn **niet** veilig: sub-anchors delen records via `linked_anchors`, parallelle writes naar records-API geven last-write-wins en verloren mutaties. Disk-druk van meerdere worktrees verergert het.
+
+**Centraal-first blijft de regel**: top-level anchors gaan vóór sub-anchors. Top-level past de structurele issues aan (type-migraties, bron-prefix renames, situering-velden, deprecated edges, naam_alternatief voor EN-termen) over de cross-anchor records. Sub-anchor passes focussen daarna op diepte en specificiteit.
+
+#### 18.8 Resterende open punten
+
+- **Sub-agent eigenaarschap voor verwijderingen**: mag een sub-agent records verwijderen die niet door hemzelf zijn aangemaakt? Veiliger om delete-suggesties via coordinator te leiden. *(Tot nu toe in praktijk: agent deletet alleen wat hij hernoemt of vervangt, niet onbeperkte cleanup.)*
 - **Loop-limiet bij gap-events**: na N iteraties zonder convergentie → human review. Bestaande `run_enrichment_cycle.py`-mechanisme hergebruikt.
-- **EXTRACT v4-prompt zelf**: concrete tekst van de prompt + cast-uitbreidingen worden iteratief vastgesteld op basis van pilot-uitkomsten, niet voor-de-pilot vastgelegd.
+- **EXTRACT v4-prompt zelf**: concrete tekst van de prompt + cast-uitbreidingen worden iteratief vastgesteld op basis van pilot-uitkomsten, niet voor-de-pilot vastgelegd. *(Status 2026-05-18: 13+ patch-rondes, stabiel.)*
 
 ## Empirische onderbouwing
 

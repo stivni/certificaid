@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: grounded
 node_type: begrip
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/waarderingsregels-jaarrekening.json
 gegenereerd_op: '2026-05-18'
 ---
 # Waarderingsregels (algemeen) ⚖️
+
+Waarderingsregels bepalen aan welke waarde een actief of passief op de balans verschijnt. KB-WVV (art. 3:35 e.v.) stelt het basisprincipe: aanschaffingswaarde, vervolgens gecorrigeerd voor afschrijving en waardevermindering. Voor de stagiair-GA grondslag voor elke balansrubricering.
 
 > [!summary] Korte inhoud
 > Waarderingsregels zijn de regels die bepalen aan welke waarde een actief of passief op de balans wordt opgenomen.
@@ -101,7 +103,7 @@ _Grondslag: KB-WVV art. 3:35 § 4_
 
 - **Vereist kennis van**: [[voorzichtigheidsbeginsel]]
 - **Vereist kennis van**: [[consistentiebeginsel]]
-- **Wordt voorondersteld in** (1): [[eindejaarsverrichtingen]]
+
 ## Voorbeelden
 
 Naaiatelier Ninove BV koopt op 1 maart 2024 een machine voor € 80.000 → boekwaarde initieel = aanschaffingswaarde € 80.000. Lineair afschrijven over 10 jaar = € 8.000 per jaar. Na 5 jaar: boekwaarde € 40.000.

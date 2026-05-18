@@ -2,7 +2,7 @@
   "id": "jaarrekening-vzw-stichting",
   "naam": "Jaarrekening van VZW, IVZW en stichtingen",
   "node_type": "begrip",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.2.IV.A",
@@ -190,5 +190,7 @@
       "omschrijving": "VZW Quelle de Vie (kleine VZW met economische activiteit, € 250.000 omzet, 3 werknemers) → verkort VZW-schema; balans toont 'Fondsen van de vereniging' i.p.v. 'Kapitaal'."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "VZW's, IVZW's en stichtingen hebben **eigen** jaarrekeningregels (WVV Boek 9 + KB-WVV art. 3:184 e.v.). Drie regimes naar grootte: zeer kleine (vereenvoudigde boekhouding), kleine (verkort schema), grote (volledig schema). Voor de stagiair-GA belangrijk om niet automatisch het vennootschapsregime toe te passen — VZW heeft eigen drempels.",
+  "naam_alternatief": "financial statements (NPO/foundation) / comptes annuels (ASBL/fondation)"
 }

@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/voeren-regelmatige-dubbele-boekhouding.json
 gegenereerd_op: '2026-05-18'
 ---
 # Voeren van een regelmatige dubbele boekhouding voor een onderneming 🤖
+
+De overkoepelende beroepscompetentie van een GA: een dubbele boekhouding voeren die voldoet aan **alle** wettelijke regelmaatscriteria (volledigheid, ononderbrokenheid, onveranderlijkheid, getrouw beeld, bewaring). Voor een stagiair-GA: dit is de competentie waar alle andere boekhoudkundige competenties samenkomen — beheersing ervan is het minimum voor het beroepsexamen.
 
 
 ## Stappen

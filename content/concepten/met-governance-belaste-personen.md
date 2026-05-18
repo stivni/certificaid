@@ -4,15 +4,18 @@ tags:
 - concept
 - autoriteit
 - po-1-6
+- po-1-7
 linked_anchors:
-- 1.6.III.E
 - 1.6.II.A
+- 1.6.III.E
+- 1.7.IV
 programmaonderdelen:
 - '1.6'
+- '1.7'
 confidence: grounded
 node_type: autoriteit
 status: seed
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/met-governance-belaste-personen.json
 gegenereerd_op: '2026-05-18'
 ---

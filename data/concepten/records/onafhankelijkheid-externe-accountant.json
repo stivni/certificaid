@@ -10,7 +10,7 @@
     "1.6.taak.1"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T18:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.I",
     "linked_anchors": [
@@ -19,7 +19,8 @@
       "1.6.taak.1"
     ],
     "reviewed_by": null,
-    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z"
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
+    "edge_key_migrated": "2026-05-18"
   },
   "main_rule": {
     "text": "De externe accountant moet een opdracht weigeren of stopzetten zodra hij invloeden, feiten of banden vaststelt die zijn onafhankelijkheid, wils- of beoordelingsvrijheid of onpartijdigheid kunnen aantasten. Onafhankelijkheid is een continue plicht, niet alleen bij aanvang van de opdracht.",
@@ -135,8 +136,8 @@
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "belangenconflict-accountant",
-      "redenering": "Belangenconflict is de meest voorkomende bedreiging van de onafhankelijkheid."
+      "redenering": "Belangenconflict is de meest voorkomende bedreiging van de onafhankelijkheid.",
+      "target_id": "belangenconflict-accountant"
     }
   ],
   "voorbeelden": [

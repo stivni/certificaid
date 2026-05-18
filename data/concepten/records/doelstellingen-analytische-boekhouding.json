@@ -2,7 +2,7 @@
   "id": "doelstellingen-analytische-boekhouding",
   "naam": "Doelstellingen van de analytische boekhouding",
   "node_type": "cluster",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.8.I.A",
@@ -109,5 +109,17 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "migrated_to_schema_1.6_at": "2026-05-18T22:00:00Z",
+  "situering": {
+    "text": "Een opsomming van vier samenhangende doelen — kostprijsberekening per kostendrager, winstgevendheid per klant/markt, opvolging van kostencentra en beslissingsondersteuning — die samen verklaren waarom een onderneming een analytische boekhouding voert naast de wettelijke algemene boekhouding. Dit cluster is het anker van programmaonderdeel 1.8 hoofdstuk I.A en wordt door zowat elke andere PO 1.8-component (kostentypologie, kostprijsmethodes, budgetbeheer) ondersteund.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  }
 }
