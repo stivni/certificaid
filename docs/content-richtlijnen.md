@@ -52,6 +52,109 @@ Materie = de blokjes. Competenties = de bouwtechnieken. Synthese = oefenen met b
 
 Kenniselement-IDs uit de brochure (april 2022): 1.1–1.9 = accountancy · 2.1–2.8 = fiscaal · 3.1–3.2 = vennootschapsrecht · 4.0 = deontologie
 
+## Afkortingen
+
+CLAUDE.md regel 8 verbiedt informele kortvormen in code, docs en schema's. Dit geldt ook voor de tekstvelden van concept-records (definitie, in_praktijk, valkuilen, enzovoort).
+
+### Acceptabele afkortingen
+
+Gebruik deze vrij — ze zijn officieel wettelijk, internationaal gestandaardiseerd of zo ingeburgerd dat voluit schrijven onnatuurlijk leest:
+
+| Afkorting | Voluit | Reden |
+|---|---|---|
+| `WVV` | Wetboek van Vennootschappen en Verenigingen | wettekst-naam |
+| `KB` | Koninklijk Besluit | wettekst-type |
+| `WER` | Wetboek van Economisch Recht | wettekst-naam |
+| `WIB` | Wetboek Inkomstenbelastingen | wettekst-naam |
+| `WBTW` | Wetboek BTW | wettekst-naam |
+| `MAR` | Minimum Algemeen Rekeningenstelsel | officieel plan comptable |
+| `IFRS` | International Financial Reporting Standards | internationale norm |
+| `IAS` | International Accounting Standard | internationale norm |
+| `ISA` | International Standard on Auditing | internationale norm |
+| `ISRS` | International Standard on Related Services | internationale norm |
+| `ISAE` | International Standard on Assurance Engagements | internationale norm |
+| `GAAP` | Generally Accepted Accounting Principles | vaste term (BE-GAAP, US-GAAP) |
+| `CBN` | Commissie voor Boekhoudkundige Normen | officiële instantie |
+| `ITAA` | Instituut van de Belastingadviseurs en Accountants | officiële instantie |
+| `IBR` | Instituut van Bedrijfsrevisoren | officiële instantie |
+| `FSMA` | Autoriteit voor Financiële Diensten en Markten | officiële instantie |
+| `NBB` | Nationale Bank van België | officiële instantie |
+| `FOD` | Federale Overheidsdienst | officiële instantie |
+| `RSZ` | Rijksdienst voor Sociale Zekerheid | officiële instantie |
+| `CFI` | Cel voor Financiële Informatieverwerking | officiële instantie |
+| `PIE` | Public Interest Entity | Europees wettelijk begrip |
+| `EU` | Europese Unie | politieke entiteit |
+| `BTW` | Belasting over de Toegevoegde Waarde | zo ingeburgerd dat voluit onnatuurlijk leest |
+| `KMO` | Kleine en Middelgrote Onderneming | officieel juridisch begrip + naam ITAA-norm |
+| `BV` | Besloten Vennootschap | officiële vennootschapsvorm (WVV) |
+| `NV` | Naamloze Vennootschap | officiële vennootschapsvorm (WVV) |
+| `CV` | Coöperatieve Vennootschap | officiële vennootschapsvorm (WVV) |
+| `VOF` | Vennootschap onder Firma | officiële vennootschapsvorm (WVV) |
+| `VZW` | Vereniging zonder Winstoogmerk | officiële rechtsvorm (WVV) |
+| `IVZW` | Internationale Vereniging zonder Winstoogmerk | officiële rechtsvorm (WVV) |
+| `CVBA` | Coöperatieve Vennootschap met Beperkte Aansprakelijkheid | historische (pre-WVV) vennootschapsvorm |
+| `COSO` | Committee of Sponsoring Organizations | internationaal kader interne controle |
+| `ISO` | International Organization for Standardization | internationale normenorganisatie |
+| `AVG` | Algemene Verordening Gegevensbescherming | Europese verordening |
+| `CSRD` | Corporate Sustainability Reporting Directive | EU-richtlijn |
+| `XBRL` | eXtensible Business Reporting Language | technische standaard |
+| `NACE` | Nomenclature des activités économiques européennes | EU-classificatiesysteem |
+| `FIFO` | First In, First Out | gestandaardiseerde boekhoudterm (IAS 2) |
+| `LIFO` | Last In, First Out | gestandaardiseerde boekhoudterm |
+| `ROE` | Return on Equity | vaste financiële ratioterm |
+| `ROA` | Return on Assets | vaste financiële ratioterm |
+| `EBIT` | Earnings Before Interest and Taxes | vaste financiële term |
+| `WACC` | Weighted Average Cost of Capital | vaste financiële term |
+| `OCI` | Other Comprehensive Income | IFRS-term (IAS 1) |
+| `ROU` | Right-of-Use (asset) | IFRS 16-term |
+| `CGU` | Cash-Generating Unit | IAS 36-term |
+| `KPI` | Key Performance Indicator | algemeen erkend managementbegrip |
+| `ERP` | Enterprise Resource Planning | ICT-sector standaardbegrip |
+
+### Niet-acceptabele afkortingen
+
+Dit zijn informele kortvormen die in records zijn aangetroffen. Gebruik altijd de volledige term:
+
+| Fout | Correct | Toelichting |
+|---|---|---|
+| `MVA` | materiële vaste activa | eigen kortvorm, niet officieel |
+| `FVA` | financiële vaste activa | eigen kortvorm, niet officieel |
+| `IC` | interne controle | eigen kortvorm (zelfs in een IC-context) |
+| `RR` | resultatenrekening | eigen kortvorm |
+| `AV` | algemene vergadering | eigen kortvorm |
+| `EV` | eigen vermogen | eigen kortvorm (tenzij als formule-variabele in een berekening) |
+| `VV` | vreemd vermogen | eigen kortvorm (tenzij als formule-variabele) |
+| `TA` | totaal activa | eigen kortvorm (tenzij als formule-variabele) |
+| `NBK` | netto bedrijfskapitaal | eigen kortvorm (tenzij als formule-variabele) |
+| `IW` | ingehouden winst | eigen kortvorm (tenzij als formule-variabele) |
+| `MVE` | marktwaarde eigen vermogen | eigen kortvorm (tenzij als formule-variabele) |
+| `BBK` | behoefte aan bedrijfskapitaal | eigen kortvorm — schrijf voluit, tenzij geïntroduceerd als naam |
+| `VTE` | voltijdequivalent | eigen kortvorm |
+| `TW` | toegevoegde waarde | eigen kortvorm (verwarrend: ook "transactiewaarde", "tussenwaarde") |
+| `LT` | lange termijn | eigen kortvorm |
+| `KT` | korte termijn | eigen kortvorm |
+| `IA` | interne auditor | eigen kortvorm |
+| `PS` | proef- en saldibalans | eigen kortvorm |
+| `CM` | contributiemarge | eigen kortvorm |
+| `CFO` | kasstroom uit operationele activiteiten | eigen kortvorm (ook: Chief Financial Officer — dubbelzinnig) |
+
+### Uitzondering: formule-variabelen
+
+In berekeningsmethode-blokken en formule-wiskunde-velden zijn enkelbuchstaben en erkende symbolen toegestaan als ze **in dezelfde context geïntroduceerd** zijn (bv. `ROE = W / EV` als `EV` onmiddellijk daarvoor gedefinieerd is als "eigen vermogen"). Buiten formule-context altijd voluit.
+
+### Grep-check
+
+Controleer nieuwe records vóór commit:
+
+```bash
+# Verdachte informele kortvormen in records (2-4 hoofdletters die niet in de acceptatielijst staan)
+grep -roh '\b[A-Z]{2,4}\b' data/concepten/records/*.json | sort | uniq -c | sort -rn
+```
+
+Resultaat naast de acceptatielijst leggen — elke onbekende afkorting is een kandidaat voor voluit schrijven.
+
+---
+
 ## Status en tags
 
 | Tags | Betekenis | Zichtbaar in Explorer |
