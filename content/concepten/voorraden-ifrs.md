@@ -126,10 +126,6 @@ _Resultaat in EUR/kg_
 
 
 
-## Zie ook
-
-- **Vereist kennis van**: [[onderhanden-projecten-ifrs]]
-
 ## Bronnen
 
 [^1]: `IAS-2-voorraden__sec_waardering-van-voorraden`

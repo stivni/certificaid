@@ -9,7 +9,7 @@
     "1.5.V"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.5.V.E",
     "dekt_ook_anchors": [
@@ -326,9 +326,16 @@
       "confidence": "grounded"
     },
     {
-      "type": "vereist-kennis-van",
+      "type": "vergelijkt-met",
       "target": "onderhanden-projecten-ifrs",
-      "redenering": "Voorraden + onderhanden werk grenzen aan elkaar; onderhanden projecten in opdracht van derden vallen onder IFRS 15.",
+      "redenering": "Beide vallen onder IFRS-opbrengstkant, maar de scope-test (generieke voorraad voor algemene verkoop vs klant-specifiek project) bepaalt welk regime van toepassing is. Geen prerequisite, wel verwarring-risico (zie vergelijkingsparen).",
+      "confidence": "grounded",
+      "aspect": "voorraden (algemene verkoop, IAS 2) vs onderhanden projecten klantspecifiek (IFRS 15)"
+    },
+    {
+      "type": "verwijst-naar",
+      "target": "opbrengsten-ifrs",
+      "redenering": "IAS 2 alinea 8 verwijst naar IFRS 15 voor contractkosten die geen voorraad opleveren — afbakening tussen voorraad-IAS 2 en contract-IFRS 15.",
       "confidence": "grounded"
     }
   ],
@@ -345,6 +352,17 @@
       "removed_deprecated_edges": [],
       "migrated_to_specialisatie_van": [
         "vergelijkt-met -> voorraden  →  specialisatie-van (regime=IFRS)"
+      ]
+    },
+    {
+      "pass": "concept-extractie-v4-1.5.V.E",
+      "removed_deprecated_edges": [],
+      "migrated_to_specialisatie_van": [],
+      "edge_semantics_fix": [
+        "vereist-kennis-van -> onderhanden-projecten-ifrs  →  vergelijkt-met (aspect=scope-afbakening)"
+      ],
+      "added_edges": [
+        "verwijst-naar -> opbrengsten-ifrs (IAS 2 §8 cross-ref)"
       ]
     }
   ]

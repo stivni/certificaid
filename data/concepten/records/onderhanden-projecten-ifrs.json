@@ -10,7 +10,7 @@
     "1.5.V"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.5.V.E",
     "dekt_ook_anchors": [
@@ -302,6 +302,19 @@
       "target": "opbrengsten-ifrs",
       "redenering": "Onderhanden projecten zijn een specifieke toepassing van IFRS 15 — over-periode-opname.",
       "confidence": "grounded"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "voorraden-ifrs",
+      "aspect": "scope-afbakening: generieke voorraad vs klantspecifiek project",
+      "redenering": "Beide concepten staan vaak naast elkaar in een examenvraag — een product op voorraad voor algemene verkoop valt onder IAS 2, een specifiek besteld bouwproject onder IFRS 15. Zie vergelijkingsparen voor de trigger.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "prestatieverplichting",
+      "redenering": "De over-periode-criteria van alinea 35 toetsen op de prestatieverplichting (performance obligation) — kernobject van IFRS 15.",
+      "confidence": "grounded"
     }
   ],
   "voorbeelden": [
@@ -318,6 +331,15 @@
         "vervangt -> ias-11-onderhanden-projecten"
       ],
       "migrated_to_specialisatie_van": []
+    },
+    {
+      "pass": "concept-extractie-v4-1.5.V.E",
+      "removed_deprecated_edges": [],
+      "migrated_to_specialisatie_van": [],
+      "added_edges": [
+        "vergelijkt-met -> voorraden-ifrs",
+        "vereist-kennis-van -> prestatieverplichting"
+      ]
     }
   ]
 }

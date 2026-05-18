@@ -142,6 +142,10 @@ _Resultaat in EUR_
 
 
 
+## Zie ook
+
+- **Vereist kennis van**: [[prestatieverplichting]]
+
 ## Bronnen
 
 [^1]: `IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname`
