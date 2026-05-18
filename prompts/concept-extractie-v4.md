@@ -149,6 +149,16 @@ leasing                    (cluster — algemeen, regime-overstijgende kern)
 
 Triggers in bronnen: *"onder IFRS / BE-GAAP"*, *"art. KB W.Venn. vs IAS/IFRS"*, *"fiscaal versus boekhoudkundig"*.
 
+### Migratie van bestaande records naar regime-patroon
+
+Wanneer een bestaande record (bv. `leasing-ifrs` als `regel` of `cluster`) feitelijk regime-specifiek is maar de algemene cluster nog ontbreekt: pas dit drielagig:
+
+1. **Houd het bestaande regime-record** met zijn huidige id (bv. `leasing-ifrs`). Verander `node_type` naar `cluster` indien het nu `regel`/`fenomeen` is. Voeg edge `specialisatie-van: <algemene-id>` toe met `regime: IFRS`-facet.
+2. **Stel een nieuw algemeen record voor** (bv. `leasing`) als die nog niet bestaat. Behandel als near-duplicate-check: als er al iets in concept-RAG zit dat dit fenomeen op algemeen niveau dekt, link daar naar; anders is dit een record-creatie-kandidaat in de afsluitend rapport — niet zelf aanmaken, ping coordinator.
+3. **Migreer `main_rule` → `definitie`** wanneer regel→cluster wordt. Een cluster mag `main_rule` *behouden* als secundair veld wanneer er een centrale normatieve hoofdregel is naast de definitie — geen veld-verlies vereist.
+
+Wanneer beide regime-specialisaties (`leasing-be-gaap` én `leasing-ifrs`) bestaan: de algemene `leasing` is geen samenvoeging van beide; hij dekt regime-overstijgende kern (wat is leasing, classificatie-vragen, vergelijkings-bouwsteen).
+
 ---
 
 ## 8. Concretiserings-inhoud — drie soorten, multi-niveau
@@ -228,7 +238,7 @@ Illustraties **inline** binnen voorbeeld-scenarios. Een illustratie die bij zijn
 
 ### Migratie voorbeeld_inline → voorbeelden[]
 
-Tref je bij bestaande records het oude veld `voorbeeld_inline` aan, zet het om bij de eerste EXTRACT-touch:
+Tref je bij bestaande records het oude veld `voorbeeld_inline` aan, zet het om bij de eerste EXTRACT-touch. Geldt **zowel op record-top-niveau als binnen bouwstenen[].voorbeeld_inline** — Phase A-migratie heeft alleen record-top behandeld, bouwsteen-niveau ligt bij EXTRACT-pass.
 
 ```yaml
 # Oud (schema 1.2/1.3):
@@ -240,6 +250,8 @@ voorbeelden:
     omschrijving: "Aurelia betaalt € 1.500.000 voor Brugse Brouwerij..."
     confidence: "grounded"   # of inferred, overnemen van oud veld indien aanwezig
 ```
+
+Bouwsteen-niveau migratie identiek: `bouwstenen[i].voorbeeld_inline` (string) → `bouwstenen[i].voorbeelden[{vorm: eenvoudig, omschrijving, confidence}]`. Geen architectuur-keuze; mechanische conversie.
 
 ---
 
@@ -264,7 +276,7 @@ Cross-record relaties schrijf je als getypeerde edges op de **bron-node** (de no
 - Andere relaties (onderdeel-van, specialisatie, trigger, prerequisite) → altijd naar `edges[]`, nooit naar `vergelijkingsparen[]`.
 
 **Slug-resolver-regel** (verplicht vóór elke edge schrijven):
-1. Bevraag concept-RAG op de target-naam.
+1. Bevraag concept-RAG **of** `data/concepten/records/<id>.json` direct (disk-existence-check is equivalent en goedkoper voor canonieke ids). Concept-RAG voor semantische similarity wanneer slug onbekend; disk-check wanneer je de slug al kent en alleen bestaan wilt verifiëren.
 2. Gevonden → gebruik de exacte slug uit het record (`id`-veld), niet een ad-hoc variant.
 3. Niet gevonden → schrijf de edge met `target_status: "pending"` én maak een `records.ontbreekt`-gap-entry aan in `data/extractie/gaps.json`.
 
@@ -280,7 +292,7 @@ Uniforme rijkheid binnen type is verplicht (zie gap-mining-pattern 2 en 5). Gebr
 |---|---|---|---|
 | **begrip** | `definitie` | ≥ 1 `voorbeelden[{vorm: eenvoudig}]` op record-niveau of in bouwsteen | `in_praktijk[]`, `vergelijkingsparen[]`, `valkuilen[]` |
 | **regel** | `main_rule` of `verplichting` | ≥ 1 `voorbeelden[]` met concrete cliëntsituatie | `uitzonderingen[]`, `voorwaarden[]`, `vergelijkingsparen[]`, `drempelwaarden[]` |
-| **cluster** | `definitie` of `doel`, `bouwstenen[]` of `berekeningsmethode[]` | ≥ 1 `berekeningsmethode[].formules[].invulling_voorbeeld` OF ≥ 1 stap met `voorbeeld.substappen[]` | `in_praktijk[]`, `vergelijkingsparen[]` |
+| **cluster** | `definitie` of `doel`, `bouwstenen[]` of `berekeningsmethode[]` | EEN van: (a) `berekeningsmethode[].formules[].invulling_voorbeeld`, (b) ≥ 1 stap met `voorbeeld.substappen[]`, (c) ≥ 1 `voorbeelden[{vorm: scenario}]` op record-niveau met inline `illustraties[]` (boeking, balans-fragment, ...). Procedurele clusters zonder formule kiezen voor (b) of (c). | `in_praktijk[]`, `vergelijkingsparen[]` |
 | **synthese** | `gebaseerd_op_concepten[]` (≥ 3), één van `vergelijkingstabel`/`beslisboom` | ≥ 1 worked example in `vergelijkingstabel` of `beslisboom` | `kerninzichten[]` |
 | **autoriteit** | `definitie`, `rol` | ≥ 1 `voorbeelden[]` of `in_praktijk[]` met antwoord op "wanneer komt deze actor in een stagiair-dossier?" | `vergelijkingsparen[]`, `valkuilen[]` |
 | **competentie** | `doel`, `stappen[]` (≥ 2) | ≥ 1 stap met inline `voorbeeld` | `beoordelings_criteria`, `beslisboom` |
