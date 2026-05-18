@@ -15,7 +15,8 @@
     "dekt_ook_anchors": [
       "1.5.II"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "last_correction_run": "concept-extractie-v4-2026-05-18T02:45Z"
   },
   "main_rule": {
     "text": "In België is IFRS-toepassing zeer beperkt. **Verplicht** is IFRS alleen voor de geconsolideerde jaarrekening van (1) op een gereglementeerde markt genoteerde Belgische ondernemingen, en (2) Belgische kredietinstellingen en verzekeringsondernemingen (op grond van sectorale toezichtsregels). **Toegestaan** (optie) is IFRS voor de geconsolideerde jaarrekening van een Belgische niet-beursgenoteerde moeder die uitdrukkelijk voor IFRS kiest en daarvoor toestemming krijgt — én voor de geconsolideerde jaarrekening van een consortium dat tot één enkel rapporteringsstelsel wil overgaan (Commissie voor Boekhoudkundige Normen, CBN, 2016/19). **Voor de enkelvoudige (statutaire) jaarrekening van een vennootschap** is IFRS in België niét toegestaan — die volgt altijd Belgisch GAAP (KB WVV).",
@@ -153,9 +154,9 @@
     },
     {
       "titel": "Wijziging boekhoudkundig referentiestelsel (CBN 2022/08)",
-      "wat": "Een onderneming die wisselt van Belgisch GAAP naar IFRS (of omgekeerd) volgt een specifieke procedure: alle openingscijfers herrekenen volgens het nieuwe stelsel, vergelijkende informatie aanpassen, en in de toelichting de impact van de wisseling kwantificeren. Voor een eerste IFRS-toepassing is dat IFRS 1; voor een terugkeer naar Belgisch GAAP geldt CBN 2022/08.",
-      "waarom": "Een referentiestelsel-wissel is geen technische schattingswijziging maar een fundamentele heropbouw van de cijferbasis. Gebruikers moeten de oude en nieuwe cijfers naast elkaar kunnen zien om vertrouwen te houden.",
-      "grondslag": "CBN 2022/08; IFRS 1 voor verplichte eerste toepassing",
+      "wat": "Een onderneming die wisselt van een buitenlands stelsel (typisch IFRS) **naar BE GAAP** voor haar **statutaire** jaarrekening volgt CBN 2022/08: continuïteitsbeginsel blijft gelden (openingsbalans = eindbalans vorig boekjaar), maar afwijkende waarderingen worden herwerkt via eigen-vermogen-rekeningen; vergelijkende cijfers worden aangepast via een concordantietabel in de toelichting. De **omgekeerde** richting (BE GAAP → IFRS, typisch voor geconsolideerde jaarrekening bij nieuwe beursnotering) valt onder **IFRS 1**, niet onder CBN 2022/08. CBN 2022/08 dekt niét de geconsolideerde jaarrekening.",
+      "waarom": "Een stelselwissel raakt de fundamenten van de cijferbasis. CBN 2022/08 voorkomt zowel een ongedocumenteerde 'reset' (continuïteit blijft staan) als een mechanische doorrekening die in strijd is met BE GAAP (uitzondering bij twee cumulatieve voorwaarden).",
+      "grondslag": "CBN 2022/08 (BE-bestemming, statutair); IFRS 1 voor IFRS-bestemming",
       "confidence": "grounded",
       "source": {
         "type": "advies",
@@ -173,9 +174,15 @@
       "voorbeelden": [
         {
           "vorm": "eenvoudig",
-          "omschrijving": "Aurelia Holding NV beslist om vanaf 1 januari 2027 op IFRS over te schakelen voor haar geconsolideerde jaarrekening (vrijwillige keuze). Datum van overgang naar IFRS = 1 januari 2026; IFRS-openingsbalans op die datum + aansluiting tussen oude (KB WVV) en nieuwe (IFRS) cijfers in de toelichting."
+          "omschrijving": "Aurelia Holding NV verliest in 2027 haar GVV-status; vanaf boekjaar 2028 moet zij haar statutaire jaarrekening terug in BE GAAP opstellen. Per 1 januari 2028 herwerkt ze MVA, financiële vaste activa en geldbeleggingen naar BE-GAAP-conforme waardering; de vergelijkende cijfers 2027 worden in een concordantietabel toegelicht."
         }
-      ]
+      ],
+      "correction": {
+        "datum": "2026-05-18",
+        "run_id": "concept-extractie-v4-2026-05-18T02:45Z",
+        "corrected_from": "Originele tekst stelde dat CBN 2022/08 zowel BE-GAAP→IFRS als omgekeerd dekt; feitelijk dekt het advies alleen de overgang NAAR BE GAAP voor de statutaire jaarrekening (zie advies §Inleiding alinea 3-4).",
+        "correction_reason": "Scope-correctie na lezing van volledige CBN 2022/08-tekst."
+      }
     }
   ],
   "in_praktijk": [

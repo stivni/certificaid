@@ -59,12 +59,12 @@ _Grondslag: CBN 2016/19_
 
 ### Wijziging boekhoudkundig referentiestelsel (CBN 2022/08) ⚖️
 
-Een onderneming die wisselt van Belgisch GAAP naar IFRS (of omgekeerd) volgt een specifieke procedure: alle openingscijfers herrekenen volgens het nieuwe stelsel, vergelijkende informatie aanpassen, en in de toelichting de impact van de wisseling kwantificeren. Voor een eerste IFRS-toepassing is dat IFRS 1; voor een terugkeer naar Belgisch GAAP geldt CBN 2022/08.
+Een onderneming die wisselt van een buitenlands stelsel (typisch IFRS) **naar BE GAAP** voor haar **statutaire** jaarrekening volgt CBN 2022/08: continuïteitsbeginsel blijft gelden (openingsbalans = eindbalans vorig boekjaar), maar afwijkende waarderingen worden herwerkt via eigen-vermogen-rekeningen; vergelijkende cijfers worden aangepast via een concordantietabel in de toelichting. De **omgekeerde** richting (BE GAAP → IFRS, typisch voor geconsolideerde jaarrekening bij nieuwe beursnotering) valt onder **IFRS 1**, niet onder CBN 2022/08. CBN 2022/08 dekt niét de geconsolideerde jaarrekening.
 
-**Waarom?** Een referentiestelsel-wissel is geen technische schattingswijziging maar een fundamentele heropbouw van de cijferbasis. Gebruikers moeten de oude en nieuwe cijfers naast elkaar kunnen zien om vertrouwen te houden.
+**Waarom?** Een stelselwissel raakt de fundamenten van de cijferbasis. CBN 2022/08 voorkomt zowel een ongedocumenteerde 'reset' (continuïteit blijft staan) als een mechanische doorrekening die in strijd is met BE GAAP (uitzondering bij twee cumulatieve voorwaarden).
 
 
-_Grondslag: CBN 2022/08; IFRS 1 voor verplichte eerste toepassing_
+_Grondslag: CBN 2022/08 (BE-bestemming, statutair); IFRS 1 voor IFRS-bestemming_
 
 
 ## In de praktijk

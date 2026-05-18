@@ -1806,5 +1806,23 @@
     "geconstateerd_op": "2026-05-18",
     "applied_door": "gap-mining-rapport-2026-05-18",
     "applied_at": "2026-05-18T00:15:14Z"
+  },
+  {
+    "record_id": "wijziging-boekhoudkundig-referentiestelsel",
+    "aspect": "bron-gap",
+    "reden": "Delta-rapport meldt 1160 delta-chunks voor dit record, vrijwel volledig IFRS-9 (105), IFRS-7 (82), IFRS-17 (62) — generieke financial-instruments-bronnen die door embedding similariteit (woorden 'IFRS', 'referentiestelsel', 'waardering') in de matches komen maar geen substantief specifieke inhoud voor CBN 2022/08 leveren. Echte bron (CBN 2022/08 sec_inleiding) blijft enige primaire bron. Bron-delta is hier vooral retrieval-ruis, geen ontbrekende inhoud.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-18T02:45Z",
+    "geconstateerd_op": "2026-05-18T02:38:41.575841+00:00",
+    "status": "open"
+  },
+  {
+    "record_id": null,
+    "aspect": "bron-gap",
+    "reden": "Bron CBN 2022/08 is gechunked als één enkele sectie 'sec_inleiding' (~22k chars). Sub-secties (Boekhoudkundige beginselen, Standpunt-§Continuïteitsbeginsel, §Aanpassing, §Uitzondering, §Voorbeeld 2, Boekhoudkundige verwerking MVA) zijn niet afzonderlijk indexeerbaar. Hierdoor moet elke bouwsteen naar dezelfde chunk-id verwijzen. Re-chunking op '###'-niveau zou retrieval-precisie verhogen.",
+    "prio": "middel",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-18T02:45Z",
+    "geconstateerd_op": "2026-05-18T02:38:41.575841+00:00",
+    "status": "open"
   }
 ]
