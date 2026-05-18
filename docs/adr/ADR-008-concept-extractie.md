@@ -1,13 +1,14 @@
 # ADR-008: Concept-extractie via bron-first matching
 
 **Status**: Accepted
-**Datum**: 2026-05-09 (laatst bijgewerkt 2026-05-16)
+**Datum**: 2026-05-09 (laatst bijgewerkt 2026-05-18)
 **Empirisch onderbouwd op**: PO 4.0 Deontologie, PO 1.1 Algemene boekhouding, PO 1.4 Geconsolideerde jaarrekening (enrichment-loop + schema 1.4-rewrite)
 
 ## Changelog
 
 - **2026-05-17** — §18 toegevoegd: EXTRACT v4 als research-and-draft-agent met event-driven scope. ENRICH wordt herzien als EXTRACT met gap-event (zelfde agent, andere initial-ctx). VERIFY-feedback splitst in tactisch (per-record gap-event) en strategisch (prompt-/cast-evolutie). Records hitten concept-RAG meteen via records-API (ADR-019). v1.0-mindset: geen draft-status. Coordinator-pattern uitgesteld tot post-pilot.
-- **2026-05-16** — §17 toegevoegd: schema 1.4-implicaties voor extractie-prompts. Concept-extractie-v4 gebruikt stap-blok + bouwsteen-blok + formule-blok + cast-conventie (zie ADR-007 schema 1.4). VERIFY krijgt drie nieuwe aspect-types (`voorbeeld.ontbreekt`, `stap.skeleton`, `bouwsteen.geen-waarom`). ENRICH-prompt v2 dekt deze. Empirisch gevalideerd via twee deep-rewrite-batches op PO 1.4 (29/31 records → schema 1.4 op 2026-05-16).
+- **2026-05-18** — `prompts/concept-extractie-v4.md` herschreven als zelfdragend permanent artefact (v4, niet delta-op-v3). ADR-007 schema 1.5 geïntegreerd: 6 node-types (`begrip` · `regel` · `cluster` · `synthese` · `autoriteit` · `competentie`), 7 canonieke edge-types, drie concretiserings-soorten (`in_praktijk`, `voorbeelden`, `illustraties`). Migratie-mapping voor verouderde types. Gap-mining-patterns 1-5 omgezet in concrete regels: slug-resolver (§9), minimum-rijkheid-tabel (§10), near-duplicate-check (§11), corpus-blindheid-mitigatie (§12). `voorbeeld_inline` → `voorbeelden[]` migratie geïnstrueerd.
+- **2026-05-16** — §17 toegevoegd: schema 1.4-implicaties voor extractie-prompts. Concept-extractie-v4 gebruikt stap-blok + bouwsteen-blok + formule-blok + cast-conventie (zie ADR-007 schema 1.4). VERIFY krijgt drie nieuwe aspect-types (`voorbeeld.ontbreekt`, `stap.skeleton`, `bouwsteen.geen-waarom`). ENRICH-prompt v1 dekt deze. Empirisch gevalideerd via twee deep-rewrite-batches op PO 1.4 (29/31 records → schema 1.4 op 2026-05-16).
 - **2026-05-15** — §14 (Fase D: Competentie-destillatie), §15 (Fase E: Leerpad-opstelling), §16 (gaps.json type-discriminator) toegevoegd. Drie-lagen leermateriaal-uitbreiding (BRON → CONCEPT → COMPETENTIE → minicursus) gegrond in pedagogische output-vraag. Examenvragen blijven uitgesloten als input (anti-circulariteit); exam_patterns is wel toegestaan.
 - **2026-05-15** — §13 toegevoegd: monotone enrichment-loop (4-bloks-flow EXTRACT → VERIFY → ENRICH → AUTO-MERGE+LOG). Records worden PO-overschrijdend flat in `data/concepten/records/<id>.json` opgeslagen; PO-linkage via `linked_anchors[]` per record. Gaps en enrich-warnings globaal in `data/extractie/`.
 - **2026-05-15** — §4 bundling-strategie herzien naar knee-detectie (97.2% recall op gold-set).
@@ -167,7 +168,7 @@ Subagent (Opus, één per PO) verwerkt anchors sequentieel.
 
 3. **Agent-judgment in quality-check** — een tweede agent (Opus, via `quality-check-v1`) probeert examenvragen of synthese-tests met enkel concept-records op te lossen en flagt expliciet ontbrekende begrippen. Output naar `data/concepten/quality_checks/<po>/examen-eval-*.json`.
 
-Outputs van de drie mechanismen zijn input voor **prompt v2 hercirculatie**: de volgende extractie-pass krijgt de dangling/missing-list als "expand-here"-instructie.
+Outputs van de drie mechanismen zijn input voor **prompt v4 hercirculatie**: de volgende extractie-pass krijgt de dangling/missing-list als "expand-here"-instructie (feedback-set event — zie §18.2).
 
 **Mens-rol**: cureren van de gerapporteerde kandidaten (accept/reject), geen pre-werk. Zelfde dynamiek als de caveat-policy (ADR-005 §5): agent stelt voor, mens beslist.
 
@@ -187,7 +188,7 @@ Mens-rol: per voorstel beslissen of de bron wordt toegevoegd aan het corpus, erg
 Voor elke seed → status `partieel` → eventueel `gevuld`:
 - Verdiepende retrieval-queries met cumulatieve concept-state als input
 - LLM vult `exceptions`, `scope`, edge-targets verder in
-- Status `gevuld` (later, eventueel handmatig of via tweede LLM-pass): `pitfalls`, `voorbeeld_inline`
+- Status `gevuld` (later, eventueel handmatig of via tweede LLM-pass): `valkuilen[]`, `voorbeelden[]`
 
 ### 7. Bestaande concepten als anchor
 
@@ -262,7 +263,7 @@ Na empirische validatie op PO 1.4 (zie `data/extractie/1.4/v1-vs-v2-vergelijking
 De pipeline krijgt daarom een 4-bloks-flow per programmaonderdeel, waarbij blok 2 en 3 strikt gescheiden hoedjes hebben (judge ≠ writer = geen self-grading) en blok 4 mechanisch monotonie afdwingt.
 
 ```
-1. EXTRACT  (de-novo, anchor-gestuurd, prompt v3)
+1. EXTRACT  (de-novo, anchor-gestuurd, prompt v4)
        ↓
 2. VERIFY   (read-only judge-agent → globale gaps.json)
        ↓
@@ -275,7 +276,7 @@ De pipeline krijgt daarom een 4-bloks-flow per programmaonderdeel, waarbij blok 
 
 **Linkage records ↔ programmaonderdelen** via veld `linked_anchors[]` op elk record (lijst van anchor-id's uit eender welk PO). Bij PO-scoped operaties (minicursus-bouw, stress-test, examenmatching) wordt via dit veld + de concepten-collection in ChromaDB gescoped — geen file-tree-discriminatie.
 
-#### 13.1 EXTRACT — vijf algemene principes voor prompt v3
+#### 13.1 EXTRACT — vijf algemene principes voor prompt v4
 
 Gedistilleerd uit v2-bevindingen op PO 1.4, maar generiek geformuleerd:
 
@@ -371,7 +372,7 @@ Geen vijf aspect-passes, geen aparte minicursus-stress-test als tooling-stap. De
 - `tools/extractie/auto_merge.py` — mechanisch script voor blok 4 (AUTO-MERGE + LOG; garandeert monotoon contract)
 - `tools/extractie/run_enrichment_cycle.py` — orchestreert de volledige VERIFY→ENRICH→AUTO-MERGE cyclus autonoom tot 0 open gaps (met max-iteraties)
 - `tools/examen/classify_vragen_naar_programmaonderdelen.py` — one-off classificatie van examenvragen naar programmaonderdelen via Sonnet-subagent
-- `prompts/concept-extractie-v3.md` — herziene EXTRACT-prompt met 5 algemene principes
+- `prompts/concept-extractie-v4.md` — zelfdragende EXTRACT-prompt (schema 1.5, research-and-draft-agent, event-driven scope)
 - `prompts/concept-verify-v1.md` — VERIFY-prompt (model: Sonnet)
 - `prompts/concept-enrich-v1.md` — ENRICH-prompt met monotoon contract + discovery-signaal
 
@@ -442,7 +443,7 @@ ADR-007 schema 1.4 voegt **bouwsteen-blok**, **formule-blok**, **stap-blok**, **
 - Regel 8 — Stap-blok met `input/output` als semantische arrays + `voorbeeld.substappen[]` met types
 - Regel 9 — Edges activeren per type (onderdeel-van → breadcrumb, vergelijkt-met → collapsible, etc.)
 - Regel 10 — `node_type: synthese` voor cluster-records
-- Regel 11 — Bouwsteen-blok geformaliseerd (titel/wat/waarom/voorbeeld_inline/grondslag)
+- Regel 11 — Bouwsteen-blok geformaliseerd (titel/wat/waarom/in_praktijk of voorbeelden[]/grondslag)
 - Regel 12 — Formule-blok geformaliseerd (formules[] met variabelen + invulling_voorbeeld)
 - Regel 13 — Voorbeeld-minimum per node-type
 - Regel 14 — Voorbeelden uit drie toegestane bronnen (chunks > bestaand > synthese met cast)
