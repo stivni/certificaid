@@ -51,24 +51,41 @@ def test_record() -> dict:
 
 
 @pytest.fixture()
-def patched_api(monkeypatch: pytest.MonkeyPatch, records_dir: Path, chroma_path: str):
-    """
-    Patch records_api zodat hij de tijdelijke records_dir gebruikt én de daemon mockt.
+def content_dir(tmp_path: Path) -> Path:
+    """Geïsoleerde content/concepten-map voor tests."""
+    d = tmp_path / "content" / "concepten"
+    d.mkdir(parents=True)
+    return d
 
-    Geeft een namedtuple-achtig object terug met:
-      .daemon_calls  — lijst van (endpoint, payload, chroma_path) tuples van alle calls
-      .records_dir   — tmp records-map
-      .chroma_path   — tmp chroma-pad
+
+@pytest.fixture()
+def patched_api(monkeypatch: pytest.MonkeyPatch, records_dir: Path, chroma_path: str, content_dir: Path):
+    """
+    Patch records_api zodat hij de tijdelijke records_dir gebruikt, de daemon mockt
+    en render-calls registreert zonder echte Jinja2-afhankelijkheid.
+
+    Geeft een object terug met:
+      .daemon_calls    — lijst van (endpoint, payload, chroma_path) tuples
+      .render_calls    — lijst van (record_id,) tuples van render-aanroepen
+      .delete_fiche_calls — lijst van concept_id's van verwijderde markdown-fiches
+      .records_dir     — tmp records-map
+      .content_dir     — tmp content/concepten-map
+      .chroma_path     — tmp chroma-pad
       .set_daemon_fail(endpoint)  — laat de mock DaemonUnavailableError gooien voor endpoint
+      .set_render_fail()          — laat de render-mock een Exception gooien
     """
     import tools.lib.records_api as api
 
-    # Verander RECORDS_DIR naar de tijdelijke map
+    # Verander RECORDS_DIR en CONTENT_CONCEPTEN_DIR naar de tijdelijke mappen
     monkeypatch.setattr(api, "RECORDS_DIR", records_dir)
     monkeypatch.setattr(api, "CHROMA_PATH_DEFAULT", Path(chroma_path))
+    monkeypatch.setattr(api, "CONTENT_CONCEPTEN_DIR", content_dir)
 
     daemon_calls: list[tuple[str, dict, str]] = []
     daemon_fails: set[str] = set()
+    render_calls: list[str] = []
+    render_fail: list[bool] = [False]
+    delete_fiche_calls: list[str] = []
 
     def mock_post_daemon(endpoint: str, payload: dict, chroma_pad: str) -> dict:
         daemon_calls.append((endpoint, payload, chroma_pad))
@@ -83,7 +100,18 @@ def patched_api(monkeypatch: pytest.MonkeyPatch, records_dir: Path, chroma_path:
             return {"id": payload.get("concept_id", ""), "ok": True}
         return {"ok": True}
 
+    def mock_render_concept_fiche(record: dict, content_dir: Optional[Path] = None) -> None:
+        concept_id = record.get("id", "onbekend")
+        render_calls.append(concept_id)
+        if render_fail[0]:
+            raise RuntimeError(f"Gesimuleerde render-fout voor {concept_id}")
+
+    def mock_verwijder_concept_fiche(concept_id: str, content_dir: Optional[Path] = None) -> None:
+        delete_fiche_calls.append(concept_id)
+
     monkeypatch.setattr(api, "_post_daemon", mock_post_daemon)
+    monkeypatch.setattr(api, "_render_concept_fiche", mock_render_concept_fiche)
+    monkeypatch.setattr(api, "_verwijder_concept_fiche", mock_verwijder_concept_fiche)
 
     # _laad_rag_ids mocken zodat we ChromaDB niet echt nodig hebben voor audit
     # maar we laten het voor audit-tests echt werken via chroma_path
@@ -93,7 +121,10 @@ def patched_api(monkeypatch: pytest.MonkeyPatch, records_dir: Path, chroma_path:
         def __init__(self):
             self.daemon_calls = daemon_calls
             self.daemon_fails = daemon_fails
+            self.render_calls = render_calls
+            self.delete_fiche_calls = delete_fiche_calls
             self.records_dir = records_dir
+            self.content_dir = content_dir
             self.chroma_path = chroma_path
 
         def set_daemon_fail(self, endpoint: str) -> None:
@@ -101,6 +132,12 @@ def patched_api(monkeypatch: pytest.MonkeyPatch, records_dir: Path, chroma_path:
 
         def clear_daemon_fail(self, endpoint: str) -> None:
             daemon_fails.discard(endpoint)
+
+        def set_render_fail(self) -> None:
+            render_fail[0] = True
+
+        def clear_render_fail(self) -> None:
+            render_fail[0] = False
 
     return PatchedApi()
 
@@ -344,19 +381,27 @@ def test_audit_parity_detecteert_ghost(monkeypatch, patched_api):
 
 
 def test_audit_parity_beide_aanwezig(patched_api, test_record):
-    """audit_parity geeft ok=True als disk en RAG identiek zijn."""
+    """audit_parity geeft ok=True als disk, RAG én content identiek zijn."""
     import tools.lib.records_api as api
 
     api.save_record(test_record, chroma_path=patched_api.chroma_path)
+
+    # Schrijf ook een markdown-fiche in de content_dir
+    (patched_api.content_dir / "test-concept.md").write_text("# Test\n", encoding="utf-8")
 
     # Na save_record: disk = {"test-concept"}, RAG = {} (mock-daemon schrijft niet echt)
     # We patchen _laad_rag_ids om de mock-state te weerspiegelen
     from unittest.mock import patch
     with patch.object(api, "_laad_rag_ids", return_value={"test-concept"}):
-        resultaat = api.audit_parity(chroma_path=patched_api.chroma_path)
+        resultaat = api.audit_parity(
+            chroma_path=patched_api.chroma_path,
+            content_dir=patched_api.content_dir,
+        )
         assert resultaat["ok"] is True
         assert resultaat["ghosts"] == []
         assert resultaat["missing"] == []
+        assert resultaat["content_ontbreekt"] == []
+        assert resultaat["content_extra"] == []
 
 
 # ─── CLI exit-codes ───────────────────────────────────────────────────────────
@@ -443,7 +488,7 @@ def test_save_record_concurrentie_serialiseert(patched_api, test_record):
 # ─── Timeout-mitigatie (ADR-019 §"Timeout-mitigatie") ────────────────────────
 
 
-def test_cold_start_timeout_eerste_call_60s(monkeypatch, records_dir, test_record):
+def test_cold_start_timeout_eerste_call_60s(monkeypatch, records_dir, tmp_path, test_record):
     """
     Eerste save_record-call na module-import gebruikt 60s timeout (cold-start).
     Tweede call gebruikt 10s.
@@ -457,6 +502,9 @@ def test_cold_start_timeout_eerste_call_60s(monkeypatch, records_dir, test_recor
     # Reset de cold-start-state door de module-variabele terug te zetten
     monkeypatch.setattr(api, "_eerste_daemon_call_gedaan", False)
     monkeypatch.setattr(api, "RECORDS_DIR", records_dir)
+    # Isoleer content_dir zodat er geen bestanden in het echte content/concepten/ worden geschreven
+    monkeypatch.setattr(api, "CONTENT_CONCEPTEN_DIR", tmp_path / "content_concepten")
+    monkeypatch.setattr(api, "_render_concept_fiche", lambda record, content_dir=None: None)
 
     ontvangen_timeouts: list[int] = []
 
@@ -675,3 +723,183 @@ def test_geen_valse_rollback_bij_fout_voor_daemon_call_connection_error(
     assert delete_calls == [], (
         f"Valse rollback: /delete-concept aangeroepen zonder ghost. Calls: {delete_calls}"
     )
+
+
+# ─── Content-sync (ADR-019 §"Content-sync") ──────────────────────────────────
+
+
+def test_save_record_triggert_render(patched_api, test_record):
+    """
+    save_record roept render_concept_fiche aan na succesvolle disk-write.
+    ADR-019 §"Content-sync": drie-stappen-flow RAG → disk → render.
+    """
+    import tools.lib.records_api as api
+
+    api.save_record(test_record, chroma_path=patched_api.chroma_path)
+
+    # Render moet zijn aangeroepen voor het correcte concept-id
+    assert "test-concept" in patched_api.render_calls, (
+        f"render_concept_fiche niet aangeroepen na save_record. render_calls: {patched_api.render_calls}"
+    )
+
+
+def test_save_record_render_fout_faalt_save_niet(patched_api, test_record):
+    """
+    Als render_concept_fiche een fout gooit, faalt save_record NIET.
+    ADR-019 §"Content-sync": render-fout → log WARNING, geen rollback.
+    """
+    import tools.lib.records_api as api
+
+    patched_api.set_render_fail()
+
+    # save_record moet slagen ondanks render-fout
+    api.save_record(test_record, chroma_path=patched_api.chroma_path)
+
+    # Record staat op disk (render-fout mag dit niet terugdraaien)
+    pad = patched_api.records_dir / "test-concept.json"
+    assert pad.exists(), "Record verdwenen na render-fout — ten onrechte rollback"
+
+    # Daemon-call wél gedaan
+    assert any(c[0] == "index-concept" for c in patched_api.daemon_calls)
+
+
+def test_delete_record_verwijdert_markdown(patched_api, test_record):
+    """
+    delete_record ruimt de markdown-fiche op.
+    ADR-019 §"Content-sync": stap 3 na disk delete + RAG delete.
+    """
+    import tools.lib.records_api as api
+
+    api.save_record(test_record, chroma_path=patched_api.chroma_path)
+    patched_api.daemon_calls.clear()
+    patched_api.render_calls.clear()
+    patched_api.delete_fiche_calls.clear()
+
+    api.delete_record("test-concept", chroma_path=patched_api.chroma_path)
+
+    # _verwijder_concept_fiche moet zijn aangeroepen voor het correcte id
+    assert "test-concept" in patched_api.delete_fiche_calls, (
+        f"_verwijder_concept_fiche niet aangeroepen bij delete_record. "
+        f"delete_fiche_calls: {patched_api.delete_fiche_calls}"
+    )
+
+
+def test_rename_record_verwijdert_oude_markdown_en_maakt_nieuwe(patched_api, test_record):
+    """
+    rename_record verwijdert de oude markdown-fiche en maakt een nieuwe aan.
+    ADR-019 §"Content-sync": render(nieuw) + markdown delete(oud).
+    """
+    import tools.lib.records_api as api
+
+    api.save_record(test_record, chroma_path=patched_api.chroma_path)
+    patched_api.daemon_calls.clear()
+    patched_api.render_calls.clear()
+    patched_api.delete_fiche_calls.clear()
+
+    nieuw_record = dict(test_record, id="test-concept-hernoemd", naam="Hernoemd")
+    api.rename_record("test-concept", nieuw_record, chroma_path=patched_api.chroma_path)
+
+    # Nieuwe markdown gerenderd
+    assert "test-concept-hernoemd" in patched_api.render_calls, (
+        "Nieuwe markdown-fiche niet gerenderd na rename_record"
+    )
+    # Oude markdown verwijderd
+    assert "test-concept" in patched_api.delete_fiche_calls, (
+        "Oude markdown-fiche niet verwijderd na rename_record"
+    )
+
+
+def test_rename_record_render_fout_faalt_rename_niet(patched_api, test_record):
+    """
+    Als render_concept_fiche een fout gooit bij rename_record, faalt rename NIET.
+    ADR-019 §"Content-sync": render-fout → log WARNING, geen rollback.
+    """
+    import tools.lib.records_api as api
+
+    api.save_record(test_record, chroma_path=patched_api.chroma_path)
+    patched_api.daemon_calls.clear()
+    patched_api.set_render_fail()
+
+    nieuw_record = dict(test_record, id="test-concept-hernoemd")
+    api.rename_record("test-concept", nieuw_record, chroma_path=patched_api.chroma_path)
+
+    # Disk-state is correct ondanks render-fout
+    assert not (patched_api.records_dir / "test-concept.json").exists()
+    assert (patched_api.records_dir / "test-concept-hernoemd.json").exists()
+
+
+def test_audit_parity_detecteert_content_drift_ontbreekt(monkeypatch, patched_api, test_record):
+    """
+    audit_parity detecteert records op disk zonder overeenkomstige markdown-fiche.
+    ADR-019 §"Content-sync": content_ontbreekt = op disk, niet als markdown.
+    """
+    import tools.lib.records_api as api
+
+    # Schrijf record op disk zonder render (bypass API)
+    pad = patched_api.records_dir / "test-concept.json"
+    pad.write_text(json.dumps(test_record) + "\n", encoding="utf-8")
+
+    # RAG-ids simuleren als in sync
+    monkeypatch.setattr(api, "_laad_rag_ids", lambda chroma_path: {"test-concept"})
+
+    # content_dir is leeg → content_ontbreekt
+    resultaat = api.audit_parity(
+        chroma_path=patched_api.chroma_path,
+        content_dir=patched_api.content_dir,
+    )
+    assert resultaat["ok"] is False
+    assert "test-concept" in resultaat["content_ontbreekt"]
+    assert resultaat["content_extra"] == []
+
+
+def test_audit_parity_detecteert_content_extra(monkeypatch, patched_api):
+    """
+    audit_parity detecteert markdown-fiches die geen overeenkomstig record op disk hebben.
+    ADR-019 §"Content-sync": content_extra = markdown bestaat, geen record op disk.
+    """
+    import tools.lib.records_api as api
+
+    # Schrijf een markdown-fiche zonder record
+    markdown_pad = patched_api.content_dir / "weesje.md"
+    markdown_pad.write_text("# Weesje\n\nGeen record meer.", encoding="utf-8")
+
+    # Disk en RAG zijn leeg
+    monkeypatch.setattr(api, "_laad_rag_ids", lambda chroma_path: set())
+
+    resultaat = api.audit_parity(
+        chroma_path=patched_api.chroma_path,
+        content_dir=patched_api.content_dir,
+    )
+    assert resultaat["ok"] is False
+    assert "weesje" in resultaat["content_extra"]
+    assert resultaat["content_ontbreekt"] == []
+
+
+def test_audit_parity_ok_met_content_in_sync(monkeypatch, patched_api, test_record):
+    """
+    audit_parity geeft ok=True als disk, RAG en content allemaal in sync zijn.
+    ADR-019 §"Content-sync": disk_and_rag_and_content = volledig OK.
+    """
+    import tools.lib.records_api as api
+
+    concept_id = test_record["id"]
+
+    # Record op disk
+    pad = patched_api.records_dir / f"{concept_id}.json"
+    pad.write_text(json.dumps(test_record) + "\n", encoding="utf-8")
+
+    # Markdown-fiche in content_dir
+    (patched_api.content_dir / f"{concept_id}.md").write_text("# Test\n", encoding="utf-8")
+
+    # RAG in sync
+    monkeypatch.setattr(api, "_laad_rag_ids", lambda chroma_path: {concept_id})
+
+    resultaat = api.audit_parity(
+        chroma_path=patched_api.chroma_path,
+        content_dir=patched_api.content_dir,
+    )
+    assert resultaat["ok"] is True
+    assert resultaat["ghosts"] == []
+    assert resultaat["missing"] == []
+    assert resultaat["content_ontbreekt"] == []
+    assert resultaat["content_extra"] == []
