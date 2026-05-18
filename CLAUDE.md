@@ -115,13 +115,12 @@ certificaid/
 │   │   └── qa/                 # QA-rapporten (gitignored)
 │   ├── rag/                    # ChromaDB-instance (gitignored, herbouwbaar)
 │   │   └── main/               # Hoofd-index over alle trusted bronnen
-│   ├── concepten/              # Kennislaag + history + checks
+│   ├── concepten/              # Kennislaag + history
 │   │   ├── records/            # Concept records (gegit)
 │   │   ├── competenties/       # Competentie-YAML's (schema 1.0, ADR-007)
 │   │   ├── leerpaden/          # Leerpad-YAML's per PO (schema 1.0, ADR-007)
-│   │   ├── _archive/           # Archief (gitignored)
-│   │   └── quality_checks/     # Kwaliteitschecks (gegit)
-│   └── extractie/              # Werkfolder extractie-pipeline
+│   │   └── _archive/           # Archief (gitignored)
+│   └── extractie/              # Werkfolder extractie-pipeline (incl. gaps.json — unified feedback-stroom)
 └── .github/workflows/deploy.yml
 ```
 

@@ -1,3 +1,0 @@
-data/rag/main/*.sqlite3 filter=lfs diff=lfs merge=lfs -text
-data/rag/main/**/*.bin filter=lfs diff=lfs merge=lfs -text
-data/rag/main/**/*.pickle filter=lfs diff=lfs merge=lfs -text

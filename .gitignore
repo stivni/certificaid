@@ -30,11 +30,15 @@ resources/raw/normen/
 .po-voortgang-*.md
 
 # RAG data
-# data/rag/main/ wordt via Git LFS bijgehouden (chroma.sqlite3 + HNSW-bins)
-# zodat de Streamlit-deploy de index niet bij build-time hoeft te bouwen.
-# Andere RAG-scopes blijven lokaal herbouwbaar.
+# data/rag/main/ wordt NIET in git getrackt (was eerder via LFS).
+# Streamlit-deploy haalt de index uit een GitHub Release via setup.sh.
+# Snapshot uploaden: tools/rag/release.sh
+data/rag/main/
 data/rag/1.1/
 data/rag/4.0/
+
+# Lokale Chroma-runs (test/dev), niet de hoofd-index
+data/chroma_db/
 
 # QA-rapporten (gegenereerd door tools/etl/qa_bron.py — per-run, niet getracked)
 data/etl/qa/
