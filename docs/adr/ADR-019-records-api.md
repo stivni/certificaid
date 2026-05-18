@@ -78,9 +78,64 @@ def audit_parity() -> dict:
 
 Beste-inspanning-atomair via volgorde:
 
-1. **save_record**: daemon `/index-concept` → 200 OK → disk write. Disk-write-fout → daemon `/delete-concept` om RAG terug consistent te krijgen + raise.
-2. **rename_record**: daemon `/delete-concept(old_id)` → daemon `/index-concept(new)` → disk delete oud + write nieuw. Bij stap 2 of 3 falen: rollback van eerder gelukte stappen + raise.
-3. **delete_record**: disk delete → daemon `/delete-concept`. Bij stap 2 falen: log loud (state nu wel consistent: niets op disk, oude entry nog in RAG — zal opnieuw kunnen worden weggehaald).
+1. **save_record**: daemon `/index-concept` → 200 OK → disk write → render concept-fiche. Disk-write-fout → daemon `/delete-concept` om RAG terug consistent te krijgen + raise. Render-fout → log warning, geen rollback (markdown is afgeleid artefact, altijd herbouwbaar).
+2. **rename_record**: daemon `/delete-concept(old_id)` → daemon `/index-concept(new)` → disk delete oud + write nieuw → render nieuw + verwijder oude markdown. Bij stap 2 of 3 falen: rollback van eerder gelukte stappen + raise. Render-fout → log warning, geen rollback.
+3. **delete_record**: disk delete → daemon `/delete-concept` → verwijder markdown. Bij stap 2 falen: log loud (state nu wel consistent: niets op disk, oude entry nog in RAG — zal opnieuw kunnen worden weggehaald). Markdown-verwijdering na stap 3: log warning bij falen, geen raise.
+
+### Content-sync
+
+**Probleem**
+
+De records-API garandeert na elke succesvolle write dat `data/concepten/records/<id>.json` en de `concepten` ChromaDB-collection in sync zijn (§Atomiciteitscontract). Maar `content/concepten/<id>.md` — de Quartz-gepubliceerde markdown-fiche — wordt alleen bijgewerkt als iemand handmatig `render_concept_fiche.py` aanroept. Drift sluipt onzichtbaar in: een record dat geüpdatet is via `save_record` kan een verouderde fiche in `content/concepten/` hebben die Quartz publiceert.
+
+Andere render-scripts (`render_minicursus.py` → `content/studiemateriaal/`, `render_competentie_fiche.py` → `content/competenties/`) produceren output op programmaonderdeel- of competentieniveau — niet één-op-één per concept-record. Die vallen buiten scope van de records-API (eigen cadans, eigen triggers).
+
+**Beslissing**
+
+De records-API roept na elke succesvolle RAG + disk operatie ook `render_concept_fiche.render_naar_bestand()` aan voor het geraakte record. De render-stap is de derde stap in de atomaire flow:
+
+```
+save_record:   RAG (daemon) → disk → render
+rename_record: RAG delete(oud) → RAG upsert(nieuw) → disk → render(nieuw) + markdown delete(oud)
+delete_record: disk → RAG → markdown delete
+```
+
+**Render-semantiek**
+
+- Render-fout (ImportError, TemplateError, OSError op write) → log `WARNING` maar fail `save_record`/`rename_record` NIET. Markdown is afgeleid en altijd herbouwbaar via `render_concept_fiche --alle`. Een render-fout blokkeert de record-write niet.
+- Render is idempotent: zelfde record-input → zelfde markdown-output (deterministisch via Jinja2-templates). Veilig om vaak aan te roepen.
+- Bij `delete_record`: verwijder ook `content/concepten/<id>.md` als die bestaat. Ontbrekend bestand is geen fout (no-op).
+
+**Audit-uitbreiding**
+
+`audit_parity()` krijgt een derde check naast disk-RAG parity: vergelijking van records op disk met markdown-fiches in `content/concepten/`. De functie retourneert extra sleutels:
+
+```python
+{
+  'disk_ids': set[str],
+  'rag_ids': set[str],
+  'content_ids': set[str],         # ids met bestaande markdown-fiche
+  'ghosts': list[str],             # in RAG, niet op disk
+  'missing': list[str],            # op disk, niet in RAG
+  'content_ontbreekt': list[str],  # op disk, niet als markdown-fiche
+  'content_extra': list[str],      # markdown-fiche bestaat, niet op disk
+  'ok': bool,                      # True alleen als alles in sync
+}
+```
+
+Drie staten per record (ter documentatie):
+
+| Status | disk | RAG | markdown |
+|---|---|---|---|
+| `disk_only` | ja | nee | nee |
+| `disk_and_rag` | ja | ja | nee |
+| `disk_and_rag_and_content` | ja | ja | ja |
+
+Alleen `disk_and_rag_and_content` = volledig OK. `ok` in het resultaat is `True` alleen als er geen ghosts, geen missing, geen content_ontbreekt en geen content_extra zijn.
+
+**Pre-commit hook uitbreiding**
+
+De bestaande hook `scripts/git-hooks/pre-commit-records-parity.sh` wordt uitgebreid: `audit_parity()` faalt nu ook bij content-drift (ontbrekende of extra markdown-fiches). Dezelfde exit-1-semantiek als bij disk/RAG drift.
 
 Daemon-uitbreiding nodig (ADR-018): nieuw endpoint `POST /delete-concept {id, chroma_path}`. Serialiseert via dezelfde `_operatie_lock` als `/index-concept`.
 
@@ -183,7 +238,7 @@ Hook is **blokkerend** bij elke drift (geen lenient-modus, geen override-vlag op
 - **Nieuwe bestanden**:
   - `tools/lib/records_api.py` — de API + CLI (`audit`, `audit --fix`, `reindex-all`, `reindex <id>`)
   - `tests/test_records_api.py` — unit tests (zie sectie hierboven)
-  - `scripts/pre-commit-records-parity.sh` — git hook (strict)
+  - `scripts/pre-commit-records-parity.sh` — git hook (strict, inclusief content-drift check)
   - `scripts/install-hooks.sh` — installer voor de hook
 - **Verwijderde bestanden**:
   - `tools/extractie/index_concept_incremental.py` — gefunctioneerd door records-API
@@ -210,16 +265,18 @@ Hook is **blokkerend** bij elke drift (geen lenient-modus, geen override-vlag op
 - **Audit-parity**: kunstmatig geïntroduceerde ghost en missing → `audit_parity` rapporteert ze correct
 - **Edge cases**: `rename_record` met new_id == old_id → `ValueError`; `delete_record` op onbestaande id → `KeyError`; concurrente save's serialiseren correct (regression-test op daemon-lock)
 - **CLI-modi**: `audit` exit-code 0/1, `reindex-all` raakt alle disk-ids
+- **Content-sync**: `save_record` triggert render (mock render-functie, check call); `delete_record` ruimt markdown op; `rename_record` ruimt oude markdown op en maakt nieuwe aan; render-fout faalt `save_record` NIET (enkel warning); `audit_parity` detecteert content-drift (ontbrekende en extra markdown)
 
-Fixture-strategie: aparte test-ChromaDB onder `tmp_path`, daemon gemockt via `monkeypatch` of een lichte fake-server. Tests mogen niet afhankelijk zijn van de live LaunchAgent-daemon.
+Fixture-strategie: aparte test-ChromaDB onder `tmp_path`, daemon gemockt via `monkeypatch` of een lichte fake-server. Render-functie gemockt via `monkeypatch` om te vermijden dat Jinja2-templates nodig zijn in unit-tests. Tests mogen niet afhankelijk zijn van de live LaunchAgent-daemon.
 
 ### Verificatie na rollout
 
-1. `python3 -m tools.lib.records_api audit` → 0 ghosts, 0 missing
+1. `python3 -m tools.lib.records_api audit` → 0 ghosts, 0 missing, 0 content_ontbreekt, 0 content_extra
 2. `pytest tests/test_records_api.py` → groen
 3. Pre-commit hook detecteert handmatig geïntroduceerde drift (test door directe `rm` van een record-file zonder API)
 4. Geen `Path.write_text` of `json.dump` calls meer op `data/concepten/records/` paden in de codebase (grep-check)
 5. `tools/extractie/index_concept_incremental.py` is `git rm`'d en geen verwijzingen meer in scripts of docs (grep-check)
+6. Smoke: `save_record` op een bestaand record → markdown in `content/concepten/` wordt opnieuw geschreven (check via mtime of diff)
 
 ## Out-of-scope
 

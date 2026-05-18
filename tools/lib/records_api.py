@@ -3,12 +3,19 @@ Centrale records-API voor Certificaid concept-records (ADR-019).
 
 Enige toegestane interface voor mutaties aan data/concepten/records/*.json.
 Garandeert dat elke disk-write ook de `concepten` ChromaDB-collection bijwerkt
-(RAG-parity-discipline).
+(RAG-parity-discipline) én de bijbehorende Quartz-markdown-fiche herrendert
+(content-sync — ADR-019 §"Content-sync").
 
 Atomiciteitscontract per operatie (ADR-019 §"Atomiciteitscontract"):
-  save_record:   daemon /index-concept → disk write. Disk-fail → /delete-concept rollback.
-  rename_record: daemon /delete-concept(oud) → daemon /index-concept(nieuw) → disk delete + write.
-  delete_record: disk delete → daemon /delete-concept (log loud bij stap-2-fail).
+  save_record:   daemon /index-concept → disk write → render concept-fiche.
+                 Disk-fail → /delete-concept rollback.
+                 Render-fout → log WARNING maar geen rollback (markdown is afgeleid).
+  rename_record: daemon /delete-concept(oud) → daemon /index-concept(nieuw)
+                 → disk delete + write → render(nieuw) + markdown delete(oud).
+                 Render-fout → log WARNING maar geen rollback.
+  delete_record: disk delete → daemon /delete-concept → markdown delete.
+                 Log loud bij daemon-fout; markdown-verwijdering is no-op als bestand
+                 niet bestaat.
 
 Timeout-mitigatie (ADR-019 §"Timeout-mitigatie"):
   1. Cold-start timeout: eerste daemon-call na proces-start krijgt 60s timeout (i.p.v. 10s).
@@ -45,6 +52,7 @@ logger = logging.getLogger(__name__)
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 RECORDS_DIR = ROOT / "data" / "concepten" / "records"
+CONTENT_CONCEPTEN_DIR = ROOT / "content" / "concepten"
 CHROMA_PATH_DEFAULT = ROOT / "data" / "rag" / "main"
 COLLECTIE_NAAM = "concepten"
 
@@ -171,6 +179,73 @@ def _laad_disk_ids() -> set[str]:
     }
 
 
+def _laad_content_ids(content_dir: Optional[Path] = None) -> set[str]:
+    """
+    Lees alle concept-ids waarvoor een markdown-fiche bestaat in content/concepten/.
+
+    ADR-019 §"Content-sync": content_ids = set van ids waarvoor <id>.md aanwezig is.
+    """
+    doelmap = content_dir or CONTENT_CONCEPTEN_DIR
+    if not doelmap.exists():
+        return set()
+    return {pad.stem for pad in doelmap.glob("*.md")}
+
+
+def _render_concept_fiche(record: dict, content_dir: Optional[Path] = None) -> None:
+    """
+    Render de Quartz-markdown-fiche voor één concept-record.
+
+    ADR-019 §"Content-sync": derde stap na RAG + disk.
+    Roept render_concept_fiche.render_naar_bestand() aan.
+
+    Render-fout (ImportError, TemplateError, OSError) → logt WARNING maar raiset NIET.
+    Reden: markdown is afgeleid artefact dat altijd herbouwd kan worden via
+    `render_concept_fiche --alle`. Een render-fout mag nooit de record-write blokkeren.
+
+    Args:
+        record: volledig concept-record dict
+        content_dir: doelmap voor de markdown-fiche. Default: content/concepten/
+    """
+    concept_id = record.get("id", "onbekend")
+    doelmap = content_dir or CONTENT_CONCEPTEN_DIR
+    try:
+        from tools.leermateriaal.render_concept_fiche import render_naar_bestand
+        render_naar_bestand(record, output_dir=doelmap)
+        logger.debug("_render_concept_fiche: fiche gegenereerd voor %s", concept_id)
+    except Exception as exc:
+        logger.warning(
+            "_render_concept_fiche: render MISLUKT voor %s (geen rollback — markdown is afgeleid): %s. "
+            "Herbouw via: python3 -m tools.leermateriaal.render_concept_fiche --alle",
+            concept_id,
+            exc,
+        )
+
+
+def _verwijder_concept_fiche(concept_id: str, content_dir: Optional[Path] = None) -> None:
+    """
+    Verwijder de markdown-fiche voor een concept-record uit content/concepten/.
+
+    ADR-019 §"Content-sync": aangeroepen bij delete_record en rename_record (oud id).
+    Ontbrekend bestand is geen fout (no-op).
+
+    Args:
+        concept_id: id van het te verwijderen record
+        content_dir: doelmap voor de markdown-fiche. Default: content/concepten/
+    """
+    doelmap = content_dir or CONTENT_CONCEPTEN_DIR
+    markdown_pad = doelmap / f"{concept_id}.md"
+    if markdown_pad.exists():
+        try:
+            markdown_pad.unlink()
+            logger.debug("_verwijder_concept_fiche: %s verwijderd", markdown_pad)
+        except OSError as exc:
+            logger.warning(
+                "_verwijder_concept_fiche: verwijdering MISLUKT voor %s: %s",
+                markdown_pad,
+                exc,
+            )
+
+
 # ---------------------------------------------------------------------------
 # Interne ghost-recovery helper
 # ---------------------------------------------------------------------------
@@ -247,22 +322,26 @@ def _ghost_recovery(concept_id: str, chroma_path: str, context: str = "") -> Non
 def save_record(
     record: dict,
     chroma_path: Optional[str] = None,
+    content_dir: Optional[Path] = None,
 ) -> None:
     """
-    Atomair: schrijf record naar disk + upsert in concept-RAG.
+    Atomair: schrijf record naar disk + upsert in concept-RAG + render markdown-fiche.
 
     Atomiciteitscontract (ADR-019 §"Atomiciteitscontract"):
     1. Daemon /index-concept → 200 OK
     2. Disk write
+    3. Render concept-fiche naar content/concepten/
     Als stap 2 faalt → /delete-concept rollback + raise.
+    Als stap 3 faalt → log WARNING, geen rollback (markdown is afgeleid artefact).
 
     Faalt loud als daemon niet bereikbaar — geen disk-only writes.
-    Bestaande id → in-place update (zowel disk als RAG).
-    Nieuwe id → nieuwe entry in beide.
+    Bestaande id → in-place update (disk, RAG én markdown).
+    Nieuwe id → nieuwe entry in alle drie.
 
     Args:
         record: volledig concept-record dict (schema 1.x, ADR-007)
         chroma_path: pad naar ChromaDB-instantie. Default: data/rag/main
+        content_dir: doelmap voor markdown-fiche. Default: content/concepten/
 
     Raises:
         DaemonUnavailableError: daemon niet bereikbaar of timeout
@@ -322,17 +401,31 @@ def save_record(
             f"Disk-write mislukt voor {concept_id}: {exc}"
         ) from exc
 
-    logger.info("save_record: %s opgeslagen (disk + RAG)", concept_id)
+    # Stap 3: render concept-fiche (ADR-019 §"Content-sync")
+    # Render-fout faalt save_record NIET — markdown is afgeleid artefact.
+    try:
+        _render_concept_fiche(record, content_dir=content_dir)
+    except Exception as render_exc:
+        logger.warning(
+            "save_record: render-stap MISLUKT voor %s (record is opgeslagen; "
+            "markdown niet bijgewerkt): %s. "
+            "Herbouw via: python3 -m tools.leermateriaal.render_concept_fiche --alle",
+            concept_id,
+            render_exc,
+        )
+
+    logger.info("save_record: %s opgeslagen (disk + RAG + content)", concept_id)
 
 
 def rename_record(
     old_id: str,
     new_record: dict,
     chroma_path: Optional[str] = None,
+    content_dir: Optional[Path] = None,
 ) -> None:
     """
     Atomair: verwijder old_id uit RAG + verwijder oud bestand,
-    schrijf nieuw bestand + upsert nieuwe id in RAG.
+    schrijf nieuw bestand + upsert nieuwe id in RAG + render nieuwe markdown + verwijder oude.
 
     new_record['id'] moet ≠ old_id zijn.
 
@@ -340,12 +433,15 @@ def rename_record(
     1. daemon /delete-concept(old_id)
     2. daemon /index-concept(new_record)
     3. disk delete oud + write nieuw
+    4. render nieuw + verwijder oude markdown (ADR-019 §"Content-sync")
     Bij stap 2 of 3 falen: rollback van eerder gelukte stappen + raise.
+    Bij stap 4 falen: log WARNING, geen rollback.
 
     Args:
         old_id: bestaande concept-id die hernoemd wordt
         new_record: volledig nieuw record dict (new_record['id'] ≠ old_id)
         chroma_path: pad naar ChromaDB-instantie. Default: data/rag/main
+        content_dir: doelmap voor markdown-fiche. Default: content/concepten/
 
     Raises:
         ValueError: new_record['id'] == old_id
@@ -424,25 +520,43 @@ def rename_record(
             f"Disk-operatie mislukt bij rename van {old_id} → {new_id}: {exc}"
         ) from exc
 
-    logger.info("rename_record: %s → %s (disk + RAG)", old_id, new_id)
+    # Stap 4: render nieuw + verwijder oude markdown (ADR-019 §"Content-sync")
+    # Render-fout faalt rename_record NIET — markdown is afgeleid artefact.
+    try:
+        _render_concept_fiche(new_record, content_dir=content_dir)
+    except Exception as render_exc:
+        logger.warning(
+            "rename_record: render-stap MISLUKT voor %s (record is hernoemd; "
+            "markdown mogelijk niet bijgewerkt): %s. "
+            "Herbouw via: python3 -m tools.leermateriaal.render_concept_fiche --alle",
+            new_id,
+            render_exc,
+        )
+    _verwijder_concept_fiche(old_id, content_dir=content_dir)
+
+    logger.info("rename_record: %s → %s (disk + RAG + content)", old_id, new_id)
 
 
 def delete_record(
     record_id: str,
     chroma_path: Optional[str] = None,
+    content_dir: Optional[Path] = None,
 ) -> None:
     """
-    Atomaar: verwijder bestand + verwijder uit RAG.
+    Atomaar: verwijder bestand + verwijder uit RAG + verwijder markdown-fiche.
 
     Atomiciteitscontract (ADR-019 §"Atomiciteitscontract"):
     1. disk delete
     2. daemon /delete-concept
+    3. verwijder markdown-fiche (ADR-019 §"Content-sync")
     Bij stap 2 falen: log loud (niets meer op disk, entry nog in RAG —
     zal bij volgende delete-aanroep opnieuw weggehaald kunnen worden).
+    Bij stap 3 falen: log WARNING, geen raise (ontbrekend bestand is al no-op).
 
     Args:
         record_id: id van het te verwijderen record
         chroma_path: pad naar ChromaDB-instantie. Default: data/rag/main
+        content_dir: doelmap voor markdown-fiche. Default: content/concepten/
 
     Raises:
         RecordNotFoundError: record bestaat niet op disk én niet in RAG
@@ -470,7 +584,7 @@ def delete_record(
     # Stap 2: RAG verwijderen (log loud bij falen)
     try:
         _post_daemon("delete-concept", {"concept_id": record_id}, resolved_chroma)
-        logger.info("delete_record: %s verwijderd (disk + RAG)", record_id)
+        logger.debug("delete_record: daemon /delete-concept OK voor %s", record_id)
     except Exception as exc:
         logger.error(
             "delete_record: disk delete OK, maar /delete-concept MISLUKT voor %s: %s. "
@@ -481,20 +595,32 @@ def delete_record(
         )
         # Niet re-raiseable — disk is al clean, ghost wordt bij audit opgeruimd
 
+    # Stap 3: verwijder markdown-fiche (ADR-019 §"Content-sync")
+    _verwijder_concept_fiche(record_id, content_dir=content_dir)
+    logger.info("delete_record: %s verwijderd (disk + RAG + content)", record_id)
+
 
 def audit_parity(
     chroma_path: Optional[str] = None,
+    content_dir: Optional[Path] = None,
 ) -> dict:
     """
-    Vergelijk disk-records met RAG-collectie. Read-only.
+    Vergelijk disk-records met RAG-collectie én markdown-fiches. Read-only.
+
+    Drie-dimensionele parity-check (ADR-019 §"Content-sync"):
+    - disk ↔ RAG: ghosts (in RAG, niet op disk) + missing (op disk, niet in RAG)
+    - disk ↔ content: content_ontbreekt (op disk, geen markdown) + content_extra (markdown, niet op disk)
 
     Returns:
         {
           'disk_ids': set[str],
           'rag_ids': set[str],
-          'ghosts': list[str],     # in RAG, niet op disk
-          'missing': list[str],    # op disk, niet in RAG
-          'ok': bool,
+          'content_ids': set[str],         # ids met bestaande markdown-fiche
+          'ghosts': list[str],             # in RAG, niet op disk
+          'missing': list[str],            # op disk, niet in RAG
+          'content_ontbreekt': list[str],  # op disk, niet als markdown-fiche
+          'content_extra': list[str],      # markdown-fiche bestaat, niet op disk
+          'ok': bool,                      # True alleen als alle lijsten leeg zijn
         }
 
     Veilig om vaak te draaien — geen mutaties.
@@ -502,16 +628,29 @@ def audit_parity(
     resolved_chroma = chroma_path or _default_chroma_path()
     disk_ids = _laad_disk_ids()
     rag_ids = _laad_rag_ids(resolved_chroma)
+    content_ids = _laad_content_ids(content_dir)
 
     ghosts = sorted(rag_ids - disk_ids)
     missing = sorted(disk_ids - rag_ids)
+    content_ontbreekt = sorted(disk_ids - content_ids)
+    content_extra = sorted(content_ids - disk_ids)
+
+    alles_ok = (
+        len(ghosts) == 0
+        and len(missing) == 0
+        and len(content_ontbreekt) == 0
+        and len(content_extra) == 0
+    )
 
     return {
         "disk_ids": disk_ids,
         "rag_ids": rag_ids,
+        "content_ids": content_ids,
         "ghosts": ghosts,
         "missing": missing,
-        "ok": len(ghosts) == 0 and len(missing) == 0,
+        "content_ontbreekt": content_ontbreekt,
+        "content_extra": content_extra,
+        "ok": alles_ok,
     }
 
 
@@ -522,17 +661,22 @@ def audit_parity(
 def _cli_audit(chroma_path: Optional[str], fix: bool) -> int:
     """
     Draai audit_parity() en rapporteer. Exit 0 als ok=True, exit 1 anders.
-    Met --fix: verwijder ghosts uit RAG en reindex missing van disk.
+    Met --fix: verwijder ghosts uit RAG, reindex missing van disk, herstel content-drift.
     """
     parity = audit_parity(chroma_path)
     ghosts = parity["ghosts"]
     missing = parity["missing"]
+    content_ontbreekt = parity["content_ontbreekt"]
+    content_extra = parity["content_extra"]
 
-    print(f"[audit] disk: {len(parity['disk_ids'])} records, "
-          f"RAG: {len(parity['rag_ids'])} records")
+    print(
+        f"[audit] disk: {len(parity['disk_ids'])} records, "
+        f"RAG: {len(parity['rag_ids'])} records, "
+        f"content: {len(parity['content_ids'])} fiches"
+    )
 
     if parity["ok"]:
-        print("[audit] OK — disk en RAG zijn in sync.")
+        print("[audit] OK — disk, RAG en content zijn in sync.")
         return 0
 
     if ghosts:
@@ -544,6 +688,16 @@ def _cli_audit(chroma_path: Optional[str], fix: bool) -> int:
         print(f"[audit] {len(missing)} missing record(s) in RAG (wel op disk):")
         for missed in missing:
             print(f"  MISSING  {missed}")
+
+    if content_ontbreekt:
+        print(f"[audit] {len(content_ontbreekt)} record(s) zonder markdown-fiche:")
+        for concept_id in content_ontbreekt:
+            print(f"  CONTENT_ONTBREEKT  {concept_id}")
+
+    if content_extra:
+        print(f"[audit] {len(content_extra)} extra markdown-fiche(s) zonder record:")
+        for concept_id in content_extra:
+            print(f"  CONTENT_EXTRA  {concept_id}")
 
     if not fix:
         print(
@@ -576,9 +730,29 @@ def _cli_audit(chroma_path: Optional[str], fix: bool) -> int:
             print(f"  [fix] missing NIET geïndexeerd ({missed}): {exc}", file=sys.stderr)
             herstel_fouten += 1
 
+    # Herstel ontbrekende markdown-fiches (content-sync fix)
+    for concept_id in content_ontbreekt:
+        pad = _record_pad(concept_id)
+        try:
+            record = json.loads(pad.read_text(encoding="utf-8"))
+            _render_concept_fiche(record)
+            print(f"  [fix] content-fiche gerenderd: {concept_id}")
+        except Exception as exc:
+            print(f"  [fix] content-fiche NIET gerenderd ({concept_id}): {exc}", file=sys.stderr)
+            herstel_fouten += 1
+
+    # Verwijder extra markdown-fiches zonder record (content-sync fix)
+    for concept_id in content_extra:
+        try:
+            _verwijder_concept_fiche(concept_id)
+            print(f"  [fix] extra content-fiche verwijderd: {concept_id}")
+        except Exception as exc:
+            print(f"  [fix] extra content-fiche NIET verwijderd ({concept_id}): {exc}", file=sys.stderr)
+            herstel_fouten += 1
+
+    totaal_items = len(ghosts) + len(missing) + len(content_ontbreekt) + len(content_extra)
     if herstel_fouten == 0:
-        print(f"[audit --fix] herstel voltooid: {len(ghosts)} ghost(s) + "
-              f"{len(missing)} missing(s) verwerkt.")
+        print(f"[audit --fix] herstel voltooid: {totaal_items} item(s) verwerkt.")
         return 0
     else:
         print(f"[audit --fix] herstel gedeeltelijk: {herstel_fouten} fout(en).", file=sys.stderr)
