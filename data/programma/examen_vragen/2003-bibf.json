@@ -77,12 +77,15 @@
       "vraagtype": "open",
       "vraagtekst": "B.1. Vraag: Welke ondernemingen mogen een vereenvoudigde boekhouding voeren en uit wat bestaat deze? 3 PUNTEN",
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Vereenvoudigde boekhouding mag worden gevoerd door kleine ondernemingen onder Boek III WER (natuurlijke personen met zelfstandige beroepsactiviteit, VOF's, CommV's) die op jaarbasis onder de wettelijke omzetdrempel blijven. Ze bestaat uit drie hulpdagboeken (aankoopdagboek, verkoopdagboek, financieel dagboek) die ten minste driemaandelijks worden gecentraliseerd in een centraal boek — in plaats van dubbel boekhouden via algemeen rekeningstelsel.",
+      "antwoord_motivering": "**Wie mag een vereenvoudigde boekhouding voeren?**\n\nOnder Boek III WER (art. III.85) mogen kleine ondernemingen een vereenvoudigde boekhouding voeren. Concreet:\n- **Natuurlijke personen** met een zelfstandige beroepsactiviteit ⚖️\n- **VOF's en CommV's** (vennootschappen onder firma / gewone commanditaire vennootschappen) — geen rechtspersonen met beperkte aansprakelijkheid 🤖\n- Op voorwaarde dat de **jaaromzet onder een wettelijke drempel** blijft (historisch was die ca. € 500.000, sedert 2014 verhoogd; exacte cijfer in WER art. III.85 § 2 + uitvoerings-KB) 🤖\n\n**Boekhoudplichtige ondernemingen** met rechtspersoonlijkheid (NV, BV, ...) moeten **altijd dubbel** boekhouden — vereenvoudigd is niet toegelaten. ⚖️\n\n**Waaruit bestaat de vereenvoudigde boekhouding?**\n\nDrie verplichte hulpdagboeken + één centraal boek ([[hulpdagboeken]] §Soorten):\n\n1. **Aankoopdagboek** — alle inkomende leveranciersfacturen + andere aankoopdocumenten ⚖️\n2. **Verkoopdagboek** — alle uitgaande klantenfacturen + andere verkoop-documenten ⚖️\n3. **Financieel dagboek** — alle bewegingen op bankrekeningen + kas (één dagboek per bankrekening + één voor kas) ⚖️\n4. **Centraal boek** — periodieke centralisatie van de hulpdagboeken (zie vrB2 hieronder) ⚖️\n\n**Wat ontbreekt** ten opzichte van een volledige dubbele boekhouding:\n- Geen algemeen rekeningstelsel (MAR) verplicht\n- Geen jaarrekening volgens schema KB WVV — wel een **vereenvoudigde fiscale staat** voor aangifte personenbelasting + BTW\n- Wel: bewaring van alle stukken (10 jaar) + inventaris\n\n_Grondslag: WER art. III.82 + III.85; [[boekhoudplichtige-onderneming]]; [[hulpdagboeken]] §Centralisatie._\n\n**Historische context** (vraag uit 2003): destijds gold het oude KB van 8 oktober 1976 en het Wetboek van vennootschappen. Inhoudelijk **identiek**: drie hulpdagboeken + driemaandelijkse centralisatie. Alleen omzet-drempels werden meerdere malen aangepast. 🤖",
       "themas": [
         "vereenvoudigde-boekhouding"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "WER art. III.82",
+        "WER art. III.85"
+      ],
       "opties": [],
       "subvragen": [],
       "vraagtekst_blokken": [
@@ -90,7 +93,41 @@
           "type": "tekst",
           "inhoud": "B.1. Vraag: Welke ondernemingen mogen een vereenvoudigde boekhouding voeren en uit wat bestaat deze? 3 PUNTEN"
         }
-      ]
+      ],
+      "antwoord_type": "definitie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/boekhoudplichtige-onderneming.md",
+          "sectie": "Definitie",
+          "ondersteunt": "WER art. III.82 + III.85 + vereenvoudigde/dubbele keuze"
+        },
+        {
+          "record": "content/concepten/hulpdagboeken.md",
+          "sectie": "Bouwstenen — Soorten hulpdagboeken",
+          "ondersteunt": "aankoopdagboek/verkoopdagboek/financieel dagboek/diversen"
+        },
+        {
+          "record": "content/concepten/hulpdagboeken.md",
+          "sectie": "Bouwstenen — Centralisatie minstens maandelijks",
+          "ondersteunt": "driemaandelijkse centralisatie bij vereenvoudigde"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "definitie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ],
+        "opmerking": "Historische vraag (2003); huidige WER toegepast; inhoudelijke regels identiek."
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2003-bibf-vrB2",
@@ -102,12 +139,16 @@
       "vraagtype": "open",
       "vraagtekst": "B.2. Vraag: Wat wordt in het \"centraal boek\" geregistreerd en in welke frequentie? 2 PUNTEN",
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "In het centraal boek worden de geconsolideerde totalen van alle hulpdagboeken (aankoop-, verkoop-, financieel dagboek) overgebracht via één recapitulatieboeking. Frequentie: minstens maandelijks bij een volledige dubbele boekhouding; minstens driemaandelijks bij een vereenvoudigde boekhouding.",
+      "antwoord_motivering": "**Wat wordt in het centraal boek geregistreerd?**\n\nHet centraal boek (algemeen dagboek) bevat de **geconsolideerde periodieke totalen** van alle hulpdagboeken — niet individuele transacties (die staan in de detail-dagboeken). Per periode wordt **één recapitulatieboeking** opgenomen die de saldi van elk hulpdagboek samenvat: ⚖️\n\n- Totaal aankoopdagboek (per debetrekening + tegenpost crediteur)\n- Totaal verkoopdagboek (per creditrekening + tegenpost debiteur)\n- Totaal financieel dagboek (per bankrekening + kas)\n- Totaal diversen-dagboek (loonjournaal, afschrijvingsboekingen, correcties)\n\n**Waarom?** Het centraal boek geeft het **globaal overzicht** dat moet aansluiten op het algemeen rekeningstelsel en uiteindelijk de jaarrekening. Hulpdagboeken zijn de detail-bronnen; het centraal boek de chronologische samenvatting. ⚖️\n\n**Frequentie van centralisatie**:\n\n- **Volledige dubbele boekhouding** (NV, BV, grote ondernemingen): **minstens maandelijks** ⚖️\n- **Vereenvoudigde boekhouding** (zie vrB1: kleine zelfstandigen, VOF's): **minstens driemaandelijks** ⚖️ — minder frequent toegestaan omdat de transactievolumes typisch lager zijn\n\n**Wettelijke onderbouwing**: WER art. III.84-III.85 (vóór 2018: Wet boekhoudrecht 1975 art. 4) verplicht een chronologische registratie en periodieke centralisatie. CBN-advies 174/1 geeft de procedure-details. ⚖️\n\n⚠️ Het centraal boek is **niet** hetzelfde als het algemeen rekeningstelsel (MAR). MAR = nomenclatuur van rekeningen. Centraal boek = chronologische opslag van boekingen die naar het MAR worden geprojecteerd.\n\n_Grondslag: WER art. III.84; CBN-advies 174/1; [[hulpdagboeken]] §Centralisatie minstens maandelijks._",
       "themas": [
         "centraal-boek"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "WER art. III.84",
+        "WER art. III.85",
+        "CBN-advies 174/1"
+      ],
       "opties": [],
       "subvragen": [],
       "vraagtekst_blokken": [
@@ -115,7 +156,35 @@
           "type": "tekst",
           "inhoud": "B.2. Vraag: Wat wordt in het \"centraal boek\" geregistreerd en in welke frequentie? 2 PUNTEN"
         }
-      ]
+      ],
+      "antwoord_type": "definitie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/hulpdagboeken.md",
+          "sectie": "Bouwstenen — Centralisatie minstens maandelijks",
+          "ondersteunt": "inhoud centraal boek + frequentie maandelijks vs driemaandelijks"
+        },
+        {
+          "record": "content/concepten/dagboek.md",
+          "sectie": "Bouwstenen — Centralisatie",
+          "ondersteunt": "recapitulatieboeking-mechanisme"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "definitie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2003-bibf-vrB3",
@@ -127,12 +196,15 @@
       "vraagtype": "open",
       "vraagtekst": "B.3. Vraag: Welke activa mogen geherwaardeerd worden en onder welke voorwaarden? 5 PUNTEN",
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Onder BE GAAP mogen materiële en financiële vaste activa worden geherwaardeerd (sinds KB WVV 2019 ook immateriële vaste activa) als de meerwaarde voldoet aan drie cumulatieve voorwaarden: zeker, duurzaam, en onontbeerlijk voor de continuïteit van de bedrijfsactiviteit. De geboekte meerwaarde is niet-uitkeerbaar.",
+      "antwoord_motivering": "**Welke activa mogen geherwaardeerd worden?** Onder Belgisch boekhoudrecht (KB WVV art. 3:30 + art. 3:35):\n- **Materiële vaste activa** (gebouwen, terreinen, machines) ⚖️\n- **Immateriële vaste activa** (octrooien, merken, ontwikkelingskosten) — KB WVV art. 3:35 expliciet ⚖️\n- **Financiële vaste activa** — deelnemingen, vorderingen op verbonden ondernemingen ⚖️\n\nVlottende activa (voorraden, vorderingen op klanten, geldmiddelen) mogen NIET geherwaardeerd worden — voorzichtigheidsbeginsel verbiedt het boeken van latente meerwaarden buiten de strikt opgesomde uitzonderingen.\n\n**Onder welke voorwaarden?** Drie **cumulatieve** voorwaarden (KB WVV art. 3:35):\n\n1. **Zeker** — de meerwaarde is niet hypothetisch, niet gebaseerd op een vermoeden, maar reëel en aantoonbaar. ⚖️\n2. **Duurzaam** — geen tijdelijke marktschommeling of conjuncturele opwaartse beweging die wellicht zou kunnen terugkeren. ⚖️\n3. **Onontbeerlijk voor de continuïteit** van de bedrijfsactiviteit — de boekhoudkundige waarde geeft anders een misleidend beeld; herwaardering corrigeert dat. ⚖️\n\n**Boekhoudkundige gevolgen**:\n- Geboekt op rekening 12 'Herwaarderingsmeerwaarden' (eigen vermogen, niet-uitkeerbaar). ⚖️\n- Verantwoording in toelichting verplicht. ⚖️\n- Realisatie via afschrijvingen (gespreid) of bij vervreemding (eenmalig); kan ingelijfd worden in kapitaal of overgeboekt naar uitkeerbare reserves. ⚖️\n- Bij latere minderwaarde: uitboeking tot beloop van het nog niet afgeschreven bedrag.\n\n**Historische context** (vraag uit 2003): de regels onder het toenmalige KB van 8 oktober 1976 en latere wijzigingen waren inhoudelijk **identiek** — zeker, duurzaam, onontbeerlijk. Alleen de artikelnummering is veranderd door de integratie in KB WVV 2019.\n\n_Grondslag: KB WVV art. 3:30 + art. 3:35; [[herwaarderingsmeerwaarden]] §Strikte voorwaarden + §Toepassingsgebied._",
       "themas": [
         "herwaarderingsmeerwaarden"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:30",
+        "KB WVV art. 3:35"
+      ],
       "opties": [],
       "subvragen": [],
       "vraagtekst_blokken": [
@@ -140,7 +212,35 @@
           "type": "tekst",
           "inhoud": "B.3. Vraag: Welke activa mogen geherwaardeerd worden en onder welke voorwaarden? 5 PUNTEN"
         }
-      ]
+      ],
+      "antwoord_type": "definitie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/herwaarderingsmeerwaarden.md",
+          "sectie": "Bouwstenen — Strikte voorwaarden: zeker, duurzaam, onontbeerlijk",
+          "ondersteunt": "drie voorwaarden"
+        },
+        {
+          "record": "content/concepten/herwaarderingsmeerwaarden.md",
+          "sectie": "Toepassingsgebied: ook IVA",
+          "ondersteunt": "IVA + MVA + FVA toepasselijk"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "definitie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2003-bibf-vrB4",
@@ -152,12 +252,16 @@
       "vraagtype": "open",
       "vraagtekst": "B.4. Vraag: Een onderneming heeft kosten van inrichting gedaan in door haar gehuurde gebouwen. In welke post(en) worden deze kosten geboekt? 2 PUNTEN",
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Kosten van inrichting van gehuurde gebouwen worden geboekt op rekening 264 \"Inrichtingskosten van gehuurde gebouwen\" (subgroep Andere materiële vaste activa, klasse 26). De kosten worden geactiveerd en afgeschreven over de kortere van twee periodes: de huurtermijn of de economische gebruiksduur van de inrichtingen.",
+      "antwoord_motivering": "**Welke rekening?**\n\nOnder het minimum-algemeen-rekeningstelsel (MAR) worden inrichtingskosten in gehuurde gebouwen geboekt op **rekening 264 \"Inrichtingskosten van gehuurde gebouwen\"** — een subrekening van klasse **26 \"Andere materiële vaste activa\"**. ⚖️\n\nAndere MAR-subrekeningen in klasse 26:\n- 260 — Onroerende goederen aangehouden als reserve\n- 262 — Buiten gebruik of buiten exploitatie gestelde materiële vaste activa\n- **264 — Inrichtingskosten van gehuurde gebouwen** ⚖️\n\n**Waarom in klasse 26 (Andere MVA) en niet 22 (Terreinen en gebouwen)?**\n\nDe gebouwen zélf zijn niet eigendom van de huurder — die kan dus geen 'Terreinen en gebouwen' (rek 22) op zijn balans hebben. Wat hij wél activeert zijn de **inrichtingswerken** die hij in andermans pand heeft uitgevoerd (verbouwingen, vaste inrichting, technische installaties die niet afkoppelbaar zijn). Die werken zijn **economisch eigendom** van de huurder voor de duur van de huur, ook al zijn ze juridisch onroerend door bestemming. 🤖\n\n**Waardering en afschrijving**:\n\n- Geactiveerd aan **aanschaffingsprijs** (alle directe kosten verbouwing + erelonen) ⚖️\n- Afschrijving over de **kortere** van:\n  - De **huurtermijn** (juridisch gegeven: bv. handelshuur 9 jaar, gewone huurovereenkomst 3 of 9 jaar)\n  - De **economische gebruiksduur** van de inrichtingen (bv. technische installaties 10 jaar)\n  \n  In de praktijk: vaak gelijk aan de huurtermijn want bij einde huur kan de huurder de inrichtingen niet meenemen. 🤖\n- Bij vroegtijdig einde huur: niet-afgeschreven saldo wordt **uitzonderlijk afgeschreven** (rek 663) of als verlies bij verkoop geboekt. 🤖\n\n_Grondslag: [[materiele-vaste-activa]] §Bouwstenen — Onderverdeling klasse 26; KB MAR (KB 12 september 1983); KB WVV art. 3:38 + 3:42 (waardering MVA)._",
       "themas": [
         "inrichtingskosten-gehuurde-gebouwen"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB MAR (KB 12 sept. 1983)",
+        "KB WVV art. 3:38",
+        "KB WVV art. 3:42"
+      ],
       "opties": [],
       "subvragen": [],
       "vraagtekst_blokken": [
@@ -165,7 +269,30 @@
           "type": "tekst",
           "inhoud": "B.4. Vraag: Een onderneming heeft kosten van inrichting gedaan in door haar gehuurde gebouwen. In welke post(en) worden deze kosten geboekt? 2 PUNTEN"
         }
-      ]
+      ],
+      "antwoord_type": "presentatie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/materiele-vaste-activa.md",
+          "sectie": "Onderverdeling klasse 26",
+          "ondersteunt": "MAR-rekening 264"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "presentatie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2003-bibf-vrB5",

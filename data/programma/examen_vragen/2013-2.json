@@ -860,12 +860,39 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Een onthoudende verklaring (onthouding van oordeel / disclaimer of opinion) geeft de accountant af wanneer hij onmogelijk voldoende en geschikte assurance-informatie kan verkrijgen om een oordeel te onderbouwen, EN de mogelijke effecten van het onbekende diepgaand kunnen zijn voor de jaarrekening als geheel. De accountant kan dan geen oordeel formuleren.",
+      "antwoord_motivering": "Een **onthouding van oordeel** (synoniem: 'disclaimer of opinion' in ISA-terminologie, 'onthoudende verklaring' in Belgische audit-praktijk) wordt afgegeven wanneer **cumulatief**:\n\n1. De accountant **onmogelijk** voldoende en geschikte assurance-informatie kan verkrijgen om de jaarrekening te onderbouwen — bv. door scope-beperking opgelegd door de cliënt, of door externe omstandigheden (boekhouding verloren, sleuteldocumenten ontoegankelijk). ⚖️\n2. De **mogelijke effecten** van het ontbrekend bewijs op de jaarrekening **diepgaand** kunnen zijn — niet alleen materieel, maar zo verspreid dat ze het globale geloofwaardigheidsoordeel aantasten. ⚖️\n\n**Vergelijk met andere oordeel-types**:\n- Goedkeurend zonder voorbehoud: jaarrekening geeft getrouw beeld, geen significante issues\n- Goedkeurend **met voorbehoud**: er is een materiële afwijking of scope-beperking, maar **niet diepgaand** (geïsoleerd) — accountant formuleert oordeel met expliciete uitzondering\n- **Afkeurend**: materiële afwijking + diepgaand (alles-doordringend) — accountant verklaart dat de jaarrekening geen getrouw beeld geeft\n- **Onthoudend**: onvoldoende bewijs + diepgaande mogelijke gevolgen — geen oordeel mogelijk\n\n**Voorbeelden** van situaties die tot onthouding leiden:\n- Cliënt weigert toegang tot belangrijke contracten, bankrekeningen, of vorderingen-overzichten\n- Materiële voorraad-opname onmogelijk + geen alternatieve werkzaamheden mogelijk (vooral bij eerste-jaars audit)\n- Continuïteitsonzekerheid waarvoor management onvoldoende toelichting geeft en de auditor de impact niet kan kwantificeren\n\n_Grondslag: ISA 705 (herzien) §10 + §A12-A14; ITAA KMO-controlenorm; [[controleoordeel-types]] §Onthouding van oordeel._",
       "themas": [
         "auditopdracht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [
+        "ISA 705 (herzien) §10",
+        "ITAA KMO-controlenorm"
+      ],
+      "antwoord_type": "definitie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/controleoordeel-types.md",
+          "sectie": "Bouwstenen — Onthouding van oordeel (disclaimer)",
+          "ondersteunt": "definitie + cumulatieve voorwaarden"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "definitie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "circular_definition",
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-2-vr12",

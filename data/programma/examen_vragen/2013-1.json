@@ -703,13 +703,44 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Voorbeeldprocedure met minstens twee functiescheidingen: (1) Medewerker A doet de aanvraag (declaratieformulier met bonnetjes), zaakvoerder B keurt goed (autorisatie); (2) Kassier C betaalt uit en houdt het kasregister bij; medewerker D (boekhouder of externe) voert de bank-/kasreconciliatie + boekt de kosten in de algemene boekhouding. Periodieke kasinventaris door een vijfde persoon (zaakvoerder of accountant) op willekeurige momenten.",
+      "antwoord_motivering": "**Procedure voor terugbetaling van kleine kosten via kas** in een familiale BVBA, met minstens twee functiescheidingen ([[functiescheiding]] §Bouwstenen + ITAA-norm-kmo-controlenorm Bijlage 1):\n\n### Stappen + functiescheidingen\n\n1. **Aanvraag (medewerker A)** — De medewerker die de kost heeft gemaakt vult een standaard-declaratieformulier in (datum, bedrag, doel, eventueel BTW), voegt de **originele bonnetjes** toe, ondertekent. ⚖️\n2. **Goedkeuring / autorisatie (zaakvoerder B of een aangewezen verantwoordelijke)** — De zaakvoerder controleert de aanvraag (zakelijk doel, plausibel bedrag, bonnetjes aanwezig en geldig), autoriseert door medeondertekening. ⚖️ **Functiescheiding nr. 1**: aanvrager ≠ autorisator.\n3. **Uitbetaling en kasregister (kassier C)** — Een aangewezen kassier (bv. de secretaresse) betaalt het bedrag uit de kas, registreert de uitgave in het kasregister met datum, ontvanger, bedrag, en bewaart het ondertekende formulier + bonnetjes als bewijsstuk. ⚖️\n4. **Boekhouding en reconciliatie (boekhouder D, intern of extern)** — De boekhouder boekt de uitgave in het financieel dagboek (kasdagboek), reconcileert periodiek het kassaldo met de fysieke kas-inventaris, en stuurt periodieke recapitulaties (maandelijks) naar het centraal boek. ⚖️ **Functiescheiding nr. 2**: kassier ≠ boekhouder.\n\n### Aanvullende controles\n\n- **Kasinventaris** door een **derde persoon** (zaakvoerder of externe accountant) op **willekeurige momenten** — onaangekondigde count vergelijken met kasregister. ⚖️ Detecteert verschillen tussen fysieke en boekhoudkundige kas.\n- **Maximum uitbetalingsbedrag** per declaratie (bv. € 250); grotere bedragen moeten via bankoverschrijving (niet via kas). 🤖\n- **Maandelijkse limiet** op de kas (bv. max € 1.500); overschot wordt naar bank teruggebracht. 🤖\n- **Niet meer dan 30 dagen** tussen kost-datum en declaratie (anti-fraude + tax-traceerbaarheid). 🤖\n\n### Incompatibele combinaties (vermijden)\n\nOnder geen beding mag één persoon tegelijk:\n- Aanvragen + autoriseren (eigen kosten goedkeuren)\n- Kas beheren + boekhouding voeren (kas-saldo manipuleren door valse boekingen)\n- Kas beheren + reconciliatie uitvoeren (zelf-controle)\n\n⚖️ Klassieke valkuil ([[functiescheiding]] §Incompatibele combinaties): in een familiale BVBA is de zaakvoerder vaak zowel autorisator als kas-beheerder + boekhouder. Aanbeveling: minstens de boekhouding extern uitbesteden of een tweede persoon (familielid in dienst, secretaresse) toewijzen voor de uitvoerende kas-taak.\n\n_Grondslag: [[functiescheiding]] §Bouwstenen + Incompatibele combinaties; ISA 315 (herzien-2019) Bijlage 3 §20; ITAA KMO-controlenorm Bijlage 1._",
       "themas": [
         "interne-controle",
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [
+        "ISA 315 (herzien-2019) Bijlage 3",
+        "ITAA KMO-controlenorm Bijlage 1"
+      ],
+      "antwoord_type": "procedure",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/functiescheiding.md",
+          "sectie": "Bouwstenen + Incompatibele combinaties",
+          "ondersteunt": "functiescheiding-types + voorbeelden"
+        },
+        {
+          "record": "content/concepten/beheersactiviteiten.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "autorisatie + bewaring + boekhouding-scheiding"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "procedure",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-1-vr10",
@@ -727,12 +758,43 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Voorbeeld analytische test op tussentijdse resultaten voor een werfkranen-bedrijf: vergelijk de bruto-marge (omzet werfkranen − kostprijs) per type kraan en per regio tussen Q1-2013 en Q1-2012 (vorig boekjaar). Significante afwijkingen (bv. > 10 % daling) onderzoeken op: prijsverlaging, mix-shift, productiviteitsverlies, of mogelijk fout in omzeterkenning/cut-off. Combineer met een tweede analyse op de DSO (debiteuren-omloop) — een stijgende DSO bij stagnerende omzet wijst op betalingsproblemen of factuur-vertragingen.",
+      "antwoord_motivering": "Voor een **werfkranen-koper/verkoper** (bv. handel in tweedehands-bouwmachines + verhuur van nieuwe machines) zijn deze analytische tests typisch voor de interne controleafdeling op tussentijdse resultaten:\n\n### Voorbeeld 1: Bruto-marge per kraan-type en per regio\n\n**Wat**: bruto-marge (omzet − kostprijs verkochte/verhuurde kranen) berekenen per **kraan-type** (klein/middel/groot, mobiele/torenkraan) en per **regio** (België-N/B-Z/buitenland), vergelijken met:\n- Dezelfde periode vorig jaar (Q1-2013 vs Q1-2012)\n- Budget voor de huidige periode\n- Sector-benchmark (indien beschikbaar)\n\n**Trigger**: significante afwijking (>±10 %) → onderzoeken.\n\n**Mogelijke verklaringen** (te toetsen):\n- Prijsverlaging (concurrentie, oude voorraad oude modellen)\n- Product-mix-shift (meer dure modellen → hogere absolute marge maar lagere %)\n- Productiviteitsverlies (technici onbeschikbaar, langere doorlooptijden)\n- **Boekhoudkundige fout**: omzeterkenning vóór levering, of kostprijs te laag (voorraadwaardering, cut-off-kosten) — directe link naar [[verkoopcyclus-ic]] valkuilen\n\n⚖️ Voor de interne controleafdeling is dit een **detective** controle: een afwijking signaleert iets dat verder onderzocht moet worden (analyse → mogelijk substantieve test).\n\n### Voorbeeld 2: DSO (Days Sales Outstanding) per kraan-type\n\n**Wat**: DSO = (handelsvorderingen / omzet) × dagen-in-periode. Berekenen per kraan-type en per klant-segment.\n\n**Trigger**: stijgende DSO bij stagnerende omzet → mogelijk:\n- Betalingsproblemen bij bestaande klanten (toets via aged-receivables)\n- Facturatie-vertraging (cut-off-issue: levering Q1, factuur in Q2)\n- Disputed invoices (creditnota's in voorbereiding)\n\n### Procedure-context\n\nCijferanalyses door de IC-afdeling spelen typisch op drie momenten ([[cijferanalyses-controle-norm]] §Drie momenten):\n1. **Bij periodieke close** (maand- of kwartaal-rapporten): trend-analyse\n2. **Bij budget-rapportering**: gerealiseerd vs gebudgetteerd (variance-analyse)\n3. **Bij ad-hoc red-flag-detectie**: bv. plots stijgend retour-aantal of verlaagde marges\n\n_Grondslag: [[cijferanalyses-controle-norm]] §Drie momenten + §Bouwstenen; ITAA KMO-controlenorm §111 (cijferanalyses verplicht op drie momenten)._\n\n⚠️ Belangrijk: een analytische test is **detective** — ze signaleert afwijkingen maar bevestigt niet automatisch fraude of fout. Vereist follow-up met substantieve werkzaamheden bij significante afwijking. 🤖",
       "themas": [
         "analytische-procedures"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [
+        "ITAA KMO-controlenorm §111",
+        "ISA 520 (cijferanalyses)"
+      ],
+      "antwoord_type": "procedure",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/cijferanalyses-controle-norm.md",
+          "sectie": "Definitie + Drie momenten",
+          "ondersteunt": "cijferanalyse als controlemiddel"
+        },
+        {
+          "record": "content/concepten/verkoopcyclus-ic.md",
+          "sectie": "Valkuilen — cut-off + creditnota's",
+          "ondersteunt": "mogelijke verklaringen voor marge-afwijking"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "procedure",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-1-vr11",
@@ -771,12 +833,45 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "De boekhouding van de cliënt is een interne bron — gevoelig voor management override, manipulatie en onbedoelde fouten. Externe confirmaties bij leveranciers (en banken, klanten, advocaten) leveren onafhankelijk schriftelijk bewijs rechtstreeks van een derde partij, buiten de cliënt om. Dit is hoogstwaardige assurance-informatie omdat het kanaal extern + onafhankelijk + schriftelijk is — wezenlijk betrouwbaarder dan interne boekhoudgegevens.",
+      "antwoord_motivering": "De interne-controleafdeling (en de externe auditor) steunen niet alléén op de boekhouding van de cliënt omdat:\n\n1. **Interne bron = manipulatie-risico**: de boekhouding wordt opgesteld door personeel van de cliënt, onder supervisie van het management. Management override (KMO-controlenorm §96 + [[fraude]]) kan zelfs een goed werkend IC-systeem omzeilen. Een vorderingsaldo van € 50.000 in de boekhouding is geen onafhankelijk bewijs van het bestaan; het is wat de boekhouder denkt te boeken. ⚖️\n2. **Externe bron = onafhankelijk + schriftelijk**: een externe bevestiging is een schriftelijke reactie rechtstreeks van een derde partij (leverancier, bank, klant, advocaat) aan de auditor of IC-afdeling, buiten de cliënt om ([[externe-bevestiging-audit]] §Definitie). Drie eigenschappen — schriftelijk, extern, onafhankelijk — maken dit hoogwaardige assurance-informatie. ⚖️\n3. **Hiërarchie van bewijs**: extern + onafhankelijk + schriftelijk > intern + mondeling/ongedateerd. Externe confirmaties scoren hoog op de evidence-hiërarchie (ISA 500 §A31 e.v.). ⚖️\n\n**Specifiek voor leveranciers**:\n- Schuldsaldi in de boekhouding kunnen te laag staan (omzet- of kost-manipulatie) of te hoog (foute facturatie). Een leveranciersbevestiging toont het saldo zoals de leverancier het in zijn eigen boeken heeft staan. Verschillen wijzen op timing of fouten — beide moeten onderzocht. ⚖️\n- Voor schulden geldt vaak een **negatieve bevestiging** of een **saldo-bevestiging** met expliciet bedrag (zie [[externe-bevestiging-audit]] §Drie soorten externe bevestiging). 🤖\n\n**Periodieke schriftelijke confirmatie**: zelfs in een IC-context (niet alleen externe audit) heeft een interne controleafdeling baat bij periodieke externe confirmaties — bv. driemaandelijks of jaarlijks — om systematische manipulatie of vergissingen te detecteren. 🤖\n\n_Grondslag: [[externe-bevestiging-audit]] §Bouwstenen; ITAA KMO-controlenorm §89-92; ISA 505 §6-8; ISA 500 §A31 e.v. (hiërarchie van assurance-informatie)._",
       "themas": [
         "confirmatiebrieven"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [
+        "ISA 505",
+        "ISA 500 §A31",
+        "ITAA KMO-controlenorm §89-92"
+      ],
+      "antwoord_type": "definitie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/externe-bevestiging-audit.md",
+          "sectie": "Definitie + §Auditor controleert het kanaal",
+          "ondersteunt": "extern + onafhankelijk + schriftelijk = hoogwaardige assurance"
+        },
+        {
+          "record": "content/concepten/interne-controle.md",
+          "sectie": "Valkuilen — management override",
+          "ondersteunt": "interne bron is manipuleerbaar"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "definitie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "circular_definition",
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2013-1-vr13",

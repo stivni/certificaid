@@ -281,13 +281,17 @@
           "stellingen": []
         }
       ],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Casus interne controle verkoopcyclus, 4 deelvragen: A. 5 hoofdadviezen (krediettoekenning, functiescheiding, cut-off, creditnota-controle, aged-receivables). B. Hoofddoelstelling IC = redelijke zekerheid over (1) betrouwbare rapportering, (2) operationele effectiviteit, (3) compliance. C. Voornaamste risico = Financieel (rapporterings-risico op omzet/vorderingen). D. Verkoopcyclus-doelstelling = Financieel (cut-off, waardering).",
+      "antwoord_motivering": "Vraag bevat **vier deelvragen** (A/B/C/D) over interne controle in de verkoopcyclus. Hieronder per deel.\n\n### A. Goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus\n\nVijf hoofdadviezen (gestructureerd langs de cyclus-stappen in [[verkoopcyclus-ic]]):\n\n1. **Krediettoekenning vooraf** — toets de kredietwaardigheid van iedere nieuwe klant (KBO, jaarrekening, eventueel kredietverzekeraar) en ken een **kredietlimiet** toe die het ERP-systeem afdwingt. ⚖️ Doel: oninbare vorderingen voorkomen. Bij over-limit of mora: automatische blokkering van leveringen.\n2. **Functiescheiding tussen sales, magazijn en facturatie** — orderintake door sales, levering door magazijn (op basis van ondertekende delivery note), facturatie automatisch uit ERP. ⚖️ Voorkomt manipulatie ('vergeten te factureren', fictieve klanten, oneigenlijke creditnota's).\n3. **Cut-off-discipline rond balansdatum** — levering en factuur in dezelfde periode (BTW vereist factuur binnen 15 dagen na levering). ⚖️ Maandelijks alle delivery notes zonder factuur onderzoeken. Voorkomt omzetverschuiving (klassiek fraude-risico).\n4. **Creditnota's apart goedkeuren** — voor elke creditnota een aparte autorisatie, traceerbare reden, en functiescheiding met de oorspronkelijke factuurboeker. ⚖️ Creditnota's zijn een typische manipulatie-vector.\n5. **Aged-receivables-opvolging** — wekelijks ouderdoms-rapport, automatische escalatie (herinnering > 30 dagen, ingebrekestelling > 60 dagen, juridische actie + voorziening > 90 dagen). ⚖️ Detecteert betalingsproblemen vroeg en stuurt de voorziening voor dubieuze debiteuren.\n\n_Grondslag: [[verkoopcyclus-ic]] §Stappen 1-4, [[functiescheiding]] §sales-levering._\n\n### B. Hoofddoelstelling van de invoering van interne controle in een KMO\n\nDe **hoofddoelstelling** is een **redelijke** mate van zekerheid bieden over drie samenhangende domeinen (KMO-controlenorm Bijlage 1; COSO I 1992/2013):\n\n1. **Betrouwbaarheid van de financiële rapportering** ⚖️\n2. **Effectieve en efficiënte werking van de bedrijfsprocessen** (operationele doelen) ⚖️\n3. **Naleving van wetten en regelgeving** (compliance — boekhoudwet, BTW, sociale wetgeving, …) ⚖️\n\nSommige bronnen voegen een vierde toe: **bescherming van het vermogen / de activa** tegen verlies, diefstal of fraude. 🤖\n\nIn een **KMO-context** ligt het accent vaak op (1) en (3): de eigenaar-bestuurder werkt veelal mee aan de operationele kant zelf en heeft minder behoefte aan formele operationele controle. Maar betrouwbare cijfers en compliance zijn ook in een KMO onontbeerlijk (jaarrekening, BTW-aangiftes, fiscale aangifte, sociale documenten).\n\n_Grondslag: [[interne-controle]] §Bouwstenen — Drie doelstellingen + Redelijke, geen absolute zekerheid._\n\n### C. Soort risico volgens COSO model\n\nCOSO ERM 2017 onderscheidt vier categorieën doelstellingen (en de daarmee verbonden risico's):\n- **Strategisch** (long-term, marktpositie)\n- **Operationeel** (efficiënte werking)\n- **Rapportering** ('Informatie' in oude COSO I — betrouwbaarheid van interne en externe rapporten)\n- **Compliance** ('Conformiteit', niet in deze MC-lijst)\n\nIn de MC: ● Strategisch ● Informatie ● Operationeel ● Financieel.\n\nVoor de **verkoopcyclus** specifiek is het belangrijkste risico **financieel** (omzetbetrouwbaarheid, vorderingenwaardering, fraude in omzetcijfers) — dit valt onder 'Informatie' / 'Rapportering' in COSO-terminologie, maar wordt in BIBF-doctrine vaak rechtstreeks 'financieel' genoemd. ⚖️\n\n**Antwoord MC**: voornaamste = **Financieel** (rapporterings-risico op de omzet- en vorderingen-balansposten). Secundair operationeel (procesfouten) en strategisch (klantenportefeuille-risico). 🤖\n\n_Grondslag: [[coso-i-framework]] §Doelstellingen, [[verkoopcyclus-ic]] §Valkuilen (cut-off, creditnota's = financieel rapporterings-risico)._\n\n### D. Verkoopcyclus: Doelstelling\n\nMC: ● Financieel ● Operationeel ● Conformiteit.\n\nDe **primaire doelstelling** van interne controle op de verkoopcyclus is:\n- **Financieel**: garanderen dat omzet en vorderingen correct, volledig en in de juiste periode worden gerapporteerd (cut-off, waardering dubieuze debiteuren). ⚖️\n- **Operationeel** secundair: efficiënte klantverwerking (kortere DSO, vlotte facturatie).\n- **Conformiteit** als randvoorwaarde: BTW-naleving (factuur binnen 15 dagen, BTW-conforme vermeldingen), GDPR voor klantgegevens.\n\n**Antwoord MC**: **Financieel** als hoofddoelstelling (cut-off, juiste waardering, vermijden fraude). 🤖 Operationeel en Conformiteit zijn ondergeschikt maar wel aanwezig.\n\n_Grondslag: [[verkoopcyclus-ic]] §Bouwstenen + §Valkuilen (cut-off, creditnota's = financiële rapporterings-risico's)._",
       "themas": [
         "vennootschapsrecht",
         "interne-controle"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "ITAA KMO-controlenorm Bijlage 1",
+        "COSO I (1992/2013)",
+        "COSO ERM (2017)"
+      ],
       "opties": [
         {
           "label": "A",
@@ -311,7 +315,50 @@
           "type": "tekst",
           "inhoud": "3 Interne controle\n\nA. Wat zijn goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus\n\nB. Wat is de hoofddoelstelling van de invoering van een interne controle in een KMO\n\nC. Over welke soort risico gaat het? ( COSO model) ● Strategisch ● Informatie ● Operationeel ● Financieel\n\nD. Verkoopcyclus: Doelstelling ● Financieel ● Operationeel ● Conformiteit"
         }
-      ]
+      ],
+      "antwoord_type": "casus",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/verkoopcyclus-ic.md",
+          "sectie": "Berekening — Stappen 1-4",
+          "ondersteunt": "A. adviezen krediettoekenning, functiescheiding, cut-off"
+        },
+        {
+          "record": "content/concepten/verkoopcyclus-ic.md",
+          "sectie": "Valkuilen",
+          "ondersteunt": "A. creditnota-controle, cut-off-discipline"
+        },
+        {
+          "record": "content/concepten/interne-controle.md",
+          "sectie": "Bouwstenen — Drie doelstellingen",
+          "ondersteunt": "B. hoofddoelstelling IC"
+        },
+        {
+          "record": "content/concepten/coso-i-framework.md",
+          "sectie": "Doelstellingen",
+          "ondersteunt": "C. COSO-risicocategorieën"
+        },
+        {
+          "record": "content/concepten/functiescheiding.md",
+          "sectie": "Sales-levering",
+          "ondersteunt": "A. functiescheiding"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "casus",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "inferred",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2024-1-vr4",

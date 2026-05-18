@@ -810,12 +810,55 @@
         }
       ],
       "sub_vragen": [],
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Erelonen advocaat van 12.000 EUR in de resultatenrekening wijzen op één of meer lopende juridische geschillen, wat materiële off-balance verplichtingen of voorzieningen kan impliceren die de auditor moet onderzoeken. Acties: (1) externe bevestiging vragen aan de advocaat over status, aard en bedrag van geschillen; (2) toelichting en eventuele voorzieningen voor risico's en kosten nazien; (3) potentiële impact op continuïteit beoordelen; (4) bij niet-onthulling of materiële afwijking: oordeel met voorbehoud of zelfs afkeurend oordeel overwegen.",
+      "antwoord_motivering": "**Waarom is dit van belang voor het controleverslag?**\n\nDe aanwezigheid van een kostenpost \"erelonen advocaat\" van € 12.000 in de resultatenrekening is een **signaal** voor de auditor dat er **lopende of recent afgesloten juridische geschillen** zijn. ⚖️ Geschillen kunnen drie soorten effecten hebben op de jaarrekening:\n\n1. **Off-balance verplichting** (klasse 0 in toelichting): geschillen zonder zekere uitkomst worden vermeld bij de rechten en verplichtingen buiten balans ([[balans]] §In de praktijk — buiten-balans-vermelding). ⚖️\n2. **Voorziening voor risico's en kosten** (rek 16 Voorzieningen): bij waarschijnlijk verlies → voorziening boeken op basis van de schatting van het bedrag (KB WVV art. 3:24-3:27). ⚖️\n3. **Materiële afwijking** bij niet-vermelding of onder-geschatte voorziening → impact op het oordeel van de auditor.\n\n**Welke acties moet de auditor ondernemen?**\n\n1. **Externe bevestiging vragen aan de advocaat** ([[externe-bevestiging-audit]] §Werkwijze): de advocaat is bij uitstek de externe partij die status, aard, en bedrag van de geschillen kan bevestigen. Schriftelijke confirmatie rechtstreeks aan auditor. ⚖️\n2. **Toelichting nazien**: zijn alle hangende geschillen vermeld in de toelichting (off-balance + voorzieningen)? Vergelijk de erelonen-volume met de toelichting — onverhouding wijst op niet-vermelding. ⚖️\n3. **Voorziening evalueren** ([[boekhoudkundige-schattingen-audit]]): bij materieel geschil + waarschijnlijk verlies → voorziening boeken op basis van de schatting. Auditor toetst de redelijkheid van de schatting (range van uitkomsten van de advocaat). ⚖️\n4. **Continuïteit beoordelen**: een groot geschil kan continuïteit bedreigen. Bij materieel risico → assessing going concern (ISA 570). ⚖️\n\n**Impact op het controleverslag**:\n\n- **Niets aan de hand** (geschil gering, correct vermeld, voorziening adequaat) → geen impact, gewoon goedkeurend oordeel\n- **Materiële niet-vermelding of onder-voorziening** → mogelijke afwijking van materieel belang → oordeel met **voorbehoud** indien geïsoleerd, of **afkeurend** indien diepgaand (zie [[controleoordeel-types]]) ⚖️\n- **Onmogelijk om informatie te krijgen** (advocaat antwoordt niet, cliënt weigert) → scope-beperking → mogelijk **onthouding van oordeel** indien diepgaand ⚖️\n- **Materiële continuïteitsonzekerheid** → paragraaf 'Materiële onzekerheid m.b.t. continuïteit' in het verslag (ISA 570) ⚖️\n\n⚠️ Een ereloon van € 12.000 is **niet automatisch** materieel — afhankelijk van de bedrijfsgrootte en de materialiteitsdrempel. Maar het is een **trigger** om dieper te kijken, niet de afwijking zelf. 🤖\n\n_Grondslag: [[externe-bevestiging-audit]]; [[boekhoudkundige-schattingen-audit]]; [[controleoordeel-types]]; ISA 501 §4-A6 (litigation & claims); ISA 505 (externe confirmaties); ISA 570 (continuïteit); KB WVV art. 3:24-3:27 (voorzieningen)._",
       "themas": [
         "auditopdracht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [
+        "ISA 501 §4-A6",
+        "ISA 505",
+        "ISA 570",
+        "KB WVV art. 3:24-3:27"
+      ],
+      "antwoord_type": "definitie",
+      "antwoord_bron": [
+        {
+          "record": "content/concepten/externe-bevestiging-audit.md",
+          "sectie": "Bouwstenen — Werkwijze (advocaat)",
+          "ondersteunt": "externe bevestiging van advocaat voor geschillen"
+        },
+        {
+          "record": "content/concepten/boekhoudkundige-schattingen-audit.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "voorzieningen voor geschillen als schatting"
+        },
+        {
+          "record": "content/concepten/controleoordeel-types.md",
+          "sectie": "Bouwstenen",
+          "ondersteunt": "impact op oordeel-type"
+        },
+        {
+          "record": "content/concepten/balans.md",
+          "sectie": "In de praktijk — buiten-balans-vermelding",
+          "ondersteunt": "klasse 0 hangende geschillen"
+        }
+      ],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "definitie",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig",
+        "gates_gepasseerd": [
+          "claim_coverage",
+          "geen_externe_kennis"
+        ]
+      },
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2014-1-vr14",
