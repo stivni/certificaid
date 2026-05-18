@@ -952,15 +952,18 @@
     "relevance": {
       "1.1": 85,
       "1.2": 65,
-      "1.5": 40
+      "1.5": 10
     },
     "programmaonderdelen": [
       "1.1",
-      "1.2",
-      "1.5"
+      "1.2"
     ],
     "confidence": "hoog",
-    "rationale": "Activering van O&O-kosten (vooronderzoek, ontwikkeling, materiaal, lonen) — boekhoudkundige verwerking + boekhoudrechtelijke voorwaarden voor activering immateriële vaste activa. Secundair: PO 1.5 (IFRS/EU-norm raakvlak, score=40)."
+    "rationale": "Activering van O&O-kosten (vooronderzoek, ontwikkeling, materiaal, lonen) — puur BE-GAAP boekhoudkundige verwerking + boekhoudrechtelijke voorwaarden voor activering immateriële vaste activa (KB W.Venn.). Geen IFRS-inhoud; PO 1.5 enkel raakvlak (score=10).",
+    "corrected_from": {
+      "1.5": 40
+    },
+    "correction_reason": "O&O-kostenactivering is puur BE-GAAP (W.Venn./KB W.Venn. art. 95 e.v.) — geen IFRS-vraagstelling. PO 1.5 (2022-programma) is strikt IFRS-only. Verlaagd naar raakvlak-score."
   },
   "2013-1-vr4": {
     "vraag_id": "2013-1-vr4",
@@ -1405,15 +1408,18 @@
     "relevance": {
       "1.1": 85,
       "1.2": 65,
-      "1.5": 30
+      "1.5": 10
     },
     "programmaonderdelen": [
       "1.1",
-      "1.2",
-      "1.5"
+      "1.2"
     ],
     "confidence": "hoog",
-    "rationale": "Boekhoudkundige verwerking software (laptop-bundle, boekhoudsoftware, handelsgoederen) — algemene boekhouding + boekhoudrecht inzake (im)materiële vaste activa. Secundair: PO 1.5 (EU-normenprincipe grensgebied, score=30)."
+    "rationale": "Boekhoudkundige verwerking software (laptop-bundle, boekhoudsoftware, handelsgoederen) — puur BE-GAAP categorisering immateriële/materiële vaste activa (KB W.Venn.). Geen IFRS-inhoud; PO 1.5 enkel raakvlak (score=10).",
+    "corrected_from": {
+      "1.5": 30
+    },
+    "correction_reason": "Software-activering (laptop-bundle, boekhoudsoftware, handelsgoederen) is BE-GAAP IVA-categorisering — geen IAS 38-vraagstelling. PO 1.5 is strikt IFRS-only."
   },
   "2013-2-vr2": {
     "vraag_id": "2013-2-vr2",
@@ -1435,15 +1441,18 @@
     "relevance": {
       "1.1": 85,
       "1.2": 65,
-      "1.5": 35
+      "1.5": 10
     },
     "programmaonderdelen": [
       "1.1",
-      "1.2",
-      "1.5"
+      "1.2"
     ],
     "confidence": "hoog",
-    "rationale": "Goodwill bij overname (meerprijs 30.000 EUR) + afschrijvingsperiode — boekhouding + boekhoudrechtelijke regels. Secundair: PO 1.5 (IFRS/EU-norm raakvlak, score=35)."
+    "rationale": "Goodwill bij overname (meerprijs 30.000 EUR) + afschrijvingsperiode — puur BE-GAAP boekhouding en boekhoudrechtelijke rubriceringsregels (KB W.Venn.). Geen IFRS-inhoud; PO 1.5 enkel raakvlak (score=10).",
+    "corrected_from": {
+      "1.5": 35
+    },
+    "correction_reason": "Goodwill-afschrijving en verwerking bij overname is BE-GAAP (W.Venn./KB W.Venn.) — de 20-jaar maximumtermijn en rubricering zijn BE-GAAP-specifiek, geen IFRS 3-vraagstelling. PO 1.5 is strikt IFRS-only."
   },
   "2013-2-vr4": {
     "vraag_id": "2013-2-vr4",
@@ -1452,15 +1461,18 @@
     "relevance": {
       "1.1": 85,
       "1.2": 65,
-      "1.5": 25
+      "1.5": 10
     },
     "programmaonderdelen": [
       "1.1",
-      "1.2",
-      "1.5"
+      "1.2"
     ],
     "confidence": "hoog",
-    "rationale": "Voorziening voor groot onderhoud (schilderwerk om 8 jaar) — boekhouding + boekhoudrecht. Secundair: PO 1.5 (EU-normenprincipe grensgebied, score=25)."
+    "rationale": "Voorziening voor groot onderhoud (schilderwerk om 8 jaar) — puur BE-GAAP provisioning (art. 50-51 KB W.Venn.). Geen IFRS-inhoud; PO 1.5 enkel raakvlak (score=10).",
+    "corrected_from": {
+      "1.5": 25
+    },
+    "correction_reason": "Voorziening voor groot onderhoud (periodiek schilderwerk) is puur BE-GAAP provisioning (art. 50-51 KB W.Venn.) — geen IAS 37-vraagstelling. PO 1.5 is strikt IFRS-only."
   },
   "2013-2-vr5": {
     "vraag_id": "2013-2-vr5",
@@ -1957,15 +1969,18 @@
     "relevance": {
       "1.1": 85,
       "1.2": 65,
-      "1.5": 25
+      "1.5": 10
     },
     "programmaonderdelen": [
       "1.1",
-      "1.2",
-      "1.5"
+      "1.2"
     ],
     "confidence": "hoog",
-    "rationale": "Herwaarderingsmeerwaarde op volledig afgeschreven octrooi bij verkoop — boekhouding + boekhoudrecht. Secundair: PO 1.5 (EU-normenprincipe grensgebied, score=25)."
+    "rationale": "Herwaarderingsmeerwaarde op volledig afgeschreven octrooi bij verkoop — puur BE-GAAP verwerking (art. 57-58 KB W.Venn., rubriek 120). Geen IFRS-inhoud; PO 1.5 enkel raakvlak (score=10).",
+    "corrected_from": {
+      "1.5": 25
+    },
+    "correction_reason": "Herwaarderingsmeerwaarde op immaterieel actief (octrooi) bij verkoop is puur BE-GAAP (art. 57-58 KB W.Venn., rekeningschema rubriek 120) — geen IAS 36/38-vraagstelling. PO 1.5 is strikt IFRS-only."
   },
   "2014-1-vr4": {
     "vraag_id": "2014-1-vr4",
@@ -1974,15 +1989,18 @@
     "relevance": {
       "1.1": 85,
       "1.2": 65,
-      "1.5": 35
+      "1.5": 10
     },
     "programmaonderdelen": [
       "1.1",
-      "1.2",
-      "1.5"
+      "1.2"
     ],
     "confidence": "hoog",
-    "rationale": "Verkoop met betaling over 5 jaar + disconto/intresten — boekhouding + boekhoudrechtelijke regels disconto. Secundair: PO 1.5 (IFRS/EU-norm raakvlak, score=35)."
+    "rationale": "Verkoop met betaling over 5 jaar + disconto/intresten — puur BE-GAAP boekhoudkundige verwerking en boekhoudrechtelijke discontoregels (art. 67 KB W.Venn.). Geen IFRS-inhoud; PO 1.5 enkel raakvlak (score=10).",
+    "corrected_from": {
+      "1.5": 35
+    },
+    "correction_reason": "Verkoopprijs met 5-jaarstermijn en disconto-berekening is BE-GAAP (interestactivering, art. 67 KB W.Venn.) — geen IFRS 15-vraagstelling (geen tijdwaarde-van-geld-analyse per IFRS). PO 1.5 is strikt IFRS-only."
   },
   "2014-1-vr5": {
     "vraag_id": "2014-1-vr5",
@@ -2576,15 +2594,18 @@
     "relevance": {
       "1.1": 85,
       "1.2": 65,
-      "1.5": 30
+      "1.5": 10
     },
     "programmaonderdelen": [
       "1.1",
-      "1.2",
-      "1.5"
+      "1.2"
     ],
     "confidence": "hoog",
-    "rationale": "Intercalaire interesten op investeringskrediet — activering — boekhouding + boekhoudrecht. Secundair: PO 1.5 (EU-normenprincipe grensgebied, score=30)."
+    "rationale": "Intercalaire interesten op investeringskrediet — activering via wachtrekening — puur BE-GAAP (art. 38 KB W.Venn.). Geen IFRS-inhoud; PO 1.5 enkel raakvlak (score=10).",
+    "corrected_from": {
+      "1.5": 30
+    },
+    "correction_reason": "Intercalaire interesten (wachtrekening/activering) is puur BE-GAAP (art. 38 KB W.Venn.) — geen IAS 23-vraagstelling. PO 1.5 is strikt IFRS-only."
   },
   "2015-1-vr5": {
     "vraag_id": "2015-1-vr5",
@@ -2608,15 +2629,18 @@
     "relevance": {
       "1.1": 85,
       "1.2": 65,
-      "1.5": 25
+      "1.5": 10
     },
     "programmaonderdelen": [
       "1.1",
-      "1.2",
-      "1.5"
+      "1.2"
     ],
     "confidence": "hoog",
-    "rationale": "Activering herstructureringskosten (ontmanteling, automatisatie) — boekhouding + boekhoudrecht. Secundair: PO 1.5 (EU-normenprincipe grensgebied, score=25)."
+    "rationale": "Activering herstructureringskosten (ontmanteling, automatisatie, technische werkloosheid) — puur BE-GAAP (art. 95 KB W.Venn.). Nota bene: onder IFRS zijn dergelijke kosten expense, niet activeerbaar — wat het BE-GAAP-specifieke karakter bevestigt. PO 1.5 enkel raakvlak (score=10).",
+    "corrected_from": {
+      "1.5": 25
+    },
+    "correction_reason": "Activering herstructureringskosten is puur BE-GAAP (art. 95 KB W.Venn. oprichtingskosten/herstructurering) — geen IFRS-vraagstelling (onder IFRS zijn herstructureringskosten expense). PO 1.5 is strikt IFRS-only."
   },
   "2015-1-vr7": {
     "vraag_id": "2015-1-vr7",
