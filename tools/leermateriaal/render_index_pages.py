@@ -23,11 +23,8 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-import yaml
-
 ROOT = Path(__file__).resolve().parent.parent.parent
 RECORDS_DIR = ROOT / "data" / "concepten" / "records"
-COMPETENTIES_DIR = ROOT / "data" / "concepten" / "competenties"
 LEERPADEN_DIR = ROOT / "data" / "concepten" / "leerpaden"
 STUDIEMATERIAAL_DIR = ROOT / "content" / "studiemateriaal"
 CONCEPTEN_DIR = ROOT / "content" / "concepten"
@@ -66,14 +63,16 @@ def _records_per_po() -> dict[str, list[dict]]:
 
 
 def _competenties_per_po() -> dict[str, list[dict]]:
-    """Groepeer competentie-yamls per PO."""
+    """Groepeer competentie-records (node_type=competentie) per PO."""
     per_po: dict[str, list[dict]] = defaultdict(list)
-    for p in sorted(COMPETENTIES_DIR.glob("*.yaml")):
+    for p in sorted(RECORDS_DIR.glob("*.json")):
         if p.name.startswith("_"):
             continue
         try:
-            c = yaml.safe_load(p.read_text(encoding="utf-8"))
-        except yaml.YAMLError:
+            c = json.loads(p.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(c, dict) or c.get("node_type") != "competentie":
             continue
         for po in c.get("programmaonderdelen", []) or []:
             per_po[str(po)].append(c)
@@ -194,7 +193,7 @@ def render_competenties_index(competenties_per_po: dict[str, list[dict]], po_tit
             if cid:
                 alle_comp[cid] = c
 
-    out.append(f"**Totaal**: {len(alle_comp)} competentie-yamls over {len(competenties_per_po)} programmaonderdelen.\n")
+    out.append(f"**Totaal**: {len(alle_comp)} competentie-records over {len(competenties_per_po)} programmaonderdelen.\n")
 
     for po in sorted(competenties_per_po.keys()):
         titel = po_titels.get(po, "")

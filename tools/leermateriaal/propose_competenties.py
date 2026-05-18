@@ -209,8 +209,10 @@ Intro: {str(programma_context.get('intro_tekst', ''))[:500]}
 
 ## Output-locatie
 
-Schrijf elke competentie als YAML-bestand naar:
-`data/concepten/competenties/<id>.yaml`
+Schrijf elke competentie als JSON-record naar:
+`data/concepten/records/<id>.json`
+
+Verplichte velden: `id`, `naam` (gelijk aan `titel`), `titel`, `node_type: "competentie"`, `schema_version: "1.5"`, plus alle competentie-specifieke velden.
 
 Schema: zie `prompts/competentie-destillatie-v1.md` §Output-schema
 
@@ -227,7 +229,7 @@ Schema: zie `prompts/competentie-destillatie-v1.md` §Output-schema
         print(f"\n[propose_competenties] Instructies geschreven: {instructies_pad.relative_to(ROOT)}")
         print(f"\nVolgende stap:")
         print(f"  Open {instructies_pad.relative_to(ROOT)} in een Opus-subagent-sessie.")
-        print(f"  Output: data/concepten/competenties/<id>.yaml (aantal volgt uit scope)")
+        print(f"  Output: data/concepten/records/<id>.json (node_type=competentie, schema 1.5)")
         print(f"  Daarna: python3 -m tools.leermateriaal.render_competentie_fiche \\")
         print(f"            --programmaonderdeel {programmaonderdeel_id}")
     else:

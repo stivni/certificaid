@@ -12,7 +12,7 @@ Chunking per brontype (ADR-006 §4):
 
 Chunking concepten-collectie (ADR-006 §5):
   - Eenheid: één chunk per record (niet per veld, niet vanuit content/)
-  - Bronnen: data/concepten/records/*.json (schema 1.3) + data/concepten/competenties/*.yaml (schema 1.0)
+  - Bronnen: data/concepten/records/*.json (schema 1.5) — concepten én competenties (node_type=competentie)
   - Chunk-id: `concept:<id>` of `competentie:<id>`
   - Embed-tekst deterministisch samengesteld uit velden (§5.4); _provenance uitgesloten
   - Metadata: scope, id, naam/titel, node_type, programmaonderdelen, status,
@@ -83,7 +83,6 @@ BRON_DIRS = {
     "advies":   ROOT / "resources" / "bronnen" / "adviezen",
 }
 CONCEPTS_DIR = ROOT / "data" / "concepten" / "records"
-COMPETENTIES_DIR = ROOT / "data" / "concepten" / "competenties"
 
 MIN_CHUNK_CHARS = 100
 # Aligneren met MPS_MAX_SEQ_LENGTH (2048 tokens ≈ 8K chars) zodat elke char
@@ -1867,23 +1866,21 @@ def index_concepten(collection, batch_size: int = 200):
 
     Drop-and-rebuild: de collectie wordt altijd vervangen (ADR-006 §5.6).
     Bronnen:
-      - data/concepten/records/*.json  (concept, schema 1.3)
-      - data/concepten/competenties/*.yaml  (competentie, schema 1.0)
+      - data/concepten/records/*.json (schema 1.5) — alle node_types incl. competentie
     Eenheid: één chunk per record.
     """
     ids: list[str] = []
     texts: list[str] = []
     metadatas: list[dict] = []
 
-    # --- Concept-records ---
     if not CONCEPTS_DIR.exists():
-        print(f"  WAARSCHUWING: {CONCEPTS_DIR} bestaat niet — geen concept-records geïndexeerd")
+        print(f"  WAARSCHUWING: {CONCEPTS_DIR} bestaat niet — geen records geïndexeerd")
     else:
-        concept_files = sorted(CONCEPTS_DIR.glob("*.json"))
-        if not concept_files:
-            print(f"  Geen concept-records in {CONCEPTS_DIR}")
+        alle_bestanden = sorted(CONCEPTS_DIR.glob("*.json"))
+        if not alle_bestanden:
+            print(f"  Geen records in {CONCEPTS_DIR}")
         else:
-            for path in tqdm(concept_files, desc="concept-records"):
+            for path in tqdm(alle_bestanden, desc="records"):
                 try:
                     record = json.loads(path.read_text())
                 except Exception as exc:
@@ -1896,97 +1893,81 @@ def index_concepten(collection, batch_size: int = 200):
                     print(f"  → skip {record_id}: status={status}")
                     continue
 
-                embed_tekst = _compose_concept_tekst(record)
-                if len(embed_tekst) > HARD_THRESHOLD:
-                    print(f"  WARNING: {record_id} embed-tekst {len(embed_tekst)} chars > HARD_THRESHOLD — redactie nodig")
+                node_type = record.get("node_type", "")
 
-                programmaonderdelen = _po_uit_anchors(record.get("linked_anchors") or [])
+                if node_type == "competentie":
+                    # --- Competentie-record ---
+                    embed_tekst = _compose_competentie_tekst(record)
+                    if len(embed_tekst) > HARD_THRESHOLD:
+                        print(f"  WARNING: {record_id} embed-tekst {len(embed_tekst)} chars > HARD_THRESHOLD — redactie nodig")
 
-                # Verzamel alle source.short-waarden voor bron_shorts
-                bron_shorts = _bron_shorts_concept(record)
+                    programmaonderdelen_list = record.get("programmaonderdelen") or []
+                    programmaonderdelen = [str(p) for p in programmaonderdelen_list]
 
-                # linked_concepts = doelen van vergelijkingsparen
-                linked_concepts = [
-                    paar.get("vergelijking_met", "")
-                    for paar in (record.get("vergelijkingsparen") or [])
-                    if isinstance(paar, dict) and paar.get("vergelijking_met")
-                ]
+                    bron_shorts = _bron_shorts_competentie(record)
 
-                extractor_run = ""
-                provenance = record.get("_provenance")
-                if isinstance(provenance, dict):
-                    extractor_run = provenance.get("extractor_run", "") or ""
+                    linked_concepts = [
+                        str(c) for c in (record.get("gebaseerd_op_concepten") or [])
+                    ]
 
-                ids.append(f"concept:{record_id}")
-                texts.append(embed_tekst)
-                metadatas.append({
-                    "scope":               "concept",
-                    "id":                  record_id,
-                    "naam":                record.get("naam", record_id),
-                    "node_type":           record.get("node_type", ""),
-                    "programmaonderdelen": json.dumps(programmaonderdelen),
-                    "status":              status,
-                    "schema_version":      str(record.get("schema_version", "")),
-                    "confidence_summary":  _confidence_summary_concept(record),
-                    "bron_shorts":         json.dumps(bron_shorts),
-                    "linked_concepts":     json.dumps(linked_concepts),
-                    "extractor_run":       extractor_run,
-                })
+                    extractor_run = ""
+                    provenance = record.get("_provenance")
+                    if isinstance(provenance, dict):
+                        extractor_run = provenance.get("voorgesteld_door", "") or ""
 
-    # --- Competentie-records ---
-    if not COMPETENTIES_DIR.exists():
-        print(f"  WAARSCHUWING: {COMPETENTIES_DIR} bestaat niet — geen competentie-records geïndexeerd")
-    else:
-        competentie_files = sorted(COMPETENTIES_DIR.glob("*.yaml"))
-        if not competentie_files:
-            print(f"  Geen competentie-records in {COMPETENTIES_DIR}")
-        else:
-            for path in tqdm(competentie_files, desc="competentie-records"):
-                try:
-                    record = yaml.safe_load(path.read_text())
-                except Exception as exc:
-                    print(f"  Overgeslagen {path.name}: {exc}")
-                    continue
+                    ids.append(f"competentie:{record_id}")
+                    texts.append(embed_tekst)
+                    metadatas.append({
+                        "scope":               "competentie",
+                        "id":                  record_id,
+                        "naam":                record.get("naam", record.get("titel", record_id)),
+                        "node_type":           node_type,
+                        "programmaonderdelen": json.dumps(programmaonderdelen),
+                        "status":              status,
+                        "schema_version":      str(record.get("schema_version", "")),
+                        "confidence_summary":  _confidence_summary_competentie(record),
+                        "bron_shorts":         json.dumps(bron_shorts),
+                        "linked_concepts":     json.dumps(linked_concepts),
+                        "extractor_run":       extractor_run,
+                    })
+                else:
+                    # --- Concept-record (begrip, regel, cluster, synthese, autoriteit, ...) ---
+                    embed_tekst = _compose_concept_tekst(record)
+                    if len(embed_tekst) > HARD_THRESHOLD:
+                        print(f"  WARNING: {record_id} embed-tekst {len(embed_tekst)} chars > HARD_THRESHOLD — redactie nodig")
 
-                record_id = record.get("id", path.stem)
-                status = record.get("status", "")
-                if status in ("rejected", "archived"):
-                    print(f"  → skip {record_id}: status={status}")
-                    continue
+                    programmaonderdelen = _po_uit_anchors(record.get("linked_anchors") or [])
 
-                embed_tekst = _compose_competentie_tekst(record)
-                if len(embed_tekst) > HARD_THRESHOLD:
-                    print(f"  WARNING: {record_id} embed-tekst {len(embed_tekst)} chars > HARD_THRESHOLD — redactie nodig")
+                    # Verzamel alle source.short-waarden voor bron_shorts
+                    bron_shorts = _bron_shorts_concept(record)
 
-                programmaonderdelen_list = record.get("programmaonderdelen") or []
-                programmaonderdelen = [str(p) for p in programmaonderdelen_list]
+                    # linked_concepts = doelen van vergelijkingsparen
+                    linked_concepts = [
+                        paar.get("vergelijking_met", "")
+                        for paar in (record.get("vergelijkingsparen") or [])
+                        if isinstance(paar, dict) and paar.get("vergelijking_met")
+                    ]
 
-                bron_shorts = _bron_shorts_competentie(record)
+                    extractor_run = ""
+                    provenance = record.get("_provenance")
+                    if isinstance(provenance, dict):
+                        extractor_run = provenance.get("extractor_run", "") or ""
 
-                linked_concepts = [
-                    str(c) for c in (record.get("gebaseerd_op_concepten") or [])
-                ]
-
-                extractor_run = ""
-                provenance = record.get("_provenance")
-                if isinstance(provenance, dict):
-                    extractor_run = provenance.get("voorgesteld_door", "") or ""
-
-                ids.append(f"competentie:{record_id}")
-                texts.append(embed_tekst)
-                metadatas.append({
-                    "scope":               "competentie",
-                    "id":                  record_id,
-                    "titel":               record.get("titel", record_id),
-                    "node_type":           "",
-                    "programmaonderdelen": json.dumps(programmaonderdelen),
-                    "status":              status,
-                    "schema_version":      str(record.get("schema_version", "")),
-                    "confidence_summary":  _confidence_summary_competentie(record),
-                    "bron_shorts":         json.dumps(bron_shorts),
-                    "linked_concepts":     json.dumps(linked_concepts),
-                    "extractor_run":       extractor_run,
-                })
+                    ids.append(f"concept:{record_id}")
+                    texts.append(embed_tekst)
+                    metadatas.append({
+                        "scope":               "concept",
+                        "id":                  record_id,
+                        "naam":                record.get("naam", record_id),
+                        "node_type":           node_type,
+                        "programmaonderdelen": json.dumps(programmaonderdelen),
+                        "status":              status,
+                        "schema_version":      str(record.get("schema_version", "")),
+                        "confidence_summary":  _confidence_summary_concept(record),
+                        "bron_shorts":         json.dumps(bron_shorts),
+                        "linked_concepts":     json.dumps(linked_concepts),
+                        "extractor_run":       extractor_run,
+                    })
 
     if ids:
         _batch_upsert(collection, ids, texts, metadatas, batch_size=batch_size)
@@ -2006,8 +1987,8 @@ def main():
     parser.add_argument("--scope",
                         help="Pad naar bronnen-scope.yaml — schrijft naar aparte chroma_db_<programmaonderdeel>/")
     parser.add_argument("--add-concepten", action="store_true",
-                        help="Indexeer concept- en competentie-records (drop-and-rebuild, ADR-006 §5.6). "
-                             "Indexeert data/concepten/records/*.json + data/concepten/competenties/*.yaml, "
+                        help="Indexeer alle records (drop-and-rebuild, ADR-006 §5.6). "
+                             "Indexeert data/concepten/records/*.json (concept én competentie, schema 1.5), "
                              "één chunk per record.")
     parser.add_argument("--reset", action="store_true",
                         help="Verwijder en herbouw de collection(s)")

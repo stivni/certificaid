@@ -1,7 +1,7 @@
 # ADR-006: RAG-strategie
 
 **Status**: Draft
-**Datum**: 2026-05-07 (gewijzigd 2026-05-09: §4 frontmatter-driven chunking + per-wet hiërarchie-detectie; 2026-05-14: §4.2 adaptive sub-chunking + definitie-detectie; 2026-05-15: §5 concepten-collectie geherdefinieerd — chunking direct uit `data/concepten/records/*.json` + `data/concepten/competenties/*.yaml` (source of truth), één chunk per record. Vervangt oude per-node-veld-strategie en de 38 seed-records. Render-output in `content/` is géén bron voor de index.)
+**Datum**: 2026-05-07 (gewijzigd 2026-05-09: §4 frontmatter-driven chunking + per-wet hiërarchie-detectie; 2026-05-14: §4.2 adaptive sub-chunking + definitie-detectie; 2026-05-15: §5 concepten-collectie geherdefinieerd — chunking direct uit `data/concepten/records/*.json` (source of truth), één chunk per record. Render-output in `content/` is géén bron voor de index. 2026-05-18: competentie-records gemigreerd van `data/concepten/competenties/*.yaml` → `data/concepten/records/*.json` (node_type=competentie, schema 1.5). Eén bronpad voor alle record-types.)
 **Vervangt**: archive/ADR-001 (embedding model), ADR-002 (chunk-strategie), ADR-003 (reranking), ADR-005 (query-strategie), ADR-010 (ChromaDB)
 
 ## Context
@@ -189,8 +189,7 @@ Empirische basis: `data/etl/qa/sub-marker-onderzoek.md` + `data/etl/qa/definitie
 
 | Pad | Scope | Schema |
 |---|---|---|
-| `data/concepten/records/*.json` | `concept` | ADR-007 §schema 1.3 |
-| `data/concepten/competenties/*.yaml` | `competentie` | ADR-007 §competentie-schema 1.0 |
+| `data/concepten/records/*.json` | `concept` of `competentie` (via `node_type`) | ADR-007 §schema 1.5 |
 
 `content/concepten/` en `content/competenties/` zijn render-output (ADR-010 §drie-lagen) en zijn **geen** bron voor de index. Indexeren vanuit `content/` zou betekenen dat een template-wijziging zonder record-wijziging de embeddings verandert — dat is rendering-bug-territorium, geen kennislaag-wijziging.
 
@@ -295,7 +294,7 @@ Per chunk in ChromaDB:
 
 Bij `tools/rag/rag_index.py --collection concepten`:
 1. **Drop-and-rebuild**: de oude 38 seed-records worden volledig leeggemaakt. Geen migratie — die hoorden bij de in ADR-008-herziening verworpen vermoedensruimte-aanpak.
-2. Scan `data/concepten/records/*.json` + `data/concepten/competenties/*.yaml`.
+2. Scan `data/concepten/records/*.json` (alle node_types, incl. `node_type: competentie`).
 3. Voor elk record: compose embed-tekst (§5.4), bouw metadata (§5.5), embed met bge-m3, schrijf chunk.
 4. Records met `status: rejected` of `status: archived` worden geskipt en gelogd.
 

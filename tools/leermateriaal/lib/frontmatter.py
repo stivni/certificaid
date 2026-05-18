@@ -72,7 +72,7 @@ def competentie_fiche_frontmatter(competentie: dict) -> dict:
     """Genereer Quartz-frontmatter voor een competentie-fiche.
 
     Args:
-        competentie: volledig competentie-dict (schema 1.0 YAML)
+        competentie: volledig competentie-record dict (schema 1.5 JSON, node_type=competentie)
 
     Returns:
         frontmatter dict
@@ -88,12 +88,12 @@ def competentie_fiche_frontmatter(competentie: dict) -> dict:
     tags.extend(f"po-{code.replace('.', '-')}" for code in programmaonderdelen)
 
     return {
-        "title": competentie.get("titel", competentie.get("id", "")),
+        "title": competentie.get("titel", competentie.get("naam", competentie.get("id", ""))),
         "tags": tags,
         "programmaonderdelen": programmaonderdelen,
         "status": competentie.get("status", "voorgesteld"),
-        "schema_version": competentie.get("schema_version", "1.0"),
-        "gegenereerd_uit": f"data/concepten/competenties/{competentie.get('id', '')}.yaml",
+        "schema_version": competentie.get("schema_version", "1.5"),
+        "gegenereerd_uit": f"data/concepten/records/{competentie.get('id', '')}.json",
         "gegenereerd_op": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
     }
 

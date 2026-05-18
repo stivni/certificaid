@@ -24,7 +24,6 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 RECORDS_DIR = ROOT / "data" / "concepten" / "records"
-COMPETENTIES_DIR = ROOT / "data" / "concepten" / "competenties"
 LEERPADEN_DIR = ROOT / "data" / "concepten" / "leerpaden"
 GAPS_FILE = ROOT / "data" / "extractie" / "gaps.json"
 PROGRAMMA_FILE = ROOT / "data" / "programma" / "programma.json"
@@ -52,19 +51,20 @@ def _laad_records_voor_programmaonderdeel(programmaonderdeel_id: str) -> list[di
 
 
 def _laad_competenties_voor_programmaonderdeel(programmaonderdeel_id: str) -> list[dict]:
-    """Laad alle competenties voor een programmaonderdeel."""
+    """Laad alle competentie-records voor een programmaonderdeel uit records/ (node_type=competentie)."""
     resultaat = []
-    for bestand in sorted(COMPETENTIES_DIR.glob("*.yaml")):
+    for bestand in sorted(RECORDS_DIR.glob("*.json")):
         if bestand.name.startswith("_"):
             continue
         try:
-            with open(bestand, encoding="utf-8") as f:
-                comp = yaml.safe_load(f)
-            if isinstance(comp, dict) and programmaonderdeel_id in [
-                str(p) for p in comp.get("programmaonderdelen", [])
-            ]:
+            comp = json.loads(bestand.read_text(encoding="utf-8"))
+            if (
+                isinstance(comp, dict)
+                and comp.get("node_type") == "competentie"
+                and programmaonderdeel_id in [str(p) for p in comp.get("programmaonderdelen", [])]
+            ):
                 resultaat.append(comp)
-        except (yaml.YAMLError, OSError):
+        except (json.JSONDecodeError, OSError):
             pass
     return resultaat
 

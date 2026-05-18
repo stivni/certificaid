@@ -1,7 +1,7 @@
 """
-Deterministisch renderer voor competentie-fiches (ADR-007 competentie-schema 1.0).
+Deterministisch renderer voor competentie-fiches (ADR-007 competentie-schema 1.5).
 
-Leest YAML-bestanden uit data/concepten/competenties/ en schrijft
+Leest JSON-records met node_type=competentie uit data/concepten/records/ en schrijft
 Quartz-compatibele Markdown-fiches naar content/competenties/<id>.md.
 
 Valideer eerst via validate_competentie.py — records met fouten worden overgeslagen.
@@ -18,28 +18,26 @@ Gebruik:
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
-import yaml
-
 ROOT = Path(__file__).resolve().parent.parent.parent
-COMPETENTIES_DIR = ROOT / "data" / "concepten" / "competenties"
+RECORDS_DIR = ROOT / "data" / "concepten" / "records"
 OUTPUT_DIR = ROOT / "content" / "competenties"
 
 
 def _laad_alle_competenties() -> list[tuple[Path, dict]]:
-    """Laad alle YAML-competenties (skip bestanden die beginnen met _)."""
+    """Laad alle JSON-records met node_type=competentie (skip bestanden die beginnen met _)."""
     resultaat: list[tuple[Path, dict]] = []
-    for bestand in sorted(COMPETENTIES_DIR.glob("*.yaml")):
+    for bestand in sorted(RECORDS_DIR.glob("*.json")):
         if bestand.name.startswith("_"):
             continue
         try:
-            with open(bestand, encoding="utf-8") as f:
-                competentie = yaml.safe_load(f)
-            if isinstance(competentie, dict):
+            competentie = json.loads(bestand.read_text(encoding="utf-8"))
+            if isinstance(competentie, dict) and competentie.get("node_type") == "competentie":
                 resultaat.append((bestand, competentie))
-        except (yaml.YAMLError, OSError) as fout:
+        except (json.JSONDecodeError, OSError) as fout:
             print(f"  [WAARSCHUWING] {bestand.name}: overgeslagen ({fout})", file=sys.stderr)
     return resultaat
 
