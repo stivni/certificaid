@@ -58,10 +58,12 @@ Gebruik uitsluitend deze zes types. Nieuw type nodig? Stel voor via een ADR-upda
 |---|---|---|---|
 | **begrip** | *"Wat is X?"* | `definitie`, `in_praktijk[]`, `voorbeelden[]`, `valkuilen[]` | right-of-use-actief, beroepsgeheim, arbeidskosten |
 | **regel** | *"Wat schrijft de norm voor?"* | `main_rule` of `verplichting`, `voorwaarden[]`, `uitzonderingen[]`, `drempelwaarden[]`, `valkuilen[]` | art. 3:96 KB WVV, IFRS 16 §100, continuïteitsbeginsel |
-| **cluster** | *"Hoe hangt dit fenomeen samen?"* — samengesteld onderwerp dat regels, begrippen en bouwstenen samenbrengt | `definitie` of `doel`, `bouwstenen[]`, `berekeningsmethode[]`, `vergelijkingsparen[]`, `in_praktijk[]` | leasing, consolidatie, COSO ERM, jaarrekening-vzw |
+| **cluster** | *"Hoe hangt dit fenomeen samen?"* — samengesteld onderwerp dat regels, begrippen en bouwstenen samenbrengt | `definitie`, `bouwstenen[]`, `berekeningsmethode[]`, `vergelijkingsparen[]`, `in_praktijk[]` | leasing, consolidatie, COSO ERM, jaarrekening-vzw |
 | **synthese** | *"Hoe vergelijk of beslis ik tussen N records?"* | `gebaseerd_op_concepten[]`, één van `vergelijkingstabel` / `beslisboom` / `stappenplan` / `tijdlijn`, `kerninzichten[]` | consolidatiemethoden-vergelijking, liquiditeitstoets-beslisboom |
 | **autoriteit** | *"Welke institutionele actor doet wat?"* | `definitie`, `rol`, `in_praktijk[]`, `valkuilen[]` | FSMA, ITAA, FOD Financiën, Cel voor Financiële Informatieverwerking |
-| **competentie** | *"Wat moet de stagiair kunnen?"* — applied skill | `doel`, `stappen[]`, `beoordelings_criteria`, optioneel `voorbeeld_case` | kwalificeren-en-boeken-leasing, beoordelen-getrouw-beeld |
+| **competentie** | *"Wat moet de stagiair kunnen?"* — applied skill | `titel`, `stappen[]`, `beoordelings_criteria`, optioneel `voorbeeld_case` | kwalificeren-en-boeken-leasing, beoordelen-getrouw-beeld |
+
+**Universeel veld** (alle 6 types, optioneel): `situering` — 2–4 zinnen "waarom bestaat dit, in welk veld zit het?". Verandert mee met de regel/definitie (samen-aanpassen-criterium). Schema 1.6 vervangt het oude `doel`-veld — bij elke EXTRACT-pass dat een record met `doel` aanraakt: hernoemen naar `situering`. Zie [ADR-007 §situering](../docs/adr/ADR-007-conceptmodel.md) voor schrijfregels en voorbeelden per type.
 
 ### Migratie van oude types (schema 1.4 → 1.5)
 
@@ -304,12 +306,12 @@ Geen kunstmatige getallen. Bij elk record dat je schrijft of touch'cht, vraag je
 
 | node_type | Kernvelden | Veelvoorkomende verrijkingen |
 |---|---|---|
-| **begrip** | `definitie` | `in_praktijk[]`, `voorbeelden[]`, `vergelijkingsparen[]`, `valkuilen[]` |
-| **regel** | `main_rule` of `verplichting` | `voorbeelden[]`, `uitzonderingen[]`, `voorwaarden[]`, `drempelwaarden[]`, `valkuilen[]` |
-| **cluster** | `definitie` of `doel` + `bouwstenen[]` | `berekeningsmethode[]`, `voorbeelden[{vorm: scenario}]` met inline `illustraties[]` (boeking, balans), `in_praktijk[]`, `vergelijkingsparen[]` |
-| **synthese** | `gebaseerd_op_concepten[]` (≥ 3) | `vergelijkingstabel`, `beslisboom`, `kerninzichten[]`, eigen `illustraties[]` |
-| **autoriteit** | `definitie`, `rol` | `in_praktijk[]` ("wanneer kom je deze actor tegen in een dossier?"), `voorbeelden[]`, `vergelijkingsparen[]` |
-| **competentie** | `doel`, `stappen[]` | `in_praktijk[]` (waar de stagiair dit gaat doen), `voorbeelden[]` per stap, `beoordelings_criteria`, inline `illustraties[]` |
+| **begrip** | `definitie` | `situering`, `in_praktijk[]`, `voorbeelden[]`, `vergelijkingsparen[]`, `valkuilen[]` |
+| **regel** | `main_rule` of `verplichting` | `situering`, `voorbeelden[]`, `uitzonderingen[]`, `voorwaarden[]`, `drempelwaarden[]`, `valkuilen[]` |
+| **cluster** | `definitie` + `bouwstenen[]` | `situering`, `berekeningsmethode[]`, `voorbeelden[{vorm: scenario}]` met inline `illustraties[]` (boeking, balans), `in_praktijk[]`, `vergelijkingsparen[]` |
+| **synthese** | `gebaseerd_op_concepten[]` (≥ 3) | `situering`, `vergelijkingstabel`, `beslisboom`, `kerninzichten[]`, eigen `illustraties[]` |
+| **autoriteit** | `definitie`, `rol` | `situering`, `in_praktijk[]` ("wanneer kom je deze actor tegen in een dossier?"), `voorbeelden[]`, `vergelijkingsparen[]` |
+| **competentie** | `titel`, `stappen[]` | `situering`, `in_praktijk[]` (waar de stagiair dit gaat doen), `voorbeelden[]` per stap, `beoordelings_criteria`, inline `illustraties[]` |
 
 **Plaatsings-regel voor `stappen[]` in clusters**: een cluster heeft `stappen[]` **nooit** rechtstreeks op record-top. Stappen leven binnen `berekeningsmethode[].stappen[]` of als bouwsteen met sub-stappen. Competenties hebben `stappen[]` wel direct op record-top — dat is type-specifiek.
 

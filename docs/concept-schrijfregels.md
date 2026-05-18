@@ -40,14 +40,18 @@ Voorbeelden:
 
 Eén taxonomie voor alles — concepten en competenties leven in hetzelfde format, onderscheiden door `node_type`. Zie [ADR-007](adr/ADR-007-conceptmodel.md) voor schema-details.
 
-| Type | Vraag | Velden-pakket (typisch) | Voorbeelden |
+Alle types delen één optioneel veld: **`situering`** (zie [§Situering](#situering--waarom-bestaat-dit-in-welk-veld) verderop). Andere velden zijn type-specifiek:
+
+| Type | Vraag | Velden-pakket (typisch, naast `situering`) | Voorbeelden |
 |---|---|---|---|
 | **begrip** | *"Wat is X?"* — defining unit | `definitie` + `voorbeelden[]` + `in_praktijk` + `valkuilen` | arbeidskosten, right-of-use-actief, beroepsgeheim |
 | **regel** | *"Wat schrijft de norm voor?"* — normatieve regel of beginsel | `verplichting` of `main_rule` + `voorwaarden` + `valkuilen` + optioneel `drempelwaarden` | art. 3:96 KB WVV, IFRS 16 alinea 100, continuïteitsbeginsel |
-| **cluster** | *"Hoe hangt dit fenomeen samen?"* — samengesteld onderwerp dat regels, begrippen en bouwstenen samenbrengt | `doel` of `definitie` + rijke `bouwstenen` + `voorwaarden` + `vergelijkingsparen` + `valkuilen` + soms `berekeningsmethode` | leasing, consolidatie, COSO ERM, jaarrekening-vzw |
+| **cluster** | *"Hoe hangt dit fenomeen samen?"* — samengesteld onderwerp dat regels, begrippen en bouwstenen samenbrengt | `definitie` + rijke `bouwstenen` + `voorwaarden` + `vergelijkingsparen` + `valkuilen` + soms `berekeningsmethode` | leasing, consolidatie, COSO ERM, jaarrekening-vzw |
 | **synthese** | *"Hoe vergelijk of beslis ik tussen N concepten?"* — cross-record overzicht | `gebaseerd_op_concepten` + één van: `vergelijkingstabel`, `beslisboom`, `stappenplan`, `tijdlijn` + `kerninzichten` | consolidatiemethoden-vergelijking, liquiditeitstoets-beslisboom |
 | **autoriteit** | *"Welke institutionele actor doet wat?"* | `definitie` + `rol` + `in_praktijk` | FSMA, ITAA, FOD Financiën, Cel voor Financiële Informatieverwerking |
-| **competentie** | *"Wat moet de stagiair kunnen?"* — applied skill | `doel` + `stappen` + `beoordelings_criteria` + optioneel `voorbeelden[]` | kwalificeren-en-boeken-leasing, beoordelen-getrouw-beeld |
+| **competentie** | *"Wat moet de stagiair kunnen?"* — applied skill | `titel` + `stappen` + `beoordelings_criteria` + optioneel `voorbeelden[]` | kwalificeren-en-boeken-leasing, beoordelen-getrouw-beeld |
+
+> **Schema 1.6-noot** (2026-05-18): het oude `doel`-veld (eerder hoofdveld op cluster + theoretisch op competentie) is geschrapt. 55 records met `doel` zijn mechanisch gemigreerd naar `situering` (zie [ADR-007 §situering](adr/ADR-007-conceptmodel.md)). Voor cluster werkt `definitie` nu als hoofdveld; voor competentie zit de essentie in `titel + stappen[]` (de migratie liet zien dat competenties feitelijk nooit een `doel`-veld droegen).
 
 **Verdwenen of opgegaan** (historische types die niet meer als eigen `node_type` bestaan):
 
@@ -295,13 +299,38 @@ Illustraties **inline** binnen voorbeelden, niet als edge-references — een ill
 
 Elke illustratie heeft ook `confidence`, optioneel `source`, optioneel `cast_used`. Validatie (debet=credit, activa=passiva) gebeurt bij render-tijd; falen genereert een waarschuwing.
 
-## Studiemateriaal-schrijfregels (apart, nog te schrijven)
+## Situering — waarom bestaat dit, in welk veld
 
-Dit document gaat over **records** (data-laag). Voor de **render-laag** (minicursussen, leerpaden, programmaonderdeel-fiches) komen aparte schrijfregels: didactisch narratief, cross-record-flow, leerpedagogiek. Niet hier. Zie ADR-010 revisie (gepland).
+`situering` is een optionele string (2–4 zinnen) **op alle 6 node-types** die antwoordt op:
+
+- *Waarom bestaat dit concept?* (welk probleem of belang lost het op?)
+- *In welk veld zit het?* (vennootschapsrecht-kapitaalbescherming, boekhoudrecht-jaarrekening, fiscaal-DBI, ...)
+- *Waar staat het in het grotere geheel?* (één zin oriëntatie, géén volledige edges-render)
+
+**Verhouding tot nabije velden** (begrip-voorbeeld "wettelijke reserve"):
+
+| Veld | Vraag | Voorbeeld |
+|---|---|---|
+| `definitie` | Wat is dit? | "5% van nettowinst die in reserve gehouden wordt tot 10% van kapitaal bereikt is." |
+| `situering` | Waarom bestaat dit, in welk veld? | "Onderdeel van het regime kapitaalbescherming in het WVV. Beschermt schuldeisers tegen uitkering van inbreng als dividend." |
+| `rationale.text` | Welk beginsel verklaart dit? | "Operationaliseert het beginsel 'kapitaal als waarborg voor crediteuren'." |
+| `in_praktijk[*]` | Hoe gebruik je dit? | `aspect: "Berekening jaarlijks"`, `betekenis: "Bij elke winstverdeling toetsen tot 10%."` |
+
+**Schrijfregels**:
+
+- Compact: één paragraaf, geen lijst, **geen wikilinks** (situering moet leesbaar zijn zónder edges-resolutie)
+- Wetreferentie alleen op regime-niveau ("het WVV", "het Boekhoudbesluit") — geen artikel-citaties
+- Confidence: `grounded` als regime direct uit de bron komt; `inferred` bij synthetische plaatsing
+- Geen pedagogische framing ("dit is een van drie reserves; vergelijk met X en Y") — die hoort in de minicursus, niet in het record
+
+**Laag-heuristiek (waarom hier, niet in leermateriaal)**: situering verandert mee wanneer de regel/definitie verandert. Dat is het criterium voor data-laag: samen-aanpassen → record. Pedagogische framing per leerpad hoort in de minicursus (zie [studiemateriaal-schrijfregels](studiemateriaal-schrijfregels.md)).
+
+Volledige schema-spec in [ADR-007 §situering](adr/ADR-007-conceptmodel.md).
 
 ## Lengte
 
-- **Hoofdveld** (`definitie`, `main_rule`, `verplichting`, `doel`): ≤ 150 woorden per veld. Langer → splits in bouwstenen.
+- **Hoofdveld** (`definitie`, `main_rule`, `verplichting`): ≤ 150 woorden per veld. Langer → splits in bouwstenen.
+- **`situering`**: 2–4 zinnen, ≤ 80 woorden. Langer → te uitgebreid; verplaats detail naar `in_praktijk[]` of `rationale`.
 - **Voorbeeld omschrijving**: ≤ 80 woorden (eenvoudig); scenario mag langer maar elk stap-blok blijft compact.
 - **Bouwsteen tekst**: ≤ 100 woorden plus optioneel `voorbeelden`, `illustraties`, `bron_ref`.
 - **In_praktijk-item**: ≤ 40 woorden per item.
