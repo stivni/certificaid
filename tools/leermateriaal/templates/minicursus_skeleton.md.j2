@@ -12,33 +12,23 @@
 **Taken** (uit het ITAA-examenprogramma):
 
 {% for taak in po_taken %}
-**{{ taak.code }}** — {{ taak.tekst }}
-
-{% if taak.subtaken or taak.doelstellingen %}
-<details>
-<summary>{% if taak.subtaken %}{{ taak.subtaken | length }} subta{% if taak.subtaken | length > 1 %}ken{% else %}ak{% endif %}{% if taak.doelstellingen %} · {% endif %}{% endif %}{% if taak.doelstellingen %}{{ taak.doelstellingen | length }} doelstelling{% if taak.doelstellingen | length > 1 %}en{% endif %}{% endif %}</summary>
-
+> [!abstract]- **Taak {{ loop.index }}** — {{ taak.tekst }}
 {% if taak.subtaken %}
-**Subtaken**:
-
+>
+> **Subtaken**:
 {% for s in taak.subtaken %}
-- `{{ s.code }}` — {{ s.tekst }}
-
+> - {{ s.tekst }}
 {% endfor %}
-
 {% endif %}
 {% if taak.doelstellingen %}
-**Doelstellingen**:
-
+>
+> **Doelstellingen**:
 {% for d in taak.doelstellingen %}
-- `{{ d.code }}` — {{ d.tekst }}
-
+> - {{ d.tekst }}
 {% endfor %}
-
 {% endif %}
-</details>
 
-{% endif %}
+
 {% endfor %}
 
 {% endif %}

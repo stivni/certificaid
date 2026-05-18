@@ -34,6 +34,7 @@ gerelateerde_concepten:
 - presentatiebeginselen-jaarrekening-ifrs
 - presenteren-jaarrekening-ifrs
 - prestatieverplichting
+- public-interest-entity
 - right-of-use-actief
 - sale-and-leaseback-ifrs
 - toelichtingsvereisten-jaarrekening-ifrs
@@ -56,32 +57,19 @@ gegenereerd_op: '2026-05-18'
 
 **Taken** (uit het ITAA-examenprogramma):
 
-**1.5.taak.1** — Opstellen van de individuele en geconsolideerde jaarrekening
+> [!abstract]- **Taak 1** — Opstellen van de individuele en geconsolideerde jaarrekening
+>
+> **Subtaken**:
+> - Herstructureren van de balans en de resultatenrekening
+> - Identificeren en interpreteren van de balansaggregaten
+> - Berekenen van de elementen die nodig zijn voor een interpretatie van de kasstromen en die interpreteren
+> - Berekenen van de ratio's en ze interpreteren
+> - Contextualiseren van de interpretaties naargelang van het bedrijfsdomein en de nationale en internationale context
+>
+> **Doelstellingen**:
+> - Een beginsel van boekhoudrecht of een wettelijke bepaling uit Belgische of Europese bron opzoeken, grondig analyseren en toepassen, met inachtneming van internationale normen.
+> - Verifiëren en waarborgen van de conformiteit van de boekhouding en de documenten met de wettelijke en reglementaire vereisten.
 
-<details>
-<summary>5 subtaken · 2 doelstellingen</summary>
-
-**Subtaken**:
-
-- `1.5.taak.1.a` — Herstructureren van de balans en de resultatenrekening
-
-- `1.5.taak.1.b` — Identificeren en interpreteren van de balansaggregaten
-
-- `1.5.taak.1.c` — Berekenen van de elementen die nodig zijn voor een interpretatie van de kasstromen en die interpreteren
-
-- `1.5.taak.1.d` — Berekenen van de ratio's en ze interpreteren
-
-- `1.5.taak.1.e` — Contextualiseren van de interpretaties naargelang van het bedrijfsdomein en de nationale en internationale context
-
-
-**Doelstellingen**:
-
-- `1.5.taak.1.doel.1` — Een beginsel van boekhoudrecht of een wettelijke bepaling uit Belgische of Europese bron opzoeken, grondig analyseren en toepassen, met inachtneming van internationale normen.
-
-- `1.5.taak.1.doel.2` — Verifiëren en waarborgen van de conformiteit van de boekhouding en de documenten met de wettelijke en reglementaire vereisten.
-
-
-</details>
 
 
 ## Leesgids
@@ -306,6 +294,7 @@ _Bouwt op_: [[eu-harmonisatie-jaarrekeningenrecht]] · [[verplichte-ifrs-eu-beur
 | [[materiele-vaste-activa-ifrs]] | [[materiele-vaste-activa]] | Bij examenvraag over machine met componenten: KB WVV → één afschrijvingsplan mogelijk; IAS 16 → afzonderlijke afschrijving per component met substantiële kostprijs. |
 | [[mutatieoverzicht-eigen-vermogen-ifrs]] | [[samenstelling-statutaire-jaarrekening]] | Examen: 'Welke component bestaat WEL onder IFRS maar NIET onder BE-GAAP-jaarrekening?' → Mutatieoverzicht eigen vermogen. |
 | [[onderhanden-projecten-ifrs]] | [[voorraden-ifrs]] | Examen: 'Klant-specifiek project' → IFRS 15 over periode (mits criterium b of c vervuld); 'algemene voorraad voor verkoop' → IAS 2. |
+| [[public-interest-entity]] | [[groottecriteria-jaarrekening]] | Vraag 'verkort schema toegestaan?' → eerst PIE-test (zo ja: nooit verkort) → dan groottetest. |
 | [[sale-and-leaseback-ifrs]] | [[leasing]] | Examen: 'Onderneming X verkoopt gebouw aan financier en least het 10 jaar terug.' Onder BE-GAAP: meerwaarde naar overlopende rekening, jaarlijks vrijgegeven. Onder IFRS 16: eerst IFRS 15-toets; bij geldige verkoop direct gedeeltelijke winst + ROU + leaseverplichting. |
 | [[sale-and-leaseback-ifrs]] | [[leasing-ifrs]] | Examen: leasenemer vs verkoper-lessee onderscheid. Leasenemer-only → ROU = kostprijs (alinea 23-24). Verkoper-lessee → ROU = oude boekwaarde × verhouding behouden gebruiksrecht (alinea 100). |
 | [[voorraden-ifrs]] | [[voorraden]] | Examen: 'Onderneming gebruikt LIFO voor voorraadwaardering' — onder IFRS NIET toegelaten; onder BE-GAAP wel. |
@@ -398,6 +387,7 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 - [[opbrengsten-ifrs|Opbrengsten onder IFRS (IFRS 15) — 5-stappen-model]] · `cluster`
 - [[presenteren-jaarrekening-ifrs|Presenteren van een IFRS-jaarrekening (vijf componenten en presentatiebeginselen)]] · `competentie`
 - [[prestatieverplichting|Prestatieverplichting (performance obligation)]] · `begrip`
+- [[public-interest-entity|Public Interest Entity (PIE)]] · `begrip`
 - [[right-of-use-actief|Right-of-use-actief (gebruiksrecht-actief) onder IFRS 16]] · `begrip`
 - [[sale-and-leaseback-ifrs|Sale-and-leaseback onder IFRS (IFRS 16)]] · `cluster`
 - [[toelichtingsvereisten-jaarrekening-ifrs|Toelichtingsvereisten IFRS-jaarrekening — structuur en inhoud]] · `regel`
