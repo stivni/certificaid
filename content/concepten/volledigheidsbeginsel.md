@@ -22,7 +22,7 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > Het volledigheidsbeginsel verlangt dat álle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen van de onderneming in de boekhouding worden opgenomen.
 
-> [!info] Behoort tot: [[getrouw-beeld-jaarrekening]]
+> [!info] Behoort tot: [[getrouw-beeld-jaarrekening]] · [[boekhoudbeginselen-overzicht]]
 
 Het volledigheidsbeginsel verlangt dat álle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen van de onderneming in de boekhouding worden opgenomen. Ook niet-balansvorderingen en -verplichtingen (zoals gegeven of ontvangen waarborgen, voorwaardelijke verplichtingen) moeten in de toelichting vermeld worden. Niets weglaten.
 

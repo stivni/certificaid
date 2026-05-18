@@ -21,7 +21,7 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > Het consistentiebeginsel (of 'bestendigheid van waarderingsregels') verlangt dat een vennootschap haar waarderingsregels van boekjaar tot boekjaar identiek toepast.
 
-> [!info] Behoort tot: [[getrouw-beeld-jaarrekening]]
+> [!info] Behoort tot: [[getrouw-beeld-jaarrekening]] · [[boekhoudbeginselen-overzicht]]
 
 Het consistentiebeginsel (of 'bestendigheid van waarderingsregels') verlangt dat een vennootschap haar waarderingsregels van boekjaar tot boekjaar identiek toepast. Wijzigt zij haar regels: dan moet ze dat motiveren in de toelichting en de impact op het resultaat en de financiële positie kwantificeren.
 

@@ -161,6 +161,11 @@
       "target": "inventaris",
       "redenering": "Inventarisatie is het mechanisme om volledigheid jaarlijks te checken.",
       "confidence": "inferred"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "boekhoudbeginselen-overzicht",
+      "redenering": "Onderdeel van de zeven boekhoudbeginselen samengevat in dit synthese-record."
     }
   ],
   "voorbeelden": [

@@ -22,7 +22,7 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > Het oprechtheidsbeginsel verlangt dat de boekhouding en jaarrekening de werkelijke economische realiteit weergeven — geen vertekening, geen camouflage, geen 'window-dressing'.
 
-> [!info] Behoort tot: [[getrouw-beeld-jaarrekening]]
+> [!info] Behoort tot: [[getrouw-beeld-jaarrekening]] · [[boekhoudbeginselen-overzicht]]
 
 Het oprechtheidsbeginsel verlangt dat de boekhouding en jaarrekening de werkelijke economische realiteit weergeven — geen vertekening, geen camouflage, geen 'window-dressing'. Verrichtingen worden geboekt zoals ze werkelijk plaatsvonden, naar substance over form. Het beginsel is een hoeksteen van het 'getrouw beeld'.
 

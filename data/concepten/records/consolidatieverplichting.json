@@ -320,7 +320,7 @@
   ],
   "edges": [
     {
-      "type": "contrasteert-met",
+      "type": "vergelijkt-met",
       "target": "groottecriteria-jaarrekening",
       "redenering": "Consolidatieverplichting = de juridische plicht tot opmaak/controle/publicatie. Groottecriteria = de kwantitatieve drempels (omzet, balanstotaal, personeel) waaraan de vrijstelling voor groepen van beperkte omvang gekoppeld is. Eerste is het 'of'; tweede is het 'mogelijk niet'.",
       "_corrected_from": [
@@ -338,10 +338,11 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "aspect": "plicht vs. drempelwaarden voor vrijstelling"
     },
     {
-      "type": "contrasteert-met",
+      "type": "vergelijkt-met",
       "target": "vrijstelling-subconsolidatie",
       "redenering": "De vrijstelling van subconsolidatie ontheft een tussenmoeder van de consolidatieverplichting wanneer een hogere moeder al EU-breed consolideert. De edge 'uitzondering-op' staat op vrijstelling-subconsolidatie (correcte richting); hier markeren we alleen de verwante regel.",
       "_corrected_from": [
@@ -359,10 +360,11 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "aspect": "hoofdregel vs. vrijstelling voor tussenmoeder"
     },
     {
-      "type": "contrasteert-met",
+      "type": "vergelijkt-met",
       "target": "consolidatiekring",
       "redenering": "Consolidatieverplichting bepaalt of er geconsolideerd moet worden. Consolidatiekring bepaalt welke vennootschappen in de geconsolideerde jaarrekening moeten worden opgenomen.",
       "_corrected_from": [
@@ -380,7 +382,8 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "aspect": "of consolideren vs. welke entiteiten opnemen"
     },
     {
       "type": "vereist-kennis-van",

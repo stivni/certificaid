@@ -244,21 +244,6 @@
   ],
   "edges": [
     {
-      "type": "bevat",
-      "target": "balans",
-      "redenering": "Balans is één van de drie verplichte onderdelen."
-    },
-    {
-      "type": "bevat",
-      "target": "resultatenrekening",
-      "redenering": "RR is verplicht onderdeel."
-    },
-    {
-      "type": "bevat",
-      "target": "toelichting",
-      "redenering": "Toelichting is sluitstuk."
-    },
-    {
       "type": "getriggerd-door",
       "target": "jaarafsluiting",
       "redenering": "Jaarrekening wordt opgesteld na jaarafsluiting + inventaris."

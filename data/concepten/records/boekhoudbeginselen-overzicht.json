@@ -146,34 +146,6 @@
       "type": "onderdeel-van"
     },
     {
-      "target": "continuiteitsbeginsel",
-      "type": "bevat"
-    },
-    {
-      "target": "voorzichtigheidsbeginsel",
-      "type": "bevat"
-    },
-    {
-      "target": "getrouw-beeld",
-      "type": "bevat"
-    },
-    {
-      "target": "onveranderlijkheid-boekingen",
-      "type": "bevat"
-    },
-    {
-      "target": "consistentiebeginsel",
-      "type": "bevat"
-    },
-    {
-      "target": "oprechtheidsbeginsel",
-      "type": "bevat"
-    },
-    {
-      "target": "volledigheidsbeginsel",
-      "type": "bevat"
-    },
-    {
       "target": "jaarrekening",
       "type": "vereist-kennis-van"
     }

@@ -144,6 +144,11 @@
       "target": "getrouw-beeld-jaarrekening",
       "redenering": "Consistentie waarborgt vergelijkbaarheid in functie van getrouw beeld.",
       "confidence": "inferred"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "boekhoudbeginselen-overzicht",
+      "redenering": "Onderdeel van de zeven boekhoudbeginselen samengevat in dit synthese-record."
     }
   ],
   "voorbeelden": [
