@@ -174,16 +174,36 @@ Wel toegevoegd op de fiche: **situering**-paragraph (ADR-007 schema 1.6) bovenaa
 
 `render_concept_fiche.py` aanpassing: na frontmatter → situering-paragraph (indien aanwezig) → TL;DR-callout → rest. Geen callout-wrapper rond situering (zie ADR-007 §situering).
 
-#### Implicatie 2 — Synthese-records renderen NIET als losse fiche
+#### Implicatie 2 — Synthese-records: geen losse fiche, wel volwaardig record
 
 `node_type: synthese`-records (vergelijkingstabel + mermaid-beslisboom + kerninzichten) zijn pedagogische clusters die uitsluitend zin hebben binnen een leerverhaal. Een losse synthese-fiche zou:
 - Decontextualiseerd zijn (wat moet de student er mee zonder leerpad-omhulling?)
 - Duplicatie produceren met de minicursus die hem hoe dan ook inbedt
 - Een 1:1-mapping suggereren tussen records en content-files, die juist *niet* meer geldt
 
-**Beslissing**: `render_concept_fiche.py` skipt records waar `node_type == "synthese"` — geen `content/concepten/<id>.md` voor synthese-records. Zij blijven volwaardige records in `data/concepten/records/` (records-API, RAG-index, tutor-graph-walks) maar krijgen geen eigen fiche. Bestaande gerenderde synthese-fiches worden bij volgende render verwijderd door content-sync (ADR-019).
+**Wat verandert** (alleen het render-pad concept-fiche):
+- `render_concept_fiche.py` skipt records waar `node_type == "synthese"`
+- Geen losse pagina `content/concepten/<synthese-id>.md` op de site
+- Bestaande gerenderde synthese-fiches worden bij volgende render verwijderd door content-sync (ADR-019)
 
-**Inbedding**: `render_minicursus.py` pakt synthese-records uit het leerpad-YAML (nieuw hoofdstuk-type `synthese` of via `thematisch.synthese_id`) en rendert vergelijkingstabel + mermaid-beslisboom inline. Wikilinks vanuit de minicursus naar `[[synthese-id]]` resolveren niet meer naar een eigen pagina — die wikilinks worden in render omgezet naar anchor-links binnen de minicursus, of weggehaald als de synthese niet in deze minicursus voorkomt.
+**Wat NIET verandert** (synthese-record blijft volwaardig):
+- ✅ Synthese-record blijft in `data/concepten/records/<id>.json` — voorgesteld door EXTRACT v4, gecheckt door VERIFY
+- ✅ Records-API (`save_record` / `rename_record` / `delete_record` + audit-parity, ADR-019) werkt onveranderd
+- ✅ Synthese-record blijft geïndexeerd in concepten-RAG-collectie (ADR-006) — tutor kan ernaar retrieven
+- ✅ Tutor / NetworkX graph-walks (ADR-007) lezen synthese-records mee
+- ✅ Wikilinks **vanuit andere records** naar `[[synthese-id]]` blijven geldig op data-niveau
+
+**Inbedding in minicursus** (vervangt de losse fiche):
+- `render_minicursus.py` pakt synthese-records uit het leerpad-YAML via `thematisch.synthese_id`-binding (of nieuw hoofdstuk-type `synthese` indien zinvoller — te beslissen bij §6.3-implementatie)
+- Render plaatst vergelijkingstabel + mermaid-beslisboom inline op de aangewezen plek in het leerverhaal
+- Wikilinks naar `[[synthese-id]]` resolveren naar een anchor-link **binnen die minicursus** (waar de synthese ingebed is)
+
+**Wikilink-gedrag elders** (anti-dangling):
+- Wikilink in concept-fiche A → `[[synthese-X]]`: er bestaat geen pagina synthese-X. Render-validator behandelt dit als dangling-wikilink: toont als platte tekst + curator-warning. Mitigatie: synthese-records moeten via edges-render bereikbaar zijn (impliciet, niet via expliciete wikilink in fiche-prose) of de synthese hoort niet in een fiche.
+- Wikilink in minicursus B → `[[synthese-X]]`, maar minicursus B bedt synthese-X niet in: render-warning + platte-tekst-fallback.
+- Wikilink in minicursus B → `[[synthese-X]]`, en minicursus B bedt synthese-X in: anchor-link binnen pagina, correct gedrag.
+
+Samengevat: **"synthese-skip" betekent uitsluitend dat er geen losse pagina gerenderd wordt** — niet dat het record verwijderd of geblokkeerd wordt voor andere consumers. De synthese leeft als data-record en als ingebedde minicursus-sectie, niet als zelfdragend referentie-document.
 
 #### Implicatie 3 — Minicursus mag parafraseren (glue-prompt v3)
 
