@@ -4,191 +4,178 @@ _Centrale inhoudsopgave van openstaand werk, geordend per afhankelijkheid._
 _Voor de gedetailleerde issues: zie de gelinkte bronbestanden — dit document
 houdt het overzicht, geen content-duplicatie._
 
-**Laatste update**: 2026-05-17 (na refresh-gate + CBN-fix)
+**Laatste update**: 2026-05-18 (na schema 1.5-rollout + EXTRACT v4-pilots op PO 1.5)
 
 ## Logica van de volgorde
 
-Elke laag bouwt op de vorige. Wat we niet eerst stabiliseren, slepen we als
-zwakte mee in de bovenliggende lagen:
-
 ```
-1. Bronnen-laag    →  2. Records-laag    →  3. Render-template  →  4. PO-rollout
-   (C1, C2)           (E1, A1-A4)            (D1)                   (B1, B2, B3)
+1. Infrastructuur (records-API + matches-store + content-sync)  [klaar]
+   ↓
+2. Schema 1.5 + EXTRACT v4-prompt                                [klaar]
+   ↓
+3. PO 1.x content-review via EXTRACT v4 + VERIFY-feedback-loop  [in uitvoering: PO 1.5 wave 1]
+   ↓
+4. Bronnen-laag uitbreiden (1.1 ETL-fix + 1.2 fiscale gidsen)   [pending]
+   ↓
+5. Andere PO's uitrollen (3.0, 4.0, 2.x)                         [pending]
+   ↓
+6. Render-laag-revisie (ADR-010): minicursus als primair         [pending]
 ```
-
-Daarna polish (5) en continu onderhoud (6).
 
 ---
 
-## Fase 1 — Bronnen-laag compleet maken
+## Fase 1 — Infrastructuur (klaar — 2026-05-18)
 
-Blokkeert PO-rollout voor fiscaliteit (2.x) en deontologie (4.0). PO 3.0
-(vennootschapsrecht) zou ook al kunnen — daar is geen bronnen-blokkade — maar
-de records-fundering (Fase 2) profiteert ook deze PO. Dus: eerst basis stabiel.
+✅ **records-API** (ADR-019) — atomair disk + concept-RAG + content-fiche-render. Pre-commit parity-hook. 35 tests groen.
+- Cold-start timeout (60s eerste call) + ghost-recovery + orphan-management
+- Idempotent daemon-endpoints documented
 
-### 1.1 — Wet-beroepskwalificaties-2008 — ETL-fix
+✅ **Matches-store** (ADR-005 §9.1) — `data/extractie/matches.sqlite3` met state-fingerprints (`chunk_sha`, `anchor_vector_hash`). Delta-driven matching ipv volledige N×M-rebuild.
+
+✅ **Embedding-daemon** (ADR-018) — LaunchAgent met `/health`, `/index-concept`, `/delete-concept`, `/duplicate-check`, `/embed`, `/refresh` endpoints.
+
+---
+
+## Fase 2 — Schema 1.5 + EXTRACT v4 (klaar — 2026-05-18)
+
+✅ **Schema 1.5** (ADR-007) — 6 node_types (`begrip` / `regel` / `cluster` / `synthese` / `autoriteit` / `competentie`), 7 canonieke edge-types, drie concretiserings-velden (`in_praktijk` / `voorbeelden` / `illustraties`) multi-niveau.
+
+✅ **Migratie 1.4 → 1.5** — 345 records mechanisch gemigreerd (Phase A + A++). 85 competenties van YAML naar JSON-records. Totaal 430 records, alle schema 1.5.
+
+✅ **EXTRACT v4-prompt** (`prompts/concept-extractie-v4.md`) — research-and-draft-agent met event-driven scope, gevalideerd via 6+ PO 1.5-pilots, 7+ patch-rondes (timeout-mitigatie, deprecated-edges, begrip-valkuilen, cijfer-consistentie, bron-verificatie, bestaansreden-test, reflectieve rijkheid, bron≠concept, multi-concept-smell, naming-conventie, impliciete-tegenhanger).
+
+✅ **VERIFY-prompt** uitgebreid met bron-als-concept + bestaansreden-test + compositie-naam-smell checks.
+
+✅ **concept-schrijfregels.md** geconsolideerd; `content-richtlijnen.md` uitgefaseerd.
+
+---
+
+## Fase 3 — PO 1.x content-review (in uitvoering, focus 1.5)
+
+EXTRACT v4 per anchor, centraal-first strategie. Records-API met orphan-management (delete + rename auto-cascadeert edges).
+
+### 3.1 — PO 1.5 wave 1 — Top-level anchors (centraal)
+
+Status 2026-05-18:
+
+- ✅ **1.5.I** — `richtlijn-2013-34-eu` (bron-record) → `eu-harmonisatie-jaarrekeningenrecht` (cluster, 5 bouwstenen). 5 records propageerden anchor.
+- ✅ **1.5.II** — `ifrs-verordening-1606-2002` endorsement-criteria + ARC. *Pre-patches; eventueel revisit met latest patches.*
+- ✅ **1.5.III** — `wijziging-boekhoudkundig-referentiestelsel` van procedure → cluster + hallucinatie-fix (delisting/jojo-claims verwijderd, scope tot statutair-only).
+- 🔄 **1.5.IV** — consolidatie-overkoepelend, 10 records — *Opus-agent loopt (2026-05-18 namiddag)*
+- ⏳ **1.5.V** — leasing-overkoepelend, 15 records
+- ⏳ **1.5.taak.1** — PO-taak, 4 records
+
+### 3.2 — PO 1.5 wave 2 — Sub-anchors
+
+- ✅ **1.5.IV.B** — IAS 1 cleanup (pre-patches; eventueel revisit)
+- ✅ **1.5.V.A** — impairment-IAS-36 stappen-structuur + illustraties
+- ✅ **1.5.V.C** — leasing-ifrs regel → cluster (sale-and-leaseback record toegevoegd)
+- ⏳ **1.5.IV.A** (1 record), **1.5.IV.C** (4 records, 1787-chunk bundle), **1.5.V.B**, **1.5.V.D**, **1.5.V.E**
+
+### 3.3 — Revisit-pass voor pre-patches anchors
+
+1.5.II + 1.5.III + 1.5.IV.B + 1.5.V.A + 1.5.V.C werden geëxtraheerd vóór de naming-conventie + reflectieve-rijkheid + impliciete-tegenhanger patches. Korte revisit om die toe te passen.
+
+### 3.4 — Daarna PO 1.6 t/m 1.9
+
+Idem strategie. Special case voor PO 1.6: `randvoorwaarden-controle` (huidig `voorgesteld:randvoorwaarden`) moet beslist worden — bouwsteen van `aanvaarden-audit-opdracht`-competentie of zelfstandige regel?
+
+### 3.5 — Touch-up PO 1.1-1.4
+
+Delta-rapport toont 135 HIGH-stale records in 1.1-1.4 (vooral 1.3 ratio-records met IFRS-9-bronnen). Lichter werk dan 1.5-1.9 omdat records al schema 1.4 deep-rewriten hadden, maar v4-prompt-bevindingen (bron-prefix, multi-concept-smell) moeten toegepast.
+
+---
+
+## Fase 4 — Bronnen-laag uitbreiden
+
+Blokkeert sommige PO-rollouts. Niet kritisch voor PO 1.x.
+
+### 4.1 — Wet-beroepskwalificaties-2008 — ETL-fix
 - Issue: `Art. N_WAALS_GEWEST`-varianten splitsen één artikel in twee secties.
-- Fix: extractor aanpassen om regio-varianten correct te merge'n.
 - Trigger voor: PO 4.0 (deontologie).
 
-### 1.2 — 8 fiscale gidsen — ETL-fixes (needs-rework)
-Narratieve type-3 PDFs, ETL-uitdagingen (TOC-residu, single-word-splitsing,
-ontbrekende heading-injectie, max-sectie-overschrijding). Per-bron rationale in `provenance.trust.rationale`.
+### 4.2 — 8 fiscale gidsen — ETL-fixes (needs-rework)
+Narratieve type-3 PDFs, ETL-uitdagingen. Trigger voor: PO 2.1-2.8 (fiscaliteit, 8 PO's).
 
-- `Almanak-BTW-2026.md`, `Almanak-VenB-2026.md`, `Belastingalmanak-2026.md`
-- `Cijfers-Tarieven-2026.md`
-- `belastinggids-aclvb-2025.md`, `fiscaal-memento-2025.md`
-- `toelichting-PB-2025-deel1-VG.md`, `toelichting-PB-2025-deel2.md`, `toelichting-VenB-2025.md`
-
-Trigger voor: PO 2.1-2.8 (fiscaliteit, 8 PO's).
-
-### 1.3 — Refresh-gate na elke trust-promotie
-Reflex die nu vastligt: `python3 -m tools.etl.refresh_rag_and_matches` na elke
-mutatie. Niet vergeten na 1.1 en 1.2.
+### 4.3 — Refresh-gate na elke trust-promotie (regel, al vastgelegd in ADR-005 §9.1)
 
 ---
 
-## Fase 2 — Records-laag stabiel maken (focus PO 1.x)
+## Fase 5 — Andere PO's uitrollen
 
-PO 1.5-1.9 records hebben gaten op primaire-bron-grondslag. Competenties +
-leerpaden + minicursussen erven die zwakte. Eerst herstellen vóór we PO's
-toevoegen die er via cross-PO concepten op steunen.
+Pas na Fase 3 + 4. Per PO: standaardproces via EXTRACT v4 per anchor.
 
-### 2.1 — Bestaande gaps verwerken (gaps.json afwerking)
-142 open issues (snapshot 2026-05-17):
-- 33× `edges.target-ontbreekt` (wikilink-doelen)
-- 29× `concept-gap` (records die ontbreken)
-- 20× `in_praktijk.ontbreekt`
-- 9× `records.overlappend-fenomeen`
-- 9× `stappen.onvolledig`
-- 8× `records.ontbreekt`
-- 6× `vergelijkingsparen.ontbreekt` / `vergelijkingsparen.target-ontbreekt`
-- 5× `bron-gap`
-- 3× `valkuilen.ontbreekt`
+### 5.1 — PO 3.0 — Vennootschapsrecht
+Primaire bronnen al trusted (WVV + KB-WVV-2019). Niet blocked door Fase 4.
 
-Verwerken via gestandaardiseerde ENRICH-cyclus (Opus-subagent, monotoon
-contract, append-only). Verbetert per-record kwaliteit én lost edges-graph op.
+### 5.2 — PO 4.0 — Deontologie
+Vereist Fase 4.1 (Wet-beroepskwalificaties). Primaire bronnen: IESBA-code + ITAA-normen (deels trusted).
 
-### 2.2 — PO 1.5 fabricated chunk-ids fixen (4 records)
-Subagent uit PO 1.5-doorloop verzon chunk-ids met `<filename>__sec_<sectie>`-
-patroon zonder validatie. 3 daarvan bestaan niet in chromaDB. Records die dit bevatten:
-- `bijzondere-waardevermindering-ias-36.json`
-- `ias-1-balans-presentatie.json`
-- `ifrs-16-lessee-vs-lessor-overzicht.json`
-- `leasing-ifrs.json`
-
-Fix: vervangen door echte chunk-ids tijdens 2.3 EXPAND-pass.
-
-### 2.3 — Records-strategie kiezen voor PO 1.5 + 1.6
-Drie opties (zie chat 2026-05-17 voor onderbouwing):
-- **EXPAND-only**: bestaande records behouden, alleen primaire-bron-refs toevoegen via ENRICH-pass. ~3-5 uur Opus.
-- **EXPAND + selectief overdoen**: records met `bron_gap` of fabricated chunk-ids opnieuw extracten. ~5-8 uur.
-- **Volledig herextract PO 1.5+1.6**: hoogste kwaliteit, ~8-12 uur.
-
-Diagnose-input: `data/extractie/delta-rapport.md` — 251 HIGH + 93 MED records met echte stale-impact.
-
-**Beslissing wacht op**: gebruiker.
-
-### 2.4 — Examenvragen-classificatie PO 1.5-1.9
-Check A van VERIFY werd geskipt voor deze PO's omdat
-`data/programma/examen_vragen/_programmaonderdeel_classificatie.json` deze PO's
-niet dekt. Classificatie-subagent draaien om examenvragen te koppelen aan
-PO-anchors. Maakt `> [!question]-` callouts mogelijk in minicursussen.
-
-### 2.5 — Cross-PO dedup 1.x
-Bekende overlaps:
-- `getrouw-beeld` × `getrouw-beeld-jaarrekening` (1.1 ↔ 1.3)
-- `jaarverslag` × `bestuursverslag` (1.2 ↔ 1.3)
-- 3-way `rechten-verplichtingen-buiten-balans` / `klasse-0-niet-in-balans` / `niet-in-balans-opgenomen-rechten-verplichtingen`
-- Vermoedelijk meer in 1.5-1.7-overlap zone.
+### 5.3 — PO 2.1 t/m 2.8 — Fiscaliteit (8 PO's)
+Vereist Fase 4.2 (8 fiscale gidsen). Volgorde binnen 2.x: nog te bepalen.
 
 ---
 
-## Fase 3 — Render-template upgrade
+## Fase 6 — Render-laag-revisie (ADR-010)
 
-Eenmalige template-aanpassing, propageert naar elke minicursus bij her-render.
-Beter dit doen vóór massale PO-rollout zodat alle nieuwe PO's de scherpere
-binding direct meekrijgen.
+Gepland, niet gestart. Doel: concept-fiches als **reference**, minicursus als **didactisch primair**. Schema 1.5-data (records + illustraties + voorbeelden + in_praktijk) is hier op afgestemd; render-laag moet volgen.
 
-### 3.1 — Minicursus: taken+doelstellingen-binding
-Spawned-task chip (2026-05-17): meer expliciete koppeling van minicursus-secties
-aan `programma.json` taken/doelstellingen voor scherpere studie-focus.
+### 6.1 — Bidirectionele edge-weergave bij rendering
+`A onderdeel-van B` → B-fiche toont *"bevat: A"*. Data-laag blijft één-richting; render leest beide kanten.
 
-Concreet:
-- Header-blok "Wat train je hier?" met taken + doelstellingen bullets
-- Per hoofdstuk een chip "→ taak 1.4.T.2, doelstelling 1.4.D.3"
-- Zelftoets-blok aan het eind per taak
+### 6.2 — Minicursus-architectuur als primair leerpad
+Concept-fiches naar achtergrond. Minicursus voor leerflow, fiche voor opzoek-werk + tutor-RAG.
 
-Status: chip beschikbaar in UI om aparte sessie te starten.
+### 6.3 — Studiemateriaal-schrijfregels (apart doc)
+Render-laag verdient eigen schrijfgids — concept-schrijfregels gaat over data-laag.
 
 ---
 
-## Fase 4 — PO-rollout (10 PO's nog)
+## Doorlopend — Onderhoud
 
-Pas hier starten als Fase 1+2+3 stabiel zijn. Per PO: standaardproces uit
-`docs/po-1.1-doorloop-prep.md`. Refresh-gate respecteren tussen PO's.
+### Bron-genaamde records (13 gesignaleerd, deels onderweg)
+Geïdentificeerd 2026-05-18:
+- ✅ `richtlijn-2013-34-eu` → `eu-harmonisatie-jaarrekeningenrecht` (1.5.I)
+- ⏳ `ifrs-verordening-1606-2002` → split in `verplichte-ifrs-eu-beursgenoteerden` + `endorsement-procedure-eu`
+- ⏳ `kb-wvv-uitvoering`, `wetboek-vennootschappen-verenigingen`, `wetboek-economisch-recht-boek-iii` — verspreiden over fenomenen
+- ⏳ 6 `ias-1-*` records — prefix-removal (regel 11 v4-prompt)
+- Andere `ias-*`, `ifrs-*`, `cbn-*` records — per-anchor evaluatie
 
-### 4.1 — PO 3.0 — Vennootschapsrecht
-- Primaire bronnen al trusted (WVV + KB-WVV-2019).
-- Niet blocked door Fase 1.
-- Lichte stale-risico (geen IFRS/ISA-relevant).
+### Multi-concept-smell records (27 gesignaleerd)
+Meeste competenties met "X en Y"-naming. Per-anchor beoordelen of écht splits.
 
-### 4.2 — PO 4.0 — Deontologie
-- **Vereist Fase 1.1** (Wet-beroepskwalificaties) eerst.
-- Primaire bronnen: IESBA-code + ITAA-normen (deels trusted).
+### 36 procedure-records — hercategorisatie
+Phase A heeft `procedure`-type behouden voor case-by-case Phase B. Hercategoriseren naar `cluster` of `competentie` per EXTRACT-touch.
 
-### 4.3 — PO 2.1 t/m 2.8 — Fiscaliteit (8 PO's)
-- **Vereist Fase 1.2** (8 fiscale gidsen) eerst.
-- Volgorde binnen 2.x: nog te bepalen (vermoedelijk 2.1 startpunt: directe belastingen NP).
+### `voorgesteld:randvoorwaarden` — 1 anomalie
+Bij PO 1.6 EXTRACT beslissen: bouwsteen van `aanvaarden-audit-opdracht`-competentie of zelfstandige regel?
 
----
+### ADR-017 bronnen-migratie (12/116 done)
+Eenvormig extract-schema. Backlog: 104 bronnen. Long-running achtergrond.
 
-## Fase 5 — Polish (nice-to-have)
-
-### 5.1 — NotebookLM-export: PO splitsen in podcast-eenheden
-Spawned-task chip (2026-05-17): grote PO's opdelen in ~10-15 min content-blokken
-voor 20-25 min podcasts.
-
-### 5.2 — Tutor-app reactivatie
-`tutor/app.py` bestaat (Streamlit). Was ooit overwogen als interactieve
-interface. Dormant.
+### Backup-tags archeology (8+ tags)
+Plus nieuwe: `backup/pre-schema-1.5-migration-2026-05-18`. Bij geen issue gedurende 30 dagen: tags verwijderbaar.
 
 ---
 
-## Continu — Onderhoud op de achtergrond
+## Open ADR-punten
 
-### 6.1 — ADR-017 bronnen-migratie (12/116 done)
-Eenvormig extract-schema. Backlog: 104 bronnen.
-
-### 6.2 — Backup-tags archeology (8 tags)
-Bij twijfel over verloren werk in cleanup-cyclus: `git checkout <tag>` om
-historische state te bekijken. Tags:
-- `backup/etl-tdd-fixes-2026-05-16-pre-cleanup`
-- `backup/experiment-bron-first-extractie-pre-cleanup`
-- `backup/hardcore-euclid-06385d-pre-cleanup`
-- `backup/isa-transformers-2026-05-17-pre-cleanup`
-- `backup/jovial-kirch-c0dc7f-pre-cleanup`
-- `backup/optimistic-fermat-af2960-pre-cleanup`
-- `backup/stoic-panini-65e9ae-pre-cleanup`
-- `backup/worktree-agent-adb888276d8792083-pre-cleanup`
-
-Bij geen issue gedurende 30 dagen: tags verwijderbaar.
-
-### 6.3 — Open punten in ADRs
-Verspreid over 10 ADRs in `docs/adr/`. Bekijken per ADR via `## Open punten`-secties. Voorbeelden:
-- ADR-008 §13.2: content-pattern-based VERIFY-checks (i.p.v. schema-veld-gebonden)
-- ADR-005 §refresh-gate (NIEUW): wachten op cross-PO impact in praktijk
+- **ADR-008 §13.2**: content-pattern-based VERIFY-checks (open punt sinds 2026-05-15)
+- **ADR-008 §18.7** open punten: coordinator-pattern, sub-agent eigenaarschap voor verwijderingen, loop-limiet bij gap-events
+- **ADR-010**: revisie pending — concept-fiches als reference, minicursus als primair
+- **ADR-019**: `anchor_propagation_log` veld dat een 1.5.I-agent introduceerde — niet in schema 1.5 gedocumenteerd, te normaliseren
 
 ---
 
 ## Achtergrondinfo
 
-- **Memory-snapshots**: `memory/project_*.md` houdt per-onderwerp status (project_status, project_bronnen_competenties, project_examenpatronen, project_conceptmodel). Update na grote mijlpalen.
-- **Architectuur-fasering**: `docs/roadmap.md` toont Fase 0-5 indeling van het project zelf (architectuur-evolutie, niet werk-fasen zoals deze TODO).
+- **Memory-snapshots**: `memory/project_*.md` per onderwerp. Update na grote mijlpalen.
+- **Architectuur-fasering**: `docs/roadmap.md` toont architectuur-evolutie.
+- **Pilot-rapporten**: `/tmp/extract-v4-*-rapport.md`, `/tmp/verify-rapport-2026-05-18.md`, `/tmp/fix-extract-feedback-2026-05-18.md`, `/tmp/competentie-migration-rapport.md`, `/tmp/gap-mining-rapport.md`
 
 ## Onderhoud van deze TODO
 
-- **Nieuwe taak**: voeg toe aan correcte fase op basis van afhankelijkheid.
-- **Taak afgerond**: streep door + commit, of verwijder bij definitief klaar.
-- **Bij grote sessie-shifts**: actualiseer "laatste update" datum.
-- **Diepere details**: link naar `gaps.json` / `delta-rapport.md` / ADRs — niet inhoud kopiëren.
+- Nieuwe taak: voeg toe aan correcte fase.
+- Taak afgerond: streep door + commit, of verwijder bij definitief klaar.
+- Bij grote sessie-shifts: actualiseer "laatste update" datum.
+- Diepere details: link naar ADRs of pilot-rapporten — geen content-duplicatie.

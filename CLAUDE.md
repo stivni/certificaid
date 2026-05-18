@@ -6,7 +6,7 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 
 **Bij het examen beschikbaar**: ITAA-LEX (wettekstenbundel) + Cijferzakboekje (tarieven en bedragen). Wat getoetst wordt: concepten begrijpen, uitzonderingen herkennen, correct redeneren — niet cijfers uit het hoofd kennen.
 
-> **Status (2026-05-07)**: Architectuur herzien. Fase 0 (provenance-plumbing) is af; Fase 1 (Bronnen-ETL) is de volgende. Zie [`docs/roadmap.md`](docs/roadmap.md) voor fasering en DoD per fase, en [`docs/adr/INDEX.md`](docs/adr/INDEX.md) voor de 10 nieuwe ADRs (oude set in `docs/adr/archive/`).
+> **Status (2026-05-18)**: Infrastructuur staat. Schema 1.5 (6 node_types, 7 edges, drie concretiserings-velden) is uitgerold over alle 430 records (345 concepten + 85 competenties als unified records-API). EXTRACT v4 ([`prompts/concept-extractie-v4.md`](prompts/concept-extractie-v4.md)) is operationeel — research-and-draft-agent met event-driven scope. Centrale content-laag-pass loopt op PO 1.5 (eerste echte re-extract na schema 1.5-migratie). Records-API met orphan-management, content-sync, cold-start-mitigatie. 802 tests groen. Zie [`docs/TODO.md`](docs/TODO.md) voor exacte huidige fase + next steps en [`docs/adr/INDEX.md`](docs/adr/INDEX.md) voor architectuur-beslissingen.
 
 ---
 
@@ -15,7 +15,10 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 | Taak | Zie |
 |---|---|
 | Roadmap & fase-status | [`docs/roadmap.md`](docs/roadmap.md) |
-| Openstaand werk overzicht / TODO | [`docs/TODO.md`](docs/TODO.md) — Fase A (records 1.x) · B (PO-rollout) · C (bronnen) · D (render) · E (continu) |
+| Openstaand werk overzicht / TODO | [`docs/TODO.md`](docs/TODO.md) — Fase 3 (PO 1.x content-review, in uitvoering) · Fase 4 (Bronnen-uitbreiding) · Fase 5 (Andere PO's) · Fase 6 (Render-laag) |
+| Concept-record schrijven of bewerken (records-API) | [`tools/lib/records_api.py`](tools/lib/records_api.py) — `save_record` / `rename_record` / `delete_record` / `audit_parity`. Atomair disk + RAG + content. Pre-commit hook. ADR-019. |
+| EXTRACT v4-werk (concept-extractie) | Laad [`prompts/concept-extractie-v4.md`](prompts/concept-extractie-v4.md) in Opus-subagent + initial-ctx (anchor + records + bundle uit matches.sqlite3 + chunks) |
+| Daemon-status / restart | `curl localhost:8765/health` · `launchctl kickstart -k gui/$(id -u)/com.certificaid.embedding-daemon` |
 | Architectuurbeslissing opzoeken of toevoegen | [`docs/adr/INDEX.md`](docs/adr/INDEX.md) |
 | Bron toevoegen of verwerken | [`docs/bronnen-pipeline.md`](docs/bronnen-pipeline.md) *(legacy; ADR-005 bij Fase 1)* |
 | Bronnen-overzicht (type + trust-status per bron) | [`resources/bronnen/INDEX.md`](resources/bronnen/INDEX.md) — auto-gegenereerd via `python3 tools/lib/bronnen_index.py --force`; machine-leesbaar in `data/bronnen-index.json` |
