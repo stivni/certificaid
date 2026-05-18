@@ -2,7 +2,7 @@
 title: Leasing onder IFRS (IFRS 16) — lessee-perspectief
 tags:
 - concept
-- regel
+- cluster
 - po-1-5
 linked_anchors:
 - 1.5.V.C
@@ -10,7 +10,7 @@ linked_anchors:
 programmaonderdelen:
 - '1.5'
 confidence: grounded
-node_type: regel
+node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/leasing-ifrs.json
@@ -20,6 +20,8 @@ gegenereerd_op: '2026-05-18'
 
 > [!summary] Korte inhoud
 > IFRS 16 — Leaseovereenkomsten vervangt sinds 1 januari 2019 de oude IAS 17 en hanteert voor de **lessee** een **single model**: ALLE leases (boven de vrijstellingsdrempels) worden on-balance gezet.
+
+> [!info] Specialisatie van: [[leasing]]
 
 IFRS 16 — Leaseovereenkomsten vervangt sinds 1 januari 2019 de oude IAS 17 en hanteert voor de **lessee** een **single model**: ALLE leases (boven de vrijstellingsdrempels) worden on-balance gezet. Op de aanvangsdatum neemt de lessee twee posten op: (1) een **met een gebruiksrecht overeenstemmend actief** (right-of-use asset, ROU) en (2) een **leaseverplichting** voor de contante waarde van de nog te betalen leasebetalingen. Een leaseovereenkomst is een contract dat in ruil voor een vergoeding het recht verleent gedurende een bepaalde periode de zeggenschap over het gebruik van een geïdentificeerd actief uit te oefenen (alinea 9). Twee vrijstellingen (alinea 5): leaseovereenkomsten van korte duur (≤ 12 maanden) en leaseovereenkomsten voor activa met een lage waarde — beide mogen lineair als kost worden opgenomen. Voor de **lessor** blijft het dubbele model van IAS 17 grotendeels behouden: classificatie als operationele lease (actief blijft bij lessor) of financiële lease (vordering op netto-investering).
 
@@ -34,7 +36,6 @@ Het oude onderscheid uit IAS 17 tussen operationele lease (off-balance) en finan
 
 **Waarom?** Bedrijven met veel operationele lease (luchtvaart, retail, telecom) hadden onder IAS 17 een veel optisch sterkere balans dan bedrijven die activa kochten — beide leveren dezelfde economische situatie maar de balans verschilde drastisch. IFRS 16 elimineert die vertekening.
 
-**Voorbeeld**: Onder IAS 17 zou Zelena Bio's huurcontract voor de Antwerpse locatie alleen € 480.000 jaarlijkse huurlast tonen — geen activa, geen schulden. Onder IFRS 16 verschijnt € 3.894.000 ROU-actief én € 3.894.000 leaseverplichting in de balans. Debt/equity ratio stijgt zichtbaar.
 
 _Grondslag: IFRS 16 alinea 22 (vs. IAS 17)_
 
@@ -44,7 +45,6 @@ De kostprijs van het ROU-actief bestaat uit (alinea 24): (a) eerste waardering l
 
 **Waarom?** Het ROU-actief moet alle kosten weergeven die nodig waren om het gebruiksrecht te verwerven — niet alleen de contante waarde van toekomstige betalingen. Vooral incidentele installatie- of inrichtingskosten horen erbij.
 
-**Voorbeeld**: Zelena Bio's Antwerpse locatie: contante waarde toekomstige huur € 3.894.000 + sleutelgeld vooruitbetaald € 50.000 + advocatenkosten contractonderhandeling (initiële directe kosten) € 25.000 + geschatte ontmantelingskosten einde huur (verdisconteerd) € 80.000 = ROU-kostprijs € 4.049.000.
 
 _Grondslag: IFRS 16 alinea 23-24_
 
@@ -54,7 +54,6 @@ Bij eerste opname tegen de **contante waarde** van leasebetalingen die op aanvan
 
 **Waarom?** Een lange-termijn huurschuld moet gedisconteerd worden om vergelijkbaar te zijn met andere financieringsvormen. De impliciete rentevoet is theoretisch zuiver; de marginale rentevoet is een redelijke proxy als de impliciete onbekend is.
 
-**Voorbeeld**: Zelena Bio's Antwerpse huur: jaarlijkse betaling € 480.000 over 10 jaar; marginale rentevoet Zelena = 4%. Contante waarde annuïteit = € 480.000 × ((1 − (1,04)^−10) / 0,04) = € 480.000 × 8,1109 = € 3.893.232 ≈ € 3.894.000.
 
 _Grondslag: IFRS 16 alinea 26-27_
 
@@ -64,7 +63,6 @@ Onder IFRS 16 verschijnen TWEE lasten in winst of verlies: (a) **afschrijving RO
 
 **Waarom?** Onder IAS 17 stond er één 'huur'-last per periode. Onder IFRS 16 wordt die opgesplitst in afschrijving (operationeel) en rente (financieringskost) — analoog aan een gefinancierde aankoop. Eerste jaren hoger totale last door hogere rente; aflopend over de tijd.
 
-**Voorbeeld**: Zelena Bio jaar 1 (2026): afschrijving ROU € 480.000 (lineair € 4.800.000 / 10) + rentelast € 155.760 (4% × € 3.894.000) = € 635.760 totaal in W&V. Onder IAS 17 zou dit € 480.000 huur zijn. Verschil van € 155.760 reduceert na verloop van tijd.
 
 _Grondslag: IFRS 16 alinea 31, 38, 49_
 
@@ -74,7 +72,6 @@ Twee leases mogen volgens IAS 17-stijl lineair als kost worden opgenomen (off-ba
 
 **Waarom?** Voor zeer kortlopende of immateriële leases zou on-balance-opname disproportioneel veel administratie kosten zonder substantieel informatievoordeel.
 
-**Voorbeeld**: Zelena Bio least 80 kantoorlaptops (€ 1.200 per stuk, 36 maanden): on-balance (niet kortlopend, niet lage-waarde-uitzondering want dit zijn niet 'kleine kantoormeubelen' in de zin van IFRS 16, en de € 1.200 is onder maar de aard is niet typisch laag-waarde). Een huurlease van een kopieerapparaat aan € 200/maand voor 12 maanden: kortlopend → off-balance, lineair € 200/maand als kost.
 
 _Grondslag: IFRS 16 alinea 5-8 + B3-B8_
 
@@ -119,13 +116,16 @@ _Grondslag: IFRS 16 alinea 5-8 + B3-B8_
 
 
 
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+
 ## Bronnen
 
-[^1]: `IFRS-16-leaseovereenkomsten__sec_lessee`
-[^2]: `IFRS-16-leaseovereenkomsten__sec_opname`
-[^3]: `IFRS-16-leaseovereenkomsten__sec_waardering`
-[^4]: `IFRS-16-leaseovereenkomsten__sec_presentatie`
-[^5]: `IFRS-16-leaseovereenkomsten__sec_vrijstellingen-van-opname-alinea-s-b3-tot-en-met-b8`
-[^6]: `IFRS-16-leaseovereenkomsten__sec_lessor`
-[^7]: `CBN-2015-04-leasing__sec_algemene-principes`
-[^8]: `IFRS-16-leaseovereenkomsten__sec_leaseperiode-alinea-s-b34-tot-en-met-b41`
+[^1]: `IFRS-16-leaseovereenkomsten__sec_opname`
+[^2]: `IFRS-16-leaseovereenkomsten__sec_waardering`
+[^3]: `IFRS-16-leaseovereenkomsten__sec_vrijstellingen-van-opname-alinea-s-b3-tot-en-met-b8`
+[^4]: `IFRS-16-leaseovereenkomsten__sec_lessor`
+[^5]: `IFRS-16-leaseovereenkomsten__sec_lessee`
+[^6]: `CBN-2015-04-leasing__sec_algemene-principes`
+[^7]: `IFRS-16-leaseovereenkomsten__sec_leaseperiode-alinea-s-b34-tot-en-met-b41`
+[^8]: `IFRS-16-leaseovereenkomsten__sec_presentatie`
