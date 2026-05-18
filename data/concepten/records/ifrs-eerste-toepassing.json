@@ -9,7 +9,7 @@
     "1.5.IV"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T13:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.5.IV.A",
     "dekt_ook_anchors": [
@@ -370,6 +370,86 @@
       "van": "procedure",
       "naar": "cluster",
       "reden": "v4 §4 type-migratie (procedure → cluster: descriptief domein-object — applied-skill-zijde gedekt door competentie uitvoeren-eerste-toepassing-ifrs). §10 plaatsings-regel: stappen verplaatst naar berekeningsmethode[].stappen[]."
+    },
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18-1.5.IV.A",
+      "actie": "kernvelden-vervolledigd",
+      "reden": "v4 §10 cluster-kernvelden — definitie + in_praktijk toegevoegd voor stagiair-oriëntatie."
+    }
+  ],
+  "definitie": {
+    "text": "De **eerste toepassing van IFRS** is de eenmalige overgang waarbij een onderneming voor het eerst een jaarrekening uitbrengt met expliciete en onvoorwaardelijke verklaring van overeenstemming met de IFRSs. Op een vooraf bepaalde **datum van overgang naar IFRS** — de begindatum van de vergelijkende periode — stelt de onderneming een volledig IFRS-conforme openingsbalans op. Alle activa en verplichtingen worden geherwaardeerd, geherclassificeerd of opgenomen alsof IFRS altijd al gold; het verschil met de oude grondslagen wordt rechtstreeks in de ingehouden winsten geboekt.",
+    "confidence": "grounded",
+    "source": {
+      "type": "ifrs",
+      "short": "IFRS 1 alinea's 1-7"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_doel",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_opname-en-waardering",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Wanneer kom je dit tegen?",
+      "betekenis": "Bij een Belgische beursgenoteerde groep die voor het eerst een IFRS-geconsolideerde jaarrekening publiceert, bij een dochter die overstapt omdat de buitenlandse moeder IFRS rapporteert, of bij een onderneming die uit een IFRS-stelsel terugkeert naar BE-GAAP en later opnieuw overstapt.",
+      "confidence": "inferred",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_toepassingsgebied",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Wat is de drie-perioden-presentatie?",
+      "betekenis": "De eerste IFRS-jaarrekening toont drie balansen: de IFRS-openingsbalans op de overgangsdatum, de balans op het einde van de vergelijkende periode, en de balans op het einde van de eerste IFRS-verslagperiode. Voor een onderneming met boekjaar dat eindigt op 31 december 2027 betekent dat: balans 1 januari 2026 + balans 31 december 2026 + balans 31 december 2027.",
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 40A"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_presentatie-en-informatieverschaffing",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Waarom rechtstreeks in ingehouden winsten?",
+      "betekenis": "Het aanpassingsverschil tussen BE-GAAP en IFRS weerspiegelt feiten van vóór de overgangsdatum — vaak meerdere boekjaren oud. Het opvoeren via de winst-en-verliesrekening van het overgangsjaar zou dat ene jaar onterecht belasten of bevoordelen met correcties die over verschillende voorgaande jaren slaan.",
+      "confidence": "grounded",
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 1 alinea 11"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_opname-en-waardering",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ]
 }

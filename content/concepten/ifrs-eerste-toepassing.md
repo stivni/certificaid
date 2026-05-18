@@ -19,11 +19,11 @@ gegenereerd_op: '2026-05-18'
 # Eerste toepassing van IFRS (IFRS 1) ⚖️
 
 > [!summary] Korte inhoud
-> IFRS 1 — Eerste toepassing van International Financial Reporting Standards (IFRSs) bepaalt hoe een entiteit die voor het eerst een jaarrekening volledig conform IFRS uitbrengt, de overgang van haar oude grondslagen (typisch Belgisch GAAP / KB WVV) naar IFRS uitvoert.
+> De **eerste toepassing van IFRS** is de eenmalige overgang waarbij een onderneming voor het eerst een jaarrekening uitbrengt met expliciete en onvoorwaardelijke verklaring van overeenstemming met de IFRSs.
 
-IFRS 1 — Eerste toepassing van International Financial Reporting Standards (IFRSs) bepaalt hoe een entiteit die voor het eerst een jaarrekening volledig conform IFRS uitbrengt, de overgang van haar oude grondslagen (typisch Belgisch GAAP / KB WVV) naar IFRS uitvoert. Het doel is dat de eerste IFRS-jaarrekening: (a) transparant is en vergelijkbaar over verslagperioden, (b) een geschikt uitgangspunt vormt voor toekomstige IFRS-verslaggeving, en (c) wordt opgesteld tegen kosten die de voordelen niet overtreffen. Centraal staat de **datum van overgang naar IFRS**: dat is de begindatum van de eerste vergelijkende periode in de eerste IFRS-jaarrekening. Op die datum stelt de entiteit een **IFRS-openingsoverzicht van de financiële positie** op — alle activa en verplichtingen volgens IFRS-criteria geherwaardeerd, herclassificeerd of opgenomen, met aanpassingsverschil rechtstreeks in de ingehouden winsten.
+De **eerste toepassing van IFRS** is de eenmalige overgang waarbij een onderneming voor het eerst een jaarrekening uitbrengt met expliciete en onvoorwaardelijke verklaring van overeenstemming met de IFRSs. Op een vooraf bepaalde **datum van overgang naar IFRS** — de begindatum van de vergelijkende periode — stelt de onderneming een volledig IFRS-conforme openingsbalans op. Alle activa en verplichtingen worden geherwaardeerd, geherclassificeerd of opgenomen alsof IFRS altijd al gold; het verschil met de oude grondslagen wordt rechtstreeks in de ingehouden winsten geboekt.
 
-_Bron: IFRS 1 alinea's 1-12_
+_Bron: IFRS 1 alinea's 1-7_
 
 
 ## Berekening
@@ -158,6 +158,24 @@ Vermeld in de eerste IFRS-jaarrekening: (a) aansluiting tussen BE-GAAP- en IFRS-
 **Grondslag**: IFRS 1 alinea's 23-25 (toelichting en aansluitingen)
 
 
+## In de praktijk
+
+<h3 id="wanneer-kom-je-dit-tegen">Wanneer kom je dit tegen?</h3>
+
+> [!tip]- Wanneer kom je dit tegen?
+> Bij een Belgische beursgenoteerde groep die voor het eerst een IFRS-geconsolideerde jaarrekening publiceert, bij een dochter die overstapt omdat de buitenlandse moeder IFRS rapporteert, of bij een onderneming die uit een IFRS-stelsel terugkeert naar BE-GAAP en later opnieuw overstapt. 🤖
+
+<h3 id="wat-is-de-drie-perioden-presentatie">Wat is de drie-perioden-presentatie?</h3>
+
+> [!tip]- Wat is de drie-perioden-presentatie?
+> De eerste IFRS-jaarrekening toont drie balansen: de IFRS-openingsbalans op de overgangsdatum, de balans op het einde van de vergelijkende periode, en de balans op het einde van de eerste IFRS-verslagperiode. Voor een onderneming met boekjaar dat eindigt op 31 december 2027 betekent dat: balans 1 januari 2026 + balans 31 december 2026 + balans 31 december 2027. ⚖️
+
+<h3 id="waarom-rechtstreeks-in-ingehouden-winsten">Waarom rechtstreeks in ingehouden winsten?</h3>
+
+> [!tip]- Waarom rechtstreeks in ingehouden winsten?
+> Het aanpassingsverschil tussen BE-GAAP en IFRS weerspiegelt feiten van vóór de overgangsdatum — vaak meerdere boekjaren oud. Het opvoeren via de winst-en-verliesrekening van het overgangsjaar zou dat ene jaar onterecht belasten of bevoordelen met correcties die over verschillende voorgaande jaren slaan. ⚖️
+
+
 ## Tijdlijn
 
 | Stap | Termijn | Actor | Actie |
@@ -201,3 +219,4 @@ Vermeld in de eerste IFRS-jaarrekening: (a) aansluiting tussen BE-GAAP- en IFRS-
 [^2]: `IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_presentatie-en-informatieverschaffing`
 [^3]: `IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_doel`
 [^4]: `EU-IFRS-verordening-1606-2002__art_1`
+[^5]: `IFRS-1-eerste-toepassing-van-international-financial-reporting-standards__sec_toepassingsgebied`
