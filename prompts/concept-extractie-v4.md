@@ -269,7 +269,9 @@ Cross-record relaties schrijf je als getypeerde edges op de **bron-node** (de no
 | `uitzondering-op` | Exception op een hoofdregel | `scope` | "Uitzondering op X" onder TL;DR |
 | `verwijst-naar` | Generieke catch-all als geen specifiek type past | — | "Zie ook" onderaan |
 
-**Gedeprecieerde types** (niet meer schrijven): `bevat` (gebruik inverse `onderdeel-van`), `contrasteert-met` (gebruik `vergelijkt-met` met `aspect`-facet), `vervangt`, `van-toepassing-op`, `alternatief-voor`.
+**Gedeprecieerde types** (niet meer schrijven): `bevat` (gebruik inverse `onderdeel-van`), `contrasteert-with` (gebruik `vergelijkt-met` met `aspect`-facet), `vervangt`, `van-toepassing-op`, `alternatief-voor`.
+
+**Bij elke update van een bestaand record**: corrigeer gedeprecieerde edges naar de canonieke set vóór save. Dit is geen optionele cleanup — model neemt bestaande edges over en houdt zo legacy in stand. Concreet: lees alle `edges[].type` van het record-in-werking; voor elke gedeprecieerde type, ofwel (a) zet hem om naar het canonieke equivalent (`bevat` → inverse `onderdeel-van` op target-record — alleen schrijven indien target-record dit niet al heeft, anders gewoon verwijderen op bron), ofwel (b) verwijder hem als de relatie al elders is geregistreerd. VERIFY-pass markeert overgebleven deprecated-edges als HIGH-prio bevinding.
 
 **Verschil edges vs vergelijkingsparen**:
 - `vergelijkingsparen[]` — alleen voor paren met écht verwarring-risico: de stagiair kan in een examensituatie kiezen tussen X en Y. Bevat `verschil` + `trigger`.
@@ -290,7 +292,7 @@ Uniforme rijkheid binnen type is verplicht (zie gap-mining-pattern 2 en 5). Gebr
 
 | node_type | Verplicht (als bron-bundle het ondersteunt) | Minimum voorbeeld | Sterk aanbevolen |
 |---|---|---|---|
-| **begrip** | `definitie` | ≥ 1 `voorbeelden[{vorm: eenvoudig}]` op record-niveau of in bouwsteen | `in_praktijk[]`, `vergelijkingsparen[]`, `valkuilen[]` |
+| **begrip** | `definitie` + (`valkuilen[]` met ≥ 1 item **indien bron-aanwijzingen aanwezig** voor een typische redeneerfout of praktijkfout) | ≥ 1 `voorbeelden[{vorm: eenvoudig}]` op record-niveau of in bouwsteen | `in_praktijk[]`, `vergelijkingsparen[]` |
 | **regel** | `main_rule` of `verplichting` | ≥ 1 `voorbeelden[]` met concrete cliëntsituatie | `uitzonderingen[]`, `voorwaarden[]`, `vergelijkingsparen[]`, `drempelwaarden[]` |
 | **cluster** | `definitie` of `doel`, `bouwstenen[]` of `berekeningsmethode[]` | EEN van: (a) `berekeningsmethode[].formules[].invulling_voorbeeld`, (b) ≥ 1 stap met `voorbeeld.substappen[]`, (c) ≥ 1 `voorbeelden[{vorm: scenario}]` op record-niveau met inline `illustraties[]` (boeking, balans-fragment, ...). Procedurele clusters zonder formule kiezen voor (b) of (c). | `in_praktijk[]`, `vergelijkingsparen[]` |
 | **synthese** | `gebaseerd_op_concepten[]` (≥ 3), één van `vergelijkingstabel`/`beslisboom` | ≥ 1 worked example in `vergelijkingstabel` of `beslisboom` | `kerninzichten[]` |
@@ -488,6 +490,7 @@ Werkwijze bij verouderde anchor:
 6. **Nieuwe records status `seed`**: `"status": "seed"` op alle nieuw geschreven records.
 7. **Bron-gaps signaleren, niet maskeren**: wanneer retrieval structureel tekortschiet (bv. chunking-artefact, ontbrekende primaire bron), schrijf een `bron-gap`-entry in `data/extractie/gaps.json` in plaats van te omzeilen.
 8. **Discrepantie-driven bron-verificatie**: wanneer een bestaand record een claim maakt die niet duidelijk klopt met de top-K-chunks die je hebt opgehaald — **lees de volledige bron-MD** uit `resources/bronnen/...` voor breder context, gebruik daarvoor een directe file-read of `grep -A 20 <pattern> <bestand>`. Doe dit ook proactief wanneer een record een complex regulatorisch onderwerp dekt (CBN-advies, ISA, IFRS-standaard) en je een belangrijke wijziging overweegt. Chunks zijn een retrieval-projectie; de bron-MD is de waarheid. Embeddings kunnen verkeerd ranken, chunkers kunnen secties verbergen — bij twijfel altijd terug naar de bron-tekst. Zonder deze stap dragen we mogelijk bestaande hallucinaties over.
+9. **Intra-record cijfer-consistentie**: wanneer een record meerdere voorbeelden/scenarios bevat met dezelfde fact-pattern (zelfde namen, zelfde uitgangsbedragen) — moeten de afgeleide cijfers tussen die voorbeelden **identiek** zijn. Voor elke `bouwsteen.voorbeelden[]` en `voorbeelden[]` op record-niveau die dezelfde basis-case behandelen: rekenkundig verifieer dat de afgeleide bedragen (boekwaardes, terugnemingen, balanssaldi) overeenkomen. Inconsistentie tussen voorbeelden van hetzelfde record = HIGH-prio fout (stagiair raakt verward). Bij verschillende fact-patterns: maak dat **expliciet** ("scenario A met aanschaffingswaarde 5.000, scenario B met 10.000") zodat geen verwarring ontstaat.
 
 Cross-bron-synthese: wanneer hetzelfde fenomeen in 2+ chunks uit 2+ bronnen wordt aangehaald, aggregeer tot één expliciete enumeratie of vergelijking met confidence `inferred-from-aggregation` en alle bijdragende chunk-ids in `_provenance.inputs`.
 
