@@ -80,6 +80,18 @@ Status 2026-05-18:
 
 Idem strategie. Special case voor PO 1.6: `randvoorwaarden-controle` (huidig `voorgesteld:randvoorwaarden`) moet beslist worden — bouwsteen van `aanvaarden-audit-opdracht`-competentie of zelfstandige regel?
 
+### 3.4b — Examenvragen-classificatie uitbreiden (BLOKKEERT VERIFY Check A)
+
+Status 2026-05-18: `_programmaonderdeel_classificatie.json` bevat **maar 5 vragen** (allemaal PO 1.4). Onze 5 EXTRACT v4-passes op PO 1.5 hadden dus **geen examen-vraag-input** bij VERIFY Check A — Check werd silently geskipt.
+
+5 examen-PDFs zijn al verwerkt (`data/programma/examen_vragen/<jaar>-N.json`) met labels. Wat ontbreekt:
+
+1. **Classificatie-subagent draaien** (instructies in `_classificatie-instructies.md`) om elke vraag aan een PO te koppelen. Verwacht: ~150+ extra classifications voor PO 1.1-1.9 + 2.x + 3.x + 4.0.
+2. **VERIFY-prompt-input bouwen**: voor elke EXTRACT v4-pass moet de orchestrator de relevante examen-vragen voor die PO meegeven als prompt-input. Geen ChromaDB-indexering nodig (VERIFY werkt op de prompt-input, niet via RAG).
+3. **Eventueel retrospectief VERIFY-pass** op de 5 al-gemuteerde PO 1.5-anchors zodra examen-classificatie er is.
+
+Blokkerend voor: échte v1.0-validatie van PO 1.5+ records.
+
 ### 3.5 — Touch-up PO 1.1-1.4
 
 Delta-rapport toont 135 HIGH-stale records in 1.1-1.4 (vooral 1.3 ratio-records met IFRS-9-bronnen). Lichter werk dan 1.5-1.9 omdat records al schema 1.4 deep-rewriten hadden, maar v4-prompt-bevindingen (bron-prefix, multi-concept-smell) moeten toegepast.
