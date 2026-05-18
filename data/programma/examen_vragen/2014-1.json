@@ -29,7 +29,9 @@
         "vennootschapsrecht",
         "reserves"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr2",
@@ -46,7 +48,9 @@
         "kapitaaloperaties",
         "financiële-begrippen"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr3",
@@ -87,24 +91,34 @@
         {
           "label": "a)",
           "tekst": "Wat gebeurt er met de in 1980 geboekte herwaarderingsmeerwaarde?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Welke zijn de mogelijke bestemmingen van deze herwaarderingsmeerwaarde?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Wat is het bedrag van de herwaarderingsmeerwaarde dat naar de reserves mag\nworden overgeboekt?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Wat zou er moeten gebeuren, indien de vennootschap haar octrooi niet verkocht had\nen in de plaats daarvan beslist had om op dezelfde datum van 15 december 2013 een\nherwaardering van 100.000 EUR te boeken?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr4",
@@ -133,14 +147,20 @@
         {
           "label": "a)",
           "tekst": "Welk bedrag zult u in de omzet opnemen (boeking op 5 februari 2014)?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Hoe worden de interest en het disconto uitgesplitst?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr5",
@@ -180,24 +200,34 @@
         {
           "label": "a)",
           "tekst": "Bruto toegevoegde waarde per werknemer",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Nettobedrijfskapitaal",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Nettorentabiliteit van het totaal der activa voor belastingen en financiële kosten",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Liquiditeit in enge zin",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr6",
@@ -228,14 +258,20 @@
         {
           "label": "a)",
           "tekst": "Omschrijf het begrip “nettothesaurie”.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Als u de nettothesaurie berekent en de uitkomst is positief, wat betekent dit dan ?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr7",
@@ -251,7 +287,9 @@
       "themas": [
         "consolidatie"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr8",
@@ -267,7 +305,9 @@
       "themas": [
         "consolidatie"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr9",
@@ -284,7 +324,9 @@
         "interne-controle",
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr10",
@@ -300,7 +342,9 @@
       "themas": [
         "interne-controle"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr11",
@@ -316,7 +360,9 @@
       "themas": [
         "interne-controle"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr12",
@@ -352,19 +398,27 @@
         {
           "label": "a)",
           "tekst": "Moeten we daarvoor een voorbehoud in ons verslag maken ?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Welke acties kan men ondernemen om aan dit onvoldoende aantal antwoorden te\nremediëren (geef twee voorbeelden)?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Welke is de werkwijze nadat we onze selectie hebben gemaakt van de klanten aan\ndewelke de confirmatiebrieven worden verzonden : door wie zijn de\nconfirmatiebrieven opgesteld en getekend, aan wie moeten de antwoorden\nopgestuurd worden, wie verzendt de confirmatiebrieven?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr13",
@@ -380,7 +434,9 @@
       "themas": [
         "auditopdracht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr14",
@@ -419,24 +475,34 @@
         {
           "label": "a)",
           "tekst": "Kunnen we onze controleopdracht op deze cijfers afhandelen en ons besluit\nondertekenen? Motiveer uw antwoord.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Wat is het belang, in het kader van deze opdracht, zoals hierboven beschreven,\nvan het vastleggen van de materialiteitsgrens?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "De vennootschap voor dewelke wij deze controleopdracht verrichten, heeft een\ndochterbedrijf via aandelen aangekocht voor 300.000 EUR (code 28). Hoe pak je\ndeze post aan ? Geef 2 controledoelstellingen en 2 controletechnieken die hier\nkunnen toegepast worden.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Gedurende deze controleopdracht, ga je een afloopcontrole uitvoeren op de post\n“bezoldigingen en sociale lasten” (passief codes 454/9) . Hoe voer je zo een\ncontrole uit, leg uit of werk een voorbeeld uit?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr15",
@@ -452,7 +518,9 @@
       "themas": [
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr16",
@@ -471,7 +539,9 @@
         "sociale-bijdragen",
         "reserves"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr17",
@@ -487,7 +557,9 @@
       "themas": [
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr18",
@@ -506,7 +578,9 @@
         "sociale-bijdragen",
         "reserves"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr19",
@@ -522,7 +596,9 @@
       "themas": [
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr20",
@@ -541,7 +617,9 @@
         "vennootschapsrecht",
         "continuiteitsbeginsel"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr21",
@@ -574,14 +652,20 @@
         {
           "label": "a)",
           "tekst": "Formuleer het besluit van het controleverslag. Welke berekening dien je te maken?\nGeef de gecorrigeerde balans?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Kan deze omzetting doorgaan? Motiveer uw antwoord.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr22",
@@ -597,7 +681,9 @@
       "themas": [
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr23",
@@ -613,7 +699,9 @@
       "themas": [
         "personenbelasting"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr24",
@@ -629,7 +717,9 @@
       "themas": [
         "personenbelasting"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr25",
@@ -645,7 +735,9 @@
       "themas": [
         "personenbelasting"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr26",
@@ -662,7 +754,9 @@
         "immateriële-vaste-activa",
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr27",
@@ -679,7 +773,9 @@
         "onderhoudsuitkering",
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr28",
@@ -716,19 +812,27 @@
         {
           "label": "a)",
           "tekst": "Bereken de fiscale meerwaarde die in aanmerking komt voor gespreide taxatie.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "De vennootschap heeft de meerwaarde verwerkt als gespreide taxatie in haar\njaarrekening.\nWelke bedragen van de gespreide meerwaarde zullen in de jaarrekening van 31\ndecember 2012 overgeboekt worden naar de resultatenrekeningen als onttrekking?\nU dient rekening te houden met een belastingtarief van 33,99 %.\nGeef een detail van uw berekening.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Welk bedrag zal in de aangifte vennootschapsbelasting aanslagjaar 2013 ingevuld\nworden in het vak vrijgestelde reserves als gespreid te belasten meerwaarde?\nGeef een detail van uw berekening.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr29",
@@ -763,14 +867,20 @@
         {
           "label": "a)",
           "tekst": "Bepaal de verworpen uitgaven op basis van deze gegevens met een korte\nverantwoording.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Hoeveel bedraagt het fiscaal gestort kapitaal van de vennootschap op 31 december\n2012?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr30",
@@ -786,7 +896,9 @@
       "themas": [
         "btw-plaatsbepaling"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr31",
@@ -802,7 +914,9 @@
       "themas": [
         "btw-bijzondere-regelingen"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr32",
@@ -818,7 +932,9 @@
       "themas": [
         "personenbelasting"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr33",
@@ -832,7 +948,9 @@
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr34",
@@ -846,7 +964,9 @@
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr35",
@@ -862,7 +982,9 @@
       "themas": [
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr36",
@@ -878,7 +1000,9 @@
       "themas": [
         "successierechten"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr37",
@@ -909,14 +1033,20 @@
         {
           "label": "a)",
           "tekst": "Is dat juist: ja of neen?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Verklaar uw antwoord op grond van de beginselen van de door de OESO ontwikkelde\nbilaterale modelovereenkomst tot het vermijden van dubbele belasting.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr38",
@@ -949,14 +1079,20 @@
         {
           "label": "a)",
           "tekst": "Zullen die fiscale verliezen kunnen worden afgetrokken van de na de fusie\nverwezenlijkte winsten:",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Verklaar uw antwoord op grond van de op deze toestand toepasselijke beginselen en\nverwijs naar de toepasselijke bepaling van Richtlijn 2009/133/EG van de Raad van 19\noktober 2009 voor fusies, splitsingen, enz. met betrekking tot vennootschappen uit de\nEuropese Unie (volgens de erin vastgestelde voorwaarden).",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr39",
@@ -992,19 +1128,27 @@
         {
           "label": "a)",
           "tekst": "Is deze vraag om inlichtingen regelmatig voor wat de aard van de gevraagde\ninlichtingen betreft (verklaar uw antwoord)?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Is de antwoordtermijn wettelijk (verklaar uw antwoord)?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Hoe moet tewerk gegaan worden om binnen de gestelde termijn te antwoorden,\naangezien het, momenteel, niet mogelijk is om de vereiste stukken te raadplegen\n(verklaar uw antwoord)?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr40",
@@ -1044,24 +1188,34 @@
         {
           "label": "a)",
           "tekst": "Met betrekking tot de roerende voorheffing, kan enkel de schuldenaar van de\nvoorheffing (degene die de voorheffing moet inhouden) een bezwaarschrift indienen.\nDe verkrijger van de inkomsten waarop de voorheffing werd ingehouden, kan dit recht\nniet uitoefenen.\nWaar\nNiet waar",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Wanneer de belastingplichtige ambtshalve is aangeslagen en de directeur zes\nmaanden na ontvangst van het bezwaarschrift nog geen beslissing heeft genomen,\nkan de belastingplichtige het geschil, te allen tijde, voor de rechtbank van eerste\naanleg brengen.\nWaar\nNiet waar",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Indien een belastingplichtige overlijdt en twee kinderen nalaat, en slechts één van die\nkinderen bezwaar indient tegen de ten name van de overledene gevestigde belasting,\ngeldt zijn bezwaarschrift voor het geheel van de aanslag en voor alle erfgenamen\nsamen.\nWaar\nNiet waar",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "De echtgescheiden echtgenoot heeft de mogelijkheid om bezwaar in te dienen tegen\neen aanslag die betrekking heeft op een aanslagjaar voor de uitspraak van de\nechtscheiding, zelfs indien de andere echtgenoot dit niet heeft gedaan, maar wel op\nvoorwaarde dat de belasting op de goederen van de indiener van het bezwaarschrift\nwordt ingevorderd.\nWaar\nNiet waar",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr41",
@@ -1077,7 +1231,9 @@
       "themas": [
         "fiscale-procedure"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr42",
@@ -1110,14 +1266,20 @@
         {
           "label": "a)",
           "tekst": "Er wordt aangekondigd om een controle te doen in verband met de toepassing van de\nantiwitwaswetgeving",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Er wordt een klacht neergelegd door een confrater in verband met het niet of onvolledig\noverdragen van een dossier.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr43",
@@ -1156,24 +1318,34 @@
         {
           "label": "a)",
           "tekst": "Hij toont u een overzicht van openstaande facturen bij uw voorganger en een kopij van een\noverschrijving voor het globale bedrag om alzo aan te tonen dat alle schulden werden\nvoldaan aan uw voorganger en deelt u dan ook mee dat het niet meer nodig is om uw collega\nte contacteren.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Gezien het 15 april is vraagt hij u om onmiddellijk te starten met het boeken van het eerste\nkwartaal van zijn boekjaar zodat de BTW-aangifte tijdig kan ingediend worden en hij tijdig zijn\nBTW – schuld kan voldoen.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Hij vertelt u dat zijn keuze op uw kantoor is gevallen omdat u op uw site een vergelijking\nheeft gemaakt van de door u aangerekende uurlonen in vergelijking met uw collega’s in de\nbuurt en als goedkoopste uit deze vergelijking komt.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Tijdens jullie gesprek laat u ook weten dat u zetelt in verschillende commissies binnen het\nInstituut en daardoor soms sneller op de hoogte bent van bepaalde wijzigingen.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr44",
@@ -1209,19 +1381,27 @@
         {
           "label": "a)",
           "tekst": "Een middelenvennootschappen kan enkel opgericht worden met confraters IAB.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "De stemrechten van een professionele vennootschap mogen niet aangehouden worden\ndoor een belangengroepering die de uitoefening van het beroep in gedrang brengt.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Wanneer de professionele vennootschap, een vennootschap heeft als zaakvoerder, dan\ndient deze vennootschap vertegenwoordigd te worden door een natuurlijk persoon\naccountant en/of belastingconsulent.\nJuist\nFout\nd)Stagiairs accountant/belastingconsulent mogen nooit zaakvoerder zijn van een\nprofessionele vennootschap.\nJuist\nFout\ne)Indien er slechts twee zaakvoerders/bestuurders zijn moeten deze allebei lid zijn van het\nIAB.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr45",
@@ -1257,19 +1437,27 @@
         {
           "label": "a)",
           "tekst": "Mits voorafgaande toestemming van de Raad kan een bestuursmandaat worden\nopgenomen in een commerciële vennootschap.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Mits voorafgaande toestemming kan hij een mandaat als onafhankelijke of externe\nbestuurder vervullen in een vennootschap, waarin zijn of haar echtgeno(o)t(e) stemrechten\nheeft.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "De interne accountant en/of belastingconsulent valt niet onder de onafhankelijkheids-\nverplichtingen gezien hij gebonden is door een arbeidsovereenkomst en dus steeds de\nopdrachten van zijn werkgever moet volgen.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2014-1-vr46",
@@ -1310,29 +1498,42 @@
         {
           "label": "a)",
           "tekst": "U kan deze opdracht aanvaarden gezien er, buiten het feit dat u in dezelfde gemeente\ngevestigd is, verder geen enkele link is tussen uw kantoor en het kantoor van uw confrater.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "U kan de opdrachtgevende klant bijstaan bij het opmaken van de staat van activa en\npassiva.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Door de uitvoering van deze opdracht heeft de opdrachtgevende klant de beslissing\ngenomen om zijn dossier onmiddellijk na de omvorming aan uw kantoor toe te vertrouwen,\nwaarin u kan toestemmen.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Het verslag dat u heeft opgemaakt moet ter beschikking gehouden worden van het\nInstituut en moet onmiddellijk worden overgemaakt op het ogenblik dat dit gevraagd wordt.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "e)",
           "tekst": "Uw confrater, heeft met kennis van zaken een volledig dossier aangemaakt met betrekking\ntot de omvorming. Gezien deze voorbereidende werkzaamheden beslist u om zelf geen\ndossier aan te leggen en vraagt u uw confrater het dossier ter beschikking te houden indien\nnodig voor een controle door het Instituut.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     }
-  ]
+  ],
+  "representativiteit_tier": "B"
 }

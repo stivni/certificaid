@@ -7,6 +7,8 @@
 | 2014-1.pdf | 2014 | 1 | 1.1, 1.2, 1.3, 1.4, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 3.1, 3.2, 4.0 | MC, open, berekening, J/F | kapitaalverhoging, herwaarderingsmeerwaarden, interimdividend, confirmatiebrieven, materialiteitsgrens, omzetting NV→BVBA, gespreide taxatie meerwaarde gebouw, thin cap / verworpen intrest, kwaliteitstoetsing AWW, samenwerkingsverbanden |
 | 2015_1_-_bekwaamheidsexamen_ac_1.pdf | 2015 | 1 | 1.1, 1.2, 1.3, 1.4, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 3.1, 3.2, 4.0 | MC (volledig) | FIFO-waardering, voorzieningen brugpensioen, werkkapitaalbehoefte, consolidatieverschillen, omzetting controleopdracht, alarmbelprocedure, DBI-aftrek transfer pricing, voordeel alle aard bedrijfsleider, btw verkoop woning toevallige BP, contantengrens |
 | Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf | 2024 | 1 | 1.2, 1.3, 1.4, 2.1, 2.2, 2.3, 2.5, 2.6, 3.1, 3.2, 4.0 | MC, J/F, berekening | WVV (BV/CV/NV), liquidatietest, IFRS (IAS, leasing), M-D fusie fiscaal, overdraagbare verliezen, contantengrens, UBO-register, AMLCO, btw margeregeling, VAT Refund, fiscale procedure verjaringstermijnen |
+| 2003-bibf.pdf | 2003 | 1 (BIBF) | 1.1, 1.2, 1.9, 2.2, 2.3, 2.4, 2.5, 2.6, 3.0, 4.0 (+ buiten programma: accijnzen, arbeidsrecht) | open, berekening, MC, J/F | kapitaalsubsidies, voorraadwaardering, ratio's, BTW-aftrek, bedrijfsleider-bezoldiging, VennB-aangifte, omzetting eenmanszaak→BVBA, alarmbelprocedure, dossieroverdracht confraters |
+| 2008-bibf.pdf | 2008 | 1 (BIBF) | 1.1, 1.2, 1.4, 1.6, 1.9, 2.2, 2.3, 2.4, 2.5, 2.6, 3.0, 4.0 (+ buiten programma: arbeidsrecht) | open, berekening, MC | voorraadwijzigingen, oprichtingskosten, deelnemingen verbonden ondernemingen, behoefte aan bedrijfskapitaal, BTW-eenheid, woonbonus, dienstencheques, notionele intrestaftrek, schenkingsrechten, toegestaan kapitaal, ronselen-verbod, boekhoudvennootschap (**MÉT modelantwoorden**) |
 
 ---
 
@@ -194,27 +196,123 @@
 
 ---
 
+### 2003-bibf — `2003-bibf.pdf`
+
+> **BIBF-examen** voor erkende boekhouders / boekhouders-fiscalisten BIBF (KB 20/01/2003). BIBF werd in 2019 geabsorbeerd door ITAA. Inhoud kan verouderd zijn (oude WIB / pre-WVV vennootschapsrecht); blijft representatief voor **bevragingsstijl**.
+>
+> **Geen modelantwoorden** in deze PDF.
+
+**Totaal**: 100 punten (3 deeldomeinen: Boekhouding 35 + Fiscaliteit 35 + Vennootschapsrecht 30)
+
+**POs bevraagd** (na inhoudelijke classificatie naar ITAA-programma 2024):
+- 1.1 Algemene boekhouding (13,5 pt)
+- 1.2 Boekhoudrecht (14 pt)
+- 1.9 Financiële analyse (5 pt)
+- 2.2 Personenbelasting (10 pt)
+- 2.3 Vennootschapsbelasting (10 pt)
+- 2.4 BTW (12,5 pt)
+- 2.5 Fiscale procedure (5 pt)
+- 2.6 Registratie- en successierechten (5,5 pt)
+- 3.0 Vennootschapsrecht en insolventiewetgeving (12,5 pt)
+- 4.0 Deontologie (5 pt)
+- *Buiten ITAA-programma 2024*: douane/accijnzen (2 pt), arbeids- en sociaal zekerheidsrecht (5 pt) = **7 pt buiten programma**
+
+**Vraagtypen**: open (motiveer / bereken / geef X elementen) — 16 / berekening — 7 / J/F — 3 / MC — 2
+
+**Thema's per BIBF-sectie**:
+- **A. Algemene boekhouding**: afsluitingsboekingen kapitaalsubsidies; voorraadwaardering + waardevermindering handelsgoederen
+- **B. Boekhoudrecht + analyse**: vereenvoudigde boekhouding; centraal boek; voorwaarden herwaardering activa; inrichtingskosten gehuurde gebouwen; toelichting kapitaalsubsidies
+- **C. Financieel beheer**: netto bedrijfskapitaal / liquiditeitsratio's / solvabiliteit; operationele cashflow
+- **D. Organisatie boekhouding**: administratieve organisatie BTW-belastingplichtige (taverne); BTW-voorschotten + bewaarplicht (schrijnwerker)
+- **E. BTW**: recht op aftrek per type belastingplichtige; aftrekbare BTW (brandstof, geschenken, medecontractant, ICV); BTW verschuldigd J/F; uiterste data BTW-verplichtingen; dagboek ontvangsten
+- **F. Personenbelasting**: belastbare basis bedrijfsleider (Janssens — bezoldiging + sociale bijdrage + VAA auto + forfaitaire kosten + KI)
+- **G. Vennootschapsbelasting**: VennB-aangifte (BVBA Albert — DBI, verworpen uitgaven, liberaliteiten)
+- **H. Belastingprocedures**: BTW-regularisatie termijn; gevolgen laattijdige aangifte PB
+- **I. Vennootschapsrecht (+ douane/accijnzen)**: accijnzen ICV (buiten programma); omzetting eenmanszaak→BVBA + registratierechten; alarmbelprocedure; gevolgen geen neerlegging jaarrekening NBB
+- **J. Arbeids- en sociaal zekerheidsrecht** *(buiten ITAA-programma)*: regularisatie sociale bijdragen; ontslagprocedure
+- **K. Plichtenleer**: overdracht dossier confraters BIBF; interberoepsrelaties IAB/IBR
+
+---
+
+### 2008-bibf — `2008-bibf.pdf`
+
+> **BIBF-examen** (KB 20/01/2003 gewijzigd bij KB 10/08/2005). BIBF werd in 2019 geabsorbeerd door ITAA. Inhoud kan verouderd zijn (pre-WVV; oude WIB-versies); blijft representatief voor **bevragingsstijl**.
+>
+> **MÉT modelantwoorden** — uniek t.o.v. andere examens. Direct bruikbaar als gemarkeerde voorbeeldvragen-met-antwoord in leerstof. 16 van 37 vragen hebben een afgebakende `Antwoord:`-sectie; bij de overige 21 zit het modelantwoord interleaved in `vraagtekst` (geen expliciete marker in PDF).
+
+**Totaal**: 100 punten (3 deeldomeinen: Boekhouding 40 + Fiscaliteit 35 + Vennootschapsrecht 25)
+*Punten per vraag zijn niet expliciet aangegeven in PDF — alleen sectie-totalen. Zie JSON `punten: null`.*
+
+**POs bevraagd** (na inhoudelijke classificatie, aantal vragen per PO):
+- 1.1 Algemene boekhouding (7) — 1.2 Boekhoudrecht (3) — 1.4 Consolidatie (2) — 1.6 Externe controle (1) — 1.9 Financiële analyse (2)
+- 2.2 Personenbelasting (7) — 2.3 Vennootschapsbelasting (1) — 2.4 BTW (5) — 2.5 Fiscale procedure (2) — 2.6 Registratie/successierechten (1)
+- 3.0 Vennootschapsrecht (5)
+- 4.0 Deontologie (5)
+- *Buiten ITAA-programma 2024*: arbeidsrecht (1 vraag: ontslag dringende reden)
+
+**Vraagtypen**: open — 25 / berekening — 9 / MC — 3
+
+**Thema's per BIBF-sectie**:
+- **A. Algemene boekhouding**: vakantiegeld via voorzieningen; te ontvangen facturen + BTW-recuperatie; voorraadwijzigingen; oprichtingskosten + afschrijving wagen bij kort boekjaar
+- **B. Boekhoudrecht + analyse**: deelneming verbonden onderneming; jaarrekening-schema op geconsolideerde grondslag; bezoldiging commissaris (rubriek + toelichting); sociale balans opleidingskosten
+- **C. Financieel beheer**: behoefte aan bedrijfskapitaal; cashflow-analyse + investeringskrediet
+- **D. Organisatie boekhouding**: horeca-administratie (taverne — identiek aan 2003 D.1); BTW-voorschot offertes (identiek aan 2003 D.2)
+- **E. BTW**: overgang forfaitair→maandelijks; BTW-aangiftevakken handelaar wagens; uiterste aftrektermijn / vrijstellingsregeling / BTW-eenheid / plaats van de dienst
+- **F. Personenbelasting**: hypothecaire lening + woonbonus na erfenis; meerwaarde onroerend goed bij wettelijk stelsel; dienstencheques + verdeling echtgenoten; scheiding van goederen (15%-regel); belastbaar tijdperk (MC); vrijgesteld inkomen (MC); aftrekbare besteding (MC)
+- **G. Vennootschapsbelasting**: volledige VennB-aangifte (KMO Green — investeringsaftrek energie, notionele intrestaftrek, verworpen uitgaven, voordeel alle aard auto)
+- **H. Belastingprocedures + registratie/succ.**: bezwaar PB (termijn + vorm); aanslag op tekenen en indiciën; schenking effecten Nederlandse notaris vs. 3% Vlaanderen
+- **I. Vennootschapsrecht**: toegestaan kapitaal (kapitaalverhoging zonder BAV); financieel plan; belangenconflict enige vennoot-zaakvoerder; burgerlijke vennootschap + gerechtelijk akkoord; oprichtersaansprakelijkheid BVBA vs NV
+- **J. Arbeids- en sociaal zekerheidsrecht** *(buiten ITAA-programma)*: ontslag om dringende reden (Bart)
+- **K. Plichtenleer**: onverenigbaarheid bestuurder-boekhouder; ronselen via meegeleverde klantenlijst; overdracht dossier + verbod aanbrengcommissie; schorsing 3 maanden + lidgeld/verzekering/permanente vorming; boekhoudvennootschap (KB 15/2/2005) — doelomschrijving, zaakvoerder, aandelenverdeling, stagiair
+
+---
+
 ## Patroonanalyse
+
+> **Filter-conventie**: een vraag met `programmaonderdelen: []` in `_programmaonderdeel_classificatie.json` valt buiten het ITAA-examenprogramma 2024 en **wordt uitgesloten uit alle verdere verwerking** (VERIFY Check A-input, leerfiche-voorbeeldvragen, patroonanalyse, retrieval-bundles). Reden staat in het `rationale`-veld. Per 2026-05-18: 4 BIBF-vragen vallen onder deze regel (3× arbeidsrecht J-sectie + 1× douane/accijnzen).
+
+> **Representativiteit-tier** (top-level veld `representativiteit_tier` per examen-JSON):
+> - **A** = 2024-1 (huidige bevragingsstijl + huidige WVV/WIB)
+> - **B** = 2013-1, 2013-2, 2014-1, 2015-1 (ITAA, deels verouderde inhoud)
+> - **C** = 2003-bibf, 2008-bibf (pre-merger BIBF)
+>
+> Tier-weging per consumer (leerfiche-voorbeeldvragen, VERIFY Check A retrieval, patroon-aggregatie) is een open ontwerpkeuze in ADR-009/ADR-010 — niet hier gefixeerd.
+
+> **Antwoord-bron** (per-vraag veld `antwoord_bron`):
+> - `"pdf-modelantwoord"` — uit oorspronkelijke PDF (2008-bibf: 32 vragen)
+> - `"ai-gegenereerd"` — door agent geconstrueerd uit concept-records + bronnen (nog niet uitgevoerd)
+> - `null` — geen antwoord beschikbaar
+>
+> Render-laag (ADR-009 §6) toont voorbeeldvragen + oplossingen als **eind-rubriek** "Examenfocus" per minicursus, in `> [!question]-` callouts (collapsed). AI-gegenereerde varianten (`gvraag--*.json`, ADR-009 §6) krijgen verplicht `confidence: "inferred"` (🤖) en worden visueel apart gerenderd. Concrete pipeline en `examenfocus--*.json`-schema te bepalen in TODO.md §6.4.
+
+> ⚠️ Onderstaande tabel-kolommen voor 2003-bibf en 2008-bibf zijn op basis van **inhoudelijke classificatie** (zie `data/programma/examen_vragen/_programmaonderdeel_classificatie.json`), niet op de oorspronkelijke BIBF-vak-letter-indeling A–K (die wijkt af van de ITAA-PO-nummering).
+>
+> De `complexiteitspatronen.json` / `vraagvormen.json`-analyse moet nog herberekend worden om 2003-bibf + 2008-bibf mee te nemen (TODO — zie §3.4b).
 
 ### Welke POs komen in elk examen voor?
 
-| PO | 2013/1 | 2013/2 | 2014/1 | 2015/1 | 2024 |
-|---|---|---|---|---|---|
-| 1.1 Jaarrekening wetgeving | ✓ | ✓ | ✓ | ✓ | ✓ (IFRS) |
-| 1.2 Jaarrekeninganalyse / consolidatie | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 1.3 Interne controle | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 1.3 Accountantsonderzoek | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2.1 Personenbelasting | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2.2 Vennootschapsbelasting | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2.3 BTW | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2.4 Registratie- / successierechten | ✓ | ✓ | ✓ | ✓ | ✗ |
-| 2.6 Europees / intern. fiscaal | ✓ | ✓ | ✓ | ✓ | ✗ |
-| 2.7 Fiscale procedure | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 3.1 Vennootschapsrecht | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 3.2 Bijzondere mandaten | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 4.0 Deontologie / beroepsnormen / AWW | ✓ | ✓ | ✓ | ✓ | ✓ |
+| PO | 2013/1 | 2013/2 | 2014/1 | 2015/1 | 2024 | 2003-bibf | 2008-bibf |
+|---|---|---|---|---|---|---|---|
+| 1.1 Algemene boekhouding | ✓ | ✓ | ✓ | ✓ | ✓ (IFRS) | ✓ | ✓ |
+| 1.2 Boekhoudrecht | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 1.3 Jaarrekeninganalyse | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
+| 1.4 Consolidatie | (in 1.2) | (in 1.2) | (in 1.2) | (in 1.2) | (in 1.2) | ✗ | ✓ |
+| 1.6 Externe controle (accountantsonderzoek) | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ | ✓ |
+| 1.7 Interne controle | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
+| 1.9 Financiële analyse | (in 1.2) | (in 1.2) | (in 1.2) | (in 1.2) | (in 1.2) | ✓ | ✓ |
+| 2.2 Personenbelasting | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2.3 Vennootschapsbelasting | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2.4 BTW | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2.5 Fiscale procedure | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2.6 Registratie- / successierechten | ✓ | ✓ | ✓ | ✓ | ✗ | ✓ | ✓ |
+| 2.8 Europees / intern. fiscaal | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ | ✗ |
+| 3.0 Vennootschaps-/verenigingsrecht + insolventie | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 4.0 Deontologie / beroepsnormen / AWW | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| *Buiten programma (douane/accijnzen, arbeidsrecht)* | — | — | — | — | — | ⚠️ 7 pt | ⚠️ 1 vraag |
 
-> In 2024 ontbreken 2.4 en 2.6 expliciet. Mogelijk zijn ze geïntegreerd in andere vragen of vallen ze buiten dit document (het is een beknopte vragenlijst zonder bijlagen).
+> Noot ITAA-PO-nummering 2024: 1.1=Algemene boekhouding, 1.2=Boekhoudrecht, 1.3=Jaarrekeninganalyse, 1.4=Consolidatie, 1.6=Externe controle, 1.7=Interne controle, 1.9=Financiële analyse. De oude examens (2013-2024) gebruiken nog de pre-2024-nummering (1.1/1.2/1.3/3.1/3.2) en zijn hier *niet* hergeclassificeerd; de BIBF-examens *wel*. Bij volgende refresh van de oude examen-classificatie kunnen die kolommen verschuiven.
+>
+> In 2024 ontbreken 2.6 en 2.8 expliciet. Mogelijk zijn ze geïntegreerd in andere vragen of vallen ze buiten dit document (het is een beknopte vragenlijst zonder bijlagen).
 
 ### Steeds terugkerende thema's (in ≥ 3 examens)
 

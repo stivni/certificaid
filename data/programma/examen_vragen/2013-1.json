@@ -42,14 +42,20 @@
         {
           "label": "a)",
           "tekst": "Dient deze vennootschap haar waarderingsregels te verantwoorden in haar\njaarverslag, en indien zij geen jaarverslag dient op te stellen in haar jaarrekening in\nhet jaar 2012?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Motiveer uw antwoord.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr2",
@@ -87,19 +93,27 @@
         {
           "label": "a)",
           "tekst": "Onderneming A heeft een openstaande leveranciersschuld ten opzichte van\nonderneming X voor een bedrag van 100.000,00 euro. Er werd besloten om deze\nschuld in te brengen als kapitaal.\nZij dient de volgende boeking (en) aan te brengen in haar boekhouding.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Onderneming A besluit een kapitaalvermindering van 100.000,00 euro door te voeren\ndoor terugbetaling aan haar aandeelhouders.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Buitenlandse onderneming AB beschikt in België over een vaste inrichting, een winkel\ndie exclusieve juwelen verkoopt.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr3",
@@ -138,29 +152,41 @@
         {
           "label": "a)",
           "tekst": "Kunnen deze kosten in aanmerking voor activering? Motiveer uw antwoord.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Zo ja, welke van de bovenvermelde kosten?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Op welke rekening zou u deze activering dan verwerken? U hoeft enkel de rubriek op\nte geven tot op 2 cijfers.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Over hoeveel jaar dient de onderneming dit minimaal af te schrijven?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "e)",
           "tekst": "Wat indien uit de periode na het vooronderzoek gebleken was dat het prototype niet\ncommercieel haalbaar was en bijgevolg voortijdig besloten werd het prototype niet\nverder te ontwikkelen? Er werden wel reeds een aantal kosten gemaakt, zoals\naankopen en personeelskosten.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr4",
@@ -197,19 +223,27 @@
         {
           "label": "a)",
           "tekst": "Nettobedrijfskapitaal",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Brutoverkoopmarge (in %)",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Personeelskosten ten opzichte van de toegevoegde waarde (in %)",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr5",
@@ -248,29 +282,41 @@
         {
           "label": "a)",
           "tekst": "Intrinsieke waarde",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Fractiewaarde",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Netto rendabiliteit van de bedrijfsactiva",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Algemene schuldgraad",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "e)",
           "tekst": "Operationele cash flow voor belastingen",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr6",
@@ -286,7 +332,9 @@
       "themas": [
         "consolidatie"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr7",
@@ -302,7 +350,9 @@
       "themas": [
         "consolidatie"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr8",
@@ -316,7 +366,9 @@
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr9",
@@ -333,7 +385,9 @@
         "interne-controle",
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr10",
@@ -349,7 +403,9 @@
       "themas": [
         "analytische-procedures"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr11",
@@ -363,7 +419,9 @@
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr12",
@@ -379,7 +437,9 @@
       "themas": [
         "confirmatiebrieven"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr13",
@@ -395,7 +455,9 @@
       "themas": [
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr14",
@@ -434,29 +496,41 @@
         {
           "label": "a)",
           "tekst": "Wat zal er gebeuren met de aandelen, nu zijn vader Jean overleden is?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Zal hij automatisch vennoot van de bvba worden?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "En hoe zit het met een eventuele overdracht van zijn aandelen?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Is het plan uitvoerbaar voor de twee vennoten?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "e)",
           "tekst": "Welke is hun aansprakelijkheid als oprichter?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr15",
@@ -491,19 +565,27 @@
         {
           "label": "a)",
           "tekst": "De wetgever heeft om de omzetten te versnellen reeds een maatregel genomen,\neen maatregel met een uitwerking in 2012 en/of 2013. Welke is deze maatregel.\nWelke actie kon/kan men ondernemen?.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2014 ?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Wat gebeurt er met de effecten die niet zijn omgezet op 1 januari 2015 ?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr16",
@@ -539,19 +621,27 @@
         {
           "label": "a)",
           "tekst": "Wat is het voorwerp en het doel van de opdracht van de externe accountant?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Wie stelt de staat van activa en passiva op?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Wanneer kan de staat van activa en passiva opgesteld worden in continuïteit?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr17",
@@ -590,19 +680,27 @@
         {
           "label": "a)",
           "tekst": "Als accountant krijg je de opdracht om uw controleverslag te maken op\nbovenstaande staat in het kader van de ontbinding van de vennootschap.\nBestudeer deze staat en geef drie mogelijke correcties die moeten toegepast\nworden op deze staat.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Welk soort controle ga je toepassen bij uw verslag inzake ontbinding?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Kan deze ontbinding in één akte ook gesloten worden? Leg uit.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr18",
@@ -619,7 +717,9 @@
         "ontbinding-vereffening",
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr19",
@@ -651,14 +751,20 @@
         {
           "label": "a)",
           "tekst": "Wie ondertekent de opdrachtbrief ?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Geef 3 elementen die minimaal in de opdrachtbrief dienen voor te komen.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr20",
@@ -674,7 +780,9 @@
       "themas": [
         "stopzettingsmeerwaarden"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr21",
@@ -713,34 +821,48 @@
         {
           "label": "a)",
           "tekst": "Wanneer een werknemer voorafbetalingen doet, zal hij een bonificatie genieten, maar\nenkel voor de belasting die betrekking heeft op zijn beroepsinkomsten.\nWaar\nNiet waar",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "De interest van een spaarrekening geopend ten name van een minderjarig kind, moet\nnooit worden opgenomen in de belastbare grondslag van de ouders, tenzij de ouders\ngehuwd zijn onder het stelsel van de wettelijke gemeenschap.\nWaar\nNiet waar",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Wanneer de eigendom van een onroerend goed gesplitst is en dat goed verhuurd\nwordt aan een huurder die het gebruikt voor de uitoefening van zijn beroep, zal de\nnaakte eigenaar belast worden op het kadastraal inkomen en zal de vruchtgebruiker\nbelast worden op de ontvangen huur.\nWaar\nNiet waar",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "De enige beroepsinkomsten die in aanmerking komen voor de forfaitaire aftrek van\nberoepskosten zijn de inkomsten van werknemers en de inkomsten van\nbedrijfsleiders.\nWaar\nNiet waar",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "e)",
           "tekst": "Auteursrechten worden nooit als beroepsinkomsten beschouwd maar worden steeds\nals roerende inkomsten belast.\nWaar\nNiet waar",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "f)",
           "tekst": "Bij werknemers worden, alvorens de forfaitaire beroepskosten te berekenen, eerst de\ndoor de werknemer gedragen persoonlijke sociale bijdragen die door de werkgever\nniet werden ingehouden afgetrokken.\nWaar\nNiet waar\ng) Wanneer een bedrijfsleider het bedrag van het verlies van zijn vennootschap dat hij\nten laste wil nemen op het debet van zijn rekening-courant laat inschrijven, kan dat\nbedrag ten name van de bedrijfsleider als beroepskosten worden afgetrokken.\nWaar\nNiet waar\nh) De herkwalificatie ",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr22",
@@ -756,7 +878,9 @@
       "themas": [
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr23",
@@ -776,7 +900,9 @@
       ],
       "wets_verwijzingen": [
         "art. 15 W.Venn."
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr24",
@@ -808,14 +934,20 @@
         {
           "label": "a)",
           "tekst": "Bepaal in onderstaande hypothese de belastbare grondslag van deze vennootschap",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Vul de bijgevoegde onderdelen van de aangifte in.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr25",
@@ -850,19 +982,27 @@
         {
           "label": "a)",
           "tekst": "Een gewone belastingplichtige zet op 15 januari 2012 zijn economische activiteit stop.\nOp het ogenblik van deze definitieve stopzetting bevat het bedrijfspatrimonium nog\neen bestelwagen (aangekocht in 2011 voor de prijs van € 30 000,00 + 21% btw) en het\nbedrijfsgebouw (aangekocht in 2006 voor een prijs van € 250 000,00 + 21% btw). De\nbestelwagen is op het ogenblik van de stopzetting nog € 20 000,00 waard. Het\nbedrijfsgebouw is daarentegen in waarde gestegen en is bij de stopzetting\n€ 350 000,00 ",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Een Belgische belastingplichtige betaalt op 10 januari 2013 aan een Japans bedrijf de\nsom van € 5 000,00 voor de uitvoering van een grote promotiecampagne op Japans\ngrondgebied.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Een Belgische belastingplichtige verzendt op 15 mei 2012 een partij handelsgoederen\nvanuit haar magazijn te Utrecht (Nederland) naar haar hoofdzetel te Antwerpen. De\ngoederen werden drie maanden geleden aangekocht in Nederland voor de prijs van\n€ 1 250,00, exclusief Nederlandse btw. Dezelfde dag maakt de Belgische\nbelastingplichtige een transfertdocument op.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr26",
@@ -899,19 +1039,27 @@
         {
           "label": "a)",
           "tekst": "A, een handelaar in computers richt een gebouw op in 2012 (= opslagplaats van\ngoederen) (in gebruik name op 01.07.2012).\nFacturen 2011 : 250 000,00\nFacturen 2012 : 250 000,00\nHet gebouw wordt verkocht op 01 mei 2016 voor een bedrag van\n520 000,00 (€ 450 000,00 voor het gebouw en € 70 000,00 voor de grond) aan B.\nB zal in de toekomst het gebouw verhuren aan A.\nWat zijn de gevolgen inzake btw in hoofde van A ?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Een btw-plichtige vennootschap koopt in 2013 een nieuwe personenwagen aan die\ngratis ter beschikking wordt gesteld aan een personeelslid.\nDe aankoopprijs van de wagen bedraagt € 30 000,00 (excl. btw). Het personeelslid mag\nde wagen ook voor privédoeleinden gebruiken.\nBij aankoop werd het beroepsgebruik geraamd op 60%. Einde 2013 bleek het\neffectieve beroepsgebruik 30% te zijn.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "In 2008 : aankoop van een personenwagen door een btw-belastingplichtige BVBA voor\n€ 30 000,00 + € 6 300,00 btw.\n(in 2008 uitgeoefend recht op aftrek : 6 300,00 x 50% = 3 150,00)\nIn 2013 : verkoop van die wagen voor € 8 000,00 (excl. btw).\nWat zijn de btw gevolgen bij verkoop van de wagen in 2013?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr27",
@@ -951,24 +1099,34 @@
         {
           "label": "a)",
           "tekst": "Moet die akte in België worden geregistreerd?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Indien ja, wie is ertoe gehouden de akte te laten registreren?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Zo ja, binnen welke termijn moet de akte ter registratie worden aangeboden?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Geef de belastbare grondslag in de registratierechten aan, indien de akte (al dan niet\nverplicht) voor de formaliteit van registratie wordt aangeboden.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr28",
@@ -984,7 +1142,9 @@
       "themas": [
         "successierechten"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr29",
@@ -1005,9 +1165,13 @@
         {
           "label": "a)",
           "tekst": "In welk(e) land(en) zal de heer B aan de inkomstenbelasting onderworpen zijn en welk\ndeel van zijn loon zal er moeten aangegeven worden?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr30",
@@ -1038,14 +1202,20 @@
         {
           "label": "a)",
           "tekst": "Wat antwoordt u hem: ja of neen?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Verklaar uw antwoord door te verwijzen naar de bepalingen van die Europese\nrichtlijnen.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr31",
@@ -1084,24 +1254,34 @@
         {
           "label": "a)",
           "tekst": "- Vermeld de normale verjaringstermijn van de vordering tot voldoening van de\nbelasting.\n-Vanaf welke dag begint deze verjaringstermijn te lopen?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "-Vermeld de normale verjaringstermijn van de vordering tot voldoening van de\nbelasting in geval van belastingontduiking.\n-Vanaf welke dag begint deze verjaringstermijn te lopen?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Vermeld, in bovenstaand voorbeeld, het laatste jaar tot waar de administratie, vanaf 27\njanuari 2013, kan teruggaan om controle uit te oefenen.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Is de brief die de grondige controle aankondigt een aanwijzing van\nbelastingontduiking?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr32",
@@ -1136,19 +1316,27 @@
         {
           "label": "a)",
           "tekst": "Voor het aanslagjaar 2012 werd de aangifte in de vennootschapsbelasting bij de\nadministratie ingediend op 20 september 2012. Geef de uiterste datum van inkohiering\nvan de belasting.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Vermeld, in verband met de procedure gesteund op de aanwijzingen van\nbelastingontduiking, het oudste belastbare tijdperk dat het voorwerp kan uitmaken\nvan die onderzoeken. Vermeld de begin- en einddatum van dit belastbare tijdperk.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Toont, wat de aanwijzingen van belastingontduiking betreft, het proces-verbaal van\nvaststelling inzake de btw, het bestaan van belastingontduiking aan op het gebied van\nde vennootschapsbelasting? Verklaar uw antwoord.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr33",
@@ -1183,19 +1371,27 @@
         {
           "label": "a)",
           "tekst": "Duid hieronder aan wie aanzien wordt als een beroepsbeoefenaar:",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Wat zijn de taken van een compliance officer of witwasverantwoordelijke?\nGeef er 3 op.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Wanneer een compliance officer of witwasverantwoordelijke werd aangesteld, dienen\ndan de andere beroepsbeoefenaars nog steeds de nodige meldingen te doen aan de\nCFI?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr34",
@@ -1211,7 +1407,9 @@
       "themas": [
         "beroepsgeheim"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr35",
@@ -1250,29 +1448,41 @@
         {
           "label": "a)",
           "tekst": "Een externe accountant en/of belastingconsulent mag, mits voorafgaande vraag aan\nhet instituut een activiteit van verzekeringsmakelaar uitoefenen.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Een externe accountant en/of belastingconsulent mag geen makelaar in krediet- en\nbeleggingsverrichtingen zijn.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Een externe accountant en/of belastingconsulent kan een bestuursmandaat\nwaarnemen in een commerciële vennootschap met winstoogmerk, en dit zonder\nvoorafgaande toestemming van de raad van het instituut indien dit mandaat voort\nvloeit uit een rechterlijke beslissing.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Een externe accountant en/of belastingconsulent mag, mits te voldoen aan gestelde\nvoorwaarden, tegelijkertijd zoveel mandaten van onafhankelijke bestuurder\nwaarnemen als hij/zij het wenst, zolang de voorwaarden van bekwaamheid en\nbeschikbaarheid vervuld blijven.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "e)",
           "tekst": "Een externe accountant en/of belastingconsulent zal nooit een toestemming krijgen\nom een mandaat op te nemen in een zuivere patrimoniumvennootschap.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr36",
@@ -1311,24 +1521,34 @@
         {
           "label": "a)",
           "tekst": "Een externe accountant en/of belastingconsulent mag geen vergelijkende studie\nmaken van de erelonen die collega’s in zijn buurt aanrekenen in vergelijking met de\nerelonen die hij zelf aanrekent.\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Een externe accountant en/of belastingconsulent mag zijn diensten aan sterk\nverminderde prijzen aanbieden om op die manier de nieuwe klant aan zich te binden\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Een externe accountant en/of belastingconsulent mag, zoals dat gebruikelijk is bij\nandere sectoren, een opsomming geven van enkele van zijn belangrijke klanten\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Een externe accountant en/of belastingconsulent mag opgeven in welke sectoren hij\nwerkzaam is om zo een potentiële klant inzicht te geven in zijn bekwaamheden\nJuist\nFout",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2013-1-vr37",
@@ -1360,14 +1580,21 @@
         {
           "label": "a)",
           "tekst": "een vereffening van een vennootschap?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "een omvorming van een vennootschap?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     }
-  ]
+  ],
+  "representativiteit_tier": "B"
 }

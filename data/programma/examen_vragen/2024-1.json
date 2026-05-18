@@ -80,7 +80,9 @@
           "label": "D",
           "tekst": "d. NV, BV en CV"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2024-1-vr2",
@@ -130,7 +132,9 @@
           "label": "D",
           "tekst": "d. Bepaald naargelang inherente risico’s + interne controle van de cliënt"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2024-1-vr3",
@@ -165,7 +169,9 @@
           "label": "D",
           "tekst": "Verkoopcyclus: Doelstelling\n● Financieel\n● Operationeel\n● Conformiteit"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2024-1-vr4",
@@ -212,7 +218,9 @@
           "label": "C",
           "tekst": "Verschillende stellingen Juist of Fout ivm omzettingen"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2024-1-vr5",
@@ -246,7 +254,9 @@
           "label": "D",
           "tekst": "Welke beroepsinkomsten zijn niet aan het progressief belastingtarief onderworpen?"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2024-1-vr6",
@@ -329,7 +339,9 @@
           "label": "D",
           "tekst": "Zal minstens om de 2 jaar een actualiteitsverslag opmaken."
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2024-1-vr7",
@@ -414,7 +426,9 @@
           "label": "D",
           "tekst": "Operationele / financiële laesing, hoe behandelen?"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2024-1-vr8",
@@ -473,7 +487,9 @@
           "label": "D",
           "tekst": "Sociale voordelen\ne. Voordelen MC, ecocheques\nf. Giften\ng. Waardevermindering en minderwaarde op aandelen\nh. Terugname van vroegere vrijstellingen\ni. Takxshelter"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2024-1-vr9",
@@ -507,7 +523,9 @@
           "label": "D",
           "tekst": "Vraag om inlichtingen, termijn?\nE. Bewaarplicht, welke stukken + termijn"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2024-1-vr10",
@@ -558,7 +576,9 @@
           "label": "D",
           "tekst": "Stijging op voorwaarde dat de verhoogde afschrijving als bedrijfskost is geboekt"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2024-1-vr11",
@@ -656,7 +676,10 @@
           "label": "D",
           "tekst": "BE gebouw, FR BP\ne. BE gebouw, Zweedse BP afnemer."
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     }
-  ]
+  ],
+  "representativiteit_tier": "A"
 }

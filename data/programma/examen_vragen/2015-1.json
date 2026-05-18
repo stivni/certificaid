@@ -71,14 +71,20 @@
         {
           "label": "a)",
           "tekst": "Voor welke waarde neemt zij dit artikel op in haar voorraad per 31 december 2013?\nA. 465.000 EUR\nB. 470.000 EUR\nC. 392.000 EUR\nD. 420.000 EUR\nE. 452.000 EUR",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Welke waarde gaat zij weerhouden op 30 april 2014 indien er geen verdere aan- en\nverkopen zijn geweest en de marktwaarde dan 455 EUR is?\nA. 465.000 EUR\nB. 470.000 EUR\nC. 392.000 EUR\nD. 420.000 EUR\nE. 637.000 EUR",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr2",
@@ -112,7 +118,9 @@
           "label": "D",
           "tekst": "Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten,\nrekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het\nstelsel werkloosheid met bedrijfstoeslag worden vanaf maart 2014 in mindering gebracht\nvan de voorziening.\nE. Op 01/03/2014 berekent"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr3",
@@ -144,7 +152,9 @@
           "label": "D",
           "tekst": "De vordering dient overgeboekt te worden naar vorderingen op korte termijn. Zij zal ook de\nnog verschuldigde rente die nog niet tot uiting was gebracht dienen uit te drukken. Zij boekt\neen waardevermindering voor de vordering en de rente.\nE. De vennootschap berekent de nog verschuldigde rente tot he"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr4",
@@ -179,7 +189,9 @@
           "label": "D",
           "tekst": "De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans\nworden geboekt."
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr5",
@@ -215,7 +227,9 @@
           "label": "D",
           "tekst": "De subsidie zal, vanaf de ontvangst van het bericht tot bevestiging van de toekenning van de\nsubsidie, ineens geboekt worden op rekening 15 “Kapitaalsubsidies” en zal in resultaat\nworden genomen volgens het afschrijvingsritme van het geïnvesteerde goed.\nE. De subsidie zal, vanaf de creditering ervan"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr6",
@@ -247,7 +261,9 @@
           "label": "D",
           "tekst": "De activering kan tot uiting worden gebracht door het crediteren van de rekening 649 of 669.\nE. De activering kan, naar keuze, tot uiting worden gebracht door het crediteren van de\nrekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven, of door\nhet crediteren van de rekenin"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr7",
@@ -282,7 +298,9 @@
           "label": "D",
           "tekst": "Het voorschot wordt geboekt op het credit van rekening 101.\nE. Het voorschot wordt geboekt op het debet van rekening 19.\nF. Het voorschot wordt geboekt op het debet van de rekening zaakvoerder – 48."
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr8",
@@ -387,24 +405,34 @@
         {
           "label": "a)",
           "tekst": "Brutoverkoopmarge\nA. (1 479 283 + 425 554 + 804) x 100 / (8 034 747 + 344 153) = 22,74\nB. (1 417 747 + 425 554 + 804) x 100 / (8 365 788 - 1 600 244) = 27,26\nC. (1 479 283 + 425 554 + 804 – 1 665) x 100 / (8 034 747 + 344 153 – 1 288) = 22,73\nD. (968 829 + 425 554 + 804 – 1 665) x 100 / (8 365 788 – 1 288) = 16,66",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Personeelskosten ten opzichte van toegevoegde waarde\nA. (1 600 244 – 1 665) X 100 / (8 365 788 - 1 288 – 3 457 309 – 1 398 278) = 45,56\nB. 1 600 244 x 100 / (8 365 788 – 3 457 309 – 1 398 278) = 45,59\nC. 1 600 244 x 100 / 1 479 283 = 108,18\nD. (1 600 244 – 1 665) x 100 / (8 034 747 – 13 112 - 3 457 309 – 1 398 278 – 1 288) =\n50,51",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Nettorentabiliteit van het eigen vermogen na belastingen\nA. 968 829 x 100 / 10 274 463 = 9,43\nB. 968 829 x 100 / 8 177 941 = 11,85\nC. 1 417 747 x 100 / 10 274 463 = 13,80\nD. 1 479 283 x 100 / 8 177 941 = 18,09",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Rotatie van de voorraad handelsgoederen, grond- en hulpstoffen\nA. 3 444 161 / 530 373 = 6,49\nB. 3 457 309 / 530 373 = 6,52\nC. 3 457 309 / 1 344 750 = 2,57\nD. 3 444 161 / 1 344 750 = 2,56",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr9",
@@ -443,29 +471,41 @@
         {
           "label": "a)",
           "tekst": "Intrinsieke waarde",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Fractiewaarde",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Netto rendabiliteit van de bedrijfsactiva",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Algemene schuldgraad",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "e)",
           "tekst": "Operationele cash flow voor belastingen",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr10",
@@ -481,7 +521,9 @@
       "themas": [
         "voorzieningen"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr11",
@@ -512,14 +554,20 @@
         {
           "label": "a)",
           "tekst": "Wat is een positief consolidatieverschil ?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr12",
@@ -548,14 +596,20 @@
         {
           "label": "a)",
           "tekst": "Accountingcontrole en administratieve contrôle.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Preventieve en repressieve controle.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr13",
@@ -569,7 +623,9 @@
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr14",
@@ -585,7 +641,9 @@
       "themas": [
         "interne-controle"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr15",
@@ -616,14 +674,20 @@
         {
           "label": "a)",
           "tekst": "Wanneer deze adjustments talrijk en substantieel zijn in bedrag, zou dit een probleem\nkunnen veroorzaken in het bijzonder op het vlak van deontologische regels?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Verklaar bondig.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr16",
@@ -639,7 +703,9 @@
       "themas": [
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr17",
@@ -670,14 +736,20 @@
         {
           "label": "a)",
           "tekst": "Geef twee (2) controledoelstellingen die op dergelijk actief worden toegepast?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Geef kort weer voor elk van deze twee (2) controledoelstellingen welke techniek of\nmethodiek je toepast?\nVul uw antwoorden in op volgend schema.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr18",
@@ -708,14 +780,20 @@
         {
           "label": "a)",
           "tekst": "De telling van de voorraad (30/09/2014) hebben we fysiek kunnen meemaken en deze\nhoeveelheidstelling was in orde. Welke controle gaan we nu (23/01/2015) nog doen op\nde voorraad ?\nGeef twee controledoelstellingen met telkens een voorbeeld van de techniek die je\ngaat toepassen.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Bij nazicht van de handelsvorderingen (onder toepassing van 21% BTW) wordt een\nconfirmatie bekomen van een klant voor 121.000,00 EUR, daar waar de vordering in de\nboekhouding op 217.800,00 EUR staat. Bij de confirmatie zit een ontvangstbon\nafgetekend op 29/09/2014 door de klant en de chauffeur die de levering heeft gedaan.\nOp deze ontvangstbon staat de vermelding dat er voor 80.000,00 EUR (excl btw) aan\nfout geleverde goederen terug zijn meegenomen.\nWelke actie onderneem je als controlerende acc",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr19",
@@ -754,29 +832,41 @@
         {
           "label": "a)",
           "tekst": "Wat is representatief?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Hoe doe je de steekproef?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Hoe gebeurt de verzending van de confirmatiebrieven?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Wie ontvangt de antwoorden?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "e)",
           "tekst": "Wat bij niet ontvangst van antwoorden?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr20",
@@ -813,7 +903,9 @@
           "label": "D",
           "tekst": "Dat hij verplicht is om het kapitaal te volstorten om het onmiddellijk op het vereiste\nminimum van 18.550,00 EUR te brengen.\nE. Dat hij er goed zou aan doen om de algemene vergadering bijeen te roepen om te\nbeslissen over de eventuele ontbinding en om eventueel andere maatregelen te\nnemen. En dit vó"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr21",
@@ -850,7 +942,9 @@
           "label": "D",
           "tekst": "Met het oog op de akte tot verhoging van het kapitaal heeft de notaris enkel een\nboekhoudkundige staat die maximum drie maanden oud is en een controleverslag nodig;\ner zijn geen andere stukken noch formaliteiten vereist.\nE. Bij de omzetting van bvba naar nv bedraagt het minimum geplaatst kapitaal we"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr22",
@@ -887,7 +981,9 @@
           "label": "D",
           "tekst": "Een bijzondere algemene vergadering bijeenroepen voor 25 maart om te beraadslagen\nen te besluiten over de ontbinding van de vennootschap en andere te nemen\nmaatregelen.\nE. De vennoten verplichten om het kapitaal van de vennootschap te verhogen door\ninbrengen in geld."
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr23",
@@ -921,7 +1017,9 @@
           "label": "D",
           "tekst": "De Nationale Bank van België zal een boete opleggen wegens de laattijdige\nbijeenroeping van de gewone algemene vergadering."
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr24",
@@ -957,7 +1055,9 @@
           "label": "D",
           "tekst": "Dat hij een verklaring moet opstellen met vermelding van de beschrijving van de inbreng, de\nnaam van de eigenaar, de waarde en de herkomst van deze waardering en de verstrekte\ntegenprestatie en een attest dat er zich geen nieuwe omstandigheden hebben voorgedaan\nten opzichte van de oorspronkelijke wa"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr25",
@@ -973,7 +1073,9 @@
       "themas": [
         "omzetting-vennootschap"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr26",
@@ -1014,34 +1116,48 @@
         {
           "label": "a)",
           "tekst": "Hoe wordt in de staat van activa en passiva het resultaat van de lopende, nog niet\nafgesloten periode vermeld?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Het bestuursorgaan stelt de staat van activa en passiva enkel op in discontinuïteit.\nWat moet de beroepsbeoefenaar in overweging nemen?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Wat dient er te gebeuren met latente schulden (bv. vergoeding wegens contractbreuk)\ndie niet in de staat van activa en passiva zijn opgenomen?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "Wat gebeurt er met de termijn van drie maand indien een bijeenroeping van een\ntweede algemene vergadering nodig is wegens het niet bereiken van het\naanwezigheidsquorum?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "e)",
           "tekst": "Het voorstel tot ontbinding is het gevolg van de toepassing van de alarmbelprocedure.\nHeeft dit enig gevolg voor de termijnen?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "f)",
           "tekst": "De beroepsbeoefenaar stelt in de loop van zijn controlewerkzaamheden een inbreuk\nvast op de boekhoudreglementering in verband met de opstelling van de\nboekhoudkundige staat. Wat dient de beroepsbeoefenaar te doen, moet er\nvoorbehoud gemaakt worden of een onthouding?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr27",
@@ -1082,34 +1198,48 @@
         {
           "label": "a)",
           "tekst": "De externe accountant moet de volledige identiteit van de leden van het\nbestuursorgaan opvragen.\nJa\nNeen",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "De externe accountant moet in zijn verslag een beoordeling van de administratieve en\nboekhoudkundige organisatie van de vennootschap vermelden.\nJa\nNeen",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "De externe accountant hanteert een risico-analyse om te beoordelen waar de zwakke\npunten van de interne procedure in de onderneming gesitueerd zijn.\nJa\nNeen",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "De externe accountant moet zijn werkdossier door de raad van bestuur laten\nondertekenen.\nJa\nNeen",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "e)",
           "tekst": "De externe accountant moet de door het bestuursorgaan opgestelde staat van activa\nen passiva herwerken tot een nieuwe staat na zijn controlewerkzaamheden, alvorens\ndeze ondertekend aan de notaris over te maken.\nJa\nNeen",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "f)",
           "tekst": "De externe accountant moet een bijkomende aansprakelijkheidsverzekering afsluiten\nom zijn aansprakelijkheid ingevolge zijn verslag in te dekken.\nJa\nNeen\ng) De externe accountant zal een nazicht doen of de waarderingsregels correct zijn\ntoegepast.\nJa\nNeen\nh) De externe accountant moet altijd een voorbehoud maken als de klantenconfirmaties\nniet werden verstuurd.\nJa\nNeen\ni) De externe accountant moet akkoord hebben van de aandeelhouders alvorens zijn\nopdracht aan te vangen.\nJa\nNeen",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr28",
@@ -1143,7 +1273,9 @@
           "label": "D",
           "tekst": "Wanneer alle mogelijkheden om de beroepsverliezen aan te rekenen uitgeput zijn voor een\nbelastbaar tijdperk, wordt het saldo overgedragen naar het volgende jaar en afgetrokken van\nde positieve beroepsinkomsten van dat jaar.\nE. Indien de echtgenoot waaraan een huwelijksquotiënt wordt toegekend al een"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr29",
@@ -1177,7 +1309,9 @@
           "label": "D",
           "tekst": "Indien het in het buitenland gelegen goed niet door de belastingplichtige werd betrokken,\nnoch door de belastingplichtige werd verhuurd, moet er dus niets vermeld worden in de\nbelastingaangifte.\nE. De inkomsten van onroerende goederen gelegen in een land waarmee België geen\ndubbelbelastingverdrag he"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr30",
@@ -1211,7 +1345,9 @@
           "label": "D",
           "tekst": "Een belastingplichtige kan voor hetzelfde tijdperk de vermindering voor pensioensparen\nniet samen verkrijgen met de vermindering voor verwerving van werkgeversaandelen.\nE. Iedere echtgenoot moet het bedrag van zijn betalingen voor de aankoop van\ndienstencheques vermelden. In geval van een gemeenscha"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr31",
@@ -1246,7 +1382,9 @@
           "label": "D",
           "tekst": "Investeringsaftrek: de vaste activa waarvan het recht van gebruik overgedragen is aan een\nderde, zijn uit de investeringsaftrek gesloten. De wijze waarop dit recht is overgedragen, is\nniet van belang (verhuurd of kosteloos). Deze uitsluiting is niet van toepassing wanneer het\nrecht van gebruik is ov"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr32",
@@ -1281,7 +1419,9 @@
           "label": "D",
           "tekst": "De ingehouden roerende voorheffing wordt verrekend noch teruggegeven indien de\nbelastingplichtige beroepsinkomsten verkrijgt die bij overeenkomst zijn vrijgesteld en niet\nin aanmerking komen voor de berekening van de belasting op zijn andere inkomsten.\nE. Het aan te geven bedrag is het werkelijk geï"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr33",
@@ -1313,14 +1453,20 @@
         {
           "label": "a)",
           "tekst": "Bepaal het belastbare resultaat voor aanslagjaar 2014. De vennootschap heeft geen\nrecht op notionele intrestaftrek.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Geef op welke tarieven van toepassing zijn EN op welk bedrag van het belastbare\nresultaat. Kies voor de meest voordelige verdeling. De vennootschap voldoet niet aan\nde voorwaarden voor verlaagd tarief.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr34",
@@ -1353,14 +1499,20 @@
         {
           "label": "a)",
           "tekst": "Hoeveel bedraagt de belastbare winst ?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Geef een korte verklaring.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr35",
@@ -1377,7 +1529,9 @@
         "personenwagen-btw",
         "vennootschapsrecht"
       ],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr36",
@@ -1411,7 +1565,9 @@
           "label": "D",
           "tekst": "Er is geen mogelijkheid meer om de verkoop onder btw te laten plaats vinden gezien de\ntermijn voor het uitoefenen van de optie voor toevallige btw-belastingplichtige verstreken\nis.\nE. De voordeligste situatie is de verkoop van de grond onder Registratierecht te laten\nplaatsvinden en de verkoop van d"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr37",
@@ -1446,7 +1602,9 @@
           "label": "D",
           "tekst": "Voor de yogalessen kan de vzw de vrijstelling van artikel 44, §2, 3° WBTW (sport) inroepen\nmaar zal voor de bijkomende activiteiten (café en verkoop boeken) btw dienen aan te\nrekenen. Ze is dus een gemengde belastingplichtige, zal periodieke btw-aangiften indienen\nen zal gedeeltelijk recht op aftrek"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr38",
@@ -1478,7 +1636,9 @@
           "label": "D",
           "tekst": "Ja, hij moet de btw die hij oorspronkelijk op de aankoop van de producten heeft\nafgetrokken terugstorten via een herziening.\nE. Neen, dit is geen handeling onder bezwarende titel, want hij betaalt niet voor het\nonttrekken van de producten."
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr39",
@@ -1513,7 +1673,9 @@
           "label": "D",
           "tekst": "Neen, het gaat wel om een “niet-overbrenging” van eigen goederen en er moet dus geen\noverbrengingsstuk worden gemaakt en bovendien staat de Administratie toe dat geen\ninschrijving in het register der niet-overbrengingen moet worden gedaan voor auto’s,\ncomputers en gsm’s."
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr40",
@@ -1551,7 +1713,9 @@
           "label": "D",
           "tekst": "Het gaat om vereenvoudigd driehoeksverkeer, vrijgesteld van btw. De Belgische\nonderneming vermeldt op de verkoopfactuur ‘Driehoeksverkeer, artikel 25 quinquies WBTW,\nmedecontractant aangeduid als schuldenaar, btw verlegd.” De handeling wordt opgenomen\nin vak 46 van haar btw-aangifte en in haar intra"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr41",
@@ -1583,7 +1747,9 @@
           "label": "D",
           "tekst": "dat kan de administratie uitsluitend met het oog op een taxatie tekenen en indiciën."
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr42",
@@ -1617,7 +1783,9 @@
           "label": "D",
           "tekst": "neen, dan kan niet meer omdat de Belgische administratie geen aanslag mag vestigen, nà\nhet verstrijken van de gewone driejarige of de verlengde zevenjarige aanslagtermijn."
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr43",
@@ -1651,7 +1819,9 @@
           "label": "D",
           "tekst": "deze maken deel uit van de boekhouding en moeten worden voorgelegd."
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr44",
@@ -1686,7 +1856,9 @@
           "label": "D",
           "tekst": "een voorziening bij de Raad van State."
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr45",
@@ -1720,7 +1892,9 @@
           "label": "D",
           "tekst": "geen van voorgaande antwoorden is juist."
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr46",
@@ -1755,7 +1929,9 @@
           "label": "D",
           "tekst": "Aangezien het gebouw waarop de koop betrekking heeft momenteel verhuurd wordt tegen\neen uiterst lonende huurprijs (hoger dan de kost van de hypothecaire lening), beslist het\nechtpaar om de huurder zijn huurcontract tot einddatum te laten uitdoen, met name tot 31\ndecember 2015.\nE. Om de duur van de v"
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr47",
@@ -1830,19 +2006,27 @@
         {
           "label": "a)",
           "tekst": "Op welke datum moe(s)t de aangifte van nalatenschap worden ingediend?\nA. Dinsdag 22 juli 2014\nB. Vrijdag 20 juni 2014\nC. Woensdag 20 augustus 2014",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Vermeld het actief en het passief van de nalatenschap – effecten aan te geven in de\naangifte van nalatenschap ingediend binnen de sub a) gestelde termijn:\nA. actief = 17.000 EUR – geen passief\nB. actief = 22.500 EUR - geen passief\nC. actief = 22.500 EUR – passief = 2.420 EUR\nD. actief = 0 EUR - geen passief",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Welke is de uiterste datum voor de betaling van de successierechten?\nA. Dinsdag 22 juli 2014\nB. Woensdag 20 augustus 2014\nC. Maandag 22 september 2014",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr48",
@@ -1905,14 +2089,20 @@
         {
           "label": "a)",
           "tekst": "Welke waarde zal in aanmerking moeten worden genomen voor de berekening van de\nregistratierechten?\nA. 186.000 EUR\nB. 16% van 300.000 EUR\nC. Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn\nD. 4 x 16% van 300.000 EUR\nE. 300.000 EUR\nEnige jaren later staat de vruchtgebruiker zijn vruchtgebruik af aan de blote eigenaar\nwaardoor laatstgenoemde dus de volle eigenaar wordt.\nHet vruchtgebruik wordt afgestaan tegen de prijs van 250.000 EUR.\nOp dat tijdstip is de vruchtgebruiker 7",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Welke waarde moet in aanmerking worden genomen voor de berekening van de\nregistratierechten?\nA. 300.000 EUR\nB. 250.000 EUR\nC. 436.000 EUR (hetzij 250.000 EUR + de oorspronkelijk betaalde waarde van de blote\neigendom)\nD. Geen belastbare grondslag, er zal enkel een vast recht verschuldigd zijn\nE. 300.000 EUR, maar er zal een vermindering van de rechten worden toegepast, tot beloop\nvan de bij de verkrijging van de blote eigendom betaalde rechten",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr49",
@@ -1954,34 +2144,48 @@
         {
           "label": "a)",
           "tekst": "Een natuurlijke persoon die geen dubbele nationaliteit bezit en die door beide\novereenkomstsluitende staten bij een overeenkomst tot vermijding van dubbele\nbelasting als inwoner wordt beschouwd, zal in de staat, waarvan hij de nationaliteit\nheeft steeds op zijn wereldinkomen worden belast zonder andere criteria in\naanmerking te nemen. Deze persoon bezit de nationaliteit van één van beide hiervoor\nbeoogde overeenkomstsluitende staten.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Een pensioen dat door België aan een natuurlijk persoon van Belgische nationaliteit\nwordt betaald ter zake van een vroegere dienstbetrekking als ambtenaar van een\nFederale Overheidsdienst zal niet meer in België belastbaar zijn, indien deze\nnatuurlijke persoon inwoner wordt van een land waarmee België een overeenkomst tot\nvoorkoming van dubbele belasting heeft gesloten.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Een steengroeve is slechts een vaste inrichting, indien de uitbatingsduur ervan 6\nmaanden overschrijdt.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "d)",
           "tekst": "De overeenkomsten tot voorkoming van dubbele belasting, die volgens de hierboven\nbedoelde modelovereenkomst afgesloten zijn, gelden voor de successierechten.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "e)",
           "tekst": "Voor een natuurlijke persoon die inwoner is van één van de overeenkomstsluitende\nstaten, zijn de onroerende inkomsten verkregen in de andere staat, uitsluitend\nbelastbaar in die andere staat (met name de bronstaat).",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "f)",
           "tekst": "Als een vaste inrichting van een onderneming, die inwoner is van een andere\novereenkomstsluitende staat, een supplement in de inkomstenbelasting wordt\nopgelegd naar aanleiding van een controle op de verrekenprijzen toegepast op de\ngoederen- of dienstenstromen tussen die vaste inrichting en haar hoofdzetel in de\nandere overeenkomstsluitende staat, zal er sprake zijn van juridisch dubbele belasting\nen is dit onvermijdbaar.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr50",
@@ -2012,14 +2216,20 @@
         {
           "label": "a)",
           "tekst": "Wat antwoordt u hem:",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Gelieve uw antwoord te motiveren door de uitleg die u aan uw cliënt zult verstrekken\nweer te geven.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr51",
@@ -2054,19 +2264,27 @@
         {
           "label": "a)",
           "tekst": "In tegenstelling tot het beroepsgeheim is de discretieplicht ook van toepassing op de\ninterne accountants en/of belastingconsulenten.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Schending van het beroepsgeheim kan enkel tuchtrechtelijke maatregelen tot gevolg\nhebben.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "De accountant en/of de belastingconsulent pleegt een inbreuk tegen de discretieplicht\nwanneer hij de Raad van het Instituut in kennis zou stellen van vertrouwelijke\ngegevens van zijn werkgever als alle andere middelen zijn uitgeput.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr52",
@@ -2099,19 +2317,27 @@
         {
           "label": "a)",
           "tekst": "De accountant en/of belastingconsulent dient met een vast uurloon te werken en mag zijn\nereloon dus niet afhankelijk stellen van de aard, het belang, de complexiteit, omvang en\nreikwijdte van de opdracht.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Mits goedkeuring van de raad mag een accountant en/of belastingconsulent commissies\nontvangen voor tussenkomst en transacties van andere partijen met een cliënt.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "Indien voorzien in de opdrachtbrief kan er een opzegvergoeding voorzien worden indien\nde cliënt de overeenkomst beëindigd.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr53",
@@ -2142,14 +2368,20 @@
         {
           "label": "a)",
           "tekst": "Uw klant, een meubelhandel, stelt u de volgende vraag:\nHoeveel mag de klant van de meubelhandel in contanten betalen in de volgende\ngevallen?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "U stelt bij één van uw klanten een overtreding vast van de limiet op toegestane\nbetalingen in contanten.\nMoet u als extern belastingconsulent een melding doen aan de CFI in het kader van de\npreventieve witwaswetgeving ?",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr54",
@@ -2185,19 +2417,27 @@
         {
           "label": "a)",
           "tekst": "De heer FIXIT kan dit begeleiden maar mag de controleopdracht op de staat van activa\nen passiva niet uitvoeren wegens een verbod gebaseerd op de onafhankelijkheid.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "Deze controleopdracht kan zowel door een externe accountant, bedrijfsrevisor als\ndoor een erkend boekhouder uitgevoerd worden.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "c)",
           "tekst": "De externe accountant die dergelijke controleopdracht zal uitvoeren moet ook aan de\nverplichtingen gesteld door de witwaswetgeving voldoen en zorgen voor de\nidentificatie van de bestuurder(s) en de vennootschap.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr55",
@@ -2226,14 +2466,20 @@
         {
           "label": "a)",
           "tekst": "in te schrijven op enige aandelen (voor 15% van het kapitaal) van hun vennootschap\nnaar Luxemburgs recht, zonder evenwel betrokken te zijn bij het bestuur van die\nvennootschap.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         },
         {
           "label": "b)",
           "tekst": "hun bij de opstart te begeleiden door hun, zo nodig, als zelfstandige onderaannemer,\nbij te staan in moeilijke zaken in België.",
-          "punten": null
+          "punten": null,
+          "antwoord_bron": null,
+          "antwoord_provenance": null
         }
-      ]
+      ],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     },
     {
       "id": "2015-1-vr56",
@@ -2247,7 +2493,10 @@
       "correct_antwoord": null,
       "antwoord_motivering": null,
       "themas": [],
-      "wets_verwijzingen": []
+      "wets_verwijzingen": [],
+      "antwoord_bron": null,
+      "antwoord_provenance": null
     }
-  ]
+  ],
+  "representativiteit_tier": "B"
 }

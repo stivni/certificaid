@@ -48,5 +48,2518 @@
     ],
     "confidence": "hoog",
     "rationale": "Vraag definieert positief consolidatieverschil en vraagt de vier voornaamste oorzaken — kernbegrip van PO 1.4 (goodwill bij consolidatie)."
+  },
+  "2003-bibf-vrA1": {
+    "vraag_id": "2003-bibf-vrA1",
+    "vak_code_in_pdf": "A",
+    "vak_naam_in_pdf": "A. Algemene boekhouding",
+    "programmaonderdelen": [
+      "1.1"
+    ],
+    "confidence": "hoog",
+    "rationale": "Afsluitingsboekingen kapitaalsubsidies — algemene boekhouding."
+  },
+  "2003-bibf-vrA2": {
+    "vraag_id": "2003-bibf-vrA2",
+    "vak_code_in_pdf": "A",
+    "vak_naam_in_pdf": "A. Algemene boekhouding",
+    "programmaonderdelen": [
+      "1.1"
+    ],
+    "confidence": "hoog",
+    "rationale": "Voorraadwaardering en waardevermindering handelsgoederen — algemene boekhouding."
+  },
+  "2003-bibf-vrB1": {
+    "vraag_id": "2003-bibf-vrB1",
+    "vak_code_in_pdf": "B",
+    "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Vereenvoudigde boekhouding — boekhoudrecht."
+  },
+  "2003-bibf-vrB2": {
+    "vraag_id": "2003-bibf-vrB2",
+    "vak_code_in_pdf": "B",
+    "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Centraal boek — boekhoudrechtelijke verplichting."
+  },
+  "2003-bibf-vrB3": {
+    "vraag_id": "2003-bibf-vrB3",
+    "vak_code_in_pdf": "B",
+    "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Voorwaarden herwaardering activa — boekhoudrecht."
+  },
+  "2003-bibf-vrB4": {
+    "vraag_id": "2003-bibf-vrB4",
+    "vak_code_in_pdf": "B",
+    "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "midden",
+    "rationale": "Boeking inrichtingskosten in gehuurde gebouwen — boekhouding-praktijk + boekhoudrecht."
+  },
+  "2003-bibf-vrB5": {
+    "vraag_id": "2003-bibf-vrB5",
+    "vak_code_in_pdf": "B",
+    "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Toelichting kapitaalsubsidies in jaarrekening — boekhoudrecht."
+  },
+  "2003-bibf-vrC1": {
+    "vraag_id": "2003-bibf-vrC1",
+    "vak_code_in_pdf": "C",
+    "vak_naam_in_pdf": "C. Algemene beginselen van het financieel beheer",
+    "programmaonderdelen": [
+      "1.9"
+    ],
+    "confidence": "hoog",
+    "rationale": "Berekening NBK, liquiditeit, solvabiliteit — financiële analyse."
+  },
+  "2003-bibf-vrC2": {
+    "vraag_id": "2003-bibf-vrC2",
+    "vak_code_in_pdf": "C",
+    "vak_naam_in_pdf": "C. Algemene beginselen van het financieel beheer",
+    "programmaonderdelen": [
+      "1.9"
+    ],
+    "confidence": "hoog",
+    "rationale": "Berekening operationele cashflow — financiële analyse."
+  },
+  "2003-bibf-vrD1": {
+    "vraag_id": "2003-bibf-vrD1",
+    "vak_code_in_pdf": "D",
+    "vak_naam_in_pdf": "D. Organisatie van de boekhouding en de administratieve diensten van de onderneming",
+    "programmaonderdelen": [
+      "1.1",
+      "2.4"
+    ],
+    "confidence": "midden",
+    "rationale": "Boekhoudkundige organisatie bij BTW-belastingplichtige — administratieve organisatie + BTW-verplichtingen."
+  },
+  "2003-bibf-vrD2": {
+    "vraag_id": "2003-bibf-vrD2",
+    "vak_code_in_pdf": "D",
+    "vak_naam_in_pdf": "D. Organisatie van de boekhouding en de administratieve diensten van de onderneming",
+    "programmaonderdelen": [
+      "1.1",
+      "2.4"
+    ],
+    "confidence": "midden",
+    "rationale": "BTW-voorschot-aanrekening + bewaarplicht — administratie + BTW."
+  },
+  "2003-bibf-vrE1": {
+    "vraag_id": "2003-bibf-vrE1",
+    "vak_code_in_pdf": "E",
+    "vak_naam_in_pdf": "E. BTW",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Recht op BTW-aftrek per type belastingplichtige — BTW."
+  },
+  "2003-bibf-vrE2": {
+    "vraag_id": "2003-bibf-vrE2",
+    "vak_code_in_pdf": "E",
+    "vak_naam_in_pdf": "E. BTW",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Aftrekbare BTW-bedragen (autobrandstof, geschenken, medecontractant, ICV)."
+  },
+  "2003-bibf-vrE3": {
+    "vraag_id": "2003-bibf-vrE3",
+    "vak_code_in_pdf": "E",
+    "vak_naam_in_pdf": "E. BTW",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "BTW verschuldigd? (J/F per verrichting) — BTW."
+  },
+  "2003-bibf-vrE4": {
+    "vraag_id": "2003-bibf-vrE4",
+    "vak_code_in_pdf": "E",
+    "vak_naam_in_pdf": "E. BTW",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "BTW-verplichtingen termijnen (klantenlistings, voorschotten, 604B/C) — BTW."
+  },
+  "2003-bibf-vrE5": {
+    "vraag_id": "2003-bibf-vrE5",
+    "vak_code_in_pdf": "E",
+    "vak_naam_in_pdf": "E. BTW",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Dagboek van ontvangsten — BTW-administratie."
+  },
+  "2003-bibf-vrF1": {
+    "vraag_id": "2003-bibf-vrF1",
+    "vak_code_in_pdf": "F",
+    "vak_naam_in_pdf": "F. Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Belastbare basis bedrijfsleider — personenbelasting (forfaitaire kosten + VAA + KI)."
+  },
+  "2003-bibf-vrG1": {
+    "vraag_id": "2003-bibf-vrG1",
+    "vak_code_in_pdf": "G",
+    "vak_naam_in_pdf": "G. Vennootschapsbelasting",
+    "programmaonderdelen": [
+      "2.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Aangifte vennootschapsbelasting — belastbare basis bepalen (DBI, verworpen uitgaven, liberaliteiten)."
+  },
+  "2003-bibf-vrH1": {
+    "vraag_id": "2003-bibf-vrH1",
+    "vak_code_in_pdf": "H",
+    "vak_naam_in_pdf": "H. Belastingprocedures (2008: + registratie- en successierechten)",
+    "programmaonderdelen": [
+      "2.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "Termijn BTW-regularisatie — fiscale procedure."
+  },
+  "2003-bibf-vrH2": {
+    "vraag_id": "2003-bibf-vrH2",
+    "vak_code_in_pdf": "H",
+    "vak_naam_in_pdf": "H. Belastingprocedures (2008: + registratie- en successierechten)",
+    "programmaonderdelen": [
+      "2.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "Gevolgen laattijdige aangifte personenbelasting — fiscale procedure."
+  },
+  "2003-bibf-vrI1": {
+    "vraag_id": "2003-bibf-vrI1",
+    "vak_code_in_pdf": "I",
+    "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
+    "programmaonderdelen": [],
+    "confidence": "laag",
+    "rationale": "Accijnzen op intracommunautaire verwervingen — douane/accijnzen zit niet expliciet in het ITAA-examenprogramma 2024."
+  },
+  "2003-bibf-vrI2": {
+    "vraag_id": "2003-bibf-vrI2",
+    "vak_code_in_pdf": "I",
+    "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
+    "programmaonderdelen": [
+      "3.0",
+      "2.6"
+    ],
+    "confidence": "midden",
+    "rationale": "Omzetting eenmanszaak naar BVBA — vennootschapsrecht-formaliteiten + registratierechten op inbreng."
+  },
+  "2003-bibf-vrI3": {
+    "vraag_id": "2003-bibf-vrI3",
+    "vak_code_in_pdf": "I",
+    "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Verplichtingen bij overgedragen verlies / 2 opeenvolgende verliesboekjaren — alarmbelprocedure."
+  },
+  "2003-bibf-vrI4": {
+    "vraag_id": "2003-bibf-vrI4",
+    "vak_code_in_pdf": "I",
+    "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Gevolgen 3 jaar geen neerlegging jaarrekening NBB — vennootschapsrecht / ontbinding van rechtswege."
+  },
+  "2003-bibf-vrJ1": {
+    "vraag_id": "2003-bibf-vrJ1",
+    "vak_code_in_pdf": "J",
+    "vak_naam_in_pdf": "J. Beginselen van het arbeids- en sociaal zekerheidsrecht",
+    "programmaonderdelen": [],
+    "confidence": "laag",
+    "rationale": "Advies sociale bijdragen zelfstandige — arbeids- en sociaal zekerheidsrecht zit niet in het ITAA-examenprogramma 2024."
+  },
+  "2003-bibf-vrJ2": {
+    "vraag_id": "2003-bibf-vrJ2",
+    "vak_code_in_pdf": "J",
+    "vak_naam_in_pdf": "J. Beginselen van het arbeids- en sociaal zekerheidsrecht",
+    "programmaonderdelen": [],
+    "confidence": "laag",
+    "rationale": "Ontslagprocedure werknemer — arbeids- en sociaal zekerheidsrecht zit niet in het ITAA-examenprogramma 2024."
+  },
+  "2003-bibf-vrK1": {
+    "vraag_id": "2003-bibf-vrK1",
+    "vak_code_in_pdf": "K",
+    "vak_naam_in_pdf": "K. Plichtenleer",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Overdracht dossier tussen confraters — deontologie."
+  },
+  "2003-bibf-vrK2": {
+    "vraag_id": "2003-bibf-vrK2",
+    "vak_code_in_pdf": "K",
+    "vak_naam_in_pdf": "K. Plichtenleer",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Interberoepsrelaties IAB/IBR-BIBF bij dossieroverdracht — deontologie."
+  },
+  "2008-bibf-vrA1": {
+    "vraag_id": "2008-bibf-vrA1",
+    "vak_code_in_pdf": "A",
+    "vak_naam_in_pdf": "A. Algemene boekhouding",
+    "programmaonderdelen": [
+      "1.1"
+    ],
+    "confidence": "hoog",
+    "rationale": "Boeking vakantiegeld via voorzieningen — algemene boekhouding."
+  },
+  "2008-bibf-vrA2": {
+    "vraag_id": "2008-bibf-vrA2",
+    "vak_code_in_pdf": "A",
+    "vak_naam_in_pdf": "A. Algemene boekhouding",
+    "programmaonderdelen": [
+      "1.1"
+    ],
+    "confidence": "hoog",
+    "rationale": "Te ontvangen facturen + BTW-recuperatie (matching) — algemene boekhouding."
+  },
+  "2008-bibf-vrA3": {
+    "vraag_id": "2008-bibf-vrA3",
+    "vak_code_in_pdf": "A",
+    "vak_naam_in_pdf": "A. Algemene boekhouding",
+    "programmaonderdelen": [
+      "1.1"
+    ],
+    "confidence": "hoog",
+    "rationale": "Voorraadwijzigingen boeken — algemene boekhouding."
+  },
+  "2008-bibf-vrA4": {
+    "vraag_id": "2008-bibf-vrA4",
+    "vak_code_in_pdf": "A",
+    "vak_naam_in_pdf": "A. Algemene boekhouding",
+    "programmaonderdelen": [
+      "1.1"
+    ],
+    "confidence": "hoog",
+    "rationale": "Oprichtingskosten + afschrijving personenwagen bij kort boekjaar — algemene boekhouding."
+  },
+  "2008-bibf-vrB1": {
+    "vraag_id": "2008-bibf-vrB1",
+    "vak_code_in_pdf": "B",
+    "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.4"
+    ],
+    "confidence": "midden",
+    "rationale": "Boeking deelneming in verbonden onderneming — boekhouding met consolidatie-context."
+  },
+  "2008-bibf-vrB2": {
+    "vraag_id": "2008-bibf-vrB2",
+    "vak_code_in_pdf": "B",
+    "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.2",
+      "1.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Jaarrekening-schema (groot/klein) op geconsolideerde grondslag — boekhoudrecht + consolidatie."
+  },
+  "2008-bibf-vrB3": {
+    "vraag_id": "2008-bibf-vrB3",
+    "vak_code_in_pdf": "B",
+    "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.2",
+      "1.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Bezoldiging commissaris (rubriek + toelichting) — boekhoudrecht + externe controle."
+  },
+  "2008-bibf-vrB4": {
+    "vraag_id": "2008-bibf-vrB4",
+    "vak_code_in_pdf": "B",
+    "vak_naam_in_pdf": "B. Wetgeving op de boekhouding en de jaarrekening + opstellen, analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.2"
+    ],
+    "confidence": "midden",
+    "rationale": "Sociale balans — opleidingskosten waarderen — boekhoudrecht / jaarrekeningverplichtingen."
+  },
+  "2008-bibf-vrC1": {
+    "vraag_id": "2008-bibf-vrC1",
+    "vak_code_in_pdf": "C",
+    "vak_naam_in_pdf": "C. Algemene beginselen van het financieel beheer",
+    "programmaonderdelen": [
+      "1.9"
+    ],
+    "confidence": "hoog",
+    "rationale": "Behoefte aan bedrijfskapitaal — financiële analyse."
+  },
+  "2008-bibf-vrC2": {
+    "vraag_id": "2008-bibf-vrC2",
+    "vak_code_in_pdf": "C",
+    "vak_naam_in_pdf": "C. Algemene beginselen van het financieel beheer",
+    "programmaonderdelen": [
+      "1.9"
+    ],
+    "confidence": "hoog",
+    "rationale": "Cashflow-analyse en investeringskrediet — financieel beheer."
+  },
+  "2008-bibf-vrD1": {
+    "vraag_id": "2008-bibf-vrD1",
+    "vak_code_in_pdf": "D",
+    "vak_naam_in_pdf": "D. Organisatie van de boekhouding en de administratieve diensten van de onderneming",
+    "programmaonderdelen": [
+      "1.1",
+      "2.4"
+    ],
+    "confidence": "midden",
+    "rationale": "Boekhoudkundige organisatie horeca-zaak — administratie + BTW."
+  },
+  "2008-bibf-vrD2": {
+    "vraag_id": "2008-bibf-vrD2",
+    "vak_code_in_pdf": "D",
+    "vak_naam_in_pdf": "D. Organisatie van de boekhouding en de administratieve diensten van de onderneming",
+    "programmaonderdelen": [
+      "1.1",
+      "2.4"
+    ],
+    "confidence": "midden",
+    "rationale": "BTW-voorschot-aanrekening + bewaarplicht offertes — administratie + BTW."
+  },
+  "2008-bibf-vrE1": {
+    "vraag_id": "2008-bibf-vrE1",
+    "vak_code_in_pdf": "E",
+    "vak_naam_in_pdf": "E. BTW",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Overgang forfaitair → maandelijks BTW-regime — BTW."
+  },
+  "2008-bibf-vrE2": {
+    "vraag_id": "2008-bibf-vrE2",
+    "vak_code_in_pdf": "E",
+    "vak_naam_in_pdf": "E. BTW",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "BTW-aangiftevakken handelaar wagens — BTW."
+  },
+  "2008-bibf-vrE3": {
+    "vraag_id": "2008-bibf-vrE3",
+    "vak_code_in_pdf": "E",
+    "vak_naam_in_pdf": "E. BTW",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Diverse BTW-onderwerpen: aftrektermijn, vrijstellingsregeling, BTW-eenheid, plaats van de dienst."
+  },
+  "2008-bibf-vrF1": {
+    "vraag_id": "2008-bibf-vrF1",
+    "vak_code_in_pdf": "F",
+    "vak_naam_in_pdf": "F. Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Hypothecaire lening intrestaftrek + woonbonus na erfenis — personenbelasting (enige woning)."
+  },
+  "2008-bibf-vrF2": {
+    "vraag_id": "2008-bibf-vrF2",
+    "vak_code_in_pdf": "F",
+    "vak_naam_in_pdf": "F. Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Aangifte onroerend inkomen + meerwaarde — personenbelasting."
+  },
+  "2008-bibf-vrF3": {
+    "vraag_id": "2008-bibf-vrF3",
+    "vak_code_in_pdf": "F",
+    "vak_naam_in_pdf": "F. Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Belastingvermindering dienstencheques + verdeling tussen echtgenoten — personenbelasting."
+  },
+  "2008-bibf-vrF4": {
+    "vraag_id": "2008-bibf-vrF4",
+    "vak_code_in_pdf": "F",
+    "vak_naam_in_pdf": "F. Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Aftrekbare besteding bij scheiding van goederen (15%-regel) — personenbelasting."
+  },
+  "2008-bibf-vrF5": {
+    "vraag_id": "2008-bibf-vrF5",
+    "vak_code_in_pdf": "F",
+    "vak_naam_in_pdf": "F. Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Belastbaar tijdperk (toerekening inkomsten) — personenbelasting."
+  },
+  "2008-bibf-vrF6": {
+    "vraag_id": "2008-bibf-vrF6",
+    "vak_code_in_pdf": "F",
+    "vak_naam_in_pdf": "F. Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Vrijgesteld inkomen (MC) — personenbelasting."
+  },
+  "2008-bibf-vrF7": {
+    "vraag_id": "2008-bibf-vrF7",
+    "vak_code_in_pdf": "F",
+    "vak_naam_in_pdf": "F. Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Aftrekbare besteding (MC) — personenbelasting."
+  },
+  "2008-bibf-vrG1": {
+    "vraag_id": "2008-bibf-vrG1",
+    "vak_code_in_pdf": "G",
+    "vak_naam_in_pdf": "G. Vennootschapsbelasting",
+    "programmaonderdelen": [
+      "2.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Volledige VennB-aangifte met notionele intrestaftrek, KMO-tarief, investeringsaftrek, verworpen uitgaven."
+  },
+  "2008-bibf-vrH1": {
+    "vraag_id": "2008-bibf-vrH1",
+    "vak_code_in_pdf": "H",
+    "vak_naam_in_pdf": "H. Belastingprocedures (2008: + registratie- en successierechten)",
+    "programmaonderdelen": [
+      "2.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "Bezwaar personenbelasting (termijn + vorm) — fiscale procedure."
+  },
+  "2008-bibf-vrH2": {
+    "vraag_id": "2008-bibf-vrH2",
+    "vak_code_in_pdf": "H",
+    "vak_naam_in_pdf": "H. Belastingprocedures (2008: + registratie- en successierechten)",
+    "programmaonderdelen": [
+      "2.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "Aanslag op tekenen en indiciën — fiscale procedure."
+  },
+  "2008-bibf-vrH3": {
+    "vraag_id": "2008-bibf-vrH3",
+    "vak_code_in_pdf": "H",
+    "vak_naam_in_pdf": "H. Belastingprocedures (2008: + registratie- en successierechten)",
+    "programmaonderdelen": [
+      "2.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Schenking effecten via Nederlandse notaris vs. 3% Vlaanderen — schenkings- en successierechten."
+  },
+  "2008-bibf-vrI1": {
+    "vraag_id": "2008-bibf-vrI1",
+    "vak_code_in_pdf": "I",
+    "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Toegestaan kapitaal — kapitaalverhoging zonder BAV — vennootschapsrecht."
+  },
+  "2008-bibf-vrI2": {
+    "vraag_id": "2008-bibf-vrI2",
+    "vak_code_in_pdf": "I",
+    "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Financieel plan bij oprichting — vennootschapsrecht."
+  },
+  "2008-bibf-vrI3": {
+    "vraag_id": "2008-bibf-vrI3",
+    "vak_code_in_pdf": "I",
+    "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Belangenconflict enige vennoot-zaakvoerder BVBA — vennootschapsrecht."
+  },
+  "2008-bibf-vrI4": {
+    "vraag_id": "2008-bibf-vrI4",
+    "vak_code_in_pdf": "I",
+    "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Burgerlijke vennootschap en gerechtelijk akkoord — vennootschapsrecht / insolventie."
+  },
+  "2008-bibf-vrI5": {
+    "vraag_id": "2008-bibf-vrI5",
+    "vak_code_in_pdf": "I",
+    "vak_naam_in_pdf": "I. Vennootschapsrecht, ondernemingen in moeilijkheden (2003: + registratie/successie + douane/accijnzen)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Oprichtersaansprakelijkheid BVBA vs NV — vennootschapsrecht."
+  },
+  "2008-bibf-vrJ1": {
+    "vraag_id": "2008-bibf-vrJ1",
+    "vak_code_in_pdf": "J",
+    "vak_naam_in_pdf": "J. Beginselen van het arbeids- en sociaal zekerheidsrecht",
+    "programmaonderdelen": [],
+    "confidence": "laag",
+    "rationale": "Ontslag om dringende reden (Bart) — arbeids- en sociaal zekerheidsrecht zit niet in het ITAA-examenprogramma 2024."
+  },
+  "2008-bibf-vrK1": {
+    "vraag_id": "2008-bibf-vrK1",
+    "vak_code_in_pdf": "K",
+    "vak_naam_in_pdf": "K. Plichtenleer",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Onafhankelijkheid: bestuursmandaat + boekhouder van dezelfde NV — deontologie."
+  },
+  "2008-bibf-vrK2": {
+    "vraag_id": "2008-bibf-vrK2",
+    "vak_code_in_pdf": "K",
+    "vak_naam_in_pdf": "K. Plichtenleer",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Ronselen via meegeleverde klantenlijst — deontologie / confraterrelaties."
+  },
+  "2008-bibf-vrK3": {
+    "vraag_id": "2008-bibf-vrK3",
+    "vak_code_in_pdf": "K",
+    "vak_naam_in_pdf": "K. Plichtenleer",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Overdracht dossier + verbod aanbrengcommissie — deontologie."
+  },
+  "2008-bibf-vrK4": {
+    "vraag_id": "2008-bibf-vrK4",
+    "vak_code_in_pdf": "K",
+    "vak_naam_in_pdf": "K. Plichtenleer",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Schorsing 3 maanden + lidgeld / verzekering / permanente vorming — deontologie / tucht."
+  },
+  "2008-bibf-vrK5": {
+    "vraag_id": "2008-bibf-vrK5",
+    "vak_code_in_pdf": "K",
+    "vak_naam_in_pdf": "K. Plichtenleer",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Boekhoudvennootschap: doelomschrijving, zaakvoerder, aandelenverdeling, stagiair — deontologie / KB 15/2/2005."
+  },
+  "2013-1-vr1": {
+    "vraag_id": "2013-1-vr1",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Berekening ratio's en analyse op balans- en resultatenrekening van BVBA XYZ — jaarrekeninganalyse (PO 1.3)."
+  },
+  "2013-1-vr2": {
+    "vraag_id": "2013-1-vr2",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Boeking van kapitaalverhoging via inbreng-schuld + kapitaalvermindering — boekhoudkundige verwerking (1.1) op grondslag boekhoudrecht (1.2)."
+  },
+  "2013-1-vr3": {
+    "vraag_id": "2013-1-vr3",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Activering van O&O-kosten (vooronderzoek, ontwikkeling, materiaal, lonen) — boekhoudkundige verwerking + boekhoudrechtelijke voorwaarden voor activering immateriële vaste activa."
+  },
+  "2013-1-vr4": {
+    "vraag_id": "2013-1-vr4",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Berekening van financiële ratio's (nettobedrijfskapitaal, brutoverkoopmarge, ...) op basis van balans en resultatenrekening — kritische analyse van de jaarrekening."
+  },
+  "2013-1-vr5": {
+    "vraag_id": "2013-1-vr5",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Definiëren financiële begrippen (intrinsieke waarde, fractiewaarde, netto rendabiliteit, schuldgraad, operationele cash flow) — analyse van de jaarrekening."
+  },
+  "2013-1-vr8": {
+    "vraag_id": "2013-1-vr8",
+    "vak_code_in_pdf": "1.3",
+    "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.7"
+    ],
+    "confidence": "hoog",
+    "rationale": "Definitie interne controle + 'redelijke zekerheid' voor het bestuursorgaan — kerninhoud PO 1.7."
+  },
+  "2013-1-vr9": {
+    "vraag_id": "2013-1-vr9",
+    "vak_code_in_pdf": "1.3",
+    "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.7"
+    ],
+    "confidence": "hoog",
+    "rationale": "Procedure met functiescheiding voor kasbeheer — interne controle / controletechnische maatregelen."
+  },
+  "2013-1-vr10": {
+    "vraag_id": "2013-1-vr10",
+    "vak_code_in_pdf": "1.3",
+    "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.7"
+    ],
+    "confidence": "hoog",
+    "rationale": "Analytische test door interne controleafdeling op tussentijdse resultaten — interne controle."
+  },
+  "2013-1-vr11": {
+    "vraag_id": "2013-1-vr11",
+    "vak_code_in_pdf": "1.3",
+    "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.7"
+    ],
+    "confidence": "hoog",
+    "rationale": "Belang van een budget voor de interne controleafdeling — interne controle."
+  },
+  "2013-1-vr12": {
+    "vraag_id": "2013-1-vr12",
+    "vak_code_in_pdf": "1.3",
+    "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.7"
+    ],
+    "confidence": "hoog",
+    "rationale": "Schriftelijke leveranciersconfirmaties als aanvulling op boekhouding — interne controle."
+  },
+  "2013-1-vr13": {
+    "vraag_id": "2013-1-vr13",
+    "vak_code_in_pdf": "1.3",
+    "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.7",
+      "1.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Externe accountant stelt tussentijdse staat op; klantenconfirmaties leggen fraude bloot — interne controle + externe controle / accountantsonderzoek."
+  },
+  "2013-1-vr14": {
+    "vraag_id": "2013-1-vr14",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Aandeelhouderschap BVBA bij overlijden vennoot — vennootschapsrecht."
+  },
+  "2013-1-vr15": {
+    "vraag_id": "2013-1-vr15",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Effecten aan toonder + dematerialisatieverplichting — vennootschapsrecht."
+  },
+  "2013-1-vr16": {
+    "vraag_id": "2013-1-vr16",
+    "vak_code_in_pdf": "3.2",
+    "vak_naam_in_pdf": "Vennootschapsrecht (bijzondere mandaten)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Opdracht externe accountant bij ontbinding (staat van activa/passiva, continuïteit) — bijzondere mandaten valt onder vennootschapsrecht PO 3.0."
+  },
+  "2013-1-vr17": {
+    "vraag_id": "2013-1-vr17",
+    "vak_code_in_pdf": "3.2",
+    "vak_naam_in_pdf": "Vennootschapsrecht (bijzondere mandaten)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Herwaardering machines bij staat activa/passiva voor ontbinding — bijzondere mandaten / vennootschapsrecht."
+  },
+  "2013-1-vr18": {
+    "vraag_id": "2013-1-vr18",
+    "vak_code_in_pdf": "3.2",
+    "vak_naam_in_pdf": "Vennootschapsrecht (bijzondere mandaten)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Procedurele opmerkingen bij ontbindingsverslag (datum controleverslag, verdaging AV) — bijzondere mandaten / vennootschapsrecht."
+  },
+  "2013-1-vr19": {
+    "vraag_id": "2013-1-vr19",
+    "vak_code_in_pdf": "3.2",
+    "vak_naam_in_pdf": "Vennootschapsrecht (bijzondere mandaten)",
+    "programmaonderdelen": [
+      "3.0",
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Opdrachtbrief externe accountant bij omzetting van vennootschap — vennootschapsrecht + deontologische normen ITAA-opdracht."
+  },
+  "2013-1-vr20": {
+    "vraag_id": "2013-1-vr20",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Stopzettingsmeerwaarden bij verkoop handelszaak loodgieter — personenbelasting (PO 2.2)."
+  },
+  "2013-1-vr21": {
+    "vraag_id": "2013-1-vr21",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Diverse waar/onwaar-uitspraken: voorafbetalingen, spaarrekening kind, gesplitste eigendom, ... — personenbelasting."
+  },
+  "2013-1-vr22": {
+    "vraag_id": "2013-1-vr22",
+    "vak_code_in_pdf": "2.2",
+    "vak_naam_in_pdf": "Vennootschapsbelasting",
+    "programmaonderdelen": [
+      "2.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Voorraadwaardering BVBA en fiscale correctie — vennootschapsbelasting (PO 2.3)."
+  },
+  "2013-1-vr23": {
+    "vraag_id": "2013-1-vr23",
+    "vak_code_in_pdf": "2.2",
+    "vak_naam_in_pdf": "Vennootschapsbelasting",
+    "programmaonderdelen": [
+      "2.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Voorzieningen voor grote herstellingen + formulier 204.3 — vennootschapsbelasting."
+  },
+  "2013-1-vr24": {
+    "vraag_id": "2013-1-vr24",
+    "vak_code_in_pdf": "2.2",
+    "vak_naam_in_pdf": "Vennootschapsbelasting",
+    "programmaonderdelen": [
+      "2.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Belastbare grondslag VennB met VAA firmawagens + overgedragen verliezen — vennootschapsbelasting."
+  },
+  "2013-1-vr25": {
+    "vraag_id": "2013-1-vr25",
+    "vak_code_in_pdf": "2.3",
+    "vak_naam_in_pdf": "Belasting over de toegevoegde waarde",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "BTW-aangifteroosters bij stopzetting (bestelwagen, gebouw) — BTW (PO 2.4)."
+  },
+  "2013-1-vr26": {
+    "vraag_id": "2013-1-vr26",
+    "vak_code_in_pdf": "2.3",
+    "vak_naam_in_pdf": "Belasting over de toegevoegde waarde",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "BTW-gevolgen bij verkoop gebouw + ter beschikking stelling personenwagen — BTW."
+  },
+  "2013-1-vr27": {
+    "vraag_id": "2013-1-vr27",
+    "vak_code_in_pdf": "2.4",
+    "vak_naam_in_pdf": "Beginselen van registratie- en successierechten",
+    "programmaonderdelen": [
+      "2.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Verkoop gemeubileerd appartement Leuven door NL-verkoper — registratierechten (PO 2.6)."
+  },
+  "2013-1-vr28": {
+    "vraag_id": "2013-1-vr28",
+    "vak_code_in_pdf": "2.4",
+    "vak_naam_in_pdf": "Beginselen van registratie- en successierechten",
+    "programmaonderdelen": [
+      "2.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Verzaking nalatenschap + successierechten — registratie- en successierechten (PO 2.6)."
+  },
+  "2013-1-vr29": {
+    "vraag_id": "2013-1-vr29",
+    "vak_code_in_pdf": "2.6",
+    "vak_naam_in_pdf": "Beginselen van Europees en internationaal fiscaal recht",
+    "programmaonderdelen": [
+      "2.8"
+    ],
+    "confidence": "hoog",
+    "rationale": "Belgisch inwoner werkt 3/1/1 dagen in BE/FR/DE — internationaal fiscaal recht (PO 2.8)."
+  },
+  "2013-1-vr30": {
+    "vraag_id": "2013-1-vr30",
+    "vak_code_in_pdf": "2.6",
+    "vak_naam_in_pdf": "Beginselen van Europees en internationaal fiscaal recht",
+    "programmaonderdelen": [
+      "2.8"
+    ],
+    "confidence": "hoog",
+    "rationale": "Lening BE-vennootschap aan Hongaarse vennootschap + transfer pricing — internationaal fiscaal recht."
+  },
+  "2013-1-vr31": {
+    "vraag_id": "2013-1-vr31",
+    "vak_code_in_pdf": "2.7",
+    "vak_naam_in_pdf": "Fiscale procedure",
+    "programmaonderdelen": [
+      "2.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "BTW-controle ter plaatse bij foodservice langs autosnelweg — fiscale procedure (PO 2.5)."
+  },
+  "2013-1-vr32": {
+    "vraag_id": "2013-1-vr32",
+    "vak_code_in_pdf": "2.7",
+    "vak_naam_in_pdf": "Fiscale procedure",
+    "programmaonderdelen": [
+      "2.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "Aanwijzingen belastingontduiking + verlengde onderzoekstermijn — fiscale procedure."
+  },
+  "2013-1-vr33": {
+    "vraag_id": "2013-1-vr33",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Antiwitwaswetgeving — compliance officer / witwasverantwoordelijke — PO 4.0."
+  },
+  "2013-1-vr34": {
+    "vraag_id": "2013-1-vr34",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Beroepsgeheim externe accountant + uitzonderingen Strafwetboek — deontologie."
+  },
+  "2013-1-vr35": {
+    "vraag_id": "2013-1-vr35",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Onafhankelijkheid + verenigbare/uitgesloten activiteiten externe accountant — deontologie."
+  },
+  "2013-1-vr36": {
+    "vraag_id": "2013-1-vr36",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Publiciteitsregels voor externe accountant — deontologie."
+  },
+  "2013-1-vr37": {
+    "vraag_id": "2013-1-vr37",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0",
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Termijn overmaken controleverslag aan instituut (vereffening + omvorming) — deontologische verplichting bij bijzondere mandaten (vennootschapsrecht)."
+  },
+  "2013-2-vr1": {
+    "vraag_id": "2013-2-vr1",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Boekhoudkundige verwerking software (laptop-bundle, boekhoudsoftware, handelsgoederen) — algemene boekhouding + boekhoudrecht inzake (im)materiële vaste activa."
+  },
+  "2013-2-vr2": {
+    "vraag_id": "2013-2-vr2",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Wijziging afschrijvingspercentages + nieuwe bestuurders vermelden in jaarrekening — boekhoudrecht / jaarrekeningverplichtingen."
+  },
+  "2013-2-vr3": {
+    "vraag_id": "2013-2-vr3",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Goodwill bij overname (meerprijs 30.000 EUR) + afschrijvingsperiode — boekhouding + boekhoudrechtelijke regels."
+  },
+  "2013-2-vr4": {
+    "vraag_id": "2013-2-vr4",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Voorziening voor groot onderhoud (schilderwerk om 8 jaar) — boekhouding + boekhoudrecht."
+  },
+  "2013-2-vr5": {
+    "vraag_id": "2013-2-vr5",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Ratioberekeningen op cliëntbalans (NBK, brutoverkoopmarge, ...) — jaarrekeninganalyse."
+  },
+  "2013-2-vr6": {
+    "vraag_id": "2013-2-vr6",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Manieren om nettobedrijfskapitaal te verhogen — jaarrekeninganalyse / financieel bedrijfsbeheer."
+  },
+  "2013-2-vr7": {
+    "vraag_id": "2013-2-vr7",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Liquiditeit in enge vs. ruime zin — jaarrekeninganalyse."
+  },
+  "2013-2-vr8": {
+    "vraag_id": "2013-2-vr8",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Positief consolidatieverschil + vier oorzaken — kerninhoud PO 1.4 (consolidatie)."
+  },
+  "2013-2-vr9": {
+    "vraag_id": "2013-2-vr9",
+    "vak_code_in_pdf": "1.3",
+    "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "4 soorten auditmethodes — externe controle / accountantsonderzoek (PO 1.6)."
+  },
+  "2013-2-vr10": {
+    "vraag_id": "2013-2-vr10",
+    "vak_code_in_pdf": "1.3",
+    "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.7"
+    ],
+    "confidence": "hoog",
+    "rationale": "Functiescheiding in inkoopcyclus (autorisatie / bewaren / registratie / controle) — interne controle."
+  },
+  "2013-2-vr11": {
+    "vraag_id": "2013-2-vr11",
+    "vak_code_in_pdf": "1.3",
+    "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Wanneer onthoudende verklaring van accountant — externe controle."
+  },
+  "2013-2-vr12": {
+    "vraag_id": "2013-2-vr12",
+    "vak_code_in_pdf": "1.3",
+    "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.7"
+    ],
+    "confidence": "hoog",
+    "rationale": "Preventieve/repressieve/corrigerende interne-controlemaatregelen — interne controle."
+  },
+  "2013-2-vr13": {
+    "vraag_id": "2013-2-vr13",
+    "vak_code_in_pdf": "1.3",
+    "vak_naam_in_pdf": "Interne controle en accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Controleopdracht extern accountant NV Fortunato — cijfers, voorraadtelling, materiality — externe controle / accountantsonderzoek."
+  },
+  "2013-2-vr14": {
+    "vraag_id": "2013-2-vr14",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Niet-neerlegging jaarrekening 4 boekjaren — vennootschapsrecht."
+  },
+  "2013-2-vr15": {
+    "vraag_id": "2013-2-vr15",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Alarmbelprocedure bij BVBA met overgedragen verlies — vennootschapsrecht."
+  },
+  "2013-2-vr16": {
+    "vraag_id": "2013-2-vr16",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Toegestaan kapitaal + oprichtersaansprakelijkheid NV — vennootschapsrecht."
+  },
+  "2013-2-vr17": {
+    "vraag_id": "2013-2-vr17",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Vennootschapsvormen + kenmerken (onderhandse akte, winstbewijzen, NBB-neerlegging, minimumkapitaal) — vennootschapsrecht."
+  },
+  "2013-2-vr18": {
+    "vraag_id": "2013-2-vr18",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Minderheidsvordering tegen zaakvoerders BVBA — vennootschapsrecht (rechten minderheidsaandeelhouders)."
+  },
+  "2013-2-vr19": {
+    "vraag_id": "2013-2-vr19",
+    "vak_code_in_pdf": "3.2",
+    "vak_naam_in_pdf": "Vennootschapsrecht (bijzondere mandaten)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Omzetting CVBA → BVBA (controleverslag, onafhankelijkheid, basisstukken) — bijzondere mandaten / vennootschapsrecht."
+  },
+  "2013-2-vr20": {
+    "vraag_id": "2013-2-vr20",
+    "vak_code_in_pdf": "3.2",
+    "vak_naam_in_pdf": "Vennootschapsrecht (bijzondere mandaten)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Individueel controlerecht Franse aandeelhouder in BE-BVBA — vennootschapsrecht (rechten vennoten)."
+  },
+  "2013-2-vr21": {
+    "vraag_id": "2013-2-vr21",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Eenmalige onderhoudsuitkering bij scheiding (kapitaal) + omzetting in lijfrente — personenbelasting."
+  },
+  "2013-2-vr22": {
+    "vraag_id": "2013-2-vr22",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Beroepsmatige kilometers osteopaat + autokosten — personenbelasting."
+  },
+  "2013-2-vr23": {
+    "vraag_id": "2013-2-vr23",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Gewaarborgd inkomen + meerwaarde herbelegging — personenbelasting (afzonderlijke aanslagvoeten)."
+  },
+  "2013-2-vr24": {
+    "vraag_id": "2013-2-vr24",
+    "vak_code_in_pdf": "2.2",
+    "vak_naam_in_pdf": "Vennootschapsbelasting",
+    "programmaonderdelen": [
+      "2.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "VennB-aangifte: belastbare grondslag (DBI, VU, dividenden) — vennootschapsbelasting."
+  },
+  "2013-2-vr25": {
+    "vraag_id": "2013-2-vr25",
+    "vak_code_in_pdf": "2.2",
+    "vak_naam_in_pdf": "Vennootschapsbelasting",
+    "programmaonderdelen": [
+      "2.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Beleggingsportefeuille en meerwaarde aandelen + DBI-voorwaarden — vennootschapsbelasting."
+  },
+  "2013-2-vr26": {
+    "vraag_id": "2013-2-vr26",
+    "vak_code_in_pdf": "2.3",
+    "vak_naam_in_pdf": "Belasting over de toegevoegde waarde",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Btw-herziening bij stopzetting belastingplichtige (mengactiviteit) — BTW."
+  },
+  "2013-2-vr27": {
+    "vraag_id": "2013-2-vr27",
+    "vak_code_in_pdf": "2.3",
+    "vak_naam_in_pdf": "Belasting over de toegevoegde waarde",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "BTW-aftrek personenwagen + ter beschikking stelling werknemer — BTW."
+  },
+  "2013-2-vr28": {
+    "vraag_id": "2013-2-vr28",
+    "vak_code_in_pdf": "2.4",
+    "vak_naam_in_pdf": "Beginselen van registratie- en successierechten",
+    "programmaonderdelen": [
+      "2.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Successierechten bij overlijden weduwnaar — passief van de nalatenschap — registratie- en successierechten."
+  },
+  "2013-2-vr29": {
+    "vraag_id": "2013-2-vr29",
+    "vak_code_in_pdf": "2.4",
+    "vak_naam_in_pdf": "Beginselen van registratie- en successierechten",
+    "programmaonderdelen": [
+      "2.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Registratierechten bij verdeling onverdeeld appartementsgebouw — registratierechten."
+  },
+  "2013-2-vr30": {
+    "vraag_id": "2013-2-vr30",
+    "vak_code_in_pdf": "2.6",
+    "vak_naam_in_pdf": "Beginselen van Europees en internationaal fiscaal recht",
+    "programmaonderdelen": [
+      "2.8"
+    ],
+    "confidence": "hoog",
+    "rationale": "Belgische NV met bijkantoor in Italië — overdracht verliezen en dubbelbelastingverdrag — internationaal fiscaal recht."
+  },
+  "2013-2-vr31": {
+    "vraag_id": "2013-2-vr31",
+    "vak_code_in_pdf": "2.6",
+    "vak_naam_in_pdf": "Beginselen van Europees en internationaal fiscaal recht",
+    "programmaonderdelen": [
+      "2.8"
+    ],
+    "confidence": "hoog",
+    "rationale": "Luxemburgse woonstaatheffing op interesten — verwerking in BE-aangifte — internationaal/Europees fiscaal recht."
+  },
+  "2013-2-vr32": {
+    "vraag_id": "2013-2-vr32",
+    "vak_code_in_pdf": "2.7",
+    "vak_naam_in_pdf": "Fiscale procedure",
+    "programmaonderdelen": [
+      "2.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "Vraag om inlichtingen over derden + termijn — fiscale procedure."
+  },
+  "2013-2-vr33": {
+    "vraag_id": "2013-2-vr33",
+    "vak_code_in_pdf": "2.7",
+    "vak_naam_in_pdf": "Fiscale procedure",
+    "programmaonderdelen": [
+      "2.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "Bezwaarschrift roerende voorheffing + door erfgenamen — fiscale procedure."
+  },
+  "2013-2-vr34": {
+    "vraag_id": "2013-2-vr34",
+    "vak_code_in_pdf": "2.7",
+    "vak_naam_in_pdf": "Fiscale procedure",
+    "programmaonderdelen": [
+      "2.5",
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Opeisbaarheid + verjaringstermijn bij intracommunautaire aankoop — fiscale procedure (BTW)."
+  },
+  "2013-2-vr35": {
+    "vraag_id": "2013-2-vr35",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Permanente vorming IAB — deontologie (verplichting + verhouding seminaries)."
+  },
+  "2013-2-vr36": {
+    "vraag_id": "2013-2-vr36",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Identificatieverplichtingen antiwitwaswet bij aanvaarding nieuw dossier — deontologie + AWW."
+  },
+  "2013-2-vr37": {
+    "vraag_id": "2013-2-vr37",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Dossieroverdracht confraters + verplichtingen — deontologie."
+  },
+  "2013-2-vr38": {
+    "vraag_id": "2013-2-vr38",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0",
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Aanvaarden van monopolieopdracht (omvorming / individueel controlerecht) — deontologie / onafhankelijkheid + vennootschapsrechtelijke kader bijzondere mandaten."
+  },
+  "2014-1-vr1": {
+    "vraag_id": "2014-1-vr1",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Vastklikken van reserves + boeking dividend + RV — boekhouding op grondslag van boekhoudrecht."
+  },
+  "2014-1-vr2": {
+    "vraag_id": "2014-1-vr2",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Kapitaalverhoging via incorporatie reserves + uitgiftepremie — boekhouding + boekhoudrechtelijke verwerking."
+  },
+  "2014-1-vr3": {
+    "vraag_id": "2014-1-vr3",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Herwaarderingsmeerwaarde op volledig afgeschreven octrooi bij verkoop — boekhouding + boekhoudrecht."
+  },
+  "2014-1-vr4": {
+    "vraag_id": "2014-1-vr4",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Verkoop met betaling over 5 jaar + disconto/intresten — boekhouding + boekhoudrechtelijke regels disconto."
+  },
+  "2014-1-vr5": {
+    "vraag_id": "2014-1-vr5",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Ratio's (bruto toegevoegde waarde per werknemer, etc.) — jaarrekeninganalyse."
+  },
+  "2014-1-vr6": {
+    "vraag_id": "2014-1-vr6",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Begrip nettothesaurie + interpretatie — jaarrekeninganalyse."
+  },
+  "2014-1-vr9": {
+    "vraag_id": "2014-1-vr9",
+    "vak_code_in_pdf": "1.3 IC",
+    "vak_naam_in_pdf": "Interne controle",
+    "programmaonderdelen": [
+      "1.7"
+    ],
+    "confidence": "hoog",
+    "rationale": "Algemene interne-controle-doelstellingen voor boekhoudkundige registratie — interne controle."
+  },
+  "2014-1-vr10": {
+    "vraag_id": "2014-1-vr10",
+    "vak_code_in_pdf": "1.3 IC",
+    "vak_naam_in_pdf": "Interne controle",
+    "programmaonderdelen": [
+      "1.7"
+    ],
+    "confidence": "hoog",
+    "rationale": "Risico's bij aanmaak klantenfiches door verkoper — interne controle."
+  },
+  "2014-1-vr11": {
+    "vraag_id": "2014-1-vr11",
+    "vak_code_in_pdf": "1.3 IC",
+    "vak_naam_in_pdf": "Interne controle",
+    "programmaonderdelen": [
+      "1.7"
+    ],
+    "confidence": "hoog",
+    "rationale": "Procedure functiescheiding kasbeheer — interne controle."
+  },
+  "2014-1-vr12": {
+    "vraag_id": "2014-1-vr12",
+    "vak_code_in_pdf": "1.3 AO",
+    "vak_naam_in_pdf": "Accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Confirmatie- of bevestigingsbrieven aan klanten + voorbehoud in verslag — externe controle."
+  },
+  "2014-1-vr13": {
+    "vraag_id": "2014-1-vr13",
+    "vak_code_in_pdf": "1.3 AO",
+    "vak_naam_in_pdf": "Accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Erelonen advocaat in resultatenrekening — implicaties voor controleverslag — externe controle / accountantsonderzoek."
+  },
+  "2014-1-vr14": {
+    "vraag_id": "2014-1-vr14",
+    "vak_code_in_pdf": "1.3 AO",
+    "vak_naam_in_pdf": "Accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Volkomen controleopdracht + materialiteitsgrens 50.000 EUR — externe controle."
+  },
+  "2014-1-vr15": {
+    "vraag_id": "2014-1-vr15",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Vennootschapsvormen + kenmerken (aansprakelijkheid, winstbewijzen, NBB, financieel plan) — vennootschapsrecht."
+  },
+  "2014-1-vr16": {
+    "vraag_id": "2014-1-vr16",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Kapitaalverhoging via toegestaan kapitaal NV PILOTE — vennootschapsrecht."
+  },
+  "2014-1-vr17": {
+    "vraag_id": "2014-1-vr17",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Quasi-inbreng (verkoop gebouw zaakvoerder aan vennootschap) — vennootschapsrecht."
+  },
+  "2014-1-vr18": {
+    "vraag_id": "2014-1-vr18",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Interim-dividend NV MINCALOR — vennootschapsrecht (vereisten + tussentijdse staat)."
+  },
+  "2014-1-vr19": {
+    "vraag_id": "2014-1-vr19",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Verkort schema vs. volledig schema (kleine onderneming – criterium personeel/balans) — vennootschapsrecht (jaarrekeningverplichtingen)."
+  },
+  "2014-1-vr20": {
+    "vraag_id": "2014-1-vr20",
+    "vak_code_in_pdf": "3.2",
+    "vak_naam_in_pdf": "Vennootschapsrecht (bijzondere mandaten)",
+    "programmaonderdelen": [
+      "3.0",
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Omzetting NV TRIAL → BVBA — opdracht externe accountant (bevoegdheid, onafhankelijkheid, continuïteit) — bijzondere mandaten + deontologie."
+  },
+  "2014-1-vr21": {
+    "vraag_id": "2014-1-vr21",
+    "vak_code_in_pdf": "3.2",
+    "vak_naam_in_pdf": "Vennootschapsrecht (bijzondere mandaten)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Omzetting VOF STORE → BVBA + controleverslag — bijzondere mandaten / vennootschapsrecht."
+  },
+  "2014-1-vr22": {
+    "vraag_id": "2014-1-vr22",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Personen ten laste — personenbelasting."
+  },
+  "2014-1-vr23": {
+    "vraag_id": "2014-1-vr23",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Huwelijksquotiënt — personenbelasting."
+  },
+  "2014-1-vr24": {
+    "vraag_id": "2014-1-vr24",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Onroerende inkomsten + fiscaal regime per gebruik — personenbelasting."
+  },
+  "2014-1-vr25": {
+    "vraag_id": "2014-1-vr25",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Diverse inkomsten art. 90, 1° WIB 1992 — personenbelasting."
+  },
+  "2014-1-vr26": {
+    "vraag_id": "2014-1-vr26",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Meerwaarden belastbaar tegen afzonderlijke aanslagvoet van 33% — personenbelasting."
+  },
+  "2014-1-vr27": {
+    "vraag_id": "2014-1-vr27",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Aftrekbare bestedingen + kinderoppas + onderhoudsuitkering — personenbelasting."
+  },
+  "2014-1-vr28": {
+    "vraag_id": "2014-1-vr28",
+    "vak_code_in_pdf": "2.2",
+    "vak_naam_in_pdf": "Vennootschapsbelasting",
+    "programmaonderdelen": [
+      "2.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Gespreide taxatie meerwaarde op kantoorgebouw + herbeleggingstermijn — vennootschapsbelasting."
+  },
+  "2014-1-vr29": {
+    "vraag_id": "2014-1-vr29",
+    "vak_code_in_pdf": "2.2",
+    "vak_naam_in_pdf": "Vennootschapsbelasting",
+    "programmaonderdelen": [
+      "2.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Notionele intrestaftrek + voorziening interne pensioenbelofte — vennootschapsbelasting."
+  },
+  "2014-1-vr30": {
+    "vraag_id": "2014-1-vr30",
+    "vak_code_in_pdf": "2.3",
+    "vak_naam_in_pdf": "Belasting over de toegevoegde waarde",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "BTW-plaatsbepaling: werk in onroerende staat in Duitsland — BTW."
+  },
+  "2014-1-vr31": {
+    "vraag_id": "2014-1-vr31",
+    "vak_code_in_pdf": "2.3",
+    "vak_naam_in_pdf": "Belasting over de toegevoegde waarde",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "BTW bij openbare verkoop curator — BTW (bijzondere regelingen)."
+  },
+  "2014-1-vr32": {
+    "vraag_id": "2014-1-vr32",
+    "vak_code_in_pdf": "2.3",
+    "vak_naam_in_pdf": "Belasting over de toegevoegde waarde",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "BTW-statuut bijberoep (boekhouding doen) — BTW."
+  },
+  "2014-1-vr33": {
+    "vraag_id": "2014-1-vr33",
+    "vak_code_in_pdf": "2.3",
+    "vak_naam_in_pdf": "Belasting over de toegevoegde waarde",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "BTW-plaats bij Belgische accountant – particuliere klant – dienst onderweg Frankrijk — BTW."
+  },
+  "2014-1-vr34": {
+    "vraag_id": "2014-1-vr34",
+    "vak_code_in_pdf": "2.3",
+    "vak_naam_in_pdf": "Belasting over de toegevoegde waarde",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Reclamefactuur aan UK-onderneming met UK btw-nummer — BTW (B2B-plaatsbepaling)."
+  },
+  "2014-1-vr35": {
+    "vraag_id": "2014-1-vr35",
+    "vak_code_in_pdf": "2.4",
+    "vak_naam_in_pdf": "Beginselen van registratie- en successierechten",
+    "programmaonderdelen": [
+      "2.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Commandverklaring bij aankoop terrein + registratierechten — registratierechten."
+  },
+  "2014-1-vr36": {
+    "vraag_id": "2014-1-vr36",
+    "vak_code_in_pdf": "2.4",
+    "vak_naam_in_pdf": "Beginselen van registratie- en successierechten",
+    "programmaonderdelen": [
+      "2.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Successietestament + onderscheid algemene legataris, legataris ten algemene titel, bijzondere legataris — successierechten."
+  },
+  "2014-1-vr37": {
+    "vraag_id": "2014-1-vr37",
+    "vak_code_in_pdf": "2.6",
+    "vak_naam_in_pdf": "Beginselen van Europees en internationaal fiscaal recht",
+    "programmaonderdelen": [
+      "2.8"
+    ],
+    "confidence": "hoog",
+    "rationale": "Belgische vennootschap met VI in Italië + overdracht buitenlandse verliezen — internationaal fiscaal recht."
+  },
+  "2014-1-vr38": {
+    "vraag_id": "2014-1-vr38",
+    "vak_code_in_pdf": "2.6",
+    "vak_naam_in_pdf": "Beginselen van Europees en internationaal fiscaal recht",
+    "programmaonderdelen": [
+      "2.8"
+    ],
+    "confidence": "hoog",
+    "rationale": "Grensoverschrijdende fusie (BE → DE) en behoud fiscale verliezen — Europees/internationaal fiscaal recht (Richtlijn 2009/133/EG)."
+  },
+  "2014-1-vr39": {
+    "vraag_id": "2014-1-vr39",
+    "vak_code_in_pdf": "2.7",
+    "vak_naam_in_pdf": "Fiscale procedure",
+    "programmaonderdelen": [
+      "2.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "Vraag om inlichtingen + overmacht (wateroverlast) — fiscale procedure."
+  },
+  "2014-1-vr40": {
+    "vraag_id": "2014-1-vr40",
+    "vak_code_in_pdf": "2.7",
+    "vak_naam_in_pdf": "Fiscale procedure",
+    "programmaonderdelen": [
+      "2.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "Bezwaarschrift RV + termijn directeur + bezwaar door erfgenaam — fiscale procedure."
+  },
+  "2014-1-vr41": {
+    "vraag_id": "2014-1-vr41",
+    "vak_code_in_pdf": "2.7",
+    "vak_naam_in_pdf": "Fiscale procedure",
+    "programmaonderdelen": [
+      "2.5",
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Vraag om inlichtingen aan accountantskantoor over klant — fiscale procedure + beroepsgeheim/deontologie."
+  },
+  "2014-1-vr42": {
+    "vraag_id": "2014-1-vr42",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Kwaliteitstoetsing (periodiek, vervolg, thematisch, incident) — deontologie."
+  },
+  "2014-1-vr43": {
+    "vraag_id": "2014-1-vr43",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Confraterregels bij overname dossier + niet voldoen erelonen voorganger — deontologie."
+  },
+  "2014-1-vr44": {
+    "vraag_id": "2014-1-vr44",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Samenwerkingsverbanden (middelenvennootschap, professionele vennootschap) — deontologische regels."
+  },
+  "2014-1-vr45": {
+    "vraag_id": "2014-1-vr45",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Onafhankelijkheid externe accountant KB 1 maart 1998 — deontologie."
+  },
+  "2014-1-vr46": {
+    "vraag_id": "2014-1-vr46",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Verslag van omvorming uitvoeren voor confrater + dossierovername na opdracht — deontologie / onafhankelijkheid."
+  },
+  "2015-1-vr1": {
+    "vraag_id": "2015-1-vr1",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "FIFO-voorraadwaardering + waardeverminderingen + gebeurtenissen na balansdatum — boekhouding + boekhoudrecht."
+  },
+  "2015-1-vr2": {
+    "vraag_id": "2015-1-vr2",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Voorziening voor stelsel werkloosheid met bedrijfstoeslag — boekhouding + boekhoudrecht."
+  },
+  "2015-1-vr3": {
+    "vraag_id": "2015-1-vr3",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Waardevermindering vordering op meer dan 1 jaar bij dreigend faillissement klant — boekhouding + boekhoudrecht."
+  },
+  "2015-1-vr4": {
+    "vraag_id": "2015-1-vr4",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Intercalaire interesten op investeringskrediet — activering — boekhouding + boekhoudrecht."
+  },
+  "2015-1-vr5": {
+    "vraag_id": "2015-1-vr5",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Boekhoudkundige verwerking kapitaalsubsidie (rek. 15 + 1680 + 753) — boekhouding + boekhoudrecht."
+  },
+  "2015-1-vr6": {
+    "vraag_id": "2015-1-vr6",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Activering herstructureringskosten (ontmanteling, automatisatie) — boekhouding + boekhoudrecht."
+  },
+  "2015-1-vr7": {
+    "vraag_id": "2015-1-vr7",
+    "vak_code_in_pdf": "1.1",
+    "vak_naam_in_pdf": "Wetgeving inzake de jaarrekening",
+    "programmaonderdelen": [
+      "1.1",
+      "1.2",
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Boekhoudkundige verwerking voorschot bij vereffening BVBA — boekhouding + boekhoudrecht + vennootschapsrecht (vereffeningsregels)."
+  },
+  "2015-1-vr8": {
+    "vraag_id": "2015-1-vr8",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Berekening jaarrekening-ratio's — jaarrekeninganalyse."
+  },
+  "2015-1-vr9": {
+    "vraag_id": "2015-1-vr9",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Definiëren financiële begrippen (intrinsieke waarde, fractiewaarde, ...) — jaarrekeninganalyse."
+  },
+  "2015-1-vr10": {
+    "vraag_id": "2015-1-vr10",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
+    "programmaonderdelen": [
+      "1.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Behoefte aan werkkapitaal — bepalen welke balansrubrieken erin zitten — jaarrekeninganalyse."
+  },
+  "2015-1-vr12": {
+    "vraag_id": "2015-1-vr12",
+    "vak_code_in_pdf": "1.3 IC",
+    "vak_naam_in_pdf": "Interne controle",
+    "programmaonderdelen": [
+      "1.7"
+    ],
+    "confidence": "hoog",
+    "rationale": "Accountingcontrole vs. administratieve controle + preventief vs. repressief — interne controle."
+  },
+  "2015-1-vr13": {
+    "vraag_id": "2015-1-vr13",
+    "vak_code_in_pdf": "1.3 IC",
+    "vak_naam_in_pdf": "Interne controle",
+    "programmaonderdelen": [
+      "1.7"
+    ],
+    "confidence": "hoog",
+    "rationale": "Controletechnieken interne audit op goederen magazijn — interne controle."
+  },
+  "2015-1-vr14": {
+    "vraag_id": "2015-1-vr14",
+    "vak_code_in_pdf": "1.3 IC",
+    "vak_naam_in_pdf": "Interne controle",
+    "programmaonderdelen": [
+      "1.7"
+    ],
+    "confidence": "hoog",
+    "rationale": "Doelstellingen verkoopcyclus (financieel/operationeel/conformiteit) — interne controle (COSO)."
+  },
+  "2015-1-vr15": {
+    "vraag_id": "2015-1-vr15",
+    "vak_code_in_pdf": "1.3 AO",
+    "vak_naam_in_pdf": "Accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.6",
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Adjustments bij contractueel beperkt nazicht + deontologische implicaties — externe controle + deontologie."
+  },
+  "2015-1-vr16": {
+    "vraag_id": "2015-1-vr16",
+    "vak_code_in_pdf": "1.3 AO",
+    "vak_naam_in_pdf": "Accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Aanvaardingsprocedure auditopdracht — externe controle / accountantsonderzoek."
+  },
+  "2015-1-vr17": {
+    "vraag_id": "2015-1-vr17",
+    "vak_code_in_pdf": "1.3 AO",
+    "vak_naam_in_pdf": "Accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.6",
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Controledoelstellingen bij debet lopende rekening overleden vader-aandeelhouder bij omzetting — externe controle + bijzondere mandaten."
+  },
+  "2015-1-vr18": {
+    "vraag_id": "2015-1-vr18",
+    "vak_code_in_pdf": "1.3 AO",
+    "vak_naam_in_pdf": "Accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Voorraadtelling-controles na afsluit + materialiteit — externe controle / accountantsonderzoek."
+  },
+  "2015-1-vr19": {
+    "vraag_id": "2015-1-vr19",
+    "vak_code_in_pdf": "1.3 AO",
+    "vak_naam_in_pdf": "Accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Leverancierssaldi-confirmatie (representativiteit, steekproef, verzending) — externe controle."
+  },
+  "2015-1-vr20": {
+    "vraag_id": "2015-1-vr20",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "S-BVBA met overgedragen verlies — alarmbel / ontbinding — vennootschapsrecht."
+  },
+  "2015-1-vr21": {
+    "vraag_id": "2015-1-vr21",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Omzetting BVBA → NV + rekening-courant van zaakvoerder — vennootschapsrecht."
+  },
+  "2015-1-vr22": {
+    "vraag_id": "2015-1-vr22",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Eigen vermogen onder kapitaal/wettelijke reserve — alarmbelprocedure BVBA — vennootschapsrecht."
+  },
+  "2015-1-vr23": {
+    "vraag_id": "2015-1-vr23",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Laattijdige algemene vergadering — gevolgen — vennootschapsrecht."
+  },
+  "2015-1-vr24": {
+    "vraag_id": "2015-1-vr24",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Kapitaalverhoging via inbreng aandelen (snelle herinbreng) — vennootschapsrecht (quasi-inbreng-regels)."
+  },
+  "2015-1-vr25": {
+    "vraag_id": "2015-1-vr25",
+    "vak_code_in_pdf": "3.2",
+    "vak_naam_in_pdf": "Vennootschapsrecht (bijzondere mandaten)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Doelstelling opdracht externe accountant bij omzetting vennootschap — bijzondere mandaten."
+  },
+  "2015-1-vr26": {
+    "vraag_id": "2015-1-vr26",
+    "vak_code_in_pdf": "3.2",
+    "vak_naam_in_pdf": "Vennootschapsrecht (bijzondere mandaten)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Norm controle ontbinding BVBA (resultaat lopende periode, discontinuïteit, latente schulden) — bijzondere mandaten / vennootschapsrecht."
+  },
+  "2015-1-vr27": {
+    "vraag_id": "2015-1-vr27",
+    "vak_code_in_pdf": "3.2",
+    "vak_naam_in_pdf": "Vennootschapsrecht (bijzondere mandaten)",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Verslag omzetting NV Salami → BVBA — werkzaamheden — bijzondere mandaten / vennootschapsrecht."
+  },
+  "2015-1-vr28": {
+    "vraag_id": "2015-1-vr28",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Beroepsverliezen + aanrekening — personenbelasting."
+  },
+  "2015-1-vr29": {
+    "vraag_id": "2015-1-vr29",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2",
+      "2.8"
+    ],
+    "confidence": "hoog",
+    "rationale": "Buitenlands onroerend goed in PB-aangifte + verdragsbepaling — personenbelasting + internationaal fiscaal recht."
+  },
+  "2015-1-vr30": {
+    "vraag_id": "2015-1-vr30",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Aftrekbare bestedingen + uitgaven recht op belastingvermindering (kinderoppas, onderhoudsuitkering) — personenbelasting."
+  },
+  "2015-1-vr31": {
+    "vraag_id": "2015-1-vr31",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Vrijstellingen van economische aard (bijkomend personeel, investeringsaftrek) — personenbelasting (voor zelfstandigen)."
+  },
+  "2015-1-vr32": {
+    "vraag_id": "2015-1-vr32",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Roerende inkomsten + RV-tarieven — personenbelasting."
+  },
+  "2015-1-vr33": {
+    "vraag_id": "2015-1-vr33",
+    "vak_code_in_pdf": "2.2",
+    "vak_naam_in_pdf": "Vennootschapsbelasting",
+    "programmaonderdelen": [
+      "2.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Beleggingsportefeuille vennootschap + KMO-criteria — vennootschapsbelasting."
+  },
+  "2015-1-vr34": {
+    "vraag_id": "2015-1-vr34",
+    "vak_code_in_pdf": "2.2",
+    "vak_naam_in_pdf": "Vennootschapsbelasting",
+    "programmaonderdelen": [
+      "2.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Belastbare winst met DBI, notionele intrestaftrek, investeringsaftrek + abnormaal voordeel — vennootschapsbelasting."
+  },
+  "2015-1-vr35": {
+    "vraag_id": "2015-1-vr35",
+    "vak_code_in_pdf": "2.2",
+    "vak_naam_in_pdf": "Vennootschapsbelasting",
+    "programmaonderdelen": [
+      "2.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Verminderd basistarief VennB + minimum bedrijfsleidersbezoldiging — vennootschapsbelasting."
+  },
+  "2015-1-vr36": {
+    "vraag_id": "2015-1-vr36",
+    "vak_code_in_pdf": "2.3",
+    "vak_naam_in_pdf": "Belasting over de toegevoegde waarde",
+    "programmaonderdelen": [
+      "2.4",
+      "2.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Verkoop nieuwe woning + grond — BTW vs. registratierechten — BTW + registratierechten."
+  },
+  "2015-1-vr37": {
+    "vraag_id": "2015-1-vr37",
+    "vak_code_in_pdf": "2.3",
+    "vak_naam_in_pdf": "Belasting over de toegevoegde waarde",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "VZW yoga + café + boeken — BTW-statuut — BTW (vrijstellingen art. 44 + bijzondere regeling)."
+  },
+  "2015-1-vr38": {
+    "vraag_id": "2015-1-vr38",
+    "vak_code_in_pdf": "2.3",
+    "vak_naam_in_pdf": "Belasting over de toegevoegde waarde",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Eigen verbruik supermarkt — BTW-onttrekking — BTW."
+  },
+  "2015-1-vr39": {
+    "vraag_id": "2015-1-vr39",
+    "vak_code_in_pdf": "2.3",
+    "vak_naam_in_pdf": "Belasting over de toegevoegde waarde",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "Overbrenging eigen goederen naar Frans filiaal — BTW-verplichtingen — BTW."
+  },
+  "2015-1-vr40": {
+    "vraag_id": "2015-1-vr40",
+    "vak_code_in_pdf": "2.3",
+    "vak_naam_in_pdf": "Belasting over de toegevoegde waarde",
+    "programmaonderdelen": [
+      "2.4",
+      "2.8"
+    ],
+    "confidence": "hoog",
+    "rationale": "Driehoeksverkoop BE-NL-DE — intracommunautaire vereenvoudiging — BTW + Europees fiscaal recht (richtlijn 2006/112)."
+  },
+  "2015-1-vr41": {
+    "vraag_id": "2015-1-vr41",
+    "vak_code_in_pdf": "2.7",
+    "vak_naam_in_pdf": "Fiscale procedure",
+    "programmaonderdelen": [
+      "2.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "Onderzoekstermijn PB bij aanwijzingen van fraude — fiscale procedure."
+  },
+  "2015-1-vr42": {
+    "vraag_id": "2015-1-vr42",
+    "vak_code_in_pdf": "2.7",
+    "vak_naam_in_pdf": "Fiscale procedure",
+    "programmaonderdelen": [
+      "2.5",
+      "2.8"
+    ],
+    "confidence": "hoog",
+    "rationale": "Buitenlandse inlichtingen + bijzondere taxatietermijn — fiscale procedure + internationaal fiscaal recht."
+  },
+  "2015-1-vr43": {
+    "vraag_id": "2015-1-vr43",
+    "vak_code_in_pdf": "2.7",
+    "vak_naam_in_pdf": "Fiscale procedure",
+    "programmaonderdelen": [
+      "2.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "Bewaarplicht bestelbonnen — fiscale procedure."
+  },
+  "2015-1-vr44": {
+    "vraag_id": "2015-1-vr44",
+    "vak_code_in_pdf": "2.7",
+    "vak_naam_in_pdf": "Fiscale procedure",
+    "programmaonderdelen": [
+      "2.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "Stuiting van dwangbevel — fiscale procedure."
+  },
+  "2015-1-vr45": {
+    "vraag_id": "2015-1-vr45",
+    "vak_code_in_pdf": "2.7",
+    "vak_naam_in_pdf": "Fiscale procedure",
+    "programmaonderdelen": [
+      "2.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "Onderzoekstermijn BTW — fiscale procedure."
+  },
+  "2015-1-vr46": {
+    "vraag_id": "2015-1-vr46",
+    "vak_code_in_pdf": "2.4",
+    "vak_naam_in_pdf": "Beginselen van registratie- en successierechten",
+    "programmaonderdelen": [
+      "2.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Verminderd registratierecht (klein beschrijf) Brussels Hoofdstedelijk Gewest — registratierechten."
+  },
+  "2015-1-vr47": {
+    "vraag_id": "2015-1-vr47",
+    "vak_code_in_pdf": "2.4",
+    "vak_naam_in_pdf": "Beginselen van registratie- en successierechten",
+    "programmaonderdelen": [
+      "2.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Successie + opschortende voorwaarde aandelenkoop — successierechten."
+  },
+  "2015-1-vr48": {
+    "vraag_id": "2015-1-vr48",
+    "vak_code_in_pdf": "2.4",
+    "vak_naam_in_pdf": "Beginselen van registratie- en successierechten",
+    "programmaonderdelen": [
+      "2.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Blote eigendom/vruchtgebruik + leeftijd vruchtgebruiker — registratierechten."
+  },
+  "2015-1-vr49": {
+    "vraag_id": "2015-1-vr49",
+    "vak_code_in_pdf": "2.6",
+    "vak_naam_in_pdf": "Beginselen van Europees en internationaal fiscaal recht",
+    "programmaonderdelen": [
+      "2.8"
+    ],
+    "confidence": "hoog",
+    "rationale": "OESO-modelverdrag — dubbele woonplaats + pensioen — internationaal fiscaal recht."
+  },
+  "2015-1-vr50": {
+    "vraag_id": "2015-1-vr50",
+    "vak_code_in_pdf": "2.6",
+    "vak_naam_in_pdf": "Beginselen van Europees en internationaal fiscaal recht",
+    "programmaonderdelen": [
+      "2.8"
+    ],
+    "confidence": "hoog",
+    "rationale": "IVZW BE neemt Spaanse VZW over — fiscale neutraliteit + richtlijn 2009/133/EG — internationaal/Europees fiscaal recht."
+  },
+  "2015-1-vr51": {
+    "vraag_id": "2015-1-vr51",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Discretieplicht vs. beroepsgeheim accountant — deontologie."
+  },
+  "2015-1-vr52": {
+    "vraag_id": "2015-1-vr52",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Erelonen accountant (KB 1 maart 1998 art. 27-29) — deontologie."
+  },
+  "2015-1-vr53": {
+    "vraag_id": "2015-1-vr53",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Contantgeldgrens bij meubelverkoop + AWW-meldplicht — deontologie + antiwitwaswet."
+  },
+  "2015-1-vr54": {
+    "vraag_id": "2015-1-vr54",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0",
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Vereffening NV TRIAL + onafhankelijkheidsregels + AWW — deontologie + vennootschapsrecht (bijzonder mandaat vereffening)."
+  },
+  "2015-1-vr55": {
+    "vraag_id": "2015-1-vr55",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Luxemburgs belastingadvieskantoor met BE-kantoor zonder ITAA-erkenning — deontologie."
+  },
+  "2015-1-vr56": {
+    "vraag_id": "2015-1-vr56",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Juridische en beroepsnormen / deontologie",
+    "programmaonderdelen": [
+      "4.0",
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Norm controle fusie- en splitsingsverrichtingen bij verschillende beroepsbeoefenaars — deontologie + vennootschapsrecht (bijzondere mandaten)."
+  },
+  "2024-1-vr1": {
+    "vraag_id": "2024-1-vr1",
+    "vak_code_in_pdf": "3.1",
+    "vak_naam_in_pdf": "Vennootschapsrecht",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "BVBA→BV onder WVV: vrijstelling volstortingsplicht + liquidatietest + quasi-inbreng NV + verlies rechtspersoonlijkheid + statutaire uittreding/uitsluiting — vennootschapsrecht (WVV)."
+  },
+  "2024-1-vr2": {
+    "vraag_id": "2024-1-vr2",
+    "vak_code_in_pdf": "1.3 Externe controle",
+    "vak_naam_in_pdf": "Externe controle / accountantsonderzoek",
+    "programmaonderdelen": [
+      "1.6"
+    ],
+    "confidence": "hoog",
+    "rationale": "Externe controle: onafhankelijkheid, voldoende kennisverwerving na opdrachtaanvaarding, volkomen controle, materialiteit — externe controle / accountantsonderzoek."
+  },
+  "2024-1-vr3": {
+    "vraag_id": "2024-1-vr3",
+    "vak_code_in_pdf": "1.3 Interne controle",
+    "vak_naam_in_pdf": "Interne controle",
+    "programmaonderdelen": [
+      "1.7"
+    ],
+    "confidence": "hoog",
+    "rationale": "Interne controle in KMO: verkoopcyclus, COSO-risicotypes, doelstellingen verkoopcyclus — interne controle."
+  },
+  "2024-1-vr4": {
+    "vraag_id": "2024-1-vr4",
+    "vak_code_in_pdf": "3.2",
+    "vak_naam_in_pdf": "Bijzondere mandaten — ontbinding/omzetting",
+    "programmaonderdelen": [
+      "3.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Bijzondere mandaten: ontbinding CV, vrijwillige ontbinding BV + verslag externe accountant, authentieke akte AV — vennootschapsrecht (bijzondere mandaten)."
+  },
+  "2024-1-vr5": {
+    "vraag_id": "2024-1-vr5",
+    "vak_code_in_pdf": "2.1",
+    "vak_naam_in_pdf": "Personenbelasting",
+    "programmaonderdelen": [
+      "2.2"
+    ],
+    "confidence": "hoog",
+    "rationale": "Personenbelasting: meewerkende echtgenoot ministatuut + 5% forfait, onroerend voorheffing bij overstromingsleegstand, gemeubeld OG + aanslagvoeten — personenbelasting."
+  },
+  "2024-1-vr6": {
+    "vraag_id": "2024-1-vr6",
+    "vak_code_in_pdf": "4.0",
+    "vak_naam_in_pdf": "Deontologie en AWW",
+    "programmaonderdelen": [
+      "4.0"
+    ],
+    "confidence": "hoog",
+    "rationale": "Erelonen accountant + AWW-contantengrens (2.500/3.000/notarisregel) — deontologie + antiwitwaswet."
+  },
+  "2024-1-vr7": {
+    "vraag_id": "2024-1-vr7",
+    "vak_code_in_pdf": "1.1/IFRS",
+    "vak_naam_in_pdf": "Wetgeving jaarrekening + IFRS",
+    "programmaonderdelen": [
+      "1.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "IAS/IFRS voorraadwaardering (FIFO/LIFO/GG) + Richtlijn 2013/34/EU voorzichtigheidsprincipe — Europese wetgeving en internationale boekhoudkundige normen (PO 1.5)."
+  },
+  "2024-1-vr8": {
+    "vraag_id": "2024-1-vr8",
+    "vak_code_in_pdf": "2.2",
+    "vak_naam_in_pdf": "Vennootschapsbelasting",
+    "programmaonderdelen": [
+      "2.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Vennootschapsbelasting: overgedragen fiscale verliezen, moeder-dochter-fusie (neutraal) + meer-/minderwaarde op deelneming + innovatie-aftrek, verlaagd tarief 20% + voorafbetalingen — vennootschapsbelasting."
+  },
+  "2024-1-vr9": {
+    "vraag_id": "2024-1-vr9",
+    "vak_code_in_pdf": "2.7",
+    "vak_naam_in_pdf": "Fiscale procedure",
+    "programmaonderdelen": [
+      "2.5"
+    ],
+    "confidence": "hoog",
+    "rationale": "Bericht van wijziging-termijn, vertrek belastingplichtige uit België, vraag om inlichtingen, bewaarplicht — fiscale procedure."
+  },
+  "2024-1-vr10": {
+    "vraag_id": "2024-1-vr10",
+    "vak_code_in_pdf": "1.2",
+    "vak_naam_in_pdf": "Analyse en kritische beoordeling jaarrekening",
+    "programmaonderdelen": [
+      "1.3"
+    ],
+    "confidence": "hoog",
+    "rationale": "Financiële onafhankelijkheid, ratio's op verkort schema, rangschikking passief, effect afschrijvingsverhoging op brutoverkoopmarge — jaarrekeninganalyse."
+  },
+  "2024-1-vr11": {
+    "vraag_id": "2024-1-vr11",
+    "vak_code_in_pdf": "2.3",
+    "vak_naam_in_pdf": "BTW",
+    "programmaonderdelen": [
+      "2.4"
+    ],
+    "confidence": "hoog",
+    "rationale": "BTW: opeisbaarheid bij onderhoud rentenier, margeregeling, vrijstellingsregeling kleine ondernemingen, VAT Refund — BTW."
   }
 }

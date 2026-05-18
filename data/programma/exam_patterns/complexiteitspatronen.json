@@ -1,11 +1,11 @@
 {
   "_provenance": {
     "tool": "patroon-labeling-v1",
-    "model": "sonnet",
-    "run_at": "2026-05-15T00:00:00",
-    "versie": "20260515.1",
-    "corpus": ["2013-1.json", "2013-2.json", "2014-1.json", "2015-1.json", "2024-1.json"],
-    "n_vragen_corpus": 188
+    "model": "sonnet-4-6",
+    "run_at": "2026-05-18T10:43:28Z",
+    "versie": "20260518.1",
+    "corpus": ["2013-1.json", "2013-2.json", "2014-1.json", "2015-1.json", "2024-1.json", "2003-bibf.json", "2008-bibf.json"],
+    "n_vragen_corpus": 253
   },
   "complexiteitspatronen": [
     {
@@ -16,7 +16,7 @@
       "analytische_breedte": "1-concept",
       "camouflage": "geen",
       "beschrijving": "De vraag vraagt exact wat de definitie/regel is. Geen afleidende elementen. Wie de regel kent, heeft de vraag. Typisch: 'Wat is X?', 'Geef 4 elementen van Y', 'Welke termijn geldt bij Z?'",
-      "voorbeelden": ["2013-1-vr5", "2013-1-vr8", "2013-2-vr9", "2013-2-vr11", "2013-2-vr6"]
+      "voorbeelden": ["2013-1-vr5", "2013-1-vr8", "2013-2-vr9", "2013-2-vr11", "2013-2-vr6", "2003-bibf-vrB1", "2003-bibf-vrB2", "2003-bibf-vrB3", "2003-bibf-vrB4", "2003-bibf-vrI3", "2003-bibf-vrI4", "2003-bibf-vrJ2", "2008-bibf-vrC1", "2008-bibf-vrH1", "2008-bibf-vrH2", "2008-bibf-vrI2", "2008-bibf-vrI5", "2008-bibf-vrE3"]
     },
     {
       "id": "complex-feiten-red-herring",
@@ -26,7 +26,7 @@
       "analytische_breedte": "1-concept",
       "camouflage": "red-herring",
       "beschrijving": "De casus bevat een afleidend element (bedrag, naam, extra actor) dat irrelevant is voor het juiste antwoord. Student die alle details probeert te verwerken, komt tot een verkeerde conclusie.",
-      "voorbeelden": ["2013-2-vr4", "2014-1-vr4", "2013-1-vr2"]
+      "voorbeelden": ["2013-2-vr4", "2014-1-vr4", "2013-1-vr2", "2008-bibf-vrF6"]
     },
     {
       "id": "complex-feiten-schijngelijkenis",
@@ -36,7 +36,7 @@
       "analytische_breedte": "1-concept",
       "camouflage": "schijngelijkenis",
       "beschrijving": "De vraag stelt een situatie voor die lijkt op een basisregel maar er subtiel van afwijkt (bijv. NV vs BVBA, 'meer dan' vs 'gelijk aan of meer dan'). Student die het basisgeval kent maar de uitzondering mist, beantwoordt verkeerd.",
-      "voorbeelden": ["2013-2-vr2", "2014-1-vr2", "2014-1-vr18", "2015-1-vr20"]
+      "voorbeelden": ["2013-2-vr2", "2014-1-vr2", "2014-1-vr18", "2015-1-vr20", "2008-bibf-vrF7"]
     },
     {
       "id": "complex-toepassing-abstract",
@@ -46,7 +46,7 @@
       "analytische_breedte": "1-concept",
       "camouflage": "geen",
       "beschrijving": "Abstracte, vereenvoudigde casus met getallen of actoren. Één concept toepassen. Geen misleidende elementen maar de berekening of de toepassing vereist een stap meer dan louter kennis.",
-      "voorbeelden": ["2013-1-vr4", "2013-2-vr5", "2013-2-vr7", "2015-1-vr1", "2015-1-vr2"]
+      "voorbeelden": ["2013-1-vr4", "2013-2-vr5", "2013-2-vr7", "2015-1-vr1", "2015-1-vr2", "2003-bibf-vrC2", "2003-bibf-vrE2", "2008-bibf-vrF3", "2008-bibf-vrC2"]
     },
     {
       "id": "complex-toepassing-verborgen-vereiste",
@@ -56,7 +56,7 @@
       "analytische_breedte": "1-2-concepten",
       "camouflage": "verborgen-vereiste",
       "beschrijving": "De vraagtekst stelt één scenario voor, maar de correcte behandeling vereist dat de student ook een bijkomende verplichting herkent (timing-trigger, formaliteitsvereiste, drempelcontrole, compliance-verplichting) die niet expliciet gevraagd wordt.",
-      "voorbeelden": ["2013-1-vr14", "2013-1-vr15", "2014-1-vr3", "2015-1-vr26", "2024-1-vr8"]
+      "voorbeelden": ["2013-1-vr14", "2013-1-vr15", "2014-1-vr3", "2015-1-vr26", "2024-1-vr8", "2003-bibf-vrB5", "2003-bibf-vrD2", "2003-bibf-vrE4", "2003-bibf-vrH1", "2008-bibf-vrA2", "2008-bibf-vrB3", "2008-bibf-vrF5", "2008-bibf-vrK4"]
     },
     {
       "id": "complex-grensgeval-uitzondering",
@@ -66,7 +66,7 @@
       "analytische_breedte": "1-concept",
       "camouflage": "verborgen-vereiste",
       "beschrijving": "De casus zit net op of net over een drempel (bedrag, termijn, percentage, datum) die tot een andere behandeling leidt. Student moet de drempel kennen EN herkennen dat de situatie er net aan raakt.",
-      "voorbeelden": ["2013-1-vr16", "2013-2-vr14", "2014-1-vr30", "2015-1-vr22", "2024-1-vr6"]
+      "voorbeelden": ["2013-1-vr16", "2013-2-vr14", "2014-1-vr30", "2015-1-vr22", "2024-1-vr6", "2008-bibf-vrB2", "2008-bibf-vrH3"]
     },
     {
       "id": "complex-procedure-rol-bevoegdheid",
@@ -76,7 +76,7 @@
       "analytische_breedte": "meerdere-concepten",
       "camouflage": "geen",
       "beschrijving": "Vraag over wie wat mag/moet doen, in welke volgorde, en met welke bevoegdheden. Doel is te onderscheiden welke actor welke stap uitvoert. Cognitieve eis: kennen van de procedure-structuur, niet alleen de regel.",
-      "voorbeelden": ["2013-1-vr9", "2013-2-vr10", "2014-1-vr14", "2014-1-vr15", "2015-1-vr39"]
+      "voorbeelden": ["2013-1-vr9", "2013-2-vr10", "2014-1-vr14", "2014-1-vr15", "2015-1-vr39", "2003-bibf-vrD1", "2003-bibf-vrI2", "2003-bibf-vrJ2", "2003-bibf-vrK1", "2008-bibf-vrD1", "2008-bibf-vrI1", "2008-bibf-vrI3", "2008-bibf-vrJ1", "2008-bibf-vrK3"]
     },
     {
       "id": "complex-casus-multi-concept",
@@ -86,7 +86,7 @@
       "analytische_breedte": "meerdere-concepten",
       "camouflage": "geen",
       "beschrijving": "Lange narratieve casus met meerdere deelvragen die elk een ander concept bevragen. De concepten zijn verwant maar onafhankelijk. Score is per deelvraag; goede deeloplossing geeft partiele punten.",
-      "voorbeelden": ["2013-1-vr13", "2013-1-vr14", "2013-2-vr13", "2014-1-vr22", "2015-1-vr44"]
+      "voorbeelden": ["2013-1-vr13", "2013-1-vr14", "2013-2-vr13", "2014-1-vr22", "2015-1-vr44", "2003-bibf-vrI2", "2008-bibf-vrF1", "2008-bibf-vrF2", "2008-bibf-vrF4", "2008-bibf-vrK5"]
     },
     {
       "id": "complex-vergelijk-twee-situaties",
@@ -96,7 +96,7 @@
       "analytische_breedte": "1-concept",
       "camouflage": "schijngelijkenis",
       "beschrijving": "Twee situaties die op het eerste zicht gelijk lijken maar een verschillende behandeling vereisen. Student moet het onderscheidende criterium benoemen. Typisch in BTW (particulier vs BP), fiscaal (vaste inrichting Italië jaar 1 vs jaar 2) en vennootschapsrecht (NV vs BV).",
-      "voorbeelden": ["2013-2-vr7", "2014-1-vr39", "2015-1-vr43", "2024-1-vr11"]
+      "voorbeelden": ["2013-2-vr7", "2014-1-vr39", "2015-1-vr43", "2024-1-vr11", "2003-bibf-vrK2", "2008-bibf-vrI5"]
     },
     {
       "id": "complex-identifeer-de-fout",
@@ -106,7 +106,7 @@
       "analytische_breedte": "1-2-concepten",
       "camouflage": "verborgen-vereiste",
       "beschrijving": "Een beschreven procedure of boeking bevat een conceptuele fout. Student moet de fout aanwijzen én, als de vraag het vraagt, de correcte handelwijze beschrijven. De fout is niet flagrant — de situatie oogt als standaard werkwijze.",
-      "voorbeelden": ["2013-1-vr13", "2013-2-vr13", "2014-1-vr17", "2015-1-vr38"]
+      "voorbeelden": ["2013-1-vr13", "2013-2-vr13", "2014-1-vr17", "2015-1-vr38", "2003-bibf-vrD2", "2008-bibf-vrK2", "2008-bibf-vrJ1"]
     },
     {
       "id": "complex-berekening-met-fiscale-keten",
@@ -116,7 +116,7 @@
       "analytische_breedte": "meerdere-concepten",
       "camouflage": "geen",
       "beschrijving": "Berekening waarbij elke stap de input van de volgende bepaalt (bijv. belastbare grondslag VennB: winst − tantième − DBI-aftrek + verworpen uitgaven). Fout in stap 1 kaskadeert naar stap 2 en 3.",
-      "voorbeelden": ["2013-1-vr26", "2013-2-vr17", "2014-1-vr28", "2015-1-vr33", "2024-1-vr8"]
+      "voorbeelden": ["2013-1-vr26", "2013-2-vr17", "2014-1-vr28", "2015-1-vr33", "2024-1-vr8", "2003-bibf-vrF1", "2003-bibf-vrG1", "2008-bibf-vrG1"]
     },
     {
       "id": "complex-stellingen-reeks-uitzondering",
@@ -126,7 +126,7 @@
       "analytische_breedte": "meerdere-concepten",
       "camouflage": "schijngelijkenis",
       "beschrijving": "Stel van 4-10 stellingen; de meerderheid is correct (of fout), één of twee wijken af. Student moet de afwijkende stelling(en) detecteren. Typisch voor PO 2.1 (PB: 1 stelling onjuist), 4.0 (onafhankelijkheid), 3.2 (omzettingsnormen).",
-      "voorbeelden": ["2014-1-vr23", "2014-1-vr24", "2015-1-vr31", "2015-1-vr32", "2024-1-vr2"]
+      "voorbeelden": ["2014-1-vr23", "2014-1-vr24", "2015-1-vr31", "2015-1-vr32", "2024-1-vr2", "2003-bibf-vrE3", "2003-bibf-vrE5", "2003-bibf-vrI1"]
     },
     {
       "id": "complex-adviseer-en-onderbouw",
@@ -136,7 +136,7 @@
       "analytische_breedte": "meerdere-concepten",
       "camouflage": "verborgen-vereiste",
       "beschrijving": "Student wordt gevraagd een advies te formuleren, een keuze te maken of een oordeel te vellen over een complexe situatie, met onderbouwing via wetsartikelen of normen. Vereist combineren van feiten, regels en consequenties.",
-      "voorbeelden": ["2013-1-vr16", "2013-2-vr18", "2014-1-vr35", "2014-1-vr36", "2015-1-vr44"]
+      "voorbeelden": ["2013-1-vr16", "2013-2-vr18", "2014-1-vr35", "2014-1-vr36", "2015-1-vr44", "2003-bibf-vrH2", "2003-bibf-vrJ1", "2003-bibf-vrK2", "2008-bibf-vrK1", "2008-bibf-vrK3", "2008-bibf-vrK5"]
     },
     {
       "id": "complex-tabel-classificeer",
@@ -146,7 +146,7 @@
       "analytische_breedte": "meerdere-concepten",
       "camouflage": "geen",
       "beschrijving": "Tabel met activiteiten of posten die ingedeeld moeten worden in categorieën (bijv. preventief/repressief/corrigerend, autorisatie/bewaring/registratie/controle, financieel/operationeel/conformiteit). Score per correcte cel.",
-      "voorbeelden": ["2013-2-vr10", "2013-2-vr12", "2015-1-vr28", "2015-1-vr37", "2024-1-vr3"]
+      "voorbeelden": ["2013-2-vr10", "2013-2-vr12", "2015-1-vr28", "2015-1-vr37", "2024-1-vr3", "2008-bibf-vrE2"]
     },
     {
       "id": "complex-grensgeval-red-herring-fiscaal",
@@ -156,7 +156,17 @@
       "analytische_breedte": "1-2-concepten",
       "camouflage": "red-herring",
       "beschrijving": "Fiscale vraag (BTW, PB, VennB) met concrete casus die meerdere details bevat waarvan sommige irrelevant zijn voor het gevraagde. Typisch: verjaringstermijnen, opeisbaarheid BTW, aftrekbaarheid kosten — waarbij de afleidende omstandigheid (naam, bedrag, datum) de aandacht trekt van het cruciale criterium.",
-      "voorbeelden": ["2013-1-vr30", "2013-2-vr23", "2014-1-vr40", "2015-1-vr50", "2024-1-vr11"]
+      "voorbeelden": ["2013-1-vr30", "2013-2-vr23", "2014-1-vr40", "2015-1-vr50", "2024-1-vr11", "2003-bibf-vrE1", "2003-bibf-vrE2", "2008-bibf-vrE1"]
+    },
+    {
+      "id": "complex-boekhoudkundige-verwerking-meerstap",
+      "naam": "Boekhoudkundige verwerking — meerstaps journaalposten met fiscale interactie",
+      "kennisdiepte": "toepassing",
+      "contextspecificiteit": "concreet",
+      "analytische_breedte": "meerdere-concepten",
+      "camouflage": "geen",
+      "beschrijving": "Casus vraagt expliciet de afsluitings- of openingsboekingen (journaalposten) voor een verrichting waarvan de boekhoudkundige verwerking interageert met fiscale of waarderingsregels (kapitaalsubsidies + uitgestelde belasting, voorraadwijzigingen + waardevermindering, oprichtingskosten + afschrijving, controlebelangen + deelnemingsregels). Fout in stap 1 (categorisering) kaskadeert naar de boekingsregel; volledige score vraagt zowel correcte rekeningnummers als correcte bedragen. Typisch BIBF-formaat (vak A — algemene boekhouding) maar verwacht ook in PO 1.x van het huidige programma.",
+      "voorbeelden": ["2003-bibf-vrA1", "2003-bibf-vrA2", "2003-bibf-vrB5", "2008-bibf-vrA1", "2008-bibf-vrA2", "2008-bibf-vrA3", "2008-bibf-vrA4", "2008-bibf-vrB1", "2008-bibf-vrB4"]
     }
   ]
 }

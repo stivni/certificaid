@@ -2,31 +2,32 @@
 
 **Tool**: `patroon-labeling-v1`
 **Model**: Sonnet (claude-sonnet-4-6)
-**Datum**: 2026-05-15
-**Corpus**: 2013-1 (37), 2013-2 (38), 2014-1 (46), 2015-1 (56), 2024-1 (11) → **188 vragen totaal**
+**Datum**: 2026-05-15 (initieel) · 2026-05-18 (refresh met BIBF-corpus)
+**Corpus**: 2013-1 (37), 2013-2 (38), 2014-1 (46), 2015-1 (56), 2024-1 (11), 2003-bibf (28), 2008-bibf (37) → **253 vragen totaal**
 
 ---
 
 ## Resultaten
 
-### Unieke vraagvormen: 10
+### Unieke vraagvormen: 11 (10 ITAA + 1 nieuw via BIBF-refresh)
 
 | ID | Naam | Geschat n |
 |---|---|---|
-| `vraagvorm-mc-aankruisen` | Multiple Choice — één juist antwoord | 55 |
-| `vraagvorm-jf-reeks-stellingen` | Juist/Fout — reeks stellingen | 62 |
-| `vraagvorm-jf-met-motivering` | Juist/Fout — met motivering | 18 |
+| `vraagvorm-mc-aankruisen` | Multiple Choice — één juist antwoord | 60 |
+| `vraagvorm-jf-reeks-stellingen` | Juist/Fout — reeks stellingen | 65 |
+| `vraagvorm-jf-met-motivering` | Juist/Fout — met motivering | 19 |
 | `vraagvorm-mc-gemengd-meerdere-deelvragen` | MC-blok met meerdere deelvragen | 22 |
-| `vraagvorm-open-definitie` | Open — definitie of begripsomschrijving | 20 |
-| `vraagvorm-open-procedure-ontwerp` | Open — procedure ontwerpen | 12 |
-| `vraagvorm-open-advies-casus` | Open — advies in casus | 15 |
-| `vraagvorm-berekening-met-mc` | Berekening — cijfers berekenen | 28 |
-| `vraagvorm-invultabel` | Invultabel — matrix of tabel invullen | 10 |
-| `vraagvorm-open-berekening-motiveer` | Open — bereken én motiveer | 16 |
+| `vraagvorm-open-definitie` | Open — definitie of begripsomschrijving | 38 |
+| `vraagvorm-open-procedure-ontwerp` | Open — procedure ontwerpen | 18 |
+| `vraagvorm-open-advies-casus` | Open — advies in casus | 29 |
+| `vraagvorm-berekening-met-mc` | Berekening — cijfers berekenen | 36 |
+| `vraagvorm-invultabel` | Invultabel — matrix of tabel invullen | 11 |
+| `vraagvorm-open-berekening-motiveer` | Open — bereken én motiveer | 17 |
+| `vraagvorm-open-boeking-journaalpost` *(NIEUW 2026-05-18)* | Open — boekingen (journaalposten) geven | 8 |
 
-**Totaal geschat**: ~258 (meervoudig omdat sommige vragen meerdere vraagvormen combineren in deelvragen)
+**Totaal geschat**: ~323 (meervoudig omdat sommige vragen meerdere vraagvormen combineren in deelvragen)
 
-### Unieke complexiteitspatronen: 15
+### Unieke complexiteitspatronen: 16 (15 ITAA + 1 nieuw via BIBF-refresh)
 
 | ID | Naam | Camouflage |
 |---|---|---|
@@ -45,6 +46,7 @@
 | `complex-adviseer-en-onderbouw` | Adviseer en onderbouw | verborgen-vereiste |
 | `complex-tabel-classificeer` | Classificeer in tabel | geen |
 | `complex-grensgeval-red-herring-fiscaal` | Fiscale grensgeval-vraag met misleidende details | red-herring |
+| `complex-boekhoudkundige-verwerking-meerstap` *(NIEUW 2026-05-18)* | Boekhoudkundige verwerking — meerstaps journaalposten met fiscale interactie | geen |
 
 ---
 
@@ -165,4 +167,38 @@ Een veld dat aangeeft hoe zwaar een concept in het examen weegt (PO + geschat pu
 | `data/examen_vragen/2024-1-labels.json` | 11 vraag-labels |
 | `data/exam_patterns/_labeling-rapport.md` | Dit rapport |
 
-**Totaal gelabeld**: 188 vragen
+**Totaal gelabeld**: 188 vragen (initieel) · 253 vragen (na BIBF-refresh 2026-05-18)
+
+---
+
+## Refresh-log
+
+### 2026-05-18 — BIBF-corpus toegevoegd (2003-bibf + 2008-bibf)
+
+**Aanleiding**: TODO.md §3.4b — examenpatroon-bibliotheken dekten 5/7 voorbeeldexamens. De twee BIBF-examens (2003 en 2008) waren nog niet doorgelabeld.
+
+**Werkwijze**: Sonnet-agent (subagent in Claude Code, geen API-call) heeft de 28 + 37 = 65 BIBF-vragen één voor één gelezen en gelabeld op vraagvorm + complexiteitspatroon, gebruikmakend van het bestaande schema (15 complexiteitspatronen + 10 vraagvormen). Vorige labelscript `tools/examen/extract_exam_patterns.py` is verwijderd (stale path + schond CLAUDE.md regel 3); refresh gebeurt sindsdien als eenmalige subagent-pass per refresh-event.
+
+**Wijzigingen**:
+
+- **Provenance**: `corpus` uitgebreid met `2003-bibf.json` + `2008-bibf.json`, `n_vragen_corpus` 188 → 253, `versie` 20260515.1 → 20260518.1, `model` `sonnet` → `sonnet-4-6`.
+- **Nieuwe vraagvorm**: `vraagvorm-open-boeking-journaalpost` (8 voorkomens). Gebruikt voor vragen die expliciet journaalposten/afsluitingsboekingen vragen — typisch BIBF Vak A (Algemene boekhouding) maar het format komt ook in PO 1.x naar voor (boekhoudkundige verwerking als examen-output).
+- **Nieuw complexiteitspatroon**: `complex-boekhoudkundige-verwerking-meerstap` (9 BIBF-voorbeelden). Boekhoudkundige verwerking waarbij de boekingsregel interageert met fiscaal-/waarderingsregels (kapitaalsubsidie + uitgestelde belasting, voorraadwijzigingen, oprichtingskosten + afschrijvingsritme). Analogon van `complex-berekening-met-fiscale-keten` maar op boekhoudkundig niveau.
+- **`geschat_n_voorkomens` aangepast** voor: mc-aankruisen 55→60, jf-reeks 62→65, jf-met-motivering 18→19, open-definitie 20→38, open-procedure 12→18, open-advies-casus 15→29, berekening-met-mc 28→36, invultabel 10→11, open-berekening-motiveer 16→17.
+- **65 BIBF-vraag-IDs** toegevoegd aan `voorbeelden_uit_corpus` / `voorbeelden` van de relevante patronen. Buiten-programma vragen (2003-vrI1, 2003-vrJ1, 2003-vrJ2, 2008-vrJ1 — vermeld in `_programmaonderdeel_classificatie.json` zonder PO-mapping) zijn **wel** mee gelabeld op vraagvorm/complexiteit (style is representatief); de PO-filter komt later in de consumer.
+
+**Opvallende observaties BIBF vs ITAA**:
+
+1. **Boekingsvragen zijn een eigen BIBF-genre**: BIBF Vak A (Algemene boekhouding) heeft consequent 2-6 vragen die expliciet journaalposten vragen. ITAA-examens (2013-2024) hebben dit format **niet** als zodanig — boekhoudkundige kennis komt daar via tabel-classificeer of MC-aankruisen. Implicatie: PO 1.5 (boekhoudkundig kader) zou journaalpost-vraag als examenformat kunnen herintroduceren, of niet — maar concept-records voor 1.x kunnen niet enkel op MC mikken.
+2. **Lange casus-vragen met deontologische sub-vraagjes**: BIBF Vak K bevat veel meer narratieve casussen met meerdere deelvragen (typisch K-vragen 2008: K1-K5 zijn allemaal lange verhalen met 2-4 deelvragen elk). ITAA-examens hebben deze laag minder uitgesproken — daar zit deontologie vaak in J/F-stellingen. Het BIBF-format heeft hier hogere cognitieve eis (synthese-niveau).
+3. **Geen MC-blok-format in BIBF**: Het `vraagvorm-mc-gemengd-meerdere-deelvragen` format (uit 2024-1) ontbreekt in beide BIBF-examens — die hebben aparte vraagnummers per topic. Trend richting compactere MC-blokken is een ITAA-evolutie.
+4. **BIBF telt meer "feiten-geen-camouflage" vragen**: 13 van 65 BIBF-vragen zijn rechtstreekse kennisreproductie zonder camouflage, vs. ~5/188 in de ITAA-corpus per examen. BIBF-examens leunen meer op kennis-reproductie, ITAA op kennis-toepassing en analyse.
+5. **Boekhoudkundige meerstapsverwerking is een eigen complexiteitsklasse**: Het patroon "boek de afsluitingsboekingen voor verrichtingen die zowel boekhoudkundig als fiscaal/waardrings-effect hebben" (kapitaalsubsidies + uitgestelde belastingen, voorraadwijziging + waardevermindering) is in de huidige ITAA-corpus niet aanwezig maar dekt 9 BIBF-vragen — verdient een eigen patroon (toegevoegd).
+
+**Aangepaste bestanden**:
+
+- `data/programma/exam_patterns/complexiteitspatronen.json`
+- `data/programma/exam_patterns/vraagvormen.json`
+- `data/programma/exam_patterns/_labeling-rapport.md` (dit bestand)
+
+**Niet aangepast** (out of scope refresh): per-examen-labelfiles `data/programma/examen_vragen/{examen-id}-labels.json` voor de BIBF-examens — die zijn er nog niet, en zullen later in een eigen pass per vraag opgebouwd worden zodra de consumer ze nodig heeft.
