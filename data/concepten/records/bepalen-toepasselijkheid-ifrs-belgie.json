@@ -19,7 +19,7 @@
     ]
   },
   "gebaseerd_op_concepten": [
-    "ifrs-verordening-1606-2002",
+    "verplichte-ifrs-eu-beursgenoteerden",
     "ifrs-toepassingsgebied-belgie",
     "eu-harmonisatie-jaarrekeningenrecht",
     "be-gaap-vs-ifrs-overzicht"
@@ -50,7 +50,7 @@
         }
       ],
       "hoe": "1. Vraag bij Zelena Bio NV expliciet op: betreft het de jaarrekening van Zelena alléén of de geconsolideerde jaarrekening van de Zelena-groep (Zelena Bio NV + dochters)?\n2. Noteer 'statutaire' of 'geconsolideerde' rapportering — dit stuurt de hele verdere beslisboom.\n3. Bij twijfel: vraag of de cliënt een raadpleegbare set aandeelhouders heeft en of er dochters zijn — alleen dan kan geconsolideerd relevant zijn.\n",
-      "grondslag": "[[ifrs-verordening-1606-2002]] §toepassingsgebied"
+      "grondslag": "[[verplichte-ifrs-eu-beursgenoteerden]] §toepassingsgebied"
     },
     {
       "nr": 2,
@@ -77,7 +77,7 @@
         }
       ],
       "hoe": "1. Open de FSMA-website of EBA-register en zoek op de naam Zelena Bio NV.\n2. Verifieer of effecten genoteerd zijn op Euronext Brussel of een andere gereglementeerde EU-markt.\n3. Belangrijk: 'gereglementeerde markt' is enger dan 'beurs' — MTF's zoals Euronext Growth tellen NIET voor de Verordening.\n4. Bij Zelena Bio: noteer 'Beursgenoteerd op Euronext Brussel (gereglementeerde markt EU) sinds 2022'.\n",
-      "grondslag": "[[ifrs-verordening-1606-2002]] §artikel-4, Verordening (EG) 1606/2002 art. 4"
+      "grondslag": "[[verplichte-ifrs-eu-beursgenoteerden]] §artikel-4, Verordening (EG) 1606/2002 art. 4"
     },
     {
       "nr": 3,
@@ -120,7 +120,7 @@
         {
           "advies": "Toets expliciet of de markt 'gereglementeerd' is in de zin van MiFID — niet elke verhandelingsmarkt valt onder Verordening 1606/2002.",
           "vaak_fout": "Aannemen dat elke notering op een handelsplatform IFRS-verplichting triggert. Multilateral Trading Facilities (MTF's) zoals Euronext Growth zijn geen gereglementeerde markt.",
-          "grondslag": "[[ifrs-verordening-1606-2002]] §toepassingsgebied"
+          "grondslag": "[[verplichte-ifrs-eu-beursgenoteerden]] §toepassingsgebied"
         },
         {
           "advies": "Hou statutair (enkelvoudig) en geconsolideerd strikt gescheiden bij IFRS-vraagstukken.",
@@ -147,7 +147,7 @@
     {
       "situatie": "Meubelzaak Mertens BV (niet-beursgenoteerd, kleine groep met 1 dochter, omzet € 8M) overweegt vrijwillig IFRS toe te passen op groepsniveau om internationale investeerders aan te trekken.",
       "conclusie": "IFRS-toepassing op geconsolideerd niveau is niet uitdrukkelijk verboden voor niet-beursgenoteerde groepen, maar in België ongebruikelijk en niet als verplichting opgelegd. De geconsolideerde jaarrekening volgens Belgisch GAAP (KB WVV consolidatie) blijft het wettelijk vereiste; vrijwillige IFRS-rapportering kan parallel gebeuren als aanvullende informatie aan de stakeholders. Statutair blijft Belgisch GAAP verplicht.",
-      "grondslag": "[[ifrs-toepassingsgebied-belgie]] §vrijwillige-keuze; [[ifrs-verordening-1606-2002]] §lidstaat-opties",
+      "grondslag": "[[ifrs-toepassingsgebied-belgie]] §vrijwillige-keuze; [[verplichte-ifrs-eu-beursgenoteerden]] §lidstaat-opties",
       "redenering": "Verordening 1606/2002 art. 5 laat lidstaten toe om IFRS toe te staan of te verplichten voor niet-beursgenoteerde groepen of voor statutaire jaarrekeningen. België heeft op statutair niveau Belgisch GAAP behouden en stelt vrijwillige IFRS-rapportering parallel toe maar niet ter vervanging van de KB WVV-verplichting."
     }
   ],

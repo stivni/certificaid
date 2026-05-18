@@ -207,7 +207,7 @@ Vermeld in de eerste IFRS-jaarrekening: (a) aansluiting tussen BE-GAAP- en IFRS-
 
 ## Zie ook
 
-- **Getriggerd door**: [[ifrs-verordening-1606-2002]]
+- **Getriggerd door**: [[verplichte-ifrs-eu-beursgenoteerden]]
 - **Vereist kennis van**: [[jaarrekening-componenten-ifrs]]
 
 > [!todo] Voorbeeld ontbreekt voor dit concept

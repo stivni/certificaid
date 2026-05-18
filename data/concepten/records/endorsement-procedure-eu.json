@@ -1,0 +1,243 @@
+{
+  "id": "endorsement-procedure-eu",
+  "naam": "Endorsement-procedure — EU-goedkeuring van IFRS-standaarden",
+  "node_type": "cluster",
+  "schema_version": "1.5",
+  "status": "seed",
+  "linked_anchors": [
+    "1.5.II"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-18T11:13Z-revisit",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.5.II",
+    "linked_anchors": [
+      "1.5.II"
+    ],
+    "reviewed_by": null,
+    "afgesplitst_van": "ifrs-verordening-1606-2002",
+    "afsplitsings_reden": "v4 §17 regel 10 — bron-as-concept-smell: het oorspronkelijke record was vernoemd naar de verordening zelf en mengde twee distincte fenomenen (verplichte toepassing + goedkeuringsmechaniek). Endorsement is een zelfstandig fenomeen dat bij élke IFRS-standaard cross-referenced wordt ('is dit endorsed?')."
+  },
+  "definitie": {
+    "text": "De **endorsement-procedure** is het Europese goedkeuringsmechanisme waarmee een IASB-standaard (IAS, IFRS of bijhorende SIC/IFRIC-interpretatie) wordt omgezet in EU-recht. Pas na endorsement door de Europese Commissie — en bekendmaking als afzonderlijke Commissie-verordening in het Publicatieblad — is een standaard rechtsgeldig toepasbaar binnen de EU. De Commissie wordt bijgestaan door een **regelgevend comité voor financiële verslaglegging** dat in de praktijk bekend staat als het Accounting Regulatory Committee (ARC). Goedkeuring kan alleen als de standaard niet in strijd is met het true-and-fair-view-beginsel uit de Belgische omzetting van de richtlijnen én voldoet aan de vier kwalitatieve criteria voor financiële informatie (begrijpelijkheid, relevantie, betrouwbaarheid, vergelijkbaarheid).",
+    "confidence": "grounded",
+    "source": {
+      "type": "verordening",
+      "short": "Verordening (EG) 1606/2002 art. 3 + art. 6"
+    },
+    "references": [
+      {
+        "type": "verordening",
+        "short": "Verordening (EG) 1606/2002 art. 3 lid 1 (beslissingsbevoegdheid Commissie)"
+      },
+      {
+        "type": "verordening",
+        "short": "Verordening (EG) 1606/2002 art. 3 lid 2 (kwaliteitscriteria)"
+      },
+      {
+        "type": "verordening",
+        "short": "Verordening (EG) 1606/2002 art. 3 lid 4 (publicatieplicht)"
+      },
+      {
+        "type": "verordening",
+        "short": "Verordening (EG) 1606/2002 art. 6 (comité-procedure)"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "EU-IFRS-verordening-1606-2002__art_3",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "EU-IFRS-verordening-1606-2002__art_6",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Vier kwalitatieve criteria",
+      "wat": "Een IASB-standaard kan **alleen** endorsed worden als de financiële informatie die zij produceert beantwoordt aan **vier criteria**: begrijpelijkheid, relevantie, betrouwbaarheid en vergelijkbaarheid. De vier criteria zijn cumulatief — faalt één, dan blijft de standaard buiten EU-IFRS.",
+      "waarom": "De Europese wetgever stelt minimumeisen aan de kwaliteit van wat als rechtsbron geldt: de informatie moet economische beslissingen mogelijk maken en het management beoordeelbaar maken (art. 3 lid 2).",
+      "grondslag": "Verordening 1606/2002 art. 3 lid 2",
+      "confidence": "grounded",
+      "source": {
+        "type": "verordening",
+        "short": "Verordening 1606/2002 art. 3 lid 2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Europees openbaar belang",
+      "wat": "Naast de kwaliteitscriteria moet de standaard het **Europees openbaar belang** dienen. Dit is een afzonderlijke voorwaarde — niet versmolten met de vier kwaliteitscriteria. De Commissie weegt mee of toepassing in de EU de doeltreffende werking van de kapitaalmarkt en de interne markt waarborgt.",
+      "waarom": "De EU behoudt soevereiniteit over haar verslagleggingsrecht: een technisch correcte IFRS-standaard kan alsnog afgewezen worden als toepassing in de EU ongewenste economische of beleidsmatige effecten zou hebben.",
+      "grondslag": "Verordening 1606/2002 art. 3 lid 2 (samenhang met overweging 9)",
+      "confidence": "grounded",
+      "source": {
+        "type": "verordening",
+        "short": "Verordening 1606/2002 art. 3 lid 2 + overweging 9"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Regelgevend comité (ARC)",
+      "wat": "De Commissie wordt bij elke endorsement-beslissing bijgestaan door een **regelgevend comité voor financiële verslaglegging**, in de Europese praktijk bekend als het **Accounting Regulatory Committee (ARC)**. Het comité bestaat uit vertegenwoordigers van de lidstaten en stelt zijn eigen reglement van orde vast. De Commissie raadpleegt het comité regelmatig over lopende IASB-projecten (art. 7) en moet het tijdig informeren als zij voornemens is een standaard **niet** te endorsen.",
+      "waarom": "Lidstaten houden zo mee de hand aan de Europese verslagleggingsregels: het comité is hun technische kanaal om standpunten te coördineren en om vroegtijdig te wegen op endorsement-voorstellen.",
+      "grondslag": "Verordening 1606/2002 art. 6 lid 1 + art. 7",
+      "confidence": "inferred",
+      "ratio": "De verordening noemt expliciet 'het comité' en zijn rol; de naam 'Accounting Regulatory Committee (ARC)' is de Europese praktijk-benaming, niet woordelijk in art. 6. Deze toevoeging is doctrinair (Europese praktijk) — niet bron-direct.",
+      "source": {
+        "type": "verordening",
+        "short": "Verordening 1606/2002 art. 6 lid 1 + art. 7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_6",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Publicatie als Commissie-verordening",
+      "wat": "Een endorsed-standaard wordt **in haar geheel** bekendgemaakt als afzonderlijke verordening van de Commissie, in alle officiële talen, in het Publicatieblad van de Europese Unie. Pas vanaf die publicatie is de standaard formele rechtsbron in de EU. De huidige geconsolideerde tekst van alle endorsed IFRS staat in **Verordening (EU) 2023/1803**.",
+      "waarom": "Rechtszekerheid: ondernemingen, controleurs en rechters moeten één authentieke tekst kunnen raadplegen in hun werktaal. De geconsolideerde Commissie-verordening is dat eindpunt; de IASB-publicatie zelf heeft binnen de EU geen rechtskracht zonder deze omzetting.",
+      "grondslag": "Verordening 1606/2002 art. 3 lid 4",
+      "confidence": "grounded",
+      "source": {
+        "type": "verordening",
+        "short": "Verordening 1606/2002 art. 3 lid 4"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "IFRS 17 Verzekeringscontracten is door de IASB in mei 2017 uitgegeven, maar pas geëndosseerd door de EU op 19 november 2021 (Verordening 2021/2036). Tussen 2017 en eind 2021 mocht een Belgische verzekeraar IFRS 17 dus niet in haar wettelijke jaarrekening toepassen."
+        }
+      ]
+    }
+  ],
+  "in_praktijk": [
+    {
+      "aspect": "Endorsed IFRS versus IASB-IFRS",
+      "betekenis": "Wat de IASB publiceert (full IFRS) en wat in de EU geldt (endorsed IFRS) loopt niet gelijk. Endorsement neemt typisch enkele maanden tot enkele jaren. In een Belgische examencontext betekent 'IFRS' altijd endorsed IFRS, tenzij anders aangegeven.",
+      "herkenningspunt": "Bij elke nieuwe IFRS-versie checkt de stagiair eerst: is deze versie reeds geëndosseerd? EUR-Lex (CELEX 32023R1803) is de actuele referentie.",
+      "confidence": "grounded",
+      "source": {
+        "type": "verordening",
+        "short": "Verordening (EU) 2023/1803"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Een door de Commissie **goedgekeurde** standaard die nog niet in het Publicatieblad als verordening verschenen is, is **nog geen** EU-rechtsbron. Pas de publicatiedatum telt voor de toepassingsdatum.",
+      "confidence": "grounded",
+      "source": {
+        "type": "verordening",
+        "short": "Verordening 1606/2002 art. 3 lid 4"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Verwar het **ARC** (politiek-regelgevend comité van de lidstaten) niet met **EFRAG** (European Financial Reporting Advisory Group — privaatrechtelijk technisch adviesorgaan dat de Commissie voorbereidende adviezen geeft). EFRAG adviseert; het ARC stemt.",
+      "confidence": "inferred",
+      "ratio": "EFRAG wordt niet genoemd in de verordening; de afbakening tussen ARC (besluitvormend) en EFRAG (adviserend) is Europese praktijk-kennis die voor stagiairs cruciaal is om de procedure correct te lezen.",
+      "source": {
+        "type": "doctrine",
+        "short": "Europese institutionele praktijk"
+      },
+      "_provenance": {
+        "inputs": []
+      }
+    },
+    {
+      "text": "De vier kwaliteitscriteria (begrijpelijkheid, relevantie, betrouwbaarheid, vergelijkbaarheid) zijn **cumulatief**, niet alternatief. Een stagiair die 'voldoet aan minstens één' antwoordt, leest art. 3 lid 2 verkeerd.",
+      "confidence": "grounded",
+      "source": {
+        "type": "verordening",
+        "short": "Verordening 1606/2002 art. 3 lid 2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "verplichte-ifrs-eu-beursgenoteerden",
+      "redenering": "Endorsement bepaalt wat als 'IFRS' geldt voor de groep die onder de verplichting valt — de twee concepten zijn complementair.",
+      "confidence": "grounded"
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Stilstaande klok bij niet-endorsed IFRS",
+      "cast": [
+        "Zelena Bio NV"
+      ],
+      "omschrijving": "Zelena Bio NV stelt haar IFRS-geconsolideerde jaarrekening 2026 op. De IASB heeft in 2026 een wijziging aan IAS 7 (Kasstroomoverzichten) uitgegeven die nuttig zou zijn voor haar rapportering. De wijziging is nog niet in het Publicatieblad van de EU verschenen.",
+      "stappen": [
+        "1. CFO leest IASB-update en stelt voor de wijziging toe te passen.",
+        "2. Externe revisor toetst: 'staat de wijziging in een Commissie-verordening?' — nee.",
+        "3. Beslissing: huidige endorsed IAS 7 toepassen; toelichting vermeldt de aankomende wijziging zonder ze in cijfers door te voeren.",
+        "4. Zodra de Commissie-verordening verschijnt en de wijziging effectief is, wordt zij wel toegepast — bij de volgende toepasselijke jaarrekening."
+      ]
+    }
+  ]
+}

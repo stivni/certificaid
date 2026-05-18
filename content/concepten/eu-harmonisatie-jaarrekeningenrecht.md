@@ -90,10 +90,10 @@ _Grondslag: Richtlijn 2013/34/EU art. 48 lid 1_
 > Eén beursgenoteerde Belgische groep zoals Zelena Bio NV werkt **gelijktijdig** in twee EU-kaders: de geconsolideerde jaarrekening volgens **IFRS** (Verordening 1606/2002, rechtstreeks van toepassing), de statutaire jaarrekening volgens **Belgisch GAAP** (de KB WVV-omzetting van Richtlijn 2013/34/EU). Een grote niet-beursgenoteerde NV zoals Rotex Roeselare NV werkt op beide niveaus binnen Belgisch GAAP. ⚖️
 
 
-> [!info]- Niet verwarren met [[ifrs-verordening-1606-2002]]
-> Richtlijn 2013/34/EU regelt het **basiskader** voor alle EU-ondernemingen via nationale omzetting (in België: WVV + KB WVV); Verordening 1606/2002 verplicht **uitsluitend beursgenoteerde groepen** om hun geconsolideerde jaarrekening volgens IFRS op te stellen — rechtstreeks van toepassing zonder nationale tussenstap.
+> [!info]- Niet verwarren met [[verplichte-ifrs-eu-beursgenoteerden]]
+> Richtlijn 2013/34/EU regelt het **basiskader** voor alle EU-ondernemingen via nationale omzetting (in België: WVV + KB WVV); Verordening 1606/2002 (gevat door `verplichte-ifrs-eu-beursgenoteerden`) verplicht **uitsluitend beursgenoteerde groepen** om hun geconsolideerde jaarrekening volgens IFRS op te stellen — rechtstreeks van toepassing zonder nationale tussenstap.
 >
-> _Trigger_: Examenvraag 'welke EU-norm bepaalt of IFRS verplicht is?' → Verordening 1606/2002. 'Welke EU-norm bepaalt de minimuminhoud van de Belgische jaarrekening?' → Richtlijn 2013/34/EU (via KB WVV).
+> _Trigger_: Examenvraag 'welke EU-norm bepaalt of IFRS verplicht is?' → Verordening 1606/2002 / `verplichte-ifrs-eu-beursgenoteerden`. 'Welke EU-norm bepaalt de minimuminhoud van de Belgische jaarrekening?' → Richtlijn 2013/34/EU (via KB WVV).
 
 
 ## Valkuilen

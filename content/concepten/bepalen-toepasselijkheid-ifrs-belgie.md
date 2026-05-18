@@ -42,7 +42,7 @@ Stel vast of de vraag gaat over de statutaire (enkelvoudige) jaarrekening of ove
 3. Bij twijfel: vraag of de cliënt een raadpleegbare set aandeelhouders heeft en of er dochters zijn — alleen dan kan geconsolideerd relevant zijn.
 
 
-**Grondslag**: [[ifrs-verordening-1606-2002]] §toepassingsgebied
+**Grondslag**: [[verplichte-ifrs-eu-beursgenoteerden]] §toepassingsgebied
 
 ### 2. Toets of de onderneming beursgenoteerd is op een gereglementeerde EU-markt
 
@@ -65,7 +65,7 @@ Verifieer of de aandelen of obligaties van de onderneming op een gereglementeerd
 4. Bij Zelena Bio: noteer 'Beursgenoteerd op Euronext Brussel (gereglementeerde markt EU) sinds 2022'.
 
 
-**Grondslag**: [[ifrs-verordening-1606-2002]] §artikel-4, Verordening (EG) 1606/2002 art. 4
+**Grondslag**: [[verplichte-ifrs-eu-beursgenoteerden]] §artikel-4, Verordening (EG) 1606/2002 art. 4
 
 ### 3. Pas de beslisboom toe en formuleer conclusie
 
@@ -114,7 +114,7 @@ Combineer rapporteringsniveau (stap 1) + notering (stap 2) + sectorale status om
 >
 > _Vaak fout gedaan_: Aannemen dat elke notering op een handelsplatform IFRS-verplichting triggert. Multilateral Trading Facilities (MTF's) zoals Euronext Growth zijn geen gereglementeerde markt.
 >
-> _Grondslag_: [[ifrs-verordening-1606-2002]] §toepassingsgebied
+> _Grondslag_: [[verplichte-ifrs-eu-beursgenoteerden]] §toepassingsgebied
 
 > [!warning]- Hou statutair (enkelvoudig) en geconsolideerd strikt gescheiden bij IFRS-vraagstukken.
 >

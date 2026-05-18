@@ -21,7 +21,7 @@ gegenereerd_op: '2026-05-18'
 > [!summary] Korte inhoud
 > In België is IFRS-toepassing zeer beperkt. **Verplicht** is IFRS alleen voor de geconsolideerde jaarrekening van (1) op een gereglementeerde markt genoteerde Belgische ondernemingen, en (2) Belgische kredietinstellingen en verzekeringsondernemingen (op grond van sectorale toezich….
 
-> [!info] Specialisatie van: [[ifrs-verordening-1606-2002]]
+> [!info] Specialisatie van: [[verplichte-ifrs-eu-beursgenoteerden]]
 
 In België is IFRS-toepassing zeer beperkt. **Verplicht** is IFRS alleen voor de geconsolideerde jaarrekening van (1) op een gereglementeerde markt genoteerde Belgische ondernemingen, en (2) Belgische kredietinstellingen en verzekeringsondernemingen (op grond van sectorale toezichtsregels). **Toegestaan** (optie) is IFRS voor de geconsolideerde jaarrekening van een Belgische niet-beursgenoteerde moeder die uitdrukkelijk voor IFRS kiest en daarvoor toestemming krijgt — én voor de geconsolideerde jaarrekening van een consortium dat tot één enkel rapporteringsstelsel wil overgaan (Commissie voor Boekhoudkundige Normen, CBN, 2016/19). **Voor de enkelvoudige (statutaire) jaarrekening van een vennootschap** is IFRS in België niét toegestaan — die volgt altijd Belgisch GAAP (KB WVV).
 

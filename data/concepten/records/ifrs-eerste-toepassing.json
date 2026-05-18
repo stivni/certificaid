@@ -132,8 +132,8 @@
   "edges": [
     {
       "type": "getriggerd-door",
-      "target": "ifrs-verordening-1606-2002",
-      "redenering": "Een nieuwe verplichting tot IFRS (nieuwe beursnotering of stelselwissel) triggert IFRS 1.",
+      "target": "verplichte-ifrs-eu-beursgenoteerden",
+      "redenering": "Een nieuwe verplichting tot IFRS (typisch nieuwe beursnotering op een gereglementeerde markt die de onderneming onder art. 4 Verordening 1606/2002 doet vallen, of stelselwissel) triggert IFRS 1.",
       "confidence": "grounded"
     },
     {

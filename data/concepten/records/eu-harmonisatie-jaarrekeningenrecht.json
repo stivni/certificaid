@@ -267,9 +267,9 @@
   ],
   "vergelijkingsparen": [
     {
-      "vergelijking_met": "ifrs-verordening-1606-2002",
-      "verschil": "Richtlijn 2013/34/EU regelt het **basiskader** voor alle EU-ondernemingen via nationale omzetting (in België: WVV + KB WVV); Verordening 1606/2002 verplicht **uitsluitend beursgenoteerde groepen** om hun geconsolideerde jaarrekening volgens IFRS op te stellen — rechtstreeks van toepassing zonder nationale tussenstap.",
-      "trigger": "Examenvraag 'welke EU-norm bepaalt of IFRS verplicht is?' → Verordening 1606/2002. 'Welke EU-norm bepaalt de minimuminhoud van de Belgische jaarrekening?' → Richtlijn 2013/34/EU (via KB WVV)."
+      "vergelijking_met": "verplichte-ifrs-eu-beursgenoteerden",
+      "verschil": "Richtlijn 2013/34/EU regelt het **basiskader** voor alle EU-ondernemingen via nationale omzetting (in België: WVV + KB WVV); Verordening 1606/2002 (gevat door `verplichte-ifrs-eu-beursgenoteerden`) verplicht **uitsluitend beursgenoteerde groepen** om hun geconsolideerde jaarrekening volgens IFRS op te stellen — rechtstreeks van toepassing zonder nationale tussenstap.",
+      "trigger": "Examenvraag 'welke EU-norm bepaalt of IFRS verplicht is?' → Verordening 1606/2002 / `verplichte-ifrs-eu-beursgenoteerden`. 'Welke EU-norm bepaalt de minimuminhoud van de Belgische jaarrekening?' → Richtlijn 2013/34/EU (via KB WVV)."
     }
   ],
   "edges": [
@@ -299,9 +299,9 @@
     },
     {
       "type": "vergelijkt-met",
-      "target": "ifrs-verordening-1606-2002",
+      "target": "verplichte-ifrs-eu-beursgenoteerden",
       "aspect": "EU-instrument-type en toepassingsgebied",
-      "redenering": "Tweesporig EU-kader — richtlijn vs. verordening — een vaak voorkomende examenval.",
+      "redenering": "Tweesporig EU-kader — Richtlijn 2013/34 voor algemeen jaarrekeningenrecht versus rechtstreeks werkende Verordening 1606/2002 voor IFRS op geconsolideerd niveau van EU-beursgenoteerden. Een vaak voorkomende examenval.",
       "confidence": "grounded"
     },
     {

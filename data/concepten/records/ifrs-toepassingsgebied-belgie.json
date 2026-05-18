@@ -262,9 +262,10 @@
   "edges": [
     {
       "type": "specialisatie-van",
-      "target": "ifrs-verordening-1606-2002",
-      "redenering": "Dit record specificeert hoe de algemene EU-verordening in België concreet uitwerkt.",
-      "confidence": "grounded"
+      "target": "verplichte-ifrs-eu-beursgenoteerden",
+      "redenering": "Deze regel specificeert hoe de algemene EU-verplichting (`verplichte-ifrs-eu-beursgenoteerden`) in België concreet uitwerkt — inclusief de Belgische invulling van de art. 5-lidstatenoptie en de consortium-uitzondering (CBN 2016/19).",
+      "confidence": "grounded",
+      "regime": "BE"
     },
     {
       "type": "vereist-kennis-van",
