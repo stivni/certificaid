@@ -50,7 +50,6 @@
       "titel": "Nettorentabiliteit van het eigen vermogen",
       "wat": "Verhouding tussen de winst (of verlies) van het boekjaar na belastingen — vóór resultaatverwerking — en het eigen vermogen op balansdatum.",
       "waarom": "Geeft het direct uitkeerbare of beschikbare rendement aan voor de aandeelhouder — wat overblijft nadat de fiscus is bediend.",
-      "voorbeeld_inline": "Rotex Roeselare NV: winst boekjaar € 2.500.000; eigen vermogen € 12.000.000. Nettorentabiliteit EV = € 2.500.000 / € 12.000.000 = 20,8 %.",
       "grondslag": "CBN-2011/14 §rentabiliteit eigen vermogen",
       "confidence": "grounded",
       "source": {
@@ -65,13 +64,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV: winst boekjaar € 2.500.000; eigen vermogen € 12.000.000. Nettorentabiliteit EV = € 2.500.000 / € 12.000.000 = 20,8 %."
+        }
+      ]
     },
     {
       "titel": "Brutorentabiliteit van het eigen vermogen",
       "wat": "Verhouding tussen de cashflow (nettoresultaat na belasting + niet-kaskosten zoals afschrijvingen, waardeverminderingen en voorzieningen) en het eigen vermogen.",
       "waarom": "Filtert boekhoudkundige niet-kaselementen weg en toont wat de onderneming echt aan middelen genereert tegenover het eigen vermogen.",
-      "voorbeeld_inline": "Rotex Roeselare NV: nettoresultaat € 2.500.000 + afschrijvingen € 1.500.000 + waardeverminderingen € 200.000 = cashflow € 4.200.000. Brutorentabiliteit EV = € 4.200.000 / € 12.000.000 = 35,0 %.",
       "grondslag": "CBN-2011/14 §rentabiliteit eigen vermogen",
       "confidence": "grounded",
       "source": {
@@ -86,7 +90,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV: nettoresultaat € 2.500.000 + afschrijvingen € 1.500.000 + waardeverminderingen € 200.000 = cashflow € 4.200.000. Brutorentabiliteit EV = € 4.200.000 / € 12.000.000 = 35,0 %."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
@@ -394,5 +404,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

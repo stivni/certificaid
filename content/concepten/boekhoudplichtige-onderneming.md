@@ -34,7 +34,6 @@ _Bron: WER art. III.82, § 1_
 
 **Waarom?** De wet wil dat élke economische actor — niet alleen vennootschappen — een minimum aan financiële transparantie biedt.
 
-**Voorbeeld**: Tom Lefèvre is vennoot van een maatschap zonder rechtspersoonlijkheid → de maatschap is boekhoudplichtig (organisatie zonder rechtspersoonlijkheid met economisch doel).
 
 _Grondslag: WER art. III.82, § 1_
 
@@ -44,7 +43,6 @@ Niet boekhoudplichtig zijn onder andere: (1) de Federale Staat en andere openbar
 
 **Waarom?** De boekhoudplicht is de regel, niet de uitzondering — voor de stagiair: 'twijfel = boekhouden'.
 
-**Voorbeeld**: Een sportclub-feitelijke-vereniging die enkel lidgelden int en geen handel drijft → niet boekhoudplichtig. Een feitelijke vereniging die een café uitbaat → wel boekhoudplichtig.
 
 _Grondslag: WER art. III.82, § 2_
 
@@ -54,7 +52,6 @@ Voor een buitenlandse onderneming geldt de Belgische boekhoudplicht enkel voor h
 
 **Waarom?** Belgisch recht is territoriaal — buitenlandse hoofdzetels worden niet 'gepakt' door WER Boek III.
 
-**Voorbeeld**: Kappers Köln GmbH (Duits) heeft een Antwerps bijkantoor → het bijkantoor voert een Belgische boekhouding (KB-WVV regels); het hoofdkantoor blijft onder Duits recht.
 
 _Grondslag: WER art. III.82, § 3; CBN-advies 2022/14_
 
@@ -74,6 +71,9 @@ _Grondslag: WER art. III.82, § 3; CBN-advies 2022/14_
 
 - **Getriggerd door**: [[wetboek-economisch-recht-boek-iii]]
 - **Vereist kennis van**: [[dubbel-boekhouden]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

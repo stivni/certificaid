@@ -35,7 +35,6 @@ De IFRS-balans toont activa, verplichtingen en eigen vermogen op één tijdstip.
 
 **Waarom?** De vlottend/niet-vlottend-splitsing geeft gebruikers meteen inzicht in liquiditeitsrisico en kapitaalstructuur. Voor banken is die splitsing weinig zinvol — vandaar de afwijking.
 
-**Voorbeeld**: Zelena Bio NV (productiebedrijf) volgt de vlottend/niet-vlottend-splitsing. Een buitenlandse bankdochter binnen de Zelena Bio Groep zou de liquiditeitsvolgorde aanhouden in haar lokale rapportering.
 
 _Grondslag: IAS 1 alinea 54 + 60_
 
@@ -45,7 +44,6 @@ Twee onderdelen: **winst of verlies** (de klassieke W&V-rekening) + **overige on
 
 **Waarom?** Sommige waarde-mutaties hebben niets met de gewone bedrijfsuitoefening te maken (herwaardering vastgoed; wisselkoersverschil op buitenlandse dochter). Ze meteen in winst of verlies opnemen zou het resultaat onvergelijkbaar maken. OCI parkeert ze tot ze definitief gerealiseerd of geherclassificeerd worden.
 
-**Voorbeeld**: Zelena Bio NV behaalt in 2026 een winst van € 35.000.000 (uit verkoop biofarmaceutische producten). Daarnaast OCI: herwaardering productieterrein +€ 4.500.000 (kostprijsmodel? Nee — Zelena past het herwaarderingsmodel toe op terreinen). Totaalresultaat = € 39.500.000.
 
 _Grondslag: IAS 1 alinea 10A + 81A + 82A_
 
@@ -55,7 +53,6 @@ Verzoeningsschema: beginsaldo per categorie eigen vermogen (kapitaal, agio, herw
 
 **Waarom?** Eigen vermogen is geen monoliet. Gebruikers willen zien hoeveel van de verandering komt uit operationele winst, hoeveel uit OCI, hoeveel uit dividenden of kapitaaltransacties.
 
-**Voorbeeld**: Zelena Bio NV: ingehouden winsten 1 januari 2026 € 95.000.000 + winst 2026 € 35.000.000 − dividend 2026 −€ 15.000.000 = € 115.000.000 ingehouden winsten 31 december 2026. Apart kolom voor herwaarderingsreserve toont de OCI-toevoeging € 4.500.000.
 
 _Grondslag: IAS 1 alinea 106_
 
@@ -65,7 +62,6 @@ Splitsing van geldstromen in drie categorieën: **operationeel** (uit bedrijfsui
 
 **Waarom?** De W&V-rekening werkt op toerekeningsbasis (accruals), dus weerspiegelt niet de cash-realiteit. Het kasstroomoverzicht voegt de cash-laag toe.
 
-**Voorbeeld**: Zelena Bio NV: operationele cashflow 2026 = € 42.000.000 (winst € 35M + afschrijvingen € 12M − werkkapitaalstijging −€ 5M); investeringscashflow = −€ 28.000.000 (CAPEX in nieuwe productielijn); financieringscashflow = −€ 8.000.000 (dividend + aflossing obligaties).
 
 _Grondslag: IAS 1 alinea 10(d) + IAS 7_
 
@@ -75,7 +71,6 @@ Bevat de grondslagen voor financiële verslaggeving (welke IFRS-keuzes — kostp
 
 **Waarom?** Cijfers krijgen pas betekenis met context. IFRS bevat veel keuze-momenten; gebruikers moeten weten welke keuze de entiteit maakte om vergelijkingen te kunnen maken.
 
-**Voorbeeld**: Zelena Bio's toelichting vermeldt: 'Materiële vaste activa: kostprijsmodel (IAS 16 alinea 30), behalve terreinen die volgens het herwaarderingsmodel worden gewaardeerd (IAS 16 alinea 31).' Een lezer weet meteen waarom de terreinen schommelen in waarde.
 
 _Grondslag: IAS 1 alinea 7 + 117_
 
@@ -116,6 +111,9 @@ _Grondslag: IAS 1 alinea 7 + 117_
 > _Bron: IAS 1 alinea 7 (definitie OCI)_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

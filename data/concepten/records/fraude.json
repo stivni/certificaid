@@ -45,23 +45,33 @@
       "titel": "Drie elementen van de fraude-driehoek",
       "wat": "(1) Druk/motief: financiële stress, levensstijl, doelen halen. (2) Gelegenheid: zwakke IC, geen functiescheiding, geen monitoring. (3) Rationalisatie: 'ik leen het maar', 'iedereen doet het', 'ze betalen me te weinig'. Fraude ontstaat waar drie samenkomen.",
       "waarom": "Sterk IC kan het element 'gelegenheid' beperken — de andere twee zijn buiten controle van de onderneming.",
-      "voorbeeld_inline": "Aankoper met gokverslaving (druk) + ontbrekende functiescheiding aankoop-betaling (gelegenheid) + 'het bedrijf merkt het toch niet' (rationalisatie) = fraude-risico hoog.",
       "grondslag": "Cressey (1953) — vakdoctrine",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aankoper met gokverslaving (druk) + ontbrekende functiescheiding aankoop-betaling (gelegenheid) + 'het bedrijf merkt het toch niet' (rationalisatie) = fraude-risico hoog."
+        }
+      ]
     },
     {
       "titel": "Drie hoofdtypen volgens ACFE",
       "wat": "(a) Fraudulente financiële verslaggeving: cijfers vervalsen om resultaat te verbeteren (manipulatie omzet, fictieve voorraad, uitgestelde kosten). (b) Misappropriation of assets: verduistering van geld, voorraad of immaterieel. (c) Corruption: omkoping, kickbacks, belangenconflicten.",
       "waarom": "Elk type vraagt andere preventie + detectie. Financiële vervalsing detecteer je in jaarrekening-analyse; verduistering in kasprocessen; corruptie in due-diligence + klokkenluiders.",
-      "voorbeeld_inline": "Type (b) bij Yperse Werkplaats BV: magazijnier neemt afgekeurde producten mee 'voor privé'. Type (a) bij Rotex Roeselare NV: WIP overschat om omzetdoelen te halen. Type (c): aankoper krijgt persoonlijke commissie van leverancier.",
       "grondslag": "ACFE Report to the Nations — vakdoctrine",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Type (b) bij Yperse Werkplaats BV: magazijnier neemt afgekeurde producten mee 'voor privé'. Type (a) bij Rotex Roeselare NV: WIP overschat om omzetdoelen te halen. Type (c): aankoper krijgt persoonlijke commissie van leverancier."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -114,5 +124,5 @@
       "omschrijving": "Bij Yperse Werkplaats BV manipuleert een aankoper systematisch leveranciersfacturen: hij richt een schaduwfirma op, factureert fictieve consultancy en boekt de betaling op zijn rekening. Strafrechtelijk: oplichting (art. 479) + valsheid in geschriften + misbruik van vertrouwen. Detectie pas na bezoek nieuwe externe auditor Sofie Janssens (cijferanalyse + leveranciers-due-diligence)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

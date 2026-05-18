@@ -41,7 +41,6 @@ Sorteer activa van minst naar meest liquide: vaste activa eerst, voorraden, vord
 
 **Waarom?** Zo zie je ineens hoeveel kapitaal vastligt versus hoeveel snel beschikbaar is.
 
-**Voorbeeld**: Rotex Roeselare NV: € 18.000.000 vaste activa (vastliggend) — € 2.500.000 voorraden (medium) — € 5.300.000 vorderingen/geld/beleggingen (zeer liquide).
 
 _Grondslag: Vakdoctrine + KB WVV balansschema_
 
@@ -51,7 +50,6 @@ Sorteer passiva van minst naar meest opeisbaar: eigen vermogen (niet opeisbaar),
 
 **Waarom?** Zo zie je hoeveel financiering structureel is (lange termijn) versus hoeveel binnenkort moet worden vergoed.
 
-**Voorbeeld**: Rotex Roeselare NV: € 12.000.000 EV — € 1.000.000 voorzieningen — € 13.000.000 lange schulden — € 4.000.000 korte schulden.
 
 _Grondslag: Vakdoctrine + KB WVV balansschema_
 
@@ -61,7 +59,6 @@ De analist past soms herklassificaties toe: vorderingen > 1 jaar van vaste activ
 
 **Waarom?** De wettelijke balans is verzoenend met meerdere doelen (juridisch, fiscaal). Voor analyse heb je soms behoefte aan een zuiver-economische voorstelling.
 
-**Voorbeeld**: Bij Rotex Roeselare NV werd voor analyse de 'Uitgestelde belastingen' van € 500.000 opgesplitst: € 350.000 reëel schuldachtig (binnen 5 jaar), € 150.000 permanent → toegevoegd aan EV.
 
 _Grondslag: Vakdoctrine_
 
@@ -87,6 +84,9 @@ _Grondslag: Vakdoctrine_
 
 - **Vereist kennis van**: [[verticale-analyse-jaarrekening]]
 - **Vereist kennis van**: [[horizontale-analyse-jaarrekening]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

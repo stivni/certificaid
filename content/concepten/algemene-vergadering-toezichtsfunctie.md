@@ -33,7 +33,6 @@ Het bestuursorgaan licht aan de algemene vergadering de financiële toestand en 
 
 **Waarom?** De AV is de uiteindelijke beslisser; haar kwijting bepaalt of bestuurders aansprakelijk blijven voor het beleid van het boekjaar.
 
-**Voorbeeld**: Op de gewone AV van Rotex Roeselare NV in mei 20X2 licht de CEO de jaarrekening 20X1 toe. AV stemt over goedkeuring en kwijting.
 
 _Grondslag: WVV art. 9:19 (VZW-context) en analoog voor andere rechtsvormen_
 
@@ -43,7 +42,6 @@ Twee aparte stemmingen: (a) goedkeuring van de jaarrekening (validatie van de ci
 
 **Waarom?** Goedkeuring zonder kwijting is mogelijk (AV vindt cijfers OK maar wil bestuurders aansprakelijk kunnen blijven houden).
 
-**Voorbeeld**: Bij Rotex Roeselare NV: 100 % vóór goedkeuring; 98 % vóór kwijting (Robert Vandenberghe, minderheidsaandeelhouder, onthoudt zich wegens hangend geschil).
 
 _Grondslag: WVV (per rechtsvorm)_
 
@@ -59,6 +57,9 @@ _Grondslag: WVV (per rechtsvorm)_
 ## Zie ook
 
 - **Vereist kennis van**: [[bestuursverslag]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

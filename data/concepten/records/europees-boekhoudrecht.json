@@ -63,7 +63,6 @@
       "titel": "Verordening: rechtstreekse werking",
       "wat": "Een Europese verordening werkt onmiddellijk in elke lidstaat — een Belgische rechter past haar rechtstreeks toe. De Belgische wetgever hoeft niets om te zetten.",
       "waarom": "Stagiair-vuistregel: zie je 'Verordening (EG/EU)'? Dan gelden de Europese bepalingen rechtstreeks, ook als de Belgische wet er niets over zegt.",
-      "voorbeeld_inline": "IAS-verordening 1606/2002 verplicht beursgenoteerde groepen om IFRS te gebruiken voor de geconsolideerde jaarrekening — Belgische wetgeving hoeft daarvoor niets te bevestigen.",
       "grondslag": "WER art. II.1",
       "confidence": "grounded",
       "source": {
@@ -78,13 +77,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "IAS-verordening 1606/2002 verplicht beursgenoteerde groepen om IFRS te gebruiken voor de geconsolideerde jaarrekening — Belgische wetgeving hoeft daarvoor niets te bevestigen."
+        }
+      ]
     },
     {
       "titel": "Richtlijn: omzetting vereist",
       "wat": "Een Europese richtlijn bindt lidstaten over het doel, maar laat de keuze van vorm en middelen aan de lidstaat. België moet de richtlijn omzetten in eigen wet of KB — een richtlijn werkt niet rechtstreeks (behalve in bepaalde uitzonderingsgevallen).",
       "waarom": "De jaarrekeningenwet bevat dus géén letterlijke Europese tekst, maar een Belgische versie. Bij interpretatieve onduidelijkheid kan een rechter wel teruggrijpen naar de richtlijn.",
-      "voorbeeld_inline": "Richtlijn 2013/34/EU is in België omgezet via aanpassingen aan het WVV en het KB-WVV — dezelfde grootteklassen en jaarrekening-schema's vind je dus in beide teksten.",
       "grondslag": "Richtlijn 2013/34/EU art. 1; omzetting in WVV Boek 3",
       "confidence": "grounded",
       "source": {
@@ -99,13 +103,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Richtlijn 2013/34/EU is in België omgezet via aanpassingen aan het WVV en het KB-WVV — dezelfde grootteklassen en jaarrekening-schema's vind je dus in beide teksten."
+        }
+      ]
     },
     {
       "titel": "Twee sporen voor jaarrekening",
       "wat": "Voor de jaarrekening lopen twee Europese sporen parallel: (1) Richtlijn 2013/34/EU — Belgisch GAAP voor gewone ondernemingen, (2) IAS-verordening 1606/2002 — IFRS voor geconsolideerde jaarrekening van beursgenoteerde groepen.",
       "waarom": "Een groep zonder beursnotering blijft volledig in Belgisch GAAP; een beursgenoteerde groep moet IFRS toepassen voor zijn consolidatie maar Belgisch GAAP voor zijn enkelvoudige rekening (tenzij optioneel IFRS gekozen).",
-      "voorbeeld_inline": "Aurelia Holding NV (niet-beursgenoteerd) → Belgisch GAAP voor alles. Beursgenoteerde holding → IFRS-consolidatie + Belgisch-GAAP-enkelvoudig.",
       "grondslag": "Richtlijn 2013/34/EU + Verordening 1606/2002",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -125,7 +134,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV (niet-beursgenoteerd) → Belgisch GAAP voor alles. Beursgenoteerde holding → IFRS-consolidatie + Belgisch-GAAP-enkelvoudig."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -204,5 +219,5 @@
       "omschrijving": "Rotex Roeselare NV is beursgenoteerd → moet IFRS toepassen op haar geconsolideerde jaarrekening (rechtstreekse werking IAS-verordening 1606/2002). Voor haar enkelvoudige jaarrekening blijft Belgisch GAAP gelden (geïmplementeerde Richtlijn 2013/34/EU)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

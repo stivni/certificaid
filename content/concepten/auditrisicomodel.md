@@ -47,7 +47,6 @@ Enkel het ontdekkingsrisico. Inherent en intern beheersingsrisico zijn EIGENSCHA
 
 **Waarom?** Zo focust het model op de stuurknop van de auditor: omvang, timing en aard van zijn werkzaamheden.
 
-**Voorbeeld**: Sofie Janssens kan niet de IT-controles van Rotex verbeteren, maar zij kan beslissen om méér substantive testing te doen op voorraadwaardering wanneer de IC daar zwak is.
 
 _Grondslag: ITAA KMO-controlenorm §96_
 

@@ -36,7 +36,6 @@ _Bron: Management accounting — bron-gap_
 
 **Waarom?** Toont geprojecteerde winstgevendheid van de operationele activiteit.
 
-**Voorbeeld**: Yperse Werkplaats BV master-budget 20X2: omzet € 4.500.000, totale kost € 3.700.000, EBIT € 800.000, geprojecteerde belasting € 200.000, nettowinst € 600.000.
 
 
 ### Financieel budget 🤖
@@ -45,7 +44,6 @@ _Bron: Management accounting — bron-gap_
 
 **Waarom?** Toont liquiditeit en solvabiliteit; signaleert nood aan extra financiering.
 
-**Voorbeeld**: Yperse 20X2 investeringsbudget: nieuwe naaimachines € 280.000 (Q2). Kasstroom-projectie toont negatieve cash in mei (loonbetalingen + investering); financieringsbudget voorziet trekking € 150.000 op kredietlijn.
 
 
 
@@ -60,4 +58,7 @@ _Bron: Management accounting — bron-gap_
 ## Zie ook
 
 - **Vereist kennis van**: [[budgetprocedure]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

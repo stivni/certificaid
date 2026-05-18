@@ -42,7 +42,6 @@
       "titel": "Voorraad + handelsvorderingen − leverancierskrediet",
       "wat": "Som van wat operationeel vastzit (voorraden, handelsvorderingen) min wat van leveranciers nog niet betaald is (handelsschulden). Het positief verschil is geld dat permanent moet voorgefinancierd worden.",
       "waarom": "Een groeiende handelsactiviteit vreet vanzelf cash via de exploitatiecyclus — zonder financiering komt het bedrijf in liquiditeitsproblemen ondanks winstgevendheid.",
-      "voorbeeld_inline": "Rotex Roeselare NV heeft voorraden van € 6.000.000, handelsvorderingen € 8.000.000 en handelsschulden € 4.500.000. BBK = € 6.000.000 + € 8.000.000 − € 4.500.000 = € 9.500.000.",
       "grondslag": "Vakdoctrine",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -57,13 +56,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV heeft voorraden van € 6.000.000, handelsvorderingen € 8.000.000 en handelsschulden € 4.500.000. BBK = € 6.000.000 + € 8.000.000 − € 4.500.000 = € 9.500.000."
+        }
+      ]
     },
     {
       "titel": "Werkkapitaal moet de BBK dekken",
       "wat": "Het werkkapitaal (permanente middelen − vaste activa) moet de BBK financieren. Werkkapitaal > BBK levert positieve nettokas; werkkapitaal < BBK betekent dat kortlopend bankkrediet de exploitatiecyclus moet dichtdekken.",
       "waarom": "Dit verklaart waarom een winstgevend bedrijf toch in liquiditeitsproblemen kan komen: groeiende omzet → groeiende BBK → werkkapitaal niet meer toereikend → kasspanning.",
-      "voorbeeld_inline": "Rotex Roeselare NV: werkkapitaal = € 8.000.000, BBK = € 9.500.000 → nettokas = − € 1.500.000 (kortlopende bankkrediet nodig).",
       "grondslag": "Vakdoctrine",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -78,7 +82,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV: werkkapitaal = € 8.000.000, BBK = € 9.500.000 → nettokas = − € 1.500.000 (kortlopende bankkrediet nodig)."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
@@ -198,5 +208,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

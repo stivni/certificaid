@@ -41,7 +41,6 @@
       "titel": "Vlottende activa zonder voorraden",
       "wat": "Schrap de voorraden uit de teller van de current ratio. Hou over: vorderingen, geldbeleggingen, liquide middelen. Deel door schulden op ten hoogste een jaar.",
       "waarom": "Voorraden hebben een lange omloopcyclus (productie + verkoop + inning). In een liquiditeitscrisis zijn ze moeilijk snel te gelde te maken; zonder voorraden meet je de 'echte' kortetermijnsolventie.",
-      "voorbeeld_inline": "Rotex Roeselare NV: vlottende activa € 8.000.000 minus voorraden € 2.500.000 = € 5.500.000; korte schulden € 4.000.000. Quick ratio = € 5.500.000 / € 4.000.000 = 1,375.",
       "grondslag": "Vakdoctrine financial analysis",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -56,7 +55,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV: vlottende activa € 8.000.000 minus voorraden € 2.500.000 = € 5.500.000; korte schulden € 4.000.000. Quick ratio = € 5.500.000 / € 4.000.000 = 1,375."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
@@ -251,5 +256,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

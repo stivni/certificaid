@@ -55,7 +55,6 @@
       "titel": "Aanschaffingsprijs bij externe aankoop",
       "wat": "Bij aankoop bij een derde is de aanschaffingsprijs de aankoopprijs PLUS alle bijkomende kosten om het actief in werking te brengen: invoerrechten, installatie, transport, niet-aftrekbare BTW.",
       "waarom": "Een actief is pas operationeel ná installatie en transport; die kosten zijn onlosmakelijk deel van wat het actief 'kost'. Ze meeactiveren spreidt ze mee af in plaats van ze meteen als kost te boeken.",
-      "voorbeeld_inline": "Naaiatelier Ninove BV koopt snij-installatie € 28.500 + transport € 750 + installatie € 1.250 = aanschaffingsprijs € 30.500. NIET inbegrepen: opleiding personeel (= bedrijfskost), proefdraaikost (= bedrijfskost).",
       "grondslag": "KB WVV art. 3:13",
       "confidence": "grounded",
       "source": {
@@ -70,13 +69,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Naaiatelier Ninove BV koopt snij-installatie € 28.500 + transport € 750 + installatie € 1.250 = aanschaffingsprijs € 30.500. NIET inbegrepen: opleiding personeel (= bedrijfskost), proefdraaikost (= bedrijfskost)."
+        }
+      ]
     },
     {
       "titel": "Vervaardigingsprijs bij eigen productie",
       "wat": "Wanneer de onderneming het actief zelf produceert, is de vervaardigingsprijs de som van directe productiekosten (materialen, arbeid) plus een evenredig deel van de indirecte productiekosten. Algemene beheerkosten worden NIET geactiveerd.",
       "waarom": "Een zelf gemaakt actief moet niet anders worden behandeld dan een gekocht actief; alleen kosten die er rechtstreeks aan toe te wijzen zijn, mogen mee.",
-      "voorbeeld_inline": "Naaiatelier Ninove BV bouwt zelf een interne kledijopslag: materialen € 4.200, lonen montagepersoneel € 3.800, elektriciteit montagehal € 250 → vervaardigingsprijs € 8.250. NIET inbegrepen: jaarlijkse boekhoudkost.",
       "grondslag": "KB WVV art. 3:14",
       "confidence": "grounded",
       "source": {
@@ -91,13 +95,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Naaiatelier Ninove BV bouwt zelf een interne kledijopslag: materialen € 4.200, lonen montagepersoneel € 3.800, elektriciteit montagehal € 250 → vervaardigingsprijs € 8.250. NIET inbegrepen: jaarlijkse boekhoudkost."
+        }
+      ]
     },
     {
       "titel": "Inbrengwaarde bij inbreng in natura",
       "wat": "Wanneer een actief als inbreng in natura wordt ingebracht in een vennootschap, geldt de inbrengwaarde — typisch de werkelijke waarde op datum van inbreng, gevalideerd door een bedrijfsrevisorenverslag.",
       "waarom": "Er is geen externe aankoopprijs of vervaardigingsprijs; de inbrengwaarde moet de werkelijke economische waarde weerspiegelen, anders zou het eigen vermogen worden over- of onderschat.",
-      "voorbeeld_inline": "Bij oprichting van Oprichtingen Oostende BV brengt aandeelhouder Pieter Vermeulen een bestelwagen in. Bedrijfsrevisor schat werkelijke waarde € 22.000 → inbrengwaarde € 22.000, geboekt op rekening 242 'Bedrijfswagens'.",
       "grondslag": "KB WVV art. 3:15",
       "confidence": "grounded",
       "source": {
@@ -112,13 +121,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij oprichting van Oprichtingen Oostende BV brengt aandeelhouder Pieter Vermeulen een bestelwagen in. Bedrijfsrevisor schat werkelijke waarde € 22.000 → inbrengwaarde € 22.000, geboekt op rekening 242 'Bedrijfswagens'."
+        }
+      ]
     },
     {
       "titel": "Bestendigheidsbeginsel: aanschaffingswaarde blijft historisch",
       "wat": "Eenmaal vastgesteld blijft de aanschaffingswaarde stabiel op de balans; latere prijsstijgingen of dalingen worden NIET in deze post verwerkt. Wel kunnen afschrijvingen, waardeverminderingen of herwaarderingen de NETTO-boekwaarde wijzigen.",
       "waarom": "Historische kostprijs is een objectieve, verifieerbare basis. Constant aanpassen zou subjectiviteit en volatiliteit introduceren.",
-      "voorbeeld_inline": "Het bedrijfspand van Rotex Roeselare NV: aanschaffingswaarde € 850.000 in 2010 blijft op de balans als € 850.000, óók als de werkelijke waarde anno 20X1 € 1.250.000 is. De stijging verschijnt enkel bij eventuele herwaardering of bij verkoop.",
       "grondslag": "KB WVV art. 3:13 + bestendigheid",
       "confidence": "grounded",
       "source": {
@@ -133,7 +147,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Het bedrijfspand van Rotex Roeselare NV: aanschaffingswaarde € 850.000 in 2010 blijft op de balans als € 850.000, óók als de werkelijke waarde anno 20X1 € 1.250.000 is. De stijging verschijnt enkel bij eventuele herwaardering of bij verkoop."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -200,5 +220,5 @@
       "omschrijving": "Naaiatelier Ninove BV koopt een snij-installatie voor € 28.500 excl. BTW; bijkomende installatiekosten € 1.250 en transport € 750. Aanschaffingswaarde = € 28.500 + € 1.250 + € 750 = € 30.500 — dat is de basis waarop afschrijvingen worden berekend en die op de balans verschijnt onder rubriek 23 'Installaties, machines en uitrusting'."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

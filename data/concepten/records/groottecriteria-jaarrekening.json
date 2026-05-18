@@ -111,7 +111,6 @@
       "titel": "Drie criteria, max één mag overschreden worden",
       "wat": "Eén criterium overschrijden = nog steeds 'klein'. Twee of drie criteria overschrijden = 'groot'. Het is dus geen som-formule; één 'fout' is OK, twee niet.",
       "waarom": "Deze regel beschermt vennootschappen tegen statuswisseling bij toevallige uitschieter op één enkel criterium.",
-      "voorbeeld_inline": "Brugse Brouwerij BV: 55 werknemers (te hoog), € 4M omzet (OK), € 3M balanstotaal (OK) → slechts 1 criterium overschreden → blijft klein.",
       "grondslag": "WVV art. 1:24 § 1",
       "confidence": "grounded",
       "source": {
@@ -126,13 +125,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Brugse Brouwerij BV: 55 werknemers (te hoog), € 4M omzet (OK), € 3M balanstotaal (OK) → slechts 1 criterium overschreden → blijft klein."
+        }
+      ]
     },
     {
       "titel": "Twee opeenvolgende boekjaren",
       "wat": "De grootteklasse wijzigt pas als de overschrijding zich in twee opeenvolgende boekjaren voordoet ('lock-in regel'). Eénmalig overschrijden kantelt de status niet — pas bij herhaling.",
       "waarom": "Voorkomt heen-en-weer-schommelen tussen klein en groot bij conjuncturele uitschieters.",
-      "voorbeeld_inline": "Meubelzaak Mertens BV overschrijdt in 2024 zowel omzet als personeelsbezetting → moet wachten op 2025: blijft ze overschrijden? → vanaf 2026 'groot'.",
       "grondslag": "WVV art. 1:24, § 4",
       "confidence": "grounded",
       "source": {
@@ -147,13 +151,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Meubelzaak Mertens BV overschrijdt in 2024 zowel omzet als personeelsbezetting → moet wachten op 2025: blijft ze overschrijden? → vanaf 2026 'groot'."
+        }
+      ]
     },
     {
       "titel": "Verbondenheid trekt de telling op",
       "wat": "Een vennootschap die deel uitmaakt van een groep (moeder of dochter) telt de gegevens van de verbonden vennootschappen mee op geconsolideerde basis. Een 'kleine' vennootschap in een 'grote' groep wordt voor de jaarrekening behandeld als groot.",
       "waarom": "Zo kan een grote groep niet zijn jaarrekening-verplichtingen ontwijken door zich op te splitsen in kleinere entiteiten.",
-      "voorbeeld_inline": "Aurelia Holding NV (klein op zich) heeft 4 dochters → de groep heeft samen 60 werknemers en € 18M omzet → Aurelia wordt voor jaarrekening behandeld als groot.",
       "grondslag": "WVV art. 1:24, § 5; CBN-advies 2017/10",
       "confidence": "grounded",
       "source": {
@@ -173,13 +182,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV (klein op zich) heeft 4 dochters → de groep heeft samen 60 werknemers en € 18M omzet → Aurelia wordt voor jaarrekening behandeld als groot."
+        }
+      ]
     },
     {
       "titel": "Microvennootschap: extra voorwaarde",
       "wat": "Naast de strengere drempels mag een microvennootschap géén moedervennootschap zijn en niet behoren tot een groep waarvan de moeder een geconsolideerde jaarrekening publiceert. Heeft ze één dochter → automatisch geen micro, maximaal klein.",
       "waarom": "Microschema (kleinste schema) is bedoeld voor de allerkleinste, eenvoudigste vennootschappen — zonder groep-complexiteit.",
-      "voorbeeld_inline": "Oprichtingen Oostende BV (omzet € 400K, 4 werknemers) → kan microschema gebruiken. Verwerft ze een 60%-deelneming → wordt moeder → schiet uit microschema, naar klein.",
       "grondslag": "WVV art. 1:25, § 2",
       "confidence": "grounded",
       "source": {
@@ -194,7 +208,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Oprichtingen Oostende BV (omzet € 400K, 4 werknemers) → kan microschema gebruiken. Verwerft ze een 60%-deelneming → wordt moeder → schiet uit microschema, naar klein."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -296,5 +316,5 @@
       "omschrijving": "Meubelzaak Mertens BV heeft op 31/12/2024: 12 werknemers, € 4.500.000 omzet, € 2.100.000 balanstotaal → onder kleine-vennootschap-drempels op alle 3 criteria → kleine vennootschap → mag verkort schema gebruiken."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

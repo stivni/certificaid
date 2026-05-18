@@ -39,21 +39,31 @@
       "titel": "Twee invullingen: monistisch of dualistisch",
       "wat": "(1) Monistisch (geïntegreerd): klasse 9 is rechtstreeks gekoppeld aan klasse 6/7; elke boeking in algemene boekhouding krijgt automatisch analytische tegenboeking. (2) Dualistisch (gescheiden): klasse 9 staat naast klasse 6/7, met expliciete spiegelboekingen via 'reflexierekeningen'. Praktijk: kleine ondernemingen vaak monistisch; grote met ERP dualistisch.",
       "waarom": "Bepaalt de gegevensstroom tussen algemene en analytische boekhouding.",
-      "voorbeeld_inline": "Yperse Werkplaats BV met SAP-ERP gebruikt een dualistisch model: een aankoopfactuur wol € 22.500 wordt geboekt als 60.. / 44.. in algemene boekhouding, en parallel als 9.. (kostencentrum Spinnerij) / reflexierekening in analytische. Saldo van reflexierekeningen blijft nul.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV met SAP-ERP gebruikt een dualistisch model: een aankoopfactuur wol € 22.500 wordt geboekt als 60.. / 44.. in algemene boekhouding, en parallel als 9.. (kostencentrum Spinnerij) / reflexierekening in analytische. Saldo van reflexierekeningen blijft nul."
+        }
+      ]
     },
     {
       "titel": "Typische klasse-9-rekeningen",
       "wat": "(90) Niet-uitgevoerde verbintenissen / orderbestand. (91) Indirecte kosten — vaste. (92) Indirecte kosten — variabele. (93-96) Kostencentra. (97) Kostendragers. (98) Verschillenrekeningen (standaardkosten vs. werkelijke kosten). (99) Reflexierekeningen.",
       "waarom": "Conventionele invulling — niet wettelijk verplicht, maar gebruikelijk.",
-      "voorbeeld_inline": "Yperse Werkplaats BV: 930 Spinnerij, 931 Weverij, 932 Confectie, 940 Onderhoud (hulp), 970 Product 'tapijt standaard', 980 Materiaal-prijsverschil.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV: 930 Spinnerij, 931 Weverij, 932 Confectie, 940 Onderhoud (hulp), 970 Product 'tapijt standaard', 980 Materiaal-prijsverschil."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -80,5 +90,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

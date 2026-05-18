@@ -36,7 +36,6 @@ _Bron: MAR klasse 0; KB WVV_
 
 **Waarom?** Een gestructureerde 'spiegel' van alle waarschijnlijke verplichtingen die ooit de balans kunnen raken. Zonder deze opname zou de jaarrekening misleidend onvolledig zijn.
 
-**Voorbeeld**: Transport Tongeren BV heeft een retentierecht ontvangen van haar leasinggever op haar vrachtwagens (waarborg € 45.000) → boeking rekening 03 'Ontvangen zekerheden' € 45.000. Tegelijk heeft de NV haar vrachtwagens als zakelijke zekerheid bij eigen lening → rekening 02 'Zakelijke zekerheden op eigen activa' € 380.000.
 
 _Grondslag: MAR klasse 0_
 
@@ -46,7 +45,6 @@ Hoewel rekeningen klasse 0 niet in de balans verschijnen, MOETEN de bedragen en 
 
 **Waarom?** Het volledigheidsbeginsel vereist dat de gebruiker alle relevante verplichtingen ziet — ook als ze nu nog niet op balans staan. Een persoonlijke borg van € 850.000 is een groot signaal voor schuldeisers, ook al staat het 'naast' de balans.
 
-**Voorbeeld**: Toelichting Aurelia Holding NV: 'Persoonlijke borgstelling € 850.000 gesteld voor bankkrediet van Brugse Brouwerij BV (verbonden onderneming), looptijd 7 jaar.'
 
 _Grondslag: KB WVV jaarrekeningschema + toelichtingsvereisten_
 
@@ -56,7 +54,6 @@ Voor elk recht/verplichting buiten balans worden TWEE rekeningen in klasse 0 geb
 
 **Waarom?** Symmetrische registratie — hetzelfde principe als dubbel boekhouden — geeft een interne consistentiecheck.
 
-**Voorbeeld**: Aurelia Holding NV borgstelling € 850.000: Debet 010 Persoonlijke zekerheden voor rekening van derden € 850.000 / Credit 011 Crediteuren van persoonlijke zekerheden € 850.000.
 
 _Grondslag: MAR klasse 0_
 
@@ -66,7 +63,6 @@ Wanneer een recht/verplichting concretiseert (borgsteller wordt aangesproken, op
 
 **Waarom?** Klasse 0 is een 'waakkamer'; bij activering moet de transactie volledig in de gewone boekhouding doorlopen.
 
-**Voorbeeld**: Brugse Brouwerij BV (dochter van Aurelia) defaultoptreedt; bank roept persoonlijke borg op. Aurelia betaalt € 850.000. Boeking: (a) afboeking klasse 0: Debet 011 / Credit 010 € 850.000. (b) Werkelijke boeking: Debet 416 Vordering op verbonden ondernemingen € 850.000 / Credit 550 Bank € 850.000.
 
 _Grondslag: MAR + algemene boekhoudkundige verwerking_
 
@@ -102,6 +98,9 @@ _Grondslag: MAR + algemene boekhoudkundige verwerking_
 > _Bron: CBN 0003/02 + CBN 2018/25_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

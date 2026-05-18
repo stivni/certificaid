@@ -110,7 +110,6 @@
       "titel": "Eerste consolidatie van een nieuwe dochter",
       "wat": "Bij een nieuwe dochter bepaal je het eigen vermogen op datum van aankoop (of een nabijzijnde datum — KB WVV art. 3:129); je berekent en boekt het consolidatieverschil; je neemt de activa en schulden voor 100 % op (integraal) of pro-rata (evenredig).",
       "waarom": "Een nieuwe dochter brengt nieuwe balansen en resultaten in de groep — die moeten op een vast moment (de aankoopdatum) geijkt worden, zodat latere wijzigingen van het eigen vermogen niet meer in het consolidatieverschil belanden.",
-      "voorbeeld_inline": "Aurelia koopt op 1 januari 20X1 100 % van Bouwwerf Beerse BV voor 500 (EV Bouwwerf op aankoopdatum = 450) → consolidatieverschil 50 → eerste consolidatie als nieuwe integrale dochter.",
       "grondslag": "KB WVV art. 3:127 — 3:130",
       "confidence": "grounded",
       "source": {
@@ -135,13 +134,18 @@
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "Vaststelling van het eigen vermogen van de dochter op datum van aankoop (of nabijzijnde datum, KB WVV art. 3:129); berekening en boeking van het consolidatieverschil; overname van activa/passiva voor 100 % bij integrale consolidatie of pro-rata bij evenredige consolidatie.",
         "reden": "Stagiair-toon + waarom + cast-voorbeeld (regels 6 + 7 + 11)."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia koopt op 1 januari 20X1 100 % van Bouwwerf Beerse BV voor 500 (EV Bouwwerf op aankoopdatum = 450) → consolidatieverschil 50 → eerste consolidatie als nieuwe integrale dochter."
+        }
+      ]
     },
     {
       "titel": "Step acquisition — opwaartse wijziging",
       "wat": "Verhoging van een belang in een geassocieerde of dochter, met drie mogelijke kantelpunten: (a) van 'geen invloed' → invloed van betekenis (start vermogensmutatie); (b) van invloed van betekenis → controle (van vermogensmutatie naar integrale consolidatie); (c) verhoging binnen dezelfde kwalificatie (geen technique-switch, wel nieuw consolidatieverschil op het bijkomend belang).",
       "waarom": "Elk kantelpunt vereist een aparte boekhoudkundige behandeling — anders glijdt het ene regime in het andere zonder zichtbaar moment van overgang, en zou de jaarrekening de werkelijke verandering verbergen.",
-      "voorbeeld_inline": "Antwerpse Investments NV bezit 25 % in Drukkerij Dendermonde BV (vermogensmutatie). Antwerpse koopt 35 % bij → totaal 60 % → kantelpunt naar exclusieve controle → vanaf nu integrale consolidatie.",
       "grondslag": "CBN 2013/3",
       "confidence": "grounded",
       "source": {
@@ -166,13 +170,18 @@
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "Verhoging van een belang in een geassocieerde of dochter, met mogelijke kantelpunten: (a) van 'geen invloed' naar invloed van betekenis (start vermogensmutatie); (b) van invloed van betekenis naar controle (overgang van vermogensmutatie naar integrale consolidatie); (c) verhoging binnen dezelfde kwalificatie (geen wijziging van techniek, wel nieuw consolidatieverschil op het bijkomend belang).",
         "reden": "Stagiair-toon + waarom + cast (regels 6 + 7 + 11)."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Antwerpse Investments NV bezit 25 % in Drukkerij Dendermonde BV (vermogensmutatie). Antwerpse koopt 35 % bij → totaal 60 % → kantelpunt naar exclusieve controle → vanaf nu integrale consolidatie."
+        }
+      ]
     },
     {
       "titel": "Vervreemding of vermindering van belang",
       "wat": "Bij gehele of gedeeltelijke verkoop van aandelen van een dochter in de consolidatiekring, boek je het overblijvende consolidatieverschil af in verhouding tot de verkochte aandelen (KB WVV art. 3:132).",
       "waarom": "Het consolidatieverschil hoort bij de aangehouden aandelen. Verkopen die aandelen, dan moet ook het bijbehorende consolidatieverschil pro-rata verdwijnen — anders houd je goodwill aan voor een belang dat je niet meer hebt.",
-      "voorbeeld_inline": "Aurelia heeft een resterend consolidatieverschil van 60 op haar 80 %-belang in Brugse Brouwerij BV. Aurelia verkoopt 40 % aan een derde → 60 × (40 %/80 %) = 30 wordt afgeboekt.",
       "grondslag": "KB WVV art. 3:132",
       "confidence": "grounded",
       "source": {
@@ -192,13 +201,18 @@
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "Bij gehele of gedeeltelijke realisatie van de aandelen van een in de consolidatie opgenomen dochter wordt het overblijvende consolidatieverschil afgeboekt naar verhouding van de gerealiseerde aandelen (KB WVV art. 3:132).",
         "reden": "Stagiair-toon + waarom + cast-voorbeeld (regels 6 + 7 + 11)."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia heeft een resterend consolidatieverschil van 60 op haar 80 %-belang in Brugse Brouwerij BV. Aurelia verkoopt 40 % aan een derde → 60 × (40 %/80 %) = 30 wordt afgeboekt."
+        }
+      ]
     },
     {
       "titel": "Common control transactions",
       "wat": "Bij transacties onder gemeenschappelijke leiding (bv. een dochter wordt herschikt binnen dezelfde groep) gelden bijzondere regels: omdat de economische controle uiteindelijk niet verandert, mag in beginsel geen nieuwe goodwill ontstaan en zet je de bestaande historische cijfers verder (CBN 2017/15).",
       "waarom": "De economische werkelijkheid is dat de groep met zichzelf transacteert; opnieuw goodwill creëren zou een fictieve waardetoename suggereren die er economisch niet is.",
-      "voorbeeld_inline": "Binnen de groep Aurelia: Aurelia verkoopt haar 100 %-belang in Bouwwerf Beerse BV aan een zustervennootschap. Beide vennootschappen blijven onder dezelfde uiteindelijke controle → geen nieuw consolidatieverschil; historische cijfers van Bouwwerf Beerse worden voortgezet.",
       "grondslag": "CBN 2017/15",
       "confidence": "grounded",
       "source": {
@@ -218,7 +232,13 @@
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "Bij transacties onder gemeenschappelijke leiding (bv. overdracht van een dochter binnen dezelfde groep) gelden bijzondere regels: omdat de uiteindelijke economische controle ongewijzigd blijft, mag in beginsel geen nieuwe goodwill worden gegenereerd en blijven de historische cijfers behouden (CBN 2017/15).",
         "reden": "Stagiair-toon + waarom + cast-voorbeeld (regels 6 + 7 + 11)."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Binnen de groep Aurelia: Aurelia verkoopt haar 100 %-belang in Bouwwerf Beerse BV aan een zustervennootschap. Beide vennootschappen blijven onder dezelfde uiteindelijke controle → geen nieuw consolidatieverschil; historische cijfers van Bouwwerf Beerse worden voortgezet."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -371,5 +391,5 @@
       "omschrijving": "Aurelia Holding NV consolideerde in 20X0 enkel Brugse Brouwerij BV. In 20X1 koopt ze 100 % van Bouwwerf Beerse BV → eerste consolidatie van Bouwwerf Beerse → wijziging consolidatiekring → toelichting bevat vergelijkende cijfers waarin Bouwwerf Beerse niet meedeed in 20X0."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

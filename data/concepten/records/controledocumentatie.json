@@ -69,7 +69,6 @@
       "titel": "Ervaren-beroepsbeoefenaar-test",
       "wat": "De documentatie moet zo voldoende zijn dat een ervaren beroepsbeoefenaar die de opdracht niet kent inzicht krijgt in: aard/timing/omvang werkzaamheden, wie ze deed en wanneer, wie ze reviewde, resultaten en getrokken conclusies, significante professionele oordeelsvormingen.",
       "waarom": "Dossier moet 'cold readable' zijn — zoniet is de bewijswaarde nul.",
-      "voorbeeld_inline": "Een vervangende confrater moet in 2030 het dossier 2025 van Rotex kunnen openen en begrijpen waarom Sofie Janssens een paragraaf ter benadrukking had opgenomen.",
       "grondslag": "ITAA KMO-controlenorm §44",
       "confidence": "grounded",
       "source": {
@@ -84,7 +83,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een vervangende confrater moet in 2030 het dossier 2025 van Rotex kunnen openen en begrijpen waarom Sofie Janssens een paragraaf ter benadrukking had opgenomen."
+        }
+      ]
     },
     {
       "titel": "Eigendom + beroepsgeheim",
@@ -186,5 +191,5 @@
       "omschrijving": "Het controledossier 2025 van Rotex Roeselare NV bevat: opdrachtbrief, strategie + risico-evaluatie, werkprogramma per cyclus, alle steekproeven (met testresultaten en evaluatie), correspondentie met derden, management-letters, vergaderingsverslagen met de directie, en het ondertekende controleverslag. Sofie Janssens bewaart het dossier 10 jaar."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

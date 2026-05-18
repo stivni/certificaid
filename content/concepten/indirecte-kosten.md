@@ -38,7 +38,6 @@ De vervaardigingsprijs in de boekhoudwet omvat — naast directe kosten — ook 
 
 **Waarom?** Anders zou de voorraadwaardering te laag uitkomen en zou de winst van het boekjaar vertekend zijn.
 
-**Voorbeeld**: Yperse Werkplaats BV moet bij de voorraadwaardering van gereed product naast de wol (€ 12.000 direct) ook een deel van de fabriekshuur en energiekosten meerekenen — bv. € 3.500 indirect via machine-uren-sleutel.
 
 _Grondslag: CBN 132/7 §2.1 · KB 21.10.2018 art. 22_
 
@@ -48,7 +47,6 @@ Indirecte kosten mogen in de vervaardigingsprijs worden opgenomen ('full costing
 
 **Waarom?** Direct costing reflecteert beter het variabele kostengedrag (interne sturing); full costing dekt alle productiekosten (fiscaal-conservatiever).
 
-**Voorbeeld**: Yperse Werkplaats BV kiest full costing: voorraad ruwwol-garen wordt gewaardeerd aan € 15.000 (€ 12.000 direct + € 3.000 indirect verdeeld). Bij direct costing zou de voorraad € 12.000 zijn en zou € 3.000 als periodekost in de RR vallen.
 
 _Grondslag: CBN 2012/15 §waarderingsaspecten full costing / direct costing_
 
@@ -87,6 +85,9 @@ _Grondslag: CBN 2012/15 §waarderingsaspecten full costing / direct costing_
 
 - **Vereist kennis van**: [[verdeelsleutel]]
 - **Getriggerd door**: [[abc-methode]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

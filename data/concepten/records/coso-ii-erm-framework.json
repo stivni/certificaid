@@ -42,12 +42,17 @@
       "titel": "Risk appetite",
       "wat": "De hoeveelheid risico die de onderneming bewust wil nemen om strategische doelstellingen te halen. Wordt door bestuur vastgesteld, kwalitatief én kwantitatief.",
       "waarom": "Zonder expliciete risk appetite worden risico's ad-hoc beoordeeld — inconsistent en moeilijk te delegeren.",
-      "voorbeeld_inline": "RvB Rotex Roeselare NV: 'maximum 2% van EBITDA aan operationele losses; geen tolerance voor compliance-overtredingen'. Operationele directies werken binnen deze envelop.",
       "grondslag": "COSO 2017",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "RvB Rotex Roeselare NV: 'maximum 2% van EBITDA aan operationele losses; geen tolerance voor compliance-overtredingen'. Operationele directies werken binnen deze envelop."
+        }
+      ]
     }
   ],
   "edges": [
@@ -68,5 +73,5 @@
       "omschrijving": "Bij Rotex Roeselare NV (groot, beursgenoteerd): COSO II ondersteunt het risicobeheer op enterprise-niveau. Strategie 'expansie naar Duitse markt' krijgt risico-assessment (regelgeving, valuta, concurrentie, reputatie) en wordt afgewogen tegen risk appetite vastgesteld door RvB."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

@@ -47,7 +47,6 @@
       "titel": "Vergelijking met vorig boekjaar of basisjaar",
       "wat": "Voor elke balanspost en resultatenrekening-post: bereken het verschil met het vorige boekjaar (of een vast basisjaar) — absoluut en in procenten.",
       "waarom": "Eén boekjaar alleen toont niet of de onderneming groeit, stagneert of krimpt. Trends zijn meestal belangrijker dan momentopnames.",
-      "voorbeeld_inline": "Rotex Roeselare NV: omzet 20X0 = € 45.000.000; omzet 20X1 = € 50.000.000. Evolutie: + € 5.000.000 in absolute zin; + 11,1 % in relatieve zin.",
       "grondslag": "Vakdoctrine",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -62,13 +61,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV: omzet 20X0 = € 45.000.000; omzet 20X1 = € 50.000.000. Evolutie: + € 5.000.000 in absolute zin; + 11,1 % in relatieve zin."
+        }
+      ]
     },
     {
       "titel": "KB WVV verplicht vergelijkende cijfers",
       "wat": "Het Belgisch jaarrekeningenrecht verplicht het opnemen van de cijfers van het voorgaande boekjaar naast die van het lopende boekjaar — dat is de bouwsteen waarop horizontale analyse rust.",
       "waarom": "Zonder vergelijkende cijfers zou elke jaarrekening op zichzelf staan en zou trendanalyse onmogelijk zijn.",
-      "voorbeeld_inline": "Op elke balans en resultatenrekening van Rotex staat naast elke post een 'Boekjaar N-1'-kolom.",
       "grondslag": "KB WVV (vergelijkende cijfers — algemene regel)",
       "confidence": "inferred",
       "source": {
@@ -83,7 +87,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Op elke balans en resultatenrekening van Rotex staat naast elke post een 'Boekjaar N-1'-kolom."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
@@ -212,5 +222,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

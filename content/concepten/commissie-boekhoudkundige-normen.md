@@ -34,7 +34,6 @@ _Bron: CBN-advies 14/1 — Adviesbevoegdheid_
 
 **Waarom?** De CBN vult de gaten op tussen wat de wet algemeen zegt en wat de praktijk concreet nodig heeft.
 
-**Voorbeeld**: CBN-advies 2022/03 geeft de doctrinaire interpretatie van de groottecriteria — invulling van WVV art. 1:24 die zonder advies onduidelijk zou blijven.
 
 _Grondslag: Wet 17 juli 1975 art. 13; CBN-advies 14/1_
 
@@ -44,7 +43,6 @@ De CBN heeft géén tucht- of toezichtsbevoegdheid. Ze beslecht geen geschillen,
 
 **Waarom?** Wie aansprakelijk wordt gesteld voor een boekingsfout: de bestuurder of de accountant. De CBN is geen sanctie-instantie.
 
-**Voorbeeld**: Een fiscale inspecteur kan zich beroepen op een CBN-advies om een correctie te motiveren, maar de CBN zelf legt geen aanslagen op.
 
 _Grondslag: CBN-advies 14/1_
 
@@ -63,6 +61,9 @@ _Grondslag: CBN-advies 14/1_
 ## Zie ook
 
 - **Vereist kennis van**: [[cbn-adviezen]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

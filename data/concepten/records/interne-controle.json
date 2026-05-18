@@ -65,7 +65,6 @@
       "titel": "Drie doelstellingen van interne controle",
       "wat": "Elke interne-controle-maatregel werkt aan minstens één van deze drie doelen: betrouwbare cijfers (financiële rapportering), efficiënt werken (operationele doelstellingen), of regels naleven (compliance).",
       "waarom": "Zonder duidelijk doel weet je niet of een maatregel zinvol is. Door elke controle aan een doelstelling te koppelen vermijd je 'controles om de controles'.",
-      "voorbeeld_inline": "Bij Yperse Werkplaats BV: dubbele handtekening op betalingen > € 25.000 = compliance + betrouwbaarheid; maandelijkse omzetreview = operationeel + betrouwbaarheid.",
       "grondslag": "ITAA-norm-kmo-controlenorm Bijlage 1",
       "confidence": "grounded",
       "_provenance": {
@@ -76,13 +75,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Yperse Werkplaats BV: dubbele handtekening op betalingen > € 25.000 = compliance + betrouwbaarheid; maandelijkse omzetreview = operationeel + betrouwbaarheid."
+        }
+      ]
     },
     {
       "titel": "Redelijke, geen absolute zekerheid",
       "wat": "Interne controle geeft 'redelijke' zekerheid — nooit 100%. Elk systeem heeft inherente beperkingen: menselijke fout, samenspanning, management override en kosten-baten-afweging.",
       "waarom": "Een systeem dat alle fouten en fraude zou uitsluiten is onbetaalbaar én verlamt de werking. De manager moet kiezen welke risico's hij accepteert.",
-      "voorbeeld_inline": "Yperse Werkplaats BV controleert niet elke factuur < € 500 dubbel — het kost meer dan het oplevert. Het risico wordt geaccepteerd binnen redelijke grenzen.",
       "grondslag": "ITAA-norm-kmo-controlenorm Bijlage 1",
       "confidence": "grounded",
       "_provenance": {
@@ -93,24 +97,34 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV controleert niet elke factuur < € 500 dubbel — het kost meer dan het oplevert. Het risico wordt geaccepteerd binnen redelijke grenzen."
+        }
+      ]
     },
     {
       "titel": "Vijf bouwstenen (COSO-componenten)",
       "wat": "De internationale vakdoctrine (COSO I, 1992/2013) onderscheidt vijf samenhangende componenten: (1) controle-omgeving (cultuur, integriteit), (2) risico-inschatting, (3) controle-activiteiten (procedures), (4) informatie en communicatie, (5) monitoring (opvolging).",
       "waarom": "Deze vijf moeten samen werken — een sterke controle-omgeving zonder activiteiten is bla-bla; sterke activiteiten zonder monitoring verzwakken in de tijd.",
-      "voorbeeld_inline": "Bij Yperse Werkplaats BV: directeur Pieter Vermeulen tekent gedragscode (omgeving), risicomatrix wordt jaarlijks bijgewerkt (risico-inschatting), aankoopprocedure beschreven (activiteit), maandelijkse KPI-dashboard (info), interne audit door Sofie Janssens (monitoring).",
       "grondslag": "COSO I (1992/2013) — vakdoctrine, geen Belgische wetgeving",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Yperse Werkplaats BV: directeur Pieter Vermeulen tekent gedragscode (omgeving), risicomatrix wordt jaarlijks bijgewerkt (risico-inschatting), aankoopprocedure beschreven (activiteit), maandelijkse KPI-dashboard (info), interne audit door Sofie Janssens (monitoring)."
+        }
+      ]
     },
     {
       "titel": "Wie draagt het systeem",
       "wat": "Het bestuursorgaan stelt de toon en keurt het kader goed; het management implementeert en houdt het systeem in stand; elke medewerker past de procedures dagelijks toe.",
       "waarom": "Verantwoordelijkheid is niet delegeerbaar naar 'de boekhouder' of 'de auditor'. Een systeem dat enkel door één laag wordt gedragen valt om bij personeelswissel.",
-      "voorbeeld_inline": "Bij Yperse Werkplaats BV: raad van bestuur keurt jaarlijks het risico-rapport goed; CFO is operationeel verantwoordelijk; elke magazijnier tekent voor ontvangst.",
       "grondslag": "ITAA-norm-kmo-controlenorm Bijlage 1",
       "confidence": "grounded",
       "_provenance": {
@@ -121,7 +135,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Yperse Werkplaats BV: raad van bestuur keurt jaarlijks het risico-rapport goed; CFO is operationeel verantwoordelijk; elke magazijnier tekent voor ontvangst."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -277,5 +297,5 @@
       "omschrijving": "Yperse Werkplaats BV (productie-onderneming, omzet € 8.000.000) zet een intern-controle-systeem op met hulp van Xenon Expertise BV: aankoopfacturen moeten drie handtekeningen krijgen (besteller, magazijnier, financieel verantwoordelijke); voorraadtellingen worden 2x per jaar gedaan door iemand anders dan de magazijnier; loonberekening wordt opgemaakt door HR maar betaald door financieel verantwoordelijke. Doel: redelijke zekerheid dat de cijfers kloppen, dat er niet wordt gestolen, en dat de wet wordt nageleefd."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

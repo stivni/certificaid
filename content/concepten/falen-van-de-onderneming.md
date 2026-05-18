@@ -34,7 +34,6 @@ _Bron: Financiële diagnose_
 
 **Waarom?** De analist moet vroege signalen (stadium 1) leren herkennen — niet pas reageren wanneer het juridisch escaleert. Bekwaamheid-niveau-vraag op het examen.
 
-**Voorbeeld**: Een vennootschap zoals Verffabriek Veurne BV vertoont in 20X1 een ROE die zakt van 12% naar 4%, in 20X2 een solvabiliteit onder 25%, en in 20X3 een current ratio onder 1 — drie achtereenvolgende boekjaren van glijdend falen.
 
 _Grondslag: Vakdoctrine financiële diagnose_
 
@@ -44,7 +43,6 @@ Klassieke signalen: structureel dalende rentabiliteit (ROE), opbouw van vreemd v
 
 **Waarom?** Geen enkel signaal alleen is voldoende. De analist combineert signalen door alle drie de ratio-doelen (rentabiliteit, solvabiliteit, liquiditeit) tegelijk te lezen — pas dan komt het patroon vrij.
 
-**Voorbeeld**: Bij Verffabriek Veurne BV: rentabiliteit zakt 3 jaar op rij + solvabiliteit zakt onder 25% + dochterleningen worden opgevraagd — drie signalen samen = diagnose 'falen in ontwikkeling'.
 
 _Grondslag: Vakdoctrine + bestuursverslag risicoparagraaf (KB WVV)_
 
@@ -71,6 +69,9 @@ _Grondslag: Vakdoctrine + bestuursverslag risicoparagraaf (KB WVV)_
 - **Vereist kennis van**: [[kwantitatieve-financiele-diagnose]]
 - **Vereist kennis van**: [[horizontale-analyse-jaarrekening]]
 - **Getriggerd door**: [[risicoparagraaf-bestuursverslag]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

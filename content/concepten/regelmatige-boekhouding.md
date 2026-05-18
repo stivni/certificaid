@@ -42,7 +42,6 @@ Het boekhoudsysteem moet aangepast zijn aan wat het bedrijf doet en hoe groot he
 
 **Waarom?** Een te zwaar systeem is duur en onuitvoerbaar; een te licht systeem geeft geen betrouwbaar beeld. De wet laat ruimte voor schaal, maar de essentie blijft: bezittingen, schulden, kosten en opbrengsten moeten traceerbaar zijn.
 
-**Voorbeeld**: Praktijk Persenaire (eenmanszaak vrij beroep, omzet € 180.000) houdt een vereenvoudigde boekhouding (3 dagboeken). Meubelzaak Mertens BV (omzet € 2.400.000) voert een dubbele boekhouding met klantenrekeningen, leveranciersrekeningen en BTW-administratie.
 
 _Grondslag: WER art. III.82 — III.83; CBN 174/1_
 
@@ -52,7 +51,6 @@ Alle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen — ook
 
 **Waarom?** Een onvolledige boekhouding misleidt de gebruiker (kredietverlener, fiscus, vennoot). Volledigheid is de hoeksteen van het getrouw beeld.
 
-**Voorbeeld**: Meubelzaak Mertens BV verkoopt op 28 december € 4.200 aan een klant, maar de factuur wordt pas in januari opgemaakt. De verkoop moet toch in boekjaar 20X1 worden opgenomen (toerekening) — en ook de huurverbintenis voor het nieuwe magazijn (verplichting buiten balans) verschijnt in de toelichting.
 
 _Grondslag: WER art. III.83; CBN 174/1_
 
@@ -62,7 +60,6 @@ Elke verrichting wordt direct, eerlijk en in chronologische volgorde geboekt in 
 
 **Waarom?** Tijdsorde + onmiddellijkheid maken het later moeilijk om de boekhouding bij te schaven. Het is de praktische tegenhanger van het onveranderlijkheidsbeginsel.
 
-**Voorbeeld**: Naaiatelier Ninove BV ontvangt op 5 maart een leveranciersfactuur van € 8.700. Die wordt op 5 of 6 maart in het aankoopdagboek geboekt, niet pas in juni 'omdat de boekhouder dan tijd heeft'.
 
 _Grondslag: WER art. III.84; CBN 174/1_
 
@@ -72,7 +69,6 @@ Elke boeking verwijst naar een gedagtekend stuk (factuur, bankuittreksel, contra
 
 **Waarom?** Het verantwoordingsstuk is het bewijsstuk: zonder dat is de boeking niet controleerbaar en heeft ze geen bewijskracht.
 
-**Voorbeeld**: Aankoop van een drukpers door Uitgeverij Ukkel NV voor € 45.000 → boeking verwijst naar leveranciersfactuur nr. 2024-117 d.d. 12 april en naar bankuittreksel nr. 87 d.d. 15 april.
 
 _Grondslag: WER art. III.84; CBN 174/1_
 
@@ -82,7 +78,6 @@ Minstens één keer per jaar voert de onderneming de nodige opnemingen, verifica
 
 **Waarom?** De doorlopende boekhouding wordt periodiek 'geverifieerd' tegen de werkelijkheid (echte voorraadtelling, klantenlijst, schuldenlijst). De inventaris is de brug tussen boekhouding en jaarrekening.
 
-**Voorbeeld**: Meubelzaak Mertens BV telt op 31 december de voorraad in het magazijn (1.240 stoelen × € 85 + 320 tafels × € 220 = € 175.800), vergelijkt met de boekhoudkundige voorraad, boekt het verschil als voorraadcorrectie en stelt op basis van de aangepaste cijfers de jaarrekening op.
 
 _Grondslag: WER art. III.89; CBN 174/1_
 
@@ -124,6 +119,9 @@ _Grondslag: WER art. III.89; CBN 174/1_
 ## Zie ook
 
 - **Vereist kennis van**: [[verantwoordingsstuk]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

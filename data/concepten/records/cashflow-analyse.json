@@ -46,7 +46,6 @@
       "titel": "Resultaat + niet-kaskosten",
       "wat": "Vertrek vanuit het nettoresultaat na belastingen en tel daar alle kosten bij die geen cash hebben gekost: afschrijvingen, waardeverminderingen op activa, dotaties aan voorzieningen.",
       "waarom": "Niet-kaskosten verlagen de winst boekhoudkundig maar er ging geen euro de deur uit. Cashflow filtert dat boekhoudkundige effect weg.",
-      "voorbeeld_inline": "Rotex Roeselare NV: nettowinst € 2.500.000 + afschrijvingen € 1.500.000 + waardeverminderingen € 200.000 = cashflow € 4.200.000.",
       "grondslag": "CBN-2011/14",
       "confidence": "grounded",
       "source": {
@@ -61,13 +60,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV: nettowinst € 2.500.000 + afschrijvingen € 1.500.000 + waardeverminderingen € 200.000 = cashflow € 4.200.000."
+        }
+      ]
     },
     {
       "titel": "Cashflow als waarderingsfactor",
       "wat": "Cashflow is een belangrijke factor in waardering: een onderneming met hoge cashflow heeft meer terugbetalingscapaciteit voor leningen en meer dividend-potentieel.",
       "waarom": "Schuldeisers en investeerders kijken naar cashflow eerder dan winst — winst kan boekhoudkundig zijn opgepoetst; cashflow is moeilijker te manipuleren.",
-      "voorbeeld_inline": "Een bank evalueert het kredietdossier van Rotex Roeselare NV met een schuld op meer dan een jaar van € 13.000.000 — cashflow van € 4.200.000 betekent een terugbetalingstermijn van ongeveer 3,1 jaar.",
       "grondslag": "Vakdoctrine + CBN-2011/14 (cashflow als rentabiliteitsmaatstaf)",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -82,7 +86,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een bank evalueert het kredietdossier van Rotex Roeselare NV met een schuld op meer dan een jaar van € 13.000.000 — cashflow van € 4.200.000 betekent een terugbetalingstermijn van ongeveer 3,1 jaar."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -180,5 +190,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

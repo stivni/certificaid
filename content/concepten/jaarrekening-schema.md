@@ -37,7 +37,6 @@ Voor grote vennootschappen. Bevat een gedetailleerde balans (met onderverdelinge
 
 **Waarom?** Grote vennootschappen hebben meer stakeholders (banken, leveranciers, fiscus, eventueel beursanalyse) en dus nood aan rijkere informatie.
 
-**Voorbeeld**: Rotex Roeselare NV (550 werknemers, € 95M omzet) → volledig schema. Toelichting bevat detail over leasing, voorzieningen, niet-balansrechten.
 
 _Grondslag: KB-WVV bijlage 1; WVV art. 3:5_
 
@@ -47,7 +46,6 @@ Voor kleine vennootschappen. Beknopter dan volledig: minder subrubrieken op bala
 
 **Waarom?** Kleinere KMO's hebben minder stakeholders die zo'n diep detail nodig hebben.
 
-**Voorbeeld**: Meubelzaak Mertens BV (12 werknemers, € 4,5M omzet) → verkort schema. Hoeft geen staat van de oprichtingskosten gedetailleerd op te nemen.
 
 _Grondslag: KB-WVV bijlage 2; WVV art. 3:6_
 
@@ -57,7 +55,6 @@ Het kleinste schema, ingevoerd door Richtlijn 2013/34/EU. Bestemd voor microvenn
 
 **Waarom?** Voor microvennootschappen weegt de administratieve last anders zwaar door. EU-keuze in 2013 om dit drempelregime toe te laten.
 
-**Voorbeeld**: Oprichtingen Oostende BV (4 werknemers, € 400K omzet, geen dochter) → microschema. Toelichting beperkt zich tot de allernoodzakelijkste vermeldingen.
 
 _Grondslag: KB-WVV bijlage 3; WVV art. 3:7_
 
@@ -67,7 +64,6 @@ VZW, IVZW en stichtingen hebben aparte schema's (bijlagen die overeenkomen met k
 
 **Waarom?** Verenigingen hebben geen aandeelhouders en geen winstuitkering — daarom een aangepaste structuur.
 
-**Voorbeeld**: VZW Quelle de Vie (klein, met economische activiteit) → vereenvoudigd VZW-schema of klein VZW-schema, afhankelijk van groottecriteria voor verenigingen (WVV art. 1:28-1:29).
 
 _Grondslag: KB-WVV art. 3:184 e.v._
 
@@ -94,6 +90,9 @@ _Grondslag: KB-WVV art. 3:184 e.v._
 ## Zie ook
 
 - **Getriggerd door**: [[groottecriteria-jaarrekening]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

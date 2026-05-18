@@ -37,7 +37,6 @@
       "titel": "Vroege detectie van moeilijkheden",
       "wat": "De kamer fungeert als vroegtijdig waarschuwingsmechanisme. Niet bestraffend maar coachend: een gesprek dat moet helpen om herstelmaatregelen te overwegen (Gerechtelijke Reorganisatie, vrijwillig akkoord).",
       "waarom": "Hoe vroeger problemen worden gedetecteerd, hoe groter de kans op redding van de onderneming en behoud van werkgelegenheid.",
-      "voorbeeld_inline": "Solaris Sint-Truiden BV heeft 2 kwartalen RSZ-achterstand en heeft de jaarrekening 20X0 niet neergelegd. De kamer nodigt het bestuursorgaan uit voor gesprek.",
       "grondslag": "Boek XX WER",
       "confidence": "inferred",
       "source": {
@@ -52,7 +51,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Solaris Sint-Truiden BV heeft 2 kwartalen RSZ-achterstand en heeft de jaarrekening 20X0 niet neergelegd. De kamer nodigt het bestuursorgaan uit voor gesprek."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -77,5 +82,5 @@
     }
   ],
   "edges": [],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

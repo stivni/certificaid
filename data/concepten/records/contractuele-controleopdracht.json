@@ -41,7 +41,6 @@
       "titel": "Vrijwillig, geen wettelijke verplichting",
       "wat": "De cliënt vraagt de opdracht zelf — er is geen commissaris benoemd en geen wettelijke verplichting tot externe controle. Vaak voor banken, kandidaat-overnemers of aandeelhouders.",
       "waarom": "Externe partijen vertrouwen liever op een audit dan op zelfgemaakte cijfers.",
-      "voorbeeld_inline": "Een bank vraagt aan Meubelzaak Mertens BV een gecontroleerde jaarrekening vooraleer een krediet van € 750.000 toe te kennen.",
       "grondslag": "ITAA KMO-controlenorm §2",
       "confidence": "grounded",
       "source": {
@@ -56,13 +55,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een bank vraagt aan Meubelzaak Mertens BV een gecontroleerde jaarrekening vooraleer een krediet van € 750.000 toe te kennen."
+        }
+      ]
     },
     {
       "titel": "Redelijke mate van zekerheid",
       "wat": "De beroepsbeoefenaar voert voldoende werkzaamheden uit om het risico op een verkeerde uitspraak tot een vaktechnisch aanvaardbaar laag niveau terug te brengen.",
       "waarom": "Volledige zekerheid is onmogelijk — 'redelijke zekerheid' is het hoogste niveau dat in een audit haalbaar is.",
-      "voorbeeld_inline": "Sofie Janssens kan na haar werkzaamheden met redelijke zekerheid zeggen: 'de jaarrekening van Meubelzaak Mertens BV geeft een getrouw beeld'. Niet 'met 100 % zekerheid'.",
       "grondslag": "ITAA KMO-controlenorm §2",
       "confidence": "grounded",
       "source": {
@@ -77,7 +81,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Sofie Janssens kan na haar werkzaamheden met redelijke zekerheid zeggen: 'de jaarrekening van Meubelzaak Mertens BV geeft een getrouw beeld'. Niet 'met 100 % zekerheid'."
+        }
+      ]
     },
     {
       "titel": "Oordeel in positieve vorm",
@@ -172,5 +182,5 @@
       "omschrijving": "Meubelzaak Mertens BV (KMO onder de drempels) wil bij een bankaanvraag van € 750.000 extra geloofwaardigheid. De zaakvoerder vraagt Wolters & Partners CVBA om een contractuele controle uit te voeren over boekjaar 2025. Sofie Janssens voert een volledige audit uit volgens de KMO-controlenorm en levert een verslag af met een positief oordeel."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

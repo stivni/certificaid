@@ -39,17 +39,21 @@
       "titel": "Diensten en diverse goederen (klasse 61)",
       "wat": "Aankopen van diensten van derden: huur, leasing, onderhoud, ICT, accountant, advocaat, transport (uitbesteed), publiciteit. Plus diverse goederen die geen voorraad worden (klein gereedschap, kantoorbenodigdheden).",
       "waarom": "Vaak een groot deel van de exploitatiekost; vaak indirect (verdeelsleutel nodig in analytische boekhouding).",
-      "voorbeeld_inline": "Yperse Werkplaats BV: huur weverij € 80.000/jaar, energie € 145.000/jaar, ICT-diensten € 24.000/jaar, accountant € 18.000/jaar. Total klasse 61 ≈ € 380.000.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV: huur weverij € 80.000/jaar, energie € 145.000/jaar, ICT-diensten € 24.000/jaar, accountant € 18.000/jaar. Total klasse 61 ≈ € 380.000."
+        }
+      ]
     },
     {
       "titel": "Afschrijvingen (klasse 630)",
       "wat": "Periodieke kost die de waardevermindering van vaste activa weerspiegelt over hun gebruiksduur. In de analytische boekhouding worden afschrijvingen per kostencentrum toegerekend (machine X staat in afdeling Y).",
       "waarom": "Afschrijvingen zijn de manier waarop de aankoopprijs van een productie-activum over zijn levensduur in de kostprijs van het product komt.",
-      "voorbeeld_inline": "Yperse Werkplaats BV schaft in 20X1 een nieuwe spinmachine aan voor € 280.000 (afschrijvingstermijn 10 jaar lineair). Jaarlijkse afschrijving € 28.000 wordt volledig aan kostencentrum Spinnerij toegerekend.",
       "grondslag": "KB 21.10.2018 art. 28 e.v. (afschrijvingsregels)",
       "confidence": "grounded",
       "source": {
@@ -58,13 +62,18 @@
       },
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV schaft in 20X1 een nieuwe spinmachine aan voor € 280.000 (afschrijvingstermijn 10 jaar lineair). Jaarlijkse afschrijving € 28.000 wordt volledig aan kostencentrum Spinnerij toegerekend."
+        }
+      ]
     },
     {
       "titel": "Voorzieningen en verzekeringen (klasse 635, 61)",
       "wat": "Voorzieningen voor toekomstige kosten (groot onderhoud, garanties, geschillen) worden via provisie elke periode gespreid. Verzekeringspremies (klasse 613) zijn vaak een vaste periodekost per kostencentrum.",
       "waarom": "Matching-beginsel: kost in de periode toerekenen waarop ze betrekking heeft.",
-      "voorbeeld_inline": "Yperse Werkplaats BV bouwt jaarlijks € 35.000 voorziening op voor 5-jaarlijks groot onderhoud van de weverij. Die € 35.000 wordt elk jaar in de kosten van kostencentrum Weverij geboekt — niet pas in het jaar van de uitgave.",
       "grondslag": "CBN 2018/25 (voorzieningen)",
       "confidence": "grounded",
       "source": {
@@ -79,7 +88,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV bouwt jaarlijks € 35.000 voorziening op voor 5-jaarlijks groot onderhoud van de weverij. Die € 35.000 wordt elk jaar in de kosten van kostencentrum Weverij geboekt — niet pas in het jaar van de uitgave."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -116,5 +131,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

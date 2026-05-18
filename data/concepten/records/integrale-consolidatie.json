@@ -136,7 +136,6 @@
       "titel": "Volledige opname van beide balansen",
       "wat": "Alle bezittingen en schulden van moeder en dochter komen samen in de geconsolideerde balans — voor 100 %. Het belangenpercentage speelt in deze stap nog geen rol.",
       "waarom": "De groep wordt voorgesteld als één economische entiteit; je doet alsof het één bedrijf is, ook al heeft de moeder maar een belang van bijvoorbeeld 80 %.",
-      "voorbeeld_inline": "Aurelia Holding NV heeft activa van € 5.000.000, Brugse Brouwerij BV heeft activa van € 3.000.000 → geconsolideerde activa (vóór intragroep-eliminaties): € 8.000.000.",
       "grondslag": "KB WVV art. 3:126",
       "confidence": "grounded",
       "source": {
@@ -157,13 +156,18 @@
         "oude_naam": "Integrale opname (KB WVV art. 3:126)",
         "oude_wat": "Alle actief- en passiefbestanddelen van de consoliderende vennootschap en van de in de consolidatie opgenomen dochterondernemingen worden in de geconsolideerde balans opgenomen.",
         "reden": "Stagiair-toon: 'actief- en passiefbestanddelen van de consoliderende vennootschap' → 'bezittingen en schulden van moeder en dochter'. Waarom-veld + voorbeeld_inline met cast (regel 11)."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV heeft activa van € 5.000.000, Brugse Brouwerij BV heeft activa van € 3.000.000 → geconsolideerde activa (vóór intragroep-eliminaties): € 8.000.000."
+        }
+      ]
     },
     {
       "titel": "Schrappen van deelneming tegen aandeel in EV",
       "wat": "Schrap de post 'Deelneming dochter' uit de balans van de moeder en schrap het bijhorend aandeel van de moeder in het eigen vermogen van de dochter. Gebruik daarvoor het eigen vermogen op de datum van aankoop, niet op afsluitingsdatum.",
       "waarom": "Anders zou je dezelfde economische waarde tweemaal tellen: één keer als 'Deelneming' bij de moeder en één keer als 'Eigen vermogen' van de dochter.",
-      "voorbeeld_inline": "Aurelia Holding NV bezit een 'Deelneming Brugse Brouwerij BV' van € 1.600.000; aandeel in eigen vermogen (EV) Brugse op aankoopdatum = 80 % × € 1.500.000 = € 1.200.000. Beide bedragen worden geschrapt.",
       "grondslag": "KB WVV art. 3:127, a) jo. art. 3:129",
       "confidence": "grounded",
       "source": {
@@ -189,13 +193,18 @@
         "oude_naam": "Compensatie van de deelneming (KB WVV art. 3:127, a))",
         "oude_wat": "De boekwaarde van de aandelen van de dochteronderneming wordt gecompenseerd met het deel van het eigen vermogen van de dochter dat door die aandelen wordt vertegenwoordigd, op de datum waarop de aandelen werden verworven.",
         "reden": "Stagiair-toon: 'gecompenseerd' → 'geschrapt'; 'op verwervingsdatum' → 'op datum van aankoop'. Cast-namen toegevoegd."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV bezit een 'Deelneming Brugse Brouwerij BV' van € 1.600.000; aandeel in eigen vermogen (EV) Brugse op aankoopdatum = 80 % × € 1.500.000 = € 1.200.000. Beide bedragen worden geschrapt."
+        }
+      ]
     },
     {
       "titel": "Verschil eerst toerekenen, dan pas goodwill",
       "wat": "Zie [[consolidatieverschil]] §berekening voor de volledige procedure (toerekening aan stille meer-/minwaarden, residu als 'Consolidatieverschillen', niet-saldering tussen verschillende dochters). Bij integrale consolidatie is dit één bouwsteen van de procedure; de inhoudelijke regel staat in het concept-record `consolidatieverschil`.",
       "waarom": "Verwijzen i.p.v. dupliceren — de regel KB WVV art. 3:130 is een fenomeen op zichzelf en heeft een eigen concept-record.",
-      "voorbeeld_inline": "Aurelia Holding NV koopt Brugse Brouwerij BV; consolidatieverschil = € 400.000. Het vastgoed van Brugse staat op € 1.000.000 maar is werkelijk € 1.250.000 waard → reken € 250.000 toe aan vastgoed; resterende € 150.000 boek je als 'Consolidatieverschillen'. Zie [[consolidatieverschil]] voor het volledige werkblad.",
       "grondslag": "[[consolidatieverschil]] · KB WVV art. 3:130",
       "confidence": "grounded",
       "source": {
@@ -216,13 +225,18 @@
         "oude_wat": "Het verschil dat uit de schrapping overblijft, reken je eerst toe aan bezittingen of schulden waarvan de werkelijke waarde afwijkt van de boekwaarde. Pas wat dan nog overblijft, boek je als 'Consolidatieverschillen' (positief → actiefzijde, negatief → passiefzijde). Positieve en negatieve verschillen mag je niet tegen elkaar wegstrepen, tenzij ze dezelfde dochter betreffen — dan moet het.",
         "oude_voorbeeld": "Aurelia Holding NV koopt Brugse Brouwerij BV; consolidatieverschil = 80. Het vastgoed van Brugse staat op 200 maar is werkelijk 250 waard → reken 50 toe aan vastgoed; resterende 30 boek je als 'Consolidatieverschillen'.",
         "reden": "Sessie-3 fix E (dedup-detectie): de canonieke claim staat in consolidatieverschil-record (bouwstenen + berekeningsmethode + valkuilen). Hier behouden als integrale-consolidatie-bouwsteen met wikilink-refactor. Voorbeeldbedragen aangepast naar €-formaat (€ 400.000 / € 250.000 / € 150.000) consistent met consolidatieverschil-scenario."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV koopt Brugse Brouwerij BV; consolidatieverschil = € 400.000. Het vastgoed van Brugse staat op € 1.000.000 maar is werkelijk € 1.250.000 waard → reken € 250.000 toe aan vastgoed; resterende € 150.000 boek je als 'Consolidatieverschillen'. Zie [[consolidatieverschil]] voor het volledige werkblad."
+        }
+      ]
     },
     {
       "titel": "Schrappen van onderlinge posten",
       "wat": "Verwijder vorderingen en schulden tussen moeder en dochter (en tussen dochters onderling) uit de geconsolideerde balans. Verwijder ook winsten of verliezen die uit interne verkopen nog in activa (zoals voorraden) zitten. Idem voor onderlinge opbrengsten en kosten in de resultatenrekening.",
       "waarom": "Een groep kan niet aan zichzelf verkopen of geld lenen — economisch is dat één bedrijf. Als je die posten zou laten staan, blaast de geconsolideerde balans onterecht op.",
-      "voorbeeld_inline": "Aurelia Holding NV heeft een vordering van € 250.000 op Brugse Brouwerij BV. In de geconsolideerde balans verdwijnen zowel de vordering bij Aurelia als de schuld bij Brugse.",
       "grondslag": "KB WVV art. 3:134, 3:136",
       "confidence": "grounded",
       "source": {
@@ -248,13 +262,18 @@
         "oude_naam": "Eliminatie van onderlinge vorderingen/schulden en interne winsten (KB WVV art. 3:134, 3:136)",
         "oude_wat": "Uit de geconsolideerde balans worden weggelaten: onderlinge vorderingen en schulden tussen consoliderende vennootschap en in de consolidatie opgenomen dochters; in activa begrepen winsten/verliezen uit intra-groepsverkopen.",
         "reden": "Stagiair-toon: 'consoliderende vennootschap' → 'moeder'; 'eliminatie' → 'schrappen' (regel 6)."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV heeft een vordering van € 250.000 op Brugse Brouwerij BV. In de geconsolideerde balans verdwijnen zowel de vordering bij Aurelia als de schuld bij Brugse."
+        }
+      ]
     },
     {
       "titel": "Aandeel van derden apart presenteren",
       "wat": "Bereken welk deel van het eigen vermogen en het resultaat van de dochter aan andere aandeelhouders toebehoort dan de moeder. Op de balans verschijnt dat als 'Belangen van derden' aan passiefzijde, op de resultatenrekening als 'Aandeel van derden in het resultaat'.",
       "waarom": "Bij integrale consolidatie zit 100 % van de dochter-balans erin, maar de moeder bezit economisch maar (bv.) 80 %. De 20 % die aan derden toebehoort moet zichtbaar blijven — anders krijgt de moeder krediet voor cijfers die niet aan haar toekomen.",
-      "voorbeeld_inline": "Eigen vermogen Brugse Brouwerij BV op afsluitingsdatum = € 2.000.000; belang Aurelia = 80 %. Belangen van derden = 20 % × € 2.000.000 = € 400.000, gepresenteerd aan passiefzijde van de geconsolideerde balans.",
       "grondslag": "KB WVV art. 3:137",
       "confidence": "grounded",
       "source": {
@@ -275,7 +294,13 @@
         "oude_naam": "Afzondering van het aandeel van derden (KB WVV art. 3:137)",
         "oude_wat": "Het gedeelte van het resultaat van de volledig geconsolideerde dochters dat kan worden toegerekend aan aandelen gehouden door andere personen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochters, wordt onder 'Aandeel van derden in het resultaat' vermeld.",
         "reden": "Stagiair-toon: lange juridische zin gesplitst; 'gehouden door andere personen dan de consoliderende vennootschap' → 'andere aandeelhouders dan de moeder' (regel 6)."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Eigen vermogen Brugse Brouwerij BV op afsluitingsdatum = € 2.000.000; belang Aurelia = 80 %. Belangen van derden = 20 % × € 2.000.000 = € 400.000, gepresenteerd aan passiefzijde van de geconsolideerde balans."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
@@ -820,5 +845,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

@@ -35,7 +35,6 @@ Bij onzekerheid: eerder waarde-verlies boeken dan waarde-stijging. Vorderingen o
 
 **Waarom?** Beschermt stakeholders tegen overschatting van vermogen en winst.
 
-**Voorbeeld**: Solaris Sint-Truiden BV heeft effecten met aanschaffingswaarde € 100.000; beurskoers daalt naar € 75.000 → waardevermindering € 25.000 boeken (voorzichtigheid). Beurskoers stijgt later naar € 130.000 → geen meerwaarde-boeking (geen realisatie).
 
 _Grondslag: KB-WVV art. 3:6 + 3:66_
 
@@ -45,7 +44,6 @@ De boekhouding moet de werkelijke economische situatie weergeven — geen vertek
 
 **Waarom?** Voorzichtigheid mag niet uitmonden in onoprecht 'verbergen' — oprechtheid is de bovengrens van voorzichtigheid.
 
-**Voorbeeld**: Aurelia Holding NV mag een verkoop-met-terugkoop niet als gewone verkoop boeken — substance: financiering, niet verkoop.
 
 _Grondslag: KB-WVV art. 3:1; algemeen rechtsbeginsel_
 
@@ -55,7 +53,6 @@ Waarderen gebeurt onder de veronderstelling dat de onderneming haar activiteit v
 
 **Waarom?** Going concern verklaart waarom vaste activa over jaren afgeschreven mogen worden en niet onmiddellijk gerealiseerd hoeven te worden.
 
-**Voorbeeld**: Verffabriek Veurne BV in vereffening → continuïteit doorbroken → activa op realisatiewaarde herwaarderen, niet meer op going-concern-basis.
 
 _Grondslag: KB-WVV art. 3:35_
 
@@ -65,7 +62,6 @@ Waarderingsregels van boekjaar tot boekjaar gelijk toepassen. Wijziging mag, mit
 
 **Waarom?** Vergelijkbaarheid tussen boekjaren — gebruiker ziet of evolutie 'echt' is of door regelwijziging veroorzaakt.
 
-**Voorbeeld**: Naaiatelier Ninove BV waarderen voorraad altijd FIFO → wisselen naar gewogen gemiddelde → motivering + impact in toelichting.
 
 _Grondslag: KB-WVV art. 3:6_
 
@@ -84,6 +80,9 @@ _Grondslag: KB-WVV art. 3:6_
 ## Zie ook
 
 - **Vereist kennis van**: [[getrouw-beeld-jaarrekening]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

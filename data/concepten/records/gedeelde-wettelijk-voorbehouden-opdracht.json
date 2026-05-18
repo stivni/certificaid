@@ -46,7 +46,6 @@
       "titel": "Gedeeld monopolie",
       "wat": "Twee beroepen mogen de opdracht uitvoeren: gecertificeerd accountant of bedrijfsrevisor. De cliënt mag kiezen.",
       "waarom": "De wetgever erkent dat beide beroepen de vereiste vakbekwaamheid bezitten voor specifieke vennootschapsrechtelijke verrichtingen.",
-      "voorbeeld_inline": "Voor de inbreng in natura van € 250.000 in Oprichtingen Oostende BV mag de oprichter kiezen tussen Sofie Janssens (gecertificeerd accountant) of een bedrijfsrevisor.",
       "grondslag": "Wet 17 maart 2019 (ITAA-wet) art. 3 jo. specifieke WVV-bepalingen",
       "confidence": "grounded",
       "source": {
@@ -61,13 +60,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Voor de inbreng in natura van € 250.000 in Oprichtingen Oostende BV mag de oprichter kiezen tussen Sofie Janssens (gecertificeerd accountant) of een bedrijfsrevisor."
+        }
+      ]
     },
     {
       "titel": "Uitsluiting bij commissaris",
       "wat": "Heeft de vennootschap een commissaris, dan vervalt het 'gedeelde' karakter — de commissaris is exclusief bevoegd.",
       "waarom": "Vermijdt dubbele controles + de commissaris kent de vennootschap al.",
-      "voorbeeld_inline": "Rotex Roeselare NV (met commissaris Wolters & Partners) doet een quasi-inbreng → de commissaris voert de opdracht uit, niet een externe accountant.",
       "grondslag": "ITAA KMO-controlenorm §2",
       "confidence": "grounded",
       "source": {
@@ -82,7 +86,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV (met commissaris Wolters & Partners) doet een quasi-inbreng → de commissaris voert de opdracht uit, niet een externe accountant."
+        }
+      ]
     }
   ],
   "edges": [
@@ -108,5 +118,5 @@
       "omschrijving": "Meubelzaak Mertens BV wil omzetten van BV naar NV. Aangezien er geen commissaris is, vraagt de zaakvoerder Sofie Janssens (gecertificeerd accountant) om het wettelijk verplicht verslag op te stellen — een typische gedeelde wettelijk voorbehouden opdracht."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

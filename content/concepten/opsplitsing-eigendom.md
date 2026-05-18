@@ -35,7 +35,6 @@ Vruchtgebruik is altijd **tijdelijk** en eindigt: (a) bij dood van de vruchtgebr
 
 **Waarom?** Het zakelijk recht keert vroeg of laat terug naar de blote eigenaar — die kennis bepaalt de boekhoudkundige behandeling (afschrijving over de termijn).
 
-**Voorbeeld**: Solaris Sint-Truiden BV (rechtspersoon) kan vruchtgebruik aanhouden max 30 jaar. Bij een contract van 20 jaar: afschrijving over 20 jaar (€ 320.000 / 20 = € 16.000/jaar).
 
 _Grondslag: BW art. 578, 619; CBN 2015/05_
 
@@ -45,7 +44,6 @@ De vruchtgebruiker activeert de aanschaffingswaarde van het vruchtgebruik en sch
 
 **Waarom?** Aan het eind van het vruchtgebruik valt het recht weg; er is geen restwaarde voor de vruchtgebruiker. Volledige afschrijving is dus noodzakelijk.
 
-**Voorbeeld**: Solaris vruchtgebruik 20 jaar: € 320.000 lineair afgeschreven = € 16.000/jaar. Na 20 jaar: nettoboekwaarde € 0; recht eindigt; blote eigenaar krijgt volle eigendom terug zonder vergoeding aan vruchtgebruiker.
 
 _Grondslag: CBN 2015/05_
 
@@ -55,7 +53,6 @@ Bij de blote eigenaar blijft het onroerend goed op de balans (proportioneel deel
 
 **Waarom?** De blote eigenaar krijgt aan het eind van het vruchtgebruik het volle gebruik terug; er is geen waardeverlies door tijdsverloop alleen. Pas bij externe schade of marktdaling: niet-recurrente afschrijving.
 
-**Voorbeeld**: Volle eigenaar verkocht vruchtgebruik 20 jaar voor € 320.000; behoudt blote eigendom € 160.000. Boekwaarde blote eigendom blijft € 160.000 op de balans, niet afgeschreven tijdens 20 jaar.
 
 _Grondslag: CBN 2015/05_
 
@@ -65,7 +62,6 @@ Wanneer vruchtgebruiker EN blote eigenaar in één hand komen (bv. vruchtgebruik
 
 **Waarom?** Twee gescheiden rechten worden weer één economisch geheel; de boekwaarde moet die samenstelling weergeven.
 
-**Voorbeeld**: Solaris koopt na 10 jaar de blote eigendom voor € 200.000. Aanschaffingswaarde volle eigendom = nettoboekwaarde vruchtgebruik (€ 320.000 − 10 × € 16.000 = € 160.000) + € 200.000 = € 360.000. Afschrijvingsplan herzien voor het resterende gebouw.
 
 _Grondslag: BW art. 617; CBN 2015/05_
 
@@ -93,6 +89,9 @@ _Grondslag: BW art. 617; CBN 2015/05_
 ## Zie ook
 
 - **Vereist kennis van**: [[afschrijvingen]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

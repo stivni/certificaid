@@ -34,31 +34,46 @@
       "titel": "Werking van het break-even-punt",
       "wat": "Bij volume nul: vaste kosten worden niet gedekt — totaal verlies = vaste kosten. Bij elke verkochte eenheid komt een contributiemarge binnen die een stukje vaste kost dekt. Het break-even-volume is het aantal eenheden waarbij de totale contributiemarge precies gelijk is aan de totale vaste kosten.",
       "waarom": "Geeft een aanvoelpunt voor 'hoe groot moet ons bedrijf minimaal zijn om uit verlies te raken?'",
-      "voorbeeld_inline": "Yperse Werkplaats BV heeft vaste kosten € 800.000/jaar en eenheidscontributie € 47 per tapijt. Break-even = € 800.000 / € 47 = 17.022 tapijten/jaar. Daaronder = verlies; daarboven = winst.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV heeft vaste kosten € 800.000/jaar en eenheidscontributie € 47 per tapijt. Break-even = € 800.000 / € 47 = 17.022 tapijten/jaar. Daaronder = verlies; daarboven = winst."
+        }
+      ]
     },
     {
       "titel": "In eenheden vs. in omzet",
       "wat": "Break-even kan in stuks (vaste kost / eenheidscontributie) of in omzet (vaste kost / CM-ratio) worden uitgedrukt. Bij multi-product-mix is omzet-vorm handiger.",
       "waarom": "Stuks helpt productie-planning; omzet helpt commercieel team.",
-      "voorbeeld_inline": "Yperse Werkplaats BV — break-even in stuks: € 800.000 / € 47 = 17.022 tapijten. In omzet: € 800.000 / 78,3 % = € 1.021.711.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV — break-even in stuks: € 800.000 / € 47 = 17.022 tapijten. In omzet: € 800.000 / 78,3 % = € 1.021.711."
+        }
+      ]
     },
     {
       "titel": "Veiligheidsmarge",
       "wat": "Verschil tussen verwachte verkoop en break-even, in % of in absolute eenheden. Een hoge veiligheidsmarge betekent dat de onderneming volume kan verliezen voordat ze in verlies komt.",
       "waarom": "Risicoanalyse: hoe gevoelig is de onderneming voor volumedaling?",
-      "voorbeeld_inline": "Yperse Werkplaats BV verwacht 22.000 tapijten te verkopen. Veiligheidsmarge = (22.000 − 17.022) / 22.000 = 22,6 %. Het volume mag met 22,6 % dalen voordat verlies optreedt.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV verwacht 22.000 tapijten te verkopen. Veiligheidsmarge = (22.000 − 17.022) / 22.000 = 22,6 %. Het volume mag met 22,6 % dalen voordat verlies optreedt."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
@@ -276,5 +291,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

@@ -35,7 +35,6 @@ De verordening wil de **financiële informatie van beursgenoteerde EU-ondernemin
 
 **Waarom?** Investeerders vergelijken aandelen over landsgrenzen heen. Als elke lidstaat een eigen jaarrekeningstaal heeft, wordt vergelijken duur of onmogelijk. IFRS lost dat op met één set regels.
 
-**Voorbeeld**: Een Duitse pensioenfondsbeheerder kan Zelena Bio NV (België) rechtstreeks vergelijken met een Italiaanse en een Spaanse beursgenoteerde tegenhanger — alle drie rapporteren in IFRS.
 
 _Grondslag: Verordening 1606/2002 art. 1_
 
@@ -45,7 +44,6 @@ Een onderneming valt onder de verplichte IFRS-toepassing als (1) zij onder het r
 
 **Waarom?** Het beleggerspubliek koopt typisch aandelen van een groep, niet van een enkele rechtspersoon. De groepscijfers (geconsolideerd) zijn dus de relevante informatie. De enkelvoudige cijfers blijven dienen voor uitkeerbaarheid en fiscale doeleinden, waarvoor Belgisch GAAP volstaat.
 
-**Voorbeeld**: Zelena Bio NV bezit 100 % van Brugse Brouwerij BV en 80 % van Drukkerij Dendermonde BV. De geconsolideerde jaarrekening Zelena Bio Groep volgt IFRS. De statutaire jaarrekening van Zelena Bio NV (als rechtspersoon, met haar deelnemingen als balanspost) volgt Belgisch GAAP.
 
 _Grondslag: Verordening 1606/2002 art. 4_
 
@@ -55,7 +53,6 @@ Niet elke door de IASB uitgegeven standaard geldt automatisch in de EU. De Europ
 
 **Waarom?** De EU houdt soevereiniteit over wat er in haar jaarrekeningen geldt. De endorsement-stap is een filter: standaarden moeten in het Europees openbaar belang zijn en voldoen aan begrijpelijkheid, relevantie, betrouwbaarheid en vergelijkbaarheid.
 
-**Voorbeeld**: IFRS 17 Verzekeringscontracten is door de IASB in 2017 uitgegeven maar pas door de EU goedgekeurd op 19 november 2021 (Verordening 2021/2036). Een Belgische verzekeraar mocht IFRS 17 dus niet eerder toepassen in zijn endorsed-set.
 
 _Grondslag: Verordening 1606/2002 art. 3 + art. 6_
 
@@ -65,7 +62,6 @@ Lidstaten **mogen** toestaan of verplichten dat (a) beursgenoteerden hun **enkel
 
 **Waarom?** Lidstaten kiezen op basis van hun economische realiteit. België heeft veel kleine en middelgrote ondernemingen voor wie de IFRS-overgang te zwaar zou zijn; Belgisch GAAP volstaat voor die doelgroep.
 
-**Voorbeeld**: Rotex Roeselare NV (grote NV, niet beursgenoteerd) heeft géén optie om vrijwillig op IFRS over te stappen voor haar enkelvoudige jaarrekening. Wil zij toch IFRS-informatie tonen aan een Amerikaanse financier? Dan stelt zij een aparte IFRS-rapportering op naast haar wettelijke Belgisch-GAAP-jaarrekening.
 
 _Grondslag: Verordening 1606/2002 art. 5 + CBN 2016/19_
 
@@ -113,6 +109,9 @@ _Grondslag: Verordening 1606/2002 art. 5 + CBN 2016/19_
 
 - **Vereist kennis van**: [[ifrs-toepassingsgebied-belgie]]
 - **Getriggerd door**: [[ifrs-eerste-toepassing]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -34,7 +34,6 @@ Terreinen (rekening 220) hebben onbeperkte gebruiksduur — geen afschrijving. G
 
 **Waarom?** Gebouwen verslijten fysiek en functioneel; terreinen verliezen geen waarde door tijd. De boekhoudkundige behandeling moet dit onderscheid respecteren — anders zou een terrein onterecht afgeschreven worden.
 
-**Voorbeeld**: Rotex Roeselare NV koopt een bedrijfssite voor € 850.000 (terrein € 280.000 + gebouw € 570.000). Boeking gesplitst: Debet 220 € 280.000 + Debet 221 € 570.000 / Credit 440 € 850.000. Afschrijving alleen op gebouw, bv. lineair over 33 jaar = € 17.273/jaar.
 
 _Grondslag: MAR + KB WVV art. 3:23_
 
@@ -44,7 +43,6 @@ Productie-installaties en machines (230, 231), meubilair (240), kantoormaterieel
 
 **Waarom?** Bedrijfsmiddelen die in de productie worden gebruikt slijten zichtbaar. Een uniform afschrijfregime garandeert vergelijkbaarheid binnen de jaarrekening en tussen ondernemingen.
 
-**Voorbeeld**: Naaiatelier Ninove BV koopt: drie snij-installaties (totaal € 145.000, gebruiksduur 5 jaar → € 29.000/jaar), drie naaimachines (€ 90.000, 8 jaar → € 11.250/jaar), één bestelwagen (€ 32.000, 5 jaar → € 6.400/jaar).
 
 _Grondslag: MAR rubrieken 23 + 24_
 
@@ -54,7 +52,6 @@ Activa die de onderneming in leasing of soortgelijk recht aanhoudt, maar waarvan
 
 **Waarom?** Economisch is een financiële leasing equivalent aan een aankoop met financiering. Daarom wordt het geleasde actief op de balans geboekt, met de gespiegelde schuld aan passiefzijde — substance over form.
 
-**Voorbeeld**: Transport Tongeren BV neemt een vrachtwagen in financiële leasing: economische aankoopwaarde € 85.000, looptijd 5 jaar. Boeking aanvang: Debet 252 Vaste activa in leasing — meubilair/rollend € 85.000 / Credit 172 Leasingschulden € 85.000. Afschrijving + intrestkost zoals bij eigen actief.
 
 _Grondslag: MAR rubriek 25 + KB WVV art. 3:43_
 
@@ -64,7 +61,6 @@ Onroerende goederen aangehouden als reserve (260), buiten gebruik of buiten expl
 
 **Waarom?** Activa die niet meer aan de exploitatie bijdragen mogen niet meer planmatig afgeschreven worden volgens de oorspronkelijke gebruiksduur — die is doorbroken. Wel: corrigeer naar verwachte realisatiewaarde.
 
-**Voorbeeld**: Rotex Roeselare NV stopt een verouderde productielijn (boekwaarde € 45.000); de installatie wordt overgebracht van rekening 230 naar 262 'Buiten gebruik gestelde MVA'. Verwachte tweedehandsopbrengst € 12.000 → niet-recurrente afschrijving € 33.000.
 
 _Grondslag: CBN 2021/09_
 
@@ -99,6 +95,9 @@ _Grondslag: CBN 2021/09_
 
 - **Vereist kennis van**: [[afschrijvingen]]
 - **Vereist kennis van**: [[leasing]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

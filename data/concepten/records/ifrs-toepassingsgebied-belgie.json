@@ -72,7 +72,6 @@
       "titel": "Geconsolideerd niveau: vier scenario's",
       "wat": "Voor de **geconsolideerde** jaarrekening kent België vier situaties: (1) **verplicht IFRS** — beursgenoteerden + financiële instellingen; (2) **optie IFRS** — niet-beursgenoteerde moeder mag kiezen (zelden gedaan); (3) **verplicht Belgisch GAAP** — alle andere groepen; (4) **consortium**: één gemeenschappelijke standaard verplicht — meestal Belgisch GAAP, IFRS mag onder voorwaarden.",
       "waarom": "Het regelgevende kader weegt de **kosten** van IFRS-rapportering (specialistische kennis, software, externe rapportering) tegen de **baten** (vergelijkbaarheid voor beleggers). Voor beursgenoteerde groepen wegen de baten zwaar; voor familiebedrijven niet.",
-      "voorbeeld_inline": "Antwerpse Investments NV (niet-beursgenoteerde holding, € 1.250.000.000 balanstotaal) had IFRS kunnen overwegen voor haar consolidatie maar koos voor Belgisch GAAP — minder kost, voldoende voor haar Belgische financiers.",
       "grondslag": "EU-IFRS-verordening 1606/2002 art. 4 jo. art. 5; CBN 2016/19",
       "confidence": "grounded",
       "source": {
@@ -92,13 +91,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Antwerpse Investments NV (niet-beursgenoteerde holding, € 1.250.000.000 balanstotaal) had IFRS kunnen overwegen voor haar consolidatie maar koos voor Belgisch GAAP — minder kost, voldoende voor haar Belgische financiers."
+        }
+      ]
     },
     {
       "titel": "Enkelvoudig niveau: altijd Belgisch GAAP",
       "wat": "De wettelijke (statutaire) jaarrekening van een Belgische vennootschap — die dient voor uitkeerbaarheid, kapitaalbescherming en fiscale aangifte — volgt **altijd** Belgisch GAAP. Geen optie om IFRS te kiezen voor enkelvoudige cijfers.",
       "waarom": "De statutaire jaarrekening is de **rechtsgrondslag** voor dividenden en winstbelasting. Het Belgisch systeem koppelt die rechtsgevolgen aan Belgisch GAAP — overschakelen naar IFRS zou de fiscaal-juridische infrastructuur ondermijnen.",
-      "voorbeeld_inline": "Zelena Bio NV publiceert dus elk jaar **twee** verschillende jaarrekeningen: één in IFRS (geconsolideerd, voor de beurs) en één in Belgisch GAAP (enkelvoudig, voor de Nationale Bank en de fiscus). Beide zijn rechtsgeldig en hebben verschillende doelen.",
       "grondslag": "KB WVV (geen optie tot IFRS voor enkelvoudig)",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -113,13 +117,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio NV publiceert dus elk jaar **twee** verschillende jaarrekeningen: één in IFRS (geconsolideerd, voor de beurs) en één in Belgisch GAAP (enkelvoudig, voor de Nationale Bank en de fiscus). Beide zijn rechtsgeldig en hebben verschillende doelen."
+        }
+      ]
     },
     {
       "titel": "Consortium-uitzondering (CBN 2016/19)",
       "wat": "Bij een **consortium** (horizontale groep zonder moeder, art. 1:19 WVV) moeten de leden samen één geconsolideerde jaarrekening opstellen. Als één lid beursgenoteerd is, geldt IFRS voor het geheel. Anders mag het consortium kiezen tussen Belgisch GAAP en IFRS — maar dezelfde keuze geldt voor alle leden.",
       "waarom": "Een consortium presenteert zich aan derden als één economische groep; verschillende standaarden binnen het consortium zouden de geconsolideerde cijfers incoherent maken.",
-      "voorbeeld_inline": "Industria Antwerpen NV en Jachthaven Jezus-Eik NV vormen een consortium onder gemeenschappelijke leiding van Pieter Vermeulen. Geen van beide is beursgenoteerd → ze kiezen Belgisch GAAP voor hun gezamenlijke geconsolideerde jaarrekening (eenvoudiger, goedkoper).",
       "grondslag": "CBN 2016/19",
       "confidence": "grounded",
       "source": {
@@ -134,13 +143,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Industria Antwerpen NV en Jachthaven Jezus-Eik NV vormen een consortium onder gemeenschappelijke leiding van Pieter Vermeulen. Geen van beide is beursgenoteerd → ze kiezen Belgisch GAAP voor hun gezamenlijke geconsolideerde jaarrekening (eenvoudiger, goedkoper)."
+        }
+      ]
     },
     {
       "titel": "Wijziging boekhoudkundig referentiestelsel (CBN 2022/08)",
       "wat": "Een onderneming die wisselt van Belgisch GAAP naar IFRS (of omgekeerd) volgt een specifieke procedure: alle openingscijfers herrekenen volgens het nieuwe stelsel, vergelijkende informatie aanpassen, en in de toelichting de impact van de wisseling kwantificeren. Voor een eerste IFRS-toepassing is dat IFRS 1; voor een terugkeer naar Belgisch GAAP geldt CBN 2022/08.",
       "waarom": "Een referentiestelsel-wissel is geen technische schattingswijziging maar een fundamentele heropbouw van de cijferbasis. Gebruikers moeten de oude en nieuwe cijfers naast elkaar kunnen zien om vertrouwen te houden.",
-      "voorbeeld_inline": "Aurelia Holding NV beslist om vanaf 1 januari 2027 op IFRS over te schakelen voor haar geconsolideerde jaarrekening (vrijwillige keuze). Datum van overgang naar IFRS = 1 januari 2026; IFRS-openingsbalans op die datum + aansluiting tussen oude (KB WVV) en nieuwe (IFRS) cijfers in de toelichting.",
       "grondslag": "CBN 2022/08; IFRS 1 voor verplichte eerste toepassing",
       "confidence": "grounded",
       "source": {
@@ -155,7 +169,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV beslist om vanaf 1 januari 2027 op IFRS over te schakelen voor haar geconsolideerde jaarrekening (vrijwillige keuze). Datum van overgang naar IFRS = 1 januari 2026; IFRS-openingsbalans op die datum + aansluiting tussen oude (KB WVV) en nieuwe (IFRS) cijfers in de toelichting."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -252,5 +272,5 @@
       "omschrijving": "Zelena Bio NV (beursgenoteerd op Euronext Brussel, € 350.000.000 omzet groep) is verplicht IFRS toe te passen op haar **geconsolideerde** jaarrekening. Voor haar **enkelvoudige** jaarrekening blijft KB WVV (Belgisch GAAP) van toepassing. Rotex Roeselare NV (grote NV, niet beursgenoteerd, € 80.000.000 omzet) past op beide niveaus Belgisch GAAP toe — geen IFRS, niet verplicht en niet toegestaan voor haar enkelvoudige rekening."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

@@ -157,7 +157,6 @@
       "titel": "Eén economische entiteit",
       "wat": "In de geconsolideerde jaarrekening verschijnt de hele groep (moeder + dochters in de consolidatiekring) alsof het één bedrijf is. Die fictie verklaart waarom je transacties binnen de groep schrapt en waarom belangen van derden apart komen.",
       "waarom": "Beleggers, schuldeisers en andere derden willen zien hoe de groep er als geheel voorstaat — niet de versnipperde cijfers van elke vennootschap apart. De fictie 'één bedrijf' levert dat groepsbeeld.",
-      "voorbeeld_inline": "Aurelia verkoopt voor 50 aan Brugse; in de geconsolideerde jaarrekening verdwijnt die verkoop, omdat de groep niet aan zichzelf kan verkopen.",
       "grondslag": "KB WVV art. 3:123",
       "confidence": "grounded",
       "source": {
@@ -177,13 +176,18 @@
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "In de geconsolideerde jaarrekening worden het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel opgenomen 'alsof het om één enkele vennootschap ging'. Deze fictie verklaart de eliminatie van intra-groeptransacties en de afzondering van belangen van derden.",
         "reden": "Stagiair-toon + cast-voorbeeld (regels 6 + 7 + 11)."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia verkoopt voor 50 aan Brugse; in de geconsolideerde jaarrekening verdwijnt die verkoop, omdat de groep niet aan zichzelf kan verkopen."
+        }
+      ]
     },
     {
       "titel": "Vormvereisten en compensatieverbod",
       "wat": "De geconsolideerde jaarrekening moet duidelijk en stelselmatig opgemaakt worden. Op afsluitingsdatum moet ze de bezittingen en rechten, schulden en verplichtingen en eigen middelen van de hele groep tonen, en voor het boekjaar de opbrengsten en kosten. Belangen van derden vermeld je apart op de balans en in de resultatenrekening. Tegoeden en schulden, rechten en verplichtingen, opbrengsten en kosten mag je niet tegen elkaar wegstrepen — behalve waar het KB dat expliciet toestaat.",
       "waarom": "Het compensatieverbod beschermt de informatiewaarde van de jaarrekening: zonder dat verbod zou een groep tegoeden tegen schulden kunnen wegstrepen en zo de werkelijke omvang van haar verplichtingen verbergen.",
-      "voorbeeld_inline": "Aurelia heeft 200 tegoeden bij niet-verbonden klanten en 150 schulden aan niet-verbonden leveranciers; beide blijven in de geconsolideerde balans afzonderlijk staan.",
       "grondslag": "KB WVV art. 3:107",
       "confidence": "grounded",
       "source": {
@@ -203,13 +207,18 @@
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "De geconsolideerde jaarrekening moet duidelijk worden opgesteld en stelselmatig weergeven, op afsluitingsdatum, de aard en het bedrag van de bezittingen/rechten, schulden/verplichtingen en eigen middelen van het geconsolideerde geheel, alsook voor het boekjaar de aard en het bedrag van de opbrengsten en kosten. Belangen van derden worden afzonderlijk vermeld in balans en resultatenrekening. Compensatie tussen tegoeden en schulden, tussen rechten en verplichtingen, en tussen opbrengsten en kosten is verboden behoudens uitzonderingen in dit hoofdstuk.",
         "reden": "Stagiair-toon + waarom + voorbeeld (regels 6 + 11)."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia heeft 200 tegoeden bij niet-verbonden klanten en 150 schulden aan niet-verbonden leveranciers; beide blijven in de geconsolideerde balans afzonderlijk staan."
+        }
+      ]
     },
     {
       "titel": "Keuze tussen BEGAAP en IFRS",
       "wat": "Standaard volg je het Belgisch consolidatierecht (titel 2 KB WVV). Het bestuursorgaan kan beslissen om in plaats daarvan IFRS te gebruiken (zoals door de EU aangenomen — Verordening 1606/2002). Die keuze is definitief: je kunt achteraf niet meer terugschakelen. In de toelichting bevestig je dat de onderneming over de nodige middelen beschikt en dat ze alle IFRS-normen toepast die de Europese Commissie heeft aangenomen.",
       "waarom": "De onherroepelijkheid voorkomt dat een groep heen en weer schakelt tussen normenstelsels naargelang dat in een bepaald jaar gunstig uitkomt. Voor lezers van de jaarrekening blijven cijfers van jaar tot jaar vergelijkbaar.",
-      "voorbeeld_inline": "Aurelia Holding NV beslist in 20X1 om voor de geconsolideerde jaarrekening over te stappen naar IFRS. Vanaf dat boekjaar volgt ze IFRS; terugschakelen naar BEGAAP is niet meer mogelijk.",
       "grondslag": "KB WVV art. 3:104",
       "confidence": "grounded",
       "source": {
@@ -229,13 +238,18 @@
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "Standaard: opstellen overeenkomstig de bepalingen van titel 2 van het KB WVV (Belgisch consolidatierecht). § 2: het bestuursorgaan kan beslissen om de geconsolideerde jaarrekening op te stellen met toepassing van het geheel van de internationale boekhoudnormen (IFRS zoals aangenomen door de EU op grond van Verordening 1606/2002). Deze beslissing is onherroepbaar; de toelichting vermeldt dat de onderneming over de nodige middelen beschikt en dat zij alle door de Europese Commissie aangenomen IFRS toepast.",
         "reden": "Stagiair-toon + waarom + voorbeeld (regels 6 + 11)."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV beslist in 20X1 om voor de geconsolideerde jaarrekening over te stappen naar IFRS. Vanaf dat boekjaar volgt ze IFRS; terugschakelen naar BEGAAP is niet meer mogelijk."
+        }
+      ]
     },
     {
       "titel": "Afsluitingsdatum",
       "wat": "De geconsolideerde jaarrekening sluit in principe af op dezelfde datum als de jaarrekening van de moeder. Wijk je af, dan moet die andere datum rekening houden met de afsluitingsdatum van de meeste of belangrijkste dochters in de consolidatie — en je motiveert het in de toelichting (KB WVV art. 3:111).",
       "waarom": "Eén gemeenschappelijke afsluitingsdatum garandeert dat je de cijfers van moeder en dochters kunt optellen zonder vergelijkbaarheidsproblemen.",
-      "voorbeeld_inline": "Aurelia (afsluitdatum 31 december) consolideert Brugse en Bouwwerf Beerse, die beide op 31 december afsluiten → geconsolideerde jaarrekening op 31 december.",
       "grondslag": "KB WVV art. 3:109 jo. art. 3:111",
       "confidence": "grounded",
       "source": {
@@ -260,13 +274,18 @@
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "De geconsolideerde jaarrekening wordt op dezelfde datum afgesloten als de jaarrekening van de moedervennootschap. Andere datum is mogelijk om rekening te houden met de balansdatum van de meeste of belangrijkste in de consolidatie opgenomen ondernemingen — mits motivering in de toelichting (KB WVV art. 3:111).",
         "reden": "Stagiair-toon + waarom + voorbeeld (regels 6 + 11)."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia (afsluitdatum 31 december) consolideert Brugse en Bouwwerf Beerse, die beide op 31 december afsluiten → geconsolideerde jaarrekening op 31 december."
+        }
+      ]
     },
     {
       "titel": "Volledigheid",
       "wat": "Behalve voor de wettelijke eliminaties en de afzondering van derden bevat de geconsolideerde jaarrekening op afsluitingsdatum alle bezittingen en schulden, alle rechten en verplichtingen, en alle opbrengsten en kosten van de moeder en van de dochters in de consolidatiekring.",
       "waarom": "Volledigheid is de keerzijde van de fictie 'één bedrijf': om de groep eerlijk weer te geven, mag je niets weglaten dat economisch tot de groep behoort.",
-      "voorbeeld_inline": "Aurelia heeft hangende borgstellingen voor Brugse en Bouwwerf Beerse → die staan integraal in de toelichting van de geconsolideerde jaarrekening, niet alleen in de enkelvoudige jaarrekening van Aurelia.",
       "grondslag": "KB WVV art. 3:110",
       "confidence": "grounded",
       "source": {
@@ -286,7 +305,13 @@
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "Onverminderd specifieke eliminatie-/derden-bepalingen bevat de geconsolideerde jaarrekening alle bezittingen en schulden en alle rechten en verplichtingen van de moedervennootschap en van de dochters in de consolidatiekring op de afsluitingsdatum, alsmede alle opbrengsten en kosten.",
         "reden": "Stagiair-toon + waarom + voorbeeld (regels 6 + 11)."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia heeft hangende borgstellingen voor Brugse en Bouwwerf Beerse → die staan integraal in de toelichting van de geconsolideerde jaarrekening, niet alleen in de enkelvoudige jaarrekening van Aurelia."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -471,5 +496,5 @@
       "omschrijving": "Aurelia Holding NV stelt op 31 december 20X1 één geconsolideerde jaarrekening op die de cijfers van Aurelia + Brugse Brouwerij BV (80 %) + Bouwwerf Beerse BV (100 %) samenvoegt — alsof alledrie samen één bedrijf zijn. Onderlinge vorderingen tussen Aurelia en Brugse verdwijnen; 20 % van het eigen vermogen van Brugse staat apart als belangen van derden."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

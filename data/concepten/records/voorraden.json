@@ -51,7 +51,6 @@
       "titel": "Voorraad vs vaste activa: gebruik vs verbruik",
       "wat": "Voorraden worden **verbruikt** of verkocht (vlottende activa, klasse 3). Vaste activa worden **gebruikt** voor duurzame bedrijfsuitoefening (klasse 2). Hetzelfde fysieke goed kan dus in beide categorieën zitten afhankelijk van bestemming.",
       "waarom": "De boekhoudkundige rangschikking volgt de economische functie: een actief dat doorvloeit in de cyclus is fundamenteel iets anders dan een actief dat de cyclus aandrijft.",
-      "voorbeeld_inline": "Bij Transport Tongeren BV: vrachtwagen voor eigen gebruik = MVA rubriek 242. Bij een vrachtwagendealer: dezelfde vrachtwagen die te koop staat = voorraad handelsgoederen rubriek 33.",
       "grondslag": "CBN 132/7 + KB WVV",
       "confidence": "grounded",
       "source": {
@@ -66,13 +65,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Transport Tongeren BV: vrachtwagen voor eigen gebruik = MVA rubriek 242. Bij een vrachtwagendealer: dezelfde vrachtwagen die te koop staat = voorraad handelsgoederen rubriek 33."
+        }
+      ]
     },
     {
       "titel": "Waardering: laagste van aanschaffingswaarde of marktwaarde",
       "wat": "Per voorraadrubriek wordt de aanschaffings- of vervaardigingsprijs getoetst aan de markt- of realisatiewaarde op balansdatum. Is de marktwaarde lager → waardevermindering boeken tot marktwaarde. Is ze hoger → geen opwaardering (voorzichtigheidsbeginsel: latente winst niet boeken).",
       "waarom": "Asymmetrische erkenning: verliezen direct, winsten pas bij realisatie. De voorraad blijft op de boekhouding tegen de waarde die zeker realiseerbaar is.",
-      "voorbeeld_inline": "Naaiatelier Ninove BV: oude collectie afgewerkte kleding, aanschaffingswaarde € 22.000, marktwaarde (uitverkoopprijs) € 17.500 → waardevermindering € 4.500. Andere collectie aanschaffingswaarde € 35.000, marktwaarde € 48.000 → geen opwaardering, blijft op € 35.000.",
       "grondslag": "KB WVV art. 3:49 + CBN 132/7",
       "confidence": "grounded",
       "source": {
@@ -87,13 +91,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Naaiatelier Ninove BV: oude collectie afgewerkte kleding, aanschaffingswaarde € 22.000, marktwaarde (uitverkoopprijs) € 17.500 → waardevermindering € 4.500. Andere collectie aanschaffingswaarde € 35.000, marktwaarde € 48.000 → geen opwaardering, blijft op € 35.000."
+        }
+      ]
     },
     {
       "titel": "Vier toegelaten waarderingsmethoden",
       "wat": "Voor het bepalen van de aanschaffingswaarde per voorraad-eenheid mag de onderneming kiezen tussen: (1) **individualisering** (per stuk), (2) **gewogen gemiddelde** (totale waarde / totale stuks), (3) **FIFO** (First In, First Out: eerst binnen = eerst uit), (4) **LIFO** (Last In, First Out — fiscaal niet altijd toegelaten). De gekozen methode moet consistent worden toegepast.",
       "waarom": "Bij grote, homogene voorraden is per-stuk-volgen onpraktisch. De vier methoden zijn alle aanvaard, maar geven verschillende resultaten bij prijsschommelingen. Consistentie tussen jaren is essentieel om de vergelijkbaarheid te waarborgen.",
-      "voorbeeld_inline": "Naaiatelier Ninove BV koopt textiel met dalende prijs: 1.000 m aan € 12, dan 1.000 m aan € 10. Verkoop van 500 m. FIFO: kostprijs = 500 × € 12 = € 6.000 (eerst binnen). LIFO: kostprijs = 500 × € 10 = € 5.000. Gewogen gemiddelde: € 11/m → 500 × € 11 = € 5.500. Drie methoden, drie cijfers — daarom verplicht consistentie.",
       "grondslag": "KB WVV art. 3:50; CBN 132/7",
       "confidence": "grounded",
       "source": {
@@ -108,13 +117,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Naaiatelier Ninove BV koopt textiel met dalende prijs: 1.000 m aan € 12, dan 1.000 m aan € 10. Verkoop van 500 m. FIFO: kostprijs = 500 × € 12 = € 6.000 (eerst binnen). LIFO: kostprijs = 500 × € 10 = € 5.000. Gewogen gemiddelde: € 11/m → 500 × € 11 = € 5.500. Drie methoden, drie cijfers — daarom verplicht consistentie."
+        }
+      ]
     },
     {
       "titel": "Toelichting verplicht: gekozen methoden vermelden",
       "wat": "De waarderingsregels voor voorraden moeten nauwkeurig vermeld worden in de samenvatting van de waarderingsregels in de toelichting: gekozen methode per voorraadsoort, behandeling indirecte productiekosten, eventuele intresten in vervaardigingsprijs.",
       "waarom": "Voorraden hebben grote invloed op resultaat en balanstotaal; voor de lezer moet duidelijk zijn welke methode werd gehanteerd om de cijfers correct te kunnen interpreteren.",
-      "voorbeeld_inline": "Toelichting Naaiatelier Ninove BV: 'Grond- en hulpstoffen: gewogen gemiddelde. Goederen in bewerking en gereed product: vervaardigingsprijs incl. directe + 60 % variabele indirecte productiekosten; intresten op productie-investering niet inbegrepen.'",
       "grondslag": "CBN 132/7",
       "confidence": "grounded",
       "source": {
@@ -129,13 +143,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Toelichting Naaiatelier Ninove BV: 'Grond- en hulpstoffen: gewogen gemiddelde. Goederen in bewerking en gereed product: vervaardigingsprijs incl. directe + 60 % variabele indirecte productiekosten; intresten op productie-investering niet inbegrepen.'"
+        }
+      ]
     },
     {
       "titel": "Voorraadwijziging als resultaatcomponent",
       "wat": "De **voorraadwijziging** (eindvoorraad − beginvoorraad) verschijnt in de resultatenrekening. Stijging voorraad = positieve component (geactiveerde productie nog niet verkocht); daling voorraad = negatieve component. Komt onder bedrijfsopbrengsten rekening 71 (voor stijging) of als correctie op aankopen.",
       "waarom": "Anders zou de productie van het jaar niet correct gematcht zijn met de verkopen. Voorraadwijziging is de boekhoudkundige brug tussen aankopen/productie en kostprijs verkopen.",
-      "voorbeeld_inline": "Naaiatelier Ninove BV: beginvoorraad gereed product 1/1 = € 65.000; eindvoorraad 31/12 = € 87.300. Voorraadwijziging = +€ 22.300 (stijging) → rekening 71 Voorraadwijziging gereed product.",
       "grondslag": "CBN 132/7 + MAR klasse 71",
       "confidence": "grounded",
       "source": {
@@ -150,7 +169,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Naaiatelier Ninove BV: beginvoorraad gereed product 1/1 = € 65.000; eindvoorraad 31/12 = € 87.300. Voorraadwijziging = +€ 22.300 (stijging) → rekening 71 Voorraadwijziging gereed product."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -247,5 +272,5 @@
       "omschrijving": "Naaiatelier Ninove BV heeft op 31/12: grondstoffen (textiel, garen) € 28.500 (rekening 30), goederen in bewerking € 14.200 (31), gereed product (afgewerkte kledingstukken) € 87.300 (32). Markwaarde van een gedeelte gereed product (30 stuks oude collectie) ligt onder aanschaffingswaarde → waardevermindering € 4.500. Op de balans rubriek IV.Voorraden: € 28.500 + € 14.200 + (€ 87.300 − € 4.500) = € 125.500."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

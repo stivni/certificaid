@@ -56,7 +56,6 @@
       "titel": "Vier kolommen per rekening",
       "wat": "Elke rekening krijgt vier cijfers: (1) totaal debetboekingen, (2) totaal creditboekingen, (3) saldo debet (als debet > credit), (4) saldo credit (als credit > debet). Sommatie over alle rekeningen: (1) = (2) en (3) = (4).",
       "waarom": "De gelijkheid debet = credit op het einde is het ultieme bewijs dat de dubbele boekhouding intern consistent is.",
-      "voorbeeld_inline": "Rekening 400 Klanten: debet € 850.000, credit € 720.000 → saldo debet € 130.000. Wordt op balans onder 'Vorderingen op ten hoogste een jaar'.",
       "grondslag": "CBN-advies 174/1",
       "confidence": "grounded",
       "source": {
@@ -71,13 +70,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rekening 400 Klanten: debet € 850.000, credit € 720.000 → saldo debet € 130.000. Wordt op balans onder 'Vorderingen op ten hoogste een jaar'."
+        }
+      ]
     },
     {
       "titel": "Drie functies",
       "wat": "(1) Controlefunctie — debet = credit toont dat geen boeking is misgegaan. (2) Brugfunctie — saldi worden gebruikt om balans en RR op te stellen. (3) Periodieke status — interne tussentijdse rapportering (vaak maandelijks).",
       "waarom": "Een goede boekhouding produceert maandelijks een proef- en saldibalans als 'reality check'.",
-      "voorbeeld_inline": "Bestuurder van Rotex Roeselare NV vraagt elke maand de proef- en saldibalans → kan resultaat en cashpositie volgen zonder volle jaarrekening op te maken.",
       "grondslag": "Praktijk + CBN-advies 174/1",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -92,13 +96,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bestuurder van Rotex Roeselare NV vraagt elke maand de proef- en saldibalans → kan resultaat en cashpositie volgen zonder volle jaarrekening op te maken."
+        }
+      ]
     },
     {
       "titel": "Voor → na eindejaarsverrichtingen",
       "wat": "Eerst maakt men een **voorlopige** proef- en saldibalans op vóór eindejaarsverrichtingen. Daarna worden eindejaarsboekingen (afschrijvingen, waardeverminderingen, voorzieningen, overlopende rekeningen) toegevoegd. Resultaat = **definitieve** proef- en saldibalans → vertrekpunt jaarrekening.",
       "waarom": "Twee versies maken zichtbaar wat de eindejaarsverrichtingen aan de cijfers veranderen.",
-      "voorbeeld_inline": "Voorlopige PS-balans Naaiatelier Ninove BV: winst van € 180.000. Eindejaarsverrichtingen: + € 25.000 afschrijvingen + € 12.000 voorzieningen = winst daalt naar € 143.000.",
       "grondslag": "WER art. III.85; CBN-advies 174/1",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -113,7 +122,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Voorlopige PS-balans Naaiatelier Ninove BV: winst van € 180.000. Eindejaarsverrichtingen: + € 25.000 afschrijvingen + € 12.000 voorzieningen = winst daalt naar € 143.000."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -157,5 +172,5 @@
       "omschrijving": "Meubelzaak Mertens BV maakt eind 2024 een proef- en saldibalans op: rekening 604 Aankopen toont debet € 230.000, credit € 0, saldo € 230.000 debet. Som debet alle rekeningen = som credit alle rekeningen → balans in evenwicht."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

@@ -38,21 +38,31 @@
       "titel": "Klassieke sleutels",
       "wat": "Vier traditionele sleutels: (1) directe arbeidsuren, (2) machine-uren, (3) directe materiaalkost, (4) directe lonen. Eén sleutel per kostencentrum, soms één sleutel voor de hele onderneming.",
       "waarom": "Eenvoudig en goedkoop te administreren; werkt redelijk in productie-omgevingen waar overhead dominant met productievolume samenhangt.",
-      "voorbeeld_inline": "Yperse Werkplaats BV verdeelt indirecte productiekosten Weverij (€ 1.200.000) over orders via directe arbeidsuren (sleutel-tarief = € 1.200.000 / 30.000 uur = € 40 per directe arbeidsuur). Een order met 80 directe arbeidsuren krijgt € 3.200 indirect.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV verdeelt indirecte productiekosten Weverij (€ 1.200.000) over orders via directe arbeidsuren (sleutel-tarief = € 1.200.000 / 30.000 uur = € 40 per directe arbeidsuur). Een order met 80 directe arbeidsuren krijgt € 3.200 indirect."
+        }
+      ]
     },
     {
       "titel": "Eén-sleutel-vertekening",
       "wat": "Eén sleutel veronderstelt dat alle overhead-kosten dezelfde drijver volgen — wat zelden klopt. Producten met veel set-ups krijgen te weinig kost toegerekend als de sleutel arbeidsuren is.",
       "waarom": "Aanleiding voor ABC-methode: verschillende kosten, verschillende cost drivers.",
-      "voorbeeld_inline": "Bij Yperse Werkplaats BV draait de Confectie kleine series met veel omstel-tijd. Op directe-arbeidsuren-sleutel lijken die series winstgevend; op een ABC-aanpak met cost driver 'aantal set-ups' tonen ze verlies.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Yperse Werkplaats BV draait de Confectie kleine series met veel omstel-tijd. Op directe-arbeidsuren-sleutel lijken die series winstgevend; op een ABC-aanpak met cost driver 'aantal set-ups' tonen ze verlies."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -85,5 +95,5 @@
       "omschrijving": "Yperse Werkplaats BV verdeelt de jaarhuur van € 240.000 over de drie productie-afdelingen volgens vloeroppervlakte: Spinnerij 1.500 m² (37,5 %), Weverij 1.800 m² (45 %), Confectie 700 m² (17,5 %). Spinnerij krijgt € 90.000, Weverij € 108.000, Confectie € 42.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

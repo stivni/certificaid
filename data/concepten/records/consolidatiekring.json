@@ -127,7 +127,6 @@
       "titel": "Hoofdregel — moeder plus alle dochters",
       "wat": "De moeder en al haar dochters horen standaard in de consolidatiekring.",
       "waarom": "Een groep is economisch één geheel; alleen door alle gecontroleerde dochters samen te brengen krijg je een eerlijk beeld van de bezittingen, schulden en resultaten van de groep.",
-      "voorbeeld_inline": "Aurelia Holding NV controleert Brugse Brouwerij BV en Bouwwerf Beerse BV → de kring bestaat uit Aurelia + Brugse + Bouwwerf Beerse.",
       "grondslag": "KB WVV art. 3:96",
       "confidence": "grounded",
       "source": {
@@ -159,13 +158,18 @@
           "from": null,
           "reason": "Cast-voorbeeld toegevoegd (regel 11)."
         }
+      ],
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV controleert Brugse Brouwerij BV en Bouwwerf Beerse BV → de kring bestaat uit Aurelia + Brugse + Bouwwerf Beerse."
+        }
       ]
     },
     {
       "titel": "Vier facultatieve uitsluitingsgronden",
       "wat": "Een dochter mag uit de kring worden gelaten in vier gevallen: (1) van te verwaarlozen betekenis; (2) ingrijpende en duurzame beperkingen op het uitoefenen van controle of het gebruik van het vermogen; (3) gegevens niet zonder onevenredige kost of vertraging beschikbaar; (4) aandelen uitsluitend gehouden om ze later weer te verkopen. Elke uitsluiting moet je in de toelichting motiveren.",
       "waarom": "De wet kiest voor een uitzonderingsregime in plaats van een keiharde 100 %-regel: in deze vier gevallen voegt het verplicht opnemen niets toe of leidt het tot vertekening — beter weglaten en uitleggen.",
-      "voorbeeld_inline": "Aurelia Holding NV koopt Gent Garantie BV met het oog op doorverkoop binnen 6 maanden → kan facultatief uitgesloten worden onder grond 4, mits in de toelichting gemotiveerd.",
       "grondslag": "KB WVV art. 3:97",
       "confidence": "grounded",
       "source": {
@@ -197,13 +201,18 @@
           "from": null,
           "reason": "Cast-voorbeeld toegevoegd (Gent Garantie)."
         }
+      ],
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV koopt Gent Garantie BV met het oog op doorverkoop binnen 6 maanden → kan facultatief uitgesloten worden onder grond 4, mits in de toelichting gemotiveerd."
+        }
       ]
     },
     {
       "titel": "Verplichte uitsluiting bij controle in feite die getrouw beeld bedreigt",
       "wat": "Een dochter waarover je enkel controle in feite hebt (geen meerderheid in stemrechten), moet je uit de kring laten als opname het getrouwe beeld van de geconsolideerde jaarrekening zou verstoren. Je vermeldt en motiveert dat in de toelichting.",
       "waarom": "Controle in feite is fragiel: het kan elk moment kantelen. Een dochter integraal opnemen op basis van een wankel controlevermoeden kan een groep groter doen lijken dan zij economisch is.",
-      "voorbeeld_inline": "Aurelia Holding NV heeft 35 % van Brugse Brouwerij BV en presideert sinds twee boekjaren de AV; volgend boekjaar dreigt een tegenkamp van Robert Vandenberghe (40 %) → controle in feite is onzeker → uitsluiting verplicht.",
       "grondslag": "KB WVV art. 3:98",
       "confidence": "grounded",
       "source": {
@@ -235,13 +244,18 @@
           "from": null,
           "reason": "Cast-voorbeeld toegevoegd (Aurelia/Brugse/Robert Vandenberghe)."
         }
+      ],
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV heeft 35 % van Brugse Brouwerij BV en presideert sinds twee boekjaren de AV; volgend boekjaar dreigt een tegenkamp van Robert Vandenberghe (40 %) → controle in feite is onzeker → uitsluiting verplicht."
+        }
       ]
     },
     {
       "titel": "Uitgesloten dochter alsnog opnemen via vermogensmutatie",
       "wat": "Dochters die je op grond van art. 3:98 of art. 3:99 uit de consolidatiekring laat, neem je toch op in de geconsolideerde jaarrekening — maar dan via de vermogensmutatiemethode (één post 'Vennootschappen waarop vermogensmutatie is toegepast').",
       "waarom": "'Uit de consolidatiekring' is niet hetzelfde als 'helemaal weg uit de geconsolideerde jaarrekening'. De groep heeft economisch nog steeds een belang in die dochter; vermogensmutatie geeft daarvan een vereenvoudigd beeld zonder integraal op te nemen.",
-      "voorbeeld_inline": "Aurelia sluit Brugse uit op grond van art. 3:98 → Brugse verdwijnt niet, maar verschijnt als één regel 'Vermogensmutatie deelneming Brugse Brouwerij BV' op de geconsolideerde balans van Aurelia.",
       "grondslag": "KB WVV art. 3:100",
       "confidence": "grounded",
       "source": {
@@ -272,6 +286,12 @@
           "field": "voorbeeld_inline",
           "from": null,
           "reason": "Cast-voorbeeld toegevoegd."
+        }
+      ],
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia sluit Brugse uit op grond van art. 3:98 → Brugse verdwijnt niet, maar verschijnt als één regel 'Vermogensmutatie deelneming Brugse Brouwerij BV' op de geconsolideerde balans van Aurelia."
         }
       ]
     }
@@ -437,5 +457,5 @@
       "omschrijving": "Aurelia Holding NV controleert Brugse Brouwerij BV (100 %) en Drukkerij Dendermonde BV (25 %, invloed van betekenis). Consolidatiekring = Aurelia + Brugse; Drukkerij Dendermonde komt erbij via vermogensmutatie."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

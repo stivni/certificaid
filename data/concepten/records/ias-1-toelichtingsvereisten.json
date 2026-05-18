@@ -71,7 +71,6 @@
       "titel": "Significante oordeelsvorming + schattingsonzekerheid",
       "wat": "De entiteit moet in de toelichting (a) de **significante oordeelsvorming** beschrijven die het management heeft toegepast bij de IFRS-grondslagen (alinea 122) — bv. classificatie van bepaalde leases, going concern-beoordeling; (b) de **bronnen van schattingsonzekerheid** die een significant risico inhouden van materiële aanpassing in het volgend jaar (alinea 125) — bv. impairment-tests, actuariële assumpties.",
       "waarom": "IFRS-cijfers berusten op talloze schattingen. Wat de management 'denkt' en welke onzekerheid daaronder zit, is voor gebruikers cruciaal om de cijfers naar waarde te schatten.",
-      "voorbeeld_inline": "Zelena Bio's toelichting noot 3 vermeldt: 'Bij de jaarlijkse impairment-test van goodwill (€ 18.000.000 boekwaarde) is uitgegaan van een groeivoet van 2,5% over 5 jaar en een WACC van 8,3%. Een stijging van WACC met 1%-punt zou een impairment-verlies van circa € 2.700.000 tot gevolg hebben.'",
       "grondslag": "IAS 1 alinea 122 + 125",
       "confidence": "grounded",
       "source": {
@@ -86,13 +85,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio's toelichting noot 3 vermeldt: 'Bij de jaarlijkse impairment-test van goodwill (€ 18.000.000 boekwaarde) is uitgegaan van een groeivoet van 2,5% over 5 jaar en een WACC van 8,3%. Een stijging van WACC met 1%-punt zou een impairment-verlies van circa € 2.700.000 tot gevolg hebben.'"
+        }
+      ]
     },
     {
       "titel": "Kapitaalbeheer",
       "wat": "De entiteit moet informatie verschaffen over haar **doelstellingen, gedragslijnen en processen voor het beheer van het kapitaal** (alinea 134): kwalitatieve info (wat zij beschouwt als kapitaal, externe vereisten — bv. financial covenants, regelgevende kapitaalvereisten bij banken/verzekeraars), kwantitatieve samenvatting van beheerd kapitaal, eventuele wijzigingen in de periode.",
       "waarom": "Beleggers en analisten willen weten hoe het management de kapitaalpositie ziet — niet alleen de cijfers maar het beleid erachter. Vooral bij banken en verzekeraars is dit cruciaal voor toezicht.",
-      "voorbeeld_inline": "Zelena Bio's toelichting noot 32 'Kapitaalbeheer': 'De Groep beschouwt eigen vermogen + langlopende schulden als beheerd kapitaal. Doelstelling: financiële slagkracht behouden met debt/equity ratio onder 1,5. Per 31 december 2026: debt/equity = 0,8 — ruim onder doel. Kapitaalbeleid niet gewijzigd in 2026.'",
       "grondslag": "IAS 1 alinea 134-136",
       "confidence": "grounded",
       "source": {
@@ -107,13 +111,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio's toelichting noot 32 'Kapitaalbeheer': 'De Groep beschouwt eigen vermogen + langlopende schulden als beheerd kapitaal. Doelstelling: financiële slagkracht behouden met debt/equity ratio onder 1,5. Per 31 december 2026: debt/equity = 0,8 — ruim onder doel. Kapitaalbeleid niet gewijzigd in 2026.'"
+        }
+      ]
     },
     {
       "titel": "Verbonden partijen — uitgebreide vereisten",
       "wat": "IAS 24 (Informatieverschaffing over verbonden partijen) vereist gedetailleerde toelichting over transacties met dochterondernemingen, geassocieerde entiteiten, joint ventures, sleutelfunctionarissen (CEO, raad van bestuur), en hun dichte familie. Voor elke categorie: aard transactie + bedrag + openstaande saldi + voorzieningen + waardeverminderingen.",
       "waarom": "Verbonden-partij-transacties bevatten een inherent risico van niet-marktconforme voorwaarden. Toelichting maakt mogelijke value transfers tussen verbonden ondernemingen zichtbaar voor minderheidsbeleggers en crediteuren.",
-      "voorbeeld_inline": "Zelena Bio's toelichting noot 41 'Verbonden partijen': 'Transacties met Brusselse Klinieken (joint venture, 50% belang Zelena): omzet € 12.500.000 (marktconforme prijzen), openstaande handelsvordering 31 december € 2.300.000. Bezoldigingen sleutelfunctionarissen (5 personen) totaal € 4.800.000.'",
       "grondslag": "IAS 24 + IAS 1 alinea 138",
       "confidence": "grounded",
       "source": {
@@ -128,7 +137,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio's toelichting noot 41 'Verbonden partijen': 'Transacties met Brusselse Klinieken (joint venture, 50% belang Zelena): omzet € 12.500.000 (marktconforme prijzen), openstaande handelsvordering 31 december € 2.300.000. Bezoldigingen sleutelfunctionarissen (5 personen) totaal € 4.800.000.'"
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -201,5 +216,5 @@
       "omschrijving": "Zelena Bio NV toelichting 2026 bevat: noot 1 'Algemene informatie' (statutaire zetel, hoofdactiviteit), noot 2 'Grondslagen voor financiële verslaggeving' (12 subnoten over MVA, voorraden, leasing, opbrengsten, etc.), noot 3 'Significante schattingen' (impairment-test goodwill, levensduur productielijn), noten 4-25 toelichting per balanspost, noten 26-40 toelichting per W&V-post, noten 41-45 verbonden partijen, gebeurtenissen na balansdatum, etc. Totaal 45 toelichtingsnoten over ongeveer 70 pagina's."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

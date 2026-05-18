@@ -37,7 +37,6 @@ Voor materiaal en arbeid splitsen we het totaal verschil in: prijsverschil = wer
 
 **Waarom?** Prijsverschil wijst op aankoop-/markt-oorzaak; hoeveelheidverschil op productie-efficiëntie.
 
-**Voorbeeld**: Yperse Werkplaats BV partij 100 tapijten: standaard 1,2 kg wol × € 5,00 = € 6 per tapijt. Werkelijk: 1,3 kg × € 5,20. Per tapijt: prijsverschil = 1,3 × (5,20 − 5,00) = € 0,26 (ongunstig). Hoeveelheidverschil = (1,3 − 1,2) × € 5,00 = € 0,50 (ongunstig). Voor 100 tapijten: € 26 prijs + € 50 hoeveelheid = € 76 ongunstig totaal.
 
 
 ### Boeking van verschillen 🤖
@@ -46,7 +45,6 @@ Verschillen worden op aparte rekeningen geboekt (klasse 9, bv. 980 materiaal-pri
 
 **Waarom?** Aparte rekeningen maken cumulatieve trend zichtbaar en faciliteren maand-afsluiting.
 
-**Voorbeeld**: Yperse boeking maart 20X2: 9300 Confectie € 92.000 / 612 'Werkelijke kost Confectie' € 79.167 + 9810 Verschil Confectie € 12.833.
 
 
 ### Significantiegrens 🤖
@@ -55,7 +53,6 @@ Niet elk verschil hoeft onderzocht. Praktijk: drempel van bv. 5 % of € 5.000; 
 
 **Waarom?** Vermijdt dat controlling-team verzandt in micro-afwijkingen.
 
-**Voorbeeld**: Yperse hanteert: verschil > 10 % en > € 2.500 = onderzoek. Confectie € 12.833 op € 79.167 = 16,2 % → onderzoek. Spinnerij € 850 verschil op budget € 120.000 = 0,7 % → geen onderzoek.
 
 
 

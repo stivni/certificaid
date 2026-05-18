@@ -40,7 +40,6 @@ Current ratio drukt de liquiditeit uit als verhouding (€ 8.000.000 / € 4.000
 
 **Waarom?** Verhoudingen verbergen de schaal. Twee bedrijven met dezelfde current ratio van 2 kunnen € 100.000 of € 100.000.000 werkkapitaal hebben — een schaalverschil dat belangrijk is voor financieringscapaciteit.
 
-**Voorbeeld**: Rotex Roeselare NV: werkkapitaal = € 8.000.000 − € 4.000.000 = € 4.000.000 positief. Meubelzaak Mertens BV: € 800.000 − € 600.000 = € 200.000 positief. Beide hebben current ratio rond 1,3 maar zeer verschillende absolute buffers.
 
 _Grondslag: Vakdoctrine_
 
@@ -50,7 +49,6 @@ Werkkapitaal positief betekent dat de vlottende activa de korte schulden oversch
 
 **Waarom?** Negatief werkkapitaal betekent dat korte schulden langetermijnactiva financieren — een structureel risico (mismatch in looptijd).
 
-**Voorbeeld**: Solaris Sint-Truiden BV met vlottende activa € 1.200.000 en korte schulden € 1.500.000 heeft een negatief werkkapitaal van € 300.000 — waarschuwingssignaal.
 
 _Grondslag: Vakdoctrine_
 
@@ -82,6 +80,9 @@ _Grondslag: Vakdoctrine_
 > _Bron: Financial analysis_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

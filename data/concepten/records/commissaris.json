@@ -58,7 +58,6 @@
       "titel": "Wanneer is een commissaris verplicht?",
       "wat": "Verplicht voor (1) grote vennootschappen (overschrijden meer dan één van de drempels: 50 werknemers / € 11.250.000 omzet / € 6.000.000 balanstotaal), (2) genoteerde vennootschappen (Public Interest Entity, PIE), (3) grote VZW's en stichtingen, (4) vennootschappen die deel uitmaken van een groep die als geheel groot is. Kleine vennootschappen kunnen vrijwillig een commissaris benoemen.",
       "waarom": "Externe controle waarborgt vertrouwen voor derden (banken, leveranciers, fiscus, aandeelhouders).",
-      "voorbeeld_inline": "Bouwwerf Beerse BV groeit boven de drempels in 2024 én 2025 → vanaf AV 2026 moet ze een commissaris aanstellen.",
       "grondslag": "WVV art. 3:72",
       "confidence": "grounded",
       "source": {
@@ -73,13 +72,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bouwwerf Beerse BV groeit boven de drempels in 2024 én 2025 → vanaf AV 2026 moet ze een commissaris aanstellen."
+        }
+      ]
     },
     {
       "titel": "Drie kerntaken",
       "wat": "(1) Verifiëren dat de jaarrekening een getrouw beeld geeft (audit volgens ISA-normen). (2) Verifiëren of het jaarverslag overeenstemt met de jaarrekening en de wet. (3) Controleren of de boekhouding en de jaarrekening regelmatig zijn opgesteld in overeenstemming met het Belgisch boekhoudrecht.",
       "waarom": "Niet alleen 'getrouw beeld' maar ook 'wettelijk in orde' — twee dimensies van controle.",
-      "voorbeeld_inline": "Sofie Janssens controleert Rotex Roeselare NV's jaarrekening 2024 → toetst aan getrouw beeld (audit) + checkt naleving KB-WVV (compliance).",
       "grondslag": "WVV art. 3:75",
       "confidence": "grounded",
       "source": {
@@ -94,13 +98,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Sofie Janssens controleert Rotex Roeselare NV's jaarrekening 2024 → toetst aan getrouw beeld (audit) + checkt naleving KB-WVV (compliance)."
+        }
+      ]
     },
     {
       "titel": "Drie soorten oordeel in het verslag",
       "wat": "(1) Goedkeurend oordeel — jaarrekening geeft getrouw beeld. (2) Oordeel met voorbehoud — getrouw beeld behalve voor enkele punten. (3) Afkeurend oordeel of onthouding — jaarrekening geeft geen getrouw beeld of geen voldoende bewijsstukken beschikbaar. De keuze hangt af van de aard en grootte van de gevonden afwijkingen (materialiteit).",
       "waarom": "Een gradatie laat de commissaris toe genuanceerd te rapporteren in plaats van een binaire 'OK / niet OK'.",
-      "voorbeeld_inline": "Sofie Janssens vindt een voorraadwaardering die € 250.000 te hoog is op € 2,1M totaal → materieel maar niet alomvattend → 'oordeel met voorbehoud'.",
       "grondslag": "ISA-normen + WVV art. 3:78",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -115,13 +124,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Sofie Janssens vindt een voorraadwaardering die € 250.000 te hoog is op € 2,1M totaal → materieel maar niet alomvattend → 'oordeel met voorbehoud'."
+        }
+      ]
     },
     {
       "titel": "Onafhankelijkheid",
       "wat": "Een commissaris moet onafhankelijk zijn van de gecontroleerde vennootschap. Geen bestuurder, geen werknemer, geen significante financiële band. Sommige niet-audit-diensten (bv. fiscale aangiften, bookkeeping voor dezelfde klant) zijn uitgesloten of beperkt. Het IBR houdt tucht over schendingen.",
       "waarom": "Zonder onafhankelijkheid is de controle waardeloos — een commissaris moet 'mentale onafhankelijkheid' én 'schijnbare onafhankelijkheid' bewaren.",
-      "voorbeeld_inline": "Sofie Janssens kan geen commissaris worden bij Brugse Brouwerij BV omdat zij voorheen hun fiscale aangiften deed — cooling-off-periode van 2 jaar geldt.",
       "grondslag": "WVV art. 3:73 + Wet 7 december 2016",
       "confidence": "grounded",
       "source": {
@@ -136,7 +150,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Sofie Janssens kan geen commissaris worden bij Brugse Brouwerij BV omdat zij voorheen hun fiscale aangiften deed — cooling-off-periode van 2 jaar geldt."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -215,5 +235,5 @@
       "omschrijving": "Sofie Janssens (bedrijfsrevisor, IBR-lid) wordt door de algemene vergadering van Rotex Roeselare NV benoemd tot commissaris voor een termijn van drie boekjaren — zij zal jaarlijks de jaarrekening controleren en haar bevindingen rapporteren aan de aandeelhouders."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

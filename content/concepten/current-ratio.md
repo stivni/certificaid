@@ -40,7 +40,6 @@ Tel alle vlottende activa op (voorraden, handelsvorderingen, geldbeleggingen, li
 
 **Waarom?** Als de vennootschap morgen al haar korte schulden moest betalen, kan ze dan voldoende cash genereren uit haar vlottende activa? Een verhouding van meer dan 1 betekent: theoretisch wel.
 
-**Voorbeeld**: Rotex Roeselare NV: vlottende activa € 8.000.000; schulden op ten hoogste een jaar € 4.000.000. Current ratio = € 8.000.000 / € 4.000.000 = 2,0.
 
 _Grondslag: Vakdoctrine financial analysis_
 

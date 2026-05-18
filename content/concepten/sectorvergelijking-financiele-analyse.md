@@ -39,7 +39,6 @@ Identificeer de sector waarin de onderneming actief is — bij voorkeur via NACE
 
 **Waarom?** Een te brede definitie verwatert de vergelijking. Een te enge definitie laat te weinig vergelijkbare bedrijven over.
 
-**Voorbeeld**: Rotex Roeselare NV (metaalconstructie B2B) wordt vergeleken met andere Vlaamse metaalconstructeurs van vergelijkbare grootte — niet met de bredere 'metallurgie'-sector.
 
 _Grondslag: Vakdoctrine_
 
@@ -49,7 +48,6 @@ De mediaan is meestal informatiever dan het gemiddelde, vooral bij sectoren met 
 
 **Waarom?** De mediaan is robuust tegen extreme waarden; het gemiddelde is dat niet.
 
-**Voorbeeld**: In de sector metaalconstructie heeft één multinational ROE 30 %; 9 KMO's hebben ROE rond 10 %. Gemiddelde = 12 %; mediaan = 10 % → de mediaan vertelt het accurater verhaal.
 
 _Grondslag: Vakdoctrine statistiek_
 
@@ -74,6 +72,9 @@ _Grondslag: Vakdoctrine statistiek_
 ## Zie ook
 
 - **Vereist kennis van**: [[historische-evolutie-financiele-analyse]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

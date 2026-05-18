@@ -60,7 +60,6 @@
       "titel": "Substance over form",
       "wat": "Bij verschil tussen juridische vorm en economische werkelijkheid moet de economische werkelijkheid worden weergegeven in de boekhouding. Een leasing-contract dat economisch een aankoop is, wordt geboekt als aankoop met financiering (financiële leasing).",
       "waarom": "Voor stakeholders telt de economische werkelijkheid; juridische verpakking mag het beeld niet vertekenen.",
-      "voorbeeld_inline": "Transport Tongeren BV least 10 trucks via financiële leasing (looptijd = economische levensduur, optie tot aankoop voor symbolisch bedrag) → boekt als materieel vast actief + langlopende schuld, niet als operationele kost.",
       "grondslag": "KB-WVV art. 3:1; CBN-advies 174/1",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -75,13 +74,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Transport Tongeren BV least 10 trucks via financiële leasing (looptijd = economische levensduur, optie tot aankoop voor symbolisch bedrag) → boekt als materieel vast actief + langlopende schuld, niet als operationele kost."
+        }
+      ]
     },
     {
       "titel": "Geen camouflage",
       "wat": "Geen 'window-dressing': verrichtingen vlak voor balansdatum gepland om de balans 'mooier' te maken (bv. vorderingen tijdelijk afboeken tegen leveranciersschulden, intercompany schuiven) zijn in strijd met het oprechtheidsbeginsel.",
       "waarom": "Het beeld op balansdatum moet representatief zijn, niet kunstmatig opgepoetst.",
-      "voorbeeld_inline": "Rotex Roeselare NV verschuift op 28 december € 2M intercompany-vordering tijdelijk naar een ander filiaal om de current-ratio op te krikken → schending oprechtheidsbeginsel.",
       "grondslag": "KB-WVV art. 3:1; algemeen rechtsbeginsel",
       "confidence": "inferred",
       "source": {
@@ -96,7 +100,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV verschuift op 28 december € 2M intercompany-vordering tijdelijk naar een ander filiaal om de current-ratio op te krikken → schending oprechtheidsbeginsel."
+        }
+      ]
     }
   ],
   "vergelijkingsparen": [
@@ -135,5 +145,5 @@
       "omschrijving": "Aurelia Holding NV mag een verkoop met terugkoopplicht niet boeken als gewone verkoop — economisch gaat het om een financieringsoperatie, dus substance over form: boek als 'verkoop met clausule' of leningstructuur."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

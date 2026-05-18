@@ -37,7 +37,6 @@ Bij budgetgoedkeuring (december) wordt het volledige jaarbudget per kostencentru
 
 **Waarom?** Maakt vergelijking op elk moment in het jaar mogelijk.
 
-**Voorbeeld**: Yperse Werkplaats BV boekt eind december 20X1 het Confectie-jaarbudget van € 950.000 op rekening 9030 'Budget Confectie 20X2'. Elke maand wordt € 79.167 'verbruikt' bij realisatie-boeking.
 
 
 ### Aansluiting met realisatie 🤖
@@ -46,7 +45,6 @@ Wanneer de werkelijke kost wordt geboekt (klasse 6 + klasse 9 op kostencentrum),
 
 **Waarom?** Automatische verschillen-detectie zonder maandelijkse handmatige berekening.
 
-**Voorbeeld**: Yperse Confectie maart 20X2: budget € 79.167, realisatie € 92.000. Verschil € 12.833 ongunstig op rekening 9810 'Verschil Confectie'. Splitsing naar prijs/hoeveelheid gebeurt apart.
 
 
 
@@ -54,4 +52,7 @@ Wanneer de werkelijke kost wordt geboekt (klasse 6 + klasse 9 op kostencentrum),
 
 - **Vereist kennis van**: [[rekeningenstelsel-analytisch]]
 - **Vereist kennis van**: [[verschillenboekhouding]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

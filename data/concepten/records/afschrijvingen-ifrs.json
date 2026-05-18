@@ -87,7 +87,6 @@
       "titel": "Restwaarde — vaak nul, maar niet altijd",
       "wat": "De restwaarde is het bedrag dat de entiteit naar verwachting **vandaag** zou ontvangen bij vervreemding van een actief in de staat aan het eind van zijn gebruiksduur. In de praktijk is restwaarde vaak nihil (machines die volledig verbruikt zijn, software die obsoleet is). Maar voor activa met blijvende intrinsieke waarde (voertuigen, vastgoed-component 'gebouw') kan ze materieel zijn.",
       "waarom": "Het afschrijfbaar bedrag = kostprijs − restwaarde. Een te lage restwaarde overschat de afschrijving; een te hoge restwaarde onderschat de afschrijving. Restwaarde moet realistisch zijn op basis van vandaag (alinea 53).",
-      "voorbeeld_inline": "Zelena Bio NV koopt een vrachtwagen voor € 85.000, geschatte restwaarde bij 8 jaar gebruik = € 12.500 (verwachte verkoopprijs van vergelijkbare 8-jarige vrachtwagens vandaag). Afschrijfbaar bedrag = € 72.500. Lineair: € 9.063/jaar.",
       "grondslag": "IAS 16 alinea 6, 53",
       "confidence": "grounded",
       "source": {
@@ -102,13 +101,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio NV koopt een vrachtwagen voor € 85.000, geschatte restwaarde bij 8 jaar gebruik = € 12.500 (verwachte verkoopprijs van vergelijkbare 8-jarige vrachtwagens vandaag). Afschrijfbaar bedrag = € 72.500. Lineair: € 9.063/jaar."
+        }
+      ]
     },
     {
       "titel": "Start- en einddatum afschrijving",
       "wat": "Afschrijving **begint** wanneer het actief gereed is voor gebruik — d.w.z. op de locatie en in de staat is om te functioneren zoals door management beoogd. **Eindigt** op de vroegste van: classificatie als 'aangehouden voor verkoop' (IFRS 5), of niet langer opnemen (vervreemding, buitengebruikstelling) (alinea 55).",
       "waarom": "Niet de aankoopdatum maar de gebruiksklare datum is bepalend. Een nieuwe productielijn die nog 4 maanden ingericht moet worden levert pas vanaf maand 5 economische voordelen — afschrijving begint dan ook pas op maand 5.",
-      "voorbeeld_inline": "Zelena Bio's productielijn: aankoopfactuur 15 oktober 2025, installatie + tests afgerond 31 januari 2026. Afschrijving start op 1 februari 2026; voor boekjaar 2026 wordt 11/12 van de jaarafschrijving geboekt.",
       "grondslag": "IAS 16 alinea 55",
       "confidence": "grounded",
       "source": {
@@ -123,13 +127,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio's productielijn: aankoopfactuur 15 oktober 2025, installatie + tests afgerond 31 januari 2026. Afschrijving start op 1 februari 2026; voor boekjaar 2026 wordt 11/12 van de jaarafschrijving geboekt."
+        }
+      ]
     },
     {
       "titel": "Drie methoden — kies volgens verbruikspatroon",
       "wat": "**Lineair**: gelijk bedrag per periode (typisch voor gebouwen, kantoorinrichting). **Degressief**: dalend bedrag per periode (typisch voor voertuigen die in eerste jaren meer waarde verliezen). **Op basis van verbruikte werkeenheden**: per uitgevoerde productie-eenheid of werkuur (typisch voor mijnen, drukmachines). De entiteit kiest de methode die het verbruikspatroon van toekomstige economische voordelen het beste weerspiegelt.",
       "waarom": "Een uniforme methode voor alle activa zou de afschrijving van werkelijkheid loskoppelen. De keuze hangt af van de aard van het actief en hoe het zijn waarde verliest.",
-      "voorbeeld_inline": "Zelena Bio: productie-installatie (constante output) → lineair; vrachtwagen (snelle waardevermindering eerste jaren) → degressief; gietvorm voor productie van 500.000 doseflesjes → op basis van werkeenheden (€ 0,80 per geproduceerd flesje, kostprijs gietvorm € 400.000).",
       "grondslag": "IAS 16 alinea 60-62",
       "confidence": "grounded",
       "source": {
@@ -144,13 +153,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio: productie-installatie (constante output) → lineair; vrachtwagen (snelle waardevermindering eerste jaren) → degressief; gietvorm voor productie van 500.000 doseflesjes → op basis van werkeenheden (€ 0,80 per geproduceerd flesje, kostprijs gietvorm € 400.000)."
+        }
+      ]
     },
     {
       "titel": "Verbod op opbrengstenmethode",
       "wat": "Een afschrijvingsmethode op basis van **opbrengsten gegenereerd door de activiteit waarbij het actief wordt gebruikt** is voor materiële vaste activa **niet passend** (alinea 62A). Opbrengsten weerspiegelen veel factoren naast verbruik (prijs, volume, inflatie, marketing). Voor immateriële activa is dezelfde regel met een (zeer beperkte) uitzondering bij IAS 38 alinea 98A.",
       "waarom": "Een entiteit die afschrijft op basis van omzet zou bij hoge omzet veel afschrijven (geeft optisch lage marge) en bij lage omzet weinig afschrijven (optisch hogere marge). Dat maakt resultaten manipuleerbaar en koppelt afschrijving los van werkelijk verbruik.",
-      "voorbeeld_inline": "Zelena Bio mag NIET haar productielijn afschrijven op basis van '€ 0,02 per euro verkochte productieopbrengst'. Wel: per geproduceerd doseflesje (output-eenheden) of lineair over jaren.",
       "grondslag": "IAS 16 alinea 62A",
       "confidence": "grounded",
       "source": {
@@ -165,13 +179,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio mag NIET haar productielijn afschrijven op basis van '€ 0,02 per euro verkochte productieopbrengst'. Wel: per geproduceerd doseflesje (output-eenheden) of lineair over jaren."
+        }
+      ]
     },
     {
       "titel": "Onbepaalde gebruiksduur immateriële activa — geen afschrijving",
       "wat": "Onder IAS 38 wordt een immaterieel actief met **onbepaalde gebruiksduur** NIET afgeschreven (alinea 107). In plaats daarvan: jaarlijkse impairment-test onder IAS 36. Voorwaarde: er is geen voorzienbare beperking op de periode waarin het actief toekomstige economische voordelen genereert.",
       "waarom": "Afschrijven over 'onbepaald' is conceptueel onmogelijk. De impairment-test waarborgt dat een verminderde economische realiteit wel zichtbaar wordt op het juiste moment.",
-      "voorbeeld_inline": "Zelena Bio's productlicentie zonder vervaldatum (kostprijs € 4.500.000): geen afschrijving. Elke 31 december: impairment-test onder IAS 36 — vergelijk boekwaarde met realiseerbare waarde.",
       "grondslag": "IAS 38 alinea 107-108",
       "confidence": "grounded",
       "source": {
@@ -186,7 +205,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio's productlicentie zonder vervaldatum (kostprijs € 4.500.000): geen afschrijving. Elke 31 december: impairment-test onder IAS 36 — vergelijk boekwaarde met realiseerbare waarde."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
@@ -340,5 +365,5 @@
       "confidence": "grounded"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

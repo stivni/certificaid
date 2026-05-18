@@ -40,7 +40,6 @@
       "titel": "Werking",
       "wat": "CBN 3/3: 'De eenvoudige integratie van de kosten en opbrengsten bestaat erin dat de deelgenoot in zijn eigen resultatenrekening diens aandeel opneemt.' Geanalogiseerd naar analytische boekhouding: kostendrager of kostencentrum krijgt rechtstreeks zijn aandeel uit de algemene boekhouding, zonder tussen-rekeningen.",
       "waarom": "Eenvoudig, weinig administratielast, transparant voor beperkte complexiteit.",
-      "voorbeeld_inline": "Yperse Werkplaats BV met eenvoudige integratie: de aankoopfactuur wol € 22.500 wordt onmiddellijk geboekt op kostencentrum Spinnerij (rekening 9300). Geen aparte voorraadboekhouding van wol per centrum.",
       "grondslag": "CBN 3/3 (analoog gebruik)",
       "confidence": "grounded",
       "source": {
@@ -55,7 +54,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV met eenvoudige integratie: de aankoopfactuur wol € 22.500 wordt onmiddellijk geboekt op kostencentrum Spinnerij (rekening 9300). Geen aparte voorraadboekhouding van wol per centrum."
+        }
+      ]
     }
   ],
   "vergelijkingsparen": [
@@ -98,5 +103,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

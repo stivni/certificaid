@@ -36,7 +36,6 @@ Een Europese verordening werkt onmiddellijk in elke lidstaat — een Belgische r
 
 **Waarom?** Stagiair-vuistregel: zie je 'Verordening (EG/EU)'? Dan gelden de Europese bepalingen rechtstreeks, ook als de Belgische wet er niets over zegt.
 
-**Voorbeeld**: IAS-verordening 1606/2002 verplicht beursgenoteerde groepen om IFRS te gebruiken voor de geconsolideerde jaarrekening — Belgische wetgeving hoeft daarvoor niets te bevestigen.
 
 _Grondslag: WER art. II.1_
 
@@ -46,7 +45,6 @@ Een Europese richtlijn bindt lidstaten over het doel, maar laat de keuze van vor
 
 **Waarom?** De jaarrekeningenwet bevat dus géén letterlijke Europese tekst, maar een Belgische versie. Bij interpretatieve onduidelijkheid kan een rechter wel teruggrijpen naar de richtlijn.
 
-**Voorbeeld**: Richtlijn 2013/34/EU is in België omgezet via aanpassingen aan het WVV en het KB-WVV — dezelfde grootteklassen en jaarrekening-schema's vind je dus in beide teksten.
 
 _Grondslag: Richtlijn 2013/34/EU art. 1; omzetting in WVV Boek 3_
 
@@ -56,7 +54,6 @@ Voor de jaarrekening lopen twee Europese sporen parallel: (1) Richtlijn 2013/34/
 
 **Waarom?** Een groep zonder beursnotering blijft volledig in Belgisch GAAP; een beursgenoteerde groep moet IFRS toepassen voor zijn consolidatie maar Belgisch GAAP voor zijn enkelvoudige rekening (tenzij optioneel IFRS gekozen).
 
-**Voorbeeld**: Aurelia Holding NV (niet-beursgenoteerd) → Belgisch GAAP voor alles. Beursgenoteerde holding → IFRS-consolidatie + Belgisch-GAAP-enkelvoudig.
 
 _Grondslag: Richtlijn 2013/34/EU + Verordening 1606/2002_
 
@@ -86,6 +83,9 @@ _Grondslag: Richtlijn 2013/34/EU + Verordening 1606/2002_
 > _Bron: Richtlijn 2013/34/EU_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

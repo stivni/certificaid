@@ -38,7 +38,6 @@ Vier traditionele sleutels: (1) directe arbeidsuren, (2) machine-uren, (3) direc
 
 **Waarom?** Eenvoudig en goedkoop te administreren; werkt redelijk in productie-omgevingen waar overhead dominant met productievolume samenhangt.
 
-**Voorbeeld**: Yperse Werkplaats BV verdeelt indirecte productiekosten Weverij (€ 1.200.000) over orders via directe arbeidsuren (sleutel-tarief = € 1.200.000 / 30.000 uur = € 40 per directe arbeidsuur). Een order met 80 directe arbeidsuren krijgt € 3.200 indirect.
 
 
 ### Eén-sleutel-vertekening 🤖
@@ -47,7 +46,6 @@ Eén sleutel veronderstelt dat alle overhead-kosten dezelfde drijver volgen — 
 
 **Waarom?** Aanleiding voor ABC-methode: verschillende kosten, verschillende cost drivers.
 
-**Voorbeeld**: Bij Yperse Werkplaats BV draait de Confectie kleine series met veel omstel-tijd. Op directe-arbeidsuren-sleutel lijken die series winstgevend; op een ABC-aanpak met cost driver 'aantal set-ups' tonen ze verlies.
 
 
 
@@ -62,4 +60,7 @@ Eén sleutel veronderstelt dat alle overhead-kosten dezelfde drijver volgen — 
 ## Zie ook
 
 - **Getriggerd door**: [[abc-methode]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

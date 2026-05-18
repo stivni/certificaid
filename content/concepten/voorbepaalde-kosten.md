@@ -36,7 +36,6 @@ _Bron: Management accounting — bron-gap_
 
 **Waarom?** De keuze bepaalt of standaarden motiverend, realistisch of behoudend zijn.
 
-**Voorbeeld**: Yperse Werkplaats BV hanteert een verwachte standaard van € 25 directe arbeidskost per uur en 5 uur per tapijt. Standaard directe arbeidskost per tapijt = € 125. Werkelijke registratie: 5,3 uur × € 26 = € 137,80 → ongunstig verschil van € 12,80.
 
 
 ### Standaardkostprijskaart per product 🤖
@@ -45,7 +44,6 @@ Per product wordt een 'kaart' opgesteld met: hoeveel materiaal × prijs (standaa
 
 **Waarom?** Maakt automatische berekening van toegestane kosten mogelijk zodra het werkelijke productievolume bekend is.
 
-**Voorbeeld**: Standaardkaart tapijt Yperse: 1,2 kg wol × € 5/kg = € 6 materiaal; 5 uur × € 25 = € 125 arbeid; 5 uur × € 40 overhead = € 200. Standaard vervaardigingsprijs = € 331/tapijt.
 
 
 ### Verschillenanalyse 🤖
@@ -54,7 +52,6 @@ Werkelijke kost − standaardkost = verschil. Wordt verder opgesplitst in prijsv
 
 **Waarom?** Verschillenanalyse lokaliseert oorzaak van afwijking — slechte aankoop (prijs) of slechte productie (hoeveelheid).
 
-**Voorbeeld**: Yperse: standaard materiaal 1,2 kg × € 5 = € 6. Werkelijk: 1,3 kg × € 5,20 = € 6,76. Prijsverschil = 1,3 × (5,20 − 5,00) = € 0,26 ongunstig. Hoeveelheidverschil = (1,3 − 1,2) × € 5,00 = € 0,50 ongunstig.
 
 
 
@@ -86,4 +83,7 @@ Werkelijke kost − standaardkost = verschil. Wordt verder opgesplitst in prijsv
 ## Zie ook
 
 - **Vereist kennis van**: [[verschillenboekhouding]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

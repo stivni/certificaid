@@ -44,7 +44,6 @@
       "titel": "Sectorgrenzen bepalen",
       "wat": "Identificeer de sector waarin de onderneming actief is — bij voorkeur via NACE-code, anders door analyse van haar producten en markten. Beperkt tot vergelijkbare bedrijven (geografie, schaal, marktsegment).",
       "waarom": "Een te brede definitie verwatert de vergelijking. Een te enge definitie laat te weinig vergelijkbare bedrijven over.",
-      "voorbeeld_inline": "Rotex Roeselare NV (metaalconstructie B2B) wordt vergeleken met andere Vlaamse metaalconstructeurs van vergelijkbare grootte — niet met de bredere 'metallurgie'-sector.",
       "grondslag": "Vakdoctrine",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -59,13 +58,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV (metaalconstructie B2B) wordt vergeleken met andere Vlaamse metaalconstructeurs van vergelijkbare grootte — niet met de bredere 'metallurgie'-sector."
+        }
+      ]
     },
     {
       "titel": "Mediaan boven gemiddelde",
       "wat": "De mediaan is meestal informatiever dan het gemiddelde, vooral bij sectoren met uitschieters (één zeer groot bedrijf vertekent het gemiddelde).",
       "waarom": "De mediaan is robuust tegen extreme waarden; het gemiddelde is dat niet.",
-      "voorbeeld_inline": "In de sector metaalconstructie heeft één multinational ROE 30 %; 9 KMO's hebben ROE rond 10 %. Gemiddelde = 12 %; mediaan = 10 % → de mediaan vertelt het accurater verhaal.",
       "grondslag": "Vakdoctrine statistiek",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -80,7 +84,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "In de sector metaalconstructie heeft één multinational ROE 30 %; 9 KMO's hebben ROE rond 10 %. Gemiddelde = 12 %; mediaan = 10 % → de mediaan vertelt het accurater verhaal."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -131,5 +141,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

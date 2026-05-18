@@ -33,7 +33,6 @@ _Bron: Belgisch arbeidsrecht — sociale dialoog_
 
 **Waarom?** De gradatie geeft werknemersvertegenwoordigers een toenemend gedetailleerd beeld zonder hen continu te overstelpen.
 
-**Voorbeeld**: Bij Rotex Roeselare NV (250 werknemers): jaarinformatie OR vóór 31 maart 20X2 met financiële situatie, omzetspreiding, exportcijfers, investeringsplan.
 
 _Grondslag: KB 27 november 1973 + paritaire akkoorden_
 
@@ -45,6 +44,9 @@ _Grondslag: KB 27 november 1973 + paritaire akkoorden_
 > [!tip]- Ondernemingsraad ≠ algemene vergadering
 > De OR krijgt informatie en geeft advies; zij keurt niet de jaarrekening goed (dat doet de AV). Wel kunnen vakbonden via de OR vragen om uitleg bij gecijfertabellen. 🤖
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

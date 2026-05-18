@@ -153,7 +153,6 @@
       "titel": "Onderscheid schatting versus fout — soms moeilijk",
       "wat": "Een **fout** vereist dat de juiste informatie op publicatiedatum redelijkerwijze beschikbaar had moeten zijn. Een **schatting** is herziening op basis van nieuwe omstandigheden of betere techniek. Wanneer in twijfel: documenteer de redenering. Een keuze voor 'fout' (retroactief) heeft grote impact; een keuze voor 'schatting' (prospectief) ook — maar omgekeerd.",
       "waarom": "Auditors testen deze classificatie streng — een 'cosmetische' herclassificatie van een fout als 'schattingswijziging' om retroactieve correctie te vermijden is een auditbevinding.",
-      "voorbeeld_inline": "Zelena ontdekt in 2026 dat een vordering uit 2024 op een failliet gegane klant nooit had moeten worden geactiveerd (klant was al insolvent op 31 december 2024). Indien op 2024-publicatiedatum bekend → fout. Indien insolventie pas in 2025 publiek werd → schatting (en correctie via 2025-resultatenrekening als bad debt).",
       "grondslag": "IAS 8 alinea 5 (definities) + 41",
       "confidence": "grounded",
       "source": {
@@ -168,13 +167,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena ontdekt in 2026 dat een vordering uit 2024 op een failliet gegane klant nooit had moeten worden geactiveerd (klant was al insolvent op 31 december 2024). Indien op 2024-publicatiedatum bekend → fout. Indien insolventie pas in 2025 publiek werd → schatting (en correctie via 2025-resultatenrekening als bad debt)."
+        }
+      ]
     },
     {
       "titel": "Praktisch onhaalbaar — uitzondering",
       "wat": "Indien retroactieve toepassing voor een eerdere periode **praktisch onhaalbaar** is (alinea 23-25 voor grondslagwijzigingen, alinea 43 voor fouten): pas de wijziging toe vanaf de vroegste haalbare periode. Praktisch onhaalbaar = de entiteit kan ondanks redelijke inspanningen de informatie niet reconstrueren.",
       "waarom": "Soms is hindsight nodig om retroactief de cijfers te bepalen — wat IFRS niet toelaat. Bv. een grondslagwissel voor IFRS 9 zou cashflowprognoses vereisen die er destijds niet waren. In zulke gevallen mag prospectief vanaf de eerste haalbare datum.",
-      "voorbeeld_inline": "Zelena Bio kan voor de oudste vergelijkende periode (2024) de impact van een grondslagwijziging niet betrouwbaar berekenen wegens ontbrekende historische data van een opvolgende onderneming. Toepassing vanaf 2025 (eerste haalbare); toelichting van praktische onhaalbaarheid.",
       "grondslag": "IAS 8 alinea 23-25 + 43",
       "confidence": "grounded",
       "source": {
@@ -189,7 +193,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio kan voor de oudste vergelijkende periode (2024) de impact van een grondslagwijziging niet betrouwbaar berekenen wegens ontbrekende historische data van een opvolgende onderneming. Toepassing vanaf 2025 (eerste haalbare); toelichting van praktische onhaalbaarheid."
+        }
+      ]
     }
   ],
   "vergelijkingsparen": [
@@ -252,5 +262,5 @@
       "confidence": "grounded"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

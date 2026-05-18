@@ -67,7 +67,6 @@
       "titel": "Vier rechtsbron-lagen",
       "wat": "Het boekhoudrecht zit op vier niveaus: (1) Europese verordeningen en richtlijnen, (2) Belgische wetten (WER, WVV), (3) uitvoerende koninklijke besluiten (vooral KB-WVV), (4) CBN-adviezen en rechtspraak ter interpretatie.",
       "waarom": "Voor een stagiair: weet je niet zeker wat moet, klim de ladder af. Eerst kijken in de wet, dan in het KB, dan checken of een CBN-advies erover bestaat.",
-      "voorbeeld_inline": "Vraag: 'Hoe waardeer ik een gebouw na herwaardering?' → KB-WVV art. 3:35 (regel) + CBN-advies 2019/06 (toelichting).",
       "grondslag": "WER art. II.1, art. III.82-III.95; WVV Boek 3; KB van 29 april 2019",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -92,13 +91,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Vraag: 'Hoe waardeer ik een gebouw na herwaardering?' → KB-WVV art. 3:35 (regel) + CBN-advies 2019/06 (toelichting)."
+        }
+      ]
     },
     {
       "titel": "Hiërarchie bij conflict",
       "wat": "Een hogere regel verdringt een lagere regel. Europees recht (verordening rechtstreeks, richtlijn na omzetting) gaat boven Belgische wet. Wet gaat boven KB. KB gaat boven CBN-advies. CBN-adviezen zijn gezaghebbend maar niet bindend.",
       "waarom": "Bij tegenstrijdige regels: kies de hogere bron. CBN-adviezen zijn 'soft law' — uitleg, geen bevel.",
-      "voorbeeld_inline": "Een CBN-advies dat afwijkt van een artikel uit het KB-WVV moet wijken — het advies kan niet wet uit de weg gaan.",
       "grondslag": "Algemene rechtsleer (hiërarchie der normen) + WER art. II.1",
       "confidence": "grounded",
       "source": {
@@ -113,13 +117,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een CBN-advies dat afwijkt van een artikel uit het KB-WVV moet wijken — het advies kan niet wet uit de weg gaan."
+        }
+      ]
     },
     {
       "titel": "Toepassingsgebied: in België actieve ondernemingen",
       "wat": "Het Belgisch boekhoudrecht geldt voor alle ondernemingen die in België een activiteit uitoefenen — Belgische rechtspersonen, eenmanszaken, maar ook bijkantoren van buitenlandse vennootschappen voor hun Belgische werking.",
       "waarom": "Een buitenlands hoofdkantoor (bv. Kappers Köln GmbH) volgt zijn eigen Duits recht voor de globale boekhouding; voor zijn Belgisch bijkantoor moet het de Belgische regels toepassen.",
-      "voorbeeld_inline": "Kappers Köln GmbH heeft een bijkantoor in Antwerpen → voor de Antwerpse boekhouding gelden WER + KB-WVV.",
       "grondslag": "WER art. III.82; CBN-advies 2022/14",
       "confidence": "grounded",
       "source": {
@@ -139,7 +148,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Kappers Köln GmbH heeft een bijkantoor in Antwerpen → voor de Antwerpse boekhouding gelden WER + KB-WVV."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -261,5 +276,5 @@
       "omschrijving": "Rotex Roeselare NV (Belgische grote NV) past het Belgisch boekhoudrecht toe: WER + WVV als wetsbasis, KB-WVV voor schema's, CBN-adviezen voor interpretatie, en de Europese jaarrekening-richtlijn (2013/34/EU) als bovenlaag."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

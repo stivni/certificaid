@@ -47,7 +47,6 @@
       "titel": "Over te dragen kosten (490, actief)",
       "wat": "Kosten die in lopend boekjaar zijn betaald of geboekt maar economisch betrekking hebben op een volgend boekjaar. Worden op het actief uitgesteld om in het juiste boekjaar te belasten.",
       "waarom": "Matching: kosten waar de baten in een toekomstig boekjaar liggen, mogen niet de winst van het lopende jaar drukken. Uitstellen via 490 corrigeert dat.",
-      "voorbeeld_inline": "Naaiatelier Ninove BV betaalt op 15 december € 12.000 huur voor januari—maart 20X2 vooruit. Cut-off 31/12: Debet 490 Over te dragen kosten € 12.000 / Credit 61 Huurkosten € 12.000. In jaar 20X2 boeking terug: Debet 61 € 12.000 / Credit 490 € 12.000.",
       "grondslag": "KB WVV art. 3:60",
       "confidence": "grounded",
       "source": {
@@ -62,13 +61,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Naaiatelier Ninove BV betaalt op 15 december € 12.000 huur voor januari—maart 20X2 vooruit. Cut-off 31/12: Debet 490 Over te dragen kosten € 12.000 / Credit 61 Huurkosten € 12.000. In jaar 20X2 boeking terug: Debet 61 € 12.000 / Credit 490 € 12.000."
+        }
+      ]
     },
     {
       "titel": "Toe te rekenen kosten (492, passief)",
       "wat": "Kosten die op lopend boekjaar slaan maar nog niet betaald of gefactureerd zijn op balansdatum. Worden op het passief opgenomen als 'te betalen' kost.",
       "waarom": "Volledigheid: alle kosten van het lopende jaar moeten in het resultaat, ook als de financiële afhandeling later komt.",
-      "voorbeeld_inline": "Meubelzaak Mertens BV: elektriciteitsfactuur december wordt pas in januari opgemaakt; geschatte kost € 1.850. Cut-off 31/12: Debet 61 Elektriciteit € 1.850 / Credit 492 Toe te rekenen kosten € 1.850. Boeking in januari bij ontvangst factuur: Debet 492 € 1.850 / Credit 440 € 1.850.",
       "grondslag": "KB WVV art. 3:60",
       "confidence": "grounded",
       "source": {
@@ -83,13 +87,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Meubelzaak Mertens BV: elektriciteitsfactuur december wordt pas in januari opgemaakt; geschatte kost € 1.850. Cut-off 31/12: Debet 61 Elektriciteit € 1.850 / Credit 492 Toe te rekenen kosten € 1.850. Boeking in januari bij ontvangst factuur: Debet 492 € 1.850 / Credit 440 € 1.850."
+        }
+      ]
     },
     {
       "titel": "Verkregen opbrengsten (491, actief)",
       "wat": "Opbrengsten die in lopend jaar zijn verdiend maar nog niet ontvangen of gefactureerd. Bv. opgelopen rente op uitstaande vorderingen.",
       "waarom": "Voorbeeld van matching aan opbrengstzijde: de rente die je verdient over december is een opbrengst van december, ook al vervalt ze pas in januari.",
-      "voorbeeld_inline": "Solaris Sint-Truiden BV bezit obligaties met jaarlijkse coupon € 12.000 betaalbaar elke 1 maart. Op 31/12 is 10/12 maanden gelopen → verkregen rente € 12.000 × 10/12 = € 10.000. Boeking: Debet 491 Verkregen opbrengsten € 10.000 / Credit 751 Opbrengsten van vlottende activa € 10.000.",
       "grondslag": "KB WVV art. 3:60 + CBN 148/4",
       "confidence": "grounded",
       "source": {
@@ -104,13 +113,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Solaris Sint-Truiden BV bezit obligaties met jaarlijkse coupon € 12.000 betaalbaar elke 1 maart. Op 31/12 is 10/12 maanden gelopen → verkregen rente € 12.000 × 10/12 = € 10.000. Boeking: Debet 491 Verkregen opbrengsten € 10.000 / Credit 751 Opbrengsten van vlottende activa € 10.000."
+        }
+      ]
     },
     {
       "titel": "Over te dragen opbrengsten (493, passief)",
       "wat": "Opbrengsten die in lopend jaar al ontvangen of gefactureerd zijn maar economisch betrekking hebben op een volgend boekjaar.",
       "waarom": "Voorzichtigheid + matching: ontvangen geld is geen opbrengst zolang de prestatie nog niet is geleverd. Uitstellen tot het juiste boekjaar.",
-      "voorbeeld_inline": "Uitgeverij Ukkel NV verkoopt jaarabonnementen aan haar tijdschriften; klant betaalt op 1 oktober € 240 voor 12 maanden. 3 maanden in 20X1 (€ 60), 9 maanden in 20X2 (€ 180). Cut-off 31/12: Debet 70 Verkopen € 180 / Credit 493 Over te dragen opbrengsten € 180. In 20X2: Debet 493 € 180 / Credit 70 € 180.",
       "grondslag": "KB WVV art. 3:60",
       "confidence": "grounded",
       "source": {
@@ -125,7 +139,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Uitgeverij Ukkel NV verkoopt jaarabonnementen aan haar tijdschriften; klant betaalt op 1 oktober € 240 voor 12 maanden. 3 maanden in 20X1 (€ 60), 9 maanden in 20X2 (€ 180). Cut-off 31/12: Debet 70 Verkopen € 180 / Credit 493 Over te dragen opbrengsten € 180. In 20X2: Debet 493 € 180 / Credit 70 € 180."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -205,5 +225,5 @@
       "omschrijving": "Meubelzaak Mertens BV betaalt op 1 oktober 20X1 een verzekeringspremie van € 4.800 voor 12 maanden vooruit (oktober 20X1 — september 20X2). 3 maanden in 20X1 (€ 1.200), 9 maanden in 20X2 (€ 3.600). Boeking op 1/10: Debet 61 Kosten € 4.800 / Credit 550 Bank € 4.800. Cut-off 31/12: Debet 490 Over te dragen kosten € 3.600 / Credit 61 Kosten € 3.600. Resultaat 20X1 belast met € 1.200, niet met € 4.800."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

@@ -40,7 +40,6 @@ Herwaardering is alleen mogelijk wanneer: (1) de meerwaarde **zeker** is (geen v
 
 **Waarom?** Het voorzichtigheidsbeginsel verbiedt normaal het boeken van latente meerwaarden. De uitzondering bestaat alleen voor uitzonderlijke gevallen waarin het beeld anders zwaar verstoord zou zijn. Strikte criteria voorkomen oneigenlijk gebruik.
 
-**Voorbeeld**: Solaris Sint-Truiden BV heeft een aandelenportefeuille (aanschaffing € 450.000, marktwaarde € 620.000) — fluctueert marktconform. NIET geschikt voor herwaardering: te volatiel, niet onontbeerlijk voor de continuïteit.
 
 _Grondslag: KB WVV art. 3:35, § 1_
 
@@ -50,7 +49,6 @@ De herwaarderingsmeerwaarde verschijnt op rekening 12 'Herwaarderingsmeerwaarden
 
 **Waarom?** De meerwaarde is nog niet gerealiseerd; opname in resultaat zou een spookwinst genereren. Plaatsing in eigen vermogen maakt de opwaardering wel zichtbaar maar buiten het uitkeerbaar resultaat.
 
-**Voorbeeld**: Naaiatelier Ninove BV: aanvang 20X1 terrein op € 320.000; eind 20X1 herwaardering naar € 580.000. Boeking: Debet 220 € 260.000 / Credit 12 € 260.000. Resultaat 20X1 niet beïnvloed.
 
 _Grondslag: KB WVV art. 3:35, § 2; MAR klasse 12_
 
@@ -60,7 +58,6 @@ Als het geherwaardeerd actief afschrijfbaar is (bv. gebouw), wordt de herwaarder
 
 **Waarom?** Anders zou de balanswaarde stelselmatig oplopen terwijl het actief economisch verbruikt wordt. Realisatie door gebruik (via afschrijving) rechtvaardigt de overboeking naar reserves.
 
-**Voorbeeld**: Naaiatelier Ninove BV herwaardeert haar gebouw (boekwaarde € 350.000, herwaardering +€ 150.000 → € 500.000). Resterende gebruiksduur 20 jaar. Jaarlijkse extra-afschrijving op herwaardering = € 150.000 / 20 = € 7.500; tegelijk overboeking € 7.500 van rekening 12 naar 14 Beschikbare reserves (gerealiseerd door gebruik).
 
 _Grondslag: CBN 2011/14_
 
@@ -70,7 +67,6 @@ De herwaarderingsmeerwaarde mag NIET worden uitgekeerd zolang ze niet gerealisee
 
 **Waarom?** De meerwaarde is een boekhoudkundige zichtbaarmaking, geen liquide vermogen. Uitkering zou kapitaal-uitholling betekenen.
 
-**Voorbeeld**: Naaiatelier Ninove BV mag de € 260.000 herwaarderingsmeerwaarde op het terrein NIET in dividend uitkeren. Bij latere verkoop van het terrein voor € 600.000: gerealiseerd verschil komt eerst in resultaat, na bestemming kan het naar beschikbare reserves of dividend.
 
 _Grondslag: KB WVV art. 3:35, § 3_
 
@@ -106,6 +102,9 @@ _Grondslag: KB WVV art. 3:35, § 3_
 > _Bron: KB WVV art. 3:35_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

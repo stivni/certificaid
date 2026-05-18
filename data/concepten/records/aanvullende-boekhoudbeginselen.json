@@ -53,7 +53,6 @@
       "titel": "Voorzichtigheid (prudence)",
       "wat": "Bij onzekerheid: eerder waarde-verlies boeken dan waarde-stijging. Vorderingen onder twijfel: waardevermindering. Voorraad onder kostprijs: lagere waarde aanhouden. Verwachte winsten niet boeken vóór ze gerealiseerd zijn.",
       "waarom": "Beschermt stakeholders tegen overschatting van vermogen en winst.",
-      "voorbeeld_inline": "Solaris Sint-Truiden BV heeft effecten met aanschaffingswaarde € 100.000; beurskoers daalt naar € 75.000 → waardevermindering € 25.000 boeken (voorzichtigheid). Beurskoers stijgt later naar € 130.000 → geen meerwaarde-boeking (geen realisatie).",
       "grondslag": "KB-WVV art. 3:6 + 3:66",
       "confidence": "grounded",
       "source": {
@@ -68,13 +67,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Solaris Sint-Truiden BV heeft effecten met aanschaffingswaarde € 100.000; beurskoers daalt naar € 75.000 → waardevermindering € 25.000 boeken (voorzichtigheid). Beurskoers stijgt later naar € 130.000 → geen meerwaarde-boeking (geen realisatie)."
+        }
+      ]
     },
     {
       "titel": "Oprechtheid (honest presentation)",
       "wat": "De boekhouding moet de werkelijke economische situatie weergeven — geen vertekening, geen window-dressing, geen verbergen. Substance over form: economische realiteit prevaleert boven juridische vorm.",
       "waarom": "Voorzichtigheid mag niet uitmonden in onoprecht 'verbergen' — oprechtheid is de bovengrens van voorzichtigheid.",
-      "voorbeeld_inline": "Aurelia Holding NV mag een verkoop-met-terugkoop niet als gewone verkoop boeken — substance: financiering, niet verkoop.",
       "grondslag": "KB-WVV art. 3:1; algemeen rechtsbeginsel",
       "confidence": "grounded",
       "source": {
@@ -89,13 +93,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV mag een verkoop-met-terugkoop niet als gewone verkoop boeken — substance: financiering, niet verkoop."
+        }
+      ]
     },
     {
       "titel": "Continuïteit (going concern)",
       "wat": "Waarderen gebeurt onder de veronderstelling dat de onderneming haar activiteit voortzet voor de afzienbare toekomst (min. 12 maanden). Bij twijfel over continuïteit: aangepaste waarderingsregels en expliciete vermelding in toelichting.",
       "waarom": "Going concern verklaart waarom vaste activa over jaren afgeschreven mogen worden en niet onmiddellijk gerealiseerd hoeven te worden.",
-      "voorbeeld_inline": "Verffabriek Veurne BV in vereffening → continuïteit doorbroken → activa op realisatiewaarde herwaarderen, niet meer op going-concern-basis.",
       "grondslag": "KB-WVV art. 3:35",
       "confidence": "grounded",
       "source": {
@@ -110,13 +119,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Verffabriek Veurne BV in vereffening → continuïteit doorbroken → activa op realisatiewaarde herwaarderen, niet meer op going-concern-basis."
+        }
+      ]
     },
     {
       "titel": "Consistentie (bestendigheid)",
       "wat": "Waarderingsregels van boekjaar tot boekjaar gelijk toepassen. Wijziging mag, mits motivering in toelichting + kwantificering impact. Schattings-wijzigingen prospectief.",
       "waarom": "Vergelijkbaarheid tussen boekjaren — gebruiker ziet of evolutie 'echt' is of door regelwijziging veroorzaakt.",
-      "voorbeeld_inline": "Naaiatelier Ninove BV waarderen voorraad altijd FIFO → wisselen naar gewogen gemiddelde → motivering + impact in toelichting.",
       "grondslag": "KB-WVV art. 3:6",
       "confidence": "grounded",
       "source": {
@@ -131,7 +145,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Naaiatelier Ninove BV waarderen voorraad altijd FIFO → wisselen naar gewogen gemiddelde → motivering + impact in toelichting."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -193,5 +213,5 @@
       "omschrijving": "Naaiatelier Ninove BV moet bij elke jaarafsluiting toetsen aan alle vier beginselen: voorraad waarderen volgens FIFO (consistent met vorige jaren), bij dalende grondstofprijzen voorzichtig waardevermindering boeken, balans presenteren onder going-concern-veronderstelling, en de cijfers oprecht weergeven zonder vertekening."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

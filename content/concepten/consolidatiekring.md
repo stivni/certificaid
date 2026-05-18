@@ -39,7 +39,6 @@ De moeder en al haar dochters horen standaard in de consolidatiekring.
 
 **Waarom?** Een groep is economisch één geheel; alleen door alle gecontroleerde dochters samen te brengen krijg je een eerlijk beeld van de bezittingen, schulden en resultaten van de groep.
 
-**Voorbeeld**: Aurelia Holding NV controleert Brugse Brouwerij BV en Bouwwerf Beerse BV → de kring bestaat uit Aurelia + Brugse + Bouwwerf Beerse.
 
 _Grondslag: KB WVV art. 3:96_
 
@@ -49,7 +48,6 @@ Een dochter mag uit de kring worden gelaten in vier gevallen: (1) van te verwaar
 
 **Waarom?** De wet kiest voor een uitzonderingsregime in plaats van een keiharde 100 %-regel: in deze vier gevallen voegt het verplicht opnemen niets toe of leidt het tot vertekening — beter weglaten en uitleggen.
 
-**Voorbeeld**: Aurelia Holding NV koopt Gent Garantie BV met het oog op doorverkoop binnen 6 maanden → kan facultatief uitgesloten worden onder grond 4, mits in de toelichting gemotiveerd.
 
 _Grondslag: KB WVV art. 3:97_
 
@@ -59,7 +57,6 @@ Een dochter waarover je enkel controle in feite hebt (geen meerderheid in stemre
 
 **Waarom?** Controle in feite is fragiel: het kan elk moment kantelen. Een dochter integraal opnemen op basis van een wankel controlevermoeden kan een groep groter doen lijken dan zij economisch is.
 
-**Voorbeeld**: Aurelia Holding NV heeft 35 % van Brugse Brouwerij BV en presideert sinds twee boekjaren de AV; volgend boekjaar dreigt een tegenkamp van Robert Vandenberghe (40 %) → controle in feite is onzeker → uitsluiting verplicht.
 
 _Grondslag: KB WVV art. 3:98_
 
@@ -69,7 +66,6 @@ Dochters die je op grond van art. 3:98 of art. 3:99 uit de consolidatiekring laa
 
 **Waarom?** 'Uit de consolidatiekring' is niet hetzelfde als 'helemaal weg uit de geconsolideerde jaarrekening'. De groep heeft economisch nog steeds een belang in die dochter; vermogensmutatie geeft daarvan een vereenvoudigd beeld zonder integraal op te nemen.
 
-**Voorbeeld**: Aurelia sluit Brugse uit op grond van art. 3:98 → Brugse verdwijnt niet, maar verschijnt als één regel 'Vermogensmutatie deelneming Brugse Brouwerij BV' op de geconsolideerde balans van Aurelia.
 
 _Grondslag: KB WVV art. 3:100_
 
@@ -113,6 +109,9 @@ _Grondslag: KB WVV art. 3:100_
 ## Zie ook
 
 - **Vereist kennis van**: [[controle]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

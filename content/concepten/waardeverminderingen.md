@@ -42,7 +42,6 @@ Afschrijving = activa met BEPERKTE gebruiksduur (gebouw, machine, software). Waa
 
 **Waarom?** Beperkte gebruiksduur impliceert een gestructureerd plan; onbeperkte gebruiksduur of vlottende activa hebben geen 'natuurlijke' afnamecurve, dus eventuele correcties zijn ad-hoc reactie op vastgestelde ontwaarding.
 
-**Voorbeeld**: Naaiatelier Ninove BV bezit een terrein (aanschaffingswaarde € 320.000) en een gebouw erop (€ 480.000). Het gebouw wordt jaarlijks afgeschreven; het terrein NIET. Als het terrein verontreinigd geraakt en € 90.000 zakt in waarde → waardevermindering op terrein.
 
 _Grondslag: KB WVV art. 3:23 lid 1 vs lid 2_
 
@@ -52,7 +51,6 @@ Gecumuleerde waardeverminderingen verschijnen op rekeningen waarvan de subrekeni
 
 **Waarom?** Het MAR-systeem groepeert correctierekeningen consistent: 0 = aanschaffingswaarde, 8 = meerwaarden, 9 = afschrijvingen/waardeverminderingen. Zo is de bruto-aanschaffingswaarde altijd zichtbaar.
 
-**Voorbeeld**: Op de balans van Meubelzaak Mertens BV: rekening 400 Handelsdebiteuren € 145.000; rekening 409 Geboekte waardeverminderingen op handelsvorderingen € −12.600. Netto klantenvordering = € 132.400.
 
 _Grondslag: MAR + KB WVV art. 3:23_
 
@@ -62,7 +60,6 @@ Wanneer de oorzaak van de ontwaarding wegvalt (klant betaalt alsnog, voorraadpri
 
 **Waarom?** De waardevermindering reflecteert een toestand op balansdatum; als die toestand wijzigt, moet ook de boekhouding worden bijgewerkt.
 
-**Voorbeeld**: Klant X van Meubelzaak Mertens betaalt onverwacht € 15.000 van de € 18.000 vordering. Terugname waardevermindering: van € 12.600 wordt € 9.600 teruggenomen (€ 15.000 effectief ontvangen × 70 % was geprovisioneerd → 70 % × € 15.000 = € 10.500 niet meer nodig; pragmatisch terugname op niveau van de werkelijke ontvangst). Boeking: Debet 409 / Credit 7340 Terugname waardeverminderingen.
 
 _Grondslag: KB WVV art. 3:23 + algemene voorzichtigheid_
 
@@ -97,6 +94,9 @@ _Grondslag: KB WVV art. 3:23 + algemene voorzichtigheid_
 > _Bron: KB WVV art. 3:11 (voorzieningen) vs. 3:23 (waardeverminderingen)_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

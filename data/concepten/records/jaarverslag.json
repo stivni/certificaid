@@ -54,7 +54,6 @@
       "titel": "Inhoud — vijf verplichte elementen",
       "wat": "(1) Getrouwe analyse van de bedrijfsresultaten en financiële positie. (2) Beschrijving van de belangrijkste risico's en onzekerheden. (3) Belangrijke gebeurtenissen na balansdatum. (4) Vooruitzichten en omstandigheden die de ontwikkeling zouden kunnen beïnvloeden. (5) Werkzaamheden op het gebied van onderzoek en ontwikkeling. Voor grote vennootschappen ook: niet-financiële verklaring (milieu, personeel, mensenrechten, anti-corruptie).",
       "waarom": "De jaarrekening toont cijfers; het jaarverslag legt uit waarom de cijfers zijn wat ze zijn en wat het bestuur ervan vindt.",
-      "voorbeeld_inline": "Rotex Roeselare NV's jaarverslag 2024 vermeldt: 'Omzet daalde 8% door grondstoffen-tekort; we verwachten herstel in Q3 2025 dankzij nieuwe leverancier.'",
       "grondslag": "WVV art. 3:32, § 2-3",
       "confidence": "grounded",
       "source": {
@@ -69,13 +68,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV's jaarverslag 2024 vermeldt: 'Omzet daalde 8% door grondstoffen-tekort; we verwachten herstel in Q3 2025 dankzij nieuwe leverancier.'"
+        }
+      ]
     },
     {
       "titel": "Vrijstelling voor kleine en micro",
       "wat": "Kleine vennootschappen en microvennootschappen zijn vrijgesteld van het opstellen van een jaarverslag (WVV art. 3:6, § 2). Ze moeten wel een vereenvoudigde versie van bepaalde informatie in de toelichting bij de jaarrekening opnemen (bv. eigen aandelen, belangrijke gebeurtenissen na balansdatum).",
       "waarom": "Vermindering van administratieve last voor KMO's — proportionaliteitsbeginsel.",
-      "voorbeeld_inline": "Meubelzaak Mertens BV (klein) → geen jaarverslag; vermeldingen die anders in het jaarverslag stonden (bv. 'eigen aandelen') komen in de toelichting.",
       "grondslag": "WVV art. 3:6, § 2",
       "confidence": "grounded",
       "source": {
@@ -90,13 +94,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Meubelzaak Mertens BV (klein) → geen jaarverslag; vermeldingen die anders in het jaarverslag stonden (bv. 'eigen aandelen') komen in de toelichting."
+        }
+      ]
     },
     {
       "titel": "Niet-financiële verklaring (CSRD-context)",
       "wat": "Sinds 2024 worden grote vennootschappen onder de CSRD (Corporate Sustainability Reporting Directive) verplicht een uitgebreide duurzaamheidsverklaring op te nemen volgens ESRS-standaarden. Dit vervangt de oude 'niet-financiële verklaring' uit Richtlijn 2014/95/EU.",
       "waarom": "EU wil grote ondernemingen verplichten transparant te rapporteren over ESG-thema's; investeerders en consumenten krijgen vergelijkbare informatie.",
-      "voorbeeld_inline": "Een Belgische beursgenoteerde onderneming met > 500 werknemers moet vanaf jaarrekening 2024 een CSRD-conforme duurzaamheidsverklaring in haar jaarverslag opnemen.",
       "grondslag": "Richtlijn 2022/2464/EU (CSRD); omzetting in WVV",
       "confidence": "inferred",
       "source": {
@@ -111,7 +120,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een Belgische beursgenoteerde onderneming met > 500 werknemers moet vanaf jaarrekening 2024 een CSRD-conforme duurzaamheidsverklaring in haar jaarverslag opnemen."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -190,5 +205,5 @@
       "omschrijving": "Rotex Roeselare NV (grote NV) moet samen met haar jaarrekening een jaarverslag opstellen — met o.a. commentaar bij de cijfers, vooruitzichten 2025, risico's (cyberveiligheid, energieprijzen), en informatie over personeelsdiversiteit."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

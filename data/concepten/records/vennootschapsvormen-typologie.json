@@ -71,7 +71,6 @@
       "titel": "Rechtspersonen vs geen rechtspersoonlijkheid",
       "wat": "Rechtspersonen (BV, NV, CV, VOF, CommV met rechtspersoonlijkheid, VZW, IVZW, stichting) zijn drager van eigen rechten en plichten — los van hun leden. Maatschap heeft geen rechtspersoonlijkheid → vennoten zijn rechtstreeks aansprakelijk en de maatschap zelf is geen 'drager'.",
       "waarom": "Rechtspersoonlijkheid → beperkte aansprakelijkheid (meestal) + eigen boekhoudplicht + jaarrekening-plicht.",
-      "voorbeeld_inline": "Aurelia Holding NV (rechtspersoon) is zelf eigenaar van haar gebouw. Tom Lefèvre's maatschap (geen rechtspersoon): het gebouw staat op naam van de vennoten in onverdeeldheid.",
       "grondslag": "WVV art. 1:1 e.v.",
       "confidence": "grounded",
       "source": {
@@ -86,13 +85,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV (rechtspersoon) is zelf eigenaar van haar gebouw. Tom Lefèvre's maatschap (geen rechtspersoon): het gebouw staat op naam van de vennoten in onverdeeldheid."
+        }
+      ]
     },
     {
       "titel": "Vier basisvormen voor ondernemingen",
       "wat": "(1) **BV** (besloten vennootschap) — meest gebruikte KMO-vorm, beperkte aansprakelijkheid, geen kapitaalvereiste sinds WVV, flexibele governance. (2) **NV** (naamloze vennootschap) — voor grotere ondernemingen, kapitaal € 61.500 minimum, vrije overdraagbaarheid aandelen. (3) **CV** (coöperatieve vennootschap) — coöperatief gedachtegoed, samenwerking onder vennoten. (4) **VOF/CommV** — vennootschap onder firma / commanditaire vennootschap, onbeperkte aansprakelijkheid van vennoten.",
       "waarom": "Vorm bepaalt aansprakelijkheid, governance, fiscaliteit én boekhoud-modaliteiten.",
-      "voorbeeld_inline": "Meubelzaak Mertens BV — kapitaal € 18.500 (vrij gekozen), 2 vennoten, beperkte aansprakelijkheid. Rotex Roeselare NV — kapitaal € 5M, 1.200 aandeelhouders, beursgenoteerd.",
       "grondslag": "WVV Boek 5 (BV), Boek 7 (NV), Boek 6 (CV), Boek 4 (VOF/CommV)",
       "confidence": "grounded",
       "source": {
@@ -107,13 +111,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Meubelzaak Mertens BV — kapitaal € 18.500 (vrij gekozen), 2 vennoten, beperkte aansprakelijkheid. Rotex Roeselare NV — kapitaal € 5M, 1.200 aandeelhouders, beursgenoteerd."
+        }
+      ]
     },
     {
       "titel": "Drie verenigingsvormen",
       "wat": "(1) **VZW** (vereniging zonder winstoogmerk) — Belgisch, niet-winstgevend doel. (2) **IVZW** (internationale vereniging zonder winstoogmerk) — internationale werking, koninklijk besluit-erkenning. (3) **Stichting** — vermogen toegewijd aan een doel, geen leden. Sinds WVV 2019: een VZW mag wel commerciële activiteiten ontplooien zolang de winst niet wordt uitgekeerd aan leden.",
       "waarom": "Belangrijk voor de boekhoud-keuze — verenigingen volgen aparte schema's (KB-WVV art. 3:184 e.v.).",
-      "voorbeeld_inline": "VZW Quelle de Vie heeft een café-uitbating (commerciële activiteit) maar mag winst niet uitkeren aan leden — winst herinvesteren of fondsen vormen.",
       "grondslag": "WVV Boek 9",
       "confidence": "grounded",
       "source": {
@@ -128,13 +137,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "VZW Quelle de Vie heeft een café-uitbating (commerciële activiteit) maar mag winst niet uitkeren aan leden — winst herinvesteren of fondsen vormen."
+        }
+      ]
     },
     {
       "titel": "Europese vormen",
       "wat": "Naast de Belgische vormen bestaan er Europese rechtsvormen: Europese vennootschap (SE — WVV Boek 15), Europese coöperatieve vennootschap (SCE — WVV Boek 16), Europees economisch samenwerkingsverband (EESV). Worden zelden gebruikt; relevant bij grensoverschrijdende structuren.",
       "waarom": "Faciliteert grensoverschrijdende mobiliteit binnen de EU.",
-      "voorbeeld_inline": "Een Belgisch-Nederlands consortium kan kiezen voor de SE-vorm — één wet voor beide vestigingen.",
       "grondslag": "WVV Boeken 15-16",
       "confidence": "grounded",
       "source": {
@@ -154,7 +168,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een Belgisch-Nederlands consortium kan kiezen voor de SE-vorm — één wet voor beide vestigingen."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -217,5 +237,5 @@
       "omschrijving": "Meubelzaak Mertens BV (besloten vennootschap, beperkte aansprakelijkheid) → dubbele boekhouding, jaarrekening verkort schema. Tom Lefèvre's maatschap (geen rechtspersoonlijkheid) → onbeperkte aansprakelijkheid vennoten, alleen boekhoudplicht (geen jaarrekening bij NBB)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

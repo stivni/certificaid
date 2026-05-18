@@ -39,7 +39,6 @@ _Bron: ITAA-norm KMO-controlenorm §3.2.4 cijferanalyses §111_
 
 **Waarom?** Cijferanalyse is geen eenmalige techniek maar een rode draad doorheen de controle. Bij elke fase een ander doel.
 
-**Voorbeeld**: Bij audit van Rotex Roeselare NV: (i) initieel zien dat afschrijvingen 60 % lager liggen dan vorig jaar → risico-indicator; (ii) tijdens controle, omzetontwikkeling vergelijken met sectortrend; (iii) afsluiting, de ratio's narekenen tegen het begrip van het bedrijfsmodel.
 
 _Grondslag: ITAA-norm KMO §3.2.4 §111_
 
@@ -56,6 +55,9 @@ _Grondslag: ITAA-norm KMO §3.2.4 §111_
 
 - **Vereist kennis van**: [[doelstellingen-financiele-analyse]]
 - **Vereist kennis van**: [[materieel-belang-jaarrekening]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

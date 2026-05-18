@@ -42,7 +42,6 @@ Een opbrengst boek je als ze zeker is — dat wil zeggen: feitelijk gerealiseerd
 
 **Waarom?** Anders zou de onderneming winst kunnen tonen die nooit komt (bv. de klant zegt het contract af). Het realisatiebeginsel beschermt tegen overschatting van het resultaat.
 
-**Voorbeeld**: Naaiatelier Ninove BV heeft een orderbevestiging van € 85.000 voor levering in maart 20X2. In 20X1 wordt deze winst NIET geboekt — pas in 20X2 bij effectieve levering en factuur.
 
 _Grondslag: KB 21/10/2018 art. 3:6, lid 2, c)_
 
@@ -52,7 +51,6 @@ Een waarschijnlijk verlies of risico boek je al wanneer het op balansdatum beken
 
 **Waarom?** Een gebruiker mag niet verrast worden door verliezen die voorzienbaar waren. Voorzichtigheid plaatst risico's expliciet op tafel.
 
-**Voorbeeld**: Uitgeverij Ukkel NV heeft een lopend rechtsgeding waar een schadevergoeding van € 75.000 dreigt; juridisch advies wijst op verlies-waarschijnlijkheid > 50 %. Voorziening voor risico's en kosten van € 75.000 wordt geboekt, ook al is er nog geen vonnis.
 
 _Grondslag: KB 21/10/2018 art. 3:6 + 3:11 (voorzieningen)_
 
@@ -62,7 +60,6 @@ Latente meerwaarden (waarde-stijgingen die nog niet verkocht zijn) komen NIET in
 
 **Waarom?** Verkoop heeft nog niet plaatsgevonden, dus de winst is niet zeker. Boeken zou later corrigeren als de markt keert.
 
-**Voorbeeld**: Solaris Sint-Truiden BV heeft een aandelenportefeuille met aanschaffingswaarde € 450.000 en marktwaarde € 620.000. De latente meerwaarde van € 170.000 wordt NIET als opbrengst geboekt; pas bij verkoop ontstaat een gerealiseerde meerwaarde.
 
 _Grondslag: KB 21/10/2018 art. 3:6 + 3:32 (financiële vaste activa)_
 
@@ -72,7 +69,6 @@ Verliezen die tussen balansdatum en goedkeuringsdatum bekend worden maar betrekk
 
 **Waarom?** Het gaat om informatie die meer licht werpt op de toestand op balansdatum, niet om nieuwe feiten. Negeren zou een onvolledig beeld geven.
 
-**Voorbeeld**: Op 31/12 had Meubelzaak Mertens BV een vordering van € 22.000 op klant X (die toen al financieel zwak was); op 20/2 (vóór goedkeuring jaarrekening) faillissement van X met 0% dividend → waardevermindering van € 22.000 wordt in 20X1 geboekt, niet in 20X2.
 
 _Grondslag: KB 21/10/2018 art. 3:7_
 
@@ -111,6 +107,9 @@ _Grondslag: KB 21/10/2018 art. 3:7_
 ## Zie ook
 
 - **Vereist kennis van**: [[waarderingsregels]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

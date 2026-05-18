@@ -36,21 +36,31 @@
       "titel": "Vier functies",
       "wat": "(1) Planning: toekomst expliciet maken. (2) Coördinatie: afdelingsplannen op elkaar afstemmen. (3) Communicatie: doelstellingen verspreiden naar verantwoordelijken. (4) Controle: realisaties meten tegen plan.",
       "waarom": "Budgetbeheer is geen administratie maar een sturingsinstrument.",
-      "voorbeeld_inline": "Yperse Werkplaats BV stelt jaarlijks een geconsolideerd budget op met productielijnen Spinnerij (€ 1.450.000 budget), Weverij (€ 1.200.000), Confectie (€ 950.000). Marleen De Cock (Confectie-hoofd) krijgt maandelijks een rapport: budget vs. realisatie + verschillen.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV stelt jaarlijks een geconsolideerd budget op met productielijnen Spinnerij (€ 1.450.000 budget), Weverij (€ 1.200.000), Confectie (€ 950.000). Marleen De Cock (Confectie-hoofd) krijgt maandelijks een rapport: budget vs. realisatie + verschillen."
+        }
+      ]
     },
     {
       "titel": "Top-down vs. bottom-up",
       "wat": "Top-down: directie legt totaalbedragen op; afdelingen vullen invullen. Bottom-up: afdelingen leveren ramingen aan; directie consolideert. Praktijk meestal mix: directie zet kaders, afdelingen detailleren binnen kader.",
       "waarom": "Top-down = realisme; bottom-up = engagement. Mix combineert beide.",
-      "voorbeeld_inline": "Yperse Werkplaats BV start in september met richtcijfers van directie (omzet-doelstelling € 4.500.000, marge 25 %). In oktober leveren afdelingshoofden hun bottom-up-detailramingen. November iteratie. December definitief.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV start in september met richtcijfers van directie (omzet-doelstelling € 4.500.000, marge 25 %). In oktober leveren afdelingshoofden hun bottom-up-detailramingen. November iteratie. December definitief."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -97,5 +107,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

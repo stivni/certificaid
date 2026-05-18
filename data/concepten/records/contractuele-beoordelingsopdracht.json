@@ -41,7 +41,6 @@
       "titel": "Beperkte mate van zekerheid",
       "wat": "Het risico op een verkeerde uitspraak wordt tot een aanvaardbaar niveau gebracht — maar is duidelijk hoger dan bij een volwaardige controle. Minder werkzaamheden, minder dossierdiepte.",
       "waarom": "Soms heeft de cliënt geen audit nodig — een 'comfort statement' volstaat. Beoordeling is goedkoper.",
-      "voorbeeld_inline": "Een KMO die geen audit nodig heeft maar haar bank wel een tweede paar ogen wil tonen op de jaarrekening.",
       "grondslag": "ITAA KMO-controlenorm §2",
       "confidence": "grounded",
       "source": {
@@ -56,7 +55,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een KMO die geen audit nodig heeft maar haar bank wel een tweede paar ogen wil tonen op de jaarrekening."
+        }
+      ]
     },
     {
       "titel": "Conclusie in negatieve vorm",
@@ -147,5 +152,5 @@
       "omschrijving": "Een minderheidsaandeelhouder van Naaiatelier Ninove BV wil een gevoel krijgen of de jaarrekening 2025 klopt, maar betaalt liever niet voor een volledige audit. Sofie Janssens voert een beperkte controle uit (vooral cijferanalyses + bevragingen) en levert een beoordelingsverslag af: 'op basis van onze werkzaamheden zijn ons geen feiten gebleken die ons doen oordelen dat de jaarrekening geen getrouw beeld geeft'."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

@@ -35,7 +35,6 @@ Voldoende = kwantiteit (genoeg testen, genoeg items in de steekproef). Geschikt 
 
 **Waarom?** Veel data van slechte kwaliteit ≠ assurance. Beide criteria moeten gehaald zijn.
 
-**Voorbeeld**: Een telefonische bevestiging van een klant is geschikt qua bron maar niet voldoende (mondeling, niet schriftelijk). Een schriftelijke externe confirmatie is voldoende én geschikt.
 
 _Grondslag: ITAA KMO-controlenorm §85-§86_
 
@@ -72,6 +71,9 @@ _Grondslag: ITAA KMO-controlenorm §88_
 > _Bron: ITAA KMO-controlenorm §91_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

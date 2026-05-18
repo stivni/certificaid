@@ -36,7 +36,6 @@ Eigen vermogen groeit langs twee kanalen: (1) inbreng van aandeelhouders bij opr
 
 **Waarom?** De analist onderscheidt deze twee bronnen omdat ze verschillen in flexibiliteit: kapitaalverhoging vraagt aandeelhoudersbeslissing; zelffinanciering hangt af van het dividendbeleid en de winstgevendheid.
 
-**Voorbeeld**: Rotex Roeselare NV: eigen vermogen € 12.000.000 = kapitaal € 5.000.000 + uitgiftepremies € 1.000.000 + reserves € 4.000.000 + overgedragen resultaat € 2.000.000. De € 6.000.000 reserves+overgedragen is opgebouwd via zelffinanciering.
 
 _Grondslag: KB WVV jaarrekeningschema rubrieken 10-13-14_
 
@@ -46,7 +45,6 @@ Eigen vermogen heeft geen vaste vergoedingsverplichting (in tegenstelling tot vr
 
 **Waarom?** Dit maakt eigen vermogen aantrekkelijk in moeilijke jaren (geen verplichte cash-uitstroom) maar duurder op lange termijn (aandeelhouders verwachten hoger rendement dan banken).
 
-**Voorbeeld**: Rotex Roeselare NV slaat een dividend over in een jaar met verlies; haar bankschulden van € 13.000.000 vragen wel onverkort hun jaarlijkse intrest (~3% = € 390.000).
 
 _Grondslag: Vakdoctrine + WVV-bevoegdheidsregel dividenden_
 
@@ -61,6 +59,9 @@ _Grondslag: Vakdoctrine + WVV-bevoegdheidsregel dividenden_
 
 - **Vereist kennis van**: [[solvabiliteitsratio]]
 - **Vereist kennis van**: [[rentabiliteit-eigen-vermogen-roe]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

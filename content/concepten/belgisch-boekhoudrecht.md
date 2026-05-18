@@ -34,7 +34,6 @@ Het boekhoudrecht zit op vier niveaus: (1) Europese verordeningen en richtlijnen
 
 **Waarom?** Voor een stagiair: weet je niet zeker wat moet, klim de ladder af. Eerst kijken in de wet, dan in het KB, dan checken of een CBN-advies erover bestaat.
 
-**Voorbeeld**: Vraag: 'Hoe waardeer ik een gebouw na herwaardering?' → KB-WVV art. 3:35 (regel) + CBN-advies 2019/06 (toelichting).
 
 _Grondslag: WER art. II.1, art. III.82-III.95; WVV Boek 3; KB van 29 april 2019_
 
@@ -44,7 +43,6 @@ Een hogere regel verdringt een lagere regel. Europees recht (verordening rechtst
 
 **Waarom?** Bij tegenstrijdige regels: kies de hogere bron. CBN-adviezen zijn 'soft law' — uitleg, geen bevel.
 
-**Voorbeeld**: Een CBN-advies dat afwijkt van een artikel uit het KB-WVV moet wijken — het advies kan niet wet uit de weg gaan.
 
 _Grondslag: Algemene rechtsleer (hiërarchie der normen) + WER art. II.1_
 
@@ -54,7 +52,6 @@ Het Belgisch boekhoudrecht geldt voor alle ondernemingen die in België een acti
 
 **Waarom?** Een buitenlands hoofdkantoor (bv. Kappers Köln GmbH) volgt zijn eigen Duits recht voor de globale boekhouding; voor zijn Belgisch bijkantoor moet het de Belgische regels toepassen.
 
-**Voorbeeld**: Kappers Köln GmbH heeft een bijkantoor in Antwerpen → voor de Antwerpse boekhouding gelden WER + KB-WVV.
 
 _Grondslag: WER art. III.82; CBN-advies 2022/14_
 
@@ -92,6 +89,9 @@ _Grondslag: WER art. III.82; CBN-advies 2022/14_
 > _Bron: WER Boek III + WVV Boek 3_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

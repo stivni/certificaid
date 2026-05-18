@@ -33,7 +33,6 @@ Sinds 2020 onderscheidt het ITAA: (1) accountant (begeleidt KMO's bij boekhoudin
 
 **Waarom?** De gecertificeerde titel is een tussenstap tussen accountant en revisor: meer dan KMO-boekhouding, minder dan wettelijke commissarisopdrachten (die voor revisor zijn).
 
-**Voorbeeld**: Sofie Janssens slaagt voor het ITAA-bekwaamheidsexamen → zij mag voortaan contractuele KMO-controles uitvoeren onder ITAA-norm.
 
 _Grondslag: Wet 17 maart 2019_
 
@@ -43,7 +42,6 @@ _Grondslag: Wet 17 maart 2019_
 
 **Waarom?** Zonder beroepstoezicht zou de titel betekenisloos zijn — het ITAA bewaakt de kwaliteit en het vertrouwen.
 
-**Voorbeeld**: Een accountant zonder verplichte beroepsverzekering → tuchtzaak voor het ITAA → mogelijk schorsing.
 
 _Grondslag: Wet 17 maart 2019 + ITAA-normen_
 
@@ -57,6 +55,9 @@ _Grondslag: Wet 17 maart 2019 + ITAA-normen_
 ## Zie ook
 
 - **Vereist kennis van**: [[itaa]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

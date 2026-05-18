@@ -49,7 +49,6 @@
       "titel": "Vier voordelen ten opzichte van groot",
       "wat": "(1) Verkort schema toegestaan. (2) Geen jaarverslag verplicht. (3) Geen commissaris verplicht (tenzij deel uitmaakt van grote groep). (4) Vereenvoudigde toelichting met minder verplichte rubrieken.",
       "waarom": "Proportionele last — kleinere onderneming = minder rapportering-eisen.",
-      "voorbeeld_inline": "Meubelzaak Mertens BV (klein) → verkort schema, geen jaarverslag, geen commissaris, eenvoudige toelichting.",
       "grondslag": "WVV art. 3:6 + 3:32 + 3:72",
       "confidence": "grounded",
       "source": {
@@ -64,13 +63,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Meubelzaak Mertens BV (klein) → verkort schema, geen jaarverslag, geen commissaris, eenvoudige toelichting."
+        }
+      ]
     },
     {
       "titel": "Verlies van klein-statuut",
       "wat": "Verliest het statuut wanneer twee opeenvolgende boekjaren meer dan één drempel overschreden worden. Het nieuwe regime begint op het derde boekjaar — gefaseerde transitie, niet onmiddellijk.",
       "waarom": "Beschermt de vennootschap tegen heen-en-weer-statuswisselingen door éénmalige uitschieters.",
-      "voorbeeld_inline": "Brugse Brouwerij BV (klein) groeit explosief: 2024 én 2025 → 75 werknemers + € 13M omzet (twee drempels) → vanaf boekjaar 2026 groot.",
       "grondslag": "WVV art. 1:24 § 4",
       "confidence": "grounded",
       "source": {
@@ -85,13 +89,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Brugse Brouwerij BV (klein) groeit explosief: 2024 én 2025 → 75 werknemers + € 13M omzet (twee drempels) → vanaf boekjaar 2026 groot."
+        }
+      ]
     },
     {
       "titel": "Groepsconsolidatie-test",
       "wat": "Een vennootschap die individueel klein is maar deel uitmaakt van een groep (moeder of dochter) die als geheel groot is, wordt voor jaarrekening-doeleinden behandeld als groot. De individuele cijfers worden op geconsolideerde basis getest.",
       "waarom": "Voorkomt fiscale en rapporterings-arbitrage door opsplitsing in kleine entiteiten.",
-      "voorbeeld_inline": "Aurelia Holding NV (€ 4M omzet zelf) bezit 4 dochters met € 25M omzet → groep is groot → Aurelia rapporteert als grote NV.",
       "grondslag": "WVV art. 1:24 § 5",
       "confidence": "grounded",
       "source": {
@@ -106,7 +115,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV (€ 4M omzet zelf) bezit 4 dochters met € 25M omzet → groep is groot → Aurelia rapporteert als grote NV."
+        }
+      ]
     }
   ],
   "vergelijkingsparen": [
@@ -139,5 +154,5 @@
       "omschrijving": "Meubelzaak Mertens BV — 12 werknemers (≤50), € 4,5M omzet (≤€11,25M), € 2,1M balanstotaal (≤€6M) → onder alle drie drempels → kleine vennootschap."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

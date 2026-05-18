@@ -54,7 +54,6 @@
       "titel": "Drie hoofdelementen: nominaal, coupon, looptijd",
       "wat": "Bij uitgifte beslist de NV over: **nominaal bedrag** per obligatie (typisch € 1.000 of veelvoud), **couponrente** (vast of variabel, jaarlijks of zes-maandelijks), **looptijd** (5 — 30 jaar). Alle drie staan in het emissieprospectus.",
       "waarom": "Deze parameters bepalen de cashflows en de financieringskost over de hele looptijd. Beleggers vergelijken ze met marktrente om de prijs te bepalen.",
-      "voorbeeld_inline": "Uitgeverij Ukkel NV emissieprospectus: 1.000 obligaties × € 1.000 nominaal = € 1.000.000 totaal. Couponrente 4 % vast per jaar = € 40.000 jaarlijkse intrestlast. Looptijd 8 jaar, kapitaal terug op vervaldag 30/06/20Y9.",
       "grondslag": "WVV art. 7:54; CBN 2019/07",
       "confidence": "grounded",
       "source": {
@@ -69,13 +68,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Uitgeverij Ukkel NV emissieprospectus: 1.000 obligaties × € 1.000 nominaal = € 1.000.000 totaal. Couponrente 4 % vast per jaar = € 40.000 jaarlijkse intrestlast. Looptijd 8 jaar, kapitaal terug op vervaldag 30/06/20Y9."
+        }
+      ]
     },
     {
       "titel": "Uitgifte beneden of boven pari",
       "wat": "Obligaties kunnen worden uitgegeven aan een uitgifteprijs die afwijkt van het nominaal bedrag: (a) **beneden pari** = disagio (terugbetalingswaarde > ontvangen bedrag), (b) **boven pari** = premie. Het verschil wordt verspreid in de tijd als financiële kost/opbrengst.",
       "waarom": "Marktrente vs couponrente verschillen vaak; uitgifteprijs corrigeert. Het verschil moet over de looptijd verspreid worden om matching te garanderen.",
-      "voorbeeld_inline": "Uitgeverij Ukkel NV geeft obligatielening uit nominaal € 1.000.000 maar ontvangt slechts € 950.000 (disagio € 50.000 omdat marktrente boven 4 % ligt). Schuld op balans = € 1.000.000 (nominale); € 50.000 disagio geactiveerd op 201 en afgeschreven over 8 jaar = € 6.250/jaar extra intrestlast.",
       "grondslag": "CBN 2019/07",
       "confidence": "grounded",
       "source": {
@@ -90,13 +94,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Uitgeverij Ukkel NV geeft obligatielening uit nominaal € 1.000.000 maar ontvangt slechts € 950.000 (disagio € 50.000 omdat marktrente boven 4 % ligt). Schuld op balans = € 1.000.000 (nominale); € 50.000 disagio geactiveerd op 201 en afgeschreven over 8 jaar = € 6.250/jaar extra intrestlast."
+        }
+      ]
     },
     {
       "titel": "Coupons en prorata-intrest",
       "wat": "Couponbetalingen worden geboekt als financiële kosten op rekening 650. Tussen couponbetalingen en balansdatum: de gelopen-maar-nog-niet-vervallen rente wordt prorata geboekt via rekening 492 'Toe te rekenen kosten' (CBN 148/4).",
       "waarom": "Matching: rente moet in het juiste boekjaar staan, ook al wordt ze pas later cash betaald.",
-      "voorbeeld_inline": "Uitgeverij Ukkel NV obligatie 4 % × € 1.000.000 = € 40.000 jaarlijkse coupon, betaalbaar elke 1 juli. Op 31/12 is 6 maanden gelopen → € 20.000 toe te rekenen. Boeking 31/12: Debet 650 Intresten op obligaties € 20.000 / Credit 492 Toe te rekenen kosten € 20.000.",
       "grondslag": "CBN 148/4 + KB WVV art. 3:60",
       "confidence": "grounded",
       "source": {
@@ -111,12 +120,17 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Uitgeverij Ukkel NV obligatie 4 % × € 1.000.000 = € 40.000 jaarlijkse coupon, betaalbaar elke 1 juli. Op 31/12 is 6 maanden gelopen → € 20.000 toe te rekenen. Boeking 31/12: Debet 650 Intresten op obligaties € 20.000 / Credit 492 Toe te rekenen kosten € 20.000."
+        }
+      ]
     },
     {
       "titel": "Terugbetaling op vervaldag",
       "wat": "Op vervaldag betaalt de NV het nominaal bedrag terug aan de obligatiehouders. Schuld wordt nul; bank vermindert met het terugbetaalde bedrag.",
-      "voorbeeld_inline": "Uitgeverij Ukkel NV betaalt op 30/06/20Y9 € 1.000.000 terug. Boeking: Debet 170 Obligatieleningen € 1.000.000 / Credit 550 Bank € 1.000.000.",
       "grondslag": "Boekhoudkundige verwerking",
       "confidence": "grounded",
       "source": {
@@ -131,7 +145,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Uitgeverij Ukkel NV betaalt op 30/06/20Y9 € 1.000.000 terug. Boeking: Debet 170 Obligatieleningen € 1.000.000 / Credit 550 Bank € 1.000.000."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -192,5 +212,5 @@
       "omschrijving": "Uitgeverij Ukkel NV geeft een 8-jarige obligatielening uit nominaal € 1.000.000 aan 4 % vast. Uitgifte tegen pari (€ 1.000.000 ontvangen). Uitgiftekosten € 12.000 (notaris, publicatie). Boekingen aanvang: Debet 550 Bank € 1.000.000 / Credit 170 Obligatieleningen € 1.000.000. Bovendien: Debet 201 Kosten uitgifte leningen € 12.000 / Credit 550 Bank € 12.000 (af te schrijven over 8 jaar = € 1.500/jaar)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

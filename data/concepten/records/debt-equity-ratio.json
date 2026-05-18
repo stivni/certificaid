@@ -42,7 +42,6 @@
       "titel": "Schulden totaal tegenover eigen vermogen",
       "wat": "Tel alle schulden samen (voorzieningen + uitgestelde belastingen + schulden > 1 jaar + schulden ≤ 1 jaar + overlopende rekeningen passief) en deel door eigen vermogen.",
       "waarom": "Schuldgraad maakt de hefboom rechtstreeks zichtbaar: bij stijgend resultaat versterkt schuld het ROE; bij dalend resultaat versterkt schuld ook het verlies voor de aandeelhouder.",
-      "voorbeeld_inline": "Rotex Roeselare NV: schulden totaal € 18.000.000; eigen vermogen € 12.000.000. Debt-equity = € 18.000.000 / € 12.000.000 = 1,5.",
       "grondslag": "Vakdoctrine financial analysis",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -57,7 +56,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV: schulden totaal € 18.000.000; eigen vermogen € 12.000.000. Debt-equity = € 18.000.000 / € 12.000.000 = 1,5."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
@@ -258,5 +263,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

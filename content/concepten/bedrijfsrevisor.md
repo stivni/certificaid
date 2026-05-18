@@ -37,7 +37,6 @@ Enkel een bedrijfsrevisor mag de wettelijke controle van de jaarrekening uitvoer
 
 **Waarom?** De wetgever wil dat de wettelijke audit van grote vennootschappen door één gespecialiseerd beroep + één publieke toezichthouder (College van Toezicht) wordt verzekerd.
 
-**Voorbeeld**: Rotex Roeselare NV moet een commissaris benoemen → enkel Sofie Janssens (bedrijfsrevisor) komt in aanmerking, niet haar collega-gecertificeerd accountant.
 
 _Grondslag: Wet 7 december 2016 art. 3 (revisorenwet)_
 
@@ -56,7 +55,6 @@ Wanneer de bedrijfsrevisor in een vennootschap (CVBA, BV ...) werkt, moet een na
 
 **Waarom?** De wetgever wil aansprakelijkheid kunnen toeschrijven aan een mens, niet aan een rechtspersoon.
 
-**Voorbeeld**: Het commissarisverslag van Rotex wordt ondertekend door 'Wolters & Partners CVBA, vertegenwoordigd door Sofie Janssens, bedrijfsrevisor'.
 
 _Grondslag: Wet 7 december 2016 + analogie KB plichtenleer art. 18_
 
@@ -70,6 +68,9 @@ _Grondslag: Wet 7 december 2016 + analogie KB plichtenleer art. 18_
 ## Zie ook
 
 - **Vereist kennis van**: [[commissaris]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

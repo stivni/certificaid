@@ -40,7 +40,6 @@
       "titel": "Negen variabelen via logit-regressie",
       "wat": "O combineert negen indicatoren: (1) log(TA/CPI) — ondernemingsgrootte; (2) VV/TA — schuldgraad; (3) NBK/TA — werkkapitaalpositie; (4) VK/VlA — vlottende schulden/vlottende activa; (5) indicator VV>TA (negatief eigen vermogen); (6) Netto resultaat/TA; (7) CF uit bedrijfsvoering/VV; (8) indicator twee opeenvolgende verlies-jaren; (9) procentuele wijziging nettoresultaat.",
       "waarom": "Ohlson koos variabelen die zowel niveau (1-7) als evolutie (8-9) en categorische gebeurtenissen (5, 8) vangen. Logistische regressie levert dan een coefficiënt-vector die naar een kans tussen 0 en 1 wordt afgebeeld.",
-      "voorbeeld_inline": "Rotex Roeselare NV met O-score = − 2,5 → kans = 1/(1+e^2,5) ≈ 0,08 (8% kans op faillissement). Verffabriek Veurne BV met O-score = +1,2 → kans ≈ 0,77 (77% kans).",
       "grondslag": "Ohlson (1980)",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -55,13 +54,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV met O-score = − 2,5 → kans = 1/(1+e^2,5) ≈ 0,08 (8% kans op faillissement). Verffabriek Veurne BV met O-score = +1,2 → kans ≈ 0,77 (77% kans)."
+        }
+      ]
     },
     {
       "titel": "Probabiliteit als output",
       "wat": "De logit-functie transformeert de gewogen som naar een kans p = 1/(1+e^(-O)). Cut-off klassiek op p > 0,50 = voorspelling faillissement; p < 0,50 = voorspelling overleven. De cut-off kan strenger gezet worden bij conservatieve diagnose.",
       "waarom": "Een kans is interpretatiekrachtiger dan een score-positie — een bankier kan 77% kans op faillissement direct vertalen naar een kredietbeslissing, terwijl een Altman-zone moeilijker te quantitatieveren is.",
-      "voorbeeld_inline": "Voor Verffabriek Veurne BV: O = 1,2 → p ≈ 0,77 → bankier zal kredietaanvraag wellicht afwijzen of zware waarborgen vragen.",
       "grondslag": "Ohlson (1980) + bankpraktijk",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -76,7 +80,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Voor Verffabriek Veurne BV: O = 1,2 → p ≈ 0,77 → bankier zal kredietaanvraag wellicht afwijzen of zware waarborgen vragen."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -143,5 +153,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

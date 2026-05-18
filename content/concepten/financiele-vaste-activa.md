@@ -33,7 +33,6 @@ Het kernkenmerk: de onderneming houdt het effect of de vordering aan om de bedri
 
 **Waarom?** Anders dan geldbeleggingen (rubriek 5x) die snel verhandelbaar zijn voor rendement, dienen financiële vaste activa een strategisch doel. De boekhoudkundige behandeling weerspiegelt dat verschil: stabiele aanschaffingswaarde i.p.v. marktwaardering.
 
-**Voorbeeld**: Aurelia Holding NV's 80 % belang in Brugse Brouwerij BV — strategische deelneming met controle en duurzame ondersteuning. Financieel vast actief. Versus: Solaris Sint-Truiden BV koopt voor € 50.000 aandelen van een beursgenoteerde NV voor rendement → geldbelegging, NIET financieel vast actief.
 
 _Grondslag: CBN 147/1 + KB WVV art. 3:42_
 
@@ -43,7 +42,6 @@ Financiële vaste activa worden gewaardeerd aan de **aanschaffingsprijs** (aanko
 
 **Waarom?** Aanschaffingsprijs is objectief en verifieerbaar. Marktwaardering zou volatiele schommelingen in de jaarrekening introduceren — wat strijdig is met het voorzichtigheidsbeginsel.
 
-**Voorbeeld**: Aurelia Holding NV betaalt € 1.600.000 + makelaarscommissie € 25.000 voor 80 % Brugse. Keuze: alles activeren als aanschaffingsprijs € 1.625.000 op rekening 280, OF aanschaffingsprijs € 1.600.000 op rekening 280 + commissie € 25.000 als financiële kost (rekening 65) — beide aanvaard.
 
 _Grondslag: KB WVV art. 3:42_
 
@@ -53,7 +51,6 @@ Op deelnemingen worden waardeverminderingen geboekt 'in geval van **duurzame min
 
 **Waarom?** Een tijdelijke koersdaling rechtvaardigt geen ingreep (voorzichtigheidsbeginsel + bestendigheid). Maar bij structurele verliezen of slechte vooruitzichten moet de balans dit reflecteren.
 
-**Voorbeeld**: Brugse Brouwerij BV maakt drie jaar verlies, eigen vermogen is gehalveerd van € 1.500.000 naar € 750.000. Aurelia's 80 %-belang op € 1.600.000 is niet meer realistisch. Waardevermindering: Debet 6630 Waardeverminderingen FVA € 1.000.000 / Credit 280 Deelnemingen € 1.000.000 (afwaardering tot bv. € 600.000).
 
 _Grondslag: KB WVV art. 3:45 + CBN 126/8_
 
@@ -63,7 +60,6 @@ Aandelen onder financiële vaste activa kunnen worden geherwaardeerd als de meer
 
 **Waarom?** Strategische deelnemingen die structureel meer waard zijn geworden mogen die waarde tonen — maar onder dezelfde strikte voorwaarden als andere herwaarderingen.
 
-**Voorbeeld**: Aurelia Holding NV's belang in Brugse Brouwerij BV (op € 600.000 na waardevermindering) herstelt economisch. Eerst: terugname waardevermindering tot bv. € 1.000.000. Dan kan eventueel herwaardering tot € 1.700.000 op rekening 12 — mits voldaan aan strikte voorwaarden.
 
 _Grondslag: KB WVV art. 3:35 + CBN 2017/11_
 
@@ -93,6 +89,9 @@ _Grondslag: KB WVV art. 3:35 + CBN 2017/11_
 > _Bron: CBN 2022/08 voorbeeld 2_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

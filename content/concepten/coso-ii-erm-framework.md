@@ -42,8 +42,10 @@ De hoeveelheid risico die de onderneming bewust wil nemen om strategische doelst
 
 **Waarom?** Zonder expliciete risk appetite worden risico's ad-hoc beoordeeld — inconsistent en moeilijk te delegeren.
 
-**Voorbeeld**: RvB Rotex Roeselare NV: 'maximum 2% van EBITDA aan operationele losses; geen tolerance voor compliance-overtredingen'. Operationele directies werken binnen deze envelop.
 
 _Grondslag: COSO 2017_
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

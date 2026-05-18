@@ -37,7 +37,6 @@ De cliënt vraagt de opdracht zelf — er is geen commissaris benoemd en geen we
 
 **Waarom?** Externe partijen vertrouwen liever op een audit dan op zelfgemaakte cijfers.
 
-**Voorbeeld**: Een bank vraagt aan Meubelzaak Mertens BV een gecontroleerde jaarrekening vooraleer een krediet van € 750.000 toe te kennen.
 
 _Grondslag: ITAA KMO-controlenorm §2_
 
@@ -47,7 +46,6 @@ De beroepsbeoefenaar voert voldoende werkzaamheden uit om het risico op een verk
 
 **Waarom?** Volledige zekerheid is onmogelijk — 'redelijke zekerheid' is het hoogste niveau dat in een audit haalbaar is.
 
-**Voorbeeld**: Sofie Janssens kan na haar werkzaamheden met redelijke zekerheid zeggen: 'de jaarrekening van Meubelzaak Mertens BV geeft een getrouw beeld'. Niet 'met 100 % zekerheid'.
 
 _Grondslag: ITAA KMO-controlenorm §2_
 
@@ -85,6 +83,9 @@ _Grondslag: ITAA KMO-controlenorm §2_
 
 - **Vereist kennis van**: [[redelijke-mate-van-zekerheid]]
 - **Getriggerd door**: [[opdrachtbrief]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

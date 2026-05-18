@@ -36,7 +36,6 @@ Afschrijvingen, waardeverminderingen en voorraadwaardering eenduidig vaststellen
 
 **Waarom?** Anders raken cijfers per kostencentrum of per drager bezoedeld door methodische verschillen.
 
-**Voorbeeld**: Yperse Werkplaats BV past 10-jaar lineaire afschrijving toe op productiemachines in algemene boekhouding én in analytische — geen 'productie-uren-afschrijving' alleen in analytische. Mismatch zou kostprijs onstabiel maken.
 
 _Grondslag: CBN 3/3_
 
@@ -48,6 +47,9 @@ _Grondslag: CBN 3/3_
 > [!tip]- Algemene-versus-analytische reconciliatie
 > Periodieke reconciliatie tussen klasse 6 (algemene) en klasse 9 (analytische) is een sleutel-controle. Verschillen mogen, maar moeten verklaarbaar zijn (interne verrekeningen, opportuniteitskost, verschillen tussen werkelijke en standaardkost). 🤖
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

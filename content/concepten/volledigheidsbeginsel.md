@@ -37,7 +37,6 @@ _Bron: WER art. III.83; KB-WVV art. 3:1_
 
 **Waarom?** Voor een getrouw beeld telt niet alleen wat op de balans staat, maar ook wat erbuiten ligt en de toekomstige financiële positie kan beïnvloeden.
 
-**Voorbeeld**: Aurelia Holding NV heeft een patronaatsverklaring afgegeven voor een lening van € 2M aan haar dochter → niet op balans Aurelia (geen vaststaande verplichting), wél in toelichting.
 
 _Grondslag: KB-WVV art. 3:14_
 
@@ -47,7 +46,6 @@ Het volledigheidsbeginsel kent geen materialiteit-drempel — élke verrichting 
 
 **Waarom?** Een 'kleine' aankoop overslaan in de boekhouding ondergraaft de bewijswaarde van het hele systeem.
 
-**Voorbeeld**: Praktijk Persenaire boekt een kasstuk van € 8 voor papier-rolletjes — ook al is het klein, het MOET in het boek staan.
 
 _Grondslag: WER art. III.83_
 
@@ -75,6 +73,9 @@ _Grondslag: WER art. III.83_
 ## Zie ook
 
 - **Vereist kennis van**: [[inventaris]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

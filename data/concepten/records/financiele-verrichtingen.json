@@ -47,7 +47,6 @@
       "titel": "Klasse 65 — Financiële kosten",
       "wat": "(650) Kosten van schulden (intresten leningen, krediettoeslagen), (651) Waardeverminderingen op vlottende activa andere dan voorraden, (652) Minderwaarden op realisatie van vlottende activa, (653) Disconto kosten bij wissels, (654) Wisselkoersverliezen, (657) Diverse financiële kosten.",
       "waarom": "Aparte rubriek voor de prijs van financiering en wisselkoersrisico. Helpt om operationele performance te scheiden van schuldlastdruk.",
-      "voorbeeld_inline": "Uitgeverij Ukkel NV betaalt jaarlijks € 28.500 intrest op € 685.000 hypothecaire lening (4,16 %). Boeking: Debet 650 Intresten op leningen € 28.500 / Credit 550 Bank € 28.500.",
       "grondslag": "MAR klasse 65",
       "confidence": "grounded",
       "source": {
@@ -62,13 +61,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Uitgeverij Ukkel NV betaalt jaarlijks € 28.500 intrest op € 685.000 hypothecaire lening (4,16 %). Boeking: Debet 650 Intresten op leningen € 28.500 / Credit 550 Bank € 28.500."
+        }
+      ]
     },
     {
       "titel": "Klasse 75 — Financiële opbrengsten",
       "wat": "(750) Opbrengsten van financiële vaste activa (typisch dividenden van deelnemingen), (751) Opbrengsten van vlottende activa (rente op deposito's, geldbeleggingen), (752) Diverse financiële opbrengsten (terugname waardeverminderingen, meerwaarden op realisatie effecten), (754) Wisselkoerswinsten.",
       "waarom": "Symmetrische tegenhanger van klasse 65. Dividend van een deelneming staat in 750, niet in 70 omzet — duidelijk gescheiden van de operationele cyclus.",
-      "voorbeeld_inline": "Aurelia Holding NV ontvangt dividend van Brugse Brouwerij BV € 80.000. Boeking: Debet 550 Bank € 80.000 / Credit 7501 Opbrengsten van deelnemingen in verbonden ondernemingen € 80.000.",
       "grondslag": "MAR klasse 75",
       "confidence": "grounded",
       "source": {
@@ -83,13 +87,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV ontvangt dividend van Brugse Brouwerij BV € 80.000. Boeking: Debet 550 Bank € 80.000 / Credit 7501 Opbrengsten van deelnemingen in verbonden ondernemingen € 80.000."
+        }
+      ]
     },
     {
       "titel": "Wisselkoersverschillen (654 / 754)",
       "wat": "Bij vorderingen of schulden in vreemde valuta ontstaan wisselkoersverschillen tussen contractdatum en betalingsdatum (of balansdatum). Gerealiseerde verschillen direct in resultaat (654/754). Niet-gerealiseerde verschillen op balansdatum: voorzichtigheidsbeginsel — negatieve in resultaat, positieve in toelichting.",
       "waarom": "Wisselkoersrisico is geen operationeel maar financieel risico; aparte boeking maakt het zichtbaar voor analyse.",
-      "voorbeeld_inline": "Uitgeverij Ukkel NV heeft een Britse vordering £ 50.000 (geboekt aan 1,20 = € 60.000) maar bij ontvangst is koers 1,15 → ontvangen € 57.500. Wisselkoersverlies € 2.500 op rekening 654.",
       "grondslag": "MAR + KB WVV art. 3:39",
       "confidence": "grounded",
       "source": {
@@ -104,7 +113,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Uitgeverij Ukkel NV heeft een Britse vordering £ 50.000 (geboekt aan 1,20 = € 60.000) maar bij ontvangst is koers 1,15 → ontvangen € 57.500. Wisselkoersverlies € 2.500 op rekening 654."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -183,5 +198,5 @@
       "omschrijving": "Uitgeverij Ukkel NV 20X1: intrestlast hypothecaire lening € 28.500 (rekening 650 Intrestkosten), bankkosten en commissies € 1.250 (657 Diverse financiële kosten), wisselkoersverlies € 850 (654). Tegenover: rente op termijndeposito's € 4.500 (751), dividend op participatie € 18.000 (752 — financiële opbrengsten van FVA). Financieel resultaat = (€ 4.500 + € 18.000) − (€ 28.500 + € 1.250 + € 850) = −€ 7.100."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

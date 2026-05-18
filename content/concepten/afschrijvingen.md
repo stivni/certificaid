@@ -42,7 +42,6 @@ Voor elk afschrijfbaar actief bepaal je drie dingen: (1) de **af te schrijven wa
 
 **Waarom?** Deze drie keuzes definiëren samen de jaarlijkse last. Eén keuze veranderen (bv. korte gebruiksduur) heeft direct impact op het resultaat — daarom moet het plan onderbouwd zijn en consistent worden toegepast.
 
-**Voorbeeld**: Voor de snij-installatie van € 30.500: af te schrijven waarde € 30.500 (geen restwaarde geschat), gebruiksduur 5 jaar, ritme lineair → € 6.100/jaar.
 
 _Grondslag: KB WVV art. 3:23; CBN 2010/15_
 
@@ -52,7 +51,6 @@ Het afschrijvingsplan wordt formeel vastgesteld door het bestuursorgaan. Een sam
 
 **Waarom?** Transparantie tegenover de jaarrekeninggebruiker: hij moet de afschrijvingslast kunnen interpreteren in functie van de gekozen methode. Bovendien dwingt de formele vaststelling tot bewuste keuzes.
 
-**Voorbeeld**: Bestuur Naaiatelier Ninove BV beslist in waarderingsregels: 'Installaties en machines: lineair, 5 jaar. Bedrijfsvoertuigen: lineair, 4 jaar. Kantoormeubilair: lineair, 10 jaar.' Toelichting bij jaarrekening: sectie 'Waarderingsregels'.
 
 _Grondslag: KB WVV art. 3:6 + CBN 2010/15_
 
@@ -62,7 +60,6 @@ Recurrente afschrijvingen volgen het opgestelde afschrijvingsplan. **Niet-recurr
 
 **Waarom?** Het plan veronderstelt 'normaal gebruik'. Bij abnormale ontwaarding (brand, technologische sprong, brexit-effect) moet sneller afgeschreven worden om geen overgewaardeerd actief op de balans te houden.
 
-**Voorbeeld**: Naaiatelier Ninove BV heeft een snij-installatie met boekwaarde € 18.300 (na 2 jaar). Door brand is de installatie maar half functioneel; gebruikswaarde = € 6.500. Niet-recurrente afschrijving = € 18.300 − € 6.500 = € 11.800, geboekt op rekening 6602 'Niet-recurrente afschrijvingen' i.p.v. 6302.
 
 _Grondslag: KB WVV art. 3:23 + CBN 2019/04_
 
@@ -72,7 +69,6 @@ Wanneer de eerder geboekte niet-recurrente afschrijving niet langer verantwoord 
 
 **Waarom?** Voorzichtigheid mag geen verborgen reserve worden. Als de oorzaak van de extra afschrijving verdwijnt, moet ook het effect verdwijnen.
 
-**Voorbeeld**: Brand-versterkte niet-recurrente afschrijving van € 11.800 in jaar 2; in jaar 3 wordt de installatie volledig hersteld en de gebruikswaarde is terug € 22.000. Terugname tot het bedrag dat volgens het gewone plan op die datum aanvaardbaar is.
 
 _Grondslag: KB WVV art. 3:23 + CBN 2019/04_
 

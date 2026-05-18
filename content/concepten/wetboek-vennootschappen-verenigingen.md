@@ -37,7 +37,6 @@ Sinds 1 mei 2019 staan vennootschapsrecht en verenigingsrecht (vzw, ivzw, sticht
 
 **Waarom?** Voor een stagiair: zoek je iets over een vzw? Niet meer in een aparte vzw-wet, maar in het WVV (Boek 9).
 
-**Voorbeeld**: Aurelia Holding NV (vennootschap) en VZW Quelle de Vie (vereniging) vinden hun regels in hetzelfde wetboek.
 
 _Grondslag: WVV art. 1:1 e.v._
 
@@ -47,7 +46,6 @@ Boek 3 van het WVV bevat de regels over: opmaak en inhoud van de jaarrekening, g
 
 **Waarom?** Boek 3 is voor de stagiair de eerste plek om jaarrekening-vragen op te zoeken. Voor de exacte balansrubrieken en waarderingsregels: doorklikken naar het KB.
 
-**Voorbeeld**: Vraag 'moet Rotex Roeselare NV een jaarverslag opstellen?' → WVV Boek 3 (verplichting voor grote vennootschappen).
 
 _Grondslag: WVV Boek 3, art. 3:1 e.v._
 
@@ -57,7 +55,6 @@ Boek 1 van het WVV bevat de definities die overal terugkomen: controle (art. 1:1
 
 **Waarom?** Stagiair-vuistregel: snap je een term niet in Boek 3? Sla Boek 1 open — daar staat de definitie.
 
-**Voorbeeld**: 'Aurelia Holding NV is moedervennootschap van Brugse Brouwerij BV' → check WVV art. 1:14 en art. 1:15 voor de exacte criteria.
 
 _Grondslag: WVV art. 1:14 tot art. 1:25_
 
@@ -83,6 +80,9 @@ _Grondslag: WVV art. 1:14 tot art. 1:25_
 >
 > _Trigger_: Vraag over een eenmanszaak (Praktijk Persenaire) → WER. Vraag over een NV of vzw → WVV.
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

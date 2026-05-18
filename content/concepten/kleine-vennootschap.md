@@ -36,7 +36,6 @@ _Bron: WVV art. 1:24_
 
 **Waarom?** Proportionele last — kleinere onderneming = minder rapportering-eisen.
 
-**Voorbeeld**: Meubelzaak Mertens BV (klein) → verkort schema, geen jaarverslag, geen commissaris, eenvoudige toelichting.
 
 _Grondslag: WVV art. 3:6 + 3:32 + 3:72_
 
@@ -46,7 +45,6 @@ Verliest het statuut wanneer twee opeenvolgende boekjaren meer dan één drempel
 
 **Waarom?** Beschermt de vennootschap tegen heen-en-weer-statuswisselingen door éénmalige uitschieters.
 
-**Voorbeeld**: Brugse Brouwerij BV (klein) groeit explosief: 2024 én 2025 → 75 werknemers + € 13M omzet (twee drempels) → vanaf boekjaar 2026 groot.
 
 _Grondslag: WVV art. 1:24 § 4_
 
@@ -56,7 +54,6 @@ Een vennootschap die individueel klein is maar deel uitmaakt van een groep (moed
 
 **Waarom?** Voorkomt fiscale en rapporterings-arbitrage door opsplitsing in kleine entiteiten.
 
-**Voorbeeld**: Aurelia Holding NV (€ 4M omzet zelf) bezit 4 dochters met € 25M omzet → groep is groot → Aurelia rapporteert als grote NV.
 
 _Grondslag: WVV art. 1:24 § 5_
 
@@ -66,6 +63,9 @@ _Grondslag: WVV art. 1:24 § 5_
 >
 > _Trigger_: Examen: omzet € 500K → check micro-drempels eerst; als ook personeel ≤ 10 én balans ≤ € 450K én niet moeder/dochter → micro. Zo niet → klein.
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

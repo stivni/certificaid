@@ -116,7 +116,6 @@
       "titel": "Wat de auditor kan beïnvloeden",
       "wat": "Enkel het ontdekkingsrisico. Inherent en intern beheersingsrisico zijn EIGENSCHAPPEN van de cliënt — de auditor schat ze in, hij verlaagt ze niet.",
       "waarom": "Zo focust het model op de stuurknop van de auditor: omvang, timing en aard van zijn werkzaamheden.",
-      "voorbeeld_inline": "Sofie Janssens kan niet de IT-controles van Rotex verbeteren, maar zij kan beslissen om méér substantive testing te doen op voorraadwaardering wanneer de IC daar zwak is.",
       "grondslag": "ITAA KMO-controlenorm §96",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -131,7 +130,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Sofie Janssens kan niet de IT-controles van Rotex verbeteren, maar zij kan beslissen om méér substantive testing te doen op voorraadwaardering wanneer de IC daar zwak is."
+        }
+      ]
     }
   ],
   "edges": [
@@ -151,5 +156,5 @@
       "redenering": "Component 3 — door auditor stuurbaar."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

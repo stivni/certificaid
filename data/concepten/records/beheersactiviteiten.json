@@ -32,12 +32,17 @@
       "titel": "Vier hoofdcategorieën",
       "wat": "(1) Autorisaties + goedkeuringen (wie mag wat tot welk bedrag). (2) Verificaties + afstemmingen (kruiscontrole tussen registers, bank-grootboek). (3) Functiescheiding (zie [[functiescheiding]]). (4) Fysieke controles (toegangsbeperking magazijn, sleutels, alarm).",
       "waarom": "Een goed IC-systeem combineert minstens uit elke categorie — geen enkele aanpak dekt alles af.",
-      "voorbeeld_inline": "Bij Yperse Werkplaats BV: toegangsbadge magazijn (fysiek) + dubbele handtekening boven drempel (autorisatie) + maandelijkse stockcount door extern (verificatie) + scheiding aankoop/ontvangst/betaling (segregation).",
       "grondslag": "COSO-doctrine",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Yperse Werkplaats BV: toegangsbadge magazijn (fysiek) + dubbele handtekening boven drempel (autorisatie) + maandelijkse stockcount door extern (verificatie) + scheiding aankoop/ontvangst/betaling (segregation)."
+        }
+      ]
     },
     {
       "titel": "Preventief versus detectief",
@@ -68,5 +73,5 @@
       "omschrijving": "Bij Yperse Werkplaats BV: (preventief) facturen > € 25.000 vereisen handtekening van CFO David; (detectief) maandelijkse afstemming bank-grootboek door iemand anders dan de boeker; (geautomatiseerd) ERP weigert input van prijs > 20% afwijking van laatste aankoopprijs zonder override."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

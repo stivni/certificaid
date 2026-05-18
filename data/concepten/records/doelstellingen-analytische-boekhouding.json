@@ -34,41 +34,61 @@
       "titel": "Kostprijs per product berekenen",
       "wat": "Tel alle directe kosten op (materiaal, arbeid die je rechtstreeks aan dat product kunt toewijzen) en verdeel een deel van de indirecte kosten (huur, energie, leidinggevenden) volgens een verdeelsleutel.",
       "waarom": "De algemene boekhouding zegt wel hoeveel materiaal in totaal is verbruikt, maar niet welk product hoeveel heeft gekost.",
-      "voorbeeld_inline": "Yperse Werkplaats BV produceert ruwwol-garen én tapijten. De algemene boekhouding toont totaal materiaalverbruik € 1.200.000. Pas de analytische verdeling toont dat ruwwol-garen € 800.000 materiaalkost heeft en tapijten € 400.000.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV produceert ruwwol-garen én tapijten. De algemene boekhouding toont totaal materiaalverbruik € 1.200.000. Pas de analytische verdeling toont dat ruwwol-garen € 800.000 materiaalkost heeft en tapijten € 400.000."
+        }
+      ]
     },
     {
       "titel": "Winstgevendheid per klant of markt",
       "wat": "Toewijs opbrengsten en kosten aan elke klant of markt-segment om te zien wie écht winstgevend is.",
       "waarom": "Een klant met hoge omzet kan verlieslatend zijn door extreme korting, lange leverroutes of veel terugzendingen.",
-      "voorbeeld_inline": "Yperse Werkplaats BV verkoopt aan twee klanten: een grootwarenhuis (omzet € 2.500.000, marge 5 %) en een boetiek-keten (omzet € 800.000, marge 22 %). De analytische boekhouding toont dat de boetiek-keten in absolute marge € 176.000 oplevert tegen € 125.000 voor het grootwarenhuis.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV verkoopt aan twee klanten: een grootwarenhuis (omzet € 2.500.000, marge 5 %) en een boetiek-keten (omzet € 800.000, marge 22 %). De analytische boekhouding toont dat de boetiek-keten in absolute marge € 176.000 oplevert tegen € 125.000 voor het grootwarenhuis."
+        }
+      ]
     },
     {
       "titel": "Werking per kostencentrum opvolgen",
       "wat": "Vergelijk werkelijke kosten van een afdeling met het budget; analyseer afwijkingen.",
       "waarom": "Snel ingrijpen wanneer een afdeling structureel boven budget gaat.",
-      "voorbeeld_inline": "Kostencentrum Confectie van Yperse Werkplaats BV had een budget € 250.000 voor Q3 en realiseerde € 287.000 → verschil € 37.000 (overschrijding). De analytische boekhouding lokaliseert dat in extra overuren van € 28.000 en machinekost € 9.000.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Kostencentrum Confectie van Yperse Werkplaats BV had een budget € 250.000 voor Q3 en realiseerde € 287.000 → verschil € 37.000 (overschrijding). De analytische boekhouding lokaliseert dat in extra overuren van € 28.000 en machinekost € 9.000."
+        }
+      ]
     },
     {
       "titel": "Beslissingsondersteuning",
       "wat": "Cijfers voor scenario's: nieuwe productlijn, eigen productie versus uitbesteden, prijsverhoging, stopzetting.",
       "waarom": "Strategische keuzes vereisen kostprijsinformatie die de wettelijke jaarrekening niet biedt.",
-      "voorbeeld_inline": "Yperse Werkplaats BV overweegt om de afdeling Spinnerij te outsourcen. Analytische boekhouding levert directe en toegerekende kosten Spinnerij (€ 1.450.000/jaar) — basis voor de make-or-buy-vergelijking met een offerte van € 1.380.000.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV overweegt om de afdeling Spinnerij te outsourcen. Analytische boekhouding levert directe en toegerekende kosten Spinnerij (€ 1.450.000/jaar) — basis voor de make-or-buy-vergelijking met een offerte van € 1.380.000."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -89,5 +109,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

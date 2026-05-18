@@ -42,7 +42,6 @@ Een kleine onderneming kan alle verrichtingen in één doorlopend dagboek inschr
 
 **Waarom?** Bij veel verrichtingen wordt één enkel dagboek onhandelbaar. Hulpdagboeken laten meerdere medewerkers tegelijk boeken én vergroten het overzicht per categorie.
 
-**Voorbeeld**: Praktijk Persenaire (eenmanszaak, 30 verrichtingen/maand): één ongesplitst dagboek volstaat. Naaiatelier Ninove BV (productie, ~600 verrichtingen/maand): 4 hulpdagboeken plus diversendagboek.
 
 _Grondslag: WER art. III.84, lid 1_
 
@@ -52,7 +51,6 @@ Hulpdagboeken worden minstens maandelijks samengevat in een centraal boek via é
 
 **Waarom?** Het centraal boek geeft het globaal overzicht; zonder periodieke centralisatie verlies je het verband tussen de gespecialiseerde dagboeken en het geheel.
 
-**Voorbeeld**: Uitgeverij Ukkel NV centraliseert op 31 januari het aankoopdagboek van januari: één boeking 'Aankopen januari = € 87.450' wordt overgebracht naar het centraal boek, met als tegenpost de leveranciersschuld en BTW.
 
 _Grondslag: WER art. III.84, lid 3_
 
@@ -62,7 +60,6 @@ Elk dagboek vormt een doorlopende reeks: doorlopend genummerd, met vermelding va
 
 **Waarom?** De doorlopende reeks is een technische waarborg voor de onveranderlijkheid: invoeging achteraf wordt zichtbaar door numerieke breuken.
 
-**Voorbeeld**: Het aankoopdagboek 20X1 van Meubelzaak Mertens BV draagt bovenaan elke pagina 'Aankoopdagboek 20X1' en is doorlopend genummerd 1, 2, 3, ..., 287. Pagina 142 ontbreekt? → onregelmatigheid.
 
 _Grondslag: WER art. III.84; CBN 174/1_
 
@@ -72,7 +69,6 @@ Per boeking: datum, volgnummer, verwijzing naar verantwoordingsstuk, omschrijvin
 
 **Waarom?** Een lege of incomplete boeking is niet controleerbaar. Deze velden vormen samen het 'audit trail' van de boekhouding.
 
-**Voorbeeld**: Boeking 12/04/20X1 nr. 73 in aankoopdagboek van Meubelzaak Mertens BV: factuur leverancier Houthandel Hens nr. 2024-0412, 'Aankoop eikenhout 2 m³', Debet 600 € 1.450, Debet 411 € 304,50, Credit 440 € 1.754,50.
 
 _Grondslag: CBN 174/1 — Inhoud van de boekingen_
 
@@ -100,6 +96,9 @@ _Grondslag: CBN 174/1 — Inhoud van de boekingen_
 ## Zie ook
 
 - **Vereist kennis van**: [[verantwoordingsstuk]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

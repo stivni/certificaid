@@ -60,7 +60,6 @@
       "titel": "Niet bindend, wel gezaghebbend",
       "wat": "Een CBN-advies is geen wet. Toch volgen accountants, commissarissen en rechters het advies meestal — afwijken moet je expliciet motiveren. In de praktijk werkt een CBN-advies als 'soft law'.",
       "waarom": "Zo houdt de boekhoudpraktijk eenduidigheid in een gebied waar de wet niet alles regelt.",
-      "voorbeeld_inline": "Sofie Janssens (commissaris) wijkt af van CBN-advies 2018/15 over voorzieningen → ze moet dat schriftelijk motiveren in haar verslag.",
       "grondslag": "CBN-advies 14/1; geen wettelijke bindingstekst",
       "confidence": "grounded",
       "source": {
@@ -75,13 +74,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Sofie Janssens (commissaris) wijkt af van CBN-advies 2018/15 over voorzieningen → ze moet dat schriftelijk motiveren in haar verslag."
+        }
+      ]
     },
     {
       "titel": "Twee functies: interpreteren + voorbeeldvorming",
       "wat": "Een CBN-advies (1) verduidelijkt open wetsbegrippen (bv. 'getrouw beeld', 'voorzichtigheid'), en (2) geeft uitgewerkte voorbeelden van boekingen voor specifieke transacties (bv. boekhoudkundige verwerking van een fusie, een herwaardering, een leasing).",
       "waarom": "Voor de stagiair is functie 2 vooral nuttig: hier vind je concrete boekingsschema's die in de wet niet staan.",
-      "voorbeeld_inline": "CBN-advies 2018/14 geeft uitgewerkte boekingsvoorbeelden voor belastingen op het resultaat — niet in het KB-WVV te vinden.",
       "grondslag": "CBN-advies 14/1 (adviesbevoegdheid)",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -101,13 +105,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "CBN-advies 2018/14 geeft uitgewerkte boekingsvoorbeelden voor belastingen op het resultaat — niet in het KB-WVV te vinden."
+        }
+      ]
     },
     {
       "titel": "Nummering en updates",
       "wat": "CBN-adviezen worden chronologisch genummerd per jaar (bv. 2022/03 = derde advies van 2022). Oudere adviezen (uit voor 2010) hebben een eencijferig nummer (bv. 14/1, 174/1). Adviezen kunnen herzien worden — let altijd op een 'update'-vermelding in de titel.",
       "waarom": "Een verouderd advies (bv. uit het Wetboek Vennootschappen-tijdperk) kan vervangen zijn door een WVV-conforme update.",
-      "voorbeeld_inline": "CBN-advies 2017/10 'Groottecriteria art. 15 W.Venn.' — verwijst nog naar het oude W.Venn., dus check of er een WVV-update is.",
       "grondslag": "Praktijk CBN; geen wetsregel",
       "confidence": "inferred",
       "source": {
@@ -122,7 +131,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "CBN-advies 2017/10 'Groottecriteria art. 15 W.Venn.' — verwijst nog naar het oude W.Venn., dus check of er een WVV-update is."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -238,5 +253,5 @@
       "omschrijving": "Moet Solaris Sint-Truiden BV haar effectenportefeuille als financiële vaste activa of als geldbelegging boeken? → CBN-advies 2020/16 verduidelijkt het onderscheid voor effecten met houdintentie."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

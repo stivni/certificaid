@@ -53,7 +53,6 @@
       "titel": "Twee voorwaarden",
       "wat": "(1) Drempel-test: maximaal één van de drie micro-drempels overschreden (≤10/€900K/€450K). (2) Geen groep-statuut: niet zelf moeder, en niet behoren tot groep waarvan de moeder een geconsolideerde jaarrekening publiceert.",
       "waarom": "Microschema is bedoeld voor de allereenvoudigste, ongroepeerde vennootschappen.",
-      "voorbeeld_inline": "Oprichtingen Oostende BV onder alle micro-drempels → check 2: heeft ze deelnemingen > 50% in een andere vennootschap? Nee → micro toegestaan.",
       "grondslag": "WVV art. 1:25",
       "confidence": "grounded",
       "source": {
@@ -68,13 +67,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Oprichtingen Oostende BV onder alle micro-drempels → check 2: heeft ze deelnemingen > 50% in een andere vennootschap? Nee → micro toegestaan."
+        }
+      ]
     },
     {
       "titel": "Wat krijgt micro extra?",
       "wat": "Bovenop de voordelen voor klein: gebruik microschema (nog minder toelichting), nog meer gestripte balans en RR. Geen sociale balans. Geen jaarverslag. Geen commissaris.",
       "waarom": "Maximale administratieve vereenvoudiging — bedoeld voor zelfstandige BV'tjes zonder groep-complexiteit.",
-      "voorbeeld_inline": "Microschema van Oprichtingen Oostende BV: 1 pagina balans, 1 pagina RR, korte toelichting met minimaal aantal verplichte rubrieken.",
       "grondslag": "KB-WVV bijlage 3",
       "confidence": "grounded",
       "source": {
@@ -89,7 +93,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Microschema van Oprichtingen Oostende BV: 1 pagina balans, 1 pagina RR, korte toelichting met minimaal aantal verplichte rubrieken."
+        }
+      ]
     }
   ],
   "valkuilen": [
@@ -147,5 +157,5 @@
       "omschrijving": "Oprichtingen Oostende BV — 4 werknemers, € 380.000 omzet, € 380.000 balanstotaal, geen dochters, geen moeder → microvennootschap → mag microschema gebruiken."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

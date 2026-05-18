@@ -37,7 +37,6 @@ Het risico op een verkeerde uitspraak wordt tot een aanvaardbaar niveau gebracht
 
 **Waarom?** Soms heeft de cliënt geen audit nodig — een 'comfort statement' volstaat. Beoordeling is goedkoper.
 
-**Voorbeeld**: Een KMO die geen audit nodig heeft maar haar bank wel een tweede paar ogen wil tonen op de jaarrekening.
 
 _Grondslag: ITAA KMO-controlenorm §2_
 
@@ -74,6 +73,9 @@ _Grondslag: ITAA KMO-controlenorm §3_
 ## Zie ook
 
 - **Vereist kennis van**: [[beperkte-mate-van-zekerheid]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

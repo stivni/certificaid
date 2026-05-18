@@ -36,7 +36,6 @@ Een actief is vlottend als minstens één van vier criteria geldt: (a) gerealise
 
 **Waarom?** De vier criteria vangen vier verschillende soorten 'kortheid': operationele cyclus, intentie tot verhandeling, kalender-termijn, en cash-equivalentie.
 
-**Voorbeeld**: Zelena Bio: voorraden grondstoffen vlottend (criterium a — verbruikt binnen bedrijfscyclus < 12 maanden); aandelen Brugse Brouwerij in beleggingsportefeuille vlottend (criterium b — held for trading); een vordering met betaling op 30 juni 2027 vlottend (criterium c — binnen 12 maanden); € 5.000.000 termijndeposito op 9 maanden vlottend (criterium d — kasequivalent).
 
 _Grondslag: IAS 1 alinea 66_
 
@@ -46,7 +45,6 @@ Een verplichting is vlottend bij: (a) afwikkeling binnen normale bedrijfscyclus;
 
 **Waarom?** Het onvoorwaardelijk-rechtcriterium beschermt gebruikers tegen optisch-langlopende schulden die in realiteit elk moment opeisbaar zijn.
 
-**Voorbeeld**: Zelena Bio NV heeft een obligatielening van € 60.000.000 met vervaldatum 2031, mét een financial covenant (debt/equity ≤ 1,5). Per 31 december 2026 is debt/equity = 1,6 → covenant schending → bank kan onmiddellijke terugbetaling vragen. Resultaat: de lening is **vlottend** te classificeren, ook al staat 2031 in het contract. Materiële herclassificatie van € 60.000.000.
 
 _Grondslag: IAS 1 alinea 69 + 74_
 
@@ -56,7 +54,6 @@ IAS 1 alinea 54 somt 17 posten op die minstens op het overzicht financiële posi
 
 **Waarom?** Een vaste lijst minimumposten waarborgt minimale vergelijkbaarheid tussen entiteiten zonder een rigide schema op te leggen.
 
-**Voorbeeld**: Zelena Bio's IFRS-balans toont alle 17 posten — sommige met € 0 als die niet relevant zijn (geen biologische activa). Zou Zelena een grote landbouwactiviteit hebben, dan zou ze 'Biologische activa: € 8.500.000' apart vermelden.
 
 _Grondslag: IAS 1 alinea 54-55_
 
@@ -81,6 +78,9 @@ _Grondslag: IAS 1 alinea 54-55_
 > _Bron: IAS 1 alinea 57_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

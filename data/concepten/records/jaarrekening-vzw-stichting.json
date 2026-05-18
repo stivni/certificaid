@@ -55,7 +55,6 @@
       "titel": "Drempels voor verenigingen",
       "wat": "WVV art. 1:28: kleine vereniging als max één van drie drempels overschreden — werknemers ≤ 50, ontvangsten ≤ € 11.250.000, balanstotaal ≤ € 6.000.000 (dezelfde drempels als vennootschappen sinds 2024-update). Zeer kleine VZW: ontvangsten < € 391.000 (vereenvoudigd toegelaten).",
       "waarom": "Indeling die parallel loopt met de vennootschapsindeling, maar met aangepaste drempels voor de zeer kleine groep.",
-      "voorbeeld_inline": "VZW Quelle de Vie ontvangsten € 250.000 → onder zeer-kleine-drempel → vereenvoudigde boekhouding toegestaan. Maar als de vereniging dat wil, kan zij wel het schema voor kleine verenigingen kiezen.",
       "grondslag": "WVV art. 1:28-1:29",
       "confidence": "grounded",
       "source": {
@@ -70,13 +69,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "VZW Quelle de Vie ontvangsten € 250.000 → onder zeer-kleine-drempel → vereenvoudigde boekhouding toegestaan. Maar als de vereniging dat wil, kan zij wel het schema voor kleine verenigingen kiezen."
+        }
+      ]
     },
     {
       "titel": "Verschillen met vennootschapsjaarrekening",
       "wat": "(1) Geen kapitaal → 'Fondsen van de vereniging' (rubriek 10/100). (2) Resultaat = overschot/tekort, niet winst/verlies. (3) Geen winstuitkering aan leden — overschot herinvesteren of in reserve. (4) Aparte rubrieken voor specifieke verenigingsactiviteiten (giften, lidgelden, subsidies, eigen activiteit). (5) Toelichting bevat aanvullende info over doel en activiteit.",
       "waarom": "Verenigingen werken anders dan vennootschappen — geen aandeelhouders, geen winstoogmerk in juridische zin.",
-      "voorbeeld_inline": "VZW Quelle de Vie genereert € 250.000 omzet via café-uitbating + € 15.000 lidgelden + € 8.000 subsidies → drie aparte rubrieken in RR.",
       "grondslag": "KB-WVV art. 3:184 e.v. + bijlagen verenigingen",
       "confidence": "grounded",
       "source": {
@@ -91,13 +95,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "VZW Quelle de Vie genereert € 250.000 omzet via café-uitbating + € 15.000 lidgelden + € 8.000 subsidies → drie aparte rubrieken in RR."
+        }
+      ]
     },
     {
       "titel": "Neerlegging bij griffie (zeer klein) of NBB (klein/groot)",
       "wat": "Zeer kleine verenigingen leggen hun jaarrekening neer bij de griffie van de ondernemingsrechtbank (vereenvoudigde versie). Kleine en grote verenigingen leggen bij de NBB-Balanscentrale, zoals vennootschappen.",
       "waarom": "Praktische uitzondering voor de allereenvoudigste verenigingen — griffie-neerlegging is goedkoper en directer.",
-      "voorbeeld_inline": "VZW Quelle de Vie groeit boven € 391.000 ontvangsten → vanaf dan klein → neerlegging bij NBB-Balanscentrale, niet meer griffie.",
       "grondslag": "WVV art. 3:47 (verenigingen)",
       "confidence": "grounded",
       "source": {
@@ -112,7 +121,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "VZW Quelle de Vie groeit boven € 391.000 ontvangsten → vanaf dan klein → neerlegging bij NBB-Balanscentrale, niet meer griffie."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -175,5 +190,5 @@
       "omschrijving": "VZW Quelle de Vie (kleine VZW met economische activiteit, € 250.000 omzet, 3 werknemers) → verkort VZW-schema; balans toont 'Fondsen van de vereniging' i.p.v. 'Kapitaal'."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

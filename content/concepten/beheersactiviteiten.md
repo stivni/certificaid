@@ -35,7 +35,6 @@ Beheersactiviteiten zijn de concrete procedures en handelingen die de ondernemin
 
 **Waarom?** Een goed IC-systeem combineert minstens uit elke categorie — geen enkele aanpak dekt alles af.
 
-**Voorbeeld**: Bij Yperse Werkplaats BV: toegangsbadge magazijn (fysiek) + dubbele handtekening boven drempel (autorisatie) + maandelijkse stockcount door extern (verificatie) + scheiding aankoop/ontvangst/betaling (segregation).
 
 _Grondslag: COSO-doctrine_
 
@@ -48,4 +47,7 @@ Preventief = ontwerpt fouten/fraude weg vóór ze gebeuren (autorisaties, functi
 
 _Grondslag: COSO-doctrine_
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

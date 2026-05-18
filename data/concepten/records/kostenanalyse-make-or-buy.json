@@ -34,21 +34,31 @@
       "titel": "Relevante versus niet-relevante kosten",
       "wat": "Relevant: kosten die verdwijnen bij uitbesteden (vermijdbare variabele kosten, vermijdbare vaste kosten zoals afdelingshoofd dat niet meer nodig is). Niet-relevant: sunk costs (al gemaakt) en niet-vermijdbare overhead (algemene directie, hoofdkantoor).",
       "waarom": "Volledige kostprijs bevat niet-vermijdbare kosten die ook na uitbesteden blijven bestaan — gebruik die niet in vergelijking.",
-      "voorbeeld_inline": "Yperse Werkplaats BV overweegt Spinnerij te outsourcen. Volledige kostprijs Spinnerij: € 1.450.000/jaar. Maar bij uitbesteden vervalt loon Spinnerij-personeel (€ 850.000) + onderhoudscontract (€ 80.000) + variabele wol-aankoop (€ 350.000) = € 1.280.000 vermijdbaar. De overige € 170.000 (toegerekende algemene overhead, afschrijving gebouw) blijft. Vergelijk dus € 1.280.000 met de offerteprijs van € 1.380.000 → eigen productie € 100.000 goedkoper.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV overweegt Spinnerij te outsourcen. Volledige kostprijs Spinnerij: € 1.450.000/jaar. Maar bij uitbesteden vervalt loon Spinnerij-personeel (€ 850.000) + onderhoudscontract (€ 80.000) + variabele wol-aankoop (€ 350.000) = € 1.280.000 vermijdbaar. De overige € 170.000 (toegerekende algemene overhead, afschrijving gebouw) blijft. Vergelijk dus € 1.280.000 met de offerteprijs van € 1.380.000 → eigen productie € 100.000 goedkoper."
+        }
+      ]
     },
     {
       "titel": "Kwalitatieve factoren",
       "wat": "Naast cijfers: levertijd-betrouwbaarheid, kwaliteitscontrole, intellectueel eigendom, capaciteit-flexibiliteit, afhankelijkheid van leverancier.",
       "waarom": "Beslissing puur op kostprijs is risico bij strategische componenten.",
-      "voorbeeld_inline": "Voor Yperse Werkplaats BV is wol-spinnen mogelijk een strategisch differentiatie-element (eigen recept). Zelfs als uitbesteden € 100.000 goedkoper is, kan eigen productie aangewezen blijven om kwaliteit en differentiatie te behouden.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Voor Yperse Werkplaats BV is wol-spinnen mogelijk een strategisch differentiatie-element (eigen recept). Zelfs als uitbesteden € 100.000 goedkoper is, kan eigen productie aangewezen blijven om kwaliteit en differentiatie te behouden."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -75,5 +85,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

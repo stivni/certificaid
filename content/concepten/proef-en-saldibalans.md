@@ -35,7 +35,6 @@ Elke rekening krijgt vier cijfers: (1) totaal debetboekingen, (2) totaal creditb
 
 **Waarom?** De gelijkheid debet = credit op het einde is het ultieme bewijs dat de dubbele boekhouding intern consistent is.
 
-**Voorbeeld**: Rekening 400 Klanten: debet € 850.000, credit € 720.000 → saldo debet € 130.000. Wordt op balans onder 'Vorderingen op ten hoogste een jaar'.
 
 _Grondslag: CBN-advies 174/1_
 
@@ -45,7 +44,6 @@ _Grondslag: CBN-advies 174/1_
 
 **Waarom?** Een goede boekhouding produceert maandelijks een proef- en saldibalans als 'reality check'.
 
-**Voorbeeld**: Bestuurder van Rotex Roeselare NV vraagt elke maand de proef- en saldibalans → kan resultaat en cashpositie volgen zonder volle jaarrekening op te maken.
 
 _Grondslag: Praktijk + CBN-advies 174/1_
 
@@ -55,7 +53,6 @@ Eerst maakt men een **voorlopige** proef- en saldibalans op vóór eindejaarsver
 
 **Waarom?** Twee versies maken zichtbaar wat de eindejaarsverrichtingen aan de cijfers veranderen.
 
-**Voorbeeld**: Voorlopige PS-balans Naaiatelier Ninove BV: winst van € 180.000. Eindejaarsverrichtingen: + € 25.000 afschrijvingen + € 12.000 voorzieningen = winst daalt naar € 143.000.
 
 _Grondslag: WER art. III.85; CBN-advies 174/1_
 
@@ -75,6 +72,9 @@ _Grondslag: WER art. III.85; CBN-advies 174/1_
 
 - **Vereist kennis van**: [[minimum-algemeen-rekeningenstelsel]]
 - **Getriggerd door**: [[dubbel-boekhouden]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -36,7 +36,6 @@ Per vaste-activa-rubriek (immateriële, materiële, financiële) toont de tabel:
 
 **Waarom?** Door de bewegingen apart te tonen kan de analist de investerings-kasstroom uit het kasstroomoverzicht reconstrueren — wat balansvergelijking alleen niet toelaat.
 
-**Voorbeeld**: Rotex Roeselare NV — materiële vaste activa: openingswaarde € 10.000.000 + aanschaffingen € 2.500.000 − verkopen € 800.000 − afschrijvingen € 1.500.000 = eindwaarde € 10.200.000.
 
 _Grondslag: KB WVV toelichtingsstaten_
 
@@ -46,7 +45,6 @@ De aanschaffingen (cash uitstroom) en desinvesteringen (cash instroom) uit de ta
 
 **Waarom?** Zonder de mutatietabel kan een analist de investerings-kasstroom niet correct schatten — afschrijvingen zijn niet-kas (mogen niet in CFI) maar wijzigen wel de balans-eindwaarde.
 
-**Voorbeeld**: Rotex Roeselare NV: investerings-kasstroom = − € 2.500.000 (aanschaffingen) + € 800.000 (verkopen) = − € 1.700.000.
 
 _Grondslag: Vakdoctrine — gebruik van mutatietabel in kasstroomanalyse_
 
@@ -62,6 +60,9 @@ _Grondslag: Vakdoctrine — gebruik van mutatietabel in kasstroomanalyse_
 ## Zie ook
 
 - **Vereist kennis van**: [[kasstroomoverzicht-drie-segmenten]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

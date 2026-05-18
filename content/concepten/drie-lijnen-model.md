@@ -36,7 +36,6 @@ De afdelingen en processen die risico's nemen in hun dagelijkse werking en de IC
 
 **Waarom?** IC moet ingebed zijn waar het risico ontstaat — niet pas later van buitenaf opgelegd worden.
 
-**Voorbeeld**: Aankoopdirecteur Tom Lefèvre tekent elke bestelling > € 25.000 af; magazijnier Bart toetst goederen tegen bestelbon. Beiden zitten in lijn 1.
 
 _Grondslag: IIA Three Lines Model_
 
@@ -46,7 +45,6 @@ Beleidsmatige functies (risk management, compliance, kwaliteit) die methodologie
 
 **Waarom?** Operationele lijn heeft niet altijd tijd of expertise om de juiste methodologie te kiezen — lijn 2 brengt expertise.
 
-**Voorbeeld**: Risk Officer Marleen De Cock werkt de risicomatrix uit, doet compliance reviews, adviseert directie over framework-wijzigingen.
 
 _Grondslag: IIA Three Lines Model_
 
@@ -56,7 +54,6 @@ Onafhankelijke evaluatie van zowel lijn 1 als lijn 2. Rapporteert aan raad van b
 
 **Waarom?** Zonder onafhankelijke derde lijn kunnen lijnen 1 en 2 elkaar dekken — niemand kijkt critisch naar het geheel.
 
-**Voorbeeld**: Sofie Janssens (IA-directeur) test in haar jaarprogramma 4 cycli volledig en rapporteert bevindingen + actieplan aan het auditcomité.
 
 _Grondslag: IIA Three Lines Model_
 
@@ -73,4 +70,7 @@ _Grondslag: IIA Three Lines Model_
 > [!tip]- KMO-aanpassing
 > Bij KMO's zijn de drie lijnen vaak samengeperst in dezelfde persoon. Compensatie via externe accountant + periodieke management self-assessment. Volledige scheiding is onmogelijk; bewustzijn van het model helpt om risico's te benoemen. 🤖
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

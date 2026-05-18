@@ -35,7 +35,6 @@ De jaarrekening geeft in alle van materieel belang zijnde opzichten een getrouw 
 
 **Waarom?** De default-uitkomst als de audit niets materieels heeft gedetecteerd.
 
-**Voorbeeld**: Bij Rotex Roeselare NV vindt Sofie Janssens geen materiële afwijkingen → goedkeurend oordeel zonder voorbehoud.
 
 _Grondslag: ITAA KMO-controlenorm §117_
 
@@ -45,7 +44,6 @@ _Grondslag: ITAA KMO-controlenorm §117_
 
 **Waarom?** Tussenoordeel: er zijn problemen, maar niet zo erg dat de hele jaarrekening onbruikbaar wordt.
 
-**Voorbeeld**: Sofie Janssens stelt vast dat één deelneming van Rotex met € 250.000 te hoog gewaardeerd is — materieel maar geïsoleerd. Oordeel met voorbehoud: 'naar ons oordeel, behoudens de overwaardering van de deelneming X, geeft de jaarrekening een getrouw beeld'.
 
 _Grondslag: ITAA KMO-controlenorm §119_
 
@@ -55,7 +53,6 @@ Materiële afwijkingen MET diepgaande invloed: de jaarrekening geeft GEEN getrou
 
 **Waarom?** Wanneer de afwijking zo erg is dat één paragraaf voorbehoud niet volstaat — een afzonderlijke afwijking benoemen zou misleiden.
 
-**Voorbeeld**: Sofie Janssens stelt vast dat Naaiatelier Ninove BV haar voorraden globaal en systematisch met € 1.200.000 heeft overgewaardeerd, wat de hele balans en het resultaat omslaat. Afkeurend oordeel.
 
 _Grondslag: ITAA KMO-controlenorm §120_
 
@@ -65,7 +62,6 @@ Onmogelijk om voldoende en geschikte assurance-informatie te verkrijgen, EN de m
 
 **Waarom?** Bv. de cliënt weigert toegang tot kerndocumenten, of een scope-beperking maakt audit onmogelijk.
 
-**Voorbeeld**: Meubelzaak Mertens BV weigert de openingsbalans en de aankoopfacturen voor de eerste jaarhelft beschikbaar te stellen. Sofie Janssens kan de voorraadwaardering niet auditeren → onthouding van oordeel.
 
 _Grondslag: ITAA KMO-controlenorm §118_
 
@@ -73,6 +69,9 @@ _Grondslag: ITAA KMO-controlenorm §118_
 ## Zie ook
 
 - **Vereist kennis van**: [[materieel-belang-audit]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

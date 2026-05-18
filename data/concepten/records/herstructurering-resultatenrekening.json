@@ -42,7 +42,6 @@
       "titel": "Vier blokken: bedrijf, financieel, uitzonderlijk, belasting",
       "wat": "Groepeer de RR-rubrieken volgens hun aard: bedrijfsopbrengsten/kosten (60-64 + 70-74), financiële opbrengsten/kosten (65 + 75), uitzonderlijke opbrengsten/kosten (66 + 76 — verdwijnt in NIEUW WVV-schema), belastingen op resultaat (67 + 77).",
       "waarom": "Elk blok beantwoordt een ander analyse-onderwerp: bedrijf = winstgevendheid kernactiviteit; financieel = financieringskost-impact; uitzonderlijk = eenmalige items te filteren; belasting = effectieve aanslagvoet.",
-      "voorbeeld_inline": "Rotex Roeselare NV — bedrijfsresultaat € 6.000.000, financieel resultaat − € 600.000, belastingen − € 1.500.000, nettoresultaat € 2.500.000 (geen uitzonderlijk in nieuw schema).",
       "grondslag": "KB WVV — schema resultatenrekening",
       "confidence": "grounded",
       "source": {
@@ -57,13 +56,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV — bedrijfsresultaat € 6.000.000, financieel resultaat − € 600.000, belastingen − € 1.500.000, nettoresultaat € 2.500.000 (geen uitzonderlijk in nieuw schema)."
+        }
+      ]
     },
     {
       "titel": "Isoleer de toegevoegde waarde",
       "wat": "Binnen het bedrijfsblok wordt eerst de toegevoegde waarde berekend (zie [[toegevoegde-waarde-financiele-analyse]]). Onder de TW staan: personeelskosten, afschrijvingen, andere bedrijfskosten — als verdeling.",
       "waarom": "Dit maakt de RR een productiviteits-document: TW per VTE wordt zichtbaar, en de verdeling personeel/kapitaal/overheid is uitleesbaar.",
-      "voorbeeld_inline": "Rotex Roeselare NV — TW € 18.000.000 − personeelskosten € 12.000.000 − afschrijvingen € 1.500.000 − andere bedrijfskosten = bedrijfsresultaat € 6.000.000 (na correctie).",
       "grondslag": "Vakdoctrine financiële analyse",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -78,13 +82,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV — TW € 18.000.000 − personeelskosten € 12.000.000 − afschrijvingen € 1.500.000 − andere bedrijfskosten = bedrijfsresultaat € 6.000.000 (na correctie)."
+        }
+      ]
     },
     {
       "titel": "Verkort/microschema vraagt meer werk",
       "wat": "In verkort schema (rubrieken 60/61 samengevoegd) of microschema (verdere samenvoegingen) zijn aankopen handelsgoederen en diensten in één post — de TW-berekening vereist een schatting of toelichting.",
       "waarom": "Een grondige analyse van een kleine BV (verkort/micro) vraagt om bijkomende informatie buiten de jaarrekening (toelichting, navragen bij bestuursorgaan). Dit is een gekende beperking, geen fout in de analyse.",
-      "voorbeeld_inline": "Meubelzaak Mertens BV (verkort schema): rubriek 60/61 = € 600.000 — onmogelijk om aankopen handelsgoederen van diensten te scheiden zonder toelichting. TW-detail blijft dus geschat.",
       "grondslag": "KB WVV — verkort en microschema",
       "confidence": "grounded",
       "source": {
@@ -99,7 +108,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Meubelzaak Mertens BV (verkort schema): rubriek 60/61 = € 600.000 — onmogelijk om aankopen handelsgoederen van diensten te scheiden zonder toelichting. TW-detail blijft dus geschat."
+        }
+      ]
     }
   ],
   "vergelijkingsparen": [
@@ -132,5 +147,5 @@
       "confidence": "grounded"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

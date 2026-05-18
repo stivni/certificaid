@@ -34,7 +34,6 @@ Alleen revisoren ingeschreven bij het IBR mogen wettelijke commissarisopdrachten
 
 **Waarom?** Wet wil onafhankelijkheid en deskundigheid waarborgen — vandaar het beroepsmonopolie en de IBR-tucht.
 
-**Voorbeeld**: Bouwwerf Beerse BV groeit boven de groottedrempels → moet een commissaris aanstellen → enkel een IBR-revisor komt in aanmerking.
 
 _Grondslag: WVV art. 3:72; Wet 7 december 2016_
 
@@ -44,7 +43,6 @@ _Grondslag: WVV art. 3:72; Wet 7 december 2016_
 
 **Waarom?** Vergelijkbare structuur als ITAA, maar voor revisoren en gericht op grote vennootschappen.
 
-**Voorbeeld**: Een commissaris die zijn onafhankelijkheid niet bewaart (bv. ook fiscale aangifte deed voor dezelfde klant) → tuchtzaak voor het IBR.
 
 _Grondslag: Wet 7 december 2016_
 
@@ -52,6 +50,9 @@ _Grondslag: Wet 7 december 2016_
 ## Zie ook
 
 - **Vereist kennis van**: [[commissaris]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

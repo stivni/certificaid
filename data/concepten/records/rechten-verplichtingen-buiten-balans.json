@@ -50,7 +50,6 @@
       "titel": "Klasse 0 — Categorieën",
       "wat": "(00) Zekerheden door derden gesteld voor rekening van de onderneming, (01) Persoonlijke zekerheden gesteld voor rekening van derden, (02) Zakelijke zekerheden op eigen activa, (03) Ontvangen zekerheden, (04) Goederen en waarden gehouden door derden ten bate van de onderneming, (05) Verplichtingen tot aan- en verkoop van vaste activa, (06) Termijnovereenkomsten, (07) Goederen van derden gehouden door de onderneming, (09) Diverse rechten en verplichtingen.",
       "waarom": "Een gestructureerde 'spiegel' van alle waarschijnlijke verplichtingen die ooit de balans kunnen raken. Zonder deze opname zou de jaarrekening misleidend onvolledig zijn.",
-      "voorbeeld_inline": "Transport Tongeren BV heeft een retentierecht ontvangen van haar leasinggever op haar vrachtwagens (waarborg € 45.000) → boeking rekening 03 'Ontvangen zekerheden' € 45.000. Tegelijk heeft de NV haar vrachtwagens als zakelijke zekerheid bij eigen lening → rekening 02 'Zakelijke zekerheden op eigen activa' € 380.000.",
       "grondslag": "MAR klasse 0",
       "confidence": "grounded",
       "source": {
@@ -65,13 +64,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Transport Tongeren BV heeft een retentierecht ontvangen van haar leasinggever op haar vrachtwagens (waarborg € 45.000) → boeking rekening 03 'Ontvangen zekerheden' € 45.000. Tegelijk heeft de NV haar vrachtwagens als zakelijke zekerheid bij eigen lening → rekening 02 'Zakelijke zekerheden op eigen activa' € 380.000."
+        }
+      ]
     },
     {
       "titel": "Toelichting verplicht",
       "wat": "Hoewel rekeningen klasse 0 niet in de balans verschijnen, MOETEN de bedragen en aard van rechten/verplichtingen buiten balans verplicht in de **toelichting** bij de jaarrekening worden vermeld (rubriek 13 toelichting van het volledige schema).",
       "waarom": "Het volledigheidsbeginsel vereist dat de gebruiker alle relevante verplichtingen ziet — ook als ze nu nog niet op balans staan. Een persoonlijke borg van € 850.000 is een groot signaal voor schuldeisers, ook al staat het 'naast' de balans.",
-      "voorbeeld_inline": "Toelichting Aurelia Holding NV: 'Persoonlijke borgstelling € 850.000 gesteld voor bankkrediet van Brugse Brouwerij BV (verbonden onderneming), looptijd 7 jaar.'",
       "grondslag": "KB WVV jaarrekeningschema + toelichtingsvereisten",
       "confidence": "grounded",
       "source": {
@@ -86,13 +90,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Toelichting Aurelia Holding NV: 'Persoonlijke borgstelling € 850.000 gesteld voor bankkrediet van Brugse Brouwerij BV (verbonden onderneming), looptijd 7 jaar.'"
+        }
+      ]
     },
     {
       "titel": "Boeking via tegenrekeningen klasse 0",
       "wat": "Voor elk recht/verplichting buiten balans worden TWEE rekeningen in klasse 0 gebruikt: één voor het recht/verplichting zelf, één voor de tegenpost. Bv. rekening 010 'Persoonlijke zekerheden voor derden' tegen rekening 011 'Crediteuren'. De saldi compenseren elkaar; klasse 0 staat altijd in evenwicht.",
       "waarom": "Symmetrische registratie — hetzelfde principe als dubbel boekhouden — geeft een interne consistentiecheck.",
-      "voorbeeld_inline": "Aurelia Holding NV borgstelling € 850.000: Debet 010 Persoonlijke zekerheden voor rekening van derden € 850.000 / Credit 011 Crediteuren van persoonlijke zekerheden € 850.000.",
       "grondslag": "MAR klasse 0",
       "confidence": "grounded",
       "source": {
@@ -107,13 +116,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV borgstelling € 850.000: Debet 010 Persoonlijke zekerheden voor rekening van derden € 850.000 / Credit 011 Crediteuren van persoonlijke zekerheden € 850.000."
+        }
+      ]
     },
     {
       "titel": "Migratie naar balans bij realisatie",
       "wat": "Wanneer een recht/verplichting concretiseert (borgsteller wordt aangesproken, optie wordt uitgeoefend, geschil leidt tot vonnis), wordt het bedrag uit klasse 0 verwijderd en als een echte boeking op de balans of in RR opgenomen.",
       "waarom": "Klasse 0 is een 'waakkamer'; bij activering moet de transactie volledig in de gewone boekhouding doorlopen.",
-      "voorbeeld_inline": "Brugse Brouwerij BV (dochter van Aurelia) defaultoptreedt; bank roept persoonlijke borg op. Aurelia betaalt € 850.000. Boeking: (a) afboeking klasse 0: Debet 011 / Credit 010 € 850.000. (b) Werkelijke boeking: Debet 416 Vordering op verbonden ondernemingen € 850.000 / Credit 550 Bank € 850.000.",
       "grondslag": "MAR + algemene boekhoudkundige verwerking",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -128,7 +142,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Brugse Brouwerij BV (dochter van Aurelia) defaultoptreedt; bank roept persoonlijke borg op. Aurelia betaalt € 850.000. Boeking: (a) afboeking klasse 0: Debet 011 / Credit 010 € 850.000. (b) Werkelijke boeking: Debet 416 Vordering op verbonden ondernemingen € 850.000 / Credit 550 Bank € 850.000."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -213,5 +233,5 @@
       "omschrijving": "Aurelia Holding NV heeft op 31/12 een persoonlijke borgstelling gegeven voor een bankkrediet van € 850.000 verleend aan dochter Brugse Brouwerij BV. Geen balanspost — dochter blijft hoofdschuldenaar — MAAR opname op rekening 010 'Persoonlijke zekerheden gesteld voor rekening van derden' € 850.000. In toelichting: aard, ontvanger, bedrag, looptijd. Bij niet-betaling door dochter: omzetting in werkelijke verplichting en boeking op rekening 49 + klasse 65."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

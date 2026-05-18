@@ -74,7 +74,6 @@
       "titel": "Doel: harmonisatie en transparantie",
       "wat": "De verordening wil de **financiële informatie van beursgenoteerde EU-ondernemingen vergelijkbaar maken**. Eén taal voor alle EU-beurskoersen → betere werking van de kapitaalmarkt en de interne markt.",
       "waarom": "Investeerders vergelijken aandelen over landsgrenzen heen. Als elke lidstaat een eigen jaarrekeningstaal heeft, wordt vergelijken duur of onmogelijk. IFRS lost dat op met één set regels.",
-      "voorbeeld_inline": "Een Duitse pensioenfondsbeheerder kan Zelena Bio NV (België) rechtstreeks vergelijken met een Italiaanse en een Spaanse beursgenoteerde tegenhanger — alle drie rapporteren in IFRS.",
       "grondslag": "Verordening 1606/2002 art. 1",
       "confidence": "grounded",
       "source": {
@@ -89,13 +88,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een Duitse pensioenfondsbeheerder kan Zelena Bio NV (België) rechtstreeks vergelijken met een Italiaanse en een Spaanse beursgenoteerde tegenhanger — alle drie rapporteren in IFRS."
+        }
+      ]
     },
     {
       "titel": "Verplichting beursgenoteerden — geconsolideerd",
       "wat": "Een onderneming valt onder de verplichte IFRS-toepassing als (1) zij onder het recht van een EU-lidstaat valt én (2) haar effecten op de balansdatum zijn toegelaten tot de handel op een gereglementeerde markt van een lidstaat. De verplichting geldt **alleen voor de geconsolideerde jaarrekening** — niet voor de enkelvoudige jaarrekening van de moeder.",
       "waarom": "Het beleggerspubliek koopt typisch aandelen van een groep, niet van een enkele rechtspersoon. De groepscijfers (geconsolideerd) zijn dus de relevante informatie. De enkelvoudige cijfers blijven dienen voor uitkeerbaarheid en fiscale doeleinden, waarvoor Belgisch GAAP volstaat.",
-      "voorbeeld_inline": "Zelena Bio NV bezit 100 % van Brugse Brouwerij BV en 80 % van Drukkerij Dendermonde BV. De geconsolideerde jaarrekening Zelena Bio Groep volgt IFRS. De statutaire jaarrekening van Zelena Bio NV (als rechtspersoon, met haar deelnemingen als balanspost) volgt Belgisch GAAP.",
       "grondslag": "Verordening 1606/2002 art. 4",
       "confidence": "grounded",
       "source": {
@@ -110,13 +114,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio NV bezit 100 % van Brugse Brouwerij BV en 80 % van Drukkerij Dendermonde BV. De geconsolideerde jaarrekening Zelena Bio Groep volgt IFRS. De statutaire jaarrekening van Zelena Bio NV (als rechtspersoon, met haar deelnemingen als balanspost) volgt Belgisch GAAP."
+        }
+      ]
     },
     {
       "titel": "Goedkeuringsprocedure — endorsement",
       "wat": "Niet elke door de IASB uitgegeven standaard geldt automatisch in de EU. De Europese Commissie beslist via een aparte procedure (artikel 6 lid 2) of een standaard goedgekeurd ('endorsed') wordt. Goedgekeurde standaarden worden gepubliceerd in een EU-verordening — voor de praktijk vooral Verordening (EU) 2023/1803 (geconsolideerde IFRS-tekst). Bij elke nieuwe IFRS-versie checkt de stagiair eerst: is dit al endorsed?",
       "waarom": "De EU houdt soevereiniteit over wat er in haar jaarrekeningen geldt. De endorsement-stap is een filter: standaarden moeten in het Europees openbaar belang zijn en voldoen aan begrijpelijkheid, relevantie, betrouwbaarheid en vergelijkbaarheid.",
-      "voorbeeld_inline": "IFRS 17 Verzekeringscontracten is door de IASB in 2017 uitgegeven maar pas door de EU goedgekeurd op 19 november 2021 (Verordening 2021/2036). Een Belgische verzekeraar mocht IFRS 17 dus niet eerder toepassen in zijn endorsed-set.",
       "grondslag": "Verordening 1606/2002 art. 3 + art. 6",
       "confidence": "grounded",
       "source": {
@@ -131,13 +140,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "IFRS 17 Verzekeringscontracten is door de IASB in 2017 uitgegeven maar pas door de EU goedgekeurd op 19 november 2021 (Verordening 2021/2036). Een Belgische verzekeraar mocht IFRS 17 dus niet eerder toepassen in zijn endorsed-set."
+        }
+      ]
     },
     {
       "titel": "Lidstatenoptie — niet-beursgenoteerden",
       "wat": "Lidstaten **mogen** toestaan of verplichten dat (a) beursgenoteerden hun **enkelvoudige** jaarrekening eveneens onder IFRS opstellen, of (b) **niet-beursgenoteerden** hun geconsolideerde en/of enkelvoudige jaarrekening onder IFRS opstellen. België heeft van die optie weinig gebruik gemaakt: voor banken/verzekeraars en voor consolidatie van consortia bestaat een beperkte mogelijkheid (zie CBN 2016/19); voor de doorsnee onderneming blijft IFRS-toepassing een uitzondering.",
       "waarom": "Lidstaten kiezen op basis van hun economische realiteit. België heeft veel kleine en middelgrote ondernemingen voor wie de IFRS-overgang te zwaar zou zijn; Belgisch GAAP volstaat voor die doelgroep.",
-      "voorbeeld_inline": "Rotex Roeselare NV (grote NV, niet beursgenoteerd) heeft géén optie om vrijwillig op IFRS over te stappen voor haar enkelvoudige jaarrekening. Wil zij toch IFRS-informatie tonen aan een Amerikaanse financier? Dan stelt zij een aparte IFRS-rapportering op naast haar wettelijke Belgisch-GAAP-jaarrekening.",
       "grondslag": "Verordening 1606/2002 art. 5 + CBN 2016/19",
       "confidence": "grounded",
       "source": {
@@ -157,7 +171,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV (grote NV, niet beursgenoteerd) heeft géén optie om vrijwillig op IFRS over te stappen voor haar enkelvoudige jaarrekening. Wil zij toch IFRS-informatie tonen aan een Amerikaanse financier? Dan stelt zij een aparte IFRS-rapportering op naast haar wettelijke Belgisch-GAAP-jaarrekening."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -280,5 +300,5 @@
       "omschrijving": "Zelena Bio NV is beursgenoteerd op Euronext Brussel en moet voor boekjaar 2026 haar **geconsolideerde** jaarrekening (omzet groep € 350.000.000) opstellen volgens de door de Europese Commissie goedgekeurde IFRS. Haar enkelvoudige jaarrekening (statutaire jaarrekening Zelena Bio NV als rechtspersoon) blijft echter volgens Belgisch GAAP (KB WVV) opgesteld — IFRS wordt in België niet toegelaten voor enkelvoudige rekeningen van vennootschappen."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

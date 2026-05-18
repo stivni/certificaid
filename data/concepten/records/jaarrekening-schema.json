@@ -60,7 +60,6 @@
       "titel": "Volledig schema (bijlage 1)",
       "wat": "Voor grote vennootschappen. Bevat een gedetailleerde balans (met onderverdelingen), een resultatenrekening volgens een vast model (operationele kosten per aard óf per functie), en een uitgebreide toelichting met onder andere: staat van de vaste activa, kapitaalstaat, ARO, niet in de balans opgenomen rechten en verplichtingen.",
       "waarom": "Grote vennootschappen hebben meer stakeholders (banken, leveranciers, fiscus, eventueel beursanalyse) en dus nood aan rijkere informatie.",
-      "voorbeeld_inline": "Rotex Roeselare NV (550 werknemers, € 95M omzet) → volledig schema. Toelichting bevat detail over leasing, voorzieningen, niet-balansrechten.",
       "grondslag": "KB-WVV bijlage 1; WVV art. 3:5",
       "confidence": "grounded",
       "source": {
@@ -75,13 +74,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV (550 werknemers, € 95M omzet) → volledig schema. Toelichting bevat detail over leasing, voorzieningen, niet-balansrechten."
+        }
+      ]
     },
     {
       "titel": "Verkort schema (bijlage 2)",
       "wat": "Voor kleine vennootschappen. Beknopter dan volledig: minder subrubrieken op balans, minder verplichte toelichting-elementen, geen detail per actief- of passief-categorie. Wel nog steeds een proper balans en RR.",
       "waarom": "Kleinere KMO's hebben minder stakeholders die zo'n diep detail nodig hebben.",
-      "voorbeeld_inline": "Meubelzaak Mertens BV (12 werknemers, € 4,5M omzet) → verkort schema. Hoeft geen staat van de oprichtingskosten gedetailleerd op te nemen.",
       "grondslag": "KB-WVV bijlage 2; WVV art. 3:6",
       "confidence": "grounded",
       "source": {
@@ -96,13 +100,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Meubelzaak Mertens BV (12 werknemers, € 4,5M omzet) → verkort schema. Hoeft geen staat van de oprichtingskosten gedetailleerd op te nemen."
+        }
+      ]
     },
     {
       "titel": "Microschema (bijlage 3)",
       "wat": "Het kleinste schema, ingevoerd door Richtlijn 2013/34/EU. Bestemd voor microvennootschappen (zelfstandige micro, geen moeder/dochter). Nog beknopter dan verkort: balans is samengeperst, RR enkel hoofdcategorieën, toelichting minimaal.",
       "waarom": "Voor microvennootschappen weegt de administratieve last anders zwaar door. EU-keuze in 2013 om dit drempelregime toe te laten.",
-      "voorbeeld_inline": "Oprichtingen Oostende BV (4 werknemers, € 400K omzet, geen dochter) → microschema. Toelichting beperkt zich tot de allernoodzakelijkste vermeldingen.",
       "grondslag": "KB-WVV bijlage 3; WVV art. 3:7",
       "confidence": "grounded",
       "source": {
@@ -117,13 +126,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Oprichtingen Oostende BV (4 werknemers, € 400K omzet, geen dochter) → microschema. Toelichting beperkt zich tot de allernoodzakelijkste vermeldingen."
+        }
+      ]
     },
     {
       "titel": "Schema's voor verenigingen en stichtingen",
       "wat": "VZW, IVZW en stichtingen hebben aparte schema's (bijlagen die overeenkomen met klein/groot voor verenigingen) of een vereenvoudigde boekhouding voor zeer kleine verenigingen. Inhoudelijk lijken ze op het vennootschapsschema, maar met aanpassingen voor de verenigingscontext (geen kapitaal, wel fondsen; resultaat in plaats van winst).",
       "waarom": "Verenigingen hebben geen aandeelhouders en geen winstuitkering — daarom een aangepaste structuur.",
-      "voorbeeld_inline": "VZW Quelle de Vie (klein, met economische activiteit) → vereenvoudigd VZW-schema of klein VZW-schema, afhankelijk van groottecriteria voor verenigingen (WVV art. 1:28-1:29).",
       "grondslag": "KB-WVV art. 3:184 e.v.",
       "confidence": "grounded",
       "source": {
@@ -138,7 +152,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "VZW Quelle de Vie (klein, met economische activiteit) → vereenvoudigd VZW-schema of klein VZW-schema, afhankelijk van groottecriteria voor verenigingen (WVV art. 1:28-1:29)."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -201,5 +221,5 @@
       "omschrijving": "Rotex Roeselare NV (grote) → volledig schema. Meubelzaak Mertens BV (klein) → verkort schema. Oprichtingen Oostende BV (micro, geen dochter) → microschema."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

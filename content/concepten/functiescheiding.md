@@ -35,7 +35,6 @@ Functiescheiding is het verdelen van vier kritische taken — autoriseren, uitvo
 
 **Waarom?** Wie alle vier doet, kan elke transactie en zijn boekhoudkundige sporen manipuleren zonder controle.
 
-**Voorbeeld**: Bij Meubelzaak Mertens BV deed één werknemer kasontvangsten + bankreconciliatie + boekhouding. Detectie van € 15.000 verduistering kwam pas na 2 jaar — gemiste functiescheiding.
 
 _Grondslag: Internationaal audit-doctrine (COSO, ISA 315)_
 
@@ -45,7 +44,6 @@ Combinaties die nooit bij één persoon mogen liggen: (a) kasontvangst + bankboe
 
 **Waarom?** Elke combinatie geeft één persoon de macht om een fictieve transactie te creëren en de boekhoudkundige bewijzen te wissen.
 
-**Voorbeeld**: Combinatie 'HR-aanmelding + loonbetaling' = risico op fictieve werknemer ('ghost employee'). Bij Yperse Werkplaats BV maakt HR de loonberekening; CFO David tekent het bestand digitaal vóór upload naar de bank.
 
 _Grondslag: Internationaal audit-doctrine_
 
@@ -55,7 +53,6 @@ Bij kleine ondernemingen is volledige vier-functies-scheiding onmogelijk — er 
 
 **Waarom?** Geen scheiding zonder compensatie = open deur voor fouten en fraude. De ITAA-norm-kmo-controlenorm erkent deze specifieke context.
 
-**Voorbeeld**: Bij Praktijk Persenaire (eenmanszaak vrij beroep) doet de zaakvoerder alles zelf. Compensatie: de externe accountant doet maandelijks een kasreconciliatie en bekijkt de bankafschriften.
 
 _Grondslag: ITAA-norm-kmo-controlenorm §96_
 
@@ -83,6 +80,9 @@ _Grondslag: ITAA-norm-kmo-controlenorm §96_
 > ⚠️ Management override doorbreekt functiescheiding altijd. Specifieke detectie: ongebruikelijke journaalposten, periode-einde-aanpassingen, transacties met geliëerde partijen. 🤖
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

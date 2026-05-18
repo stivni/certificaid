@@ -44,31 +44,46 @@
       "titel": "Stap 1: directe kosten direct toerekenen",
       "wat": "Tel het verbruikte materiaal en de directe arbeid van elk product op via werkbonnen en materiaalbonnen.",
       "waarom": "Directe kosten zijn ondubbelzinnig toewijsbaar — geen verdeel-discussie.",
-      "voorbeeld_inline": "Yperse Werkplaats BV registreert per order 'partij tapijten': € 12.000 wol + € 4.500 directe arbeid = € 16.500 directe kost.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV registreert per order 'partij tapijten': € 12.000 wol + € 4.500 directe arbeid = € 16.500 directe kost."
+        }
+      ]
     },
     {
       "titel": "Stap 2: indirecte kosten via sleutel",
       "wat": "Verzamel alle indirecte kosten per kostencentrum. Bepaal een verdeelsleutel (directe arbeidsuren, machine-uren, materiaalkost). Bereken sleutel-tarief en pas toe op het product.",
       "waarom": "Zonder verdeling zou je 'volledige' kost niet halen.",
-      "voorbeeld_inline": "Yperse Werkplaats BV: € 1.200.000 indirect bij Weverij / 30.000 arbeidsuren = € 40/uur. Partij tapijten gebruikt 90 uur → € 3.600 toegerekend.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV: € 1.200.000 indirect bij Weverij / 30.000 arbeidsuren = € 40/uur. Partij tapijten gebruikt 90 uur → € 3.600 toegerekend."
+        }
+      ]
     },
     {
       "titel": "Stap 3: vervaardigingsprijs of bedrijfskostprijs",
       "wat": "Som direct + indirect = vervaardigingsprijs (wettelijk voor voorraad). Voor interne marge-analyse kan ook commerciële en administratieve overhead worden toegevoegd → 'bedrijfskostprijs'.",
       "waarom": "Onderscheid: vervaardigingsprijs voor balans (CBN 132/7); bedrijfskostprijs voor prijszetting en winstgevendheid-analyse.",
-      "voorbeeld_inline": "Yperse Werkplaats BV: vervaardigingsprijs partij tapijten = € 20.100. Bij toevoeging van commercieel + administratief (€ 1.800 via sleutel) → bedrijfskostprijs € 21.900. Verkoopprijs € 30.000 → marge € 8.100.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV: vervaardigingsprijs partij tapijten = € 20.100. Bij toevoeging van commercieel + administratief (€ 1.800 via sleutel) → bedrijfskostprijs € 21.900. Verkoopprijs € 30.000 → marge € 8.100."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -161,5 +176,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

@@ -36,7 +36,6 @@ IFRS 16 dwingt de entiteit eerst de IFRS 15-toets toe te passen (alinea 99): is 
 
 **Waarom?** Een sale-and-leaseback kan economisch een verkapte lening zijn. Als de verkoper-lessee de zeggenschap nooit echt overdroeg, zou meteen winstrealisatie en eigendomswijziging boeken een vertekend beeld geven. De IFRS 15-test filtert echte verkopen van pure financieringen.
 
-**Voorbeeld**: Twee varianten op Zelena Bio's productiehal-deal: (a) Aurelia neemt fysiek bezit, draagt onderhouds- en eigendomsrisico's, kan de hal verkopen aan derden — verkoop geldig, alinea 100-verwerking. (b) Aurelia heeft een terugkoopverplichting tegen vaste prijs op einde lease — geen werkelijke zeggenschapsoverdracht, alinea 103-verwerking (financiering).
 
 _Grondslag: IFRS 16 alinea 99 + IFRS 15-criteria_
 
@@ -46,7 +45,6 @@ Bij een geldige verkoop boekt de verkoper-lessee: (a) het ROU-actief tegen **een
 
 **Waarom?** Als de verkoper-lessee het actief blijft gebruiken, heeft hij niet alle rechten verkocht. Volledige winstrealisatie zou economisch onjuist zijn. Het splitsingsprincipe ('overgedragen rechten' versus 'behouden rechten') zorgt voor symmetrie tussen wat is verkocht en wat als winst telt.
 
-**Voorbeeld**: Zie record-niveau voorbeeld bij Zelena Bio: ROU = € 4.000.000 × (€ 3.894.000 / € 6.000.000) = € 2.596.000; opgenomen winst = € 2.000.000 × (€ 2.106.000 / € 6.000.000) ≈ € 702.000. De overige winst (€ 1.298.000) zit verwerkt in de relatief lagere ROU-waarde en kruist later via lagere afschrijving in het resultaat.
 
 _Grondslag: IFRS 16 alinea 100_
 
@@ -56,7 +54,6 @@ Bij een ongeldige verkoop (IFRS 15-toets niet doorstaan) blijft het actief op de
 
 **Waarom?** Als de zeggenschap niet werkelijk is overgegaan, is de transactie economisch een **gedekte lening** waarbij het actief enkel als zekerheid dient. Boekhoudkundig moet de balans dat reflecteren: actief blijft bij oorspronkelijke eigenaar; cash-instroom is een schuld, geen verkoop.
 
-**Voorbeeld**: Variant op Zelena Bio's deal: Aurelia ontvangt € 6.000.000 maar Zelena heeft een vaste terugkoopverplichting in jaar 10 voor € 1.000.000 en blijft alle risico's dragen. Zeggenschap is niet overgegaan. Zelena boekt: hal blijft op balans voor € 4.000.000, schuld aan Aurelia € 6.000.000; jaarlijkse lease-betalingen worden gesplitst in rente (IFRS 9 effectieve methode) + hoofdsom-aflossing.
 
 _Grondslag: IFRS 16 alinea 103 + IFRS 9_
 
@@ -66,7 +63,6 @@ Als de verkoopprijs of de lease-betalingen niet marktconform zijn, moet de entit
 
 **Waarom?** Sale-and-leaseback-deals worden vaak gestructureerd om resultaten te manipuleren — door bv. een te hoge verkoopprijs te koppelen aan extra hoge huur. Alinea 101-102 voorkomt dit door substance over form te verzekeren: niet-marktconforme elementen worden uitgesplitst en correct toegewezen aan respectievelijk lease-voorschot of financiering.
 
-**Voorbeeld**: Aurelia betaalt Zelena € 7.000.000 (reële waarde hal: € 6.000.000), in ruil voor verhoogde jaarlease € 580.000 (marktconform € 480.000). De extra € 1.000.000 verkoopprijs corrigeert tegen € 100.000 × annuïteit(10j;4%) = € 811.000 contante waarde extra lease. Aanpassing = min(€ 1.000.000; € 811.000) = € 811.000 wordt als additionele financiering (schuld) verwerkt; de eigenlijke verkoop is dan € 7.000.000 − € 811.000 = € 6.189.000 — dichter bij reële waarde.
 
 _Grondslag: IFRS 16 alinea 101-102_
 
@@ -76,7 +72,6 @@ De technische definitie van 'sale-and-leaseback' draait om **zeggenschap vóór 
 
 **Waarom?** Een onderneming die een nieuw actief via een lessor financiert (typisch bij autofinancieringen of equipment-leases waarbij de lessor van de fabrikant koopt) zou anders ten onrechte onder de strenge sale-and-leaseback-regels vallen. Het onderscheid 'al zeggenschap gehad' versus 'nooit zeggenschap gehad' filtert deze typische driehoekstransacties.
 
-**Voorbeeld**: Zelena Bio bezat de productiehal al jaren en verkoopt die nu aan Aurelia met terugleasing → sale-and-leaseback (alinea 98-103). Zou Zelena een nieuwe machine bestellen die direct door Aurelia bij de fabrikant gekocht en aan Zelena geleased wordt zonder dat Zelena tussentijds zeggenschap had, dan is dat een gewone lease (B47).
 
 _Grondslag: IFRS 16 B45-B47_
 
@@ -131,6 +126,9 @@ _Grondslag: IFRS 16 B45-B47_
 - **Vereist kennis van**: [[right-of-use-actief]]
 - **Vereist kennis van**: [[leaseverplichting-ifrs]]
 - **Vereist kennis van**: [[prestatieverplichting-ifrs-15]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

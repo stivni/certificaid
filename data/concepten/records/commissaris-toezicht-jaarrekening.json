@@ -45,7 +45,6 @@
       "titel": "Onthouding versus goedkeuring versus afkeurend",
       "wat": "De commissaris geeft één van vier verklaringen af: goedkeurend (zonder voorbehoud), met voorbehoud, afkeurend, of onthoudend (geen verklaring kunnen geven).",
       "waarom": "Het type verklaring is een eerste-rangs signaal voor de financiële analist. Een onthoudende of afkeurende verklaring betekent dat de jaarrekening niet (volledig) bruikbaar is voor analyse.",
-      "voorbeeld_inline": "Bij Rotex Roeselare NV geeft de commissaris een goedkeurende verklaring zonder voorbehoud — ratio's mogen vertrouwd worden.",
       "grondslag": "ISA-normen + IBR-normen",
       "confidence": "inferred",
       "source": {
@@ -60,13 +59,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Rotex Roeselare NV geeft de commissaris een goedkeurende verklaring zonder voorbehoud — ratio's mogen vertrouwd worden."
+        }
+      ]
     },
     {
       "titel": "Vermelding in jaarrekening",
       "wat": "De jaarrekening vermeldt de gegevens van de commissaris (naam, vennootschap, IBR-nummer). Voor vennootschappen met klassieke bestuursvorm de bestuurders, voor duale vennootschappen de leden van de directieraad en raad van toezicht.",
       "waarom": "Transparantie naar gebruikers: wie heeft toezicht uitgeoefend en kan worden aangesproken op de controle.",
-      "voorbeeld_inline": "Op de eerste pagina van de jaarrekening Rotex Roeselare NV staat 'Commissaris: Sofie Janssens, [audit-vennootschap]'.",
       "grondslag": "CBN-2020/09",
       "confidence": "grounded",
       "source": {
@@ -81,7 +85,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Op de eerste pagina van de jaarrekening Rotex Roeselare NV staat 'Commissaris: Sofie Janssens, [audit-vennootschap]'."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -113,5 +123,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

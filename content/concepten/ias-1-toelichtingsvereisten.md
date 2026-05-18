@@ -37,7 +37,6 @@ De entiteit moet in de toelichting (a) de **significante oordeelsvorming** besch
 
 **Waarom?** IFRS-cijfers berusten op talloze schattingen. Wat de management 'denkt' en welke onzekerheid daaronder zit, is voor gebruikers cruciaal om de cijfers naar waarde te schatten.
 
-**Voorbeeld**: Zelena Bio's toelichting noot 3 vermeldt: 'Bij de jaarlijkse impairment-test van goodwill (€ 18.000.000 boekwaarde) is uitgegaan van een groeivoet van 2,5% over 5 jaar en een WACC van 8,3%. Een stijging van WACC met 1%-punt zou een impairment-verlies van circa € 2.700.000 tot gevolg hebben.'
 
 _Grondslag: IAS 1 alinea 122 + 125_
 
@@ -47,7 +46,6 @@ De entiteit moet informatie verschaffen over haar **doelstellingen, gedragslijne
 
 **Waarom?** Beleggers en analisten willen weten hoe het management de kapitaalpositie ziet — niet alleen de cijfers maar het beleid erachter. Vooral bij banken en verzekeraars is dit cruciaal voor toezicht.
 
-**Voorbeeld**: Zelena Bio's toelichting noot 32 'Kapitaalbeheer': 'De Groep beschouwt eigen vermogen + langlopende schulden als beheerd kapitaal. Doelstelling: financiële slagkracht behouden met debt/equity ratio onder 1,5. Per 31 december 2026: debt/equity = 0,8 — ruim onder doel. Kapitaalbeleid niet gewijzigd in 2026.'
 
 _Grondslag: IAS 1 alinea 134-136_
 
@@ -57,7 +55,6 @@ IAS 24 (Informatieverschaffing over verbonden partijen) vereist gedetailleerde t
 
 **Waarom?** Verbonden-partij-transacties bevatten een inherent risico van niet-marktconforme voorwaarden. Toelichting maakt mogelijke value transfers tussen verbonden ondernemingen zichtbaar voor minderheidsbeleggers en crediteuren.
 
-**Voorbeeld**: Zelena Bio's toelichting noot 41 'Verbonden partijen': 'Transacties met Brusselse Klinieken (joint venture, 50% belang Zelena): omzet € 12.500.000 (marktconforme prijzen), openstaande handelsvordering 31 december € 2.300.000. Bezoldigingen sleutelfunctionarissen (5 personen) totaal € 4.800.000.'
 
 _Grondslag: IAS 24 + IAS 1 alinea 138_
 
@@ -84,6 +81,9 @@ _Grondslag: IAS 24 + IAS 1 alinea 138_
 > _Bron: IAS 1 alinea 117_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

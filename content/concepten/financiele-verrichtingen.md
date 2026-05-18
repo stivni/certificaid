@@ -35,7 +35,6 @@ _Bron: MAR klasse 65 + 75_
 
 **Waarom?** Aparte rubriek voor de prijs van financiering en wisselkoersrisico. Helpt om operationele performance te scheiden van schuldlastdruk.
 
-**Voorbeeld**: Uitgeverij Ukkel NV betaalt jaarlijks € 28.500 intrest op € 685.000 hypothecaire lening (4,16 %). Boeking: Debet 650 Intresten op leningen € 28.500 / Credit 550 Bank € 28.500.
 
 _Grondslag: MAR klasse 65_
 
@@ -45,7 +44,6 @@ _Grondslag: MAR klasse 65_
 
 **Waarom?** Symmetrische tegenhanger van klasse 65. Dividend van een deelneming staat in 750, niet in 70 omzet — duidelijk gescheiden van de operationele cyclus.
 
-**Voorbeeld**: Aurelia Holding NV ontvangt dividend van Brugse Brouwerij BV € 80.000. Boeking: Debet 550 Bank € 80.000 / Credit 7501 Opbrengsten van deelnemingen in verbonden ondernemingen € 80.000.
 
 _Grondslag: MAR klasse 75_
 
@@ -55,7 +53,6 @@ Bij vorderingen of schulden in vreemde valuta ontstaan wisselkoersverschillen tu
 
 **Waarom?** Wisselkoersrisico is geen operationeel maar financieel risico; aparte boeking maakt het zichtbaar voor analyse.
 
-**Voorbeeld**: Uitgeverij Ukkel NV heeft een Britse vordering £ 50.000 (geboekt aan 1,20 = € 60.000) maar bij ontvangst is koers 1,15 → ontvangen € 57.500. Wisselkoersverlies € 2.500 op rekening 654.
 
 _Grondslag: MAR + KB WVV art. 3:39_
 
@@ -85,6 +82,9 @@ _Grondslag: MAR + KB WVV art. 3:39_
 > _Bron: MAR klasse 6 vs 7_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -44,7 +44,6 @@
       "titel": "Spiegel-boeking buiten de balans",
       "wat": "Elke klasse-0-rekening heeft een tegenrekening: bv. '03 Persoonlijke zekerheden gesteld voor rekening van derden' tegen '030 Crediteuren wegens persoonlijke zekerheden'. Beide bedragen heffen elkaar op (= geen balans-impact).",
       "waarom": "Door de spiegel-boeking blijven de verplichtingen traceerbaar in de boekhouding zonder ze in de gewone balans op te nemen. De toelichting put uit deze rekeningen.",
-      "voorbeeld_inline": "Rotex Roeselare NV staat zich borg voor € 2.000.000 — boeking: '03 ... € 2.000.000' tegen '030 ... € 2.000.000'. Saldo nul; informatie wel beschikbaar voor de toelichting.",
       "grondslag": "MAR — KB W.Venn. art. 97",
       "confidence": "grounded",
       "source": {
@@ -59,13 +58,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV staat zich borg voor € 2.000.000 — boeking: '03 ... € 2.000.000' tegen '030 ... € 2.000.000'. Saldo nul; informatie wel beschikbaar voor de toelichting."
+        }
+      ]
     },
     {
       "titel": "Categorieën 00 – 07",
       "wat": "Onder andere: 00 Zekerheden (zakelijk/persoonlijk) door derden voor rekening van de onderneming; 01 Persoonlijke zekerheden gesteld voor rekening van de onderneming; 02 Zakelijke zekerheden gesteld op eigen activa; 03 Zekerheden gesteld voor rekening van derden; 04 Goederen en waarden gehouden door derden in hun naam maar voor risico van de onderneming; 05 Verplichtingen tot aankoop/verkoop op termijn; 06 Termijnverrichtingen op vreemde valuta; 07 Diverse.",
       "waarom": "De categorisering helpt de analist en de gebruiker om verplichtingen naar type te scannen.",
-      "voorbeeld_inline": "Solaris Sint-Truiden BV heeft een termijnaankoop USD voor € 350.000 — geregistreerd onder klasse 06.",
       "grondslag": "MAR Klasse 0",
       "confidence": "grounded",
       "source": {
@@ -80,7 +84,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Solaris Sint-Truiden BV heeft een termijnaankoop USD voor € 350.000 — geregistreerd onder klasse 06."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -112,5 +122,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

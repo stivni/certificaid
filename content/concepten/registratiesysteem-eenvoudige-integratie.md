@@ -36,7 +36,6 @@ CBN 3/3: 'De eenvoudige integratie van de kosten en opbrengsten bestaat erin dat
 
 **Waarom?** Eenvoudig, weinig administratielast, transparant voor beperkte complexiteit.
 
-**Voorbeeld**: Yperse Werkplaats BV met eenvoudige integratie: de aankoopfactuur wol € 22.500 wordt onmiddellijk geboekt op kostencentrum Spinnerij (rekening 9300). Geen aparte voorraadboekhouding van wol per centrum.
 
 _Grondslag: CBN 3/3 (analoog gebruik)_
 
@@ -46,6 +45,9 @@ _Grondslag: CBN 3/3 (analoog gebruik)_
 >
 > _Trigger_: Examen-vraag: 'past de onderneming pro-rata toe?' → nee = eenvoudig, ja = proportioneel.
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

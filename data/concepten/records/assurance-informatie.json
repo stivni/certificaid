@@ -41,7 +41,6 @@
       "titel": "Voldoende vs. geschikt",
       "wat": "Voldoende = kwantiteit (genoeg testen, genoeg items in de steekproef). Geschikt = kwaliteit (relevant voor het assertion + betrouwbaar gezien de bron).",
       "waarom": "Veel data van slechte kwaliteit ≠ assurance. Beide criteria moeten gehaald zijn.",
-      "voorbeeld_inline": "Een telefonische bevestiging van een klant is geschikt qua bron maar niet voldoende (mondeling, niet schriftelijk). Een schriftelijke externe confirmatie is voldoende én geschikt.",
       "grondslag": "ITAA KMO-controlenorm §85-§86",
       "confidence": "grounded",
       "source": {
@@ -56,7 +55,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een telefonische bevestiging van een klant is geschikt qua bron maar niet voldoende (mondeling, niet schriftelijk). Een schriftelijke externe confirmatie is voldoende én geschikt."
+        }
+      ]
     },
     {
       "titel": "Beoordelen van betrouwbaarheid bron",
@@ -158,5 +163,5 @@
       "omschrijving": "Voor de bevestiging van handelsvorderingen van Rotex Roeselare NV vraagt Sofie Janssens externe bevestigingen aan de top 20 klanten (€ 4.500.000 op € 6.200.000 saldo). De ontvangen confirmaties + overige analytische procedures geven haar voldoende en geschikte assurance-informatie over het 'bestaan'-assertion."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

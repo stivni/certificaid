@@ -36,7 +36,6 @@ Vier kernfuncties: (1) import van jaarrekening (XBRL of manuele invoer); (2) aut
 
 **Waarom?** De accountant gebruikt deze tools om handmatig rekenwerk te vermijden en om gevalideerde sector-benchmarks te krijgen die alleen via abonnement of NBB-databank beschikbaar zijn.
 
-**Voorbeeld**: De accountant van Rotex Roeselare NV upload de jaarrekening 20X3 in Bel-First; krijgt automatisch ratio's voor liquiditeit, solvabiliteit, rentabiliteit + Altman Z-score + sector-rapport op 5 jaar.
 
 _Grondslag: Beroepspraktijk_
 
@@ -46,7 +45,6 @@ De software produceert cijfers; de interpretatie blijft een accountancytaak. Een
 
 **Waarom?** Examen-relevant: de tool is een hulpmiddel, geen vervanger. De student moet de output van een tool kunnen lezen én bevragen — niet blind overnemen.
 
-**Voorbeeld**: Bel-First signaleert dat Rotex Roeselare NV een current-ratio van 1,45 heeft tegenover sector-gemiddelde 1,80. De accountant onderzoekt: voorraad-strategie? betalingstermijn klanten? Beide kunnen verklaring zijn.
 
 _Grondslag: Beroepspraktijk_
 
@@ -72,6 +70,9 @@ _Grondslag: Beroepspraktijk_
 
 - **Vereist kennis van**: [[sectorvergelijking-financiele-analyse]]
 - **Vereist kennis van**: [[ratio-vier-doelen-vergelijking]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

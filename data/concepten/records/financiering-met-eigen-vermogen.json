@@ -40,7 +40,6 @@
       "titel": "Twee bronnen: inbreng en zelffinanciering",
       "wat": "Eigen vermogen groeit langs twee kanalen: (1) inbreng van aandeelhouders bij oprichting of kapitaalverhoging, en (2) zelffinanciering — winsten die in de onderneming gereserveerd worden in plaats van uitgekeerd als dividend.",
       "waarom": "De analist onderscheidt deze twee bronnen omdat ze verschillen in flexibiliteit: kapitaalverhoging vraagt aandeelhoudersbeslissing; zelffinanciering hangt af van het dividendbeleid en de winstgevendheid.",
-      "voorbeeld_inline": "Rotex Roeselare NV: eigen vermogen € 12.000.000 = kapitaal € 5.000.000 + uitgiftepremies € 1.000.000 + reserves € 4.000.000 + overgedragen resultaat € 2.000.000. De € 6.000.000 reserves+overgedragen is opgebouwd via zelffinanciering.",
       "grondslag": "KB WVV jaarrekeningschema rubrieken 10-13-14",
       "confidence": "grounded",
       "source": {
@@ -55,13 +54,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV: eigen vermogen € 12.000.000 = kapitaal € 5.000.000 + uitgiftepremies € 1.000.000 + reserves € 4.000.000 + overgedragen resultaat € 2.000.000. De € 6.000.000 reserves+overgedragen is opgebouwd via zelffinanciering."
+        }
+      ]
     },
     {
       "titel": "Geen vaste vergoedingsplicht",
       "wat": "Eigen vermogen heeft geen vaste vergoedingsverplichting (in tegenstelling tot vreemd vermogen): dividenden zijn discretionair en pas verschuldigd na een beslissing van de algemene vergadering.",
       "waarom": "Dit maakt eigen vermogen aantrekkelijk in moeilijke jaren (geen verplichte cash-uitstroom) maar duurder op lange termijn (aandeelhouders verwachten hoger rendement dan banken).",
-      "voorbeeld_inline": "Rotex Roeselare NV slaat een dividend over in een jaar met verlies; haar bankschulden van € 13.000.000 vragen wel onverkort hun jaarlijkse intrest (~3% = € 390.000).",
       "grondslag": "Vakdoctrine + WVV-bevoegdheidsregel dividenden",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -76,7 +80,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV slaat een dividend over in een jaar met verlies; haar bankschulden van € 13.000.000 vragen wel onverkort hun jaarlijkse intrest (~3% = € 390.000)."
+        }
+      ]
     }
   ],
   "vergelijkingsparen": [
@@ -115,5 +125,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

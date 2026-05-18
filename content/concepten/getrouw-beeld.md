@@ -40,7 +40,6 @@ Een jaarrekening moet drie aspecten getrouw weergeven: wat de onderneming bezit 
 
 **Waarom?** Eén dimensie is te beperkt: een onderneming kan veel bezittingen hebben maar weinig liquide middelen, of veel winst hebben maar negatief eigen vermogen. De drie samen geven een evenwichtig beeld.
 
-**Voorbeeld**: Rotex Roeselare NV toont in haar jaarrekening: balanstotaal € 24.500.000 (vermogen), liquiditeitsratio 1,8 (positie), nettowinst € 950.000 (resultaat). Drie verschillende invalshoeken op dezelfde onderneming.
 
 _Grondslag: KB 21/10/2018 art. 3:1_
 
@@ -50,7 +49,6 @@ In uitzonderlijke gevallen waarin een gewone toepassing van de waarderingsregels
 
 **Waarom?** Het getrouw beeld is het einddoel; de regels zijn middelen. Als de middelen het doel niet bereiken, wint het doel.
 
-**Voorbeeld**: Naaiatelier Ninove BV moet door brand een speciale waardevermindering boeken op machines die normaal gewoon afgeschreven werden — de standaard-methode zou ze nog op € 18.000 waarderen, terwijl ze nu maar € 2.500 herstelwaarde hebben. Afwijking + motivering in toelichting.
 
 _Grondslag: KB 21/10/2018 art. 3:1, lid 4_
 
@@ -60,7 +58,6 @@ De waarderingen voldoen aan voorzichtigheid (geen overschatting), oprechtheid (i
 
 **Waarom?** Het getrouw beeld is geen formele afvinkoefening maar een ethisch-professionele norm. Een 'technisch correcte maar materieel misleidende' jaarrekening voldoet niet.
 
-**Voorbeeld**: Meubelzaak Mertens BV mag een vordering op een failliete klant niet 'technisch' op nominale waarde € 18.000 laten staan met argument 'er is nog geen formeel vonnis' — dat is niet te goeder trouw. Waardevermindering vereist.
 
 _Grondslag: Richtlijn 2013/34/EU art. 6, lid 1, c); KB 21/10/2018 art. 3:6_
 
@@ -88,6 +85,9 @@ _Grondslag: Richtlijn 2013/34/EU art. 6, lid 1, c); KB 21/10/2018 art. 3:6_
 ## Zie ook
 
 - **Vereist kennis van**: [[voorzichtigheidsbeginsel]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

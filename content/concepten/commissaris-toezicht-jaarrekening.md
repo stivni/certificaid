@@ -34,7 +34,6 @@ De commissaris geeft één van vier verklaringen af: goedkeurend (zonder voorbeh
 
 **Waarom?** Het type verklaring is een eerste-rangs signaal voor de financiële analist. Een onthoudende of afkeurende verklaring betekent dat de jaarrekening niet (volledig) bruikbaar is voor analyse.
 
-**Voorbeeld**: Bij Rotex Roeselare NV geeft de commissaris een goedkeurende verklaring zonder voorbehoud — ratio's mogen vertrouwd worden.
 
 _Grondslag: ISA-normen + IBR-normen_
 
@@ -44,7 +43,6 @@ De jaarrekening vermeldt de gegevens van de commissaris (naam, vennootschap, IBR
 
 **Waarom?** Transparantie naar gebruikers: wie heeft toezicht uitgeoefend en kan worden aangesproken op de controle.
 
-**Voorbeeld**: Op de eerste pagina van de jaarrekening Rotex Roeselare NV staat 'Commissaris: Sofie Janssens, [audit-vennootschap]'.
 
 _Grondslag: CBN-2020/09_
 
@@ -60,6 +58,9 @@ _Grondslag: CBN-2020/09_
 ## Zie ook
 
 - **Vereist kennis van**: [[getrouw-beeld-jaarrekening]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

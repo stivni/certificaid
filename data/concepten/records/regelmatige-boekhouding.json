@@ -69,7 +69,6 @@
       "titel": "Passend bij aard en omvang",
       "wat": "Het boekhoudsysteem moet aangepast zijn aan wat het bedrijf doet en hoe groot het is. Een kleine eenmanszaak met enkel facturen aan particulieren kiest een ander schema dan een productie-NV met voorraadbewegingen.",
       "waarom": "Een te zwaar systeem is duur en onuitvoerbaar; een te licht systeem geeft geen betrouwbaar beeld. De wet laat ruimte voor schaal, maar de essentie blijft: bezittingen, schulden, kosten en opbrengsten moeten traceerbaar zijn.",
-      "voorbeeld_inline": "Praktijk Persenaire (eenmanszaak vrij beroep, omzet € 180.000) houdt een vereenvoudigde boekhouding (3 dagboeken). Meubelzaak Mertens BV (omzet € 2.400.000) voert een dubbele boekhouding met klantenrekeningen, leveranciersrekeningen en BTW-administratie.",
       "grondslag": "WER art. III.82 — III.83; CBN 174/1",
       "confidence": "grounded",
       "source": {
@@ -84,13 +83,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Praktijk Persenaire (eenmanszaak vrij beroep, omzet € 180.000) houdt een vereenvoudigde boekhouding (3 dagboeken). Meubelzaak Mertens BV (omzet € 2.400.000) voert een dubbele boekhouding met klantenrekeningen, leveranciersrekeningen en BTW-administratie."
+        }
+      ]
     },
     {
       "titel": "Volledigheid van boekhouding én inventaris",
       "wat": "Alle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen — ook die niet op de balans staan (rechten en verplichtingen buiten balans) — moeten in de boekhouding voorkomen.",
       "waarom": "Een onvolledige boekhouding misleidt de gebruiker (kredietverlener, fiscus, vennoot). Volledigheid is de hoeksteen van het getrouw beeld.",
-      "voorbeeld_inline": "Meubelzaak Mertens BV verkoopt op 28 december € 4.200 aan een klant, maar de factuur wordt pas in januari opgemaakt. De verkoop moet toch in boekjaar 20X1 worden opgenomen (toerekening) — en ook de huurverbintenis voor het nieuwe magazijn (verplichting buiten balans) verschijnt in de toelichting.",
       "grondslag": "WER art. III.83; CBN 174/1",
       "confidence": "grounded",
       "source": {
@@ -105,13 +109,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Meubelzaak Mertens BV verkoopt op 28 december € 4.200 aan een klant, maar de factuur wordt pas in januari opgemaakt. De verkoop moet toch in boekjaar 20X1 worden opgenomen (toerekening) — en ook de huurverbintenis voor het nieuwe magazijn (verplichting buiten balans) verschijnt in de toelichting."
+        }
+      ]
     },
     {
       "titel": "Inschrijving zonder uitstel, getrouw, naar tijdsorde",
       "wat": "Elke verrichting wordt direct, eerlijk en in chronologische volgorde geboekt in een dagboek (of hulpdagboek). Niet wachten tot maandeinde, niet selectief weglaten, niet later 'sorteren'.",
       "waarom": "Tijdsorde + onmiddellijkheid maken het later moeilijk om de boekhouding bij te schaven. Het is de praktische tegenhanger van het onveranderlijkheidsbeginsel.",
-      "voorbeeld_inline": "Naaiatelier Ninove BV ontvangt op 5 maart een leveranciersfactuur van € 8.700. Die wordt op 5 of 6 maart in het aankoopdagboek geboekt, niet pas in juni 'omdat de boekhouder dan tijd heeft'.",
       "grondslag": "WER art. III.84; CBN 174/1",
       "confidence": "grounded",
       "source": {
@@ -126,13 +135,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Naaiatelier Ninove BV ontvangt op 5 maart een leveranciersfactuur van € 8.700. Die wordt op 5 of 6 maart in het aankoopdagboek geboekt, niet pas in juni 'omdat de boekhouder dan tijd heeft'."
+        }
+      ]
     },
     {
       "titel": "Verantwoordingsstuk per boeking",
       "wat": "Elke boeking verwijst naar een gedagtekend stuk (factuur, bankuittreksel, contract, intern memo) dat de boeking onderbouwt. Geen boeking zonder stuk.",
       "waarom": "Het verantwoordingsstuk is het bewijsstuk: zonder dat is de boeking niet controleerbaar en heeft ze geen bewijskracht.",
-      "voorbeeld_inline": "Aankoop van een drukpers door Uitgeverij Ukkel NV voor € 45.000 → boeking verwijst naar leveranciersfactuur nr. 2024-117 d.d. 12 april en naar bankuittreksel nr. 87 d.d. 15 april.",
       "grondslag": "WER art. III.84; CBN 174/1",
       "confidence": "grounded",
       "source": {
@@ -147,13 +161,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aankoop van een drukpers door Uitgeverij Ukkel NV voor € 45.000 → boeking verwijst naar leveranciersfactuur nr. 2024-117 d.d. 12 april en naar bankuittreksel nr. 87 d.d. 15 april."
+        }
+      ]
     },
     {
       "titel": "Jaarlijkse inventaris en jaarrekening",
       "wat": "Minstens één keer per jaar voert de onderneming de nodige opnemingen, verificaties en waarderingen uit om de inventaris op te maken van al haar bezittingen, vorderingen, schulden en verplichtingen. Op basis van die inventaris stelt zij de jaarrekening op.",
       "waarom": "De doorlopende boekhouding wordt periodiek 'geverifieerd' tegen de werkelijkheid (echte voorraadtelling, klantenlijst, schuldenlijst). De inventaris is de brug tussen boekhouding en jaarrekening.",
-      "voorbeeld_inline": "Meubelzaak Mertens BV telt op 31 december de voorraad in het magazijn (1.240 stoelen × € 85 + 320 tafels × € 220 = € 175.800), vergelijkt met de boekhoudkundige voorraad, boekt het verschil als voorraadcorrectie en stelt op basis van de aangepaste cijfers de jaarrekening op.",
       "grondslag": "WER art. III.89; CBN 174/1",
       "confidence": "grounded",
       "source": {
@@ -168,7 +187,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Meubelzaak Mertens BV telt op 31 december de voorraad in het magazijn (1.240 stoelen × € 85 + 320 tafels × € 220 = € 175.800), vergelijkt met de boekhoudkundige voorraad, boekt het verschil als voorraadcorrectie en stelt op basis van de aangepaste cijfers de jaarrekening op."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -291,5 +316,5 @@
       "omschrijving": "Meubelzaak Mertens BV boekt elke aankoopfactuur, verkoopfactuur en bankverrichting van € 1.250, € 3.400 of € 18.000 dagelijks in haar dagboeken; eind december 20X1 maakt zij een inventaris op (voorraad meubelen, vorderingen op klanten, schulden aan leveranciers) en stelt op die basis de jaarrekening op. Zonder dagboek-inschrijvingen of zonder inventaris is haar boekhouding niet regelmatig."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

@@ -49,7 +49,6 @@
       "titel": "Vier velden waarop consistentie geldt",
       "wat": "(1) Waarderingsmethode (FIFO/gewogen gemiddelde voor voorraad, lineair/degressief voor afschrijvingen). (2) Schatting nuttige levensduur. (3) Schatting restwaarde. (4) Drempel voor activeren versus kostenboeking. Verandering in één van deze velden vereist motivering.",
       "waarom": "Vergelijkbaarheid tussen boekjaren: een gebruiker moet kunnen zien of de evolutie 'echt' is of door regelwijziging veroorzaakt.",
-      "voorbeeld_inline": "Rotex Roeselare NV wijzigt afschrijvingstermijn machines van 10 naar 8 jaar (techn. veroudering sneller) → boekjaar-eindwijze: vermeld in toelichting + bereken impact.",
       "grondslag": "KB-WVV art. 3:6",
       "confidence": "grounded",
       "source": {
@@ -64,13 +63,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV wijzigt afschrijvingstermijn machines van 10 naar 8 jaar (techn. veroudering sneller) → boekjaar-eindwijze: vermeld in toelichting + bereken impact."
+        }
+      ]
     },
     {
       "titel": "Wanneer mag je wijzigen?",
       "wat": "Wijziging is toegestaan als (1) de nieuwe regel beter aansluit bij het getrouwe beeld, of (2) een verplichte regelwijziging door wet of CBN-advies dit voorschrijft. Geen wijziging om opportunistische redenen (bv. resultaat opkrikken).",
       "waarom": "Bestendigheid is geen absolute regel — soms is wijziging zelfs nodig voor getrouw beeld.",
-      "voorbeeld_inline": "Een nieuw CBN-advies over leasing-classificatie → Transport Tongeren BV past haar regel aan voor 2024 → vermelding in toelichting met motivering 'CBN-advies XX/YY'.",
       "grondslag": "KB-WVV art. 3:7",
       "confidence": "grounded",
       "source": {
@@ -85,7 +89,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een nieuw CBN-advies over leasing-classificatie → Transport Tongeren BV past haar regel aan voor 2024 → vermelding in toelichting met motivering 'CBN-advies XX/YY'."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -142,5 +152,5 @@
       "omschrijving": "Naaiatelier Ninove BV waardeert haar grondstoffen sinds altijd via FIFO. In 2024 wil zij overstappen naar gewogen gemiddelde → moet motiveren in toelichting + impact (bv. 'voorraad-waardering daalt met € 45.000, resultaat met € 32.000 na belasting')."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

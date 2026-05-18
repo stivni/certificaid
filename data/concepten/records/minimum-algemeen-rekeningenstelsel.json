@@ -53,7 +53,6 @@
       "titel": "Zeven klassen (1 tot 7)",
       "wat": "Klasse 1 — Eigen vermogen, voorzieningen, schulden op meer dan een jaar. Klasse 2 — Vaste activa. Klasse 3 — Voorraden, bestellingen in uitvoering. Klasse 4 — Vorderingen en schulden op ten hoogste een jaar. Klasse 5 — Geldbeleggingen, liquide middelen. Klasse 6 — Kosten. Klasse 7 — Opbrengsten. (Klasse 0 voor niet-balans-rechten.)",
       "waarom": "Universele structuur — elke Belgische boekhouder vindt onmiddellijk wat hij zoekt, ongeacht de onderneming.",
-      "voorbeeld_inline": "Voorraad grondstoffen Naaiatelier Ninove BV → klasse 3 (specifiek rekening 310 of 311). Afschrijving machine → klasse 6 (rekening 6300 'Afschrijvingen op materiële vaste activa').",
       "grondslag": "KB-WVV bijlage MAR",
       "confidence": "grounded",
       "source": {
@@ -68,13 +67,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Voorraad grondstoffen Naaiatelier Ninove BV → klasse 3 (specifiek rekening 310 of 311). Afschrijving machine → klasse 6 (rekening 6300 'Afschrijvingen op materiële vaste activa')."
+        }
+      ]
     },
     {
       "titel": "Minimum, niet maximum",
       "wat": "MAR is een minimum — elke onderneming mag verder onderverdelen voor analytische redenen (bv. 604001 voor hout, 604002 voor metaal). De hoofdrekeningen mogen niet weggelaten of hernoemd worden.",
       "waarom": "Eenheid op het hoogste niveau, vrijheid op de analyse-laag.",
-      "voorbeeld_inline": "Transport Tongeren BV onderscheidt voor analyse: 6100 'Onderhoud trucks', 6101 'Onderhoud bestelwagens', 6102 'Onderhoud kantoor'. Toegestaan zolang ze rolt onder hoofdrekening 610.",
       "grondslag": "KB-WVV art. 3:9; CBN-advies 2010/20",
       "confidence": "grounded",
       "source": {
@@ -89,13 +93,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Transport Tongeren BV onderscheidt voor analyse: 6100 'Onderhoud trucks', 6101 'Onderhoud bestelwagens', 6102 'Onderhoud kantoor'. Toegestaan zolang ze rolt onder hoofdrekening 610."
+        }
+      ]
     },
     {
       "titel": "Aansluiting op jaarrekening-schema",
       "wat": "Elke MAR-klasse correspondeert met een sectie van de balans of resultatenrekening. Balans: klasse 1 (passiva) + klassen 2-3-4-5 (activa). RR: klasse 6 (kosten) + klasse 7 (opbrengsten). Hierdoor produceert de boekhouding 'vanzelf' de jaarrekening-cijfers.",
       "waarom": "Eenvoud van mapping rekeningen → jaarrekening-rubrieken.",
-      "voorbeeld_inline": "Saldi van alle 60-69-rekeningen → totaal 'Bedrijfskosten' op RR.",
       "grondslag": "KB-WVV bijlage 1 + MAR",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -110,7 +119,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Saldi van alle 60-69-rekeningen → totaal 'Bedrijfskosten' op RR."
+        }
+      ]
     }
   ],
   "valkuilen": [
@@ -152,5 +167,5 @@
       "omschrijving": "Aankoop koopwaren € 5.000 bij Meubelzaak Mertens BV → rekening 604000 'Aankopen koopwaren' (klasse 6, kosten). Klantbetaling op bank → rekening 550000 'Bank — zichtrekening' (klasse 5)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

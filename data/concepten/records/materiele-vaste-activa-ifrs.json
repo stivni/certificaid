@@ -83,7 +83,6 @@
       "titel": "Kostprijsmodel — standaard keuze",
       "wat": "Onder het kostprijsmodel (alinea 30) houdt het actief zijn historische kostprijs aan, verminderd met geaccumuleerde afschrijvingen en eventuele bijzondere waardeverminderingen (impairments) volgens IAS 36. Geen opwaardering naar reële waarde.",
       "waarom": "Eenvoud + objectiviteit. Geen jaarlijkse waarderingen door externe taxateurs nodig. Voor productiebedrijven met operationele activa (machines, gebouwen voor eigen gebruik) is dit het natuurlijke model.",
-      "voorbeeld_inline": "Zelena Bio's productielijn (kostprijs € 13.800.000): boekwaarde 31 december 2026 = € 13.800.000 − geaccumuleerde afschrijving € 2.760.000 = € 11.040.000. Geen herwaardering — markt voor tweedehands biofarmaceutische installaties bestaat amper.",
       "grondslag": "IAS 16 alinea 30",
       "confidence": "grounded",
       "source": {
@@ -98,13 +97,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio's productielijn (kostprijs € 13.800.000): boekwaarde 31 december 2026 = € 13.800.000 − geaccumuleerde afschrijving € 2.760.000 = € 11.040.000. Geen herwaardering — markt voor tweedehands biofarmaceutische installaties bestaat amper."
+        }
+      ]
     },
     {
       "titel": "Herwaarderingsmodel — reële waarde",
       "wat": "Onder het herwaarderingsmodel (alinea 31) wordt het actief geboekt tegen geherwaardeerde waarde = reële waarde op moment van herwaardering, verminderd met latere geaccumuleerde afschrijvingen en impairments. Herwaardering moet voldoende regelmatig (jaarlijks bij volatiele markten, om de 3 à 5 jaar bij stabiele markten — alinea 34). Toegepast op **volledige categorie** (alinea 36) — niet selectief op één actief. Een stijging gaat in OCI → herwaarderingsreserve; een daling in winst of verlies (tenzij ze een eerdere stijging tegengaat).",
       "waarom": "Sommige activa (terreinen, gebouwen in actieve markten) hebben een betekenisvolle marktwaarde die los staat van historische kost. Reële waarde geeft gebruikers een actueler beeld van het kapitaal van de onderneming.",
-      "voorbeeld_inline": "Zelena Bio NV waardeert haar terreinen (categorie 'grond') volgens het herwaarderingsmodel. Op 1 januari 2026 kostprijs € 12.000.000, reële waarde uit taxatie € 18.000.000. Herwaardering +€ 6.000.000 → OCI (herwaarderingsreserve eigen vermogen). Productie-installaties (categorie 'machines') blijven onder kostprijsmodel — daar is geen actieve markt.",
       "grondslag": "IAS 16 alinea 31, 34, 36, 39-40",
       "confidence": "grounded",
       "source": {
@@ -119,13 +123,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio NV waardeert haar terreinen (categorie 'grond') volgens het herwaarderingsmodel. Op 1 januari 2026 kostprijs € 12.000.000, reële waarde uit taxatie € 18.000.000. Herwaardering +€ 6.000.000 → OCI (herwaarderingsreserve eigen vermogen). Productie-installaties (categorie 'machines') blijven onder kostprijsmodel — daar is geen actieve markt."
+        }
+      ]
     },
     {
       "titel": "Componentenbenadering — verplicht",
       "wat": "Wanneer een materieel vast actief bestaat uit onderdelen met **verschillende gebruiksduur of afschrijvingsmethode**, en die onderdelen hebben elk een substantiële kostprijs in verhouding tot het totaal, dan moet je elk onderdeel afzonderlijk afschrijven. Klassiek voorbeeld: casco van een vliegtuig (25 jaar) en motoren (10 jaar) afzonderlijk.",
       "waarom": "Een lineaire afschrijving over het 'gemiddelde' van casco + motor zou de motor onderdrijven en het casco overschatten. Componentenbenadering geeft een getrouwer beeld per onderdeel en respecteert het werkelijke verbruik.",
-      "voorbeeld_inline": "Zelena Bio's productie-installatie: motor € 4.000.000 / 8 jaar = € 500.000/jaar; reactor € 7.000.000 / 20 jaar = € 350.000/jaar; software € 2.800.000 / 5 jaar = € 560.000/jaar. Totaal jaarlijkse afschrijving = € 1.410.000 (versus € 690.000 bij gemiddelde 20-jarige looptijd).",
       "grondslag": "IAS 16 alinea 43-47",
       "confidence": "grounded",
       "source": {
@@ -140,13 +149,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio's productie-installatie: motor € 4.000.000 / 8 jaar = € 500.000/jaar; reactor € 7.000.000 / 20 jaar = € 350.000/jaar; software € 2.800.000 / 5 jaar = € 560.000/jaar. Totaal jaarlijkse afschrijving = € 1.410.000 (versus € 690.000 bij gemiddelde 20-jarige looptijd)."
+        }
+      ]
     },
     {
       "titel": "Verplichte jaarlijkse herziening restwaarde + gebruiksduur",
       "wat": "Aan het einde van elk boekjaar moet de entiteit restwaarde en gebruiksduur van elk actief **herzien**. Bij gewijzigde verwachting → schattingswijziging volgens IAS 8 (prospectief, niet retroactief). Idem voor de afschrijvingsmethode (alinea 61).",
       "waarom": "Een actief verandert in de loop van zijn leven (technische veroudering, nieuwe gebruikswijze, marktontwikkelingen). Een 'set-and-forget' gebruiksduur zou de werkelijkheid niet volgen.",
-      "voorbeeld_inline": "Zelena Bio's productie-installatie was bij aanschaf op 20 jaar gebruiksduur ingeschat. Eind 2030 stelt management vast dat door nieuwe regulering de installatie maar tot 2040 nuttig kan zijn (resterende gebruiksduur dus 10 ipv 15 jaar). Resterende boekwaarde wordt over 10 jaar afgeschreven — geen retroactieve aanpassing.",
       "grondslag": "IAS 16 alinea 51 + 61",
       "confidence": "grounded",
       "source": {
@@ -161,7 +175,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio's productie-installatie was bij aanschaf op 20 jaar gebruiksduur ingeschat. Eind 2030 stelt management vast dat door nieuwe regulering de installatie maar tot 2040 nuttig kan zijn (resterende gebruiksduur dus 10 ipv 15 jaar). Resterende boekwaarde wordt over 10 jaar afgeschreven — geen retroactieve aanpassing."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -299,5 +319,5 @@
       "omschrijving": "Zelena Bio NV verwerft een productie-installatie voor € 12.500.000 (aankoopprijs) + € 350.000 transport + € 750.000 installatie + € 200.000 ontmantelingsverplichting (verdisconteerd). Kostprijs IAS 16 = € 13.800.000. De installatie bestaat uit drie componenten met verschillende gebruiksduur: motor (€ 4.000.000, 8 jaar), reactor (€ 7.000.000, 20 jaar), bedieningssoftware (€ 2.800.000, 5 jaar) — elk afzonderlijk afgeschreven volgens IAS 16 alinea 43."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

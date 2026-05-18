@@ -39,7 +39,6 @@ Schrap de voorraden uit de teller van de current ratio. Hou over: vorderingen, g
 
 **Waarom?** Voorraden hebben een lange omloopcyclus (productie + verkoop + inning). In een liquiditeitscrisis zijn ze moeilijk snel te gelde te maken; zonder voorraden meet je de 'echte' kortetermijnsolventie.
 
-**Voorbeeld**: Rotex Roeselare NV: vlottende activa € 8.000.000 minus voorraden € 2.500.000 = € 5.500.000; korte schulden € 4.000.000. Quick ratio = € 5.500.000 / € 4.000.000 = 1,375.
 
 _Grondslag: Vakdoctrine financial analysis_
 

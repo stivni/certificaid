@@ -36,7 +36,6 @@ _Bron: KB 21.10.2018 Bijlage 1 — klasse 9 (vrij in te vullen)_
 
 **Waarom?** Bepaalt de gegevensstroom tussen algemene en analytische boekhouding.
 
-**Voorbeeld**: Yperse Werkplaats BV met SAP-ERP gebruikt een dualistisch model: een aankoopfactuur wol € 22.500 wordt geboekt als 60.. / 44.. in algemene boekhouding, en parallel als 9.. (kostencentrum Spinnerij) / reflexierekening in analytische. Saldo van reflexierekeningen blijft nul.
 
 
 ### Typische klasse-9-rekeningen 🤖
@@ -45,7 +44,6 @@ _Bron: KB 21.10.2018 Bijlage 1 — klasse 9 (vrij in te vullen)_
 
 **Waarom?** Conventionele invulling — niet wettelijk verplicht, maar gebruikelijk.
 
-**Voorbeeld**: Yperse Werkplaats BV: 930 Spinnerij, 931 Weverij, 932 Confectie, 940 Onderhoud (hulp), 970 Product 'tapijt standaard', 980 Materiaal-prijsverschil.
 
 
 
@@ -60,6 +58,9 @@ _Bron: KB 21.10.2018 Bijlage 1 — klasse 9 (vrij in te vullen)_
 ## Zie ook
 
 - **Vereist kennis van**: [[kostencentrum]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

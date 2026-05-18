@@ -36,7 +36,6 @@ Als een individueel actief geen onafhankelijke kasstromen genereert, wordt het i
 
 **Waarom?** Voor productielijnen, fabrieken, divisies kan een individuele machine geen aparte cashflows tonen. De CGU is het bedrijfseconomisch zinvolle niveau van impairment.
 
-**Voorbeeld**: Zelena Bio's biofarmaceutische divisie genereert eigen kasstromen; de individuele machines binnen die divisie niet. Impairment-test op divisieniveau, niet per machine. Goodwill van vroegere acquisitie ad € 12.000.000 is toegewezen aan deze CGU.
 
 _Grondslag: IAS 36 alinea 6, 66, 80_
 
@@ -46,7 +45,6 @@ Bij latere verbetering van omstandigheden kan een impairment-verlies worden **te
 
 **Waarom?** Symmetrie: als de oorzaak van impairment verdwijnt, hoort de boekwaarde te herstellen. Maar goodwill is een uitzondering omdat herstel typisch via intern gegenereerde goodwill gebeurt — wat IFRS niet toestaat te activeren.
 
-**Voorbeeld**: Zelena's productielijn Y in 2028 (twee jaar na impairment): nieuwe regelgeving versoepelt, marktwaarde herstelt. Boekwaarde 31 december 2028 (na 2 jaar normale afschrijving op € 7.200.000) = € 4.320.000. Boekwaarde zonder oorspronkelijke impairment zou zijn = € 5.100.000. Realiseerbare waarde nu = € 5.500.000. Terugneming max € 5.100.000 − € 4.320.000 = € 780.000 in W&V.
 
 _Grondslag: IAS 36 alinea 114-117 + 124_
 
@@ -165,6 +163,9 @@ Na een impairment moet het afschrijvingsplan voor het actief worden herzien: de 
 
 - **Vereist kennis van**: [[materiele-vaste-activa-ifrs]]
 - **Vereist kennis van**: [[immateriele-vaste-activa-ifrs]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

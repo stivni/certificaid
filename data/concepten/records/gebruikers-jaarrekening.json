@@ -45,7 +45,6 @@
       "titel": "Aandeelhouders en vennoten",
       "wat": "Bestuderen winstgevendheid, dividend-potentieel en rendement op hun ingezet kapitaal. ROE en groei van het eigen vermogen zijn primair.",
       "waarom": "Hun beslissing om kapitaal te laten staan, bij te storten of uit te stappen, hangt af van het rendement dat de onderneming oplevert.",
-      "voorbeeld_inline": "Een aandeelhouder van Rotex Roeselare NV vergelijkt het rendement op zijn aandelen (ROE 20,8 %) met alternatieven zoals aandelen van vergelijkbare beursvennootschappen.",
       "grondslag": "Vakdoctrine + anker 1.3.I.B",
       "confidence": "inferred",
       "source": {
@@ -60,13 +59,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een aandeelhouder van Rotex Roeselare NV vergelijkt het rendement op zijn aandelen (ROE 20,8 %) met alternatieven zoals aandelen van vergelijkbare beursvennootschappen."
+        }
+      ]
     },
     {
       "titel": "Kredietverleners (banken, leveranciers)",
       "wat": "Beoordelen of de onderneming de afgesproken aflossingen en intresten kan betalen, of het bedrag van de openstaande factuur veilig is.",
       "waarom": "Hun risico is asymmetrisch: ze delen niet in de winst maar wel in het verlies bij wanbetaling. Solvabiliteit, liquiditeit en cashflow zijn primair.",
-      "voorbeeld_inline": "Een bank evalueert een kredietaanvraag van Rotex Roeselare NV op basis van debt-equity (1,5) en cashflow (€ 4.200.000) → terugbetalingscapaciteit.",
       "grondslag": "Vakdoctrine + anker 1.3.I.B",
       "confidence": "inferred",
       "source": {
@@ -81,13 +85,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een bank evalueert een kredietaanvraag van Rotex Roeselare NV op basis van debt-equity (1,5) en cashflow (€ 4.200.000) → terugbetalingscapaciteit."
+        }
+      ]
     },
     {
       "titel": "Werknemers en sociale partners",
       "wat": "Geïnteresseerd in continuïteit van de onderneming en evolutie van personeelskosten en winstgevendheid (mogelijke bron voor bonussen of arbeidsvoorwaarden).",
       "waarom": "Hun loopbaan en sociale rechten hangen af van de overlevingskansen van de werkgever.",
-      "voorbeeld_inline": "De ondernemingsraad van Rotex Roeselare NV bespreekt jaarlijks de jaarrekening en het bestuursverslag — verplichte sociaal-economische informatie.",
       "grondslag": "WVV + sociale wetgeving",
       "confidence": "inferred",
       "source": {
@@ -102,13 +111,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "De ondernemingsraad van Rotex Roeselare NV bespreekt jaarlijks de jaarrekening en het bestuursverslag — verplichte sociaal-economische informatie."
+        }
+      ]
     },
     {
       "titel": "Fiscale en sociale overheden",
       "wat": "Gebruiken de jaarrekening voor aanslagen vennootschapsbelasting, BTW-controle, sociale lasten. WIB92 art. 321/1, 13° expliciteert dat geconsolideerde jaarrekening fiscaal gebruikt wordt.",
       "waarom": "De jaarrekening is een aanslagbasis en een controle-instrument voor de overheid.",
-      "voorbeeld_inline": "De fiscus baseert haar aanslag vennootschapsbelasting op het belastbaar resultaat dat van de jaarrekening Rotex Roeselare NV vertrekt.",
       "grondslag": "WIB92 art. 321/1, 13°",
       "confidence": "grounded",
       "source": {
@@ -123,13 +137,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "De fiscus baseert haar aanslag vennootschapsbelasting op het belastbaar resultaat dat van de jaarrekening Rotex Roeselare NV vertrekt."
+        }
+      ]
     },
     {
       "titel": "Klanten en leveranciers",
       "wat": "Leveranciers checken kredietwaardigheid vóór openstaande betalingstermijnen. Klanten checken continuïteit (vooral bij langlopende contracten).",
       "waarom": "Bij faillissement van leverancier of klant verlies je opdrachten, voorraad of openstaande facturen.",
-      "voorbeeld_inline": "Een leverancier overweegt of hij Meubelzaak Mertens BV nog op 60 dagen wil leveren — bekijkt liquiditeit en evolutie van overgedragen resultaat.",
       "grondslag": "Vakdoctrine",
       "confidence": "inferred",
       "source": {
@@ -144,13 +163,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een leverancier overweegt of hij Meubelzaak Mertens BV nog op 60 dagen wil leveren — bekijkt liquiditeit en evolutie van overgedragen resultaat."
+        }
+      ]
     },
     {
       "titel": "Het brede publiek",
       "wat": "Door neerlegging bij de Nationale Bank van België wordt de jaarrekening voor iedereen toegankelijk. Onderzoekers, journalisten, vakbonden, concurrenten gebruiken haar voor markt- of beleidsstudies.",
       "waarom": "Publieke openbaarmaking is de keerzijde van rechtspersoonlijkheid — beperkte aansprakelijkheid vergt transparantie naar derden.",
-      "voorbeeld_inline": "Een onderzoeksjournalist analyseert de jaarrekening van Rotex Roeselare NV om een artikel over de Vlaamse industriebasis te onderbouwen.",
       "grondslag": "WVV + KB WVV (publicatie)",
       "confidence": "inferred",
       "source": {
@@ -165,7 +189,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een onderzoeksjournalist analyseert de jaarrekening van Rotex Roeselare NV om een artikel over de Vlaamse industriebasis te onderbouwen."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -216,5 +246,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

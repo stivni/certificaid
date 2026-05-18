@@ -74,7 +74,6 @@
       "titel": "Afschrijving over de korste van leaseperiode of gebruiksduur",
       "wat": "Bij afschrijving (alinea 31) volgt de lessee de IAS 16-afschrijvingsvereisten met één bijzonderheid: als de leaseovereenkomst de eigendom op einde overdraagt OF als de kostprijs ROU weerspiegelt dat de lessee een aankoopoptie zal uitoefenen, dan afschrijven over de **gebruiksduur van het onderliggende actief**. Anders afschrijven tot het **vroegste** van (a) einde gebruiksduur ROU of (b) einde leaseperiode.",
       "waarom": "Als eigendom uiteindelijk overgaat naar de lessee, dan is het gebruiksrecht eigenlijk een gefinancierde aankoop — afschrijven over de volledige levensduur. Anders verlaat het actief na leaseperiode de balans; dan is afschrijven tot het einde van de leaseperiode logisch.",
-      "voorbeeld_inline": "Zelena Bio's Antwerpse huur (10 jaar, geen aankoopoptie): ROU € 4.049.000 lineair over 10 jaar = € 404.900/jaar. Zou Zelena een aankoopoptie hebben tegen een voordelige prijs die ze zeker uitoefent: dan over de volledige gebruiksduur van het gebouw (typisch 30-50 jaar).",
       "grondslag": "IFRS 16 alinea 32",
       "confidence": "grounded",
       "source": {
@@ -89,13 +88,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio's Antwerpse huur (10 jaar, geen aankoopoptie): ROU € 4.049.000 lineair over 10 jaar = € 404.900/jaar. Zou Zelena een aankoopoptie hebben tegen een voordelige prijs die ze zeker uitoefent: dan over de volledige gebruiksduur van het gebouw (typisch 30-50 jaar)."
+        }
+      ]
     },
     {
       "titel": "Aanpassing voor herwaardering leaseverplichting",
       "wat": "Wanneer de leaseverplichting wordt herwaardeerd (bv. wijziging leaseperiode, wijziging variabele betalingsindex), wordt het aanpassingsbedrag **als aanpassing van het ROU-actief** verwerkt. Als het ROU-actief al tot nul is afgeschreven en de verplichting daalt verder: het resterende bedrag in winst of verlies.",
       "waarom": "Het ROU en de leaseverplichting zijn twee zijden van dezelfde munt: het gebruiksrecht en de schuld om het te verwerven. Een wijziging in de schuld moet symmetrisch op het actief reflecteren — zonder winst- of verliesimpact, behalve bij onmogelijke aanpassing op ROU.",
-      "voorbeeld_inline": "Zelena Bio verlengt na 5 jaar de Antwerpse huur met 3 extra jaar (verlengingsoptie uitgeoefend). Herwaardering leaseverplichting +€ 1.250.000. ROU-actief stijgt met € 1.250.000 (geen winst-of-verliesimpact). De nieuwe ROU wordt afgeschreven over resterende leaseperiode van 8 jaar.",
       "grondslag": "IFRS 16 alinea 39",
       "confidence": "grounded",
       "source": {
@@ -110,13 +114,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio verlengt na 5 jaar de Antwerpse huur met 3 extra jaar (verlengingsoptie uitgeoefend). Herwaardering leaseverplichting +€ 1.250.000. ROU-actief stijgt met € 1.250.000 (geen winst-of-verliesimpact). De nieuwe ROU wordt afgeschreven over resterende leaseperiode van 8 jaar."
+        }
+      ]
     },
     {
       "titel": "Impairment-toets onder IAS 36",
       "wat": "ROU-actief is onderworpen aan dezelfde impairment-test als andere materiële vaste activa onder IAS 36. Bij aanwijzingen voor waardevermindering (gewijzigde economische context, niet-gebruik, slechtere financiële prestatie van de kasstroomgenererende eenheid): boekwaarde vergelijken met realiseerbare waarde, bij overschrijding impairment opnemen.",
       "waarom": "Hoewel ROU een gebruiksrecht is, kan het economisch waardevermindering ondergaan — bv. een gehuurde productielocatie die ineens niet meer productief gebruikt kan worden door regulering. De impairment-test waarborgt dat de boekwaarde realiteit weerspiegelt.",
-      "voorbeeld_inline": "Zelena Bio's Antwerpse locatie wordt in 2029 wegens nieuwe milieuregelgeving niet meer als productielocatie bruikbaar. Boekwaarde ROU € 2.430.000; realiseerbare waarde (te onderverhuren tegen € 200.000/jaar over resterende 6 jaar, contant € 1.054.000) → impairment-verlies € 1.376.000 in W&V.",
       "grondslag": "IFRS 16 alinea 33 + IAS 36",
       "confidence": "grounded",
       "source": {
@@ -131,7 +140,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio's Antwerpse locatie wordt in 2029 wegens nieuwe milieuregelgeving niet meer als productielocatie bruikbaar. Boekwaarde ROU € 2.430.000; realiseerbare waarde (te onderverhuren tegen € 200.000/jaar over resterende 6 jaar, contant € 1.054.000) → impairment-verlies € 1.376.000 in W&V."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -192,5 +207,5 @@
       "omschrijving": "Zelena Bio's ROU-actief voor Antwerpse productielocatie op 1 januari 2026: € 4.049.000 (= leaseverplichting € 3.894.000 + sleutelgeld € 50.000 + advocatenkosten € 25.000 + ontmantelingskosten € 80.000). In de IFRS-balans presentatie: ofwel apart als 'Met een gebruiksrecht overeenstemmende activa' ofwel binnen 'Materiële vaste activa' (met vermelding in toelichting in welke post)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

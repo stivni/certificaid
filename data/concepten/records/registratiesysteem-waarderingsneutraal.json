@@ -39,7 +39,6 @@
       "titel": "Vermijden van waarderingsconflicten",
       "wat": "Afschrijvingen, waardeverminderingen en voorraadwaardering eenduidig vaststellen; analytische boekhouding mag niet conflicteren met algemene boekhouding zonder expliciete reden (bv. opportuniteitskost).",
       "waarom": "Anders raken cijfers per kostencentrum of per drager bezoedeld door methodische verschillen.",
-      "voorbeeld_inline": "Yperse Werkplaats BV past 10-jaar lineaire afschrijving toe op productiemachines in algemene boekhouding én in analytische — geen 'productie-uren-afschrijving' alleen in analytische. Mismatch zou kostprijs onstabiel maken.",
       "grondslag": "CBN 3/3",
       "confidence": "grounded",
       "source": {
@@ -54,7 +53,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV past 10-jaar lineaire afschrijving toe op productiemachines in algemene boekhouding én in analytische — geen 'productie-uren-afschrijving' alleen in analytische. Mismatch zou kostprijs onstabiel maken."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -75,5 +80,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

@@ -39,7 +39,6 @@ Elke klasse-0-rekening heeft een tegenrekening: bv. '03 Persoonlijke zekerheden 
 
 **Waarom?** Door de spiegel-boeking blijven de verplichtingen traceerbaar in de boekhouding zonder ze in de gewone balans op te nemen. De toelichting put uit deze rekeningen.
 
-**Voorbeeld**: Rotex Roeselare NV staat zich borg voor € 2.000.000 — boeking: '03 ... € 2.000.000' tegen '030 ... € 2.000.000'. Saldo nul; informatie wel beschikbaar voor de toelichting.
 
 _Grondslag: MAR — KB W.Venn. art. 97_
 
@@ -49,7 +48,6 @@ Onder andere: 00 Zekerheden (zakelijk/persoonlijk) door derden voor rekening van
 
 **Waarom?** De categorisering helpt de analist en de gebruiker om verplichtingen naar type te scannen.
 
-**Voorbeeld**: Solaris Sint-Truiden BV heeft een termijnaankoop USD voor € 350.000 — geregistreerd onder klasse 06.
 
 _Grondslag: MAR Klasse 0_
 
@@ -61,6 +59,9 @@ _Grondslag: MAR Klasse 0_
 > [!tip]- Audit-tracé voor toelichting
 > Bij controle of analyse: vergelijk altijd de klasse-0-saldi met wat in de toelichting staat. Verschil = signaal van incomplete vermelding. 🤖
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

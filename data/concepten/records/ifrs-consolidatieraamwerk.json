@@ -115,7 +115,6 @@
       "titel": "Verplichte IFRS voor genoteerde groepen",
       "wat": "Verordening 1606/2002 verplicht beursgenoteerde EU-vennootschappen om hun geconsolideerde jaarrekening op te stellen volgens de IAS/IFRS zoals aangenomen door de Europese Commissie. 'Internationale standaarden voor jaarrekeningen' omvat IAS, IFRS, de bijbehorende interpretaties (SIC/IFRIC), wijzigingen, en toekomstige standaarden vastgesteld of goedgekeurd door de IASB.",
       "waarom": "Eén gemeenschappelijke taal voor genoteerde groepen in heel de EU bevordert vergelijkbaarheid tussen ondernemingen en grensoverschrijdende investeringen.",
-      "voorbeeld_inline": "Aurelia Holding NV (beursgenoteerd op Euronext Brussels) consolideert verplicht onder IFRS; een niet-genoteerde groep zoals Antwerpse Investments NV mag onder BEGAAP blijven (tenzij het bestuur vrijwillig voor IFRS kiest).",
       "grondslag": "Verordening 1606/2002 art. 2 jo. art. 4",
       "confidence": "grounded",
       "source": {
@@ -135,13 +134,18 @@
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "De verordening verplicht beursgenoteerde EU-vennootschappen om hun geconsolideerde jaarrekening op te stellen volgens de IAS/IFRS zoals aangenomen door de Europese Commissie. 'Internationale standaarden voor jaarrekeningen' omvat IAS, IFRS en de daarmee verband houdende interpretaties (SIC/IFRIC), wijzigingen, en toekomstige standaarden vastgesteld of goedgekeurd door de IASB.",
         "reden": "Stagiair-toon + waarom + voorbeeld (regels 6 + 11)."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV (beursgenoteerd op Euronext Brussels) consolideert verplicht onder IFRS; een niet-genoteerde groep zoals Antwerpse Investments NV mag onder BEGAAP blijven (tenzij het bestuur vrijwillig voor IFRS kiest)."
+        }
+      ]
     },
     {
       "titel": "Onherroepelijke vrijwillige IFRS-keuze",
       "wat": "Niet-genoteerde moeders kunnen op basis van KB WVV art. 3:104, § 2 vrijwillig voor IFRS-consolidatie kiezen. Die keuze is onherroepelijk: terugschakelen naar BEGAAP is niet meer mogelijk. In de toelichting motiveer je dat de onderneming over de nodige administratieve en organisatorische middelen beschikt en dat ze alle door de EC aangenomen IFRS toepast.",
       "waarom": "De onherroepelijkheid verhindert dat een groep van jaar tot jaar van normenstelsel verandert naargelang dat in dat jaar gunstig uitkomt — wat de vergelijkbaarheid van de cijfers zou ondermijnen.",
-      "voorbeeld_inline": "Antwerpse Investments NV beslist in boekjaar 20X1 vrijwillig voor IFRS-consolidatie. Vanaf 20X1 volgt Antwerpse IFRS; terugschakelen naar BEGAAP in latere jaren kan niet meer.",
       "grondslag": "KB WVV art. 3:104, § 2",
       "confidence": "grounded",
       "source": {
@@ -161,7 +165,13 @@
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "Onder KB WVV art. 3:104, § 2 kan elke moedervennootschap kiezen voor IFRS — die keuze is onherroepbaar en moet in de toelichting worden gemotiveerd (administratieve en organisatorische middelen, volledige toepassing van alle door de EC aangenomen IFRS).",
         "reden": "Stagiair-toon: 'onherroepbaar' → 'onherroepelijk'; waarom + voorbeeld toegevoegd (regels 6 + 11)."
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Antwerpse Investments NV beslist in boekjaar 20X1 vrijwillig voor IFRS-consolidatie. Vanaf 20X1 volgt Antwerpse IFRS; terugschakelen naar BEGAAP in latere jaren kan niet meer."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -280,5 +290,5 @@
       "omschrijving": "Aurelia Holding NV is beursgenoteerd op Euronext Brussels → verplicht IFRS-consolidatie (Verordening 1606/2002 art. 4). In de toelichting van de geconsolideerde jaarrekening verwijst Aurelia naar de gebruikte IFRS-standaarden (IFRS 3, 10, 11, 12)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

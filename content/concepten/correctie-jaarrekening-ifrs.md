@@ -34,7 +34,6 @@ Een **fout** vereist dat de juiste informatie op publicatiedatum redelijkerwijze
 
 **Waarom?** Auditors testen deze classificatie streng — een 'cosmetische' herclassificatie van een fout als 'schattingswijziging' om retroactieve correctie te vermijden is een auditbevinding.
 
-**Voorbeeld**: Zelena ontdekt in 2026 dat een vordering uit 2024 op een failliet gegane klant nooit had moeten worden geactiveerd (klant was al insolvent op 31 december 2024). Indien op 2024-publicatiedatum bekend → fout. Indien insolventie pas in 2025 publiek werd → schatting (en correctie via 2025-resultatenrekening als bad debt).
 
 _Grondslag: IAS 8 alinea 5 (definities) + 41_
 
@@ -44,7 +43,6 @@ Indien retroactieve toepassing voor een eerdere periode **praktisch onhaalbaar**
 
 **Waarom?** Soms is hindsight nodig om retroactief de cijfers te bepalen — wat IFRS niet toelaat. Bv. een grondslagwissel voor IFRS 9 zou cashflowprognoses vereisen die er destijds niet waren. In zulke gevallen mag prospectief vanaf de eerste haalbare datum.
 
-**Voorbeeld**: Zelena Bio kan voor de oudste vergelijkende periode (2024) de impact van een grondslagwijziging niet betrouwbaar berekenen wegens ontbrekende historische data van een opvolgende onderneming. Toepassing vanaf 2025 (eerste haalbare); toelichting van praktische onhaalbaarheid.
 
 _Grondslag: IAS 8 alinea 23-25 + 43_
 
@@ -143,6 +141,9 @@ Bij schattingswijziging: GEEN aanpassing van vergelijkende periodes. De wijzigin
 ## Zie ook
 
 - **Vereist kennis van**: [[ias-1-mutatieoverzicht-eigen-vermogen]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

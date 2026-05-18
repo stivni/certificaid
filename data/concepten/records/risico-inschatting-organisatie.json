@@ -32,12 +32,17 @@
       "titel": "Drie stappen",
       "wat": "(1) Identificeren: welke risico's bedreigen de doelstellingen? (2) Analyseren: hoe groot is de kans, hoe groot de impact? (3) Evalueren: aanvaardbaar binnen risk appetite, of beheersmaatregel nodig?",
       "waarom": "Zonder stap 3 wordt risico-inschatting een academische oefening; zonder stap 1 mis je de echte risico's.",
-      "voorbeeld_inline": "Yperse Werkplaats BV identificeert 'IT-uitval' (kans 3, impact 5 = 15) → maatregel: dagelijkse off-site backup + business continuity plan.",
       "grondslag": "COSO ERM / ISO 31000",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV identificeert 'IT-uitval' (kans 3, impact 5 = 15) → maatregel: dagelijkse off-site backup + business continuity plan."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -76,5 +81,5 @@
       "omschrijving": "Bij Yperse Werkplaats BV werkt Xenon Expertise BV een risicomatrix uit: voor elk proces (aankoop, productie, verkoop, HR) wordt 'kans × impact' geschat op een schaal 1-5. Aankopen > € 50.000 krijgen risicoscore 4×5 = 20 → strikte autorisatieprocedure. Telefoonkosten krijgen 2×1 = 2 → geen extra controle."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

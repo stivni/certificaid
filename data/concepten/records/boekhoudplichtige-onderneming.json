@@ -63,7 +63,6 @@
       "titel": "Drie categorieën boekhoudplichtigen",
       "wat": "(1) Alle rechtspersonen naar Belgisch recht (BV, NV, CV, VZW, IVZW, stichting, ...). (2) Natuurlijke personen die zelfstandig een beroepsactiviteit uitoefenen (handel, ambacht, vrije beroepen). (3) Organisaties zonder rechtspersoonlijkheid met economisch doel (bv. maatschap, feitelijke vereniging met handelsactiviteit).",
       "waarom": "De wet wil dat élke economische actor — niet alleen vennootschappen — een minimum aan financiële transparantie biedt.",
-      "voorbeeld_inline": "Tom Lefèvre is vennoot van een maatschap zonder rechtspersoonlijkheid → de maatschap is boekhoudplichtig (organisatie zonder rechtspersoonlijkheid met economisch doel).",
       "grondslag": "WER art. III.82, § 1",
       "confidence": "grounded",
       "source": {
@@ -83,13 +82,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Tom Lefèvre is vennoot van een maatschap zonder rechtspersoonlijkheid → de maatschap is boekhoudplichtig (organisatie zonder rechtspersoonlijkheid met economisch doel)."
+        }
+      ]
     },
     {
       "titel": "Uitzonderingen op de boekhoudplicht",
       "wat": "Niet boekhoudplichtig zijn onder andere: (1) de Federale Staat en andere openbare overheden, (2) verenigingen zonder rechtspersoonlijkheid en zonder economisch doel, (3) bepaalde door bijzondere wet uitgesloten entiteiten. Dit zijn uitzonderingen — twijfel je? Dan ben je waarschijnlijk wél boekhoudplichtig.",
       "waarom": "De boekhoudplicht is de regel, niet de uitzondering — voor de stagiair: 'twijfel = boekhouden'.",
-      "voorbeeld_inline": "Een sportclub-feitelijke-vereniging die enkel lidgelden int en geen handel drijft → niet boekhoudplichtig. Een feitelijke vereniging die een café uitbaat → wel boekhoudplichtig.",
       "grondslag": "WER art. III.82, § 2",
       "confidence": "grounded",
       "source": {
@@ -104,13 +108,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een sportclub-feitelijke-vereniging die enkel lidgelden int en geen handel drijft → niet boekhoudplichtig. Een feitelijke vereniging die een café uitbaat → wel boekhoudplichtig."
+        }
+      ]
     },
     {
       "titel": "Toepassingsgebied: Belgisch territorium",
       "wat": "Voor een buitenlandse onderneming geldt de Belgische boekhoudplicht enkel voor haar in België gevestigde bijkantoor of centrum van werkzaamheden. Het hoofdkantoor in het buitenland blijft onder zijn eigen recht.",
       "waarom": "Belgisch recht is territoriaal — buitenlandse hoofdzetels worden niet 'gepakt' door WER Boek III.",
-      "voorbeeld_inline": "Kappers Köln GmbH (Duits) heeft een Antwerps bijkantoor → het bijkantoor voert een Belgische boekhouding (KB-WVV regels); het hoofdkantoor blijft onder Duits recht.",
       "grondslag": "WER art. III.82, § 3; CBN-advies 2022/14",
       "confidence": "grounded",
       "source": {
@@ -125,7 +134,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Kappers Köln GmbH (Duits) heeft een Antwerps bijkantoor → het bijkantoor voert een Belgische boekhouding (KB-WVV regels); het hoofdkantoor blijft onder Duits recht."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -169,5 +184,5 @@
       "omschrijving": "Praktijk Persenaire (eenmanszaak vrij beroep), Meubelzaak Mertens BV (vennootschap) en VZW Quelle de Vie (vereniging met economische activiteit) zijn alle drie boekhoudplichtige onderneming."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

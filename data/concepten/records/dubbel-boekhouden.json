@@ -58,7 +58,6 @@
       "titel": "Elke boeking heeft twee zijden",
       "wat": "Een verrichting raakt minstens twee rekeningen: één wordt gedebiteerd, één wordt gecrediteerd. Eén rekening alleen aanpassen kan niet — dat is geen boekhouden meer maar een aantekening.",
       "waarom": "Een verrichting heeft altijd een oorsprong (waar komt het geld/de waarde vandaan?) en een bestemming (waar gaat het naartoe?). Beide zijden expliciteren is de essentie.",
-      "voorbeeld_inline": "Klantbetaling van € 4.500 op de rekening van Naaiatelier Ninove BV: Debet 550 Bank € 4.500 / Credit 400 Klanten € 4.500.",
       "grondslag": "WER art. III.84",
       "confidence": "grounded",
       "source": {
@@ -73,13 +72,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Klantbetaling van € 4.500 op de rekening van Naaiatelier Ninove BV: Debet 550 Bank € 4.500 / Credit 400 Klanten € 4.500."
+        }
+      ]
     },
     {
       "titel": "Som debet = som credit",
       "wat": "Per boeking is het totaal aan debet gelijk aan het totaal aan credit. Per hele boekhouding ook. Een uit balans staande proefbalans betekent: zoeken naar de fout.",
       "waarom": "Deze identiteit is de wiskundige veiligheid: je kunt geen euro doen verschijnen of verdwijnen zonder dat het ergens anders zichtbaar wordt.",
-      "voorbeeld_inline": "Verkoop van een meubel door Meubelzaak Mertens BV voor € 850 (BTW 21%): Debet 400 Klanten € 1.028,50 / Credit 700 Verkopen € 850 + Credit 451 BTW te betalen € 178,50. Debet € 1.028,50 = Credit (€ 850 + € 178,50) ✓.",
       "grondslag": "WER art. III.84",
       "confidence": "grounded",
       "source": {
@@ -94,13 +98,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Verkoop van een meubel door Meubelzaak Mertens BV voor € 850 (BTW 21%): Debet 400 Klanten € 1.028,50 / Credit 700 Verkopen € 850 + Credit 451 BTW te betalen € 178,50. Debet € 1.028,50 = Credit (€ 850 + € 178,50) ✓."
+        }
+      ]
     },
     {
       "titel": "Methodische inschrijving in rekeningen",
       "wat": "Naast inschrijving in een dagboek (chronologisch) worden de boekingen 'methodisch' overgebracht naar de rekeningen waarop ze betrekking hebben (per onderwerp: klanten, voorraad, kassa, ...).",
       "waarom": "Het dagboek geeft het verloop in de tijd; de rekeningen geven het saldo per onderwerp. Beide perspectieven zijn nodig om de balans en de resultatenrekening op te bouwen.",
-      "voorbeeld_inline": "Naaiatelier Ninove BV: alle aankoopboekingen verschijnen chronologisch in het aankoopdagboek (15/3, 22/3, 28/3, ...) en parallel verzameld op rekening 600 Aankopen waar het totaal-saldo afleesbaar is.",
       "grondslag": "WER art. III.84, lid 1",
       "confidence": "grounded",
       "source": {
@@ -115,7 +124,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Naaiatelier Ninove BV: alle aankoopboekingen verschijnen chronologisch in het aankoopdagboek (15/3, 22/3, 28/3, ...) en parallel verzameld op rekening 600 Aankopen waar het totaal-saldo afleesbaar is."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
@@ -331,5 +346,5 @@
       "omschrijving": "Meubelzaak Mertens BV koopt voor € 1.250 (incl. BTW € 217) hout op factuur. Boeking: Debet 600 Aankopen € 1.033 + Debet 411 Terug te vorderen BTW € 217 / Credit 440 Leveranciers € 1.250. Debet totaal € 1.250 = Credit totaal € 1.250 ✓."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

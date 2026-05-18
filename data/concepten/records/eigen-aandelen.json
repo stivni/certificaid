@@ -42,7 +42,6 @@
       "titel": "Boekhoudkundige tegenpost — reserve voor eigen aandelen",
       "wat": "Zolang de eigen aandelen op de balans staan, MOET een onbeschikbare reserve voor hetzelfde bedrag worden aangelegd. Dit is een **dubbele boeking**: actief klasse 50 + passief gebonden reserve 1310. Voorkomt dat de aankoop economisch een uitkering vormt.",
       "waarom": "Zonder dergelijke reserve zou een inkoop eigen aandelen functioneren als verkapt dividend zonder respect voor uitkeerbaarheid. De reserve 'bevriest' het bedrag tot de aandelen weer verkocht of vernietigd zijn.",
-      "voorbeeld_inline": "Rotex Roeselare NV met beschikbare reserves € 1.500.000 + ingekochte eigen aandelen € 350.000: tegelijk € 350.000 over naar onbeschikbare reserve (1310). Beschikbare reserves verminderen tot € 1.150.000 — dit is wat nog vrij uitkeerbaar is.",
       "grondslag": "WVV art. 7:218; KB WVV",
       "confidence": "grounded",
       "source": {
@@ -57,13 +56,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV met beschikbare reserves € 1.500.000 + ingekochte eigen aandelen € 350.000: tegelijk € 350.000 over naar onbeschikbare reserve (1310). Beschikbare reserves verminderen tot € 1.150.000 — dit is wat nog vrij uitkeerbaar is."
+        }
+      ]
     },
     {
       "titel": "Voorwaarden voor inkoop (NV)",
       "wat": "WVV legt strikte voorwaarden op aan een NV die eigen aandelen inkoopt: (a) machtiging algemene vergadering (geldig max 5 jaar), (b) maximaal **20 %** van het uitgegeven kapitaal, (c) inkoop uit beschikbare reserves/winst, (d) gelijke behandeling aandeelhouders.",
       "waarom": "Beperking voorkomt misbruik (manipulatie aandelenkoers, voorkeursbehandeling, uitholling van het kapitaal). De 20 %-grens is een wettelijke afbakening.",
-      "voorbeeld_inline": "Rotex Roeselare NV (kapitaal € 5.000.000) mag maximaal 20 % × € 5.000.000 = € 1.000.000 aan eigen aandelen aanhouden. Inkoop voor € 350.000 zit ruim onder de grens.",
       "grondslag": "WVV art. 7:215",
       "confidence": "grounded",
       "source": {
@@ -78,12 +82,17 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV (kapitaal € 5.000.000) mag maximaal 20 % × € 5.000.000 = € 1.000.000 aan eigen aandelen aanhouden. Inkoop voor € 350.000 zit ruim onder de grens."
+        }
+      ]
     },
     {
       "titel": "Verkoop of vernietiging",
       "wat": "Eigen aandelen kunnen weer worden verkocht (terug op de markt) of definitief vernietigd (kapitaalvermindering). Bij verkoop: meerwaarde of minderwaarde t.o.v. aanschaffingsprijs. Bij vernietiging: omzetting naar kapitaalvermindering.",
-      "voorbeeld_inline": "Rotex Roeselare NV verkoopt later haar eigen aandelen voor € 420.000 (winst € 70.000): Debet 550 Bank € 420.000 / Credit 50 Eigen aandelen € 350.000 + Credit 11 of 763 voor € 70.000 (winstbehandeling volgens regels). Tegelijk: terugname onbeschikbare reserve 1310 → beschikbare reserves 133.",
       "grondslag": "WVV + CBN praktijk",
       "confidence": "grounded",
       "source": {
@@ -98,7 +107,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV verkoopt later haar eigen aandelen voor € 420.000 (winst € 70.000): Debet 550 Bank € 420.000 / Credit 50 Eigen aandelen € 350.000 + Credit 11 of 763 voor € 70.000 (winstbehandeling volgens regels). Tegelijk: terugname onbeschikbare reserve 1310 → beschikbare reserves 133."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -160,5 +175,5 @@
       "omschrijving": "Rotex Roeselare NV koopt 5 % eigen aandelen terug voor € 350.000 op de beurs. Twee gelijktijdige boekingen: (a) Debet 50 Eigen aandelen € 350.000 / Credit 550 Bank € 350.000 (effecten als activum); (b) winstbestemming: Debet 6921 Toevoeging onbeschikbare reserves € 350.000 / Credit 1310 Reserve voor eigen aandelen € 350.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

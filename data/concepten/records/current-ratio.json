@@ -42,7 +42,6 @@
       "titel": "Vlottende activa tegenover korte schulden",
       "wat": "Tel alle vlottende activa op (voorraden, handelsvorderingen, geldbeleggingen, liquide middelen) en deel door de schulden op ten hoogste een jaar.",
       "waarom": "Als de vennootschap morgen al haar korte schulden moest betalen, kan ze dan voldoende cash genereren uit haar vlottende activa? Een verhouding van meer dan 1 betekent: theoretisch wel.",
-      "voorbeeld_inline": "Rotex Roeselare NV: vlottende activa € 8.000.000; schulden op ten hoogste een jaar € 4.000.000. Current ratio = € 8.000.000 / € 4.000.000 = 2,0.",
       "grondslag": "Vakdoctrine financial analysis",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -57,7 +56,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV: vlottende activa € 8.000.000; schulden op ten hoogste een jaar € 4.000.000. Current ratio = € 8.000.000 / € 4.000.000 = 2,0."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
@@ -289,5 +294,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

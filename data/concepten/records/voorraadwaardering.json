@@ -45,7 +45,6 @@
       "titel": "Drie toegestane berekeningsmethoden",
       "wat": "(1) Individuele waardering: per stuk traceerbaar (geschikt voor unieke goederen, machines). (2) Gewogen gemiddelde: gemiddelde aankoopprijs bij elke nieuwe instroom. (3) FIFO: eerst aangekochte goederen eerst verbruikt. LIFO is in België niet meer toegestaan voor de jaarrekening (KB 21.10.2018).",
       "waarom": "Bepaalt welke aankoopprijs aan de uitgaande hoeveelheid wordt toegerekend bij prijsschommelingen.",
-      "voorbeeld_inline": "Yperse Werkplaats BV koopt wol in 3 partijen: 500 kg × € 4,71 + 800 kg × € 5,10 + 700 kg × € 5,30. Verbruik 1.500 kg. Gewogen gemiddelde: (500×4,71 + 800×5,10 + 700×5,30) / 2.000 = € 5,06/kg → verbruik € 7.590. FIFO: 500×4,71 + 800×5,10 + 200×5,30 = € 7.495.",
       "grondslag": "KB 21.10.2018 art. 18 · CBN 132/7",
       "confidence": "grounded",
       "source": {
@@ -60,13 +59,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV koopt wol in 3 partijen: 500 kg × € 4,71 + 800 kg × € 5,10 + 700 kg × € 5,30. Verbruik 1.500 kg. Gewogen gemiddelde: (500×4,71 + 800×5,10 + 700×5,30) / 2.000 = € 5,06/kg → verbruik € 7.590. FIFO: 500×4,71 + 800×5,10 + 200×5,30 = € 7.495."
+        }
+      ]
     },
     {
       "titel": "Laagstewaarderegel",
       "wat": "Op balansdatum: vergelijk aanschaffingswaarde met marktwaarde. De laagste van beide wordt opgenomen. Waardevermindering tot werkelijke waarde bij blijvende marktdaling.",
       "waarom": "Voorzichtigheidsbeginsel; vermijdt opgeblazen voorraadwaarde.",
-      "voorbeeld_inline": "Yperse Werkplaats BV heeft wol in voorraad aan € 5,06/kg gemiddeld. Marktprijs op balansdatum: € 4,30/kg. Waardevermindering naar marktwaarde verplicht → afboeking van het verschil als waardevermindering.",
       "grondslag": "CBN 132/7 §Marktwaarde",
       "confidence": "grounded",
       "source": {
@@ -81,7 +85,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV heeft wol in voorraad aan € 5,06/kg gemiddeld. Marktprijs op balansdatum: € 4,30/kg. Waardevermindering naar marktwaarde verplicht → afboeking van het verschil als waardevermindering."
+        }
+      ]
     }
   ],
   "valkuilen": [
@@ -114,5 +124,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

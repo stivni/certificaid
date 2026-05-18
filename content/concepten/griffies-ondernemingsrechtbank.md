@@ -34,7 +34,6 @@ _Bron: KB-WVV art. 1:2_
 
 **Waarom?** Het dossier biedt het 'juridische CV' van de vennootschap — wie kan handtekenen, wie is bestuurder, wat is het kapitaal.
 
-**Voorbeeld**: Een leverancier checkt of Bouwwerf Beerse BV nog bestaat en wie tekenbevoegd is → griffie-dossier raadplegen.
 
 _Grondslag: KB-WVV art. 1:2_
 
@@ -44,7 +43,6 @@ Jaarrekeningen worden niet bij de griffie maar bij de NBB-Balanscentrale neergel
 
 **Waarom?** Twee gescheiden registers met verschillende doelen: griffie = juridisch leven; NBB = financiële situatie.
 
-**Voorbeeld**: Een derde wil de balans van Aurelia Holding NV zien → NBB-Balanscentrale (niet griffie). Wil hij weten wie bestuurder is → griffie (niet NBB).
 
 _Grondslag: WVV art. 3:10; KB-WVV art. 1:2_
 
@@ -52,6 +50,9 @@ _Grondslag: WVV art. 3:10; KB-WVV art. 1:2_
 ## Zie ook
 
 - **Vereist kennis van**: [[openbaarmaking-jaarrekening]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

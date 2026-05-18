@@ -72,7 +72,6 @@
       "titel": "Minimuminhoud jaarrekening",
       "wat": "Elke jaarrekening bevat ten minste **drie onderdelen**: balans, winst-en-verliesrekening en toelichting. Lidstaten mogen voor middelgrote en grote ondernemingen méér eisen — zoals een kasstroomoverzicht of mutatieoverzicht van het eigen vermogen.",
       "waarom": "Drie onderdelen geven samen het volledige beeld: balans (positie op een moment), winst-en-verlies (prestatie over een periode), toelichting (uitleg bij de cijfers). Eén ervan weglaten breekt het systeem.",
-      "voorbeeld_inline": "Meubelzaak Mertens BV (kleine BV) volstaat met balans + winst-en-verliesrekening + toelichting volgens microschema. Rotex Roeselare NV (grote NV) krijgt daarbovenop de verplichting tot kasstroomoverzicht en bestuursverslag.",
       "grondslag": "Richtlijn 2013/34/EU art. 4 lid 1",
       "confidence": "grounded",
       "source": {
@@ -87,13 +86,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Meubelzaak Mertens BV (kleine BV) volstaat met balans + winst-en-verliesrekening + toelichting volgens microschema. Rotex Roeselare NV (grote NV) krijgt daarbovenop de verplichting tot kasstroomoverzicht en bestuursverslag."
+        }
+      ]
     },
     {
       "titel": "Getrouw beeld — overrulet specifieke regels",
       "wat": "De jaarrekening moet een **getrouw beeld** geven van activa, passiva, financiële positie en winst of verlies. Geeft de strikte toepassing van de richtlijn geen getrouw beeld, dan moet je extra informatie in de toelichting geven. In uitzonderlijke gevallen mag je zelfs van een richtlijnbepaling afwijken — met uitleg in de toelichting.",
       "waarom": "Regels kunnen nooit elk feitenpatroon vangen. Het getrouw-beeld-beginsel werkt als veiligheidsklep: het inhoudelijke doel (gebruiker correct informeren) gaat boven de letterlijke regel.",
-      "voorbeeld_inline": "Rotex Roeselare NV verkoopt eind december een dochter; standaardpresentatie zou de transactie pas in het volgende boekjaar tonen. Voor een getrouw beeld neemt Rotex in de toelichting een gebeurtenis-na-balansdatum op met cijfermatige impact (€ 12.500.000 boekwaarde) — vereist door art. 4 lid 3.",
       "grondslag": "Richtlijn 2013/34/EU art. 4 lid 3 en lid 4",
       "confidence": "grounded",
       "source": {
@@ -108,13 +112,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV verkoopt eind december een dochter; standaardpresentatie zou de transactie pas in het volgende boekjaar tonen. Voor een getrouw beeld neemt Rotex in de toelichting een gebeurtenis-na-balansdatum op met cijfermatige impact (€ 12.500.000 boekwaarde) — vereist door art. 4 lid 3."
+        }
+      ]
     },
     {
       "titel": "Algemene boekhoudbeginselen (art. 6)",
       "wat": "Tien beginselen voor opname en waardering: continuïteit, consistentie, voorzichtigheid (winsten alleen als gerealiseerd; verplichtingen wél; waardecorrecties altijd), toerekening, openingsbalans = eindbalans vorig jaar, individuele waardering per actief/passief, geen verrekening, substance over form, aanschaffings- of vervaardigingsprijs als waarderingsgrondslag.",
       "waarom": "Deze tien beginselen zijn de **morele code** van de jaarrekening: ze maken cijfers vergelijkbaar tussen ondernemingen en boekjaren. Het Belgisch boekhoudrecht haalt zijn beginselen uit deze bron.",
-      "voorbeeld_inline": "Sofie Janssens (commissaris) controleert: heeft Rotex Roeselare NV haar voorraad gewaardeerd tegen aanschaffingsprijs (beginsel i) en is geen tussentijdse winst geboekt op nog niet verkochte voorraad (beginsel c-i)? Beide zijn art. 6-vereisten.",
       "grondslag": "Richtlijn 2013/34/EU art. 6 lid 1",
       "confidence": "grounded",
       "source": {
@@ -129,13 +138,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Sofie Janssens (commissaris) controleert: heeft Rotex Roeselare NV haar voorraad gewaardeerd tegen aanschaffingsprijs (beginsel i) en is geen tussentijdse winst geboekt op nog niet verkochte voorraad (beginsel c-i)? Beide zijn art. 6-vereisten."
+        }
+      ]
     },
     {
       "titel": "Vrijstelling consolidatie kleine groepen",
       "wat": "Kleine groepen zijn **vrijgesteld** van de verplichting om een geconsolideerde jaarrekening en geconsolideerd bestuursverslag op te stellen. Uitzondering: zodra één groepsonderneming een 'organisatie van openbaar belang' is (typisch beursgenoteerd of bank/verzekeraar), valt de vrijstelling weg. Lidstaten *kunnen* die vrijstelling ook uitbreiden naar middelgrote groepen.",
       "waarom": "Consolidatie kost veel werk en is voor kleine groepen disproportioneel zwaar — gebruikers van die kleine cijfers (typisch banken, leveranciers) krijgen voldoende beeld via de enkelvoudige cijfers. Bij beursgenoteerde ondernemingen weegt het publiek belang zwaarder en valt de vrijstelling weg.",
-      "voorbeeld_inline": "Aurelia Holding NV + Brugse Brouwerij BV vormen samen een kleine groep (omzet < € 6.000.000, balanstotaal < € 3.000.000). Vrijgesteld van consolidatie. Zou Aurelia Holding beursgenoteerd zijn (zoals Zelena Bio NV), dan vervalt de vrijstelling en is consolidatie verplicht.",
       "grondslag": "Richtlijn 2013/34/EU art. 23 lid 1",
       "confidence": "grounded",
       "source": {
@@ -150,13 +164,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV + Brugse Brouwerij BV vormen samen een kleine groep (omzet < € 6.000.000, balanstotaal < € 3.000.000). Vrijgesteld van consolidatie. Zou Aurelia Holding beursgenoteerd zijn (zoals Zelena Bio NV), dan vervalt de vrijstelling en is consolidatie verplicht."
+        }
+      ]
     },
     {
       "titel": "Toelichting bij financiële overzichten",
       "wat": "Naast de cijfers vraagt de richtlijn een toelichting met onder meer: gehanteerde grondslagen voor financiële verslaglegging, herwaarderingsreserves (indien van toepassing), reële-waardeposten met hypothesen, en kwantitatieve uitsplitsing per categorie financiële instrumenten. Inhoud schaalt met de grootte van de onderneming.",
       "waarom": "Cijfers alleen zeggen niets — dezelfde € 250.000 omzet kan totaal verschillend tot stand komen. De toelichting geeft de context die de cijfers leesbaar maakt.",
-      "voorbeeld_inline": "Rotex Roeselare NV vermeldt in haar toelichting dat ze haar materiële vaste activa volgens het kostprijsmodel waardeert (geen herwaardering) en dat haar valutatermijncontracten tegen reële waarde geboekt zijn met € 125.000 niet-gerealiseerde winst (art. 16, lid 1, c)).",
       "grondslag": "Richtlijn 2013/34/EU art. 15, art. 16",
       "confidence": "grounded",
       "source": {
@@ -176,7 +195,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV vermeldt in haar toelichting dat ze haar materiële vaste activa volgens het kostprijsmodel waardeert (geen herwaardering) en dat haar valutatermijncontracten tegen reële waarde geboekt zijn met € 125.000 niet-gerealiseerde winst (art. 16, lid 1, c))."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -300,5 +325,5 @@
       "omschrijving": "Rotex Roeselare NV (grote NV) maakt jaarrekening op volgens het volledig schema in KB WVV. Dat schema is de Belgische omzetting van Richtlijn 2013/34/EU: balans + winst-en-verliesrekening + toelichting (art. 4 lid 1), opgesteld volgens continuïteits-, voorzichtigheids- en toerekeningsbeginsel (art. 6)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

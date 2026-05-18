@@ -36,7 +36,6 @@ _Bron: WER art. III.86_
 
 **Waarom?** Elektronische bewaring is praktisch maar moet betrouwbaarheid garanderen voor latere controles.
 
-**Voorbeeld**: Meubelzaak Mertens BV scant facturen in PDF → mag papier vernietigen mits PDF-leesbaarheid + back-up + onveranderlijkheid.
 
 _Grondslag: WER art. III.86; CBN-advies 2016/22_
 
@@ -46,7 +45,6 @@ BTW-stukken: 7 jaar (WBTW art. 60). Personeelsdossiers: 5 jaar na uitdiensttredi
 
 **Waarom?** Verschillende rechtsgebieden leggen verschillende termijnen op — de algemene 7-jaar-regel is een minimum.
 
-**Voorbeeld**: Rotex Roeselare NV ontvangt een aanslag voor boekjaar 2017 → bewaarplicht verlengt zich impliciet tot procedure afgerond.
 
 _Grondslag: Diverse wetten + WBTW art. 60_
 
@@ -67,6 +65,9 @@ _Grondslag: Diverse wetten + WBTW art. 60_
 > _Bron: WER art. III.86 + WIB_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -39,7 +39,6 @@
       "titel": "Pro-rata-verdeling per rubriek",
       "wat": "Elke kost-/opbrengstpost wordt individueel pro-rata verdeeld volgens een vooraf afgesproken percentage of sleutel. Vergt aparte 'verdeelboekingen'.",
       "waarom": "Maakt aandeel per centrum/partner zichtbaar; vereiste bij meervoudige eigenaars of bij sterk gedeelde resources.",
-      "voorbeeld_inline": "Yperse Werkplaats BV verdeelt de gezamenlijke energiekost weverij € 145.000/jaar proportioneel over de drie productlijnen volgens machine-uren: 40 % Tapijten, 35 % Stoffenrol, 25 % Garen. Verdeelboeking: Tapijten € 58.000, Stoffenrol € 50.750, Garen € 36.250.",
       "grondslag": "CBN 3/3",
       "confidence": "grounded",
       "source": {
@@ -54,7 +53,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV verdeelt de gezamenlijke energiekost weverij € 145.000/jaar proportioneel over de drie productlijnen volgens machine-uren: 40 % Tapijten, 35 % Stoffenrol, 25 % Garen. Verdeelboeking: Tapijten € 58.000, Stoffenrol € 50.750, Garen € 36.250."
+        }
+      ]
     }
   ],
   "vergelijkingsparen": [
@@ -92,5 +97,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

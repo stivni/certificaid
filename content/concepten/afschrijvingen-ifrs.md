@@ -36,7 +36,6 @@ De restwaarde is het bedrag dat de entiteit naar verwachting **vandaag** zou ont
 
 **Waarom?** Het afschrijfbaar bedrag = kostprijs − restwaarde. Een te lage restwaarde overschat de afschrijving; een te hoge restwaarde onderschat de afschrijving. Restwaarde moet realistisch zijn op basis van vandaag (alinea 53).
 
-**Voorbeeld**: Zelena Bio NV koopt een vrachtwagen voor € 85.000, geschatte restwaarde bij 8 jaar gebruik = € 12.500 (verwachte verkoopprijs van vergelijkbare 8-jarige vrachtwagens vandaag). Afschrijfbaar bedrag = € 72.500. Lineair: € 9.063/jaar.
 
 _Grondslag: IAS 16 alinea 6, 53_
 
@@ -46,7 +45,6 @@ Afschrijving **begint** wanneer het actief gereed is voor gebruik — d.w.z. op 
 
 **Waarom?** Niet de aankoopdatum maar de gebruiksklare datum is bepalend. Een nieuwe productielijn die nog 4 maanden ingericht moet worden levert pas vanaf maand 5 economische voordelen — afschrijving begint dan ook pas op maand 5.
 
-**Voorbeeld**: Zelena Bio's productielijn: aankoopfactuur 15 oktober 2025, installatie + tests afgerond 31 januari 2026. Afschrijving start op 1 februari 2026; voor boekjaar 2026 wordt 11/12 van de jaarafschrijving geboekt.
 
 _Grondslag: IAS 16 alinea 55_
 
@@ -56,7 +54,6 @@ _Grondslag: IAS 16 alinea 55_
 
 **Waarom?** Een uniforme methode voor alle activa zou de afschrijving van werkelijkheid loskoppelen. De keuze hangt af van de aard van het actief en hoe het zijn waarde verliest.
 
-**Voorbeeld**: Zelena Bio: productie-installatie (constante output) → lineair; vrachtwagen (snelle waardevermindering eerste jaren) → degressief; gietvorm voor productie van 500.000 doseflesjes → op basis van werkeenheden (€ 0,80 per geproduceerd flesje, kostprijs gietvorm € 400.000).
 
 _Grondslag: IAS 16 alinea 60-62_
 
@@ -66,7 +63,6 @@ Een afschrijvingsmethode op basis van **opbrengsten gegenereerd door de activite
 
 **Waarom?** Een entiteit die afschrijft op basis van omzet zou bij hoge omzet veel afschrijven (geeft optisch lage marge) en bij lage omzet weinig afschrijven (optisch hogere marge). Dat maakt resultaten manipuleerbaar en koppelt afschrijving los van werkelijk verbruik.
 
-**Voorbeeld**: Zelena Bio mag NIET haar productielijn afschrijven op basis van '€ 0,02 per euro verkochte productieopbrengst'. Wel: per geproduceerd doseflesje (output-eenheden) of lineair over jaren.
 
 _Grondslag: IAS 16 alinea 62A_
 
@@ -76,7 +72,6 @@ Onder IAS 38 wordt een immaterieel actief met **onbepaalde gebruiksduur** NIET a
 
 **Waarom?** Afschrijven over 'onbepaald' is conceptueel onmogelijk. De impairment-test waarborgt dat een verminderde economische realiteit wel zichtbaar wordt op het juiste moment.
 
-**Voorbeeld**: Zelena Bio's productlicentie zonder vervaldatum (kostprijs € 4.500.000): geen afschrijving. Elke 31 december: impairment-test onder IAS 36 — vergelijk boekwaarde met realiseerbare waarde.
 
 _Grondslag: IAS 38 alinea 107-108_
 

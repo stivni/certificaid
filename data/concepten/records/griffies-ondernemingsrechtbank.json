@@ -49,7 +49,6 @@
       "titel": "Wat staat in het ondernemingsdossier?",
       "wat": "(1) Oprichtingsakte en latere statutenwijzigingen. (2) Benoeming en ontslag van bestuurders en commissaris. (3) Beslissingen over kapitaal en ontbinding. (4) Verwijzingen naar publicaties in het Belgisch Staatsblad. (5) Jaarrekening-vermeldingen (de jaarrekening zelf gaat naar de NBB).",
       "waarom": "Het dossier biedt het 'juridische CV' van de vennootschap — wie kan handtekenen, wie is bestuurder, wat is het kapitaal.",
-      "voorbeeld_inline": "Een leverancier checkt of Bouwwerf Beerse BV nog bestaat en wie tekenbevoegd is → griffie-dossier raadplegen.",
       "grondslag": "KB-WVV art. 1:2",
       "confidence": "grounded",
       "source": {
@@ -64,13 +63,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een leverancier checkt of Bouwwerf Beerse BV nog bestaat en wie tekenbevoegd is → griffie-dossier raadplegen."
+        }
+      ]
     },
     {
       "titel": "Verschil met NBB-neerlegging",
       "wat": "Jaarrekeningen worden niet bij de griffie maar bij de NBB-Balanscentrale neergelegd. De griffie houdt enkel een 'vermelding' bij dat de jaarrekening neergelegd is.",
       "waarom": "Twee gescheiden registers met verschillende doelen: griffie = juridisch leven; NBB = financiële situatie.",
-      "voorbeeld_inline": "Een derde wil de balans van Aurelia Holding NV zien → NBB-Balanscentrale (niet griffie). Wil hij weten wie bestuurder is → griffie (niet NBB).",
       "grondslag": "WVV art. 3:10; KB-WVV art. 1:2",
       "confidence": "grounded",
       "source": {
@@ -85,7 +89,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een derde wil de balans van Aurelia Holding NV zien → NBB-Balanscentrale (niet griffie). Wil hij weten wie bestuurder is → griffie (niet NBB)."
+        }
+      ]
     }
   ],
   "edges": [
@@ -102,5 +112,5 @@
       "omschrijving": "Wanneer Oprichtingen Oostende BV opgericht wordt, neemt de notaris de oprichtingsakte op, en de griffie van de ondernemingsrechtbank legt die in het ondernemingsdossier — daar staat ze publiek beschikbaar."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

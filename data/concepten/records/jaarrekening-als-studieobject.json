@@ -51,7 +51,6 @@
       "titel": "Balans, resultatenrekening, toelichting",
       "wat": "De drie kerncomponenten samen. Balans = momentopname; resultatenrekening = boekjaarflow; toelichting = duiding bij beide.",
       "waarom": "Eén component is onvoldoende — balans toont de cumulatieve toestand, resultatenrekening hoe die toestand evolueerde, toelichting waar de cijfers vandaan komen.",
-      "voorbeeld_inline": "Bij Rotex Roeselare NV: balans toont eigen vermogen € 12.000.000 op 31/12/20X1; resultatenrekening toont hoe winst van € 2.500.000 daar dit jaar bijkwam; toelichting expliciteert dat € 1.500.000 hangend geschil niet in balans zit.",
       "grondslag": "CBN-0174-1 §jaarrekening",
       "confidence": "grounded",
       "source": {
@@ -66,13 +65,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Rotex Roeselare NV: balans toont eigen vermogen € 12.000.000 op 31/12/20X1; resultatenrekening toont hoe winst van € 2.500.000 daar dit jaar bijkwam; toelichting expliciteert dat € 1.500.000 hangend geschil niet in balans zit."
+        }
+      ]
     },
     {
       "titel": "Vloeit uit boekhouding",
       "wat": "De jaarrekening moet bij ondernemingen met volledige boekhouding rechtstreeks (zonder toevoeging of weglating) voortvloeien uit de proef- en saldibalans, na overeenstemming met de inventarisgegevens.",
       "waarom": "Dat principe verzekert dat de jaarrekening niet 'samengesteld' wordt maar het resultaat is van een rigoureus boekhoudingsproces — basis voor betrouwbaarheid.",
-      "voorbeeld_inline": "Bij Rotex: balanstotaal van € 30.000.000 op 31/12 = som van inventaris-bevestigde saldi op alle balansrekeningen.",
       "grondslag": "CBN-0174-1 §jaarrekening (na inventarisaanpassing)",
       "confidence": "grounded",
       "source": {
@@ -87,7 +91,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Rotex: balanstotaal van € 30.000.000 op 31/12 = som van inventaris-bevestigde saldi op alle balansrekeningen."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -138,5 +148,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

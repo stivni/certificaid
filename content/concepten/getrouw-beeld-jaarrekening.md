@@ -48,7 +48,6 @@ De jaarrekening moet die drie dimensies samen tonen: wat de onderneming bezit en
 
 **Waarom?** Eén dimensie alleen geeft een vertekend beeld. Een hoog resultaat zegt niets als de schuldenpositie kritiek is; een sterk eigen vermogen zegt niets als de winstgevendheid afneemt.
 
-**Voorbeeld**: Rotex Roeselare NV publiceert balanstotaal € 30.000.000, eigen vermogen € 12.000.000 en boekjaarwinst € 2.500.000 — pas die drie cijfers samen geven de gebruiker zicht op de financiële gezondheid.
 
 _Grondslag: KB WVV art. 3:1_
 
@@ -58,7 +57,6 @@ Als de gewone schema's en waarderingsregels niet volstaan om het getrouwe beeld 
 
 **Waarom?** Boekhoudregels zijn nooit volledig. Zonder die veiligheidsklep zou een formeel correcte jaarrekening toch een misleidend beeld kunnen geven.
 
-**Voorbeeld**: Rotex Roeselare NV heeft een hangend geschil van € 1.500.000 dat niet voldoet aan de voorwaarden voor een voorziening. De toelichting vermeldt het toch — anders zou de gebruiker het risico niet kunnen inschatten.
 
 _Grondslag: KB WVV art. 3:1 lid 2_
 
@@ -68,7 +66,6 @@ Wanneer een schatting (risico, verlies, ontwaarding) bij gebrek aan objectieve c
 
 **Waarom?** Het getrouwe beeld zou anders schijnzekerheid geven aan een cijfer dat eigenlijk een schatting is.
 
-**Voorbeeld**: Solaris Sint-Truiden BV heeft een aandelenpakket van € 500.000 in een niet-genoteerde vennootschap zonder recente transactieprijs. De waardering is onvermijdelijk aleatoir; toelichting vermeldt dit.
 
 _Grondslag: CBN-2018/15 §6_
 
@@ -111,6 +108,9 @@ _Grondslag: CBN-2018/15 §6_
 
 - **Vereist kennis van**: [[materieel-belang-financiele-analyse]]
 - **Getriggerd door**: [[voorzichtigheidsbeginsel]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

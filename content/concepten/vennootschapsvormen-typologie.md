@@ -34,7 +34,6 @@ Rechtspersonen (BV, NV, CV, VOF, CommV met rechtspersoonlijkheid, VZW, IVZW, sti
 
 **Waarom?** Rechtspersoonlijkheid → beperkte aansprakelijkheid (meestal) + eigen boekhoudplicht + jaarrekening-plicht.
 
-**Voorbeeld**: Aurelia Holding NV (rechtspersoon) is zelf eigenaar van haar gebouw. Tom Lefèvre's maatschap (geen rechtspersoon): het gebouw staat op naam van de vennoten in onverdeeldheid.
 
 _Grondslag: WVV art. 1:1 e.v._
 
@@ -44,7 +43,6 @@ _Grondslag: WVV art. 1:1 e.v._
 
 **Waarom?** Vorm bepaalt aansprakelijkheid, governance, fiscaliteit én boekhoud-modaliteiten.
 
-**Voorbeeld**: Meubelzaak Mertens BV — kapitaal € 18.500 (vrij gekozen), 2 vennoten, beperkte aansprakelijkheid. Rotex Roeselare NV — kapitaal € 5M, 1.200 aandeelhouders, beursgenoteerd.
 
 _Grondslag: WVV Boek 5 (BV), Boek 7 (NV), Boek 6 (CV), Boek 4 (VOF/CommV)_
 
@@ -54,7 +52,6 @@ _Grondslag: WVV Boek 5 (BV), Boek 7 (NV), Boek 6 (CV), Boek 4 (VOF/CommV)_
 
 **Waarom?** Belangrijk voor de boekhoud-keuze — verenigingen volgen aparte schema's (KB-WVV art. 3:184 e.v.).
 
-**Voorbeeld**: VZW Quelle de Vie heeft een café-uitbating (commerciële activiteit) maar mag winst niet uitkeren aan leden — winst herinvesteren of fondsen vormen.
 
 _Grondslag: WVV Boek 9_
 
@@ -64,7 +61,6 @@ Naast de Belgische vormen bestaan er Europese rechtsvormen: Europese vennootscha
 
 **Waarom?** Faciliteert grensoverschrijdende mobiliteit binnen de EU.
 
-**Voorbeeld**: Een Belgisch-Nederlands consortium kan kiezen voor de SE-vorm — één wet voor beide vestigingen.
 
 _Grondslag: WVV Boeken 15-16_
 
@@ -93,6 +89,9 @@ _Grondslag: WVV Boeken 15-16_
 
 - **Vereist kennis van**: [[wetboek-vennootschappen-verenigingen]]
 - **Vereist kennis van**: [[boekhoudplichtige-onderneming]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

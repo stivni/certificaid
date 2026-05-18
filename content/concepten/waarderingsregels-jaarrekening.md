@@ -37,7 +37,6 @@ Elk actief wordt initieel gewaardeerd tegen aanschaffingswaarde: aankoopprijs + 
 
 **Waarom?** Historische kost is objectief en verifieerbaar; markt-waardering vergt schattingen en variabiliteit.
 
-**Voorbeeld**: Transport Tongeren BV koopt vrachtwagen € 95.000 + transportkosten € 1.200 + installatie tracking € 800 → aanschaffingswaarde € 97.000.
 
 _Grondslag: KB-WVV art. 3:38_
 
@@ -47,7 +46,6 @@ Vaste activa met beperkte levensduur worden systematisch afgeschreven over hun e
 
 **Waarom?** Spreidt de kost van een actief over de jaren waarin het bijdraagt aan de winst (matching-principe).
 
-**Voorbeeld**: Machine € 80.000, levensduur 10 jaar, lineair: € 8.000/jaar afschrijven. Degressief 20% op restwaarde: jaar 1 € 16.000, jaar 2 € 12.800, ...
 
 _Grondslag: KB-WVV art. 3:39_
 
@@ -57,7 +55,6 @@ Wanneer een actief plots aan waarde verliest (oninbare klant, beschadigde voorra
 
 **Waarom?** Maakt de balans actueel — schade aan waarde tonen op het moment dat ze ontstaat, niet later.
 
-**Voorbeeld**: Klant van Meubelzaak Mertens BV failliet → vordering € 12.000 op die klant → waardevermindering 100% = € 12.000 ten laste van resultaat.
 
 _Grondslag: KB-WVV art. 3:66_
 
@@ -67,7 +64,6 @@ In principe geen waardering boven aanschaffingswaarde. Uitzondering: materiële 
 
 **Waarom?** Toelaten dat een onderschatte vaste actief-waarde gecorrigeerd wordt — maar streng beperkt om onoprechtheid te vermijden.
 
-**Voorbeeld**: Rotex Roeselare NV bezit een grondperceel sinds 1995 aan aanschaffingswaarde € 250.000; werkelijke waarde nu € 1.200.000 → herwaardering met € 950.000 naar 'Herwaarderingsmeerwaarden'. Geen impact op resultaat.
 
 _Grondslag: KB-WVV art. 3:35 § 4_
 
@@ -93,6 +89,9 @@ _Grondslag: KB-WVV art. 3:35 § 4_
 
 - **Vereist kennis van**: [[voorzichtigheidsbeginsel]]
 - **Vereist kennis van**: [[consistentiebeginsel]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

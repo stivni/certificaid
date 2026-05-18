@@ -36,7 +36,6 @@ _Bron: KB-WVV bijlage 1 + bijlage 2 (sociale balans)_
 
 **Waarom?** Voor stakeholders (vakbond, ondernemingsraad, bestuurder, overheid) is het personeelsbeleid een belangrijk facet — afzonderlijk gerapporteerd.
 
-**Voorbeeld**: Naaiatelier Ninove BV's sociale balans toont: 22 werknemers, waarvan 18 productie en 4 administratie; € 850.000 loonkost; gemiddeld 12 opleidingsuren per medewerker.
 
 _Grondslag: KB-WVV bijlage 1, deel IV_
 
@@ -46,7 +45,6 @@ Alle vennootschappen met werknemers — kleine vennootschappen krijgen een verko
 
 **Waarom?** Eenmanszaak zonder personeel of micro-vennootschap → te lichte structuur om sociale balans op te leggen.
 
-**Voorbeeld**: Meubelzaak Mertens BV (12 werknemers, klein) → verkort sociaal-balans-schema. Oprichtingen Oostende BV (4 werknemers, micro) → geen sociaal balans.
 
 _Grondslag: KB-WVV bijlagen 1-2; geen sociaal balans in bijlage 3_
 
@@ -61,6 +59,9 @@ _Grondslag: KB-WVV bijlagen 1-2; geen sociaal balans in bijlage 3_
 > [!tip]- Herkennen op het examen
 > Examenvraag 'waar haalt boekhouder cijfers voor sociaal balans?' → loonadministratie + DIMONA + RSZ.
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -37,7 +37,6 @@ Twee beroepen mogen de opdracht uitvoeren: gecertificeerd accountant of bedrijfs
 
 **Waarom?** De wetgever erkent dat beide beroepen de vereiste vakbekwaamheid bezitten voor specifieke vennootschapsrechtelijke verrichtingen.
 
-**Voorbeeld**: Voor de inbreng in natura van € 250.000 in Oprichtingen Oostende BV mag de oprichter kiezen tussen Sofie Janssens (gecertificeerd accountant) of een bedrijfsrevisor.
 
 _Grondslag: Wet 17 maart 2019 (ITAA-wet) art. 3 jo. specifieke WVV-bepalingen_
 
@@ -47,10 +46,12 @@ Heeft de vennootschap een commissaris, dan vervalt het 'gedeelde' karakter — d
 
 **Waarom?** Vermijdt dubbele controles + de commissaris kent de vennootschap al.
 
-**Voorbeeld**: Rotex Roeselare NV (met commissaris Wolters & Partners) doet een quasi-inbreng → de commissaris voert de opdracht uit, niet een externe accountant.
 
 _Grondslag: ITAA KMO-controlenorm §2_
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

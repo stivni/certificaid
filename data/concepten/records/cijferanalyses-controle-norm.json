@@ -43,7 +43,6 @@
       "titel": "Drie momenten",
       "wat": "(i) Risico-inschatting bij start van de controle (cijferanalyse om afwijkingen op te sporen). (ii) Tijdens de controle als gegevensgerichte procedure (om assurance te verkrijgen). (iii) Bij afsluiting als consistentiecheck (matchen de cijfers met je begrip van de onderneming?).",
       "waarom": "Cijferanalyse is geen eenmalige techniek maar een rode draad doorheen de controle. Bij elke fase een ander doel.",
-      "voorbeeld_inline": "Bij audit van Rotex Roeselare NV: (i) initieel zien dat afschrijvingen 60 % lager liggen dan vorig jaar → risico-indicator; (ii) tijdens controle, omzetontwikkeling vergelijken met sectortrend; (iii) afsluiting, de ratio's narekenen tegen het begrip van het bedrijfsmodel.",
       "grondslag": "ITAA-norm KMO §3.2.4 §111",
       "confidence": "grounded",
       "source": {
@@ -58,7 +57,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij audit van Rotex Roeselare NV: (i) initieel zien dat afschrijvingen 60 % lager liggen dan vorig jaar → risico-indicator; (ii) tijdens controle, omzetontwikkeling vergelijken met sectortrend; (iii) afsluiting, de ratio's narekenen tegen het begrip van het bedrijfsmodel."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -96,5 +101,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

@@ -34,7 +34,6 @@ Elke jaarrekening bevat ten minste **drie onderdelen**: balans, winst-en-verlies
 
 **Waarom?** Drie onderdelen geven samen het volledige beeld: balans (positie op een moment), winst-en-verlies (prestatie over een periode), toelichting (uitleg bij de cijfers). Eén ervan weglaten breekt het systeem.
 
-**Voorbeeld**: Meubelzaak Mertens BV (kleine BV) volstaat met balans + winst-en-verliesrekening + toelichting volgens microschema. Rotex Roeselare NV (grote NV) krijgt daarbovenop de verplichting tot kasstroomoverzicht en bestuursverslag.
 
 _Grondslag: Richtlijn 2013/34/EU art. 4 lid 1_
 
@@ -44,7 +43,6 @@ De jaarrekening moet een **getrouw beeld** geven van activa, passiva, financiël
 
 **Waarom?** Regels kunnen nooit elk feitenpatroon vangen. Het getrouw-beeld-beginsel werkt als veiligheidsklep: het inhoudelijke doel (gebruiker correct informeren) gaat boven de letterlijke regel.
 
-**Voorbeeld**: Rotex Roeselare NV verkoopt eind december een dochter; standaardpresentatie zou de transactie pas in het volgende boekjaar tonen. Voor een getrouw beeld neemt Rotex in de toelichting een gebeurtenis-na-balansdatum op met cijfermatige impact (€ 12.500.000 boekwaarde) — vereist door art. 4 lid 3.
 
 _Grondslag: Richtlijn 2013/34/EU art. 4 lid 3 en lid 4_
 
@@ -54,7 +52,6 @@ Tien beginselen voor opname en waardering: continuïteit, consistentie, voorzich
 
 **Waarom?** Deze tien beginselen zijn de **morele code** van de jaarrekening: ze maken cijfers vergelijkbaar tussen ondernemingen en boekjaren. Het Belgisch boekhoudrecht haalt zijn beginselen uit deze bron.
 
-**Voorbeeld**: Sofie Janssens (commissaris) controleert: heeft Rotex Roeselare NV haar voorraad gewaardeerd tegen aanschaffingsprijs (beginsel i) en is geen tussentijdse winst geboekt op nog niet verkochte voorraad (beginsel c-i)? Beide zijn art. 6-vereisten.
 
 _Grondslag: Richtlijn 2013/34/EU art. 6 lid 1_
 
@@ -64,7 +61,6 @@ Kleine groepen zijn **vrijgesteld** van de verplichting om een geconsolideerde j
 
 **Waarom?** Consolidatie kost veel werk en is voor kleine groepen disproportioneel zwaar — gebruikers van die kleine cijfers (typisch banken, leveranciers) krijgen voldoende beeld via de enkelvoudige cijfers. Bij beursgenoteerde ondernemingen weegt het publiek belang zwaarder en valt de vrijstelling weg.
 
-**Voorbeeld**: Aurelia Holding NV + Brugse Brouwerij BV vormen samen een kleine groep (omzet < € 6.000.000, balanstotaal < € 3.000.000). Vrijgesteld van consolidatie. Zou Aurelia Holding beursgenoteerd zijn (zoals Zelena Bio NV), dan vervalt de vrijstelling en is consolidatie verplicht.
 
 _Grondslag: Richtlijn 2013/34/EU art. 23 lid 1_
 
@@ -74,7 +70,6 @@ Naast de cijfers vraagt de richtlijn een toelichting met onder meer: gehanteerde
 
 **Waarom?** Cijfers alleen zeggen niets — dezelfde € 250.000 omzet kan totaal verschillend tot stand komen. De toelichting geeft de context die de cijfers leesbaar maakt.
 
-**Voorbeeld**: Rotex Roeselare NV vermeldt in haar toelichting dat ze haar materiële vaste activa volgens het kostprijsmodel waardeert (geen herwaardering) en dat haar valutatermijncontracten tegen reële waarde geboekt zijn met € 125.000 niet-gerealiseerde winst (art. 16, lid 1, c)).
 
 _Grondslag: Richtlijn 2013/34/EU art. 15, art. 16_
 
@@ -120,6 +115,9 @@ _Grondslag: Richtlijn 2013/34/EU art. 15, art. 16_
 
 - **Vereist kennis van**: [[boekhoudbeginselen-overzicht]]
 - **Getriggerd door**: [[jaarrekening]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

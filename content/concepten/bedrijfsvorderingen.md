@@ -36,7 +36,6 @@ Vorderingen met een resterende looptijd langer dan één jaar staan op rubriek V
 
 **Waarom?** De jaarrekening onderscheidt korte- en lange-termijn-posities zodat de gebruiker de liquiditeit kan inschatten. Het is de resterende termijn op balansdatum die telt, niet de oorspronkelijke termijn.
 
-**Voorbeeld**: Uitgeverij Ukkel NV verleent een lening op 3 jaar aan een freelance-auteur voor € 25.000 (terugbetaling jaarlijks). Op 31/12/20X1: € 16.500 resterend, waarvan € 8.250 binnen het jaar (rubriek VII) en € 8.250 op meer dan één jaar (rubriek V).
 
 _Grondslag: KB WVV art. 3:46 + MAR_
 
@@ -46,7 +45,6 @@ Wanneer er onzekerheid bestaat over de inbaarheid van een vordering (geheel of g
 
 **Waarom?** Het voorzichtigheidsbeginsel vereist dat verliezen al worden geboekt als ze waarschijnlijk zijn. Een dubieuze vordering volledig op nominale waarde laten staan zou de activa overschatten.
 
-**Voorbeeld**: Klant X van Meubelzaak Mertens BV: vordering € 18.000, advocaat schat 70 % verlies. Waardevermindering = € 12.600 op rekening 409. Boeking: Debet 6340 Waardeverminderingen op handelsvorderingen € 12.600 / Credit 409 € 12.600. Netto op balans: € 18.000 − € 12.600 = € 5.400.
 
 _Grondslag: KB WVV art. 3:46_
 
@@ -56,7 +54,6 @@ Bij definitief verlies (faillissement met dividend 0, kwijtschelding) wordt de v
 
 **Waarom?** Een waardevermindering is voorzichtigheidsmatig; een definitief verlies is een feit. Het feit moet zichtbaar zijn in resultaat, niet meer als correctierekening.
 
-**Voorbeeld**: Klant X gaat failliet met 0% dividend. Vordering € 18.000 definitief verloren. Boekingen: (a) Terugname waardevermindering: Debet 409 € 12.600 / Credit 7340 Terugname waardeverminderingen € 12.600. (b) Definitieve afboeking: Debet 642 Minderwaarde op realisatie van handelsvorderingen € 18.000 / Credit 400 Handelsdebiteuren € 18.000.
 
 _Grondslag: KB WVV art. 3:46 + MAR klasse 642_
 
@@ -66,7 +63,6 @@ Voor handelsvorderingen die kredietverzekerd zijn (Coface, Atradius, etc.) wordt
 
 **Waarom?** Anders zou dubbel rekening worden gehouden met het risico. Het ongedekte deel is het reële economische risico voor de onderneming.
 
-**Voorbeeld**: Naaiatelier Ninove BV heeft kredietverzekering 80 % op een vordering van € 50.000. Klant betaalt niet. Verzekerd: 80 % × € 50.000 = € 40.000. Waardevermindering te boeken: 100 % × € 10.000 (ongedekt deel) = € 10.000.
 
 _Grondslag: CBN praktijk waardeverminderingen op verzekerde handelsvorderingen_
 
@@ -105,6 +101,9 @@ _Grondslag: CBN praktijk waardeverminderingen op verzekerde handelsvorderingen_
 ## Zie ook
 
 - **Vereist kennis van**: [[waardeverminderingen]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

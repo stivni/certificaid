@@ -46,7 +46,6 @@
       "titel": "Drie hoofdvarianten",
       "wat": "De meest gebruikte zijn: current ratio (alle vlottende activa / korte schulden), quick ratio (zonder voorraden) en cash ratio (alleen geldbeleggingen + liquide middelen / korte schulden — strengste variant).",
       "waarom": "Elke variant heeft een ander strengheidsniveau. De brede current is een eerste screening; quick en cash testen of de onderneming ook bij snelle marktdruk overeind blijft.",
-      "voorbeeld_inline": "Voor Rotex Roeselare NV: current 2,0; quick 1,375; cash (€ 500.000 + € 800.000) / € 4.000.000 = 0,325. Trio toont volledig beeld.",
       "grondslag": "Vakdoctrine",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -61,7 +60,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Voor Rotex Roeselare NV: current 2,0; quick 1,375; cash (€ 500.000 + € 800.000) / € 4.000.000 = 0,325. Trio toont volledig beeld."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -146,5 +151,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

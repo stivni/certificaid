@@ -37,7 +37,6 @@ Werkelijke kostencalculatie kan zowel met full costing (volledige werkelijke kos
 
 **Waarom?** Verduidelijkt dat 'volledige kostencalculatie' (anchor 1.8.III.A) en 'werkelijke kostencalculatie' twee verschillende assen zijn — geen synoniemen.
 
-**Voorbeeld**: Yperse Werkplaats BV berekent na afsluiting 20X1 dat een partij tapijten in werkelijkheid € 21.500 heeft gekost (€ 12.000 wol + € 4.800 directe arbeid + € 4.700 indirect). Een vergelijking met de standaardkostprijs van € 20.000 toont een verschil van € 1.500 ongunstig.
 
 
 
@@ -46,4 +45,7 @@ Werkelijke kostencalculatie kan zowel met full costing (volledige werkelijke kos
 >
 > _Trigger_: Examen: welke kost gebruik je voor balans-voorraadwaarde?
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

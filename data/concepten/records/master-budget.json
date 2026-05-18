@@ -34,21 +34,31 @@
       "titel": "Operationeel budget",
       "wat": "(1) Verkoopbudget (omzet per productlijn/klant). (2) Productiebudget (volume per centrum). (3) Materiaalverbruiksbudget. (4) Arbeidsbudget. (5) Overheadbudget. (6) Commercieel + administratief budget. (7) Pro-forma resultatenrekening.",
       "waarom": "Toont geprojecteerde winstgevendheid van de operationele activiteit.",
-      "voorbeeld_inline": "Yperse Werkplaats BV master-budget 20X2: omzet € 4.500.000, totale kost € 3.700.000, EBIT € 800.000, geprojecteerde belasting € 200.000, nettowinst € 600.000.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV master-budget 20X2: omzet € 4.500.000, totale kost € 3.700.000, EBIT € 800.000, geprojecteerde belasting € 200.000, nettowinst € 600.000."
+        }
+      ]
     },
     {
       "titel": "Financieel budget",
       "wat": "(1) Investeringsbudget (CAPEX). (2) Kasstroom-budget (cash in / cash out per maand). (3) Financieringsbudget (leningen, kapitaal). (4) Pro-forma balans (eindbalans 31/12 volgend jaar).",
       "waarom": "Toont liquiditeit en solvabiliteit; signaleert nood aan extra financiering.",
-      "voorbeeld_inline": "Yperse 20X2 investeringsbudget: nieuwe naaimachines € 280.000 (Q2). Kasstroom-projectie toont negatieve cash in mei (loonbetalingen + investering); financieringsbudget voorziet trekking € 150.000 op kredietlijn.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse 20X2 investeringsbudget: nieuwe naaimachines € 280.000 (Q2). Kasstroom-projectie toont negatieve cash in mei (loonbetalingen + investering); financieringsbudget voorziet trekking € 150.000 op kredietlijn."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -75,5 +85,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

@@ -78,7 +78,6 @@
       "titel": "Kostprijscomponenten",
       "wat": "Drie hoofdcomponenten (alinea 10): (a) **inkoopkosten** — aankoopprijs + invoerrechten + niet-terugvorderbare belastingen + transport- en afhandelingskosten, minus handelskortingen; (b) **conversiekosten** — directe arbeidskosten + systematische toerekening van vaste en variabele indirecte productiekosten; (c) **andere kosten** indien nodig om voorraad op locatie en in staat te brengen.",
       "waarom": "Voorraad moet een correcte volledige kostprijs dragen — niet alleen de inkoopprijs maar ook de transport, eventuele bewerking, indirecte productie. Anders zou de marge bij verkoop kunstmatig hoog of laag worden.",
-      "voorbeeld_inline": "Zelena Bio's grondstof: aankoopprijs € 11,00/kg + transport vanuit Duitsland € 0,80/kg + invoerrechten € 0,30/kg − kwantumkorting 5% (€ 0,55/kg) = inkoopkost € 11,55/kg. Plus conversiekosten in productie € 4,50/kg → kostprijs gereed product € 16,05/kg.",
       "grondslag": "IAS 2 alinea 10-15",
       "confidence": "grounded",
       "source": {
@@ -93,13 +92,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio's grondstof: aankoopprijs € 11,00/kg + transport vanuit Duitsland € 0,80/kg + invoerrechten € 0,30/kg − kwantumkorting 5% (€ 0,55/kg) = inkoopkost € 11,55/kg. Plus conversiekosten in productie € 4,50/kg → kostprijs gereed product € 16,05/kg."
+        }
+      ]
     },
     {
       "titel": "Verboden kosten — geen onderdeel kostprijs",
       "wat": "Niét in de kostprijs van voorraden opnemen (alinea 16): (a) abnormale hoeveelheden verspilling van grondstof, arbeid of productiekosten; (b) opslagkosten, tenzij noodzakelijk in productieproces vóór later stadium; (c) administratieve overheadkosten zonder bijdrage aan locatie/staat van voorraad; (d) verkoopkosten. Deze kosten direct als last in W&V.",
       "waarom": "Abnormale verspilling weerspiegelt geen normale kostprijs en zou voorraad opblazen. Verkoopkosten ontstaan pas bij realisatie en horen bij periode-resultaat, niet bij voorraad-waarde.",
-      "voorbeeld_inline": "Zelena Bio's chemische reactor heeft in 2026 een ongebruikelijke uitval gehad waardoor 8.000 kg ingrediënt verloren ging (kost € 92.400). Niét toevoegen aan voorraadkostprijs — direct als 'Exceptioneel productieverlies' in W&V boeken.",
       "grondslag": "IAS 2 alinea 16",
       "confidence": "grounded",
       "source": {
@@ -114,13 +118,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio's chemische reactor heeft in 2026 een ongebruikelijke uitval gehad waardoor 8.000 kg ingrediënt verloren ging (kost € 92.400). Niét toevoegen aan voorraadkostprijs — direct als 'Exceptioneel productieverlies' in W&V boeken."
+        }
+      ]
     },
     {
       "titel": "Toerekeningsformules — geen LIFO",
       "wat": "Voor onderling uitwisselbare voorraden: **FIFO** (first in, first out) of **gewogen gemiddelde kostprijs**. Voor dezelfde aard en gebruik moet één formule consequent worden gebruikt (alinea 25). **LIFO (last in, first out) is expliciet verboden** sinds 2003 — een belangrijk verschil met Belgisch GAAP en sommige andere stelsels (US-GAAP).",
       "waarom": "LIFO geeft in inflatiegevoelige sectoren een lagere voorraad-boekwaarde en hogere kostprijs van omzet — wat winstmanipulatie kan toelaten en de balans onrealistisch laag toont. IASB-conclusie: ongewenst.",
-      "voorbeeld_inline": "Zelena Bio mocht onder oude BE-GAAP (pre-2016) LIFO toepassen voor haar grondstoffen. Bij IFRS-overgang: omschakelen naar FIFO of gewogen gemiddelde. Verschil materieel — typisch enkele honderdduizenden euro's op een voorraad van € 600.000.",
       "grondslag": "IAS 2 alinea 25",
       "confidence": "grounded",
       "source": {
@@ -135,13 +144,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio mocht onder oude BE-GAAP (pre-2016) LIFO toepassen voor haar grondstoffen. Bij IFRS-overgang: omschakelen naar FIFO of gewogen gemiddelde. Verschil materieel — typisch enkele honderdduizenden euro's op een voorraad van € 600.000."
+        }
+      ]
     },
     {
       "titel": "Opbrengstwaarde-test — laagste-van",
       "wat": "Op elke balansdatum: vergelijk de boekwaarde (kostprijs) met de **opbrengstwaarde** (NRV) — geschatte verkoopprijs minus geschatte kosten van voltooiing en realisatie. Indien NRV lager: afschrijven van voorraad tot NRV, verlies in W&V (alinea 9 + 28). In een volgende periode mag de afschrijving worden teruggenomen tot maximum de oorspronkelijke kostprijs (alinea 33).",
       "waarom": "Het voorzichtigheidsbeginsel: voorraden mogen niet boven hun waarschijnlijke realisatiewaarde worden gewaardeerd. Maar overdreven afschrijvingen mogen ook niet permanent blijven — terugneming bij herstel van NRV.",
-      "voorbeeld_inline": "Naaiatelier Ninove BV (kleine productie-BV) heeft voorraad textiel met kostprijs € 85.000, NRV (na collectiewissel) € 62.000. Afschrijving van voorraad −€ 23.000, in W&V als 'Waardevermindering voorraad'. Boekwaarde 31 december = € 62.000.",
       "grondslag": "IAS 2 alinea 9 + 28-33",
       "confidence": "grounded",
       "source": {
@@ -156,13 +170,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Naaiatelier Ninove BV (kleine productie-BV) heeft voorraad textiel met kostprijs € 85.000, NRV (na collectiewissel) € 62.000. Afschrijving van voorraad −€ 23.000, in W&V als 'Waardevermindering voorraad'. Boekwaarde 31 december = € 62.000."
+        }
+      ]
     },
     {
       "titel": "Opname als last bij verkoop",
       "wat": "Wanneer voorraden verkocht worden, neem je de boekwaarde op als last (kostprijs van omzet) in **dezelfde** periode waarin de daarmee verband houdende opbrengst wordt opgenomen. Matching-beginsel: opbrengst en bijhorende kostprijs gaan samen.",
       "waarom": "Een correcte marge per periode vereist dat opbrengsten en hun directe kostprijs samen worden geboekt. Decouplen zou de werkelijke winstgevendheid vervalsen.",
-      "voorbeeld_inline": "Zelena Bio verkoopt op 15 september 2026 doseflesjes voor € 394.400 opbrengst. Boekwaarde voorraad doseflesjes € 200.000 → debet 'Kostprijs voorraad verkocht' € 200.000, credit 'Voorraad' € 200.000. Brutomarge boekjaar Q3 = € 194.400.",
       "grondslag": "IAS 2 alinea 34",
       "confidence": "grounded",
       "source": {
@@ -177,7 +196,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio verkoopt op 15 september 2026 doseflesjes voor € 394.400 opbrengst. Boekwaarde voorraad doseflesjes € 200.000 → debet 'Kostprijs voorraad verkocht' € 200.000, credit 'Voorraad' € 200.000. Brutomarge boekjaar Q3 = € 194.400."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
@@ -312,5 +337,5 @@
       "omschrijving": "Zelena Bio NV's voorraden grondstoffen op 31 december 2026: ingrediënt X — 50.000 kg, kostprijs gewogen gemiddelde € 12,50/kg = € 625.000. Vervangingskostprijs op balansdatum € 11,80/kg (markt prijs gedaald). Maar verwacht gereed product blijft boven kostprijs verkoopbaar → géén afschrijving van grondstof tot NRV (alinea 32). Boekwaarde voorraad ingrediënt X = € 625.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

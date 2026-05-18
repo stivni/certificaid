@@ -50,7 +50,6 @@
       "titel": "Drie schema's: volledig / verkort / micro",
       "wat": "Afhankelijk van de grootte van de vennootschap kiest deze tussen: **volledig schema** (bijlage 2 — grote ondernemingen), **verkort schema** (bijlage 3 — kleine), **microschema** (bijlage 4 — micro-vennootschappen). Hoe kleiner, hoe minder gedetailleerd.",
       "waarom": "Administratieve last proportioneel houden aan economische omvang. Tegelijk consistentie door één van drie gestandaardiseerde formaten — niet vrij door iedereen te bepalen.",
-      "voorbeeld_inline": "Rotex Roeselare NV (omzet € 45.000.000, 220 VTE) — verplicht volledig schema. Naaiatelier Ninove BV (omzet € 1.250.000, 18 VTE) — verkort. Praktijk Persenaire eenmanszaak (omzet € 180.000) — vereenvoudigde boekhouding, geen klassieke jaarrekening.",
       "grondslag": "KB WVV art. 3:65 e.v.",
       "confidence": "grounded",
       "source": {
@@ -65,13 +64,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV (omzet € 45.000.000, 220 VTE) — verplicht volledig schema. Naaiatelier Ninove BV (omzet € 1.250.000, 18 VTE) — verkort. Praktijk Persenaire eenmanszaak (omzet € 180.000) — vereenvoudigde boekhouding, geen klassieke jaarrekening."
+        }
+      ]
     },
     {
       "titel": "Balans, RR en toelichting verplicht",
       "wat": "De jaarrekening bestaat uit drie onlosmakelijke onderdelen: balans (situatie per balansdatum), resultatenrekening (boekjaar), toelichting (uitleg). Geen 'optionele' onderdelen — alle drie verplicht.",
       "waarom": "Drie complementaire perspectieven: vermogenspositie (balans), prestatie (RR), context en methode (toelichting). Eén ervan weglaten zou een onvolledig beeld geven.",
-      "voorbeeld_inline": "Rotex Roeselare NV's jaarrekening 20X1: balans 31/12 (vermogenspositie), RR 1/1 — 31/12 (resultaat), toelichting (waarderingsregels, mutaties vaste activa, klasse 0, sociale balans).",
       "grondslag": "KB WVV art. 3:65 — 3:71",
       "confidence": "grounded",
       "source": {
@@ -86,13 +90,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV's jaarrekening 20X1: balans 31/12 (vermogenspositie), RR 1/1 — 31/12 (resultaat), toelichting (waarderingsregels, mutaties vaste activa, klasse 0, sociale balans)."
+        }
+      ]
     },
     {
       "titel": "Toelichting als sluitstuk",
       "wat": "De toelichting bevat: (1) inhoud van bepaalde balansrubrieken (mutatietabellen vaste activa, langetermijnschulden, eigen vermogen-mutaties), (2) inhoud van bepaalde RR-rubrieken (bv. personeelskosten gesplitst), (3) verplichte vermeldingen (waarderingsregels, klasse 0, gebeurtenissen na balansdatum, transacties met verbonden partijen, ...).",
       "waarom": "De cijfers in balans en RR zijn samenvattingen. De toelichting maakt ze leesbaar: hoe zijn ze samengesteld, welke methodes zijn gehanteerd, welke risico's lopen er.",
-      "voorbeeld_inline": "Bij Rotex Roeselare NV: toelichting 'Mutatietabel materiële vaste activa' toont per categorie aanschaffingen, afstotingen, afschrijvingen en eindsaldo — niet zichtbaar in de gewone balans (alleen netto-bedrag).",
       "grondslag": "KB WVV art. 3:71 + bijlagen",
       "confidence": "grounded",
       "source": {
@@ -107,13 +116,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Rotex Roeselare NV: toelichting 'Mutatietabel materiële vaste activa' toont per categorie aanschaffingen, afstotingen, afschrijvingen en eindsaldo — niet zichtbaar in de gewone balans (alleen netto-bedrag)."
+        }
+      ]
     },
     {
       "titel": "Neerlegging bij NBB",
       "wat": "Na goedkeuring door de algemene vergadering: de jaarrekening wordt binnen 30 dagen neergelegd bij de Nationale Bank van België. NBB publiceert ze publiek op www.nbb.be — toegankelijk voor iedereen.",
       "waarom": "Transparantie tegenover derden (handelspartners, schuldeisers, fiscus, concurrenten). De Belgische publicatieplicht is uitgebreider dan in veel andere landen.",
-      "voorbeeld_inline": "Rotex Roeselare NV: AV op 15 mei 20X2 keurt jaarrekening 20X1 goed. Neerlegging NBB ten laatste 14 juni 20X2. Vanaf dan: vrij raadpleegbaar op nbb.be onder ondernemingsnummer.",
       "grondslag": "WVV art. 3:10 — 3:14",
       "confidence": "grounded",
       "source": {
@@ -128,7 +142,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV: AV op 15 mei 20X2 keurt jaarrekening 20X1 goed. Neerlegging NBB ten laatste 14 juni 20X2. Vanaf dan: vrij raadpleegbaar op nbb.be onder ondernemingsnummer."
+        }
+      ]
     }
   ],
   "drempelwaarden": [
@@ -248,5 +268,5 @@
       "omschrijving": "Naaiatelier Ninove BV (omzet € 1.250.000, balanstotaal € 1.850.000, 18 werknemers) overschrijdt de drempel voor 'kleine vennootschap' op één criterium → moet jaarrekening in **verkort schema** opstellen. Balans + RR + toelichting + (geen sociale balans want < 20 VTE). Indiening bij NBB binnen 30 dagen na goedkeuring AV."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

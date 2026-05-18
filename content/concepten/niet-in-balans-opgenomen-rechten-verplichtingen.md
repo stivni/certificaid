@@ -39,7 +39,6 @@ Garanties, zekerheden, leasing- en huurverplichtingen, hangende geschillen, fina
 
 **Waarom?** Deze items raken het vermogen of risicoprofiel zonder dat ze op de balans verschijnen. De gebruiker zou ze missen als ze niet expliciet werden vermeld.
 
-**Voorbeeld**: Rotex Roeselare NV staat zich borg voor een lening van € 2.000.000 die haar dochter Brugse Brouwerij BV bij de bank aanging. Op de balans van Rotex zelf staat niets, maar de toelichting moet de borgstelling vermelden.
 
 _Grondslag: Richtlijn 2013/34/EU art. 16, 1, d) — KB W.Venn. art. 91 / 94 / 94/3_
 
@@ -49,7 +48,6 @@ Een recht of verplichting die al integraal in de balans of resultatenrekening ve
 
 **Waarom?** Dubbele vermelding zou misleiden — alsof er meer verplichtingen zijn dan in werkelijkheid.
 
-**Voorbeeld**: Een schuld aan een leverancier van € 50.000 staat al op de passiefzijde — niet ook nog eens onder 'niet in balans opgenomen verplichtingen' vermelden.
 
 _Grondslag: CBN-2017/07 §subsidiariteit_
 
@@ -59,7 +57,6 @@ Niet-balansrechten en verplichtingen worden boekhoudkundig genoteerd op klasse-0
 
 **Waarom?** Klasse 0 is buiten de gewone activa/passiva-balans: het is een 'spiegel-boeking' om verplichtingen te tracken zonder ze in de balans te tellen.
 
-**Voorbeeld**: De borgstelling van Rotex Roeselare NV voor € 2.000.000 wordt in de boekhouding genoteerd op een klasse-0-rekening (bv. 03 Persoonlijke zekerheden gesteld voor rekening van derden).
 
 _Grondslag: KB W.Venn. art. 97; CBN-2017/07 §rekeningen klasse 0_
 
@@ -69,7 +66,6 @@ De opsomming in artikel 91 (volledig schema), artikel 94 (verkort schema) en art
 
 **Waarom?** Anders zou een vennootschap zich kunnen verschuilen achter het ontbreken van de specifieke verplichting in de lijst.
 
-**Voorbeeld**: Een onbenoemd risico zoals een hangend antitrust-onderzoek dat een boete kan opleveren — niet in de lijst maar wel materieel belangrijk → toelichting vermelden.
 
 _Grondslag: CBN-2017/07 §niet-limitativiteit_
 
@@ -108,6 +104,9 @@ _Grondslag: CBN-2017/07 §niet-limitativiteit_
 ## Zie ook
 
 - **Vereist kennis van**: [[getrouw-beeld-jaarrekening]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

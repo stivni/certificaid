@@ -39,7 +39,6 @@
       "titel": "Enkel variabele kosten in kostprijs",
       "wat": "Materiaal, directe arbeid (mits stukloon of variabel uurtarief), variabele machine-kost, variabele indirecte productiekosten (energie) gaan in de kostprijs. Vaste kosten (huur, afschrijvingen, vaste lonen) gaan rechtstreeks naar RR als periode-last.",
       "waarom": "Periodewinst weerspiegelt het verkochte volume zonder verstorend effect van veranderende voorraad-waardering.",
-      "voorbeeld_inline": "Yperse Werkplaats BV — direct costing voor partij tapijten: materiaal € 12.000 + variabele arbeid € 4.500 + variabele energie € 500 = € 17.000 kostprijs. De € 3.500 vaste indirecte kost van de Weverij gaat meteen in de RR als periode-last.",
       "grondslag": "CBN 2012/15",
       "confidence": "grounded",
       "source": {
@@ -54,13 +53,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV — direct costing voor partij tapijten: materiaal € 12.000 + variabele arbeid € 4.500 + variabele energie € 500 = € 17.000 kostprijs. De € 3.500 vaste indirecte kost van de Weverij gaat meteen in de RR als periode-last."
+        }
+      ]
     },
     {
       "titel": "Wettelijke toelaatbaarheid",
       "wat": "Direct costing is in België toegelaten voor voorraadwaardering, op voorwaarde dat de keuze in de waarderingsregels wordt vastgelegd en consistent wordt toegepast. CBN-advies 2012/15 bevestigt dit voor bestellingen in uitvoering.",
       "waarom": "Belgisch boekhoudrecht laat keuze tussen full en direct, mits transparantie in toelichting.",
-      "voorbeeld_inline": "Yperse Werkplaats BV vermeldt in de toelichting bij de jaarrekening: 'Voorraden gereed product worden gewaardeerd aan de directe vervaardigingskost (direct costing). Vaste indirecte productiekosten worden in de periode waarin ze ontstaan als kost erkend.'",
       "grondslag": "CBN 2012/15",
       "confidence": "grounded",
       "source": {
@@ -75,17 +79,28 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV vermeldt in de toelichting bij de jaarrekening: 'Voorraden gereed product worden gewaardeerd aan de directe vervaardigingskost (direct costing). Vaste indirecte productiekosten worden in de periode waarin ze ontstaan als kost erkend.'"
+        }
+      ]
     },
     {
       "titel": "Impact op periodewinst",
       "wat": "Bij groei (productie > verkoop, voorraad stijgt): direct costing rapporteert lagere winst dan full costing, want vaste kosten worden niet meegeschoven in stijgende voorraad. Bij krimp (verkoop > productie): omgekeerd effect.",
       "waarom": "Direct costing dwingt management om vaste kosten elk jaar te verantwoorden in de RR.",
-      "voorbeeld_inline": "Yperse Werkplaats BV in groeijaar: productie 12.000 tapijten, verkoop 10.000. Vaste indirecte productiekost € 800.000. Bij full costing: € 800.000 / 12.000 = € 66,67/stuk; verkocht: 10.000 × € 66,67 = € 666.700 in COGS; voorraad neemt € 133.300 vaste kost mee. Bij direct costing: volledige € 800.000 in RR; voorraad-impact: nul.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV in groeijaar: productie 12.000 tapijten, verkoop 10.000. Vaste indirecte productiekost € 800.000. Bij full costing: € 800.000 / 12.000 = € 66,67/stuk; verkocht: 10.000 × € 66,67 = € 666.700 in COGS; voorraad neemt € 133.300 vaste kost mee. Bij direct costing: volledige € 800.000 in RR; voorraad-impact: nul."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -155,5 +170,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

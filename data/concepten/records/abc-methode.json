@@ -31,51 +31,76 @@
       "titel": "Stap 1: identificeer activiteiten",
       "wat": "Splits het bedrijfsproces op in activiteiten (set-up, kwaliteitscontrole, inkooporder, klantadvies, verzending). Een activiteit is een herhaalbare handeling met meetbare kost.",
       "waarom": "Eén overhead-pool is te grof; activiteiten geven granulariteit.",
-      "voorbeeld_inline": "Yperse Werkplaats BV identificeert in Confectie 5 activiteiten: (1) machine omstellen, (2) kwaliteitscontrole tapijt, (3) verpakken, (4) klant-callcenter, (5) verzending.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV identificeert in Confectie 5 activiteiten: (1) machine omstellen, (2) kwaliteitscontrole tapijt, (3) verpakken, (4) klant-callcenter, (5) verzending."
+        }
+      ]
     },
     {
       "titel": "Stap 2: koppel kosten aan activiteiten",
       "wat": "Verdeel de indirecte kosten over de activiteiten op basis van resource drivers (tijd, vloeroppervlakte, lonen). Elke activiteit krijgt een totale kost (cost pool).",
       "waarom": "Bepaalt hoeveel elke activiteit kost om uit te voeren.",
-      "voorbeeld_inline": "Yperse Werkplaats BV: omstellen-activiteit kost € 180.000/jaar (loon 2 omstellers + machine-leegloop). Kwaliteitscontrole € 96.000/jaar (loon 2 kwaliteitscontroleurs).",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV: omstellen-activiteit kost € 180.000/jaar (loon 2 omstellers + machine-leegloop). Kwaliteitscontrole € 96.000/jaar (loon 2 kwaliteitscontroleurs)."
+        }
+      ]
     },
     {
       "titel": "Stap 3: bepaal cost driver per activiteit",
       "wat": "Voor elke activiteit kies een drijver die de inzet veroorzaakt: aantal set-ups, aantal kwaliteitscontroles, aantal verzonden orders.",
       "waarom": "Causaal verband tussen activiteit en kostendrager wordt zichtbaar.",
-      "voorbeeld_inline": "Yperse Werkplaats BV — cost drivers: omstellen → aantal omstellingen (jaar: 1.200); kwaliteitscontrole → aantal gecontroleerde tapijten (jaar: 20.000); verzending → aantal orders (jaar: 800).",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV — cost drivers: omstellen → aantal omstellingen (jaar: 1.200); kwaliteitscontrole → aantal gecontroleerde tapijten (jaar: 20.000); verzending → aantal orders (jaar: 800)."
+        }
+      ]
     },
     {
       "titel": "Stap 4: bereken activity-rate",
       "wat": "Cost pool per activiteit / totaal cost-driver-eenheden = kost per cost-driver-eenheid.",
       "waarom": "Tarief om de activiteitenkost over kostendragers te verdelen.",
-      "voorbeeld_inline": "Yperse: omstellen-rate = € 180.000 / 1.200 = € 150 per omstelling. Kwaliteitscontrole-rate = € 96.000 / 20.000 = € 4,80 per tapijt. Verzending-rate = € 60.000 / 800 = € 75 per order.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse: omstellen-rate = € 180.000 / 1.200 = € 150 per omstelling. Kwaliteitscontrole-rate = € 96.000 / 20.000 = € 4,80 per tapijt. Verzending-rate = € 60.000 / 800 = € 75 per order."
+        }
+      ]
     },
     {
       "titel": "Stap 5: wijs toe aan kostendragers",
       "wat": "Voor elke kostendrager: tel het verbruik per activiteit op (aantal omstellingen, controles, orders). Vermenigvuldig met activity-rate.",
       "waarom": "Geeft per kostendrager een toegerekende overhead die zijn werkelijk verbruik weerspiegelt.",
-      "voorbeeld_inline": "Yperse: order grootwarenhuis (5.000 tapijten, 1 omstelling, 1 verzending) → overhead = € 150 (omstellen) + 5.000 × € 4,80 (controle) + € 75 (verzending) = € 24.225 → € 4,85/tapijt overhead. Order boetiek-keten (200 tapijten, 1 omstelling, 1 verzending) → € 150 + 200×4,80 + 75 = € 1.185 → € 5,93/tapijt. Kleine order draagt méér per stuk — wat klassieke sleutel verbergt.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse: order grootwarenhuis (5.000 tapijten, 1 omstelling, 1 verzending) → overhead = € 150 (omstellen) + 5.000 × € 4,80 (controle) + € 75 (verzending) = € 24.225 → € 4,85/tapijt overhead. Order boetiek-keten (200 tapijten, 1 omstelling, 1 verzending) → € 150 + 200×4,80 + 75 = € 1.185 → € 5,93/tapijt. Kleine order draagt méér per stuk — wat klassieke sleutel verbergt."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -143,5 +168,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

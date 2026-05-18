@@ -37,7 +37,6 @@
       "titel": "Toelichting door bestuursorgaan",
       "wat": "Het bestuursorgaan licht aan de algemene vergadering de financiële toestand en de uitvoering van de begroting toe. De AV stelt vragen en beoordeelt.",
       "waarom": "De AV is de uiteindelijke beslisser; haar kwijting bepaalt of bestuurders aansprakelijk blijven voor het beleid van het boekjaar.",
-      "voorbeeld_inline": "Op de gewone AV van Rotex Roeselare NV in mei 20X2 licht de CEO de jaarrekening 20X1 toe. AV stemt over goedkeuring en kwijting.",
       "grondslag": "WVV art. 9:19 (VZW-context) en analoog voor andere rechtsvormen",
       "confidence": "grounded",
       "source": {
@@ -52,13 +51,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Op de gewone AV van Rotex Roeselare NV in mei 20X2 licht de CEO de jaarrekening 20X1 toe. AV stemt over goedkeuring en kwijting."
+        }
+      ]
     },
     {
       "titel": "Goedkeuring en kwijting",
       "wat": "Twee aparte stemmingen: (a) goedkeuring van de jaarrekening (validatie van de cijfers), (b) kwijting aan bestuurders en commissaris (vrijwaring tegen aansprakelijkheid voor het uitgevoerde boekjaar).",
       "waarom": "Goedkeuring zonder kwijting is mogelijk (AV vindt cijfers OK maar wil bestuurders aansprakelijk kunnen blijven houden).",
-      "voorbeeld_inline": "Bij Rotex Roeselare NV: 100 % vóór goedkeuring; 98 % vóór kwijting (Robert Vandenberghe, minderheidsaandeelhouder, onthoudt zich wegens hangend geschil).",
       "grondslag": "WVV (per rechtsvorm)",
       "confidence": "inferred",
       "source": {
@@ -73,7 +77,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Rotex Roeselare NV: 100 % vóór goedkeuring; 98 % vóór kwijting (Robert Vandenberghe, minderheidsaandeelhouder, onthoudt zich wegens hangend geschil)."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -105,5 +115,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

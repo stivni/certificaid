@@ -39,7 +39,6 @@ Bij aankoop bij een derde is de aanschaffingsprijs de aankoopprijs PLUS alle bij
 
 **Waarom?** Een actief is pas operationeel ná installatie en transport; die kosten zijn onlosmakelijk deel van wat het actief 'kost'. Ze meeactiveren spreidt ze mee af in plaats van ze meteen als kost te boeken.
 
-**Voorbeeld**: Naaiatelier Ninove BV koopt snij-installatie € 28.500 + transport € 750 + installatie € 1.250 = aanschaffingsprijs € 30.500. NIET inbegrepen: opleiding personeel (= bedrijfskost), proefdraaikost (= bedrijfskost).
 
 _Grondslag: KB WVV art. 3:13_
 
@@ -49,7 +48,6 @@ Wanneer de onderneming het actief zelf produceert, is de vervaardigingsprijs de 
 
 **Waarom?** Een zelf gemaakt actief moet niet anders worden behandeld dan een gekocht actief; alleen kosten die er rechtstreeks aan toe te wijzen zijn, mogen mee.
 
-**Voorbeeld**: Naaiatelier Ninove BV bouwt zelf een interne kledijopslag: materialen € 4.200, lonen montagepersoneel € 3.800, elektriciteit montagehal € 250 → vervaardigingsprijs € 8.250. NIET inbegrepen: jaarlijkse boekhoudkost.
 
 _Grondslag: KB WVV art. 3:14_
 
@@ -59,7 +57,6 @@ Wanneer een actief als inbreng in natura wordt ingebracht in een vennootschap, g
 
 **Waarom?** Er is geen externe aankoopprijs of vervaardigingsprijs; de inbrengwaarde moet de werkelijke economische waarde weerspiegelen, anders zou het eigen vermogen worden over- of onderschat.
 
-**Voorbeeld**: Bij oprichting van Oprichtingen Oostende BV brengt aandeelhouder Pieter Vermeulen een bestelwagen in. Bedrijfsrevisor schat werkelijke waarde € 22.000 → inbrengwaarde € 22.000, geboekt op rekening 242 'Bedrijfswagens'.
 
 _Grondslag: KB WVV art. 3:15_
 
@@ -69,7 +66,6 @@ Eenmaal vastgesteld blijft de aanschaffingswaarde stabiel op de balans; latere p
 
 **Waarom?** Historische kostprijs is een objectieve, verifieerbare basis. Constant aanpassen zou subjectiviteit en volatiliteit introduceren.
 
-**Voorbeeld**: Het bedrijfspand van Rotex Roeselare NV: aanschaffingswaarde € 850.000 in 2010 blijft op de balans als € 850.000, óók als de werkelijke waarde anno 20X1 € 1.250.000 is. De stijging verschijnt enkel bij eventuele herwaardering of bij verkoop.
 
 _Grondslag: KB WVV art. 3:13 + bestendigheid_
 
@@ -97,6 +93,9 @@ _Grondslag: KB WVV art. 3:13 + bestendigheid_
 ## Zie ook
 
 - **Vereist kennis van**: [[afschrijvingen]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

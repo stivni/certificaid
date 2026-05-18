@@ -36,7 +36,6 @@ _Bron: Strafwetboek 2024 Boek 2 art. 479 + 488_
 
 **Waarom?** Sterk IC kan het element 'gelegenheid' beperken — de andere twee zijn buiten controle van de onderneming.
 
-**Voorbeeld**: Aankoper met gokverslaving (druk) + ontbrekende functiescheiding aankoop-betaling (gelegenheid) + 'het bedrijf merkt het toch niet' (rationalisatie) = fraude-risico hoog.
 
 _Grondslag: Cressey (1953) — vakdoctrine_
 
@@ -46,7 +45,6 @@ _Grondslag: Cressey (1953) — vakdoctrine_
 
 **Waarom?** Elk type vraagt andere preventie + detectie. Financiële vervalsing detecteer je in jaarrekening-analyse; verduistering in kasprocessen; corruptie in due-diligence + klokkenluiders.
 
-**Voorbeeld**: Type (b) bij Yperse Werkplaats BV: magazijnier neemt afgekeurde producten mee 'voor privé'. Type (a) bij Rotex Roeselare NV: WIP overschat om omzetdoelen te halen. Type (c): aankoper krijgt persoonlijke commissie van leverancier.
 
 _Grondslag: ACFE Report to the Nations — vakdoctrine_
 
@@ -68,6 +66,9 @@ _Grondslag: ACFE Report to the Nations — vakdoctrine_
 
 - **Vereist kennis van**: [[klokkenluiderregeling]]
 - **Vereist kennis van**: [[functiescheiding]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -40,7 +40,6 @@
       "titel": "Vier soorten bewegingen per rubriek",
       "wat": "Per vaste-activa-rubriek (immateriële, materiële, financiële) toont de tabel: (1) aanschaffingen + overdrachten, (2) desinvesteringen + buitengebruikstellingen, (3) overdrachten naar andere rubrieken, (4) afschrijvingen + waardeverminderingen en hun terugnemingen.",
       "waarom": "Door de bewegingen apart te tonen kan de analist de investerings-kasstroom uit het kasstroomoverzicht reconstrueren — wat balansvergelijking alleen niet toelaat.",
-      "voorbeeld_inline": "Rotex Roeselare NV — materiële vaste activa: openingswaarde € 10.000.000 + aanschaffingen € 2.500.000 − verkopen € 800.000 − afschrijvingen € 1.500.000 = eindwaarde € 10.200.000.",
       "grondslag": "KB WVV toelichtingsstaten",
       "confidence": "grounded",
       "source": {
@@ -55,13 +54,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV — materiële vaste activa: openingswaarde € 10.000.000 + aanschaffingen € 2.500.000 − verkopen € 800.000 − afschrijvingen € 1.500.000 = eindwaarde € 10.200.000."
+        }
+      ]
     },
     {
       "titel": "Brug naar kasstroom uit investeringen",
       "wat": "De aanschaffingen (cash uitstroom) en desinvesteringen (cash instroom) uit de tabel zijn rechtstreekse input voor de investerings-kasstroom van het kasstroomoverzicht.",
       "waarom": "Zonder de mutatietabel kan een analist de investerings-kasstroom niet correct schatten — afschrijvingen zijn niet-kas (mogen niet in CFI) maar wijzigen wel de balans-eindwaarde.",
-      "voorbeeld_inline": "Rotex Roeselare NV: investerings-kasstroom = − € 2.500.000 (aanschaffingen) + € 800.000 (verkopen) = − € 1.700.000.",
       "grondslag": "Vakdoctrine — gebruik van mutatietabel in kasstroomanalyse",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -76,7 +80,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV: investerings-kasstroom = − € 2.500.000 (aanschaffingen) + € 800.000 (verkopen) = − € 1.700.000."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -114,5 +124,5 @@
       "confidence": "grounded"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

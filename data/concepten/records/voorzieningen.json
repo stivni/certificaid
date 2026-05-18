@@ -55,7 +55,6 @@
       "titel": "Drie criteria voor een voorziening",
       "wat": "Een voorziening wordt aangelegd wanneer (a) er een **bestaande verplichting** is uit een verleden gebeurtenis, (b) afwikkeling waarschijnlijk een uitstroom van middelen vereist, en (c) het bedrag betrouwbaar geraamd kan worden. Anders: alleen toelichting (mogelijke verplichting).",
       "waarom": "Een passieve buffer in de balans mag alleen bestaan als er een redelijke basis voor is — anders zou de onderneming naar believen winst kunnen 'reserveren' onder de noemer voorziening (egalisatieboekhouding, verboden).",
-      "voorbeeld_inline": "Naaiatelier Ninove BV verkoopt kledij met garantie. Op basis van historische data: 2 % retouren door fabrieksfouten. Verkopen 20X1 = € 1.250.000 → voorziening voor garantieverplichtingen = 2 % × € 1.250.000 = € 25.000.",
       "grondslag": "KB WVV art. 3:11 + CBN 2018/25",
       "confidence": "grounded",
       "source": {
@@ -70,13 +69,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Naaiatelier Ninove BV verkoopt kledij met garantie. Op basis van historische data: 2 % retouren door fabrieksfouten. Verkopen 20X1 = € 1.250.000 → voorziening voor garantieverplichtingen = 2 % × € 1.250.000 = € 25.000."
+        }
+      ]
     },
     {
       "titel": "Voorzieningen voor pensioenen (160)",
       "wat": "Voor toekomstige pensioenverplichtingen aan werknemers (defined benefit-plannen, individuele pensioenbeloften). Berekend volgens actuariële methoden. Defined contribution-plannen vereisen GEEN voorziening (premies zijn al voldaan).",
       "waarom": "Pensioenbeloften zijn vaak grote LT-verplichtingen die de onderneming zal moeten honoreren. Het voorzichtigheidsbeginsel vereist een vroege erkenning.",
-      "voorbeeld_inline": "Rotex Roeselare NV heeft een groepsverzekering 'vaste prestatieplan' voor de 28 hogere kaderleden; actuariële berekening op 31/12 toont een netto-verplichting van € 850.000. Boeking op rekening 160.",
       "grondslag": "MAR rubriek 160; KB WVV",
       "confidence": "grounded",
       "source": {
@@ -91,13 +95,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV heeft een groepsverzekering 'vaste prestatieplan' voor de 28 hogere kaderleden; actuariële berekening op 31/12 toont een netto-verplichting van € 850.000. Boeking op rekening 160."
+        }
+      ]
     },
     {
       "titel": "Voorzieningen voor belastingen (161)",
       "wat": "Voor verwachte belastingverplichtingen uit wijzigingen in belastbare basis of berekening (typisch: lopende fiscale geschillen, betwiste aanslagen). Bij **eens** zijn met de aanslag: gewone belastingschuld (rekening 45), GEEN voorziening.",
       "waarom": "Onzekere fiscale uitkomsten verdienen voorzichtigheid. Maar als het bedrag vaststaat en is aanvaard: gewone schuld, niet meer onzeker.",
-      "voorbeeld_inline": "Uitgeverij Ukkel NV ontvangt een bericht van wijziging € 18.000 voor 20X1 (verwerping bepaalde reclamekosten). De NV betwist; advocaat schat 60 % kans op verlies → voorziening € 18.000 × 60 % = € 10.800 op rekening 161 (niet rekening 45).",
       "grondslag": "CBN 2018/25",
       "confidence": "grounded",
       "source": {
@@ -112,13 +121,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Uitgeverij Ukkel NV ontvangt een bericht van wijziging € 18.000 voor 20X1 (verwerping bepaalde reclamekosten). De NV betwist; advocaat schat 60 % kans op verlies → voorziening € 18.000 × 60 % = € 10.800 op rekening 161 (niet rekening 45)."
+        }
+      ]
     },
     {
       "titel": "Voorzieningen voor grote herstellingen (162)",
       "wat": "Voor grote periodieke herstellings- en onderhoudswerken die over meerdere jaren zullen plaatsvinden (bv. dakvernieuwing om de 20 jaar, scheepsoverhaul). Jaarlijks wordt een tranche opgebouwd zodat de kost gespreid is.",
       "waarom": "Anders zou een grote eenmalige onderhoudskost de winst van één boekjaar onevenredig drukken. Spreiding via voorziening volgt matching.",
-      "voorbeeld_inline": "Rotex Roeselare NV verwacht over 10 jaar een dakrenovatie € 200.000. Jaarlijkse opbouw € 20.000 op rekening 162. Boeking elk jaar: Debet 6360 Voorzieningen voor grote herstellingen — toevoeging € 20.000 / Credit 162 € 20.000.",
       "grondslag": "MAR + KB WVV art. 3:11",
       "confidence": "grounded",
       "source": {
@@ -133,13 +147,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV verwacht over 10 jaar een dakrenovatie € 200.000. Jaarlijkse opbouw € 20.000 op rekening 162. Boeking elk jaar: Debet 6360 Voorzieningen voor grote herstellingen — toevoeging € 20.000 / Credit 162 € 20.000."
+        }
+      ]
     },
     {
       "titel": "Uitgestelde belastingen (168)",
       "wat": "Voor uitgestelde belastingen op kapitaalsubsidies (1680), op gerealiseerde meerwaarden (1681) en op andere belastbare elementen waarvan de fiscale impact later valt. NIET een 'voorziening' in de strikte zin maar een aanverwante passiefpost.",
       "waarom": "Boekhoudkundige opbrengsten en fiscale belastbare basis lopen niet altijd synchroon. Uitgestelde belastingen vangen die verschillen op.",
-      "voorbeeld_inline": "Naaiatelier Ninove BV ontvangt subsidie € 20.000 (in kapitaalsubsidies geboekt). De fiscale impact valt gespreid over 5 jaar (parallel aan resultaatname). Uitgestelde belastingen op rekening 1680 vangen die spreiding op.",
       "grondslag": "CBN 2013/14 + KB WVV",
       "confidence": "grounded",
       "source": {
@@ -154,7 +173,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Naaiatelier Ninove BV ontvangt subsidie € 20.000 (in kapitaalsubsidies geboekt). De fiscale impact valt gespreid over 5 jaar (parallel aan resultaatname). Uitgestelde belastingen op rekening 1680 vangen die spreiding op."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -249,5 +274,5 @@
       "omschrijving": "Uitgeverij Ukkel NV heeft op 31/12 een lopend rechtsgeding waar een schadevergoeding van € 75.000 dreigt; juridisch advies wijst op verlies-waarschijnlijkheid > 50 %. Voorziening voor andere risico's en kosten van € 75.000 wordt geboekt: Debet 6371 Voorzieningen voor andere risico's en kosten — toevoeging € 75.000 / Credit 163 Voorzieningen voor overige risico's en kosten € 75.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:11:45Z"
 }

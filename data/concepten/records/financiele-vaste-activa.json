@@ -51,7 +51,6 @@
       "titel": "Duurzaam ondersteuningsoogmerk",
       "wat": "Het kernkenmerk: de onderneming houdt het effect of de vordering aan om de bedrijfsactiviteit van een andere onderneming **duurzaam te ondersteunen** of er een **duurzame relatie** mee te onderhouden — niet voor korte-termijn-rendement.",
       "waarom": "Anders dan geldbeleggingen (rubriek 5x) die snel verhandelbaar zijn voor rendement, dienen financiële vaste activa een strategisch doel. De boekhoudkundige behandeling weerspiegelt dat verschil: stabiele aanschaffingswaarde i.p.v. marktwaardering.",
-      "voorbeeld_inline": "Aurelia Holding NV's 80 % belang in Brugse Brouwerij BV — strategische deelneming met controle en duurzame ondersteuning. Financieel vast actief. Versus: Solaris Sint-Truiden BV koopt voor € 50.000 aandelen van een beursgenoteerde NV voor rendement → geldbelegging, NIET financieel vast actief.",
       "grondslag": "CBN 147/1 + KB WVV art. 3:42",
       "confidence": "grounded",
       "source": {
@@ -66,13 +65,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV's 80 % belang in Brugse Brouwerij BV — strategische deelneming met controle en duurzame ondersteuning. Financieel vast actief. Versus: Solaris Sint-Truiden BV koopt voor € 50.000 aandelen van een beursgenoteerde NV voor rendement → geldbelegging, NIET financieel vast actief."
+        }
+      ]
     },
     {
       "titel": "Waardering aan aanschaffingsprijs",
       "wat": "Financiële vaste activa worden gewaardeerd aan de **aanschaffingsprijs** (aankoopprijs + bijkomende kosten). Bijkomende kosten mogen rechtstreeks ten laste van het resultaat geboekt worden. Bij inbreng in natura: de conventioneel bepaalde prijs.",
       "waarom": "Aanschaffingsprijs is objectief en verifieerbaar. Marktwaardering zou volatiele schommelingen in de jaarrekening introduceren — wat strijdig is met het voorzichtigheidsbeginsel.",
-      "voorbeeld_inline": "Aurelia Holding NV betaalt € 1.600.000 + makelaarscommissie € 25.000 voor 80 % Brugse. Keuze: alles activeren als aanschaffingsprijs € 1.625.000 op rekening 280, OF aanschaffingsprijs € 1.600.000 op rekening 280 + commissie € 25.000 als financiële kost (rekening 65) — beide aanvaard.",
       "grondslag": "KB WVV art. 3:42",
       "confidence": "grounded",
       "source": {
@@ -87,13 +91,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV betaalt € 1.600.000 + makelaarscommissie € 25.000 voor 80 % Brugse. Keuze: alles activeren als aanschaffingsprijs € 1.625.000 op rekening 280, OF aanschaffingsprijs € 1.600.000 op rekening 280 + commissie € 25.000 als financiële kost (rekening 65) — beide aanvaard."
+        }
+      ]
     },
     {
       "titel": "Waardevermindering bij duurzame minderwaarde",
       "wat": "Op deelnemingen worden waardeverminderingen geboekt 'in geval van **duurzame minderwaarde of ontwaarding**, verantwoord door de toestand, de rendabiliteit of de vooruitzichten' van de onderneming waarin de deelneming wordt gehouden.",
       "waarom": "Een tijdelijke koersdaling rechtvaardigt geen ingreep (voorzichtigheidsbeginsel + bestendigheid). Maar bij structurele verliezen of slechte vooruitzichten moet de balans dit reflecteren.",
-      "voorbeeld_inline": "Brugse Brouwerij BV maakt drie jaar verlies, eigen vermogen is gehalveerd van € 1.500.000 naar € 750.000. Aurelia's 80 %-belang op € 1.600.000 is niet meer realistisch. Waardevermindering: Debet 6630 Waardeverminderingen FVA € 1.000.000 / Credit 280 Deelnemingen € 1.000.000 (afwaardering tot bv. € 600.000).",
       "grondslag": "KB WVV art. 3:45 + CBN 126/8",
       "confidence": "grounded",
       "source": {
@@ -108,13 +117,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Brugse Brouwerij BV maakt drie jaar verlies, eigen vermogen is gehalveerd van € 1.500.000 naar € 750.000. Aurelia's 80 %-belang op € 1.600.000 is niet meer realistisch. Waardevermindering: Debet 6630 Waardeverminderingen FVA € 1.000.000 / Credit 280 Deelnemingen € 1.000.000 (afwaardering tot bv. € 600.000)."
+        }
+      ]
     },
     {
       "titel": "Herwaardering mogelijk bij blijvende meerwaarde",
       "wat": "Aandelen onder financiële vaste activa kunnen worden geherwaardeerd als de meerwaarde **blijvend** is. Toepassing van KB WVV art. 3:35 (zie [[herwaarderingsmeerwaarden]]). Voorrang gaat eerst naar terugname van eerder geboekte waardeverminderingen.",
       "waarom": "Strategische deelnemingen die structureel meer waard zijn geworden mogen die waarde tonen — maar onder dezelfde strikte voorwaarden als andere herwaarderingen.",
-      "voorbeeld_inline": "Aurelia Holding NV's belang in Brugse Brouwerij BV (op € 600.000 na waardevermindering) herstelt economisch. Eerst: terugname waardevermindering tot bv. € 1.000.000. Dan kan eventueel herwaardering tot € 1.700.000 op rekening 12 — mits voldaan aan strikte voorwaarden.",
       "grondslag": "KB WVV art. 3:35 + CBN 2017/11",
       "confidence": "grounded",
       "source": {
@@ -129,7 +143,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV's belang in Brugse Brouwerij BV (op € 600.000 na waardevermindering) herstelt economisch. Eerst: terugname waardevermindering tot bv. € 1.000.000. Dan kan eventueel herwaardering tot € 1.700.000 op rekening 12 — mits voldaan aan strikte voorwaarden."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -197,5 +217,5 @@
       "omschrijving": "Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1.600.000 met de bedoeling de brouwerij duurzaam te ondersteunen. Boeking: Debet 280 Deelnemingen in verbonden ondernemingen € 1.600.000 / Credit 550 Bank € 1.600.000. Waardering blijft op aanschaffingswaarde; pas bij duurzame minderwaarde (bv. structurele verliezen brouwerij) wordt waardevermindering geboekt op rekening 280/289."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

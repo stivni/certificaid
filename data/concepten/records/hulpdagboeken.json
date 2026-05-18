@@ -54,7 +54,6 @@
       "titel": "Vier klassieke hulpdagboeken",
       "wat": "(1) Aankoopdagboek — alle inkomende facturen, gerangschikt op datum. (2) Verkoopdagboek — alle uitgaande facturen. (3) Financieel dagboek — alle in- en uitgaven via bank of kas (één per rekening). (4) Diversen-dagboek — alle andere boekingen (afschrijvingen, herwaarderingen, correcties).",
       "waarom": "Specialisatie verhoogt efficiëntie — één persoon kan op aankopen werken, een ander op verkopen.",
-      "voorbeeld_inline": "Inkomende leveranciersfactuur bij Naaiatelier Ninove BV → aankoopdagboek. Eindjaarsboeking afschrijving → diversen-dagboek.",
       "grondslag": "WER art. III.84; CBN-advies 174/1",
       "confidence": "grounded",
       "source": {
@@ -69,13 +68,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Inkomende leveranciersfactuur bij Naaiatelier Ninove BV → aankoopdagboek. Eindjaarsboeking afschrijving → diversen-dagboek."
+        }
+      ]
     },
     {
       "titel": "Centralisatie — minstens maandelijks",
       "wat": "De saldi van elk hulpdagboek worden minstens maandelijks overgebracht naar het centraal boek (algemeen dagboek). Bij vereenvoudigde boekhouding volstaat een driemaandelijkse centralisatie.",
       "waarom": "Centraal boek geeft het algemeen overzicht; hulpdagboeken zijn de detail-bronnen.",
-      "voorbeeld_inline": "Eind januari boekt boekhouder Meubelzaak Mertens BV de totalen van januari uit elk hulpdagboek (€ 35.000 aankopen, € 52.000 verkopen, € 18.000 bank ING-bewegingen, ...) over naar het centraal boek.",
       "grondslag": "WER art. III.84; CBN-advies 174/1",
       "confidence": "grounded",
       "source": {
@@ -90,7 +94,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Eind januari boekt boekhouder Meubelzaak Mertens BV de totalen van januari uit elk hulpdagboek (€ 35.000 aankopen, € 52.000 verkopen, € 18.000 bank ING-bewegingen, ...) over naar het centraal boek."
+        }
+      ]
     }
   ],
   "edges": [
@@ -113,5 +123,5 @@
       "omschrijving": "Meubelzaak Mertens BV houdt 5 hulpdagboeken bij: aankopen, verkopen, financieel (ING bank), financieel (KBC bank), diversen. Eind maand: centralisatie naar centraal boek."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

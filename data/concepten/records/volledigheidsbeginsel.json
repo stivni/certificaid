@@ -60,7 +60,6 @@
       "titel": "Drie types informatie",
       "wat": "(1) Verrichtingen: elke aan-, verkoop-, betaling of ontvangst. (2) Bezittingen en schulden: alle activa en passiva op balansdatum. (3) Niet-balanselementen: rechten en verplichtingen die juridisch bestaan maar (nog) niet als activa/passiva op de balans staan — bv. gegeven waarborgen, lopende rechtsgeschillen, kosten op lange termijn.",
       "waarom": "Voor een getrouw beeld telt niet alleen wat op de balans staat, maar ook wat erbuiten ligt en de toekomstige financiële positie kan beïnvloeden.",
-      "voorbeeld_inline": "Aurelia Holding NV heeft een patronaatsverklaring afgegeven voor een lening van € 2M aan haar dochter → niet op balans Aurelia (geen vaststaande verplichting), wél in toelichting.",
       "grondslag": "KB-WVV art. 3:14",
       "confidence": "grounded",
       "source": {
@@ -75,13 +74,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV heeft een patronaatsverklaring afgegeven voor een lening van € 2M aan haar dochter → niet op balans Aurelia (geen vaststaande verplichting), wél in toelichting."
+        }
+      ]
     },
     {
       "titel": "Geen 'kleine' boekingen overslaan",
       "wat": "Het volledigheidsbeginsel kent geen materialiteit-drempel — élke verrichting moet geboekt worden, ook van € 10. Wel mag voor de toelichting en de jaarrekening-presentatie aggregatie gehanteerd worden onder de materialiteits-drempel (KB-WVV art. 3:5).",
       "waarom": "Een 'kleine' aankoop overslaan in de boekhouding ondergraaft de bewijswaarde van het hele systeem.",
-      "voorbeeld_inline": "Praktijk Persenaire boekt een kasstuk van € 8 voor papier-rolletjes — ook al is het klein, het MOET in het boek staan.",
       "grondslag": "WER art. III.83",
       "confidence": "grounded",
       "source": {
@@ -96,7 +100,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Praktijk Persenaire boekt een kasstuk van € 8 voor papier-rolletjes — ook al is het klein, het MOET in het boek staan."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -159,5 +169,5 @@
       "omschrijving": "Rotex Roeselare NV heeft een hypotheek toegekend op een pand ten gunste van haar bank → wordt vermeld in de toelichting onder 'Niet in de balans opgenomen rechten en verplichtingen' (rubriek 9, klasse 0), ook al staat het niet op de balans zelf."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

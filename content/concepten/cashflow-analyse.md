@@ -44,7 +44,6 @@ Vertrek vanuit het nettoresultaat na belastingen en tel daar alle kosten bij die
 
 **Waarom?** Niet-kaskosten verlagen de winst boekhoudkundig maar er ging geen euro de deur uit. Cashflow filtert dat boekhoudkundige effect weg.
 
-**Voorbeeld**: Rotex Roeselare NV: nettowinst € 2.500.000 + afschrijvingen € 1.500.000 + waardeverminderingen € 200.000 = cashflow € 4.200.000.
 
 _Grondslag: CBN-2011/14_
 
@@ -54,7 +53,6 @@ Cashflow is een belangrijke factor in waardering: een onderneming met hoge cashf
 
 **Waarom?** Schuldeisers en investeerders kijken naar cashflow eerder dan winst — winst kan boekhoudkundig zijn opgepoetst; cashflow is moeilijker te manipuleren.
 
-**Voorbeeld**: Een bank evalueert het kredietdossier van Rotex Roeselare NV met een schuld op meer dan een jaar van € 13.000.000 — cashflow van € 4.200.000 betekent een terugbetalingstermijn van ongeveer 3,1 jaar.
 
 _Grondslag: Vakdoctrine + CBN-2011/14 (cashflow als rentabiliteitsmaatstaf)_
 
@@ -91,6 +89,9 @@ _Grondslag: Vakdoctrine + CBN-2011/14 (cashflow als rentabiliteitsmaatstaf)_
 
 - **Vereist kennis van**: [[rentabiliteit-eigen-vermogen-roe]]
 - **Vereist kennis van**: [[rentabiliteit-totaal-activa-roa]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

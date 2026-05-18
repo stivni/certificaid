@@ -38,7 +38,6 @@ _Bron: KB-WVV art. 3:14-3:18_
 
 **Waarom?** De balans + RR geven cijfers; de toelichting geeft context en uitleg.
 
-**Voorbeeld**: Toelichting van Naaiatelier Ninove BV bij rubriek voorraad: 'Grondstoffen worden gewaardeerd volgens FIFO; afgewerkte producten tegen kostprijs incl. proportioneel deel indirecte kosten.'
 
 _Grondslag: KB-WVV art. 3:14-3:18 + bijlagen_
 
@@ -48,7 +47,6 @@ Volledig schema (groot) → ~ 20 verplichte rubrieken in toelichting. Verkort sc
 
 **Waarom?** Proportionaliteit — kleinere ondernemingen leveren minder detailinformatie.
 
-**Voorbeeld**: Rotex Roeselare NV (groot): toelichting van 25 pagina's. Oprichtingen Oostende BV (micro): toelichting van 2 pagina's.
 
 _Grondslag: KB-WVV bijlagen 1-3_
 
@@ -58,7 +56,6 @@ Een sleutelrubriek (rubriek IX in volledig schema, klasse 0). Hier komen: gegeve
 
 **Waarom?** Volledigheidsbeginsel — een gebruiker moet weten welke verbintenissen 'naast de balans' bestaan en de toekomst kunnen beïnvloeden.
 
-**Voorbeeld**: Aurelia Holding NV gaf patronaatsverklaring voor lening € 2M aan dochter → toelichting rubriek IX 'Niet-balansrechten en -verplichtingen' → € 2M voorwaardelijke verplichting.
 
 _Grondslag: KB-WVV art. 3:14_
 
@@ -77,6 +74,9 @@ _Grondslag: KB-WVV art. 3:14_
 ## Zie ook
 
 - **Vereist kennis van**: [[volledigheidsbeginsel]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

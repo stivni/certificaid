@@ -65,7 +65,6 @@
       "titel": "Stijging — naar OCI (herwaarderingsreserve)",
       "wat": "Wanneer de boekwaarde van een actief **stijgt** als gevolg van een herwaardering, neem je de stijging op in **overige onderdelen van het totaalresultaat** (OCI) en verwerk je ze in het eigen vermogen als **herwaarderingsreserve**. Uitzondering: als de stijging een eerdere herwaarderingsafname tegengaat die in winst of verlies was opgenomen, gaat ze tot dat bedrag in winst of verlies (en het saldo in OCI).",
       "waarom": "Een herwaarderings-uplift is een niet-gerealiseerde meerwaarde. Ze meteen als winst boeken zou de gebruiker misleiden — de winst bestaat alleen op papier zolang het actief niet verkocht is. OCI parkeert ze tot realisatie of vervreemding.",
-      "voorbeeld_inline": "Zelena Bio NV's terreinen op 1 januari 2026: boekwaarde € 12.000.000. Reële waarde uit taxatie: € 18.000.000. Herwaardering +€ 6.000.000 → OCI → herwaarderingsreserve. Eigen vermogen stijgt met € 6.000.000 (minus uitgestelde belasting volgens IAS 12).",
       "grondslag": "IAS 16 alinea 39",
       "confidence": "grounded",
       "source": {
@@ -80,13 +79,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio NV's terreinen op 1 januari 2026: boekwaarde € 12.000.000. Reële waarde uit taxatie: € 18.000.000. Herwaardering +€ 6.000.000 → OCI → herwaarderingsreserve. Eigen vermogen stijgt met € 6.000.000 (minus uitgestelde belasting volgens IAS 12)."
+        }
+      ]
     },
     {
       "titel": "Daling — naar winst of verlies",
       "wat": "Wanneer de boekwaarde **daalt** door herwaardering, neem je de afname op in winst of verlies. Uitzondering: voor zover er voor dat actief een creditsaldo aan herwaarderingsreserve bestaat (uit eerdere uplift), gaat de afname tot dat bedrag eerst in OCI (verminderen reserve), pas het excedent in winst of verlies.",
       "waarom": "Symmetrisch tegengesteld aan de stijging-regel: een waardedaling die nog door eerdere reserve gedekt is, hoort niet onmiddellijk het resultaat te belasten. Pas wanneer de reserve op is, treft het verlies daadwerkelijk de winst.",
-      "voorbeeld_inline": "Op 31 december 2030 vertonen Zelena's terreinen door regionale crisis een reële waarde van € 14.000.000 (was € 18.000.000). Daling −€ 4.000.000. Herwaarderingsreserve had nog € 6.000.000 → afname gaat volledig naar OCI (reserve daalt naar € 2.000.000). Geen effect op winst of verlies 2030.",
       "grondslag": "IAS 16 alinea 40",
       "confidence": "grounded",
       "source": {
@@ -101,13 +105,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Op 31 december 2030 vertonen Zelena's terreinen door regionale crisis een reële waarde van € 14.000.000 (was € 18.000.000). Daling −€ 4.000.000. Herwaarderingsreserve had nog € 6.000.000 → afname gaat volledig naar OCI (reserve daalt naar € 2.000.000). Geen effect op winst of verlies 2030."
+        }
+      ]
     },
     {
       "titel": "Frequentie van herwaardering",
       "wat": "Herwaarderen moet '**voldoende regelmatig**' zodat de boekwaarde niet beduidend afwijkt van de reële waarde aan het eind van de verslagperiode. Concreet: jaarlijks bij volatiele markten; om de 3 à 5 jaar bij stabiele markten (alinea 34). Bij voortschrijdende herwaardering binnen een categorie: korte periode, recente waarden.",
       "waarom": "Een herwaardering uit 2015 die je vandaag nog gebruikt zegt niets over de actuele reële waarde. De frequentie-eis voorkomt dat het model uitgehold wordt door verouderde taxaties.",
-      "voorbeeld_inline": "Zelena Bio kiest jaarlijkse herwaardering voor terreinen in stedelijk gebied (volatiele vastgoedmarkt) en driejaarlijkse herwaardering voor terreinen in landelijke productiezones (stabiele markt).",
       "grondslag": "IAS 16 alinea 34",
       "confidence": "grounded",
       "source": {
@@ -122,13 +131,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio kiest jaarlijkse herwaardering voor terreinen in stedelijk gebied (volatiele vastgoedmarkt) en driejaarlijkse herwaardering voor terreinen in landelijke productiezones (stabiele markt)."
+        }
+      ]
     },
     {
       "titel": "Volledige categorie — geen cherry-picking",
       "wat": "De keuze voor het herwaarderingsmodel geldt voor **alle activa binnen een categorie** (alinea 36). Categorieën zijn gegroepeerd naar gelijksoortige aard en gebruik: grond, terreinen en gebouwen, machines, schepen, vliegtuigen, motorvoertuigen, meubilair, kantoorinrichting, vruchtdragende planten.",
       "waarom": "Selectief enkele activa herwaarderen zou de mooie activa optillen en de minder mooie achterlaten — cherry-picking ten gunste van het management. Categorie-brede toepassing voorkomt dat.",
-      "voorbeeld_inline": "Zelena Bio mag NIET alleen haar terrein in Brussel herwaarderen (met fraaie uplift) en haar andere terreinen (met dalende waarde) op kostprijs houden. Ofwel ALLE terreinen aan het herwaarderingsmodel, ofwel geen enkel.",
       "grondslag": "IAS 16 alinea 36-37",
       "confidence": "grounded",
       "source": {
@@ -143,13 +157,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio mag NIET alleen haar terrein in Brussel herwaarderen (met fraaie uplift) en haar andere terreinen (met dalende waarde) op kostprijs houden. Ofwel ALLE terreinen aan het herwaarderingsmodel, ofwel geen enkel."
+        }
+      ]
     },
     {
       "titel": "Realisatie herwaarderingsreserve — naar ingehouden winsten",
       "wat": "De herwaarderingsreserve mag direct naar **ingehouden winsten** worden overgeboekt zodra het actief niet langer wordt opgenomen (verkocht, buiten gebruik gesteld, vervreemd). Optioneel ook gedurende het gebruik: het verschil tussen afschrijving op geherwaardeerde waarde en afschrijving op oorspronkelijke kostprijs mag jaarlijks worden overgeboekt. Deze transfer gaat NIET via winst of verlies.",
       "waarom": "Een gerealiseerde herwaardering (via verkoop) hoort niet meer in OCI te staan. Maar omdat ze in geen enkel stadium via winst-of-verlies is gegaan, gaat ze rechtstreeks naar ingehouden winsten.",
-      "voorbeeld_inline": "Zelena Bio verkoopt in 2032 het Brusselse terrein voor € 22.000.000 (geherwaardeerde boekwaarde € 18.000.000). Realisatiewinst € 4.000.000 in winst of verlies. Daarnaast: de openstaande herwaarderingsreserve voor dat terrein (€ 6.000.000) wordt overgeboekt naar ingehouden winsten — NIET in resultaat.",
       "grondslag": "IAS 16 alinea 41",
       "confidence": "grounded",
       "source": {
@@ -164,7 +183,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio verkoopt in 2032 het Brusselse terrein voor € 22.000.000 (geherwaardeerde boekwaarde € 18.000.000). Realisatiewinst € 4.000.000 in winst of verlies. Daarnaast: de openstaande herwaarderingsreserve voor dat terrein (€ 6.000.000) wordt overgeboekt naar ingehouden winsten — NIET in resultaat."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
@@ -256,5 +281,5 @@
       "confidence": "grounded"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

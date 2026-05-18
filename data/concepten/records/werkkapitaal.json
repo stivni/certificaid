@@ -42,7 +42,6 @@
       "titel": "Absolute tegenhanger van current ratio",
       "wat": "Current ratio drukt de liquiditeit uit als verhouding (€ 8.000.000 / € 4.000.000 = 2,0). Werkkapitaal drukt diezelfde liquiditeit uit als absoluut bedrag (€ 8.000.000 − € 4.000.000 = € 4.000.000).",
       "waarom": "Verhoudingen verbergen de schaal. Twee bedrijven met dezelfde current ratio van 2 kunnen € 100.000 of € 100.000.000 werkkapitaal hebben — een schaalverschil dat belangrijk is voor financieringscapaciteit.",
-      "voorbeeld_inline": "Rotex Roeselare NV: werkkapitaal = € 8.000.000 − € 4.000.000 = € 4.000.000 positief. Meubelzaak Mertens BV: € 800.000 − € 600.000 = € 200.000 positief. Beide hebben current ratio rond 1,3 maar zeer verschillende absolute buffers.",
       "grondslag": "Vakdoctrine",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -57,13 +56,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV: werkkapitaal = € 8.000.000 − € 4.000.000 = € 4.000.000 positief. Meubelzaak Mertens BV: € 800.000 − € 600.000 = € 200.000 positief. Beide hebben current ratio rond 1,3 maar zeer verschillende absolute buffers."
+        }
+      ]
     },
     {
       "titel": "Positief werkkapitaal = comfortzone",
       "wat": "Werkkapitaal positief betekent dat de vlottende activa de korte schulden overschrijden. De vennootschap heeft een buffer om operationele schokken op te vangen.",
       "waarom": "Negatief werkkapitaal betekent dat korte schulden langetermijnactiva financieren — een structureel risico (mismatch in looptijd).",
-      "voorbeeld_inline": "Solaris Sint-Truiden BV met vlottende activa € 1.200.000 en korte schulden € 1.500.000 heeft een negatief werkkapitaal van € 300.000 — waarschuwingssignaal.",
       "grondslag": "Vakdoctrine",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -78,7 +82,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Solaris Sint-Truiden BV met vlottende activa € 1.200.000 en korte schulden € 1.500.000 heeft een negatief werkkapitaal van € 300.000 — waarschuwingssignaal."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -170,5 +180,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

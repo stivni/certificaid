@@ -37,7 +37,6 @@
       "titel": "Drie soorten informatie",
       "wat": "(i) Basisinformatie (eenmalig bij installatie OR), (ii) jaarinformatie (binnen 3 maanden na boekjaar — uitgebreide financiële en operationele gegevens), (iii) periodieke informatie (trimestrieel).",
       "waarom": "De gradatie geeft werknemersvertegenwoordigers een toenemend gedetailleerd beeld zonder hen continu te overstelpen.",
-      "voorbeeld_inline": "Bij Rotex Roeselare NV (250 werknemers): jaarinformatie OR vóór 31 maart 20X2 met financiële situatie, omzetspreiding, exportcijfers, investeringsplan.",
       "grondslag": "KB 27 november 1973 + paritaire akkoorden",
       "confidence": "inferred",
       "source": {
@@ -52,7 +51,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Rotex Roeselare NV (250 werknemers): jaarinformatie OR vóór 31 maart 20X2 met financiële situatie, omzetspreiding, exportcijfers, investeringsplan."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -84,5 +89,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

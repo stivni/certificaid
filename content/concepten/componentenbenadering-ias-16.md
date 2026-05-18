@@ -37,7 +37,6 @@ IAS 16 definieert geen vaste drempel. De entiteit maakt een **professional judgm
 
 **Waarom?** Een rigide percentage zou willekeur creëren. Bij een vliegtuig is een motor van 5% van de totaalkostprijs nog steeds zo belangrijk dat aparte afschrijving zinvol is; bij een gebouw is een lift van 5% misschien op te nemen onder 'rest'.
 
-**Voorbeeld**: Zelena Bio's productielijn (kostprijs € 13.800.000): motor € 4.000.000 (29%), reactor € 7.000.000 (51%), bedieningssoftware € 2.800.000 (20%). Alle drie boven 15% → alle drie afzonderlijk afschrijven.
 
 _Grondslag: IAS 16 alinea 43 + judgment_
 
@@ -47,7 +46,6 @@ Wanneer een component wordt vervangen, neem je de **boekwaarde van het vervangen
 
 **Waarom?** Een nieuw onderdeel activeren zonder het oude eruit te halen zou dubbel-tellen op de balans. De componentenbenadering werkt alleen als je consistent oude én nieuwe onderdelen behandelt.
 
-**Voorbeeld**: In 2034 (na 8 jaar) wordt de motor van Zelena Bio's productielijn vervangen. Oude motor: kostprijs € 4.000.000, geaccumuleerde afschrijving 8/8 × € 4.000.000 = € 4.000.000 → boekwaarde € 0. Nieuwe motor: kostprijs € 5.500.000 → geactiveerd, afgeschreven over 8 jaar (€ 687.500/jaar).
 
 _Grondslag: IAS 16 alinea 13 + 70_
 
@@ -57,7 +55,6 @@ Periodieke **grondige inspecties** (bv. revisie van een vliegtuig elke 5 jaar, r
 
 **Waarom?** Inspectiekosten zijn substantieel maar niet aan een fysiek onderdeel verbonden. Ze als kost meteen erkennen zou een ongelijke verdeling van kosten over de tijd geven; ze activeren en spreiden tot de volgende inspectie is conceptueel correcter.
 
-**Voorbeeld**: Zelena Bio's reactor vereist elke 5 jaar een wettelijk verplichte grondige inspectie (kosten € 800.000). Bij aanschaf wordt € 800.000 als 'inspectie-component' geactiveerd, afgeschreven over 5 jaar. Bij volgende inspectie: oude inspectiekost niet langer opnemen + nieuwe € 800.000 activeren.
 
 _Grondslag: IAS 16 alinea 14_
 
@@ -165,6 +162,9 @@ Afschrijving = (kostprijs − restwaarde) / gebruiksduur, per component afzonder
 > _Bron: IAS 16 alinea 70_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

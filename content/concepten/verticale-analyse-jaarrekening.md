@@ -41,7 +41,6 @@ Voor elke balanspost: deel door het balanstotaal en druk uit als percentage. Het
 
 **Waarom?** Zo zie je de structuur: hoeveel vaste activa, vlottende activa, eigen vermogen, lange schulden, korte schulden — zonder dat schaal de blik verstoort.
 
-**Voorbeeld**: Rotex Roeselare NV (balanstotaal € 30.000.000): vaste activa € 18.000.000 = 60 %; vlottende activa € 12.000.000 = 40 %. Eigen vermogen 40 %; lange schulden 43 %; korte schulden 17 %.
 
 _Grondslag: Vakdoctrine_
 
@@ -51,7 +50,6 @@ Voor elke kost en opbrengst: deel door de omzet. Omzet is 100 %; alle andere pos
 
 **Waarom?** Toont kostenstructuur en marges. Geeft direct zicht op brutomarge, bedrijfsresultaatmarge, nettomarge.
 
-**Voorbeeld**: Rotex Roeselare NV (omzet € 50.000.000): handelsgoederen € 30.000.000 = 60 %; personeelskosten € 8.000.000 = 16 %; afschrijvingen € 1.500.000 = 3 %; nettowinst € 2.500.000 = 5 %.
 
 _Grondslag: Vakdoctrine_
 

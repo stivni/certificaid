@@ -166,7 +166,6 @@
       "titel": "Positief consolidatieverschil = goodwill",
       "wat": "Je betaalt meer voor de aandelen dan je pro-rata aandeel in het eigen vermogen van de dochter (na correctie voor stille meer- of minwaarden). Het positieve verschil komt aan actiefzijde van de geconsolideerde balans en wordt afgeschreven over de vermoedelijke gebruiksduur. Schrijf je af over meer dan vijf jaar? Dan moet je dat in de toelichting motiveren.",
       "waarom": "De premie die de moeder boven op de boekwaarde betaalde, weerspiegelt economische waarde (klantenbestand, marktpositie, synergieën) die niet aan één concrete balanspost is toe te wijzen. Door dat residu op de balans te activeren en gespreid af te schrijven, vermijd je dat het hele bedrag de winst van het aankoopjaar onterecht zou drukken.",
-      "voorbeeld_inline": "Aurelia betaalt € 1.600.000 voor 80 % van Brugse; pro-rata EV = € 1.200.000 en geen stille meerwaarden → positief consolidatieverschil = € 400.000. Boeken aan actiefzijde, afschrijven over 5 jaar = € 80.000 per jaar.",
       "grondslag": "KB WVV art. 3:131, § 1",
       "confidence": "grounded",
       "source": {
@@ -198,13 +197,18 @@
           "from": null,
           "reason": "Cast-voorbeeld toegevoegd (regel 11)."
         }
+      ],
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia betaalt € 1.600.000 voor 80 % van Brugse; pro-rata EV = € 1.200.000 en geen stille meerwaarden → positief consolidatieverschil = € 400.000. Boeken aan actiefzijde, afschrijven over 5 jaar = € 80.000 per jaar."
+        }
       ]
     },
     {
       "titel": "Negatief consolidatieverschil = badwill",
       "wat": "Je betaalt minder dan je pro-rata aandeel in het eigen vermogen (na correctie). Het negatieve verschil komt aan passiefzijde. Het mag niet zomaar als winst worden geboekt. Uitzondering: als het negatieve verschil te verklaren is door een verwachte ongunstige resultaatsontwikkeling van de dochter, dan mag je het in resultaat opnemen naarmate die verwachte verliezen zich echt voordoen.",
       "waarom": "Badwill wijst meestal op verborgen risico's (komende verliezen, schade-aansprakelijkheden) waar de koper rekening mee houdt. Het meteen als winst boeken zou een spookwinst opleveren; de wet koppelt de erkenning aan het effectief optreden van die verliezen.",
-      "voorbeeld_inline": "Aurelia koopt 80 % van een verlieslatende Brugse voor € 900.000; pro-rata EV = € 1.200.000 → negatief consolidatieverschil = € 300.000, geboekt aan passiefzijde. In jaar 1 boekt Brugse het verwachte verlies van € 150.000; Aurelia mag 80 % × € 150.000 = € 120.000 uit het negatieve verschil in resultaat opnemen.",
       "grondslag": "KB WVV art. 3:131, § 2",
       "confidence": "grounded",
       "source": {
@@ -236,13 +240,18 @@
           "from": null,
           "reason": "Cast-voorbeeld toegevoegd."
         }
+      ],
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia koopt 80 % van een verlieslatende Brugse voor € 900.000; pro-rata EV = € 1.200.000 → negatief consolidatieverschil = € 300.000, geboekt aan passiefzijde. In jaar 1 boekt Brugse het verwachte verlies van € 150.000; Aurelia mag 80 % × € 150.000 = € 120.000 uit het negatieve verschil in resultaat opnemen."
+        }
       ]
     },
     {
       "titel": "Geen compensatie tussen verschillende dochters",
       "wat": "Positieve consolidatieverschillen bij dochter A en negatieve verschillen bij dochter B mag je niet tegen elkaar wegstrepen. Voor één en dezelfde dochter moeten positieve en negatieve verschillen wél worden gecompenseerd.",
       "waarom": "Twee verschillende dochters zijn economisch los van elkaar; saldering zou een dochter met verborgen goodwill optisch laten verdwijnen achter de badwill van een andere dochter. Binnen één dochter daarentegen gaat het om hetzelfde economische geheel — daar is saldering juist verplicht.",
-      "voorbeeld_inline": "Aurelia heeft een positief verschil van € 400.000 bij Brugse en een negatief verschil van € 200.000 bij Bouwwerf Beerse → beide afzonderlijk presenteren, niet salderen.",
       "grondslag": "KB WVV art. 3:130",
       "confidence": "grounded",
       "source": {
@@ -274,13 +283,18 @@
           "from": null,
           "reason": "Cast-voorbeeld toegevoegd."
         }
+      ],
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia heeft een positief verschil van € 400.000 bij Brugse en een negatief verschil van € 200.000 bij Bouwwerf Beerse → beide afzonderlijk presenteren, niet salderen."
+        }
       ]
     },
     {
       "titel": "Gedeeltelijke verkoop van aandelen",
       "wat": "Verkoopt de moeder een deel van haar aandelen in een dochter (buiten de consolidatiekring), dan boek je een evenredig stuk van het overblijvende consolidatieverschil af.",
       "waarom": "Het consolidatieverschil hoort bij de aangehouden aandelen. Bij gedeeltelijke verkoop hoort dat verschil ook gedeeltelijk te verdwijnen, anders blijf je een goodwill aanhouden die niet meer correspondeert met je participatie.",
-      "voorbeeld_inline": "Aurelia heeft een resterend positief consolidatieverschil van € 300.000 op haar 80 %-belang in Brugse. Aurelia verkoopt de helft (40 %) aan een derde → € 150.000 (= € 300.000 × 40 %/80 %) van het consolidatieverschil wordt afgeboekt.",
       "grondslag": "KB WVV art. 3:132",
       "confidence": "grounded",
       "source": {
@@ -311,6 +325,12 @@
           "field": "voorbeeld_inline",
           "from": null,
           "reason": "Cast-voorbeeld toegevoegd."
+        }
+      ],
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia heeft een resterend positief consolidatieverschil van € 300.000 op haar 80 %-belang in Brugse. Aurelia verkoopt de helft (40 %) aan een derde → € 150.000 (= € 300.000 × 40 %/80 %) van het consolidatieverschil wordt afgeboekt."
         }
       ]
     }
@@ -886,5 +906,5 @@
       "omschrijving": "Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) van Brugse op aankoopdatum = € 1.500.000. Pro-rata aandeel = 80 % × € 1.500.000 = € 1.200.000. Bruto-verschil = € 1.600.000 − € 1.200.000 = € 400.000. Vastgoed van Brugse is € 250.000 ondergewaardeerd → € 250.000 toegerekend aan terreinen; residu € 150.000 wordt geboekt als 'Consolidatieverschillen' (actiefzijde)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

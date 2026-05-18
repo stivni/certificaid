@@ -36,7 +36,6 @@ Voor de **geconsolideerde** jaarrekening kent België vier situaties: (1) **verp
 
 **Waarom?** Het regelgevende kader weegt de **kosten** van IFRS-rapportering (specialistische kennis, software, externe rapportering) tegen de **baten** (vergelijkbaarheid voor beleggers). Voor beursgenoteerde groepen wegen de baten zwaar; voor familiebedrijven niet.
 
-**Voorbeeld**: Antwerpse Investments NV (niet-beursgenoteerde holding, € 1.250.000.000 balanstotaal) had IFRS kunnen overwegen voor haar consolidatie maar koos voor Belgisch GAAP — minder kost, voldoende voor haar Belgische financiers.
 
 _Grondslag: EU-IFRS-verordening 1606/2002 art. 4 jo. art. 5; CBN 2016/19_
 
@@ -46,7 +45,6 @@ De wettelijke (statutaire) jaarrekening van een Belgische vennootschap — die d
 
 **Waarom?** De statutaire jaarrekening is de **rechtsgrondslag** voor dividenden en winstbelasting. Het Belgisch systeem koppelt die rechtsgevolgen aan Belgisch GAAP — overschakelen naar IFRS zou de fiscaal-juridische infrastructuur ondermijnen.
 
-**Voorbeeld**: Zelena Bio NV publiceert dus elk jaar **twee** verschillende jaarrekeningen: één in IFRS (geconsolideerd, voor de beurs) en één in Belgisch GAAP (enkelvoudig, voor de Nationale Bank en de fiscus). Beide zijn rechtsgeldig en hebben verschillende doelen.
 
 _Grondslag: KB WVV (geen optie tot IFRS voor enkelvoudig)_
 
@@ -56,7 +54,6 @@ Bij een **consortium** (horizontale groep zonder moeder, art. 1:19 WVV) moeten d
 
 **Waarom?** Een consortium presenteert zich aan derden als één economische groep; verschillende standaarden binnen het consortium zouden de geconsolideerde cijfers incoherent maken.
 
-**Voorbeeld**: Industria Antwerpen NV en Jachthaven Jezus-Eik NV vormen een consortium onder gemeenschappelijke leiding van Pieter Vermeulen. Geen van beide is beursgenoteerd → ze kiezen Belgisch GAAP voor hun gezamenlijke geconsolideerde jaarrekening (eenvoudiger, goedkoper).
 
 _Grondslag: CBN 2016/19_
 
@@ -66,7 +63,6 @@ Een onderneming die wisselt van Belgisch GAAP naar IFRS (of omgekeerd) volgt een
 
 **Waarom?** Een referentiestelsel-wissel is geen technische schattingswijziging maar een fundamentele heropbouw van de cijferbasis. Gebruikers moeten de oude en nieuwe cijfers naast elkaar kunnen zien om vertrouwen te houden.
 
-**Voorbeeld**: Aurelia Holding NV beslist om vanaf 1 januari 2027 op IFRS over te schakelen voor haar geconsolideerde jaarrekening (vrijwillige keuze). Datum van overgang naar IFRS = 1 januari 2026; IFRS-openingsbalans op die datum + aansluiting tussen oude (KB WVV) en nieuwe (IFRS) cijfers in de toelichting.
 
 _Grondslag: CBN 2022/08; IFRS 1 voor verplichte eerste toepassing_
 
@@ -102,6 +98,9 @@ _Grondslag: CBN 2022/08; IFRS 1 voor verplichte eerste toepassing_
 ## Zie ook
 
 - **Vereist kennis van**: [[consortium]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

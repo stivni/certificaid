@@ -51,7 +51,6 @@
       "titel": "Toezicht op beursgenoteerde uitgevers",
       "wat": "De FSMA controleert dat beursgenoteerde vennootschappen tijdig en correct hun verplichte financiële informatie publiceren: jaarrapport, half-jaarrapport, ad-hoc-informatie bij koersgevoelige feiten.",
       "waarom": "Beleggers hebben recht op betrouwbare en tijdige financiële informatie — anders functioneert de markt niet.",
-      "voorbeeld_inline": "Een beursgenoteerde holding publiceert haar jaarrapport niet binnen 4 maanden na boekjaar-afsluiting → FSMA legt een dwangsom of berisping op.",
       "grondslag": "Wet 2 augustus 2002; KB transparantie",
       "confidence": "inferred",
       "source": {
@@ -66,13 +65,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een beursgenoteerde holding publiceert haar jaarrapport niet binnen 4 maanden na boekjaar-afsluiting → FSMA legt een dwangsom of berisping op."
+        }
+      ]
     },
     {
       "titel": "Geen toezicht op niet-beursgenoteerde vennootschappen",
       "wat": "De FSMA controleert niet de jaarrekening van een gewone niet-beursgenoteerde BV of NV. Voor niet-beursgenoteerde vennootschappen ligt het toezicht bij de commissaris (revisor), de fiscus (voor fiscale gevolgen) en eventueel het openbaar ministerie (bij valse jaarrekening).",
       "waarom": "FSMA-toezicht is sector-specifiek (beurs); voor de meeste KMO's irrelevant.",
-      "voorbeeld_inline": "Meubelzaak Mertens BV (kleine niet-beursgenoteerde BV) → geen FSMA-toezicht; controle ligt bij eventuele commissaris en de fiscus.",
       "grondslag": "Wet 2 augustus 2002 (toepassingsgebied)",
       "confidence": "inferred",
       "source": {
@@ -87,7 +91,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Meubelzaak Mertens BV (kleine niet-beursgenoteerde BV) → geen FSMA-toezicht; controle ligt bij eventuele commissaris en de fiscus."
+        }
+      ]
     }
   ],
   "edges": [
@@ -104,5 +114,5 @@
       "omschrijving": "Een beursgenoteerde groep (Public Interest Entity) moet IFRS-consolidatie publiceren — de FSMA controleert of die financiële informatie tijdig en volledig wordt verspreid."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

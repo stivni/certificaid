@@ -40,7 +40,6 @@
       "titel": "Twee dimensies: looptijd en kostprijs",
       "wat": "Vreemd vermogen wordt geclassificeerd op twee assen: (1) looptijd — meer dan 1 jaar (rubriek 17) versus ten hoogste 1 jaar (rubriek 42); (2) intrestdragend (banken, obligaties) versus niet-intrestdragend (handelsschulden, sociale schulden).",
       "waarom": "De analist onderscheidt deze omdat ze verschillende risico's signaleren: lange looptijd = lager liquiditeitsrisico; intrestdragend = vaste cashlast die in CFF en RR opduikt.",
-      "voorbeeld_inline": "Rotex Roeselare NV: vreemd vermogen € 18.000.000 = banklening op meer dan 1 jaar € 8.000.000 (rubriek 17) + obligatielening € 5.000.000 + handelsschulden € 4.500.000 + sociale schulden € 500.000.",
       "grondslag": "KB WVV jaarrekeningschema",
       "confidence": "grounded",
       "source": {
@@ -55,13 +54,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV: vreemd vermogen € 18.000.000 = banklening op meer dan 1 jaar € 8.000.000 (rubriek 17) + obligatielening € 5.000.000 + handelsschulden € 4.500.000 + sociale schulden € 500.000."
+        }
+      ]
     },
     {
       "titel": "Vaste vergoedings- en terugbetalingsplicht",
       "wat": "Vreemd vermogen genereert vaste cashuitstroom: intrest periodiek (gerelateerd aan contract) en kapitaalsaflossing op vervaldag. Niet betaald = wanprestatie → opzegging contract → versnelde opeisbaarheid.",
       "waarom": "Dit verklaart waarom hoge schuldgraad gevoelig maakt voor rentabiliteits-schokken: een tijdelijke winstdaling brengt liquiditeitskrisis als de schuldlast disproportioneel is.",
-      "voorbeeld_inline": "Rotex Roeselare NV betaalt op haar banklening van € 8.000.000 jaarlijks intrest aan 3% = € 240.000 + kapitaalsaflossing volgens schema. Bij omzetdaling van 20% blijft dit bedrag onverkort verschuldigd.",
       "grondslag": "Vakdoctrine + contractrecht",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -76,7 +80,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV betaalt op haar banklening van € 8.000.000 jaarlijks intrest aan 3% = € 240.000 + kapitaalsaflossing volgens schema. Bij omzetdaling van 20% blijft dit bedrag onverkort verschuldigd."
+        }
+      ]
     }
   ],
   "vergelijkingsparen": [
@@ -115,5 +125,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

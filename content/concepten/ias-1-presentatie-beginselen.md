@@ -36,7 +36,6 @@ In uitzonderlijke omstandigheden waarin het management vaststelt dat strikte nal
 
 **Waarom?** Het inhoudelijk doel (gebruiker correct informeren) overstemt de letterlijke regel. Maar de uitzondering wordt streng begrensd: anders zou elke entiteit kunnen 'afwijken' om haar cijfers mooier te maken.
 
-**Voorbeeld**: Zelena Bio NV moet op basis van IFRS X een specifieke financiële constructie als schuld classificeren, maar dat zou de economische realiteit (in feite eigen vermogen) misleidend voorstellen. Management mag afwijken — mits volledige toelichting met cijfermatige impact (€ 22.000.000 reclassificatie) en motivering.
 
 _Grondslag: IAS 1 alinea 19-21_
 
@@ -46,7 +45,6 @@ Bij het beoordelen of de continuïteit gewaarborgd is, kijkt het management ten 
 
 **Waarom?** Twaalf maanden komt overeen met de gewone boekjaarcyclus. Korter zou onbetrouwbaar zijn; langer is moeilijk voorspelbaar.
 
-**Voorbeeld**: Verffabriek Veurne BV (in vereffening): jaarrekening niét opgesteld op continuïteitsbasis maar op liquidatiebasis. Activa en passiva gewaardeerd tegen verwachte realisatiewaarde, niet historische kost. Toelichting vermeldt expliciet dat continuïteitsveronderstelling niet meer geldt.
 
 _Grondslag: IAS 1 alinea 25-26_
 
@@ -56,7 +54,6 @@ Informatie is van materieel belang als 'redelijkerwijze mag worden verwacht dat 
 
 **Waarom?** Een jaarrekening met élk detail wordt onleesbaar. Materialiteit is het filter dat 'wat ertoe doet' onderscheidt van 'wat ruis is'. Stagiairs leren: niet elk wetsvoorschrift letterlijk volgen, maar denken vanuit de gebruiker.
 
-**Voorbeeld**: Zelena Bio NV (€ 350.000.000 omzet groep) hoeft een licentievergoeding van € 18.500 niet apart toe te lichten — dat is immaterieel binnen het geheel. Voor Meubelzaak Mertens BV (€ 1.200.000 omzet) is dezelfde € 18.500 wél potentieel materieel en mogelijk te vermelden.
 
 _Grondslag: IAS 1 alinea 7 (definitie) + alinea 31_
 
@@ -66,7 +63,6 @@ Activa en verplichtingen mogen je **niet** salderen (= netto presenteren) tenzij
 
 **Waarom?** Salderen verbergt brutobedragen. Gebruiker ziet niet hoe groot de onderliggende risico's en stromen zijn. Voorbeeld: € 100M vorderingen tegen € 95M schulden gesaldeerd tot € 5M zou risico-blindheid creëren — beide brutoposities moeten zichtbaar zijn.
 
-**Voorbeeld**: Zelena Bio NV mag haar handelsvorderingen op klant Brugse Brouwerij BV (€ 350.000) NIET salderen met haar handelsschulden aan Brugse (€ 280.000). Beide zichtbaar in de balans, brutopresentatie.
 
 _Grondslag: IAS 1 alinea 32-33_
 
@@ -76,7 +72,6 @@ Dezelfde presentatie en classificatie moet je van boekjaar tot boekjaar handhave
 
 **Waarom?** Trendanalyse en jaar-op-jaar-vergelijking zijn de basis van financiële analyse. Inconsistente presentatie maakt cijfers onvergelijkbaar — dat ondermijnt het hele doel van de jaarrekening.
 
-**Voorbeeld**: Zelena Bio NV reclassificeert in 2026 'Diensten' van een aparte rubriek naar 'Overige bedrijfslasten'. Vergelijkbare bedragen 2025: € 4.500.000 wordt mee verschoven naar 'Overige bedrijfslasten' in de vergelijkende kolom. Toelichting: aard van herclassificatie + reden.
 
 _Grondslag: IAS 1 alinea 38 + 41 + 45_
 
@@ -103,6 +98,9 @@ _Grondslag: IAS 1 alinea 38 + 41 + 45_
 > _Bron: IAS 1 alinea 30A_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

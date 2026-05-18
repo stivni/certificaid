@@ -45,7 +45,6 @@
       "titel": "Eigen vermogen tegenover balanstotaal",
       "wat": "De klassieke solvabiliteitsratio = eigen vermogen / totaal passiva (balanstotaal). Uitgedrukt als percentage.",
       "waarom": "Hoe groter het eigen vermogen tegenover het geheel, hoe meer ruimte voor verliezen zonder dat schuldeisers worden geraakt.",
-      "voorbeeld_inline": "Rotex Roeselare NV: eigen vermogen € 12.000.000; balanstotaal € 30.000.000. Solvabiliteitsratio = € 12.000.000 / € 30.000.000 = 40 %.",
       "grondslag": "Vakdoctrine",
       "confidence": "inferred-common-knowledge",
       "source": {
@@ -60,7 +59,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV: eigen vermogen € 12.000.000; balanstotaal € 30.000.000. Solvabiliteitsratio = € 12.000.000 / € 30.000.000 = 40 %."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
@@ -291,5 +296,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

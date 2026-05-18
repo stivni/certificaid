@@ -38,7 +38,6 @@ Alle bezittingen en schulden van moeder en dochter komen samen in de geconsolide
 
 **Waarom?** De groep wordt voorgesteld als één economische entiteit; je doet alsof het één bedrijf is, ook al heeft de moeder maar een belang van bijvoorbeeld 80 %.
 
-**Voorbeeld**: Aurelia Holding NV heeft activa van € 5.000.000, Brugse Brouwerij BV heeft activa van € 3.000.000 → geconsolideerde activa (vóór intragroep-eliminaties): € 8.000.000.
 
 _Grondslag: KB WVV art. 3:126_
 
@@ -48,7 +47,6 @@ Schrap de post 'Deelneming dochter' uit de balans van de moeder en schrap het bi
 
 **Waarom?** Anders zou je dezelfde economische waarde tweemaal tellen: één keer als 'Deelneming' bij de moeder en één keer als 'Eigen vermogen' van de dochter.
 
-**Voorbeeld**: Aurelia Holding NV bezit een 'Deelneming Brugse Brouwerij BV' van € 1.600.000; aandeel in eigen vermogen (EV) Brugse op aankoopdatum = 80 % × € 1.500.000 = € 1.200.000. Beide bedragen worden geschrapt.
 
 _Grondslag: KB WVV art. 3:127, a) jo. art. 3:129_
 
@@ -58,7 +56,6 @@ Zie [[consolidatieverschil]] §berekening voor de volledige procedure (toerekeni
 
 **Waarom?** Verwijzen i.p.v. dupliceren — de regel KB WVV art. 3:130 is een fenomeen op zichzelf en heeft een eigen concept-record.
 
-**Voorbeeld**: Aurelia Holding NV koopt Brugse Brouwerij BV; consolidatieverschil = € 400.000. Het vastgoed van Brugse staat op € 1.000.000 maar is werkelijk € 1.250.000 waard → reken € 250.000 toe aan vastgoed; resterende € 150.000 boek je als 'Consolidatieverschillen'. Zie [[consolidatieverschil]] voor het volledige werkblad.
 
 _Grondslag: [[consolidatieverschil]] · KB WVV art. 3:130_
 
@@ -68,7 +65,6 @@ Verwijder vorderingen en schulden tussen moeder en dochter (en tussen dochters o
 
 **Waarom?** Een groep kan niet aan zichzelf verkopen of geld lenen — economisch is dat één bedrijf. Als je die posten zou laten staan, blaast de geconsolideerde balans onterecht op.
 
-**Voorbeeld**: Aurelia Holding NV heeft een vordering van € 250.000 op Brugse Brouwerij BV. In de geconsolideerde balans verdwijnen zowel de vordering bij Aurelia als de schuld bij Brugse.
 
 _Grondslag: KB WVV art. 3:134, 3:136_
 
@@ -78,7 +74,6 @@ Bereken welk deel van het eigen vermogen en het resultaat van de dochter aan and
 
 **Waarom?** Bij integrale consolidatie zit 100 % van de dochter-balans erin, maar de moeder bezit economisch maar (bv.) 80 %. De 20 % die aan derden toebehoort moet zichtbaar blijven — anders krijgt de moeder krediet voor cijfers die niet aan haar toekomen.
 
-**Voorbeeld**: Eigen vermogen Brugse Brouwerij BV op afsluitingsdatum = € 2.000.000; belang Aurelia = 80 %. Belangen van derden = 20 % × € 2.000.000 = € 400.000, gepresenteerd aan passiefzijde van de geconsolideerde balans.
 
 _Grondslag: KB WVV art. 3:137_
 

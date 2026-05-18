@@ -82,7 +82,6 @@
       "titel": "Vier blokken in KB-WVV Boek 3",
       "wat": "(1) Algemeen — definities, MAR, schema-keuze. (2) Volledig, verkort en microschema — bijlagen met de rubrieken. (3) Waarderingsregels — aanschaffingswaarde, afschrijvingen, waardeverminderingen, herwaarderingen. (4) Toelichting — wat moet in de toelichting opgenomen worden.",
       "waarom": "Stagiair-zoekwijze: weet je het thema (waardering, toelichting, schema)? Klik direct naar dat blok.",
-      "voorbeeld_inline": "Voor 'waardering van vaste activa' → blok 3 (waarderingsregels). Voor 'mag ik vasthouden aan microschema?' → blok 1 (schema-keuze) + grootteklassen WVV art. 1:24-1:25.",
       "grondslag": "KB-WVV Boek 3, gestructureerd in titels",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -97,13 +96,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Voor 'waardering van vaste activa' → blok 3 (waarderingsregels). Voor 'mag ik vasthouden aan microschema?' → blok 1 (schema-keuze) + grootteklassen WVV art. 1:24-1:25."
+        }
+      ]
     },
     {
       "titel": "Minimum Algemeen Rekeningenstelsel (MAR)",
       "wat": "Het MAR (KB-WVV art. 3:9 en bijlage MAR) legt een verplicht rekeningenstelsel op: zes klassen (1 eigen vermogen, 2 vaste activa, 3 voorraden, 4 vorderingen/schulden, 5 financiële, 6 kosten, 7 opbrengsten). Elke onderneming moet haar boekhouding hierop afstemmen.",
       "waarom": "Eenheid in het rekeningenstelsel maakt jaarrekeningen vergelijkbaar tussen ondernemingen.",
-      "voorbeeld_inline": "Rekening '610 Diensten en diverse goederen' staat in elke Belgische boekhouding op dezelfde plek — eis van het MAR.",
       "grondslag": "KB-WVV art. 3:9 + bijlage MAR; KB van 12 september 1983 (historisch)",
       "confidence": "grounded",
       "source": {
@@ -118,13 +122,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rekening '610 Diensten en diverse goederen' staat in elke Belgische boekhouding op dezelfde plek — eis van het MAR."
+        }
+      ]
     },
     {
       "titel": "Drie schema-bijlagen",
       "wat": "Bijlage 1 = volledig schema (grote vennootschappen), bijlage 2 = verkort schema (kleine vennootschappen), bijlage 3 = microschema (microvennootschappen). De keuze hangt af van de grootteklasse (WVV art. 1:24-1:25). VZW's en stichtingen hebben afzonderlijke bijlagen (VZW-schema's).",
       "waarom": "Schema bepaalt het detailniveau van de jaarrekening en wat in de toelichting moet.",
-      "voorbeeld_inline": "Rotex Roeselare NV (grote NV) → bijlage 1; Meubelzaak Mertens BV (kleine BV) → bijlage 2; Oprichtingen Oostende BV (microvennootschap) → bijlage 3.",
       "grondslag": "KB-WVV bijlagen 1-3; verwijzing in art. 3:2 e.v.",
       "confidence": "grounded",
       "source": {
@@ -139,13 +148,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV (grote NV) → bijlage 1; Meubelzaak Mertens BV (kleine BV) → bijlage 2; Oprichtingen Oostende BV (microvennootschap) → bijlage 3."
+        }
+      ]
     },
     {
       "titel": "Aparte regels voor VZW, IVZW en stichtingen",
       "wat": "Boek 3 KB-WVV bevat een aparte titel met aangepaste schema's voor verenigingen en stichtingen die een vereenvoudigde boekhouding voeren (omzet onder de drempel). Inhoudelijk lijken ze sterk op de vennootschapsschema's, maar met aanpassingen voor het verenigingsleven (geen kapitaal, wel fondsen).",
       "waarom": "Een VZW met groot vermogen valt onder dezelfde schema's als een vennootschap; alleen kleine VZW's en stichtingen kunnen vereenvoudigd.",
-      "voorbeeld_inline": "VZW Quelle de Vie (met economische activiteit, klein) → vereenvoudigd schema voor verenigingen, KB-WVV art. 3:184 e.v.",
       "grondslag": "KB-WVV art. 3:184 e.v.",
       "confidence": "grounded",
       "source": {
@@ -160,7 +174,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "VZW Quelle de Vie (met economische activiteit, klein) → vereenvoudigd schema voor verenigingen, KB-WVV art. 3:184 e.v."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -235,5 +255,5 @@
       "omschrijving": "Hoe moet Meubelzaak Mertens BV haar voorraad waarderen? → KB-WVV art. 3:35 e.v. (waarderingsregels) + KB-WVV art. 3:44 (voorraad-waardering)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

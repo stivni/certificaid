@@ -45,10 +45,12 @@ Wettelijke controle van de jaarrekening (commissariaat) — dat is exclusief voo
 
 **Waarom?** De wettelijke audit van grote ondernemingen is voorbehouden aan één beroep met publiek toezicht.
 
-**Voorbeeld**: Wolters & Partners CVBA kan voor Meubelzaak Mertens BV een contractuele audit doen, maar moet een bedrijfsrevisor aanduiden als commissaris voor Rotex Roeselare NV.
 
 _Grondslag: ITAA KMO-controlenorm §4 + Wet 7 december 2016_
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

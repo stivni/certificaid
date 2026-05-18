@@ -34,7 +34,6 @@ Voor elke meerjarige schuld wordt op balansdatum het gedeelte dat binnen 12 maan
 
 **Waarom?** Voor de gebruiker is liquiditeit cruciaal. Korte-termijn-druk moet uit de balans aflezbaar zijn, niet verstopt in een lange-termijn-rubriek.
 
-**Voorbeeld**: Uitgeverij Ukkel NV hypothecaire lening 10 jaar, jaarlijkse aflossing € 85.000. Op 31/12/20X1: nog 8 jaar te lopen, totaal € 765.000 schuld. Splitsing: € 85.000 op rekening 42 (vervalt in 20X2), € 680.000 op rekening 173 (langer dan jaar).
 
 _Grondslag: KB WVV art. 3:48 + MAR_
 
@@ -44,7 +43,6 @@ _Grondslag: KB WVV art. 3:48 + MAR_
 
 **Waarom?** Per categorie krijgt de balanslezer meteen inzicht in de aard van de verplichtingen: handelsverplichtingen vs fiscale vs financiële.
 
-**Voorbeeld**: Naaiatelier Ninove BV op 31/12: leveranciersschulden € 145.000 (440), BTW te betalen € 18.500 (4514), bedrijfsvoorheffing € 4.200 (453), bezoldigingen € 32.000 (455), RSZ-bijdragen € 18.700 (454). Subtotaal rubriek IX = € 218.400.
 
 _Grondslag: MAR klasse 1 + 4_
 
@@ -54,7 +52,6 @@ Schulden worden gewaardeerd aan het bedrag dat bij vervaldag betaald moet worden
 
 **Waarom?** Eenvoud en voorzichtigheid: de werkelijke betalingsverplichting is wat telt. Voor de gebruiker is dit het meest relevant cijfer.
 
-**Voorbeeld**: Uitgeverij Ukkel NV geeft obligaties uit voor nominaal € 1.000.000 maar ontvangt slechts € 950.000 (uitgifte beneden pari, € 50.000 disagio). Schuldwaarde op balans = nominale € 1.000.000; disagio € 50.000 wordt geactiveerd onder oprichtingskosten 201 en afgeschreven over looptijd.
 
 _Grondslag: KB WVV art. 3:48_
 
@@ -64,7 +61,6 @@ Voor schulden op meer dan één jaar zonder rente of met abnormaal lage rente ka
 
 **Waarom?** Een renteloze lening is in feite een korting; de echte economische waarde van de schuld is lager dan de nominale. Deze regel voorkomt verstoring.
 
-**Voorbeeld**: Solaris Sint-Truiden BV ontvangt een renteloze lening van € 200.000 voor 5 jaar van een verbonden onderneming. Marktrente 4 % → contante waarde € 200.000 / (1,04)^5 = € 164.386. Verschil € 35.614 wordt over 5 jaar als intrestlast geboekt.
 
 _Grondslag: KB WVV art. 3:48_
 
@@ -98,6 +94,9 @@ _Grondslag: KB WVV art. 3:48_
 ## Zie ook
 
 - **Vereist kennis van**: [[overlopende-rekeningen]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

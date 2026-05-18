@@ -100,7 +100,6 @@
       "titel": "Drie types bewaring",
       "wat": "(1) Papier — origineel bewaren in leesbare staat. (2) Microfilm/scan — toegelaten als geen origineel meer nodig is en authenticiteit gewaarborgd. (3) Geïnformatiseerd — toegelaten mits leesbaarheid op redelijke termijn en niet-manipuleerbaarheid. Een back-up vereist (CBN-advies 2016/22).",
       "waarom": "Elektronische bewaring is praktisch maar moet betrouwbaarheid garanderen voor latere controles.",
-      "voorbeeld_inline": "Meubelzaak Mertens BV scant facturen in PDF → mag papier vernietigen mits PDF-leesbaarheid + back-up + onveranderlijkheid.",
       "grondslag": "WER art. III.86; CBN-advies 2016/22",
       "confidence": "grounded",
       "source": {
@@ -115,13 +114,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Meubelzaak Mertens BV scant facturen in PDF → mag papier vernietigen mits PDF-leesbaarheid + back-up + onveranderlijkheid."
+        }
+      ]
     },
     {
       "titel": "Wettelijke uitzonderingen — andere termijnen",
       "wat": "BTW-stukken: 7 jaar (WBTW art. 60). Personeelsdossiers: 5 jaar na uitdiensttreding. Vastgoedstukken bij meerwaarde-belasting: 15 jaar. Fiscale aangiften aanvulling: 7 jaar standaard, 10 jaar bij ernstige fraude. Bij strafrechtelijk onderzoek: geen verjaring.",
       "waarom": "Verschillende rechtsgebieden leggen verschillende termijnen op — de algemene 7-jaar-regel is een minimum.",
-      "voorbeeld_inline": "Rotex Roeselare NV ontvangt een aanslag voor boekjaar 2017 → bewaarplicht verlengt zich impliciet tot procedure afgerond.",
       "grondslag": "Diverse wetten + WBTW art. 60",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -136,7 +140,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV ontvangt een aanslag voor boekjaar 2017 → bewaarplicht verlengt zich impliciet tot procedure afgerond."
+        }
+      ]
     }
   ],
   "valkuilen": [
@@ -172,5 +182,5 @@
       "omschrijving": "Boekjaar Meubelzaak Mertens BV afgesloten 31/12/2024 → bewaartermijn loopt vanaf 1/1/2025 tot 31/12/2031 (7 jaar). Alle facturen, kasstukken, dagboeken moeten tot eind 2031 raadpleegbaar blijven."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

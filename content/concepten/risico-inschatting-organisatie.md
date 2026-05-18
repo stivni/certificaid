@@ -35,7 +35,6 @@ Risico-inschatting is het systematisch identificeren, analyseren en evalueren va
 
 **Waarom?** Zonder stap 3 wordt risico-inschatting een academische oefening; zonder stap 1 mis je de echte risico's.
 
-**Voorbeeld**: Yperse Werkplaats BV identificeert 'IT-uitval' (kans 3, impact 5 = 15) → maatregel: dagelijkse off-site backup + business continuity plan.
 
 _Grondslag: COSO ERM / ISO 31000_
 
@@ -52,4 +51,7 @@ _Grondslag: COSO ERM / ISO 31000_
 > [!tip]- ISO 31000 als alternatief raamwerk
 > ISO 31000 ('Risk management — Guidelines') is generiek en sectoronafhankelijk, bruikbaar naast COSO. Kernelementen: leadership & commitment, integratie in besluitvorming, design, implementation, evaluation, improvement. In België niet wettelijk opgelegd maar wel referentie voor publieke sector en financiële instellingen. 🤖
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

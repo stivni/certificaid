@@ -158,7 +158,6 @@
       "titel": "Pro-rata opname",
       "wat": "Neem elke bezitting, schuld, opbrengst en kost van de gemeenschappelijke dochter op naar rato van jouw aandeel in het kapitaal (of in de inbreng bij vennootschappen zonder kapitaal).",
       "waarom": "Je deelt de macht over deze dochter met andere vennoten; je hebt geen 100 %-zeggenschap. De geconsolideerde jaarrekening reflecteert die gedeelde macht door alleen jouw stuk te tonen.",
-      "voorbeeld_inline": "Cardinal Group NV bezit 50 % van Filmstudio Florence BV (gezamenlijke controle). Filmstudio Florence heeft € 4.000.000 vaste activa → Cardinal neemt 50 % × € 4.000.000 = € 2.000.000 op in haar geconsolideerde balans.",
       "grondslag": "KB WVV art. 3:140, b",
       "confidence": "grounded",
       "source": {
@@ -190,13 +189,18 @@
           "from": null,
           "reason": "Cast-voorbeeld toegevoegd (joint_venture)."
         }
+      ],
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Cardinal Group NV bezit 50 % van Filmstudio Florence BV (gezamenlijke controle). Filmstudio Florence heeft € 4.000.000 vaste activa → Cardinal neemt 50 % × € 4.000.000 = € 2.000.000 op in haar geconsolideerde balans."
+        }
       ]
     },
     {
       "titel": "Integrale-consolidatie-regels gelden, maar op het pro-rata stuk",
       "wat": "Op het opgenomen pro-rata deel pas je alle technieken van integrale consolidatie toe: schrappen van de deelneming (KB WVV art. 3:127, a), toerekening van verschillen (art. 3:128 jo. 3:130), boeken van consolidatieverschil (art. 3:130) met afschrijving (art. 3:131), gedeeltelijke realisatie (art. 3:132–3:133) en eliminatie van onderlinge posten (art. 3:134, 3:136, 3:139). Het verschil: alles wat 100 % was bij integrale consolidatie, gebeurt nu pro-rata.",
       "waarom": "Door dezelfde technieken op een kleinere schaal toe te passen behoud je consistentie binnen de geconsolideerde jaarrekening — een goodwill bij een gemeenschappelijke dochter werkt boekhoudkundig op dezelfde manier als bij een gewone dochter, alleen voor jouw deel.",
-      "voorbeeld_inline": "Cardinal koopt haar 50 %-belang in Filmstudio Florence voor € 1.500.000; pro-rata eigen vermogen (EV) Filmstudio op aankoopdatum = € 1.250.000 → bruto-verschil € 250.000 op pro-rata basis, eventueel toe te rekenen aan stille meerwaarden in Filmstudio's apparatuur.",
       "grondslag": "KB WVV art. 3:140, a",
       "confidence": "grounded",
       "source": {
@@ -228,13 +232,18 @@
           "from": null,
           "reason": "Cast-voorbeeld toegevoegd."
         }
+      ],
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Cardinal koopt haar 50 %-belang in Filmstudio Florence voor € 1.500.000; pro-rata eigen vermogen (EV) Filmstudio op aankoopdatum = € 1.250.000 → bruto-verschil € 250.000 op pro-rata basis, eventueel toe te rekenen aan stille meerwaarden in Filmstudio's apparatuur."
+        }
       ]
     },
     {
       "titel": "Geen 'Belangen van derden'-post",
       "wat": "Bij evenredige consolidatie verschijnt er geen post 'Belangen van derden' of 'Aandeel van derden in het resultaat'. Het deel buiten je groep neem je gewoon niet op — er valt dus niets af te zonderen.",
       "waarom": "Bij integrale consolidatie zit 100 % van de dochter in de geconsolideerde balans, en moet de niet-moeder-fractie zichtbaar worden gemaakt. Bij evenredige consolidatie zit alleen jouw stuk er al in — het deel van de andere vennoten verschijnt nooit; daarom geen derden-correctie nodig.",
-      "voorbeeld_inline": "Cardinal neemt 50 % van Filmstudio Florence op; Energiehuis Evergem neemt de andere 50 % op in haar eigen geconsolideerde jaarrekening. Geen 'Belangen van derden' aan beide zijden.",
       "grondslag": "KB WVV art. 3:140 (geen verwijzing naar KB WVV art. 3:137)",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -265,6 +274,12 @@
           "field": "voorbeeld_inline",
           "from": null,
           "reason": "Cast-voorbeeld toegevoegd."
+        }
+      ],
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Cardinal neemt 50 % van Filmstudio Florence op; Energiehuis Evergem neemt de andere 50 % op in haar eigen geconsolideerde jaarrekening. Geen 'Belangen van derden' aan beide zijden."
         }
       ]
     }
@@ -699,5 +714,5 @@
       "omschrijving": "Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV (gezamenlijke controle via aandeelhoudersovereenkomst). Cardinal neemt 50 % van elke balanspost en elke opbrengst/kost van Filmstudio Florence op in haar geconsolideerde jaarrekening. Geen post 'Belangen van derden'."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

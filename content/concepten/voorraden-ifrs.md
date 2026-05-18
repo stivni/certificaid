@@ -34,7 +34,6 @@ Drie hoofdcomponenten (alinea 10): (a) **inkoopkosten** — aankoopprijs + invoe
 
 **Waarom?** Voorraad moet een correcte volledige kostprijs dragen — niet alleen de inkoopprijs maar ook de transport, eventuele bewerking, indirecte productie. Anders zou de marge bij verkoop kunstmatig hoog of laag worden.
 
-**Voorbeeld**: Zelena Bio's grondstof: aankoopprijs € 11,00/kg + transport vanuit Duitsland € 0,80/kg + invoerrechten € 0,30/kg − kwantumkorting 5% (€ 0,55/kg) = inkoopkost € 11,55/kg. Plus conversiekosten in productie € 4,50/kg → kostprijs gereed product € 16,05/kg.
 
 _Grondslag: IAS 2 alinea 10-15_
 
@@ -44,7 +43,6 @@ Niét in de kostprijs van voorraden opnemen (alinea 16): (a) abnormale hoeveelhe
 
 **Waarom?** Abnormale verspilling weerspiegelt geen normale kostprijs en zou voorraad opblazen. Verkoopkosten ontstaan pas bij realisatie en horen bij periode-resultaat, niet bij voorraad-waarde.
 
-**Voorbeeld**: Zelena Bio's chemische reactor heeft in 2026 een ongebruikelijke uitval gehad waardoor 8.000 kg ingrediënt verloren ging (kost € 92.400). Niét toevoegen aan voorraadkostprijs — direct als 'Exceptioneel productieverlies' in W&V boeken.
 
 _Grondslag: IAS 2 alinea 16_
 
@@ -54,7 +52,6 @@ Voor onderling uitwisselbare voorraden: **FIFO** (first in, first out) of **gewo
 
 **Waarom?** LIFO geeft in inflatiegevoelige sectoren een lagere voorraad-boekwaarde en hogere kostprijs van omzet — wat winstmanipulatie kan toelaten en de balans onrealistisch laag toont. IASB-conclusie: ongewenst.
 
-**Voorbeeld**: Zelena Bio mocht onder oude BE-GAAP (pre-2016) LIFO toepassen voor haar grondstoffen. Bij IFRS-overgang: omschakelen naar FIFO of gewogen gemiddelde. Verschil materieel — typisch enkele honderdduizenden euro's op een voorraad van € 600.000.
 
 _Grondslag: IAS 2 alinea 25_
 
@@ -64,7 +61,6 @@ Op elke balansdatum: vergelijk de boekwaarde (kostprijs) met de **opbrengstwaard
 
 **Waarom?** Het voorzichtigheidsbeginsel: voorraden mogen niet boven hun waarschijnlijke realisatiewaarde worden gewaardeerd. Maar overdreven afschrijvingen mogen ook niet permanent blijven — terugneming bij herstel van NRV.
 
-**Voorbeeld**: Naaiatelier Ninove BV (kleine productie-BV) heeft voorraad textiel met kostprijs € 85.000, NRV (na collectiewissel) € 62.000. Afschrijving van voorraad −€ 23.000, in W&V als 'Waardevermindering voorraad'. Boekwaarde 31 december = € 62.000.
 
 _Grondslag: IAS 2 alinea 9 + 28-33_
 
@@ -74,7 +70,6 @@ Wanneer voorraden verkocht worden, neem je de boekwaarde op als last (kostprijs 
 
 **Waarom?** Een correcte marge per periode vereist dat opbrengsten en hun directe kostprijs samen worden geboekt. Decouplen zou de werkelijke winstgevendheid vervalsen.
 
-**Voorbeeld**: Zelena Bio verkoopt op 15 september 2026 doseflesjes voor € 394.400 opbrengst. Boekwaarde voorraad doseflesjes € 200.000 → debet 'Kostprijs voorraad verkocht' € 200.000, credit 'Voorraad' € 200.000. Brutomarge boekjaar Q3 = € 194.400.
 
 _Grondslag: IAS 2 alinea 34_
 

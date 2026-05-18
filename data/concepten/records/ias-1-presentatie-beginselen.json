@@ -70,7 +70,6 @@
       "titel": "Getrouw beeld vereist soms afwijking",
       "wat": "In uitzonderlijke omstandigheden waarin het management vaststelt dat strikte naleving van een IFRS-vereiste het doel van de jaarrekening misleidend zou ondergraven, **mag** de entiteit van die vereiste afwijken — als de relevante regelgeving dat toelaat. Bij afwijking: motivering, kwantitatieve impact en alternatieve verwerkingswijze in de toelichting.",
       "waarom": "Het inhoudelijk doel (gebruiker correct informeren) overstemt de letterlijke regel. Maar de uitzondering wordt streng begrensd: anders zou elke entiteit kunnen 'afwijken' om haar cijfers mooier te maken.",
-      "voorbeeld_inline": "Zelena Bio NV moet op basis van IFRS X een specifieke financiële constructie als schuld classificeren, maar dat zou de economische realiteit (in feite eigen vermogen) misleidend voorstellen. Management mag afwijken — mits volledige toelichting met cijfermatige impact (€ 22.000.000 reclassificatie) en motivering.",
       "grondslag": "IAS 1 alinea 19-21",
       "confidence": "grounded",
       "source": {
@@ -85,13 +84,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio NV moet op basis van IFRS X een specifieke financiële constructie als schuld classificeren, maar dat zou de economische realiteit (in feite eigen vermogen) misleidend voorstellen. Management mag afwijken — mits volledige toelichting met cijfermatige impact (€ 22.000.000 reclassificatie) en motivering."
+        }
+      ]
     },
     {
       "titel": "Going concern — beoordelingsperiode minstens 12 maanden",
       "wat": "Bij het beoordelen of de continuïteit gewaarborgd is, kijkt het management ten minste **12 maanden vanaf het einde van de verslagperiode** vooruit. Materiële onzekerheden over continuïteit moeten in de toelichting vermeld worden. Als de entiteit haar jaarrekening NIET op basis van continuïteit opstelt: dat feit vermelden, plus de gebruikte alternatieve grondslag (typisch liquidatiewaarde) en de reden.",
       "waarom": "Twaalf maanden komt overeen met de gewone boekjaarcyclus. Korter zou onbetrouwbaar zijn; langer is moeilijk voorspelbaar.",
-      "voorbeeld_inline": "Verffabriek Veurne BV (in vereffening): jaarrekening niét opgesteld op continuïteitsbasis maar op liquidatiebasis. Activa en passiva gewaardeerd tegen verwachte realisatiewaarde, niet historische kost. Toelichting vermeldt expliciet dat continuïteitsveronderstelling niet meer geldt.",
       "grondslag": "IAS 1 alinea 25-26",
       "confidence": "grounded",
       "source": {
@@ -106,13 +110,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Verffabriek Veurne BV (in vereffening): jaarrekening niét opgesteld op continuïteitsbasis maar op liquidatiebasis. Activa en passiva gewaardeerd tegen verwachte realisatiewaarde, niet historische kost. Toelichting vermeldt expliciet dat continuïteitsveronderstelling niet meer geldt."
+        }
+      ]
     },
     {
       "titel": "Materialiteit — operationeel begrip",
       "wat": "Informatie is van materieel belang als 'redelijkerwijze mag worden verwacht dat weglating, onjuiste weergave of versluiering ervan van invloed zal zijn op beslissingen die de primaire gebruikers nemen'. Materialiteit hangt af van aard én omvang. Een entiteit mag specifieke IFRS-vereiste informatie **weglaten** als die informatie niet materieel is — zelfs als IFRS een lijst geeft van minimumvereisten.",
       "waarom": "Een jaarrekening met élk detail wordt onleesbaar. Materialiteit is het filter dat 'wat ertoe doet' onderscheidt van 'wat ruis is'. Stagiairs leren: niet elk wetsvoorschrift letterlijk volgen, maar denken vanuit de gebruiker.",
-      "voorbeeld_inline": "Zelena Bio NV (€ 350.000.000 omzet groep) hoeft een licentievergoeding van € 18.500 niet apart toe te lichten — dat is immaterieel binnen het geheel. Voor Meubelzaak Mertens BV (€ 1.200.000 omzet) is dezelfde € 18.500 wél potentieel materieel en mogelijk te vermelden.",
       "grondslag": "IAS 1 alinea 7 (definitie) + alinea 31",
       "confidence": "grounded",
       "source": {
@@ -127,13 +136,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio NV (€ 350.000.000 omzet groep) hoeft een licentievergoeding van € 18.500 niet apart toe te lichten — dat is immaterieel binnen het geheel. Voor Meubelzaak Mertens BV (€ 1.200.000 omzet) is dezelfde € 18.500 wél potentieel materieel en mogelijk te vermelden."
+        }
+      ]
     },
     {
       "titel": "Saldering — strikt verboden behoudens uitzondering",
       "wat": "Activa en verplichtingen mogen je **niet** salderen (= netto presenteren) tenzij een IFRS dat uitdrukkelijk toestaat of voorschrijft. Idem voor baten en lasten. Voorzieningen voor dubieuze vorderingen of voorraadwaardevermindering vallen niet onder saldering — ze zijn waarderingsverminderingen.",
       "waarom": "Salderen verbergt brutobedragen. Gebruiker ziet niet hoe groot de onderliggende risico's en stromen zijn. Voorbeeld: € 100M vorderingen tegen € 95M schulden gesaldeerd tot € 5M zou risico-blindheid creëren — beide brutoposities moeten zichtbaar zijn.",
-      "voorbeeld_inline": "Zelena Bio NV mag haar handelsvorderingen op klant Brugse Brouwerij BV (€ 350.000) NIET salderen met haar handelsschulden aan Brugse (€ 280.000). Beide zichtbaar in de balans, brutopresentatie.",
       "grondslag": "IAS 1 alinea 32-33",
       "confidence": "grounded",
       "source": {
@@ -148,13 +162,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio NV mag haar handelsvorderingen op klant Brugse Brouwerij BV (€ 350.000) NIET salderen met haar handelsschulden aan Brugse (€ 280.000). Beide zichtbaar in de balans, brutopresentatie."
+        }
+      ]
     },
     {
       "titel": "Consistentie + vergelijkende informatie",
       "wat": "Dezelfde presentatie en classificatie moet je van boekjaar tot boekjaar handhaven, tenzij (a) een belangrijke wijziging in activiteit andere presentatie meer geëigend maakt, of (b) een IFRS de wijziging voorschrijft. Bij wijziging: vergelijkende informatie herclassificeren, tenzij praktisch onhaalbaar. Verplichte vergelijkende informatie voor ALLE bedragen, plus voor beschrijvende info indien relevant.",
       "waarom": "Trendanalyse en jaar-op-jaar-vergelijking zijn de basis van financiële analyse. Inconsistente presentatie maakt cijfers onvergelijkbaar — dat ondermijnt het hele doel van de jaarrekening.",
-      "voorbeeld_inline": "Zelena Bio NV reclassificeert in 2026 'Diensten' van een aparte rubriek naar 'Overige bedrijfslasten'. Vergelijkbare bedragen 2025: € 4.500.000 wordt mee verschoven naar 'Overige bedrijfslasten' in de vergelijkende kolom. Toelichting: aard van herclassificatie + reden.",
       "grondslag": "IAS 1 alinea 38 + 41 + 45",
       "confidence": "grounded",
       "source": {
@@ -169,7 +188,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio NV reclassificeert in 2026 'Diensten' van een aparte rubriek naar 'Overige bedrijfslasten'. Vergelijkbare bedragen 2025: € 4.500.000 wordt mee verschoven naar 'Overige bedrijfslasten' in de vergelijkende kolom. Toelichting: aard van herclassificatie + reden."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -248,5 +273,5 @@
       "omschrijving": "Zelena Bio NV signaleert in haar toelichting expliciet: 'De jaarrekening is opgesteld in overeenstemming met de IFRSs zoals goedgekeurd door de Europese Unie, op basis van het toerekeningsbeginsel en in de veronderstelling van continuïteit van de bedrijfsuitoefening' — daarmee dekt zij beginselen 1, 2 en 3 in één zin."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

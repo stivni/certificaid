@@ -50,7 +50,6 @@
       "titel": "Controle-bevoegdheid",
       "wat": "FOD-controleurs hebben recht op inzage van alle boeken, dagboeken, verantwoordingsstukken en bewijsstukken — ter plaatse of via overlegging. De vennootschap kan niet weigeren behalve in zeer uitzonderlijke gevallen (beroepsgeheim, lopende procedure).",
       "waarom": "Zonder inzage kan de fiscus de aangifte niet controleren.",
-      "voorbeeld_inline": "Controle bij Rotex Roeselare NV → controleur vraagt alle bankuittreksels 2023 → onderneming legt voor binnen 14 dagen.",
       "grondslag": "WIB art. 315",
       "confidence": "grounded",
       "source": {
@@ -65,13 +64,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Controle bij Rotex Roeselare NV → controleur vraagt alle bankuittreksels 2023 → onderneming legt voor binnen 14 dagen."
+        }
+      ]
     },
     {
       "titel": "Boekhouding ↔ fiscale aangifte",
       "wat": "Het boekhoudkundig resultaat is het vertrekpunt voor de fiscale aangifte. Vandaaruit worden specifieke fiscale correcties toegevoegd (niet-aftrekbare kosten, vrijgestelde inkomsten, fiscale meerwaarden). Boekhoud-fout → fiscale fout.",
       "waarom": "Eén boekhouding vormt de basis voor twee rapporteringen — boekhoudkundige + fiscale.",
-      "voorbeeld_inline": "Meubelzaak Mertens BV boekt restaurantkost € 800 → boekhoudkundig kost. Fiscaal: 31% niet-aftrekbaar → € 248 toegevoegd aan belastbare basis.",
       "grondslag": "WIB art. 24-25; primauteit boekhouding voor fiscus",
       "confidence": "inferred",
       "source": {
@@ -86,13 +90,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Meubelzaak Mertens BV boekt restaurantkost € 800 → boekhoudkundig kost. Fiscaal: 31% niet-aftrekbaar → € 248 toegevoegd aan belastbare basis."
+        }
+      ]
     },
     {
       "titel": "Onderscheid commissaris ↔ fiscale controleur",
       "wat": "Commissaris controleert getrouw beeld + wettelijkheid jaarrekening voor aandeelhouders. Fiscale controleur controleert correcte berekening belastbare basis voor de fiscus. Twee aparte controles, met aparte bevoegdheden.",
       "waarom": "Geen verwarring tussen privaatrechtelijke en publiekrechtelijke controle.",
-      "voorbeeld_inline": "Een fiscale controleur kan een vondst niet eigenmachtig aan de commissaris meedelen — beroepsgeheim. Hij maakt eigen aanslag op.",
       "grondslag": "Algemene rechtsbeginselen + beroepsgeheim",
       "confidence": "inferred",
       "source": {
@@ -107,7 +116,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een fiscale controleur kan een vondst niet eigenmachtig aan de commissaris meedelen — beroepsgeheim. Hij maakt eigen aanslag op."
+        }
+      ]
     }
   ],
   "edges": [
@@ -124,5 +139,5 @@
       "omschrijving": "Een fiscaal controleur van FOD Financiën vraagt bij Meubelzaak Mertens BV inzage in de aankoopdagboeken 2021-2024 → onderneming moet binnen redelijke termijn voorleggen (WIB art. 315)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

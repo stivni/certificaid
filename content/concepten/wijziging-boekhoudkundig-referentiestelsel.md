@@ -35,7 +35,6 @@ Een onderneming die vrijwillig overstapt naar IFRS, kan niet zomaar terug naar B
 
 **Waarom?** Twee stelselwissels op enkele jaren tijd zou de jaarrekening volstrekt onbruikbaar maken voor analisten. Het CBN beschermt vergelijkbaarheid door eenrichtingsverkeer te eisen.
 
-**Voorbeeld**: Aurelia Holding NV stapt vrijwillig over naar IFRS voor haar geconsolideerde jaarrekening in 2027. Zij kan in 2030 niet zomaar weer terug naar BE-GAAP — alleen mits significante gewijzigde omstandigheden + motivering aan CBN/Nationale Bank.
 
 _Grondslag: CBN 2022/08_
 
@@ -45,7 +44,6 @@ Bij overgang naar IFRS volgt de procedure van IFRS 1: openingsbalans op overgang
 
 **Waarom?** Volledige transparantie maakt het vertrouwen van gebruikers mogelijk. Zonder zichtbare aansluiting zou de overstap lijken op een trucje om cijfers te 'frisser' maken.
 
-**Voorbeeld**: Aurelia Holding 2027 eerste IFRS-jaarrekening: aansluitingstabel toont EV BE-GAAP per 1 januari 2026 € 125.000.000 → impact aanpassingen +€ 1.500.000 (saldo van schrappen onderzoekskosten, IFRS 16 leasing, herwaardering vastgoed) → EV IFRS per 1 januari 2026 € 126.500.000.
 
 _Grondslag: CBN 2022/08 + IFRS 1 alinea 24_
 
@@ -55,7 +53,6 @@ De beslissing tot wisseling wordt typisch genomen door de **raad van bestuur** (
 
 **Waarom?** Een stelselwijziging is een fundamentele beleidskeuze met materiële impact op jaarrekening en op stakeholderpercepties. Het besluit moet op het juiste niveau worden genomen — en gedocumenteerd.
 
-**Voorbeeld**: Aurelia Holding's raad van bestuur beslist in juni 2026 om vanaf boekjaar 2027 IFRS toe te passen. Het besluit wordt voorgelegd aan de algemene vergadering september 2026 voor bevestiging. Wolters & Partners CVBA (commissaris) geeft gunstig advies. Documentatie in bestuursverslag.
 
 _Grondslag: CBN 2022/08 + vennootschapsrechtelijke vereisten WVV_
 
@@ -79,6 +76,9 @@ _Grondslag: CBN 2022/08 + vennootschapsrechtelijke vereisten WVV_
 
 - **Getriggerd door**: [[ifrs-toepassingsgebied-belgie]]
 - **Vereist kennis van**: [[ifrs-eerste-toepassing]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

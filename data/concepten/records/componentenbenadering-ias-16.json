@@ -59,7 +59,6 @@
       "titel": "Wat is een 'substantiële kostprijs'?",
       "wat": "IAS 16 definieert geen vaste drempel. De entiteit maakt een **professional judgment**: een component is substantieel als zijn kostprijs significant is in verhouding tot de totale kostprijs van het actief. In de praktijk wordt vaak 10-15% van het totaal als richtlijn gehanteerd, maar dat is geen IFRS-regel.",
       "waarom": "Een rigide percentage zou willekeur creëren. Bij een vliegtuig is een motor van 5% van de totaalkostprijs nog steeds zo belangrijk dat aparte afschrijving zinvol is; bij een gebouw is een lift van 5% misschien op te nemen onder 'rest'.",
-      "voorbeeld_inline": "Zelena Bio's productielijn (kostprijs € 13.800.000): motor € 4.000.000 (29%), reactor € 7.000.000 (51%), bedieningssoftware € 2.800.000 (20%). Alle drie boven 15% → alle drie afzonderlijk afschrijven.",
       "grondslag": "IAS 16 alinea 43 + judgment",
       "confidence": "grounded",
       "source": {
@@ -74,13 +73,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio's productielijn (kostprijs € 13.800.000): motor € 4.000.000 (29%), reactor € 7.000.000 (51%), bedieningssoftware € 2.800.000 (20%). Alle drie boven 15% → alle drie afzonderlijk afschrijven."
+        }
+      ]
     },
     {
       "titel": "Vervanging — oude component schrappen",
       "wat": "Wanneer een component wordt vervangen, neem je de **boekwaarde van het vervangen onderdeel niet langer op** (alinea 70). Indien die boekwaarde niet meer afzonderlijk te bepalen is, mag je de **kosten van de vervanging gebruiken als indicatie** voor de oorspronkelijke kostprijs van het vervangen onderdeel (uiteraard verminderd met geaccumuleerde afschrijvingen).",
       "waarom": "Een nieuw onderdeel activeren zonder het oude eruit te halen zou dubbel-tellen op de balans. De componentenbenadering werkt alleen als je consistent oude én nieuwe onderdelen behandelt.",
-      "voorbeeld_inline": "In 2034 (na 8 jaar) wordt de motor van Zelena Bio's productielijn vervangen. Oude motor: kostprijs € 4.000.000, geaccumuleerde afschrijving 8/8 × € 4.000.000 = € 4.000.000 → boekwaarde € 0. Nieuwe motor: kostprijs € 5.500.000 → geactiveerd, afgeschreven over 8 jaar (€ 687.500/jaar).",
       "grondslag": "IAS 16 alinea 13 + 70",
       "confidence": "grounded",
       "source": {
@@ -95,13 +99,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "In 2034 (na 8 jaar) wordt de motor van Zelena Bio's productielijn vervangen. Oude motor: kostprijs € 4.000.000, geaccumuleerde afschrijving 8/8 × € 4.000.000 = € 4.000.000 → boekwaarde € 0. Nieuwe motor: kostprijs € 5.500.000 → geactiveerd, afgeschreven over 8 jaar (€ 687.500/jaar)."
+        }
+      ]
     },
     {
       "titel": "Grondige inspecties — eigen component",
       "wat": "Periodieke **grondige inspecties** (bv. revisie van een vliegtuig elke 5 jaar, regulatoir verplichte controle van een installatie) mogen als afzonderlijke 'component' worden behandeld: de kostprijs van de inspectie wordt geactiveerd en afgeschreven tot de volgende inspectie (alinea 14).",
       "waarom": "Inspectiekosten zijn substantieel maar niet aan een fysiek onderdeel verbonden. Ze als kost meteen erkennen zou een ongelijke verdeling van kosten over de tijd geven; ze activeren en spreiden tot de volgende inspectie is conceptueel correcter.",
-      "voorbeeld_inline": "Zelena Bio's reactor vereist elke 5 jaar een wettelijk verplichte grondige inspectie (kosten € 800.000). Bij aanschaf wordt € 800.000 als 'inspectie-component' geactiveerd, afgeschreven over 5 jaar. Bij volgende inspectie: oude inspectiekost niet langer opnemen + nieuwe € 800.000 activeren.",
       "grondslag": "IAS 16 alinea 14",
       "confidence": "grounded",
       "source": {
@@ -116,7 +125,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Zelena Bio's reactor vereist elke 5 jaar een wettelijk verplichte grondige inspectie (kosten € 800.000). Bij aanschaf wordt € 800.000 als 'inspectie-component' geactiveerd, afgeschreven over 5 jaar. Bij volgende inspectie: oude inspectiekost niet langer opnemen + nieuwe € 800.000 activeren."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
@@ -274,5 +289,5 @@
       "confidence": "grounded"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

@@ -37,7 +37,6 @@ WER art. III.82 definieert het begrip 'onderneming' breed: iedere natuurlijke pe
 
 **Waarom?** De boekhoudplicht hangt af van het 'ondernemings'-statuut. Een eenmanszaak vrije beroep, een BV, een VZW met economische activiteit: alle drie zijn 'onderneming' onder het WER.
 
-**Voorbeeld**: Praktijk Persenaire (eenmanszaak vrij beroep) en VZW Quelle de Vie (vereniging) zijn beide 'onderneming' in de zin van WER art. III.82.
 
 _Grondslag: WER art. III.82, § 1_
 
@@ -47,7 +46,6 @@ Elke onderneming moet een passende boekhouding voeren — dubbel boekhouden of (
 
 **Waarom?** Dit is de fundamentele plicht — alles wat erop volgt (jaarrekening, controle, openbaarmaking) bouwt hierop voort.
 
-**Voorbeeld**: Rotex Roeselare NV moet als rechtspersoon altijd dubbel boekhouden (geen omzetgrens-uitzondering voor NV's).
 
 _Grondslag: WER art. III.83 + III.84_
 
@@ -57,7 +55,6 @@ Boeken, dagboeken en verantwoordingsstukken moeten gedurende 7 jaar bewaard word
 
 **Waarom?** Cruciaal voor fiscale controles en aansprakelijkheidsprocedures. Een belastingcontroleur kan tot 7 jaar terug bewijsstukken opvragen.
 
-**Voorbeeld**: Boekjaar Meubelzaak Mertens BV afgesloten op 31 december 2024 → bewaartermijn loopt tot 31 december 2031.
 
 _Grondslag: WER art. III.86; KB van 12 september 1983_
 
@@ -67,7 +64,6 @@ WER regelt de boekhoudplicht voor alle ondernemingen (ook eenmanszaken en VZW's)
 
 **Waarom?** WER is de basis. WVV bouwt erop voort met specifieke vennootschapsrechtelijke verplichtingen.
 
-**Voorbeeld**: Voor Rotex Roeselare NV: WER bepaalt 'jullie moeten dubbel boekhouden'; WVV bepaalt 'en je jaarrekening moet in volledig schema neergelegd worden bij de NBB'.
 
 _Grondslag: WER Boek III + WVV Boek 3_
 
@@ -87,6 +83,9 @@ _Grondslag: WER Boek III + WVV Boek 3_
 
 - **Vereist kennis van**: [[boekhoudplichtige-onderneming]]
 - **Getriggerd door**: [[dubbel-boekhouden]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

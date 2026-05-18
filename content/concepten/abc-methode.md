@@ -35,7 +35,6 @@ Splits het bedrijfsproces op in activiteiten (set-up, kwaliteitscontrole, inkoop
 
 **Waarom?** Eén overhead-pool is te grof; activiteiten geven granulariteit.
 
-**Voorbeeld**: Yperse Werkplaats BV identificeert in Confectie 5 activiteiten: (1) machine omstellen, (2) kwaliteitscontrole tapijt, (3) verpakken, (4) klant-callcenter, (5) verzending.
 
 
 ### Stap 2: koppel kosten aan activiteiten 🤖
@@ -44,7 +43,6 @@ Verdeel de indirecte kosten over de activiteiten op basis van resource drivers (
 
 **Waarom?** Bepaalt hoeveel elke activiteit kost om uit te voeren.
 
-**Voorbeeld**: Yperse Werkplaats BV: omstellen-activiteit kost € 180.000/jaar (loon 2 omstellers + machine-leegloop). Kwaliteitscontrole € 96.000/jaar (loon 2 kwaliteitscontroleurs).
 
 
 ### Stap 3: bepaal cost driver per activiteit 🤖
@@ -53,7 +51,6 @@ Voor elke activiteit kies een drijver die de inzet veroorzaakt: aantal set-ups, 
 
 **Waarom?** Causaal verband tussen activiteit en kostendrager wordt zichtbaar.
 
-**Voorbeeld**: Yperse Werkplaats BV — cost drivers: omstellen → aantal omstellingen (jaar: 1.200); kwaliteitscontrole → aantal gecontroleerde tapijten (jaar: 20.000); verzending → aantal orders (jaar: 800).
 
 
 ### Stap 4: bereken activity-rate 🤖
@@ -62,7 +59,6 @@ Cost pool per activiteit / totaal cost-driver-eenheden = kost per cost-driver-ee
 
 **Waarom?** Tarief om de activiteitenkost over kostendragers te verdelen.
 
-**Voorbeeld**: Yperse: omstellen-rate = € 180.000 / 1.200 = € 150 per omstelling. Kwaliteitscontrole-rate = € 96.000 / 20.000 = € 4,80 per tapijt. Verzending-rate = € 60.000 / 800 = € 75 per order.
 
 
 ### Stap 5: wijs toe aan kostendragers 🤖
@@ -71,7 +67,6 @@ Voor elke kostendrager: tel het verbruik per activiteit op (aantal omstellingen,
 
 **Waarom?** Geeft per kostendrager een toegerekende overhead die zijn werkelijk verbruik weerspiegelt.
 
-**Voorbeeld**: Yperse: order grootwarenhuis (5.000 tapijten, 1 omstelling, 1 verzending) → overhead = € 150 (omstellen) + 5.000 × € 4,80 (controle) + € 75 (verzending) = € 24.225 → € 4,85/tapijt overhead. Order boetiek-keten (200 tapijten, 1 omstelling, 1 verzending) → € 150 + 200×4,80 + 75 = € 1.185 → € 5,93/tapijt. Kleine order draagt méér per stuk — wat klassieke sleutel verbergt.
 
 
 
@@ -108,4 +103,7 @@ Voor elke kostendrager: tel het verbruik per activiteit op (aantal omstellingen,
 ## Zie ook
 
 - **Vereist kennis van**: [[verdeelsleutel]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

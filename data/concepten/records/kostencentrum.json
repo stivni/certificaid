@@ -38,21 +38,31 @@
       "titel": "Hoofdkostencentra vs. hulpkostencentra",
       "wat": "Hoofdkostencentra produceren rechtstreeks voor klanten of producten (Spinnerij, Weverij). Hulpkostencentra ondersteunen andere centra (Onderhoud, Kwaliteit, Magazijn). Hulpcentra dragen hun kost via verdeelsleutel over naar hoofdcentra.",
       "waarom": "Zonder dat onderscheid zou je de kost van Onderhoud rechtstreeks over de tapijten verdelen, wat verbergt dat Onderhoud vooral de Weverij bedient.",
-      "voorbeeld_inline": "Hulpkostencentrum Onderhoud van Yperse Werkplaats BV heeft € 180.000 jaarkost; volgens onderhoudsuren verdeeld: Spinnerij 30 %, Weverij 50 %, Confectie 20 %. Spinnerij krijgt dus € 54.000 extra op zijn rekening, niet rechtstreeks de tapijten.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Hulpkostencentrum Onderhoud van Yperse Werkplaats BV heeft € 180.000 jaarkost; volgens onderhoudsuren verdeeld: Spinnerij 30 %, Weverij 50 %, Confectie 20 %. Spinnerij krijgt dus € 54.000 extra op zijn rekening, niet rechtstreeks de tapijten."
+        }
+      ]
     },
     {
       "titel": "Verantwoordelijkheidscentrum",
       "wat": "Aan elk kostencentrum hangt een budget en een verantwoordelijke (afdelingshoofd). Verschil tussen budget en realisatie wordt aan die persoon gerapporteerd.",
       "waarom": "Budgetdiscipline en korte feedback-loops; basis voor verschillenboekhouding.",
-      "voorbeeld_inline": "Marleen De Cock leidt de Confectie van Yperse Werkplaats BV. Haar Q3-rapport: budget € 250.000, realisatie € 287.000 → verschil € 37.000 over budget, waarvan € 28.000 overuren en € 9.000 onderhoud.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Marleen De Cock leidt de Confectie van Yperse Werkplaats BV. Haar Q3-rapport: budget € 250.000, realisatie € 287.000 → verschil € 37.000 over budget, waarvan € 28.000 overuren en € 9.000 onderhoud."
+        }
+      ]
     }
   ],
   "vergelijkingsparen": [
@@ -107,5 +117,5 @@
       "omschrijving": "Yperse Werkplaats BV organiseert drie hoofdkostencentra: Spinnerij (jaarbudget € 1.450.000), Weverij (€ 1.200.000) en Confectie (€ 950.000). Daarnaast hulpkostencentra: Onderhoud, Kwaliteitscontrole, Algemene leiding. De Spinnerij draagt haar kosten uiteindelijk over op het kostendrager 'partij ruwwol-garen 50 kg'."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

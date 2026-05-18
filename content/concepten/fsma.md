@@ -33,7 +33,6 @@ De FSMA controleert dat beursgenoteerde vennootschappen tijdig en correct hun ve
 
 **Waarom?** Beleggers hebben recht op betrouwbare en tijdige financiële informatie — anders functioneert de markt niet.
 
-**Voorbeeld**: Een beursgenoteerde holding publiceert haar jaarrapport niet binnen 4 maanden na boekjaar-afsluiting → FSMA legt een dwangsom of berisping op.
 
 _Grondslag: Wet 2 augustus 2002; KB transparantie_
 
@@ -43,7 +42,6 @@ De FSMA controleert niet de jaarrekening van een gewone niet-beursgenoteerde BV 
 
 **Waarom?** FSMA-toezicht is sector-specifiek (beurs); voor de meeste KMO's irrelevant.
 
-**Voorbeeld**: Meubelzaak Mertens BV (kleine niet-beursgenoteerde BV) → geen FSMA-toezicht; controle ligt bij eventuele commissaris en de fiscus.
 
 _Grondslag: Wet 2 augustus 2002 (toepassingsgebied)_
 
@@ -51,6 +49,9 @@ _Grondslag: Wet 2 augustus 2002 (toepassingsgebied)_
 ## Zie ook
 
 - **Vereist kennis van**: [[europees-boekhoudrecht]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

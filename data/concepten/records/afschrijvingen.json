@@ -61,7 +61,6 @@
       "titel": "Drie elementen om de afschrijving te bepalen",
       "wat": "Voor elk afschrijfbaar actief bepaal je drie dingen: (1) de **af te schrijven waarde** (aanschaffingswaarde, eventueel min restwaarde), (2) de **geschatte gebruiksduur** in jaren, (3) het **ritme van verbruik** (gelijkmatig, degressief, progressief, pro rata van prestatie-eenheden).",
       "waarom": "Deze drie keuzes definiëren samen de jaarlijkse last. Eén keuze veranderen (bv. korte gebruiksduur) heeft direct impact op het resultaat — daarom moet het plan onderbouwd zijn en consistent worden toegepast.",
-      "voorbeeld_inline": "Voor de snij-installatie van € 30.500: af te schrijven waarde € 30.500 (geen restwaarde geschat), gebruiksduur 5 jaar, ritme lineair → € 6.100/jaar.",
       "grondslag": "KB WVV art. 3:23; CBN 2010/15",
       "confidence": "grounded",
       "source": {
@@ -76,13 +75,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Voor de snij-installatie van € 30.500: af te schrijven waarde € 30.500 (geen restwaarde geschat), gebruiksduur 5 jaar, ritme lineair → € 6.100/jaar."
+        }
+      ]
     },
     {
       "titel": "Vastgesteld door bestuursorgaan + samengevat in toelichting",
       "wat": "Het afschrijvingsplan wordt formeel vastgesteld door het bestuursorgaan. Een samenvatting van de waarderingsregels (inclusief gehanteerde gebruiksduur per categorie) komt in de toelichting bij de jaarrekening.",
       "waarom": "Transparantie tegenover de jaarrekeninggebruiker: hij moet de afschrijvingslast kunnen interpreteren in functie van de gekozen methode. Bovendien dwingt de formele vaststelling tot bewuste keuzes.",
-      "voorbeeld_inline": "Bestuur Naaiatelier Ninove BV beslist in waarderingsregels: 'Installaties en machines: lineair, 5 jaar. Bedrijfsvoertuigen: lineair, 4 jaar. Kantoormeubilair: lineair, 10 jaar.' Toelichting bij jaarrekening: sectie 'Waarderingsregels'.",
       "grondslag": "KB WVV art. 3:6 + CBN 2010/15",
       "confidence": "grounded",
       "source": {
@@ -97,13 +101,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bestuur Naaiatelier Ninove BV beslist in waarderingsregels: 'Installaties en machines: lineair, 5 jaar. Bedrijfsvoertuigen: lineair, 4 jaar. Kantoormeubilair: lineair, 10 jaar.' Toelichting bij jaarrekening: sectie 'Waarderingsregels'."
+        }
+      ]
     },
     {
       "titel": "Recurrent versus niet-recurrent",
       "wat": "Recurrente afschrijvingen volgen het opgestelde afschrijvingsplan. **Niet-recurrente afschrijvingen** worden geboekt bovenop het plan wanneer de boekwaarde plots groter is dan de gebruikswaarde door technische ontwaarding of gewijzigde economische omstandigheden.",
       "waarom": "Het plan veronderstelt 'normaal gebruik'. Bij abnormale ontwaarding (brand, technologische sprong, brexit-effect) moet sneller afgeschreven worden om geen overgewaardeerd actief op de balans te houden.",
-      "voorbeeld_inline": "Naaiatelier Ninove BV heeft een snij-installatie met boekwaarde € 18.300 (na 2 jaar). Door brand is de installatie maar half functioneel; gebruikswaarde = € 6.500. Niet-recurrente afschrijving = € 18.300 − € 6.500 = € 11.800, geboekt op rekening 6602 'Niet-recurrente afschrijvingen' i.p.v. 6302.",
       "grondslag": "KB WVV art. 3:23 + CBN 2019/04",
       "confidence": "grounded",
       "source": {
@@ -118,13 +127,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Naaiatelier Ninove BV heeft een snij-installatie met boekwaarde € 18.300 (na 2 jaar). Door brand is de installatie maar half functioneel; gebruikswaarde = € 6.500. Niet-recurrente afschrijving = € 18.300 − € 6.500 = € 11.800, geboekt op rekening 6602 'Niet-recurrente afschrijvingen' i.p.v. 6302."
+        }
+      ]
     },
     {
       "titel": "Terugname van niet-recurrente afschrijving — verplicht",
       "wat": "Wanneer de eerder geboekte niet-recurrente afschrijving niet langer verantwoord is (omdat de gebruikswaarde herstelt), MOET de overdaad worden teruggenomen — voor het surplus boven de gewone afschrijving die uit het plan zou volgen.",
       "waarom": "Voorzichtigheid mag geen verborgen reserve worden. Als de oorzaak van de extra afschrijving verdwijnt, moet ook het effect verdwijnen.",
-      "voorbeeld_inline": "Brand-versterkte niet-recurrente afschrijving van € 11.800 in jaar 2; in jaar 3 wordt de installatie volledig hersteld en de gebruikswaarde is terug € 22.000. Terugname tot het bedrag dat volgens het gewone plan op die datum aanvaardbaar is.",
       "grondslag": "KB WVV art. 3:23 + CBN 2019/04",
       "confidence": "grounded",
       "source": {
@@ -139,7 +153,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Brand-versterkte niet-recurrente afschrijving van € 11.800 in jaar 2; in jaar 3 wordt de installatie volledig hersteld en de gebruikswaarde is terug € 22.000. Terugname tot het bedrag dat volgens het gewone plan op die datum aanvaardbaar is."
+        }
+      ]
     }
   ],
   "berekeningsmethode": [
@@ -369,5 +389,5 @@
       "omschrijving": "Naaiatelier Ninove BV koopt een snij-installatie voor € 30.500 met geschatte gebruiksduur van 5 jaar. Lineaire afschrijving = € 30.500 / 5 = € 6.100 per jaar. Eind jaar 1: Debet 6302 Afschrijvingen materiële vaste activa € 6.100 / Credit 2309 Afschrijvingen op installaties € 6.100. Op de balans staat de netto-boekwaarde aan eind jaar 1 op € 30.500 − € 6.100 = € 24.400."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

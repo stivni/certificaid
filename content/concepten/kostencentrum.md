@@ -38,7 +38,6 @@ Hoofdkostencentra produceren rechtstreeks voor klanten of producten (Spinnerij, 
 
 **Waarom?** Zonder dat onderscheid zou je de kost van Onderhoud rechtstreeks over de tapijten verdelen, wat verbergt dat Onderhoud vooral de Weverij bedient.
 
-**Voorbeeld**: Hulpkostencentrum Onderhoud van Yperse Werkplaats BV heeft € 180.000 jaarkost; volgens onderhoudsuren verdeeld: Spinnerij 30 %, Weverij 50 %, Confectie 20 %. Spinnerij krijgt dus € 54.000 extra op zijn rekening, niet rechtstreeks de tapijten.
 
 
 ### Verantwoordelijkheidscentrum 🤖
@@ -47,7 +46,6 @@ Aan elk kostencentrum hangt een budget en een verantwoordelijke (afdelingshoofd)
 
 **Waarom?** Budgetdiscipline en korte feedback-loops; basis voor verschillenboekhouding.
 
-**Voorbeeld**: Marleen De Cock leidt de Confectie van Yperse Werkplaats BV. Haar Q3-rapport: budget € 250.000, realisatie € 287.000 → verschil € 37.000 over budget, waarvan € 28.000 overuren en € 9.000 onderhoud.
 
 
 
@@ -68,4 +66,7 @@ Aan elk kostencentrum hangt een budget en een verantwoordelijke (afdelingshoofd)
 
 - **Vereist kennis van**: [[verdeelsleutel]]
 - **Vereist kennis van**: [[budgetbeheer]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

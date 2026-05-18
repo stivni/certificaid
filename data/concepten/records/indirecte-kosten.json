@@ -43,7 +43,6 @@
       "titel": "Wettelijk verplicht in vervaardigingsprijs",
       "wat": "De vervaardigingsprijs in de boekhoudwet omvat — naast directe kosten — ook 'een evenredig deel van de productiekosten die slechts onrechtstreeks aan het individueel product kunnen worden toegerekend'.",
       "waarom": "Anders zou de voorraadwaardering te laag uitkomen en zou de winst van het boekjaar vertekend zijn.",
-      "voorbeeld_inline": "Yperse Werkplaats BV moet bij de voorraadwaardering van gereed product naast de wol (€ 12.000 direct) ook een deel van de fabriekshuur en energiekosten meerekenen — bv. € 3.500 indirect via machine-uren-sleutel.",
       "grondslag": "CBN 132/7 §2.1 · KB 21.10.2018 art. 22",
       "confidence": "grounded",
       "source": {
@@ -58,13 +57,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV moet bij de voorraadwaardering van gereed product naast de wol (€ 12.000 direct) ook een deel van de fabriekshuur en energiekosten meerekenen — bv. € 3.500 indirect via machine-uren-sleutel."
+        }
+      ]
     },
     {
       "titel": "Keuzevrijheid: full of direct costing",
       "wat": "Indirecte kosten mogen in de vervaardigingsprijs worden opgenomen ('full costing') of er buiten worden gehouden ('direct costing'). De keuze moet in de waarderingsregels worden opgenomen en consistent worden toegepast.",
       "waarom": "Direct costing reflecteert beter het variabele kostengedrag (interne sturing); full costing dekt alle productiekosten (fiscaal-conservatiever).",
-      "voorbeeld_inline": "Yperse Werkplaats BV kiest full costing: voorraad ruwwol-garen wordt gewaardeerd aan € 15.000 (€ 12.000 direct + € 3.000 indirect verdeeld). Bij direct costing zou de voorraad € 12.000 zijn en zou € 3.000 als periodekost in de RR vallen.",
       "grondslag": "CBN 2012/15 §waarderingsaspecten full costing / direct costing",
       "confidence": "grounded",
       "source": {
@@ -84,7 +88,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV kiest full costing: voorraad ruwwol-garen wordt gewaardeerd aan € 15.000 (€ 12.000 direct + € 3.000 indirect verdeeld). Bij direct costing zou de voorraad € 12.000 zijn en zou € 3.000 als periodekost in de RR vallen."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -167,5 +177,5 @@
       "omschrijving": "Yperse Werkplaats BV betaalt huur € 80.000/jaar voor het volledige weverij-gebouw waarin drie productlijnen draaien. De huur is een indirecte kost: ze ondersteunt alle drie producten gezamenlijk en moet via een sleutel (bv. m² of machine-uren) verdeeld worden."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

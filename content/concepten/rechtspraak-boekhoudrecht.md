@@ -36,7 +36,6 @@ Rechtspraak (1) geeft uitleg aan open normen (wat is 'voorzichtigheid'? wat is e
 
 **Waarom?** Voor de stagiair: de wet zegt 'voorzichtig waarderen', de rechter zegt 'in deze concrete situatie was dat te optimistisch'.
 
-**Voorbeeld**: Vraag: 'Wanneer is een waardevermindering verplicht?' → KB-WVV zegt 'bij waarde-verlies', rechtspraak vult in 'al bij ernstige twijfel over recupereerbaarheid, niet pas bij vaststaande oninbaarheid'.
 
 _Grondslag: Algemene rechtsleer; Hof van Cassatie_
 
@@ -46,7 +45,6 @@ _Grondslag: Algemene rechtsleer; Hof van Cassatie_
 
 **Waarom?** Een geschil over een boekingspraktijk kan in alle drie eindigen — afhankelijk van wie klaagt (fiscus, aandeelhouder, openbaar ministerie).
 
-**Voorbeeld**: Robert Vandenberghe (minderheidsaandeelhouder) verdenkt het bestuur van een veel te hoge waardering van immateriële activa → kan civielrechtelijk procederen voor bestuursaansprakelijkheid.
 
 _Grondslag: Sw art. 492bis (valse jaarrekening); WVV bestuurdersaansprakelijkheid_
 
@@ -56,7 +54,6 @@ Het Hof van Cassatie spreekt zich uit over rechtspunten en bindt de feitenrechte
 
 **Waarom?** Wie een commissarisverslag schrijft, weet welke Cassatie-lijn er bestaat over de invulling van 'getrouw beeld'.
 
-**Voorbeeld**: Cassatie 2018: 'Een jaarrekening die de financiële positie niet getrouw weergeeft, is nietig — ook al stemt zij overeen met de letter van het KB.' (illustratie van substance over form)
 
 _Grondslag: Hof van Cassatie; Gerechtelijk Wetboek_
 
@@ -86,6 +83,9 @@ _Grondslag: Hof van Cassatie; Gerechtelijk Wetboek_
 > _Bron: Algemene rechtsleer_
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

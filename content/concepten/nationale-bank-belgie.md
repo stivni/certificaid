@@ -34,7 +34,6 @@ Alle Belgische vennootschappen en grote verenigingen leggen hun jaarrekening nee
 
 **Waarom?** De NBB consolideert alle jaarrekeningen tot een publiek raadpleegbare databank — bron voor kredietverleners, accountants, journalisten en analisten.
 
-**Voorbeeld**: Wie de jaarrekening van Brugse Brouwerij BV wil inkijken, vindt die op consult.cbso.nbb.be.
 
 _Grondslag: WVV art. 3:10; KB-WVV art. 3:104 e.v._
 
@@ -44,7 +43,6 @@ De jaarrekening moet binnen 30 dagen na goedkeuring door de algemene vergadering
 
 **Waarom?** Te late neerlegging triggert administratieve sancties en kan de aansprakelijkheid van het bestuur uitbreiden.
 
-**Voorbeeld**: Boekjaar Meubelzaak Mertens BV sluit op 31 december 2024. AV gehouden op 15 juni 2025 → neerlegging uiterlijk 15 juli 2025 (en sowieso vóór 31 juli 2025).
 
 _Grondslag: WVV art. 3:10_
 
@@ -54,7 +52,6 @@ De NBB int een toeslag bij laattijdige neerlegging (gestaffeld naar maanden vert
 
 **Waarom?** De openbaarmakingsplicht beschermt derden — daarom de stevige sanctie.
 
-**Voorbeeld**: Verffabriek Veurne BV legt drie jaar op rij geen jaarrekening neer → het openbaar ministerie kan haar ontbinding vorderen (art. 2:74 WVV).
 
 _Grondslag: WVV art. 2:74; KB tarifering toeslagen_
 
@@ -73,6 +70,9 @@ _Grondslag: WVV art. 2:74; KB tarifering toeslagen_
 ## Zie ook
 
 - **Vereist kennis van**: [[openbaarmaking-jaarrekening]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

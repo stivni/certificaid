@@ -74,7 +74,6 @@
       "titel": "Definitie 'onderneming'",
       "wat": "WER art. III.82 definieert het begrip 'onderneming' breed: iedere natuurlijke persoon die zelfstandig een beroepsactiviteit uitoefent, elke rechtspersoon, en iedere organisatie zonder rechtspersoonlijkheid. Dit bepaalt wie onder de boekhoudplicht valt.",
       "waarom": "De boekhoudplicht hangt af van het 'ondernemings'-statuut. Een eenmanszaak vrije beroep, een BV, een VZW met economische activiteit: alle drie zijn 'onderneming' onder het WER.",
-      "voorbeeld_inline": "Praktijk Persenaire (eenmanszaak vrij beroep) en VZW Quelle de Vie (vereniging) zijn beide 'onderneming' in de zin van WER art. III.82.",
       "grondslag": "WER art. III.82, § 1",
       "confidence": "grounded",
       "source": {
@@ -94,13 +93,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Praktijk Persenaire (eenmanszaak vrij beroep) en VZW Quelle de Vie (vereniging) zijn beide 'onderneming' in de zin van WER art. III.82."
+        }
+      ]
     },
     {
       "titel": "Plicht tot boekhouding",
       "wat": "Elke onderneming moet een passende boekhouding voeren — dubbel boekhouden of (onder bepaalde omzetgrenzen) vereenvoudigd. De boekhouding moet alle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen volledig en correct weergeven.",
       "waarom": "Dit is de fundamentele plicht — alles wat erop volgt (jaarrekening, controle, openbaarmaking) bouwt hierop voort.",
-      "voorbeeld_inline": "Rotex Roeselare NV moet als rechtspersoon altijd dubbel boekhouden (geen omzetgrens-uitzondering voor NV's).",
       "grondslag": "WER art. III.83 + III.84",
       "confidence": "grounded",
       "source": {
@@ -120,13 +124,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV moet als rechtspersoon altijd dubbel boekhouden (geen omzetgrens-uitzondering voor NV's)."
+        }
+      ]
     },
     {
       "titel": "Bewaartermijn 7 jaar",
       "wat": "Boeken, dagboeken en verantwoordingsstukken moeten gedurende 7 jaar bewaard worden, te rekenen vanaf 1 januari volgend op het afsluiten van het boekjaar. Voor stukken zonder bewijswaarde tegenover derden volstaat 3 jaar.",
       "waarom": "Cruciaal voor fiscale controles en aansprakelijkheidsprocedures. Een belastingcontroleur kan tot 7 jaar terug bewijsstukken opvragen.",
-      "voorbeeld_inline": "Boekjaar Meubelzaak Mertens BV afgesloten op 31 december 2024 → bewaartermijn loopt tot 31 december 2031.",
       "grondslag": "WER art. III.86; KB van 12 september 1983",
       "confidence": "grounded",
       "source": {
@@ -146,13 +155,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Boekjaar Meubelzaak Mertens BV afgesloten op 31 december 2024 → bewaartermijn loopt tot 31 december 2031."
+        }
+      ]
     },
     {
       "titel": "Verhouding WER ↔ WVV",
       "wat": "WER regelt de boekhoudplicht voor alle ondernemingen (ook eenmanszaken en VZW's). WVV regelt specifiek de jaarrekening van vennootschappen, verenigingen en stichtingen. Voor een vennootschap gelden beide: WER voor het boekhouden zelf, WVV voor de jaarrekening en openbaarmaking.",
       "waarom": "WER is de basis. WVV bouwt erop voort met specifieke vennootschapsrechtelijke verplichtingen.",
-      "voorbeeld_inline": "Voor Rotex Roeselare NV: WER bepaalt 'jullie moeten dubbel boekhouden'; WVV bepaalt 'en je jaarrekening moet in volledig schema neergelegd worden bij de NBB'.",
       "grondslag": "WER Boek III + WVV Boek 3",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -172,7 +186,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Voor Rotex Roeselare NV: WER bepaalt 'jullie moeten dubbel boekhouden'; WVV bepaalt 'en je jaarrekening moet in volledig schema neergelegd worden bij de NBB'."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -222,5 +242,5 @@
       "omschrijving": "Meubelzaak Mertens BV (handels-BV) is een 'onderneming' in de zin van WER art. III.82 → moet een dubbele boekhouding voeren volgens WER art. III.83."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

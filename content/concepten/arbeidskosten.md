@@ -36,7 +36,6 @@ _Bron: WIB92 art. 30-31 (begrip bezoldiging); KB MAR klasse 62_
 
 **Waarom?** Volledig zicht op kost per uur of per stuk; vereist voor kostprijsberekening en make-or-buy-vergelijkingen.
 
-**Voorbeeld**: Yperse Werkplaats BV hanteert in haar analytische boekhouding een standaard arbeidskost van € 25/uur (afgerond, inclusief alle werkgeverslasten en gemiddelde productiviteit). Dit standaardtarief wordt aan elk order toegewezen op basis van de geregistreerde werkbon-uren.
 
 _Grondslag: Wet 3 juli 1978 (arbeidsovereenkomsten) · WIB92 art. 30-31 (begrip bezoldiging)_
 
@@ -46,7 +45,6 @@ Directe arbeid = uren die rechtstreeks aan een specifiek order/product zijn best
 
 **Waarom?** Beslist of de arbeidskost rechtstreeks in de kostprijs gaat of via overhead-sleutel.
 
-**Voorbeeld**: Bij Yperse Werkplaats BV registreren de naaisters elke ochtend via badge welk order ze starten — directe arbeid. Het loon van de productieleider Marleen De Cock (€ 6.000/maand inclusief lasten) wordt over alle Confectie-orders verdeeld via directe arbeidsuren als sleutel — indirecte arbeid.
 
 
 
@@ -72,6 +70,9 @@ Directe arbeid = uren die rechtstreeks aan een specifiek order/product zijn best
 > ⚠️ Bedrijfsleider-bezoldiging en zelfstandige bijdragen volgen een ander regime (bedrijfsleidersbezoldigingen op rekening 618, niet 62). Bij een vennootschap met enkel een zaakvoerder: 'arbeidskost' van die zaakvoerder zit niet in klasse 62. 🤖
 
 
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

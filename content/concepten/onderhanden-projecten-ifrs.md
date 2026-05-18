@@ -37,7 +37,6 @@ _Bron: IFRS 15 alinea 35-37 + 41_
 
 **Waarom?** Outputmethode is theoretisch zuiverder (klantperspectief) maar vereist meetbare outputmijlpalen. Inputmethode is praktischer wanneer prestaties gelijkmatig over de tijd lopen — bv. bouwprojecten met diffuse output.
 
-**Voorbeeld**: Cattoir's productie-eenheid bouwen voor Zelena Bio: prestaties zijn gelijkmatig en complex; outputmijlpalen zijn moeilijk objectief te identificeren. → Inputmethode (kosten gemaakt). Voor een rijwegproject waarbij elke afgewerkte 100 m oplevering = betaling: outputmethode (kilometer opgeleverd) is logischer.
 
 _Grondslag: IFRS 15 alinea B15 + B18_
 
@@ -47,7 +46,6 @@ Wanneer de **totale verwachte kosten** van het contract hoger zijn dan de **tota
 
 **Waarom?** Voorzichtigheidsbeginsel: een verwacht verlies in een lopend contract is een actuele economische realiteit. Wachten tot het project klaar is zou de winst van de tussenliggende jaren artificieel hoog houden.
 
-**Voorbeeld**: Cattoir's contract met Zelena Bio: transactieprijs € 4.500.000, totaal verwachte kosten € 4.900.000 (oorspronkelijk € 4.200.000, gestegen door materiaalprijzen). Verwacht verlies € 400.000 → onmiddellijk opgenomen in W&V, niet gewacht tot eindoplevering.
 
 _Grondslag: IAS 37 onerous contracts + IFRS 15_
 
@@ -57,7 +55,6 @@ Als een entiteit haar voortgang niet redelijkerwijs kan meten (vroege fase contr
 
 **Waarom?** Geen winst boeken zolang voortgang niet meetbaar is — anders zou de winst kunstmatig geconstrueerd zijn. Maar ook geen verlies tonen als de kosten gedekt zullen worden — daarom: opbrengst = kost.
 
-**Voorbeeld**: Cattoir's eerste 3 maanden van het Zelena-project: design-fase, hoge onzekerheid over totale kosten. Kosten gemaakt € 350.000. Opbrengstopname = € 350.000 (nul-marge). Vanaf maand 4 wordt voortgang meetbaar → reguliere percentage-of-completion methode.
 
 _Grondslag: IFRS 15 alinea 45_
 

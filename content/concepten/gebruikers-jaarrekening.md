@@ -37,7 +37,6 @@ Bestuderen winstgevendheid, dividend-potentieel en rendement op hun ingezet kapi
 
 **Waarom?** Hun beslissing om kapitaal te laten staan, bij te storten of uit te stappen, hangt af van het rendement dat de onderneming oplevert.
 
-**Voorbeeld**: Een aandeelhouder van Rotex Roeselare NV vergelijkt het rendement op zijn aandelen (ROE 20,8 %) met alternatieven zoals aandelen van vergelijkbare beursvennootschappen.
 
 _Grondslag: Vakdoctrine + anker 1.3.I.B_
 
@@ -47,7 +46,6 @@ Beoordelen of de onderneming de afgesproken aflossingen en intresten kan betalen
 
 **Waarom?** Hun risico is asymmetrisch: ze delen niet in de winst maar wel in het verlies bij wanbetaling. Solvabiliteit, liquiditeit en cashflow zijn primair.
 
-**Voorbeeld**: Een bank evalueert een kredietaanvraag van Rotex Roeselare NV op basis van debt-equity (1,5) en cashflow (€ 4.200.000) → terugbetalingscapaciteit.
 
 _Grondslag: Vakdoctrine + anker 1.3.I.B_
 
@@ -57,7 +55,6 @@ Geïnteresseerd in continuïteit van de onderneming en evolutie van personeelsko
 
 **Waarom?** Hun loopbaan en sociale rechten hangen af van de overlevingskansen van de werkgever.
 
-**Voorbeeld**: De ondernemingsraad van Rotex Roeselare NV bespreekt jaarlijks de jaarrekening en het bestuursverslag — verplichte sociaal-economische informatie.
 
 _Grondslag: WVV + sociale wetgeving_
 
@@ -67,7 +64,6 @@ Gebruiken de jaarrekening voor aanslagen vennootschapsbelasting, BTW-controle, s
 
 **Waarom?** De jaarrekening is een aanslagbasis en een controle-instrument voor de overheid.
 
-**Voorbeeld**: De fiscus baseert haar aanslag vennootschapsbelasting op het belastbaar resultaat dat van de jaarrekening Rotex Roeselare NV vertrekt.
 
 _Grondslag: WIB92 art. 321/1, 13°_
 
@@ -77,7 +73,6 @@ Leveranciers checken kredietwaardigheid vóór openstaande betalingstermijnen. K
 
 **Waarom?** Bij faillissement van leverancier of klant verlies je opdrachten, voorraad of openstaande facturen.
 
-**Voorbeeld**: Een leverancier overweegt of hij Meubelzaak Mertens BV nog op 60 dagen wil leveren — bekijkt liquiditeit en evolutie van overgedragen resultaat.
 
 _Grondslag: Vakdoctrine_
 
@@ -87,7 +82,6 @@ Door neerlegging bij de Nationale Bank van België wordt de jaarrekening voor ie
 
 **Waarom?** Publieke openbaarmaking is de keerzijde van rechtspersoonlijkheid — beperkte aansprakelijkheid vergt transparantie naar derden.
 
-**Voorbeeld**: Een onderzoeksjournalist analyseert de jaarrekening van Rotex Roeselare NV om een artikel over de Vlaamse industriebasis te onderbouwen.
 
 _Grondslag: WVV + KB WVV (publicatie)_
 
@@ -112,6 +106,9 @@ _Grondslag: WVV + KB WVV (publicatie)_
 ## Zie ook
 
 - **Vereist kennis van**: [[doelstellingen-financiele-analyse]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

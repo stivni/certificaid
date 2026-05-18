@@ -55,7 +55,6 @@
       "titel": "Vier categorieën PIE",
       "wat": "(1) Vennootschappen waarvan effecten genoteerd zijn op een gereglementeerde markt in de EU. (2) Kredietinstellingen (banken). (3) Verzekeringsondernemingen. (4) Andere door de lidstaat aangewezen entiteiten van groot openbaar belang.",
       "waarom": "Sectoren met systemisch belang of brede impact op stakeholders krijgen strenger regime.",
-      "voorbeeld_inline": "Beursgenoteerde holding op Euronext Brussels → PIE. Niet-genoteerde verzekeringsmaatschappij → PIE (sector). Niet-genoteerde gewone NV → geen PIE.",
       "grondslag": "Richtlijn 2013/34/EU art. 2(1)",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -70,13 +69,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Beursgenoteerde holding op Euronext Brussels → PIE. Niet-genoteerde verzekeringsmaatschappij → PIE (sector). Niet-genoteerde gewone NV → geen PIE."
+        }
+      ]
     },
     {
       "titel": "Drie strengere regels",
       "wat": "(1) IFRS-consolidatie verplicht (verordening 1606/2002). (2) Rotatie van revisor — een commissaris kan maximaal 10 jaar (eventueel verlengbaar met openbare aanbesteding) dezelfde PIE controleren. (3) Audit committee (auditcomité) verplicht in de raad van bestuur.",
       "waarom": "Hogere drempel voor onafhankelijkheid en kwaliteit van controle bij entiteiten van openbaar belang.",
-      "voorbeeld_inline": "Een PIE moet vanaf jaar 11 een nieuwe revisor benoemen — Sofie Janssens kan dus niet voor 20 jaar achter elkaar de commissarisrol vervullen bij eenzelfde PIE.",
       "grondslag": "Wet 7 december 2016 + Verordening (EU) 537/2014",
       "confidence": "inferred",
       "source": {
@@ -91,7 +95,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Een PIE moet vanaf jaar 11 een nieuwe revisor benoemen — Sofie Janssens kan dus niet voor 20 jaar achter elkaar de commissarisrol vervullen bij eenzelfde PIE."
+        }
+      ]
     }
   ],
   "vergelijkingsparen": [
@@ -130,5 +140,5 @@
       "omschrijving": "Een Belgisch beursgenoteerde bank → PIE (zowel beursgenoteerd als kredietinstelling). Verplicht: IFRS-consolidatie, FSMA-toezicht, rotatie revisor om de 10 jaar."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
 }

@@ -35,7 +35,6 @@ _Bron: Richtlijn 2013/34/EU art. 2(1)_
 
 **Waarom?** Sectoren met systemisch belang of brede impact op stakeholders krijgen strenger regime.
 
-**Voorbeeld**: Beursgenoteerde holding op Euronext Brussels → PIE. Niet-genoteerde verzekeringsmaatschappij → PIE (sector). Niet-genoteerde gewone NV → geen PIE.
 
 _Grondslag: Richtlijn 2013/34/EU art. 2(1)_
 
@@ -45,7 +44,6 @@ _Grondslag: Richtlijn 2013/34/EU art. 2(1)_
 
 **Waarom?** Hogere drempel voor onafhankelijkheid en kwaliteit van controle bij entiteiten van openbaar belang.
 
-**Voorbeeld**: Een PIE moet vanaf jaar 11 een nieuwe revisor benoemen — Sofie Janssens kan dus niet voor 20 jaar achter elkaar de commissarisrol vervullen bij eenzelfde PIE.
 
 _Grondslag: Wet 7 december 2016 + Verordening (EU) 537/2014_
 
@@ -60,6 +58,9 @@ _Grondslag: Wet 7 december 2016 + Verordening (EU) 537/2014_
 
 - **Vereist kennis van**: [[fsma]]
 - **Vereist kennis van**: [[europees-boekhoudrecht]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

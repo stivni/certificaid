@@ -42,7 +42,6 @@ Verhouding tussen de winst (of verlies) van het boekjaar na belastingen — vó�
 
 **Waarom?** Geeft het direct uitkeerbare of beschikbare rendement aan voor de aandeelhouder — wat overblijft nadat de fiscus is bediend.
 
-**Voorbeeld**: Rotex Roeselare NV: winst boekjaar € 2.500.000; eigen vermogen € 12.000.000. Nettorentabiliteit EV = € 2.500.000 / € 12.000.000 = 20,8 %.
 
 _Grondslag: CBN-2011/14 §rentabiliteit eigen vermogen_
 
@@ -52,7 +51,6 @@ Verhouding tussen de cashflow (nettoresultaat na belasting + niet-kaskosten zoal
 
 **Waarom?** Filtert boekhoudkundige niet-kaselementen weg en toont wat de onderneming echt aan middelen genereert tegenover het eigen vermogen.
 
-**Voorbeeld**: Rotex Roeselare NV: nettoresultaat € 2.500.000 + afschrijvingen € 1.500.000 + waardeverminderingen € 200.000 = cashflow € 4.200.000. Brutorentabiliteit EV = € 4.200.000 / € 12.000.000 = 35,0 %.
 
 _Grondslag: CBN-2011/14 §rentabiliteit eigen vermogen_
 

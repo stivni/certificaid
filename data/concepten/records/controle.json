@@ -117,7 +117,6 @@
       "titel": "Controle in rechte",
       "wat": "Controle die rechtstreeks uit objectieve juridische elementen volgt: meerderheid van de stemrechten, het recht om de meerderheid van de bestuurders te benoemen, statutaire macht of een stemovereenkomst. Onweerlegbaar — er valt niets meer aan te tonen.",
       "waarom": "Door dit vast objectief vermoeden vermijdt de wet eindeloze discussie over wie nu eigenlijk de leiding heeft. Eén keer aan een onweerlegbaar criterium voldoen → moeder.",
-      "voorbeeld_inline": "Aurelia Holding NV heeft 80 % van de stemrechten in Brugse Brouwerij BV → controle in rechte. Aurelia is moeder, Brugse is dochter.",
       "grondslag": "WVV art. 1:14, § 2 jo. art. 1:16",
       "confidence": "inferred-from-aggregation",
       "source": {
@@ -154,13 +153,18 @@
           "from": null,
           "reason": "Cast-voorbeeld toegevoegd."
         }
+      ],
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV heeft 80 % van de stemrechten in Brugse Brouwerij BV → controle in rechte. Aurelia is moeder, Brugse is dochter."
+        }
       ]
     },
     {
       "titel": "Controle in feite",
       "wat": "Controle die niet uit een onweerlegbaar juridisch criterium volgt, maar zichtbaar wordt uit gedrag. Klassieke test: heeft de moeder tijdens de laatste twee algemene vergaderingen met haar effectief uitgeoefende stemrechten de meerderheid van de bestuurders kunnen aanstellen? Zo ja → controle in feite. Belangrijke valkuil: een dochter waarover je alleen controle in feite hebt, moet je uit de consolidatiekring laten als opname het getrouwe beeld zou verstoren (KB WVV art. 3:98).",
       "waarom": "Een moeder kan in de praktijk de baas spelen zonder formele meerderheid — bijvoorbeeld door versnipperde aandeelhouders die nooit komen opdagen. De controle-in-feite-test laat het materiële criterium prevaleren boven het formele.",
-      "voorbeeld_inline": "Aurelia Holding NV heeft 35 % stemrechten in Brugse Brouwerij BV; de overige 65 % is verspreid over 200 kleine aandeelhouders. Tijdens de laatste twee algemene vergaderingen heeft Aurelia met haar 35 % de meerderheid van de bestuurders kunnen aanstellen → controle in feite.",
       "grondslag": "KB WVV art. 3:98",
       "confidence": "grounded",
       "source": {
@@ -196,6 +200,12 @@
           "field": "voorbeeld_inline",
           "from": null,
           "reason": "Cast-voorbeeld toegevoegd."
+        }
+      ],
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aurelia Holding NV heeft 35 % stemrechten in Brugse Brouwerij BV; de overige 65 % is verspreid over 200 kleine aandeelhouders. Tijdens de laatste twee algemene vergaderingen heeft Aurelia met haar 35 % de meerderheid van de bestuurders kunnen aanstellen → controle in feite."
         }
       ]
     }
@@ -358,5 +368,5 @@
       "omschrijving": "Aurelia Holding NV heeft 80 % van de stemrechten in Brugse Brouwerij BV → onweerlegbaar controle in rechte → Brugse is dochter van Aurelia, Aurelia is consolidatieplichtig."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

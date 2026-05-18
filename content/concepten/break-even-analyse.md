@@ -36,7 +36,6 @@ Bij volume nul: vaste kosten worden niet gedekt — totaal verlies = vaste koste
 
 **Waarom?** Geeft een aanvoelpunt voor 'hoe groot moet ons bedrijf minimaal zijn om uit verlies te raken?'
 
-**Voorbeeld**: Yperse Werkplaats BV heeft vaste kosten € 800.000/jaar en eenheidscontributie € 47 per tapijt. Break-even = € 800.000 / € 47 = 17.022 tapijten/jaar. Daaronder = verlies; daarboven = winst.
 
 
 ### In eenheden vs. in omzet 🤖
@@ -45,7 +44,6 @@ Break-even kan in stuks (vaste kost / eenheidscontributie) of in omzet (vaste ko
 
 **Waarom?** Stuks helpt productie-planning; omzet helpt commercieel team.
 
-**Voorbeeld**: Yperse Werkplaats BV — break-even in stuks: € 800.000 / € 47 = 17.022 tapijten. In omzet: € 800.000 / 78,3 % = € 1.021.711.
 
 
 ### Veiligheidsmarge 🤖
@@ -54,7 +52,6 @@ Verschil tussen verwachte verkoop en break-even, in % of in absolute eenheden. E
 
 **Waarom?** Risicoanalyse: hoe gevoelig is de onderneming voor volumedaling?
 
-**Voorbeeld**: Yperse Werkplaats BV verwacht 22.000 tapijten te verkopen. Veiligheidsmarge = (22.000 − 17.022) / 22.000 = 22,6 %. Het volume mag met 22,6 % dalen voordat verlies optreedt.
 
 
 

@@ -34,34 +34,49 @@
       "titel": "Lijn 1 — operationeel management",
       "wat": "De afdelingen en processen die risico's nemen in hun dagelijkse werking en de IC-procedures uitvoeren. Eerste verdedigingslijn omdat zij als eerste fouten of fraude detecteren in hun eigen proces.",
       "waarom": "IC moet ingebed zijn waar het risico ontstaat — niet pas later van buitenaf opgelegd worden.",
-      "voorbeeld_inline": "Aankoopdirecteur Tom Lefèvre tekent elke bestelling > € 25.000 af; magazijnier Bart toetst goederen tegen bestelbon. Beiden zitten in lijn 1.",
       "grondslag": "IIA Three Lines Model",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Aankoopdirecteur Tom Lefèvre tekent elke bestelling > € 25.000 af; magazijnier Bart toetst goederen tegen bestelbon. Beiden zitten in lijn 1."
+        }
+      ]
     },
     {
       "titel": "Lijn 2 — risk- en compliancefuncties",
       "wat": "Beleidsmatige functies (risk management, compliance, kwaliteit) die methodologie ontwikkelen, beleid schrijven en lijn 1 ondersteunen. Tweede verdedigingslijn omdat zij toezicht houden zonder zelf operationeel uit te voeren.",
       "waarom": "Operationele lijn heeft niet altijd tijd of expertise om de juiste methodologie te kiezen — lijn 2 brengt expertise.",
-      "voorbeeld_inline": "Risk Officer Marleen De Cock werkt de risicomatrix uit, doet compliance reviews, adviseert directie over framework-wijzigingen.",
       "grondslag": "IIA Three Lines Model",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Risk Officer Marleen De Cock werkt de risicomatrix uit, doet compliance reviews, adviseert directie over framework-wijzigingen."
+        }
+      ]
     },
     {
       "titel": "Lijn 3 — interne audit",
       "wat": "Onafhankelijke evaluatie van zowel lijn 1 als lijn 2. Rapporteert aan raad van bestuur / auditcomité, niet aan operationeel management. Geeft objectieve assurance over de werking van het hele IC-systeem.",
       "waarom": "Zonder onafhankelijke derde lijn kunnen lijnen 1 en 2 elkaar dekken — niemand kijkt critisch naar het geheel.",
-      "voorbeeld_inline": "Sofie Janssens (IA-directeur) test in haar jaarprogramma 4 cycli volledig en rapporteert bevindingen + actieplan aan het auditcomité.",
       "grondslag": "IIA Three Lines Model",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Sofie Janssens (IA-directeur) test in haar jaarprogramma 4 cycli volledig en rapporteert bevindingen + actieplan aan het auditcomité."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -100,5 +115,5 @@
       "omschrijving": "Bij Rotex Roeselare NV: lijn 1 = aankoopdirecteur (eigenaar aankooprisico's + uitvoert IC), lijn 2 = compliance officer (test of policy nageleefd wordt + adviseert), lijn 3 = Sofie Janssens als interne auditor (jaarlijks audit van de hele cyclus, onafhankelijk verslag aan auditcomité)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

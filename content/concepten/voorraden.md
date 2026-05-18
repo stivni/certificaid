@@ -35,7 +35,6 @@ Voorraden worden **verbruikt** of verkocht (vlottende activa, klasse 3). Vaste a
 
 **Waarom?** De boekhoudkundige rangschikking volgt de economische functie: een actief dat doorvloeit in de cyclus is fundamenteel iets anders dan een actief dat de cyclus aandrijft.
 
-**Voorbeeld**: Bij Transport Tongeren BV: vrachtwagen voor eigen gebruik = MVA rubriek 242. Bij een vrachtwagendealer: dezelfde vrachtwagen die te koop staat = voorraad handelsgoederen rubriek 33.
 
 _Grondslag: CBN 132/7 + KB WVV_
 
@@ -45,7 +44,6 @@ Per voorraadrubriek wordt de aanschaffings- of vervaardigingsprijs getoetst aan 
 
 **Waarom?** Asymmetrische erkenning: verliezen direct, winsten pas bij realisatie. De voorraad blijft op de boekhouding tegen de waarde die zeker realiseerbaar is.
 
-**Voorbeeld**: Naaiatelier Ninove BV: oude collectie afgewerkte kleding, aanschaffingswaarde € 22.000, marktwaarde (uitverkoopprijs) € 17.500 → waardevermindering € 4.500. Andere collectie aanschaffingswaarde € 35.000, marktwaarde € 48.000 → geen opwaardering, blijft op € 35.000.
 
 _Grondslag: KB WVV art. 3:49 + CBN 132/7_
 
@@ -55,7 +53,6 @@ Voor het bepalen van de aanschaffingswaarde per voorraad-eenheid mag de ondernem
 
 **Waarom?** Bij grote, homogene voorraden is per-stuk-volgen onpraktisch. De vier methoden zijn alle aanvaard, maar geven verschillende resultaten bij prijsschommelingen. Consistentie tussen jaren is essentieel om de vergelijkbaarheid te waarborgen.
 
-**Voorbeeld**: Naaiatelier Ninove BV koopt textiel met dalende prijs: 1.000 m aan € 12, dan 1.000 m aan € 10. Verkoop van 500 m. FIFO: kostprijs = 500 × € 12 = € 6.000 (eerst binnen). LIFO: kostprijs = 500 × € 10 = € 5.000. Gewogen gemiddelde: € 11/m → 500 × € 11 = € 5.500. Drie methoden, drie cijfers — daarom verplicht consistentie.
 
 _Grondslag: KB WVV art. 3:50; CBN 132/7_
 
@@ -65,7 +62,6 @@ De waarderingsregels voor voorraden moeten nauwkeurig vermeld worden in de samen
 
 **Waarom?** Voorraden hebben grote invloed op resultaat en balanstotaal; voor de lezer moet duidelijk zijn welke methode werd gehanteerd om de cijfers correct te kunnen interpreteren.
 
-**Voorbeeld**: Toelichting Naaiatelier Ninove BV: 'Grond- en hulpstoffen: gewogen gemiddelde. Goederen in bewerking en gereed product: vervaardigingsprijs incl. directe + 60 % variabele indirecte productiekosten; intresten op productie-investering niet inbegrepen.'
 
 _Grondslag: CBN 132/7_
 
@@ -75,7 +71,6 @@ De **voorraadwijziging** (eindvoorraad − beginvoorraad) verschijnt in de resul
 
 **Waarom?** Anders zou de productie van het jaar niet correct gematcht zijn met de verkopen. Voorraadwijziging is de boekhoudkundige brug tussen aankopen/productie en kostprijs verkopen.
 
-**Voorbeeld**: Naaiatelier Ninove BV: beginvoorraad gereed product 1/1 = € 65.000; eindvoorraad 31/12 = € 87.300. Voorraadwijziging = +€ 22.300 (stijging) → rekening 71 Voorraadwijziging gereed product.
 
 _Grondslag: CBN 132/7 + MAR klasse 71_
 
@@ -114,6 +109,9 @@ _Grondslag: CBN 132/7 + MAR klasse 71_
 ## Zie ook
 
 - **Vereist kennis van**: [[waardeverminderingen]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

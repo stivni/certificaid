@@ -42,7 +42,6 @@ Verhouding tussen 'nettoresultaat vóór belasting + kosten van schulden' en het
 
 **Waarom?** Zo krijg je zicht op de winstgevendheid van de bedrijfsmiddelen zelf — losgekoppeld van de vraag of die met eigen vermogen of met schuld zijn gefinancierd.
 
-**Voorbeeld**: Rotex Roeselare NV: nettoresultaat vóór belasting € 3.300.000 + financiële kosten van schulden € 600.000 = € 3.900.000; balanstotaal € 30.000.000. Netto-ROA = € 3.900.000 / € 30.000.000 = 13,0 %.
 
 _Grondslag: CBN-2011/14 §rentabiliteit totaal activa_
 
@@ -52,7 +51,6 @@ Idem als netto-ROA maar met cashflow als teller: nettoresultaat vóór belasting
 
 **Waarom?** Filtert ook de boekhoudkundige niet-kaselementen weg. Toont het kasrendement op de geïnvesteerde activa.
 
-**Voorbeeld**: Rotex Roeselare NV: nettoresultaat vóór belasting € 3.300.000 + niet-kaskosten € 1.700.000 + kosten van schulden € 600.000 = € 5.600.000; balanstotaal € 30.000.000. Bruto-ROA = € 5.600.000 / € 30.000.000 = 18,7 %.
 
 _Grondslag: CBN-2011/14 §rentabiliteit totaal activa_
 

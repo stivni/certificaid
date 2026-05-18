@@ -36,7 +36,6 @@ Materiaal, directe arbeid (mits stukloon of variabel uurtarief), variabele machi
 
 **Waarom?** Periodewinst weerspiegelt het verkochte volume zonder verstorend effect van veranderende voorraad-waardering.
 
-**Voorbeeld**: Yperse Werkplaats BV — direct costing voor partij tapijten: materiaal € 12.000 + variabele arbeid € 4.500 + variabele energie € 500 = € 17.000 kostprijs. De € 3.500 vaste indirecte kost van de Weverij gaat meteen in de RR als periode-last.
 
 _Grondslag: CBN 2012/15_
 
@@ -46,7 +45,6 @@ Direct costing is in België toegelaten voor voorraadwaardering, op voorwaarde d
 
 **Waarom?** Belgisch boekhoudrecht laat keuze tussen full en direct, mits transparantie in toelichting.
 
-**Voorbeeld**: Yperse Werkplaats BV vermeldt in de toelichting bij de jaarrekening: 'Voorraden gereed product worden gewaardeerd aan de directe vervaardigingskost (direct costing). Vaste indirecte productiekosten worden in de periode waarin ze ontstaan als kost erkend.'
 
 _Grondslag: CBN 2012/15_
 
@@ -56,7 +54,6 @@ Bij groei (productie > verkoop, voorraad stijgt): direct costing rapporteert lag
 
 **Waarom?** Direct costing dwingt management om vaste kosten elk jaar te verantwoorden in de RR.
 
-**Voorbeeld**: Yperse Werkplaats BV in groeijaar: productie 12.000 tapijten, verkoop 10.000. Vaste indirecte productiekost € 800.000. Bij full costing: € 800.000 / 12.000 = € 66,67/stuk; verkocht: 10.000 × € 66,67 = € 666.700 in COGS; voorraad neemt € 133.300 vaste kost mee. Bij direct costing: volledige € 800.000 in RR; voorraad-impact: nul.
 
 
 
@@ -87,6 +84,9 @@ Bij groei (productie > verkoop, voorraad stijgt): direct costing rapporteert lag
 ## Zie ook
 
 - **Vereist kennis van**: [[contributiemarge]]
+
+> [!todo] Voorbeeld ontbreekt voor dit concept
+> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

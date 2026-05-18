@@ -41,7 +41,6 @@
       "titel": "Niet absoluut — relatief",
       "wat": "Een bedrag van € 50.000 is materieel voor Meubelzaak Mertens BV (jaaromzet € 2.000.000) maar verwaarloosbaar voor Rotex Roeselare NV (omzet € 50.000.000).",
       "waarom": "Hetzelfde bedrag heeft andere impact op andere ondernemingen. Materialiteit hangt af van schaal én aard.",
-      "voorbeeld_inline": "Voor Rotex: een fout van € 50.000 op een omzet van € 50.000.000 = 0,1 % — niet materieel. Voor Meubelzaak Mertens BV: 2,5 % — wel materieel.",
       "grondslag": "Richtlijn 2013/34/EU art. 2, 16)",
       "confidence": "grounded",
       "source": {
@@ -56,13 +55,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Voor Rotex: een fout van € 50.000 op een omzet van € 50.000.000 = 0,1 % — niet materieel. Voor Meubelzaak Mertens BV: 2,5 % — wel materieel."
+        }
+      ]
     },
     {
       "titel": "Context bepaalt — gelijkaardige posten samen",
       "wat": "Posten van te verwaarlozen betekenis kunnen samen toch materieel zijn als ze zich opstapelen. Beoordeel in context van andere gelijkaardige posten.",
       "waarom": "Anders kan een onderneming verschillende kleine afwijkingen camoufleren onder de materialiteitsdrempel.",
-      "voorbeeld_inline": "Tien afzonderlijke voorraad-correcties van elk € 8.000 (= € 80.000 totaal) op Meubelzaak Mertens BV worden in samenhang beoordeeld — niet apart.",
       "grondslag": "Richtlijn 2013/34/EU art. 2, 16)",
       "confidence": "grounded",
       "source": {
@@ -77,7 +81,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Tien afzonderlijke voorraad-correcties van elk € 8.000 (= € 80.000 totaal) op Meubelzaak Mertens BV worden in samenhang beoordeeld — niet apart."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -134,5 +144,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

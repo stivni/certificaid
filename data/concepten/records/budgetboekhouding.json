@@ -36,21 +36,31 @@
       "titel": "Budgetinschrijving",
       "wat": "Bij budgetgoedkeuring (december) wordt het volledige jaarbudget per kostencentrum in klasse 9 ingeboekt. Maandelijks wordt 1/12 vrijgegeven of pro-rata afgeschreven naar het maand-budget.",
       "waarom": "Maakt vergelijking op elk moment in het jaar mogelijk.",
-      "voorbeeld_inline": "Yperse Werkplaats BV boekt eind december 20X1 het Confectie-jaarbudget van € 950.000 op rekening 9030 'Budget Confectie 20X2'. Elke maand wordt € 79.167 'verbruikt' bij realisatie-boeking.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV boekt eind december 20X1 het Confectie-jaarbudget van € 950.000 op rekening 9030 'Budget Confectie 20X2'. Elke maand wordt € 79.167 'verbruikt' bij realisatie-boeking."
+        }
+      ]
     },
     {
       "titel": "Aansluiting met realisatie",
       "wat": "Wanneer de werkelijke kost wordt geboekt (klasse 6 + klasse 9 op kostencentrum), wordt het budget-saldo verminderd. Verschil tussen budget-saldo en realisatie = verschillenrekening (klasse 98).",
       "waarom": "Automatische verschillen-detectie zonder maandelijkse handmatige berekening.",
-      "voorbeeld_inline": "Yperse Confectie maart 20X2: budget € 79.167, realisatie € 92.000. Verschil € 12.833 ongunstig op rekening 9810 'Verschil Confectie'. Splitsing naar prijs/hoeveelheid gebeurt apart.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Confectie maart 20X2: budget € 79.167, realisatie € 92.000. Verschil € 12.833 ongunstig op rekening 9810 'Verschil Confectie'. Splitsing naar prijs/hoeveelheid gebeurt apart."
+        }
+      ]
     }
   ],
   "edges": [
@@ -73,5 +83,5 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

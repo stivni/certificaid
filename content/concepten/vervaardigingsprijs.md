@@ -36,7 +36,6 @@ _Bron: CBN 132/7 §2.1 jo. CBN 2012/15 jo. KB 21.10.2018 art. 22_
 
 **Waarom?** Wettelijke ondergrens voor voorraadwaardering; mag niet onder de werkelijke (a)+(b) liggen.
 
-**Voorbeeld**: Yperse Werkplaats BV produceert een partij tapijten. (a) Wol verwerkt: € 12.000. (b) Directe arbeid naaisters: € 4.500. (c) Indirecte productiekosten verdeeld (huur + energie weverij × 8 % van jaarcapaciteit): € 3.500. Vervaardigingsprijs partij = € 20.000.
 
 _Grondslag: KB 21.10.2018 art. 22 · CBN 132/7 §2.1_
 
@@ -46,7 +45,6 @@ Full costing = alle indirecte productiekosten opnemen in (c). Direct costing = (
 
 **Waarom?** Keuze met grote impact op voorraadwaardering, periodieke winst en stuurinformatie. Belastingadministratie aanvaardt direct costing mits consistent toegepast en in waarderingsregels opgenomen.
 
-**Voorbeeld**: Yperse Werkplaats BV slaat de partij tapijten op in voorraad. Bij full costing: voorraadwaarde € 20.000 (inclusief € 3.500 indirect). Bij direct costing: voorraadwaarde € 16.500 (zonder indirect); de € 3.500 is meteen periode-kost in de RR.
 
 _Grondslag: CBN 2012/15_
 
@@ -56,7 +54,6 @@ Algemene administratie-, financiële, commerciële en distributiekosten worden N
 
 **Waarom?** Voorkomt dat de voorraad onterecht opgeblazen wordt met kosten die niet aan het maken-van-het-product gelinkt zijn.
 
-**Voorbeeld**: Het loon van een verkoper bij Yperse Werkplaats BV (€ 65.000/jaar inclusief lasten) gaat NIET in de vervaardigingsprijs van de tapijten; het is meteen periode-kost. Idem voor accountantshonoraria en commerciële advertenties.
 
 _Grondslag: CBN 132/7 §2.1_
 

@@ -68,7 +68,6 @@
       "titel": "Standaardregel: voortzetting verondersteld",
       "wat": "Tenzij anders blijkt, wordt de jaarrekening opgemaakt alsof de onderneming nog jaren actief zal blijven. Activa worden gewaardeerd in functie van hun gebruik in de bedrijfsvoering, niet in functie van een potentiële verkoop.",
       "waarom": "Een onderneming-in-werking heeft economisch nut uit haar activa over de tijd. Een liquidatiewaardering ('alles verkopen morgen') zou systematisch te laag uitkomen en het bedrijf onterecht als noodlijdend voorstellen.",
-      "voorbeeld_inline": "Het bedrijfspand van Rotex Roeselare NV (boekwaarde € 850.000, executiewaarde bij gedwongen verkoop € 620.000) blijft tegen € 850.000 op de balans staan zolang de NV actief is — going concern speelt door.",
       "grondslag": "Richtlijn 2013/34/EU art. 6, lid 1, a); KB 21/10/2018",
       "confidence": "grounded",
       "source": {
@@ -83,13 +82,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Het bedrijfspand van Rotex Roeselare NV (boekwaarde € 850.000, executiewaarde bij gedwongen verkoop € 620.000) blijft tegen € 850.000 op de balans staan zolang de NV actief is — going concern speelt door."
+        }
+      ]
     },
     {
       "titel": "Uitzondering: discontinuïteit",
       "wat": "Wanneer het bestuursorgaan vaststelt dat de onderneming niet meer levensvatbaar is (vereffeningsbesluit, structureel verlies, ontbinding), schakelt de waardering over op **discontinuïteitsregels**: activa naar liquidatiewaarde, voorzieningen voor stopzettingskosten (sluitingsvergoedingen, lopende contracten), reclassificatie van LT- naar KT-schulden.",
       "waarom": "Going concern berust op een feitelijke vooronderstelling. Als die wegvalt, mag de jaarrekening de werkelijkheid niet langer 'mooier' voorstellen dan ze is — gebruikers zouden anders misleid worden.",
-      "voorbeeld_inline": "Verffabriek Veurne BV heeft op 15 november 20X1 een vereffeningsbesluit. Bij afsluiting 31/12 worden de naaimachines van € 12.000 boekwaarde geherwaardeerd naar verwachte verkoopopbrengst € 4.500; een voorziening voor stopzettingskosten van € 35.000 wordt geboekt.",
       "grondslag": "CBN 2018/18; KB WVV art. 3:6",
       "confidence": "grounded",
       "source": {
@@ -104,13 +108,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Verffabriek Veurne BV heeft op 15 november 20X1 een vereffeningsbesluit. Bij afsluiting 31/12 worden de naaimachines van € 12.000 boekwaarde geherwaardeerd naar verwachte verkoopopbrengst € 4.500; een voorziening voor stopzettingskosten van € 35.000 wordt geboekt."
+        }
+      ]
     },
     {
       "titel": "Continuïteitsbeoordeling door bestuursorgaan",
       "wat": "Het bestuursorgaan beoordeelt jaarlijks bij afsluiting of de onderneming nog levensvatbaar is. Twijfels worden vermeld in het jaarverslag. Bij ernstige twijfel: discontinuïteitsregels toepassen.",
       "waarom": "De wettelijke 'going concern'-default mag geen excuus zijn om problemen te negeren. Het bestuursorgaan moet actief beoordelen — niet passief veronderstellen.",
-      "voorbeeld_inline": "Bestuurder Marleen De Cock van Brugse Brouwerij BV stelt eind 20X1 vast: de NV heeft 3 jaar verlies, eigen vermogen daalt onder de helft van het kapitaal (alarmprocedure WVV art. 7:228). Beoordeling: continuïteit nog mogelijk mits sanering → going concern, maar met toelichting in jaarverslag.",
       "grondslag": "CBN 2018/18 §verslaggeving",
       "confidence": "grounded",
       "source": {
@@ -125,7 +134,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bestuurder Marleen De Cock van Brugse Brouwerij BV stelt eind 20X1 vast: de NV heeft 3 jaar verlies, eigen vermogen daalt onder de helft van het kapitaal (alarmprocedure WVV art. 7:228). Beoordeling: continuïteit nog mogelijk mits sanering → going concern, maar met toelichting in jaarverslag."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -192,5 +207,5 @@
       "omschrijving": "Naaiatelier Ninove BV koopt een naaimachine voor € 24.000 met geschatte gebruiksduur van 6 jaar. Onder going concern: afschrijving € 4.000/jaar, restwaarde aan eind van jaar 3 op de balans = € 12.000. Bij stopzetting in jaar 3 (uitzondering): waardering naar liquidatiewaarde, bv. tweedehandsmarkt € 7.500 → bijkomende afschrijving € 4.500 in jaar 3."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

@@ -44,7 +44,6 @@
       "titel": "Componenten van de arbeidskost",
       "wat": "(1) Bruto-loon, (2) werkgeversbijdrage RSZ, (3) vakantiegeld en eindejaarspremie, (4) arbeidsongevallenverzekering, (5) maaltijdcheques en andere voordelen, (6) opleidings- en outplacementkosten. Sommige worden via provisie verdeeld over de maanden.",
       "waarom": "Volledig zicht op kost per uur of per stuk; vereist voor kostprijsberekening en make-or-buy-vergelijkingen.",
-      "voorbeeld_inline": "Yperse Werkplaats BV hanteert in haar analytische boekhouding een standaard arbeidskost van € 25/uur (afgerond, inclusief alle werkgeverslasten en gemiddelde productiviteit). Dit standaardtarief wordt aan elk order toegewezen op basis van de geregistreerde werkbon-uren.",
       "grondslag": "Wet 3 juli 1978 (arbeidsovereenkomsten) · WIB92 art. 30-31 (begrip bezoldiging)",
       "confidence": "grounded",
       "source": {
@@ -64,17 +63,28 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Yperse Werkplaats BV hanteert in haar analytische boekhouding een standaard arbeidskost van € 25/uur (afgerond, inclusief alle werkgeverslasten en gemiddelde productiviteit). Dit standaardtarief wordt aan elk order toegewezen op basis van de geregistreerde werkbon-uren."
+        }
+      ]
     },
     {
       "titel": "Directe vs. indirecte arbeid",
       "wat": "Directe arbeid = uren die rechtstreeks aan een specifiek order/product zijn besteed en op werkbon zijn geregistreerd. Indirecte arbeid = uren die meerdere orders ondersteunen (afdelingshoofd, onderhoud, kwaliteitscontrole) of niet-toewijsbare tijd (omsteltijd, wachttijd, opleidingstijd).",
       "waarom": "Beslist of de arbeidskost rechtstreeks in de kostprijs gaat of via overhead-sleutel.",
-      "voorbeeld_inline": "Bij Yperse Werkplaats BV registreren de naaisters elke ochtend via badge welk order ze starten — directe arbeid. Het loon van de productieleider Marleen De Cock (€ 6.000/maand inclusief lasten) wordt over alle Confectie-orders verdeeld via directe arbeidsuren als sleutel — indirecte arbeid.",
       "confidence": "inferred-common-knowledge",
       "_provenance": {
         "inputs": []
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Yperse Werkplaats BV registreren de naaisters elke ochtend via badge welk order ze starten — directe arbeid. Het loon van de productieleider Marleen De Cock (€ 6.000/maand inclusief lasten) wordt over alle Confectie-orders verdeeld via directe arbeidsuren als sleutel — indirecte arbeid."
+        }
+      ]
     }
   ],
   "in_praktijk": [
@@ -146,5 +156,5 @@
       "omschrijving": "Een naaister bij Yperse Werkplaats BV verdient bruto € 2.800/maand. Werkgeversbijdragen RSZ ± 27 % = € 756; voorzieningen vakantiegeld en eindejaarspremie ± € 420. Totale maandkost voor de werkgever ≈ € 3.976. Bij 152 uur/maand → arbeidskost per uur ± € 26."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }

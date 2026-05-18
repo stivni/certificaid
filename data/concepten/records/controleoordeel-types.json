@@ -51,7 +51,6 @@
       "titel": "Goedkeurend oordeel zonder voorbehoud",
       "wat": "De jaarrekening geeft in alle van materieel belang zijnde opzichten een getrouw beeld. Geen materiële afwijkingen, voldoende assurance-informatie.",
       "waarom": "De default-uitkomst als de audit niets materieels heeft gedetecteerd.",
-      "voorbeeld_inline": "Bij Rotex Roeselare NV vindt Sofie Janssens geen materiële afwijkingen → goedkeurend oordeel zonder voorbehoud.",
       "grondslag": "ITAA KMO-controlenorm §117",
       "confidence": "grounded",
       "source": {
@@ -66,13 +65,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij Rotex Roeselare NV vindt Sofie Janssens geen materiële afwijkingen → goedkeurend oordeel zonder voorbehoud."
+        }
+      ]
     },
     {
       "titel": "Oordeel met voorbehoud (qualified)",
       "wat": "(a) Er zijn materiële afwijkingen vastgesteld die echter geen diepgaande invloed hebben, OF (b) er kon geen voldoende assurance-informatie worden verkregen, maar de mogelijke effecten zijn niet diepgaand.",
       "waarom": "Tussenoordeel: er zijn problemen, maar niet zo erg dat de hele jaarrekening onbruikbaar wordt.",
-      "voorbeeld_inline": "Sofie Janssens stelt vast dat één deelneming van Rotex met € 250.000 te hoog gewaardeerd is — materieel maar geïsoleerd. Oordeel met voorbehoud: 'naar ons oordeel, behoudens de overwaardering van de deelneming X, geeft de jaarrekening een getrouw beeld'.",
       "grondslag": "ITAA KMO-controlenorm §119",
       "confidence": "grounded",
       "source": {
@@ -87,13 +91,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Sofie Janssens stelt vast dat één deelneming van Rotex met € 250.000 te hoog gewaardeerd is — materieel maar geïsoleerd. Oordeel met voorbehoud: 'naar ons oordeel, behoudens de overwaardering van de deelneming X, geeft de jaarrekening een getrouw beeld'."
+        }
+      ]
     },
     {
       "titel": "Afkeurend oordeel (adverse)",
       "wat": "Materiële afwijkingen MET diepgaande invloed: de jaarrekening geeft GEEN getrouw beeld.",
       "waarom": "Wanneer de afwijking zo erg is dat één paragraaf voorbehoud niet volstaat — een afzonderlijke afwijking benoemen zou misleiden.",
-      "voorbeeld_inline": "Sofie Janssens stelt vast dat Naaiatelier Ninove BV haar voorraden globaal en systematisch met € 1.200.000 heeft overgewaardeerd, wat de hele balans en het resultaat omslaat. Afkeurend oordeel.",
       "grondslag": "ITAA KMO-controlenorm §120",
       "confidence": "grounded",
       "source": {
@@ -108,13 +117,18 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Sofie Janssens stelt vast dat Naaiatelier Ninove BV haar voorraden globaal en systematisch met € 1.200.000 heeft overgewaardeerd, wat de hele balans en het resultaat omslaat. Afkeurend oordeel."
+        }
+      ]
     },
     {
       "titel": "Onthouding van oordeel (disclaimer)",
       "wat": "Onmogelijk om voldoende en geschikte assurance-informatie te verkrijgen, EN de mogelijke effecten kunnen diepgaand zijn. De auditor kan geen oordeel formuleren.",
       "waarom": "Bv. de cliënt weigert toegang tot kerndocumenten, of een scope-beperking maakt audit onmogelijk.",
-      "voorbeeld_inline": "Meubelzaak Mertens BV weigert de openingsbalans en de aankoopfacturen voor de eerste jaarhelft beschikbaar te stellen. Sofie Janssens kan de voorraadwaardering niet auditeren → onthouding van oordeel.",
       "grondslag": "ITAA KMO-controlenorm §118",
       "confidence": "grounded",
       "source": {
@@ -129,7 +143,13 @@
             "version": "rag-v1"
           }
         ]
-      }
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Meubelzaak Mertens BV weigert de openingsbalans en de aankoopfacturen voor de eerste jaarhelft beschikbaar te stellen. Sofie Janssens kan de voorraadwaardering niet auditeren → onthouding van oordeel."
+        }
+      ]
     }
   ],
   "vergelijkingstabel": "| Aard probleem | Niet-diepgaand | Diepgaand |\n|---|---|---|\n| Materiële afwijking aanwezig | Oordeel met voorbehoud | Afkeurend oordeel |\n| Geen voldoende assurance-informatie | Oordeel met voorbehoud | Onthouding van oordeel |\n| Geen probleem | Goedkeurend oordeel zonder voorbehoud | — |",
@@ -145,5 +165,5 @@
       "redenering": "Drie van de vier types zijn 'aangepaste' oordelen."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
 }
