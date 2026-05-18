@@ -4,7 +4,7 @@ _Centrale inhoudsopgave van openstaand werk, geordend per afhankelijkheid._
 _Voor de gedetailleerde issues: zie de gelinkte bronbestanden — dit document
 houdt het overzicht, geen content-duplicatie._
 
-**Laatste update**: 2026-05-18 (na schema 1.5-rollout + EXTRACT v4-pilots op PO 1.5)
+**Laatste update**: 2026-05-18 (laat — Fase 6 leermateriaal-laag volledig af, schema 1.6, sub_vragen-splitter)
 
 ## Logica van de volgorde
 
@@ -19,7 +19,7 @@ houdt het overzicht, geen content-duplicatie._
    ↓
 5. Andere PO's uitrollen (3.0, 4.0, 2.x)                         [pending]
    ↓
-6. Render-laag-revisie (ADR-010): minicursus als primair         [pending]
+6. Render-laag-revisie (ADR-010): minicursus als primair         [klaar]
 ```
 
 ---
@@ -78,7 +78,16 @@ Status 2026-05-18:
 
 ### 3.4 — Daarna PO 1.6 t/m 1.9
 
-Idem strategie. Special case voor PO 1.6: `randvoorwaarden-controle` (huidig `voorgesteld:randvoorwaarden`) moet beslist worden — bouwsteen van `aanvaarden-audit-opdracht`-competentie of zelfstandige regel?
+Wave-strategie per PO, gestuurd door anchor-count (zie ADR-008 §18.7):
+
+| PO | Anchors | Aanpak |
+|---|---|---|
+| 1.6 | 20 | Wave 1 top-level (I, II, III, IV, taak.1) + parent-batched wave 2 (per parent één agent voor alle sub-anchors) |
+| 1.7 | tbd | < 10 anchors → één agent of parent-batched |
+| 1.8 | tbd | klein → één agent voor hele PO |
+| 1.9 | tbd | klein → één agent voor hele PO |
+
+Centraal-first blijft de regel: top-level vóór sub-anchors. Status PO 1.6 (2026-05-18): wave 1 compleet (I, II, III, IV, taak.1), wave 2 sub-anchors lopend (1.6.I.A klaar; parent-batched voor de rest).
 
 ### 3.4b — Examenvragen-classificatie uitbreiden (BLOKKEERT VERIFY Check A)
 
@@ -139,66 +148,35 @@ Vereist Fase 4.2 (8 fiscale gidsen). Volgorde binnen 2.x: nog te bepalen.
 
 ---
 
-## Fase 6 — Leermateriaal-laag als interpretatieve laag (ADR-010 §2026-05-18)
+## Fase 6 — Leermateriaal-laag als interpretatieve laag (✅ volledig af — 2026-05-18)
 
-Ontwerp vastgelegd 2026-05-18 (ADR-007 schema 1.6 + ADR-009 §6 + ADR-010 §interpretatieve-laag). Code-werk niet gestart. Heuristiek: concept-laag = samen-aanpassen-met-regel; leermateriaal-laag = per leerpad interpretatief.
+Ontwerp vastgelegd én code-werk uitgevoerd in één werkdag. Heuristiek: concept-laag = samen-aanpassen-met-regel; leermateriaal-laag = per leerpad interpretatief.
 
-### 6.0 — `docs/studiemateriaal-schrijfregels.md` schrijven (§6.3, voorwaarde voor de rest)
-Apart document analoog aan `docs/concept-schrijfregels.md`. Scope: parafrase-grens, wikilink-discipline, voice/stem, doorlink-conventies, examenrubriek-vorm, synthese-inbedding, compactheidscontract, anti-fabricatie-grens, niveau-toelichtingen (per kennen/begrijpen/toepassen/integratie één-zin-uitleg voor oriëntatie-sectie). Volledige scope in ADR-010 §studiemateriaal-schrijfregels. **Vereist vóór** glue v3 + code-aanpassingen.
+| Sub-taak | Status | Commit |
+|---|---|---|
+| §6.0 `docs/studiemateriaal-schrijfregels.md` | ✅ | andere sessie (`7a6938f2`) |
+| §6.1 bidirectionele edge-render | ✅ | `00c90162` |
+| §6.2 situering-render + synthese-skip | ✅ | `28973997` + Quartz-fix `5f8fe13e` |
+| §6.3 minicursus-glue-v3 + synthese-inbedding | ✅ | `ae3ffe5f` |
+| §6.4 examenfocus-rubriek (één lijst + bootstrap-data) | ✅ | `01ada764` (v2) |
+| §6.5 examenprogramma sturend (taak-binding) | ✅ | `b2f4a4ad` |
+| §6.6 pilot PO 1.5 + validator | ✅ | `8a45a08a` |
+| §6.7 diff-changelog | ✅ | `ef34f941` (badges → Quartz native lastmod in `5f8fe13e`) |
 
-**Open punt — hoe sturend?** Niveau-werkwoorden ("toepassen", "integreren") moeten doorklinken in glue-stem voor toepassen-/integratie-PO's, maar concrete stijl-richtlijn (één-zin in intro vs. expliciete framing vs. impliciet weefsel) is nog niet vastgelegd. Te beslissen tijdens schrijven §6.3.
+**Plus extra in deze sessie**:
+- `tools/examen/_vraagtekst_normalisatie.py` (commit `7843fb1f`) — PDF-extract opkuisen aan bron
+- `tools/examen/_sub_vragen_splitter.py` (commit `9408a56d`) — sub_vragen[] per j/f-set / MC / open
+- `tools/examen/genereer_examenfocus_uit_classificatie.py` — bootstrap-generator
+- Glue v3-vulling PO 1.5 (commits `52f15740` + `dbce6ab5`) — eerste live-test
+- `belgisch-gaap` + `ifrs` begrip-records + synthese-stub `ifrs-16-lessee-vs-lessor-overzicht` (commit `1adeccdb`)
+- Leerpad 1.5.yaml schoongemaakt (9 dangling refs vervangen)
+- Quartz `Component.ArticleTitle()` hersteld (commit `93c941f3`)
 
-### 6.1 — Bidirectionele edge-render (pre-render index-pass)
-Omkerings-labels per edge-type (ADR-010 §bidirectionele-edge-render). 6/7 edges renderen bidirectioneel, `verwijst-naar` opt-out. Centrale config in nieuw bestand `tools/leermateriaal/lib/edge_render_config.py`. Templates concept-fiche + competentie-fiche aanpassen. Inverse-edges gegroepeerd renderen (één callout per type, niet per inkomende edge).
+### Follow-up (geen blockers, in te plannen)
 
-### 6.2 — Concept-fiche schema-1.6-fy + synthese-skip
-- `render_concept_fiche.py`: situering-paragraph bovenaan boven TL;DR (ADR-007 schema 1.6).
-- `render_concept_fiche.py`: skip records met `node_type == "synthese"` — geen losse fiche meer.
-- Content-sync (ADR-019) verwijdert bestaande gerenderde synthese-fiches in volgende run.
-- Templates voor schema 1.5-velden (`in_praktijk[]`, `voorbeelden[]`, `illustraties[]`) afronden — drie concretiserings-velden multi-niveau plaatsing (record-top + bouwsteen + berekeningsmethode + per-stap inline).
-
-### 6.3 — Minicursus als interpretatieve laag (glue v3 + synthese-inbedding)
-- `prompts/minicursus-glue-v3.md` schrijven: parafrase-met-bronlink-regels (ADR-010 §implicatie-3). Vervangt `prompts/minicursus-glue-v2.md`.
-- Validator: paragraaf-zonder-wikilink mag geen feitelijke claim bevatten — fail build bij overtreding.
-- `render_minicursus.py`: nieuw hoofdstuk-type `synthese` of `thematisch.synthese_id`-binding voor inline synthese-render (vergelijkingstabel + mermaid-beslisboom).
-- Leerpad-YAML-schema bumpen indien nodig om synthese-binding mogelijk te maken.
-
-### 6.4 — Examenfocus-eind-rubriek (ADR-009 §6)
-- `render_minicursus.py`: eind-rubriek "Examenfocus" als laatste H2 vóór "Verder lezen".
-- `> [!question]-` callouts, twee subkoppen (echte ITAA-vragen ⚖️ vs. synthetische varianten 🤖).
-- Back-reference run-time: scan `data/exam_focus/*.json` voor `concept_ids` ⊆ records van PO X.
-- `voorbeeldvraag--*.json` schema-veld `voorbeeld_oplossing` verplicht maken (ADR-009 §6).
-
-### 6.5 — Examenprogramma sturend in minicursus (ADR-010 §implicatie-5)
-- Nieuw `tools/leermateriaal/lib/taak_binding.py`: `resolve_taken(hoofdstuk, programma_json) → set[taak_code]`. Ketting: hoofdstuk → records → `linked_anchors` → anchor_id → taak (direct of via kenniselement → doelstelling).
-- `render_minicursus.py`: vroege oriëntatie-sectie "Wat verwacht het examen van jou?" — niveau-callout + taken-lijst (compact). Niveau-toelichtingen uit §6.0 schrijfregels.
-- `render_minicursus.py`: per inhoudelijke H2 taak-marker `> [!info]` met "Hoort bij taak X: …". Voorbereidings-hoofdstukken (leerpad-schema 1.1) krijgen `> [!note]` "Voorbereidende kennis — fundament voor de taken hierna."
-- `render_minicursus.py`: eind-dashboard "Heb je deze taken in de vingers?" vóór examenfocus-rubriek. Lijst alle taken met ✓/⚠/✗-indicator + secties-link of cross-PO-link.
-- Leerpad-schema 1.1: `voorbereiding`-hoofdstuk-type uitrollen — bestaande leerpaden waar zinvol promoveren (curator-werk per PO).
-- Validatie: hoofdstuk zonder taak-binding (en `type != voorbereiding`) → curator-warning. Taak zonder dekking in eind-dashboard → ✗ + warning. PO 100% voorbereiding → warning.
-- Glue-prompt v3 (§6.3): PO-niveau als input, werkwoorden in hoofdstuk-intro's moeten niveau respecteren (open richtlijn — zie §6.0).
-
-### 6.6 — Pilot-render PO 1.5 end-to-end (✅ gedaan 2026-05-18)
-
-**Bevindingen**: pilot-rapport `/tmp/pilot-po-1.5-rapport.md`. Render-laag (§6.1, §6.2, §6.3, §6.5) is **gezond** — geen functionele bugs op PO 1.5. Eén render-fix doorgevoerd (kerninzichten-bullets newlines). Validator-helper geleverd als `tools/leermateriaal/validate_minicursus.py` (herhaalbaar voor alle PO's).
-
-**Twee follow-up acties die volgen uit de pilot**:
-
-1. **Curator-pass §6.5-output op 7 minicursussen**. PO 1.1, 1.2, 1.3, 1.6, 1.7, 1.8, 1.9 hebben ingevulde glue maar geen oriëntatie-sectie / niveau-callout / taak-markers / eind-dashboard (glue werd ingevuld vóór §6.5 in de template landde). Per PO kiezen: A. forceer-rerender + glue v3 opnieuw vullen, of B. handmatige injectie van §6.5-blocks zonder glue te raken.
-2. **Data-issues doorgeven aan concept-extractie-sessie**:
-   - 17 dangling fiche-wikilinks over 4 PO's (zie validator-output of pilot-rapport voor lijst)
-   - 15 leerpad-refs ontbrekend in `leerpaden/1.5.yaml` (records hernoemd of opgegaan; al deels in TODO doorlopend onderhoud §"Bron-genaamde records")
-   - 1 mogelijke synthese aan te maken: `ifrs-16-lessee-vs-lessor-overzicht`
-
-**Notitie**: PO 1.4 en 1.5 glue is verloren door pilot --forceer-renders. Beide PO's wachten op nieuwe Opus-subagent-pass met glue-v3-prompt — perfect moment om v3 voor het eerst te valideren.
-
-### 6.7 — Diff-changelog vanaf v1.0 (ADR-010 §versionering-vervangen)
-- `tools/leermateriaal/build_changelog.py`: git-diff vs laatste publieke tag, filter content/concepten + competenties + studiemateriaal, classificeer inhoudelijk vs render-only, aggregeer per minicursus.
-- `content/changelog/index.md` + `content/changelog/<id>.md` per record. Chronologisch nieuwste eerst.
-- `render_*.py`: badge `> [!update] Bijgewerkt sinds v<tag>` op elke gewijzigde fiche, link naar `/changelog/<id>`.
-- User-triggered tagging — geen automatische tag bij commit. Zet v1.0-tag pas bij eerste publieke release.
-- Hangt aan: na §6.6 pilot (eerst content op orde, dan changelog erop bouwen). Niet blokkerend voor v1.0 — kan ook ná v1.0 als post-release feature.
-- Vervangt: `content/snapshots/<v>/`-append-only-pad uit ADR-010 §2 (gesuperseded).
+1. **Curator-pass §6.5-output op 7 minicursussen** (1.1, 1.2, 1.3, 1.6, 1.7, 1.8, 1.9). Die hebben ingevulde glue maar missen oriëntatie + taak-markers + dashboard (glue dateert van vóór §6.5 in template). Per PO kiezen: A. forceer-rerender + glue v3 opnieuw vullen, of B. handmatige injectie van §6.5-blocks zonder glue te raken. PO 1.4 wacht ook (glue verloren door pilot --forceer).
+2. **Tweede pilot op andere PO** (bv. 1.4 of 1.7) om de render-pipeline op een ander niveau-type te valideren.
+3. **v1.0-tag** wanneer PO 1.x volledig is — diff-changelog kan dan default werken zonder `--basis-tag`.
 
 ---
 
