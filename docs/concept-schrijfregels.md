@@ -65,17 +65,17 @@ Als je merkt dat je een procedure aan het beschrijven bent waar de student *iets
 
 ---
 
-## Granulariteit — de Goldilocks-zone
+## Granulariteit
 
-Voor een programmaonderdeel grosso modo **15–40 records**. Veel meer → gepulveriseerd. Veel minder → te grof.
+Geen vast aantal records per programmaonderdeel — de domein-regels bepalen het. We zien waar we landen.
 
-**Schaal-signalen**:
+**Schaal-signalen** (kwalitatief, geen telling):
 
-- **Te klein** (= "feature van iets groters"): wordt waarschijnlijk een bouwsteen of veld op een groter record, geen eigen record. Voorbeeld: "Specifieke analyse bij vermoeden" → veld `uitzonderingen[]` op het cluster `Meldingsplicht aan CFI`.
+- **Te klein** (= "feature van iets groters"): wordt een bouwsteen of veld op een groter record. Voorbeeld: "Specifieke analyse bij vermoeden" → veld `uitzonderingen[]` op het cluster `meldingsplicht-CFI`.
 - **Goldilocks**: krijgt eigen record. Voorbeeld: "Verbod op doormelding (tipping-off)".
-- **Te groot** (= "hele vakindeling"): krijgt geen record, alleen edges naar de onderliggende records. Voorbeeld: "Antiwitwasregime" — geen record, maar wel een **synthese** die de losse regels overstijgt.
+- **Te groot** (= "hele vakindeling"): krijgt geen record, alleen edges naar de onderliggende records. Voorbeeld: "Antiwitwasregime" — geen record, wel een **synthese** die de losse regels overstijgt.
 
-**Een begrip krijgt alleen een eigen record als het buiten één specifiek framework testbaar is.** Een balanspost die uitsluitend bestaat binnen één regulatorisch regime → bouwsteen van dat regime-cluster, geen eigen record. (`right-of-use-actief` ✓ omdat IAS 36 impairment + IFRS 5 disposal er óók op werken; `leaseverplichting-ifrs` ✗ omdat hij alleen onder IFRS 16 zin heeft.)
+**Een begrip krijgt alleen een eigen record als het buiten één specifiek framework testbaar is.** Een balanspost die uitsluitend bestaat binnen één regulatorisch regime → bouwsteen van dat regime-cluster. (`right-of-use-actief` ✓: ook IAS 36 impairment + IFRS 5 disposal werken erop; `leaseverplichting-ifrs` ✗: alleen onder IFRS 16 zin.)
 
 ---
 
@@ -172,8 +172,94 @@ Cross-record relaties als getypeerde edges, **niet** als hyperlink-prose in hoof
 
 ---
 
+## Concretiserings-inhoud — drie soorten, multi-niveau
+
+Een concept-record moet stagiair-leesbaar zijn. Daarvoor drie complementaire content-soorten — elk met eigen rol:
+
+| Soort | Vorm | Doel | Voorbeeld |
+|---|---|---|---|
+| **in_praktijk** | Plain-language uitleg | Vertaal de abstracte definitie naar stagiair-Nederlands. Geen case, geen cast. | *"Consolidatieverschil = de moeder heeft meer (of minder) betaald dan de dochter boekhoudkundig waard was."* |
+| **voorbeeld** | Narratief/scenario met cast | Concrete situatie die de concept demonstreert. Kan eenvoudig (één-zin) of een scenario met stappen zijn. | Scenario: *"Aurelia Holding koopt Zelena Bio voor 1.500 EUR. Eigen vermogen Zelena: 1.200 EUR. Stap 1: ..."* |
+| **illustratie** | Gestructureerd artefact | Boeking, balans, verslag, Mermaid-diagram — template-rendered | Een journal entry met debet/credit-rijen |
+
+### Multi-niveau placement
+
+Alle drie kunnen op verschillende niveaus voorkomen — niet alle niveaus verplicht, sparse fields norm:
+
+- **Record-niveau**: `in_praktijk[]`, `voorbeelden[]`, `illustraties[]`
+- **Per bouwsteen**: `in_praktijk[]`, `voorbeelden[]`, `illustraties[]` voor specifieke aspecten
+- **Per berekeningsmethode** (regel/cluster met getallen): `voorbeelden[]`, `illustraties[]` met ingevulde getallen
+- **Per competentie-stap**: `voorbeeld` (single, inline), `illustratie` (single, inline)
+- **Binnen een voorbeeld-scenario**: `illustraties[]` inline — de artefacten die uit het scenario volgen blijven dichtbij het verhaal
+
+### `in_praktijk` — lijstje of rich
+
+Twee toegestane vormen:
+
+```yaml
+# Eenvoudig lijstje (voor korte krachtige punten):
+in_praktijk: ["Wat het in stagiair-taal betekent.", "Wanneer kom je het tegen?", "Wat is de val?"]
+
+# Rich (voor aspect-gestructureerde uitleg):
+in_praktijk:
+  - aspect: "Wat is het concreet?"
+    betekenis: "De moederonderneming heeft meer betaald dan de dochter waard was."
+    confidence: "grounded"
+    source: {...}
+  - aspect: "Wanneer ontstaat het?"
+    betekenis: "Bij elke eerste consolidatie waar koopprijs ≠ aandeel in eigen vermogen."
+```
+
+Kies de vorm die het concept dient. Eenvoudig lijstje als geen aspect-structuur nodig is.
+
+### `voorbeelden` — eenvoudig of scenario
+
+```yaml
+# Eenvoudig (één concrete situatie):
+voorbeelden:
+  - vorm: "eenvoudig"
+    omschrijving: "Aurelia koopt 100% Zelena voor 1.500 EUR. Eigen vermogen Zelena: 1.200 EUR. → consolidatieverschil 300 EUR."
+    cast: ["Zelena Bio NV", "Aurelia Holding NV"]
+
+# Scenario (multi-staps narratief):
+voorbeelden:
+  - vorm: "scenario"
+    titel: "Overname Zelena Bio NV"
+    cast: ["Zelena Bio NV", "Aurelia Holding NV"]
+    omschrijving: "Aurelia koopt 100% van Zelena voor 1.500 EUR. Eigen vermogen Zelena bij overname: 1.200 EUR."
+    stappen:
+      - "1. Bereken consolidatieverschil: 1.500 - 1.200 = 300 EUR"
+      - "2. Boek het verschil als goodwill"
+      - "3. Bouw de geconsolideerde balans op"
+    illustraties:        # inline binnen het scenario
+      - type: "boeking"
+        titel: "Boeking eerste consolidatie"
+        rijen:
+          - {rekening: "211 — Goodwill", debet: 300, credit: null}
+          - {rekening: "230 — Deelneming Zelena", debet: 1200, credit: null}
+          - {rekening: "55 — Bank", debet: null, credit: 1500}
+```
+
+Illustraties **inline** binnen voorbeelden, niet als edge-references — een illustratie hoort bij zijn scenario.
+
+### `illustraties` — vier types
+
+| Type | Structuur | Render |
+|---|---|---|
+| `boeking` | `rijen[{rekening, debet, credit, omschrijving}]` + optioneel `context` | Tabel met kleurcode, debet=credit-validatie |
+| `balans-fragment` | `activa[]` + `passiva[]` of `posten[]` | Tweezijdige tabel, activa=passiva-validatie |
+| `verslag-fragment` | `tekst` (markdown) + `verslag_type` + `paragraaf` | Quote-blok met header |
+| `mermaid-diagram` | `code` (Mermaid-syntax) + `caption` | Direct embedded |
+
+Elke illustratie heeft ook `confidence`, optioneel `source`, optioneel `cast_used`. Validatie (debet=credit, activa=passiva) gebeurt bij render-tijd; falen genereert een waarschuwing.
+
+## Studiemateriaal-schrijfregels (apart, nog te schrijven)
+
+Dit document gaat over **records** (data-laag). Voor de **render-laag** (minicursussen, leerpaden, programmaonderdeel-fiches) komen aparte schrijfregels: didactisch narratief, cross-record-flow, leerpedagogiek. Niet hier. Zie ADR-010 revisie (gepland).
+
 ## Lengte
 
 - **Hoofdveld** (`definitie`, `main_rule`, `verplichting`, `doel`): ≤ 150 woorden per veld. Langer → splits in bouwstenen.
-- **`voorbeeld_inline`**: ≤ 80 woorden. Eén situatie, geen verhaal.
-- **Bouwsteen**: ≤ 100 woorden tekst per bouwsteen. Plus eventueel `bron_ref` en sub-velden.
+- **Voorbeeld omschrijving**: ≤ 80 woorden (eenvoudig); scenario mag langer maar elk stap-blok blijft compact.
+- **Bouwsteen tekst**: ≤ 100 woorden plus optioneel `voorbeelden`, `illustraties`, `bron_ref`.
+- **In_praktijk-item**: ≤ 40 woorden per item.

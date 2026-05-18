@@ -7,7 +7,8 @@
 
 ## Changelog
 
-- **2026-05-18** — Schema 1.5: node_type-taxonomie geconsolideerd van 11 → 6 (`begrip` · `regel` · `cluster` · `synthese` · `autoriteit` · `competentie`). `fenomeen` → `cluster`, `actor` → `autoriteit`, `skill` → `competentie`. `procedure`/`methode`/`afwegingskader`/`beginsel`/`drempel`/`casus` opgegaan in andere types. Bouwsteen-definitie expliciet gemaakt. Granulariteits-test verfijnd ("buiten één framework testbaar"). Edges-taxonomie van ~20 → 7 canonieke types. Nieuw patroon: regime-specialisatie via `specialisatie-van` met facet-veld `regime`. Concept en competentie wonen in hetzelfde format (records-API, ADR-019). Schrijfregels nu gecentraliseerd in [`docs/concept-schrijfregels.md`](../concept-schrijfregels.md) — `content-richtlijnen.md` is uitgefaseerd. Aanleiding: empirische analyse + gap-mining-rapport 2026-05-18 (5 systemic patterns) + EXTRACT v4-pilot op anchor 1.5.V.C. Migratie-mapping in §"Schema 1.5".
+- **2026-05-18** — Schema 1.5 (deel 2): concretiserings-inhoud uitgewerkt. Drie velden vervangen `voorbeeld_inline`: `in_praktijk[]` (lijstje of rich), `voorbeelden[]` (eenvoudig of scenario), `illustraties[]` (boeking / balans-fragment / verslag-fragment / mermaid-diagram). Multi-niveau-placement: record-top, bouwsteen, berekeningsmethode + inline per competentie-stap. Illustraties **inline** binnen voorbeeld-scenarios. Migratie `voorbeeld_inline` → `voorbeelden[{vorm: eenvoudig}]` bij elke natuurlijke EXTRACT-pass.
+- **2026-05-18** — Schema 1.5 (deel 1): node_type-taxonomie geconsolideerd van 11 → 6 (`begrip` · `regel` · `cluster` · `synthese` · `autoriteit` · `competentie`). `fenomeen` → `cluster`, `actor` → `autoriteit`, `skill` → `competentie`. `procedure`/`methode`/`afwegingskader`/`beginsel`/`drempel`/`casus` opgegaan in andere types. Bouwsteen-definitie expliciet gemaakt. Granulariteits-test verfijnd ("buiten één framework testbaar"). Edges-taxonomie van ~20 → 7 canonieke types. Nieuw patroon: regime-specialisatie via `specialisatie-van` met facet-veld `regime`. Concept en competentie wonen in hetzelfde format (records-API, ADR-019). Schrijfregels nu gecentraliseerd in [`docs/concept-schrijfregels.md`](../concept-schrijfregels.md) — `content-richtlijnen.md` is uitgefaseerd. Aanleiding: empirische analyse + gap-mining-rapport 2026-05-18 (5 systemic patterns) + EXTRACT v4-pilot op anchor 1.5.V.C. Migratie-mapping in §"Schema 1.5".
 
 - **2026-05-16 (1.4)** — Didactische verrijking gestructureerd in schema (geen render-trick). Vijf samenhangende uitbreidingen op basis van stagiair-bril-feedback ("te zwaar, te weinig praktisch, geen visualisatie, fictieve namen lastig"):
 
@@ -311,6 +312,31 @@ Domein-onafhankelijkheid + samenhang, niet examenvraag-frequentie:
 2. **Bestaat dit al onder een andere naam** in concept-RAG (semantische similarity op `definitie` + `bouwstenen.text`, niet alleen naam)? Zo ja → merge of synthese ipv duplicaat.
 
 Een **balanspost binnen één regulatorisch regime** is een bouwsteen van dat regime, geen eigen begrip. `right-of-use-actief` voldoet wél (IAS 36 + IFRS 5 erkennen het ook); `leaseverplichting-ifrs` niet (alleen onder IFRS 16 zin).
+
+### Concretiserings-inhoud (schema 1.5) — drie soorten, multi-niveau
+
+Drie complementaire content-velden vervangen het oude `voorbeeld_inline`:
+
+| Veld | Vorm | Plaatsen waar toegestaan |
+|---|---|---|
+| `in_praktijk[]` | Plain-language uitleg. **Twee vormen**: lijstje (`["X", "Y", "Z"]`) of rich (`[{aspect, betekenis, confidence, source}]`) | Record-top, bouwsteen |
+| `voorbeelden[]` | Concrete cases met cast. **Twee vormen**: eenvoudig (`{vorm: eenvoudig, omschrijving, cast?}`) of scenario (`{vorm: scenario, titel, omschrijving, stappen[], illustraties[]?}`) | Record-top, bouwsteen, berekeningsmethode |
+| `illustraties[]` | Gestructureerde artefacten — boeking, balans-fragment, verslag-fragment, mermaid-diagram | Record-top, bouwsteen, berekeningsmethode |
+
+Per competentie-stap: optioneel **inline** `voorbeeld` (single) en `illustratie` (single) — niet plural, want één stap = één concrete demonstratie.
+
+**Inline-principe voor illustraties binnen voorbeelden**: een illustratie binnen een voorbeeld-scenario wordt inline geserialiseerd, niet als edge-reference. Een illustratie hoort bij zijn scenario en zou duplicatie-arm zijn als hij echt op record-niveau hoort.
+
+**Illustratie-types startset**:
+
+- `boeking` — `rijen[{rekening, debet, credit, omschrijving?}]` + optioneel `context`, `datum`. Render valideert debet=credit.
+- `balans-fragment` — `activa[]` + `passiva[]` (of `posten[]` voor één-zijdig). Render valideert activa=passiva.
+- `verslag-fragment` — `tekst` (markdown) + `verslag_type` + `paragraaf_context`.
+- `mermaid-diagram` — `code` (Mermaid) + `caption`. First-class type ipv markdown-inline.
+
+Alle illustraties hebben `confidence`, optioneel `source`, optioneel `cast_used`.
+
+**Migratie `voorbeeld_inline` → `voorbeelden[]`**: bestaand schema 1.2-veld `voorbeeld_inline` (block met `text`) wordt bij EXTRACT-pass omgezet naar `voorbeelden: [{vorm: "eenvoudig", omschrijving: <text>, cast: [...], confidence, source}]`. Geen batch-migratie — bij elke natuurlijke EXTRACT-touch op een record. Tijdens overgang lezen agents beide vormen; nieuwe records schrijven enkel de nieuwe vorm.
 
 ### Regime-specialisatie — algemene cluster + specialisaties
 
