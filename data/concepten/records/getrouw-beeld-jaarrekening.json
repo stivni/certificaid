@@ -45,28 +45,6 @@
       ]
     }
   },
-  "doel": {
-    "text": "Externe gebruikers (aandeelhouders, kredietverleners, fiscus, werknemers) moeten op basis van de jaarrekening correcte beslissingen kunnen nemen. Het getrouwe beeld is geen detailregel maar het inhoudelijke richtsnoer waaraan alle waarderings- en presentatieregels worden afgemeten.",
-    "confidence": "inferred-from-aggregation",
-    "source": {
-      "type": "cbn",
-      "short": "CBN-2018/15 §4, CBN-2018/25 §inleiding"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "CBN-2018-15-boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen__sec_a-algemeen",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "CBN-2018-25-voorzieningen__sec_inleiding",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Vermogen, financiële positie en resultaat",
@@ -249,5 +227,28 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Externe gebruikers (aandeelhouders, kredietverleners, fiscus, werknemers) moeten op basis van de jaarrekening correcte beslissingen kunnen nemen. Het getrouwe beeld is geen detailregel maar het inhoudelijke richtsnoer waaraan alle waarderings- en presentatieregels worden afgemeten.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "cbn",
+      "short": "CBN-2018/15 §4, CBN-2018/25 §inleiding"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2018-15-boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen__sec_a-algemeen",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2018-25-voorzieningen__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

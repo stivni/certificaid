@@ -15,11 +15,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/aanvaarden-audit-opdracht.json
 gegenereerd_op: '2026-05-18'
 ---
 # Aanvaarden van een audit-opdracht en opmaken van de opdrachtbrief 🤖
+
+De aanvaardingsfase is de poortwachter van elke audit-opdracht: vóór een vinger aan het dossier ligt moet de accountant beslissen of hij de opdracht mag, kan en wil uitvoeren. Vijf checks: (1) randvoorwaarden door cliënt vervuld, (2) onafhankelijkheid bewezen, (3) eventuele voorganger schriftelijk gecontacteerd, (4) opdrachtbrief opgesteld en ondertekend, (5) kwaliteitsbeheersingsdossier geopend. Mis je één → opdracht weigeren of terugtrekken. De competentie speelt zowel bij contractuele opdrachten (KMO-controlenorm) als commissarismandaten (ISA 220 + ISA 210).
 
 
 ## Stappen
@@ -179,6 +181,14 @@ Wijs een opdrachtverantwoordelijke aan, beoordeel of een opdracht-kwaliteitsrevi
 
 **Grondslag**: [[kwaliteitsbeheersing-opdrachtniveau]] §aanvaarding, ITAA KMO-controlenorm §47
 
+
+## Zie ook
+
+- **Vereist kennis van**: [[opdrachtbrief-accountant]]
+- **Vereist kennis van**: [[randvoorwaarden-controle]]
+- **Vereist kennis van**: [[opvolging-voorganger-accountant]]
+- **Vereist kennis van**: [[onafhankelijkheid-externe-accountant]]
+- **Vereist kennis van**: [[kwaliteitsbeheersing-opdrachtniveau]]
 
 ## Voorbeelden
 

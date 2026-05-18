@@ -11,15 +11,19 @@
     "1.6.IV.B"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.I.A",
-    "dekt_ook_anchors": [
+    "linked_anchors": [
+      "1.6.I.A",
       "1.6.I.B",
       "1.6.I.C",
       "1.6.IV.B"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T16:05Z",
+    "last_extract_at": "2026-05-18T16:05:00Z"
   },
   "definitie": {
     "text": "Een wettelijke controleopdracht is een door of krachtens de wet aan de commissaris (bedrijfsrevisor) opgelegde audit van de jaarrekening van een vennootschap. Verplicht voor grote vennootschappen en Public Interest Entities. Levert een redelijke mate van zekerheid en eindigt op een commissarisverslag.",
@@ -125,5 +129,7 @@
       "omschrijving": "Rotex Roeselare NV is een grote NV (omzet € 35M, balanstotaal € 18M, 120 werknemers). De algemene vergadering benoemt Wolters & Partners CVBA als commissaris voor 3 boekjaren; Sofie Janssens (bedrijfsrevisor + IBR-lid) tekent als vaste vertegenwoordiger het commissarisverslag."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": "De wettelijke controleopdracht (commissariaat) is in België voorbehouden aan de bedrijfsrevisor: de GA mag dit NIET uitoefenen. Geldt voor grote vennootschappen (drempels WVV art. 1:24-1:26) en Public Interest Entities (beursgenoteerd, banken, verzekeraars). De commissaris werkt onder de ISA-standaarden + Wet 7 december 2016 (revisorenwet) en is onderworpen aan publiek toezicht door het College van Toezicht. Mandaat duurt drie boekjaren, hernieuwbaar.",
+  "naam_alternatief": "statutory audit / commissaris-mandaat"
 }

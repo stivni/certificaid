@@ -15,17 +15,6 @@
     "reviewed_by": null,
     "bron_gap": "ABC-methode is management-accounting-doctrine (Cooper-Kaplan jaren '80). Belgisch boekhoudrecht definieert het niet rechtstreeks. Stappen + cost-driver-concept zijn vakdoctrine, geen wettelijke basis."
   },
-  "doel": {
-    "text": "Activity Based Costing (ABC) verfijnt de kostentoewijzing door indirecte kosten niet via één algemene sleutel maar via meerdere activiteiten en cost drivers naar producten te verdelen. ABC herkent dat verschillende indirecte kosten verschillende oorzaken hebben (set-up versus productie-uren versus orderafhandeling) en wijst elke kost toe op basis van zijn eigen drijver. Resultaat: nauwkeuriger kostprijs, vooral voor producten met sterk verschillende complexiteit of seriegrootte.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Cooper-Kaplan ABC-methode (management accounting) — bron-gap"
-    },
-    "_provenance": {
-      "inputs": []
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Stap 1: identificeer activiteiten",
@@ -168,5 +157,17 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Activity Based Costing (ABC) verfijnt de kostentoewijzing door indirecte kosten niet via één algemene sleutel maar via meerdere activiteiten en cost drivers naar producten te verdelen. ABC herkent dat verschillende indirecte kosten verschillende oorzaken hebben (set-up versus productie-uren versus orderafhandeling) en wijst elke kost toe op basis van zijn eigen drijver. Resultaat: nauwkeuriger kostprijs, vooral voor producten met sterk verschillende complexiteit of seriegrootte.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Cooper-Kaplan ABC-methode (management accounting) — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

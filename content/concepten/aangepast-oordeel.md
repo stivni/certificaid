@@ -9,14 +9,16 @@ linked_anchors:
 - 1.6.IV.B
 programmaonderdelen:
 - '1.6'
-confidence: grounded
+confidence: inferred-from-aggregation
 node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/aangepast-oordeel.json
 gegenereerd_op: '2026-05-18'
 ---
-# Aangepast oordeel (modified opinion) ⚖️
+# Aangepast oordeel (modified opinion) 🤖
+
+Een aangepast (modified) oordeel is een verzamelterm voor de drie controleoordeel-types die afwijken van het standaard goedkeurende oordeel zonder voorbehoud: oordeel met voorbehoud, afkeurend oordeel, oordeelonthouding. De keuze tussen de drie wordt gestuurd door twee assen: (1) bron — afwijking in de financiële overzichten vs. scope-beperking; (2) intensiteit — materieel maar geïsoleerd vs. materieel én diepgaand. Bij elk aangepast oordeel hoort een ‘Basis voor het oordeel’-paragraaf vóór de oordeelsparagraaf in het controleverslag.
 
 > [!summary] Korte inhoud
 > Een aangepast oordeel is elk oordeel dat AFWIJKT van een goedkeurend oordeel zonder voorbehoud: een oordeel met voorbehoud, een afkeurend oordeel, of een onthouding van oordeel.
@@ -25,7 +27,7 @@ gegenereerd_op: '2026-05-18'
 
 Een aangepast oordeel is elk oordeel dat AFWIJKT van een goedkeurend oordeel zonder voorbehoud: een oordeel met voorbehoud, een afkeurend oordeel, of een onthouding van oordeel. De keuze hangt af van twee dimensies: bron van probleem (afwijking vs. scope-beperking) en intensiteit (niet-diepgaand vs. diepgaand).
 
-_Bron: ITAA KMO-controlenorm §118_
+_Bron: ISA 705 (herzien) §4 + ITAA KMO-controlenorm §118_
 
 
 ## In de praktijk
@@ -42,4 +44,6 @@ Bij Naaiatelier Ninove BV ontdekt Sofie Janssens dat de continuïteitsveronderst
 
 ## Bronnen
 
-[^1]: `ITAA-norm-kmo-controlenorm__sec_3-3-2-aangepast-oordeel`
+[^1]: `ISA-705-herzien__sec_doelstelling`
+[^2]: `ITAA-norm-kmo-controlenorm__sec_3-3-2-aangepast-oordeel`
+[^3]: `ISA-705-herzien__sec_vereisten_2_part2`

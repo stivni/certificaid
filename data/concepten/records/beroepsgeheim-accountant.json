@@ -9,13 +9,15 @@
     "1.6.III.E"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
     "model": "claude-opus-4-7",
-    "anchor_id": "1.6.I.B",
-    "dekt_ook_anchors": [
+    "anchor_id": "1.6.I",
+    "linked_anchors": [
+      "1.6.I.B",
       "1.6.III.E"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z"
   },
   "main_rule": {
     "text": "De externe accountant is gebonden door het beroepsgeheim (art. 458 Strafwetboek). Hij mag vertrouwelijke informatie niet vrijwillig delen — ook niet bij een verhoor door politieambtenaar of openbaar ministerie. Uitzonderingen: getuigenis in rechte voor een rechter, eigen verdediging in een tuchtprocedure of ereloon-betwisting, wettelijke meldingsplicht (antiwitwas).",
@@ -123,18 +125,13 @@
       }
     }
   ],
-  "edges": [
-    {
-      "type": "onderdeel-van",
-      "target": "plichtenleer-accountant",
-      "redenering": "Pijler van de deontologie."
-    }
-  ],
+  "edges": [],
   "voorbeelden": [
     {
       "vorm": "eenvoudig",
       "omschrijving": "Een politieambtenaar contacteert Sofie Janssens en vraagt naar de boekhouding van Meubelzaak Mertens BV in het kader van een fiscaal onderzoek. Sofie weigert vrijwillig te antwoorden — beroepsgeheim. Pas wanneer een onderzoeksrechter haar oproept, mag zij — en moet zij zelfs — verschijnen en de eed afleggen."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": "Het beroepsgeheim van de accountant is strafrechtelijk verankerd (art. 458 Sw.) en deontologisch uitgewerkt (KB plichtenleer + ITAA-deontologische gids). Het is een PLICHT (niet alleen een recht) om vertrouwelijke informatie van de cliënt niet vrijwillig prijs te geven. Drie scherpe uitzonderingen: getuigenis voor een rechter, eigen verdediging, en wettelijke meldingsplichten (CFI antiwitwas, DAC6). Cruciaal voor het vertrouwensmandaat tussen accountant en cliënt — en voor de bescherming van controledocumentatie."
 }

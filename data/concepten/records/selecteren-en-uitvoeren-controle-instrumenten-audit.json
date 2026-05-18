@@ -2,7 +2,7 @@
   "id": "selecteren-en-uitvoeren-controle-instrumenten-audit",
   "naam": "Selecteren en uitvoeren van controle-instrumenten (test of controls + gegevensgerichte werkzaamheden)",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Selecteren en uitvoeren van controle-instrumenten (test of controls + gegevensgerichte werkzaamheden)",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -180,12 +180,49 @@
     "voorgesteld_door": "competentie-destillatie-v2-po16-2026-05-17T08:00Z",
     "voorgesteld_op": "2026-05-17T08:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T14:35Z",
+    "last_extract_at": "2026-05-18T14:35:00Z"
   },
   "linked_anchors": [
     "1.6.taak.1",
     "1.6.II.C",
     "1.6.II"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": "De keuze tussen test-of-controls en gegevensgerichte werkzaamheden — én de passende mix — bepaalt of de audit doeltreffend én efficiënt is. Bij sterke interne controle leunt de accountant op systeemtoetsen aangevuld met beperkte data-controles; bij zwakke IC moet hij dieper substantief testen. De stagiair moet per beweringen-cluster de juiste instrumenten kiezen (cijferanalyses, steekproef, externe bevestiging, herberekening) en de verzamelde controle-informatie evalueren op voldoendheid en geschiktheid (ISA 500).",
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "gegevensgerichte-werkzaamheden"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "toetsing-interne-beheersing"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "cijferanalyses-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "externe-bevestiging-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "steekproef-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "schriftelijke-bevestiging-management"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "beweringen-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "assurance-informatie"
+    }
+  ]
 }

@@ -19,10 +19,10 @@ gegenereerd_op: '2026-05-18'
 ---
 # Assurance-informatie (controle-informatie) ⚖️
 
+Assurance-informatie (audit evidence) is de bouwstof waaruit het audit-oordeel wordt opgebouwd. Voldoende én geschikte assurance-informatie verkrijgen is dé permanente eis tijdens een controle-opdracht — geen voldoende informatie betekent een scope-beperking die leidt tot oordeel met voorbehoud of oordeelonthouding. Geschiktheid wordt beoordeeld op relevantie + betrouwbaarheid (externe > interne bron, schriftelijk > mondeling, eigen waarneming > bevestiging).
+
 > [!summary] Korte inhoud
 > Assurance-informatie (in ISA-jargon: audit evidence) is alle informatie die de beroepsbeoefenaar gebruikt om tot de conclusies te komen waarop hij zijn oordeel baseert.
-
-> [!info] Bestaat uit (4): [[externe-bevestiging-audit]] · [[gegevensgerichte-werkzaamheden]] · [[schriftelijke-bevestiging-management]] · [[toetsing-interne-beheersing]]
 
 Assurance-informatie (in ISA-jargon: audit evidence) is alle informatie die de beroepsbeoefenaar gebruikt om tot de conclusies te komen waarop hij zijn oordeel baseert. Hij moet voldoende EN geschikte assurance-informatie verkrijgen — voldoende verwijst naar de hoeveelheid; geschikt naar de relevantie en betrouwbaarheid.
 

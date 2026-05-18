@@ -1,6 +1,6 @@
 {
   "id": "auditstrategie",
-  "naam": "Auditstrategie (algehele strategie van de opdracht)",
+  "naam": "Auditstrategie",
   "node_type": "begrip",
   "schema_version": "1.5",
   "status": "seed",
@@ -9,13 +9,18 @@
     "1.6.III.A"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.III",
     "dekt_ook_anchors": [
       "1.6.III.A"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "edge_cleanup_v4": {
+      "op": "2026-05-18",
+      "reden": "deprecated 'bevat'-edge → onderdeel-van inverse op werkprogramma-audit; naam ontdaan van uitleg-parenthese"
+    }
   },
   "definitie": {
     "text": "De auditstrategie is het overkoepelende plan voor de hele opdracht: ze bepaalt de reikwijdte, het tijdschema en de omvang, en geeft richtlijnen voor het opstellen van het werkprogramma. De strategie weegt opdrachtkenmerken, doelstellingen, professionele oordeelsfactoren, ervaring uit eerdere opdrachten, en de aard/timing/omvang van de benodigde middelen.",
@@ -52,14 +57,27 @@
           }
         ]
       }
+    },
+    {
+      "aspect": "Inhoud volgens ISA 300 §8",
+      "betekenis": "Bij het vaststellen van de strategie identificeert de auditor (a) opdrachtkenmerken die de reikwijdte bepalen, (b) de rapportagedoelstellingen voor timing en communicatie, (c) factoren die op grond van professionele oordeelsvorming significant zijn voor het aansturen van het team, (d) uitkomsten van voorbereidende werkzaamheden + ervaring uit eerdere opdrachten, (e) aard/timing/omvang van benodigde middelen.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 300 §8"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-300__sec_doelstellingen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {
-      "type": "bevat",
-      "target": "werkprogramma-audit",
-      "redenering": "Werkprogramma is de operationele uitwerking van de strategie."
-    },
     {
       "type": "onderdeel-van",
       "target": "auditplanning",
@@ -72,5 +90,28 @@
       "omschrijving": "Voor Rotex Roeselare NV 2025 legt Sofie Janssens de auditstrategie vast in oktober: scope volledige jaarrekening + jaarverslag-consistentie + IFRS-toelichtingen, twee fases (interim december + eindfase februari), team van 5 personen (1 senior + 3 juniors + zijzelf), externe valuator voor goodwill-impairment, deadline verslag = 15 maart 2026."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "overall audit strategy / algehele controleaanpak",
+  "situering": {
+    "text": "Bij elke controleopdracht moet de auditor een algehele controleaanpak vaststellen (ISA 300 §7) — een planningsdocument op overall niveau dat de richting van de hele audit bepaalt. De strategie is het vertrekpunt waarop het concrete werkprogramma (controleprogramma) wordt gebouwd, en wordt aangepast wanneer nieuwe informatie of risico's tijdens de uitvoering opduiken (§10). Voor KMO-opdrachten geldt een analoog tweestappig planningsmodel onder de ITAA KMO-controlenorm (§71-§73).",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 300 §7 + ITAA KMO-controlenorm §71-§73"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-300__sec_doelstellingen",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-1-1-planning",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

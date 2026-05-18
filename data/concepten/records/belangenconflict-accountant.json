@@ -9,13 +9,15 @@
     "1.6.I.B"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
     "model": "claude-opus-4-7",
-    "anchor_id": "1.6.III.E",
-    "dekt_ook_anchors": [
+    "anchor_id": "1.6.I",
+    "linked_anchors": [
+      "1.6.III.E",
       "1.6.I.B"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z"
   },
   "main_rule": {
     "text": "Het is de externe accountant verboden om — rechtstreeks of onrechtstreeks — een opdracht, functie of mandaat te aanvaarden of voort te zetten wanneer de uitoefening daarvan hem in een positie van belangenconflict dreigt te plaatsen die zijn onafhankelijke oordeel in het gedrang kan brengen. Hij moet de cliënt onmiddellijk inlichten en maatregelen nemen om de belangen van de cliënt te vrijwaren.",
@@ -85,5 +87,6 @@
       "omschrijving": "Sofie Janssens controleert Meubelzaak Mertens BV. Halfweg de opdracht vraagt de zaakvoerder haar ook om een verkoop te bemiddelen tussen zijn vennootschap en een koper waarvoor zij ook fiscaal advies geeft. Belangenconflict → opdracht weigeren of zich terugtrekken uit één van beide rollen."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": "Belangenconflicten zijn de meest voorkomende bedreiging voor de onafhankelijkheid van de externe accountant. KB plichtenleer art. 11 verbiedt elke opdracht aanvaarden of voortzetten waar de uitoefening tot een conflict zou leiden. Typische triggers: dezelfde cliënt aan beide zijden van een transactie, familiale of financiële banden met de gecontroleerde, een eerder mandaat in de cliëntvennootschap. Geldt voor het hele kantoor — niet alleen voor de opdrachtpartner."
 }

@@ -18,17 +18,6 @@
     "reviewed_by": null,
     "bron_gap": "Break-even-analyse is management-accounting-doctrine. Belgisch boekhoudrecht definieert het concept niet rechtstreeks; geen trusted bron in de bundle."
   },
-  "doel": {
-    "text": "De break-even-analyse (kosten-volume-winst-analyse, CVP) berekent welke omzet of welk volume nodig is om alle vaste kosten te dekken — het punt waarop de onderneming geen verlies en geen winst maakt. Aan dat volume betekent elke extra eenheid winst; eronder wordt verlies geleden.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Management accounting — bron-gap"
-    },
-    "_provenance": {
-      "inputs": []
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Werking van het break-even-punt",
@@ -291,5 +280,17 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "De break-even-analyse (kosten-volume-winst-analyse, CVP) berekent welke omzet of welk volume nodig is om alle vaste kosten te dekken — het punt waarop de onderneming geen verlies en geen winst maakt. Aan dat volume betekent elke extra eenheid winst; eronder wordt verlies geleden.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

@@ -18,17 +18,6 @@
     "reviewed_by": null,
     "bron_gap": "Vakdoctrine — beslissingsraamwerk uit management accounting"
   },
-  "doel": {
-    "text": "De make-or-buy-analyse vergelijkt de kost van zelf produceren met de kost van uitbesteden, gericht op de relevante kosten (vermijdbare kosten bij uitbesteden vs. inkoopprijs + transactiekost). Sunk costs en niet-vermijdbare overhead doen niet ter zake.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Management accounting — bron-gap"
-    },
-    "_provenance": {
-      "inputs": []
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Relevante versus niet-relevante kosten",
@@ -85,5 +74,17 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "De make-or-buy-analyse vergelijkt de kost van zelf produceren met de kost van uitbesteden, gericht op de relevante kosten (vermijdbare kosten bij uitbesteden vs. inkoopprijs + transactiekost). Sunk costs en niet-vermijdbare overhead doen niet ter zake.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

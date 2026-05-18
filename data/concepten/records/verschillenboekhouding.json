@@ -20,17 +20,6 @@
     "reviewed_by": null,
     "bron_gap": "Vakdoctrine"
   },
-  "doel": {
-    "text": "Verschillenboekhouding (variance accounting) registreert systematisch het verschil tussen werkelijke kost en budget- of standaardkost, en splitst dat verschil in oorzaakcomponenten (prijsverschil, hoeveelheidverschil, mix-verschil, efficiëntieverschil). Doel: snel lokaliseren waar afwijkingen vandaan komen om gericht bij te sturen.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Management accounting — bron-gap"
-    },
-    "_provenance": {
-      "inputs": []
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Prijsverschil vs. hoeveelheidverschil",
@@ -186,5 +175,17 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": {
+    "text": "Verschillenboekhouding (variance accounting) registreert systematisch het verschil tussen werkelijke kost en budget- of standaardkost, en splitst dat verschil in oorzaakcomponenten (prijsverschil, hoeveelheidverschil, mix-verschil, efficiëntieverschil). Doel: snel lokaliseren waar afwijkingen vandaan komen om gericht bij te sturen.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

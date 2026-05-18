@@ -10,14 +10,21 @@
     "1.6.IV.B"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T14:31Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.IV.A",
     "dekt_ook_anchors": [
       "1.6.IV",
       "1.6.IV.B"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "situering_added_v4_at": "2026-05-18",
+    "edge_slug_fix_v4": {
+      "op": "2026-05-18",
+      "van": "regelmatig-jaarrekening",
+      "naar": "regelmatigheid-jaarrekening-audit"
+    }
   },
   "main_rule": {
     "text": "Het getrouw beeld is het centrale beoordelingscriterium van de auditor: hij toetst of de financiële overzichten — in alle van materieel belang zijnde opzichten — een getrouw beeld geven van het vermogen, de financiële toestand en het resultaat van de onderneming, overeenkomstig het van toepassing zijnde stelsel inzake financiële verslaggeving.",
@@ -92,8 +99,8 @@
     },
     {
       "type": "vergelijkt-met",
-      "target": "regelmatig-jaarrekening",
-      "redenering": "Audit toetst zowel getrouw beeld als regelmatigheid (twee verschillende dimensies)."
+      "target": "regelmatigheid-jaarrekening-audit",
+      "redenering": "Audit toetst zowel getrouw beeld (economische werkelijkheid) als regelmatigheid (formele wettelijke voorschriften)."
     }
   ],
   "voorbeelden": [
@@ -102,5 +109,28 @@
       "omschrijving": "Sofie Janssens controleert of de balans van Rotex Roeselare NV per 31 december 2025 een getrouw beeld geeft: zijn alle activa correct gewaardeerd, alle schulden volledig opgenomen, alle verbintenissen toegelicht, alle waarderingsregels consistent toegepast? Bij positief antwoord → goedkeurend oordeel."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Getrouw beeld is hét toetsingscriterium dat de externe accountant of revisor toepast op de jaarrekening. Het beoordelingscriterium leeft binnen het van toepassing zijnde stelsel inzake financiële verslaggeving (Belgisch jaarrekeningenrecht KB WVV, IFRS, of een stelsel voor bijzondere doeleinden) en wordt altijd gekoppeld aan de materialiteitsdrempel: enkel afwijkingen van materieel belang tasten het getrouw beeld aan. Zonder dit criterium kan de auditor geen oordeel formuleren.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 700 (herzien) §10-§13 + ITAA KMO-controlenorm §117"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-700-herzien__sec_vereisten_2_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "naam_alternatief": "true and fair view"
 }

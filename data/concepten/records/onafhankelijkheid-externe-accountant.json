@@ -10,14 +10,16 @@
     "1.6.taak.1"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
     "model": "claude-opus-4-7",
-    "anchor_id": "1.6.III.E",
-    "dekt_ook_anchors": [
+    "anchor_id": "1.6.I",
+    "linked_anchors": [
       "1.6.I.B",
+      "1.6.III.E",
       "1.6.taak.1"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z"
   },
   "main_rule": {
     "text": "De externe accountant moet een opdracht weigeren of stopzetten zodra hij invloeden, feiten of banden vaststelt die zijn onafhankelijkheid, wils- of beoordelingsvrijheid of onpartijdigheid kunnen aantasten. Onafhankelijkheid is een continue plicht, niet alleen bij aanvang van de opdracht.",
@@ -135,11 +137,6 @@
       "type": "vereist-kennis-van",
       "target": "belangenconflict-accountant",
       "redenering": "Belangenconflict is de meest voorkomende bedreiging van de onafhankelijkheid."
-    },
-    {
-      "type": "onderdeel-van",
-      "target": "plichtenleer-accountant",
-      "redenering": "Eén van de pijlers van de deontologie."
     }
   ],
   "voorbeelden": [
@@ -148,5 +145,6 @@
       "omschrijving": "Sofie Janssens treedt op als externe accountant van Meubelzaak Mertens BV. Halverwege het boekjaar stelt de zaakvoerder haar voor als bestuurder van een dochteronderneming. Conform KB plichtenleer art. 9 moet zij dit weigeren of de controleopdracht teruggeven — anders verliest zij haar onafhankelijkheid."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": "Onafhankelijkheid is de bestaansgrond van elke assurance-opdracht: zonder onafhankelijke beroepsbeoefenaar verliest het verslag zijn waarde voor derden. KB plichtenleer art. 9-13 en de IESBA-code definiëren wat onafhankelijkheid is, welke functies/relaties/financiële belangen ze in gevaar brengen, en welke cooling-off-perioden gelden. Geldt continu (niet alleen bij aanvang) en geldt voor het hele team — vennoten en medewerkers besmetten elkaar."
 }

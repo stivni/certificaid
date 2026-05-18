@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/selecteren-en-uitvoeren-controle-instrumenten-audit.json
 gegenereerd_op: '2026-05-18'
 ---
 # Selecteren en uitvoeren van controle-instrumenten (test of controls + gegevensgerichte werkzaamheden) 🤖
+
+De keuze tussen test-of-controls en gegevensgerichte werkzaamheden — én de passende mix — bepaalt of de audit doeltreffend én efficiënt is. Bij sterke interne controle leunt de accountant op systeemtoetsen aangevuld met beperkte data-controles; bij zwakke IC moet hij dieper substantief testen. De stagiair moet per beweringen-cluster de juiste instrumenten kiezen (cijferanalyses, steekproef, externe bevestiging, herberekening) en de verzamelde controle-informatie evalueren op voldoendheid en geschiktheid (ISA 500).
 
 
 ## Stappen
@@ -146,6 +148,17 @@ Verkrijg op het einde van de werkzaamheden een schriftelijke bevestiging van het
 
 **Grondslag**: [[schriftelijke-bevestiging-management]] §verplicht-element, ITAA KMO-controlenorm §119
 
+
+## Zie ook
+
+- **Vereist kennis van**: [[gegevensgerichte-werkzaamheden]]
+- **Vereist kennis van**: [[toetsing-interne-beheersing]]
+- **Vereist kennis van**: [[cijferanalyses-audit]]
+- **Vereist kennis van**: [[externe-bevestiging-audit]]
+- **Vereist kennis van**: [[steekproef-audit]]
+- **Vereist kennis van**: [[schriftelijke-bevestiging-management]]
+- **Vereist kennis van**: [[beweringen-audit]]
+- **Vereist kennis van**: [[assurance-informatie]]
 
 ## Voorbeelden
 

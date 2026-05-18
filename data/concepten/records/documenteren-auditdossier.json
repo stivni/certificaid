@@ -2,7 +2,7 @@
   "id": "documenteren-auditdossier",
   "naam": "Documenteren van de revisiewerkzaamheden in het auditdossier",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Documenteren van de revisiewerkzaamheden in het auditdossier",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -151,7 +151,9 @@
     "voorgesteld_door": "competentie-destillatie-v2-po16-2026-05-17T08:00Z",
     "voorgesteld_op": "2026-05-17T08:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T14:35Z",
+    "last_extract_at": "2026-05-18T14:35:00Z"
   },
   "linked_anchors": [
     "1.6.taak.1",
@@ -159,5 +161,24 @@
     "1.6.III.B",
     "1.6.III.D"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": "Het auditdossier is de schriftelijke neerslag van alle uitgevoerde werkzaamheden — van planningsmemo tot ondertekend verslag. Het moet zo opgesteld zijn dat een ervaren reviewer (ITAA-kwaliteitstoezicht, peer reviewer of rechter) achteraf kan reconstrueren wat is gedaan, welke afwegingen zijn gemaakt en hoe het oordeel tot stand kwam. Onvolledige documentatie ondermijnt de verdedigbaarheid van het oordeel en is een veelvoorkomende reden voor tuchtsanctie. De competentie is transversaal: ze loopt parallel met élke andere fase van de audit-cyclus.",
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "controledocumentatie"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "kwaliteitsbeheersing-opdrachtniveau"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "werkprogramma-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "assurance-informatie"
+    }
+  ]
 }

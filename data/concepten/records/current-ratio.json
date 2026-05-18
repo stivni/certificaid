@@ -20,23 +20,6 @@
     "reviewed_by": null,
     "bron_gap": "Geen Belgische trusted bron in de bundle voor de current-ratio-formule. Het is een standaard analyse-instrument uit financial-analysis-vakdoctrine. Confidence: inferred-common-knowledge."
   },
-  "doel": {
-    "text": "Meten of de vennootschap genoeg vlottende activa heeft tegenover haar schulden op ten hoogste een jaar. De current ratio is de breedst gebruikte liquiditeitsratio in ruime zin.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Algemene financial-analysis-doctrine"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "anchor-1.3.II.C",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Vlottende activa tegenover korte schulden",
@@ -294,5 +277,23 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Meten of de vennootschap genoeg vlottende activa heeft tegenover haar schulden op ten hoogste een jaar. De current ratio is de breedst gebruikte liquiditeitsratio in ruime zin.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Algemene financial-analysis-doctrine"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.II.C",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

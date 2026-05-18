@@ -20,13 +20,6 @@
     "reviewed_by": null,
     "bron_gap": "Functiescheiding als vier-functies-doctrine (autoriseren / uitvoeren / bewaren / registreren) is internationale audit-vakdoctrine. Geen specifiek Belgisch wetsartikel; ITAA-norm-kmo-controlenorm vermeldt IC-componenten generiek. Inferred-common-knowledge, met grondslag in COSO/ISA-context."
   },
-  "doel": {
-    "text": "Functiescheiding is het verdelen van vier kritische taken — autoriseren, uitvoeren, bewaren en registreren — over verschillende personen zodat geen enkele individu een transactie van begin tot einde kan controleren. Doel: fouten ontdekken door natuurlijke kruiscontrole en fraude bemoeilijken door samenspanning nodig te maken.",
-    "confidence": "inferred-common-knowledge",
-    "_provenance": {
-      "inputs": []
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Vier kritische functies",
@@ -135,5 +128,13 @@
       "omschrijving": "Bij Yperse Werkplaats BV is een aankoop verdeeld over vier personen: (1) inkoper Anna autoriseert de bestelling, (2) magazijnier Bart neemt goederen in ontvangst, (3) boekhouder Cindy registreert de factuur, (4) financieel verantwoordelijke David tekent de betaling. Als één van hen iets verdraait, ontdekt iemand anders het in zijn kruiscontrole. Fraude vereist samenspanning van minstens twee — exponentieel moeilijker."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Functiescheiding is het verdelen van vier kritische taken — autoriseren, uitvoeren, bewaren en registreren — over verschillende personen zodat geen enkele individu een transactie van begin tot einde kan controleren. Doel: fouten ontdekken door natuurlijke kruiscontrole en fraude bemoeilijken door samenspanning nodig te maken.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

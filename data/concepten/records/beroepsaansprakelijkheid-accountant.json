@@ -9,13 +9,17 @@
     "1.6.I.A"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
     "model": "claude-opus-4-7",
-    "anchor_id": "1.6.I.B",
-    "dekt_ook_anchors": [
+    "anchor_id": "1.6.I",
+    "linked_anchors": [
+      "1.6.I.B",
       "1.6.I.A"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T16:10Z",
+    "last_extract_at": "2026-05-18T16:10:00Z"
   },
   "main_rule": {
     "text": "De beroepsbeoefenaar is aansprakelijk volgens het gemeen recht voor de uitvoering van zijn opdrachten. Hij mag zich niet — zelfs niet gedeeltelijk — aan zijn aansprakelijkheid onttrekken bij (1) een fout met bedrieglijk opzet of oogmerk te schaden, en (2) bij wettelijke controleopdrachten van de commissaris of voorbehouden opdrachten. Hij moet zijn beroepsaansprakelijkheid verzekeren bij een verzekeraar erkend door het ITAA.",
@@ -87,22 +91,6 @@
       }
     }
   ],
-  "vergelijkingsparen": [
-    {
-      "vergelijking_met": "tuchtrechtelijke-aansprakelijkheid-accountant",
-      "verschil": "Civielrechtelijke aansprakelijkheid (gemeen recht, art. 44 Wet ITAA) = schadevergoeding aan de cliënt of derden. Tuchtrechtelijke aansprakelijkheid (KB plichtenleer + ITAA-tuchtinstanties) = sancties (waarschuwing, schrapping). Twee verschillende sporen, kunnen samen lopen.",
-      "trigger": "Examenvraag: vergoedt de accountant schade aan een partij (civiel) of krijgt hij een tuchtmaatregel (tucht)?",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "Wet-ITAA-2019__art_44",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
   "valkuilen": [
     {
       "text": "Een clausule in de opdrachtbrief die de aansprakelijkheid voor ALLE fouten uitsluit is nietig — beperking is enkel mogelijk voor lichte fouten, nooit voor opzet, en nooit voor wettelijk voorbehouden opdrachten.",
@@ -127,6 +115,14 @@
       "type": "vereist-kennis-van",
       "target": "opdrachtbrief-accountant",
       "redenering": "De opdrachtbrief is de plaats waar geldige aansprakelijkheidsbeperkingen worden afgesproken."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "tuchtrechtelijke-aansprakelijkheid-accountant",
+      "redenering": "Civielrechtelijke vs. tuchtrechtelijke aansprakelijkheid — verschillende sporen, gelijktijdig mogelijk.",
+      "facet": {
+        "aspect": "spoor"
+      }
     }
   ],
   "voorbeelden": [
@@ -135,5 +131,43 @@
       "omschrijving": "Wolters & Partners CVBA voert een contractuele controle uit bij Meubelzaak Mertens BV. De opdrachtbrief beperkt de aansprakelijkheid tot drie keer het ereloon. Geldig — maar enkel voor gewone fouten, niet voor bedrog. Bij een wettelijk voorbehouden opdracht (bv. inbreng in natura) zou zo'n beperkingsclausule nietig zijn."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "in_praktijk": [
+    {
+      "aspect": "Civielrechtelijk vs. tuchtrechtelijk: twee sporen",
+      "betekenis": "Civielrechtelijke aansprakelijkheid (gemeen recht, art. 44 Wet ITAA) = schadevergoeding aan de cliënt of derden. Tuchtrechtelijke aansprakelijkheid (KB plichtenleer + ITAA-tuchtinstanties) = sancties (waarschuwing, schrapping). Twee verschillende sporen, kunnen samen lopen.",
+      "confidence": "inferred-from-aggregation",
+      "source": {
+        "type": "wet",
+        "short": "Wet ITAA 2019 art. 44 + KB plichtenleer"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wet-ITAA-2019__art_44",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "situering": "De beroepsaansprakelijkheid van de accountant loopt op DRIE sporen: civiel (schadevergoeding aan cliënt of derden, gemeen recht), tuchtrechtelijk (sancties van ITAA-tuchtcommissie, schrapping mogelijk) en strafrechtelijk (zelden, bv. medeplichtigheid bij fraude). Wet ITAA 2019 art. 44 regelt het civielrechtelijk spoor: beperking is mogelijk in de opdrachtbrief, BEHALVE bij bedrog en bij wettelijk voorbehouden opdrachten. Verplichte verzekering BA is de eerste lijn van risicobeheersing — verzekeraar moet door het ITAA zijn erkend.",
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "tuchtrechtelijke-aansprakelijkheid-accountant",
+      "verschil": "Beroepsaansprakelijkheid (civiel) = schadevergoeding aan cliënt of derden, beperkbaar via opdrachtbrief behalve bij opzet of wettelijke opdrachten. Tuchtrechtelijke aansprakelijkheid = sancties van ITAA-tuchtcommissies (waarschuwing, schorsing, schrapping), NIET beperkbaar via opdrachtbrief.",
+      "trigger": "Examen-zin 'schadevergoeding' → civielrechtelijk (art. 44 Wet ITAA). 'Schorsing' / 'schrapping' → tuchtrechtelijk (ITAA-tuchtcommissie).",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wet-ITAA-2019__art_3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "naam_alternatief": "civielrechtelijke beroepsaansprakelijkheid (Wet ITAA 2019 art. 44)"
 }

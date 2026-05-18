@@ -18,23 +18,6 @@
     "reviewed_by": null,
     "bron_gap": "Concept 'eenvoudige integratie' is gedocumenteerd in CBN-advies 3/3 voor tijdelijke verenigingen (joint-venture-context). Voor analytische boekhouding in algemene zin geldt het als vakdoctrine-extrapolatie."
   },
-  "doel": {
-    "text": "Bij eenvoudige integratie neemt elke deelnemer of elke onderneming in eigen boekhouding rechtstreeks zijn aandeel in de kosten en opbrengsten op — zonder aparte 'tussen-boekhouding'. In analytische context betekent het: kosten en opbrengsten worden meteen aan de kostendrager toegerekend zonder extra registratielaag.",
-    "confidence": "grounded",
-    "source": {
-      "type": "cbn",
-      "short": "CBN-advies 3/3 — De eenvoudige integratie van kosten en opbrengsten (joint-venture-context, analoog gebruikt voor registratiesystemen)"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-eenvoudige-integratie-van-kosten-en-opbrengsten",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Werking",
@@ -103,5 +86,23 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": {
+    "text": "Bij eenvoudige integratie neemt elke deelnemer of elke onderneming in eigen boekhouding rechtstreeks zijn aandeel in de kosten en opbrengsten op — zonder aparte 'tussen-boekhouding'. In analytische context betekent het: kosten en opbrengsten worden meteen aan de kostendrager toegerekend zonder extra registratielaag.",
+    "confidence": "grounded",
+    "source": {
+      "type": "cbn",
+      "short": "CBN-advies 3/3 — De eenvoudige integratie van kosten en opbrengsten (joint-venture-context, analoog gebruikt voor registratiesystemen)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-eenvoudige-integratie-van-kosten-en-opbrengsten",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

@@ -2,7 +2,7 @@
   "id": "communiceren-met-bestuur-en-auditcomite",
   "naam": "Communiceren met audit-comité en bestuur over auditbevindingen",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Communiceren met audit-comité en bestuur over auditbevindingen",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -181,12 +181,37 @@
     "voorgesteld_door": "competentie-destillatie-v2-po16-2026-05-17T08:00Z",
     "voorgesteld_op": "2026-05-17T08:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T14:35Z",
+    "last_extract_at": "2026-05-18T14:35:00Z"
   },
   "linked_anchors": [
     "1.6.taak.1",
     "1.6.III.E",
     "1.6.IV.B"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": "Wettelijke en contractuele controles vereisen formele communicatie met de met governance belaste personen — niet alleen met het management. De accountant moet scope en risico's bij start melden, significante bevindingen tussentijds rapporteren en vóór ondertekening van het verslag oordeel en eventuele paragrafen bespreken. Bij OOB komt daar onafhankelijkheids-bevestiging aan het audit-comité bij (art. 7:99 WVV). Deze communicatie-stroom loopt parallel met de hele audit-cyclus en is determinerend voor de aanvaardbaarheid van het verslag — een aangepast oordeel zonder voorafgaande dialoog is een proces-fout.",
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "met-governance-belaste-personen"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "opdrachtbrief-accountant"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "kwaliteitsbeheersing-opdrachtniveau"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "controleverslag-elementen"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "onafhankelijkheid-externe-accountant"
+    }
+  ]
 }

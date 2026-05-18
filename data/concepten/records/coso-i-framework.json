@@ -18,13 +18,6 @@
     "reviewed_by": null,
     "bron_gap": "COSO I (1992, herziene versie 2013) — uitgegeven door Committee of Sponsoring Organizations of the Treadway Commission (privé sector US, niet wettelijk in België). Geen Belgische trusted bron. Inferred-common-knowledge."
   },
-  "doel": {
-    "text": "COSO I is het internationaal meest gebruikte referentiekader voor interne controle. Bevat een gestructureerde aanpak met drie doelstellingen (operationeel, rapportering, compliance), vijf componenten (controle-omgeving, risico-inschatting, beheersactiviteiten, informatie & communicatie, monitoring) en 17 onderliggende principes (sinds herziening 2013). Doel: hulpmiddel voor management en externe stakeholders om IC te ontwerpen en te beoordelen.",
-    "confidence": "inferred-common-knowledge",
-    "_provenance": {
-      "inputs": []
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Drie doelstellingen × vijf componenten × drie niveaus",
@@ -70,5 +63,13 @@
       "omschrijving": "Bij Rotex Roeselare NV gebruikt het auditcomité COSO 2013 als referentie voor self-assessment: jaarlijks scoort elke afdeling de 17 principes (volledig / deels / niet aanwezig). Resultaat: gap-analyse en actieplan voor 2026."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "COSO I is het internationaal meest gebruikte referentiekader voor interne controle. Bevat een gestructureerde aanpak met drie doelstellingen (operationeel, rapportering, compliance), vijf componenten (controle-omgeving, risico-inschatting, beheersactiviteiten, informatie & communicatie, monitoring) en 17 onderliggende principes (sinds herziening 2013). Doel: hulpmiddel voor management en externe stakeholders om IC te ontwerpen en te beoordelen.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

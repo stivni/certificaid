@@ -2,7 +2,7 @@
 title: Opdrachtbrief van de accountant
 tags:
 - concept
-- procedure
+- cluster
 - po-1-6
 linked_anchors:
 - 1.6.I.A
@@ -11,7 +11,7 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: procedure
+node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/opdrachtbrief-accountant.json
@@ -19,65 +19,78 @@ gegenereerd_op: '2026-05-18'
 ---
 # Opdrachtbrief van de accountant ⚖️
 
+De opdrachtbrief is in België verplicht voor elke contractuele opdracht van een gecertificeerd accountant. De ITAA-norm Opdrachtbrief (2020) en KB plichtenleer art. 17 leggen vast wat erin moet staan; Wet ITAA 2019 art. 44 bepaalt wanneer aansprakelijkheidsbeperking geldig is. De brief is geen formaliteit maar een werkinstrument: hij bepaalt scope, prijs en risico-allocatie.
+
 > [!summary] Korte inhoud
-> Voor elke contractuele opdracht stelt de externe accountant een opdrachtbrief op die de scope, de verantwoordelijkheden, het ereloon en de wederzijdse verplichtingen vastlegt vóór de uitvoering begint.
+> De opdrachtbrief is het schriftelijk contract tussen cliënt en beroepsbeoefenaar dat de scope, ereloon, wederzijdse verplichtingen, aansprakelijkheid en beroepsgeheim vastlegt.
 
-Voor elke contractuele opdracht stelt de externe accountant een opdrachtbrief op die de scope, de verantwoordelijkheden, het ereloon en de wederzijdse verplichtingen vastlegt vóór de uitvoering begint. De opdrachtbrief is het juridische kader van de opdracht en de hefboom voor aansprakelijkheidsbeperking en bewijslast.
+De opdrachtbrief is het schriftelijk contract tussen cliënt en beroepsbeoefenaar dat de scope, ereloon, wederzijdse verplichtingen, aansprakelijkheid en beroepsgeheim vastlegt. Voor elke contractuele opdracht verplicht — ondertekend vóór de uitvoering — en hét juridisch fundament voor zowel honoreringsdiscussies als aansprakelijkheidsbeperking.
 
-_Bron: ITAA-norm Opdrachtbrief_
+_Bron: ITAA-norm Opdrachtbrief §1_
 
 
-## Stappen
+## Bouwstenen
 
-### 1. Identificatie van partijen + opdracht
+### Identificatie van partijen + opdracht ⚖️
 
 Vermeld de gegevens van cliënt en beroepsbeoefenaar, de aard van de opdracht (samenstelling / fiscale aangifte / contractuele controle ...) en de begindatum.
 
-**🛠️ Hoe**:
 
-Gebruik een sjabloon: 'Tussen Meubelzaak Mertens BV en Wolters & Partners CVBA, vertegenwoordigd door Sofie Janssens, wordt overeengekomen dat Wolters & Partners volgende opdracht zal uitvoeren ...'.
 
-**Grondslag**: ITAA-norm Opdrachtbrief §2
+**In de praktijk**: Gebruik een sjabloon: 'Tussen Meubelzaak Mertens BV en Wolters & Partners CVBA, vertegenwoordigd door Sofie Janssens, wordt overeengekomen dat Wolters & Partners volgende opdracht zal uitvoeren ...'.
 
-### 2. Verplichtingen langs cliëntzijde vastleggen
+
+_Grondslag: ITAA-norm Opdrachtbrief §2_
+
+### Verplichtingen langs cliëntzijde vastleggen ⚖️
 
 Tijdige overhandiging van documenten, spontane melding van betalingsverzuim, samenwerking, toegang tot informatie. Cruciaal voor latere bewijslast bij vertraging.
 
-**🛠️ Hoe**:
 
-Voeg een clausule toe: 'de cliënt verbindt zich ertoe alle stukken binnen 30 dagen na boekjaarafsluiting ter beschikking te stellen, bij gebreke waarvan de uitvoeringstermijn wordt opgeschort'.
 
-**Grondslag**: ITAA-norm Opdrachtbrief §4
+**In de praktijk**: Voeg een clausule toe: 'de cliënt verbindt zich ertoe alle stukken binnen 30 dagen na boekjaarafsluiting ter beschikking te stellen, bij gebreke waarvan de uitvoeringstermijn wordt opgeschort'.
 
-### 3. Verplichtingen langs accountantzijde vastleggen
+
+_Grondslag: ITAA-norm Opdrachtbrief §4_
+
+### Verplichtingen langs accountantzijde vastleggen ⚖️
 
 Beroepsgeheim respecteren, wettelijke uitzonderingen (antiwitwas, DAC6), kwaliteitsvolle uitvoering, schriftelijke aantekening werkzaamheden.
 
-**🛠️ Hoe**:
 
-Voeg een clausule toe over beroepsgeheim en meldingsplichten onder antiwitwaswetgeving.
 
-**Grondslag**: ITAA-norm Opdrachtbrief §4
+**In de praktijk**: Voeg een clausule toe over beroepsgeheim en meldingsplichten onder antiwitwaswetgeving.
 
-### 4. Aansprakelijkheidsbeperking opnemen (waar toegelaten)
+
+_Grondslag: ITAA-norm Opdrachtbrief §4_
+
+### Aansprakelijkheidsbeperking opnemen (waar toegelaten) ⚖️
 
 Beperkingsclausule (bv. plafond drie keer ereloon) — niet bij bedrog, niet bij wettelijk voorbehouden opdrachten.
 
-**🛠️ Hoe**:
 
-Voorbeeldclausule: 'de aansprakelijkheid van de beroepsbeoefenaar is beperkt tot € 25.000, behoudens bedrieglijk opzet of oogmerk te schaden'.
 
-**Grondslag**: ITAA-norm Opdrachtbrief §5 + Wet ITAA 2019 art. 44
+**In de praktijk**: Voorbeeldclausule: 'de aansprakelijkheid van de beroepsbeoefenaar is beperkt tot € 25.000, behoudens bedrieglijk opzet of oogmerk te schaden'.
 
-### 5. Erelonen en betalingstermijnen
+
+_Grondslag: ITAA-norm Opdrachtbrief §5 + Wet ITAA 2019 art. 44_
+
+### Erelonen en betalingstermijnen ⚖️
 
 Eindbedrag, forfait of uurtarief, voorschotten, vervaltermijnen, gevolgen van niet-betaling.
 
-**🛠️ Hoe**:
 
-Splits standaardwerk (forfait) van bijkomend werk (uurtarief); zo geen discussie achteraf.
 
-**Grondslag**: ITAA-norm Opdrachtbrief §7
+**In de praktijk**: Splits standaardwerk (forfait) van bijkomend werk (uurtarief); zo geen discussie achteraf.
+
+
+_Grondslag: ITAA-norm Opdrachtbrief §7_
+
+
+> [!info]- Niet verwarren met [[wettelijke-controleopdracht-commissaris]]
+> Voor contractuele opdrachten = verplichte opdrachtbrief, ondertekend door beide partijen. Voor wettelijke controle (commissaris-mandaat) is er geen opdrachtbrief maar een benoemingsbesluit van de algemene vergadering — het mandaat krijgt zijn rechtsgrond uit de wet, niet uit een contract.
+>
+> _Trigger_: Examenvraag: 'wat regelt de relatie tussen accountant en cliënt?' → contractueel = opdrachtbrief, wettelijke controle = benoemingsbesluit AV.
 
 
 ## Valkuilen
@@ -98,8 +111,7 @@ Splits standaardwerk (forfait) van bijkomend werk (uurtarief); zo geen discussie
 ## Zie ook
 
 - **Vereist kennis van**: [[beroepsaansprakelijkheid-accountant]]
-- **Vereist kennis van**: [[antiwitwas-meldingsplicht]]
-- **Wordt voorondersteld in** (2): [[beroepsaansprakelijkheid-accountant]] · [[randvoorwaarden-controle]]
+
 ## Voorbeelden
 
 Wolters & Partners CVBA stelt voor Meubelzaak Mertens BV een opdrachtbrief op vóór de start van de jaarlijkse boekhoudkundige opdracht: scope (organisatie boekhouding + jaarrekening + fiscale aangifte), termijnen (jaarrekening klaar tegen 30 april), ereloon (€ 8.500 forfait + uurtarief boven scope), aansprakelijkheidsplafond (drie keer ereloon, niet bij bedrog).

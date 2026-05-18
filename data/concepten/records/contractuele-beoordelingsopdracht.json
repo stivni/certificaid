@@ -10,14 +10,18 @@
     "1.6.IV.C"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.I.A",
-    "dekt_ook_anchors": [
+    "linked_anchors": [
+      "1.6.I.A",
       "1.6.I.C",
       "1.6.IV.C"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T16:05Z",
+    "last_extract_at": "2026-05-18T16:05:00Z"
   },
   "definitie": {
     "text": "Een contractuele beoordelingsopdracht (ook 'review' of 'beperkt nazicht') is een assurance-opdracht waarbij de beroepsbeoefenaar een beperkte mate van zekerheid verschaft over de betrouwbaarheid van historische financiële informatie. Hij formuleert een conclusie in negatieve vorm: 'er zijn ons geen aanwijzingen gebleken dat ...'.",
@@ -104,6 +108,21 @@
       }
     }
   ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Een minderheidsaandeelhouder van Naaiatelier Ninove BV wil een gevoel krijgen of de jaarrekening 2025 klopt, maar betaalt liever niet voor een volledige audit. Sofie Janssens voert een beperkte controle uit (vooral cijferanalyses + bevragingen) en levert een beoordelingsverslag af: 'op basis van onze werkzaamheden zijn ons geen feiten gebleken die ons doen oordelen dat de jaarrekening geen getrouw beeld geeft'."
+    }
+  ],
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "Een contractuele beoordelingsopdracht (review) is een lichtere variant van de contractuele controle: minder werk, lager zekerheidsniveau, negatieve conclusie ('geen aanwijzingen gevonden dat...'). Past wanneer de cliënt enige geloofwaardigheid wil maar geen volledige audit wenst — bv. een tussentijdse cijferanalyse voor de bank. Onder de ITAA KMO-controlenorm hoofdstuk 4 en internationaal ISRE 2400.",
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "beperkte-mate-van-zekerheid",
+      "redenering": "Het kernverschil met controle zit in het lagere zekerheidsniveau."
+    }
+  ],
   "vergelijkingsparen": [
     {
       "vergelijking_met": "contractuele-controleopdracht",
@@ -120,7 +139,7 @@
       }
     },
     {
-      "vergelijking_met": "samenstellingsopdracht-isrs4410",
+      "vergelijking_met": "samenstellingsopdracht",
       "verschil": "Beoordeling = ASSURANCE-opdracht (zekerheidsverschaffing, hoewel beperkt). Samenstelling (ISRS 4410) = GEEN assurance — de beroepsbeoefenaar helpt enkel cijfers in financiële overzichten gieten, hij vormt geen oordeel. Bij samenstelling geen 'wij hebben geen aanwijzingen gevonden'-zin.",
       "trigger": "Geeft de beroepsbeoefenaar zekerheid (zelfs beperkt)? Ja → beoordeling. Nee, hij helpt enkel opstellen? → samenstelling.",
       "_provenance": {
@@ -134,23 +153,6 @@
       }
     }
   ],
-  "edges": [
-    {
-      "type": "specialisatie-van",
-      "target": "assurance-opdracht",
-      "redenering": "Beoordeling is een type assurance-opdracht met beperkt zekerheidsniveau."
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "beperkte-mate-van-zekerheid",
-      "redenering": "Het kernverschil met controle zit in het lagere zekerheidsniveau."
-    }
-  ],
-  "voorbeelden": [
-    {
-      "vorm": "eenvoudig",
-      "omschrijving": "Een minderheidsaandeelhouder van Naaiatelier Ninove BV wil een gevoel krijgen of de jaarrekening 2025 klopt, maar betaalt liever niet voor een volledige audit. Sofie Janssens voert een beperkte controle uit (vooral cijferanalyses + bevragingen) en levert een beoordelingsverslag af: 'op basis van onze werkzaamheden zijn ons geen feiten gebleken die ons doen oordelen dat de jaarrekening geen getrouw beeld geeft'."
-    }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "gebaseerd_op_concepten": [],
+  "naam_alternatief": "review engagement (ISRE 2400)"
 }

@@ -20,23 +20,6 @@
     "reviewed_by": null,
     "bron_gap": "Formule niet expliciet in bundle. Vakdoctrine, common knowledge in financiële analyse."
   },
-  "doel": {
-    "text": "Direct meten hoe groot de vreemde-vermogen-financiering is tegenover het eigen vermogen. Toont de hefboom: 1,5 betekent dat er € 1,50 vreemd vermogen tegenover elke € 1 eigen vermogen staat.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Algemene financial-analysis-doctrine"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "anchor-1.3.II.C",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Schulden totaal tegenover eigen vermogen",
@@ -263,5 +246,23 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Direct meten hoe groot de vreemde-vermogen-financiering is tegenover het eigen vermogen. Toont de hefboom: 1,5 betekent dat er € 1,50 vreemd vermogen tegenover elke € 1 eigen vermogen staat.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Algemene financial-analysis-doctrine"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.II.C",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

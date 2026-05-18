@@ -2,7 +2,7 @@
 title: Randvoorwaarden voor een controle (preconditions)
 tags:
 - concept
-- voorgesteld:randvoorwaarden
+- regel
 - po-1-6
 linked_anchors:
 - 1.6.I.A
@@ -10,7 +10,7 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: voorgesteld:randvoorwaarden
+node_type: regel
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/randvoorwaarden-controle.json
@@ -18,10 +18,12 @@ gegenereerd_op: '2026-05-18'
 ---
 # Randvoorwaarden voor een controle (preconditions) ⚖️
 
-> [!summary] Korte inhoud
-> Randvoorwaarden voor een controle zijn (1) het gebruik door het management of de met governance belaste personen van een AANVAARDBAAR stelsel inzake financiële verslaggeving, en (2) hun TOESTEMMING met de veronderstellingen op basis waarvan de controle wordt uitgevoerd.
+De randvoorwaarden (preconditions) zijn de minimale voorwaarden die ISA 210 en de ITAA KMO-controlenorm stellen aan elke audit-opdracht. Zonder aanvaardbaar verslaggevingsstelsel mist de auditor zijn referentiekader; zonder erkenning van de drie verantwoordelijkheden door het management is een controle niet uitvoerbaar. De preconditions worden geverifieerd vóór aanvaarding en blijven gelden gedurende de hele audit.
 
-Randvoorwaarden voor een controle zijn (1) het gebruik door het management of de met governance belaste personen van een AANVAARDBAAR stelsel inzake financiële verslaggeving, en (2) hun TOESTEMMING met de veronderstellingen op basis waarvan de controle wordt uitgevoerd. Zonder beide is een audit niet uitvoerbaar.
+> [!summary] Korte inhoud
+> Vóór de aanvaarding van een audit-opdracht (en vervolgens doorlopend) toetst de externe accountant of de randvoorwaarden voor een controle vervuld zijn: (1) het management of de met governance belaste personen gebruikt een aanvaardbaar stelsel inzake financiële verslaggeving, en….
+
+Vóór de aanvaarding van een audit-opdracht (en vervolgens doorlopend) toetst de externe accountant of de randvoorwaarden voor een controle vervuld zijn: (1) het management of de met governance belaste personen gebruikt een aanvaardbaar stelsel inzake financiële verslaggeving, en (2) zij erkennen en aanvaarden hun drie basisverantwoordelijkheden — voor de jaarrekening, voor de interne beheersing en voor het verschaffen van informatie en toegang. Wanneer één van beide ontbreekt, mag de auditor de opdracht niet aanvaarden of moet hij de scope materieel beperken.
 
 _Bron: ITAA KMO-controlenorm Bijlage 1_
 
@@ -37,6 +39,21 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 
 > [!tip]- Gevolg bij ontbreken
 > Wanneer de randvoorwaarden niet voldaan zijn (cliënt weigert verantwoordelijkheid te erkennen, gebruikt niet-aanvaardbaar stelsel) moet de auditor de opdracht weigeren of de scope materieel beperken. 🤖
+
+
+## Valkuilen
+
+> [!warning]- De drie verantwoordelijkheden van het management moeten SCHRIFTELIJK worden bevestigd vóór de aanvaarding — niet pas in de schriftelijke bev…
+> ⚠️ De drie verantwoordelijkheden van het management moeten SCHRIFTELIJK worden bevestigd vóór de aanvaarding — niet pas in de schriftelijke bevestiging op het einde van de audit. Mondelinge bevestiging volstaat niet. ⚖️
+>
+> _Bron: ITAA KMO-controlenorm Bijlage 1_
+
+
+> [!warning]- Het 'aanvaardbaar stelsel inzake financiële verslaggeving' is meestal evident (BE-GAAP, IFRS, vzw-stelsel) — maar bij niche-stelsels (specia…
+> ⚠️ Het 'aanvaardbaar stelsel inzake financiële verslaggeving' is meestal evident (BE-GAAP, IFRS, vzw-stelsel) — maar bij niche-stelsels (special purpose framework, bijzondere reportagewijze) moet de auditor expliciet beoordelen of het stelsel aanvaardbaar is. Niet elk stelsel dat de cliënt voorstelt is geldig. 🤖
+>
+> _Bron: ISA 210 §6, ITAA KMO-controlenorm Bijlage 1_
+
 
 
 ## Zie ook

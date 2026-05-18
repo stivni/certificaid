@@ -22,23 +22,6 @@
     "reviewed_by": null,
     "bron_gap": "Vakdoctrine."
   },
-  "doel": {
-    "text": "Een ratio of kengetal pas interpreteren in het licht van de eigen historiek over meerdere boekjaren (typisch 3 tot 5). Trends zijn vaak informatiever dan momentopnames — een verslechterende solvabiliteit is alarmerender dan een statisch lage solvabiliteit.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Algemene financial-analysis-doctrine"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "anchor-1.3.II.A",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "3-5 boekjaren",
@@ -128,5 +111,23 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Een ratio of kengetal pas interpreteren in het licht van de eigen historiek over meerdere boekjaren (typisch 3 tot 5). Trends zijn vaak informatiever dan momentopnames — een verslechterende solvabiliteit is alarmerender dan een statisch lage solvabiliteit.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Algemene financial-analysis-doctrine"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.II.A",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

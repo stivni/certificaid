@@ -18,83 +18,6 @@
     "reviewed_by": null,
     "last_correction_run": "concept-extractie-v4-2026-05-18T-1.5.V.B"
   },
-  "doel": {
-    "text": "Onder IFRS is afschrijving (IAS 16 alinea 6, IAS 38 alinea 8) de **stelselmatige toerekening van het afschrijfbaar bedrag** van een actief **over zijn gebruiksduur**. Het afschrijfbaar bedrag = kostprijs (of geherwaardeerde waarde) − **restwaarde**. De gebruikte methode moet 'een afspiegeling zijn van het patroon volgens welk de toekomstige economische voordelen van het actief naar verwachting zullen worden verbruikt' (IAS 16 alinea 60). Drie veelvoorkomende methoden: lineair, degressief, en op basis van verbruikte werkeenheden. De entiteit moet **jaarlijks** restwaarde, gebruiksduur en afschrijvingsmethode herzien (alinea 51 + 61); aanpassingen zijn schattingswijzigingen (IAS 8, prospectief). Een methode op basis van **opbrengsten** is voor materiële vaste activa NIET toegestaan (alinea 62A) — opbrengsten weerspiegelen prijs en volume, niet het verbruik van het actief.",
-    "confidence": "grounded",
-    "source": {
-      "type": "ifrs",
-      "short": "IAS 16 alinea 6, 50-62"
-    },
-    "references": [
-      {
-        "type": "ifrs",
-        "short": "IAS 16 alinea 6 (definities afschrijving, gebruiksduur, restwaarde)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 16 alinea 50 (afschrijfbaar bedrag stelselmatig)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 16 alinea 51 (jaarlijkse herziening restwaarde + gebruiksduur)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 16 alinea 55 (start + einde afschrijving)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 16 alinea 56 (factoren gebruiksduur)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 16 alinea 58 (terreinen niet afgeschreven)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 16 alinea 60-62 (methoden)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 16 alinea 62A (geen opbrengsten-methode)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 38 alinea 88-90 (beperkte vs. onbepaalde gebruiksduur immateriële activa)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 38 alinea 97 (default lineair bij onbetrouwbaar patroon)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 38 alinea 98A + 98C (opbrengstenmethode immaterieel: weerlegbaar vermoeden + uitzonderingsgronden)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 38 alinea 100 (restwaarde immaterieel verondersteld nul)"
-      }
-    ],
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "IAS-16-materiele-vaste-activa__sec_62a",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "IAS-38-immateriele-activa__sec_gebruiksduur",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Restwaarde — vaak nul, maar niet altijd",
@@ -458,5 +381,83 @@
       ],
       "corrected_bouwsteen": "Verbod op opbrengstenmethode (alinea 98A → 98A+98C nuance)"
     }
-  ]
+  ],
+  "situering": {
+    "text": "Onder IFRS is afschrijving (IAS 16 alinea 6, IAS 38 alinea 8) de **stelselmatige toerekening van het afschrijfbaar bedrag** van een actief **over zijn gebruiksduur**. Het afschrijfbaar bedrag = kostprijs (of geherwaardeerde waarde) − **restwaarde**. De gebruikte methode moet 'een afspiegeling zijn van het patroon volgens welk de toekomstige economische voordelen van het actief naar verwachting zullen worden verbruikt' (IAS 16 alinea 60). Drie veelvoorkomende methoden: lineair, degressief, en op basis van verbruikte werkeenheden. De entiteit moet **jaarlijks** restwaarde, gebruiksduur en afschrijvingsmethode herzien (alinea 51 + 61); aanpassingen zijn schattingswijzigingen (IAS 8, prospectief). Een methode op basis van **opbrengsten** is voor materiële vaste activa NIET toegestaan (alinea 62A) — opbrengsten weerspiegelen prijs en volume, niet het verbruik van het actief.",
+    "confidence": "grounded",
+    "source": {
+      "type": "ifrs",
+      "short": "IAS 16 alinea 6, 50-62"
+    },
+    "references": [
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 6 (definities afschrijving, gebruiksduur, restwaarde)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 50 (afschrijfbaar bedrag stelselmatig)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 51 (jaarlijkse herziening restwaarde + gebruiksduur)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 55 (start + einde afschrijving)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 56 (factoren gebruiksduur)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 58 (terreinen niet afgeschreven)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 60-62 (methoden)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 62A (geen opbrengsten-methode)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 38 alinea 88-90 (beperkte vs. onbepaalde gebruiksduur immateriële activa)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 38 alinea 97 (default lineair bij onbetrouwbaar patroon)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 38 alinea 98A + 98C (opbrengstenmethode immaterieel: weerlegbaar vermoeden + uitzonderingsgronden)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 38 alinea 100 (restwaarde immaterieel verondersteld nul)"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "IAS-16-materiele-vaste-activa__sec_62a",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "IAS-38-immateriele-activa__sec_gebruiksduur",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

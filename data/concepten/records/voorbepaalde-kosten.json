@@ -18,17 +18,6 @@
     "reviewed_by": null,
     "bron_gap": "Standaardkostencalculatie is vakdoctrine. Belgisch boekhoudrecht definieert het niet rechtstreeks."
   },
-  "doel": {
-    "text": "Voorbepaalde kosten (standaardkosten) zijn vooraf vastgelegde normbedragen voor materiaal, arbeid en overhead per eenheid product. Ze worden gebruikt om de werkelijke kosten meteen tegen een norm af te zetten en zo afwijkingen (verschillen) snel te detecteren. Dit ondersteunt budgetbeheer, kostencontrole en prijszetting.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Management accounting — bron-gap"
-    },
-    "_provenance": {
-      "inputs": []
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Drie soorten standaarden",
@@ -133,5 +122,17 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": {
+    "text": "Voorbepaalde kosten (standaardkosten) zijn vooraf vastgelegde normbedragen voor materiaal, arbeid en overhead per eenheid product. Ze worden gebruikt om de werkelijke kosten meteen tegen een norm af te zetten en zo afwijkingen (verschillen) snel te detecteren. Dit ondersteunt budgetbeheer, kostencontrole en prijszetting.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

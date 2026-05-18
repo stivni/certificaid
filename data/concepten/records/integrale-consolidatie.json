@@ -45,51 +45,6 @@
       ]
     }
   },
-  "doel": {
-    "text": "De geconsolideerde jaarrekening voorstellen alsof het geheel van de consoliderende vennootschap en haar exclusief gecontroleerde dochterondernemingen één enkele economische entiteit vormt. De activa, passiva, rechten, verplichtingen, opbrengsten en kosten van de moeder en van haar exclusief gecontroleerde dochters worden integraal opgenomen (voor 100 %); het deel dat toebehoort aan derden (minderheidsaandeelhouders) wordt afzonderlijk gepresenteerd in 'Belangen van derden' (balans) en 'Aandeel van derden in het resultaat' (resultatenrekening).",
-    "confidence": "grounded",
-    "source": {
-      "type": "kb",
-      "short": "KB WVV art. 3:123 jo. art. 3:124, 1°"
-    },
-    "references": [
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:123"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:124, 1°"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:126 — 3:138 (uitwerking)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:137 (aandeel van derden in het resultaat)"
-      }
-    ],
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "KB-WVV-2019__art_3_97",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "KB-WVV-2019__art_3_98",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "KB-WVV-2019__art_3_108",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "voorwaarden_toepassing": [
     {
       "text": "Er moet exclusieve controle bestaan over de dochteronderneming (controle in rechte of in feite, exclusief uitgeoefend door één moedervennootschap).",
@@ -845,5 +800,51 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "De geconsolideerde jaarrekening voorstellen alsof het geheel van de consoliderende vennootschap en haar exclusief gecontroleerde dochterondernemingen één enkele economische entiteit vormt. De activa, passiva, rechten, verplichtingen, opbrengsten en kosten van de moeder en van haar exclusief gecontroleerde dochters worden integraal opgenomen (voor 100 %); het deel dat toebehoort aan derden (minderheidsaandeelhouders) wordt afzonderlijk gepresenteerd in 'Belangen van derden' (balans) en 'Aandeel van derden in het resultaat' (resultatenrekening).",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV art. 3:123 jo. art. 3:124, 1°"
+    },
+    "references": [
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:123"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:124, 1°"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:126 — 3:138 (uitwerking)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:137 (aandeel van derden in het resultaat)"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-2019__art_3_97",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_98",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_108",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

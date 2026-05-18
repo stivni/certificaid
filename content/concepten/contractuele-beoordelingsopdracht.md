@@ -19,10 +19,10 @@ gegenereerd_op: '2026-05-18'
 ---
 # Contractuele beoordelingsopdracht ⚖️
 
+Een contractuele beoordelingsopdracht (review) is een lichtere variant van de contractuele controle: minder werk, lager zekerheidsniveau, negatieve conclusie ('geen aanwijzingen gevonden dat...'). Past wanneer de cliënt enige geloofwaardigheid wil maar geen volledige audit wenst — bv. een tussentijdse cijferanalyse voor de bank. Onder de ITAA KMO-controlenorm hoofdstuk 4 en internationaal ISRE 2400.
+
 > [!summary] Korte inhoud
 > Een contractuele beoordelingsopdracht (ook 'review' of 'beperkt nazicht') is een assurance-opdracht waarbij de beroepsbeoefenaar een beperkte mate van zekerheid verschaft over de betrouwbaarheid van historische financiële informatie.
-
-> [!info] Specialisatie van: [[assurance-opdracht]]
 
 Een contractuele beoordelingsopdracht (ook 'review' of 'beperkt nazicht') is een assurance-opdracht waarbij de beroepsbeoefenaar een beperkte mate van zekerheid verschaft over de betrouwbaarheid van historische financiële informatie. Hij formuleert een conclusie in negatieve vorm: 'er zijn ons geen aanwijzingen gebleken dat ...'.
 
@@ -71,7 +71,7 @@ _Grondslag: ITAA KMO-controlenorm §3_
 >
 > _Trigger_: Examenwoord 'controle' / 'audit' / 'getrouw beeld' → controle. Woord 'beoordeling' / 'review' / 'beperkt nazicht' → beoordeling.
 
-> [!info]- Niet verwarren met [[samenstellingsopdracht-isrs4410]]
+> [!info]- Niet verwarren met [[samenstellingsopdracht]]
 > Beoordeling = ASSURANCE-opdracht (zekerheidsverschaffing, hoewel beperkt). Samenstelling (ISRS 4410) = GEEN assurance — de beroepsbeoefenaar helpt enkel cijfers in financiële overzichten gieten, hij vormt geen oordeel. Bij samenstelling geen 'wij hebben geen aanwijzingen gevonden'-zin.
 >
 > _Trigger_: Geeft de beroepsbeoefenaar zekerheid (zelfs beperkt)? Ja → beoordeling. Nee, hij helpt enkel opstellen? → samenstelling.
@@ -80,7 +80,7 @@ _Grondslag: ITAA KMO-controlenorm §3_
 ## Zie ook
 
 - **Vereist kennis van**: [[beperkte-mate-van-zekerheid]]
-- **Triggert** (1): [[beperkte-mate-van-zekerheid]]
+
 ## Voorbeelden
 
 Een minderheidsaandeelhouder van Naaiatelier Ninove BV wil een gevoel krijgen of de jaarrekening 2025 klopt, maar betaalt liever niet voor een volledige audit. Sofie Janssens voert een beperkte controle uit (vooral cijferanalyses + bevragingen) en levert een beoordelingsverslag af: 'op basis van onze werkzaamheden zijn ons geen feiten gebleken die ons doen oordelen dat de jaarrekening geen getrouw beeld geeft'.

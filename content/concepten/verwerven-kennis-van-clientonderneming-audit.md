@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/verwerven-kennis-van-clientonderneming-audit.json
 gegenereerd_op: '2026-05-18'
 ---
 # Verwerven van kennis van de cliënt en zijn omgeving in een audit-opdracht 🤖
+
+Begrijpen van de cliënt en zijn omgeving is de eerste planningsstap die elke verdere risico-inschatting voedt (ISA 315). De stagiair documenteert bedrijfsmodel, sector-risico's, governance-structuur, IT-omgeving en relaties met verbonden partijen — en gebruikt die kennis om abnormaliteiten in cijfers te herkennen. Zonder kennis-van-de-cliënt-fundament is risico-inschatting speculatief; daarom is dit een verplichte voorbereidingsstap bij elke audit, ook bij continuïteits-opdrachten (waar de update minder zwaar is dan bij eerste opdracht).
 
 
 ## Stappen
@@ -120,6 +122,14 @@ Beschrijf het boekhoud- en IT-systeem en de basisstructuur van de interne beheer
 
 **Grondslag**: [[kennis-van-onderneming-omgeving]] §boekhoudsysteem, ITAA KMO-controlenorm §60
 
+
+## Zie ook
+
+- **Vereist kennis van**: [[kennis-van-onderneming-omgeving]]
+- **Vereist kennis van**: [[verbonden-partijen-audit]]
+- **Vereist kennis van**: [[randvoorwaarden-controle]]
+- **Vereist kennis van**: [[risico-inschatting-audit]]
+- **Vereist kennis van**: [[continuiteitsveronderstelling-audit]]
 
 ## Voorbeelden
 

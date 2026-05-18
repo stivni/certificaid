@@ -20,23 +20,6 @@
     "reviewed_by": null,
     "bron_gap": "Vakdoctrine — KB WVV-schema's RR (volledig, verkort, micro) zijn de juridische bron; de herwerking naar analytisch-functionele groepering komt uit financiële-analyse-praktijk."
   },
-  "doel": {
-    "text": "De resultatenrekening wordt herwerkt zodat ze leesbaar wordt vanuit economisch perspectief: opbrengsten en kosten worden gegroepeerd in bedrijfs-, financiële, uitzonderlijke en belastingblokken; binnen het bedrijfsblok wordt de toegevoegde waarde geïsoleerd. Voor verkort/microschema's vraagt dat meer werk omdat sommige rubrieken samengevoegd zijn.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Financiële analyse — NBB-balansanalyse"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "anchor-1.9.III.B",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Vier blokken: bedrijf, financieel, uitzonderlijk, belasting",
@@ -147,5 +130,23 @@
       "confidence": "grounded"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "De resultatenrekening wordt herwerkt zodat ze leesbaar wordt vanuit economisch perspectief: opbrengsten en kosten worden gegroepeerd in bedrijfs-, financiële, uitzonderlijke en belastingblokken; binnen het bedrijfsblok wordt de toegevoegde waarde geïsoleerd. Voor verkort/microschema's vraagt dat meer werk omdat sommige rubrieken samengevoegd zijn.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Financiële analyse — NBB-balansanalyse"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.9.III.B",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

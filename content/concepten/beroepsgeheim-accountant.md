@@ -18,10 +18,10 @@ gegenereerd_op: '2026-05-18'
 ---
 # Beroepsgeheim van de accountant ⚖️
 
+Het beroepsgeheim van de accountant is strafrechtelijk verankerd (art. 458 Sw.) en deontologisch uitgewerkt (KB plichtenleer + ITAA-deontologische gids). Het is een PLICHT (niet alleen een recht) om vertrouwelijke informatie van de cliënt niet vrijwillig prijs te geven. Drie scherpe uitzonderingen: getuigenis voor een rechter, eigen verdediging, en wettelijke meldingsplichten (CFI antiwitwas, DAC6). Cruciaal voor het vertrouwensmandaat tussen accountant en cliënt — en voor de bescherming van controledocumentatie.
+
 > [!summary] Korte inhoud
 > De externe accountant is gebonden door het beroepsgeheim (art. 458 Strafwetboek).
-
-> [!info] Behoort tot: [[plichtenleer-accountant]]
 
 De externe accountant is gebonden door het beroepsgeheim (art. 458 Strafwetboek). Hij mag vertrouwelijke informatie niet vrijwillig delen — ook niet bij een verhoor door politieambtenaar of openbaar ministerie. Uitzonderingen: getuigenis in rechte voor een rechter, eigen verdediging in een tuchtprocedure of ereloon-betwisting, wettelijke meldingsplicht (antiwitwas).
 

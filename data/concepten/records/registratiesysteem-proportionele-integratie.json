@@ -17,23 +17,6 @@
     ],
     "reviewed_by": null
   },
-  "doel": {
-    "text": "Bij proportionele integratie worden kosten en opbrengsten 'rubriek per rubriek, proportioneel met het aandeel' opgenomen. CBN 3/3 formuleert dit voor tijdelijke verenigingen; in analytische boekhouding wordt het analoog toegepast wanneer een gemeenschappelijke kost over meerdere centra of dragers pro-rata moet worden verdeeld.",
-    "confidence": "grounded",
-    "source": {
-      "type": "cbn",
-      "short": "CBN-advies 3/3 — De proportionele integratie van kosten en opbrengsten"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-proportionele-integratie-van-kosten-en-opbrengsten",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Pro-rata-verdeling per rubriek",
@@ -97,5 +80,23 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": {
+    "text": "Bij proportionele integratie worden kosten en opbrengsten 'rubriek per rubriek, proportioneel met het aandeel' opgenomen. CBN 3/3 formuleert dit voor tijdelijke verenigingen; in analytische boekhouding wordt het analoog toegepast wanneer een gemeenschappelijke kost over meerdere centra of dragers pro-rata moet worden verdeeld.",
+    "confidence": "grounded",
+    "source": {
+      "type": "cbn",
+      "short": "CBN-advies 3/3 — De proportionele integratie van kosten en opbrengsten"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-proportionele-integratie-van-kosten-en-opbrengsten",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

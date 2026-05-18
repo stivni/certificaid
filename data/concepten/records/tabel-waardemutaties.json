@@ -18,23 +18,6 @@
     "reviewed_by": null,
     "bron_gap": "Toelichtingsstaten in het Belgisch volledig schema (NBB-modellen) bevatten mutatietabellen per vaste-activa-rubriek; KB WVV bijlagen geven exacte vormvereisten."
   },
-  "doel": {
-    "text": "De tabel van waardemutaties toont voor elke rubriek vaste activa de bewegingen van het boekjaar: aanschaffingen, desinvesteringen, overdrachten, afschrijvingen, waardeverminderingen en hun terugnemingen. Ze verbindt de openingsbalans met de eindbalans en is bron voor de kasstroomanalyse.",
-    "confidence": "grounded",
-    "source": {
-      "type": "kb",
-      "short": "KB WVV — toelichtingsstaten volledig schema (NBB-modellen)"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "KB-WVV-toelichting-vaste-activa",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Vier soorten bewegingen per rubriek",
@@ -124,5 +107,23 @@
       "confidence": "grounded"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": {
+    "text": "De tabel van waardemutaties toont voor elke rubriek vaste activa de bewegingen van het boekjaar: aanschaffingen, desinvesteringen, overdrachten, afschrijvingen, waardeverminderingen en hun terugnemingen. Ze verbindt de openingsbalans met de eindbalans en is bron voor de kasstroomanalyse.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV — toelichtingsstaten volledig schema (NBB-modellen)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-toelichting-vaste-activa",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

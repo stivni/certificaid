@@ -22,54 +22,6 @@
     "reviewed_by": null,
     "last_correction_run": "concept-extractie-v4-2026-05-18T-revisit-1.5.V.A"
   },
-  "doel": {
-    "text": "IAS 36 — Bijzondere waardevermindering van activa zorgt ervoor dat een entiteit haar activa niet boven hun **realiseerbare waarde** (recoverable amount) waardeert. Op elke balansdatum: beoordeel of er **aanwijzingen** zijn voor waardevermindering. Voor goodwill, immateriële activa met onbepaalde gebruiksduur en nog-niet-beschikbare-voor-gebruik immateriële activa: jaarlijkse test **verplicht**, ongeacht aanwijzingen. Een bijzondere waardevermindering (impairment) treedt op wanneer de **boekwaarde** de **realiseerbare waarde** overschrijdt. De realiseerbare waarde = de **hoogste** van: (a) **reële waarde minus verkoopkosten** (fair value less costs of disposal); of (b) **bedrijfswaarde** (value in use, contante waarde van toekomstige kasstromen uit voortgezet gebruik + vervreemding). Impairment-verlies in winst of verlies (tenzij activa onder herwaarderingsmodel — dan eerst herwaarderingsreserve aanspreken). Voor goodwill: nooit terugneembaar. Voor andere activa: terugneembaar bij verbeterde omstandigheden, maximum tot oorspronkelijke kostprijs minus normale afschrijvingen.",
-    "confidence": "grounded",
-    "source": {
-      "type": "ifrs",
-      "short": "IAS 36 algemeen"
-    },
-    "references": [
-      {
-        "type": "ifrs",
-        "short": "IAS 36 alinea 8-9 (aanwijzingen)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 36 alinea 10 (jaarlijkse test goodwill/immaterieel onbepaald)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 36 alinea 18-21 (realiseerbare waarde)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 36 alinea 59-64 (impairment-opname)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 36 alinea 80-99 (kasstroomgenererende eenheden CGU)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 36 alinea 124 (geen terugneming goodwill)"
-      }
-    ],
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "IAS-38-immateriele-activa__sec_realiseerbaarheid-van-de-boekwaarde-bijzondere-waardeverminderingsverliezen",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Kasstroomgenererende eenheid (CGU)",
@@ -472,5 +424,54 @@
       "reason": "Bron-prefix smell (§17 regel 11): record-id bevatte bron-aanduiding zonder werkelijk parallel-regime onder andere bron."
     }
   ],
-  "v4_revisit_1.5.V.A_touched_at": "2026-05-18T11:44:24Z"
+  "v4_revisit_1.5.V.A_touched_at": "2026-05-18T11:44:24Z",
+  "situering": {
+    "text": "IAS 36 — Bijzondere waardevermindering van activa zorgt ervoor dat een entiteit haar activa niet boven hun **realiseerbare waarde** (recoverable amount) waardeert. Op elke balansdatum: beoordeel of er **aanwijzingen** zijn voor waardevermindering. Voor goodwill, immateriële activa met onbepaalde gebruiksduur en nog-niet-beschikbare-voor-gebruik immateriële activa: jaarlijkse test **verplicht**, ongeacht aanwijzingen. Een bijzondere waardevermindering (impairment) treedt op wanneer de **boekwaarde** de **realiseerbare waarde** overschrijdt. De realiseerbare waarde = de **hoogste** van: (a) **reële waarde minus verkoopkosten** (fair value less costs of disposal); of (b) **bedrijfswaarde** (value in use, contante waarde van toekomstige kasstromen uit voortgezet gebruik + vervreemding). Impairment-verlies in winst of verlies (tenzij activa onder herwaarderingsmodel — dan eerst herwaarderingsreserve aanspreken). Voor goodwill: nooit terugneembaar. Voor andere activa: terugneembaar bij verbeterde omstandigheden, maximum tot oorspronkelijke kostprijs minus normale afschrijvingen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "ifrs",
+      "short": "IAS 36 algemeen"
+    },
+    "references": [
+      {
+        "type": "ifrs",
+        "short": "IAS 36 alinea 8-9 (aanwijzingen)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 36 alinea 10 (jaarlijkse test goodwill/immaterieel onbepaald)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 36 alinea 18-21 (realiseerbare waarde)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 36 alinea 59-64 (impairment-opname)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 36 alinea 80-99 (kasstroomgenererende eenheden CGU)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 36 alinea 124 (geen terugneming goodwill)"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "IAS-38-immateriele-activa__sec_realiseerbaarheid-van-de-boekwaarde-bijzondere-waardeverminderingsverliezen",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

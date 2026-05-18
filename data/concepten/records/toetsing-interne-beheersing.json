@@ -27,28 +27,6 @@
       "reden": "Concept dekt ook 1.7-anchors (interne controle): linked_anchors aangevuld via concept-extractie-v4 voor 1.7."
     }
   },
-  "doel": {
-    "text": "Een toetsing van interne beheersing is een controlemaatregel die de auditor opzet om te evalueren of de interne beheersing van de cliënt werkt zoals beoogd — d.w.z. of zij afwijkingen op het niveau van beweringen voorkomt of tijdig ontdekt en corrigeert.",
-    "confidence": "grounded",
-    "source": {
-      "type": "norm",
-      "short": "ITAA KMO-controlenorm Bijlage 1 + §97-§98"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Wanneer toetsen",
@@ -128,5 +106,28 @@
       "omschrijving": "Sofie Janssens wil bij Rotex Roeselare NV steunen op de IC rond aankopen. Zij test 25 willekeurig gekozen aankoopfacturen: voor elk gaat ze na of er drie handtekeningen op zitten (besteller, magazijnier, CFO) en of het bedrag binnen de delegatieprocuratie blijft. 0 fouten → IC werkt → minder substantive testing nodig."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Een toetsing van interne beheersing is een controlemaatregel die de auditor opzet om te evalueren of de interne beheersing van de cliënt werkt zoals beoogd — d.w.z. of zij afwijkingen op het niveau van beweringen voorkomt of tijdig ontdekt en corrigeert.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1 + §97-§98"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

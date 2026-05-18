@@ -17,28 +17,6 @@
     ],
     "reviewed_by": null
   },
-  "doel": {
-    "text": "Gegevensgerichte werkzaamheden zijn controlewerkzaamheden die zijn opgezet om afwijkingen van materieel belang op het niveau van beweringen te ontdekken. Twee soorten: detailcontroles (transactiestromen, rekeningsaldi, toelichtingen) en gegevensgerichte cijferanalyses.",
-    "confidence": "grounded",
-    "source": {
-      "type": "norm",
-      "short": "ITAA KMO-controlenorm Bijlage 1 + §85"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_gegevensgerichte-werkzaamheden6",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Twee subtypes",
@@ -115,5 +93,28 @@
       "omschrijving": "Sofie Janssens test de waardering van de top-20 voorraadposten van Rotex Roeselare NV: zij gaat naar de opslagplaats, telt zelf de stuks (€ 850.000 totaal), vergelijkt met de aankoopfacturen, en checkt de toepassing van FIFO. Dat is een detailcontrole. Daarnaast voert zij een gegevensgerichte cijferanalyse uit op de bruto-marge per productlijn."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Gegevensgerichte werkzaamheden zijn controlewerkzaamheden die zijn opgezet om afwijkingen van materieel belang op het niveau van beweringen te ontdekken. Twee soorten: detailcontroles (transactiestromen, rekeningsaldi, toelichtingen) en gegevensgerichte cijferanalyses.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1 + §85"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_gegevensgerichte-werkzaamheden6",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

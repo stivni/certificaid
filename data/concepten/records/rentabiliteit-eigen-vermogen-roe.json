@@ -22,29 +22,6 @@
     ],
     "reviewed_by": null
   },
-  "doel": {
-    "text": "Meten welk rendement de onderneming behaalt op het eigen vermogen — het kapitaal dat de aandeelhouders hebben ingezet of laten staan. ROE staat voor 'Return On Equity'. Het kerngetal voor aandeelhouders die willen weten of hun ingezet kapitaal voldoende oplevert.",
-    "confidence": "grounded",
-    "source": {
-      "type": "cbn",
-      "short": "CBN-2011/14 §rentabiliteit van het eigen vermogen: voorbeeldmethoden"
-    },
-    "references": [
-      {
-        "type": "cbn",
-        "short": "CBN-2011/14 §rentabiliteitsvoorwaarden"
-      }
-    ],
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Nettorentabiliteit van het eigen vermogen",
@@ -404,5 +381,29 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": {
+    "text": "Meten welk rendement de onderneming behaalt op het eigen vermogen — het kapitaal dat de aandeelhouders hebben ingezet of laten staan. ROE staat voor 'Return On Equity'. Het kerngetal voor aandeelhouders die willen weten of hun ingezet kapitaal voldoende oplevert.",
+    "confidence": "grounded",
+    "source": {
+      "type": "cbn",
+      "short": "CBN-2011/14 §rentabiliteit van het eigen vermogen: voorbeeldmethoden"
+    },
+    "references": [
+      {
+        "type": "cbn",
+        "short": "CBN-2011/14 §rentabiliteitsvoorwaarden"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2011-14-herwaarderingsmeerwaarden__sec_rentabiliteit-van-het-eigen-vermogen-voorbeeldmethoden",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

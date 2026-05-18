@@ -19,6 +19,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Professioneel-kritische instelling ⚖️
 
+Professioneel-kritische instelling (professional skepticism) is een wettelijk vereiste houding van de auditor doorheen de hele opdracht — geplant en uitgevoerd vanuit een onderzoekende, alerte mindset. Het is geen punctuele beslissing maar een continue ingesteldheid, in het bijzonder bij schattingen, transacties met verbonden partijen en fraude-indicaties. Samen met professionele oordeelsvorming (judgment) vormt het de auditor-attitude die het verschil maakt tussen een ceremoniële audit en een audit die afwijkingen detecteert.
+
 > [!summary] Korte inhoud
 > De beroepsbeoefenaar plant en voert de opdracht uit vanuit een professioneel-kritische instelling (professional skepticism): een onderzoekende houding, alert zijn op omstandigheden die kunnen wijzen op afwijkingen door fouten of fraude, en kritische evaluatie van controle-informa….
 
@@ -40,9 +42,12 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + §42_
 > Niet enkel bij planning of bij specifieke risicogebieden — bij elke stap. Vooral bij schattingen, fraude-vermoedens en transacties met verbonden partijen. ⚖️
 
 
-## Zie ook
+> [!info]- Niet verwarren met [[professionele-oordeelsvorming]]
+> Professioneel-kritische instelling (skepticism) = kritische HOUDING tijdens veldwerk — niet zomaar geloven, om corroboratie vragen, alert zijn op fraude-indicatoren. Professionele oordeelsvorming (judgment) = de KEUZE wanneer de norm zwijgt — welke benchmark, welke procedures, welke conclusie bij grensgeval. Skepticism is een continue houding; judgment is een punctuele beslissing.
+>
+> _Trigger_: Examenvraag: 'De auditor twijfelt aan de waardering van een schatting' → skepticism (kritisch onderzoeken). 'De norm geeft geen keuze; de auditor moet zelf beslissen welke werkwijze passend is' → judgment.
 
-- **Wordt voorondersteld in** (1): [[boekhoudkundige-schattingen-audit]]
+
 ## Voorbeelden
 
 De CFO van Rotex Roeselare NV vertelt Sofie Janssens dat de voorraadwaardering klopt 'volgens onze gebruikelijke methode'. Vanuit een professioneel-kritische instelling vraagt Sofie de methode op schrift, controleert ze tegen vorig jaar, en test ze op een steekproef — ze gelooft de mondelinge bevestiging niet zonder onderbouwing.

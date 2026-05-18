@@ -10,14 +10,20 @@
     "1.6.IV"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.II",
     "dekt_ook_anchors": [
       "1.6.III",
       "1.6.IV"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-18T14:09Z",
+    "edge_cleanup_v4": {
+      "op": "2026-05-18",
+      "reden": "vergelijkt-met edge → vergelijkingspaar (§9 symmetrisch met professioneel-kritische-instelling)."
+    },
+    "situering_added_v4_at": "2026-05-18"
   },
   "main_rule": {
     "text": "Professionele oordeelsvorming is het toepassen van relevante training, kennis en ervaring — in de context van de geldende controle-, verslaggevings- en ethische normen — bij het maken van weloverwogen keuzes over de handelwijzen die passend zijn in de omstandigheden van de opdracht. Het is wat de auditor doet wanneer de norm de keuze niet helemaal voorschrijft.",
@@ -56,18 +62,51 @@
       }
     }
   ],
-  "edges": [
-    {
-      "type": "vergelijkt-met",
-      "target": "professioneel-kritische-instelling",
-      "redenering": "Twee verwante plichten: 'kritisch zijn' vs. 'oordelen waar de norm zwijgt'."
-    }
-  ],
+  "edges": [],
   "voorbeelden": [
     {
       "vorm": "eenvoudig",
       "omschrijving": "Sofie Janssens moet beslissen of zij voor Rotex' voorraadtelling een externe deskundige inschakelt (geschat materiaal) of zelf samen met haar team de waardering uitvoert. De KMO-controlenorm geeft geen automatisch antwoord — zij past haar professionele oordeelsvorming toe en kiest voor een interne uitvoering met externe ondersteuning op 2 specifieke items."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "naam_alternatief": "professional judgment",
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "professioneel-kritische-instelling",
+      "verschil": "Professionele oordeelsvorming (judgment) = punctuele KEUZE wanneer de norm geen automatisch antwoord geeft (welke benchmark, welke werkwijze, welk type bewijs). Professioneel-kritische instelling (skepticism) = onderzoekende HOUDING tijdens het hele veldwerk (verklaringen niet zonder corroboratie aannemen). Judgment is een handeling; skepticism is een mindset.",
+      "trigger": "Examenvraag: 'De norm laat de keuze tussen interne of externe deskundige open' → judgment. 'De CFO bevestigt mondeling dat alles klopt — wat doet de auditor?' → skepticism.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "situering": {
+    "text": "Professionele oordeelsvorming (professional judgment) is de wettelijk vereiste capaciteit om relevante training, kennis en ervaring toe te passen wanneer de geldende controle-, verslaggevings- en ethische normen geen volledig vooraf-bepaald antwoord bieden. Het komt overal voor in de audit: bij het bepalen van materialiteit, kiezen van controleprocedures, beoordelen van schattingen, formuleren van het oordeel. Samen met professioneel-kritische instelling vormt het de attitude-kern die ITAA-normen, ISA en deontologie van de auditor verwachten.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1 + §44"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_2-2-4-documentatie",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

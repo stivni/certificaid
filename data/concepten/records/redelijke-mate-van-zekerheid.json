@@ -11,15 +11,19 @@
     "1.6.IV.B"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
     "model": "claude-opus-4-7",
-    "anchor_id": "1.6.IV.A",
-    "dekt_ook_anchors": [
+    "anchor_id": "1.6.I.A",
+    "linked_anchors": [
       "1.6.I.A",
       "1.6.IV",
+      "1.6.IV.A",
       "1.6.IV.B"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T16:05Z",
+    "last_extract_at": "2026-05-18T16:05:00Z"
   },
   "definitie": {
     "text": "Een redelijke mate van zekerheid (reasonable assurance) is het hoogste praktisch haalbare niveau van zekerheid in een audit-opdracht. De beroepsbeoefenaar heeft voldoende en geschikte assurance-informatie verzameld om het controlerisico tot een vaktechnisch aanvaardbaar laag niveau terug te brengen, zodat hij een oordeel in positieve vorm kan tot uitdrukking brengen.",
@@ -101,8 +105,8 @@
   "edges": [
     {
       "type": "vereist-kennis-van",
-      "target": "controlerisico",
-      "redenering": "Redelijke zekerheid = controlerisico tot aanvaardbaar laag niveau brengen."
+      "target": "auditrisicomodel",
+      "redenering": "Redelijke zekerheid = controlerisico (uit auditrisicomodel) tot aanvaardbaar laag niveau brengen."
     },
     {
       "type": "getriggerd-door",
@@ -116,5 +120,7 @@
       "omschrijving": "Sofie Janssens controleert de jaarrekening 2025 van Rotex Roeselare NV. Na 8 weken werk (planning, risicoanalyse, testen, conclusie) kan zij met redelijke zekerheid stellen: 'naar ons oordeel geeft de jaarrekening een getrouw beeld van het vermogen, de financiële toestand en het resultaat van Rotex Roeselare NV per 31 december 2025'."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": "Redelijke zekerheid is het zekerheidsniveau dat een controle (audit) oplevert — het hoogste niveau dat een beroepsbeoefenaar praktisch kan verschaffen, maar nog steeds niet 100%. De auditor erkent dat steekproef-, inherente en intern beheersingsrisico's blijven bestaan. Het zekerheidsniveau bepaalt of het oordeel in positieve vorm ('geeft getrouw beeld') of in negatieve vorm ('geen aanwijzingen') mag worden uitgedrukt.",
+  "naam_alternatief": "reasonable assurance"
 }

@@ -17,23 +17,6 @@
     ],
     "reviewed_by": null
   },
-  "doel": {
-    "text": "Direct costing (synoniem: variable costing, gedeeltelijke kostencalculatie) berekent een kostprijs die enkel directe en variabele kosten omvat. Vaste indirecte kosten worden niet op de kostendrager toegerekend maar direct als periodekost in de resultatenrekening geboekt. Doel: transparante zicht op variabele kostengedrag en contributiemarge per product — input voor break-even-analyse, prijsbeslissingen en make-or-buy.",
-    "confidence": "grounded",
-    "source": {
-      "type": "cbn",
-      "short": "CBN 2012/15 §waarderingsaspecten direct costing"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Enkel variabele kosten in kostprijs",
@@ -170,5 +153,23 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Direct costing (synoniem: variable costing, gedeeltelijke kostencalculatie) berekent een kostprijs die enkel directe en variabele kosten omvat. Vaste indirecte kosten worden niet op de kostendrager toegerekend maar direct als periodekost in de resultatenrekening geboekt. Doel: transparante zicht op variabele kostengedrag en contributiemarge per product — input voor break-even-analyse, prijsbeslissingen en make-or-buy.",
+    "confidence": "grounded",
+    "source": {
+      "type": "cbn",
+      "short": "CBN 2012/15 §waarderingsaspecten direct costing"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

@@ -20,13 +20,6 @@
     "reviewed_by": null,
     "bron_gap": "COSO-component vakdoctrine. Inferred-common-knowledge."
   },
-  "doel": {
-    "text": "Monitoring is het continu en periodiek evalueren of het IC-systeem nog werkt zoals beoogd. Bestaat uit: (1) doorlopende monitoring ingebed in dagelijkse processen (bv. bank-grootboek-afstemming) en (2) afzonderlijke evaluaties (interne audit, externe audit, management self-assessment). Tekortkomingen worden gerapporteerd en bijgestuurd.",
-    "confidence": "inferred-common-knowledge",
-    "_provenance": {
-      "inputs": []
-    }
-  },
   "in_praktijk": [
     {
       "aspect": "Twee soorten monitoring",
@@ -63,5 +56,13 @@
       "omschrijving": "Bij Rotex Roeselare NV doet (1) elke afdelingschef maandelijks een 'control self-assessment' (continu), (2) Sofie Janssens als interne auditor jaarlijks 4 cycli volledig auditeert (afzonderlijk), (3) bevindingen worden in kwartaalrapport aan auditcomité voorgelegd met actieplan + opvolgtermijn."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Monitoring is het continu en periodiek evalueren of het IC-systeem nog werkt zoals beoogd. Bestaat uit: (1) doorlopende monitoring ingebed in dagelijkse processen (bv. bank-grootboek-afstemming) en (2) afzonderlijke evaluaties (interne audit, externe audit, management self-assessment). Tekortkomingen worden gerapporteerd en bijgestuurd.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

@@ -20,23 +20,6 @@
     "reviewed_by": null,
     "bron_gap": "Vakdoctrine. PO 1.3 (toelating-niveau) leerde de ratio's berekenen; PO 1.9.V.E (bekwaamheid) leert ze interpreteren."
   },
-  "doel": {
-    "text": "Een ratio interpreteren betekent: cijfer naast benchmark plaatsen, vergelijken over tijd, vergelijken over sector, en de cijfer-uitkomst vertalen naar een betekenisvolle diagnose voor het bedrijfsmodel. Niet 'is 1,45 goed of slecht?' maar 'wat betekent 1,45 in deze sector, in dit business model, in deze evolutie?'.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Financiële analyse — bekwaamheid-niveau"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "anchor-1.9.V.E",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "stappen": [
     {
       "nr": 1,
@@ -171,5 +154,23 @@
       "confidence": "grounded"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Een ratio interpreteren betekent: cijfer naast benchmark plaatsen, vergelijken over tijd, vergelijken over sector, en de cijfer-uitkomst vertalen naar een betekenisvolle diagnose voor het bedrijfsmodel. Niet 'is 1,45 goed of slecht?' maar 'wat betekent 1,45 in deze sector, in dit business model, in deze evolutie?'.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Financiële analyse — bekwaamheid-niveau"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.9.V.E",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

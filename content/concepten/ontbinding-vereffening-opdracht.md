@@ -2,7 +2,7 @@
 title: Ontbinding-vereffening opdracht van de gecertificeerd accountant
 tags:
 - concept
-- procedure
+- begrip
 - po-1-6
 linked_anchors:
 - 1.6.I.B
@@ -11,7 +11,7 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: procedure
+node_type: begrip
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/ontbinding-vereffening-opdracht.json
@@ -19,12 +19,14 @@ gegenereerd_op: '2026-05-18'
 ---
 # Ontbinding-vereffening opdracht van de gecertificeerd accountant ⚖️
 
+De ontbinding-vereffening-opdracht is één van de gedeelde wettelijk voorbehouden opdrachten uit het WVV. Ze controleert of de aandeelhouders en bestuurders een waarheidsgetrouw beeld krijgen van wat er nog te verdelen valt op het moment van ontbinding. Specifieke punten van aandacht: continuïteitsbeginsel vervalt (going-out-of-business waardering), waarderingsregels van vlottende activa worden vaak voorzichtiger, en sociale verplichtingen + vereffeningskosten moeten als passief erkend zijn.
+
 > [!summary] Korte inhoud
-> Bij ontbinding-vereffening verleent de gecertificeerd accountant (of bedrijfsrevisor) een wettelijk verplicht verslag over de staat van actief en passief op een datum die maximaal drie maanden voor de algemene vergadering ligt.
+> De ontbinding-vereffening-opdracht is een door wet voorbehouden controleopdracht waarbij de gecertificeerd accountant (of bedrijfsrevisor) een verslag aflevert over de staat van actief en passief van een vennootschap die ontbonden wordt.
 
 > [!info] Specialisatie van: [[gedeelde-wettelijk-voorbehouden-opdracht]]
 
-Bij ontbinding-vereffening verleent de gecertificeerd accountant (of bedrijfsrevisor) een wettelijk verplicht verslag over de staat van actief en passief op een datum die maximaal drie maanden voor de algemene vergadering ligt. Dit is een gedeelde wettelijk voorbehouden opdracht: enkel uit te voeren door GA of bedrijfsrevisor, en alleen door de commissaris indien er één is.
+De ontbinding-vereffening-opdracht is een door wet voorbehouden controleopdracht waarbij de gecertificeerd accountant (of bedrijfsrevisor) een verslag aflevert over de staat van actief en passief van een vennootschap die ontbonden wordt. De staat dateert maximaal drie maanden vóór de buitengewone algemene vergadering die de ontbinding besluit. Bij een vennootschap met commissaris wordt deze opdracht door de commissaris uitgevoerd; anders door een GA of bedrijfsrevisor naar keuze.
 
 _Bron: ITAA-norm Ontbinding-vereffening §2 + IV_
 
@@ -42,13 +44,26 @@ _Bron: ITAA-norm Ontbinding-vereffening §2 + IV_
 > Specifieke documentatieverplichting: alle gegevens en oordelen die het verslag onderbouwen worden bewaard in een controledossier dat valt onder beroepsgeheim en bewaarplicht van de Algemene Controlenorm. ⚖️
 
 
+## Valkuilen
+
+> [!warning]- Bij ontbinding moeten de waarderingsregels worden aangepast: het continuïteitsbeginsel valt weg en activa worden in een 'going-out-of-busine…
+> ⚠️ Bij ontbinding moeten de waarderingsregels worden aangepast: het continuïteitsbeginsel valt weg en activa worden in een 'going-out-of-business'-perspectief gewaardeerd. Het bestuursorgaan moet dit expliciet beslissen en motiveren — de accountant toetst of dit gebeurd is. 🤖
+>
+> _Bron: ITAA-norm Ontbinding-vereffening + KB WVV waarderingsregels_
+
+
+
+## Zie ook
+
+- **Vereist kennis van**: [[beperkte-mate-van-zekerheid]]
+
 ## Voorbeelden
 
 Verffabriek Veurne BV wil zich ontbinden. De aandeelhouders besluiten tot vrijwillige vereffening. Geen commissaris → Sofie Janssens (gecertificeerd accountant) krijgt de opdracht. Zij toetst de staat van actief en passief, beoordeelt de continuïteit van de waardering, controleert of de waarderingsregels zijn aangepast aan stopzetting (going concern → going-out-of-business), en levert haar verslag af aan de buitengewone algemene vergadering.
 
 ## Bronnen
 
-[^1]: `ITAA-norm-ontbinding-vereffening__sec_2-verantwoordelijkheden-van-de-gecertificeerd-accountant`
-[^2]: `ITAA-norm-ontbinding-vereffening__sec_iv-oordeel-en-verslag-iv-1-het-vormen-van-het-oordeel`
-[^3]: `ITAA-norm-ontbinding-vereffening__sec_iv-2-verslag`
-[^4]: `ITAA-norm-ontbinding-vereffening__sec_i-5-documentatie`
+[^1]: `ITAA-norm-ontbinding-vereffening__sec_iv-2-verslag`
+[^2]: `ITAA-norm-ontbinding-vereffening__sec_i-5-documentatie`
+[^3]: `ITAA-norm-ontbinding-vereffening__sec_2-verantwoordelijkheden-van-de-gecertificeerd-accountant`
+[^4]: `ITAA-norm-ontbinding-vereffening__sec_iv-oordeel-en-verslag-iv-1-het-vormen-van-het-oordeel`

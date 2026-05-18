@@ -18,6 +18,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Gecertificeerd accountant (GA) ⚖️
 
+De gecertificeerd accountant (GA) is het beroep dat door het ITAA wordt georganiseerd; het is de huidige titel (Wet 17 maart 2019) die de oude titels 'accountant IAB' en 'belastingconsulent' bundelt. Behoort tot één van twee accountants-beroepen in België (naast de bedrijfsrevisor) en deelt enkele wettelijk voorbehouden opdrachten daarmee. NIET bevoegd voor: commissaris-mandaat (wettelijke jaarrekeningcontrole). WEL bevoegd voor: boekhouding, jaarrekening, fiscaal advies, gedeelde voorbehouden opdrachten en contractuele controle.
+
 > [!summary] Korte inhoud
 > Een gecertificeerd accountant (GA) is een door het ITAA (Instituut van de Belastingadviseurs en de Accountants) erkend beroepsbeoefenaar bevoegd voor het organiseren van boekhouding, opmaken van jaarrekeningen, fiscaal advies en — in een aantal gevallen, in monopolie of gedeeld m….
 

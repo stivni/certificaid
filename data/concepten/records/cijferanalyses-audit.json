@@ -19,28 +19,6 @@
     ],
     "reviewed_by": null
   },
-  "doel": {
-    "text": "Cijferanalyses (analytical procedures) zijn evaluaties van financiële informatie door de analyse van aannemelijke verbanden tussen zowel financiële als niet-financiële gegevens. De auditor onderzoekt fluctuaties of relaties die inconsistent zijn met andere relevante informatie of significant verschillen van verwachte waarden.",
-    "confidence": "grounded",
-    "source": {
-      "type": "norm",
-      "short": "ITAA KMO-controlenorm Bijlage 1 + §111"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_3-2-4-cijferanalyses",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Drie momenten",
@@ -101,5 +79,28 @@
       "omschrijving": "Sofie Janssens vergelijkt voor Rotex Roeselare NV de bruto-marge per productlijn 2025 vs. 2024: productlijn A daalt van 35 % naar 22 %. Onverwacht. Zij onderzoekt verder en ontdekt dat een voorraad obsolete grondstoffen niet werd afgeschreven. Cijferanalyse leidt tot detectie van een afwijking."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Cijferanalyses (analytical procedures) zijn evaluaties van financiële informatie door de analyse van aannemelijke verbanden tussen zowel financiële als niet-financiële gegevens. De auditor onderzoekt fluctuaties of relaties die inconsistent zijn met andere relevante informatie of significant verschillen van verwachte waarden.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1 + §111"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-2-4-cijferanalyses",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

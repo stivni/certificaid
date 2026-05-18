@@ -11,7 +11,7 @@
     "1.7.V.E"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T14:09Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.II.B",
     "dekt_ook_anchors": [
@@ -23,23 +23,11 @@
     "po_1_7_upgrade": {
       "op": "2026-05-17",
       "reden": "Concept dekt ook 1.7-anchors (interne controle): linked_anchors aangevuld via concept-extractie-v4 voor 1.7."
-    }
-  },
-  "doel": {
-    "text": "Het auditrisicomodel structureert de risico-aanpak van de auditor. Het controlerisico — het risico dat de auditor een verkeerd oordeel geeft terwijl de financiële overzichten een materiële afwijking bevatten — wordt opgesplitst in drie componenten: inherent risico, intern beheersingsrisico en ontdekkingsrisico. De auditor stuurt het ontdekkingsrisico (= hoeveel werk hij doet) op basis van zijn inschatting van de eerste twee.",
-    "confidence": "grounded",
-    "source": {
-      "type": "norm",
-      "short": "ITAA KMO-controlenorm Bijlage 1 (Controlerisico)"
     },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "edge_cleanup_v4": {
+      "op": "2026-05-18",
+      "reden": "Drie deprecated `bevat`-edges verwijderd (§9): inverse onderdeel-van bestaat op inherent-risico, intern-beheersingsrisico en ontdekkingsrisico."
     }
   },
   "berekeningsmethode": [
@@ -139,22 +127,25 @@
       ]
     }
   ],
-  "edges": [
-    {
-      "type": "bevat",
-      "target": "inherent-risico",
-      "redenering": "Component 1."
+  "edges": [],
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Het auditrisicomodel structureert de risico-aanpak van de auditor. Het controlerisico — het risico dat de auditor een verkeerd oordeel geeft terwijl de financiële overzichten een materiële afwijking bevatten — wordt opgesplitst in drie componenten: inherent risico, intern beheersingsrisico en ontdekkingsrisico. De auditor stuurt het ontdekkingsrisico (= hoeveel werk hij doet) op basis van zijn inschatting van de eerste twee.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1 (Controlerisico)"
     },
-    {
-      "type": "bevat",
-      "target": "intern-beheersingsrisico",
-      "redenering": "Component 2."
-    },
-    {
-      "type": "bevat",
-      "target": "ontdekkingsrisico",
-      "redenering": "Component 3 — door auditor stuurbaar."
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
     }
-  ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  },
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "naam_alternatief": "audit risk model"
 }

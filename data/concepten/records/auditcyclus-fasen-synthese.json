@@ -2,14 +2,15 @@
   "id": "auditcyclus-fasen-synthese",
   "naam": "Auditcyclus — vier fasen vergeleken",
   "node_type": "synthese",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "status": "seed",
   "linked_anchors": [
     "1.6.III",
     "1.6.III.A",
     "1.6.III.B",
     "1.6.III.C",
-    "1.6.IV"
+    "1.6.IV",
+    "1.6.taak.1"
   ],
   "_provenance": {
     "inputs": [
@@ -33,7 +34,11 @@
         "sha256": null,
         "version": "rag-v1"
       }
-    ]
+    ],
+    "extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
+    "situering_added_v4_at": "2026-05-18",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T14:35Z",
+    "last_extract_at": "2026-05-18T14:35:00Z"
   },
   "gebaseerd_op_concepten": [
     "auditplanning",
@@ -48,5 +53,27 @@
   ],
   "vergelijkingstabel": "| Fase | Doel | Kern-output | Norm-referentie |\n|---|---|---|---|\n| 1. Aanvaarding + opdrachtbrief | Scope vastleggen, randvoorwaarden checken, ethische voorschriften toetsen | Opdrachtbrief + acceptatie-memo | KMO-norm §2 + Norm Opdrachtbrief |\n| 2. Planning + risico-inschatting | Strategie + werkprogramma opbouwen op basis van inzicht in cliënt + IC | Risk assessment memo + werkprogramma | KMO-norm §70-§77 |\n| 3. Uitvoering + assurance-informatie | Test of controls + gegevensgerichte werkzaamheden uitvoeren, evidence verzamelen | Werkpapieren + getoetste populaties + bevindingen | KMO-norm §85-§115 |\n| 4. Conclusie + verslag | Oordeel vormen, verslag schrijven, communicatie afsluiten | Controleverslag + management letter + management representation letter | KMO-norm §116-§120 + Algemene controlenorm §2 |",
   "beslisboom": "```mermaid\nflowchart LR\n    A[Fase 1: Aanvaarding] --> B[Fase 2: Planning + risico]\n    B --> C[Fase 3: Uitvoering]\n    C --> D[Fase 4: Oordeel + verslag]\n    D --> E{Goedkeuring zonder voorbehoud?}\n    E -->|Ja| F[Standaardverslag]\n    E -->|Nee, materieel + niet-diepgaand| G[Oordeel met voorbehoud]\n    E -->|Nee, materieel + diepgaand| H[Afkeurend oordeel]\n    E -->|Geen assurance-info + diepgaand| I[Onthouding van oordeel]\n    C -.->|Nieuwe risico's| B\n```",
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "De auditcyclus structureert de hele externe-controleopdracht in vier opeenvolgende, deels iteratieve fasen: aanvaarding, planning en risico-inschatting, uitvoering, oordeel en verslag. Deze synthese vergelijkt per fase het doel, de kern-output en de norm-referentie zodat de stagiair een mentaal model heeft waarop alle specifieke records (planning, werkprogramma, gegevensgerichte werkzaamheden, oordeelstypes, verslag-elementen) gehangen worden.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm + Algemene controlenorm (structuur)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-1-1-planning",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-algemene-controlenorm__sec_3-werkschema",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

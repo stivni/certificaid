@@ -1,7 +1,7 @@
 {
   "id": "controleverslag-elementen",
   "naam": "Elementen van het controleverslag (revisieverslag)",
-  "node_type": "procedure",
+  "node_type": "cluster",
   "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
@@ -10,67 +10,22 @@
     "1.6.IV"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T14:28Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.IV.C",
     "dekt_ook_anchors": [
       "1.6.IV.B",
       "1.6.IV"
     ],
-    "reviewed_by": null
-  },
-  "verplichting": {
-    "text": "Elk controleverslag wordt schriftelijk en omstandig opgesteld en besluit met de wettelijk verplichte beoordeling. De auditor vermeldt op welke wijze hij de controle uitvoerde, of hij alle vereiste inlichtingen heeft ontvangen, in welke mate hij kon steunen op de interne controle en welk eventueel voorbehoud hij maakt. Een afschrift van het verslag wordt aan het Instituut bezorgd voor het confraternele toezicht.",
-    "confidence": "grounded",
-    "source": {
-      "type": "norm",
-      "short": "ITAA Algemene controlenorm §7 (Commissie van Toezicht) + §2 (Verslag)"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ITAA-norm-algemene-controlenorm__sec_7-commissie-van-toezicht",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "ITAA-norm-algemene-controlenorm__sec_2-verslag",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "type_migratie_v4": {
+      "op": "2026-05-18",
+      "van": "procedure",
+      "naar": "cluster",
+      "reden": "Descriptief domein-object met paragraaf-bouwstenen volgens ISA 700/705/706/701/720; competentie-kant zit in opstellen-controleverslag-en-formuleren-oordeel."
     }
   },
-  "stappen": [
-    {
-      "nr": 1,
-      "titel": "Verplichte rubrieken opnemen",
-      "wat": "Titel, geadresseerde, identificatie financiële overzichten, beschrijving opdracht, verantwoordelijkheden, basis voor oordeel, oordeel, paragrafen ter benadrukking/overige, datum, plaats, handtekening + hoedanigheid.",
-      "hoe": "Gebruik het modelverslag uit Bijlage X van de KMO-controlenorm; pas tekst aan i.f.v. opdracht.",
-      "grondslag": "ITAA KMO-controlenorm §150 + Algemene controlenorm §2"
-    },
-    {
-      "nr": 2,
-      "titel": "Beoordelingen + scope vermelden",
-      "wat": "Vermeld binnen welke wettelijke, contractuele en technische grenzen de opdracht werd uitgevoerd. Geen contractuele beperking aanvaarden die de geest van de wet wijzigt.",
-      "hoe": "Verwijs naar de opdrachtbrief; expliciteer eventuele scope-beperking.",
-      "grondslag": "ITAA Algemene controlenorm §2"
-    },
-    {
-      "nr": 3,
-      "titel": "Steun op interne controle expliciteren",
-      "wat": "Beschrijf in welke mate je hebt kunnen steunen op de administratieve organisatie en interne controle van de cliënt. Eventueel voorbehoud op specifieke punten apart vermelden.",
-      "hoe": "Korte tekst — geen interne audit van de IC, wel een algemene appreciatie.",
-      "grondslag": "ITAA Algemene controlenorm §7"
-    },
-    {
-      "nr": 4,
-      "titel": "Persoonlijk ondertekenen + naar ITAA",
-      "wat": "Elke verklaring, certificering of verslag wordt ondertekend door een externe accountant (natuurlijke persoon), eventueel als vertegenwoordiger van een vennootschap. Afschrift naar het Instituut voor confraterneel toezicht.",
-      "hoe": "Schriftelijke handtekening; geen delegatie bij voorbehouden opdrachten. Verzend per beveiligde post of digitaal portal.",
-      "grondslag": "KB plichtenleer art. 18 + ITAA Algemene controlenorm §7"
-    }
-  ],
   "valkuilen": [
     {
       "text": "Vergeet niet te vermelden of je ook ANDERE prestaties hebt geleverd aan de cliënt in de betrokken periode (KB plichtenleer art. 12). Transparantie over de relatie is verplicht.",
@@ -88,6 +43,40 @@
           }
         ]
       }
+    },
+    {
+      "text": "De volgorde van de paragrafen is voorgeschreven door ISA 700 herzien: oordeel → basis voor het oordeel → continuïteit (indien) → key audit matters (indien) → verantwoordelijkheden management → verantwoordelijkheden auditor → eventuele emphasis of matter / other matter → rapportage over andere informatie → handtekening/datum. Vrije volgorde leidt tot een normconform verslag dat formeel niet aan ISA voldoet.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 700 (herzien) §§23-49"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-700-herzien__sec_vereisten_2_part3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Een 'paragraaf ter benadrukking' (emphasis of matter) MAG GEEN VERVANGING zijn van een aangepast oordeel. Wanneer de auditor materieel afwijkende informatie ontdekt of een scope-beperking ondervindt: aangepast oordeel (ISA 705), niet enkel een emphasis-paragraaf. Emphasis wijst op iets dat correct is toegelicht.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 706 (herzien) §6 + §A2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-706-herzien__sec_doelstelling",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
@@ -99,7 +88,17 @@
     {
       "type": "vereist-kennis-van",
       "target": "paragraaf-ter-benadrukking",
-      "redenering": "Standaardparagraaf voor relevante aangelegenheden."
+      "redenering": "Optionele emphasis-paragraaf onderdeel van ISA 706."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "materieel-belang-audit",
+      "redenering": "Materialiteit stuurt wat als afwijking in basis-voor-oordeel moet worden gerapporteerd."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "assurance-informatie",
+      "redenering": "Voldoende-en-geschikte assurance-informatie is voorwaarde voor het oordeel en wordt expliciet bevestigd in basis-voor-oordeel."
     }
   ],
   "voorbeelden": [
@@ -108,5 +107,322 @@
       "omschrijving": "Het controleverslag van Sofie Janssens over Rotex Roeselare NV bevat: titel ('Controleverslag van de externe accountant'), geadresseerde (de algemene vergadering), identificatie jaarrekening 2025, beschrijving van de opdracht uit de opdrachtbrief, paragraaf 'Verantwoordelijkheid van het management', paragraaf 'Verantwoordelijkheid van de accountant', oordeelsparagraaf, paragraaf ter benadrukking (continuïteit), datum, plaats van ondertekening, handtekening en hoedanigheid."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "definitie": {
+    "text": "Het controleverslag (revisieverslag) is het schriftelijke eindproduct van een controleopdracht waarin de beroepsbeoefenaar (gecertificeerd accountant of bedrijfsrevisor) zijn oordeel formuleert over de financiële overzichten. ISA 700 (herzien) §§20-52 schrijft voor welke vaste rubrieken in welke volgorde aanwezig moeten zijn — van titel tot handtekening; ITAA-normen vullen aan met Belgische verplichtingen (afschrift naar het Instituut, vermelding andere prestaties, scope-grenzen).",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 700 (herzien) §§20-52 + ITAA Algemene controlenorm §2 + KMO-controlenorm §150"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-700-herzien__sec_vereisten_2_part3",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-algemene-controlenorm__sec_2-verslag",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-algemene-controlenorm__sec_7-commissie-van-toezicht",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "bouwstenen": [
+    {
+      "titel": "Titel + geadresseerde",
+      "wat": "Het verslag draagt een titel die het duidelijk identificeert als verslag van een onafhankelijke auditor (bv. ‘Controleverslag van de externe accountant’). Het is gericht aan een specifieke ontvanger — meestal de algemene vergadering van de gecontroleerde entiteit.",
+      "waarom": "Beschermt tegen verwarring met andere assurance-rapporten en maakt duidelijk wie de geadresseerde gebruiker is.",
+      "grondslag": "ISA 700 (herzien) §§21-22",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 700 (herzien) §§21-22"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-700-herzien__sec_vereisten_2_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Oordeelsparagraaf",
+      "wat": "Eerste inhoudelijke sectie. Identificeert de entiteit, stelt dat de financiële overzichten zijn gecontroleerd, somt de samenstellende stukken op (balans, resultatenrekening, toelichting, …), specificeert de datum/periode, en formuleert het oordeel — goedkeurend, met voorbehoud, afkeurend, of een oordeelonthouding. Bij een getrouw-beeld-stelsel gebruikt de auditor de formulering ‘geeft een getrouw beeld van …’ of ‘vormt een getrouwe weergave …’.",
+      "waarom": "Het oordeel is wat de gebruiker zoekt — daarom vooraan, zodat het niet ondergaat in detail.",
+      "grondslag": "ISA 700 (herzien) §§23-27",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 700 (herzien) §§23-27"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-700-herzien__sec_vereisten_2_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ISA-700-herzien__sec_vereisten_2_part3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Basis voor het oordeel",
+      "wat": "Direct na de oordeelsparagraaf. Vermeldt (a) dat de controle volgens de ISA’s is uitgevoerd, (b) verwijst naar de sectie met de verantwoordelijkheden van de auditor, (c) bevestigt onafhankelijkheid en naleving van ethische voorschriften, (d) bevestigt dat de verkregen controle-informatie voldoende en geschikt is. Bij een AANGEPAST oordeel wordt de titel uitgebreid (‘Basis voor ons oordeel met voorbehoud’, ‘… afkeurend oordeel’, ‘… onze oordeelonthouding’) en wordt de aangelegenheid die tot de aanpassing leidt hier kwantitatief én kwalitatief beschreven.",
+      "waarom": "Maakt het oordeel toetsbaar: de gebruiker ziet welke normen zijn gevolgd, en bij aanpassing welk probleem is vastgesteld.",
+      "grondslag": "ISA 700 (herzien) §28 + ISA 705 (herzien) §§20-23",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 700 (herzien) §28 + ISA 705 (herzien) §§20-23"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-700-herzien__sec_vereisten_2_part3",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ISA-705-herzien__sec_vereisten_2_part3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Materiële onzekerheid over continuïteit (indien van toepassing)",
+      "wat": "Wanneer er een materiële onzekerheid bestaat over het vermogen van de entiteit haar continuïteit te behouden, en deze onzekerheid passend is toegelicht in de jaarrekening, neemt de auditor een aparte sectie ‘Materiële onzekerheid over de continuïteit’ op. Bij een goedkeurend oordeel blijft het oordeel ongewijzigd, maar de aandacht wordt op de toelichting gevestigd.",
+      "waarom": "Continuïteits-onzekerheid is voor de gebruiker zo belangrijk dat ze een eigen, zichtbare sectie krijgt — niet weggestopt in een ‘paragraaf ter benadrukking’.",
+      "grondslag": "ISA 700 (herzien) §29 (verwijst naar ISA 570 herzien)",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 700 (herzien) §29 + ISA 570 (herzien)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-700-herzien__sec_vereisten_2_part3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Kernpunten van de controle (Key Audit Matters)",
+      "wat": "Voor controles van volledige sets financiële overzichten van beursgenoteerde entiteiten verplicht; voor andere entiteiten optioneel of door wet/regelgeving vereist. De auditor beschrijft de aangelegenheden die in zijn professionele oordeelsvorming het meest significant waren in de controle (bv. complexe schattingen, fraude-risico-gebieden, een belangrijke transactie). Per kernpunt: waarom het zo significant was + hoe het is aangepakt in de controle.",
+      "waarom": "Toont aan beleggers en andere gebruikers waar de auditor zijn moeilijkste oordeelsvormingen heeft gemaakt — verhoogt de informatiewaarde van het verslag.",
+      "grondslag": "ISA 700 (herzien) §§30-31 + ISA 701",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 700 (herzien) §§30-31 + ISA 701 §7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-700-herzien__sec_vereisten_2_part3",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ISA-701__sec_doelstellingen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Verantwoordelijkheden van het management",
+      "wat": "Beschrijft dat het management verantwoordelijk is voor het opstellen van de financiële overzichten in overeenstemming met het toepasselijke stelsel inzake financiële verslaggeving en voor de interne beheersing die nodig is om deze overzichten op te stellen die geen afwijkingen van materieel belang bevatten. Ook: verantwoordelijkheid voor het beoordelen van het vermogen om de continuïteit te behouden.",
+      "waarom": "Maakt de RESPONSABILITEITSVERDELING expliciet — voorkomt dat de auditor verantwoordelijk wordt gesteld voor de inhoud van wat hij niet heeft opgesteld.",
+      "grondslag": "ISA 700 (herzien) §§33-34",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 700 (herzien) §§33-34"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-700-herzien__sec_vereisten_2_part3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Verantwoordelijkheden van de auditor",
+      "wat": "Standaard-tekst die beschrijft: het verkrijgen van redelijke zekerheid, het identificeren en inschatten van risico’s op afwijkingen van materieel belang (al dan niet door fraude), het evalueren van interne beheersing voor het ontwerpen van controleprocedures, het beoordelen van schattingen + grondslagen voor financiële verslaggeving + getrouw beeld. Voor beursgenoteerde entiteiten: ook communicatie met de met governance belaste personen vermelden.",
+      "waarom": "Standaardiseert de uitleg van wat een auditor wel én niet doet — vermindert verkeerde verwachtingen (expectation gap).",
+      "grondslag": "ISA 700 (herzien) §§35-39",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 700 (herzien) §§35-39"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-700-herzien__sec_vereisten_2_part3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Paragrafen ter benadrukking + paragrafen inzake overige aangelegenheden",
+      "wat": "Optionele aanvullende paragrafen. (1) Paragraaf ter benadrukking (emphasis of matter) verwijst naar een aangelegenheid die PASSEND is toegelicht in de jaarrekening maar zo fundamenteel is voor het begrip dat de auditor er de aandacht op vestigt. (2) Paragraaf inzake overige aangelegenheden (other matter) behandelt iets dat NIET in de jaarrekening staat maar dat relevant is voor het begrip van de controle of het verslag zelf. Beide laten het oordeel ongewijzigd.",
+      "waarom": "Communicatie-instrument om gebruikers te wijzen op context-elementen die voor begrip nodig zijn zonder het oordeel te modificeren.",
+      "grondslag": "ISA 706 (herzien) §6",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 706 (herzien) §6"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-706-herzien__sec_doelstelling",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Rapportage over andere informatie",
+      "wat": "Wanneer het management ‘andere informatie’ heeft uitgegeven samen met de jaarrekening (jaarverslag, persbericht, geïntegreerd rapport, …), vermeldt de auditor of hij die informatie heeft gelezen, of hij eventuele materiële inconsistenties met de jaarrekening of materiële afwijkingen van feiten heeft vastgesteld. Bij een afkeurend oordeel of oordeelonthouding wordt deze sectie aangepast of weggelaten zodat het oordeel niet verwatert.",
+      "waarom": "Voorkomt dat de jaarrekening klopt maar nevendocumenten een tegenstrijdig beeld geven.",
+      "grondslag": "ISA 720 (herzien) §22",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 720 (herzien)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-720-herzien__sec_definities_2_part7",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Belgische bijkomende vereisten (ITAA-normen)",
+      "wat": "Bovenop het ISA-template vereisen ITAA-normen: (a) vermelden binnen welke wettelijke, contractuele en technische grenzen de opdracht is uitgevoerd; (b) expliciteren in welke mate de auditor heeft kunnen steunen op de interne beheersing; (c) vermelden of hij ook ANDERE prestaties heeft geleverd aan de cliënt in de betrokken periode (KB plichtenleer art. 12); (d) persoonlijke schriftelijke ondertekening + hoedanigheid; (e) afschrift bezorgen aan het Instituut voor confraterneel toezicht.",
+      "waarom": "ITAA voegt transparantie- en toezicht-vereisten toe die specifiek zijn voor de Belgische beroepsorganisatie.",
+      "grondslag": "ITAA Algemene controlenorm §2 + §7 + KB plichtenleer art. 12 + art. 18",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA Algemene controlenorm §2 + §7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-algemene-controlenorm__sec_2-verslag",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ITAA-norm-algemene-controlenorm__sec_7-commissie-van-toezicht",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-1998-plichtenleer__art_12",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Naam, plaats, datum en handtekening",
+      "wat": "Het verslag eindigt met (a) de handtekening van de externe accountant (natuurlijke persoon), eventueel als vertegenwoordiger van een vennootschap, (b) de plaats waar het verslag is ondertekend, (c) de datum (niet eerder dan de datum waarop voldoende en geschikte controle-informatie is verkregen).",
+      "waarom": "Identificeert verantwoordelijkheid (handtekening) en geeft het tijdstip aan waarop het oordeel geldig is.",
+      "grondslag": "ISA 700 (herzien) §§47-49 + KB plichtenleer art. 18",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ISA 700 (herzien) §§47-49"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-700-herzien__sec_vereisten_2_part3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "situering": {
+    "text": "Het controleverslag is het zichtbare eindproduct waarmee de auditor zijn oordeel communiceert aan de gebruikers van de jaarrekening (aandeelhouders, bankiers, leveranciers, fiscus). ISA 700 (herzien) schrijft een vaste structuur en volgorde van paragrafen voor; ISA 705 wijzigt de oordeels- en basisparagraaf bij een aangepast oordeel; ISA 706 voegt optionele emphasis-paragrafen toe; ISA 701 voegt verplichte key audit matters toe voor beursgenoteerden; ISA 720 voegt de rapportage over andere informatie toe. ITAA-normen voegen Belgische plichten toe (vermelding andere prestaties, confraterneel afschrift).",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "norm",
+      "short": "ISA 700/705/706/701/720 + ITAA Algemene controlenorm"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-700-herzien__sec_vereisten",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ISA-705-herzien__sec_vereisten",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ISA-706-herzien__sec_doelstelling",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ISA-701__sec_doelstellingen",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ISA-720-herzien__sec_definities_2_part7",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-algemene-controlenorm__sec_2-verslag",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "naam_alternatief": "auditor's report"
 }

@@ -19,6 +19,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Professionele oordeelsvorming ⚖️
 
+Professionele oordeelsvorming (professional judgment) is de wettelijk vereiste capaciteit om relevante training, kennis en ervaring toe te passen wanneer de geldende controle-, verslaggevings- en ethische normen geen volledig vooraf-bepaald antwoord bieden. Het komt overal voor in de audit: bij het bepalen van materialiteit, kiezen van controleprocedures, beoordelen van schattingen, formuleren van het oordeel. Samen met professioneel-kritische instelling vormt het de attitude-kern die ITAA-normen, ISA en deontologie van de auditor verwachten.
+
 > [!summary] Korte inhoud
 > Professionele oordeelsvorming is het toepassen van relevante training, kennis en ervaring — in de context van de geldende controle-, verslaggevings- en ethische normen — bij het maken van weloverwogen keuzes over de handelwijzen die passend zijn in de omstandigheden van de opdrac….
 
@@ -33,6 +35,12 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 
 > [!tip]- Te documenteren
 > Significante professionele oordeelsvormingen worden in het controledossier vastgelegd: welke alternatieven zijn afgewogen, welke argumenten doorslag gaven, welke conclusies werden getrokken. Een ervaren confrater moet later de redenering kunnen reconstrueren. ⚖️
+
+
+> [!info]- Niet verwarren met [[professioneel-kritische-instelling]]
+> Professionele oordeelsvorming (judgment) = punctuele KEUZE wanneer de norm geen automatisch antwoord geeft (welke benchmark, welke werkwijze, welk type bewijs). Professioneel-kritische instelling (skepticism) = onderzoekende HOUDING tijdens het hele veldwerk (verklaringen niet zonder corroboratie aannemen). Judgment is een handeling; skepticism is een mindset.
+>
+> _Trigger_: Examenvraag: 'De norm laat de keuze tussen interne of externe deskundige open' → judgment. 'De CFO bevestigt mondeling dat alles klopt — wat doet de auditor?' → skepticism.
 
 
 ## Voorbeelden

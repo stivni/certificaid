@@ -20,13 +20,6 @@
     "reviewed_by": null,
     "bron_gap": "COSO ERM (II) + ISO 31000 zijn internationale standaarden; geen Belgische trusted bron. Inferred-common-knowledge."
   },
-  "doel": {
-    "text": "Risico-inschatting is het systematisch identificeren, analyseren en evalueren van wat fout kan gaan in het halen van de doelstellingen van de onderneming. Doel: bepalen welke risico's onaanvaardbaar zijn en gerichte controles inzetten. Zonder risico-inschatting werkt IC blind — overal controles of nergens.",
-    "confidence": "inferred-common-knowledge",
-    "_provenance": {
-      "inputs": []
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Drie stappen",
@@ -81,5 +74,13 @@
       "omschrijving": "Bij Yperse Werkplaats BV werkt Xenon Expertise BV een risicomatrix uit: voor elk proces (aankoop, productie, verkoop, HR) wordt 'kans × impact' geschat op een schaal 1-5. Aankopen > € 50.000 krijgen risicoscore 4×5 = 20 → strikte autorisatieprocedure. Telefoonkosten krijgen 2×1 = 2 → geen extra controle."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": {
+    "text": "Risico-inschatting is het systematisch identificeren, analyseren en evalueren van wat fout kan gaan in het halen van de doelstellingen van de onderneming. Doel: bepalen welke risico's onaanvaardbaar zijn en gerichte controles inzetten. Zonder risico-inschatting werkt IC blind — overal controles of nergens.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

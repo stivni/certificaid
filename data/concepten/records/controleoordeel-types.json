@@ -10,40 +10,18 @@
     "1.6.IV.C"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T14:26Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.IV",
     "dekt_ook_anchors": [
       "1.6.IV.B",
       "1.6.IV.C"
     ],
-    "reviewed_by": null
-  },
-  "doel": {
-    "text": "Op het einde van een audit formuleert de beroepsbeoefenaar een controleoordeel. Vier types: (1) goedkeurend oordeel zonder voorbehoud, (2) oordeel met voorbehoud, (3) afkeurend oordeel, (4) onthouding van oordeel. De keuze hangt af van (a) of afwijkingen materieel zijn én of zij diepgaande invloed hebben, en (b) of voldoende en geschikte assurance-informatie kon worden verkregen.",
-    "confidence": "grounded",
-    "source": {
-      "type": "norm",
-      "short": "ITAA KMO-controlenorm §116-§120"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_3-3-2-aangepast-oordeel",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_3-3-2-1-financi-le-overzichten-bevatten-afwijkingen-van-mate",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "edge_cleanup_v4": {
+      "op": "2026-05-18",
+      "reden": "Deprecated 'bevat' edge verwijderd; aangepast-oordeel heeft inverse onderdeel-van (§9)."
     }
   },
   "bouwstenen": [
@@ -158,12 +136,76 @@
       "type": "vereist-kennis-van",
       "target": "materieel-belang-audit",
       "redenering": "Materialiteit en diepgaandheid sturen de keuze."
-    },
-    {
-      "type": "bevat",
-      "target": "aangepast-oordeel",
-      "redenering": "Drie van de vier types zijn 'aangepaste' oordelen."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Op het einde van een audit formuleert de beroepsbeoefenaar een controleoordeel. Vier types: (1) goedkeurend oordeel zonder voorbehoud, (2) oordeel met voorbehoud, (3) afkeurend oordeel, (4) onthouding van oordeel. De keuze hangt af van (a) of afwijkingen materieel zijn én of zij diepgaande invloed hebben, en (b) of voldoende en geschikte assurance-informatie kon worden verkregen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm §116-§120"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-3-2-aangepast-oordeel",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-3-2-1-financi-le-overzichten-bevatten-afwijkingen-van-mate",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18",
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "afkeurend-oordeel-vs-oordeel-met-voorbehoud",
+      "verschil": "Beide gaan over een AFWIJKING in de jaarrekening die voldoende-en-geschikte assurance-informatie heeft opgeleverd. Oordeel met voorbehoud = de afwijking is materieel maar GEÏSOLEERD (één post, één rubriek): de rest van de jaarrekening blijft gebruikbaar. Afkeurend oordeel = de afwijking is materieel ÉN DIEPGAAND: de hele jaarrekening is misleidend, één paragraaf voorbehoud zou de gebruiker bedriegen.",
+      "trigger": "Examenvraag: ‘systematische overwaardering van voorraden die balans en resultaat omslaat’ → afkeurend. ‘één deelneming € 250.000 te hoog gewaardeerd’ → oordeel met voorbehoud.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-705-herzien__sec_vereisten_2_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-3-2-1-financi-le-overzichten-bevatten-afwijkingen-van-mate",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "vergelijking_met": "oordeelonthouding-vs-oordeel-met-voorbehoud",
+      "verschil": "Beide kunnen het gevolg zijn van SCOPE-BEPERKING (geen voldoende-en-geschikte assurance-informatie). Oordeel met voorbehoud = de niet-detecteerbare effecten zijn materieel maar geïsoleerd. Oordeelonthouding = de niet-detecteerbare effecten kunnen materieel én diepgaand zijn (één pijler van de jaarrekening niet auditeerbaar). De auditor kan dan geen oordeel formuleren.",
+      "trigger": "Examenvraag: ‘klant weigert openingsbalans + alle aankoopfacturen H1’ → oordeelonthouding. ‘inventarisatie van één magazijn niet bijwoonbaar, alternatieve procedures slagen niet’ → oordeel met voorbehoud.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ISA-705-herzien__sec_vereisten_2_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-3-2-aangepast-oordeel",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "naam_alternatief": "types of audit opinion"
 }

@@ -18,23 +18,6 @@
     "reviewed_by": null,
     "bron_gap": "Origineel werk: Altman, E.I. (1968) 'Financial Ratios, Discriminant Analysis and the Prediction of Corporate Bankruptcy'. Geen Belgische wettelijke bron — internationale vakdoctrine."
   },
-  "doel": {
-    "text": "Het Altman Z-model voorspelt het faillissementsrisico van een onderneming via een gewogen lineaire combinatie van vijf ratio's. Een lage Z-waarde signaleert verhoogd faillissementsrisico binnen 2 jaar; een hoge Z-waarde wijst op financiële gezondheid. Belangrijk: het is een discriminantmodel, geen waarschijnlijkheidsuitspraak.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Altman (1968) — internationale financiële-analyse-doctrine"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "anchor-1.9.VI.B",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Vijf ratio's gewogen via discriminant-analyse",
@@ -281,5 +264,23 @@
       "confidence": "grounded"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Het Altman Z-model voorspelt het faillissementsrisico van een onderneming via een gewogen lineaire combinatie van vijf ratio's. Een lage Z-waarde signaleert verhoogd faillissementsrisico binnen 2 jaar; een hoge Z-waarde wijst op financiële gezondheid. Belangrijk: het is een discriminantmodel, geen waarschijnlijkheidsuitspraak.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Altman (1968) — internationale financiële-analyse-doctrine"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.9.VI.B",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

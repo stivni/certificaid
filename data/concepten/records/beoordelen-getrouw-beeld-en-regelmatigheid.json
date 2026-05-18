@@ -2,7 +2,7 @@
   "id": "beoordelen-getrouw-beeld-en-regelmatigheid",
   "naam": "Beoordelen van regelmatigheid, waarachtigheid en getrouw beeld van de jaarrekening",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Beoordelen van regelmatigheid, waarachtigheid en getrouw beeld van de jaarrekening",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -159,12 +159,60 @@
     "voorgesteld_door": "competentie-destillatie-v2-po16-2026-05-17T08:00Z",
     "voorgesteld_op": "2026-05-17T08:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "extractor_run": "concept-extractie-v4-2026-05-18T14:31Z",
+    "situering_added_v4_at": "2026-05-18",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T14:35Z",
+    "last_extract_at": "2026-05-18T14:35:00Z"
   },
   "linked_anchors": [
     "1.6.taak.1",
     "1.6.IV.A",
     "1.6.IV"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": {
+    "text": "Deze competentie bundelt wat de stagiair moet kunnen bij het beoordelen van de jaarrekening op haar drie wettelijke eigenschappen: regelmatigheid (in overeenstemming met het boekhoud- en jaarrekeningenrecht), waarachtigheid (geen materiële afwijkingen), en getrouw beeld (juiste weergave van vermogen, financiële toestand en resultaat). Deze drie samen vormen het toetsingsobject van het uiteindelijke controleoordeel.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "norm",
+      "short": "ISA 700/705/706 + ITAA KMO/Algemene controlenorm"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-2019__art_3",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "getrouw-beeld-controle"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "regelmatigheid-jaarrekening-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "continuiteitsveronderstelling-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "materieel-belang-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "assurance-informatie"
+    }
+  ]
 }

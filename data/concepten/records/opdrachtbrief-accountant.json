@@ -1,7 +1,7 @@
 {
   "id": "opdrachtbrief-accountant",
   "naam": "Opdrachtbrief van de accountant",
-  "node_type": "procedure",
+  "node_type": "cluster",
   "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
@@ -10,14 +10,17 @@
     "1.6.III.E"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
     "model": "claude-opus-4-7",
-    "anchor_id": "1.6.III.A",
-    "dekt_ook_anchors": [
+    "anchor_id": "1.6.I.A",
+    "linked_anchors": [
       "1.6.I.A",
+      "1.6.III.A",
       "1.6.III.E"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T16:05Z",
+    "last_extract_at": "2026-05-18T16:05:00Z"
   },
   "verplichting": {
     "text": "Voor elke contractuele opdracht stelt de externe accountant een opdrachtbrief op die de scope, de verantwoordelijkheden, het ereloon en de wederzijdse verplichtingen vastlegt vóór de uitvoering begint. De opdrachtbrief is het juridische kader van de opdracht en de hefboom voor aansprakelijkheidsbeperking en bewijslast.",
@@ -46,43 +49,6 @@
       ]
     }
   },
-  "stappen": [
-    {
-      "nr": 1,
-      "titel": "Identificatie van partijen + opdracht",
-      "wat": "Vermeld de gegevens van cliënt en beroepsbeoefenaar, de aard van de opdracht (samenstelling / fiscale aangifte / contractuele controle ...) en de begindatum.",
-      "hoe": "Gebruik een sjabloon: 'Tussen Meubelzaak Mertens BV en Wolters & Partners CVBA, vertegenwoordigd door Sofie Janssens, wordt overeengekomen dat Wolters & Partners volgende opdracht zal uitvoeren ...'.",
-      "grondslag": "ITAA-norm Opdrachtbrief §2"
-    },
-    {
-      "nr": 2,
-      "titel": "Verplichtingen langs cliëntzijde vastleggen",
-      "wat": "Tijdige overhandiging van documenten, spontane melding van betalingsverzuim, samenwerking, toegang tot informatie. Cruciaal voor latere bewijslast bij vertraging.",
-      "hoe": "Voeg een clausule toe: 'de cliënt verbindt zich ertoe alle stukken binnen 30 dagen na boekjaarafsluiting ter beschikking te stellen, bij gebreke waarvan de uitvoeringstermijn wordt opgeschort'.",
-      "grondslag": "ITAA-norm Opdrachtbrief §4"
-    },
-    {
-      "nr": 3,
-      "titel": "Verplichtingen langs accountantzijde vastleggen",
-      "wat": "Beroepsgeheim respecteren, wettelijke uitzonderingen (antiwitwas, DAC6), kwaliteitsvolle uitvoering, schriftelijke aantekening werkzaamheden.",
-      "hoe": "Voeg een clausule toe over beroepsgeheim en meldingsplichten onder antiwitwaswetgeving.",
-      "grondslag": "ITAA-norm Opdrachtbrief §4"
-    },
-    {
-      "nr": 4,
-      "titel": "Aansprakelijkheidsbeperking opnemen (waar toegelaten)",
-      "wat": "Beperkingsclausule (bv. plafond drie keer ereloon) — niet bij bedrog, niet bij wettelijk voorbehouden opdrachten.",
-      "hoe": "Voorbeeldclausule: 'de aansprakelijkheid van de beroepsbeoefenaar is beperkt tot € 25.000, behoudens bedrieglijk opzet of oogmerk te schaden'.",
-      "grondslag": "ITAA-norm Opdrachtbrief §5 + Wet ITAA 2019 art. 44"
-    },
-    {
-      "nr": 5,
-      "titel": "Erelonen en betalingstermijnen",
-      "wat": "Eindbedrag, forfait of uurtarief, voorschotten, vervaltermijnen, gevolgen van niet-betaling.",
-      "hoe": "Splits standaardwerk (forfait) van bijkomend werk (uurtarief); zo geen discussie achteraf.",
-      "grondslag": "ITAA-norm Opdrachtbrief §7"
-    }
-  ],
   "valkuilen": [
     {
       "text": "Bij voorbehouden opdrachten (inbreng in natura, ontbinding, ...) mag de aansprakelijkheid NIET worden beperkt — een beperkingsclausule daar is nietig. Lees Wet ITAA 2019 art. 44 nauwgezet vooraleer een plafond op te nemen.",
@@ -124,11 +90,6 @@
       "type": "vereist-kennis-van",
       "target": "beroepsaansprakelijkheid-accountant",
       "redenering": "De opdrachtbrief is de plaats voor geldige aansprakelijkheidsbeperking."
-    },
-    {
-      "type": "vereist-kennis-van",
-      "target": "antiwitwas-meldingsplicht",
-      "redenering": "Antiwitwasverplichtingen worden via de opdrachtbrief geïnformeerd."
     }
   ],
   "voorbeelden": [
@@ -137,5 +98,152 @@
       "omschrijving": "Wolters & Partners CVBA stelt voor Meubelzaak Mertens BV een opdrachtbrief op vóór de start van de jaarlijkse boekhoudkundige opdracht: scope (organisatie boekhouding + jaarrekening + fiscale aangifte), termijnen (jaarrekening klaar tegen 30 april), ereloon (€ 8.500 forfait + uurtarief boven scope), aansprakelijkheidsplafond (drie keer ereloon, niet bij bedrog)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "definitie": {
+    "text": "De opdrachtbrief is het schriftelijk contract tussen cliënt en beroepsbeoefenaar dat de scope, ereloon, wederzijdse verplichtingen, aansprakelijkheid en beroepsgeheim vastlegt. Voor elke contractuele opdracht verplicht — ondertekend vóór de uitvoering — en hét juridisch fundament voor zowel honoreringsdiscussies als aansprakelijkheidsbeperking.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA-norm Opdrachtbrief §1"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-opdrachtbrief__sec_1-algemeen_2",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-opdrachtbrief__sec_2-begindatum-van-uw-opdracht",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-opdrachtbrief__sec_4-verplichtingen-van-de-partijen",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": "De opdrachtbrief is in België verplicht voor elke contractuele opdracht van een gecertificeerd accountant. De ITAA-norm Opdrachtbrief (2020) en KB plichtenleer art. 17 leggen vast wat erin moet staan; Wet ITAA 2019 art. 44 bepaalt wanneer aansprakelijkheidsbeperking geldig is. De brief is geen formaliteit maar een werkinstrument: hij bepaalt scope, prijs en risico-allocatie.",
+  "bouwstenen": [
+    {
+      "titel": "Identificatie van partijen + opdracht",
+      "wat": "Vermeld de gegevens van cliënt en beroepsbeoefenaar, de aard van de opdracht (samenstelling / fiscale aangifte / contractuele controle ...) en de begindatum.",
+      "grondslag": "ITAA-norm Opdrachtbrief §2",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Opdrachtbrief"
+      },
+      "in_praktijk": "Gebruik een sjabloon: 'Tussen Meubelzaak Mertens BV en Wolters & Partners CVBA, vertegenwoordigd door Sofie Janssens, wordt overeengekomen dat Wolters & Partners volgende opdracht zal uitvoeren ...'.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-opdrachtbrief__sec_4-verplichtingen-van-de-partijen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Verplichtingen langs cliëntzijde vastleggen",
+      "wat": "Tijdige overhandiging van documenten, spontane melding van betalingsverzuim, samenwerking, toegang tot informatie. Cruciaal voor latere bewijslast bij vertraging.",
+      "grondslag": "ITAA-norm Opdrachtbrief §4",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Opdrachtbrief"
+      },
+      "in_praktijk": "Voeg een clausule toe: 'de cliënt verbindt zich ertoe alle stukken binnen 30 dagen na boekjaarafsluiting ter beschikking te stellen, bij gebreke waarvan de uitvoeringstermijn wordt opgeschort'.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-opdrachtbrief__sec_4-verplichtingen-van-de-partijen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Verplichtingen langs accountantzijde vastleggen",
+      "wat": "Beroepsgeheim respecteren, wettelijke uitzonderingen (antiwitwas, DAC6), kwaliteitsvolle uitvoering, schriftelijke aantekening werkzaamheden.",
+      "grondslag": "ITAA-norm Opdrachtbrief §4",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Opdrachtbrief"
+      },
+      "in_praktijk": "Voeg een clausule toe over beroepsgeheim en meldingsplichten onder antiwitwaswetgeving.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-opdrachtbrief__sec_4-verplichtingen-van-de-partijen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Aansprakelijkheidsbeperking opnemen (waar toegelaten)",
+      "wat": "Beperkingsclausule (bv. plafond drie keer ereloon) — niet bij bedrog, niet bij wettelijk voorbehouden opdrachten.",
+      "grondslag": "ITAA-norm Opdrachtbrief §5 + Wet ITAA 2019 art. 44",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Opdrachtbrief"
+      },
+      "in_praktijk": "Voorbeeldclausule: 'de aansprakelijkheid van de beroepsbeoefenaar is beperkt tot € 25.000, behoudens bedrieglijk opzet of oogmerk te schaden'.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-opdrachtbrief__sec_4-verplichtingen-van-de-partijen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Erelonen en betalingstermijnen",
+      "wat": "Eindbedrag, forfait of uurtarief, voorschotten, vervaltermijnen, gevolgen van niet-betaling.",
+      "grondslag": "ITAA-norm Opdrachtbrief §7",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Opdrachtbrief"
+      },
+      "in_praktijk": "Splits standaardwerk (forfait) van bijkomend werk (uurtarief); zo geen discussie achteraf.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-opdrachtbrief__sec_4-verplichtingen-van-de-partijen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "wettelijke-controleopdracht-commissaris",
+      "verschil": "Voor contractuele opdrachten = verplichte opdrachtbrief, ondertekend door beide partijen. Voor wettelijke controle (commissaris-mandaat) is er geen opdrachtbrief maar een benoemingsbesluit van de algemene vergadering — het mandaat krijgt zijn rechtsgrond uit de wet, niet uit een contract.",
+      "trigger": "Examenvraag: 'wat regelt de relatie tussen accountant en cliënt?' → contractueel = opdrachtbrief, wettelijke controle = benoemingsbesluit AV.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-opdrachtbrief__sec_1-algemeen_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "naam_alternatief": "engagement letter"
 }

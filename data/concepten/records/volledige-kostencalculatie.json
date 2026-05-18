@@ -17,28 +17,6 @@
     ],
     "reviewed_by": null
   },
-  "doel": {
-    "text": "De volledige kostencalculatie (synoniem: full costing, absorption costing) berekent een 'volledige kostprijs' per kostendrager door alle directe én alle (productie-)indirecte kosten op te tellen en aan het product toe te wijzen. Dit is de wettelijke aanpak voor de vervaardigingsprijs in de Belgische boekhouding (CBN 132/7), maar in management-accounting wordt full costing soms uitgebreid tot een 'volledige bedrijfskostprijs' die ook administratieve en commerciële overhead bevat — voor interne sturing.",
-    "confidence": "grounded",
-    "source": {
-      "type": "cbn",
-      "short": "CBN 132/7 §2.1 jo. CBN 2012/15"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-full-costing",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Stap 1: directe kosten direct toerekenen",
@@ -176,5 +154,28 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": {
+    "text": "De volledige kostencalculatie (synoniem: full costing, absorption costing) berekent een 'volledige kostprijs' per kostendrager door alle directe én alle (productie-)indirecte kosten op te tellen en aan het product toe te wijzen. Dit is de wettelijke aanpak voor de vervaardigingsprijs in de Belgische boekhouding (CBN 132/7), maar in management-accounting wordt full costing soms uitgebreid tot een 'volledige bedrijfskostprijs' die ook administratieve en commerciële overhead bevat — voor interne sturing.",
+    "confidence": "grounded",
+    "source": {
+      "type": "cbn",
+      "short": "CBN 132/7 §2.1 jo. CBN 2012/15"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-full-costing",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

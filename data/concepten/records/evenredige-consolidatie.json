@@ -74,49 +74,6 @@
       ]
     }
   },
-  "doel": {
-    "text": "Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke gezamenlijk controlerende moeder op naar rato van haar aandeel in het kapitaal (of in de inbreng bij vennootschappen zonder kapitaal). Alleen jouw pro-rata stuk van de bezittingen, schulden, opbrengsten en kosten komt erin — geen afzonderlijke 'belangen van derden' nodig, want het deel buiten de groep wordt simpelweg niet opgenomen.",
-    "confidence": "grounded",
-    "source": {
-      "type": "kb",
-      "short": "KB WVV art. 3:124, 2° jo. art. 3:140"
-    },
-    "references": [
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:124, 2°"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:140"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:139"
-      }
-    ],
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "KB-WVV-2019__art_3_111",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "KB-WVV-2019__art_3_110",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    },
-    "_corrected_from": [
-      {
-        "field": "text",
-        "from": "Een gemeenschappelijke dochter (een vennootschap waarover een beperkt aantal vennoten gezamenlijke controle uitoefenen via overeenkomst) wordt in de geconsolideerde jaarrekening van elke gezamenlijk controlerende vennoot opgenomen naar rato van haar rechten in het kapitaal (of in de inbreng, voor kapitaalloze vennootschappen). Hiermee wordt enkel het pro-rata deel van de activa, passiva, opbrengsten en kosten meegenomen — zonder afzondering van 'aandeel van derden', want het derden-deel wordt eenvoudigweg niet opgenomen.",
-        "reason": "Stagiair-toon: korte zinnen; 'gezamenlijk controlerende vennoot' → 'gezamenlijk controlerende moeder' (regel 6)."
-      }
-    ]
-  },
   "voorwaarden_toepassing": [
     {
       "text": "Er moet gezamenlijke controle bestaan over de gemeenschappelijke dochter: een overeenkomst dat beleidsbeslissingen alleen met gemeenschappelijke instemming kunnen worden genomen.",
@@ -714,5 +671,49 @@
       "omschrijving": "Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV (gezamenlijke controle via aandeelhoudersovereenkomst). Cardinal neemt 50 % van elke balanspost en elke opbrengst/kost van Filmstudio Florence op in haar geconsolideerde jaarrekening. Geen post 'Belangen van derden'."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke gezamenlijk controlerende moeder op naar rato van haar aandeel in het kapitaal (of in de inbreng bij vennootschappen zonder kapitaal). Alleen jouw pro-rata stuk van de bezittingen, schulden, opbrengsten en kosten komt erin — geen afzonderlijke 'belangen van derden' nodig, want het deel buiten de groep wordt simpelweg niet opgenomen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV art. 3:124, 2° jo. art. 3:140"
+    },
+    "references": [
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:124, 2°"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:140"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:139"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-2019__art_3_111",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_110",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    },
+    "_corrected_from": [
+      {
+        "field": "text",
+        "from": "Een gemeenschappelijke dochter (een vennootschap waarover een beperkt aantal vennoten gezamenlijke controle uitoefenen via overeenkomst) wordt in de geconsolideerde jaarrekening van elke gezamenlijk controlerende vennoot opgenomen naar rato van haar rechten in het kapitaal (of in de inbreng, voor kapitaalloze vennootschappen). Hiermee wordt enkel het pro-rata deel van de activa, passiva, opbrengsten en kosten meegenomen — zonder afzondering van 'aandeel van derden', want het derden-deel wordt eenvoudigweg niet opgenomen.",
+        "reason": "Stagiair-toon: korte zinnen; 'gezamenlijk controlerende vennoot' → 'gezamenlijk controlerende moeder' (regel 6)."
+      }
+    ]
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

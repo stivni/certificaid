@@ -2,7 +2,7 @@
   "id": "uitvoeren-risico-inschatting-en-materialiteit-audit",
   "naam": "Uitvoeren van risico-inschatting en bepalen van het materieel belang in een audit",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Uitvoeren van risico-inschatting en bepalen van het materieel belang in een audit",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -205,7 +205,9 @@
     "voorgesteld_door": "competentie-destillatie-v2-po16-2026-05-17T08:00Z",
     "voorgesteld_op": "2026-05-17T08:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T14:35Z",
+    "last_extract_at": "2026-05-18T14:35:00Z"
   },
   "linked_anchors": [
     "1.6.taak.1",
@@ -213,5 +215,44 @@
     "1.6.II",
     "1.6.III.A"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": "Risico-inschatting en materialiteit zijn de twee parameters die bepalen waar de accountant zijn werkzaamheden concentreert en waar minimale aandacht volstaat. Het auditrisicomodel (IR × CR × DR ≤ AR) en de materialiteitsdrempel (typisch 5-10% van een passende benchmark) sturen samen de scope van het werkprogramma. Zonder gedocumenteerde risico-inschatting kan een latere bevinding niet verdedigd worden in een review: 'we hebben niet gekeken want we hadden het niet als risico geïdentificeerd' is alleen aanvaardbaar mits dat geargumenteerd vastligt.",
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "risico-inschatting-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "auditrisicomodel"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "materieel-belang-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "significant-risico-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "beweringen-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "fraude-versus-fout"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "inherent-risico"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "intern-beheersingsrisico"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "ontdekkingsrisico"
+    }
+  ]
 }

@@ -19,6 +19,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Materieel belang (materialiteit) in een audit 🤖
 
+Materieel belang (materialiteit) is de drempel waarboven afwijkingen — qua bedrag of qua aard — de economische beslissingen van gebruikers van de financiële overzichten beïnvloeden. Het is een kerngrootheid die zowel bij planning (waar moet ik testen?) als bij de oordeelsvorming (zijn niet-gecorrigeerde afwijkingen samen materieel?) optreedt. Een tweede dimensie — diepgaande invloed — bepaalt of een materiële afwijking tot oordeel met voorbehoud (geïsoleerd) of afkeurend oordeel (alles-doordringend) leidt.
+
 > [!summary] Korte inhoud
 > Materieel belang is de drempel waarboven een afwijking — afzonderlijk of gezamenlijk — de economische beslissingen kan beïnvloeden die gebruikers nemen op basis van de financiële overzichten.
 
@@ -58,7 +60,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + §117_
 
 - **Vereist kennis van**: [[afwijking-van-materieel-belang]]
 - **Vereist kennis van**: [[auditrisicomodel]]
-- **Wordt voorondersteld in** (3): [[controleoordeel-types]] · [[fraude-versus-fout]] · [[getrouw-beeld-controle]]
+
 ## Voorbeelden
 
 Sofie Janssens bepaalt voor Rotex Roeselare NV een materialiteit van 5 % op het resultaat vóór belasting (€ 2.000.000 × 5 % = € 100.000). Afwijkingen ≥ € 100.000 zijn 'materieel'; daaronder maar > € 5.000 (=5 % van materialiteit) worden gerapporteerd op een misstatement-log. Onder € 5.000 niet getest.

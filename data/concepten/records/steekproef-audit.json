@@ -13,23 +13,6 @@
     "anchor_id": "1.6.II.C",
     "reviewed_by": null
   },
-  "doel": {
-    "text": "Een steekproef bij een audit is het verrichten van controlewerkzaamheden op minder dan 100 % van de elementen binnen een relevante populatie, op zodanige wijze dat alle elementen geselecteerd kunnen worden. Het doel: een redelijke basis krijgen voor conclusies over de hele populatie zonder alles te testen.",
-    "confidence": "grounded",
-    "source": {
-      "type": "norm",
-      "short": "ITAA KMO-controlenorm Bijlage 1 (Steekproef)"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "in_praktijk": [
     {
       "aspect": "Steekproefrisico — twee soorten foutieve conclusies",
@@ -63,5 +46,23 @@
       "omschrijving": "Rotex Roeselare NV heeft 4.500 aankoopfacturen 2025. Sofie Janssens kan onmogelijk alle 4.500 testen. Zij selecteert een statistische steekproef van 60 facturen — gestratificeerd naar bedrag — en toetst per factuur of de IC-controles werden uitgevoerd. Steekproefrisico: 0 fouten in steekproef garandeert niet dat er 0 fouten in de populatie zitten."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Een steekproef bij een audit is het verrichten van controlewerkzaamheden op minder dan 100 % van de elementen binnen een relevante populatie, op zodanige wijze dat alle elementen geselecteerd kunnen worden. Het doel: een redelijke basis krijgen voor conclusies over de hele populatie zonder alles te testen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1 (Steekproef)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

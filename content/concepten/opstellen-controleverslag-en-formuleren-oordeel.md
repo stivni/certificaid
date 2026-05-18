@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opstellen-controleverslag-en-formuleren-oordeel.json
 gegenereerd_op: '2026-05-18'
 ---
 # Opstellen van het controleverslag en formuleren van het oordeel 🤖
+
+Deze competentie omvat het formuleren van het controleoordeel (kiezen uit de vier types op basis van materialiteit + diepgaandheid + voldoende-en-geschikte assurance-informatie) én het redigeren van het controleverslag conform de ISA-700/705/706/701/720-structuur, aangevuld met Belgische ITAA-vereisten (scope-grenzen, andere prestaties, confraterneel afschrift). De stagiair leert het verslag als communicatie-instrument: paragraaf-volgorde en paragraaf-titels verschillen mee met het oordeels-type.
 
 
 ## Stappen
@@ -154,9 +156,25 @@ Laat het verslag reviewen door tweede partner / Engagement Quality Reviewer, ond
 > _Grondslag_: [[wettelijke-controleopdracht-commissaris]] §persoonlijke-ondertekening
 
 
+## Zie ook
+
+- **Vereist kennis van**: [[controleverslag-elementen]]
+- **Vereist kennis van**: [[controleoordeel-types]]
+- **Vereist kennis van**: [[aangepast-oordeel]]
+- **Vereist kennis van**: [[paragraaf-ter-benadrukking]]
+- **Vereist kennis van**: [[paragraaf-overige-aangelegenheden]]
+- **Vereist kennis van**: [[materieel-belang-audit]]
+- **Vereist kennis van**: [[getrouw-beeld-controle]]
+- **Vereist kennis van**: [[wettelijke-controleopdracht-commissaris]]
+
 ## Voorbeelden
 
 
 
 
 
+## Bronnen
+
+[^1]: `ISA-700-herzien__sec_vereisten_2_part3`
+[^2]: `ISA-705-herzien__sec_vereisten_2_part3`
+[^3]: `ITAA-norm-algemene-controlenorm__sec_2-verslag`

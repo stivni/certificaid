@@ -81,75 +81,6 @@
       ]
     }
   },
-  "doel": {
-    "text": "Een deelneming verschijnt in de geconsolideerde jaarrekening niet activum-per-activum, maar als één samengevatte balanspost. Bij de eerste opname waardeer je die post aan jouw pro-rata aandeel in het eigen vermogen van de andere onderneming op de datum van aankoop. Daarna pas je die boekwaarde elk boekjaar aan met jouw aandeel in het resultaat en in directe wijzigingen van het eigen vermogen. Je gebruikt deze methode voor (a) geassocieerde ondernemingen (invloed van betekenis, geen controle), (b) gemeenschappelijke dochters waarvan de activiteit niet nauw geïntegreerd is in die van de moeder, en (c) dochters die uit de consolidatie zijn gelaten op grond van KB WVV art. 3:98 of art. 3:99.",
-    "confidence": "grounded",
-    "source": {
-      "type": "kb",
-      "short": "KB WVV art. 3:142 jo. art. 3:141 — 3:145"
-    },
-    "references": [
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:100 (uitgesloten dochters)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:141 (balansvoorstelling)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:142, § 1 — 2 (eerste consolidatie)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:143 (latere consolidaties)"
-      },
-      {
-        "type": "kb",
-        "short": "KB WVV art. 3:145 (aandeel in resultaat)"
-      },
-      {
-        "type": "advies",
-        "short": "CBN 2022/11 — Vermogensmutatiemethode"
-      },
-      {
-        "type": "advies",
-        "short": "CBN 2014/3 — Mutaties binnen eigen vermogen geassocieerde"
-      }
-    ],
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "KB-WVV-2019__art_3_113",
-          "sha256": null,
-          "version": "rag-v1"
-        },
-        {
-          "id": "KB-WVV-2019__art_3_115",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    },
-    "_corrected_from": [
-      {
-        "field": "text",
-        "from": "Een deelneming wordt in de geconsolideerde jaarrekening niet activum-per-activum opgenomen, maar als één gesynthetiseerde balanspost — initieel gewaardeerd aan het pro-rata aandeel in het eigen vermogen van de betrokken onderneming op datum van aankoop, en vervolgens jaarlijks aangepast voor het pro-rata aandeel in de wijzigingen in dat eigen vermogen (resultaat en directe mutaties). De methode wordt toegepast op (a) geassocieerde ondernemingen (invloed van betekenis, geen controle), (b) gemeenschappelijke dochters waarvan het bedrijf niet nauw geïntegreerd is in dat van de moeder, en (c) dochterondernemingen buiten de consolidatie gelaten op grond van KB WVV art. 3:98 of 3:99.",
-        "reason": "Stagiair-toon: korte zinnen, 'gesynthetiseerde balanspost' → 'samengevatte balanspost' (regel 6)."
-      }
-    ]
-  },
   "voorwaarden_toepassing": [
     {
       "text": "Geassocieerde onderneming: een deelneming waar je invloed van betekenis hebt, maar geen controle (WVV art. 1:22). Weerlegbaar vermoeden vanaf 20 % stemrechten.",
@@ -1197,5 +1128,75 @@
       "omschrijving": "Antwerpse Investments NV koopt 25 % van Drukkerij Dendermonde BV voor € 350.000; eigen vermogen (EV) Drukkerij op aankoopdatum = € 1.250.000 → pro-rata aandeel = 25 % × € 1.250.000 = € 312.500; positief consolidatieverschil = € 37.500. In jaar 1 maakt Drukkerij € 200.000 winst → pro-rata € 50.000 → boekwaarde 'Vennootschappen waarop vermogensmutatie is toegepast' stijgt met € 50.000."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": {
+    "text": "Een deelneming verschijnt in de geconsolideerde jaarrekening niet activum-per-activum, maar als één samengevatte balanspost. Bij de eerste opname waardeer je die post aan jouw pro-rata aandeel in het eigen vermogen van de andere onderneming op de datum van aankoop. Daarna pas je die boekwaarde elk boekjaar aan met jouw aandeel in het resultaat en in directe wijzigingen van het eigen vermogen. Je gebruikt deze methode voor (a) geassocieerde ondernemingen (invloed van betekenis, geen controle), (b) gemeenschappelijke dochters waarvan de activiteit niet nauw geïntegreerd is in die van de moeder, en (c) dochters die uit de consolidatie zijn gelaten op grond van KB WVV art. 3:98 of art. 3:99.",
+    "confidence": "grounded",
+    "source": {
+      "type": "kb",
+      "short": "KB WVV art. 3:142 jo. art. 3:141 — 3:145"
+    },
+    "references": [
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:100 (uitgesloten dochters)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:141 (balansvoorstelling)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:142, § 1 — 2 (eerste consolidatie)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:143 (latere consolidaties)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:145 (aandeel in resultaat)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2022/11 — Vermogensmutatiemethode"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2014/3 — Mutaties binnen eigen vermogen geassocieerde"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-11-vermogensmutatiemethode__sec_eerste-consolidatie",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_113",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_115",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    },
+    "_corrected_from": [
+      {
+        "field": "text",
+        "from": "Een deelneming wordt in de geconsolideerde jaarrekening niet activum-per-activum opgenomen, maar als één gesynthetiseerde balanspost — initieel gewaardeerd aan het pro-rata aandeel in het eigen vermogen van de betrokken onderneming op datum van aankoop, en vervolgens jaarlijks aangepast voor het pro-rata aandeel in de wijzigingen in dat eigen vermogen (resultaat en directe mutaties). De methode wordt toegepast op (a) geassocieerde ondernemingen (invloed van betekenis, geen controle), (b) gemeenschappelijke dochters waarvan het bedrijf niet nauw geïntegreerd is in dat van de moeder, en (c) dochterondernemingen buiten de consolidatie gelaten op grond van KB WVV art. 3:98 of 3:99.",
+        "reason": "Stagiair-toon: korte zinnen, 'gesynthetiseerde balanspost' → 'samengevatte balanspost' (regel 6)."
+      }
+    ]
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

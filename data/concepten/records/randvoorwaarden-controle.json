@@ -1,7 +1,7 @@
 {
   "id": "randvoorwaarden-controle",
   "naam": "Randvoorwaarden voor een controle (preconditions)",
-  "node_type": "voorgesteld:randvoorwaarden",
+  "node_type": "regel",
   "schema_version": "1.5",
   "status": "seed",
   "linked_anchors": [
@@ -9,30 +9,17 @@
     "1.6.II.A"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.I.A",
-    "dekt_ook_anchors": [
+    "linked_anchors": [
+      "1.6.I.A",
       "1.6.II.A"
     ],
-    "reviewed_by": null
-  },
-  "definitie": {
-    "text": "Randvoorwaarden voor een controle zijn (1) het gebruik door het management of de met governance belaste personen van een AANVAARDBAAR stelsel inzake financiële verslaggeving, en (2) hun TOESTEMMING met de veronderstellingen op basis waarvan de controle wordt uitgevoerd. Zonder beide is een audit niet uitvoerbaar.",
-    "confidence": "grounded",
-    "source": {
-      "type": "norm",
-      "short": "ITAA KMO-controlenorm Bijlage 1"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T16:05Z",
+    "last_extract_at": "2026-05-18T16:05:00Z"
   },
   "in_praktijk": [
     {
@@ -85,5 +72,70 @@
       "omschrijving": "Vooraleer Wolters & Partners CVBA de audit van Meubelzaak Mertens BV aanvaardt, vergewist Sofie Janssens zich ervan dat (1) de jaarrekening volgens Belgisch jaarrekeningenrecht / KB WVV wordt opgesteld (aanvaardbaar stelsel) en (2) de zaakvoerder erkent zijn verantwoordelijkheden voor de jaarrekening, de IC, en het verschaffen van toegang/informatie."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "verplichting": {
+    "text": "Vóór de aanvaarding van een audit-opdracht (en vervolgens doorlopend) toetst de externe accountant of de randvoorwaarden voor een controle vervuld zijn: (1) het management of de met governance belaste personen gebruikt een aanvaardbaar stelsel inzake financiële verslaggeving, en (2) zij erkennen en aanvaarden hun drie basisverantwoordelijkheden — voor de jaarrekening, voor de interne beheersing en voor het verschaffen van informatie en toegang. Wanneer één van beide ontbreekt, mag de auditor de opdracht niet aanvaarden of moet hij de scope materieel beperken.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": "De randvoorwaarden (preconditions) zijn de minimale voorwaarden die ISA 210 en de ITAA KMO-controlenorm stellen aan elke audit-opdracht. Zonder aanvaardbaar verslaggevingsstelsel mist de auditor zijn referentiekader; zonder erkenning van de drie verantwoordelijkheden door het management is een controle niet uitvoerbaar. De preconditions worden geverifieerd vóór aanvaarding en blijven gelden gedurende de hele audit.",
+  "references": [
+    {
+      "type": "norm",
+      "short": "ISA 210 — Overeenkomen van de voorwaarden van controleopdrachten"
+    },
+    {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1"
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "De drie verantwoordelijkheden van het management moeten SCHRIFTELIJK worden bevestigd vóór de aanvaarding — niet pas in de schriftelijke bevestiging op het einde van de audit. Mondelinge bevestiging volstaat niet.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm Bijlage 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Het 'aanvaardbaar stelsel inzake financiële verslaggeving' is meestal evident (BE-GAAP, IFRS, vzw-stelsel) — maar bij niche-stelsels (special purpose framework, bijzondere reportagewijze) moet de auditor expliciet beoordelen of het stelsel aanvaardbaar is. Niet elk stelsel dat de cliënt voorstelt is geldig.",
+      "confidence": "inferred-from-aggregation",
+      "source": {
+        "type": "norm",
+        "short": "ISA 210 §6, ITAA KMO-controlenorm Bijlage 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "naam_alternatief": "preconditions for an audit (ISA 210)"
 }

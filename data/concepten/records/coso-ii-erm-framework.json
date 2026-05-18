@@ -20,13 +20,6 @@
     "reviewed_by": null,
     "bron_gap": "COSO II (2004, herziene versie 2017 'ERM-Integrating with Strategy and Performance'). Internationale vakdoctrine. Inferred-common-knowledge."
   },
-  "doel": {
-    "text": "COSO II breidt COSO I uit naar Enterprise Risk Management — een geïntegreerde benadering van risicobeheer die strategie, prestaties en cultuur in één framework brengt. Centraal: risicobeheer is geen afzonderlijke functie maar verweven in elke strategische beslissing. Herziening 2017 verlegt klemtoon naar 'risk in strategy setting' en 'risk appetite'.",
-    "confidence": "inferred-common-knowledge",
-    "_provenance": {
-      "inputs": []
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Vijf samenstellende delen (2017)",
@@ -73,5 +66,13 @@
       "omschrijving": "Bij Rotex Roeselare NV (groot, beursgenoteerd): COSO II ondersteunt het risicobeheer op enterprise-niveau. Strategie 'expansie naar Duitse markt' krijgt risico-assessment (regelgeving, valuta, concurrentie, reputatie) en wordt afgewogen tegen risk appetite vastgesteld door RvB."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "COSO II breidt COSO I uit naar Enterprise Risk Management — een geïntegreerde benadering van risicobeheer die strategie, prestaties en cultuur in één framework brengt. Centraal: risicobeheer is geen afzonderlijke functie maar verweven in elke strategische beslissing. Herziening 2017 verlegt klemtoon naar 'risk in strategy setting' en 'risk appetite'.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

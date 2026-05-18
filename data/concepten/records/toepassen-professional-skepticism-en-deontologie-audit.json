@@ -2,7 +2,7 @@
   "id": "toepassen-professional-skepticism-en-deontologie-audit",
   "naam": "Toepassen van professional skepticism en deontologische normen tijdens de audit",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Toepassen van professional skepticism en deontologische normen tijdens de audit",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -20,16 +20,6 @@
       "1.6.IV"
     ]
   },
-  "gebaseerd_op_concepten": [
-    "professioneel-kritische-instelling",
-    "professionele-oordeelsvorming",
-    "onafhankelijkheid-externe-accountant",
-    "belangenconflict-accountant",
-    "beroepsgeheim-accountant",
-    "fraude-versus-fout",
-    "itaa-algemene-controlenorm",
-    "itaa-kmo-controlenorm"
-  ],
   "procedure_grondslag": {
     "wettelijk_pct": 70,
     "praktijk_pct": 30,
@@ -180,7 +170,11 @@
     "voorgesteld_door": "competentie-destillatie-v2-po16-2026-05-17T08:00Z",
     "voorgesteld_op": "2026-05-17T08:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
+    "situering_added_v4_at": "2026-05-18",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T14:35Z",
+    "last_extract_at": "2026-05-18T14:35:00Z"
   },
   "linked_anchors": [
     "1.6.taak.1",
@@ -190,5 +184,72 @@
     "1.6.III",
     "1.6.IV"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "professioneel-kritische-instelling"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "professionele-oordeelsvorming"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "onafhankelijkheid-externe-accountant"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "belangenconflict-accountant"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "beroepsgeheim-accountant"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "fraude-versus-fout"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "algemene-controlenorm-accountant"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "kmo-controlenorm-accountant"
+    }
+  ],
+  "vergelijkingsparen": [],
+  "gebaseerd_op_concepten": [
+    "professioneel-kritische-instelling",
+    "professionele-oordeelsvorming",
+    "onafhankelijkheid-externe-accountant",
+    "belangenconflict-accountant",
+    "beroepsgeheim-accountant",
+    "fraude-versus-fout",
+    "algemene-controlenorm-accountant",
+    "kmo-controlenorm-accountant"
+  ],
+  "situering": {
+    "text": "Deze competentie omspant de doorlopende attitude-componenten van een externe controle-opdracht: onafhankelijkheid bewaken, belangenconflicten beheersen, beroepsgeheim respecteren met begrip van de wettelijke uitzonderingen, en professioneel-kritische instelling toepassen in concrete oordeelsvorming. Wettelijk verankerd in Wet ITAA 2019 art. 14 + KB 1998 plichtenleer + ITAA-normen + art. 458 Strafwetboek; de invulling van waarborgmaatregelen en challenge-procedures is praktijkbeleid + persoonlijke oordeelsvorming.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "Wet ITAA 2019 art. 14 + KB 1998 plichtenleer + ITAA-normen"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_2-2-3-uitvoering-van-de-opdracht",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }

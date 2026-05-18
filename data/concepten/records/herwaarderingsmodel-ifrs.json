@@ -17,49 +17,6 @@
     ],
     "reviewed_by": null
   },
-  "doel": {
-    "text": "Het herwaarderingsmodel (IAS 16 alinea 31) waardeert materiële vaste activa **na eerste opname tegen geherwaardeerde waarde**: de reële waarde op de datum van herwaardering, verminderd met latere geaccumuleerde afschrijvingen en bijzondere waardeverminderingsverliezen. Doel: gebruikers van de jaarrekening een actueler beeld geven van de werkelijke economische waarde van het bedrijfskapitaal, in plaats van vast te houden aan historische kostprijs die snel verouderd kan zijn. Het model is een **alternatief** voor het kostprijsmodel; een entiteit kiest per categorie materiële vaste activa welk van beide ze toepast.",
-    "confidence": "grounded",
-    "source": {
-      "type": "ifrs",
-      "short": "IAS 16 alinea 31"
-    },
-    "references": [
-      {
-        "type": "ifrs",
-        "short": "IAS 16 alinea 31 (model)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 16 alinea 34 (frequentie)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 16 alinea 36 (volledige categorie)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 16 alinea 39-40 (boeking stijging/daling)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IAS 16 alinea 41 (overboeking herwaarderingsreserve)"
-      },
-      {
-        "type": "ifrs",
-        "short": "IFRS 13 (waardering tegen reële waarde)"
-      }
-    ],
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Stijging — naar OCI (herwaarderingsreserve)",
@@ -290,5 +247,49 @@
       "pass": "concept-extractie-v4-1.5.V",
       "reason": "Bron-prefix smell (§17 regel 11): record-id bevatte bron-aanduiding zonder werkelijk parallel-regime onder andere bron."
     }
-  ]
+  ],
+  "situering": {
+    "text": "Het herwaarderingsmodel (IAS 16 alinea 31) waardeert materiële vaste activa **na eerste opname tegen geherwaardeerde waarde**: de reële waarde op de datum van herwaardering, verminderd met latere geaccumuleerde afschrijvingen en bijzondere waardeverminderingsverliezen. Doel: gebruikers van de jaarrekening een actueler beeld geven van de werkelijke economische waarde van het bedrijfskapitaal, in plaats van vast te houden aan historische kostprijs die snel verouderd kan zijn. Het model is een **alternatief** voor het kostprijsmodel; een entiteit kiest per categorie materiële vaste activa welk van beide ze toepast.",
+    "confidence": "grounded",
+    "source": {
+      "type": "ifrs",
+      "short": "IAS 16 alinea 31"
+    },
+    "references": [
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 31 (model)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 34 (frequentie)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 36 (volledige categorie)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 39-40 (boeking stijging/daling)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 41 (overboeking herwaarderingsreserve)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IFRS 13 (waardering tegen reële waarde)"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

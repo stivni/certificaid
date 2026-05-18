@@ -7,6 +7,7 @@ tags:
 linked_anchors:
 - 1.6.III.B
 - 1.6.III.A
+- 1.6.III
 programmaonderdelen:
 - '1.6'
 confidence: grounded
@@ -17,6 +18,8 @@ gegenereerd_uit: data/concepten/records/werkprogramma-audit.json
 gegenereerd_op: '2026-05-18'
 ---
 # Werkprogramma / werkschema audit ⚖️
+
+Het werkprogramma (controleprogramma in ISA 300-terminologie) is de tweede laag van de audit-planning: nadat de algehele strategie de richting heeft bepaald, beschrijft het werkprogramma per assertie en rubriek welke risico-inschattingswerkzaamheden en verdere controlewerkzaamheden worden uitgevoerd, met aanduiding van aard, timing en omvang. Het is het werkdocument waarmee teamleden de audit operationeel uitvoeren.
 
 > [!summary] Korte inhoud
 > Een werkprogramma (of werkschema) is een schriftelijke beschrijving van de controlewerkzaamheden die uitgevoerd zullen worden — met aanduiding van wanneer en hoe ze gebeuren en hoeveel tijd ze in beslag nemen.
@@ -44,7 +47,8 @@ _Bron: ITAA Algemene controlenorm §3_
 ## Zie ook
 
 - **Vereist kennis van**: [[controledocumentatie]]
-- **Wordt voorondersteld in** (1): [[controledocumentatie]]
+- **Vereist kennis van**: [[auditstrategie]]
+
 ## Voorbeelden
 
 Sofie Janssens bouwt voor de audit Rotex Roeselare NV een werkprogramma per rubriek: bv. 'Voorraden — uitvoeren fysieke telling 31 dec, steekproef 30 SKU's met waardering tegen FIFO, testen cut-off december/januari, bevraging consignatievoorraad'. Geschatte tijd: 40 uur, uitvoerder: Tom (junior), review: Sofie.
@@ -52,3 +56,4 @@ Sofie Janssens bouwt voor de audit Rotex Roeselare NV een werkprogramma per rubr
 ## Bronnen
 
 [^1]: `ITAA-norm-algemene-controlenorm__sec_3-werkschema`
+[^2]: `ISA-300__sec_doelstellingen`

@@ -23,7 +23,6 @@
     "reviewed_by": null,
     "po_1_2_extension": "2026-05-16: +['1.2.V.B', '1.2.V', '1.2.taak.1']"
   },
-  "doel": "De aanschaffingswaarde van vaste activa met beperkte gebruiksduur **systematisch spreiden** over de jaren waarin het actief economisch wordt gebruikt — zodat de kost in elk jaar verschijnt waarin het actief baten oplevert (matching).",
   "definitie": {
     "text": "Bedragen ten laste van de resultatenrekening genomen met betrekking tot **oprichtingskosten** en **immateriële en materiële vaste activa met beperkte gebruiksduur**, om hetzij de aanschaffingswaarde te spreiden over de waarschijnlijke gebruiksduur, hetzij de kost te nemen op het ogenblik waarop ze worden aangegaan (KB WVV art. 3:23). Het afschrijvingsplan wordt vastgesteld door het bestuursorgaan en samengevat in de toelichting. De gecumuleerde afschrijvingen worden in mindering gebracht van de actiefposten waarop ze betrekking hebben.",
     "confidence": "grounded",
@@ -389,5 +388,7 @@
       "omschrijving": "Naaiatelier Ninove BV koopt een snij-installatie voor € 30.500 met geschatte gebruiksduur van 5 jaar. Lineaire afschrijving = € 30.500 / 5 = € 6.100 per jaar. Eind jaar 1: Debet 6302 Afschrijvingen materiële vaste activa € 6.100 / Credit 2309 Afschrijvingen op installaties € 6.100. Op de balans staat de netto-boekwaarde aan eind jaar 1 op € 30.500 − € 6.100 = € 24.400."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "De aanschaffingswaarde van vaste activa met beperkte gebruiksduur **systematisch spreiden** over de jaren waarin het actief economisch wordt gebruikt — zodat de kost in elk jaar verschijnt waarin het actief baten oplevert (matching).",
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

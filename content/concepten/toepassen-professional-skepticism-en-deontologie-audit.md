@@ -16,11 +16,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/toepassen-professional-skepticism-en-deontologie-audit.json
 gegenereerd_op: '2026-05-18'
 ---
 # Toepassen van professional skepticism en deontologische normen tijdens de audit 🤖
+
+Deze competentie omspant de doorlopende attitude-componenten van een externe controle-opdracht: onafhankelijkheid bewaken, belangenconflicten beheersen, beroepsgeheim respecteren met begrip van de wettelijke uitzonderingen, en professioneel-kritische instelling toepassen in concrete oordeelsvorming. Wettelijk verankerd in Wet ITAA 2019 art. 14 + KB 1998 plichtenleer + ITAA-normen + art. 458 Strafwetboek; de invulling van waarborgmaatregelen en challenge-procedures is praktijkbeleid + persoonlijke oordeelsvorming.
 
 
 ## Stappen
@@ -148,9 +150,24 @@ Hou een onderzoekende, kritische houding aan — accepteer geen verklaring of ev
 > _Grondslag_: [[professioneel-kritische-instelling]] §documenteer-de-challenge
 
 
+## Zie ook
+
+- **Vereist kennis van**: [[professioneel-kritische-instelling]]
+- **Vereist kennis van**: [[professionele-oordeelsvorming]]
+- **Vereist kennis van**: [[onafhankelijkheid-externe-accountant]]
+- **Vereist kennis van**: [[belangenconflict-accountant]]
+- **Vereist kennis van**: [[beroepsgeheim-accountant]]
+- **Vereist kennis van**: [[fraude-versus-fout]]
+- **Vereist kennis van**: [[algemene-controlenorm-accountant]]
+- **Vereist kennis van**: [[kmo-controlenorm-accountant]]
+
 ## Voorbeelden
 
 
 
 
 
+## Bronnen
+
+[^1]: `ITAA-norm-kmo-controlenorm__sec_2-2-3-uitvoering-van-de-opdracht`
+[^2]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4`

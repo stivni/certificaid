@@ -10,14 +10,18 @@
     "1.6.taak.1"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
     "model": "claude-opus-4-7",
-    "anchor_id": "1.6.I.B",
-    "dekt_ook_anchors": [
+    "anchor_id": "1.6.I",
+    "linked_anchors": [
+      "1.6.I.B",
       "1.6.I.A",
       "1.6.taak.1"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T16:10Z",
+    "last_extract_at": "2026-05-18T16:10:00Z"
   },
   "definitie": {
     "text": "Een bedrijfsrevisor is een natuurlijke of rechtspersoon die door het Instituut van de Bedrijfsrevisoren (IBR) is erkend en die exclusief bevoegd is voor de wettelijke controle van de jaarrekening van vennootschappen (commissaris-mandaat). Bedrijfsrevisoren staan onder publiek toezicht via het College van Toezicht.",
@@ -164,5 +168,7 @@
       "omschrijving": "Sofie Janssens is bedrijfsrevisor en IBR-lid, vaste vertegenwoordiger van Wolters & Partners CVBA. Zij ondertekent persoonlijk het commissarisverslag bij de jaarrekening 2025 van Rotex Roeselare NV."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "De bedrijfsrevisor is de tegenhanger van de gecertificeerd accountant aan de revisor-zijde: exclusief bevoegd voor de wettelijke controle van de jaarrekening (commissarismandaat), maar deelt voor andere wettelijk voorbehouden opdrachten het monopolie met de GA. Georganiseerd via het Instituut van de Bedrijfsrevisoren (IBR) en onder publiek toezicht van het College van Toezicht. Voor het bekwaamheidsexamen GA cruciaal: WAT mag enkel de revisor, WAT mogen beide?",
+  "naam_alternatief": "statutory auditor / réviseur d'entreprises"
 }

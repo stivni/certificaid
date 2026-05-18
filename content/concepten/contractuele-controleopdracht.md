@@ -19,10 +19,10 @@ gegenereerd_op: '2026-05-18'
 ---
 # Contractuele controleopdracht ⚖️
 
+De contractuele controleopdracht is de niet-wettelijke audit van een jaarrekening: zowel de gecertificeerd accountant als de bedrijfsrevisor mag hem uitvoeren onder de ITAA KMO-controlenorm of (voor de revisor) de ISA-standaarden. Vraag komt typisch van banken, kandidaat-overnemers of aandeelhouders die meer comfort willen dan een samenstelling biedt maar niet de wettelijke controle nodig hebben. Levert het hoogste haalbare zekerheidsniveau (redelijk) en eindigt op een positief oordeel.
+
 > [!summary] Korte inhoud
 > Een contractuele controleopdracht is een opdracht waarbij de gecertificeerd accountant (of bedrijfsrevisor) op verzoek van de cliënt — niet door wet opgelegd — een redelijke mate van zekerheid verschaft over de betrouwbaarheid van historische financiële informatie zoals een jaarr….
-
-> [!info] Specialisatie van: [[assurance-opdracht]]
 
 Een contractuele controleopdracht is een opdracht waarbij de gecertificeerd accountant (of bedrijfsrevisor) op verzoek van de cliënt — niet door wet opgelegd — een redelijke mate van zekerheid verschaft over de betrouwbaarheid van historische financiële informatie zoals een jaarrekening. De beroepsbeoefenaar brengt een oordeel in positieve vorm tot uitdrukking ('de financiële overzichten geven een getrouw beeld').
 
@@ -90,8 +90,8 @@ _Grondslag: ITAA KMO-controlenorm §2_
 ## Zie ook
 
 - **Vereist kennis van**: [[redelijke-mate-van-zekerheid]]
-- **Getriggerd door**: [[opdrachtbrief]]
-- **Triggert** (1): [[redelijke-mate-van-zekerheid]]
+- **Getriggerd door**: [[opdrachtbrief-accountant]]
+
 ## Voorbeelden
 
 Meubelzaak Mertens BV (KMO onder de drempels) wil bij een bankaanvraag van € 750.000 extra geloofwaardigheid. De zaakvoerder vraagt Wolters & Partners CVBA om een contractuele controle uit te voeren over boekjaar 2025. Sofie Janssens voert een volledige audit uit volgens de KMO-controlenorm en levert een verslag af met een positief oordeel.

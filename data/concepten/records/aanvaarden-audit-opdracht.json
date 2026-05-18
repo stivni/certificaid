@@ -2,7 +2,7 @@
   "id": "aanvaarden-audit-opdracht",
   "naam": "Aanvaarden van een audit-opdracht en opmaken van de opdrachtbrief",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Aanvaarden van een audit-opdracht en opmaken van de opdrachtbrief",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -217,10 +217,19 @@
     }
   ],
   "_provenance": {
-    "voorgesteld_door": "competentie-destillatie-v2-po16-2026-05-17T08:00Z",
-    "voorgesteld_op": "2026-05-17T08:00:00Z",
-    "gecureerd_door": null,
-    "gecureerd_op": null
+    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.I",
+    "linked_anchors": [
+      "1.6.taak.1",
+      "1.6.I.A",
+      "1.6.I.B",
+      "1.6.III.A",
+      "1.6.III.E"
+    ],
+    "reviewed_by": null,
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T14:35Z",
+    "last_extract_at": "2026-05-18T14:35:00Z"
   },
   "linked_anchors": [
     "1.6.taak.1",
@@ -229,5 +238,28 @@
     "1.6.III.A",
     "1.6.III.E"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": "De aanvaardingsfase is de poortwachter van elke audit-opdracht: vóór een vinger aan het dossier ligt moet de accountant beslissen of hij de opdracht mag, kan en wil uitvoeren. Vijf checks: (1) randvoorwaarden door cliënt vervuld, (2) onafhankelijkheid bewezen, (3) eventuele voorganger schriftelijk gecontacteerd, (4) opdrachtbrief opgesteld en ondertekend, (5) kwaliteitsbeheersingsdossier geopend. Mis je één → opdracht weigeren of terugtrekken. De competentie speelt zowel bij contractuele opdrachten (KMO-controlenorm) als commissarismandaten (ISA 220 + ISA 210).",
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "opdrachtbrief-accountant"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "randvoorwaarden-controle"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "opvolging-voorganger-accountant"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "onafhankelijkheid-externe-accountant"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "kwaliteitsbeheersing-opdrachtniveau"
+    }
+  ]
 }

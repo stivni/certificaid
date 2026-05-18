@@ -32,11 +32,6 @@
     ],
     "note": "Synthese-record: _provenance.inputs sloeg eerder onderaan; nu correct gevuld op record-niveau."
   },
-  "gebaseerd_op_concepten": [
-    "itaa-kmo-controlenorm",
-    "itaa-algemene-controlenorm",
-    "samenstellingsopdracht-isrs4410"
-  ],
   "vergelijkingstabel": "| ITAA-norm | Domein | IC-aspect |\n|---|---|---|\n| Algemene controlenorm | Wettelijke + contractuele audit (algemeen) | Auditor moet IC begrijpen + waar zinvol op steunen |\n| KMO-controlenorm | Audit bij KMO's | Specifieke IC-aanpassingen voor KMO-context, lichtere documentatie |\n| Samenstellingsopdracht (ISRS 4410) | Geen audit, wel hulp bij jaarrekening | Geen IC-toetsing maar wel awareness van zwakke IC |\n| Norm intern kwaliteitsmanagement | Kantoor van de accountant zelf | IC voor het accountantskantoor |\n| Norm fusie/splitsing | Specifieke opdrachten WVV | IC-controle bij waardering + ruilverhouding |\n| AWW (anti-witwassen) reglement | Witwasvoorkoming | IC op cliëntenidentificatie + monitoring |\n| Norm permanente vorming | Beroepsuitoefening | Update kennis IC + audit |",
   "voorbeelden": [
     {
@@ -44,5 +39,12 @@
       "omschrijving": "Bij Yperse Werkplaats BV doet Sofie Janssens (commissaris) de wettelijke controle volgens ITAA-norm-kmo-controlenorm. §96-§98 sturen haar aanpak: ze moet IC begrijpen, het IC-risico inschatten en — als ze op IC wil steunen — toetsen uitvoeren. Voor een samenstellingsopdracht (geen controle) gelden andere normen — geen IC-toetsing maar wel besef van risico's."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "edges": [],
+  "vergelijkingsparen": [],
+  "gebaseerd_op_concepten": [
+    "kmo-controlenorm-accountant",
+    "algemene-controlenorm-accountant",
+    "samenstellingsopdracht"
+  ]
 }

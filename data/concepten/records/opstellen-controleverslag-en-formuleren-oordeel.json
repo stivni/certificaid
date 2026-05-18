@@ -2,7 +2,7 @@
   "id": "opstellen-controleverslag-en-formuleren-oordeel",
   "naam": "Opstellen van het controleverslag en formuleren van het oordeel",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Opstellen van het controleverslag en formuleren van het oordeel",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -193,7 +193,11 @@
     "voorgesteld_door": "competentie-destillatie-v2-po16-2026-05-17T08:00Z",
     "voorgesteld_op": "2026-05-17T08:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "extractor_run": "concept-extractie-v4-2026-05-18T14:31Z",
+    "situering_added_v4_at": "2026-05-18",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T14:35Z",
+    "last_extract_at": "2026-05-18T14:35:00Z"
   },
   "linked_anchors": [
     "1.6.taak.1",
@@ -201,5 +205,66 @@
     "1.6.IV.C",
     "1.6.IV"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": {
+    "text": "Deze competentie omvat het formuleren van het controleoordeel (kiezen uit de vier types op basis van materialiteit + diepgaandheid + voldoende-en-geschikte assurance-informatie) én het redigeren van het controleverslag conform de ISA-700/705/706/701/720-structuur, aangevuld met Belgische ITAA-vereisten (scope-grenzen, andere prestaties, confraterneel afschrift). De stagiair leert het verslag als communicatie-instrument: paragraaf-volgorde en paragraaf-titels verschillen mee met het oordeels-type.",
+    "confidence": "inferred-from-aggregation",
+    "source": {
+      "type": "norm",
+      "short": "ISA 700/705/706 + ITAA KMO/Algemene controlenorm"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-700-herzien__sec_vereisten_2_part3",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ISA-705-herzien__sec_vereisten_2_part3",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-algemene-controlenorm__sec_2-verslag",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "controleverslag-elementen"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "controleoordeel-types"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "aangepast-oordeel"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "paragraaf-ter-benadrukking"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "paragraaf-overige-aangelegenheden"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "materieel-belang-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "getrouw-beeld-controle"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "wettelijke-controleopdracht-commissaris"
+    }
+  ]
 }

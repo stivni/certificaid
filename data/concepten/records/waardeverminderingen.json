@@ -27,7 +27,6 @@
     "reviewed_by": null,
     "po_1_2_extension": "2026-05-16: +['1.2.V.B', '1.2.V', '1.2.taak.1']"
   },
-  "doel": "Correcties boeken op de aanschaffingswaarde van actiefbestanddelen om rekening te houden met **al-dan-niet-definitieve ontwaardingen** op balansdatum — voor activa met **onbeperkte gebruiksduur** of voor **vlottende activa** (voorraden, vorderingen, geldbeleggingen).",
   "definitie": {
     "text": "Onder **waardeverminderingen** verstaat men de correcties op de aanschaffingswaarde van actiefbestanddelen — andere dan die met beperkte gebruiksduur (waarvoor afschrijvingen gelden) — om rekening te houden met al dan niet als definitief aan te merken ontwaardingen bij het afsluiten van het boekjaar. Toepassing: terreinen (onbeperkt), financiële vaste activa, voorraden, handelsvorderingen, geldbeleggingen. De gecumuleerde waardeverminderingen worden in mindering gebracht van de actiefposten waarop ze betrekking hebben (KB WVV art. 3:23, lid 2).",
     "confidence": "grounded",
@@ -206,5 +205,7 @@
       "omschrijving": "Meubelzaak Mertens BV heeft een handelsvordering van € 18.000 op klant X. Op balansdatum 31/12 wordt klant X dubbel aangemaand zonder reactie; advocaat schat 70 % verlies. Waardevermindering = 70 % × € 18.000 = € 12.600. Boeking: Debet 6340 Waardeverminderingen op handelsvorderingen € 12.600 / Credit 409 Geboekte waardeverminderingen op handelsvorderingen € 12.600."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:09:48Z",
+  "situering": "Correcties boeken op de aanschaffingswaarde van actiefbestanddelen om rekening te houden met **al-dan-niet-definitieve ontwaardingen** op balansdatum — voor activa met **onbeperkte gebruiksduur** of voor **vlottende activa** (voorraden, vorderingen, geldbeleggingen).",
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

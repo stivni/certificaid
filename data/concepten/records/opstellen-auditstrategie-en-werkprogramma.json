@@ -2,7 +2,7 @@
   "id": "opstellen-auditstrategie-en-werkprogramma",
   "naam": "Opstellen van de auditstrategie en het werkprogramma",
   "node_type": "competentie",
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "titel": "Opstellen van de auditstrategie en het werkprogramma",
   "status": "voorgesteld",
   "programmaonderdelen": [
@@ -167,7 +167,11 @@
     "voorgesteld_door": "competentie-destillatie-v2-po16-2026-05-17T08:00Z",
     "voorgesteld_op": "2026-05-17T08:00:00Z",
     "gecureerd_door": null,
-    "gecureerd_op": null
+    "gecureerd_op": null,
+    "extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
+    "situering_added_v4_at": "2026-05-18",
+    "last_extract_pass": "concept-extractie-v4-2026-05-18T14:35Z",
+    "last_extract_at": "2026-05-18T14:35:00Z"
   },
   "linked_anchors": [
     "1.6.taak.1",
@@ -175,5 +179,48 @@
     "1.6.III.B",
     "1.6.III"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "situering": {
+    "text": "Deze competentie sluit aan op de planningsfase van de auditcyclus (PO 1.6, ankerpunt 1.6.III.A-B): de stagiair-accountant moet zelf in staat zijn een tweelagig planningsdocument (strategie + werkprogramma) op te stellen op basis van de risico-inschatting, het te reviewen vóór uitvoering, en doorlopend bij te sturen tijdens veldwerk. De wettelijke en normatieve basis ligt in ITAA KMO-controlenorm §70-§73 + Algemene controlenorm; de praktische uitwerking (team-allocatie, uren-budget) is professionele oordeelsvorming en kantoorbeleid.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm §70-§73"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-1-1-planning",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "auditstrategie"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "auditplanning"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "werkprogramma-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "risico-inschatting-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "materieel-belang-audit"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "controledocumentatie"
+    }
+  ]
 }

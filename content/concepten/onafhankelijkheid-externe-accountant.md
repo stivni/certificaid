@@ -19,12 +19,10 @@ gegenereerd_op: '2026-05-18'
 ---
 # Onafhankelijkheid van de externe accountant ⚖️
 
+Onafhankelijkheid is de bestaansgrond van elke assurance-opdracht: zonder onafhankelijke beroepsbeoefenaar verliest het verslag zijn waarde voor derden. KB plichtenleer art. 9-13 en de IESBA-code definiëren wat onafhankelijkheid is, welke functies/relaties/financiële belangen ze in gevaar brengen, en welke cooling-off-perioden gelden. Geldt continu (niet alleen bij aanvang) en geldt voor het hele team — vennoten en medewerkers besmetten elkaar.
+
 > [!summary] Korte inhoud
 > De externe accountant moet een opdracht weigeren of stopzetten zodra hij invloeden, feiten of banden vaststelt die zijn onafhankelijkheid, wils- of beoordelingsvrijheid of onpartijdigheid kunnen aantasten.
-
-> [!info] Behoort tot: [[plichtenleer-accountant]]
-
-> [!info] Bestaat uit (1): [[belangenconflict-accountant]]
 
 De externe accountant moet een opdracht weigeren of stopzetten zodra hij invloeden, feiten of banden vaststelt die zijn onafhankelijkheid, wils- of beoordelingsvrijheid of onpartijdigheid kunnen aantasten. Onafhankelijkheid is een continue plicht, niet alleen bij aanvang van de opdracht.
 
@@ -54,7 +52,7 @@ _Bron: KB plichtenleer art. 9_
 ## Zie ook
 
 - **Vereist kennis van**: [[belangenconflict-accountant]]
-- **Wordt voorondersteld in** (3): [[externe-auditor-relatie-ic]] · [[externe-controle]] · [[inbreng-in-natura-verslag]]
+
 ## Voorbeelden
 
 Sofie Janssens treedt op als externe accountant van Meubelzaak Mertens BV. Halverwege het boekjaar stelt de zaakvoerder haar voor als bestuurder van een dochteronderneming. Conform KB plichtenleer art. 9 moet zij dit weigeren of de controleopdracht teruggeven — anders verliest zij haar onafhankelijkheid.

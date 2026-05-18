@@ -18,13 +18,6 @@
     "reviewed_by": null,
     "bron_gap": "ISO 31000 (2018, herziene versie) is internationale ISO-standaard. Niet wettelijk in België. Inferred-common-knowledge."
   },
-  "doel": {
-    "text": "ISO 31000 is een generieke, sectoronafhankelijke standaard voor risk management. Bestaat uit drie hoofddelen: principes (8 stuks, bv. value creation, integrated, structured, customized), framework (organisatorische inbedding), en proces (identification → analysis → evaluation → treatment → monitoring). Niet certificeerbaar (anders dan ISO 9001) — referentiekader, geen audit-standaard.",
-    "confidence": "inferred-common-knowledge",
-    "_provenance": {
-      "inputs": []
-    }
-  },
   "edges": [
     {
       "type": "vergelijkt-met",
@@ -43,5 +36,13 @@
       "omschrijving": "Bij een overheidsinstantie of grote infrastructure-onderneming wordt ISO 31000 vaak gebruikt naast of in plaats van COSO. Voor private Belgische ondernemingen is COSO doorgaans dominanter omwille van audit-relatie."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "ISO 31000 is een generieke, sectoronafhankelijke standaard voor risk management. Bestaat uit drie hoofddelen: principes (8 stuks, bv. value creation, integrated, structured, customized), framework (organisatorische inbedding), en proces (identification → analysis → evaluation → treatment → monitoring). Niet certificeerbaar (anders dan ISO 9001) — referentiekader, geen audit-standaard.",
+    "confidence": "inferred-common-knowledge",
+    "_provenance": {
+      "inputs": []
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

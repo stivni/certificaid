@@ -20,6 +20,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Redelijke mate van zekerheid ⚖️
 
+Redelijke zekerheid is het zekerheidsniveau dat een controle (audit) oplevert — het hoogste niveau dat een beroepsbeoefenaar praktisch kan verschaffen, maar nog steeds niet 100%. De auditor erkent dat steekproef-, inherente en intern beheersingsrisico's blijven bestaan. Het zekerheidsniveau bepaalt of het oordeel in positieve vorm ('geeft getrouw beeld') of in negatieve vorm ('geen aanwijzingen') mag worden uitgedrukt.
+
 > [!summary] Korte inhoud
 > Een redelijke mate van zekerheid (reasonable assurance) is het hoogste praktisch haalbare niveau van zekerheid in een audit-opdracht.
 
@@ -52,9 +54,9 @@ _Bron: ITAA KMO-controlenorm §2 + §117_
 
 ## Zie ook
 
-- **Vereist kennis van**: [[controlerisico]]
+- **Vereist kennis van**: [[auditrisicomodel]]
 - **Getriggerd door**: [[contractuele-controleopdracht]]
-- **Wordt voorondersteld in** (1): [[contractuele-controleopdracht]]
+
 ## Voorbeelden
 
 Sofie Janssens controleert de jaarrekening 2025 van Rotex Roeselare NV. Na 8 weken werk (planning, risicoanalyse, testen, conclusie) kan zij met redelijke zekerheid stellen: 'naar ons oordeel geeft de jaarrekening een getrouw beeld van het vermogen, de financiële toestand en het resultaat van Rotex Roeselare NV per 31 december 2025'.

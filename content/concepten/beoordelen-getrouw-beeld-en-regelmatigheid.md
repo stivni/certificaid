@@ -13,11 +13,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/beoordelen-getrouw-beeld-en-regelmatigheid.json
 gegenereerd_op: '2026-05-18'
 ---
 # Beoordelen van regelmatigheid, waarachtigheid en getrouw beeld van de jaarrekening 🤖
+
+Deze competentie bundelt wat de stagiair moet kunnen bij het beoordelen van de jaarrekening op haar drie wettelijke eigenschappen: regelmatigheid (in overeenstemming met het boekhoud- en jaarrekeningenrecht), waarachtigheid (geen materiële afwijkingen), en getrouw beeld (juiste weergave van vermogen, financiële toestand en resultaat). Deze drie samen vormen het toetsingsobject van het uiteindelijke controleoordeel.
 
 
 ## Stappen
@@ -120,8 +122,20 @@ Toets of de continuïteitsveronderstelling van de jaarrekening passend is en of 
 **Grondslag**: [[continuiteitsveronderstelling-audit]] §toetsing, ITAA KMO-controlenorm §122
 
 
+## Zie ook
+
+- **Vereist kennis van**: [[getrouw-beeld-controle]]
+- **Vereist kennis van**: [[regelmatigheid-jaarrekening-audit]]
+- **Vereist kennis van**: [[continuiteitsveronderstelling-audit]]
+- **Vereist kennis van**: [[materieel-belang-audit]]
+- **Vereist kennis van**: [[assurance-informatie]]
+
 ## Voorbeelden
 
 
 
 
+## Bronnen
+
+[^1]: `KB-WVV-2019__art_3`
+[^2]: `ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel`

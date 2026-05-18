@@ -34,13 +34,6 @@
     ],
     "note": "Synthese-record: _provenance.inputs sloeg eerder onderaan; nu correct gevuld op record-niveau."
   },
-  "gebaseerd_op_concepten": [
-    "interne-controle",
-    "itaa-kmo-controlenorm",
-    "itaa-algemene-controlenorm",
-    "klokkenluiderregeling",
-    "avg-interne-controle"
-  ],
   "vergelijkingstabel": "| Domein | Belgische bron | Toepassing IC |\n|---|---|---|\n| Algemene boekhoud-IC | KB 21.10.2018 boekhoudkundige verplichtingen | Verplicht aanhouden van boekhoudkundige documenten + jaarlijkse inventaris |\n| Audit-toetsing IC | ITAA-norm-kmo-controlenorm + ITAA-algemene-controlenorm | Verplichting voor beroepsbeoefenaar om IC te begrijpen + te toetsen waar gesteund |\n| Plichtenleer accountants | KB 1 maart 1998 + Wet 17 maart 2019 ITAA | Onafhankelijkheid, geheimhouding, onverenigbaarheden |\n| Persoonsgegevens | AVG/GDPR + Wet 30 juli 2018 | Verplichte technische + organisatorische maatregelen |\n| Klokkenluiders | Wet 28 november 2022 | Intern meldkanaal verplicht voor middelgrote/grote ondernemingen |\n| Witwasbestrijding | Wet 18 september 2017 + Richtlijn (EU) 2018/1673 | Cliëntenidentificatie, transactiemonitoring, melding verdachte verrichtingen |\n| Corporate governance | WVV + Code Buysse + Code 2020 (beursgenoteerd) | Auditcomité, niet-uitvoerende bestuurders, interne controle-rapportering |\n| Sector-specifiek | NBB-regelgeving (banken), FSMA (verzekeraars) | Strenge IC-vereisten voor financiële sector |",
   "voorbeelden": [
     {
@@ -48,5 +41,14 @@
       "omschrijving": "Yperse Werkplaats BV (KMO) valt onder: KB 21.10.2018 (boekhouding), AVG (HR-data), AVG/Wet 28.11.2022 als ze 50+ werknemers heeft (klokkenluiders), eventueel ITAA-norm via externe accountant. Geen WVV-auditcomité-verplichting, geen sectorale toezichtsregels."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "edges": [],
+  "vergelijkingsparen": [],
+  "gebaseerd_op_concepten": [
+    "interne-controle",
+    "kmo-controlenorm-accountant",
+    "algemene-controlenorm-accountant",
+    "klokkenluiderregeling",
+    "avg-interne-controle"
+  ]
 }

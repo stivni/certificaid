@@ -14,11 +14,13 @@ programmaonderdelen:
 confidence: inferred
 node_type: competentie
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/documenteren-auditdossier.json
 gegenereerd_op: '2026-05-18'
 ---
 # Documenteren van de revisiewerkzaamheden in het auditdossier 🤖
+
+Het auditdossier is de schriftelijke neerslag van alle uitgevoerde werkzaamheden — van planningsmemo tot ondertekend verslag. Het moet zo opgesteld zijn dat een ervaren reviewer (ITAA-kwaliteitstoezicht, peer reviewer of rechter) achteraf kan reconstrueren wat is gedaan, welke afwegingen zijn gemaakt en hoe het oordeel tot stand kwam. Onvolledige documentatie ondermijnt de verdedigbaarheid van het oordeel en is een veelvoorkomende reden voor tuchtsanctie. De competentie is transversaal: ze loopt parallel met élke andere fase van de audit-cyclus.
 
 
 ## Stappen
@@ -122,6 +124,13 @@ Sluit het dossier binnen 60 dagen na ondertekening van het verslag definitief af
 >
 > _Grondslag_: [[controledocumentatie]] §file-assembly-cut-off
 
+
+## Zie ook
+
+- **Vereist kennis van**: [[controledocumentatie]]
+- **Vereist kennis van**: [[kwaliteitsbeheersing-opdrachtniveau]]
+- **Vereist kennis van**: [[werkprogramma-audit]]
+- **Vereist kennis van**: [[assurance-informatie]]
 
 ## Voorbeelden
 

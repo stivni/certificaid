@@ -42,23 +42,6 @@
       ]
     }
   },
-  "doel": {
-    "text": "De analist transformeert de cijfers in een onderbouwd oordeel over de financiële gezondheid en risico's van de onderneming, vanuit het perspectief van een specifieke gebruiker (kredietverlener, aandeelhouder, manager).",
-    "confidence": "inferred",
-    "source": {
-      "type": "anker-itaa",
-      "short": "ITAA-examenprogramma anker 1.3.I.A"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "anchor-1.3.I.A",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Liquiditeit als doel",
@@ -238,5 +221,23 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "De analist transformeert de cijfers in een onderbouwd oordeel over de financiële gezondheid en risico's van de onderneming, vanuit het perspectief van een specifieke gebruiker (kredietverlener, aandeelhouder, manager).",
+    "confidence": "inferred",
+    "source": {
+      "type": "anker-itaa",
+      "short": "ITAA-examenprogramma anker 1.3.I.A"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.I.A",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

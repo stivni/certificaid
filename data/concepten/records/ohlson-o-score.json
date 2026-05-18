@@ -18,23 +18,6 @@
     "reviewed_by": null,
     "bron_gap": "Origineel werk: Ohlson, J.A. (1980) 'Financial Ratios and the Probabilistic Prediction of Bankruptcy'. Internationale financiële-analyse-doctrine."
   },
-  "doel": {
-    "text": "Het Ohlson O-model voorspelt de kans op faillissement via logistische regressie op negen variabelen uit de jaarrekening. Anders dan Altman geeft Ohlson een kansprobabiliteit (tussen 0 en 1) — niet een score-zone.",
-    "confidence": "inferred-common-knowledge",
-    "source": {
-      "type": "vakdoctrine",
-      "short": "Ohlson (1980) — internationale doctrine"
-    },
-    "_provenance": {
-      "inputs": [
-        {
-          "id": "anchor-1.9.VI.B",
-          "sha256": null,
-          "version": "rag-v1"
-        }
-      ]
-    }
-  },
   "bouwstenen": [
     {
       "titel": "Negen variabelen via logit-regressie",
@@ -153,5 +136,23 @@
       "confidence": "inferred"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": {
+    "text": "Het Ohlson O-model voorspelt de kans op faillissement via logistische regressie op negen variabelen uit de jaarrekening. Anders dan Altman geeft Ohlson een kansprobabiliteit (tussen 0 en 1) — niet een score-zone.",
+    "confidence": "inferred-common-knowledge",
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Ohlson (1980) — internationale doctrine"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.9.VI.B",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "migrated_doel_to_situering_at": "2026-05-18"
 }

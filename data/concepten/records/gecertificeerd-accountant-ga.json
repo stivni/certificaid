@@ -9,13 +9,15 @@
     "1.6.taak.1"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T13:53Z",
     "model": "claude-opus-4-7",
-    "anchor_id": "1.6.I.B",
-    "dekt_ook_anchors": [
+    "anchor_id": "1.6.I",
+    "linked_anchors": [
+      "1.6.I.B",
       "1.6.taak.1"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z"
   },
   "definitie": {
     "text": "Een gecertificeerd accountant (GA) is een door het ITAA (Instituut van de Belastingadviseurs en de Accountants) erkend beroepsbeoefenaar bevoegd voor het organiseren van boekhouding, opmaken van jaarrekeningen, fiscaal advies en — in een aantal gevallen, in monopolie of gedeeld met de bedrijfsrevisor — voor opdrachten met attestering of expertiseverslag bestemd voor derden.",
@@ -100,5 +102,6 @@
       "omschrijving": "Sofie Janssens is gecertificeerd accountant bij Wolters & Partners. Zij organiseert de boekhouding van Meubelzaak Mertens BV, stelt de fiscale aangifte op en voert vrijwillig een contractuele controle uit op de jaarrekening 2025 — geen commissariaat (dat is voorbehouden aan de bedrijfsrevisor)."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "situering": "De gecertificeerd accountant (GA) is het beroep dat door het ITAA wordt georganiseerd; het is de huidige titel (Wet 17 maart 2019) die de oude titels 'accountant IAB' en 'belastingconsulent' bundelt. Behoort tot één van twee accountants-beroepen in België (naast de bedrijfsrevisor) en deelt enkele wettelijk voorbehouden opdrachten daarmee. NIET bevoegd voor: commissaris-mandaat (wettelijke jaarrekeningcontrole). WEL bevoegd voor: boekhouding, jaarrekening, fiscaal advies, gedeelde voorbehouden opdrachten en contractuele controle."
 }

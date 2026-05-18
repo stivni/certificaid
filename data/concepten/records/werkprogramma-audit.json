@@ -6,16 +6,22 @@
   "status": "seed",
   "linked_anchors": [
     "1.6.III.B",
-    "1.6.III.A"
+    "1.6.III.A",
+    "1.6.III"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T16:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.III.B",
     "dekt_ook_anchors": [
       "1.6.III.A"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "vorige_extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
+    "edge_cleanup_v4": {
+      "op": "2026-05-18",
+      "reden": "vereist-kennis-van auditstrategie toegevoegd (compenseert gedeprecieerde bevat-edge op auditstrategie); situering toegevoegd"
+    }
   },
   "definitie": {
     "text": "Een werkprogramma (of werkschema) is een schriftelijke beschrijving van de controlewerkzaamheden die uitgevoerd zullen worden — met aanduiding van wanneer en hoe ze gebeuren en hoeveel tijd ze in beslag nemen. Het is de uitvoeringsblauwdruk van de audit: per assertie, per rekeningsaldo of per transactiestroom geeft het werkprogramma aan welke procedures de auditor zal toepassen.",
@@ -82,6 +88,11 @@
       "type": "vereist-kennis-van",
       "target": "controledocumentatie",
       "redenering": "Werkprogramma is een verplicht onderdeel van het controledossier."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "auditstrategie",
+      "redenering": "Werkprogramma vertaalt de algehele strategie (ISA 300 §7) in concrete controlewerkzaamheden (§9). Strategie is input."
     }
   ],
   "voorbeelden": [
@@ -90,5 +101,27 @@
       "omschrijving": "Sofie Janssens bouwt voor de audit Rotex Roeselare NV een werkprogramma per rubriek: bv. 'Voorraden — uitvoeren fysieke telling 31 dec, steekproef 30 SKU's met waardering tegen FIFO, testen cut-off december/januari, bevraging consignatievoorraad'. Geschatte tijd: 40 uur, uitvoerder: Tom (junior), review: Sofie."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "situering": {
+    "text": "Het werkprogramma (controleprogramma in ISA 300-terminologie) is de tweede laag van de audit-planning: nadat de algehele strategie de richting heeft bepaald, beschrijft het werkprogramma per assertie en rubriek welke risico-inschattingswerkzaamheden en verdere controlewerkzaamheden worden uitgevoerd, met aanduiding van aard, timing en omvang. Het is het werkdocument waarmee teamleden de audit operationeel uitvoeren.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ISA 300 §9 + ITAA Algemene controlenorm §3"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ISA-300__sec_doelstellingen",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-algemene-controlenorm__sec_3-werkschema",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  }
 }
