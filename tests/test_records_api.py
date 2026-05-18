@@ -875,6 +875,222 @@ def test_audit_parity_detecteert_content_extra(monkeypatch, patched_api):
     assert resultaat["content_ontbreekt"] == []
 
 
+# ─── Orphan-management (ADR-019 §"Orphan-management") ───────────────────────
+
+
+def test_delete_record_cascadeert_edge_removal(patched_api, test_record):
+    """
+    delete_record verwijdert dangling edges in andere records.
+
+    Scenario: record A heeft een edge.target naar B. Na delete(B) moet A's
+    edges-lijst geen verwijzing naar B meer bevatten en moet A opnieuw zijn
+    geïndexeerd (save_record aangeroepen voor A).
+
+    ADR-019 §"Orphan-management": auto-cascade bij delete.
+    """
+    import tools.lib.records_api as api
+
+    record_a = {
+        "id": "record-a",
+        "naam": "Record A",
+        "node_type": "begrip",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [{"type": "verwant", "target": "record-b", "redenering": "test"}],
+        "vergelijkingsparen": [],
+    }
+    record_b = {
+        "id": "record-b",
+        "naam": "Record B",
+        "node_type": "begrip",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [],
+        "vergelijkingsparen": [],
+    }
+
+    # Schrijf beide records via API
+    api.save_record(record_a, chroma_path=patched_api.chroma_path)
+    api.save_record(record_b, chroma_path=patched_api.chroma_path)
+    patched_api.daemon_calls.clear()
+
+    # Delete B → cascade moet A bijwerken
+    api.delete_record("record-b", chroma_path=patched_api.chroma_path)
+
+    # A staat nog op disk (niet verwijderd)
+    pad_a = patched_api.records_dir / "record-a.json"
+    assert pad_a.exists(), "record-a onterecht verwijderd"
+
+    # A's edges bevatten geen target 'record-b' meer
+    bijgewerkt_a = json.loads(pad_a.read_text(encoding="utf-8"))
+    targets = [e.get("target") for e in bijgewerkt_a.get("edges", [])]
+    assert "record-b" not in targets, (
+        f"Dangling edge naar record-b nog aanwezig in record-a: {bijgewerkt_a['edges']}"
+    )
+
+    # save_record voor record-a aangeroepen (cascade-herindexering)
+    index_calls_voor_a = [
+        c for c in patched_api.daemon_calls
+        if c[0] == "index-concept" and c[1].get("record", {}).get("id") == "record-a"
+    ]
+    assert len(index_calls_voor_a) >= 1, (
+        "record-a niet hergeïndexeerd na cascade-delete van record-b"
+    )
+
+
+def test_delete_record_cascadeert_vergelijkingsparen_removal(patched_api, test_record):
+    """
+    delete_record verwijdert dangling vergelijkingsparen in andere records.
+
+    Scenario: record A heeft vergelijkingsparen[].vergelijking_met == B.
+    Na delete(B) mag A geen vergelijkingspaar naar B meer bevatten.
+
+    ADR-019 §"Orphan-management": auto-cascade bij delete.
+    """
+    import tools.lib.records_api as api
+
+    record_a = {
+        "id": "record-a-vp",
+        "naam": "Record A (vergelijkingsparen)",
+        "node_type": "begrip",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [],
+        "vergelijkingsparen": [
+            {
+                "vergelijking_met": "record-b-vp",
+                "verschil": "Testomschrijving",
+                "trigger": "Bij examen",
+                "confidence": "inferred-common-knowledge",
+            }
+        ],
+    }
+    record_b = {
+        "id": "record-b-vp",
+        "naam": "Record B (vergelijkingsparen)",
+        "node_type": "begrip",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [],
+        "vergelijkingsparen": [],
+    }
+
+    api.save_record(record_a, chroma_path=patched_api.chroma_path)
+    api.save_record(record_b, chroma_path=patched_api.chroma_path)
+    patched_api.daemon_calls.clear()
+
+    api.delete_record("record-b-vp", chroma_path=patched_api.chroma_path)
+
+    pad_a = patched_api.records_dir / "record-a-vp.json"
+    assert pad_a.exists()
+    bijgewerkt_a = json.loads(pad_a.read_text(encoding="utf-8"))
+    vergelijkingen = [
+        p.get("vergelijking_met")
+        for p in bijgewerkt_a.get("vergelijkingsparen", [])
+    ]
+    assert "record-b-vp" not in vergelijkingen, (
+        f"Dangling vergelijkingspaar naar record-b-vp nog aanwezig in record-a-vp: "
+        f"{bijgewerkt_a['vergelijkingsparen']}"
+    )
+
+
+def test_rename_record_redirects_edges(patched_api, test_record):
+    """
+    rename_record herleidt edges in andere records van old_id naar new_id.
+
+    Scenario: A heeft edge.target == B. Na rename(B → C) moet A's edge
+    naar C wijzen, en moet A hergeïndexeerd zijn.
+
+    ADR-019 §"Orphan-management": auto-redirect bij rename.
+    """
+    import tools.lib.records_api as api
+
+    record_a = {
+        "id": "source-record",
+        "naam": "Source",
+        "node_type": "begrip",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [{"type": "verwant", "target": "oud-doel", "redenering": "test"}],
+        "vergelijkingsparen": [],
+    }
+    record_b = {
+        "id": "oud-doel",
+        "naam": "Oud doel",
+        "node_type": "begrip",
+        "status": "seed",
+        "schema_version": "1.4",
+        "linked_anchors": [],
+        "edges": [],
+        "vergelijkingsparen": [],
+    }
+
+    api.save_record(record_a, chroma_path=patched_api.chroma_path)
+    api.save_record(record_b, chroma_path=patched_api.chroma_path)
+    patched_api.daemon_calls.clear()
+
+    nieuw_record_b = dict(record_b, id="nieuw-doel", naam="Nieuw doel")
+    api.rename_record("oud-doel", nieuw_record_b, chroma_path=patched_api.chroma_path)
+
+    # A's edge wijst nu naar nieuw-doel
+    pad_a = patched_api.records_dir / "source-record.json"
+    assert pad_a.exists()
+    bijgewerkt_a = json.loads(pad_a.read_text(encoding="utf-8"))
+    targets = [e.get("target") for e in bijgewerkt_a.get("edges", [])]
+    assert "nieuw-doel" in targets, (
+        f"Edge niet geredirect naar nieuw-doel in source-record: {bijgewerkt_a['edges']}"
+    )
+    assert "oud-doel" not in targets, (
+        f"Oude edge target nog aanwezig in source-record: {bijgewerkt_a['edges']}"
+    )
+
+    # source-record hergeïndexeerd
+    index_calls_voor_source = [
+        c for c in patched_api.daemon_calls
+        if c[0] == "index-concept"
+        and c[1].get("record", {}).get("id") == "source-record"
+    ]
+    assert len(index_calls_voor_source) >= 1, (
+        "source-record niet hergeïndexeerd na cascade-redirect van oud-doel → nieuw-doel"
+    )
+
+
+def test_delete_zonder_incoming_edges_geen_onnodige_saves(patched_api, test_record):
+    """
+    delete_record op een record zonder inkomende edges doet geen cascade-saves.
+
+    Verwacht gedrag: alleen de normale delete-flow (disk + RAG + content),
+    geen save_record voor andere records. Verifieer via daemon_calls.
+
+    ADR-019 §"Orphan-management": correctness vóór performance.
+    """
+    import tools.lib.records_api as api
+
+    # Schrijf één geïsoleerd record (geen ander record wijst ernaar)
+    api.save_record(test_record, chroma_path=patched_api.chroma_path)
+    patched_api.daemon_calls.clear()
+
+    api.delete_record("test-concept", chroma_path=patched_api.chroma_path)
+
+    # Alleen /delete-concept voor test-concept zelf — geen /index-concept
+    index_calls = [c for c in patched_api.daemon_calls if c[0] == "index-concept"]
+    assert index_calls == [], (
+        f"Onnodige cascade-save aangetroffen bij delete van geïsoleerd record: "
+        f"{index_calls}"
+    )
+
+    # /delete-concept moet wel aangeroepen zijn (voor test-concept zelf)
+    delete_calls = [c for c in patched_api.daemon_calls if c[0] == "delete-concept"]
+    assert len(delete_calls) == 1, (
+        f"Verwachtte exact 1 delete-concept call, kreeg: {delete_calls}"
+    )
+
+
 def test_audit_parity_ok_met_content_in_sync(monkeypatch, patched_api, test_record):
     """
     audit_parity geeft ok=True als disk, RAG en content allemaal in sync zijn.

@@ -139,6 +139,44 @@ De bestaande hook `scripts/git-hooks/pre-commit-records-parity.sh` wordt uitgebr
 
 Daemon-uitbreiding nodig (ADR-018): nieuw endpoint `POST /delete-concept {id, chroma_path}`. Serialiseert via dezelfde `_operatie_lock` als `/index-concept`.
 
+### Orphan-management (aanvulling 2026-05-18)
+
+**Probleem**
+
+De records-API garandeert na elke write dat disk, RAG en content in sync zijn voor het gemuteerde record zelf. Maar andere records kunnen `edges[].target` of `vergelijkingsparen[].vergelijking_met` bevatten die naar het gemuteerde id wijzen. Bij `delete_record(X)` of `rename_record(X → Y)` worden die verwijzingen in andere records niet bijgewerkt — VERIFY detecteert ze pas achteraf als broken refs.
+
+**Beslissing**
+
+Bij `delete_record(X)`:
+1. Scan alle records op disk op `edges[].target == X` of `vergelijkingsparen[].vergelijking_met == X` (vóór disk-delete, zodat de scan nog werkzaam is).
+2. Verwijder die edge/vergelijkingspaar-entries uit elk geraakt record via `_verwijder_edges_naar()`.
+3. Sla elk geraakt record opnieuw op via `save_record()` (cascadeert naar RAG + content).
+4. Log per geraakt record: `"removed dangling edge to {X} from {Y}"` op WARNING-niveau.
+5. Daarna delete X zelf (disk + RAG + content).
+
+Bij `rename_record(X → Y)`:
+1. Voer de rename zelf volledig uit (disk delete X, disk write Y, RAG delete X, RAG upsert Y, markdown delete X, render Y).
+2. Scan alle records op disk op verwijzingen naar X (ná disk-write Y, zodat nieuw record al bestaat).
+3. Update target/vergelijking_met naar Y in elk geraakt record via `_redirect_edges_naar()`.
+4. Sla elk geraakt record opnieuw op via `save_record()`.
+5. Log per geraakt record: `"redirected edge {X} → {Y} in {Z}"` op INFO-niveau.
+
+**Geen IncomingEdgesError** — silently auto-correct, met loud logging zodat de operator het ziet.
+
+**Atomiciteitsimplicaties**
+
+Cascade-saves zijn niet atomair ten opzichte van elkaar: als save_record faalt in stap N, zijn eerder geslaagde cascade-records al bijgewerkt. Dit is acceptabel — de cascade is een best-effort opruiming. Fouten in individuele cascade-saves worden gelogd op ERROR-niveau maar blokkeren de oorspronkelijke delete/rename niet.
+
+**Performantie**
+
+Scan over 430 records kost ~50ms (bestandssysteem-IO, geen RAG-call). Acceptabel.
+
+**Hulpfuncties**
+
+- `_scan_incoming_edges(target_id)` — scant alle records, retourneert lijst van `{record, pad}`
+- `_verwijder_edges_naar(record, target_id)` — filtert dangling entries uit edges en vergelijkingsparen
+- `_redirect_edges_naar(record, old_id, new_id)` — vervangt old_id door new_id in edges en vergelijkingsparen
+
 ### Timeout-mitigatie (pilot-bevinding 2026-05-18)
 
 De volgorde "daemon → 200 OK → disk write" werkt bij een nette daemon-fout (HTTP 4xx/5xx) maar **breekt bij timeout**: de client weet niet of de server het deed. In de EXTRACT v4-pilot op anchor 1.5.V.C gebeurde precies dat — eerste `save_record` hit timeout op cold-start (10s te kort voor bge-m3-warm-up), client raisde `DaemonUnavailableError`, maar daemon had de upsert wél doorgevoerd. Resultaat: ghost in RAG, niets op disk, geen automatische rollback.

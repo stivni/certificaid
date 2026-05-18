@@ -247,6 +247,112 @@ def _verwijder_concept_fiche(concept_id: str, content_dir: Optional[Path] = None
 
 
 # ---------------------------------------------------------------------------
+# Interne orphan-edge-scan helper (ADR-019 §"Orphan-management")
+# ---------------------------------------------------------------------------
+
+
+def _scan_incoming_edges(target_id: str) -> list[dict]:
+    """
+    Scan alle records op disk op verwijzingen naar target_id.
+
+    Scant twee velden:
+    - `edges[].target` == target_id
+    - `vergelijkingsparen[].vergelijking_met` == target_id
+
+    Geeft een lijst terug van dicts:
+        {'record': <volledig record dict>, 'pad': <Path>}
+    voor elk record dat minstens één verwijzing naar target_id bevat.
+
+    Self-edges (target_id == record['id']) worden defensief overgeslagen —
+    een record dat naar zichzelf wijst kan niet opgeruimd worden na delete.
+
+    Performantie: ~50ms voor 430 records (bestandssysteem-IO, geen RAG-call).
+    """
+    resultaten: list[dict] = []
+    if not RECORDS_DIR.exists():
+        return resultaten
+
+    for pad in RECORDS_DIR.glob("*.json"):
+        if pad.name.startswith("_"):
+            continue
+        try:
+            record = json.loads(pad.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            logger.warning(
+                "_scan_incoming_edges: kon %s niet lezen, overgeslagen: %s", pad, exc
+            )
+            continue
+
+        # Defensief: skip self-edge (kan niet voorkomen bij normale flow)
+        if record.get("id") == target_id:
+            continue
+
+        heeft_verwijzing = False
+
+        for edge in record.get("edges", []):
+            if edge.get("target") == target_id:
+                heeft_verwijzing = True
+                break
+
+        if not heeft_verwijzing:
+            for paar in record.get("vergelijkingsparen", []):
+                if paar.get("vergelijking_met") == target_id:
+                    heeft_verwijzing = True
+                    break
+
+        if heeft_verwijzing:
+            resultaten.append({"record": record, "pad": pad})
+
+    return resultaten
+
+
+def _verwijder_edges_naar(record: dict, target_id: str) -> dict:
+    """
+    Verwijder alle edges en vergelijkingsparen die naar target_id wijzen uit het record.
+
+    Geeft een nieuw record-dict terug met de gefilterde lijsten.
+    Muteert het origineel niet.
+    """
+    gefilterde_edges = [
+        edge for edge in record.get("edges", [])
+        if edge.get("target") != target_id
+    ]
+    gefilterde_vergelijkingsparen = [
+        paar for paar in record.get("vergelijkingsparen", [])
+        if paar.get("vergelijking_met") != target_id
+    ]
+    return {
+        **record,
+        "edges": gefilterde_edges,
+        "vergelijkingsparen": gefilterde_vergelijkingsparen,
+    }
+
+
+def _redirect_edges_naar(record: dict, old_id: str, new_id: str) -> dict:
+    """
+    Vervang alle edges en vergelijkingsparen die naar old_id wijzen door new_id.
+
+    Geeft een nieuw record-dict terug met de bijgewerkte targets.
+    Muteert het origineel niet.
+    """
+    bijgewerkte_edges = [
+        {**edge, "target": new_id} if edge.get("target") == old_id else edge
+        for edge in record.get("edges", [])
+    ]
+    bijgewerkte_vergelijkingsparen = [
+        {**paar, "vergelijking_met": new_id}
+        if paar.get("vergelijking_met") == old_id
+        else paar
+        for paar in record.get("vergelijkingsparen", [])
+    ]
+    return {
+        **record,
+        "edges": bijgewerkte_edges,
+        "vergelijkingsparen": bijgewerkte_vergelijkingsparen,
+    }
+
+
+# ---------------------------------------------------------------------------
 # Interne ghost-recovery helper
 # ---------------------------------------------------------------------------
 
@@ -534,6 +640,30 @@ def rename_record(
         )
     _verwijder_concept_fiche(old_id, content_dir=content_dir)
 
+    # Cascade stap 5: redirect inkomende edges in andere records
+    # (ADR-019 §"Orphan-management") — ná disk-write zodat nieuw record al bestaat
+    inkomende_records = _scan_incoming_edges(old_id)
+    for item in inkomende_records:
+        geraakt_record = item["record"]
+        geraakt_id = geraakt_record.get("id", str(item["pad"]))
+        bijgewerkt = _redirect_edges_naar(geraakt_record, old_id, new_id)
+        logger.info(
+            "rename_record: redirected edge %s → %s in %s",
+            old_id,
+            new_id,
+            geraakt_id,
+        )
+        try:
+            save_record(bijgewerkt, chroma_path=resolved_chroma, content_dir=content_dir)
+        except Exception as cascade_exc:
+            logger.error(
+                "rename_record: cascade-save MISLUKT voor %s (edge %s → %s niet geredirect): %s",
+                geraakt_id,
+                old_id,
+                new_id,
+                cascade_exc,
+            )
+
     logger.info("rename_record: %s → %s (disk + RAG + content)", old_id, new_id)
 
 
@@ -575,6 +705,28 @@ def delete_record(
             f"delete_record: record '{record_id}' bestaat niet op disk "
             f"en niet in RAG — niets te verwijderen"
         )
+
+    # Cascade stap 0: scan en verwijder inkomende edges in andere records
+    # (ADR-019 §"Orphan-management") — vóór disk-delete zodat scan nog werkzaam is
+    inkomende_records = _scan_incoming_edges(record_id)
+    for item in inkomende_records:
+        geraakt_record = item["record"]
+        geraakt_id = geraakt_record.get("id", str(item["pad"]))
+        bijgewerkt = _verwijder_edges_naar(geraakt_record, record_id)
+        logger.warning(
+            "delete_record: removed dangling edge to %s from %s",
+            record_id,
+            geraakt_id,
+        )
+        try:
+            save_record(bijgewerkt, chroma_path=resolved_chroma, content_dir=content_dir)
+        except Exception as cascade_exc:
+            logger.error(
+                "delete_record: cascade-save MISLUKT voor %s (edge naar %s niet verwijderd): %s",
+                geraakt_id,
+                record_id,
+                cascade_exc,
+            )
 
     # Stap 1: disk delete
     if disk_bestaat:
