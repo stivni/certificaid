@@ -4,7 +4,9 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.II.B"],
+  "linked_anchors": [
+    "1.6.II.B"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
@@ -14,11 +16,24 @@
   "definitie": {
     "text": "Ontdekkingsrisico is het risico dat de door de beroepsbeoefenaar uitgevoerde controlewerkzaamheden geen afwijking van materieel belang ontdekken die afzonderlijk of samen met andere bestaat. Het is de enige risicocomponent die de auditor zelf kan beïnvloeden, door de aard, timing en omvang van zijn werkzaamheden bij te sturen.",
     "confidence": "inferred-from-aggregation",
-    "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1 (Controlerisico) + §96"},
-    "_provenance": {"inputs": [
-      {"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2", "sha256": null, "version": "rag-v1"},
-      {"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}
-    ]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1 (Controlerisico) + §96"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Sofie Janssens wil het controlerisico op € 5 % houden. Het inherent en intern beheersingsrisico op voorraden van Rotex Roeselare NV samen schat zij in op 18 %. Het ontdekkingsrisico mag dus maximaal 5 % / 18 % ≈ 28 % bedragen → ze plant uitgebreide voorraadtellingen + cut-off-testen + analytical procedures.",
   "in_praktijk": [
@@ -26,11 +41,26 @@
       "aspect": "Steekproefrisico als sub-component",
       "betekenis": "Ontdekkingsrisico bevat onder meer steekproefrisico (de conclusie op basis van een steekproef kan verschillen van die op de hele populatie). Dat is onvermijdelijk wanneer niet 100 % wordt getest.",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1 (Steekproefrisico)"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm Bijlage 1 (Steekproefrisico)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "auditrisicomodel", "redenering": "Eén van de drie componenten — de enige door auditor stuurbaar."}
+    {
+      "type": "onderdeel-van",
+      "target": "auditrisicomodel",
+      "redenering": "Eén van de drie componenten — de enige door auditor stuurbaar."
+    }
   ]
 }

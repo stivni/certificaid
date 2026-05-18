@@ -4,7 +4,9 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.IV.C"],
+  "linked_anchors": [
+    "1.6.IV.C"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
@@ -14,11 +16,26 @@
   "definitie": {
     "text": "Een paragraaf inzake overige aangelegenheden (other matter) is een paragraaf in de controleverklaring die verwijst naar een aangelegenheid die NIET in de financiële overzichten is gepresenteerd of toegelicht, maar die — naar het oordeel van de beroepsbeoefenaar — relevant is voor het begrip van de controle, de verantwoordelijkheden van de beroepsbeoefenaar of de controleverklaring zelf.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1"},
-    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Sofie Janssens audit de jaarrekening 2025 van Rotex maar treedt voor het eerst op (vorige jaar werd door een andere auditor gecertificeerd). Zij neemt een paragraaf 'overige aangelegenheden' op die de gebruiker informeert dat de vergelijkende cijfers 2024 door een collega-auditor werden gecontroleerd.",
   "edges": [
-    {"type": "vergelijkt-met", "target": "paragraaf-ter-benadrukking", "redenering": "Twee paragraaf-types die niet door elkaar mogen gehaspeld worden."}
+    {
+      "type": "vergelijkt-met",
+      "target": "paragraaf-ter-benadrukking",
+      "redenering": "Twee paragraaf-types die niet door elkaar mogen gehaspeld worden."
+    }
   ]
 }

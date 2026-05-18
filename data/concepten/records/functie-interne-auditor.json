@@ -4,19 +4,28 @@
   "node_type": "actor",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.V.B", "1.7.V.A", "1.7.V"],
+  "linked_anchors": [
+    "1.7.V.B",
+    "1.7.V.A",
+    "1.7.V"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T11:58Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.V.B",
-    "dekt_ook_anchors": ["1.7.V.A", "1.7.V"],
+    "dekt_ook_anchors": [
+      "1.7.V.A",
+      "1.7.V"
+    ],
     "reviewed_by": null,
     "bron_gap": "IIA-functieprofiel — vakdoctrine. Inferred-common-knowledge."
   },
   "definitie": {
     "text": "De interne auditor is de werknemer (of uitbestede dienstverlener) die binnen de onderneming onafhankelijke evaluatie en advies verschaft over IC, risicobeheer en governance. Rapporteert aan auditcomité of hoogste leiding, niet aan operationeel management. Vereist competentie in audit-methodologie, kennis van het bedrijf, en ethische onafhankelijkheid (IIA Code of Ethics).",
     "confidence": "inferred-common-knowledge",
-    "_provenance": {"inputs": []}
+    "_provenance": {
+      "inputs": []
+    }
   },
   "voorbeeld_inline": "Bij Rotex Roeselare NV werkt Sofie Janssens als interne auditor (Director Internal Audit). Rapporteert aan het auditcomité (vergadert 4x/jaar). Stelt jaarlijks risk-based audit plan op (40-50 audits per jaar). Eigen team van 5 senior auditors. Mag geen operationele taken hebben in de afdelingen die zij audit.",
   "in_praktijk": [
@@ -24,17 +33,29 @@
       "aspect": "Drie typen activiteiten",
       "betekenis": "(1) Assurance: onafhankelijke evaluatie van een proces, IC of governance-aspect. (2) Consulting: advisering op vraag van management — bv. design van IC voor nieuw proces — met behoud van onafhankelijkheid. (3) Special investigations: onderzoek bij vermoeden van fraude of significant incident.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "aspect": "Risk-based audit plan",
       "betekenis": "Niet alle processen elk jaar auditeren — onmogelijk. Selectie op basis van risico-inschatting: hoog risico → jaarlijks; middel → 2-jaarlijks; laag → 5-jaarlijks. Plan keurt auditcomité goed.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "interne-audit", "redenering": "Interne auditor is de uitvoerende rol van interne audit."},
-    {"type": "vereist-kennis-van", "target": "auditcomite", "redenering": "Idealiter rapporteert IA aan auditcomité."}
+    {
+      "type": "onderdeel-van",
+      "target": "interne-audit",
+      "redenering": "Interne auditor is de uitvoerende rol van interne audit."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "auditcomite",
+      "redenering": "Idealiter rapporteert IA aan auditcomité."
+    }
   ]
 }

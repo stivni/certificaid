@@ -4,19 +4,37 @@
   "node_type": "beginsel",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.3.I.A", "1.3.II.A", "1.3.II.D"],
+  "linked_anchors": [
+    "1.3.I.A",
+    "1.3.II.A",
+    "1.3.II.D"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.3.I.A",
-    "dekt_ook_anchors": ["1.3.II.A", "1.3.II.D"],
+    "dekt_ook_anchors": [
+      "1.3.II.A",
+      "1.3.II.D"
+    ],
     "reviewed_by": null
   },
   "main_rule": {
     "text": "Een element heeft materieel belang als 'redelijkerwijze kan worden verwacht dat de weglating of onjuiste vermelding ervan de beslissingen die een gebruiker op basis van de financiële overzichten van een onderneming neemt, zou kunnen beïnvloeden'. Het materieel belang van afzonderlijke posten wordt beoordeeld in de context van andere gelijkaardige posten.",
     "confidence": "grounded",
-    "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 2, 16)"},
-    "_provenance": {"inputs": [{"id": "Richtlijn-2013-34-EU__art_2__sub_b__dup2", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "richtlijn",
+      "short": "Richtlijn 2013/34/EU art. 2, 16)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "Richtlijn-2013-34-EU__art_2__sub_b__dup2",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -26,8 +44,19 @@
       "voorbeeld_inline": "Voor Rotex: een fout van € 50.000 op een omzet van € 50.000.000 = 0,1 % — niet materieel. Voor Meubelzaak Mertens BV: 2,5 % — wel materieel.",
       "grondslag": "Richtlijn 2013/34/EU art. 2, 16)",
       "confidence": "grounded",
-      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 2, 16)"},
-      "_provenance": {"inputs": [{"id": "Richtlijn-2013-34-EU__art_2__sub_b__dup2", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU art. 2, 16)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Richtlijn-2013-34-EU__art_2__sub_b__dup2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Context bepaalt — gelijkaardige posten samen",
@@ -36,8 +65,19 @@
       "voorbeeld_inline": "Tien afzonderlijke voorraad-correcties van elk € 8.000 (= € 80.000 totaal) op Meubelzaak Mertens BV worden in samenhang beoordeeld — niet apart.",
       "grondslag": "Richtlijn 2013/34/EU art. 2, 16)",
       "confidence": "grounded",
-      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 2, 16)"},
-      "_provenance": {"inputs": [{"id": "Richtlijn-2013-34-EU__art_2__sub_b__dup2", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU art. 2, 16)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Richtlijn-2013-34-EU__art_2__sub_b__dup2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -46,20 +86,52 @@
       "betekenis": "Auditors gebruiken vuistregels: 0,5–1 % van de omzet, 5 % van het resultaat vóór belasting, 1–2 % van balanstotaal. Eindbeslissing blijft professionele oordeelsvorming.",
       "anker_slug": "1.3.I.A",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "ISA 320 (analoog)"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.I.A", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "ISA 320 (analoog)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.I.A",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Materialiteit + aard samen",
       "betekenis": "Een kwantitatief klein bedrag kan kwalitatief materieel zijn — bv. een transactie met een bestuurder, een fraude-element, een sanctie. De aard van de transactie kan materialiteit verhogen onafhankelijk van het bedrag.",
       "anker_slug": "1.3.I.A",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "ISA 320"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.I.A", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "ISA 320"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.I.A",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "getrouw-beeld-jaarrekening", "redenering": "Materialiteit is operationele toets voor wat 'getrouw' betekent.", "confidence": "inferred"},
-    {"type": "vereist-kennis-van", "target": "niet-in-balans-opgenomen-rechten-verplichtingen", "redenering": "Vermelding in toelichting is verplicht zodra rechten/verplichtingen 'aanmerkelijk' (materieel) kunnen beïnvloeden.", "confidence": "inferred"}
+    {
+      "type": "onderdeel-van",
+      "target": "getrouw-beeld-jaarrekening",
+      "redenering": "Materialiteit is operationele toets voor wat 'getrouw' betekent.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "niet-in-balans-opgenomen-rechten-verplichtingen",
+      "redenering": "Vermelding in toelichting is verplicht zodra rechten/verplichtingen 'aanmerkelijk' (materieel) kunnen beïnvloeden.",
+      "confidence": "inferred"
+    }
   ]
 }

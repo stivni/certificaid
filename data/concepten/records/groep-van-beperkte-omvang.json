@@ -4,15 +4,29 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.C", "1.4.I.B", "1.4.II.B"],
+  "linked_anchors": [
+    "1.4.I.C",
+    "1.4.I.B",
+    "1.4.II.B"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.C",
-    "dekt_ook_anchors": ["1.4.I.B", "1.4.II.B"],
+    "dekt_ook_anchors": [
+      "1.4.I.B",
+      "1.4.II.B"
+    ],
     "reviewed_by": null,
     "enrich_runs": [
-      {"run_id": "enrich-run-20260515T141848Z", "model": "claude-opus-4-7", "gaps_verwerkt": ["records.overlappend-fenomeen"], "uitgevoerd_op": "2026-05-15T15:00:00+00:00"}
+      {
+        "run_id": "enrich-run-20260515T141848Z",
+        "model": "claude-opus-4-7",
+        "gaps_verwerkt": [
+          "records.overlappend-fenomeen"
+        ],
+        "uitgevoerd_op": "2026-05-15T15:00:00+00:00"
+      }
     ],
     "schema_1_4_migration": {
       "uitgevoerd_op": "2026-05-16T00:11Z",
@@ -41,21 +55,48 @@
   "definitie": {
     "text": "Een groep die op geconsolideerde of geaggregeerde basis hoogstens één van de drie criteria van WVV art. 1:26, § 1 overschrijdt: jaaromzet, balanstotaal en jaargemiddelde personeel. Een vennootschap die deel uitmaakt van een groep van beperkte omvang is in principe vrijgesteld van de plicht om een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te stellen.",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "WVV art. 1:26, § 1"},
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 1:26, § 1"
+    },
     "references": [
-      {"type": "wet", "short": "WVV art. 1:24 (kleine vennootschap)"},
-      {"type": "wet", "short": "WVV art. 1:26 (groep van beperkte omvang)"},
-      {"type": "advies", "short": "CBN 2022/03 — Beoordeling groottecriteria"},
-      {"type": "advies", "short": "CBN 2022/11 — Vermogensmutatiemethode"}
+      {
+        "type": "wet",
+        "short": "WVV art. 1:24 (kleine vennootschap)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 1:26 (groep van beperkte omvang)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2022/03 — Beoordeling groottecriteria"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2022/11 — Vermogensmutatiemethode"
+      }
     ],
     "_provenance": {
       "inputs": [
-        {"id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_beoordeling-groottecriteria-ingeval-van-een-consortium", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_beoordeling-groottecriteria-ingeval-van-een-consortium",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     },
     "_corrected_from": [
-      {"field": "text", "from": "Een groep die op geconsolideerde of geaggregeerde basis niet meer dan één van de criteria van WVV art. 1:26, § 1 overschrijdt (jaaromzet, balanstotaal, jaargemiddelde aantal werknemers). Een vennootschap die deel uitmaakt van een groep van beperkte omvang is in beginsel vrijgesteld van de verplichting om een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen.", "reason": "Stagiair-toon: 'in beginsel' → 'in principe'; korte zinnen (regel 6)."}
+      {
+        "field": "text",
+        "from": "Een groep die op geconsolideerde of geaggregeerde basis niet meer dan één van de criteria van WVV art. 1:26, § 1 overschrijdt (jaaromzet, balanstotaal, jaargemiddelde aantal werknemers). Een vennootschap die deel uitmaakt van een groep van beperkte omvang is in beginsel vrijgesteld van de verplichting om een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen.",
+        "reason": "Stagiair-toon: 'in beginsel' → 'in principe'; korte zinnen (regel 6)."
+      }
     ]
   },
   "voorbeeld_inline": "Aurelia Holding NV (moeder) + Gent Garantie BV (dochter) hebben samen geaggregeerde omzet 20 mln EUR, balanstotaal 12 mln EUR en 180 personeelsleden. Slechts één drempel (personeel) overschreden → groep van beperkte omvang → Aurelia is vrijgesteld van geconsolideerde jaarrekening + jaarverslag.",
@@ -64,25 +105,55 @@
       "aspect": "Twee berekeningsmethoden",
       "betekenis": "Methode 1 — geconsolideerde basis: pas de echte KB WVV-consolidatieregels toe en kijk daarna of je drempels overschrijdt. Vereist eigenlijk al een consolidatie-oefening. Methode 2 — geaggregeerde basis: tel de bedragen van alle verbonden vennootschappen gewoon op, maar gebruik dan drempels die 20 % hoger liggen dan in art. 1:24 (WVV art. 1:24, § 6). Het personeelsaantal bereken je altijd als jaargemiddelde per vennootschap.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2022/03"},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/03"
+      },
       "_provenance": {
         "inputs": [
-          {"id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_vereenvoudigde-methode-berekening-van-het-balanstotaal-en-de", "sha256": null, "version": "rag-v1"},
-          {"id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_berekeningsmethoden", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_vereenvoudigde-methode-berekening-van-het-balanstotaal-en-de",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_berekeningsmethoden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       },
       "_corrected_from": [
-        {"field": "betekenis", "from": "Methode 1: geconsolideerde basis (KB WVV-consolidatieregels toepassen) — vereist een effectieve consolidatie-oefening. Methode 2: geaggregeerde basis (alle bedragen van verbonden vennootschappen optellen, met drempels +20 %) — vereenvoudigde methode (WVV art. 1:24, § 6). Het personeelsaantal wordt steeds als jaargemiddelde per vennootschap berekend.", "reason": "Stagiair-toon (regel 6)."}
+        {
+          "field": "betekenis",
+          "from": "Methode 1: geconsolideerde basis (KB WVV-consolidatieregels toepassen) — vereist een effectieve consolidatie-oefening. Methode 2: geaggregeerde basis (alle bedragen van verbonden vennootschappen optellen, met drempels +20 %) — vereenvoudigde methode (WVV art. 1:24, § 6). Het personeelsaantal wordt steeds als jaargemiddelde per vennootschap berekend.",
+          "reason": "Stagiair-toon (regel 6)."
+        }
       ]
     },
     {
       "aspect": "Consortium-context",
       "betekenis": "Bij een consortium toets je de groottecriteria op het niveau van de leden samen. De centrale leider die zelf geen vennootschap is (bv. natuurlijke persoon zoals Pieter Vermeulen, of een private stichting) wordt niet meegeteld.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2022/09"},
-      "_provenance": {"inputs": [{"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_beoordeling-groottecriteria-ingeval-van-een-consortium", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/09"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_beoordeling-groottecriteria-ingeval-van-een-consortium",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "betekenis", "from": "Bij een consortium wordt de groottebepaling op het niveau van de leden samen uitgevoerd. De centrale leider die geen vennootschap is (bv. natuurlijke persoon, private stichting) wordt niet meegeteld.", "reason": "Stagiair-toon + cast-naam (regels 6 + 7)."}
+        {
+          "field": "betekenis",
+          "from": "Bij een consortium wordt de groottebepaling op het niveau van de leden samen uitgevoerd. De centrale leider die geen vennootschap is (bv. natuurlijke persoon, private stichting) wordt niet meegeteld.",
+          "reason": "Stagiair-toon + cast-naam (regels 6 + 7)."
+        }
       ]
     }
   ],
@@ -92,9 +163,20 @@
       "waarde": "Maximaal 1 van 3 drempels overschreden",
       "eenheid": "criteria",
       "gevolg": "Wordt aan deze test voldaan, dan is de moeder vrijgesteld van het opstellen van een geconsolideerde jaarrekening en een geconsolideerd jaarverslag (tenzij de groep een organisatie van openbaar belang of een beursgenoteerde groep bevat).",
-      "source": {"type": "wet", "short": "WVV art. 1:24 jo. art. 1:26"},
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:24 jo. art. 1:26"
+      },
       "confidence": "grounded",
-      "_provenance": {"inputs": [{"id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_berekeningsmethoden", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_berekeningsmethoden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [],
@@ -102,17 +184,43 @@
     {
       "text": "Vrijstelling werkt enkel als 'maximaal één criterium overschreden' — niet 'minder dan twee'. Tel strikt en beoordeel alle drie de criteria (omzet, balanstotaal, personeel). Voorbeeld: Aurelia + Gent Garantie met twee overschreden drempels → géén vrijstelling.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV art. 1:26, § 1 (toepassing analoog aan art. 1:24)"},
-      "_provenance": {"inputs": [{"id": "CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update__sec_verband-met-de-berekening-van-de-groottecriteria-bij-transac", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:26, § 1 (toepassing analoog aan art. 1:24)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update__sec_verband-met-de-berekening-van-de-groottecriteria-bij-transac",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "text", "from": "Vrijstelling op grond van beperkte omvang werkt enkel als 'maximaal één criterium overschreden' — niet 'minder dan twee'. Het criterium-aantal moet strikt worden geteld, en alle drie de criteria moeten worden beoordeeld (omzet, balanstotaal, personeel).", "reason": "Stagiair-toon + cast-voorbeeld (regels 6 + 7)."}
+        {
+          "field": "text",
+          "from": "Vrijstelling op grond van beperkte omvang werkt enkel als 'maximaal één criterium overschreden' — niet 'minder dan twee'. Het criterium-aantal moet strikt worden geteld, en alle drie de criteria moeten worden beoordeeld (omzet, balanstotaal, personeel).",
+          "reason": "Stagiair-toon + cast-voorbeeld (regels 6 + 7)."
+        }
       ]
     },
     {
       "text": "Eenmalige overschrijding van een drempel doet de vrijstelling niet automatisch verdwijnen — er zijn duurzaamheidsregels (zie CBN 2024/07 over de actualisering van drempels en overgangsregels). Bij twijfel: raadpleeg het Cijferzakboekje voor de actuele drempels en de impact-regels.",
       "confidence": "inferred",
-      "source": {"type": "advies", "short": "CBN 2024/07"},
-      "_provenance": {"inputs": [{"id": "CBN-2024-07-gevolgen-verhoging-groottecriteria-voor-vennootschappen__sec_voorbeeld-5-beoordeling-op-geconsolideerde-of-geaggregeerde-_part2", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2024/07"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2024-07-gevolgen-verhoging-groottecriteria-voor-vennootschappen__sec_voorbeeld-5-beoordeling-op-geconsolideerde-of-geaggregeerde-_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
@@ -124,7 +232,15 @@
         "veld": "contrasteert-met → uitzondering-op + dubbel-edge gesaneerd",
         "reden": "Schema 1.4 regel 9: relatie is logisch een uitzondering, geen contrast."
       },
-      "_provenance": {"inputs": [{"id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "vereist-kennis-van",
@@ -134,7 +250,15 @@
         "veld": "contrasteert-met → vereist-kennis-van",
         "reden": "Relatie is afhankelijkheid, niet contrast."
       },
-      "_provenance": {"inputs": [{"id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_vereenvoudigde-methode-berekening-van-het-balanstotaal-en-de", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_vereenvoudigde-methode-berekening-van-het-balanstotaal-en-de",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ]
 }

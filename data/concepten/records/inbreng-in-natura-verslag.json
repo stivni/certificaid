@@ -4,7 +4,9 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.taak.1"],
+  "linked_anchors": [
+    "1.7.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T11:17Z",
     "model": "claude-opus-4-7",
@@ -31,8 +33,18 @@
       "voorbeeld": {
         "scenario": "Yperse Werkplaats BV brengt productiehal in nieuwe dochter Yperse Werkplaats Polen sp. z o.o.",
         "substappen": [
-          {"nr": 1, "titel": "Goed", "type": "opmerking", "data": "Productiehal te Ieper, 2.500m², bouwjaar 2018."},
-          {"nr": 2, "titel": "Waardering", "type": "berekening", "data": "Markttaxatie door erkend deskundige: € 850.000\nBoekwaarde in Yperse Werkplaats BV: € 620.000\nVerschil: € 230.000 (markt > boek) — meerwaarde verantwoord toegelicht."}
+          {
+            "nr": 1,
+            "titel": "Goed",
+            "type": "opmerking",
+            "data": "Productiehal te Ieper, 2.500m², bouwjaar 2018."
+          },
+          {
+            "nr": 2,
+            "titel": "Waardering",
+            "type": "berekening",
+            "data": "Markttaxatie door erkend deskundige: € 850.000\nBoekwaarde in Yperse Werkplaats BV: € 620.000\nVerschil: € 230.000 (markt > boek) — meerwaarde verantwoord toegelicht."
+          }
         ]
       },
       "grondslag": "WVV art. 5:7 §3 + ITAA-norm"
@@ -47,7 +59,15 @@
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "bijzondere-verslagen-overzicht", "redenering": "Type wettelijk verslag."},
-    {"type": "vereist-kennis-van", "target": "onafhankelijkheid-externe-accountant", "redenering": "Onafhankelijkheid is voorwaarde voor wettelijke verslagen."}
+    {
+      "type": "onderdeel-van",
+      "target": "bijzondere-verslagen-overzicht",
+      "redenering": "Type wettelijk verslag."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "onafhankelijkheid-externe-accountant",
+      "redenering": "Onafhankelijkheid is voorwaarde voor wettelijke verslagen."
+    }
   ]
 }

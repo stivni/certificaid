@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/richtlijn-2013-34-eu.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Richtlijn 2013/34/EU — Europese jaarrekeningenrichtlijn ⚖️
 

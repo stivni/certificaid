@@ -4,7 +4,10 @@
   "node_type": "synthese",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.9.VI", "1.9.VI.B"],
+  "linked_anchors": [
+    "1.9.VI",
+    "1.9.VI.B"
+  ],
   "gebaseerd_op_concepten": [
     "altman-z-score",
     "ohlson-o-score",
@@ -14,7 +17,9 @@
     "extractor_run": "concept-extractie-v4-2026-05-17T10:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.9.VI",
-    "dekt_ook_anchors": ["1.9.VI.B"],
+    "dekt_ook_anchors": [
+      "1.9.VI.B"
+    ],
     "reviewed_by": null,
     "bron_gap": "Internationale financiële-analyse-vakdoctrine. NBB-tools (Score Belfius, Graydon Multiscore) zijn Belgische commerciële afgeleiden — buiten examenscope."
   },
@@ -26,16 +31,38 @@
       "betekenis": "Geen enkel kwantitatief model is 100% accuraat. Best practice: bereken Altman én Ohlson, combineer met kwalitatieve analyse van bestuursverslag, risicoparagraaf en sector-context. Een eensluidende slechte score van beide modellen + kwalitatieve signalen = robuste diagnose.",
       "anker_slug": "1.9.VI",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "Financiële diagnose"},
-      "_provenance": {"inputs": [{"id": "anchor-1.9.VI", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financiële diagnose"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.VI",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Voor examenvraag: weet wat ze meten",
       "betekenis": "Op bekwaamheid-niveau wordt getoetst of de student het mechanisme begrijpt: 'wat is een discriminant-model versus een logit-model?', 'welke variabelen vangt elk?', 'wat is het verschil tussen score en kans?'. Niet: de exacte coefficiënten uit het hoofd kennen.",
       "anker_slug": "1.9.VI.B",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Examencontext"},
-      "_provenance": {"inputs": [{"id": "anchor-1.9.VI.B", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Examencontext"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.VI.B",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ]
 }

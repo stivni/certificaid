@@ -4,12 +4,19 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.II.F", "1.7.II.E", "1.7.II"],
+  "linked_anchors": [
+    "1.7.II.F",
+    "1.7.II.E",
+    "1.7.II"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T11:20Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.II.F",
-    "dekt_ook_anchors": ["1.7.II.E", "1.7.II"],
+    "dekt_ook_anchors": [
+      "1.7.II.E",
+      "1.7.II"
+    ],
     "reviewed_by": null,
     "bron_gap": "Het generieke 'controleproces' (planning → uitvoering → meting → bijsturing) is vakdoctrine. Inferred-common-knowledge."
   },
@@ -57,7 +64,15 @@
     }
   ],
   "edges": [
-    {"type": "vergelijkt-met", "target": "interne-controle", "redenering": "Controleproces (management) is breder dan IC (risicobeheersing); overlapt op meting + bijsturing."},
-    {"type": "vereist-kennis-van", "target": "managementcontrole", "redenering": "Controleproces is operationele vertaling van managementcontrole."}
+    {
+      "type": "vergelijkt-met",
+      "target": "interne-controle",
+      "redenering": "Controleproces (management) is breder dan IC (risicobeheersing); overlapt op meting + bijsturing."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "managementcontrole",
+      "redenering": "Controleproces is operationele vertaling van managementcontrole."
+    }
   ]
 }

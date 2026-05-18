@@ -4,25 +4,45 @@
   "node_type": "actor",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.II", "1.2.I.E"],
+  "linked_anchors": [
+    "1.2.II",
+    "1.2.I.E"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.II",
-    "dekt_ook_anchors": ["1.2.I.E"],
+    "dekt_ook_anchors": [
+      "1.2.I.E"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "De CBN is een federale adviescommissie die het Belgisch boekhoudrecht doctrinaire toelichting geeft. Ze publiceert adviezen over de toepassing van de boekhoudwetten op concrete vraagstukken. De Commissie is in 1975 opgericht en heeft een wettelijke opdracht — maar haar adviezen binden de adressaten niet.",
     "confidence": "grounded",
-    "source": {"type": "advies", "short": "CBN-advies 14/1 — Adviesbevoegdheid"},
+    "source": {
+      "type": "advies",
+      "short": "CBN-advies 14/1 — Adviesbevoegdheid"
+    },
     "references": [
-      {"type": "wet", "short": "Wet 17 juli 1975 (oprichting CBN)"},
-      {"type": "advies", "short": "CBN-advies 14/1"}
+      {
+        "type": "wet",
+        "short": "Wet 17 juli 1975 (oprichting CBN)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN-advies 14/1"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "CBN-0014-01-adviesbevoegdheid__volledig_part1", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0014-01-adviesbevoegdheid__volledig_part1",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Een accountant met een twijfelgeval over de boeking van een overnametransactie kan een vraag stellen aan de CBN — antwoord komt als formeel advies of als individuele consultatie.",
   "bouwstenen": [
@@ -33,10 +53,19 @@
       "voorbeeld_inline": "CBN-advies 2022/03 geeft de doctrinaire interpretatie van de groottecriteria — invulling van WVV art. 1:24 die zonder advies onduidelijk zou blijven.",
       "grondslag": "Wet 17 juli 1975 art. 13; CBN-advies 14/1",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN-advies 14/1"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0014-01-adviesbevoegdheid__volledig_part1", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 14/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0014-01-adviesbevoegdheid__volledig_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Bevoegdheid: enkel adviseren",
@@ -45,10 +74,19 @@
       "voorbeeld_inline": "Een fiscale inspecteur kan zich beroepen op een CBN-advies om een correctie te motiveren, maar de CBN zelf legt geen aanslagen op.",
       "grondslag": "CBN-advies 14/1",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN-advies 14/1"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0014-01-adviesbevoegdheid__volledig_part1", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 14/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0014-01-adviesbevoegdheid__volledig_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -57,10 +95,19 @@
       "betekenis": "Adviezen staan op de website van de CBN (cnc-cbn.be), chronologisch genummerd per jaar. Voor de stagiair: zoek op trefwoord (bv. 'voorzichtigheid', 'fusie', 'leasing') om relevante adviezen te vinden.",
       "herkenningspunt": "Een examenvraag verwijst soms naar 'CBN-advies 20XX/YY' — dat is de officiële verwijzing.",
       "confidence": "inferred",
-      "source": {"type": "advies", "short": "CBN praktijk"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0014-01-adviesbevoegdheid__volledig_part1", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "CBN praktijk"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0014-01-adviesbevoegdheid__volledig_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

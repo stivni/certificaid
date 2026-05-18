@@ -4,26 +4,50 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.III.C", "1.2.III"],
+  "linked_anchors": [
+    "1.2.III.C",
+    "1.2.III"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.III.C",
-    "dekt_ook_anchors": ["1.2.III"],
+    "dekt_ook_anchors": [
+      "1.2.III"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Hulpdagboeken zijn gespecialiseerde dagboeken die per type verrichting worden bijgehouden, naast het centrale dagboek. Klassieke hulpdagboeken: aankoopdagboek, verkoopdagboek, financieel dagboek (per bankrekening + kas), diversen-dagboek. Hun saldi worden minstens maandelijks gecentraliseerd in het centraal boek.",
     "confidence": "grounded",
-    "source": {"type": "advies", "short": "CBN-advies 174/1"},
+    "source": {
+      "type": "advies",
+      "short": "CBN-advies 174/1"
+    },
     "references": [
-      {"type": "wet", "short": "WER art. III.84"},
-      {"type": "advies", "short": "CBN-advies 174/1"}
+      {
+        "type": "wet",
+        "short": "WER art. III.84"
+      },
+      {
+        "type": "advies",
+        "short": "CBN-advies 174/1"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek", "sha256": null, "version": "rag-v1"},
-      {"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_III_71",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Meubelzaak Mertens BV houdt 5 hulpdagboeken bij: aankopen, verkopen, financieel (ING bank), financieel (KBC bank), diversen. Eind maand: centralisatie naar centraal boek.",
   "bouwstenen": [
@@ -34,10 +58,19 @@
       "voorbeeld_inline": "Inkomende leveranciersfactuur bij Naaiatelier Ninove BV → aankoopdagboek. Eindjaarsboeking afschrijving → diversen-dagboek.",
       "grondslag": "WER art. III.84; CBN-advies 174/1",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN-advies 174/1"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Centralisatie — minstens maandelijks",
@@ -46,10 +79,19 @@
       "voorbeeld_inline": "Eind januari boekt boekhouder Meubelzaak Mertens BV de totalen van januari uit elk hulpdagboek (€ 35.000 aankopen, € 52.000 verkopen, € 18.000 bank ING-bewegingen, ...) over naar het centraal boek.",
       "grondslag": "WER art. III.84; CBN-advies 174/1",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN-advies 174/1"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

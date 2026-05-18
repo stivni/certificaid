@@ -4,23 +4,41 @@
   "node_type": "actor",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.3.I.D", "1.3.taak.1"],
+  "linked_anchors": [
+    "1.3.I.D",
+    "1.3.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.3.I.D",
-    "dekt_ook_anchors": ["1.3.taak.1"],
+    "dekt_ook_anchors": [
+      "1.3.taak.1"
+    ],
     "reviewed_by": null,
     "cross_po_overlap": "Mogelijk uitgebreid in PO 2.x (audit/normen). Voor PO 1.3 focus: extern toezicht op getrouw beeld dat de financiële analist consumeert."
   },
   "definitie": {
     "text": "Een commissaris is een bedrijfsrevisor (lid van het IBR) die door de algemene vergadering benoemd wordt om de jaarrekening te controleren bij vennootschappen die de groottecriteria voor verplichte controle overschrijden. Hij geeft een verklaring af over het getrouwe beeld van de jaarrekening.",
     "confidence": "inferred-from-aggregation",
-    "source": {"type": "wet", "short": "WVV (boek 3) + Wet revisoraat"},
-    "_provenance": {"inputs": [
-      {"id": "WVV__art_9_17", "sha256": null, "version": "rag-v1"},
-      {"id": "CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris__sec_gegevens-van-de-leden-van-het-bestuursorgaan", "sha256": null, "version": "rag-v1"}
-    ]}
+    "source": {
+      "type": "wet",
+      "short": "WVV (boek 3) + Wet revisoraat"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WVV__art_9_17",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris__sec_gegevens-van-de-leden-van-het-bestuursorgaan",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -30,8 +48,19 @@
       "voorbeeld_inline": "Bij Rotex Roeselare NV geeft de commissaris een goedkeurende verklaring zonder voorbehoud — ratio's mogen vertrouwd worden.",
       "grondslag": "ISA-normen + IBR-normen",
       "confidence": "inferred",
-      "source": {"type": "norm", "short": "ITAA-norm + IBR-normen"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.I.D", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm + IBR-normen"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.I.D",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Vermelding in jaarrekening",
@@ -40,8 +69,19 @@
       "voorbeeld_inline": "Op de eerste pagina van de jaarrekening Rotex Roeselare NV staat 'Commissaris: Sofie Janssens, [audit-vennootschap]'.",
       "grondslag": "CBN-2020/09",
       "confidence": "grounded",
-      "source": {"type": "cbn", "short": "CBN-2020/09 §gegevens leden bestuursorgaan"},
-      "_provenance": {"inputs": [{"id": "CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris__sec_gegevens-van-de-leden-van-het-bestuursorgaan", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "cbn",
+        "short": "CBN-2020/09 §gegevens leden bestuursorgaan"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris__sec_gegevens-van-de-leden-van-het-bestuursorgaan",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -50,11 +90,27 @@
       "betekenis": "Bij elke analyse: lees eerst het commissarisverslag (verklaring van het type). Een goedkeurende verklaring zonder voorbehoud = ratio's mogen vertrouwd worden. Voorbehoud, afkeurend of onthoudend = pas op met de cijfers.",
       "anker_slug": "1.3.I.D",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.I.D", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.I.D",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "getrouw-beeld-jaarrekening", "redenering": "Commissaris attesteert getrouw beeld.", "confidence": "inferred"}
+    {
+      "type": "vereist-kennis-van",
+      "target": "getrouw-beeld-jaarrekening",
+      "redenering": "Commissaris attesteert getrouw beeld.",
+      "confidence": "inferred"
+    }
   ]
 }

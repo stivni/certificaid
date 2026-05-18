@@ -4,12 +4,19 @@
   "node_type": "fenomeen",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.G", "1.4.II.D", "1.4.taak.1"],
+  "linked_anchors": [
+    "1.4.I.G",
+    "1.4.II.D",
+    "1.4.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.G",
-    "dekt_ook_anchors": ["1.4.II.D", "1.4.taak.1"],
+    "dekt_ook_anchors": [
+      "1.4.II.D",
+      "1.4.taak.1"
+    ],
     "reviewed_by": null,
     "schema_1_4_migration": {
       "uitgevoerd_op": "2026-05-16T00:11Z",
@@ -52,21 +59,49 @@
   "definitie": {
     "text": "Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt — met als gevolg dat (a) een eerste deelneming met invloed van betekenis ontstaat of (b) een bestaande geassocieerde wordt opgeschaald, al dan niet tot dochter. Bij elke trap controleer je of de kwalificatie verandert (geen invloed → invloed van betekenis → controle). Verandert ze, dan schakelt ook de consolidatietechniek (van geen consolidatie naar vermogensmutatie, of van vermogensmutatie naar integrale of evenredige consolidatie).",
     "confidence": "grounded",
-    "source": {"type": "advies", "short": "CBN 2013/3 — De boekhoudkundige verwerking van step acquisitions (update)"},
+    "source": {
+      "type": "advies",
+      "short": "CBN 2013/3 — De boekhoudkundige verwerking van step acquisitions (update)"
+    },
     "references": [
-      {"type": "advies", "short": "CBN 2013/3 — Step acquisitions"},
-      {"type": "wet", "short": "WVV art. 1:14 (controle); art. 1:22 (invloed van betekenis)"},
-      {"type": "kb", "short": "KB WVV art. 3:127 — 3:131 (consolidatieverschil)"}
+      {
+        "type": "advies",
+        "short": "CBN 2013/3 — Step acquisitions"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 1:14 (controle); art. 1:22 (invloed van betekenis)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:127 — 3:131 (consolidatieverschil)"
+      }
     ],
     "_provenance": {
       "inputs": [
-        {"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     },
     "_corrected_from": [
-      {"field": "text", "from": "Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt, met als gevolg dat (a) een participatie van invloed van betekenis wordt verworven of (b) een bestaande geassocieerde onderneming wordt opgeschaald — al dan niet naar een dochteronderneming. Bij elke trap moet worden beoordeeld of de kwalificatie (geen invloed → invloed van betekenis → controle) wijzigt; bij een kwalificatieverandering volgt een wijziging van consolidatietechniek (van geen consolidatie naar vermogensmutatie, of van vermogensmutatie naar integrale/evenredige consolidatie).", "reason": "Stagiair-toon: korte zinnen (regel 6)."}
+      {
+        "field": "text",
+        "from": "Het fenomeen waarbij een onderneming haar belang in een andere onderneming in twee of meer fasen verhoogt, met als gevolg dat (a) een participatie van invloed van betekenis wordt verworven of (b) een bestaande geassocieerde onderneming wordt opgeschaald — al dan niet naar een dochteronderneming. Bij elke trap moet worden beoordeeld of de kwalificatie (geen invloed → invloed van betekenis → controle) wijzigt; bij een kwalificatieverandering volgt een wijziging van consolidatietechniek (van geen consolidatie naar vermogensmutatie, of van vermogensmutatie naar integrale/evenredige consolidatie).",
+        "reason": "Stagiair-toon: korte zinnen (regel 6)."
+      }
     ]
   },
   "voorbeeld_inline": "Antwerpse Investments NV verwerft in 20X1 een eerste tranche van 25 % in Drukkerij Dendermonde BV (aanschaffingswaarde € 350.000) → invloed van betekenis → vermogensmutatie. In 20X3 koopt Antwerpse 35 % bij (aanschaffingswaarde € 700.000) → totaal 60 % → kantelpunt naar exclusieve controle → vanaf dan integrale consolidatie van Drukkerij Dendermonde in de geconsolideerde jaarrekening van Antwerpse.",
@@ -79,8 +114,19 @@
       "grondslag": "[[invloed-van-betekenis]], [[vermogensmutatiemethode]], [[eerste-consolidatie]]",
       "voorbeeld_inline": "Antwerpse Investments NV koopt in 20X1 25 % in Drukkerij Dendermonde BV voor € 350.000 (geen eerdere participatie). Eigen vermogen (EV) Drukkerij = € 1.250.000 → pro-rata aandeel = € 312.500; consolidatieverschil = € 37.500.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2013/3"},
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2013/3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "van_situatie": "Invloed van betekenis",
@@ -90,8 +136,19 @@
       "grondslag": "[[controle]], [[integrale-consolidatie]], [[consolidatieverschil]]",
       "voorbeeld_inline": "Antwerpse bezit 25 % in Drukkerij (vermogensmutatie). In 20X3 koopt Antwerpse 35 % bij voor € 700.000 → totaal 60 % → exclusieve controle → integrale consolidatie. Nieuw consolidatieverschil wordt berekend op het bijkomende belang.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2013/3"},
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2013/3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "van_situatie": "Invloed van betekenis",
@@ -101,8 +158,19 @@
       "grondslag": "[[vermogensmutatiemethode]]",
       "voorbeeld_inline": "Antwerpse bezit 25 % in Drukkerij Dendermonde en koopt 5 % bij voor € 75.000 → nu 30 %, nog steeds geassocieerd → 'Vennootschappen waarop vermogensmutatie is toegepast' wordt verhoogd met het pro-rata bedrag + eventueel consolidatieverschil op de bijkomende 5 %.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2013/3"},
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2013/3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "bouwstenen": [
@@ -113,8 +181,19 @@
       "voorbeeld_inline": "Antwerpse Investments NV bezit 25 % in Drukkerij Dendermonde BV (vermogensmutatie) en koopt 5 % bij voor € 75.000 → nu 30 %, nog steeds geassocieerd → 'Vennootschappen waarop vermogensmutatie is toegepast' wordt verhoogd met het pro-rata bedrag + eventueel consolidatieverschil op de bijkomende 5 %.",
       "grondslag": "CBN 2013/3",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2013/3"},
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2013/3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": {
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "Verhoging van een belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft. De aanvullende deelneming wordt geboekt als een verhoging van 'Vennootschappen waarop vermogensmutatie is toegepast', met eventueel een bijkomend consolidatieverschil op het bijkomend belang.",
@@ -128,8 +207,19 @@
       "voorbeeld_inline": "Antwerpse bezit 25 % in Drukkerij Dendermonde (vermogensmutatie). In 20X3 koopt Antwerpse 35 % bij voor € 700.000 → totaal 60 % → exclusieve controle → integrale consolidatie. Voor de bijkomende 35 % wordt een nieuw consolidatieverschil berekend op datum 20X3.",
       "grondslag": "CBN 2013/3",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2013/3"},
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2013/3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": {
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "Verhoging van een belang in een geassocieerde onderneming met overschrijding van de controlegrens — vermogensmutatie wordt verlaten en integrale consolidatie begint. Het bestaande consolidatieverschil wordt geherwaardeerd; de activa en passiva van de nieuwe dochter worden volledig opgenomen op de datum waarop controle wordt verworven.",
@@ -143,8 +233,19 @@
       "voorbeeld_inline": "Antwerpse Investments NV verwerft in 20X1 een eerste tranche van 25 % in Drukkerij Dendermonde BV voor € 350.000; eigen vermogen (EV) Drukkerij op aankoopdatum = € 1.250.000 → pro-rata = € 312.500; consolidatieverschil = € 350.000 − € 312.500 = € 37.500, te boeken bij eerste consolidatie via vermogensmutatie.",
       "grondslag": "CBN 2013/3",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2013/3"},
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2013/3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": {
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "Eerste verwerving van een belang dat invloed van betekenis triggert (typisch ≥ 20 %). Eerste consolidatie volgens vermogensmutatie; berekening van het consolidatieverschil zoals bij eerste consolidatie.",
@@ -158,10 +259,25 @@
       "betekenis": "Bij elke trap controleer je éérst of de kwalificatie verandert. De drie typische kantelpunten staan gestructureerd in het top-level veld `kantelpunten[]` (van_situatie → naar_situatie + drempel + gevolg + grondslag). Bij elk kantelpunt schakelt mogelijk de consolidatietechniek.",
       "herkenningspunt": "Examen-zin 'Antwerpse Investments NV koopt eerst 25 %, daarna 35 % bij': twee opeenvolgende kwalificaties — eerst vermogensmutatie (25 %), daarna integrale consolidatie (totaal 60 %). Het is geen één continue boekhoudkundige rekening, maar twee afzonderlijke regimes.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2013/3"},
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2013/3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "herkenningspunt", "from": "Examen vraag 'eerst 20 %, later +40 % verwerving': eerst vermogensmutatie, daarna integrale consolidatie — niet één continue rekening.", "reason": "Cast-namen + concretiseren (regels 6 + 7)."}
+        {
+          "field": "herkenningspunt",
+          "from": "Examen vraag 'eerst 20 %, later +40 % verwerving': eerst vermogensmutatie, daarna integrale consolidatie — niet één continue rekening.",
+          "reason": "Cast-namen + concretiseren (regels 6 + 7)."
+        }
       ]
     }
   ],
@@ -170,8 +286,19 @@
     {
       "text": "Bij de overgang van vermogensmutatie naar integrale consolidatie verdwijnt het bestaande consolidatieverschil niet. Voor de bijkomende tranche bereken je een nieuw consolidatieverschil op de aanschaffingsdatum van die nieuwe tranche; het oude residu blijft bestaan voor de eerdere tranche.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2013/3"},
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2013/3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
@@ -183,7 +310,15 @@
         "veld": "contrasteert-met → specialisatie-van + dubbel-edge gesaneerd",
         "reden": "Relatie is hiërarchisch (specialisatie), niet contrast."
       },
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "getriggerd-door",
@@ -193,7 +328,15 @@
         "veld": "contrasteert-met → getriggerd-door",
         "reden": "Step acquisition triggert eerste consolidatie van de bijkomende tranche; geen contrast."
       },
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "vereist-kennis-van",

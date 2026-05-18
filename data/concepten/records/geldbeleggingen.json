@@ -4,7 +4,9 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.1.II.G"],
+  "linked_anchors": [
+    "1.1.II.G"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
@@ -15,14 +17,30 @@
   "definitie": {
     "text": "**Vlottende activa** (rubriek 5 MAR) waarin de onderneming tijdelijk haar overtollige middelen plaatst voor **korte-termijn-rendement** of voor **dagelijkse liquiditeit**. Twee hoofdgroepen: (1) **Geldbeleggingen** rubriek 50-53 (eigen aandelen 50, aandelen 51, vastrentende effecten 52, termijndeposito's 53) — beleggingen voor rendement, en (2) **Liquide middelen** rubriek 55-58 (bankrekeningen 55, postchequerekening 56, kasmiddelen 57, interne overboekingen 58) — dagelijks betalingsverkeer. Waardering: aanschaffingsprijs; waardevermindering bij ontwaarding.",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "MAR klasse 5; KB WVV art. 3:52 — 3:53"},
+    "source": {
+      "type": "wet",
+      "short": "MAR klasse 5; KB WVV art. 3:52 — 3:53"
+    },
     "references": [
-      {"type": "advies", "short": "CBN 147/1 — Vastrentende effecten: FVA of geldbelegging"}
+      {
+        "type": "advies",
+        "short": "CBN 147/1 — Vastrentende effecten: FVA of geldbelegging"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "MAR-ondernemingen__art_5", "sha256": null, "version": "rag-v1"},
-      {"id": "CBN-0147-01-vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria__volledig", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "MAR-ondernemingen__art_5",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-0147-01-vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria__volledig",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Solaris Sint-Truiden BV heeft op 31/12: rekening 51 Aandelen € 280.000 (kortetermijn-effectenportefeuille), rekening 53 Termijndeposito's € 150.000, rekening 550 Bankrekening Belfius € 87.500, rekening 570 Kassa € 1.250. Subtotaal liquide middelen + geldbeleggingen op de balans = € 518.750.",
   "bouwstenen": [
@@ -33,8 +51,19 @@
       "voorbeeld_inline": "Solaris Sint-Truiden BV koopt obligaties met 10-jarige looptijd: (a) als tijdelijke kasoptimalisatie (verkoop bij rente-opbouw) → rubriek 52 Vastrentende effecten als geldbelegging. (b) als duurzame financiering van een verbonden onderneming → rubriek 28 FVA. Verschil zit in de boekhoudkundige documentatie van het bestuursorgaan.",
       "grondslag": "CBN 147/1",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 147/1"},
-      "_provenance": {"inputs": [{"id": "CBN-0147-01-vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria__volledig", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 147/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0147-01-vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria__volledig",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Waardering: aanschaffingsprijs, met afwaardering",
@@ -43,8 +72,19 @@
       "voorbeeld_inline": "Solaris Sint-Truiden BV kocht aandelen voor € 280.000; beurskoers op 31/12 € 245.000. Waardevermindering = € 35.000. Boeking: Debet 6510 Waardeverminderingen op geldbeleggingen € 35.000 / Credit 519 Geboekte waardeverminderingen op geldbeleggingen € 35.000.",
       "grondslag": "KB WVV art. 3:52",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:52"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_5", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:52"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_5",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Liquide middelen op bankrekeningen en in kas",
@@ -53,8 +93,19 @@
       "voorbeeld_inline": "Meubelzaak Mertens BV heeft op 31/12: KBC-zichtrekening € 18.700, ING-spaarrekening € 45.000, kassa € 850. Totaal rubriek IX Liquide middelen = € 64.550. Geen waardecorrectie nodig (EUR-rekeningen).",
       "grondslag": "MAR klasse 5 + KB WVV art. 3:39 (vreemde valuta)",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR + KB WVV"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_5", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR + KB WVV"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_5",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Eigen aandelen onder rubriek 50",
@@ -63,8 +114,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV koopt 5 % eigen aandelen terug voor € 350.000. Boeking: Debet 50 Eigen aandelen € 350.000 / Credit 550 Bank € 350.000. Daarnaast: reserve onbeschikbaar opbouwen voor € 350.000 (zie [[eigen-aandelen]]).",
       "grondslag": "WVV art. 7:215 jo. 7:218 + KB WVV",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR + WVV"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_5", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR + WVV"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_5",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -73,16 +135,38 @@
       "betekenis": "De rubriek liquide middelen + geldbeleggingen vormt de teller van klassieke liquiditeitsratio's (acid test). Lage saldi wijzen op liquiditeitsprobleem; te hoge saldi op suboptimaal kasbeheer.",
       "herkenningspunt": "Examen jaarrekeningenanalyse: ratio = (vorderingen op KT + geldbeleggingen + liquide middelen) / schulden op KT. Direct uit MAR-klasse 4 + 5.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "wet", "short": "MAR klasse 5 + ratio-praktijk"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_5", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR klasse 5 + ratio-praktijk"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_5",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Kasmiddelen (rekening 57) moeten overeenstemmen met fysieke kassa-telling op balansdatum — niet alleen een 'theoretisch' saldo. Verschil kassa-boekhouding/kassa-fysiek wijst op fout of fraude.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "advies", "short": "Inventarisplicht CBN 174/1"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_5", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "Inventarisplicht CBN 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_5",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -93,7 +177,15 @@
     }
   ],
   "edges": [
-    {"type": "vergelijkt-met", "target": "financiele-vaste-activa", "redenering": "Verschil zit in oogmerk bij verwerving."},
-    {"type": "bevat", "target": "eigen-aandelen", "redenering": "Eigen aandelen rekening 50 is een subcategorie binnen klasse 5."}
+    {
+      "type": "vergelijkt-met",
+      "target": "financiele-vaste-activa",
+      "redenering": "Verschil zit in oogmerk bij verwerving."
+    },
+    {
+      "type": "bevat",
+      "target": "eigen-aandelen",
+      "redenering": "Eigen aandelen rekening 50 is een subcategorie binnen klasse 5."
+    }
   ]
 }

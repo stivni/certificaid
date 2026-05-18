@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/ias-1-winst-en-totaalresultaat.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Winst of verlies en overige onderdelen van het totaalresultaat (IAS 1) ⚖️
 

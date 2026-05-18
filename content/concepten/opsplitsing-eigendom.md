@@ -13,7 +13,7 @@ node_type: fenomeen
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/opsplitsing-eigendom.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Opsplitsing eigendom (vruchtgebruik, opstal, erfpacht) ⚖️
 

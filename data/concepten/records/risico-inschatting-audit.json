@@ -4,19 +4,37 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.II.B", "1.6.II.A", "1.6.II"],
+  "linked_anchors": [
+    "1.6.II.B",
+    "1.6.II.A",
+    "1.6.II"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.II.B",
-    "dekt_ook_anchors": ["1.6.II.A", "1.6.II"],
+    "dekt_ook_anchors": [
+      "1.6.II.A",
+      "1.6.II"
+    ],
     "reviewed_by": null
   },
   "verplichting": {
     "text": "De beroepsbeoefenaar identificeert en schat de risico's op een afwijking van materieel belang in op het niveau van de financiële overzichten én op het niveau van de beweringen (assertions), als gevolg van fraude of fouten. Hij doet dit door inzicht te verwerven in de cliënt en haar omgeving — inclusief de interne beheersing.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA KMO-controlenorm §74-§77"},
-    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm §74-§77"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Bij Rotex Roeselare NV verwerft Sofie Janssens inzicht door bevragingen bij de CFO + de productieleider, doorlezen van het beleid, cijferanalyses op de afgelopen drie boekjaren, en een rondgang op de werkvloer. Daaruit identificeert ze drie risicogebieden: voorraadwaardering, een aanhangig fiscaal geschil, en het hoge ondernemingskrediet.",
   "stappen": [
@@ -53,12 +71,31 @@
     {
       "text": "Risico-inschattingswerkzaamheden zijn GEEN substantive werkzaamheden. Zij geven enkel inzicht — niet voldoende assurance op zichzelf. Je moet ze opvolgen met gerichte werkzaamheden om de assertions te toetsen.",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §85"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §85"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "auditrisicomodel", "redenering": "Risico-inschatting populeert de input van het risicomodel."},
-    {"type": "getriggerd-door", "target": "auditplanning", "redenering": "Risico-inschatting is een planningsstap."}
+    {
+      "type": "vereist-kennis-van",
+      "target": "auditrisicomodel",
+      "redenering": "Risico-inschatting populeert de input van het risicomodel."
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "auditplanning",
+      "redenering": "Risico-inschatting is een planningsstap."
+    }
   ]
 }

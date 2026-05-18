@@ -4,7 +4,9 @@
   "node_type": "actor",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.II"],
+  "linked_anchors": [
+    "1.2.II"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
@@ -15,15 +17,34 @@
   "definitie": {
     "text": "De FSMA (Autoriteit voor Financiële Diensten en Markten) is de Belgische toezichthouder op de financiële markten. Voor het boekhoudrecht is haar rol vooral controlerend bij beursgenoteerde vennootschappen: zij houdt toezicht op de financiële verslaggeving (gelaagde jaarrekening, IFRS) van uitgevers van publiek aangeboden effecten.",
     "confidence": "inferred-from-aggregation",
-    "source": {"type": "wet", "short": "Wet 2 augustus 2002 (financieel toezicht)"},
+    "source": {
+      "type": "wet",
+      "short": "Wet 2 augustus 2002 (financieel toezicht)"
+    },
     "references": [
-      {"type": "wet", "short": "Wet 2 augustus 2002"},
-      {"type": "wet", "short": "WER art. XV (toezicht en handhaving)"}
+      {
+        "type": "wet",
+        "short": "Wet 2 augustus 2002"
+      },
+      {
+        "type": "wet",
+        "short": "WER art. XV (toezicht en handhaving)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "WER__art_XV_62", "sha256": null, "version": "rag-v1"},
-      {"id": "WER__art_XV_63", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_XV_62",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_XV_63",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Een beursgenoteerde groep (Public Interest Entity) moet IFRS-consolidatie publiceren — de FSMA controleert of die financiële informatie tijdig en volledig wordt verspreid.",
   "bouwstenen": [
@@ -34,10 +55,19 @@
       "voorbeeld_inline": "Een beursgenoteerde holding publiceert haar jaarrapport niet binnen 4 maanden na boekjaar-afsluiting → FSMA legt een dwangsom of berisping op.",
       "grondslag": "Wet 2 augustus 2002; KB transparantie",
       "confidence": "inferred",
-      "source": {"type": "wet", "short": "Wet 2 augustus 2002"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_XV_63", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "Wet 2 augustus 2002"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XV_63",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Geen toezicht op niet-beursgenoteerde vennootschappen",
@@ -46,10 +76,19 @@
       "voorbeeld_inline": "Meubelzaak Mertens BV (kleine niet-beursgenoteerde BV) → geen FSMA-toezicht; controle ligt bij eventuele commissaris en de fiscus.",
       "grondslag": "Wet 2 augustus 2002 (toepassingsgebied)",
       "confidence": "inferred",
-      "source": {"type": "wet", "short": "Wet 2 augustus 2002"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_XV_63", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "Wet 2 augustus 2002"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XV_63",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

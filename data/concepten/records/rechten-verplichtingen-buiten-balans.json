@@ -4,25 +4,46 @@
   "node_type": "fenomeen",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.1.II.R", "1.1.I.A"],
+  "linked_anchors": [
+    "1.1.II.R",
+    "1.1.I.A"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.R",
-    "dekt_ook_anchors": ["1.1.I.A"],
+    "dekt_ook_anchors": [
+      "1.1.I.A"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "**Rechten en verplichtingen** die op balansdatum bestaan maar GEEN actief- of passiefbestanddeel vormen in de zin van het KB WVV (geen vermogensbestanddeel met onmiddellijke balansimpact). Bv. zekerheden gesteld door of voor derden, persoonlijke borgstellingen, ontvangen of gegeven garanties, termijnovereenkomsten, lopende rechtsgedingen waarvan de uitkomst nog onzeker is, optieovereenkomsten. **MAR klasse 0** voorziet aparte rekeningen; ze verschijnen niet in de balans maar moeten WEL in de toelichting worden vermeld voor de volledigheid van de jaarrekening.",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "MAR klasse 0; KB WVV"},
+    "source": {
+      "type": "wet",
+      "short": "MAR klasse 0; KB WVV"
+    },
     "references": [
-      {"type": "advies", "short": "CBN 0003/02 — Niet in de balans opgenomen rechten en verplichtingen"}
+      {
+        "type": "advies",
+        "short": "CBN 0003/02 — Niet in de balans opgenomen rechten en verplichtingen"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "MAR-ondernemingen__art_0_part1", "sha256": null, "version": "rag-v1"},
-      {"id": "CBN-0003-02-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_top_part1", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "MAR-ondernemingen__art_0_part1",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-0003-02-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_top_part1",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Aurelia Holding NV heeft op 31/12 een persoonlijke borgstelling gegeven voor een bankkrediet van € 850.000 verleend aan dochter Brugse Brouwerij BV. Geen balanspost — dochter blijft hoofdschuldenaar — MAAR opname op rekening 010 'Persoonlijke zekerheden gesteld voor rekening van derden' € 850.000. In toelichting: aard, ontvanger, bedrag, looptijd. Bij niet-betaling door dochter: omzetting in werkelijke verplichting en boeking op rekening 49 + klasse 65.",
   "bouwstenen": [
@@ -33,8 +54,19 @@
       "voorbeeld_inline": "Transport Tongeren BV heeft een retentierecht ontvangen van haar leasinggever op haar vrachtwagens (waarborg € 45.000) → boeking rekening 03 'Ontvangen zekerheden' € 45.000. Tegelijk heeft de NV haar vrachtwagens als zakelijke zekerheid bij eigen lening → rekening 02 'Zakelijke zekerheden op eigen activa' € 380.000.",
       "grondslag": "MAR klasse 0",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR klasse 0"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_0_part1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR klasse 0"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_0_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Toelichting verplicht",
@@ -43,8 +75,19 @@
       "voorbeeld_inline": "Toelichting Aurelia Holding NV: 'Persoonlijke borgstelling € 850.000 gesteld voor bankkrediet van Brugse Brouwerij BV (verbonden onderneming), looptijd 7 jaar.'",
       "grondslag": "KB WVV jaarrekeningschema + toelichtingsvereisten",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 0003/02"},
-      "_provenance": {"inputs": [{"id": "CBN-0003-02-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_top_part1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 0003/02"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0003-02-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_top_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Boeking via tegenrekeningen klasse 0",
@@ -53,8 +96,19 @@
       "voorbeeld_inline": "Aurelia Holding NV borgstelling € 850.000: Debet 010 Persoonlijke zekerheden voor rekening van derden € 850.000 / Credit 011 Crediteuren van persoonlijke zekerheden € 850.000.",
       "grondslag": "MAR klasse 0",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_0_part1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_0_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Migratie naar balans bij realisatie",
@@ -63,8 +117,19 @@
       "voorbeeld_inline": "Brugse Brouwerij BV (dochter van Aurelia) defaultoptreedt; bank roept persoonlijke borg op. Aurelia betaalt € 850.000. Boeking: (a) afboeking klasse 0: Debet 011 / Credit 010 € 850.000. (b) Werkelijke boeking: Debet 416 Vordering op verbonden ondernemingen € 850.000 / Credit 550 Bank € 850.000.",
       "grondslag": "MAR + algemene boekhoudkundige verwerking",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "wet", "short": "MAR + KB WVV"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_0_part1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR + KB WVV"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_0_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -73,22 +138,55 @@
       "betekenis": "Frequent voorkomende posten klasse 0: persoonlijke borgstelling bestuurder voor bedrijfslening, hypothecaire inschrijving op pand voor bankkrediet, ontvangen pand op verkochte goederen, leasingovereenkomsten zonder activering, lopende rechtsgedingen, niet-opgenomen kapitaalverbintenissen (capital commitments).",
       "herkenningspunt": "Examen: een bestuurder borg voor 100 % van de lening van zijn BV → onmiddellijk klasse 0 zelfs als boekhoudkundig niet 'gevoeld' tot default.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 0003/02"},
-      "_provenance": {"inputs": [{"id": "CBN-0003-02-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_top_part1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 0003/02"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0003-02-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_top_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Het feit dat een recht/verplichting niet in de balans staat, betekent NIET dat het irrelevant is. Een grote persoonlijke borg of een hangend geschil kan economisch significant zijn — toelichtingsplicht voorkomt dat gebruiker misleid wordt.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 0003/02"},
-      "_provenance": {"inputs": [{"id": "CBN-0003-02-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_top_part1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 0003/02"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0003-02-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_top_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Onderscheid met voorzieningen (klasse 16): voorziening = waarschijnlijke verplichting die de balans WEL raakt; klasse 0 = recht/verplichting die de balans (nog) NIET raakt. Bij stijgende waarschijnlijkheid kantelt klasse 0 → voorziening.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "advies", "short": "CBN 0003/02 + CBN 2018/25"},
-      "_provenance": {"inputs": [{"id": "CBN-0003-02-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_top_part1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 0003/02 + CBN 2018/25"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0003-02-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_top_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -99,7 +197,15 @@
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "regelmatige-boekhouding", "redenering": "Volledigheidsbeginsel vereist opname in boekhouding, zelfs als buiten balans."},
-    {"type": "vergelijkt-met", "target": "voorzieningen", "redenering": "Frequente examen-verwarring tussen klasse 0 en klasse 16."}
+    {
+      "type": "onderdeel-van",
+      "target": "regelmatige-boekhouding",
+      "redenering": "Volledigheidsbeginsel vereist opname in boekhouding, zelfs als buiten balans."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "voorzieningen",
+      "redenering": "Frequente examen-verwarring tussen klasse 0 en klasse 16."
+    }
   ]
 }

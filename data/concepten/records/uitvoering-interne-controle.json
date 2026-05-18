@@ -4,12 +4,25 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.VIII", "1.7.VIII.A", "1.7.VIII.B", "1.7.VIII.C", "1.7.VIII.F", "1.7.XIII"],
+  "linked_anchors": [
+    "1.7.VIII",
+    "1.7.VIII.A",
+    "1.7.VIII.B",
+    "1.7.VIII.C",
+    "1.7.VIII.F",
+    "1.7.XIII"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T10:18Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.VIII.A",
-    "dekt_ook_anchors": ["1.7.VIII", "1.7.VIII.B", "1.7.VIII.C", "1.7.VIII.F", "1.7.XIII"],
+    "dekt_ook_anchors": [
+      "1.7.VIII",
+      "1.7.VIII.B",
+      "1.7.VIII.C",
+      "1.7.VIII.F",
+      "1.7.XIII"
+    ],
     "reviewed_by": null,
     "bron_gap": "Generieke IC-implementatiestappen zijn vakdoctrine (COSO, IIA). Geen specifieke Belgische bron. Inferred-common-knowledge."
   },
@@ -60,16 +73,28 @@
     {
       "text": "Een IC-systeem 'kopiëren' van een andere onderneming faalt meestal — risico-profielen, processen en cultuur verschillen. Wel inspireren, niet kopiëren.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "text": "Te veel formele documentatie wordt door personeel genegeerd. Beter: weinig kritische controles, goed begrepen en consequent uitgevoerd.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Procedurele uitwerking van het IC-begrip."},
-    {"type": "vereist-kennis-van", "target": "risico-inschatting-organisatie", "redenering": "Stap 1 vereist risico-inschatting als methode."}
+    {
+      "type": "onderdeel-van",
+      "target": "interne-controle",
+      "redenering": "Procedurele uitwerking van het IC-begrip."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "risico-inschatting-organisatie",
+      "redenering": "Stap 1 vereist risico-inschatting als methode."
+    }
   ]
 }

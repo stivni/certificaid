@@ -4,25 +4,45 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.I.F", "1.2.I"],
+  "linked_anchors": [
+    "1.2.I.F",
+    "1.2.I"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.I.F",
-    "dekt_ook_anchors": ["1.2.I"],
+    "dekt_ook_anchors": [
+      "1.2.I"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Het geheel van rechterlijke uitspraken (Hof van Cassatie, hoven van beroep, rechtbanken) over boekhoudkundige geschillen, fiscale betwistingen met boekhoudkundige relevantie, en aansprakelijkheidskwesties van bestuurders, accountants en commissarissen. Rechtspraak interpreteert open normen (getrouw beeld, voorzichtigheid, continuïteit) en zet de bakens voor wat in praktijk aanvaardbaar is.",
     "confidence": "grounded",
-    "source": {"type": "rechtsleer", "short": "Algemene rechtsleer + WER art. II.1"},
+    "source": {
+      "type": "rechtsleer",
+      "short": "Algemene rechtsleer + WER art. II.1"
+    },
     "references": [
-      {"type": "wet", "short": "Gerechtelijk Wetboek (organisatie van rechterlijke macht)"},
-      {"type": "wet", "short": "WER art. II.1 (voorrang internationale en EU-bronnen)"}
+      {
+        "type": "wet",
+        "short": "Gerechtelijk Wetboek (organisatie van rechterlijke macht)"
+      },
+      {
+        "type": "wet",
+        "short": "WER art. II.1 (voorrang internationale en EU-bronnen)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_II",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Het Hof van Cassatie heeft meermaals geoordeeld dat een bestuurder die wist of moest weten van een dreigend faillissement én bleef boekhouden alsof er continuïteit was, aansprakelijk kan gesteld worden voor wrongful trading (continuïteitsbeginsel).",
   "bouwstenen": [
@@ -33,10 +53,19 @@
       "voorbeeld_inline": "Vraag: 'Wanneer is een waardevermindering verplicht?' → KB-WVV zegt 'bij waarde-verlies', rechtspraak vult in 'al bij ernstige twijfel over recupereerbaarheid, niet pas bij vaststaande oninbaarheid'.",
       "grondslag": "Algemene rechtsleer; Hof van Cassatie",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "rechtsleer", "short": "Rechtspraak"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "rechtsleer",
+        "short": "Rechtspraak"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_II",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Drie rechtsgebieden raken boekhoudrecht",
@@ -45,10 +74,19 @@
       "voorbeeld_inline": "Robert Vandenberghe (minderheidsaandeelhouder) verdenkt het bestuur van een veel te hoge waardering van immateriële activa → kan civielrechtelijk procederen voor bestuursaansprakelijkheid.",
       "grondslag": "Sw art. 492bis (valse jaarrekening); WVV bestuurdersaansprakelijkheid",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "rechtsleer", "short": "Rechtspraak + Strafwetboek"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_XV_62", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "rechtsleer",
+        "short": "Rechtspraak + Strafwetboek"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_XV_62",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Cassatie als richtinggevend",
@@ -57,10 +95,19 @@
       "voorbeeld_inline": "Cassatie 2018: 'Een jaarrekening die de financiële positie niet getrouw weergeeft, is nietig — ook al stemt zij overeen met de letter van het KB.' (illustratie van substance over form)",
       "grondslag": "Hof van Cassatie; Gerechtelijk Wetboek",
       "confidence": "inferred",
-      "source": {"type": "rechtsleer", "short": "Hof van Cassatie"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "rechtsleer",
+        "short": "Hof van Cassatie"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_II",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -69,28 +116,55 @@
       "betekenis": "Bij open normen (getrouw beeld, voorzichtigheid, continuïteit) of bij grensgevallen (aansprakelijkheid bestuurder, afwijken van KB-regel om getrouw beeld te bewaren). Tijdschriften als 'Tijdschrift voor Rechtspersoon en Vennootschap', 'Comptabilité et Fiscalité Pratiques' en 'Tax Audit & Accountancy' bundelen relevante uitspraken.",
       "herkenningspunt": "Vraag met expliciete 'wat zou de rechter zeggen?'-component of 'aansprakelijkheid'-thema → rechtspraak relevant.",
       "confidence": "inferred",
-      "source": {"type": "rechtsleer", "short": "Praktijkgids"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "rechtsleer",
+        "short": "Praktijkgids"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_II",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Rechtspraak bindt enkel de partijen in dat specifieke geschil. Maar in fiscale en boekhoudkundige zaken volgt de praktijk wel de Cassatie-lijn — bij afwijken loop je een sterk risico op vernietiging in beroep.",
       "confidence": "inferred",
-      "source": {"type": "rechtsleer", "short": "Algemene rechtsleer"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "rechtsleer",
+        "short": "Algemene rechtsleer"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_II",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Niet elke uitspraak is 'rechtspraak' in de doctrinaire zin. Eerstelijns vonnissen zijn gezagsarmer dan arresten van het hof van beroep, en die zijn op hun beurt gezagsarmer dan Cassatie-arresten.",
       "confidence": "inferred",
-      "source": {"type": "rechtsleer", "short": "Algemene rechtsleer"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "rechtsleer",
+        "short": "Algemene rechtsleer"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_II",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

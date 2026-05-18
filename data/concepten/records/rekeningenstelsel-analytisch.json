@@ -4,21 +4,33 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.IV.A", "1.8.IV.C"],
+  "linked_anchors": [
+    "1.8.IV.A",
+    "1.8.IV.C"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.IV.A",
-    "dekt_ook_anchors": ["1.8.IV.C"],
+    "dekt_ook_anchors": [
+      "1.8.IV.C"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Klasse 9 van het Minimum Algemeen Rekeningstelsel (KB 21.10.2018 Bijlage 1) is door de wetgever vrij gelaten voor analytische rekeningen, budgetrekeningen, niet-uitgevoerde verbintenissen en interne verrekeningen. Elke onderneming richt klasse 9 in volgens haar eigen analytische behoeften — typisch met kostencentra, kostendragers en verschillenrekeningen.",
     "confidence": "grounded",
-    "source": {"type": "kb", "short": "KB 21.10.2018 Bijlage 1 — klasse 9 (vrij in te vullen)"},
+    "source": {
+      "type": "kb",
+      "short": "KB 21.10.2018 Bijlage 1 — klasse 9 (vrij in te vullen)"
+    },
     "_provenance": {
       "inputs": [
-        {"id": "Minimum-Algemeen-Rekeningstelsel-voor-boekhoudplichtige-ondernemingen__klasse_9", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "Minimum-Algemeen-Rekeningstelsel-voor-boekhoudplichtige-ondernemingen__klasse_9",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -29,7 +41,9 @@
       "waarom": "Bepaalt de gegevensstroom tussen algemene en analytische boekhouding.",
       "voorbeeld_inline": "Yperse Werkplaats BV met SAP-ERP gebruikt een dualistisch model: een aankoopfactuur wol € 22.500 wordt geboekt als 60.. / 44.. in algemene boekhouding, en parallel als 9.. (kostencentrum Spinnerij) / reflexierekening in analytische. Saldo van reflexierekeningen blijft nul.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "titel": "Typische klasse-9-rekeningen",
@@ -37,7 +51,9 @@
       "waarom": "Conventionele invulling — niet wettelijk verplicht, maar gebruikelijk.",
       "voorbeeld_inline": "Yperse Werkplaats BV: 930 Spinnerij, 931 Weverij, 932 Confectie, 940 Onderhoud (hulp), 970 Product 'tapijt standaard', 980 Materiaal-prijsverschil.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "in_praktijk": [
@@ -45,11 +61,23 @@
       "aspect": "Aansluiting met algemene boekhouding",
       "betekenis": "Een goede analytische boekhouding sluit aan op de algemene: totaal kost klasse 9 (per soort) = totaal klasse 6, behoudens expliciete interne verrekeningen of opportuniteitskosten. Periodieke reconciliatie is een belangrijke interne-controle-stap.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "analytische-boekhouding", "redenering": "Klasse 9 is de boekhoudtechnische bouwsteen.", "confidence": "inferred"},
-    {"type": "vereist-kennis-van", "target": "kostencentrum", "redenering": "Klasse 9 organiseert per kostencentrum.", "confidence": "inferred"}
+    {
+      "type": "onderdeel-van",
+      "target": "analytische-boekhouding",
+      "redenering": "Klasse 9 is de boekhoudtechnische bouwsteen.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "kostencentrum",
+      "redenering": "Klasse 9 organiseert per kostencentrum.",
+      "confidence": "inferred"
+    }
   ]
 }

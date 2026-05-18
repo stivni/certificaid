@@ -4,19 +4,28 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.II.C", "1.7.II", "1.7.II.B"],
+  "linked_anchors": [
+    "1.7.II.C",
+    "1.7.II",
+    "1.7.II.B"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T11:50Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.II.C",
-    "dekt_ook_anchors": ["1.7.II", "1.7.II.B"],
+    "dekt_ook_anchors": [
+      "1.7.II",
+      "1.7.II.B"
+    ],
     "reviewed_by": null,
     "bron_gap": "Stromen-analyse als IC-concept is vakdoctrine. Inferred-common-knowledge."
   },
   "definitie": {
     "text": "Stromen zijn de bewegingen van goederen, geld of informatie door de onderneming. Voor IC kritisch omdat elke stroom potentiële uitlek-, verlies- of manipulatiepunten heeft. Drie hoofdstromen: (1) fysieke (goederen, voorraad), (2) financiële (geld, vorderingen, schulden), (3) informatie (documenten, data). De drie moeten onderling afgestemd zijn — bij elke fysieke beweging hoort een informatie- en typisch ook financiële tegenpost.",
     "confidence": "inferred-common-knowledge",
-    "_provenance": {"inputs": []}
+    "_provenance": {
+      "inputs": []
+    }
   },
   "voorbeeld_inline": "Bij Yperse Werkplaats BV bij aankoop grondstoffen: (a) fysieke stroom = grondstoffen komen binnen, magazijnier neemt in ontvangst; (b) informatiestroom = leveringsbon → bestelbon → factuur → boeking; (c) financiële stroom = leveranciersbetaling 30 dagen later. Als de informatiestroom faalt (factuur kwijt), worden de twee andere stromen ontkoppeld: betaling zonder boeking, of boeking zonder betaling.",
   "in_praktijk": [
@@ -24,11 +33,21 @@
       "aspect": "Cycli mappen op stromen",
       "betekenis": "Elke cyclus (aankoop, verkoop, productie, HR, voorraad) heeft een typische combinatie van fysieke + financiële + informatiestromen. IC-analyse start met het mappen van die stromen — wie initieert, wie volgt op, wie registreert.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "informatiesysteem-onderneming", "redenering": "Informatiestroom is een type stroom; het IS deel van het informatiesysteem."},
-    {"type": "vereist-kennis-van", "target": "cyclus-analyse-ic", "redenering": "Cyclus-analyse vereist begrip van onderliggende stromen."}
+    {
+      "type": "onderdeel-van",
+      "target": "informatiesysteem-onderneming",
+      "redenering": "Informatiestroom is een type stroom; het IS deel van het informatiesysteem."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "cyclus-analyse-ic",
+      "redenering": "Cyclus-analyse vereist begrip van onderliggende stromen."
+    }
   ]
 }

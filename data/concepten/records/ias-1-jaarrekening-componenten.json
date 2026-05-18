@@ -4,29 +4,64 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.5.IV.B", "1.5.IV", "1.5.taak.1"],
+  "linked_anchors": [
+    "1.5.IV.B",
+    "1.5.IV",
+    "1.5.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.5.IV.B",
-    "dekt_ook_anchors": ["1.5.IV", "1.5.taak.1"],
+    "dekt_ook_anchors": [
+      "1.5.IV",
+      "1.5.taak.1"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Onder IAS 1 — Presentatie van de jaarrekening bestaat een volledige IFRS-jaarrekening uit **vijf vaste componenten**: (1) een overzicht van de financiële positie aan het eind van de periode (de 'IFRS-balans'); (2) een overzicht van het totaalresultaat over de periode (winst of verlies + overige onderdelen van het totaalresultaat, samen of in twee afzonderlijke overzichten); (3) een mutatieoverzicht van het eigen vermogen; (4) een kasstroomoverzicht (vereisten in IAS 7); en (5) de toelichting met grondslagen voor financiële verslaggeving en andere materiële informatie. Daarbij hoort verplicht vergelijkende informatie over de voorgaande periode, en in specifieke gevallen (eerste IFRS-toepassing, retroactieve aanpassing, herclassificatie) ook een derde balans (openingsbalans van de vergelijkende periode). De entiteit mag andere namen gebruiken voor de overzichten — bv. 'overzicht van gerealiseerde en niet-gerealiseerde resultaten' in plaats van 'overzicht van het totaalresultaat'.",
     "confidence": "grounded",
-    "source": {"type": "ifrs", "short": "IAS 1 alinea 10"},
+    "source": {
+      "type": "ifrs",
+      "short": "IAS 1 alinea 10"
+    },
     "references": [
-      {"type": "ifrs", "short": "IAS 1 alinea 10 (volledige jaarrekening — 5 componenten)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 10A (combinatie / splitsing totaalresultaat-overzicht)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 38 + 38A (vergelijkende informatie)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 40A-40D (derde balans bij retroactieve aanpassing)"},
-      {"type": "ifrs", "short": "IAS 7 (kasstroomoverzicht-vereisten)"}
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 10 (volledige jaarrekening — 5 componenten)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 10A (combinatie / splitsing totaalresultaat-overzicht)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 38 + 38A (vergelijkende informatie)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 40A-40D (derde balans bij retroactieve aanpassing)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 7 (kasstroomoverzicht-vereisten)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"},
-      {"id": "IAS-1-presentatie-van-de-jaarrekening__sec_10a", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "IAS-1-presentatie-van-de-jaarrekening__sec_10a",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "De geconsolideerde IFRS-jaarrekening 2026 van Zelena Bio NV bevat: (1) overzicht financiële positie per 31 december 2026 + per 31 december 2025; (2) overzicht totaalresultaat 2026 + 2025; (3) mutatieoverzicht eigen vermogen 2026 + 2025; (4) kasstroomoverzicht 2026 + 2025; (5) toelichting met grondslagen, segment-informatie, leasing-uitsplitsing, etc. Bij eerste IFRS-toepassing zat er ook een derde balans bij — de openingsbalans per 1 januari 2025.",
   "bouwstenen": [
@@ -37,8 +72,19 @@
       "voorbeeld_inline": "Zelena Bio NV (productiebedrijf) volgt de vlottend/niet-vlottend-splitsing. Een buitenlandse bankdochter binnen de Zelena Bio Groep zou de liquiditeitsvolgorde aanhouden in haar lokale rapportering.",
       "grondslag": "IAS 1 alinea 54 + 60",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 54 + 60"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 54 + 60"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Overzicht totaalresultaat",
@@ -47,8 +93,19 @@
       "voorbeeld_inline": "Zelena Bio NV behaalt in 2026 een winst van € 35.000.000 (uit verkoop biofarmaceutische producten). Daarnaast OCI: herwaardering productieterrein +€ 4.500.000 (kostprijsmodel? Nee — Zelena past het herwaarderingsmodel toe op terreinen). Totaalresultaat = € 39.500.000.",
       "grondslag": "IAS 1 alinea 10A + 81A + 82A",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 10A"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_10a", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 10A"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_10a",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Mutatieoverzicht eigen vermogen",
@@ -57,8 +114,19 @@
       "voorbeeld_inline": "Zelena Bio NV: ingehouden winsten 1 januari 2026 € 95.000.000 + winst 2026 € 35.000.000 − dividend 2026 −€ 15.000.000 = € 115.000.000 ingehouden winsten 31 december 2026. Apart kolom voor herwaarderingsreserve toont de OCI-toevoeging € 4.500.000.",
       "grondslag": "IAS 1 alinea 106",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 106"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 106"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Kasstroomoverzicht (IAS 7)",
@@ -67,8 +135,19 @@
       "voorbeeld_inline": "Zelena Bio NV: operationele cashflow 2026 = € 42.000.000 (winst € 35M + afschrijvingen € 12M − werkkapitaalstijging −€ 5M); investeringscashflow = −€ 28.000.000 (CAPEX in nieuwe productielijn); financieringscashflow = −€ 8.000.000 (dividend + aflossing obligaties).",
       "grondslag": "IAS 1 alinea 10(d) + IAS 7",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 10(d), IAS 7"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 10(d), IAS 7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Toelichting",
@@ -77,8 +156,19 @@
       "voorbeeld_inline": "Zelena Bio's toelichting vermeldt: 'Materiële vaste activa: kostprijsmodel (IAS 16 alinea 30), behalve terreinen die volgens het herwaarderingsmodel worden gewaardeerd (IAS 16 alinea 31).' Een lezer weet meteen waarom de terreinen schommelen in waarde.",
       "grondslag": "IAS 1 alinea 7 + 117",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 7 + 117"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_definities", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 7 + 117"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_definities",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -87,15 +177,37 @@
       "betekenis": "Een entiteit moet drie balansen presenteren (huidig jaareinde + vorig jaareinde + begin vorig jaar) wanneer: (a) zij voor het eerst IFRS toepast (IFRS 1); of (b) zij een grondslag retroactief wijzigt of een fout corrigeert met materieel effect (IAS 1 alinea 40A). In gewone jaren volstaan twee balansen.",
       "herkenningspunt": "Bij eerste IFRS-jaarrekening van Zelena Bio voor boekjaar 2027: balans 31 december 2027 + 31 december 2026 + **1 januari 2026** (openingsdatum vergelijkende periode).",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 40A-40D + IFRS 1 alinea 21"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_40a", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 40A-40D + IFRS 1 alinea 21"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_40a",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Geen voorgeschreven vorm — wel verplichte minimumposten",
       "betekenis": "IAS 1 schrijft geen vast jaarrekeningmodel voor zoals KB WVV doet. Wél een lijst minimum-posten die op de balans (alinea 54) en in het overzicht totaalresultaat (alinea 82) moeten verschijnen. De volgorde, naam en groepering staan vrij — mits getrouw beeld.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 54 + 82"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 54 + 82"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -103,21 +215,51 @@
       "vergelijking_met": "samenstelling-statutaire-jaarrekening",
       "verschil": "Belgische statutaire jaarrekening (KB WVV) heeft een **vast voorgeschreven schema** met letter-cijfer-codes (II.A, II.B, ...). IFRS-jaarrekening volgens IAS 1 heeft geen vast schema — wel een minimumlijst posten (alinea 54 en 82). IFRS verplicht expliciet vijf componenten; KB WVV vereist standaard drie (balans + W&V + toelichting).",
       "trigger": "Bij vraag 'Welke vorm heeft de jaarrekening van een beursgenoteerde NV?': onderscheid maken tussen enkelvoudige (BE-GAAP-schema) en geconsolideerde (IAS 1).",
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Het mutatieoverzicht eigen vermogen is geen optie maar een **verplichte** component (alinea 10(c)). Stagiairs vergeten dit vaak omdat KB WVV geen vergelijkbare verplichting kent voor de enkelvoudige jaarrekening.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 10(c)"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 10(c)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "OCI ≠ winst of verlies. Een entiteit mag **niet** OCI-posten als opbrengsten of kosten in winst of verlies opnemen — dat zou dubbeltelling zijn. Hereclassificatie naar W&V gebeurt enkel bij specifieke gebeurtenissen (bv. realisatie hedge, vervreemding buitenlandse activiteit).",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 7 (definitie OCI)"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_definities", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 7 (definitie OCI)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_definities",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

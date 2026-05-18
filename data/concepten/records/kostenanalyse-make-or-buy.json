@@ -4,20 +4,30 @@
   "node_type": "afwegingskader",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.taak.1", "1.8.III.E"],
+  "linked_anchors": [
+    "1.8.taak.1",
+    "1.8.III.E"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.taak.1",
-    "dekt_ook_anchors": ["1.8.III.E"],
+    "dekt_ook_anchors": [
+      "1.8.III.E"
+    ],
     "reviewed_by": null,
     "bron_gap": "Vakdoctrine — beslissingsraamwerk uit management accounting"
   },
   "doel": {
     "text": "De make-or-buy-analyse vergelijkt de kost van zelf produceren met de kost van uitbesteden, gericht op de relevante kosten (vermijdbare kosten bij uitbesteden vs. inkoopprijs + transactiekost). Sunk costs en niet-vermijdbare overhead doen niet ter zake.",
     "confidence": "inferred-common-knowledge",
-    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
-    "_provenance": {"inputs": []}
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
   },
   "bouwstenen": [
     {
@@ -26,7 +36,9 @@
       "waarom": "Volledige kostprijs bevat niet-vermijdbare kosten die ook na uitbesteden blijven bestaan — gebruik die niet in vergelijking.",
       "voorbeeld_inline": "Yperse Werkplaats BV overweegt Spinnerij te outsourcen. Volledige kostprijs Spinnerij: € 1.450.000/jaar. Maar bij uitbesteden vervalt loon Spinnerij-personeel (€ 850.000) + onderhoudscontract (€ 80.000) + variabele wol-aankoop (€ 350.000) = € 1.280.000 vermijdbaar. De overige € 170.000 (toegerekende algemene overhead, afschrijving gebouw) blijft. Vergelijk dus € 1.280.000 met de offerteprijs van € 1.380.000 → eigen productie € 100.000 goedkoper.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "titel": "Kwalitatieve factoren",
@@ -34,7 +46,9 @@
       "waarom": "Beslissing puur op kostprijs is risico bij strategische componenten.",
       "voorbeeld_inline": "Voor Yperse Werkplaats BV is wol-spinnen mogelijk een strategisch differentiatie-element (eigen recept). Zelfs als uitbesteden € 100.000 goedkoper is, kan eigen productie aangewezen blijven om kwaliteit en differentiatie te behouden.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "in_praktijk": [
@@ -42,11 +56,23 @@
       "aspect": "Standaard examen-valkuil",
       "betekenis": "Studenten vergelijken de volledige kostprijs van zelf produceren met de offerteprijs. Dat is fout: gebruik de vermijdbare kost. Volledige kostprijs bevat namelijk overhead die ook na uitbesteden moet betaald worden (en dan op andere producten zou drukken).",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "marginale-kostprijs", "redenering": "Marginale kost is concept-grondslag.", "confidence": "inferred"},
-    {"type": "vereist-kennis-van", "target": "variabele-kosten", "redenering": "Variabele kosten zijn typisch vermijdbaar.", "confidence": "inferred"}
+    {
+      "type": "vereist-kennis-van",
+      "target": "marginale-kostprijs",
+      "redenering": "Marginale kost is concept-grondslag.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "variabele-kosten",
+      "redenering": "Variabele kosten zijn typisch vermijdbaar.",
+      "confidence": "inferred"
+    }
   ]
 }

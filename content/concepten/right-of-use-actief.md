@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/right-of-use-actief.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Right-of-use-actief (gebruiksrecht-actief) onder IFRS 16 ⚖️
 

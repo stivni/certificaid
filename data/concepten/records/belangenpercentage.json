@@ -170,10 +170,18 @@
           "wat": "Maak een lijstje of pijldiagram met alle vennootschappen die tussen de uiteindelijke moeder en de onderste dochter staan.",
           "waarom": "Zonder duidelijke ketenstructuur weet je niet welke schakels je moet vermenigvuldigen, en mis je makkelijk een tussenniveau.",
           "input": [
-            {"artefact": "Aandelenstructuur-overzicht", "veld": "Wie bezit welk percentage van wie", "type": "document"}
+            {
+              "artefact": "Aandelenstructuur-overzicht",
+              "veld": "Wie bezit welk percentage van wie",
+              "type": "document"
+            }
           ],
           "output": [
-            {"artefact": "Ketenschema", "veld": "Opeenvolging van schakels", "type": "document"}
+            {
+              "artefact": "Ketenschema",
+              "veld": "Opeenvolging van schakels",
+              "type": "document"
+            }
           ],
           "hoe": "1. Start bij de uiteindelijke moeder (bv. Aurelia Holding NV).\n2. Noteer elke directe deelneming met een pijl en het percentage: Aurelia → Brugse Brouwerij BV (80 %).\n3. Doe hetzelfde voor de volgende schakel: Brugse Brouwerij BV → Drukkerij Dendermonde BV (60 %).\n4. Stop bij de onderste dochter waarin je het belang wil bepalen.\n",
           "grondslag": "KB WVV art. 3:137 (toepassing)",
@@ -206,10 +214,18 @@
           "wat": "Schrijf per schakel het belangenpercentage uit: welk deel van het kapitaal bezit de bovenliggende vennootschap in de onderliggende.",
           "waarom": "De berekening werkt alleen als je elke schakel correct hebt; één foutief percentage vervalst het eindresultaat over de hele keten.",
           "input": [
-            {"artefact": "Aandeelhoudersregister of statuten per schakel", "veld": "Aandeel in kapitaal", "type": "percentage"}
+            {
+              "artefact": "Aandeelhoudersregister of statuten per schakel",
+              "veld": "Aandeel in kapitaal",
+              "type": "percentage"
+            }
           ],
           "output": [
-            {"artefact": "Lijst directe belangen", "veld": "Eén percentage per schakel", "type": "percentage"}
+            {
+              "artefact": "Lijst directe belangen",
+              "veld": "Eén percentage per schakel",
+              "type": "percentage"
+            }
           ],
           "hoe": "1. Open per schakel het aandeelhoudersregister of de aandelenkoopovereenkomst.\n2. Neem het percentage dat de bovenliggende vennootschap bezit van het kapitaal (niet de stemrechten — die horen bij controle).\n3. Let op preferente aandelen of certificaten: die kunnen ervoor zorgen dat belang en controle uiteenlopen.\n4. Noteer voor de keten Aurelia → Brugse: 80 %. Voor Brugse → Drukkerij Dendermonde: 60 %.\n",
           "grondslag": "KB WVV art. 3:137 (toepassing)",
@@ -232,10 +248,18 @@
           "wat": "Vermenigvuldig de directe belangenpercentages over alle schakels om het effectieve belang van de uiteindelijke moeder in de onderste dochter te bekomen.",
           "waarom": "Eigendom verdunt: een belang van 80 % in een schakel die zelf maar 60 % bezit, levert maar 48 % effectief belang in de onderste vennootschap op.",
           "input": [
-            {"artefact": "Lijst directe belangen uit stap 2", "veld": "Percentage per schakel", "type": "percentage"}
+            {
+              "artefact": "Lijst directe belangen uit stap 2",
+              "veld": "Percentage per schakel",
+              "type": "percentage"
+            }
           ],
           "output": [
-            {"artefact": "Effectief belangenpercentage", "veld": "Belang uiteindelijke moeder in onderste dochter", "type": "percentage"}
+            {
+              "artefact": "Effectief belangenpercentage",
+              "veld": "Belang uiteindelijke moeder in onderste dochter",
+              "type": "percentage"
+            }
           ],
           "hoe": "1. Zet alle percentages op een rij: 80 % en 60 %.\n2. Reken om naar decimaal: 0,80 en 0,60.\n3. Vermenigvuldig: 0,80 × 0,60 = 0,48.\n4. Zet terug naar percentage: 48 %.\n5. Dit is het belang van Aurelia Holding NV in Drukkerij Dendermonde BV via Brugse Brouwerij BV.\n",
           "voorbeeld": {
@@ -306,7 +330,11 @@
           "naam": "Belangenpercentage in een verticale keten",
           "wiskunde": "belang (moeder in onderste dochter) = belang (moeder in schakel1) × belang (schakel1 in schakel2) × … × belang (schakeln-1 in onderste dochter)",
           "variabelen": [
-            {"symbool": "belang (X in Y)", "betekenis": "Direct kapitaalaandeel van X in Y, uitgedrukt als breuk of percentage", "eenheid": "%"}
+            {
+              "symbool": "belang (X in Y)",
+              "betekenis": "Direct kapitaalaandeel van X in Y, uitgedrukt als breuk of percentage",
+              "eenheid": "%"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "belang Aurelia in Brugse = 80 %; belang Brugse in Drukkerij Dendermonde = 60 %",
@@ -331,7 +359,11 @@
           "naam": "Aandeel van derden",
           "wiskunde": "aandeel van derden = 1 − belangenpercentage moeder",
           "variabelen": [
-            {"symbool": "belangenpercentage moeder", "betekenis": "Effectief belang van de moeder in de dochter (eventueel na ketenvermenigvuldiging)", "eenheid": "%"}
+            {
+              "symbool": "belangenpercentage moeder",
+              "betekenis": "Effectief belang van de moeder in de dochter (eventueel na ketenvermenigvuldiging)",
+              "eenheid": "%"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "belangenpercentage Aurelia in Brugse = 80 %",

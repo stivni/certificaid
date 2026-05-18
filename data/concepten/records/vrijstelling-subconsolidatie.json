@@ -4,12 +4,21 @@
   "node_type": "regel",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.C", "1.4.I.B", "1.4.II.B", "1.4.taak.1"],
+  "linked_anchors": [
+    "1.4.I.C",
+    "1.4.I.B",
+    "1.4.II.B",
+    "1.4.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.C",
-    "dekt_ook_anchors": ["1.4.I.B", "1.4.II.B", "1.4.taak.1"],
+    "dekt_ook_anchors": [
+      "1.4.I.B",
+      "1.4.II.B",
+      "1.4.taak.1"
+    ],
     "reviewed_by": null,
     "schema_1_4_migration": {
       "uitgevoerd_op": "2026-05-16T00:11Z",
@@ -45,21 +54,48 @@
   "main_rule": {
     "text": "Een tussenliggende (sub)moeder is vrijgesteld van de plicht om een geconsolideerde jaarrekening en jaarverslag op te stellen, op voorwaarde dat: (1) ze zelf dochter is van een hogere moeder die hogerop al consolideert; (2) die hogere moeder de geconsolideerde jaarrekening en het jaarverslag opmaakt, laat controleren en publiceert volgens een gelijkwaardige standaard; (3) aan de aanvullende voorwaarden is voldaan. De vrijstelling vervalt zodra de submoeder zelf of één van haar dochters genoteerd is op een gereglementeerde markt.",
     "confidence": "grounded",
-    "source": {"type": "advies", "short": "CBN 2012/12"},
+    "source": {
+      "type": "advies",
+      "short": "CBN 2012/12"
+    },
     "references": [
-      {"type": "wet", "short": "WVV (opvolger van W.Venn. art. 113-114)"},
-      {"type": "advies", "short": "CBN 2012/12 — Vrijstelling van subconsolidatie"},
-      {"type": "advies", "short": "CBN 2015/10 — Vrijstelling subconsolidatie: maatschap"},
-      {"type": "advies", "short": "CBN 2016/19 — Consortium en vrijstelling van subconsolidatie"}
+      {
+        "type": "wet",
+        "short": "WVV (opvolger van W.Venn. art. 113-114)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2012/12 — Vrijstelling van subconsolidatie"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2015/10 — Vrijstelling subconsolidatie: maatschap"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2016/19 — Consortium en vrijstelling van subconsolidatie"
+      }
     ],
     "_provenance": {
       "inputs": [
-        {"id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_analyse-van-de-betrokken-artikelen-van-het-w-venn", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_analyse-van-de-betrokken-artikelen-van-het-w-venn",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     },
     "_corrected_from": [
-      {"field": "text", "from": "Een tussenliggende (sub)moedervennootschap wordt vrijgesteld van de verplichting om een geconsolideerde jaarrekening en jaarverslag op te stellen, indien zij zelf de dochtervennootschap is van een moedervennootschap die hogerop een geconsolideerde jaarrekening en jaarverslag opstelt, laat controleren en openbaar maakt — en aan een aantal aanvullende voorwaarden wordt voldaan. De vrijstelling van subconsolidatie is echter niet van toepassing wanneer alle of een deel van de aandelen die zijn uitgegeven door één van de te consolideren vennootschappen (de submoeder zelf of een van haar dochters) zijn genoteerd.", "reason": "Stagiair-toon: genummerde voorwaarden, korte zinnen (regel 6)."}
+      {
+        "field": "text",
+        "from": "Een tussenliggende (sub)moedervennootschap wordt vrijgesteld van de verplichting om een geconsolideerde jaarrekening en jaarverslag op te stellen, indien zij zelf de dochtervennootschap is van een moedervennootschap die hogerop een geconsolideerde jaarrekening en jaarverslag opstelt, laat controleren en openbaar maakt — en aan een aantal aanvullende voorwaarden wordt voldaan. De vrijstelling van subconsolidatie is echter niet van toepassing wanneer alle of een deel van de aandelen die zijn uitgegeven door één van de te consolideren vennootschappen (de submoeder zelf of een van haar dochters) zijn genoteerd.",
+        "reason": "Stagiair-toon: genummerde voorwaarden, korte zinnen (regel 6)."
+      }
     ]
   },
   "voorbeeld_inline": "Kappers Köln GmbH (Duitse top-moeder) bezit 95 % van Aurelia Holding NV; Aurelia bezit 80 % van Brugse Brouwerij BV. Kappers Köln consolideert hogerop alle drie samen onder een gelijkwaardige standaard. Aurelia en Brugse zijn niet genoteerd → Aurelia is vrijgesteld van subconsolidatie en hoeft géén eigen geconsolideerde jaarrekening op te stellen.",
@@ -67,20 +103,53 @@
     {
       "text": "De submoeder is zelf dochter van een hogere moeder.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2012/12"},
-      "_provenance": {"inputs": [{"id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2012/12"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "De hogere moeder stelt zelf een geconsolideerde jaarrekening en jaarverslag op, laat die controleren en maakt die openbaar — volgens een gelijkwaardige standaard (Belgisch boekhoudrecht of een gelijkwaardige).",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2012/12"},
-      "_provenance": {"inputs": [{"id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2012/12"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Noch de submoeder zelf, noch een van haar dochters is genoteerd op een gereglementeerde markt. Bij notering binnen de eigen consolidatiekring vervalt de vrijstelling.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2012/12 — analyse"},
-      "_provenance": {"inputs": [{"id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_analyse-van-de-betrokken-artikelen-van-het-w-venn", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2012/12 — analyse"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_analyse-van-de-betrokken-artikelen-van-het-w-venn",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -89,21 +158,47 @@
       "betekenis": "Volgens CBN 2012/12 gaat het hierbij om de vennootschap die zich op de vrijstelling beroept (de submoeder) én haar dochters — niet om de hogere moeder. Concreet: ook al is Kappers Köln GmbH genoteerd, dan blijft Aurelia Holding NV vrijgesteld van subconsolidatie zolang Aurelia zelf en de dochters van Aurelia (Brugse Brouwerij BV) niet genoteerd zijn. De notering hogerop is niet doorslaggevend.",
       "herkenningspunt": "De vraag 'is er iemand genoteerd in de keten?' beperk je tot de submoeder en haar dochters, niet tot de moeders erbóven.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2012/12"},
-      "_provenance": {"inputs": [{"id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_analyse-van-de-betrokken-artikelen-van-het-w-venn", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2012/12"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_analyse-van-de-betrokken-artikelen-van-het-w-venn",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "betekenis", "from": "Volgens CBN 2012/12 doelt deze formulering op de vennootschap die zich op de vrijstelling beroept (de submoeder) en haar dochters — niet op de hogere moeder. Concreet: indien moedervennootschap X dochter is van een genoteerde vennootschap Y, blijft X in beginsel vrijgesteld van subconsolidatie tenzij X zelf of een van haar dochters genoteerd is. De notering van Y wijzigt daar niets aan.", "reason": "Cast-namen X/Y → Kappers Köln/Aurelia (regels 6 + 7)."}
+        {
+          "field": "betekenis",
+          "from": "Volgens CBN 2012/12 doelt deze formulering op de vennootschap die zich op de vrijstelling beroept (de submoeder) en haar dochters — niet op de hogere moeder. Concreet: indien moedervennootschap X dochter is van een genoteerde vennootschap Y, blijft X in beginsel vrijgesteld van subconsolidatie tenzij X zelf of een van haar dochters genoteerd is. De notering van Y wijzigt daar niets aan.",
+          "reason": "Cast-namen X/Y → Kappers Köln/Aurelia (regels 6 + 7)."
+        }
       ]
     },
     {
       "aspect": "Gevolgen voor maatschap-structuren",
       "betekenis": "Een maatschap zonder rechtspersoonlijkheid kan geen moeder zijn. Vormt een maatschap economisch de top van de groep, dan kan zij geen bevrijdende geconsolideerde jaarrekening opstellen. Gevolg: de onderliggende vennootschappen kunnen geen vrijstelling van subconsolidatie inroepen en moeten zelf consolideren.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2015/10"},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2015/10"
+      },
       "_provenance": {
         "inputs": [
-          {"id": "CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap__sec_de-kwalificatie-van-de-maatschap-als-moedervennootschap", "sha256": null, "version": "rag-v1"},
-          {"id": "CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap__sec_gevolgen-voor-consolidatieplicht", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap__sec_de-kwalificatie-van-de-maatschap-als-moedervennootschap",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap__sec_gevolgen-voor-consolidatieplicht",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -111,11 +206,22 @@
       "aspect": "Consortium en vrijstelling van subconsolidatie",
       "betekenis": "Stellen de leden van een consortium een geconsolideerde jaarrekening op consortium-niveau op en maken ze die openbaar? Dan kunnen de dochters van die leden de vrijstelling van subconsolidatie inroepen — onder dezelfde notering- en gelijkwaardigheidsvoorwaarden.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2015/10 + CBN 2016/19"},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2015/10 + CBN 2016/19"
+      },
       "_provenance": {
         "inputs": [
-          {"id": "CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap__sec_gevolgen-voor-consolidatieplicht", "sha256": null, "version": "rag-v1"},
-          {"id": "CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0__sec_vraagstelling", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap__sec_gevolgen-voor-consolidatieplicht",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0__sec_vraagstelling",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
@@ -125,24 +231,58 @@
       "vergelijking_met": "groottecriteria-consolidatie",
       "verschil": "Vrijstelling op grond van groottecriteria geldt voor de hele moeder en haar groep wanneer ze beperkt van omvang is — kwantitatieve drempelvraag. Vrijstelling van subconsolidatie geldt voor een tussenmoeder onder een hogere moeder die al consolideert — kwalitatieve structuurvraag, los van groottecriteria. Beide vrijstellingen kunnen elkaar niet vervangen.",
       "trigger": "Examen-keuze-vraag: 'Welke vrijstelling beroept Aurelia zich op?' → toets eerst structuur (is er een top-moeder die al consolideert? → subconsolidatie), daarna omvang (zit de groep onder de drempels? → beperkte omvang).",
-      "_provenance": {"inputs": [{"id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "De vrijstelling 'verspringt' niet door noteringen hogerop. Aurelia Holding NV kan vrijgesteld blijven, ook al is de moeder Kappers Köln GmbH genoteerd — zolang Aurelia en haar dochters zelf niet genoteerd zijn (CBN 2012/12).",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2012/12"},
-      "_provenance": {"inputs": [{"id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_analyse-van-de-betrokken-artikelen-van-het-w-venn", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2012/12"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_analyse-van-de-betrokken-artikelen-van-het-w-venn",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "text", "from": "De vrijstelling 'verspringt' niet door noteringen op een hoger niveau. Een tussenliggende moeder X kan vrijgesteld blijven, ook al is haar moeder Y genoteerd — zolang X en haar dochters zelf niet genoteerd zijn (CBN 2012/12).", "reason": "Cast-namen X/Y → Aurelia/Kappers (regel 7)."}
+        {
+          "field": "text",
+          "from": "De vrijstelling 'verspringt' niet door noteringen op een hoger niveau. Een tussenliggende moeder X kan vrijgesteld blijven, ook al is haar moeder Y genoteerd — zolang X en haar dochters zelf niet genoteerd zijn (CBN 2012/12).",
+          "reason": "Cast-namen X/Y → Aurelia/Kappers (regel 7)."
+        }
       ]
     },
     {
       "text": "Wordt een dochter via vermogensmutatie opgenomen (in plaats van integraal), dan verandert dat de consolidatieverplichting niet. De groep blijft consolidatieplichtig zolang er minstens één gecontroleerde dochter is.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2022/11"},
-      "_provenance": {"inputs": [{"id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassing-van-de-vermogensmutatiemethode", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/11"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassing-van-de-vermogensmutatiemethode",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
@@ -154,7 +294,15 @@
         "veld": "dubbel-edge gesaneerd: contrasteert-met + uitzondering-op → enkel uitzondering-op",
         "reden": "Schema 1.4 regel 9: relatie is een uitzondering, niet een contrast."
       },
-      "_provenance": {"inputs": [{"id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2012-12-vrijstelling-van-subconsolidatie__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "vereist-kennis-van",

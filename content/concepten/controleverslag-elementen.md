@@ -15,7 +15,7 @@ node_type: procedure
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/controleverslag-elementen.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Elementen van het controleverslag (revisieverslag) ⚖️
 

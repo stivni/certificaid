@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/voorraden-ifrs.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Voorraden onder IFRS (IAS 2) ⚖️
 

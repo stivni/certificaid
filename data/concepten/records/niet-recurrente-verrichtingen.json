@@ -4,25 +4,46 @@
   "node_type": "fenomeen",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.1.II.P", "1.1.II.B"],
+  "linked_anchors": [
+    "1.1.II.P",
+    "1.1.II.B"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.P",
-    "dekt_ook_anchors": ["1.1.II.B"],
+    "dekt_ook_anchors": [
+      "1.1.II.B"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Kosten en opbrengsten die **niet voortvloeien uit de normale, herhalende bedrijfsuitoefening** van de onderneming en die op de resultatenrekening worden gepresenteerd in afzonderlijke rubrieken: **klasse 66** (niet-recurrente kosten) en **klasse 76** (niet-recurrente opbrengsten). Typisch: niet-recurrente afschrijvingen, meer- of minderwaarden op realisatie van vaste activa, herstructureringskosten, schade-uitkeringen, geschillenuitspraak. Sinds invoering KB 21/10/2018: 'niet-recurrent' vervangt het oude 'uitzonderlijk'.",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "MAR klasse 66 + 76; KB 21/10/2018"},
+    "source": {
+      "type": "wet",
+      "short": "MAR klasse 66 + 76; KB 21/10/2018"
+    },
     "references": [
-      {"type": "advies", "short": "CBN 2019/04 — Afwaardering vaste/vlottende activa (Brexit-context)"}
+      {
+        "type": "advies",
+        "short": "CBN 2019/04 — Afwaardering vaste/vlottende activa (Brexit-context)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"},
-      {"id": "CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-bre__sec_afwaardering-van-vlottende-en-vaste-activa", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "MAR-ondernemingen__art_6",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-bre__sec_afwaardering-van-vlottende-en-vaste-activa",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Rotex Roeselare NV verkoopt in 20X1 een verouderde productielijn (boekwaarde € 45.000) voor € 12.000 → minderwaarde € 33.000 op rekening 6630 'Minderwaarden op realisatie van vaste activa'. Tegelijk uitkering brandverzekering € 80.000 voor schade aan stockruimte → opbrengst op rekening 7610 'Niet-recurrente opbrengsten uit vaste activa'. Niet-recurrent resultaat = € 80.000 − € 33.000 = +€ 47.000.",
   "bouwstenen": [
@@ -33,8 +54,19 @@
       "voorbeeld_inline": "Naaiatelier Ninove BV brand in een opslagruimte; boekwaarde betroffen MVA € 18.000, herstelwaarde € 4.500 → niet-recurrente afschrijving € 13.500 op rekening 6602 'Niet-recurrente afschrijvingen MVA'.",
       "grondslag": "MAR klasse 66",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_6",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Klasse 76 — Niet-recurrente opbrengsten",
@@ -43,8 +75,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV verkoopt een oud terrein (boekwaarde € 280.000) voor € 450.000 → meerwaarde € 170.000 op rekening 763 'Meerwaarden op realisatie van vaste activa'.",
       "grondslag": "MAR klasse 76",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_7", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_7",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Verschil met 'uitzonderlijk' (oude regeling)",
@@ -53,8 +96,19 @@
       "voorbeeld_inline": "Onder oud KB: 'gewone' herstructureringskosten in een normale bedrijfscontext bleven vaak in klasse 64. Sinds 2018: zo'n eenmalige reorganisatie kan in klasse 664 'Andere niet-recurrente bedrijfskosten' wanneer ze niet jaarlijks optreedt.",
       "grondslag": "KB 21/10/2018 — invoering 'niet-recurrent'",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "KB 21/10/2018"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "KB 21/10/2018"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_6",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -63,20 +117,46 @@
       "betekenis": "Klasse 66 wordt verder gesplitst in niet-recurrente BEDRIJFSkosten (660-664) en niet-recurrente FINANCIËLE kosten (666-669). Idem klasse 76. Zo behouden bedrijfsresultaat en financieel resultaat hun analytische zin.",
       "herkenningspunt": "Examen: 'eenmalige minderwaarde op verkoop van een deelneming' → niet-recurrente FINANCIËLE kost (rekening 666X), niet bedrijfs.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR klasse 66"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR klasse 66"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_6",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Niet-recurrent ≠ uitzonderlijk in absolute zin. Een herhaling om de 3-5 jaar (bv. grote reorganisatie) kan nog steeds niet-recurrent zijn als het geen onderdeel is van de normale jaarlijkse bedrijfsuitoefening. Beoordeling per geval.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "wet", "short": "KB 21/10/2018"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "KB 21/10/2018"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_6",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [],
   "edges": [
-    {"type": "onderdeel-van", "target": "resultatenrekening", "redenering": "Niet-recurrent resultaat is het derde niveau in de gestructureerde RR."}
+    {
+      "type": "onderdeel-van",
+      "target": "resultatenrekening",
+      "redenering": "Niet-recurrent resultaat is het derde niveau in de gestructureerde RR."
+    }
   ]
 }

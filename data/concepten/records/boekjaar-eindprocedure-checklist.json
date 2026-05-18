@@ -28,16 +28,35 @@
     "extractor_run": "verify-synthese-2026-05-16-po1.1",
     "model": "claude-opus-4-7-handmatig-pilot",
     "anchor_id": "1.1.II.S",
-    "dekt_ook_anchors": ["1.1.I", "1.1.I.A", "1.1.II.L", "1.1.II.Q", "1.1.taak.1", "1.2.taak.1"]
+    "dekt_ook_anchors": [
+      "1.1.I",
+      "1.1.I.A",
+      "1.1.II.L",
+      "1.1.II.Q",
+      "1.1.taak.1",
+      "1.2.taak.1"
+    ]
   },
   "inleiding": {
     "text": "Tussen de laatste maandelijkse boeking en het neergelegde jaarverslag liggen tien tot vijftien verplichte stappen. Stagiairs leren de losse boekingen (afschrijvingen, overlopende rekeningen, voorzieningen, resultaatverwerking) maar zien zelden de volledige volgorde. Een vergeten stap &mdash; bijvoorbeeld de wettelijke reserve voor het bedrag verwerkt wordt &mdash; produceert een formeel onregelmatige jaarrekening, ook al klopt elk cijfer afzonderlijk. Dit synthese-record toont de chronologie van proefbalans tot neerlegging bij de NBB.",
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-WVV-2019__art_3_66", "sha256": null, "version": "rag-v1"},
-        {"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_66",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "MAR-ondernemingen__art_6",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -46,12 +65,36 @@
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-WVV-2019__art_3_66", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-WVV-2019__art_3_68", "sha256": null, "version": "rag-v1"},
-        {"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"},
-        {"id": "MAR-ondernemingen__art_1", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_66",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_68",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "MAR-ondernemingen__art_6",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "MAR-ondernemingen__art_1",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -60,9 +103,21 @@
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
-        {"id": "KB-WVV-2019__art_3_66", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-WVV-2019__art_3_68", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "KB-WVV-2019__art_3_66",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_68",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -95,15 +150,45 @@
     "begeleiden-algemene-vergadering"
   ],
   "edges": [
-    {"target": "regelmatige-boekhouding", "type": "onderdeel-van"},
-    {"target": "inventaris", "type": "bevat"},
-    {"target": "afschrijvingen", "type": "bevat"},
-    {"target": "waardeverminderingen", "type": "bevat"},
-    {"target": "overlopende-rekeningen", "type": "bevat"},
-    {"target": "voorzieningen", "type": "bevat"},
-    {"target": "resultaatverwerking", "type": "bevat"},
-    {"target": "jaarrekening", "type": "bevat"},
-    {"target": "wettelijke-reserve", "type": "vereist-kennis-van"},
-    {"target": "boekhoudbeginselen-overzicht", "type": "vereist-kennis-van"}
+    {
+      "target": "regelmatige-boekhouding",
+      "type": "onderdeel-van"
+    },
+    {
+      "target": "inventaris",
+      "type": "bevat"
+    },
+    {
+      "target": "afschrijvingen",
+      "type": "bevat"
+    },
+    {
+      "target": "waardeverminderingen",
+      "type": "bevat"
+    },
+    {
+      "target": "overlopende-rekeningen",
+      "type": "bevat"
+    },
+    {
+      "target": "voorzieningen",
+      "type": "bevat"
+    },
+    {
+      "target": "resultaatverwerking",
+      "type": "bevat"
+    },
+    {
+      "target": "jaarrekening",
+      "type": "bevat"
+    },
+    {
+      "target": "wettelijke-reserve",
+      "type": "vereist-kennis-van"
+    },
+    {
+      "target": "boekhoudbeginselen-overzicht",
+      "type": "vereist-kennis-van"
+    }
   ]
 }

@@ -4,27 +4,56 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.I.E", "1.2.I", "1.2.II"],
+  "linked_anchors": [
+    "1.2.I.E",
+    "1.2.I",
+    "1.2.II"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.I.E",
-    "dekt_ook_anchors": ["1.2.I", "1.2.II"],
+    "dekt_ook_anchors": [
+      "1.2.I",
+      "1.2.II"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Adviezen van de Commissie voor Boekhoudkundige Normen (CBN). Het is doctrinaire toelichting bij het Belgisch boekhoudrecht: hoe een onduidelijke regel toe te passen op een concrete situatie. CBN-adviezen zijn gezaghebbend maar niet bindend — een rechter, ondernemer of accountant mag motiveren waarom hij ervan afwijkt.",
     "confidence": "grounded",
-    "source": {"type": "advies", "short": "CBN-advies 14/1 — Adviesbevoegdheid"},
+    "source": {
+      "type": "advies",
+      "short": "CBN-advies 14/1 — Adviesbevoegdheid"
+    },
     "references": [
-      {"type": "wet", "short": "Wet 17 juli 1975 (boekhouding) — oprichting CBN"},
-      {"type": "advies", "short": "CBN-advies 14/1 — Adviesbevoegdheid van de Commissie"},
-      {"type": "advies", "short": "CBN-advies 174/1 — Beginselen van regelmatige boekhouding"}
+      {
+        "type": "wet",
+        "short": "Wet 17 juli 1975 (boekhouding) — oprichting CBN"
+      },
+      {
+        "type": "advies",
+        "short": "CBN-advies 14/1 — Adviesbevoegdheid van de Commissie"
+      },
+      {
+        "type": "advies",
+        "short": "CBN-advies 174/1 — Beginselen van regelmatige boekhouding"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "CBN-0014-01-adviesbevoegdheid__volledig_part1", "sha256": null, "version": "rag-v1"},
-      {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0014-01-adviesbevoegdheid__volledig_part1",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Moet Solaris Sint-Truiden BV haar effectenportefeuille als financiële vaste activa of als geldbelegging boeken? → CBN-advies 2020/16 verduidelijkt het onderscheid voor effecten met houdintentie.",
   "bouwstenen": [
@@ -35,10 +64,19 @@
       "voorbeeld_inline": "Sofie Janssens (commissaris) wijkt af van CBN-advies 2018/15 over voorzieningen → ze moet dat schriftelijk motiveren in haar verslag.",
       "grondslag": "CBN-advies 14/1; geen wettelijke bindingstekst",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN-advies 14/1"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0014-01-adviesbevoegdheid__volledig_part1", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 14/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0014-01-adviesbevoegdheid__volledig_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Twee functies: interpreteren + voorbeeldvorming",
@@ -47,11 +85,24 @@
       "voorbeeld_inline": "CBN-advies 2018/14 geeft uitgewerkte boekingsvoorbeelden voor belastingen op het resultaat — niet in het KB-WVV te vinden.",
       "grondslag": "CBN-advies 14/1 (adviesbevoegdheid)",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "advies", "short": "CBN-advies 14/1"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0014-01-adviesbevoegdheid__volledig_part1", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2018-14-belastingen__sec_voorbeelden", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 14/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0014-01-adviesbevoegdheid__volledig_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2018-14-belastingen__sec_voorbeelden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Nummering en updates",
@@ -60,10 +111,19 @@
       "voorbeeld_inline": "CBN-advies 2017/10 'Groottecriteria art. 15 W.Venn.' — verwijst nog naar het oude W.Venn., dus check of er een WVV-update is.",
       "grondslag": "Praktijk CBN; geen wetsregel",
       "confidence": "inferred",
-      "source": {"type": "advies", "short": "CBN-praktijk"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0014-01-adviesbevoegdheid__volledig_part1", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "CBN-praktijk"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0014-01-adviesbevoegdheid__volledig_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -72,38 +132,74 @@
       "betekenis": "Citeer het advies als 'CBN-advies 2022/03 stelt dat ...' — niet 'volgens de wet ...'. Geef het advies-nummer, het thema en de kern in 1-2 zinnen.",
       "herkenningspunt": "Bij een examenvraag met praktisch boekhoudkundig probleem (bv. 'hoe boek je X?'), zoek eerst of er een specifiek CBN-advies bestaat.",
       "confidence": "inferred",
-      "source": {"type": "examenpatroon", "short": "ITAA-examenwerk"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0014-01-adviesbevoegdheid__volledig_part1", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "examenpatroon",
+        "short": "ITAA-examenwerk"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0014-01-adviesbevoegdheid__volledig_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "CBN niet altijd in ITAA-LEX",
       "betekenis": "ITAA-LEX bevat hoofdwetten + KB-WVV, maar niet alle CBN-adviezen integraal. Ken het bestaan van centrale adviezen (groottecriteria, jaarrekening-schema's, fusies, leasing) en de kerngedachte, niet de exacte randnummers.",
       "herkenningspunt": "Examenvraag noemt 'CBN-advies X' → ITAA verwacht dat je het advies kent of er minstens van gehoord hebt.",
       "confidence": "inferred",
-      "source": {"type": "examenpatroon", "short": "ITAA-LEX-scope"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0014-01-adviesbevoegdheid__volledig_part1", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "examenpatroon",
+        "short": "ITAA-LEX-scope"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0014-01-adviesbevoegdheid__volledig_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "CBN-adviezen niet als wet citeren. 'Volgens de wet moet je X boeken' is fout als de regel uit een CBN-advies komt — schrijf 'volgens CBN-advies XX/YY'. De rechter kan ervan afwijken.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN-advies 14/1"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0014-01-adviesbevoegdheid__volledig_part1", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 14/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0014-01-adviesbevoegdheid__volledig_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Een advies kan een wet of KB-bepaling niet opzij zetten. Bij conflict: wet/KB primeert. CBN-adviezen vullen vooral leemtes op of geven praktische voorbeelden.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN-advies 14/1"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0014-01-adviesbevoegdheid__volledig_part1", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 14/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0014-01-adviesbevoegdheid__volledig_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -112,9 +208,15 @@
       "vergelijking_met": "rechtspraak-boekhoudrecht",
       "verschil": "CBN-advies = preventief, abstract advies door de CBN over hoe een regel toe te passen. Rechtspraak = uitspraak van een rechtbank in een concreet geschil. Rechtspraak bindt de partijen; CBN-advies bindt niemand, maar wordt gevolgd.",
       "trigger": "Examenvraag 'welke bron bindt de partijen?' → rechtspraak (in de zaak). 'Wat zegt de doctrine?' → CBN-advies + andere rechtsleer.",
-      "_provenance": {"inputs": [
-        {"id": "CBN-0014-01-adviesbevoegdheid__volledig_part1", "sha256": null, "version": "rag-v1"}
-      ]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0014-01-adviesbevoegdheid__volledig_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

@@ -4,20 +4,36 @@
   "node_type": "methode",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.9.IV.B", "1.9.IV"],
+  "linked_anchors": [
+    "1.9.IV.B",
+    "1.9.IV"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T10:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.9.IV.B",
-    "dekt_ook_anchors": ["1.9.IV"],
+    "dekt_ook_anchors": [
+      "1.9.IV"
+    ],
     "reviewed_by": null,
     "bron_gap": "Toelichtingsstaten in het Belgisch volledig schema (NBB-modellen) bevatten mutatietabellen per vaste-activa-rubriek; KB WVV bijlagen geven exacte vormvereisten."
   },
   "doel": {
     "text": "De tabel van waardemutaties toont voor elke rubriek vaste activa de bewegingen van het boekjaar: aanschaffingen, desinvesteringen, overdrachten, afschrijvingen, waardeverminderingen en hun terugnemingen. Ze verbindt de openingsbalans met de eindbalans en is bron voor de kasstroomanalyse.",
     "confidence": "grounded",
-    "source": {"type": "kb", "short": "KB WVV — toelichtingsstaten volledig schema (NBB-modellen)"},
-    "_provenance": {"inputs": [{"id": "KB-WVV-toelichting-vaste-activa", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "kb",
+      "short": "KB WVV — toelichtingsstaten volledig schema (NBB-modellen)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-toelichting-vaste-activa",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -27,8 +43,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV — materiële vaste activa: openingswaarde € 10.000.000 + aanschaffingen € 2.500.000 − verkopen € 800.000 − afschrijvingen € 1.500.000 = eindwaarde € 10.200.000.",
       "grondslag": "KB WVV toelichtingsstaten",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV — toelichtingsstaten"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-toelichting-vaste-activa", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV — toelichtingsstaten"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-toelichting-vaste-activa",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Brug naar kasstroom uit investeringen",
@@ -37,8 +64,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV: investerings-kasstroom = − € 2.500.000 (aanschaffingen) + € 800.000 (verkopen) = − € 1.700.000.",
       "grondslag": "Vakdoctrine — gebruik van mutatietabel in kasstroomanalyse",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "Financiële analyse"},
-      "_provenance": {"inputs": [{"id": "anchor-1.9.IV.B", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financiële analyse"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.IV.B",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -47,12 +85,33 @@
       "betekenis": "Wanneer een vraag balanseindwaarden vergelijkt met openingswaarden en de afschrijvingen kent: gebruik de mutatietabel-formule (begin + aanschaffingen − afschrijvingen − desinvesteringen = einde) om aanschaffingen of desinvesteringen te isoleren.",
       "anker_slug": "1.9.IV.B",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "Financiële analyse"},
-      "_provenance": {"inputs": [{"id": "anchor-1.9.IV.B", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financiële analyse"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.IV.B",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "kasstroomoverzicht-drie-segmenten", "redenering": "Mutatietabel is input voor het investerings-segment.", "confidence": "grounded"},
-    {"type": "onderdeel-van", "target": "jaarrekening-als-studieobject", "redenering": "Mutatietabel is verplicht onderdeel van toelichting bij volledig schema.", "confidence": "grounded"}
+    {
+      "type": "vereist-kennis-van",
+      "target": "kasstroomoverzicht-drie-segmenten",
+      "redenering": "Mutatietabel is input voor het investerings-segment.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "jaarrekening-als-studieobject",
+      "redenering": "Mutatietabel is verplicht onderdeel van toelichting bij volledig schema.",
+      "confidence": "grounded"
+    }
   ]
 }

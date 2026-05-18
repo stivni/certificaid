@@ -4,29 +4,63 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.I", "1.2.taak.1"],
+  "linked_anchors": [
+    "1.2.I",
+    "1.2.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.I",
-    "dekt_ook_anchors": ["1.2.taak.1"],
+    "dekt_ook_anchors": [
+      "1.2.taak.1"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Het geheel van regels in België dat bepaalt hoe een onderneming haar boekhouding moet voeren en haar jaarrekening moet opstellen, openbaar maken en bewaren. Het bestaat uit gelaagde rechtsbronnen: Europese richtlijnen en verordeningen, federale wetten (WER en WVV), uitvoerende koninklijke besluiten, CBN-adviezen en rechtspraak.",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "WER art. III.82-III.95"},
+    "source": {
+      "type": "wet",
+      "short": "WER art. III.82-III.95"
+    },
     "references": [
-      {"type": "wet", "short": "Wetboek van Economisch Recht (WER), Boek III"},
-      {"type": "wet", "short": "Wetboek van Vennootschappen en Verenigingen (WVV)"},
-      {"type": "kb", "short": "KB van 29 april 2019 tot uitvoering van het WVV"},
-      {"type": "richtlijn", "short": "Richtlijn 2013/34/EU"}
+      {
+        "type": "wet",
+        "short": "Wetboek van Economisch Recht (WER), Boek III"
+      },
+      {
+        "type": "wet",
+        "short": "Wetboek van Vennootschappen en Verenigingen (WVV)"
+      },
+      {
+        "type": "kb",
+        "short": "KB van 29 april 2019 tot uitvoering van het WVV"
+      },
+      {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"},
-      {"id": "CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belg", "sha256": null, "version": "rag-v1"},
-      {"id": "Richtlijn-2013-34-EU__art_1", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_III_71",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belg",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "Richtlijn-2013-34-EU__art_1",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Rotex Roeselare NV (Belgische grote NV) past het Belgisch boekhoudrecht toe: WER + WVV als wetsbasis, KB-WVV voor schema's, CBN-adviezen voor interpretatie, en de Europese jaarrekening-richtlijn (2013/34/EU) als bovenlaag.",
   "bouwstenen": [
@@ -37,12 +71,29 @@
       "voorbeeld_inline": "Vraag: 'Hoe waardeer ik een gebouw na herwaardering?' → KB-WVV art. 3:35 (regel) + CBN-advies 2019/06 (toelichting).",
       "grondslag": "WER art. II.1, art. III.82-III.95; WVV Boek 3; KB van 29 april 2019",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "wet", "short": "WER + WVV + KB-WVV + CBN"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"},
-        {"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2010-20-gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen__sec_d", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WER + WVV + KB-WVV + CBN"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_II",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_III_71",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2010-20-gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen__sec_d",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Hiërarchie bij conflict",
@@ -51,10 +102,19 @@
       "voorbeeld_inline": "Een CBN-advies dat afwijkt van een artikel uit het KB-WVV moet wijken — het advies kan niet wet uit de weg gaan.",
       "grondslag": "Algemene rechtsleer (hiërarchie der normen) + WER art. II.1",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WER art. II.1"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. II.1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_II",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Toepassingsgebied: in België actieve ondernemingen",
@@ -63,11 +123,24 @@
       "voorbeeld_inline": "Kappers Köln GmbH heeft een bijkantoor in Antwerpen → voor de Antwerpse boekhouding gelden WER + KB-WVV.",
       "grondslag": "WER art. III.82; CBN-advies 2022/14",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN-advies 2022/14"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belg", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2024-02-belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 2022/14"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belg",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2024-02-belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -76,39 +149,79 @@
       "betekenis": "Stel een concrete boekhoudvraag → klim de hiërarchie af. (1) Is er een Europese verordening met directe werking? (2) Wat zegt het WER of WVV? (3) Is er een uitvoerend KB met een gedetailleerde regel? (4) Is er een CBN-advies dat de regel interpreteert?",
       "herkenningspunt": "Examenvraag 'Welke bron primeert?' → altijd hoogste-in-hiërarchie kiezen.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "wet", "short": "WER art. II.1 + algemene rechtsleer"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. II.1 + algemene rechtsleer"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_II",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "ITAA-LEX als examen-tool",
       "betekenis": "Op het ITAA-examen krijgt de stagiair de ITAA-LEX (wettekstenbundel). Daarin staan de relevante wetteksten en KB's — niet alle CBN-adviezen. Voor advies-gevoelige vraagstukken: ken het bestaan van het advies en het kernidee, niet de exacte randnummers.",
       "herkenningspunt": "ITAA-LEX bevat WER Boek III, WVV Boek 3, KB-WVV; CBN-adviezen worden meestal niet integraal opgenomen.",
       "confidence": "inferred",
-      "source": {"type": "examenpatroon", "short": "ITAA-bekwaamheidsexamen — ITAA-LEX"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0014-01-adviesbevoegdheid__volledig_part1", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "examenpatroon",
+        "short": "ITAA-bekwaamheidsexamen — ITAA-LEX"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0014-01-adviesbevoegdheid__volledig_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "CBN-adviezen niet als bindend recht behandelen. Ze zijn gezaghebbend, maar een rechter kan ze opzij zetten. Schrijf in een examen: 'CBN-advies X stelt dat ...' — niet 'Volgens de wet ...'",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN-advies 14/1 — Adviesbevoegdheid"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0014-01-adviesbevoegdheid__volledig_part1", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 14/1 — Adviesbevoegdheid"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0014-01-adviesbevoegdheid__volledig_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "WER en WVV niet door elkaar halen. WER (Boek III) regelt de boekhoudplicht in het algemeen (alle ondernemingen). WVV regelt specifiek de jaarrekening van vennootschappen en verenigingen. Een vraag over 'welke boeken moet ik bijhouden?' zit in WER; een vraag over 'welk schema voor mijn jaarrekening?' zit in WVV + KB-WVV.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "wet", "short": "WER Boek III + WVV Boek 3"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-WVV-2019__art_3_2", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WER Boek III + WVV Boek 3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_71",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

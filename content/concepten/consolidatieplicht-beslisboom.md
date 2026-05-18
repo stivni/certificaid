@@ -15,7 +15,7 @@ node_type: synthese
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/consolidatieplicht-beslisboom.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Moet ik consolideren? — Beslisboom 🤖
 

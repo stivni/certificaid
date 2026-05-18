@@ -4,24 +4,44 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.II.C", "1.8.VI.D"],
+  "linked_anchors": [
+    "1.8.II.C",
+    "1.8.VI.D"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.II.C",
-    "dekt_ook_anchors": ["1.8.VI.D"],
+    "dekt_ook_anchors": [
+      "1.8.VI.D"
+    ],
     "reviewed_by": null,
     "bron_gap": "Vakdoctrine"
   },
   "definitie": {
     "text": "Bij arbeidskosten wordt het totaal verschil tussen werkelijke en standaard arbeidskost gesplitst in: tariefverschil = werkelijke uren × (werkelijk uurtarief − standaard uurtarief) en efficiëntieverschil = (werkelijke uren − standaarduren) × standaard uurtarief. Tariefverschil wijst op HR-/loon-oorzaak; efficiëntieverschil op productie-snelheid.",
     "confidence": "inferred-common-knowledge",
-    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
-    "_provenance": {"inputs": []}
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
   },
   "voorbeeld_inline": "Yperse Werkplaats BV — partij 100 tapijten: standaard 5 uur/tapijt × € 25/uur. Werkelijk: 530 uur × € 26,50/uur. Tariefverschil = 530 × (26,50 − 25,00) = € 795 ongunstig. Efficiëntieverschil = (530 − 500) × € 25 = € 750 ongunstig. Totaal: € 1.545 ongunstig.",
   "edges": [
-    {"type": "onderdeel-van", "target": "verschillenboekhouding", "redenering": "Variant voor arbeidsverschillen.", "confidence": "inferred"},
-    {"type": "vereist-kennis-van", "target": "arbeidskosten", "redenering": "Bouwt op arbeidskost-structuur.", "confidence": "inferred"}
+    {
+      "type": "onderdeel-van",
+      "target": "verschillenboekhouding",
+      "redenering": "Variant voor arbeidsverschillen.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "arbeidskosten",
+      "redenering": "Bouwt op arbeidskost-structuur.",
+      "confidence": "inferred"
+    }
   ]
 }

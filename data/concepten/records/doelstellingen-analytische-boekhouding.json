@@ -4,20 +4,30 @@
   "node_type": "fenomeen",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.I.A", "1.8.I"],
+  "linked_anchors": [
+    "1.8.I.A",
+    "1.8.I"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.I.A",
-    "dekt_ook_anchors": ["1.8.I"],
+    "dekt_ook_anchors": [
+      "1.8.I"
+    ],
     "reviewed_by": null,
     "bron_gap": "Doelstellingen-lijst is vakdoctrine. Belgische bronnen bevatten geen rechtstreekse opsomming."
   },
   "definitie": {
     "text": "De analytische boekhouding dient vier samenhangende doelen: (1) de werkelijke kostprijs per product, opdracht of dienst berekenen; (2) de winstgevendheid per kostendrager, klant of markt-segment in kaart brengen; (3) de werking per kostencentrum opvolgen (efficiëntie, productiviteit); (4) input leveren voor beslissingen over prijszetting, make-or-buy, productmix en investeringen.",
     "confidence": "inferred-common-knowledge",
-    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap (geen Belgische trusted bron)"},
-    "_provenance": {"inputs": []}
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap (geen Belgische trusted bron)"
+    },
+    "_provenance": {
+      "inputs": []
+    }
   },
   "bouwstenen": [
     {
@@ -26,7 +36,9 @@
       "waarom": "De algemene boekhouding zegt wel hoeveel materiaal in totaal is verbruikt, maar niet welk product hoeveel heeft gekost.",
       "voorbeeld_inline": "Yperse Werkplaats BV produceert ruwwol-garen én tapijten. De algemene boekhouding toont totaal materiaalverbruik € 1.200.000. Pas de analytische verdeling toont dat ruwwol-garen € 800.000 materiaalkost heeft en tapijten € 400.000.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "titel": "Winstgevendheid per klant of markt",
@@ -34,7 +46,9 @@
       "waarom": "Een klant met hoge omzet kan verlieslatend zijn door extreme korting, lange leverroutes of veel terugzendingen.",
       "voorbeeld_inline": "Yperse Werkplaats BV verkoopt aan twee klanten: een grootwarenhuis (omzet € 2.500.000, marge 5 %) en een boetiek-keten (omzet € 800.000, marge 22 %). De analytische boekhouding toont dat de boetiek-keten in absolute marge € 176.000 oplevert tegen € 125.000 voor het grootwarenhuis.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "titel": "Werking per kostencentrum opvolgen",
@@ -42,7 +56,9 @@
       "waarom": "Snel ingrijpen wanneer een afdeling structureel boven budget gaat.",
       "voorbeeld_inline": "Kostencentrum Confectie van Yperse Werkplaats BV had een budget € 250.000 voor Q3 en realiseerde € 287.000 → verschil € 37.000 (overschrijding). De analytische boekhouding lokaliseert dat in extra overuren van € 28.000 en machinekost € 9.000.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "titel": "Beslissingsondersteuning",
@@ -50,7 +66,9 @@
       "waarom": "Strategische keuzes vereisen kostprijsinformatie die de wettelijke jaarrekening niet biedt.",
       "voorbeeld_inline": "Yperse Werkplaats BV overweegt om de afdeling Spinnerij te outsourcen. Analytische boekhouding levert directe en toegerekende kosten Spinnerij (€ 1.450.000/jaar) — basis voor de make-or-buy-vergelijking met een offerte van € 1.380.000.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "in_praktijk": [
@@ -58,10 +76,17 @@
       "aspect": "Volledigheid van het doel-overzicht",
       "betekenis": "In een examen-vraag 'noem de doelstellingen van een analytische boekhouding' verwachten correctoren typisch 3 à 4 doelen waarvan minstens kostprijsberekening, marge-analyse en beslissingsondersteuning worden genoemd. Budgetopvolging hoort er ook bij, maar valt soms onder een aparte vraag over budgetbeheer.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "analytische-boekhouding", "redenering": "Doelstellingen zijn één facet van de analytische boekhouding.", "confidence": "inferred"}
+    {
+      "type": "onderdeel-van",
+      "target": "analytische-boekhouding",
+      "redenering": "Doelstellingen zijn één facet van de analytische boekhouding.",
+      "confidence": "inferred"
+    }
   ]
 }

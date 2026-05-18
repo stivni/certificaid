@@ -289,11 +289,23 @@
           "wat": "Voeg alle bezittingen en schulden van moeder en dochter samen in één geconsolideerde balans — voor 100 %, los van het belangenpercentage.",
           "waarom": "De groep wordt voorgesteld als één economische entiteit; pro-rata-opname zou de schaal van de groep verbergen.",
           "input": [
-            {"artefact": "Balans moeder", "veld": "Alle posten", "type": "boekhoudkundig-bedrag"},
-            {"artefact": "Balans dochter", "veld": "Alle posten", "type": "boekhoudkundig-bedrag"}
+            {
+              "artefact": "Balans moeder",
+              "veld": "Alle posten",
+              "type": "boekhoudkundig-bedrag"
+            },
+            {
+              "artefact": "Balans dochter",
+              "veld": "Alle posten",
+              "type": "boekhoudkundig-bedrag"
+            }
           ],
           "output": [
-            {"artefact": "Geconsolideerde balans (tussentijds)", "veld": "Alle posten samengevoegd", "type": "nieuwe-balanspost"}
+            {
+              "artefact": "Geconsolideerde balans (tussentijds)",
+              "veld": "Alle posten samengevoegd",
+              "type": "nieuwe-balanspost"
+            }
           ],
           "hoe": "1. Open de balans van Aurelia Holding NV.\n2. Open de balans van Brugse Brouwerij BV.\n3. Tel post per post de bedragen op: vaste activa moeder + vaste activa dochter, vlottende activa moeder + vlottende activa dochter, schulden moeder + schulden dochter.\n4. Eigen vermogen van de dochter komt nog niet definitief in de geconsolideerde balans — daar komt stap 2 aan te pas.\n",
           "grondslag": "KB WVV art. 3:126",
@@ -309,13 +321,33 @@
           "wat": "Schrap de post 'Deelneming dochter' uit de moeder-balans en schrap het bijhorend aandeel van de moeder in het eigen vermogen van de dochter. Het verschil tussen die twee bedragen heet het consolidatieverschil.",
           "waarom": "Anders zou je dezelfde economische waarde tweemaal tellen: één keer als 'Deelneming' bij de moeder en één keer als 'Eigen vermogen' van de dochter.",
           "input": [
-            {"artefact": "Balans Aurelia Holding NV", "veld": "Deelnemingen (Brugse Brouwerij BV)", "type": "boekhoudkundig-bedrag"},
-            {"artefact": "Balans Brugse Brouwerij BV op datum van aankoop", "veld": "Eigen vermogen totaal", "type": "boekhoudkundig-bedrag"},
-            {"artefact": "Aandelenkoopovereenkomst", "veld": "Belangenpercentage moeder", "type": "percentage"}
+            {
+              "artefact": "Balans Aurelia Holding NV",
+              "veld": "Deelnemingen (Brugse Brouwerij BV)",
+              "type": "boekhoudkundig-bedrag"
+            },
+            {
+              "artefact": "Balans Brugse Brouwerij BV op datum van aankoop",
+              "veld": "Eigen vermogen totaal",
+              "type": "boekhoudkundig-bedrag"
+            },
+            {
+              "artefact": "Aandelenkoopovereenkomst",
+              "veld": "Belangenpercentage moeder",
+              "type": "percentage"
+            }
           ],
           "output": [
-            {"artefact": "Geconsolideerde balans", "veld": "Deelnemingen", "type": "geëlimineerde-post"},
-            {"artefact": "Geconsolideerde balans", "veld": "Consolidatieverschillen", "type": "nieuwe-balanspost"}
+            {
+              "artefact": "Geconsolideerde balans",
+              "veld": "Deelnemingen",
+              "type": "geëlimineerde-post"
+            },
+            {
+              "artefact": "Geconsolideerde balans",
+              "veld": "Consolidatieverschillen",
+              "type": "nieuwe-balanspost"
+            }
           ],
           "hoe": "1. Zoek in de balans van Aurelia Holding NV de post 'Deelnemingen' voor Brugse Brouwerij BV (bv. € 1.600.000).\n2. Zoek in de balans van Brugse Brouwerij BV op datum van aankoop het eigen vermogen totaal (kapitaal + reserves + overgedragen resultaat — bv. € 1.500.000).\n3. Bereken jouw aandeel: belangenpercentage × eigen vermogen dochter (80 % × € 1.500.000 = € 1.200.000).\n4. Schrap € 1.600.000 (deelneming bij moeder) en schrap € 1.200.000 (jouw aandeel in EV dochter).\n5. Boek het verschil € 1.600.000 − € 1.200.000 = € 400.000 als 'Consolidatieverschillen' (actiefzijde als positief, passiefzijde als negatief).\n6. Belangrijk: gebruik het eigen vermogen op de datum van aankoop, niet op afsluitingsdatum.\n",
           "voorbeeld": {
@@ -354,12 +386,28 @@
           "wat": "Vóór je het hele verschil onder 'Consolidatieverschillen' boekt, kijk je of bepaalde bezittingen of schulden van de dochter méér of minder waard zijn dan hun boekwaarde. Reken het verschil zoveel mogelijk daaraan toe. Pas het overschot komt onder 'Consolidatieverschillen'.",
           "waarom": "De boekwaarde uit de dochter-balans is niet altijd de werkelijke waarde. Een vastgoed dat 50 jaar geleden is gekocht staat boekhoudkundig laag; de werkelijke waarde is hoger. Door eerst die verborgen meerwaarde te erkennen, vermijd je dat het hele verschil onterecht goodwill (consolidatieverschil) wordt.",
           "input": [
-            {"artefact": "Consolidatieverschil uit stap 2", "veld": "bedrag", "type": "boekhoudkundig-bedrag"},
-            {"artefact": "Balans dochter", "veld": "Posten met afwijkende werkelijke waarde", "type": "boekhoudkundig-bedrag"}
+            {
+              "artefact": "Consolidatieverschil uit stap 2",
+              "veld": "bedrag",
+              "type": "boekhoudkundig-bedrag"
+            },
+            {
+              "artefact": "Balans dochter",
+              "veld": "Posten met afwijkende werkelijke waarde",
+              "type": "boekhoudkundig-bedrag"
+            }
           ],
           "output": [
-            {"artefact": "Geconsolideerde balans", "veld": "Geherwaardeerde activa/passiva van dochter", "type": "nieuwe-balanspost"},
-            {"artefact": "Geconsolideerde balans", "veld": "Consolidatieverschillen (overschot)", "type": "nieuwe-balanspost"}
+            {
+              "artefact": "Geconsolideerde balans",
+              "veld": "Geherwaardeerde activa/passiva van dochter",
+              "type": "nieuwe-balanspost"
+            },
+            {
+              "artefact": "Geconsolideerde balans",
+              "veld": "Consolidatieverschillen (overschot)",
+              "type": "nieuwe-balanspost"
+            }
           ],
           "hoe": "1. Maak een lijst van bezittingen/schulden van Brugse Brouwerij BV waarvan de werkelijke waarde afwijkt van de boekwaarde (typisch: vastgoed, voorraden, voorzieningen).\n2. Trek voor elke post de boekwaarde af van de werkelijke waarde — dat is de onder- of overwaardering.\n3. Reken (een deel van) het consolidatieverschil toe aan die posten — opwaardering bij meerwaarde, afwaardering bij minderwaarde.\n4. Het stuk dat overblijft, boek je definitief als 'Consolidatieverschillen' (positief → actiefzijde; negatief → passiefzijde).\n5. Belangrijke regel: positieve en negatieve consolidatieverschillen van verschillende dochters mag je niet tegen elkaar wegstrepen, behalve binnen dezelfde dochter (dan moet het).\n",
           "grondslag": "KB WVV art. 3:130 (lid 1 toerekening, lid 2 restant)",
@@ -375,11 +423,23 @@
           "wat": "Verwijder alle vorderingen en schulden tussen moeder en dochter (en tussen dochters onderling). Verwijder ook de winst die de groep aan zichzelf heeft 'verkocht' (intra-groep-winst in voorraden of vaste activa). Idem voor onderlinge opbrengsten en kosten in de resultatenrekening.",
           "waarom": "Een groep kan niet aan zichzelf verkopen of zichzelf geld lenen — economisch is dat één bedrijf. Als je die posten zou laten staan, blaast de geconsolideerde balans onterecht op.",
           "input": [
-            {"artefact": "Boekhouding moeder en dochter", "veld": "Onderlinge vorderingen, schulden, verkopen, aankopen", "type": "boekhoudkundig-bedrag"}
+            {
+              "artefact": "Boekhouding moeder en dochter",
+              "veld": "Onderlinge vorderingen, schulden, verkopen, aankopen",
+              "type": "boekhoudkundig-bedrag"
+            }
           ],
           "output": [
-            {"artefact": "Geconsolideerde balans", "veld": "Onderlinge posten", "type": "geëlimineerde-post"},
-            {"artefact": "Geconsolideerde resultatenrekening", "veld": "Onderlinge opbrengsten en kosten", "type": "geëlimineerde-post"}
+            {
+              "artefact": "Geconsolideerde balans",
+              "veld": "Onderlinge posten",
+              "type": "geëlimineerde-post"
+            },
+            {
+              "artefact": "Geconsolideerde resultatenrekening",
+              "veld": "Onderlinge opbrengsten en kosten",
+              "type": "geëlimineerde-post"
+            }
           ],
           "hoe": "1. Maak een lijst van alle bedragen die Aurelia Holding NV nog van Brugse Brouwerij BV te ontvangen heeft (en omgekeerd).\n2. Schrap die bedragen wederzijds: vordering bij moeder weg én schuld bij dochter weg, voor hetzelfde bedrag.\n3. Voor goederen die de moeder aan de dochter heeft verkocht (of omgekeerd): bepaal hoeveel daarvan nog in de voorraad of vaste activa zit, en schrap de winstmarge die de groep aan zichzelf heeft toegerekend.\n4. In de resultatenrekening: schrap de onderlinge omzet en de onderlinge aankoopkosten — voor exact hetzelfde bedrag.\n5. Praktische uitzondering: posten van te verwaarlozen betekenis mag je laten staan (KB WVV art. 3:139).\n",
           "grondslag": "KB WVV art. 3:134 (balans), art. 3:136 (resultatenrekening), art. 3:139 (materialiteit)",
@@ -395,13 +455,33 @@
           "wat": "Bereken welk deel van het eigen vermogen en het resultaat van de dochter toebehoort aan andere aandeelhouders dan de moeder. Presenteer dat bedrag apart: op de balans als 'Belangen van derden' aan passiefzijde, op de resultatenrekening als 'Aandeel van derden in het resultaat'.",
           "waarom": "Bij integrale consolidatie heb je de 100 %-balans van de dochter opgenomen, maar economisch heeft de moeder maar 80 % (of welk percentage ook). Het verschil tussen die 100 % en het belangenpercentage hoort niet aan de moeder toe — dat moet de geconsolideerde jaarrekening transparant tonen.",
           "input": [
-            {"artefact": "Eigen vermogen dochter op afsluitingsdatum", "veld": "totaal", "type": "boekhoudkundig-bedrag"},
-            {"artefact": "Resultaat dochter boekjaar", "veld": "winst of verlies", "type": "boekhoudkundig-bedrag"},
-            {"artefact": "Aandelenstructuur", "veld": "Belangenpercentage moeder", "type": "percentage"}
+            {
+              "artefact": "Eigen vermogen dochter op afsluitingsdatum",
+              "veld": "totaal",
+              "type": "boekhoudkundig-bedrag"
+            },
+            {
+              "artefact": "Resultaat dochter boekjaar",
+              "veld": "winst of verlies",
+              "type": "boekhoudkundig-bedrag"
+            },
+            {
+              "artefact": "Aandelenstructuur",
+              "veld": "Belangenpercentage moeder",
+              "type": "percentage"
+            }
           ],
           "output": [
-            {"artefact": "Geconsolideerde balans (passiefzijde)", "veld": "Belangen van derden", "type": "nieuwe-balanspost"},
-            {"artefact": "Geconsolideerde resultatenrekening", "veld": "Aandeel van derden in het resultaat", "type": "nieuwe-balanspost"}
+            {
+              "artefact": "Geconsolideerde balans (passiefzijde)",
+              "veld": "Belangen van derden",
+              "type": "nieuwe-balanspost"
+            },
+            {
+              "artefact": "Geconsolideerde resultatenrekening",
+              "veld": "Aandeel van derden in het resultaat",
+              "type": "nieuwe-balanspost"
+            }
           ],
           "hoe": "1. Neem het eigen vermogen totaal van Brugse Brouwerij BV op afsluitingsdatum (bv. € 2.000.000).\n2. Bereken het derden-percentage: 100 % − belangenpercentage moeder (bv. 100 % − 80 % = 20 %).\n3. Vermenigvuldig: 20 % × € 2.000.000 = € 400.000 → boek dit als 'Belangen van derden' aan passiefzijde van de geconsolideerde balans.\n4. Doe hetzelfde voor het resultaat: 20 % × € 500.000 = € 100.000 → boek dit als 'Aandeel van derden in het resultaat' onderaan de resultatenrekening (RR).\n5. Het resultaat dat overblijft voor de moeder (80 % × € 500.000 = € 400.000) zit dan al impliciet in het geconsolideerde nettoresultaat na aftrek van het derden-aandeel.\n",
           "grondslag": "KB WVV art. 3:137",
@@ -457,9 +537,21 @@
           "naam": "Geconsolideerde post (vóór aandeel van derden)",
           "wiskunde": "geconsolideerde post = post moeder + post dochter (voor 100 %) − intragroep-eliminaties",
           "variabelen": [
-            {"symbool": "post moeder", "betekenis": "Bedrag van de post in de balans van de moeder", "eenheid": "EUR"},
-            {"symbool": "post dochter (voor 100 %)", "betekenis": "Bedrag van dezelfde post bij de dochter, los van belangenpercentage", "eenheid": "EUR"},
-            {"symbool": "intragroep-eliminaties", "betekenis": "Onderlinge vorderingen, schulden of niet-gerealiseerde winsten die je schrapt", "eenheid": "EUR"}
+            {
+              "symbool": "post moeder",
+              "betekenis": "Bedrag van de post in de balans van de moeder",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "post dochter (voor 100 %)",
+              "betekenis": "Bedrag van dezelfde post bij de dochter, los van belangenpercentage",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "intragroep-eliminaties",
+              "betekenis": "Onderlinge vorderingen, schulden of niet-gerealiseerde winsten die je schrapt",
+              "eenheid": "EUR"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "Aurelia 'Vlottende activa' = € 4.000.000; Brugse 'Vlottende activa' = € 1.000.000; intragroep-vordering = € 250.000",
@@ -475,10 +567,20 @@
           "id": "aandeel-van-derden-ev",
           "naam": "Aandeel van derden in het eigen vermogen",
           "wiskunde": "belangen van derden = (1 − belangenpercentage moeder) × eigen vermogen dochter op afsluitingsdatum",
-          "afhankelijk_van": ["geconsolideerde-post"],
+          "afhankelijk_van": [
+            "geconsolideerde-post"
+          ],
           "variabelen": [
-            {"symbool": "belangenpercentage moeder", "betekenis": "Aandeel van moeder in kapitaal dochter (zie [[belangenpercentage]])", "eenheid": "%"},
-            {"symbool": "eigen vermogen dochter op afsluitingsdatum", "betekenis": "Kapitaal + reserves + overgedragen resultaat van de dochter, einde boekjaar", "eenheid": "EUR"}
+            {
+              "symbool": "belangenpercentage moeder",
+              "betekenis": "Aandeel van moeder in kapitaal dochter (zie [[belangenpercentage]])",
+              "eenheid": "%"
+            },
+            {
+              "symbool": "eigen vermogen dochter op afsluitingsdatum",
+              "betekenis": "Kapitaal + reserves + overgedragen resultaat van de dochter, einde boekjaar",
+              "eenheid": "EUR"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "belangenpercentage Aurelia = 80 %; EV Brugse op afsluitingsdatum = € 2.000.000",
@@ -491,8 +593,16 @@
           "naam": "Aandeel van derden in het resultaat van het boekjaar",
           "wiskunde": "aandeel derden in resultaat = (1 − belangenpercentage moeder) × resultaat dochter boekjaar",
           "variabelen": [
-            {"symbool": "belangenpercentage moeder", "betekenis": "Aandeel van moeder in kapitaal dochter", "eenheid": "%"},
-            {"symbool": "resultaat dochter boekjaar", "betekenis": "Winst of verlies van de dochter in dit boekjaar", "eenheid": "EUR"}
+            {
+              "symbool": "belangenpercentage moeder",
+              "betekenis": "Aandeel van moeder in kapitaal dochter",
+              "eenheid": "%"
+            },
+            {
+              "symbool": "resultaat dochter boekjaar",
+              "betekenis": "Winst of verlies van de dochter in dit boekjaar",
+              "eenheid": "EUR"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "belangenpercentage Aurelia = 80 %; resultaat Brugse boekjaar = € 500.000",

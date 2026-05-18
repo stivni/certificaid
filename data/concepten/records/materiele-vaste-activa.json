@@ -4,26 +4,50 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.1.II.B", "1.1.II.W"],
+  "linked_anchors": [
+    "1.1.II.B",
+    "1.1.II.W"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.B",
-    "dekt_ook_anchors": ["1.1.II.W"],
+    "dekt_ook_anchors": [
+      "1.1.II.W"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "**Lichamelijke** activa die de onderneming aanhoudt voor gebruik in de productie of levering van goederen of diensten, voor verhuur aan derden of voor bestuurlijke doeleinden. Het MAR groepeert ze onder rubrieken 22 — 26: (22) terreinen en gebouwen, (23) installaties, machines en uitrusting, (24) meubilair en rollend materieel, (25) vaste activa in leasing, (26) andere materiële vaste activa (incl. buiten gebruik gesteld). Materiële vaste activa met beperkte gebruiksduur worden afgeschreven; activa met onbeperkte gebruiksduur (terreinen) krijgen indien nodig waardeverminderingen.",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "MAR + KB WVV art. 3:18 — 3:23"},
+    "source": {
+      "type": "wet",
+      "short": "MAR + KB WVV art. 3:18 — 3:23"
+    },
     "references": [
-      {"type": "advies", "short": "CBN 2010/15 — Afschrijvingsmethoden"},
-      {"type": "advies", "short": "CBN 2021/09 — Rekening 26 Overige materiële vaste activa"}
+      {
+        "type": "advies",
+        "short": "CBN 2010/15 — Afschrijvingsmethoden"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2021/09 — Rekening 26 Overige materiële vaste activa"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "MAR-ondernemingen__art_2", "sha256": null, "version": "rag-v1"},
-      {"id": "CBN-2010-15-afschrijvingsmethoden__sec_immateri-le-en-materi-le-vaste-activa-met-beperkte-gebruiksd", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "MAR-ondernemingen__art_2",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2010-15-afschrijvingsmethoden__sec_immateri-le-en-materi-le-vaste-activa-met-beperkte-gebruiksd",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Naaiatelier Ninove BV bezit: terrein € 320.000 (rubriek 220), gebouw € 480.000 (221), snij-installaties € 145.000 (230), machines en gereedschap € 218.000 (231), kantoormeubilair € 22.000 (240) en bedrijfswagens € 65.000 (242). Totaal bruto-aanschaffingswaarde € 1.250.000; netto-boekwaarde na cumul. afschrijvingen € 815.000 op de balans onder rubriek III 'Materiële vaste activa'.",
   "bouwstenen": [
@@ -34,8 +58,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV koopt een bedrijfssite voor € 850.000 (terrein € 280.000 + gebouw € 570.000). Boeking gesplitst: Debet 220 € 280.000 + Debet 221 € 570.000 / Credit 440 € 850.000. Afschrijving alleen op gebouw, bv. lineair over 33 jaar = € 17.273/jaar.",
       "grondslag": "MAR + KB WVV art. 3:23",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR rubriek 22"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_2", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR rubriek 22"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Installaties, machines, meubilair, voertuigen (rubrieken 23 + 24)",
@@ -44,8 +79,19 @@
       "voorbeeld_inline": "Naaiatelier Ninove BV koopt: drie snij-installaties (totaal € 145.000, gebruiksduur 5 jaar → € 29.000/jaar), drie naaimachines (€ 90.000, 8 jaar → € 11.250/jaar), één bestelwagen (€ 32.000, 5 jaar → € 6.400/jaar).",
       "grondslag": "MAR rubrieken 23 + 24",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_2", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Vaste activa in leasing (rubriek 25)",
@@ -54,8 +100,19 @@
       "voorbeeld_inline": "Transport Tongeren BV neemt een vrachtwagen in financiële leasing: economische aankoopwaarde € 85.000, looptijd 5 jaar. Boeking aanvang: Debet 252 Vaste activa in leasing — meubilair/rollend € 85.000 / Credit 172 Leasingschulden € 85.000. Afschrijving + intrestkost zoals bij eigen actief.",
       "grondslag": "MAR rubriek 25 + KB WVV art. 3:43",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR + KB WVV"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_2", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR + KB WVV"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Andere MVA / buiten gebruik (rubriek 26)",
@@ -64,8 +121,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV stopt een verouderde productielijn (boekwaarde € 45.000); de installatie wordt overgebracht van rekening 230 naar 262 'Buiten gebruik gestelde MVA'. Verwachte tweedehandsopbrengst € 12.000 → niet-recurrente afschrijving € 33.000.",
       "grondslag": "CBN 2021/09",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2021/09"},
-      "_provenance": {"inputs": [{"id": "CBN-2021-09-rekening-26-overige-materiele-vaste-activa__sec_waarderingsregels-waardeverminderingen-en-afschrijvingen", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2021/09"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2021-09-rekening-26-overige-materiele-vaste-activa__sec_waarderingsregels-waardeverminderingen-en-afschrijvingen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -74,16 +142,38 @@
       "betekenis": "Bij aankoop van een bebouwd onroerend goed worden terreinen en gebouwen samen aangeschaft, maar voor de boekhouding moeten ze gesplitst worden. Splitsing op basis van werkelijke waardeverhouding (vaak in akte vermeld of door schatter bepaald).",
       "herkenningspunt": "Examen: 'aankoop pand € 600.000, akte vermeldt grond 30 % / opstal 70 %' → 220 € 180.000 + 221 € 420.000.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "wet", "short": "Praktijk + MAR"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_2", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "Praktijk + MAR"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Een terrein wordt NIET afgeschreven. Maar het is wel onderhevig aan WAARDEVERMINDERING als objectieve indicatie van duurzame ontwaarding (bv. bodemverontreiniging, bestemmingswijziging).",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:23, lid 2"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_18", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:23, lid 2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_18",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -94,8 +184,20 @@
     }
   ],
   "edges": [
-    {"type": "bevat", "target": "terrein", "redenering": "Terreinen zijn een specifieke subrubriek (220) met afwijkend regime (geen afschrijving)."},
-    {"type": "vereist-kennis-van", "target": "afschrijvingen", "redenering": "MVA met beperkte gebruiksduur worden afgeschreven."},
-    {"type": "vereist-kennis-van", "target": "leasing", "redenering": "Geleasde activa onder rubriek 25 vergen onderscheid financiële vs operationele leasing."}
+    {
+      "type": "bevat",
+      "target": "terrein",
+      "redenering": "Terreinen zijn een specifieke subrubriek (220) met afwijkend regime (geen afschrijving)."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "afschrijvingen",
+      "redenering": "MVA met beperkte gebruiksduur worden afgeschreven."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "leasing",
+      "redenering": "Geleasde activa onder rubriek 25 vergen onderscheid financiële vs operationele leasing."
+    }
   ]
 }

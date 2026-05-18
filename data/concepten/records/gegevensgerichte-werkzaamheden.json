@@ -4,22 +4,40 @@
   "node_type": "methode",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.II.C", "1.6.II.B"],
+  "linked_anchors": [
+    "1.6.II.C",
+    "1.6.II.B"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.II.C",
-    "dekt_ook_anchors": ["1.6.II.B"],
+    "dekt_ook_anchors": [
+      "1.6.II.B"
+    ],
     "reviewed_by": null
   },
   "doel": {
     "text": "Gegevensgerichte werkzaamheden zijn controlewerkzaamheden die zijn opgezet om afwijkingen van materieel belang op het niveau van beweringen te ontdekken. Twee soorten: detailcontroles (transactiestromen, rekeningsaldi, toelichtingen) en gegevensgerichte cijferanalyses.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1 + §85"},
-    "_provenance": {"inputs": [
-      {"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"},
-      {"id": "ITAA-norm-kmo-controlenorm__sec_gegevensgerichte-werkzaamheden6", "sha256": null, "version": "rag-v1"}
-    ]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1 + §85"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_gegevensgerichte-werkzaamheden6",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Sofie Janssens test de waardering van de top-20 voorraadposten van Rotex Roeselare NV: zij gaat naar de opslagplaats, telt zelf de stuks (€ 850.000 totaal), vergelijkt met de aankoopfacturen, en checkt de toepassing van FIFO. Dat is een detailcontrole. Daarnaast voert zij een gegevensgerichte cijferanalyse uit op de bruto-marge per productlijn.",
   "bouwstenen": [
@@ -29,8 +47,19 @@
       "waarom": "Detailcontroles zijn diep maar duur. Cijferanalyses zijn breed maar minder precies — combineer ze.",
       "grondslag": "ITAA KMO-controlenorm Bijlage 1",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm Bijlage 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Wanneer onmisbaar",
@@ -38,8 +67,19 @@
       "waarom": "Bij hoge inherente of fraude-risico's moet de auditor zelf assurance-informatie verzamelen, niet enkel steunen op IC.",
       "grondslag": "ITAA KMO-controlenorm §94",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §94"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §94"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -47,11 +87,27 @@
       "vergelijking_met": "toetsing-interne-beheersing",
       "verschil": "Gegevensgerichte werkzaamheden = direct toetsen of de financiële overzichten kloppen. Toetsing van interne beheersing = toetsen of de processen die afwijkingen voorkomen of detecteren wérken. Combineer beide naargelang van het risico-profiel.",
       "trigger": "Hoog inherent risico en/of geen vertrouwen in IC → vooral gegevensgericht. Goede IC + intentie tot steunen → mix met toetsing IC.",
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "assurance-informatie", "redenering": "Eén van de bronnen om assurance-informatie te verzamelen."},
-    {"type": "bevat", "target": "cijferanalyses-audit", "redenering": "Subtype 2: gegevensgerichte cijferanalyses."}
+    {
+      "type": "onderdeel-van",
+      "target": "assurance-informatie",
+      "redenering": "Eén van de bronnen om assurance-informatie te verzamelen."
+    },
+    {
+      "type": "bevat",
+      "target": "cijferanalyses-audit",
+      "redenering": "Subtype 2: gegevensgerichte cijferanalyses."
+    }
   ]
 }

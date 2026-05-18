@@ -17,7 +17,7 @@ node_type: begrip
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/geinformatiseerde-omgeving-ic.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Interne controle in geïnformatiseerde omgeving 🤖
 

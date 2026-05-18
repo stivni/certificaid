@@ -20,7 +20,7 @@ node_type: methode
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/rentabiliteit-totaal-activa-roa.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Rentabiliteit van het totaal der activa (ROA) ⚖️
 

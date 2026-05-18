@@ -4,12 +4,17 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.IX.D", "1.7.IX"],
+  "linked_anchors": [
+    "1.7.IX.D",
+    "1.7.IX"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T10:40Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.IX.D",
-    "dekt_ook_anchors": ["1.7.IX"],
+    "dekt_ook_anchors": [
+      "1.7.IX"
+    ],
     "reviewed_by": null,
     "bron_gap": "Wet 3 juli 1978 (arbeidsovereenkomsten) + sociale wetgeving raken de cyclus. Loon-IC-doctrine zelf is vakdoctrine."
   },
@@ -41,7 +46,15 @@
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "HR-cyclus is hoofdcyclus, hoog fraude-risico zonder controles."},
-    {"type": "vereist-kennis-van", "target": "avg-interne-controle", "redenering": "Personeelsdata is gevoelig — AVG-implicaties zwaar."}
+    {
+      "type": "onderdeel-van",
+      "target": "interne-controle",
+      "redenering": "HR-cyclus is hoofdcyclus, hoog fraude-risico zonder controles."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "avg-interne-controle",
+      "redenering": "Personeelsdata is gevoelig — AVG-implicaties zwaar."
+    }
   ]
 }

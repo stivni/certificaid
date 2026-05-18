@@ -4,30 +4,66 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.5.IV.B", "1.5.IV"],
+  "linked_anchors": [
+    "1.5.IV.B",
+    "1.5.IV"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.5.IV.B",
-    "dekt_ook_anchors": ["1.5.IV"],
+    "dekt_ook_anchors": [
+      "1.5.IV"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Onder IAS 1 omvat het **totaalresultaat** twee onderdelen: (1) **winst of verlies** (profit or loss) — de klassieke W&V-componenten zoals opbrengsten, kostprijs van omzet, financieringskosten, belastingen; en (2) **overige onderdelen van het totaalresultaat** (Other Comprehensive Income, OCI) — baten en lasten die door specifieke IFRS-en bewust BUITEN winst of verlies worden opgenomen. OCI omvat onder meer: wijzigingen in herwaarderingsreserves (IAS 16, IAS 38), herwaarderingen van toegezegdpensioenregelingen (IAS 19), wisselkoersverschillen uit omrekening buitenlandse activiteit (IAS 21), reële-waardewijzigingen op specifieke financiële activa (IFRS 9), effectieve deel van kasstroom-hedge-instrumenten (IFRS 9), kredietrisico-component bij FVTPL-verplichtingen, tijdswaarde-componenten van optie-hedges. Een entiteit mag het totaalresultaat presenteren in één enkel overzicht (winst of verlies + OCI samen) of in twee afzonderlijke overzichten (eerst W&V, dan totaalresultaat).",
     "confidence": "grounded",
-    "source": {"type": "ifrs", "short": "IAS 1 alinea 7 (definities) + 10A + 81A"},
+    "source": {
+      "type": "ifrs",
+      "short": "IAS 1 alinea 7 (definities) + 10A + 81A"
+    },
     "references": [
-      {"type": "ifrs", "short": "IAS 1 alinea 7 (definitie totaalresultaat en OCI)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 10A (één of twee overzichten)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 81A-81B (inhoud overzicht totaalresultaat)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 82 (verplichte posten W&V)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 82A (verplichte posten OCI)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 99-105 (analyse van lasten — aard of functie)"}
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 7 (definitie totaalresultaat en OCI)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 10A (één of twee overzichten)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 81A-81B (inhoud overzicht totaalresultaat)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 82 (verplichte posten W&V)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 82A (verplichte posten OCI)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 99-105 (analyse van lasten — aard of functie)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "IAS-1-presentatie-van-de-jaarrekening__sec_definities", "sha256": null, "version": "rag-v1"},
-      {"id": "IAS-1-presentatie-van-de-jaarrekening__sec_10a", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "IAS-1-presentatie-van-de-jaarrekening__sec_definities",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "IAS-1-presentatie-van-de-jaarrekening__sec_10a",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Zelena Bio NV totaalresultaat 2026: winst € 35.000.000 + OCI: herwaardering terreinen +€ 4.500.000 (na uitgestelde belasting) + wisselkoersverschillen Argentijnse dochter −€ 800.000 + actuariële winsten pensioenplan +€ 320.000 = totaalresultaat **€ 39.020.000**.",
   "bouwstenen": [
@@ -38,8 +74,19 @@
       "voorbeeld_inline": "Zelena Bio's Argentijnse dochter wordt in 2030 verkocht. Cumulatieve wisselkoersverschillen in OCI sinds aanschaf (€ 2.500.000 verlies) worden bij verkoop **gereclassificeerd** naar W&V. Daarentegen: de herwaarderingsreserve op de Brusselse terreinen blijft in eigen vermogen, en wordt bij verkoop overgeboekt naar ingehouden winsten (niet in W&V).",
       "grondslag": "IAS 1 alinea 7 (definitie herclassificatie) + 82A",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 7 + 82A"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_definities", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 7 + 82A"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_definities",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Analyse van lasten — aard of functie",
@@ -48,8 +95,19 @@
       "voorbeeld_inline": "Zelena Bio presenteert volgens functie: 'Kostprijs van omzet € 175.000.000 + Verkoopkosten € 42.000.000 + Administratiekosten € 28.000.000 + Onderzoek & ontwikkeling € 22.000.000'. In de toelichting: aard-uitsplitsing met personeelsbeloningen € 95.000.000 + afschrijvingen € 12.000.000, etc.",
       "grondslag": "IAS 1 alinea 99-105",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 99-105"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 99-105"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Verplichte minimumposten in winst of verlies (alinea 82)",
@@ -58,22 +116,55 @@
       "voorbeeld_inline": "Zelena Bio's totaalresultaat-overzicht eindigt met: 'Winst over de periode € 35.000.000 — toerekenbaar aan: eigenaars van Zelena Bio NV € 31.500.000; belangen zonder zeggenschap € 3.500.000'.",
       "grondslag": "IAS 1 alinea 82-83",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 82"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 82"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Buitengewone resultaten ('extraordinary items') mogen onder IFRS NIET als aparte categorie worden gepresenteerd (alinea 87). Belgisch GAAP had die wel — een typische bron van verschillen bij eerste IFRS-toepassing.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 87"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 87"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "OCI-posten zijn NIET hetzelfde als 'directe boekingen in eigen vermogen'. Transacties met eigenaars (dividenden, kapitaalverhogingen, terugkoop eigen aandelen) lopen via mutatieoverzicht eigen vermogen — NIET via OCI.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 7 (definitie totaalresultaat)"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_definities", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 7 (definitie totaalresultaat)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_definities",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

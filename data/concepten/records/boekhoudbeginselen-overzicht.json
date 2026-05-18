@@ -25,16 +25,33 @@
     "extractor_run": "verify-synthese-2026-05-16-po1.1",
     "model": "claude-opus-4-7-handmatig-pilot",
     "anchor_id": "1.1.I.B",
-    "dekt_ook_anchors": ["1.1.I", "1.1.II.S", "1.2.V", "1.2.V.A"]
+    "dekt_ook_anchors": [
+      "1.1.I",
+      "1.1.II.S",
+      "1.2.V",
+      "1.2.V.A"
+    ]
   },
   "inleiding": {
     "text": "Een regelmatige boekhouding rust op een set boekhoudkundige beginselen die niet apart in één wetsartikel staan, maar verspreid zijn over WER art. III.83-89, KB WVV art. 3:1-3:60, CBN-advies 174/1 en Richtlijn 2013/34/EU art. 6. Stagiairs leren ze vaak los, terwijl ze juist samen werken: drie 'voorwaarden voor een betrouwbare boekhouding' (volledigheid, oprechtheid, onveranderlijkheid) + drie 'waarderingsbeginselen' (continuiteit, voorzichtigheid, consistentie) + één 'eindbeginsel' dat de andere overkoepelt (getrouw beeld). Dit overzichts-record toont de zeven beginselen naast elkaar met functie, bron en typische valkuil.",
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding", "sha256": null, "version": "rag-v1"},
-        {"id": "Richtlijn-2013-34-EU__art_6", "sha256": null, "version": "rag-v1"},
-        {"id": "WER__art_III_70", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "Richtlijn-2013-34-EU__art_6",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_III_70",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -43,11 +60,31 @@
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting__sec_verslaggeving-over-de-beoordeling-van-continuiteitsveronders", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2010-12-de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten__sec_hi-rarchische-rangschikking-van-de-waarderingsprincipes", "sha256": null, "version": "rag-v1"},
-        {"id": "Richtlijn-2013-34-EU__art_6", "sha256": null, "version": "rag-v1"},
-        {"id": "WER__art_III_70", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting__sec_verslaggeving-over-de-beoordeling-van-continuiteitsveronders",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2010-12-de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten__sec_hi-rarchische-rangschikking-van-de-waarderingsprincipes",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "Richtlijn-2013-34-EU__art_6",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_III_70",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -56,8 +93,16 @@
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding", "sha256": null, "version": "rag-v1"},
-        {"id": "Richtlijn-2013-34-EU__art_6", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "Richtlijn-2013-34-EU__art_6",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -94,14 +139,41 @@
     "kiezen-waarderingsregels"
   ],
   "edges": [
-    {"target": "regelmatige-boekhouding", "type": "onderdeel-van"},
-    {"target": "continuiteitsbeginsel", "type": "bevat"},
-    {"target": "voorzichtigheidsbeginsel", "type": "bevat"},
-    {"target": "getrouw-beeld", "type": "bevat"},
-    {"target": "onveranderlijkheid-boekingen", "type": "bevat"},
-    {"target": "consistentiebeginsel", "type": "bevat"},
-    {"target": "oprechtheidsbeginsel", "type": "bevat"},
-    {"target": "volledigheidsbeginsel", "type": "bevat"},
-    {"target": "jaarrekening", "type": "vereist-kennis-van"}
+    {
+      "target": "regelmatige-boekhouding",
+      "type": "onderdeel-van"
+    },
+    {
+      "target": "continuiteitsbeginsel",
+      "type": "bevat"
+    },
+    {
+      "target": "voorzichtigheidsbeginsel",
+      "type": "bevat"
+    },
+    {
+      "target": "getrouw-beeld",
+      "type": "bevat"
+    },
+    {
+      "target": "onveranderlijkheid-boekingen",
+      "type": "bevat"
+    },
+    {
+      "target": "consistentiebeginsel",
+      "type": "bevat"
+    },
+    {
+      "target": "oprechtheidsbeginsel",
+      "type": "bevat"
+    },
+    {
+      "target": "volledigheidsbeginsel",
+      "type": "bevat"
+    },
+    {
+      "target": "jaarrekening",
+      "type": "vereist-kennis-van"
+    }
   ]
 }

@@ -4,22 +4,42 @@
   "node_type": "beginsel",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.IV.A", "1.6.IV", "1.6.IV.B"],
+  "linked_anchors": [
+    "1.6.IV.A",
+    "1.6.IV",
+    "1.6.IV.B"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.IV.A",
-    "dekt_ook_anchors": ["1.6.IV", "1.6.IV.B"],
+    "dekt_ook_anchors": [
+      "1.6.IV",
+      "1.6.IV.B"
+    ],
     "reviewed_by": null
   },
   "main_rule": {
     "text": "Het getrouw beeld is het centrale beoordelingscriterium van de auditor: hij toetst of de financiële overzichten — in alle van materieel belang zijnde opzichten — een getrouw beeld geven van het vermogen, de financiële toestand en het resultaat van de onderneming, overeenkomstig het van toepassing zijnde stelsel inzake financiële verslaggeving.",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "KB WVV art. 3:1 + ITAA KMO-controlenorm §117"},
-    "_provenance": {"inputs": [
-      {"id": "KB-WVV-2019__art_3", "sha256": null, "version": "rag-v1"},
-      {"id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel", "sha256": null, "version": "rag-v1"}
-    ]}
+    "source": {
+      "type": "wet",
+      "short": "KB WVV art. 3:1 + ITAA KMO-controlenorm §117"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-2019__art_3",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Sofie Janssens controleert of de balans van Rotex Roeselare NV per 31 december 2025 een getrouw beeld geeft: zijn alle activa correct gewaardeerd, alle schulden volledig opgenomen, alle verbintenissen toegelicht, alle waarderingsregels consistent toegepast? Bij positief antwoord → goedkeurend oordeel.",
   "in_praktijk": [
@@ -27,22 +47,54 @@
       "aspect": "Toets op 'alle van materieel belang zijnde opzichten'",
       "betekenis": "Geen 100 %-toets — de auditor onderzoekt of er materiële afwijkingen zijn. Niet-materiële afwijkingen mogen blijven (worden wel gerapporteerd op een misstatement-log).",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §117"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §117"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Linkt naar het van toepassing zijnde stelsel",
       "betekenis": "Getrouw beeld wordt altijd beoordeeld binnen het stelsel: Belgisch jaarrekeningenrecht (KB WVV), IFRS, of een stelsel voor speciale doeleinden (fiscale grondslag, beheersjaarrekeningen).",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1 (Continuïteitsveronderstelling) + §117"},
-      "_provenance": {"inputs": [
-        {"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2", "sha256": null, "version": "rag-v1"},
-        {"id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm Bijlage 1 (Continuïteitsveronderstelling) + §117"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "materieel-belang-audit", "redenering": "Getrouw beeld wordt getoetst onder de materialiteitsdrempel."},
-    {"type": "vergelijkt-met", "target": "regelmatig-jaarrekening", "redenering": "Audit toetst zowel getrouw beeld als regelmatigheid (twee verschillende dimensies)."}
+    {
+      "type": "vereist-kennis-van",
+      "target": "materieel-belang-audit",
+      "redenering": "Getrouw beeld wordt getoetst onder de materialiteitsdrempel."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "regelmatig-jaarrekening",
+      "redenering": "Audit toetst zowel getrouw beeld als regelmatigheid (twee verschillende dimensies)."
+    }
   ]
 }

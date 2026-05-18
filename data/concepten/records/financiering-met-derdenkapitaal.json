@@ -4,20 +4,36 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.9.IV.E", "1.9.IV"],
+  "linked_anchors": [
+    "1.9.IV.E",
+    "1.9.IV"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T10:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.9.IV.E",
-    "dekt_ook_anchors": ["1.9.IV"],
+    "dekt_ook_anchors": [
+      "1.9.IV"
+    ],
     "reviewed_by": null,
     "bron_gap": "Standaardconcept uit financiële analyse — KB WVV-rubrieken (16-19 schulden op meer dan 1 jaar; 42-48 schulden op ten hoogste 1 jaar) zijn bron voor de samenstelling."
   },
   "definitie": {
     "text": "Financiering met derdenkapitaal omvat alle middelen die de onderneming aantrekt van externe schuldeisers: banken (bankleningen), obligatiehouders (obligatieleningen), leveranciers (handelsschulden), de fiscus (uitgestelde belastingen) en het personeel (sociale schulden). Op de balans: rubrieken 16-19 (schulden op meer dan 1 jaar) + 42-48 (schulden op ten hoogste 1 jaar).",
     "confidence": "grounded",
-    "source": {"type": "kb", "short": "KB WVV jaarrekeningschema rubrieken 16/19 + 42/48"},
-    "_provenance": {"inputs": [{"id": "KB-WVV-schema-balans", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "kb",
+      "short": "KB WVV jaarrekeningschema rubrieken 16/19 + 42/48"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-schema-balans",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -27,8 +43,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV: vreemd vermogen € 18.000.000 = banklening op meer dan 1 jaar € 8.000.000 (rubriek 17) + obligatielening € 5.000.000 + handelsschulden € 4.500.000 + sociale schulden € 500.000.",
       "grondslag": "KB WVV jaarrekeningschema",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV — schema balans rubrieken 16/19 + 42/48"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-schema-balans", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV — schema balans rubrieken 16/19 + 42/48"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-schema-balans",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Vaste vergoedings- en terugbetalingsplicht",
@@ -37,8 +64,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV betaalt op haar banklening van € 8.000.000 jaarlijks intrest aan 3% = € 240.000 + kapitaalsaflossing volgens schema. Bij omzetdaling van 20% blijft dit bedrag onverkort verschuldigd.",
       "grondslag": "Vakdoctrine + contractrecht",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "Financiering"},
-      "_provenance": {"inputs": [{"id": "anchor-1.9.IV.E", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financiering"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.IV.E",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -46,12 +84,35 @@
       "vergelijking_met": "financiering-met-eigen-vermogen",
       "verschil": "Vreemd vermogen heeft vaste contractuele verplichtingen (intrest, terugbetaling); eigen vermogen heeft enkel het discretionaire dividend. Vreemd vermogen is goedkoper (intrest aftrekbaar van belastbare basis); eigen vermogen is veiliger (geen wanprestatie-risico).",
       "trigger": "Examenvraag 'optimale financieringsmix': trade-off tussen kostvoordeel (vreemd is goedkoper) en risico-voordeel (eigen geeft buffer).",
-      "_provenance": {"inputs": [{"id": "anchor-1.9.IV.E", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.IV.E",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "debt-equity-ratio", "redenering": "Vreemd vermogen is teller in debt-equity ratio.", "confidence": "grounded"},
-    {"type": "vereist-kennis-van", "target": "solvabiliteitsratio", "redenering": "Vreemd vermogen is noemer in solvabiliteitsratio.", "confidence": "grounded"},
-    {"type": "onderdeel-van", "target": "kasstroomoverzicht-drie-segmenten", "redenering": "Nieuwe leningen en aflossingen verschijnen in het financierings-segment (CFF).", "confidence": "inferred"}
+    {
+      "type": "vereist-kennis-van",
+      "target": "debt-equity-ratio",
+      "redenering": "Vreemd vermogen is teller in debt-equity ratio.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "solvabiliteitsratio",
+      "redenering": "Vreemd vermogen is noemer in solvabiliteitsratio.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "kasstroomoverzicht-drie-segmenten",
+      "redenering": "Nieuwe leningen en aflossingen verschijnen in het financierings-segment (CFF).",
+      "confidence": "inferred"
+    }
   ]
 }

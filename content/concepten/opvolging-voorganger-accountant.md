@@ -15,7 +15,7 @@ node_type: procedure
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/opvolging-voorganger-accountant.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Opvolging van een collega-accountant ⚖️
 

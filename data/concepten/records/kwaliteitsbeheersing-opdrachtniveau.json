@@ -4,7 +4,9 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.III.D"],
+  "linked_anchors": [
+    "1.6.III.D"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
@@ -14,8 +16,19 @@
   "verplichting": {
     "text": "De opdrachtpartner draagt verantwoordelijkheid voor de algemene kwaliteit van elke opdracht. Hij waakt door observatie, controle van documenten en bevragingen of relevante ethische voorschriften en professionele normen worden nageleefd. Dat omvat: leiden + toezicht + uitvoering volgens de norm, evaluaties van het team, voldoende assurance-informatie, bespreking van significante zaken, kwaliteitsbeheersingsevaluatie, en geschiktheid van het verslag.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA KMO-controlenorm §29-§31"},
-    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_2-1-7-kwaliteitsbeheersing-en-toezicht", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm §29-§31"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_2-1-7-kwaliteitsbeheersing-en-toezicht",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Sofie Janssens is opdrachtpartner voor de audit van Rotex Roeselare NV. Zij leidt het team van 5, controleert de werkpapieren van elke junior, bespreekt elke significante professionele oordeelsvorming en laat een onafhankelijke kwaliteitsreviewer (collega-partner Pieter Vermeulen) het dossier herlezen vóór ondertekening van het verslag.",
   "in_praktijk": [
@@ -23,21 +36,49 @@
       "aspect": "Eindverantwoordelijkheid bij één persoon",
       "betekenis": "De opdrachtpartner kan zijn werk delegeren maar niet zijn verantwoordelijkheid. Een verslag tekenen is altijd persoonlijk — geen handtekeningsdelegatie bij voorbehouden opdrachten.",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA-norm Opdrachtbrief §3 + KB plichtenleer art. 18"},
-      "_provenance": {"inputs": [
-        {"id": "ITAA-norm-opdrachtbrief__sec_3-uitvoering-van-de-opdracht", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-1998-plichtenleer__art_18", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Opdrachtbrief §3 + KB plichtenleer art. 18"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-opdrachtbrief__sec_3-uitvoering-van-de-opdracht",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-1998-plichtenleer__art_18",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Onderaannemers + medewerkers",
       "betekenis": "De externe accountant kan zich bij monopolie-opdrachten enkel laten bijstaan door een andere accountant, stagiairs of vaste medewerkers (KB plichtenleer art. 17). Geen essentiële delegatie zonder gemotiveerde schriftelijke uitzondering.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "KB plichtenleer art. 17"},
-      "_provenance": {"inputs": [{"id": "KB-1998-plichtenleer__art_17", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "KB plichtenleer art. 17"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-1998-plichtenleer__art_17",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "opvolging-voorganger-accountant", "redenering": "Specifieke kwaliteitsregel bij opvolging."}
+    {
+      "type": "vereist-kennis-van",
+      "target": "opvolging-voorganger-accountant",
+      "redenering": "Specifieke kwaliteitsregel bij opvolging."
+    }
   ]
 }

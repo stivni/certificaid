@@ -4,12 +4,19 @@
   "node_type": "synthese",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.V", "1.8.VI", "1.8.VI.C"],
+  "linked_anchors": [
+    "1.8.V",
+    "1.8.VI",
+    "1.8.VI.C"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.V",
-    "dekt_ook_anchors": ["1.8.VI", "1.8.VI.C"],
+    "dekt_ook_anchors": [
+      "1.8.VI",
+      "1.8.VI.C"
+    ],
     "reviewed_by": null,
     "bron_gap": "Vakdoctrine"
   },
@@ -27,12 +34,29 @@
       "aspect": "Cyclus is jaarcontinue",
       "betekenis": "Terwijl het lopende boekjaar wordt opgevolgd (E→F→G→H→I), begint in september al de planning voor het volgende boekjaar. Een grote onderneming zit dus altijd in twee cycli tegelijk: lopend boekjaar (opvolging) + volgend boekjaar (voorbereiding).",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "bevat", "target": "budgetprocedure", "redenering": "Plannen-tot-goedkeuren-fasen.", "confidence": "inferred"},
-    {"type": "bevat", "target": "budgetboekhouding", "redenering": "Goedkeuring + meten + verschillen-fase.", "confidence": "inferred"},
-    {"type": "bevat", "target": "verschillenboekhouding", "redenering": "Analyse-fase.", "confidence": "inferred"}
+    {
+      "type": "bevat",
+      "target": "budgetprocedure",
+      "redenering": "Plannen-tot-goedkeuren-fasen.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "bevat",
+      "target": "budgetboekhouding",
+      "redenering": "Goedkeuring + meten + verschillen-fase.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "bevat",
+      "target": "verschillenboekhouding",
+      "redenering": "Analyse-fase.",
+      "confidence": "inferred"
+    }
   ]
 }

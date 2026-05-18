@@ -4,30 +4,66 @@
   "node_type": "beginsel",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.5.IV.B", "1.5.IV"],
+  "linked_anchors": [
+    "1.5.IV.B",
+    "1.5.IV"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.5.IV.B",
-    "dekt_ook_anchors": ["1.5.IV"],
+    "dekt_ook_anchors": [
+      "1.5.IV"
+    ],
     "reviewed_by": null
   },
   "main_rule": {
     "text": "IAS 1 legt zes algemene presentatie-beginselen op die altijd gelden bij het opstellen van een IFRS-jaarrekening: (1) **getrouw beeld + naleving van IFRSs** — een getrouw beeld wordt verkregen door naleving van de toepasselijke standaarden; (2) **continuïteit (going concern)** — de jaarrekening wordt opgesteld in de veronderstelling dat de entiteit haar continuïteit waarborgt, tenzij vereffening of stopzetting voorzien is; (3) **toerekeningsbeginsel (accrual basis)** — alle componenten behalve het kasstroomoverzicht worden opgesteld volgens toerekening, niet kasbasis; (4) **materialiteit en aggregatie** — materiële categorieën soortgelijke posten worden afzonderlijk gepresenteerd; (5) **saldering verboden** — activa/verplichtingen of baten/lasten mogen niet gesaldeerd worden tenzij een IFRS dat expliciet toestaat; (6) **consistentie van presentatie** — dezelfde presentatie en classificatie van boekjaar tot boekjaar handhaven, tenzij wijziging noodzakelijk is. Daarnaast geldt frequentie minstens jaarlijks en verplichte vergelijkende informatie.",
     "confidence": "grounded",
-    "source": {"type": "ifrs", "short": "IAS 1 alinea's 15-46"},
+    "source": {
+      "type": "ifrs",
+      "short": "IAS 1 alinea's 15-46"
+    },
     "references": [
-      {"type": "ifrs", "short": "IAS 1 alinea 15-17 (getrouw beeld + IFRS-naleving)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 25-26 (continuïteit)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 27-28 (toerekening)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 29-31 (materialiteit + aggregatie)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 32-35 (saldering)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 45-46 (consistentie)"}
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 15-17 (getrouw beeld + IFRS-naleving)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 25-26 (continuïteit)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 27-28 (toerekening)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 29-31 (materialiteit + aggregatie)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 32-35 (saldering)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 45-46 (consistentie)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"},
-      {"id": "IAS-1-presentatie-van-de-jaarrekening__sec_30a", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "IAS-1-presentatie-van-de-jaarrekening__sec_30a",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Zelena Bio NV signaleert in haar toelichting expliciet: 'De jaarrekening is opgesteld in overeenstemming met de IFRSs zoals goedgekeurd door de Europese Unie, op basis van het toerekeningsbeginsel en in de veronderstelling van continuïteit van de bedrijfsuitoefening' — daarmee dekt zij beginselen 1, 2 en 3 in één zin.",
   "bouwstenen": [
@@ -38,8 +74,19 @@
       "voorbeeld_inline": "Zelena Bio NV moet op basis van IFRS X een specifieke financiële constructie als schuld classificeren, maar dat zou de economische realiteit (in feite eigen vermogen) misleidend voorstellen. Management mag afwijken — mits volledige toelichting met cijfermatige impact (€ 22.000.000 reclassificatie) en motivering.",
       "grondslag": "IAS 1 alinea 19-21",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 19-21"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 19-21"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Going concern — beoordelingsperiode minstens 12 maanden",
@@ -48,8 +95,19 @@
       "voorbeeld_inline": "Verffabriek Veurne BV (in vereffening): jaarrekening niét opgesteld op continuïteitsbasis maar op liquidatiebasis. Activa en passiva gewaardeerd tegen verwachte realisatiewaarde, niet historische kost. Toelichting vermeldt expliciet dat continuïteitsveronderstelling niet meer geldt.",
       "grondslag": "IAS 1 alinea 25-26",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 25-26"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 25-26"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Materialiteit — operationeel begrip",
@@ -58,8 +116,19 @@
       "voorbeeld_inline": "Zelena Bio NV (€ 350.000.000 omzet groep) hoeft een licentievergoeding van € 18.500 niet apart toe te lichten — dat is immaterieel binnen het geheel. Voor Meubelzaak Mertens BV (€ 1.200.000 omzet) is dezelfde € 18.500 wél potentieel materieel en mogelijk te vermelden.",
       "grondslag": "IAS 1 alinea 7 (definitie) + alinea 31",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 7 + 31"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_definities", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 7 + 31"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_definities",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Saldering — strikt verboden behoudens uitzondering",
@@ -68,8 +137,19 @@
       "voorbeeld_inline": "Zelena Bio NV mag haar handelsvorderingen op klant Brugse Brouwerij BV (€ 350.000) NIET salderen met haar handelsschulden aan Brugse (€ 280.000). Beide zichtbaar in de balans, brutopresentatie.",
       "grondslag": "IAS 1 alinea 32-33",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 32-33"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 32-33"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Consistentie + vergelijkende informatie",
@@ -78,8 +158,19 @@
       "voorbeeld_inline": "Zelena Bio NV reclassificeert in 2026 'Diensten' van een aparte rubriek naar 'Overige bedrijfslasten'. Vergelijkbare bedragen 2025: € 4.500.000 wordt mee verschoven naar 'Overige bedrijfslasten' in de vergelijkende kolom. Toelichting: aard van herclassificatie + reden.",
       "grondslag": "IAS 1 alinea 38 + 41 + 45",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 38 + 41 + 45"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 38 + 41 + 45"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -87,22 +178,55 @@
       "aspect": "Verklaring van overeenstemming met IFRSs",
       "betekenis": "De entiteit moet in de toelichting een **expliciete en onvoorwaardelijke** verklaring opnemen dat haar jaarrekening voldoet aan de IFRSs. De jaarrekening mag niet als 'in overeenstemming met IFRSs' worden beschreven tenzij ze aan ALLE IFRS-vereisten voldoet. Halfslachtige varianten ('grotendeels conform IFRS') zijn niet toegelaten.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 16"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 16"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Het kasstroomoverzicht is de **enige** component die NIET op toerekeningsbasis maar op kasbasis wordt opgesteld. Verwar dit niet — andere overzichten (incl. winst-en-verlies) volgen accruals.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 27"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 27"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Materialiteit werkt **twee kanten op**: weglaten van immateriële details mag, maar materiële posten samenvoegen met immateriële zodat ze 'verdwijnen' mag NIET (alinea 30A — versluiering).",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 30A"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_30a", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 30A"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_30a",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

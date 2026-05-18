@@ -1,107 +1,179 @@
 # Concept-schrijfregels
 
-Content-conventie voor concept-records (`data/concepten/records/*.json`). Wordt ingeladen in de extractor-prompt (ADR-008) en geldt ook voor menselijke review/aanvulling. Geen ADR — dit is content-stijl + conceptkeuze, geen architectuurbeslissing.
+Inhoudelijke conventies voor records in `data/concepten/records/*.json` — concepten én competenties (één schema, één API; zie ADR-007 en ADR-019). Wordt door de EXTRACT-agent geladen als prompt-input en geldt evenzeer voor menselijke aanvullingen.
 
-> **Doelpubliek**: stagiair gecertificeerd accountant, met boekhoudkundige en fiscale basiskennis. Géén jurist.
+> **Doelpubliek**: stagiair gecertificeerd accountant met boekhoudkundige en fiscale basiskennis — geen jurist.
 
-## Wat IS een concept?
+---
 
-Een concept is een **tijdloos fenomeen** uit het beroep van de gecertificeerd accountant — iets dat een student moet *begrijpen* om als professional te kunnen handelen. Niet een wetsartikel, niet een vakindeling, niet een examenvraag.
+## Wat IS een concept-record?
 
-Drie test-vragen om concept-status te valideren:
+Een record beschrijft één **tijdloos studieonderwerp** uit het beroep van de gecertificeerd accountant — iets dat een stagiair moet *begrijpen of kunnen* om als professional te handelen. Niet een wetsartikel, niet een examenvraag, niet een vakindeling.
 
-1. **Tijdloosheid**: zou dit concept nog gelden als de wet morgen veranderd wordt? Een concept beschrijft een **fenomeen** (bv. "Beroepsgeheim" als principe); de wettelijke uitvoering kan wijzigen, het concept blijft.
-2. **Onderscheidbaarheid**: kan een student dit concept onderscheiden van zijn buren? Als concept A en concept B in elke voorbeeldvraag samen optreden en niet apart bevraagd kunnen worden → het is wellicht één concept.
-3. **Praktijkbruikbaarheid**: kan een student het concept toepassen op een casus? Als het te abstract is om mee te redeneren ("Algemeen ethisch handelen") → te grof. Als het te specifiek is om buiten één voorbeeld toepasbaar te zijn ("Meldingsplicht bij vastgoedtransactie >€10.000") → te fijn.
+Twee samenhangende tests om geldigheid te valideren:
 
-### Voorbeelden van GOEDE concepten
+1. **Domein-onafhankelijkheid**: bestaat dit onderwerp zelfstandig in het accounting-domein, los van een specifiek toepassingscontext of framework? Zo ja → eigen record. Zo nee → bouwsteen binnen een groter record.
+2. **Samenhang**: bestaat dit onderwerp al onder een andere naam? Bij twijfel concept-RAG bevragen op **inhoud** (definitie, bouwstenen), niet alleen op naam-similariteit.
 
-| Naam | Type | Waarom goed |
+### Wat is een bouwsteen?
+
+Een **bouwsteen** is een sub-aspect van een record dat alleen *binnen* dat record zinvol is — een aspect dat niet zelfstandig in het domein bestaat. Voorbeeld: de "tweestappentest IFRS 16" voor lease-classificatie is een bouwsteen van het cluster `leasing-ifrs`, geen eigen begrip — buiten IFRS 16 betekent de tweestappentest niets.
+
+**Wanneer wordt een bouwsteen een eigen record?**
+
+- Wanneer dezelfde bouwsteen elders in het domein opduikt → zelfstandig
+- Wanneer er twee evenwaardige varianten van ontstaan (geen primair + uitzondering, maar twee gelijkwaardige paden) → beide eigen record
+- Wanneer een examenvraag specifiek de bouwsteen toetst los van zijn context → zelfstandig
+
+---
+
+## Record-types (zes `node_type`-waarden)
+
+Eén taxonomie voor alles — concepten en competenties leven in hetzelfde format, onderscheiden door `node_type`. Zie [ADR-007](adr/ADR-007-conceptmodel.md) voor schema-details.
+
+| Type | Vraag | Velden-pakket (typisch) | Voorbeelden |
+|---|---|---|---|
+| **begrip** | *"Wat is X?"* — defining unit | `definitie` + `voorbeeld_inline` + `in_praktijk` + `valkuilen` | arbeidskosten, right-of-use-actief, beroepsgeheim |
+| **regel** | *"Wat schrijft de norm voor?"* — normatieve regel of beginsel | `verplichting` of `main_rule` + `voorwaarden` + `valkuilen` + optioneel `drempelwaarden` | art. 3:96 KB WVV, IFRS 16 alinea 100, continuïteitsbeginsel |
+| **cluster** | *"Hoe hangt dit fenomeen samen?"* — samengesteld onderwerp dat regels, begrippen en bouwstenen samenbrengt | `doel` of `definitie` + rijke `bouwstenen` + `voorwaarden` + `vergelijkingsparen` + `valkuilen` + soms `berekeningsmethode` | leasing, consolidatie, COSO ERM, jaarrekening-vzw |
+| **synthese** | *"Hoe vergelijk of beslis ik tussen N concepten?"* — cross-record overzicht | `gebaseerd_op_concepten` + één van: `vergelijkingstabel`, `beslisboom`, `stappenplan`, `tijdlijn` + `kerninzichten` | consolidatiemethoden-vergelijking, liquiditeitstoets-beslisboom |
+| **autoriteit** | *"Welke institutionele actor doet wat?"* | `definitie` + `rol` + `in_praktijk` | FSMA, ITAA, FOD Financiën, Cel voor Financiële Informatieverwerking |
+| **competentie** | *"Wat moet de stagiair kunnen?"* — applied skill | `doel` + `stappen` + `beoordelings_criteria` + optioneel `voorbeeld_case` | kwalificeren-en-boeken-leasing, beoordelen-getrouw-beeld |
+
+**Verdwenen of opgegaan** (historische types die niet meer als eigen `node_type` bestaan):
+
+| Oud type | Nieuwe plek |
+|---|---|
+| `fenomeen` | `cluster` (hernoemd) |
+| `actor` | `autoriteit` (hernoemd) |
+| `skill` | `competentie` (hernoemd) |
+| `procedure` | `competentie` (focus op kunnen-doen) **of** `cluster` met `stappen[]`-bouwsteen (focus op descriptief domein-object) |
+| `methode` | `cluster` (een methode is een samengesteld onderwerp met bouwstenen) |
+| `afwegingskader` | `cluster` (bouwstenen = afwegingsdimensies) |
+| `beginsel` | `regel` (een beginsel is een hoog-niveau normatieve regel) |
+| `drempel` | `regel` met `drempelwaarden[]`-veld |
+| `casus` | géén eigen record meer — een echte casus wordt opgenomen als `voorbeeld_inline` of `in_praktijk.wereld_voorbeeld` van het bijhorende cluster/begrip |
+
+### Concept vs competentie — scherp onderscheid
+
+```
+concept-record    = kennen / inzien  →  "Wat is X? Hoe werkt X? Wanneer geldt X?"
+competentie       = kunnen / doen    →  "Hoe pas ik X toe op een case?"
+```
+
+Als je merkt dat je een procedure aan het beschrijven bent waar de student *iets moet doen* (interpretatie + keuzes + uitvoeren) → schrijf een **competentie**, geen concept-record. Een procedure die *bestaat als descriptief domein-object* (CBN beschrijft hoe je X boekt) kan een cluster zijn met de stappen als bouwsteen-blok.
+
+---
+
+## Granulariteit — de Goldilocks-zone
+
+Voor een programmaonderdeel grosso modo **15–40 records**. Veel meer → gepulveriseerd. Veel minder → te grof.
+
+**Schaal-signalen**:
+
+- **Te klein** (= "feature van iets groters"): wordt waarschijnlijk een bouwsteen of veld op een groter record, geen eigen record. Voorbeeld: "Specifieke analyse bij vermoeden" → veld `uitzonderingen[]` op het cluster `Meldingsplicht aan CFI`.
+- **Goldilocks**: krijgt eigen record. Voorbeeld: "Verbod op doormelding (tipping-off)".
+- **Te groot** (= "hele vakindeling"): krijgt geen record, alleen edges naar de onderliggende records. Voorbeeld: "Antiwitwasregime" — geen record, maar wel een **synthese** die de losse regels overstijgt.
+
+**Een begrip krijgt alleen een eigen record als het buiten één specifiek framework testbaar is.** Een balanspost die uitsluitend bestaat binnen één regulatorisch regime → bouwsteen van dat regime-cluster, geen eigen record. (`right-of-use-actief` ✓ omdat IAS 36 impairment + IFRS 5 disposal er óók op werken; `leaseverplichting-ifrs` ✗ omdat hij alleen onder IFRS 16 zin heeft.)
+
+---
+
+## Regime-specialisatie — één algemene cluster + N specialisaties
+
+Wanneer hetzelfde fenomeen onder meerdere regulatorische regimes (BE-GAAP, IFRS, fiscaal, ...) wezenlijk verschillend wordt behandeld:
+
+```
+leasing                    (cluster — algemeen, regime-overstijgende kern)
+├── leasing-be-gaap        (cluster — specialisatie via edge `specialisatie-van: leasing`)
+└── leasing-ifrs           (cluster — specialisatie via edge `specialisatie-van: leasing`)
+```
+
+- De **algemene cluster** dekt regime-overstijgende kern (definitie, basis-bouwstenen, vergelijking-tussen-regimes als bouwsteen)
+- De **regime-clusters** dekken regime-specifieke regels en uitwerkingen
+- Verbonden via edge `specialisatie-van` met optioneel facet-veld `regime: IFRS`
+
+Triggers in bronnen die deze splitsing rechtvaardigen: *"onder IFRS / BE-GAAP"*, *"art. KB W.Venn. vs IAS/IFRS"*, *"fiscaal versus boekhoudkundig"*, ...
+
+---
+
+## Smell-tests bij twijfel
+
+- **Definitie-smell**: hoofdveld begint met *"X is..."* zonder voorbehoud, uitzondering of afgrenzing van naburen → mogelijk te abstract. Toets aan domein-onafhankelijkheid.
+- **Stappenplan-smell**: hoofdtekst louter nummerlijst van procedurele stappen → eerder competentie of cluster met `stappen[]`-bouwsteen, geen eigen begrip per stap.
+- **"Alleen-in-deze-wet"-smell**: het concept verdwijnt als één specifiek artikel zou verdwijnen → twijfelachtig of het werkelijk een fenomeen is.
+- **Opsomming-smell**: lopende tekst bevat een opsomming van 3+ items zonder verdere uitleg → vermoedelijk *N gemiste records + 1 synthese* die ze overkoepelt. Geldt ook voor opsommingen zonder leestekens — kijk naar de *betekenis*, niet de vorm.
+- **"Wat de wet zegt"-valkuil**: een `valkuil`-veld dat regelinformatie herhaalt → is geen valkuil. Valkuilen beschrijven typische redeneerfouten van studenten, niet de norm zelf.
+
+---
+
+## Taal en register
+
+1. **Stagiair-niveau Nederlands**. Korte zinnen, actieve vorm. Vakterminologie (balans, afschrijving, controlewerkzaamheden) mag — wetgeeftaal niet.
+   - ❌ *"De onderworpen entiteit is gehouden de waakzaamheidsverplichtingen na te leven onder voorbehoud van de bepalingen vervat in artikel 26."*
+   - ✅ *"De accountant moet zijn cliënten controleren volgens de antiwitwaswet — behalve in de gevallen die artikel 26 opsomt."*
+
+2. **Verbatim wetstekst** alleen in `source.citation`-velden. Hoofdtekst altijd herschreven in stagiair-Nederlands.
+
+3. **Voorbeelden** in `voorbeeld_inline`, niet ingebed in een definitie. Eén concrete situatie per voorbeeld, geen narratief.
+
+4. **Cast-namen voor voorbeelden**: gebruik personages en bedrijven uit `data/concepten/casts/globaal.yaml` (Zelena Bio NV, Aurelia Holding NV, ...). Geen ad-hoc-fictie tenzij de cast geen passend personage levert.
+
+---
+
+## Afkortingen — vuistregel
+
+> **Vuistregel**: staat de afkorting in een hedendaags Nederlands woordenboek?
+> - **Ja**: afkorting altijd toegestaan. Uitzondering: bij ambiguïteit (verschillende betekenissen) → altijd voluit.
+> - **Nee**: eerste vermelding voluit + (afkorting). Bij herhaling in dezelfde paragraaf: afkorting toegestaan. Nieuwe paragraaf → opnieuw introduceren.
+
+| Voorbeeld | Regel | Behandeling |
 |---|---|---|
-| Beroepsgeheim van de gecertificeerd accountant | beginsel | Tijdloos, onderscheidbaar van discretieplicht, breed toepasbaar |
-| Meldingsplicht aan de Cel voor Financiële Informatieverwerking (CFI) | regel | Concrete verplichting, bron in AWW, niet identiek aan beroepsgeheim |
-| Cliëntenonderzoeksprocedure (Know Your Customer) | procedure | Stappen-gestructureerd, toepasbaar op elke nieuwe cliënt |
-| Uiteindelijk begunstigde (UBO) | begrip | Tijdloos juridisch begrip, gekoppeld aan concrete identificatieregels |
-| Risicogebaseerde aanpak (antiwitwas) | afwegingskader | Helpt bij keuzes tussen vereenvoudigd vs. verscherpt onderzoek |
+| `btw` | Ja (in woordenboek) | Direct gebruik in elke positie: *"De btw-aangifte..."* |
+| `kmo` | Ja | Direct gebruik: *"Een kmo met meer dan 50 werknemers..."* |
+| `interne controle` / `IC` | Nee + ambigu (ook *intercommunautair*) | Eerste keer: *"De interne controle (IC) van het bedrijf..."* — daarna IC in dezelfde paragraaf |
+| `MVA` voor *materiële vaste activa* | Nee | Altijd voluit. Geen kortvorm, ook niet na introductie — `MVA` is geen ingeburgerde afkorting |
+| `CFO` | Ambigu (*Chief Financial Officer* of *cash from operations*) | Altijd voluit; afkorting verboden |
+| `IFRS`, `IAS`, `WVV`, `CBN`, `ITAA` | Officiële kortvorm van wettelijke/normgevende instantie | Direct gebruik na eerste introductie van de officiële naam |
 
-### Voorbeelden van GEEN concepten
+Elk veld is een eigen leeshorizon — de stagiair leest velden los. Bij ambiguïteit of nieuwe paragraaf: herintroduceren.
 
-| Voorbeeld | Waarom niet | Wat dan wel? |
-|---|---|---|
-| "Artikel 47 AWW" | Een wetsartikel ≠ een concept | Concept = "Meldingsplicht aan CFI", waarvan Art. 47 AWW de bron is |
-| "Hoofdstuk 3 Deontologie" | Een examenvak/programma-onderdeel ≠ een concept | Het programmaonderdeel is een container; concepten leven daarbinnen |
-| "Wanneer is melding aan CFI verplicht voor een bouwopdracht?" | Een examenvraag ≠ een concept | Dit is een **toetsings-instantie** (examenfocus, ADR-009) van het concept "Meldingsplicht aan CFI" |
-| "Algemeen handelen volgens de wet" | Te abstract — niet onderscheidbaar | Splits in concrete principes: "Beroepsgeheim", "Onafhankelijkheidsbeginsel", ... |
-| "Meldingsplicht bij contante betaling boven €3.000 voor edelmetalen" | Te specifiek — niet generiek toepasbaar | Concept = "Beperking gebruik van contanten" met de drempel als veld |
-| "De accountant in de digitale wereld" | Te vaag, niet substantief | Splits in specifieke skills/methoden waar nodig |
-
-### Granulariteit — de "Goldilocks-zone"
-
-Voor een programmaonderdeel als 4.0 Deontologie verwacht je grosso modo **15–40 concepten**. Veel meer en het is gepulveriseerd; veel minder en het is te grof.
-
-**Schaal-signalen die je gebruikt om granulariteit te kalibreren**:
-- `klein` (= "feature van een ander concept"): wordt waarschijnlijk een **veld of edge** op een groter concept ipv. een eigen record. Voorbeeld: "Specifieke analyse bij vermoeden" → veld `exceptions[]` op `Meldingsplicht aan CFI`.
-- `middel` (= "kerndienstverlening"): krijgt zijn **eigen record**. Voorbeeld: "Verbod op doormelding (tipping-off)".
-- `groot` (= "overkoepelend principe"): krijgt zijn eigen record met veel **edges naar onderliggende concepten**. Voorbeeld: "Beroepsgeheim van de gecertificeerd accountant" met edges naar uitzonderingen, doorbrekingsgronden, sancties.
-
-### Smell tests bij twijfel
-
-- **De "definitie" smell**: als je hoofd-veld begint met "X is..." en de definitie bevat geen voorbehoud, geen uitzondering, geen onderscheid van naburen → het is wellicht een **begrip-node** maar mogelijk te abstract. Check tegen de tijdloosheid-test.
-- **De "stappenplan" smell**: als de hoofdtekst louter een nummering is van procedurele stappen → eerder `procedure`-type met `stappen[]`-veld dan losse concepten per stap.
-- **De "alleen in deze wet" smell**: als het concept alleen bestaat omdat één specifiek artikel het beschrijft → controleer of het werkelijk een fenomeen is of een wettelijke specificiteit. Als artikel verdwijnt en concept verdwijnt → twijfelachtig.
-- **De "casus" smell**: als de hoofdtekst gaat over "in het geval van..." met concrete feiten → het is een `casus`-node, geen begrip/regel.
-
-## Taal
-
-1. **Simpele Nederlands taal**. Korte zinnen, actieve vorm. Vermijd legalistische constructies ("doch", "alsmede", "hetwelk"). Het mag toegankelijk klinken — mits inhoudelijk correct.
-
-2. **Boekhoudkundige terminologie mag**: "balans", "afschrijving", "btw-aangifte", "controlewerkzaamheden", "samenstellingsopdracht". De student kent deze termen al.
-
-3. **Wetgeeftaal vermijden**, ook als de bron zo geschreven is. Paraphraseer in normaal Nederlands.
-   - ❌ "De onderworpen entiteit is gehouden de waakzaamheidsverplichtingen na te leven onder voorbehoud van de bepalingen vervat in artikel 26."
-   - ✅ "De accountant moet zijn cliënten controleren volgens de antiwitwaswet — behalve in de gevallen die artikel 26 opsomt."
-
-4. **Verbatim wetstekst** mag wel — maar alleen in `source.citation`, niet in de hoofdtekst van een veld. Hoofdtekst is altijd herschreven.
-
-## Afkortingen
-
-5. **Eerste vermelding**: voluit, met afkorting tussen haakjes.
-   - "Cel voor Financiële Informatieverwerking (CFI)"
-   - "Antiwitwaswet (AWW)"
-   - "Instituut van de Belastingadviseurs en Accountants (ITAA)"
-
-6. **Vervolg in dezelfde tekst**: afkorting mag.
-
-7. **Per veld opnieuw beginnen**. Een concept-record heeft meerdere tekstvelden (`main_rule`, `exceptions`, `voorbeeld_inline`, ...). Bij elk veld geldt regel 5 opnieuw — de student leest velden los.
+---
 
 ## Confidence-labels
 
-8. **Elke inhoudelijke claim** heeft een `confidence`-veld:
-   - `"grounded"` — direct traceerbaar naar een bron in `source.ref`. Verplicht een bronverwijzing.
-   - `"inferred"` — LLM-gegenereerde redenering of synthese. Mag, maar moet als zodanig herkenbaar zijn voor de student.
+Elk inhoudelijk veld heeft een `confidence`:
 
-9. **Bij twijfel: leeg laten** is beter dan een verkeerd label. Lege velden zijn geldig (sparse fields zijn norm — ADR-007).
+- **`grounded`** — direct traceerbaar naar een bron-chunk via `source.ref` (verplicht bij grounded). Wijst op gerefereerd materiaal, niet op infereerde redenering.
+- **`inferred`** — agent-redenering, synthese, of confidence-mix. Toegestaan, maar herkenbaar gemerkt.
+- **Bij twijfel**: leeg laten boven verkeerd labelen. Sparse fields zijn de norm (ADR-007). Een record met enkel `definitie` is geldig.
 
-## Voorbeelden, valkuilen, cases
+`inferred-common-knowledge` (bijdrage van algemene accountancy-kennis zonder specifieke bron) mag, maar markeert een **kandidaat voor bron-uitbreiding** — niet voor blijvend gebruik.
 
-10. **Voorbeelden** in `voorbeeld_inline` (kort, illustratief). Pas in status `gevuld` (zie ADR-007).
+---
 
-11. **Valkuilen (`pitfalls`)** beschrijven typische redeneerfouten van studenten of fouten die in de praktijk regelmatig gebeuren. Niet "wat de wet zegt" maar "waar mensen struikelen".
-    - ✅ "Veel stagiaires verwarren beroepsgeheim (ITAA-norm) met de discretieplicht (algemene burgerrechtelijke loyauteit). Beide gelden, maar hebben verschillende sancties."
-    - ❌ "Schending van het beroepsgeheim is strafbaar volgens art. 458 SW." (= regel, geen valkuil)
+## Edges — getypeerde verwijzingen
 
-12. **Casussen** zijn echte cases (jurisprudentie, voorbeeldexamenvraag, CBN-feitenset) — apart node-type `casus`, niet inline.
+Cross-record relaties als getypeerde edges, **niet** als hyperlink-prose in hoofdtekst (`[[xxx]]`-syntax hoort in `voorbeeld_inline` of `in_praktijk`, niet in normatieve hoofdvelden).
 
-## Verwijzingen
+**De zeven canonieke edge-types** (na consolidatie 2026-05-18):
 
-13. **Verwijzingen tussen concepten** als getypeerde edges (ADR-007 §8), niet als hyperlink-prose in de hoofdtekst.
-    - ❌ "Zie ook [doorbreking-beroepsgeheim] voor uitzonderingen."
-    - ✅ Edge `uitzondering-op` met target-id, eventueel met `notitie` veld voor context.
+| Type | Betekenis | Voorbeeld |
+|---|---|---|
+| `vereist-kennis-van` | Prerequisite voor begrip | `consolidatieverplichting` → `groottecriteria` |
+| `onderdeel-van` | Compositioneel (child → parent) | `tweestappentest` → `leasing-ifrs` |
+| `vergelijkt-met` | Parallel/contrast (met optioneel facet-veld `aspect`) | `leasing-be-gaap` → `leasing-ifrs` |
+| `getriggerd-door` | Causation, gebeurtenis-keten | `boekjaarafsluiting` → `inventarisatie` |
+| `specialisatie-van` | Regime-/sub-type-specialisatie (met optioneel facet-veld `regime`) | `leasing-ifrs` → `leasing` |
+| `uitzondering-op` | Exception op een regel | `vrijstelling-subconsolidatie` → `consolidatieverplichting` |
+| `verwijst-naar` | Generieke catch-all bij geen specifieke betekenis | gebruikt waar niets anders past |
 
-14. **Verwijzingen naar bronnen** in `source.short` ("AWW art. 47 §1") en gestructureerd in `source.ref` — niet inline in prose.
+**Niet meer in gebruik** (gedeprecieerd 2026-05-18): `bevat` (inverse van `onderdeel-van`, redundant), `contrasteert-met` (gefold in `vergelijkt-met`), `vervangt` / `van-toepassing-op` / `alternatief-voor` (te weinig gebruik, vervangen door `verwijst-naar`).
+
+---
 
 ## Lengte
 
-15. **Hoofdtekstvelden ≤ 150 woorden** per veld. Langer betekent meestal: splits in subconcepten of beweeg detail naar aparte velden.
-
-16. **`voorbeeld_inline` ≤ 80 woorden**. Eén concrete situatie, geen narratief.
+- **Hoofdveld** (`definitie`, `main_rule`, `verplichting`, `doel`): ≤ 150 woorden per veld. Langer → splits in bouwstenen.
+- **`voorbeeld_inline`**: ≤ 80 woorden. Eén situatie, geen verhaal.
+- **Bouwsteen**: ≤ 100 woorden tekst per bouwsteen. Plus eventueel `bron_ref` en sub-velden.

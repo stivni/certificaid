@@ -17,7 +17,7 @@ node_type: regel
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/risicoparagraaf-bestuursverslag.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Risicoparagraaf in het bestuursverslag ⚖️
 

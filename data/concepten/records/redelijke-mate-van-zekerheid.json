@@ -4,22 +4,44 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.I.A", "1.6.IV", "1.6.IV.A", "1.6.IV.B"],
+  "linked_anchors": [
+    "1.6.I.A",
+    "1.6.IV",
+    "1.6.IV.A",
+    "1.6.IV.B"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.IV.A",
-    "dekt_ook_anchors": ["1.6.I.A", "1.6.IV", "1.6.IV.B"],
+    "dekt_ook_anchors": [
+      "1.6.I.A",
+      "1.6.IV",
+      "1.6.IV.B"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Een redelijke mate van zekerheid (reasonable assurance) is het hoogste praktisch haalbare niveau van zekerheid in een audit-opdracht. De beroepsbeoefenaar heeft voldoende en geschikte assurance-informatie verzameld om het controlerisico tot een vaktechnisch aanvaardbaar laag niveau terug te brengen, zodat hij een oordeel in positieve vorm kan tot uitdrukking brengen.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA KMO-controlenorm §2 + §117"},
-    "_provenance": {"inputs": [
-      {"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"},
-      {"id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel", "sha256": null, "version": "rag-v1"}
-    ]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm §2 + §117"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Sofie Janssens controleert de jaarrekening 2025 van Rotex Roeselare NV. Na 8 weken werk (planning, risicoanalyse, testen, conclusie) kan zij met redelijke zekerheid stellen: 'naar ons oordeel geeft de jaarrekening een getrouw beeld van het vermogen, de financiële toestand en het resultaat van Rotex Roeselare NV per 31 december 2025'.",
   "in_praktijk": [
@@ -28,15 +50,37 @@
       "betekenis": "Redelijk = hoog, maar niet 100 %. De auditor erkent dat er steekproefrisico, inherent risico en intern beheersingsrisico bestaat. Volledige zekerheid is onhaalbaar wegens schattingen, oordeelsvorming en de fundamentele onbekendheid van fraude.",
       "herkenningspunt": "Examen-zin 'de auditor garandeert dat ...' → verkeerd. Auditor 'verschaft redelijke zekerheid', hij 'garandeert' niet.",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §117"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §117"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Drie afwegingen voor de basis van het oordeel",
       "betekenis": "Vooraleer een redelijke zekerheid uit te spreken concludeert de beroepsbeoefenaar: (1) is voldoende en geschikte assurance-informatie verkregen, (2) zijn niet-gecorrigeerde afwijkingen afzonderlijk of gezamenlijk van materieel belang, (3) zijn de financiële overzichten opgesteld in overeenstemming met het stelsel inzake financiële verslaggeving.",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §117"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §117"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-3-1-basis-voor-het-oordeel",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -44,11 +88,27 @@
       "vergelijking_met": "beperkte-mate-van-zekerheid",
       "verschil": "Redelijke zekerheid = hoog niveau, positief oordeel ('geeft een getrouw beeld'). Beperkte zekerheid = lager niveau, conclusie in negatieve vorm ('geen aanwijzingen gebleken dat ...'). Verschil komt voort uit de omvang en aard van de uitgevoerde werkzaamheden.",
       "trigger": "Examen-zin met positieve uitspraak → redelijke zekerheid. Negatieve uitspraak ('niet gebleken') → beperkte zekerheid.",
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "controlerisico", "redenering": "Redelijke zekerheid = controlerisico tot aanvaardbaar laag niveau brengen."},
-    {"type": "getriggerd-door", "target": "contractuele-controleopdracht", "redenering": "Bij een controleopdracht wordt redelijke zekerheid verschaft."}
+    {
+      "type": "vereist-kennis-van",
+      "target": "controlerisico",
+      "redenering": "Redelijke zekerheid = controlerisico tot aanvaardbaar laag niveau brengen."
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "contractuele-controleopdracht",
+      "redenering": "Bij een controleopdracht wordt redelijke zekerheid verschaft."
+    }
   ]
 }

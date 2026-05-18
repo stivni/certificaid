@@ -4,25 +4,45 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.IV.C", "1.2.IV"],
+  "linked_anchors": [
+    "1.2.IV.C",
+    "1.2.IV"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.IV.C",
-    "dekt_ook_anchors": ["1.2.IV"],
+    "dekt_ook_anchors": [
+      "1.2.IV"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "De sociale balans is een afzonderlijk onderdeel van de jaarrekening (naast balans, RR en toelichting) dat informatie bevat over de tewerkstelling in de onderneming: aantal werknemers, evolutie, opleidingen, arbeidsregimes en personeelskosten. Verplicht voor vennootschappen met werknemers; ingedeeld in verkort en volledig sociale-balans-schema afhankelijk van grootteklasse.",
     "confidence": "grounded",
-    "source": {"type": "kb", "short": "KB-WVV bijlage 1 + bijlage 2 (sociale balans)"},
+    "source": {
+      "type": "kb",
+      "short": "KB-WVV bijlage 1 + bijlage 2 (sociale balans)"
+    },
     "references": [
-      {"type": "wet", "short": "KB van 4 augustus 1996 (sociaal balans, vandaag in KB-WVV)"},
-      {"type": "kb", "short": "KB-WVV bijlage 1, deel IV"}
+      {
+        "type": "wet",
+        "short": "KB van 4 augustus 1996 (sociaal balans, vandaag in KB-WVV)"
+      },
+      {
+        "type": "kb",
+        "short": "KB-WVV bijlage 1, deel IV"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-2019__art_3_82",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Rotex Roeselare NV's sociale balans 2024: gemiddelde personeelsbezetting 550 VTE, € 22M loonkosten, 4.500 opleidingsuren, 12% deeltijds, 88% voltijds.",
   "bouwstenen": [
@@ -33,10 +53,19 @@
       "voorbeeld_inline": "Naaiatelier Ninove BV's sociale balans toont: 22 werknemers, waarvan 18 productie en 4 administratie; € 850.000 loonkost; gemiddeld 12 opleidingsuren per medewerker.",
       "grondslag": "KB-WVV bijlage 1, deel IV",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV bijlage 1"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV bijlage 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Wie moet sociale balans neerleggen?",
@@ -45,10 +74,19 @@
       "voorbeeld_inline": "Meubelzaak Mertens BV (12 werknemers, klein) → verkort sociaal-balans-schema. Oprichtingen Oostende BV (4 werknemers, micro) → geen sociaal balans.",
       "grondslag": "KB-WVV bijlagen 1-2; geen sociaal balans in bijlage 3",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "kb", "short": "KB-WVV bijlagen"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV bijlagen"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -57,10 +95,19 @@
       "betekenis": "De sociale balans wordt gevoed door de informatie uit het personeelsregister, de DIMONA-aangiften en de RSZ-bijdragestaten. Voor een accountant: niet uit het hoofd schrijven maar uit de juiste payroll-bron halen.",
       "herkenningspunt": "Examenvraag 'waar haalt boekhouder cijfers voor sociaal balans?' → loonadministratie + DIMONA + RSZ.",
       "confidence": "inferred",
-      "source": {"type": "wet", "short": "Sociale zekerheidswet"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "Sociale zekerheidswet"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

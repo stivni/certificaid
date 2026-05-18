@@ -4,7 +4,9 @@
   "node_type": "actor",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.3.I.D"],
+  "linked_anchors": [
+    "1.3.I.D"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
     "model": "claude-opus-4-7",
@@ -16,8 +18,19 @@
   "definitie": {
     "text": "Een gespecialiseerde kamer binnen de ondernemingsrechtbank die proactief onderzoekt of ondernemingen in financiële moeilijkheden verkeren. Zij krijgt signalen van knipperlichten (achterstand bij RSZ, BTW, niet-neergelegde jaarrekeningen, dagvaardingen) en kan de onderneming uitnodigen voor gesprek.",
     "confidence": "inferred",
-    "source": {"type": "wet", "short": "Boek XX WER (insolventie)"},
-    "_provenance": {"inputs": [{"id": "anchor-1.3.I.D", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "wet",
+      "short": "Boek XX WER (insolventie)"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.I.D",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -27,8 +40,19 @@
       "voorbeeld_inline": "Solaris Sint-Truiden BV heeft 2 kwartalen RSZ-achterstand en heeft de jaarrekening 20X0 niet neergelegd. De kamer nodigt het bestuursorgaan uit voor gesprek.",
       "grondslag": "Boek XX WER",
       "confidence": "inferred",
-      "source": {"type": "wet", "short": "Boek XX WER"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.I.D", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "Boek XX WER"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.I.D",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -37,8 +61,19 @@
       "betekenis": "Een onderneming die opgeroepen werd door de kamer is een rood vlag voor de analist — onafhankelijk van wat de jaarrekening laat zien. Toegankelijke informatie via dossier griffies of openbare bronnen.",
       "anker_slug": "1.3.I.D",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Financial analysis"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.I.D", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financial analysis"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.I.D",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": []

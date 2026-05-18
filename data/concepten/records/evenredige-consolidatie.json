@@ -4,14 +4,32 @@
   "node_type": "methode",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.D", "1.4.I.B", "1.4.II.C", "1.4.taak.1"],
+  "linked_anchors": [
+    "1.4.I.D",
+    "1.4.I.B",
+    "1.4.II.C",
+    "1.4.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.D",
-    "dekt_ook_anchors": ["1.4.I.B", "1.4.II.C", "1.4.taak.1"],
+    "dekt_ook_anchors": [
+      "1.4.I.B",
+      "1.4.II.C",
+      "1.4.taak.1"
+    ],
     "reviewed_by": null,
-    "enrich_runs": [{"run_id": "enrich-run-20260515T141848Z", "model": "claude-opus-4-7", "gaps_verwerkt": ["vergelijkingsparen.vrije-tekst-niet-gespiegeld"], "uitgevoerd_op": "2026-05-15T15:00:00+00:00"}],
+    "enrich_runs": [
+      {
+        "run_id": "enrich-run-20260515T141848Z",
+        "model": "claude-opus-4-7",
+        "gaps_verwerkt": [
+          "vergelijkingsparen.vrije-tekst-niet-gespiegeld"
+        ],
+        "uitgevoerd_op": "2026-05-15T15:00:00+00:00"
+      }
+    ],
     "schema_1_4_migration": {
       "uitgevoerd_op": "2026-05-16T00:11Z",
       "tool": "migrate_schema_1_4.py",
@@ -24,7 +42,12 @@
         "synthese-voorbeelden bij voorbeeld-minimum-gaps (regel 14 bron 3)"
       ]
     },
-    "jargon_pass3": {"uitgevoerd_op": "2026-05-16T00:17Z", "tool": "jargon_pass3.py", "scope": "deterministische jargon-substituties + cast-namen in voorbeeld-velden (regels 6 + 7)", "aantal_substituties": 11},
+    "jargon_pass3": {
+      "uitgevoerd_op": "2026-05-16T00:17Z",
+      "tool": "jargon_pass3.py",
+      "scope": "deterministische jargon-substituties + cast-namen in voorbeeld-velden (regels 6 + 7)",
+      "aantal_substituties": 11
+    },
     "deep_rewrite_2026_05_16": {
       "door": "deep-rewrite-batch-1-concepten",
       "op": "2026-05-16T01:15Z",
@@ -54,15 +77,44 @@
   "doel": {
     "text": "Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke gezamenlijk controlerende moeder op naar rato van haar aandeel in het kapitaal (of in de inbreng bij vennootschappen zonder kapitaal). Alleen jouw pro-rata stuk van de bezittingen, schulden, opbrengsten en kosten komt erin — geen afzonderlijke 'belangen van derden' nodig, want het deel buiten de groep wordt simpelweg niet opgenomen.",
     "confidence": "grounded",
-    "source": {"type": "kb", "short": "KB WVV art. 3:124, 2° jo. art. 3:140"},
+    "source": {
+      "type": "kb",
+      "short": "KB WVV art. 3:124, 2° jo. art. 3:140"
+    },
     "references": [
-      {"type": "kb", "short": "KB WVV art. 3:124, 2°"},
-      {"type": "kb", "short": "KB WVV art. 3:140"},
-      {"type": "kb", "short": "KB WVV art. 3:139"}
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:124, 2°"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:140"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:139"
+      }
     ],
-    "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_111", "sha256": null, "version": "rag-v1"}, {"id": "KB-WVV-2019__art_3_110", "sha256": null, "version": "rag-v1"}]},
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-2019__art_3_111",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_110",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    },
     "_corrected_from": [
-      {"field": "text", "from": "Een gemeenschappelijke dochter (een vennootschap waarover een beperkt aantal vennoten gezamenlijke controle uitoefenen via overeenkomst) wordt in de geconsolideerde jaarrekening van elke gezamenlijk controlerende vennoot opgenomen naar rato van haar rechten in het kapitaal (of in de inbreng, voor kapitaalloze vennootschappen). Hiermee wordt enkel het pro-rata deel van de activa, passiva, opbrengsten en kosten meegenomen — zonder afzondering van 'aandeel van derden', want het derden-deel wordt eenvoudigweg niet opgenomen.", "reason": "Stagiair-toon: korte zinnen; 'gezamenlijk controlerende vennoot' → 'gezamenlijk controlerende moeder' (regel 6)."}
+      {
+        "field": "text",
+        "from": "Een gemeenschappelijke dochter (een vennootschap waarover een beperkt aantal vennoten gezamenlijke controle uitoefenen via overeenkomst) wordt in de geconsolideerde jaarrekening van elke gezamenlijk controlerende vennoot opgenomen naar rato van haar rechten in het kapitaal (of in de inbreng, voor kapitaalloze vennootschappen). Hiermee wordt enkel het pro-rata deel van de activa, passiva, opbrengsten en kosten meegenomen — zonder afzondering van 'aandeel van derden', want het derden-deel wordt eenvoudigweg niet opgenomen.",
+        "reason": "Stagiair-toon: korte zinnen; 'gezamenlijk controlerende vennoot' → 'gezamenlijk controlerende moeder' (regel 6)."
+      }
     ]
   },
   "voorbeeld_inline": "Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV (gezamenlijke controle via aandeelhoudersovereenkomst). Cardinal neemt 50 % van elke balanspost en elke opbrengst/kost van Filmstudio Florence op in haar geconsolideerde jaarrekening. Geen post 'Belangen van derden'.",
@@ -70,14 +122,36 @@
     {
       "text": "Er moet gezamenlijke controle bestaan over de gemeenschappelijke dochter: een overeenkomst dat beleidsbeslissingen alleen met gemeenschappelijke instemming kunnen worden genomen.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2017/02"},
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2017/02"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "De activiteit van de gemeenschappelijke dochter moet voldoende geïntegreerd zijn in die van de gezamenlijk controlerende moeder. Is de activiteit niet nauw geïntegreerd, dan kun je in plaats van evenredige consolidatie de vermogensmutatiemethode gebruiken (CBN 2013/3).",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2013/3"},
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2013/3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "bouwstenen": [
@@ -88,12 +162,35 @@
       "voorbeeld_inline": "Cardinal Group NV bezit 50 % van Filmstudio Florence BV (gezamenlijke controle). Filmstudio Florence heeft € 4.000.000 vaste activa → Cardinal neemt 50 % × € 4.000.000 = € 2.000.000 op in haar geconsolideerde balans.",
       "grondslag": "KB WVV art. 3:140, b",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:140, b"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_111", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:140, b"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_111",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "wat", "from": "De bezittingen en schulden, rechten en verplichtingen, opbrengsten en kosten van de gemeenschappelijke dochter worden opgenomen naar rato van de rechten in het kapitaal (resp. in de inbreng) die door de moedervennootschap en haar dochters in de consolidatiekring worden gehouden.", "reason": "Stagiair-toon: korte zin, 'rechten in het kapitaal' → 'aandeel in het kapitaal' (regel 6)."},
-        {"field": "waarom", "from": null, "reason": "Rationale toegevoegd."},
-        {"field": "voorbeeld_inline", "from": null, "reason": "Cast-voorbeeld toegevoegd (joint_venture)."}
+        {
+          "field": "wat",
+          "from": "De bezittingen en schulden, rechten en verplichtingen, opbrengsten en kosten van de gemeenschappelijke dochter worden opgenomen naar rato van de rechten in het kapitaal (resp. in de inbreng) die door de moedervennootschap en haar dochters in de consolidatiekring worden gehouden.",
+          "reason": "Stagiair-toon: korte zin, 'rechten in het kapitaal' → 'aandeel in het kapitaal' (regel 6)."
+        },
+        {
+          "field": "waarom",
+          "from": null,
+          "reason": "Rationale toegevoegd."
+        },
+        {
+          "field": "voorbeeld_inline",
+          "from": null,
+          "reason": "Cast-voorbeeld toegevoegd (joint_venture)."
+        }
       ]
     },
     {
@@ -103,12 +200,35 @@
       "voorbeeld_inline": "Cardinal koopt haar 50 %-belang in Filmstudio Florence voor € 1.500.000; pro-rata eigen vermogen (EV) Filmstudio op aankoopdatum = € 1.250.000 → bruto-verschil € 250.000 op pro-rata basis, eventueel toe te rekenen aan stille meerwaarden in Filmstudio's apparatuur.",
       "grondslag": "KB WVV art. 3:140, a",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:140, a"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_111", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:140, a"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_111",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "wat", "from": "Op de evenredig geconsolideerde gemeenschappelijke dochter zijn — voor het opgenomen pro-rata deel — de regels van toepassing inzake schrappen van de deelneming (KB WVV art. 3:127, a)), toerekening van het verschil aan onder-/overgewaardeerde activa (KB WVV art. 3:128), bepaling van de waarde op datum van aankoop (KB WVV art. 3:129), boeking van het consolidatieverschil (KB WVV art. 3:130), afschrijving (KB WVV art. 3:131) en gedeeltelijke realisatie (KB WVV art. 3:132 en art. 3:133). Idem voor de eliminaties (KB WVV art. 3:134, 3:136, 3:138 en art. 3:139) op het pro-rata deel.", "reason": "Stagiair-toon: lange lijstzin omgevormd tot leesbare alinea (regel 6)."},
-        {"field": "waarom", "from": null, "reason": "Rationale toegevoegd."},
-        {"field": "voorbeeld_inline", "from": null, "reason": "Cast-voorbeeld toegevoegd."}
+        {
+          "field": "wat",
+          "from": "Op de evenredig geconsolideerde gemeenschappelijke dochter zijn — voor het opgenomen pro-rata deel — de regels van toepassing inzake schrappen van de deelneming (KB WVV art. 3:127, a)), toerekening van het verschil aan onder-/overgewaardeerde activa (KB WVV art. 3:128), bepaling van de waarde op datum van aankoop (KB WVV art. 3:129), boeking van het consolidatieverschil (KB WVV art. 3:130), afschrijving (KB WVV art. 3:131) en gedeeltelijke realisatie (KB WVV art. 3:132 en art. 3:133). Idem voor de eliminaties (KB WVV art. 3:134, 3:136, 3:138 en art. 3:139) op het pro-rata deel.",
+          "reason": "Stagiair-toon: lange lijstzin omgevormd tot leesbare alinea (regel 6)."
+        },
+        {
+          "field": "waarom",
+          "from": null,
+          "reason": "Rationale toegevoegd."
+        },
+        {
+          "field": "voorbeeld_inline",
+          "from": null,
+          "reason": "Cast-voorbeeld toegevoegd."
+        }
       ]
     },
     {
@@ -118,11 +238,35 @@
       "voorbeeld_inline": "Cardinal neemt 50 % van Filmstudio Florence op; Energiehuis Evergem neemt de andere 50 % op in haar eigen geconsolideerde jaarrekening. Geen 'Belangen van derden' aan beide zijden.",
       "grondslag": "KB WVV art. 3:140 (geen verwijzing naar KB WVV art. 3:137)",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "kb", "short": "KB WVV art. 3:140 (de verwijzing naar KB WVV art. 3:137 ontbreekt)"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_111", "sha256": null, "version": "rag-v1"}, {"id": "KB-WVV-2019__art_3_108", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:140 (de verwijzing naar KB WVV art. 3:137 ontbreekt)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_111",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_108",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "waarom", "from": null, "reason": "Rationale toegevoegd."},
-        {"field": "voorbeeld_inline", "from": null, "reason": "Cast-voorbeeld toegevoegd."}
+        {
+          "field": "waarom",
+          "from": null,
+          "reason": "Rationale toegevoegd."
+        },
+        {
+          "field": "voorbeeld_inline",
+          "from": null,
+          "reason": "Cast-voorbeeld toegevoegd."
+        }
       ]
     }
   ],
@@ -136,13 +280,33 @@
           "titel": "Bepaal jouw belangenpercentage in de gemeenschappelijke dochter",
           "wat": "Bereken welk percentage van het kapitaal (of de inbreng) jouw moeder en haar dochters in de consolidatiekring samen in de gemeenschappelijke dochter aanhouden.",
           "waarom": "Dit percentage is jouw 'pro-rata-factor'. Een verkeerd percentage hier zorgt voor verkeerde bedragen in elke post van de geconsolideerde balans en resultatenrekening.",
-          "input": [{"artefact": "Aandeelhoudersregister gemeenschappelijke dochter", "veld": "Aandeel in kapitaal van moeder + groepsleden", "type": "percentage"}],
-          "output": [{"artefact": "Werkblad evenredige consolidatie", "veld": "Pro-rata-percentage", "type": "percentage"}],
+          "input": [
+            {
+              "artefact": "Aandeelhoudersregister gemeenschappelijke dochter",
+              "veld": "Aandeel in kapitaal van moeder + groepsleden",
+              "type": "percentage"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Werkblad evenredige consolidatie",
+              "veld": "Pro-rata-percentage",
+              "type": "percentage"
+            }
+          ],
           "hoe": "1. Open het aandeelhoudersregister van Filmstudio Florence BV.\n2. Tel het aandeel van Cardinal Group NV (50 %) bij het aandeel van eventuele Cardinal-dochters (bv. 0 %) — totaal 50 %.\n3. Dit is jouw pro-rata-percentage.\n4. Let op: dit is het belangenpercentage (kapitaal), niet het controlepercentage. Bij 50/50 met overeenkomst is de controle gedeeld maar het belang exact 50 %.\n",
           "grondslag": "KB WVV art. 3:140, b",
           "_corrected_from": [
-            {"field": "titel", "from": "Bepaal het belangenpercentage (rechten in kapitaal / inbreng)…", "reason": "Skeleton → werkwoord-georiënteerd."},
-            {"field": "hoe", "from": null, "reason": "Uitvoerbare instructie toegevoegd."}
+            {
+              "field": "titel",
+              "from": "Bepaal het belangenpercentage (rechten in kapitaal / inbreng)…",
+              "reason": "Skeleton → werkwoord-georiënteerd."
+            },
+            {
+              "field": "hoe",
+              "from": null,
+              "reason": "Uitvoerbare instructie toegevoegd."
+            }
           ]
         },
         {
@@ -151,15 +315,37 @@
           "wat": "Pas het pro-rata-percentage toe op elke afzonderlijke balanspost en elke afzonderlijke post van de resultatenrekening van de gemeenschappelijke dochter.",
           "waarom": "Pro-rata opname werkt regel voor regel, niet als één samengevatte deelneming. Daardoor blijft de groepsstructuur transparant per post (vaste activa, voorraden, schulden, …).",
           "input": [
-            {"artefact": "Balans + resultatenrekening gemeenschappelijke dochter", "veld": "Alle posten", "type": "boekhoudkundig-bedrag"},
-            {"artefact": "Werkblad evenredige consolidatie", "veld": "Pro-rata-percentage", "type": "percentage"}
+            {
+              "artefact": "Balans + resultatenrekening gemeenschappelijke dochter",
+              "veld": "Alle posten",
+              "type": "boekhoudkundig-bedrag"
+            },
+            {
+              "artefact": "Werkblad evenredige consolidatie",
+              "veld": "Pro-rata-percentage",
+              "type": "percentage"
+            }
           ],
-          "output": [{"artefact": "Werkblad evenredige consolidatie", "veld": "Pro-rata bedragen per post", "type": "boekhoudkundig-bedrag"}],
+          "output": [
+            {
+              "artefact": "Werkblad evenredige consolidatie",
+              "veld": "Pro-rata bedragen per post",
+              "type": "boekhoudkundig-bedrag"
+            }
+          ],
           "hoe": "1. Voor elke balanspost van Filmstudio Florence: vermenigvuldig met 50 %. Vaste activa € 4.000.000 → € 2.000.000; voorraden € 1.000.000 → € 500.000; kas € 500.000 → € 250.000; eigen vermogen € 3.000.000 → € 1.500.000; schulden € 2.500.000 → € 1.250.000.\n2. Voor elke resultatenpost: idem. Omzet € 5.000.000 → € 2.500.000; kosten € 4.000.000 → € 2.000.000; resultaat € 1.000.000 → € 500.000.\n3. Schrijf elke pro-rata-uitkomst in je werkblad.\n",
           "grondslag": "KB WVV art. 3:140, b",
           "_corrected_from": [
-            {"field": "titel", "from": "Vermenigvuldig elke actief-, passief-, opbrengsten- en kostenpost van…", "reason": "Skeleton → werkwoord-georiënteerd."},
-            {"field": "hoe", "from": null, "reason": "Uitvoerbare instructie toegevoegd."}
+            {
+              "field": "titel",
+              "from": "Vermenigvuldig elke actief-, passief-, opbrengsten- en kostenpost van…",
+              "reason": "Skeleton → werkwoord-georiënteerd."
+            },
+            {
+              "field": "hoe",
+              "from": null,
+              "reason": "Uitvoerbare instructie toegevoegd."
+            }
           ]
         },
         {
@@ -168,24 +354,65 @@
           "wat": "Voeg de pro-rata bedragen samen met de overeenkomstige posten van de moeder en van alle dochters die je integraal consolideert.",
           "waarom": "De gemeenschappelijke dochter komt zo, voor haar pro-rata deel, gewoon mee in de groepsbalans en -resultatenrekening — naast de volledig opgenomen integrale dochters.",
           "input": [
-            {"artefact": "Werkblad evenredige consolidatie", "veld": "Pro-rata bedragen", "type": "boekhoudkundig-bedrag"},
-            {"artefact": "Geconsolideerde balans/resultatenrekening (tussentijds)", "veld": "Bedragen moeder + integrale dochters", "type": "boekhoudkundig-bedrag"}
+            {
+              "artefact": "Werkblad evenredige consolidatie",
+              "veld": "Pro-rata bedragen",
+              "type": "boekhoudkundig-bedrag"
+            },
+            {
+              "artefact": "Geconsolideerde balans/resultatenrekening (tussentijds)",
+              "veld": "Bedragen moeder + integrale dochters",
+              "type": "boekhoudkundig-bedrag"
+            }
           ],
-          "output": [{"artefact": "Geconsolideerde balans + resultatenrekening", "veld": "Bijgewerkte posten", "type": "nieuwe-balanspost"}],
+          "output": [
+            {
+              "artefact": "Geconsolideerde balans + resultatenrekening",
+              "veld": "Bijgewerkte posten",
+              "type": "nieuwe-balanspost"
+            }
+          ],
           "hoe": "1. Open de tussentijdse geconsolideerde balans (moeder + integrale dochters).\n2. Tel post per post de pro-rata bedragen van Filmstudio Florence erbij.\n3. Idem voor de resultatenrekening.\n4. Belangrijke uitzondering: nog niet met intra-groepselimaties — die volgen in stap 4.\n",
           "voorbeeld": {
             "scenario": "Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV. Balans Filmstudio: vaste activa € 4.000.000, voorraden € 1.000.000, kas € 500.000; eigen vermogen € 3.000.000, schulden € 2.500.000. Resultaat: omzet € 5.000.000, kosten € 4.000.000, resultaat € 1.000.000.",
             "substappen": [
-              {"nr": 1, "titel": "Pro-rata-percentage voor Cardinal", "type": "berekening", "data": "Cardinal in Filmstudio = **50 %**"},
-              {"nr": 2, "titel": "Pro-rata balansposten (Filmstudio → 50 %)", "type": "balans", "data": "| Post                       | Filmstudio (€) | × 50 % (€) |\n|----------------------------|---------------:|-----------:|\n| Vaste activa               |      4.000.000 |  2.000.000 |\n| Voorraden                  |      1.000.000 |    500.000 |\n| Kas                        |        500.000 |    250.000 |\n| **Totaal activa**          |  **5.500.000** | **2.750.000** |\n| Eigen vermogen             |      3.000.000 |  1.500.000 |\n| Schulden aan derden        |      2.500.000 |  1.250.000 |\n| **Totaal passiva**         |  **5.500.000** | **2.750.000** |"},
-              {"nr": 3, "titel": "Pro-rata resultatenrekening", "type": "berekening", "data": "Omzet: 50 % × € 5.000.000 = **€ 2.500.000**\nKosten: 50 % × € 4.000.000 = **€ 2.000.000**\nResultaat: 50 % × € 1.000.000 = **€ 500.000**"}
+              {
+                "nr": 1,
+                "titel": "Pro-rata-percentage voor Cardinal",
+                "type": "berekening",
+                "data": "Cardinal in Filmstudio = **50 %**"
+              },
+              {
+                "nr": 2,
+                "titel": "Pro-rata balansposten (Filmstudio → 50 %)",
+                "type": "balans",
+                "data": "| Post                       | Filmstudio (€) | × 50 % (€) |\n|----------------------------|---------------:|-----------:|\n| Vaste activa               |      4.000.000 |  2.000.000 |\n| Voorraden                  |      1.000.000 |    500.000 |\n| Kas                        |        500.000 |    250.000 |\n| **Totaal activa**          |  **5.500.000** | **2.750.000** |\n| Eigen vermogen             |      3.000.000 |  1.500.000 |\n| Schulden aan derden        |      2.500.000 |  1.250.000 |\n| **Totaal passiva**         |  **5.500.000** | **2.750.000** |"
+              },
+              {
+                "nr": 3,
+                "titel": "Pro-rata resultatenrekening",
+                "type": "berekening",
+                "data": "Omzet: 50 % × € 5.000.000 = **€ 2.500.000**\nKosten: 50 % × € 4.000.000 = **€ 2.000.000**\nResultaat: 50 % × € 1.000.000 = **€ 500.000**"
+              }
             ]
           },
           "grondslag": "KB WVV art. 3:140, b",
           "_corrected_from": [
-            {"field": "titel", "from": "Voeg de pro-rata bedragen samen met de bedragen…", "reason": "Skeleton → werkwoord-georiënteerd."},
-            {"field": "hoe", "from": null, "reason": "Uitvoerbare instructie toegevoegd."},
-            {"field": "voorbeeld", "from": null, "reason": "Substappen toegevoegd."}
+            {
+              "field": "titel",
+              "from": "Voeg de pro-rata bedragen samen met de bedragen…",
+              "reason": "Skeleton → werkwoord-georiënteerd."
+            },
+            {
+              "field": "hoe",
+              "from": null,
+              "reason": "Uitvoerbare instructie toegevoegd."
+            },
+            {
+              "field": "voorbeeld",
+              "from": null,
+              "reason": "Substappen toegevoegd."
+            }
           ]
         },
         {
@@ -194,15 +421,37 @@
           "wat": "Pas de compensatie- en eliminatieregels (KB WVV art. 3:127, 3:128, 3:130, 3:134, 3:136) toe — maar enkel op het pro-rata deel.",
           "waarom": "Een joint venture is voor de groep geen volledige interne speler maar voor jouw stuk wel. Je elimineert dus pro-rata: een intra-groepsverkoop wordt niet voor 100 % weggeboekt, maar voor jouw belang × bedrag.",
           "input": [
-            {"artefact": "Lijst transacties tussen moedergroep en gemeenschappelijke dochter", "veld": "Bedragen + winstmarge", "type": "boekhoudkundig-bedrag"},
-            {"artefact": "Werkblad evenredige consolidatie", "veld": "Pro-rata-percentage", "type": "percentage"}
+            {
+              "artefact": "Lijst transacties tussen moedergroep en gemeenschappelijke dochter",
+              "veld": "Bedragen + winstmarge",
+              "type": "boekhoudkundig-bedrag"
+            },
+            {
+              "artefact": "Werkblad evenredige consolidatie",
+              "veld": "Pro-rata-percentage",
+              "type": "percentage"
+            }
           ],
-          "output": [{"artefact": "Geconsolideerde balans + resultatenrekening", "veld": "Geëlimineerde posten", "type": "geëlimineerde-post"}],
+          "output": [
+            {
+              "artefact": "Geconsolideerde balans + resultatenrekening",
+              "veld": "Geëlimineerde posten",
+              "type": "geëlimineerde-post"
+            }
+          ],
           "hoe": "1. Maak een lijst van alle vorderingen, schulden, verkopen en aankopen tussen Cardinal (of haar dochters) en Filmstudio Florence.\n2. Elimineer pro-rata: bedrag × 50 %.\n3. Voorbeeld: intra-groepsverkoop van Filmstudio aan Cardinal voor 60, met winstmarge 10 nog in voorraad bij Cardinal → schrap 50 % × 10 = 5 winst uit de geconsolideerde voorraad én uit het geconsolideerd resultaat.\n4. Compensatie van Cardinal's deelneming Filmstudio met haar pro-rata aandeel in Filmstudio's EV: idem, op pro-rata basis.\n",
           "grondslag": "KB WVV art. 3:140, a) jo. art. 3:127–3:136",
           "_corrected_from": [
-            {"field": "titel", "from": "Pas de compensatie- en eliminatieregels van KB WVV…", "reason": "Skeleton → werkwoord-georiënteerd."},
-            {"field": "hoe", "from": null, "reason": "Uitvoerbare instructie toegevoegd."}
+            {
+              "field": "titel",
+              "from": "Pas de compensatie- en eliminatieregels van KB WVV…",
+              "reason": "Skeleton → werkwoord-georiënteerd."
+            },
+            {
+              "field": "hoe",
+              "from": null,
+              "reason": "Uitvoerbare instructie toegevoegd."
+            }
           ]
         }
       ],
@@ -211,19 +460,56 @@
         "berekening": "Pro-rata deel van Cardinal in Filmstudio = 50 %.\nGeconsolideerde activa van Filmstudio (vóór eliminatie): 50 % × (€ 4.000.000 + € 1.000.000 + € 500.000) = 50 % × € 5.500.000 = € 2.750.000. Geconsolideerde schulden van Filmstudio: 50 % × € 2.500.000 = € 1.250.000. Geconsolideerd eigen vermogen van Filmstudio: 50 % × € 3.000.000 = € 1.500.000.\nGeconsolideerde omzet uit Filmstudio: 50 % × € 5.000.000 = € 2.500.000. Geconsolideerde kosten uit Filmstudio: 50 % × € 4.000.000 = € 2.000.000. Geconsolideerd resultaat uit Filmstudio (vóór eliminatie): 50 % × € 1.000.000 = € 500.000.\nIntragroep-eliminatie (KB WVV art. 3:140 jo. art. 3:134, op pro-rata deel): de winst op de intragroep-verkoop wordt geëlimineerd voor 50 % × € 50.000 = € 25.000. Geconsolideerde voorraden Cardinal verminderen met € 25.000; geconsolideerd resultaat vermindert met € 25.000.",
         "resultaat": "In de geconsolideerde balans van Cardinal verschijnen € 2.750.000 activa en € 1.250.000 schulden uit Filmstudio (na intragroep-eliminatie € 2.725.000 activa); van het resultaat € 1.000.000 wordt € 500.000 meegenomen, verminderd met € 25.000 → € 475.000 in het geconsolideerd resultaat. Er is géén post 'Aandeel van derden in resultaat' — de andere 50 % van Filmstudio komt niet voor in Cardinal's geconsolideerde jaarrekening (Energiehuis Evergem BV doet dezelfde oefening met haar eigen 50 %)."
       },
-      "source": {"type": "kb", "short": "Synthese KB WVV art. 3:140 jo. art. 3:127 — 3:138"},
+      "source": {
+        "type": "kb",
+        "short": "Synthese KB WVV art. 3:140 jo. art. 3:127 — 3:138"
+      },
       "confidence": "inferred-from-aggregation",
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_111", "sha256": null, "version": "rag-v1"}, {"id": "KB-WVV-2019__art_3_106", "sha256": null, "version": "rag-v1"}, {"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_voorbeeld-2", "sha256": null, "version": "rag-v1"}]},
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_111",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_106",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_voorbeeld-2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "formules": [
         {
           "id": "evenredige-consolidatie-pro-rata-opname",
           "naam": "Pro-rata opname van een post",
           "wiskunde": "geconsolideerde post = post moeder + (post gemeenschappelijke dochter × belangenpercentage) − pro-rata intragroep-eliminaties",
           "variabelen": [
-            {"symbool": "post moeder", "betekenis": "Bedrag van de post bij de moeder (en eventueel integraal geconsolideerde dochters)", "eenheid": "EUR"},
-            {"symbool": "post gemeenschappelijke dochter", "betekenis": "100 %-bedrag van dezelfde post bij de gemeenschappelijke dochter", "eenheid": "EUR"},
-            {"symbool": "belangenpercentage", "betekenis": "Aandeel van moeder en haar groep in het kapitaal van de gemeenschappelijke dochter", "eenheid": "%"},
-            {"symbool": "pro-rata intragroep-eliminaties", "betekenis": "Onderlinge transacties × belangenpercentage", "eenheid": "EUR"}
+            {
+              "symbool": "post moeder",
+              "betekenis": "Bedrag van de post bij de moeder (en eventueel integraal geconsolideerde dochters)",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "post gemeenschappelijke dochter",
+              "betekenis": "100 %-bedrag van dezelfde post bij de gemeenschappelijke dochter",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "belangenpercentage",
+              "betekenis": "Aandeel van moeder en haar groep in het kapitaal van de gemeenschappelijke dochter",
+              "eenheid": "%"
+            },
+            {
+              "symbool": "pro-rata intragroep-eliminaties",
+              "betekenis": "Onderlinge transacties × belangenpercentage",
+              "eenheid": "EUR"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "Cardinal-vaste activa = € 2.500.000; Filmstudio Florence-vaste activa = € 4.000.000; belang Cardinal in Filmstudio = 50 %; geen intragroep op deze post",
@@ -236,8 +522,16 @@
           "naam": "Eliminatie intra-groepsverkoop (op pro-rata basis)",
           "wiskunde": "te elimineren winst = nog-niet-gerealiseerde winst op intra-groepsverkoop × belangenpercentage",
           "variabelen": [
-            {"symbool": "nog-niet-gerealiseerde winst op intra-groepsverkoop", "betekenis": "Winstmarge die de dochter op een interne verkoop heeft gerealiseerd, voor zover de goederen nog in voorraad zitten bij de koper binnen de groep", "eenheid": "EUR"},
-            {"symbool": "belangenpercentage", "betekenis": "Aandeel van moeder in kapitaal gemeenschappelijke dochter", "eenheid": "%"}
+            {
+              "symbool": "nog-niet-gerealiseerde winst op intra-groepsverkoop",
+              "betekenis": "Winstmarge die de dochter op een interne verkoop heeft gerealiseerd, voor zover de goederen nog in voorraad zitten bij de koper binnen de groep",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "belangenpercentage",
+              "betekenis": "Aandeel van moeder in kapitaal gemeenschappelijke dochter",
+              "eenheid": "%"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "winst op intra-groepsverkoop Filmstudio aan Cardinal = € 50.000 (nog in voorraad); belang Cardinal = 50 %",
@@ -254,8 +548,24 @@
       "betekenis": "Standaard voor gemeenschappelijke dochters bij gezamenlijke controle. Uitzondering: gemeenschappelijke dochters die niet nauw geïntegreerd zijn in de activiteit van de moeder mogen via vermogensmutatie worden verwerkt (CBN 2013/3).",
       "herkenningspunt": "Gezamenlijke controle (overeenkomst, vetorecht) + integratie → evenredige consolidatie.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:124, 2°"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_111", "sha256": null, "version": "rag-v1"}, {"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:124, 2°"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_111",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -263,27 +573,70 @@
       "vergelijking_met": "integrale-consolidatie",
       "verschil": "Integraal = 100 % opname met afzondering van derden-deel via 'Belangen van derden'. Evenredig = pro-rata opname (% kapitaaldeelname), geen derden-post.",
       "trigger": "Soort controle bepaalt de methode: exclusieve controle → integraal; gezamenlijke controle → evenredig (of vermogensmutatie als niet-geïntegreerd).",
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_98", "sha256": null, "version": "rag-v1"}, {"id": "KB-WVV-2019__art_3_111", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_98",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_111",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "vergelijking_met": "vermogensmutatiemethode",
       "verschil": "Evenredige consolidatie neemt bezittingen/schulden regel voor regel pro-rata op. Vermogensmutatie houdt de deelneming als één gesynthetiseerde post ('Vennootschappen waarop vermogensmutatie is toegepast'). Bij gezamenlijke controle van een niet-geïntegreerde dochter mag je kiezen voor vermogensmutatie.",
       "trigger": "Mate van integratie van de gemeenschappelijke dochter in de groep — nauw geïntegreerd → evenredig; los → vermogensmutatie.",
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Het opgenomen pro-rata deel volgt het belangenpercentage (kapitaal), niet het controlepercentage. Een 50/50-joint venture wordt voor 50 % opgenomen, ook al heeft elke vennoot via de overeenkomst eigenlijk een gelijke beleidsmacht (gedeelde 100 % controle).",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:140, b"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_111", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:140, b"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_111",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Intra-groepsverkopen tussen moeder en gemeenschappelijke dochter worden geëlimineerd op het pro-rata deel — niet voor 100 %. Andere bronnen (oudere W.Venn., IFRS 11) kennen andere regels; in WVV-context geldt de pro-rata-eliminatie.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "kb", "short": "KB WVV art. 3:140, a"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_111", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:140, a"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_111",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
@@ -292,7 +645,20 @@
       "target": "gezamenlijke-controle",
       "redenering": "Gezamenlijke controle is het feitencomplex (overeenkomst tussen vennoten); evenredige consolidatie is het boekhoudkundige gevolg dat KB WVV art. 3:124, 2° eraan koppelt.",
       "confidence": "inferred",
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_98", "sha256": null, "version": "rag-v1"}, {"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_98",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "bevat",
@@ -310,8 +676,22 @@
       "type": "contrasteert-met",
       "target": "gemeenschappelijke-dochteronderneming",
       "redenering": "De gemeenschappelijke dochter is het juridische object; evenredige consolidatie is de boekhoudkundige techniek die op dat object wordt toegepast.",
-      "_corrected_from": [{"field": "type", "from": "vergelijkingsparen → edges", "reason": "Schema 1.4 regel 9."}],
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_111", "sha256": null, "version": "rag-v1"}]}
+      "_corrected_from": [
+        {
+          "field": "type",
+          "from": "vergelijkingsparen → edges",
+          "reason": "Schema 1.4 regel 9."
+        }
+      ],
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_111",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ]
 }

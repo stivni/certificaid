@@ -4,7 +4,9 @@
   "node_type": "fenomeen",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.1.II.E"],
+  "linked_anchors": [
+    "1.1.II.E"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
@@ -15,15 +17,34 @@
   "definitie": {
     "text": "Activa die deel uitmaken van de bedrijfscyclus en die ofwel bij eerste gebruik worden geconsumeerd, ofwel worden verkocht — als zodanig of na een productieproces. Voorraden behoren tot de **vlottende activa** (rubriek 3 MAR). Subcategorieën: (30) grond- en hulpstoffen, (31) goederen in bewerking, (32) gereed product, (33) handelsgoederen, (34) onroerende goederen bestemd voor verkoop. Bij waardering: aanschaffingswaarde of vervaardigingsprijs getoetst aan markt- of realisatiewaarde — **laagste van de twee** geldt (voorzichtigheidsbeginsel).",
     "confidence": "grounded",
-    "source": {"type": "advies", "short": "CBN 132/7 — Boeking en waardering van voorraden"},
+    "source": {
+      "type": "advies",
+      "short": "CBN 132/7 — Boeking en waardering van voorraden"
+    },
     "references": [
-      {"type": "wet", "short": "KB WVV art. 3:49 (voorraden, waardering)"},
-      {"type": "wet", "short": "MAR klasse 3"}
+      {
+        "type": "wet",
+        "short": "KB WVV art. 3:49 (voorraden, waardering)"
+      },
+      {
+        "type": "wet",
+        "short": "MAR klasse 3"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_begrip-voorraad_part1", "sha256": null, "version": "rag-v1"},
-      {"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_algemene-inleiding", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_begrip-voorraad_part1",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_algemene-inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Naaiatelier Ninove BV heeft op 31/12: grondstoffen (textiel, garen) € 28.500 (rekening 30), goederen in bewerking € 14.200 (31), gereed product (afgewerkte kledingstukken) € 87.300 (32). Markwaarde van een gedeelte gereed product (30 stuks oude collectie) ligt onder aanschaffingswaarde → waardevermindering € 4.500. Op de balans rubriek IV.Voorraden: € 28.500 + € 14.200 + (€ 87.300 − € 4.500) = € 125.500.",
   "bouwstenen": [
@@ -34,8 +55,19 @@
       "voorbeeld_inline": "Bij Transport Tongeren BV: vrachtwagen voor eigen gebruik = MVA rubriek 242. Bij een vrachtwagendealer: dezelfde vrachtwagen die te koop staat = voorraad handelsgoederen rubriek 33.",
       "grondslag": "CBN 132/7 + KB WVV",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 132/7"},
-      "_provenance": {"inputs": [{"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_begrip-voorraad_part1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 132/7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_begrip-voorraad_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Waardering: laagste van aanschaffingswaarde of marktwaarde",
@@ -44,8 +76,19 @@
       "voorbeeld_inline": "Naaiatelier Ninove BV: oude collectie afgewerkte kleding, aanschaffingswaarde € 22.000, marktwaarde (uitverkoopprijs) € 17.500 → waardevermindering € 4.500. Andere collectie aanschaffingswaarde € 35.000, marktwaarde € 48.000 → geen opwaardering, blijft op € 35.000.",
       "grondslag": "KB WVV art. 3:49 + CBN 132/7",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 132/7"},
-      "_provenance": {"inputs": [{"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_waardering-van-voorraden-grond-en-hulpstoffen-goederen-in-be", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 132/7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_waardering-van-voorraden-grond-en-hulpstoffen-goederen-in-be",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Vier toegelaten waarderingsmethoden",
@@ -54,8 +97,19 @@
       "voorbeeld_inline": "Naaiatelier Ninove BV koopt textiel met dalende prijs: 1.000 m aan € 12, dan 1.000 m aan € 10. Verkoop van 500 m. FIFO: kostprijs = 500 × € 12 = € 6.000 (eerst binnen). LIFO: kostprijs = 500 × € 10 = € 5.000. Gewogen gemiddelde: € 11/m → 500 × € 11 = € 5.500. Drie methoden, drie cijfers — daarom verplicht consistentie.",
       "grondslag": "KB WVV art. 3:50; CBN 132/7",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 132/7"},
-      "_provenance": {"inputs": [{"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_waardering-van-voorraden-grond-en-hulpstoffen-goederen-in-be", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 132/7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_waardering-van-voorraden-grond-en-hulpstoffen-goederen-in-be",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Toelichting verplicht: gekozen methoden vermelden",
@@ -64,8 +118,19 @@
       "voorbeeld_inline": "Toelichting Naaiatelier Ninove BV: 'Grond- en hulpstoffen: gewogen gemiddelde. Goederen in bewerking en gereed product: vervaardigingsprijs incl. directe + 60 % variabele indirecte productiekosten; intresten op productie-investering niet inbegrepen.'",
       "grondslag": "CBN 132/7",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 132/7"},
-      "_provenance": {"inputs": [{"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_samenvatting-van-de-voorraadwaarderingsregels-in-de-toelicht", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 132/7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_samenvatting-van-de-voorraadwaarderingsregels-in-de-toelicht",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Voorraadwijziging als resultaatcomponent",
@@ -74,8 +139,19 @@
       "voorbeeld_inline": "Naaiatelier Ninove BV: beginvoorraad gereed product 1/1 = € 65.000; eindvoorraad 31/12 = € 87.300. Voorraadwijziging = +€ 22.300 (stijging) → rekening 71 Voorraadwijziging gereed product.",
       "grondslag": "CBN 132/7 + MAR klasse 71",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 132/7"},
-      "_provenance": {"inputs": [{"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_algemene-inleiding", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 132/7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_algemene-inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -84,34 +160,86 @@
       "betekenis": "Voor voorraden bestaat de inventaris uit: (1) kwantitatieve opgave (tellen of meten), (2) kwaliteitscontrole (oude/onverkoopbare items detecteren), (3) vergelijking aanschaffingsprijs vs markt/realisatiewaarde.",
       "herkenningspunt": "Examen: 'voorraad textiel met aanschaffingsprijs € 50.000, maar 20 % is verouderd' → waardevermindering op het verouderde deel + andere methoden mogelijk.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 132/7"},
-      "_provenance": {"inputs": [{"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_inventarisopneming-en-waardering_part1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 132/7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_inventarisopneming-en-waardering_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "FIFO bij stijgende prijzen vs LIFO bij stijgende prijzen",
       "betekenis": "Bij stijgende inkoopprijzen geeft FIFO een hoger eindvoorraadwaarde (oudere/goedkopere kost in resultaat) en LIFO een lager. Het omgekeerde bij dalende prijzen. Methodekeuze heeft fiscaal en boekhoudkundig effect.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "advies", "short": "CBN 132/7 + accounting practice"},
-      "_provenance": {"inputs": [{"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_waardering-van-voorraden-grond-en-hulpstoffen-goederen-in-be", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 132/7 + accounting practice"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_waardering-van-voorraden-grond-en-hulpstoffen-goederen-in-be",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Voorraden zijn VLOTTENDE activa (klasse 3). NIET verwarren met de fysieke aanwezigheid van bedrijfsmiddelen — een machine in productie is vast actief (klasse 2), GEEN voorraad.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 132/7"},
-      "_provenance": {"inputs": [{"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_begrip-voorraad_part1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 132/7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_begrip-voorraad_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Waardevermindering op voorraad: enkel naar BENEDEN. Marktwaarde > aanschaffingswaarde leidt NIET tot opwaardering — voorzichtigheidsbeginsel verbiedt latente winst op voorraad.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 132/7"},
-      "_provenance": {"inputs": [{"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_waardering-van-voorraden-grond-en-hulpstoffen-goederen-in-be", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 132/7"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_waardering-van-voorraden-grond-en-hulpstoffen-goederen-in-be",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [],
   "edges": [
-    {"type": "specialisatie-van", "target": "voorzichtigheidsbeginsel", "redenering": "Voorraadwaardering is een directe toepassing van het voorzichtigheidsbeginsel (laagste van aanschaffings- en marktwaarde)."},
-    {"type": "vereist-kennis-van", "target": "waardeverminderingen", "redenering": "Voorraadcorrecties worden geboekt als waardeverminderingen (rekening 34X9)."}
+    {
+      "type": "specialisatie-van",
+      "target": "voorzichtigheidsbeginsel",
+      "redenering": "Voorraadwaardering is een directe toepassing van het voorzichtigheidsbeginsel (laagste van aanschaffings- en marktwaarde)."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "waardeverminderingen",
+      "redenering": "Voorraadcorrecties worden geboekt als waardeverminderingen (rekening 34X9)."
+    }
   ]
 }

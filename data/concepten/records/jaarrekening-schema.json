@@ -4,27 +4,56 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.IV.C", "1.2.IV", "1.2.V"],
+  "linked_anchors": [
+    "1.2.IV.C",
+    "1.2.IV",
+    "1.2.V"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.IV.C",
-    "dekt_ook_anchors": ["1.2.IV", "1.2.V"],
+    "dekt_ook_anchors": [
+      "1.2.IV",
+      "1.2.V"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Het 'schema' van een jaarrekening is de voorgeschreven opbouw en presentatie van balans, resultatenrekening en toelichting. Het KB-WVV onderscheidt drie modellen: volledig (bijlage 1, voor grote vennootschappen), verkort (bijlage 2, voor kleine vennootschappen) en micro (bijlage 3, voor microvennootschappen). Verenigingen hebben aparte bijlagen.",
     "confidence": "grounded",
-    "source": {"type": "kb", "short": "KB-WVV art. 3:2 + bijlagen 1-3"},
+    "source": {
+      "type": "kb",
+      "short": "KB-WVV art. 3:2 + bijlagen 1-3"
+    },
     "references": [
-      {"type": "kb", "short": "KB-WVV bijlage 1 (volledig schema)"},
-      {"type": "kb", "short": "KB-WVV bijlage 2 (verkort schema)"},
-      {"type": "kb", "short": "KB-WVV bijlage 3 (microschema)"}
+      {
+        "type": "kb",
+        "short": "KB-WVV bijlage 1 (volledig schema)"
+      },
+      {
+        "type": "kb",
+        "short": "KB-WVV bijlage 2 (verkort schema)"
+      },
+      {
+        "type": "kb",
+        "short": "KB-WVV bijlage 3 (microschema)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "KB-WVV-2019__art_3_55", "sha256": null, "version": "rag-v1"},
-      {"id": "KB-WVV-2019__art_3_57", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-2019__art_3_55",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_57",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Rotex Roeselare NV (grote) → volledig schema. Meubelzaak Mertens BV (klein) → verkort schema. Oprichtingen Oostende BV (micro, geen dochter) → microschema.",
   "bouwstenen": [
@@ -35,10 +64,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV (550 werknemers, € 95M omzet) → volledig schema. Toelichting bevat detail over leasing, voorzieningen, niet-balansrechten.",
       "grondslag": "KB-WVV bijlage 1; WVV art. 3:5",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV bijlage 1"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_55", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV bijlage 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_55",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Verkort schema (bijlage 2)",
@@ -47,10 +85,19 @@
       "voorbeeld_inline": "Meubelzaak Mertens BV (12 werknemers, € 4,5M omzet) → verkort schema. Hoeft geen staat van de oprichtingskosten gedetailleerd op te nemen.",
       "grondslag": "KB-WVV bijlage 2; WVV art. 3:6",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV bijlage 2"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_55", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV bijlage 2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_55",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Microschema (bijlage 3)",
@@ -59,10 +106,19 @@
       "voorbeeld_inline": "Oprichtingen Oostende BV (4 werknemers, € 400K omzet, geen dochter) → microschema. Toelichting beperkt zich tot de allernoodzakelijkste vermeldingen.",
       "grondslag": "KB-WVV bijlage 3; WVV art. 3:7",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV bijlage 3"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_55", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV bijlage 3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_55",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Schema's voor verenigingen en stichtingen",
@@ -71,10 +127,19 @@
       "voorbeeld_inline": "VZW Quelle de Vie (klein, met economische activiteit) → vereenvoudigd VZW-schema of klein VZW-schema, afhankelijk van groottecriteria voor verenigingen (WVV art. 1:28-1:29).",
       "grondslag": "KB-WVV art. 3:184 e.v.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV art. 3:184 e.v."},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_145", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV art. 3:184 e.v."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_145",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -83,20 +148,38 @@
       "betekenis": "Elk schema bestaat uit dezelfde drie hoofdcomponenten: (1) balans, (2) resultatenrekening, (3) toelichting. Het verschil zit in detailniveau en aantal verplichte rubrieken. De sociale balans (informatie personeel) is een aparte vierde component voor schema's groot en verkort.",
       "herkenningspunt": "Examenvraag 'welke documenten omvat de jaarrekening?' → balans + RR + toelichting (+ eventueel sociale balans).",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV art. 3:1"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_2", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 3:1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Wijziging schema door grootte-verandering",
       "betekenis": "Wanneer een vennootschap haar groottecategorie verlaat (twee opeenvolgende boekjaren overschrijding), moet ze voor het volgende boekjaar overstappen naar het bijhorende schema. De cijfers van het vorige boekjaar moeten in het nieuwe schema worden herhaald voor vergelijkbaarheid.",
       "herkenningspunt": "Examen-scenario 'X is klein in 2024 maar groot in 2025+2026' → vanaf 2027 volledig schema; vergelijkende cijfers 2026 ook in volledig schema presenteren.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "wet", "short": "WVV art. 1:24, § 4"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:24, § 4"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

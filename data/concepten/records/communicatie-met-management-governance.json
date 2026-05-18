@@ -4,19 +4,35 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.III.E", "1.6.III"],
+  "linked_anchors": [
+    "1.6.III.E",
+    "1.6.III"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.III.E",
-    "dekt_ook_anchors": ["1.6.III"],
+    "dekt_ook_anchors": [
+      "1.6.III"
+    ],
     "reviewed_by": null
   },
   "verplichting": {
     "text": "De beroepsbeoefenaar moet tijdig communiceren met het management en de met governance belaste personen. Hij deelt zijn verantwoordelijkheden mee, geeft een overzicht van de reikwijdte en het tijdschema, verkrijgt relevante assurance-informatie, en deelt belangrijke vaststellingen tijdens en op het einde van de opdracht. Tekortkomingen in de interne beheersing die volgens zijn oordeel belangrijk zijn, worden eveneens gemeld.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA KMO-controlenorm §63-§67"},
-    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_2-2-9-communicatie-met-het-management-of-de-met-governance-b", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm §63-§67"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_2-2-9-communicatie-met-het-management-of-de-met-governance-b",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Aan het einde van de audit van Rotex Roeselare NV stuurt Sofie Janssens een management letter aan de raad van bestuur: drie significante IC-tekortkomingen rond aankooporders (geen functiescheiding) + één aanbeveling rond de continuïteitsanalyse. Schriftelijk, gedateerd, in het controledossier.",
   "stappen": [
@@ -43,6 +59,10 @@
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "met-governance-belaste-personen", "redenering": "Het bestuursorgaan is de tegenhanger in de communicatie."}
+    {
+      "type": "vereist-kennis-van",
+      "target": "met-governance-belaste-personen",
+      "redenering": "Het bestuursorgaan is de tegenhanger in de communicatie."
+    }
   ]
 }

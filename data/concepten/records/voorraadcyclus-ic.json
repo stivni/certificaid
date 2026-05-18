@@ -4,12 +4,17 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.IX.E", "1.7.IX"],
+  "linked_anchors": [
+    "1.7.IX.E",
+    "1.7.IX"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T10:43Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.IX.E",
-    "dekt_ook_anchors": ["1.7.IX"],
+    "dekt_ook_anchors": [
+      "1.7.IX"
+    ],
     "reviewed_by": null,
     "bron_gap": "Voorraad-IC-doctrine — KB 21.10.2018 (boekhoudkundige verplichtingen) vereist inventarisatie. Specifieke procedurele uitwerking is vakdoctrine."
   },
@@ -44,17 +49,38 @@
     {
       "text": "Magazijnier die zelf telt is geen onafhankelijke controle. Vereiste: 2e persoon, idealiter uit andere afdeling.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "text": "Bestellingen in uitvoering (rekening 37) hebben een eigen waarderingsproblematiek (CBN 2012/15, 2016/14) — niet zomaar als voorraad behandelen.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2012/15, 2016/14"},
-      "_provenance": {"inputs": [{"id": "CBN-2012-15-bestellingen-in-uitvoering__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2012/15, 2016/14"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2012-15-bestellingen-in-uitvoering__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Voorraadcyclus is een cyclus met hoog fysiek-risicoprofiel."},
-    {"type": "vereist-kennis-van", "target": "functiescheiding", "redenering": "Bewaring (magazijn) en telling moeten gescheiden zijn."}
+    {
+      "type": "onderdeel-van",
+      "target": "interne-controle",
+      "redenering": "Voorraadcyclus is een cyclus met hoog fysiek-risicoprofiel."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "functiescheiding",
+      "redenering": "Bewaring (magazijn) en telling moeten gescheiden zijn."
+    }
   ]
 }

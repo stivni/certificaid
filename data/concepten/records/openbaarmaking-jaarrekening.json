@@ -4,12 +4,17 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.IV.F", "1.2.IV"],
+  "linked_anchors": [
+    "1.2.IV.F",
+    "1.2.IV"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.IV.F",
-    "dekt_ook_anchors": ["1.2.IV"],
+    "dekt_ook_anchors": [
+      "1.2.IV"
+    ],
     "reviewed_by": null
   },
   "verplichting": "Elke vennootschap, vereniging of stichting met jaarrekening-plicht moet haar goedgekeurde jaarrekening (en, indien van toepassing, jaarverslag, commissarisverslag, geconsolideerde jaarrekening, sociaal balans) elektronisch neerleggen bij de Balanscentrale van de Nationale Bank van België binnen 30 dagen na goedkeuring door de algemene vergadering, en uiterlijk 7 maanden na afsluiting van het boekjaar.",
@@ -62,58 +67,129 @@
       "termijn": "T = 0",
       "actor": "vennootschap",
       "actie": "Sluit boeken; inventaris opmaken",
-      "source": {"type": "wet", "short": "WER art. III.89"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.89"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "stap": "Opmaak jaarrekening + (indien van toepassing) jaarverslag",
       "termijn": "binnen 6 maanden na T",
       "actor": "bestuursorgaan",
       "actie": "Stelt jaarrekening en jaarverslag op, legt voor aan commissaris",
-      "source": {"type": "wet", "short": "WVV art. 3:1, art. 3:32"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 3:1, art. 3:32"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "stap": "Gewone algemene vergadering",
       "termijn": "binnen 6 maanden na T",
       "actor": "aandeelhouders / leden",
       "actie": "Goedkeuring jaarrekening, kwijting bestuur",
-      "source": {"type": "wet", "short": "WVV art. 5:73 / 7:53"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 5:73 / 7:53"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "stap": "Neerlegging bij NBB",
       "termijn": "binnen 30 dagen na AV, max T + 7 maanden",
       "actor": "bestuursorgaan",
       "actie": "Elektronische neerlegging via NBB-Filing",
-      "source": {"type": "wet", "short": "WVV art. 3:10"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 3:10"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Te laat neerleggen leidt niet alleen tot een toeslag, maar ook tot uitbreiding van bestuurdersaansprakelijkheid (WVV art. 2:56 — aansprakelijkheid voor bestuurders bij niet-naleving wettelijke verplichtingen).",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV art. 2:56"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 2:56"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Drie opeenvolgende jaren niet neerleggen → de rechtbank kan op vordering van het openbaar ministerie of een belanghebbende de ontbinding uitspreken (WVV art. 2:74).",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV art. 2:74"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 2:74"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Een gewijzigde jaarrekening na de eerste neerlegging vereist een nieuwe neerlegging met een gemotiveerd 'verbeterd exemplaar'. Niet zomaar een tweede bestand uploaden — formele procedure vereist.",
       "confidence": "inferred",
-      "source": {"type": "kb", "short": "KB-WVV art. 3:113"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV art. 3:113"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -122,10 +198,19 @@
       "betekenis": "Naast jaarrekening: bij grote vennootschappen ook jaarverslag + commissarisverslag; bij groepen die consolideren ook geconsolideerde jaarrekening + geconsolideerd jaarverslag; bij vennootschappen met sociaal balans ook die. Voor kleine vennootschappen volstaat de jaarrekening (verkort schema).",
       "herkenningspunt": "Examen-vraag 'wat legt grote NV neer?' → jaarrekening volledig + jaarverslag + commissarisverslag (+ eventueel sociaal balans + geconsolideerde stukken).",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV art. 3:10"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 3:10"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

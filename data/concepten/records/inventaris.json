@@ -4,12 +4,27 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.1.I", "1.1.I.A", "1.1.taak.1", "1.1.II.S", "1.2.III.E", "1.2.III", "1.2.taak.1"],
+  "linked_anchors": [
+    "1.1.I",
+    "1.1.I.A",
+    "1.1.taak.1",
+    "1.1.II.S",
+    "1.2.III.E",
+    "1.2.III",
+    "1.2.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.I",
-    "dekt_ook_anchors": ["1.1.I.A", "1.1.taak.1", "1.1.II.S", "1.2.III.E", "1.2.III", "1.2.taak.1"],
+    "dekt_ook_anchors": [
+      "1.1.I.A",
+      "1.1.taak.1",
+      "1.1.II.S",
+      "1.2.III.E",
+      "1.2.III",
+      "1.2.taak.1"
+    ],
     "reviewed_by": null,
     "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met 1.2.III.E (jaarlijkse inventaris) + 1.2.III + 1.2.taak.1 door PO 1.2-extractie."
   },
@@ -17,14 +32,30 @@
   "definitie": {
     "text": "Het **gestructureerd overzicht** van alle bezittingen, vorderingen, schulden, verplichtingen en eigen middelen van een onderneming op één gekozen datum (typisch balansdatum), opgesteld door fysieke telling, contractverificatie en waardering. De inventaris is de feitelijke check op de boekhouding: voorraad ter plaatse tellen, klantenlijst nakijken, schuldenlijst opmaken. Verschillen tussen boekhouding en inventaris worden gecorrigeerd vóór de jaarrekening wordt opgesteld (WER art. III.89).",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "WER art. III.89"},
+    "source": {
+      "type": "wet",
+      "short": "WER art. III.89"
+    },
     "references": [
-      {"type": "advies", "short": "CBN 174/1 — Beginselen van een regelmatige boekhouding"}
+      {
+        "type": "advies",
+        "short": "CBN 174/1 — Beginselen van een regelmatige boekhouding"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden", "sha256": null, "version": "rag-v1"},
-      {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "stappen": [
     {
@@ -40,8 +71,20 @@
       "titel": "Tel de fysieke voorraden en bezittingen",
       "wat": "Voer een fysieke telling uit van voorraden (grondstoffen, halffabrikaten, afgewerkte producten, handelsgoederen) en controleer aanwezigheid van vaste activa (machines, voertuigen, ICT).",
       "waarom": "De boekhoudkundige voorraad volgt aankopen en verkopen; fysieke telling vangt verlies, diefstal, breuk en administratieve fouten op.",
-      "input": [{"artefact": "Voorraadboeking + telblad", "veld": "Aantal en eenheidsprijs per item", "type": "lijst"}],
-      "output": [{"artefact": "Inventarislijst voorraad", "veld": "Totaalwaarde voorraad", "type": "boekhoudkundig-bedrag"}],
+      "input": [
+        {
+          "artefact": "Voorraadboeking + telblad",
+          "veld": "Aantal en eenheidsprijs per item",
+          "type": "lijst"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Inventarislijst voorraad",
+          "veld": "Totaalwaarde voorraad",
+          "type": "boekhoudkundig-bedrag"
+        }
+      ],
       "hoe": "1. Maak telbladen per magazijnplaats.\n2. Tel item per item door 2 personen onafhankelijk; vergelijk.\n3. Waardeer aan aanschaffingswaarde, vervangingswaarde of marktwaarde (de laagste — voorzichtigheidsbeginsel).\n4. Vergelijk met boekhoudkundige voorraad → verschil = inventarisverschil.\n",
       "voorbeeld": {
         "scenario": "Meubelzaak Mertens BV: boekhoudkundige voorraad op 31/12 = € 184.500; fysieke telling levert € 175.800 op.",
@@ -67,8 +110,20 @@
       "titel": "Verifieer vorderingen en schulden",
       "wat": "Maak een lijst van openstaande klantenvorderingen (op basis van de hulpklantenrekening), leveranciersschulden, bank, andere financiële schulden. Vraag eventueel saldobevestigingen.",
       "waarom": "Open vorderingen kunnen geheel of gedeeltelijk oninbaar zijn; schulden kunnen ontbreken (verplichtingen die nog niet zijn gefactureerd). Zonder verificatie ontstaat een verkeerd vermogensbeeld.",
-      "input": [{"artefact": "Hulpklantenrekening + leveranciersrekening", "veld": "Openstaand bedrag", "type": "boekhoudkundig-bedrag"}],
-      "output": [{"artefact": "Inventarislijst vorderingen en schulden", "veld": "Geverifieerd saldo", "type": "boekhoudkundig-bedrag"}],
+      "input": [
+        {
+          "artefact": "Hulpklantenrekening + leveranciersrekening",
+          "veld": "Openstaand bedrag",
+          "type": "boekhoudkundig-bedrag"
+        }
+      ],
+      "output": [
+        {
+          "artefact": "Inventarislijst vorderingen en schulden",
+          "veld": "Geverifieerd saldo",
+          "type": "boekhoudkundig-bedrag"
+        }
+      ],
       "hoe": "1. Print de openstaande klantenlijst en leveranciersposten per balansdatum.\n2. Voor grote saldi: stuur saldobevestigingen.\n3. Beoordeel inbaarheid: voor twijfelachtige vorderingen → waardevermindering boeken (zie [[bedrijfsvorderingen-waardevermindering]]).\n4. Check schulden die nog niet gefactureerd zijn: ontvangen goederen zonder factuur, gewerkte uren personeel december, etc. → overlopende rekeningen.\n",
       "grondslag": "WER art. III.89"
     },
@@ -95,30 +150,80 @@
       "betekenis": "Goederen ontvangen vóór 31/12 horen in de voorraad, ook al komt de factuur in januari. Goederen verzonden vóór 31/12 horen niet meer in de voorraad, ook al wordt de verkoopfactuur pas in januari opgemaakt. Cut-off is de kritische bewaking rond balansdatum.",
       "herkenningspunt": "Examenvraag: 'levering op 30/12 met factuur op 5/1' — boeking in 20X1 of 20X2?",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "advies", "short": "CBN 174/1 + KB 21/10/2018 inkomsten/uitgaven-toerekening"},
-      "_provenance": {"inputs": [{"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 174/1 + KB 21/10/2018 inkomsten/uitgaven-toerekening"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Rechten en verplichtingen buiten balans",
       "betekenis": "De inventaris omvat ook rechten en verplichtingen die NIET in de balans staan: huurverplichtingen, persoonlijke borgstellingen, lopende garanties, opties, hangende geschillen. Deze gaan naar klasse 0 en in de toelichting.",
       "herkenningspunt": "Examen: vergeten een verplichting buiten balans op te nemen = onvolledige inventaris.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 174/1 + CBN 0003/02"},
-      "_provenance": {"inputs": [{"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris", "sha256": null, "version": "rag-v1"}, {"id": "CBN-0003-02-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_top_part1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 174/1 + CBN 0003/02"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-0003-02-niet-in-de-balans-opgenomen-rechten-en-verplichtingen__sec_top_part1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "De inventaris is niet 'gewoon de boekhoudkundige saldi'. Het is een onafhankelijke vaststelling per fysieke telling, contractcheck en waardering. Wie enkel het balanscijfer overschrijft, voldoet niet aan de inventarisplicht.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 174/1"},
-      "_provenance": {"inputs": [{"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [],
   "edges": [
-    {"type": "onderdeel-van", "target": "regelmatige-boekhouding", "redenering": "Inventaris is een verplicht jaarlijks element van een regelmatige boekhouding."},
-    {"type": "getriggerd-door", "target": "jaarafsluiting", "redenering": "Inventaris wordt opgemaakt bij elke jaarafsluiting."},
-    {"type": "vereist-kennis-van", "target": "waarderingsregels", "redenering": "Posten worden niet alleen geteld maar ook gewaardeerd volgens de geldende waarderingsregels."}
+    {
+      "type": "onderdeel-van",
+      "target": "regelmatige-boekhouding",
+      "redenering": "Inventaris is een verplicht jaarlijks element van een regelmatige boekhouding."
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "jaarafsluiting",
+      "redenering": "Inventaris wordt opgemaakt bij elke jaarafsluiting."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "waarderingsregels",
+      "redenering": "Posten worden niet alleen geteld maar ook gewaardeerd volgens de geldende waarderingsregels."
+    }
   ]
 }

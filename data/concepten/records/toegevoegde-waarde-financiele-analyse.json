@@ -4,20 +4,36 @@
   "node_type": "methode",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.9.V.A", "1.9.taak.1"],
+  "linked_anchors": [
+    "1.9.V.A",
+    "1.9.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T10:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.9.V.A",
-    "dekt_ook_anchors": ["1.9.taak.1"],
+    "dekt_ook_anchors": [
+      "1.9.taak.1"
+    ],
     "reviewed_by": null,
     "bron_gap": "De wettelijke jaarrekeningschema's (KB WVV) hebben geen aparte rubriek 'toegevoegde waarde'; de term komt uit financiële-analyse-vakdoctrine en uit de NBB-Centrale-voor-Balansen die ze als afgeleide berekent."
   },
   "doel": {
     "text": "Toegevoegde waarde meet de welvaart die de onderneming zelf creëert door productie of dienstverlening, los van de waarde die ze inkoopt bij derden. Het is de economische bovenbouw van de resultatenrekening: hoeveel waarde voegt de onderneming toe aan de aangekochte goederen en diensten?",
     "confidence": "inferred-common-knowledge",
-    "source": {"type": "vakdoctrine", "short": "Financiële analyse — NBB-Centrale voor Balansen"},
-    "_provenance": {"inputs": [{"id": "anchor-1.9.V.A", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Financiële analyse — NBB-Centrale voor Balansen"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.9.V.A",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -27,8 +43,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV: bedrijfsopbrengsten € 50.000.000 − aankopen handelsgoederen en diensten € 32.000.000 = toegevoegde waarde € 18.000.000.",
       "grondslag": "Vakdoctrine financiële analyse",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "NBB-balansanalyse"},
-      "_provenance": {"inputs": [{"id": "anchor-1.9.V.A", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "NBB-balansanalyse"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.V.A",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Verdeling over productiefactoren",
@@ -37,8 +64,19 @@
       "voorbeeld_inline": "Bij Rotex Roeselare NV: van de toegevoegde waarde van € 18.000.000 gaat € 12.000.000 naar personeel (67%), € 600.000 naar financiële kosten (3%), € 1.200.000 naar belastingen (7%) en € 4.200.000 (23%) blijft in de onderneming als brutoresultaat.",
       "grondslag": "Vakdoctrine financiële analyse",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "NBB-balansanalyse"},
-      "_provenance": {"inputs": [{"id": "anchor-1.9.V.A", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "NBB-balansanalyse"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.V.A",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "berekeningsmethode": [
@@ -50,9 +88,21 @@
           "naam": "Toegevoegde waarde (bruto)",
           "wiskunde": "TW = bedrijfsopbrengsten − aankopen goederen en diensten van derden",
           "variabelen": [
-            {"symbool": "TW", "betekenis": "Bruto toegevoegde waarde", "eenheid": "EUR"},
-            {"symbool": "bedrijfsopbrengsten", "betekenis": "Omzet + andere bedrijfsopbrengsten + voorraadwijziging (rubrieken 70-74)", "eenheid": "EUR"},
-            {"symbool": "aankopen goederen en diensten", "betekenis": "Aankopen handelsgoederen + diensten en diverse goederen (rubrieken 60-61)", "eenheid": "EUR"}
+            {
+              "symbool": "TW",
+              "betekenis": "Bruto toegevoegde waarde",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "bedrijfsopbrengsten",
+              "betekenis": "Omzet + andere bedrijfsopbrengsten + voorraadwijziging (rubrieken 70-74)",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "aankopen goederen en diensten",
+              "betekenis": "Aankopen handelsgoederen + diensten en diverse goederen (rubrieken 60-61)",
+              "eenheid": "EUR"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "bedrijfsopbrengsten = € 50.000.000, aankopen = € 32.000.000",
@@ -64,9 +114,15 @@
           "id": "toegevoegde-waarde-per-vte",
           "naam": "Toegevoegde waarde per VTE (productiviteit)",
           "wiskunde": "TW per VTE = toegevoegde waarde / gemiddeld aantal voltijdse equivalenten",
-          "afhankelijk_van": ["toegevoegde-waarde"],
+          "afhankelijk_van": [
+            "toegevoegde-waarde"
+          ],
           "variabelen": [
-            {"symbool": "VTE", "betekenis": "Voltijdse equivalent (gemiddeld over boekjaar)", "eenheid": "personen"}
+            {
+              "symbool": "VTE",
+              "betekenis": "Voltijdse equivalent (gemiddeld over boekjaar)",
+              "eenheid": "personen"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "TW = € 18.000.000, VTE = 250",
@@ -75,9 +131,20 @@
           }
         }
       ],
-      "source": {"type": "vakdoctrine", "short": "NBB-balansanalyse"},
+      "source": {
+        "type": "vakdoctrine",
+        "short": "NBB-balansanalyse"
+      },
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": [{"id": "anchor-1.9.V.A", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.V.A",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -86,8 +153,19 @@
       "betekenis": "TW per VTE is de standaard productiviteits-vergelijking met de sector. NBB publiceert deze ratio per NACE-code. Een TW per VTE die structureel onder het sectorgemiddelde ligt, signaleert dat de onderneming relatief veel personeel inzet voor relatief weinig waardecreatie — examenvalkuil voor diagnose-vragen.",
       "anker_slug": "1.9.V.A",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "NBB-balansanalyse"},
-      "_provenance": {"inputs": [{"id": "anchor-1.9.V.A", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "NBB-balansanalyse"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.V.A",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -95,11 +173,29 @@
       "vergelijking_met": "rentabiliteit-totaal-activa-roa",
       "verschil": "ROA meet rendement op de geïnvesteerde activa (kapitaalproductiviteit); toegevoegde waarde meet welvaartscreatie vóór verdeling (economische productiviteit). Beide kunnen tegelijk goed of slecht zijn.",
       "trigger": "Examenvraag 'productiviteit vs rendabiliteit': TW/VTE = arbeidsproductiviteit; ROA = totale kapitaalproductiviteit. Mix niet.",
-      "_provenance": {"inputs": [{"id": "anchor-1.9.V.A", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.V.A",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "ratio-vier-doelen-vergelijking", "redenering": "Toegevoegde waarde voegt het doel 'productiviteit' toe aan de klassieke vier ratio-doelen.", "confidence": "inferred"},
-    {"type": "vereist-kennis-van", "target": "horizontale-analyse-jaarrekening", "redenering": "TW per VTE in evolutie geeft trendlezing van productiviteit.", "confidence": "inferred"}
+    {
+      "type": "onderdeel-van",
+      "target": "ratio-vier-doelen-vergelijking",
+      "redenering": "Toegevoegde waarde voegt het doel 'productiviteit' toe aan de klassieke vier ratio-doelen.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "horizontale-analyse-jaarrekening",
+      "redenering": "TW per VTE in evolutie geeft trendlezing van productiviteit.",
+      "confidence": "inferred"
+    }
   ]
 }

@@ -4,32 +4,78 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.I.D", "1.2.I", "1.2.V"],
+  "linked_anchors": [
+    "1.2.I.D",
+    "1.2.I",
+    "1.2.V"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.I.D",
-    "dekt_ook_anchors": ["1.2.I", "1.2.V"],
+    "dekt_ook_anchors": [
+      "1.2.I",
+      "1.2.V"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Het Koninklijk Besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (kortweg KB-WVV) werkt het WVV gedetailleerd uit. Boek 3 van het KB regelt het minimum algemeen rekeningenstelsel (MAR), de schema's van de jaarrekening (volledig/verkort/micro), de waarderingsregels, en de inhoud van de toelichting. Boek 3 vervangt het oude KB van 30 januari 2001.",
     "confidence": "grounded",
-    "source": {"type": "kb", "short": "KB van 29 april 2019, Boek 3"},
+    "source": {
+      "type": "kb",
+      "short": "KB van 29 april 2019, Boek 3"
+    },
     "references": [
-      {"type": "kb", "short": "KB-WVV art. 3:2 (jaarrekening-inhoud)"},
-      {"type": "kb", "short": "KB-WVV art. 3:35 (waarderingsregels)"},
-      {"type": "kb", "short": "KB-WVV art. 3:66 (waardevermindering)"},
-      {"type": "kb", "short": "KB-WVV bijlage 1 (volledig schema)"},
-      {"type": "kb", "short": "KB-WVV bijlage 2 (verkort schema)"},
-      {"type": "kb", "short": "KB-WVV bijlage 3 (microschema)"}
+      {
+        "type": "kb",
+        "short": "KB-WVV art. 3:2 (jaarrekening-inhoud)"
+      },
+      {
+        "type": "kb",
+        "short": "KB-WVV art. 3:35 (waarderingsregels)"
+      },
+      {
+        "type": "kb",
+        "short": "KB-WVV art. 3:66 (waardevermindering)"
+      },
+      {
+        "type": "kb",
+        "short": "KB-WVV bijlage 1 (volledig schema)"
+      },
+      {
+        "type": "kb",
+        "short": "KB-WVV bijlage 2 (verkort schema)"
+      },
+      {
+        "type": "kb",
+        "short": "KB-WVV bijlage 3 (microschema)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "KB-WVV-2019__art_3_2", "sha256": null, "version": "rag-v1"},
-      {"id": "KB-WVV-2019__art_3_55", "sha256": null, "version": "rag-v1"},
-      {"id": "KB-WVV-2019__art_3_57", "sha256": null, "version": "rag-v1"},
-      {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-2019__art_3_2",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_55",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_57",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_82",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Hoe moet Meubelzaak Mertens BV haar voorraad waarderen? → KB-WVV art. 3:35 e.v. (waarderingsregels) + KB-WVV art. 3:44 (voorraad-waardering).",
   "bouwstenen": [
@@ -40,10 +86,19 @@
       "voorbeeld_inline": "Voor 'waardering van vaste activa' → blok 3 (waarderingsregels). Voor 'mag ik vasthouden aan microschema?' → blok 1 (schema-keuze) + grootteklassen WVV art. 1:24-1:25.",
       "grondslag": "KB-WVV Boek 3, gestructureerd in titels",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "kb", "short": "KB-WVV Boek 3"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_2", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV Boek 3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Minimum Algemeen Rekeningenstelsel (MAR)",
@@ -52,10 +107,19 @@
       "voorbeeld_inline": "Rekening '610 Diensten en diverse goederen' staat in elke Belgische boekhouding op dezelfde plek — eis van het MAR.",
       "grondslag": "KB-WVV art. 3:9 + bijlage MAR; KB van 12 september 1983 (historisch)",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV art. 3:9 + bijlage"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-2010-20-gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen__sec_d", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV art. 3:9 + bijlage"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2010-20-gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen__sec_d",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Drie schema-bijlagen",
@@ -64,10 +128,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV (grote NV) → bijlage 1; Meubelzaak Mertens BV (kleine BV) → bijlage 2; Oprichtingen Oostende BV (microvennootschap) → bijlage 3.",
       "grondslag": "KB-WVV bijlagen 1-3; verwijzing in art. 3:2 e.v.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV bijlagen 1-3"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_55", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV bijlagen 1-3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_55",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Aparte regels voor VZW, IVZW en stichtingen",
@@ -76,10 +149,19 @@
       "voorbeeld_inline": "VZW Quelle de Vie (met economische activiteit, klein) → vereenvoudigd schema voor verenigingen, KB-WVV art. 3:184 e.v.",
       "grondslag": "KB-WVV art. 3:184 e.v.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV art. 3:184 e.v."},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_145", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV art. 3:184 e.v."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_145",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -88,20 +170,38 @@
       "betekenis": "KB-WVV-artikelen zijn genummerd in 'Boek:Titel' formaat (bv. art. 3:35). Eerste cijfer = boek, na : = artikel. Voor jaarrekening-vragen: artikelen 3:1 tot 3:200.",
       "herkenningspunt": "Een verwijzing 'art. 3:127 KB-WVV' = artikel in Boek 3 van het uitvoeringsbesluit (consolidatie-context).",
       "confidence": "inferred",
-      "source": {"type": "kb", "short": "KB-WVV nummering"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_2", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV nummering"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Een KB-bepaling kan een wettekst niet tegenspreken. Bij conflict tussen WVV en KB-WVV primeert de wet. CBN-adviezen kunnen het KB ook niet 'wegcontracten' — alleen interpreteren.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "Hiërarchie der normen"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "Hiërarchie der normen"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_II",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

@@ -4,19 +4,37 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.I.A", "1.6.I.C", "1.6.IV.C"],
+  "linked_anchors": [
+    "1.6.I.A",
+    "1.6.I.C",
+    "1.6.IV.C"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.I.A",
-    "dekt_ook_anchors": ["1.6.I.C", "1.6.IV.C"],
+    "dekt_ook_anchors": [
+      "1.6.I.C",
+      "1.6.IV.C"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Een contractuele beoordelingsopdracht (ook 'review' of 'beperkt nazicht') is een assurance-opdracht waarbij de beroepsbeoefenaar een beperkte mate van zekerheid verschaft over de betrouwbaarheid van historische financiële informatie. Hij formuleert een conclusie in negatieve vorm: 'er zijn ons geen aanwijzingen gebleken dat ...'.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA KMO-controlenorm §2"},
-    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm §2"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Een minderheidsaandeelhouder van Naaiatelier Ninove BV wil een gevoel krijgen of de jaarrekening 2025 klopt, maar betaalt liever niet voor een volledige audit. Sofie Janssens voert een beperkte controle uit (vooral cijferanalyses + bevragingen) en levert een beoordelingsverslag af: 'op basis van onze werkzaamheden zijn ons geen feiten gebleken die ons doen oordelen dat de jaarrekening geen getrouw beeld geeft'.",
   "bouwstenen": [
@@ -27,8 +45,19 @@
       "voorbeeld_inline": "Een KMO die geen audit nodig heeft maar haar bank wel een tweede paar ogen wil tonen op de jaarrekening.",
       "grondslag": "ITAA KMO-controlenorm §2",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §2"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Conclusie in negatieve vorm",
@@ -36,8 +65,19 @@
       "waarom": "De auditor heeft niet genoeg werk verricht om in positieve zin in te staan voor het getrouw beeld — hij kan enkel zeggen wat hij niet heeft gevonden.",
       "grondslag": "ITAA KMO-controlenorm §2",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §2"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Wettelijke triggers — terminologie",
@@ -45,8 +85,19 @@
       "waarom": "Termen in een wettekst beslissen welk zekerheidsniveau geldt — niet de cliëntwens.",
       "grondslag": "ITAA KMO-controlenorm §3",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §3"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -54,17 +105,41 @@
       "vergelijking_met": "contractuele-controleopdracht",
       "verschil": "Controle = positief oordeel + redelijke zekerheid + diepe dossiers. Beoordeling = negatieve conclusie + beperkte zekerheid + lichter dossier (vooral inquiry + analytical procedures).",
       "trigger": "Examenwoord 'controle' / 'audit' / 'getrouw beeld' → controle. Woord 'beoordeling' / 'review' / 'beperkt nazicht' → beoordeling.",
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "vergelijking_met": "samenstellingsopdracht-isrs4410",
       "verschil": "Beoordeling = ASSURANCE-opdracht (zekerheidsverschaffing, hoewel beperkt). Samenstelling (ISRS 4410) = GEEN assurance — de beroepsbeoefenaar helpt enkel cijfers in financiële overzichten gieten, hij vormt geen oordeel. Bij samenstelling geen 'wij hebben geen aanwijzingen gevonden'-zin.",
       "trigger": "Geeft de beroepsbeoefenaar zekerheid (zelfs beperkt)? Ja → beoordeling. Nee, hij helpt enkel opstellen? → samenstelling.",
-      "_provenance": {"inputs": [{"id": "ITAA-norm-samenstellingsopdrachten-isrs4410__sec_norm-inzake-de-samenstellingsopdrachten", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-samenstellingsopdrachten-isrs4410__sec_norm-inzake-de-samenstellingsopdrachten",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "specialisatie-van", "target": "assurance-opdracht", "redenering": "Beoordeling is een type assurance-opdracht met beperkt zekerheidsniveau."},
-    {"type": "vereist-kennis-van", "target": "beperkte-mate-van-zekerheid", "redenering": "Het kernverschil met controle zit in het lagere zekerheidsniveau."}
+    {
+      "type": "specialisatie-van",
+      "target": "assurance-opdracht",
+      "redenering": "Beoordeling is een type assurance-opdracht met beperkt zekerheidsniveau."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "beperkte-mate-van-zekerheid",
+      "redenering": "Het kernverschil met controle zit in het lagere zekerheidsniveau."
+    }
   ]
 }

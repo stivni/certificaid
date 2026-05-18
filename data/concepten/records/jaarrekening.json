@@ -4,25 +4,46 @@
   "node_type": "fenomeen",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.1.II.S", "1.1.II.Q"],
+  "linked_anchors": [
+    "1.1.II.S",
+    "1.1.II.Q"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.S",
-    "dekt_ook_anchors": ["1.1.II.Q"],
+    "dekt_ook_anchors": [
+      "1.1.II.Q"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Het **gestandaardiseerde overzicht** van de financiële toestand van een onderneming aan het einde van een boekjaar. Bestaat uit drie verplichte onderdelen: (1) de **balans** (vermogen op één moment), (2) de **resultatenrekening** (kosten en opbrengsten over het boekjaar), (3) de **toelichting** (uitleg bij de cijfers + waarderingsregels). Voor grote en niet-kleine ondernemingen ook (4) een **sociale balans**. De jaarrekening wordt opgesteld in één van drie schema's afhankelijk van de grootte: **volledig**, **verkort**, of **micro**.",
     "confidence": "grounded",
-    "source": {"type": "kb", "short": "KB WVV art. 3:65 — 3:170 (jaarrekeningschema's)"},
+    "source": {
+      "type": "kb",
+      "short": "KB WVV art. 3:65 — 3:170 (jaarrekeningschema's)"
+    },
     "references": [
-      {"type": "wet", "short": "WVV art. 3:1 (verplichting tot jaarrekening)"}
+      {
+        "type": "wet",
+        "short": "WVV art. 3:1 (verplichting tot jaarrekening)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "KB-WVV-2019__art_3_66", "sha256": null, "version": "rag-v1"},
-      {"id": "KB-WVV-2019__art_3_68", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-2019__art_3_66",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_68",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Naaiatelier Ninove BV (omzet € 1.250.000, balanstotaal € 1.850.000, 18 werknemers) overschrijdt de drempel voor 'kleine vennootschap' op één criterium → moet jaarrekening in **verkort schema** opstellen. Balans + RR + toelichting + (geen sociale balans want < 20 VTE). Indiening bij NBB binnen 30 dagen na goedkeuring AV.",
   "bouwstenen": [
@@ -33,8 +54,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV (omzet € 45.000.000, 220 VTE) — verplicht volledig schema. Naaiatelier Ninove BV (omzet € 1.250.000, 18 VTE) — verkort. Praktijk Persenaire eenmanszaak (omzet € 180.000) — vereenvoudigde boekhouding, geen klassieke jaarrekening.",
       "grondslag": "KB WVV art. 3:65 e.v.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:65"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_66", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:65"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_66",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Balans, RR en toelichting verplicht",
@@ -43,8 +75,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV's jaarrekening 20X1: balans 31/12 (vermogenspositie), RR 1/1 — 31/12 (resultaat), toelichting (waarderingsregels, mutaties vaste activa, klasse 0, sociale balans).",
       "grondslag": "KB WVV art. 3:65 — 3:71",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_66", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_66",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Toelichting als sluitstuk",
@@ -53,8 +96,19 @@
       "voorbeeld_inline": "Bij Rotex Roeselare NV: toelichting 'Mutatietabel materiële vaste activa' toont per categorie aanschaffingen, afstotingen, afschrijvingen en eindsaldo — niet zichtbaar in de gewone balans (alleen netto-bedrag).",
       "grondslag": "KB WVV art. 3:71 + bijlagen",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_70", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_70",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Neerlegging bij NBB",
@@ -63,8 +117,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV: AV op 15 mei 20X2 keurt jaarrekening 20X1 goed. Neerlegging NBB ten laatste 14 juni 20X2. Vanaf dan: vrij raadpleegbaar op nbb.be onder ondernemingsnummer.",
       "grondslag": "WVV art. 3:10 — 3:14",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_66", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WVV"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_66",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "drempelwaarden": [
@@ -73,18 +138,40 @@
       "waarde": "Maximaal 1 criterium overschreden: balanstotaal € 6.000.000, omzet € 11.250.000, gemiddeld personeel 50 VTE",
       "eenheid": "WVV art. 1:24 — 1:25",
       "gevolg": "Mag jaarrekening in **verkort schema** opstellen; vrijgesteld van jaarverslag (tenzij beursgenoteerd), commissaris-vrijstelling onder voorwaarden.",
-      "source": {"type": "wet", "short": "WVV art. 1:24"},
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:24"
+      },
       "confidence": "grounded",
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_66", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_66",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "naam": "Micro-vennootschap (microschema toegelaten)",
       "waarde": "Maximaal 1 criterium overschreden: balanstotaal € 350.000, omzet € 700.000, gemiddeld personeel 10 VTE",
       "eenheid": "WVV art. 1:25",
       "gevolg": "Mag jaarrekening in **microschema** opstellen — kortere balans, minder verplichte vermeldingen in toelichting.",
-      "source": {"type": "wet", "short": "WVV art. 1:25"},
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:25"
+      },
       "confidence": "grounded",
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_66", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_66",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -93,16 +180,38 @@
       "betekenis": "De beginbalans van een boekjaar moet overeenstemmen met de eindbalans van het voorafgaande boekjaar (boekhoudkundig continuïteitsbeginsel KB WVV art. 3:5). Onderbroken vergelijkbaarheid moet expliciet worden gemotiveerd.",
       "herkenningspunt": "Examen: 'eind 20X1 reserves € 80.000; begin 20X2 reserves € 85.000?' → onverklaarbaar verschil, motivering vereist.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:5"},
-      "_provenance": {"inputs": [{"id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestels__sec_boekhoudkundige-beginselen-en-waarderingsregels", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:5"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestels__sec_boekhoudkundige-beginselen-en-waarderingsregels",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "De schema-keuze gebeurt op TWEE opeenvolgende boekjaren met overschrijding van drempels (consistency-rule). Eén jaar boven drempel kantelt nog niet — pas twee jaar op rij.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV art. 1:24 — 1:25"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_66", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:24 — 1:25"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_66",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -113,9 +222,25 @@
     }
   ],
   "edges": [
-    {"type": "bevat", "target": "balans", "redenering": "Balans is één van de drie verplichte onderdelen."},
-    {"type": "bevat", "target": "resultatenrekening", "redenering": "RR is verplicht onderdeel."},
-    {"type": "bevat", "target": "toelichting", "redenering": "Toelichting is sluitstuk."},
-    {"type": "getriggerd-door", "target": "jaarafsluiting", "redenering": "Jaarrekening wordt opgesteld na jaarafsluiting + inventaris."}
+    {
+      "type": "bevat",
+      "target": "balans",
+      "redenering": "Balans is één van de drie verplichte onderdelen."
+    },
+    {
+      "type": "bevat",
+      "target": "resultatenrekening",
+      "redenering": "RR is verplicht onderdeel."
+    },
+    {
+      "type": "bevat",
+      "target": "toelichting",
+      "redenering": "Toelichting is sluitstuk."
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "jaarafsluiting",
+      "redenering": "Jaarrekening wordt opgesteld na jaarafsluiting + inventaris."
+    }
   ]
 }

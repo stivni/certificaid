@@ -4,28 +4,60 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.5.IV.C", "1.5.III", "1.5.IV"],
+  "linked_anchors": [
+    "1.5.IV.C",
+    "1.5.III",
+    "1.5.IV"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.5.IV.C",
-    "dekt_ook_anchors": ["1.5.III", "1.5.IV"],
+    "dekt_ook_anchors": [
+      "1.5.III",
+      "1.5.IV"
+    ],
     "reviewed_by": null
   },
   "verplichting": {
     "text": "CBN-advies 2022/08 regelt de **wijziging van het boekhoudkundig referentiestelsel** voor Belgische ondernemingen die overstappen tussen Belgisch GAAP en IFRS — of omgekeerd. Twee veelvoorkomende scenario's: (a) **van Belgisch GAAP naar IFRS** — typisch bij nieuwe beursnotering of vrijwillige keuze voor geconsolideerde jaarrekening; toepassing van IFRS 1 voor de eerste IFRS-jaarrekening; (b) **van IFRS terug naar Belgisch GAAP** — bv. bij delisting of bij intrekking van de vrijwillige IFRS-keuze. Bij beide richtingen vereist het CBN-advies: (1) een **transparante toelichting** van de redenen tot wisseling; (2) volledige **herrekening** van openingsbalans volgens nieuwe stelsel; (3) **aansluiting** tussen oude en nieuwe cijfers voor de vergelijkende periode; (4) **goedkeuring** door bevoegd orgaan (raad van bestuur + algemene vergadering); (5) in geval van overstap **vóór de wettelijke verplichting** (vrijwillig): toepassing van IFRS op alle toekomstige boekjaren (geen jojo-rapportering).",
     "confidence": "grounded",
-    "source": {"type": "advies", "short": "CBN 2022/08"},
+    "source": {
+      "type": "advies",
+      "short": "CBN 2022/08"
+    },
     "references": [
-      {"type": "advies", "short": "CBN 2022/08 — Wijziging boekhoudkundig referentiestelsel"},
-      {"type": "ifrs", "short": "IFRS 1 (eerste toepassing IFRS)"},
-      {"type": "verordening", "short": "EU-IFRS-verordening 1606/2002 art. 5 (lidstatenoptie)"},
-      {"type": "advies", "short": "CBN 2022/14 — Bijkantoren (gerelateerde regelgeving)"}
+      {
+        "type": "advies",
+        "short": "CBN 2022/08 — Wijziging boekhoudkundig referentiestelsel"
+      },
+      {
+        "type": "ifrs",
+        "short": "IFRS 1 (eerste toepassing IFRS)"
+      },
+      {
+        "type": "verordening",
+        "short": "EU-IFRS-verordening 1606/2002 art. 5 (lidstatenoptie)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2022/14 — Bijkantoren (gerelateerde regelgeving)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding", "sha256": null, "version": "rag-v1"},
-      {"id": "EU-IFRS-verordening-1606-2002__art_5", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "EU-IFRS-verordening-1606-2002__art_5",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -35,8 +67,19 @@
       "voorbeeld_inline": "Aurelia Holding NV stapt vrijwillig over naar IFRS voor haar geconsolideerde jaarrekening in 2027. Zij kan in 2030 niet zomaar weer terug naar BE-GAAP — alleen mits significante gewijzigde omstandigheden + motivering aan CBN/Nationale Bank.",
       "grondslag": "CBN 2022/08",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2022/08"},
-      "_provenance": {"inputs": [{"id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/08"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Aansluitingstabellen — eerste IFRS-jaarrekening",
@@ -45,8 +88,19 @@
       "voorbeeld_inline": "Aurelia Holding 2027 eerste IFRS-jaarrekening: aansluitingstabel toont EV BE-GAAP per 1 januari 2026 € 125.000.000 → impact aanpassingen +€ 1.500.000 (saldo van schrappen onderzoekskosten, IFRS 16 leasing, herwaardering vastgoed) → EV IFRS per 1 januari 2026 € 126.500.000.",
       "grondslag": "CBN 2022/08 + IFRS 1 alinea 24",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2022/08 + IFRS 1 alinea 24"},
-      "_provenance": {"inputs": [{"id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/08 + IFRS 1 alinea 24"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Beslissingsproces — bevoegdheden",
@@ -55,22 +109,55 @@
       "voorbeeld_inline": "Aurelia Holding's raad van bestuur beslist in juni 2026 om vanaf boekjaar 2027 IFRS toe te passen. Het besluit wordt voorgelegd aan de algemene vergadering september 2026 voor bevestiging. Wolters & Partners CVBA (commissaris) geeft gunstig advies. Documentatie in bestuursverslag.",
       "grondslag": "CBN 2022/08 + vennootschapsrechtelijke vereisten WVV",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "advies", "short": "CBN 2022/08 + WVV"},
-      "_provenance": {"inputs": [{"id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/08 + WVV"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Stelselwisseling is GEEN schattingswijziging onder IAS 8. Het is een fundamentele heropbouw van de cijferbasis — retroactieve aanpassing van vergelijkende periode is verplicht, niet de prospectieve aanpak van schattingswijzigingen.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 8 + IFRS 1"},
-      "_provenance": {"inputs": [{"id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 8 + IFRS 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Belgische statutaire jaarrekening blijft ALTIJD Belgisch GAAP — ook na overstap naar IFRS voor de geconsolideerde jaarrekening. CBN 2022/08 geldt alleen voor de geconsolideerde jaarrekening of voor bijzondere gevallen waarin IFRS voor enkelvoudig toegelaten zou zijn.",
       "confidence": "grounded",
-      "source": {"type": "verordening", "short": "EU-IFRS-verordening 1606/2002 art. 5 + Belgisch recht"},
-      "_provenance": {"inputs": [{"id": "EU-IFRS-verordening-1606-2002__art_5", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "verordening",
+        "short": "EU-IFRS-verordening 1606/2002 art. 5 + Belgisch recht"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_5",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

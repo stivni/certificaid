@@ -4,12 +4,21 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.C", "1.4.I.E", "1.4.I.G", "1.4.taak.1"],
+  "linked_anchors": [
+    "1.4.I.C",
+    "1.4.I.E",
+    "1.4.I.G",
+    "1.4.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.E",
-    "dekt_ook_anchors": ["1.4.I.C", "1.4.I.G", "1.4.taak.1"],
+    "dekt_ook_anchors": [
+      "1.4.I.C",
+      "1.4.I.G",
+      "1.4.taak.1"
+    ],
     "reviewed_by": null,
     "schema_1_4_migration": {
       "uitgevoerd_op": "2026-05-16T00:11Z",
@@ -38,21 +47,48 @@
   "definitie": {
     "text": "De macht om deel te nemen aan de financiële en operationele beleidsbeslissingen van een andere onderneming, zonder die beslissingen alleen of samen met anderen te kunnen sturen. Invloed van betekenis is het kwalificerende criterium voor een 'geassocieerde onderneming' (WVV art. 1:22): de moeder heeft een deelneming en spreekt mee over het beleid, maar oefent geen controle uit. Vanaf 20 % stemrechten geldt een weerlegbaar vermoeden van invloed van betekenis.",
     "confidence": "inferred-from-aggregation",
-    "source": {"type": "wet", "short": "WVV art. 1:22 (geassocieerde vennootschap)"},
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 1:22 (geassocieerde vennootschap)"
+    },
     "references": [
-      {"type": "wet", "short": "WVV art. 1:22"},
-      {"type": "kb", "short": "KB WVV art. 3:141 — 3:145 (vermogensmutatie)"},
-      {"type": "advies", "short": "CBN 2022/11 — Vermogensmutatiemethode"},
-      {"type": "advies", "short": "CBN 2013/3 — Step acquisitions (update)"}
+      {
+        "type": "wet",
+        "short": "WVV art. 1:22"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:141 — 3:145 (vermogensmutatie)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2022/11 — Vermogensmutatiemethode"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2013/3 — Step acquisitions (update)"
+      }
     ],
     "_provenance": {
       "inputs": [
-        {"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     },
     "_corrected_from": [
-      {"field": "text", "from": "De macht om deel te nemen aan de financiële en operationele beleidsbeslissingen van een andere onderneming, zonder die beleidsbeslissingen alleen of samen met andere vennoten te kunnen sturen. Invloed van betekenis is het kwalificerend criterium voor een 'geassocieerde onderneming' (WVV art. 1:22): de moedervennootschap heeft een participatie en oefent invloed uit op het beleid, maar bezit géén controle. Bij een deelnemingspercentage van minstens 20 % geldt een weerlegbaar vermoeden van invloed van betekenis.", "reason": "Stagiair-toon: 'moedervennootschap' → 'moeder'; korte zinnen (regel 6)."}
+      {
+        "field": "text",
+        "from": "De macht om deel te nemen aan de financiële en operationele beleidsbeslissingen van een andere onderneming, zonder die beleidsbeslissingen alleen of samen met andere vennoten te kunnen sturen. Invloed van betekenis is het kwalificerend criterium voor een 'geassocieerde onderneming' (WVV art. 1:22): de moedervennootschap heeft een participatie en oefent invloed uit op het beleid, maar bezit géén controle. Bij een deelnemingspercentage van minstens 20 % geldt een weerlegbaar vermoeden van invloed van betekenis.",
+        "reason": "Stagiair-toon: 'moedervennootschap' → 'moeder'; korte zinnen (regel 6)."
+      }
     ]
   },
   "voorbeeld_inline": "Antwerpse Investments NV bezit 25 % van de stemrechten in Drukkerij Dendermonde BV en heeft een vertegenwoordiger in het bestuur. Geen controle (geen meerderheid, geen stemovereenkomst) → weerlegbaar vermoeden van invloed van betekenis → Drukkerij Dendermonde is geassocieerde onderneming van Antwerpse → vermogensmutatie.",
@@ -62,18 +98,40 @@
       "waarde": "≥ 20 %",
       "eenheid": "deelnemingspercentage in stemrechten",
       "gevolg": "Weerlegbaar vermoeden van invloed van betekenis → kwalificatie als geassocieerde onderneming → vermogensmutatiemethode in de geconsolideerde jaarrekening.",
-      "source": {"type": "wet", "short": "WVV art. 1:22, § 2"},
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:22, § 2"
+      },
       "confidence": "inferred-from-aggregation",
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "naam": "Bovengrens (overgang naar controle)",
       "waarde": "> 50 % stemrechten of controle in feite",
       "eenheid": "stemrechten",
       "gevolg": "Boven 50 % stemrechten of bij vastgestelde controle in feite kantelt 'invloed van betekenis' naar 'exclusieve controle'. De deelneming wordt dan een dochter (geen geassocieerde meer) → integrale consolidatie.",
-      "source": {"type": "wet", "short": "WVV art. 1:14 (controle) jo. art. 1:22"},
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:14 (controle) jo. art. 1:22"
+      },
       "confidence": "inferred",
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -82,23 +140,49 @@
       "betekenis": "Step-acquisitions doen zich voor wanneer de deelneming in een geassocieerde stapsgewijs verhoogt. Drie kantelpunten: (a) van geen participatie → naar invloed van betekenis (vermogensmutatie start); (b) van invloed van betekenis → naar controle (overgang naar integrale consolidatie); (c) verhoging binnen invloed-van-betekenis (geen verandering van kwalificatie, alleen pro-rata-aanpassing).",
       "herkenningspunt": "Examen-zin 'Antwerpse Investments NV verwerft eerst 25 % en daarna nog eens 35 % in Drukkerij Dendermonde BV': twee opeenvolgende kwalificaties; de tweede stap (totaal 60 %) triggert de overgang naar integrale consolidatie.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2013/3 — Step acquisitions"},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2013/3 — Step acquisitions"
+      },
       "_provenance": {
         "inputs": [
-          {"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1"},
-          {"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_voorbeeld-1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       },
       "_corrected_from": [
-        {"field": "herkenningspunt", "from": "Examenopgave 'ABC verwerft initieel 20 % en later 60 % in DEF': twee opeenvolgende kwalificaties; de tweede stap triggert een overgang naar integrale consolidatie.", "reason": "Cast-namen ABC/DEF → Antwerpse/Drukkerij Dendermonde (regel 7)."}
+        {
+          "field": "herkenningspunt",
+          "from": "Examenopgave 'ABC verwerft initieel 20 % en later 60 % in DEF': twee opeenvolgende kwalificaties; de tweede stap triggert een overgang naar integrale consolidatie.",
+          "reason": "Cast-namen ABC/DEF → Antwerpse/Drukkerij Dendermonde (regel 7)."
+        }
       ]
     },
     {
       "aspect": "Gevolg voor consolidatiemethode",
       "betekenis": "Een geassocieerde onderneming (deelneming met invloed van betekenis maar zonder controle) wordt in de geconsolideerde jaarrekening opgenomen via de vermogensmutatiemethode (KB WVV art. 3:142). De deelneming wordt jaarlijks geherwaardeerd op het pro-rata aandeel in het eigen vermogen van de geassocieerde.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:142"},
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:142"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [],
@@ -106,10 +190,25 @@
     {
       "text": "Het vermoeden bij ≥ 20 % is weerlegbaar. Kan de moeder bewijzen dat zij ondanks haar 20 %+ géén invloed van betekenis kan uitoefenen — bv. door statutaire beperkingen of door een dominante andere aandeelhouder die alle stemrechten effectief blokkeert — dan vervalt de kwalificatie als geassocieerde onderneming.",
       "confidence": "inferred",
-      "source": {"type": "wet", "short": "WVV art. 1:22, § 2"},
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:22, § 2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "text", "from": "Het vermoeden bij ≥ 20 % is weerlegbaar. Indien de moeder kan aantonen dat zij ondanks haar 20 %+ géén invloed kan uitoefenen (bv. statutaire beperkingen, conflicterende aandeelhouders), kan de kwalificatie als geassocieerde onderneming worden uitgesloten.", "reason": "Stagiair-toon: 'aantonen' → 'bewijzen'; concretiseren van het tegenbewijs (regel 6)."}
+        {
+          "field": "text",
+          "from": "Het vermoeden bij ≥ 20 % is weerlegbaar. Indien de moeder kan aantonen dat zij ondanks haar 20 %+ géén invloed kan uitoefenen (bv. statutaire beperkingen, conflicterende aandeelhouders), kan de kwalificatie als geassocieerde onderneming worden uitgesloten.",
+          "reason": "Stagiair-toon: 'aantonen' → 'bewijzen'; concretiseren van het tegenbewijs (regel 6)."
+        }
       ]
     }
   ],
@@ -122,7 +221,15 @@
         "veld": "vergelijkingsparen → edges",
         "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
       },
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "contrasteert-met",
@@ -132,7 +239,15 @@
         "veld": "vergelijkingsparen → edges",
         "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
       },
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "getriggerd-door",
@@ -142,7 +257,15 @@
         "veld": "contrasteert-met → getriggerd-door",
         "reden": "Constitutieve relatie (geen contrast). Type aangepast om de afhankelijkheid expliciet te maken."
       },
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "specialisatie-van",

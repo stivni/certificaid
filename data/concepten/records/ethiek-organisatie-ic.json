@@ -4,18 +4,27 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.II.G", "1.7.II", "1.7.III.A"],
+  "linked_anchors": [
+    "1.7.II.G",
+    "1.7.II",
+    "1.7.III.A"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T09:28Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.II.G",
-    "dekt_ook_anchors": ["1.7.II", "1.7.III.A"],
+    "dekt_ook_anchors": [
+      "1.7.II",
+      "1.7.III.A"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Ethiek in een onderneming is het geheel van waarden en gedragsregels dat bepaalt wat acceptabel handelen is — voorbij wat de wet strikt verplicht. In IC-context is ethiek de 'zachte' dimensie van het systeem: zonder ethische grondhouding (integriteit, eerlijkheid, voorbeeldgedrag van management) blijven procedures dode letter. De 'tone at the top' is de kern van de controle-omgeving (COSO-component 1).",
     "confidence": "inferred-common-knowledge",
-    "_provenance": {"inputs": []}
+    "_provenance": {
+      "inputs": []
+    }
   },
   "voorbeeld_inline": "Bij Yperse Werkplaats BV ondertekent elke nieuwe medewerker een gedragscode (integriteit, geheimhouding, geen privé-gebruik bedrijfsmiddelen). Directeur Pieter Vermeulen bespreekt op de jaarlijkse personeelsmeeting twee concrete cases ('wat doe je als een leverancier een geschenk aanbiedt?'). Dit is geen procedure maar cultuur — en zonder die cultuur slijt elke procedure in zes maanden.",
   "in_praktijk": [
@@ -23,18 +32,39 @@
       "aspect": "Concrete instrumenten",
       "betekenis": "(1) Gedragscode/ethische code — geschreven, getekend. (2) Klokkenluidersregeling (zie [[klokkenluiderregeling]]) — kanaal om wantoestanden te melden. (3) Conflict-of-interest-policy — verklaring jaarlijks te tekenen. (4) Tone-at-the-top — voorbeeldgedrag van bestuur en directie. (5) Sancties bij overtreding, consistent toegepast.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "aspect": "Beroepsplichtenleer accountants",
       "betekenis": "Voor accountants en bedrijfsrevisoren is ethiek geregeld in het KB van 1 maart 1998 (plichtenleer) — onafhankelijkheid, geheimhouding, professionele zorgvuldigheid. Bij een externe controleopdracht is dit niet 'zacht' maar afdwingbaar.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB 1 maart 1998 plichtenleer"},
-      "_provenance": {"inputs": [{"id": "KB-1998-plichtenleer__art_13", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB 1 maart 1998 plichtenleer"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-1998-plichtenleer__art_13",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Ethiek is de basis van COSO-component 1 (controle-omgeving)."},
-    {"type": "vergelijkt-met", "target": "klokkenluiderregeling", "redenering": "Klokkenluiders zijn een concrete uitwerking van ethische cultuur — kanaal voor melding zonder represailles."}
+    {
+      "type": "onderdeel-van",
+      "target": "interne-controle",
+      "redenering": "Ethiek is de basis van COSO-component 1 (controle-omgeving)."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "klokkenluiderregeling",
+      "redenering": "Klokkenluiders zijn een concrete uitwerking van ethische cultuur — kanaal voor melding zonder represailles."
+    }
   ]
 }

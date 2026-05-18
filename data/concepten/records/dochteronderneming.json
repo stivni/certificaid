@@ -16,7 +16,13 @@
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.C",
-    "dekt_ook_anchors": ["1.4.I.B", "1.4.I.D", "1.4.I.G", "1.4.II.B", "1.4.taak.1"],
+    "dekt_ook_anchors": [
+      "1.4.I.B",
+      "1.4.I.D",
+      "1.4.I.G",
+      "1.4.II.B",
+      "1.4.taak.1"
+    ],
     "reviewed_by": null,
     "schema_1_4_migration": {
       "uitgevoerd_op": "2026-05-16T00:11Z",
@@ -51,21 +57,48 @@
   "definitie": {
     "text": "Een vennootschap waarover een andere vennootschap (de moeder) controle uitoefent. In het WVV is 'dochteronderneming' ruimer dan 'dochtervennootschap': het omvat ook elke instelling naar Belgisch of buitenlands recht — al dan niet openbaar, met of zonder winstoogmerk — zolang ze een commerciële, financiële of industriële activiteit uitoefent. Daardoor kunnen ook verenigingen en stichtingen tot de consolidatiekring horen, op voorwaarde dat een vennootschap er controle over heeft.",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "WVV art. 1:15, 2° jo. art. 3:22"},
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 1:15, 2° jo. art. 3:22"
+    },
     "references": [
-      {"type": "wet", "short": "WVV art. 1:14 (controle); art. 1:15 (moeder/dochter)"},
-      {"type": "wet", "short": "WVV art. 3:22 (uitbreiding tot instellingen)"},
-      {"type": "kb", "short": "KB WVV art. 3:96 jo. art. 3:97 (consolidatiekring/uitsluiting)"},
-      {"type": "advies", "short": "CBN 2022/09 — Consortium (definitie dochter)"}
+      {
+        "type": "wet",
+        "short": "WVV art. 1:14 (controle); art. 1:15 (moeder/dochter)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 3:22 (uitbreiding tot instellingen)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:96 jo. art. 3:97 (consolidatiekring/uitsluiting)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2022/09 — Consortium (definitie dochter)"
+      }
     ],
     "_provenance": {
       "inputs": [
-        {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiekring", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiekring",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-11-vermogensmutatiemethode__sec_toepassingsgebied",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     },
     "_corrected_from": [
-      {"field": "text", "from": "De vennootschap (dochtervennootschap) of het organisme (in ruime zin volgens WVV art. 3:22) ten opzichte waarvan een controlebevoegdheid door een andere vennootschap (de moedervennootschap) bestaat. De WVV-definitie van 'dochteronderneming' is ruimer dan die van 'dochtervennootschap' en omvat eveneens elke instelling naar Belgisch of buitenlands recht, al dan niet openbaar, met of zonder winstuitkering, die — al dan niet ingevolge haar statutaire opdracht — een activiteit uitoefent van commerciële, financiële of industriële aard. Daardoor kunnen ook verenigingen en stichtingen tot de consolidatiekring behoren, op voorwaarde dat zij door een vennootschap worden gecontroleerd.", "reason": "Stagiair-toon: 'ten opzichte waarvan een controlebevoegdheid door een andere vennootschap (de moedervennootschap) bestaat' → 'waarover een andere vennootschap (de moeder) controle uitoefent' (regel 6)."}
+      {
+        "field": "text",
+        "from": "De vennootschap (dochtervennootschap) of het organisme (in ruime zin volgens WVV art. 3:22) ten opzichte waarvan een controlebevoegdheid door een andere vennootschap (de moedervennootschap) bestaat. De WVV-definitie van 'dochteronderneming' is ruimer dan die van 'dochtervennootschap' en omvat eveneens elke instelling naar Belgisch of buitenlands recht, al dan niet openbaar, met of zonder winstuitkering, die — al dan niet ingevolge haar statutaire opdracht — een activiteit uitoefent van commerciële, financiële of industriële aard. Daardoor kunnen ook verenigingen en stichtingen tot de consolidatiekring behoren, op voorwaarde dat zij door een vennootschap worden gecontroleerd.",
+        "reason": "Stagiair-toon: 'ten opzichte waarvan een controlebevoegdheid door een andere vennootschap (de moedervennootschap) bestaat' → 'waarover een andere vennootschap (de moeder) controle uitoefent' (regel 6)."
+      }
     ]
   },
   "voorbeeld_inline": "Aurelia Holding NV bezit 90 % van de stemrechten in Brugse Brouwerij BV (industriële activiteit). Aurelia kan via die meerderheid de meeste bestuurders aanstellen → onweerlegbaar controle in rechte (WVV art. 1:14, § 2) → Brugse Brouwerij BV is dochteronderneming van Aurelia Holding NV. Aurelia consolideert Brugse integraal; 10 % van het eigen vermogen en het resultaat van Brugse staat apart als belangen van derden (KB WVV art. 3:137).",
@@ -75,26 +108,60 @@
       "betekenis": "(a) Onder exclusieve controle → integrale consolidatie (KB WVV art. 3:124, 1°). Bv. Aurelia Holding NV heeft 80 % stemrechten in Brugse Brouwerij BV. (b) Onder gezamenlijke controle (gemeenschappelijke dochter) → in principe evenredige consolidatie (KB WVV art. 3:124, 2° jo. 3:140); vermogensmutatie als de dochter niet nauw met de groep is geïntegreerd. Bv. Cardinal Group NV en Energiehuis Evergem NV controleren Filmstudio Florence BV elk voor 50 %. (c) Onder enkel controle in feite, waarvan opname het getrouwe beeld zou verstoren → buiten de consolidatie + opname via vermogensmutatie (KB WVV art. 3:98 jo. art. 3:100).",
       "herkenningspunt": "De keuze van de consolidatietechniek hangt af van het type controle (exclusief, gezamenlijk, in feite), niet van een vast percentage.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:124 / 3:98 / 3:100"},
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:124 / 3:98 / 3:100"
+      },
       "_provenance": {
         "inputs": [
-          {"id": "KB-WVV-2019__art_3_98", "sha256": null, "version": "rag-v1"},
-          {"id": "KB-WVV-2019__art_3_77", "sha256": null, "version": "rag-v1"},
-          {"id": "KB-WVV-2019__art_3_78", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "KB-WVV-2019__art_3_98",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_77",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_78",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       },
       "_corrected_from": [
-        {"field": "betekenis", "from": "(a) Dochteronderneming onder exclusieve controle → integrale consolidatie (KB WVV art. 3:124, 1°). (b) Gemeenschappelijke dochteronderneming onder gezamenlijke controle → evenredige consolidatie (KB WVV art. 3:124, 2° jo. 3:140), uitzonderlijk vermogensmutatie wanneer het bedrijf niet nauw geïntegreerd is in dat van de moeder. (c) Dochteronderneming waarover slechts controle in feite bestaat en waarvan opname het getrouwe beeld zou aantasten → buiten consolidatie, opname via vermogensmutatie (KB WVV art. 3:98 jo. art. 3:100).", "reason": "Stagiair-toon + cast-voorbeelden per geval (regels 6 + 7)."}
+        {
+          "field": "betekenis",
+          "from": "(a) Dochteronderneming onder exclusieve controle → integrale consolidatie (KB WVV art. 3:124, 1°). (b) Gemeenschappelijke dochteronderneming onder gezamenlijke controle → evenredige consolidatie (KB WVV art. 3:124, 2° jo. 3:140), uitzonderlijk vermogensmutatie wanneer het bedrijf niet nauw geïntegreerd is in dat van de moeder. (c) Dochteronderneming waarover slechts controle in feite bestaat en waarvan opname het getrouwe beeld zou aantasten → buiten consolidatie, opname via vermogensmutatie (KB WVV art. 3:98 jo. art. 3:100).",
+          "reason": "Stagiair-toon + cast-voorbeelden per geval (regels 6 + 7)."
+        }
       ]
     },
     {
       "aspect": "Uitsluitingsgronden uit de consolidatie (KB WVV art. 3:97)",
       "betekenis": "Een dochter mag buiten de consolidatie blijven in vier gevallen: (1) van te verwaarlozen betekenis — bij meerdere kleine dochters samen toetsen; (2) ingrijpende en duurzame beperkingen op de uitoefening van de controle of op het beheer van het vermogen (bv. wettelijk gevorderde sancties); (3) gegevens niet zonder overdreven kosten of vertraging beschikbaar; (4) aandelen worden enkel aangehouden om ze later weer te verkopen. Elke toepassing moet je in de toelichting motiveren.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:97"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_76", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:97"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_76",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "betekenis", "from": "Een dochteronderneming mág buiten de consolidatie worden gelaten in vier gevallen: (1) van te verwaarlozen betekenis (cumulatief beoordeeld bij meerdere kleine dochters); (2) ingrijpende en duurzame beperkingen op de uitoefening van de controlebevoegdheid of de aanwending van het vermogen; (3) gegevens niet zonder onevenredige kosten/vertraging beschikbaar; (4) aandelen uitsluitend met het oog op latere vervreemding gehouden. Toepassing moet in de toelichting worden gemotiveerd.", "reason": "Stagiair-toon: 'aanwending van het vermogen' → 'beheer van het vermogen'; 'cumulatief beoordeeld' → 'samen toetsen'; 'vervreemding' → 'weer te verkopen' (regel 6)."}
+        {
+          "field": "betekenis",
+          "from": "Een dochteronderneming mág buiten de consolidatie worden gelaten in vier gevallen: (1) van te verwaarlozen betekenis (cumulatief beoordeeld bij meerdere kleine dochters); (2) ingrijpende en duurzame beperkingen op de uitoefening van de controlebevoegdheid of de aanwending van het vermogen; (3) gegevens niet zonder onevenredige kosten/vertraging beschikbaar; (4) aandelen uitsluitend met het oog op latere vervreemding gehouden. Toepassing moet in de toelichting worden gemotiveerd.",
+          "reason": "Stagiair-toon: 'aanwending van het vermogen' → 'beheer van het vermogen'; 'cumulatief beoordeeld' → 'samen toetsen'; 'vervreemding' → 'weer te verkopen' (regel 6)."
+        }
       ]
     }
   ],
@@ -103,26 +170,64 @@
       "vergelijking_met": "geassocieerde-onderneming",
       "verschil": "Dochteronderneming = vennootschap onder controle van de moeder (in rechte of in feite, exclusief of gezamenlijk). Geassocieerde onderneming = vennootschap waar alleen invloed van betekenis bestaat — meedoen aan beleid zonder de baas te spelen. Dochter → integrale of evenredige consolidatie; geassocieerde → vermogensmutatie.",
       "trigger": "Stel de controlevraag: heeft de moeder beslissende invloed (eventueel samen met enkele anderen)? Zo ja: dochter. Zo nee maar wel betekenisvolle invloed (typisch 20-50 %): geassocieerde.",
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Een vereniging of stichting (vzw of stichting) met een commerciële, financiële of industriële activiteit is een dochteronderneming in de zin van WVV art. 3:22 zodra een vennootschap er controle over heeft. Onder het oude W.Venn. werden zulke entiteiten vaak uitgesloten — dat is sinds het WVV niet meer mogelijk.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2022/09 — Consortium"},
-      "_provenance": {"inputs": [{"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiekring", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/09 — Consortium"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiekring",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "text", "from": "Verenigingen en stichtingen met commerciële, financiële of industriële activiteit zijn dochterondernemingen in de zin van WVV art. 3:22 zodra een vennootschap er controle over heeft. Onder het oude W.Venn. werden zij doorgaans uitgesloten — dit is sinds het WVV niet meer mogelijk.", "reason": "Stagiair-toon: 'vzw of stichting' tussen haken; korte uitleg (regel 6)."}
+        {
+          "field": "text",
+          "from": "Verenigingen en stichtingen met commerciële, financiële of industriële activiteit zijn dochterondernemingen in de zin van WVV art. 3:22 zodra een vennootschap er controle over heeft. Onder het oude W.Venn. werden zij doorgaans uitgesloten — dit is sinds het WVV niet meer mogelijk.",
+          "reason": "Stagiair-toon: 'vzw of stichting' tussen haken; korte uitleg (regel 6)."
+        }
       ]
     },
     {
       "text": "Een dochter die je buiten de consolidatie laat op grond van KB WVV art. 3:98 of 3:99 (controle in feite die het getrouwe beeld zou verstoren; bepaalde uitsluitingsgronden) moet je via de vermogensmutatiemethode opnemen — niet zomaar weglaten.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:100"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_78", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:100"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_78",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "text", "from": "Een dochteronderneming die buiten de consolidatie wordt gelaten op grond van KB WVV art. 3:98 of 3:99 (controle in feite met aantasting van het getrouwe beeld; bepaalde uitsluitingsgronden) moet via de vermogensmutatiemethode worden opgenomen — niet zomaar uitgesloten worden.", "reason": "Stagiair-toon: 'aantasting van het getrouwe beeld' → 'verstoren van het getrouwe beeld'; 'uitgesloten' → 'weggelaten' (regel 6)."}
+        {
+          "field": "text",
+          "from": "Een dochteronderneming die buiten de consolidatie wordt gelaten op grond van KB WVV art. 3:98 of 3:99 (controle in feite met aantasting van het getrouwe beeld; bepaalde uitsluitingsgronden) moet via de vermogensmutatiemethode worden opgenomen — niet zomaar uitgesloten worden.",
+          "reason": "Stagiair-toon: 'aantasting van het getrouwe beeld' → 'verstoren van het getrouwe beeld'; 'uitgesloten' → 'weggelaten' (regel 6)."
+        }
       ]
     }
   ],
@@ -135,7 +240,15 @@
         "veld": "vergelijkingsparen → edges",
         "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
       },
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "onderdeel-van",
@@ -145,7 +258,15 @@
         "veld": "vergelijkingsparen → edges",
         "reden": "Schema 1.4 regel 9 + dubbel-edge gesaneerd: 'contrasteert-met consolidatiekring' was foutief; samengevoegd in één 'onderdeel-van consolidatiekring'."
       },
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_76", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_76",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "vereist-kennis-van",

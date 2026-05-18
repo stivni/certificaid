@@ -4,19 +4,28 @@
   "node_type": "methode",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.VII", "1.7.VIII.B", "1.7.X.C"],
+  "linked_anchors": [
+    "1.7.VII",
+    "1.7.VIII.B",
+    "1.7.X.C"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T09:32Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.VII",
-    "dekt_ook_anchors": ["1.7.VIII.B", "1.7.X.C"],
+    "dekt_ook_anchors": [
+      "1.7.VIII.B",
+      "1.7.X.C"
+    ],
     "reviewed_by": null,
     "bron_gap": "Functiescheiding als vier-functies-doctrine (autoriseren / uitvoeren / bewaren / registreren) is internationale audit-vakdoctrine. Geen specifiek Belgisch wetsartikel; ITAA-norm-kmo-controlenorm vermeldt IC-componenten generiek. Inferred-common-knowledge, met grondslag in COSO/ISA-context."
   },
   "doel": {
     "text": "Functiescheiding is het verdelen van vier kritische taken — autoriseren, uitvoeren, bewaren en registreren — over verschillende personen zodat geen enkele individu een transactie van begin tot einde kan controleren. Doel: fouten ontdekken door natuurlijke kruiscontrole en fraude bemoeilijken door samenspanning nodig te maken.",
     "confidence": "inferred-common-knowledge",
-    "_provenance": {"inputs": []}
+    "_provenance": {
+      "inputs": []
+    }
   },
   "voorbeeld_inline": "Bij Yperse Werkplaats BV is een aankoop verdeeld over vier personen: (1) inkoper Anna autoriseert de bestelling, (2) magazijnier Bart neemt goederen in ontvangst, (3) boekhouder Cindy registreert de factuur, (4) financieel verantwoordelijke David tekent de betaling. Als één van hen iets verdraait, ontdekt iemand anders het in zijn kruiscontrole. Fraude vereist samenspanning van minstens twee — exponentieel moeilijker.",
   "bouwstenen": [
@@ -27,7 +36,9 @@
       "voorbeeld_inline": "Bij Meubelzaak Mertens BV deed één werknemer kasontvangsten + bankreconciliatie + boekhouding. Detectie van € 15.000 verduistering kwam pas na 2 jaar — gemiste functiescheiding.",
       "grondslag": "Internationaal audit-doctrine (COSO, ISA 315)",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "titel": "Incompatibele combinaties",
@@ -36,7 +47,9 @@
       "voorbeeld_inline": "Combinatie 'HR-aanmelding + loonbetaling' = risico op fictieve werknemer ('ghost employee'). Bij Yperse Werkplaats BV maakt HR de loonberekening; CFO David tekent het bestand digitaal vóór upload naar de bank.",
       "grondslag": "Internationaal audit-doctrine",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "titel": "KMO-uitdaging",
@@ -45,7 +58,15 @@
       "voorbeeld_inline": "Bij Praktijk Persenaire (eenmanszaak vrij beroep) doet de zaakvoerder alles zelf. Compensatie: de externe accountant doet maandelijks een kasreconciliatie en bekijkt de bankafschriften.",
       "grondslag": "ITAA-norm-kmo-controlenorm §96",
       "confidence": "grounded",
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -53,29 +74,45 @@
       "aspect": "Functiescheiding in IT-omgeving (1.7.X.C)",
       "betekenis": "Bij geautomatiseerde systemen vertaalt functiescheiding zich in: (1) gebruikersprofielen met verschillende rechten, (2) audit trails die elke actie logmatig vastleggen, (3) developer-rechten gescheiden van productie-rechten. IT-administrators krijgen vaak alle rechten — beperkt en gemonitord houden.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "aspect": "Examen-herkenningspunt",
       "betekenis": "Bij elke casus: teken een matrix [persoon × functie]. Markeer waar één persoon meer dan één van de vier functies heeft. Elke combinatie is potentieel zwakke IC.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Functiescheiding op papier is niet hetzelfde als in werking. Test altijd of de scheiding daadwerkelijk wordt nageleefd — soms tekent één persoon namens 'iemand anders' bij afwezigheid, en dan valt het systeem.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "text": "Management override doorbreekt functiescheiding altijd. Specifieke detectie: ongebruikelijke journaalposten, periode-einde-aanpassingen, transacties met geliëerde partijen.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Functiescheiding is de prototypische beheersactiviteit (COSO-component 3)."},
-    {"type": "vergelijkt-met", "target": "vier-functies-segregatie", "redenering": "Vier-functies-model is de operationele uitwerking van functiescheiding."}
+    {
+      "type": "onderdeel-van",
+      "target": "interne-controle",
+      "redenering": "Functiescheiding is de prototypische beheersactiviteit (COSO-component 3)."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "vier-functies-segregatie",
+      "redenering": "Vier-functies-model is de operationele uitwerking van functiescheiding."
+    }
   ]
 }

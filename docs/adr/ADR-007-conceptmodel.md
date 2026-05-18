@@ -7,6 +7,8 @@
 
 ## Changelog
 
+- **2026-05-18** — Schema 1.5: node_type-taxonomie geconsolideerd van 11 → 6 (`begrip` · `regel` · `cluster` · `synthese` · `autoriteit` · `competentie`). `fenomeen` → `cluster`, `actor` → `autoriteit`, `skill` → `competentie`. `procedure`/`methode`/`afwegingskader`/`beginsel`/`drempel`/`casus` opgegaan in andere types. Bouwsteen-definitie expliciet gemaakt. Granulariteits-test verfijnd ("buiten één framework testbaar"). Edges-taxonomie van ~20 → 7 canonieke types. Nieuw patroon: regime-specialisatie via `specialisatie-van` met facet-veld `regime`. Concept en competentie wonen in hetzelfde format (records-API, ADR-019). Schrijfregels nu gecentraliseerd in [`docs/concept-schrijfregels.md`](../concept-schrijfregels.md) — `content-richtlijnen.md` is uitgefaseerd. Aanleiding: empirische analyse + gap-mining-rapport 2026-05-18 (5 systemic patterns) + EXTRACT v4-pilot op anchor 1.5.V.C. Migratie-mapping in §"Schema 1.5".
+
 - **2026-05-16 (1.4)** — Didactische verrijking gestructureerd in schema (geen render-trick). Vijf samenhangende uitbreidingen op basis van stagiair-bril-feedback ("te zwaar, te weinig praktisch, geen visualisatie, fictieve namen lastig"):
 
   - **Stap-blok-schema** (vervangt simpele `stappen[]`-string-lijst). Elk item in `stappen[]` (concept-records én competenties) is voortaan een blok met:
@@ -253,9 +255,74 @@ Een uniform schema kan dat niet vasthouden. Een **getypeerde knowledge graph** w
 7. **Verwijzingen als gestructureerde child-property**, niet inline in prose. Cross-references staan als getypeerde edge-velden direct op het blok. Detectie en lifting tijdens concept-extractie (ADR-008), niet tijdens chunking.
 8. **Edges op block-level** mogelijk (binnen een specifieke regel-tekst, een uitzondering, één procedure-stap). NetworkX-laden tilt block-edges automatisch op naar node-niveau voor walks; block-anker blijft bewaard voor display.
 
-### Node-types (initieel 11, mag groeien)
+### Node-types (schema 1.5 — 6 types, mag groeien)
 
-`begrip` · `regel` · `beginsel` · `procedure` · `methode` · `drempel` · `skill` · `casus` · `afwegingskader` · `actor` · `fenomeen`
+`begrip` · `regel` · `cluster` · `synthese` · `autoriteit` · `competentie`
+
+Empirische bevinding (2026-05-18): de oorspronkelijke 11 types waren een organische groei met echte overlap. De geconsolideerde set houdt vast aan duidelijke vragen-onderscheid in plaats van bron-categorisering:
+
+| Type | Definiërende vraag | Voorbeelden |
+|---|---|---|
+| **begrip** | "Wat is X?" | arbeidskosten, right-of-use-actief, beroepsgeheim |
+| **regel** | "Wat schrijft de norm voor?" | art. 3:96 KB WVV, continuïteitsbeginsel, kleine-vennootschap-criteria |
+| **cluster** | "Hoe hangt dit fenomeen samen?" — samengesteld onderwerp dat regels, begrippen en bouwstenen samenbrengt | leasing, consolidatie, COSO ERM, jaarrekening-vzw |
+| **synthese** | "Hoe vergelijk of beslis ik tussen N records?" | consolidatiemethoden-vergelijking, liquiditeitstoets-beslisboom |
+| **autoriteit** | "Welke institutionele actor doet wat?" | FSMA, ITAA, FOD Financiën |
+| **competentie** | "Wat moet de stagiair kunnen?" | kwalificeren-en-boeken-leasing, beoordelen-getrouw-beeld |
+
+Inhoudelijke schrijfregels (granulariteits-test, bouwsteen-definitie, regime-specialisatie-patroon, smell-tests) staan in [`docs/concept-schrijfregels.md`](../concept-schrijfregels.md).
+
+### Migratie 1.4 → 1.5 — type-mapping
+
+Bestaande records met oude `node_type`-waarden hercategoriseren bij elke EXTRACT- of edit-pass op het record:
+
+| Oud type | Nieuw type | Beslisregel |
+|---|---|---|
+| `fenomeen` | `cluster` | Hernoeming, geen schema-wijziging |
+| `actor` | `autoriteit` | Hernoeming |
+| `skill` | `competentie` | Hernoeming |
+| `procedure` | `competentie` (focus op kunnen) of `cluster` met `stappen[]`-bouwsteen (focus op descriptief domein-object) | Case-by-case |
+| `methode` | `cluster` | Een methode = samengesteld onderwerp met bouwstenen |
+| `afwegingskader` | `cluster` | Bouwstenen worden afwegingsdimensies |
+| `beginsel` | `regel` | Beginselen zijn hoog-niveau normatieve regels |
+| `drempel` | `regel` | Met `drempelwaarden[]`-veld (al bestaand in schema 1.2) |
+| `casus` | géén eigen type | Wordt `voorbeeld_inline` of `in_praktijk.wereld_voorbeeld` op het bijhorende cluster/begrip |
+
+Migratie gebeurt **niet** via een batch-script — bij elke natuurlijke EXTRACT-pass op een record wordt het oude type vervangen. De `_voorgestelde_types.yaml`-route vervalt: nieuwe types worden voorgesteld via een ADR-update, niet via een YAML-bumping.
+
+### Concept en competentie in één format
+
+Beide leven in `data/concepten/records/<id>.json` met dezelfde records-API (ADR-019). Onderscheid via `node_type: competentie` of een ander type. De aparte map `data/concepten/competenties/*.yaml` is historisch — bij EXTRACT v4-pass krijgen records hetzelfde format.
+
+### Bouwsteen — expliciete definitie
+
+Een **bouwsteen** is een sub-aspect van een record dat niet zelfstandig in het domein bestaat. Voorbeeld: "tweestappentest IFRS 16" leeft als bouwsteen binnen `leasing-ifrs`, niet als eigen begrip — buiten IFRS 16-classificatie bestaat het concept niet.
+
+Een bouwsteen wordt promoveerbaar tot eigen record wanneer:
+- hetzelfde concept elders in het domein opduikt (cross-context relevantie), OF
+- er twee evenwaardige varianten van ontstaan (beide-record-aanpak, geen primair + uitzondering), OF
+- een examenvraag de bouwsteen specifiek toetst los van zijn context
+
+### Granulariteits-test (verfijnd)
+
+Domein-onafhankelijkheid + samenhang, niet examenvraag-frequentie:
+
+1. **Bestaat dit zelfstandig in het accounting-domein**, los van een specifiek toepassingscontext? Zo nee → bouwsteen.
+2. **Bestaat dit al onder een andere naam** in concept-RAG (semantische similarity op `definitie` + `bouwstenen.text`, niet alleen naam)? Zo ja → merge of synthese ipv duplicaat.
+
+Een **balanspost binnen één regulatorisch regime** is een bouwsteen van dat regime, geen eigen begrip. `right-of-use-actief` voldoet wél (IAS 36 + IFRS 5 erkennen het ook); `leaseverplichting-ifrs` niet (alleen onder IFRS 16 zin).
+
+### Regime-specialisatie — algemene cluster + specialisaties
+
+Wanneer hetzelfde fenomeen onder meerdere regulatorische regimes wezenlijk verschillend wordt behandeld:
+
+```
+leasing                    (cluster — algemene, regime-overstijgende kern)
+├── leasing-be-gaap        (cluster — specialisatie)
+└── leasing-ifrs           (cluster — specialisatie)
+```
+
+Verbonden via edge `specialisatie-van` met optioneel facet-veld `regime`. Geen aparte `node_type` voor specialisaties — zij blijven `cluster`. Triggers: *"onder IFRS / BE-GAAP"*, *"art. KB W.Venn. vs IAS"*, *"fiscaal versus boekhoudkundig"*.
 
 ### Type-specifieke sleutelvelden
 
@@ -484,11 +551,30 @@ Drie hoofdstuk-types:
 - **`competentie`** — references één competentie-yaml via `competentie_id`.
 - **`thematisch`** — concept-cluster zonder pedagogische omhulling (referentie-luik).
 
-### Edge-types (initieel ~20, mag groeien)
+### Edge-types (schema 1.5 — 7 canonieke types)
 
-`definieert` · `regelt` · `uitzondering-op` · `primeert-boven` · `getriggerd-door` · `vereist-kennis-van` · `toegepast-via` · `voorbeeld-van` · `bevat` / `onderdeel-van` · `vervangt` / `vervangen-door` · `bedreigt` / `bedreigd-door` · `ratio` · `alternatief-voor` · `schakelt-over-naar` · `gemeten-met` / `instrument-van` · `vernietigt-deel-van` · `contrasteert-met` · `van-toepassing-op`
+Geconsolideerd van ~20 → 7 op basis van empirische usage-analyse (2026-05-18):
 
-Optionele velden op edges: `scope`, `conditie`, `scharnier`, `redenering`, `aspect`, `_dangling`, `notities[]`.
+| Type | Betekenis | Optioneel facet-veld |
+|---|---|---|
+| `vereist-kennis-van` | Prerequisite voor begrip | — |
+| `onderdeel-van` | Compositioneel (child → parent) | — |
+| `vergelijkt-met` | Parallel of contrast | `aspect` |
+| `getriggerd-door` | Causation, gebeurtenis-keten | `conditie` |
+| `specialisatie-van` | Regime-/sub-type-specialisatie | `regime` |
+| `uitzondering-op` | Exception op een regel | `scope` |
+| `verwijst-naar` | Generieke catch-all | — |
+
+Optionele velden op alle edges: `scope`, `conditie`, `aspect`, `redenering`, `regime`, `notities[]`, `_dangling`.
+
+**Verdwenen edge-types** (gedeprecieerd 2026-05-18):
+
+- `bevat` → vervangen door inverse `onderdeel-van` (graph navigeerbaar in beide richtingen)
+- `contrasteert-met` → gefold in `vergelijkt-met` met `aspect`-facet
+- `vervangt` / `vervangen-door` / `alternatief-voor` / `van-toepassing-op` → `verwijst-naar` of specifiekere edge
+- `definieert`, `regelt`, `primeert-boven`, `toegepast-via`, `voorbeeld-van`, `bedreigt`, `ratio`, `schakelt-over-naar`, `gemeten-met`, `vernietigt-deel-van` → nooit of nauwelijks gebruikt, weggelaten
+
+Bestaande records met gedeprecieerde edges worden bij elke natuurlijke EXTRACT-pass herwerkt naar de canonieke 7.
 
 ### Edge-richting — expliciete conventie
 

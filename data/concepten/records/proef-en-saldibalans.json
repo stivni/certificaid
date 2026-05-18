@@ -4,26 +4,52 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.III.D", "1.2.III", "1.2.taak.1"],
+  "linked_anchors": [
+    "1.2.III.D",
+    "1.2.III",
+    "1.2.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.III.D",
-    "dekt_ook_anchors": ["1.2.III", "1.2.taak.1"],
+    "dekt_ook_anchors": [
+      "1.2.III",
+      "1.2.taak.1"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "De proef- en saldibalans is een lijst van alle rekeningen uit de boekhouding, met per rekening: het totaal van de debetboekingen, het totaal van de creditboekingen, en het saldo (debet of credit). Ze wordt minstens één keer per jaar opgemaakt (vóór jaarafsluiting) en is het vertrekpunt voor het samenstellen van de jaarrekening.",
     "confidence": "grounded",
-    "source": {"type": "advies", "short": "CBN-advies 174/1 — Regelmatige boekhouding"},
+    "source": {
+      "type": "advies",
+      "short": "CBN-advies 174/1 — Regelmatige boekhouding"
+    },
     "references": [
-      {"type": "wet", "short": "WER art. III.85 (boeken)"},
-      {"type": "advies", "short": "CBN-advies 174/1"}
+      {
+        "type": "wet",
+        "short": "WER art. III.85 (boeken)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN-advies 174/1"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek", "sha256": null, "version": "rag-v1"},
-      {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Meubelzaak Mertens BV maakt eind 2024 een proef- en saldibalans op: rekening 604 Aankopen toont debet € 230.000, credit € 0, saldo € 230.000 debet. Som debet alle rekeningen = som credit alle rekeningen → balans in evenwicht.",
   "bouwstenen": [
@@ -34,10 +60,19 @@
       "voorbeeld_inline": "Rekening 400 Klanten: debet € 850.000, credit € 720.000 → saldo debet € 130.000. Wordt op balans onder 'Vorderingen op ten hoogste een jaar'.",
       "grondslag": "CBN-advies 174/1",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN-advies 174/1"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Drie functies",
@@ -46,10 +81,19 @@
       "voorbeeld_inline": "Bestuurder van Rotex Roeselare NV vraagt elke maand de proef- en saldibalans → kan resultaat en cashpositie volgen zonder volle jaarrekening op te maken.",
       "grondslag": "Praktijk + CBN-advies 174/1",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "advies", "short": "CBN-advies 174/1"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Voor → na eindejaarsverrichtingen",
@@ -58,10 +102,19 @@
       "voorbeeld_inline": "Voorlopige PS-balans Naaiatelier Ninove BV: winst van € 180.000. Eindejaarsverrichtingen: + € 25.000 afschrijvingen + € 12.000 voorzieningen = winst daalt naar € 143.000.",
       "grondslag": "WER art. III.85; CBN-advies 174/1",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "advies", "short": "CBN-advies 174/1"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -70,10 +123,19 @@
       "betekenis": "Vanuit de proef- en saldibalans: alle saldi van klassen 1-5 → balans. Alle saldi van klassen 6-7 → resultatenrekening. Eindsaldo RR (winst/verlies) wordt overgedragen naar 14 'Overgedragen resultaat' op de balans.",
       "herkenningspunt": "Examenvraag 'stel de jaarrekening op uit proef- en saldibalans' → mapping rekening-klasse → jaarrekening-rubriek.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV bijlagen + MAR"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV bijlagen + MAR"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

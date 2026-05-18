@@ -19,7 +19,7 @@ node_type: synthese
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/resultaat-categorisatie-beslisboom.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Bedrijfs- · financieel · niet-recurrent &mdash; in welke categorie hoort deze verrichting? 🤖
 

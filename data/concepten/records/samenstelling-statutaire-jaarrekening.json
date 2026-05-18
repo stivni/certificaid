@@ -4,12 +4,19 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.taak.1", "1.2.IV", "1.2.III.D"],
+  "linked_anchors": [
+    "1.2.taak.1",
+    "1.2.IV",
+    "1.2.III.D"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.taak.1",
-    "dekt_ook_anchors": ["1.2.IV", "1.2.III.D"],
+    "dekt_ook_anchors": [
+      "1.2.IV",
+      "1.2.III.D"
+    ],
     "reviewed_by": null
   },
   "verplichting": "Aan het einde van elk boekjaar stelt het bestuursorgaan, op basis van de proef- en saldibalans en de uitgevoerde eindejaarsverrichtingen, de statutaire jaarrekening op volgens het toepasselijke schema (volledig / verkort / micro). De jaarrekening bevat balans, resultatenrekening, toelichting (+ sociale balans bij volledig en verkort schema) en wordt ter goedkeuring voorgelegd aan de algemene vergadering.",
@@ -95,32 +102,76 @@
       "termijn": "T = 0",
       "actor": "vennootschap",
       "actie": "Boeken sluiten + inventarisatie",
-      "source": {"type": "wet", "short": "WER art. III.85"},
-      "_provenance": {"inputs": [{"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.85"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_71",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "stap": "Opstellen jaarrekening",
       "termijn": "binnen 6 maanden na T",
       "actor": "bestuursorgaan + boekhouder/accountant",
       "actie": "Stappen 1-5 hierboven",
-      "source": {"type": "wet", "short": "WVV art. 3:1"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_2", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 3:1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "stap": "Controle door commissaris (indien benoemd)",
       "termijn": "vóór AV",
       "actor": "commissaris",
       "actie": "Audit + commissarisverslag",
-      "source": {"type": "wet", "short": "WVV art. 3:75"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 3:75"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "stap": "Goedkeuring AV + neerlegging NBB",
       "termijn": "binnen 6 maanden na T; neerlegging binnen 30 dagen na AV",
       "actor": "algemene vergadering + bestuur",
       "actie": "Stemming + elektronische neerlegging",
-      "source": {"type": "wet", "short": "WVV art. 3:10"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 3:10"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -129,20 +180,38 @@
       "betekenis": "Eerst groottecriteria → schema-keuze; daarna inventaris + eindejaarsverrichtingen; daarna definitieve PS-balans; daarna balans + RR + toelichting; daarna AV + NBB. Overslaan van een stap leidt tot een onvolledige jaarrekening.",
       "herkenningspunt": "Examen-scenario 'stel jaarrekening op' → volg deze zes-stappen-checklist.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "wet", "short": "WVV + KB-WVV + CBN-advies 174/1"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WVV + KB-WVV + CBN-advies 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Bij twijfel over groottecategorie: kies de strengere optie. Een 'micro' die eigenlijk klein is → te beperkt schema → mogelijke fiscale en commerciële sancties. Een 'klein' die eigenlijk micro is → onnodige administratieve last maar minder risico.",
       "confidence": "inferred",
-      "source": {"type": "wet", "short": "WVV art. 1:24-1:25"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:24-1:25"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

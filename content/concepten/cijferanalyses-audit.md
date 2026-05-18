@@ -15,7 +15,7 @@ node_type: methode
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/cijferanalyses-audit.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Cijferanalyses bij een audit ⚖️
 

@@ -4,34 +4,83 @@
   "node_type": "methode",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.5.V.B", "1.5.V"],
+  "linked_anchors": [
+    "1.5.V.B",
+    "1.5.V"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.5.V.B",
-    "dekt_ook_anchors": ["1.5.V"],
+    "dekt_ook_anchors": [
+      "1.5.V"
+    ],
     "reviewed_by": null
   },
   "doel": {
     "text": "Onder IFRS is afschrijving (IAS 16 alinea 6, IAS 38 alinea 8) de **stelselmatige toerekening van het afschrijfbaar bedrag** van een actief **over zijn gebruiksduur**. Het afschrijfbaar bedrag = kostprijs (of geherwaardeerde waarde) − **restwaarde**. De gebruikte methode moet 'een afspiegeling zijn van het patroon volgens welk de toekomstige economische voordelen van het actief naar verwachting zullen worden verbruikt' (IAS 16 alinea 60). Drie veelvoorkomende methoden: lineair, degressief, en op basis van verbruikte werkeenheden. De entiteit moet **jaarlijks** restwaarde, gebruiksduur en afschrijvingsmethode herzien (alinea 51 + 61); aanpassingen zijn schattingswijzigingen (IAS 8, prospectief). Een methode op basis van **opbrengsten** is voor materiële vaste activa NIET toegestaan (alinea 62A) — opbrengsten weerspiegelen prijs en volume, niet het verbruik van het actief.",
     "confidence": "grounded",
-    "source": {"type": "ifrs", "short": "IAS 16 alinea 6, 50-62"},
+    "source": {
+      "type": "ifrs",
+      "short": "IAS 16 alinea 6, 50-62"
+    },
     "references": [
-      {"type": "ifrs", "short": "IAS 16 alinea 6 (definities afschrijving, gebruiksduur, restwaarde)"},
-      {"type": "ifrs", "short": "IAS 16 alinea 50 (afschrijfbaar bedrag stelselmatig)"},
-      {"type": "ifrs", "short": "IAS 16 alinea 51 (jaarlijkse herziening restwaarde + gebruiksduur)"},
-      {"type": "ifrs", "short": "IAS 16 alinea 55 (start + einde afschrijving)"},
-      {"type": "ifrs", "short": "IAS 16 alinea 56 (factoren gebruiksduur)"},
-      {"type": "ifrs", "short": "IAS 16 alinea 58 (terreinen niet afgeschreven)"},
-      {"type": "ifrs", "short": "IAS 16 alinea 60-62 (methoden)"},
-      {"type": "ifrs", "short": "IAS 16 alinea 62A (geen opbrengsten-methode)"},
-      {"type": "ifrs", "short": "IAS 38 alinea 88-90 (beperkte vs. onbepaalde gebruiksduur immateriële activa)"}
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 6 (definities afschrijving, gebruiksduur, restwaarde)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 50 (afschrijfbaar bedrag stelselmatig)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 51 (jaarlijkse herziening restwaarde + gebruiksduur)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 55 (start + einde afschrijving)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 56 (factoren gebruiksduur)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 58 (terreinen niet afgeschreven)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 60-62 (methoden)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 62A (geen opbrengsten-methode)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 38 alinea 88-90 (beperkte vs. onbepaalde gebruiksduur immateriële activa)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname", "sha256": null, "version": "rag-v1"},
-      {"id": "IAS-16-materiele-vaste-activa__sec_62a", "sha256": null, "version": "rag-v1"},
-      {"id": "IAS-38-immateriele-activa__sec_gebruiksduur", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "IAS-16-materiele-vaste-activa__sec_62a",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "IAS-38-immateriele-activa__sec_gebruiksduur",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -41,8 +90,19 @@
       "voorbeeld_inline": "Zelena Bio NV koopt een vrachtwagen voor € 85.000, geschatte restwaarde bij 8 jaar gebruik = € 12.500 (verwachte verkoopprijs van vergelijkbare 8-jarige vrachtwagens vandaag). Afschrijfbaar bedrag = € 72.500. Lineair: € 9.063/jaar.",
       "grondslag": "IAS 16 alinea 6, 53",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 16 alinea 6, 53"},
-      "_provenance": {"inputs": [{"id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 6, 53"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Start- en einddatum afschrijving",
@@ -51,8 +111,19 @@
       "voorbeeld_inline": "Zelena Bio's productielijn: aankoopfactuur 15 oktober 2025, installatie + tests afgerond 31 januari 2026. Afschrijving start op 1 februari 2026; voor boekjaar 2026 wordt 11/12 van de jaarafschrijving geboekt.",
       "grondslag": "IAS 16 alinea 55",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 16 alinea 55"},
-      "_provenance": {"inputs": [{"id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 55"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Drie methoden — kies volgens verbruikspatroon",
@@ -61,8 +132,19 @@
       "voorbeeld_inline": "Zelena Bio: productie-installatie (constante output) → lineair; vrachtwagen (snelle waardevermindering eerste jaren) → degressief; gietvorm voor productie van 500.000 doseflesjes → op basis van werkeenheden (€ 0,80 per geproduceerd flesje, kostprijs gietvorm € 400.000).",
       "grondslag": "IAS 16 alinea 60-62",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 16 alinea 60-62"},
-      "_provenance": {"inputs": [{"id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 60-62"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Verbod op opbrengstenmethode",
@@ -71,8 +153,19 @@
       "voorbeeld_inline": "Zelena Bio mag NIET haar productielijn afschrijven op basis van '€ 0,02 per euro verkochte productieopbrengst'. Wel: per geproduceerd doseflesje (output-eenheden) of lineair over jaren.",
       "grondslag": "IAS 16 alinea 62A",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 16 alinea 62A"},
-      "_provenance": {"inputs": [{"id": "IAS-16-materiele-vaste-activa__sec_62a", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 62A"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-16-materiele-vaste-activa__sec_62a",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Onbepaalde gebruiksduur immateriële activa — geen afschrijving",
@@ -81,8 +174,19 @@
       "voorbeeld_inline": "Zelena Bio's productlicentie zonder vervaldatum (kostprijs € 4.500.000): geen afschrijving. Elke 31 december: impairment-test onder IAS 36 — vergelijk boekwaarde met realiseerbare waarde.",
       "grondslag": "IAS 38 alinea 107-108",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 38 alinea 107-108"},
-      "_provenance": {"inputs": [{"id": "IAS-38-immateriele-activa__sec_gebruiksduur", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 38 alinea 107-108"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-38-immateriele-activa__sec_gebruiksduur",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "berekeningsmethode": [
@@ -94,9 +198,21 @@
           "naam": "Jaarlijkse lineaire afschrijving",
           "wiskunde": "jaarafschrijving = (kostprijs − restwaarde) / gebruiksduur in jaren",
           "variabelen": [
-            {"symbool": "kostprijs", "betekenis": "Kostprijs of geherwaardeerde waarde van het actief", "eenheid": "EUR"},
-            {"symbool": "restwaarde", "betekenis": "Geschatte opbrengst bij vervreemding aan einde gebruiksduur (vandaag)", "eenheid": "EUR"},
-            {"symbool": "gebruiksduur in jaren", "betekenis": "Periode waarin actief economisch nuttig is voor entiteit", "eenheid": "jaar"}
+            {
+              "symbool": "kostprijs",
+              "betekenis": "Kostprijs of geherwaardeerde waarde van het actief",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "restwaarde",
+              "betekenis": "Geschatte opbrengst bij vervreemding aan einde gebruiksduur (vandaag)",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "gebruiksduur in jaren",
+              "betekenis": "Periode waarin actief economisch nuttig is voor entiteit",
+              "eenheid": "jaar"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "Zelena Bio vrachtwagen: kostprijs = € 85.000, restwaarde = € 12.500, gebruiksduur = 8 jaar",
@@ -105,7 +221,15 @@
           }
         }
       ],
-      "_provenance": {"inputs": [{"id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "naam": "Afschrijving op basis van verbruikte werkeenheden",
@@ -115,9 +239,21 @@
           "naam": "Afschrijving per eenheid",
           "wiskunde": "afschrijving per eenheid = (kostprijs − restwaarde) / totale verwachte werkeenheden",
           "variabelen": [
-            {"symbool": "kostprijs", "betekenis": "Kostprijs van actief", "eenheid": "EUR"},
-            {"symbool": "restwaarde", "betekenis": "Restwaarde aan einde gebruik", "eenheid": "EUR"},
-            {"symbool": "totale verwachte werkeenheden", "betekenis": "Totaal aantal productie-eenheden, draaiuren, ton, ... over leven", "eenheid": "eenheden"}
+            {
+              "symbool": "kostprijs",
+              "betekenis": "Kostprijs van actief",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "restwaarde",
+              "betekenis": "Restwaarde aan einde gebruik",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "totale verwachte werkeenheden",
+              "betekenis": "Totaal aantal productie-eenheden, draaiuren, ton, ... over leven",
+              "eenheid": "eenheden"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "Zelena Bio gietvorm: kostprijs = € 400.000, restwaarde = € 0, totale verwachte productie = 500.000 doseflesjes",
@@ -126,27 +262,68 @@
           }
         }
       ],
-      "_provenance": {"inputs": [{"id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Restwaarde, gebruiksduur en afschrijvingsmethode worden **prospectief** aangepast bij wijziging (IAS 8). Geen retroactieve aanpassing van voorgaande boekjaren — alleen aanpassing van resterende afschrijfbaar bedrag over resterende gebruiksduur.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 16 alinea 51 + 61, verwijzing IAS 8"},
-      "_provenance": {"inputs": [{"id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 51 + 61, verwijzing IAS 8"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Terreinen worden NIET afgeschreven (alinea 58). Bij aankoop van vastgoed: kostprijs splitsen in 'grond' (geen afschrijving) en 'gebouw' (wel afschrijving). Stagiairs vergeten deze splitsing.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 16 alinea 58"},
-      "_provenance": {"inputs": [{"id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 58"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Een actief blijft afschrijven zolang het volledig afschrijfbaar bedrag niet bereikt is, ook als de reële waarde hoger is dan de boekwaarde (alinea 52). Reële waarde stopt geen afschrijving — alleen de restwaarde doet dat indirect.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 16 alinea 52"},
-      "_provenance": {"inputs": [{"id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 16 alinea 52"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-16-materiele-vaste-activa__sec_waardering-na-eerste-opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

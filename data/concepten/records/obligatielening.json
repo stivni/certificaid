@@ -4,26 +4,50 @@
   "node_type": "fenomeen",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.1.II.V", "1.1.II.J"],
+  "linked_anchors": [
+    "1.1.II.V",
+    "1.1.II.J"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.V",
-    "dekt_ook_anchors": ["1.1.II.J"],
+    "dekt_ook_anchors": [
+      "1.1.II.J"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Een **leningsovereenkomst** waarbij de vennootschap **obligaties** uitgeeft aan beleggers — verhandelbare schuldbewijzen met een vaste of variabele rente en een vooraf bepaalde looptijd (typisch 5 — 15 jaar). De vennootschap ontvangt het kapitaal en betaalt jaarlijkse coupons (rente) plus terugbetaling op vervaldag. Boekhoudkundig: rekening **170 'Obligatieleningen'** onder schulden op meer dan één jaar. Bijhorende kosten van uitgifte: rekening 201 (oprichtingskosten).",
     "confidence": "grounded",
-    "source": {"type": "advies", "short": "CBN 2019/07 — Boekhoudkundige verwerking van obligaties"},
+    "source": {
+      "type": "advies",
+      "short": "CBN 2019/07 — Boekhoudkundige verwerking van obligaties"
+    },
     "references": [
-      {"type": "wet", "short": "MAR rubriek 17 (170 obligatieleningen)"},
-      {"type": "wet", "short": "WVV art. 7:54 e.v. (uitgifte obligaties NV)"}
+      {
+        "type": "wet",
+        "short": "MAR rubriek 17 (170 obligatieleningen)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 7:54 e.v. (uitgifte obligaties NV)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen", "sha256": null, "version": "rag-v1"},
-      {"id": "MAR-ondernemingen__art_1", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "MAR-ondernemingen__art_1",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Uitgeverij Ukkel NV geeft een 8-jarige obligatielening uit nominaal € 1.000.000 aan 4 % vast. Uitgifte tegen pari (€ 1.000.000 ontvangen). Uitgiftekosten € 12.000 (notaris, publicatie). Boekingen aanvang: Debet 550 Bank € 1.000.000 / Credit 170 Obligatieleningen € 1.000.000. Bovendien: Debet 201 Kosten uitgifte leningen € 12.000 / Credit 550 Bank € 12.000 (af te schrijven over 8 jaar = € 1.500/jaar).",
   "bouwstenen": [
@@ -34,8 +58,19 @@
       "voorbeeld_inline": "Uitgeverij Ukkel NV emissieprospectus: 1.000 obligaties × € 1.000 nominaal = € 1.000.000 totaal. Couponrente 4 % vast per jaar = € 40.000 jaarlijkse intrestlast. Looptijd 8 jaar, kapitaal terug op vervaldag 30/06/20Y9.",
       "grondslag": "WVV art. 7:54; CBN 2019/07",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2019/07"},
-      "_provenance": {"inputs": [{"id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2019/07"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Uitgifte beneden of boven pari",
@@ -44,8 +79,19 @@
       "voorbeeld_inline": "Uitgeverij Ukkel NV geeft obligatielening uit nominaal € 1.000.000 maar ontvangt slechts € 950.000 (disagio € 50.000 omdat marktrente boven 4 % ligt). Schuld op balans = € 1.000.000 (nominale); € 50.000 disagio geactiveerd op 201 en afgeschreven over 8 jaar = € 6.250/jaar extra intrestlast.",
       "grondslag": "CBN 2019/07",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2019/07"},
-      "_provenance": {"inputs": [{"id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2019/07"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Coupons en prorata-intrest",
@@ -54,8 +100,19 @@
       "voorbeeld_inline": "Uitgeverij Ukkel NV obligatie 4 % × € 1.000.000 = € 40.000 jaarlijkse coupon, betaalbaar elke 1 juli. Op 31/12 is 6 maanden gelopen → € 20.000 toe te rekenen. Boeking 31/12: Debet 650 Intresten op obligaties € 20.000 / Credit 492 Toe te rekenen kosten € 20.000.",
       "grondslag": "CBN 148/4 + KB WVV art. 3:60",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 148/4"},
-      "_provenance": {"inputs": [{"id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 148/4"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Terugbetaling op vervaldag",
@@ -63,8 +120,19 @@
       "voorbeeld_inline": "Uitgeverij Ukkel NV betaalt op 30/06/20Y9 € 1.000.000 terug. Boeking: Debet 170 Obligatieleningen € 1.000.000 / Credit 550 Bank € 1.000.000.",
       "grondslag": "Boekhoudkundige verwerking",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2019/07"},
-      "_provenance": {"inputs": [{"id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2019/07"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -72,21 +140,51 @@
       "aspect": "Onderscheid met converteerbare obligatie",
       "betekenis": "Een converteerbare obligatie geeft de houder recht om op vervaldag te kiezen tussen terugbetaling of conversie in aandelen (volgens vooraf vastgelegde conversieratio). Boekhoudkundig deels behandeld als schuld (170), deels als kapitaalcomponent.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "wet", "short": "WVV + CBN praktijk"},
-      "_provenance": {"inputs": [{"id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WVV + CBN praktijk"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Uitgiftekosten van een obligatielening (notaris, publicatie, bankcommissies) mogen GESPREID worden over de looptijd van de lening — uitzondering op de 5-jaars-regel voor oprichtingskosten (KB WVV art. 3:37). Niet vergeten in toelichting bij uitgifte > 5 jaar.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:37"},
-      "_provenance": {"inputs": [{"id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:37"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening__sec_kosten-bij-uitgifte-van-leningen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [],
   "edges": [
-    {"type": "onderdeel-van", "target": "schulden", "redenering": "Obligatieleningen vormen een subcategorie van LT-schulden (rekening 170)."},
-    {"type": "getriggerd-door", "target": "oprichtingskosten", "redenering": "Uitgiftekosten activeren onder oprichtingskosten 201."}
+    {
+      "type": "onderdeel-van",
+      "target": "schulden",
+      "redenering": "Obligatieleningen vormen een subcategorie van LT-schulden (rekening 170)."
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "oprichtingskosten",
+      "redenering": "Uitgiftekosten activeren onder oprichtingskosten 201."
+    }
   ]
 }

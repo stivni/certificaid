@@ -15,7 +15,7 @@ node_type: procedure
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/samenstellingsopdracht-isrs4410.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Samenstellingsopdracht (ISRS 4410) ⚖️
 

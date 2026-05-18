@@ -15,7 +15,7 @@ node_type: regel
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/ias-1-toelichtingsvereisten.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Toelichtingsvereisten onder IAS 1 — structuur en inhoud ⚖️
 

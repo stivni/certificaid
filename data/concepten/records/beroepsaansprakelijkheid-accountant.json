@@ -4,39 +4,88 @@
   "node_type": "regel",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.I.B", "1.6.I.A"],
+  "linked_anchors": [
+    "1.6.I.B",
+    "1.6.I.A"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.I.B",
-    "dekt_ook_anchors": ["1.6.I.A"],
+    "dekt_ook_anchors": [
+      "1.6.I.A"
+    ],
     "reviewed_by": null
   },
   "main_rule": {
     "text": "De beroepsbeoefenaar is aansprakelijk volgens het gemeen recht voor de uitvoering van zijn opdrachten. Hij mag zich niet — zelfs niet gedeeltelijk — aan zijn aansprakelijkheid onttrekken bij (1) een fout met bedrieglijk opzet of oogmerk te schaden, en (2) bij wettelijke controleopdrachten van de commissaris of voorbehouden opdrachten. Hij moet zijn beroepsaansprakelijkheid verzekeren bij een verzekeraar erkend door het ITAA.",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "Wet ITAA 2019 art. 44"},
-    "_provenance": {"inputs": [{"id": "Wet-ITAA-2019__art_44", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "wet",
+      "short": "Wet ITAA 2019 art. 44"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "Wet-ITAA-2019__art_44",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Wolters & Partners CVBA voert een contractuele controle uit bij Meubelzaak Mertens BV. De opdrachtbrief beperkt de aansprakelijkheid tot drie keer het ereloon. Geldig — maar enkel voor gewone fouten, niet voor bedrog. Bij een wettelijk voorbehouden opdracht (bv. inbreng in natura) zou zo'n beperkingsclausule nietig zijn.",
   "voorwaarden": [
     {
       "text": "De aansprakelijkheidsbeperking mag enkel via een schriftelijke opdrachtbrief. Geen geldige beperking zonder akkoord vooraf.",
-      "source": {"type": "norm", "short": "ITAA-norm Opdrachtbrief §5"},
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Opdrachtbrief §5"
+      },
       "confidence": "grounded",
-      "_provenance": {"inputs": [{"id": "ITAA-norm-opdrachtbrief__sec_5-de-draagwijdte-van-de-aansprakelijkheid", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-opdrachtbrief__sec_5-de-draagwijdte-van-de-aansprakelijkheid",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Beperking NIET toegestaan voor: fout met bedrieglijk opzet of oogmerk te schaden, en wettelijk voorbehouden opdrachten (commissaris of vervangende bedrijfsrevisor/accountant).",
-      "source": {"type": "wet", "short": "Wet ITAA 2019 art. 44, 1° en 2°"},
+      "source": {
+        "type": "wet",
+        "short": "Wet ITAA 2019 art. 44, 1° en 2°"
+      },
       "confidence": "grounded",
-      "_provenance": {"inputs": [{"id": "Wet-ITAA-2019__art_44", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wet-ITAA-2019__art_44",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Verplichte verzekering burgerlijke beroepsaansprakelijkheid. Verzekeringscontract moet door het ITAA worden goedgekeurd en voldoet aan de minimale voorwaarden bepaald door de Koning.",
-      "source": {"type": "wet", "short": "Wet ITAA 2019 art. 44 al. 3"},
+      "source": {
+        "type": "wet",
+        "short": "Wet ITAA 2019 art. 44 al. 3"
+      },
       "confidence": "grounded",
-      "_provenance": {"inputs": [{"id": "Wet-ITAA-2019__art_44", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wet-ITAA-2019__art_44",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -44,18 +93,41 @@
       "vergelijking_met": "tuchtrechtelijke-aansprakelijkheid-accountant",
       "verschil": "Civielrechtelijke aansprakelijkheid (gemeen recht, art. 44 Wet ITAA) = schadevergoeding aan de cliënt of derden. Tuchtrechtelijke aansprakelijkheid (KB plichtenleer + ITAA-tuchtinstanties) = sancties (waarschuwing, schrapping). Twee verschillende sporen, kunnen samen lopen.",
       "trigger": "Examenvraag: vergoedt de accountant schade aan een partij (civiel) of krijgt hij een tuchtmaatregel (tucht)?",
-      "_provenance": {"inputs": [{"id": "Wet-ITAA-2019__art_44", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wet-ITAA-2019__art_44",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Een clausule in de opdrachtbrief die de aansprakelijkheid voor ALLE fouten uitsluit is nietig — beperking is enkel mogelijk voor lichte fouten, nooit voor opzet, en nooit voor wettelijk voorbehouden opdrachten.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "Wet ITAA 2019 art. 44"},
-      "_provenance": {"inputs": [{"id": "Wet-ITAA-2019__art_44", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "Wet ITAA 2019 art. 44"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wet-ITAA-2019__art_44",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "opdrachtbrief-accountant", "redenering": "De opdrachtbrief is de plaats waar geldige aansprakelijkheidsbeperkingen worden afgesproken."}
+    {
+      "type": "vereist-kennis-van",
+      "target": "opdrachtbrief-accountant",
+      "redenering": "De opdrachtbrief is de plaats waar geldige aansprakelijkheidsbeperkingen worden afgesproken."
+    }
   ]
 }

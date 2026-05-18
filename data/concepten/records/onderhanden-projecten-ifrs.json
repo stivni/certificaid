@@ -4,29 +4,60 @@
   "node_type": "regel",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.5.V.E", "1.5.V.D", "1.5.V"],
+  "linked_anchors": [
+    "1.5.V.E",
+    "1.5.V.D",
+    "1.5.V"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.5.V.E",
-    "dekt_ook_anchors": ["1.5.V.D", "1.5.V"],
+    "dekt_ook_anchors": [
+      "1.5.V.D",
+      "1.5.V"
+    ],
     "reviewed_by": null,
     "historische_noot": "PO 1.5-anchor verwijst naar IAS 11 (Construction Contracts), die sinds 1 januari 2018 is ingetrokken en vervangen door IFRS 15. De materie van onderhanden projecten in opdracht van derden valt nu onder het 5-stappen-model van IFRS 15, in het bijzonder onder de opname over-een-periode-criteria van alinea 35."
   },
   "main_rule": {
     "text": "Sinds de inwerkingtreding van IFRS 15 op 1 januari 2018 is IAS 11 — Construction Contracts ingetrokken. **Onderhanden projecten in opdracht van derden** (bouwprojecten, infrastructuurprojecten, specifiek-gemaakte goederen of diensten) vallen nu onder de algemene regel van IFRS 15. De kernvraag wordt: voldoet de prestatieverplichting aan de criteria van **opname over een periode** (alinea 35)? Drie criteria, waarvan minstens één moet vervuld zijn: (a) klant ontvangt en consumeert gelijktijdig de voordelen naarmate de entiteit presteert; (b) prestaties creëren of versterken een actief waarover de klant zeggenschap heeft naarmate dat actief wordt gecreëerd of versterkt; (c) prestaties creëren geen actief met een alternatieve gebruiksmogelijkheid voor de entiteit én de entiteit heeft een afdwingbaar recht op betaling voor reeds verrichte prestaties. Bij vervulling over een periode: opbrengstopname via een **outputmethode** (geleverde eenheden, mijlpalen) of **inputmethode** (kosten gemaakt / totaal verwachte kosten; gewerkte uren) — alinea 41 + B14-B19. Voor de vroegere IAS 11-techniek (percentage-of-completion via kosten-input) gaat in essentie de inputmethode.",
     "confidence": "grounded",
-    "source": {"type": "ifrs", "short": "IFRS 15 alinea 35-37 + 41"},
+    "source": {
+      "type": "ifrs",
+      "short": "IFRS 15 alinea 35-37 + 41"
+    },
     "references": [
-      {"type": "ifrs", "short": "IFRS 15 alinea 35 (drie criteria over-periode)"},
-      {"type": "ifrs", "short": "IFRS 15 alinea 36 (alternatieve gebruiksmogelijkheid)"},
-      {"type": "ifrs", "short": "IFRS 15 alinea 37 (afdwingbaar recht op betaling)"},
-      {"type": "ifrs", "short": "IFRS 15 alinea 39-43 (meting voortgang)"},
-      {"type": "ifrs", "short": "IFRS 15 alinea 44-45 (redelijke meting / niet-meetbaar)"}
+      {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 35 (drie criteria over-periode)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 36 (alternatieve gebruiksmogelijkheid)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 37 (afdwingbaar recht op betaling)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 39-43 (meting voortgang)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 44-45 (redelijke meting / niet-meetbaar)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Constructies Cattoir BV bouwt een specifiek geïnstalleerde productie-eenheid voor Zelena Bio NV (contract € 4.500.000, looptijd 18 maanden). De productie-eenheid is volledig op maat (geen alternatieve gebruiksmogelijkheid voor Cattoir — criterium c) en Cattoir heeft contractueel afdwingbaar recht op betaling van reeds verrichte prestaties bij eventuele beëindiging. → Opbrengstopname over periode via inputmethode: 'kosten gemaakt tot dusver / totaal verwachte kosten × transactieprijs'.",
   "bouwstenen": [
@@ -37,8 +68,19 @@
       "voorbeeld_inline": "Cattoir's productie-eenheid bouwen voor Zelena Bio: prestaties zijn gelijkmatig en complex; outputmijlpalen zijn moeilijk objectief te identificeren. → Inputmethode (kosten gemaakt). Voor een rijwegproject waarbij elke afgewerkte 100 m oplevering = betaling: outputmethode (kilometer opgeleverd) is logischer.",
       "grondslag": "IFRS 15 alinea B15 + B18",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IFRS 15 alinea B14-B19"},
-      "_provenance": {"inputs": [{"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea B14-B19"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Verwacht verlies — onmiddellijk opnemen",
@@ -47,8 +89,19 @@
       "voorbeeld_inline": "Cattoir's contract met Zelena Bio: transactieprijs € 4.500.000, totaal verwachte kosten € 4.900.000 (oorspronkelijk € 4.200.000, gestegen door materiaalprijzen). Verwacht verlies € 400.000 → onmiddellijk opgenomen in W&V, niet gewacht tot eindoplevering.",
       "grondslag": "IAS 37 onerous contracts + IFRS 15",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "ifrs", "short": "IAS 37 (onerous contracts) + IFRS 15 algemeen"},
-      "_provenance": {"inputs": [{"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 37 (onerous contracts) + IFRS 15 algemeen"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Niet-meetbare voortgang — alleen kosten goedmaken",
@@ -57,8 +110,19 @@
       "voorbeeld_inline": "Cattoir's eerste 3 maanden van het Zelena-project: design-fase, hoge onzekerheid over totale kosten. Kosten gemaakt € 350.000. Opbrengstopname = € 350.000 (nul-marge). Vanaf maand 4 wordt voortgang meetbaar → reguliere percentage-of-completion methode.",
       "grondslag": "IFRS 15 alinea 45",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IFRS 15 alinea 45"},
-      "_provenance": {"inputs": [{"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 45"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "berekeningsmethode": [
@@ -70,8 +134,16 @@
           "naam": "Voortgangspercentage",
           "wiskunde": "voortgangspercentage = kosten gemaakt tot dusver / totaal verwachte kosten",
           "variabelen": [
-            {"symbool": "kosten gemaakt tot dusver", "betekenis": "Cumulatief gemaakte kosten van contractuitvoering", "eenheid": "EUR"},
-            {"symbool": "totaal verwachte kosten", "betekenis": "Som verwachte kosten over hele contractduur (regelmatig herzien)", "eenheid": "EUR"}
+            {
+              "symbool": "kosten gemaakt tot dusver",
+              "betekenis": "Cumulatief gemaakte kosten van contractuitvoering",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "totaal verwachte kosten",
+              "betekenis": "Som verwachte kosten over hele contractduur (regelmatig herzien)",
+              "eenheid": "EUR"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "Cattoir's contract met Zelena Bio op 31 december 2026: kosten gemaakt € 2.700.000; totaal verwachte kosten € 4.500.000",
@@ -83,10 +155,20 @@
           "id": "opbrengstopname-tot-dusver",
           "naam": "Cumulatieve opbrengstopname",
           "wiskunde": "cumulatieve opbrengst = voortgangspercentage × totale transactieprijs",
-          "afhankelijk_van": ["voortgangspercentage"],
+          "afhankelijk_van": [
+            "voortgangspercentage"
+          ],
           "variabelen": [
-            {"symbool": "voortgangspercentage", "betekenis": "Resultaat vorige formule", "eenheid": "%"},
-            {"symbool": "totale transactieprijs", "betekenis": "Vergoeding waarop entiteit recht heeft", "eenheid": "EUR"}
+            {
+              "symbool": "voortgangspercentage",
+              "betekenis": "Resultaat vorige formule",
+              "eenheid": "%"
+            },
+            {
+              "symbool": "totale transactieprijs",
+              "betekenis": "Vergoeding waarop entiteit recht heeft",
+              "eenheid": "EUR"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "voortgangspercentage = 60%; totale transactieprijs = € 4.500.000",
@@ -98,10 +180,20 @@
           "id": "opbrengst-periode",
           "naam": "Opbrengst van de periode",
           "wiskunde": "opbrengst periode = cumulatieve opbrengst eind − cumulatieve opbrengst begin",
-          "afhankelijk_van": ["opbrengstopname-tot-dusver"],
+          "afhankelijk_van": [
+            "opbrengstopname-tot-dusver"
+          ],
           "variabelen": [
-            {"symbool": "cumulatieve opbrengst eind", "betekenis": "Cumulatieve opbrengst tot einde van huidige periode", "eenheid": "EUR"},
-            {"symbool": "cumulatieve opbrengst begin", "betekenis": "Cumulatieve opbrengst tot einde van vorige periode", "eenheid": "EUR"}
+            {
+              "symbool": "cumulatieve opbrengst eind",
+              "betekenis": "Cumulatieve opbrengst tot einde van huidige periode",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "cumulatieve opbrengst begin",
+              "betekenis": "Cumulatieve opbrengst tot einde van vorige periode",
+              "eenheid": "EUR"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "Cattoir: cumulatieve opbrengst 31 december 2026 = € 2.700.000; cumulatieve opbrengst 31 december 2025 = € 1.080.000 (voortgang 24% × € 4.500.000)",
@@ -110,7 +202,15 @@
           }
         }
       ],
-      "_provenance": {"inputs": [{"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -118,27 +218,68 @@
       "vergelijking_met": "voorraden-ifrs",
       "verschil": "Voorraden (IAS 2) zijn activa aangehouden voor verkoop in de NORMALE bedrijfsvoering — generieke producten. Onderhanden projecten in opdracht van derden (nu IFRS 15) zijn klant-specifieke prestaties waar opbrengstopname over een periode gebeurt onder strikte criteria. Een product op voorraad voor algemene verkoop = IAS 2; een gebouw in opdracht van een specifieke klant = IFRS 15-PO over periode.",
       "trigger": "Examen: 'Klant-specifiek project' → IFRS 15 over periode (mits criterium b of c vervuld); 'algemene voorraad voor verkoop' → IAS 2.",
-      "_provenance": {"inputs": [{"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Niet automatisch elk bouwproject is opname over periode. Toets de drie criteria van alinea 35. Een speculatief residentieel bouwproject zonder specifieke koper (entiteit bouwt voor eigen rekening en zoekt later koper) voldoet typisch NIET aan de over-periode-criteria → opbrengstopname pas bij verkoop.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IFRS 15 alinea 35-37"},
-      "_provenance": {"inputs": [{"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 35-37"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "De inputmethode 'kosten gemaakt' moet inputs uitsluiten die geen vooruitgang reflecteren. Bv. een grote voorraad materialen ingekocht maar nog niet verwerkt mag NIET als gemaakte kost in de teller — dat zou voortgang overschatten (alinea B19).",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IFRS 15 alinea B19"},
-      "_provenance": {"inputs": [{"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea B19"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Totaal verwachte kosten worden **periodiek herzien**. Een kostenstijging (materiaalprijzen, vertragingen) leidt tot een lager voortgangspercentage — en dus mogelijk een terugneming van eerder geboekte opbrengst in het lopende boekjaar (cumulatieve inhaal).",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IFRS 15 alinea 43"},
-      "_provenance": {"inputs": [{"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 15 alinea 43"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

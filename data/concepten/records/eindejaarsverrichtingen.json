@@ -4,12 +4,19 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.taak.1", "1.2.III.D", "1.2.V"],
+  "linked_anchors": [
+    "1.2.taak.1",
+    "1.2.III.D",
+    "1.2.V"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.taak.1",
-    "dekt_ook_anchors": ["1.2.III.D", "1.2.V"],
+    "dekt_ook_anchors": [
+      "1.2.III.D",
+      "1.2.V"
+    ],
     "reviewed_by": null
   },
   "verplichting": "Voor het opstellen van de jaarrekening moeten de eindejaarsverrichtingen (ook 'inventarisboekingen' of 'afsluitingsboekingen') worden uitgevoerd. Dit zijn boekingen die de boekhouding aanvullen om de positie op balansdatum correct weer te geven: afschrijvingen, waardeverminderingen, voorzieningen, overlopende rekeningen, herwaarderingen, eindvoorraad en herklasseringen.",
@@ -20,12 +27,28 @@
       "wat": "Eens per jaar (op balansdatum) opnemen, verifiëren en waarderen van alle bezittingen, vorderingen, schulden en verplichtingen. Resultaat: inventarislijst.",
       "waarom": "Zonder inventaris kun je niet beoordelen wat werkelijk in de boeken hoort te staan.",
       "input": [
-        {"artefact": "Magazijn", "veld": "Fysieke voorraad", "type": "telling"},
-        {"artefact": "Bankrekeningen", "veld": "Saldo per 31/12", "type": "bevestiging-bank"},
-        {"artefact": "Klantenlijst", "veld": "Openstaande facturen", "type": "lijst"}
+        {
+          "artefact": "Magazijn",
+          "veld": "Fysieke voorraad",
+          "type": "telling"
+        },
+        {
+          "artefact": "Bankrekeningen",
+          "veld": "Saldo per 31/12",
+          "type": "bevestiging-bank"
+        },
+        {
+          "artefact": "Klantenlijst",
+          "veld": "Openstaande facturen",
+          "type": "lijst"
+        }
       ],
       "output": [
-        {"artefact": "Inventarisboek", "veld": "Alle bezittingen/vorderingen/schulden", "type": "boekhoudkundig-overzicht"}
+        {
+          "artefact": "Inventarisboek",
+          "veld": "Alle bezittingen/vorderingen/schulden",
+          "type": "boekhoudkundig-overzicht"
+        }
       ],
       "hoe": "1. Tel fysiek de voorraad (telkens met twee personen onafhankelijk). 2. Vraag bankbevestigingen op (saldobrief). 3. Maak lijst klantenvorderingen en leveranciersschulden. 4. Maak lijst lopende contracten en verbintenissen. 5. Schrijf alles over in het inventarisboek.",
       "grondslag": "WER art. III.85"
@@ -141,24 +164,57 @@
       "termijn": "op of vlak na balansdatum",
       "actor": "onderneming",
       "actie": "Fysieke telling + bevestigingen + lijsten",
-      "source": {"type": "wet", "short": "WER art. III.85"},
-      "_provenance": {"inputs": [{"id": "CBN-0007-04-opmaken-van-de-inventaris__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.85"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0007-04-opmaken-van-de-inventaris__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "stap": "Inventaris-boekingen",
       "termijn": "binnen 6 maanden na balansdatum",
       "actor": "onderneming + accountant",
       "actie": "Afschrijvingen, waardeverminderingen, voorzieningen, overlopende rekeningen",
-      "source": {"type": "kb", "short": "KB-WVV"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_57", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_57",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "stap": "Definitieve proef-en-saldibalans",
       "termijn": "vóór jaarrekening-opstelling",
       "actor": "accountant",
       "actie": "Controle debet = credit; basis voor balans + RR",
-      "source": {"type": "advies", "short": "CBN-advies 174/1"},
-      "_provenance": {"inputs": [{"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN-advies 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -167,28 +223,55 @@
       "betekenis": "Beste praktijk: eerst inventariseren, dan afschrijvingen, dan waardeverminderingen, dan voorzieningen, dan overlopende rekeningen, dan eindvoorraad. Zo bouw je systematisch het correcte beeld op.",
       "herkenningspunt": "Examen-scenario 'voer eindejaarsverrichtingen uit' → ga deze volgorde af, niet random.",
       "confidence": "inferred",
-      "source": {"type": "advies", "short": "Praktijkstandaard"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "advies",
+        "short": "Praktijkstandaard"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Vergeet niet de niet-balansrechten en -verplichtingen in de toelichting op te nemen — geen aparte boeking, wel verplichte vermelding (klasse 0 + toelichting rubriek IX).",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV art. 3:14"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_55", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV art. 3:14"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_55",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Het matching-beginsel werkt twee kanten op. Niet alleen kosten van volgend jaar overdragen (490) maar ook **opbrengsten** die nog niet ontvangen zijn maar wel het boekjaar betreffen → toe te rekenen opbrengsten (491).",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV art. 3:56-3:57"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_57", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV art. 3:56-3:57"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_57",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

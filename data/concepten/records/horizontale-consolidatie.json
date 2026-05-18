@@ -4,12 +4,23 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.C", "1.4.I.B", "1.4.I.D", "1.4.II.B", "1.4.taak.1"],
+  "linked_anchors": [
+    "1.4.I.C",
+    "1.4.I.B",
+    "1.4.I.D",
+    "1.4.II.B",
+    "1.4.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.D",
-    "dekt_ook_anchors": ["1.4.I.C", "1.4.I.B", "1.4.II.B", "1.4.taak.1"],
+    "dekt_ook_anchors": [
+      "1.4.I.C",
+      "1.4.I.B",
+      "1.4.II.B",
+      "1.4.taak.1"
+    ],
     "reviewed_by": null,
     "schema_1_4_migration": {
       "uitgevoerd_op": "2026-05-16T00:11Z",
@@ -53,21 +64,48 @@
   "verplichting": {
     "text": "De consolidatietechniek die je toepast wanneer vennootschappen onder gemeenschappelijke leiding staan zonder dat één rechtspersoon de andere controleert — een consortium. De leden van het consortium en hun eigen dochters worden via integrale consolidatie samengevoegd (KB WVV art. 3:124, 1° jo. WVV art. 3:24). De posten van het eigen vermogen blijven per lid zichtbaar (beschikbare/onbeschikbare reserves behouden hun karakter — WVV art. 3:30, § 2).",
     "confidence": "grounded",
-    "source": {"type": "advies", "short": "CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)"},
+    "source": {
+      "type": "advies",
+      "short": "CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)"
+    },
     "references": [
-      {"type": "wet", "short": "WVV art. 1:19 (consortium)"},
-      {"type": "wet", "short": "WVV art. 3:24 (consolidatieverplichting consortium)"},
-      {"type": "wet", "short": "WVV art. 3:30, § 2 (eigen vermogen consortium)"},
-      {"type": "kb", "short": "KB WVV art. 3:124, 1°"}
+      {
+        "type": "wet",
+        "short": "WVV art. 1:19 (consortium)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 3:24 (consolidatieverplichting consortium)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 3:30, § 2 (eigen vermogen consortium)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:124, 1°"
+      }
     ],
     "_provenance": {
       "inputs": [
-        {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiemethode", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_verticale-consolidatie-voorafgaand-aan-de-horizontale-consol", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiemethode",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_verticale-consolidatie-voorafgaand-aan-de-horizontale-consol",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     },
     "_corrected_from": [
-      {"field": "text", "from": "De consolidatietechniek die wordt toegepast wanneer vennootschappen onder centrale leiding staan zonder dat één rechtspersoon de andere controleert (een consortium / horizontale groep). De vennootschappen die het consortium vormen worden, samen met hun eigen dochters, opgenomen via integrale consolidatie (KB WVV art. 3:124, 1° jo. WVV art. 3:24). Eigen-vermogenposten van de leden behouden hun eigen karakter (beschikbare/onbeschikbare reserves) in de samenvoeging.", "reason": "Stagiair-toon: 'consoliderende vennootschap'-style geschrapt, korte zinnen (regel 6)."}
+      {
+        "field": "text",
+        "from": "De consolidatietechniek die wordt toegepast wanneer vennootschappen onder centrale leiding staan zonder dat één rechtspersoon de andere controleert (een consortium / horizontale groep). De vennootschappen die het consortium vormen worden, samen met hun eigen dochters, opgenomen via integrale consolidatie (KB WVV art. 3:124, 1° jo. WVV art. 3:24). Eigen-vermogenposten van de leden behouden hun eigen karakter (beschikbare/onbeschikbare reserves) in de samenvoeging.",
+        "reason": "Stagiair-toon: 'consoliderende vennootschap'-style geschrapt, korte zinnen (regel 6)."
+      }
     ]
   },
   "voorbeeld_inline": "Industria Antwerpen NV en Jachthaven Jezus-Eik NV staan onder gemeenschappelijke leiding van Pieter Vermeulen, zonder dat één van beide vennootschap de andere controleert → horizontale consolidatie: hun balansen, resultatenrekeningen en eigen-vermogensposten worden integraal samengevoegd in één geconsolideerde jaarrekening; de reserves van elk lid blijven afzonderlijk zichtbaar.",
@@ -78,11 +116,23 @@
       "wat": "Voer aanpassingsboekingen uit zodat alle consortium-leden hun balans en resultatenrekening volgens dezelfde waarderingsregels opstellen.",
       "waarom": "Als de leden verschillende waarderingsregels hanteren (bv. lineair vs. degressief afschrijven, FIFO vs. gewogen gemiddelde), zou de samenvoeging niet zinvol zijn — appels en peren bij elkaar.",
       "input": [
-        {"artefact": "Waarderingsregels van Industria Antwerpen NV", "veld": "Set toegepaste regels", "type": "document"},
-        {"artefact": "Waarderingsregels van Jachthaven Jezus-Eik NV", "veld": "Set toegepaste regels", "type": "document"}
+        {
+          "artefact": "Waarderingsregels van Industria Antwerpen NV",
+          "veld": "Set toegepaste regels",
+          "type": "document"
+        },
+        {
+          "artefact": "Waarderingsregels van Jachthaven Jezus-Eik NV",
+          "veld": "Set toegepaste regels",
+          "type": "document"
+        }
       ],
       "output": [
-        {"artefact": "Geharmoniseerde balansen per lid", "veld": "Aangepaste boekwaarden", "type": "boekhoudkundig-bedrag"}
+        {
+          "artefact": "Geharmoniseerde balansen per lid",
+          "veld": "Aangepaste boekwaarden",
+          "type": "boekhoudkundig-bedrag"
+        }
       ],
       "hoe": "1. Vergelijk de waarderingsregels van Industria Antwerpen NV en Jachthaven Jezus-Eik NV per balanspost (afschrijvingen, voorraden, voorzieningen).\n2. Spreek één gezamenlijke set af voor de geconsolideerde jaarrekening (CBN 2022/09 — stap 1).\n3. Voor leden die afwijken: bereken de impact van de overstap en boek de aanpassing in een werkpapier (niet in de individuele jaarrekening).\n4. Documenteer de afwijking in de toelichting bij de geconsolideerde jaarrekening.\n",
       "grondslag": "KB WVV art. 3:118 (uniformiteit waarderingsregels) jo. CBN 2022/09 stap 1",
@@ -99,10 +149,18 @@
       "wat": "Heeft een consortium-lid zelf dochters? Doe dan voor dat lid eerst de verticale (gewone) consolidatie: integraal voor exclusief gecontroleerde dochters, evenredig voor gemeenschappelijke dochters, vermogensmutatie voor geassocieerde ondernemingen.",
       "waarom": "Anders zou je de derden-belangen in de dochters van een lid verkeerd behandelen. Je horizontaliseert pas wat al netjes verticaal opgesteld is.",
       "input": [
-        {"artefact": "Balans + resultatenrekening lid + zijn dochters", "veld": "Alle posten", "type": "boekhoudkundig-bedrag"}
+        {
+          "artefact": "Balans + resultatenrekening lid + zijn dochters",
+          "veld": "Alle posten",
+          "type": "boekhoudkundig-bedrag"
+        }
       ],
       "output": [
-        {"artefact": "Verticaal geconsolideerde jaarrekening per lid", "veld": "Tussenresultaat", "type": "nieuwe-balanspost"}
+        {
+          "artefact": "Verticaal geconsolideerde jaarrekening per lid",
+          "veld": "Tussenresultaat",
+          "type": "nieuwe-balanspost"
+        }
       ],
       "hoe": "1. Inventariseer per consortium-lid de eigen dochters.\n2. Voor elke groep lid+dochters: voer de procedure integrale consolidatie uit (zie [[integrale-consolidatie]]).\n3. Heeft een lid een gemeenschappelijke dochter? → evenredige consolidatie. Een geassocieerde? → vermogensmutatie.\n4. Het resultaat per lid is een 'verticaal geconsolideerde jaarrekening van dat lid'.\n5. Pas in stap 3 voeg je die per-lid-jaarrekeningen samen.\n",
       "grondslag": "CBN 2022/09 — Verticale consolidatie voorafgaand aan horizontale",
@@ -119,20 +177,47 @@
       "wat": "Tel de (eventueel verticaal geconsolideerde) cijfers van alle consortium-leden post per post op. Activa, schulden, rechten, verplichtingen, opbrengsten en kosten worden voor 100 % per lid opgenomen — net als bij integrale consolidatie.",
       "waarom": "Het consortium wordt voor het cijferbeeld als één economische entiteit gepresenteerd. Pro-rata-opname zou de schaal van de groep verbergen.",
       "input": [
-        {"artefact": "Verticaal geconsolideerde jaarrekening per lid", "veld": "Alle posten", "type": "boekhoudkundig-bedrag"}
+        {
+          "artefact": "Verticaal geconsolideerde jaarrekening per lid",
+          "veld": "Alle posten",
+          "type": "boekhoudkundig-bedrag"
+        }
       ],
       "output": [
-        {"artefact": "Horizontaal geconsolideerde balans", "veld": "Samengevoegde posten", "type": "nieuwe-balanspost"},
-        {"artefact": "Horizontaal geconsolideerde resultatenrekening", "veld": "Samengevoegde opbrengsten/kosten", "type": "nieuwe-balanspost"}
+        {
+          "artefact": "Horizontaal geconsolideerde balans",
+          "veld": "Samengevoegde posten",
+          "type": "nieuwe-balanspost"
+        },
+        {
+          "artefact": "Horizontaal geconsolideerde resultatenrekening",
+          "veld": "Samengevoegde opbrengsten/kosten",
+          "type": "nieuwe-balanspost"
+        }
       ],
       "hoe": "1. Neem de balans van Industria Antwerpen NV (eventueel verticaal geconsolideerd).\n2. Neem de balans van Jachthaven Jezus-Eik NV (eventueel verticaal geconsolideerd).\n3. Tel post per post de bedragen op: vaste activa Industria + vaste activa Jachthaven, vlottende activa, schulden, opbrengsten, kosten.\n4. Het eigen vermogen wordt apart behandeld in stap 4 — niet zomaar optellen.\n5. Idem voor de resultatenrekening: tel de bedrijfsopbrengsten en -kosten samen, met behoud van vergelijkbare presentatie.\n",
       "grondslag": "KB WVV art. 3:124, 1° jo. WVV art. 3:24",
       "voorbeeld": {
         "scenario": "Industria Antwerpen NV en Jachthaven Jezus-Eik NV vormen een consortium onder leiding van Pieter Vermeulen.",
         "substappen": [
-          {"nr": 1, "titel": "Balans Industria Antwerpen NV", "type": "balans", "data": "| Industria Antwerpen NV — Activa  | Bedrag (€) |\n|----------------------------------|-----------:|\n| Vaste activa                     |  4.000.000 |\n| Vlottende activa                 |  3.000.000 |\n| **Totaal**                       | **7.000.000** |"},
-          {"nr": 2, "titel": "Balans Jachthaven Jezus-Eik NV", "type": "balans", "data": "| Jachthaven Jezus-Eik NV — Activa | Bedrag (€) |\n|----------------------------------|-----------:|\n| Vaste activa                     |  2.500.000 |\n| Vlottende activa                 |  2.000.000 |\n| **Totaal**                       | **4.500.000** |"},
-          {"nr": 3, "titel": "Horizontaal geconsolideerde balans (vóór intragroep-eliminaties)", "type": "balans", "data": "| Geconsolideerde balans — Activa            | Bedrag (€) |\n|--------------------------------------------|-----------:|\n| Vaste activa (Industria + Jachthaven)      |  6.500.000 |\n| Vlottende activa (Industria + Jachthaven)  |  5.000.000 |\n| **Totaal**                                 | **11.500.000** |"}
+          {
+            "nr": 1,
+            "titel": "Balans Industria Antwerpen NV",
+            "type": "balans",
+            "data": "| Industria Antwerpen NV — Activa  | Bedrag (€) |\n|----------------------------------|-----------:|\n| Vaste activa                     |  4.000.000 |\n| Vlottende activa                 |  3.000.000 |\n| **Totaal**                       | **7.000.000** |"
+          },
+          {
+            "nr": 2,
+            "titel": "Balans Jachthaven Jezus-Eik NV",
+            "type": "balans",
+            "data": "| Jachthaven Jezus-Eik NV — Activa | Bedrag (€) |\n|----------------------------------|-----------:|\n| Vaste activa                     |  2.500.000 |\n| Vlottende activa                 |  2.000.000 |\n| **Totaal**                       | **4.500.000** |"
+          },
+          {
+            "nr": 3,
+            "titel": "Horizontaal geconsolideerde balans (vóór intragroep-eliminaties)",
+            "type": "balans",
+            "data": "| Geconsolideerde balans — Activa            | Bedrag (€) |\n|--------------------------------------------|-----------:|\n| Vaste activa (Industria + Jachthaven)      |  6.500.000 |\n| Vlottende activa (Industria + Jachthaven)  |  5.000.000 |\n| **Totaal**                                 | **11.500.000** |"
+          }
         ]
       },
       "actor": "consortium-leden gezamenlijk",
@@ -148,11 +233,23 @@
       "wat": "Voeg de eigen-vermogensposten van Industria Antwerpen NV en Jachthaven Jezus-Eik NV samen, maar houd het bedrag dat aan elk lid toebehoort apart zichtbaar onder dezelfde posten van het eigen vermogen. Beschikbare reserves van een lid blijven beschikbaar; onbeschikbare blijven onbeschikbaar.",
       "waarom": "Het consortium kent geen 'moeder' die het eigen vermogen samentrekt; elke aandeelhouder houdt rechten op zijn eigen lid. De aard van die rechten (uitkeerbaar of niet) moet daarom transparant blijven (WVV art. 3:30, § 2).",
       "input": [
-        {"artefact": "Eigen vermogen Industria Antwerpen NV", "veld": "Kapitaal + reserves + overgedragen resultaat", "type": "boekhoudkundig-bedrag"},
-        {"artefact": "Eigen vermogen Jachthaven Jezus-Eik NV", "veld": "Idem", "type": "boekhoudkundig-bedrag"}
+        {
+          "artefact": "Eigen vermogen Industria Antwerpen NV",
+          "veld": "Kapitaal + reserves + overgedragen resultaat",
+          "type": "boekhoudkundig-bedrag"
+        },
+        {
+          "artefact": "Eigen vermogen Jachthaven Jezus-Eik NV",
+          "veld": "Idem",
+          "type": "boekhoudkundig-bedrag"
+        }
       ],
       "output": [
-        {"artefact": "Geconsolideerd eigen vermogen", "veld": "Per consortium-lid + per posttype", "type": "nieuwe-balanspost"}
+        {
+          "artefact": "Geconsolideerd eigen vermogen",
+          "veld": "Per consortium-lid + per posttype",
+          "type": "nieuwe-balanspost"
+        }
       ],
       "hoe": "1. Maak een tabel met de eigen-vermogensposten per lid (kapitaal, herwaarderingsmeerwaarden, beschikbare reserves, onbeschikbare reserves, overgedragen resultaat).\n2. Tel de bedragen per posttype op, maar splits in de toelichting per consortium-lid.\n3. Bewaak: een onbeschikbare reserve van Jachthaven mag niet plots als beschikbaar verschijnen.\n4. Vermeld in de toelichting hoeveel van elke post toe te rekenen is aan elk lid (transparantie).\n",
       "grondslag": "WVV art. 3:30, § 2",
@@ -169,10 +266,18 @@
       "wat": "Verwijder alle wederzijdse vorderingen, schulden, verkopen, aankopen, intra-groepswinsten in voorraden of vaste activa tussen consortium-leden onderling én tussen leden en hun dochters.",
       "waarom": "Het consortium is voor het cijferbeeld één entiteit; transacties binnen die entiteit zijn economisch geen echte transacties.",
       "input": [
-        {"artefact": "Boekhouding leden + dochters", "veld": "Onderlinge vorderingen, schulden, verkopen, aankopen", "type": "boekhoudkundig-bedrag"}
+        {
+          "artefact": "Boekhouding leden + dochters",
+          "veld": "Onderlinge vorderingen, schulden, verkopen, aankopen",
+          "type": "boekhoudkundig-bedrag"
+        }
       ],
       "output": [
-        {"artefact": "Geconsolideerde balans en RR", "veld": "Onderlinge posten", "type": "geëlimineerde-post"}
+        {
+          "artefact": "Geconsolideerde balans en RR",
+          "veld": "Onderlinge posten",
+          "type": "geëlimineerde-post"
+        }
       ],
       "hoe": "1. Inventariseer alle bedragen die Industria Antwerpen NV nog te ontvangen heeft van Jachthaven Jezus-Eik NV (en omgekeerd), en idem met hun dochters.\n2. Schrap die bedragen wederzijds: vordering bij lid 1 weg én schuld bij lid 2 weg, voor hetzelfde bedrag.\n3. Bij onderlinge verkopen: bepaal hoeveel van de verkochte goederen nog in voorraad zit en schrap de winstmarge.\n4. In de resultatenrekening: schrap de onderlinge omzet en de onderlinge aankoopkosten voor exact hetzelfde bedrag.\n5. Praktische uitzondering: posten van te verwaarlozen betekenis mag je laten staan (KB WVV art. 3:139).\n",
       "grondslag": "KB WVV art. 3:134 (balans), art. 3:136 (resultatenrekening)",
@@ -190,25 +295,55 @@
       "betekenis": "Het begrip 'consortium' is uitgesloten zodra twee of meer vennootschappen al in een verticale moeder-dochter-relatie staan met elkaar of met een gemeenschappelijke moeder. Zo voorkomt de wet dat dezelfde groep zowel verticaal als horizontaal wordt opgesteld. Eerst de verticale check, dan eventueel horizontaal.",
       "herkenningspunt": "Examen-zin 'Aurelia is dochter van Antwerpse én partner in consortium met Cardinal' → geen consortium — gewoon verticale consolidatie Aurelia+Antwerpse; Cardinal apart.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2022/09 — voorbeeld 1"},
-      "_provenance": {"inputs": [{"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-1", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/09 — voorbeeld 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "betekenis", "from": "Het begrip 'consortium' is uitgesloten wanneer twee of meer vennootschappen reeds in een verticale moeder-dochter-relatie staan met elkaar of met een gemeenschappelijke moeder. Zo wordt vermeden dat dezelfde groep zowel verticaal als horizontaal moet worden opgesteld. Eerst verticale check, dan eventueel horizontaal.", "reason": "Stagiair-toon: 'primauteit' → 'voorrang' (regel 6)."}
+        {
+          "field": "betekenis",
+          "from": "Het begrip 'consortium' is uitgesloten wanneer twee of meer vennootschappen reeds in een verticale moeder-dochter-relatie staan met elkaar of met een gemeenschappelijke moeder. Zo wordt vermeden dat dezelfde groep zowel verticaal als horizontaal moet worden opgesteld. Eerst verticale check, dan eventueel horizontaal.",
+          "reason": "Stagiair-toon: 'primauteit' → 'voorrang' (regel 6)."
+        }
       ]
     },
     {
       "aspect": "Geen moeder, gezamenlijke verantwoordelijkheid",
       "betekenis": "Anders dan bij verticale consolidatie is er bij een consortium geen 'moeder'. De leden van het consortium maken samen de geconsolideerde jaarrekening op, laten ze controleren en publiceren ze. De centrale leider — vaak een natuurlijke persoon zoals Pieter Vermeulen of een private stichting — moet zelf géén geconsolideerde jaarrekening opstellen (CBN 2022/09 — voorbeeld 7).",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2022/09"},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/09"
+      },
       "_provenance": {
         "inputs": [
-          {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatieverplichting-consoliderende-vennootschap", "sha256": null, "version": "rag-v1"},
-          {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatieverplichting-consoliderende-vennootschap",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       },
       "_corrected_from": [
-        {"field": "betekenis", "from": "Anders dan bij verticale consolidatie is er geen 'moedervennootschap' in een consortium. De consortiumleden stellen samen de geconsolideerde jaarrekening op, laten die controleren en maken die openbaar. De centrale leider (vaak natuurlijke persoon of stichting) is zelf niet consolidatieplichtig (CBN 2022/09 — voorbeeld 7).", "reason": "Stagiair-toon + cast-naam (regels 6 + 7)."}
+        {
+          "field": "betekenis",
+          "from": "Anders dan bij verticale consolidatie is er geen 'moedervennootschap' in een consortium. De consortiumleden stellen samen de geconsolideerde jaarrekening op, laten die controleren en maken die openbaar. De centrale leider (vaak natuurlijke persoon of stichting) is zelf niet consolidatieplichtig (CBN 2022/09 — voorbeeld 7).",
+          "reason": "Stagiair-toon + cast-naam (regels 6 + 7)."
+        }
       ]
     }
   ],
@@ -217,17 +352,40 @@
       "vergelijking_met": "integrale-consolidatie",
       "verschil": "Horizontale consolidatie gebruikt de techniek van integrale consolidatie maar past die toe op een horizontale groep (consortium) in plaats van op een verticale moeder-dochter-relatie. Geen moeder, geen aandeel van derden tussen de leden onderling; wel mogelijk binnen verticale subgroepen onder een lid.",
       "trigger": "Het type relatie (verticaal vs. horizontaal) bepaalt of je het integrale-consolidatie-recept op een moeder + haar dochters toepast (verticaal) of op een set zelfstandige consortium-leden onder gemeenschappelijke leiding (horizontaal).",
-      "_provenance": {"inputs": [{"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiemethode", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiemethode",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Een consortium-lid dat zelf dochters heeft, moet eerst verticaal consolideren vooraleer aan de horizontale samenvoeging deel te nemen. Wie deze volgorde omkeert, krijgt incorrecte resultaten omdat de derden-belangen in de dochters van een lid anders verkeerd worden behandeld. Bv. Industria Antwerpen NV met dochter Brugse Brouwerij BV (80 %): eerst Industria+Brugse verticaal consolideren (incl. 20 % belangen van derden), dan pas horizontaal samenvoegen met Jachthaven Jezus-Eik NV.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2022/09 — verticale voorafgaand aan horizontale"},
-      "_provenance": {"inputs": [{"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_verticale-consolidatie-voorafgaand-aan-de-horizontale-consol", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/09 — verticale voorafgaand aan horizontale"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_verticale-consolidatie-voorafgaand-aan-de-horizontale-consol",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "text", "from": "Een consortium-lid dat zelf dochters heeft, moet eerst verticaal consolideren vooraleer aan de horizontale samenvoeging deel te nemen. Wie deze volgorde omkeert, krijgt incorrecte resultaten omdat de derden-belangen in de dochters van een consortium-lid anders verkeerd worden behandeld.", "reason": "Cast-voorbeeld toegevoegd (regel 7)."}
+        {
+          "field": "text",
+          "from": "Een consortium-lid dat zelf dochters heeft, moet eerst verticaal consolideren vooraleer aan de horizontale samenvoeging deel te nemen. Wie deze volgorde omkeert, krijgt incorrecte resultaten omdat de derden-belangen in de dochters van een consortium-lid anders verkeerd worden behandeld.",
+          "reason": "Cast-voorbeeld toegevoegd (regel 7)."
+        }
       ]
     }
   ],
@@ -240,7 +398,15 @@
         "veld": "contrasteert-met → onderdeel-van",
         "reden": "Relatie is compositioneel: procedure binnen het structuurconcept consortium."
       },
-      "_provenance": {"inputs": [{"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_horizontale-groep",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "onderdeel-van",

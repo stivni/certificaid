@@ -4,26 +4,52 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.1.I", "1.1.I.A", "1.1.taak.1", "1.2.III.C", "1.2.III"],
+  "linked_anchors": [
+    "1.1.I",
+    "1.1.I.A",
+    "1.1.taak.1",
+    "1.2.III.C",
+    "1.2.III"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.I",
-    "dekt_ook_anchors": ["1.1.I.A", "1.1.taak.1", "1.2.III.C", "1.2.III"],
+    "dekt_ook_anchors": [
+      "1.1.I.A",
+      "1.1.taak.1",
+      "1.2.III.C",
+      "1.2.III"
+    ],
     "reviewed_by": null,
     "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met 1.2.III + 1.2.III.C door PO 1.2-extractie (cross-PO concept)."
   },
   "definitie": {
     "text": "Een **alternatieve boekhoudvorm** voor kleine ondernemingen onder de wettelijke drempelwaarden (WER art. III.85), die GEEN dubbele boekhouding vereist. In plaats van een rekeningstelsel met debet/credit gebruikt de onderneming **drie aparte dagboeken**: een financieel dagboek (bank en kas), een aankoopdagboek (alle uitgaven) en een verkoopdagboek (alle inkomsten). De jaarrekening is een vereenvoudigd schema (staat van ontvangsten en uitgaven + opgave van het vermogen).",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "WER art. III.85"},
+    "source": {
+      "type": "wet",
+      "short": "WER art. III.85"
+    },
     "references": [
-      {"type": "advies", "short": "CBN 2019/10 — Dubbele boekhouding of vereenvoudigde boekhouding (optie)"},
-      {"type": "advies", "short": "CBN 2020/05 — Verenigingen en stichtingen vereenvoudigde boekhouding"}
+      {
+        "type": "advies",
+        "short": "CBN 2019/10 — Dubbele boekhouding of vereenvoudigde boekhouding (optie)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2020/05 — Verenigingen en stichtingen vereenvoudigde boekhouding"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen__sec_dubbele-boekhouding-of-vereenvoudigde-boekhouding-optie", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen__sec_dubbele-boekhouding-of-vereenvoudigde-boekhouding-optie",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Praktijk Persenaire (eenmanszaak vrij beroep, omzet € 180.000 in 20X1) voert een vereenvoudigde boekhouding: financieel dagboek (alle bankuittreksels en kasontvangsten/uitgaven), aankoopdagboek (huur praktijk, software-licentie, kantoorbenodigdheden), verkoopdagboek (consultatie-erelonen). Geen klantenrekeningen, geen 'klasse 6' — wel een opgave van het vermogen per 31/12.",
   "drempelwaarden": [
@@ -32,9 +58,20 @@
       "waarde": "€ 500.000",
       "eenheid": "jaaromzet excl. BTW",
       "gevolg": "Natuurlijke personen, vennootschappen onder firma (VOF) en gewone commanditaire vennootschappen (GCV) met een omzet onder deze drempel mogen een vereenvoudigde boekhouding voeren. Boven de drempel: verplicht dubbel boekhouden.",
-      "source": {"type": "wet", "short": "WER art. III.85, § 1 + KB uitvoeringsbepaling"},
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.85, § 1 + KB uitvoeringsbepaling"
+      },
       "confidence": "grounded",
-      "_provenance": {"inputs": [{"id": "CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen__sec_dubbele-boekhouding-of-vereenvoudigde-boekhouding-optie", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen__sec_dubbele-boekhouding-of-vereenvoudigde-boekhouding-optie",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "bouwstenen": [
@@ -45,8 +82,19 @@
       "voorbeeld_inline": "Praktijk Persenaire boekt het kasstuk van 5 maart 'tankbeurt wagen € 78' in haar financieel dagboek (uitgave) en gelijktijdig in het aankoopdagboek onder rubriek 'autokosten'. Geen klasse 61 of klanten-rekening nodig.",
       "grondslag": "WER art. III.85",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WER art. III.85"},
-      "_provenance": {"inputs": [{"id": "CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen__sec_dubbele-boekhouding-of-vereenvoudigde-boekhouding-optie", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.85"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen__sec_dubbele-boekhouding-of-vereenvoudigde-boekhouding-optie",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Inventaris en jaarrekening blijven verplicht",
@@ -55,8 +103,19 @@
       "voorbeeld_inline": "Praktijk Persenaire stelt op 31/12 een inventaris op: bureel-uitrusting € 4.500, bankrekening € 18.700, openstaande honoraria € 6.800, sociale-bijdragen-schuld € 2.400. Op basis hiervan: vermogen + resultaat.",
       "grondslag": "WER art. III.85 + III.89",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WER art. III.85"},
-      "_provenance": {"inputs": [{"id": "CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen__sec_dubbele-boekhouding-of-vereenvoudigde-boekhouding-optie", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.85"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen__sec_dubbele-boekhouding-of-vereenvoudigde-boekhouding-optie",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Optie ook bij omzet onder drempel",
@@ -65,8 +124,19 @@
       "voorbeeld_inline": "Praktijk Persenaire heeft omzet € 180.000 — mag vereenvoudigd. Maar zijn boekhouder adviseert dubbel boekhouden omwille van overzicht en kredietdossier — toegelaten.",
       "grondslag": "CBN 2019/10",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2019/10"},
-      "_provenance": {"inputs": [{"id": "CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen__sec_dubbele-boekhouding-of-vereenvoudigde-boekhouding-optie", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2019/10"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen__sec_dubbele-boekhouding-of-vereenvoudigde-boekhouding-optie",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -75,23 +145,56 @@
       "betekenis": "Natuurlijke personen die zelfstandige beroepsactiviteit uitoefenen (eenmanszaken), VOFs en GCVs met jaaromzet ≤ € 500.000 excl. BTW. Vennootschappen met beperkte aansprakelijkheid (BV, NV, CV) zijn ALTIJD verplicht tot dubbel boekhouden, ongeacht de omzet.",
       "herkenningspunt": "Examen: 'kleine BV met omzet € 200.000' — mag NIET vereenvoudigd, BV is altijd verplicht dubbel.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WER art. III.85"},
-      "_provenance": {"inputs": [{"id": "CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen__sec_dubbele-boekhouding-of-vereenvoudigde-boekhouding-optie", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.85"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen__sec_dubbele-boekhouding-of-vereenvoudigde-boekhouding-optie",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Driemaandelijkse centralisatie",
       "betekenis": "Voor vereenvoudigde boekhouding volstaat een driemaandelijkse centralisatie (in plaats van maandelijks bij dubbel boekhouden).",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WER art. III.84, lid 3"},
-      "_provenance": {"inputs": [{"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.84, lid 3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_71",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Vereenvoudigde boekhouding is GEEN 'minder strikte' boekhouding qua bewijswaarde. Ze blijft regelmatig moeten zijn (volledigheid, onveranderlijkheid, tijdsorde). Het verschil zit alleen in de structuur (drie dagboeken vs. rekeningstelsel), niet in de kwaliteitseisen.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "advies", "short": "CBN 174/1 + CBN 2019/10"},
-      "_provenance": {"inputs": [{"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 174/1 + CBN 2019/10"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_in-een-dagboek",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -102,6 +205,10 @@
     }
   ],
   "edges": [
-    {"type": "specialisatie-van", "target": "regelmatige-boekhouding", "redenering": "Vereenvoudigde boekhouding is een toegelaten variant van een regelmatige boekhouding voor kleine ondernemingen."}
+    {
+      "type": "specialisatie-van",
+      "target": "regelmatige-boekhouding",
+      "redenering": "Vereenvoudigde boekhouding is een toegelaten variant van een regelmatige boekhouding voor kleine ondernemingen."
+    }
   ]
 }

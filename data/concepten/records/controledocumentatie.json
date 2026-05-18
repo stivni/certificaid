@@ -4,23 +4,45 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.III.C", "1.6.III.B"],
+  "linked_anchors": [
+    "1.6.III.C",
+    "1.6.III.B"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.III.C",
-    "dekt_ook_anchors": ["1.6.III.B"],
+    "dekt_ook_anchors": [
+      "1.6.III.B"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Controledocumentatie is de schriftelijke vastlegging van uitgevoerde controlewerkzaamheden, verkregen assurance-informatie en getrokken conclusies. Een controledossier bestaat uit één of meer mappen (fysiek of elektronisch) met alle vastleggingen van een specifieke controleopdracht.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1 + §43-§49 + ITAA Algemene Controlenorm §4"},
-    "_provenance": {"inputs": [
-      {"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2", "sha256": null, "version": "rag-v1"},
-      {"id": "ITAA-norm-kmo-controlenorm__sec_2-2-4-documentatie", "sha256": null, "version": "rag-v1"},
-      {"id": "ITAA-norm-algemene-controlenorm__sec_4-werkdocumenten", "sha256": null, "version": "rag-v1"}
-    ]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1 + §43-§49 + ITAA Algemene Controlenorm §4"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_2-2-4-documentatie",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-algemene-controlenorm__sec_4-werkdocumenten",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Het controledossier 2025 van Rotex Roeselare NV bevat: opdrachtbrief, strategie + risico-evaluatie, werkprogramma per cyclus, alle steekproeven (met testresultaten en evaluatie), correspondentie met derden, management-letters, vergaderingsverslagen met de directie, en het ondertekende controleverslag. Sofie Janssens bewaart het dossier 10 jaar.",
   "bouwstenen": [
@@ -30,8 +52,19 @@
       "waarom": "Het dossier moet als bewijs kunnen dienen van wat de auditor heeft gedaan — voor de toezichthouder én voor een eventuele rechtbank.",
       "grondslag": "ITAA Algemene controlenorm §4",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA Algemene controlenorm §4"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-algemene-controlenorm__sec_4-werkdocumenten", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA Algemene controlenorm §4"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-algemene-controlenorm__sec_4-werkdocumenten",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Ervaren-beroepsbeoefenaar-test",
@@ -40,8 +73,19 @@
       "voorbeeld_inline": "Een vervangende confrater moet in 2030 het dossier 2025 van Rotex kunnen openen en begrijpen waarom Sofie Janssens een paragraaf ter benadrukking had opgenomen.",
       "grondslag": "ITAA KMO-controlenorm §44",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §44"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_2-2-4-documentatie", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §44"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_2-2-4-documentatie",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Eigendom + beroepsgeheim",
@@ -49,8 +93,19 @@
       "waarom": "Garandeert de onafhankelijkheid van de auditor en de vertrouwelijkheid van het oordeelsvormingsproces.",
       "grondslag": "ITAA Algemene controlenorm §4 in fine",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA Algemene controlenorm §4"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-algemene-controlenorm__sec_4-werkdocumenten", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA Algemene controlenorm §4"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-algemene-controlenorm__sec_4-werkdocumenten",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "drempelwaarden": [
@@ -59,30 +114,71 @@
       "waarde": "10 jaar",
       "eenheid": "jaren vanaf datum verslag",
       "gevolg": "Werkdocumenten moeten minstens 10 jaar bewaard worden onder de Algemene Controlenorm §3.",
-      "source": {"type": "norm", "short": "ITAA Algemene controlenorm §3"},
+      "source": {
+        "type": "norm",
+        "short": "ITAA Algemene controlenorm §3"
+      },
       "confidence": "grounded",
-      "_provenance": {"inputs": [{"id": "ITAA-norm-algemene-controlenorm__sec_3-werkschema", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-algemene-controlenorm__sec_3-werkschema",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "naam": "Minimumbewaartermijn dossier — KMO-controlenorm",
       "waarde": "5 jaar",
       "eenheid": "jaren vanaf ondertekening verslag",
       "gevolg": "Onder de KMO-controlenorm bedraagt de bewaarperiode minimaal 5 jaar (§49). De strengste norm primeert (10 jaar onder Algemene Controlenorm).",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §49"},
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §49"
+      },
       "confidence": "grounded",
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_2-2-4-documentatie", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_2-2-4-documentatie",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Na samenstelling van het definitief dossier mag niets meer worden geschrapt of verwijderd. Wijzigingen achteraf moeten worden gedateerd, gemotiveerd en geïdentificeerd (wie wijzigde wat en waarom). Anders zou het dossier vatbaar zijn voor manipulatie achteraf.",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §47"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_2-2-4-documentatie", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §47"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_2-2-4-documentatie",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "werkprogramma-audit", "redenering": "Werkprogramma is verplicht dossier-element."},
-    {"type": "onderdeel-van", "target": "auditcyclus", "redenering": "Documenteren is een continu-lopende cyclusstap."}
+    {
+      "type": "vereist-kennis-van",
+      "target": "werkprogramma-audit",
+      "redenering": "Werkprogramma is verplicht dossier-element."
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "auditcyclus",
+      "redenering": "Documenteren is een continu-lopende cyclusstap."
+    }
   ]
 }

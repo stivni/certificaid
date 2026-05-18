@@ -4,22 +4,42 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.III.E", "1.6.III.D", "1.6.II.A"],
+  "linked_anchors": [
+    "1.6.III.E",
+    "1.6.III.D",
+    "1.6.II.A"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.III.E",
-    "dekt_ook_anchors": ["1.6.III.D", "1.6.II.A"],
+    "dekt_ook_anchors": [
+      "1.6.III.D",
+      "1.6.II.A"
+    ],
     "reviewed_by": null
   },
   "verplichting": {
     "text": "Elke accountant die een confrater of een bedrijfsrevisor opvolgt, moet vooraf met hem in contact treden. De opvolger mag de werkdocumenten van zijn voorganger inzien, maar de voorganger mag zijn oorspronkelijke stukken niet uit handen geven. Bovendien moet hij — bij elke opdrachtaanvaarding — nagaan of een andere externe accountant in de laatste 12 maanden bij dezelfde cliënt heeft gewerkt en deze schriftelijk inlichten.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA Algemene controlenorm §5 + KB plichtenleer art. 25"},
-    "_provenance": {"inputs": [
-      {"id": "ITAA-norm-algemene-controlenorm__sec_5-opvolging", "sha256": null, "version": "rag-v1"},
-      {"id": "KB-1998-plichtenleer__art_25", "sha256": null, "version": "rag-v1"}
-    ]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA Algemene controlenorm §5 + KB plichtenleer art. 25"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-algemene-controlenorm__sec_5-opvolging",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-1998-plichtenleer__art_25",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Wolters & Partners CVBA wordt benoemd als nieuwe controleaccountant van Naaiatelier Ninove BV, na ontslag van de vorige accountant. Sofie Janssens contacteert haar voorganger schriftelijk, vraagt inzage in zijn werkdocumenten (vooral risico-evaluatie en eindbevindingen), en informeert ook de externe accountant die in de laatste 12 maanden samenstellingsopdrachten heeft uitgevoerd.",
   "stappen": [
@@ -49,11 +69,26 @@
     {
       "text": "De plicht geldt voor elk soort opdracht — niet alleen audits. Ook bij overname van een samenstellingsopdracht of fiscale opdracht: voorganger contacteren. Negeren is een tuchtrechtelijke overtreding.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "KB plichtenleer art. 25"},
-      "_provenance": {"inputs": [{"id": "KB-1998-plichtenleer__art_25", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "KB plichtenleer art. 25"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-1998-plichtenleer__art_25",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "plichtenleer-accountant", "redenering": "Confraterniteitsregel onder het KB plichtenleer."}
+    {
+      "type": "onderdeel-van",
+      "target": "plichtenleer-accountant",
+      "redenering": "Confraterniteitsregel onder het KB plichtenleer."
+    }
   ]
 }

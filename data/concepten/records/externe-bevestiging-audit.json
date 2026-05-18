@@ -4,7 +4,9 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.II.C"],
+  "linked_anchors": [
+    "1.6.II.C"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
@@ -14,11 +16,24 @@
   "verplichting": {
     "text": "Externe bevestigingen zijn assurance-informatie verkregen in de vorm van een rechtstreekse schriftelijke reactie van een derde partij (de bevestigende partij) aan de beroepsbeoefenaar — op papier, elektronisch of op andere drager. De auditor zelf selecteert en verzendt deze; de cliënt mag de inhoud niet onderscheppen of beïnvloeden.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1 + §89"},
-    "_provenance": {"inputs": [
-      {"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2", "sha256": null, "version": "rag-v1"},
-      {"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}
-    ]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1 + §89"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Sofie Janssens stuurt een bevestigingsbrief naar de bank van Rotex Roeselare NV (KBC): saldi rekening-courant, kredietlijnen, waarborgen. Zij ondertekent de brief zelf, vraagt de antwoorden direct naar haar kantoor te sturen, en confronteert het antwoord met de balans. Dit is hoogstwaardige assurance-informatie wegens schriftelijk + extern.",
   "stappen": [
@@ -45,6 +60,10 @@
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "assurance-informatie", "redenering": "Hooggekwalificeerde bron van assurance-informatie."}
+    {
+      "type": "onderdeel-van",
+      "target": "assurance-informatie",
+      "redenering": "Hooggekwalificeerde bron van assurance-informatie."
+    }
   ]
 }

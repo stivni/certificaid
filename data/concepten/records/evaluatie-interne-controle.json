@@ -4,12 +4,17 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.VIII.F", "1.7.XI"],
+  "linked_anchors": [
+    "1.7.VIII.F",
+    "1.7.XI"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T10:26Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.VIII.F",
-    "dekt_ook_anchors": ["1.7.XI"],
+    "dekt_ook_anchors": [
+      "1.7.XI"
+    ],
     "reviewed_by": null,
     "bron_gap": "Generieke IC-evaluatiecriteria (effectivity, efficiency, opzet/werking) zijn vakdoctrine. ITAA-norm raakt aan toetsing van IC door externe auditor."
   },
@@ -45,11 +50,21 @@
       "aspect": "Wie voert de evaluatie uit",
       "betekenis": "(1) Interne audit (indien aanwezig). (2) Externe consultant (bv. Xenon Expertise BV bij Yperse Werkplaats BV). (3) Externe accountant in adviesrol — let op onafhankelijkheidsregels bij gelijktijdige wettelijke controle. (4) Self-assessment door management — minst objectief maar wel waardevol als trigger.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Evaluatie is monitoring-component (COSO 5)."},
-    {"type": "vergelijkt-met", "target": "toetsing-interne-beheersing", "redenering": "Toetsing door externe auditor is gerelateerd maar specifieker (binnen ISA-kader)."}
+    {
+      "type": "onderdeel-van",
+      "target": "interne-controle",
+      "redenering": "Evaluatie is monitoring-component (COSO 5)."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "toetsing-interne-beheersing",
+      "redenering": "Toetsing door externe auditor is gerelateerd maar specifieker (binnen ISA-kader)."
+    }
   ]
 }

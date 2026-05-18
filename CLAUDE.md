@@ -23,7 +23,8 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 | Trust-status zetten + index/bundles in één klap verversen | `tools/etl/mark_trusted.py --refresh` (of direct `python3 -m tools.etl.refresh_rag_and_matches`) — ADR-005 §9 |
 | RAG-index herbouwen of bevragen | `tools/rag/rag_index.py`, `tools/rag/rag_query.py` *(wacht op Fase 2)* |
 | **Render leermateriaal** (concept-fiches, competentie-fiches, minicursus) | `tools/leermateriaal/` — ADR-007 schema 1.3, ADR-008 Fase D+E, ADR-010 §drie-lagen |
-| Fiche schrijven / programmaonderdeel-build *(legacy)* | [`docs/content-richtlijnen.md`](docs/content-richtlijnen.md), [`docs/po-builder.md`](docs/po-builder.md) *(vervalt bij Fase 5)* |
+| Concept- of competentie-record schrijven | [`docs/concept-schrijfregels.md`](docs/concept-schrijfregels.md) — taxonomie, granulariteit, edges, taal, afkortingen |
+| Programmaonderdeel-build *(legacy)* | [`docs/po-builder.md`](docs/po-builder.md) *(vervalt bij Fase 5)* |
 
 ---
 
@@ -65,7 +66,7 @@ Deze regels gelden bij elke sessie en elke agent:
 certificaid/
 ├── CLAUDE.md                    # Deze wegwijzer
 ├── docs/
-│   ├── content-richtlijnen.md  # Schrijfregels voor fiches
+│   ├── concept-schrijfregels.md  # Inhoudelijke conventies voor concept- en competentie-records
 │   ├── po-builder.md           # Programmaonderdeel-build procesflow (legacy)
 │   ├── bronnen-pipeline.md     # Bronnen toevoegen en verwerken
 │   └── adr/                    # Architecture Decision Records

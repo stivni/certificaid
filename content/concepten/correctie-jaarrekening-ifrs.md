@@ -14,7 +14,7 @@ node_type: procedure
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/correctie-jaarrekening-ifrs.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Correctie van de jaarrekening — IAS 8 versus CBN 2020/12 ⚖️
 

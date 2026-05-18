@@ -4,12 +4,19 @@
   "node_type": "synthese",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.I.B", "1.8.II.A", "1.8.I"],
+  "linked_anchors": [
+    "1.8.I.B",
+    "1.8.II.A",
+    "1.8.I"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.I.B",
-    "dekt_ook_anchors": ["1.8.II.A", "1.8.I"],
+    "dekt_ook_anchors": [
+      "1.8.II.A",
+      "1.8.I"
+    ],
     "reviewed_by": null,
     "bron_gap": "Klassieke kosten-typologie (direct/indirect, vast/variabel, functioneel) is vakdoctrine. CBN 132/7 §2.1 levert wel de wettelijke definitie van directe vs. indirecte kosten in vervaardigingsprijs."
   },
@@ -27,25 +34,59 @@
       "aspect": "Beide dimensies tegelijk",
       "betekenis": "Eén kost krijgt typisch meerdere labels: het loon van een naaister bij Yperse Werkplaats BV is variabel (afhankelijk van productie-uren) én direct (toewijsbaar aan order). Een examen-vraag kan beide assen tegelijk toetsen ('classificeer deze kost qua gedrag én toewijsbaarheid').",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "aspect": "Belgische wettelijke definitie",
       "betekenis": "CBN-advies 132/7 §2.1 (op basis van artikel 22 KB 8.10.1976, nu KB 21.10.2018) somt voor de vervaardigingsprijs op: aanschaffingsprijs grondstoffen + productiekosten direct toerekenbaar + evenredig deel van indirecte productiekosten. De wet maakt dus expliciet onderscheid tussen direct toerekenbaar en indirect — fundament van de kostentypologie.",
       "confidence": "grounded",
-      "source": {"type": "cbn", "short": "CBN 132/7 §2.1"},
+      "source": {
+        "type": "cbn",
+        "short": "CBN 132/7 §2.1"
+      },
       "_provenance": {
         "inputs": [
-          {"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
   ],
   "edges": [
-    {"type": "bevat", "target": "directe-kosten", "redenering": "Eerste indelingscriterium.", "confidence": "inferred"},
-    {"type": "bevat", "target": "indirecte-kosten", "redenering": "Eerste indelingscriterium.", "confidence": "inferred"},
-    {"type": "bevat", "target": "vaste-kosten", "redenering": "Tweede indelingscriterium.", "confidence": "inferred"},
-    {"type": "bevat", "target": "variabele-kosten", "redenering": "Tweede indelingscriterium.", "confidence": "inferred"},
-    {"type": "onderdeel-van", "target": "analytische-boekhouding", "redenering": "Typologie is conceptueel fundament van elke analytische boekhouding.", "confidence": "inferred"}
+    {
+      "type": "bevat",
+      "target": "directe-kosten",
+      "redenering": "Eerste indelingscriterium.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "bevat",
+      "target": "indirecte-kosten",
+      "redenering": "Eerste indelingscriterium.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "bevat",
+      "target": "vaste-kosten",
+      "redenering": "Tweede indelingscriterium.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "bevat",
+      "target": "variabele-kosten",
+      "redenering": "Tweede indelingscriterium.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "analytische-boekhouding",
+      "redenering": "Typologie is conceptueel fundament van elke analytische boekhouding.",
+      "confidence": "inferred"
+    }
   ]
 }

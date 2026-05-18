@@ -4,27 +4,56 @@
   "node_type": "beginsel",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.III.B", "1.2.III", "1.2.V.A"],
+  "linked_anchors": [
+    "1.2.III.B",
+    "1.2.III",
+    "1.2.V.A"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.III.B",
-    "dekt_ook_anchors": ["1.2.III", "1.2.V.A"],
+    "dekt_ook_anchors": [
+      "1.2.III",
+      "1.2.V.A"
+    ],
     "reviewed_by": null
   },
   "main_rule": {
     "text": "Het volledigheidsbeginsel verlangt dat álle verrichtingen, bezittingen, vorderingen, schulden en verplichtingen van de onderneming in de boekhouding worden opgenomen. Ook niet-balansvorderingen en -verplichtingen (zoals gegeven of ontvangen waarborgen, voorwaardelijke verplichtingen) moeten in de toelichting vermeld worden. Niets weglaten.",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "WER art. III.83; KB-WVV art. 3:1"},
+    "source": {
+      "type": "wet",
+      "short": "WER art. III.83; KB-WVV art. 3:1"
+    },
     "references": [
-      {"type": "wet", "short": "WER art. III.83 (volledigheid boekhouding)"},
-      {"type": "kb", "short": "KB-WVV art. 3:1 + 3:14 (toelichting niet-balansrechten)"},
-      {"type": "advies", "short": "CBN-advies 174/1"}
+      {
+        "type": "wet",
+        "short": "WER art. III.83 (volledigheid boekhouding)"
+      },
+      {
+        "type": "kb",
+        "short": "KB-WVV art. 3:1 + 3:14 (toelichting niet-balansrechten)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN-advies 174/1"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris", "sha256": null, "version": "rag-v1"},
-      {"id": "WER__art_III_70", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_III_70",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Rotex Roeselare NV heeft een hypotheek toegekend op een pand ten gunste van haar bank → wordt vermeld in de toelichting onder 'Niet in de balans opgenomen rechten en verplichtingen' (rubriek 9, klasse 0), ook al staat het niet op de balans zelf.",
   "bouwstenen": [
@@ -35,10 +64,19 @@
       "voorbeeld_inline": "Aurelia Holding NV heeft een patronaatsverklaring afgegeven voor een lening van € 2M aan haar dochter → niet op balans Aurelia (geen vaststaande verplichting), wél in toelichting.",
       "grondslag": "KB-WVV art. 3:14",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV art. 3:14"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV art. 3:14"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Geen 'kleine' boekingen overslaan",
@@ -47,10 +85,19 @@
       "voorbeeld_inline": "Praktijk Persenaire boekt een kasstuk van € 8 voor papier-rolletjes — ook al is het klein, het MOET in het boek staan.",
       "grondslag": "WER art. III.83",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WER art. III.83"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_III_70", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.83"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_70",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -59,20 +106,38 @@
       "betekenis": "De toelichting bij de jaarrekening (rubrieken VII, VIII van bijlage 1) bevat de informatie die het volledigheidsbeginsel eist maar die niet in balans of RR past: waarborgen, lopende geschillen, derdenverbintenissen, leasing-verplichtingen niet geactiveerd, etc.",
       "herkenningspunt": "Examenvraag 'X gaf een waarborg, waar boeken?' → niet op balans, wel in toelichting onder rubriek niet-balansrechten.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV art. 3:14"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV art. 3:14"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Materialiteit (KB-WVV art. 3:5) is een presentatie-regel voor de jaarrekening, geen vrijbrief voor het overslaan van boekingen. Boekhouding zelf moet altijd volledig zijn; jaarrekening mag samenvoegen onder bepaalde voorwaarden.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV art. 3:5"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV art. 3:5"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_volledigheid-van-de-boekhouding-en-van-de-inventaris",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

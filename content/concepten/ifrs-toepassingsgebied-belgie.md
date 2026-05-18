@@ -14,7 +14,7 @@ node_type: regel
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/ifrs-toepassingsgebied-belgie.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # IFRS-toepassingsgebied in België — wie moet en wie mag? ⚖️
 

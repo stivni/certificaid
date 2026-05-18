@@ -4,30 +4,67 @@
   "node_type": "regel",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.5.IV.B", "1.5.IV", "1.5.taak.1"],
+  "linked_anchors": [
+    "1.5.IV.B",
+    "1.5.IV",
+    "1.5.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.5.IV.B",
-    "dekt_ook_anchors": ["1.5.IV", "1.5.taak.1"],
+    "dekt_ook_anchors": [
+      "1.5.IV",
+      "1.5.taak.1"
+    ],
     "reviewed_by": null
   },
   "main_rule": {
     "text": "De toelichting bij de IFRS-jaarrekening (IAS 1 alinea 112-138) is geen optioneel addendum maar een **integraal deel** van de jaarrekening. Verplichte inhoud (alinea 112): (a) **verklaring van overeenstemming** met IFRS-en; (b) **samenvatting van significante grondslagen voor financiële verslaggeving** (welke keuzes — kostprijs vs. herwaardering, FIFO vs. gewogen gemiddelde, gevolgde IFRS-en); (c) **ondersteunende informatie** voor posten in balans, totaalresultaat, mutatieoverzicht en kasstroomoverzicht — in dezelfde volgorde als die overzichten; (d) **andere informatie** zoals voorwaardelijke verplichtingen, contractuele verbintenissen, niet-financiële informatie (alinea 137-138 — bv. risico- en kapitaalbeheer). Structuur (alinea 114): systematisch geordend; elke post in de overzichten met kruisverwijzing naar gerelateerde toelichting. Materialiteit (alinea 31): specifieke IFRS-vereiste informatie mag worden weggelaten als ze niet materieel is.",
     "confidence": "grounded",
-    "source": {"type": "ifrs", "short": "IAS 1 alinea 112-138"},
+    "source": {
+      "type": "ifrs",
+      "short": "IAS 1 alinea 112-138"
+    },
     "references": [
-      {"type": "ifrs", "short": "IAS 1 alinea 112 (verplichte inhoud)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 113-116 (structuur + kruisverwijzingen)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 117 (grondslagen voor financiële verslaggeving)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 122 (oordeelsvorming + significante schattingen)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 125 (bronnen van schattingsonzekerheid)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 134-136 (kapitaalbeheer)"},
-      {"type": "ifrs", "short": "IAS 1 alinea 138 (algemene informatie + bestuurszetel)"}
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 112 (verplichte inhoud)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 113-116 (structuur + kruisverwijzingen)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 117 (grondslagen voor financiële verslaggeving)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 122 (oordeelsvorming + significante schattingen)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 125 (bronnen van schattingsonzekerheid)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 134-136 (kapitaalbeheer)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 138 (algemene informatie + bestuurszetel)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Zelena Bio NV toelichting 2026 bevat: noot 1 'Algemene informatie' (statutaire zetel, hoofdactiviteit), noot 2 'Grondslagen voor financiële verslaggeving' (12 subnoten over MVA, voorraden, leasing, opbrengsten, etc.), noot 3 'Significante schattingen' (impairment-test goodwill, levensduur productielijn), noten 4-25 toelichting per balanspost, noten 26-40 toelichting per W&V-post, noten 41-45 verbonden partijen, gebeurtenissen na balansdatum, etc. Totaal 45 toelichtingsnoten over ongeveer 70 pagina's.",
   "bouwstenen": [
@@ -38,8 +75,19 @@
       "voorbeeld_inline": "Zelena Bio's toelichting noot 3 vermeldt: 'Bij de jaarlijkse impairment-test van goodwill (€ 18.000.000 boekwaarde) is uitgegaan van een groeivoet van 2,5% over 5 jaar en een WACC van 8,3%. Een stijging van WACC met 1%-punt zou een impairment-verlies van circa € 2.700.000 tot gevolg hebben.'",
       "grondslag": "IAS 1 alinea 122 + 125",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 122 + 125"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 122 + 125"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Kapitaalbeheer",
@@ -48,8 +96,19 @@
       "voorbeeld_inline": "Zelena Bio's toelichting noot 32 'Kapitaalbeheer': 'De Groep beschouwt eigen vermogen + langlopende schulden als beheerd kapitaal. Doelstelling: financiële slagkracht behouden met debt/equity ratio onder 1,5. Per 31 december 2026: debt/equity = 0,8 — ruim onder doel. Kapitaalbeleid niet gewijzigd in 2026.'",
       "grondslag": "IAS 1 alinea 134-136",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 134"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 134"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Verbonden partijen — uitgebreide vereisten",
@@ -58,8 +117,19 @@
       "voorbeeld_inline": "Zelena Bio's toelichting noot 41 'Verbonden partijen': 'Transacties met Brusselse Klinieken (joint venture, 50% belang Zelena): omzet € 12.500.000 (marktconforme prijzen), openstaande handelsvordering 31 december € 2.300.000. Bezoldigingen sleutelfunctionarissen (5 personen) totaal € 4.800.000.'",
       "grondslag": "IAS 24 + IAS 1 alinea 138",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 24"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 24"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -67,22 +137,55 @@
       "aspect": "Gebeurtenissen na de verslagperiode (IAS 10)",
       "betekenis": "Twee soorten: (a) **adjusting events** — gebeurtenissen die bewijs leveren over omstandigheden op balansdatum (bv. een klant gaat failliet net na balansdatum: vordering moet al op balansdatum afgewaardeerd worden); (b) **non-adjusting events** — gebeurtenissen indicatief voor nieuwe omstandigheden (bv. een grote brand na balansdatum). Adjusting: cijfers aanpassen. Non-adjusting: alleen toelichting indien materieel.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 10"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 10"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Toelichting NIET vereist als de informatie niet materieel is (alinea 31), maar **versluiering** door materiële info te verbergen tussen immateriële info is wel verboden (alinea 30A). Stagiairs interpreteren materialiteit soms te eng — leesbaarheid weegt mee.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 30A + 31"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_30a", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 30A + 31"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_30a",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "De grondslagen-noot is niet alleen 'we volgen IFRS'. Voor elke significante post moet de specifieke keuze worden gemeld (welke afschrijvingsmethode, welke voorraadformule, welke goodwill-behandeling, etc.).",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 1 alinea 117"},
-      "_provenance": {"inputs": [{"id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 1 alinea 117"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-1-presentatie-van-de-jaarrekening__sec_jaarrekening",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

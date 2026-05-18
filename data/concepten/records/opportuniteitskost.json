@@ -4,20 +4,30 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.III.E", "1.8.taak.1"],
+  "linked_anchors": [
+    "1.8.III.E",
+    "1.8.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.III.E",
-    "dekt_ook_anchors": ["1.8.taak.1"],
+    "dekt_ook_anchors": [
+      "1.8.taak.1"
+    ],
     "reviewed_by": null,
     "bron_gap": "Vakdoctrine. Niet in de boekhouding geboekt; alleen relevant voor beslissingsanalyse."
   },
   "definitie": {
     "text": "De opportuniteitskost is de waarde van het opgegeven alternatief — wat je had kunnen verdienen als je hetzelfde middel (tijd, machine, kapitaal) anders had ingezet. Niet boekhoudkundig geregistreerd; wel cruciaal voor beslissingen waar resources schaars zijn.",
     "confidence": "inferred-common-knowledge",
-    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
-    "_provenance": {"inputs": []}
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
   },
   "voorbeeld_inline": "Yperse Werkplaats BV krijgt een spoedorder voor 1.000 tapijten van klant Brugse Boutique. Acceptatie verdringt een lopend order voor klant Kappers Köln (margebijdrage € 35.000). Opportuniteitskost van Brugse-order = € 35.000 (verloren marge Köln). Pas als margebijdrage Brugse > € 35.000 + variabele kost is het order aantrekkelijk.",
   "in_praktijk": [
@@ -25,10 +35,17 @@
       "aspect": "Wanneer toepassen",
       "betekenis": "Opportuniteitskost is relevant zodra capaciteit beperkt is (machines vol, schaarse vaardigheid). Bij overcapaciteit is opportuniteitskost nul: extra order verdringt niets.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "marginale-kostprijs", "redenering": "Onderdeel van beslissingsraamwerk.", "confidence": "inferred"}
+    {
+      "type": "vereist-kennis-van",
+      "target": "marginale-kostprijs",
+      "redenering": "Onderdeel van beslissingsraamwerk.",
+      "confidence": "inferred"
+    }
   ]
 }

@@ -4,12 +4,23 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.II", "1.4.II.A", "1.4.II.B", "1.4.II.C", "1.4.II.D"],
+  "linked_anchors": [
+    "1.4.II",
+    "1.4.II.A",
+    "1.4.II.B",
+    "1.4.II.C",
+    "1.4.II.D"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.II.A",
-    "dekt_ook_anchors": ["1.4.II", "1.4.II.B", "1.4.II.C", "1.4.II.D"],
+    "dekt_ook_anchors": [
+      "1.4.II",
+      "1.4.II.B",
+      "1.4.II.C",
+      "1.4.II.D"
+    ],
     "reviewed_by": null,
     "schema_1_4_migration": {
       "uitgevoerd_op": "2026-05-16T00:11Z",
@@ -45,23 +56,58 @@
   "definitie": {
     "text": "De verzameling IAS/IFRS-standaarden die het wettelijk kader bepalen voor een geconsolideerde jaarrekening onder IFRS. Voor consolidatie zijn vier standaarden centraal: IFRS 3 (bedrijfscombinaties), IFRS 10 (geconsolideerde jaarrekeningen + definitie van controle), IFRS 11 (gezamenlijke regelingen) en IFRS 12 (informatieverschaffing over belangen). Voor een Belgische moeder geldt dit raamwerk in twee gevallen: (a) verplicht wanneer ze beursgenoteerd is op een gereglementeerde EU-markt (Verordening 1606/2002 art. 4); (b) vrijwillig wanneer haar bestuursorgaan op basis van KB WVV art. 3:104, § 2 onherroepelijk voor IFRS-consolidatie kiest.",
     "confidence": "inferred-from-aggregation",
-    "source": {"type": "verordening", "short": "EU Verordening 1606/2002 jo. KB WVV art. 3:104, § 2"},
+    "source": {
+      "type": "verordening",
+      "short": "EU Verordening 1606/2002 jo. KB WVV art. 3:104, § 2"
+    },
     "references": [
-      {"type": "verordening", "short": "Verordening 1606/2002 art. 2 (definities IAS/IFRS)"},
-      {"type": "verordening", "short": "Verordening 1606/2002 art. 4 (verplichte IFRS voor genoteerde groepen)"},
-      {"type": "kb", "short": "KB WVV art. 3:104, § 2 (vrije keuze IFRS)"},
-      {"type": "advies", "short": "CBN 2016/19 — Consortium en IFRS"}
+      {
+        "type": "verordening",
+        "short": "Verordening 1606/2002 art. 2 (definities IAS/IFRS)"
+      },
+      {
+        "type": "verordening",
+        "short": "Verordening 1606/2002 art. 4 (verplichte IFRS voor genoteerde groepen)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:104, § 2 (vrije keuze IFRS)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2016/19 — Consortium en IFRS"
+      }
     ],
     "_provenance": {
       "inputs": [
-        {"id": "EU-IFRS-verordening-1606-2002__art_2", "sha256": null, "version": "rag-v1"},
-        {"id": "EU-IFRS-verordening-1606-2002__art_1", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0__sec_vraagstelling", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "EU-IFRS-verordening-1606-2002__art_2",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "EU-IFRS-verordening-1606-2002__art_1",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_82",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0__sec_vraagstelling",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     },
     "_corrected_from": [
-      {"field": "text", "from": "Het geheel van IAS/IFRS-standaarden die het wettelijk kader voor geconsolideerde jaarrekeningen onder IFRS vormen, in het bijzonder IFRS 3 (bedrijfscombinaties), IFRS 10 (geconsolideerde jaarrekeningen / definitie controle), IFRS 11 (gezamenlijke regelingen) en IFRS 12 (informatieverschaffing over belangen in andere entiteiten). Voor een Belgische moedervennootschap is dit raamwerk slechts van toepassing wanneer ofwel (a) een wettelijke verplichting bestaat om onder IFRS te consolideren (bv. beursgenoteerd op een gereglementeerde EU-markt — Verordening 1606/2002 art. 4), ofwel (b) het bestuursorgaan op grond van KB WVV art. 3:104, § 2 onherroepbaar voor IFRS-consolidatie heeft gekozen.", "reason": "Stagiair-toon: korte zinnen; 'onherroepbaar' → 'onherroepelijk'; aparte alinea voor de twee gevallen (regel 6)."}
+      {
+        "field": "text",
+        "from": "Het geheel van IAS/IFRS-standaarden die het wettelijk kader voor geconsolideerde jaarrekeningen onder IFRS vormen, in het bijzonder IFRS 3 (bedrijfscombinaties), IFRS 10 (geconsolideerde jaarrekeningen / definitie controle), IFRS 11 (gezamenlijke regelingen) en IFRS 12 (informatieverschaffing over belangen in andere entiteiten). Voor een Belgische moedervennootschap is dit raamwerk slechts van toepassing wanneer ofwel (a) een wettelijke verplichting bestaat om onder IFRS te consolideren (bv. beursgenoteerd op een gereglementeerde EU-markt — Verordening 1606/2002 art. 4), ofwel (b) het bestuursorgaan op grond van KB WVV art. 3:104, § 2 onherroepbaar voor IFRS-consolidatie heeft gekozen.",
+        "reason": "Stagiair-toon: korte zinnen; 'onherroepbaar' → 'onherroepelijk'; aparte alinea voor de twee gevallen (regel 6)."
+      }
     ]
   },
   "voorbeeld_inline": "Aurelia Holding NV is beursgenoteerd op Euronext Brussels → verplicht IFRS-consolidatie (Verordening 1606/2002 art. 4). In de toelichting van de geconsolideerde jaarrekening verwijst Aurelia naar de gebruikte IFRS-standaarden (IFRS 3, 10, 11, 12).",
@@ -73,8 +119,19 @@
       "voorbeeld_inline": "Aurelia Holding NV (beursgenoteerd op Euronext Brussels) consolideert verplicht onder IFRS; een niet-genoteerde groep zoals Antwerpse Investments NV mag onder BEGAAP blijven (tenzij het bestuur vrijwillig voor IFRS kiest).",
       "grondslag": "Verordening 1606/2002 art. 2 jo. art. 4",
       "confidence": "grounded",
-      "source": {"type": "verordening", "short": "Verordening 1606/2002 art. 2"},
-      "_provenance": {"inputs": [{"id": "EU-IFRS-verordening-1606-2002__art_2", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "verordening",
+        "short": "Verordening 1606/2002 art. 2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": {
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "De verordening verplicht beursgenoteerde EU-vennootschappen om hun geconsolideerde jaarrekening op te stellen volgens de IAS/IFRS zoals aangenomen door de Europese Commissie. 'Internationale standaarden voor jaarrekeningen' omvat IAS, IFRS en de daarmee verband houdende interpretaties (SIC/IFRIC), wijzigingen, en toekomstige standaarden vastgesteld of goedgekeurd door de IASB.",
@@ -88,8 +145,19 @@
       "voorbeeld_inline": "Antwerpse Investments NV beslist in boekjaar 20X1 vrijwillig voor IFRS-consolidatie. Vanaf 20X1 volgt Antwerpse IFRS; terugschakelen naar BEGAAP in latere jaren kan niet meer.",
       "grondslag": "KB WVV art. 3:104, § 2",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:104, § 2"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:104, § 2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": {
         "veld": "bouwsteen[wat herschreven, waarom + voorbeeld_inline toegevoegd]",
         "oude_wat": "Onder KB WVV art. 3:104, § 2 kan elke moedervennootschap kiezen voor IFRS — die keuze is onherroepbaar en moet in de toelichting worden gemotiveerd (administratieve en organisatorische middelen, volledige toepassing van alle door de EC aangenomen IFRS).",
@@ -103,18 +171,44 @@
       "betekenis": "De volledige tekst van IFRS 3, 10, 11 en 12 is niet in de huidige Certificaid-corpus opgenomen. Op overzichtsniveau zijn deze verschillen examen-relevant: (a) IFRS 10 definieert controle ruimer dan WVV art. 1:14, op basis van 'power, exposure to variable returns en de mogelijkheid om die returns te beïnvloeden' — minder mechanisch dan de stemrechtentests; (b) IFRS 11 schaft evenredige consolidatie af voor 'joint ventures' (enkel vermogensmutatie), maar behoudt ze voor 'joint operations'; (c) IFRS 3 vereist 'full goodwill'-meting (volledige reële waarde van de overname); negatieve goodwill (bargain purchase) wordt onmiddellijk in resultaat geboekt — anders dan onder BEGAAP; (d) IFRS 12 vereist uitgebreide informatieverschaffing over alle deelnemingen.",
       "herkenningspunt": "Bij een examenvraag over IFRS-consolidatie: ga eerst na of het over een genoteerde groep gaat (verplicht IFRS) of over een vrijwillige IFRS-keuze; verifieer dat een specifieke regel uit het Cijferzakboekje of uit aangereikte tekst komt — er worden geen geheugenvragen over IFRS-paragraafnummers verwacht.",
       "confidence": "inferred",
-      "source": {"type": "synthese", "short": "Algemeen IFRS-kader, niet detail-toetsbaar binnen Certificaid-corpus"},
-      "_provenance": {"inputs": [{"id": "EU-IFRS-verordening-1606-2002__art_2", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "synthese",
+        "short": "Algemeen IFRS-kader, niet detail-toetsbaar binnen Certificaid-corpus"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "betekenis", "from": "De volledige tekst van IFRS 3, 10, 11 en 12 is niet in de huidige Certificaid-corpus aanwezig. Op overzichtsniveau zijn echter de volgende verschillen relevant voor het examen: (a) IFRS 10 definieert controle ruimer en op basis van 'power, exposure to variable returns, en de mogelijkheid om die returns te beïnvloeden' — minder mechanisch dan de stemrechtentests van WVV art. 1:14; (b) IFRS 11 schaft proportionele integratie af voor 'joint ventures' (enkel vermogensmutatie) maar behoudt het wel voor 'joint operations'; (c) IFRS 3 vereist 'full goodwill'-meting (volledige reële waarde van de overname); negatieve goodwill (bargain purchase) wordt onmiddellijk in resultaat geboekt; (d) IFRS 12 vereist uitgebreide informatieverschaffing over alle deelnemingen.", "reason": "Stagiair-toon: 'proportionele integratie' → 'evenredige consolidatie' (regel 6)."}
+        {
+          "field": "betekenis",
+          "from": "De volledige tekst van IFRS 3, 10, 11 en 12 is niet in de huidige Certificaid-corpus aanwezig. Op overzichtsniveau zijn echter de volgende verschillen relevant voor het examen: (a) IFRS 10 definieert controle ruimer en op basis van 'power, exposure to variable returns, en de mogelijkheid om die returns te beïnvloeden' — minder mechanisch dan de stemrechtentests van WVV art. 1:14; (b) IFRS 11 schaft proportionele integratie af voor 'joint ventures' (enkel vermogensmutatie) maar behoudt het wel voor 'joint operations'; (c) IFRS 3 vereist 'full goodwill'-meting (volledige reële waarde van de overname); negatieve goodwill (bargain purchase) wordt onmiddellijk in resultaat geboekt; (d) IFRS 12 vereist uitgebreide informatieverschaffing over alle deelnemingen.",
+          "reason": "Stagiair-toon: 'proportionele integratie' → 'evenredige consolidatie' (regel 6)."
+        }
       ]
     },
     {
       "aspect": "Toepasselijkheid op consortium",
       "betekenis": "Is één lid van een consortium beursgenoteerd en consolideert het op basis van Verordening 1606/2002 onder IFRS in zijn eigen geconsolideerde jaarrekening? Dan blijft de geconsolideerde jaarrekening van het consortium zelf onder Belgisch boekhoudrecht — tenzij het consortium zelf onder een IFRS-plicht of -keuze valt (CBN 2016/19).",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2016/19"},
-      "_provenance": {"inputs": [{"id": "CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0__sec_vraagstelling", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2016/19"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0__sec_vraagstelling",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [],
@@ -122,8 +216,19 @@
     {
       "text": "Detailvragen over IFRS 3, 10, 11, 12 paragraafnummers liggen buiten het bereik van wat met de huidige Certificaid-corpus volledig kan worden onderbouwd. De volledige tekst van die IFRS-standaarden zit niet in het corpus; CBN-verwijzingen blijven beperkt. Bij IFRS-examenvragen: focus op de structuur (verplicht voor genoteerden via Verordening 1606/2002; vrijwillig via KB WVV art. 3:104, § 2) en op overzichtsniveau-verschillen met BEGAAP — geen detailparagrafen uit het hoofd leren.",
       "confidence": "inferred",
-      "source": {"type": "synthese", "short": "Certificaid-corpus-status"},
-      "_provenance": {"inputs": [{"id": "EU-IFRS-verordening-1606-2002__art_2", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "synthese",
+        "short": "Certificaid-corpus-status"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
@@ -135,7 +240,15 @@
         "veld": "alternatief-voor consolidatieverplichting → alternatief-voor geconsolideerde-jaarrekening",
         "reden": "IFRS is geen alternatief voor de consolidatieplicht zelf, maar voor het raamwerk waarin de geconsolideerde jaarrekening wordt opgesteld."
       },
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "contrasteert-met",
@@ -145,7 +258,15 @@
         "veld": "vergelijkingsparen → edges",
         "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
       },
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_111", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_111",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "getriggerd-door",

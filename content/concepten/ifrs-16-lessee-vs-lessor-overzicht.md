@@ -14,7 +14,7 @@ node_type: synthese
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/ifrs-16-lessee-vs-lessor-overzicht.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # IFRS 16 — lessee versus lessor: overzicht en asymmetrie 🤖
 

@@ -4,7 +4,9 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.1.II.B"],
+  "linked_anchors": [
+    "1.1.II.B"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
@@ -15,15 +17,34 @@
   "definitie": {
     "text": "**Ondernemingsmiddelen van onlichamelijke aard** die duurzaam voor de bedrijfsactiviteit worden gebruikt en waaruit toekomstige economische voordelen zullen vloeien. Het MAR groepeert ze onder rubriek 21, opgesplitst in: (1) **kosten van onderzoek en ontwikkeling** (210), (2) **concessies, octrooien, licenties, know-how, merken en soortgelijke rechten** (211), (3) **goodwill** (212) en (4) **vooruitbetalingen** (213). Waardering: aanschaffingswaarde min cumul. afschrijvingen en waardeverminderingen.",
     "confidence": "grounded",
-    "source": {"type": "advies", "short": "CBN 2012/13 — Boekhoudkundige verwerking van immateriële vaste activa"},
+    "source": {
+      "type": "advies",
+      "short": "CBN 2012/13 — Boekhoudkundige verwerking van immateriële vaste activa"
+    },
     "references": [
-      {"type": "wet", "short": "MAR rubriek 21"},
-      {"type": "kb", "short": "KB WVV art. 3:38 (afschrijving > 5 jaar = motivering)"}
+      {
+        "type": "wet",
+        "short": "MAR rubriek 21"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:38 (afschrijving > 5 jaar = motivering)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa__sec_inleiding", "sha256": null, "version": "rag-v1"},
-      {"id": "MAR-ondernemingen__art_2", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "MAR-ondernemingen__art_2",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Naaiatelier Ninove BV koopt het exclusieve licentierecht op een patroontekening voor € 35.000 voor 7 jaar. Boeking: Debet 211 Concessies/licenties € 35.000 / Credit 440 Leveranciers € 35.000. Afschrijving over 7 jaar = € 5.000/jaar. Op balans rubriek II 'Immateriële vaste activa': aanschaffingswaarde € 35.000 − afschrijvingen.",
   "bouwstenen": [
@@ -34,8 +55,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV ontwikkelt een nieuw productieproces; € 280.000 directe kosten worden geactiveerd op rekening 210 onderzoek en ontwikkeling, afgeschreven over 6 jaar (toelichting motiveert: aantoonbare 6-jarige commerciële cyclus van de nieuwe productlijn).",
       "grondslag": "KB WVV art. 3:38 + CBN 2012/13",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2012/13"},
-      "_provenance": {"inputs": [{"id": "CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2012/13"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Concessies, octrooien, licenties, merken (211)",
@@ -44,8 +76,19 @@
       "voorbeeld_inline": "Uitgeverij Ukkel NV koopt de auteursrechten op een romanreeks voor € 120.000 voor 10 jaar exclusief. Rekening 211. Afschrijving over de licentieduur 10 jaar = € 12.000/jaar (motivering > 5 jaar: contractduur).",
       "grondslag": "CBN 2012/13",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2012/13"},
-      "_provenance": {"inputs": [{"id": "CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2012/13"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Goodwill (212)",
@@ -54,8 +97,19 @@
       "voorbeeld_inline": "Meubelzaak Mertens BV koopt het handelsfonds van een concurrent voor € 280.000; identificeerbare activa min schulden = € 215.000. Goodwill = € 280.000 − € 215.000 = € 65.000, geboekt op rekening 212 en afgeschreven over 10 jaar (toelichting: stabiel klantenbestand van 12 jaar).",
       "grondslag": "KB WVV art. 3:38 + CBN 2012/13",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2012/13"},
-      "_provenance": {"inputs": [{"id": "CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2012/13"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Vooruitbetalingen op IVA (213)",
@@ -64,8 +118,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV betaalt op 15/11 een voorschot van € 50.000 voor een softwarepakket dat pas in maart 20X2 wordt opgeleverd. Op 31/12 staat € 50.000 op rekening 213 Vooruitbetalingen IVA, geen afschrijving in 20X1.",
       "grondslag": "MAR + KB WVV",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_2", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -74,16 +139,38 @@
       "betekenis": "Goodwill mag enkel geboekt worden bij verwerving van buitenaf (overname van een handelsfonds of bedrijfstak). Intern opgebouwde reputatie, klantenbestand of merkbekendheid mag NIET worden geactiveerd.",
       "herkenningspunt": "Examen: 'wij willen onze merkwaarde van € 500.000 op de balans zetten' → niet toegelaten als merk intern is opgebouwd.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2012/13"},
-      "_provenance": {"inputs": [{"id": "CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2012/13"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Software die wordt aangeschaft = immaterieel vast actief (rekening 211 of soms 210 voor R&D-software). Software die wordt gehuurd via abonnement (SaaS) = lopende bedrijfskost (rekening 61), GEEN immaterieel vast actief.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "advies", "short": "CBN 2012/13"},
-      "_provenance": {"inputs": [{"id": "CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2012/13"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -99,7 +186,15 @@
     }
   ],
   "edges": [
-    {"type": "bevat", "target": "goodwill", "redenering": "Goodwill is een subcategorie binnen immateriële vaste activa (rekening 212)."},
-    {"type": "vergelijkt-met", "target": "oprichtingskosten", "redenering": "Beide bovenaan in klasse 2; verschillende aard en afschrijfregime."}
+    {
+      "type": "bevat",
+      "target": "goodwill",
+      "redenering": "Goodwill is een subcategorie binnen immateriële vaste activa (rekening 212)."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "oprichtingskosten",
+      "redenering": "Beide bovenaan in klasse 2; verschillende aard en afschrijfregime."
+    }
   ]
 }

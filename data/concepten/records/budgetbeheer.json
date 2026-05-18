@@ -4,20 +4,32 @@
   "node_type": "fenomeen",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.V", "1.8.VI", "1.8.VI.A"],
+  "linked_anchors": [
+    "1.8.V",
+    "1.8.VI",
+    "1.8.VI.A"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.V",
-    "dekt_ook_anchors": ["1.8.VI", "1.8.VI.A"],
+    "dekt_ook_anchors": [
+      "1.8.VI",
+      "1.8.VI.A"
+    ],
     "reviewed_by": null,
     "bron_gap": "Budgetbeheer is management-accounting-doctrine. Belgisch boekhoudrecht definieert het niet rechtstreeks."
   },
   "definitie": {
     "text": "Budgetbeheer is het management-proces waarbij toekomstige kosten, opbrengsten en cashstromen vooraf worden geraamd in een geheel van budgetten, en waarbij realisaties periodiek tegen die ramingen worden afgezet om bij te sturen. Het omvat zowel de budgetprocedure (opstellen) als de budgetcontrole (opvolging) en de verschillenboekhouding (analyse).",
     "confidence": "inferred-common-knowledge",
-    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
-    "_provenance": {"inputs": []}
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
   },
   "bouwstenen": [
     {
@@ -26,7 +38,9 @@
       "waarom": "Budgetbeheer is geen administratie maar een sturingsinstrument.",
       "voorbeeld_inline": "Yperse Werkplaats BV stelt jaarlijks een geconsolideerd budget op met productielijnen Spinnerij (€ 1.450.000 budget), Weverij (€ 1.200.000), Confectie (€ 950.000). Marleen De Cock (Confectie-hoofd) krijgt maandelijks een rapport: budget vs. realisatie + verschillen.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "titel": "Top-down vs. bottom-up",
@@ -34,7 +48,9 @@
       "waarom": "Top-down = realisme; bottom-up = engagement. Mix combineert beide.",
       "voorbeeld_inline": "Yperse Werkplaats BV start in september met richtcijfers van directie (omzet-doelstelling € 4.500.000, marge 25 %). In oktober leveren afdelingshoofden hun bottom-up-detailramingen. November iteratie. December definitief.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "in_praktijk": [
@@ -42,19 +58,43 @@
       "aspect": "Niet wettelijk verplicht maar toch verwacht",
       "betekenis": "Belgisch boekhoudrecht legt geen budgetverplichting op. Maar vennootschapsrecht (WVV art. 2:52) verwacht dat het bestuursorgaan 'de jaarrekening en de daarbij behorende beleidsinformatie' opmaakt — en bij grote ondernemingen is een sluitende budgetprocedure de facto een interne-controle-vereiste. Audit-firma's toetsen bij wettelijke controle of er een budget-proces bestaat.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "aspect": "Alarmbel-context",
       "betekenis": "Budgetbeheer levert vroege signalen voor de alarmbelprocedure (WVV art. 7:228 voor NV, art. 5:153 voor BV). Een negatief geprojecteerd nettoactief in het budget kan al actie vereisen voordat de jaarrekening dat bevestigt.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "bevat", "target": "budgetprocedure", "redenering": "Procedure-fase.", "confidence": "inferred"},
-    {"type": "bevat", "target": "budgetboekhouding", "redenering": "Boekhoudkundige verankering.", "confidence": "inferred"},
-    {"type": "bevat", "target": "verschillenboekhouding", "redenering": "Opvolgingsfase.", "confidence": "inferred"},
-    {"type": "vereist-kennis-van", "target": "analytische-boekhouding", "redenering": "Budgetten worden meestal opgehangen aan kostencentra uit de analytische boekhouding.", "confidence": "inferred"}
+    {
+      "type": "bevat",
+      "target": "budgetprocedure",
+      "redenering": "Procedure-fase.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "bevat",
+      "target": "budgetboekhouding",
+      "redenering": "Boekhoudkundige verankering.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "bevat",
+      "target": "verschillenboekhouding",
+      "redenering": "Opvolgingsfase.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "analytische-boekhouding",
+      "redenering": "Budgetten worden meestal opgehangen aan kostencentra uit de analytische boekhouding.",
+      "confidence": "inferred"
+    }
   ]
 }

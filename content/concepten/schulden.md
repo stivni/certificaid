@@ -14,7 +14,7 @@ node_type: fenomeen
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/schulden.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Schulden (LT en KT) ⚖️
 

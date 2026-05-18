@@ -4,25 +4,42 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.1.II.T", "1.1.II.H"],
+  "linked_anchors": [
+    "1.1.II.T",
+    "1.1.II.H"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.T",
-    "dekt_ook_anchors": ["1.1.II.H"],
+    "dekt_ook_anchors": [
+      "1.1.II.H"
+    ],
     "reviewed_by": null
   },
   "verplichting": "Een wijziging van het kapitaal/de eigen vermogensinbreng vereist een **statutenwijziging** bij notariële akte. Voor kapitaalverhoging: storting in geld of inbreng in natura (laatste vereist verslag bedrijfsrevisor). Voor kapitaalvermindering: bescherming van schuldeisers via WVV-procedure (2 maanden bezwaartermijn).",
   "definitie": {
     "text": "Een **wijziging van het maatschappelijk kapitaal** (NV) of de **eigen vermogensinbreng** (BV). Twee richtingen: (1) **kapitaalverhoging** — door inbreng in geld, in natura, of door incorporatie van reserves/uitgiftepremies, (2) **kapitaalvermindering** — door werkelijke terugbetaling aan aandeelhouders of door verliesaanzuivering. Boekhoudkundig: aanpassing rekening 100 'Geplaatst kapitaal' (of 'Eigen vermogensinbreng'). Beide vereisen statutenwijziging (notariële akte) en hebben beschermingsregels voor schuldeisers.",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "WVV art. 7:177 — 7:218 (NV); 5:120 — 5:154 (BV)"},
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 7:177 — 7:218 (NV); 5:120 — 5:154 (BV)"
+    },
     "references": [
-      {"type": "advies", "short": "CBN 2021/01 — Uitgiftepremie"}
+      {
+        "type": "advies",
+        "short": "CBN 2021/01 — Uitgiftepremie"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "MAR-ondernemingen__art_1", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "MAR-ondernemingen__art_1",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Oprichtingen Oostende BV (kapitaal € 50.000) verhoogt door uitgifte van 200 nieuwe aandelen aan € 250 — totaal inbreng € 50.000 (200 × € 100 naar kapitaal, 200 × € 150 naar uitgiftepremie). Boekingen: Debet 550 Bank € 50.000 / Credit 100 Eigen vermogensinbreng € 20.000 + Credit 11 Uitgiftepremies € 30.000.",
   "stappen": [
@@ -42,9 +59,24 @@
       "voorbeeld": {
         "scenario": "Naaiatelier Ninove BV met kapitaal € 100.000 en cumul. verlies € 35.000 (op rekening 141) beslist tot kapitaalvermindering ter dekking verlies van € 35.000.",
         "substappen": [
-          {"nr": 1, "titel": "Voor-toestand eigen vermogen", "type": "balans", "data": "| Eigen vermogen vóór             |        |\n|---------------------------------|--------:|\n| Kapitaal                        | 100.000 |\n| Overgedragen verlies (-)        | −35.000 |\n| **Netto-actief**                | **65.000** |"},
-          {"nr": 2, "titel": "Boeking", "type": "boekingsregel", "data": "Debet 100 Kapitaal € 35.000 / Credit 141 Overgedragen verlies € 35.000\n(Som debet = som credit ✓ — geen cashflow)"},
-          {"nr": 3, "titel": "Na-toestand", "type": "balans", "data": "| Eigen vermogen na               |        |\n|---------------------------------|--------:|\n| Kapitaal                        | 65.000  |\n| Overgedragen verlies            |     0   |\n| **Netto-actief**                | **65.000** |"}
+          {
+            "nr": 1,
+            "titel": "Voor-toestand eigen vermogen",
+            "type": "balans",
+            "data": "| Eigen vermogen vóór             |        |\n|---------------------------------|--------:|\n| Kapitaal                        | 100.000 |\n| Overgedragen verlies (-)        | −35.000 |\n| **Netto-actief**                | **65.000** |"
+          },
+          {
+            "nr": 2,
+            "titel": "Boeking",
+            "type": "boekingsregel",
+            "data": "Debet 100 Kapitaal € 35.000 / Credit 141 Overgedragen verlies € 35.000\n(Som debet = som credit ✓ — geen cashflow)"
+          },
+          {
+            "nr": 3,
+            "titel": "Na-toestand",
+            "type": "balans",
+            "data": "| Eigen vermogen na               |        |\n|---------------------------------|--------:|\n| Kapitaal                        | 65.000  |\n| Overgedragen verlies            |     0   |\n| **Netto-actief**                | **65.000** |"
+          }
         ]
       },
       "grondslag": "WVV + KB WVV; CBN praktijk"
@@ -64,21 +96,51 @@
       "betekenis": "Een kapitaalverhoging zonder externe inbreng: bestaande reserves of uitgiftepremies worden 'omgezet' in kapitaal. Geen cashflow; alleen boekhoudkundige overheveling. Vereist statutenwijziging.",
       "herkenningspunt": "Examen: 'beschikbare reserves € 80.000 + kapitaal € 50.000; AV besluit € 30.000 te incorporeren' → Debet 133 / Credit 100 voor € 30.000.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2021/01"},
-      "_provenance": {"inputs": [{"id": "CBN-2021-01-uitgiftepremie-0__sec_uitgiftepremie-is-geen-reserve-aanwending-van-de-uitgiftepre", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2021/01"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2021-01-uitgiftepremie-0__sec_uitgiftepremie-is-geen-reserve-aanwending-van-de-uitgiftepre",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Kapitaalvermindering bij BV: sinds WVV 2019 vereist ook bij de BV de bescherming van schuldeisers (2 maanden bezwaartermijn) plus de dubbele uitkeringstest (netto-actief- en liquiditeitstest). Het oude WVB liet hier meer ruimte; nieuwe WVV is strenger.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV art. 5:153"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 5:153"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [],
   "edges": [
-    {"type": "getriggerd-door", "target": "uitgiftepremie", "redenering": "Uitgifte boven fractiewaarde genereert uitgiftepremie."},
-    {"type": "onderdeel-van", "target": "eigen-middelen", "redenering": "Kapitaalwijziging muteert rekening 100 binnen eigen middelen."}
+    {
+      "type": "getriggerd-door",
+      "target": "uitgiftepremie",
+      "redenering": "Uitgifte boven fractiewaarde genereert uitgiftepremie."
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "eigen-middelen",
+      "redenering": "Kapitaalwijziging muteert rekening 100 binnen eigen middelen."
+    }
   ]
 }

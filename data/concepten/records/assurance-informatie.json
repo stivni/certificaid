@@ -4,19 +4,37 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.II.C", "1.6.II", "1.6.IV"],
+  "linked_anchors": [
+    "1.6.II.C",
+    "1.6.II",
+    "1.6.IV"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.II.C",
-    "dekt_ook_anchors": ["1.6.II", "1.6.IV"],
+    "dekt_ook_anchors": [
+      "1.6.II",
+      "1.6.IV"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Assurance-informatie (in ISA-jargon: audit evidence) is alle informatie die de beroepsbeoefenaar gebruikt om tot de conclusies te komen waarop hij zijn oordeel baseert. Hij moet voldoende EN geschikte assurance-informatie verkrijgen — voldoende verwijst naar de hoeveelheid; geschikt naar de relevantie en betrouwbaarheid.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA KMO-controlenorm §85-§86"},
-    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm §85-§86"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Voor de bevestiging van handelsvorderingen van Rotex Roeselare NV vraagt Sofie Janssens externe bevestigingen aan de top 20 klanten (€ 4.500.000 op € 6.200.000 saldo). De ontvangen confirmaties + overige analytische procedures geven haar voldoende en geschikte assurance-informatie over het 'bestaan'-assertion.",
   "bouwstenen": [
@@ -27,8 +45,19 @@
       "voorbeeld_inline": "Een telefonische bevestiging van een klant is geschikt qua bron maar niet voldoende (mondeling, niet schriftelijk). Een schriftelijke externe confirmatie is voldoende én geschikt.",
       "grondslag": "ITAA KMO-controlenorm §85-§86",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §85-§86"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §85-§86"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Beoordelen van betrouwbaarheid bron",
@@ -36,8 +65,19 @@
       "waarom": "Hiërarchie helpt om bij conflicterende informatie de meest betrouwbare bron te laten wegen.",
       "grondslag": "ITAA KMO-controlenorm §86",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §86"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §86"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Conflicterende informatie aanpakken",
@@ -45,27 +85,72 @@
       "waarom": "Negeren van conflict = onaanvaardbaar risico op een verkeerd oordeel.",
       "grondslag": "ITAA KMO-controlenorm §88",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §88"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §88"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Cliënt-geleverde informatie moet beoordeeld worden op nauwkeurigheid + volledigheid. Een Excel uit het ERP-systeem is geen 'audit-bewijs' tot je de bron hebt getoetst.",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §87"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §87"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Bij twijfel over authenticiteit van een document → verder onderzoeken en eventueel de opdracht stopzetten als de opdrachtbrief dat toelaat. Niet 'gewoon verder gaan'.",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §91"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §91"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "bevat", "target": "gegevensgerichte-werkzaamheden", "redenering": "Eén bron van assurance-informatie."},
-    {"type": "bevat", "target": "toetsing-interne-beheersing", "redenering": "Andere bron van assurance-informatie."},
-    {"type": "bevat", "target": "externe-bevestiging", "redenering": "Specifieke bron van hoge betrouwbaarheid."}
+    {
+      "type": "bevat",
+      "target": "gegevensgerichte-werkzaamheden",
+      "redenering": "Eén bron van assurance-informatie."
+    },
+    {
+      "type": "bevat",
+      "target": "toetsing-interne-beheersing",
+      "redenering": "Andere bron van assurance-informatie."
+    },
+    {
+      "type": "bevat",
+      "target": "externe-bevestiging",
+      "redenering": "Specifieke bron van hoge betrouwbaarheid."
+    }
   ]
 }

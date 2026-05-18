@@ -4,12 +4,17 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.IX.C", "1.7.IX"],
+  "linked_anchors": [
+    "1.7.IX.C",
+    "1.7.IX"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T10:34Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.IX.C",
-    "dekt_ook_anchors": ["1.7.IX"],
+    "dekt_ook_anchors": [
+      "1.7.IX"
+    ],
     "reviewed_by": null,
     "bron_gap": "Cyclusanalyse — auditvakdoctrine. Inferred-common-knowledge."
   },
@@ -49,7 +54,15 @@
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Verkoopcyclus is hoofdcyclus voor IC-toepassing."},
-    {"type": "vereist-kennis-van", "target": "functiescheiding", "redenering": "Sales/levering/facturatie/inning moeten gescheiden zijn."}
+    {
+      "type": "onderdeel-van",
+      "target": "interne-controle",
+      "redenering": "Verkoopcyclus is hoofdcyclus voor IC-toepassing."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "functiescheiding",
+      "redenering": "Sales/levering/facturatie/inning moeten gescheiden zijn."
+    }
   ]
 }

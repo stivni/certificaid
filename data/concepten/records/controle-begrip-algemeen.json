@@ -4,22 +4,34 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.II.E", "1.7.II"],
+  "linked_anchors": [
+    "1.7.II.E",
+    "1.7.II"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T11:55Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.II.E",
-    "dekt_ook_anchors": ["1.7.II"],
+    "dekt_ook_anchors": [
+      "1.7.II"
+    ],
     "reviewed_by": null,
     "bron_gap": "Het generieke begrip 'controle' (= verifiëren, beheersen) onderscheidt zich van controle in WVV (= bevoegdheid over een vennootschap). Twee homonymen die studenten verwarren. Inferred-common-knowledge voor onderscheid."
   },
   "definitie": {
     "text": "'Controle' heeft in IC-context twee onderscheiden betekenissen die studenten vaak verwarren: (1) controle = verifiëren of beheersen — een handeling van toetsen en bijsturen (synoniem: 'beheersing'). (2) controle in vennootschapsrechtelijke zin (WVV art. 1:14) = bevoegdheid om beslissend invloed uit te oefenen op een vennootschap. In dit programmaonderdeel betreft het bijna uitsluitend betekenis (1).",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "WVV art. 1:14 (voor betekenis 2) + ITAA-norm-kmo-controlenorm Bijlage 1 (voor betekenis 1)"},
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 1:14 (voor betekenis 2) + ITAA-norm-kmo-controlenorm Bijlage 1 (voor betekenis 1)"
+    },
     "_provenance": {
       "inputs": [
-        {"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part3",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -29,10 +41,16 @@
       "vergelijking_met": "controle",
       "verschil": "Controle (algemeen, IC-context) = handeling van verifiëren/beheersen. Controle (WVV, vennootschapsrechtelijk) = bevoegdheid om beslissend invloed uit te oefenen.",
       "trigger": "Examen-context: gaat het over jaarrekening / IC / audit? → betekenis (1). Gaat het over consolidatie / groepen / belangenpercentage? → betekenis (2).",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "vergelijkt-met", "target": "controle", "redenering": "Verwarring-risico tussen IC-controle en WVV-controle moet expliciet."}
+    {
+      "type": "vergelijkt-met",
+      "target": "controle",
+      "redenering": "Verwarring-risico tussen IC-controle en WVV-controle moet expliciet."
+    }
   ]
 }

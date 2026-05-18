@@ -4,23 +4,38 @@
   "node_type": "methode",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.XII.F", "1.7.XII"],
+  "linked_anchors": [
+    "1.7.XII.F",
+    "1.7.XII"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T10:54Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.XII.F",
-    "dekt_ook_anchors": ["1.7.XII"],
+    "dekt_ook_anchors": [
+      "1.7.XII"
+    ],
     "reviewed_by": null,
     "bron_gap": "ISO 31000 (2018, herziene versie) is internationale ISO-standaard. Niet wettelijk in België. Inferred-common-knowledge."
   },
   "doel": {
     "text": "ISO 31000 is een generieke, sectoronafhankelijke standaard voor risk management. Bestaat uit drie hoofddelen: principes (8 stuks, bv. value creation, integrated, structured, customized), framework (organisatorische inbedding), en proces (identification → analysis → evaluation → treatment → monitoring). Niet certificeerbaar (anders dan ISO 9001) — referentiekader, geen audit-standaard.",
     "confidence": "inferred-common-knowledge",
-    "_provenance": {"inputs": []}
+    "_provenance": {
+      "inputs": []
+    }
   },
   "voorbeeld_inline": "Bij een overheidsinstantie of grote infrastructure-onderneming wordt ISO 31000 vaak gebruikt naast of in plaats van COSO. Voor private Belgische ondernemingen is COSO doorgaans dominanter omwille van audit-relatie.",
   "edges": [
-    {"type": "vergelijkt-met", "target": "coso-i-framework", "redenering": "Beide zijn referentiekaders voor risk/IC; COSO meer audit-georiënteerd, ISO meer generic."},
-    {"type": "vergelijkt-met", "target": "coso-ii-erm-framework", "redenering": "Beide bestrijken enterprise risk management vanuit ander perspectief."}
+    {
+      "type": "vergelijkt-met",
+      "target": "coso-i-framework",
+      "redenering": "Beide zijn referentiekaders voor risk/IC; COSO meer audit-georiënteerd, ISO meer generic."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "coso-ii-erm-framework",
+      "redenering": "Beide bestrijken enterprise risk management vanuit ander perspectief."
+    }
   ]
 }

@@ -4,23 +4,47 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.I.A", "1.6.III.A", "1.6.III.E"],
+  "linked_anchors": [
+    "1.6.I.A",
+    "1.6.III.A",
+    "1.6.III.E"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.III.A",
-    "dekt_ook_anchors": ["1.6.I.A", "1.6.III.E"],
+    "dekt_ook_anchors": [
+      "1.6.I.A",
+      "1.6.III.E"
+    ],
     "reviewed_by": null
   },
   "verplichting": {
     "text": "Voor elke contractuele opdracht stelt de externe accountant een opdrachtbrief op die de scope, de verantwoordelijkheden, het ereloon en de wederzijdse verplichtingen vastlegt vóór de uitvoering begint. De opdrachtbrief is het juridische kader van de opdracht en de hefboom voor aansprakelijkheidsbeperking en bewijslast.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA-norm Opdrachtbrief"},
-    "_provenance": {"inputs": [
-      {"id": "ITAA-norm-opdrachtbrief__sec_1-algemeen_2", "sha256": null, "version": "rag-v1"},
-      {"id": "ITAA-norm-opdrachtbrief__sec_2-begindatum-van-uw-opdracht", "sha256": null, "version": "rag-v1"},
-      {"id": "ITAA-norm-opdrachtbrief__sec_4-verplichtingen-van-de-partijen", "sha256": null, "version": "rag-v1"}
-    ]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA-norm Opdrachtbrief"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-opdrachtbrief__sec_1-algemeen_2",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-opdrachtbrief__sec_2-begindatum-van-uw-opdracht",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-opdrachtbrief__sec_4-verplichtingen-van-de-partijen",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Wolters & Partners CVBA stelt voor Meubelzaak Mertens BV een opdrachtbrief op vóór de start van de jaarlijkse boekhoudkundige opdracht: scope (organisatie boekhouding + jaarrekening + fiscale aangifte), termijnen (jaarrekening klaar tegen 30 april), ereloon (€ 8.500 forfait + uurtarief boven scope), aansprakelijkheidsplafond (drie keer ereloon, niet bij bedrog).",
   "stappen": [
@@ -64,18 +88,48 @@
     {
       "text": "Bij voorbehouden opdrachten (inbreng in natura, ontbinding, ...) mag de aansprakelijkheid NIET worden beperkt — een beperkingsclausule daar is nietig. Lees Wet ITAA 2019 art. 44 nauwgezet vooraleer een plafond op te nemen.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "Wet ITAA 2019 art. 44"},
-      "_provenance": {"inputs": [{"id": "Wet-ITAA-2019__art_44", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "Wet ITAA 2019 art. 44"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Wet-ITAA-2019__art_44",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "De vertegenwoordiger-natuurlijke persoon kan zijn handtekeningsbevoegdheid bij voorbehouden opdrachten NIET delegeren — hij moet zelf het uiteindelijk verslag ondertekenen.",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA-norm Opdrachtbrief §3"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-opdrachtbrief__sec_3-uitvoering-van-de-opdracht", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Opdrachtbrief §3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-opdrachtbrief__sec_3-uitvoering-van-de-opdracht",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "beroepsaansprakelijkheid-accountant", "redenering": "De opdrachtbrief is de plaats voor geldige aansprakelijkheidsbeperking."},
-    {"type": "vereist-kennis-van", "target": "antiwitwas-meldingsplicht", "redenering": "Antiwitwasverplichtingen worden via de opdrachtbrief geïnformeerd."}
+    {
+      "type": "vereist-kennis-van",
+      "target": "beroepsaansprakelijkheid-accountant",
+      "redenering": "De opdrachtbrief is de plaats voor geldige aansprakelijkheidsbeperking."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "antiwitwas-meldingsplicht",
+      "redenering": "Antiwitwasverplichtingen worden via de opdrachtbrief geïnformeerd."
+    }
   ]
 }

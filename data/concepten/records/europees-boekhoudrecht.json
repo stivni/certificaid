@@ -4,28 +4,59 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.I.A", "1.2.I"],
+  "linked_anchors": [
+    "1.2.I.A",
+    "1.2.I"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.I.A",
-    "dekt_ook_anchors": ["1.2.I"],
+    "dekt_ook_anchors": [
+      "1.2.I"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "De Europese rechtsbronnen die het Belgisch boekhoudrecht aansturen. Twee instrumenten: verordeningen (rechtstreeks geldig in alle lidstaten — bv. IAS-verordening 1606/2002 voor beursgenoteerde groepen) en richtlijnen (lidstaat moet omzetten in eigen wet — bv. Richtlijn 2013/34/EU).",
     "confidence": "grounded",
-    "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU art. 1"},
+    "source": {
+      "type": "richtlijn",
+      "short": "Richtlijn 2013/34/EU art. 1"
+    },
     "references": [
-      {"type": "richtlijn", "short": "Richtlijn 2013/34/EU (jaarrekening)"},
-      {"type": "verordening", "short": "Verordening (EG) 1606/2002 (IAS)"},
-      {"type": "wet", "short": "WER art. II.1 (voorrang internationale verdragen + EU-recht)"}
+      {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU (jaarrekening)"
+      },
+      {
+        "type": "verordening",
+        "short": "Verordening (EG) 1606/2002 (IAS)"
+      },
+      {
+        "type": "wet",
+        "short": "WER art. II.1 (voorrang internationale verdragen + EU-recht)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "Richtlijn-2013-34-EU__art_1", "sha256": null, "version": "rag-v1"},
-      {"id": "Richtlijn-2013-34-EU__art_2__sub_d", "sha256": null, "version": "rag-v1"},
-      {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "Richtlijn-2013-34-EU__art_1",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "Richtlijn-2013-34-EU__art_2__sub_d",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_II",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Rotex Roeselare NV is beursgenoteerd → moet IFRS toepassen op haar geconsolideerde jaarrekening (rechtstreekse werking IAS-verordening 1606/2002). Voor haar enkelvoudige jaarrekening blijft Belgisch GAAP gelden (geïmplementeerde Richtlijn 2013/34/EU).",
   "bouwstenen": [
@@ -36,10 +67,19 @@
       "voorbeeld_inline": "IAS-verordening 1606/2002 verplicht beursgenoteerde groepen om IFRS te gebruiken voor de geconsolideerde jaarrekening — Belgische wetgeving hoeft daarvoor niets te bevestigen.",
       "grondslag": "WER art. II.1",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WER art. II.1"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. II.1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_II",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Richtlijn: omzetting vereist",
@@ -48,10 +88,19 @@
       "voorbeeld_inline": "Richtlijn 2013/34/EU is in België omgezet via aanpassingen aan het WVV en het KB-WVV — dezelfde grootteklassen en jaarrekening-schema's vind je dus in beide teksten.",
       "grondslag": "Richtlijn 2013/34/EU art. 1; omzetting in WVV Boek 3",
       "confidence": "grounded",
-      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU"},
-      "_provenance": {"inputs": [
-        {"id": "Richtlijn-2013-34-EU__art_1", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Richtlijn-2013-34-EU__art_1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Twee sporen voor jaarrekening",
@@ -60,11 +109,24 @@
       "voorbeeld_inline": "Aurelia Holding NV (niet-beursgenoteerd) → Belgisch GAAP voor alles. Beursgenoteerde holding → IFRS-consolidatie + Belgisch-GAAP-enkelvoudig.",
       "grondslag": "Richtlijn 2013/34/EU + Verordening 1606/2002",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU + Verordening 1606/2002"},
-      "_provenance": {"inputs": [
-        {"id": "Richtlijn-2013-34-EU__art_1", "sha256": null, "version": "rag-v1"},
-        {"id": "Richtlijn-2013-34-EU__art_2__sub_d", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU + Verordening 1606/2002"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Richtlijn-2013-34-EU__art_1",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "Richtlijn-2013-34-EU__art_2__sub_d",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -73,10 +135,19 @@
       "betekenis": "Veel definities en grootteklassen in het WVV komen letterlijk uit Richtlijn 2013/34/EU. Bij twijfel over de bedoeling van een Belgische regel kun je teruggrijpen naar de Europese tekst — die heet 'richtlijnconforme interpretatie'.",
       "herkenningspunt": "Veelgebruikte signaalwoorden: 'Public Interest Entity (PIE)', 'micro-onderneming', 'kleine vennootschap' — deze definities zijn EU-geharmoniseerd.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU"},
-      "_provenance": {"inputs": [
-        {"id": "Richtlijn-2013-34-EU__art_2__sub_d", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Richtlijn-2013-34-EU__art_2__sub_d",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -84,19 +155,34 @@
       "vergelijking_met": "belgisch-boekhoudrecht",
       "verschil": "Europees boekhoudrecht is de bovenste laag — Belgisch boekhoudrecht zet de Europese richtlijnen om en past zelf eigen accenten toe (bv. CBN-adviezen). Bij conflict primeert EU-recht.",
       "trigger": "Examenvraag over 'welke bron primeert' bij conflict tussen EU-richtlijn en Belgisch KB: → EU-recht na directe werking of richtlijn-conforme interpretatie.",
-      "_provenance": {"inputs": [
-        {"id": "WER__art_II", "sha256": null, "version": "rag-v1"}
-      ]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_II",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Belgisch GAAP is geen 'kopie' van Richtlijn 2013/34/EU. België maakt bewuste keuzes binnen de richtlijn-marge (bv. de keuze om de microschema-categorie wel of niet toe te passen). Dus niet automatisch Europese voorbeelden gebruiken; check altijd het Belgisch KB.",
       "confidence": "inferred",
-      "source": {"type": "richtlijn", "short": "Richtlijn 2013/34/EU"},
-      "_provenance": {"inputs": [
-        {"id": "Richtlijn-2013-34-EU__art_1", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Richtlijn-2013-34-EU__art_1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

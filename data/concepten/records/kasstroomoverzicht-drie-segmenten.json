@@ -4,7 +4,12 @@
   "node_type": "synthese",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.9.IV", "1.9.IV.G", "1.9.IV.H", "1.9.taak.1"],
+  "linked_anchors": [
+    "1.9.IV",
+    "1.9.IV.G",
+    "1.9.IV.H",
+    "1.9.taak.1"
+  ],
   "gebaseerd_op_concepten": [
     "cashflow-analyse",
     "behoefte-aan-bedrijfskapitaal",
@@ -15,7 +20,11 @@
     "extractor_run": "concept-extractie-v4-2026-05-17T10:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.9.IV.G",
-    "dekt_ook_anchors": ["1.9.IV", "1.9.IV.H", "1.9.taak.1"],
+    "dekt_ook_anchors": [
+      "1.9.IV",
+      "1.9.IV.H",
+      "1.9.taak.1"
+    ],
     "reviewed_by": null,
     "bron_gap": "Het Belgisch volledig schema (KB WVV) bevat geen verplicht kasstroomoverzicht — anders dan IFRS (IAS 7). De drie-segmenten-structuur komt uit IAS 7 en de financiële-analyse-vakdoctrine."
   },
@@ -27,24 +36,57 @@
       "betekenis": "Een gezonde onderneming heeft CFO > 0 die haar investeringen (CFI < 0) grotendeels dekt; CFF compenseert het saldo. Combinaties die alarmeren: CFO < 0 + CFF > 0 (overleeft op extern kapitaal) of CFO > 0 + CFI > 0 (geen herinvestering, leeft van afbouw).",
       "anker_slug": "1.9.IV.H",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "Financiële analyse — IAS 7 als referentie"},
-      "_provenance": {"inputs": [{"id": "anchor-1.9.IV.G", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financiële analyse — IAS 7 als referentie"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.IV.G",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Belgisch schema heeft geen kasstroomoverzicht verplicht",
       "betekenis": "In het Belgisch volledig schema komt het kasstroomoverzicht niet voor als wettelijk verplicht onderdeel; de analist berekent het zelf uit balans en RR. IFRS-rapporteerders (zoals Zelena Bio NV) moeten het wel publiceren conform IAS 7.",
       "anker_slug": "1.9.IV.G",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Belgisch jaarrekeningenrecht — vergelijking IFRS"},
-      "_provenance": {"inputs": [{"id": "anchor-1.9.IV.G", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Belgisch jaarrekeningenrecht — vergelijking IFRS"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.IV.G",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Verwar cashflow (= winst + niet-kaskosten, één bedrag) niet met kasstroomoverzicht (= drie-segmenten-overzicht dat ook BBK-wijzigingen meeneemt). De eerste is een tussenresultaat; de tweede een volledige tabel.",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "Financiële analyse"},
-      "_provenance": {"inputs": [{"id": "anchor-1.9.IV.G", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financiële analyse"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.IV.G",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ]
 }

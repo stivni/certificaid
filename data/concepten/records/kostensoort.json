@@ -4,21 +4,33 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.II.A", "1.8.IV.A"],
+  "linked_anchors": [
+    "1.8.II.A",
+    "1.8.IV.A"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.II.A",
-    "dekt_ook_anchors": ["1.8.IV.A"],
+    "dekt_ook_anchors": [
+      "1.8.IV.A"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Een kostensoort is een categorie van kosten naar economische aard: handelsgoederen, grond- en hulpstoffen, diensten en diverse goederen, bezoldigingen, afschrijvingen, financiële kosten, etc. De algemene boekhouding registreert standaard per kostensoort in klasse 60 t/m 65 van het Minimum Algemeen Rekeningstelsel.",
     "confidence": "grounded",
-    "source": {"type": "kb", "short": "KB 21.10.2018 Bijlage 1 (MAR) — klasse 6"},
+    "source": {
+      "type": "kb",
+      "short": "KB 21.10.2018 Bijlage 1 (MAR) — klasse 6"
+    },
     "_provenance": {
       "inputs": [
-        {"id": "Minimum-Algemeen-Rekeningstelsel-voor-boekhoudplichtige-ondernemingen__klasse_6", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "Minimum-Algemeen-Rekeningstelsel-voor-boekhoudplichtige-ondernemingen__klasse_6",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -28,7 +40,9 @@
       "aspect": "Drie hoofdcategorieën in management-accounting",
       "betekenis": "Voor analytische doeleinden worden kostensoorten typisch samengevoegd tot drie blokken: (1) materialen, (2) arbeid, (3) overige kosten (huur, energie, afschrijvingen, externe diensten). Deze drie-deling stuurt de bundle-structuur van het ITAA-programmaonderdeel 1.8.II.B/C/D.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -37,12 +51,29 @@
       "verschil": "Kostensoort = WAT (aard van de kost). Kostencentrum = WAAR (afdeling die de kost maakt). Kostendrager = VOOR WIE (product/klant/order dat de kost veroorzaakt).",
       "trigger": "Examen-vraag op rekeningenstelsel-organisatie: identificeer of de indeling per soort, per centrum of per drager gebeurt.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "rekeningenstelsel-analytisch", "redenering": "Klasse 6 organiseert kosten per soort.", "confidence": "inferred"},
-    {"type": "vergelijkt-met", "target": "kostencentrum", "redenering": "Alternatieve indelings-as.", "confidence": "inferred"},
-    {"type": "vergelijkt-met", "target": "kostendrager", "redenering": "Alternatieve indelings-as.", "confidence": "inferred"}
+    {
+      "type": "onderdeel-van",
+      "target": "rekeningenstelsel-analytisch",
+      "redenering": "Klasse 6 organiseert kosten per soort.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "kostencentrum",
+      "redenering": "Alternatieve indelings-as.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "kostendrager",
+      "redenering": "Alternatieve indelings-as.",
+      "confidence": "inferred"
+    }
   ]
 }

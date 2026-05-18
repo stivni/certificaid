@@ -4,25 +4,48 @@
   "node_type": "fenomeen",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.1.II.M", "1.1.II.N", "1.1.II.S"],
+  "linked_anchors": [
+    "1.1.II.M",
+    "1.1.II.N",
+    "1.1.II.S"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.M",
-    "dekt_ook_anchors": ["1.1.II.N", "1.1.II.S"],
+    "dekt_ook_anchors": [
+      "1.1.II.N",
+      "1.1.II.S"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Het verschil tussen **bedrijfsopbrengsten** (klasse 7, hoofdzakelijk omzet en voorraadwijzigingen) en **bedrijfskosten** (klasse 6, hoofdzakelijk handelsgoederen/grond- en hulpstoffen, diensten en diverse goederen, bezoldigingen + sociale lasten, afschrijvingen, waardeverminderingen, voorzieningen, andere bedrijfskosten). Geeft weer wat de onderneming presteert in haar **kernactiviteit** — vóór financiële en niet-recurrente posten.",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "MAR klasse 6 + 7"},
+    "source": {
+      "type": "wet",
+      "short": "MAR klasse 6 + 7"
+    },
     "references": [
-      {"type": "wet", "short": "KB WVV jaarrekeningschema"}
+      {
+        "type": "wet",
+        "short": "KB WVV jaarrekeningschema"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "MAR-ondernemingen__art_7", "sha256": null, "version": "rag-v1"},
-      {"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "MAR-ondernemingen__art_7",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "MAR-ondernemingen__art_6",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Naaiatelier Ninove BV 20X1: omzet € 1.250.000 (rekening 70), voorraadwijziging gereed product +€ 22.300 (71), totaal bedrijfsopbrengsten € 1.272.300. Bedrijfskosten: aankopen grondstoffen € 450.000 (60), diensten en diverse goederen € 185.000 (61), bezoldigingen + sociale lasten € 380.000 (62), afschrijvingen € 95.000 (630), waardeverminderingen € 8.500 (634), andere bedrijfskosten € 18.000 (64) → totaal € 1.136.500. Bedrijfsresultaat = € 1.272.300 − € 1.136.500 = € 135.800.",
   "bouwstenen": [
@@ -33,8 +56,19 @@
       "voorbeeld_inline": "Meubelzaak Mertens BV verkoopt 245 stoelen × € 280 + 87 tafels × € 1.250 = € 68.600 + € 108.750 = € 177.350; geeft 3 % volumekorting = € 5.320 → omzet € 172.030 op rekening 700.",
       "grondslag": "MAR rubriek 70 (zie MAR-noot 55)",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_0__sub_2deg_part2", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_0__sub_2deg_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Klasse 60 — Handelsgoederen, grond- en hulpstoffen",
@@ -43,8 +77,19 @@
       "voorbeeld_inline": "Naaiatelier Ninove BV: aankoop grondstoffen 20X1 € 480.000; beginvoorraad € 60.000, eindvoorraad € 90.000 → voorraadwijziging +€ 30.000. Verbruikte grondstoffen = € 480.000 − € 30.000 = € 450.000.",
       "grondslag": "MAR klasse 60",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_6",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Klasse 62 — Bezoldigingen + sociale lasten",
@@ -53,8 +98,19 @@
       "voorbeeld_inline": "Naaiatelier Ninove BV 20X1: brutolonen € 280.000 (620), werkgevers-RSZ € 84.000 (621), groepsverzekering € 12.000 (623), maaltijdcheques € 4.000 (624). Totaal € 380.000 onder rubriek 62.",
       "grondslag": "MAR klasse 62",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_6",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Klasse 63-64-65 — Niet-kaskosten en andere",
@@ -63,8 +119,19 @@
       "voorbeeld_inline": "Naaiatelier Ninove BV: afschrijvingen MVA € 85.000 (6302) + IVA € 5.000 (6301) + waardeverminderingen voorraden € 4.500 (6340) + toevoeging voorziening garantie € 25.000 (6371) → klasse 63 totaal € 119.500.",
       "grondslag": "MAR klasse 63 + 64",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_6",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -73,22 +140,55 @@
       "betekenis": "Brutomarge = omzet − klasse 60 (aankopen) − voorraadwijziging. EBITDA = bedrijfsresultaat + afschrijvingen + waardeverminderingen + voorzieningen — toevoegingen. Twee veelgebruikte indicatoren bij ratio-analyse en kredietbeoordeling.",
       "herkenningspunt": "Examen: EBITDA = klasse 70+71+72+74 − 60 − 61 − 62 − 64 (zonder klasse 63 niet-kas).",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "wet", "short": "MAR + ratio-praktijk"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR + ratio-praktijk"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_6",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Voorraadwijziging is een onderdeel van de bedrijfsopbrengsten (rekening 71) bij stijging van voorraad gereed product/goederen in bewerking, MAAR een correctie op de aankopen (rekening 609) bij voorraadwijziging grondstoffen. Onderscheid is essentieel voor correct bedrijfsresultaat.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "wet", "short": "MAR klasse 60 + 71"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR klasse 60 + 71"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_6",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Bezoldigingen incl. werkgeversbijdragen en alle aanvullende kosten — niet alleen het brutoloon. Voor matching met fiscale aangifte: arbeiders/bedienden/zelfstandige bestuurders apart.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR klasse 62"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_6", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR klasse 62"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_6",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -99,7 +199,15 @@
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "resultatenrekening", "redenering": "Bedrijfsresultaat is het eerste niveau in de gestructureerde resultatenrekening."},
-    {"type": "vereist-kennis-van", "target": "voorraden", "redenering": "Voorraadwijziging is een directe component van bedrijfsresultaat."}
+    {
+      "type": "onderdeel-van",
+      "target": "resultatenrekening",
+      "redenering": "Bedrijfsresultaat is het eerste niveau in de gestructureerde resultatenrekening."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "voorraden",
+      "redenering": "Voorraadwijziging is een directe component van bedrijfsresultaat."
+    }
   ]
 }

@@ -4,12 +4,21 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.C", "1.4.I.B", "1.4.I.D", "1.4.taak.1"],
+  "linked_anchors": [
+    "1.4.I.C",
+    "1.4.I.B",
+    "1.4.I.D",
+    "1.4.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.C",
-    "dekt_ook_anchors": ["1.4.I.B", "1.4.I.D", "1.4.taak.1"],
+    "dekt_ook_anchors": [
+      "1.4.I.B",
+      "1.4.I.D",
+      "1.4.taak.1"
+    ],
     "reviewed_by": null,
     "schema_1_4_migration": {
       "uitgevoerd_op": "2026-05-16T00:11Z",
@@ -44,20 +53,44 @@
   "definitie": {
     "text": "De controle die een beperkt aantal vennoten samen uitoefenen, op grond van een overeenkomst dat beleidsbeslissingen alleen met hun gemeenschappelijke instemming kunnen worden genomen. De vennootschap die het voorwerp is van die gezamenlijke controle heet een gemeenschappelijke dochter. Onweerlegbaar vermoeden: elk van de vennoten die de gezamenlijke controle uitoefent wordt wettelijk geacht controle te hebben over de gemeenschappelijke dochter.",
     "confidence": "grounded",
-    "source": {"type": "advies", "short": "CBN 2017/02 — Gezamenlijke controle (groottecriteria-update)"},
+    "source": {
+      "type": "advies",
+      "short": "CBN 2017/02 — Gezamenlijke controle (groottecriteria-update)"
+    },
     "references": [
-      {"type": "wet", "short": "WVV art. 1:14 (controle); art. 1:18 (gezamenlijke controle)"},
-      {"type": "advies", "short": "CBN 2017/02"},
-      {"type": "kb", "short": "KB WVV art. 3:124, 2° (evenredige consolidatie)"}
+      {
+        "type": "wet",
+        "short": "WVV art. 1:14 (controle); art. 1:18 (gezamenlijke controle)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2017/02"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:124, 2° (evenredige consolidatie)"
+      }
     ],
     "_provenance": {
       "inputs": [
-        {"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     },
     "_corrected_from": [
-      {"field": "text", "from": "De controle die een beperkt aantal vennoten samen uitoefenen, wanneer zij zijn overeengekomen dat beslissingen omtrent de oriëntatie van het beleid niet zonder hun gemeenschappelijke instemming kunnen worden genomen. Een gemeenschappelijke dochtervennootschap is de vennootschap ten opzichte waarvan een gezamenlijke controle bestaat. In geval van gezamenlijke controle geldt een wettelijk en onweerlegbaar vermoeden van controle door de vennoten die de gezamenlijke controle uitoefenen.", "reason": "Stagiair-toon: 'oriëntatie van het beleid' → 'beleidsbeslissingen'; korte zinnen (regel 6)."}
+      {
+        "field": "text",
+        "from": "De controle die een beperkt aantal vennoten samen uitoefenen, wanneer zij zijn overeengekomen dat beslissingen omtrent de oriëntatie van het beleid niet zonder hun gemeenschappelijke instemming kunnen worden genomen. Een gemeenschappelijke dochtervennootschap is de vennootschap ten opzichte waarvan een gezamenlijke controle bestaat. In geval van gezamenlijke controle geldt een wettelijk en onweerlegbaar vermoeden van controle door de vennoten die de gezamenlijke controle uitoefenen.",
+        "reason": "Stagiair-toon: 'oriëntatie van het beleid' → 'beleidsbeslissingen'; korte zinnen (regel 6)."
+      }
     ]
   },
   "voorbeeld_inline": "Cardinal Group NV en Energiehuis Evergem NV bezitten elk 50 % van Filmstudio Florence BV. Hun aandeelhoudersovereenkomst legt vast dat strategische beslissingen alleen samen worden genomen → gezamenlijke controle → Filmstudio is gemeenschappelijke dochter → evenredige consolidatie 50/50.",
@@ -65,14 +98,36 @@
     {
       "text": "Een beperkt aantal vennoten (typisch 2 of 3) die samen het beleid bepalen.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2017/02"},
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2017/02"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Er is een overeenkomst (uitdrukkelijk of impliciet, vaak in een aandeelhoudersovereenkomst) dat beleidsbeslissingen alleen met gemeenschappelijke instemming mogen worden genomen.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2017/02 — geval 1 versus geval 2"},
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2017/02 — geval 1 versus geval 2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -81,25 +136,55 @@
       "betekenis": "Standaard wordt de gemeenschappelijke dochter evenredig (pro-rata) geconsolideerd: Cardinal Group en Energiehuis Evergem nemen elk 50 % van de bezittingen, schulden, opbrengsten en kosten van Filmstudio Florence op (KB WVV art. 3:140). Uitzondering: als het bedrijf van Filmstudio Florence niet nauw geïntegreerd is in dat van de moeders, mag in plaats daarvan de vermogensmutatiemethode worden toegepast.",
       "herkenningspunt": "Twee vennootschappen elk 50 % met aandeelhoudersovereenkomst over beleid → gezamenlijke controle → evenredige consolidatie.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:140 (evenredige consolidatie van gemeenschappelijke dochters)"},
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:140 (evenredige consolidatie van gemeenschappelijke dochters)"
+      },
       "_provenance": {
         "inputs": [
-          {"id": "KB-WVV-2019__art_3_111", "sha256": null, "version": "rag-v1"},
-          {"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "KB-WVV-2019__art_3_111",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_praktische-uitwerking",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       },
       "_corrected_from": [
-        {"field": "betekenis", "from": "De gemeenschappelijke dochter wordt in regel evenredig (proportioneel) geconsolideerd: de bezittingen en schulden, opbrengsten en kosten worden opgenomen naar rato van de kapitaalrechten in de dochter (KB WVV art. 3:140). Bij gemeenschappelijke dochters waarvan het bedrijf niet nauw geïntegreerd is in het bedrijf van de moeder, kan in plaats daarvan de vermogensmutatiemethode worden toegepast.", "reason": "Stagiair-toon + cast-namen (regels 6 + 7)."}
+        {
+          "field": "betekenis",
+          "from": "De gemeenschappelijke dochter wordt in regel evenredig (proportioneel) geconsolideerd: de bezittingen en schulden, opbrengsten en kosten worden opgenomen naar rato van de kapitaalrechten in de dochter (KB WVV art. 3:140). Bij gemeenschappelijke dochters waarvan het bedrijf niet nauw geïntegreerd is in het bedrijf van de moeder, kan in plaats daarvan de vermogensmutatiemethode worden toegepast.",
+          "reason": "Stagiair-toon + cast-namen (regels 6 + 7)."
+        }
       ]
     },
     {
       "aspect": "Onweerlegbaar vermoeden van individuele controle",
       "betekenis": "Bij gezamenlijke controle wordt elke vennoot afzonderlijk geacht individueel controle te hebben — onweerlegbaar. Gevolg: elke vennoot en de gemeenschappelijke dochter worden 'verbonden vennootschappen' (met impact op groottecriteria en transparantievereisten). Bv. zowel Cardinal Group als Energiehuis Evergem zijn elk verbonden met Filmstudio Florence; zij zijn echter níet onderling verbonden met elkaar.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2017/02"},
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2017/02"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "betekenis", "from": "In geval van gezamenlijke controle wordt elke vennoot afzonderlijk vermoed controle uit te oefenen (onweerlegbaar). Dit heeft o.a. tot gevolg dat elke vennoot en de gemeenschappelijke dochter 'verbonden vennootschappen' worden, met impact op de groottecriteria en op de transparantievereisten.", "reason": "Stagiair-toon + cast-namen (regels 6 + 7)."}
+        {
+          "field": "betekenis",
+          "from": "In geval van gezamenlijke controle wordt elke vennoot afzonderlijk vermoed controle uit te oefenen (onweerlegbaar). Dit heeft o.a. tot gevolg dat elke vennoot en de gemeenschappelijke dochter 'verbonden vennootschappen' worden, met impact op de groottecriteria en op de transparantievereisten.",
+          "reason": "Stagiair-toon + cast-namen (regels 6 + 7)."
+        }
       ]
     }
   ],
@@ -108,19 +193,49 @@
     {
       "text": "Twee vennootschappen die elk 50 % bezitten zonder overeenkomst over beleidsbeslissingen vormen géén gezamenlijke controle — er is dan helemaal geen controle. Geen overeenkomst, geen vermoeden. Bv. zonder aandeelhoudersovereenkomst tussen Cardinal Group en Energiehuis Evergem is Filmstudio Florence geen gemeenschappelijke dochter.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2017/02 — geval 2"},
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2017/02 — geval 2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "text", "from": "Twee vennootschappen die elk 50 % bezitten zonder overeenkomst over beleidsbeslissingen vormen géén gezamenlijke controle — er is dan helemaal geen controle. Geen overeenkomst, geen vermoeden.", "reason": "Cast-naam toegevoegd (regel 7)."}
+        {
+          "field": "text",
+          "from": "Twee vennootschappen die elk 50 % bezitten zonder overeenkomst over beleidsbeslissingen vormen géén gezamenlijke controle — er is dan helemaal geen controle. Geen overeenkomst, geen vermoeden.",
+          "reason": "Cast-naam toegevoegd (regel 7)."
+        }
       ]
     },
     {
       "text": "De vennoten die samen een gemeenschappelijke dochter controleren zijn daardoor niet automatisch onderling 'verbonden vennootschappen'. Cardinal Group en Energiehuis Evergem zijn elk wel met Filmstudio Florence verbonden, maar niet met elkaar.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2017/02"},
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2017/02"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "text", "from": "De vennoten die samen een gemeenschappelijke dochter controleren, zijn daardoor niet automatisch onderling 'verbonden vennootschappen' — uit geen enkele WVV-bepaling volgt dat. Enkel elke vennoot afzonderlijk is verbonden met de gemeenschappelijke dochter.", "reason": "Cast-namen + stagiair-toon (regels 6 + 7)."}
+        {
+          "field": "text",
+          "from": "De vennoten die samen een gemeenschappelijke dochter controleren, zijn daardoor niet automatisch onderling 'verbonden vennootschappen' — uit geen enkele WVV-bepaling volgt dat. Enkel elke vennoot afzonderlijk is verbonden met de gemeenschappelijke dochter.",
+          "reason": "Cast-namen + stagiair-toon (regels 6 + 7)."
+        }
       ]
     }
   ],
@@ -133,7 +248,15 @@
         "veld": "vergelijkingsparen → edges",
         "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
       },
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "getriggerd-door",
@@ -143,7 +266,15 @@
         "veld": "contrasteert-met → getriggerd-door",
         "reden": "Relatie is constitutief: gemeenschappelijke dochter is per definitie het object van gezamenlijke controle."
       },
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "contrasteert-met",
@@ -153,7 +284,15 @@
         "veld": "vergelijkingsparen → edges",
         "reden": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
       },
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "specialisatie-van",

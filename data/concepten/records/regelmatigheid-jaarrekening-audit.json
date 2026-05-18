@@ -4,7 +4,9 @@
   "node_type": "beginsel",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.IV.A"],
+  "linked_anchors": [
+    "1.6.IV.A"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
@@ -14,11 +16,24 @@
   "main_rule": {
     "text": "Naast 'getrouw beeld' beoordeelt de auditor ook de REGELMATIGHEID van de boekhouding en jaarrekening: zijn ze opgesteld in overeenstemming met de wettelijke en reglementaire voorschriften (KB WVV, CBN-adviezen, sectorspecifieke regels)? Dit is een aparte dimensie van het oordeel — een jaarrekening kan een getrouw beeld geven maar toch onregelmatig zijn (bv. ontbrekende toelichting).",
     "confidence": "inferred-from-aggregation",
-    "source": {"type": "wet", "short": "KB WVV art. 3:1 + ITAA-norm-algemene-controlenorm §2"},
-    "_provenance": {"inputs": [
-      {"id": "KB-WVV-2019__art_3", "sha256": null, "version": "rag-v1"},
-      {"id": "ITAA-norm-algemene-controlenorm__sec_2-verslag", "sha256": null, "version": "rag-v1"}
-    ]}
+    "source": {
+      "type": "wet",
+      "short": "KB WVV art. 3:1 + ITAA-norm-algemene-controlenorm §2"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-2019__art_3",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-algemene-controlenorm__sec_2-verslag",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Sofie Janssens stelt vast dat de jaarrekening van Meubelzaak Mertens BV een getrouw beeld geeft, maar dat de wettelijk verplichte toelichting over erfdienstbaarheden ontbreekt → onregelmatigheid, op te nemen als observatie in het controleverslag.",
   "vergelijkingsparen": [
@@ -26,10 +41,22 @@
       "vergelijking_met": "getrouw-beeld-controle",
       "verschil": "Getrouw beeld = economisch correct (substance over form). Regelmatigheid = wettelijk correct (form-naleving). Twee complementaire toetsen — een audit beoordeelt beide.",
       "trigger": "Examen-zin: 'overeenstemming met KB WVV-schema' → regelmatigheid. 'Vermogen, financiële toestand en resultaat correct weergegeven' → getrouw beeld.",
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vergelijkt-met", "target": "getrouw-beeld-controle", "redenering": "Twee aparte dimensies van het oordeel — examen-favoriet om uit elkaar te halen."}
+    {
+      "type": "vergelijkt-met",
+      "target": "getrouw-beeld-controle",
+      "redenering": "Twee aparte dimensies van het oordeel — examen-favoriet om uit elkaar te halen."
+    }
   ]
 }

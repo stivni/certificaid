@@ -4,25 +4,45 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.1.II.H", "1.1.II.T"],
+  "linked_anchors": [
+    "1.1.II.H",
+    "1.1.II.T"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.H",
-    "dekt_ook_anchors": ["1.1.II.T"],
+    "dekt_ook_anchors": [
+      "1.1.II.T"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Het **verschil tussen de uitgifteprijs van nieuwe aandelen** bij een kapitaalverhoging en de **fractiewaarde** (of vroeger 'nominale waarde'). Geboekt op rekening 11 'Uitgiftepremies' onder eigen middelen. Een uitgiftepremie is GEEN reserve in de zin van de wet: ze wordt fiscaal en boekhoudkundig met **kapitaal/eigen vermogensinbreng gelijkgesteld** voor wat betreft beschermingsregels — maar staat in een afzonderlijke balansrubriek voor transparantie.",
     "confidence": "grounded",
-    "source": {"type": "advies", "short": "CBN 2021/01 — Uitgiftepremie"},
+    "source": {
+      "type": "advies",
+      "short": "CBN 2021/01 — Uitgiftepremie"
+    },
     "references": [
-      {"type": "wet", "short": "WVV art. 7:177 (uitgifte aandelen NV) + 5:120 (BV)"},
-      {"type": "wet", "short": "MAR rubriek 11"}
+      {
+        "type": "wet",
+        "short": "WVV art. 7:177 (uitgifte aandelen NV) + 5:120 (BV)"
+      },
+      {
+        "type": "wet",
+        "short": "MAR rubriek 11"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "CBN-2021-01-uitgiftepremie-0__sec_uitgiftepremie-is-geen-reserve-aanwending-van-de-uitgiftepre", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2021-01-uitgiftepremie-0__sec_uitgiftepremie-is-geen-reserve-aanwending-van-de-uitgiftepre",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Oprichtingen Oostende BV heeft kapitaal € 50.000 verdeeld over 500 aandelen (fractiewaarde € 100). De BV gaat door een kapitaalverhoging via uitgifte van 200 nieuwe aandelen aan € 250 per stuk. Inbreng = 200 × € 250 = € 50.000. Hiervan: 200 × € 100 = € 20.000 naar kapitaal (rekening 100), en 200 × € 150 = € 30.000 naar uitgiftepremie (rekening 11). Nieuw eigen vermogen: kapitaal € 70.000 + uitgiftepremie € 30.000.",
   "bouwstenen": [
@@ -33,8 +53,19 @@
       "voorbeeld_inline": "Bestaande aandeelhouders Oprichtingen Oostende BV bezitten 500 aandelen voor totaal eigen vermogen € 150.000 → intrinsieke waarde € 300/aandeel. Nieuwe aandeelhouders schrijven in voor € 250/aandeel: € 100 naar kapitaal (fractiewaarde) + € 150 uitgiftepremie. Verhouding eigen vermogen / aandeel blijft consistent.",
       "grondslag": "WVV art. 7:177 + KB WVV",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV"},
-      "_provenance": {"inputs": [{"id": "CBN-2021-01-uitgiftepremie-0__sec_uitgiftepremie-is-geen-reserve-aanwending-van-de-uitgiftepre", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WVV"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2021-01-uitgiftepremie-0__sec_uitgiftepremie-is-geen-reserve-aanwending-van-de-uitgiftepre",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Geen reserve, wel beschermd kapitaal",
@@ -43,8 +74,19 @@
       "voorbeeld_inline": "Aurelia Holding NV heeft kapitaal € 1.000.000 en uitgiftepremies € 750.000. Voor een dividend-uitkering of inkoop eigen aandelen geldt: kapitaal + uitgiftepremie samen beschouwen als beschermd eigen vermogen voor de uitkeerbaarheidstoets.",
       "grondslag": "CBN 2021/01",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2021/01"},
-      "_provenance": {"inputs": [{"id": "CBN-2021-01-uitgiftepremie-0__sec_uitgiftepremie-is-geen-reserve-aanwending-van-de-uitgiftepre", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2021/01"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2021-01-uitgiftepremie-0__sec_uitgiftepremie-is-geen-reserve-aanwending-van-de-uitgiftepre",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Aanwending van de uitgiftepremie",
@@ -53,8 +95,19 @@
       "voorbeeld_inline": "Oprichtingen Oostende BV wil zijn kapitaal verhogen door incorporatie van uitgiftepremies. Boeking: Debet 11 Uitgiftepremies € 30.000 / Credit 100 Geplaatst kapitaal € 30.000. Geen geld verandert van eigenaar; alleen interne herstructurering van het eigen vermogen.",
       "grondslag": "CBN 2021/01",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2021/01"},
-      "_provenance": {"inputs": [{"id": "CBN-2021-01-uitgiftepremie-0__sec_uitgiftepremie-is-geen-reserve-aanwending-van-de-uitgiftepre", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2021/01"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2021-01-uitgiftepremie-0__sec_uitgiftepremie-is-geen-reserve-aanwending-van-de-uitgiftepre",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -62,16 +115,38 @@
       "aspect": "Fiscaal gelijkgesteld met kapitaal",
       "betekenis": "Voor fiscale doeleinden (notionele intrestaftrek tot 2023, VVPRbis, lage tarieven KMO's) wordt uitgiftepremie samen met kapitaal genomen als 'gestort kapitaal'. Belangrijk voor de berekening van de toepasselijke fiscale gunstregimes.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "advies", "short": "CBN 2021/01 + WIB92"},
-      "_provenance": {"inputs": [{"id": "CBN-2021-01-uitgiftepremie-0__sec_uitgiftepremie-is-geen-reserve-aanwending-van-de-uitgiftepre", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2021/01 + WIB92"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2021-01-uitgiftepremie-0__sec_uitgiftepremie-is-geen-reserve-aanwending-van-de-uitgiftepre",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Uitgiftepremie is GEEN beschikbare reserve. Wie ze uitkeert als 'gewoon' dividend zonder kapitaalverminderingsprocedure schendt de bescherming van het eigen vermogen.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2021/01"},
-      "_provenance": {"inputs": [{"id": "CBN-2021-01-uitgiftepremie-0__sec_uitgiftepremie-is-geen-reserve-aanwending-van-de-uitgiftepre", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2021/01"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2021-01-uitgiftepremie-0__sec_uitgiftepremie-is-geen-reserve-aanwending-van-de-uitgiftepre",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -82,7 +157,15 @@
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "eigen-middelen", "redenering": "Uitgiftepremie is een aparte rubriek (11) binnen eigen middelen."},
-    {"type": "vergelijkt-met", "target": "wettelijke-reserve", "redenering": "Beide niet vrij uitkeerbaar, maar verschillende rechtsgrondslag en aanwendingsregels."}
+    {
+      "type": "onderdeel-van",
+      "target": "eigen-middelen",
+      "redenering": "Uitgiftepremie is een aparte rubriek (11) binnen eigen middelen."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "wettelijke-reserve",
+      "redenering": "Beide niet vrij uitkeerbaar, maar verschillende rechtsgrondslag en aanwendingsregels."
+    }
   ]
 }

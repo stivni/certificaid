@@ -4,7 +4,9 @@
   "node_type": "actor",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.3.I.D"],
+  "linked_anchors": [
+    "1.3.I.D"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T12:00Z",
     "model": "claude-opus-4-7",
@@ -16,8 +18,19 @@
   "definitie": {
     "text": "De ondernemingsraad is een paritair orgaan (vertegenwoordigers werkgever + werknemers) in vennootschappen met gemiddeld minstens 100 werknemers. Hij krijgt jaarlijks een uitgebreide 'jaarinformatie' (sociaal-economische informatie) met financiële, economische en sociale gegevens van de onderneming.",
     "confidence": "inferred",
-    "source": {"type": "vakdoctrine", "short": "Belgisch arbeidsrecht — sociale dialoog"},
-    "_provenance": {"inputs": [{"id": "anchor-1.3.I.D", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Belgisch arbeidsrecht — sociale dialoog"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.3.I.D",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -27,8 +40,19 @@
       "voorbeeld_inline": "Bij Rotex Roeselare NV (250 werknemers): jaarinformatie OR vóór 31 maart 20X2 met financiële situatie, omzetspreiding, exportcijfers, investeringsplan.",
       "grondslag": "KB 27 november 1973 + paritaire akkoorden",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Belgisch arbeidsrecht"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.I.D", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Belgisch arbeidsrecht"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.I.D",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -37,11 +61,27 @@
       "betekenis": "De OR krijgt informatie en geeft advies; zij keurt niet de jaarrekening goed (dat doet de AV). Wel kunnen vakbonden via de OR vragen om uitleg bij gecijfertabellen.",
       "anker_slug": "1.3.I.D",
       "confidence": "inferred",
-      "source": {"type": "vakdoctrine", "short": "Belgisch arbeidsrecht"},
-      "_provenance": {"inputs": [{"id": "anchor-1.3.I.D", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Belgisch arbeidsrecht"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.3.I.D",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vergelijkt-met", "target": "algemene-vergadering-toezichtsfunctie", "redenering": "OR informeert/adviseert; AV beslist.", "confidence": "inferred"}
+    {
+      "type": "vergelijkt-met",
+      "target": "algemene-vergadering-toezichtsfunctie",
+      "redenering": "OR informeert/adviseert; AV beslist.",
+      "confidence": "inferred"
+    }
   ]
 }

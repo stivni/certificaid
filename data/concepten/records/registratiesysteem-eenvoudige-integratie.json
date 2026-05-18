@@ -4,22 +4,34 @@
   "node_type": "methode",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.IV.C", "1.8.IV"],
+  "linked_anchors": [
+    "1.8.IV.C",
+    "1.8.IV"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.IV.C",
-    "dekt_ook_anchors": ["1.8.IV"],
+    "dekt_ook_anchors": [
+      "1.8.IV"
+    ],
     "reviewed_by": null,
     "bron_gap": "Concept 'eenvoudige integratie' is gedocumenteerd in CBN-advies 3/3 voor tijdelijke verenigingen (joint-venture-context). Voor analytische boekhouding in algemene zin geldt het als vakdoctrine-extrapolatie."
   },
   "doel": {
     "text": "Bij eenvoudige integratie neemt elke deelnemer of elke onderneming in eigen boekhouding rechtstreeks zijn aandeel in de kosten en opbrengsten op — zonder aparte 'tussen-boekhouding'. In analytische context betekent het: kosten en opbrengsten worden meteen aan de kostendrager toegerekend zonder extra registratielaag.",
     "confidence": "grounded",
-    "source": {"type": "cbn", "short": "CBN-advies 3/3 — De eenvoudige integratie van kosten en opbrengsten (joint-venture-context, analoog gebruikt voor registratiesystemen)"},
+    "source": {
+      "type": "cbn",
+      "short": "CBN-advies 3/3 — De eenvoudige integratie van kosten en opbrengsten (joint-venture-context, analoog gebruikt voor registratiesystemen)"
+    },
     "_provenance": {
       "inputs": [
-        {"id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-eenvoudige-integratie-van-kosten-en-opbrengsten", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-eenvoudige-integratie-van-kosten-en-opbrengsten",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -31,10 +43,17 @@
       "voorbeeld_inline": "Yperse Werkplaats BV met eenvoudige integratie: de aankoopfactuur wol € 22.500 wordt onmiddellijk geboekt op kostencentrum Spinnerij (rekening 9300). Geen aparte voorraadboekhouding van wol per centrum.",
       "grondslag": "CBN 3/3 (analoog gebruik)",
       "confidence": "grounded",
-      "source": {"type": "cbn", "short": "CBN 3/3"},
+      "source": {
+        "type": "cbn",
+        "short": "CBN 3/3"
+      },
       "_provenance": {
         "inputs": [
-          {"id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-eenvoudige-integratie-van-kosten-en-opbrengsten", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-eenvoudige-integratie-van-kosten-en-opbrengsten",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
@@ -45,17 +64,38 @@
       "verschil": "Eenvoudig: direct toewijzen aan kostencentrum/-drager zonder pro-rata. Proportioneel: kosten en opbrengsten worden rubriek per rubriek pro-rata verdeeld over meerdere centra of partners.",
       "trigger": "Examen-vraag: 'past de onderneming pro-rata toe?' → nee = eenvoudig, ja = proportioneel.",
       "confidence": "grounded",
-      "source": {"type": "cbn", "short": "CBN 3/3"},
+      "source": {
+        "type": "cbn",
+        "short": "CBN 3/3"
+      },
       "_provenance": {
         "inputs": [
-          {"id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-eenvoudige-integratie-van-kosten-en-opbrengsten", "sha256": null, "version": "rag-v1"},
-          {"id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-proportionele-integratie-van-kosten-en-opbrengsten", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-eenvoudige-integratie-van-kosten-en-opbrengsten",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk__sec_de-proportionele-integratie-van-kosten-en-opbrengsten",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "rekeningenstelsel-analytisch", "redenering": "Eén van de inrichtingsopties.", "confidence": "inferred"},
-    {"type": "vergelijkt-met", "target": "registratiesysteem-proportionele-integratie", "redenering": "Tegenpool.", "confidence": "inferred"}
+    {
+      "type": "onderdeel-van",
+      "target": "rekeningenstelsel-analytisch",
+      "redenering": "Eén van de inrichtingsopties.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "registratiesysteem-proportionele-integratie",
+      "redenering": "Tegenpool.",
+      "confidence": "inferred"
+    }
   ]
 }

@@ -4,25 +4,46 @@
   "node_type": "fenomeen",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.1.II.J", "1.1.II.K"],
+  "linked_anchors": [
+    "1.1.II.J",
+    "1.1.II.K"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.J",
-    "dekt_ook_anchors": ["1.1.II.K"],
+    "dekt_ook_anchors": [
+      "1.1.II.K"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "**Verplichtingen** van de onderneming tot betaling van een vastgesteld bedrag aan een derde, gewaardeerd tegen nominale **terugbetalingswaarde**. Onderscheid op de balans naar resterende looptijd op balansdatum: **schulden op meer dan één jaar** (rubriek VIII, MAR klasse 17 — financiële schulden, handelsschulden LT, ontvangen vooruitbetalingen LT) en **schulden op ten hoogste één jaar** (rubriek IX, MAR klasse 42 — schulden op meer dan één jaar die binnen het jaar vervallen, 43 — financiële schulden KT, 44 — leveranciers, 45 — schulden uit belastingen/lonen/sociale lasten, 48 — andere).",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "MAR klasse 1 + 4; KB WVV art. 3:48"},
+    "source": {
+      "type": "wet",
+      "short": "MAR klasse 1 + 4; KB WVV art. 3:48"
+    },
     "references": [
-      {"type": "wet", "short": "MAR rubrieken 17, 42, 43, 44, 45, 48"}
+      {
+        "type": "wet",
+        "short": "MAR rubrieken 17, 42, 43, 44, 45, 48"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "MAR-ondernemingen__art_1", "sha256": null, "version": "rag-v1"},
-      {"id": "MAR-ondernemingen__art_4", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "MAR-ondernemingen__art_1",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "MAR-ondernemingen__art_4",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Uitgeverij Ukkel NV heeft op 31/12: hypothecaire lening 10 jaar — beginsaldo € 850.000, eindsaldo € 765.000 waarvan € 85.000 binnen het jaar vervalt. Boekhoudkundige presentatie: € 680.000 op rubriek VIII 'Schulden op meer dan één jaar' (rekening 173) en € 85.000 op rubriek IX 'Schulden op ten hoogste één jaar' (rekening 42). Daarnaast leveranciersschulden € 145.000 (44), BTW-schuld € 18.500 (4514), bezoldigingen € 32.000 (455).",
   "bouwstenen": [
@@ -33,8 +54,19 @@
       "voorbeeld_inline": "Uitgeverij Ukkel NV hypothecaire lening 10 jaar, jaarlijkse aflossing € 85.000. Op 31/12/20X1: nog 8 jaar te lopen, totaal € 765.000 schuld. Splitsing: € 85.000 op rekening 42 (vervalt in 20X2), € 680.000 op rekening 173 (langer dan jaar).",
       "grondslag": "KB WVV art. 3:48 + MAR",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "KB WVV art. 3:48"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_4", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "KB WVV art. 3:48"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Categorieën schulden in MAR",
@@ -43,8 +75,19 @@
       "voorbeeld_inline": "Naaiatelier Ninove BV op 31/12: leveranciersschulden € 145.000 (440), BTW te betalen € 18.500 (4514), bedrijfsvoorheffing € 4.200 (453), bezoldigingen € 32.000 (455), RSZ-bijdragen € 18.700 (454). Subtotaal rubriek IX = € 218.400.",
       "grondslag": "MAR klasse 1 + 4",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_4", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Waardering aan terugbetalingswaarde",
@@ -53,8 +96,19 @@
       "voorbeeld_inline": "Uitgeverij Ukkel NV geeft obligaties uit voor nominaal € 1.000.000 maar ontvangt slechts € 950.000 (uitgifte beneden pari, € 50.000 disagio). Schuldwaarde op balans = nominale € 1.000.000; disagio € 50.000 wordt geactiveerd onder oprichtingskosten 201 en afgeschreven over looptijd.",
       "grondslag": "KB WVV art. 3:48",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:48"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:48"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Niet-uitgesproken intresten op LT-schulden",
@@ -63,8 +117,19 @@
       "voorbeeld_inline": "Solaris Sint-Truiden BV ontvangt een renteloze lening van € 200.000 voor 5 jaar van een verbonden onderneming. Marktrente 4 % → contante waarde € 200.000 / (1,04)^5 = € 164.386. Verschil € 35.614 wordt over 5 jaar als intrestlast geboekt.",
       "grondslag": "KB WVV art. 3:48",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:48"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:48"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -73,27 +138,68 @@
       "betekenis": "Op balansdatum kunnen goederen of diensten al ontvangen zijn waar de factuur nog niet is binnengekomen. Deze 'te ontvangen facturen' worden geboekt op rekening 444 'Te ontvangen facturen' (subcategorie leveranciersschulden).",
       "herkenningspunt": "Examen: 'in december levering ontvangen voor € 25.000, factuur komt in januari' → boeking december op 444 (schuld) + 600 (kost), niet wachten op factuur.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "MAR rekening 444 + cut-off"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_4", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "MAR rekening 444 + cut-off"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "De splitsing LT/KT gebeurt elk jaar opnieuw — op basis van RESTERENDE looptijd op balansdatum, niet oorspronkelijke. Een 10-jarige lening met nog 8 maanden te lopen staat volledig in rubriek IX.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:48"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_4", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:48"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Voorzieningen (rubriek 16) ZIJN GEEN schulden. Schulden zijn vaststaande verplichtingen; voorzieningen zijn onzekere risico's/kosten. Onder bepaalde voorwaarden migreert een voorziening naar een schuld (zodra zeker en gefactureerd).",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:11 vs 3:48"},
-      "_provenance": {"inputs": [{"id": "MAR-ondernemingen__art_1", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:11 vs 3:48"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "MAR-ondernemingen__art_1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [],
   "edges": [
-    {"type": "vergelijkt-met", "target": "voorzieningen", "redenering": "Schulden = zeker; voorzieningen = onzeker — overgang mogelijk."},
-    {"type": "vereist-kennis-van", "target": "overlopende-rekeningen", "redenering": "Bij cut-off-verrichtingen worden te ontvangen facturen vs overlopende kosten correct gescheiden."}
+    {
+      "type": "vergelijkt-met",
+      "target": "voorzieningen",
+      "redenering": "Schulden = zeker; voorzieningen = onzeker — overgang mogelijk."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "overlopende-rekeningen",
+      "redenering": "Bij cut-off-verrichtingen worden te ontvangen facturen vs overlopende kosten correct gescheiden."
+    }
   ]
 }

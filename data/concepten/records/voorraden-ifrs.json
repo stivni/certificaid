@@ -4,32 +4,74 @@
   "node_type": "regel",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.5.V.E", "1.5.V"],
+  "linked_anchors": [
+    "1.5.V.E",
+    "1.5.V"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.5.V.E",
-    "dekt_ook_anchors": ["1.5.V"],
+    "dekt_ook_anchors": [
+      "1.5.V"
+    ],
     "reviewed_by": null
   },
   "main_rule": {
     "text": "IAS 2 — Voorraden regelt de boekhoudkundige verwerking van voorraden onder IFRS. **Voorraden** (alinea 6) zijn activa: (a) aangehouden voor verkoop in het kader van de normale bedrijfsvoering; (b) in het productieproces voor dergelijke verkoop; OF (c) grond-/hulpstoffen die tijdens het productieproces of de dienstverlening worden verbruikt. **Waarderingsregel**: voorraden worden gewaardeerd tegen de **laagste waarde** van **kostprijs** en **opbrengstwaarde** (net realisable value, NRV) — alinea 9. De **kostprijs** bestaat uit inkoopkosten + conversiekosten + andere kosten om voorraden op huidige locatie en in huidige staat te brengen (alinea 10). De **opbrengstwaarde** is de geschatte verkoopprijs in de normale bedrijfsvoering minus geschatte kosten van voltooiing en minus geschatte kosten om de verkoop te realiseren (alinea 6). Voor toerekening van kosten aan voorraadbestanddelen: **specifieke identificatie** voor niet-onderling-uitwisselbare voorraden of specifieke projecten (alinea 23); **FIFO** (eerst in, eerst uit) of **gewogen gemiddelde kostprijs** voor alle andere (alinea 25). **LIFO is verboden** onder IFRS — een belangrijk verschil met Belgisch GAAP.",
     "confidence": "grounded",
-    "source": {"type": "ifrs", "short": "IAS 2 alinea's 6, 9, 10, 25"},
+    "source": {
+      "type": "ifrs",
+      "short": "IAS 2 alinea's 6, 9, 10, 25"
+    },
     "references": [
-      {"type": "ifrs", "short": "IAS 2 alinea 6 (definities)"},
-      {"type": "ifrs", "short": "IAS 2 alinea 9 (laagste van kostprijs of NRV)"},
-      {"type": "ifrs", "short": "IAS 2 alinea 10-15 (kostprijscomponenten)"},
-      {"type": "ifrs", "short": "IAS 2 alinea 16-18 (uitgesloten kosten)"},
-      {"type": "ifrs", "short": "IAS 2 alinea 23-24 (specifieke identificatie)"},
-      {"type": "ifrs", "short": "IAS 2 alinea 25-27 (FIFO / gewogen gemiddelde)"},
-      {"type": "ifrs", "short": "IAS 2 alinea 28-33 (opbrengstwaarde — afschrijving + terugneming)"},
-      {"type": "ifrs", "short": "IAS 2 alinea 34-35 (opname als last)"}
+      {
+        "type": "ifrs",
+        "short": "IAS 2 alinea 6 (definities)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 2 alinea 9 (laagste van kostprijs of NRV)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 2 alinea 10-15 (kostprijscomponenten)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 2 alinea 16-18 (uitgesloten kosten)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 2 alinea 23-24 (specifieke identificatie)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 2 alinea 25-27 (FIFO / gewogen gemiddelde)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 2 alinea 28-33 (opbrengstwaarde — afschrijving + terugneming)"
+      },
+      {
+        "type": "ifrs",
+        "short": "IAS 2 alinea 34-35 (opname als last)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "IAS-2-voorraden__sec_waardering-van-voorraden", "sha256": null, "version": "rag-v1"},
-      {"id": "IAS-2-voorraden__sec_definities", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "IAS-2-voorraden__sec_waardering-van-voorraden",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "IAS-2-voorraden__sec_definities",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Zelena Bio NV's voorraden grondstoffen op 31 december 2026: ingrediënt X — 50.000 kg, kostprijs gewogen gemiddelde € 12,50/kg = € 625.000. Vervangingskostprijs op balansdatum € 11,80/kg (markt prijs gedaald). Maar verwacht gereed product blijft boven kostprijs verkoopbaar → géén afschrijving van grondstof tot NRV (alinea 32). Boekwaarde voorraad ingrediënt X = € 625.000.",
   "bouwstenen": [
@@ -40,8 +82,19 @@
       "voorbeeld_inline": "Zelena Bio's grondstof: aankoopprijs € 11,00/kg + transport vanuit Duitsland € 0,80/kg + invoerrechten € 0,30/kg − kwantumkorting 5% (€ 0,55/kg) = inkoopkost € 11,55/kg. Plus conversiekosten in productie € 4,50/kg → kostprijs gereed product € 16,05/kg.",
       "grondslag": "IAS 2 alinea 10-15",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 2 alinea 10-15"},
-      "_provenance": {"inputs": [{"id": "IAS-2-voorraden__sec_waardering-van-voorraden", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 2 alinea 10-15"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-2-voorraden__sec_waardering-van-voorraden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Verboden kosten — geen onderdeel kostprijs",
@@ -50,8 +103,19 @@
       "voorbeeld_inline": "Zelena Bio's chemische reactor heeft in 2026 een ongebruikelijke uitval gehad waardoor 8.000 kg ingrediënt verloren ging (kost € 92.400). Niét toevoegen aan voorraadkostprijs — direct als 'Exceptioneel productieverlies' in W&V boeken.",
       "grondslag": "IAS 2 alinea 16",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 2 alinea 16"},
-      "_provenance": {"inputs": [{"id": "IAS-2-voorraden__sec_waardering-van-voorraden", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 2 alinea 16"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-2-voorraden__sec_waardering-van-voorraden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Toerekeningsformules — geen LIFO",
@@ -60,8 +124,19 @@
       "voorbeeld_inline": "Zelena Bio mocht onder oude BE-GAAP (pre-2016) LIFO toepassen voor haar grondstoffen. Bij IFRS-overgang: omschakelen naar FIFO of gewogen gemiddelde. Verschil materieel — typisch enkele honderdduizenden euro's op een voorraad van € 600.000.",
       "grondslag": "IAS 2 alinea 25",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 2 alinea 25"},
-      "_provenance": {"inputs": [{"id": "IAS-2-voorraden__sec_waardering-van-voorraden", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 2 alinea 25"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-2-voorraden__sec_waardering-van-voorraden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Opbrengstwaarde-test — laagste-van",
@@ -70,8 +145,19 @@
       "voorbeeld_inline": "Naaiatelier Ninove BV (kleine productie-BV) heeft voorraad textiel met kostprijs € 85.000, NRV (na collectiewissel) € 62.000. Afschrijving van voorraad −€ 23.000, in W&V als 'Waardevermindering voorraad'. Boekwaarde 31 december = € 62.000.",
       "grondslag": "IAS 2 alinea 9 + 28-33",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 2 alinea 9 + 28-33"},
-      "_provenance": {"inputs": [{"id": "IAS-2-voorraden__sec_waardering-van-voorraden", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 2 alinea 9 + 28-33"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-2-voorraden__sec_waardering-van-voorraden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Opname als last bij verkoop",
@@ -80,8 +166,19 @@
       "voorbeeld_inline": "Zelena Bio verkoopt op 15 september 2026 doseflesjes voor € 394.400 opbrengst. Boekwaarde voorraad doseflesjes € 200.000 → debet 'Kostprijs voorraad verkocht' € 200.000, credit 'Voorraad' € 200.000. Brutomarge boekjaar Q3 = € 194.400.",
       "grondslag": "IAS 2 alinea 34",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 2 alinea 34"},
-      "_provenance": {"inputs": [{"id": "IAS-2-voorraden__sec_opname-als-last", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 2 alinea 34"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-2-voorraden__sec_opname-als-last",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "berekeningsmethode": [
@@ -93,9 +190,21 @@
           "naam": "Gewogen gemiddelde kostprijs per eenheid",
           "wiskunde": "gewogen gemiddelde = (totale kostprijs begin + totale aankoopkosten periode) / (aantal eenheden begin + aantal eenheden gekocht)",
           "variabelen": [
-            {"symbool": "totale kostprijs begin", "betekenis": "Boekwaarde voorraad bij aanvang periode", "eenheid": "EUR"},
-            {"symbool": "totale aankoopkosten periode", "betekenis": "Som van alle aankopen tijdens periode", "eenheid": "EUR"},
-            {"symbool": "aantal eenheden", "betekenis": "Aantal voorraad-eenheden", "eenheid": "kg/stuks"}
+            {
+              "symbool": "totale kostprijs begin",
+              "betekenis": "Boekwaarde voorraad bij aanvang periode",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "totale aankoopkosten periode",
+              "betekenis": "Som van alle aankopen tijdens periode",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "aantal eenheden",
+              "betekenis": "Aantal voorraad-eenheden",
+              "eenheid": "kg/stuks"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "Zelena Bio ingrediënt X — beginvoorraad 30.000 kg × € 12,00 = € 360.000; aankoop januari 20.000 kg × € 13,00 = € 260.000; aankoop juni 25.000 kg × € 12,50 = € 312.500",
@@ -104,7 +213,15 @@
           }
         }
       ],
-      "_provenance": {"inputs": [{"id": "IAS-2-voorraden__sec_waardering-van-voorraden", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-2-voorraden__sec_waardering-van-voorraden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -112,27 +229,68 @@
       "vergelijking_met": "voorraden",
       "verschil": "Belgisch GAAP (KB WVV) staat **drie methoden** toe voor toerekening: FIFO, LIFO, gewogen gemiddelde. IFRS (IAS 2) staat alleen FIFO of gewogen gemiddelde toe — **LIFO verboden**. Bij eerste IFRS-toepassing moeten LIFO-gebruikers herrekenen.",
       "trigger": "Examen: 'Onderneming gebruikt LIFO voor voorraadwaardering' — onder IFRS NIET toegelaten; onder BE-GAAP wel.",
-      "_provenance": {"inputs": [{"id": "IAS-2-voorraden__sec_waardering-van-voorraden", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-2-voorraden__sec_waardering-van-voorraden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Bij grondstoffen geldt: NIET afschrijven tot NRV als het verwachte gereed product (waarin de grondstof verwerkt wordt) tegen of boven kostprijs verkocht zal worden (alinea 32). De vervangingskostprijs is dan een proxy voor NRV alleen als ook het gereed product onder kostprijs zou worden verkocht.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 2 alinea 32"},
-      "_provenance": {"inputs": [{"id": "IAS-2-voorraden__sec_waardering-van-voorraden", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 2 alinea 32"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-2-voorraden__sec_waardering-van-voorraden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Bij abnormaal lage productie blijft de toerekening van vaste indirecte productiekosten op het 'normale capaciteit'-niveau (alinea 13). De niet-toegerekende overhead wordt direct als last opgenomen, NIET in de voorraadkostprijs verwerkt.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IAS 2 alinea 13"},
-      "_provenance": {"inputs": [{"id": "IAS-2-voorraden__sec_waardering-van-voorraden", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IAS 2 alinea 13"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IAS-2-voorraden__sec_waardering-van-voorraden",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Onderhanden projecten in opdracht van derden (oude IAS 11) vallen sinds 2018 onder **IFRS 15** — niet meer onder IAS 2 of een aparte standaard. Opbrengsten over periode opgenomen volgens IFRS 15 alinea 35-37.",
       "confidence": "grounded",
-      "source": {"type": "ifrs", "short": "IFRS 15 (vervanging IAS 11)"},
-      "_provenance": {"inputs": [{"id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "ifrs",
+        "short": "IFRS 15 (vervanging IAS 11)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "IFRS-15-opbrengsten-van-contracten-met-klanten__sec_opname",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

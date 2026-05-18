@@ -4,12 +4,23 @@
   "node_type": "synthese",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.III", "1.8.III.A", "1.8.III.B", "1.8.III.C", "1.8.III.F"],
+  "linked_anchors": [
+    "1.8.III",
+    "1.8.III.A",
+    "1.8.III.B",
+    "1.8.III.C",
+    "1.8.III.F"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.III",
-    "dekt_ook_anchors": ["1.8.III.A", "1.8.III.B", "1.8.III.C", "1.8.III.F"],
+    "dekt_ook_anchors": [
+      "1.8.III.A",
+      "1.8.III.B",
+      "1.8.III.C",
+      "1.8.III.F"
+    ],
     "reviewed_by": null
   },
   "gebaseerd_op_concepten": [
@@ -25,24 +36,53 @@
       "aspect": "Combinatie in praktijk",
       "betekenis": "Veel ondernemingen combineren: full costing voor jaarrekening + direct costing voor interne sturing + standaardkosten voor budgetopvolging + ABC voor periodieke product-portfolio-analyse. Yperse Werkplaats BV kan bijvoorbeeld jaarlijks zijn jaarrekening sluiten met full costing en intern maandelijks direct-costing-rapporten draaien voor commercieel team.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "aspect": "Toelichtingsverplichting",
       "betekenis": "De gekozen voorraadwaarderingsmethode (full of direct costing) moet in de toelichting bij de jaarrekening worden vermeld; wijziging vereist motivatie en kan vergelijkbaarheid met voorgaande jaarrekening aantasten (CBN 2012/15).",
       "confidence": "grounded",
-      "source": {"type": "cbn", "short": "CBN 2012/15"},
+      "source": {
+        "type": "cbn",
+        "short": "CBN 2012/15"
+      },
       "_provenance": {
         "inputs": [
-          {"id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
   ],
   "edges": [
-    {"type": "bevat", "target": "volledige-kostencalculatie", "redenering": "Een van de vergeleken methodes.", "confidence": "inferred"},
-    {"type": "bevat", "target": "direct-costing", "redenering": "Een van de vergeleken methodes.", "confidence": "inferred"},
-    {"type": "bevat", "target": "voorbepaalde-kosten", "redenering": "Een van de vergeleken methodes.", "confidence": "inferred"},
-    {"type": "bevat", "target": "abc-methode", "redenering": "Een van de vergeleken methodes.", "confidence": "inferred"}
+    {
+      "type": "bevat",
+      "target": "volledige-kostencalculatie",
+      "redenering": "Een van de vergeleken methodes.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "bevat",
+      "target": "direct-costing",
+      "redenering": "Een van de vergeleken methodes.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "bevat",
+      "target": "voorbepaalde-kosten",
+      "redenering": "Een van de vergeleken methodes.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "bevat",
+      "target": "abc-methode",
+      "redenering": "Een van de vergeleken methodes.",
+      "confidence": "inferred"
+    }
   ]
 }

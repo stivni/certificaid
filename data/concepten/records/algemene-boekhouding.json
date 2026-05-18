@@ -4,22 +4,34 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.I", "1.8.IV.A"],
+  "linked_anchors": [
+    "1.8.I",
+    "1.8.IV.A"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.IV.A",
-    "dekt_ook_anchors": ["1.8.I"],
+    "dekt_ook_anchors": [
+      "1.8.I"
+    ],
     "reviewed_by": null,
     "extractie_opmerking": "Dit concept is primair PO 1.1-stof. Stub-record hier omdat 1.8 (analytische boekhouding) systematisch verwijst naar de algemene boekhouding als tegenpool. Volledige uitwerking hoort in PO 1.1 records."
   },
   "definitie": {
     "text": "De algemene boekhouding is het wettelijk verplichte registratiesysteem waarin alle financiële transacties van de onderneming chronologisch en systematisch worden vastgelegd volgens het Minimum Algemeen Rekeningstelsel (KB 21.10.2018, Bijlage 1). Output: jaarrekening (balans, resultatenrekening, toelichting) voor externe verslaggeving. Organiseert kosten en opbrengsten in klasse 6 en 7 per kostensoort (60, 61, 62, ...).",
     "confidence": "grounded",
-    "source": {"type": "kb", "short": "KB 21.10.2018 (boekhoudkundige verplichtingen) — MAR Bijlage 1"},
+    "source": {
+      "type": "kb",
+      "short": "KB 21.10.2018 (boekhoudkundige verplichtingen) — MAR Bijlage 1"
+    },
     "_provenance": {
       "inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_beginselen-van-een-regelmatige-boekhouding_part1", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_beginselen-van-een-regelmatige-boekhouding_part1",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -29,11 +41,21 @@
       "verschil": "Algemene boekhouding: wettelijk verplicht, kostensoort-georiënteerd, externe verslaggeving. Analytische boekhouding: vrijwillig, kostencentrum/-drager-georiënteerd, interne sturing.",
       "trigger": "Examen-vraag: extern of intern doel?",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB 21.10.2018"},
-      "_provenance": {"inputs": []}
+      "source": {
+        "type": "kb",
+        "short": "KB 21.10.2018"
+      },
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "vergelijkt-met", "target": "analytische-boekhouding", "redenering": "Tegenpool / parallel systeem.", "confidence": "inferred"}
+    {
+      "type": "vergelijkt-met",
+      "target": "analytische-boekhouding",
+      "redenering": "Tegenpool / parallel systeem.",
+      "confidence": "inferred"
+    }
   ]
 }

@@ -4,20 +4,32 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.VI", "1.8.VI.A", "1.8.VI.B"],
+  "linked_anchors": [
+    "1.8.VI",
+    "1.8.VI.A",
+    "1.8.VI.B"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.VI",
-    "dekt_ook_anchors": ["1.8.VI.A", "1.8.VI.B"],
+    "dekt_ook_anchors": [
+      "1.8.VI.A",
+      "1.8.VI.B"
+    ],
     "reviewed_by": null,
     "bron_gap": "Vakdoctrine"
   },
   "definitie": {
     "text": "De budgetboekhouding is het deel van de analytische boekhouding waarin de goedgekeurde budgetbedragen worden opgenomen, zodat realisaties rechtstreeks tegen budgetcijfers kunnen worden vergeleken. Typisch ondergebracht in klasse 9 van het MAR (vaak rekeningen 90 'Niet-uitgevoerde verbintenissen' / budgetrekeningen).",
     "confidence": "inferred-common-knowledge",
-    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
-    "_provenance": {"inputs": []}
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
   },
   "bouwstenen": [
     {
@@ -26,7 +38,9 @@
       "waarom": "Maakt vergelijking op elk moment in het jaar mogelijk.",
       "voorbeeld_inline": "Yperse Werkplaats BV boekt eind december 20X1 het Confectie-jaarbudget van € 950.000 op rekening 9030 'Budget Confectie 20X2'. Elke maand wordt € 79.167 'verbruikt' bij realisatie-boeking.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "titel": "Aansluiting met realisatie",
@@ -34,12 +48,29 @@
       "waarom": "Automatische verschillen-detectie zonder maandelijkse handmatige berekening.",
       "voorbeeld_inline": "Yperse Confectie maart 20X2: budget € 79.167, realisatie € 92.000. Verschil € 12.833 ongunstig op rekening 9810 'Verschil Confectie'. Splitsing naar prijs/hoeveelheid gebeurt apart.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "budgetbeheer", "redenering": "Boekhoudkundige uitvoering.", "confidence": "inferred"},
-    {"type": "vereist-kennis-van", "target": "rekeningenstelsel-analytisch", "redenering": "Klasse 9 als locatie.", "confidence": "inferred"},
-    {"type": "vereist-kennis-van", "target": "verschillenboekhouding", "redenering": "Verschillen-detectie bouwt op budgetboekhouding.", "confidence": "inferred"}
+    {
+      "type": "onderdeel-van",
+      "target": "budgetbeheer",
+      "redenering": "Boekhoudkundige uitvoering.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "rekeningenstelsel-analytisch",
+      "redenering": "Klasse 9 als locatie.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "verschillenboekhouding",
+      "redenering": "Verschillen-detectie bouwt op budgetboekhouding.",
+      "confidence": "inferred"
+    }
   ]
 }

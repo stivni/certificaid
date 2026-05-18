@@ -22,16 +22,31 @@
     "extractor_run": "synthese-pilot-2026-05-16-batch-2",
     "model": "claude-opus-4-7-handmatig-pilot",
     "anchor_id": "1.4.I.B",
-    "dekt_ook_anchors": ["1.4.I.G", "1.4.taak.1"]
+    "dekt_ook_anchors": [
+      "1.4.I.G",
+      "1.4.taak.1"
+    ]
   },
   "inleiding": {
     "text": "De vraag 'moet mijn cliënt een geconsolideerde jaarrekening opmaken' wordt nooit door één criterium beantwoord. Vijf elementen werken samen: bestaat er controle? heeft de moeder rechtspersoonlijkheid? overschrijdt de groep de groottecriteria? geldt er een vrijstelling? is de groep een consortium? Dit synthese-record volgt de wettelijke beslissingsvolgorde en koppelt elke vraag aan het concept-record dat het beantwoordt.",
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
-        {"id": "WVV__art_3_22", "sha256": null, "version": "rag-v1"},
-        {"id": "WVV__art_3_24", "sha256": null, "version": "rag-v1"},
-        {"id": "WVV__art_1_26", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "WVV__art_3_22",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_3_24",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_1_26",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -40,9 +55,21 @@
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
-        {"id": "WVV__art_3_22", "sha256": null, "version": "rag-v1"},
-        {"id": "WVV__art_1_26", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-WVV-2019__art_3_96", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "WVV__art_3_22",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_1_26",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_96",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -51,10 +78,26 @@
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
-        {"id": "WVV__art_3_22", "sha256": null, "version": "rag-v1"},
-        {"id": "WVV__art_3_24", "sha256": null, "version": "rag-v1"},
-        {"id": "WVV__art_1_26", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-WVV-2019__art_3_96", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "WVV__art_3_22",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_3_24",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WVV__art_1_26",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_96",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },

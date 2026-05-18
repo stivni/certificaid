@@ -4,27 +4,50 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.IV.D", "1.2.IV"],
+  "linked_anchors": [
+    "1.2.IV.D",
+    "1.2.IV"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.IV.D",
-    "dekt_ook_anchors": ["1.2.IV"],
+    "dekt_ook_anchors": [
+      "1.2.IV"
+    ],
     "reviewed_by": null,
     "cross_po_overlap": "Sterke overlap met [[bestuursverslag]] (PO 1.3-record, 1.3.I.E + 1.3.I.D). 'Jaarverslag' is de WVV-term; 'bestuursverslag' is de richtlijn-term + analyse-perspectief PO 1.3. Aanbevolen merge in volgende pass: behoud één record met beide naamvarianten."
   },
   "definitie": {
     "text": "Het jaarverslag (ook 'bestuursverslag') is een toelichtend document dat het bestuursorgaan jaarlijks opstelt naast de jaarrekening. Het geeft een commentaar op de bedrijfsresultaten, de financiële positie, de belangrijke risico's en onzekerheden, en bevat niet-financiële informatie zoals milieubeleid en personeelsbeleid. Verplicht voor grote vennootschappen; vrijgesteld voor kleine en microvennootschappen.",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "WVV art. 3:32 (jaarverslag)"},
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 3:32 (jaarverslag)"
+    },
     "references": [
-      {"type": "wet", "short": "WVV art. 3:32 (verplichting + inhoud)"},
-      {"type": "wet", "short": "WVV art. 3:6 (vrijstelling kleine vennootschappen)"},
-      {"type": "richtlijn", "short": "Richtlijn 2014/95/EU (niet-financiële informatie)"}
+      {
+        "type": "wet",
+        "short": "WVV art. 3:32 (verplichting + inhoud)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 3:6 (vrijstelling kleine vennootschappen)"
+      },
+      {
+        "type": "richtlijn",
+        "short": "Richtlijn 2014/95/EU (niet-financiële informatie)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-2019__art_3_82",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Rotex Roeselare NV (grote NV) moet samen met haar jaarrekening een jaarverslag opstellen — met o.a. commentaar bij de cijfers, vooruitzichten 2025, risico's (cyberveiligheid, energieprijzen), en informatie over personeelsdiversiteit.",
   "bouwstenen": [
@@ -35,10 +58,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV's jaarverslag 2024 vermeldt: 'Omzet daalde 8% door grondstoffen-tekort; we verwachten herstel in Q3 2025 dankzij nieuwe leverancier.'",
       "grondslag": "WVV art. 3:32, § 2-3",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV art. 3:32"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 3:32"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Vrijstelling voor kleine en micro",
@@ -47,10 +79,19 @@
       "voorbeeld_inline": "Meubelzaak Mertens BV (klein) → geen jaarverslag; vermeldingen die anders in het jaarverslag stonden (bv. 'eigen aandelen') komen in de toelichting.",
       "grondslag": "WVV art. 3:6, § 2",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV art. 3:6 § 2"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 3:6 § 2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Niet-financiële verklaring (CSRD-context)",
@@ -59,10 +100,19 @@
       "voorbeeld_inline": "Een Belgische beursgenoteerde onderneming met > 500 werknemers moet vanaf jaarrekening 2024 een CSRD-conforme duurzaamheidsverklaring in haar jaarverslag opnemen.",
       "grondslag": "Richtlijn 2022/2464/EU (CSRD); omzetting in WVV",
       "confidence": "inferred",
-      "source": {"type": "richtlijn", "short": "Richtlijn 2022/2464/EU (CSRD)"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "richtlijn",
+        "short": "Richtlijn 2022/2464/EU (CSRD)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -71,20 +121,38 @@
       "betekenis": "Jaarrekening = cijfers (balans + RR + toelichting). Jaarverslag = commentaar van het bestuur op die cijfers + bijkomende informatie. Beide samen vormen de 'financiële verslaggeving'. Bij de algemene vergadering wordt zowel de jaarrekening (ter goedkeuring) als het jaarverslag (ter kennisname) voorgelegd.",
       "herkenningspunt": "Examenvraag 'wat moet een grote vennootschap publiceren?' → jaarrekening + jaarverslag + verslag commissaris.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV art. 3:32 + 3:10"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 3:32 + 3:10"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Het jaarverslag is geen ad-libitum-document — vijf elementen zijn wettelijk verplicht (WVV art. 3:32). Een jaarverslag met enkel 'we zijn tevreden over de resultaten' is onvolledig en kan leiden tot aansprakelijkheid van het bestuur.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV art. 3:32"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 3:32"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -92,9 +160,15 @@
       "vergelijking_met": "geconsolideerd-jaarverslag",
       "verschil": "Jaarverslag = bij de enkelvoudige jaarrekening (één vennootschap). Geconsolideerd jaarverslag = bij de geconsolideerde jaarrekening (groep). Inhoudelijk vergelijkbaar maar groepsbreed perspectief.",
       "trigger": "Vraag over individuele vennootschap → jaarverslag (3:32). Vraag over groep → geconsolideerd jaarverslag (3:34).",
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
-      ]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_82",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

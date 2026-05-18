@@ -4,26 +4,49 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.V.A", "1.2.V"],
+  "linked_anchors": [
+    "1.2.V.A",
+    "1.2.V"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.V.A",
-    "dekt_ook_anchors": ["1.2.V"],
+    "dekt_ook_anchors": [
+      "1.2.V"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Naast de algemene boekhoudbeginselen (regelmatigheid, volledigheid, getrouw beeld) gelden aanvullende beginselen die specifiek de waardering en de presentatie sturen. Vier centrale beginselen: voorzichtigheid, oprechtheid, continuïteit en consistentie. Ze worden door KB-WVV art. 3:6 en 3:35 e.v. opgelegd en sturen de praktische toepassing bij twijfelgevallen.",
     "confidence": "grounded",
-    "source": {"type": "kb", "short": "KB-WVV art. 3:6 + 3:35"},
+    "source": {
+      "type": "kb",
+      "short": "KB-WVV art. 3:6 + 3:35"
+    },
     "references": [
-      {"type": "kb", "short": "KB-WVV art. 3:6 (bestendigheid + voorzichtigheid)"},
-      {"type": "kb", "short": "KB-WVV art. 3:35 (continuïteit + waardering)"},
-      {"type": "advies", "short": "CBN-advies 174/1"}
+      {
+        "type": "kb",
+        "short": "KB-WVV art. 3:6 (bestendigheid + voorzichtigheid)"
+      },
+      {
+        "type": "kb",
+        "short": "KB-WVV art. 3:35 (continuïteit + waardering)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN-advies 174/1"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Naaiatelier Ninove BV moet bij elke jaarafsluiting toetsen aan alle vier beginselen: voorraad waarderen volgens FIFO (consistent met vorige jaren), bij dalende grondstofprijzen voorzichtig waardevermindering boeken, balans presenteren onder going-concern-veronderstelling, en de cijfers oprecht weergeven zonder vertekening.",
   "bouwstenen": [
@@ -34,10 +57,19 @@
       "voorbeeld_inline": "Solaris Sint-Truiden BV heeft effecten met aanschaffingswaarde € 100.000; beurskoers daalt naar € 75.000 → waardevermindering € 25.000 boeken (voorzichtigheid). Beurskoers stijgt later naar € 130.000 → geen meerwaarde-boeking (geen realisatie).",
       "grondslag": "KB-WVV art. 3:6 + 3:66",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV art. 3:6"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV art. 3:6"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Oprechtheid (honest presentation)",
@@ -46,10 +78,19 @@
       "voorbeeld_inline": "Aurelia Holding NV mag een verkoop-met-terugkoop niet als gewone verkoop boeken — substance: financiering, niet verkoop.",
       "grondslag": "KB-WVV art. 3:1; algemeen rechtsbeginsel",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV art. 3:1"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV art. 3:1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Continuïteit (going concern)",
@@ -58,10 +99,19 @@
       "voorbeeld_inline": "Verffabriek Veurne BV in vereffening → continuïteit doorbroken → activa op realisatiewaarde herwaarderen, niet meer op going-concern-basis.",
       "grondslag": "KB-WVV art. 3:35",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV art. 3:35"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV art. 3:35"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Consistentie (bestendigheid)",
@@ -70,10 +120,19 @@
       "voorbeeld_inline": "Naaiatelier Ninove BV waarderen voorraad altijd FIFO → wisselen naar gewogen gemiddelde → motivering + impact in toelichting.",
       "grondslag": "KB-WVV art. 3:6",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV art. 3:6"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV art. 3:6"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -82,10 +141,19 @@
       "betekenis": "Voorzichtigheid versus oprechtheid: te voorzichtig wordt onoprecht. Continuïteit versus voorzichtigheid: bij twijfel over going concern volgt voorzichtigheid (afwaarderen). Consistentie versus voorzichtigheid: een methode handhaven die niet meer voorzichtig genoeg is, mag niet — wijziging gemotiveerd toelaten.",
       "herkenningspunt": "Examen-scenario met conflicterende beginselen → identificeer welke voorrang heeft in context.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "kb", "short": "KB-WVV + CBN-advies 174/1"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV + CBN-advies 174/1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

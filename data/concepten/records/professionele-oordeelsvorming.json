@@ -4,19 +4,37 @@
   "node_type": "beginsel",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.II", "1.6.III", "1.6.IV"],
+  "linked_anchors": [
+    "1.6.II",
+    "1.6.III",
+    "1.6.IV"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.II",
-    "dekt_ook_anchors": ["1.6.III", "1.6.IV"],
+    "dekt_ook_anchors": [
+      "1.6.III",
+      "1.6.IV"
+    ],
     "reviewed_by": null
   },
   "main_rule": {
     "text": "Professionele oordeelsvorming is het toepassen van relevante training, kennis en ervaring — in de context van de geldende controle-, verslaggevings- en ethische normen — bij het maken van weloverwogen keuzes over de handelwijzen die passend zijn in de omstandigheden van de opdracht. Het is wat de auditor doet wanneer de norm de keuze niet helemaal voorschrijft.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1"},
-    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Sofie Janssens moet beslissen of zij voor Rotex' voorraadtelling een externe deskundige inschakelt (geschat materiaal) of zelf samen met haar team de waardering uitvoert. De KMO-controlenorm geeft geen automatisch antwoord — zij past haar professionele oordeelsvorming toe en kiest voor een interne uitvoering met externe ondersteuning op 2 specifieke items.",
   "in_praktijk": [
@@ -24,11 +42,26 @@
       "aspect": "Te documenteren",
       "betekenis": "Significante professionele oordeelsvormingen worden in het controledossier vastgelegd: welke alternatieven zijn afgewogen, welke argumenten doorslag gaven, welke conclusies werden getrokken. Een ervaren confrater moet later de redenering kunnen reconstrueren.",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §44"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_2-2-4-documentatie", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §44"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_2-2-4-documentatie",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vergelijkt-met", "target": "professioneel-kritische-instelling", "redenering": "Twee verwante plichten: 'kritisch zijn' vs. 'oordelen waar de norm zwijgt'."}
+    {
+      "type": "vergelijkt-met",
+      "target": "professioneel-kritische-instelling",
+      "redenering": "Twee verwante plichten: 'kritisch zijn' vs. 'oordelen waar de norm zwijgt'."
+    }
   ]
 }

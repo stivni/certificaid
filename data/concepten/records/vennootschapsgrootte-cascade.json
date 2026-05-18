@@ -26,17 +26,39 @@
     "extractor_run": "verify-synthese-po-1.2-2026-05-16T16:00Z",
     "model": "claude-opus-4-7-verify-pass",
     "anchor_id": "1.2.IV.B",
-    "dekt_ook_anchors": ["1.2.IV.C", "1.2.IV.D", "1.2.IV.E", "1.2.IV.F", "1.2.IV"]
+    "dekt_ook_anchors": [
+      "1.2.IV.C",
+      "1.2.IV.D",
+      "1.2.IV.E",
+      "1.2.IV.F",
+      "1.2.IV"
+    ]
   },
   "inleiding": {
     "text": "De Belgische wetgever koppelt de jaarrekeningverplichtingen aan de omvang van de vennootschap volgens drie groottecategorieën: micro, klein en groot. De drempels uit WVV art. 1:24 en 1:25 (personeelsbezetting, jaaromzet, balanstotaal) bepalen niet alleen welk schema gebruikt mag worden, maar cascaderen door naar zes andere verplichtingen: jaarverslag, commissaris, sociale balans, openbaarmaking, audit-comité, en CSRD-rapportering. Eén klassering = zes gevolgen. Dit synthese-record toont de cascade in één tabel en geeft de beslisboom om snel van cijfers naar verplichtingen te gaan.",
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
-        {"id": "anchor-1.2.IV.B", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-WVV-2019__art_3_104", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "anchor-1.2.IV.B",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_82",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_104",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -45,8 +67,16 @@
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
-        {"id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-WVV-2019__art_3_82", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_82",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -55,8 +85,16 @@
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
-        {"id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2017-10-groottecriteria-artikel-15-w-venn-verbonden__sec_algemeen", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van__sec_definitie-van-kleine-vennootschappen-en-microvennootschappen",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2017-10-groottecriteria-artikel-15-w-venn-verbonden__sec_algemeen",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },

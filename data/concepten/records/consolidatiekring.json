@@ -71,18 +71,47 @@
       "short": "KB WVV art. 3:96 (algemeen)"
     },
     "references": [
-      {"type": "kb", "short": "KB WVV art. 3:96"},
-      {"type": "kb", "short": "KB WVV art. 3:97 (facultatieve uitsluiting)"},
-      {"type": "kb", "short": "KB WVV art. 3:98 (uitsluiting controle in feite + getrouwe beeld)"},
-      {"type": "kb", "short": "KB WVV art. 3:99"},
-      {"type": "kb", "short": "KB WVV art. 3:100 (vermogensmutatie voor uitgesloten dochters)"},
-      {"type": "advies", "short": "CBN 2022/09 — Consolidatiekring"},
-      {"type": "advies", "short": "CBN 2011/5 — Interpretatie uitsluitingsgrond"}
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:96"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:97 (facultatieve uitsluiting)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:98 (uitsluiting controle in feite + getrouwe beeld)"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:99"
+      },
+      {
+        "type": "kb",
+        "short": "KB WVV art. 3:100 (vermogensmutatie voor uitgesloten dochters)"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2022/09 — Consolidatiekring"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2011/5 — Interpretatie uitsluitingsgrond"
+      }
     ],
     "_provenance": {
       "inputs": [
-        {"id": "KB-WVV-2019__art_3_75", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiekring", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "KB-WVV-2019__art_3_75",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiekring",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     },
     "_corrected_from": [
@@ -102,12 +131,35 @@
       "voorbeeld_inline": "Aurelia Holding NV controleert Brugse Brouwerij BV en Bouwwerf Beerse BV → de kring bestaat uit Aurelia + Brugse + Bouwwerf Beerse.",
       "grondslag": "KB WVV art. 3:96",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:96"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_75", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:96"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_75",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "wat", "from": "De moedervennootschap en al haar dochterondernemingen worden in de consolidatie opgenomen.", "reason": "Stagiair-toon: 'moedervennootschap' → 'moeder'; 'dochterondernemingen' → 'dochters' (regel 6)."},
-        {"field": "waarom", "from": null, "reason": "Rationale toegevoegd (regel 11)."},
-        {"field": "voorbeeld_inline", "from": null, "reason": "Cast-voorbeeld toegevoegd (regel 11)."}
+        {
+          "field": "wat",
+          "from": "De moedervennootschap en al haar dochterondernemingen worden in de consolidatie opgenomen.",
+          "reason": "Stagiair-toon: 'moedervennootschap' → 'moeder'; 'dochterondernemingen' → 'dochters' (regel 6)."
+        },
+        {
+          "field": "waarom",
+          "from": null,
+          "reason": "Rationale toegevoegd (regel 11)."
+        },
+        {
+          "field": "voorbeeld_inline",
+          "from": null,
+          "reason": "Cast-voorbeeld toegevoegd (regel 11)."
+        }
       ]
     },
     {
@@ -117,12 +169,35 @@
       "voorbeeld_inline": "Aurelia Holding NV koopt Gent Garantie BV met het oog op doorverkoop binnen 6 maanden → kan facultatief uitgesloten worden onder grond 4, mits in de toelichting gemotiveerd.",
       "grondslag": "KB WVV art. 3:97",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:97"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_76", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:97"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_76",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "wat", "from": "Een dochter mág buiten de consolidatie worden gelaten in vier gevallen: (1) van te verwaarlozen betekenis; (2) ingrijpende en duurzame beperkingen op de uitoefening van de controlebevoegdheid of de aanwending van het vermogen; (3) gegevens niet zonder onevenredige kosten/vertraging beschikbaar; (4) aandelen uitsluitend met het oog op latere vervreemding gehouden. Gebruik moet in de toelichting worden gemotiveerd.", "reason": "Stagiair-toon: 'aanwending van het vermogen' → 'gebruik van het vermogen'; 'latere vervreemding' → 'later weer verkopen' (regel 6)."},
-        {"field": "waarom", "from": null, "reason": "Rationale toegevoegd."},
-        {"field": "voorbeeld_inline", "from": null, "reason": "Cast-voorbeeld toegevoegd (Gent Garantie)."}
+        {
+          "field": "wat",
+          "from": "Een dochter mág buiten de consolidatie worden gelaten in vier gevallen: (1) van te verwaarlozen betekenis; (2) ingrijpende en duurzame beperkingen op de uitoefening van de controlebevoegdheid of de aanwending van het vermogen; (3) gegevens niet zonder onevenredige kosten/vertraging beschikbaar; (4) aandelen uitsluitend met het oog op latere vervreemding gehouden. Gebruik moet in de toelichting worden gemotiveerd.",
+          "reason": "Stagiair-toon: 'aanwending van het vermogen' → 'gebruik van het vermogen'; 'latere vervreemding' → 'later weer verkopen' (regel 6)."
+        },
+        {
+          "field": "waarom",
+          "from": null,
+          "reason": "Rationale toegevoegd."
+        },
+        {
+          "field": "voorbeeld_inline",
+          "from": null,
+          "reason": "Cast-voorbeeld toegevoegd (Gent Garantie)."
+        }
       ]
     },
     {
@@ -132,12 +207,35 @@
       "voorbeeld_inline": "Aurelia Holding NV heeft 35 % van Brugse Brouwerij BV en presideert sinds twee boekjaren de AV; volgend boekjaar dreigt een tegenkamp van Robert Vandenberghe (40 %) → controle in feite is onzeker → uitsluiting verplicht.",
       "grondslag": "KB WVV art. 3:98",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:98"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_77", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:98"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_77",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "wat", "from": "Een dochter waarover slechts controle in feite bestaat wordt buiten de consolidatie gelaten indien opneming zou indruisen tegen het getrouwe beeld van art. 3:105 KB WVV. Vermelding en motivering in de toelichting.", "reason": "Stagiair-toon: 'zou indruisen tegen het getrouwe beeld' → 'zou het getrouwe beeld verstoren' (regel 6)."},
-        {"field": "waarom", "from": null, "reason": "Rationale toegevoegd."},
-        {"field": "voorbeeld_inline", "from": null, "reason": "Cast-voorbeeld toegevoegd (Aurelia/Brugse/Robert Vandenberghe)."}
+        {
+          "field": "wat",
+          "from": "Een dochter waarover slechts controle in feite bestaat wordt buiten de consolidatie gelaten indien opneming zou indruisen tegen het getrouwe beeld van art. 3:105 KB WVV. Vermelding en motivering in de toelichting.",
+          "reason": "Stagiair-toon: 'zou indruisen tegen het getrouwe beeld' → 'zou het getrouwe beeld verstoren' (regel 6)."
+        },
+        {
+          "field": "waarom",
+          "from": null,
+          "reason": "Rationale toegevoegd."
+        },
+        {
+          "field": "voorbeeld_inline",
+          "from": null,
+          "reason": "Cast-voorbeeld toegevoegd (Aurelia/Brugse/Robert Vandenberghe)."
+        }
       ]
     },
     {
@@ -147,12 +245,35 @@
       "voorbeeld_inline": "Aurelia sluit Brugse uit op grond van art. 3:98 → Brugse verdwijnt niet, maar verschijnt als één regel 'Vermogensmutatie deelneming Brugse Brouwerij BV' op de geconsolideerde balans van Aurelia.",
       "grondslag": "KB WVV art. 3:100",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:100"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_78", "sha256": null, "version": "rag-v1"}]},
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:100"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_78",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "_corrected_from": [
-        {"field": "wat", "from": "Dochterondernemingen die met toepassing van art. 3:98 of 3:99 buiten de consolidatie zijn gelaten, worden in de geconsolideerde jaarrekening opgenomen volgens de vermogensmutatiemethode.", "reason": "Stagiair-toon: korte zin + uitleg wat dat concreet betekent op balans (regel 6)."},
-        {"field": "waarom", "from": null, "reason": "Rationale toegevoegd."},
-        {"field": "voorbeeld_inline", "from": null, "reason": "Cast-voorbeeld toegevoegd."}
+        {
+          "field": "wat",
+          "from": "Dochterondernemingen die met toepassing van art. 3:98 of 3:99 buiten de consolidatie zijn gelaten, worden in de geconsolideerde jaarrekening opgenomen volgens de vermogensmutatiemethode.",
+          "reason": "Stagiair-toon: korte zin + uitleg wat dat concreet betekent op balans (regel 6)."
+        },
+        {
+          "field": "waarom",
+          "from": null,
+          "reason": "Rationale toegevoegd."
+        },
+        {
+          "field": "voorbeeld_inline",
+          "from": null,
+          "reason": "Cast-voorbeeld toegevoegd."
+        }
       ]
     }
   ],
@@ -162,22 +283,60 @@
       "betekenis": "Sinds het WVV kunnen verenigingen en stichtingen met een commerciële, financiële of industriële activiteit niet meer ongegrond uit de consolidatiekring worden gehouden. Ze tellen als dochteronderneming (WVV art. 3:22) zodra een vennootschap er controle over heeft.",
       "herkenningspunt": "Vereniging die actief commercieel handelt en gecontroleerd wordt door een vennootschap → behoort tot de consolidatiekring van die vennootschap.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2022/09 — Consolidatiekring"},
-      "_provenance": {"inputs": [{"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiekring", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/09 — Consolidatiekring"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiekring",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Aandelen aangehouden met het oog op wederverkoop",
       "betekenis": "De uitsluitingsgrond 'aandelen uitsluitend met het oog op latere verkoop' wordt streng uitgelegd. Drie cumulatieve voorwaarden: de aandelen moeten uitsluitend gekocht zijn om weer verkocht te worden, het bezit moet tijdelijk zijn, en er moeten concrete stappen richting verkoop zichtbaar zijn (CBN 2011/5).",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2011/5"},
-      "_provenance": {"inputs": [{"id": "CBN-2011-05-consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn__sec_aandelen-waarop-is-ingeschreven-met-het-oog-op-wederafstand-", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2011/5"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2011-05-consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn__sec_aandelen-waarop-is-ingeschreven-met-het-oog-op-wederafstand-",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Consolidatiekring bij consortium",
       "betekenis": "Bij een consortium vormen de consortium-leden zelf samen de consolidatiekring (elk verticaal voorgeconsolideerd met hun eigen dochters). De centrale leider (bv. natuurlijke persoon zoals Pieter Vermeulen, of een private stichting) staat erbuiten — natuurlijke personen horen nooit in de kring.",
       "confidence": "grounded",
-      "source": {"type": "advies", "short": "CBN 2022/09"},
-      "_provenance": {"inputs": [{"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiekring", "sha256": null, "version": "rag-v1"}, {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/09"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_consolidatiekring",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [],
@@ -185,14 +344,36 @@
     {
       "text": "'Uitgesloten uit de consolidatiekring' is niet hetzelfde als 'niet geconsolideerd'. Uitgesloten dochters worden alsnog via de vermogensmutatiemethode opgenomen (KB WVV art. 3:100). Een opgave 'Brugse Brouwerij BV wordt uitgesloten op grond van art. 3:98' betekent nog steeds opname in de geconsolideerde jaarrekening, maar via een andere techniek.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:100"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_78", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:100"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_78",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Uitsluiting wegens 'te verwaarlozen betekenis' (art. 3:97, 1°) moet cumulatief worden beoordeeld als meerdere dochters aan die voorwaarde voldoen. Twee individueel kleine dochters die samen wél significant zijn (bv. Bouwwerf Beerse + Gent Garantie samen 12 % van het groepsbalans-totaal), mogen niet beide worden uitgesloten.",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV art. 3:97, 1°"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_76", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV art. 3:97, 1°"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_76",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
@@ -200,15 +381,43 @@
       "type": "contrasteert-met",
       "target": "consolidatieverplichting",
       "redenering": "Consolidatieverplichting bepaalt 'wel of niet consolideren'; consolidatiekring bepaalt 'wie wel of niet opnemen'. Een consolidatieplichtige moeder kan vrijgesteld zijn voor bepaalde dochters maar moet die dan via vermogensmutatie opnemen (art. 3:100).",
-      "_corrected_from": [{"field": "type", "from": "vergelijkingsparen → edges", "reason": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."}],
-      "_provenance": {"inputs": [{"id": "KB-WVV-2019__art_3_78", "sha256": null, "version": "rag-v1"}]}
+      "_corrected_from": [
+        {
+          "field": "type",
+          "from": "vergelijkingsparen → edges",
+          "reason": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+        }
+      ],
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_78",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "contrasteert-met",
       "target": "wijziging-consolidatiekring",
       "redenering": "Consolidatiekring is de momentopname van entiteiten. Wijziging van de consolidatiekring betreft de gebeurtenissen (verwerving, vervreemding, fusie) die nieuwe of vertrekkende leden in/uit de kring brengen — met specifieke boekhoudkundige gevolgen.",
-      "_corrected_from": [{"field": "type", "from": "vergelijkingsparen → edges", "reason": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."}],
-      "_provenance": {"inputs": [{"id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding", "sha256": null, "version": "rag-v1"}]}
+      "_corrected_from": [
+        {
+          "field": "type",
+          "from": "vergelijkingsparen → edges",
+          "reason": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+        }
+      ],
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "vereist-kennis-van",

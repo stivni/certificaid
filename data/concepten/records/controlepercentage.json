@@ -4,12 +4,21 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.4.I.C", "1.4.I.B", "1.4.I.D", "1.4.taak.1"],
+  "linked_anchors": [
+    "1.4.I.C",
+    "1.4.I.B",
+    "1.4.I.D",
+    "1.4.taak.1"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.4.I.C",
-    "dekt_ook_anchors": ["1.4.I.B", "1.4.I.D", "1.4.taak.1"],
+    "dekt_ook_anchors": [
+      "1.4.I.B",
+      "1.4.I.D",
+      "1.4.taak.1"
+    ],
     "reviewed_by": null,
     "schema_1_4_migration": {
       "uitgevoerd_op": "2026-05-16T00:11Z",
@@ -44,15 +53,44 @@
   "definitie": {
     "text": "Het percentage van de stemrechten dat een moeder direct of indirect (via dochters) in een andere vennootschap aanhoudt. Het controlepercentage gebruik je om te toetsen of er sprake is van controle in rechte. Belangrijk verschil met belangenpercentage: in een keten (moeder → tussenschakel → onderste dochter) wordt het controlepercentage níet vermenigvuldigd. Zolang elke schakel exclusief gecontroleerd wordt, telt het volledige stemrechtpercentage van de onderste schakel mee als 'gecontroleerd door de moeder'.",
     "confidence": "inferred-from-aggregation",
-    "source": {"type": "wet", "short": "WVV art. 1:14 jo. art. 1:16"},
+    "source": {
+      "type": "wet",
+      "short": "WVV art. 1:14 jo. art. 1:16"
+    },
     "references": [
-      {"type": "wet", "short": "WVV art. 1:14, § 2"},
-      {"type": "wet", "short": "WVV art. 1:15"},
-      {"type": "advies", "short": "CBN 2017/02 — Gezamenlijke controle (groottecriteria-update)"}
+      {
+        "type": "wet",
+        "short": "WVV art. 1:14, § 2"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 1:15"
+      },
+      {
+        "type": "advies",
+        "short": "CBN 2017/02 — Gezamenlijke controle (groottecriteria-update)"
+      }
     ],
-    "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"}, {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7", "sha256": null, "version": "rag-v1"}]},
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    },
     "_corrected_from": [
-      {"field": "text", "from": "Het percentage van de stemrechten dat een vennootschap (direct of indirect via dochterondernemingen) in een andere vennootschap aanhoudt. Het controlepercentage dient om te beoordelen of er sprake is van controle in rechte. In een ketenstructuur (M → A → B) wordt het controlepercentage doorgaans niet vermenigvuldigd: zodra elke schakel exclusieve controle uitoefent, telt het volledige stemrechtpercentage van de onderste schakel mee als 'gecontroleerd door de moeder'.", "reason": "Stagiair-toon: cast-namen (moeder/tussenschakel/onderste dochter) i.p.v. M → A → B; korte zinnen; expliciet contrast met belangenpercentage (regel 6)."}
+      {
+        "field": "text",
+        "from": "Het percentage van de stemrechten dat een vennootschap (direct of indirect via dochterondernemingen) in een andere vennootschap aanhoudt. Het controlepercentage dient om te beoordelen of er sprake is van controle in rechte. In een ketenstructuur (M → A → B) wordt het controlepercentage doorgaans niet vermenigvuldigd: zodra elke schakel exclusieve controle uitoefent, telt het volledige stemrechtpercentage van de onderste schakel mee als 'gecontroleerd door de moeder'.",
+        "reason": "Stagiair-toon: cast-namen (moeder/tussenschakel/onderste dochter) i.p.v. M → A → B; korte zinnen; expliciet contrast met belangenpercentage (regel 6)."
+      }
     ]
   },
   "voorbeeld_inline": "Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV; Brugse bezit op haar beurt 60 % stemrechten in Drukkerij Dendermonde BV → controlepercentage van Aurelia in Drukkerij Dendermonde = 60 % (niet 48 %; vermenigvuldigen geldt enkel voor belang).",
@@ -62,15 +100,37 @@
       "betekenis": "Controlepercentage meet macht (stemrechten); belangenpercentage meet eigendom (kapitaal en winstrecht). Beide kunnen uiteenlopen bij bijzondere structuren: preferente aandelen, certificering, stemrechtloze aandelen. In de keten Aurelia → 80 % Brugse → 60 % Drukkerij Dendermonde is het controlepercentage van Aurelia in Drukkerij Dendermonde nog steeds 60 % (zolang Brugse exclusief gecontroleerd wordt), terwijl het belangenpercentage 80 % × 60 % = 48 % is.",
       "herkenningspunt": "Tabelopgave 'X % van A en A heeft Y % van B' — controle: niet vermenigvuldigen zolang elke schakel exclusief gecontroleerd wordt; belang: wél vermenigvuldigen.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "advies", "short": "CBN 2017/02 — Gezamenlijke controle"},
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2017/02 — Gezamenlijke controle"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Beoordelen van consolidatieverplichting",
       "betekenis": "Een controlepercentage > 50 % stemrechten levert in beginsel exclusieve controle in rechte op en triggert integrale consolidatie. Bij precies 50 % zonder stemovereenkomst is er géén controle. Bij stemovereenkomst tussen meerdere vennoten ontstaat gezamenlijke controle (evenredige consolidatie of vermogensmutatie).",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "advies", "short": "CBN 2017/02"},
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "CBN 2017/02"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_geval-2-de-vennootschap-a-en-de-vennootschap-b-hebben-geen-o_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "berekeningsmethode": [
@@ -83,13 +143,33 @@
           "titel": "Toets of elke schakel exclusief gecontroleerd wordt",
           "wat": "Ga voor elke tussenschakel na of de bovenliggende vennootschap er exclusieve controle over uitoefent (> 50 % stemrechten of een andere onweerlegbare titel zoals statutaire macht of stemovereenkomst).",
           "waarom": "De doorlopende-controle-redenering werkt alleen als elke schakel zelf exclusief gecontroleerd wordt. Breekt de keten op één plek (bv. 50/50-joint venture), dan stopt de zeggenschap daar.",
-          "input": [{"artefact": "Aandeelhoudersregister + statuten per schakel", "veld": "Stemrechten + stemovereenkomsten", "type": "document"}],
-          "output": [{"artefact": "Ketenanalyse", "veld": "Per schakel: exclusieve controle ja/nee", "type": "conclusie"}],
+          "input": [
+            {
+              "artefact": "Aandeelhoudersregister + statuten per schakel",
+              "veld": "Stemrechten + stemovereenkomsten",
+              "type": "document"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Ketenanalyse",
+              "veld": "Per schakel: exclusieve controle ja/nee",
+              "type": "conclusie"
+            }
+          ],
           "hoe": "1. Start bij de top (Aurelia Holding NV).\n2. Voor elke schakel: open het aandeelhoudersregister + de statuten.\n3. Bepaal het stemrechtpercentage van de bovenliggende vennootschap in de onderliggende.\n4. Stemrechten > 50 % → exclusieve controle in rechte (onweerlegbaar).\n5. Stemrechten ≤ 50 % → controleer of er een andere titel is (stemovereenkomst, statutaire macht, controle in feite via twee-vergaderingen-test).\n6. Noteer per schakel ja/nee.\n",
           "grondslag": "WVV art. 1:14, § 2 jo. art. 1:16",
           "_corrected_from": [
-            {"field": "titel", "from": "Bepaal of M elke tussenliggende schakel exclusief controleert…", "reason": "Skeleton → werkwoord-georiënteerd."},
-            {"field": "hoe", "from": null, "reason": "Uitvoerbare instructie toegevoegd."}
+            {
+              "field": "titel",
+              "from": "Bepaal of M elke tussenliggende schakel exclusief controleert…",
+              "reason": "Skeleton → werkwoord-georiënteerd."
+            },
+            {
+              "field": "hoe",
+              "from": null,
+              "reason": "Uitvoerbare instructie toegevoegd."
+            }
           ]
         },
         {
@@ -97,13 +177,33 @@
           "titel": "Bij doorlopende controle: controle% = stemrecht% in onderste schakel",
           "wat": "Als elke schakel exclusief gecontroleerd wordt, is het controlepercentage van de top-moeder in de onderste dochter gelijk aan het stemrechtpercentage dat de directe moeder van die onderste dochter aanhoudt. Geen vermenigvuldiging.",
           "waarom": "Zeggenschap is geen breuk maar een geheel: zodra je elke schakel kunt sturen, kun je ook het stemgedrag van de onderste vennootschap volledig bepalen — niet maar 'voor een fractie'.",
-          "input": [{"artefact": "Ketenanalyse uit stap 1", "veld": "Stemrechten per schakel", "type": "percentage"}],
-          "output": [{"artefact": "Resultaat", "veld": "Controlepercentage top-moeder in onderste dochter", "type": "percentage"}],
+          "input": [
+            {
+              "artefact": "Ketenanalyse uit stap 1",
+              "veld": "Stemrechten per schakel",
+              "type": "percentage"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Resultaat",
+              "veld": "Controlepercentage top-moeder in onderste dochter",
+              "type": "percentage"
+            }
+          ],
           "hoe": "1. Bevestig uit stap 1: elke schakel exclusief gecontroleerd → ja.\n2. Neem het stemrechtpercentage van de directe moeder van de onderste dochter.\n3. Dat percentage is meteen het controlepercentage van de top-moeder.\n4. Voor Aurelia → Brugse (80 %) → Drukkerij Dendermonde (60 %): controle% Aurelia in Drukkerij Dendermonde = 60 %.\n",
           "grondslag": "Synthese WVV art. 1:14",
           "_corrected_from": [
-            {"field": "titel", "from": "Zo ja: het controlepercentage van M in B…", "reason": "Skeleton → werkwoord-georiënteerd."},
-            {"field": "hoe", "from": null, "reason": "Uitvoerbare instructie toegevoegd."}
+            {
+              "field": "titel",
+              "from": "Zo ja: het controlepercentage van M in B…",
+              "reason": "Skeleton → werkwoord-georiënteerd."
+            },
+            {
+              "field": "hoe",
+              "from": null,
+              "reason": "Uitvoerbare instructie toegevoegd."
+            }
           ]
         },
         {
@@ -111,20 +211,50 @@
           "titel": "Bij gebroken keten: geen doorlopende controle",
           "wat": "Als één tussenschakel niet exclusief gecontroleerd wordt (bv. 50/50-joint venture of geassocieerde), valt de doorlopende-controle-redenering weg. De onderste vennootschap is geen dochter van de top-moeder — afhankelijk van de structuur wordt zij geassocieerde of gemeenschappelijke dochter.",
           "waarom": "Zonder ononderbroken zeggenschap kun je het stemgedrag van de onderste vennootschap niet eenzijdig bepalen. De wet erkent dat als 'geen controle' en stuurt door naar de andere consolidatiemethoden (evenredig, vermogensmutatie).",
-          "input": [{"artefact": "Ketenanalyse uit stap 1", "veld": "Eén schakel zonder exclusieve controle", "type": "conclusie"}],
-          "output": [{"artefact": "Resultaat", "veld": "Geen dochter; mogelijk geassocieerde of gemeenschappelijke dochter", "type": "conclusie"}],
+          "input": [
+            {
+              "artefact": "Ketenanalyse uit stap 1",
+              "veld": "Eén schakel zonder exclusieve controle",
+              "type": "conclusie"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Resultaat",
+              "veld": "Geen dochter; mogelijk geassocieerde of gemeenschappelijke dochter",
+              "type": "conclusie"
+            }
+          ],
           "hoe": "1. Identificeer de schakel die de keten breekt (geen exclusieve controle).\n2. Beoordeel die schakel apart: is er invloed van betekenis (20–50 % zonder controle)? → geassocieerde → vermogensmutatie.\n3. Is er gezamenlijke controle (overeenkomst tussen vennoten)? → gemeenschappelijke dochter → evenredige consolidatie of vermogensmutatie.\n4. De top-moeder beoordeelt haar relatie tot die schakel rechtstreeks, niet via de onderbroken keten.\n",
           "voorbeeld": {
             "scenario": "Aurelia Holding NV bezit 80 % van Cardinal Group NV; Cardinal Group NV bezit 50 % van Filmstudio Florence BV samen met Energiehuis Evergem BV (gezamenlijke controle door overeenkomst).",
             "substappen": [
-              {"nr": 1, "titel": "Ketenanalyse", "type": "opmerking", "data": "Aurelia → Cardinal: 80 % → exclusieve controle ja.\nCardinal → Filmstudio Florence: 50 % met overeenkomst → géén exclusieve controle, wel gezamenlijke controle."},
-              {"nr": 2, "titel": "Conclusie controle-doorvloei", "type": "opmerking", "data": "De keten breekt bij Cardinal → Filmstudio Florence. Aurelia heeft daarom geen exclusieve controle over Filmstudio Florence. Filmstudio Florence is op Cardinal-niveau een gemeenschappelijke dochter (evenredige consolidatie of vermogensmutatie); Aurelia consolideert op haar beurt Cardinal integraal — Filmstudio Florence verschijnt in de Aurelia-cijfers via de Cardinal-cijfers."}
+              {
+                "nr": 1,
+                "titel": "Ketenanalyse",
+                "type": "opmerking",
+                "data": "Aurelia → Cardinal: 80 % → exclusieve controle ja.\nCardinal → Filmstudio Florence: 50 % met overeenkomst → géén exclusieve controle, wel gezamenlijke controle."
+              },
+              {
+                "nr": 2,
+                "titel": "Conclusie controle-doorvloei",
+                "type": "opmerking",
+                "data": "De keten breekt bij Cardinal → Filmstudio Florence. Aurelia heeft daarom geen exclusieve controle over Filmstudio Florence. Filmstudio Florence is op Cardinal-niveau een gemeenschappelijke dochter (evenredige consolidatie of vermogensmutatie); Aurelia consolideert op haar beurt Cardinal integraal — Filmstudio Florence verschijnt in de Aurelia-cijfers via de Cardinal-cijfers."
+              }
             ]
           },
           "grondslag": "Synthese WVV art. 1:14 + CBN 2017/02",
           "_corrected_from": [
-            {"field": "titel", "from": "Zo niet: er is geen doorlopende controle; B…", "reason": "Skeleton → werkwoord-georiënteerd."},
-            {"field": "voorbeeld", "from": null, "reason": "Substappen met cast-scenario toegevoegd."}
+            {
+              "field": "titel",
+              "from": "Zo niet: er is geen doorlopende controle; B…",
+              "reason": "Skeleton → werkwoord-georiënteerd."
+            },
+            {
+              "field": "voorbeeld",
+              "from": null,
+              "reason": "Substappen met cast-scenario toegevoegd."
+            }
           ]
         }
       ],
@@ -133,16 +263,36 @@
         "berekening": "controle% (Aurelia in Drukkerij Dendermonde) = controle% (Brugse in Drukkerij Dendermonde) = 60 %. (Belangenpercentage (Aurelia in Drukkerij Dendermonde) = 0,80 × 0,60 = 0,48 = 48 %.)",
         "resultaat": "Aurelia Holding NV controleert Drukkerij Dendermonde exclusief (via Brugse, > 50 % stemrechten). Drukkerij Dendermonde is een dochter van Aurelia en wordt integraal geconsolideerd. Het aandeel van derden in Drukkerij Dendermonde bedraagt 1 − 0,48 = 52 % van haar eigen vermogen."
       },
-      "source": {"type": "advies", "short": "CBN 2017/02 — Gezamenlijke controle (synthese)"},
+      "source": {
+        "type": "advies",
+        "short": "CBN 2017/02 — Gezamenlijke controle (synthese)"
+      },
       "confidence": "inferred-from-aggregation",
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"}, {"id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7", "sha256": null, "version": "rag-v1"}]},
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2022-09-consolidatie-bij-de-horizontale-groep-consortium-0__sec_voorbeeld-7",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "formules": [
         {
           "id": "controlepercentage-keten",
           "naam": "Controlepercentage doorvloei bij ononderbroken keten",
           "wiskunde": "controle (top-moeder in onderste dochter) = stemrecht% (directe moeder van onderste dochter)  — op voorwaarde dat elke schakel exclusief gecontroleerd wordt",
           "variabelen": [
-            {"symbool": "stemrecht% (directe moeder van onderste dochter)", "betekenis": "Percentage van de stemrechten dat de directe moeder van de onderste dochter rechtstreeks aanhoudt", "eenheid": "%"}
+            {
+              "symbool": "stemrecht% (directe moeder van onderste dochter)",
+              "betekenis": "Percentage van de stemrechten dat de directe moeder van de onderste dochter rechtstreeks aanhoudt",
+              "eenheid": "%"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "Aurelia → Brugse (80 % stemrechten, exclusieve controle) → Drukkerij Dendermonde (60 % stemrechten)",
@@ -150,8 +300,16 @@
             "eenheid_resultaat": "%"
           },
           "_corrected_from": [
-            {"field": "id", "from": "controlepercentage-in-een-verticale-kete", "reason": "ID-slug gecorrigeerd en ingekort."},
-            {"field": "variabelen", "from": null, "reason": "Variabelen + invulling_voorbeeld toegevoegd (regel 12)."}
+            {
+              "field": "id",
+              "from": "controlepercentage-in-een-verticale-kete",
+              "reason": "ID-slug gecorrigeerd en ingekort."
+            },
+            {
+              "field": "variabelen",
+              "from": null,
+              "reason": "Variabelen + invulling_voorbeeld toegevoegd (regel 12)."
+            }
           ]
         }
       ]
@@ -162,8 +320,19 @@
     {
       "text": "Niet alle aandelen geven stemrechten. Bij stemrechtloze aandelen of preferente aandelen kunnen kapitaal (belangenpercentage) en stemrechten (controlepercentage) uit elkaar lopen. Lees de opgave nauwkeurig: gaat het over 'aandelen', 'stemrechten' of 'kapitaal'?",
       "confidence": "inferred",
-      "source": {"type": "advies", "short": "Synthese WVV/CBN"},
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "advies",
+        "short": "Synthese WVV/CBN"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
@@ -171,8 +340,22 @@
       "type": "contrasteert-met",
       "target": "belangenpercentage",
       "redenering": "Controlepercentage = stemrechten (zeggenschap); belangenpercentage = kapitaal/eigendomsverhouding. Bij ketens: controle wordt niet vermenigvuldigd, belang wel.",
-      "_corrected_from": [{"field": "type", "from": "vergelijkingsparen → edges", "reason": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."}],
-      "_provenance": {"inputs": [{"id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen", "sha256": null, "version": "rag-v1"}]}
+      "_corrected_from": [
+        {
+          "field": "type",
+          "from": "vergelijkingsparen → edges",
+          "reason": "Schema 1.4 regel 9: paar zonder echte examen-keuze-trigger gemigreerd naar edge-type 'contrasteert-met'."
+        }
+      ],
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "type": "vereist-kennis-van",

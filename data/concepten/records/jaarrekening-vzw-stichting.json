@@ -4,26 +4,51 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.IV.A", "1.2.IV", "1.2.IV.C"],
+  "linked_anchors": [
+    "1.2.IV.A",
+    "1.2.IV",
+    "1.2.IV.C"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.IV.A",
-    "dekt_ook_anchors": ["1.2.IV", "1.2.IV.C"],
+    "dekt_ook_anchors": [
+      "1.2.IV",
+      "1.2.IV.C"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "VZW's, IVZW's en stichtingen hebben eigen jaarrekening-regels (WVV Boek 9 + KB-WVV art. 3:184 e.v.). Drie regimes naargelang grootte: (1) zeer kleine VZW — vereenvoudigde boekhouding (enkel kasboeken). (2) Kleine VZW — verkort vennootschap-achtig schema, aangepast aan vereniging. (3) Grote VZW — volledig schema. Specifiek: geen kapitaal maar 'fondsen'; resultaat als overschot of tekort, niet als winst.",
     "confidence": "grounded",
-    "source": {"type": "kb", "short": "KB-WVV art. 3:184 e.v."},
+    "source": {
+      "type": "kb",
+      "short": "KB-WVV art. 3:184 e.v."
+    },
     "references": [
-      {"type": "wet", "short": "WVV Boek 9 (VZW, IVZW, stichting)"},
-      {"type": "wet", "short": "WVV art. 1:28-1:29 (grootte verenigingen)"},
-      {"type": "kb", "short": "KB-WVV art. 3:184 e.v. (schema's)"}
+      {
+        "type": "wet",
+        "short": "WVV Boek 9 (VZW, IVZW, stichting)"
+      },
+      {
+        "type": "wet",
+        "short": "WVV art. 1:28-1:29 (grootte verenigingen)"
+      },
+      {
+        "type": "kb",
+        "short": "KB-WVV art. 3:184 e.v. (schema's)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "KB-WVV-2019__art_3_145", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "KB-WVV-2019__art_3_145",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "VZW Quelle de Vie (kleine VZW met economische activiteit, € 250.000 omzet, 3 werknemers) → verkort VZW-schema; balans toont 'Fondsen van de vereniging' i.p.v. 'Kapitaal'.",
   "bouwstenen": [
@@ -34,10 +59,19 @@
       "voorbeeld_inline": "VZW Quelle de Vie ontvangsten € 250.000 → onder zeer-kleine-drempel → vereenvoudigde boekhouding toegestaan. Maar als de vereniging dat wil, kan zij wel het schema voor kleine verenigingen kiezen.",
       "grondslag": "WVV art. 1:28-1:29",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV art. 1:28-1:29"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_145", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:28-1:29"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_145",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Verschillen met vennootschapsjaarrekening",
@@ -46,10 +80,19 @@
       "voorbeeld_inline": "VZW Quelle de Vie genereert € 250.000 omzet via café-uitbating + € 15.000 lidgelden + € 8.000 subsidies → drie aparte rubrieken in RR.",
       "grondslag": "KB-WVV art. 3:184 e.v. + bijlagen verenigingen",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB-WVV art. 3:184 e.v."},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_145", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "kb",
+        "short": "KB-WVV art. 3:184 e.v."
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_145",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Neerlegging bij griffie (zeer klein) of NBB (klein/groot)",
@@ -58,10 +101,19 @@
       "voorbeeld_inline": "VZW Quelle de Vie groeit boven € 391.000 ontvangsten → vanaf dan klein → neerlegging bij NBB-Balanscentrale, niet meer griffie.",
       "grondslag": "WVV art. 3:47 (verenigingen)",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV art. 3:47"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_145", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 3:47"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_145",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -70,20 +122,38 @@
       "betekenis": "Sinds WVV 2019 mag een VZW commerciële activiteiten ontplooien (geen exclusief 'belangloos' doel meer). Voorwaarde: winst niet uitkeren aan leden. Boekhoudkundig wordt dat behandeld als andere bedrijfsactiviteit — gewone aan- en verkopen, BTW-plicht enzovoort.",
       "herkenningspunt": "Examen-scenario 'VZW met café' → boekhoud-regime VZW, niet vennootschap — andere balans-structuur ondanks vergelijkbare activiteit.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV Boek 9"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-2019-09-boekhoudplichtige-onderneming__sec_rechtspersonen-naar-belgisch-recht", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WVV Boek 9"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-09-boekhoudplichtige-onderneming__sec_rechtspersonen-naar-belgisch-recht",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Een VZW is niet automatisch 'vereenvoudigd boekhoudplichtig'. De drempels gelden (€ 391.000 ontvangsten). Boven die grens MOET ze dubbel boekhouden, ook als ze van naam VZW is.",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WVV art. 1:28-1:29"},
-      "_provenance": {"inputs": [
-        {"id": "KB-WVV-2019__art_3_145", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WVV art. 1:28-1:29"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-2019__art_3_145",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

@@ -4,30 +4,70 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.2.I.C", "1.2.I", "1.2.III"],
+  "linked_anchors": [
+    "1.2.I.C",
+    "1.2.I",
+    "1.2.III"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.2.I.C",
-    "dekt_ook_anchors": ["1.2.I", "1.2.III"],
+    "dekt_ook_anchors": [
+      "1.2.I",
+      "1.2.III"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Het Wetboek van Economisch Recht (WER) is sinds 2014 de centrale Belgische codificatie van het economisch recht. Boek III (artikelen III.82 tot III.95) bevat de algemene boekhoudplicht: wie moet een boekhouding voeren, welk type (volledige dubbele of vereenvoudigde), welke boeken en bewaartermijnen. Dit boek bouwt voort op de oude Boekhoudwet van 17 juli 1975.",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "WER art. III.82 tot III.95"},
+    "source": {
+      "type": "wet",
+      "short": "WER art. III.82 tot III.95"
+    },
     "references": [
-      {"type": "wet", "short": "WER art. III.82 (begrip onderneming)"},
-      {"type": "wet", "short": "WER art. III.83 (boekhoudplicht)"},
-      {"type": "wet", "short": "WER art. III.84 (jaarrekening)"},
-      {"type": "wet", "short": "WER art. III.86 (bewaartermijn)"}
+      {
+        "type": "wet",
+        "short": "WER art. III.82 (begrip onderneming)"
+      },
+      {
+        "type": "wet",
+        "short": "WER art. III.83 (boekhoudplicht)"
+      },
+      {
+        "type": "wet",
+        "short": "WER art. III.84 (jaarrekening)"
+      },
+      {
+        "type": "wet",
+        "short": "WER art. III.86 (bewaartermijn)"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "WER__art_III_69", "sha256": null, "version": "rag-v1"},
-      {"id": "WER__art_III_70", "sha256": null, "version": "rag-v1"},
-      {"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"},
-      {"id": "WER__art_III_76", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_III_69",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_III_70",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_III_71",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_III_76",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Meubelzaak Mertens BV (handels-BV) is een 'onderneming' in de zin van WER art. III.82 → moet een dubbele boekhouding voeren volgens WER art. III.83.",
   "bouwstenen": [
@@ -38,11 +78,24 @@
       "voorbeeld_inline": "Praktijk Persenaire (eenmanszaak vrij beroep) en VZW Quelle de Vie (vereniging) zijn beide 'onderneming' in de zin van WER art. III.82.",
       "grondslag": "WER art. III.82, § 1",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WER art. III.82"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_III_69", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2019-09-boekhoudplichtige-onderneming__sec_boekhoudplichtige-onderneming", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.82"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_69",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2019-09-boekhoudplichtige-onderneming__sec_boekhoudplichtige-onderneming",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Plicht tot boekhouding",
@@ -51,11 +104,24 @@
       "voorbeeld_inline": "Rotex Roeselare NV moet als rechtspersoon altijd dubbel boekhouden (geen omzetgrens-uitzondering voor NV's).",
       "grondslag": "WER art. III.83 + III.84",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WER art. III.83, art. III.84"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_III_70", "sha256": null, "version": "rag-v1"},
-        {"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.83, art. III.84"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_70",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "WER__art_III_71",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Bewaartermijn 7 jaar",
@@ -64,11 +130,24 @@
       "voorbeeld_inline": "Boekjaar Meubelzaak Mertens BV afgesloten op 31 december 2024 → bewaartermijn loopt tot 31 december 2031.",
       "grondslag": "WER art. III.86; KB van 12 september 1983",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WER art. III.86"},
-      "_provenance": {"inputs": [
-        {"id": "CBN-2016-22-bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekho", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken__sec_belgische-ondernemingen", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.86"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2016-22-bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekho",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken__sec_belgische-ondernemingen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Verhouding WER ↔ WVV",
@@ -77,11 +156,24 @@
       "voorbeeld_inline": "Voor Rotex Roeselare NV: WER bepaalt 'jullie moeten dubbel boekhouden'; WVV bepaalt 'en je jaarrekening moet in volledig schema neergelegd worden bij de NBB'.",
       "grondslag": "WER Boek III + WVV Boek 3",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "wet", "short": "WER Boek III + WVV Boek 3"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-WVV-2019__art_3_2", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WER Boek III + WVV Boek 3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_71",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "KB-WVV-2019__art_3_2",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "in_praktijk": [
@@ -90,10 +182,19 @@
       "betekenis": "WER → 'wat moet ik boeken' (boekhoudplicht, dagboeken, inventaris, bewaring). WVV → 'wat doe ik met die boekhouding op het einde van het jaar' (jaarrekening-schema, jaarverslag, openbaarmaking, commissaris-controle).",
       "herkenningspunt": "Vraag over een dagboek of een bewaartermijn → WER. Vraag over een jaarrekening-schema of een jaarverslag → WVV + KB-WVV.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "wet", "short": "WER Boek III + WVV Boek 3"},
-      "_provenance": {"inputs": [
-        {"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "wet",
+        "short": "WER Boek III + WVV Boek 3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_71",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [

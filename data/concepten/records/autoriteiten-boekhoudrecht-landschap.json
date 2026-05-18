@@ -25,17 +25,37 @@
     "extractor_run": "verify-synthese-po-1.2-2026-05-16T16:00Z",
     "model": "claude-opus-4-7-verify-pass",
     "anchor_id": "1.2.II",
-    "dekt_ook_anchors": ["1.2.I.E", "1.2.IV.E", "1.2.IV.F"]
+    "dekt_ook_anchors": [
+      "1.2.I.E",
+      "1.2.IV.E",
+      "1.2.IV.F"
+    ]
   },
   "inleiding": {
     "text": "Het Belgische boekhoudrecht wordt niet door één instantie bewaakt. Zeven autoriteiten verdelen de rollen: de CBN adviseert over interpretatie, de NBB ontvangt jaarrekeningen, de FSMA controleert beursgenoteerde uitgevers, het ITAA reglementeert accountants, het IBR reglementeert revisoren (commissarissen), de griffies van de ondernemingsrechtbank ontvangen ondernemingsdossiers, en de FOD Financiën controleert fiscale dimensies. Bij elk dossier is de stagiair-vraag: 'naar wie moet ik met dit probleem?' Dit synthese-record geeft de keuze-as per situatie.",
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
-        {"id": "anchor-1.2.II", "sha256": null, "version": "rag-v1"},
-        {"id": "WER__art_XV_62", "sha256": null, "version": "rag-v1"},
-        {"id": "WER__art_XV_63", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-WVV-2019__art_3_104", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "anchor-1.2.II",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_XV_62",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "WER__art_XV_63",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_104",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -44,8 +64,16 @@
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
-        {"id": "WER__art_XV_62", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-WVV-2019__art_3_104", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "WER__art_XV_62",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_104",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -54,8 +82,16 @@
     "confidence": "inferred-from-aggregation",
     "_provenance": {
       "inputs": [
-        {"id": "WER__art_XV_62", "sha256": null, "version": "rag-v1"},
-        {"id": "KB-WVV-2019__art_3_104", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "WER__art_XV_62",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "KB-WVV-2019__art_3_104",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },

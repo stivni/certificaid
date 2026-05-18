@@ -19,7 +19,7 @@ node_type: synthese
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/liquiditeitstoets-beslisboom.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Welke liquiditeitstoets gebruik ik? — Beslisboom 🤖
 

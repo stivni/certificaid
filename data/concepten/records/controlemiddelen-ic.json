@@ -4,18 +4,27 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.VIII.D", "1.7.VIII", "1.7.X.D"],
+  "linked_anchors": [
+    "1.7.VIII.D",
+    "1.7.VIII",
+    "1.7.X.D"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T11:43Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.VIII.D",
-    "dekt_ook_anchors": ["1.7.VIII", "1.7.X.D"],
+    "dekt_ook_anchors": [
+      "1.7.VIII",
+      "1.7.X.D"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Controlemiddelen zijn de concrete instrumenten waarmee beheersactiviteiten worden uitgevoerd. In de praktijk: standaardformulieren, autorisatie-stempels, digitale handtekeningen, ERP-validaties, paswoord-beveiliging, badges, camerabewaking, sleutels, audit trails, checklists. Het is de fysieke + digitale infrastructuur die procedures handhaaft.",
     "confidence": "inferred-common-knowledge",
-    "_provenance": {"inputs": []}
+    "_provenance": {
+      "inputs": []
+    }
   },
   "voorbeeld_inline": "Bij Yperse Werkplaats BV behoren tot de controlemiddelen: ERP-systeem met rollenbeheer + audit trail (digitaal), bestelbon-formulier (papier + digitaal), magazijnbadge (fysiek), digitale handtekening in bank-platform (digitaal), camerabewaking magazijn (fysiek). Elk middel realiseert één of meer beheersactiviteiten.",
   "in_praktijk": [
@@ -23,10 +32,16 @@
       "aspect": "Vier categorieën controlemiddelen",
       "betekenis": "(1) Documenten + formulieren: gestandaardiseerd format, doorlopende nummering, verplichte velden. (2) Fysieke beveiliging: sleutels, badges, kluizen, kassa's, camera's. (3) IT-systemen: rollenbeheer, audit trail, validaties, geautomatiseerde controles. (4) Procedurele instrumenten: checklists, walkthroughs, observations.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "beheersactiviteiten", "redenering": "Controlemiddelen zijn instrumenten om beheersactiviteiten uit te voeren."}
+    {
+      "type": "onderdeel-van",
+      "target": "beheersactiviteiten",
+      "redenering": "Controlemiddelen zijn instrumenten om beheersactiviteiten uit te voeren."
+    }
   ]
 }

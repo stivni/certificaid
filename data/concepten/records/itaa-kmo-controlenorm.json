@@ -4,36 +4,80 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.I.C", "1.6.II", "1.6.III", "1.6.IV"],
+  "linked_anchors": [
+    "1.6.I.C",
+    "1.6.II",
+    "1.6.III",
+    "1.6.IV"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.I.C",
-    "dekt_ook_anchors": ["1.6.II", "1.6.III", "1.6.IV"],
+    "dekt_ook_anchors": [
+      "1.6.II",
+      "1.6.III",
+      "1.6.IV"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "De ITAA KMO-controlenorm is een uitgewerkt normenkader voor contractuele controle- en beoordelingsopdrachten op de jaarrekening van KMO's en kleine vzw's. Inspireert zich op ISA-standaarden maar is aangepast aan de KMO-realiteit. Bevat regels voor opdrachtaanvaarding, planning, risico-inschatting, werkzaamheden, documentatie, oordeel en verslag.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA-norm-kmo-controlenorm"},
-    "_provenance": {"inputs": [
-      {"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"},
-      {"id": "ITAA-norm-kmo-controlenorm__sec_3-1-1-planning", "sha256": null, "version": "rag-v1"}
-    ]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA-norm-kmo-controlenorm"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-1-1-planning",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Wolters & Partners CVBA voert een contractuele audit uit op Meubelzaak Mertens BV (omzet € 4.500.000, balanstotaal € 1.800.000 — kleine vennootschap). Sofie Janssens past de KMO-controlenorm toe: aanvaardingsfase, opdrachtbrief, risico-inschatting, gegevensgerichte werkzaamheden, oordeelsvorming en commissarisverslag-equivalent.",
   "voorwaarden_toepassing": [
     {
       "text": "Geldt voor: contractuele controle- en beoordelingsopdrachten (assurance), én voor gedeelde wettelijk voorbehouden opdrachten — voor zover er geen specifieke bijzondere norm bestaat en er geen commissaris is.",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §2"},
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §2"
+      },
       "confidence": "grounded",
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "text": "Geldt NIET voor: wettelijke controleopdrachten van de commissaris (art. 16/1 W. Venn. / WVV art. 3:72), niet voor opdrachten exclusief voorbehouden aan de bedrijfsrevisor, en niet voor opdrachten op andere dan historische financiële informatie.",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §4-6"},
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §4-6"
+      },
       "confidence": "grounded",
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "bouwstenen": [
@@ -43,8 +87,19 @@
       "waarom": "Sluit aan op de internationale auditcyclus (ISA-stijl) en geeft de KMO-accountant een chronologisch script.",
       "grondslag": "Structuur ITAA KMO-controlenorm",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA-norm-kmo-controlenorm"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm-kmo-controlenorm"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_1-1-2-ratione-materiae",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Definitieslijst (bijlage 1)",
@@ -52,16 +107,41 @@
       "waarom": "Eenduidige terminologie tussen normen, dossiers en verslagen — examen-relevant.",
       "grondslag": "ITAA KMO-controlenorm Bijlage 1",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1"},
-      "_provenance": {"inputs": [
-        {"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2", "sha256": null, "version": "rag-v1"},
-        {"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"}
-      ]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm Bijlage 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "bevat", "target": "auditrisicomodel", "redenering": "De norm structureert risico-inschatting via inherent/intern beheersing/ontdekkingsrisico."},
-    {"type": "bevat", "target": "materieel-belang-audit", "redenering": "Materieel belang is een sleutelconcept in §3."},
-    {"type": "specialisatie-van", "target": "itaa-algemene-controlenorm", "redenering": "Aanvullende detail-norm op de algemene controlenorm."}
+    {
+      "type": "bevat",
+      "target": "auditrisicomodel",
+      "redenering": "De norm structureert risico-inschatting via inherent/intern beheersing/ontdekkingsrisico."
+    },
+    {
+      "type": "bevat",
+      "target": "materieel-belang-audit",
+      "redenering": "Materieel belang is een sleutelconcept in §3."
+    },
+    {
+      "type": "specialisatie-van",
+      "target": "itaa-algemene-controlenorm",
+      "redenering": "Aanvullende detail-norm op de algemene controlenorm."
+    }
   ]
 }

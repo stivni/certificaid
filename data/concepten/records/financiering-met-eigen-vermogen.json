@@ -4,20 +4,36 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.9.IV.F", "1.9.IV"],
+  "linked_anchors": [
+    "1.9.IV.F",
+    "1.9.IV"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T10:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.9.IV.F",
-    "dekt_ook_anchors": ["1.9.IV"],
+    "dekt_ook_anchors": [
+      "1.9.IV"
+    ],
     "reviewed_by": null,
     "bron_gap": "Algemene begrippen-context zonder specifieke Belgische trusted-bron-bundle voor PO 1.9. WVV-context (kapitaal, reserves, overgedragen resultaat) is wel beschikbaar."
   },
   "definitie": {
     "text": "Financiering met eigen vermogen verzamelt alle middelen die door de aandeelhouders zijn ingebracht of in de onderneming gereserveerd. Op de balans: kapitaal, uitgiftepremies, herwaarderingsmeerwaarden, reserves en het overgedragen resultaat (rubrieken 10/15).",
     "confidence": "inferred-common-knowledge",
-    "source": {"type": "vakdoctrine", "short": "Financiële analyse — KB WVV jaarrekeningschema rubrieken 10/15"},
-    "_provenance": {"inputs": [{"id": "anchor-1.9.IV.F", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Financiële analyse — KB WVV jaarrekeningschema rubrieken 10/15"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "anchor-1.9.IV.F",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "bouwstenen": [
     {
@@ -27,8 +43,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV: eigen vermogen € 12.000.000 = kapitaal € 5.000.000 + uitgiftepremies € 1.000.000 + reserves € 4.000.000 + overgedragen resultaat € 2.000.000. De € 6.000.000 reserves+overgedragen is opgebouwd via zelffinanciering.",
       "grondslag": "KB WVV jaarrekeningschema rubrieken 10-13-14",
       "confidence": "grounded",
-      "source": {"type": "kb", "short": "KB WVV — schema balans rubrieken 10/15"},
-      "_provenance": {"inputs": [{"id": "KB-WVV-schema-balans", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "kb",
+        "short": "KB WVV — schema balans rubrieken 10/15"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "KB-WVV-schema-balans",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Geen vaste vergoedingsplicht",
@@ -37,8 +64,19 @@
       "voorbeeld_inline": "Rotex Roeselare NV slaat een dividend over in een jaar met verlies; haar bankschulden van € 13.000.000 vragen wel onverkort hun jaarlijkse intrest (~3% = € 390.000).",
       "grondslag": "Vakdoctrine + WVV-bevoegdheidsregel dividenden",
       "confidence": "inferred-common-knowledge",
-      "source": {"type": "vakdoctrine", "short": "Financiering"},
-      "_provenance": {"inputs": [{"id": "anchor-1.9.IV.F", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Financiering"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.IV.F",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -46,12 +84,35 @@
       "vergelijking_met": "financiering-met-derdenkapitaal",
       "verschil": "Eigen vermogen = inbreng aandeelhouders + zelffinanciering, geen vaste vergoeding, blijft permanent. Vreemd vermogen = leningen + obligaties + handelsschulden, vaste intrest, terugbetaalbaar op vervaldag. De verhouding bepaalt de solvabiliteit.",
       "trigger": "Bij examenvraag 'financieringsmix': bepaal eerst de schuldgraad ([[debt-equity-ratio]]); dat onderscheid is fundamenteel voor solvabiliteits-analyse.",
-      "_provenance": {"inputs": [{"id": "anchor-1.9.IV.F", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "anchor-1.9.IV.F",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "solvabiliteitsratio", "redenering": "Eigen vermogen is teller in de solvabiliteitsratio.", "confidence": "grounded"},
-    {"type": "vereist-kennis-van", "target": "rentabiliteit-eigen-vermogen-roe", "redenering": "Eigen vermogen is noemer in ROE.", "confidence": "grounded"},
-    {"type": "onderdeel-van", "target": "kasstroomoverzicht-drie-segmenten", "redenering": "Kapitaalverhogingen verschijnen in het financierings-segment (CFF).", "confidence": "inferred"}
+    {
+      "type": "vereist-kennis-van",
+      "target": "solvabiliteitsratio",
+      "redenering": "Eigen vermogen is teller in de solvabiliteitsratio.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "rentabiliteit-eigen-vermogen-roe",
+      "redenering": "Eigen vermogen is noemer in ROE.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "kasstroomoverzicht-drie-segmenten",
+      "redenering": "Kapitaalverhogingen verschijnen in het financierings-segment (CFF).",
+      "confidence": "inferred"
+    }
   ]
 }

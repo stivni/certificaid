@@ -15,7 +15,7 @@ node_type: afwegingskader
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/controleoordeel-types.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Types van controleoordeel ⚖️
 

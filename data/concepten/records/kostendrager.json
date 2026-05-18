@@ -4,20 +4,30 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.IV.A", "1.8.III.A"],
+  "linked_anchors": [
+    "1.8.IV.A",
+    "1.8.III.A"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.IV.A",
-    "dekt_ook_anchors": ["1.8.III.A"],
+    "dekt_ook_anchors": [
+      "1.8.III.A"
+    ],
     "reviewed_by": null,
     "bron_gap": "Vakdoctrine — geen Belgische trusted bron"
   },
   "definitie": {
     "text": "Een kostendrager is het object waarvan je de kostprijs wil weten: een product, productlijn, dienst, opdracht, klant, project of markt-segment. Alle kosten convergeren uiteindelijk naar kostendragers — direct via toewijzing, indirect via verdeling over kostencentra.",
     "confidence": "inferred-common-knowledge",
-    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
-    "_provenance": {"inputs": []}
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
   },
   "voorbeeld_inline": "Yperse Werkplaats BV definieert kostendragers per productlijn: 'ruwwol-garen 50 kg' (kostprijs € 38/eenheid), 'gewoven stoffenrol 100 m' (€ 145/eenheid), 'tapijt standaardmaat' (€ 18/stuk). Voor projectwerk: 'order Brugse Boutique mei 20X1' als afzonderlijke kostendrager.",
   "in_praktijk": [
@@ -25,7 +35,9 @@
       "aspect": "Granulariteit kiezen",
       "betekenis": "De granulariteit van kostendragers bepaalt de bruikbaarheid van de cijfers. Te grof (alleen 'tapijten') verhult mix-effecten; te fijn (per individueel tapijt) is administratief onhoudbaar. Praktijk: productgroep of order is meestal het juiste niveau.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -34,11 +46,23 @@
       "verschil": "Kostendrager = waarvoor de kost wordt gemaakt. Kostencentrum = waar de kost wordt gemaakt. Een tapijt is een kostendrager; de naai-afdeling die het maakt is een kostencentrum.",
       "trigger": "Examen-vraag op organisatie: identificeer of de eenheid 'afdeling' is of 'product/klant'.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "analytische-boekhouding", "redenering": "Eindpunt van elke kostenverdeling.", "confidence": "inferred"},
-    {"type": "vergelijkt-met", "target": "kostencentrum", "redenering": "Tegenpool.", "confidence": "inferred"}
+    {
+      "type": "onderdeel-van",
+      "target": "analytische-boekhouding",
+      "redenering": "Eindpunt van elke kostenverdeling.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "kostencentrum",
+      "redenering": "Tegenpool.",
+      "confidence": "inferred"
+    }
   ]
 }

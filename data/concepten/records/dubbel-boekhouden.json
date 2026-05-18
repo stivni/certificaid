@@ -4,12 +4,23 @@
   "node_type": "methode",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.1.I", "1.1.I.A", "1.1.taak.1", "1.2.III", "1.2.III.C"],
+  "linked_anchors": [
+    "1.1.I",
+    "1.1.I.A",
+    "1.1.taak.1",
+    "1.2.III",
+    "1.2.III.C"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.I",
-    "dekt_ook_anchors": ["1.1.I.A", "1.1.taak.1", "1.2.III", "1.2.III.C"],
+    "dekt_ook_anchors": [
+      "1.1.I.A",
+      "1.1.taak.1",
+      "1.2.III",
+      "1.2.III.C"
+    ],
     "reviewed_by": null,
     "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met 1.2.III + 1.2.III.C door PO 1.2-extractie."
   },
@@ -17,14 +28,30 @@
   "definitie": {
     "text": "Een boekhoudtechniek waarin elke verrichting wordt geboekt in **minstens twee rekeningen**: een debet- en een creditzijde, voor exact hetzelfde totaalbedrag. De som van alle debetboekingen is altijd gelijk aan de som van alle creditboekingen. Hierdoor klopt de balans (Activa = Passief) per definitie en zijn rekenfouten meteen detecteerbaar. Voor boekhoudplichtige ondernemingen schrijft WER art. III.84 expliciet voor dat de boekhouding 'wordt gevoerd met inachtneming van de gebruikelijke regels van het dubbel boekhouden'.",
     "confidence": "grounded",
-    "source": {"type": "wet", "short": "WER art. III.84"},
+    "source": {
+      "type": "wet",
+      "short": "WER art. III.84"
+    },
     "references": [
-      {"type": "advies", "short": "CBN 174/1 — Beginselen van een regelmatige boekhouding"}
+      {
+        "type": "advies",
+        "short": "CBN 174/1 — Beginselen van een regelmatige boekhouding"
+      }
     ],
-    "_provenance": {"inputs": [
-      {"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"},
-      {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden", "sha256": null, "version": "rag-v1"}
-    ]}
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "WER__art_III_71",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_regels-die-voor-elke-bedrijfsboekhouding-gelden",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Meubelzaak Mertens BV koopt voor € 1.250 (incl. BTW € 217) hout op factuur. Boeking: Debet 600 Aankopen € 1.033 + Debet 411 Terug te vorderen BTW € 217 / Credit 440 Leveranciers € 1.250. Debet totaal € 1.250 = Credit totaal € 1.250 ✓.",
   "bouwstenen": [
@@ -35,8 +62,19 @@
       "voorbeeld_inline": "Klantbetaling van € 4.500 op de rekening van Naaiatelier Ninove BV: Debet 550 Bank € 4.500 / Credit 400 Klanten € 4.500.",
       "grondslag": "WER art. III.84",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WER art. III.84"},
-      "_provenance": {"inputs": [{"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.84"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_71",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Som debet = som credit",
@@ -45,8 +83,19 @@
       "voorbeeld_inline": "Verkoop van een meubel door Meubelzaak Mertens BV voor € 850 (BTW 21%): Debet 400 Klanten € 1.028,50 / Credit 700 Verkopen € 850 + Credit 451 BTW te betalen € 178,50. Debet € 1.028,50 = Credit (€ 850 + € 178,50) ✓.",
       "grondslag": "WER art. III.84",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WER art. III.84"},
-      "_provenance": {"inputs": [{"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.84"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_71",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "titel": "Methodische inschrijving in rekeningen",
@@ -55,8 +104,19 @@
       "voorbeeld_inline": "Naaiatelier Ninove BV: alle aankoopboekingen verschijnen chronologisch in het aankoopdagboek (15/3, 22/3, 28/3, ...) en parallel verzameld op rekening 600 Aankopen waar het totaal-saldo afleesbaar is.",
       "grondslag": "WER art. III.84, lid 1",
       "confidence": "grounded",
-      "source": {"type": "wet", "short": "WER art. III.84"},
-      "_provenance": {"inputs": [{"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.84"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_71",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "berekeningsmethode": [
@@ -69,8 +129,20 @@
           "titel": "Identificeer de aard van de verrichting",
           "wat": "Wat gebeurt er economisch? Aankoop, verkoop, betaling, ontvangst, lening, afschrijving, ...",
           "waarom": "De aard bepaalt welke rekeningklassen worden geraakt (klasse 6 kosten, 7 opbrengsten, 4 vorderingen/schulden, 5 financieel, ...).",
-          "input": [{"artefact": "Verantwoordingsstuk", "veld": "Aard verrichting", "type": "tekst"}],
-          "output": [{"artefact": "Boekingsvoorstel", "veld": "Type verrichting", "type": "categorie"}],
+          "input": [
+            {
+              "artefact": "Verantwoordingsstuk",
+              "veld": "Aard verrichting",
+              "type": "tekst"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Boekingsvoorstel",
+              "veld": "Type verrichting",
+              "type": "categorie"
+            }
+          ],
           "hoe": "1. Lees het verantwoordingsstuk (factuur, bankuittreksel, overeenkomst).\n2. Stel vast: is dit een aankoop, verkoop, betaling, ...?\n3. Identificeer eventuele BTW-component.",
           "grondslag": "MAR (Minimum Algemeen Rekeningstelsel)"
         },
@@ -79,8 +151,20 @@
           "titel": "Kies de rekeningen (debet- en creditzijde)",
           "wat": "Wijs voor elke kant van de boeking een specifieke rekening toe uit het rekeningstelsel.",
           "waarom": "Het rekeningstelsel structureert de informatie zodat de jaarrekening automatisch uit de boekhouding te halen is.",
-          "input": [{"artefact": "Boekingsvoorstel", "veld": "Type verrichting", "type": "categorie"}],
-          "output": [{"artefact": "Boekingsvoorstel", "veld": "Rekeningen + zijde", "type": "rekening-set"}],
+          "input": [
+            {
+              "artefact": "Boekingsvoorstel",
+              "veld": "Type verrichting",
+              "type": "categorie"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Boekingsvoorstel",
+              "veld": "Rekeningen + zijde",
+              "type": "rekening-set"
+            }
+          ],
           "hoe": "1. Bestemming/Bron-vraag: wat krijgt de onderneming (debet, activa stijgt of passief daalt)? wat geeft ze op (credit, passief stijgt of activa daalt)?\n2. Voor kosten: debet klasse 6.\n3. Voor opbrengsten: credit klasse 7.\n4. Voor vorderingen klant: debet 400 'Handelsdebiteuren'.\n5. Voor schuld leverancier: credit 440 'Leveranciers'.\n",
           "grondslag": "KB 21 oktober 2018 op de jaarrekening; MAR"
         },
@@ -89,8 +173,20 @@
           "titel": "Boek de bedragen en controleer som-gelijkheid",
           "wat": "Vul de bedragen in en controleer dat de debetzijde gelijk is aan de creditzijde.",
           "waarom": "Een out-of-balance boeking wijst op een fout (rekenfout, vergeten BTW-component, of verkeerde rekeningkeuze).",
-          "input": [{"artefact": "Boekingsvoorstel", "veld": "Rekeningen + zijde", "type": "rekening-set"}],
-          "output": [{"artefact": "Boeking in dagboek", "veld": "Volledige boeking", "type": "boekingsregel"}],
+          "input": [
+            {
+              "artefact": "Boekingsvoorstel",
+              "veld": "Rekeningen + zijde",
+              "type": "rekening-set"
+            }
+          ],
+          "output": [
+            {
+              "artefact": "Boeking in dagboek",
+              "veld": "Volledige boeking",
+              "type": "boekingsregel"
+            }
+          ],
           "hoe": "1. Vul de bedragen in op elke rekening (debet of credit).\n2. Tel debet-totaal op.\n3. Tel credit-totaal op.\n4. Indien ongelijk: zoek de fout (vaak: BTW vergeten, of verkeerde percentage).\n5. Indien gelijk: boeking valideren, dagboeknummer toekennen.\n",
           "voorbeeld": {
             "scenario": "Meubelzaak Mertens BV ontvangt een aankoopfactuur voor € 2.500 hout, BTW 21 % = € 525, totaal € 3.025.",
@@ -117,17 +213,41 @@
         "berekening": "Boeking 12/6 (verkoopdagboek): Debet 400 Handelsdebiteuren € 14.520 / Credit 700 Verkopen € 12.000 + Credit 451 BTW te betalen € 2.520. Controle: € 14.520 = € 12.000 + € 2.520 ✓. Boeking 30/6 (financieel dagboek): Debet 550 Bank € 14.520 / Credit 400 Handelsdebiteuren € 14.520.",
         "resultaat": "De verkoop is volledig geregistreerd: omzet € 12.000 in de resultatenrekening, BTW-schuld € 2.520 op het passief tot aangifte, bank stijgt met € 14.520 en de vordering op de klant is voldaan."
       },
-      "source": {"type": "wet", "short": "Synthese WER art. III.84 + MAR"},
+      "source": {
+        "type": "wet",
+        "short": "Synthese WER art. III.84 + MAR"
+      },
       "confidence": "inferred-from-aggregation",
-      "_provenance": {"inputs": [{"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"}, {"id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inhoud-van-de-boekingen", "sha256": null, "version": "rag-v1"}]},
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_71",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-0174-01-beginselen-van-een-regelmatige-boekhouding__sec_inhoud-van-de-boekingen",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
       "formules": [
         {
           "id": "balans-identiteit",
           "naam": "Boekhoudkundige identiteit",
           "wiskunde": "som van alle debetboekingen = som van alle creditboekingen, en activa = passief op elke balansdatum",
           "variabelen": [
-            {"symbool": "som debet", "betekenis": "Totaal van alle bedragen geboekt aan de debetzijde", "eenheid": "EUR"},
-            {"symbool": "som credit", "betekenis": "Totaal van alle bedragen geboekt aan de creditzijde", "eenheid": "EUR"}
+            {
+              "symbool": "som debet",
+              "betekenis": "Totaal van alle bedragen geboekt aan de debetzijde",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "som credit",
+              "betekenis": "Totaal van alle bedragen geboekt aan de creditzijde",
+              "eenheid": "EUR"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "Voor de aankoopboeking van Meubelzaak Mertens: debet (600 + 411) = € 2.500 + € 525; credit (440) = € 3.025",
@@ -144,16 +264,38 @@
       "betekenis": "Op elk moment kan een proefbalans worden opgemaakt: lijst van alle rekeningen met hun debet- en credittotalen. Het verschil moet altijd nul zijn. Bij afwijking: zoek de transcriptie- of berekenfout.",
       "herkenningspunt": "Examen: 'de proefbalans toont een debet-overschot van € 250 op X-rekening' — wijst op een eenzijdige boeking of telfout.",
       "confidence": "inferred",
-      "source": {"type": "wet", "short": "WER art. III.84 — afgeleid principe"},
-      "_provenance": {"inputs": [{"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.84 — afgeleid principe"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_71",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Een enkelvoudige boeking ('ik schrijf € 100 op de bankrekening en klaar') is geen dubbel boekhouden. De tegenpost moet expliciet zijn — wat is de andere kant van die € 100? (verkoop? lening? inbreng?).",
       "confidence": "inferred",
-      "source": {"type": "wet", "short": "WER art. III.84 — afgeleid"},
-      "_provenance": {"inputs": [{"id": "WER__art_III_71", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "wet",
+        "short": "WER art. III.84 — afgeleid"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "WER__art_III_71",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -161,11 +303,27 @@
       "vergelijking_met": "vereenvoudigde-boekhouding",
       "verschil": "Dubbel boekhouden registreert elke verrichting in twee rekeningen (debet/credit) met balans + resultatenrekening als output. Vereenvoudigde boekhouding registreert verrichtingen in drie aparte dagboeken (financieel, aankopen, verkopen) zonder klassieke rekeningenstructuur; toegelaten voor kleine ondernemingen onder de drempelwaarden.",
       "trigger": "Examenvraag: kleine eenmanszaak met omzet onder € 500.000 (WER drempel) — mag vereenvoudigd, hoeft geen dubbel boekhouden.",
-      "_provenance": {"inputs": [{"id": "CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen__sec_dubbele-boekhouding-of-vereenvoudigde-boekhouding-optie", "sha256": null, "version": "rag-v1"}]}
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen__sec_dubbele-boekhouding-of-vereenvoudigde-boekhouding-optie",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "regelmatige-boekhouding", "redenering": "Dubbel boekhouden is de techniek waarmee een regelmatige boekhouding voor boekhoudplichtige ondernemingen wordt gevoerd (WER art. III.84)."},
-    {"type": "vereist-kennis-van", "target": "dagboek", "redenering": "Boekingen worden ingeschreven in dagboeken én methodisch in rekeningen — dagboek is de chronologische pijler."}
+    {
+      "type": "onderdeel-van",
+      "target": "regelmatige-boekhouding",
+      "redenering": "Dubbel boekhouden is de techniek waarmee een regelmatige boekhouding voor boekhoudplichtige ondernemingen wordt gevoerd (WER art. III.84)."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "dagboek",
+      "redenering": "Boekingen worden ingeschreven in dagboeken én methodisch in rekeningen — dagboek is de chronologische pijler."
+    }
   ]
 }

@@ -15,7 +15,7 @@ node_type: methode
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/componentenbenadering-ias-16.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Componentenbenadering (IAS 16) — afschrijving per onderdeel ⚖️
 

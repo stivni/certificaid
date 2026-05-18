@@ -4,20 +4,32 @@
   "node_type": "methode",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.VI", "1.8.VI.D", "1.8.III.C"],
+  "linked_anchors": [
+    "1.8.VI",
+    "1.8.VI.D",
+    "1.8.III.C"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.VI",
-    "dekt_ook_anchors": ["1.8.VI.D", "1.8.III.C"],
+    "dekt_ook_anchors": [
+      "1.8.VI.D",
+      "1.8.III.C"
+    ],
     "reviewed_by": null,
     "bron_gap": "Vakdoctrine"
   },
   "doel": {
     "text": "Verschillenboekhouding (variance accounting) registreert systematisch het verschil tussen werkelijke kost en budget- of standaardkost, en splitst dat verschil in oorzaakcomponenten (prijsverschil, hoeveelheidverschil, mix-verschil, efficiëntieverschil). Doel: snel lokaliseren waar afwijkingen vandaan komen om gericht bij te sturen.",
     "confidence": "inferred-common-knowledge",
-    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
-    "_provenance": {"inputs": []}
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
   },
   "bouwstenen": [
     {
@@ -26,7 +38,9 @@
       "waarom": "Prijsverschil wijst op aankoop-/markt-oorzaak; hoeveelheidverschil op productie-efficiëntie.",
       "voorbeeld_inline": "Yperse Werkplaats BV partij 100 tapijten: standaard 1,2 kg wol × € 5,00 = € 6 per tapijt. Werkelijk: 1,3 kg × € 5,20. Per tapijt: prijsverschil = 1,3 × (5,20 − 5,00) = € 0,26 (ongunstig). Hoeveelheidverschil = (1,3 − 1,2) × € 5,00 = € 0,50 (ongunstig). Voor 100 tapijten: € 26 prijs + € 50 hoeveelheid = € 76 ongunstig totaal.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "titel": "Boeking van verschillen",
@@ -34,7 +48,9 @@
       "waarom": "Aparte rekeningen maken cumulatieve trend zichtbaar en faciliteren maand-afsluiting.",
       "voorbeeld_inline": "Yperse boeking maart 20X2: 9300 Confectie € 92.000 / 612 'Werkelijke kost Confectie' € 79.167 + 9810 Verschil Confectie € 12.833.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "titel": "Significantiegrens",
@@ -42,7 +58,9 @@
       "waarom": "Vermijdt dat controlling-team verzandt in micro-afwijkingen.",
       "voorbeeld_inline": "Yperse hanteert: verschil > 10 % en > € 2.500 = onderzoek. Confectie € 12.833 op € 79.167 = 16,2 % → onderzoek. Spinnerij € 850 verschil op budget € 120.000 = 0,7 % → geen onderzoek.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "berekeningsmethode": [
@@ -55,9 +73,21 @@
           "naam": "Prijsverschil",
           "wiskunde": "prijsverschil = werkelijke hoeveelheid × (werkelijke prijs − standaardprijs)",
           "variabelen": [
-            {"symbool": "werkelijke hoeveelheid", "betekenis": "Werkelijk verbruik", "eenheid": "kg of uur"},
-            {"symbool": "werkelijke prijs", "betekenis": "Werkelijke prijs/tarief per eenheid", "eenheid": "EUR/kg of EUR/uur"},
-            {"symbool": "standaardprijs", "betekenis": "Vooraf vastgelegde standaardprijs", "eenheid": "EUR/kg of EUR/uur"}
+            {
+              "symbool": "werkelijke hoeveelheid",
+              "betekenis": "Werkelijk verbruik",
+              "eenheid": "kg of uur"
+            },
+            {
+              "symbool": "werkelijke prijs",
+              "betekenis": "Werkelijke prijs/tarief per eenheid",
+              "eenheid": "EUR/kg of EUR/uur"
+            },
+            {
+              "symbool": "standaardprijs",
+              "betekenis": "Vooraf vastgelegde standaardprijs",
+              "eenheid": "EUR/kg of EUR/uur"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "Yperse partij 100 tapijten: werkelijk 130 kg wol, werkelijke prijs € 5,20/kg, standaardprijs € 5,00/kg",
@@ -69,11 +99,25 @@
           "id": "hoeveelheidverschil",
           "naam": "Hoeveelheidverschil",
           "wiskunde": "hoeveelheidverschil = (werkelijke hoeveelheid − standaardhoeveelheid) × standaardprijs",
-          "afhankelijk_van": ["prijsverschil"],
+          "afhankelijk_van": [
+            "prijsverschil"
+          ],
           "variabelen": [
-            {"symbool": "werkelijke hoeveelheid", "betekenis": "Werkelijk verbruik", "eenheid": "kg of uur"},
-            {"symbool": "standaardhoeveelheid", "betekenis": "Standaardverbruik voor werkelijke productie", "eenheid": "kg of uur"},
-            {"symbool": "standaardprijs", "betekenis": "Standaardprijs per eenheid", "eenheid": "EUR/kg of EUR/uur"}
+            {
+              "symbool": "werkelijke hoeveelheid",
+              "betekenis": "Werkelijk verbruik",
+              "eenheid": "kg of uur"
+            },
+            {
+              "symbool": "standaardhoeveelheid",
+              "betekenis": "Standaardverbruik voor werkelijke productie",
+              "eenheid": "kg of uur"
+            },
+            {
+              "symbool": "standaardprijs",
+              "betekenis": "Standaardprijs per eenheid",
+              "eenheid": "EUR/kg of EUR/uur"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "Yperse: werkelijk 130 kg, standaard 100 tapijten × 1,2 kg = 120 kg, standaardprijs € 5,00",
@@ -87,25 +131,44 @@
         "berekening": "Prijsverschil = 130 × (5,20 − 5,00) = € 26 ongunstig. Hoeveelheidverschil = (130 − 120) × 5,00 = € 50 ongunstig. Totaal materiaal-verschil = € 76 ongunstig.",
         "resultaat": "€ 76 ongunstig totaal, waarvan € 26 te wijten aan duurdere aankoop (verantwoordelijkheid inkoop) en € 50 aan inefficiënt gebruik (verantwoordelijkheid productie)."
       },
-      "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
+      "source": {
+        "type": "vakdoctrine",
+        "short": "Management accounting — bron-gap"
+      },
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "valkuilen": [
     {
       "text": "Standaardhoeveelheid moet altijd berekend worden voor de werkelijke productie, niet voor de geplande. Voorbeeld: gepland 80 tapijten, werkelijk 100 → standaardhoeveelheid is 100 × 1,2 kg = 120 kg, niet 80 × 1,2 = 96 kg. Anders mix je volume-verschil met efficiëntie-verschil.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "text": "Een ongunstig prijsverschil bij materiaal kan een gunstig hoeveelheidverschil veroorzaken (betere kwaliteit, minder verlies). Beide componenten samen interpreteren — niet apart oordelen.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "budgetbeheer", "redenering": "Analyse-fase van budgetbeheer.", "confidence": "inferred"},
-    {"type": "vereist-kennis-van", "target": "voorbepaalde-kosten", "redenering": "Standaardkosten zijn de referentie.", "confidence": "inferred"}
+    {
+      "type": "onderdeel-van",
+      "target": "budgetbeheer",
+      "redenering": "Analyse-fase van budgetbeheer.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "voorbepaalde-kosten",
+      "redenering": "Standaardkosten zijn de referentie.",
+      "confidence": "inferred"
+    }
   ]
 }

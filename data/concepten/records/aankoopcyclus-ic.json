@@ -4,12 +4,17 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.IX.A", "1.7.IX"],
+  "linked_anchors": [
+    "1.7.IX.A",
+    "1.7.IX"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T10:30Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.IX.A",
-    "dekt_ook_anchors": ["1.7.IX"],
+    "dekt_ook_anchors": [
+      "1.7.IX"
+    ],
     "reviewed_by": null,
     "bron_gap": "Cyclusanalyse als IC-techniek is auditvakdoctrine — geen specifiek Belgisch wetsartikel. ITAA-norm-kmo-controlenorm raakt enkel generiek aan cycli. Inferred-common-knowledge."
   },
@@ -32,7 +37,12 @@
       "voorbeeld": {
         "scenario": "Bij Yperse Werkplaats BV bestelt productie € 35.000 grondstoffen.",
         "substappen": [
-          {"nr": 1, "titel": "Procuratie-drempel-overschrijding", "type": "opmerking", "data": "€ 35.000 > € 25.000 → dubbele handtekening verplicht: CFO David + Algemeen Directeur Pieter Vermeulen + voorafgaande melding RvB."}
+          {
+            "nr": 1,
+            "titel": "Procuratie-drempel-overschrijding",
+            "type": "opmerking",
+            "data": "€ 35.000 > € 25.000 → dubbele handtekening verplicht: CFO David + Algemeen Directeur Pieter Vermeulen + voorafgaande melding RvB."
+          }
         ]
       },
       "grondslag": "Delegatie-procuratie-doctrine"
@@ -66,16 +76,28 @@
     {
       "text": "Spoedaankopen omzeilen vaak de hele procedure. Definieer expliciet uitzonderingsprotocol (welke bedragen, welke autorisatie achteraf, welke termijn voor inhaalcontrole).",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "text": "'Persoonlijke aankopen via bedrijfsrekening' is fraude (verduistering). Klassieke detectie: ongebruikelijke leveranciers, ongewone factuuradressen, recurrente kleine bedragen.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Aankoopcyclus is een van de hoofdcycli waarin IC wordt uitgewerkt."},
-    {"type": "vereist-kennis-van", "target": "functiescheiding", "redenering": "Functiescheiding is de ruggengraat van aankoop-IC."}
+    {
+      "type": "onderdeel-van",
+      "target": "interne-controle",
+      "redenering": "Aankoopcyclus is een van de hoofdcycli waarin IC wordt uitgewerkt."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "functiescheiding",
+      "redenering": "Functiescheiding is de ruggengraat van aankoop-IC."
+    }
   ]
 }

@@ -4,19 +4,35 @@
   "node_type": "voorgesteld:randvoorwaarden",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.I.A", "1.6.II.A"],
+  "linked_anchors": [
+    "1.6.I.A",
+    "1.6.II.A"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.I.A",
-    "dekt_ook_anchors": ["1.6.II.A"],
+    "dekt_ook_anchors": [
+      "1.6.II.A"
+    ],
     "reviewed_by": null
   },
   "definitie": {
     "text": "Randvoorwaarden voor een controle zijn (1) het gebruik door het management of de met governance belaste personen van een AANVAARDBAAR stelsel inzake financiële verslaggeving, en (2) hun TOESTEMMING met de veronderstellingen op basis waarvan de controle wordt uitgevoerd. Zonder beide is een audit niet uitvoerbaar.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1"},
-    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm Bijlage 1"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Vooraleer Wolters & Partners CVBA de audit van Meubelzaak Mertens BV aanvaardt, vergewist Sofie Janssens zich ervan dat (1) de jaarrekening volgens Belgisch jaarrekeningenrecht / KB WVV wordt opgesteld (aanvaardbaar stelsel) en (2) de zaakvoerder erkent zijn verantwoordelijkheden voor de jaarrekening, de IC, en het verschaffen van toegang/informatie.",
   "in_praktijk": [
@@ -24,18 +40,44 @@
       "aspect": "Drie management-verantwoordelijkheden",
       "betekenis": "Het management erkent expliciet (a) zijn verantwoordelijkheid voor het opstellen van de financiële overzichten volgens het stelsel, (b) voor de IC die het opstellen mogelijk maakt vrij van materiële afwijking door fraude of fout, en (c) voor het verschaffen aan de auditor van toegang tot alle relevante informatie, aanvullende inlichtingen die de auditor vraagt, en onbeperkte toegang tot personen.",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1 (Uitgangspunt)"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm Bijlage 1 (Uitgangspunt)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     },
     {
       "aspect": "Gevolg bij ontbreken",
       "betekenis": "Wanneer de randvoorwaarden niet voldaan zijn (cliënt weigert verantwoordelijkheid te erkennen, gebruikt niet-aanvaardbaar stelsel) moet de auditor de opdracht weigeren of de scope materieel beperken.",
       "confidence": "inferred-from-aggregation",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm Bijlage 1"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm Bijlage 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "vereist-kennis-van", "target": "opdrachtbrief-accountant", "redenering": "Randvoorwaarden worden in de opdrachtbrief geverifieerd en bevestigd."}
+    {
+      "type": "vereist-kennis-van",
+      "target": "opdrachtbrief-accountant",
+      "redenering": "Randvoorwaarden worden in de opdrachtbrief geverifieerd en bevestigd."
+    }
   ]
 }

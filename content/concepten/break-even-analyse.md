@@ -14,7 +14,7 @@ node_type: methode
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/break-even-analyse.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Break-even-analyse 🤖
 

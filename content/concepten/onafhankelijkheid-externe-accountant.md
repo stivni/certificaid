@@ -15,7 +15,7 @@ node_type: beginsel
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/onafhankelijkheid-externe-accountant.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Onafhankelijkheid van de externe accountant ⚖️
 

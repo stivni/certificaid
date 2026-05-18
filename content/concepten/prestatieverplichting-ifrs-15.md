@@ -14,7 +14,7 @@ node_type: begrip
 status: seed
 schema_version: '1.4'
 gegenereerd_uit: data/concepten/records/prestatieverplichting-ifrs-15.json
-gegenereerd_op: '2026-05-17'
+gegenereerd_op: '2026-05-18'
 ---
 # Prestatieverplichting (performance obligation) onder IFRS 15 ⚖️
 

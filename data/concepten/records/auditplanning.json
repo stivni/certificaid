@@ -4,19 +4,35 @@
   "node_type": "procedure",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.6.III.A", "1.6.III"],
+  "linked_anchors": [
+    "1.6.III.A",
+    "1.6.III"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:27Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.6.III.A",
-    "dekt_ook_anchors": ["1.6.III"],
+    "dekt_ook_anchors": [
+      "1.6.III"
+    ],
     "reviewed_by": null
   },
   "verplichting": {
     "text": "De beroepsbeoefenaar plant de controle zodanig dat de opdracht efficiënt kan worden uitgevoerd. De planning bestaat uit twee lagen: de algemene strategie (reikwijdte, timing, omvang) en het controleprogramma (concrete werkzaamheden). De planning moet doorlopend worden bijgestuurd.",
     "confidence": "grounded",
-    "source": {"type": "norm", "short": "ITAA KMO-controlenorm §70-§73"},
-    "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-1-1-planning", "sha256": null, "version": "rag-v1"}]}
+    "source": {
+      "type": "norm",
+      "short": "ITAA KMO-controlenorm §70-§73"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-kmo-controlenorm__sec_3-1-1-planning",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
   },
   "voorbeeld_inline": "Voor de audit van Rotex Roeselare NV (boekjaar 2025) stelt Sofie Janssens een algemene strategie op in oktober 2025: scope = jaarrekening volledig schema, timing = tussenfase december + eindfase februari-maart, risicogebieden = voorraden + voorzieningen, team = vier juniors + één manager. Daarop bouwt zij het concrete controleprogramma met testen en steekproeven.",
   "stappen": [
@@ -46,12 +62,31 @@
     {
       "text": "Bij een eerstejaars-opdracht moet de aard en reikwijdte van de controle versterkt worden (bv. controle van openingsbalansen + waarderingsregels). Niet hetzelfde scoping gebruiken als bij een lopend mandaat.",
       "confidence": "grounded",
-      "source": {"type": "norm", "short": "ITAA KMO-controlenorm §72"},
-      "_provenance": {"inputs": [{"id": "ITAA-norm-kmo-controlenorm__sec_3-1-1-planning", "sha256": null, "version": "rag-v1"}]}
+      "source": {
+        "type": "norm",
+        "short": "ITAA KMO-controlenorm §72"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-kmo-controlenorm__sec_3-1-1-planning",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
-    {"type": "bevat", "target": "werkprogramma-audit", "redenering": "Het controleprogramma is het uitvoerbare deel van de planning."},
-    {"type": "vereist-kennis-van", "target": "risico-inschatting-audit", "redenering": "Planning bouwt op de risico-analyse."}
+    {
+      "type": "bevat",
+      "target": "werkprogramma-audit",
+      "redenering": "Het controleprogramma is het uitvoerbare deel van de planning."
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "risico-inschatting-audit",
+      "redenering": "Planning bouwt op de risico-analyse."
+    }
   ]
 }

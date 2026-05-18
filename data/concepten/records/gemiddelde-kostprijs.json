@@ -4,7 +4,9 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.III.E"],
+  "linked_anchors": [
+    "1.8.III.E"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
@@ -16,8 +18,13 @@
   "definitie": {
     "text": "De gemiddelde kostprijs is de totale kost (vaste én variabele kosten samen) gedeeld door het aantal geproduceerde eenheden. Geeft een indicatie van de 'kost per stuk' inclusief gedragen overhead — bruikbaar voor lange-termijn prijszetting.",
     "confidence": "inferred-common-knowledge",
-    "source": {"type": "vakdoctrine", "short": "Management accounting — bron-gap"},
-    "_provenance": {"inputs": []}
+    "source": {
+      "type": "vakdoctrine",
+      "short": "Management accounting — bron-gap"
+    },
+    "_provenance": {
+      "inputs": []
+    }
   },
   "voorbeeld_inline": "Yperse Werkplaats BV: totale kosten € 1.060.000/jaar (€ 800.000 vast + € 260.000 variabel bij 20.000 tapijten). Gemiddelde kostprijs = € 1.060.000 / 20.000 = € 53/tapijt. Bij 25.000 tapijten: € 1.125.000 / 25.000 = € 45/tapijt (vaste kost-aandeel per stuk daalt).",
   "in_praktijk": [
@@ -25,7 +32,9 @@
       "aspect": "Lange-termijn richtprijs",
       "betekenis": "Verkoopprijs moet op lange termijn de gemiddelde kostprijs dekken, anders kan de onderneming niet investeren of de vaste kosten op lange termijn betalen. Voor commercieel onderhandelen is gemiddelde kostprijs een 'vloer' (mits productie op normale capaciteit).",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "vergelijkingsparen": [
@@ -34,10 +43,17 @@
       "verschil": "Gemiddelde kostprijs = volledige kost / volume (bevat vaste kost-aandeel per stuk). Marginale kostprijs = kost van één extra eenheid (vaste kosten zijn al gedekt). Examen-valkuil: studenten gebruiken gemiddelde kostprijs voor extra-order-beslissingen → verkeerd, want vaste kosten zijn 'sunk'.",
       "trigger": "Examen-vraag: 'minimumprijs voor extra-order?' → marginaal. 'Lange-termijn-richtprijs?' → gemiddeld.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "vergelijkt-met", "target": "marginale-kostprijs", "redenering": "Tegenpool.", "confidence": "inferred"}
+    {
+      "type": "vergelijkt-met",
+      "target": "marginale-kostprijs",
+      "redenering": "Tegenpool.",
+      "confidence": "inferred"
+    }
   ]
 }

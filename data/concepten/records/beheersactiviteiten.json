@@ -4,19 +4,28 @@
   "node_type": "begrip",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.7.VIII.D", "1.7.VIII", "1.7.X.D"],
+  "linked_anchors": [
+    "1.7.VIII.D",
+    "1.7.VIII",
+    "1.7.X.D"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T09:43Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.7.VIII.D",
-    "dekt_ook_anchors": ["1.7.VIII", "1.7.X.D"],
+    "dekt_ook_anchors": [
+      "1.7.VIII",
+      "1.7.X.D"
+    ],
     "reviewed_by": null,
     "bron_gap": "COSO-component 'control activities' is vakdoctrine. Inferred-common-knowledge."
   },
   "definitie": {
     "text": "Beheersactiviteiten zijn de concrete procedures en handelingen die de onderneming inzet om de geïdentificeerde risico's te beheersen. Ze omvatten zowel preventieve (vóór de transactie) als detectieve (na de transactie) maatregelen, en kunnen handmatig of geautomatiseerd zijn.",
     "confidence": "inferred-common-knowledge",
-    "_provenance": {"inputs": []}
+    "_provenance": {
+      "inputs": []
+    }
   },
   "voorbeeld_inline": "Bij Yperse Werkplaats BV: (preventief) facturen > € 25.000 vereisen handtekening van CFO David; (detectief) maandelijkse afstemming bank-grootboek door iemand anders dan de boeker; (geautomatiseerd) ERP weigert input van prijs > 20% afwijking van laatste aankoopprijs zonder override.",
   "bouwstenen": [
@@ -27,7 +36,9 @@
       "voorbeeld_inline": "Bij Yperse Werkplaats BV: toegangsbadge magazijn (fysiek) + dubbele handtekening boven drempel (autorisatie) + maandelijkse stockcount door extern (verificatie) + scheiding aankoop/ontvangst/betaling (segregation).",
       "grondslag": "COSO-doctrine",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "titel": "Preventief versus detectief",
@@ -35,11 +46,21 @@
       "waarom": "Preventief alleen verzwakt door management override; detectief alleen laat fouten doorlopen tot de detectie — soms te laat.",
       "grondslag": "COSO-doctrine",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "onderdeel-van", "target": "interne-controle", "redenering": "Derde COSO-component."},
-    {"type": "bevat", "target": "functiescheiding", "redenering": "Functiescheiding is de prototypische beheersactiviteit."}
+    {
+      "type": "onderdeel-van",
+      "target": "interne-controle",
+      "redenering": "Derde COSO-component."
+    },
+    {
+      "type": "bevat",
+      "target": "functiescheiding",
+      "redenering": "Functiescheiding is de prototypische beheersactiviteit."
+    }
   ]
 }

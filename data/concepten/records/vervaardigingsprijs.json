@@ -4,27 +4,52 @@
   "node_type": "regel",
   "schema_version": "1.4",
   "status": "seed",
-  "linked_anchors": ["1.8.III.A", "1.8.II.B"],
+  "linked_anchors": [
+    "1.8.III.A",
+    "1.8.II.B"
+  ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-17T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.8.III.A",
-    "dekt_ook_anchors": ["1.8.II.B"],
+    "dekt_ook_anchors": [
+      "1.8.II.B"
+    ],
     "reviewed_by": null
   },
   "main_rule": {
     "text": "De vervaardigingsprijs van producten omvat (a) de aanschaffingsprijs van de gebruikte grondstoffen, verbruiksgoederen en hulpstoffen, (b) de productiekosten die rechtstreeks aan het individuele product kunnen worden toegerekend (directe productiekosten), en (c) het evenredig deel van de productiekosten die slechts onrechtstreeks aan het individuele product kunnen worden toegerekend (indirecte productiekosten). De opname van (c) is een keuze die in de waarderingsregels wordt vastgelegd: 'full costing' (alle (c) opnemen) of 'direct costing' (enkel het variabele deel of niets opnemen).",
     "confidence": "grounded",
-    "source": {"type": "cbn", "short": "CBN 132/7 §2.1 jo. CBN 2012/15 jo. KB 21.10.2018 art. 22"},
+    "source": {
+      "type": "cbn",
+      "short": "CBN 132/7 §2.1 jo. CBN 2012/15 jo. KB 21.10.2018 art. 22"
+    },
     "references": [
-      {"type": "kb", "short": "KB 21.10.2018 art. 22"},
-      {"type": "cbn", "short": "CBN 132/7 §2.1"},
-      {"type": "cbn", "short": "CBN 2012/15"}
+      {
+        "type": "kb",
+        "short": "KB 21.10.2018 art. 22"
+      },
+      {
+        "type": "cbn",
+        "short": "CBN 132/7 §2.1"
+      },
+      {
+        "type": "cbn",
+        "short": "CBN 2012/15"
+      }
     ],
     "_provenance": {
       "inputs": [
-        {"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs", "sha256": null, "version": "rag-v1"},
-        {"id": "CBN-2012-15-bestellingen-in-uitvoering__sec_defini-ring-van-de-vervaardigingprijs-bij-bestellingen-in-ui", "sha256": null, "version": "rag-v1"}
+        {
+          "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "CBN-2012-15-bestellingen-in-uitvoering__sec_defini-ring-van-de-vervaardigingprijs-bij-bestellingen-in-ui",
+          "sha256": null,
+          "version": "rag-v1"
+        }
       ]
     }
   },
@@ -36,10 +61,17 @@
       "voorbeeld_inline": "Yperse Werkplaats BV produceert een partij tapijten. (a) Wol verwerkt: € 12.000. (b) Directe arbeid naaisters: € 4.500. (c) Indirecte productiekosten verdeeld (huur + energie weverij × 8 % van jaarcapaciteit): € 3.500. Vervaardigingsprijs partij = € 20.000.",
       "grondslag": "KB 21.10.2018 art. 22 · CBN 132/7 §2.1",
       "confidence": "grounded",
-      "source": {"type": "cbn", "short": "CBN 132/7 §2.1"},
+      "source": {
+        "type": "cbn",
+        "short": "CBN 132/7 §2.1"
+      },
       "_provenance": {
         "inputs": [
-          {"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -50,11 +82,22 @@
       "voorbeeld_inline": "Yperse Werkplaats BV slaat de partij tapijten op in voorraad. Bij full costing: voorraadwaarde € 20.000 (inclusief € 3.500 indirect). Bij direct costing: voorraadwaarde € 16.500 (zonder indirect); de € 3.500 is meteen periode-kost in de RR.",
       "grondslag": "CBN 2012/15",
       "confidence": "grounded",
-      "source": {"type": "cbn", "short": "CBN 2012/15"},
+      "source": {
+        "type": "cbn",
+        "short": "CBN 2012/15"
+      },
       "_provenance": {
         "inputs": [
-          {"id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-full-costing", "sha256": null, "version": "rag-v1"},
-          {"id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-full-costing",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
@@ -65,10 +108,17 @@
       "voorbeeld_inline": "Het loon van een verkoper bij Yperse Werkplaats BV (€ 65.000/jaar inclusief lasten) gaat NIET in de vervaardigingsprijs van de tapijten; het is meteen periode-kost. Idem voor accountantshonoraria en commerciële advertenties.",
       "grondslag": "CBN 132/7 §2.1",
       "confidence": "grounded",
-      "source": {"type": "cbn", "short": "CBN 132/7 §2.1"},
+      "source": {
+        "type": "cbn",
+        "short": "CBN 132/7 §2.1"
+      },
       "_provenance": {
         "inputs": [
-          {"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
@@ -132,9 +182,21 @@
           "naam": "Vervaardigingsprijs (full costing)",
           "wiskunde": "vervaardigingsprijs = direct materiaal + directe productiekosten + toegerekende indirecte productiekosten",
           "variabelen": [
-            {"symbool": "direct materiaal", "betekenis": "Verbruikt materiaal aan voorraadprijs", "eenheid": "EUR"},
-            {"symbool": "directe productiekosten", "betekenis": "Arbeid en andere rechtstreeks toewijsbare kosten", "eenheid": "EUR"},
-            {"symbool": "toegerekende indirecte productiekosten", "betekenis": "Sleutel-tarief × eenheden van het product", "eenheid": "EUR"}
+            {
+              "symbool": "direct materiaal",
+              "betekenis": "Verbruikt materiaal aan voorraadprijs",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "directe productiekosten",
+              "betekenis": "Arbeid en andere rechtstreeks toewijsbare kosten",
+              "eenheid": "EUR"
+            },
+            {
+              "symbool": "toegerekende indirecte productiekosten",
+              "betekenis": "Sleutel-tarief × eenheden van het product",
+              "eenheid": "EUR"
+            }
           ],
           "invulling_voorbeeld": {
             "waarden": "Yperse partij tapijten: materiaal € 12.000, directe arbeid € 4.500, toegerekend overhead € 3.600",
@@ -143,11 +205,18 @@
           }
         }
       ],
-      "source": {"type": "cbn", "short": "CBN 132/7 §2.1 — synthese"},
+      "source": {
+        "type": "cbn",
+        "short": "CBN 132/7 §2.1 — synthese"
+      },
       "confidence": "grounded",
       "_provenance": {
         "inputs": [
-          {"id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "CBN-0132-07-boeking-en-waardering-van-voorraden__sec_vervaardigingsprijs",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     }
@@ -156,28 +225,59 @@
     {
       "text": "De aanschaffingsprijs van het materiaal is niet de factuurprijs, maar de factuurprijs inclusief aanverwante kosten (transport, niet-aftrekbare BTW, douane) en na korting. Examen-valkuil: studenten gebruiken de bruto factuurprijs.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     },
     {
       "text": "Direct costing kiezen voor voorraadwaardering is wettelijk toegelaten (mits consistent en gemeld in waarderingsregels), maar leidt tot lagere voorraad en lagere periode-winst in groeijaren. De toelichting moet de methodekeuze vermelden.",
       "confidence": "grounded",
-      "source": {"type": "cbn", "short": "CBN 2012/15"},
+      "source": {
+        "type": "cbn",
+        "short": "CBN 2012/15"
+      },
       "_provenance": {
         "inputs": [
-          {"id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing", "sha256": null, "version": "rag-v1"}
+          {
+            "id": "CBN-2012-15-bestellingen-in-uitvoering__sec_waarderingsaspecten-n-a-v-de-toepassing-van-direct-costing",
+            "sha256": null,
+            "version": "rag-v1"
+          }
         ]
       }
     },
     {
       "text": "Bij abnormaal lage productie (onderbenutting van capaciteit) mag de werkgever niet 'extra' overhead op de geproduceerde eenheden gooien om de voorraadwaarde op te krikken — onbenutte capaciteit blijft periode-kost. Internationale norm IAS 2 expliciet; Belgisch niet wetstekstmatig vastgelegd maar gangbare interpretatie.",
       "confidence": "inferred-common-knowledge",
-      "_provenance": {"inputs": []}
+      "_provenance": {
+        "inputs": []
+      }
     }
   ],
   "edges": [
-    {"type": "bevat", "target": "directe-kosten", "redenering": "Bestanddeel (a) en (b) zijn directe kosten.", "confidence": "inferred"},
-    {"type": "bevat", "target": "indirecte-kosten", "redenering": "Bestanddeel (c) zijn indirecte productiekosten.", "confidence": "inferred"},
-    {"type": "vergelijkt-met", "target": "direct-costing", "redenering": "Tegenpool van full costing.", "confidence": "inferred"},
-    {"type": "onderdeel-van", "target": "volledige-kostencalculatie", "redenering": "Vervaardigingsprijs is kern van volledige-kosten-aanpak.", "confidence": "inferred"}
+    {
+      "type": "bevat",
+      "target": "directe-kosten",
+      "redenering": "Bestanddeel (a) en (b) zijn directe kosten.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "bevat",
+      "target": "indirecte-kosten",
+      "redenering": "Bestanddeel (c) zijn indirecte productiekosten.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "direct-costing",
+      "redenering": "Tegenpool van full costing.",
+      "confidence": "inferred"
+    },
+    {
+      "type": "onderdeel-van",
+      "target": "volledige-kostencalculatie",
+      "redenering": "Vervaardigingsprijs is kern van volledige-kosten-aanpak.",
+      "confidence": "inferred"
+    }
   ]
 }
