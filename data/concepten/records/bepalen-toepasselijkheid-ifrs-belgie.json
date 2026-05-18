@@ -21,7 +21,7 @@
   "gebaseerd_op_concepten": [
     "ifrs-verordening-1606-2002",
     "ifrs-toepassingsgebied-belgie",
-    "richtlijn-2013-34-eu",
+    "eu-harmonisatie-jaarrekeningenrecht",
     "be-gaap-vs-ifrs-overzicht"
   ],
   "procedure_grondslag": {
@@ -163,5 +163,12 @@
     "1.5.III",
     "1.5.I"
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T07:57:32Z",
+  "anchor_propagation_log": [
+    {
+      "added_by": "concept-extractie-v4-2026-05-18T12:00Z",
+      "added_at": "2026-05-18T12:00:00Z",
+      "reason": "gebaseerd_op_concepten: richtlijn-2013-34-eu → eu-harmonisatie-jaarrekeningenrecht (bron-record vervangen door fenomeen-record)"
+    }
+  ]
 }

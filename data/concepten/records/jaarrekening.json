@@ -6,14 +6,16 @@
   "status": "seed",
   "linked_anchors": [
     "1.1.II.S",
-    "1.1.II.Q"
+    "1.1.II.Q",
+    "1.5.I"
   ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.II.S",
     "dekt_ook_anchors": [
-      "1.1.II.Q"
+      "1.1.II.Q",
+      "1.5.I"
     ],
     "reviewed_by": null
   },
@@ -268,5 +270,13 @@
       "omschrijving": "Naaiatelier Ninove BV (omzet € 1.250.000, balanstotaal € 1.850.000, 18 werknemers) overschrijdt de drempel voor 'kleine vennootschap' op één criterium → moet jaarrekening in **verkort schema** opstellen. Balans + RR + toelichting + (geen sociale balans want < 20 VTE). Indiening bij NBB binnen 30 dagen na goedkeuring AV."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "anchor_propagation_log": [
+    {
+      "anchor": "1.5.I",
+      "added_by": "concept-extractie-v4-2026-05-18T12:00Z",
+      "added_at": "2026-05-18T12:00:00Z",
+      "reason": "richtlijn-2013-34-eu (bron-record) verwijderd; fenomeen-content leeft hier — propagatie voor coverage 1.5.I"
+    }
+  ]
 }

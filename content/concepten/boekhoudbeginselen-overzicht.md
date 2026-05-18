@@ -5,15 +5,18 @@ tags:
 - synthese
 - po-1-1
 - po-1-2
+- po-1-5
 linked_anchors:
 - 1.1.I
 - 1.1.I.B
 - 1.1.II.S
 - 1.2.V
 - 1.2.V.A
+- 1.5.I
 programmaonderdelen:
 - '1.1'
 - '1.2'
+- '1.5'
 confidence: inferred
 node_type: synthese
 status: seed

@@ -9,7 +9,8 @@
     "1.1.I.B",
     "1.1.II.S",
     "1.2.V",
-    "1.2.V.A"
+    "1.2.V.A",
+    "1.5.I"
   ],
   "gebaseerd_op_concepten": [
     "continuiteitsbeginsel",
@@ -29,7 +30,8 @@
       "1.1.I",
       "1.1.II.S",
       "1.2.V",
-      "1.2.V.A"
+      "1.2.V.A",
+      "1.5.I"
     ]
   },
   "inleiding": {
@@ -176,5 +178,13 @@
       "type": "vereist-kennis-van"
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "anchor_propagation_log": [
+    {
+      "anchor": "1.5.I",
+      "added_by": "concept-extractie-v4-2026-05-18T12:00Z",
+      "added_at": "2026-05-18T12:00:00Z",
+      "reason": "richtlijn-2013-34-eu (bron-record) verwijderd; fenomeen-content leeft hier — propagatie voor coverage 1.5.I"
+    }
+  ]
 }

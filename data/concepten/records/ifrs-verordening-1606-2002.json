@@ -244,27 +244,7 @@
       }
     }
   ],
-  "vergelijkingsparen": [
-    {
-      "vergelijking_met": "richtlijn-2013-34-eu",
-      "verschil": "Een **verordening** (1606/2002) werkt rechtstreeks in alle lidstaten — geen omzetting nodig; een **richtlijn** (2013/34/EU) verplicht lidstaten om hun nationale wetgeving aan te passen. Daarom citeer je de IFRS-verordening rechtstreeks; voor BE-GAAP citeer je de Belgische omzetting (WVV / KB WVV), niet de richtlijn zelf.",
-      "trigger": "Bij vraag naar 'juridisch instrument' of 'rechtsbron': verordening = direct EU-recht, richtlijn = omgezet in nationaal recht.",
-      "_provenance": {
-        "inputs": [
-          {
-            "id": "EU-IFRS-verordening-1606-2002__art_1",
-            "sha256": null,
-            "version": "rag-v1"
-          },
-          {
-            "id": "Richtlijn-2013-34-EU__art_1",
-            "sha256": null,
-            "version": "rag-v1"
-          }
-        ]
-      }
-    }
-  ],
+  "vergelijkingsparen": [],
   "valkuilen": [
     {
       "text": "De verordening verplicht alleen beursgenoteerde **EU**-ondernemingen voor hun **geconsolideerde** jaarrekening. Een beursgenoteerde Amerikaanse onderneming op Euronext is niet onderworpen aan deze verordening — die volgt US-GAAP of een gelijkwaardig kader.",

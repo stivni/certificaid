@@ -9,7 +9,8 @@
     "1.4.I.B",
     "1.4.I.F",
     "1.4.II.B",
-    "1.4.taak.1"
+    "1.4.taak.1",
+    "1.5.I"
   ],
   "_provenance": {
     "extractor_run": "concept-extractie-v3-2026-05-15T13:36Z",
@@ -19,7 +20,8 @@
       "1.4.I.B",
       "1.4.I.F",
       "1.4.II.B",
-      "1.4.taak.1"
+      "1.4.taak.1",
+      "1.5.I"
     ],
     "reviewed_by": null,
     "schema_1_4_migration": {
@@ -393,5 +395,13 @@
       "omschrijving": "Aurelia Holding NV controleert Brugse Brouwerij BV (90 %) en Bouwwerf Beerse BV (70 %); samen 380 personeelsleden, 50 mln EUR omzet, 35 mln EUR balans → drempels overschreden → Aurelia is consolidatieplichtig en moet een geconsolideerde jaarrekening + jaarverslag opmaken, laten controleren en neerleggen bij de NBB."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T01:48:13Z",
+  "anchor_propagation_log": [
+    {
+      "anchor": "1.5.I",
+      "added_by": "concept-extractie-v4-2026-05-18T12:00Z",
+      "added_at": "2026-05-18T12:00:00Z",
+      "reason": "richtlijn-2013-34-eu (bron-record) verwijderd; fenomeen-content leeft hier — propagatie voor coverage 1.5.I"
+    }
+  ]
 }

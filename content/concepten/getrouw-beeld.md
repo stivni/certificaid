@@ -5,14 +5,17 @@ tags:
 - regel
 - po-1-1
 - po-1-2
+- po-1-5
 linked_anchors:
 - 1.1.I.B
 - 1.1.II.S
 - 1.2.V.A
 - 1.2.III.B
+- 1.5.I
 programmaonderdelen:
 - '1.1'
 - '1.2'
+- '1.5'
 confidence: grounded
 node_type: regel
 status: seed

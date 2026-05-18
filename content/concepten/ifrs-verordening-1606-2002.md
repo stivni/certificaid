@@ -84,12 +84,6 @@ _Grondslag: Verordening 1606/2002 art. 5 + CBN 2016/19_
 | Verplichting IFRS-toepassing | Beursnotering op een gereglementeerde markt van een EU-lidstaat op balansdatum + EU-rechtsvorm | kwalitatief criterium | Verplichte IFRS-toepassing op geconsolideerde jaarrekening voor boekjaren beginnend op of na 1 januari 2005 |
 
 
-> [!info]- Niet verwarren met [[richtlijn-2013-34-eu]]
-> Een **verordening** (1606/2002) werkt rechtstreeks in alle lidstaten — geen omzetting nodig; een **richtlijn** (2013/34/EU) verplicht lidstaten om hun nationale wetgeving aan te passen. Daarom citeer je de IFRS-verordening rechtstreeks; voor BE-GAAP citeer je de Belgische omzetting (WVV / KB WVV), niet de richtlijn zelf.
->
-> _Trigger_: Bij vraag naar 'juridisch instrument' of 'rechtsbron': verordening = direct EU-recht, richtlijn = omgezet in nationaal recht.
-
-
 ## Valkuilen
 
 > [!warning]- De verordening verplicht alleen beursgenoteerde **EU**-ondernemingen voor hun **geconsolideerde** jaarrekening
@@ -128,4 +122,3 @@ _Grondslag: Verordening 1606/2002 art. 5 + CBN 2016/19_
 [^5]: `EU-IFRS-verordening-1606-2002__art_3`
 [^6]: `EU-IFRS-verordening-1606-2002__art_6`
 [^7]: `CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0__sec_toepasselijke-rapporteringsstandaard`
-[^8]: `Richtlijn-2013-34-EU__art_1`

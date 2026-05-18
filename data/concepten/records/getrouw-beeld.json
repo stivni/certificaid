@@ -8,14 +8,16 @@
     "1.1.I.B",
     "1.1.II.S",
     "1.2.V.A",
-    "1.2.III.B"
+    "1.2.III.B",
+    "1.5.I"
   ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.1.I.B",
     "dekt_ook_anchors": [
-      "1.1.II.S"
+      "1.1.II.S",
+      "1.5.I"
     ],
     "reviewed_by": null,
     "po_1_2_extension": "2026-05-16: linked_anchors uitgebreid met ['1.2.V.A', '1.2.III.B'] door PO 1.2-extractie."
@@ -182,5 +184,13 @@
       "omschrijving": "Rotex Roeselare NV bezit een grond met aanschaffingswaarde € 1.200.000. Na een rampschade is de werkelijke waarde gezakt tot € 650.000. Het strikt volgen van 'aanschaffingswaarde − afschrijving' geeft geen getrouw beeld → uitzonderlijke waardevermindering van € 550.000 wordt geboekt, met motivering in de toelichting."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "anchor_propagation_log": [
+    {
+      "anchor": "1.5.I",
+      "added_by": "concept-extractie-v4-2026-05-18T12:00Z",
+      "added_at": "2026-05-18T12:00:00Z",
+      "reason": "richtlijn-2013-34-eu (bron-record) verwijderd; fenomeen-content leeft hier — propagatie voor coverage 1.5.I"
+    }
+  ]
 }

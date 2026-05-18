@@ -4,12 +4,15 @@ tags:
 - concept
 - regel
 - po-1-2
+- po-1-5
 linked_anchors:
 - 1.2.IV.B
 - 1.2.IV
 - 1.2.IV.C
+- 1.5.I
 programmaonderdelen:
 - '1.2'
+- '1.5'
 confidence: grounded
 node_type: regel
 status: seed

@@ -1,0 +1,333 @@
+{
+  "id": "eu-harmonisatie-jaarrekeningenrecht",
+  "naam": "EU-harmonisatie van het jaarrekeningenrecht",
+  "node_type": "cluster",
+  "schema_version": "1.5",
+  "status": "seed",
+  "linked_anchors": [
+    "1.5.I",
+    "1.5.taak.1"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-18T12:00Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.5.I",
+    "linked_anchors": [
+      "1.5.I",
+      "1.5.taak.1"
+    ],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Het Europese kader dat de **minimuminhoud** en de **gemeenschappelijke beginselen** voor de jaarrekening en de geconsolideerde jaarrekening van vennootschappen vastlegt, met de bedoeling de financiële verslaggeving in de hele Europese Unie vergelijkbaar te maken. Het is niet één wettekst maar een **tweesporig systeem**: een richtlijn die per lidstaat in nationaal recht moet worden omgezet (Richtlijn 2013/34/EU), naast een verordening die rechtstreeks IFRS oplegt voor beursgenoteerde geconsolideerde rekeningen (Verordening 1606/2002). De richtlijn werkt via **coördinatiemaatregelen** op de nationale wettelijke en bestuursrechtelijke bepalingen — niet via rechtstreekse toepassing op ondernemingen.",
+    "confidence": "grounded",
+    "source": {
+      "type": "richtlijn",
+      "short": "Richtlijn 2013/34/EU art. 1"
+    },
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "Richtlijn-2013-34-EU__art_1",
+          "sha256": null,
+          "version": "rag-v1"
+        },
+        {
+          "id": "Richtlijn-2013-34-EU__art_4",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "in_praktijk": [
+    {
+      "aspect": "Waarom de stagiair de richtlijn meestal niet rechtstreeks citeert",
+      "betekenis": "Richtlijn 2013/34/EU werkt niet rechtstreeks op Belgische ondernemingen. De Belgische omzettingstekst (Wetboek van vennootschappen en verenigingen + KB van 29 april 2019 tot uitvoering van het WVV) is de wet die je in een audit-dossier of toelichting citeert. De richtlijn verschijnt typisch alleen in CBN-adviezen die uitleggen waarom een Belgische regel die vorm heeft.",
+      "herkenningspunt": "In CBN-adviezen lees je vaak: 'het koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU heeft …' — dat is de schakel tussen het EU-kader en de Belgische tekst.",
+      "confidence": "grounded",
+      "source": {
+        "type": "advies",
+        "short": "CBN 2017/08 — Inleiding"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-08-cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "aspect": "Twee EU-sporen naast elkaar",
+      "betekenis": "Eén beursgenoteerde Belgische groep zoals Zelena Bio NV werkt **gelijktijdig** in twee EU-kaders: de geconsolideerde jaarrekening volgens **IFRS** (Verordening 1606/2002, rechtstreeks van toepassing), de statutaire jaarrekening volgens **Belgisch GAAP** (de KB WVV-omzetting van Richtlijn 2013/34/EU). Een grote niet-beursgenoteerde NV zoals Rotex Roeselare NV werkt op beide niveaus binnen Belgisch GAAP.",
+      "confidence": "grounded",
+      "source": {
+        "type": "verordening",
+        "short": "EU-IFRS-verordening 1606/2002 art. 4 + Richtlijn 2013/34/EU"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_4",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "Richtlijn-2013-34-EU__art_4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "bouwstenen": [
+    {
+      "titel": "Coördinatiemaatregelen, geen rechtstreekse werking",
+      "wat": "Richtlijn 2013/34/EU werkt via **coördinatiemaatregelen op de wettelijke en bestuursrechtelijke bepalingen van de lidstaten** — niet op vennootschappen zelf. Elke lidstaat zet de richtlijn om in eigen recht (in België: WVV + KB WVV van 29 april 2019, gevoed door het KB van 18 december 2015 dat de eigenlijke omzetting deed).",
+      "waarom": "Een richtlijn (in tegenstelling tot een verordening) laat lidstaten ruimte voor de manier van implementeren. Dat verklaart waarom Belgische schemabepalingen in detail kunnen verschillen van die van een Nederlandse onderneming, ook al delen ze dezelfde Europese kern.",
+      "in_praktijk": "Bij twijfel over de bron van een Belgische regel: zoek in CBN-adviezen of in de toelichting van het KB WVV — daar wordt de richtlijn-oorsprong vaak expliciet vermeld.",
+      "grondslag": "Richtlijn 2013/34/EU art. 1; CBN 2017/08 Inleiding",
+      "confidence": "grounded",
+      "source": {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU art. 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Richtlijn-2013-34-EU__art_1",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "CBN-2017-08-cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Minimuminhoud + lidstaat-opties",
+      "wat": "De richtlijn schrijft een **minimumset** voor (balans, winst-en-verliesrekening, toelichting — art. 4 lid 1) en geeft lidstaten daarnaast **opties** om strenger te zijn: extra overzichten voor middelgrote en grote ondernemingen (bv. kasstroomoverzicht), reële-waarde-waardering op bepaalde activa, herwaarderingsmodellen voor materiële vaste activa.",
+      "waarom": "Door minimumharmonisatie + opties kan de richtlijn EU-breed werken zonder elke lidstaat in een keurslijf te dwingen. België heeft enkele opties wél (bv. micromodel) en andere niet (bv. herwaardering tegen reële waarde voor financiële instrumenten is beperkt) overgenomen.",
+      "in_praktijk": "Wanneer je leest dat 'lidstaten kunnen voorschrijven dat …' of 'lidstaten kunnen toestaan dat …', staat de bepaling niet automatisch in het Belgische recht. Zoek de Belgische tekst om zeker te zijn.",
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Rotex Roeselare NV (grote NV) maakt naast balans, WVR en toelichting óók een kasstroomoverzicht en mutatieoverzicht eigen vermogen — die zijn in België verplicht voor grote vennootschappen via KB WVV, gebaseerd op de lidstaat-optie in art. 4 lid 1 van de richtlijn.",
+          "confidence": "grounded"
+        }
+      ],
+      "grondslag": "Richtlijn 2013/34/EU art. 4 lid 1; KB WVV art. 3:104",
+      "confidence": "grounded",
+      "source": {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU art. 4 lid 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Richtlijn-2013-34-EU__art_4",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "Koninklijk-besluit-van-29-april-2019__art_3_104",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Groottecategorieën als reguleringsknop",
+      "wat": "De richtlijn definieert vier groottecategorieën (micro, klein, middelgroot, groot — art. 3) op basis van balanstotaal, omzet en gemiddeld personeelsbestand. Per categorie schalen de toelichtingsverplichtingen, schema-detail en publicatieplicht. Lidstaten kunnen **kleine** en **middelgrote** drempels binnen marges optrekken; voor **groot** is de drempel niet optioneel.",
+      "waarom": "Hetzelfde regelboek toepassen op een micro-onderneming en op een multinational is disproportioneel. Door de drempels te koppelen aan grootte verdeelt de richtlijn de regulatoire last.",
+      "in_praktijk": "De Belgische groottecriteria in WVV art. 1:24-1:27 zijn een 1-op-1-omzetting van art. 3 van de richtlijn — de cijfers (€ 11.250.000 / € 22.500.000 / 50 FTE voor klein) zijn EU-bepaald.",
+      "grondslag": "Richtlijn 2013/34/EU art. 3",
+      "confidence": "grounded",
+      "source": {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU art. 3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Richtlijn-2013-34-EU__art_3",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Tweesporig EU-kader: richtlijn + IFRS-verordening",
+      "wat": "De richtlijn is **niet het enige** EU-instrument voor jaarrekeningen. Verordening (EG) 1606/2002 verplicht alle EU-beursgenoteerde vennootschappen om hun **geconsolideerde** jaarrekening volgens IFRS op te stellen, rechtstreeks van toepassing. Voor statutaire rekeningen of niet-beursgenoteerde groepen blijft de richtlijn (via nationale omzetting) leidend.",
+      "waarom": "Beursgenoteerde groepen worden vergeleken door investeerders over EU-grenzen heen — daar volstaat een richtlijn (met lidstaat-verschillen) niet, een uniform stelsel (IFRS) is nodig. Voor de duizenden niet-beursgenoteerde KMO's blijft een richtlijn-met-flexibiliteit pragmatischer.",
+      "grondslag": "Verordening (EG) 1606/2002 art. 4; Richtlijn 2013/34/EU considerans",
+      "confidence": "grounded",
+      "source": {
+        "type": "verordening",
+        "short": "Verordening 1606/2002 art. 4"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_4",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "CbCR — winstbelastingverslag voor multinationals (art. 48)",
+      "wat": "Uiteindelijke moederondernemingen onder nationaal recht met een **geconsolideerde omzet > € 750.000.000** in twee opeenvolgende boekjaren moeten een afzonderlijk **verslag inzake informatie over de winstbelasting** (country-by-country tax report) opstellen, publiceren en toegankelijk maken. Toegevoegd aan de richtlijn via een latere wijziging.",
+      "waarom": "Reactie op de OESO-BEPS-discussie: transparantie over waar grote groepen winst rapporteren en belastingen betalen. Geldt voor alle EU-multinationals + grote dochters van niet-EU-moeders.",
+      "in_praktijk": "Voor een Belgische groep zoals Zelena Bio NV (geconsolideerde omzet € 250M) speelt CbCR-rapportering nog niet — drempel niet bereikt. Voor een hypothetische grote groep met € 900M omzet zou dit een aparte rapportering opleveren bovenop de geconsolideerde jaarrekening.",
+      "grondslag": "Richtlijn 2013/34/EU art. 48 lid 1",
+      "confidence": "grounded",
+      "source": {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU art. 48 lid 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Richtlijn-2013-34-EU__art_48__sub_lid1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Citeer in een audit-dossier of toelichting **nooit** de richtlijn als rechtsgrond — gebruik de Belgische omzetting (WVV-artikel of KB WVV-artikel). De richtlijn is geen rechtsregel voor de Belgische onderneming zelf.",
+      "confidence": "inferred",
+      "source": {
+        "type": "doctrine",
+        "short": "Algemene Europese rechtsleer"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2017-08-cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Verwar de richtlijn niet met IFRS. 'Europese boekhoudregels' betekent in 95% van de gevallen Richtlijn 2013/34/EU (basis van Belgisch GAAP), niet IFRS. IFRS is geregeld in Verordening 1606/2002 en geldt rechtstreeks voor beursgenoteerde geconsolideerde rekeningen.",
+      "confidence": "grounded",
+      "source": {
+        "type": "verordening",
+        "short": "Verordening 1606/2002 art. 1"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "EU-IFRS-verordening-1606-2002__art_1",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Lidstaat-opties zijn geen automatische verplichting. Wanneer een richtlijntekst zegt 'de lidstaten kunnen …', is de bepaling pas relevant nadat je hebt vastgesteld dat België de optie heeft overgenomen (zoek in WVV/KB WVV).",
+      "confidence": "inferred",
+      "source": {
+        "type": "richtlijn",
+        "short": "Richtlijn 2013/34/EU art. 4 lid 1, art. 8"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "Richtlijn-2013-34-EU__art_4",
+            "sha256": null,
+            "version": "rag-v1"
+          },
+          {
+            "id": "Richtlijn-2013-34-EU__art_8__sub_lid1-lid9",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "ifrs-verordening-1606-2002",
+      "verschil": "Richtlijn 2013/34/EU regelt het **basiskader** voor alle EU-ondernemingen via nationale omzetting (in België: WVV + KB WVV); Verordening 1606/2002 verplicht **uitsluitend beursgenoteerde groepen** om hun geconsolideerde jaarrekening volgens IFRS op te stellen — rechtstreeks van toepassing zonder nationale tussenstap.",
+      "trigger": "Examenvraag 'welke EU-norm bepaalt of IFRS verplicht is?' → Verordening 1606/2002. 'Welke EU-norm bepaalt de minimuminhoud van de Belgische jaarrekening?' → Richtlijn 2013/34/EU (via KB WVV)."
+    }
+  ],
+  "edges": [
+    {
+      "type": "vereist-kennis-van",
+      "target": "jaarrekening",
+      "redenering": "Art. 4 lid 1 van de richtlijn bepaalt wat een jaarrekening minstens moet bevatten — die regels leven in het record `jaarrekening` met Belgische omzetting.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "boekhoudbeginselen-overzicht",
+      "redenering": "Art. 6 bevat de algemene boekhoudbeginselen die de basis vormen voor het Belgische boekhoudrecht.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "getrouw-beeld",
+      "redenering": "Art. 4 lid 3-4 bevat het getrouw-beeld-beginsel + override-clausule die de Belgische omzetting voedt.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vereist-kennis-van",
+      "target": "groottecriteria-jaarrekening",
+      "redenering": "Art. 3 definieert de vier groottecategorieën met drempelwaarden die in het Belgische WVV art. 1:24-1:27 zijn omgezet.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "ifrs-verordening-1606-2002",
+      "aspect": "EU-instrument-type en toepassingsgebied",
+      "redenering": "Tweesporig EU-kader — richtlijn vs. verordening — een vaak voorkomende examenval.",
+      "confidence": "grounded"
+    },
+    {
+      "type": "getriggerd-door",
+      "target": "consolidatieverplichting",
+      "conditie": "art. 23 (kleine groepen vrijgesteld) levert de EU-grond voor de Belgische consolidatieplichtdrempels.",
+      "redenering": "De consolidatieplicht én haar vrijstellingen voor kleine groepen komen uit art. 22-23 van de richtlijn.",
+      "confidence": "grounded"
+    }
+  ],
+  "references": [
+    {
+      "type": "richtlijn",
+      "short": "Richtlijn 2013/34/EU van 26 juni 2013 (Europese jaarrekeningenrichtlijn)"
+    },
+    {
+      "type": "kb",
+      "short": "KB van 18 december 2015 (omzetting in Belgisch recht)"
+    },
+    {
+      "type": "kb",
+      "short": "KB van 29 april 2019 tot uitvoering van het WVV"
+    },
+    {
+      "type": "verordening",
+      "short": "Verordening (EG) 1606/2002 (IFRS-verordening)"
+    }
+  ]
+}

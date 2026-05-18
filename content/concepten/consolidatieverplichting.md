@@ -4,14 +4,17 @@ tags:
 - concept
 - regel
 - po-1-4
+- po-1-5
 linked_anchors:
 - 1.4.I.C
 - 1.4.I.B
 - 1.4.I.F
 - 1.4.II.B
 - 1.4.taak.1
+- 1.5.I
 programmaonderdelen:
 - '1.4'
+- '1.5'
 confidence: grounded
 node_type: regel
 status: seed

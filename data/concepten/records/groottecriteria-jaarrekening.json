@@ -7,7 +7,8 @@
   "linked_anchors": [
     "1.2.IV.B",
     "1.2.IV",
-    "1.2.IV.C"
+    "1.2.IV.C",
+    "1.5.I"
   ],
   "_provenance": {
     "extractor_run": "concept-extractie-v4-2026-05-16T00:00Z",
@@ -15,7 +16,8 @@
     "anchor_id": "1.2.IV.B",
     "dekt_ook_anchors": [
       "1.2.IV",
-      "1.2.IV.C"
+      "1.2.IV.C",
+      "1.5.I"
     ],
     "reviewed_by": null
   },
@@ -316,5 +318,13 @@
       "omschrijving": "Meubelzaak Mertens BV heeft op 31/12/2024: 12 werknemers, € 4.500.000 omzet, € 2.100.000 balanstotaal → onder kleine-vennootschap-drempels op alle 3 criteria → kleine vennootschap → mag verkort schema gebruiken."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "anchor_propagation_log": [
+    {
+      "anchor": "1.5.I",
+      "added_by": "concept-extractie-v4-2026-05-18T12:00Z",
+      "added_at": "2026-05-18T12:00:00Z",
+      "reason": "richtlijn-2013-34-eu (bron-record) verwijderd; fenomeen-content leeft hier — propagatie voor coverage 1.5.I"
+    }
+  ]
 }
