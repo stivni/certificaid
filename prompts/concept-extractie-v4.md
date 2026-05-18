@@ -487,6 +487,7 @@ Werkwijze bij verouderde anchor:
 5. **Confidence eerlijk**: `grounded` alleen als chunk-tekst het concept direct bevat.
 6. **Nieuwe records status `seed`**: `"status": "seed"` op alle nieuw geschreven records.
 7. **Bron-gaps signaleren, niet maskeren**: wanneer retrieval structureel tekortschiet (bv. chunking-artefact, ontbrekende primaire bron), schrijf een `bron-gap`-entry in `data/extractie/gaps.json` in plaats van te omzeilen.
+8. **Discrepantie-driven bron-verificatie**: wanneer een bestaand record een claim maakt die niet duidelijk klopt met de top-K-chunks die je hebt opgehaald — **lees de volledige bron-MD** uit `resources/bronnen/...` voor breder context, gebruik daarvoor een directe file-read of `grep -A 20 <pattern> <bestand>`. Doe dit ook proactief wanneer een record een complex regulatorisch onderwerp dekt (CBN-advies, ISA, IFRS-standaard) en je een belangrijke wijziging overweegt. Chunks zijn een retrieval-projectie; de bron-MD is de waarheid. Embeddings kunnen verkeerd ranken, chunkers kunnen secties verbergen — bij twijfel altijd terug naar de bron-tekst. Zonder deze stap dragen we mogelijk bestaande hallucinaties over.
 
 Cross-bron-synthese: wanneer hetzelfde fenomeen in 2+ chunks uit 2+ bronnen wordt aangehaald, aggregeer tot één expliciete enumeratie of vergelijking met confidence `inferred-from-aggregation` en alle bijdragende chunk-ids in `_provenance.inputs`.
 
