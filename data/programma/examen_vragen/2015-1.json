@@ -901,12 +901,17 @@
       "vak_naam_in_pdf": "Analyse en kritische beoordeling van de jaarrekening",
       "vraagtype": "MC",
       "vraagtekst": "Vraag 4 … / 6 punten\n\na) Wat is een positief consolidatieverschil ? Antwoord … / 2 punten\n\nb) Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ? Antwoord … / 4 punten",
-      "correct_antwoord": null,
-      "antwoord_motivering": null,
+      "correct_antwoord": "Zie antwoorden per subvraag (a en b).",
+      "antwoord_motivering": "Combinatievraag — definitie + opsomming. Zie subvragen[].antwoord_motivering per deelvraag.",
       "themas": [
         "consolidatie"
       ],
-      "wets_verwijzingen": [],
+      "wets_verwijzingen": [
+        "KB WVV art. 3:130",
+        "KB WVV art. 3:131",
+        "KB WVV art. 3:128",
+        "Richtlijn 2013/34/EU art. 24, lid 3, c)"
+      ],
       "opties": [
         {
           "label": "A",
@@ -922,19 +927,95 @@
           "label": "a)",
           "tekst": "Wat is een positief consolidatieverschil ?",
           "punten": null,
-          "antwoord_bron": null,
-          "antwoord_provenance": null
+          "antwoord_bron": [
+            {
+              "record": "content/concepten/consolidatieverschil.md",
+              "sectie": "Bouwstenen — Positief consolidatieverschil = goodwill",
+              "ondersteunt": "definitie + actiefzijde + afschrijving"
+            },
+            {
+              "record": "content/concepten/consolidatieverschil.md",
+              "sectie": "Berekening (stappen 1-5)",
+              "ondersteunt": "toerekening vóór residu-boeking"
+            },
+            {
+              "record": "content/concepten/eerste-consolidatie.md",
+              "sectie": "Stappen",
+              "ondersteunt": "scope: enkel bij eerste consolidatie"
+            }
+          ],
+          "antwoord_provenance": {
+            "generator": "claude-opus-4-7",
+            "datum": "2026-05-19",
+            "antwoord_type": "definitie",
+            "checklist_versie": "1.0",
+            "verify_passed": true,
+            "policy_versie_wet": "huidig",
+            "gates_gepasseerd": [
+              "circular_definition",
+              "claim_coverage",
+              "geen_externe_kennis"
+            ]
+          },
+          "antwoord_type": "definitie",
+          "correct_antwoord": "Het consolidatieverschil dat ontstaat wanneer de moeder voor de aandelen méér betaalt dan haar pro-rata aandeel in het eigen vermogen van de dochter op aankoopdatum (na toerekening van het bruto-verschil aan onder- of overgewaardeerde bezittingen en schulden). Het residu is dan positief en wordt aan actiefzijde van de geconsolideerde balans geboekt onder de post 'Consolidatieverschillen', afgeschreven over de vermoedelijke gebruiksduur.",
+          "antwoord_motivering": "Een positief consolidatieverschil ontstaat bij **eerste consolidatie** van een dochter wanneer de aanschaffingswaarde van de aandelen groter is dan het pro-rata aandeel van de moeder in het eigen vermogen van de dochter op aankoopdatum, **na** toerekening van het bruto-verschil aan onder- of overgewaardeerde bezittingen en schulden van de dochter. ⚖️ Het residu (= het deel dat niet aan specifieke posten kan worden toegerekend) wordt aan **actiefzijde** van de geconsolideerde balans geboekt onder de post 'Consolidatieverschillen'. ⚖️\n\nKerneigenschappen die het afbakenen:\n1. Ontstaat **enkel bij eerste consolidatie** van een dochter of geassocieerde — bij latere consolidaties (volgende boekjaren waarin de dochter al in de kring zit) wordt geen nieuw verschil meer geboekt; wel de afschrijving op het bestaande verschil. ⚖️\n2. Wordt **afgeschreven** over de vermoedelijke gebruiksduur als afzonderlijke post in de geconsolideerde resultatenrekening; afschrijving over meer dan 5 jaar vereist motivering in de toelichting. ⚖️\n\n_Grondslag: KB WVV art. 3:130 (boeking) jo. art. 3:131, § 1 (afschrijving)_",
+          "record_gap_report": null
         },
         {
           "label": "b)",
           "tekst": "Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ?",
           "punten": null,
-          "antwoord_bron": null,
-          "antwoord_provenance": null
+          "antwoord_bron": [
+            {
+              "record": "content/concepten/consolidatieverschil.md",
+              "sectie": "Oorzaken (positief, na pool-splitting 2026-05-19)",
+              "ondersteunt": "vier categorieën"
+            },
+            {
+              "record": "content/concepten/consolidatieverschil.md",
+              "sectie": "Berekening — stap 4 (Toerekening)",
+              "ondersteunt": "procedure toerekening vóór residu"
+            },
+            {
+              "record": "content/concepten/consolidatieverschil.md",
+              "sectie": "Bouwstenen — Positief consolidatieverschil = goodwill",
+              "ondersteunt": "goodwill als residu na toerekening"
+            }
+          ],
+          "antwoord_provenance": {
+            "generator": "claude-opus-4-7",
+            "datum": "2026-05-19",
+            "antwoord_type": "opsomming",
+            "checklist_versie": "1.0",
+            "verify_passed": true,
+            "policy_versie_wet": "huidig",
+            "gates_gepasseerd": [
+              "cluster_met_polen",
+              "claim_coverage",
+              "geen_externe_kennis"
+            ],
+            "opmerking": "Record-patch op consolidatieverschil.md (oorzaken pool-gesplitst, 4e positieve oorzaak toegevoegd) is een prerequisite — zie commit ADR-020 pilot 2026-05-19."
+          },
+          "antwoord_type": "opsomming",
+          "correct_antwoord": "(1) onder-gewaardeerde activa van de dochter; (2) over-gewaardeerde schulden of voorzieningen van de dochter; (3) niet-geboekte immateriële vaste activa (intern opgebouwde merken, klantenrelaties, knowhow); (4) werkelijke goodwill / overprijs (synergieën, controlepremie, marktpositie).",
+          "antwoord_motivering": "De vier voornaamste oorzaken van een **positief** consolidatieverschil:\n\n1. **Onder-gewaardeerde activa van de dochter** — werkelijke waarde > boekwaarde (stille meerwaarden op terreinen, gebouwen, voorraden, deelnemingen). De moeder betaalt de werkelijke waarde, terwijl de boekwaarde in de enkelvoudige jaarrekening lager staat. ⚖️\n2. **Over-gewaardeerde schulden of voorzieningen** van de dochter — werkelijke waarde < boekwaarde (te ruim ingeschatte voorzieningen of schulden). Na correctie blijft een kleiner residu over als consolidatieverschil. ⚖️\n3. **Niet-geboekte immateriële vaste activa** — intern opgebouwde merken, klantenrelaties, knowhow die in de enkelvoudige jaarrekening van de dochter niet activeerbaar waren maar wel economische waarde vertegenwoordigen. 🤖\n4. **Werkelijke goodwill / overprijs** — verwachte synergieën, controlepremie, marktpositie of strategische waarde die de moeder bereid is bovenop het netto-actief te betalen. Niet aan specifieke activa of schulden toerekenbaar; blijft als residu zitten en wordt afgeschreven over de vermoedelijke gebruiksduur. ⚖️\n\n**Procedure** (KB WVV art. 3:128 jo. art. 3:130, lid 1): oorzaken 1 t.e.m. 3 worden bij eerste consolidatie eerst toegerekend aan de betrokken posten ('voor zover mogelijk'); pas het residu daarna verschijnt als 'Consolidatieverschillen' aan actiefzijde. ⚖️ Oorzaak 4 (werkelijke goodwill) is per definitie het deel dat na toerekening overblijft.\n\n_Grondslag: KB WVV art. 3:128 (toerekening) jo. art. 3:130, lid 1 (procedure) jo. art. 3:131, § 1 (boeking + afschrijving). Europese Richtlijn 2013/34/EU art. 24, lid 3, c) duidt het residu uitdrukkelijk aan als 'goodwill'._",
+          "record_gap_report": null
         }
       ],
-      "antwoord_bron": null,
-      "antwoord_provenance": null
+      "antwoord_bron": [],
+      "antwoord_provenance": {
+        "generator": "claude-opus-4-7",
+        "datum": "2026-05-19",
+        "antwoord_type": "casus",
+        "checklist_versie": "1.0",
+        "verify_passed": true,
+        "policy_versie_wet": "huidig"
+      },
+      "antwoord_type": "casus",
+      "antwoord_confidence": "grounded",
+      "record_gap_report": null,
+      "vraagtekst_normalized_at": "2026-05-19"
     },
     {
       "id": "2015-1-vr12",

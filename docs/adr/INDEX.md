@@ -27,6 +27,7 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | [ADR-010](ADR-010-leermateriaal-tutor.md) | Leermateriaal & tutor | Draft |
 | [ADR-018](ADR-018-embedding-daemon.md) | Embedding-daemon voor concept-extractie | Draft |
 | [ADR-019](ADR-019-records-api.md) | Centrale records-API + RAG-parity discipline | Draft |
+| [ADR-020](ADR-020-modelantwoorden-voorbeeldexamens.md) | Modelantwoorden voor voorbeeldexamenvragen | Draft |
 
 ## Roadmap
 
@@ -48,6 +49,8 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | Concept-record opslaan, hernoemen of verwijderen (disk + RAG) | ADR-019 (records-API) |
 | RAG-parity controleren of herstellen | ADR-019 — `python3 -m tools.lib.records_api audit [--fix]` |
 | Examenvraag analyseren of genereren | ADR-009 (patronen), ADR-008 (extractie wanneer nieuw concept blijkt nodig) |
+| Modelantwoord schrijven voor echte voorbeeldexamenvraag | ADR-020 (pipeline + checklist + record-gap-flow), ADR-009 §6 (render), ADR-008 (gap-niveau c → extractie) |
+| OCR-vraagtekst normaliseren voor `data/programma/examen_vragen/` | ADR-020 §6 (import-gate) |
 | Leermateriaal-snapshot publiceren | ADR-010 (snapshots), ADR-002 (kenniselement-dekkingscheck) |
 | Tutor-antwoord debuggen | ADR-010 (tutor live), ADR-006 (RAG), ADR-007 (graph-walks) |
 | Iets reprocessen na bron-wijziging | ADR-003 (workflow), ADR-004 (provenance / stale-cascade) |

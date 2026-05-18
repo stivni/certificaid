@@ -1,0 +1,2216 @@
+{
+  "gegenereerd_op": "2026-05-18T22:07:03.192600+00:00",
+  "totaal_vragen": 253,
+  "totaal_subvragen": 283,
+  "totaal_geflagged": 83,
+  "flags": [
+    {
+      "examen_file": "2003-bibf.json",
+      "vraag_id": "2003-bibf-vrC1",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": ".... Op de balans staan volgende bedragen: … 4 PUNTEN ACTIVA Vaste activa 150.040,00...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2008-bibf.json",
+      "vraag_id": "2008-bibf-vrK5",
+      "subvraag_label": null,
+      "detector": "broken_table",
+      "snippet": "K.5 De echtgenoten Philippe en Isabelle, beiden erkend boekhouder(-fiscalist), hebben twee zonen (Frans en Jan) en één dochter (Mathilde). De drie kinderen zijn allen meerderjarig en studeren nog. Om ",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr2",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...en) aan te brengen in haar boekhouding. Antwoord Zij boekt de leverancierschuld ten opzi...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr2",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...terugbetaling aan haar aandeelhouders. Antwoord Zij boekt de vermindering van kapitaal...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr2",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...winkel die exclusieve juwelen verkoopt. Antwoord Zij dient de boekhouding te voeren volg...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr3",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...voor activering? Motiveer uw antwoord. Antwoord\n\nb) Zo ja, welke van de bovenvermelde k...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr3",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...e rubriek op te geven tot op 2 cijfers. Antwoord\n\nd) Over hoeveel jaar dient de ondernem...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr4",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...erveerd werd.\n\na) Nettobedrijfskapitaal Antwoord\n\nb) Brutoverkoopmarge (in %) Antwoord...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr4",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...l Antwoord\n\nb) Brutoverkoopmarge (in %) Antwoord\n\nc) Personeelskosten ten opzichte van d...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr5",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...ende begrippen :\n\na) Intrinsieke waarde Antwoord\n\nb) Fractiewaarde Antwoord\n\nc) Netto re...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr5",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...sieke waarde Antwoord\n\nb) Fractiewaarde Antwoord\n\nc) Netto rendabiliteit van de bedrijfs...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr5",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...tto rendabiliteit van de bedrijfsactiva Antwoord\n\nd) Algemene schuldgraad Antwoord\n\ne) O...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr5",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...ctiva Antwoord\n\nd) Algemene schuldgraad Antwoord\n\ne) Operationele cash flow voor belasti...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr14",
+      "subvraag_label": null,
+      "detector": "broken_table",
+      "snippet": "Vraag 1 … / 14 punten Hierna volgt de balans van de bvba Avenir, afgesloten op 31/12/2012: ACTIVA PASSIVA Materiële vaste activa € 25.000 Geplaatst kapitaal € 20.460 Voorraden € 7.500 Overgedragen win",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr14",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...uridisch standpunt, moet gedaan worden. Antwoord Deel III Voorts ruikt Albert M, samen m...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr15",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...l. Welke actie kon/kan men ondernemen?. Antwoord\n\nb) Wat gebeurt er met de effecten die...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr17",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...moeten toegepast worden op deze staat. Antwoord\n\nb) Welk soort controle ga je toepassen...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr24",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...astbare grondslag van deze vennootschap Antwoord\n\nb) Vul de bijgevoegde onderdelen van d...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr25",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...bij de stopzetting € 350 000,00 waard. Antwoord ROOSTER NR BEDRAG ROOSTER ROOSTER ROOST...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr25",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...promotiecampagne op Japans grondgebied. Antwoord ROOSTER NR BEDRAG ROOSTER ROOSTER ROOST...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr25",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...tingplichtige een transfertdocument op. Antwoord ROOSTER NR BEDRAG ROOSTER ROOSTER ROOST...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr26",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...effectieve beroepsgebruik 30% te zijn. Antwoord\n\nc) In 2008 : aankoop van een personenw...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr27",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...iteit van registratie wordt aangeboden. Antwoord  Geen, vast recht van 25 euro  250.00...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr31",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...n teruggaan om controle uit te oefenen. Antwoord\n\nd) Is de brief die de g",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr32",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...datum van inkohiering van de belasting. Antwoord\n\nb) Vermeld, in verband met de procedur...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr32",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...einddatum van dit belastbare tijdperk. Antwoord\n\nc) Toont, wat de aanwijzingen van bela...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-1.json",
+      "vraag_id": "2013-1-vr33",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...witwasverantwoordelijke? Geef er 3 op. Antwoord\n\nc) Wanneer een compliance officer of w...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr1",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...p van 10 laptops met software Windows 8 Antwoord … / 1 punt Dient zij de Windows softwar...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr1",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...oop van boekhoudsoftware bij firma XYZ. Antwoord … / 1 punt Kan zij dit opnemen in de ru...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr1",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...wijziging doorverkoopt aan haar klanten Antwoord … / 1 punt Te verwerken als handelsgoed...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr1",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...laptops met software Windows 8 Antwoord … / 1 punt Dient zij de Windows software...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr1",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...oekhoudsoftware bij firma XYZ. Antwoord … / 1 punt Kan zij dit opnemen in de rubr...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr1",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...doorverkoopt aan haar klanten Antwoord … / 1 punt Te verwerken als handelsgoeder...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr2",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...ens een langere economische levensduur. Antwoord … / 2 punten Zij kan de afschrijvingsre...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr2",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ers op de eerste bladzijde op: Antwoord … / 2 punten Zij neemt enkel de nieuwe be...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr2",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...angere economische levensduur. Antwoord … / 2 punten Zij kan de afschrijvingsrege...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr3",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...ven (enkel rubriek tot op twee cijfers) Antwoord … / 1 punt\n\nb) Over welke periode mag d...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr3",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...l rubriek tot op twee cijfers) Antwoord … / 1 punt\n\nb) Over welke periode mag de...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr3",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...rijs van € 30.000 afschrijven? Antwoord … / 3 punten Ja / Verklaar uw keuze met v...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr4",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...welk bedrag zal zij dit doen? Antwoord … / 2 punten\n\nb) Wat indien na acht jaar...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr4",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...dan de raming van 40.000 euro? Antwoord … / 2 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr5",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...erveerd werd.\n\na) Brutoverkoopmarge (%) Antwoord … / 2 punten\n\nb) Nettorentabiliteit van...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr5",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...or belastingen en financiële kosten (%) Antwoord … / 2 punten\n\nc) Liquiditeit in ruime z...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr5",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": ".../ 2 punten\n\nc) Liquiditeit in ruime zin Antwoord … / 2 punten",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr5",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...erd.\n\na) Brutoverkoopmarge (%) Antwoord … / 2 punten\n\nb) Nettorentabiliteit van h...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr5",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ingen en financiële kosten (%) Antwoord … / 2 punten\n\nc) Liquiditeit in ruime zin...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr5",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...n\n\nc) Liquiditeit in ruime zin Antwoord … / 2 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr7",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...Verklaar uw antwoord aangaande punt b. Antwoord … / 2 punten",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr7",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...iditeitsratio’s te berekenen ? Antwoord … / 2 punten\n\nb) Met welke elementen houd...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr7",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...n de liquiditeit in ruime zin? Antwoord … / 2 punten\n\nc) Verklaar uw antwoord aan...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr7",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...uw antwoord aangaande punt b. Antwoord … / 2 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr8",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ositief consolidatieverschil ? Antwoord … / 2 punten\n\nb) Geef de vier voornaamste...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr8",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ieve consolidatieverschillen ? Antwoord … / 8 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr12",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...essieve of corrigerende maatregel zijn. Antwoord Preventief Repressief Corrigerend Funct...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr13",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...gen van de interne boekhouder? Leg uit. Antwoord … / 4 punten\n\nb) De telling van de voor...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr13",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...echniek die je daarvoor gaat toepassen. Antwoord … / 4 punten  Controledoelstelling: ...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr13",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...e interne boekhouder? Leg uit. Antwoord … / 4 punten\n\nb) De telling van de voorra...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr13",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ie je daarvoor gaat toepassen. Antwoord … / 4 punten  Controledoelstelling:  Vo...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr14",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...at zult u uw cliënt adviseren? Antwoord … / 1 punt\n\nb) Waarom? Antwoord … / 2 pun...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr14",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ntwoord … / 1 punt\n\nb) Waarom? Antwoord … / 2 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr15",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...lsschulden 4.500,00 13.500,00 13.500,00 Antwoord … / 2 punten\n\n2. Tweede situatie Activa...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr15",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...lsschulden 9.500,00 13.500,00 13.500,00 Antwoord … / 2 punten",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr15",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...n 4.500,00 13.500,00 13.500,00 Antwoord … / 2 punten\n\n2. Tweede situatie Activa P...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr15",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...n 9.500,00 13.500,00 13.500,00 Antwoord … / 2 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr16",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...e kan die procedure opstarten? Antwoord … / 2 punten\n\nb) Na de oprichting van hun...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr16",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...periode is dit uitgesproken ? Antwoord … / 2 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr19",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...13).\n\na) Kruis het juiste antwoord aan. Antwoord … / 6 punten Ja Nee Kan in principe de...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr19",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...zoals in bijlage? Verklaar uw antwoord. Antwoord … / 2 punten Ja Nee\n\nc) Wie draagt de v...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr19",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...egint te cijferen en te controleren? e) Antwoord … / 3 punten\n\nf) Omschrijf en bereken d...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr19",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...ering, de staat van activa en passiva). Antwoord … / 4 punten Staat activa en passiva Do...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr19",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...Kruis het juiste antwoord aan. Antwoord … / 6 punten Ja Nee Kan in principe de CV...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr19",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...bijlage? Verklaar uw antwoord. Antwoord … / 2 punten Ja Nee\n\nc) Wie draagt de ver...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr19",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...antwoordelijkheid kan blijken? Antwoord … / 2 punten\n\nd) Geef drie voorbeelden va...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr19",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...cijferen en te controleren? e) Antwoord … / 3 punten\n\nf) Omschrijf en bereken de...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr19",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...staat van activa en passiva). Antwoord … / 4 punten Staat activa en passiva Door...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr19",
+      "subvraag_label": "e)",
+      "detector": "trailing_ellipses",
+      "snippet": "Antwoord … / 3 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr20",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...p minder dan 25% van de aandelen heeft. Antwoord … / 2 punten Juist Fout\n\nb) Het individ...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr20",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...geldt enkel voor Belgisch ingezetenen. Antwoord … / 2 punten Juist Fout\n\nc) Het individ...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr20",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...efend worden in geval van betwistingen. Antwoord … / 2 punten Juist Fout\n\nd) Het individ...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr20",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...voorbereiding van een jaarvergadering. Antwoord … / 2 punten Juist Fout",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr20",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...dan 25% van de aandelen heeft. Antwoord … / 2 punten Juist Fout\n\nb) Het individue...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr20",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...kel voor Belgisch ingezetenen. Antwoord … / 2 punten Juist Fout\n\nc) Het individue...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr20",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...den in geval van betwistingen. Antwoord … / 2 punten Juist Fout\n\nd) Het individue...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr20",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...iding van een jaarvergadering. Antwoord … / 2 punten Juist Fout",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr21",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...ar 2013 op haar naam zal belast worden. Antwoord … / 1,5 punten\n\nb) Moet het bedrag voor...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr21",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...e betrokken aanslagjaar wordt genoemd). Antwoord … / 1,5 punten\n\nd) Bereken het bedrag d...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr21",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...rag dat in de aangifte wordt ingevuld). Antwoord … / 1,5 punten",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr21",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...p haar naam zal belast worden. Antwoord … / 1,5 punten\n\nb) Moet het bedrag voor d...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr21",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...worden. Zo ja, in welke mate? Antwoord … / 1,5 punten\n\nc) Gedurende hoeveel jare...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr21",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...en aanslagjaar wordt genoemd). Antwoord … / 1,5 punten\n\nd) Bereken het bedrag dat...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr21",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...n de aangifte wordt ingevuld). Antwoord … / 1,5 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr22",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...stingplichtige het voordeligst uitkomt. Antwoord … / 10 punten",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr22",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...htige het voordeligst uitkomt. Antwoord … / 10 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr23",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...nettobaten over de vier laatste jaren. Antwoord … / 1 punt Waar Niet waar\n\nb) André is...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr23",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...belast tegen de aanslagvoet van 16,5%. Antwoord … / 1 punt Waar Niet waar\n\nc) De aftrek...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr23",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...elijk voor de baten van vrije beroepen. Antwoord … / 1 punt Waar Niet waar\n\nd) Wanneer e...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr23",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...erekening van het progressievoorbehoud. Antwoord … / 1 punt Waar Niet waar",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr23",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...en over de vier laatste jaren. Antwoord … / 1 punt Waar Niet waar\n\nb) André is lo...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr23",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...egen de aanslagvoet van 16,5%. Antwoord … / 1 punt Waar Niet waar\n\nc) De aftrek v...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr23",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...r de baten van vrije beroepen. Antwoord … / 1 punt Waar Niet waar\n\nd) Wanneer een...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr23",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...van het progressievoorbehoud. Antwoord … / 1 punt Waar Niet waar",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr24",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...gjaar 2013. Detailleer uw berekeningen. Antwoord … / 6 punten\n\nb) De verschuldigde venno...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr24",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...e verschuldigde vennootschapsbelasting. Antwoord … / 2 punten\n\nc) De eventuele overdrach...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr24",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...staftrek naar de volgende aanslagjaren. Antwoord … / 2 punten",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr24",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...3. Detailleer uw berekeningen. Antwoord … / 6 punten\n\nb) De verschuldigde vennoot...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr24",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ldigde vennootschapsbelasting. Antwoord … / 2 punten\n\nc) De eventuele overdrachte...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr24",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...naar de volgende aanslagjaren. Antwoord … / 2 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr26",
+      "subvraag_label": null,
+      "detector": "broken_table",
+      "snippet": "Vraag 1 … / 7 punten Moet er in het onderstaande geval een herziening van het recht op aftrek gebeuren ? Zo ja, bereken het bedrag ervan. Zo neen, zeg waarom. Alle bedragen zijn exclusief btw. Motivee",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr26",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...trekking tot :\n\na) Het gebouw: Antwoord … /1 punt\n\nb) De verbeteringswerken: Antw...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr26",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...unt\n\nb) De verbeteringswerken: Antwoord … /2 punten\n\nc) De stopzetting: Antwoord...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr26",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": ".../2 punten\n\nc) De stopzetting: Antwoord … /2 punten\n\nd) De diepvrieskasten: Antwo...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr26",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...punten\n\nd) De diepvrieskasten: Antwoord … /2 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr27",
+      "subvraag_label": null,
+      "detector": "broken_table",
+      "snippet": "b) BVBA ‘B’ (gewone belastingplichtige) stelt in 2013 een personenwagen ter beschikking aan haar enige werknemer. Op het maandelijkse loon wordt een bijdrage van 50,00 EUR ingehouden als vergoeding vo",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr27",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...het beroepsmatig gebruik van de wagen. Antwoord … / 3 punten\n\n2. Hoeveel btw kan deze B...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr27",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...nodige berekeningen en verklaar bondig. Antwoord … / 3 punten",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr27",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...epsmatig gebruik van de wagen. Antwoord … / 3 punten\n\n2. Hoeveel btw kan deze BVB...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr27",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...k brengen op de aankoopprijs ? Antwoord … / 2 punten\n\nb) BVBA ‘B’ (gewone belasti...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr27",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...rekeningen en verklaar bondig. Antwoord … / 3 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr28",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...m voor een bedrag van € 2.500) € 10.000 Antwoord … / 0,5 punt Aangenomen Niet aangenomen...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr28",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...erlijden op vakantie in Italië) € 2.000 Antwoord … / 0,5 punt Aangenomen Niet aangenomen...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr28",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...e begrafenis van de overledene) € 1.000 Antwoord … / 0,5 punt Aangenomen Niet aangenomen...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr28",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...emen op de begrafenisplechtigheid € 750 Antwoord … / 0,5 punt Aangenomen Niet aangenomen...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr28",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...van erfopvolging” heeft opgesteld € 250 Antwoord … / 0,5 punt Aangenomen Niet aangenomen...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr28",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...erwarmen: bedrag van de factuur € 2.500 Antwoord … / 0,5 punt Aangenomen Niet aangenomen...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr28",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...n bedrag van € 2.500) € 10.000 Antwoord … / 0,5 punt Aangenomen Niet aangenomen V...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr28",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...op vakantie in Italië) € 2.000 Antwoord … / 0,5 punt Aangenomen Niet aangenomen V...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr28",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...nis van de overledene) € 1.000 Antwoord … / 0,5 punt Aangenomen Niet aangenomen V...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr28",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...e begrafenisplechtigheid € 750 Antwoord … / 0,5 punt Aangenomen Niet aangenomen V...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr28",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...volging” heeft opgesteld € 250 Antwoord … / 0,5 punt Aangenomen Niet aangenomen V...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr28",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...bedrag van de factuur € 2.500 Antwoord … / 0,5 punt Aangenomen Niet aangenomen V...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr29",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...an de rechten dat zal worden toegepast. Antwoord … / 2 punten\n\nb) Bepaal de berekeningsg...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr29",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...an de rechten dat zal worden toegepast. Antwoord … / 2 punten\n\nc) Is het sub punt b) geg...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr29",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...hten dat zal worden toegepast. Antwoord … / 2 punten\n\nb) Bepaal de berekeningsgro...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr29",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...hten dat zal worden toegepast. Antwoord … / 2 punten\n\nc) Is het sub punt b) gegev...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr29",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...egen dezelfde prijs overneemt? Antwoord … / 1 punt Ja Nee",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr30",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...naar het inkomen en naar het vermogen. Antwoord … / 3 punten\n\nb) Ge",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr30",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...inkomen en naar het vermogen. Antwoord … / 3 punten\n\nb) Ge",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr31",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...2014, inkomsten 2013, moet behandelen. Antwoord …/ 2,5 punten\n\nb) of het overschot van...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr31",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...ting in België zal terugbetaald worden. Antwoord …/ 2,5 punten",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr31",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...komsten 2013, moet behandelen. Antwoord …/ 2,5 punten\n\nb) of het overschot van di...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr31",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...elgië zal terugbetaald worden. Antwoord …/ 2,5 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr32",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...etreft (verklaar uw antwoord)? Antwoord …/ 2 punten\n\nb) Is de antwoordtermijn wet...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr32",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...telijk (verklaar uw antwoord)? Antwoord …/ 2 punten\n\nc) Hoe moet tewerk gegaan wo...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr32",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...plegen (verklaar uw antwoord)? Antwoord …/ 2 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr34",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...r is de btw opeisbaar? Verklaar bondig. Antwoord … / 2,5 punten\n\nb) Wanneer treedt er ve...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr34",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...reedt er verjaring in? Verklaar bondig. Antwoord … / 2,5 punten",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr34",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...tw opeisbaar? Verklaar bondig. Antwoord … / 2,5 punten\n\nb) Wanneer treedt er verj...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr34",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...verjaring in? Verklaar bondig. Antwoord … / 2,5 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr35",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...gen naar tenminste 2 relevante teksten. Antwoord … / 1 punt",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr35",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...an de bovenstaande seminaries? Antwoord … / 2 punten\n\nb) Is de permanente vorming...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr35",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...t of is het een verplichting ? Antwoord … / 1 punt Aanbeveling Verplichting\n\nc) M...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr35",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...tenminste 2 relevante teksten. Antwoord … / 1 punt",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr36",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ven situatie te identificeren? Antwoord … / 3 punten\n\nb) Met welke documenten zal...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr36",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...eze identificatie onderbouwen? Antwoord … / 2 punten\n\nc) Welke gegevens dienen er...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr36",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...en er gecontroleerd te worden? Antwoord … / 2 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr38",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...an één van de dossiers die hij opvolgt. Antwoord … / 2,5 punten Ja Neen Licht kort toe w...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr38",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...is geen commissaris-revisor aangesteld. Antwoord … / 2,5 punten Ja Neen Licht kort toe w...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr38",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...n de dossiers die hij opvolgt. Antwoord … / 2,5 punten Ja Neen Licht kort toe waa...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2013-2.json",
+      "vraag_id": "2013-2-vr38",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ommissaris-revisor aangesteld. Antwoord … / 2,5 punten Ja Neen Licht kort toe waa...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr3",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ing van 100.000 EUR te boeken? Antwoord …/ 2 punten  de meerwaarde wordt op het...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr5",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...Bruto toegevoegde waarde per werknemer Antwoord  (7 441 663 – 3 185 295 – 1 192 317) :...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr5",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...0 = 68 761,86\n\nb) Nettobedrijfskapitaal Antwoord  1 371 010 + 1 739 806 + 2 200 000 + 2...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr5",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...a voor belastingen en financiële kosten Antwoord  ((877 279 + 46 934 + 211 950 – 6 000)...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr5",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...4) % = 9,83\n\nd) Liquiditeit in enge zin Antwoord  (1 371 010 + 1 739 806 + 2 200 000 +...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr6",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...Omschrijf het begrip “nettothesaurie”. Antwoord\n\nb) Als u de nettothesaurie berekent en...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr8",
+      "subvraag_label": null,
+      "detector": "broken_table",
+      "snippet": "Vraag 4 … / 9 punten Vul onderstaande tabel aan op basis van volgende gegevens. M 70 % 30 % 60 % 20 % A B C Antwoord CONTROLEPERCENTAGE BELANGENPERCENTAGE CONSOLIDATIEMETHODE M IN A M IN B M IN C",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr8",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...e gegevens. M 70 % 30 % 60 % 20 % A B C Antwoord CONTROLEPERCENTAGE BELANGENPERCENTAGE C...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr9",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...ing tot de boekhoudkundige registratie. Antwoord OMSCHRIJVING JUIST FOUT Transacties wor...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr14",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...uit ondertekenen? Motiveer uw antwoord. Antwoord\n\nb) Wat is het belang, in het kader van...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr14",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...ieken die hier kunnen toegepast worden. Antwoord\n\nd) Gedurende deze controleopdracht, ga...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr28",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...aanmerking komt voor gespreide taxatie. Antwoord\n\nb) De vennootschap heeft de meerwaarde...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr28",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...9 %. Geef een detail van uw berekening. Antwoord\n\nc) Welk bedrag zal in de aangifte venn...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr29",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...gegevens met een korte verantwoording. Antwoord\n\nb) Hoeveel bedraagt het fiscaal gestor...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr30",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...rticulier. Duid de goede oplossing aan. Antwoord  De btw is niet van toepassing want de...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr31",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...hte loten. Duid de goede oplossing aan. Antwoord  De btw is niet van toepassing want de...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr32",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...inkomsten. Duid de goede oplossing aan. Antwoord  De btw is niet van toepassing, want S...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr32",
+      "subvraag_label": null,
+      "detector": "loose_caps",
+      "snippet": "ElectroStar",
+      "ernst": "laag"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr33",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...zijn werk. Duid de goede oplossing aan. Antwoord  De btw is niet van toepassing want de...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr34",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...vertenties. Duid de goede oplossing aan Antwoord  Er is geen Belgische btw van toepassi...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr42",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...e toepassing van de antiwitwaswetgeving Antwoord  Vervolgtoetsing  Thematische toetsin...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr42",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...aan om dit opnieuw te komen controleren Antwoord  Vervolgtoetsing  Thematische toetsin...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr42",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...onvolledig overdragen van een dossier. Antwoord  Vervolgtoetsing  Thematische toetsin...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr43",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...nodig is om uw collega te contacteren. Antwoord\n\nb) Gezien het 15 april is vraagt hij u...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr43",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...j tijdig zijn BTW – schuld kan voldoen. Antwoord\n\nc) Hij vertelt u dat zijn keuze op uw...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2014-1.json",
+      "vraag_id": "2014-1-vr43",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...goedkoopste uit deze vergelijking komt. Antwoord\n\nd) Tijdens jullie gesprek laat u ook w...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr8",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...in onderstaande rooster. Vraag a b c d Antwoord Punten 2 2 2 2\n\na) Brutoverkoopmarge\n\nA...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr9",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...ende begrippen :\n\na) Intrinsieke waarde Antwoord … / 1 punt\n\nb) Fractiewaarde Antwoord …...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr9",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...e Antwoord … / 1 punt\n\nb) Fractiewaarde Antwoord … / 1 punt\n\nc) Netto rendabiliteit van...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr9",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...tto rendabiliteit van de bedrijfsactiva Antwoord … / 1 punt\n\nd) Algemene schuldgraad Ant...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr9",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...ord … / 1 punt\n\nd) Algemene schuldgraad Antwoord … / 1 punt\n\ne) Operationele cash flow v...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr9",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...Operationele cash flow voor belastingen Antwoord … / 1 punt",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr9",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ippen :\n\na) Intrinsieke waarde Antwoord … / 1 punt\n\nb) Fractiewaarde Antwoord … /...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr9",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...d … / 1 punt\n\nb) Fractiewaarde Antwoord … / 1 punt\n\nc) Netto rendabiliteit van de...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr9",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...biliteit van de bedrijfsactiva Antwoord … / 1 punt\n\nd) Algemene schuldgraad Antwo...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr9",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...punt\n\nd) Algemene schuldgraad Antwoord … / 1 punt\n\ne) Operationele cash flow voo...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr9",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ele cash flow voor belastingen Antwoord … / 1 punt",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr10",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...ntwoord, wordt er één punt afgetrokken. Antwoord … / punten Code Ja Neen Materiële vaste...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr10",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...wordt er één punt afgetrokken. Antwoord … / punten Code Ja Neen Materiële vaste a...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr11",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ositief consolidatieverschil ? Antwoord … / 2 punten\n\nb) Geef de vier voornaamste...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr11",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ieve consolidatieverschillen ? Antwoord … / 4 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr12",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...ngcontrole en administratieve contrôle. Antwoord … / 6 punten\n\nb) Preventieve en repress...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr12",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...b) Preventieve en repressieve controle. Antwoord … / 6 punten",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr12",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...e en administratieve contrôle. Antwoord … / 6 punten\n\nb) Preventieve en repressie...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr12",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...tieve en repressieve controle. Antwoord … / 6 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr14",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...perationeel en/of conformiteitsaspect . Antwoord Doelstelling Financieel Operationeel Co...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr15",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": ".../ 0,5 punt Ja Neen\n\nb) Verklaar bondig. Antwoord … / 1,5 punten",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr15",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...lak van deontologische regels? Antwoord … / 0,5 punt Ja Neen\n\nb) Verklaar bondig....",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr15",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...t Ja Neen\n\nb) Verklaar bondig. Antwoord … / 1,5 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr17",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...Vul uw antwoorden in op volgend schema. Antwoord Controledoelstelling Techniek of method...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr18",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...van de techniek die je gaat toepassen. Antwoord … / 6 punten Vul uw antwoorden in op vo...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr18",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...eef dan de boeking).  Verklaar bondig. Antwoord … / 1 punt",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr18",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...echniek die je gaat toepassen. Antwoord … / 6 punten Vul uw antwoorden in op volg...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr18",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...één van de drie mogelijkheden: Antwoord … / 1 punt of je stelt een correctieboeki...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr18",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...e boeking).  Verklaar bondig. Antwoord … / 1 punt",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr19",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...en.\n\na) Wat is representatief? Antwoord … / 1 punt\n\nb) Hoe doe je de steekproef?...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr19",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...b) Hoe doe je de steekproef? Antwoord … / 1 punt\n\nc) Hoe gebeurt de verzending...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr19",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ing van de confirmatiebrieven? Antwoord … / 1 punt\n\nd) Wie ontvangt de antwoorden...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr19",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...d) Wie ontvangt de antwoorden? Antwoord … / 1 punt\n\ne) Wat bij niet ontvangst van...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr19",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...niet ontvangst van antwoorden? Antwoord … / 1 punt",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr26",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...et afgesloten periode vermeld? Antwoord … / 3 punten\n\nb) Het bestuursorgaan stelt...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr26",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...eoefenaar in overweging nemen? Antwoord … / 3 punten\n\nc) Wat dient er te gebeuren...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr26",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...iva en passiva zijn opgenomen? Antwoord … / 3 punten\n\nd) Wat gebeurt er met de te...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr26",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...n van het aanwezigheidsquorum? Antwoord … / 3 punten\n\ne) Het voorstel tot ontbind...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr26",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...enig gevolg voor de termijnen? Antwoord … / 3 punten\n\nf) De beroepsbeoefenaar ste...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr26",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...aakt worden of een onthouding? Antwoord … / 3 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr33",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...geen recht op notionele intrestaftrek. Antwoord … / 3 punten\n\nb) Geef op welke tarieven...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr33",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...an de voorwaarden voor verlaagd tarief. Antwoord … / 5 punten Tarief Bereken Belastbaar...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr33",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ht op notionele intrestaftrek. Antwoord … / 3 punten\n\nb) Geef op welke tarieven v...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr33",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...rwaarden voor verlaagd tarief. Antwoord … / 5 punten Tarief Bereken Belastbaar be...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr34",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...3 punten\n\nb) Geef een korte verklaring. Antwoord … / 3 punten",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr34",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...bedraagt de belastbare winst ? Antwoord … / 3 punten\n\nb) Geef een korte verklarin...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr34",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...b) Geef een korte verklaring. Antwoord … / 3 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr35",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...t 2 357,36 451 Verschuldigde btw 495,04 Antwoord … / punten",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr35",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...6 451 Verschuldigde btw 495,04 Antwoord … / punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr49",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...r beoogde overeenkomstsluitende staten. Antwoord … / 1 punt Waar Niet waar\n\nb) Een pensi...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr49",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...g van dubbele belasting heeft gesloten. Antwoord … / 1 punt Waar Niet waar\n\nc) Een steen...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr49",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...tingsduur ervan 6 maanden overschrijdt. Antwoord … / 1 punt Waar Niet waar\n\nd) De overee...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr49",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...zijn, gelden voor de successierechten. Antwoord … / 1 punt Waar Niet waar\n\ne) Voor een...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr49",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...e andere staat (met name de bronstaat). Antwoord … / 1 punt Waar Niet waar\n\nf) Als een v...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr49",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...overeenkomstsluitende staten. Antwoord … / 1 punt Waar Niet waar\n\nb) Een pensioe...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr49",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...bele belasting heeft gesloten. Antwoord … / 1 punt Waar Niet waar\n\nc) Een steengr...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr49",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ervan 6 maanden overschrijdt. Antwoord … / 1 punt Waar Niet waar\n\nd) De overeenk...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr49",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...lden voor de successierechten. Antwoord … / 1 punt Waar Niet waar\n\ne) Voor een na...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr49",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...staat (met name de bronstaat). Antwoord … / 1 punt Waar Niet waar\n\nf) Als een vas...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr50",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...cliënt zult verstrekken weer te geven. Antwoord … / 2 punten",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr50",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ting.\n\na) Wat antwoordt u hem: Antwoord … / 2 punten Ja Neen\n\nb) Gelieve uw antwo...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr50",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ult verstrekken weer te geven. Antwoord … / 2 punten",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr51",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...accountants en/of belastingconsulenten. Antwoord …/ 1 punt Juist Fout\n\nb) Schending van...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr51",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...htelijke maatregelen tot gevolg hebben. Antwoord …/ 1 punt Juist Fout\n\nc) De accountant...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr51",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...als alle andere middelen zijn uitgeput. Antwoord …/ 1 punt Juist Fout",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr51",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ts en/of belastingconsulenten. Antwoord …/ 1 punt Juist Fout\n\nb) Schending van he...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr51",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...maatregelen tot gevolg hebben. Antwoord …/ 1 punt Juist Fout\n\nc) De accountant en...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr51",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...andere middelen zijn uitgeput. Antwoord …/ 1 punt Juist Fout",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr52",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "..., omvang en reikwijdte van de opdracht. Antwoord …/ 1 punt Juist Fout\n\nb) Mits goedkeuri...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr52",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...ies van andere partijen met een cliënt. Antwoord …/ 1 punt Juist Fout\n\nc) Indien voorzie...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr52",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...en de cliënt de overeenkomst beëindigd. Antwoord …/ 1 punt Juist Fout",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr52",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...en reikwijdte van de opdracht. Antwoord …/ 1 punt Juist Fout\n\nb) Mits goedkeuring...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr52",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ndere partijen met een cliënt. Antwoord …/ 1 punt Juist Fout\n\nc) Indien voorzien...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr52",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...ënt de overeenkomst beëindigd. Antwoord …/ 1 punt Juist Fout",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr53",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...talen in de volgende gevallen? Antwoord … / 2 punten - Een klant koopt een meubel...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr53",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...preventieve witwaswetgeving ? Antwoord … / 1 punt",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr54",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...rbod gebaseerd op de onafhankelijkheid. Antwoord …/ 1 punt Juist Fout\n\nb) Deze controleo...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr54",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...en erkend boekhouder uitgevoerd worden. Antwoord …/ 1 punt Juist Fout\n\nc) De externe acc...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr54",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...an de bestuurder(s) en de vennootschap. Antwoord …/ 1 punt Juist Fout",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr54",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...seerd op de onafhankelijkheid. Antwoord …/ 1 punt Juist Fout\n\nb) Deze controleopd...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr54",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...boekhouder uitgevoerd worden. Antwoord …/ 1 punt Juist Fout\n\nc) De externe accou...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr54",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...tuurder(s) en de vennootschap. Antwoord …/ 1 punt Juist Fout",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr55",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...n bij het bestuur van die vennootschap. Antwoord … / 0,5 punt Ja Neen Antwoord … / 1 pun...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr55",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...ootschap. Antwoord … / 0,5 punt Ja Neen Antwoord … / 1 punt\n\nb) hun bij de opstart te be...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr55",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...te staan in moeilijke zaken in België. Antwoord … / 0,5 punt Ja Neen Antwoord … / 1 pun...",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr55",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...n België. Antwoord … / 0,5 punt Ja Neen Antwoord … / 1 punt",
+      "ernst": "hoog"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr55",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...bestuur van die vennootschap. Antwoord … / 0,5 punt Ja Neen Antwoord … / 1 punt...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr55",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...Antwoord … / 0,5 punt Ja Neen Antwoord … / 1 punt\n\nb) hun bij de opstart te bege...",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr55",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...in moeilijke zaken in België. Antwoord … / 0,5 punt Ja Neen Antwoord … / 1 punt",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr55",
+      "subvraag_label": null,
+      "detector": "trailing_ellipses",
+      "snippet": "...Antwoord … / 0,5 punt Ja Neen Antwoord … / 1 punt",
+      "ernst": "middel"
+    },
+    {
+      "examen_file": "2015-1.json",
+      "vraag_id": "2015-1-vr56",
+      "subvraag_label": null,
+      "detector": "open_antwoord_prompt",
+      "snippet": "...n. Geef twee van de drie verplichtingen Antwoord ***************************************...",
+      "ernst": "hoog"
+    }
+  ]
+}
