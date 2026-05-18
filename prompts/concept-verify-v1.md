@@ -62,6 +62,12 @@ Voer deze checks deterministisch uit op de meegeleverde records:
 
 4. **Twee records voor hetzelfde fenomeen**: als twee records dezelfde primaire bron (`source.short`) delen en hun hoofdteksten inhoudelijk sterk overlappen (>60 %) → gap met aspect `records.overlappend-fenomeen`, prio `midden`.
 
+5. **Bron-als-concept-smell**: record-id of -naam komt overeen met een **bron** (wet, KB, verordening, richtlijn, CBN-advies, ISA/IFRS/IAS-standaard, ITAA-norm, IESBA-code). Bron is geen concept; het is materiaal waaruit concepten worden afgeleid. Voorbeelden van overtredingen: `ifrs-verordening-1606-2002`, `cbn-2022-08`, `kb-wvv-uitvoering`, `isa-315-herzien`, `richtlijn-2013-34-eu`, `wetboek-economisch-recht-boek-iii`. → gap met aspect `bron-als-concept`, prio `midden`, met aanbeveling: splits content in fenomeen-records.
+
+6. **Bestaansreden-test gefaald**: een record beschrijft een entiteit die geen **bestaansreden buiten zijn parent-context** heeft (compositie ipv aggregatie). Voorbeelden: `randvoorwaarden-controle` heeft alleen zin bij audit-opdracht-aanvaarding; `tweestappentest-classificatie` alleen binnen IFRS 16-lease. → gap met aspect `records.bestaansreden-ontbreekt`, prio `midden`, met aanbeveling: merge als bouwsteen in de parent-record.
+
+7. **Compositie-naam-smell**: record-naam bevat `+`, `&`, `en`-tussen-termen of komma's tussen wezenlijk verschillende onderwerpen ("jaarrekeningplicht + groottecriteria"). Wijst op gecondenseerd multi-concept. → gap met aspect `records.multi-concept-naam`, prio `midden`, met aanbeveling: splits.
+
 ---
 
 ## Output-schema

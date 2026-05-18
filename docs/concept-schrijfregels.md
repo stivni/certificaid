@@ -19,11 +19,20 @@ Twee samenhangende tests om geldigheid te valideren:
 
 Een **bouwsteen** is een sub-aspect van een record dat alleen *binnen* dat record zinvol is — een aspect dat niet zelfstandig in het domein bestaat. Voorbeeld: de "tweestappentest IFRS 16" voor lease-classificatie is een bouwsteen van het cluster `leasing-ifrs`, geen eigen begrip — buiten IFRS 16 betekent de tweestappentest niets.
 
+**De bestaansreden-test** (compositie vs aggregatie):
+- *"Heeft dit onderwerp een bestaansreden buiten zijn parent-context?"*
+- **Nee** → bouwsteen (compositie — leeft binnen de parent, sterft buiten)
+- **Ja** → eigen record (aggregatie — zelfstandig domein-object)
+
+Voorbeelden:
+- `tweestappentest-IFRS-16` heeft alleen zin binnen IFRS 16-lease-classificatie → bouwsteen van `leasing-ifrs`
+- `right-of-use-actief` werkt ook in IAS 36 impairment + IFRS 5 disposal → eigen record
+- `randvoorwaarden-controle` heeft alleen zin bij audit-opdracht-aanvaarding → bouwsteen van `aanvaarden-audit-opdracht`-competentie
+
 **Wanneer wordt een bouwsteen een eigen record?**
 
 - Wanneer dezelfde bouwsteen elders in het domein opduikt → zelfstandig
 - Wanneer er twee evenwaardige varianten van ontstaan (geen primair + uitzondering, maar twee gelijkwaardige paden) → beide eigen record
-- Wanneer een examenvraag specifiek de bouwsteen toetst los van zijn context → zelfstandig
 
 ---
 
@@ -104,6 +113,8 @@ Triggers in bronnen die deze splitsing rechtvaardigen: *"onder IFRS / BE-GAAP"*,
 - **"Alleen-in-deze-wet"-smell**: het concept verdwijnt als één specifiek artikel zou verdwijnen → twijfelachtig of het werkelijk een fenomeen is.
 - **Opsomming-smell**: lopende tekst bevat een opsomming van 3+ items zonder verdere uitleg → vermoedelijk *N gemiste records + 1 synthese* die ze overkoepelt. Geldt ook voor opsommingen zonder leestekens — kijk naar de *betekenis*, niet de vorm.
 - **"Wat de wet zegt"-valkuil**: een `valkuil`-veld dat regelinformatie herhaalt → is geen valkuil. Valkuilen beschrijven typische redeneerfouten van studenten, niet de norm zelf.
+- **Bron-als-concept-smell**: record-naam = pure bron-aanduiding (`ifrs-verordening-1606-2002`, `cbn-2022-08`, `kb-wvv-uitvoering`, `isa-315`, `iesba-code`, ...). Een **bron** is materiaal (wet, KB, verordening, richtlijn, CBN-advies, ISA/IFRS/IAS-standaard, ITAA-norm, IESBA-code, ...) waaruit kennis wordt afgeleid. Een **concept** is een fenomeen dat zo'n bron behandelt. Splits naar fenomeen-records (bv. `verplichte-ifrs-eu-beursgenoteerden` + `endorsement-procedure-eu`).
+- **Compositie-naam-smell**: record-naam bevat `+`, `&`, `en` of komma's tussen wezenlijk verschillende onderwerpen (`jaarrekeningplicht + groottecriteria`, `aankoop & verkoop`). Wijst op gecondenseerd multi-concept. Splits.
 
 ---
 
