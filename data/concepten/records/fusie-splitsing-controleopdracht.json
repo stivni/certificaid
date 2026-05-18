@@ -1,0 +1,174 @@
+{
+  "id": "fusie-splitsing-controleopdracht",
+  "naam": "Verslag bij fusie of splitsing van vennootschappen",
+  "naam_alternatief": "fusie-/splitsingsverslag (WVV art. 12:25 e.v.)",
+  "node_type": "cluster",
+  "schema_version": "1.6",
+  "status": "seed",
+  "linked_anchors": [
+    "1.6.I.A",
+    "1.6.I.B",
+    "1.6.I.C",
+    "1.6.taak.1"
+  ],
+  "_provenance": {
+    "extractor_run": "concept-extractie-v4-2026-05-18T16:05Z",
+    "model": "claude-opus-4-7",
+    "anchor_id": "1.6.I.A",
+    "linked_anchors": [
+      "1.6.I.A",
+      "1.6.I.B",
+      "1.6.I.C",
+      "1.6.taak.1"
+    ],
+    "reviewed_by": null
+  },
+  "definitie": {
+    "text": "Het verslag bij fusie of splitsing is een gedeelde wettelijk voorbehouden opdracht (commissaris, bedrijfsrevisor of — bij afwezigheid van commissaris — gecertificeerd accountant) waarbij de beroepsbeoefenaar nagaat of de inlichtingen in het fusie- of splitsingsvoorstel en de bestuursverslagen de algemene vergadering toelaten met volkomen kennis van zaken te beslissen. Hij verklaart inzonderheid in welke mate de aandelen-ruilverhouding redelijk is vanuit het standpunt van de aandeelhouders van de vennootschap aan wie hij verslag uitbrengt.",
+    "confidence": "grounded",
+    "source": {
+      "type": "norm",
+      "short": "ITAA-norm Fusie en splitsing §2"
+    },
+    "references": [
+      {
+        "type": "wet",
+        "short": "WVV art. 12:25, 12:26, 12:61 e.v. (oud W.Venn. art. 695, 708, 731, 746, 772/9)"
+      }
+    ],
+    "_provenance": {
+      "inputs": [
+        {
+          "id": "ITAA-norm-fusie-splitsing__sec_2-voorwerp-van-de-opdracht",
+          "sha256": null,
+          "version": "rag-v1"
+        }
+      ]
+    }
+  },
+  "situering": "Het fusie-/splitsingsverslag is één van de gedeelde wettelijk voorbehouden opdrachten uit het WVV: bij elke fusie, splitsing of partiële splitsing van een Belgische vennootschap moet een onafhankelijke beroepsbeoefenaar de redelijkheid van de ruilverhouding toetsen en de aandeelhouders informeren. Bij vennootschappen met commissaris voert die de opdracht uit; ontbreekt een commissaris, dan kan een gecertificeerd accountant of bedrijfsrevisor worden aangesteld (cliëntkeuze). Het verslag wordt aan de buitengewone algemene vergadering voorgelegd samen met het bestuursverslag en het fusie-/splitsingsvoorstel.",
+  "bouwstenen": [
+    {
+      "titel": "Toetsing van de ruilverhouding",
+      "wat": "De beroepsbeoefenaar onderzoekt of het aantal aandelen dat de aandeelhouders ontvangen, in verhouding staat tot de relatieve waarde van de in te brengen vennootschappen. Hij toetst de methodologie van het bestuursorgaan (bv. DCF, multiples, herwaardering) en de gehanteerde parameters.",
+      "waarom": "Een onevenwichtige ruilverhouding benadeelt rechtstreeks de aandeelhouders aan wie verslag wordt uitgebracht — daar zit het kernrisico van een fusie of splitsing.",
+      "grondslag": "ITAA-norm Fusie en splitsing §2",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Fusie en splitsing"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-fusie-splitsing__sec_2-voorwerp-van-de-opdracht",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      },
+      "voorbeelden": [
+        {
+          "vorm": "eenvoudig",
+          "omschrijving": "Bij de fusie van Brugse Brouwerij BV met Mechelse Mouterij BV brengt Sofie Janssens verslag uit over de ruilverhouding 3 nieuwe aandelen Brouwerij voor elke 2 aandelen Mouterij — zij toetst de DCF-waardering en concludeert of de verhouding redelijk is."
+        }
+      ]
+    },
+    {
+      "titel": "Coördinatie met de notaris",
+      "wat": "De notaris bevestigt het bestaan en de wettigheid van de rechtshandelingen. De beroepsbeoefenaar neemt zo vroeg mogelijk contact op met de notaris en deelt vaststellingen die relevant zijn voor de juridische correctheid van de verrichting.",
+      "waarom": "Fusie/splitsing is een notariële akte. Onverenigbaarheden tussen het accountantsverslag en de juridische analyse moeten vóór de algemene vergadering opgelost zijn.",
+      "grondslag": "ITAA-norm Fusie en splitsing §2.3",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Fusie en splitsing §2.3"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-fusie-splitsing__sec_2-voorwerp-van-de-opdracht",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    },
+    {
+      "titel": "Eén beroepsbeoefenaar voor meerdere vennootschappen",
+      "wat": "Wanneer dezelfde persoon verslag uitbrengt aan de algemene vergaderingen van meerdere betrokken vennootschappen, formuleert hij zijn standpunt in één coherent oordeel, opgenomen in afzonderlijke verslagen, gericht aan elke algemene vergadering.",
+      "waarom": "Eén persoon over meerdere vennootschappen voorkomt tegenstrijdige verslagen, maar moet wel transparant maken welke voor- of nadelen aan welke partij toekomen.",
+      "grondslag": "ITAA-norm Fusie en splitsing §2.2",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Fusie en splitsing §2.2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-fusie-splitsing__sec_2-voorwerp-van-de-opdracht",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "valkuilen": [
+    {
+      "text": "Het verslag is GEEN fairness opinion en GEEN advies over de opportuniteit van de fusie. De beroepsbeoefenaar oordeelt enkel of de aandeelhouders met volkomen kennis van zaken kunnen beslissen — niet of de fusie strategisch verstandig is.",
+      "confidence": "grounded",
+      "source": {
+        "type": "norm",
+        "short": "ITAA-norm Fusie en splitsing §2"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-fusie-splitsing__sec_2-voorwerp-van-de-opdracht",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "specialisatie-van",
+      "target": "gedeelde-wettelijk-voorbehouden-opdracht",
+      "redenering": "Eén van de typische gedeelde monopolie-opdrachten uit het WVV."
+    },
+    {
+      "type": "vergelijkt-met",
+      "target": "ontbinding-vereffening-opdracht",
+      "redenering": "Andere WVV-event-opdracht; beide gedeelde wettelijk voorbehouden, beide aan BAV gericht.",
+      "facet": {
+        "aspect": "WVV-event"
+      }
+    }
+  ],
+  "vergelijkingsparen": [
+    {
+      "vergelijking_met": "omzetting-vennootschap-opdracht",
+      "verschil": "Fusie/splitsing = ruilverhouding van AANDELEN bij combinatie of opsplitsing van vennootschappen, met redelijkheid-conclusie. Omzetting = waardering van NETTOACTIEF bij verandering van rechtsvorm, met focus op of nettoactief overgewaardeerd is.",
+      "trigger": "Examenvraag: 'twee vennootschappen worden één' / 'splitsing in twee NV's' → fusie-/splitsingsverslag. 'BV wordt NV' / 'verandering rechtsvorm' → omzettingsverslag.",
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "ITAA-norm-fusie-splitsing__sec_2-voorwerp-van-de-opdracht",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "eenvoudig",
+      "omschrijving": "Brugse Brouwerij BV (gewaardeerd op € 4.500.000) wordt opgesplitst in een operationele BV (€ 3.500.000) en een vastgoed-BV (€ 1.000.000). Geen commissaris benoemd. De algemene vergadering benoemt Sofie Janssens (gecertificeerd accountant). Zij toetst de waarderingsmethodes uit het splitsingsvoorstel, concludeert dat de toewijzing van aandelen aan de bestaande aandeelhouders (4:1-verhouding) redelijk is, en levert haar verslag aan de buitengewone algemene vergadering."
+    }
+  ]
+}
