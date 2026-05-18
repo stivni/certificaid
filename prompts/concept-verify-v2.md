@@ -189,6 +189,8 @@ Elk record (en de set als geheel) wordt langs zes brede categorieën getoetst. P
 - `vergelijkingsparen.eenrichting` — A heeft paar met B maar B niet met A
 - `gebaseerd_op.target-ontbreekt` — synthese verwijst naar niet-bestaand concept
 - `wikilink.target-ontbreekt` — `[[id]]` in tekst wijst naar niet-bestaand record
+- `dangling-reference` — term wordt in een record genoemd maar heeft geen eigen record én geen gespiegelde edge/vergelijkingspaar
+- `context-edge-ontbreekt` — record onder een specifiek regime/niveau/overkoepelend fenomeen mist de verplichte `specialisatie-van` / `onderdeel-van` / `vereist-kennis-van`-edge naar dat overkoepelende concept (cf. context-via-edges-verplichting in EXTRACT v4)
 - `parallel-regime-ontbreekt` — IFRS-specialisatie bestaat, BE-GAAP-tegenhanger ontbreekt expliciet
 
 ---
