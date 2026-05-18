@@ -299,6 +299,8 @@ Uniforme rijkheid binnen type is verplicht (zie gap-mining-pattern 2 en 5). Gebr
 
 Als een minimum niet gehaald wordt: log in het afsluitend rapport. VERIFY produceert een `> [!todo] Voorbeeld ontbreekt`-callout bij render.
 
+**Plaatsings-regel voor `stappen[]` in clusters**: een cluster heeft `stappen[]` **nooit** rechtstreeks op record-top. Stappen leven binnen `berekeningsmethode[].stappen[]` (voor cluster-met-procedure) of als bouwsteen met sub-stappen. Tref je een schema-1.4-record met `stappen[]` op cluster-top, verplaats ze bij de eerste EXTRACT-touch. Competenties hebben `stappen[]` wel direct op record-top — dat is type-specifiek.
+
 ### Stap-blok-schema (voor cluster met stappen + voor competentie)
 
 ```yaml
