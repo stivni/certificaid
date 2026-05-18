@@ -18,6 +18,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Continuïteitsveronderstelling (audit-perspectief) ⚖️
 
+Belgische en internationale jaarrekeningstandaarden gaan uit van going concern: de onderneming zet haar activiteiten voort in de voorzienbare toekomst. Wanneer die veronderstelling niet houdt, moet de jaarrekening op andere grondslagen worden opgesteld. ISA 570 verplicht de auditor om de inschatting van het management te evalueren én zelf na te gaan of er gebeurtenissen of omstandigheden zijn die gerede twijfel doen ontstaan over de continuïteit.
+
 > [!summary] Korte inhoud
 > De financiële overzichten worden opgesteld onder de veronderstelling dat de continuïteit van de onderneming gehandhaafd blijft en dat zij haar activiteiten in de voorzienbare toekomst zal voortzetten — tenzij het management voornemens is te liquideren of geen realistisch alternat….
 
@@ -52,3 +54,4 @@ Naaiatelier Ninove BV heeft twee jaar op rij verlies en een negatief eigen vermo
 [^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2`
 [^2]: `ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s`
 [^3]: `ITAA-norm-kmo-controlenorm__sec_3-3-2-1-financi-le-overzichten-bevatten-afwijkingen-van-mate`
+[^4]: `ISA-570__sec_definities`

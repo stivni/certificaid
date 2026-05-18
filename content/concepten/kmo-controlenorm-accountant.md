@@ -20,9 +20,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # KMO-controlenorm voor de externe accountant ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 De KMO-controlenorm is de gedetailleerde ITAA-uitwerking voor contractuele controle- en beoordelingsopdrachten bij kleine vennootschappen en kleine vzw's. Ze geldt NIET voor het commissarismandaat (die volgt ISA + de revisorenwet) en NIET voor opdrachten die exclusief aan de bedrijfsrevisor zijn voorbehouden. Volgt de internationale auditcyclus (aanvaarding → planning → uitvoering → oordeel → verslag) met aanpassingen voor de KMO-realiteit: lichtere documentatie, meer professionele oordeelsvorming, expliciete definitielijst (bijlage 1).
 
 > [!summary] Korte inhoud

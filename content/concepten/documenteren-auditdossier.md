@@ -20,9 +20,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Documenteren van de revisiewerkzaamheden in het auditdossier 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Het auditdossier is de schriftelijke neerslag van alle uitgevoerde werkzaamheden — van planningsmemo tot ondertekend verslag. Het moet zo opgesteld zijn dat een ervaren reviewer (ITAA-kwaliteitstoezicht, peer reviewer of rechter) achteraf kan reconstrueren wat is gedaan, welke afwegingen zijn gemaakt en hoe het oordeel tot stand kwam. Onvolledige documentatie ondermijnt de verdedigbaarheid van het oordeel en is een veelvoorkomende reden voor tuchtsanctie. De competentie is transversaal: ze loopt parallel met élke andere fase van de audit-cyclus.
 
 
@@ -130,10 +127,10 @@ Sluit het dossier binnen 60 dagen na ondertekening van het verslag definitief af
 
 ## Zie ook
 
-- **Vereist kennis van**: [[controledocumentatie]]
-- **Vereist kennis van**: [[kwaliteitsbeheersing-opdrachtniveau]]
-- **Vereist kennis van**: [[werkprogramma-audit]]
-- **Vereist kennis van**: [[assurance-informatie]]
+- **Vereist kennis van**: [[]]
+- **Vereist kennis van**: [[]]
+- **Vereist kennis van**: [[]]
+- **Vereist kennis van**: [[]]
 
 ## Voorbeelden
 

@@ -20,9 +20,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Wettelijke controleopdracht (commissaris-mandaat) ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 De wettelijke controleopdracht (commissariaat) is in België voorbehouden aan de bedrijfsrevisor: de GA mag dit NIET uitoefenen. Geldt voor grote vennootschappen (drempels WVV art. 1:24-1:26) en Public Interest Entities (beursgenoteerd, banken, verzekeraars). De commissaris werkt onder de ISA-standaarden + Wet 7 december 2016 (revisorenwet) en is onderworpen aan publiek toezicht door het College van Toezicht. Mandaat duurt drie boekjaren, hernieuwbaar.
 
 > [!summary] Korte inhoud

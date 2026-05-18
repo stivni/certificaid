@@ -18,9 +18,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # COSO I — Internal Control Integrated Framework 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 COSO I is het internationaal meest gebruikte referentiekader voor interne controle. Bevat een gestructureerde aanpak met drie doelstellingen (operationeel, rapportering, compliance), vijf componenten (controle-omgeving, risico-inschatting, beheersactiviteiten, informatie & communicatie, monitoring) en 17 onderliggende principes (sinds herziening 2013). Doel: hulpmiddel voor management en externe stakeholders om IC te ontwerpen en te beoordelen.
 
 

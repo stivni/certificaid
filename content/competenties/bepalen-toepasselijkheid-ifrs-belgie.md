@@ -37,7 +37,7 @@ Stel vast of de vraag gaat over de statutaire (enkelvoudige) jaarrekening of ove
 3. Bij twijfel: vraag of de cliënt een raadpleegbare set aandeelhouders heeft en of er dochters zijn — alleen dan kan geconsolideerd relevant zijn.
 
 
-**Grondslag**: [[ifrs-verordening-1606-2002]] §toepassingsgebied
+**Grondslag**: [[verplichte-ifrs-eu-beursgenoteerden]] §toepassingsgebied
 
 ### 2. Toets of de onderneming beursgenoteerd is op een gereglementeerde EU-markt
 
@@ -60,7 +60,7 @@ Verifieer of de aandelen of obligaties van de onderneming op een gereglementeerd
 4. Bij Zelena Bio: noteer 'Beursgenoteerd op Euronext Brussel (gereglementeerde markt EU) sinds 2022'.
 
 
-**Grondslag**: [[ifrs-verordening-1606-2002]] §artikel-4, Verordening (EG) 1606/2002 art. 4
+**Grondslag**: [[verplichte-ifrs-eu-beursgenoteerden]] §artikel-4, Verordening (EG) 1606/2002 art. 4
 
 ### 3. Pas de beslisboom toe en formuleer conclusie
 
@@ -109,7 +109,7 @@ Combineer rapporteringsniveau (stap 1) + notering (stap 2) + sectorale status om
 >
 > _Vaak fout gedaan_: Aannemen dat elke notering op een handelsplatform IFRS-verplichting triggert. Multilateral Trading Facilities (MTF's) zoals Euronext Growth zijn geen gereglementeerde markt.
 >
-> _Grondslag_: [[ifrs-verordening-1606-2002]] §toepassingsgebied
+> _Grondslag_: [[verplichte-ifrs-eu-beursgenoteerden]] §toepassingsgebied
 
 > [!warning]- Hou statutair (enkelvoudig) en geconsolideerd strikt gescheiden bij IFRS-vraagstukken.
 >
@@ -123,14 +123,14 @@ Combineer rapporteringsniveau (stap 1) + notering (stap 2) + sectorale status om
 > [!example]- Meubelzaak Mertens BV (niet-beursgenoteerd, kleine groep met 1 dochter, omzet € 8M) overweegt vrijwillig IFRS toe te pas…
 > **Conclusie**: IFRS-toepassing op geconsolideerd niveau is niet uitdrukkelijk verboden voor niet-beursgenoteerde groepen, maar in België ongebruikelijk en niet als verplichting opgelegd. De geconsolideerde jaarrekening volgens Belgisch GAAP (KB WVV consolidatie) blijft het wettelijk vereiste; vrijwillige IFRS-rapportering kan parallel gebeuren als aanvullende informatie aan de stakeholders. Statutair blijft Belgisch GAAP verplicht.
 >
-> **Grondslag**: [[ifrs-toepassingsgebied-belgie]] §vrijwillige-keuze; [[ifrs-verordening-1606-2002]] §lidstaat-opties
+> **Grondslag**: [[ifrs-toepassingsgebied-belgie]] §vrijwillige-keuze; [[verplichte-ifrs-eu-beursgenoteerden]] §lidstaat-opties
 >
 > **Redenering**: Verordening 1606/2002 art. 5 laat lidstaten toe om IFRS toe te staan of te verplichten voor niet-beursgenoteerde groepen of voor statutaire jaarrekeningen. België heeft op statutair niveau Belgisch GAAP behouden en stelt vrijwillige IFRS-rapportering parallel toe maar niet ter vervanging van de KB WVV-verplichting.
 
 
 ## Gebaseerd op concepten
 
-[[ifrs-verordening-1606-2002]] · [[ifrs-toepassingsgebied-belgie]] · [[richtlijn-2013-34-eu]] · [[be-gaap-vs-ifrs-overzicht]]
+[[verplichte-ifrs-eu-beursgenoteerden]] · [[ifrs-toepassingsgebied-belgie]] · [[eu-harmonisatie-jaarrekeningenrecht]] · [[be-gaap-vs-ifrs-overzicht]]
 ## Voortkomend uit
 
 - **Taken**: 1.5.taak.1

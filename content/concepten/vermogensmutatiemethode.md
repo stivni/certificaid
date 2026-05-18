@@ -21,9 +21,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Vermogensmutatiemethode (equity method) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Een deelneming verschijnt in de geconsolideerde jaarrekening niet activum-per-activum, maar als één samengevatte balanspost. Bij de eerste opname waardeer je die post aan jouw pro-rata aandeel in het eigen vermogen van de andere onderneming op de datum van aankoop. Daarna pas je die boekwaarde elk boekjaar aan met jouw aandeel in het resultaat en in directe wijzigingen van het eigen vermogen. Je gebruikt deze methode voor (a) geassocieerde ondernemingen (invloed van betekenis, geen controle), (b) gemeenschappelijke dochters waarvan de activiteit niet nauw geïntegreerd is in die van de moeder, en (c) dochters die uit de consolidatie zijn gelaten op grond van KB WVV art. 3:98 of art. 3:99.
 
 > [!info] Behoort tot: [[consolidatiemethodes-vergelijking]]

@@ -17,12 +17,12 @@ gegenereerd_op: '2026-05-18'
 ---
 # Ontdekkingsrisico 🤖
 
+Ontdekkingsrisico is de enige risicocomponent die de auditor zelf kan beïnvloeden. Het is de kans dat zijn werkzaamheden een afwijking van materieel belang niet opsporen. Door aard, timing en omvang van zijn procedures aan te passen — meer of minder werk, gerichter selecteren, beter timen — stuurt hij dit risico naar het niveau dat het auditrisicomodel vraagt.
+
 > [!summary] Korte inhoud
 > Ontdekkingsrisico is het risico dat de door de beroepsbeoefenaar uitgevoerde controlewerkzaamheden geen afwijking van materieel belang ontdekken die afzonderlijk of samen met andere bestaat.
 
 > [!info] Behoort tot: [[auditrisicomodel]]
-
-> [!info] Bestaat uit (1): [[steekproef-audit]]
 
 Ontdekkingsrisico is het risico dat de door de beroepsbeoefenaar uitgevoerde controlewerkzaamheden geen afwijking van materieel belang ontdekken die afzonderlijk of samen met andere bestaat. Het is de enige risicocomponent die de auditor zelf kan beïnvloeden, door de aard, timing en omvang van zijn werkzaamheden bij te sturen.
 

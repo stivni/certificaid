@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Verwerven van kennis van de cliënt en zijn omgeving in een audit-opdracht 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Begrijpen van de cliënt en zijn omgeving is de eerste planningsstap die elke verdere risico-inschatting voedt (ISA 315). De stagiair documenteert bedrijfsmodel, sector-risico's, governance-structuur, IT-omgeving en relaties met verbonden partijen — en gebruikt die kennis om abnormaliteiten in cijfers te herkennen. Zonder kennis-van-de-cliënt-fundament is risico-inschatting speculatief; daarom is dit een verplichte voorbereidingsstap bij elke audit, ook bij continuïteits-opdrachten (waar de update minder zwaar is dan bij eerste opdracht).
 
 

@@ -24,9 +24,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Rentabiliteit van het eigen vermogen (ROE) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Meten welk rendement de onderneming behaalt op het eigen vermogen — het kapitaal dat de aandeelhouders hebben ingezet of laten staan. ROE staat voor 'Return On Equity'. Het kerngetal voor aandeelhouders die willen weten of hun ingezet kapitaal voldoende oplevert.
 
 > [!info] Behoort tot: [[doelstellingen-financiele-analyse]]

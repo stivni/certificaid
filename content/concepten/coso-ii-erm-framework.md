@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # COSO II — Enterprise Risk Management 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 COSO II breidt COSO I uit naar Enterprise Risk Management — een geïntegreerde benadering van risicobeheer die strategie, prestaties en cultuur in één framework brengt. Centraal: risicobeheer is geen afzonderlijke functie maar verweven in elke strategische beslissing. Herziening 2017 verlegt klemtoon naar 'risk in strategy setting' en 'risk appetite'.
 
 

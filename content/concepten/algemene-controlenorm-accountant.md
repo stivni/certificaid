@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Algemene controlenorm voor de externe accountant ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 De Algemene controlenorm is de overkoepelende ITAA-norm die voor elke controleopdracht van een gecertificeerd accountant de basisprincipes vastlegt: bekwaamheid, onafhankelijkheid, werkschema, werkdocumenten, opvolging van een collega, controlewerkzaamheden en toezicht. Speelt de rol van 'algemene voorwaarden' waarop bijzondere normen (KMO-controlenorm, samenstellingsnorm, ontbinding-vereffening) zich enten. Belangrijk: de norm bepaalt ook de bronnenhiërarchie die de accountant volgt — wet → contract → ITAA-norm → vakliteratuur.
 
 > [!summary] Korte inhoud

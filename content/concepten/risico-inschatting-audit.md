@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Risico-inschatting (audit) ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Risico-inschatting is de planningsfase waarin de auditor begrijpt waar afwijkingen van materieel belang kunnen ontstaan — vóór hij beslist welke werkzaamheden hij gaat doen. Het is geen substantive werk: het levert geen assurance, maar stuurt wel de scope, intensiteit en aard van het werkprogramma. Een ondergewaardeerd risico leidt tot onderwerk (en een verkeerd oordeel); een overgewaardeerd risico leidt tot kostbaar overwerk. De auditrisico-formule (controle = inherent × intern beheersing × ontdekking) operationaliseert die inschatting.
 
 > [!summary] Korte inhoud

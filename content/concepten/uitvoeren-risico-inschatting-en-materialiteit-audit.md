@@ -21,9 +21,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Uitvoeren van risico-inschatting en bepalen van het materieel belang in een audit 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Risico-inschatting en materialiteit zijn de twee parameters die bepalen waar de accountant zijn werkzaamheden concentreert en waar minimale aandacht volstaat. Het auditrisicomodel (IR × CR × DR ≤ AR) en de materialiteitsdrempel (typisch 5-10% van een passende benchmark) sturen samen de scope van het werkprogramma. Zonder gedocumenteerde risico-inschatting kan een latere bevinding niet verdedigd worden in een review: 'we hebben niet gekeken want we hadden het niet als risico geïdentificeerd' is alleen aanvaardbaar mits dat geargumenteerd vastligt.
 
 
@@ -169,15 +166,15 @@ Leg de matrix, het materialiteitsbedrag, de significant risks en de gekozen resp
 
 ## Zie ook
 
-- **Vereist kennis van**: [[risico-inschatting-audit]]
-- **Vereist kennis van**: [[auditrisicomodel]]
-- **Vereist kennis van**: [[materieel-belang-audit]]
-- **Vereist kennis van**: [[significant-risico-audit]]
-- **Vereist kennis van**: [[beweringen-audit]]
-- **Vereist kennis van**: [[fraude-versus-fout]]
-- **Vereist kennis van**: [[inherent-risico]]
-- **Vereist kennis van**: [[intern-beheersingsrisico]]
-- **Vereist kennis van**: [[ontdekkingsrisico]]
+- **Vereist kennis van**: [[]]
+- **Vereist kennis van**: [[]]
+- **Vereist kennis van**: [[]]
+- **Vereist kennis van**: [[]]
+- **Vereist kennis van**: [[]]
+- **Vereist kennis van**: [[]]
+- **Vereist kennis van**: [[]]
+- **Vereist kennis van**: [[]]
+- **Vereist kennis van**: [[]]
 
 ## Voorbeelden
 

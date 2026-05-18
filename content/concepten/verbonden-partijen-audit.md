@@ -18,6 +18,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Verbonden partijen (audit-perspectief) ⚖️
 
+Transacties met verbonden partijen (moeders, dochters, zusters, bestuurders en hun familie) zijn een klassieke vector voor manipulatie van het getrouwe beeld: verschuiven van winst, verdoezelen van schulden, niet-marktconforme prijzen. ISA 550 verplicht de auditor om hen te identificeren, transacties te begrijpen en de toelichtingsplicht na te gaan.
+
 > [!summary] Korte inhoud
 > De beroepsbeoefenaar verwerft voldoende inzicht in de relaties en transacties met verbonden partijen om (a) eventuele fraude-risicofactoren te onderkennen die uit zulke relaties voortkomen, en (b) op basis van de verzamelde assurance-informatie te besluiten of de financiële overz….
 
@@ -46,3 +48,4 @@ De zaakvoerder van Meubelzaak Mertens BV verhuurt een loods aan zijn eigen venno
 
 [^1]: `ITAA-norm-kmo-controlenorm__sec_3-2-7-verbonden-partijen`
 [^2]: `ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s`
+[^3]: `ISA-550__sec_definities`

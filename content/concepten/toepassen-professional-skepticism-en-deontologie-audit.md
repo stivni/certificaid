@@ -22,9 +22,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Toepassen van professional skepticism en deontologische normen tijdens de audit 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Deze competentie omspant de doorlopende attitude-componenten van een externe controle-opdracht: onafhankelijkheid bewaken, belangenconflicten beheersen, beroepsgeheim respecteren met begrip van de wettelijke uitzonderingen, en professioneel-kritische instelling toepassen in concrete oordeelsvorming. Wettelijk verankerd in Wet ITAA 2019 art. 14 + KB 1998 plichtenleer + ITAA-normen + art. 458 Strafwetboek; de invulling van waarborgmaatregelen en challenge-procedures is praktijkbeleid + persoonlijke oordeelsvorming.
 
 

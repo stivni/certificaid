@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Professioneel-kritische instelling ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Professioneel-kritische instelling (professional skepticism) is een wettelijk vereiste houding van de auditor doorheen de hele opdracht — geplant en uitgevoerd vanuit een onderzoekende, alerte mindset. Het is geen punctuele beslissing maar een continue ingesteldheid, in het bijzonder bij schattingen, transacties met verbonden partijen en fraude-indicaties. Samen met professionele oordeelsvorming (judgment) vormt het de auditor-attitude die het verschil maakt tussen een ceremoniële audit en een audit die afwijkingen detecteert.
 
 > [!summary] Korte inhoud

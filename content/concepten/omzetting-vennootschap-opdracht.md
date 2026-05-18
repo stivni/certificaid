@@ -20,9 +20,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Verslag bij omzetting van een vennootschap ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Bij elke omzetting van rechtsvorm (BV → NV, NV → CV, ...) eist het WVV een verslag van een onafhankelijke beroepsbeoefenaar over een staat van activa en passiva, opgesteld door het bestuursorgaan. De opdracht is een beoordelingsopdracht (beperkte zekerheid, negatieve conclusie 'geen feiten gebleken dat het nettoactief overgewaardeerd is'). Bij commissaris: hij voert de opdracht uit. Anders: gedeeld monopolie GA / bedrijfsrevisor. Bij grensoverschrijdende omzetting komt er een aanvullende opdracht over de geldelijke vergoeding voor uittredende aandeelhouders bij.
 
 > [!summary] Korte inhoud

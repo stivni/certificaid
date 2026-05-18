@@ -18,6 +18,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Fraude versus fout in een audit ⚖️
 
+ISA 240 verplicht de auditor om expliciet stil te staan bij het risico op fraude — niet alleen op fouten. Het onderscheid tussen fraude (opzettelijk, met misleiding) en fout (onopzettelijk) bepaalt welke procedures de auditor inzet en hoe hij professioneel-kritisch blijft. Verkeerd classificeren leidt tot een blinde vlek: fraude-risico negeren of elk verschil als fraude rapporteren.
+
 > [!summary] Korte inhoud
 > Fraude is een opzettelijke handeling — door management, met governance belaste personen, werknemers of derden — waarbij misleiding wordt gebruikt om een onrechtmatig of onwettig voordeel te verkrijgen.
 
@@ -58,3 +60,4 @@ Bij Meubelzaak Mertens BV stelt Sofie Janssens vast dat de zaakvoerder bewust vo
 [^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2`
 [^2]: `ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s`
 [^3]: `ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif`
+[^4]: `ISA-240__sec_definities`

@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Gedeelde wettelijk voorbehouden opdracht ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 De gedeelde wettelijk voorbehouden opdracht is het tweede luik van het opdrachten-palet van de gecertificeerd accountant: bepaalde verrichtingen uit het WVV (inbreng in natura, quasi-inbreng, omzetting, ontbinding-vereffening) vereisen een verslag van een onafhankelijke beroepsbeoefenaar. Wet ITAA 2019 art. 3 wijst die opdrachten toe aan ofwel een GA ofwel een bedrijfsrevisor — de cliënt kiest. Heeft de vennootschap al een commissaris, dan vervalt de keuze: hij voert de opdracht uit.
 
 > [!summary] Korte inhoud

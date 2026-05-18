@@ -167,7 +167,7 @@ Maak in de eerste IFRS-jaarrekening de verplichte aansluitingen: EV op overgangs
 >
 > _Vaak fout gedaan_: Alleen de eindbalans en vergelijkbare balans tonen. Bij eerste IFRS-jaarrekening is een derde balans (op overgangsdatum) verplicht.
 >
-> _Grondslag_: [[ias-1-jaarrekening-componenten]] §drie-balansen-bij-eerste-toepassing
+> _Grondslag_: [[jaarrekening-componenten-ifrs]] §drie-balansen-bij-eerste-toepassing
 
 
 ## Voorbeelden
@@ -182,7 +182,7 @@ Maak in de eerste IFRS-jaarrekening de verplichte aansluitingen: EV op overgangs
 
 ## Gebaseerd op concepten
 
-[[ifrs-eerste-toepassing]] · [[wijziging-boekhoudkundig-referentiestelsel]] · [[ias-1-jaarrekening-componenten]] · [[be-gaap-vs-ifrs-overzicht]]
+[[ifrs-eerste-toepassing]] · [[wijziging-boekhoudkundig-referentiestelsel]] · [[jaarrekening-componenten-ifrs]] · [[be-gaap-vs-ifrs-overzicht]]
 ## Voortkomend uit
 
 - **Taken**: 1.5.taak.1

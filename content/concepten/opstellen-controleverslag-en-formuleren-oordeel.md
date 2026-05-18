@@ -20,9 +20,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Opstellen van het controleverslag en formuleren van het oordeel 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Deze competentie omvat het formuleren van het controleoordeel (kiezen uit de vier types op basis van materialiteit + diepgaandheid + voldoende-en-geschikte assurance-informatie) én het redigeren van het controleverslag conform de ISA-700/705/706/701/720-structuur, aangevuld met Belgische ITAA-vereisten (scope-grenzen, andere prestaties, confraterneel afschrift). De stagiair leert het verslag als communicatie-instrument: paragraaf-volgorde en paragraaf-titels verschillen mee met het oordeels-type.
 
 

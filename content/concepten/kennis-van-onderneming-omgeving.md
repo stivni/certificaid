@@ -2,7 +2,7 @@
 title: Kennis van de onderneming en haar omgeving
 tags:
 - concept
-- procedure
+- cluster
 - po-1-6
 linked_anchors:
 - 1.6.II.A
@@ -10,13 +10,15 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: procedure
+node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/kennis-van-onderneming-omgeving.json
 gegenereerd_op: '2026-05-18'
 ---
 # Kennis van de onderneming en haar omgeving ⚖️
+
+Een audit begint nooit blind. De auditor moet de cliënt-onderneming, de sector waarin ze opereert en het regelgevend kader kennen vooraleer hij beslist waar de materiële risico's zitten. ISA 315 (herzien 2019) en de ITAA KMO-controlenorm §76–77 verplichten een gestructureerde kennis-verwerving over zes domeinen. Dit is de inputlaag voor de risico-inschatting en de planning van de werkzaamheden.
 
 > [!summary] Korte inhoud
 > De accountant moet bij elke controle een degelijke kennis hebben van het bedrijf en zijn werkzaamheden.
@@ -56,6 +58,7 @@ _Grondslag: ITAA KMO-controlenorm §76_
 ## Zie ook
 
 - **Vereist kennis van**: [[risico-inschatting-audit]]
+- **Vereist kennis van**: [[met-governance-belaste-personen]]
 - **Wordt voorondersteld in** (1): [[verwerven-kennis-van-clientonderneming-audit]]
 ## Voorbeelden
 
@@ -63,5 +66,5 @@ Vooraleer Sofie Janssens de audit van Rotex Roeselare NV start, verwerft zij inz
 
 ## Bronnen
 
-[^1]: `ITAA-norm-algemene-controlenorm__sec_6-controles`
-[^2]: `ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif`
+[^1]: `ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif`
+[^2]: `ITAA-norm-algemene-controlenorm__sec_6-controles`

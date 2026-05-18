@@ -21,9 +21,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Quick ratio (liquiditeit in enge zin, zuurtegraad) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Strengere liquiditeitstoets: kan de vennootschap haar korte schulden betalen zónder dat ze voorraden moet verkopen? Voorraden zijn vaak niet snel cash te maken, vooral bij specifieke goederen of dalende vraag. Ook bekend als 'acid test' of 'zuurtegraad'.
 
 > [!info] Behoort tot: [[liquiditeitsratio]]

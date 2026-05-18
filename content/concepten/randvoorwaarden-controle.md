@@ -18,9 +18,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Randvoorwaarden voor een controle (preconditions) ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 De randvoorwaarden (preconditions) zijn de minimale voorwaarden die ISA 210 en de ITAA KMO-controlenorm stellen aan elke audit-opdracht. Zonder aanvaardbaar verslaggevingsstelsel mist de auditor zijn referentiekader; zonder erkenning van de drie verantwoordelijkheden door het management is een controle niet uitvoerbaar. De preconditions worden geverifieerd vóór aanvaarding en blijven gelden gedurende de hele audit.
 
 > [!summary] Korte inhoud
@@ -62,7 +59,7 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 ## Zie ook
 
 - **Vereist kennis van**: [[opdrachtbrief-accountant]]
-- **Wordt voorondersteld in** (2): [[aanvaarden-audit-opdracht]] · [[verwerven-kennis-van-clientonderneming-audit]]
+- **Wordt voorondersteld in** (3): [[aanvaarden-audit-opdracht]] · [[opvolging-voorganger-accountant]] · [[verwerven-kennis-van-clientonderneming-audit]]
 ## Voorbeelden
 
 Vooraleer Wolters & Partners CVBA de audit van Meubelzaak Mertens BV aanvaardt, vergewist Sofie Janssens zich ervan dat (1) de jaarrekening volgens Belgisch jaarrekeningenrecht / KB WVV wordt opgesteld (aanvaardbaar stelsel) en (2) de zaakvoerder erkent zijn verantwoordelijkheden voor de jaarrekening, de IC, en het verschaffen van toegang/informatie.

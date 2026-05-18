@@ -24,9 +24,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Afschrijvingen ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 De aanschaffingswaarde van vaste activa met beperkte gebruiksduur **systematisch spreiden** over de jaren waarin het actief economisch wordt gebruikt — zodat de kost in elk jaar verschijnt waarin het actief baten oplevert (matching).
 
 > [!summary] Korte inhoud

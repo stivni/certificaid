@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Getrouw beeld als controlecriterium ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Getrouw beeld is hét toetsingscriterium dat de externe accountant of revisor toepast op de jaarrekening. Het beoordelingscriterium leeft binnen het van toepassing zijnde stelsel inzake financiële verslaggeving (Belgisch jaarrekeningenrecht KB WVV, IFRS, of een stelsel voor bijzondere doeleinden) en wordt altijd gekoppeld aan de materialiteitsdrempel: enkel afwijkingen van materieel belang tasten het getrouw beeld aan. Zonder dit criterium kan de auditor geen oordeel formuleren.
 
 > [!summary] Korte inhoud

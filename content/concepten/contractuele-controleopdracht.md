@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Contractuele controleopdracht ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 De contractuele controleopdracht is de niet-wettelijke audit van een jaarrekening: zowel de gecertificeerd accountant als de bedrijfsrevisor mag hem uitvoeren onder de ITAA KMO-controlenorm of (voor de revisor) de ISA-standaarden. Vraag komt typisch van banken, kandidaat-overnemers of aandeelhouders die meer comfort willen dan een samenstelling biedt maar niet de wettelijke controle nodig hebben. Levert het hoogste haalbare zekerheidsniveau (redelijk) en eindigt op een positief oordeel.
 
 > [!summary] Korte inhoud

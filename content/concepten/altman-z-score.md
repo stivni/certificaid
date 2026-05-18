@@ -18,9 +18,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Altman Z-score (faillissement-predictiemodel) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Het Altman Z-model voorspelt het faillissementsrisico van een onderneming via een gewogen lineaire combinatie van vijf ratio's. Een lage Z-waarde signaleert verhoogd faillissementsrisico binnen 2 jaar; een hoge Z-waarde wijst op financiële gezondheid. Belangrijk: het is een discriminantmodel, geen waarschijnlijkheidsuitspraak.
 
 > [!info] Behoort tot: [[kwantitatieve-financiele-diagnose]]

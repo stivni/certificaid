@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Elementen van het controleverslag (revisieverslag) ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Het controleverslag is het zichtbare eindproduct waarmee de auditor zijn oordeel communiceert aan de gebruikers van de jaarrekening (aandeelhouders, bankiers, leveranciers, fiscus). ISA 700 (herzien) schrijft een vaste structuur en volgorde van paragrafen voor; ISA 705 wijzigt de oordeels- en basisparagraaf bij een aangepast oordeel; ISA 706 voegt optionele emphasis-paragrafen toe; ISA 701 voegt verplichte key audit matters toe voor beursgenoteerden; ISA 720 voegt de rapportage over andere informatie toe. ITAA-normen voegen Belgische plichten toe (vermelding andere prestaties, confraterneel afschrift).
 
 > [!summary] Korte inhoud

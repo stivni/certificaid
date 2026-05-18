@@ -2,7 +2,7 @@
 title: Opvolging van een collega-accountant
 tags:
 - concept
-- procedure
+- competentie
 - po-1-6
 linked_anchors:
 - 1.6.III.E
@@ -10,23 +10,18 @@ linked_anchors:
 - 1.6.II.A
 programmaonderdelen:
 - '1.6'
-confidence: grounded
-node_type: procedure
+confidence: inferred
+node_type: competentie
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/opvolging-voorganger-accountant.json
 gegenereerd_op: '2026-05-18'
 ---
-# Opvolging van een collega-accountant ⚖️
+# Opvolging van een collega-accountant 🤖
 
-> [!summary] Korte inhoud
-> Elke accountant die een confrater of een bedrijfsrevisor opvolgt, moet vooraf met hem in contact treden.
+Wanneer een stagiair of accountant een nieuwe opdracht aanvaardt waarbij een andere accountant of bedrijfsrevisor de cliënt eerder bediende, treedt de confraterniteits-plicht in werking. KB plichtenleer art. 25 en ITAA Algemene controlenorm §5 schrijven voor dat de opvolger vóór aanvaarding contact opneemt met de voorganger en parallelle accountants schriftelijk informeert. Deze competentie operationaliseert die plicht stap-voor-stap.
 
-> [!info] Behoort tot: [[plichtenleer-accountant]]
-
-Elke accountant die een confrater of een bedrijfsrevisor opvolgt, moet vooraf met hem in contact treden. De opvolger mag de werkdocumenten van zijn voorganger inzien, maar de voorganger mag zijn oorspronkelijke stukken niet uit handen geven. Bovendien moet hij — bij elke opdrachtaanvaarding — nagaan of een andere externe accountant in de laatste 12 maanden bij dezelfde cliënt heeft gewerkt en deze schriftelijk inlichten.
-
-_Bron: ITAA Algemene controlenorm §5 + KB plichtenleer art. 25_
+> [!info] Behoort tot: [[]]
 
 
 ## Stappen
@@ -73,12 +68,13 @@ Verstuur kopie van de opdrachtbrief of een korte mededeling — bij voorkeur sch
 
 ## Zie ook
 
-- **Wordt voorondersteld in** (2): [[aanvaarden-audit-opdracht]] · [[kwaliteitsbeheersing-opdrachtniveau]]
+- **Vereist kennis van**: [[]]
+
 ## Voorbeelden
 
 Wolters & Partners CVBA wordt benoemd als nieuwe controleaccountant van Naaiatelier Ninove BV, na ontslag van de vorige accountant. Sofie Janssens contacteert haar voorganger schriftelijk, vraagt inzage in zijn werkdocumenten (vooral risico-evaluatie en eindbevindingen), en informeert ook de externe accountant die in de laatste 12 maanden samenstellingsopdrachten heeft uitgevoerd.
 
 ## Bronnen
 
-[^1]: `ITAA-norm-algemene-controlenorm__sec_5-opvolging`
-[^2]: `KB-1998-plichtenleer__art_25`
+[^1]: `KB-1998-plichtenleer__art_25`
+[^2]: `ITAA-norm-algemene-controlenorm__sec_5-opvolging`

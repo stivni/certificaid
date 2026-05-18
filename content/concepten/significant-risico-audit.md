@@ -18,10 +18,12 @@ gegenereerd_op: '2026-05-18'
 ---
 # Significant risico (audit) ⚖️
 
+Significante risico's zijn risico's waarvoor de auditor in zijn risico-inschatting concludeert dat ze speciale aandacht vragen. ISA 315 (herzien 2019) verplicht hem om voor elk significant risico substantive procedures te plannen — ook als de IC sterk lijkt. Typische triggers: niet-routinematige transacties, schattings-risico, fraude-risico, complexe contracten.
+
 > [!summary] Korte inhoud
 > Een significant risico is een onderkend en ingeschat risico op een afwijking van materieel belang waaraan — volgens het oordeel van de beroepsbeoefenaar — tijdens de controle SPECIALE aandacht moet worden besteed.
 
-> [!info] Behoort tot: [[risico-inschatting-audit]]
+> [!info] Behoort tot: [[]]
 
 Een significant risico is een onderkend en ingeschat risico op een afwijking van materieel belang waaraan — volgens het oordeel van de beroepsbeoefenaar — tijdens de controle SPECIALE aandacht moet worden besteed. Voor zulke risico's altijd substantive procedures plannen, ook als de IC sterk lijkt.
 
@@ -36,9 +38,6 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + §93_
 > Opbrengstverantwoording (vermoeden van fraude — altijd), management override van IC (altijd), niet-routinematige significante transacties, complexe schattingen, transacties met verbonden partijen, going concern bij twijfel. ⚖️
 
 
-## Zie ook
-
-- **Wordt voorondersteld in** (1): [[uitvoeren-risico-inschatting-en-materialiteit-audit]]
 ## Voorbeelden
 
 Bij Rotex Roeselare NV markeert Sofie Janssens de waardering van een grote impairment-test (€ 4.500.000 goodwill) als significant risico: hoge schattingsonzekerheid + management-bias mogelijk. Gevolg: uitgebreide substantive procedures + onafhankelijke valuator + extra dossierdiepte.
@@ -47,3 +46,4 @@ Bij Rotex Roeselare NV markeert Sofie Janssens de waardering van een grote impai
 
 [^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4`
 [^2]: `ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s`
+[^3]: `ISA-315__sec_toepassingsgerichte-en-overige-verklarende-teksten`

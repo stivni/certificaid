@@ -1,17 +1,4 @@
 {{ frontmatter_yaml | safe -}}
-{% if wijziging_datum %}
-> [!update] Bijgewerkt sinds `{{ wijziging_basis_ref }}` — laatste wijziging {{ wijziging_datum }}
-
-
-{% endif %}
-{% if open_gaps %}
-> [!warning]- Open beslissingen
-> De volgende gaps zijn nog open voor dit programmaonderdeel — inhoud kan onvolledig zijn:
-{% for gap in open_gaps %}
-> - `{{ gap.aspect }}` op `{{ gap.record_id }}`: {{ gap.reden[:100] }}…
-{% endfor %}
-
-{% endif %}
 {% if po_niveau or po_taken %}
 ## Wat verwacht het examen van jou?
 
@@ -25,8 +12,33 @@
 **Taken** (uit het ITAA-examenprogramma):
 
 {% for taak in po_taken %}
-- **{{ taak.code }}** — {{ taak.tekst }}{% if taak.doelstellingen %} *({{ taak.doelstellingen | length }} doelstelling{% if taak.doelstellingen | length > 1 %}en{% endif %})*{% endif %}
+**{{ taak.code }}** — {{ taak.tekst }}
 
+{% if taak.subtaken or taak.doelstellingen %}
+<details>
+<summary>{% if taak.subtaken %}{{ taak.subtaken | length }} subta{% if taak.subtaken | length > 1 %}ken{% else %}ak{% endif %}{% if taak.doelstellingen %} · {% endif %}{% endif %}{% if taak.doelstellingen %}{{ taak.doelstellingen | length }} doelstelling{% if taak.doelstellingen | length > 1 %}en{% endif %}{% endif %}</summary>
+
+{% if taak.subtaken %}
+**Subtaken**:
+
+{% for s in taak.subtaken %}
+- `{{ s.code }}` — {{ s.tekst }}
+
+{% endfor %}
+
+{% endif %}
+{% if taak.doelstellingen %}
+**Doelstellingen**:
+
+{% for d in taak.doelstellingen %}
+- `{{ d.code }}` — {{ d.tekst }}
+
+{% endfor %}
+
+{% endif %}
+</details>
+
+{% endif %}
 {% endfor %}
 
 {% endif %}

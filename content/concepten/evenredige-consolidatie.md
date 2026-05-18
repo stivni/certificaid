@@ -20,9 +20,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Evenredige consolidatie (proportionele consolidatie) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Een gemeenschappelijke dochter (een vennootschap die door een beperkt aantal vennoten samen wordt gecontroleerd, op grond van een overeenkomst) neem je in de geconsolideerde jaarrekening van elke gezamenlijk controlerende moeder op naar rato van haar aandeel in het kapitaal (of in de inbreng bij vennootschappen zonder kapitaal). Alleen jouw pro-rata stuk van de bezittingen, schulden, opbrengsten en kosten komt erin — geen afzonderlijke 'belangen van derden' nodig, want het deel buiten de groep wordt simpelweg niet opgenomen.
 
 > [!info] Behoort tot: [[consolidatiemethodes-vergelijking]]

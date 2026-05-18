@@ -18,9 +18,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Ohlson O-score (faillissement-predictiemodel via logit) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Het Ohlson O-model voorspelt de kans op faillissement via logistische regressie op negen variabelen uit de jaarrekening. Anders dan Altman geeft Ohlson een kansprobabiliteit (tussen 0 en 1) — niet een score-zone.
 
 > [!info] Behoort tot: [[kwantitatieve-financiele-diagnose]]

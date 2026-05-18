@@ -20,9 +20,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Drie-lijnen-model (Three Lines of Defense) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Het drie-lijnen-model verdeelt verantwoordelijkheid voor risicobeheer en IC over drie onafhankelijke lijnen: (1) operationeel management (eigenaar van risico's, voert IC uit), (2) risk- en compliancefuncties (beleidsmatig toezicht en methodologie), (3) interne audit (onafhankelijke assurance). Doel: vermijden dat één rol zowel risico's loopt als ze evalueert.
 
 > [!info] Behoort tot: [[interne-controle]]

@@ -5,7 +5,6 @@ tags:
 - begrip
 - po-1-6
 linked_anchors:
-- 1.6.II.D
 - 1.6.II.B
 programmaonderdelen:
 - '1.6'
@@ -17,6 +16,8 @@ gegenereerd_uit: data/concepten/records/boekhoudkundige-schattingen-audit.json
 gegenereerd_op: '2026-05-18'
 ---
 # Boekhoudkundige schattingen (audit-perspectief) ⚖️
+
+Een groot deel van de jaarrekening berust op schattingen: voorzieningen, afschrijvingstermijnen, waardeverminderingen, restwaardes. Deze posten dragen inherent een hoog risico op manipulatie of fout omdat ze management-oordeel vereisen. ISA 540 (herzien 2018) eist dat de auditor het schattingsproces beoordeelt, veronderstellingen test en de redelijkheid van de uitkomst evalueert in een specifiek risico-gebaseerd kader.
 
 > [!summary] Korte inhoud
 > Een boekhoudkundige schatting is een benadering van een bedrag wanneer het niet mogelijk is dat bedrag nauwkeurig te bepalen.
@@ -48,3 +49,4 @@ Rotex Roeselare NV vormt een voorziening van € 350.000 voor een aanhangig rech
 [^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4`
 [^2]: `ITAA-norm-kmo-controlenorm__sec_3-2-6-boekhoudkundige-schattingen`
 [^3]: `ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s`
+[^4]: `ISA-540__sec_definities`

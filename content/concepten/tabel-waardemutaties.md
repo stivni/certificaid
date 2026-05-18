@@ -18,9 +18,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Tabel van waardemutaties (mutatietabel vaste activa) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 De tabel van waardemutaties toont voor elke rubriek vaste activa de bewegingen van het boekjaar: aanschaffingen, desinvesteringen, overdrachten, afschrijvingen, waardeverminderingen en hun terugnemingen. Ze verbindt de openingsbalans met de eindbalans en is bron voor de kasstroomanalyse.
 
 > [!info] Behoort tot: [[jaarrekening-als-studieobject]]

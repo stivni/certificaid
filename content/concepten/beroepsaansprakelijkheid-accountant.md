@@ -18,9 +18,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Beroepsaansprakelijkheid van de accountant ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 De beroepsaansprakelijkheid van de accountant loopt op DRIE sporen: civiel (schadevergoeding aan cliënt of derden, gemeen recht), tuchtrechtelijk (sancties van ITAA-tuchtcommissie, schrapping mogelijk) en strafrechtelijk (zelden, bv. medeplichtigheid bij fraude). Wet ITAA 2019 art. 44 regelt het civielrechtelijk spoor: beperking is mogelijk in de opdrachtbrief, BEHALVE bij bedrog en bij wettelijk voorbehouden opdrachten. Verplichte verzekering BA is de eerste lijn van risicobeheersing — verzekeraar moet door het ITAA zijn erkend.
 
 > [!summary] Korte inhoud

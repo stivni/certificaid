@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Professionele oordeelsvorming ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Professionele oordeelsvorming (professional judgment) is de wettelijk vereiste capaciteit om relevante training, kennis en ervaring toe te passen wanneer de geldende controle-, verslaggevings- en ethische normen geen volledig vooraf-bepaald antwoord bieden. Het komt overal voor in de audit: bij het bepalen van materialiteit, kiezen van controleprocedures, beoordelen van schattingen, formuleren van het oordeel. Samen met professioneel-kritische instelling vormt het de attitude-kern die ITAA-normen, ISA en deontologie van de auditor verwachten.
 
 > [!summary] Korte inhoud

@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Beperkte mate van zekerheid ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Beperkte zekerheid is het assurance-niveau bij een beoordelingsopdracht: de beroepsbeoefenaar voert beduidend lichtere werkzaamheden uit (vooral cijferanalyses en bevragingen, geen detailcontroles) en kan daardoor enkel een negatieve conclusie geven. Geen 'getrouw beeld' uitspraak — alleen de afwezigheid van bezwaren. Het examen-onderscheid met redelijke zekerheid is cruciaal: positieve vs negatieve vormgeving.
 
 > [!summary] Korte inhoud

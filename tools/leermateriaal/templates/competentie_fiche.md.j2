@@ -1,11 +1,6 @@
 {{ frontmatter_yaml | safe -}}
 # {{ competentie.titel }}
 
-{% if wijziging_datum %}
-> [!update] Bijgewerkt sinds `{{ wijziging_basis_ref }}` — laatste wijziging {{ wijziging_datum }}
-
-
-{% endif %}
 **⚖️ {{ competentie.procedure_grondslag.wettelijk_pct }}% · 🤖 {{ competentie.procedure_grondslag.praktijk_pct }}%**
 
 {% if competentie.procedure_grondslag.motivering %}

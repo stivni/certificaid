@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Interpretatie en evaluatie van financiële ratio's (bekwaamheid) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Een ratio interpreteren betekent: cijfer naast benchmark plaatsen, vergelijken over tijd, vergelijken over sector, en de cijfer-uitkomst vertalen naar een betekenisvolle diagnose voor het bedrijfsmodel. Niet 'is 1,45 goed of slecht?' maar 'wat betekent 1,45 in deze sector, in dit business model, in deze evolutie?'.
 
 

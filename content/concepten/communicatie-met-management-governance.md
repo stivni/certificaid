@@ -18,9 +18,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Communicatie met management en met governance belaste personen ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Communicatie is geen formaliteit op het einde van de audit maar een doorlopende plicht. Tijdige bespreking van significante bevindingen geeft het management de kans om corrigerende boekingen aan te brengen vóór finalisering, beschermt de auditor tegen 'verrassingen' bij ondertekening, en stelt het governance-orgaan in staat zijn toezichtstaak naar behoren uit te oefenen. Bij kleinere KMO's met beperkte bestuursstructuur zijn 'management' en 'governance' vaak deels dezelfde personen — de auditor documenteert dan duidelijk in welke hoedanigheid het gesprek werd gevoerd.
 
 > [!summary] Korte inhoud
@@ -111,8 +108,8 @@ _Grondslag: ITAA KMO-controlenorm §67, ISA 265_
 
 ## Zie ook
 
-- **Vereist kennis van**: [[met-governance-belaste-personen]]
-- **Wordt voorondersteld in** (1): [[met-governance-belaste-personen]]
+- **Vereist kennis van**: [[]]
+
 ## Voorbeelden
 
 Aan het einde van de audit van Rotex Roeselare NV stuurt Sofie Janssens een management letter aan de raad van bestuur: drie significante IC-tekortkomingen rond aankooporders (geen functiescheiding) + één aanbeveling rond de continuïteitsanalyse. Schriftelijk, gedateerd, opgenomen in het controledossier.

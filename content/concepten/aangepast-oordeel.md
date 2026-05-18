@@ -18,9 +18,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Aangepast oordeel (modified opinion) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Een aangepast (modified) oordeel is een verzamelterm voor de drie controleoordeel-types die afwijken van het standaard goedkeurende oordeel zonder voorbehoud: oordeel met voorbehoud, afkeurend oordeel, oordeelonthouding. De keuze tussen de drie wordt gestuurd door twee assen: (1) bron — afwijking in de financiële overzichten vs. scope-beperking; (2) intensiteit — materieel maar geïsoleerd vs. materieel én diepgaand. Bij elk aangepast oordeel hoort een ‘Basis voor het oordeel’-paragraaf vóór de oordeelsparagraaf in het controleverslag.
 
 > [!summary] Korte inhoud

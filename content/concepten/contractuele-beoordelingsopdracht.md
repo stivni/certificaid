@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Contractuele beoordelingsopdracht ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Een contractuele beoordelingsopdracht (review) is een lichtere variant van de contractuele controle: minder werk, lager zekerheidsniveau, negatieve conclusie ('geen aanwijzingen gevonden dat...'). Past wanneer de cliënt enige geloofwaardigheid wil maar geen volledige audit wenst — bv. een tussentijdse cijferanalyse voor de bank. Onder de ITAA KMO-controlenorm hoofdstuk 4 en internationaal ISRE 2400.
 
 > [!summary] Korte inhoud

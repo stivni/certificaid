@@ -6,7 +6,7 @@ tags:
 programmaonderdelen:
 - '1.6'
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/opstellen-auditstrategie-en-werkprogramma.json
 gegenereerd_op: '2026-05-18'
 ---

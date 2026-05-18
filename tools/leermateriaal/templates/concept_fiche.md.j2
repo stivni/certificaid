@@ -1,11 +1,6 @@
 {{ frontmatter_yaml | safe -}}
 # {{ record.naam }} {{ mode_confidence_label }}
 
-{% if wijziging_datum %}
-> [!update] Bijgewerkt sinds `{{ wijziging_basis_ref }}` — laatste wijziging {{ wijziging_datum }}
-
-
-{% endif %}
 {% if record.situering %}
 {% set situering_text = record.situering.text if record.situering is mapping else record.situering %}
 {% if situering_text %}

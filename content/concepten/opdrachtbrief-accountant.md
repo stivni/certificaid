@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Opdrachtbrief van de accountant ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 De opdrachtbrief is in België verplicht voor elke contractuele opdracht van een gecertificeerd accountant. De ITAA-norm Opdrachtbrief (2020) en KB plichtenleer art. 17 leggen vast wat erin moet staan; Wet ITAA 2019 art. 44 bepaalt wanneer aansprakelijkheidsbeperking geldig is. De brief is geen formaliteit maar een werkinstrument: hij bepaalt scope, prijs en risico-allocatie.
 
 > [!summary] Korte inhoud
@@ -113,8 +110,8 @@ _Grondslag: ITAA-norm Opdrachtbrief §7_
 
 ## Zie ook
 
-- **Vereist kennis van**: [[beroepsaansprakelijkheid-accountant]]
-- **Wordt voorondersteld in** (4): [[aanvaarden-audit-opdracht]] · [[beroepsaansprakelijkheid-accountant]] · [[communiceren-met-bestuur-en-auditcomite]] · [[randvoorwaarden-controle]]- **Triggert** (1): [[contractuele-controleopdracht]]
+- **Vereist kennis van**: [[]]
+
 ## Voorbeelden
 
 Wolters & Partners CVBA stelt voor Meubelzaak Mertens BV een opdrachtbrief op vóór de start van de jaarlijkse boekhoudkundige opdracht: scope (organisatie boekhouding + jaarrekening + fiscale aangifte), termijnen (jaarrekening klaar tegen 30 april), ereloon (€ 8.500 forfait + uurtarief boven scope), aansprakelijkheidsplafond (drie keer ereloon, niet bij bedrog).

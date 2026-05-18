@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Risico-inschatting binnen de organisatie (COSO-component 2) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Risico-inschatting is het systematisch identificeren, analyseren en evalueren van wat fout kan gaan in het halen van de doelstellingen van de onderneming. Doel: bepalen welke risico's onaanvaardbaar zijn en gerichte controles inzetten. Zonder risico-inschatting werkt IC blind — overal controles of nergens.
 
 > [!info] Behoort tot: [[interne-controle]]

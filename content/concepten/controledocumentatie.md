@@ -2,7 +2,7 @@
 title: Controledocumentatie / controledossier
 tags:
 - concept
-- begrip
+- cluster
 - po-1-6
 linked_anchors:
 - 1.6.III.C
@@ -10,7 +10,7 @@ linked_anchors:
 programmaonderdelen:
 - '1.6'
 confidence: grounded
-node_type: begrip
+node_type: cluster
 status: seed
 schema_version: '1.5'
 gegenereerd_uit: data/concepten/records/controledocumentatie.json
@@ -18,10 +18,12 @@ gegenereerd_op: '2026-05-18'
 ---
 # Controledocumentatie / controledossier ⚖️
 
+Controledocumentatie is meer dan administratie: het is het bewijs dat de auditor zijn beroep heeft uitgeoefend volgens de regels van de kunst. ISA 230 spreekt expliciet de 'ervaren-auditor-test': een externe collega die het dossier 'koud' opent, moet uit de documentatie kunnen reconstrueren wat is gedaan, door wie, met welk resultaat en welke conclusies. Het dossier wordt 'ingevroren' na samenstelling — wijzigingen achteraf moeten getraceerd worden, anders verliest het zijn bewijswaarde bij toezicht of in rechtbank. Belgisch + ITAA-normen vragen 5-10 jaar bewaring; KB plichtenleer beschermt de eigendom voor de accountant.
+
 > [!summary] Korte inhoud
 > Controledocumentatie is de schriftelijke vastlegging van uitgevoerde controlewerkzaamheden, verkregen assurance-informatie en getrokken conclusies.
 
-> [!info] Behoort tot: [[auditcyclus]]
+> [!info] Behoort tot: [[]]
 
 Controledocumentatie is de schriftelijke vastlegging van uitgevoerde controlewerkzaamheden, verkregen assurance-informatie en getrokken conclusies. Een controledossier bestaat uit één of meer mappen (fysiek of elektronisch) met alle vastleggingen van een specifieke controleopdracht.
 
@@ -43,7 +45,7 @@ _Grondslag: ITAA Algemene controlenorm §4_
 
 ### Ervaren-beroepsbeoefenaar-test ⚖️
 
-De documentatie moet zo voldoende zijn dat een ervaren beroepsbeoefenaar die de opdracht niet kent inzicht krijgt in: aard/timing/omvang werkzaamheden, wie ze deed en wanneer, wie ze reviewde, resultaten en getrokken conclusies, significante professionele oordeelsvormingen.
+ISA 230 §8 (en ITAA KMO-controlenorm §44) vereisen dat de documentatie zo voldoende is dat een ervaren auditor (een persoon binnen of buiten het kantoor met praktische controle-ervaring) die voorheen niet bij de controle betrokken was, inzicht krijgt in: aard/timing/omvang werkzaamheden, wie ze uitvoerde en wanneer, wie ze reviewde, resultaten en getrokken conclusies, significante professionele oordeelsvormingen.
 
 **Waarom?** Dossier moet 'cold readable' zijn — zoniet is de bewijswaarde nul.
 
@@ -51,7 +53,7 @@ De documentatie moet zo voldoende zijn dat een ervaren beroepsbeoefenaar die de 
 
 Een vervangende confrater moet in 2030 het dossier 2025 van Rotex kunnen openen en begrijpen waarom Sofie Janssens een paragraaf ter benadrukking had opgenomen.
 
-_Grondslag: ITAA KMO-controlenorm §44_
+_Grondslag: ISA 230 §6(c), §8 + ITAA KMO-controlenorm §44_
 
 ### Eigendom + beroepsgeheim ⚖️
 
@@ -64,6 +66,18 @@ De werkdocumenten behoren exclusief tot de accountant en zijn gedekt door het be
 
 _Grondslag: ITAA Algemene controlenorm §4 in fine_
 
+### Permanent dossier versus jaardossier ⚖️
+
+Het controledossier bestaat in de praktijk uit twee delen: het PERMANENT dossier (gegevens met blijvende relevantie zoals statuten, organogrammen, beschrijving van de cyclussen en interne controle, leveranciers- en cliëntencontracten van duurzaam belang) en het JAARDOSSIER (de werkdocumenten specifiek voor het boekjaar: planningsmemo, risico-evaluatie, werkschema, uitgevoerde tests, conclusies, eindverslag).
+
+**Waarom?** Een dossier dat bij elke audit volledig zou worden opgebouwd kost onnodig tijd; permanent dossier wordt jaarlijks geüpdatet (niet herwerkt) terwijl het jaardossier per boekjaar nieuw opgebouwd wordt. Splitsing maakt review en kennisoverdracht naar nieuwe teamleden makkelijker.
+
+
+**In de praktijk**: Bij een eerste opdracht wordt het permanent dossier opgebouwd; bij vervolgjaren update je wat veranderd is (nieuwe filialen, statutenwijziging, ...) en bouw je een vers jaardossier op.
+
+
+_Grondslag: ISA 230 §A14 + ITAA-onderwijspraktijk_
+
 
 ## Drempelwaarden
 
@@ -71,9 +85,13 @@ _Grondslag: ITAA Algemene controlenorm §4 in fine_
 |---|---|---|---|
 | Minimumbewaartermijn werkdocumenten — algemene controlenorm | 10 jaar | jaren vanaf datum verslag | Werkdocumenten moeten minstens 10 jaar bewaard worden onder de Algemene Controlenorm §3. |
 | Minimumbewaartermijn dossier — KMO-controlenorm | 5 jaar | jaren vanaf ondertekening verslag | _zie toelichting hieronder_ |
+| Termijn samenstelling definitief controledossier | 60 dagen | dagen na datum controleverslag | _zie toelichting hieronder_ |
 
 > [!info]- Minimumbewaartermijn dossier — KMO-controlenorm
 > Onder de KMO-controlenorm bedraagt de bewaarperiode minimaal 5 jaar (§49). De strengste norm primeert (10 jaar onder Algemene Controlenorm).
+
+> [!info]- Termijn samenstelling definitief controledossier
+> ISA 230 §14 + ISQM 1 vragen tijdige samenstelling van het definitieve dossier; de gangbare termijn die ISQM 1 als richtlijn aangeeft is binnen 60 dagen na datum controleverslag. Na samenstelling worden wijzigingen alleen toegelaten als ze worden gedateerd, gemotiveerd en geïdentificeerd.
 
 
 ## Valkuilen
@@ -87,7 +105,7 @@ _Grondslag: ITAA Algemene controlenorm §4 in fine_
 
 ## Zie ook
 
-- **Vereist kennis van**: [[werkprogramma-audit]]
+- **Vereist kennis van**: [[]]
 - **Wordt voorondersteld in** (3): [[documenteren-auditdossier]] · [[opstellen-auditstrategie-en-werkprogramma]] · [[werkprogramma-audit]]
 ## Voorbeelden
 
@@ -98,4 +116,9 @@ Het controledossier 2025 van Rotex Roeselare NV bevat: opdrachtbrief, strategie 
 [^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2`
 [^2]: `ITAA-norm-kmo-controlenorm__sec_2-2-4-documentatie`
 [^3]: `ITAA-norm-algemene-controlenorm__sec_4-werkdocumenten`
-[^4]: `ITAA-norm-algemene-controlenorm__sec_3-werkschema`
+[^4]: `ISA-230__sec_vereisten_2`
+[^5]: `ISA-230__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part4`
+[^6]: `ITAA-norm-algemene-controlenorm__sec_3-werkschema`
+[^7]: `ISA-230__sec_vereisten`
+[^8]: `ISA-230__sec_inleiding_2`
+[^9]: `ISA-230__sec_toepassingsgerichte-en-overige-verklarende-teksten_2_part2`

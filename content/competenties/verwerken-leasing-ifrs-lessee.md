@@ -141,8 +141,8 @@ Leaseverplichting = contante waarde van leasebetalingen tegen impliciete rentevo
 >    | Vlottende activa                     |      40.000.000 |      40.000.000 |
 >    | **Totaal activa**                    |     125.000.000 |     128.894.000 |
 >    | Eigen vermogen                       |      80.000.000 |      80.000.000 |
->    | **Leaseverplichting (langlopend)**   |               0 |   **3.413.760** |
->    | **Leaseverplichting (kortlopend)**   |               0 |     **480.240** |
+>    | **Leaseverplichting (langlopend)**   |               0 |   **3.569.760** |
+>    | **Leaseverplichting (kortlopend)**   |               0 |     **324.240** |
 >    | Andere schulden                      |      45.000.000 |      45.000.000 |
 >    | **Totaal passiva**                   |     125.000.000 |     128.894.000 |
 >    
@@ -225,14 +225,14 @@ Schrijf ROU-actief lineair af over leaseperiode (of lager van leaseperiode/gebru
 > [!example]- Vergelijking: Zelena Bio NV (IFRS) versus Rotex Roeselare NV (BE-GAAP) sluiten elk een identiek 10-jarig huurcontract vo…
 > **Conclusie**: Zelena onder IFRS 16: ROU-actief € 3.894.000 + leaseverplichting € 3.894.000 op aanvangsdatum; W&V-last jaar 1 = afschrijving € 389.400 + rente € 155.760 = € 545.160. Rotex onder BE-GAAP (CBN 2015/04 — operationele lease): geen balansopname; W&V-last = € 480.000 (huurlast). Verschil EBITDA: Zelena toont € 480.000 hoger EBITDA (geen huur in EBITDA, wel afschrijving daaronder); ratio's debt/equity stijgen voor Zelena.
 >
-> **Grondslag**: [[leasing-ifrs]] §single-model; [[leasing]] §be-gaap-onderscheid; [[ifrs-16-lessee-vs-lessor-overzicht]] §vergelijkingstabel
+> **Grondslag**: [[leasing-ifrs]] §single-model; [[leasing]] §be-gaap-onderscheid; [[lessee-vs-lessor-leasing-ifrs]] §vergelijkingstabel
 >
 > **Redenering**: IFRS 16 schaft het lessee-onderscheid operationeel/financieel af; BE-GAAP behoudt het. Dezelfde economische realiteit, twee verschillende balansposities en verschillende W&V-patronen. Examenvragen toetsen vaak dit verschil door één feiten-situatie onder beide stelsels te laten verwerken.
 
 
 ## Gebaseerd op concepten
 
-[[leasing-ifrs]] · [[right-of-use-actief]] · [[leaseverplichting-ifrs]] · [[ifrs-16-lessee-vs-lessor-overzicht]] · [[leasing]]
+[[leasing-ifrs]] · [[right-of-use-actief]] · [[leaseverplichting-ifrs]] · [[lessee-vs-lessor-leasing-ifrs]] · [[leasing]]
 ## Voortkomend uit
 
 - **Taken**: 1.5.taak.1

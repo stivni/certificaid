@@ -4,8 +4,11 @@ Vervangt het oude append-only `content/snapshots/<v>/`-pad. Werkt met git als
 versie-systeem: vergelijk huidige HEAD met laatste publieke tag (default
 `v1.0`, overrideable), filter wijzigingen tot content/concepten/,
 content/competenties/, content/studiemateriaal/, classificeer per file
-(inhoudelijk vs render-only), schrijf changelog-pagina + cache voor
-render-laag (per-fiche "Bijgewerkt"-badge).
+(inhoudelijk vs render-only), schrijf changelog-pagina.
+
+Per-fiche "Last modified"-indicator wordt door Quartz native afgehandeld
+via `defaultDateType: "modified"` in `quartz.config.ts` — geen aparte
+cache nodig. Deze tool levert alleen het centrale `/changelog/`-overzicht.
 
 Gebruik:
   python3 -m tools.leermateriaal.build_changelog                # default v1.0
@@ -13,8 +16,7 @@ Gebruik:
   python3 -m tools.leermateriaal.build_changelog --basis-tag 01ada764  # commit-hash ad-hoc
 
 Output:
-  content/changelog/index.md       — chronologisch overzicht voor de student
-  data/leermateriaal/wijzigingen-sinds-<tag>.json  — cache voor render-laag
+  content/changelog/index.md — chronologisch overzicht voor de student
 """
 from __future__ import annotations
 
@@ -29,7 +31,6 @@ from typing import TypedDict
 ROOT = Path(__file__).resolve().parent.parent.parent
 RECORDS_DIR = ROOT / "data" / "concepten" / "records"
 CHANGELOG_DIR = ROOT / "content" / "changelog"
-CACHE_DIR = ROOT / "data" / "leermateriaal"
 
 CONTENT_PADEN = (
     "content/concepten/",
@@ -249,31 +250,6 @@ def _schrijf_changelog_pagina(
     return pad
 
 
-def _schrijf_render_cache(
-    basis_ref: str,
-    records_idx: dict[str, list[Wijziging]],
-    minicursus_idx: dict[str, list[Wijziging]],
-) -> Path:
-    """Schrijf cache voor render-laag — per-fiche badge-rendering.
-
-    Twee bestanden: een historisch bestand per basis_ref en een
-    `wijzigingen-actueel.json` voor render-laag (well-known pad).
-    """
-    CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    cache = {
-        "basis_ref": basis_ref,
-        "gegenereerd_op": datetime.now().isoformat(timespec="seconds"),
-        "records": {rid: [w["commit_date"] for w in ws] for rid, ws in records_idx.items()},
-        "minicursussen": {mid: [w["commit_date"] for w in ws] for mid, ws in minicursus_idx.items()},
-    }
-    blob = json.dumps(cache, ensure_ascii=False, indent=2) + "\n"
-    historisch = CACHE_DIR / f"wijzigingen-sinds-{basis_ref.replace('/', '_')}.json"
-    actueel = CACHE_DIR / "wijzigingen-actueel.json"
-    historisch.write_text(blob, encoding="utf-8")
-    actueel.write_text(blob, encoding="utf-8")
-    return historisch
-
-
 def _bepaal_basis_ref(opgegeven: str | None) -> str:
     """Default: laatste tag matching v*. Fallback op opgegeven of error."""
     if opgegeven:
@@ -309,12 +285,10 @@ def main() -> int:
     minicursus_idx = _minicursus_ids_uit_wijzigingen(wijzigingen)
 
     pagina = _schrijf_changelog_pagina(basis_ref, wijzigingen, records_idx, minicursus_idx)
-    cache = _schrijf_render_cache(basis_ref, records_idx, minicursus_idx)
 
     print(f"[changelog] {len(wijzigingen)} wijzigingen ({len(records_idx)} records, "
           f"{len(minicursus_idx)} minicursussen)")
     print(f"  Pagina: {pagina.relative_to(ROOT)}")
-    print(f"  Cache:  {cache.relative_to(ROOT)}")
     return 0
 
 

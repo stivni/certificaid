@@ -6,7 +6,7 @@ tags:
 programmaonderdelen:
 - '1.6'
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/toepassen-professional-skepticism-en-deontologie-audit.json
 gegenereerd_op: '2026-05-18'
 ---
@@ -167,7 +167,7 @@ Hou een onderzoekende, kritische houding aan — accepteer geen verklaring of ev
 
 ## Gebaseerd op concepten
 
-[[professioneel-kritische-instelling]] · [[professionele-oordeelsvorming]] · [[onafhankelijkheid-externe-accountant]] · [[belangenconflict-accountant]] · [[beroepsgeheim-accountant]] · [[fraude-versus-fout]] · [[itaa-algemene-controlenorm]] · [[itaa-kmo-controlenorm]]
+[[professioneel-kritische-instelling]] · [[professionele-oordeelsvorming]] · [[onafhankelijkheid-externe-accountant]] · [[belangenconflict-accountant]] · [[beroepsgeheim-accountant]] · [[fraude-versus-fout]] · [[algemene-controlenorm-accountant]] · [[kmo-controlenorm-accountant]]
 ## Voortkomend uit
 
 - **Taken**: 1.6.taak.1

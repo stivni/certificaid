@@ -17,6 +17,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Specifieke kwesties bij automatisering (audit-perspectief) 🤖
 
+Geautomatiseerde boekhoudomgevingen verschuiven de plek waar audit-risico's ontstaan: van menselijke routes naar IT-controles, applicatie-controles en data-flows. De auditor moet zijn aanpak aanpassen — IT general controls (toegang, wijzigingsbeheer, back-up) testen vóór hij steunt op applicatie-output, en bij data-rijke omgevingen overwegen CAATs of data-analytics in te zetten.
+
 > [!summary] Korte inhoud
 > Bij geautomatiseerde boekhoudkundige systemen verschuiven de auditrisico's: meer afhankelijkheid van IT-controles, meer 'embedded' controles in software, complexere audit trails, en specifieke risico's rond toegang, autorisatie en gegevensintegriteit.
 
@@ -49,3 +51,4 @@ Rotex Roeselare NV werkt met een ERP (SAP) met sterk geïntegreerde modules. Sof
 [^1]: `ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif`
 [^2]: `ITAA-norm-algemene-controlenorm__sec_4-werkdocumenten`
 [^3]: `ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen`
+[^4]: `ISA-315__sec_toepassingsgerichte-en-overige-verklarende-teksten`

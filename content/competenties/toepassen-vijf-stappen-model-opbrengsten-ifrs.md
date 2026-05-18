@@ -54,20 +54,20 @@ Splits het contract in de afzonderlijke goederen of diensten die onderscheiden z
 
 **🛠️ Hoe**:
 
-1. Volg [[prestatieverplichting-ifrs-15]] §onderscheiden-criteria voor de twee toetsen.
+1. Volg [[prestatieverplichting]] §onderscheiden-criteria voor de twee toetsen.
 2. Inventariseer alle beloofde goederen/diensten: bv. Zelena's contract = (a) softwarelicentie € 600.000, (b) implementatieservice € 200.000, (c) onderhoud 2 jaar € 200.000.
 3. Toets criterium (a) — afzonderlijk voordeel: licentie zonder implementatie kan klant elders laten doen → ja. Onderhoud is geen onderdeel van licentie zelf → ja.
 4. Toets criterium (b) — onderscheidbaar binnen context: implementatie is hoog-gestandaardiseerd en niet specifiek geïntegreerd met de software → ja, onderscheiden.
 5. Conclusie: 3 prestatieverplichtingen.
 
 
-**Grondslag**: [[opbrengsten-ifrs]] §stap-2, [[prestatieverplichting-ifrs-15]] §criteria, IFRS 15 alinea 22-30
+**Grondslag**: [[opbrengsten-ifrs]] §stap-2, [[prestatieverplichting]] §criteria, IFRS 15 alinea 22-30
 
 > [!warning]- Voer beide criteria (afzonderlijk voordeel + onderscheidbaar in context) uit — niet één van de twee.
 >
 > _Vaak fout gedaan_: Elke factuurregel automatisch als afzonderlijke prestatieverplichting beschouwen. Wanneer implementatie sterk geïntegreerd is met software (één combined output), is het één gecombineerde prestatieverplichting.
 >
-> _Grondslag_: [[prestatieverplichting-ifrs-15]] §onderscheiden-binnen-context
+> _Grondslag_: [[prestatieverplichting]] §onderscheiden-binnen-context
 
 ### 3. Bepaal de transactieprijs
 
@@ -172,7 +172,7 @@ Bepaal per prestatieverplichting of opbrengst **op één tijdstip** (control-tra
 
 ## Gebaseerd op concepten
 
-[[opbrengsten-ifrs]] · [[prestatieverplichting-ifrs-15]] · [[onderhanden-projecten-ifrs]] · [[be-gaap-vs-ifrs-overzicht]]
+[[opbrengsten-ifrs]] · [[prestatieverplichting]] · [[onderhanden-projecten-ifrs]] · [[be-gaap-vs-ifrs-overzicht]]
 ## Voortkomend uit
 
 - **Taken**: 1.5.taak.1

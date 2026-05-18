@@ -18,6 +18,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Met governance belaste personen ⚖️
 
+Met governance belaste personen zijn de personen of organen die toezien op de strategische richting en de verantwoording van de entiteit — typisch het bestuur, de raad van toezicht of een auditcomité. De accountant communiceert met hen (niet met de dagelijkse leiding) bij risico-inschatting, bevindingen over interne beheersing en eindrapportering. ISA 260 en 265 vormen de communicatie-as.
+
 > [!summary] Korte inhoud
 > De met governance belaste personen zijn de persoon (personen) of organisatie(s) — bv. de bestuurders van een vennootschap — die verantwoordelijk zijn voor het uitoefenen van toezicht op de strategische aansturing van de onderneming en op haar verantwoordingsverplichtingen.
 
@@ -41,8 +43,8 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 
 ## Zie ook
 
-- **Vereist kennis van**: [[communicatie-met-management-governance]]
-- **Wordt voorondersteld in** (2): [[communicatie-met-management-governance]] · [[communiceren-met-bestuur-en-auditcomite]]
+- **Vereist kennis van**: [[]]
+
 ## Voorbeelden
 
 Bij Rotex Roeselare NV: de bestuurders Marleen De Cock, Pieter Vermeulen en Robert Vandenberghe samen vormen 'de met governance belaste personen'. Bij Meubelzaak Mertens BV (eenpersoons-BV): de zaakvoerder is tegelijk eigenaar-bestuurder.
@@ -51,3 +53,4 @@ Bij Rotex Roeselare NV: de bestuurders Marleen De Cock, Pieter Vermeulen en Robe
 
 [^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2`
 [^2]: `ITAA-norm-kmo-controlenorm__sec_2-2-9-communicatie-met-het-management-of-de-met-governance-b`
+[^3]: `ISA-260__sec_definities`

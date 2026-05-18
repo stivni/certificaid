@@ -18,9 +18,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Direct costing (gedeeltelijke kostencalculatie) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Direct costing (synoniem: variable costing, gedeeltelijke kostencalculatie) berekent een kostprijs die enkel directe en variabele kosten omvat. Vaste indirecte kosten worden niet op de kostendrager toegerekend maar direct als periodekost in de resultatenrekening geboekt. Doel: transparante zicht op variabele kostengedrag en contributiemarge per product — input voor break-even-analyse, prijsbeslissingen en make-or-buy.
 
 > [!info] Behoort tot: [[costing-methodes-vergelijking]]

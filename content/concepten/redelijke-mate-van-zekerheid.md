@@ -20,9 +20,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Redelijke mate van zekerheid ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Redelijke zekerheid is het zekerheidsniveau dat een controle (audit) oplevert — het hoogste niveau dat een beroepsbeoefenaar praktisch kan verschaffen, maar nog steeds niet 100%. De auditor erkent dat steekproef-, inherente en intern beheersingsrisico's blijven bestaan. Het zekerheidsniveau bepaalt of het oordeel in positieve vorm ('geeft getrouw beeld') of in negatieve vorm ('geen aanwijzingen') mag worden uitgedrukt.
 
 > [!summary] Korte inhoud

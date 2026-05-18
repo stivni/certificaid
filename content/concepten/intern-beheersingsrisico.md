@@ -23,6 +23,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Intern beheersingsrisico ⚖️
 
+Intern beheersingsrisico is het risico dat de interne beheersing van de cliënt een potentiële afwijking niet voorkomt of niet tijdig detecteert. Het is een eigenschap van de cliënt — de auditor beïnvloedt het niet, hij toetst het via test-of-controls en stuurt zijn substantive werkzaamheden ernaar. Samen met inherent risico vormt het het risico op een afwijking van materieel belang.
+
 > [!summary] Korte inhoud
 > Intern beheersingsrisico is het risico dat een afwijking die kan optreden in een bewering (over een transactiestroom, rekeningsaldo of toelichting) — afzonderlijk of samen met andere van materieel belang — niet wordt voorkomen of niet tijdig wordt gedetecteerd en hersteld door de….
 
@@ -59,3 +61,4 @@ Bij Meubelzaak Mertens BV doet één persoon zowel kasontvangsten, boekhouding a
 [^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4`
 [^2]: `ITAA-norm-kmo-controlenorm__sec_3-2-1-manieren-om-in-te-spelen-op-ingeschatte-risico-s`
 [^3]: `ITAA-norm-kmo-controlenorm__sec_toetsingen-van-interne-beheersingsmaatregelen`
+[^4]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2`

@@ -63,14 +63,9 @@ def render_competentie(competentie: dict) -> str:
     """
     from tools.leermateriaal.lib.frontmatter import as_yaml_block, competentie_fiche_frontmatter
     from tools.leermateriaal.lib.jinja_env import get_env
-    from tools.leermateriaal.lib.wijzigingen_cache import laad_wijzigingen_cache
 
     frontmatter = competentie_fiche_frontmatter(competentie)
     frontmatter_yaml = as_yaml_block(frontmatter)
-
-    # Wijzigingen-badge (ADR-010 §versionering)
-    cache = laad_wijzigingen_cache()
-    wijziging_datum = cache.records.get(competentie.get("id", ""), "")
 
     env = get_env()
     template = env.get_template("competentie_fiche.md.j2")
@@ -78,8 +73,6 @@ def render_competentie(competentie: dict) -> str:
     return template.render(
         competentie=competentie,
         frontmatter_yaml=frontmatter_yaml,
-        wijziging_datum=wijziging_datum,
-        wijziging_basis_ref=cache.basis_ref,
     )
 
 

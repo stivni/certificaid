@@ -19,9 +19,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Bedrijfsrevisor 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 De bedrijfsrevisor is de tegenhanger van de gecertificeerd accountant aan de revisor-zijde: exclusief bevoegd voor de wettelijke controle van de jaarrekening (commissarismandaat), maar deelt voor andere wettelijk voorbehouden opdrachten het monopolie met de GA. Georganiseerd via het Instituut van de Bedrijfsrevisoren (IBR) en onder publiek toezicht van het College van Toezicht. Voor het bekwaamheidsexamen GA cruciaal: WAT mag enkel de revisor, WAT mogen beide?
 
 > [!summary] Korte inhoud

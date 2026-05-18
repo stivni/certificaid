@@ -17,6 +17,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Inherent risico ⚖️
 
+Inherent risico is één van de drie componenten van het auditrisicomodel en geeft de vatbaarheid van een bewering voor afwijking aan vóór interne beheersing in beeld komt. Het hangt af van de aard van de post (schattingen, complexe contracten, valuta), de sector en de economische context. De auditor beïnvloedt dit risico niet — hij schat het in en stuurt zijn werkzaamheden ernaar.
+
 > [!summary] Korte inhoud
 > Inherent risico is de vatbaarheid van een bewering (over een transactiestroom, rekeningsaldo of toelichting) voor een afwijking die — afzonderlijk of samen met andere — van materieel belang is, VOORDAT er rekening wordt gehouden met de interne beheersing.
 
@@ -52,3 +54,4 @@ Bij Rotex Roeselare NV is het inherent risico op voorraadwaardering hoog: comple
 
 [^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part4`
 [^2]: `ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif`
+[^3]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2`

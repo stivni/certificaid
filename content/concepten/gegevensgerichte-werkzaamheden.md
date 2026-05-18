@@ -18,9 +18,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Gegevensgerichte werkzaamheden (substantive procedures) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Gegevensgerichte werkzaamheden zijn controlewerkzaamheden die zijn opgezet om afwijkingen van materieel belang op het niveau van beweringen te ontdekken. Twee soorten: detailcontroles (transactiestromen, rekeningsaldi, toelichtingen) en gegevensgerichte cijferanalyses.
 
 > [!info] Behoort tot: [[assurance-informatie]]

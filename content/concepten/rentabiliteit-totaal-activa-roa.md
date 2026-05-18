@@ -24,9 +24,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Rentabiliteit van het totaal der activa (ROA) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Meten welk rendement de onderneming behaalt op het totaal van haar bezittingen — onafhankelijk van hoe ze die bezittingen heeft gefinancierd. ROA staat voor 'Return On Assets' (rentabiliteit totaal der activa). Het toont de economische rentabiliteit zonder vertekening door belasting- of financieringsstructuur.
 
 > [!info] Behoort tot: [[doelstellingen-financiele-analyse]]

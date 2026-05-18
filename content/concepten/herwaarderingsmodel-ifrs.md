@@ -18,9 +18,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Herwaarderingsmodel onder IFRS (IAS 16) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Het herwaarderingsmodel (IAS 16 alinea 31) waardeert materiële vaste activa **na eerste opname tegen geherwaardeerde waarde**: de reële waarde op de datum van herwaardering, verminderd met latere geaccumuleerde afschrijvingen en bijzondere waardeverminderingsverliezen. Doel: gebruikers van de jaarrekening een actueler beeld geven van de werkelijke economische waarde van het bedrijfskapitaal, in plaats van vast te houden aan historische kostprijs die snel verouderd kan zijn. Het model is een **alternatief** voor het kostprijsmodel; een entiteit kiest per categorie materiële vaste activa welk van beide ze toepast.
 
 > [!info] Behoort tot: [[materiele-vaste-activa-ifrs]] · Specialisatie van: [[herwaarderingsmeerwaarden]]

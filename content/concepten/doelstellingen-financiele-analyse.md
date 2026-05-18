@@ -22,9 +22,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Doelstellingen van financiële analyse 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 De analist transformeert de cijfers in een onderbouwd oordeel over de financiële gezondheid en risico's van de onderneming, vanuit het perspectief van een specifieke gebruiker (kredietverlener, aandeelhouder, manager).
 
 > [!summary] Korte inhoud

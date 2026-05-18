@@ -23,9 +23,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Toetsing van interne beheersing (test of controls) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Een toetsing van interne beheersing is een controlemaatregel die de auditor opzet om te evalueren of de interne beheersing van de cliënt werkt zoals beoogd — d.w.z. of zij afwijkingen op het niveau van beweringen voorkomt of tijdig ontdekt en corrigeert.
 
 > [!info] Behoort tot: [[assurance-informatie]]

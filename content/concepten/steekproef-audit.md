@@ -17,12 +17,9 @@ gegenereerd_op: '2026-05-18'
 ---
 # Steekproef bij een audit (audit sampling) 🤖
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Een steekproef bij een audit is het verrichten van controlewerkzaamheden op minder dan 100 % van de elementen binnen een relevante populatie, op zodanige wijze dat alle elementen geselecteerd kunnen worden. Het doel: een redelijke basis krijgen voor conclusies over de hele populatie zonder alles te testen.
 
-> [!info] Behoort tot: [[ontdekkingsrisico]]
+> [!info] Behoort tot: [[assurance-informatie]]
 
 
 ## In de praktijk

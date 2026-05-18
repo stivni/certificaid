@@ -18,6 +18,8 @@ gegenereerd_op: '2026-05-18'
 ---
 # Beweringen (assertions) in een audit ⚖️
 
+Het management drukt — meestal impliciet — uit dat elke post in de jaarrekening voldoet aan een set beweringen: bestaan, volledigheid, juistheid, presentatie. De auditor verzamelt assurance-informatie per bewering om elk type fout afdoende te dekken. Risico-inschatting en controlewerkzaamheden zijn pas zinvol als ze tegen concrete beweringen worden afgezet (ISA 315 §A124–A129).
+
 > [!summary] Korte inhoud
 > Beweringen (assertions) zijn de impliciete verklaringen die het management aflegt over elke transactiestroom, elk rekeningsaldo en elke toelichting in de jaarrekening.
 
@@ -51,3 +53,4 @@ Voor de balanspost 'Handelsvorderingen € 1.250.000' bij Rotex Roeselare NV toe
 
 [^1]: `ITAA-norm-kmo-controlenorm__sec_bijlage-1-definities_part2`
 [^2]: `ITAA-norm-kmo-controlenorm__sec_3-1-2-risico-s-op-een-afwijking-van-materieel-belang-identif`
+[^3]: `ISA-315__sec_toepassingsgerichte-en-overige-verklarende-teksten`

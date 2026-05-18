@@ -22,9 +22,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Overlopende rekeningen ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Kosten en opbrengsten **toerekenen aan het juiste boekjaar** (matching), ook al vond de feitelijke betaling of facturatie in een ander boekjaar plaats. Vier rubrieken op de balans: 490 'Over te dragen kosten' (actief), 491 'Verkregen opbrengsten' (actief), 492 'Toe te rekenen kosten' (passief), 493 'Over te dragen opbrengsten' (passief).
 
 > [!summary] Korte inhoud

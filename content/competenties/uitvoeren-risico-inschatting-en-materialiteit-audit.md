@@ -7,7 +7,7 @@ tags:
 programmaonderdelen:
 - '1.6'
 status: voorgesteld
-schema_version: '1.5'
+schema_version: '1.6'
 gegenereerd_uit: data/concepten/records/uitvoeren-risico-inschatting-en-materialiteit-audit.json
 gegenereerd_op: '2026-05-18'
 ---

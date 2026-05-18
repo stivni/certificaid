@@ -20,9 +20,6 @@ gegenereerd_op: '2026-05-18'
 ---
 # Verslag bij fusie of splitsing van vennootschappen ⚖️
 
-> [!update] Bijgewerkt sinds `b2f4a4ad` — laatste wijziging 2026-05-18
-
-
 Het fusie-/splitsingsverslag is één van de gedeelde wettelijk voorbehouden opdrachten uit het WVV: bij elke fusie, splitsing of partiële splitsing van een Belgische vennootschap moet een onafhankelijke beroepsbeoefenaar de redelijkheid van de ruilverhouding toetsen en de aandeelhouders informeren. Bij vennootschappen met commissaris voert die de opdracht uit; ontbreekt een commissaris, dan kan een gecertificeerd accountant of bedrijfsrevisor worden aangesteld (cliëntkeuze). Het verslag wordt aan de buitengewone algemene vergadering voorgelegd samen met het bestuursverslag en het fusie-/splitsingsvoorstel.
 
 > [!summary] Korte inhoud
