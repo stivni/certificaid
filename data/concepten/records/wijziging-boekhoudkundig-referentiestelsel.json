@@ -17,7 +17,9 @@
       "1.5.IV",
       "1.5.IV.C"
     ],
-    "reviewed_by": null
+    "reviewed_by": null,
+    "last_revisit_run": "concept-extractie-v4-2026-05-18T13:55Z-1.5.III-revisit",
+    "last_revisit_op": "2026-05-18T13:55Z"
   },
   "node_type_correction": {
     "vorige": "procedure",
@@ -392,6 +394,25 @@
           }
         ]
       }
+    },
+    {
+      "aspect": "Signaal in cliëntdossier",
+      "betekenis": "Drie observaties wijzen op een mogelijk stelselwissel-naar-BE-GAAP: (1) een rubriek 28 of MVA die in de proefbalans hoger staat dan de fiscale aanschaffingswaarde + opvolgende investeringen, (2) een aandeelhoudersbesluit waarin de overstap naar BE GAAP wordt vastgelegd of een verlies van GVV-/banken-/verzekeraars-statuut, (3) een onverklaarde rubriek 12 *Herwaarderingsmeerwaarden* zonder onderliggende KB WVV art. 3:35 §1-verantwoording. Bij eender welke trigger: lees CBN 2022/08 erbij vóór de openingsbalans wordt opgesteld.",
+      "confidence": "inferred",
+      "ratio": "Inferentie uit de samenhang tussen advies-tekst (typische scenario's: GVV-verlies, sector-overschakeling) en de boekhoudkundige indicatoren die uit Voorbeeld 1 + 2 blijken — geen één-chunk-bron.",
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/08 (advies-structuur + voetnoot 2)"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ],
   "edges": [
@@ -441,6 +462,63 @@
       "datum": "2026-05-18",
       "run_id": "concept-extractie-v4-2026-05-18T02:45Z",
       "reden": "Phase-A migratie liet procedure-records ter case-by-case beoordeling — CBN 2022/08 is descriptief (samengesteld onderwerp met bouwstenen), niet uitvoeringsvaardigheid."
+    },
+    {
+      "datum": "2026-05-18",
+      "run_id": "concept-extractie-v4-2026-05-18T13:55Z-1.5.III-revisit",
+      "wijziging": "Reflectieve rijkheid (§10): scenario-voorbeeld met inline boeking-illustratie (CBN §Voorbeeld 2) + in_praktijk-aspect 'Signaal in cliëntdossier' toegevoegd."
+    }
+  ],
+  "voorbeelden": [
+    {
+      "vorm": "scenario",
+      "titel": "Herwerking financieel vast actief bij overgang IFRS → BE GAAP",
+      "cast": [
+        "Aurelia Holding NV"
+      ],
+      "omschrijving": "Aurelia Holding NV stelt haar statutaire jaarrekening voor het eerst onder BE GAAP op (voorheen IFRS). Zij houdt een deelneming aan onder rubriek 28 *Financiële vaste activa* die onder IFRS gewaardeerd was op fair value through profit or loss (geen herwaarderingsreserve onder IFRS). De werkelijke waarde is € 1.350.000; de historische aanschaffingswaarde € 1.000.000. De voorwaarden van KB WVV art. 3:35 §1 voor een herwaardering zijn niet vervuld.",
+      "stappen": [
+        "1. Vaststellen waarderingsverschil: € 1.350.000 (fair value) − € 1.000.000 (aanschaffingswaarde) = € 350.000 surplus uit IFRS-FVTPL.",
+        "2. Toets KB WVV art. 3:35 §1 — herwaardering vereist duurzaam, vaststaand, hoger dan boekwaarde. Niet voldaan.",
+        "3. Beslissing: het financieel vast actief moet in de BE-GAAP-openingsbalans tegen aanschaffingswaarde (€ 1.000.000) staan.",
+        "4. Herwerking via eigen-vermogen-rekeningen (niet via resultatenrekening): rubriek 28 wordt gecrediteerd ten belope van het verschil; tegenboeking op een EV-rekening naar keuze (hier: 14 *Overgedragen winst*).",
+        "5. Concordantietabel in toelichting bij de jaarrekening: rubriek 28 — IFRS € 1.350.000 / BE GAAP € 1.000.000; rubriek 14 — IFRS-cijfer minus € 350.000 → BE-GAAP-cijfer."
+      ],
+      "illustraties": [
+        {
+          "type": "boeking",
+          "titel": "Herwerking openingsbalans — financieel vast actief (FVTPL → aanschaffingswaarde)",
+          "context": "Eénmalige correctieboeking per openingsdatum eerste BE-GAAP-boekjaar.",
+          "rijen": [
+            {
+              "rekening": "14 — Overgedragen winst",
+              "debet": 350000,
+              "credit": null,
+              "omschrijving": "Doorhalen van fair-value-surplus uit IFRS-stelsel (keuze EV-rekening — alternatief 10/11/132/133)"
+            },
+            {
+              "rekening": "28 — Financiële vaste activa (deelneming)",
+              "debet": null,
+              "credit": 350000,
+              "omschrijving": "Terugbrengen tot aanschaffingswaarde € 1.000.000 conform KB WVV art. 3:13"
+            }
+          ]
+        }
+      ],
+      "confidence": "grounded",
+      "source": {
+        "type": "advies",
+        "short": "CBN 2022/08 §Voorbeeld 2 + Standpunt §Aanpassing"
+      },
+      "_provenance": {
+        "inputs": [
+          {
+            "id": "CBN-2022-08-wijziging-van-het-boekhoudkundig-referentiestelsel__sec_inleiding",
+            "sha256": null,
+            "version": "rag-v1"
+          }
+        ]
+      }
     }
   ]
 }

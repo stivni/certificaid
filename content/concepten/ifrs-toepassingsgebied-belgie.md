@@ -79,6 +79,11 @@ _Grondslag: CBN 2022/08 (BE-bestemming, statutair); IFRS 1 voor IFRS-bestemming_
 > [!tip]- Brexit-impact op IFRS-erkenning
 > Een Britse beursgenoteerde vennootschap is sinds 1 januari 2021 een 'derde land'-vennootschap. UK-IFRS geldt niet automatisch als EU-IFRS. Voor een Belgische dochter van zo'n UK-moeder die binnen de EU-IFRS-vrijstellingen wil blijven (art. 23 Richtlijn 2013/34), is nodig dat de UK-jaarrekening als 'gelijkwaardig' wordt erkend. ⚖️
 
+<h3 id="wat-ziet-de-stagiair-in-een-dossier">Wat ziet de stagiair in een dossier?</h3>
+
+> [!tip]- Wat ziet de stagiair in een dossier?
+> Drie concrete signalen waaruit een stagiair afleidt welk stelsel van toepassing is op een dossier: (1) **prospectus of jaarverslag** vermeldt 'gereglementeerde markt' of een notering op Euronext-hoofdmarkt → geconsolideerd onder IFRS; vermelding 'Euronext Growth' of 'MTF' → géén art. 4-verplichting. (2) **statuut van de moeder** in de bedrijfsfiche: erkend als kredietinstelling (NBB-licentie) of verzekeringsmaatschappij (FSMA) → geconsolideerd IFRS sectoraal verplicht. (3) **consortium-vermelding** in de toelichting bij de geconsolideerde jaarrekening → check CBN 2016/19 voor de keuze van het rapporteringsstelsel. 🤖
+
 
 ## Valkuilen
 

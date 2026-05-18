@@ -114,6 +114,11 @@ _Grondslag: CBN 2022/08 — Voorbeeld 2; KB WVV art. 3:13, art. 3:35 §1, art. 3
 > [!tip]- Werkstroom in vier stappen
 > 1. **Inventariseer waarderingsverschillen** tussen oud stelsel en BE GAAP per balansrubriek (MVA, financiële vaste activa, geldbeleggingen, voorzieningen, leasingverplichtingen, ...). 2. **Pas continuïteitsbeginsel toe**, tenzij beide cumulatieve uitzonderingsvoorwaarden gelden. 3. **Herwerk** afwijkende posten via debet/credit op een EV-rekening naar keuze (rekening 10/11/132/133/14). 4. **Documenteer** in toelichting + concordantietabel voor het voorafgaande boekjaar. 🤖
 
+<h3 id="signaal-in-clientdossier">Signaal in cliëntdossier</h3>
+
+> [!tip]- Signaal in cliëntdossier
+> Drie observaties wijzen op een mogelijk stelselwissel-naar-BE-GAAP: (1) een rubriek 28 of MVA die in de proefbalans hoger staat dan de fiscale aanschaffingswaarde + opvolgende investeringen, (2) een aandeelhoudersbesluit waarin de overstap naar BE GAAP wordt vastgelegd of een verlies van GVV-/banken-/verzekeraars-statuut, (3) een onverklaarde rubriek 12 *Herwaarderingsmeerwaarden* zonder onderliggende KB WVV art. 3:35 §1-verantwoording. Bij eender welke trigger: lees CBN 2022/08 erbij vóór de openingsbalans wordt opgesteld. 🤖
+
 
 > [!info]- Niet verwarren met [[ifrs-eerste-toepassing]]
 > **CBN 2022/08** regelt de overgang **naar BE GAAP** (statutaire jaarrekening) — herwerking via eigen-vermogen-rekeningen, continuïteit met aanpassing, concordantietabel. **IFRS 1** regelt de overgang **naar IFRS** (geconsolideerde of statutaire jaarrekening) — opening IFRS balance sheet op transitiedatum, drie aansluitingstabellen (EV op transitiedatum, EV einde vergelijkende periode, totaalresultaat vergelijkende periode), aanpassingsverschil in ingehouden winsten.

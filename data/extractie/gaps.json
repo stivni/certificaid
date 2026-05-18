@@ -1994,5 +1994,15 @@
     "geconstateerd_op": "2026-05-18",
     "status": "open",
     "aspect_type": "concept-gap"
+  },
+  {
+    "record_id": "stelselwissel-jaarrekening",
+    "aspect": "records.ontbreekt",
+    "reden": "Algemene cluster 'stelselwissel-jaarrekening' (of vergelijkbaar) die CBN 2022/08 (IFRS → BE GAAP, statutair) en IFRS 1 (BE GAAP → IFRS, gecons./statutair) verbindt als regime-overstijgende kern. Beide records bestaan en zijn via `vergelijkt-met`-edges symmetrisch gelinkt; een algemene parent is niet strikt nodig, maar voldoet wel aan §17 regel 12 (impliciete tegenhanger expliciet). Risico: weinig extra inhoud naast verwijstabel — overweging open.",
+    "prio": "laag",
+    "geconstateerd_door": "concept-extractie-v4-2026-05-18T13:55Z-1.5.III-revisit",
+    "geconstateerd_op": "2026-05-18",
+    "status": "open",
+    "aspect_type": "parallel-regime-algemene-cluster"
   }
 ]
