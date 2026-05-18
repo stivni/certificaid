@@ -10,7 +10,7 @@
     "1.5.taak.1"
   ],
   "_provenance": {
-    "extractor_run": "concept-extractie-v4-2026-05-17T00:28Z",
+    "extractor_run": "concept-extractie-v4-2026-05-18T02:28Z",
     "model": "claude-opus-4-7",
     "anchor_id": "1.5.IV.B",
     "dekt_ook_anchors": [
@@ -288,12 +288,6 @@
   ],
   "edges": [
     {
-      "type": "bevat",
-      "target": "ias-1-presentatie-beginselen",
-      "redenering": "De vijf componenten worden opgesteld volgens de presentatie-beginselen (continuïteit, materialiteit, ...).",
-      "confidence": "grounded"
-    },
-    {
       "type": "vergelijkt-met",
       "target": "samenstelling-statutaire-jaarrekening",
       "redenering": "IFRS- versus Belgisch-GAAP-vorm — verwarringsrisico.",
@@ -306,5 +300,6 @@
       "omschrijving": "De geconsolideerde IFRS-jaarrekening 2026 van Zelena Bio NV bevat: (1) overzicht financiële positie per 31 december 2026 + per 31 december 2025; (2) overzicht totaalresultaat 2026 + 2025; (3) mutatieoverzicht eigen vermogen 2026 + 2025; (4) kasstroomoverzicht 2026 + 2025; (5) toelichting met grondslagen, segment-informatie, leasing-uitsplitsing, etc. Bij eerste IFRS-toepassing zat er ook een derde balans bij — de openingsbalans per 1 januari 2025."
     }
   ],
-  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z"
+  "migrated_to_schema_1.5_at": "2026-05-18T02:04:19Z",
+  "edges_cleanup_at": "2026-05-18T02:28:50Z"
 }
