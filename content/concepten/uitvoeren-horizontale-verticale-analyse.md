@@ -167,3 +167,8 @@ Lees de twee tabellen samen om structuur-verschuivingen te detecteren.
 > _Grondslag_: [[materieel-belang-jaarrekening]] §relatief
 
 
+## Voorbeelden
+
+
+
+

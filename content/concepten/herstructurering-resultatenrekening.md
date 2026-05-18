@@ -36,6 +36,9 @@ Groepeer de RR-rubrieken volgens hun aard: bedrijfsopbrengsten/kosten (60-64 + 7
 **Waarom?** Elk blok beantwoordt een ander analyse-onderwerp: bedrijf = winstgevendheid kernactiviteit; financieel = financieringskost-impact; uitzonderlijk = eenmalige items te filteren; belasting = effectieve aanslagvoet.
 
 
+
+Rotex Roeselare NV — bedrijfsresultaat € 6.000.000, financieel resultaat − € 600.000, belastingen − € 1.500.000, nettoresultaat € 2.500.000 (geen uitzonderlijk in nieuw schema).
+
 _Grondslag: KB WVV — schema resultatenrekening_
 
 ### Isoleer de toegevoegde waarde 🤖
@@ -45,6 +48,9 @@ Binnen het bedrijfsblok wordt eerst de toegevoegde waarde berekend (zie [[toegev
 **Waarom?** Dit maakt de RR een productiviteits-document: TW per VTE wordt zichtbaar, en de verdeling personeel/kapitaal/overheid is uitleesbaar.
 
 
+
+Rotex Roeselare NV — TW € 18.000.000 − personeelskosten € 12.000.000 − afschrijvingen € 1.500.000 − andere bedrijfskosten = bedrijfsresultaat € 6.000.000 (na correctie).
+
 _Grondslag: Vakdoctrine financiële analyse_
 
 ### Verkort/microschema vraagt meer werk ⚖️
@@ -53,6 +59,9 @@ In verkort schema (rubrieken 60/61 samengevoegd) of microschema (verdere samenvo
 
 **Waarom?** Een grondige analyse van een kleine BV (verkort/micro) vraagt om bijkomende informatie buiten de jaarrekening (toelichting, navragen bij bestuursorgaan). Dit is een gekende beperking, geen fout in de analyse.
 
+
+
+Meubelzaak Mertens BV (verkort schema): rubriek 60/61 = € 600.000 — onmogelijk om aankopen handelsgoederen van diensten te scheiden zonder toelichting. TW-detail blijft dus geschat.
 
 _Grondslag: KB WVV — verkort en microschema_
 
@@ -67,9 +76,6 @@ _Grondslag: KB WVV — verkort en microschema_
 
 - **Vereist kennis van**: [[analytische-balans]]
 - **Vereist kennis van**: [[toegevoegde-waarde-financiele-analyse]]
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -37,6 +37,9 @@ Klasse 1 — Eigen vermogen, voorzieningen, schulden op meer dan een jaar. Klass
 **Waarom?** Universele structuur — elke Belgische boekhouder vindt onmiddellijk wat hij zoekt, ongeacht de onderneming.
 
 
+
+Voorraad grondstoffen Naaiatelier Ninove BV → klasse 3 (specifiek rekening 310 of 311). Afschrijving machine → klasse 6 (rekening 6300 'Afschrijvingen op materiële vaste activa').
+
 _Grondslag: KB-WVV bijlage MAR_
 
 ### Minimum, niet maximum ⚖️
@@ -46,6 +49,9 @@ MAR is een minimum — elke onderneming mag verder onderverdelen voor analytisch
 **Waarom?** Eenheid op het hoogste niveau, vrijheid op de analyse-laag.
 
 
+
+Transport Tongeren BV onderscheidt voor analyse: 6100 'Onderhoud trucks', 6101 'Onderhoud bestelwagens', 6102 'Onderhoud kantoor'. Toegestaan zolang ze rolt onder hoofdrekening 610.
+
 _Grondslag: KB-WVV art. 3:9; CBN-advies 2010/20_
 
 ### Aansluiting op jaarrekening-schema 🤖
@@ -54,6 +60,9 @@ Elke MAR-klasse correspondeert met een sectie van de balans of resultatenrekenin
 
 **Waarom?** Eenvoud van mapping rekeningen → jaarrekening-rubrieken.
 
+
+
+Saldi van alle 60-69-rekeningen → totaal 'Bedrijfskosten' op RR.
 
 _Grondslag: KB-WVV bijlage 1 + MAR_
 
@@ -71,8 +80,9 @@ _Grondslag: KB-WVV bijlage 1 + MAR_
 
 - **Vereist kennis van**: [[dubbel-boekhouden]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Aankoop koopwaren € 5.000 bij Meubelzaak Mertens BV → rekening 604000 'Aankopen koopwaren' (klasse 6, kosten). Klantbetaling op bank → rekening 550000 'Bank — zichtrekening' (klasse 5).
 
 ## Bronnen
 

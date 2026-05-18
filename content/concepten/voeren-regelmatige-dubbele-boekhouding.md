@@ -165,3 +165,8 @@ Voer eenmaal per jaar een volledige inventaris uit en archiveer alle boekhoudstu
 **Grondslag**: [[inventaris]] §opmaak, [[bewaring-boekhoudstukken]] §wettelijke-termijn, WER art. III.86
 
 
+## Voorbeelden
+
+
+
+

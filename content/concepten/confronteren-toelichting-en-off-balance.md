@@ -165,3 +165,8 @@ Schrijf één paragraaf over off-balance in je rapport.
 **Grondslag**: [[getrouw-beeld-jaarrekening]] §toelichting-veiligheidsklep, vakdoctrine rapportering
 
 
+## Voorbeelden
+
+
+
+

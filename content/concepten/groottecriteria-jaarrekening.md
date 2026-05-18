@@ -39,6 +39,9 @@ Eén criterium overschrijden = nog steeds 'klein'. Twee of drie criteria oversch
 **Waarom?** Deze regel beschermt vennootschappen tegen statuswisseling bij toevallige uitschieter op één enkel criterium.
 
 
+
+Brugse Brouwerij BV: 55 werknemers (te hoog), € 4M omzet (OK), € 3M balanstotaal (OK) → slechts 1 criterium overschreden → blijft klein.
+
 _Grondslag: WVV art. 1:24 § 1_
 
 ### Twee opeenvolgende boekjaren ⚖️
@@ -47,6 +50,9 @@ De grootteklasse wijzigt pas als de overschrijding zich in twee opeenvolgende bo
 
 **Waarom?** Voorkomt heen-en-weer-schommelen tussen klein en groot bij conjuncturele uitschieters.
 
+
+
+Meubelzaak Mertens BV overschrijdt in 2024 zowel omzet als personeelsbezetting → moet wachten op 2025: blijft ze overschrijden? → vanaf 2026 'groot'.
 
 _Grondslag: WVV art. 1:24, § 4_
 
@@ -57,6 +63,9 @@ Een vennootschap die deel uitmaakt van een groep (moeder of dochter) telt de geg
 **Waarom?** Zo kan een grote groep niet zijn jaarrekening-verplichtingen ontwijken door zich op te splitsen in kleinere entiteiten.
 
 
+
+Aurelia Holding NV (klein op zich) heeft 4 dochters → de groep heeft samen 60 werknemers en € 18M omzet → Aurelia wordt voor jaarrekening behandeld als groot.
+
 _Grondslag: WVV art. 1:24, § 5; CBN-advies 2017/10_
 
 ### Microvennootschap: extra voorwaarde ⚖️
@@ -65,6 +74,9 @@ Naast de strengere drempels mag een microvennootschap géén moedervennootschap 
 
 **Waarom?** Microschema (kleinste schema) is bedoeld voor de allerkleinste, eenvoudigste vennootschappen — zonder groep-complexiteit.
 
+
+
+Oprichtingen Oostende BV (omzet € 400K, 4 werknemers) → kan microschema gebruiken. Verwerft ze een 60%-deelneming → wordt moeder → schiet uit microschema, naar klein.
 
 _Grondslag: WVV art. 1:25, § 2_
 
@@ -117,8 +129,9 @@ _Grondslag: WVV art. 1:25, § 2_
 - **Getriggerd door**: [[wetboek-vennootschappen-verenigingen]]
 - **Vereist kennis van**: [[jaarrekening-schema]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Meubelzaak Mertens BV heeft op 31/12/2024: 12 werknemers, € 4.500.000 omzet, € 2.100.000 balanstotaal → onder kleine-vennootschap-drempels op alle 3 criteria → kleine vennootschap → mag verkort schema gebruiken.
 
 ## Bronnen
 

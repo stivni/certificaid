@@ -249,3 +249,7 @@ Voer de gekozen consolidatietechniek uit op de geherwaardeerde cijfers van de do
 **Grondslag**: [[integrale-consolidatie]] §100-procent-opname, KB WVV art. 3:124 en 3:137
 
 
+## Voorbeelden
+
+
+

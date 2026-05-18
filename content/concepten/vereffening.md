@@ -140,6 +140,10 @@ Na betaling van alle schulden + sluitingskosten: het resterende eigen vermogen (
 - **Getriggerd door**: [[continuiteitsbeginsel]]
 - **Vereist kennis van**: [[voorzieningen]]
 
+## Voorbeelden
+
+Verffabriek Veurne BV (kapitaal € 100.000, beschikbare reserves € 25.000, overgedragen verlies € −18.000 → netto-actief € 107.000) wordt op 15 oktober ontbonden. Vereffenaar Pieter Vermeulen aangesteld. Liquidatie: machines verkocht € 38.000 (boekwaarde € 62.000 → minderwaarde € 24.000), voorraad € 18.500 (boekwaarde € 24.000), klanten geïnd € 42.000, leveranciers betaald € 35.000, vereffeningskosten € 12.000. Liquidatiebonus = aan aandeelhouders te verdelen overschot na alle aflossingen.
+
 ## Bronnen
 
 [^1]: `CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting__sec_verslaggeving-over-de-beoordeling-van-continuiteitsveronders`

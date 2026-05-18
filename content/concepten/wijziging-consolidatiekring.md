@@ -36,6 +36,9 @@ Bij een nieuwe dochter bepaal je het eigen vermogen op datum van aankoop (of een
 **Waarom?** Een nieuwe dochter brengt nieuwe balansen en resultaten in de groep — die moeten op een vast moment (de aankoopdatum) geijkt worden, zodat latere wijzigingen van het eigen vermogen niet meer in het consolidatieverschil belanden.
 
 
+
+Aurelia koopt op 1 januari 20X1 100 % van Bouwwerf Beerse BV voor 500 (EV Bouwwerf op aankoopdatum = 450) → consolidatieverschil 50 → eerste consolidatie als nieuwe integrale dochter.
+
 _Grondslag: KB WVV art. 3:127 — 3:130_
 
 ### Step acquisition — opwaartse wijziging ⚖️
@@ -44,6 +47,9 @@ Verhoging van een belang in een geassocieerde of dochter, met drie mogelijke kan
 
 **Waarom?** Elk kantelpunt vereist een aparte boekhoudkundige behandeling — anders glijdt het ene regime in het andere zonder zichtbaar moment van overgang, en zou de jaarrekening de werkelijke verandering verbergen.
 
+
+
+Antwerpse Investments NV bezit 25 % in Drukkerij Dendermonde BV (vermogensmutatie). Antwerpse koopt 35 % bij → totaal 60 % → kantelpunt naar exclusieve controle → vanaf nu integrale consolidatie.
 
 _Grondslag: CBN 2013/3_
 
@@ -54,6 +60,9 @@ Bij gehele of gedeeltelijke verkoop van aandelen van een dochter in de consolida
 **Waarom?** Het consolidatieverschil hoort bij de aangehouden aandelen. Verkopen die aandelen, dan moet ook het bijbehorende consolidatieverschil pro-rata verdwijnen — anders houd je goodwill aan voor een belang dat je niet meer hebt.
 
 
+
+Aurelia heeft een resterend consolidatieverschil van 60 op haar 80 %-belang in Brugse Brouwerij BV. Aurelia verkoopt 40 % aan een derde → 60 × (40 %/80 %) = 30 wordt afgeboekt.
+
 _Grondslag: KB WVV art. 3:132_
 
 ### Common control transactions ⚖️
@@ -62,6 +71,9 @@ Bij transacties onder gemeenschappelijke leiding (bv. een dochter wordt herschik
 
 **Waarom?** De economische werkelijkheid is dat de groep met zichzelf transacteert; opnieuw goodwill creëren zou een fictieve waardetoename suggereren die er economisch niet is.
 
+
+
+Binnen de groep Aurelia: Aurelia verkoopt haar 100 %-belang in Bouwwerf Beerse BV aan een zustervennootschap. Beide vennootschappen blijven onder dezelfde uiteindelijke controle → geen nieuw consolidatieverschil; historische cijfers van Bouwwerf Beerse worden voortgezet.
 
 _Grondslag: CBN 2017/15_
 
@@ -102,8 +114,9 @@ _Grondslag: CBN 2017/15_
 - **Getriggerd door**: [[consolidatieverschil]]
 - **Vereist kennis van**: [[consolidatiekring]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Aurelia Holding NV consolideerde in 20X0 enkel Brugse Brouwerij BV. In 20X1 koopt ze 100 % van Bouwwerf Beerse BV → eerste consolidatie van Bouwwerf Beerse → wijziging consolidatiekring → toelichting bevat vergelijkende cijfers waarin Bouwwerf Beerse niet meedeed in 20X0.
 
 ## Bronnen
 

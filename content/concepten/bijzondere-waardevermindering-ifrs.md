@@ -37,6 +37,9 @@ Als een individueel actief geen onafhankelijke kasstromen genereert, wordt het i
 **Waarom?** Voor productielijnen, fabrieken, divisies kan een individuele machine geen aparte cashflows tonen. De CGU is het bedrijfseconomisch zinvolle niveau van impairment.
 
 
+
+Zelena Bio's biofarmaceutische divisie genereert eigen kasstromen; de individuele machines binnen die divisie niet. Impairment-test op divisieniveau, niet per machine. Goodwill van vroegere acquisitie ad € 12.000.000 is toegewezen aan deze CGU.
+
 _Grondslag: IAS 36 alinea 6, 66, 80_
 
 ### Terugneming impairment — behalve goodwill ⚖️
@@ -45,6 +48,9 @@ Bij latere verbetering van omstandigheden kan een impairment-verlies worden **te
 
 **Waarom?** Symmetrie: als de oorzaak van impairment verdwijnt, hoort de boekwaarde te herstellen. Maar goodwill is een uitzondering omdat herstel typisch via intern gegenereerde goodwill gebeurt — wat IFRS niet toestaat te activeren.
 
+
+
+Zelena's productielijn Y in 2028 (twee jaar na impairment): nieuwe regelgeving versoepelt, marktwaarde herstelt. Boekwaarde 31 december 2028 (na 2 jaar herziene afschrijving € 1.440.000/jaar op € 7.200.000) = € 4.320.000. Hypothetische boekwaarde zonder oorspronkelijke impairment (€ 8.500.000 − 2 × € 2.000.000) = € 4.500.000. Realiseerbare waarde nu = € 5.500.000. Terugneming begrensd door hypothetische boekwaarde: € 4.500.000 − € 4.320.000 = € 180.000 in W&V (IAS 36 alinea 117-ceiling).
 
 _Grondslag: IAS 36 alinea 114-117 + 124_
 
@@ -196,8 +202,38 @@ Na een impairment moet het afschrijvingsplan voor het actief worden herzien: de 
 - **Vereist kennis van**: [[materiele-vaste-activa-ifrs]]
 - **Vereist kennis van**: [[immateriele-vaste-activa-ifrs]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+### Impairment + latere terugneming productielijn Y
+
+_Personages: Zelena Bio NV_
+
+Zelena Bio NV's productielijn Y in farma-divisie: kostprijs 2024 € 10.000.000, afschrijving lineair over 5 jaar (€ 2.000.000/jaar). Boekwaarde 31 december 2026 vóór impairment: € 10.000.000 − 1,5 × € 2.000.000 = € 8.500.000 (anderhalf jaar gebruikt, dus alleen prorata afschrijving op productielijn die mid-2025 in dienst kwam). In december 2026 kondigt de EU regelgeving aan die het product per 2030 verbiedt — interne aanwijzing voor impairment.
+
+1. Identificeer aanwijzingen: regulatoire wijziging EU 2030 (extern) + jaarlijkse verkoop daalt 30% versus budget (intern).
+2. Bereken realiseerbare waarde: FVLCD € 6.000.000 (markt voor tweedehands productielijnen); VIU € 7.200.000 (DCF over resterende 5 jaar, WACC 8%). Hoogste = € 7.200.000.
+3. Vergelijk: boekwaarde € 8.500.000 > realiseerbare waarde € 7.200.000 → impairment € 1.300.000.
+4. Boek het verlies (zie illustratie) en herzie afschrijvingsplan: nieuwe boekwaarde € 7.200.000 / 5 jaar = € 1.440.000/jaar.
+5. Twee jaar later (2028): EU versoepelt regelgeving. Boekwaarde 31 december 2028 (= € 7.200.000 − 2 × € 1.440.000) = € 4.320.000. Hypothetische boekwaarde zonder impairment = € 8.500.000 − 2 × € 2.000.000 = € 4.500.000. Realiseerbare waarde nu € 5.500.000. Terugneming = min(€ 5.500.000 − € 4.320.000, € 4.500.000 − € 4.320.000) = € 180.000 in W&V (ceiling = hypothetische boekwaarde zonder impairment minus huidige boekwaarde).
+#### Impairment-boeking 31 december 2026
+_Debet- en credit-totaal beide € 1.300.000. De geaccumuleerde waardevermindering is een tegenpost op het brutoactief — boekwaarde valt naar € 7.200.000._
+
+| Rekening | Debet | Credit |
+|---|---:|---:|
+| 660 — Bijzondere waardevermindering op productielijn Y _(Verlies in W&V)_ | 1300000 |  |
+| 2329 — Geaccumuleerde waardevermindering productielijn Y _(Reductie boekwaarde op balans)_ |  | 1300000 |
+
+#### Terugneming impairment 31 december 2028
+_Symmetrische tegenboeking. Maximum begrensd door hypothetische-boekwaarde-zonder-impairment-regel (IAS 36 alinea 117)._
+
+| Rekening | Debet | Credit |
+|---|---:|---:|
+| 2329 — Geaccumuleerde waardevermindering productielijn Y _(Terugneming impairment)_ | 180000 |  |
+| 760 — Terugneming bijzondere waardevermindering _(Opbrengst in W&V (ceiling toegepast))_ |  | 180000 |
+
+#### Boekwaarde-evolutie productielijn Y over tijd
+
+
 
 ## Bronnen
 

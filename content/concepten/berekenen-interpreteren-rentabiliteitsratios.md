@@ -187,3 +187,8 @@ Bereken ROE en ROA voor drie boekjaren en vergelijk met sectormediaan.
 **Grondslag**: [[historische-evolutie-financiele-analyse]] §onderscheid-eenmalig-vs-structureel, [[sectorvergelijking-financiele-analyse]] §sectorgrenzen
 
 
+## Voorbeelden
+
+
+
+

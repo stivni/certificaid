@@ -38,6 +38,9 @@ Bij verschil tussen juridische vorm en economische werkelijkheid moet de economi
 **Waarom?** Voor stakeholders telt de economische werkelijkheid; juridische verpakking mag het beeld niet vertekenen.
 
 
+
+Transport Tongeren BV least 10 trucks via financiële leasing (looptijd = economische levensduur, optie tot aankoop voor symbolisch bedrag) → boekt als materieel vast actief + langlopende schuld, niet als operationele kost.
+
 _Grondslag: KB-WVV art. 3:1; CBN-advies 174/1_
 
 ### Geen camouflage 🤖
@@ -46,6 +49,9 @@ Geen 'window-dressing': verrichtingen vlak voor balansdatum gepland om de balans
 
 **Waarom?** Het beeld op balansdatum moet representatief zijn, niet kunstmatig opgepoetst.
 
+
+
+Rotex Roeselare NV verschuift op 28 december € 2M intercompany-vordering tijdelijk naar een ander filiaal om de current-ratio op te krikken → schending oprechtheidsbeginsel.
 
 _Grondslag: KB-WVV art. 3:1; algemeen rechtsbeginsel_
 
@@ -56,8 +62,9 @@ _Grondslag: KB-WVV art. 3:1; algemeen rechtsbeginsel_
 > _Trigger_: Bij waardering twijfelt iemand → voorzichtig → mag niet zo ver gaan dat het beeld vertekend wordt → oprechtheid bepaalt de bovengrens van voorzichtigheid.
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Aurelia Holding NV mag een verkoop met terugkoopplicht niet boeken als gewone verkoop — economisch gaat het om een financieringsoperatie, dus substance over form: boek als 'verkoop met clausule' of leningstructuur.
 
 ## Bronnen
 

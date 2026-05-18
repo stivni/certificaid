@@ -124,6 +124,8 @@ Klasseer elke bevinding op significantie (hoog/midden/laag) en identificeer de r
 **Grondslag**: [[interne-audit]] §root-cause, [[evaluatie-interne-controle]] §rapportering, IIA Standard 2410
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+
+
 

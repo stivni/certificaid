@@ -37,6 +37,9 @@ Zolang de wettelijke reserve niet 10 % van het kapitaal (NV) of de eigen vermoge
 **Waarom?** De wettelijke reserve is een **veiligheidsbuffer** voor de schuldeisers: een wettelijk-vast bedrag dat niet vrij uitkeerbaar is. 10 % van het kapitaal is een redelijk minimum bescherming.
 
 
+
+Naaiatelier Ninove BV kapitaal € 100.000, wettelijke reserve op 1/1 = € 6.500. Winst 20X1 = € 35.000. Verplichte afhouding 5 % × € 35.000 = € 1.750. Saldo eind 20X1 = € 8.250 (nog onder plafond € 10.000) → in 20X2 nog verplichte afhouding tot € 10.000 bereikt is.
+
 _Grondslag: WVV art. 7:211 § 1_
 
 ### Niet uitkeerbaar zolang minimum niet bereikt ⚖️
@@ -46,6 +49,9 @@ De wettelijke reserve mag NIET worden uitgekeerd zolang het wettelijk minimum (1
 **Waarom?** De bedoeling van de reserve is precies om een buffer te zijn die de schuldeisers beschermt. Uitkering zou de bescherming uithollen.
 
 
+
+Meubelzaak Mertens BV met wettelijke reserve € 5.600 (boven minimum € 5.000). Het surplus van € 600 zou in theorie kunnen worden uitgekeerd, maar in de praktijk wordt de wettelijke reserve in haar geheel meestal gehandhaafd als zekerheidsbuffer.
+
 _Grondslag: WVV art. 7:211_
 
 ### Bij verlies: geen afhouding, maar reserve blijft staan 🤖
@@ -54,6 +60,9 @@ In een verliesjaar is er geen winst om uit te houden. De wettelijke reserve blij
 
 **Waarom?** De jaarlijkse afhouding heeft enkel zin bij winst. Maar de bestaande reserve verdwijnt niet — ze beschermt actief tegen toekomstige verliezen.
 
+
+
+Verffabriek Veurne BV maakt verlies € 18.000 in 20X1; wettelijke reserve € 8.000. Geen verplichte afhouding in 20X1 (geen winst). De € 8.000 blijft staan op rekening 130; het verlies komt op rekening 141 Overgedragen verlies.
 
 _Grondslag: WVV art. 7:211_
 
@@ -191,6 +200,10 @@ Min(5 % × nettowinst, minimum − huidige reserve).
 ## Zie ook
 
 - **Getriggerd door**: [[resultaatverwerking]]
+
+## Voorbeelden
+
+Meubelzaak Mertens BV heeft kapitaal/eigen vermogensinbreng € 50.000 → wettelijk minimum wettelijke reserve = 10 % × € 50.000 = € 5.000. Wettelijke reserve op 1/1 = € 3.500. Winst 20X1 = € 42.000. Verplichte afhouding = 5 % × € 42.000 = € 2.100. Boeking: Debet 6921 Toevoeging aan wettelijke reserve € 2.100 / Credit 130 Wettelijke reserve € 2.100. Saldo eind 20X1: € 5.600 — boven minimum, dus volgend jaar geen verplichte afhouding meer.
 
 ## Bronnen
 

@@ -38,6 +38,9 @@ Som van wat operationeel vastzit (voorraden, handelsvorderingen) min wat van lev
 **Waarom?** Een groeiende handelsactiviteit vreet vanzelf cash via de exploitatiecyclus — zonder financiering komt het bedrijf in liquiditeitsproblemen ondanks winstgevendheid.
 
 
+
+Rotex Roeselare NV heeft voorraden van € 6.000.000, handelsvorderingen € 8.000.000 en handelsschulden € 4.500.000. BBK = € 6.000.000 + € 8.000.000 − € 4.500.000 = € 9.500.000.
+
 _Grondslag: Vakdoctrine_
 
 ### Werkkapitaal moet de BBK dekken 🤖
@@ -46,6 +49,9 @@ Het werkkapitaal (permanente middelen − vaste activa) moet de BBK financieren.
 
 **Waarom?** Dit verklaart waarom een winstgevend bedrijf toch in liquiditeitsproblemen kan komen: groeiende omzet → groeiende BBK → werkkapitaal niet meer toereikend → kasspanning.
 
+
+
+Rotex Roeselare NV: werkkapitaal = € 8.000.000, BBK = € 9.500.000 → nettokas = − € 1.500.000 (kortlopende bankkrediet nodig).
 
 _Grondslag: Vakdoctrine_
 

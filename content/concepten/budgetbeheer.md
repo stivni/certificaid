@@ -37,12 +37,18 @@ _Bron: Management accounting — bron-gap_
 
 
 
+Yperse Werkplaats BV stelt jaarlijks een geconsolideerd budget op met productielijnen Spinnerij (€ 1.450.000 budget), Weverij (€ 1.200.000), Confectie (€ 950.000). Marleen De Cock (Confectie-hoofd) krijgt maandelijks een rapport: budget vs. realisatie + verschillen.
+
+
 ### Top-down vs. bottom-up 🤖
 
 Top-down: directie legt totaalbedragen op; afdelingen vullen invullen. Bottom-up: afdelingen leveren ramingen aan; directie consolideert. Praktijk meestal mix: directie zet kaders, afdelingen detailleren binnen kader.
 
 **Waarom?** Top-down = realisme; bottom-up = engagement. Mix combineert beide.
 
+
+
+Yperse Werkplaats BV start in september met richtcijfers van directie (omzet-doelstelling € 4.500.000, marge 25 %). In oktober leveren afdelingshoofden hun bottom-up-detailramingen. November iteratie. December definitief.
 
 
 
@@ -62,7 +68,4 @@ Top-down: directie legt totaalbedragen op; afdelingen vullen invullen. Bottom-up
 ## Zie ook
 
 - **Vereist kennis van**: [[analytische-boekhouding]]
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

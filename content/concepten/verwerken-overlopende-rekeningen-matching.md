@@ -164,3 +164,9 @@ Vermeld materiële overlopende posten in de toelichting bij de jaarrekening + be
 **Grondslag**: [[overlopende-rekeningen]] §toelichting, KB-WVV art. 3:73
 
 
+## Voorbeelden
+
+
+
+
+

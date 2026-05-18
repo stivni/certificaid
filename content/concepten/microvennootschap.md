@@ -37,6 +37,9 @@ _Bron: WVV art. 1:25_
 **Waarom?** Microschema is bedoeld voor de allereenvoudigste, ongroepeerde vennootschappen.
 
 
+
+Oprichtingen Oostende BV onder alle micro-drempels → check 2: heeft ze deelnemingen > 50% in een andere vennootschap? Nee → micro toegestaan.
+
 _Grondslag: WVV art. 1:25_
 
 ### Wat krijgt micro extra? ⚖️
@@ -45,6 +48,9 @@ Bovenop de voordelen voor klein: gebruik microschema (nog minder toelichting), n
 
 **Waarom?** Maximale administratieve vereenvoudiging — bedoeld voor zelfstandige BV'tjes zonder groep-complexiteit.
 
+
+
+Microschema van Oprichtingen Oostende BV: 1 pagina balans, 1 pagina RR, korte toelichting met minimaal aantal verplichte rubrieken.
 
 _Grondslag: KB-WVV bijlage 3_
 
@@ -68,8 +74,9 @@ _Grondslag: KB-WVV bijlage 3_
 
 - **Getriggerd door**: [[groottecriteria-jaarrekening]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Oprichtingen Oostende BV — 4 werknemers, € 380.000 omzet, € 380.000 balanstotaal, geen dochters, geen moeder → microvennootschap → mag microschema gebruiken.
 
 ## Bronnen
 

@@ -44,8 +44,9 @@ _Bron: KB WVV art. 3:1 + ITAA KMO-controlenorm §117_
 
 - **Vereist kennis van**: [[materieel-belang-audit]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Sofie Janssens controleert of de balans van Rotex Roeselare NV per 31 december 2025 een getrouw beeld geeft: zijn alle activa correct gewaardeerd, alle schulden volledig opgenomen, alle verbintenissen toegelicht, alle waarderingsregels consistent toegepast? Bij positief antwoord → goedkeurend oordeel.
 
 ## Bronnen
 

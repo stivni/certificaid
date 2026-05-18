@@ -142,6 +142,8 @@ Bij wettelijke controle: bevestig schriftelijk aan het audit-comité de onafhank
 **Grondslag**: [[onafhankelijkheid-externe-accountant]] §formele-bevestiging, art. 7:99 §4 WVV
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+
+
 

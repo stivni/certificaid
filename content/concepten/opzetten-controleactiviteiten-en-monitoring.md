@@ -154,3 +154,8 @@ Bouw monitoring op twee niveaus: doorlopend (ingebed in dagelijkse processen) en
 **Grondslag**: [[monitoring-interne-controle]] §twee-niveaus, [[evaluatiecriteria-ic]] §design-operating, COSO 2013 component 5
 
 
+## Voorbeelden
+
+
+
+

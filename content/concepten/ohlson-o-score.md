@@ -37,6 +37,9 @@ O combineert negen indicatoren: (1) log(TA/CPI) — ondernemingsgrootte; (2) VV/
 **Waarom?** Ohlson koos variabelen die zowel niveau (1-7) als evolutie (8-9) en categorische gebeurtenissen (5, 8) vangen. Logistische regressie levert dan een coefficiënt-vector die naar een kans tussen 0 en 1 wordt afgebeeld.
 
 
+
+Rotex Roeselare NV met O-score = − 2,5 → kans = 1/(1+e^2,5) ≈ 0,08 (8% kans op faillissement). Verffabriek Veurne BV met O-score = +1,2 → kans ≈ 0,77 (77% kans).
+
 _Grondslag: Ohlson (1980)_
 
 ### Probabiliteit als output 🤖
@@ -45,6 +48,9 @@ De logit-functie transformeert de gewogen som naar een kans p = 1/(1+e^(-O)). Cu
 
 **Waarom?** Een kans is interpretatiekrachtiger dan een score-positie — een bankier kan 77% kans op faillissement direct vertalen naar een kredietbeslissing, terwijl een Altman-zone moeilijker te quantitatieveren is.
 
+
+
+Voor Verffabriek Veurne BV: O = 1,2 → p ≈ 0,77 → bankier zal kredietaanvraag wellicht afwijzen of zware waarborgen vragen.
 
 _Grondslag: Ohlson (1980) + bankpraktijk_
 
@@ -71,9 +77,6 @@ _Grondslag: Ohlson (1980) + bankpraktijk_
 > _Bron: Ohlson (1980)_
 
 
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

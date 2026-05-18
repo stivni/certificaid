@@ -225,3 +225,7 @@ Schrijf ROU-actief lineair af over leaseperiode (of lager van leaseperiode/gebru
 > _Grondslag_: [[leaseverplichting-ifrs]] §effectieve-rentemethode
 
 
+## Voorbeelden
+
+
+

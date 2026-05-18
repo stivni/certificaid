@@ -40,8 +40,9 @@ _Bron: ITAA KMO-controlenorm §77 + ITAA Algemene controlenorm §4_
 > In moderne ERP's verdwijnt soms de papieren audit-trail. De auditor moet zich vergewissen dat de elektronische trail volledig en onaantastbaar is — anders kan hij geen voldoende assurance-informatie ontlenen aan systeem-output. 🤖
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Rotex Roeselare NV werkt met een ERP (SAP) met sterk geïntegreerde modules. Sofie Janssens onderzoekt: toegangsbeheer (wie kan boeken/wijzigen), application controls (drie-handtekeningen-procuratie in inkoopmodule), interfaces tussen verkoop en boekhouding, change management. Zij overweegt om een IT-auditor in te schakelen voor de ERP-omgeving.
 
 ## Bronnen
 

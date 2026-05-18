@@ -159,3 +159,8 @@ Integreer AVG-beveiligingsverplichtingen (art. 32) met algemene cyberbeveiliging
 **Grondslag**: [[geinformatiseerde-omgeving-ic]] §IT-controls, [[cyberrisico-ic]] §typologie, AVG art. 32 + art. 37
 
 
+## Voorbeelden
+
+
+
+

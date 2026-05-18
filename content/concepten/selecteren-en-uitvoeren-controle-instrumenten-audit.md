@@ -147,3 +147,8 @@ Verkrijg op het einde van de werkzaamheden een schriftelijke bevestiging van het
 **Grondslag**: [[schriftelijke-bevestiging-management]] §verplicht-element, ITAA KMO-controlenorm §119
 
 
+## Voorbeelden
+
+
+
+

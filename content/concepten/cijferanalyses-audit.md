@@ -38,6 +38,8 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + §111_
 **Waarom?** Cijferanalyses zijn breed bruikbaar — verschillende doelen op verschillende momenten.
 
 
+
+
 _Grondslag: ITAA KMO-controlenorm §111_
 
 ### Typische analyses ⚖️
@@ -47,11 +49,14 @@ Tendensanalyse over meerdere boekjaren, ratio-analyse (current ratio, debt/equit
 **Waarom?** Snel een 'sanity check' krijgen op de jaarrekening voor je in details duikt.
 
 
+
+
 _Grondslag: ITAA Algemene controlenorm §4 (analyse van belangrijke tendensen en ratio's)_
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Sofie Janssens vergelijkt voor Rotex Roeselare NV de bruto-marge per productlijn 2025 vs. 2024: productlijn A daalt van 35 % naar 22 %. Onverwacht. Zij onderzoekt verder en ontdekt dat een voorraad obsolete grondstoffen niet werd afgeschreven. Cijferanalyse leidt tot detectie van een afwijking.
 
 ## Bronnen
 

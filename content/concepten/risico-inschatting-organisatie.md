@@ -36,6 +36,9 @@ Risico-inschatting is het systematisch identificeren, analyseren en evalueren va
 **Waarom?** Zonder stap 3 wordt risico-inschatting een academische oefening; zonder stap 1 mis je de echte risico's.
 
 
+
+Yperse Werkplaats BV identificeert 'IT-uitval' (kans 3, impact 5 = 15) → maatregel: dagelijkse off-site backup + business continuity plan.
+
 _Grondslag: COSO ERM / ISO 31000_
 
 
@@ -52,6 +55,7 @@ _Grondslag: COSO ERM / ISO 31000_
 > ISO 31000 ('Risk management — Guidelines') is generiek en sectoronafhankelijk, bruikbaar naast COSO. Kernelementen: leadership & commitment, integratie in besluitvorming, design, implementation, evaluation, improvement. In België niet wettelijk opgelegd maar wel referentie voor publieke sector en financiële instellingen. 🤖
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV werkt Xenon Expertise BV een risicomatrix uit: voor elk proces (aankoop, productie, verkoop, HR) wordt 'kans × impact' geschat op een schaal 1-5. Aankopen > € 50.000 krijgen risicoscore 4×5 = 20 → strikte autorisatieprocedure. Telefoonkosten krijgen 2×1 = 2 → geen extra controle.
 

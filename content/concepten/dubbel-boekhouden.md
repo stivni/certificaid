@@ -42,6 +42,9 @@ Een verrichting raakt minstens twee rekeningen: één wordt gedebiteerd, één w
 **Waarom?** Een verrichting heeft altijd een oorsprong (waar komt het geld/de waarde vandaan?) en een bestemming (waar gaat het naartoe?). Beide zijden expliciteren is de essentie.
 
 
+
+Klantbetaling van € 4.500 op de rekening van Naaiatelier Ninove BV: Debet 550 Bank € 4.500 / Credit 400 Klanten € 4.500.
+
 _Grondslag: WER art. III.84_
 
 ### Som debet = som credit ⚖️
@@ -51,6 +54,9 @@ Per boeking is het totaal aan debet gelijk aan het totaal aan credit. Per hele b
 **Waarom?** Deze identiteit is de wiskundige veiligheid: je kunt geen euro doen verschijnen of verdwijnen zonder dat het ergens anders zichtbaar wordt.
 
 
+
+Verkoop van een meubel door Meubelzaak Mertens BV voor € 850 (BTW 21%): Debet 400 Klanten € 1.028,50 / Credit 700 Verkopen € 850 + Credit 451 BTW te betalen € 178,50. Debet € 1.028,50 = Credit (€ 850 + € 178,50) ✓.
+
 _Grondslag: WER art. III.84_
 
 ### Methodische inschrijving in rekeningen ⚖️
@@ -59,6 +65,9 @@ Naast inschrijving in een dagboek (chronologisch) worden de boekingen 'methodisc
 
 **Waarom?** Het dagboek geeft het verloop in de tijd; de rekeningen geven het saldo per onderwerp. Beide perspectieven zijn nodig om de balans en de resultatenrekening op te bouwen.
 
+
+
+Naaiatelier Ninove BV: alle aankoopboekingen verschijnen chronologisch in het aankoopdagboek (15/3, 22/3, 28/3, ...) en parallel verzameld op rekening 600 Aankopen waar het totaal-saldo afleesbaar is.
 
 _Grondslag: WER art. III.84, lid 1_
 
@@ -208,6 +217,10 @@ Resultaat: De verkoop is volledig geregistreerd: omzet € 12.000 in de resultat
 ## Zie ook
 
 - **Vereist kennis van**: [[dagboek]]
+
+## Voorbeelden
+
+Meubelzaak Mertens BV koopt voor € 1.250 (incl. BTW € 217) hout op factuur. Boeking: Debet 600 Aankopen € 1.033 + Debet 411 Terug te vorderen BTW € 217 / Credit 440 Leveranciers € 1.250. Debet totaal € 1.250 = Credit totaal € 1.250 ✓.
 
 ## Bronnen
 

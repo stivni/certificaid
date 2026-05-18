@@ -198,3 +198,8 @@ Bereken werkkapitaal en netto-bedrijfskapitaal op basis van de analytische balan
 **Grondslag**: [[werkkapitaal]] §positief-werkkapitaal, [[analytische-balans]] §herwerking
 
 
+## Voorbeelden
+
+
+
+

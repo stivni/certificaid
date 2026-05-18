@@ -38,6 +38,7 @@ _Bron: Management accounting — bron-gap_
 
 - **Vereist kennis van**: [[marginale-kostprijs]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Yperse Werkplaats BV krijgt een spoedorder voor 1.000 tapijten van klant Brugse Boutique. Acceptatie verdringt een lopend order voor klant Kappers Köln (margebijdrage € 35.000). Opportuniteitskost van Brugse-order = € 35.000 (verloren marge Köln). Pas als margebijdrage Brugse > € 35.000 + variabele kost is het order aantrekkelijk.
 

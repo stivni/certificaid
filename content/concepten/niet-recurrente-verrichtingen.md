@@ -37,6 +37,9 @@ _Bron: MAR klasse 66 + 76; KB 21/10/2018_
 **Waarom?** Aparte presentatie maakt zichtbaar wat 'eenmalig' is en niet representatief voor de normale operationele performance. Helpt analist bij het schatten van toekomstige resultaten.
 
 
+
+Naaiatelier Ninove BV brand in een opslagruimte; boekwaarde betroffen MVA € 18.000, herstelwaarde € 4.500 → niet-recurrente afschrijving € 13.500 op rekening 6602 'Niet-recurrente afschrijvingen MVA'.
+
 _Grondslag: MAR klasse 66_
 
 ### Klasse 76 — Niet-recurrente opbrengsten ⚖️
@@ -46,6 +49,9 @@ _Grondslag: MAR klasse 66_
 **Waarom?** Symmetrische tegenhanger van klasse 66. Een grote eenmalige meerwaarde op een verkocht gebouw mag niet als 'omzet' worden gepresenteerd — zou het bedrijfsresultaat vertekenen.
 
 
+
+Rotex Roeselare NV verkoopt een oud terrein (boekwaarde € 280.000) voor € 450.000 → meerwaarde € 170.000 op rekening 763 'Meerwaarden op realisatie van vaste activa'.
+
 _Grondslag: MAR klasse 76_
 
 ### Verschil met 'uitzonderlijk' (oude regeling) ⚖️
@@ -54,6 +60,9 @@ Sinds KB 21/10/2018 wordt 'niet-recurrent' gebruikt i.p.v. 'uitzonderlijk'. Het 
 
 **Waarom?** De terminologische verschuiving brengt België dichter bij internationale rapporteringspraktijk (IFRS gebruikt 'unusual or infrequent items').
 
+
+
+Onder oud KB: 'gewone' herstructureringskosten in een normale bedrijfscontext bleven vaak in klasse 64. Sinds 2018: zo'n eenmalige reorganisatie kan in klasse 664 'Andere niet-recurrente bedrijfskosten' wanneer ze niet jaarlijks optreedt.
 
 _Grondslag: KB 21/10/2018 — invoering 'niet-recurrent'_
 
@@ -78,8 +87,9 @@ _Grondslag: KB 21/10/2018 — invoering 'niet-recurrent'_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Rotex Roeselare NV verkoopt in 20X1 een verouderde productielijn (boekwaarde € 45.000) voor € 12.000 → minderwaarde € 33.000 op rekening 6630 'Minderwaarden op realisatie van vaste activa'. Tegelijk uitkering brandverzekering € 80.000 voor schade aan stockruimte → opbrengst op rekening 7610 'Niet-recurrente opbrengsten uit vaste activa'. Niet-recurrent resultaat = € 80.000 − € 33.000 = +€ 47.000.
 
 ## Bronnen
 

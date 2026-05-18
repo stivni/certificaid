@@ -137,3 +137,9 @@ Toets of de boeking samen met de toelichting een getrouw beeld geeft, en verzeke
 **Grondslag**: [[getrouw-beeld]] §toets, [[onveranderlijkheid-boekingen]] §correctie, KB-WVV art. 3:1
 
 
+## Voorbeelden
+
+
+
+
+

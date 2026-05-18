@@ -37,8 +37,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 > _Trigger_: Is er een materiële afwijking of scope-beperking? Ja → aangepast oordeel. Nee, maar wel belangrijk gevolg dat correct in jaarrekening staat → paragraaf ter benadrukking.
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Naaiatelier Ninove BV heeft een materiële onzekerheid rond de continuïteit, maar deze is correct toegelicht in toelichting 12. Sofie Janssens neemt een paragraaf ter benadrukking op die naar toelichting 12 verwijst — zonder haar oordeel aan te passen.
 
 ## Bronnen
 

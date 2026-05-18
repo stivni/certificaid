@@ -170,3 +170,8 @@ Lijst de geassocieerde ondernemingen (invloed van betekenis) en de gemeenschappe
 **Grondslag**: [[geassocieerde-onderneming]] §kwalificatie, [[gemeenschappelijke-dochteronderneming]] §kwalificatie
 
 
+## Voorbeelden
+
+
+
+

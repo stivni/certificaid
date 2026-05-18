@@ -158,3 +158,8 @@ Boek elk boekjaar de dotatie aan oprichtingskosten op rekening 6300 met tegenpos
 **Grondslag**: [[afschrijvingen]] §dotatie, [[oprichtingskosten]] §afschrijving
 
 
+## Voorbeelden
+
+
+
+

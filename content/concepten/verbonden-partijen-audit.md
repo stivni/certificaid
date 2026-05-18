@@ -38,8 +38,9 @@ _Bron: ITAA KMO-controlenorm §115_
 
 - **Vereist kennis van**: [[fraude-versus-fout]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+De zaakvoerder van Meubelzaak Mertens BV verhuurt een loods aan zijn eigen vennootschap voor € 4.500/maand. Verbonden-partij-transactie. Sofie Janssens vraagt het huurcontract, vergelijkt met marktconforme huurprijzen, en checkt of de transactie correct werd toegelicht in de jaarrekening. Risico-indicator voor fraude indien niet at-arms-length.
 
 ## Bronnen
 

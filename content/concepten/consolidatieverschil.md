@@ -40,6 +40,9 @@ Je betaalt meer voor de aandelen dan je pro-rata aandeel in het eigen vermogen v
 **Waarom?** De premie die de moeder boven op de boekwaarde betaalde, weerspiegelt economische waarde (klantenbestand, marktpositie, synergieën) die niet aan één concrete balanspost is toe te wijzen. Door dat residu op de balans te activeren en gespreid af te schrijven, vermijd je dat het hele bedrag de winst van het aankoopjaar onterecht zou drukken.
 
 
+
+Aurelia betaalt € 1.600.000 voor 80 % van Brugse; pro-rata EV = € 1.200.000 en geen stille meerwaarden → positief consolidatieverschil = € 400.000. Boeken aan actiefzijde, afschrijven over 5 jaar = € 80.000 per jaar.
+
 _Grondslag: KB WVV art. 3:131, § 1_
 
 ### Negatief consolidatieverschil = badwill ⚖️
@@ -48,6 +51,9 @@ Je betaalt minder dan je pro-rata aandeel in het eigen vermogen (na correctie). 
 
 **Waarom?** Badwill wijst meestal op verborgen risico's (komende verliezen, schade-aansprakelijkheden) waar de koper rekening mee houdt. Het meteen als winst boeken zou een spookwinst opleveren; de wet koppelt de erkenning aan het effectief optreden van die verliezen.
 
+
+
+Aurelia koopt 80 % van een verlieslatende Brugse voor € 900.000; pro-rata EV = € 1.200.000 → negatief consolidatieverschil = € 300.000, geboekt aan passiefzijde. In jaar 1 boekt Brugse het verwachte verlies van € 150.000; Aurelia mag 80 % × € 150.000 = € 120.000 uit het negatieve verschil in resultaat opnemen.
 
 _Grondslag: KB WVV art. 3:131, § 2_
 
@@ -58,6 +64,9 @@ Positieve consolidatieverschillen bij dochter A en negatieve verschillen bij doc
 **Waarom?** Twee verschillende dochters zijn economisch los van elkaar; saldering zou een dochter met verborgen goodwill optisch laten verdwijnen achter de badwill van een andere dochter. Binnen één dochter daarentegen gaat het om hetzelfde economische geheel — daar is saldering juist verplicht.
 
 
+
+Aurelia heeft een positief verschil van € 400.000 bij Brugse en een negatief verschil van € 200.000 bij Bouwwerf Beerse → beide afzonderlijk presenteren, niet salderen.
+
 _Grondslag: KB WVV art. 3:130_
 
 ### Gedeeltelijke verkoop van aandelen ⚖️
@@ -66,6 +75,9 @@ Verkoopt de moeder een deel van haar aandelen in een dochter (buiten de consolid
 
 **Waarom?** Het consolidatieverschil hoort bij de aangehouden aandelen. Bij gedeeltelijke verkoop hoort dat verschil ook gedeeltelijk te verdwijnen, anders blijf je een goodwill aanhouden die niet meer correspondeert met je participatie.
 
+
+
+Aurelia heeft een resterend positief consolidatieverschil van € 300.000 op haar 80 %-belang in Brugse. Aurelia verkoopt de helft (40 %) aan een derde → € 150.000 (= € 300.000 × 40 %/80 %) van het consolidatieverschil wordt afgeboekt.
 
 _Grondslag: KB WVV art. 3:132_
 
@@ -322,6 +334,10 @@ Resultaat: In de geconsolideerde balans wordt € 300.000 als positief consolida
 ## Zie ook
 
 - **Getriggerd door**: [[eerste-consolidatie]]
+
+## Voorbeelden
+
+Aurelia Holding NV koopt 80 % van Brugse Brouwerij BV voor € 1.600.000; eigen vermogen (EV) van Brugse op aankoopdatum = € 1.500.000. Pro-rata aandeel = 80 % × € 1.500.000 = € 1.200.000. Bruto-verschil = € 1.600.000 − € 1.200.000 = € 400.000. Vastgoed van Brugse is € 250.000 ondergewaardeerd → € 250.000 toegerekend aan terreinen; residu € 150.000 wordt geboekt als 'Consolidatieverschillen' (actiefzijde).
 
 ## Bronnen
 

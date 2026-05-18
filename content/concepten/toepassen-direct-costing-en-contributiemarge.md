@@ -178,3 +178,7 @@ Gebruik contributiemarge om typische korte-termijn-beslissingen te onderbouwen: 
 **Grondslag**: [[contributiemarge]] §per-schaarse-resource, [[marginale-kostprijs]] §korte-termijn, [[opportuniteitskost]] §beslissingsregel
 
 
+## Voorbeelden
+
+
+

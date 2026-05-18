@@ -186,3 +186,8 @@ Plaats current en quick ratio naast sectormediaan en de eigen evolutie over drie
 **Grondslag**: [[sectorvergelijking-financiele-analyse]] §sectorgrenzen, [[historische-evolutie-financiele-analyse]] §3-5-boekjaren
 
 
+## Voorbeelden
+
+
+
+

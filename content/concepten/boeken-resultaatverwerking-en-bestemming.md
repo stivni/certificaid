@@ -181,3 +181,9 @@ Boek het deel dat noch reserve noch dividend wordt op overgedragen resultaat (14
 **Grondslag**: [[resultaatverwerking]] §overgedragen-resultaat, [[eigen-middelen]] §rubriek-14
 
 
+## Voorbeelden
+
+
+
+
+

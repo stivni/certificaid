@@ -34,6 +34,9 @@ FOD-controleurs hebben recht op inzage van alle boeken, dagboeken, verantwoordin
 **Waarom?** Zonder inzage kan de fiscus de aangifte niet controleren.
 
 
+
+Controle bij Rotex Roeselare NV → controleur vraagt alle bankuittreksels 2023 → onderneming legt voor binnen 14 dagen.
+
 _Grondslag: WIB art. 315_
 
 ### Boekhouding ↔ fiscale aangifte 🤖
@@ -42,6 +45,9 @@ Het boekhoudkundig resultaat is het vertrekpunt voor de fiscale aangifte. Vandaa
 
 **Waarom?** Eén boekhouding vormt de basis voor twee rapporteringen — boekhoudkundige + fiscale.
 
+
+
+Meubelzaak Mertens BV boekt restaurantkost € 800 → boekhoudkundig kost. Fiscaal: 31% niet-aftrekbaar → € 248 toegevoegd aan belastbare basis.
 
 _Grondslag: WIB art. 24-25; primauteit boekhouding voor fiscus_
 
@@ -52,6 +58,9 @@ Commissaris controleert getrouw beeld + wettelijkheid jaarrekening voor aandeelh
 **Waarom?** Geen verwarring tussen privaatrechtelijke en publiekrechtelijke controle.
 
 
+
+Een fiscale controleur kan een vondst niet eigenmachtig aan de commissaris meedelen — beroepsgeheim. Hij maakt eigen aanslag op.
+
 _Grondslag: Algemene rechtsbeginselen + beroepsgeheim_
 
 
@@ -59,8 +68,9 @@ _Grondslag: Algemene rechtsbeginselen + beroepsgeheim_
 
 - **Vereist kennis van**: [[bewaartermijn-boekhouding]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Een fiscaal controleur van FOD Financiën vraagt bij Meubelzaak Mertens BV inzage in de aankoopdagboeken 2021-2024 → onderneming moet binnen redelijke termijn voorleggen (WIB art. 315).
 
 ## Bronnen
 

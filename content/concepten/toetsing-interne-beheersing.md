@@ -42,6 +42,8 @@ Wanneer de auditor wil STEUNEN op de werking van een IC-maatregel om minder gege
 **Waarom?** Toetsen kost tijd — alleen lonend wanneer je daarna kunt schalen op de IC.
 
 
+
+
 _Grondslag: ITAA KMO-controlenorm §97_
 
 ### Overwegingen bij opzet ⚖️
@@ -49,6 +51,8 @@ _Grondslag: ITAA KMO-controlenorm §97_
 Aard en draagwijdte van de IC, gedekte periode, frequentie van uitvoering, belangrijke veranderingen tijdens het boekjaar, afhankelijkheid van andere IC-maatregelen.
 
 **Waarom?** Een IC die alleen aan het einde van het boekjaar werd ingevoerd kan niet over de volledige periode gesteund worden.
+
+
 
 
 _Grondslag: ITAA KMO-controlenorm §98_
@@ -63,8 +67,9 @@ _Grondslag: ITAA KMO-controlenorm §98_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Sofie Janssens wil bij Rotex Roeselare NV steunen op de IC rond aankopen. Zij test 25 willekeurig gekozen aankoopfacturen: voor elk gaat ze na of er drie handtekeningen op zitten (besteller, magazijnier, CFO) en of het bedrag binnen de delegatieprocuratie blijft. 0 fouten → IC werkt → minder substantive testing nodig.
 
 ## Bronnen
 

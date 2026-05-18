@@ -38,6 +38,9 @@ De **verkoop van goederen en levering van diensten aan derden** in het kader van
 **Waarom?** Omzet is de centrale meeteenheid van bedrijfsprestatie. Heldere definitie voorkomt manipulatie van groei-percentages of fiscale gunstregimes.
 
 
+
+Meubelzaak Mertens BV verkoopt 245 stoelen × € 280 + 87 tafels × € 1.250 = € 68.600 + € 108.750 = € 177.350; geeft 3 % volumekorting = € 5.320 → omzet € 172.030 op rekening 700.
+
 _Grondslag: MAR rubriek 70 (zie MAR-noot 55)_
 
 ### Klasse 60 — Handelsgoederen, grond- en hulpstoffen ⚖️
@@ -46,6 +49,9 @@ Aankopen van grondstoffen en handelsgoederen, gecorrigeerd door voorraadwijzigin
 
 **Waarom?** Boekhoudkundig moet de kost van wat verkocht is matchen met de opbrengst. Voorraadwijziging corrigeert de aankopen naar 'gebruikte/verkochte voorraad'.
 
+
+
+Naaiatelier Ninove BV: aankoop grondstoffen 20X1 € 480.000; beginvoorraad € 60.000, eindvoorraad € 90.000 → voorraadwijziging +€ 30.000. Verbruikte grondstoffen = € 480.000 − € 30.000 = € 450.000.
 
 _Grondslag: MAR klasse 60_
 
@@ -56,6 +62,9 @@ Lonen en salarissen (620, 621), werkgeversbijdragen sociale zekerheid (621, 622)
 **Waarom?** Personeelskosten zijn vaak de grootste kostenpost; aparte rubricering laat de gebruiker toe loonintensiviteit te beoordelen.
 
 
+
+Naaiatelier Ninove BV 20X1: brutolonen € 280.000 (620), werkgevers-RSZ € 84.000 (621), groepsverzekering € 12.000 (623), maaltijdcheques € 4.000 (624). Totaal € 380.000 onder rubriek 62.
+
 _Grondslag: MAR klasse 62_
 
 ### Klasse 63-64-65 — Niet-kaskosten en andere ⚖️
@@ -64,6 +73,9 @@ Rubriek 63 = afschrijvingen + waardeverminderingen + voorzieningen — toevoegin
 
 **Waarom?** De financiële analyst onderscheidt graag operationele cashflow van boekhoudkundig resultaat. De niet-kasrubrieken (klasse 63) zijn essentieel voor die brug.
 
+
+
+Naaiatelier Ninove BV: afschrijvingen MVA € 85.000 (6302) + IVA € 5.000 (6301) + waardeverminderingen voorraden € 4.500 (6340) + toevoeging voorziening garantie € 25.000 (6371) → klasse 63 totaal € 119.500.
 
 _Grondslag: MAR klasse 63 + 64_
 
@@ -104,8 +116,9 @@ _Grondslag: MAR klasse 63 + 64_
 
 - **Vereist kennis van**: [[voorraden]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Naaiatelier Ninove BV 20X1: omzet € 1.250.000 (rekening 70), voorraadwijziging gereed product +€ 22.300 (71), totaal bedrijfsopbrengsten € 1.272.300. Bedrijfskosten: aankopen grondstoffen € 450.000 (60), diensten en diverse goederen € 185.000 (61), bezoldigingen + sociale lasten € 380.000 (62), afschrijvingen € 95.000 (630), waardeverminderingen € 8.500 (634), andere bedrijfskosten € 18.000 (64) → totaal € 1.136.500. Bedrijfsresultaat = € 1.272.300 − € 1.136.500 = € 135.800.
 
 ## Bronnen
 

@@ -35,6 +35,8 @@ Per controle: (1) sectorspecifieke factoren + regelgeving, (2) aard van de onder
 **Waarom?** Deze zes domeinen vormen de input voor risico-identificatie op overall- en assertion-niveau.
 
 
+
+
 _Grondslag: ITAA KMO-controlenorm §77_
 
 ### Drie bronnen van kennis ⚖️
@@ -44,6 +46,8 @@ _Grondslag: ITAA KMO-controlenorm §77_
 **Waarom?** Combineren van bronnen verkleint het risico op blind spots.
 
 
+
+
 _Grondslag: ITAA KMO-controlenorm §76_
 
 
@@ -51,8 +55,9 @@ _Grondslag: ITAA KMO-controlenorm §76_
 
 - **Vereist kennis van**: [[risico-inschatting-audit]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Vooraleer Sofie Janssens de audit van Rotex Roeselare NV start, verwerft zij inzicht: textielsector + Europese concurrentie, eigendomsstructuur (familieaandeelhouders), financiering (€ 12M bankkrediet + obligatielening), KPI's (omzet per m² + bezetting), interne beheersing (ERP + 3-handtekening-procuratie). Daaruit blijkt: voorraad + valuta-risico + continuïteit zijn focusgebieden.
 
 ## Bronnen
 

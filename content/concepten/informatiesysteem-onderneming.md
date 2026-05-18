@@ -52,6 +52,7 @@ Het informatiesysteem is het geheel van procedures, mensen, software en hardware
 
 - **Vereist kennis van**: [[geinformatiseerde-omgeving-ic]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV omvat het informatiesysteem: ERP-pakket (Odoo) voor aankopen-voorraad-verkoop, payroll-software, MS Office voor rapportering. Stromen: aankoopfactuur → boekhouding → kostencentrum-toewijzing → maandrapport voor directie. Een fout in één schakel (bv. verkeerd kostencentrum) breekt de hele rapportering.
 

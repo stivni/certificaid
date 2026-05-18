@@ -36,6 +36,9 @@ Zolang de eigen aandelen op de balans staan, MOET een onbeschikbare reserve voor
 **Waarom?** Zonder dergelijke reserve zou een inkoop eigen aandelen functioneren als verkapt dividend zonder respect voor uitkeerbaarheid. De reserve 'bevriest' het bedrag tot de aandelen weer verkocht of vernietigd zijn.
 
 
+
+Rotex Roeselare NV met beschikbare reserves € 1.500.000 + ingekochte eigen aandelen € 350.000: tegelijk € 350.000 over naar onbeschikbare reserve (1310). Beschikbare reserves verminderen tot € 1.150.000 — dit is wat nog vrij uitkeerbaar is.
+
 _Grondslag: WVV art. 7:218; KB WVV_
 
 ### Voorwaarden voor inkoop (NV) ⚖️
@@ -45,6 +48,9 @@ WVV legt strikte voorwaarden op aan een NV die eigen aandelen inkoopt: (a) macht
 **Waarom?** Beperking voorkomt misbruik (manipulatie aandelenkoers, voorkeursbehandeling, uitholling van het kapitaal). De 20 %-grens is een wettelijke afbakening.
 
 
+
+Rotex Roeselare NV (kapitaal € 5.000.000) mag maximaal 20 % × € 5.000.000 = € 1.000.000 aan eigen aandelen aanhouden. Inkoop voor € 350.000 zit ruim onder de grens.
+
 _Grondslag: WVV art. 7:215_
 
 ### Verkoop of vernietiging ⚖️
@@ -52,6 +58,9 @@ _Grondslag: WVV art. 7:215_
 Eigen aandelen kunnen weer worden verkocht (terug op de markt) of definitief vernietigd (kapitaalvermindering). Bij verkoop: meerwaarde of minderwaarde t.o.v. aanschaffingsprijs. Bij vernietiging: omzetting naar kapitaalvermindering.
 
 
+
+
+Rotex Roeselare NV verkoopt later haar eigen aandelen voor € 420.000 (winst € 70.000): Debet 550 Bank € 420.000 / Credit 50 Eigen aandelen € 350.000 + Credit 11 of 763 voor € 70.000 (winstbehandeling volgens regels). Tegelijk: terugname onbeschikbare reserve 1310 → beschikbare reserves 133.
 
 _Grondslag: WVV + CBN praktijk_
 
@@ -80,8 +89,9 @@ _Grondslag: WVV + CBN praktijk_
 
 - **Getriggerd door**: [[kapitaalwijziging]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Rotex Roeselare NV koopt 5 % eigen aandelen terug voor € 350.000 op de beurs. Twee gelijktijdige boekingen: (a) Debet 50 Eigen aandelen € 350.000 / Credit 550 Bank € 350.000 (effecten als activum); (b) winstbestemming: Debet 6921 Toevoeging onbeschikbare reserves € 350.000 / Credit 1310 Reserve voor eigen aandelen € 350.000.
 
 ## Bronnen
 

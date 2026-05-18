@@ -176,3 +176,8 @@ Stel het verslag op volgens WVV-vereisten, onderteken het met datum en handteken
 > _Grondslag_: [[bijzondere-verslagen-overzicht]] §timing-notaris
 
 
+## Voorbeelden
+
+
+
+

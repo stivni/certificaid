@@ -40,6 +40,9 @@ Bij eerste opname vervang je de aankoopwaarde van de deelneming door jouw pro-ra
 **Waarom?** Op de enkelvoudige balans van de moeder staat de deelneming aan historische kostprijs — een 'dood' getal. De vermogensmutatie maakt de deelneming levend door haar aan jouw effectieve aandeel in EV te koppelen, zodat de geconsolideerde jaarrekening een eerlijker beeld geeft.
 
 
+
+Antwerpse Investments NV koopt 25 % van Drukkerij Dendermonde BV voor € 350.000; EV Drukkerij = € 1.250.000 → vervang € 350.000 (aankoopwaarde) door 25 % × € 1.250.000 = € 312.500 + € 37.500 consolidatieverschil. Boekwaarde 'Vennootschappen waarop vermogensmutatie is toegepast' = € 312.500; positief consolidatieverschil € 37.500 wordt apart bijgehouden en afgeschreven.
+
 _Grondslag: CBN 2022/11 — Eerste consolidatie_
 
 ### Latere consolidaties — beweeg mee met EV-wijzigingen ⚖️
@@ -48,6 +51,9 @@ Elk volgend boekjaar pas je de boekwaarde van de deelneming aan met jouw pro-rat
 
 **Waarom?** De deelneming-post moet meebewegen met wat economisch gebeurt in de andere vennootschap. Anders blijft de balanspost statisch en verdwijnt het didactische voordeel van de methode.
 
+
+
+Drukkerij Dendermonde BV maakt in jaar 1 winst van € 200.000, keert geen dividend uit → Antwerpse boekt 25 % × € 200.000 = € 50.000 als 'Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast'; 'Vennootschappen waarop vermogensmutatie is toegepast' stijgt met € 50.000 (€ 312.500 → € 362.500).
 
 _Grondslag: KB WVV art. 3:143_
 
@@ -58,6 +64,9 @@ De deelneming verschijnt in de geconsolideerde balans onder een afzonderlijke po
 **Waarom?** Door één duidelijk gelabelde lijn weet de lezer dat het hier niet om een gewone deelneming gaat maar om een geassocieerde of niet-geïntegreerde gemeenschappelijke dochter — andere economische realiteit dan een 100 %-dochter.
 
 
+
+Op de geconsolideerde balans van Antwerpse Investments NV staat 'Vennootschappen waarop vermogensmutatie is toegepast' 175 (voor Drukkerij Dendermonde) als aparte post bij de financiële vaste activa.
+
 _Grondslag: KB WVV art. 3:141_
 
 ### Presentatie op de resultatenrekening — afzonderlijke post ⚖️
@@ -66,6 +75,9 @@ Jouw aandeel in het resultaat van de andere vennootschap komt in de geconsolidee
 
 **Waarom?** Zo blijft het zichtbaar dat dit resultaat niet uit de eigen activiteit komt maar uit jouw aandeel in een andere vennootschap — anders zou het vermengd raken met de gewone bedrijfsresultaten en het beeld vertroebelen.
 
+
+
+Aandeel Antwerpse Investments NV in het resultaat van Drukkerij Dendermonde BV in jaar 1: 25 → afzonderlijke regel op de geconsolideerde resultatenrekening (positief).
 
 _Grondslag: KB WVV art. 3:145_
 
@@ -477,6 +489,10 @@ Resultaat: Hypothese 1: boekwaarde +€ 375.000 → € 687.500; resultaat verbe
 ## Zie ook
 
 - **Getriggerd door**: [[invloed-van-betekenis]]
+
+## Voorbeelden
+
+Antwerpse Investments NV koopt 25 % van Drukkerij Dendermonde BV voor € 350.000; eigen vermogen (EV) Drukkerij op aankoopdatum = € 1.250.000 → pro-rata aandeel = 25 % × € 1.250.000 = € 312.500; positief consolidatieverschil = € 37.500. In jaar 1 maakt Drukkerij € 200.000 winst → pro-rata € 50.000 → boekwaarde 'Vennootschappen waarop vermogensmutatie is toegepast' stijgt met € 50.000.
 
 ## Bronnen
 

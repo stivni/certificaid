@@ -40,6 +40,9 @@ Vraag minstens 3, idealiter 5 boekjaren op. Onder 3 jaren zijn trends moeilijk v
 **Waarom?** Eén of twee jaren tonen geen trend; te veel jaren brengen oude data binnen die de huidige realiteit niet meer weerspiegelen.
 
 
+
+Voor Rotex Roeselare NV: vraag boekjaren 20W7 t.e.m. 20X1. Constateer dat solvabiliteit steeg van 28 % naar 40 % — duidelijk positieve trend.
+
 _Grondslag: Vakdoctrine_
 
 ### Onderscheid eenmalig effect van structurele trend 🤖
@@ -48,6 +51,9 @@ Identificeer eenmalige gebeurtenissen (overname, herstructurering, uitzonderlijk
 
 **Waarom?** Een uitzonderlijke afschrijving van € 2.000.000 in 20X0 zou ROE 20X0 vertekenen — niet representatief voor de structurele rentabiliteit.
 
+
+
+Rotex Roeselare NV nam in 20W9 een uitzonderlijke voorziening van € 1.500.000 voor een hangend geschil. Dat boekjaar is een outlier; corrigeer of vermeld in conclusie.
 
 _Grondslag: Vakdoctrine_
 
@@ -64,9 +70,6 @@ _Grondslag: Vakdoctrine_
 
 - **Vereist kennis van**: [[sectorvergelijking-financiele-analyse]]
 - **Vereist kennis van**: [[horizontale-analyse-jaarrekening]]
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

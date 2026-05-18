@@ -37,6 +37,9 @@ _Bron: KB-WVV bijlage 1 + bijlage 2 (sociale balans)_
 **Waarom?** Voor stakeholders (vakbond, ondernemingsraad, bestuurder, overheid) is het personeelsbeleid een belangrijk facet — afzonderlijk gerapporteerd.
 
 
+
+Naaiatelier Ninove BV's sociale balans toont: 22 werknemers, waarvan 18 productie en 4 administratie; € 850.000 loonkost; gemiddeld 12 opleidingsuren per medewerker.
+
 _Grondslag: KB-WVV bijlage 1, deel IV_
 
 ### Wie moet sociale balans neerleggen? 🤖
@@ -45,6 +48,9 @@ Alle vennootschappen met werknemers — kleine vennootschappen krijgen een verko
 
 **Waarom?** Eenmanszaak zonder personeel of micro-vennootschap → te lichte structuur om sociale balans op te leggen.
 
+
+
+Meubelzaak Mertens BV (12 werknemers, klein) → verkort sociaal-balans-schema. Oprichtingen Oostende BV (4 werknemers, micro) → geen sociaal balans.
 
 _Grondslag: KB-WVV bijlagen 1-2; geen sociaal balans in bijlage 3_
 
@@ -60,8 +66,9 @@ _Grondslag: KB-WVV bijlagen 1-2; geen sociaal balans in bijlage 3_
 > Examenvraag 'waar haalt boekhouder cijfers voor sociaal balans?' → loonadministratie + DIMONA + RSZ.
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Rotex Roeselare NV's sociale balans 2024: gemiddelde personeelsbezetting 550 VTE, € 22M loonkosten, 4.500 opleidingsuren, 12% deeltijds, 88% voltijds.
 
 ## Bronnen
 

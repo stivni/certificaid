@@ -19,6 +19,29 @@
 **Voorbeeld**: {{ bouwsteen.voorbeeld_inline }}
 {% endif %}
 
+{% if bouwsteen.in_praktijk is string %}
+**In de praktijk**: {{ bouwsteen.in_praktijk }}
+{% elif bouwsteen.in_praktijk is iterable and bouwsteen.in_praktijk %}
+**In de praktijk**:
+{% for item in bouwsteen.in_praktijk %}
+{% if item is mapping %}
+- **{{ item.aspect | default('') }}**: {{ item.betekenis | default('') }}{% if item.confidence is defined %} {{ item.confidence | confidence_label }}{% endif %}
+
+{% else %}
+- {{ item }}
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if bouwsteen.voorbeelden %}
+{% set voorbeelden = bouwsteen.voorbeelden %}
+{% include 'partials/voorbeelden.md.j2' %}
+{% endif %}
+{% if bouwsteen.illustraties %}
+{% set illustraties = bouwsteen.illustraties %}
+{% include 'partials/illustraties.md.j2' %}
+{% endif %}
+
 {% if bouwsteen.grondslag %}
 _Grondslag: {{ bouwsteen.grondslag }}_
 {% elif titel_suffix %}

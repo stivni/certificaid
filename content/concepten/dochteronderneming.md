@@ -74,8 +74,9 @@ _Bron: WVV art. 1:15, 2° jo. art. 3:22_
 - **Vereist kennis van**: [[controle]]
 - **Getriggerd door**: [[integrale-consolidatie]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Aurelia Holding NV bezit 90 % van de stemrechten in Brugse Brouwerij BV (industriële activiteit). Aurelia kan via die meerderheid de meeste bestuurders aanstellen → onweerlegbaar controle in rechte (WVV art. 1:14, § 2) → Brugse Brouwerij BV is dochteronderneming van Aurelia Holding NV. Aurelia consolideert Brugse integraal; 10 % van het eigen vermogen en het resultaat van Brugse staat apart als belangen van derden (KB WVV art. 3:137).
 
 ## Bronnen
 

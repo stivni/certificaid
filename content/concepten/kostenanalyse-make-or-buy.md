@@ -36,12 +36,18 @@ Relevant: kosten die verdwijnen bij uitbesteden (vermijdbare variabele kosten, v
 
 
 
+Yperse Werkplaats BV overweegt Spinnerij te outsourcen. Volledige kostprijs Spinnerij: € 1.450.000/jaar. Maar bij uitbesteden vervalt loon Spinnerij-personeel (€ 850.000) + onderhoudscontract (€ 80.000) + variabele wol-aankoop (€ 350.000) = € 1.280.000 vermijdbaar. De overige € 170.000 (toegerekende algemene overhead, afschrijving gebouw) blijft. Vergelijk dus € 1.280.000 met de offerteprijs van € 1.380.000 → eigen productie € 100.000 goedkoper.
+
+
 ### Kwalitatieve factoren 🤖
 
 Naast cijfers: levertijd-betrouwbaarheid, kwaliteitscontrole, intellectueel eigendom, capaciteit-flexibiliteit, afhankelijkheid van leverancier.
 
 **Waarom?** Beslissing puur op kostprijs is risico bij strategische componenten.
 
+
+
+Voor Yperse Werkplaats BV is wol-spinnen mogelijk een strategisch differentiatie-element (eigen recept). Zelfs als uitbesteden € 100.000 goedkoper is, kan eigen productie aangewezen blijven om kwaliteit en differentiatie te behouden.
 
 
 
@@ -57,7 +63,4 @@ Naast cijfers: levertijd-betrouwbaarheid, kwaliteitscontrole, intellectueel eige
 
 - **Vereist kennis van**: [[marginale-kostprijs]]
 - **Vereist kennis van**: [[variabele-kosten]]
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

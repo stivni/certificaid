@@ -37,6 +37,9 @@ Aankoopprijs + bijkomende aankoopkosten (transport, invoerrechten, niet-aftrekba
 **Waarom?** Volledige kost van het materiaal tot het in voorraad ligt klaar voor gebruik.
 
 
+
+Yperse Werkplaats BV koopt 5.000 kg ruwwol aan € 4,50/kg = € 22.500. Transport € 1.200; verzekering € 300; korting voor cash betaling € 450. Aanschaffingswaarde voorraad: € 22.500 + € 1.200 + € 300 − € 450 = € 23.550 → € 4,71/kg.
+
 _Grondslag: KB 21.10.2018 art. 21 · CBN 132/7_
 
 ### Voorraadwaarderingsmethoden ⚖️
@@ -46,6 +49,9 @@ Bij identieke goederen waarvan de aankoopprijs schommelt: kies één van de wett
 **Waarom?** Bepaalt welke aankoopprijs aan een uitgaande hoeveelheid wordt toegerekend — dus welk verbruik in de kostprijs van het product zit.
 
 
+
+Yperse Werkplaats BV verbruikt 800 kg wol uit een voorraad waar 500 kg aan € 4,71 en 800 kg aan € 5,10 ligt. Bij gewogen gemiddelde: gemiddelde = (500×4,71 + 800×5,10)/1.300 = € 4,95/kg → verbruik € 3.960. Bij FIFO: eerst de 500 kg aan € 4,71 = € 2.355, dan 300 kg aan € 5,10 = € 1.530 → totaal € 3.885.
+
 _Grondslag: KB 21.10.2018 art. 18-20 · CBN 132/7_
 
 ### Voorraadkosten naast prijs 🤖
@@ -54,6 +60,9 @@ Naast aankoopprijs ook: opslagkosten (huur magazijn, verzekering, bewaking), ris
 
 **Waarom?** Een totale 'voorraadhoudkost' is essentieel bij beslissingen over bestelfrequentie en optimale voorraadhoogte.
 
+
+
+Yperse Werkplaats BV houdt gemiddeld € 350.000 wolvoorraad aan. Bij kapitaalkost 6 % + opslag 3 % + risico 1 % = 10 %/jaar → voorraadhoudkost € 35.000/jaar bovenop de aankoopprijs zelf.
 
 
 
@@ -68,9 +77,6 @@ Naast aankoopprijs ook: opslagkosten (huur magazijn, verzekering, bewaking), ris
 ## Zie ook
 
 - **Vereist kennis van**: [[voorraadwaardering]]
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

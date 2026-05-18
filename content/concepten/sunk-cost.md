@@ -45,6 +45,7 @@ _Bron: Management accounting — bron-gap_
 
 - **Vereist kennis van**: [[kostenanalyse-make-or-buy]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Yperse Werkplaats BV heeft 3 jaar geleden een naaimachine gekocht voor € 280.000 (sunk). Boekwaarde nu € 196.000. Wanneer de directie nu kiest tussen 'opdracht uitvoeren' en 'opdracht weigeren', telt deze € 196.000 niet mee in de keuze — alleen de toekomstige extra kost (variabele kost, eventuele extra arbeidsuren).
 

@@ -183,3 +183,7 @@ Indien realiseerbare waarde < boekwaarde → boek het verschil als bijzondere wa
 > _Grondslag_: [[bijzondere-waardevermindering-ifrs]] §terugname
 
 
+## Voorbeelden
+
+
+

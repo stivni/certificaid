@@ -43,8 +43,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 (beweringen-definities)_
 
 - **Vereist kennis van**: [[risico-inschatting-audit]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Voor de balanspost 'Handelsvorderingen € 1.250.000' bij Rotex Roeselare NV toetst Sofie Janssens vijf beweringen: (1) BESTAAN — bestaan deze klanten effectief en hebben ze openstaande schulden? (2) VOLLEDIGHEID — staan alle openstaande vorderingen erop? (3) RECHTEN — heeft Rotex effectief recht op invordering (geen factoring)? (4) WAARDERING — zijn dubieuze vorderingen afgeschreven? (5) RUBRICERING — staan ze correct onder 'kort/lang' geclassificeerd?
 
 ## Bronnen
 

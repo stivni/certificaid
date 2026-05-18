@@ -39,6 +39,7 @@ Verspilling is het niet-optimaal inzetten van middelen — geen fraude (geen opz
 > Periodieke evaluatie van KPI's (capaciteitsbezetting, voorraadrotatie, kost per eenheid), benchmarking, beslissingsdrempels bij grote aankopen, periodieke review abonnementen + licenties. Niet primair een boekhoudkundige controle maar managementcontrole-uitwerking. 🤖
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV staat een productiemachine 30% van de tijd stil door slechte planning. Geen fraude, geen fout in de boekhouding — maar significant verspild kapitaal en arbeid. Een IC-evaluatie door Sofie Janssens (interne auditor) kan dit signaleren via capaciteitsanalyse en operatie-KPI's. Aanbeveling: planningsmodule in ERP, betere productieplanning.
 

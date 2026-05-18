@@ -36,8 +36,9 @@ _Bron: ITAA KMO-controlenorm §118_
 > Bij elk aangepast oordeel komt een paragraaf 'Basis voor het oordeel met voorbehoud / afkeurend oordeel / onthouding van oordeel' VÓÓR de oordeelsparagraaf, met uitleg over de aard en het bedrag (waar mogelijk) van de afwijking of scope-beperking. 🤖
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Naaiatelier Ninove BV ontdekt Sofie Janssens dat de continuïteitsveronderstelling materieel onzeker is én onvoldoende toegelicht. Eén stevige afwijking → oordeel met voorbehoud (aangepast oordeel).
 
 ## Bronnen
 

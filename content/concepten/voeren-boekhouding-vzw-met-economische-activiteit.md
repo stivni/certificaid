@@ -174,3 +174,9 @@ Stel de balans, resultatenrekening + sociale balans op volgens het VZW-schema en
 **Grondslag**: [[jaarrekening-vzw-stichting]] §schema-en-neerlegging, [[jaarrekening]] §publicatieplicht
 
 
+## Voorbeelden
+
+
+
+
+

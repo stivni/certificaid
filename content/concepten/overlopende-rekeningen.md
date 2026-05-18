@@ -41,6 +41,9 @@ Kosten die in lopend boekjaar zijn betaald of geboekt maar economisch betrekking
 **Waarom?** Matching: kosten waar de baten in een toekomstig boekjaar liggen, mogen niet de winst van het lopende jaar drukken. Uitstellen via 490 corrigeert dat.
 
 
+
+Naaiatelier Ninove BV betaalt op 15 december € 12.000 huur voor januari—maart 20X2 vooruit. Cut-off 31/12: Debet 490 Over te dragen kosten € 12.000 / Credit 61 Huurkosten € 12.000. In jaar 20X2 boeking terug: Debet 61 € 12.000 / Credit 490 € 12.000.
+
 _Grondslag: KB WVV art. 3:60_
 
 ### Toe te rekenen kosten (492, passief) ⚖️
@@ -49,6 +52,9 @@ Kosten die op lopend boekjaar slaan maar nog niet betaald of gefactureerd zijn o
 
 **Waarom?** Volledigheid: alle kosten van het lopende jaar moeten in het resultaat, ook als de financiële afhandeling later komt.
 
+
+
+Meubelzaak Mertens BV: elektriciteitsfactuur december wordt pas in januari opgemaakt; geschatte kost € 1.850. Cut-off 31/12: Debet 61 Elektriciteit € 1.850 / Credit 492 Toe te rekenen kosten € 1.850. Boeking in januari bij ontvangst factuur: Debet 492 € 1.850 / Credit 440 € 1.850.
 
 _Grondslag: KB WVV art. 3:60_
 
@@ -59,6 +65,9 @@ Opbrengsten die in lopend jaar zijn verdiend maar nog niet ontvangen of gefactur
 **Waarom?** Voorbeeld van matching aan opbrengstzijde: de rente die je verdient over december is een opbrengst van december, ook al vervalt ze pas in januari.
 
 
+
+Solaris Sint-Truiden BV bezit obligaties met jaarlijkse coupon € 12.000 betaalbaar elke 1 maart. Op 31/12 is 10/12 maanden gelopen → verkregen rente € 12.000 × 10/12 = € 10.000. Boeking: Debet 491 Verkregen opbrengsten € 10.000 / Credit 751 Opbrengsten van vlottende activa € 10.000.
+
 _Grondslag: KB WVV art. 3:60 + CBN 148/4_
 
 ### Over te dragen opbrengsten (493, passief) ⚖️
@@ -67,6 +76,9 @@ Opbrengsten die in lopend jaar al ontvangen of gefactureerd zijn maar economisch
 
 **Waarom?** Voorzichtigheid + matching: ontvangen geld is geen opbrengst zolang de prestatie nog niet is geleverd. Uitstellen tot het juiste boekjaar.
 
+
+
+Uitgeverij Ukkel NV verkoopt jaarabonnementen aan haar tijdschriften; klant betaalt op 1 oktober € 240 voor 12 maanden. 3 maanden in 20X1 (€ 60), 9 maanden in 20X2 (€ 180). Cut-off 31/12: Debet 70 Verkopen € 180 / Credit 493 Over te dragen opbrengsten € 180. In 20X2: Debet 493 € 180 / Credit 70 € 180.
 
 _Grondslag: KB WVV art. 3:60_
 
@@ -100,8 +112,9 @@ _Grondslag: KB WVV art. 3:60_
 
 - **Getriggerd door**: [[jaarafsluiting]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Meubelzaak Mertens BV betaalt op 1 oktober 20X1 een verzekeringspremie van € 4.800 voor 12 maanden vooruit (oktober 20X1 — september 20X2). 3 maanden in 20X1 (€ 1.200), 9 maanden in 20X2 (€ 3.600). Boeking op 1/10: Debet 61 Kosten € 4.800 / Credit 550 Bank € 4.800. Cut-off 31/12: Debet 490 Over te dragen kosten € 3.600 / Credit 61 Kosten € 3.600. Resultaat 20X1 belast met € 1.200, niet met € 4.800.
 
 ## Bronnen
 

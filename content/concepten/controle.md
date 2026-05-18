@@ -40,6 +40,9 @@ Controle die rechtstreeks uit objectieve juridische elementen volgt: meerderheid
 **Waarom?** Door dit vast objectief vermoeden vermijdt de wet eindeloze discussie over wie nu eigenlijk de leiding heeft. Eén keer aan een onweerlegbaar criterium voldoen → moeder.
 
 
+
+Aurelia Holding NV heeft 80 % van de stemrechten in Brugse Brouwerij BV → controle in rechte. Aurelia is moeder, Brugse is dochter.
+
 _Grondslag: WVV art. 1:14, § 2 jo. art. 1:16_
 
 ### Controle in feite ⚖️
@@ -48,6 +51,9 @@ Controle die niet uit een onweerlegbaar juridisch criterium volgt, maar zichtbaa
 
 **Waarom?** Een moeder kan in de praktijk de baas spelen zonder formele meerderheid — bijvoorbeeld door versnipperde aandeelhouders die nooit komen opdagen. De controle-in-feite-test laat het materiële criterium prevaleren boven het formele.
 
+
+
+Aurelia Holding NV heeft 35 % stemrechten in Brugse Brouwerij BV; de overige 65 % is verspreid over 200 kleine aandeelhouders. Tijdens de laatste twee algemene vergaderingen heeft Aurelia met haar 35 % de meerderheid van de bestuurders kunnen aanstellen → controle in feite.
 
 _Grondslag: KB WVV art. 3:98_
 
@@ -102,8 +108,9 @@ _Grondslag: KB WVV art. 3:98_
 - **Vereist kennis van**: [[consolidatieverplichting]]
 - **Getriggerd door**: [[integrale-consolidatie]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Aurelia Holding NV heeft 80 % van de stemrechten in Brugse Brouwerij BV → onweerlegbaar controle in rechte → Brugse is dochter van Aurelia, Aurelia is consolidatieplichtig.
 
 ## Bronnen
 

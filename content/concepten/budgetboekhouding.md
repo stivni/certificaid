@@ -39,6 +39,9 @@ Bij budgetgoedkeuring (december) wordt het volledige jaarbudget per kostencentru
 
 
 
+Yperse Werkplaats BV boekt eind december 20X1 het Confectie-jaarbudget van € 950.000 op rekening 9030 'Budget Confectie 20X2'. Elke maand wordt € 79.167 'verbruikt' bij realisatie-boeking.
+
+
 ### Aansluiting met realisatie 🤖
 
 Wanneer de werkelijke kost wordt geboekt (klasse 6 + klasse 9 op kostencentrum), wordt het budget-saldo verminderd. Verschil tussen budget-saldo en realisatie = verschillenrekening (klasse 98).
@@ -47,12 +50,12 @@ Wanneer de werkelijke kost wordt geboekt (klasse 6 + klasse 9 op kostencentrum),
 
 
 
+Yperse Confectie maart 20X2: budget € 79.167, realisatie € 92.000. Verschil € 12.833 ongunstig op rekening 9810 'Verschil Confectie'. Splitsing naar prijs/hoeveelheid gebeurt apart.
+
+
 
 ## Zie ook
 
 - **Vereist kennis van**: [[rekeningenstelsel-analytisch]]
 - **Vereist kennis van**: [[verschillenboekhouding]]
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

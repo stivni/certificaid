@@ -39,6 +39,9 @@ Vaak voorkomende covenants: maximum debt-equity (bv. < 2,5), minimum solvabilite
 **Waarom?** Banken willen vroege signalen krijgen vóór de onderneming insolvabel wordt — covenants zijn die signalen.
 
 
+
+Rotex Roeselare NV heeft een lening van € 13.000.000 met covenant 'debt-equity max 2,5'. Huidig: 1,5 — comfortabel binnen marge.
+
 _Grondslag: Bankpraktijk_
 
 ### Testdatum en testfrequentie 🤖
@@ -47,6 +50,9 @@ De covenants worden getest op specifieke data (typisch elk kwartaal of semester)
 
 **Waarom?** Een covenant zonder testdatum is niet afdwingbaar; expliciete testfrequentie creëert opvolgingsrecht voor bank.
 
+
+
+Voor Rotex: covenant getest op 30 juni en 31 december, op basis van geauditeerde geconsolideerde cijfers.
 
 _Grondslag: Bankpraktijk_
 
@@ -72,9 +78,6 @@ _Grondslag: Bankpraktijk_
 
 - **Vereist kennis van**: [[debt-equity-ratio]]
 - **Vereist kennis van**: [[solvabiliteitsratio]]
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -178,3 +178,8 @@ Bereken nettokas = werkkapitaal − BBK. Positief = comfortabele kas; negatief =
 > _Grondslag_: [[behoefte-aan-bedrijfskapitaal]] §valkuilen
 
 
+## Voorbeelden
+
+
+
+

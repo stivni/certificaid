@@ -160,3 +160,9 @@ Vergelijk de FIFO/GGP-waarde met de marktwaarde en boek waardevermindering indie
 **Grondslag**: [[voorraden]] §lower-of-cost-or-market, [[waardeverminderingen]] §boeking-voorraden
 
 
+## Voorbeelden
+
+
+
+
+

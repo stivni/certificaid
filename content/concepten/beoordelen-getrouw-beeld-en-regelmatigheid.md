@@ -120,6 +120,8 @@ Toets of de continuïteitsveronderstelling van de jaarrekening passend is en of 
 **Grondslag**: [[continuiteitsveronderstelling-audit]] §toetsing, ITAA KMO-controlenorm §122
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+
+
 

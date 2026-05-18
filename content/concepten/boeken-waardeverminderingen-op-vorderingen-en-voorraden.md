@@ -175,3 +175,9 @@ Indien klant alsnog betaalt of voorraad terug in waarde stijgt, terugnemen of bi
 **Grondslag**: [[waardeverminderingen]] §terugname, CBN 2010/15
 
 
+## Voorbeelden
+
+
+
+
+

@@ -33,6 +33,7 @@ _Bron: Management accounting — bron-gap_
 > _Trigger_: Vraag op afwijkingsanalyse: gebruik flexibel budget om volume-effect af te splitsen.
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Yperse Werkplaats BV statisch budget Confectie 20X2: 7.500 tapijten, totaal € 950.000. Aan jaareinde wordt dit niet aangepast aan het werkelijke productievolume (9.000 stuks) — dat zou een flexibel budget zijn.
 

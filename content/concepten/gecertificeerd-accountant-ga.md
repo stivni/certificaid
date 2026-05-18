@@ -37,6 +37,8 @@ Het organiseren van de boekhouding (1°), bepalen van resultaten en jaarrekening
 **Waarom?** De wet ITAA 2019 bundelt drie historische beroepen (accountants + belastingconsulenten + bekwaamheidsexamen) onder één titel met een afgebakend takenpakket.
 
 
+
+
 _Grondslag: Wet ITAA 2019 art. 3_
 
 ### Wat NIET tot zijn monopolie behoort ⚖️
@@ -46,11 +48,15 @@ Wettelijke controle van de jaarrekening (commissariaat) — dat is exclusief voo
 **Waarom?** De wettelijke audit van grote ondernemingen is voorbehouden aan één beroep met publiek toezicht.
 
 
+
+Wolters & Partners CVBA kan voor Meubelzaak Mertens BV een contractuele audit doen, maar moet een bedrijfsrevisor aanduiden als commissaris voor Rotex Roeselare NV.
+
 _Grondslag: ITAA KMO-controlenorm §4 + Wet 7 december 2016_
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Sofie Janssens is gecertificeerd accountant bij Wolters & Partners. Zij organiseert de boekhouding van Meubelzaak Mertens BV, stelt de fiscale aangifte op en voert vrijwillig een contractuele controle uit op de jaarrekening 2025 — geen commissariaat (dat is voorbehouden aan de bedrijfsrevisor).
 
 ## Bronnen
 

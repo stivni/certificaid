@@ -1,0 +1,34 @@
+{% for voorbeeld in voorbeelden %}
+{% if voorbeeld.vorm == 'scenario' %}
+### {{ voorbeeld.titel | default('Scenario') }}
+{% if voorbeeld.cast is defined and voorbeeld.cast %}
+
+_Personages: {{ voorbeeld.cast | join(', ') }}_
+{% endif %}
+{% if voorbeeld.omschrijving %}
+
+{{ voorbeeld.omschrijving }}
+{% endif %}
+{% if voorbeeld.stappen is defined and voorbeeld.stappen %}
+
+{% for stap in voorbeeld.stappen %}
+{{ stap }}
+{% endfor %}
+{% endif %}
+{% if voorbeeld.illustraties is defined and voorbeeld.illustraties %}
+{% set illustraties = voorbeeld.illustraties %}
+{% include 'partials/illustraties.md.j2' %}
+{% endif %}
+{% if voorbeeld.source is defined %}
+_Bron: {{ voorbeeld.source.short }}_{% if voorbeeld.confidence is defined %} {{ voorbeeld.confidence | confidence_label }}{% endif %}
+
+{% elif voorbeeld.confidence is defined %}
+{{ voorbeeld.confidence | confidence_label }}
+
+{% endif %}
+
+{% else %}
+{{ voorbeeld.omschrijving }}{% if voorbeeld.cast is defined and voorbeeld.cast %} _({{ voorbeeld.cast | join(', ') }})_{% endif %}{% if voorbeeld.confidence is defined %} {{ voorbeeld.confidence | confidence_label }}{% endif %}
+
+{% endif %}
+{% endfor %}

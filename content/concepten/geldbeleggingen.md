@@ -34,6 +34,9 @@ Geldbeleggingen zijn aangehouden voor **korte-termijn-rendement** of als tijdeli
 **Waarom?** Boekhoudkundige classificatie volgt economische bedoeling, niet juridische vorm. Oogmerk bepaalt waarderingsregime en presentatie.
 
 
+
+Solaris Sint-Truiden BV koopt obligaties met 10-jarige looptijd: (a) als tijdelijke kasoptimalisatie (verkoop bij rente-opbouw) → rubriek 52 Vastrentende effecten als geldbelegging. (b) als duurzame financiering van een verbonden onderneming → rubriek 28 FVA. Verschil zit in de boekhoudkundige documentatie van het bestuursorgaan.
+
 _Grondslag: CBN 147/1_
 
 ### Waardering: aanschaffingsprijs, met afwaardering ⚖️
@@ -42,6 +45,9 @@ Geldbeleggingen worden geboekt tegen aanschaffingsprijs. Op balansdatum wordt de
 
 **Waarom?** Korte-termijn-effecten zijn marktgevoelig; tijdelijke koersdalingen kunnen reëel verlies betekenen bij verkoop. Boeken van waardevermindering is voorzichtigheid; opwaardering zou latente winst zijn die nog niet werd gerealiseerd.
 
+
+
+Solaris Sint-Truiden BV kocht aandelen voor € 280.000; beurskoers op 31/12 € 245.000. Waardevermindering = € 35.000. Boeking: Debet 6510 Waardeverminderingen op geldbeleggingen € 35.000 / Credit 519 Geboekte waardeverminderingen op geldbeleggingen € 35.000.
 
 _Grondslag: KB WVV art. 3:52_
 
@@ -52,6 +58,9 @@ Banktegoeden (rubriek 55), postchequerekening (56), kasmiddelen (57). Tegoeden i
 **Waarom?** Liquide middelen zijn per definitie onmiddellijk realiseerbaar; geen afschrijving of waardevermindering nodig. Wisselkoersrisico op vreemde valuta wel meenemen.
 
 
+
+Meubelzaak Mertens BV heeft op 31/12: KBC-zichtrekening € 18.700, ING-spaarrekening € 45.000, kassa € 850. Totaal rubriek IX Liquide middelen = € 64.550. Geen waardecorrectie nodig (EUR-rekeningen).
+
 _Grondslag: MAR klasse 5 + KB WVV art. 3:39 (vreemde valuta)_
 
 ### Eigen aandelen onder rubriek 50 ⚖️
@@ -60,6 +69,9 @@ Wanneer een vennootschap haar eigen aandelen inkoopt, worden die als afzonderlij
 
 **Waarom?** Inkoop eigen aandelen is een speciaal-statuut: economisch een kapitaalvermindering, juridisch nog geen vernietiging. Aparte rubriek + reserveverplichting borgt de boekhoudkundige zichtbaarheid.
 
+
+
+Rotex Roeselare NV koopt 5 % eigen aandelen terug voor € 350.000. Boeking: Debet 50 Eigen aandelen € 350.000 / Credit 550 Bank € 350.000. Daarnaast: reserve onbeschikbaar opbouwen voor € 350.000 (zie [[eigen-aandelen]]).
 
 _Grondslag: WVV art. 7:215 jo. 7:218 + KB WVV_
 
@@ -90,8 +102,9 @@ _Grondslag: WVV art. 7:215 jo. 7:218 + KB WVV_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Solaris Sint-Truiden BV heeft op 31/12: rekening 51 Aandelen € 280.000 (kortetermijn-effectenportefeuille), rekening 53 Termijndeposito's € 150.000, rekening 550 Bankrekening Belfius € 87.500, rekening 570 Kassa € 1.250. Subtotaal liquide middelen + geldbeleggingen op de balans = € 518.750.
 
 ## Bronnen
 

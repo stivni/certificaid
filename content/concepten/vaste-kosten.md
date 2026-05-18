@@ -72,6 +72,7 @@ _Bron: Management accounting — bron-gap_
 
 - **Vereist kennis van**: [[break-even-analyse]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Yperse Werkplaats BV betaalt huur weverij € 80.000/jaar en het maandloon van het afdelingshoofd € 72.000/jaar — beide blijven gelijk of de weverij nu 10.000 of 14.000 tapijten produceert. Totale vaste kost: € 800.000/jaar.
 

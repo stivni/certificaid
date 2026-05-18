@@ -42,6 +42,9 @@ Wijzigingen aan een eerdere boeking mogen niet 'onzichtbaar' worden aangebracht:
 **Waarom?** Onzichtbare wijzigingen vernietigen de controleerbaarheid: niemand kan dan nog vaststellen wat oorspronkelijk geboekt was.
 
 
+
+Een papieren dagboek met een uitgeveegde regel waar nu een ander bedrag staat = schending van onveranderlijkheid. In een softwarepakket: een 'edit'-knop die het origineel overschrijft zonder log = idem schending.
+
 _Grondslag: WER art. III.84; CBN 174/1_
 
 ### Correctie wel toegelaten — maar zichtbaar ⚖️
@@ -51,6 +54,9 @@ Fouten of vergetelheden mogen worden rechtgezet, op voorwaarde dat zowel het ori
 **Waarom?** De wet wil geen bevriezing van fouten, maar transparantie over correcties. Beide perspectieven (wat eerst stond, wat nu staat) blijven beschikbaar voor controle.
 
 
+
+Naaiatelier Ninove BV ontdekt op 15 april dat een afschrijving van januari met € 1.200 te hoog werd geboekt. Correctie op 15 april: tegenboeking € 1.200 (Debet 22 / Credit 630), verwijzing 'corr. boeking nr. 22 d.d. 31/1, fout afschrijvingsbasis'.
+
 _Grondslag: WER art. III.84; CBN 174/1_
 
 ### Geldt ook voor jaarrekening en inventaris ⚖️
@@ -59,6 +65,9 @@ Niet alleen dagboekboekingen vallen onder het beginsel; ook de jaarrekening en d
 
 **Waarom?** De jaarrekening is het kernartefact dat met derden wordt gedeeld (NBB-neerlegging). Achteraf 'aanpassen' zou de derde misleiden.
 
+
+
+Indien Rotex Roeselare NV na neerlegging een fout in de balans 20X1 ontdekt: NIET stilzwijgend de neergelegde versie vervangen, wel via een formele rechtzettings-procedure (en gecorrigeerde versie expliciet als zodanig vermelden).
 
 _Grondslag: CBN 174/1_
 
@@ -89,8 +98,9 @@ _Grondslag: CBN 174/1_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Boekhouder van Meubelzaak Mertens BV ontdekt dat een aankoopboeking van 12 maart per ongeluk € 8.500 in plaats van € 5.800 vermeldt. Hij mag NIET het bedrag overschrijven. Wel: een correctieboeking op huidige datum waarin de fout wordt teruggedraaid en de juiste boeking opnieuw wordt gemaakt, met expliciete verwijzing naar de oorspronkelijke fouttenboeking.
 
 ## Bronnen
 

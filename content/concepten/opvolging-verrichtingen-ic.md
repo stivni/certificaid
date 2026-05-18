@@ -26,6 +26,7 @@ gegenereerd_op: '2026-05-18'
 Opvolging van verrichtingen is het systematisch nakijken of geboekte transacties echt hebben plaatsgevonden, juist zijn geregistreerd en in de juiste periode geboekt. Het is detectieve IC — fouten en fraude ontdekken na de feiten. Typische technieken: bank-grootboek-afstemming, debiteuren/crediteuren-bevestiging, voorraadtelling, cijferanalyses (trends, ratio's).
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV doet boekhouder Cindy elke maand: (1) bank ↔ grootboek-afstemming (saldo's gelijk?), (2) debiteurenlijst per leeftijd (welke vorderingen > 60 dagen?), (3) voorraad spot-check (10 willekeurige artikelen), (4) cijferanalyse omzet/marge per kostencentrum. Afwijkingen meldt ze aan CFO David.
 

@@ -148,3 +148,9 @@ Hou een onderzoekende, kritische houding aan — accepteer geen verklaring of ev
 > _Grondslag_: [[professioneel-kritische-instelling]] §documenteer-de-challenge
 
 
+## Voorbeelden
+
+
+
+
+

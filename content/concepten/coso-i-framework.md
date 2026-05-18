@@ -33,6 +33,8 @@ COSO-kubus: 3 doelstellingen (Operations, Reporting, Compliance), 5 componenten 
 **Waarom?** Forceert systematisch denken — geen blinde vlekken in dimensie X of Y.
 
 
+
+
 _Grondslag: COSO 2013_
 
 ### 17 principes (sinds 2013) 🤖
@@ -42,6 +44,8 @@ Elke component is uitgewerkt in 3-4 principes met points of focus. Bv. Component
 **Waarom?** Operationaliseert de abstracte componenten naar concrete toetsbare punten.
 
 
+
+
 _Grondslag: COSO 2013 herziening_
 
 
@@ -49,6 +53,7 @@ _Grondslag: COSO 2013 herziening_
 
 - **Vereist kennis van**: [[interne-controle]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Rotex Roeselare NV gebruikt het auditcomité COSO 2013 als referentie voor self-assessment: jaarlijks scoort elke afdeling de 17 principes (volledig / deels / niet aanwezig). Resultaat: gap-analyse en actieplan voor 2026.
 

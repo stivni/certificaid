@@ -42,6 +42,9 @@ De drie verplichte dagboeken zijn: financieel (bank + kas), aankopen (alle uitga
 **Waarom?** Voor kleine ondernemingen is een volledig rekeningstelsel een onevenredige administratieve last. Drie dagboeken volstaan om de essentie van inkomsten en uitgaven te volgen.
 
 
+
+Praktijk Persenaire boekt het kasstuk van 5 maart 'tankbeurt wagen € 78' in haar financieel dagboek (uitgave) en gelijktijdig in het aankoopdagboek onder rubriek 'autokosten'. Geen klasse 61 of klanten-rekening nodig.
+
 _Grondslag: WER art. III.85_
 
 ### Inventaris en jaarrekening blijven verplicht ⚖️
@@ -51,6 +54,9 @@ Ook bij vereenvoudigde boekhouding maakt de onderneming jaarlijks een inventaris
 **Waarom?** De vereenvoudiging zit in de manier van boeken, niet in het wegvallen van het jaarlijks overzicht. Inventaris blijft essentieel om vermogen en resultaat correct vast te stellen.
 
 
+
+Praktijk Persenaire stelt op 31/12 een inventaris op: bureel-uitrusting € 4.500, bankrekening € 18.700, openstaande honoraria € 6.800, sociale-bijdragen-schuld € 2.400. Op basis hiervan: vermogen + resultaat.
+
 _Grondslag: WER art. III.85 + III.89_
 
 ### Optie ook bij omzet onder drempel ⚖️
@@ -59,6 +65,9 @@ Een onderneming die in aanmerking komt voor vereenvoudigde boekhouding kan ervoo
 
 **Waarom?** Sommige kleine ondernemingen kiezen dubbel omwille van fiscale of professionele redenen (bv. kredietaanvraag, fiscaal optimaliseren).
 
+
+
+Praktijk Persenaire heeft omzet € 180.000 — mag vereenvoudigd. Maar zijn boekhouder adviseert dubbel boekhouden omwille van overzicht en kredietdossier — toegelaten.
 
 _Grondslag: CBN 2019/10_
 
@@ -104,8 +113,9 @@ _Grondslag: CBN 2019/10_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Praktijk Persenaire (eenmanszaak vrij beroep, omzet € 180.000 in 20X1) voert een vereenvoudigde boekhouding: financieel dagboek (alle bankuittreksels en kasontvangsten/uitgaven), aankoopdagboek (huur praktijk, software-licentie, kantoorbenodigdheden), verkoopdagboek (consultatie-erelonen). Geen klantenrekeningen, geen 'klasse 6' — wel een opgave van het vermogen per 31/12.
 
 ## Bronnen
 

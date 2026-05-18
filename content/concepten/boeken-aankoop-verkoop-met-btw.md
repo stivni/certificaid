@@ -180,3 +180,8 @@ Saldeer de aftrekbare btw (411) en verschuldigde btw (451) tegen elkaar en boek 
 **Grondslag**: [[schulden]] §btw-schuld, btw-wetboek art. 53
 
 
+## Voorbeelden
+
+
+
+

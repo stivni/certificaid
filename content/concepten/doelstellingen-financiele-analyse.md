@@ -41,6 +41,9 @@ Kan de onderneming de schulden betalen die op korte termijn (binnen het jaar) ve
 **Waarom?** Een winstgevende vennootschap kan toch failliet gaan als ze haar leveranciers niet meer kan betalen. Liquiditeit kijkt naar het tempo waarmee bezittingen in cash worden omgezet.
 
 
+
+Rotex Roeselare NV heeft vlottende activa € 8.000.000 en schulden op ten hoogste een jaar € 4.000.000 — liquiditeit op het eerste gezicht in orde (verhouding 2 op 1).
+
 _Grondslag: Vakdoctrine financial analysis_
 
 ### Solvabiliteit als doel 🤖
@@ -49,6 +52,9 @@ Hoe groot is het eigen vermogen tegenover het totale balanstotaal of de schulden
 
 **Waarom?** Solvabiliteit meet de structurele schokbestendigheid op middellange en lange termijn — niet het dag-tot-dag betalingsritme.
 
+
+
+Rotex Roeselare NV heeft eigen vermogen € 12.000.000 op een balanstotaal van € 30.000.000 — solvabiliteitsratio van 40 %.
 
 _Grondslag: Vakdoctrine financial analysis_
 
@@ -59,6 +65,9 @@ Levert de onderneming voldoende winst op tegenover wat erin geïnvesteerd is? Ve
 **Waarom?** Een goed renderend bedrijf trekt kapitaal aan; een slecht renderend bedrijf verliest aandeelhouders en wordt duurder gefinancierd.
 
 
+
+Rotex Roeselare NV: nettowinst € 2.500.000 op eigen vermogen € 12.000.000 = rentabiliteit eigen vermogen 20,8 %.
+
 _Grondslag: CBN-2011/14 §rentabiliteit (voorbeeldmethoden)_
 
 ### Activiteit en groei als doel 🤖
@@ -67,6 +76,9 @@ Hoe efficiënt rouleren voorraden en handelsvorderingen? Groeit de omzet, en zo 
 
 **Waarom?** Stilstaande voorraden en trage debiteurenbetaling zuigen kasmiddelen weg — een verborgen oorzaak van liquiditeitsproblemen.
 
+
+
+Meubelzaak Mertens BV ziet de omzet stijgen van € 1.800.000 naar € 2.200.000 — een groei van 22 % — maar de voorraad steeg van € 400.000 naar € 700.000; signaal voor verdere analyse.
 
 _Grondslag: Vakdoctrine financial analysis_
 
@@ -90,9 +102,6 @@ _Grondslag: Vakdoctrine financial analysis_
 > _Bron: Financial analysis_
 
 
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

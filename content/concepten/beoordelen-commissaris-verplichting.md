@@ -128,3 +128,9 @@ Stel een korte nota op met de conclusie, de grondslag en de praktische stappen v
 **Grondslag**: [[commissaris]] §benoemingsprocedure (praktijk-discipline)
 
 
+## Voorbeelden
+
+
+
+
+

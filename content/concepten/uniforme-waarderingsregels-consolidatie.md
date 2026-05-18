@@ -73,8 +73,9 @@ _Bron: KB WVV art. 3:116 jo. art. 3:117_
 
 - **Vereist kennis van**: [[consolidatieverplichting]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Brugse Brouwerij BV (dochter van Aurelia Holding NV) schreef haar gebouwen fiscaal versneld af (15 jaar). Voor de geconsolideerde jaarrekening werkt Aurelia die afschrijvingen om naar economisch verantwoorde duur (30 jaar), zodat alle gebouwen van de groep volgens dezelfde regels in de geconsolideerde balans staan.
 
 ## Bronnen
 

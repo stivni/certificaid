@@ -1,4 +1,7 @@
 {% for blok in in_praktijk %}
+{% if blok is string %}
+- {{ blok }}
+{% else %}
 <h3 id="{{ blok.anker_slug | default(blok.aspect | lower | replace(' ', '-')) }}">{{ blok.aspect }}</h3>
 
 > [!tip]- {{ blok.aspect }}
@@ -12,5 +15,6 @@
 > [!tip]- Herkennen op het examen
 > {{ blok.herkenningspunt }}
 
+{% endif %}
 {% endif %}
 {% endfor %}

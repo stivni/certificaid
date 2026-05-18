@@ -37,6 +37,9 @@ Wanneer de boekwaarde van een actief **stijgt** als gevolg van een herwaardering
 **Waarom?** Een herwaarderings-uplift is een niet-gerealiseerde meerwaarde. Ze meteen als winst boeken zou de gebruiker misleiden — de winst bestaat alleen op papier zolang het actief niet verkocht is. OCI parkeert ze tot realisatie of vervreemding.
 
 
+
+Zelena Bio NV's terreinen op 1 januari 2026: boekwaarde € 12.000.000. Reële waarde uit taxatie: € 18.000.000. Herwaardering +€ 6.000.000 → OCI → herwaarderingsreserve. Eigen vermogen stijgt met € 6.000.000 (minus uitgestelde belasting volgens IAS 12).
+
 _Grondslag: IAS 16 alinea 39_
 
 ### Daling — naar winst of verlies ⚖️
@@ -45,6 +48,9 @@ Wanneer de boekwaarde **daalt** door herwaardering, neem je de afname op in wins
 
 **Waarom?** Symmetrisch tegengesteld aan de stijging-regel: een waardedaling die nog door eerdere reserve gedekt is, hoort niet onmiddellijk het resultaat te belasten. Pas wanneer de reserve op is, treft het verlies daadwerkelijk de winst.
 
+
+
+Op 31 december 2030 vertonen Zelena's terreinen door regionale crisis een reële waarde van € 14.000.000 (was € 18.000.000). Daling −€ 4.000.000. Herwaarderingsreserve had nog € 6.000.000 → afname gaat volledig naar OCI (reserve daalt naar € 2.000.000). Geen effect op winst of verlies 2030.
 
 _Grondslag: IAS 16 alinea 40_
 
@@ -55,6 +61,9 @@ Herwaarderen moet '**voldoende regelmatig**' zodat de boekwaarde niet beduidend 
 **Waarom?** Een herwaardering uit 2015 die je vandaag nog gebruikt zegt niets over de actuele reële waarde. De frequentie-eis voorkomt dat het model uitgehold wordt door verouderde taxaties.
 
 
+
+Zelena Bio kiest jaarlijkse herwaardering voor terreinen in stedelijk gebied (volatiele vastgoedmarkt) en driejaarlijkse herwaardering voor terreinen in landelijke productiezones (stabiele markt).
+
 _Grondslag: IAS 16 alinea 34_
 
 ### Volledige categorie — geen cherry-picking ⚖️
@@ -64,6 +73,9 @@ De keuze voor het herwaarderingsmodel geldt voor **alle activa binnen een catego
 **Waarom?** Selectief enkele activa herwaarderen zou de mooie activa optillen en de minder mooie achterlaten — cherry-picking ten gunste van het management. Categorie-brede toepassing voorkomt dat.
 
 
+
+Zelena Bio mag NIET alleen haar terrein in Brussel herwaarderen (met fraaie uplift) en haar andere terreinen (met dalende waarde) op kostprijs houden. Ofwel ALLE terreinen aan het herwaarderingsmodel, ofwel geen enkel.
+
 _Grondslag: IAS 16 alinea 36-37_
 
 ### Realisatie herwaarderingsreserve — naar ingehouden winsten ⚖️
@@ -72,6 +84,9 @@ De herwaarderingsreserve mag direct naar **ingehouden winsten** worden overgeboe
 
 **Waarom?** Een gerealiseerde herwaardering (via verkoop) hoort niet meer in OCI te staan. Maar omdat ze in geen enkel stadium via winst-of-verlies is gegaan, gaat ze rechtstreeks naar ingehouden winsten.
 
+
+
+Zelena Bio verkoopt in 2032 het Brusselse terrein voor € 22.000.000 (geherwaardeerde boekwaarde € 18.000.000). Realisatiewinst € 4.000.000 in winst of verlies. Daarnaast: de openstaande herwaarderingsreserve voor dat terrein (€ 6.000.000) wordt overgeboekt naar ingehouden winsten — NIET in resultaat.
 
 _Grondslag: IAS 16 alinea 41_
 

@@ -39,13 +39,13 @@ Werkelijke kostencalculatie kan zowel met full costing (volledige werkelijke kos
 
 
 
+Yperse Werkplaats BV berekent na afsluiting 20X1 dat een partij tapijten in werkelijkheid € 21.500 heeft gekost (€ 12.000 wol + € 4.800 directe arbeid + € 4.700 indirect). Een vergelijking met de standaardkostprijs van € 20.000 toont een verschil van € 1.500 ongunstig.
+
+
 
 > [!info]- Niet verwarren met [[voorbepaalde-kosten]]
 > Werkelijke kostencalculatie: cijfers achteraf, traag maar exact. Voorbepaalde: vooraf, snel maar gemiddelde. Voor jaarrekening werkelijk; voor maandsturing voorbepaald.
 >
 > _Trigger_: Examen: welke kost gebruik je voor balans-voorraadwaarde?
 
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 

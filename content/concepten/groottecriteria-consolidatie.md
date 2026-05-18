@@ -82,8 +82,9 @@ _Bron: WVV art. 1:26 jo. art. 1:24_
 - **Getriggerd door**: [[consolidatieverplichting]]
 - **Vereist kennis van**: [[groep-van-beperkte-omvang]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Aurelia Holding NV met dochter Gent Garantie BV: geaggregeerde omzet 20 mln EUR, balanstotaal 12 mln EUR, 180 personeelsleden. Slechts één drempel (personeel) overschreden → vrijstelling consolidatieplicht (groep van beperkte omvang).
 
 ## Bronnen
 

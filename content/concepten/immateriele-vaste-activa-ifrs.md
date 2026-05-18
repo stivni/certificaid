@@ -37,6 +37,9 @@ Een intern project moet je opsplitsen in een **onderzoeksfase** (geen activering
 **Waarom?** Onderzoeksuitgaven leveren niet noodzakelijk een actief op (uitkomst onzeker). Pas in de ontwikkelingsfase is het waarschijnlijk genoeg dat er een waardevol actief uit voortkomt. Verplichte activering bij de zes criteria vermijdt willekeur.
 
 
+
+Zelena Bio's R&D-afdeling: 2025 Q1-Q3 = onderzoek (€ 900.000 als kost in W&V); 1 december 2025 mijlpaal — alle zes criteria vervuld → vanaf die datum ontwikkelingsfase → uitgaven Q4 (€ 100.000) geactiveerd als immaterieel actief.
+
 _Grondslag: IAS 38 alinea 52, 54, 57_
 
 ### Intern gegenereerde goodwill, merken, klantenbestanden — verboden ⚖️
@@ -45,6 +48,9 @@ Intern gegenereerde **goodwill** mag nooit als actief worden opgenomen (alinea 4
 
 **Waarom?** Een sterk merk dat een onderneming intern opbouwt is moeilijk te onderscheiden van algemene marketingkosten en investering in goodwill. Activering zou willekeurige resultaatsturing toelaten. Alleen extern verworven merken (in bedrijfscombinatie) kunnen geactiveerd worden — daar is een transactieprijs als objectieve basis.
 
+
+
+Zelena Bio NV mag haar bekende productmerk 'BioVital' (intern opgebouwd over 15 jaar, marktwaarde geschat op € 25.000.000) NIET als immaterieel actief opnemen. Zou Zelena het merk via overname van een concurrent verwerven, dan WEL — tegen transactieprijs.
 
 _Grondslag: IAS 38 alinea 48 + 63_
 
@@ -55,6 +61,9 @@ Activa met **beperkte gebruiksduur** worden lineair (of andere passende methode)
 **Waarom?** Een immaterieel actief zonder voorzienbare einddatum (sterk merk, onbeperkte licentie) verbruikt zich niet — afschrijven zou een waardevermindering simuleren die er niet is. Maar de impairment-test waarborgt dat een verminderde economische realiteit alsnog zichtbaar wordt.
 
 
+
+Zelena Bio NV verwerft via acquisitie van een Italiaanse concurrent een productlicentie zonder vervaldatum (kostprijs € 4.500.000). Onbepaalde gebruiksduur → geen afschrijving, jaarlijkse impairment-test. Daarnaast een octrooi met 12 jaar resterende geldigheid (€ 3.200.000) → lineair afschrijven: € 266.667/jaar.
+
 _Grondslag: IAS 38 alinea 88-89 + 107-108_
 
 ### Verwerving via bedrijfscombinatie — altijd betrouwbaar waardeerbaar ⚖️
@@ -63,6 +72,9 @@ Een immaterieel actief verworven in een **bedrijfscombinatie** (IFRS 3) wordt al
 
 **Waarom?** Bij een overname is er een objectieve transactie waaruit de waarde kan worden afgeleid (toewijzing van de transactieprijs). Dat geeft een betrouwbare basis die intern gegenereerde activa missen.
 
+
+
+Zelena Bio NV neemt een biotech-startup over voor € 50.000.000. Bij de purchase price allocation worden geïdentificeerd: technologie € 12.000.000, klantenrelaties € 8.000.000, in-process R&D € 5.000.000. Deze drie immateriële activa verschijnen op de geconsolideerde balans van Zelena Bio — vóór de overname stonden ze niet in de boeken van de startup (intern gegenereerd, mocht niet geactiveerd worden).
 
 _Grondslag: IAS 38 alinea 33-35 + IFRS 3_
 
@@ -98,8 +110,9 @@ _Grondslag: IAS 38 alinea 33-35 + IFRS 3_
 
 - **Vereist kennis van**: [[bijzondere-waardevermindering-ifrs]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Zelena Bio NV ontwikkelt een nieuw farmaceutisch productieproces. Uitgaven 2025 totaal € 1.000.000, waarvan € 900.000 vóór 1 december 2025 (onderzoeksfase — als kost) en € 100.000 ná 1 december 2025 (ontwikkelingsfase — geactiveerd want zes criteria alinea 57 vervuld). Immaterieel actief op balans per 31 december 2025 = € 100.000.
 
 ## Bronnen
 

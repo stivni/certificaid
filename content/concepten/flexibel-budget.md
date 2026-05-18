@@ -38,6 +38,7 @@ _Bron: Management accounting — bron-gap_
 
 - **Vereist kennis van**: [[verschillenboekhouding]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Yperse Werkplaats BV start met statisch budget Confectie: 7.500 tapijten, € 950.000 (€ 800.000 vast + € 150.000 variabel = € 20/stuk variabel). Realisatie: 9.000 tapijten, € 1.025.000. Flexibel budget bij 9.000 stuks = € 800.000 vast + 9.000 × € 20 = € 980.000. Werkelijk vs. flexibel: € 1.025.000 − € 980.000 = € 45.000 ongunstig. Werkelijk vs. statisch: € 1.025.000 − € 950.000 = € 75.000 ongunstig — waarvan € 30.000 'volume-effect' (logisch, want meer geproduceerd) en € 45.000 'echt' ongunstig.
 

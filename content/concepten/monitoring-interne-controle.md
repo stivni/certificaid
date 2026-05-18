@@ -40,6 +40,7 @@ Monitoring is het continu en periodiek evalueren of het IC-systeem nog werkt zoa
 > Interne audit is de meest geformaliseerde vorm van afzonderlijke monitoring — onafhankelijk, gestructureerd, gerapporteerd aan auditcomité. Niet elke onderneming heeft IA — bij KMO's overneemt de zaakvoerder of de externe accountant deze rol gedeeltelijk. 🤖
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Rotex Roeselare NV doet (1) elke afdelingschef maandelijks een 'control self-assessment' (continu), (2) Sofie Janssens als interne auditor jaarlijks 4 cycli volledig auditeert (afzonderlijk), (3) bevindingen worden in kwartaalrapport aan auditcomité voorgelegd met actieplan + opvolgtermijn.
 

@@ -37,6 +37,9 @@ Voorwaarde 1 (alinea 27a, 'capable of being distinct'): de klant kan op zichzelf
 **Waarom?** Voorwaarde 1 betreft het goed/dienst op zich; voorwaarde 2 betreft de plaats binnen het contract. Beide moeten vervuld zijn — een goed kan op zichzelf bruikbaar zijn maar binnen het contract zo geïntegreerd dat het geen aparte PO vormt (bv. bouwstenen van een gebouw).
 
 
+
+Bouwbedrijf bouwt voor Zelena Bio NV een fabrieksgebouw. Apart inkopen van metselstenen, isolatie en dakbedekking is mogelijk (voorwaarde 1 OK). Maar binnen het contract zijn alle deze elementen ge-integreerd in één gebouw — geen aparte PO's, één enkele PO 'bouw fabrieksgebouw' (voorwaarde 2 NIET vervuld voor afzonderlijke materialen).
+
 _Grondslag: IFRS 15 alinea 27_
 
 ### Reeks onderscheiden goederen/diensten — bv. abonnement ⚖️
@@ -46,6 +49,9 @@ Een reeks onderscheiden goederen/diensten die grotendeels hetzelfde zijn en hetz
 **Waarom?** Splitsen in maandelijkse PO's zou administratief disproportioneel zijn voor uitkomst die niet wezenlijk verschilt. IFRS 15 erkent dat 'reeks van soortgelijke prestaties' als één PO mag worden behandeld.
 
 
+
+Zelena Bio NV onderhoudt een 24-maands onderhoudscontract voor de productie-installatie bij Brusselse Klinieken. De maandelijkse preventieve controles zijn allemaal hetzelfde patroon → één PO 'onderhoud', opbrengst opgenomen over 24 maanden naar voortgang.
+
 _Grondslag: IFRS 15 alinea 22(b) + 23_
 
 ### Combineren tot één PO als niet onderscheiden ⚖️
@@ -54,6 +60,9 @@ Als een beloofd goed of dienst NIET onderscheiden is, moet de entiteit het combi
 
 **Waarom?** De PO moet altijd onderscheiden zijn. Een niet-onderscheiden 'losse' belofte zou geen geldige PO vormen — daarom samenvoegen tot een betekenisvol geheel.
 
+
+
+Bouwbedrijf X bouwt voor Zelena Bio een fabriekshal met geïntegreerd HVAC-systeem en bedrijfsspecifieke productielijnvoorbereiding. Drie beloften, maar zo verweven (significante integratie, wederzijdse aanpassing) dat ze NIET onderscheiden zijn binnen het contract → één PO 'bouw + uitrusten productiefaciliteit', opbrengst over periode.
 
 _Grondslag: IFRS 15 alinea 30_
 
@@ -89,8 +98,9 @@ _Grondslag: IFRS 15 alinea 30_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Zelena Bio NV verkoopt aan een ziekenhuis (Brusselse Klinieken) een productie-installatie + 24 maanden onderhoud + 3 trainingssessies, totaalprijs € 850.000. Drie PO's identificeerbaar: (1) installatie (overgedragen op tijdstip, opzichzelfstaande prijs € 720.000); (2) onderhoud (over periode, opzichzelfstaande prijs € 100.000); (3) trainingssessies (op drie tijdstippen, opzichzelfstaande prijs € 30.000). Toewijzing transactieprijs: 720/850 × € 850.000 = € 720.000, etc.
 
 ## Bronnen
 

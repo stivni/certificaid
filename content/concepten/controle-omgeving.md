@@ -40,6 +40,7 @@ De controle-omgeving is het geheel van waarden, integriteit, ethiek en cultuur d
 
 - **Vereist kennis van**: [[ethiek-organisatie-ic]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV ondertekent directeur Pieter Vermeulen jaarlijks de gedragscode publiek voor het personeel; sancties bij overtreding worden consequent toegepast; integriteit zit in elke jaarlijkse evaluatie. Bij een andere KMO waar de bestuurder regelmatig 'creatief' boekt staan procedures op papier — maar niemand neemt ze ernstig.
 

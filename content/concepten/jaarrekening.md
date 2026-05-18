@@ -38,6 +38,9 @@ Afhankelijk van de grootte van de vennootschap kiest deze tussen: **volledig sch
 **Waarom?** Administratieve last proportioneel houden aan economische omvang. Tegelijk consistentie door één van drie gestandaardiseerde formaten — niet vrij door iedereen te bepalen.
 
 
+
+Rotex Roeselare NV (omzet € 45.000.000, 220 VTE) — verplicht volledig schema. Naaiatelier Ninove BV (omzet € 1.250.000, 18 VTE) — verkort. Praktijk Persenaire eenmanszaak (omzet € 180.000) — vereenvoudigde boekhouding, geen klassieke jaarrekening.
+
 _Grondslag: KB WVV art. 3:65 e.v._
 
 ### Balans, RR en toelichting verplicht ⚖️
@@ -46,6 +49,9 @@ De jaarrekening bestaat uit drie onlosmakelijke onderdelen: balans (situatie per
 
 **Waarom?** Drie complementaire perspectieven: vermogenspositie (balans), prestatie (RR), context en methode (toelichting). Eén ervan weglaten zou een onvolledig beeld geven.
 
+
+
+Rotex Roeselare NV's jaarrekening 20X1: balans 31/12 (vermogenspositie), RR 1/1 — 31/12 (resultaat), toelichting (waarderingsregels, mutaties vaste activa, klasse 0, sociale balans).
 
 _Grondslag: KB WVV art. 3:65 — 3:71_
 
@@ -56,6 +62,9 @@ De toelichting bevat: (1) inhoud van bepaalde balansrubrieken (mutatietabellen v
 **Waarom?** De cijfers in balans en RR zijn samenvattingen. De toelichting maakt ze leesbaar: hoe zijn ze samengesteld, welke methodes zijn gehanteerd, welke risico's lopen er.
 
 
+
+Bij Rotex Roeselare NV: toelichting 'Mutatietabel materiële vaste activa' toont per categorie aanschaffingen, afstotingen, afschrijvingen en eindsaldo — niet zichtbaar in de gewone balans (alleen netto-bedrag).
+
 _Grondslag: KB WVV art. 3:71 + bijlagen_
 
 ### Neerlegging bij NBB ⚖️
@@ -64,6 +73,9 @@ Na goedkeuring door de algemene vergadering: de jaarrekening wordt binnen 30 dag
 
 **Waarom?** Transparantie tegenover derden (handelspartners, schuldeisers, fiscus, concurrenten). De Belgische publicatieplicht is uitgebreider dan in veel andere landen.
 
+
+
+Rotex Roeselare NV: AV op 15 mei 20X2 keurt jaarrekening 20X1 goed. Neerlegging NBB ten laatste 14 juni 20X2. Vanaf dan: vrij raadpleegbaar op nbb.be onder ondernemingsnummer.
 
 _Grondslag: WVV art. 3:10 — 3:14_
 
@@ -109,8 +121,9 @@ _Grondslag: WVV art. 3:10 — 3:14_
 
 - **Getriggerd door**: [[jaarafsluiting]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Naaiatelier Ninove BV (omzet € 1.250.000, balanstotaal € 1.850.000, 18 werknemers) overschrijdt de drempel voor 'kleine vennootschap' op één criterium → moet jaarrekening in **verkort schema** opstellen. Balans + RR + toelichting + (geen sociale balans want < 20 VTE). Indiening bij NBB binnen 30 dagen na goedkeuring AV.
 
 ## Bronnen
 

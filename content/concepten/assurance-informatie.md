@@ -36,6 +36,9 @@ Voldoende = kwantiteit (genoeg testen, genoeg items in de steekproef). Geschikt 
 **Waarom?** Veel data van slechte kwaliteit ≠ assurance. Beide criteria moeten gehaald zijn.
 
 
+
+Een telefonische bevestiging van een klant is geschikt qua bron maar niet voldoende (mondeling, niet schriftelijk). Een schriftelijke externe confirmatie is voldoende én geschikt.
+
 _Grondslag: ITAA KMO-controlenorm §85-§86_
 
 ### Beoordelen van betrouwbaarheid bron ⚖️
@@ -45,6 +48,8 @@ Origineel > kopie. Schriftelijk > mondeling. Extern > intern. Eigen waarneming >
 **Waarom?** Hiërarchie helpt om bij conflicterende informatie de meest betrouwbare bron te laten wegen.
 
 
+
+
 _Grondslag: ITAA KMO-controlenorm §86_
 
 ### Conflicterende informatie aanpakken ⚖️
@@ -52,6 +57,8 @@ _Grondslag: ITAA KMO-controlenorm §86_
 Bij tegenstrijdige bronnen of twijfel over betrouwbaarheid moet de auditor extra werk verrichten, het effect op andere aspecten van de audit afwegen en documenteren hoe hij de discrepantie heeft opgelost.
 
 **Waarom?** Negeren van conflict = onaanvaardbaar risico op een verkeerd oordeel.
+
+
 
 
 _Grondslag: ITAA KMO-controlenorm §88_
@@ -72,8 +79,9 @@ _Grondslag: ITAA KMO-controlenorm §88_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Voor de bevestiging van handelsvorderingen van Rotex Roeselare NV vraagt Sofie Janssens externe bevestigingen aan de top 20 klanten (€ 4.500.000 op € 6.200.000 saldo). De ontvangen confirmaties + overige analytische procedures geven haar voldoende en geschikte assurance-informatie over het 'bestaan'-assertion.
 
 ## Bronnen
 

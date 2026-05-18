@@ -32,6 +32,7 @@ _Bron: Management accounting — bron-gap_
 
 - **Vereist kennis van**: [[arbeidskosten]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Yperse Werkplaats BV — partij 100 tapijten: standaard 5 uur/tapijt × € 25/uur. Werkelijk: 530 uur × € 26,50/uur. Tariefverschil = 530 × (26,50 − 25,00) = € 795 ongunstig. Efficiëntieverschil = (530 − 500) × € 25 = € 750 ongunstig. Totaal: € 1.545 ongunstig.
 

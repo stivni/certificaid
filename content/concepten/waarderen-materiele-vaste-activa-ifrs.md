@@ -162,3 +162,7 @@ Voor kostprijsmodel: kostprijs − cumulatieve afschrijving − cumulatieve bijz
 > _Grondslag_: [[herwaarderingsmodel-ifrs]] §symmetrische-verwerking
 
 
+## Voorbeelden
+
+
+

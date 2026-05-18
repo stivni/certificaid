@@ -44,6 +44,9 @@ De drie kerncomponenten samen. Balans = momentopname; resultatenrekening = boekj
 **Waarom?** Eén component is onvoldoende — balans toont de cumulatieve toestand, resultatenrekening hoe die toestand evolueerde, toelichting waar de cijfers vandaan komen.
 
 
+
+Bij Rotex Roeselare NV: balans toont eigen vermogen € 12.000.000 op 31/12/20X1; resultatenrekening toont hoe winst van € 2.500.000 daar dit jaar bijkwam; toelichting expliciteert dat € 1.500.000 hangend geschil niet in balans zit.
+
 _Grondslag: CBN-0174-1 §jaarrekening_
 
 ### Vloeit uit boekhouding ⚖️
@@ -52,6 +55,9 @@ De jaarrekening moet bij ondernemingen met volledige boekhouding rechtstreeks (z
 
 **Waarom?** Dat principe verzekert dat de jaarrekening niet 'samengesteld' wordt maar het resultaat is van een rigoureus boekhoudingsproces — basis voor betrouwbaarheid.
 
+
+
+Bij Rotex: balanstotaal van € 30.000.000 op 31/12 = som van inventaris-bevestigde saldi op alle balansrekeningen.
 
 _Grondslag: CBN-0174-1 §jaarrekening (na inventarisaanpassing)_
 
@@ -76,9 +82,6 @@ _Grondslag: CBN-0174-1 §jaarrekening (na inventarisaanpassing)_
 ## Zie ook
 
 - **Vereist kennis van**: [[getrouw-beeld-jaarrekening]]
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

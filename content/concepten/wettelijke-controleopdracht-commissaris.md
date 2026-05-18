@@ -50,8 +50,9 @@ _Bron: WVV art. 3:72 jo. Wet 7 december 2016 (revisorenwet)_
 
 - **Vereist kennis van**: [[commissaris]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Rotex Roeselare NV is een grote NV (omzet € 35M, balanstotaal € 18M, 120 werknemers). De algemene vergadering benoemt Wolters & Partners CVBA als commissaris voor 3 boekjaren; Sofie Janssens (bedrijfsrevisor + IBR-lid) tekent als vaste vertegenwoordiger het commissarisverslag.
 
 ## Bronnen
 

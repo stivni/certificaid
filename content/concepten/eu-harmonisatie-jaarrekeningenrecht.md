@@ -35,6 +35,9 @@ Richtlijn 2013/34/EU werkt via **coördinatiemaatregelen op de wettelijke en bes
 **Waarom?** Een richtlijn (in tegenstelling tot een verordening) laat lidstaten ruimte voor de manier van implementeren. Dat verklaart waarom Belgische schemabepalingen in detail kunnen verschillen van die van een Nederlandse onderneming, ook al delen ze dezelfde Europese kern.
 
 
+**In de praktijk**: Bij twijfel over de bron van een Belgische regel: zoek in CBN-adviezen of in de toelichting van het KB WVV — daar wordt de richtlijn-oorsprong vaak expliciet vermeld.
+
+
 _Grondslag: Richtlijn 2013/34/EU art. 1; CBN 2017/08 Inleiding_
 
 ### Minimuminhoud + lidstaat-opties ⚖️
@@ -44,6 +47,10 @@ De richtlijn schrijft een **minimumset** voor (balans, winst-en-verliesrekening,
 **Waarom?** Door minimumharmonisatie + opties kan de richtlijn EU-breed werken zonder elke lidstaat in een keurslijf te dwingen. België heeft enkele opties wél (bv. micromodel) en andere niet (bv. herwaardering tegen reële waarde voor financiële instrumenten is beperkt) overgenomen.
 
 
+**In de praktijk**: Wanneer je leest dat 'lidstaten kunnen voorschrijven dat …' of 'lidstaten kunnen toestaan dat …', staat de bepaling niet automatisch in het Belgische recht. Zoek de Belgische tekst om zeker te zijn.
+
+Rotex Roeselare NV (grote NV) maakt naast balans, WVR en toelichting óók een kasstroomoverzicht en mutatieoverzicht eigen vermogen — die zijn in België verplicht voor grote vennootschappen via KB WVV, gebaseerd op de lidstaat-optie in art. 4 lid 1 van de richtlijn. ⚖️
+
 _Grondslag: Richtlijn 2013/34/EU art. 4 lid 1; KB WVV art. 3:104_
 
 ### Groottecategorieën als reguleringsknop ⚖️
@@ -51,6 +58,9 @@ _Grondslag: Richtlijn 2013/34/EU art. 4 lid 1; KB WVV art. 3:104_
 De richtlijn definieert vier groottecategorieën (micro, klein, middelgroot, groot — art. 3) op basis van balanstotaal, omzet en gemiddeld personeelsbestand. Per categorie schalen de toelichtingsverplichtingen, schema-detail en publicatieplicht. Lidstaten kunnen **kleine** en **middelgrote** drempels binnen marges optrekken; voor **groot** is de drempel niet optioneel.
 
 **Waarom?** Hetzelfde regelboek toepassen op een micro-onderneming en op een multinational is disproportioneel. Door de drempels te koppelen aan grootte verdeelt de richtlijn de regulatoire last.
+
+
+**In de praktijk**: De Belgische groottecriteria in WVV art. 1:24-1:27 zijn een 1-op-1-omzetting van art. 3 van de richtlijn — de cijfers (€ 11.250.000 / € 22.500.000 / 50 FTE voor klein) zijn EU-bepaald.
 
 
 _Grondslag: Richtlijn 2013/34/EU art. 3_
@@ -62,6 +72,8 @@ De richtlijn is **niet het enige** EU-instrument voor jaarrekeningen. Verordenin
 **Waarom?** Beursgenoteerde groepen worden vergeleken door investeerders over EU-grenzen heen — daar volstaat een richtlijn (met lidstaat-verschillen) niet, een uniform stelsel (IFRS) is nodig. Voor de duizenden niet-beursgenoteerde KMO's blijft een richtlijn-met-flexibiliteit pragmatischer.
 
 
+
+
 _Grondslag: Verordening (EG) 1606/2002 art. 4; Richtlijn 2013/34/EU considerans_
 
 ### CbCR — winstbelastingverslag voor multinationals (art. 48) ⚖️
@@ -69,6 +81,9 @@ _Grondslag: Verordening (EG) 1606/2002 art. 4; Richtlijn 2013/34/EU considerans_
 Uiteindelijke moederondernemingen onder nationaal recht met een **geconsolideerde omzet > € 750.000.000** in twee opeenvolgende boekjaren moeten een afzonderlijk **verslag inzake informatie over de winstbelasting** (country-by-country tax report) opstellen, publiceren en toegankelijk maken. Toegevoegd aan de richtlijn via een latere wijziging.
 
 **Waarom?** Reactie op de OESO-BEPS-discussie: transparantie over waar grote groepen winst rapporteren en belastingen betalen. Geldt voor alle EU-multinationals + grote dochters van niet-EU-moeders.
+
+
+**In de praktijk**: Voor een Belgische groep zoals Zelena Bio NV (geconsolideerde omzet € 250M) speelt CbCR-rapportering nog niet — drempel niet bereikt. Voor een hypothetische grote groep met € 900M omzet zou dit een aparte rapportering opleveren bovenop de geconsolideerde jaarrekening.
 
 
 _Grondslag: Richtlijn 2013/34/EU art. 48 lid 1_
@@ -124,9 +139,6 @@ _Grondslag: Richtlijn 2013/34/EU art. 48 lid 1_
 - **Vereist kennis van**: [[getrouw-beeld]]
 - **Vereist kennis van**: [[groottecriteria-jaarrekening]]
 - **Getriggerd door**: [[consolidatieverplichting]]
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

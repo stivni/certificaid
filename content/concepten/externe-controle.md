@@ -56,8 +56,9 @@ _Bron: KB 1 maart 1998 plichtenleer art. 13, 17, 18_
 - **Vereist kennis van**: [[onafhankelijkheid-externe-accountant]]
 - **Getriggerd door**: [[wettelijke-controleopdracht-commissaris]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Rotex Roeselare NV (grote NV, omzet € 95.000.000) voert Wolters & Partners CVBA jaarlijks de wettelijke commissaris-controle uit. Sofie Janssens (bedrijfsrevisor) test de IC, doet substantieve werkzaamheden en levert een controleverklaring af voor de aandeelhouders en derden.
 
 ## Bronnen
 

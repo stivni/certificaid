@@ -65,16 +65,20 @@ flowchart TD
 
 ## Kerninzichten
 
-- Eén grootteklassering = zes parallelle verplichtingen. Stagiairs maken vaak de fout schema te kiezen en de cascade te vergeten. Voor Meubelzaak Mertens BV (klein) volgt uit de classering: verkort schema + geen jaarverslag + geen commissaris + verplichte sociale balans + neerlegging NBB binnen 7 maand. Vergeet je commissaris-vrijstelling, dan misbillijk je de cliënt met onnodige kosten. 🤖
-  - _Rationale_: Cascade volgt uit WVV-art. 3:6, 3:32, 3:72 en KB-WVV-bijlagen 1-3.
-- Microvennootschap heeft een extra voorwaarde die klein-vennootschap niet heeft: GEEN moeder of dochter zijn. Oprichtingen Oostende BV (omzet € 400K, 4 VTE) is micro &mdash; maar als ze morgen 60% van Industria Antwerpen NV verwerft, kantelt ze automatisch naar klein. De groottecascade is dynamisch. ⚖️
-  - _Rationale_: WVV art. 1:25 § 2 sluit groepsstructuur expliciet uit voor microstatus.
-- Twee opeenvolgende boekjaren-regel beschermt tegen heen-en-weer-schommelen. Eénmalige overschrijding kantelt status niet. Bij Brugse Brouwerij BV met uitschieter omzet in 2024: pas vanaf 2026 kantelen als 2025 ook overschrijdt. Examenvraag-camouflage: 'in 2024 had vennootschap X 55 VTE, dus is ze groot' &mdash; mis, je moet 2023 erbij hebben. ⚖️
-  - _Rationale_: WVV art. 1:24 § 4 lock-in-regel.
-- Kleine groep beïnvloedt kleine vennootschap. Een kleine dochter van een grote groep wordt voor jaarrekening behandeld als groot (consolidatie-perspectief: WVV art. 1:24 § 5). Aurelia Holding NV (klein op zich) met 4 dochters die samen 60 VTE en € 18M omzet hebben &mdash; wordt voor jaarrekening grote vennootschap. Dit is de meest gemiste examen-valkuil. ⚖️
-  - _Rationale_: CBN-advies 2017/10 + WVV art. 1:24 § 5.
-- Onderscheid [[groottecriteria-jaarrekening\|groottecriteria-jaarrekening]] (WVV art. 1:24-1:25) en [[groottecriteria-consolidatie\|groottecriteria-consolidatie]] (WVV art. 1:26). Eerste bepaalt schema en cascade-verplichtingen van enkelvoudige jaarrekening. Tweede bepaalt vrijstelling consolidatieplicht. Andere drempels, ander doel &mdash; verwar nooit. ⚖️
-  - _Rationale_: WVV-architectuur scheidt expliciet beide regimes.
+1. Eén grootteklassering = zes parallelle verplichtingen. Stagiairs maken vaak de fout schema te kiezen en de cascade te vergeten. Voor Meubelzaak Mertens BV (klein) volgt uit de classering: verkort schema + geen jaarverslag + geen commissaris + verplichte sociale balans + neerlegging NBB binnen 7 maand. Vergeet je commissaris-vrijstelling, dan misbillijk je de cliënt met onnodige kosten. 🤖
+   _Rationale_: Cascade volgt uit WVV-art. 3:6, 3:32, 3:72 en KB-WVV-bijlagen 1-3.
+
+2. Microvennootschap heeft een extra voorwaarde die klein-vennootschap niet heeft: GEEN moeder of dochter zijn. Oprichtingen Oostende BV (omzet € 400K, 4 VTE) is micro &mdash; maar als ze morgen 60% van Industria Antwerpen NV verwerft, kantelt ze automatisch naar klein. De groottecascade is dynamisch. ⚖️
+   _Rationale_: WVV art. 1:25 § 2 sluit groepsstructuur expliciet uit voor microstatus.
+
+3. Twee opeenvolgende boekjaren-regel beschermt tegen heen-en-weer-schommelen. Eénmalige overschrijding kantelt status niet. Bij Brugse Brouwerij BV met uitschieter omzet in 2024: pas vanaf 2026 kantelen als 2025 ook overschrijdt. Examenvraag-camouflage: 'in 2024 had vennootschap X 55 VTE, dus is ze groot' &mdash; mis, je moet 2023 erbij hebben. ⚖️
+   _Rationale_: WVV art. 1:24 § 4 lock-in-regel.
+
+4. Kleine groep beïnvloedt kleine vennootschap. Een kleine dochter van een grote groep wordt voor jaarrekening behandeld als groot (consolidatie-perspectief: WVV art. 1:24 § 5). Aurelia Holding NV (klein op zich) met 4 dochters die samen 60 VTE en € 18M omzet hebben &mdash; wordt voor jaarrekening grote vennootschap. Dit is de meest gemiste examen-valkuil. ⚖️
+   _Rationale_: CBN-advies 2017/10 + WVV art. 1:24 § 5.
+
+5. Onderscheid [[groottecriteria-jaarrekening\|groottecriteria-jaarrekening]] (WVV art. 1:24-1:25) en [[groottecriteria-consolidatie\|groottecriteria-consolidatie]] (WVV art. 1:26). Eerste bepaalt schema en cascade-verplichtingen van enkelvoudige jaarrekening. Tweede bepaalt vrijstelling consolidatieplicht. Andere drempels, ander doel &mdash; verwar nooit. ⚖️
+   _Rationale_: WVV-architectuur scheidt expliciet beide regimes.
 
 ## Verwante competenties
 

@@ -37,6 +37,9 @@ Vreemd vermogen wordt geclassificeerd op twee assen: (1) looptijd — meer dan 1
 **Waarom?** De analist onderscheidt deze omdat ze verschillende risico's signaleren: lange looptijd = lager liquiditeitsrisico; intrestdragend = vaste cashlast die in CFF en RR opduikt.
 
 
+
+Rotex Roeselare NV: vreemd vermogen € 18.000.000 = banklening op meer dan 1 jaar € 8.000.000 (rubriek 17) + obligatielening € 5.000.000 + handelsschulden € 4.500.000 + sociale schulden € 500.000.
+
 _Grondslag: KB WVV jaarrekeningschema_
 
 ### Vaste vergoedings- en terugbetalingsplicht 🤖
@@ -45,6 +48,9 @@ Vreemd vermogen genereert vaste cashuitstroom: intrest periodiek (gerelateerd aa
 
 **Waarom?** Dit verklaart waarom hoge schuldgraad gevoelig maakt voor rentabiliteits-schokken: een tijdelijke winstdaling brengt liquiditeitskrisis als de schuldlast disproportioneel is.
 
+
+
+Rotex Roeselare NV betaalt op haar banklening van € 8.000.000 jaarlijks intrest aan 3% = € 240.000 + kapitaalsaflossing volgens schema. Bij omzetdaling van 20% blijft dit bedrag onverkort verschuldigd.
 
 _Grondslag: Vakdoctrine + contractrecht_
 
@@ -59,9 +65,6 @@ _Grondslag: Vakdoctrine + contractrecht_
 
 - **Vereist kennis van**: [[debt-equity-ratio]]
 - **Vereist kennis van**: [[solvabiliteitsratio]]
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

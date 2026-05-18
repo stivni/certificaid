@@ -66,8 +66,10 @@ _Bron: Verordening (EG) 1606/2002 art. 4 + art. 5_
 - **Vereist kennis van**: [[endorsement-procedure-eu]]
 - **Getriggerd door**: [[ifrs-eerste-toepassing]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Zelena Bio NV is genoteerd op Euronext Brussel (gereglementeerde markt) en valt onder Belgisch recht. Vanaf boekjaar 2005 stelt zij haar **geconsolideerde** jaarrekening (omzet groep € 350.000.000) op onder endorsed IFRS. Haar **enkelvoudige** jaarrekening blijft onder KB WVV vallen — België heeft van art. 5-optie geen gebruik gemaakt voor enkelvoudige rekeningen.
+Industria Antwerpen NV is alleen genoteerd op Euronext Growth (een MTF, geen gereglementeerde markt). Zij valt **niet** onder de art. 4-verplichting en rapporteert geconsolideerd onder Belgisch GAAP.
 
 ## Bronnen
 

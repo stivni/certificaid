@@ -35,6 +35,9 @@ Verplicht voor (1) grote vennootschappen (overschrijden meer dan één van de dr
 **Waarom?** Externe controle waarborgt vertrouwen voor derden (banken, leveranciers, fiscus, aandeelhouders).
 
 
+
+Bouwwerf Beerse BV groeit boven de drempels in 2024 én 2025 → vanaf AV 2026 moet ze een commissaris aanstellen.
+
 _Grondslag: WVV art. 3:72_
 
 ### Drie kerntaken ⚖️
@@ -43,6 +46,9 @@ _Grondslag: WVV art. 3:72_
 
 **Waarom?** Niet alleen 'getrouw beeld' maar ook 'wettelijk in orde' — twee dimensies van controle.
 
+
+
+Sofie Janssens controleert Rotex Roeselare NV's jaarrekening 2024 → toetst aan getrouw beeld (audit) + checkt naleving KB-WVV (compliance).
 
 _Grondslag: WVV art. 3:75_
 
@@ -53,6 +59,9 @@ _Grondslag: WVV art. 3:75_
 **Waarom?** Een gradatie laat de commissaris toe genuanceerd te rapporteren in plaats van een binaire 'OK / niet OK'.
 
 
+
+Sofie Janssens vindt een voorraadwaardering die € 250.000 te hoog is op € 2,1M totaal → materieel maar niet alomvattend → 'oordeel met voorbehoud'.
+
 _Grondslag: ISA-normen + WVV art. 3:78_
 
 ### Onafhankelijkheid ⚖️
@@ -61,6 +70,9 @@ Een commissaris moet onafhankelijk zijn van de gecontroleerde vennootschap. Geen
 
 **Waarom?** Zonder onafhankelijkheid is de controle waardeloos — een commissaris moet 'mentale onafhankelijkheid' én 'schijnbare onafhankelijkheid' bewaren.
 
+
+
+Sofie Janssens kan geen commissaris worden bij Brugse Brouwerij BV omdat zij voorheen hun fiscale aangiften deed — cooling-off-periode van 2 jaar geldt.
 
 _Grondslag: WVV art. 3:73 + Wet 7 december 2016_
 
@@ -95,8 +107,9 @@ _Grondslag: WVV art. 3:73 + Wet 7 december 2016_
 - **Vereist kennis van**: [[ibr]]
 - **Getriggerd door**: [[groottecriteria-jaarrekening]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Sofie Janssens (bedrijfsrevisor, IBR-lid) wordt door de algemene vergadering van Rotex Roeselare NV benoemd tot commissaris voor een termijn van drie boekjaren — zij zal jaarlijks de jaarrekening controleren en haar bevindingen rapporteren aan de aandeelhouders.
 
 ## Bronnen
 

@@ -39,6 +39,9 @@ In de geconsolideerde jaarrekening verschijnt de hele groep (moeder + dochters i
 **Waarom?** Beleggers, schuldeisers en andere derden willen zien hoe de groep er als geheel voorstaat — niet de versnipperde cijfers van elke vennootschap apart. De fictie 'één bedrijf' levert dat groepsbeeld.
 
 
+
+Aurelia verkoopt voor 50 aan Brugse; in de geconsolideerde jaarrekening verdwijnt die verkoop, omdat de groep niet aan zichzelf kan verkopen.
+
 _Grondslag: KB WVV art. 3:123_
 
 ### Vormvereisten en compensatieverbod ⚖️
@@ -47,6 +50,9 @@ De geconsolideerde jaarrekening moet duidelijk en stelselmatig opgemaakt worden.
 
 **Waarom?** Het compensatieverbod beschermt de informatiewaarde van de jaarrekening: zonder dat verbod zou een groep tegoeden tegen schulden kunnen wegstrepen en zo de werkelijke omvang van haar verplichtingen verbergen.
 
+
+
+Aurelia heeft 200 tegoeden bij niet-verbonden klanten en 150 schulden aan niet-verbonden leveranciers; beide blijven in de geconsolideerde balans afzonderlijk staan.
 
 _Grondslag: KB WVV art. 3:107_
 
@@ -57,6 +63,9 @@ Standaard volg je het Belgisch consolidatierecht (titel 2 KB WVV). Het bestuurso
 **Waarom?** De onherroepelijkheid voorkomt dat een groep heen en weer schakelt tussen normenstelsels naargelang dat in een bepaald jaar gunstig uitkomt. Voor lezers van de jaarrekening blijven cijfers van jaar tot jaar vergelijkbaar.
 
 
+
+Aurelia Holding NV beslist in 20X1 om voor de geconsolideerde jaarrekening over te stappen naar IFRS. Vanaf dat boekjaar volgt ze IFRS; terugschakelen naar BEGAAP is niet meer mogelijk.
+
 _Grondslag: KB WVV art. 3:104_
 
 ### Afsluitingsdatum ⚖️
@@ -66,6 +75,9 @@ De geconsolideerde jaarrekening sluit in principe af op dezelfde datum als de ja
 **Waarom?** Eén gemeenschappelijke afsluitingsdatum garandeert dat je de cijfers van moeder en dochters kunt optellen zonder vergelijkbaarheidsproblemen.
 
 
+
+Aurelia (afsluitdatum 31 december) consolideert Brugse en Bouwwerf Beerse, die beide op 31 december afsluiten → geconsolideerde jaarrekening op 31 december.
+
 _Grondslag: KB WVV art. 3:109 jo. art. 3:111_
 
 ### Volledigheid ⚖️
@@ -74,6 +86,9 @@ Behalve voor de wettelijke eliminaties en de afzondering van derden bevat de gec
 
 **Waarom?** Volledigheid is de keerzijde van de fictie 'één bedrijf': om de groep eerlijk weer te geven, mag je niets weglaten dat economisch tot de groep behoort.
 
+
+
+Aurelia heeft hangende borgstellingen voor Brugse en Bouwwerf Beerse → die staan integraal in de toelichting van de geconsolideerde jaarrekening, niet alleen in de enkelvoudige jaarrekening van Aurelia.
 
 _Grondslag: KB WVV art. 3:110_
 
@@ -127,8 +142,9 @@ _Grondslag: KB WVV art. 3:110_
 - **Getriggerd door**: [[consolidatieverplichting]]
 - **Vereist kennis van**: [[consolidatiekring]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Aurelia Holding NV stelt op 31 december 20X1 één geconsolideerde jaarrekening op die de cijfers van Aurelia + Brugse Brouwerij BV (80 %) + Bouwwerf Beerse BV (100 %) samenvoegt — alsof alledrie samen één bedrijf zijn. Onderlinge vorderingen tussen Aurelia en Brugse verdwijnen; 20 % van het eigen vermogen van Brugse staat apart als belangen van derden.
 
 ## Bronnen
 

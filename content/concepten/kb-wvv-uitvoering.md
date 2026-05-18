@@ -38,6 +38,9 @@ _Bron: KB van 29 april 2019, Boek 3_
 **Waarom?** Stagiair-zoekwijze: weet je het thema (waardering, toelichting, schema)? Klik direct naar dat blok.
 
 
+
+Voor 'waardering van vaste activa' → blok 3 (waarderingsregels). Voor 'mag ik vasthouden aan microschema?' → blok 1 (schema-keuze) + grootteklassen WVV art. 1:24-1:25.
+
 _Grondslag: KB-WVV Boek 3, gestructureerd in titels_
 
 ### Minimum Algemeen Rekeningenstelsel (MAR) ⚖️
@@ -46,6 +49,9 @@ Het MAR (KB-WVV art. 3:9 en bijlage MAR) legt een verplicht rekeningenstelsel op
 
 **Waarom?** Eenheid in het rekeningenstelsel maakt jaarrekeningen vergelijkbaar tussen ondernemingen.
 
+
+
+Rekening '610 Diensten en diverse goederen' staat in elke Belgische boekhouding op dezelfde plek — eis van het MAR.
 
 _Grondslag: KB-WVV art. 3:9 + bijlage MAR; KB van 12 september 1983 (historisch)_
 
@@ -56,6 +62,9 @@ Bijlage 1 = volledig schema (grote vennootschappen), bijlage 2 = verkort schema 
 **Waarom?** Schema bepaalt het detailniveau van de jaarrekening en wat in de toelichting moet.
 
 
+
+Rotex Roeselare NV (grote NV) → bijlage 1; Meubelzaak Mertens BV (kleine BV) → bijlage 2; Oprichtingen Oostende BV (microvennootschap) → bijlage 3.
+
 _Grondslag: KB-WVV bijlagen 1-3; verwijzing in art. 3:2 e.v._
 
 ### Aparte regels voor VZW, IVZW en stichtingen ⚖️
@@ -64,6 +73,9 @@ Boek 3 KB-WVV bevat een aparte titel met aangepaste schema's voor verenigingen e
 
 **Waarom?** Een VZW met groot vermogen valt onder dezelfde schema's als een vennootschap; alleen kleine VZW's en stichtingen kunnen vereenvoudigd.
 
+
+
+VZW Quelle de Vie (met economische activiteit, klein) → vereenvoudigd schema voor verenigingen, KB-WVV art. 3:184 e.v.
 
 _Grondslag: KB-WVV art. 3:184 e.v._
 
@@ -88,8 +100,9 @@ _Grondslag: KB-WVV art. 3:184 e.v._
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Hoe moet Meubelzaak Mertens BV haar voorraad waarderen? → KB-WVV art. 3:35 e.v. (waarderingsregels) + KB-WVV art. 3:44 (voorraad-waardering).
 
 ## Bronnen
 

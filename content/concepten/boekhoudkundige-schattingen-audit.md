@@ -39,8 +39,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 (Schattingen + Schattingsonzekerheid) + �
 
 - **Vereist kennis van**: [[professioneel-kritische-instelling]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Rotex Roeselare NV vormt een voorziening van € 350.000 voor een aanhangig rechtsgeding. Sofie Janssens evalueert: (1) heeft het management de geschillen geïnventariseerd? (2) is de schatting redelijk gezien de juridische adviezen + analoge zaken? (3) is de toelichting in de jaarrekening adequaat?
 
 ## Bronnen
 

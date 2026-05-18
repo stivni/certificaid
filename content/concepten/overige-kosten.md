@@ -38,12 +38,18 @@ Aankopen van diensten van derden: huur, leasing, onderhoud, ICT, accountant, adv
 
 
 
+Yperse Werkplaats BV: huur weverij € 80.000/jaar, energie € 145.000/jaar, ICT-diensten € 24.000/jaar, accountant € 18.000/jaar. Total klasse 61 ≈ € 380.000.
+
+
 ### Afschrijvingen (klasse 630) ⚖️
 
 Periodieke kost die de waardevermindering van vaste activa weerspiegelt over hun gebruiksduur. In de analytische boekhouding worden afschrijvingen per kostencentrum toegerekend (machine X staat in afdeling Y).
 
 **Waarom?** Afschrijvingen zijn de manier waarop de aankoopprijs van een productie-activum over zijn levensduur in de kostprijs van het product komt.
 
+
+
+Yperse Werkplaats BV schaft in 20X1 een nieuwe spinmachine aan voor € 280.000 (afschrijvingstermijn 10 jaar lineair). Jaarlijkse afschrijving € 28.000 wordt volledig aan kostencentrum Spinnerij toegerekend.
 
 _Grondslag: KB 21.10.2018 art. 28 e.v. (afschrijvingsregels)_
 
@@ -53,6 +59,9 @@ Voorzieningen voor toekomstige kosten (groot onderhoud, garanties, geschillen) w
 
 **Waarom?** Matching-beginsel: kost in de periode toerekenen waarop ze betrekking heeft.
 
+
+
+Yperse Werkplaats BV bouwt jaarlijks € 35.000 voorziening op voor 5-jaarlijks groot onderhoud van de weverij. Die € 35.000 wordt elk jaar in de kosten van kostencentrum Weverij geboekt — niet pas in het jaar van de uitgave.
 
 _Grondslag: CBN 2018/25 (voorzieningen)_
 
@@ -68,9 +77,6 @@ _Grondslag: CBN 2018/25 (voorzieningen)_
 ## Zie ook
 
 - **Vereist kennis van**: [[afschrijvingen]]
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

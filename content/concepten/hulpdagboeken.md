@@ -37,6 +37,9 @@ _Bron: CBN-advies 174/1_
 **Waarom?** Specialisatie verhoogt efficiëntie — één persoon kan op aankopen werken, een ander op verkopen.
 
 
+
+Inkomende leveranciersfactuur bij Naaiatelier Ninove BV → aankoopdagboek. Eindjaarsboeking afschrijving → diversen-dagboek.
+
 _Grondslag: WER art. III.84; CBN-advies 174/1_
 
 ### Centralisatie — minstens maandelijks ⚖️
@@ -46,11 +49,15 @@ De saldi van elk hulpdagboek worden minstens maandelijks overgebracht naar het c
 **Waarom?** Centraal boek geeft het algemeen overzicht; hulpdagboeken zijn de detail-bronnen.
 
 
+
+Eind januari boekt boekhouder Meubelzaak Mertens BV de totalen van januari uit elk hulpdagboek (€ 35.000 aankopen, € 52.000 verkopen, € 18.000 bank ING-bewegingen, ...) over naar het centraal boek.
+
 _Grondslag: WER art. III.84; CBN-advies 174/1_
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Meubelzaak Mertens BV houdt 5 hulpdagboeken bij: aankopen, verkopen, financieel (ING bank), financieel (KBC bank), diversen. Eind maand: centralisatie naar centraal boek.
 
 ## Bronnen
 

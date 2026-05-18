@@ -136,3 +136,9 @@ Voer de boeking uit en leg in een werkdocument vast welk beginsel doorslaggevend
 **Grondslag**: [[waarderingsregels-jaarrekening]] §documentatie (praktijk-discipline)
 
 
+## Voorbeelden
+
+
+
+
+

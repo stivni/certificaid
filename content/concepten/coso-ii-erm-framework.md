@@ -34,6 +34,8 @@ COSO II breidt COSO I uit naar Enterprise Risk Management — een geïntegreerde
 **Waarom?** Integreert risico in strategische cyclus — niet alleen operationeel.
 
 
+
+
 _Grondslag: COSO 2017 herziening_
 
 ### Risk appetite 🤖
@@ -43,9 +45,13 @@ De hoeveelheid risico die de onderneming bewust wil nemen om strategische doelst
 **Waarom?** Zonder expliciete risk appetite worden risico's ad-hoc beoordeeld — inconsistent en moeilijk te delegeren.
 
 
+
+RvB Rotex Roeselare NV: 'maximum 2% van EBITDA aan operationele losses; geen tolerance voor compliance-overtredingen'. Operationele directies werken binnen deze envelop.
+
 _Grondslag: COSO 2017_
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Rotex Roeselare NV (groot, beursgenoteerd): COSO II ondersteunt het risicobeheer op enterprise-niveau. Strategie 'expansie naar Duitse markt' krijgt risico-assessment (regelgeving, valuta, concurrentie, reputatie) en wordt afgewogen tegen risk appetite vastgesteld door RvB.
 

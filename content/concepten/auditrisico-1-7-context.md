@@ -32,8 +32,9 @@ _Bron: ITAA-norm-kmo-controlenorm Bijlage 1 + §97-§98_
 
 - **Vereist kennis van**: [[toetsing-interne-beheersing]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV inschat Sofie Janssens het inherente risico op voorraadwaardering als 'middel-hoog' (productie-WIP, schatting nodig). Intern beheersingsrisico = 'laag' want maandelijkse stockcount + ERP met audit trail. Dus IR×CR = middel → detectierisico mag iets hoger → minder substantieve testwerk nodig.
 
 ## Bronnen
 

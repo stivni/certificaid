@@ -34,6 +34,8 @@ Een IASB-standaard kan **alleen** endorsed worden als de financiële informatie 
 **Waarom?** De Europese wetgever stelt minimumeisen aan de kwaliteit van wat als rechtsbron geldt: de informatie moet economische beslissingen mogelijk maken en het management beoordeelbaar maken (art. 3 lid 2).
 
 
+
+
 _Grondslag: Verordening 1606/2002 art. 3 lid 2_
 
 ### Europees openbaar belang ⚖️
@@ -41,6 +43,8 @@ _Grondslag: Verordening 1606/2002 art. 3 lid 2_
 Naast de kwaliteitscriteria moet de standaard het **Europees openbaar belang** dienen. Dit is een afzonderlijke voorwaarde — niet versmolten met de vier kwaliteitscriteria. De Commissie weegt mee of toepassing in de EU de doeltreffende werking van de kapitaalmarkt en de interne markt waarborgt.
 
 **Waarom?** De EU behoudt soevereiniteit over haar verslagleggingsrecht: een technisch correcte IFRS-standaard kan alsnog afgewezen worden als toepassing in de EU ongewenste economische of beleidsmatige effecten zou hebben.
+
+
 
 
 _Grondslag: Verordening 1606/2002 art. 3 lid 2 (samenhang met overweging 9)_
@@ -52,6 +56,8 @@ De Commissie wordt bij elke endorsement-beslissing bijgestaan door een **regelge
 **Waarom?** Lidstaten houden zo mee de hand aan de Europese verslagleggingsregels: het comité is hun technische kanaal om standpunten te coördineren en om vroegtijdig te wegen op endorsement-voorstellen.
 
 
+
+
 _Grondslag: Verordening 1606/2002 art. 6 lid 1 + art. 7_
 
 ### Publicatie als Commissie-verordening ⚖️
@@ -60,6 +66,9 @@ Een endorsed-standaard wordt **in haar geheel** bekendgemaakt als afzonderlijke 
 
 **Waarom?** Rechtszekerheid: ondernemingen, controleurs en rechters moeten één authentieke tekst kunnen raadplegen in hun werktaal. De geconsolideerde Commissie-verordening is dat eindpunt; de IASB-publicatie zelf heeft binnen de EU geen rechtskracht zonder deze omzetting.
 
+
+
+IFRS 17 Verzekeringscontracten is door de IASB in mei 2017 uitgegeven, maar pas geëndosseerd door de EU op 19 november 2021 (Verordening 2021/2036). Tussen 2017 en eind 2021 mocht een Belgische verzekeraar IFRS 17 dus niet in haar wettelijke jaarrekening toepassen.
 
 _Grondslag: Verordening 1606/2002 art. 3 lid 4_
 
@@ -100,8 +109,19 @@ _Grondslag: Verordening 1606/2002 art. 3 lid 4_
 
 - **Vereist kennis van**: [[verplichte-ifrs-eu-beursgenoteerden]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+### Stilstaande klok bij niet-endorsed IFRS
+
+_Personages: Zelena Bio NV_
+
+Zelena Bio NV stelt haar IFRS-geconsolideerde jaarrekening 2026 op. De IASB heeft in 2026 een wijziging aan IAS 7 (Kasstroomoverzichten) uitgegeven die nuttig zou zijn voor haar rapportering. De wijziging is nog niet in het Publicatieblad van de EU verschenen.
+
+1. CFO leest IASB-update en stelt voor de wijziging toe te passen.
+2. Externe revisor toetst: 'staat de wijziging in een Commissie-verordening?' — nee.
+3. Beslissing: huidige endorsed IAS 7 toepassen; toelichting vermeldt de aankomende wijziging zonder ze in cijfers door te voeren.
+4. Zodra de Commissie-verordening verschijnt en de wijziging effectief is, wordt zij wel toegepast — bij de volgende toepasselijke jaarrekening.
+
 
 ## Bronnen
 

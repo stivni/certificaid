@@ -181,3 +181,9 @@ Toets of de overschrijding twee opeenvolgende boekjaren standhoudt en of verbond
 > _Grondslag_: [[groottecriteria-jaarrekening]] §lock-in
 
 
+## Voorbeelden
+
+
+
+
+

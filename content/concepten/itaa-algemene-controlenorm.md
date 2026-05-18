@@ -36,6 +36,8 @@ Bij elke opdracht moet de accountant zich laten leiden door: (1) de wettekst die
 **Waarom?** Wet boven contract, contract boven norm, norm boven vakliteratuur — hiërarchie waarborgt rechtszekerheid.
 
 
+
+
 _Grondslag: ITAA Algemene Controlenorm §1_
 
 ### Zeven kerngebieden ⚖️
@@ -43,6 +45,8 @@ _Grondslag: ITAA Algemene Controlenorm §1_
 (1) Inleiding/onafhankelijkheid, (2) Verslag, (3) Werkschema, (4) Werkdocumenten, (5) Opvolging, (6) Controles, (7) Commissie van Toezicht.
 
 **Waarom?** Sluit aan op de auditcyclus: aanvaarding, planning, dossier, uitvoering, oordeel, toezicht.
+
+
 
 
 _Grondslag: ITAA-norm-algemene-controlenorm (structuur)_
@@ -54,8 +58,9 @@ _Grondslag: ITAA-norm-algemene-controlenorm (structuur)_
 > _Trigger_: Examenvraag: 'welke norm regelt een contractuele audit bij een KMO?' → KMO-controlenorm. 'Welke norm regelt de algemene plichten van de accountant bij elke controle?' → Algemene controlenorm.
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Sofie Janssens voert een contractuele controle uit op de jaarrekening van Naaiatelier Ninove BV. Zij baseert haar werkzaamheden op (1) de wettekst die haar opdracht omschrijft, (2) de opdrachtbrief, (3) de algemene controlenorm van ITAA en (4) gespecialiseerde vakliteratuur — exact in die volgorde voorgeschreven door §1 van de norm.
 
 ## Bronnen
 

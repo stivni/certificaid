@@ -37,6 +37,9 @@ Sommige OCI-posten worden later **gereclassificeerd** naar winst of verlies wann
 **Waarom?** De aard van de OCI-post bepaalt of de uiteindelijke realisatie via W&V loopt of niet. Voor hedges hoort het effectieve deel ooit de gedekte transactie te matchen in W&V; voor herwaarderingsreserves bestaat geen 'matching' transactie in W&V.
 
 
+
+Zelena Bio's Argentijnse dochter wordt in 2030 verkocht. Cumulatieve wisselkoersverschillen in OCI sinds aanschaf (€ 2.500.000 verlies) worden bij verkoop **gereclassificeerd** naar W&V. Daarentegen: de herwaarderingsreserve op de Brusselse terreinen blijft in eigen vermogen, en wordt bij verkoop overgeboekt naar ingehouden winsten (niet in W&V).
+
 _Grondslag: IAS 1 alinea 7 (definitie herclassificatie) + 82A_
 
 ### Analyse van lasten — aard of functie ⚖️
@@ -46,6 +49,9 @@ Een entiteit moet de lasten in winst of verlies analyseren ofwel naar **aard** (
 **Waarom?** Naar functie geeft inzicht in waarvoor het geld is uitgegeven (productie, verkoop, administratie) — relevant voor analisten. Naar aard geeft inzicht in welke soort kosten dominant zijn — relevant voor kostencontrole.
 
 
+
+Zelena Bio presenteert volgens functie: 'Kostprijs van omzet € 175.000.000 + Verkoopkosten € 42.000.000 + Administratiekosten € 28.000.000 + Onderzoek & ontwikkeling € 22.000.000'. In de toelichting: aard-uitsplitsing met personeelsbeloningen € 95.000.000 + afschrijvingen € 12.000.000, etc.
+
 _Grondslag: IAS 1 alinea 99-105_
 
 ### Verplichte minimumposten in winst of verlies (alinea 82) ⚖️
@@ -54,6 +60,9 @@ Op het gezicht van het totaalresultaat-overzicht moeten minstens worden vermeld:
 
 **Waarom?** Minimale vergelijkbaarheid en informatiewaarde voor gebruikers vereist een vaste set posten. Daaronder mag de entiteit verder uitsplitsen of categoriseren.
 
+
+
+Zelena Bio's totaalresultaat-overzicht eindigt met: 'Winst over de periode € 35.000.000 — toerekenbaar aan: eigenaars van Zelena Bio NV € 31.500.000; belangen zonder zeggenschap € 3.500.000'.
 
 _Grondslag: IAS 1 alinea 82-83_
 
@@ -73,8 +82,9 @@ _Grondslag: IAS 1 alinea 82-83_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Zelena Bio NV totaalresultaat 2026: winst € 35.000.000 + OCI: herwaardering terreinen +€ 4.500.000 (na uitgestelde belasting) + wisselkoersverschillen Argentijnse dochter −€ 800.000 + actuariële winsten pensioenplan +€ 320.000 = totaalresultaat **€ 39.020.000**.
 
 ## Bronnen
 

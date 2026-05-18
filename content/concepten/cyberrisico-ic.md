@@ -49,6 +49,7 @@ Cyberrisico is het risico van financiële, operationele of reputationele schade 
 
 - **Vereist kennis van**: [[avg-interne-controle]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV trof in 2025 een ransomware-aanval het ERP-systeem; productie lag 4 dagen stil, dataverlies € 35.000 herstel + omzetderving € 280.000. Post-incident: investering in EDR-systeem, 2FA voor alle externe toegang, maandelijkse phishing-trainingen, off-line backup off-site.
 

@@ -73,8 +73,9 @@ _Bron: CBN 2022/09 — Consolidatie bij de horizontale groep (consortium)_
 - **Getriggerd door**: [[horizontale-consolidatie]]
 - **Vereist kennis van**: [[controle]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Industria Antwerpen NV en Jachthaven Jezus-Eik NV hebben geen onderlinge moeder-dochter-relatie, maar dezelfde meerderheid van bestuurders en dezelfde feitelijke leider (Pieter Vermeulen). → onweerlegbaar consortium → samen consolidatieplichtig.
 
 ## Bronnen
 

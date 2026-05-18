@@ -199,3 +199,8 @@ Toets of de cashflow voldoende is om aflossingen, rentelasten en investeringen t
 > _Grondslag_: [[cashflow-analyse]] §cashflow-als-waarderingsfactor
 
 
+## Voorbeelden
+
+
+
+

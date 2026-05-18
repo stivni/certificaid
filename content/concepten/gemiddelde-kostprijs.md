@@ -39,6 +39,7 @@ _Bron: Management accounting — bron-gap_
 > _Trigger_: Examen-vraag: 'minimumprijs voor extra-order?' → marginaal. 'Lange-termijn-richtprijs?' → gemiddeld.
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Yperse Werkplaats BV: totale kosten € 1.060.000/jaar (€ 800.000 vast + € 260.000 variabel bij 20.000 tapijten). Gemiddelde kostprijs = € 1.060.000 / 20.000 = € 53/tapijt. Bij 25.000 tapijten: € 1.125.000 / 25.000 = € 45/tapijt (vaste kost-aandeel per stuk daalt).
 

@@ -72,16 +72,20 @@ flowchart TD
 
 ## Kerninzichten
 
-- De keuze van een ratio begint NOOIT bij de balans — ze begint bij de vraag van de gebruiker. Een kredietverlener op korte termijn kijkt eerst naar de quick ratio; een obligatiehouder eerst naar de solvabiliteit; een aandeelhouder eerst naar ROE. Wie eerst formules verzamelt en dan een verhaal zoekt, mist de analyse-discipline. 🤖
-  - _Rationale_: Doelstellingenstructuur in `doelstellingen-financiele-analyse` koppelt elk doel expliciet aan een gebruikersrol.
-- ROE en ROA SAMEN lezen ontmaskert het leverage-effect. Bij Rotex Roeselare NV is netto-ROE 20,8 % terwijl netto-ROA 13,0 % is — het gat van 7,8 procentpunten zegt dat schulden de aandeelhouderswinst versterken. Als ROE lager wordt dan ROA, werkt de hefboom omgekeerd: de kost van schulden is dan groter dan het rendement op activa. ⚖️
-  - _Rationale_: Voorbeeldcijfers uit `rentabiliteit-eigen-vermogen-roe` en `rentabiliteit-totaal-activa-roa`, beide grounded in CBN-2011/14.
-- Liquiditeit en solvabiliteit zijn complementair, geen synoniemen. Een vennootschap kan liquide zijn (vlottende activa > korte schulden) maar tegelijkertijd structureel zwak gefinancierd (laag eigen vermogen). Omgekeerd kan een solvabele onderneming tijdelijk illiquide zijn (cashtekort terwijl ze rijk is aan vaste activa). Examenvraag-camouflage: alleen op één van de twee letten = halve diagnose. 🤖
-  - _Rationale_: Spiegeling tussen `liquiditeitsratio.vergelijkingsparen` en `solvabiliteitsratio.vergelijkingsparen`.
-- Een hoge ratio is niet automatisch goed. Een current ratio > 3 kan signaleren dat middelen vastliggen in onproductieve voorraden of trage vorderingen; een solvabiliteit > 70 % kan betekenen dat de onderneming te weinig hefboom benut. Interpretatie vereist altijd sectorvergelijking en historiek — de drie analyse-assen samen. 🤖
-  - _Rationale_: Valkuilen geconsolideerd uit `current-ratio.valkuilen` en `solvabiliteitsratio.in_praktijk`.
-- Brutovarianten met cashflow (bruto-ROE, bruto-ROA) filteren niet-kaskosten weg en zijn moeilijker boekhoudkundig te manipuleren dan nettovarianten. Voor kredietdossiers en waarderingsvragen geven brutoratio's vaak een eerlijker beeld dan nettoratio's. Voor aandeelhoudersrendementsanalyse blijft netto-ROE de standaard. ⚖️
-  - _Rationale_: CBN-2011/14 voorziet expliciet zowel netto- als brutovarianten.
+1. De keuze van een ratio begint NOOIT bij de balans — ze begint bij de vraag van de gebruiker. Een kredietverlener op korte termijn kijkt eerst naar de quick ratio; een obligatiehouder eerst naar de solvabiliteit; een aandeelhouder eerst naar ROE. Wie eerst formules verzamelt en dan een verhaal zoekt, mist de analyse-discipline. 🤖
+   _Rationale_: Doelstellingenstructuur in `doelstellingen-financiele-analyse` koppelt elk doel expliciet aan een gebruikersrol.
+
+2. ROE en ROA SAMEN lezen ontmaskert het leverage-effect. Bij Rotex Roeselare NV is netto-ROE 20,8 % terwijl netto-ROA 13,0 % is — het gat van 7,8 procentpunten zegt dat schulden de aandeelhouderswinst versterken. Als ROE lager wordt dan ROA, werkt de hefboom omgekeerd: de kost van schulden is dan groter dan het rendement op activa. ⚖️
+   _Rationale_: Voorbeeldcijfers uit `rentabiliteit-eigen-vermogen-roe` en `rentabiliteit-totaal-activa-roa`, beide grounded in CBN-2011/14.
+
+3. Liquiditeit en solvabiliteit zijn complementair, geen synoniemen. Een vennootschap kan liquide zijn (vlottende activa > korte schulden) maar tegelijkertijd structureel zwak gefinancierd (laag eigen vermogen). Omgekeerd kan een solvabele onderneming tijdelijk illiquide zijn (cashtekort terwijl ze rijk is aan vaste activa). Examenvraag-camouflage: alleen op één van de twee letten = halve diagnose. 🤖
+   _Rationale_: Spiegeling tussen `liquiditeitsratio.vergelijkingsparen` en `solvabiliteitsratio.vergelijkingsparen`.
+
+4. Een hoge ratio is niet automatisch goed. Een current ratio > 3 kan signaleren dat middelen vastliggen in onproductieve voorraden of trage vorderingen; een solvabiliteit > 70 % kan betekenen dat de onderneming te weinig hefboom benut. Interpretatie vereist altijd sectorvergelijking en historiek — de drie analyse-assen samen. 🤖
+   _Rationale_: Valkuilen geconsolideerd uit `current-ratio.valkuilen` en `solvabiliteitsratio.in_praktijk`.
+
+5. Brutovarianten met cashflow (bruto-ROE, bruto-ROA) filteren niet-kaskosten weg en zijn moeilijker boekhoudkundig te manipuleren dan nettovarianten. Voor kredietdossiers en waarderingsvragen geven brutoratio's vaak een eerlijker beeld dan nettoratio's. Voor aandeelhoudersrendementsanalyse blijft netto-ROE de standaard. ⚖️
+   _Rationale_: CBN-2011/14 voorziet expliciet zowel netto- als brutovarianten.
 
 ## Bronnen
 

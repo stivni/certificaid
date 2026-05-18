@@ -70,8 +70,9 @@ _Bron: CBN 2017/02 — Gezamenlijke controle (groottecriteria-update)_
 - **Getriggerd door**: [[gemeenschappelijke-dochteronderneming]]
 - **Getriggerd door**: [[evenredige-consolidatie]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Cardinal Group NV en Energiehuis Evergem NV bezitten elk 50 % van Filmstudio Florence BV. Hun aandeelhoudersovereenkomst legt vast dat strategische beslissingen alleen samen worden genomen → gezamenlijke controle → Filmstudio is gemeenschappelijke dochter → evenredige consolidatie 50/50.
 
 ## Bronnen
 

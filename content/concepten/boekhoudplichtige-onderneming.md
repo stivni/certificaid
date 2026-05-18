@@ -35,6 +35,9 @@ _Bron: WER art. III.82, § 1_
 **Waarom?** De wet wil dat élke economische actor — niet alleen vennootschappen — een minimum aan financiële transparantie biedt.
 
 
+
+Tom Lefèvre is vennoot van een maatschap zonder rechtspersoonlijkheid → de maatschap is boekhoudplichtig (organisatie zonder rechtspersoonlijkheid met economisch doel).
+
 _Grondslag: WER art. III.82, § 1_
 
 ### Uitzonderingen op de boekhoudplicht ⚖️
@@ -44,6 +47,9 @@ Niet boekhoudplichtig zijn onder andere: (1) de Federale Staat en andere openbar
 **Waarom?** De boekhoudplicht is de regel, niet de uitzondering — voor de stagiair: 'twijfel = boekhouden'.
 
 
+
+Een sportclub-feitelijke-vereniging die enkel lidgelden int en geen handel drijft → niet boekhoudplichtig. Een feitelijke vereniging die een café uitbaat → wel boekhoudplichtig.
+
 _Grondslag: WER art. III.82, § 2_
 
 ### Toepassingsgebied: Belgisch territorium ⚖️
@@ -52,6 +58,9 @@ Voor een buitenlandse onderneming geldt de Belgische boekhoudplicht enkel voor h
 
 **Waarom?** Belgisch recht is territoriaal — buitenlandse hoofdzetels worden niet 'gepakt' door WER Boek III.
 
+
+
+Kappers Köln GmbH (Duits) heeft een Antwerps bijkantoor → het bijkantoor voert een Belgische boekhouding (KB-WVV regels); het hoofdkantoor blijft onder Duits recht.
 
 _Grondslag: WER art. III.82, § 3; CBN-advies 2022/14_
 
@@ -72,8 +81,9 @@ _Grondslag: WER art. III.82, § 3; CBN-advies 2022/14_
 - **Getriggerd door**: [[wetboek-economisch-recht-boek-iii]]
 - **Vereist kennis van**: [[dubbel-boekhouden]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Praktijk Persenaire (eenmanszaak vrij beroep), Meubelzaak Mertens BV (vennootschap) en VZW Quelle de Vie (vereniging met economische activiteit) zijn alle drie boekhoudplichtige onderneming.
 
 ## Bronnen
 

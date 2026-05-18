@@ -40,12 +40,18 @@ Vier traditionele sleutels: (1) directe arbeidsuren, (2) machine-uren, (3) direc
 
 
 
+Yperse Werkplaats BV verdeelt indirecte productiekosten Weverij (€ 1.200.000) over orders via directe arbeidsuren (sleutel-tarief = € 1.200.000 / 30.000 uur = € 40 per directe arbeidsuur). Een order met 80 directe arbeidsuren krijgt € 3.200 indirect.
+
+
 ### Eén-sleutel-vertekening 🤖
 
 Eén sleutel veronderstelt dat alle overhead-kosten dezelfde drijver volgen — wat zelden klopt. Producten met veel set-ups krijgen te weinig kost toegerekend als de sleutel arbeidsuren is.
 
 **Waarom?** Aanleiding voor ABC-methode: verschillende kosten, verschillende cost drivers.
 
+
+
+Bij Yperse Werkplaats BV draait de Confectie kleine series met veel omstel-tijd. Op directe-arbeidsuren-sleutel lijken die series winstgevend; op een ABC-aanpak met cost driver 'aantal set-ups' tonen ze verlies.
 
 
 
@@ -61,6 +67,7 @@ Eén sleutel veronderstelt dat alle overhead-kosten dezelfde drijver volgen — 
 
 - **Getriggerd door**: [[abc-methode]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Yperse Werkplaats BV verdeelt de jaarhuur van € 240.000 over de drie productie-afdelingen volgens vloeroppervlakte: Spinnerij 1.500 m² (37,5 %), Weverij 1.800 m² (45 %), Confectie 700 m² (17,5 %). Spinnerij krijgt € 90.000, Weverij € 108.000, Confectie € 42.000.
 

@@ -39,6 +39,8 @@ _Bron: ITAA-norm-kmo-controlenorm_
 **Waarom?** Sluit aan op de internationale auditcyclus (ISA-stijl) en geeft de KMO-accountant een chronologisch script.
 
 
+
+
 _Grondslag: Structuur ITAA KMO-controlenorm_
 
 ### Definitieslijst (bijlage 1) ⚖️
@@ -48,6 +50,8 @@ Bijlage 1 bevat een uitgebreide definitieslijst met sleuteltermen: assurance-inf
 **Waarom?** Eenduidige terminologie tussen normen, dossiers en verslagen — examen-relevant.
 
 
+
+
 _Grondslag: ITAA KMO-controlenorm Bijlage 1_
 
 
@@ -55,8 +59,9 @@ _Grondslag: ITAA KMO-controlenorm Bijlage 1_
 
 - Geldt voor: contractuele controle- en beoordelingsopdrachten (assurance), én voor gedeelde wettelijk voorbehouden opdrachten — voor zover er geen specifieke bijzondere norm bestaat en er geen commissaris is. ⚖️
 - Geldt NIET voor: wettelijke controleopdrachten van de commissaris (art. 16/1 W. Venn. / WVV art. 3:72), niet voor opdrachten exclusief voorbehouden aan de bedrijfsrevisor, en niet voor opdrachten op andere dan historische financiële informatie. ⚖️
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Wolters & Partners CVBA voert een contractuele audit uit op Meubelzaak Mertens BV (omzet € 4.500.000, balanstotaal € 1.800.000 — kleine vennootschap). Sofie Janssens past de KMO-controlenorm toe: aanvaardingsfase, opdrachtbrief, risico-inschatting, gegevensgerichte werkzaamheden, oordeelsvorming en commissarisverslag-equivalent.
 
 ## Bronnen
 

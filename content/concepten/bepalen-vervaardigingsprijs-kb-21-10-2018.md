@@ -186,3 +186,7 @@ Boek de voorraad in tegen vervaardigingsprijs, toets aan eventuele lagere realis
 **Grondslag**: [[voorraadwaardering]] §lagere-marktwaarde, KB 21.10.2018 art. 28 + 100, CBN 132/7
 
 
+## Voorbeelden
+
+
+

@@ -37,6 +37,9 @@ Bij eerste waardering tellen mee (alinea 27): (a) vaste betalingen (incl. in wez
 **Waarom?** Alleen betalingen waarvan op aanvangsdatum vaststaat (of redelijk zeker is) dat ze verschuldigd zullen zijn, horen in de verplichting. Te onzekere variabele betalingen worden als kost geboekt op het moment ze ontstaan.
 
 
+
+Zelena's Antwerpse huur: vaste basishuur € 480.000/jaar in de verplichting. Een omzet-afhankelijke topup van 1% over € 10.000.000 omzet (variabel naar prestatie): NIET in verplichting, jaarlijks als huurkost wanneer verschuldigd.
+
 _Grondslag: IFRS 16 alinea 27 + 38(b)_
 
 ### Disconteringsvoet — impliciet of marginaal ⚖️
@@ -45,6 +48,9 @@ Eerste keuze: **impliciete rentevoet van de leaseovereenkomst** (rate that equat
 
 **Waarom?** De impliciete rentevoet is theoretisch zuiver maar vereist info over de cost-side van de lessor — typisch ontoegankelijk voor de lessee. De marginale rentevoet is een redelijke proxy met data die de lessee zelf heeft.
 
+
+
+Zelena Bio kent de impliciete rentevoet van haar Antwerpse huurcontract niet (verhuurder geeft geen kostprijs). Zij gebruikt haar IBR = 4% (gebaseerd op haar bank-lenenkost voor 10-jarige financiering met vastgoed als onderpand). Verplichting berekend op 4%.
 
 _Grondslag: IFRS 16 alinea 26 + definitie 'marginale rentevoet van de lessee'_
 
@@ -55,6 +61,9 @@ Na eerste opname (alinea 36-37): boekwaarde wordt periodiek verhoogd met rente (
 **Waarom?** Een leaseverplichting is in essentie een gefinancierde schuld — de rentemethode is dezelfde als voor een bancaire lening. Het effectieve-rente-principe waarborgt dat de totale rentekosten correct gespreid worden over de leaseperiode.
 
 
+
+Zelena's Antwerpse huur jaar 1: rente € 155.760, hoofdsomaflossing € 324.240, totaal betaald € 480.000. Jaar 2: rente 4% × € 3.569.760 = € 142.790, hoofdsom € 337.210. Rente daalt; hoofdsom-aflossing stijgt.
+
 _Grondslag: IFRS 16 alinea 36-37_
 
 ### Herwaardering bij wijzigingen ⚖️
@@ -63,6 +72,9 @@ De leaseverplichting wordt herwaardeerd bij (alinea 40-43): (a) verandering in l
 
 **Waarom?** Een leaseperiode-verlenging of aankoopoptie-uitoefening verandert de aard van de schuld substantieel — nieuwe disconteringsvoet past. Een index-aanpassing is incrementeel — oude voet aanhouden.
 
+
+
+Zelena Bio besluit in 2030 (na 5 jaar) de verlengingsoptie van 3 extra jaar uit te oefenen. Herziene leaseverplichting = contante waarde resterende 8 jaar × € 480.000 + 3 extra × € 480.000 = met herziene IBR van 5% (gestegen sinds 2026). Nieuwe verplichting hoger; ROU-actief stijgt parallel.
 
 _Grondslag: IFRS 16 alinea 40-43_
 
@@ -100,8 +112,9 @@ _Grondslag: IFRS 16 alinea 40-43_
 
 - **Vereist kennis van**: [[right-of-use-actief]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Zelena Bio NV op aanvangsdatum 1 januari 2026: 10 jaar huurperiode Antwerpse locatie, vaste betaling € 480.000 jaarlijks, marginale rentevoet 4%. Leaseverplichting bij eerste opname = € 480.000 × annuïteitfactor(10 jaar, 4%) = € 480.000 × 8,1109 = **€ 3.893.232**, afgerond € 3.894.000. Jaar 1: rentelast 4% × € 3.894.000 = € 155.760; betaling € 480.000; aflossing hoofdsom € 480.000 − € 155.760 = € 324.240. Boekwaarde einde jaar 1 = € 3.894.000 − € 324.240 = € 3.569.760.
 
 ## Bronnen
 

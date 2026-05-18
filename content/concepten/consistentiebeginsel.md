@@ -37,6 +37,9 @@ _Bron: KB-WVV art. 3:6_
 **Waarom?** Vergelijkbaarheid tussen boekjaren: een gebruiker moet kunnen zien of de evolutie 'echt' is of door regelwijziging veroorzaakt.
 
 
+
+Rotex Roeselare NV wijzigt afschrijvingstermijn machines van 10 naar 8 jaar (techn. veroudering sneller) → boekjaar-eindwijze: vermeld in toelichting + bereken impact.
+
 _Grondslag: KB-WVV art. 3:6_
 
 ### Wanneer mag je wijzigen? ⚖️
@@ -45,6 +48,9 @@ Wijziging is toegestaan als (1) de nieuwe regel beter aansluit bij het getrouwe 
 
 **Waarom?** Bestendigheid is geen absolute regel — soms is wijziging zelfs nodig voor getrouw beeld.
 
+
+
+Een nieuw CBN-advies over leasing-classificatie → Transport Tongeren BV past haar regel aan voor 2024 → vermelding in toelichting met motivering 'CBN-advies XX/YY'.
 
 _Grondslag: KB-WVV art. 3:7_
 
@@ -69,8 +75,9 @@ _Grondslag: KB-WVV art. 3:7_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Naaiatelier Ninove BV waardeert haar grondstoffen sinds altijd via FIFO. In 2024 wil zij overstappen naar gewogen gemiddelde → moet motiveren in toelichting + impact (bv. 'voorraad-waardering daalt met € 45.000, resultaat met € 32.000 na belasting').
 
 ## Bronnen
 

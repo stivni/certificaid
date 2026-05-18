@@ -35,6 +35,9 @@ Een leasing is **financieel** wanneer de contractueel te storten termijnen (naas
 **Waarom?** Het criterium volgt de economische werkelijkheid: als de gebruiker uiteindelijk alle waarde van het goed betaalt + zelfs gebruik kan uitkopen tegen een lage prijs, is het de facto een aankoop. Boekhouding moet die economische werkelijkheid weergeven (substance over form).
 
 
+
+Transport Tongeren BV vrachtwagen € 85.000, koopoptie € 5.000 (5,9 %) → financieel. Alternatief: koopoptie € 17.500 (20,6 % > 15 %) → operationeel.
+
 _Grondslag: KB WVV art. 3:43 (oud KB art. 95)_
 
 ### Financiële leasing — boekhoudkundige verwerking bij leasingnemer ⚖️
@@ -43,6 +46,9 @@ _Grondslag: KB WVV art. 3:43 (oud KB art. 95)_
 
 **Waarom?** Het actief is economisch dat van de leasingnemer; symmetrische schuld toont financiering. Substance over form.
 
+
+
+Transport Tongeren BV jaar 1: jaarlijkse annuïteit € 18.500 (kapitaal € 17.000 + intrest € 1.500). Boeking: Debet 172 Leasingschulden € 17.000 + Debet 650 Intresten € 1.500 / Credit 550 Bank € 18.500. Tegelijk afschrijving vrachtwagen: € 85.000 / 5 jaar = € 17.000 → Debet 6302 / Credit 2529.
 
 _Grondslag: CBN 2015/04_
 
@@ -53,6 +59,9 @@ Goed blijft op de balans van de leasinggever; de leasingnemer boekt de vergoedin
 **Waarom?** Economisch is operationele leasing dichter bij huur dan bij aankoop; de leasingnemer gebruikt het goed maar 'bezit' het niet. Eenvoudige presentatie volstaat.
 
 
+
+Meubelzaak Mertens BV huurt een bestelwagen via operationele leasing aan € 480/maand. Maandelijks: Debet 6105 Huur voertuigen € 480 / Credit 550 Bank € 480. Geen activum, geen schuld op balans.
+
 _Grondslag: CBN 2015/04_
 
 ### Toelichting — verplichte vermeldingen ⚖️
@@ -60,6 +69,9 @@ _Grondslag: CBN 2015/04_
 In de toelichting bij de jaarrekening: (a) staat MVA in leasing (aanschaffingswaarde, mutaties, afschrijvingen, nettoboekwaarde) per categorie, (b) staat schulden in leasing met uitsplitsing naar resterende looptijd, (c) rechten op aankoop, (d) samenvatting waarderingsregels, (e) algemene beschrijving leasingvoorwaarden.
 
 
+
+
+Transport Tongeren BV toelichting: 'Rubriek III.D Materiële vaste activa in leasing: aanschaffingswaarde € 85.000 (vrachtwagen), cumul. afschr. € 34.000 (na 2 jaar), nettowaarde € 51.000. Leasingschuld 172: oorspr. € 85.000, resterend € 51.000, waarvan € 17.000 binnen jaar en € 34.000 op meer dan jaar.'
 
 _Grondslag: CBN 2015/04_
 
@@ -98,8 +110,9 @@ _Grondslag: CBN 2015/04_
 - **Vereist kennis van**: [[materiele-vaste-activa]]
 - **Vereist kennis van**: [[afschrijvingen]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Transport Tongeren BV neemt een vrachtwagen (werkelijke waarde € 85.000) in financiële leasing voor 5 jaar; jaarlijkse vergoeding € 18.500 (kapitaal € 17.000 + intrest € 1.500) + koopoptie € 5.000 (5,9 % van € 85.000 < 15 %, dus financieel). Boekingen aanvang: Debet 252 MVA in leasing — meubilair/rollend € 85.000 / Credit 172 Leasingschulden € 85.000. Per jaar: Debet 172 € 17.000 + Debet 650 Intresten € 1.500 / Credit 550 Bank € 18.500; en afschrijving Debet 6302 € 17.000 / Credit 2529 € 17.000 (lineair 5 jaar).
 
 ## Bronnen
 

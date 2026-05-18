@@ -69,16 +69,20 @@ flowchart TD
 
 ## Kerninzichten
 
-- De zeven beginselen zijn niet allemaal gelijkwaardig: drie zijn voorwaarden om uberhaupt van een 'regelmatige' boekhouding te kunnen spreken (volledigheid, oprechtheid, onveranderlijkheid), drie sturen de waardering (continuiteit, voorzichtigheid, consistentie), en het getrouw-beeld-beginsel staat erboven als eindtoets. Stagiairs die ze op een rij zien staan zonder hierarchie missen die drie-lagen-structuur. 🤖
-  - _Rationale_: Structuur komt naar voren uit CBN 174/1-inleiding + Richtlijn 2013/34/EU art. 6 §1 vs art. 4 §3. De boekhoudwet zelf groepeert niet expliciet, maar functioneel-pedagogisch is dit de helderste indeling.
-- Het getrouw-beeld-beginsel bevat een overrule-mechanisme: als toepassing van de andere beginselen onvoldoende is om een getrouw beeld te geven, moet je afwijken &mdash; met motivering in de toelichting (KB WVV art. 3:1 derde lid). Dit is geen vrijbrief: het bestuur moet uitdrukkelijk vaststellen dat de standaardregels onvoldoende zijn. ⚖️
-  - _Rationale_: Letterlijke regel in KB WVV art. 3:1 + uitwerking in CBN 2018/18 voor going-concern-context.
-- Voorzichtigheid en getrouw-beeld kunnen op gespannen voet staan: pure voorzichtigheid leidt tot stille reserves (winsten onderschat, verliezen overschat), wat het getrouwe beeld verstoort. De moderne lezing (Richtlijn 2013/34/EU art. 6 §1.c): voorzichtigheid betekent geen overdreven onderwaardering, alleen waarschijnlijke verliezen + risico's opnemen. 🤖
-  - _Rationale_: Stille reserves zijn historisch een Belgisch fenomeen; EU-richtlijn 2013/34 heeft daar grenzen aan gesteld. Examenrelevant: stagiairs moeten weten dat overdreven voorzichtigheid evenmin getrouw is als overdreven optimisme.
-- De onveranderlijkheid van boekingen is een formele eis (geen Tipp-Ex, geen overschrijven) maar geen verbod op correcties. Een verkeerde boeking corrigeer je via een tegenboeking met datum en verwijzing &mdash; de oorspronkelijke fout blijft zichtbaar in de audit-trail. ⚖️
-  - _Rationale_: CBN 174/1 expliciet over draagwijdte van het onveranderlijkheidsbeginsel + WER art. III.86 (bewaarplicht).
-- Volledigheid omvat ook de rechten en verplichtingen buiten de balans (klasse 0): garanties verleend door [[Meubelzaak Mertens BV]], leaseverplichtingen, borgstellingen, pensioenverplichtingen. Wie deze vergeet schendt het volledigheidsbeginsel zonder dat de balans uit evenwicht raakt &mdash; daarom is het een silent error die makkelijk gemist wordt op examens. 🤖
-  - _Rationale_: Volledigheidsbeginsel + klasse 0 + valkuil-patroon uit examenvragen. Cross-link naar [[rechten-verplichtingen-buiten-balans]].
+1. De zeven beginselen zijn niet allemaal gelijkwaardig: drie zijn voorwaarden om uberhaupt van een 'regelmatige' boekhouding te kunnen spreken (volledigheid, oprechtheid, onveranderlijkheid), drie sturen de waardering (continuiteit, voorzichtigheid, consistentie), en het getrouw-beeld-beginsel staat erboven als eindtoets. Stagiairs die ze op een rij zien staan zonder hierarchie missen die drie-lagen-structuur. 🤖
+   _Rationale_: Structuur komt naar voren uit CBN 174/1-inleiding + Richtlijn 2013/34/EU art. 6 §1 vs art. 4 §3. De boekhoudwet zelf groepeert niet expliciet, maar functioneel-pedagogisch is dit de helderste indeling.
+
+2. Het getrouw-beeld-beginsel bevat een overrule-mechanisme: als toepassing van de andere beginselen onvoldoende is om een getrouw beeld te geven, moet je afwijken &mdash; met motivering in de toelichting (KB WVV art. 3:1 derde lid). Dit is geen vrijbrief: het bestuur moet uitdrukkelijk vaststellen dat de standaardregels onvoldoende zijn. ⚖️
+   _Rationale_: Letterlijke regel in KB WVV art. 3:1 + uitwerking in CBN 2018/18 voor going-concern-context.
+
+3. Voorzichtigheid en getrouw-beeld kunnen op gespannen voet staan: pure voorzichtigheid leidt tot stille reserves (winsten onderschat, verliezen overschat), wat het getrouwe beeld verstoort. De moderne lezing (Richtlijn 2013/34/EU art. 6 §1.c): voorzichtigheid betekent geen overdreven onderwaardering, alleen waarschijnlijke verliezen + risico's opnemen. 🤖
+   _Rationale_: Stille reserves zijn historisch een Belgisch fenomeen; EU-richtlijn 2013/34 heeft daar grenzen aan gesteld. Examenrelevant: stagiairs moeten weten dat overdreven voorzichtigheid evenmin getrouw is als overdreven optimisme.
+
+4. De onveranderlijkheid van boekingen is een formele eis (geen Tipp-Ex, geen overschrijven) maar geen verbod op correcties. Een verkeerde boeking corrigeer je via een tegenboeking met datum en verwijzing &mdash; de oorspronkelijke fout blijft zichtbaar in de audit-trail. ⚖️
+   _Rationale_: CBN 174/1 expliciet over draagwijdte van het onveranderlijkheidsbeginsel + WER art. III.86 (bewaarplicht).
+
+5. Volledigheid omvat ook de rechten en verplichtingen buiten de balans (klasse 0): garanties verleend door [[Meubelzaak Mertens BV]], leaseverplichtingen, borgstellingen, pensioenverplichtingen. Wie deze vergeet schendt het volledigheidsbeginsel zonder dat de balans uit evenwicht raakt &mdash; daarom is het een silent error die makkelijk gemist wordt op examens. 🤖
+   _Rationale_: Volledigheidsbeginsel + klasse 0 + valkuil-patroon uit examenvragen. Cross-link naar [[rechten-verplichtingen-buiten-balans]].
 
 ## Verwante competenties
 

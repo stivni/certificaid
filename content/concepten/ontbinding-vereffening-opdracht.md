@@ -42,8 +42,9 @@ _Bron: ITAA-norm Ontbinding-vereffening §2 + IV_
 > Specifieke documentatieverplichting: alle gegevens en oordelen die het verslag onderbouwen worden bewaard in een controledossier dat valt onder beroepsgeheim en bewaarplicht van de Algemene Controlenorm. ⚖️
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Verffabriek Veurne BV wil zich ontbinden. De aandeelhouders besluiten tot vrijwillige vereffening. Geen commissaris → Sofie Janssens (gecertificeerd accountant) krijgt de opdracht. Zij toetst de staat van actief en passief, beoordeelt de continuïteit van de waardering, controleert of de waarderingsregels zijn aangepast aan stopzetting (going concern → going-out-of-business), en levert haar verslag af aan de buitengewone algemene vergadering.
 
 ## Bronnen
 

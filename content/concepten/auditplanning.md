@@ -72,8 +72,9 @@ Documenteer significante wijzigingen + redenen in het controledossier (zie §45 
 
 - **Vereist kennis van**: [[risico-inschatting-audit]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Voor de audit van Rotex Roeselare NV (boekjaar 2025) stelt Sofie Janssens een algemene strategie op in oktober 2025: scope = jaarrekening volledig schema, timing = tussenfase december + eindfase februari-maart, risicogebieden = voorraden + voorzieningen, team = vier juniors + één manager. Daarop bouwt zij het concrete controleprogramma met testen en steekproeven.
 
 ## Bronnen
 

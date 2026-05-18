@@ -404,6 +404,10 @@ In de toelichting bij de geconsolideerde jaarrekening: zorg dat informatie over 
 
 - **Getriggerd door**: [[integrale-consolidatie]]
 
+## Voorbeelden
+
+Aurelia Holding NV verkoopt voor € 500.000 goederen aan Brugse Brouwerij BV met 30 % marge; Brugse heeft op balansdatum nog 40 % in voorraad → schrap omzet € 500.000 en kostprijs € 500.000 uit de geconsolideerde resultatenrekening (RR), en schrap € 200.000 × 30 % = € 60.000 uit de voorraad en de reserves van de geconsolideerde balans.
+
 ## Bronnen
 
 [^1]: `KB-WVV-2019__art_3_106`

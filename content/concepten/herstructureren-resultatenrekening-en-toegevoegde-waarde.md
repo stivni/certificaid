@@ -180,3 +180,8 @@ Analyseer hoe de TW verdeeld wordt over personeel (lonen + sociale lasten), kapi
 > _Grondslag_: [[toegevoegde-waarde-financiele-analyse]] §verdeling-productiefactoren
 
 
+## Voorbeelden
+
+
+
+

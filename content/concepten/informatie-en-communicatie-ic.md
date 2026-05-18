@@ -31,6 +31,7 @@ Informatie en communicatie als COSO-component betekent dat relevante, betrouwbar
 
 - **Vereist kennis van**: [[informatiesysteem-onderneming]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV: maandelijkse KPI-dashboard naar directie (omhoog), wekelijkse productie-targets naar voormannen (omlaag), dagelijkse aankoop-productie-afstemming (horizontaal), kwartaalrapport naar bank en aandeelhouders (extern).
 

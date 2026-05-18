@@ -238,6 +238,10 @@ Resultaat: In de geconsolideerde balans: 'Belangen van derden' = 100 (passiefzij
 
 - **Vereist kennis van**: [[belangenpercentage]]
 
+## Voorbeelden
+
+Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV; eigen vermogen (EV) Brugse op afsluitingsdatum = € 2.000.000 (resultaat boekjaar = € 500.000). 'Belangen van derden' = 20 % × € 2.000.000 = € 400.000 (passiefzijde balans). 'Aandeel van derden in het resultaat' = 20 % × € 500.000 = € 100.000.
+
 ## Bronnen
 
 [^1]: `KB-WVV-2019__art_3_108`

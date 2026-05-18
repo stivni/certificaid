@@ -216,3 +216,7 @@ Test het stelsel op een proefmaand, documenteer alle keuzes in een analytisch ha
 **Grondslag**: [[analytische-boekhouding]] §implementatie
 
 
+## Voorbeelden
+
+
+

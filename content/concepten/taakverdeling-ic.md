@@ -36,6 +36,7 @@ Taakverdeling is het bewust opdelen van werk over verschillende personen zodat (
 
 - **Vereist kennis van**: [[functiescheiding]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV documenteert HR per functie: taken (5-10 bullets), verantwoordelijkheden (autoriseren wat tot welk bedrag), rapporteringslijn, vereiste competenties. Bij personeelswissel: nieuwe medewerker leest functiebeschrijving en weet exact wat van hem verwacht wordt — minder gat in IC tijdens overdracht.
 

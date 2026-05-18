@@ -84,8 +84,9 @@ Schriftelijke handtekening; geen delegatie bij voorbehouden opdrachten. Verzend 
 - **Vereist kennis van**: [[controleoordeel-types]]
 - **Vereist kennis van**: [[paragraaf-ter-benadrukking]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Het controleverslag van Sofie Janssens over Rotex Roeselare NV bevat: titel ('Controleverslag van de externe accountant'), geadresseerde (de algemene vergadering), identificatie jaarrekening 2025, beschrijving van de opdracht uit de opdrachtbrief, paragraaf 'Verantwoordelijkheid van het management', paragraaf 'Verantwoordelijkheid van de accountant', oordeelsparagraaf, paragraaf ter benadrukking (continuïteit), datum, plaats van ondertekening, handtekening en hoedanigheid.
 
 ## Bronnen
 

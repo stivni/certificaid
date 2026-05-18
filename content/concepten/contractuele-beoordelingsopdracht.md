@@ -38,6 +38,9 @@ Het risico op een verkeerde uitspraak wordt tot een aanvaardbaar niveau gebracht
 **Waarom?** Soms heeft de cliënt geen audit nodig — een 'comfort statement' volstaat. Beoordeling is goedkoper.
 
 
+
+Een KMO die geen audit nodig heeft maar haar bank wel een tweede paar ogen wil tonen op de jaarrekening.
+
 _Grondslag: ITAA KMO-controlenorm §2_
 
 ### Conclusie in negatieve vorm ⚖️
@@ -47,6 +50,8 @@ Het verslag formuleert geen positief oordeel maar de afwezigheid van bezwaren. T
 **Waarom?** De auditor heeft niet genoeg werk verricht om in positieve zin in te staan voor het getrouw beeld — hij kan enkel zeggen wat hij niet heeft gevonden.
 
 
+
+
 _Grondslag: ITAA KMO-controlenorm §2_
 
 ### Wettelijke triggers — terminologie ⚖️
@@ -54,6 +59,8 @@ _Grondslag: ITAA KMO-controlenorm §2_
 Wanneer de wetgever de termen 'beperkte controle' of 'beperkt nazicht' gebruikt, gaat het om een beoordelingsopdracht. Bij 'controle van de jaarrekening' of 'getrouw beeld' gaat het om een controleopdracht.
 
 **Waarom?** Termen in een wettekst beslissen welk zekerheidsniveau geldt — niet de cliëntwens.
+
+
 
 
 _Grondslag: ITAA KMO-controlenorm §3_
@@ -74,8 +81,9 @@ _Grondslag: ITAA KMO-controlenorm §3_
 
 - **Vereist kennis van**: [[beperkte-mate-van-zekerheid]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Een minderheidsaandeelhouder van Naaiatelier Ninove BV wil een gevoel krijgen of de jaarrekening 2025 klopt, maar betaalt liever niet voor een volledige audit. Sofie Janssens voert een beperkte controle uit (vooral cijferanalyses + bevragingen) en levert een beoordelingsverslag af: 'op basis van onze werkzaamheden zijn ons geen feiten gebleken die ons doen oordelen dat de jaarrekening geen getrouw beeld geeft'.
 
 ## Bronnen
 

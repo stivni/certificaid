@@ -37,6 +37,9 @@ Bij uitgifte beslist de NV over: **nominaal bedrag** per obligatie (typisch € 
 **Waarom?** Deze parameters bepalen de cashflows en de financieringskost over de hele looptijd. Beleggers vergelijken ze met marktrente om de prijs te bepalen.
 
 
+
+Uitgeverij Ukkel NV emissieprospectus: 1.000 obligaties × € 1.000 nominaal = € 1.000.000 totaal. Couponrente 4 % vast per jaar = € 40.000 jaarlijkse intrestlast. Looptijd 8 jaar, kapitaal terug op vervaldag 30/06/20Y9.
+
 _Grondslag: WVV art. 7:54; CBN 2019/07_
 
 ### Uitgifte beneden of boven pari ⚖️
@@ -45,6 +48,9 @@ Obligaties kunnen worden uitgegeven aan een uitgifteprijs die afwijkt van het no
 
 **Waarom?** Marktrente vs couponrente verschillen vaak; uitgifteprijs corrigeert. Het verschil moet over de looptijd verspreid worden om matching te garanderen.
 
+
+
+Uitgeverij Ukkel NV geeft obligatielening uit nominaal € 1.000.000 maar ontvangt slechts € 950.000 (disagio € 50.000 omdat marktrente boven 4 % ligt). Schuld op balans = € 1.000.000 (nominale); € 50.000 disagio geactiveerd op 201 en afgeschreven over 8 jaar = € 6.250/jaar extra intrestlast.
 
 _Grondslag: CBN 2019/07_
 
@@ -55,6 +61,9 @@ Couponbetalingen worden geboekt als financiële kosten op rekening 650. Tussen c
 **Waarom?** Matching: rente moet in het juiste boekjaar staan, ook al wordt ze pas later cash betaald.
 
 
+
+Uitgeverij Ukkel NV obligatie 4 % × € 1.000.000 = € 40.000 jaarlijkse coupon, betaalbaar elke 1 juli. Op 31/12 is 6 maanden gelopen → € 20.000 toe te rekenen. Boeking 31/12: Debet 650 Intresten op obligaties € 20.000 / Credit 492 Toe te rekenen kosten € 20.000.
+
 _Grondslag: CBN 148/4 + KB WVV art. 3:60_
 
 ### Terugbetaling op vervaldag ⚖️
@@ -62,6 +71,9 @@ _Grondslag: CBN 148/4 + KB WVV art. 3:60_
 Op vervaldag betaalt de NV het nominaal bedrag terug aan de obligatiehouders. Schuld wordt nul; bank vermindert met het terugbetaalde bedrag.
 
 
+
+
+Uitgeverij Ukkel NV betaalt op 30/06/20Y9 € 1.000.000 terug. Boeking: Debet 170 Obligatieleningen € 1.000.000 / Credit 550 Bank € 1.000.000.
 
 _Grondslag: Boekhoudkundige verwerking_
 
@@ -87,8 +99,9 @@ _Grondslag: Boekhoudkundige verwerking_
 
 - **Getriggerd door**: [[oprichtingskosten]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Uitgeverij Ukkel NV geeft een 8-jarige obligatielening uit nominaal € 1.000.000 aan 4 % vast. Uitgifte tegen pari (€ 1.000.000 ontvangen). Uitgiftekosten € 12.000 (notaris, publicatie). Boekingen aanvang: Debet 550 Bank € 1.000.000 / Credit 170 Obligatieleningen € 1.000.000. Bovendien: Debet 201 Kosten uitgifte leningen € 12.000 / Credit 550 Bank € 12.000 (af te schrijven over 8 jaar = € 1.500/jaar).
 
 ## Bronnen
 

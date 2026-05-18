@@ -37,6 +37,9 @@ Bij afschrijving (alinea 31) volgt de lessee de IAS 16-afschrijvingsvereisten me
 **Waarom?** Als eigendom uiteindelijk overgaat naar de lessee, dan is het gebruiksrecht eigenlijk een gefinancierde aankoop — afschrijven over de volledige levensduur. Anders verlaat het actief na leaseperiode de balans; dan is afschrijven tot het einde van de leaseperiode logisch.
 
 
+
+Zelena Bio's Antwerpse huur (10 jaar, geen aankoopoptie): ROU € 4.049.000 lineair over 10 jaar = € 404.900/jaar. Zou Zelena een aankoopoptie hebben tegen een voordelige prijs die ze zeker uitoefent: dan over de volledige gebruiksduur van het gebouw (typisch 30-50 jaar).
+
 _Grondslag: IFRS 16 alinea 32_
 
 ### Aanpassing voor herwaardering leaseverplichting ⚖️
@@ -46,6 +49,9 @@ Wanneer de leaseverplichting wordt herwaardeerd (bv. wijziging leaseperiode, wij
 **Waarom?** Het ROU en de leaseverplichting zijn twee zijden van dezelfde munt: het gebruiksrecht en de schuld om het te verwerven. Een wijziging in de schuld moet symmetrisch op het actief reflecteren — zonder winst- of verliesimpact, behalve bij onmogelijke aanpassing op ROU.
 
 
+
+Zelena Bio verlengt na 5 jaar de Antwerpse huur met 3 extra jaar (verlengingsoptie uitgeoefend). Herwaardering leaseverplichting +€ 1.250.000. ROU-actief stijgt met € 1.250.000 (geen winst-of-verliesimpact). De nieuwe ROU wordt afgeschreven over resterende leaseperiode van 8 jaar.
+
 _Grondslag: IFRS 16 alinea 39_
 
 ### Impairment-toets onder IAS 36 ⚖️
@@ -54,6 +60,9 @@ ROU-actief is onderworpen aan dezelfde impairment-test als andere materiële vas
 
 **Waarom?** Hoewel ROU een gebruiksrecht is, kan het economisch waardevermindering ondergaan — bv. een gehuurde productielocatie die ineens niet meer productief gebruikt kan worden door regulering. De impairment-test waarborgt dat de boekwaarde realiteit weerspiegelt.
 
+
+
+Zelena Bio's Antwerpse locatie wordt in 2029 wegens nieuwe milieuregelgeving niet meer als productielocatie bruikbaar. Boekwaarde ROU € 2.430.000; realiseerbare waarde (te onderverhuren tegen € 200.000/jaar over resterende 6 jaar, contant € 1.054.000) → impairment-verlies € 1.376.000 in W&V.
 
 _Grondslag: IFRS 16 alinea 33 + IAS 36_
 
@@ -96,8 +105,9 @@ _Grondslag: IFRS 16 alinea 33 + IAS 36_
 
 - **Vereist kennis van**: [[leaseverplichting-ifrs]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Zelena Bio's ROU-actief voor Antwerpse productielocatie op 1 januari 2026: € 4.049.000 (= leaseverplichting € 3.894.000 + sleutelgeld € 50.000 + advocatenkosten € 25.000 + ontmantelingskosten € 80.000). In de IFRS-balans presentatie: ofwel apart als 'Met een gebruiksrecht overeenstemmende activa' ofwel binnen 'Materiële vaste activa' (met vermelding in toelichting in welke post).
 
 ## Bronnen
 

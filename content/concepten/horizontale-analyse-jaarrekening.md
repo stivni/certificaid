@@ -42,6 +42,9 @@ Voor elke balanspost en resultatenrekening-post: bereken het verschil met het vo
 **Waarom?** Eén boekjaar alleen toont niet of de onderneming groeit, stagneert of krimpt. Trends zijn meestal belangrijker dan momentopnames.
 
 
+
+Rotex Roeselare NV: omzet 20X0 = € 45.000.000; omzet 20X1 = € 50.000.000. Evolutie: + € 5.000.000 in absolute zin; + 11,1 % in relatieve zin.
+
 _Grondslag: Vakdoctrine_
 
 ### KB WVV verplicht vergelijkende cijfers 🤖
@@ -50,6 +53,9 @@ Het Belgisch jaarrekeningenrecht verplicht het opnemen van de cijfers van het vo
 
 **Waarom?** Zonder vergelijkende cijfers zou elke jaarrekening op zichzelf staan en zou trendanalyse onmogelijk zijn.
 
+
+
+Op elke balans en resultatenrekening van Rotex staat naast elke post een 'Boekjaar N-1'-kolom.
 
 _Grondslag: KB WVV (vergelijkende cijfers — algemene regel)_
 

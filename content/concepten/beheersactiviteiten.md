@@ -36,6 +36,9 @@ Beheersactiviteiten zijn de concrete procedures en handelingen die de ondernemin
 **Waarom?** Een goed IC-systeem combineert minstens uit elke categorie — geen enkele aanpak dekt alles af.
 
 
+
+Bij Yperse Werkplaats BV: toegangsbadge magazijn (fysiek) + dubbele handtekening boven drempel (autorisatie) + maandelijkse stockcount door extern (verificatie) + scheiding aankoop/ontvangst/betaling (segregation).
+
 _Grondslag: COSO-doctrine_
 
 ### Preventief versus detectief 🤖
@@ -45,9 +48,12 @@ Preventief = ontwerpt fouten/fraude weg vóór ze gebeuren (autorisaties, functi
 **Waarom?** Preventief alleen verzwakt door management override; detectief alleen laat fouten doorlopen tot de detectie — soms te laat.
 
 
+
+
 _Grondslag: COSO-doctrine_
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV: (preventief) facturen > € 25.000 vereisen handtekening van CFO David; (detectief) maandelijkse afstemming bank-grootboek door iemand anders dan de boeker; (geautomatiseerd) ERP weigert input van prijs > 20% afwijking van laatste aankoopprijs zonder override.
 

@@ -40,8 +40,9 @@ Ethiek in een onderneming is het geheel van waarden en gedragsregels dat bepaalt
 > Voor accountants en bedrijfsrevisoren is ethiek geregeld in het KB van 1 maart 1998 (plichtenleer) — onafhankelijkheid, geheimhouding, professionele zorgvuldigheid. Bij een externe controleopdracht is dit niet 'zacht' maar afdwingbaar. ⚖️
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV ondertekent elke nieuwe medewerker een gedragscode (integriteit, geheimhouding, geen privé-gebruik bedrijfsmiddelen). Directeur Pieter Vermeulen bespreekt op de jaarlijkse personeelsmeeting twee concrete cases ('wat doe je als een leverancier een geschenk aanbiedt?'). Dit is geen procedure maar cultuur — en zonder die cultuur slijt elke procedure in zes maanden.
 
 ## Bronnen
 

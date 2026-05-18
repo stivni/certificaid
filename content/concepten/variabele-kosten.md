@@ -64,6 +64,7 @@ _Bron: Management accounting — bron-gap_
 - **Vereist kennis van**: [[contributiemarge]]
 - **Vereist kennis van**: [[direct-costing]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Yperse Werkplaats BV verwerkt € 8 wol per tapijt en heeft € 5 variabele machine-energie per stuk. Bij 10.000 tapijten: totale variabele kost € 130.000. Bij 12.000 tapijten: € 156.000. Per stuk blijft het € 13.
 

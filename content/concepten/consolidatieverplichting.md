@@ -76,8 +76,9 @@ _Bron: WVV art. 3:22 jo. art. 3:24 (consortium)_
 
 - **Vereist kennis van**: [[controle]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Aurelia Holding NV controleert Brugse Brouwerij BV (90 %) en Bouwwerf Beerse BV (70 %); samen 380 personeelsleden, 50 mln EUR omzet, 35 mln EUR balans → drempels overschreden → Aurelia is consolidatieplichtig en moet een geconsolideerde jaarrekening + jaarverslag opmaken, laten controleren en neerleggen bij de NBB.
 
 ## Bronnen
 

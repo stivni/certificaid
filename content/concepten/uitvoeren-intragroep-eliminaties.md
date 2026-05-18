@@ -293,3 +293,7 @@ Verwijder weggelaten rechten en verplichtingen uit de toelichting bij de geconso
 **Grondslag**: [[intragroep-eliminaties]] §toelichting-consistentie, KB WVV art. 3:138
 
 
+## Voorbeelden
+
+
+

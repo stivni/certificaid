@@ -80,8 +80,9 @@ _Bron: WVV art. 1:22_
 - **Getriggerd door**: [[vermogensmutatiemethode]]
 - **Vereist kennis van**: [[invloed-van-betekenis]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Antwerpse Investments NV bezit 25 % van de stemrechten in Drukkerij Dendermonde BV; geen controle in feite, geen stemovereenkomst. → weerlegbaar invloed van betekenis → Drukkerij Dendermonde is geassocieerde onderneming van Antwerpse → opname via vermogensmutatie in de geconsolideerde jaarrekening van Antwerpse.
 
 ## Bronnen
 

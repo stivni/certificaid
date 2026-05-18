@@ -37,6 +37,9 @@ Het oude onderscheid uit IAS 17 tussen operationele lease (off-balance) en finan
 **Waarom?** Bedrijven met veel operationele lease (luchtvaart, retail, telecom) hadden onder IAS 17 een veel optisch sterkere balans dan bedrijven die activa kochten — beide leveren dezelfde economische situatie maar de balans verschilde drastisch. IFRS 16 elimineert die vertekening.
 
 
+
+Onder IAS 17 zou Zelena Bio's huurcontract voor de Antwerpse locatie alleen € 480.000 jaarlijkse huurlast tonen — geen activa, geen schulden. Onder IFRS 16 verschijnt € 3.894.000 ROU-actief én € 3.894.000 leaseverplichting in de balans. Debt/equity ratio stijgt zichtbaar. ⚖️
+
 _Grondslag: IFRS 16 alinea 22 (vs. IAS 17)_
 
 ### ROU-actief — wat zit erin ⚖️
@@ -45,6 +48,9 @@ De kostprijs van het ROU-actief bestaat uit (alinea 24): (a) eerste waardering l
 
 **Waarom?** Het ROU-actief moet alle kosten weergeven die nodig waren om het gebruiksrecht te verwerven — niet alleen de contante waarde van toekomstige betalingen. Vooral incidentele installatie- of inrichtingskosten horen erbij.
 
+
+
+Zelena Bio's Antwerpse locatie: contante waarde toekomstige huur € 3.894.000 + sleutelgeld vooruitbetaald € 50.000 + advocatenkosten contractonderhandeling (initiële directe kosten) € 25.000 + geschatte ontmantelingskosten einde huur (verdisconteerd) € 80.000 = ROU-kostprijs € 4.049.000. ⚖️
 
 _Grondslag: IFRS 16 alinea 23-24_
 
@@ -55,6 +61,9 @@ Bij eerste opname tegen de **contante waarde** van leasebetalingen die op aanvan
 **Waarom?** Een lange-termijn huurschuld moet gedisconteerd worden om vergelijkbaar te zijn met andere financieringsvormen. De impliciete rentevoet is theoretisch zuiver; de marginale rentevoet is een redelijke proxy als de impliciete onbekend is.
 
 
+
+Zelena Bio's Antwerpse huur: jaarlijkse betaling € 480.000 over 10 jaar; marginale rentevoet Zelena = 4%. Contante waarde annuïteit = € 480.000 × ((1 − (1,04)^−10) / 0,04) = € 480.000 × 8,1109 = € 3.893.232 ≈ € 3.894.000. ⚖️
+
 _Grondslag: IFRS 16 alinea 26-27_
 
 ### Verwerking in winst of verlies — splitsing ⚖️
@@ -64,6 +73,9 @@ Onder IFRS 16 verschijnen TWEE lasten in winst of verlies: (a) **afschrijving RO
 **Waarom?** Onder IAS 17 stond er één 'huur'-last per periode. Onder IFRS 16 wordt die opgesplitst in afschrijving (operationeel) en rente (financieringskost) — analoog aan een gefinancierde aankoop. Eerste jaren hoger totale last door hogere rente; aflopend over de tijd.
 
 
+
+Zelena Bio jaar 1 (2026): afschrijving ROU € 480.000 (lineair € 4.800.000 / 10) + rentelast € 155.760 (4% × € 3.894.000) = € 635.760 totaal in W&V. Onder IAS 17 zou dit € 480.000 huur zijn. Verschil van € 155.760 reduceert na verloop van tijd. ⚖️
+
 _Grondslag: IFRS 16 alinea 31, 38, 49_
 
 ### Vrijstellingen — kortlopend + lage waarde ⚖️
@@ -72,6 +84,9 @@ Twee leases mogen volgens IAS 17-stijl lineair als kost worden opgenomen (off-ba
 
 **Waarom?** Voor zeer kortlopende of immateriële leases zou on-balance-opname disproportioneel veel administratie kosten zonder substantieel informatievoordeel.
 
+
+
+Zelena Bio least 80 kantoorlaptops (€ 1.200 per stuk, 36 maanden): on-balance (niet kortlopend, niet lage-waarde-uitzondering want dit zijn niet 'kleine kantoormeubelen' in de zin van IFRS 16, en de € 1.200 is onder maar de aard is niet typisch laag-waarde). Een huurlease van een kopieerapparaat aan € 200/maand voor 12 maanden: kortlopend → off-balance, lineair € 200/maand als kost. ⚖️
 
 _Grondslag: IFRS 16 alinea 5-8 + B3-B8_
 
@@ -116,8 +131,28 @@ _Grondslag: IFRS 16 alinea 5-8 + B3-B8_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Zelena Bio NV least een nieuwe productielocatie in Antwerpen: huurperiode 10 jaar, vaste jaarlijkse betaling € 480.000 (€ 40.000/maand), marginale rentevoet van Zelena 4%. Contante waarde betalingen ≈ € 3.894.000. Op aanvangsdatum 1 januari 2026 boekt Zelena: ROU-actief € 3.894.000 + leaseverplichting € 3.894.000. Latere jaren: afschrijving ROU + rentelast op leaseverplichting in winst of verlies.
+### Eerste opname IFRS 16-lease — productielocatie Zelena Bio NV
+
+_Personages: Zelena Bio NV_
+
+Zelena Bio NV least op 1 januari 2026 een productielocatie in Antwerpen: huurperiode 10 jaar, vaste jaarlijkse betaling € 480.000, marginale rentevoet 4 %. Geen aankoopoptie. Bij eerste opname rekent Zelena de contante waarde van de leasebetalingen uit en boekt zowel een met een gebruiksrecht overeenstemmend actief (ROU) als een leaseverplichting.
+
+1. Bereken contante waarde van leasebetalingen: € 480.000 × annuïteitfactor(10 jaar; 4 %) = € 480.000 × 8,1109 = € 3.893.232 ≈ € 3.894.000.
+2. Boek leaseverplichting voor dit bedrag.
+3. Boek ROU-actief voor hetzelfde bedrag (er zijn in dit scenario geen initiële directe kosten of vooruitbetalingen).
+#### Boeking eerste opname IFRS 16-lease — 1 januari 2026
+_Aanvangsdatum lease productielocatie Antwerpen onder IFRS 16._
+
+| Rekening | Debet | Credit |
+|---|---:|---:|
+| ROU-actief (gebouwen) | 3894000 |  |
+| Leaseverplichting (langlopend) |  | 3894000 |
+
+_Bron: IFRS 16 alinea 22-27_ ⚖️
+
 
 ## Bronnen
 

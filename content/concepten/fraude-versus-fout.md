@@ -49,8 +49,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 
 - **Vereist kennis van**: [[materieel-belang-audit]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Meubelzaak Mertens BV stelt Sofie Janssens vast dat de zaakvoerder bewust voorraden heeft overgewaardeerd met € 75.000 om de bank een mooi rapport te tonen → FRAUDE (opzettelijke misleiding). In een andere klantdossier was eenzelfde fout het gevolg van een verkeerd ingegeven Excel-formule → FOUT (onopzettelijk).
 
 ## Bronnen
 

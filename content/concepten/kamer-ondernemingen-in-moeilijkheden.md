@@ -34,6 +34,9 @@ De kamer fungeert als vroegtijdig waarschuwingsmechanisme. Niet bestraffend maar
 **Waarom?** Hoe vroeger problemen worden gedetecteerd, hoe groter de kans op redding van de onderneming en behoud van werkgelegenheid.
 
 
+
+Solaris Sint-Truiden BV heeft 2 kwartalen RSZ-achterstand en heeft de jaarrekening 20X0 niet neergelegd. De kamer nodigt het bestuursorgaan uit voor gesprek.
+
 _Grondslag: Boek XX WER_
 
 
@@ -44,9 +47,6 @@ _Grondslag: Boek XX WER_
 > [!tip]- Signaal voor financiële analyse
 > Een onderneming die opgeroepen werd door de kamer is een rood vlag voor de analist — onafhankelijk van wat de jaarrekening laat zien. Toegankelijke informatie via dossier griffies of openbare bronnen. 🤖
 
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

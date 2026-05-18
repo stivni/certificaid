@@ -121,6 +121,8 @@ Beschrijf het boekhoud- en IT-systeem en de basisstructuur van de interne beheer
 **Grondslag**: [[kennis-van-onderneming-omgeving]] §boekhoudsysteem, ITAA KMO-controlenorm §60
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+
+
 

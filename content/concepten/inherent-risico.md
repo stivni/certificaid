@@ -41,8 +41,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 > _Trigger_: Examen: praat de opgave over de complexiteit van de transacties zelf → inherent risico. Praat ze over zwakheden in de interne controleprocessen → intern beheersingsrisico.
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Rotex Roeselare NV is het inherent risico op voorraadwaardering hoog: complexe productie-eenheid + lange productielijnen met work-in-progress + technologie die verouderd kan zijn. Bij Meubelzaak Mertens BV (handelsvoorraden in showroom) is het inherent risico lager: telbare stuks met aankoopfacturen.
 
 ## Bronnen
 

@@ -37,6 +37,9 @@ Tel de bedrijfsopbrengsten (omzet + andere bedrijfsopbrengsten + voorraadwijzigi
 **Waarom?** Het verschil is wat de onderneming binnen haar eigen muren heeft toegevoegd — beschikbaar om personeel, kapitaal en de overheid te vergoeden.
 
 
+
+Rotex Roeselare NV: bedrijfsopbrengsten € 50.000.000 − aankopen handelsgoederen en diensten € 32.000.000 = toegevoegde waarde € 18.000.000.
+
 _Grondslag: Vakdoctrine financiële analyse_
 
 ### Verdeling over productiefactoren 🤖
@@ -45,6 +48,9 @@ De toegevoegde waarde wordt verdeeld over vier bestemmingen: personeel (lonen + 
 
 **Waarom?** Wie ontvangt welk deel van de gecreëerde welvaart? Dit is de structurele lezing van de resultatenrekening — verklaart waarom hetzelfde bedrijfsmodel verschillend uitpakt afhankelijk van loonkosten- of intrestbeleid.
 
+
+
+Bij Rotex Roeselare NV: van de toegevoegde waarde van € 18.000.000 gaat € 12.000.000 naar personeel (67%), € 600.000 naar financiële kosten (3%), € 1.200.000 naar belastingen (7%) en € 4.200.000 (23%) blijft in de onderneming als brutoresultaat.
 
 _Grondslag: Vakdoctrine financiële analyse_
 

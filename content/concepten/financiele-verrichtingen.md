@@ -36,6 +36,9 @@ _Bron: MAR klasse 65 + 75_
 **Waarom?** Aparte rubriek voor de prijs van financiering en wisselkoersrisico. Helpt om operationele performance te scheiden van schuldlastdruk.
 
 
+
+Uitgeverij Ukkel NV betaalt jaarlijks € 28.500 intrest op € 685.000 hypothecaire lening (4,16 %). Boeking: Debet 650 Intresten op leningen € 28.500 / Credit 550 Bank € 28.500.
+
 _Grondslag: MAR klasse 65_
 
 ### Klasse 75 — Financiële opbrengsten ⚖️
@@ -45,6 +48,9 @@ _Grondslag: MAR klasse 65_
 **Waarom?** Symmetrische tegenhanger van klasse 65. Dividend van een deelneming staat in 750, niet in 70 omzet — duidelijk gescheiden van de operationele cyclus.
 
 
+
+Aurelia Holding NV ontvangt dividend van Brugse Brouwerij BV € 80.000. Boeking: Debet 550 Bank € 80.000 / Credit 7501 Opbrengsten van deelnemingen in verbonden ondernemingen € 80.000.
+
 _Grondslag: MAR klasse 75_
 
 ### Wisselkoersverschillen (654 / 754) ⚖️
@@ -53,6 +59,9 @@ Bij vorderingen of schulden in vreemde valuta ontstaan wisselkoersverschillen tu
 
 **Waarom?** Wisselkoersrisico is geen operationeel maar financieel risico; aparte boeking maakt het zichtbaar voor analyse.
 
+
+
+Uitgeverij Ukkel NV heeft een Britse vordering £ 50.000 (geboekt aan 1,20 = € 60.000) maar bij ontvangst is koers 1,15 → ontvangen € 57.500. Wisselkoersverlies € 2.500 op rekening 654.
 
 _Grondslag: MAR + KB WVV art. 3:39_
 
@@ -83,8 +92,9 @@ _Grondslag: MAR + KB WVV art. 3:39_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Uitgeverij Ukkel NV 20X1: intrestlast hypothecaire lening € 28.500 (rekening 650 Intrestkosten), bankkosten en commissies € 1.250 (657 Diverse financiële kosten), wisselkoersverlies € 850 (654). Tegenover: rente op termijndeposito's € 4.500 (751), dividend op participatie € 18.000 (752 — financiële opbrengsten van FVA). Financieel resultaat = (€ 4.500 + € 18.000) − (€ 28.500 + € 1.250 + € 850) = −€ 7.100.
 
 ## Bronnen
 

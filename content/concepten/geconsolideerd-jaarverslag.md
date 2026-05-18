@@ -76,8 +76,9 @@ _Bron: WVV art. 3:32 (jaarverslag); art. 3:35 (gecondenseerd voor consolidatie)_
 - **Getriggerd door**: [[consolidatieverplichting]]
 - **Vereist kennis van**: [[geconsolideerde-jaarrekening]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Aurelia Holding NV is consolidatieplichtig en maakt jaarlijks zowel een geconsolideerde jaarrekening op als een geconsolideerd jaarverslag dat de evolutie van de groep (Aurelia + Brugse Brouwerij BV + Bouwwerf Beerse BV) bespreekt, met groepsbrede risico's en eigen-aandelen-overzicht.
 
 ## Bronnen
 

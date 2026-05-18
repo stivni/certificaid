@@ -162,3 +162,8 @@ Vergelijk de berekende ratio's met de drempels die in bankcontracten staan.
 **Grondslag**: [[ratio-covenants]] §testdatum-en-testfrequentie
 
 
+## Voorbeelden
+
+
+
+

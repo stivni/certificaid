@@ -36,6 +36,9 @@ Het advies geldt voor vennootschappen, VZW's, IVZW's en stichtingen die voor het
 **Waarom?** CBN-adviezen zijn altijd domeinspecifiek; de scope-afbakening voorkomt verwarring over welk advies geldt in welk scenario.
 
 
+
+Een Belgische openbare GVV (gereglementeerde vastgoedvennootschap) verliest haar GVV-status en is niet langer verplicht om haar statutaire jaarrekening in IFRS op te stellen. Zij keert terug naar BE GAAP voor haar statutaire jaarrekening — CBN 2022/08 begeleidt die overgang. ⚖️
+
 _Grondslag: CBN 2022/08 — Inleiding (alinea 3 en 4)_
 
 ### Continuïteitsbeginsel blijft van toepassing ⚖️
@@ -43,6 +46,8 @@ _Grondslag: CBN 2022/08 — Inleiding (alinea 3 en 4)_
 Het **boekhoudkundig continuïteitsbeginsel** geldt ook bij stelselwissel: de openingsbalans van het eerste BE-GAAP-boekjaar = eindbalans van het voorafgaande boekjaar. Dit is niét dezelfde 'going concern' als bedrijfscontinuïteit (KB WVV art. 3:6 §1) — beide bestaan naast elkaar. Wanneer de aanvangs- en de afsluitingstoestand door waarderingsverschillen moeilijk vergelijkbaar zijn, vermeldt de toelichting dit.
 
 **Waarom?** Continuïteit van de cijferreeks is essentieel voor gebruikers van de jaarrekening; een 'reset' bij stelselwissel zou de tijdreeks breken. Toch staat het advies een uitzondering toe wanneer continuïteit zou leiden tot een waardering in strijd met BE GAAP.
+
+
 
 
 _Grondslag: CBN 2022/08 — Standpunt §Continuïteitsbeginsel; KB WVV art. 3:3 §2_
@@ -54,6 +59,9 @@ Een afwijking van het continuïteitsbeginsel is verantwoord als **beide** voorwa
 **Waarom?** Het advies beschermt zowel de continuïteit (regel) als de getrouwheid van de jaarrekening (uitzondering). Cumulatieve voorwaarden voorkomen lichtvaardig afwijken.
 
 
+
+Een actief stond onder IFRS op fair-value-through-profit-or-loss. Onder BE GAAP (KB WVV art. 3:13) moet het terug naar aanschaffingswaarde. Beide voorwaarden vervuld → uitzondering op continuïteit, herwerking van de openingsbalans verplicht. ⚖️
+
 _Grondslag: CBN 2022/08 — Standpunt §Uitzondering op het boekhoudkundig continuïteitsbeginsel; KB WVV art. 3:58 §5_
 
 ### Herwerking via eigen-vermogen-rekeningen ⚖️
@@ -61,6 +69,9 @@ _Grondslag: CBN 2022/08 — Standpunt §Uitzondering op het boekhoudkundig conti
 Wanneer waardeverschillen uit de openingsbalans moeten verdwijnen, gebeurt dat door rechtstreeks te debiteren of crediteren — **niet via de resultatenrekening**. Voor vennootschappen mag de keuze gaan tussen: rekening 10 *Kapitaal* (of 11 *Inbreng buiten kapitaal* voor kapitaalloze vennootschappen), 11 *Uitgiftepremies*, 132 *Belastingvrije reserves*, 133 *Beschikbare reserves*, of 14 *Overgedragen winst/Overgedragen verlies*. Voor VZW's/stichtingen: vermogen van de vereniging, belastingvrije reserves of overgedragen resultaat. De keuze hangt af van het fiscaal statuut en de gebruikte rekeningen; bij keuze voor kapitaal-rekeningen kan een **statutenwijziging** nodig zijn.
 
 **Waarom?** Een stelselwissel is een fundamenteel-vermogensmatige correctie, geen resultaat van de bedrijfsactiviteit. Boekhoudkundige zuiverheid vereist dat correcties via eigen-vermogen-rekeningen lopen.
+
+
+**In de praktijk**: De Commissie acht het 'aangewezen' om de herwerking via rekening 14 (overgedragen resultaat) te laten lopen, omdat de algemene vergadering toch elke wijziging moet bevestigen (CBN 2022/08 voetnoot 17).
 
 
 _Grondslag: CBN 2022/08 — Standpunt §Aanpassing + Voorbeeld 2; KB WVV art. 3:35 §1_
@@ -72,6 +83,9 @@ MVA worden in de eerste BE-GAAP-openingsbalans opgenomen tegen **aanschaffingswa
 **Waarom?** MVA is de meest voorkomende post waar IFRS (fair-value-model, IAS 16) en BE GAAP (kostprijsmodel met optionele herwaardering) wezenlijk verschillen. CBN 2022/08 expliciteert hoe je beide afstemt zonder de Belgische voorwaarden voor herwaardering te overtreden.
 
 
+
+Een gebouw stond onder IFRS gewaardeerd op € 5.200.000 (revaluation model). Historische aanschaffingswaarde = € 3.000.000, opvolgende investeringen € 200.000. Onder BE GAAP: aanschaffingswaarde = € 3.200.000; herwaarderingsmeerwaarde € 2.000.000 wordt afzonderlijk geboekt mits art. 3:35 §1-voorwaarden vervuld — anders moet de boekwaarde tot € 3.200.000 worden teruggebracht via debitering van een EV-rekening. ⚖️
+
 _Grondslag: CBN 2022/08 — Boekhoudkundige verwerking van materiële vaste activa; KB WVV art. 3:35_
 
 ### Vergelijkende cijfers — concordantietabel ⚖️
@@ -79,6 +93,8 @@ _Grondslag: CBN 2022/08 — Boekhoudkundige verwerking van materiële vaste acti
 KB WVV art. 3:59 vereist dat bij elke rubriek het bedrag van het voorafgaande boekjaar wordt vermeld. Wanneer die bedragen niet vergelijkbaar zijn (door stelselwissel), **mogen** ze worden aangepast met het oog op vergelijkbaarheid — aanpassingen worden in de toelichting vermeld en toegelicht. De Commissie noemt het 'hoogst aangewezen' om de cijfers van het voorafgaande boekjaar **wel** aan te passen en pleit expliciet voor een **concordantietabel** in de toelichting die de overgang van oud-stelsel-cijfers naar BE-GAAP-cijfers per rubriek toont.
 
 **Waarom?** Zonder concordantietabel zou de gebruiker geen vergelijking kunnen maken tussen het eerste BE-GAAP-jaar en het laatste IFRS-jaar — de jaarrekening verliest zijn analytische waarde.
+
+
 
 
 _Grondslag: CBN 2022/08 — Standpunt §Aanpassing van de bedragen; KB WVV art. 3:59 eerste en tweede lid_
@@ -90,6 +106,8 @@ Bij VZW's, IVZW's en stichtingen die voor het eerst boek 3 titel 1 en titel 3 KB
 **Waarom?** VZW-sector heeft historisch een grote diversiteit aan boekhoudpraktijken; de twee methodes geven het bestuursorgaan flexibiliteit zonder de structuur van titels 1 & 3 te ondergraven.
 
 
+
+
 _Grondslag: CBN 2022/08 — Boekhoudkundige beginselen; KB WVV art. 3:175 §1, §2, §3_
 
 ### Herwaarderingsmeerwaarde uit oud stelsel — schrappen ⚖️
@@ -97,6 +115,8 @@ _Grondslag: CBN 2022/08 — Boekhoudkundige beginselen; KB WVV art. 3:175 §1, �
 Wanneer onder IFRS een actief gewaardeerd was tegen fair value (zonder herwaarderingsreserve onder IFRS — fair-value-through-profit-or-loss), en de voorwaarden van KB WVV art. 3:35 §1 zijn níet vervuld voor herwaardering, dan moet het actief in de BE-GAAP-openingsbalans worden teruggebracht tot aanschaffingswaarde. Stond de meerwaarde onder IFRS in een herwaarderingsreserve (rekening 12 *Herwaarderingsmeerwaarden*) en moet die nu verdwijnen, dan debiteert de vennootschap rekening 12 ten belope van het nog niet afgeschreven gedeelte; indien al geïncorporeerd in kapitaal, debiteert ze rekening 10 *Kapitaal* (met bijbehorende statutenwijziging). **Geldbeleggingen** kunnen onder BE GAAP nooit geherwaardeerd worden — *lower of cost or market* (KB WVV art. 3:52) — dus elke fair-value-stijging boven aanschaffingswaarde moet sowieso worden afgeboekt.
 
 **Waarom?** BE GAAP heeft strikte voorwaarden voor herwaardering (duurzaam, vaststaand, exclusief MVA en bepaalde financiële vaste activa). Reële-waarde-waarderingen die onder IFRS toegestaan zijn vallen vaak buiten die voorwaarden, dus de herwerking is geen kosmetische correctie maar een rechtsplicht.
+
+
 
 
 _Grondslag: CBN 2022/08 — Voorbeeld 2; KB WVV art. 3:13, art. 3:35 §1, art. 3:52_
@@ -165,8 +185,29 @@ _Grondslag: CBN 2022/08 — Voorbeeld 2; KB WVV art. 3:13, art. 3:35 §1, art. 3
 - **Vereist kennis van**: [[materiele-vaste-activa]]
 - **Getriggerd door**: [[ifrs-toepassingsgebied-belgie]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+### Herwerking financieel vast actief bij overgang IFRS → BE GAAP
+
+_Personages: Aurelia Holding NV_
+
+Aurelia Holding NV stelt haar statutaire jaarrekening voor het eerst onder BE GAAP op (voorheen IFRS). Zij houdt een deelneming aan onder rubriek 28 *Financiële vaste activa* die onder IFRS gewaardeerd was op fair value through profit or loss (geen herwaarderingsreserve onder IFRS). De werkelijke waarde is € 1.350.000; de historische aanschaffingswaarde € 1.000.000. De voorwaarden van KB WVV art. 3:35 §1 voor een herwaardering zijn niet vervuld.
+
+1. Vaststellen waarderingsverschil: € 1.350.000 (fair value) − € 1.000.000 (aanschaffingswaarde) = € 350.000 surplus uit IFRS-FVTPL.
+2. Toets KB WVV art. 3:35 §1 — herwaardering vereist duurzaam, vaststaand, hoger dan boekwaarde. Niet voldaan.
+3. Beslissing: het financieel vast actief moet in de BE-GAAP-openingsbalans tegen aanschaffingswaarde (€ 1.000.000) staan.
+4. Herwerking via eigen-vermogen-rekeningen (niet via resultatenrekening): rubriek 28 wordt gecrediteerd ten belope van het verschil; tegenboeking op een EV-rekening naar keuze (hier: 14 *Overgedragen winst*).
+5. Concordantietabel in toelichting bij de jaarrekening: rubriek 28 — IFRS € 1.350.000 / BE GAAP € 1.000.000; rubriek 14 — IFRS-cijfer minus € 350.000 → BE-GAAP-cijfer.
+#### Herwerking openingsbalans — financieel vast actief (FVTPL → aanschaffingswaarde)
+_Eénmalige correctieboeking per openingsdatum eerste BE-GAAP-boekjaar._
+
+| Rekening | Debet | Credit |
+|---|---:|---:|
+| 14 — Overgedragen winst _(Doorhalen van fair-value-surplus uit IFRS-stelsel (keuze EV-rekening — alternatief 10/11/132/133))_ | 350000 |  |
+| 28 — Financiële vaste activa (deelneming) _(Terugbrengen tot aanschaffingswaarde € 1.000.000 conform KB WVV art. 3:13)_ |  | 350000 |
+
+_Bron: CBN 2022/08 §Voorbeeld 2 + Standpunt §Aanpassing_ ⚖️
+
 
 ## Bronnen
 

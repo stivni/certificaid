@@ -38,6 +38,9 @@ Je verhoogt het belang in een geassocieerde maar blijft onder de controlegrens �
 **Waarom?** Geen kwalificatieverandering = geen wisseling van techniek. De vermogensmutatie blijft de juiste methode; alleen het bedrag en het residu groeien mee.
 
 
+
+Antwerpse Investments NV bezit 25 % in Drukkerij Dendermonde BV (vermogensmutatie) en koopt 5 % bij voor € 75.000 → nu 30 %, nog steeds geassocieerd → 'Vennootschappen waarop vermogensmutatie is toegepast' wordt verhoogd met het pro-rata bedrag + eventueel consolidatieverschil op de bijkomende 5 %.
+
 _Grondslag: CBN 2013/3_
 
 ### Variant 2 — geassocieerde wordt dochter ⚖️
@@ -47,6 +50,9 @@ Je verhoogt het belang en overschrijdt de controlegrens — de geassocieerde wor
 **Waarom?** Een wisseling van consolidatietechniek wijst op een fundamenteel andere economische werkelijkheid: van 'meepraten over beleid' naar 'beleid bepalen'. De jaarrekening moet die overgang weergeven.
 
 
+
+Antwerpse bezit 25 % in Drukkerij Dendermonde (vermogensmutatie). In 20X3 koopt Antwerpse 35 % bij voor € 700.000 → totaal 60 % → exclusieve controle → integrale consolidatie. Voor de bijkomende 35 % wordt een nieuw consolidatieverschil berekend op datum 20X3.
+
 _Grondslag: CBN 2013/3_
 
 ### Variant 3 — niet-geassocieerde wordt geassocieerd ⚖️
@@ -55,6 +61,9 @@ Eerste verwerving van een belang dat invloed van betekenis triggert (typisch ≥
 
 **Waarom?** Bij het kantelmoment 'geen invloed → invloed van betekenis' begin je effectief met consolideren — er moet dus een eerste consolidatieverschil worden vastgesteld, op basis van de aanschaffingsdatum van de eerste tranche.
 
+
+
+Antwerpse Investments NV verwerft in 20X1 een eerste tranche van 25 % in Drukkerij Dendermonde BV voor € 350.000; eigen vermogen (EV) Drukkerij op aankoopdatum = € 1.250.000 → pro-rata = € 312.500; consolidatieverschil = € 350.000 − € 312.500 = € 37.500, te boeken bij eerste consolidatie via vermogensmutatie.
 
 _Grondslag: CBN 2013/3_
 
@@ -126,8 +135,9 @@ _Grondslag: CBN 2013/3_
 - **Getriggerd door**: [[eerste-consolidatie]]
 - **Vereist kennis van**: [[consolidatieverschil]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Antwerpse Investments NV verwerft in 20X1 een eerste tranche van 25 % in Drukkerij Dendermonde BV (aanschaffingswaarde € 350.000) → invloed van betekenis → vermogensmutatie. In 20X3 koopt Antwerpse 35 % bij (aanschaffingswaarde € 700.000) → totaal 60 % → kantelpunt naar exclusieve controle → vanaf dan integrale consolidatie van Drukkerij Dendermonde in de geconsolideerde jaarrekening van Antwerpse.
 
 ## Bronnen
 

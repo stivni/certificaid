@@ -99,8 +99,9 @@ _Bron: WVV art. 1:14, § 2 jo. art. 1:16_
 
 - **Getriggerd door**: [[integrale-consolidatie]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Aurelia Holding NV bezit 80 % van de stemrechten in Brugse Brouwerij BV. → onweerlegbaar exclusieve controle in rechte (WVV art. 1:14, § 2) → integrale consolidatie van Brugse in de geconsolideerde jaarrekening van Aurelia.
 
 ## Bronnen
 

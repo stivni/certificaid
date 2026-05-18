@@ -180,3 +180,8 @@ Wijs een opdrachtverantwoordelijke aan, beoordeel of een opdracht-kwaliteitsrevi
 **Grondslag**: [[kwaliteitsbeheersing-opdrachtniveau]] §aanvaarding, ITAA KMO-controlenorm §47
 
 
+## Voorbeelden
+
+
+
+

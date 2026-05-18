@@ -40,6 +40,9 @@ Een CBN-advies is geen wet. Toch volgen accountants, commissarissen en rechters 
 **Waarom?** Zo houdt de boekhoudpraktijk eenduidigheid in een gebied waar de wet niet alles regelt.
 
 
+
+Sofie Janssens (commissaris) wijkt af van CBN-advies 2018/15 over voorzieningen → ze moet dat schriftelijk motiveren in haar verslag.
+
 _Grondslag: CBN-advies 14/1; geen wettelijke bindingstekst_
 
 ### Twee functies: interpreteren + voorbeeldvorming 🤖
@@ -49,6 +52,9 @@ Een CBN-advies (1) verduidelijkt open wetsbegrippen (bv. 'getrouw beeld', 'voorz
 **Waarom?** Voor de stagiair is functie 2 vooral nuttig: hier vind je concrete boekingsschema's die in de wet niet staan.
 
 
+
+CBN-advies 2018/14 geeft uitgewerkte boekingsvoorbeelden voor belastingen op het resultaat — niet in het KB-WVV te vinden.
+
 _Grondslag: CBN-advies 14/1 (adviesbevoegdheid)_
 
 ### Nummering en updates 🤖
@@ -57,6 +63,9 @@ CBN-adviezen worden chronologisch genummerd per jaar (bv. 2022/03 = derde advies
 
 **Waarom?** Een verouderd advies (bv. uit het Wetboek Vennootschappen-tijdperk) kan vervangen zijn door een WVV-conforme update.
 
+
+
+CBN-advies 2017/10 'Groottecriteria art. 15 W.Venn.' — verwijst nog naar het oude W.Venn., dus check of er een WVV-update is.
 
 _Grondslag: Praktijk CBN; geen wetsregel_
 
@@ -101,8 +110,9 @@ _Grondslag: Praktijk CBN; geen wetsregel_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Moet Solaris Sint-Truiden BV haar effectenportefeuille als financiële vaste activa of als geldbelegging boeken? → CBN-advies 2020/16 verduidelijkt het onderscheid voor effecten met houdintentie.
 
 ## Bronnen
 

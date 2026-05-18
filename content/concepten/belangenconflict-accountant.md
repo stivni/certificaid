@@ -41,8 +41,9 @@ _Bron: KB plichtenleer art. 11_
 > Het belangenconflict van een vennoot of vaste medewerker besmet de hele accountantsvennootschap. Toets dus altijd ook de positie van vennoten en medewerkers, niet alleen die van de opdrachtpartner. ⚖️
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Sofie Janssens controleert Meubelzaak Mertens BV. Halfweg de opdracht vraagt de zaakvoerder haar ook om een verkoop te bemiddelen tussen zijn vennootschap en een koper waarvoor zij ook fiscaal advies geeft. Belangenconflict → opdracht weigeren of zich terugtrekken uit één van beide rollen.
 
 ## Bronnen
 

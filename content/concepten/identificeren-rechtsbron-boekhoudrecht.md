@@ -138,3 +138,8 @@ Schrijf het cliëntantwoord en vermeld voor elke claim de exacte bron.
 **Grondslag**: [[belgisch-boekhoudrecht]] §grondslag-vermelding (praktijk-discipline)
 
 
+## Voorbeelden
+
+
+
+

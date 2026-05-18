@@ -182,3 +182,8 @@ Beschrijf de monitoring-rol van kredietverleners via ratio-covenants.
 **Grondslag**: [[ratio-covenants]] §testdatum-en-testfrequentie
 
 
+## Voorbeelden
+
+
+
+

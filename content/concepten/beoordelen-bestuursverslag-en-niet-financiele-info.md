@@ -184,3 +184,8 @@ Lees het commissarisverslag op voorbehouden, paragrafen ter benadrukking en kern
 **Grondslag**: [[commissaris-toezicht-jaarrekening]] §rol-onafhankelijk-oordeel
 
 
+## Voorbeelden
+
+
+
+

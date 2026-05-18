@@ -1,0 +1,72 @@
+{% for illustratie in illustraties %}
+{% if illustratie.titel %}
+#### {{ illustratie.titel }}{% if illustratie.confidence is defined %} {{ illustratie.confidence | confidence_label }}{% endif %}
+
+{% endif %}
+{% if illustratie.type == 'boeking' %}
+{% set rijen = illustratie.rijen | default([]) %}
+{% set debet_totaal = namespace(som=0) %}
+{% set credit_totaal = namespace(som=0) %}
+{% for rij in rijen %}
+{% if rij.debet %}{% set debet_totaal.som = debet_totaal.som + rij.debet %}{% endif %}
+{% if rij.credit %}{% set credit_totaal.som = credit_totaal.som + rij.credit %}{% endif %}
+{% endfor %}
+{% if illustratie.context %}
+_{{ illustratie.context }}_
+
+{% endif %}
+| Rekening | Debet | Credit |
+|---|---:|---:|
+{% for rij in rijen %}
+| {{ rij.rekening }}{% if rij.omschrijving is defined %} _({{ rij.omschrijving }})_{% endif %} | {% if rij.debet %}{{ rij.debet | int }}{% endif %} | {% if rij.credit %}{{ rij.credit | int }}{% endif %} |
+{% endfor %}
+{% if debet_totaal.som != credit_totaal.som %}
+
+> [!warning] Boekingscontrole
+> Debettotaal ({{ debet_totaal.som | int }}) ≠ Credittotaal ({{ credit_totaal.som | int }}) — controleer de boeking.
+{% endif %}
+
+{% elif illustratie.type == 'balans-fragment' %}
+{% if illustratie.context %}
+_{{ illustratie.context }}_
+
+{% endif %}
+{% if illustratie.data is defined %}
+{{ illustratie.data }}
+{% elif illustratie.activa is defined or illustratie.passiva is defined %}
+| Activa | Bedrag | Passiva | Bedrag |
+|---|---:|---|---:|
+{% set activa_rijen = illustratie.activa | default([]) %}
+{% set passiva_rijen = illustratie.passiva | default([]) %}
+{% set rij_count = [activa_rijen | length, passiva_rijen | length] | max %}
+{% for i in range(rij_count) %}
+| {% if i < activa_rijen | length %}{{ activa_rijen[i].post | default('') }}{% endif %} | {% if i < activa_rijen | length %}{{ activa_rijen[i].bedrag | default('') }}{% endif %} | {% if i < passiva_rijen | length %}{{ passiva_rijen[i].post | default('') }}{% endif %} | {% if i < passiva_rijen | length %}{{ passiva_rijen[i].bedrag | default('') }}{% endif %} |
+{% endfor %}
+{% endif %}
+
+{% elif illustratie.type == 'verslag-fragment' %}
+{% set verslag_label = illustratie.verslag_type | default('Verslag') %}
+> **{{ verslag_label }}**
+{% if illustratie.tekst is defined %}
+>
+> {{ illustratie.tekst | replace('\n', '\n> ') }}
+{% elif illustratie.data is defined %}
+>
+> {{ illustratie.data | replace('\n', '\n> ') }}
+{% endif %}
+
+{% elif illustratie.type == 'mermaid-diagram' %}
+{% if illustratie.caption is defined %}
+_{{ illustratie.caption }}_
+
+{% endif %}
+```mermaid
+{{ illustratie.code }}
+```
+
+{% endif %}
+{% if illustratie.source is defined %}
+_Bron: {{ illustratie.source.short }}_
+
+{% endif %}
+{% endfor %}

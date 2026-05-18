@@ -38,6 +38,9 @@ WVV art. 1:28: kleine vereniging als max één van drie drempels overschreden �
 **Waarom?** Indeling die parallel loopt met de vennootschapsindeling, maar met aangepaste drempels voor de zeer kleine groep.
 
 
+
+VZW Quelle de Vie ontvangsten € 250.000 → onder zeer-kleine-drempel → vereenvoudigde boekhouding toegestaan. Maar als de vereniging dat wil, kan zij wel het schema voor kleine verenigingen kiezen.
+
 _Grondslag: WVV art. 1:28-1:29_
 
 ### Verschillen met vennootschapsjaarrekening ⚖️
@@ -47,6 +50,9 @@ _Grondslag: WVV art. 1:28-1:29_
 **Waarom?** Verenigingen werken anders dan vennootschappen — geen aandeelhouders, geen winstoogmerk in juridische zin.
 
 
+
+VZW Quelle de Vie genereert € 250.000 omzet via café-uitbating + € 15.000 lidgelden + € 8.000 subsidies → drie aparte rubrieken in RR.
+
 _Grondslag: KB-WVV art. 3:184 e.v. + bijlagen verenigingen_
 
 ### Neerlegging bij griffie (zeer klein) of NBB (klein/groot) ⚖️
@@ -55,6 +61,9 @@ Zeer kleine verenigingen leggen hun jaarrekening neer bij de griffie van de onde
 
 **Waarom?** Praktische uitzondering voor de allereenvoudigste verenigingen — griffie-neerlegging is goedkoper en directer.
 
+
+
+VZW Quelle de Vie groeit boven € 391.000 ontvangsten → vanaf dan klein → neerlegging bij NBB-Balanscentrale, niet meer griffie.
 
 _Grondslag: WVV art. 3:47 (verenigingen)_
 
@@ -83,8 +92,9 @@ _Grondslag: WVV art. 3:47 (verenigingen)_
 
 - **Vereist kennis van**: [[vennootschapsvormen-typologie]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+VZW Quelle de Vie (kleine VZW met economische activiteit, € 250.000 omzet, 3 werknemers) → verkort VZW-schema; balans toont 'Fondsen van de vereniging' i.p.v. 'Kapitaal'.
 
 ## Bronnen
 

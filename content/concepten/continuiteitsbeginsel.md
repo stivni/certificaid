@@ -42,6 +42,9 @@ Tenzij anders blijkt, wordt de jaarrekening opgemaakt alsof de onderneming nog j
 **Waarom?** Een onderneming-in-werking heeft economisch nut uit haar activa over de tijd. Een liquidatiewaardering ('alles verkopen morgen') zou systematisch te laag uitkomen en het bedrijf onterecht als noodlijdend voorstellen.
 
 
+
+Het bedrijfspand van Rotex Roeselare NV (boekwaarde € 850.000, executiewaarde bij gedwongen verkoop € 620.000) blijft tegen € 850.000 op de balans staan zolang de NV actief is — going concern speelt door.
+
 _Grondslag: Richtlijn 2013/34/EU art. 6, lid 1, a); KB 21/10/2018_
 
 ### Uitzondering: discontinuïteit ⚖️
@@ -51,6 +54,9 @@ Wanneer het bestuursorgaan vaststelt dat de onderneming niet meer levensvatbaar 
 **Waarom?** Going concern berust op een feitelijke vooronderstelling. Als die wegvalt, mag de jaarrekening de werkelijkheid niet langer 'mooier' voorstellen dan ze is — gebruikers zouden anders misleid worden.
 
 
+
+Verffabriek Veurne BV heeft op 15 november 20X1 een vereffeningsbesluit. Bij afsluiting 31/12 worden de naaimachines van € 12.000 boekwaarde geherwaardeerd naar verwachte verkoopopbrengst € 4.500; een voorziening voor stopzettingskosten van € 35.000 wordt geboekt.
+
 _Grondslag: CBN 2018/18; KB WVV art. 3:6_
 
 ### Continuïteitsbeoordeling door bestuursorgaan ⚖️
@@ -59,6 +65,9 @@ Het bestuursorgaan beoordeelt jaarlijks bij afsluiting of de onderneming nog lev
 
 **Waarom?** De wettelijke 'going concern'-default mag geen excuus zijn om problemen te negeren. Het bestuursorgaan moet actief beoordelen — niet passief veronderstellen.
 
+
+
+Bestuurder Marleen De Cock van Brugse Brouwerij BV stelt eind 20X1 vast: de NV heeft 3 jaar verlies, eigen vermogen daalt onder de helft van het kapitaal (alarmprocedure WVV art. 7:228). Beoordeling: continuïteit nog mogelijk mits sanering → going concern, maar met toelichting in jaarverslag.
 
 _Grondslag: CBN 2018/18 §verslaggeving_
 
@@ -88,8 +97,9 @@ _Grondslag: CBN 2018/18 §verslaggeving_
 - **Vereist kennis van**: [[waarderingsregels]]
 - **Getriggerd door**: [[vereffening]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Naaiatelier Ninove BV koopt een naaimachine voor € 24.000 met geschatte gebruiksduur van 6 jaar. Onder going concern: afschrijving € 4.000/jaar, restwaarde aan eind van jaar 3 op de balans = € 12.000. Bij stopzetting in jaar 3 (uitzondering): waardering naar liquidatiewaarde, bv. tweedehandsmarkt € 7.500 → bijkomende afschrijving € 4.500 in jaar 3.
 
 ## Bronnen
 

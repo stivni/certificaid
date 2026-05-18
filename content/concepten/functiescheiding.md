@@ -36,6 +36,9 @@ Functiescheiding is het verdelen van vier kritische taken — autoriseren, uitvo
 **Waarom?** Wie alle vier doet, kan elke transactie en zijn boekhoudkundige sporen manipuleren zonder controle.
 
 
+
+Bij Meubelzaak Mertens BV deed één werknemer kasontvangsten + bankreconciliatie + boekhouding. Detectie van € 15.000 verduistering kwam pas na 2 jaar — gemiste functiescheiding.
+
 _Grondslag: Internationaal audit-doctrine (COSO, ISA 315)_
 
 ### Incompatibele combinaties 🤖
@@ -45,6 +48,9 @@ Combinaties die nooit bij één persoon mogen liggen: (a) kasontvangst + bankboe
 **Waarom?** Elke combinatie geeft één persoon de macht om een fictieve transactie te creëren en de boekhoudkundige bewijzen te wissen.
 
 
+
+Combinatie 'HR-aanmelding + loonbetaling' = risico op fictieve werknemer ('ghost employee'). Bij Yperse Werkplaats BV maakt HR de loonberekening; CFO David tekent het bestand digitaal vóór upload naar de bank.
+
 _Grondslag: Internationaal audit-doctrine_
 
 ### KMO-uitdaging ⚖️
@@ -53,6 +59,9 @@ Bij kleine ondernemingen is volledige vier-functies-scheiding onmogelijk — er 
 
 **Waarom?** Geen scheiding zonder compensatie = open deur voor fouten en fraude. De ITAA-norm-kmo-controlenorm erkent deze specifieke context.
 
+
+
+Bij Praktijk Persenaire (eenmanszaak vrij beroep) doet de zaakvoerder alles zelf. Compensatie: de externe accountant doet maandelijks een kasreconciliatie en bekijkt de bankafschriften.
 
 _Grondslag: ITAA-norm-kmo-controlenorm §96_
 
@@ -81,8 +90,9 @@ _Grondslag: ITAA-norm-kmo-controlenorm §96_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV is een aankoop verdeeld over vier personen: (1) inkoper Anna autoriseert de bestelling, (2) magazijnier Bart neemt goederen in ontvangst, (3) boekhouder Cindy registreert de factuur, (4) financieel verantwoordelijke David tekent de betaling. Als één van hen iets verdraait, ontdekt iemand anders het in zijn kruiscontrole. Fraude vereist samenspanning van minstens twee — exponentieel moeilijker.
 
 ## Bronnen
 

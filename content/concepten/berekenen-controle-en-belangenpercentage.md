@@ -176,3 +176,8 @@ Gebruik het belangenpercentage als rekenmaatstaf voor de bedragen in de geconsol
 **Grondslag**: [[belangenpercentage]] §toepassing, KB WVV art. 3:137 en 3:141
 
 
+## Voorbeelden
+
+
+
+

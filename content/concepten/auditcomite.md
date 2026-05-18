@@ -44,6 +44,7 @@ Een auditcomité is een gespecialiseerd comité binnen de raad van bestuur, same
 
 - **Vereist kennis van**: [[interne-audit]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Rotex Roeselare NV (beursgenoteerd) telt het auditcomité 3 niet-uitvoerende bestuurders, waaronder Robert Vandenberghe (ex-CFO van een bank, onafhankelijk + financiële expertise). Het comité vergadert 4x per jaar, ontvangt het IA-rapport van Sofie Janssens, bespreekt management letter van commissaris Wolters & Partners CVBA, valideert de jaarrekening vóór ze naar de RvB gaat.
 

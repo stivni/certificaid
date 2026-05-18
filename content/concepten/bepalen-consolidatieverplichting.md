@@ -216,3 +216,8 @@ Stel de eindconclusie op voor de cliënt op basis van stappen 1 tot 5.
 **Grondslag**: [[consolidatieverplichting]] §eindkwalificatie (praktijk-synthese)
 
 
+## Voorbeelden
+
+
+
+

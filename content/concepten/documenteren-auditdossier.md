@@ -123,6 +123,8 @@ Sluit het dossier binnen 60 dagen na ondertekening van het verslag definitief af
 > _Grondslag_: [[controledocumentatie]] §file-assembly-cut-off
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+
+
 

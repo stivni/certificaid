@@ -61,12 +61,12 @@ _Bron: {{ hoofdveld.source.short }}_
 ## Kerninzichten
 
 {% for ki in record.kerninzichten %}
-- {{ ki.text }} {{ ki.confidence | default('inferred') | confidence_label }}
+{{ loop.index }}. {{ ki.text }} {{ ki.confidence | default('inferred') | confidence_label }}
 {% if ki.rationale %}
-  - _Rationale_: {{ ki.rationale }}
+   _Rationale_: {{ ki.rationale }}
 {% endif %}
-{% endfor %}
 
+{% endfor %}
 {% endif %}
 {% if record.verwante_competenties %}
 ## Verwante competenties
@@ -160,14 +160,30 @@ _Bron: {{ hoofdveld.source.short }}_
 {% endfor %}
 
 {% endif %}
+{% if record.illustraties %}
+## Illustraties
+
+{% set illustraties = record.illustraties %}
+{% include 'partials/illustraties.md.j2' %}
+
+{% endif %}
+{% if record.voorbeelden %}
+## Voorbeelden
+
+{% set voorbeelden = record.voorbeelden %}
+{% include 'partials/voorbeelden.md.j2' %}
+
+{% endif %}
 {% set heeft_voorbeeld = namespace(waarde=false) %}
 {% if record.voorbeeld_inline %}{% set heeft_voorbeeld.waarde = true %}{% endif %}
+{% if record.voorbeelden %}{% set heeft_voorbeeld.waarde = true %}{% endif %}
+{% if record.illustraties %}{% set heeft_voorbeeld.waarde = true %}{% endif %}
 {% for m in record.berekeningsmethode | default([]) %}
   {% if m.concreet_voorbeeld %}{% set heeft_voorbeeld.waarde = true %}{% endif %}
   {% for f in m.formules | default([]) %}{% if f.invulling_voorbeeld %}{% set heeft_voorbeeld.waarde = true %}{% endif %}{% endfor %}
 {% endfor %}
 {% for s in record.stappen | default([]) %}{% if s.voorbeeld %}{% set heeft_voorbeeld.waarde = true %}{% endif %}{% endfor %}
-{% for b in record.bouwstenen | default([]) %}{% if b is mapping and b.voorbeeld_inline %}{% set heeft_voorbeeld.waarde = true %}{% endif %}{% endfor %}
+{% for b in record.bouwstenen | default([]) %}{% if b is mapping and (b.voorbeeld_inline or b.voorbeelden or b.illustraties) %}{% set heeft_voorbeeld.waarde = true %}{% endif %}{% endfor %}
 {% if not heeft_voorbeeld.waarde %}
 > [!todo] Voorbeeld ontbreekt voor dit concept
 > Een latere ENRICH-pass voegt een synthese-voorbeeld toe.

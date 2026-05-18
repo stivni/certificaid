@@ -81,8 +81,9 @@ _Bron: CBN 2012/12_
 
 - **Vereist kennis van**: [[consolidatiekring]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Kappers Köln GmbH (Duitse top-moeder) bezit 95 % van Aurelia Holding NV; Aurelia bezit 80 % van Brugse Brouwerij BV. Kappers Köln consolideert hogerop alle drie samen onder een gelijkwaardige standaard. Aurelia en Brugse zijn niet genoteerd → Aurelia is vrijgesteld van subconsolidatie en hoeft géén eigen geconsolideerde jaarrekening op te stellen.
 
 ## Bronnen
 

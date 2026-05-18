@@ -158,3 +158,8 @@ Bij concreet vermoeden: voer een fact-finding-onderzoek uit, betrek juridische e
 > _Grondslag_: [[fraude]] §onderzoek, Strafwetboek art. 479-488
 
 
+## Voorbeelden
+
+
+
+

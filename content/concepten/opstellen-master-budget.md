@@ -188,3 +188,7 @@ Beslis of het budget statisch (één volume) of flexibel (meerdere volume-scenar
 > _Grondslag_: [[flexibel-budget]] §gebruik-in-variantie-analyse
 
 
+## Voorbeelden
+
+
+

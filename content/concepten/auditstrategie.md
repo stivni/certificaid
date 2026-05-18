@@ -36,8 +36,9 @@ _Bron: ITAA KMO-controlenorm §71-§72_
 > (1) Kenmerken van de opdracht die de reikwijdte bepalen (bv. versterkte controle bij eerstejaars-opdracht). (2) Doelstellingen voor het uit te brengen verslag (timing + aard van communicaties). (3) Professionele oordeelsfactoren om het team te sturen. (4) Resultaten van eerder werk en relevante ervaring met de cliënt. (5) Aard, timing en omvang van benodigde middelen. ⚖️
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Voor Rotex Roeselare NV 2025 legt Sofie Janssens de auditstrategie vast in oktober: scope volledige jaarrekening + jaarverslag-consistentie + IFRS-toelichtingen, twee fases (interim december + eindfase februari), team van 5 personen (1 senior + 3 juniors + zijzelf), externe valuator voor goodwill-impairment, deadline verslag = 15 maart 2026.
 
 ## Bronnen
 

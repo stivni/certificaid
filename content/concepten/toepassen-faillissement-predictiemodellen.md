@@ -215,3 +215,7 @@ Combineer de output van Altman én Ohlson met kwalitatieve signalen uit het best
 > _Grondslag_: [[kwantitatieve-financiele-diagnose]] §in_praktijk
 
 
+## Voorbeelden
+
+
+

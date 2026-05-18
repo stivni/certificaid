@@ -171,3 +171,9 @@ Reclasseer naar kortlopende schuld in het laatste jaar; boek aflossing tegen par
 **Grondslag**: [[obligatielening]] §aflossing, [[schulden]] §reclassificatie-LT-KT
 
 
+## Voorbeelden
+
+
+
+
+

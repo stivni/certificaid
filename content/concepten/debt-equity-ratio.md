@@ -41,6 +41,9 @@ Tel alle schulden samen (voorzieningen + uitgestelde belastingen + schulden > 1 
 **Waarom?** Schuldgraad maakt de hefboom rechtstreeks zichtbaar: bij stijgend resultaat versterkt schuld het ROE; bij dalend resultaat versterkt schuld ook het verlies voor de aandeelhouder.
 
 
+
+Rotex Roeselare NV: schulden totaal € 18.000.000; eigen vermogen € 12.000.000. Debt-equity = € 18.000.000 / € 12.000.000 = 1,5.
+
 _Grondslag: Vakdoctrine financial analysis_
 
 

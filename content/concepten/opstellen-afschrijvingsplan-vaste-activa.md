@@ -163,3 +163,9 @@ Pas het afschrijvingsplan aan indien levensduur, restwaarde of gebruikspatroon m
 **Grondslag**: [[afschrijvingen]] §planherziening, [[waardeverminderingen]] §vaste-activa, CBN 2017/16
 
 
+## Voorbeelden
+
+
+
+
+

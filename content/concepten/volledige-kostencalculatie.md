@@ -38,6 +38,9 @@ Tel het verbruikte materiaal en de directe arbeid van elk product op via werkbon
 
 
 
+Yperse Werkplaats BV registreert per order 'partij tapijten': € 12.000 wol + € 4.500 directe arbeid = € 16.500 directe kost.
+
+
 ### Stap 2: indirecte kosten via sleutel 🤖
 
 Verzamel alle indirecte kosten per kostencentrum. Bepaal een verdeelsleutel (directe arbeidsuren, machine-uren, materiaalkost). Bereken sleutel-tarief en pas toe op het product.
@@ -46,12 +49,18 @@ Verzamel alle indirecte kosten per kostencentrum. Bepaal een verdeelsleutel (dir
 
 
 
+Yperse Werkplaats BV: € 1.200.000 indirect bij Weverij / 30.000 arbeidsuren = € 40/uur. Partij tapijten gebruikt 90 uur → € 3.600 toegerekend.
+
+
 ### Stap 3: vervaardigingsprijs of bedrijfskostprijs 🤖
 
 Som direct + indirect = vervaardigingsprijs (wettelijk voor voorraad). Voor interne marge-analyse kan ook commerciële en administratieve overhead worden toegevoegd → 'bedrijfskostprijs'.
 
 **Waarom?** Onderscheid: vervaardigingsprijs voor balans (CBN 132/7); bedrijfskostprijs voor prijszetting en winstgevendheid-analyse.
 
+
+
+Yperse Werkplaats BV: vervaardigingsprijs partij tapijten = € 20.100. Bij toevoeging van commercieel + administratief (€ 1.800 via sleutel) → bedrijfskostprijs € 21.900. Verkoopprijs € 30.000 → marge € 8.100.
 
 
 
@@ -80,9 +89,6 @@ Som direct + indirect = vervaardigingsprijs (wettelijk voor voorraad). Voor inte
 > ⚠️ 'Volledig' betekent in wettelijke zin alleen productie-overhead; in management-zin kan het ook administratie + commercieel zijn. Examen-valkuil: studenten gooien beide categorieën in dezelfde 'volledige' kostprijs zonder onderscheid → fout bij voorraadwaardering-vraag. 🤖
 
 
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

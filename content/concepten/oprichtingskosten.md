@@ -38,6 +38,9 @@ Twee mogelijkheden: (1) de oprichtingskost meteen ten laste nemen in het boekjaa
 **Waarom?** Activeren spreidt de kost over meerdere jaren waarin de onderneming de baten geniet (matching). Meteen ten laste nemen is conservatiever en transparanter. Beide zijn toegelaten.
 
 
+
+Meubelzaak Mertens BV maakt bij kapitaalverhoging notariskosten van € 4.500. Keuze: ofwel meteen Debet 6181 Andere financiële kosten € 4.500, ofwel Debet 200 € 4.500 → activering en afschrijving over minstens 5 jaar.
+
 _Grondslag: KB WVV art. 3:36_
 
 ### Minimaal 20 % afschrijving per jaar ⚖️
@@ -46,6 +49,9 @@ Geactiveerde oprichtingskosten worden afgeschreven per jaarlijkse tranches van *
 
 **Waarom?** Oprichtingskosten hebben geen tastbare onderliggende waarde die jaren mee gaat. De wetgever forceert een snelle afbouw om geen 'spookactivum' lang op de balans te houden.
 
+
+
+Oprichtingen Oostende BV activeert € 5.600 → maximaal 5 jaar afschrijven aan € 1.120/jaar. Mag sneller: bv. € 2.000/jaar over 3 jaar, of meteen € 5.600 in jaar 1.
 
 _Grondslag: KB WVV art. 3:37_
 
@@ -56,6 +62,9 @@ Kosten bij de uitgifte van een lening (obligatielening, bankkosten, noteringskos
 **Waarom?** Uitgiftekosten hebben een direct verband met de lening waarvan de looptijd vastligt; matching met de rentelast over de hele looptijd is logischer dan een geforceerde 5-jaars-afschrijving.
 
 
+
+Uitgeverij Ukkel NV geeft een obligatielening uit op 10 jaar; uitgiftekosten € 35.000. Activering op rekening 201 'Kosten bij uitgifte van leningen' en afschrijving over 10 jaar = € 3.500/jaar (in plaats van € 7.000 over 5 jaar).
+
 _Grondslag: KB WVV art. 3:37, tweede zin_
 
 ### Herstructureringskosten — strikte voorwaarden ⚖️
@@ -65,6 +74,9 @@ Herstructureringskosten mogen alleen worden geactiveerd als: (1) het gaat om wel
 **Waarom?** Zonder strikte voorwaarden zou elke kost als 'herstructurering' kunnen worden afgevoerd naar de balans — wat het resultaat artificieel zou opkrikken. De wetgever beperkt dit tot duidelijk-duurzame ingrepen.
 
 
+
+Rotex Roeselare NV reorganiseert haar productieafdeling met sluiting van een vestiging; ontslagvergoedingen € 280.000, advieskosten € 45.000 = totaal € 325.000. Activering op rekening 204 'Herstructureringskosten' alleen mogelijk als duurzaam rentabiliteitseffect aantoonbaar; motivatie in toelichting. Anders meteen kost.
+
 _Grondslag: KB WVV art. 3:36, tweede zin; CBN 2011/24_
 
 ### Aftrek van bedrijfs- of financiële kosten — zichtbaarheid ⚖️
@@ -73,6 +85,9 @@ Wanneer herstructureringskosten met het karakter van bedrijfskosten/financiële 
 
 **Waarom?** De gebruiker mag niet misleid worden door een artificieel verlaagde kostenlijn; het effect moet expliciet zichtbaar zijn naast de bruto-kosten.
 
+
+
+Bij Rotex Roeselare NV: bedrijfskosten 20X1 zijn bruto € 8.450.000 inclusief herstructureringskosten € 280.000. Op de RR verschijnt: bedrijfskosten € 8.450.000 — geactiveerde herstructureringskosten −€ 280.000 = € 8.170.000 netto.
 
 _Grondslag: KB WVV art. 3:36, derde zin_
 
@@ -215,6 +230,10 @@ Resultaat: Op de balans staat in jaar 1 onder rubriek 20: aanschaffingswaarde �
 ## Zie ook
 
 - **Getriggerd door**: [[obligatielening]]
+
+## Voorbeelden
+
+Oprichtingen Oostende BV wordt opgericht met notariskosten € 3.200, advieskosten € 1.800, registratierechten € 600 → totaal € 5.600 oprichtingskosten. De BV kiest om te activeren op rekening 200 'Kosten van oprichting en kapitaalverhoging' aan de actiefzijde. Afschrijvingsplan: 20 % per jaar = € 1.120/jaar gedurende 5 jaar. Eerste jaar: Debet 6300 Afschrijvingen oprichtingskosten € 1.120 / Credit 2009 Afschrijvingen op oprichtingskosten € 1.120.
 
 ## Bronnen
 

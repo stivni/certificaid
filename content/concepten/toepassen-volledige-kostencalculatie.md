@@ -182,3 +182,7 @@ Bereken per hoofd-centrum een opslag-tarief (bv. per machine-uur of per directe-
 > _Grondslag_: [[verdeelsleutel]] §oorzakelijkheidsprincipe
 
 
+## Voorbeelden
+
+
+

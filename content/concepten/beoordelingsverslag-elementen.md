@@ -39,8 +39,9 @@ _Bron: ITAA KMO-controlenorm §150_
 > _Trigger_: Examen-zin: type opdracht = controle → controleverslag. Type = beoordeling/review → beoordelingsverslag.
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Het beoordelingsverslag voor Naaiatelier Ninove BV bevat: 'Beoordelingsverslag van de externe accountant aan de zaakvoerder; identificatie tussentijdse cijfers per 30/06/2025; opdracht: beoordeling overeenkomstig ITAA KMO-controlenorm hoofdstuk 4; werkzaamheden: cijferanalyses + bevragingen; conclusie: op basis van onze werkzaamheden zijn ons geen feiten gebleken die ons doen oordelen dat ...; getekend te Roeselare, 15 september 2025'.
 
 ## Bronnen
 

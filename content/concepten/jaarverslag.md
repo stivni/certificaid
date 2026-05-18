@@ -39,6 +39,9 @@ _Bron: WVV art. 3:32 (jaarverslag)_
 **Waarom?** De jaarrekening toont cijfers; het jaarverslag legt uit waarom de cijfers zijn wat ze zijn en wat het bestuur ervan vindt.
 
 
+
+Rotex Roeselare NV's jaarverslag 2024 vermeldt: 'Omzet daalde 8% door grondstoffen-tekort; we verwachten herstel in Q3 2025 dankzij nieuwe leverancier.'
+
 _Grondslag: WVV art. 3:32, § 2-3_
 
 ### Vrijstelling voor kleine en micro ⚖️
@@ -48,6 +51,9 @@ Kleine vennootschappen en microvennootschappen zijn vrijgesteld van het opstelle
 **Waarom?** Vermindering van administratieve last voor KMO's — proportionaliteitsbeginsel.
 
 
+
+Meubelzaak Mertens BV (klein) → geen jaarverslag; vermeldingen die anders in het jaarverslag stonden (bv. 'eigen aandelen') komen in de toelichting.
+
 _Grondslag: WVV art. 3:6, § 2_
 
 ### Niet-financiële verklaring (CSRD-context) 🤖
@@ -56,6 +62,9 @@ Sinds 2024 worden grote vennootschappen onder de CSRD (Corporate Sustainability 
 
 **Waarom?** EU wil grote ondernemingen verplichten transparant te rapporteren over ESG-thema's; investeerders en consumenten krijgen vergelijkbare informatie.
 
+
+
+Een Belgische beursgenoteerde onderneming met > 500 werknemers moet vanaf jaarrekening 2024 een CSRD-conforme duurzaamheidsverklaring in haar jaarverslag opnemen.
 
 _Grondslag: Richtlijn 2022/2464/EU (CSRD); omzetting in WVV_
 
@@ -86,8 +95,9 @@ _Grondslag: Richtlijn 2022/2464/EU (CSRD); omzetting in WVV_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Rotex Roeselare NV (grote NV) moet samen met haar jaarrekening een jaarverslag opstellen — met o.a. commentaar bij de cijfers, vooruitzichten 2025, risico's (cyberveiligheid, energieprijzen), en informatie over personeelsdiversiteit.
 
 ## Bronnen
 

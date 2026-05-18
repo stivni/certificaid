@@ -42,6 +42,7 @@ _Bron: Management accounting — bron-gap_
 > _Trigger_: Examen-vraag op organisatie: identificeer of de eenheid 'afdeling' is of 'product/klant'.
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Yperse Werkplaats BV definieert kostendragers per productlijn: 'ruwwol-garen 50 kg' (kostprijs € 38/eenheid), 'gewoven stoffenrol 100 m' (€ 145/eenheid), 'tapijt standaardmaat' (€ 18/stuk). Voor projectwerk: 'order Brugse Boutique mei 20X1' als afzonderlijke kostendrager.
 

@@ -137,3 +137,8 @@ Bepaal waar de jaarrekening of staat van ontvangsten/uitgaven moet worden neerge
 **Grondslag**: [[jaarrekening-vzw-stichting]] §neerlegging, WVV art. 3:47
 
 
+## Voorbeelden
+
+
+
+

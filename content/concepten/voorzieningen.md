@@ -41,6 +41,9 @@ Een voorziening wordt aangelegd wanneer (a) er een **bestaande verplichting** is
 **Waarom?** Een passieve buffer in de balans mag alleen bestaan als er een redelijke basis voor is — anders zou de onderneming naar believen winst kunnen 'reserveren' onder de noemer voorziening (egalisatieboekhouding, verboden).
 
 
+
+Naaiatelier Ninove BV verkoopt kledij met garantie. Op basis van historische data: 2 % retouren door fabrieksfouten. Verkopen 20X1 = € 1.250.000 → voorziening voor garantieverplichtingen = 2 % × € 1.250.000 = € 25.000.
+
 _Grondslag: KB WVV art. 3:11 + CBN 2018/25_
 
 ### Voorzieningen voor pensioenen (160) ⚖️
@@ -49,6 +52,9 @@ Voor toekomstige pensioenverplichtingen aan werknemers (defined benefit-plannen,
 
 **Waarom?** Pensioenbeloften zijn vaak grote LT-verplichtingen die de onderneming zal moeten honoreren. Het voorzichtigheidsbeginsel vereist een vroege erkenning.
 
+
+
+Rotex Roeselare NV heeft een groepsverzekering 'vaste prestatieplan' voor de 28 hogere kaderleden; actuariële berekening op 31/12 toont een netto-verplichting van € 850.000. Boeking op rekening 160.
 
 _Grondslag: MAR rubriek 160; KB WVV_
 
@@ -59,6 +65,9 @@ Voor verwachte belastingverplichtingen uit wijzigingen in belastbare basis of be
 **Waarom?** Onzekere fiscale uitkomsten verdienen voorzichtigheid. Maar als het bedrag vaststaat en is aanvaard: gewone schuld, niet meer onzeker.
 
 
+
+Uitgeverij Ukkel NV ontvangt een bericht van wijziging € 18.000 voor 20X1 (verwerping bepaalde reclamekosten). De NV betwist; advocaat schat 60 % kans op verlies → voorziening € 18.000 × 60 % = € 10.800 op rekening 161 (niet rekening 45).
+
 _Grondslag: CBN 2018/25_
 
 ### Voorzieningen voor grote herstellingen (162) ⚖️
@@ -68,6 +77,9 @@ Voor grote periodieke herstellings- en onderhoudswerken die over meerdere jaren 
 **Waarom?** Anders zou een grote eenmalige onderhoudskost de winst van één boekjaar onevenredig drukken. Spreiding via voorziening volgt matching.
 
 
+
+Rotex Roeselare NV verwacht over 10 jaar een dakrenovatie € 200.000. Jaarlijkse opbouw € 20.000 op rekening 162. Boeking elk jaar: Debet 6360 Voorzieningen voor grote herstellingen — toevoeging € 20.000 / Credit 162 € 20.000.
+
 _Grondslag: MAR + KB WVV art. 3:11_
 
 ### Uitgestelde belastingen (168) ⚖️
@@ -76,6 +88,9 @@ Voor uitgestelde belastingen op kapitaalsubsidies (1680), op gerealiseerde meerw
 
 **Waarom?** Boekhoudkundige opbrengsten en fiscale belastbare basis lopen niet altijd synchroon. Uitgestelde belastingen vangen die verschillen op.
 
+
+
+Naaiatelier Ninove BV ontvangt subsidie € 20.000 (in kapitaalsubsidies geboekt). De fiscale impact valt gespreid over 5 jaar (parallel aan resultaatname). Uitgestelde belastingen op rekening 1680 vangen die spreiding op.
 
 _Grondslag: CBN 2013/14 + KB WVV_
 
@@ -117,8 +132,9 @@ _Grondslag: CBN 2013/14 + KB WVV_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Uitgeverij Ukkel NV heeft op 31/12 een lopend rechtsgeding waar een schadevergoeding van € 75.000 dreigt; juridisch advies wijst op verlies-waarschijnlijkheid > 50 %. Voorziening voor andere risico's en kosten van € 75.000 wordt geboekt: Debet 6371 Voorzieningen voor andere risico's en kosten — toevoeging € 75.000 / Credit 163 Voorzieningen voor overige risico's en kosten € 75.000.
 
 ## Bronnen
 

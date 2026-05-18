@@ -71,8 +71,9 @@ _Bron: WVV art. 1:26, § 1_
 
 - **Vereist kennis van**: [[groottecriteria-consolidatie]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Aurelia Holding NV (moeder) + Gent Garantie BV (dochter) hebben samen geaggregeerde omzet 20 mln EUR, balanstotaal 12 mln EUR en 180 personeelsleden. Slechts één drempel (personeel) overschreden → groep van beperkte omvang → Aurelia is vrijgesteld van geconsolideerde jaarrekening + jaarverslag.
 
 ## Bronnen
 

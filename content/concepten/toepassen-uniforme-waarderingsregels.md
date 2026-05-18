@@ -183,3 +183,7 @@ Verifieer dat de waarderingsregels identiek zijn aan die van het vorige geconsol
 **Grondslag**: [[uniforme-waarderingsregels-consolidatie]] §stelselmatigheid, KB WVV art. 3:117
 
 
+## Voorbeelden
+
+
+

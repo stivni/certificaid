@@ -152,3 +152,7 @@ Bereken de veiligheidsmarge (verwacht volume − break-even-volume) en toets de 
 > _Grondslag_: [[vaste-kosten]] §relevant-range
 
 
+## Voorbeelden
+
+
+

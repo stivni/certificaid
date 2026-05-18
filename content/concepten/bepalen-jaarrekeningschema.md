@@ -130,3 +130,9 @@ Stel de overgangsregels op als de vennootschap van grootteklasse verandert.
 **Grondslag**: [[jaarrekening-schema]] §wijziging-bij-grootteverandering, WVV art. 1:24 § 4
 
 
+## Voorbeelden
+
+
+
+
+

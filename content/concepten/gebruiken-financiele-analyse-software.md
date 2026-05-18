@@ -173,3 +173,8 @@ Vergelijk de ratio-set van de onderneming met het sector-gemiddelde (NACE-niveau
 > _Grondslag_: Beroepsstandaard documentatie
 
 
+## Voorbeelden
+
+
+
+

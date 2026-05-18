@@ -53,12 +53,14 @@ flowchart TD
 
 ## Kerninzichten
 
-- Controle (in rechte of feite) bepaalt eerst of er een groep is. Pas daarna kies je de methode op basis van controle-niveau. 🤖
-  - _Rationale_: De wettelijke architectuur begint bij de controle-vraag (WVV art. 1:14). Methode-keuze is een afgeleide stap.
-- Het ENIGE verschil tussen integrale en evenredige consolidatie is of je activa/passiva volledig opneemt (en het derden-deel apart presenteert) of pro-rata (zonder afzonderlijke derden-post). 🤖
-  - _Rationale_: Beide methodes produceren een uitgewerkte balans en resultatenrekening; vermogensmutatie reduceert de dochter tot één balanspost.
-- Horizontale consolidatie is de buitenbeentje: er is geen moeder, er zijn alleen consortium-leden die door een gemeenschappelijke leiding samen opereren. Een natuurlijke persoon (bv. Pieter Vermeulen) kan die leiding zijn. 🤖
-  - _Rationale_: WVV art. 3:24 voorziet expliciet in consortium-consolidatie wanneer de centrale leiding geen vennootschap is.
+1. Controle (in rechte of feite) bepaalt eerst of er een groep is. Pas daarna kies je de methode op basis van controle-niveau. 🤖
+   _Rationale_: De wettelijke architectuur begint bij de controle-vraag (WVV art. 1:14). Methode-keuze is een afgeleide stap.
+
+2. Het ENIGE verschil tussen integrale en evenredige consolidatie is of je activa/passiva volledig opneemt (en het derden-deel apart presenteert) of pro-rata (zonder afzonderlijke derden-post). 🤖
+   _Rationale_: Beide methodes produceren een uitgewerkte balans en resultatenrekening; vermogensmutatie reduceert de dochter tot één balanspost.
+
+3. Horizontale consolidatie is de buitenbeentje: er is geen moeder, er zijn alleen consortium-leden die door een gemeenschappelijke leiding samen opereren. Een natuurlijke persoon (bv. Pieter Vermeulen) kan die leiding zijn. 🤖
+   _Rationale_: WVV art. 3:24 voorziet expliciet in consortium-consolidatie wanneer de centrale leiding geen vennootschap is.
 
 ## Verwante competenties
 

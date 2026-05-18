@@ -38,6 +38,9 @@ Verordening 1606/2002 verplicht beursgenoteerde EU-vennootschappen om hun gecons
 **Waarom?** Eén gemeenschappelijke taal voor genoteerde groepen in heel de EU bevordert vergelijkbaarheid tussen ondernemingen en grensoverschrijdende investeringen.
 
 
+
+Aurelia Holding NV (beursgenoteerd op Euronext Brussels) consolideert verplicht onder IFRS; een niet-genoteerde groep zoals Antwerpse Investments NV mag onder BEGAAP blijven (tenzij het bestuur vrijwillig voor IFRS kiest).
+
 _Grondslag: Verordening 1606/2002 art. 2 jo. art. 4_
 
 ### Onherroepelijke vrijwillige IFRS-keuze ⚖️
@@ -46,6 +49,9 @@ Niet-genoteerde moeders kunnen op basis van KB WVV art. 3:104, § 2 vrijwillig v
 
 **Waarom?** De onherroepelijkheid verhindert dat een groep van jaar tot jaar van normenstelsel verandert naargelang dat in dat jaar gunstig uitkomt — wat de vergelijkbaarheid van de cijfers zou ondermijnen.
 
+
+
+Antwerpse Investments NV beslist in boekjaar 20X1 vrijwillig voor IFRS-consolidatie. Vanaf 20X1 volgt Antwerpse IFRS; terugschakelen naar BEGAAP in latere jaren kan niet meer.
 
 _Grondslag: KB WVV art. 3:104, § 2_
 
@@ -79,8 +85,9 @@ _Grondslag: KB WVV art. 3:104, § 2_
 
 - **Getriggerd door**: [[consolidatieverplichting]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Aurelia Holding NV is beursgenoteerd op Euronext Brussels → verplicht IFRS-consolidatie (Verordening 1606/2002 art. 4). In de toelichting van de geconsolideerde jaarrekening verwijst Aurelia naar de gebruikte IFRS-standaarden (IFRS 3, 10, 11, 12).
 
 ## Bronnen
 

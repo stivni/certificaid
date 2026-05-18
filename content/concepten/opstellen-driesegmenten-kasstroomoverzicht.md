@@ -208,3 +208,8 @@ Lees het teken-patroon van de drie segmenten samen — verschillende combinaties
 > _Grondslag_: [[kasstroomoverzicht-drie-segmenten]] §valkuilen
 
 
+## Voorbeelden
+
+
+
+

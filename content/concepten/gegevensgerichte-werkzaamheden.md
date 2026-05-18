@@ -37,6 +37,8 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 + §85_
 **Waarom?** Detailcontroles zijn diep maar duur. Cijferanalyses zijn breed maar minder precies — combineer ze.
 
 
+
+
 _Grondslag: ITAA KMO-controlenorm Bijlage 1_
 
 ### Wanneer onmisbaar ⚖️
@@ -44,6 +46,8 @@ _Grondslag: ITAA KMO-controlenorm Bijlage 1_
 Voor significante risico's: gegevensgerichte werkzaamheden ALTIJD verplicht — pure dependence op interne beheersing volstaat niet.
 
 **Waarom?** Bij hoge inherente of fraude-risico's moet de auditor zelf assurance-informatie verzamelen, niet enkel steunen op IC.
+
+
 
 
 _Grondslag: ITAA KMO-controlenorm §94_
@@ -55,8 +59,9 @@ _Grondslag: ITAA KMO-controlenorm §94_
 > _Trigger_: Hoog inherent risico en/of geen vertrouwen in IC → vooral gegevensgericht. Goede IC + intentie tot steunen → mix met toetsing IC.
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Sofie Janssens test de waardering van de top-20 voorraadposten van Rotex Roeselare NV: zij gaat naar de opslagplaats, telt zelf de stuks (€ 850.000 totaal), vergelijkt met de aankoopfacturen, en checkt de toepassing van FIFO. Dat is een detailcontrole. Daarnaast voert zij een gegevensgerichte cijferanalyse uit op de bruto-marge per productlijn.
 
 ## Bronnen
 

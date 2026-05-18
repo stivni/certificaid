@@ -44,6 +44,9 @@ De meest gebruikte zijn: current ratio (alle vlottende activa / korte schulden),
 **Waarom?** Elke variant heeft een ander strengheidsniveau. De brede current is een eerste screening; quick en cash testen of de onderneming ook bij snelle marktdruk overeind blijft.
 
 
+
+Voor Rotex Roeselare NV: current 2,0; quick 1,375; cash (€ 500.000 + € 800.000) / € 4.000.000 = 0,325. Trio toont volledig beeld.
+
 _Grondslag: Vakdoctrine_
 
 
@@ -69,9 +72,6 @@ _Grondslag: Vakdoctrine_
 > _Bron: Financial analysis_
 
 
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

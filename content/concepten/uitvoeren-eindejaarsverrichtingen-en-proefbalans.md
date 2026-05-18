@@ -141,6 +141,9 @@ Stel op basis van saldibalans de balans en resultatenrekening op + bereken resul
 **Grondslag**: [[jaarrekening]] §opmaak, [[regelmatige-boekhouding]] §resultaatberekening, KB-WVV art. 3:1
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+
+
+
 

@@ -37,6 +37,9 @@ Elke kost-/opbrengstpost wordt individueel pro-rata verdeeld volgens een vooraf 
 **Waarom?** Maakt aandeel per centrum/partner zichtbaar; vereiste bij meervoudige eigenaars of bij sterk gedeelde resources.
 
 
+
+Yperse Werkplaats BV verdeelt de gezamenlijke energiekost weverij € 145.000/jaar proportioneel over de drie productlijnen volgens machine-uren: 40 % Tapijten, 35 % Stoffenrol, 25 % Garen. Verdeelboeking: Tapijten € 58.000, Stoffenrol € 50.750, Garen € 36.250.
+
 _Grondslag: CBN 3/3_
 
 
@@ -45,9 +48,6 @@ _Grondslag: CBN 3/3_
 >
 > _Trigger_: Bij gedeelde infrastructuur of joint-venture-vergelijkbare context.
 
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

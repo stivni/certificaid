@@ -50,8 +50,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 
 - **Getriggerd door**: [[toetsing-interne-beheersing]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Meubelzaak Mertens BV doet één persoon zowel kasontvangsten, boekhouding als bankreconciliatie — geen functiescheiding. Het intern beheersingsrisico op kasontvangsten is hoog. Sofie Janssens zal extra substantive testing op de kasstromen moeten doen.
 
 ## Bronnen
 

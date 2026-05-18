@@ -44,6 +44,7 @@ De interne auditor is de werknemer (of uitbestede dienstverlener) die binnen de 
 
 - **Vereist kennis van**: [[auditcomite]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Rotex Roeselare NV werkt Sofie Janssens als interne auditor (Director Internal Audit). Rapporteert aan het auditcomité (vergadert 4x/jaar). Stelt jaarlijks risk-based audit plan op (40-50 audits per jaar). Eigen team van 5 senior auditors. Mag geen operationele taken hebben in de afdelingen die zij audit.
 

@@ -41,6 +41,7 @@ _Bron: Management accounting — bron-gap_
 - **Vereist kennis van**: [[vervaardigingsprijs]]
 - **Vereist kennis van**: [[marginale-kostprijs]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Yperse Werkplaats BV tapijt — drie kostprijsbegrippen: vervaardigingsprijs € 18 (materiaal + directe arbeid + productie-overhead), volledige bedrijfskostprijs € 22 (+ commercieel + administratief), variabele kostprijs € 13 (alleen variabele kosten). Verkoopprijs € 60. Welke kostprijs gebruiken? Hangt af van vraag.
 

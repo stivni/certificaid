@@ -37,6 +37,9 @@ Het overzicht onderscheidt drie bronnen van mutaties in eigen vermogen: (1) **to
 **Waarom?** Gebruikers willen weten waar veranderingen vandaan komen. Een winststijging is een prestatie van de onderneming; een kapitaalverhoging is een eigenaarstransactie; een fout-correctie is een retroactieve aanpassing van het verleden. Mengen zou inzicht beletten.
 
 
+
+Zelena Bio's ingehouden winsten over 2026: beginsaldo € 95M + winst boekjaar € 31,5M (toerekenbaar aan eigenaars Zelena Bio) − dividend €  15M = eindsaldo € 111,5M. Drie mutaties duidelijk gescheiden op het overzicht.
+
 _Grondslag: IAS 1 alinea 106 (a, b, d)_
 
 ### Dividend per aandeel — in overzicht of toelichting ⚖️
@@ -46,6 +49,9 @@ Dividenden uitgekeerd of voorgesteld + bijhorend dividend per aandeel moeten in 
 **Waarom?** Dividenden per aandeel zijn een centrale indicator voor beleggers. Verstoppen in de toelichting is mogelijk maar minder transparant.
 
 
+
+Zelena Bio NV dividenduitkering 2026: € 15.000.000 totaal, dividend per aandeel € 0,75 (op 20.000.000 uitstaande aandelen). Vermelding op overzicht.
+
 _Grondslag: IAS 1 alinea 107_
 
 ### Retroactieve aanpassing — apart tonen ⚖️
@@ -54,6 +60,9 @@ Bij retroactieve toepassing van een nieuwe grondslag of correctie van een materi
 
 **Waarom?** Een correctie raakt eigen vermogen maar is geen prestatie van het lopende jaar. Mengen met gewone winst zou de prestatie van het lopende jaar vervalsen.
 
+
+
+Zelena Bio ontdekt in 2026 een materiële fout in haar 2024-jaarrekening: € 1.200.000 te laag geboekte voorraad. Correctie retroactief — beginsaldo ingehouden winsten 2025 verhoogd met € 1.200.000 (na uitgestelde belasting). Apart getoond in mutatieoverzicht als 'Correctie fout vorige periode'.
 
 _Grondslag: IAS 1 alinea 106A + IAS 8_
 
@@ -73,8 +82,9 @@ _Grondslag: IAS 1 alinea 106A + IAS 8_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Zelena Bio NV mutatieoverzicht 2026 (vereenvoudigd, in € miljoenen): kapitaal € 50M + agio € 18M + herwaarderingsreserve € 8M (begin) + winst 2026 € 35M − dividend € 15M + herwaardering terreinen +€ 4,5M (OCI) − wisselkoers Argentinië −€ 0,8M = totaal eigen vermogen einde 2026 € 99,7M.
 
 ## Bronnen
 

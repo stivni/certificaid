@@ -30,10 +30,13 @@ gegenereerd_op: '2026-05-18'
 
 ## Kerninzichten
 
--  🤖
--  ⚖️
--  🤖
--  ⚖️
+1.  🤖
+
+2.  ⚖️
+
+3.  🤖
+
+4.  ⚖️
 
 ## Bronnen
 

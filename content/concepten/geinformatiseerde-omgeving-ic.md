@@ -63,6 +63,7 @@ Interne controle in een geïnformatiseerde omgeving omvat alle maatregelen om de
 - **Vereist kennis van**: [[functiescheiding]]
 - **Vereist kennis van**: [[avg-interne-controle]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV draait alles op ERP (Odoo). IT general controls: serverroom op slot (fysieke beveiliging), userprofielen met rol-gebaseerde rechten (toegangsbeheer), nightly backup naar externe site (continuïteit), test/productie-scheiding bij upgrades (change management). Application controls binnen Odoo: dubbele invoer-validatie op IBAN, automatische BTW-berekening, drempel-autorisaties.
 

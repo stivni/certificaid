@@ -169,6 +169,10 @@ Resultaat: Aurelia Holding NV controleert Drukkerij Dendermonde exclusief (via B
 - **Vereist kennis van**: [[controle]]
 - **Getriggerd door**: [[integrale-consolidatie]]
 
+## Voorbeelden
+
+Aurelia Holding NV bezit 80 % stemrechten in Brugse Brouwerij BV; Brugse bezit op haar beurt 60 % stemrechten in Drukkerij Dendermonde BV → controlepercentage van Aurelia in Drukkerij Dendermonde = 60 % (niet 48 %; vermenigvuldigen geldt enkel voor belang).
+
 ## Bronnen
 
 [^1]: `CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update__sec_algemeen`

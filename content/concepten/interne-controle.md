@@ -40,6 +40,9 @@ Elke interne-controle-maatregel werkt aan minstens één van deze drie doelen: b
 **Waarom?** Zonder duidelijk doel weet je niet of een maatregel zinvol is. Door elke controle aan een doelstelling te koppelen vermijd je 'controles om de controles'.
 
 
+
+Bij Yperse Werkplaats BV: dubbele handtekening op betalingen > € 25.000 = compliance + betrouwbaarheid; maandelijkse omzetreview = operationeel + betrouwbaarheid.
+
 _Grondslag: ITAA-norm-kmo-controlenorm Bijlage 1_
 
 ### Redelijke, geen absolute zekerheid ⚖️
@@ -48,6 +51,9 @@ Interne controle geeft 'redelijke' zekerheid — nooit 100%. Elk systeem heeft i
 
 **Waarom?** Een systeem dat alle fouten en fraude zou uitsluiten is onbetaalbaar én verlamt de werking. De manager moet kiezen welke risico's hij accepteert.
 
+
+
+Yperse Werkplaats BV controleert niet elke factuur < € 500 dubbel — het kost meer dan het oplevert. Het risico wordt geaccepteerd binnen redelijke grenzen.
 
 _Grondslag: ITAA-norm-kmo-controlenorm Bijlage 1_
 
@@ -58,6 +64,9 @@ De internationale vakdoctrine (COSO I, 1992/2013) onderscheidt vijf samenhangend
 **Waarom?** Deze vijf moeten samen werken — een sterke controle-omgeving zonder activiteiten is bla-bla; sterke activiteiten zonder monitoring verzwakken in de tijd.
 
 
+
+Bij Yperse Werkplaats BV: directeur Pieter Vermeulen tekent gedragscode (omgeving), risicomatrix wordt jaarlijks bijgewerkt (risico-inschatting), aankoopprocedure beschreven (activiteit), maandelijkse KPI-dashboard (info), interne audit door Sofie Janssens (monitoring).
+
 _Grondslag: COSO I (1992/2013) — vakdoctrine, geen Belgische wetgeving_
 
 ### Wie draagt het systeem ⚖️
@@ -66,6 +75,9 @@ Het bestuursorgaan stelt de toon en keurt het kader goed; het management impleme
 
 **Waarom?** Verantwoordelijkheid is niet delegeerbaar naar 'de boekhouder' of 'de auditor'. Een systeem dat enkel door één laag wordt gedragen valt om bij personeelswissel.
 
+
+
+Bij Yperse Werkplaats BV: raad van bestuur keurt jaarlijks het risico-rapport goed; CFO is operationeel verantwoordelijk; elke magazijnier tekent voor ontvangst.
 
 _Grondslag: ITAA-norm-kmo-controlenorm Bijlage 1_
 
@@ -129,8 +141,9 @@ _Grondslag: ITAA-norm-kmo-controlenorm Bijlage 1_
 - **Vereist kennis van**: [[functiescheiding]]
 - **Getriggerd door**: [[toetsing-interne-beheersing]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Yperse Werkplaats BV (productie-onderneming, omzet € 8.000.000) zet een intern-controle-systeem op met hulp van Xenon Expertise BV: aankoopfacturen moeten drie handtekeningen krijgen (besteller, magazijnier, financieel verantwoordelijke); voorraadtellingen worden 2x per jaar gedaan door iemand anders dan de magazijnier; loonberekening wordt opgemaakt door HR maar betaald door financieel verantwoordelijke. Doel: redelijke zekerheid dat de cijfers kloppen, dat er niet wordt gestolen, en dat de wet wordt nageleefd.
 
 ## Bronnen
 

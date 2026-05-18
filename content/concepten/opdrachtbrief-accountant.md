@@ -100,8 +100,9 @@ Splits standaardwerk (forfait) van bijkomend werk (uurtarief); zo geen discussie
 - **Vereist kennis van**: [[beroepsaansprakelijkheid-accountant]]
 - **Vereist kennis van**: [[antiwitwas-meldingsplicht]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Wolters & Partners CVBA stelt voor Meubelzaak Mertens BV een opdrachtbrief op vóór de start van de jaarlijkse boekhoudkundige opdracht: scope (organisatie boekhouding + jaarrekening + fiscale aangifte), termijnen (jaarrekening klaar tegen 30 april), ereloon (€ 8.500 forfait + uurtarief boven scope), aansprakelijkheidsplafond (drie keer ereloon, niet bij bedrog).
 
 ## Bronnen
 

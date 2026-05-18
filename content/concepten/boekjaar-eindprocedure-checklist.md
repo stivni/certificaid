@@ -90,14 +90,17 @@ flowchart TD
 
 ## Kerninzichten
 
-- De volgorde is bindend: pas na de eindejaarsverrichtingen (stap 4-9) kan je het resultaat van het boekjaar vaststellen (stap 10). Pas na de algemene vergadering die het resultaat bestemt (stap 11) ken je het 'overgedragen resultaat' &mdash; pas dan is de jaarrekening volledig opmaakbaar (stap 12). Een examenvraag die zegt 'jaarrekening klaar, AV moet nog komen' bevat dus een logische fout: de jaarrekening kan niet 'klaar' zijn zonder AV-beslissing. 🤖
-  - _Rationale_: Volgt uit MAR rekeningenklasse 6 + 7 (sluiten via 690/790) + KB WVV art. 3:66 voor jaarrekening-opmaak na resultaatbestemming.
-- De timing is wettelijk geketend: AV binnen 6 maanden na boekjaareinde (WVV art. 3:1 §1), neerlegging binnen 30 dagen na AV (WVV art. 3:10) en uiterlijk 7 maanden na boekjaareinde. Voor [[Naaiatelier Ninove BV]] met boekjaar dat eindigt op 31 december betekent dit: AV ten laatste 30 juni, neerlegging ten laatste 31 juli. Boete-risico: laattijdige neerlegging is een veelvoorkomende cliënt-vraag. ⚖️
-  - _Rationale_: WVV art. 3:1 §1 + 3:10 expliciete termijnen. Direct examenrelevant.
-- Drie van de tien verplichte boekingen volgen direct uit de waarderingsbeginselen: afschrijvingen (consistentie), waardeverminderingen (voorzichtigheid), voorzieningen (voorzichtigheid). Wie de beginselen kent, kan deze stappen niet vergeten. Wie ze opvat als 'extra werk', vergeet er typisch een &mdash; bijvoorbeeld de waardeverminderingen op vorderingen. 🤖
-  - _Rationale_: Cross-link [[boekhoudbeginselen-overzicht]]: drie waarderingsbeginselen -> drie typische eindejaarsverrichtingen. Pedagogisch nuttig voor stagiairs.
-- De wettelijke reserve (stap 11) ontstaat bij de resultaatverwerking, niet bij de jaarrekening-opmaak. Sequentieel: AV beslist welk percentage naar wettelijke reserve gaat (min. 5% van de winst, tot de wettelijke reserve 10% van het kapitaal bereikt). Pas dan staat het bedrag op rekening 130; pas dan past het in de jaarrekening die de AV daarna goedkeurt. ⚖️
-  - _Rationale_: WVV art. 7:211 + MAR rekening 130. Veelvoorkomende verwarring: stagiairs denken dat dotatie automatisch is via boekhouding &mdash; in werkelijkheid is het een AV-beslissing.
+1. De volgorde is bindend: pas na de eindejaarsverrichtingen (stap 4-9) kan je het resultaat van het boekjaar vaststellen (stap 10). Pas na de algemene vergadering die het resultaat bestemt (stap 11) ken je het 'overgedragen resultaat' &mdash; pas dan is de jaarrekening volledig opmaakbaar (stap 12). Een examenvraag die zegt 'jaarrekening klaar, AV moet nog komen' bevat dus een logische fout: de jaarrekening kan niet 'klaar' zijn zonder AV-beslissing. 🤖
+   _Rationale_: Volgt uit MAR rekeningenklasse 6 + 7 (sluiten via 690/790) + KB WVV art. 3:66 voor jaarrekening-opmaak na resultaatbestemming.
+
+2. De timing is wettelijk geketend: AV binnen 6 maanden na boekjaareinde (WVV art. 3:1 §1), neerlegging binnen 30 dagen na AV (WVV art. 3:10) en uiterlijk 7 maanden na boekjaareinde. Voor [[Naaiatelier Ninove BV]] met boekjaar dat eindigt op 31 december betekent dit: AV ten laatste 30 juni, neerlegging ten laatste 31 juli. Boete-risico: laattijdige neerlegging is een veelvoorkomende cliënt-vraag. ⚖️
+   _Rationale_: WVV art. 3:1 §1 + 3:10 expliciete termijnen. Direct examenrelevant.
+
+3. Drie van de tien verplichte boekingen volgen direct uit de waarderingsbeginselen: afschrijvingen (consistentie), waardeverminderingen (voorzichtigheid), voorzieningen (voorzichtigheid). Wie de beginselen kent, kan deze stappen niet vergeten. Wie ze opvat als 'extra werk', vergeet er typisch een &mdash; bijvoorbeeld de waardeverminderingen op vorderingen. 🤖
+   _Rationale_: Cross-link [[boekhoudbeginselen-overzicht]]: drie waarderingsbeginselen -> drie typische eindejaarsverrichtingen. Pedagogisch nuttig voor stagiairs.
+
+4. De wettelijke reserve (stap 11) ontstaat bij de resultaatverwerking, niet bij de jaarrekening-opmaak. Sequentieel: AV beslist welk percentage naar wettelijke reserve gaat (min. 5% van de winst, tot de wettelijke reserve 10% van het kapitaal bereikt). Pas dan staat het bedrag op rekening 130; pas dan past het in de jaarrekening die de AV daarna goedkeurt. ⚖️
+   _Rationale_: WVV art. 7:211 + MAR rekening 130. Veelvoorkomende verwarring: stagiairs denken dat dotatie automatisch is via boekhouding &mdash; in werkelijkheid is het een AV-beslissing.
 
 ## Verwante competenties
 

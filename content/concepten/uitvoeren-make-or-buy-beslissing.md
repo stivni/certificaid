@@ -168,3 +168,7 @@ Weeg niet-financiële criteria mee: kwaliteitscontrole, leveringszekerheid, kenn
 > _Grondslag_: [[vaste-kosten]] §vermijdbaar-versus-doorlopend
 
 
+## Voorbeelden
+
+
+

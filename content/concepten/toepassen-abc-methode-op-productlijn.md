@@ -209,3 +209,7 @@ Vertaal de ABC-resultaten naar concrete management-acties: productmix-keuze, pri
 > _Grondslag_: [[abc-methode]] §cost-driver-keuze
 
 
+## Voorbeelden
+
+
+

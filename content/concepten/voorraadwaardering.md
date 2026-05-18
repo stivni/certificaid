@@ -35,6 +35,9 @@ _Bron: CBN-advies 132/7 — Boeking en waardering van voorraden_
 **Waarom?** Bepaalt welke aankoopprijs aan de uitgaande hoeveelheid wordt toegerekend bij prijsschommelingen.
 
 
+
+Yperse Werkplaats BV koopt wol in 3 partijen: 500 kg × € 4,71 + 800 kg × € 5,10 + 700 kg × € 5,30. Verbruik 1.500 kg. Gewogen gemiddelde: (500×4,71 + 800×5,10 + 700×5,30) / 2.000 = € 5,06/kg → verbruik € 7.590. FIFO: 500×4,71 + 800×5,10 + 200×5,30 = € 7.495.
+
 _Grondslag: KB 21.10.2018 art. 18 · CBN 132/7_
 
 ### Laagstewaarderegel ⚖️
@@ -43,6 +46,9 @@ Op balansdatum: vergelijk aanschaffingswaarde met marktwaarde. De laagste van be
 
 **Waarom?** Voorzichtigheidsbeginsel; vermijdt opgeblazen voorraadwaarde.
 
+
+
+Yperse Werkplaats BV heeft wol in voorraad aan € 5,06/kg gemiddeld. Marktprijs op balansdatum: € 4,30/kg. Waardevermindering naar marktwaarde verplicht → afboeking van het verschil als waardevermindering.
 
 _Grondslag: CBN 132/7 §Marktwaarde_
 
@@ -62,9 +68,6 @@ _Grondslag: CBN 132/7 §Marktwaarde_
 
 - **Vereist kennis van**: [[materiaalkosten]]
 - **Vereist kennis van**: [[vervaardigingsprijs]]
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

@@ -37,6 +37,9 @@ _Bron: WER art. III.86_
 **Waarom?** Elektronische bewaring is praktisch maar moet betrouwbaarheid garanderen voor latere controles.
 
 
+
+Meubelzaak Mertens BV scant facturen in PDF → mag papier vernietigen mits PDF-leesbaarheid + back-up + onveranderlijkheid.
+
 _Grondslag: WER art. III.86; CBN-advies 2016/22_
 
 ### Wettelijke uitzonderingen — andere termijnen 🤖
@@ -45,6 +48,9 @@ BTW-stukken: 7 jaar (WBTW art. 60). Personeelsdossiers: 5 jaar na uitdiensttredi
 
 **Waarom?** Verschillende rechtsgebieden leggen verschillende termijnen op — de algemene 7-jaar-regel is een minimum.
 
+
+
+Rotex Roeselare NV ontvangt een aanslag voor boekjaar 2017 → bewaarplicht verlengt zich impliciet tot procedure afgerond.
 
 _Grondslag: Diverse wetten + WBTW art. 60_
 
@@ -66,8 +72,9 @@ _Grondslag: Diverse wetten + WBTW art. 60_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Boekjaar Meubelzaak Mertens BV afgesloten 31/12/2024 → bewaartermijn loopt vanaf 1/1/2025 tot 31/12/2031 (7 jaar). Alle facturen, kasstukken, dagboeken moeten tot eind 2031 raadpleegbaar blijven.
 
 ## Bronnen
 

@@ -34,6 +34,9 @@ Kosten van eigen onderzoeks- en ontwikkelingsactiviteit kunnen geactiveerd worde
 **Waarom?** R&D kosten dragen bij tot toekomstige opbrengsten; activeren matched de kost met die opbrengsten. Strikte voorwaarden voorkomen dat elke 'denk-uur' op de balans verschijnt.
 
 
+
+Rotex Roeselare NV ontwikkelt een nieuw productieproces; € 280.000 directe kosten worden geactiveerd op rekening 210 onderzoek en ontwikkeling, afgeschreven over 6 jaar (toelichting motiveert: aantoonbare 6-jarige commerciële cyclus van de nieuwe productlijn).
+
 _Grondslag: KB WVV art. 3:38 + CBN 2012/13_
 
 ### Concessies, octrooien, licenties, merken (211) ⚖️
@@ -42,6 +45,9 @@ Verworven rechten op intellectueel eigendom of exclusieve gebruiksrechten. Bij a
 
 **Waarom?** Verworven rechten hebben een objectieve aankoopprijs en een duidelijke economische waarde. Zelf-gemaakte merken zonder externe transactie ontberen die meetbare basis.
 
+
+
+Uitgeverij Ukkel NV koopt de auteursrechten op een romanreeks voor € 120.000 voor 10 jaar exclusief. Rekening 211. Afschrijving over de licentieduur 10 jaar = € 12.000/jaar (motivering > 5 jaar: contractduur).
 
 _Grondslag: CBN 2012/13_
 
@@ -52,6 +58,9 @@ Het verschil tussen wat een onderneming betaalt voor een bedrijfsactiviteit (ove
 **Waarom?** Bij overname betaal je vaak meer dan de som van de identificeerbare onderdelen — voor klantenbestand, reputatie, synergieën. Dat residu is goodwill: een immaterieel actief dat afgeschreven wordt.
 
 
+
+Meubelzaak Mertens BV koopt het handelsfonds van een concurrent voor € 280.000; identificeerbare activa min schulden = € 215.000. Goodwill = € 280.000 − € 215.000 = € 65.000, geboekt op rekening 212 en afgeschreven over 10 jaar (toelichting: stabiel klantenbestand van 12 jaar).
+
 _Grondslag: KB WVV art. 3:38 + CBN 2012/13_
 
 ### Vooruitbetalingen op IVA (213) ⚖️
@@ -60,6 +69,9 @@ Bedragen al betaald maar waarvoor het immaterieel vast actief nog niet geleverd 
 
 **Waarom?** Een vooruitbetaling is een vordering op de leverancier zolang het actief nog niet bruikbaar is. Pas bij ingebruikname start de waarde-afname.
 
+
+
+Rotex Roeselare NV betaalt op 15/11 een voorschot van € 50.000 voor een softwarepakket dat pas in maart 20X2 wordt opgeleverd. Op 31/12 staat € 50.000 op rekening 213 Vooruitbetalingen IVA, geen afschrijving in 20X1.
 
 _Grondslag: MAR + KB WVV_
 
@@ -95,8 +107,9 @@ _Grondslag: MAR + KB WVV_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Naaiatelier Ninove BV koopt het exclusieve licentierecht op een patroontekening voor € 35.000 voor 7 jaar. Boeking: Debet 211 Concessies/licenties € 35.000 / Credit 440 Leveranciers € 35.000. Afschrijving over 7 jaar = € 5.000/jaar. Op balans rubriek II 'Immateriële vaste activa': aanschaffingswaarde € 35.000 − afschrijvingen.
 
 ## Bronnen
 

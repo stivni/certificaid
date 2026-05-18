@@ -165,3 +165,7 @@ Bepaal per prestatieverplichting of opbrengst **op één tijdstip** (control-tra
 > _Grondslag_: [[opbrengsten-ifrs]] §tijdstip-versus-periode
 
 
+## Voorbeelden
+
+
+

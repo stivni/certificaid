@@ -58,12 +58,14 @@ flowchart TD
 
 ## Kerninzichten
 
-- Het criterium 'normale exploitatie' is sectorafhankelijk. Voor [[Solaris Sint-Truiden BV]] (effectenportefeuille als kernactiviteit) horen koerswinsten bij het bedrijfsresultaat &mdash; voor [[Meubelzaak Mertens BV]] horen dezelfde koerswinsten bij het financieel resultaat. De rubriek-keuze is dus geen mechanische lookup, maar een redenering over wat 'normaal' is voor deze onderneming. 🤖
-  - _Rationale_: MAR maakt rubrieken contextafhankelijk; CBN-adviezen bevestigen dat hoofdactiviteit beslissend is. Examenrelevant: kandidaten die mechanisch antwoorden vallen door deze valstrik.
-- 'Niet-recurrent' is sinds KB 21/10/2018 niet meer hetzelfde als 'uitzonderlijk'. Het oude regime kende een formele rubriek 'uitzonderlijke kosten/opbrengsten' &mdash; daar zat veel in dat eigenlijk wel terugkwam (bv. jaarlijkse meerwaarden bij verkoop van afgeschreven vaste activa). Het nieuwe regime hanteert twee feitelijke criteria: eenmalig + niet-hervraagbaar. Een vraag op het examen die nog de term 'uitzonderlijk' gebruikt is typisch een test op kennis van de regime-wijziging. 🤖
-  - _Rationale_: KB 21/10/2018 wijzigde MAR; CBN 2019/04 documenteert overgang. Veelvoorkomend examenpatroon: terminologie-verschil testen.
-- De drie categorieen leiden tot drie subtotalen in de resultatenrekening, die elk apart fiscaal relevant zijn. Bij de aangifte vennootschapsbelasting (zie [[bedrijfsresultaat]] + WIB) bepaalt de categorisatie of een meerwaarde onder de gespreide taxatie kan vallen (typisch alleen voor materiele vaste activa onder bedrijfsresultaat) of niet. Verkeerde categorisatie heeft dus directe fiscale impact &mdash; geen louter cosmetische keuze. 🤖
-  - _Rationale_: Cross-domein link met fiscaliteit (WIB art. 47 gespreide taxatie). Hoge examenwaarde: combineert PO 1.1 + PO 1.2 + PO 3 (fiscaliteit).
+1. Het criterium 'normale exploitatie' is sectorafhankelijk. Voor [[Solaris Sint-Truiden BV]] (effectenportefeuille als kernactiviteit) horen koerswinsten bij het bedrijfsresultaat &mdash; voor [[Meubelzaak Mertens BV]] horen dezelfde koerswinsten bij het financieel resultaat. De rubriek-keuze is dus geen mechanische lookup, maar een redenering over wat 'normaal' is voor deze onderneming. 🤖
+   _Rationale_: MAR maakt rubrieken contextafhankelijk; CBN-adviezen bevestigen dat hoofdactiviteit beslissend is. Examenrelevant: kandidaten die mechanisch antwoorden vallen door deze valstrik.
+
+2. 'Niet-recurrent' is sinds KB 21/10/2018 niet meer hetzelfde als 'uitzonderlijk'. Het oude regime kende een formele rubriek 'uitzonderlijke kosten/opbrengsten' &mdash; daar zat veel in dat eigenlijk wel terugkwam (bv. jaarlijkse meerwaarden bij verkoop van afgeschreven vaste activa). Het nieuwe regime hanteert twee feitelijke criteria: eenmalig + niet-hervraagbaar. Een vraag op het examen die nog de term 'uitzonderlijk' gebruikt is typisch een test op kennis van de regime-wijziging. 🤖
+   _Rationale_: KB 21/10/2018 wijzigde MAR; CBN 2019/04 documenteert overgang. Veelvoorkomend examenpatroon: terminologie-verschil testen.
+
+3. De drie categorieen leiden tot drie subtotalen in de resultatenrekening, die elk apart fiscaal relevant zijn. Bij de aangifte vennootschapsbelasting (zie [[bedrijfsresultaat]] + WIB) bepaalt de categorisatie of een meerwaarde onder de gespreide taxatie kan vallen (typisch alleen voor materiele vaste activa onder bedrijfsresultaat) of niet. Verkeerde categorisatie heeft dus directe fiscale impact &mdash; geen louter cosmetische keuze. 🤖
+   _Rationale_: Cross-domein link met fiscaliteit (WIB art. 47 gespreide taxatie). Hoge examenwaarde: combineert PO 1.1 + PO 1.2 + PO 3 (fiscaliteit).
 
 ## Verwante competenties
 

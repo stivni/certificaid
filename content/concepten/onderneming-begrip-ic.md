@@ -36,8 +36,9 @@ Een onderneming in IC-context is elke organisatie die middelen (mensen, geld, te
 
 - **Vereist kennis van**: [[interne-controle]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Voor IC-doeleinden hebben Yperse Werkplaats BV (productie, 45 medewerkers), VZW Quelle de Vie (sociaal restaurant, 12 medewerkers) en Praktijk Persenaire (eenmanszaak vrij beroep) elk een eigen IC-noden-profiel — gebaseerd op hun risico's, niet hun rechtsvorm. De principes blijven dezelfde; de toepassing schaalt mee.
 
 ## Bronnen
 

@@ -84,8 +84,9 @@ Standaard sjabloon in dossier: 'risk assessment memo' per cliënt-cyclus.
 - **Vereist kennis van**: [[auditrisicomodel]]
 - **Getriggerd door**: [[auditplanning]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Rotex Roeselare NV verwerft Sofie Janssens inzicht door bevragingen bij de CFO + de productieleider, doorlezen van het beleid, cijferanalyses op de afgelopen drie boekjaren, en een rondgang op de werkvloer. Daaruit identificeert ze drie risicogebieden: voorraadwaardering, een aanhangig fiscaal geschil, en het hoge ondernemingskrediet.
 
 ## Bronnen
 

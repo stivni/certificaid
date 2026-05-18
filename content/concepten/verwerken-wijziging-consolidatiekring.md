@@ -220,3 +220,8 @@ Bij interne herstructurering waarbij de economische controle ongewijzigd blijft:
 **Grondslag**: [[wijziging-consolidatiekring]] §common-control, CBN-advies common-control transactions
 
 
+## Voorbeelden
+
+
+
+

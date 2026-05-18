@@ -25,8 +25,9 @@ Een paragraaf inzake overige aangelegenheden (other matter) is een paragraaf in 
 _Bron: ITAA KMO-controlenorm Bijlage 1_
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Sofie Janssens audit de jaarrekening 2025 van Rotex maar treedt voor het eerst op (vorige jaar werd door een andere auditor gecertificeerd). Zij neemt een paragraaf 'overige aangelegenheden' op die de gebruiker informeert dat de vergelijkende cijfers 2024 door een collega-auditor werden gecontroleerd.
 
 ## Bronnen
 

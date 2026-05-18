@@ -159,3 +159,9 @@ Pas de voorziening jaarlijks aan naar nieuwe inschatting en hef ze op bij realis
 **Grondslag**: [[voorzieningen]] §dynamisch-beheer, CBN 2018/25 §opvolging
 
 
+## Voorbeelden
+
+
+
+
+

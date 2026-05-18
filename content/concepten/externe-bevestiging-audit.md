@@ -60,8 +60,9 @@ Reconciliatiewerkblad in dossier; explicit benoemen welke discrepanties zijn opg
 **Grondslag**: ITAA KMO-controlenorm §92
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Sofie Janssens stuurt een bevestigingsbrief naar de bank van Rotex Roeselare NV (KBC): saldi rekening-courant, kredietlijnen, waarborgen. Zij ondertekent de brief zelf, vraagt de antwoorden direct naar haar kantoor te sturen, en confronteert het antwoord met de balans. Dit is hoogstwaardige assurance-informatie wegens schriftelijk + extern.
 
 ## Bronnen
 

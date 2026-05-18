@@ -39,6 +39,9 @@ _Bron: KB-WVV art. 3:14-3:18_
 **Waarom?** De balans + RR geven cijfers; de toelichting geeft context en uitleg.
 
 
+
+Toelichting van Naaiatelier Ninove BV bij rubriek voorraad: 'Grondstoffen worden gewaardeerd volgens FIFO; afgewerkte producten tegen kostprijs incl. proportioneel deel indirecte kosten.'
+
 _Grondslag: KB-WVV art. 3:14-3:18 + bijlagen_
 
 ### Schema-afhankelijke rijkheid 🤖
@@ -48,6 +51,9 @@ Volledig schema (groot) → ~ 20 verplichte rubrieken in toelichting. Verkort sc
 **Waarom?** Proportionaliteit — kleinere ondernemingen leveren minder detailinformatie.
 
 
+
+Rotex Roeselare NV (groot): toelichting van 25 pagina's. Oprichtingen Oostende BV (micro): toelichting van 2 pagina's.
+
 _Grondslag: KB-WVV bijlagen 1-3_
 
 ### Niet-balansrechten en -verplichtingen ⚖️
@@ -56,6 +62,9 @@ Een sleutelrubriek (rubriek IX in volledig schema, klasse 0). Hier komen: gegeve
 
 **Waarom?** Volledigheidsbeginsel — een gebruiker moet weten welke verbintenissen 'naast de balans' bestaan en de toekomst kunnen beïnvloeden.
 
+
+
+Aurelia Holding NV gaf patronaatsverklaring voor lening € 2M aan dochter → toelichting rubriek IX 'Niet-balansrechten en -verplichtingen' → € 2M voorwaardelijke verplichting.
 
 _Grondslag: KB-WVV art. 3:14_
 
@@ -75,8 +84,9 @@ _Grondslag: KB-WVV art. 3:14_
 
 - **Vereist kennis van**: [[volledigheidsbeginsel]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Rotex Roeselare NV's toelichting bevat o.a.: 'Waarderingsregels - vaste activa lineair afgeschreven over 5-10 jaar; voorraad volgens gewogen gemiddelde; klantenvorderingen met individuele waardevermindering bij faillissement.'
 
 ## Bronnen
 

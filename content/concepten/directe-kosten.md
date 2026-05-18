@@ -60,8 +60,9 @@ _Bron: CBN 132/7 §2.1 — 'productiekosten die rechtstreeks aan het individueel
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Yperse Werkplaats BV produceert een order van 500 tapijten voor klant Brugse Boutique. De gebruikte wol (€ 12.000 op factuur, volledig in dit order verwerkt) en de loonkost van naaisters die op de werkbon voor dit order € 4.500 uren registreerden, zijn directe kosten.
 
 ## Bronnen
 

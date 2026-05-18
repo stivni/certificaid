@@ -73,14 +73,17 @@ flowchart TD
 
 ## Kerninzichten
 
-- Current ratio en quick ratio zijn geen alternatieven — ze zijn complementair. Bij Rotex Roeselare NV: current 2,0 en quick 1,375. Het verschil tussen beide (0,625) is volledig toe te schrijven aan de voorraden (€ 2.500.000 op € 4.000.000 korte schulden). Het verschil zelf is dus een ratio-component: de mate waarin de liquiditeit op voorraden steunt. 🤖
-  - _Rationale_: Voorbeeldcijfers uit `current-ratio.berekeningsmethode` en `quick-ratio.berekeningsmethode`.
-- Werkkapitaal als absoluut bedrag corrigeert een verborgen valkuil van ratio's: schaal. Meubelzaak Mertens BV en Rotex Roeselare NV kunnen beide current ratio rond 1,3 hebben, maar werkkapitaal € 200.000 versus € 4.000.000. Voor financierings-capaciteit en investeringsruimte is de absolute buffer relevanter dan de verhouding. 🤖
-  - _Rationale_: Schaalverschil expliciet in `werkkapitaal.bouwstenen[0].voorbeeld_inline`.
-- Een acute liquiditeitsstress (current ratio onder 1) zegt nog niets over levensvatbaarheid. Combineer altijd met de solvabiliteitsratio (structurele basis) en de cashflow (kasgeneratie). Een tijdelijk illiquide maar solvabel bedrijf kan financiering brugkalmen via een banklijn; een liquide maar onsolvabel bedrijf staat op een tijdbom. 🤖
-  - _Rationale_: Complementariteit uit `liquiditeitsratio.vergelijkingsparen` met solvabiliteit.
-- Cash ratio (geldbeleggingen + liquide middelen / korte schulden) is de strengste van de liquiditeitsfamilie maar krijgt in de standaard 1.3-records geen apart record. Voor voorraadintensieve sectoren of acute stress-scenario's is dat de meest waardevolle van de drie — zie open gap voor uitwerking. 🤖
-  - _Rationale_: Cash ratio wordt aangehaald in `liquiditeitsratio.bouwstenen[0]` maar zonder eigen record (gelogd als gap).
+1. Current ratio en quick ratio zijn geen alternatieven — ze zijn complementair. Bij Rotex Roeselare NV: current 2,0 en quick 1,375. Het verschil tussen beide (0,625) is volledig toe te schrijven aan de voorraden (€ 2.500.000 op € 4.000.000 korte schulden). Het verschil zelf is dus een ratio-component: de mate waarin de liquiditeit op voorraden steunt. 🤖
+   _Rationale_: Voorbeeldcijfers uit `current-ratio.berekeningsmethode` en `quick-ratio.berekeningsmethode`.
+
+2. Werkkapitaal als absoluut bedrag corrigeert een verborgen valkuil van ratio's: schaal. Meubelzaak Mertens BV en Rotex Roeselare NV kunnen beide current ratio rond 1,3 hebben, maar werkkapitaal € 200.000 versus € 4.000.000. Voor financierings-capaciteit en investeringsruimte is de absolute buffer relevanter dan de verhouding. 🤖
+   _Rationale_: Schaalverschil expliciet in `werkkapitaal.bouwstenen[0].voorbeeld_inline`.
+
+3. Een acute liquiditeitsstress (current ratio onder 1) zegt nog niets over levensvatbaarheid. Combineer altijd met de solvabiliteitsratio (structurele basis) en de cashflow (kasgeneratie). Een tijdelijk illiquide maar solvabel bedrijf kan financiering brugkalmen via een banklijn; een liquide maar onsolvabel bedrijf staat op een tijdbom. 🤖
+   _Rationale_: Complementariteit uit `liquiditeitsratio.vergelijkingsparen` met solvabiliteit.
+
+4. Cash ratio (geldbeleggingen + liquide middelen / korte schulden) is de strengste van de liquiditeitsfamilie maar krijgt in de standaard 1.3-records geen apart record. Voor voorraadintensieve sectoren of acute stress-scenario's is dat de meest waardevolle van de drie — zie open gap voor uitwerking. 🤖
+   _Rationale_: Cash ratio wordt aangehaald in `liquiditeitsratio.bouwstenen[0]` maar zonder eigen record (gelogd als gap).
 
 ## Bronnen
 

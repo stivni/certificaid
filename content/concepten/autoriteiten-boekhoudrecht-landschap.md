@@ -61,16 +61,20 @@ flowchart TD
 
 ## Kerninzichten
 
-- ITAA en IBR zijn niet uitwisselbaar. ITAA reglementeert accountants (kunnen contractuele KMO-controle uitvoeren); IBR reglementeert bedrijfsrevisoren (kunnen wettelijke commissarisopdracht uitvoeren). Examenvalkuil: 'mag een ITAA-accountant commissaris zijn bij Rotex Roeselare NV (groot)?' &mdash; antwoord nee, dat is voorbehouden aan IBR-revisor. ⚖️
-  - _Rationale_: Wet 17 maart 2019 (ITAA) versus Wet 7 december 2016 (IBR) maken het onderscheid wettelijk.
-- NBB en FSMA delen het 'Twin Peaks'-toezichtmodel maar met verschillende dimensies. NBB = prudentieel/macroprudentieel (gezondheid van financiële instellingen). FSMA = gedrag/markttransparantie (eerlijke informatie aan beleggers). Bij Belfius BV (bank): NBB controleert kapitaaltoereikendheid; FSMA controleert hoe Belfius haar producten in de markt zet. 🤖
-  - _Rationale_: Wet 2 juli 2010 (Twin Peaks-hervorming) verdeelt de rollen tussen NBB en FSMA.
-- Neerlegging gebeurt via twee kanalen: jaarrekeningen via NBB (centraal balanscentrum); ondernemingsdossier (oprichting, statuten, benoemingen) via de griffies van de ondernemingsrechtbank. Verwar deze niet &mdash; dezelfde Meubelzaak Mertens BV legt elk jaar bij NBB neer maar ook bij de griffie bij statutenwijziging. ⚖️
-  - _Rationale_: KB-WVV art. 3:104 voor jaarrekening; WER Boek III voor ondernemingsdossier.
-- CBN-adviezen zijn niet bindend maar gezaghebbend. Rechters en fiscus volgen ze in praktijk. Bij examenvraag 'wat is de boekhoudkundige verwerking van X?' is een CBN-advies vaak de beste bron &mdash; ook als de WVV/KB-WVV-tekst zwijgt of dubbelzinnig is. 🤖
-  - _Rationale_: Vakdoctrine: CBN-adviezen worden in rechtsleer en CBN-praktijk consistent als interpretatie-gezag erkend.
-- Bij een beursgenoteerde groep zijn doorgaans drie autoriteiten tegelijk betrokken: FSMA (transparantie), NBB (neerlegging jaarrekening + prudentieel indien financiële instelling), IBR-revisor (commissaris). Voor een gewone KMO is meestal alleen NBB + (eventueel) ITAA-accountant relevant. 🤖
-  - _Rationale_: Schaalcomplexiteit van PIE (public-interest-entity) versus niet-PIE.
+1. ITAA en IBR zijn niet uitwisselbaar. ITAA reglementeert accountants (kunnen contractuele KMO-controle uitvoeren); IBR reglementeert bedrijfsrevisoren (kunnen wettelijke commissarisopdracht uitvoeren). Examenvalkuil: 'mag een ITAA-accountant commissaris zijn bij Rotex Roeselare NV (groot)?' &mdash; antwoord nee, dat is voorbehouden aan IBR-revisor. ⚖️
+   _Rationale_: Wet 17 maart 2019 (ITAA) versus Wet 7 december 2016 (IBR) maken het onderscheid wettelijk.
+
+2. NBB en FSMA delen het 'Twin Peaks'-toezichtmodel maar met verschillende dimensies. NBB = prudentieel/macroprudentieel (gezondheid van financiële instellingen). FSMA = gedrag/markttransparantie (eerlijke informatie aan beleggers). Bij Belfius BV (bank): NBB controleert kapitaaltoereikendheid; FSMA controleert hoe Belfius haar producten in de markt zet. 🤖
+   _Rationale_: Wet 2 juli 2010 (Twin Peaks-hervorming) verdeelt de rollen tussen NBB en FSMA.
+
+3. Neerlegging gebeurt via twee kanalen: jaarrekeningen via NBB (centraal balanscentrum); ondernemingsdossier (oprichting, statuten, benoemingen) via de griffies van de ondernemingsrechtbank. Verwar deze niet &mdash; dezelfde Meubelzaak Mertens BV legt elk jaar bij NBB neer maar ook bij de griffie bij statutenwijziging. ⚖️
+   _Rationale_: KB-WVV art. 3:104 voor jaarrekening; WER Boek III voor ondernemingsdossier.
+
+4. CBN-adviezen zijn niet bindend maar gezaghebbend. Rechters en fiscus volgen ze in praktijk. Bij examenvraag 'wat is de boekhoudkundige verwerking van X?' is een CBN-advies vaak de beste bron &mdash; ook als de WVV/KB-WVV-tekst zwijgt of dubbelzinnig is. 🤖
+   _Rationale_: Vakdoctrine: CBN-adviezen worden in rechtsleer en CBN-praktijk consistent als interpretatie-gezag erkend.
+
+5. Bij een beursgenoteerde groep zijn doorgaans drie autoriteiten tegelijk betrokken: FSMA (transparantie), NBB (neerlegging jaarrekening + prudentieel indien financiële instelling), IBR-revisor (commissaris). Voor een gewone KMO is meestal alleen NBB + (eventueel) ITAA-accountant relevant. 🤖
+   _Rationale_: Schaalcomplexiteit van PIE (public-interest-entity) versus niet-PIE.
 
 ## Verwante competenties
 

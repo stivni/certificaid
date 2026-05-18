@@ -39,6 +39,7 @@ Een fout is een onopzettelijke afwijking in de boekhouding, rapportering of bedr
 > Preventie: automatische plausibility checks in ERP (bedrag binnen range), drempelwaardes met manuele review, vier-ogen-principe op kritische posten. Detectie: maandelijkse afstemming bank/grootboek, cijferanalyses (trend, ratio's), spotcheck-samples door supervisor. 🤖
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV boekt een nieuwe boekhouder een factuur van € 12.000 onder verkeerd kostencentrum (Spinnerij i.p.v. Weverij). Geen opzet — gewoon vergissing. IC-respons: maandelijkse review per kostencentrum door afdelingschef pikt afwijking op; correctie + verduidelijking in instructie.
 

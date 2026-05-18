@@ -41,6 +41,7 @@ Evaluatiecriteria voor IC zijn de maatstaven waarop een IC-maatregel of -systeem
 
 - **Vereist kennis van**: [[evaluatie-interne-controle]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV evalueert Sofie Janssens de aankoopautorisatie: opzet OK (drempels gedefinieerd, functiescheiding voorzien), maar werking zwak (10 op 25 facturen ontbreekt CFO-handtekening — drempel werd in praktijk genegeerd). Conclusie: design effective, operation NOT effective → aanbeveling aanscherping + maandelijkse exception-review.
 

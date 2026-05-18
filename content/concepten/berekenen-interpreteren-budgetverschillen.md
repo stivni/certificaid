@@ -198,3 +198,7 @@ Synthetiseer alle verschillen in een variantie-rapport en koppel oorzaken aan ac
 > _Grondslag_: [[verschillenboekhouding]] §materiaalverschil
 
 
+## Voorbeelden
+
+
+

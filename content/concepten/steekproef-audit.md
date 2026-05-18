@@ -35,8 +35,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1 (Steekproef)_
 > (a) Conclude dat de IC effectief werkt of dat er geen materiële afwijking is, terwijl dit niet zo is — gevaarlijke fout, beïnvloedt effectiviteit van de audit en de kans op een verkeerd oordeel. (b) Conclude dat de IC niet werkt of dat er een afwijking is, terwijl dit niet zo is — minder gevaarlijk maar verhoogt audit-kost (extra werk om de eerste conclusie te corrigeren). ⚖️
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Rotex Roeselare NV heeft 4.500 aankoopfacturen 2025. Sofie Janssens kan onmogelijk alle 4.500 testen. Zij selecteert een statistische steekproef van 60 facturen — gestratificeerd naar bedrag — en toetst per factuur of de IC-controles werden uitgevoerd. Steekproefrisico: 0 fouten in steekproef garandeert niet dat er 0 fouten in de populatie zitten.
 
 ## Bronnen
 

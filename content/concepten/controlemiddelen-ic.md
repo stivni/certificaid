@@ -35,6 +35,7 @@ Controlemiddelen zijn de concrete instrumenten waarmee beheersactiviteiten worde
 > (1) Documenten + formulieren: gestandaardiseerd format, doorlopende nummering, verplichte velden. (2) Fysieke beveiliging: sleutels, badges, kluizen, kassa's, camera's. (3) IT-systemen: rollenbeheer, audit trail, validaties, geautomatiseerde controles. (4) Procedurele instrumenten: checklists, walkthroughs, observations. 🤖
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV behoren tot de controlemiddelen: ERP-systeem met rollenbeheer + audit trail (digitaal), bestelbon-formulier (papier + digitaal), magazijnbadge (fysiek), digitale handtekening in bank-platform (digitaal), camerabewaking magazijn (fysiek). Elk middel realiseert één of meer beheersactiviteiten.
 

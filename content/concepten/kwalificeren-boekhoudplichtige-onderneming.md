@@ -145,3 +145,8 @@ Communiceer dat alle boeken en verantwoordingsstukken zeven jaar bewaard moeten 
 **Grondslag**: [[bewaartermijn-boekhouding]] §termijn, WER art. III.86
 
 
+## Voorbeelden
+
+
+
+

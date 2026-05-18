@@ -38,6 +38,9 @@ Enkel een bedrijfsrevisor mag de wettelijke controle van de jaarrekening uitvoer
 **Waarom?** De wetgever wil dat de wettelijke audit van grote vennootschappen door één gespecialiseerd beroep + één publieke toezichthouder (College van Toezicht) wordt verzekerd.
 
 
+
+Rotex Roeselare NV moet een commissaris benoemen → enkel Sofie Janssens (bedrijfsrevisor) komt in aanmerking, niet haar collega-gecertificeerd accountant.
+
 _Grondslag: Wet 7 december 2016 art. 3 (revisorenwet)_
 
 ### Gedeeld monopolie met gecertificeerd accountant ⚖️
@@ -45,6 +48,8 @@ _Grondslag: Wet 7 december 2016 art. 3 (revisorenwet)_
 Voor andere wettelijk voorbehouden opdrachten (inbreng in natura, omzetting, ontbinding ...) deelt de bedrijfsrevisor het monopolie met de gecertificeerd accountant. De cliënt mag kiezen — tenzij er een commissaris is.
 
 **Waarom?** Voor specifieke vennootschapsrechtelijke verrichtingen heeft de wetgever twee gelijkwaardige beroepen aangeduid.
+
+
 
 
 _Grondslag: Wet ITAA 2019 art. 3 jo. WVV_
@@ -55,6 +60,9 @@ Wanneer de bedrijfsrevisor in een vennootschap (CVBA, BV ...) werkt, moet een na
 
 **Waarom?** De wetgever wil aansprakelijkheid kunnen toeschrijven aan een mens, niet aan een rechtspersoon.
 
+
+
+Het commissarisverslag van Rotex wordt ondertekend door 'Wolters & Partners CVBA, vertegenwoordigd door Sofie Janssens, bedrijfsrevisor'.
 
 _Grondslag: Wet 7 december 2016 + analogie KB plichtenleer art. 18_
 
@@ -69,8 +77,9 @@ _Grondslag: Wet 7 december 2016 + analogie KB plichtenleer art. 18_
 
 - **Vereist kennis van**: [[commissaris]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Sofie Janssens is bedrijfsrevisor en IBR-lid, vaste vertegenwoordiger van Wolters & Partners CVBA. Zij ondertekent persoonlijk het commissarisverslag bij de jaarrekening 2025 van Rotex Roeselare NV.
 
 ## Bronnen
 

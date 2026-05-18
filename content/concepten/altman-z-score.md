@@ -37,6 +37,9 @@ Z combineert vijf ratio's: (1) NBK/TA (werkkapitaal/totaal activa) — liquidite
 **Waarom?** Discriminant-analyse op een steekproef van gefailleerde + niet-gefailleerde ondernemingen gaf de optimale gewichten. Elk van de vijf ratio's vangt een ander aspect van financiële gezondheid op.
 
 
+
+Rotex Roeselare NV — NBK/TA = 0,27, IW/TA = 0,07, EBIT/TA = 0,20, MVE/VV = 0,67, O/TA = 1,67 → Z = 1,2×0,27 + 1,4×0,07 + 3,3×0,20 + 0,6×0,67 + 1,0×1,67 = 0,32 + 0,10 + 0,66 + 0,40 + 1,67 = **3,15** → gezonde zone (Z > 2,99).
+
 _Grondslag: Altman (1968)_
 
 ### Drie interpretatiezones 🤖
@@ -45,6 +48,9 @@ Originele cut-offs (publieke productiebedrijven, VS): Z < 1,81 = distress zone (
 
 **Waarom?** De cut-offs zijn empirisch: ze maximaliseren het onderscheid tussen de twee steekproef-groepen. De grey zone vraagt om aanvullende analyse — Altman alléén volstaat niet voor een diagnose.
 
+
+
+Verffabriek Veurne BV in vereffening — Z = 0,8 (distress zone); Rotex Roeselare NV — Z = 3,15 (safe zone).
 
 _Grondslag: Altman (1968)_
 

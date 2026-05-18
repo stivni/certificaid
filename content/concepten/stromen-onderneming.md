@@ -39,6 +39,7 @@ Stromen zijn de bewegingen van goederen, geld of informatie door de onderneming.
 
 - **Vereist kennis van**: [[cyclus-analyse-ic]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV bij aankoop grondstoffen: (a) fysieke stroom = grondstoffen komen binnen, magazijnier neemt in ontvangst; (b) informatiestroom = leveringsbon → bestelbon → factuur → boeking; (c) financiële stroom = leveranciersbetaling 30 dagen later. Als de informatiestroom faalt (factuur kwijt), worden de twee andere stromen ontkoppeld: betaling zonder boeking, of boeking zonder betaling.
 

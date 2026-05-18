@@ -189,3 +189,7 @@ Bouw de toelichting in een logische volgorde (alinea 114): (a) verklaring van ov
 > _Grondslag_: [[toelichtingsvereisten-jaarrekening-ifrs]] §kritische-schattingen
 
 
+## Voorbeelden
+
+
+

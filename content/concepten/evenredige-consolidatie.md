@@ -39,6 +39,9 @@ Neem elke bezitting, schuld, opbrengst en kost van de gemeenschappelijke dochter
 **Waarom?** Je deelt de macht over deze dochter met andere vennoten; je hebt geen 100 %-zeggenschap. De geconsolideerde jaarrekening reflecteert die gedeelde macht door alleen jouw stuk te tonen.
 
 
+
+Cardinal Group NV bezit 50 % van Filmstudio Florence BV (gezamenlijke controle). Filmstudio Florence heeft € 4.000.000 vaste activa → Cardinal neemt 50 % × € 4.000.000 = € 2.000.000 op in haar geconsolideerde balans.
+
 _Grondslag: KB WVV art. 3:140, b_
 
 ### Integrale-consolidatie-regels gelden, maar op het pro-rata stuk ⚖️
@@ -48,6 +51,9 @@ Op het opgenomen pro-rata deel pas je alle technieken van integrale consolidatie
 **Waarom?** Door dezelfde technieken op een kleinere schaal toe te passen behoud je consistentie binnen de geconsolideerde jaarrekening — een goodwill bij een gemeenschappelijke dochter werkt boekhoudkundig op dezelfde manier als bij een gewone dochter, alleen voor jouw deel.
 
 
+
+Cardinal koopt haar 50 %-belang in Filmstudio Florence voor € 1.500.000; pro-rata eigen vermogen (EV) Filmstudio op aankoopdatum = € 1.250.000 → bruto-verschil € 250.000 op pro-rata basis, eventueel toe te rekenen aan stille meerwaarden in Filmstudio's apparatuur.
+
 _Grondslag: KB WVV art. 3:140, a_
 
 ### Geen 'Belangen van derden'-post 🤖
@@ -56,6 +62,9 @@ Bij evenredige consolidatie verschijnt er geen post 'Belangen van derden' of 'Aa
 
 **Waarom?** Bij integrale consolidatie zit 100 % van de dochter in de geconsolideerde balans, en moet de niet-moeder-fractie zichtbaar worden gemaakt. Bij evenredige consolidatie zit alleen jouw stuk er al in — het deel van de andere vennoten verschijnt nooit; daarom geen derden-correctie nodig.
 
+
+
+Cardinal neemt 50 % van Filmstudio Florence op; Energiehuis Evergem neemt de andere 50 % op in haar eigen geconsolideerde jaarrekening. Geen 'Belangen van derden' aan beide zijden.
 
 _Grondslag: KB WVV art. 3:140 (geen verwijzing naar KB WVV art. 3:137)_
 
@@ -273,6 +282,10 @@ Resultaat: In de geconsolideerde balans van Cardinal verschijnen € 2.750.000 a
 ## Zie ook
 
 - **Getriggerd door**: [[gezamenlijke-controle]]
+
+## Voorbeelden
+
+Cardinal Group NV en Energiehuis Evergem BV bezitten elk 50 % van Filmstudio Florence BV (gezamenlijke controle via aandeelhoudersovereenkomst). Cardinal neemt 50 % van elke balanspost en elke opbrengst/kost van Filmstudio Florence op in haar geconsolideerde jaarrekening. Geen post 'Belangen van derden'.
 
 ## Bronnen
 

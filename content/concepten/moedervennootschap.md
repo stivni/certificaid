@@ -67,8 +67,9 @@ _Bron: WVV art. 1:15, 1° jo. art. 3:22_
 - **Getriggerd door**: [[consolidatieverplichting]]
 - **Vereist kennis van**: [[controle]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Aurelia Holding NV bezit 80 % van Brugse Brouwerij BV → controle in rechte → Aurelia is moeder van Brugse, Aurelia is consolidatieplichtig en moet een geconsolideerde jaarrekening + jaarverslag opmaken.
 
 ## Bronnen
 

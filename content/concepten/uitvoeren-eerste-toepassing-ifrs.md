@@ -175,3 +175,7 @@ Maak in de eerste IFRS-jaarrekening de verplichte aansluitingen: EV op overgangs
 > _Grondslag_: [[jaarrekening-componenten-ifrs]] §drie-balansen-bij-eerste-toepassing
 
 
+## Voorbeelden
+
+
+

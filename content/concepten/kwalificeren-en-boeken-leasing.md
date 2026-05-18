@@ -171,3 +171,9 @@ Bewaar het werkdocument met kwalificatie-analyse, leasingschema en afschrijvings
 **Grondslag**: [[leasing]] §dossierplicht, [[waarderingsregels-jaarrekening]] §vastlegging
 
 
+## Voorbeelden
+
+
+
+
+

@@ -45,8 +45,9 @@ _Bron: ITAA-norm-kmo-controlenorm §97-§98 + ITAA-algemene-controlenorm §6_
 - **Vereist kennis van**: [[toetsing-interne-beheersing]]
 - **Vereist kennis van**: [[onafhankelijkheid-externe-accountant]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Rotex Roeselare NV doet commissaris Sofie Janssens (Wolters & Partners CVBA) in planningsfase een walkthrough per cyclus. Aankoopcyclus: IC sterk → ze toetst 25 facturen op functiescheiding-naleving → 0 fouten → CR laag → minder substantief werk. Verkoopcyclus: IC zwak (geen krediettoetsing nieuwe klanten) → CR hoog → volledige substantieve testen van vorderingen. Management letter wijst op verkoop-IC-zwakte met aanbevelingen.
 
 ## Bronnen
 

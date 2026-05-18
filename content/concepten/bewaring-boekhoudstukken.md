@@ -37,6 +37,9 @@ Voor alle stukken met direct verband met de boekhouding (dagboeken, hulpdagboeke
 **Waarom?** Deze termijn dekt de fiscale, sociale en commerciële controles. Fiscus heeft typisch tot 3 jaar terug; in geval van fraude of speciale procedures kan dit uitgebreid worden, vandaar 7 jaar als veilige minimum.
 
 
+
+Aankoopfactuur Naaiatelier Ninove BV voor textiel d.d. 14 maart 20X1 → bewaren tot 31 december 20X8 (7 jaar vanaf 1/1/20X2).
+
 _Grondslag: WER art. III.86, § 1_
 
 ### 3 jaar voor niet-boekhoudkundige verantwoordingsstukken ⚖️
@@ -46,6 +49,9 @@ Verantwoordingsstukken die geen verband houden met boekhoudkundige verrichtingen
 **Waarom?** Voor stukken zonder boekhoudkundige relevantie is een kortere termijn evenredig met het belang. Voor cijfer-impact: 7 jaar.
 
 
+
+Een interne nota over een marketing-strategie, zonder financiële boeking, hoeft maar 3 jaar bewaard te worden.
+
 _Grondslag: WER art. III.86, § 1_
 
 ### Digitale bewaring + bewaring in buitenland ⚖️
@@ -54,6 +60,9 @@ De wet legt geen fysieke plaats op. Digitale archivering is toegelaten; ook bewa
 
 **Waarom?** Cloud-archivering is praktisch en kostbesparend. De wetgever staat het toe mits de essentiële controlefunctie (toegankelijkheid door commissaris, fiscus, sociale inspectie) niet wordt belemmerd.
 
+
+
+Uitgeverij Ukkel NV archiveert alle facturen elektronisch op een Microsoft Azure-server in Ierland. Vanuit haar zetel te Ukkel kan de boekhouder elke factuur binnen seconden ophalen via een beveiligde webportal — voldoet aan de eis.
 
 _Grondslag: CBN 2010/14_
 
@@ -75,8 +84,9 @@ _Grondslag: CBN 2010/14_
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Naaiatelier Ninove BV moet de aankoopfacturen, verkoopfacturen, dagboeken en jaarrekening van boekjaar 20X1 (1/1 — 31/12/20X1) bewaren tot 31/12/20X8 (7 jaar vanaf 1/1/20X2). De BV kiest voor digitale archivering op een cloud-server in Frankrijk; vanuit de zetel te Ninove blijven alle documenten on-line consulteerbaar.
 
 ## Bronnen
 

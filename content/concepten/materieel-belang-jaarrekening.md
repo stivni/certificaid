@@ -38,6 +38,9 @@ Een bedrag van € 50.000 is materieel voor Meubelzaak Mertens BV (jaaromzet €
 **Waarom?** Hetzelfde bedrag heeft andere impact op andere ondernemingen. Materialiteit hangt af van schaal én aard.
 
 
+
+Voor Rotex: een fout van € 50.000 op een omzet van € 50.000.000 = 0,1 % — niet materieel. Voor Meubelzaak Mertens BV: 2,5 % — wel materieel.
+
 _Grondslag: Richtlijn 2013/34/EU art. 2, 16)_
 
 ### Context bepaalt — gelijkaardige posten samen ⚖️
@@ -46,6 +49,9 @@ Posten van te verwaarlozen betekenis kunnen samen toch materieel zijn als ze zic
 
 **Waarom?** Anders kan een onderneming verschillende kleine afwijkingen camoufleren onder de materialiteitsdrempel.
 
+
+
+Tien afzonderlijke voorraad-correcties van elk € 8.000 (= € 80.000 totaal) op Meubelzaak Mertens BV worden in samenhang beoordeeld — niet apart.
 
 _Grondslag: Richtlijn 2013/34/EU art. 2, 16)_
 
@@ -66,9 +72,6 @@ _Grondslag: Richtlijn 2013/34/EU art. 2, 16)_
 ## Zie ook
 
 - **Vereist kennis van**: [[niet-in-balans-opgenomen-rechten-verplichtingen]]
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 

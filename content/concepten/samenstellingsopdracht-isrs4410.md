@@ -87,8 +87,9 @@ Volg de modelverslagen in de norm. Cruciaal: vermeld dat noch audit noch beoorde
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Meubelzaak Mertens BV doet haar boekhouding zelf maar wil hulp bij de jaarafsluiting. Sofie Janssens (gecertificeerd accountant) verwerkt afschrijvingen, herclassificeert posten en stelt de jaarrekening op in het wettelijk schema. Haar samenstellingsverslag vermeldt expliciet: 'wij hebben geen audit of beoordelingswerkzaamheden uitgevoerd — er is geen oordeel of conclusie'.
 
 ## Bronnen
 

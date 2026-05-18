@@ -32,8 +32,9 @@ _Bron: WVV art. 1:14 (voor betekenis 2) + ITAA-norm-kmo-controlenorm Bijlage 1 (
 > _Trigger_: Examen-context: gaat het over jaarrekening / IC / audit? → betekenis (1). Gaat het over consolidatie / groepen / belangenpercentage? → betekenis (2).
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Bij Yperse Werkplaats BV: 'Sofie Janssens controleert de aankoopfacturen' = betekenis (1), zij verifieert. 'Aurelia Holding NV oefent controle uit op Brugse Brouwerij BV' = betekenis (2), zij beheert beslissend (WVV art. 1:14). Beide gebruiken het woord 'controle' — verschillende juridische ladingen.
 
 ## Bronnen
 

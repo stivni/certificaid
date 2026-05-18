@@ -144,3 +144,8 @@ Doorloop balans, resultatenrekening en toelichting en flag wat eruit springt.
 **Grondslag**: [[intake-financiele-analyse]] §stap-4, [[materieel-belang-jaarrekening]] §context-bepaalt
 
 
+## Voorbeelden
+
+
+
+

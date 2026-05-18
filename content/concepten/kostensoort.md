@@ -42,8 +42,9 @@ _Bron: KB 21.10.2018 Bijlage 1 (MAR) — klasse 6_
 > _Trigger_: Examen-vraag op rekeningenstelsel-organisatie: identificeer of de indeling per soort, per centrum of per drager gebeurt.
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+In de algemene boekhouding van Yperse Werkplaats BV staat de aankoop van wol op rekening 600 'Aankopen van grondstoffen' (kostensoort: materiaal); de lonen van naaisters op rekening 620 'Bezoldigingen' (kostensoort: arbeid); de fabriekshuur op rekening 610 'Huur' (kostensoort: diensten en diverse goederen).
 
 ## Bronnen
 

@@ -57,14 +57,17 @@ flowchart TD
 
 ## Kerninzichten
 
-- Geen enkele moeder is automatisch consolidatieplichtig — er zijn altijd vijf parallelle toetsen die elk een 'nee' kunnen geven. Een examenvraag die zegt 'moeder X heeft controle over dochter Y, dus moet zij consolideren' kapt de redenering te vroeg af. 🤖
-  - _Rationale_: De wettelijke architectuur (WVV art. 3:22-3:24 + art. 1:26) bouwt de plicht op uit cumulatieve voorwaarden + uitzonderingen.
-- Een natuurlijke persoon kan nooit moeder zijn (geen rechtspersoonlijkheid), maar haar gecontroleerde vennootschappen kunnen samen wel een consortium vormen. De plicht verschuift dan van één entiteit naar 'de leden samen'. 🤖
-  - _Rationale_: Consortium-figuur in WVV art. 3:24 lost juist deze situatie op.
-- De groottecriteria zijn 'op geconsolideerde basis' — je moet dus een fictieve geconsolideerde balans opbouwen om te beslissen of je een echte moet maken. Dat is geen circulariteit maar een toetscriterium. 🤖
-  - _Rationale_: Veelvoorkomende stagiair-verwarring: 'maar ik kan geen geconsolideerde balans maken zonder geconsolideerd te hebben' — antwoord: het is een aggregatie-oefening, niet een formele consolidatie.
-- Beursnotering breekt zowel de 'groep van beperkte omvang'-vrijstelling als de subconsolidatie-vrijstelling. Voor genoteerde vennootschappen geldt: altijd consolideren, drempels of hogere moeder doen er niet toe. ⚖️
-  - _Rationale_: WVV art. 1:26 §3 + KB WVV-specifieke bepalingen.
+1. Geen enkele moeder is automatisch consolidatieplichtig — er zijn altijd vijf parallelle toetsen die elk een 'nee' kunnen geven. Een examenvraag die zegt 'moeder X heeft controle over dochter Y, dus moet zij consolideren' kapt de redenering te vroeg af. 🤖
+   _Rationale_: De wettelijke architectuur (WVV art. 3:22-3:24 + art. 1:26) bouwt de plicht op uit cumulatieve voorwaarden + uitzonderingen.
+
+2. Een natuurlijke persoon kan nooit moeder zijn (geen rechtspersoonlijkheid), maar haar gecontroleerde vennootschappen kunnen samen wel een consortium vormen. De plicht verschuift dan van één entiteit naar 'de leden samen'. 🤖
+   _Rationale_: Consortium-figuur in WVV art. 3:24 lost juist deze situatie op.
+
+3. De groottecriteria zijn 'op geconsolideerde basis' — je moet dus een fictieve geconsolideerde balans opbouwen om te beslissen of je een echte moet maken. Dat is geen circulariteit maar een toetscriterium. 🤖
+   _Rationale_: Veelvoorkomende stagiair-verwarring: 'maar ik kan geen geconsolideerde balans maken zonder geconsolideerd te hebben' — antwoord: het is een aggregatie-oefening, niet een formele consolidatie.
+
+4. Beursnotering breekt zowel de 'groep van beperkte omvang'-vrijstelling als de subconsolidatie-vrijstelling. Voor genoteerde vennootschappen geldt: altijd consolideren, drempels of hogere moeder doen er niet toe. ⚖️
+   _Rationale_: WVV art. 1:26 §3 + KB WVV-specifieke bepalingen.
 
 ## Verwante competenties
 

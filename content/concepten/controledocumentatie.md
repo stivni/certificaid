@@ -37,6 +37,8 @@ Onder meer: structuur van de onderneming, uittreksels juridische stukken, werksc
 **Waarom?** Het dossier moet als bewijs kunnen dienen van wat de auditor heeft gedaan — voor de toezichthouder én voor een eventuele rechtbank.
 
 
+
+
 _Grondslag: ITAA Algemene controlenorm §4_
 
 ### Ervaren-beroepsbeoefenaar-test ⚖️
@@ -46,6 +48,9 @@ De documentatie moet zo voldoende zijn dat een ervaren beroepsbeoefenaar die de 
 **Waarom?** Dossier moet 'cold readable' zijn — zoniet is de bewijswaarde nul.
 
 
+
+Een vervangende confrater moet in 2030 het dossier 2025 van Rotex kunnen openen en begrijpen waarom Sofie Janssens een paragraaf ter benadrukking had opgenomen.
+
 _Grondslag: ITAA KMO-controlenorm §44_
 
 ### Eigendom + beroepsgeheim ⚖️
@@ -53,6 +58,8 @@ _Grondslag: ITAA KMO-controlenorm §44_
 De werkdocumenten behoren exclusief tot de accountant en zijn gedekt door het beroepsgeheim. De cliënt heeft GEEN eigendomsrecht op het dossier.
 
 **Waarom?** Garandeert de onafhankelijkheid van de auditor en de vertrouwelijkheid van het oordeelsvormingsproces.
+
+
 
 
 _Grondslag: ITAA Algemene controlenorm §4 in fine_
@@ -82,8 +89,9 @@ _Grondslag: ITAA Algemene controlenorm §4 in fine_
 
 - **Vereist kennis van**: [[werkprogramma-audit]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Het controledossier 2025 van Rotex Roeselare NV bevat: opdrachtbrief, strategie + risico-evaluatie, werkprogramma per cyclus, alle steekproeven (met testresultaten en evaluatie), correspondentie met derden, management-letters, vergaderingsverslagen met de directie, en het ondertekende controleverslag. Sofie Janssens bewaart het dossier 10 jaar.
 
 ## Bronnen
 

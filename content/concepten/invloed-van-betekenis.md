@@ -74,8 +74,9 @@ _Bron: WVV art. 1:22 (geassocieerde vennootschap)_
 - **Getriggerd door**: [[geassocieerde-onderneming]]
 - **Getriggerd door**: [[vermogensmutatiemethode]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Antwerpse Investments NV bezit 25 % van de stemrechten in Drukkerij Dendermonde BV en heeft een vertegenwoordiger in het bestuur. Geen controle (geen meerderheid, geen stemovereenkomst) → weerlegbaar vermoeden van invloed van betekenis → Drukkerij Dendermonde is geassocieerde onderneming van Antwerpse → vermogensmutatie.
 
 ## Bronnen
 

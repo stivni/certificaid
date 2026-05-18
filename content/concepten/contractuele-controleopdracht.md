@@ -38,6 +38,9 @@ De cliënt vraagt de opdracht zelf — er is geen commissaris benoemd en geen we
 **Waarom?** Externe partijen vertrouwen liever op een audit dan op zelfgemaakte cijfers.
 
 
+
+Een bank vraagt aan Meubelzaak Mertens BV een gecontroleerde jaarrekening vooraleer een krediet van € 750.000 toe te kennen.
+
 _Grondslag: ITAA KMO-controlenorm §2_
 
 ### Redelijke mate van zekerheid ⚖️
@@ -47,6 +50,9 @@ De beroepsbeoefenaar voert voldoende werkzaamheden uit om het risico op een verk
 **Waarom?** Volledige zekerheid is onmogelijk — 'redelijke zekerheid' is het hoogste niveau dat in een audit haalbaar is.
 
 
+
+Sofie Janssens kan na haar werkzaamheden met redelijke zekerheid zeggen: 'de jaarrekening van Meubelzaak Mertens BV geeft een getrouw beeld'. Niet 'met 100 % zekerheid'.
+
 _Grondslag: ITAA KMO-controlenorm §2_
 
 ### Oordeel in positieve vorm ⚖️
@@ -54,6 +60,8 @@ _Grondslag: ITAA KMO-controlenorm §2_
 Het verslag formuleert een uitdrukkelijk oordeel: 'naar ons oordeel geeft de jaarrekening een getrouw beeld'. Niet 'wij hebben geen aanwijzingen gevonden dat ...'.
 
 **Waarom?** Positief = de auditor staat actief in voor de uitspraak. Negatief (limited assurance) = enkel afwezigheid van aanwijzingen.
+
+
 
 
 _Grondslag: ITAA KMO-controlenorm §2_
@@ -84,8 +92,9 @@ _Grondslag: ITAA KMO-controlenorm §2_
 - **Vereist kennis van**: [[redelijke-mate-van-zekerheid]]
 - **Getriggerd door**: [[opdrachtbrief]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Meubelzaak Mertens BV (KMO onder de drempels) wil bij een bankaanvraag van € 750.000 extra geloofwaardigheid. De zaakvoerder vraagt Wolters & Partners CVBA om een contractuele controle uit te voeren over boekjaar 2025. Sofie Janssens voert een volledige audit uit volgens de KMO-controlenorm en levert een verslag af met een positief oordeel.
 
 ## Bronnen
 

@@ -168,3 +168,8 @@ Bij een consortium: voer eerst per lid een verticale consolidatie uit, dan integ
 **Grondslag**: [[horizontale-consolidatie]] §toepassingsgebied, WVV art. 3:24 + KB WVV art. 3:124 lid 1
 
 
+## Voorbeelden
+
+
+
+

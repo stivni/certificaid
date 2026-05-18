@@ -37,6 +37,9 @@ _Bron: WIB92 art. 30-31 (begrip bezoldiging); KB MAR klasse 62_
 **Waarom?** Volledig zicht op kost per uur of per stuk; vereist voor kostprijsberekening en make-or-buy-vergelijkingen.
 
 
+
+Yperse Werkplaats BV hanteert in haar analytische boekhouding een standaard arbeidskost van € 25/uur (afgerond, inclusief alle werkgeverslasten en gemiddelde productiviteit). Dit standaardtarief wordt aan elk order toegewezen op basis van de geregistreerde werkbon-uren.
+
 _Grondslag: Wet 3 juli 1978 (arbeidsovereenkomsten) · WIB92 art. 30-31 (begrip bezoldiging)_
 
 ### Directe vs. indirecte arbeid 🤖
@@ -45,6 +48,9 @@ Directe arbeid = uren die rechtstreeks aan een specifiek order/product zijn best
 
 **Waarom?** Beslist of de arbeidskost rechtstreeks in de kostprijs gaat of via overhead-sleutel.
 
+
+
+Bij Yperse Werkplaats BV registreren de naaisters elke ochtend via badge welk order ze starten — directe arbeid. Het loon van de productieleider Marleen De Cock (€ 6.000/maand inclusief lasten) wordt over alle Confectie-orders verdeeld via directe arbeidsuren als sleutel — indirecte arbeid.
 
 
 
@@ -71,8 +77,9 @@ Directe arbeid = uren die rechtstreeks aan een specifiek order/product zijn best
 
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Een naaister bij Yperse Werkplaats BV verdient bruto € 2.800/maand. Werkgeversbijdragen RSZ ± 27 % = € 756; voorzieningen vakantiegeld en eindejaarspremie ± € 420. Totale maandkost voor de werkgever ≈ € 3.976. Bij 152 uur/maand → arbeidskost per uur ± € 26.
 
 ## Bronnen
 

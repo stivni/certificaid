@@ -35,8 +35,9 @@ _Bron: ITAA KMO-controlenorm Bijlage 1_
 > Significante professionele oordeelsvormingen worden in het controledossier vastgelegd: welke alternatieven zijn afgewogen, welke argumenten doorslag gaven, welke conclusies werden getrokken. Een ervaren confrater moet later de redenering kunnen reconstrueren. ⚖️
 
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Sofie Janssens moet beslissen of zij voor Rotex' voorraadtelling een externe deskundige inschakelt (geschat materiaal) of zelf samen met haar team de waardering uitvoert. De KMO-controlenorm geeft geen automatisch antwoord — zij past haar professionele oordeelsvorming toe en kiest voor een interne uitvoering met externe ondersteuning op 2 specifieke items.
 
 ## Bronnen
 

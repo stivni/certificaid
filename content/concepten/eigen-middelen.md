@@ -36,6 +36,9 @@ Het geplaatst kapitaal of de eigen vermogensinbreng — datgene wat de aandeelho
 **Waarom?** Het kapitaal is de basis van het eigen vermogen en de juridische grens voor uitkeringen en alarmprocedure. Voor BV's vanaf WVV 2019: 'eigen vermogensinbreng' i.p.v. 'maatschappelijk kapitaal' (BV heeft geen kapitaal meer).
 
 
+
+Oprichtingen Oostende BV wordt opgericht met eigen vermogensinbreng € 50.000, volledig volstort. Boeking: Debet 550 Bank € 50.000 / Credit 100 Eigen vermogensinbreng € 50.000.
+
 _Grondslag: MAR rubriek 10 + WVV art. 5:3 — 5:8 (BV) / 7:1 — 7:10 (NV)_
 
 ### Reserves (rubriek 13) ⚖️
@@ -44,6 +47,9 @@ Bedragen die uit de winst zijn afgezonderd voor een specifiek doel of als veilig
 
 **Waarom?** Reserves zijn de geaccumuleerde winsten die niet zijn uitgekeerd. Door ze in afzonderlijke categorieën te plaatsen wordt zichtbaar welk deel uitkeerbaar is (beschikbare reserves) en welk deel niet (wettelijke, onbeschikbare, belastingvrije).
 
+
+
+Meubelzaak Mertens BV heeft per 31/12: wettelijke reserve € 5.000 (130), beschikbare reserves € 80.000 (133). Bij volgende winstbestemming kan het bestuur voorstellen om € 30.000 van de beschikbare reserves uit te keren als dividend.
 
 _Grondslag: MAR rubriek 13 + WVV art. 7:211 (NV) / 5:142 (BV)_
 
@@ -54,6 +60,9 @@ Het saldo dat na de jaarwinstbestemming overblijft en wordt overgedragen naar he
 **Waarom?** Niet alle winst wordt elk jaar uitgekeerd of in vaste reserves geplaatst — een deel blijft 'overgedragen' om volgende jaren extra dividendcapaciteit te bieden of om verliezen te kunnen aanzuiveren.
 
 
+
+Meubelzaak Mertens BV winst 20X1 = € 42.000. Bestemming: 5 % wettelijke reserve € 2.100, dividend € 15.000, overdracht € 24.900 naar rekening 140 (boven de bestaande € 120.100 → totaal € 145.000).
+
 _Grondslag: MAR rubriek 14 + KB WVV resultaatverwerking_
 
 ### Kapitaalsubsidies (rubriek 15) ⚖️
@@ -62,6 +71,9 @@ Overheidssubsidies ontvangen voor investeringen in vaste activa worden aan de pa
 
 **Waarom?** Een subsidie voor een 10-jarige investering hoort niet in één keer in resultaat (zou misleidende eenmalige winst geven) maar gespreid over de gebruiksduur van het actief — parallel aan de afschrijvingslast.
 
+
+
+Naaiatelier Ninove BV ontvangt € 20.000 ecologie-subsidie voor een snij-installatie van € 30.500 (gebruiksduur 5 jaar). Aanvang: Debet 550 Bank € 20.000 / Credit 15 Kapitaalsubsidies € 20.000. Jaarlijks: Debet 15 € 4.000 / Credit 7530 € 4.000 (parallel aan afschrijving).
 
 _Grondslag: MAR rubriek 15 + KB WVV art. 3:53_
 
@@ -101,8 +113,9 @@ _Grondslag: MAR rubriek 15 + KB WVV art. 3:53_
 
 - **Getriggerd door**: [[alarmprocedure]]
 
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
+## Voorbeelden
+
+Meubelzaak Mertens BV per 31/12: kapitaal € 50.000 (rubriek 100), uitgiftepremie € 20.000 (rubriek 11), wettelijke reserve € 5.000 (rubriek 130), beschikbare reserves € 80.000 (rubriek 133), overgedragen winst € 145.000 (rubriek 140). Totaal eigen middelen = € 300.000. Op de passiefzijde rubriek I-VI.
 
 ## Bronnen
 

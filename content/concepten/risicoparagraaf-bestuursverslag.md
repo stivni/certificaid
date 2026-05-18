@@ -40,6 +40,9 @@ Beschrijf doelstellingen en beleid inzake: (i) prijsrisico (op grondstoffen, ein
 **Waarom?** Deze vier risico's zijn de hoofdcategorieën die het financiële profiel van een onderneming bedreigen. Door ze allemaal te bespreken krijgt de gebruiker een volledig risico-overzicht.
 
 
+
+Rotex Roeselare NV: prijsrisico = grondstof staal in € afhankelijk van wereldmarkt; kredietrisico = grote afnemer 18 % van omzet; liquiditeitsrisico = aflossingsschema lening 2027; kasstroomrisico = valuta-blootstelling USD-export.
+
 _Grondslag: Richtlijn 2013/34/EU art. 19, lid 2, e)_
 
 ### Hedging-beleid expliciet ⚖️
@@ -48,6 +51,9 @@ Vermeld het beleid voor de afdekking (hedging) van alle belangrijke soorten voor
 
 **Waarom?** Hedge accounting verandert hoe schommelingen op de resultatenrekening verschijnen. De gebruiker moet weten welke transacties afgedekt zijn en hoe.
 
+
+
+Rotex dekt 80 % van haar verwachte USD-omzet in op 12 maanden vooruit via valutatermijncontracten — vermeld in de risicoparagraaf.
 
 _Grondslag: Richtlijn 2013/34/EU art. 19, lid 2, e), i)_
 
@@ -68,9 +74,6 @@ _Grondslag: Richtlijn 2013/34/EU art. 19, lid 2, e), i)_
 > _Bron: Richtlijn 2013/34/EU art. 19, lid 2, e)_
 
 
-
-> [!todo] Voorbeeld ontbreekt voor dit concept
-> Een latere ENRICH-pass voegt een synthese-voorbeeld toe.
 
 ## Bronnen
 
