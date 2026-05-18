@@ -24,6 +24,8 @@ from typing import Optional
 
 import pdfplumber
 
+from tools.examen._vraagtekst_normalisatie import normaliseer as normaliseer_vraagtekst
+
 TOOL_ID = "vragen-extractie-v1-bibf"
 PDF_LIB = "pdfplumber"
 BASE_DIR = Path("/Users/stivni/Documents/ITAA/certificaid")
@@ -376,11 +378,12 @@ def process_examen(
         if has_answers:
             vraagtekst, antwoord = split_question_answer(block)
             correct_antwoord = truncate_motivering(antwoord) if antwoord else None
-            antwoord_motivering = antwoord
+            antwoord_motivering = normaliseer_vraagtekst(antwoord) if antwoord else None
         else:
             vraagtekst = block
             correct_antwoord = None
             antwoord_motivering = None
+        vraagtekst = normaliseer_vraagtekst(vraagtekst)
 
         vragen.append(
             build_vraag_record(

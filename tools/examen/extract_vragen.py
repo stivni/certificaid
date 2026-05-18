@@ -11,6 +11,8 @@ import pdfplumber
 from datetime import datetime
 from pathlib import Path
 
+from tools.examen._vraagtekst_normalisatie import normaliseer as normaliseer_vraagtekst
+
 TOOL_ID = "vragen-extractie-v1"
 PDF_LIB = "pdfplumber"
 BASE_DIR = Path("/Users/stivni/Documents/ITAA/certificaid")
@@ -401,7 +403,7 @@ def extract_vragen_uit_sectie(
                     break
                 pdf_pagina = i + 1  # Eerste match als fallback
 
-        vraagtekst = blok[:2000]
+        vraagtekst = normaliseer_vraagtekst(blok[:2000])
         opties = parse_opties(blok)
         subvragen = parse_subvragen(blok)
         vraagtype = detect_vraagtype(blok, opties)
@@ -537,7 +539,7 @@ def parse_2024_1(pages: list[str]) -> list[dict]:
             "vak_code_in_pdf": vak_code,
             "vak_naam_in_pdf": vak_naam,
             "vraagtype": vraagtype,
-            "vraagtekst": blok[:2000],
+            "vraagtekst": normaliseer_vraagtekst(blok[:2000]),
             "correct_antwoord": None,
             "antwoord_motivering": None,
             "themas": themas,

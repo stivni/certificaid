@@ -316,28 +316,37 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 > [!question]- ITAA 2024-1 vraag 7 (tier A)
 > 7 IFRS
+> 
 > A. Onder IAS/ IFRS zijn volgende methoden mogelijk: ( Juist/ fout)
+> 
 > A. Fifo, Lifo, gewogen gemiddelde, individueel.
+> 
 > B. Fifi, gewogen gemiddelde, individueel
+> 
 > C. Lifo, gewogen gemiddelde individueel
+> 
 > D. Fifo en gewogen gemiddelde
-> B. Richtlijn 2013/34/EU 26/06/2013, opname waardering volgens voorzichtigheidsprincipe.
-> Welke stellingen juist/ fout
-> A. Winsten mogen slechts opgenomen worden voor zover zij op balansdatum
-> gerealiseerd zijn
-> B. Verplichtingen die hun oorsprong hebben in het betrokken boekjaar of in de loop van
-> een vorig boekjaar worden opgenomen, ook als die verplichting pas worden tussen
-> balansdatum en de datum waarop de balans wordt opgesteld
-> C. Alle negatieve waarde correcties worden opgenomen ongeacht of het boekjaar met
-> winst of verlies wordt afgesloten.
-> D. Voor bepaalde categorieën van ondernemingen wordt verplicht om bepaalde VA aan
-> geherwaardeerde waarde op te nemen.
+> 
+> B. Richtlijn 2013/34/EU 26/06/2013, opname waardering volgens voorzichtigheidsprincipe. Welke stellingen juist/ fout
+> 
+> A. Winsten mogen slechts opgenomen worden voor zover zij op balansdatum gerealiseerd zijn
+> 
+> B. Verplichtingen die hun oorsprong hebben in het betrokken boekjaar of in de loop van een vorig boekjaar worden opgenomen, ook als die verplichting pas worden tussen balansdatum en de datum waarop de balans wordt opgesteld
+> 
+> C. Alle negatieve waarde correcties worden opgenomen ongeacht of het boekjaar met winst of verlies wordt afgesloten.
+> 
+> D. Voor bepaalde categorieën van ondernemingen wordt verplicht om bepaalde VA aan geherwaardeerde waarde op te nemen.
+> 
 > C. Stellingen mbt IAS / IFRS Juist/ fout
+> 
 > a. Degressieve afschrijvingen zijn toegestaan
+> 
 > b. Kosten voor voorbereiding van een terrein……?
+> 
 > c. Uitzonderlijke opbrengsten boeken is toegestaan
-> d. Afschr. MVA mag stopgezet worden wanneer reële waarde van het actief groter is
-> dan boekwaarde
+> 
+> d. Afschr. MVA mag stopgezet worden wanneer reële waarde van het actief groter is dan boekwaarde
+> 
 > D. Operationele / financiële laesing, hoe behandelen?
 
 
