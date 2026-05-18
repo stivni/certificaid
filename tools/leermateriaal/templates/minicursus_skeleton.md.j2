@@ -193,7 +193,21 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 {{ glue.examenfocus | default('<!-- TODO: Opus-glue examenfocus -->') }}
 
-{% if examenvragen %}
+{% if examenfocus_callouts %}
+### Voorbeeldvragen uit ITAA/BIBF-examens ⚖️
+
+{% for c in examenfocus_callouts %}
+> [!question]- {{ c.patroon_naam }} · {{ c.examen_id }} vraag {{ c.vraag_nr }} (tier {{ c.tier }})
+> {{ c.vraag_tekst | replace('\n', '\n> ') }}
+{% if c.antwoord_motivering %}
+>
+> > [!success]- Antwoord-motivering
+> > {{ c.antwoord_motivering | replace('\n', '\n> > ') }}
+{% endif %}
+
+{% endfor %}
+
+{% elif examenvragen %}
 {% for vraag in examenvragen %}
 > [!question]- {{ vraag.examen_id }}-vr{{ vraag.vraag_nr }} ({% if vraag.punten %}{{ vraag.punten }} pt{% else %}punten onbekend{% endif %})
 > {{ vraag.vraagtekst | replace('\n', '\n> ') }}
@@ -204,7 +218,30 @@ Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taa
 
 {% endfor %}
 {% else %}
-<!-- TODO: examenvragen via classify_vragen_naar_programmaonderdelen.py -->
+<!-- TODO: examenvragen via classify_vragen_naar_programmaonderdelen.py of examenfocus--*.json -->
+{% endif %}
+{% if voorbeeldvragen_synth %}
+### Synthetische oefenvarianten 🤖
+
+> [!info] Onderstaande vragen zijn AI-gegenereerd op basis van patronen × concepten van dit programmaonderdeel. Gebruik ze als oefening, niet als toetssteen voor wat het examen letterlijk vraagt.
+
+
+{% for v in voorbeeldvragen_synth %}
+> [!question]- {{ v.patroon_naam | default(v.id) }} 🤖
+> {{ v.vraag_tekst | replace('\n', '\n> ') }}
+{% if v.voorbeeld_oplossing %}
+>
+> > [!success]- Voorbeeld-oplossing 🤖
+> > {{ v.voorbeeld_oplossing | replace('\n', '\n> > ') }}
+{% endif %}
+{% if v.redenering %}
+>
+> > [!tip]- Redenering 🤖
+> > {{ v.redenering | replace('\n', '\n> > ') }}
+{% endif %}
+
+{% endfor %}
+
 {% endif %}
 
 ## Competentie-index
