@@ -217,6 +217,20 @@ def _programmaonderdeel_intro(programmaonderdeel_id: str) -> str:
     return ""
 
 
+def _laad_programmaonderdeel(programmaonderdeel_id: str) -> dict:
+    """Haal volledige PO-dict (niveau, taken, kenniselementen) uit programma.json."""
+    if not PROGRAMMA_FILE.exists():
+        return {}
+    try:
+        programma = json.loads(PROGRAMMA_FILE.read_text(encoding="utf-8"))
+        for po in programma.get("programmaonderdelen", []):
+            if str(po.get("code", "")) == programmaonderdeel_id:
+                return po
+    except (json.JSONDecodeError, KeyError):
+        pass
+    return {}
+
+
 def render_skeleton(
     programmaonderdeel_id: str,
     leerpad: dict,
@@ -259,6 +273,17 @@ def render_skeleton(
     # Cheatsheet-data
     alle_drempelwaarden, alle_formules, alle_vergelijkingsparen = _bouw_cheatsheet_data(records)
 
+    # Programmaonderdeel-data (niveau, taken) voor oriëntatie + taak-binding (ADR-010 §implicatie-5)
+    from tools.leermateriaal.lib.taak_binding import (
+        alle_po_taak_bindings,
+        bouw_taak_dekking,
+        niveau_toelichting,
+    )
+    programmaonderdeel_data = _laad_programmaonderdeel(programmaonderdeel_id)
+    po_niveau = programmaonderdeel_data.get("niveau", "")
+    po_niveau_toelichting = niveau_toelichting(po_niveau)
+    po_taken = programmaonderdeel_data.get("taken", [])
+
     # Verrijk hoofdstukken met competentie- en synthese-data
     hoofdstukken = leerpad.get("hoofdstukken", [])
     for hoofdstuk in hoofdstukken:
@@ -298,6 +323,31 @@ def render_skeleton(
         "examenfocus": "<!-- TODO: Opus-glue examenfocus -->",
     }
 
+    # Taak-binding per hoofdstuk (ADR-010 §implicatie-5B/5C)
+    # Records dict bevat alleen PO-records — voor competentie/synthese-records
+    # zit de record-data al in hoofdstuk['competentie'] / hoofdstuk['synthese'],
+    # dus die hoeven niet in records_dict.
+    taken_per_hoofdstuk = alle_po_taak_bindings(
+        leerpad, concepten_dict, programmaonderdeel_data
+    )
+    # Per hoofdstuk: taak-tekst voor de marker-callout
+    taak_codes_naar_tekst = {t.get("code", ""): t.get("tekst", "") for t in po_taken}
+    hoofdstuk_taak_markers = []
+    for taken_set in taken_per_hoofdstuk:
+        markers = [
+            {"code": code, "tekst": taak_codes_naar_tekst.get(code, code)}
+            for code in sorted(taken_set)
+        ]
+        hoofdstuk_taak_markers.append(markers)
+
+    # Eind-dashboard: H2-index voor sectie-nummering
+    # Vaste H2's voor oriëntatie (1=Wat verwacht, 2=Leesgids, 3=Waarom-PO),
+    # dan komen de inhoudelijke hoofdstukken vanaf H2-index 4.
+    sectie_offset = 4
+    taak_dekking = bouw_taak_dekking(
+        leerpad, concepten_dict, programmaonderdeel_data, sectie_offset=sectie_offset
+    )
+
     env = get_env()
     template = env.get_template("minicursus_skeleton.md.j2")
 
@@ -315,6 +365,11 @@ def render_skeleton(
         open_gaps=open_gaps,
         glue=glue,
         examenvragen=examenvragen or [],
+        po_niveau=po_niveau,
+        po_niveau_toelichting=po_niveau_toelichting,
+        po_taken=po_taken,
+        hoofdstuk_taak_markers=hoofdstuk_taak_markers,
+        taak_dekking=taak_dekking,
     )
 
 

@@ -7,6 +7,25 @@
 {% endfor %}
 
 {% endif %}
+{% if po_niveau or po_taken %}
+## Wat verwacht het examen van jou?
+
+{% if po_niveau %}
+> [!abstract] Dit programmaonderdeel wordt getoetst op niveau *{{ po_niveau }}*.
+> {{ po_niveau_toelichting }}
+
+
+{% endif %}
+{% if po_taken %}
+**Taken** (uit het ITAA-examenprogramma):
+
+{% for taak in po_taken %}
+- **{{ taak.code }}** — {{ taak.tekst }}{% if taak.doelstellingen %} *({{ taak.doelstellingen | length }} doelstelling{% if taak.doelstellingen | length > 1 %}en{% endif %})*{% endif %}
+
+{% endfor %}
+
+{% endif %}
+{% endif %}
 ## {{ glue.leesgids_titel | default('Leesgids') }}
 
 {{ glue.leesgids_tekst | default('<!-- TODO: Opus-glue leesgids -->') }}
@@ -16,14 +35,37 @@
 {{ glue.waarom_po_tekst | default('<!-- TODO: Opus-glue waarom_po -->') }}
 
 {% for hoofdstuk in hoofdstukken %}
+{% set markers = hoofdstuk_taak_markers[loop.index0] if hoofdstuk_taak_markers else [] %}
 {% if hoofdstuk.type in ('orientatie', 'oriëntatie') %}
 ## {{ hoofdstuk.titel }}
 
 {{ glue.orientatie[loop.index0] | default('<!-- TODO: Opus-glue oriëntatie -->') }}
 
+{% elif hoofdstuk.type == 'voorbereiding' %}
+## {{ hoofdstuk.titel }}
+
+> [!note] Voorbereidende kennis — fundament voor de taken hierna.{% if hoofdstuk.rationale_hint %} {{ hoofdstuk.rationale_hint }}{% endif %}
+
+
+{{ glue.thematisch_intro[loop.index0] | default('<!-- TODO: Opus-glue voorbereiding-intro -->') }}
+
+{% for concept_id in hoofdstuk.concepten %}
+{% if concepten_dict[concept_id] is defined %}
+{% set rec = concepten_dict[concept_id] %}
+- [[{{ concept_id }}|{{ rec.naam }}]] · `{{ rec.node_type }}`
+{% else %}
+- [[{{ concept_id }}]] — record niet gevonden
+{% endif %}
+{% endfor %}
+
 {% elif hoofdstuk.type == 'competentie' %}
 ## {{ hoofdstuk.competentie.titel }}
 
+{% if markers %}
+> [!info] Hoort bij {% if markers | length > 1 %}taken{% else %}taak{% endif %}: {% for m in markers %}**{{ m.code }}** ({{ m.tekst | eerste_zin(80) }}){% if not loop.last %} · {% endif %}{% endfor %}
+
+
+{% endif %}
 {{ glue.competentie_intro[loop.index0] | default('<!-- TODO: Opus-glue competentie-intro -->') }}
 
 [[competenties/{{ hoofdstuk.competentie_id }}|→ Volledige procedure]]
@@ -31,6 +73,11 @@
 {% elif hoofdstuk.type == 'thematisch' %}
 ## {{ hoofdstuk.titel }}
 
+{% if markers %}
+> [!info] Hoort bij {% if markers | length > 1 %}taken{% else %}taak{% endif %}: {% for m in markers %}**{{ m.code }}** ({{ m.tekst | eerste_zin(80) }}){% if not loop.last %} · {% endif %}{% endfor %}
+
+
+{% endif %}
 {{ glue.thematisch_intro[loop.index0] | default('<!-- TODO: Opus-glue thematisch-intro -->') }}
 
 {% for concept_id in hoofdstuk.concepten %}
@@ -103,6 +150,22 @@
 
 {% endif %}
 
+{% if taak_dekking %}
+## Heb je deze taken in de vingers?
+
+Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taak? Lees de aangegeven secties nog eens.
+
+{% for d in taak_dekking %}
+{% if d.status == 'gedekt' %}
+- ✓ **{{ d.taak_code }}** — {{ d.taak_tekst | eerste_zin(120) }} _Behandeld in §{{ d.sectie_nummers | join(', §') }}._
+{% elif d.cross_po %}
+- ⚠ **{{ d.taak_code }}** — {{ d.taak_tekst | eerste_zin(120) }} _Wordt elders behandeld: {{ d.cross_po }}._
+{% else %}
+- ✗ **{{ d.taak_code }}** — {{ d.taak_tekst | eerste_zin(120) }} _Nog niet expliciet gedekt in deze cursus._
+{% endif %}
+{% endfor %}
+
+{% endif %}
 ## Examenfocus
 
 {{ glue.examenfocus | default('<!-- TODO: Opus-glue examenfocus -->') }}

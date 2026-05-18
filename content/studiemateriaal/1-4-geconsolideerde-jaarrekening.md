@@ -1,12 +1,15 @@
 ---
-title: 1.4 Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening
+title: 1.4 Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde
   jaarrekening
 tags:
 - minicursus
 - po-1-4
 programmaonderdeel: '1.4'
 gerelateerde_concepten:
+- afbakenen-consolidatiekring
 - belangenpercentage
+- bepalen-consolidatieverplichting
+- berekenen-controle-en-belangenpercentage
 - consolidatiekring
 - consolidatiemethodes-vergelijking
 - consolidatieplicht-beslisboom
@@ -31,30 +34,50 @@ gerelateerde_concepten:
 - integrale-consolidatie
 - intragroep-eliminaties
 - invloed-van-betekenis
+- kiezen-consolidatiemethode
+- kwalificeren-relatie-deelneming
 - minderheidsbelangen
 - moedervennootschap
 - step-acquisition
+- toepassen-uniforme-waarderingsregels
+- uitvoeren-eerste-consolidatie
+- uitvoeren-intragroep-eliminaties
 - uniforme-waarderingsregels-consolidatie
 - vermogensmutatiemethode
+- verwerken-wijziging-consolidatiekring
 - vrijstelling-subconsolidatie
 - wijziging-consolidatiekring
-gegenereerd_op: '2026-05-16'
+gegenereerd_op: '2026-05-18'
 ---
+> [!warning]- Open beslissingen
+> De volgende gaps zijn nog open voor dit programmaonderdeel — inhoud kan onvolledig zijn:
+> - `edges.target-ontbreekt` op `consolidatieverplichting`: Drie edges van type 'contrasteert-met' zijn gedeprecieerd (niet toegelaten in schema 1.4+). Targets:…
+
+## Wat verwacht het examen van jou?
+
+> [!abstract] Dit programmaonderdeel wordt getoetst op niveau *toepassen*.
+> Je moet deze regels en begrippen kunnen toepassen op een nieuwe casus — herkennen welk concept geldt en de stappen correct uitvoeren.
+
+
+**Taken** (uit het ITAA-examenprogramma):
+
+- **1.4.taak.1** — Opstellen van de individuele en geconsolideerde jaarrekening *(7 doelstellingen)*
+
 ## Leesgids
 
-Eerst de begrippen en de plicht, daarna de methodes en de techniek. Twee synthese-hoofdstukken (beslisboom en methodes-vergelijking) dienen als overzichtskaart vóór de uitvoeringscompetenties.
+<!-- TODO: Opus-glue leesgids -->
 
 ## Waarom dit programmaonderdeel telt
 
-De enkelvoudige jaarrekening van een moeder verbergt de economische realiteit van een groep — schulden, omzet en winsten zitten verspreid over dochters. Pas consolidatie maakt zichtbaar wat de groep als geheel bezit, presteert en verschuldigd is. Daarom dwingt de wet een moeder die controle uitoefent om die geconsolideerde voorstelling te geven, zodat aandeelhouders, schuldeisers en werknemers op één beeld kunnen steunen.
+<!-- TODO: Opus-glue waarom_po -->
 
 ## Wat is consolideren? Waarom een geconsolideerde jaarrekening?
 
-Consolideren is: de groep voorstellen alsof het één vennootschap was. Dat vraagt drie bouwstenen — een moeder, één of meer dochters die ze controleert, en een afgebakende kring waarbinnen je hun cijfers samenvoegt.
+<!-- TODO: Opus-glue oriëntatie -->
 
 ## Moet ik consolideren? — Beslisboom
 
-Voor je in de begrippen duikt: hier is de kaart van het hele eerste deel — de vijf parallelle toetsen die samen bepalen of de plicht ontstaat.
+<!-- TODO: Opus-glue synthese-intro -->
 
 ```mermaid
 flowchart TD
@@ -87,54 +110,66 @@ flowchart TD
 
 ## Het fundamentele begrippenkader: controle en de actoren in een groep
 
-Controle is het scharnierbegrip: het bepaalt wie moeder is, welke entiteiten in de kring komen en welke methode geldt. De actoren hieronder zijn varianten op die ene as.
+> [!info] Hoort bij taak: **1.4.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[controle|Controle]] · `begrip`
-- [[moedervennootschap|Moedervennootschap]] · `actor`
-- [[dochteronderneming|Dochteronderneming]] · `actor`
+- [[moedervennootschap|Moedervennootschap]] · `autoriteit`
+- [[dochteronderneming|Dochteronderneming]] · `autoriteit`
 - [[exclusieve-controle|Exclusieve controle]] · `begrip`
 - [[gezamenlijke-controle|Gezamenlijke controle]] · `begrip`
 - [[invloed-van-betekenis|Invloed van betekenis]] · `begrip`
-- [[geassocieerde-onderneming|Geassocieerde onderneming]] · `actor`
-- [[gemeenschappelijke-dochteronderneming|Gemeenschappelijke dochteronderneming]] · `actor`
-- [[consortium|Consortium (horizontale groep)]] · `actor`
+- [[geassocieerde-onderneming|Geassocieerde onderneming]] · `autoriteit`
+- [[gemeenschappelijke-dochteronderneming|Gemeenschappelijke dochteronderneming]] · `autoriteit`
+- [[consortium|Consortium (horizontale groep)]] · `autoriteit`
 
 ## Bepalen of een vennootschap een geconsolideerde jaarrekening moet opstellen
 
-De plicht volgt niet uit één enkel feit maar uit een keten van toetsen — kwalificatie als vennootschap, controle, en de vrijstellingen die de wet daarop legt.
+> [!info] Hoort bij taak: **1.4.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/bepalen-consolidatieverplichting|→ Volledige procedure]]
 
 ## Afbakenen van de consolidatiekring en beoordelen van uitsluitings- of weglatingsgronden
 
-Standaard horen alle gecontroleerde dochters in de kring; uitsluitings- of weglatingsgronden zijn uitzonderingen die je expliciet moet motiveren.
+> [!info] Hoort bij taak: **1.4.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/afbakenen-consolidatiekring|→ Volledige procedure]]
 
 ## Kwalificeren van de relatie met een deelneming (controle, gezamenlijke controle of invloed van betekenis)
 
-De kwalificatie van de relatie beslist alles wat volgt: ze kiest de methode én bepaalt of je überhaupt in de kring valt.
+> [!info] Hoort bij taak: **1.4.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/kwalificeren-relatie-deelneming|→ Volledige procedure]]
 
 ## Berekenen van controle- en belangenpercentage in een ketenstructuur
 
-Twee percentages, twee logica's: controle wordt niet vermenigvuldigd in een keten, belang wel. Verwar je beide, dan kantelt de hele kwalificatie.
+> [!info] Hoort bij taak: **1.4.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/berekenen-controle-en-belangenpercentage|→ Volledige procedure]]
 
 ## De drie consolidatiemethoden: integrale, evenredige en vermogensmutatie
 
-Elke methode hoort bij één type relatie. De vierde — horizontale consolidatie — is geen aparte techniek maar de toepassing van integrale consolidatie op een consortium zonder moeder.
+> [!info] Hoort bij taak: **1.4.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
 
-- [[integrale-consolidatie|Integrale consolidatie]] · `methode`
-- [[evenredige-consolidatie|Evenredige consolidatie (proportionele consolidatie)]] · `methode`
-- [[vermogensmutatiemethode|Vermogensmutatiemethode (equity method)]] · `methode`
+<!-- TODO: Opus-glue thematisch-intro -->
+
+- [[integrale-consolidatie|Integrale consolidatie]] · `cluster`
+- [[evenredige-consolidatie|Evenredige consolidatie (proportionele consolidatie)]] · `cluster`
+- [[vermogensmutatiemethode|Vermogensmutatiemethode (equity method)]] · `cluster`
 - [[horizontale-consolidatie|Horizontale consolidatie]] · `procedure`
 
 ## De vier consolidatiemethodes vergeleken
 
-Nu de methodes elk apart zijn behandeld, vouwen we ze samen in één keuze-algoritme — als opstap naar de competentie die hierna komt.
+<!-- TODO: Opus-glue synthese-intro -->
 
 ```mermaid
 flowchart TD
@@ -161,50 +196,65 @@ flowchart TD
 
 ## Kiezen van de toe te passen consolidatietechniek per entiteit
 
-De kwalificatie is gegeven; deze competentie zet ze om in de juiste techniek per entiteit, met aandacht voor de enige beoordelingsruimte: nauwe integratie van een gemeenschappelijke dochter.
+> [!info] Hoort bij taak: **1.4.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/kiezen-consolidatiemethode|→ Volledige procedure]]
 
 ## Toepassen van uniforme waarderingsregels en hercorrigeren van enkelvoudige cijfers
 
-Voor je optelt, moet je optelbaar maken: dochters met afwijkende waarderingsregels worden hercorrigeerd zodat de geconsolideerde cijfers één consistent geheel vormen.
+> [!info] Hoort bij taak: **1.4.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/toepassen-uniforme-waarderingsregels|→ Volledige procedure]]
 
 ## Uitvoeren van de eerste consolidatie van een nieuw verworven dochter of geassocieerde onderneming
 
-De eerste consolidatie is het moment waarop de aankoopprijs wordt afgezet tegen het pro-rata eigen vermogen — wat overblijft is het consolidatieverschil, dat je nog moet toerekenen of activeren.
+> [!info] Hoort bij taak: **1.4.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/uitvoeren-eerste-consolidatie|→ Volledige procedure]]
 
 ## Uitvoeren van intragroep-eliminaties en berekenen van het aandeel van derden
 
-Onderlinge transacties tussen groepsleden zouden de groep laten verdienen aan zichzelf — die schrap je weg. Het aandeel van derden zondert af wat juridisch niet aan de moeder toebehoort, ook al staat het integraal op de balans.
+> [!info] Hoort bij taak: **1.4.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/uitvoeren-intragroep-eliminaties|→ Volledige procedure]]
 
 ## Verwerken van een wijziging in de consolidatiekring (inclusief step acquisition)
 
-Een kring is geen statisch gegeven: aankopen, verkopen en kantelpunten tussen methodes vragen elk een eigen verwerking, waarbij vooral de overgang tussen technieken een doctrinair kantelmoment is.
+> [!info] Hoort bij taak: **1.4.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+
+<!-- TODO: Opus-glue competentie-intro -->
 
 [[competenties/verwerken-wijziging-consolidatiekring|→ Volledige procedure]]
 
 ## Publicatie en rapportering: jaarrekening en jaarverslag
 
-De geconsolideerde jaarrekening en het geconsolideerd jaarverslag horen onlosmakelijk samen: cijfers en narratief vullen elkaar aan en worden samen gecontroleerd en gepubliceerd.
+> [!info] Hoort bij taak: **1.4.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[geconsolideerde-jaarrekening|Geconsolideerde jaarrekening]] · `begrip`
 - [[geconsolideerd-jaarverslag|Geconsolideerd jaarverslag]] · `begrip`
 
 ## IFRS-context: het internationale consolidatieraamwerk
 
-Voor groepen die onder IFRS rapporteren ligt het raamwerk verspreid over vier standaarden die samen het Belgische KB WVV-systeem spiegelen, met een eigen accent op het controle-begrip.
+> [!info] Hoort bij taak: **1.4.taak.1** (Opstellen van de individuele en geconsolideerde jaarrekening)
+
+<!-- TODO: Opus-glue thematisch-intro -->
 
 - [[ifrs-consolidatieraamwerk|IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12)]] · `begrip`
 
+
 ## Synthese-stappenplan
 
-Begin met de plichtsvraag: is er een moeder met controle, en als ja, geldt er een vrijstelling? Bij plicht: baken de kring af en kwalificeer elke deelneming (controle, gezamenlijke controle of invloed van betekenis). Koppel aan elke kwalificatie de juiste methode. Hercorrigeer enkelvoudige cijfers naar uniforme waarderingsregels. Voer dan de technische stappen uit: eerste consolidatie met toerekening van het consolidatieverschil, intragroep-eliminaties en berekening van het aandeel van derden. Verwerk tot slot kringwijzigingen en publiceer jaarrekening én jaarverslag samen.
+<!-- TODO: Opus-glue synthese -->
 
 ## Cheatsheet
 
@@ -240,9 +290,35 @@ Begin met de plichtsvraag: is er een moeder met controle, en als ja, geldt er ee
 | [[vermogensmutatiemethode]] | [[evenredige-consolidatie]] | Mate van integratie van de gemeenschappelijke dochter: nauw geïntegreerd → evenredig; los → vermogensmutatie. |
 | [[vrijstelling-subconsolidatie]] | [[groottecriteria-consolidatie]] | Examen-keuze-vraag: 'Welke vrijstelling beroept Aurelia zich op?' → toets eerst structuur (is er een top-moeder die al consolideert? → subconsolidatie), daarna omvang (zit de groep onder de drempels? → beperkte omvang). |
 
+
+## Heb je deze taken in de vingers?
+
+Loop deze taken na vóór je verder gaat met examenfocus. Twijfel je bij een taak? Lees de aangegeven secties nog eens.
+
+- ✓ **1.4.taak.1** — Opstellen van de individuele en geconsolideerde jaarrekening _Behandeld in §5, §6, §7, §8, §9, §10, §11, §12, §13, §14, §15, §16, §17, §18, §19._
+
 ## Examenfocus
 
-Twee denkpatronen keren terug. Eén: nooit op één feit beslissen — de plicht en de methode volgen uit een keten van toetsen, en wie te vroeg stopt verliest punten. Twee: het verschil tussen controle en belang scherp houden, want het ene stuurt de methode en het andere de verdeling tussen groep en derden.
+<!-- TODO: Opus-glue examenfocus -->
+
+> [!question]- 2008-bibf-vrB.1 (punten onbekend)
+> B.1 In een groep controleert vennootschap A twee dochters B en C.
+> Vennootschap B koopt voor 50.000,00 EUR aandelen aan die 12%
+> vertegenwoordigen van het stemrecht in C.
+> Boek deze aankoop in de onderneming B.
+>
+> _Thema's: deelneming-verbonden-onderneming, groepsstructuur_
+
+> [!question]- 2008-bibf-vrB.2 (punten onbekend)
+> B.2 De hierboven vermelde vennootschap B stelt 5 voltijdse equivalenten tewerk
+> en heeft een jaarlijkse omzet van 2.000.000 EUR. De moedervennootschap A
+> telt 120 werknemers, berekend in voltijdse equivalenten.
+> Welk schema moet / mag de vennootschap A voor haar jaarrekening
+> gebruiken?
+> Welk schema moet / mag de vennootschap B voor haar jaarrekening
+> gebruiken?
+>
+> _Thema's: jaarrekening-schema, groottecriteria, geconsolideerde-grondslag_
 
 > [!question]- 2013-1-vr3 (3.0 pt)
 > Vraag 3 … / 3 punten
@@ -261,6 +337,15 @@ Twee denkpatronen keren terug. Eén: nooit op één feit beslissen — de plicht
 > jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan
 > afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum ?
 > Antwoord
+>
+> _Thema's: consolidatie_
+
+> [!question]- 2013-2-vr4 (10.0 pt)
+> Vraag 4 … / 10 punten
+> a) Wat is een positief consolidatieverschil ?
+> Antwoord … / 2 punten
+> b) Geef de vier voornaamste oorzaken van positieve consolidatieverschillen ?
+> Antwoord … / 8 punten
 >
 > _Thema's: consolidatie_
 
@@ -298,6 +383,7 @@ Twee denkpatronen keren terug. Eén: nooit op één feit beslissen — de plicht
 >
 > _Thema's: consolidatie_
 
+
 ## Competentie-index
 
 <div class="two-column-list">
@@ -318,37 +404,46 @@ Twee denkpatronen keren terug. Eén: nooit op één feit beslissen — de plicht
 
 <div class="two-column-list">
 
-- [[minderheidsbelangen|Belangen van derden / Aandeel van derden in het resultaat (minderheidsbelangen)]] · `fenomeen`
+- [[afbakenen-consolidatiekring|Afbakenen van de consolidatiekring en beoordelen van uitsluitings- of weglatingsgronden]] · `competentie`
+- [[minderheidsbelangen|Belangen van derden (minderheidsbelangen)]] · `cluster`
 - [[belangenpercentage|Belangenpercentage]] · `begrip`
+- [[bepalen-consolidatieverplichting|Bepalen of een vennootschap een geconsolideerde jaarrekening moet opstellen]] · `competentie`
+- [[berekenen-controle-en-belangenpercentage|Berekenen van controle- en belangenpercentage in een ketenstructuur]] · `competentie`
 - [[consolidatiekring|Consolidatiekring]] · `begrip`
 - [[consolidatieverplichting|Consolidatieverplichting]] · `regel`
-- [[consolidatieverschil|Consolidatieverschil]] · `fenomeen`
-- [[consortium|Consortium (horizontale groep)]] · `actor`
+- [[consolidatieverschil|Consolidatieverschil]] · `cluster`
+- [[consortium|Consortium (horizontale groep)]] · `autoriteit`
 - [[controle|Controle]] · `begrip`
 - [[controlepercentage|Controlepercentage]] · `begrip`
 - [[consolidatiemethodes-vergelijking|De vier consolidatiemethodes vergeleken]] · `synthese`
-- [[dochteronderneming|Dochteronderneming]] · `actor`
-- [[eerste-consolidatie|Eerste consolidatie]] · `fenomeen`
-- [[evenredige-consolidatie|Evenredige consolidatie (proportionele consolidatie)]] · `methode`
+- [[dochteronderneming|Dochteronderneming]] · `autoriteit`
+- [[eerste-consolidatie|Eerste consolidatie]] · `cluster`
+- [[evenredige-consolidatie|Evenredige consolidatie (proportionele consolidatie)]] · `cluster`
 - [[exclusieve-controle|Exclusieve controle]] · `begrip`
-- [[geassocieerde-onderneming|Geassocieerde onderneming]] · `actor`
+- [[geassocieerde-onderneming|Geassocieerde onderneming]] · `autoriteit`
 - [[geconsolideerd-jaarverslag|Geconsolideerd jaarverslag]] · `begrip`
 - [[geconsolideerde-jaarrekening|Geconsolideerde jaarrekening]] · `begrip`
-- [[gemeenschappelijke-dochteronderneming|Gemeenschappelijke dochteronderneming]] · `actor`
+- [[gemeenschappelijke-dochteronderneming|Gemeenschappelijke dochteronderneming]] · `autoriteit`
 - [[gezamenlijke-controle|Gezamenlijke controle]] · `begrip`
 - [[groep-van-beperkte-omvang|Groep van beperkte omvang]] · `begrip`
-- [[groottecriteria-consolidatie|Groottecriteria voor de consolidatievrijstelling]] · `drempel`
+- [[groottecriteria-consolidatie|Groottecriteria voor de consolidatievrijstelling]] · `regel`
 - [[horizontale-consolidatie|Horizontale consolidatie]] · `procedure`
 - [[ifrs-consolidatieraamwerk|IFRS-consolidatieraamwerk (IFRS 3 / IFRS 10 / IFRS 11 / IFRS 12)]] · `begrip`
-- [[integrale-consolidatie|Integrale consolidatie]] · `methode`
+- [[integrale-consolidatie|Integrale consolidatie]] · `cluster`
 - [[intragroep-eliminaties|Intragroep-eliminaties]] · `procedure`
 - [[invloed-van-betekenis|Invloed van betekenis]] · `begrip`
-- [[moedervennootschap|Moedervennootschap]] · `actor`
+- [[kiezen-consolidatiemethode|Kiezen van de toe te passen consolidatietechniek per entiteit]] · `competentie`
+- [[kwalificeren-relatie-deelneming|Kwalificeren van de relatie met een deelneming (controle, gezamenlijke controle of invloed van betekenis)]] · `competentie`
+- [[moedervennootschap|Moedervennootschap]] · `autoriteit`
 - [[consolidatieplicht-beslisboom|Moet ik consolideren? — Beslisboom]] · `synthese`
-- [[step-acquisition|Step acquisition (trapsgewijze verwerving)]] · `fenomeen`
+- [[step-acquisition|Step acquisition (trapsgewijze verwerving)]] · `cluster`
+- [[toepassen-uniforme-waarderingsregels|Toepassen van uniforme waarderingsregels en hercorrigeren van enkelvoudige cijfers]] · `competentie`
+- [[uitvoeren-eerste-consolidatie|Uitvoeren van de eerste consolidatie van een nieuw verworven dochter of geassocieerde onderneming]] · `competentie`
+- [[uitvoeren-intragroep-eliminaties|Uitvoeren van intragroep-eliminaties en berekenen van het aandeel van derden]] · `competentie`
 - [[uniforme-waarderingsregels-consolidatie|Uniforme waarderingsregels in de consolidatie]] · `regel`
-- [[vermogensmutatiemethode|Vermogensmutatiemethode (equity method)]] · `methode`
+- [[vermogensmutatiemethode|Vermogensmutatiemethode (equity method)]] · `cluster`
+- [[verwerken-wijziging-consolidatiekring|Verwerken van een wijziging in de consolidatiekring (inclusief step acquisition)]] · `competentie`
 - [[vrijstelling-subconsolidatie|Vrijstelling van subconsolidatie]] · `regel`
-- [[wijziging-consolidatiekring|Wijziging van de consolidatiekring]] · `fenomeen`
+- [[wijziging-consolidatiekring|Wijziging van de consolidatiekring]] · `cluster`
 
 </div>
