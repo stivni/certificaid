@@ -1824,5 +1824,95 @@
     "geconstateerd_door": "concept-extractie-v4-2026-05-18T02:45Z",
     "geconstateerd_op": "2026-05-18T02:38:41.575841+00:00",
     "status": "open"
+  },
+  {
+    "record_id": "bijzondere-waardevermindering-ias-36",
+    "aspect": "voorbeeld.intern-inconsistent",
+    "reden": "De bouwsteen 'Terugneming impairment' geeft een voorbeeld waar 'boekwaarde zonder oorspronkelijke impairment' = € 5.100.000 en terugneming = € 780.000. Het record-scenario onderaan (zelfde fact-pattern: kostprijs € 10.000.000, 5 jr lineair, impairment € 1.300.000 in 2026) geeft echter € 4.500.000 (= € 8.500.000 − 2 × € 2.000.000) en terugneming = € 180.000. De € 5.100.000-cijfer in de bouwsteen volgt niet uit de gestelde feiten en spreekt het scenario tegen. Eén van beide moet aangepast worden; het scenario-cijfer is mathematisch correct.",
+    "prio": "hoog",
+    "geconstateerd_door": "verify-pass-extract-v4-2026-05-18",
+    "geconstateerd_op": "2026-05-18T08:00:00+00:00",
+    "status": "open",
+    "aspect_type": "voorbeeld.intern-inconsistent"
+  },
+  {
+    "record_id": "leasing-ifrs",
+    "aspect": "edge.gedeprecieerd-bevat",
+    "reden": "Twee 'bevat'-edges (target right-of-use-actief en sale-and-leaseback-ifrs-16) — v4 §9 schrijft voor: gedeprecieerd, gebruik inverse 'onderdeel-van' op de target-record, of (voor sale-and-leaseback) 'verwijst-naar'/'specialisatie-van'. Eerder werd alleen ias-1-jaarrekening-componenten gecleand (commit e18f084c).",
+    "prio": "midden",
+    "geconstateerd_door": "verify-pass-extract-v4-2026-05-18",
+    "geconstateerd_op": "2026-05-18T08:00:00+00:00",
+    "status": "open",
+    "aspect_type": "edge.gedeprecieerd"
+  },
+  {
+    "record_id": "ifrs-16-lessee-vs-lessor-overzicht",
+    "aspect": "edge.gedeprecieerd-bevat",
+    "reden": "Edge type 'bevat' → sale-and-leaseback-ifrs-16. v4 §9: gedeprecieerd. Vervangen door 'onderdeel-van' op sale-and-leaseback-record, of 'verwijst-naar' hier.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-pass-extract-v4-2026-05-18",
+    "geconstateerd_op": "2026-05-18T08:00:00+00:00",
+    "status": "open",
+    "aspect_type": "edge.gedeprecieerd"
+  },
+  {
+    "record_id": "right-of-use-actief",
+    "aspect": "valkuil.ontbreekt",
+    "reden": "begrip-record zonder valkuilen[]. v4 §10 noemt valkuilen 'sterk aanbevolen' voor begrip; ROU heeft duidelijke valkuilen (verschil tussen ROU en activum onder kostprijsmodel, herwaardering van ROU is niet automatisch). Pre-v4-records hebben typisch wel valkuilen — mogelijke v4-regressie.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-pass-extract-v4-2026-05-18",
+    "geconstateerd_op": "2026-05-18T08:00:00+00:00",
+    "status": "open",
+    "aspect_type": "valkuil.ontbreekt"
+  },
+  {
+    "record_id": "leaseverplichting-ifrs",
+    "aspect": "valkuil.ontbreekt",
+    "reden": "begrip-record zonder valkuilen[]. Concept heeft duidelijke valkuilen (welke betalingen tellen mee — variabele/index/optie/restwaarde; impliciete vs marginale rentevoet) die niet worden expliciet gemaakt.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-pass-extract-v4-2026-05-18",
+    "geconstateerd_op": "2026-05-18T08:00:00+00:00",
+    "status": "open",
+    "aspect_type": "valkuil.ontbreekt"
+  },
+  {
+    "record_id": "ifrs-verordening-1606-2002",
+    "aspect": "confidence.te-optimistisch",
+    "reden": "Bouwsteen 'Goedkeuringsprocedure — endorsement' labelt 'Accounting Regulatory Committee (ARC)' als grounded uit Verordening 1606/2002 art. 6. De bron noemt enkel 'regelgevend comité voor financiële verslaglegging' — de afkorting ARC en de Engelse naam zijn doctrinaire toevoeging, niet rechtstreeks in deze bron. Confidence-label dient 'inferred' of 'inferred-from-aggregation' te zijn voor de naam-claim, of de claim moet vervallen tot een verwijzing in plaats van een gelijkstelling. Inhoudelijk klopt het wel (ARC is de gangbare term).",
+    "prio": "laag",
+    "geconstateerd_door": "verify-pass-extract-v4-2026-05-18",
+    "geconstateerd_op": "2026-05-18T08:00:00+00:00",
+    "status": "open",
+    "aspect_type": "confidence.te-optimistisch"
+  },
+  {
+    "record_id": "bijzondere-waardevermindering-ias-36",
+    "aspect": "bouwsteen.eigen-record-kandidaat",
+    "reden": "'Kasstroomgenererende eenheid (CGU)' staat als bouwsteen, maar IAS 36 alinea 6 geeft het een eigen definitie en het concept wordt vanuit IFRS 8 (segmenten), IFRS 5 en goodwill-toewijzing herhaaldelijk gerefereerd. Voldoet wellicht aan v4 §5 drie-voorwaarden-test (eigen alinea, ≥3 cross-refs, 1-zin-definitie). Mogelijk eigen begrip-record nodig zodra IFRS 8-bundel in scope komt.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-pass-extract-v4-2026-05-18",
+    "geconstateerd_op": "2026-05-18T08:00:00+00:00",
+    "status": "open",
+    "aspect_type": "bouwsteen.eigen-record-kandidaat"
+  },
+  {
+    "record_id": "ifrs-toepassingsgebied-belgie",
+    "aspect": "confidence.te-optimistisch",
+    "reden": "Bouwsteen 'Enkelvoudig niveau: altijd Belgisch GAAP' draagt confidence 'inferred-from-aggregation' met source 'doctrine — Belgische boekhoudrechtelijke praktijk'. Voor de negatieve-claim (IFRS NIET toegestaan voor enkelvoudig) is concrete grondslag in KB WVV art. 3:1 of art. 3:13 ev nodig — of expliciet erkennen dat het een afgeleide is van het ontbreken van een art. 5-omzetting in Belgische wet. Inferred-label is correct, source verdient verbetering.",
+    "prio": "laag",
+    "geconstateerd_door": "verify-pass-extract-v4-2026-05-18",
+    "geconstateerd_op": "2026-05-18T08:00:00+00:00",
+    "status": "open",
+    "aspect_type": "confidence.te-optimistisch"
+  },
+  {
+    "record_id": "wijziging-boekhoudkundig-referentiestelsel",
+    "aspect": "grondslag.controle-aanbevolen",
+    "reden": "Bouwsteen 'Uitzondering — twee cumulatieve voorwaarden' verwijst naar KB WVV art. 3:58 §5 voor de 'geen-materiële-gevolgen'-uitzondering. CBN 2022/08 voetnoot verwijst doorgaans naar art. 3:6 (going concern) en art. 3:9 (consistentie) — art. 3:58 §5 betreft openbaarmaking van uitzonderingen op groottecriteria. Verifieer of 3:58 §5 hier de juiste artikelverwijzing is of dat het 3:9 of 3:11 moet zijn.",
+    "prio": "midden",
+    "geconstateerd_door": "verify-pass-extract-v4-2026-05-18",
+    "geconstateerd_op": "2026-05-18T08:00:00+00:00",
+    "status": "open",
+    "aspect_type": "grondslag.controle-aanbevolen"
   }
 ]
